@@ -357,12 +357,22 @@
       "toc_entry_id": "maso-1985-03-toc-0017",
       "title": "tips",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0017 tips is a pageless section;its three canonical child IDs0018,0019,0020,titles and parent relationships remain unchanged.",
+        "RESTORE(N)has separate title and애플tip running heading onprinted30–31/PDF32–33;LINE has separate title andSPC-1000tip onprinted32–33/PDF34–35;sprite has separate title andMSX-tip onprinted34–35/PDF36–37. All six contiguous body pages and both boundaries inspected.",
+        "PreviousPDF31 is an independent 구미전자 advertisement with no visible folio;followingPDF38 begins separate memory article andPDF39 continues it. No standalone tips body or divider exists within these reviewed boundaries.",
+        "tips organizes the three independent child articles andowns no additional body,duplicate child text or invented divider page. No canonical identity/title/parent edit."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-06/tips-classification.json",
+        "sha256": "8f146ab9fd9367553a8ee7971dae5562381549584f12ac54bee6fcabc26d4d33",
+        "bytes": 8519
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0018",
@@ -466,12 +476,50 @@
       "toc_entry_id": "maso-1985-03-toc-0020",
       "title": "꼬마 우주인의 산책",
       "parent_id": "maso-1985-03-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Opening title 꼬마 우주인의 산책 and MSX-tip at printed34/PDF36; prose and six sprite designs precede complete BASIC listing printed35/PDF37.",
+        "Final790DATA and terminal mark onPDF37 precede separate 얼마 만큼의 기억장치가 필요한 것인가? openingprinted36/PDF38. PDF39/printed37 continues memory article. All intervening pages viewed.",
+        "PrecedingPDF35/printed33 is LINE ending; no global folio offset inferred.",
+        "Listing read left column top-to-bottom then right column. Physical line520 ends left and continues at top right before530. DATA digit pairs split by physical wraps remain independent fragments.",
+        "tips canonical heading has three canonical children; body ownership reviewed separately using prior source boundaries."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-06-r01/sprite",
+        "article_id": "scan-maso-1985-03-toc-0020",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-06-r01/sprite/manifest.json",
+          "sha256": "b329399f5ee3c9038c4e8bfe553a8242c68f3cf0313dfa318d02b69e3d2aa255",
+          "bytes": 9362
+        },
+        "coverage": {
+          "pdf_pages": [
+            36,
+            37
+          ],
+          "printed_pages": [
+            "34",
+            "35"
+          ],
+          "regions": 15,
+          "blocks": 11,
+          "figures": 4
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-06/validation.json",
+          "sha256": "ecb8f5f57eb49ab9b4b1f1e58fe0d5ae99cb0f5dfded246d1502c3432645965a",
+          "bytes": 1732
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-06/reproduction.json",
+          "sha256": "6f579f2614add66328da160860d38a0ff372a914286045bb3bfc37a30e508423",
+          "bytes": 1301
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0021",
@@ -784,10 +832,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
-    "non_owning_headings": 0,
-    "unresolved_eligibility": 42
+    "non_owning_headings": 1,
+    "unresolved_eligibility": 40
   },
   "checkpoints": [
     {
@@ -993,6 +1041,48 @@
       "started_at": "2026-10-22T10:13:22.229081+00:00",
       "finished_at": "2026-10-22T10:35:30.609575+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include waits and gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-06",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0020",
+        "maso-1985-03-toc-0017"
+      ],
+      "mapped_pdf_pages": [
+        36,
+        37
+      ],
+      "outside_map_lookup_pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 11,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-06/validation.json",
+        "sha256": "ecb8f5f57eb49ab9b4b1f1e58fe0d5ae99cb0f5dfded246d1502c3432645965a",
+        "bytes": 1732
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-06/verification-completed.json",
+        "sha256": "c6fb5bd78ea6de839cc6c05e4e813ce31ae20302fe4e405e0a3a1c684240e37f",
+        "bytes": 1345
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-06-preserved-work.json",
+        "sha256": "4cc25fe42c32a5c37e6183918afd0c01c0140ce39b0218ecee21f98cc38d5dba",
+        "bytes": 771308
+      },
+      "started_at": "2026-10-22T10:40:59.062625+00:00",
+      "finished_at": "2026-10-22T10:51:45.475944+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include waits,gaps andenvironment recovery;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1142,29 +1232,57 @@
     },
     {
       "pdf_page": 36,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0020"
       ],
-      "printed_page": "34",
+      "printed_page": "34"
+    },
+    {
+      "pdf_page": 37,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0020"
+      ],
+      "printed_page": "35"
+    },
+    {
+      "pdf_page": 38,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0022"
+      ],
+      "printed_page": "36",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 39,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0022"
+      ],
+      "printed_page": "37",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-06",
-    "goal": "Verify and restore 꼬마 우주인의 산책;classify canonicaltips heading only after reviewing its three canonical children and source boundaries.",
+    "id": "batch-07",
+    "goal": "Verify actual extent andrestore 얼마만큼의 기억장치가 필요한 것인가? within six mapped pages;segment if longer.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0020",
-      "maso-1985-03-toc-0017"
+      "maso-1985-03-toc-0022"
     ],
-    "mapping_targets": "Sprite article openingprinted34/PDF36 verified;actual end and following page pending. tips heading ownership still unresolved.",
+    "mapping_targets": "Openingprinted36/PDF38 andcontinuationprinted37/PDF39 observed;actual end andfollowing article pending inspection. No global offset inferred.",
     "provisional_lookup_targets": [
-      35,
-      36,
       37,
       38,
-      39
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "limits": {
       "articles": 2,
@@ -1177,8 +1295,9 @@
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and punctuation approximations retain original scans.",
     "QA screens retain original pixels with detailed output transcription pending volunteers;thirteen unknown decorative bands and localized source errors remain explicit.",
-    "42 canonical entries lack checked selected packages or final heading classification;remaining source-page accounting is incomplete.No global folio offset inferred.",
-    "RESTORE retains two explicit prefix-glyph markers andone unknown decorative band;LINE coordinate-gap widths,GC1181 andother candidates remain source-linked. No source code execution certification."
+    "RESTORE retains two explicit prefix-glyph markers andone unknown decorative band;LINE coordinate-gap widths,GC1181 andother candidates remain source-linked. No source code execution certification.",
+    "40 canonical entries lack checked selected packages orfinal heading classification;remaining source-page accounting incomplete.No global folio offset inferred.",
+    "Sprite retains subtitle-mark/ellipsis placeholders,boxed-digit Unicode approximations andB8/BB,C2 candidates. DATA pairs are opaque printed candidates;no sprite bitmap orcode execution certification."
   ],
   "reader_rebuild": false
 }

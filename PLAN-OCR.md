@@ -19,17 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: six of 48 entries are readable/sample-reviewed;
-  42 remain unresolved. RESTORE(N) and LINE are complete on printed30–33/PDF32–35;
-  earlier articles cover printed17–28/PDF19–30. Batch05's 211 files match independent
-  rebuilds; 2,866 exact UTF-8 ranges validate. All 2,436 prior files remain exact;
-  the unchanged pipeline reuses the passing 213-test baseline. Next: verify
-  canonical0020 꼬마 우주인의 산책 from printed34/PDF36 and resolve canonical0017
-  tips ownership from its three children/source boundaries. Reuse PDF35/36 within
-  two tasks/six mapped pages/twenty outside lookups. Cover selection,
-  source-page accounting and issue closeout remain pending. Follow
-  [March's log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
+- March 1985 is in progress: seven of 48 entries are readable/sample-reviewed,
+  tips is a non-owning heading and 40 remain unresolved. Sprite article 꼬마 우주인의
+  산책 is complete on printed34–35/PDF36–37. Batch06's 57 files match its independent
+  rebuild; 1,912 exact UTF-8 ranges and 1,507 evidence pins validate. All 3,322 prior
+  files and 30 implementation pins remain exact. Fresh 213 PDF tests pass with the
+  recreated `.venv` using installed system packages. Next: verify canonical0022
+  얼마만큼의 기억장치가 필요한 것인가? from printed36/PDF38; printed37/PDF39
+  continuation is observed. Reuse PDF37–39; retain two tasks/six mapped pages/twenty
+  outside lookups and segment if needed. Cover selection, source-page accounting
+  and issue closeout remain pending. Follow [March's log](docs/progress/8503.md)
+  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
