@@ -26,17 +26,18 @@ records below are historical and do not authorize a new rebuild.
 
 Eight of 48 entries are readable and assistant sample-reviewed; tips is a
 non-owning heading, 통신의 개념 is partial, and 38 entries remain unresolved.
-Batch08 restores its opening printed42–47/PDF44–49 as an immutable first native.
-The full article spans printed42–49/PDF44–51, ending before the printer article
-at PDF52. FinalPDF50–51 and complete assembly remain pending. All 142 native
-package files match the independent rebuild; 2,965 exact UTF-8 ranges and 3,112
-pins validate. All 4,212 prior files and 30 implementation pins remain exact;
-the unchanged pipeline reuses batch06's passing 213-test baseline.
-Next: restore finalprinted48–49/PDF50–51, preserving the incoming100%믿을만
-continuation and first native. Reuse saved PDF49–52 views; assemble separately
-before readable promotion. Keep two-task/six-page limits. Cover selection,
-source-page accounting and issue closeout remain pending. Details:
-[March log](docs/progress/8503.md) and
+Both immutable communication natives now cover printed42–49/PDF44–51. Batch09
+restores final48–49/PDF50–51: all60 files match the independent rebuild;1,406 exact
+UTF-8 ranges and1,460 pins validate. Six table rows/48 fields/nine headers,nine
+figure labels andone unknown binary-signal band retain their original scans.
+The incoming100%믿을만 continuation andthree internal joins pass. All4,859 prior
+files and30 implementation pins remain exact. Fresh environment verification
+passes all213 PDF tests. Complete article assembly remains pending.
+Next: assemble the complete article from immutablecommunication-a/b,then classify
+parent0021 마이크로 컴퓨터의 새로운 물결 against both children andthe source extent.
+Use a separate two-task checkpoint with no new mapping/OCR;reuse PDF37–52 views
+within the twenty-lookup limit. Cover selection,source-page accounting andissue
+closeout remain pending. Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 ## February 1985 closeout, 2026-10-22

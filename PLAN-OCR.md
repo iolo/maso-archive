@@ -20,15 +20,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March 1985 is in progress: eight of 48 entries are readable/sample-reviewed,
-  tips is a non-owning heading, communication is partial and 38 remain unresolved.
-  Batch08's first native covers printed42–47/PDF44–49; full extent42–49/PDF44–51
-  is verified. FinalPDF50–51 and complete assembly remain pending. All142 native
-  files match the independent rebuild;2,965 exact UTF-8 ranges and3,112 pins pass.
-  All4,212 prior files and30 implementation pins remain exact. The unchanged
-  pipeline reuses batch06's passing213-test baseline. Next: restore finalprinted
-  48–49/PDF50–51 with the incoming100%믿을만 continuation, then assemble separately.
-  Reuse PDF49–52 and retain two tasks/six mapped pages/twenty outside lookups.
-  Cover selection,source-page accounting andissue closeout remain pending. Follow
+  tips is non-owning, communication is partial and38 remain unresolved. Both
+  immutable communication natives now cover printed42–49/PDF44–51. Batch09's
+  final48–49/PDF50–51 package matches its independent rebuild across60 files;
+  1,406 UTF-8 ranges/1,460 pins,48 table fields/nine headers,nine figurelabels,
+  three internal joins andthe incoming100%믿을만 continuation pass. One unknown
+  binary-signal band retains its original image andexplicit placeholder.
+  All4,859 prior files/30 core pins remain exact;fresh environment checks pass
+  all213 PDF tests. Next: complete assembly from immutablecommunication-a/b and
+  classify parent0021 against both restored children. No new mapping/OCR;reuse
+  PDF37–52 within the two-task/twenty-lookup limit. Cover selection,remaining
+  source accounting andissue closeout remain pending. Follow
   [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

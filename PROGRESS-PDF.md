@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: eight of 48 entries are readable and assistant
-sample-reviewed, tips is non-owning, communication is partial and38 entries
-remain unresolved. Batch08 restores its first printed42–47/PDF44–49 native;
-full extent42–49/PDF44–51 is verified. FinalPDF50–51 andcomplete assembly remain
-pending. All142 native files match the independent rebuild;2,965 exact UTF-8
-ranges and3,112 pins validate. All4,212 prior files and30 implementation pins
-remain exact;the unchanged pipeline reuses batch06's passing213-test baseline.
-Next: restore finalprinted48–49/PDF50–51 andincoming100%믿을만 continuation;
-then assemble separately before readable promotion. Reuse PDF49–52 within normal
-limits. Cover selection,source-page accounting andissue closeout remain pending.
-See [March's log](docs/progress/8503.md) and
+March 1985 is in progress: eight of48 entries are readable/sample-reviewed,tips
+is non-owning,communication is partial and38 remain unresolved. Both immutable
+communication natives cover printed42–49/PDF44–51. Batch09 final48–49/PDF50–51
+matches its independent rebuild across60 files;1,406 exact UTF-8 ranges/1,460 pins
+validate. Six table rows/48 fields/nine headers,nine figurelabels andone unknown
+signal band retain source scans. Incoming100%믿을만 andthree internal joins pass.
+All4,859 prior files/30 core pins remain exact;fresh environment checks pass all213
+PDF tests. Next: separate fullarticle assembly andparent0021 classification against
+both restored children. No new mapping/OCR;reuse PDF37–52 within normal bounds.
+Cover selection,source accounting andissue closeout remain pending. See
+[March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
