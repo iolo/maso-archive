@@ -24,24 +24,26 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-Nine of 48 entries are readable and assistant sample-reviewed; two headings are
-non-owning, printer is partial and 36 entries remain unresolved. Both immutable
-printer natives now cover printed50–60/PDF52–62. Batch12 restores final56–60:
-all366 files match the independent rebuild;3,484 exact UTF-8 ranges and3,803 pins
-validate. It retains107 physical code rows/98 BASIC labels,three terminal fragments,
-12 program/output associations,24 caption links andeight country-table rows.
-The incoming output12→13, repeated line10, blank result, reversed source captions,
-four bracket candidates and21 unknown bands retain their scans. LowerPDF61 notices
-are excluded from printer body; eligible upper portion andfolio have separate images.
-All7,264 prior files and30 core pins remain exact;the fresh213-test baseline remains
-valid. No final printer body pages remain pending;complete assembly is still required.
-Next: assemble printer-a/b, preserving all732 native files andtheir full metadata.
-Resolve the incoming output/caption association in a separate checkpoint with no
-mapping/OCR. Parent0024 교육입문 hasfive children;it stays unresolved while the other
-four await restoration. MAT0026 follows printer assembly. Cover selection,source
-accounting andissue closeout remain pending. Details:
-[March log](docs/progress/8503.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+Ten of 48 entries are readable and assistant sample-reviewed; two headings are
+non-owning, no articles are partial and 36 entries remain unresolved.
+프린터 활용방법 is complete across printed 50–60 / PDF 52–62. Its 741-file
+assembly matches the independent rebuild and preserves all 732 native files
+exactly. All 8,111 active UTF-8 ranges and 17,338 evidence pins validate. The
+package retains 210 regions, 168 blocks, 42 originals, 201 physical code rows,
+181 BASIC label occurrences, 48 caption links and 24 program/output associations.
+The output12→13 continuation and prior caption are resolved; repeated line10,
+blank result, reversed captions, 67 unknown bands and all source candidates remain.
+LowerPDF61 notices stay excluded. No printer body pages or assembly are pending.
+All 8,809 prior files and 30 core pins remain exact; the unchanged pipeline reuses
+its fresh 213-test baseline. A pinned private dispatcher checks both March
+assembly formats for future JSON/assets issue exports. No reader rebuild.
+Next: verify CP/M에서 사용 가능한 MAT 명령어 패키지 from printed62/PDF64,
+then restore a bounded first segment. Reuse PDF63–65 and inspect each following
+page and the actual end before mapping at most six pages. Keep the normal two-task,
+six-page and twenty-lookup limits. Parent0024 has five children and remains
+unresolved. Cover selection, source accounting and issue closeout remain pending.
+Details: [March log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
 ## February 1985 closeout, 2026-10-22
 

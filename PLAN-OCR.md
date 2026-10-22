@@ -19,20 +19,20 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: nine of48 entries are readable/sample-reviewed,
-  two headings are non-owning,printer is partial and36 remain unresolved. Both
-  immutable printer natives cover printed50–60/PDF52–62. Batch12's final56–60
-  package matches its rebuild across366 files;3,484 ranges/3,803 pins pass.
-  It retains107 physical code rows/98 BASIC labels,three terminal fragments,
-  12 program/output associations,24 captions,eight table rows and21 unknown bands.
-  Incoming output12→13,repeatedline10,blankresult,sourcecaptionreversal andfour
-  bracket candidates stay source-linked. LowerPDF61 notices excluded;upperbody
-  andfolio retained separately. All7,264 prior files/30 core pins remain exact;
-  the fresh213-test baseline is unchanged. Next: separate complete assembly from
-  printer-a/b,retaining all732 native files andresolving priorcaption association.
-  No mapping/OCR. Parent0024 hasfive children andremains unresolved while the
-  otherfour await restoration. MAT0026 follows. Cover selection,remaining source
-  accounting andissue closeout remain pending. Follow
+- March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
+  two headings are non-owning, no articles are partial and 36 remain unresolved.
+  Printer is complete at printed50–60/PDF52–62. All 741 assembly files match the
+  independent rebuild, including 732 exact native files. All 8,111 active ranges
+  and 17,338 pins pass. The prior output/caption association is resolved; repeated
+  line10, blank result, reversed captions, 67 unknown bands and mixedPDF61
+  exclusions remain source-linked. All 8,809 prior files and 30 core pins remain
+  exact; the fresh 213-test baseline is unchanged. Use the pinned batch13 private
+  dispatcher for both March assembly formats in issue JSON/assets exports.
+  Next: verify MAT0026 from printed62/PDF64 and restore a bounded first segment.
+  Reuse PDF63–65; inspect every following page and actual end before mapping.
+  Keep two tasks/six mapped pages/twenty outside lookups. Parent0024 remains
+  unresolved with four further children pending. Cover selection, source
+  accounting and issue closeout remain pending. Follow
   [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
