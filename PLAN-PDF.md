@@ -26,23 +26,23 @@ records below are historical and do not authorize a new rebuild.
 
 Ten of 48 entries are readable and assistant sample-reviewed; one article is
 partial, two headings are non-owning and 35 entries remain unresolved.
-MAT0026 is verified across printed62–76/PDF64–78. The first native covers
-printed62–67/PDF64–69: all 288 selected files match the independent rebuild.
-Its 5,034 exact UTF-8 ranges and 5,263 evidence pins pass. The 84 regions,
-65 blocks and 19 originals retain 74 matrix values, 21 opaque memory-dump rows/
-164 hex fields, two tables/20 rows, three captions and 24 BASIC label occurrences.
-Physical wraps, source errors, 23 localized candidates and 30 unknown bands remain.
-All 10,315 prior files and 30 core pins are unchanged. Fresh PDF tests pass 213/213.
+MAT0026 now has validated opening/middle natives across printed62–73/PDF64–75.
+The middle printed68–73/PDF70–75 package matches its independent rebuild across
+all 196 files. All 9,757 exact UTF-8 ranges and 9,927 evidence pins pass. Its
+64 regions/41 blocks/23 originals retain 364 physical code rows, 351 BASIC labels,
+17 listing fragments, ten program associations and six code continuations.
+The incoming multi-drive paragraph is verified; the opening's 288 files remain exact.
+Source discrepancies, 29 localized candidates and four unknown bands remain.
+All 12,164 prior files and 30 core pins pass; the fresh 213-test baseline is reused.
 
 Printer remains complete across printed50–60/PDF52–62. The pinned batch13
 private dispatcher checks both completed March assembly formats. No reader rebuild.
-Next: restore MAT's middle printed68–73/PDF70–75, reusing the retained views and
-checking the incoming multi-drive paragraph. FinalPDF76–78 and separate complete
-assembly follow. PDF78 ends in the upper portion above an independent advertisement;
-PDF79 is advertising and PDF80 opens CP/M의 진수. Keep the normal two-task,
-six-page and twenty-lookup limits. Parent0024 has five children and remains
-unresolved. Cover selection, source accounting and issue closeout remain pending.
-Details: [March log](docs/progress/8503.md) and
+Next: restore MAT's final printed74–76/PDF76–78, reusing saved views and checking
+LINEAR260→270. PDF78 upper body ends above an independent advertisement; retain
+its folio separately if needed. Complete MAT assembly follows separately. Keep
+the normal two-task, six-page and twenty-lookup limits. Parent0024 has five
+children and remains unresolved. Cover selection, source accounting and issue
+closeout remain pending. Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
 ## February 1985 closeout, 2026-10-22
