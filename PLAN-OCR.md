@@ -20,23 +20,23 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March 1985 is in progress: eleven of 48 entries are readable/sample-reviewed,
-  no articles are partial, two headings are non-owning and 35 remain unresolved.
-  MAT0026 is complete, printed62–76/PDF64–78. All 600 assembly files match the
-  independent rebuild, including 591 exact native files. All 26,454 active UTF-8
-  ranges and 47,223 pins verify; all native supplemental arrays/objects reverse
-  exactly to their originals. The complete article retains 183 regions/127 blocks/
-  56 originals, 644 physical code rows, 558 BASIC labels, 104 matrix values,
-  two FCB tables, opaque DDT data, five caption links and 14 complete program
-  associations. Both inter-segment links resolve without text joining. LINEAR270
-  uses+; the earlier semicolon cue stays historical. MixedPDF78 lower advertising
-  stays excluded; upper body/terminal mark/folio76 are separate originals.
-  No new mapping/OCR/source correction. All 13,547 prior files and 30 core pins
-  pass; all 213 PDF tests were freshly rerun. Preservation includes 14,776 files.
-  Next: verify full CP/M의 진수 extent and restore its first bounded segment from
-  the previously observed PDF80 opening. Use the pinned batch17 dispatcher for
-  all three completed March private formats. Parent0024, cover selection, source
-  accounting and issue closeout remain pending. Follow [March's log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+  one article is partial, two headings are non-owning and 34 remain unresolved.
+  CP/M의 진수 0027 spans printed 78–89/PDF80–91. Its opening printed 78–83/PDF80–85
+  native matches the independent rebuild across 209 files; all 3,903 exact UTF-8
+  ranges, 4,069 pins and 59 images pass. Its 47 blocks/12 originals retain 13 memory
+  diagram labels, five listing panels/captions, 34 code rows, eight prose joins,
+  29 source candidates and two unknown bands. All 59 initial exact crops and three
+  repairs viewed before 47 tasks(6 eng/41 kor+eng); all 47 drafts read before one source
+  pass. No failure/retry/engine change. One metadata-only revision excludes
+  editorial marker words from opaque source fields; source readings unchanged.
+  All 14,776 prior files/30 core pins pass; fresh 213-test batch17 baseline reused.
+  Preservation inventory contains 15,919 files. MAT remains complete.
+  Next: restore final PDF86–91 from saved views, then assemble CP/M separately.
+  PDF91 has BDS-C running header despite CP/M conclusion; retain it. PDF92 opens
+  BDS-C. Use pinned batch17 dispatcher for existing completed private formats.
+  Parent 0024, cover selection, source accounting and issue closeout remain pending.
+  Follow [March's log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

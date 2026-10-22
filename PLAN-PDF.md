@@ -24,27 +24,26 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-Eleven of 48 entries are readable and assistant sample-reviewed; no articles are
-partial, two headings are non-owning and 35 entries remain unresolved.
-MAT0026 is complete, printed62–76/PDF64–78. The assembled package and independent
-rebuild match across all 600 files, including 591 exact native files. All 26,454
-active UTF-8 ranges and 47,223 evidence pins pass; every supplemental native
-array/object reverses exactly to its original. The complete article retains
-183 regions, 127 blocks, 56 originals, 644 physical code rows, 558 BASIC labels,
-104 matrix values, two FCB tables, opaque DDT data and five printed caption links.
-Both cross-segment links resolve without changing literal fragments. LINEAR270's
-selected+ reading stays separate from the historical semicolon lookup cue.
-LowerPDF78 advertising remains excluded; upper body, terminal mark and folio76
-are separate originals. All 13,547 prior files and 30 core pins pass; all 213 PDF
-tests were freshly rerun. The preservation inventory contains 14,776 files.
+Eleven of 48 entries are readable and assistant sample-reviewed; one article is
+partial, two headings are non-owning and 34 entries remain unresolved.
+CP/M의 진수0027 is verified as printed78–89/PDF80–91. Its opening native,
+printed78–83/PDF80–85, matches the independent rebuild across all 209 files.
+All 3,903 exact UTF-8 ranges, 4,069 evidence pins and 59 image decodes pass.
+It retains 47 text blocks/12 originals, all13 memory-diagram labels, lists1–5
+with five actual caption links, 34 physical code rows, eight prose continuations,
+29 localized source candidates and two unknown-count bands. Address/opcode and
+source spelling/grammar discrepancies stay literal. One metadata-only revision
+excludes editorial placeholder words from printed-code fields; readings unchanged.
+All 14,776 prior files and 30 core pins pass; the fresh213-test batch17 baseline
+is reused. Preservation inventory contains 15,919 files. MAT remains complete.
 
-Next: verify the full extent and restore the first bounded segment of CP/M의 진수,
-canonical0027, from the previously observed PDF80 opening. Do not infer a global
-folio offset. Use the pinned batch17 dispatcher for all three completed March
-private assembly formats. Parent0024 has five children and remains unresolved;
-cover selection, source accounting and issue closeout remain pending. No reader
-rebuild. Details: [March log](docs/progress/8503.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
+Next: restore final printed84–89/PDF86–91 from saved views, then assemble CP/M
+separately. Its final PDF91 running header says BDS-C despite concluding CP/M;
+retain that source discrepancy. PDF92 starts BDS-C. The pinned batch17 dispatcher
+checks all three existing completed March private formats. Parent0024 has five
+children and remains unresolved; cover selection, source accounting and issue
+closeout remain pending. No reader rebuild. Details: [March log](docs/progress/8503.md)
+and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
 ## February 1985 closeout, 2026-10-22
 
