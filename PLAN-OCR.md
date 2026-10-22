@@ -19,26 +19,23 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 remains in progress:13 readable/sample-reviewed,no partial articles,
-  two non-owning headings and33 unresolved entries. BDS-C0028 is complete across
-  PDF92–104/visible90–101 plus finalnullfolio. All557 assemblyfiles match rebuild,
-  including548 exactnativefiles. All10,406 activeUTF-8 ranges/21,349 pins/158images
-  verify;84 arrayslices/19objectprojections reverseexactly tofullnative metadata.
-  Complete article retains121blocks/37originals,485code/session/function-name rows,
-  96inline/template rows,22printedCrowlabels,17listingpanels,twoactualcaptionlinks,
-  bothdiagramtranscripts andalltable/library/formulafields. Twelve stagenotes and
-  bothincomingassociations resolvedonlyinactive scope withoutencodedjoins;allnative
-  files/metadatastayexact. Currentbodymovemem matches priortable;earlierstagedmovmem
-  anticipation remainshistorical. All88candidates/sixunknownbands retainedliteral.
-  Finalupper104/TY/keyboard/terminalmark preserved,loweradexcluded,folionull.
-  All21,468priorfiles/30corepins pass;unchanged213-test environmentbaseline reused.
-  Preservationinventory22,607files. No newmapping/OCR/sourcecorrection forassembly.
-  Usepinnedbatch24assembly_dispatch.py forallfivecompletedMarchprivateformats.
-  Next:boundedactualextent reviewofnumeric0029 fromobservedPDF106;mapfirstsegment
-  onlyafterending/continuity/adjacentsverified. Ifendingnotreachedwithin20outside
-  lookups,saveboundary-reviewcheckpoint andcontinueverificationbeforemapping/OCR.
-  Parent0024,cover,sourceaccountingandissuecloseoutpending. Follow [March log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March 1985 remains in progress:13 readable/sample-reviewed,onepartial,two
+  non-owning headings and32 unresolved. Numeric0029 actualextent106–114/104–112
+  verified with11views105–115;final114 terminal/footnote2 andadjacent115 separate
+  specialfeatureopening establishending. Firstnative106–111 ispartial:all270files
+  match rebuild;5,338ranges/5,634pins/81images pass. Sixtyblocks/21originals retain
+  115code/outputrows,51BASIClabels,90outputcells/18headers,44formularows,44diagram
+  labelrows,eightcaptions/ninesubparts. Sourcefigure5/7methodheaders,numericstrings,
+  spelling/formulaglyphs remainliteral;40candidates/36unknownbands explicit.
+  All81crops viewedbefore60tasks(9eng/51kor+eng);allraws readbeforeonecorrectionpass.
+  ZeroOCRfailures/retries. Onelexicalindexrevision fixesquote-adjacentmarkerfiltering;
+  source/maps/crops/raws/readings/blocks/downloads unchanged;failedverifier retained.
+  All22,607priorfiles/24inventories/30corepins pass;freshenvironment213tests pass.
+  Newinventory24,364files. FivecompletedMarchprivateformats stillpass withpinned
+  batch24assembly_dispatch.py. Next:finalthreepagenative112–114,thencompleteassembly.
+  Keep111그/112림11 sourcecontinuation explicit. Parent0024,cover,sourceaccounting
+  andissuecloseout pending. Follow [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

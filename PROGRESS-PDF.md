@@ -7,34 +7,35 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 13 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, two headings are non-owning and 33 entries
-remain unresolved. BDS-C0028 is complete across PDF92–104, visible90–101 and a final
-unobserved/null folio. Its 557-file assembly matches the independent rebuild and
-retains all 548 exact native files. No BDS-C body pages or assembly remain pending.
+sample-reviewed, one article is partial, two headings are non-owning and 32 entries
+remain unresolved. 수치 해석0029's actual extent is verified as PDF106–114,
+visible104–112. Final114 has the Bairstow listing, root output, closing discussion,
+footnote2 and terminal mark. Adjacent115 opens a separate special feature,
+베이직과 기계어의 만남(3); it is outside this article.
 
-All 10,406 active UTF-8 ranges, 21,349 evidence-pin occurrences and 158 image crops
-verify. All 84 supplemental array slices and 19 object projections reverse exactly
-to native metadata. The complete article retains 121 blocks/37 originals, 485 code/
-session/function-name rows, 96 inline/template rows, 22 printed C row labels,
-17 listing panels, two actual caption links, both diagram transcripts and all table,
-library and formula fields. Twelve stage notes and both incoming associations are
-resolved in active complete scope without joining text or changing native metadata.
-Current body movemem matches the prior table; the staged movmem anticipation remains
-historical. All 88 source candidates and six unknown-count bands stay explicit.
+The first six-page native, PDF106–111/visible104–109, is complete as a partial
+article package. All270 selected files match the independent rebuild. All5,338
+UTF-8 ranges,5,634 evidence pins and81 image crops verify. Sixty corrected blocks
+and21 originals retain389 physical text rows,115 code/output rows,51 BASIC line
+labels,90 output cells/18 headers,44 formula rows,44 diagram-label rows,eight
+actual caption links andnine subpart labels. Printed figure5/7 method-header
+conflicts,78251716/78251726,1 2 stopping condition andother source candidates
+remain literal. Forty local candidates and36 unknown-count bands stay explicit.
 
-Final104 upper article, TY output, keyboard discussion and terminal mark are retained;
-lower advertising is excluded and folio remains null. All 21,468 prior files and
-30 core pins pass; unchanged 213-test environment baseline reused. Preservation
-inventory contains 22,607 files. Use pinned batch24 assembly_dispatch.py for all five
-completed March private formats. No new mapping, OCR or source correction for assembly.
+All22,607 prior files,24 prior inventories and30 core pins pass. The fresh .venv
+environment check passes213 PDF tests. One lexical-index correction excludes
+editorial marker words while retaining adjacent quotes/statement tails; maps,
+raw OCR,regional readings,blocks anddownloads stay unchanged. All attempts remain
+preserved;the new inventory contains24,364 files. Five completed March private
+assembly formats still pass using pinned batch24 assembly_dispatch.py.
 
-Next: verify 수치 해석0029's actual extent from observed PDF106 in bounded source
-lookups, then restore its first segment. If its ending cannot be verified within
-20 outside-map lookups, save a source-review checkpoint and continue verification
-before mapping/OCR. TOC references are lookup cues. Parent0024 still awaits this
-fifth child and group-boundary checks; cover selection, source accounting and issue
-closeout remain pending. CP/M, MAT, printer and communication stay complete.
-No reader rebuild.
+Next: restore finalPDF112–114/visible110–112 from saved source views, then assemble
+the complete article separately. Native111 ends그 before112림11;preserve the source
+word continuation andimmutable opening native. Parent0024 still awaits this fifth
+child andgroup-boundary checks. Cover selection,all244-page source accounting and
+issue closeout remain pending. BDS-C,CP/M,MAT,printer andcommunication stay complete.
+Human acceptance,fullproofreading,source encoded bytes andexecution remain
+unverified. No reader rebuild.
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
