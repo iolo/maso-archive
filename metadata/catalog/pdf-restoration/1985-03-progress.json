@@ -203,15 +203,26 @@
       "toc_entry_id": "maso-1985-03-toc-0007",
       "title": "QA",
       "parent_id": "maso-1985-03-toc-0003",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null,
-      "work_in_progress": {
-        "stage": "mapped-ocr-drafts-read",
-        "source_extent": {
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF26/printed24 opens QA with original key-ring photograph and introductory notice; precedingPDF25/printed23 ends reader letters.",
+        "PDF27–30/printed25–28 continue ten QA items,ending assembler-print reply and terminal mark. PDF31 is independent 구미전자 advertisement with no visible folio;PDF32/printed30 begins RESTORE(N). No printed29body inferred.",
+        "All five actual article pages inspected;five mapped pages,three outside lookups(25,31,32),one canonical task.",
+        "Reading order is left then right on each page. Questions2,4,5,6,8,9 have explicit page/column continuations. Source assembly ordinals0000–0036 are not BASIC labels.",
+        "Two CP/M output panels remain original images;one printed caption links second panel. All five complete original pages preserve source rules,boxed keys,call arrows,listing panels and photograph."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-04-r01/qa",
+        "article_id": "scan-maso-1985-03-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-04-r01/qa/manifest.json",
+          "sha256": "d783fe05fdce5dd70620ad9c188cbce96040a6b779b21e313cd5767f2378370b",
+          "bytes": 45861
+        },
+        "coverage": {
           "pdf_pages": [
             26,
             27,
@@ -225,20 +236,22 @@
             "26",
             "27",
             "28"
-          ]
+          ],
+          "regions": 72,
+          "blocks": 65,
+          "figures": 7
         },
-        "selected_map": {
-          "path": "archive/pdf/1985-03/restoration/batch-04/qa/map-r02.json",
-          "sha256": "cc45b1c2f1877af0a60f3a9fa2160247049a460113bb4a3ed3b83318def9aa85",
-          "bytes": 25709
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-04/validation.json",
+          "sha256": "1fc042d29ce1a6967bc071705f7e364e945423bccadc2a2b067579e02c0bf7a2",
+          "bytes": 1201
         },
-        "preparation_validation": {
-          "path": "archive/pdf/1985-03/restoration/batch-04/preparation-validation.json",
-          "sha256": "15845b7e794b3d0826099efc26da7efd8761a1fb73685fb07fa64c07f4b191f3",
-          "bytes": 1566
-        },
-        "source_correction_pending": true,
-        "package_export_pending": true
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-04/reproduction.json",
+          "sha256": "8790882fd6f21646d06789b3556de39b70d188cea37acac4a9687d0cdf45f796",
+          "bytes": 1174
+        }
       }
     },
     {
@@ -695,10 +708,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 3,
+    "readable": 4,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 45
+    "unresolved_eligibility": 44
   },
   "checkpoints": [
     {
@@ -813,8 +826,8 @@
     },
     {
       "id": "batch-04",
-      "status": "in-progress",
-      "stage": "mapped-ocr-drafts-read",
+      "status": "complete",
+      "stage": "validated-package",
       "toc_entry_ids": [
         "maso-1985-03-toc-0007"
       ],
@@ -832,21 +845,39 @@
       ],
       "canonical_tasks": 1,
       "ocr_tasks": 65,
-      "source_correction_passes": 0,
+      "source_correction_passes": 1,
       "preparation_validation": {
         "path": "archive/pdf/1985-03/restoration/batch-04/preparation-validation.json",
         "sha256": "15845b7e794b3d0826099efc26da7efd8761a1fb73685fb07fa64c07f4b191f3",
         "bytes": 1566
       },
       "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-04-preserved-work.json",
+        "sha256": "1882d35332b64aa61c2acb6d82cf2426ee5af3fad00c35c618f63cab0d69f2f8",
+        "bytes": 525845
+      },
+      "started_at": "2026-10-22T09:48:50.513182+00:00",
+      "preparation_finished_at": "2026-10-22T09:57:05.004137+00:00",
+      "source_correction_pending": false,
+      "package_export_pending": false,
+      "preparation_preserved_work_inventory": {
         "path": "archive/pdf/1985-03/evidence/batch-04-preparation-preserved-work.json",
         "sha256": "ba4fde8a598ea1ab5db11339af780f2b359c9fdfc6e25c884c142d604fe7cf9d",
         "bytes": 386360
       },
-      "started_at": "2026-10-22T09:48:50.513182+00:00",
-      "preparation_finished_at": "2026-10-22T09:57:05.004137+00:00",
-      "source_correction_pending": true,
-      "package_export_pending": true
+      "source_correction_started_at": "2026-10-22T09:58:54.062896+00:00",
+      "finished_at": "2026-10-22T10:11:51.364909+00:00",
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-04/validation.json",
+        "sha256": "1fc042d29ce1a6967bc071705f7e364e945423bccadc2a2b067579e02c0bf7a2",
+        "bytes": 1201
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-04/verification-completed.json",
+        "sha256": "ab688a38a1b26309e6aa42c9ba45ae368945ebe8b36b88d604b8e5f6c8ac9f1b",
+        "bytes": 1226
+      },
+      "timing_scope": "Prospective stage wall-clock timestamps include inter-turn gaps and waits;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -918,48 +949,43 @@
     },
     {
       "pdf_page": 26,
-      "classification": "article-body-mapped",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0007"
       ],
-      "printed_page": "24",
-      "restoration": "source correction and package pending"
+      "printed_page": "24"
     },
     {
       "pdf_page": 27,
-      "classification": "article-body-mapped",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0007"
       ],
-      "printed_page": "25",
-      "restoration": "source correction and package pending"
+      "printed_page": "25"
     },
     {
       "pdf_page": 28,
-      "classification": "article-body-mapped",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0007"
       ],
-      "printed_page": "26",
-      "restoration": "source correction and package pending"
+      "printed_page": "26"
     },
     {
       "pdf_page": 29,
-      "classification": "article-body-mapped",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0007"
       ],
-      "printed_page": "27",
-      "restoration": "source correction and package pending"
+      "printed_page": "27"
     },
     {
       "pdf_page": 30,
-      "classification": "article-body-mapped",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0007"
       ],
-      "printed_page": "28",
-      "restoration": "source correction and package pending"
+      "printed_page": "28"
     },
     {
       "pdf_page": 31,
@@ -979,45 +1005,33 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-04",
-    "goal": "Finish batch04 QA: correct all65 mapped drafts once against retained scans,preserve physical code/field/continuation indexes,export fresh JSON/assets package and independent rebuild.",
+    "id": "batch-05",
+    "goal": "Verify RESTORE(N) and LINE extents and restore bounded two-article batch or a declared segment if necessary.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0007"
+      "maso-1985-03-toc-0018",
+      "maso-1985-03-toc-0019"
     ],
-    "mapping_targets": "Verified printed24–28/PDF26–30;selectedmap-r02.json,all65 drafts read,OCR complete. Reuse all successful evidence;do not rerun recognition.",
+    "mapping_targets": "RESTORE(N) openingprinted30/PDF32 verified;LINE TOC32 actual PDF location/end pending inspection.",
     "provisional_lookup_targets": [
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
       31,
-      32
+      32,
+      33,
+      34,
+      35,
+      36
     ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    },
-    "preparation": {
-      "path": "archive/pdf/1985-03/restoration/batch-04/preparation-validation.json",
-      "sha256": "15845b7e794b3d0826099efc26da7efd8761a1fb73685fb07fa64c07f4b191f3",
-      "bytes": 1566
-    },
-    "pending": [
-      "source correction",
-      "structured code/field/item/continuation review",
-      "package export",
-      "independent rebuild",
-      "final validation and ledger closeout"
-    ]
+    }
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and punctuation approximations retain original scans.",
-    "45 canonical entries still lack a checked selected package or final heading classification; QA has verified extent and OCR drafts pending source correction. Source-page accounting is incomplete; no global folio offset inferred."
+    "44 canonical entries lack selected checked packages or final heading classification;remaining source-page accounting is incomplete. No global folio offset inferred.",
+    "QA screens retain original pixels with detailed output transcription pending volunteers;thirteen unknown decorative bands and localized source errors remain explicit."
   ],
   "reader_rebuild": false
 }

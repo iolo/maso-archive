@@ -19,15 +19,14 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress. The editor's note, input guide and reader letters
-  cover printed17–23/PDF19–25: three of 48 entries are readable/sample-reviewed;
-  45 remain unresolved. Batch03's 111-file package matches its independent rebuild;
-  1,816 exact UTF-8 ranges validate and the passing 213-test baseline is reused.
-  QA canonical0007 is verified across printed24–28/PDF26–30. Batch04 preparation
-  preserves 72 reviewed regions and 65 completed/read drafts; all 1,174 earlier
-  inventory files remain exact. Next: correct the drafts against scans, index
-  code/field/continuation evidence, export and independently rebuild. Reuse
-  selected batch04 map-r02 and successful OCR; QA is not yet readable. Cover selection,
+- March 1985 is in progress. The editor's note, input guide, reader letters and QA
+  cover printed17–28/PDF19–30: four of 48 entries are readable/sample-reviewed;
+  44 remain unresolved. Batch04's 276-file package matches its independent rebuild;
+  2,913 exact UTF-8 ranges validate and the passing 213-test baseline is reused.
+  All 1,784 preparation files remain exact. Next: verify RESTORE(N), canonical0018,
+  from printed30/PDF32 and LINE, canonical0019, from TOC32. Inspect actual ends
+  and adjacent pages within two articles/six mapped pages/twenty outside lookups.
+  Reuse saved PDF31/32 views; LINE's actual PDF location is unverified. Cover selection,
   source-page accounting and issue closeout remain pending. Follow
   [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

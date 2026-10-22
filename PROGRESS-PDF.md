@@ -6,17 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: the editor's note, input guide and reader letters
-cover printed17–23/PDF19–25. Three of 48 entries are readable and assistant
-sample-reviewed; 45 remain unresolved. Batch03's 111 package files match the
-independent rebuild; 1,816 exact UTF-8 ranges and 1,898 evidence pins validate.
-The passing 213-test baseline is reused; all 694 earlier March inventory files remain
+March 1985 is in progress: the editor's note, input guide, reader letters and QA
+cover printed17–28/PDF19–30. Four of 48 entries are readable and assistant
+sample-reviewed; 44 remain unresolved. Batch04's 276 package files match the
+independent rebuild; 2,913 exact UTF-8 ranges and 3,213 evidence pins validate.
+The passing 213-test baseline is reused; all 1,784 preparation files remain
 exact. Source, canonical queue, runtime and February preservation checks passed
-at batch01. QA canonical0007 is now mapped across printed24–28/PDF26–30:
-batch04 preparation retains 72 reviewed regions and 65 completed/read raw drafts;
-all 1,174 earlier inventory files remain exact. Next: source correction, structured
-listing/field/continuation review, package export and independent rebuild.
-Reuse batch04 map-r02 and existing OCR. QA is not yet counted as readable.
+at batch01. Next: verify RESTORE(N), canonical0018, from printed30/PDF32 and
+LINE, canonical0019, from TOC32. Inspect actual ends/adjacent pages within the
+normal batch limits. Reuse saved PDF31/32 views; LINE's PDF location is unverified.
 Cover, source-page accounting
 and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.

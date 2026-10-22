@@ -24,17 +24,15 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-The editor's note, input guide and reader letters cover printed17–23/PDF19–25.
-Three of 48 entries are readable and assistant sample-reviewed; 45 remain unresolved.
-Batch03's 111-file package matches its independent rebuild; 1,816 exact UTF-8
-ranges and 1,898 evidence pins validate. The passing 213-test baseline is reused;
-all 694 previously inventoried March files remain exact. Source, canonical queue,
+The editor's note, input guide, reader letters and QA cover printed17–28/PDF19–30.
+Four of 48 entries are readable and assistant sample-reviewed; 44 remain unresolved.
+Batch04's 276-file QA package matches its independent rebuild; 2,913 exact UTF-8
+ranges and 3,213 evidence pins validate. The passing 213-test baseline is reused;
+all 1,784 preparation-inventory files remain exact. Source, canonical queue,
 runtime and prior February preservation inventory passed batch01 verification.
-QA canonical0007 is verified across printed24–28/PDF26–30. Batch04 preparation
-preserves 72 reviewed regions and 65 completed/read OCR drafts; all 1,174 earlier
-March inventory files remain exact. Next: correct those drafts against scans,
-index physical listings/fields/continuations, export and independently rebuild.
-Reuse selected batch04 map-r02 and successful OCR. QA is not yet readable.
+Next: verify canonical0018 RESTORE(N) from printed30/PDF32 and canonical0019 LINE
+from TOC32, including actual ends and adjacent pages. Reuse saved PDF31/32 views;
+LINE's actual PDF location is unverified. Keep the two-article/six-page limits.
 Cover selection,
 source-page accounting and issue closeout remain pending. Details:
 [March log](docs/progress/8503.md) and
