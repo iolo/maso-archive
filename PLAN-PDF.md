@@ -24,33 +24,32 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 12 of 48 entries are readable and assistant
-sample-reviewed, one article is partial, two headings are non-owning and 33 entries
-remain unresolved. BDS-C0028 now has validated opening and middle natives covering
-PDF92–103, visible90–101. Their 503 immutable files remain separate; final upper104
-and complete article assembly are pending. Primary directory/coverage still describes
-the opening native; the ledger's native_segments_coverage records cumulative coverage.
+March 1985 remains in progress: 12 of 48 entries are readable/sample-reviewed,
+one article is partial, two headings are non-owning and 33 entries remain unresolved.
+All BDS-C0028 body pages, PDF92–104, now have validated native segments totaling
+548 files, 158 regions, 121 blocks and 37 originals. The final page has no observed
+folio; it remains null. Its upper article is restored and lower advertising excluded.
+Complete BDS-C assembly is the next separate checkpoint.
 
-The middle native, packages/batch-22-r04/bds-b, matches its independent rebuild
-across 238 files. All 5,191 UTF-8 ranges, 5,392 evidence pins and 73 image crops pass.
-It retains 52 blocks/21 originals, 268 physical code/session rows, 22 printed C row
-labels, 34 inline/template rows, 20 formula rows/36 nonblank cells/four blank slots,
-six float-output rows/18 cells/three headers, five qsort-output rows/10 cells,
-12 stack labels/one actual caption, 14 original listing panels and six continuations.
-Forty-three source candidates and five unknown-count bands remain source-linked.
+The final native, packages/batch-23-r01/bds-c, matches its independent rebuild
+across all 45 files. All 492 UTF-8 ranges, 526 evidence pins and 12 image crops pass.
+Eight corrected blocks retain 48 code/session rows, nine text rows, two DIO examples,
+the uppercase TY transcript, keyboard discussion, four glyph occurrences, terminal
+mark and complete upper original. Nine local candidates retain original scans;
+command/file/control-key glyphs and source hardware claims remain unverified.
 
-All 19,226 prior files and 30 core pins verify; the unchanged 213-test environment
-baseline is reused. Preservation inventory contains 21,263 files. Metadata revisions
-correct external boundary scope, readable comment-tail indexes, blank-line counting
-and UTF-8 row-label positions; all source readings, maps, crops and OCR remain unchanged.
-Current body movemem matches the prior table; an earlier staged note anticipating
-movmem is superseded without changing the immutable opening package.
+Four reused whole views, one mapped mixed page and three outside lookups meet
+checkpoint limits. All 12 exact crops viewed before eight pinned tasks (three eng,
+five kor+eng); all drafts read before one source pass. No OCR failures, retries or
+crop repairs. All 21,263 prior files/30 core pins pass; unchanged 213-test baseline
+reused. Preservation inventory contains 21,468 files. The earlier 503 native files
+remain unchanged. No source pages are deferred; article assembly remains pending.
 
-Next: restore upperPDF104, preserving both DIO listings, uppercase TY transcript,
-keyboard discussion and terminal mark. Exclude lower advertising and retain its
-unobserved folio as null. Then assemble the complete BDS-C article separately.
-CP/M, MAT, printer and communication remain complete; use the pinned batch20 private
-assembly dispatcher. Parent0024, cover selection, source accounting and issue closeout
+Next: assemble all three BDS-C natives without changing their files or metadata.
+Resolve both cross-segment associations and the staged movmem note from retained
+source evidence; do not invent text joins. Preserve all tables, code, labels,
+unknown bands and final mixed-page exclusion. CP/M, MAT, printer and communication
+remain complete. Parent0024, cover selection, source accounting and issue closeout
 remain pending. No reader rebuild.
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

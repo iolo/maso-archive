@@ -19,31 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 remains in progress: 12 of 48 entries are readable/sample-reviewed,
-  one article is partial, two headings are non-owning and 33 remain unresolved.
-  BDS-C0028 natives cover PDF92–103/visible90–101 in 503 immutable files. Final
-  upper104 and complete assembly remain pending. The 238-file middle native matches
-  its rebuild; all 5,191 UTF-8 ranges, 5,392 pins and 73 image crops verify.
-  Eight reused whole views, six mapped pages, two outside lookups, one canonical
-  task. All 73 initial exact crops and 11 margin repairs viewed before 52 pinned
-  tasks: 18 eng and 34 kor+eng. All drafts read before one direct source correction
-  pass; zero OCR failures, retries or engine switches. Original panels remain.
-  Middle retains 268 code/session rows, 22 printed C row labels, 34 inline/template
-  rows, 20 formula rows/36 cells/four blank slots, 18 float-output cells/three
-  headers, 10 qsort-output cells, 12 stack labels/one caption and 14 listing panels.
-  Source fpcomp's repeated a>b, DDS-C/mian/pstrng/AL, missing braces, all console
-  numbers, 43 candidates and five unknown-count bands stay literal. Body movemem
-  matches the prior table; the earlier staged movmem anticipation is superseded.
-  Metadata revisions correct external-boundary scope, comment-tail fields, blank
-  line counting and UTF-8 row-label offsets. Two failed verifiers and all exports
-  remain preserved; source readings/maps/crops/raws/downloads are unchanged.
-  All 19,226 prior files/30 core pins pass; unchanged 213-test environment baseline
-  reused. Preservation inventory contains 21,263 files. Next: upper104, then separate
-  complete assembly. Final folio remains unobserved/null; lower advertisement excluded.
-  CP/M, MAT, printer and communication remain complete; pinned batch20 dispatcher
-  handles their private formats. Parent0024, cover, source accounting and issue
-  closeout pending. Follow [March log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March 1985 remains in progress: 12 readable/sample-reviewed, one partial,
+  two non-owning headings and 33 unresolved entries. All BDS-C0028 body pages
+  PDF92–104 now have three validated natives/548 files; complete assembly pending.
+  Final upper104 restores two DIO examples, uppercase TY output, keyboard discussion
+  and terminal mark; lower advertisement excluded and unobserved folio null.
+  All45 final-native files match rebuild;492 ranges/526 pins/12 image crops pass.
+  Four reused whole views/one mapped page/three outside lookups/one canonical task.
+  All12 exact crops viewed before eight pinned tasks:three eng/five kor+eng. All
+  drafts read before one source pass;zero OCR failures/retries/crop repairs. Source
+  command/filename/control-key glyph candidates remain unverified with exact scans.
+  Final retains48 code/session rows/nine text rows/four glyph occurrences/nine
+  candidates;all503 prior native files unchanged. All21,263 prior files/30 core
+  pins pass;unchanged213-test baseline reused. Preservation inventory21,468 files.
+  Next: separate complete BDS-C assembly with reversible arrays/objects and both
+  boundary associations;retain all natives/metadata and resolve staged movmem note
+  from current movemem source observation. No new mapping/OCR/source correction.
+  CP/M,MAT,printer andcommunication remain complete. Parent0024,cover,source
+  accounting andissue closeout pending. Follow [March log](docs/progress/8503.md)
+  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
