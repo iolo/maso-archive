@@ -1296,14 +1296,38 @@ paired OCR or a new engine comparison.
   outside lookups stay within the limits; six reused source views andone new259 view.
   Current totals: 47 readable, no partial articles, seven non-owning headings and 2 unresolved.
 
-  Next: verify both 컴퓨돌이0025 comic occurrences at printed36/63 as batch61.
-  Reuse preserved PDF38/65,check actual panel titles,balloons,signatures,reading order,
-  endings and adjacent ownership before mapping. Preserve original art and uncertain
-  lettering; the separate BEEP/Forth program bodies retain their existing ownership.
-  No0025 mapping or OCR has started. Parent 정보모음0008,cover selection,remaining page
-  accounting and issue closeout remain pending. Human acceptance,full proofreading,
-  source bytes,spacing,historical prices/contacts/product claims,reference targets and
-  independent backup recovery remain unverified. No reader rebuild.
+  Batch61 completes 컴퓨돌이0025 at `archive/pdf/1985-02/packages/batch-61-r01`.
+  Its two independent complete vignettes are 언제쯤 below BEEP on printed36/PDF38
+  and 해답 in the upper-right of Forth's ending on printed63/PDF65. Intervening technical
+  article pages remain outside this canonical comic's ownership. All44 files match the
+  independent rebuild;291 exact UTF-8 ranges,332 evidence pins and12 image decodes pass.
+  Eight blocks/four original art/panel figures retain22 physical rows (16 story rows),
+  eight quoted passages/three wrapped quotes,two art/text associations,two10년 hat labels,
+  three1/2/10-year duration fields and100/0-point score fields. No byline,artist or signature
+  was inferred. Literal 늘리지요,학생같으면,걸릴겁니다 and0점임 remain unchanged.
+  Sixteen candidates,21 Unicode approximations and59 unknown space bands retain stylized
+  logos,curly quotes,ellipsis and slanted exclamations. Active metadata corrects the
+  provisional map's final question mark to the source exclamation; OCR inputs remain exact.
+  All12 original/two hat-label replacements preceded8 kor+eng tasks; all drafts preceded
+  one source pass. No OCR failures/retries. The first map validation rejected2–3 pixels
+  of overlap between technical exclusions and comic borders before map/crop writes;
+  a fresh script narrowed the exclusions. Original script/failure summary remain.
+  All58,006 prior files and30 implementation pins pass; 58,228 files are preserved.
+  The unchanged213-test baseline is reused. No body pages or assembly remain pending.
+  Shared-page observations retain the prior records and separate restored comic/technical
+  owners on38/65. One canonical task,two mapped pages,five outside lookups; seven reused
+  full source views,no new render. All canonical article bodies are now readable/sample-reviewed.
+  Current totals: 48 readable, no partial articles, seven non-owning headings and 1 unresolved.
+
+  Next: resolve parent 정보모음0008 as heading-classification62.
+  Check its pageless canonical entry and every unchanged child link against selected
+  source/package evidence. Determine organizational/body ownership without inventing
+  another body,divider or hierarchy; audit all56 identities and classifications before
+  issue closeout. No new OCR is needed unless actual body evidence requires mapping.
+  Cover selection,full260-page accounting,standalone issue export/rebuild/report and
+  requirements audit remain pending. Human acceptance,full proofreading,source bytes,
+  spacing,stylized glyph encoding,historical claims and independent backup recovery
+  remain unverified. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is

@@ -2199,12 +2199,75 @@
       "toc_entry_id": "maso-1985-02-toc-0025",
       "title": "컴퓨돌이",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0025TOC36/63 matches two distinct complete 컴퓨돌이 vignettes: 언제쯤 lowerprinted36/PDF38 and해답 upperrightprinted63/PDF65. Noncontiguouspanels arebothownedbyonecanonicalentry;notinterveningBEEP/Forthpages.",
+        "Both panels retain stylized컴퓨돌이logos,repeatedcharacter/10년hat,independentstoryheadings/prose andcompleteart. No byline/signature visible;noneinferred. Endings10년쯤걸릴겁니다 and새해에는복많이받길? remainliteral.",
+        "Prior37Appleconversion,next39BEEPcontinuation/40MSXmonitor;prior64Forth andnext66MathRace. Wholeviewsverifyindependentboundaries;no continuation/assemblydeferred.",
+        "Exportonlytwoeligibleoriginalpanels/characterart;fullsourcepagesretainedprivately. Surroundingtechnicalprose/programs remainoutside0025.",
+        "Bothcompletevignettes retainedwith22physicalrows/eightquotedpassages,logos/headings/hatlabels/art. NointerveningBEEP/Forthpagesowned.",
+        "Actualsecondending usesexclamation!,notprovisionalmapquestionmark;activecorrectionmetadataresolvespunctuationonly."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-61-r01",
+        "article_id": "scan-maso-1985-02-toc-0025",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-61-r01/manifest.json",
+          "sha256": "ccc994e33e2a35c548d106ccfabcdad59633c6ab3a33c9a863d049efe07eaf52",
+          "bytes": 7119
+        },
+        "coverage": {
+          "regions": 12,
+          "blocks": 8,
+          "figures": 4,
+          "physical_text_rows": 22,
+          "physical_story_rows": 16,
+          "physical_prose_wraps": 14,
+          "episodes": 2,
+          "quoted_passages": 8,
+          "wrapped_quoted_passages": 3,
+          "art_text_associations": 2,
+          "hat_labels": 2,
+          "printed_duration_fields": 3,
+          "printed_score_fields": 2,
+          "source_candidates": 16,
+          "typographic_approximations": 21,
+          "unknown_space_bands": 59,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            38,
+            65
+          ],
+          "deferred_pdf_pages": [],
+          "pdf_pages": [
+            38,
+            65
+          ],
+          "printed_pages": [
+            "36",
+            "63"
+          ]
+        },
+        "full_pdf_pages": [
+          38,
+          65
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-61/validation.json",
+          "sha256": "a16be4d5b9128700ec8cd9c0f250429a4ddf8f28e3a207af023e37bb944bbe54",
+          "bytes": 1604
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-61/reproduction.json",
+          "sha256": "4df91c77c029fffbd5dcedca96a866dc113075bd93c5bffd4e8eb17e81bfe309",
+          "bytes": 1498
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0026",
@@ -5433,10 +5496,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 47,
+    "readable": 48,
     "partial": 0,
     "non_owning_headings": 7,
-    "unresolved_eligibility": 2
+    "unresolved_eligibility": 1
   },
   "checkpoints": [
     {
@@ -10546,6 +10609,70 @@
         "sha256": "dd0406fb88ca53698ba66604a8ef6097c7d0b21d05af40e69f04d215d8c79e3b",
         "bytes": 12842925
       }
+    },
+    {
+      "id": "batch-61",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0025"
+      ],
+      "mapped_pdf_pages": [
+        38,
+        65
+      ],
+      "outside_map_lookup_pages": [
+        37,
+        39,
+        40,
+        64,
+        66
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-61/validation.json",
+        "sha256": "a16be4d5b9128700ec8cd9c0f250429a4ddf8f28e3a207af023e37bb944bbe54",
+        "bytes": 1604
+      },
+      "stats": {
+        "completed_at": "2026-10-22T00:17:48.923898+00:00",
+        "stats": {
+          "regions": 12,
+          "blocks": 8,
+          "figures": 4,
+          "physical_text_rows": 22,
+          "physical_story_rows": 16,
+          "physical_prose_wraps": 14,
+          "episodes": 2,
+          "quoted_passages": 8,
+          "wrapped_quoted_passages": 3,
+          "art_text_associations": 2,
+          "hat_labels": 2,
+          "printed_duration_fields": 3,
+          "printed_score_fields": 2,
+          "source_candidates": 16,
+          "typographic_approximations": 21,
+          "unknown_space_bands": 59,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            38,
+            65
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 8,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 8,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 2,
+        "repaired_regions": 2
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-61-preserved-work.json",
+        "sha256": "adeb3e866b873ebc3b52deb61c33d8004465d24f38ecb23396b161b5664b635e",
+        "bytes": 12888845
+      }
     }
   ],
   "source_page_observations": [
@@ -10715,13 +10842,35 @@
     },
     {
       "pdf_page": 38,
-      "classification": "mixed-article-and-separate-comic",
+      "classification": "shared-canonical-article-and-comic-panels",
       "toc_entry_ids": [
         "maso-1985-02-toc-0028",
         "maso-1985-02-toc-0025"
       ],
       "printed_page": "36",
-      "evidence": "Upper BEEP body complete;lower 컴퓨돌이 “언제쯤” canonical0025 separately owned and still pending."
+      "evidence": "Upper BEEP body complete;lower 컴퓨돌이 “언제쯤” canonical0025 separately owned and still pending.",
+      "restoration": "complete-technical-article-and-comic-exports",
+      "previous_observation": {
+        "pdf_page": 38,
+        "classification": "mixed-article-and-separate-comic",
+        "toc_entry_ids": [
+          "maso-1985-02-toc-0028",
+          "maso-1985-02-toc-0025"
+        ],
+        "printed_page": "36",
+        "evidence": "Upper BEEP body complete;lower 컴퓨돌이 “언제쯤” canonical0025 separately owned and still pending."
+      },
+      "ownership_note": "Independent0025언제쯤lowerpanel complete alongside0028BEEPupperbody.",
+      "regional_owners": [
+        {
+          "region": "lowercomic",
+          "toc_entry_id": "maso-1985-02-toc-0025"
+        },
+        {
+          "region": "upperBEEP",
+          "toc_entry_id": "maso-1985-02-toc-0028"
+        }
+      ]
     },
     {
       "pdf_page": 39,
@@ -11011,14 +11160,37 @@
     },
     {
       "pdf_page": 65,
-      "classification": "article-body-with-independent-panel",
+      "classification": "shared-canonical-article-and-comic-panels",
       "toc_entry_ids": [
-        "maso-1985-02-toc-0034"
+        "maso-1985-02-toc-0034",
+        "maso-1985-02-toc-0025"
       ],
       "printed_page": "63",
       "source_title": "포쓰(Forth)의 기초 이해",
-      "restoration": "complete-article-assembly-exported",
-      "independent_panel": "Upper-right 컴퓨돌이 해답 excluded from article"
+      "restoration": "complete-technical-article-and-comic-exports",
+      "independent_panel": "Upper-right 컴퓨돌이 해답 excluded from article",
+      "previous_observation": {
+        "pdf_page": 65,
+        "classification": "article-body-with-independent-panel",
+        "toc_entry_ids": [
+          "maso-1985-02-toc-0034"
+        ],
+        "printed_page": "63",
+        "source_title": "포쓰(Forth)의 기초 이해",
+        "restoration": "complete-article-assembly-exported",
+        "independent_panel": "Upper-right 컴퓨돌이 해답 excluded from article"
+      },
+      "ownership_note": "Independent0025해답upperrightpanel complete alongside0034Forthleft/bottombody.",
+      "regional_owners": [
+        {
+          "region": "upperrightcomic",
+          "toc_entry_id": "maso-1985-02-toc-0025"
+        },
+        {
+          "region": "left/bottomForth",
+          "toc_entry_id": "maso-1985-02-toc-0034"
+        }
+      ]
     },
     {
       "pdf_page": 66,
@@ -13188,22 +13360,14 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-61",
-    "goal": "Verify and restore both canonical0025 컴퓨돌이 comic occurrences at TOCprinted36/63.",
+    "id": "heading-classification-62",
+    "goal": "Resolve final canonical0008 정보모음 parent ownership and audit all56canonical identities/classifications before issue closeout.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0025"
+      "maso-1985-02-toc-0008"
     ],
-    "mapping_targets": "Reuse preserved fullPDF38 and65 fromBEEP/Forth checkpoints. Verify actualcomicpanel titles,signatures,balloons,readingorder,completeextents andadjacentownership beforemapping both separatedpanels;retain originalart andexplicitglyphuncertainties.",
-    "provisional_lookup_targets": [
-      37,
-      38,
-      39,
-      40,
-      64,
-      65,
-      66
-    ],
-    "boundary_review": "EarlierBEEP andForth ending maps excluded independent comics onPDF38/65. Verify each againstactualsource andcanonical36/63references;do notinferglobaloffset orcrop ownership. Bodyprograms remainseparate. Parent0008정보모음classification,cover andissueaccounting/closeout follow later.",
+    "mapping_targets": "Inspect canonicalpagelessparent andallunchangedchildlinks with selectedsource/packageevidence. Determine whetherorganizational/non-owning withoutinventing standalonebody/divider orhierarchy. Validateeveryselectedarticlemanifest andall56ownershiprecords;no newOCRneededunlessactualbodyownershipevidence requiresmapping.",
+    "provisional_lookup_targets": [],
+    "boundary_review": "Allcanonicalarticlebodies nowreadable/sample-reviewed,includingdisjoint컴퓨돌이36/63. 정보모음0008 remainsunresolved. Preservecanonicaltitles/IDs/parents andallnativepackages. Cover selection,full260pageaccounting,standaloneissueexport/rebuild/report/requirementsaudit remainpendingafterclassification;fullissuegoalnotcomplete.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -13257,7 +13421,8 @@
     "Batch57 completes부메랑 소년0055,source부메랑소년,printed244–248/PDF246–250. NineBASICpanels retain377labels/435physicalrows/58wraps,50quotedstrings/96delimiters/fourunclosedsourcequotes,383lexicalstatements,416literalhexDATAfields/13spritegroups,24branchtargets,3756lexicaltokens and46quotedspacebands. NinePLAYstrings/122characters,oneDRAWstring,seven graphic-keybands4430–4490,fourwavyglyphstrings/twelvebandmarkers,twoarrowkeys,oneboxedprogramrange,eightcolumn/pagejoins and21prosewraps indexed. Actual4760endingretained;REMEND3810notending. Graphic-keyLatin/bracketreadings arevisualUnicodeapproximations;[ versusC,V/Wruncounts andencodedMSXinputunknown. Noclosingquotesinvented4460–4490. Twelvewavy-pairmarkers/twolowmarkdescriptions retainoriginals. Forty-threecandidates,14editorialmarkers,nineUnicodeapproximations and2836source-approximation spacebands plus40editorial-description spaces remainexplicit. PLAY0/O/5/S,splitTX/STR$/MS/ME and41/00,compactPUTSPRITE,DATAglyphs,mechanics/sourcecredit discrepancies remainliteral. Humanacceptance,fullproofreading,sourcebytes,spacing,graphicglyphcounts/encoding,claims,execution andindependentbackuprecovery unverified. No readerrebuild.",
     "Batch58 completes양계장에서 아르바이트를0056,printed249–251/PDF251–253. FiveBASICpanels retain185labels/208rows/23wraps,43strings/86delimiters,212lexicalstatements,54DATAfields(sixdecimalheaders/48hexfields)/sixbitmapgroups,20directtargets/12ONtargets,1405lexicaltokens and69quotedspacebands. TwoPLAYstrings/58characters,sixgraphicbands,eightboxedkeys/threeinputassociations,one1240reference,fourlistingconnections,one제한시/간내에columnjoin and34prosewraps indexed. Missing2500,splitTHEN/100/32,Gassignment,RETURN1720,PLAY0/O/6,DATA andhistoricalspelling/claims remainliteral. Twoeditorialrepetitivebandmarkers leaveW-like1240/c1280countunknown;fourd-gridrows2350–2410 arevisualapproximationswithcount/spacing/encodinguncertainties. Thirty-eightcandidates,sevenUnicodeapproximations,1429source-approximation spacebands andsixeditorial-description spaces remainexplicit. TwentyOCRtasks5eng/15koreng;29original/3replacementcrops inspectedbeforeinference;zeroOCRfailure/retry. Humanacceptance/fullproofreading,sourcebytes,spacing,graphicglyphcounts/encoding,claims,execution andindependentbackuprecovery remainunverified. No readerrebuild.",
     "Batch59 completes디버깅 룸0017,source디버깅룸,independentlowerpanelprinted243/PDF245. Fivecorrectionentries retain25cells/fiveheaders,fourprintedbefore/afterpairs andSEARCHdiagramfourlabels/twoblankslots. EightQ&Arows retain94numericcells/twofinalblankcells,twelveheaders and23groupingbrackets;row2unmatchedclosing37] retained. CP/Mformat retains14fieldnames,27hexfields,threeellipsisgroups andfiveunderlined7a–7efields;no previousvaluesinvented. Fourprintedreferences,two prosewraps andonecaptionassociation indexed. Sixteencandidates,sevenUnicodeapproximations and263unknownspacebands;tablepipes/semicolons/spacingareserialization,subscriptsflattenedandbracketshapesapproximate. All12originalcrops reviewedbefore8tasks2eng/6koreng;allrawsbeforeonesourcepass;zeroOCRfailures/retries/repairs. Metadatarevisionsremove straydraftnotefragments anduseactualcaption;OCR-boundmaperratumcorrectsLOGATORasindependent/unlisted,not0050MAT함수/alreadyrestored. Sourceunchanged;allthreeexports/tworebuilds andfailedcaption-newlineverifier retained. Humanacceptance/fullproofreading,sourcebytes,spacing,claims/correctionefficacy,execution andindependentbackuprecovery unverified. No readerrebuild.",
-    "Batch60 completes복덕방0018 printed252–255/PDF254–257 and광고색인0024 lowerPDF258/visible240/TOC256. Classifieds retain83bulletitems5wanted/32swap/46give,77contactrows/76printedcontactgroups,79phonefields,69moneyexpressions,15locations,ninecolumn/pageconnections/foursame-itemcontinuations,three largephotolabels and254physicalrows. Oneapple-logomarker/38candidates/211Unicodeapproximations/742source-spacebands plusoneeditorialdescriptionspace remainexplicit. Stylizedmonitor///versusIII andtinyphotographiclabeltranscription pendingvolunteers. Final민경윤correctsprovisionalmap민정훈inactivemetadata;OCR-boundmap retained. Indexretains24rows/48cells/twoorderedcolumns/noinventedheaders,26printedreferencetokens/threecoverrefs,24leaderdotbands,tree/rules/visible240folio;upperadexcluded. Eightcandidates/twosource-spacebands,24editorialpipes/48separator spaces remainexplicit;dotcounts andtargetsunknown. All32original/3replacementcrops before26korengtasks;allrawsbeforeonepass;zeroOCRfailure/retry. Humanacceptance/fullproofreading,sourcebytes,spacing,historicalprices/contacts/productclaims,reference targets andindependentbackuprecovery unverified. No readerrebuild."
+    "Batch60 completes복덕방0018 printed252–255/PDF254–257 and광고색인0024 lowerPDF258/visible240/TOC256. Classifieds retain83bulletitems5wanted/32swap/46give,77contactrows/76printedcontactgroups,79phonefields,69moneyexpressions,15locations,ninecolumn/pageconnections/foursame-itemcontinuations,three largephotolabels and254physicalrows. Oneapple-logomarker/38candidates/211Unicodeapproximations/742source-spacebands plusoneeditorialdescriptionspace remainexplicit. Stylizedmonitor///versusIII andtinyphotographiclabeltranscription pendingvolunteers. Final민경윤correctsprovisionalmap민정훈inactivemetadata;OCR-boundmap retained. Indexretains24rows/48cells/twoorderedcolumns/noinventedheaders,26printedreferencetokens/threecoverrefs,24leaderdotbands,tree/rules/visible240folio;upperadexcluded. Eightcandidates/twosource-spacebands,24editorialpipes/48separator spaces remainexplicit;dotcounts andtargetsunknown. All32original/3replacementcrops before26korengtasks;allrawsbeforeonepass;zeroOCRfailure/retry. Humanacceptance/fullproofreading,sourcebytes,spacing,historicalprices/contacts/productclaims,reference targets andindependentbackuprecovery unverified. No readerrebuild.",
+    "Batch61 completes컴퓨돌이0025 in two independentpanels printed36/63(PDF38/65),언제쯤 and해답. Twelve regions/eightblocks/four originalart/panelfigures retain22physicalrows/16storyrows,14adjacentstoryrowassociations,eightquotedpassages/threewrappedquotes,twoart/textassociations,two10년hatlabels,three1/2/10년durationfields and100/0점scorefields. Sixteencandidates/21Unicodeapproximations/59unknownspacebands retainstylizedlogos,curlyquotes,ellipsis andslantedexclamations. Source늘리지요,학생같으면,걸릴겁니다 and0점임 remainliteral. Provisionalmapfinal?correctedto!inactivemetadata;OCR-boundmap preserved. Noartist/byline/signature orinterveningBEEP/Forthownershipinferred. All12original/twohatreplacementcrops before8korengtasks;allraws beforeonesourcepass;zeroOCRfailure/retry. Firstmapvalidation rejectedexcludedtechnicalrectangle overlap2–3pixelswithpanelborder beforewrites;freshscriptnarrowed exclusions,eligiblegeometryunchanged. Allsourceattempts/crops/raws/export/rebuild preserved. Humanacceptance/fullproofreading,sourcebytes,spacing,stylizedglyphencoding/historicalstoryclaims andindependentbackuprecovery unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
