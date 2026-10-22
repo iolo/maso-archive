@@ -19,14 +19,14 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress. The editor's note, input guide, reader letters and QA
-  cover printed17–28/PDF19–30: four of 48 entries are readable/sample-reviewed;
-  44 remain unresolved. Batch04's 276-file package matches its independent rebuild;
-  2,913 exact UTF-8 ranges validate and the passing 213-test baseline is reused.
-  All 1,784 preparation files remain exact. Next: verify RESTORE(N), canonical0018,
-  from printed30/PDF32 and LINE, canonical0019, from TOC32. Inspect actual ends
-  and adjacent pages within two articles/six mapped pages/twenty outside lookups.
-  Reuse saved PDF31/32 views; LINE's actual PDF location is unverified. Cover selection,
+- March 1985 is in progress: six of 48 entries are readable/sample-reviewed;
+  42 remain unresolved. RESTORE(N) and LINE are complete on printed30–33/PDF32–35;
+  earlier articles cover printed17–28/PDF19–30. Batch05's 211 files match independent
+  rebuilds; 2,866 exact UTF-8 ranges validate. All 2,436 prior files remain exact;
+  the unchanged pipeline reuses the passing 213-test baseline. Next: verify
+  canonical0020 꼬마 우주인의 산책 from printed34/PDF36 and resolve canonical0017
+  tips ownership from its three children/source boundaries. Reuse PDF35/36 within
+  two tasks/six mapped pages/twenty outside lookups. Cover selection,
   source-page accounting and issue closeout remain pending. Follow
   [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

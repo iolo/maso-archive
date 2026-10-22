@@ -24,15 +24,16 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-The editor's note, input guide, reader letters and QA cover printed17–28/PDF19–30.
-Four of 48 entries are readable and assistant sample-reviewed; 44 remain unresolved.
-Batch04's 276-file QA package matches its independent rebuild; 2,913 exact UTF-8
-ranges and 3,213 evidence pins validate. The passing 213-test baseline is reused;
-all 1,784 preparation-inventory files remain exact. Source, canonical queue,
+Six of 48 entries are readable and assistant sample-reviewed; 42 remain unresolved.
+The latest two articles, RESTORE(N) and LINE, cover printed30–33/PDF32–35;
+earlier articles cover printed17–28/PDF19–30. Batch05's 211 package files match
+independent rebuilds; 2,866 exact UTF-8 ranges and 3,080 evidence pins validate.
+The passing 213-test baseline is reused; all 2,436 earlier inventory files remain
+exact. Source, canonical queue,
 runtime and prior February preservation inventory passed batch01 verification.
-Next: verify canonical0018 RESTORE(N) from printed30/PDF32 and canonical0019 LINE
-from TOC32, including actual ends and adjacent pages. Reuse saved PDF31/32 views;
-LINE's actual PDF location is unverified. Keep the two-article/six-page limits.
+Next: verify canonical0020 꼬마 우주인의 산책 from printed34/PDF36, including end
+and adjacent pages, and resolve canonical0017 tips ownership from its three children
+and source boundaries. Reuse PDF35/36 views within the two-task/six-page limits.
 Cover selection,
 source-page accounting and issue closeout remain pending. Details:
 [March log](docs/progress/8503.md) and

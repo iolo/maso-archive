@@ -6,15 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: the editor's note, input guide, reader letters and QA
-cover printed17–28/PDF19–30. Four of 48 entries are readable and assistant
-sample-reviewed; 44 remain unresolved. Batch04's 276 package files match the
-independent rebuild; 2,913 exact UTF-8 ranges and 3,213 evidence pins validate.
-The passing 213-test baseline is reused; all 1,784 preparation files remain
+March 1985 is in progress: six of 48 entries are readable and assistant
+sample-reviewed; 42 remain unresolved. RESTORE(N) and LINE cover printed30–33/
+PDF32–35; earlier articles cover printed17–28/PDF19–30. Batch05's 211 files match
+independent rebuilds; 2,866 exact UTF-8 ranges and 3,080 evidence pins validate.
+The passing 213-test baseline is reused; all 2,436 earlier inventory files remain
 exact. Source, canonical queue, runtime and February preservation checks passed
-at batch01. Next: verify RESTORE(N), canonical0018, from printed30/PDF32 and
-LINE, canonical0019, from TOC32. Inspect actual ends/adjacent pages within the
-normal batch limits. Reuse saved PDF31/32 views; LINE's PDF location is unverified.
+at batch01. Next: verify 꼬마 우주인의 산책, canonical0020, from printed34/PDF36
+and resolve canonical0017 tips ownership from its three children/source boundaries.
+Reuse PDF35/36 within normal limits.
 Cover, source-page accounting
 and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.

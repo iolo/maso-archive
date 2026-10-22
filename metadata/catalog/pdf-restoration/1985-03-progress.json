@@ -368,23 +368,99 @@
       "toc_entry_id": "maso-1985-03-toc-0018",
       "title": "RESTORE(N)",
       "parent_id": "maso-1985-03-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF31 is independent unpaginated 구미전자 advertisement. RESTORE(N) opensprinted30/PDF32 and ends with complete tape/disk listings onprinted31/PDF33.",
+        "LINE opensprinted32/PDF34 and endsprinted33/PDF35 with list6 and terminal mark. FollowingPDF36/printed34 begins separate 꼬마 우주인의 산책. Every intervening page inspected.",
+        "Two canonical tasks,four mapped pages andtwo outside-map lookups(31,36). No global folio offset inferred.",
+        "Read left→right each page;RESTORE source-a continues source-b across30→31,LINE xor-a→xor-b across32→33 andmachine-a→machine-b acrosscolumns33. Physical listing wraps are not invented labels or ordinals.",
+        "Original memory diagram retained;separate source-label transcription records its printed fields without recreating graphic layout. No byline inferred."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-05-r01/restore",
+        "article_id": "scan-maso-1985-03-toc-0018",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-05-r01/restore/manifest.json",
+          "sha256": "2d39a5131ae414e81985c13c55a42019663cea1a7ea416f89c2b1f533e017a28",
+          "bytes": 13565
+        },
+        "coverage": {
+          "pdf_pages": [
+            32,
+            33
+          ],
+          "printed_pages": [
+            "30",
+            "31"
+          ],
+          "regions": 20,
+          "blocks": 18,
+          "figures": 2
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-05/validation.json",
+          "sha256": "cefde5dbc786aae91baffa1df1ff6b67ac0f2f7ca1f1e4952404369ed1a14653",
+          "bytes": 1631
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-05/reproduction.json",
+          "sha256": "1dfa5ea3b3e5e3348122d59d178c3a109e50eb0e69af8d3e3b4e141be41bbf84",
+          "bytes": 1543
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0019",
       "title": "LINE",
       "parent_id": "maso-1985-03-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF31 is independent unpaginated 구미전자 advertisement. RESTORE(N) opensprinted30/PDF32 and ends with complete tape/disk listings onprinted31/PDF33.",
+        "LINE opensprinted32/PDF34 and endsprinted33/PDF35 with list6 and terminal mark. FollowingPDF36/printed34 begins separate 꼬마 우주인의 산책. Every intervening page inspected.",
+        "Two canonical tasks,four mapped pages andtwo outside-map lookups(31,36). No global folio offset inferred.",
+        "Read left→right each page;RESTORE source-a continues source-b across30→31,LINE xor-a→xor-b across32→33 andmachine-a→machine-b acrosscolumns33. Physical listing wraps are not invented labels or ordinals.",
+        "Original memory diagram retained;separate source-label transcription records its printed fields without recreating graphic layout. No byline inferred."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-05-r01/line",
+        "article_id": "scan-maso-1985-03-toc-0019",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-05-r01/line/manifest.json",
+          "sha256": "513c60dc05ccd17d425249b1ab673fbe24051f23649aa95869a1e1cf6f6ec212",
+          "bytes": 20935
+        },
+        "coverage": {
+          "pdf_pages": [
+            34,
+            35
+          ],
+          "printed_pages": [
+            "32",
+            "33"
+          ],
+          "regions": 32,
+          "blocks": 29,
+          "figures": 3
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-05/validation.json",
+          "sha256": "cefde5dbc786aae91baffa1df1ff6b67ac0f2f7ca1f1e4952404369ed1a14653",
+          "bytes": 1631
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-05/reproduction.json",
+          "sha256": "1dfa5ea3b3e5e3348122d59d178c3a109e50eb0e69af8d3e3b4e141be41bbf84",
+          "bytes": 1543
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0020",
@@ -708,10 +784,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 4,
+    "readable": 6,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 44
+    "unresolved_eligibility": 42
   },
   "checkpoints": [
     {
@@ -878,6 +954,45 @@
         "bytes": 1226
       },
       "timing_scope": "Prospective stage wall-clock timestamps include inter-turn gaps and waits;active human effort unmeasured."
+    },
+    {
+      "id": "batch-05",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0018",
+        "maso-1985-03-toc-0019"
+      ],
+      "mapped_pdf_pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "outside_map_lookup_pages": [
+        31,
+        36
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 47,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-05/validation.json",
+        "sha256": "cefde5dbc786aae91baffa1df1ff6b67ac0f2f7ca1f1e4952404369ed1a14653",
+        "bytes": 1631
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-05/verification-completed.json",
+        "sha256": "a68146d5fa0bdbd3942a91179d20c845d7d9f85141636838780e9c0f7a4213bd",
+        "bytes": 1012
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-05-preserved-work.json",
+        "sha256": "4e168c9090590b76126aa2c497fa84eea75ecde82deaaee4118aafd198896434",
+        "bytes": 714473
+      },
+      "started_at": "2026-10-22T10:13:22.229081+00:00",
+      "finished_at": "2026-10-22T10:35:30.609575+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include waits and gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -995,30 +1110,61 @@
     },
     {
       "pdf_page": 32,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0018"
       ],
-      "printed_page": "30",
+      "printed_page": "30"
+    },
+    {
+      "pdf_page": 33,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0018"
+      ],
+      "printed_page": "31"
+    },
+    {
+      "pdf_page": 34,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0019"
+      ],
+      "printed_page": "32"
+    },
+    {
+      "pdf_page": 35,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0019"
+      ],
+      "printed_page": "33"
+    },
+    {
+      "pdf_page": 36,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0020"
+      ],
+      "printed_page": "34",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-05",
-    "goal": "Verify RESTORE(N) and LINE extents and restore bounded two-article batch or a declared segment if necessary.",
+    "id": "batch-06",
+    "goal": "Verify and restore 꼬마 우주인의 산책;classify canonicaltips heading only after reviewing its three canonical children and source boundaries.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0018",
-      "maso-1985-03-toc-0019"
+      "maso-1985-03-toc-0020",
+      "maso-1985-03-toc-0017"
     ],
-    "mapping_targets": "RESTORE(N) openingprinted30/PDF32 verified;LINE TOC32 actual PDF location/end pending inspection.",
+    "mapping_targets": "Sprite article openingprinted34/PDF36 verified;actual end and following page pending. tips heading ownership still unresolved.",
     "provisional_lookup_targets": [
-      31,
-      32,
-      33,
-      34,
       35,
-      36
+      36,
+      37,
+      38,
+      39
     ],
     "limits": {
       "articles": 2,
@@ -1030,8 +1176,9 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and punctuation approximations retain original scans.",
-    "44 canonical entries lack selected checked packages or final heading classification;remaining source-page accounting is incomplete. No global folio offset inferred.",
-    "QA screens retain original pixels with detailed output transcription pending volunteers;thirteen unknown decorative bands and localized source errors remain explicit."
+    "QA screens retain original pixels with detailed output transcription pending volunteers;thirteen unknown decorative bands and localized source errors remain explicit.",
+    "42 canonical entries lack checked selected packages or final heading classification;remaining source-page accounting is incomplete.No global folio offset inferred.",
+    "RESTORE retains two explicit prefix-glyph markers andone unknown decorative band;LINE coordinate-gap widths,GC1181 andother candidates remain source-linked. No source code execution certification."
   ],
   "reader_rebuild": false
 }
