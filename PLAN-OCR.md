@@ -19,21 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:20 readable/sample-reviewed,no partial articles,four non-owning
-  headings and24 unresolved. Parent0003 정보모음 verified non-owning after printed
-  contents/eight completed children review;no parent body pages/export or child
-  duplication.25 child page assignments/24 unique pages/793 selected child files
-  unchanged.19 saved whole views inspected;all reused,zero mapping/OCR/source
-  passes/exports. Shared61 notice/printer20 nonfigure pairs and150 news/debugging
-  36 pairs remain disjoint. All32,869 prior files/41 inventories/20 packages/nine
-  formats/30 core pins pass;unchanged fresh213-test batch36 baseline reused.
-  Inventory32,935 files. Use pinned batch41 dispatcher. Next:0013keyboard/0014
-  miniclock actual full extents from initial142–144/220–222 source views;TOC141/
-  219 only cues. Preserve physical code wraps/strings/opaque fields;no repairs.
-  Parent0012 waits both children/separate boundary review. Cover,remaining entries,
-  244-page accounting/closeout pending;news/classified volunteer body transcription
-  andsource/human limits remain explicit. Follow [March log](docs/progress/8503.md)
-  and[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:22 readable/sample-reviewed, no partial articles, four non-owning
+  headings and22 unresolved. Both one-line children0013/0014 complete at lower
+  PDF143/141 andPDF221/219:18 regions/12 blocks/six originals; two BASIC labels,
+  14 physical rows/12 joins,54 numeric runs/70 identifier runs/two quoted literals.
+  All72 files match independent rebuilds;395 UTF-8 ranges/403 pins/18 crop images
+  pass. All32,935 prior files/42 inventories/30 core pins/20 prior packages/nine
+  formats unchanged; fresh213 PDF tests pass. Inventory33,243 files. Six whole
+  views (three reused/three new), two mapped/four outside pages; all18 exact crops
+  viewed before12 tasks (two eng/ten kor+eng); all12 raws read before one source
+  pass. No OCR failures/retries/crop repairs. Source LOCATEY,0, split HA string,
+  POKE54,0,0, Q fields and IFR>6/0THEN preserved; quoted encoded spacing unverified.
+  No code/keyboard/clock/encoding repair or execution. Use pinned batch41 dispatcher.
+  Next separately classify parent0012 using contents17/adjacent18 andboth child
+  boundaries142–144/220–222. No parent range/duplicate text inferred. Cover,
+  remaining entries/244-page accounting/closeout pending. Source/human limits and
+  volunteer news/classified body transcription remain explicit. Follow
+  [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

@@ -24,40 +24,41 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 20 of 48 entries are readable and assistant
+March 1985 remains in progress: 22 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, four headings are non-owning, and
-24 entries remain unresolved. Parent0003, 정보모음, is a verified non-owning
-organizational heading. All eight children0004–0011 are complete; the parent
-owns no body pages and has no article package.
+22 entries remain unresolved. Both one-line contest children are complete:
+0013 키보드 연습 on lower-left PDF143/printed141 and 0014 미니 클럭 on lower-right
+PDF221/printed219. The printed second title is 미니클럭; its canonical title is unchanged.
 
-Printed contents PDF17 shows the pageless heading above its eight children and
-before the separate1라인 콘테스트 group. Nineteen saved whole views confirm
-independent child bodies and boundaries. The children have25 page assignments
-across24 unique pages:19–30, lower61,148–150 and234–241; news and debugging
-share150. Their793 selected-package files remain exact. No continuous parent
-body from19–241 is inferred and no child text is duplicated.
+Each package retains nine regions, six source-corrected blocks and three original
+images: the complete panel, boxed program and observed folio. Each BASIC program
+has one numbered line across seven physical rows and six preserved joins.
+Both printed banners, SPC-1000 labels, submitter credits and addresses remain.
+The neighboring & usage conclusion, 낮은 점수 챔피언 listing and publisher recruitment
+notice are excluded. Neither child has deferred body pages or assembly pending.
 
-Existing shared-page ownership remains: lower-right61 manuscript call and upper
-printer body have20 disjoint nonfigure pairs; news/debugging150 have36. Source
-maps, exclusions, original pixels and all canonical IDs/titles/order/parents are
-unchanged. Printed news145/debug147 references remain despite actual source
-folios146/148. Intervening advertisements, publisher notices and unrelated
-articles are not assigned to the parent.
+Keyboard code retains both LOCATEY,0 occurrences, the LO/CATE physical wrap and
+the quoted HA/!  HA! wrap. Selected quoted spacing remains unverified. Miniclock
+retains POKE54,0,0, Q=Q/+(R-Q), CIRCL/E and IFR>6/0THEN physical wraps. All54
+numeric glyph runs,70 identifier runs and two quoted literals have source ranges;
+no syntax, numeric, keyboard, clock or encoding repair or execution.
 
-All32,869 prior files,41 inventories,20 readable packages,nine private formats
-and30 core pins pass. The unchanged fresh213-test batch36 baseline is reused.
-Preservation inventory contains32,935 files. All19 views reused existing renders;
-zero mapped pages, OCR tasks, source-correction passes or parent exports.
+All72 selected files match independent rebuilds. All395 active UTF-8 ranges,
+403 evidence-pin occurrences and18 original crop images pass. All32,935 prior
+files,42 prior inventories,30 core pins,20 prior packages and nine private formats
+remain exact. Fresh PDF tests pass all213 tests. Preservation inventory contains
+33,243 files. Six whole views (three reused/three newly rendered), two mapped
+pages and four outside lookups; all18 exact crops viewed before12 pinned tasks,
+all12 raws read before one source pass. No OCR failures/retries or crop repairs.
 Use pinned batch41 assembly_dispatch.py. No reader rebuild.
 
-Next: verify actual full extents and restore0013 키보드 연습 and0014 미니 클럭.
-TOC141/219 are lookup cues; initial PDF142–144 and220–222 views precede mapping.
-Keep each one-line program's physical wraps, identifiers, quoted strings, opaque
-fields and original images literal. Parent0012 remains unresolved until both
-children and group boundaries are checked separately. Cover selection, remaining
-entries, all244-page accounting and issue closeout remain pending. Human
-acceptance, full proofreading, source bytes/spacing and historical/technical
-claims remain unverified; news/classified body transcription awaits volunteers.
+Next: separately classify parent0012, 1라인 콘테스트 우수작, against printed
+contents PDF17/adjacent18 and both completed panel boundaries142–144/220–222.
+Do not infer a continuous parent body or duplicate child text. Cover selection,
+remaining entries, all244-page accounting and full issue closeout remain pending.
+Human acceptance, full proofreading, source bytes/spacing, historical contacts
+and technical claims remain unverified; news/classified body transcription awaits
+volunteers.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

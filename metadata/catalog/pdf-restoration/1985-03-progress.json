@@ -1197,23 +1197,159 @@
       "toc_entry_id": "maso-1985-03-toc-0013",
       "title": "키보드 연습",
       "parent_id": "maso-1985-03-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Whole PDF142/143/144 and220/221/222 inspected before mapping. Canonical TOC141/219 remain unchanged lookup references.",
+        "Keyboard is the complete lower-left framed panel onPDF143/visible141, below0032 & usage ending and beside independent publisher recruitment notice. Previous142 continues & usage;next144 starts0033 MSX 문자패턴 정의. No keyboard continuation.",
+        "Miniclock is the complete lower-right panel onPDF221/visible219, below0046 final BASIC column through670/RETURN and terminal mark. Previous220 continues0046;next222 starts0047 퍼즐링 게임. No miniclock continuation.",
+        "Each panel has group banner,title,SPC-1000 label,one numbered BASIC line physically wrapped,printed submitter credit and address. No prose introduction or printed caption. Entire source panel,boxed program and observed folio retained as original pixels. No standalone parent0012 decision in this checkpoint."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-43-r01/keyboard",
+        "article_id": "scan-maso-1985-03-toc-0013",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-43-r01/keyboard/manifest.json",
+          "sha256": "d72a6ee4df1fccc9cb55d5d9420abf6dc4c36e97916d96204d58bfc2832d1699",
+          "bytes": 5916
+        },
+        "coverage": {
+          "pdf_pages": [
+            143
+          ],
+          "printed_pages": [
+            "141"
+          ],
+          "regions": 9,
+          "blocks": 6,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/validation.json",
+          "sha256": "738ab3331bf5078f6dd1c78f603b59645e72c9cf2c90c215890af7dc5fff116a",
+          "bytes": 2860
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/reproduction.json",
+          "sha256": "8aaf20453a434f9fe50c25ab6515dc6ef69fe6b4a1fc8890b87bd326ca7ced05",
+          "bytes": 2173
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+          "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+          "bytes": 1661
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-43-r01/keyboard/corrections.json",
+            "sha256": "cc22b39b202b1203f8f083de97cebc2316f8b8786bd82aa88c4d8fd187b262ca",
+            "bytes": 114929
+          },
+          "field": "source_ending"
+        },
+        "listing_structure": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-43-r01/keyboard/corrections.json",
+            "sha256": "cc22b39b202b1203f8f083de97cebc2316f8b8786bd82aa88c4d8fd187b262ca",
+            "bytes": 114929
+          },
+          "physical_rows": 7,
+          "basic_labels": [
+            1
+          ],
+          "physical_joins": 6
+        },
+        "source_limits": "Literal source;historical credit/address,encoded bytes/spacing/technical claims unverified. No program repair/execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/previous-ledger.json",
+        "sha256": "e0f8128ccaf54960c85e5af8890f37a1bfaa6c968686f526c10b295625f04461",
+        "bytes": 254283
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0014",
       "title": "미니 클럭",
       "parent_id": "maso-1985-03-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Whole PDF142/143/144 and220/221/222 inspected before mapping. Canonical TOC141/219 remain unchanged lookup references.",
+        "Keyboard is the complete lower-left framed panel onPDF143/visible141, below0032 & usage ending and beside independent publisher recruitment notice. Previous142 continues & usage;next144 starts0033 MSX 문자패턴 정의. No keyboard continuation.",
+        "Miniclock is the complete lower-right panel onPDF221/visible219, below0046 final BASIC column through670/RETURN and terminal mark. Previous220 continues0046;next222 starts0047 퍼즐링 게임. No miniclock continuation.",
+        "Each panel has group banner,title,SPC-1000 label,one numbered BASIC line physically wrapped,printed submitter credit and address. No prose introduction or printed caption. Entire source panel,boxed program and observed folio retained as original pixels. No standalone parent0012 decision in this checkpoint."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-43-r01/miniclock",
+        "article_id": "scan-maso-1985-03-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-43-r01/miniclock/manifest.json",
+          "sha256": "45ca4033fb6a76192258fbd554a4e464f755e947f26e6fe4a46e7d6ebd2f7ef2",
+          "bytes": 5916
+        },
+        "coverage": {
+          "pdf_pages": [
+            221
+          ],
+          "printed_pages": [
+            "219"
+          ],
+          "regions": 9,
+          "blocks": 6,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/validation.json",
+          "sha256": "738ab3331bf5078f6dd1c78f603b59645e72c9cf2c90c215890af7dc5fff116a",
+          "bytes": 2860
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/reproduction.json",
+          "sha256": "8aaf20453a434f9fe50c25ab6515dc6ef69fe6b4a1fc8890b87bd326ca7ced05",
+          "bytes": 2173
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+          "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+          "bytes": 1661
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-43-r01/miniclock/corrections.json",
+            "sha256": "48759c7b26190d7b8dda2e853c419c7aa16358e056f6f9ba8b7bcce2e5956e1b",
+            "bytes": 117890
+          },
+          "field": "source_ending"
+        },
+        "listing_structure": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-43-r01/miniclock/corrections.json",
+            "sha256": "48759c7b26190d7b8dda2e853c419c7aa16358e056f6f9ba8b7bcce2e5956e1b",
+            "bytes": 117890
+          },
+          "physical_rows": 7,
+          "basic_labels": [
+            1
+          ],
+          "physical_joins": 6
+        },
+        "source_limits": "Literal source;historical credit/address,encoded bytes/spacing/technical claims unverified. No program repair/execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/previous-ledger.json",
+        "sha256": "e0f8128ccaf54960c85e5af8890f37a1bfaa6c968686f526c10b295625f04461",
+        "bytes": 254283
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0015",
@@ -2984,10 +3120,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 20,
+    "readable": 22,
     "partial": 0,
     "non_owning_headings": 4,
-    "unresolved_eligibility": 24
+    "unresolved_eligibility": 22
   },
   "checkpoints": [
     {
@@ -4920,6 +5056,52 @@
       "started_at": "2026-10-22T22:22:58.049563+00:00",
       "finished_at": "2026-10-22T22:28:54.585793+00:00",
       "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-43",
+      "status": "complete",
+      "stage": "validated-complete-one-line-program-panels",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0013",
+        "maso-1985-03-toc-0014"
+      ],
+      "mapped_pdf_pages": [
+        143,
+        221
+      ],
+      "outside_map_lookup_pages": [
+        142,
+        144,
+        220,
+        222
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 12,
+      "eng_code_tasks": 2,
+      "kor_eng_tasks": 10,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/validation.json",
+        "sha256": "738ab3331bf5078f6dd1c78f603b59645e72c9cf2c90c215890af7dc5fff116a",
+        "bytes": 2860
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/verification-completed.json",
+        "sha256": "345e1423139a0146af3e06ad8101f254998fd001efa135d970cff4f590a08436",
+        "bytes": 1234
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-43-preserved-work.json",
+        "sha256": "c2b4be15699a8c9a66e3426847dfdd9439750f13de9c16a13c4b4905251f0cc0",
+        "bytes": 7416824
+      },
+      "started_at": "2026-10-22T22:31:48.634961+00:00",
+      "finished_at": "2026-10-22T22:43:38.257855+00:00",
+      "timing_scope": "Wallclock includes interruptions/waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false,
+      "crop_repair_rounds": 0
     }
   ],
   "source_page_observations": [
@@ -6367,16 +6549,32 @@
     },
     {
       "pdf_page": 143,
-      "classification": "mixed-outside-current-article-observed",
-      "toc_entry_ids": [],
+      "classification": "mixed-canonical-body-and-other-material",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0013"
+      ],
       "printed_page": "141",
-      "restoration": "observed;not-restored",
+      "restoration": "complete-one-line-program-panel;neighbor-body-restoration-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
-        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
-        "bytes": 2090
+        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+        "bytes": 1661
       },
-      "notes": "Apple&ending upperleft,one-linekeyboardcontest lowerleft,recruitmentnotice right. Current0002alreadyended139;otherownershippending."
+      "notes": "Only mapped one-line panel owned;adjacent other article andpublisher material excluded. Original program panel/boxed code/folio retained.",
+      "prior_observation": {
+        "pdf_page": 143,
+        "classification": "mixed-outside-current-article-observed",
+        "toc_entry_ids": [],
+        "printed_page": "141",
+        "restoration": "observed;not-restored",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+          "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+          "bytes": 2090
+        },
+        "notes": "Apple&ending upperleft,one-linekeyboardcontest lowerleft,recruitmentnotice right. Current0002alreadyended139;otherownershippending."
+      },
+      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0032"
     },
     {
       "pdf_page": 144,
@@ -6521,6 +6719,46 @@
         "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
         "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
         "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 220,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "218",
+      "source_material_observed": "낮은 점수 챔피언",
+      "restoration": "outside-current-one-line-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+        "bytes": 1661
+      }
+    },
+    {
+      "pdf_page": 221,
+      "classification": "mixed-canonical-body-and-other-material",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0014"
+      ],
+      "printed_page": "219",
+      "restoration": "complete-one-line-program-panel;neighbor-body-restoration-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+        "bytes": 1661
+      },
+      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0046",
+      "notes": "Only mapped one-line panel owned;adjacent other article andpublisher material excluded. Original program panel/boxed code/folio retained."
+    },
+    {
+      "pdf_page": 222,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "220",
+      "source_material_observed": "퍼즐링 게임",
+      "restoration": "outside-current-one-line-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+        "bytes": 1661
       }
     },
     {
@@ -6698,14 +6936,15 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-43",
-    "goal": "Verify actual full extents andrestore canonical0013 키보드 연습 and0014 미니 클럭,children of1라인 콘테스트 우수작.",
+    "id": "batch-44",
+    "goal": "Classify canonical0012 1라인 콘테스트 우수작 after separate printed contents andboth complete child panel boundaries review.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0013",
-      "maso-1985-03-toc-0014"
+      "maso-1985-03-toc-0012"
     ],
-    "mapping_targets": "TOC141/219 are lookup cues,not global PDF offsets. Initial whole views142/143/144 and220/221/222;reuse saved142–144,render only missing220–222. Verify each actual title,full body,ending andadjacent content before mapping/OCR. Expected location candidates143 and221 are provisional. At most two canonical tasks/six distinct mapped pages/twenty outside lookups. Preserve source group banner/title/intro/byline if present,all one-line BASIC/code physical wraps,identifiers,quoted keyboard/display strings,opaque DATA/numeric fields,table/grid/original figures/captions,folio/nulls andterminal marks. No syntax/code/encoding/keyboard/hardware repair or execution. Parent0012 classification waits both children/group boundaries in a separate checkpoint. Cover,remaining entries,244-page accounting andissue closeout pending. No reader rebuild.",
+    "mapping_targets": "Read printed contentsPDF17 andadjacent18 plus saved142/143/144 and220/221/222. Verify the pageless parent identity/exact two child relationships andeach repeated panel banner;confirm neither parent body nor continuous143–221 range is inferred. Both children0013/0014 are complete;all72 selected package files/code/quoted spacing/opaque fields andmap exclusions must remain exact. Classification only if source proves non-owning organization;do not export duplicated child text or assign neighboring0032/0046 bodies/publisher notices toparent. Zero new OCR/mapping expected. Cover,remaining entries,244-page accounting andfull issue closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
+      17,
+      18,
       142,
       143,
       144,
@@ -6770,8 +7009,9 @@
     "Final classified native retains four image fragments/two physical associations,actual241contact/terminal andfollowing242nullfolio. Source exchange heading belongs immutable opening;no repeated heading/caption/byline or239→240same-item/contact association inferred. Body transcription remains pending volunteers;all offer/contact/price claims unverified.",
     "Use pinned batch41 assembly_dispatch for all nine March private formats in JSON/assets issue export/check. Full native stage notes/flags retained;active complete classifieds scope has no deferred body pages orassembly pending.",
     "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
-    "24 canonical entries remain unresolved. Parent0003 정보모음 is non-owning after printed-contents/eight-child verification:25 page assignments/24 unique child body pages/793 selected files unchanged. Parent owns no body pages orcontinuous19–241 range. Shared61 notice/printer20 nonfigure pairs and150 news/debugging36 pairs remain disjoint.",
-    "All20 readable packages/nine private formats/30 core pins remain exact;zero mapping/OCR/export for parent classification. Next0013keyboard/0014miniclock full extent/source restoration;parent0012 remains unresolved. Cover,remaining entries,244-page accounting/issue closeout pending."
+    "22 canonical entries remain unresolved. One-line0013/0014 complete lowerPDF143/visible141 andlowerPDF221/visible219;18 regions/12 blocks/six originals,two BASIC labels/14 physical rows/12 joins,54 opaque numeric runs/70 identifier runs andtwo quoted literals. No body pages orassembly pending for either child. Parent0012 next for separate classification.",
+    "Keyboard sourceLOCATEY,0 twice,LO/newlineCATE andHA/newline!  HA! remain literal;quoted encoded-space counts unverified. Miniclock sourcePOKE54,0,0,Q=Q/newline+(R-Q),CIRCL/newlineE andIFR>6/newline0THEN unchanged. Canonical미니 클럭 independent fromprinted미니클럭. No syntax/number/keyboard/clock/encoding repair or execution.",
+    "Use pinnedbatch41 dispatcher/nine private formats. All32935 prior files/42 prior inventories/30 core pins and20 prior readable packages exact;fresh213 PDFtests pass. Parent0003 remainsnon-owning;cover,remaining entries,244-page accounting andfull Marchissue closeout pending."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
