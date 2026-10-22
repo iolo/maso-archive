@@ -10711,18 +10711,93 @@
         "sha256": "dfdb6e6c4a0cd919d308ae3eebb8c22ba5b297bb4df3fbca692657a349acba3d",
         "bytes": 12892973
       }
+    },
+    {
+      "id": "issue-accounting-01",
+      "status": "complete-bounded-accounting-and-cover",
+      "toc_entry_ids": [],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        35,
+        79
+      ],
+      "canonical_tasks": 0,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/validation.json",
+        "sha256": "1678f97ca20a81debb5c49c070e11e0c59236410e7ecdbc2b504df215eee4248",
+        "bytes": 1099
+      },
+      "stats": {
+        "reviewed_outside_pages": 20,
+        "remaining_outside_pages": 8,
+        "cover": "verified-donated",
+        "canonical_entries_unchanged": 56
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/issue-accounting-01-preserved-work.json",
+        "sha256": "31cd43006d3d7546a672e4d447a4843e12ef9589519037026e74323012ed7ae8",
+        "bytes": 12906166
+      }
     }
   ],
   "source_page_observations": [
     {
       "pdf_page": 17,
       "classification": "contents",
-      "evidence": "1985년2월호 통권16호 visible"
+      "evidence": "1985년2월호 통권16호 visible",
+      "previous_observation": {
+        "pdf_page": 17,
+        "classification": "contents",
+        "evidence": "1985년2월호 통권16호 visible"
+      },
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Originalcontents/staff/imprint. Explicit1985년2월호 통권16호 andunpaged정보모음section;corroboratescanonicalparentclassification. No additionalbody orcatalogrepair.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-017.png",
+        "sha256": "7f464df3d43d1e4247cba180290e51aeeec010e25ddb37f8a6c3f2c897615b80",
+        "bytes": 2658441
+      }
     },
     {
       "pdf_page": 18,
-      "classification": "advertisement",
-      "evidence": "효성 PC-8000 independent full-page advertisement"
+      "classification": "advertising",
+      "evidence": "효성 PC-8000 independent full-page advertisement",
+      "previous_observation": {
+        "pdf_page": 18,
+        "classification": "advertisement",
+        "evidence": "효성 PC-8000 independent full-page advertisement"
+      },
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Hyosung PC-8000+ personal-computer full-page commercial advertisement.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-018.png",
+        "sha256": "b712891ccc2e15afb1169fa306fd80f99faf1a682a5820f6944a43836b40a1d1",
+        "bytes": 5373332
+      }
     },
     {
       "pdf_page": 19,
@@ -10857,8 +10932,23 @@
     },
     {
       "pdf_page": 35,
-      "classification": "advertisement",
-      "evidence": "Independent 희망전자개발 PC-8001/APPLE II equipment advertisement;outside article bodies."
+      "classification": "advertising",
+      "evidence": "Independent 희망전자개발 PC-8001/APPLE II equipment advertisement;outside article bodies.",
+      "previous_observation": {
+        "pdf_page": 35,
+        "classification": "advertisement",
+        "evidence": "Independent 희망전자개발 PC-8001/APPLE II equipment advertisement;outside article bodies."
+      },
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Heemang electronics printerbuffer/educationmodule/interface peripheral full-page commercial advertisement.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-035.png",
+        "sha256": "0ff3bf180b3cc0fb0d5d40e39ba240418b21075961f1ba61c688878a2d03bf0c",
+        "bytes": 3632488
+      }
     },
     {
       "pdf_page": 36,
@@ -11375,11 +11465,26 @@
     },
     {
       "pdf_page": 79,
-      "classification": "independent-advertisement-observed",
+      "classification": "unlisted-contest-notice",
       "toc_entry_ids": [],
       "printed_page": null,
       "source_title": "Samsung contest advertisement",
-      "restoration": "outside-canonical-article-body"
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "previous_observation": {
+        "pdf_page": 79,
+        "classification": "independent-advertisement-observed",
+        "toc_entry_ids": [],
+        "printed_page": null,
+        "source_title": "Samsung contest advertisement",
+        "restoration": "outside-canonical-article-body"
+      },
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "ownership_note": "Fourth Samsung personal-computer software contest announcement;independentpublisher/commercialnotice notlistedinthecanonicalTOC. No newarticleidentity ortranscription.",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-079.png",
+        "sha256": "2d02de046cd55b068f0a9805cc1d67fdda0ce39b12741a8ea4144de952ec6c5d",
+        "bytes": 1611106
+      }
     },
     {
       "pdf_page": 80,
@@ -13394,37 +13499,273 @@
         "canonical_toc_reference": "256",
         "catalog_unchanged": true
       }
+    },
+    {
+      "pdf_page": 1,
+      "classification": "cover",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Front cover: visible85.2,MicroSoftware masthead androbot/manuscript/computer artwork;matches donatedFebruarycover. No standalonearticlebody.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-001.png",
+        "sha256": "92de52eb41b80e15f8d0ee78fc5d8cc4a44abc2084f3019f0b455c8e49876126",
+        "bytes": 8304259
+      }
+    },
+    {
+      "pdf_page": 2,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "SKC96TPI mini-floppy disk full-page advertisement, Sunkyong company.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-002.png",
+        "sha256": "28ac6aa43a3cfaffbcea46cca6a242f6330703c8275b6c5722a676312cf47b0b",
+        "bytes": 4303701
+      }
+    },
+    {
+      "pdf_page": 3,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "TriGem20XT/TriGem88 commercialcomputer advertisement, Sambo.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-003.png",
+        "sha256": "9452c9c5b8790c8bdd3a106972a3a750fda226092ae918c6055768f5236a6702",
+        "bytes": 4474190
+      }
+    },
+    {
+      "pdf_page": 4,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "ComputerTown/ComputerLife retailshowroom two-page advertising spread,left half.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-004.png",
+        "sha256": "4edd22634ace83e5134c118576eec56064c21790128a377b964fb198243c6c10",
+        "bytes": 4182356
+      }
+    },
+    {
+      "pdf_page": 5,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "ComputerTown/ComputerLife retailshowroom two-page advertising spread,right half;openingpromotion/map/salescontact.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-005.png",
+        "sha256": "db3005e05e6043e00581ae5861598d0f946bc2522a75e91f3c84a91d3a9c05f8",
+        "bytes": 3970074
+      }
+    },
+    {
+      "pdf_page": 6,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "ASUKA NF-555 disk-drive full-page advertisement,Buil/Newtech.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-006.png",
+        "sha256": "b6e52d5ba5e0c09d4572fe12339d28bf9ac2438b90bcacb65a4d65a2f2838143",
+        "bytes": 6922648
+      }
+    },
+    {
+      "pdf_page": 7,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "TIGER ATS16/32/64 systems full-page commercial advertisement,KoryoSystem.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-007.png",
+        "sha256": "d2ebf8270e2436e79bf76d8411b0a4f89cae8099dae541b184f84b6d630a7d8e",
+        "bytes": 4519949
+      }
+    },
+    {
+      "pdf_page": 8,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "CenTech colorfuldiskette full-page commercial advertisement,Bellel.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-008.png",
+        "sha256": "45024a8bf669364fc0e282522e656b761f13e19d6b965d223d1f28e35d481bed",
+        "bytes": 6991428
+      }
+    },
+    {
+      "pdf_page": 9,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Sharp MZ-731/MZ-700 computer full-page commercial advertisement.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-009.png",
+        "sha256": "87370f646c385ee39021edfb3aaa6ba4bf1297d4e3d8c56ba04c70c8315257ac",
+        "bytes": 4448585
+      }
+    },
+    {
+      "pdf_page": 10,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "EXIM-6502-84 disk-drive full-page advertisement,DongseoElectronics.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-010.png",
+        "sha256": "fd6b80ae3276919328d3cd3ca699ed3395c1ad38a726ae96e10f0bb3eeb01b9a",
+        "bytes": 2533755
+      }
+    },
+    {
+      "pdf_page": 11,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Super7 drive andcomputer/peripheral price-list full-page advertisement,HongikElectronics.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-011.png",
+        "sha256": "e96e48f310709c53bd086dfdd5c8a8321befe6bc59c69acb636853a74832e153",
+        "bytes": 6058798
+      }
+    },
+    {
+      "pdf_page": 12,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "EHaeng Cyborg personal-computer commercial spread,left half.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-012.png",
+        "sha256": "e96ddf13563ce907d21516265f6dd7dc1852bc54df5f64efe53f99e64523b284",
+        "bytes": 2378807
+      }
+    },
+    {
+      "pdf_page": 13,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "EHaeng Cyborg personal-computer commercial spread,right half withdemonstration/contact details.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-013.png",
+        "sha256": "28e35ed82c2d970a773d948a3915270be5c16925f454f26be8d08fe2fc3716cc",
+        "bytes": 2371235
+      }
+    },
+    {
+      "pdf_page": 14,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "DACOM terminal/network/data-services full-page commercial advertisement.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-014.png",
+        "sha256": "eb22e3cf0a6c7c1922a422469196c0c40a03d0cd2bfc983422677c5256efd961",
+        "bytes": 5062554
+      }
+    },
+    {
+      "pdf_page": 15,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "Jongro bookstore/officeequipment retailcomputer sales showroom full-page advertisement.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-015.png",
+        "sha256": "265de1191e90bc06bee29c9782b45c1680f4ce60edff7dce55302c1354bd5b9d",
+        "bytes": 4846660
+      }
+    },
+    {
+      "pdf_page": 16,
+      "classification": "advertising",
+      "printed_page": null,
+      "printed_page_status": "no-visible-folio;not-inferred",
+      "toc_entry_ids": [],
+      "ownership_note": "3M diskette full-page commercial advertisement.",
+      "restoration": "outside-canonical-body;source-page-accounted",
+      "source_review": {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-review/full-016.png",
+        "sha256": "bd634c2c002bcfb412470802b550cfda05d6e71e85a0ec6e1f49c6b898375ece",
+        "bytes": 4179911
+      }
     }
   ],
-  "cover_status": "pending; donated cover priority; no cover selected in batch01",
-  "next_checkpoint": {
-    "id": "issue-accounting-01",
-    "goal": "Verify prepared donated8502 cover and inspect first20 outside-body PDFpages before complete260-page accounting.",
-    "toc_entry_ids": [],
-    "mapping_targets": "Reuse originalsourceviews where available;inspectPDF1–18,35,79 andrecord actualpage identity/ownership. Verify covers/8502.jpg andexisting boundedthumbnail againstmanifest/hash/geometry andvisualissue identity;do not regenerateexistingderivatives orrebuildreader.",
-    "provisional_lookup_targets": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      35,
-      79
+  "cover_status": {
+    "status": "verified-donated",
+    "source_kind": "donated",
+    "original": {
+      "path": "covers/8502.jpg",
+      "sha256": "cdbcc78de9194215d053772e6ed79af4d40cd7e4ad30dc4f565cd37287a1b65b",
+      "bytes": 14561155
+    },
+    "thumbnail": {
+      "path": "archive/covers/derivatives/8502-2f94c8d744e363088acb36eb-thumb.jpg",
+      "sha256": "0278fcf7340bda0b1eec6613c01a018d239dffc9df386ad64c9a9d58644eaacb",
+      "bytes": 59598
+    },
+    "dimensions": [
+      480,
+      636
     ],
-    "boundary_review": "All56canonicalentries classified48readable/eightnon-owning. Selectedarticlepackagescover232distinctPDFpages;28otherpagesremainforindependentaccounting. First20 now;remaining111,161,177,184,205,211,259,260 later. Source-page ledger must distinguishwholepagebodyavailability fromsharedpanelownership and retainfolio/titleconflicts.",
+    "verification": {
+      "path": "archive/pdf/1985-02/restoration/issue-accounting-01/cover-verification.json",
+      "sha256": "3068f9a128188b386f8eb0ef36fd2746cc51a9f985c18af51494c138bef5ff7e",
+      "bytes": 2820
+    },
+    "previous_status": "pending; donated cover priority; no cover selected in batch01",
+    "original_and_derivative_unchanged": true
+  },
+  "next_checkpoint": {
+    "id": "issue-accounting-02",
+    "goal": "Inspect remaining8outside-body sourcepages and reconcile complete260-page issue ledger.",
+    "toc_entry_ids": [],
+    "mapping_targets": "Reuse retained fullPDF111,161,177,184,205,211,259,260 whereavailable. Classifyeachindividually;checksourcefolios/headingownership,independentadvertisements andunlistedmaterial. Mergewith20reviewedoutsidepages and232selectedarticlepages;preserveallsharedpanel/source-labelconflicts. Verify donatedcoverpins unchanged.",
+    "provisional_lookup_targets": [
+      111,
+      161,
+      177,
+      184,
+      205,
+      211,
+      259,
+      260
+    ],
+    "boundary_review": "All56entriesclassified48readable/eightnon-owning;donatedcoververified. First20outsidepages1–18,35,79arecover1/ads17/contents1/unlistedcontest1. Completepageledger/standaloneissueexport/rebuild/report/requirementsaudit stillpending;no readerrebuild.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -13480,7 +13821,38 @@
     "Batch59 completes디버깅 룸0017,source디버깅룸,independentlowerpanelprinted243/PDF245. Fivecorrectionentries retain25cells/fiveheaders,fourprintedbefore/afterpairs andSEARCHdiagramfourlabels/twoblankslots. EightQ&Arows retain94numericcells/twofinalblankcells,twelveheaders and23groupingbrackets;row2unmatchedclosing37] retained. CP/Mformat retains14fieldnames,27hexfields,threeellipsisgroups andfiveunderlined7a–7efields;no previousvaluesinvented. Fourprintedreferences,two prosewraps andonecaptionassociation indexed. Sixteencandidates,sevenUnicodeapproximations and263unknownspacebands;tablepipes/semicolons/spacingareserialization,subscriptsflattenedandbracketshapesapproximate. All12originalcrops reviewedbefore8tasks2eng/6koreng;allrawsbeforeonesourcepass;zeroOCRfailures/retries/repairs. Metadatarevisionsremove straydraftnotefragments anduseactualcaption;OCR-boundmaperratumcorrectsLOGATORasindependent/unlisted,not0050MAT함수/alreadyrestored. Sourceunchanged;allthreeexports/tworebuilds andfailedcaption-newlineverifier retained. Humanacceptance/fullproofreading,sourcebytes,spacing,claims/correctionefficacy,execution andindependentbackuprecovery unverified. No readerrebuild.",
     "Batch60 completes복덕방0018 printed252–255/PDF254–257 and광고색인0024 lowerPDF258/visible240/TOC256. Classifieds retain83bulletitems5wanted/32swap/46give,77contactrows/76printedcontactgroups,79phonefields,69moneyexpressions,15locations,ninecolumn/pageconnections/foursame-itemcontinuations,three largephotolabels and254physicalrows. Oneapple-logomarker/38candidates/211Unicodeapproximations/742source-spacebands plusoneeditorialdescriptionspace remainexplicit. Stylizedmonitor///versusIII andtinyphotographiclabeltranscription pendingvolunteers. Final민경윤correctsprovisionalmap민정훈inactivemetadata;OCR-boundmap retained. Indexretains24rows/48cells/twoorderedcolumns/noinventedheaders,26printedreferencetokens/threecoverrefs,24leaderdotbands,tree/rules/visible240folio;upperadexcluded. Eightcandidates/twosource-spacebands,24editorialpipes/48separator spaces remainexplicit;dotcounts andtargetsunknown. All32original/3replacementcrops before26korengtasks;allrawsbeforeonepass;zeroOCRfailure/retry. Humanacceptance/fullproofreading,sourcebytes,spacing,historicalprices/contacts/productclaims,reference targets andindependentbackuprecovery unverified. No readerrebuild.",
     "Batch61 completes컴퓨돌이0025 in two independentpanels printed36/63(PDF38/65),언제쯤 and해답. Twelve regions/eightblocks/four originalart/panelfigures retain22physicalrows/16storyrows,14adjacentstoryrowassociations,eightquotedpassages/threewrappedquotes,twoart/textassociations,two10년hatlabels,three1/2/10년durationfields and100/0점scorefields. Sixteencandidates/21Unicodeapproximations/59unknownspacebands retainstylizedlogos,curlyquotes,ellipsis andslantedexclamations. Source늘리지요,학생같으면,걸릴겁니다 and0점임 remainliteral. Provisionalmapfinal?correctedto!inactivemetadata;OCR-boundmap preserved. Noartist/byline/signature orinterveningBEEP/Forthownershipinferred. All12original/twohatreplacementcrops before8korengtasks;allraws beforeonesourcepass;zeroOCRfailure/retry. Firstmapvalidation rejectedexcludedtechnicalrectangle overlap2–3pixelswithpanelborder beforewrites;freshscriptnarrowed exclusions,eligiblegeometryunchanged. Allsourceattempts/crops/raws/export/rebuild preserved. Humanacceptance/fullproofreading,sourcebytes,spacing,stylizedglyphencoding/historicalstoryclaims andindependentbackuprecovery unverified. No readerrebuild.",
-    "Heading-classification62 resolvespageless정보모음0008 asnon-owningorganizationalheading. Ten childIDs0009–0018 unchanged:ninereadablebodyowners andonealready non-owning정보레이다0013. No additionalbody/divider/hierarchy invented. All56identities/titles/parentlinks,48selectedpackages/13privateassemblies/nativeprojections verified with30unchangedimplementationpins and13pinnedprivateadapters. Sourcebodypages232/unowned28ispreliminarysetaccounting,notfullissuecoverageproof. Cover,28outsidebodypageinspections,standaloneissueexport/rebuild/report andrequirementsauditpending. Humanacceptance/fullproofreading,sourcebytes,spacing,claims/execution andindependentbackuprecovery remainunverified. No readerrebuild."
+    "Heading-classification62 resolvespageless정보모음0008 asnon-owningorganizationalheading. Ten childIDs0009–0018 unchanged:ninereadablebodyowners andonealready non-owning정보레이다0013. No additionalbody/divider/hierarchy invented. All56identities/titles/parentlinks,48selectedpackages/13privateassemblies/nativeprojections verified with30unchangedimplementationpins and13pinnedprivateadapters. Sourcebodypages232/unowned28ispreliminarysetaccounting,notfullissuecoverageproof. Cover,28outsidebodypageinspections,standaloneissueexport/rebuild/report andrequirementsauditpending. Humanacceptance/fullproofreading,sourcebytes,spacing,claims/execution andindependentbackuprecovery remainunverified. No readerrebuild.",
+    "Issue-accounting01 individuallyreviewsPDF1–18,35,79:onecover,17commercialads,onecontents/imprint andoneunlistedSamsungcontestnotice. Noextraarticleidentity/bodyinferred;no foliooffset. Donatedcovers8502originalfullydecoded/hashverified;existing480x636RGBJPEGthumbnail/hash/strippedmetadata/settingsverifiedandvisuallymatchedtoPDF1and17February1985/vol16. Donatedprioritypreserved;nooriginal/derivative/regeneration/readerchange. Source17corroboratespageless정보모음section. Twentyoutsidepagesreviewed;remaining111,161,177,184,205,211,259,260pending. All56entries/48packagesand232selectedarticlepages unchanged. Humanacceptance/fullproofreading,sourcebytes,spacing,adclaims/reference targets/execution andindependentbackuprecovery unverified."
   ],
-  "reader_rebuild": false
+  "reader_rebuild": false,
+  "source_page_accounting": {
+    "status": "partial-outside-body-review",
+    "source_pdf_pages": 260,
+    "selected_article_source_pages": 232,
+    "outside_body_page_candidates": 28,
+    "reviewed_nonarticle_pages": 20,
+    "remaining_nonarticle_pages": [
+      111,
+      161,
+      177,
+      184,
+      205,
+      211,
+      259,
+      260
+    ],
+    "source_page_classifications": [
+      {
+        "path": "archive/pdf/1985-02/restoration/issue-accounting-01/source-page-classifications.json",
+        "sha256": "1920b23c0f028cd82087336cc4fb24bf7400d7c6b3b1c5abcc43e3ecc161bd30",
+        "bytes": 18809
+      }
+    ],
+    "article_package_audit": {
+      "path": "archive/pdf/1985-02/restoration/heading-classification-62/package-audit.json",
+      "sha256": "481bffa394b125e6ba4af74099ba625908c2a451dfa1cf35521af62372defd97",
+      "bytes": 26745
+    },
+    "full_source_page_ledger_pending": true
+  }
 }

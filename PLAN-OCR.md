@@ -1332,17 +1332,31 @@ paired OCR or a new engine comparison.
   213-test baseline is reused. Assistant sample review remains separate from human acceptance.
   Current totals: 48 readable, no partial articles, eight non-owning headings and 0 unresolved.
 
-  Next: verify the donated cover and first20 outside-body pages as issue-accounting01.
-  Inspect PDF1–18,35,79 within the20-page lookup limit; reuse verified renders where
-  available. Verify donated covers/8502.jpg and the existing bounded thumbnail against
-  its manifest,hash,geometry and visible issue identity. Keep donated-source priority and
-  all existing cover originals/derivatives. No reader rebuild or derivative regeneration.
-  Selected bodies cover232 distinct PDF pages;28 other pages require independent source
-  accounting. Remaining111,161,177,184,205,211,259,260 follow in a second bounded
-  checkpoint. This page-set count is preliminary,not proof of complete issue accounting.
-  Full260-page reconciliation,standalone issue export/independent rebuild/report and the
-  requirements audit remain pending. Human acceptance,full proofreading,source bytes,
-  spacing,claims/execution and independent backup recovery remain unverified.
+  Issue-accounting01 verifies the donated February cover and individually classifies
+  PDF1–18,35,79: one PDF cover,17 commercial advertisements,one contents/imprint page
+  andone unlisted Samsung contest notice. No additional article or folio offset was inferred.
+  PDF17 explicitly identifies1985년2월호 통권16호 and the unpaged 정보모음 section.
+  The source classifications are retained at
+  `archive/pdf/1985-02/restoration/issue-accounting-01/source-page-classifications.json`.
+  The donated original covers/8502.jpg and existing480×636 RGB JPEG thumbnail match
+  prepared hashes/settings,fully decode and pass bounded-size/stripped-metadata checks.
+  The thumbnail and PDF1 show the same85.2 cover artwork; PDF17 independently confirms
+  the issue date/volume. Donated-source priority remains; no original/derivative changed,
+  no thumbnail regenerated and no reader rebuilt. Verification is retained at
+  `archive/pdf/1985-02/restoration/issue-accounting-01/cover-verification.json`.
+  Sixteen fresh3000-pixel renders andfour verified reused renders supplied20 source
+  views;1000-pixel review thumbnails are a recorded review-only scale change. No mapping,
+  OCR or source correction. All58,248 prior files and30 pipeline pins remain exact;
+  58,310 files are preserved. All56 canonical records/48 selected articles are unchanged.
+
+  Next: inspect the remaining8 outside-body pages as issue-accounting02.
+  Review PDF111,161,177,184,205,211,259,260 individually,then reconcile all260 source
+  pages from232 selected-body pages and28 independently classified outside-body pages.
+  Keep shared-panel ownership,source titles/folio conflicts and all immutable packages.
+  The donated cover is verified; complete page accounting,standalone issue export,
+  independent rebuild/report and requirements audit remain pending. Human acceptance,
+  full proofreading,source bytes,spacing,claims/execution and independent backup recovery
+  remain unverified. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
