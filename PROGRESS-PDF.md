@@ -8,10 +8,9 @@ by the calendar month in which restoration work happened.
 
 February 1985 restoration is in progress. Forty-eight articles are readable/sample-reviewed,
 none are partial, eight headings are non-owning and all56 canonical entries are classified.
-All canonical article bodies are complete; parent 정보모음0008 is non-owning and the
-donated cover is verified. Twenty outside-body pages are classified; eight remain.
-Next: complete page accounting, then the standalone issue export/rebuild/report and
-requirements audit.
+All canonical article bodies and260-page source accounting are complete; the donated
+cover is verified. Next: export and independently rebuild the standalone issue, run the
+required regression checks, and complete the report and requirements audit.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -1211,14 +1210,35 @@ views;1000-pixel review thumbnails are a recorded review-only scale change. No m
 OCR or source correction. All58,248 prior files and30 pipeline pins remain exact;
 58,310 files are preserved. All56 canonical records/48 selected articles are unchanged.
 
-Next: inspect the remaining8 outside-body pages as issue-accounting02.
-Review PDF111,161,177,184,205,211,259,260 individually,then reconcile all260 source
-pages from232 selected-body pages and28 independently classified outside-body pages.
-Keep shared-panel ownership,source titles/folio conflicts and all immutable packages.
-The donated cover is verified; complete page accounting,standalone issue export,
-independent rebuild/report and requirements audit remain pending. Human acceptance,
-full proofreading,source bytes,spacing,claims/execution and independent backup recovery
-remain unverified. No reader rebuild.
+Issue-accounting02 completes all260 source-page classifications. The remaining8
+pages111,161,177,184,205,211,259,260 were individually inspected: six advertisements,
+one unlisted monthly software-contest notice and one page shared by an unlisted publisher
+tape-sales notice and a retail advertisement. None adds a canonical article body.
+The complete selected ledger is
+`archive/pdf/1985-02/restoration/issue-accounting-02/source-page-ledger-r01.json`.
+All260 pages reconcile as232 selected-body pages and28 other pages: one cover,
+23 advertisements,one contents page,two unlisted contest notices andone mixed notice/ad
+page. Ten pages have two canonical owners; all284 pairs of mapped non-figure regions
+across those owners are disjoint. Exact mapped/excluded regions,source geometry,pins,
+printed-folio observations and active correction references remain in the ledger.
+Original context images do not imply exclusive whole-page ownership. The unlisted
+LOGATOR panel on245,upper advertisement on258 andupper tape-sales notice on211 remain
+outside canonical-body transcription. Visible240/TOC256 andother source uncertainties
+remain unchanged. Prior source observations are retained as snapshots; active observations
+now agree with the complete260-page ledger. Both initial andownership-audited ledgers remain.
+Seven reused views andone new render supplied this8-page checkpoint. No mapping,OCR,
+source correction,article change or reader rebuild. All58,310 prior files and30 pipeline
+pins remain exact; 58,348 files are preserved. The48 articles,eight non-owning headings
+andverified donated cover are unchanged. The213-test baseline is reused.
+
+Next: export and independently rebuild the standalone issue as issue-closeout.
+Use all48 immutable packages/native inputs,the pinned13 private assembly adapters,
+eight non-owning headings,verified donated thumbnail andcomplete260-page ledger.
+Prepare a canonical data-only issue input from the current structured TOC if no reader
+base is available; do not rebuild the reader. Run required regression checks and a full
+requirements audit,compare every issue file,and produce the final report before claiming
+completion. Human acceptance,full proofreading,source bytes,spacing,claims/execution
+and independent backup recovery remain unverified.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
