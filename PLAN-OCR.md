@@ -19,22 +19,19 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:22 readable/sample-reviewed, no partial articles, four non-owning
-  headings and22 unresolved. Both one-line children0013/0014 complete at lower
-  PDF143/141 andPDF221/219:18 regions/12 blocks/six originals; two BASIC labels,
-  14 physical rows/12 joins,54 numeric runs/70 identifier runs/two quoted literals.
-  All72 files match independent rebuilds;395 UTF-8 ranges/403 pins/18 crop images
-  pass. All32,935 prior files/42 inventories/30 core pins/20 prior packages/nine
-  formats unchanged; fresh213 PDF tests pass. Inventory33,243 files. Six whole
-  views (three reused/three new), two mapped/four outside pages; all18 exact crops
-  viewed before12 tasks (two eng/ten kor+eng); all12 raws read before one source
-  pass. No OCR failures/retries/crop repairs. Source LOCATEY,0, split HA string,
-  POKE54,0,0, Q fields and IFR>6/0THEN preserved; quoted encoded spacing unverified.
-  No code/keyboard/clock/encoding repair or execution. Use pinned batch41 dispatcher.
-  Next separately classify parent0012 using contents17/adjacent18 andboth child
-  boundaries142–144/220–222. No parent range/duplicate text inferred. Cover,
-  remaining entries/244-page accounting/closeout pending. Source/human limits and
-  volunteer news/classified body transcription remain explicit. Follow
+- March1985:22 readable/sample-reviewed, no partial articles, five non-owning
+  headings and21 unresolved. Parent0012 1라인 콘테스트 우수작 verified non-owning
+  after printed contents/two completed child panel review. Parent has no body
+  pages/export or continuous143–221 range;no child duplication. All72 selected
+  child files and four banner/title source ranges unchanged. Eight saved whole
+  views inspected, all reused;zero mapping/OCR/source passes/exports. All33,243
+  prior files/43 inventories/22 readable packages/nine formats/30 core pins pass;
+  unchanged fresh213-test batch43 baseline reused. Inventory33,282 files.
+  Use pinned batch41 dispatcher. Next0015cartoons/0016adindex actual full extents
+  from initial160–162/204–206/227–229/240–243;TOC159,203,226/240 only cues.
+  Preserve original art/all speech/captions/credits andliteral index references.
+  Cover,remaining entries,244-page accounting/closeout pending. Source/human
+  limits and volunteer news/classified body transcription remain explicit. Follow
   [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

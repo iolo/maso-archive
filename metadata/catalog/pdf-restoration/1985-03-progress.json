@@ -1186,12 +1186,23 @@
       "toc_entry_id": "maso-1985-03-toc-0012",
       "title": "1라인 콘테스트 우수작",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printed contentsPDF17 shows pageless1라인 콘테스트 우수작 heading below정보모음. Exactly two child entries follow with references141 and219;the next ruled section lists separate top-level컴퓨돌이159,203,226 and광고색인240. Canonical parent andboth child IDs/titles/order/links unchanged.",
+        "The same printed1 -라인 콘테스트 우수작 코너 banner identifies both independent program panels:keyboard lower-leftPDF143/visible141,miniclock lower-rightPDF221/visible219. Both children are already readable/sample-reviewed,complete andretain all original source pixels and literal code.",
+        "Eight saved whole views inspected. Contents17 is followed by independent FUJITSU advertisement18.142 continues & usage,143upperleft concludes it beside independent publisher recruitment notice,and144 beginsMSX 문자패턴 정의.220 continues낮은 점수 챔피언,221left/upperright finishes it through670/RETURN andterminal,and222 begins퍼즐링 게임.",
+        "Each child panel contains its own group banner,title,machine label,one-line BASIC program,printed submitter credit andaddress. Full original panel/boxed program/observed folio andexisting exclusions preserved. Both seven-row programs/two total labels and72 selected package files remain exact.",
+        "Parent is a non-owning organizational heading,not an additional body orstandalone divider. No parent body pages,continuous143–221 range,duplicated child text orneighbor article/publisher material are assigned. Remaining top-levelcartoons/ad-index andother eligibility remain separate."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-44/parent-heading-decision.json",
+        "sha256": "b22749510c709413110c1c7c0eafbfb9da66fc82c2171d117ec8ebf5071e4320",
+        "bytes": 9849
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0013",
@@ -3122,8 +3133,8 @@
     "canonical_entries": 48,
     "readable": 22,
     "partial": 0,
-    "non_owning_headings": 4,
-    "unresolved_eligibility": 22
+    "non_owning_headings": 5,
+    "unresolved_eligibility": 21
   },
   "checkpoints": [
     {
@@ -5102,6 +5113,51 @@
       "deferred_body_pdf_pages": [],
       "assembly_required": false,
       "crop_repair_rounds": 0
+    },
+    {
+      "id": "batch-44",
+      "status": "complete",
+      "stage": "verified-non-owning-one-line-contest-parent",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0012"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        17,
+        18,
+        142,
+        143,
+        144,
+        220,
+        221,
+        222
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "classification": {
+        "path": "archive/pdf/1985-03/restoration/batch-44/parent-heading-decision.json",
+        "sha256": "b22749510c709413110c1c7c0eafbfb9da66fc82c2171d117ec8ebf5071e4320",
+        "bytes": 9849
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-44/validation.json",
+        "sha256": "fea5b01bdcc88ebcc820e2b938cb60d7e7192a33b6cf0fcbf1df149b56712677",
+        "bytes": 1303
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-44/verification-completed.json",
+        "sha256": "6af20466fce8407df01733777715abda63528f990100b0e9ea06423501452889",
+        "bytes": 1133
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-44-preserved-work.json",
+        "sha256": "e6b9981f7a23f49bbb9086d157ac7b50256148d24daf811c0ed473f0f62a14ef",
+        "bytes": 7424600
+      },
+      "started_at": "2026-10-22T22:46:12.333580+00:00",
+      "finished_at": "2026-10-22T22:49:09.087072+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -6936,21 +6992,27 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-44",
-    "goal": "Classify canonical0012 1라인 콘테스트 우수작 after separate printed contents andboth complete child panel boundaries review.",
+    "id": "batch-45",
+    "goal": "Verify actual full extents andrestore canonical0015 컴퓨돌이 and0016 광고색인 without changing canonical multi-page/title/reference identities.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0012"
+      "maso-1985-03-toc-0015",
+      "maso-1985-03-toc-0016"
     ],
-    "mapping_targets": "Read printed contentsPDF17 andadjacent18 plus saved142/143/144 and220/221/222. Verify the pageless parent identity/exact two child relationships andeach repeated panel banner;confirm neither parent body nor continuous143–221 range is inferred. Both children0013/0014 are complete;all72 selected package files/code/quoted spacing/opaque fields andmap exclusions must remain exact. Classification only if source proves non-owning organization;do not export duplicated child text or assign neighboring0032/0046 bodies/publisher notices toparent. Zero new OCR/mapping expected. Cover,remaining entries,244-page accounting andfull issue closeout pending. No reader rebuild.",
+    "mapping_targets": "TOC159,203,226 forcartoons and240 forad-index are lookup cues,not global PDF offsets. Initially inspect160–162/204–206/227–229 and240–243 whole views;reuse verified saved renders where possible. Establish actual title,all three cartoon installments/full panel boundaries andcredits/speech/captions if present;preserve original art andall visible text without redrawing/inventing. Inspect actual full advertising index table/headers/names/page references/leader bands,upper neighboring promotion andadjacent material before mapping. At most two canonical tasks/six distinct mapped pages/twenty outside lookups. Physical text wraps/opaque references/cover references/null folios remainliteral;no inferred page offsets,target verification orhistorical identity repair. Ifactual full extent exceeds cap,retain extent proof andsegment separately. Cover,remaining entries,244-page accounting andfull March closeout remain pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      17,
-      18,
-      142,
-      143,
-      144,
-      220,
-      221,
-      222
+      160,
+      161,
+      162,
+      204,
+      205,
+      206,
+      227,
+      228,
+      229,
+      240,
+      241,
+      242,
+      243
     ],
     "limits": {
       "articles": 2,
@@ -7009,9 +7071,9 @@
     "Final classified native retains four image fragments/two physical associations,actual241contact/terminal andfollowing242nullfolio. Source exchange heading belongs immutable opening;no repeated heading/caption/byline or239→240same-item/contact association inferred. Body transcription remains pending volunteers;all offer/contact/price claims unverified.",
     "Use pinned batch41 assembly_dispatch for all nine March private formats in JSON/assets issue export/check. Full native stage notes/flags retained;active complete classifieds scope has no deferred body pages orassembly pending.",
     "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
-    "22 canonical entries remain unresolved. One-line0013/0014 complete lowerPDF143/visible141 andlowerPDF221/visible219;18 regions/12 blocks/six originals,two BASIC labels/14 physical rows/12 joins,54 opaque numeric runs/70 identifier runs andtwo quoted literals. No body pages orassembly pending for either child. Parent0012 next for separate classification.",
     "Keyboard sourceLOCATEY,0 twice,LO/newlineCATE andHA/newline!  HA! remain literal;quoted encoded-space counts unverified. Miniclock sourcePOKE54,0,0,Q=Q/newline+(R-Q),CIRCL/newlineE andIFR>6/newline0THEN unchanged. Canonical미니 클럭 independent fromprinted미니클럭. No syntax/number/keyboard/clock/encoding repair or execution.",
-    "Use pinnedbatch41 dispatcher/nine private formats. All32935 prior files/42 prior inventories/30 core pins and20 prior readable packages exact;fresh213 PDFtests pass. Parent0003 remainsnon-owning;cover,remaining entries,244-page accounting andfull Marchissue closeout pending."
+    "21 canonical entries remain unresolved. Parent0012 1라인 콘테스트 우수작 is verified non-owning after printedcontents/two completed child panels review. Children0013/0014 retain two independent page assignments143/221 and72 exact selected files. Parent owns no body pages/continuous143–221 range andno duplicated child text.22 readable/0 partial/5 non-owning headings.",
+    "All22 readable packages/nine private formats/30 core pins remain exact;all33243 prior files/43 inventories pass. Zero mapping/OCR/source passes/exports forparent classification. Next0015cartoons/0016adindex actual full extents/source restoration;cover,remaining entries,244-page accounting andfull March closeout pending. Use pinnedbatch41 dispatcher."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

@@ -7,40 +7,36 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 22 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, four headings are non-owning, and
-22 entries remain unresolved. Both one-line contest children are complete:
-0013 키보드 연습 on lower-left PDF143/printed141 and 0014 미니 클럭 on lower-right
-PDF221/printed219. The printed second title is 미니클럭; its canonical title is unchanged.
+sample-reviewed, no articles are partial, five headings are non-owning, and
+21 entries remain unresolved. Parent0012, 1라인 콘테스트 우수작, is a verified
+non-owning organizational heading. Both children0013/0014 are complete; the
+parent owns no body pages and has no article package.
 
-Each package retains nine regions, six source-corrected blocks and three original
-images: the complete panel, boxed program and observed folio. Each BASIC program
-has one numbered line across seven physical rows and six preserved joins.
-Both printed banners, SPC-1000 labels, submitter credits and addresses remain.
-The neighboring & usage conclusion, 낮은 점수 챔피언 listing and publisher recruitment
-notice are excluded. Neither child has deferred body pages or assembly pending.
+Printed contents PDF17 shows the pageless parent above exactly two child
+references141/219 and before separately ruled 컴퓨돌이/광고색인 entries. Both
+independent program panels repeat the group banner: lower-left PDF143/printed141
+and lower-right PDF221/printed219. Eight saved whole views confirm their separate
+boundaries and neighboring articles/publisher notice. No continuous143–221 parent
+body or duplicated child text is inferred.
 
-Keyboard code retains both LOCATEY,0 occurrences, the LO/CATE physical wrap and
-the quoted HA/!  HA! wrap. Selected quoted spacing remains unverified. Miniclock
-retains POKE54,0,0, Q=Q/+(R-Q), CIRCL/E and IFR>6/0THEN physical wraps. All54
-numeric glyph runs,70 identifier runs and two quoted literals have source ranges;
-no syntax, numeric, keyboard, clock or encoding repair or execution.
-
-All72 selected files match independent rebuilds. All395 active UTF-8 ranges,
-403 evidence-pin occurrences and18 original crop images pass. All32,935 prior
-files,42 prior inventories,30 core pins,20 prior packages and nine private formats
-remain exact. Fresh PDF tests pass all213 tests. Preservation inventory contains
-33,243 files. Six whole views (three reused/three newly rendered), two mapped
-pages and four outside lookups; all18 exact crops viewed before12 pinned tasks,
-all12 raws read before one source pass. No OCR failures/retries or crop repairs.
+All 72 selected child files, four source banner/title ranges and all original maps,
+exclusions, code wraps, strings, credits and addresses remain exact. Both programs
+retain one BASIC label and seven physical rows each; source/encoded spacing and
+technical claims remain unverified. All 33,243 prior files, 43 prior inventories,
+22 readable packages, nine private formats and 30 core pins pass. The unchanged
+fresh 213-test batch43 environment baseline is reused. Preservation inventory
+contains 33,282 files. All eight views reused existing renders; zero mapped
+pages, OCR tasks, source-correction passes or parent exports.
 Use pinned batch41 assembly_dispatch.py. No reader rebuild.
 
-Next: separately classify parent0012, 1라인 콘테스트 우수작, against printed
-contents PDF17/adjacent18 and both completed panel boundaries142–144/220–222.
-Do not infer a continuous parent body or duplicate child text. Cover selection,
-remaining entries, all244-page accounting and full issue closeout remain pending.
-Human acceptance, full proofreading, source bytes/spacing, historical contacts
-and technical claims remain unverified; news/classified body transcription awaits
-volunteers.
+Next: verify actual full extents and restore0015 컴퓨돌이 and0016 광고색인.
+TOC159/203/226 and240 are lookup cues; initial whole views160–162/204–206/
+227–229 and240–243 precede mapping. Preserve original cartoon art, all visible
+speech/captions/credits and literal index names/references/leader bands. Cover
+selection, remaining entries, all244-page accounting and full issue closeout
+remain pending. Human acceptance, full proofreading, source bytes/spacing,
+historical contacts and technical claims remain unverified; news/classified body
+transcription awaits volunteers.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
