@@ -21,20 +21,23 @@ paired OCR or a new engine comparison.
 
 - March 1985 is in progress: eleven of 48 entries are readable/sample-reviewed,
   one article is partial, two headings are non-owning and 34 remain unresolved.
-  CP/M의 진수 0027 spans printed 78–89/PDF80–91. Its opening printed 78–83/PDF80–85
-  native matches the independent rebuild across 209 files; all 3,903 exact UTF-8
-  ranges, 4,069 pins and 59 images pass. Its 47 blocks/12 originals retain 13 memory
-  diagram labels, five listing panels/captions, 34 code rows, eight prose joins,
-  29 source candidates and two unknown bands. All 59 initial exact crops and three
-  repairs viewed before 47 tasks(6 eng/41 kor+eng); all 47 drafts read before one source
-  pass. No failure/retry/engine change. One metadata-only revision excludes
-  editorial marker words from opaque source fields; source readings unchanged.
-  All 14,776 prior files/30 core pins pass; fresh 213-test batch17 baseline reused.
-  Preservation inventory contains 15,919 files. MAT remains complete.
-  Next: restore final PDF86–91 from saved views, then assemble CP/M separately.
-  PDF91 has BDS-C running header despite CP/M conclusion; retain it. PDF92 opens
-  BDS-C. Use pinned batch17 dispatcher for existing completed private formats.
-  Parent 0024, cover selection, source accounting and issue closeout remain pending.
+  All CP/M의 진수0027 body pages printed78–89/PDF80–91 now have validated natives.
+  The final printed84–89/PDF86–91 package matches its independent rebuild across
+  263 files; all 4,300 exact UTF-8 ranges, 4,510 pins and 74 images pass. It retains
+  60 blocks/14 originals, lists6–11/seven caption links, 66 code rows, 30 stack
+  fields, nine prose joins and 36 localized source candidates. All 73 initial
+  exact crops, four repairs and one new bottom label were viewed before 60 tasks
+  (9 eng/51 kor+eng); all 60 drafts read before one source pass. No OCR failure,
+  retry or engine change. Source errors/addresses and BDS-C running header on
+  final CP/M page remain literal. One metadata revision expands address-index
+  coverage; a prior filename-reference preparation failure is retained and fixed.
+  Readings/crops/raws and the 209-file opening native remain unchanged.
+  All 15,919 prior files/30 core pins pass; fresh213-test batch17 baseline reused.
+  Preservation inventory contains 17,059 files. Both CP/M natives retain 472 files.
+  Next: separate complete CP/M assembly, preserving all native metadata and the
+  section boundary without a split-sentence join. No new mapping/OCR needed.
+  Extend pinned batch17 dispatcher; existing completed private formats remain.
+  Parent0024, cover selection, source accounting and issue closeout remain pending.
   Follow [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

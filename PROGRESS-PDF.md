@@ -8,21 +8,19 @@ by the calendar month in which restoration work happened.
 
 March 1985 is in progress: eleven of 48 entries are readable/sample-reviewed,
 with one partial article, two non-owning headings and 34 unresolved entries.
-CP/M의 진수 0027 spans printed 78–89/PDF80–91. Its opening printed 78–83/PDF80–85
-native matches the independent rebuild across 209 files. All 3,903 exact UTF-8
-ranges, 4,069 evidence pins and 59 image decodes pass. It retains 47 blocks/12
-originals,13 memory-diagram labels, lists 1–5/captions, 34 physical code rows,
-eight prose continuations,29 localized candidates and two unknown-count bands.
-All 59 initial exact crops and three repairs preceded 47 tasks;all drafts preceded
-one source pass. No OCR failure, retry or engine change. One metadata-only revision
-excludes editorial placeholders from printed-code fields;source readings unchanged.
-All 14,776 prior files and 30 core pins pass;fresh 213-test batch17 baseline reused.
-Preservation inventory contains 15,919 files. MAT remains complete.
-Next: restore CP/M final PDF86–91, then assemble separately. FinalPDF91 running
-header BDS-C is a source discrepancy;PDF92 opens BDS-C. Parent 0024, cover
-selection, source accounting and issue closeout remain pending. See
-[March's log](docs/progress/8503.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+All CP/M의 진수0027 body pages, printed78–89/PDF80–91, have validated natives.
+Its final printed84–89/PDF86–91 package matches the independent rebuild across
+263 files. All 4,300 exact UTF-8 ranges, 4,510 evidence pins and 74 images pass.
+It retains 60 blocks/14 originals, lists6–11, seven caption links, 66 code rows,
+30 opaque stack fields and nine prose continuations. Source ORA1A/JZNZ, repeated
+JZ1, INR in DCR prose, CCD and differing addresses stay literal. The final BDS-C
+running header stays separate from CP/M body identity. Both natives retain 472 files.
+All 15,919 prior files and 30 core pins pass; fresh213-test batch17 baseline reused.
+Preservation inventory contains 17,059 files. Complete CP/M assembly is next;
+no body pages remain deferred. Preserve full native metadata and resolve the
+section boundary without an encoded join. Parent0024, cover selection, source
+accounting and issue closeout remain pending. See [March's log](docs/progress/8503.md)
+and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
 entries are accounted for by 48 readable, assistant sample-reviewed articles and
