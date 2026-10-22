@@ -24,12 +24,113 @@
       "toc_entry_id": "maso-1985-03-toc-0001",
       "title": "특집 I : 베이직과 기계어의 만남(3) : 꿈의 실현! MAT!",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Actual feature opening115 has series title,editorial credit,photo and intro;116/visible114 confirms subtitle 꿈의 실현! MAT! and body association. Opening folio is null,not inferred113.",
+        "All continuous pages115–123 inspected. Final123/visible121 finishes monitor dump and application BASIC350END with terminal mark;124 independent book advertisements,125 new special feature opening and126/visible124 confirms IOCS title/author.",
+        "Current first native115–120 preserves photo/intro,matrix introduction/storage/usage,examples1–15 and all printed results/labels/captions. Final121–123 and complete assembly pending. No program/math/output/encoding repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a",
+        "article_id": "scan-maso-1985-03-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a/manifest.json",
+          "sha256": "45128ab6617cd200d211525728efea8a3f8c648f5f2b9df00498f32b3ab71520",
+          "bytes": 55095
+        },
+        "coverage": {
+          "pdf_pages": [
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ],
+          "printed_pages": [
+            null,
+            "114",
+            "115",
+            "116",
+            "117",
+            "118"
+          ],
+          "regions": 103,
+          "blocks": 71,
+          "figures": 32,
+          "deferred_pdf_pages": [
+            121,
+            122,
+            123
+          ]
+        },
+        "segments": [
+          {
+            "id": "dream-mat-a",
+            "directory": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a/manifest.json",
+              "sha256": "45128ab6617cd200d211525728efea8a3f8c648f5f2b9df00498f32b3ab71520",
+              "bytes": 55095
+            },
+            "pdf_pages": [
+              115,
+              116,
+              117,
+              118,
+              119,
+              120
+            ],
+            "printed_pages": [
+              null,
+              "114",
+              "115",
+              "116",
+              "117",
+              "118"
+            ],
+            "availability": "partial"
+          }
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "next_section_boundary": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a/corrections.json",
+            "sha256": "0f320a523832499f15e19a06efc1812207df154639693c28cce9ad66e64e04de",
+            "bytes": 2991164
+          },
+          "field": "next_section_boundary"
+        },
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-30/validation.json",
+          "sha256": "80420f8233c392101f6aadc6b23a9f5e0ee8d144f5a8a350072af893d6aac246",
+          "bytes": 1885
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-30/reproduction.json",
+          "sha256": "bdec386ab93143b7b65eb46b0c8d7246fa35fd39b8344499ebfd51ef7061f7b9",
+          "bytes": 1426
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+          "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+          "bytes": 1793
+        },
+        "full_extent_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-30/source-extent-reviewed-r02.json",
+          "sha256": "3e3aff9da5c28635d1009f59fbf4156fe385944177ac6e5dad9f8ee744ad9791",
+          "bytes": 3210
+        }
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/previous-ledger.json",
+        "sha256": "a2def3def32481b68502eba28e241adf68e994e1df3c2c77b954bb67dfe1dff4",
+        "bytes": 168341
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0002",
@@ -2172,9 +2273,9 @@
   "totals": {
     "canonical_entries": 48,
     "readable": 15,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 30
+    "unresolved_eligibility": 29
   },
   "checkpoints": [
     {
@@ -3489,6 +3590,61 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-30",
+      "status": "complete",
+      "stage": "validated-first-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "mapped_pdf_pages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "outside_map_lookup_pages": [
+        114,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 71,
+      "eng_code_tasks": 12,
+      "kor_eng_tasks": 59,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/validation.json",
+        "sha256": "80420f8233c392101f6aadc6b23a9f5e0ee8d144f5a8a350072af893d6aac246",
+        "bytes": 1885
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/verification-completed.json",
+        "sha256": "dae7dd0aa17ca89cb1b5e58f6256736e472a0b4660cf8dbfa8021cd7dd197652",
+        "bytes": 1112
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-30-preserved-work.json",
+        "sha256": "6583405f606c269672a5ed3792a3d6b5ec1d3c5b5e3d86fef19dd4333a574bb7",
+        "bytes": 6079272
+      },
+      "started_at": "2026-10-22T19:13:16.685086+00:00",
+      "finished_at": "2026-10-22T19:36:32.727393+00:00",
+      "timing_scope": "Wallclock includes source extent stage,waits,gaps and environment recovery; active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [
+        121,
+        122,
+        123
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -4543,40 +4699,186 @@
     },
     {
       "pdf_page": 115,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": null,
+      "restoration": "checked-opening-native;final121–123-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      },
+      "notes": "Owned series opening/photo/editorial intro,credit 편집부. No visible folio; null preserved. Following116 confirms actual subtitle."
+    },
+    {
+      "pdf_page": 116,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "114",
+      "restoration": "checked-opening-native;final121–123-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 117,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "115",
+      "restoration": "checked-opening-native;final121–123-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 118,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "116",
+      "restoration": "checked-opening-native;final121–123-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 119,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "117",
+      "restoration": "checked-opening-native;final121–123-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 120,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "118",
+      "restoration": "checked-opening-native;final121–123-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 121,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "119",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 122,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "120",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      }
+    },
+    {
+      "pdf_page": 123,
+      "classification": "article-ending-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "printed_page": "121",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      },
+      "notes": "Actual ending: remaining monitor dump,application BASIC350END and terminalmark;124 separate book advertisements."
+    },
+    {
+      "pdf_page": 124,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "printed_page": null,
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      },
+      "notes": "Independent two-panel computer-book advertisements, not feature0001 continuation."
+    },
+    {
+      "pdf_page": 125,
       "classification": "separate-special-feature-opening",
       "toc_entry_ids": [],
       "printed_page": null,
       "restoration": "observed;not-restored",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-25/source-reviewed-r02.json",
-        "sha256": "109d25b369d493cd354b4ef96dc628374daf265610e6b7ece50e12ed1b637e79",
-        "bytes": 2695
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
       },
-      "notes": "Separate specialfeatureopening 베이직과기계어의만남(3),credit편집부,photoandintro;not numericcontinuation andnotadvertisement. Canonicalownership/classificationrequireslaterreview;notmappedinbatch25."
+      "notes": "Next special featureII SPC-1000 IOCS opening; no visible folio. Canonical0002 mapping pending."
+    },
+    {
+      "pdf_page": 126,
+      "classification": "separate-next-feature-body-observed",
+      "toc_entry_ids": [],
+      "printed_page": "124",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
+        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
+        "bytes": 1793
+      },
+      "notes": "Next IOCS memory map/body title and 황건순 credit; canonical0002 extent review pending."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-30",
-    "goal": "Verifyactualextentofcanonical0001특집I베이직과기계어의만남(3):꿈의실현!MAT! fromobservedPDF115featureopening,thenrestorefirstboundedsegment.",
+    "id": "batch-31",
+    "goal": "Restore final three pagesPDF121–123/visible119–121 of canonical0001 꿈의 실현! MAT!, preserving immutable first six-page native; complete assembly follows separately.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0001"
     ],
-    "mapping_targets": "Inspectactualsource115title/photo/editorialintro,followingpagesandending/adjacentnextfeature. CanonicalTOC113andnextfeatureTOC123arelookupcues,notglobaloffsetorbodyextentproof. Reuseexisting114–124views whereavailable;initialboundedlookups114–126(13pages),extendonlywithin20outside-maplookupsifneeded. Verify꿈의실현MAT subtitle/bodyassociationandactualendbeforemapping/OCR. Ifendingnotverifiedwithinlookupcap,saveboundary-reviewcheckpointandcontinueverificationseparately. Afterextentproven,mapatmostfirstsixeligiblepages. Source115hasnoobservedfolio;retainnullunlessvisibleevidence,notinferred113. Preserveoriginalphoto,labels/captions,allprose/code/tables. Parent003informationgroupremainsunresolved;cover,remainingentries,244-pageaccountingandissuecloseoutpending.",
+    "mapping_targets": "Full actual extent115–123 and adjacent114/124/125/126 verified. Reuse saved120–124 whole views; map only121–123. Current120 ends NEINV examples14/15;121 begins⑦행열=PNT(수식),examples16/17,printed output bands,application prose/sales-data table/formulas. Preserve122 three-column monitor dump continuing123top,actual 리스트1 caption and123 리스트2 application BASIC through350END/terminal. Check every opaque address/byte/codephysicalrow/tablecell/actualcaption and source continuation. No bytecode,math,syntax or output reconstruction. First native115folio remainsnull. Finalnative and complete assembly separate. Parent0003,cover,remainingentries,244-pageaccounting/closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      114,
-      115,
-      116,
-      117,
-      118,
-      119,
       120,
       121,
       122,
       123,
-      124,
-      125,
-      126
+      124
     ],
     "limits": {
       "articles": 2,
@@ -4619,8 +4921,10 @@
     "Usepinnedbatch27assembly_dispatch forall6completedMarchprivateformats inissueJSON/assets exports. Native-stageflags/noteshistorical;complete numericactive scopehasnodeferredbodypagesorassemblypending.",
     "Completenumeric retains407exactnativefiles/fullmetadata;54supplementalarrayslices/eightobjectprojections reverseexactly. All71candidates/61unknownbands,formula/coefficient/numeric/codefields andsourcefigure5/7methodconflictsremainliteral. Incoming111그/112림11 association hasnoencodedjoin orstagedcommainsertion.",
     "All14readablepackages andsixprivateformatschecked;parentclassificationchangesnochildbytes,canonicalidentities,titles,parentsororder. Coverselection,remainingcanonicalentries,all244sourcepageaccountingandissuecloseoutpending.",
-    "30 canonical entries remainunresolved. Canonical0008iscompleteeligibleeditorialnoticeatPDF61lower-right;title광고didnotexcludebyname. Upperprinterandlower-leftcommercialpromotionremainseparate,allpriorfilesunchanged.",
-    "Sourcepublisher/contact/address/payment/10-dayreturnclaims andoldspellingarehistoricalunverifiedliterals. Noauthor/captionorcurrent-contactidentityinferred. Parent0003,coverselection,remainingentries,all244sourcepageaccountingandissuecloseoutpending."
+    "Sourcepublisher/contact/address/payment/10-dayreturnclaims andoldspellingarehistoricalunverifiedliterals. Noauthor/captionorcurrent-contactidentityinferred. Parent0003,coverselection,remainingentries,all244sourcepageaccountingandissuecloseoutpending.",
+    "29 canonical entries remain unresolved. Feature0001 first115–120 native partial; final121–123 and complete assembly pending. Actual full extent115–123 verified; first folio null, next feature125folio null.",
+    "Feature0001 retains original photo/intro,363 matrix/result cells,95 BASIC labels,30 program/output source ordinal occurrences,source XZ/COS/output discrepancy,IDN ordering,example8 missing second ampersand/scratch,determinart and PNT(0). No recomputation/execution/encoding repair.",
+    "Parent0003,cover,remaining entries,all244-source-page accounting and issue closeout pending. Existing six completed private formats unchanged."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

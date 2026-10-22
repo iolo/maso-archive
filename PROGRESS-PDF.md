@@ -6,38 +6,46 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 15 of48 entries are readable and assistant
-sample-reviewed, no articles are partial, three headings are non-owning and
-30 entries remain unresolved. Canonical0008, 원고 모집 광고, is complete as an
-editorial call for reader contributions on the lower-right panel of PDF61/visible59.
-Its source headline is 독자 여러분의 원고를 모집합니다.; the neighboring backissue
-sales promotion remains excluded.
+March 1985 remains in progress: 15 of 48 entries are readable and assistant
+sample-reviewed, one article is partial, three headings are non-owning and
+29 entries remain unresolved. Canonical0001, 특집 I : 베이직과 기계어의 만남(3) :
+꿈의 실현! MAT!, has its first six pages restored at PDF115–120. The opening
+page has no visible folio and remains null; PDF116–120 show114–118.
 
-All26 package files match the independent rebuild. Four text blocks andtwo original
-images retain the three-line title, three prose paragraphs, printed submission
-address, payment/return terms, editorial contact, complete frame andobserved folio.
-All114 UTF-8 ranges,132 evidence pins andsix image crops verify. Eight source
-candidates remain explicit, including old spelling, physical word wraps andopaque
-historical contact fields. No article byline orcaption was inferred.
+Its actual full extent is PDF115–123. The editorial opening/photo/credit on115
+links to the subtitle and body on116. Final123/visible121 ends the monitor dump
+and application BASIC listing with350 END and a terminal mark. PDF124 contains
+independent book advertisements;125 opens the next special feature and126/visible124
+confirms its IOCS title and author. No folio113 or123 was inferred on the openings.
 
-All20 notice/printer text-region pairs are disjoint; all741 printer files andits
-original exclusions remain unchanged. Three reused whole views,one mapped page,
-two outside lookups andone canonical task meet the limits. Allsix exact crops
-were reviewed before four kor+eng tasks; all drafts were read before one source
-pass. No OCR failure, retry, crop repair orengine change. A final-report variable
-error was fixed in a retained verifier revision without source orpackage changes.
+All325 opening-native files match the independent rebuild. Its71 text blocks and
+32 original images preserve the photograph/intro, matrix operations, storage and
+usage, BASIC examples1–15 and printed results. All5,582 UTF-8 ranges,5,911 evidence
+pins and103 image crops verify. Indexes retain95 BASIC labels,109 physical code rows,
+363 numeric cells in42 matrix/scalar groups,15 program/output links,18 actual
+caption links and43 source circled labels. Thirty are program/output ordinals,
+separate from BASIC line numbers. One unknown-count ellipsis band and31 source
+candidates remain explicit. No matrix values or programs were recomputed.
 
-All25,836 prior files,28 prior inventories,14 prior readable packages and30 core
-pins pass; unchanged213-test baseline reused. Inventory contains25,972 files.
-Use pinned batch27 assembly_dispatch.py for allsix private formats. Parent0024
-remains verified non-owning; information parent0003 still awaits its other children.
+Thirteen whole views, six mapped pages, seven outside lookups and one canonical
+task meet the limits. All103 exact crops were viewed before71 pinned tasks
+(12 eng code;59 kor+eng); all drafts were read before one direct source pass.
+No OCR failure, retry, crop repair or engine change. A retained metadata revision
+keeps ONERR5 with example14 and places offset scalars in their separate column;
+source readings, maps, crops, raw drafts, blocks and downloads are unchanged.
 
-Next: verify canonical0001's actual extent from the observed PDF115 special-feature
-opening, then restore its first bounded segment. Check its full title/body link,
-ending andadjacent next feature; TOC113/123 are lookup cues. Preserve unobserved
-folios as null. Cover selection, remaining entries, all244-page source accounting
-andissue closeout remain pending. Human acceptance, full proofreading, source
-encoded bytes andhistorical claims remain unverified. No reader rebuild.
+All25,972 prior files,29 prior inventories,15 earlier readable packages and30 core
+pins pass. The fresh environment check passes all213 PDF tests. Preservation
+inventory contains27,305 files. Use pinned batch27 assembly_dispatch.py
+for the six existing private formats. Parent0024 remains non-owning; parent0003
+still awaits its other children. No reader rebuild.
+
+Next: restore final PDF121–123/visible119–121, then assemble the complete feature
+from immutable natives. Reuse the saved120–124 views. Preserve PNT examples16/17,
+all printed output bands, sales-data table/formulas, monitor hex dump across122–123,
+actual listing captions and final BASIC through350 END. Cover selection, remaining
+entries, all244-page accounting and issue closeout remain pending. Human acceptance,
+full proofreading, original encoded bytes and historical claims remain unverified.
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 

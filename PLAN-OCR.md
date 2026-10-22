@@ -19,21 +19,23 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:15 readable/sample-reviewed, no partial articles, three non-owning
-  headings and30 unresolved. Canonical0008 manuscript-call notice complete on
-  lower-rightPDF61/visible59:26 files match rebuild;114 ranges/132 pins/six crops
-  pass. Four blocks/two originals retain title/three paragraphs/address/terms/
-  contact/frame/folio. Eight candidates explicit. Separate backissue promotion
-  excluded;20 nonfigure notice/printer pairs disjoint;all741 printer files unchanged.
-  Three reused views/one mapped page/two lookups/one task. Six crops viewed before
-  four kor+eng tasks;all raws read before one source pass;zero OCR failures/retries.
-  Final-report variable fix changes no source/package data;failed verifier retained.
-  All25,836 prior files/28 inventories/14 prior packages/30 core pins pass;213-test
-  baseline reused. Inventory25,972 files. Use pinned batch27 dispatcher forsixformats.
-  Next: verify canonical0001 feature extent from115,then first bounded segment;
-  source title/body/ending/adjacent checks before mapping,TOC113/123 lookup cues.
-  Parent0003,cover,remaining entries,244-page accounting andcloseout pending.
-  Follow [March log](docs/progress/8503.md) and
+- March1985:15 readable/sample-reviewed, one partial article, three non-owning
+  headings and29 unresolved. Feature0001 first115–120 native complete as a partial
+  article; full extent115–123 verified. Opening115 folio null; following114–121
+  observed. Final123 has monitor dump/application BASIC350 END/terminal;124 book
+  advertisements and125/126 next feature. All325 native files match rebuild;
+  5,582 ranges/5,911 pins/103 crops pass.71 blocks/32 originals retain intro/photo,
+  matrix prose, examples1–15/results,95 BASIC labels,363 matrix/scalar cells,
+  15 program/output links,18 captions and43 circled labels. Source errors and31
+  candidates/one unknown band retained. No recomputation/execution.13 whole views,
+  six mapped pages,seven lookups,one task.103 crops viewed before71 tasks
+  (12 eng/59 kor+eng);all drafts read before one source pass;zero OCR failures/retries.
+  Metadata-only grouping/scalar-column revision preserves source/download bytes.
+  All25,972 prior files/29 inventories/15 prior packages/30 core pins pass;fresh
+  environment check passes213 PDF tests. Inventory27,305 files. Six existing private
+  formats use batch27 dispatcher. Next: final121–123,then separate assembly;
+  reuse120–124 views. Parent0003,cover,remaining entries,244-page accounting and
+  closeout pending. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
