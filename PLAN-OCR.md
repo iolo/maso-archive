@@ -1319,15 +1319,30 @@ paired OCR or a new engine comparison.
   full source views,no new render. All canonical article bodies are now readable/sample-reviewed.
   Current totals: 48 readable, no partial articles, seven non-owning headings and 1 unresolved.
 
-  Next: resolve parent 정보모음0008 as heading-classification62.
-  Check its pageless canonical entry and every unchanged child link against selected
-  source/package evidence. Determine organizational/body ownership without inventing
-  another body,divider or hierarchy; audit all56 identities and classifications before
-  issue closeout. No new OCR is needed unless actual body evidence requires mapping.
-  Cover selection,full260-page accounting,standalone issue export/rebuild/report and
+  Heading-classification62 resolves 정보모음0008 as a non-owning organizational
+  heading. Its pageless canonical entry and all ten child links0009–0018 remain unchanged:
+  nine readable body owners and the already non-owning 정보 레이다0013. No separate
+  body,divider or hierarchy was invented. The selected evidence is
+  `archive/pdf/1985-02/restoration/heading-classification-62/classification-evidence-r01.json`.
+  All56 canonical identities,titles and parents pass. All48 selected packages and13
+  private assemblies pass offline file/native-projection checks with30 unchanged pipeline
+  pins and13 pinned private adapters. Every prior article,classification and source record
+  is retained. No new source mapping,rendering,OCR or source correction was needed.
+  All58,228 prior files remain exact; 58,248 files are preserved. The unchanged
+  213-test baseline is reused. Assistant sample review remains separate from human acceptance.
+  Current totals: 48 readable, no partial articles, eight non-owning headings and 0 unresolved.
+
+  Next: verify the donated cover and first20 outside-body pages as issue-accounting01.
+  Inspect PDF1–18,35,79 within the20-page lookup limit; reuse verified renders where
+  available. Verify donated covers/8502.jpg and the existing bounded thumbnail against
+  its manifest,hash,geometry and visible issue identity. Keep donated-source priority and
+  all existing cover originals/derivatives. No reader rebuild or derivative regeneration.
+  Selected bodies cover232 distinct PDF pages;28 other pages require independent source
+  accounting. Remaining111,161,177,184,205,211,259,260 follow in a second bounded
+  checkpoint. This page-set count is preliminary,not proof of complete issue accounting.
+  Full260-page reconciliation,standalone issue export/independent rebuild/report and the
   requirements audit remain pending. Human acceptance,full proofreading,source bytes,
-  spacing,stylized glyph encoding,historical claims and independent backup recovery
-  remain unverified. No reader rebuild.
+  spacing,claims/execution and independent backup recovery remain unverified.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
