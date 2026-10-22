@@ -7,49 +7,39 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 20 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, three headings are non-owning, and
-25 entries remain unresolved. Canonical0011, 복덕방, is complete across actual
-PDF234–241, observed folios232–239. No classified body pages or assembly remain
-pending. Body prose transcription awaits volunteers under the accepted original-
-image classifieds policy.
+sample-reviewed, no articles are partial, four headings are non-owning, and
+24 entries remain unresolved. Parent0003, 정보모음, is a verified non-owning
+organizational heading. All eight children0004–0011 are complete; the parent
+owns no body pages and has no article package.
 
-The complete package at packages/batch-41-r01/classifieds-complete matches its
-independent rebuild across64 files, including56 exact retained native files and
-their full metadata. Sixteen regions,eight searchable heading blocks andeight
-complete original pages preserve the opening photo/monitor title,all offers,
-prices,contacts,headers,footers andfinal241contact/terminal before separate242
-promotion/adindex with null observed folio. No byline or captions are invented.
+Printed contents PDF17 shows the pageless heading above its eight children and
+before the separate1라인 콘테스트 group. Nineteen saved whole views confirm
+independent child bodies and boundaries. The children have25 page assignments
+across24 unique pages:19–30, lower61,148–150 and234–241; news and debugging
+share150. Their793 selected-package files remain exact. No continuous parent
+body from19–241 is inferred and no child text is duplicated.
 
-All24 supplemental category slices andten object projections reverse exactly.
-Three complete categories preserve18 body-image fragments,17 ordered flow links
-andsix within-native physical option/contact associations. Incoming239→240 is
-same-category/new-bullet only;no same-item/contact association or encoded join
-is inferred. Actual headings retain 복 덕 방,필요로 합니다,물려드리겠읍니다 and
-바꾸고 싶읍니다 plusfour running labels. Six source candidates andall original
-pixels remain;preliminary modernized descriptions stay historical evidence.
+Existing shared-page ownership remains: lower-right61 manuscript call and upper
+printer body have20 disjoint nonfigure pairs; news/debugging150 have36. Source
+maps, exclusions, original pixels and all canonical IDs/titles/order/parents are
+unchanged. Printed news145/debug147 references remain despite actual source
+folios146/148. Intervening advertisements, publisher notices and unrelated
+articles are not assigned to the parent.
 
-Six exact native-stage deferral notes resolve only in active complete scope.
-Durable photo/title-spacing,no invented byline/caption/identity,source oldspelling,
-no239→240contact association andvolunteer/human/source-byte limits remain
-explicit. All native notes/flags/files stay exact. All50 active UTF-8 ranges,
-352 evidence pins and16 image decodes pass. All32,710 prior files,40 inventories,
-19 earlier readable packages and30 core pins pass. Unchanged fresh213-test
-batch36 baseline is reused. Preservation inventory contains32,869 files.
+All32,869 prior files,41 inventories,20 readable packages,nine private formats
+and30 core pins pass. The unchanged fresh213-test batch36 baseline is reused.
+Preservation inventory contains32,935 files. All19 views reused existing renders;
+zero mapped pages, OCR tasks, source-correction passes or parent exports.
+Use pinned batch41 assembly_dispatch.py. No reader rebuild.
 
-This assembly used zero mapping,outside lookups,OCR or source-correction passes.
-Use pinned batch41 assembly_dispatch.py for all nine private formats. Initial
-verifier code-listing/map-scope assumptions andrecorder parse failure remain
-preserved;fresh revisions fix bookkeeping only. Selected source/package/adapter
-data are unchanged. A stale batch36 routing note was removed from active limits,
-with both ledger snapshots retained. No reader rebuild.
-
-Next: review parent0003 정보모음's ownership using printed contents andbounded
-saved child/source boundaries. All eight children0004–0011 are now complete;
-the parent remains unresolved until its organization/body status is verified.
-Canonical IDs/titles/order/parents andchild packages remain fixed. Cover
-selection,remaining entries,all244-page accounting andissue closeout remain
-pending. Human acceptance,full proofreading,original encoded bytes/spacing,
-item counts andhistorical/current identities/claims remain unverified.
+Next: verify actual full extents and restore0013 키보드 연습 and0014 미니 클럭.
+TOC141/219 are lookup cues; initial PDF142–144 and220–222 views precede mapping.
+Keep each one-line program's physical wraps, identifiers, quoted strings, opaque
+fields and original images literal. Parent0012 remains unresolved until both
+children and group boundaries are checked separately. Cover selection, remaining
+entries, all244-page accounting and issue closeout remain pending. Human
+acceptance, full proofreading, source bytes/spacing and historical/technical
+claims remain unverified; news/classified body transcription awaits volunteers.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

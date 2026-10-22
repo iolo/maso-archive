@@ -512,12 +512,23 @@
       "toc_entry_id": "maso-1985-03-toc-0003",
       "title": "정보모음",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printed contentsPDF17 explicitly shows pagelessorganizational heading 정보모음 over eight entries:editorial,input guide,letters,QA,manuscript call,news,debugging andclassifieds;next1라인 콘테스트 heading is separate. The canonical parent andeight child IDs/titles/order/parents remain exact.",
+        "All eight children are readable/sample-reviewed andhave independent source titles andcomplete selected packages. Their25 page assignments span24 unique source pages:19–30,lower61,148–150,lower150 and234–241. Parent is organizational anddoes not own a continuous19–241 body.",
+        "Contents17 followed by independent FUJITSU ad18 andeditorial19;QA ends30 before independent ad31. Notice is separate lower-right61 among printer body/backissue promotion. News begins148 after independent publisher contest147;lower150 debugging is a separate framed body before course151. Classifieds begin234 after game233 andend241 before242promotion/adindex.",
+        "All19 specified saved whole views inspected;all child complete-extent/shared-page proofs remain pinned. Page61 notice/printer20 nonfigure pairs andpage150 news/debugging36 pairs are disjoint. Existing maps/exclusions/pixels remain unchanged.",
+        "No independent parent body/divider occurs in reviewed contents/child boundaries. Parent owns no body pages,duplicates no child text andrequires no article package. This classification doesnot assign intervening unrelated pages ordispose of later one-line/group/ad-index eligibility. Printed145news/147debug references remain unchanged despite actual146/148 source folios."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-42/parent-heading-decision.json",
+        "sha256": "0a3f363ca38fa595de7095ac1af7c6946c25574bb8c229a98d6ea7267904cf2b",
+        "bytes": 22706
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0004",
@@ -2975,8 +2986,8 @@
     "canonical_entries": 48,
     "readable": 20,
     "partial": 0,
-    "non_owning_headings": 3,
-    "unresolved_eligibility": 25
+    "non_owning_headings": 4,
+    "unresolved_eligibility": 24
   },
   "checkpoints": [
     {
@@ -4853,6 +4864,62 @@
         "sha256": "b0beb2a283f9abd147117452ce0d85ddb488d12c9aabdb317faddc77e7982268",
         "bytes": 967
       }
+    },
+    {
+      "id": "batch-42",
+      "status": "complete",
+      "stage": "verified-non-owning-information-parent",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0003"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        17,
+        18,
+        19,
+        20,
+        23,
+        26,
+        30,
+        31,
+        60,
+        61,
+        62,
+        147,
+        148,
+        150,
+        151,
+        233,
+        234,
+        241,
+        242
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "classification": {
+        "path": "archive/pdf/1985-03/restoration/batch-42/parent-heading-decision.json",
+        "sha256": "0a3f363ca38fa595de7095ac1af7c6946c25574bb8c229a98d6ea7267904cf2b",
+        "bytes": 22706
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-42/validation.json",
+        "sha256": "02b306a49a4975c57cc785f9e65540ae85bb010088536460412fa146a4d75913",
+        "bytes": 1346
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-42/verification-completed.json",
+        "sha256": "301a485d0f1854eba5ffbccf0175e8afb2241f4e4aebba03025d72ea1cf55034",
+        "bytes": 1136
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-42-preserved-work.json",
+        "sha256": "4e8a055e9394ffa28dd61e3a77b0e32c061c485a13b521b27bd3773b0e305627",
+        "bytes": 7350680
+      },
+      "started_at": "2026-10-22T22:22:58.049563+00:00",
+      "finished_at": "2026-10-22T22:28:54.585793+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -6631,32 +6698,20 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-42",
-    "goal": "Verify parent0003 정보모음 as non-owning organizational heading after all eight canonical children complete;review printed contents andsource group/child boundaries.",
+    "id": "batch-43",
+    "goal": "Verify actual full extents andrestore canonical0013 키보드 연습 and0014 미니 클럭,children of1라인 콘테스트 우수작.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0003"
+      "maso-1985-03-toc-0013",
+      "maso-1985-03-toc-0014"
     ],
-    "mapping_targets": "No planned mapping/OCR/source correction. Canonical parent has no page reference andeight children0004–0011;all eight now readable. Inspect existing printed contents PDF17 andbounded saved child/source boundaries17/18/19/20/23/26/30/31/60/61/62/147/148/150/151/233/234/241/242,nineteen outside lookups maximum. Reuse saved renders andpinned child extent/shared-page proofs. Verify whether parent has independent body oris only organization;do not duplicate any child text orforce a continuous parent extent across scattered children. Canonical IDs/titles/order/parents stay fixed;all child package bytes immutable. If evidence supports non-owning classification,record group-heading/body_ownerFalse/not-applicable with no parent article export. No assumed result if source evidence differs. Cover,remaining entries,244-page accounting/full issue closeout pending. No reader rebuild.",
+    "mapping_targets": "TOC141/219 are lookup cues,not global PDF offsets. Initial whole views142/143/144 and220/221/222;reuse saved142–144,render only missing220–222. Verify each actual title,full body,ending andadjacent content before mapping/OCR. Expected location candidates143 and221 are provisional. At most two canonical tasks/six distinct mapped pages/twenty outside lookups. Preserve source group banner/title/intro/byline if present,all one-line BASIC/code physical wraps,identifiers,quoted keyboard/display strings,opaque DATA/numeric fields,table/grid/original figures/captions,folio/nulls andterminal marks. No syntax/code/encoding/keyboard/hardware repair or execution. Parent0012 classification waits both children/group boundaries in a separate checkpoint. Cover,remaining entries,244-page accounting andissue closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      17,
-      18,
-      19,
-      20,
-      23,
-      26,
-      30,
-      31,
-      60,
-      61,
-      62,
-      147,
-      148,
-      150,
-      151,
-      233,
-      234,
-      241,
-      242
+      142,
+      143,
+      144,
+      220,
+      221,
+      222
     ],
     "limits": {
       "articles": 2,
@@ -6714,8 +6769,9 @@
     "Classified source oldspellings물려드리겠읍니다/바꾸고 싶읍니다 override preliminary modernized map descriptions,which remain immutable historical evidence. All offers/contact/price pixels retained;no source item counts/current identities/historical claims inferred.239right final offers not assigned a contact from following240new bullet. Failed initial wording-only verifier retained;fresh r02 checks exact notes/structured boundary without source changes.",
     "Final classified native retains four image fragments/two physical associations,actual241contact/terminal andfollowing242nullfolio. Source exchange heading belongs immutable opening;no repeated heading/caption/byline or239→240same-item/contact association inferred. Body transcription remains pending volunteers;all offer/contact/price claims unverified.",
     "Use pinned batch41 assembly_dispatch for all nine March private formats in JSON/assets issue export/check. Full native stage notes/flags retained;active complete classifieds scope has no deferred body pages orassembly pending.",
-    "25 canonical entries remain unresolved. Classifieds0011 complete234–241;all eight information children0004–0011 now complete. Parent0003 organization/body ownership review next;cover,remaining entries,244-page accounting andissue closeout pending.",
-    "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified."
+    "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
+    "24 canonical entries remain unresolved. Parent0003 정보모음 is non-owning after printed-contents/eight-child verification:25 page assignments/24 unique child body pages/793 selected files unchanged. Parent owns no body pages orcontinuous19–241 range. Shared61 notice/printer20 nonfigure pairs and150 news/debugging36 pairs remain disjoint.",
+    "All20 readable packages/nine private formats/30 core pins remain exact;zero mapping/OCR/export for parent classification. Next0013keyboard/0014miniclock full extent/source restoration;parent0012 remains unresolved. Cover,remaining entries,244-page accounting/issue closeout pending."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

@@ -19,26 +19,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:20 readable/sample-reviewed,no partial articles,three non-owning
-  headings and25 unresolved. Classifieds0011 complete234–241/observed232–239
-  at packages/batch-41-r01/classifieds-complete:64 files match rebuild,including
-  56 exact natives/full metadata.24 category slices/ten object projections reverse
-  exactly.16 regions/eight heading blocks/eight complete originals retain photo,
-  three categories/18 body fragments/17 flow links/six physical associations and
-  final241contact/terminal.239→240 is category/new-bullet only,no contact join.
-  Six source candidates/oldspellings remain;body prose volunteer transcription
-  pending. Six stage notes resolve only active scope;all durable source limits/
-  native flags/files retained.50 ranges/352 pins/16 images pass;all32,710 prior
-  files/40 inventories/19 prior packages/30 core pins pass;unchanged fresh213-test
-  batch36 baseline reused. Inventory32,869 files. Zero mapping/lookups/OCR/source
-  passes;one task. Use pinned batch41 dispatcher for nine formats. Failed verifier
-  listing/map-scope assumptions andrecorder parse attempt retained;fresh revisions
-  fix bookkeeping only. Stale dispatcher note removed withboth snapshots retained.
-  Next:parent0003 정보모음 ownership/organization review,all eight children now
-  complete,printed contents andbounded saved source boundaries. Parent remains
-  unresolved pending proof. Cover,remaining entries,244-page accounting/closeout
-  pending. Follow [March log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:20 readable/sample-reviewed,no partial articles,four non-owning
+  headings and24 unresolved. Parent0003 정보모음 verified non-owning after printed
+  contents/eight completed children review;no parent body pages/export or child
+  duplication.25 child page assignments/24 unique pages/793 selected child files
+  unchanged.19 saved whole views inspected;all reused,zero mapping/OCR/source
+  passes/exports. Shared61 notice/printer20 nonfigure pairs and150 news/debugging
+  36 pairs remain disjoint. All32,869 prior files/41 inventories/20 packages/nine
+  formats/30 core pins pass;unchanged fresh213-test batch36 baseline reused.
+  Inventory32,935 files. Use pinned batch41 dispatcher. Next:0013keyboard/0014
+  miniclock actual full extents from initial142–144/220–222 source views;TOC141/
+  219 only cues. Preserve physical code wraps/strings/opaque fields;no repairs.
+  Parent0012 waits both children/separate boundary review. Cover,remaining entries,
+  244-page accounting/closeout pending;news/classified volunteer body transcription
+  andsource/human limits remain explicit. Follow [March log](docs/progress/8503.md)
+  and[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
