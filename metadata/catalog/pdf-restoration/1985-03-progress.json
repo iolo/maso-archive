@@ -258,12 +258,83 @@
       "toc_entry_id": "maso-1985-03-toc-0008",
       "title": "원고 모집 광고",
       "parent_id": "maso-1985-03-toc-0003",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0008 title원고모집광고 hasTOCreference59. Actualvisible59/PDF61 lower-rightframedpublishercall reads독자여러분의원고를모집합니다 andasksforsubmissions,withpayment/return/contactinstructions. Thisiseditorialcontributionnotice,not saleofproduct;matchesexistingTOCentry.",
+        "Full60/61/62 inspected. Noticeisentirelyoneindependentpanel on61;no manuscriptcallcontinuation on60or62,whichcontainprinterbody. Upper61printerbody andlower-leftbackissuesalesnotice remainoutside currentextraction. Sourceheadlineisindependentfromcanonicaltitle.",
+        "Newnoticepanel liesinsidepriorprintermap pdf61-recruit-notice exclusion;allcurrentregionsdisjointfrompriorprinterincludedregions. Bothoriginalpackages keep theirsourceframes/folios;imagesmayretainsamefolio butnonfigurebodyregions aredisjoint. No parent0003classificationorcanonicaledit.",
+        "Completeeligibleeditorialcontributionnotice restoredatPDF61lower-rightframedpanel;sourceheadlineindependentfromcanonicaltitle. No noticebodycontinuation orassemblypending.",
+        "Twentycurrent/priornonfigureregionpairsaredisjoint;all741printerfilesandoriginalexclusionsunchanged. Lower-leftbackissuepromotionexcluded. Allsourcecontacts/termsremainhistoricalunverifiedliterals."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-29-r01/manuscript-call",
+        "article_id": "scan-maso-1985-03-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-29-r01/manuscript-call/manifest.json",
+          "sha256": "dadbbbabf2902cf101d96aefdd3f9be07fee123e34d8b2268ffa3b7541facc42",
+          "bytes": 4234
+        },
+        "coverage": {
+          "pdf_pages": [
+            61
+          ],
+          "printed_pages": [
+            "59"
+          ],
+          "regions": 6,
+          "blocks": 4,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "eligible_panel": [
+            0.493,
+            0.37,
+            0.906,
+            0.886
+          ],
+          "excluded_regions": [
+            "pdf61-upper-printer",
+            "pdf61-left-backissue-promotion"
+          ]
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-29/validation.json",
+          "sha256": "26d238b667811d404f5467e97bb80af01067c637c106949ea6e70bce76f2699e",
+          "bytes": 1488
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-29/reproduction.json",
+          "sha256": "a359236933fc5c1300b410e9a979f98cc75961303e872b17fba8935452300d40",
+          "bytes": 1317
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-29/source-reviewed.json",
+          "sha256": "a303c7e0b279570a3b6ccb58ad40f429fcea236de4b128fe0192b2bb27d68455",
+          "bytes": 1229
+        },
+        "shared_page_ownership": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-29-r01/manuscript-call/corrections.json",
+            "sha256": "05968fdb53bf386c3f03983f4f78b6d76c6b904a3a3637fd35c5860d5af4681b",
+            "bytes": 63487
+          },
+          "field": "shared_page_ownership"
+        }
+      },
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-29/classification.json",
+        "sha256": "bc0844008c2b89d652b59300892b976180d17a31c9c765309e3097500b8d45b1",
+        "bytes": 2168
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-29/previous-ledger.json",
+        "sha256": "28f2991ea5e2cd1ea22aac711dde245ea2b9161f04d7608f5993cad093304c89",
+        "bytes": 162178
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0009",
@@ -2100,10 +2171,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 14,
+    "readable": 15,
     "partial": 0,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 31
+    "unresolved_eligibility": 30
   },
   "checkpoints": [
     {
@@ -3372,6 +3443,52 @@
       "started_at": "2026-10-22T18:52:14.566739+00:00",
       "finished_at": "2026-10-22T18:57:45.563507+00:00",
       "timing_scope": "Wallclockincludeswaits/gaps;activehuman effortunmeasured."
+    },
+    {
+      "id": "batch-29",
+      "status": "complete",
+      "stage": "validated-complete-editorial-notice",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0008"
+      ],
+      "mapped_pdf_pages": [
+        61
+      ],
+      "outside_map_lookup_pages": [
+        60,
+        62
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 4,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 4,
+      "source_correction_passes": 1,
+      "classification": {
+        "path": "archive/pdf/1985-03/restoration/batch-29/classification.json",
+        "sha256": "bc0844008c2b89d652b59300892b976180d17a31c9c765309e3097500b8d45b1",
+        "bytes": 2168
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-29/validation.json",
+        "sha256": "26d238b667811d404f5467e97bb80af01067c637c106949ea6e70bce76f2699e",
+        "bytes": 1488
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-29/verification-completed.json",
+        "sha256": "802fa405a8995f778c6c49ceeb441674bf1203662e1aefc3a6c4e333a02f7939",
+        "bytes": 1326
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-29-preserved-work.json",
+        "sha256": "e474c83c2f09c873110e1f105828f0a8bc36c96066a1a938171cb04cea3ca4c9",
+        "bytes": 5781332
+      },
+      "started_at": "2026-10-22T18:59:47.703326+00:00",
+      "finished_at": "2026-10-22T19:10:29.890752+00:00",
+      "timing_scope": "Wallclockincludeswaits/gaps;activehuman effortunmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -3739,13 +3856,19 @@
     },
     {
       "pdf_page": 61,
-      "classification": "mixed-article-and-notices",
+      "classification": "shared-canonical-article-bodies-and-promotion",
       "toc_entry_ids": [
-        "maso-1985-03-toc-0025"
+        "maso-1985-03-toc-0025",
+        "maso-1985-03-toc-0008"
       ],
       "printed_page": "59",
-      "restoration": "checked-complete-printer-body;lower-notices-separate",
-      "notes": "PDF61printerupperbodyonly;lowerbackissuesale andcanonical0008recruitnotice stayseparate."
+      "restoration": "checked-complete-printer-and-editorial-notice;nonfigure-regions-disjoint",
+      "notes": "Upperprinterbody andlower-rightcanonical0008editorialcallareseparatecompleteowners. Lower-leftbackissuepromotionexcluded. Originalprinterexclusionsandall741filesremainexact.",
+      "shared_notice_source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-29/source-reviewed.json",
+        "sha256": "a303c7e0b279570a3b6ccb58ad40f429fcea236de4b128fe0192b2bb27d68455",
+        "bytes": 1229
+      }
     },
     {
       "pdf_page": 62,
@@ -4434,16 +4557,26 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-29",
-    "goal": "Verifycanonical0008원고모집광고 atprinted59/PDF61 lowernotice;restoreeligibleeditorialcallpanel aftersourceclassification.",
+    "id": "batch-30",
+    "goal": "Verifyactualextentofcanonical0001특집I베이직과기계어의만남(3):꿈의실현!MAT! fromobservedPDF115featureopening,thenrestorefirstboundedsegment.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0008"
+      "maso-1985-03-toc-0001"
     ],
-    "mapping_targets": "InspectfullPDF60/61/62 toverifyactualnoticeextent andadjacentprinterbody;TOC59lookupnotglobaloffset. Canonical0008isnotexcludedmerelybytitle광고. Determinewhetherlower-rightpublishercallforcontributionsiscorrespondingcanonicaleditorialnoticeorcommercialadvertising. Ifeligible,restoreonlyitsownboundedpanelwithsourceheadline,allprose/categories/terms/contact/footer andoriginalpanelpixels. Excludeupperprinterbodyandlower-leftbackissuepromotion. Existingprintermap/exclusionsandall741printerfilesstayimmutable;proveincludedregionsdisjointfromnewnoticebody. No newparent0003classificationuntilitsremainingchildrencomplete. KeepcanonicalIDs/titles/parentsunchanged. Cover,remainingentries,all244sourcepageaccountingandissuecloseoutpending.",
+    "mapping_targets": "Inspectactualsource115title/photo/editorialintro,followingpagesandending/adjacentnextfeature. CanonicalTOC113andnextfeatureTOC123arelookupcues,notglobaloffsetorbodyextentproof. Reuseexisting114–124views whereavailable;initialboundedlookups114–126(13pages),extendonlywithin20outside-maplookupsifneeded. Verify꿈의실현MAT subtitle/bodyassociationandactualendbeforemapping/OCR. Ifendingnotverifiedwithinlookupcap,saveboundary-reviewcheckpointandcontinueverificationseparately. Afterextentproven,mapatmostfirstsixeligiblepages. Source115hasnoobservedfolio;retainnullunlessvisibleevidence,notinferred113. Preserveoriginalphoto,labels/captions,allprose/code/tables. Parent003informationgroupremainsunresolved;cover,remainingentries,244-pageaccountingandissuecloseoutpending.",
     "provisional_lookup_targets": [
-      60,
-      61,
-      62
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
     ],
     "limits": {
       "articles": 2,
@@ -4485,8 +4618,9 @@
     "Finalnumericnative preservesTaylor r+ds/d_n/2b glyphcandidates,coefficientrepetitions/subscripts/r-on-xsrow,Bairstwo’s/PRINT UNING,all21BIS/FPoutputrows/84cells,fourroots,andbothfootnotes;none recomputed,repairedorexecuted. Incominggr/림11 associationkeepspriorstagedcomma outofactualtext.",
     "Usepinnedbatch27assembly_dispatch forall6completedMarchprivateformats inissueJSON/assets exports. Native-stageflags/noteshistorical;complete numericactive scopehasnodeferredbodypagesorassemblypending.",
     "Completenumeric retains407exactnativefiles/fullmetadata;54supplementalarrayslices/eightobjectprojections reverseexactly. All71candidates/61unknownbands,formula/coefficient/numeric/codefields andsourcefigure5/7methodconflictsremainliteral. Incoming111그/112림11 association hasnoencodedjoin orstagedcommainsertion.",
-    "31 canonical entries remainunresolved. Parent0024교육입문 isnon-owning;allfivechildrencomplete,60bodypages/2795packagefiles. No duplicatedparentbody/divider. Canonical0008lowerPDF61noticeeligibilityseparateandunresolved;nextboundedcheckpointwillinspectcontent.",
-    "All14readablepackages andsixprivateformatschecked;parentclassificationchangesnochildbytes,canonicalidentities,titles,parentsororder. Coverselection,remainingcanonicalentries,all244sourcepageaccountingandissuecloseoutpending."
+    "All14readablepackages andsixprivateformatschecked;parentclassificationchangesnochildbytes,canonicalidentities,titles,parentsororder. Coverselection,remainingcanonicalentries,all244sourcepageaccountingandissuecloseoutpending.",
+    "30 canonical entries remainunresolved. Canonical0008iscompleteeligibleeditorialnoticeatPDF61lower-right;title광고didnotexcludebyname. Upperprinterandlower-leftcommercialpromotionremainseparate,allpriorfilesunchanged.",
+    "Sourcepublisher/contact/address/payment/10-dayreturnclaims andoldspellingarehistoricalunverifiedliterals. Noauthor/captionorcurrent-contactidentityinferred. Parent0003,coverselection,remainingentries,all244sourcepageaccountingandissuecloseoutpending."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

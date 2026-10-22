@@ -24,31 +24,38 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 14 of 48 entries are readable and assistant
+March 1985 remains in progress: 15 of48 entries are readable and assistant
 sample-reviewed, no articles are partial, three headings are non-owning and
-31 entries remain unresolved. 교육입문0024 is now verified as a non-owning group.
-Its five complete children cover 60 distinct body pages: printer PDF52–62,
-MAT64–78, CP/M80–91, BDS-C92–104 and numerical analysis106–114. Their 2,795 selected
-package files remain unchanged. No parent body or divider was invented.
+30 entries remain unresolved. Canonical0008, 원고 모집 광고, is complete as an
+editorial call for reader contributions on the lower-right panel of PDF61/visible59.
+Its source headline is 독자 여러분의 원고를 모집합니다.; the neighboring backissue
+sales promotion remains excluded.
 
-Eleven reused source views confirm the group boundaries and independent
-advertisements on PDF63,79,105. The final numerical-analysis page114 precedes
-the separate special-feature opening115. Existing mixed-page exclusions on
-61,78,104 remain intact; canonical0008's lower61 notice is a separate unresolved
-entry. Canonical identities, titles, order and parent relationships are unchanged.
+All26 package files match the independent rebuild. Four text blocks andtwo original
+images retain the three-line title, three prose paragraphs, printed submission
+address, payment/return terms, editorial contact, complete frame andobserved folio.
+All114 UTF-8 ranges,132 evidence pins andsix image crops verify. Eight source
+candidates remain explicit, including old spelling, physical word wraps andopaque
+historical contact fields. No article byline orcaption was inferred.
 
-All 25,792 prior files, 27 prior inventories, all14 readable packages and30 core
-implementation pins pass. The unchanged213-test environment baseline is reused.
-The new preservation inventory contains25,836 files. Use pinned batch27
-assembly_dispatch.py for allsix completed March private formats. This checkpoint
-used no new mapping, OCR, source correction or article export.
+All20 notice/printer text-region pairs are disjoint; all741 printer files andits
+original exclusions remain unchanged. Three reused whole views,one mapped page,
+two outside lookups andone canonical task meet the limits. Allsix exact crops
+were reviewed before four kor+eng tasks; all drafts were read before one source
+pass. No OCR failure, retry, crop repair orengine change. A final-report variable
+error was fixed in a retained verifier revision without source orpackage changes.
 
-Next: inspect canonical0008, 원고 모집 광고, at printed59/PDF61 and its adjacent
-pages. Determine its editorial-notice eligibility from the scan; if eligible,
-restore its own lower panel while preserving the printer package and neighboring
-promotion. Cover selection, remaining entries, all244-page source accounting and
-issue closeout remain pending. Human acceptance, full proofreading, source encoded
-bytes and execution remain unverified. No reader rebuild.
+All25,836 prior files,28 prior inventories,14 prior readable packages and30 core
+pins pass; unchanged213-test baseline reused. Inventory contains25,972 files.
+Use pinned batch27 assembly_dispatch.py for allsix private formats. Parent0024
+remains verified non-owning; information parent0003 still awaits its other children.
+
+Next: verify canonical0001's actual extent from the observed PDF115 special-feature
+opening, then restore its first bounded segment. Check its full title/body link,
+ending andadjacent next feature; TOC113/123 are lookup cues. Preserve unobserved
+folios as null. Cover selection, remaining entries, all244-page source accounting
+andissue closeout remain pending. Human acceptance, full proofreading, source
+encoded bytes andhistorical claims remain unverified. No reader rebuild.
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
