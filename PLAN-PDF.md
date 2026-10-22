@@ -24,33 +24,35 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 12 of 48 entries are readable/sample-reviewed,
-one article is partial, two headings are non-owning and 33 entries remain unresolved.
-All BDS-C0028 body pages, PDF92–104, now have validated native segments totaling
-548 files, 158 regions, 121 blocks and 37 originals. The final page has no observed
-folio; it remains null. Its upper article is restored and lower advertising excluded.
-Complete BDS-C assembly is the next separate checkpoint.
+March 1985 remains in progress: 13 of 48 entries are readable and assistant
+sample-reviewed, no articles are partial, two headings are non-owning and 33 entries
+remain unresolved. BDS-C0028 is complete across PDF92–104, visible90–101 and a final
+unobserved/null folio. Its 557-file assembly matches the independent rebuild and
+retains all 548 exact native files. No BDS-C body pages or assembly remain pending.
 
-The final native, packages/batch-23-r01/bds-c, matches its independent rebuild
-across all 45 files. All 492 UTF-8 ranges, 526 evidence pins and 12 image crops pass.
-Eight corrected blocks retain 48 code/session rows, nine text rows, two DIO examples,
-the uppercase TY transcript, keyboard discussion, four glyph occurrences, terminal
-mark and complete upper original. Nine local candidates retain original scans;
-command/file/control-key glyphs and source hardware claims remain unverified.
+All 10,406 active UTF-8 ranges, 21,349 evidence-pin occurrences and 158 image crops
+verify. All 84 supplemental array slices and 19 object projections reverse exactly
+to native metadata. The complete article retains 121 blocks/37 originals, 485 code/
+session/function-name rows, 96 inline/template rows, 22 printed C row labels,
+17 listing panels, two actual caption links, both diagram transcripts and all table,
+library and formula fields. Twelve stage notes and both incoming associations are
+resolved in active complete scope without joining text or changing native metadata.
+Current body movemem matches the prior table; the staged movmem anticipation remains
+historical. All 88 source candidates and six unknown-count bands stay explicit.
 
-Four reused whole views, one mapped mixed page and three outside lookups meet
-checkpoint limits. All 12 exact crops viewed before eight pinned tasks (three eng,
-five kor+eng); all drafts read before one source pass. No OCR failures, retries or
-crop repairs. All 21,263 prior files/30 core pins pass; unchanged 213-test baseline
-reused. Preservation inventory contains 21,468 files. The earlier 503 native files
-remain unchanged. No source pages are deferred; article assembly remains pending.
+Final104 upper article, TY output, keyboard discussion and terminal mark are retained;
+lower advertising is excluded and folio remains null. All 21,468 prior files and
+30 core pins pass; unchanged 213-test environment baseline reused. Preservation
+inventory contains 22,607 files. Use pinned batch24 assembly_dispatch.py for all five
+completed March private formats. No new mapping, OCR or source correction for assembly.
 
-Next: assemble all three BDS-C natives without changing their files or metadata.
-Resolve both cross-segment associations and the staged movmem note from retained
-source evidence; do not invent text joins. Preserve all tables, code, labels,
-unknown bands and final mixed-page exclusion. CP/M, MAT, printer and communication
-remain complete. Parent0024, cover selection, source accounting and issue closeout
-remain pending. No reader rebuild.
+Next: verify 수치 해석0029's actual extent from observed PDF106 in bounded source
+lookups, then restore its first segment. If its ending cannot be verified within
+20 outside-map lookups, save a source-review checkpoint and continue verification
+before mapping/OCR. TOC references are lookup cues. Parent0024 still awaits this
+fifth child and group-boundary checks; cover selection, source accounting and issue
+closeout remain pending. CP/M, MAT, printer and communication stay complete.
+No reader rebuild.
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 

@@ -19,24 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 remains in progress: 12 readable/sample-reviewed, one partial,
-  two non-owning headings and 33 unresolved entries. All BDS-C0028 body pages
-  PDF92–104 now have three validated natives/548 files; complete assembly pending.
-  Final upper104 restores two DIO examples, uppercase TY output, keyboard discussion
-  and terminal mark; lower advertisement excluded and unobserved folio null.
-  All45 final-native files match rebuild;492 ranges/526 pins/12 image crops pass.
-  Four reused whole views/one mapped page/three outside lookups/one canonical task.
-  All12 exact crops viewed before eight pinned tasks:three eng/five kor+eng. All
-  drafts read before one source pass;zero OCR failures/retries/crop repairs. Source
-  command/filename/control-key glyph candidates remain unverified with exact scans.
-  Final retains48 code/session rows/nine text rows/four glyph occurrences/nine
-  candidates;all503 prior native files unchanged. All21,263 prior files/30 core
-  pins pass;unchanged213-test baseline reused. Preservation inventory21,468 files.
-  Next: separate complete BDS-C assembly with reversible arrays/objects and both
-  boundary associations;retain all natives/metadata and resolve staged movmem note
-  from current movemem source observation. No new mapping/OCR/source correction.
-  CP/M,MAT,printer andcommunication remain complete. Parent0024,cover,source
-  accounting andissue closeout pending. Follow [March log](docs/progress/8503.md)
+- March 1985 remains in progress:13 readable/sample-reviewed,no partial articles,
+  two non-owning headings and33 unresolved entries. BDS-C0028 is complete across
+  PDF92–104/visible90–101 plus finalnullfolio. All557 assemblyfiles match rebuild,
+  including548 exactnativefiles. All10,406 activeUTF-8 ranges/21,349 pins/158images
+  verify;84 arrayslices/19objectprojections reverseexactly tofullnative metadata.
+  Complete article retains121blocks/37originals,485code/session/function-name rows,
+  96inline/template rows,22printedCrowlabels,17listingpanels,twoactualcaptionlinks,
+  bothdiagramtranscripts andalltable/library/formulafields. Twelve stagenotes and
+  bothincomingassociations resolvedonlyinactive scope withoutencodedjoins;allnative
+  files/metadatastayexact. Currentbodymovemem matches priortable;earlierstagedmovmem
+  anticipation remainshistorical. All88candidates/sixunknownbands retainedliteral.
+  Finalupper104/TY/keyboard/terminalmark preserved,loweradexcluded,folionull.
+  All21,468priorfiles/30corepins pass;unchanged213-test environmentbaseline reused.
+  Preservationinventory22,607files. No newmapping/OCR/sourcecorrection forassembly.
+  Usepinnedbatch24assembly_dispatch.py forallfivecompletedMarchprivateformats.
+  Next:boundedactualextent reviewofnumeric0029 fromobservedPDF106;mapfirstsegment
+  onlyafterending/continuity/adjacentsverified. Ifendingnotreachedwithin20outside
+  lookups,saveboundary-reviewcheckpoint andcontinueverificationbeforemapping/OCR.
+  Parent0024,cover,sourceaccountingandissuecloseoutpending. Follow [March log](docs/progress/8503.md)
   and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
