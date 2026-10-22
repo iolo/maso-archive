@@ -24,36 +24,37 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 13 of48 entries are readable and assistant
-sample-reviewed,one article ispartial,two headings are non-owning and32 entries
-remain unresolved. 수치 해석0029 now has validated natives for its full actual
-extent PDF106–114/visible104–112. Complete article assembly remains pending.
+March1985 remains in progress:14 of48 entries are readable andassistant
+sample-reviewed,no articles arepartial,two headings are non-owning and32 entries
+remain unresolved. 수치 해석0029 iscomplete acrossactualPDF106–114/visible104–112.
+Its416-file assembly matches the independent rebuild andretains all407 exact
+native files. No numerical-analysis body pages orassembly remain pending.
 
-The final112–114 native matches its independent rebuild across137files;all4,681
-UTF-8 ranges,4,839 evidence pins and41image crops pass. Its29blocks/12originals
-retain105 BASIC labels,140physical code/output rows,84BIS/FPoutput cells/eight
-headers,fourroots/eightfields,36formula rows andtwo coefficient diagrams with47
-nonblank cells/13blank slots. Seven actual captions,both footnotes andthe final
-terminal mark are retained. Thirty-one candidates and25unknown-count bands stay
-explicit,including Taylor r+ds/d_n/2b,coefficient subscript/terminal-r candidates,
-Bairstwo’s andPRINT UNING. No formula,numeric orprogram repair.
+All10,495 activeUTF-8 ranges,21,564 evidence-pin occurrences and122image crops
+verify. All54 supplemental array slices andeight object projections reverse
+exactly tofull native metadata. The complete article retains89blocks/33originals,
+535physical textrows,255code/output rows,156BASIC labels insixprograms,174BIS/FP/
+equivalent-output cells/26headers,fourroots/eightfields,80formula rows,44diagram
+label rows,two coefficient diagrams/47nonblank cells/13blank slots,15actual caption
+links,ninesubparts,both footnotes andthe terminal mark.
 
-Both immutable natives total407files,122regions,89blocks and33originals. Incoming
-111그→112림11 is verified without an encoded join;the earlier staged boundary's
-comma was not inserted into current source. Primary ledger coverage still names
-the opening native;native_segments_coverage records allnine restored body pages.
+Seven stage notes are resolved only in active complete scope. Allnative metadata
+and71source candidates/61unknown-count bands remain exact. Source figure5/7 method
+header conflicts,78251716/78251726,1 2stopping condition,Taylor/coefficient glyphs,
+Bairstwo’s andPRINT UNING remain literal. Incoming111그→112림11 isassociated
+without encoded joining orstaged comma insertion. No mathematical/numeric repair.
 
-All24,364 priorfiles,25prior inventories and30core pins pass. The unchanged213-test
-batch25 environment baseline is reused. Five completed March private formats still
-pass using pinned batch24 assembly_dispatch.py. New preservation inventory contains
-24,936files. All41 exact crops were viewed before29tasks(6eng/23kor+eng);all drafts
-were read before one source pass. No OCRfailure,retry,crop repair orengine change.
+All24,936 prior files,26prior inventories and30core pins pass;unchanged213-test
+batch25 environment baseline reused. Preservation inventory contains25,792files.
+Use pinned batch27 assembly_dispatch.py for allsix completed March private formats.
+This assembly used no new mapping,OCR orsource correction. Immutable natives and
+all failed attempts remain preserved.
 
-Next: assemble complete수치해석 fromboth natives,without new mapping/OCR/source
-correction. Parent0024 still awaits fifth-child completion andgroup-boundary checks.
-Cover selection,all244-page source accounting andissue closeout remain pending.
-Human acceptance,fullproofreading,source encoded bytes andexecution remain
-unverified. No reader rebuild.
+Next: verify 교육입문parent0024's non-owning classification andgroup boundaries
+now that allfive children arecomplete. Cover selection,remainingcanonical entries,
+all244-page source accounting andissue closeout remain pending. Canonical0008's
+lowerPDF61 notice eligibility stays unresolved. Human acceptance,fullproofreading,
+source encoded bytes andexecution remain unverified. No reader rebuild.
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 

@@ -19,20 +19,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:13readable/sample-reviewed,onepartial,twonon-owning,32unresolved.
-  Numeric0029 allninebodypages106–114/104–112 nowhavenatives;completeassemblypending.
-  Finalnative112–114:137files matchrebuild;4,681ranges/4,839pins/41images verify.
-  Retains105BASIClabels/140code-outputrows,84BIS/FPcells/eightheaders,fourroots,
-  36formulas,two coefficientdiagrams/47cells/13blanks,sevensourcecaptions andboth
-  footnotes/terminal. All31candidates/25unknownbands remainliteral. Incoming111그/
-  112림11 verifiedwithoutencodedjoin orstagedcommainsertion. Bothnatives407files,
-  122regions/89blocks/33originals;keepimmutable. All41crops viewedbefore29tasks
-  (6eng/23kor+eng);allraws readbeforeonesourcepass;zeroOCRfailures/retries/repairs.
-  All24,364priorfiles/25inventories/30corepins andfivecompletedprivateformats pass;
-  batch25'sfresh213-testbaseline reused. Inventory24,936files. Next:completeassembly,
-  nonewmapping/OCR/correction. Parent0024,cover,sourceaccounting andissuecloseout
-  pending. Follow [March log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:14readable/sample-reviewed,nopartial,twonon-owning,32unresolved.
+  Numeric0029 complete106–114/104–112:416files matchrebuild,including407exactnatives.
+  All10,495active ranges/21,564pins/122images and54arrayslices/eightobjectprojections
+  verify. Retains89blocks/33originals,255code-outputrows,156BASIClabels/sixprograms,
+  174outputcells/26headers,fourroots/eightfields,80formulas,44diagramlabelrows,two
+  coefficientdiagrams/47cells/13blanks,15captions/ninesubparts,bothnotes/terminal.
+  Sevenstagenotes resolvedonlyinactive scope;nativemetadataexact. All71candidates/
+  61unknownbands remainliteral. Incoming111그/112림11 association hasnoencodedjoin
+  orstagedcomma. All24,936priorfiles/26inventories/30corepins pass;batch25fresh213-test
+  baseline reused. Newinventory25,792files. Usepinnedbatch27assembly_dispatch.py for
+  all6completedMarchprivateformats. Nonewmapping/OCR/sourcecorrection forassembly.
+  Next:parent0024group-boundary/non-owningclassificationcheck;allfivechildrencomplete.
+  Cover,remainingentries,244-pageaccounting andissuecloseout pending;canonical0008
+  lowerPDF61notice eligibilitystillunresolved. Follow [March log](docs/progress/8503.md)
+  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
