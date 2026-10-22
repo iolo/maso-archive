@@ -6,34 +6,34 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 13 of 48 entries are readable and assistant
-sample-reviewed, one article is partial, two headings are non-owning and 32 entries
-remain unresolved. 수치 해석0029's actual extent is verified as PDF106–114,
-visible104–112. Final114 has the Bairstow listing, root output, closing discussion,
-footnote2 and terminal mark. Adjacent115 opens a separate special feature,
-베이직과 기계어의 만남(3); it is outside this article.
+March 1985 remains in progress: 13 of48 entries are readable and assistant
+sample-reviewed,one article ispartial,two headings are non-owning and32 entries
+remain unresolved. 수치 해석0029 now has validated natives for its full actual
+extent PDF106–114/visible104–112. Complete article assembly remains pending.
 
-The first six-page native, PDF106–111/visible104–109, is complete as a partial
-article package. All270 selected files match the independent rebuild. All5,338
-UTF-8 ranges,5,634 evidence pins and81 image crops verify. Sixty corrected blocks
-and21 originals retain389 physical text rows,115 code/output rows,51 BASIC line
-labels,90 output cells/18 headers,44 formula rows,44 diagram-label rows,eight
-actual caption links andnine subpart labels. Printed figure5/7 method-header
-conflicts,78251716/78251726,1 2 stopping condition andother source candidates
-remain literal. Forty local candidates and36 unknown-count bands stay explicit.
+The final112–114 native matches its independent rebuild across137files;all4,681
+UTF-8 ranges,4,839 evidence pins and41image crops pass. Its29blocks/12originals
+retain105 BASIC labels,140physical code/output rows,84BIS/FPoutput cells/eight
+headers,fourroots/eightfields,36formula rows andtwo coefficient diagrams with47
+nonblank cells/13blank slots. Seven actual captions,both footnotes andthe final
+terminal mark are retained. Thirty-one candidates and25unknown-count bands stay
+explicit,including Taylor r+ds/d_n/2b,coefficient subscript/terminal-r candidates,
+Bairstwo’s andPRINT UNING. No formula,numeric orprogram repair.
 
-All22,607 prior files,24 prior inventories and30 core pins pass. The fresh .venv
-environment check passes213 PDF tests. One lexical-index correction excludes
-editorial marker words while retaining adjacent quotes/statement tails; maps,
-raw OCR,regional readings,blocks anddownloads stay unchanged. All attempts remain
-preserved;the new inventory contains24,364 files. Five completed March private
-assembly formats still pass using pinned batch24 assembly_dispatch.py.
+Both immutable natives total407files,122regions,89blocks and33originals. Incoming
+111그→112림11 is verified without an encoded join;the earlier staged boundary's
+comma was not inserted into current source. Primary ledger coverage still names
+the opening native;native_segments_coverage records allnine restored body pages.
 
-Next: restore finalPDF112–114/visible110–112 from saved source views, then assemble
-the complete article separately. Native111 ends그 before112림11;preserve the source
-word continuation andimmutable opening native. Parent0024 still awaits this fifth
-child andgroup-boundary checks. Cover selection,all244-page source accounting and
-issue closeout remain pending. BDS-C,CP/M,MAT,printer andcommunication stay complete.
+All24,364 priorfiles,25prior inventories and30core pins pass. The unchanged213-test
+batch25 environment baseline is reused. Five completed March private formats still
+pass using pinned batch24 assembly_dispatch.py. New preservation inventory contains
+24,936files. All41 exact crops were viewed before29tasks(6eng/23kor+eng);all drafts
+were read before one source pass. No OCRfailure,retry,crop repair orengine change.
+
+Next: assemble complete수치해석 fromboth natives,without new mapping/OCR/source
+correction. Parent0024 still awaits fifth-child completion andgroup-boundary checks.
+Cover selection,all244-page source accounting andissue closeout remain pending.
 Human acceptance,fullproofreading,source encoded bytes andexecution remain
 unverified. No reader rebuild.
 See [March log](docs/progress/8503.md) and

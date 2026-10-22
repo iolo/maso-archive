@@ -19,22 +19,19 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 remains in progress:13 readable/sample-reviewed,onepartial,two
-  non-owning headings and32 unresolved. Numeric0029 actualextent106–114/104–112
-  verified with11views105–115;final114 terminal/footnote2 andadjacent115 separate
-  specialfeatureopening establishending. Firstnative106–111 ispartial:all270files
-  match rebuild;5,338ranges/5,634pins/81images pass. Sixtyblocks/21originals retain
-  115code/outputrows,51BASIClabels,90outputcells/18headers,44formularows,44diagram
-  labelrows,eightcaptions/ninesubparts. Sourcefigure5/7methodheaders,numericstrings,
-  spelling/formulaglyphs remainliteral;40candidates/36unknownbands explicit.
-  All81crops viewedbefore60tasks(9eng/51kor+eng);allraws readbeforeonecorrectionpass.
-  ZeroOCRfailures/retries. Onelexicalindexrevision fixesquote-adjacentmarkerfiltering;
-  source/maps/crops/raws/readings/blocks/downloads unchanged;failedverifier retained.
-  All22,607priorfiles/24inventories/30corepins pass;freshenvironment213tests pass.
-  Newinventory24,364files. FivecompletedMarchprivateformats stillpass withpinned
-  batch24assembly_dispatch.py. Next:finalthreepagenative112–114,thencompleteassembly.
-  Keep111그/112림11 sourcecontinuation explicit. Parent0024,cover,sourceaccounting
-  andissuecloseout pending. Follow [March log](docs/progress/8503.md) and
+- March1985:13readable/sample-reviewed,onepartial,twonon-owning,32unresolved.
+  Numeric0029 allninebodypages106–114/104–112 nowhavenatives;completeassemblypending.
+  Finalnative112–114:137files matchrebuild;4,681ranges/4,839pins/41images verify.
+  Retains105BASIClabels/140code-outputrows,84BIS/FPcells/eightheaders,fourroots,
+  36formulas,two coefficientdiagrams/47cells/13blanks,sevensourcecaptions andboth
+  footnotes/terminal. All31candidates/25unknownbands remainliteral. Incoming111그/
+  112림11 verifiedwithoutencodedjoin orstagedcommainsertion. Bothnatives407files,
+  122regions/89blocks/33originals;keepimmutable. All41crops viewedbefore29tasks
+  (6eng/23kor+eng);allraws readbeforeonesourcepass;zeroOCRfailures/retries/repairs.
+  All24,364priorfiles/25inventories/30corepins andfivecompletedprivateformats pass;
+  batch25'sfresh213-testbaseline reused. Inventory24,936files. Next:completeassembly,
+  nonewmapping/OCR/correction. Parent0024,cover,sourceaccounting andissuecloseout
+  pending. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
