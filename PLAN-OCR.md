@@ -19,28 +19,31 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: twelve of 48 entries are readable/sample-reviewed,
+- March 1985 remains in progress: 12 of 48 entries are readable/sample-reviewed,
   one article is partial, two headings are non-owning and 33 remain unresolved.
-  BDS-C0028 opening PDF92–97/visible90–95 is restored:265 files match its rebuild;
-  4,350 UTF-8 ranges/4,557 pins/73 image crops pass. Full actual extent92–104 is
-  verified; final104 upper body ends before lower advertising, with visible folio
-  unobserved/null. PDF105 is advertising; numeric article opens106/visible104.
-  All73 initial exact crops and one repair viewed before61 pinned tasks:14 eng,
-  47 kor+eng. All61 drafts read before one direct correction pass;zero OCR failures,
-  retries or engine switches. One clipped prose line repaired before recognition.
-  Initial verifier compared compressed PNG bytes;corrected pixel comparison passes
-  without changing source/map/crop. Both scripts and all attempts remain preserved.
-  Native retains61 blocks/12 originals,169 code/function-name rows,62 inline/template
-  rows,30 table rows/60 cells/two headers,104 library entries/six columns/three
-  headers,12 memory labels/one printed caption,three continuations,36 source
-  candidates andone unknown-count omission band. Original code/library errors and
-  ¥/backslash note stay literal;no syntax,type,library-name or execution repair.
-  All18,051 prior files/30 core pins pass;environment check passed213 PDF tests.
-  Preservation inventory contains19,226 files. Next: middle98–103,then final104,
-  then separate complete assembly. CP/M,MAT,printer andcommunication remain complete;
-  pinned batch20 dispatcher handles those four private formats. Parent0024,cover,
-  source accounting andissue closeout remain pending. Follow [March log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+  BDS-C0028 natives cover PDF92–103/visible90–101 in 503 immutable files. Final
+  upper104 and complete assembly remain pending. The 238-file middle native matches
+  its rebuild; all 5,191 UTF-8 ranges, 5,392 pins and 73 image crops verify.
+  Eight reused whole views, six mapped pages, two outside lookups, one canonical
+  task. All 73 initial exact crops and 11 margin repairs viewed before 52 pinned
+  tasks: 18 eng and 34 kor+eng. All drafts read before one direct source correction
+  pass; zero OCR failures, retries or engine switches. Original panels remain.
+  Middle retains 268 code/session rows, 22 printed C row labels, 34 inline/template
+  rows, 20 formula rows/36 cells/four blank slots, 18 float-output cells/three
+  headers, 10 qsort-output cells, 12 stack labels/one caption and 14 listing panels.
+  Source fpcomp's repeated a>b, DDS-C/mian/pstrng/AL, missing braces, all console
+  numbers, 43 candidates and five unknown-count bands stay literal. Body movemem
+  matches the prior table; the earlier staged movmem anticipation is superseded.
+  Metadata revisions correct external-boundary scope, comment-tail fields, blank
+  line counting and UTF-8 row-label offsets. Two failed verifiers and all exports
+  remain preserved; source readings/maps/crops/raws/downloads are unchanged.
+  All 19,226 prior files/30 core pins pass; unchanged 213-test environment baseline
+  reused. Preservation inventory contains 21,263 files. Next: upper104, then separate
+  complete assembly. Final folio remains unobserved/null; lower advertisement excluded.
+  CP/M, MAT, printer and communication remain complete; pinned batch20 dispatcher
+  handles their private formats. Parent0024, cover, source accounting and issue
+  closeout pending. Follow [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

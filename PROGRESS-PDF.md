@@ -6,28 +6,34 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: twelve of 48 entries are readable/sample-reviewed,
-one article is partial, two headings are non-owning and 33 entries remain unresolved.
-BDS-C0028 opening printed90–95/PDF92–97 is restored in a 265-file native matching
-its independent rebuild. All 4,350 UTF-8 ranges, 4,557 evidence pins and 73 source-image
-crops verify. It retains 61 blocks/12 originals, 169 physical code/function-name rows,
-62 inline code/template rows, 30 table rows/60 cells/two headers and 104 library
-entries/six columns/three grouped headers. Twelve memory labels, the actual memory
-caption, Hanoi code/session, three cross-page fragments, 36 source candidates and one
-unknown-count omission band remain source-linked. Printed errors stay literal.
+March 1985 remains in progress: 12 of 48 entries are readable and assistant
+sample-reviewed, one article is partial, two headings are non-owning and 33 entries
+remain unresolved. BDS-C0028 now has validated opening and middle natives covering
+PDF92–103, visible90–101. Their 503 immutable files remain separate; final upper104
+and complete article assembly are pending. Primary directory/coverage still describes
+the opening native; the ledger's native_segments_coverage records cumulative coverage.
 
-The full BDS-C extent is PDF92–104, verified through every intervening page and
-adjacent sources. Final104 upper article ends with a terminal mark; lower advertising
-is excluded from the planned final map. Its visible folio is unobserved/null.
-PDF105 is independent advertising; 수치 해석 opens106/visible104. No global offset.
-All 18,051 prior files and 30 core pins pass; the environment check passed all213
-PDF tests. Preservation inventory contains 19,226 files. CP/M, MAT, printer and
-communication remain complete. Parent0024 remains unresolved.
+The middle native, packages/batch-22-r04/bds-b, matches its independent rebuild
+across 238 files. All 5,191 UTF-8 ranges, 5,392 evidence pins and 73 image crops pass.
+It retains 52 blocks/21 originals, 268 physical code/session rows, 22 printed C row
+labels, 34 inline/template rows, 20 formula rows/36 nonblank cells/four blank slots,
+six float-output rows/18 cells/three headers, five qsort-output rows/10 cells,
+12 stack labels/one actual caption, 14 original listing panels and six continuations.
+Forty-three source candidates and five unknown-count bands remain source-linked.
 
-Next: restore BDS-C middle PDF98–103 from saved views, then final mixed104 and
-complete assembly in separate checkpoints. Use pinned batch20 assembly_dispatch_r02
-for the four completed March private formats. Cover selection, source accounting
-and issue closeout remain pending. No reader rebuild.
+All 19,226 prior files and 30 core pins verify; the unchanged 213-test environment
+baseline is reused. Preservation inventory contains 21,263 files. Metadata revisions
+correct external boundary scope, readable comment-tail indexes, blank-line counting
+and UTF-8 row-label positions; all source readings, maps, crops and OCR remain unchanged.
+Current body movemem matches the prior table; an earlier staged note anticipating
+movmem is superseded without changing the immutable opening package.
+
+Next: restore upperPDF104, preserving both DIO listings, uppercase TY transcript,
+keyboard discussion and terminal mark. Exclude lower advertising and retain its
+unobserved folio as null. Then assemble the complete BDS-C article separately.
+CP/M, MAT, printer and communication remain complete; use the pinned batch20 private
+assembly dispatcher. Parent0024, cover selection, source accounting and issue closeout
+remain pending. No reader rebuild.
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 

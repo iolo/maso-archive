@@ -1412,7 +1412,8 @@
       "classification_evidence": [
         "Actual BDS-C full extent PDF92–104 verified by every intervening source page and adjacent CP/M ending91,independent advertisement105 and numeric opening106. Final104 upper conclusion/terminal mark;lower advertisement excluded from planned final map. Visible90–101 on92–103;104 folio unobserved/null.",
         "Current immutable opening native restores PDF92–97/visible90–95. Deferred98–104 requires two further bounded natives and separate complete assembly.",
-        "Source author credit 정 덕 기/서울대 전기 공학과4 remains separate from unchanged canonical identity. All type/escape/precedence/library table cells,memory labels/caption,Hanoi code/session,inline code examples and source errors remain literal candidates."
+        "Source author credit 정 덕 기/서울대 전기 공학과4 remains separate from unchanged canonical identity. All type/escape/precedence/library table cells,memory labels/caption,Hanoi code/session,inline code examples and source errors remain literal candidates.",
+        "MiddlePDF98–103/visible96–101 restored in secondimmutable native. Twelve bodypages92–103 have validatednative coverage;finalupper104 andcomplete assembly pending. Actualcurrentbody movemem matches prior table;opening note anticipating latermovmem is superseded without changing prior native."
       ],
       "restoration": {
         "directory": "archive/pdf/1985-03/packages/batch-21-r01/bds-a",
@@ -1478,6 +1479,42 @@
               "95"
             ],
             "availability": "partial"
+          },
+          {
+            "id": "bds-b",
+            "directory": "archive/pdf/1985-03/packages/batch-22-r04/bds-b",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-22-r04/bds-b/manifest.json",
+              "sha256": "be9e5777aafdeb09c51abc3b3c2ccf801bfe77e0136cfdd1a77916061389dfd0",
+              "bytes": 40290
+            },
+            "pdf_pages": [
+              98,
+              99,
+              100,
+              101,
+              102,
+              103
+            ],
+            "printed_pages": [
+              "96",
+              "97",
+              "98",
+              "99",
+              "100",
+              "101"
+            ],
+            "availability": "partial",
+            "validation": {
+              "path": "archive/pdf/1985-03/restoration/batch-22/validation.json",
+              "sha256": "eb519df86e1796479d9bbebd306bac66d8d873ea1046bd63604d9a20a0f01c2f",
+              "bytes": 2473
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-03/restoration/batch-22/reproduction.json",
+              "sha256": "f51b70af0b4c21d93892fa882a1b9ff72b38b7134ba1a9a0f7a6ffb606743213",
+              "bytes": 1424
+            }
           }
         ],
         "assembly_required": true,
@@ -1504,6 +1541,74 @@
           "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
           "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
           "bytes": 2731
+        },
+        "native_segments_coverage": {
+          "pdf_pages": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "printed_pages": [
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101"
+          ],
+          "all_eligible_body_pages_restored": false,
+          "deferred_pdf_pages": [
+            104
+          ],
+          "assembly_pending": true,
+          "regions": 146,
+          "blocks": 113,
+          "figures": 33,
+          "native_files": 503,
+          "coverage_note": "Primary directory/coverage remains immutable opening bds-a. This cumulative field describes opening andmiddle natives;finalmixed104 andcomplete assembly pending."
+        },
+        "incoming_boundaries": [
+          {
+            "path": "archive/pdf/1985-03/restoration/batch-22/incoming-boundary.json",
+            "sha256": "55a9c96663d60747e2451e2fc1c7237ec756bc3701fa60997b23f5580e2e598d",
+            "bytes": 2063
+          }
+        ],
+        "middle_native_validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-22/validation.json",
+          "sha256": "eb519df86e1796479d9bbebd306bac66d8d873ea1046bd63604d9a20a0f01c2f",
+          "bytes": 2473
+        },
+        "latest_native_boundary": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-22-r04/bds-b/corrections.json",
+            "sha256": "71655131bf13d4f9c18af5305355b2efa3c540f463e260154e4eca299b97b436",
+            "bytes": 2696751
+          },
+          "field": "next_section_boundary"
+        },
+        "source_note_resolution": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-22-r04/bds-b/corrections.json",
+            "sha256": "71655131bf13d4f9c18af5305355b2efa3c540f463e260154e4eca299b97b436",
+            "bytes": 2696751
+          },
+          "field": "source_note_resolution"
         }
       },
       "classification_history": {
@@ -2705,6 +2810,54 @@
         104
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-22",
+      "status": "complete",
+      "stage": "validated-middle-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0028"
+      ],
+      "mapped_pdf_pages": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "outside_map_lookup_pages": [
+        97,
+        104
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 52,
+      "eng_code_tasks": 18,
+      "kor_eng_tasks": 34,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-22/validation.json",
+        "sha256": "eb519df86e1796479d9bbebd306bac66d8d873ea1046bd63604d9a20a0f01c2f",
+        "bytes": 2473
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-22/verification-completed.json",
+        "sha256": "e20ec0b520c0e58dbfbf95e497de362d25735f03d16364b7adbdd2355c050ea4",
+        "bytes": 1552
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-22-preserved-work.json",
+        "sha256": "6361b6680316faaa1aebca040a94061ac65804e52fb35b109354d189a622ea60",
+        "bytes": 4706916
+      },
+      "started_at": "2026-10-22T17:05:01.484363+00:00",
+      "finished_at": "2026-10-22T17:30:31.037203+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [
+        104
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -3509,11 +3662,11 @@
         "maso-1985-03-toc-0028"
       ],
       "printed_page": "96",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-middle-native;final104-andcomplete-assembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-22/source-reviewed.json",
+        "sha256": "fe0fb2d8d604a39b88a6456a159c3d4f1b066013303594530c3736a97f4cd639",
+        "bytes": 2733
       }
     },
     {
@@ -3523,11 +3676,11 @@
         "maso-1985-03-toc-0028"
       ],
       "printed_page": "97",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-middle-native;final104-andcomplete-assembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-22/source-reviewed.json",
+        "sha256": "fe0fb2d8d604a39b88a6456a159c3d4f1b066013303594530c3736a97f4cd639",
+        "bytes": 2733
       }
     },
     {
@@ -3537,11 +3690,11 @@
         "maso-1985-03-toc-0028"
       ],
       "printed_page": "98",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-middle-native;final104-andcomplete-assembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-22/source-reviewed.json",
+        "sha256": "fe0fb2d8d604a39b88a6456a159c3d4f1b066013303594530c3736a97f4cd639",
+        "bytes": 2733
       }
     },
     {
@@ -3551,11 +3704,11 @@
         "maso-1985-03-toc-0028"
       ],
       "printed_page": "99",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-middle-native;final104-andcomplete-assembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-22/source-reviewed.json",
+        "sha256": "fe0fb2d8d604a39b88a6456a159c3d4f1b066013303594530c3736a97f4cd639",
+        "bytes": 2733
       }
     },
     {
@@ -3565,11 +3718,11 @@
         "maso-1985-03-toc-0028"
       ],
       "printed_page": "100",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-middle-native;final104-andcomplete-assembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-22/source-reviewed.json",
+        "sha256": "fe0fb2d8d604a39b88a6456a159c3d4f1b066013303594530c3736a97f4cd639",
+        "bytes": 2733
       }
     },
     {
@@ -3579,11 +3732,11 @@
         "maso-1985-03-toc-0028"
       ],
       "printed_page": "101",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-middle-native;final104-andcomplete-assembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-22/source-reviewed.json",
+        "sha256": "fe0fb2d8d604a39b88a6456a159c3d4f1b066013303594530c3736a97f4cd639",
+        "bytes": 2733
       }
     },
     {
@@ -3631,19 +3784,13 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-22",
-    "goal": "Restore BDS-C0028 middle PDF98–103 from saved source views, preserving immutable opening bds-a;final mixedPDF104 and complete assembly follow separately.",
+    "id": "batch-23",
+    "goal": "Restore final upperPDF104 of canonical0028 BDS-C,excludingloweradvertisement andretainingunobserved printed folio null;complete assembly follows separately.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0028"
     ],
-    "mapping_targets": "Full extent92–104 and adjacent91/105/106 verified in batch21. Reuse saved views;map only six middlepages98–103/visible96–101. Preserve continuing libraryfunctions,boxed BIOS/qsort code and output,compiler/linker command options/sessions,8080 assembly link source/stack diagram,C caller/library manager sessions,float/longint function groups/examples and cross-page listings,command-line arguments/file-copy/DIO code. Final104 upper body/conclusion/terminal mark awaits one-page native;lower advertisement excluded and unobserved folio null. Complete assembly follows separately. Parent0024 remains unresolved.",
+    "mapping_targets": "Fullactualextent92–104 andadjacent91/105/106 verified. Reuse savedviews;map only upper104 eligible article. Preserve two DIO C listings,uppercaseTY consoletranscript,keyboardunderscore/verticalbar discussion,VIDEX/CONFIGIO.BAS andCTRL-O/CTRL-V claims,andterminalmark. Exclude lowerSewoon technical-book advertisement. Folio unobserved/null;do not infer102. Preserve immutable opening265files andmiddle238files/fullmetadata. Current103 introduction ends complete sentence describing next examples;no split-sentence join invented. CompleteBDS-C assembly follows separately. Parent0024 remains unresolved.",
     "provisional_lookup_targets": [
-      97,
-      98,
-      99,
-      100,
-      101,
-      102,
       103,
       104,
       105,
@@ -3680,8 +3827,10 @@
     "Metadata revision indexes27 address claims adjacent to Korean text rather than only6. Failed intermediate prior-filename reference and downstream missing-recipe build are retained; fixed serializer only changes the read reference. Sixty readings/maps/crops/raws and209-file opening native remain unchanged; no new OCR or source pass.",
     "Use pinned batch20 assembly_dispatch_r02 for all four completed March private formats in issue JSON/assets exports. Original native stage flags remain historical; active complete scopes have no deferred pages or assembly pending.",
     "Complete CP/M assembly retains all472 native files andfull metadata;52 array slices and11 object projections reverse exactly. Three unknown-count bands,65 localized candidates,source diagram fields and the final header discrepancy remain unverified literal candidates.",
-    "33 canonical entries remain unresolved. BDS-C opening PDF92–97 is partial;middle98–103,finalmixed104 and complete assembly pending. CP/M,MAT,printer and communication remain complete. Cover selection,source accounting andissue closeout remain pending;no global folio offset inferred.",
-    "BDS-C retains source type/history/syntax claims,/0/escapelettero,char-array/diagram discrepancy,duplicate<=,precedenceglyph candidates,Micro sftware/conut/a−d/scant,/n,missingsemicoloncandidate,uppercaseC,¥printerglyph and movemem/oflow/flow/tell(fg) differences. All36 source variants andone unknown-count template band retain exact source ranges. No semantic,syntax,type,library-name or execution repair."
+    "BDS-C retains source type/history/syntax claims,/0/escapelettero,char-array/diagram discrepancy,duplicate<=,precedenceglyph candidates,Micro sftware/conut/a−d/scant,/n,missingsemicoloncandidate,uppercaseC,¥printerglyph and movemem/oflow/flow/tell(fg) differences. All36 source variants andone unknown-count template band retain exact source ranges. No semantic,syntax,type,library-name or execution repair.",
+    "33 canonical entries remain unresolved. BDS-C validatednatives coverPDF92–103;finalupper104 andcomplete assembly pending. Primarynativecoverage remains opening-only;native_segments_coverage is cumulative. CP/M,MAT,printer andcommunication remain complete. Coverselection,sourceaccounting andissuecloseout pending.",
+    "BDS-C middle preserves literalDDS-C/mian/MVIpstrng/AL,memcmpendpoint/BIOSrange,fpcomp repeateda>b,compilerrowlabels/flags/loopbounds,allconsoleaddresses/numbers,source missingclosingbraces andfiveunknown-countomissionbands. Currentbodymovemem matches priortable;oldstagednote anticipatingmovmem superseded,immutable bytes unchanged. No semantic/syntax/number/type/encoding/executionrepair.",
+    "Middle metadata revisions preserve52regionalreadings/maps/crops/raws/blocks/downloads unchanged. Corrected externalboundary scope,readablecommenttail indexes,blankline-aware mixedrow positions andUTF8-aware printedCrowlabel ranges. Bothfailedverifiers andall238-fileexportrevisions remain preserved."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
