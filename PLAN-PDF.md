@@ -24,18 +24,18 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-Seven of 48 entries are readable and assistant sample-reviewed; tips is a
-non-owning heading and 40 entries remain unresolved. Batch06 restores 꼬마 우주인의
-산책 across printed34–35/PDF36–37. All 57 package files match its independent
-rebuild; 1,912 exact UTF-8 ranges and 1,507 evidence pins validate. All 3,322 prior
-inventory files and 30 implementation pins remain exact. Fresh `make test-pdf`
-passes all 213 tests with the recreated `.venv` using installed system packages.
-The three tips children retain separate article bodies and unchanged identities.
-Next: verify canonical0022 얼마만큼의 기억장치가 필요한 것인가? from
-printed36/PDF38, including actual end and adjacent pages; continuation printed37/
-PDF39 is observed. Reuse PDF37–39 views; keep two-task/six-page limits and segment
-if needed. Cover selection, source-page accounting and issue closeout remain
-pending. Details: [March log](docs/progress/8503.md) and
+Eight of 48 entries are readable and assistant sample-reviewed; tips is a
+non-owning heading and 39 entries remain unresolved. Batch07 restores
+얼마만큼의 기억장치가 필요한 것인가? across PDF38–42. Visible folios are
+36,37,39,40; PDF40 has no visible folio and remains null. All 139 package files
+match the independent rebuild; 3,177 exact UTF-8 ranges and 3,291 evidence pins
+validate. All 3,589 prior inventory files and 30 implementation pins remain exact.
+The unchanged pipeline reuses batch06's passing 213-test baseline.
+Next: verify canonical0023 통신의 개념 from printed42/PDF44, including its actual
+end and adjacent pages; printed43/PDF45 continuation is observed. Reuse PDF43–45;
+keep two-task/six-page limits and segment if needed. Cover selection, source-page
+accounting and issue closeout remain pending. Details:
+[March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 ## February 1985 closeout, 2026-10-22

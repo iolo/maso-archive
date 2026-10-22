@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: seven of 48 entries are readable and assistant
-sample-reviewed, tips is a non-owning heading and 40 remain unresolved. Sprite
-article 꼬마 우주인의 산책 covers printed34–35/PDF36–37. Batch06's 57 files match
-its independent rebuild; 1,912 exact UTF-8 ranges and 1,507 evidence pins validate.
-All 3,322 prior inventory files and 30 implementation pins remain exact. Fresh
-213 PDF tests pass with the recreated `.venv` using installed system packages.
-Next: verify canonical0022 얼마만큼의 기억장치가 필요한 것인가? from printed36/
-PDF38, including actual end and adjacent pages; printed37/PDF39 continuation is
-observed. Reuse PDF37–39 within normal limits. Cover selection, source-page
-accounting and issue closeout remain pending. See [March's log](docs/progress/8503.md)
-and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+March 1985 is in progress: eight of 48 entries are readable and assistant
+sample-reviewed, tips is a non-owning heading and 39 remain unresolved. The memory
+article covers PDF38–42; visible folios36,37,39,40 are recorded and PDF40 remains
+null. Batch07's 139 files match its independent rebuild; 3,177 exact UTF-8 ranges
+and 3,291 evidence pins validate. All 3,589 prior inventory files and 30 core
+implementation pins remain exact. The unchanged pipeline reuses batch06's passing
+213-test baseline. Next: verify canonical0023 통신의 개념 from printed42/PDF44,
+including its actual end; printed43/PDF45 continuation is observed. Reuse PDF43–45
+within normal limits and segment if needed. Cover selection, source-page accounting
+and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
 entries are accounted for by 48 readable, assistant sample-reviewed articles and

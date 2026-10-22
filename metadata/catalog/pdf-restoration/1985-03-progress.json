@@ -536,12 +536,57 @@
       "toc_entry_id": "maso-1985-03-toc-0022",
       "title": "얼마만큼의 기억장치가 필요한 것인가?",
       "parent_id": "maso-1985-03-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Article opensprinted36/PDF38 with separate title andthree credit lines;continues throughPDF39,40,41 andendsprinted40/PDF42 with terminal mark. Every intervening source page inspected.",
+        "PreviousPDF37 is sprite listing ending. FollowingPDF43 is independent 희망전자개발 advertisement;PDF44/printed42 begins통신의 개념 andPDF45/printed43 continues it. Article extent does not include advertisingPDF43.",
+        "PDF40 has no visible folio;printed_page is null,not an inferred38. Other independently visible folios are36,37,39,40.",
+        "Read each page left→right,with context inset separate from ongoing prose onPDF39. Carryovers:permanent-a→b,ram-a→b,bits-a→b,contents-a→b,disk-a→b,map-prose-a→b,map-prose-b→expansion-a,switches-a→b.",
+        "PDF41 memory-map is preserved as an original ruled figure;two independent32-row address columns andmerged function labels are transcribed separately. No table/technical reconstruction.",
+        "One canonical task,five mapped pages andfour outside-map lookups(37,43,44,45)."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-07-r01/memory",
+        "article_id": "scan-maso-1985-03-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-07-r01/memory/manifest.json",
+          "sha256": "93da9cd3662fd81749fd1e73f957d74eb344b4147ec6bae689b424e6565fd7ea",
+          "bytes": 23087
+        },
+        "coverage": {
+          "pdf_pages": [
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "printed_pages": [
+            "36",
+            "37",
+            null,
+            "39",
+            "40"
+          ],
+          "regions": 38,
+          "blocks": 31,
+          "figures": 7
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-07/validation.json",
+          "sha256": "955dc04cdc1a527bf8978770fc36c4a5f7f99e8976584f076170907a1e26803d",
+          "bytes": 1447
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-07/reproduction.json",
+          "sha256": "ce568f94d59aa78933445733edad4aa42216ee7dff2fa2b866b66c084c5d3b79",
+          "bytes": 1283
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0023",
@@ -832,10 +877,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 7,
+    "readable": 8,
     "partial": 0,
     "non_owning_headings": 1,
-    "unresolved_eligibility": 40
+    "unresolved_eligibility": 39
   },
   "checkpoints": [
     {
@@ -1083,6 +1128,47 @@
       "started_at": "2026-10-22T10:40:59.062625+00:00",
       "finished_at": "2026-10-22T10:51:45.475944+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include waits,gaps andenvironment recovery;active human effort unmeasured."
+    },
+    {
+      "id": "batch-07",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0022"
+      ],
+      "mapped_pdf_pages": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "outside_map_lookup_pages": [
+        37,
+        43,
+        44,
+        45
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 31,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-07/validation.json",
+        "sha256": "955dc04cdc1a527bf8978770fc36c4a5f7f99e8976584f076170907a1e26803d",
+        "bytes": 1447
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-07/verification-completed.json",
+        "sha256": "b6d69924105b9b104c7c3fd10678b029facf7ae87d0cb77733de65a58310a5db",
+        "bytes": 1043
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-07-preserved-work.json",
+        "sha256": "3ef8c9767ee798c07ea4bd4e898778ea42a5d1b9db8ea4c45eed3251c9d0f679",
+        "bytes": 905498
+      },
+      "started_at": "2026-10-22T10:54:36.602519+00:00",
+      "finished_at": "2026-10-22T11:09:31.681367+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include waits andgaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1248,41 +1334,89 @@
     },
     {
       "pdf_page": 38,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0022"
       ],
-      "printed_page": "36",
-      "restoration": "pending"
+      "printed_page": "36"
     },
     {
       "pdf_page": 39,
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0022"
       ],
-      "printed_page": "37",
+      "printed_page": "37"
+    },
+    {
+      "pdf_page": 40,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0022"
+      ],
+      "printed_page": null
+    },
+    {
+      "pdf_page": 41,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0022"
+      ],
+      "printed_page": "39"
+    },
+    {
+      "pdf_page": 42,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0022"
+      ],
+      "printed_page": "40"
+    },
+    {
+      "pdf_page": 43,
+      "classification": "advertisement",
+      "printed_page": null,
+      "evidence": "Independent 희망전자개발 advertisement,no visible folio;outside memory article."
+    },
+    {
+      "pdf_page": 44,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "42",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 45,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "43",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-07",
-    "goal": "Verify actual extent andrestore 얼마만큼의 기억장치가 필요한 것인가? within six mapped pages;segment if longer.",
+    "id": "batch-08",
+    "goal": "Verify actual extent of 통신의 개념 andrestore up to six mapped source pages;segment if longer.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0022"
+      "maso-1985-03-toc-0023"
     ],
-    "mapping_targets": "Openingprinted36/PDF38 andcontinuationprinted37/PDF39 observed;actual end andfollowing article pending inspection. No global offset inferred.",
+    "mapping_targets": "Openingprinted42/PDF44 andcontinuationprinted43/PDF45 observed;actual end andfollowing article pending inspection. No global offset inferred.",
     "provisional_lookup_targets": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
       43,
       44,
-      45
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
     ],
     "limits": {
       "articles": 2,
@@ -1296,8 +1430,9 @@
     "Localized source candidates and punctuation approximations retain original scans.",
     "QA screens retain original pixels with detailed output transcription pending volunteers;thirteen unknown decorative bands and localized source errors remain explicit.",
     "RESTORE retains two explicit prefix-glyph markers andone unknown decorative band;LINE coordinate-gap widths,GC1181 andother candidates remain source-linked. No source code execution certification.",
-    "40 canonical entries lack checked selected packages orfinal heading classification;remaining source-page accounting incomplete.No global folio offset inferred.",
-    "Sprite retains subtitle-mark/ellipsis placeholders,boxed-digit Unicode approximations andB8/BB,C2 candidates. DATA pairs are opaque printed candidates;no sprite bitmap orcode execution certification."
+    "Sprite retains subtitle-mark/ellipsis placeholders,boxed-digit Unicode approximations andB8/BB,C2 candidates. DATA pairs are opaque printed candidates;no sprite bitmap orcode execution certification.",
+    "39 canonical entries lack checked selected packages orfinal heading classification;remaining source-page accounting incomplete.No global folio offset inferred.",
+    "Memory article retains source spelling/grammar,duplicated RAM sentence,매개는/대개는 and피/트백 candidates;source table labels andprose capacities independent.PDF40folio null.No hardware/math/reference certification."
   ],
   "reader_rebuild": false
 }
