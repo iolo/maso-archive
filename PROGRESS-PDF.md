@@ -6,37 +6,31 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March1985 remains in progress:14 of48 entries are readable andassistant
-sample-reviewed,no articles arepartial,two headings are non-owning and32 entries
-remain unresolved. 수치 해석0029 iscomplete acrossactualPDF106–114/visible104–112.
-Its416-file assembly matches the independent rebuild andretains all407 exact
-native files. No numerical-analysis body pages orassembly remain pending.
+March 1985 remains in progress: 14 of 48 entries are readable and assistant
+sample-reviewed, no articles are partial, three headings are non-owning and
+31 entries remain unresolved. 교육입문0024 is now verified as a non-owning group.
+Its five complete children cover 60 distinct body pages: printer PDF52–62,
+MAT64–78, CP/M80–91, BDS-C92–104 and numerical analysis106–114. Their 2,795 selected
+package files remain unchanged. No parent body or divider was invented.
 
-All10,495 activeUTF-8 ranges,21,564 evidence-pin occurrences and122image crops
-verify. All54 supplemental array slices andeight object projections reverse
-exactly tofull native metadata. The complete article retains89blocks/33originals,
-535physical textrows,255code/output rows,156BASIC labels insixprograms,174BIS/FP/
-equivalent-output cells/26headers,fourroots/eightfields,80formula rows,44diagram
-label rows,two coefficient diagrams/47nonblank cells/13blank slots,15actual caption
-links,ninesubparts,both footnotes andthe terminal mark.
+Eleven reused source views confirm the group boundaries and independent
+advertisements on PDF63,79,105. The final numerical-analysis page114 precedes
+the separate special-feature opening115. Existing mixed-page exclusions on
+61,78,104 remain intact; canonical0008's lower61 notice is a separate unresolved
+entry. Canonical identities, titles, order and parent relationships are unchanged.
 
-Seven stage notes are resolved only in active complete scope. Allnative metadata
-and71source candidates/61unknown-count bands remain exact. Source figure5/7 method
-header conflicts,78251716/78251726,1 2stopping condition,Taylor/coefficient glyphs,
-Bairstwo’s andPRINT UNING remain literal. Incoming111그→112림11 isassociated
-without encoded joining orstaged comma insertion. No mathematical/numeric repair.
+All 25,792 prior files, 27 prior inventories, all14 readable packages and30 core
+implementation pins pass. The unchanged213-test environment baseline is reused.
+The new preservation inventory contains25,836 files. Use pinned batch27
+assembly_dispatch.py for allsix completed March private formats. This checkpoint
+used no new mapping, OCR, source correction or article export.
 
-All24,936 prior files,26prior inventories and30core pins pass;unchanged213-test
-batch25 environment baseline reused. Preservation inventory contains25,792files.
-Use pinned batch27 assembly_dispatch.py for allsix completed March private formats.
-This assembly used no new mapping,OCR orsource correction. Immutable natives and
-all failed attempts remain preserved.
-
-Next: verify 교육입문parent0024's non-owning classification andgroup boundaries
-now that allfive children arecomplete. Cover selection,remainingcanonical entries,
-all244-page source accounting andissue closeout remain pending. Canonical0008's
-lowerPDF61 notice eligibility stays unresolved. Human acceptance,fullproofreading,
-source encoded bytes andexecution remain unverified. No reader rebuild.
+Next: inspect canonical0008, 원고 모집 광고, at printed59/PDF61 and its adjacent
+pages. Determine its editorial-notice eligibility from the scan; if eligible,
+restore its own lower panel while preserving the printer package and neighboring
+promotion. Cover selection, remaining entries, all244-page source accounting and
+issue closeout remain pending. Human acceptance, full proofreading, source encoded
+bytes and execution remain unverified. No reader rebuild.
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 

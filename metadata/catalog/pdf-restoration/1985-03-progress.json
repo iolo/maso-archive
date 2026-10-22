@@ -738,12 +738,22 @@
       "toc_entry_id": "maso-1985-03-toc-0024",
       "title": "교육입문",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0024 교육입문 is a pageless organizational heading with exact unchangedchildren0025–0029. Eachchildhas a separate source title and reviewed complete package;source 교육입문 headings are linked to exact active child ranges.",
+        "Fivechildren cover60distinct sourcebodypages:printer52–62,MAT64–78,CP/M80–91,BDS-C92–104,numeric106–114. Theirselectedpackages total2795files and areunchanged. Source63,79,105 areindependentadvertisements,not standaloneparentbodies.",
+        "Previous51 completescommunication;52 opensprinter under교육입문. Source114 endsnumeric withfootnote/terminal;115 opensseparate베이직과기계어의만남(3)feature. All11specified sourceviews inspected;priorindividualchild full-extent reviews remainpinned.",
+        "No standaloneparent body ordivider occurs inthese verified boundaries. Parent owns no bodypages andduplicates nochildtext. Existingmixed-page exclusions on61/78/104 remainexact. Canonical0008lower61 notice isseparately unresolved;thisclassification doesnotdisposeofit."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-28/parent-heading-decision.json",
+        "sha256": "8dd44e84ff363cd2db8704e7defd94d9747a8511a8679861f258cd92a14fcefb",
+        "bytes": 15249
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0025",
@@ -2092,8 +2102,8 @@
     "canonical_entries": 48,
     "readable": 14,
     "partial": 0,
-    "non_owning_headings": 2,
-    "unresolved_eligibility": 32
+    "non_owning_headings": 3,
+    "unresolved_eligibility": 31
   },
   "checkpoints": [
     {
@@ -3314,6 +3324,54 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-28",
+      "status": "complete",
+      "stage": "verified-non-owning-parent",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0024"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        51,
+        52,
+        63,
+        64,
+        79,
+        80,
+        92,
+        105,
+        106,
+        114,
+        115
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "classification": {
+        "path": "archive/pdf/1985-03/restoration/batch-28/parent-heading-decision.json",
+        "sha256": "8dd44e84ff363cd2db8704e7defd94d9747a8511a8679861f258cd92a14fcefb",
+        "bytes": 15249
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-28/validation.json",
+        "sha256": "f381668fe8f8aaab7f17d5e934c7918b503396a856f4c06447639a6da7a46aae",
+        "bytes": 1256
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-28/verification-completed.json",
+        "sha256": "39e065c80b243b7bb7c00906aa6d7210289ffbbddf4b12a2454da8c1043f5084",
+        "bytes": 1342
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-28-preserved-work.json",
+        "sha256": "588875abd104387380d2d32749f47d953b42988cfb290653bbf07e4d2b1e61d1",
+        "bytes": 5752194
+      },
+      "started_at": "2026-10-22T18:52:14.566739+00:00",
+      "finished_at": "2026-10-22T18:57:45.563507+00:00",
+      "timing_scope": "Wallclockincludeswaits/gaps;activehuman effortunmeasured."
     }
   ],
   "source_page_observations": [
@@ -3701,10 +3759,15 @@
     },
     {
       "pdf_page": 63,
-      "classification": "advertisement-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
       "printed_page": null,
-      "restoration": "outsidecanonicalbody;accountingpending"
+      "restoration": "outside-canonical-body;source-reviewed",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-28/source-reviewed.json",
+        "sha256": "8c8563c5d1b6ea211c15dca3e0b620de910f151d0aef998a8e4a3e4fcaa4cee8",
+        "bytes": 2725
+      }
     },
     {
       "pdf_page": 64,
@@ -3852,11 +3915,16 @@
     },
     {
       "pdf_page": 79,
-      "classification": "advertisement-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
       "printed_page": null,
-      "restoration": "outsidecanonicalbody;accountingpending",
-      "notes": "Independent常進電算advertisement."
+      "restoration": "outside-canonical-body;source-reviewed",
+      "notes": "Independent常進電算advertisement.",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-28/source-reviewed.json",
+        "sha256": "8c8563c5d1b6ea211c15dca3e0b620de910f151d0aef998a8e4a3e4fcaa4cee8",
+        "bytes": 2725
+      }
     },
     {
       "pdf_page": 80,
@@ -4215,11 +4283,11 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "printed_page": null,
-      "restoration": "observed;not-restored",
+      "restoration": "outside-canonical-body;source-reviewed",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-21/source-reviewed.json",
-        "sha256": "ae1a99e00c2749552585a5e3dd1f768034032f92967c5b613bdcc0ee9b99cc24",
-        "bytes": 2731
+        "path": "archive/pdf/1985-03/restoration/batch-28/source-reviewed.json",
+        "sha256": "8c8563c5d1b6ea211c15dca3e0b620de910f151d0aef998a8e4a3e4fcaa4cee8",
+        "bytes": 2725
       },
       "notes": "Independent Daeeun computer-book advertisement between BDS-C ending and 수치 해석 opening;no BDS-C continuation."
     },
@@ -4366,24 +4434,16 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-28",
-    "goal": "Verify 교육입문parent0024 asnon-owning organizationalheading afterallfivecanonicalchildrencomplete;reviewsourcegroupboundaries andinterveningseparators.",
+    "id": "batch-29",
+    "goal": "Verifycanonical0008원고모집광고 atprinted59/PDF61 lowernotice;restoreeligibleeditorialcallpanel aftersourceclassification.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0024"
+      "maso-1985-03-toc-0008"
     ],
-    "mapping_targets": "Oneclassification/accountingtask,zero newbodymapping/OCRunlesssourceevidencerequiresseparatelyauthorizedboundedcheckpoint. Verifyunchangedcanonicalparent/children0025–0029 andall5completechildmanifests/scopes. Inspectexistingwholeviews aroundcommunication51/printer52,independentseparator63/MAT64,separator79/CPM80,BDS92,advertisement105/numeric106,andnumericending114/nextfeature115. Priorchildfullsourceextentandmixedpageexclusionsremainpinned. Determinewhetherparenthasseparatebodyorexclusivelyorganizesfivechildren;nevercopychildbodyintoparent. Canonical0008lowerPDF61noticeeligibilitystaysunresolvedandvisible;do notsilentlyexclude bytitle. Preserveallcompletechildpackages/metadata. Cover,remainingcanonicalentries,all244sourcepageaccounting andissuecloseoutpending.",
+    "mapping_targets": "InspectfullPDF60/61/62 toverifyactualnoticeextent andadjacentprinterbody;TOC59lookupnotglobaloffset. Canonical0008isnotexcludedmerelybytitle광고. Determinewhetherlower-rightpublishercallforcontributionsiscorrespondingcanonicaleditorialnoticeorcommercialadvertising. Ifeligible,restoreonlyitsownboundedpanelwithsourceheadline,allprose/categories/terms/contact/footer andoriginalpanelpixels. Excludeupperprinterbodyandlower-leftbackissuepromotion. Existingprintermap/exclusionsandall741printerfilesstayimmutable;proveincludedregionsdisjointfromnewnoticebody. No newparent0003classificationuntilitsremainingchildrencomplete. KeepcanonicalIDs/titles/parentsunchanged. Cover,remainingentries,all244sourcepageaccountingandissuecloseoutpending.",
     "provisional_lookup_targets": [
-      51,
-      52,
-      63,
-      64,
-      79,
-      80,
-      92,
-      105,
-      106,
-      114,
-      115
+      60,
+      61,
+      62
     ],
     "limits": {
       "articles": 2,
@@ -4424,8 +4484,9 @@
     "Batch25 lexicalindexrevision fixes quote-adjacenteditorial-marker filtering only;allregionalreadings/maps/crops/raws/blocks/downloads unchanged. Failedverifier,initial/selected270-fileexports andindependentrebuilds remainpreserved.",
     "Finalnumericnative preservesTaylor r+ds/d_n/2b glyphcandidates,coefficientrepetitions/subscripts/r-on-xsrow,Bairstwo’s/PRINT UNING,all21BIS/FPoutputrows/84cells,fourroots,andbothfootnotes;none recomputed,repairedorexecuted. Incominggr/림11 associationkeepspriorstagedcomma outofactualtext.",
     "Usepinnedbatch27assembly_dispatch forall6completedMarchprivateformats inissueJSON/assets exports. Native-stageflags/noteshistorical;complete numericactive scopehasnodeferredbodypagesorassemblypending.",
-    "32 canonical entries remainunresolved. Numeric,BDS-C,CP/M,MAT,printerandcommunicationcomplete. Parent0024requiresgroupboundary/non-owningclassificationchecks;cover,all244sourcepageaccountingandissuecloseoutpending.",
-    "Completenumeric retains407exactnativefiles/fullmetadata;54supplementalarrayslices/eightobjectprojections reverseexactly. All71candidates/61unknownbands,formula/coefficient/numeric/codefields andsourcefigure5/7methodconflictsremainliteral. Incoming111그/112림11 association hasnoencodedjoin orstagedcommainsertion."
+    "Completenumeric retains407exactnativefiles/fullmetadata;54supplementalarrayslices/eightobjectprojections reverseexactly. All71candidates/61unknownbands,formula/coefficient/numeric/codefields andsourcefigure5/7methodconflictsremainliteral. Incoming111그/112림11 association hasnoencodedjoin orstagedcommainsertion.",
+    "31 canonical entries remainunresolved. Parent0024교육입문 isnon-owning;allfivechildrencomplete,60bodypages/2795packagefiles. No duplicatedparentbody/divider. Canonical0008lowerPDF61noticeeligibilityseparateandunresolved;nextboundedcheckpointwillinspectcontent.",
+    "All14readablepackages andsixprivateformatschecked;parentclassificationchangesnochildbytes,canonicalidentities,titles,parentsororder. Coverselection,remainingcanonicalentries,all244sourcepageaccountingandissuecloseoutpending."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

@@ -19,21 +19,19 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:14readable/sample-reviewed,nopartial,twonon-owning,32unresolved.
-  Numeric0029 complete106–114/104–112:416files matchrebuild,including407exactnatives.
-  All10,495active ranges/21,564pins/122images and54arrayslices/eightobjectprojections
-  verify. Retains89blocks/33originals,255code-outputrows,156BASIClabels/sixprograms,
-  174outputcells/26headers,fourroots/eightfields,80formulas,44diagramlabelrows,two
-  coefficientdiagrams/47cells/13blanks,15captions/ninesubparts,bothnotes/terminal.
-  Sevenstagenotes resolvedonlyinactive scope;nativemetadataexact. All71candidates/
-  61unknownbands remainliteral. Incoming111그/112림11 association hasnoencodedjoin
-  orstagedcomma. All24,936priorfiles/26inventories/30corepins pass;batch25fresh213-test
-  baseline reused. Newinventory25,792files. Usepinnedbatch27assembly_dispatch.py for
-  all6completedMarchprivateformats. Nonewmapping/OCR/sourcecorrection forassembly.
-  Next:parent0024group-boundary/non-owningclassificationcheck;allfivechildrencomplete.
-  Cover,remainingentries,244-pageaccounting andissuecloseout pending;canonical0008
-  lowerPDF61notice eligibilitystillunresolved. Follow [March log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:14 readable/sample-reviewed, no partial articles, three non-owning
+  headings and31 unresolved. 교육입문0024 is verified non-owning: five complete
+  children cover60 body pages and2,795 selected package files, all unchanged.
+  Eleven reused views confirm boundaries/advertising separators63,79,105 and
+  numeric ending114 before separate feature115. No parent body or divider.
+  All25,792 prior files/27 inventories/14 readable packages/30 core pins pass;
+  unchanged213-test baseline reused. Inventory25,836 files. Use pinned batch27
+  assembly_dispatch.py for allsix private formats. No mapping/OCR/correction/export.
+  Next: source classification and eligible panel restoration of canonical0008,
+  원고 모집 광고, printed59/PDF61. Preserve printer package and separate promotion;
+  do not exclude by title alone. Cover, remaining entries,244-page accounting and
+  issue closeout pending. Follow [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
