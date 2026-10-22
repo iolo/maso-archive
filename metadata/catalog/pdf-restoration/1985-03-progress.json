@@ -893,12 +893,76 @@
       "toc_entry_id": "maso-1985-03-toc-0010",
       "title": "디버깅 룸",
       "parent_id": "maso-1985-03-toc-0003",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0010 디버깅 룸 has TOC147. Actual boxed lowerPDF150/visible148 title and intro identify February issue corrections; canonical identity/title/TOC reference unchanged.",
+        "Full149/150/151 inspected before mapping.149 is news;upper150 concludes news with terminal;lower150 complete framed debugging notice has title,intro,five-column header andsix correction rows.151 opens different 난수.난수.난수 course. No debugging body continuation or assembly remains.",
+        "Current panel exactly matches immutable news map separate-debugging-room exclusion. All included nonfigure regions must be disjoint from news regions. Whole panel and148folio remain original;news body/upper terminal excluded.",
+        "Every correction is a historical printed claim. Keep source BL.../BLOAD,CAS,asterisk deletion,SOUND#SAVE INPUT,IC3 model/arrow/pin fields,Boomerang andLOCATE text literal;do not apply corrections to other restored articles or infer intended commands."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-38-r01/debugging",
+        "article_id": "scan-maso-1985-03-toc-0010",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-38-r01/debugging/manifest.json",
+          "sha256": "a19590b6849912a18eb50b52bcda21a427ebe0f022ff06978d1db014b4d678ae",
+          "bytes": 7746
+        },
+        "coverage": {
+          "pdf_pages": [
+            150
+          ],
+          "printed_pages": [
+            "148"
+          ],
+          "regions": 12,
+          "blocks": 9,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-38/validation.json",
+          "sha256": "0381855d1790dfe7b62d57ae0e0025255fafd1e1f033115ec9d32093162afc5d",
+          "bytes": 1622
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-38/reproduction.json",
+          "sha256": "e25a02b6194432198368590b6db390d3330a8913390fd8305200d2be5c7bbf26",
+          "bytes": 1447
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-38/source-reviewed.json",
+          "sha256": "b58cbeafe59fcf5c7e76fbc35112c9fb43c2d6053db394d7c10aa718faf42333",
+          "bytes": 1517
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-38-r01/debugging/corrections.json",
+            "sha256": "e8998cfac95c0ae4dfb392fa08a31ea429024af207dfaa284c0c5d30e878da40",
+            "bytes": 144251
+          },
+          "field": "source_ending"
+        },
+        "shared_page_ownership": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-38-r01/debugging/corrections.json",
+            "sha256": "e8998cfac95c0ae4dfb392fa08a31ea429024af207dfaa284c0c5d30e878da40",
+            "bytes": 144251
+          },
+          "field": "shared_page_ownership"
+        },
+        "source_correction_claims": "Six historical printed claims,not tested/applied;all target references unverified."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-38/previous-ledger.json",
+        "sha256": "8ace5846f1f3c4c591eb6d3dc027935e095014a15a3ed1bd4cd470df691f0b1d",
+        "bytes": 224446
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0011",
@@ -2713,10 +2777,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 18,
+    "readable": 19,
     "partial": 0,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 27
+    "unresolved_eligibility": 26
   },
   "checkpoints": [
     {
@@ -4415,6 +4479,49 @@
       "pre_OCR_text_crop_repairs": 1,
       "post_OCR_original_image_repairs": 1,
       "recognition_reused_without_rerun": 22
+    },
+    {
+      "id": "batch-38",
+      "status": "complete",
+      "stage": "validated-complete-debugging-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0010"
+      ],
+      "mapped_pdf_pages": [
+        150
+      ],
+      "outside_map_lookup_pages": [
+        149,
+        151
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 9,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 9,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-38/validation.json",
+        "sha256": "0381855d1790dfe7b62d57ae0e0025255fafd1e1f033115ec9d32093162afc5d",
+        "bytes": 1622
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-38/verification-completed.json",
+        "sha256": "7e9ad8958f81e1bb40a963e69a24f94467d3633f769c6ea9b880e219c7e4feff",
+        "bytes": 1245
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-38-preserved-work.json",
+        "sha256": "df1b4d1eacd318f6d66cd04986a778b6c09048f96e2457b0dbe0eda8ca24e762",
+        "bytes": 7229389
+      },
+      "started_at": "2026-10-22T21:40:49.990466+00:00",
+      "finished_at": "2026-10-22T21:47:32.611778+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false,
+      "pre_OCR_crop_repair_rounds": 1,
+      "crops_widened": 2
     }
   ],
   "source_page_observations": [
@@ -5951,18 +6058,24 @@
     },
     {
       "pdf_page": 150,
-      "classification": "shared-news-and-separate-debugging-panel",
+      "classification": "shared-canonical-article-bodies",
       "toc_entry_ids": [
         "maso-1985-03-toc-0009",
         "maso-1985-03-toc-0010"
       ],
       "printed_page": "148",
-      "restoration": "checked-complete-news;lower-debugging-panel-pending",
+      "restoration": "checked-complete-news-and-debugging;nonfigure-regions-disjoint",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
         "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
         "bytes": 2170
-      }
+      },
+      "debugging_source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-38/source-reviewed.json",
+        "sha256": "b58cbeafe59fcf5c7e76fbc35112c9fb43c2d6053db394d7c10aa718faf42333",
+        "bytes": 1517
+      },
+      "nonfigure_news_debugging_pairs_disjoint": 36
     },
     {
       "pdf_page": 151,
@@ -6015,16 +6128,23 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-38",
-    "goal": "Restore canonical0010 디버깅 룸, complete boxed lower panel onPDF150/visible148, after reconfirming adjacent149/151.",
+    "id": "batch-39",
+    "goal": "Verify canonical0011 복덕방 actual full extent,ending and neighbors from TOC232 lookup cue,then restore eligible classified body within limits.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0010"
+      "maso-1985-03-toc-0011"
     ],
-    "mapping_targets": "Reuse verified saved whole149/150/151 from batch37; inspect before mapping. Actual lower150 boxed 디버깅 룸 has title,intro and six-row/five-column correction table. Canonical TOC147 stays unchanged; actual observed148. Upper150 news0009 is complete and must remain byte-exact; all included nonfigure debugging regions must be disjoint from news regions. Preserve original panel,grid,all headers/cells/literal before→after claims,printed arrow/IC diagram and code/identifier/number glyphs; no applying historical corrections or repairing source spelling/technical content. Body entirely within lower box;151 distinct course opening. At most six mapped pages/two tasks/twenty outside lookups. Parent0003 remains unresolved until classifieds0011 and group boundaries checked. Cover,remaining entries,244-page accounting and full issue closeout pending. No reader rebuild.",
+    "mapping_targets": "TOC232 is a lookup cue,not a PDF page/global offset. Inspect initial PDF230–239 whole views;extend only within20 outside-map lookups if actual ending is not established. Verify title/all continuous pages/final category/contact/terminal and adjacent material before mapping. Map at most six pages/two tasks. Accepted original-image classifieds policy permits complete original offer/contact bodies with searchable title/category headings;record volunteer body transcription explicitly. Preserve all original offers/prices/contact pixels and cross-page item-to-contact continuations;do not infer source item counts or historical/current identities. If full extent exceeds cap,retain extent proof and segment separately. Parent0003 requires remaining child0011/group boundary review;cover,remaining entries,244-page accounting and issue closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      149,
-      150,
-      151
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
     ],
     "limits": {
       "articles": 2,
@@ -6078,8 +6198,9 @@
     "FinalIOCS retains313numberedsource rows/320physicalrows/sevenwrappedobjectrows/544opaquehexpairs/fivequotedmessages/fourtrailingspacecandidates/25sourcevariants. No decoding,address arithmetic,syntaxrepair orencoded-spacecertification. Actualending0606RET/0607semicolon/terminal verified. Three codecropswidenedbeforeOCR;initialmap/cropspreserved.",
     "Use pinned batch36 assembly_dispatch for all eight March private formats in JSON/assets issue exports. Historical native notes/flags stay exact; complete IOCS active scope has no deferred pages or assembly pending.",
     "Complete IOCS retains403 exact native files/full metadata,87 supplemental category slices and14 object projections. All101 candidates/13 unknown bands remain; four trailing-space candidates and printed hex stay independent. No decoding, address arithmetic, symbol resolution or encoded-space certification.",
-    "27 canonical entries remain unresolved. News0009 complete148–150 with accepted original-image body plus22 searchable headings; nine stories/twelve body fragments/three image continuations. Body prose volunteer transcription remains pending. Separate lower150 debugging0010 next;parent0003/cover/remaining entries/244-page accounting/closeout pending.",
-    "Batch37 retains initial/revised maps/crops and22 original OCR outcomes. Pre-OCR running-label left edge widened; post-OCR original-image bottom widened to retain price-report line. All22 text crops and raw/TSV bytes unchanged; derived current-map settings explicitly pin original inference settings. No inference rerun or hidden provenance replacement."
+    "Batch37 retains initial/revised maps/crops and22 original OCR outcomes. Pre-OCR running-label left edge widened; post-OCR original-image bottom widened to retain price-report line. All22 text crops and raw/TSV bytes unchanged; derived current-map settings explicitly pin original inference settings. No inference rerun or hidden provenance replacement.",
+    "26 canonical entries remain unresolved. Debugging0010 complete lower150/observed148 with five headers/thirty cells/six correction claims/six diagram-label candidates. Actual panel shares150 with completed news;all36 nonfigure pairs disjoint and100 news files exact. Classifieds0011 next;parent0003/cover/remaining entries/244-page accounting/closeout pending.",
+    "Printed BLPAD,IC₃74L05→78L05,Q A,윗쪽,circled7/#,source cell wraps and LOCATE claim remain literal. Row4 title 애플쿨러 middle vowel 쿨/콜 explicitly uncertain;full source/focus retained. Diagram outlines/arrows original pixels;no circuit/command/encoding repair or applying historical corrections."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

@@ -19,26 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:18 readable/sample-reviewed, no partial articles, three non-owning
-  headings and27 unresolved. News0009 complete148–150/observed146–148; canonical
-  TOC145 unchanged. packages/batch-37-r01/news:100 files match rebuild;26 regions/
-  22 searchable headings/four originals retain nine stories,twelve body-image
-  fragments/three continuations. Complete original news body prose awaits
-  volunteers under accepted policy. No invented byline/captions or historical
-  claims. Lower150 boxed debugging0010 is excluded. Eleven views/three mapped/
-  eight outside/one task;22 kor+eng drafts read before one source pass. One
-  pre-OCR running-label edge repair; one post-OCR original-image bottom repair
-  retains final price-report line. Initial maps/crops/outcomes remain. All22 text
-  crops/raws/TSVs exact; derived current-map settings explicitly pin original
-  inference settings. No new inference/failure/retry. All157 ranges/252 pins/
-  26 image pixels pass. All31,527 prior files/36 inventories/17 earlier packages/
-  30 core pins/eight formats pass; unchanged fresh213-test batch36 baseline reused.
-  Inventory32,148 files. Use pinned batch36 dispatcher for eight private formats.
-  IOCS0002 remains complete125–139;403 exact natives/412 assembled files retained.
-  Next:0010 lower150 debugging box,saved149/150/151 boundaries,six-row/five-column
-  table and arrow/IC diagram;nonfigure regions disjoint from news. Parent0003,
-  cover,remaining entries,244-page accounting and closeout pending. Follow
-  [March log](docs/progress/8503.md) and
+- March1985:19 readable/sample-reviewed,no partial articles,three non-owning
+  headings and26 unresolved. Debugging0010 complete lower150/observed148;
+  canonical TOC147 unchanged. packages/batch-38-r01/debugging:47 files match
+  rebuild;12 regions/nine blocks/three originals retain five headers/thirty
+  cells/six rows/six correction claims/six diagram-label candidates. Original
+  panel/grid/gate-arrow detail/folio retained;no invented byline/captions.
+  Printed BLPAD,IC₃74L05→78L05,Q A,윗쪽,circled7/#,cell wraps andLOCATE claim
+  stay literal. Row4 애플쿨러 middle vowel 쿨/콜 explicitly uncertain;source focus
+  retained. No correction applied,target reference verified or circuit repaired.
+  Three reused views/one mapped/two outside/one task;12 selected crops viewed
+  before nine kor+eng tasks;all drafts read before one pass. One pre-OCR crop
+  round widens row4/detail;originals remain. No failure/retry/engine change.
+  All232 ranges/275 pins/12 image pixels/36 disjoint news text pairs pass;
+  all100 news files exact. All32,148 prior files/37 inventories/18 prior packages/
+  30 core pins/eight formats pass;unchanged fresh213-test batch36 baseline reused.
+  Inventory32,376 files. Use pinned batch36 dispatcher. News0009 body prose
+  volunteer transcription remains explicit;IOCS0002 complete125–139 unchanged.
+  Next:0011 복덕방 full extent/ending/neighbors from initial PDF230–239 views;
+  TOC232 only a cue. Parent0003,cover,remaining entries,244-page accounting and
+  closeout pending. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

@@ -24,54 +24,50 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 18 of 48 entries are readable and assistant
+March 1985 remains in progress: 19 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, three headings are non-owning, and
-27 entries remain unresolved. Canonical0009, 정보 레이다, is complete across
-actual PDF148–150, observed folios146–148. Canonical TOC145 stays unchanged.
-The separate boxed 디버깅 룸 on lower150 remains unresolved and is next.
+26 entries remain unresolved. Canonical0010, 디버깅 룸, is complete in the boxed
+lower panel of PDF150, observed folio148. Canonical TOC147 stays unchanged.
+Upper150 belongs to completed 정보 레이다0009; all36 pairs of their nonfigure
+regions are disjoint, and all100 news files remain exact.
 
-The news package at packages/batch-37-r01/news matches its independent rebuild
-across100 files. Twenty-six regions,22 searchable heading/kicker/title blocks
-and four original images retain nine ordered stories, twelve body-image fragments
-and three continuations. Union149 left→right, education149→150 and final price
-report150 left→right remain source-linked without encoded joins. The source
-정보화시/대에 split remains physical. All original news pixels, including the
-final terminal mark, are retained; lower debugging content is excluded.
+The debugging package at packages/batch-38-r01/debugging matches its independent
+rebuild across47 files. Twelve regions,nine text blocks andthree originals retain
+the title,intro,five-column header,six rows/thirty cells,six printed correction
+claims andsix original diagram-label candidates. Complete panel/grid,gate/arrow
+detail and148folio remain pixels. No body pages or assembly are pending.
 
-News body prose remains in readable original images with volunteer transcription
-pending under the accepted news policy. Searchable headlines do not certify
-corrected body prose or historical/company/product/education/price claims.
-Original spelling,1984/103/1990,MDS,휴렛 팩커드,인테그럴 and title 사이보그—M
-remain literal candidates. The body product-name occurrence stays independent.
-No article byline or figure captions are invented.
+Source BLPAD,IC₃74L05→78L05,Q A,윗쪽,circled7/#,SOUND#SAVE INPUT,physical cell
+wraps,Boomerang and2500 LOCATE 5,16 remain literal. Diagram35/37 labels stay
+independent from outline/arrow geometry. Row4 title 애플쿨러 is a Unicode candidate
+with middle vowel 쿨/콜 explicitly uncertain; its exact source focus remains.
+Six target page/line references are not verified. No historical correction is
+applied, tested or used to repair a command, circuit, spelling or other package.
 
-Eleven whole views, three mapped pages, eight outside lookups and one canonical
-task meet the limits. All22 heading drafts were read before one source pass.
-One running-label crop was widened before OCR. After OCR, original-image review
-caught a clipped final body line; the image was widened and inspected before
-correction/export. All22 text crops/raws/TSVs remain exact. Derived current-map
-settings explicitly pin original inference settings; zero additional inference,
-failures or retries. Initial maps, crops, settings and all outcomes remain.
+Three reused whole views,one mapped page,two outside lookups andone task meet
+the limits. All12 selected crops were viewed before nine pinned kor+eng tasks;
+all nine drafts were read before one source pass. One pre-OCR revision widened
+the diagram and its row crop to retain the outline; initial maps/crops remain.
+No OCR failure,retry or engine change. Source-direct readings retain successful
+OCR omissions without inference reruns. No invented byline or figure captions.
 
-All157 exact UTF-8 ranges,252 evidence pins and26 original image crops pass.
-All31,527 prior files,36 inventories,17 prior readable packages and30 core pins
-pass. The fresh213-test batch36 environment baseline is reused unchanged.
-Preservation inventory contains32,148 files. Use pinned batch36
+All232 exact UTF-8 ranges,275 evidence pins and12 image pixel comparisons pass.
+All32,148 prior files,37 inventories,18 earlier readable packages and30 core pins
+pass. The unchanged fresh213-test batch36 environment baseline is reused.
+Preservation inventory contains32,376 files. Use pinned batch36
 assembly_dispatch.py for all eight private formats. No reader rebuild.
 
-IOCS0002 remains complete across125–139:412 assembled files match rebuild,
-including403 exact natives/full metadata,127 regions/83 blocks/44 originals.
-All608 numbered/615 physical assembly rows,1,030 opaque hex pairs,72 BASIC labels,
-tables/diagrams/captions,101 candidates/13 unknown bands and actual0606 RET/
-0607 semicolon/terminal remain. Opening125 folio stays null. No decoding/repair.
+News0009 remains complete148–150:100 files,22 searchable headings,nine stories,
+twelve original body fragments andthree continuations. News body prose awaits
+volunteer transcription under the accepted original-image policy. IOCS0002 stays
+complete125–139 with403 exact natives/412 assembled files;125folio remains null.
 
-Next: restore canonical0010 디버깅 룸's complete lower-PDF150/visible148 panel,
-reusing whole149/150/151 boundary evidence. Preserve its six-row/five-column
-correction table, original grid and printed arrow/IC diagram, with nonfigure
-regions disjoint from news. Parent0003, cover selection, remaining entries,
-all244-page accounting and issue closeout remain pending. Human acceptance,
-full proofreading, original encoded bytes/spacing and historical claims remain
-unverified.
+Next: verify canonical0011 복덕방's full actual extent,ending and neighbors,
+then restore its eligible classified body. TOC232 is only a lookup cue; initial
+PDF230–239 whole views require verification before mapping. Parent0003,cover
+selection,remaining entries,all244-page accounting and issue closeout remain
+pending. Human acceptance,full proofreading,original encoded bytes/spacing and
+historical claims remain unverified.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
