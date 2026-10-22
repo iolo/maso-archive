@@ -592,12 +592,102 @@
       "toc_entry_id": "maso-1985-03-toc-0023",
       "title": "통신의 개념",
       "parent_id": "maso-1985-03-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "통신의 개념 opensprinted42/PDF44;every pagePDF44–51 belongs tothis article,endingwith terminal markprinted49/PDF51. FollowingPDF52/printed50 opens프린터 활용방법;PDF53/printed51 continues it. PreviousPDF43 is an independent advertisement.",
+        "Full extent is eight pages,printed42–49/PDF44–51. Current first segment is printed42–47/PDF44–49;six mapped pages. FinalPDF50–51 andcomplete assembly are deferred,not readable-complete.",
+        "One canonical task,six mapped pages,five outside-map lookups(43,50,51,52,53);all eleven initial views inspected. No global folio offset inferred.",
+        "Prose read each page left→right;separate insets andpullquote retained independently of repeated body text. Main echo prose continues fromPDF47 to49 across figure-onlyPDF48.",
+        "Four original diagrams retain their separately source-read captions/labels. No source code,signal,hardware orhistorical claims repaired.",
+        "Incoming final parity prose onPDF50 continues the source phrase100% 믿을만 atendPDF49;do not infer/de-duplicate unseen selected body."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-08-r01/communication-a",
+        "article_id": "scan-maso-1985-03-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-08-r01/communication-a/manifest.json",
+          "sha256": "fe6f64aadf77c53c3d767de89e8ded6f05ea3908e18c2bb846e01222a891fb80",
+          "bytes": 23513
+        },
+        "coverage": {
+          "pdf_pages": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "printed_pages": [
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47"
+          ],
+          "full_pdf_pages": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "deferred_pdf_pages": [
+            50,
+            51
+          ],
+          "regions": 41,
+          "blocks": 31,
+          "figures": 10
+        },
+        "segments": [
+          {
+            "id": "communication-a",
+            "directory": "archive/pdf/1985-03/packages/batch-08-r01/communication-a",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-08-r01/communication-a/manifest.json",
+              "sha256": "fe6f64aadf77c53c3d767de89e8ded6f05ea3908e18c2bb846e01222a891fb80",
+              "bytes": 23513
+            },
+            "pdf_pages": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "printed_pages": [
+              "42",
+              "43",
+              "44",
+              "45",
+              "46",
+              "47"
+            ],
+            "availability": "partial"
+          }
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-08/validation.json",
+          "sha256": "a24d1d895f8de30b68579a6b3a5f8fbc36f8abe628e25159e5dc02591cbde33b",
+          "bytes": 1644
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-08/reproduction.json",
+          "sha256": "78ce8a906184d37256683dafbbfd3cda3be910b317975f3173497c717a57d8e7",
+          "bytes": 1343
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0024",
@@ -878,9 +968,9 @@
   "totals": {
     "canonical_entries": 48,
     "readable": 8,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 1,
-    "unresolved_eligibility": 39
+    "unresolved_eligibility": 38
   },
   "checkpoints": [
     {
@@ -1169,6 +1259,56 @@
       "started_at": "2026-10-22T10:54:36.602519+00:00",
       "finished_at": "2026-10-22T11:09:31.681367+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include waits andgaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-08",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "mapped_pdf_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "outside_map_lookup_pages": [
+        43,
+        50,
+        51,
+        52,
+        53
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 31,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-08/validation.json",
+        "sha256": "a24d1d895f8de30b68579a6b3a5f8fbc36f8abe628e25159e5dc02591cbde33b",
+        "bytes": 1644
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-08/verification-completed.json",
+        "sha256": "5fd3a07cb5a299ddbf194dfdca6b317bc0a7f51d1534994bbff8c3e7cb8cb994",
+        "bytes": 1124
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-08-preserved-work.json",
+        "sha256": "54ee898bc144445a26cf7ad0968bba30e989ba7bb485fb69abf3ff048397d348",
+        "bytes": 1049846
+      },
+      "started_at": "2026-10-22T11:13:58.353824+00:00",
+      "finished_at": "2026-10-22T11:35:55.827423+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include waits andgaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [
+        50,
+        51
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -1380,43 +1520,108 @@
     },
     {
       "pdf_page": 44,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0023"
       ],
       "printed_page": "42",
-      "restoration": "pending"
+      "restoration": "checked-first-native;fullarticle-partial"
     },
     {
       "pdf_page": 45,
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0023"
       ],
       "printed_page": "43",
+      "restoration": "checked-first-native;fullarticle-partial"
+    },
+    {
+      "pdf_page": 46,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "44",
+      "restoration": "checked-first-native;fullarticle-partial"
+    },
+    {
+      "pdf_page": 47,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "45",
+      "restoration": "checked-first-native;fullarticle-partial"
+    },
+    {
+      "pdf_page": 48,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "46",
+      "restoration": "checked-first-native;fullarticle-partial"
+    },
+    {
+      "pdf_page": 49,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "47",
+      "restoration": "checked-first-native;fullarticle-partial"
+    },
+    {
+      "pdf_page": 50,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "48",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 51,
+      "classification": "article-ending-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0023"
+      ],
+      "printed_page": "49",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 52,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0025"
+      ],
+      "printed_page": "50",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 53,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0025"
+      ],
+      "printed_page": "51",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-08",
-    "goal": "Verify actual extent of 통신의 개념 andrestore up to six mapped source pages;segment if longer.",
+    "id": "batch-09",
+    "goal": "Restore finalprinted48–49/PDF50–51 of통신의 개념;preserve firstnative andvalidate incoming100%믿을만 continuation. Complete article assembly follows separately.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0023"
     ],
-    "mapping_targets": "Openingprinted42/PDF44 andcontinuationprinted43/PDF45 observed;actual end andfollowing article pending inspection. No global offset inferred.",
+    "mapping_targets": "FinalbodyPDF50–51,followingprinterPDF52 andallarticleextent44–51 alreadyviewed;firstnativePDF44–49 validated. Reuse unchanged source views;no wholearticle readable promotion before assembly.",
     "provisional_lookup_targets": [
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
       49,
       50,
       51,
-      52,
-      53
+      52
     ],
     "limits": {
       "articles": 2,
@@ -1431,8 +1636,9 @@
     "QA screens retain original pixels with detailed output transcription pending volunteers;thirteen unknown decorative bands and localized source errors remain explicit.",
     "RESTORE retains two explicit prefix-glyph markers andone unknown decorative band;LINE coordinate-gap widths,GC1181 andother candidates remain source-linked. No source code execution certification.",
     "Sprite retains subtitle-mark/ellipsis placeholders,boxed-digit Unicode approximations andB8/BB,C2 candidates. DATA pairs are opaque printed candidates;no sprite bitmap orcode execution certification.",
-    "39 canonical entries lack checked selected packages orfinal heading classification;remaining source-page accounting incomplete.No global folio offset inferred.",
-    "Memory article retains source spelling/grammar,duplicated RAM sentence,매개는/대개는 and피/트백 candidates;source table labels andprose capacities independent.PDF40folio null.No hardware/math/reference certification."
+    "Memory article retains source spelling/grammar,duplicated RAM sentence,매개는/대개는 and피/트백 candidates;source table labels andprose capacities independent.PDF40folio null.No hardware/math/reference certification.",
+    "38 canonical entries lack finalclassification/restoration;communication article is partial withfinalPDF50–51 andassembly pending.Remaining source-page accounting incomplete.No global folio offset inferred.",
+    "Communication firstnative preserves sourceVM/VH370,회신,충분하는데,그/진수0,롬/램 andother literal candidates;fourdiagram originals and33 labels retained.No technical/reference/encoding certification."
   ],
   "reader_rebuild": false
 }

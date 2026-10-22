@@ -7,15 +7,16 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 is in progress: eight of 48 entries are readable and assistant
-sample-reviewed, tips is a non-owning heading and 39 remain unresolved. The memory
-article covers PDF38–42; visible folios36,37,39,40 are recorded and PDF40 remains
-null. Batch07's 139 files match its independent rebuild; 3,177 exact UTF-8 ranges
-and 3,291 evidence pins validate. All 3,589 prior inventory files and 30 core
-implementation pins remain exact. The unchanged pipeline reuses batch06's passing
-213-test baseline. Next: verify canonical0023 통신의 개념 from printed42/PDF44,
-including its actual end; printed43/PDF45 continuation is observed. Reuse PDF43–45
-within normal limits and segment if needed. Cover selection, source-page accounting
-and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
+sample-reviewed, tips is non-owning, communication is partial and38 entries
+remain unresolved. Batch08 restores its first printed42–47/PDF44–49 native;
+full extent42–49/PDF44–51 is verified. FinalPDF50–51 andcomplete assembly remain
+pending. All142 native files match the independent rebuild;2,965 exact UTF-8
+ranges and3,112 pins validate. All4,212 prior files and30 implementation pins
+remain exact;the unchanged pipeline reuses batch06's passing213-test baseline.
+Next: restore finalprinted48–49/PDF50–51 andincoming100%믿을만 continuation;
+then assemble separately before readable promotion. Reuse PDF49–52 within normal
+limits. Cover selection,source-page accounting andissue closeout remain pending.
+See [March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56

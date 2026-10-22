@@ -20,16 +20,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March 1985 is in progress: eight of 48 entries are readable/sample-reviewed,
-  tips is a non-owning heading and 39 remain unresolved. The memory article is
-  complete across PDF38–42; visible folios36,37,39,40 are recorded and PDF40 stays
-  null. Batch07's 139 files match its independent rebuild; 3,177 exact UTF-8 ranges
-  and 3,291 evidence pins validate. All 3,589 prior files and 30 implementation pins
-  remain exact. The unchanged pipeline reuses batch06's passing 213-test baseline.
-  Next: verify canonical0023 통신의 개념 from printed42/PDF44; printed43/PDF45
-  continuation is observed. Reuse PDF43–45; retain two tasks/six mapped pages/twenty
-  outside lookups and segment if needed. Cover selection, source-page accounting
-  and issue closeout remain pending. Follow [March's log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
+  tips is a non-owning heading, communication is partial and 38 remain unresolved.
+  Batch08's first native covers printed42–47/PDF44–49; full extent42–49/PDF44–51
+  is verified. FinalPDF50–51 and complete assembly remain pending. All142 native
+  files match the independent rebuild;2,965 exact UTF-8 ranges and3,112 pins pass.
+  All4,212 prior files and30 implementation pins remain exact. The unchanged
+  pipeline reuses batch06's passing213-test baseline. Next: restore finalprinted
+  48–49/PDF50–51 with the incoming100%믿을만 continuation, then assemble separately.
+  Reuse PDF49–52 and retain two tasks/six mapped pages/twenty outside lookups.
+  Cover selection,source-page accounting andissue closeout remain pending. Follow
+  [March's log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
