@@ -19,27 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:17 readable/sample-reviewed, no partial articles, three non-owning
-  headings and28 unresolved. IOCS0002 complete across125–139/observed null,
-  124–137 at packages/batch-36-r02/iocs-complete. All412 files match rebuild,
-  including403 exact native files/full metadata;87 category slices/14 object
-  projections reverse exactly.127 regions/83 blocks/44 originals retain opening
-  title/illustration/intro/credit, outline, diagrams/tables, BASIC/source assembly,
-  actual captions and final0606 RET/0607 semicolon/terminal.608 source ordinals/
-  615 physical assembly rows/1,030 opaque hex pairs/90 blank objects,72 BASIC
-  labels/75 physical rows/52 DATA tokens,69 table cells/nine headers,15 captions,
-  104 analysis references,101 candidates/13 unknown bands retained. Seven wrapped
-  object rows/five DEFM strings/four trailing-space candidates remain independent
-  of printed hex. No decoding, address arithmetic or repair. All88,042 active
-  ranges/138,835 pins/127 images pass; two cross-native connections have no encoded
-  join. Zero mapping/lookups/OCR/source passes; one task. All30,674 prior files/
-  35 inventories/16 earlier packages/30 core pins pass; fresh213 PDF tests pass.
-  Inventory31,527 files. Use pinned batch36 dispatcher for all eight formats.
-  Failed initial note filter/missing-recipe build retained; fresh preparation
-  resolves only nine pending-stage notes, keeps technical note and native bytes.
-  Next:0009 정보 레이다 actual extent/ending/neighbors from initial PDF144–154
-  lookups; TOC145 is only a cue. Parent0003, cover, remaining entries,244-page
-  accounting and closeout pending. Follow [March log](docs/progress/8503.md) and
+- March1985:18 readable/sample-reviewed, no partial articles, three non-owning
+  headings and27 unresolved. News0009 complete148–150/observed146–148; canonical
+  TOC145 unchanged. packages/batch-37-r01/news:100 files match rebuild;26 regions/
+  22 searchable headings/four originals retain nine stories,twelve body-image
+  fragments/three continuations. Complete original news body prose awaits
+  volunteers under accepted policy. No invented byline/captions or historical
+  claims. Lower150 boxed debugging0010 is excluded. Eleven views/three mapped/
+  eight outside/one task;22 kor+eng drafts read before one source pass. One
+  pre-OCR running-label edge repair; one post-OCR original-image bottom repair
+  retains final price-report line. Initial maps/crops/outcomes remain. All22 text
+  crops/raws/TSVs exact; derived current-map settings explicitly pin original
+  inference settings. No new inference/failure/retry. All157 ranges/252 pins/
+  26 image pixels pass. All31,527 prior files/36 inventories/17 earlier packages/
+  30 core pins/eight formats pass; unchanged fresh213-test batch36 baseline reused.
+  Inventory32,148 files. Use pinned batch36 dispatcher for eight private formats.
+  IOCS0002 remains complete125–139;403 exact natives/412 assembled files retained.
+  Next:0010 lower150 debugging box,saved149/150/151 boundaries,six-row/five-column
+  table and arrow/IC diagram;nonfigure regions disjoint from news. Parent0003,
+  cover,remaining entries,244-page accounting and closeout pending. Follow
+  [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

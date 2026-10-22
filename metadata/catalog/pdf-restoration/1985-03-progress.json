@@ -806,12 +806,88 @@
       "toc_entry_id": "maso-1985-03-toc-0009",
       "title": "정보 레이다",
       "parent_id": "maso-1985-03-toc-0003",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All11 whole pages144–154 inspected before mapping. Actual news begins148/visible146 with vertical정보레이다 and나라안 소식. PDF147 is independent 매월 소프트웨어 공모 notice, not news. Canonical TOC145 stays unchanged as lookup cue.",
+        "News continues149/147 and ends upper150/148 at personal-computer price/export report and terminal mark. Lower150 boxed 디버깅 룸 is distinct canonical0010;151 begins 난수.난수.난수. News body extent is148–150, with no deferred pages or assembly.",
+        "Three mapped pages,eight outside-map lookups,one canonical task. Nine ordered stories retain twelve body-image fragments: union report left→right149,education149→150,price report left→right150. Searchable headings/organization kickers/running labels remain separate from body and captions.",
+        "Accepted news policy: complete original news bodies plus searchable headings are readable, with volunteer body transcription explicitly pending. No source body prose, company/product/historical claims or phone numbers are inferred from headlines."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-37-r01/news",
+        "article_id": "scan-maso-1985-03-toc-0009",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-37-r01/news/manifest.json",
+          "sha256": "57e88943a86452923f55b4356a5c00303f89bb4953f531ea795319f834c27896",
+          "bytes": 17284
+        },
+        "coverage": {
+          "pdf_pages": [
+            148,
+            149,
+            150
+          ],
+          "printed_pages": [
+            "146",
+            "147",
+            "148"
+          ],
+          "regions": 26,
+          "blocks": 22,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/validation.json",
+          "sha256": "bf81de13443678b9d7e9ff0b2b5c136306492630dfb8e49b43149a1f109e8a1d",
+          "bytes": 1636
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/reproduction.json",
+          "sha256": "bff978da6d51806f2809b15ce1d886dcc4b7f26135d63852409cbc602a929902",
+          "bytes": 1842
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-37-r01/news/corrections.json",
+            "sha256": "f89bc4d0f5d00584a59b4a997bdc1798bd6ab5680abd7dd7834158e908265b0b",
+            "bytes": 125349
+          },
+          "field": "source_ending"
+        },
+        "body_transcription": "pending volunteers;complete original news images plus searchable headings",
+        "shared_final_page": {
+          "pdf_page": 150,
+          "excluded_canonical_id": "maso-1985-03-toc-0010",
+          "excluded_bbox": [
+            0.125,
+            0.644,
+            0.952,
+            0.924
+          ],
+          "news_original_bbox": [
+            0,
+            0,
+            1,
+            0.635
+          ]
+        }
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/previous-ledger.json",
+        "sha256": "e19f8de2c598d1e266d77287dfaf45f7d4dd9fc81a4030fe121af376f4ab8668",
+        "bytes": 213179
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0010",
@@ -2637,10 +2713,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 17,
+    "readable": 18,
     "partial": 0,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 28
+    "unresolved_eligibility": 27
   },
   "checkpoints": [
     {
@@ -4287,6 +4363,58 @@
         "sha256": "3921f2f50773d1c3ced42aa211f95814c30e3240476446859a39d6dd3eaa197c",
         "bytes": 36303
       }
+    },
+    {
+      "id": "batch-37",
+      "status": "complete",
+      "stage": "validated-complete-news-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0009"
+      ],
+      "mapped_pdf_pages": [
+        148,
+        149,
+        150
+      ],
+      "outside_map_lookup_pages": [
+        144,
+        145,
+        146,
+        147,
+        151,
+        152,
+        153,
+        154
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 22,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 22,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/validation.json",
+        "sha256": "bf81de13443678b9d7e9ff0b2b5c136306492630dfb8e49b43149a1f109e8a1d",
+        "bytes": 1636
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/verification-completed.json",
+        "sha256": "83675147c4a0f3e1e22cfec93b433706c20c857cb9473d61a658731fe252e60c",
+        "bytes": 1499
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-37-preserved-work.json",
+        "sha256": "56dde68f75548f4661c16b05995775fdc0c36f2f74d6be3d249bf59aec9dd215",
+        "bytes": 7180467
+      },
+      "started_at": "2026-10-22T21:29:19.107576+00:00",
+      "finished_at": "2026-10-22T21:38:05.746096+00:00",
+      "timing_scope": "Wallclock includes waits/gaps; active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false,
+      "pre_OCR_text_crop_repairs": 1,
+      "post_OCR_original_image_repairs": 1,
+      "recognition_reused_without_rerun": 22
     }
   ],
   "source_page_observations": [
@@ -5744,28 +5872,159 @@
         "bytes": 2090
       },
       "notes": "Apple&ending upperleft,one-linekeyboardcontest lowerleft,recruitmentnotice right. Current0002alreadyended139;otherownershippending."
+    },
+    {
+      "pdf_page": 144,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "142",
+      "source_material_observed": "MSX 문자패턴 정의",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 145,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "143",
+      "source_material_observed": "MSX 문자패턴 정의 continued",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 146,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "144",
+      "source_material_observed": "MSX 문자패턴 정의 ending above separate academy advertisement",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 147,
+      "classification": "independent-publisher-contest-notice",
+      "printed_page": null,
+      "source_material_observed": "매월 소프트웨어 공모",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 148,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0009"
+      ],
+      "printed_page": "146",
+      "restoration": "checked-complete-news",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 149,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0009"
+      ],
+      "printed_page": "147",
+      "restoration": "checked-complete-news",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 150,
+      "classification": "shared-news-and-separate-debugging-panel",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0009",
+        "maso-1985-03-toc-0010"
+      ],
+      "printed_page": "148",
+      "restoration": "checked-complete-news;lower-debugging-panel-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 151,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "149",
+      "source_material_observed": "난수.난수.난수 opening",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 152,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "150",
+      "source_material_observed": "난수.난수.난수 continued",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 153,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "151",
+      "source_material_observed": "난수.난수.난수 ending; unrelated-looking printed output retained for future source review",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
+    },
+    {
+      "pdf_page": 154,
+      "classification": "other-canonical-body-lookuponly",
+      "printed_page": "152",
+      "source_material_observed": "베이직에서 되부름이 가능하다! opening",
+      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+        "bytes": 2170
+      }
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-37",
-    "goal": "Verify canonical0009 정보 레이다 actual full extent, ending and adjacent material, then restore its eligible body within batch limits.",
+    "id": "batch-38",
+    "goal": "Restore canonical0010 디버깅 룸, complete boxed lower panel onPDF150/visible148, after reconfirming adjacent149/151.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0009"
+      "maso-1985-03-toc-0010"
     ],
-    "mapping_targets": "TOC145 is a lookup cue, not a PDF page or global offset. Inspect initial PDF144–154 whole views, extending only within20 outside-map lookups if needed. Verify actual title, all continuous body pages, ending and neighbors before mapping/OCR. Map at most six eligible pages and two canonical tasks. Accepted original-image plus searchable-heading news policy may apply after source classification; preserve all item images/continuations and actual headings without invented item counts. If full extent exceeds cap, retain extent review and continue separately. Parent0003 remains unresolved until0009/0010/0011 and group boundaries are checked. Cover, remaining entries,244-page accounting and issue closeout pending. No reader rebuild.",
+    "mapping_targets": "Reuse verified saved whole149/150/151 from batch37; inspect before mapping. Actual lower150 boxed 디버깅 룸 has title,intro and six-row/five-column correction table. Canonical TOC147 stays unchanged; actual observed148. Upper150 news0009 is complete and must remain byte-exact; all included nonfigure debugging regions must be disjoint from news regions. Preserve original panel,grid,all headers/cells/literal before→after claims,printed arrow/IC diagram and code/identifier/number glyphs; no applying historical corrections or repairing source spelling/technical content. Body entirely within lower box;151 distinct course opening. At most six mapped pages/two tasks/twenty outside lookups. Parent0003 remains unresolved until classifieds0011 and group boundaries checked. Cover,remaining entries,244-page accounting and full issue closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      144,
-      145,
-      146,
-      147,
-      148,
       149,
       150,
-      151,
-      152,
-      153,
-      154
+      151
     ],
     "limits": {
       "articles": 2,
@@ -5818,8 +6077,9 @@
     "MiddleIOCSretains295numberedassemblyrows/486opaqueobjectpairs/48blankobjectfields,55BASIClabels/52DATAtokens,PSGtable16cells,39sourcecandidatesandthreeunknowncommentdotbands. Source0060–0162,11/14PSG,figure8/9,boud,VBLOD2,LOAD를때에,O N,CLOAD0/CLOAD8,zero/Oglyphs remainliteral. No semanticrepair orsourceencoded-bytecertification.",
     "FinalIOCS retains313numberedsource rows/320physicalrows/sevenwrappedobjectrows/544opaquehexpairs/fivequotedmessages/fourtrailingspacecandidates/25sourcevariants. No decoding,address arithmetic,syntaxrepair orencoded-spacecertification. Actualending0606RET/0607semicolon/terminal verified. Three codecropswidenedbeforeOCR;initialmap/cropspreserved.",
     "Use pinned batch36 assembly_dispatch for all eight March private formats in JSON/assets issue exports. Historical native notes/flags stay exact; complete IOCS active scope has no deferred pages or assembly pending.",
-    "28 canonical entries remain unresolved. Canonical0002 IOCS is complete across125–139; opening125 folio null. Next0009 news actual full extent/eligible body. Parent0003, cover, remaining entries,244-page accounting and issue closeout pending.",
-    "Complete IOCS retains403 exact native files/full metadata,87 supplemental category slices and14 object projections. All101 candidates/13 unknown bands remain; four trailing-space candidates and printed hex stay independent. No decoding, address arithmetic, symbol resolution or encoded-space certification."
+    "Complete IOCS retains403 exact native files/full metadata,87 supplemental category slices and14 object projections. All101 candidates/13 unknown bands remain; four trailing-space candidates and printed hex stay independent. No decoding, address arithmetic, symbol resolution or encoded-space certification.",
+    "27 canonical entries remain unresolved. News0009 complete148–150 with accepted original-image body plus22 searchable headings; nine stories/twelve body fragments/three image continuations. Body prose volunteer transcription remains pending. Separate lower150 debugging0010 next;parent0003/cover/remaining entries/244-page accounting/closeout pending.",
+    "Batch37 retains initial/revised maps/crops and22 original OCR outcomes. Pre-OCR running-label left edge widened; post-OCR original-image bottom widened to retain price-report line. All22 text crops and raw/TSV bytes unchanged; derived current-map settings explicitly pin original inference settings. No inference rerun or hidden provenance replacement."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

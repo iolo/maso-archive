@@ -24,51 +24,54 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 17 of 48 entries are readable and assistant
+March 1985 remains in progress: 18 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, three headings are non-owning, and
-28 entries remain unresolved. Canonical0002, 특집 II : SPC-1000의 IOCS분석,
-is complete across actual PDF125–139. Opening125 folio stays null; subsequent
-pages show124–137. No IOCS body pages or complete assembly remain pending.
+27 entries remain unresolved. Canonical0009, 정보 레이다, is complete across
+actual PDF148–150, observed folios146–148. Canonical TOC145 stays unchanged.
+The separate boxed 디버깅 룸 on lower150 remains unresolved and is next.
 
-All412 assembled files match the independent rebuild, including403 exact retained
-native files and their full metadata. The complete article retains127 regions,
-83 text blocks and44 original images: opening illustration/intro/title/credit,
-installment outline, memory/jump/cassette diagrams, five tables, BASIC examples,
-source assembly, actual captions/analysis and final0606 RET/0607 semicolon/terminal.
-PDF140 begins a different article with its own title and byline.
+The news package at packages/batch-37-r01/news matches its independent rebuild
+across100 files. Twenty-six regions,22 searchable heading/kicker/title blocks
+and four original images retain nine ordered stories, twelve body-image fragments
+and three continuations. Union149 left→right, education149→150 and final price
+report150 left→right remain source-linked without encoded joins. The source
+정보화시/대에 split remains physical. All original news pixels, including the
+final terminal mark, are retained; lower debugging content is excluded.
 
-All87 supplemental category slices and14 object projections reverse exactly.
-All88,042 active UTF-8 range occurrences,138,835 evidence pins and127 image
-decodes verify. Complete indexes retain608 numbered source rows/615 physical
-assembly rows,1,030 opaque hex pairs/90 blank object fields,72 BASIC labels/
-75 physical BASIC rows/52 DATA tokens, five tables/69 cells/nine headers,
-15 caption links,19 outline rows and104 analysis references. Four blank checksum
-slots remain blank. The two cross-native connections preserve physical parts
-without encoded joins; listing6's derived caption covers all12 original panels.
+News body prose remains in readable original images with volunteer transcription
+pending under the accepted news policy. Searchable headlines do not certify
+corrected body prose or historical/company/product/education/price claims.
+Original spelling,1984/103/1990,MDS,휴렛 팩커드,인테그럴 and title 사이보그—M
+remain literal candidates. The body product-name occurrence stays independent.
+No article byline or figure captions are invented.
 
-Seven unnumbered object/address continuations and five DEFM strings preserve
-physical wraps and four trailing-space candidates independently of printed hex.
-All101 source candidates and13 unknown-count bands remain. Source contradictions,
-spelling, glyph/spacing candidates and all original pixels stay literal. No opcode,
-address, symbol, encoding, hardware, syntax or program repair or execution.
-Native stage flags stay historical; only nine exact pending-stage notes resolve
-in active complete scope. The technical assembly-description note remains active.
+Eleven whole views, three mapped pages, eight outside lookups and one canonical
+task meet the limits. All22 heading drafts were read before one source pass.
+One running-label crop was widened before OCR. After OCR, original-image review
+caught a clipped final body line; the image was widened and inspected before
+correction/export. All22 text crops/raws/TSVs remain exact. Derived current-map
+settings explicitly pin original inference settings; zero additional inference,
+failures or retries. Initial maps, crops, settings and all outcomes remain.
 
-This checkpoint used no mapping, outside lookups, OCR or source-correction pass.
-All30,674 prior files,35 inventories,16 prior readable packages and30 core pins
-pass. Fresh environment verification passes all213 PDF tests. Preservation
-inventory contains31,527 files. Use pinned batch36 assembly_dispatch.py for all
-eight private formats. Initial preparation's broad note filter failed before
-recipe creation; a missing-recipe build also stopped before output. Both logs
-remain. Fresh preparation selects the nine exact pending notes; maps, readings
-and natives are unchanged. No reader rebuild.
+All157 exact UTF-8 ranges,252 evidence pins and26 original image crops pass.
+All31,527 prior files,36 inventories,17 prior readable packages and30 core pins
+pass. The fresh213-test batch36 environment baseline is reused unchanged.
+Preservation inventory contains32,148 files. Use pinned batch36
+assembly_dispatch.py for all eight private formats. No reader rebuild.
 
-Next: verify canonical0009 정보 레이다's actual full extent, ending and neighbors,
-then restore its eligible body. TOC145 is a lookup cue; initial PDF144–154 whole
-views require source verification before mapping. Parent0003, cover selection,
-remaining entries, all244-page accounting and issue closeout remain pending.
-Human acceptance, full proofreading, original encoded bytes/spacing and historical
-claims remain unverified.
+IOCS0002 remains complete across125–139:412 assembled files match rebuild,
+including403 exact natives/full metadata,127 regions/83 blocks/44 originals.
+All608 numbered/615 physical assembly rows,1,030 opaque hex pairs,72 BASIC labels,
+tables/diagrams/captions,101 candidates/13 unknown bands and actual0606 RET/
+0607 semicolon/terminal remain. Opening125 folio stays null. No decoding/repair.
+
+Next: restore canonical0010 디버깅 룸's complete lower-PDF150/visible148 panel,
+reusing whole149/150/151 boundary evidence. Preserve its six-row/five-column
+correction table, original grid and printed arrow/IC diagram, with nonfigure
+regions disjoint from news. Parent0003, cover selection, remaining entries,
+all244-page accounting and issue closeout remain pending. Human acceptance,
+full proofreading, original encoded bytes/spacing and historical claims remain
+unverified.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
