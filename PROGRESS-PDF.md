@@ -6,6 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+March 1985 is in progress: batch01 restores the editor's note, canonical0004,
+on printed17/PDF19. One of 48 entries is readable and assistant sample-reviewed;
+47 remain unresolved. All 21 package files match the independent rebuild;
+495 exact UTF-8 ranges, 507 evidence pins and all 213 PDF tests pass. The source,
+current canonical queue, pinned runtime and earlier February preservation
+inventory pass verification. Next: verify and restore canonical0005 from
+printed18/PDF20 within the normal batch limits. Cover, source-page accounting
+and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
 entries are accounted for by 48 readable, assistant sample-reviewed articles and
 eight non-owning headings. No partial articles or unresolved eligibility remain.

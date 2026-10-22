@@ -19,6 +19,15 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+- March 1985 is in progress. Batch01 restores canonical0004, 편집자 노트,
+  printed17/PDF19: one of 48 entries is readable/sample-reviewed; 47 remain
+  unresolved. The 21-file package matches its independent rebuild; 495 exact
+  UTF-8 ranges and all 213 PDF tests pass. Next: verify canonical0005,
+  언제나 이 컬럼부터 입력이 힘드십니까?, from printed18/PDF20, including actual
+  end and adjacent pages. Reuse batch01's saved PDF19/20 views. Cover selection,
+  source-page accounting and issue closeout remain pending. Follow
+  [March's log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

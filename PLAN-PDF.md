@@ -22,6 +22,19 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## March 1985 in progress, 2026-10-22
+
+Batch01 restores canonical0004, 편집자 노트, on printed17/PDF19. One of 48
+canonical entries is readable and assistant sample-reviewed; 47 remain unresolved.
+All 21 package files match the independent rebuild; 495 exact UTF-8 ranges and
+all 213 PDF tests pass. Source, canonical queue, runtime and the prior February
+preservation inventory are verified. Next: verify canonical0005 from
+printed18/PDF20, including its actual end and adjacent pages, then restore it
+within the normal batch limits. Reuse saved PDF19/20 views. Cover selection,
+source-page accounting and issue closeout remain pending. Details:
+[March log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+
 ## February 1985 closeout, 2026-10-22
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
