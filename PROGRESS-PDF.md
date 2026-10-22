@@ -7,49 +7,53 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 19 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, three headings are non-owning, and
-26 entries remain unresolved. Canonical0010, 디버깅 룸, is complete in the boxed
-lower panel of PDF150, observed folio148. Canonical TOC147 stays unchanged.
-Upper150 belongs to completed 정보 레이다0009; all36 pairs of their nonfigure
-regions are disjoint, and all100 news files remain exact.
+sample-reviewed, one article is partial, three headings are non-owning, and
+25 entries remain unresolved. Canonical0011, 복덕방, has a verified full extent
+of PDF234–241, observed folios232–239. The opening native restores234–239;
+final240–241 and complete article assembly remain pending.
 
-The debugging package at packages/batch-38-r01/debugging matches its independent
-rebuild across47 files. Twelve regions,nine text blocks andthree originals retain
-the title,intro,five-column header,six rows/thirty cells,six printed correction
-claims andsix original diagram-label candidates. Complete panel/grid,gate/arrow
-detail and148folio remain pixels. No body pages or assembly are pending.
+The opening package at packages/batch-39-r01/classifieds-a matches its independent
+rebuild across42 files. Thirteen regions,seven searchable headings andsix complete
+original pages retain the opening photograph/monitor title,three categories,
+four physical offer/contact/option associations andall original offers/prices/
+contact pixels. Fourteen ordered body-image fragments andthirteen adjacent links
+retain category/column/page order without inferred item counts or encoded joins.
 
-Source BLPAD,IC₃74L05→78L05,Q A,윗쪽,circled7/#,SOUND#SAVE INPUT,physical cell
-wraps,Boomerang and2500 LOCATE 5,16 remain literal. Diagram35/37 labels stay
-independent from outline/arrow geometry. Row4 title 애플쿨러 is a Unicode candidate
-with middle vowel 쿨/콜 explicitly uncertain; its exact source focus remains.
-Six target page/line references are not verified. No historical correction is
-applied, tested or used to repair a command, circuit, spelling or other package.
+Actual headings retain 복 덕 방,필요로 합니다,물려드리겠읍니다 and바꾸고 싶읍니다.
+Source old spellings override preliminary map descriptions using modernized
+겠습니다/싶습니다; those immutable stage descriptions remain documented.
+Classified body prose awaits volunteers under the accepted original-image policy.
+Original spacing/bytes,glyphs,historical/current identities,prices andcontact
+claims remain unverified. No byline or figure caption is invented.
 
-Three reused whole views,one mapped page,two outside lookups andone task meet
-the limits. All12 selected crops were viewed before nine pinned kor+eng tasks;
-all nine drafts were read before one source pass. One pre-OCR revision widened
-the diagram and its row crop to retain the outline; initial maps/crops remain.
-No OCR failure,retry or engine change. Source-direct readings retain successful
-OCR omissions without inference reruns. No invented byline or figure captions.
+Thirteen whole views established the full eight-page extent before mapping:
+prior233 ends 행운의 동전4420/terminal;final241 ends its last exchange/offer,
+김위태 contact andterminal;242 is separate promotion/advertising index with no
+observed folio. Six mapped pages,seven outside lookups andone task meet limits.
+All13 exact crops were viewed before seven pinned kor+eng heading tasks;all drafts
+were read before one source pass. No crop repairs,OCR failures,retries or engine
+changes. Successful heading omissions use direct source readings.
 
-All232 exact UTF-8 ranges,275 evidence pins and12 image pixel comparisons pass.
-All32,148 prior files,37 inventories,18 earlier readable packages and30 core pins
-pass. The unchanged fresh213-test batch36 environment baseline is reused.
-Preservation inventory contains32,376 files. Use pinned batch36
-assembly_dispatch.py for all eight private formats. No reader rebuild.
+All41 exact UTF-8 ranges,114 evidence pins and13 image pixel comparisons pass.
+All32,376 prior files,38 inventories,19 prior readable packages and30 core pins
+pass. Unchanged fresh213-test batch36 environment baseline is reused.
+Preservation inventory contains32,616 files. Initial verifier's239right wording
+check failed against239 right-column;failed script/log remain. Fresh r02 checks
+the structured boundary andexact complete uncertainty notes. Source/package data
+are unchanged. Use pinned batch36 dispatcher for eight private formats.
 
-News0009 remains complete148–150:100 files,22 searchable headings,nine stories,
-twelve original body fragments andthree continuations. News body prose awaits
-volunteer transcription under the accepted original-image policy. IOCS0002 stays
-complete125–139 with403 exact natives/412 assembled files;125folio remains null.
+Debugging0010 remains complete lower150/visible148:47 files retain five headers,
+thirty cells,six correction claims andoriginal gate/arrow detail. All36 text-region
+pairs are disjoint from news;all100 news files remain exact. Printed BLPAD and
+IC₃74L05→78L05 stay literal;row4 title 쿨/콜 vowel remains uncertain. No historical
+correction is applied. News body volunteer transcription remains explicit.
 
-Next: verify canonical0011 복덕방's full actual extent,ending and neighbors,
-then restore its eligible classified body. TOC232 is only a lookup cue; initial
-PDF230–239 whole views require verification before mapping. Parent0003,cover
+Next: restore final240–241 from saved239–242 whole views, then assemble all eight
+classified pages separately. Incoming239right offers→240new bullet is category
+continuation only;no same-item/contact association is inferred. Parent0003,cover
 selection,remaining entries,all244-page accounting and issue closeout remain
 pending. Human acceptance,full proofreading,original encoded bytes/spacing and
-historical claims remain unverified.
+historical claims remain unverified. No reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

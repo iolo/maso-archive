@@ -19,26 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:19 readable/sample-reviewed,no partial articles,three non-owning
-  headings and26 unresolved. Debugging0010 complete lower150/observed148;
-  canonical TOC147 unchanged. packages/batch-38-r01/debugging:47 files match
-  rebuild;12 regions/nine blocks/three originals retain five headers/thirty
-  cells/six rows/six correction claims/six diagram-label candidates. Original
-  panel/grid/gate-arrow detail/folio retained;no invented byline/captions.
-  Printed BLPAD,IC₃74L05→78L05,Q A,윗쪽,circled7/#,cell wraps andLOCATE claim
-  stay literal. Row4 애플쿨러 middle vowel 쿨/콜 explicitly uncertain;source focus
-  retained. No correction applied,target reference verified or circuit repaired.
-  Three reused views/one mapped/two outside/one task;12 selected crops viewed
-  before nine kor+eng tasks;all drafts read before one pass. One pre-OCR crop
-  round widens row4/detail;originals remain. No failure/retry/engine change.
-  All232 ranges/275 pins/12 image pixels/36 disjoint news text pairs pass;
-  all100 news files exact. All32,148 prior files/37 inventories/18 prior packages/
-  30 core pins/eight formats pass;unchanged fresh213-test batch36 baseline reused.
-  Inventory32,376 files. Use pinned batch36 dispatcher. News0009 body prose
-  volunteer transcription remains explicit;IOCS0002 complete125–139 unchanged.
-  Next:0011 복덕방 full extent/ending/neighbors from initial PDF230–239 views;
-  TOC232 only a cue. Parent0003,cover,remaining entries,244-page accounting and
-  closeout pending. Follow [March log](docs/progress/8503.md) and
+- March1985:19 readable/sample-reviewed,one partial article,three non-owning
+  headings and25 unresolved. Classifieds0011 full extent234–241/observed232–239
+  verified before mapping. First234–239 at packages/batch-39-r01/classifieds-a:
+  42 files match rebuild;13 regions/seven headings/six complete originals retain
+  three categories/fourteen body-image fragments/thirteen adjacent links/four
+  physical associations. Final240–241 and complete assembly pending;body prose
+  volunteer transcription explicit under accepted image policy. Source oldspellings
+  물려드리겠읍니다/바꾸고 싶읍니다 override preliminary modernized descriptions;
+  original descriptions/maps/raws remain. No item counts,identities or claims
+  inferred;239right offers not assigned contact from240new bullet. Thirteen
+  views/six mapped/seven outside/one task;13 crops viewed before seven kor+eng
+  tasks;all drafts read before one pass. No crop repair/failure/retry/engine change.
+  All41 ranges/114 pins/13 image pixels pass;all32,376 prior files/38 inventories/
+  19 prior packages/30 core pins/eight formats pass;unchanged fresh213-test batch36
+  baseline reused. Inventory32,616 files. Failed wording-only verifier retained;
+  fresh r02 checks structured boundary/all exact uncertainty notes,no source changes.
+  Use pinned batch36 dispatcher. Debugging0010 complete lower150:47 files/30 cells/
+  36 disjoint news pairs;all100 news files unchanged. Next:final240–241 from saved
+  239–242 views,then complete classified assembly separately. Parent0003,cover,
+  remaining entries,244-page accounting and closeout pending. Follow
+  [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
