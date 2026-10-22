@@ -24,14 +24,14 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-The editor's note and input guide, canonical0004/0005, cover printed17–20/PDF19–22.
-Two of 48 entries are readable and assistant sample-reviewed; 46 remain unresolved.
-Batch02's 148-file package matches its independent rebuild; 1,864 exact UTF-8
-ranges and 1,981 evidence pins validate. The passing 213-test baseline is reused;
-all 102 batch01 inventory files remain exact. Source, canonical queue, runtime
-and prior February preservation inventory passed batch01 verification. Next:
-verify canonical0006, 애독자 광장, from printed21/PDF23, including its actual end
-and adjacent pages. Reuse saved PDF22/23 views within normal limits. Cover selection,
+The editor's note, input guide and reader letters cover printed17–23/PDF19–25.
+Three of 48 entries are readable and assistant sample-reviewed; 45 remain unresolved.
+Batch03's 111-file package matches its independent rebuild; 1,816 exact UTF-8
+ranges and 1,898 evidence pins validate. The passing 213-test baseline is reused;
+all 694 previously inventoried March files remain exact. Source, canonical queue,
+runtime and prior February preservation inventory passed batch01 verification.
+Next: verify canonical0007, QA, from printed24/PDF26, including actual end and
+adjacent pages. Reuse saved PDF25/26 views within normal limits. Cover selection,
 source-page accounting and issue closeout remain pending. Details:
 [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
