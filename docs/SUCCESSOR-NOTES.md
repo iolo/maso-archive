@@ -1,6 +1,33 @@
-# Successor handoff — 2026-10-20
+# Successor handoff — 2026-10-22
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
+
+## Latest completed issue
+
+February 1985 is complete under the canonical TOC JSON/assets scope: all 56
+entries are accounted for by 48 readable, assistant sample-reviewed articles and
+eight non-owning headings. No partial articles or unresolved eligibility remain.
+All 260 PDF pages are classified: 232 contain selected article bodies and 28 are
+outside-body material. Ten pages have two canonical owners; their 284 pairs of
+mapped non-figure regions are disjoint. The donated cover thumbnail is verified.
+
+The standalone index is `archive/pdf/1985-02/reference/issue.json`; the final report
+is `archive/pdf/1985-02/evidence/issue-closeout/report.json`. All 10,601 issue files
+match the independent rebuild, including 10,595 exact selected-package files.
+All 213 freshly rerun PDF tests pass. Reproduce/check the export using
+`archive/pdf/1985-02/restoration/issue-closeout/reproduction-r02.json` and the pinned
+dispatcher for the 13 private assembly adapters. All 58,348 earlier
+files and 30 core implementation pins remain unchanged. Checkpoint details and
+source limitations remain in [the February log](progress/8502.md), the ledger
+and retained private evidence.
+
+Human acceptance and full proofreading remain pending. Source bytes, exact encoded
+spacing, historical claims, code execution and independent backup recovery remain
+unverified. Glyph/diagram-label volunteer work and source errors remain explicit.
+Unlisted panels and advertisements remain outside canonical-body transcription;
+the index's visible-folio 240/TOC 256 conflict is preserved. No reader was rebuilt.
+February has no remaining restoration checkpoint. March 1985 is the next campaign
+issue; no work on it is included in this closeout.
 
 ## Read first
 
@@ -39,8 +66,7 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September, October and December 1984. March retains its absent-source terminal
-partial; no April PDF was supplied. Nine supplied eligible issues remain after
-December.
+partial; no April PDF was supplied. February 1985 is also complete; March 1985 is the next campaign issue.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
@@ -346,8 +372,7 @@ December closeout is complete. Reproduce the selected JSON/assets issue using
 `archive/pdf/1984-12/restoration/issue-closeout/reproduction-r03.json` and the pinned
 private inputs. Read `evidence/issue-closeout/report.json`, the complete source-page
 ledger and retained source uncertainties before volunteer correction. No further
-December restoration checkpoint is queued. Nine supplied eligible issues remain;
-February 1985 is next, and no next-issue work has started. No --preview or
+December restoration checkpoint is queued. That is the historical December handoff; February 1985 has since completed. No --preview or
 reader/browser/frontend rebuild was performed.
 
 Complete design evidence: restoration/design-assembly and evidence/design-assembly.

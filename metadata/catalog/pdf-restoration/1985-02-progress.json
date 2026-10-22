@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1985-02",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-22",
   "source": {
     "path": "maso-pdf/maso-8502.pdf",
@@ -10789,6 +10789,49 @@
         "path": "archive/pdf/1985-02/evidence/issue-accounting-02-preserved-work.json",
         "sha256": "c7c7e612b921e7d3ac424f9b65aac99004169a40ba3a7bf25e832ec35af67fb8",
         "bytes": 12914155
+      }
+    },
+    {
+      "id": "issue-closeout",
+      "status": "complete",
+      "checkpoint": {
+        "path": "archive/pdf/1985-02/restoration/issue-closeout/checkpoint.json",
+        "sha256": "0301ec39827e9e57f7a7c35ac6560597249ddd08b3df3a7ab90cb1d7e029c1a3",
+        "bytes": 11860
+      },
+      "report": {
+        "path": "archive/pdf/1985-02/evidence/issue-closeout/report.json",
+        "sha256": "a4b98c9de046a664ee8277a9aa54400bb8d7cf7a467fc5ceb6edcb86191a7166",
+        "bytes": 5006
+      },
+      "completion_audit": {
+        "path": "archive/pdf/1985-02/evidence/issue-closeout/completion-audit.json",
+        "sha256": "74309612215c1b6df00a6eb121124dae9cc3186ba3cddc6547e3d14192b187f6",
+        "bytes": 7954
+      },
+      "validation": {
+        "path": "archive/pdf/1985-02/evidence/issue-closeout/report-r03.json",
+        "sha256": "7b06a2f7df2f612123dc8a066658098fa3c228acb2182cec697f155206e70e8d",
+        "bytes": 26051
+      },
+      "reproduction": {
+        "path": "archive/pdf/1985-02/restoration/issue-closeout/reproduction-r02.json",
+        "sha256": "099d7159248fca330c1e52eac84ae4ddba53dc62fb7c041cee323ca16a920e0e",
+        "bytes": 3502
+      },
+      "canonical_tasks": 0,
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "reader_rebuild": false,
+      "independent_rebuild_byte_identical": true,
+      "tests": 213,
+      "issue_files": 10601,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/issue-closeout/preserved-work-inventory.json",
+        "sha256": "122da3df0ac6b3f662836c5c0dde54e13196ba87fafdbebde3280f19829dea54",
+        "bytes": 18271835
       }
     }
   ],
@@ -22130,19 +22173,7 @@
     "previous_status": "pending; donated cover priority; no cover selected in batch01",
     "original_and_derivative_unchanged": true
   },
-  "next_checkpoint": {
-    "id": "issue-closeout",
-    "goal": "Export completeFebruary1985 standaloneJSON/assets,independentlyrebuild,runrequiredregressionchecks andcomplete requirementsaudit/report.",
-    "toc_entry_ids": [],
-    "mapping_targets": "Useall48immutable selectedpackages,natives,eightnon-owningheadings,verifieddonatedcover andcomplete260pageledger. Reuse pinned13privateassemblydispatch for allarticle/issuechecks. Preparecanonicaldata-onlybasefromcurrentstructuredTOC ifnoreaderbaseisavailable;do not rebuildreader.",
-    "provisional_lookup_targets": [],
-    "boundary_review": "All56identitiesclassified48readable/eightheadings;all260pages232selectedbody/28othermaterial accounted;10sharedcanonicalpages/284nonfigurepairsdisjoint. Preserve sourceerrors,manualglyph/spacing/sourcebyte/claim/humanreview/backup limits. Independentissuefilecomparison/fullrequirementsauditmustpassbeforecompletion.",
-    "limits": {
-      "articles": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    }
-  },
+  "next_checkpoint": null,
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
@@ -22263,6 +22294,48 @@
         "bytes": 26745
       },
       "full_source_page_ledger_pending": true
-    }
+    },
+    "issue_closeout_pending": false
+  },
+  "issue_closeout": {
+    "report": {
+      "path": "archive/pdf/1985-02/evidence/issue-closeout/report.json",
+      "sha256": "a4b98c9de046a664ee8277a9aa54400bb8d7cf7a467fc5ceb6edcb86191a7166",
+      "bytes": 5006
+    },
+    "completion_audit": {
+      "path": "archive/pdf/1985-02/evidence/issue-closeout/completion-audit.json",
+      "sha256": "74309612215c1b6df00a6eb121124dae9cc3186ba3cddc6547e3d14192b187f6",
+      "bytes": 7954
+    },
+    "validation": {
+      "path": "archive/pdf/1985-02/evidence/issue-closeout/report-r03.json",
+      "sha256": "7b06a2f7df2f612123dc8a066658098fa3c228acb2182cec697f155206e70e8d",
+      "bytes": 26051
+    },
+    "reproduction": {
+      "path": "archive/pdf/1985-02/restoration/issue-closeout/reproduction-r02.json",
+      "sha256": "099d7159248fca330c1e52eac84ae4ddba53dc62fb7c041cee323ca16a920e0e",
+      "bytes": 3502
+    },
+    "issue_index": {
+      "path": "archive/pdf/1985-02/reference/issue.json",
+      "sha256": "e08984f610b97a3ae3112186d1d915637153694a3dc6c1019e3ac34a2fe9dda3",
+      "bytes": 14695
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1985-02/reference/manifest.json",
+      "sha256": "f22b42972ca04ec3cff6559189bdf44807da3087d531f395daf1fb40a933ec88",
+      "bytes": 1858300
+    },
+    "independent_rebuild_byte_identical": true,
+    "pdf_tests": 213,
+    "human_acceptance": "pending",
+    "preserved_work_inventory": {
+      "path": "archive/pdf/1985-02/evidence/issue-closeout/preserved-work-inventory.json",
+      "sha256": "122da3df0ac6b3f662836c5c0dde54e13196ba87fafdbebde3280f19829dea54",
+      "bytes": 18271835
+    },
+    "preserved_files": 79595
   }
 }

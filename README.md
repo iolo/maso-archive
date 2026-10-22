@@ -156,21 +156,19 @@ The completed implementation is a private reading/restoration reference. Origina
 ISOs, decoder probes, recovered bodies/assets, generated sites and browser
 artifacts are excluded from Git. No public deployment was performed.
 
-PDF restoration is a separate JSON/assets campaign. November 1983 and February,
-March, May, June, July, August, September, October and December 1984 are complete;
-nine supplied eligible issues remain. March retains one missing-source terminal
-partial; no April PDF was supplied. December accounts for all 37 canonical entries:
-30 readable, assistant sample-reviewed articles and seven non-owning headings.
-All 260 source pages are classified. Its standalone index is
-`archive/pdf/1984-12/reference-r01/issue.json`; the completion report is
-`archive/pdf/1984-12/evidence/issue-closeout/report.json`. All 6,579 issue files match
-the independent rebuild, and all 213 freshly rerun PDF pipeline tests pass.
-Human acceptance/full proofreading, source encoded bytes and execution remain
-unverified; volunteer news/classified-body/diagram-label transcription and source
-uncertainties remain explicit. February 1985 is next; no next-issue work has started.
-Reader delivery is separate and was not rebuilt for December. See the
-[reader guide](docs/READING-ROOM.md), [PDF plan](PLAN-PDF.md),
-[progress by issue](docs/progress/README.md) and
+PDF restoration is a separate JSON/assets campaign. November 1983; February,
+March, May, June, July, August, September, October and December 1984; and February
+1985 are complete. March 1984 retains one missing-source terminal partial; no April
+PDF was supplied. February 1985 accounts for all 56 canonical entries: 48 readable,
+assistant sample-reviewed articles and eight non-owning headings. All 260 source
+pages are classified and the donated cover is verified. Its standalone index is
+`archive/pdf/1985-02/reference/issue.json`; the final report is
+`archive/pdf/1985-02/evidence/issue-closeout/report.json`. All 10,601 files match the
+independent rebuild, and all 213 freshly rerun PDF tests pass. Human acceptance,
+full proofreading, source bytes, encoded spacing, historical claims, execution and
+independent backup recovery remain unverified; glyph/diagram-label work and source
+uncertainties remain explicit. Reader delivery is separate. See the
+[PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md) and
 [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 ## Validation and handoff
