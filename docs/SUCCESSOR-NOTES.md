@@ -2,6 +2,17 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
+## Current human-review reader
+
+The owner's 2026-10-22 request integrates all completed restorations into
+`dist/reading-room-volunteer/`: 11 PDF issues/407 articles plus all three CDs/3,386
+records, 3,793 total. Open `http://127.0.0.1:4189/#/review`; export local review
+notes before changing browser origin. The prior nine-issue reader and the complete
+new release are preserved under `archive/releases/reading-room-2026-10-22-*`.
+See [the reader guide](READING-ROOM.md) and
+`archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json`.
+This local build adds no human acceptance and performs no deployment.
+
 ## Latest completed issue
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56

@@ -301,15 +301,16 @@ check-cd3-reference:
 	$(PYTHON) -m tools.verify_cd3_reference
 
 # Unified volunteer reader. Preserve release snapshots under archive/releases/.
-VOLUNTEER_OUTPUT ?= dist/reading-room
+VOLUNTEER_OUTPUT ?= dist/reading-room-volunteer
 VOLUNTEER_BASE ?= ./
 VOLUNTEER_PORT ?= 4189
-VOLUNTEER_INPUT ?= archive/releases/reading-room-2026-10-16-september/data
-VOLUNTEER_LEDGER ?= archive/pdf/1984-10/evidence/reader-integration-2026-10-19/export-ledger.json
-VOLUNTEER_RELEASE ?= reading-room-2026-10-19-october
+VOLUNTEER_INPUT ?= archive/releases/reading-room-2026-10-22-before-all-restorations/data
+VOLUNTEER_LEDGERS ?= archive/pdf/1984-12/reference-r01/ledger.json archive/pdf/1985-02/reference/ledger.json
+VOLUNTEER_STAGES ?= archive/pdf/shared/evidence/reader-integration-2026-10-22/stages
+VOLUNTEER_RELEASE ?= reading-room-2026-10-22-all-restorations
 .PHONY: export-volunteer-reading-room build-volunteer-reading-room check-volunteer-reading-room preview-volunteer-reading-room
 export-volunteer-reading-room:
-	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer export --base $(VOLUNTEER_INPUT) --ledger $(VOLUNTEER_LEDGER) --data $(VOLUNTEER_OUTPUT)/data
+	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer export --base $(VOLUNTEER_INPUT) $(foreach ledger,$(VOLUNTEER_LEDGERS),--ledger $(ledger)) --stages $(VOLUNTEER_STAGES) --data $(VOLUNTEER_OUTPUT)/data
 
 build-volunteer-reading-room:
 	cd web && READING_ROOM_OUTPUT=$(VOLUNTEER_OUTPUT) READING_ROOM_BASE=$(VOLUNTEER_BASE) npm run build

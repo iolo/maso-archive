@@ -1,5 +1,26 @@
 # Progress
 
+## 2026-10-22 — Build the volunteer reader with all restorations
+
+- Built `dist/reading-room-volunteer/`: all11 completed PDF issues/407 scan articles
+  plus all3 CDs/3,386 records,3,793 total. Added December1984 and February1985 to
+  the verified nine-issue baseline; canonical TOCs, known partial states and
+  original restoration packages remain unchanged.
+- Preserved the old reader in a named129,411-file release. Both issue exports
+  validate full inventories, article projections, ownership and source assets.
+  All 129,400 inherited files outside the six updated indexes
+  remain byte-identical; the78 new package copies match their standalone inputs.
+- Extended the volunteer wrapper to route the pinned February private formats
+  alongside August's exact adapters and ordinary literal assemblers. Added
+  dispatcher-integrity/routing/restoration tests.13 focused Python tests,25 frontend
+  tests,TypeScript and production compilation pass. Browser review covers the
+  new issue pages,scan/code/text access,review-note export and mobile layout.
+- Saved `reading-room-2026-10-22-all-restorations` with an independently checked
+  file/hash receipt. Evidence is under
+  `archive/pdf/shared/evidence/reader-integration-2026-10-22/`. Local preview:
+  `http://127.0.0.1:4189/#/review`. No deployment or new restoration/human acceptance.
+
+
 ## 2026-10-08 — Review all completed PDF issues in the reading room
 
 - At the owner's request, staged March and May onto the validated November/

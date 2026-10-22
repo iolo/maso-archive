@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "status": "complete",
+  "output": "dist/reading-room-volunteer",
+  "url": "http://127.0.0.1:4189/#/review",
+  "counts": {
+    "issues": 152,
+    "tocEntries": 5299,
+    "articles": 3793,
+    "texts": 3785,
+    "listings": 3475,
+    "mediaRecords": 13925,
+    "covers": 149,
+    "coverAssets": 145
+  },
+  "pdf_articles": 407,
+  "cd_articles": 3386,
+  "pdf_issues": {
+    "maso-1983-11": 35,
+    "maso-1984-02": 37,
+    "maso-1984-03": 38,
+    "maso-1984-05": 36,
+    "maso-1984-06": 38,
+    "maso-1984-07": 36,
+    "maso-1984-08": 37,
+    "maso-1984-09": 37,
+    "maso-1984-10": 35,
+    "maso-1984-12": 30,
+    "maso-1985-02": 48
+  },
+  "data_manifest": {
+    "path": "dist/reading-room-volunteer/data/manifest.json",
+    "sha256": "715946418ba8e98f75a9a5784757005b0f8df1e79f3132598feac816d33a47ad",
+    "bytes": 24982476
+  },
+  "release": "archive/releases/reading-room-2026-10-22-all-restorations",
+  "release_files": 146736,
+  "release_receipt": {
+    "path": "archive/releases/reading-room-2026-10-22-all-restorations.json",
+    "sha256": "71970cf127464901780de014904cf67549dd0a3d53a3361a3e114c7bd1d3b0d3",
+    "bytes": 30590458
+  },
+  "validation": {
+    "path": "archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json",
+    "sha256": "fd01c7c964eb3ae376dacc63595a7a7bd3ddeebf19189f11727b5097ba564b81",
+    "bytes": 2176
+  },
+  "browser_validation": {
+    "path": "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-validation.json",
+    "sha256": "11b0963929fb996af898fcc291a8b0502a89d3e8de468e5dba10c89995d63c17",
+    "bytes": 2346
+  },
+  "reproduction": {
+    "path": "archive/pdf/shared/evidence/reader-integration-2026-10-22/reproduction.json",
+    "sha256": "693621c5299c345d958ccc23dd7fa6ec17a03048961a78fa14f15b4497da2e8e",
+    "bytes": 5011
+  },
+  "focused_python_tests": 13,
+  "frontend_tests": 25,
+  "typescript_and_production_build": "pass",
+  "full_data_checks": "pass inside each stage_issue export",
+  "preserved_base_files": 129400,
+  "new_standalone_package_files": 17168,
+  "human_acceptance_added": false,
+  "published": false,
+  "independent_backup_recovery": "unverified"
+}

@@ -166,6 +166,15 @@ the volunteer reader first if a retired snapshot depends on it.
 
 ## Restore the reading room
 
+The current volunteer release is
+`archive/releases/reading-room-2026-10-22-all-restorations/`, built from the verified
+`reading-room-2026-10-22-before-all-restorations` baseline plus December1984 and
+February1985. It contains all11 completed PDF restorations and all3 CDs. The local
+build is `dist/reading-room-volunteer/`; `make restore-volunteer-reading-room`
+selects this release and refuses an existing destination. Both new snapshots have
+complete independently checked file/hash receipts. This remains a same-disk copy,
+not an independently restored backup. The October notes below are historical.
+
 After the owner's October integration request, the current reader release is
 `archive/releases/reading-room-2026-10-19-october/` (nine PDF issues plus all three
 CDs). `make restore-volunteer-reading-room` selects that verified release.

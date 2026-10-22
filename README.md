@@ -30,13 +30,13 @@ for the issue layout, retention rules and reader restore command.
 
 ## Read the archive
 
-The unified volunteer reader includes **all eight restored PDF issues**
-(November 1983; February, March, May, June, July, August and September 1984) and **all
-three CDs**: 294 PDF article records plus 3,386 CD records. March's
-missing-source partial and the eight unresolved CD1 records remain visible.
+The unified volunteer reader includes **all 11 completed PDF restorations**
+(November 1983; February, March, May–October and December 1984; February 1985)
+and **all three CDs**: 407 PDF article records plus 3,386 CD records, 3,793 total.
+Known partial and unavailable states remain visible.
 
 ```sh
-python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
+python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room-volunteer
 ```
 
 Open [the volunteer reading room](http://127.0.0.1:4189/#/review).
