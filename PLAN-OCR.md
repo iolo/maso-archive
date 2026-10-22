@@ -19,24 +19,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: eleven of 48 entries are readable/sample-reviewed,
-  one article is partial, two headings are non-owning and 34 remain unresolved.
-  All CP/M의 진수0027 body pages printed78–89/PDF80–91 now have validated natives.
-  The final printed84–89/PDF86–91 package matches its independent rebuild across
-  263 files; all 4,300 exact UTF-8 ranges, 4,510 pins and 74 images pass. It retains
-  60 blocks/14 originals, lists6–11/seven caption links, 66 code rows, 30 stack
-  fields, nine prose joins and 36 localized source candidates. All 73 initial
-  exact crops, four repairs and one new bottom label were viewed before 60 tasks
-  (9 eng/51 kor+eng); all 60 drafts read before one source pass. No OCR failure,
-  retry or engine change. Source errors/addresses and BDS-C running header on
-  final CP/M page remain literal. One metadata revision expands address-index
-  coverage; a prior filename-reference preparation failure is retained and fixed.
-  Readings/crops/raws and the 209-file opening native remain unchanged.
-  All 15,919 prior files/30 core pins pass; fresh213-test batch17 baseline reused.
-  Preservation inventory contains 17,059 files. Both CP/M natives retain 472 files.
-  Next: separate complete CP/M assembly, preserving all native metadata and the
-  section boundary without a split-sentence join. No new mapping/OCR needed.
-  Extend pinned batch17 dispatcher; existing completed private formats remain.
+- March 1985 is in progress: twelve of 48 entries are readable/sample-reviewed,
+  no articles are partial, two headings are non-owning and 34 remain unresolved.
+  CP/M의 진수0027 is complete, printed78–89/PDF80–91. Its 481-file assembly matches
+  the independent rebuild and retains all 472 exact native files. All 8,579 active
+  UTF-8 ranges, 17,548 pins and 133 images pass; all 52 supplemental array slices
+  and 11 object projections reverse exactly to native metadata. It retains
+  107 blocks/26 originals, lists1–11, 100 code rows, 47 diagram-label rows, 30 stack
+  fields, 12 caption links, 65 source candidates and three unknown-count bands.
+  The section boundary is associated without inventing a split sentence or text
+  join; final source BDS-C running header stays separate from canonical CP/M title.
+  No new mapping/OCR/source correction. The initial adapter draft's identifier
+  error failed before execution; corrected revision and failed draft remain.
+  All 17,059 prior files/30 core pins pass; fresh213-test batch17 baseline reused.
+  Preservation inventory contains 18,051 files. No CP/M body pages or assembly pending.
+  Next: verify BDS-C0028's full extent from observed PDF92 and restore a bounded
+  first segment. Use pinned batch20 dispatcher for all four completed private formats.
   Parent0024, cover selection, source accounting and issue closeout remain pending.
   Follow [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.

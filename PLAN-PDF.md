@@ -24,24 +24,25 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-Eleven of 48 entries are readable and assistant sample-reviewed; one article is
+Twelve of 48 entries are readable and assistant sample-reviewed; no articles are
 partial, two headings are non-owning and 34 entries remain unresolved.
-All CP/M의 진수0027 body pages, printed78–89/PDF80–91, now have validated natives.
-The final printed84–89/PDF86–91 package matches its independent rebuild across
-all 263 files; all 4,300 exact UTF-8 ranges, 4,510 pins and 74 image decodes pass.
-It retains 60 blocks/14 originals, lists6–11/seven caption links, 66 physical code
-rows, 30 opaque stack fields and nine prose continuations. Source ORA1A/JZNZ,
-repeated JZ1, INR in DCR prose, CCD and differing addresses remain literal.
-The PDF91 BDS-C running header stays separate from its CP/M body and conclusion.
-All 15,919 prior files and 30 core pins pass; fresh213-test batch17 baseline reused.
-Preservation inventory contains 17,059 files. Both CP/M natives retain 472 files.
+CP/M의 진수0027 is complete, printed78–89/PDF80–91. Its 481-file assembly matches
+the independent rebuild, including all 472 exact native files. All 8,579 active
+UTF-8 ranges and 17,548 evidence pins verify; 52 supplemental array slices and
+11 object projections reverse exactly to native metadata. The complete article
+retains 133 regions/107 blocks/26 originals, lists1–11, 100 physical code rows,
+47 diagram-label rows, 30 opaque stack fields and 12 actual caption links.
+The section boundary is associated without a split-sentence or encoded join.
+The final-page BDS-C running header and all source discrepancies remain literal.
+All 17,059 prior files and 30 core pins pass; the fresh213-test batch17 baseline
+is reused. Preservation inventory contains 18,051 files. No body pages or assembly
+remain pending for CP/M; MAT, printer and communication remain complete.
 
-Next: assemble complete CP/M from the two immutable natives, preserving every
-native file/metadata and resolving the JMP-ending→console-status section link
-without a split-sentence join. No new mapping/OCR needed. Extend the pinned
-batch17 dispatcher for complete CP/M; MAT, printer and communication remain
-complete. Parent0024 has five children and remains unresolved; cover selection,
-source accounting and issue closeout remain pending. No reader rebuild.
+Next: verify BDS-C0028's full extent from its observed PDF92 opening, then restore
+its first bounded segment. Printed TOC90/next104 are lookup cues, not a global
+PDF offset. Use pinned batch20 assembly_dispatch_r02 for all four completed March
+private formats. Parent0024 has five children and remains unresolved; cover
+selection, source accounting and issue closeout remain pending. No reader rebuild.
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
