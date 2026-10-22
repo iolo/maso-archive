@@ -6,18 +6,18 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: nine of 48 entries are readable/sample-reviewed,
-with two non-owning headings, one partial article and 36 unresolved entries.
-Batch11 restores the first printed50–55/PDF52–57 of 프린터 활용방법; its full
-extent is printed50–60/PDF52–62. All 366 native files match the independent
-rebuild; 4,387 exact UTF-8 ranges and 4,707 pins pass. It retains 94 physical
-code rows, 83 BASIC labels, 12 program/output pairs, 24 caption links, 23 hex
-fields and 46 explicit unknown bands. All 5,596 prior files and 30 core pins
-remain exact; the fresh 213-test environment baseline is unchanged.
-Next: restore finalprinted56–60/PDF58–62 and example12 output12→13. Exclude
-lowerPDF61 independent notices from printer body. Assembly and parent0024
-classification follow separately. Cover selection, source accounting and issue
-closeout remain pending. See [March's log](docs/progress/8503.md) and
+March 1985 is in progress: nine of48 entries are readable/sample-reviewed,
+with two non-owning headings,one partial article and36 unresolved entries.
+Both immutable printer natives now cover printed50–60/PDF52–62. Batch12 final56–60
+matches its independent rebuild across366 files;3,484 exact ranges/3,803 pins pass.
+It retains107 physical code rows/98 BASIC labels,12 program/output associations,
+24 captions,eight table rows and21 unknown bands. Sourcecaption reversal,blankresult,
+repeatedline10,four bracket candidates andincoming output12→13 remain explicit.
+LowerPDF61 notices stay excluded. All7,264 prior files/30 core pins remain exact;
+the fresh213-test baseline is unchanged. Next: assemble printer-a/b,retaining all732
+native files andfullmetadata. Parent0024 hasfive children andremains unresolved;
+MAT0026 follows printer assembly. Cover selection,source accounting andissue closeout
+remain pending. See [March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56

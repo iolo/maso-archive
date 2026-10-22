@@ -759,7 +759,14 @@
         "PDF61/printed59 has upperprinterbody andtwo lowerindependentpublishernotices,includingcanonical0008 독자여러분의 원고를 모집합니다. Those lowernotices belongoutsideprinterbody andawait separatecanonical/accounting review.",
         "Read eachpage left→right. Textmode continuesPDF52right→PDF53left;LF continuesPDF53right→PDF54left. Eachprogram/output pair retains its own originalpanel. Printedex03 output continuesPDF54→55;ex07 outputPDF55→56;ex11 outputPDF57samepageoppositecolumn. Ex12 output continuesonPDF58 andisdeferred.",
         "Onecanonicaltask,sixmappedpages,nineoutside-maplookups51,58–65;fifteenfullviewschecked. No globalfoliooffsetinferred.",
-        "PrintedESCparameters,CHR$values,programtypos andoutputs remainindependent. Sourcecaption프로그램/결과 anddata/controlstreams are literal;no execution orencodedbyte certification."
+        "PrintedESCparameters,CHR$values,programtypos andoutputs remainindependent. Sourcecaption프로그램/결과 anddata/controlstreams are literal;no execution orencodedbyte certification.",
+        "Finalprinted56–60/PDF58–62 follows immutablefirstnativeprinted50–55/PDF52–57. AllPDF57–63 checked again. PDF62 terminalmark endsarticle before independentadvertisingPDF63.",
+        "Currentfivepages completeallbody extraction fromfullPDF52–62 extent,withcompleteassembly stillseparate. Openingnative remainsimmutable andthisfinalnative stayspartial.",
+        "Incomingex12output follows12atPDF57 with13–25onPDF58. Sourceprintedline10 ofex16 appearsatbottomPDF58 andagain atopPDF59;both ownoccurrences retained,nodeduplication orencodedjoin.",
+        "Read eachpage left→right,interleaving program/outputpanels withtheir source explanations. SI prose crossesPDF58columns. Underlineexample21 output crossesPDF60→61. Blankexample20resultarea andex24printed reversed프로그램/결과 labels retainedasshown.",
+        "PDF61upperbody only belongs toprinter. Two lowerindependentpublishernotices explicitlyexcluded. Upperoriginal andseparatefoliocrop preserveeligiblepixels;privatefullsource remainsretained.",
+        "Onecanonicaltask,fivemappedpages,twooutside-maplookups57/63,sevenreusedwholeviews. No globalfoliooffsetinferred.",
+        "Countrytable retains twoheaders,eightsourcerows andopaque0–7references;no countrycode/hardware verification. FinalZ80softcard DDT/patchfields remainliteral,not executedorreconstructed."
       ],
       "restoration": {
         "directory": "archive/pdf/1985-03/packages/batch-11-r01/printer-a",
@@ -836,6 +843,44 @@
               "55"
             ],
             "availability": "partial"
+          },
+          {
+            "id": "printer-b",
+            "directory": "archive/pdf/1985-03/packages/batch-12-r01/printer-b",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-12-r01/printer-b/manifest.json",
+              "sha256": "a7340bfee0571d40fbc069de96f75052878febcf6f30d2ac1928122451532bc4",
+              "bytes": 60717
+            },
+            "pdf_pages": [
+              58,
+              59,
+              60,
+              61,
+              62
+            ],
+            "printed_pages": [
+              "56",
+              "57",
+              "58",
+              "59",
+              "60"
+            ],
+            "availability": "partial",
+            "excluded_regions": [
+              "pdf61-backissue-notice",
+              "pdf61-recruit-notice"
+            ],
+            "validation": {
+              "path": "archive/pdf/1985-03/restoration/batch-12/validation.json",
+              "sha256": "d626f2271f1867b5c5f0a2c62b1e5760d5838b3d7eca272944e8cee7cd057f65",
+              "bytes": 2182
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-03/restoration/batch-12/reproduction.json",
+              "sha256": "926b6605a0f7b809ba17a680d1437b54cbf44ed71e684ae7ff306a7e99001a77",
+              "bytes": 1307
+            }
           }
         ],
         "assembly_required": true,
@@ -854,6 +899,41 @@
           "path": "archive/pdf/1985-03/restoration/batch-11/reproduction.json",
           "sha256": "0666ae61cfe47e65b2d1b74770e6111428c495c86792ffe81830db00ed5d7e30",
           "bytes": 1293
+        },
+        "native_segments_coverage": {
+          "pdf_pages": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "all_eligible_body_pages_restored": true,
+          "deferred_pdf_pages": [],
+          "assembly_pending": true,
+          "mixed_page_exclusions": {
+            "pdf_page": 61,
+            "excluded_regions": [
+              "pdf61-backissue-notice",
+              "pdf61-recruit-notice"
+            ]
+          }
+        },
+        "incoming_boundary": {
+          "path": "archive/pdf/1985-03/restoration/batch-12/incoming-boundary.json",
+          "sha256": "8218b8f61555b404c95eee2d0406a917db626c35cbef626e32fd4baf539d4013",
+          "bytes": 1963
+        },
+        "final_native_validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-12/validation.json",
+          "sha256": "d626f2271f1867b5c5f0a2c62b1e5760d5838b3d7eca272944e8cee7cd057f65",
+          "bytes": 2182
         }
       }
     },
@@ -1606,6 +1686,51 @@
         62
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-12",
+      "status": "complete",
+      "stage": "validated-final-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0025"
+      ],
+      "mapped_pdf_pages": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "outside_map_lookup_pages": [
+        57,
+        63
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 84,
+      "eng_code_tasks": 16,
+      "kor_eng_tasks": 68,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-12/validation.json",
+        "sha256": "d626f2271f1867b5c5f0a2c62b1e5760d5838b3d7eca272944e8cee7cd057f65",
+        "bytes": 2182
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-12/verification-completed.json",
+        "sha256": "ce743d97074bd54127e2b4d99e68f869326d951e3ca33abedce0da7f69c99d18",
+        "bytes": 1311
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-12-preserved-work.json",
+        "sha256": "45df2efb7a1cc9dd9cc9568b29fa85762860035c1391525bbbc1b4cd00b9fb7c",
+        "bytes": 1925457
+      },
+      "started_at": "2026-10-22T12:48:24.509232+00:00",
+      "finished_at": "2026-10-22T13:16:24.170343+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;activehumaneffortunmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -1943,52 +2068,52 @@
     },
     {
       "pdf_page": 58,
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0025"
       ],
       "printed_page": "56",
-      "restoration": "pending",
+      "restoration": "checked-final-native;completeassembly-pending",
       "notes": "No finalbodytranscription selectedinthischeckpoint."
     },
     {
       "pdf_page": 59,
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0025"
       ],
       "printed_page": "57",
-      "restoration": "pending",
+      "restoration": "checked-final-native;completeassembly-pending",
       "notes": "No finalbodytranscription selectedinthischeckpoint."
     },
     {
       "pdf_page": 60,
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-03-toc-0025"
       ],
       "printed_page": "58",
-      "restoration": "pending",
+      "restoration": "checked-final-native;completeassembly-pending",
       "notes": "No finalbodytranscription selectedinthischeckpoint."
     },
     {
       "pdf_page": 61,
-      "classification": "mixed-article-and-notices-observed",
+      "classification": "mixed-article-and-notices",
       "toc_entry_ids": [
         "maso-1985-03-toc-0025"
       ],
       "printed_page": "59",
-      "restoration": "pending",
+      "restoration": "checked-final-native;completeassembly-pending",
       "notes": "PDF61printerupperbodyonly;lowerbackissuesale andcanonical0008recruitnotice stayseparate."
     },
     {
       "pdf_page": 62,
-      "classification": "article-ending-observed",
+      "classification": "article-ending",
       "toc_entry_ids": [
         "maso-1985-03-toc-0025"
       ],
       "printed_page": "60",
-      "restoration": "pending",
+      "restoration": "checked-final-native;completeassembly-pending",
       "notes": "No finalbodytranscription selectedinthischeckpoint."
     },
     {
@@ -2019,21 +2144,13 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-12",
-    "goal": "Restore finalprinted56–60/PDF58–62 of프린터 활용방법;preserve openingnative andvalidate incomingex12output12→13. Completeassembly and교육입문 parentclassification followseparately.",
+    "id": "batch-13",
+    "goal": "Assemble full프린터 활용방법 fromimmutableprinter-a/b;resolve incomingex12output12→13 andits priorcaptionassociation whilepreserving mixedPDF61exclusions,repeatedline10,blankoutput andsourcecaptionreversal.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0025"
     ],
-    "mapping_targets": "FullarticlePDF52–62 andadjacent51/63–65 alreadyviewed. Reuse savedviews. MapPDF58–62 only;PDF61upperprinterbody mustexclude lowerbackissuesale/recruitnotices. Preservefinalcode andZ80softcardsection;no sourcebytes/technicalrepair.",
-    "provisional_lookup_targets": [
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63
-    ],
+    "mapping_targets": "No newmapping/OCR/sourcecorrection. FullPDF52–62 bodycoverage existsintwo natives. Keepall732nativefiles andfullmetadata. Parent0024hasfivechildren andremainsunresolved;MAT0026 followsafterprinterassembly.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -2051,9 +2168,11 @@
     "Communication firstnative preserves sourceVM/VH370,회신,충분하는데,그/진수0,롬/램 andother literal candidates;fourdiagram originals and33 labels retained.No technical/reference/encoding certification.",
     "Communication finalnative retains48 opaque tablefields,nineheaders,ninefigurelabels andoneuntranscribedbinarysignalband.SourceACA,패리티비트를문자끝,0의로의,통신용어/댑터 and댓가 remain literal.",
     "Communication complete package requires pinnedprivatecommunication_literal adapter forofflinecheck/issueexport;allnativependingflags retainedas historicalmetadata whilecompletecoverage hasno deferredpages orassembly pending.",
-    "36 canonical entries remain unresolved;printerarticlepartial withfinalPDF58–62 andassembly pending.Cover selection,remaining sourceaccounting andissuecloseout pending.No globalfoliooffset inferred.",
     "Printerfirstnative preservesVF,carrige,AUTO FEED XT,duplicated48/final0D10,quote/semicolonphysicalwraps andCHR$(I)separator discrepancy. Forty-sixunknownbands retainmarkers/scans;no control-byte,syntax,hardware orexecution certification.",
-    "MixedPDF61 hasupperprinterbody andtwo lowerpublishernotices,includingcanonical0008recruitnotice. Do notassign lowernotices toprinterbody;theircanonical/accounting reviewremainspending."
+    "MixedPDF61 hasupperprinterbody andtwo lowerpublishernotices,includingcanonical0008recruitnotice. Do notassign lowernotices toprinterbody;theircanonical/accounting reviewremainspending.",
+    "36canonicalentries remainunresolved;printerhasall11eligiblebodypages intwoimmutablenatives butneeds completeassembly.Coverselection,remaining sourceaccounting andissuecloseout pending.",
+    "Printerfinalnative retainsfour[closingglyphcandidates,blankex20output,reversedex24captions,repeatedex16line10,21unknownbands andopaqueDDTpatchfields.No syntax,hardware,byte,output orencodingreconstruction.",
+    "교육입문 parent0024 hasfivecanonicalchildren0025–0029. Printerassembly alone doesnotestablishfullparentextent;deferparentclassification untilallchildrenandgroupboundarieschecked."
   ],
   "reader_rebuild": false
 }

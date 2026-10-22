@@ -19,20 +19,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: nine of 48 entries are readable/sample-reviewed,
-  two headings are non-owning, printer is partial and 36 entries remain unresolved.
-  Batch11 restores its first printed 50–55 / PDF 52–57; full extent 50–60 /
-  PDF52–62 is verified. All 366 native files match the independent rebuild;
-  4,387 UTF-8 ranges and 4,707 pins pass. It retains 94 physical code rows / 83
-  BASIC labels, 12 program/output pairs, 24 caption links, four control streams,
-  23 hex fields and 46 explicit unknown bands. All 5,596 prior files / 30 core
-  pins remain exact; the fresh 213-test environment baseline is unchanged.
-  Next: restore final printed56–60/PDF58–62 and example12 output12→13. Reuse
-  PDF57–63; map the five final pages, excluding lowerPDF61 publisher notices
-  from printer body. Complete assembly and parent0024 classification follow
-  separately. Keep two tasks/six mapped pages/twenty outside lookups. Cover
-  selection, remaining source accounting and issue closeout remain pending.
-  Follow [March's log](docs/progress/8503.md) and
+- March 1985 is in progress: nine of48 entries are readable/sample-reviewed,
+  two headings are non-owning,printer is partial and36 remain unresolved. Both
+  immutable printer natives cover printed50–60/PDF52–62. Batch12's final56–60
+  package matches its rebuild across366 files;3,484 ranges/3,803 pins pass.
+  It retains107 physical code rows/98 BASIC labels,three terminal fragments,
+  12 program/output associations,24 captions,eight table rows and21 unknown bands.
+  Incoming output12→13,repeatedline10,blankresult,sourcecaptionreversal andfour
+  bracket candidates stay source-linked. LowerPDF61 notices excluded;upperbody
+  andfolio retained separately. All7,264 prior files/30 core pins remain exact;
+  the fresh213-test baseline is unchanged. Next: separate complete assembly from
+  printer-a/b,retaining all732 native files andresolving priorcaption association.
+  No mapping/OCR. Parent0024 hasfive children andremains unresolved while the
+  otherfour await restoration. MAT0026 follows. Cover selection,remaining source
+  accounting andissue closeout remain pending. Follow
+  [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
