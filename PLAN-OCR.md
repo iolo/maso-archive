@@ -19,25 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:all48 entries classified as39 readable/sample-reviewed articles and
-  nine non-owning headings;zero partial/unresolved. All39 selected packages/9582
-  files/2743 regions2069 blocks674 figures remain unchanged. Donated cover verified:
-  RGB JPEG477×640/60112bytes/metadata stripped/private independent rebuild exact;
-  original and existing derivative unchanged. All244 pages accounted:217 body/27
-  outside (22 ads,two unlisted charts10–11,contents17,cover1,publisher notice147).
-  Unlisted source pixels preserved without new article identities/transcription.
-  Seven shared pages/162 disjoint nonfigure pairs;399 all-region pairs comprise395
-  disjoint plusfour common-folio image pairs61/143/150/161;no body overlap.28 native
-  exclusion records retained;source folio208 remains null.20 outside views/17 new
-  renders/three reused/zero mapping/OCR/source correction/export;seven earlier ads
-  reuse retained evidence. All61230 prior files/74 inventories/30 core pins/39 readable/
-  14 formats pass;213 baseline68 reused. Inventory61311files. Two failed accounting
-  verifiers preserved;selectedr03 handles optional older metadata and corrects expected
-  exclusion count27 to actual28 (8ad/20other). Source/selected packages unchanged.
-  Next standalone issue index/report/independent issue rebuild/fresh closeout213/full
-  requirements audit. Human-source/volunteer limits/global batch52 timing exception
-  retained. Follow [March log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March 1985 is complete under canonical TOC JSON/assets:48 entries account for
+  39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
+  unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;
+  report `archive/pdf/1985-03/evidence/issue-closeout/report.json`. All9,588 issue files
+  independently exact,including9,582 selected package files/2,743 regions/2,069 blocks/
+  674 figures. All385,683 local UTF8 ranges/2,715 distinct images/14 private assembly
+  formats pass. All244 pages accounted:217 body/27 outside (22 ads,two unlisted charts,
+  contents,cover,publisher notice). Seven shared pages/162 disjoint nonfigure pairs;
+  four common-folio image overlaps only;28 native exclusions/PDF208 null preserved.
+  Donated477×640/60,112byte thumbnail and independent private rebuild exact;original
+  unchanged. Fresh213 PDF tests pass;all61,311 prior files/75 inventories/30 core pins/
+  14 adapters unchanged. All75 checkpoints bounded;53 OCR checkpoints/2,069 tasks
+  (350eng code/1,719kor+eng other),one source pass each/zero recognition retries.
+  Retain batch52 replacement-crop timing exception and all failed attempts,including
+  two accounting verifier drafts. Reproduce with
+  `archive/pdf/1985-03/restoration/issue-closeout/reproduction.json`.
+  Human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/
+  execution/backup recovery remain unverified;news/classified body/custom labels
+  await volunteers. No reader rebuild. No March checkpoint remains;future October1985
+  work is separate and not started. See [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

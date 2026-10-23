@@ -30,7 +30,7 @@ for the issue layout, retention rules and reader restore command.
 
 ## Read the archive
 
-The unified volunteer reader includes **all 11 completed PDF restorations**
+The unified volunteer reader’s 2026-10-22 snapshot includes **11 completed PDF restorations**
 (November 1983; February, March, May–October and December 1984; February 1985)
 and **all three CDs**: 407 PDF article records plus 3,386 CD records, 3,793 total.
 Known partial and unavailable states remain visible.
@@ -158,17 +158,18 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate JSON/assets campaign. November 1983; February,
 March, May, June, July, August, September, October and December 1984; and February
-1985 are complete. March 1984 retains one missing-source terminal partial; no April
-PDF was supplied. February 1985 accounts for all 56 canonical entries: 48 readable,
-assistant sample-reviewed articles and eight non-owning headings. All 260 source
-pages are classified and the donated cover is verified. Its standalone index is
-`archive/pdf/1985-02/reference/issue.json`; the final report is
-`archive/pdf/1985-02/evidence/issue-closeout/report.json`. All 10,601 files match the
-independent rebuild, and all 213 freshly rerun PDF tests pass. Human acceptance,
-full proofreading, source bytes, encoded spacing, historical claims, execution and
-independent backup recovery remain unverified; glyph/diagram-label work and source
-uncertainties remain explicit. Reader delivery is separate. See the
-[PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md) and
+and March 1985 are complete. March 1984 retains one missing-source terminal partial;
+no April PDF was supplied. March 1985 accounts for all48 canonical entries:39 readable,
+assistant sample-reviewed articles and nine non-owning headings. All244 source pages
+are classified and the donated cover is verified. Its standalone index is
+`archive/pdf/1985-03/reference/issue.json`; the whole-issue report is
+`archive/pdf/1985-03/evidence/issue-closeout/report.json`. All9,588 files match the
+independent rebuild,including9,582 exact selected package files;fresh213 PDF tests pass.
+Human acceptance/full proofreading,source bytes/encoded spacing/glyph counts,
+historical and technical claims,execution and independent backup recovery remain
+unverified;volunteer glyph/diagram-label and news/classified-body work remains explicit.
+The batch52 crop-timing exception is preserved. No reader rebuild followed this closeout.
+See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md) and
 [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 ## Validation and handoff

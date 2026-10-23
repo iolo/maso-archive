@@ -6,48 +6,48 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress. All 48 canonical TOC entries are classified:
-39 readable, assistant sample-reviewed articles and nine non-owning headings.
-No article is partial and no eligibility question remains unresolved. All 39 selected
-packages remain unchanged: 9,582 files, 2,743 regions, 2,069 blocks and 674 original
-figures. Game parent0045 remains non-owning; all three complete children retain
-their separate bodies. Canonical identities, titles, order and parents are unchanged.
+March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
+are accounted for by 39 readable, assistant sample-reviewed articles and nine
+non-owning headings. No partial articles, unresolved eligibility or article assembly
+remain. Canonical identities, titles, order and parent relationships are unchanged.
 
-All 244 PDF pages are accounted for: 217 contain selected article bodies and 27 are
-outside-body material. The latter comprise 22 advertisements/promotions, two unlisted
-reference charts10–11, contents17, front cover1 and publisher contest notice147.
-Unlisted charts and notices remain original private source images without new article
-identities or transcription. Twenty outside views were individually inspected within
-the checkpoint limit; seven previously classified advertisement pages reuse their
-retained source evidence. No mapping, OCR or source correction was needed.
+The standalone index is `archive/pdf/1985-03/reference/issue.json`. The whole-issue
+validation report is `archive/pdf/1985-03/evidence/issue-closeout/report.json`; the
+completion record and requirement audit are in the same directory. All 9,588 issue
+files match the independent rebuild, including 9,582 exact selected-package files.
+The 39 packages retain 2,743 regions, 2,069 blocks and 674 original figures; all
+385,683 local UTF-8 excerpt ranges and 2,715 distinct images validate. All 14 private
+assembly formats retain their native files, full metadata and source uncertainties.
+Reproduce/check using `archive/pdf/1985-03/restoration/issue-closeout/reproduction.json`.
 
-Seven pages have two canonical owners. All 162 pairs of mapped non-figure regions
-are disjoint. Of 399 cross-owner region pairs, 395 are disjoint; four small overlapping
-pairs preserve only the same printed folio on61/143/150/161. They do not duplicate
-article bodies. All 28 native exclusion records remain exact, including mixed-page
-advertisements/publisher notices and historical notes about formerly pending neighbors.
-The active ownership table governs current status. PDF208's printed folio stays null.
+All 244 source pages are classified: 217 contain selected article bodies and 27 are
+outside-body material (22 advertisements/promotions, two unlisted reference charts,
+one contents page, one cover and one publisher notice). Seven pages have two owners;
+all 162 pairs of non-figure regions are disjoint. Four small overlapping image pairs
+contain only common printed folios. All 28 native exclusion records remain exact.
+PDF208's printed folio stays null. Unlisted charts10–11 and notice147 remain private
+source images outside canonical transcription; no new article identities were added.
 
-The donated cover takes priority. Its verified RGB JPEG thumbnail is 477×640 and
-60,112 bytes, with metadata stripped; a private independent rebuild is byte-identical.
-The donated original and existing derivative are unchanged. Both donated cover and
-PDF1 visibly identify85.3; contents17 independently identifies1985년3월호 통권17호.
+The donated cover thumbnail is verified: RGB JPEG, 477×640, 60,112 bytes, metadata
+stripped, with an independently identical private rebuild. The donated original and
+existing derivative remain unchanged. Fresh `make test-pdf PYTHON=.venv/bin/python`
+passes all 213 tests. All 61,311 earlier files, 75 prior checkpoint inventories,
+30 core implementation pins and 14 private adapters remain unchanged. Every prior
+attempt, crop, raw OCR, correction, recipe, native and failed revision is retained.
 
-All 61,230 prior files, 74 prior inventories, 30 core pins, 39 readable packages and
-14 private formats pass. The unchanged 213-test baseline68 is reused. Current
-preservation inventory contains 61,311 files. Two failed accounting verifier
-drafts remain preserved: one assumed optional fields absent from older valid records;
-the other expected27 exclusions instead of the independently enumerated28. Selected
-r03 fixes these verifier assumptions; source readings and selected articles are unchanged.
+All 75 restoration/accounting checkpoints meet the two-task/six-mapped-page/
+twenty-outside-lookup limits. The 53 OCR checkpoints retain 2,069 pinned Tesseract
+tasks and one recorded source correction pass each. Batch52's four replacement
+crops were observed after OCR launch; that explicit timing exception and later
+source checks remain in the final audit. The two accounting verifier failures
+and all earlier failed attempts remain preserved.
 
-Next: export the standalone issue index and report, independently rebuild the complete
-issue, rerun all 213 PDF tests and audit every requirement before declaring completion.
-Use the pinned batch72 dispatcher for all 14 private formats and retain all evidence.
 Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts,
-historical/technical claims, execution and backup recoverability remain unverified.
-News/classified-body and custom-glyph label transcription await volunteers. The
-batch52 crop-timing exception remains explicit. No reader rebuild; the full March
-goal remains active.
+historical/technical claims, code execution and independent backup recovery remain
+unverified. News/classified-body transcription and custom glyph/diagram labels await
+volunteers. No reader was rebuilt. March has no remaining restoration checkpoint.
+Any next-issue work is separate; the next supplied eligible campaign issue is
+October 1985, and none of its restoration is included in this closeout.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

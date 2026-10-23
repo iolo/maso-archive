@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1985-03",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-23",
   "source": {
     "path": "maso-pdf/maso-8503.pdf",
@@ -8613,6 +8613,49 @@
       "started_at": "2026-10-23T13:23:23.673916+00:00",
       "finished_at": "2026-10-23T13:43:15.218551+00:00",
       "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "issue-closeout",
+      "status": "complete",
+      "checkpoint": {
+        "path": "archive/pdf/1985-03/restoration/issue-closeout/checkpoint.json",
+        "sha256": "6d6f00ce94b711d956288472f6b3d4fa9bad9b4bafaf9a06b7d6e1d7a67b76f1",
+        "bytes": 12445
+      },
+      "report": {
+        "path": "archive/pdf/1985-03/evidence/issue-closeout/closeout.json",
+        "sha256": "ec6d19d5f7390505a54529e79e540d5ca1e5753d1b67babd6d8c3049dbb36691",
+        "bytes": 5764
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/evidence/issue-closeout/report.json",
+        "sha256": "5478299f996cab47e80216cb4f8bfa4278250785562b0776cc6db5e99278e177",
+        "bytes": 28060
+      },
+      "completion_audit": {
+        "path": "archive/pdf/1985-03/evidence/issue-closeout/completion-audit.json",
+        "sha256": "f75d7578c0f27cbc047d4d6e459914ddd6ebc39f1be0033a227707f1bc1dd299",
+        "bytes": 21412
+      },
+      "reproduction": {
+        "path": "archive/pdf/1985-03/restoration/issue-closeout/reproduction.json",
+        "sha256": "279c3eebecd49574b4ae29121a49ad22994178045b03aa3a12416b654f6701dd",
+        "bytes": 4032
+      },
+      "canonical_tasks": 0,
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "reader_rebuild": false,
+      "independent_rebuild_byte_identical": true,
+      "tests": 213,
+      "issue_files": 9588,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/issue-closeout/preserved-work-inventory.json",
+        "sha256": "9ac71e91aca52cb0f4cfe50347c5095451373e979d3718ed20f83b6dff4f6899",
+        "bytes": 18656861
+      }
     }
   ],
   "source_page_observations": [
@@ -13339,18 +13382,7 @@
     "independent_rebuild_exact": true,
     "reader_rebuild": false
   },
-  "next_checkpoint": {
-    "id": "issue-closeout",
-    "goal": "Deliver and independently reproduce the complete March1985 canonical TOC JSON/assets issue, then audit full requirements.",
-    "toc_entry_ids": [],
-    "mapping_targets": "All48 entries/39 readable/nine non-owning/zero partial/unresolved. Cover verified donated477x640/60112byte thumbnail and private independent exact rebuild. All244 source pages accounted:217 body/27 outside (22 ads,two unlisted charts10–11,contents17,cover1,unlisted publisher notice147). Seven shared pages61/143/150/161/205/221/228:162 nonfigure pairs disjoint;399 all-region pairs comprise395 disjoint plusfour common printed-folio-only image pairs on61/143/150/161.28 native exclusion records retained;source folio208 remains null. All39 selected packages/9582 files/2743 regions2069 blocks674 figures unchanged. Build a fresh private canonical issue base/export ledger from unchanged structured TOC and selected donated thumbnail. Use pinned batch72 assembly_dispatch.py/14 formats with installed() for issue export/check,retain30 core pins. Export standalone archive/pdf/1985-03/reference/issue.json and full private evidence/issue-closeout/report.json. Independently rebuild/check complete issue byte-for-byte includingall9582 exact selected files;validate own source/range/image/native/reverse projections,manifest/ownership/counts/cover/source accounting. Fresh make test-pdf PYTHON=.venv/bin/python must pass213 at closeout. Audit every batch against bounds/source inspection/OCR settings/preservation/corrections/uncertainties and every explicit PLAN-PDF/PLAN-OCR requirement;global batch52 crop observation timing exception remains explicit. Retain both current failed accounting verifiers and fresh r03 results; failures were optional-field compatibility and expected exclusion count27 corrected to actual28,not article/source changes. Retain all old/current archive files,full metadata/raws/crops/maps/recipes/revisions. No human acceptance/fullproofreading/encodedbytes/exactspacing/glyphcounts/claim/code execution or backup-recoverability inference. News/classified body/custom glyph volunteers remain. No reader/frontend/browser rebuild. Mark goal complete only after actual completeissue/rebuild/fresh213/full audit/docs/commit; do not start another issue.",
-    "provisional_lookup_targets": [],
-    "limits": {
-      "articles": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    }
-  },
+  "next_checkpoint": null,
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
@@ -13477,5 +13509,46 @@
     "path": "archive/pdf/1985-03/restoration/issue-accounting-01/mixed-page-exclusions.json",
     "sha256": "addafe207749bd8e165bfb8a68cc538a1352e8909b736b7f01ab33f7a586767b",
     "bytes": 18490
+  },
+  "issue_closeout": {
+    "report": {
+      "path": "archive/pdf/1985-03/evidence/issue-closeout/closeout.json",
+      "sha256": "ec6d19d5f7390505a54529e79e540d5ca1e5753d1b67babd6d8c3049dbb36691",
+      "bytes": 5764
+    },
+    "validation": {
+      "path": "archive/pdf/1985-03/evidence/issue-closeout/report.json",
+      "sha256": "5478299f996cab47e80216cb4f8bfa4278250785562b0776cc6db5e99278e177",
+      "bytes": 28060
+    },
+    "completion_audit": {
+      "path": "archive/pdf/1985-03/evidence/issue-closeout/completion-audit.json",
+      "sha256": "f75d7578c0f27cbc047d4d6e459914ddd6ebc39f1be0033a227707f1bc1dd299",
+      "bytes": 21412
+    },
+    "reproduction": {
+      "path": "archive/pdf/1985-03/restoration/issue-closeout/reproduction.json",
+      "sha256": "279c3eebecd49574b4ae29121a49ad22994178045b03aa3a12416b654f6701dd",
+      "bytes": 4032
+    },
+    "issue_index": {
+      "path": "archive/pdf/1985-03/reference/issue.json",
+      "sha256": "6e5207b8109c27f9ccda909f0484c5587f23567cb9f4e35777c17b19377fe558",
+      "bytes": 12003
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1985-03/reference/manifest.json",
+      "sha256": "cf502d2c2a0fbef3a34ec42b6211171081cb0f247bf3c0c3f295333661e9117d",
+      "bytes": 1697685
+    },
+    "independent_rebuild_byte_identical": true,
+    "pdf_tests": 213,
+    "human_acceptance": "pending",
+    "preserved_work_inventory": {
+      "path": "archive/pdf/1985-03/evidence/issue-closeout/preserved-work-inventory.json",
+      "sha256": "9ac71e91aca52cb0f4cfe50347c5095451373e979d3718ed20f83b6dff4f6899",
+      "bytes": 18656861
+    },
+    "preserved_files": 80532
   }
 }

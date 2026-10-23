@@ -1,4 +1,4 @@
-# Successor handoff — 2026-10-22
+# Successor handoff — 2026-10-23
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
@@ -11,34 +11,52 @@ notes before changing browser origin. The prior nine-issue reader and the comple
 new release are preserved under `archive/releases/reading-room-2026-10-22-*`.
 See [the reader guide](READING-ROOM.md) and
 `archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json`.
-This local build adds no human acceptance and performs no deployment.
+This local build adds no human acceptance and performs no deployment. March1985 is a later data-only closeout and is not yet included in this 11-issue reader snapshot.
 
 ## Latest completed issue
 
-February 1985 is complete under the canonical TOC JSON/assets scope: all 56
-entries are accounted for by 48 readable, assistant sample-reviewed articles and
-eight non-owning headings. No partial articles or unresolved eligibility remain.
-All 260 PDF pages are classified: 232 contain selected article bodies and 28 are
-outside-body material. Ten pages have two canonical owners; their 284 pairs of
-mapped non-figure regions are disjoint. The donated cover thumbnail is verified.
+March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
+are accounted for by 39 readable, assistant sample-reviewed articles and nine
+non-owning headings. No partial articles, unresolved eligibility or article assembly
+remain. Canonical identities, titles, order and parent relationships are unchanged.
 
-The standalone index is `archive/pdf/1985-02/reference/issue.json`; the final report
-is `archive/pdf/1985-02/evidence/issue-closeout/report.json`. All 10,601 issue files
-match the independent rebuild, including 10,595 exact selected-package files.
-All 213 freshly rerun PDF tests pass. Reproduce/check the export using
-`archive/pdf/1985-02/restoration/issue-closeout/reproduction-r02.json` and the pinned
-dispatcher for the 13 private assembly adapters. All 58,348 earlier
-files and 30 core implementation pins remain unchanged. Checkpoint details and
-source limitations remain in [the February log](progress/8502.md), the ledger
-and retained private evidence.
+The standalone index is `archive/pdf/1985-03/reference/issue.json`. The whole-issue
+validation report is `archive/pdf/1985-03/evidence/issue-closeout/report.json`; the
+completion record and requirement audit are in the same directory. All 9,588 issue
+files match the independent rebuild, including 9,582 exact selected-package files.
+The 39 packages retain 2,743 regions, 2,069 blocks and 674 original figures; all
+385,683 local UTF-8 excerpt ranges and 2,715 distinct images validate. All 14 private
+assembly formats retain their native files, full metadata and source uncertainties.
+Reproduce/check using `archive/pdf/1985-03/restoration/issue-closeout/reproduction.json`.
 
-Human acceptance and full proofreading remain pending. Source bytes, exact encoded
-spacing, historical claims, code execution and independent backup recovery remain
-unverified. Glyph/diagram-label volunteer work and source errors remain explicit.
-Unlisted panels and advertisements remain outside canonical-body transcription;
-the index's visible-folio 240/TOC 256 conflict is preserved. No reader was rebuilt.
-February has no remaining restoration checkpoint. March 1985 is the next campaign
-issue; no work on it is included in this closeout.
+All 244 source pages are classified: 217 contain selected article bodies and 27 are
+outside-body material (22 advertisements/promotions, two unlisted reference charts,
+one contents page, one cover and one publisher notice). Seven pages have two owners;
+all 162 pairs of non-figure regions are disjoint. Four small overlapping image pairs
+contain only common printed folios. All 28 native exclusion records remain exact.
+PDF208's printed folio stays null. Unlisted charts10–11 and notice147 remain private
+source images outside canonical transcription; no new article identities were added.
+
+The donated cover thumbnail is verified: RGB JPEG, 477×640, 60,112 bytes, metadata
+stripped, with an independently identical private rebuild. The donated original and
+existing derivative remain unchanged. Fresh `make test-pdf PYTHON=.venv/bin/python`
+passes all 213 tests. All 61,311 earlier files, 75 prior checkpoint inventories,
+30 core implementation pins and 14 private adapters remain unchanged. Every prior
+attempt, crop, raw OCR, correction, recipe, native and failed revision is retained.
+
+All 75 restoration/accounting checkpoints meet the two-task/six-mapped-page/
+twenty-outside-lookup limits. The 53 OCR checkpoints retain 2,069 pinned Tesseract
+tasks and one recorded source correction pass each. Batch52's four replacement
+crops were observed after OCR launch; that explicit timing exception and later
+source checks remain in the final audit. The two accounting verifier failures
+and all earlier failed attempts remain preserved.
+
+Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts,
+historical/technical claims, code execution and independent backup recovery remain
+unverified. News/classified-body transcription and custom glyph/diagram labels await
+volunteers. No reader was rebuilt. March has no remaining restoration checkpoint.
+Any next-issue work is separate; the next supplied eligible campaign issue is
+October 1985, and none of its restoration is included in this closeout.
 
 ## Read first
 
@@ -50,13 +68,12 @@ issue; no work on it is included in this closeout.
    is complete; its final accounting and source limitations are in
    [the December log](progress/8412.md). Restoration alone does not authorize a
    reading-room rebuild.
-3. [December closeout](../archive/pdf/1984-12/evidence/issue-closeout/report.json)
-   and its selected source-page ledger at
-   `archive/pdf/1984-12/restoration/issue-accounting-02/source-page-ledger-r01.json`.
-   The portable index is `archive/pdf/1984-12/reference-r01/issue.json`; reproduce it
-   using `archive/pdf/1984-12/restoration/issue-closeout/reproduction-r03.json`.
-   Existing August assembly adapters remain pinned in
-   `archive/pdf/1984-08/restoration/13-1984-08-closeout/reproduction.json`.
+3. [March closeout validation](../archive/pdf/1985-03/evidence/issue-closeout/report.json),
+   its completion audit/record and pinned source-page accounting. Reproduce the
+   standalone `archive/pdf/1985-03/reference/issue.json` using
+   `archive/pdf/1985-03/restoration/issue-closeout/reproduction.json`; use its pinned
+   14-format dispatcher. All75 source/restoration/accounting checkpoints and the
+   batch52 timing exception remain retained. No March restoration checkpoint remains.
 
 **Current OCR policy:** mapped Tesseract by default. Qwen is an opt-in draft or
 second reading for difficult prose or code, with explicit layout/coverage review.
@@ -77,7 +94,7 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September, October and December 1984. March retains its absent-source terminal
-partial; no April PDF was supplied. February 1985 is also complete; March 1985 is the next campaign issue.
+partial; no April PDF was supplied. February and March 1985 are also complete; any future October1985 campaign work is separate and has not started.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
