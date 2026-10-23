@@ -19,26 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:26 readable/sample-reviewed,no partial articles,five non-owning
-  headings and17 unresolved. Assembler0031 complete140/138;ampersand0032 complete
-  141–143/139–141 (printed &의 사용법,canonical &의 활용법 unchanged). Combined66
-  regions/51 blocks/15 originals/62 physical code rows;five hex frames/23 rows/
-  207 cells/184 opaque pairs/three boxes/five highlights/13 boxed keys;three BASIC
-  labels/36 assembly rows/22 printed57–78 ordinals/14 unnumbered rows/29 diagram
-  labels/four captions. Unknown EB mark retains original glyph/count uncertainty.
-  G1AA8/editor1A9F,prose57～77/listing78,DELARY-1/ROUTI./SO STACK-ROUTINE literal;
-  no semantic repair/patch application/execution. All237 files match independent
-  rebuilds;4,130 ranges/4,202 pins/66 crop images pass. All36 keyboard files exact;
-  all18 shared143 nonfigure pairs disjoint. All33,699 prior files/45 inventories/
-  24 prior packages/nine formats/30 core pins unchanged;213-test baseline reused.
-  Inventory34,728 files. Six reused views,four mapped/two outside pages;all64
-  initial/two added crops before51 tasks (ten eng/41 kor+eng);all raws before one
-  source pass. Two pre-OCR coverage additions (diagram100/140folio);no OCR retry.
-  Next0033 MSX/0034 기계어 강좌 : 난수·난수·난수 extents from initial143–148/
-  150–155;TOC142/149 only cues. Parent0030 waits0033/separate review. Cover,
-  remaining entries/244-page accounting/closeout pending. Human/source limits and
-  volunteer transcription remain explicit. Use pinned batch41 dispatcher. Follow
-  [March log](docs/progress/8503.md) and
+- March1985:28 readable/sample-reviewed,no partial articles,five non-owning
+  headings and15 unresolved. MSX0033 complete144–146/142–144;random0034 complete
+  151–153/149–151. Combined102 regions/79 blocks/23 originals/140 physical code
+  rows. MSX24 BASIC labels/two DATA records16 fields/five tables52 rows112 cells
+  (two printed blanks)/21 diagram-label rows/nine captions. Figure4 nine axis
+  labels/six binary digits/68 versus DATA60 remain literal;figure1 tiny mark unknown.
+  Random54 6502/58 Z80 ordinals/four unnumbered rows/63 object fields/113 opaque
+  pairs;filename finalO/0 andthree decorative bands remain uncertain. Complete
+  printed regression-output panel/list3-list1 caption mismatch retained;five rows/
+  20 cells/15 input values not recomputed. No printed byline inferred from comment.
+  All357 files match independent rebuilds;9,630 ranges/9,664 pins/102 crop
+  images pass. All34,728 prior files/46 inventories/26 prior packages/nine formats/
+  30 core pins unchanged;213-test baseline reused. Inventory36,235 files.
+  Twelve views (11 reused/one new),six mapped/six outside pages;all102 initial/
+  four replacement crops before79 tasks (nine eng/70 kor+eng);all raws before one
+  source pass. One pre-OCR repair round/four crops;opening glyph-edge fallback
+  uses complete original144. No OCR failures/retries/semantic repair/execution.
+  Next separate parent0030 메아리 review:contents17/18,boundaries140–147,complete
+  children0031/0032/0033. Cover,remaining entries/244-page accounting/closeout pending.
+  Human/source limits andvolunteer transcription remain explicit. Use pinned
+  batch41 dispatcher. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

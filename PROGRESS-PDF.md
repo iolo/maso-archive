@@ -6,42 +6,45 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 26 of 48 entries are readable and assistant
+March 1985 remains in progress: 28 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, five headings are non-owning, and
-17 entries remain unresolved. Entry0031 어셈블러의 활용 is complete on PDF140/138;
-entry0032 &의 활용법 is complete on PDF141–143/139–141. The latter's printed
-title is &의 사용법; the canonical identity/title remains unchanged. Neither
-article has deferred body pages or assembly pending.
+15 entries remain unresolved. Entry0033 MSX 문자패턴 정의 is complete on
+PDF144–146/visible142–144; entry0034 기계어 강좌 : 난수·난수·난수 is complete
+on PDF151–153/149–151. Neither has deferred body pages or assembly pending.
 
-The assembler package retains five hex frames,23 rows,207 cells and184 opaque
-pair fields,three highlight boxes/five highlighted fields,13 boxed key labels and
-the editor's note/figure1. One unclear mark after EB on1AD0 has an explicit
-unknown marker; its original glyph identity/count/role remains unknown. The
-ampersand package retains three BASIC labels,36 assembly rows,22 printed57–78
-ordinals and14 unnumbered rows (including the five-row tail),29 diagram labels
-and original arrow/brace/box geometry. Four caption links span both articles.
-Printed G1AA8/editor1A9F,prose57～77/listing78,DELARY-1,ROUTI. and SO STACK-ROUTINE
-remain literal. No byte,address,syntax,keyboard,firmware or encoding repair or execution.
+The MSX package retains four BASIC examples/24 line labels/two DATA records
+with16 fields, five tables/52 rows/112 cells including two printed blank VRAM
+cells,21 diagram-label rows andnine caption links. Figure4's nine axis labels,
+six binary digits andlast68 versus listing4 DATA60 remain literal. A tiny mark
+in figure1 has an explicit unknown marker. Narrow first-glyph edge in the opening
+is supported by the complete original page; no recognition retry was needed.
 
-All237 selected files match independent rebuilds. All4,130 active UTF-8 ranges,
-4,202 evidence-pin occurrences and66 crop-image pixel comparisons pass. The
-keyboard's36 files are unchanged; all18 nonfigure pairs on shared143 are disjoint.
-All33,699 prior files,45 inventories,24 prior packages,nine private formats and30
+Random retains54 printed6502 ordinals and58 Z80 ordinals, four unnumbered
+header/comment-wrap rows,63 object fields and113 opaque pairs. Filename final
+O/0 remains uncertain; one hyphen andtwo semicolon bands retain unknown counts.
+The complete printed regression-results panel andlist3/list1 execution caption
+remain together with their apparent mismatch explicit. Its five-row/20-cell
+residual table and15 vector values are literal, not recomputed. No printed author
+is inferred from the code comment. No syntax,opcode,byte,address,math,hardware,
+algorithm or encoding repair or execution.
+
+All357 selected files match independent rebuilds. All9,630 active UTF-8
+ranges,9,664 evidence-pin occurrences and102 crop-image pixel comparisons pass.
+All34,728 prior files,46 inventories,26 prior packages,nine private formats and30
 core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
-Preservation inventory contains34,728 files. Six whole views reused;four mapped
-pages/two outside lookups. All64 initial exact crops andtwo added crops inspected
-before51 tasks (ten eng/41 kor+eng);all51 raws read before one source pass. Two
-pre-OCR coverage revisions add diagram100 and the140 folio;all original revisions
-remain. No OCR failures/retries. Use pinned batch41 dispatcher. No reader rebuild.
+Preservation inventory contains36,235 files. Twelve whole views,11 reused/one
+new; six mapped pages/six outside lookups. All102 initial crops andfour pre-OCR
+replacements inspected before79 tasks (nine eng/70 kor+eng);all79 raws before
+one source pass. One pre-OCR repair round widens four left edges;all original
+revisions remain. No OCR failures/retries. Use pinned batch41 dispatcher.
+No reader rebuild.
 
-Next: verify actual full extents and restore0033 MSX 문자패턴 정의 and0034
-기계어 강좌 : 난수·난수·난수. TOC142/149 are lookup cues; initial whole views
-143–148/150–155 precede mapping. Preserve all code,mathematical expressions,
-tables/cells,diagrams/labels,physical wraps and original assets literally.
-Parent메아리0030 waits0033 and a separate boundary review. Cover selection,
-remaining entries,all244-page accounting and full issue closeout remain pending.
-Human acceptance,full proofreading,source bytes/spacing and historical/technical
-claims remain unverified; news/classified body transcription awaits volunteers.
+Next: separately review andclassify parent0030 메아리 using contentsPDF17/18,
+actual140–147 boundaries andthe three complete child packages0031/0032/0033.
+Do not duplicate child bodies or infer independent parent text. Cover selection,
+remaining entries,all244-page accounting andfull issue closeout remain pending.
+Human acceptance,full proofreading,source bytes/spacing andhistorical/technical
+claims remain unverified;news/classified body transcription awaits volunteers.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

@@ -3188,23 +3188,145 @@
       "toc_entry_id": "maso-1985-03-toc-0033",
       "title": "MSX 문자패턴 정의",
       "parent_id": "maso-1985-03-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Twelvewholeviews143–148/150–155 inspected beforemapping. MSX0033 exactly144–146/142–144:opening144 afterampersand143,endingupper146/terminal beforeindependent147contestnotice and148news. Lower146trainingadvertisement excluded.",
+        "Random0034 exactly151–153/149–151:opening151 aftercompletednews/debug150,6502andZ80listing continuations152/153,finalprose andrightprintedoutput/terminal153 before154recursiveBASIC opening and155continuation. No source pages deferred.",
+        "MSX hasprinted차 원 기 credit;random hasno separately printed author. Preserve fullsource title/header differences,all four BASIC examples,tables/grid/numeric/formula/VRAM labels,captions/original bitmap geometry withoutcalculating/repairing source mismatches orblank cells.",
+        "Random printed listing3caption says 리스트1의 실행 결과 butrightpanel153 showsleast-squares input/results ratherthan obvious noise output. Keepcomplete sourcepanel/caption literally andrecordapparent mismatch without verifying target/reassigning content toanotherarticle orinventing corrected output.",
+        "Two canonicaltasks/six distinctmappedpages/six outside lookups. No syntax/opcode/object-byte/math/hardware/algorithm/encoding repair orexecution;source decorativebands andunreadable glyph identities/counts remainexplicit."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-47-r01/msx-pattern",
+        "article_id": "scan-maso-1985-03-toc-0033",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-47-r01/msx-pattern/manifest.json",
+          "sha256": "b610241325361c795641e19863371700ddad4693b5bfcf279f66f0957a664271",
+          "bytes": 39383
+        },
+        "coverage": {
+          "pdf_pages": [
+            144,
+            145,
+            146
+          ],
+          "printed_pages": [
+            "142",
+            "143",
+            "144"
+          ],
+          "regions": 66,
+          "blocks": 52,
+          "figures": 14,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-47/validation.json",
+          "sha256": "e2f7790e67b34f8c29d63a1211749d131d3a84073dd2542e8e9859e348493165",
+          "bytes": 3555
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-47/reproduction.json",
+          "sha256": "a65f78f19ef868caa7dae3eeae234b83d81d692b4e94a1efbdca0d7263af58af",
+          "bytes": 2220
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+          "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+          "bytes": 2184
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-47-r01/msx-pattern/corrections.json",
+            "sha256": "a0467c401f639f7c1a5e266e5920e1b27a556eabbaf1d39164bcaaabe870130b",
+            "bytes": 1612481
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Literal source code/object fields,physical wraps,blankcells,diagram labels andoriginal pixels retained. Unknown glyphs/bands/spacing,source DATA/figure differences andrandom caption/output mismatch explicit. No semanticrepair or execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-47/previous-ledger.json",
+        "sha256": "e6759504cc8b92fdaa3c4b58a4e4e7fabaccdc734cdfa7f6752bb63ed8c01735",
+        "bytes": 296063
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0034",
       "title": "기계어 강좌 : 난수·난수·난수",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Twelvewholeviews143–148/150–155 inspected beforemapping. MSX0033 exactly144–146/142–144:opening144 afterampersand143,endingupper146/terminal beforeindependent147contestnotice and148news. Lower146trainingadvertisement excluded.",
+        "Random0034 exactly151–153/149–151:opening151 aftercompletednews/debug150,6502andZ80listing continuations152/153,finalprose andrightprintedoutput/terminal153 before154recursiveBASIC opening and155continuation. No source pages deferred.",
+        "MSX hasprinted차 원 기 credit;random hasno separately printed author. Preserve fullsource title/header differences,all four BASIC examples,tables/grid/numeric/formula/VRAM labels,captions/original bitmap geometry withoutcalculating/repairing source mismatches orblank cells.",
+        "Random printed listing3caption says 리스트1의 실행 결과 butrightpanel153 showsleast-squares input/results ratherthan obvious noise output. Keepcomplete sourcepanel/caption literally andrecordapparent mismatch without verifying target/reassigning content toanotherarticle orinventing corrected output.",
+        "Two canonicaltasks/six distinctmappedpages/six outside lookups. No syntax/opcode/object-byte/math/hardware/algorithm/encoding repair orexecution;source decorativebands andunreadable glyph identities/counts remainexplicit."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-47-r01/random",
+        "article_id": "scan-maso-1985-03-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-47-r01/random/manifest.json",
+          "sha256": "4a7152718d7aeb3433e959a9376afd68f9e6276807180ed36eb9c4436f479c93",
+          "bytes": 21243
+        },
+        "coverage": {
+          "pdf_pages": [
+            151,
+            152,
+            153
+          ],
+          "printed_pages": [
+            "149",
+            "150",
+            "151"
+          ],
+          "regions": 36,
+          "blocks": 27,
+          "figures": 9,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-47/validation.json",
+          "sha256": "e2f7790e67b34f8c29d63a1211749d131d3a84073dd2542e8e9859e348493165",
+          "bytes": 3555
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-47/reproduction.json",
+          "sha256": "a65f78f19ef868caa7dae3eeae234b83d81d692b4e94a1efbdca0d7263af58af",
+          "bytes": 2220
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+          "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+          "bytes": 2184
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-47-r01/random/corrections.json",
+            "sha256": "ecca2e550d77327beea5dc19ce53c8fca1286594681f7a44dffb7aa9f4fad506",
+            "bytes": 3237816
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Literal source code/object fields,physical wraps,blankcells,diagram labels andoriginal pixels retained. Unknown glyphs/bands/spacing,source DATA/figure differences andrandom caption/output mismatch explicit. No semanticrepair or execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-47/previous-ledger.json",
+        "sha256": "e6759504cc8b92fdaa3c4b58a4e4e7fabaccdc734cdfa7f6752bb63ed8c01735",
+        "bytes": 296063
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0035",
@@ -3363,10 +3485,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 26,
+    "readable": 28,
     "partial": 0,
     "non_owning_headings": 5,
-    "unresolved_eligibility": 17
+    "unresolved_eligibility": 15
   },
   "checkpoints": [
     {
@@ -5491,6 +5613,60 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-47",
+      "status": "complete",
+      "stage": "validated-complete-msx-pattern-and-random",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0033",
+        "maso-1985-03-toc-0034"
+      ],
+      "mapped_pdf_pages": [
+        144,
+        145,
+        146,
+        151,
+        152,
+        153
+      ],
+      "outside_map_lookup_pages": [
+        143,
+        147,
+        148,
+        150,
+        154,
+        155
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 79,
+      "eng_code_tasks": 9,
+      "kor_eng_tasks": 70,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "crops_changed": 4,
+      "direct_source_full_original_fallbacks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-47/validation.json",
+        "sha256": "e2f7790e67b34f8c29d63a1211749d131d3a84073dd2542e8e9859e348493165",
+        "bytes": 3555
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-47/verification-completed.json",
+        "sha256": "2280db84002c180927844104e096d12462efbfb37d04730bdb7818411b0c5510",
+        "bytes": 1241
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-47-preserved-work.json",
+        "sha256": "faac6a33137a8bb40877eb8d6b956a72dc723ffc200f638623e3afd6c9c4a698",
+        "bytes": 8076420
+      },
+      "started_at": "2026-10-22T23:35:35.059654+00:00",
+      "finished_at": "2026-10-23T00:05:22.936971+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -7029,39 +7205,87 @@
     },
     {
       "pdf_page": 144,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "article-body",
       "printed_page": "142",
       "source_material_observed": "MSX 문자패턴 정의",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-msx-pattern",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+        "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+        "bytes": 2184
+      },
+      "prior_observation": {
+        "pdf_page": 144,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "142",
+        "source_material_observed": "MSX 문자패턴 정의",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0033"
+      ],
+      "notes": "FullMSX article page retained."
     },
     {
       "pdf_page": 145,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "article-body",
       "printed_page": "143",
       "source_material_observed": "MSX 문자패턴 정의 continued",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-msx-pattern",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+        "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+        "bytes": 2184
+      },
+      "prior_observation": {
+        "pdf_page": 145,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "143",
+        "source_material_observed": "MSX 문자패턴 정의 continued",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0033"
+      ],
+      "notes": "FullMSX article page retained."
     },
     {
       "pdf_page": 146,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "mixed-article-and-advertisement",
       "printed_page": "144",
       "source_material_observed": "MSX 문자패턴 정의 ending above separate academy advertisement",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-msx-pattern",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+        "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+        "bytes": 2184
+      },
+      "prior_observation": {
+        "pdf_page": 146,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "144",
+        "source_material_observed": "MSX 문자패턴 정의 ending above separate academy advertisement",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0033"
+      ],
+      "notes": "Only upperMSX body/terminal;independent lowertraining advertisement excluded."
     },
     {
       "pdf_page": 147,
@@ -7126,39 +7350,87 @@
     },
     {
       "pdf_page": 151,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "article-body",
       "printed_page": "149",
       "source_material_observed": "난수.난수.난수 opening",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-random",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+        "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+        "bytes": 2184
+      },
+      "prior_observation": {
+        "pdf_page": 151,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "149",
+        "source_material_observed": "난수.난수.난수 opening",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0034"
+      ],
+      "notes": "Fullrandom article page retained,including printed caption/output mismatch on153."
     },
     {
       "pdf_page": 152,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "article-body",
       "printed_page": "150",
       "source_material_observed": "난수.난수.난수 continued",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-random",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+        "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+        "bytes": 2184
+      },
+      "prior_observation": {
+        "pdf_page": 152,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "150",
+        "source_material_observed": "난수.난수.난수 continued",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0034"
+      ],
+      "notes": "Fullrandom article page retained,including printed caption/output mismatch on153."
     },
     {
       "pdf_page": 153,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "article-body",
       "printed_page": "151",
       "source_material_observed": "난수.난수.난수 ending; unrelated-looking printed output retained for future source review",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-random",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-47/source-reviewed.json",
+        "sha256": "4f9320154b6b7ceba99e825a17223ffd26103ebed54cd255ca2e2d9a5b592748",
+        "bytes": 2184
+      },
+      "prior_observation": {
+        "pdf_page": 153,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "151",
+        "source_material_observed": "난수.난수.난수 ending; unrelated-looking printed output retained for future source review",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0034"
+      ],
+      "notes": "Fullrandom article page retained,including printed caption/output mismatch on153."
     },
     {
       "pdf_page": 154,
@@ -7535,26 +7807,23 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-47",
-    "goal": "Verify actual full extents andrestore0033 MSX 문자패턴 정의 and0034 기계어 강좌 : 난수·난수·난수.",
+    "id": "batch-48",
+    "goal": "Review and classify organizational parent0030 메아리 after allthree children0031/0032/0033 are complete.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0033",
-      "maso-1985-03-toc-0034"
+      "maso-1985-03-toc-0030"
     ],
-    "mapping_targets": "TOC142/149 arelookup cues,not global offsets. Initially inspect143–148 and150–155 whole views;reuse saved renders where possible. Verify actual title/intro/byline,full article/code/table/diagram extents,ending andneighbors beforemapping. CandidatesMSX144–146 beforeindependent147notice andrandom151–153 before154recursiveBASIC remainprovisional. Preserve all codephysical rows/labels/quoted/opaque numeric fields,mathematical expressions/tables/all cells,figures/captions/labels/original pixels without syntax/algorithm/hardware/encoding repair orexecution. At mosttwo canonicaltasks/six distinctmappedpages/twenty outside lookups;segment separately ifactual combined extent exceeds cap. Parent메아리0030 waits0033 andseparate group boundaries review;0031/0032 alreadycomplete. Cover,remaining entries,244-page accounting/full March closeout pending. No reader rebuild.",
+    "mapping_targets": "Review contentsPDF17/18 and actual140–147 boundaries using retained wholeviews;verify canonical three-child relationships and complete0031/0032/0033 packages. Classify parent only if evidence shows no independently owning body;do notduplicate child body or infer a missing parent article. No newOCR unless independent eligible parentbody is found. One canonical task;at mostsix mapped/twenty outside lookups. Cover,remaining entries,all244-page accounting/full Marchcloseout pending. No reader rebuild.",
     "provisional_lookup_targets": [
+      17,
+      18,
+      140,
+      141,
+      142,
       143,
       144,
       145,
       146,
-      147,
-      148,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155
+      147
     ],
     "limits": {
       "articles": 2,
@@ -7615,9 +7884,11 @@
     "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
     "Keyboard sourceLOCATEY,0 twice,LO/newlineCATE andHA/newline!  HA! remain literal;quoted encoded-space counts unverified. Miniclock sourcePOKE54,0,0,Q=Q/newline+(R-Q),CIRCL/newlineE andIFR>6/newline0THEN unchanged. Canonical미니 클럭 independent fromprinted미니클럭. No syntax/number/keyboard/clock/encoding repair or execution.",
     "Advertisingindex0016 complete lowerPDF242 withnullfolio despite canonical240:two ordered parts/26 rows/52 cells/no printed headers/three cover references/26 original leader bands/tree/lower rule. Source벨엘상사/보라바이컴/선경화학 andall names remainvisual candidates;no identity/reference-target/leader-count/folio-offset repair.",
-    "17 canonical entries remain unresolved. Assembler0031 complete140/138 andampersand0032 complete141–143/139–141;66regions/51blocks/15originals,62physical code rows. Assemblerfive hexframes/23rows/207cells/184opaque pairs,three highlightboxes/five fields/13boxedkeys/one unknownEB mark;no patch applied.",
     "Ampersandprintedtitle &의 사용법 separate fromcanonical &의 활용법. Three BASIC labels,36assemblyrows/22printed57–78 ordinals/14unnumbered rows includingfive tailrows,29diagramlabels/four captions acrossbotharticles. Prose57～77,DELARY-1,ROUTI.,SO STACK-ROUTINE,G1AA8/editor1A9F andallsource spelling/fields remainliteral;no repair/execution.",
-    "All237 selectedfiles match independent rebuilds;4130 exact ranges/4202 pinoccurrences/66 cropimages pass.36keyboardfiles unchanged andall18 nonfigurepairs on143disjoint. All33699 priorfiles/45inventories/24priorpackages/nineformats/30corepins unchanged;213-test baseline reused. Next0033MSX/0034random full extents/source restoration;parent0030,cover,remaining entries,244-page accounting/full Marchcloseout pending. Use pinnedbatch41 dispatcher."
+    "15 canonical entries remain unresolved. MSX0033 complete144–146/142–144;random0034 complete151–153/149–151.102regions/79blocks/23originals/140physical code rows. No bodypages orassembly pending for either article.",
+    "MSX four BASIC examples/24labels/twoDATA rows16fields;five tables52rows112cells includingtwo explicit blankVRAM521/525 cells;21diagramlabel rows/nine captions. Figure4 nineaxis labels/sixbinary digits/last68 versusDATA60 remainliteral;figure1 tiny mark retains unknownidentity/count. First째 edge supported byfull original144;noOCR retry.",
+    "Random6502 ordinals1–54 andZ80 ordinals0000–0057 retain112numbered rows/fourunnumbered headers/commentwraps/63objectfields/113opaque pairs. Filename finalO/0 uncertain;onehyphen/twosemicolon bands unknowncounts. Completeprinted regressionoutput/table5rows20cells/15vectorvalues retained underprinted list3/list1caption;apparentmismatch not repaired/reassigned/recomputed. No printedbyline inferred fromcodecomment.",
+    "All357 selectedfiles match independent rebuilds. Everyactive UTF8range,sourcepin and102cropimages pass;all34728 priorfiles/46inventories/26priorpackages/nineformats/30corepins exact;213-test baseline reused. Nextparent0030 separateboundary/classification review. Cover,remaining entries,244-page accounting/fullMarchcloseout pending. Use pinnedbatch41 dispatcher. No reader rebuild."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
