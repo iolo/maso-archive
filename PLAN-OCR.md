@@ -19,28 +19,29 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:33 readable/sample-reviewed,no partial,seven non-owning headings
-  andeight unresolved. Contestreview0041 complete175/173;71files match independent
-  rebuild.18regions/15blocks/threeoriginals/fourparagraphs/14awardrows/56nonempty
-  cells/fourheaders/onecaption/grid/terminal/fullpage. Celllinks retain ownsource
-  column/row. Source title개인용 컴퓨터는 게임기인가? separatefromcanonical공모 총평;
-  no printedbyline inferred. Names/Cook er/oldspelling/H.R.G.T punctuation/count
-  claims literalcandidates;no identity/name/title/platform/math/encoding repair.
-  Three reusedviews174–176/onemapped/twooutside/onetask. Two preOCRrepairrounds:
-  fourfirstrepairs,thenretiretwo broadtable regions/addeightheader-columncrops for
-  scan tilt. Allselectedcrops before15kor+engtasks/allraws beforeonepass;no retry
-  orenginechange.1,329ranges/1,511pins/18images exact. All44,174priorfiles/
-  55inventories/30corepins/32priorpackages/tenformats pass;fresh213-testbatch55
-  baseline reused. Inventory44,518files;allother47entries unchanged;only175
-  sourceobservation changed. Next0042WordPower:inspect175–197/reuse175–176;
-  candidate176–195beforeSuperman196provisional. Verifyactualfullend/allpages
-  beforeboundedopeningmax176–181.23views/sixmapped leave17outside within20cap.
-  Preserve physicalMBASICrows/labels/strings/wraps/screens/tables/diagramlabels/
-  captions/originals;no semanticrepair/execution. Parent0040awaitsallchildren
-  andseparatereview. Usebatch53dispatcher/tenformats. Cover/remainingentries/
-  244pageaccounting/standaloneindex/report/independentissuerebuild/freshcloseout
-  tests/requirementsaudit pending. Human/source limits,volunteerwork andbatch52
-  timingexception retained. Follow [March log](docs/progress/8503.md) and
+- March1985:33 readable/sample-reviewed,one partial,seven non-owning headings
+  andseven unresolved. WordPower0042opening176–181/174–179 selectedr02:
+  447files match independent rebuild. Full176–195 extent individuallyverified;
+  182–195/immutableassembly pending.126regions/104blocks/22originals;fourtables/
+  36numberedrows/134positions/16blanks/14logicalheaders/13physicalheadercells/
+  fourcontinuationbands. Table3firsttwofields shareunruledcolumn. Eightmenus/
+  36entries/18diagramlabels/fivenodes/fivecaptions;26workeddisplayrows/12returns/
+  tenordinals/11boxedkeys/twocursors/18markers. BASIC listingsbegin183. Source
+  collet/C-W/forbear-forebear/ad-as/absob-aborb-asorb andallzeros/blanks/wraps
+  retained;S.G.C.C.reading retainsoldS.G.C.lookuphistory. No semanticrepair or
+  execution.23views(2reused/21new)/sixmapped/17outside/onetask.110initialtextcrops/
+  27first/3cursor replacements and22originals before104tasks(5eng/99kor+eng),
+  allraws beforeonepass. Two preOCRrepairrounds;one pin-rootmetadataissue fixed
+  infreshc/reciper02;original447-fileoutput/rebuild retained,onlyfourmetadatafiles
+  differ.7,639ranges/8,166pins/126images exact. All44,518priorfiles/56inventories/
+  30corepins/33priorpackages/tenformats pass;213-testbatch55baseline reused.
+  Inventory47,504files;allother47entries unchanged. Next0042middle182–187:
+  inspect181–188/reuseall;incoming링/크2,tables5–6/summaries/variables/capacity/
+  MAIN-DICT-DMAKElistingrows/strings/DATA/183FILE CHE→184CKwrap literal.
+  188–195/assemblythenremainingentries/cover/244pageaccounting/index/report/
+  independentissuerebuild/freshcloseouttests/requirementsaudit pending. Parent0040
+  awaitsallchildren. Human/source limits,volunteerwork andbatch52timingexception
+  retained. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

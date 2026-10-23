@@ -25,44 +25,54 @@ records below are historical and do not authorize a new rebuild.
 ## March 1985 in progress, 2026-10-23
 
 March 1985 remains in progress: 33 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, seven headings are non-owning, and
-eight entries remain unresolved. Contest review0041 is complete at
-`archive/pdf/1985-03/packages/batch-56-r01/contest-review`: all 71 files match
-the independent rebuild. Actual PDF175/visible173 ends with the award table
-and terminal, before Word Power opens on176. Printed title 개인용 컴퓨터는
-게임기인가? and running 공모총평 remain separate from canonical 공모 총평.
-No printed byline was inferred. Parent0040 공모입상 awaits all three children.
+sample-reviewed, one article is partial, seven headings are non-owning, and
+seven entries remain unresolved. Word Power0042 has a validated opening at
+`archive/pdf/1985-03/packages/batch-57-r02/word-power-a`: all447 files match the
+independent rebuild. Actual full extent176–195/visible174–193 was reviewed
+page by page before mapping. This native covers176–181 only;182–195 and
+complete immutable article assembly remain pending. Printed title/subtitle,
+이 성 민 and affiliation 서강대학교 전자공학과(S.G.C.C.) remain source readings.
+Earlier S.G.C. lookup candidate remains preserved. Parent0040 awaits all children.
 
-The package retains 18 regions,15 searchable blocks and three original images:
-four prose paragraphs,14 award rows,56 nonempty cells,four printed headers,
-one caption,original table/grid,terminal and full page. Each cell links to its
-own column and row occurrence. Proper-name candidates,Cook er spacing,
-proseH.R.G.T versus tableH.R.G.T.,old spelling and printed count claims remain
-literal. No identity,name,title,platform,math or encoding repair or verification.
-Human acceptance,full proofreading,source bytes/spacing and historical claims
-remain unverified;original pixels remain authoritative.
+The opening retains126 regions,104 searchable blocks and22 original images:
+four tables with36 numbered rows,134 logical positions,118 nonempty cells,
+16 blanks,14 logical header fields and13 physical header cells. Table3's first
+two fields share an unruled physical column;no vertical rule was invented.
+Four vertical continuation bands remain separate from data rows. Eight menus/
+36 entries,two test-type groups,18 diagram labels,five program-diagram nodes
+andfive caption links survive. Five worked command displays retain26 physical
+rows,12 return marks,10 ordinal occurrences,11 boxed key labels,two cursor
+blocks and18 editorial markers. BASIC program listings begin183,in a later segment.
 
-Three reused whole views174–176,one mapped page,two outside lookups and one
-canonical task stay within bounds. Two pre-OCR repair rounds retain all three
-maps:four first boundary repairs,then two broad table regions replaced with
-eight column/header crops to follow the scan's tilt. All selected crops were
-inspected before15 kor+eng tasks;all15 raws preceded one source pass. No OCR
-failure,retry or engine change. All1,329 UTF-8 ranges,1,511 pin occurrences and
-18 crop images pass. All44,174 prior files,55 inventories,30 core pins,
-32 prior readable packages andten private formats pass. The fresh213-test
-batch55 baseline is reused. Inventory contains44,518 files. All other47
-canonical entries remain unchanged;only source-page observation175 changed.
-Batch52's replacement-crop timing exception remains retained for issue closeout.
+Printed collet word,C/W menu differences,forbear/forebear,ad/as and
+absob/aborb/asorb variants,table zeros/blanks,quoted spaces,old grammar and
+physical wraps remain literal. Four internal prose connections and outgoing
+181 링→182 크2 remain unjoined. No syntax,algorithm,address,math,hardware or
+encoding repair or execution. Human acceptance,full proofreading,source bytes/
+spacing and historical/technical claims remain unverified;original pixels govern.
 
-Next: verify the full extent of0042 워드 파워 and restore a bounded opening.
-InspectPDF175–197,reusing175–176. Candidate176–195 beforeSuperman196 is
-provisional;verify all intervening pages,actual ending,printed folios/title/
-byline,listings,screens,tables,flowcharts and captions before mapping. If the
-expected20-page extent is confirmed,map at most opening176–181 now and retain
-later segments for immutable assembly.23 views/six mapped leave17 outside
-lookups,within the20 cap. Preserve physical MBASIC rows,labels,wraps,strings,
-blank spaces,data fields and all original pixels. No syntax,algorithm,address,
-hardware,math or encoding repair or execution. Use pinned batch53 dispatcher.
+Twenty-three whole views175–197,two reused/21 new;one canonical task,six mapped
+pages and17 outside lookups stay within bounds. All110 initial text crops,
+27 first replacements,three cursor-boundary replacements and22 originals were
+inspected before104 tasks:five eng/99 kor+eng. All104 raws preceded one source
+pass;zero OCR failures,retries or engine changes. Two pre-OCR repair rounds
+retain all maps,crops and retired regions. A fresh metadata revision fixes one
+history-pin base directory;original447-file export/rebuild remain preserved.
+Only four metadata files differ;all readings and assets match the original.
+
+All7,639 UTF-8 ranges,8,166 pin occurrences and126 crop images pass. All44,518
+prior files,56 inventories,30 core pins,33 prior readable packages andten private
+formats pass. The fresh213-test batch55 baseline is reused. Inventory contains
+47,504 files. All other47 canonical entries remain unchanged;only six opening
+page observations changed. Batch52's replacement-crop timing exception remains
+retained for issue closeout.
+
+Next: restore middle182–187 of0042 워드 파워. Inspect181–188,reusing all views.
+Preserve incoming 링/크2,continued editing,tables5–6,program summaries,variables,
+capacity claims and MAIN/DICT/DMAKE listings. Keep every physical row,label,
+wrap,quoted string,blank string,DATA and opaque field literal,including
+183 FILE CHE→184 CK. Six mapped/two outside/one task.188–195 and complete
+immutable assembly remain pending. Use pinned batch53 dispatcher/ten formats.
 
 Cover selection,remaining entries,all244-page accounting,standalone issue index,
 report,independent issue rebuild,fresh closeout tests and requirements audit
