@@ -20,26 +20,31 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March1985:35 readable/sample-reviewed, one partial, eight non-owning headings,
-  four unresolved. Business0044 actual206–216 extent verified continuously;
-  ending216/output table TOTAL/terminal, independent game217/215 continues218.
-  Opening206–211 selectedbatch66-r02/business-a has368 independently exact files,
-  107regions/84blocks/23originals/452serializedtextrows/twoBASICmethods10rows10labels.
-  PDF208 folio absent/null; other current folios204,205,207,208,209. Final212–216/
-  completeassembly pending. Two4column tables16cells/fouroutlines55physicalrows/
-  fourdiagrams18flownodes16arrows/three displays22cells/eightseparatepositionlabels/
-  fourformulas/eightcaptionlinks/twoproseboundaries/sevenlocalcandidates/oneunknown
-  dot band preserved. Printed L8/L7/colon/semicolon/repeatedwords/fomatting literal;
-  no semanticrepair/execution. All5823 ranges/6104 pins/107 images pass;
-  53,236 prior files/65 inventories/30 core pins/35 readable/12 formats unchanged.
-  213-testbatch55baseline reused; environment fresh213 also passed. Inventory
-  55491 files. Fourteenviews/3reused/11new/6mapped/8outside/onetask;
-  84crops17sheets/23originalsbefore84tasks(2eng/82kor+eng),allrawsbeforeonepass.
-  Zero OCRretry/enginechange/croprepair/exportfailure. First verifier evidence-root
-  error fixed in fresh metadata revision; originals/failed check retained.
-  Next212–216,thenimmutableassembly;usebatch64dispatcher/12formats. Games0046–0048/
-  parent0045/cover/244pageaccounting/index/report/independentissuerebuild/fresh
-  closeout213/fullrequirementsaudit pending. Other47entries unchanged;0040 stays
-  non-owning. Human-source limits/volunteerwork/batch52timingexception retained.
+  four unresolved. Business0044 all eleven206–216 body pages covered by368 opening
+  files(batch66-r02) plus286 final files(batch67-r01),654 natives/192regions/
+  148blocks/44originals/913serializedtextrows. Final286 files independently exact;
+  opening unchanged/PDF208folio null. No body pages pending;complete assembly next.
+  Final187BASICphysicalrows/110labels/77wraps/fiveblankcandidates/sixgroups/eight
+  panels;numeric-only5130/35/45/0/6022 and11numeric-prefix wraps not inventedlabels.
+  Full197BASICrows/120labels/eightgroups/tenpanels/5324listingbytes. Two finaltables
+  26nonblankcells/oneblankfooter/unknownrecordcount;QI10charactersfivepairs/sixform
+  categories27fields/two multipliers/16summaryrefs/7screenlabels7blankfields/
+  threeRETURN/twobackspace markers/ninecaptionlinks/fourproseboundaries retained.
+  Source list7 ends125 versus separate explanation/duplicate220;AN030310 versus
+  diagramAN03031227 and all bitmap/glyph/spacing candidates literal;no repair.
+  All8023ranges/7828pins/85images pass;55491priorfiles/66inventories/
+  30corepins/35readable+onepartial/12formats unchanged;213baseline55 reused.
+  Inventory56771files. Eightreusedviews/5mapped/3outside/onetask;64initial
+  crops15sheets/18replacements8sheets/21originalsbefore64tasks(8eng/56kor+eng),
+  allrawsbeforeonepass. OCR completed64tasks before final recorder path failure;
+  saved stages verified/reused,zero recognition failure/retry. Serializer blank-cell
+  failure repaired before export;readings unchanged. No export/verifierfailure.
+  Next assembly-only68:654immutablefiles/allrawmetadata/array-object projections
+  reverse exact;preserve index scopes/blank fields/source discrepancies/17caption
+  links. Usebatch64dispatcher/12formats until fresh private adapter;core unchanged.
+  Games0046–0048/parent0045/cover/244pageaccounting/index-report/independentissue
+  rebuild/freshcloseout213/fullrequirementsaudit pending. Other47entries unchanged;
+  human-source limits/volunteerwork/batch52timingexception retained.
   Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

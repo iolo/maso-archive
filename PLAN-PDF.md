@@ -26,44 +26,53 @@ records below are historical and do not authorize a new rebuild.
 
 March 1985 remains in progress: 35 of 48 entries are readable and assistant
 sample-reviewed, one is partial, eight headings are non-owning, and four remain
-unresolved. Business0044, 비즈니스 : 관리 프로그램의 작성법, spans PDF206–216.
-Every intervening page, the final output-design table/TOTAL and terminal on216,
-and the next game opening217/continuation218 have been inspected. The opening
-six pages206–211 are restored at
-`archive/pdf/1985-03/packages/batch-66-r02/business-a`: all368 files match the
-independent rebuild. PDF208 has no visible folio and retains null; the other
-current visible folios are204,205,207,208,209. Final212–216 and complete assembly
-remain pending. The other47 canonical entries and all35 readable packages remain
-unchanged; 공모입상0040 remains a non-owning heading.
+unresolved. All eleven business0044 body pages, PDF206–216, are now covered by
+two immutable native packages:368 opening files atbatch66-r02/business-a and286
+final files at `archive/pdf/1985-03/packages/batch-67-r01/business-b`. The final
+package matches its independent rebuild exactly; the opening remains unchanged.
+All654 native files retain192 regions,148 text blocks and44 original images.
+No body pages remain pending; complete-article assembly is next. Primary directory
+and coverage still reference the opening; native_segments_coverage records the
+current aggregate. Source PDF208 remains unpaginated/null.
 
-The opening retains107 regions,84 text blocks and23 original images,452 nonempty
-serialized text rows and two independent five-row BASIC examples. Two four-column
-tables retain16 cells; four ordered outlines retain55 physical rows without
-invented headers. Three flow diagrams retain18 nodes/16 observed arrows; the
-record-stack diagram retains six label candidates. Three record displays retain22
-cells, with eight position labels0–7 indexed separately from seven length-display
-data cells. Four formulas, eight caption associations, two physical prose
-boundaries, seven local candidates and one unknown dot band remain source-linked.
-Printed L8/L7, colon/semicolon, repeated 계산하여, 프로그래머듯 and fomatting remain
-literal candidates. Source glyph counts, encoded spaces and technical claims are
-unverified; original geometry/pixels remain authoritative.
+Final212–216 retains461 nonempty serialized text rows,187 BASIC physical rows,
+110 printed labels,77 continuation rows and five blank-baseline candidates.
+Six independent listing groups occupy eight panels, including the three-panel
+GET routine. Numeric-only5130/35/45/0/6022 and eleven numeric-prefix wraps remain
+continuations. List7 ends125 while its separate explanation refers to other
+lines, including duplicate220. Source AN030310 and diagram AN03031227 remain
+independent. No syntax, behavior, arithmetic or encoding repair was performed.
 
-All5,823 UTF-8 ranges, 6,104 pin occurrences and107 crop images pass.
-All53,236 prior files,65 inventories,30 core pins,35 readable packages and12 private
-formats pass; the unchanged213-test batch55 baseline is reused. The environment
-check also freshly passed213 PDF tests. Current preservation inventory contains
-55,491 files. Fourteen whole views were inspected (three reused/eleven new).
-All84 exact text crops on17 sheets and23 originals were reviewed before84 OCR
-tasks (2eng/82kor+eng); all raw drafts preceded one source pass. No OCR retry,
-engine change, crop repair or export failure occurred. The first verifier found
-one extent-review evidence-root error; fresh r02 changes metadata only, retaining
-the original exports, failed check, maps, text and assets.
+Two final tables retain26 nonblank cells and one explicitly blank footer cell.
+The stock table is an output-design template with unknown dot-band record count.
+QI$ retains ten character labels/five pairs; six form categories retain27 fields,
+two phone subfields and two brace multipliers. Seven screen labels/seven empty
+fields, three boxed RETURN occurrences, two backspace markers,16 summary
+references, nine caption links, four prose boundaries and two outline continuations
+remain source-linked. Five final editorial markers preserve unknown star/dot bands
+and boxed-arrow glyphs. Fourteen local candidates retain their original images.
+Across both natives,913 nonempty text rows,197 BASIC physical rows,120 printed
+labels/eight groups/ten panels and5,324 listing bytes remain unchanged.
 
-Next: restore final business PDF212–216 using retained211–218 views, then assemble
-all eleven pages from immutable natives with exact metadata/range projections.
-Use pinned `batch-64/assembly_dispatch.py` for all12 private formats. Games0046–0048
-and parent0045, cover selection, all244-page accounting, standalone issue
-index/report, independent issue rebuild, fresh closeout213 tests and full
+All8,023 final UTF-8 ranges, 7,828 pin occurrences and85 exact crop images pass.
+All55,491 prior files,66 inventories,30 core pins,35 readable packages and the
+existing partial package pass. The pinned batch64 dispatcher retains all12 private
+formats; the unchanged213-test batch55 baseline is reused. Current preservation
+inventory contains56,771 files. Eight whole views were reused. All64 initial
+text crops on15 sheets,18 replacements on8 sheets and21 selected originals were
+inspected before64 OCR tasks(8eng/56kor+eng);all drafts preceded one source pass.
+Recognition succeeded, then its completion writer failed on an inherited folder
+name; saved stages were verified and the record recovered without OCR restart.
+One serializer attempt failed on a blank footer cell before export; fresh handling
+preserves the blank explicitly. All failed attempts remain. No export or formal
+verifier failure occurred. Other47 canonical entries remain unchanged.
+
+Next: assemble all654 immutable native files with exact metadata/range/pin reverse
+projections and declared evidence roots. Preserve every original candidate and
+index scope, including opening all-text versus final code-only quote indexes.
+Resolve only exact stale article-stage deferrals in the active complete output.
+Games0046–0048 and parent0045, cover selection, all244-page accounting, standalone
+issue index/report, independent issue rebuild, fresh closeout213 tests and full
 requirements audit remain pending. Human acceptance, full proofreading, source
 bytes/exact spacing and historical/technical claims remain unverified. No semantic
 repair or execution. News/classified body transcription awaits volunteers. The
