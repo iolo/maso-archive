@@ -19,28 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:30 readable/sample-reviewed,no partial articles,six non-owning
-  headings and12 unresolved. RAMcard0037 complete158–161/156–159;lower-right161
-  cartoon remains separate/65files unchanged/44nonfigure pairs disjoint.
-  91regions/77blocks/14originals;13physical code rows/ten commands/threecomment
-  continuations. LAD,repeatedC081,3DOG/3D0G candidate anddifferent printedmonitor
-  strings literal. Two tables/18rows/136logicalpositions/72nonemptycells/48blank
-  flagcells/16mergedpositions;48circlemarks/16addresses/twosegmentlabels.
-  Twelve logicalheaders/11nonblank/18physicalparts;29diagramlabels/fourcaptions/
-  twounknownmarkers/fourprosecontinuations. No printedbyline inferred orrepair/
-  execution. All331files match independent rebuild;4,635ranges/5,070pins/91images
-  pass. All37,287priorfiles/49inventories/29priorpackages/nineformats/30corepins
-  unchanged;213-test baseline reused. Inventory38,703files. Sevenviews(sixreuse/
-  onenew),fourmapped/threeoutside;all91initial/14replacementcrops before77tasks
-  (threeeng/74kor+eng),all77raws beforeonepass. Onepre-OCRcroprepair;noOCRfailure/
-  retry. Two read-only status-probe errors recorded;no completed stages restarted.
-  Next0038 SPC-1000 그래픽 페이지 II/ 이준화:inspect161–171,reuse161–163,verify
-  actual extent beforemapping. Candidate162–169 provisional;atmostsix opening
-  pages162–167 inone checkpoint,remainingpages/immutableassembly separately.
-  Preserve actualtitle/byline/code/tables/diagrams/captions literally. Parent0036,
-  cover,remainingentries/244-pageaccounting/closeout pending. Human/source limits
-  andvolunteertranscription explicit. Use pinnedbatch41 dispatcher. Follow
-  [March log](docs/progress/8503.md) and
+- March1985:30 readable/sample-reviewed,one partial,six non-owning headings
+  and11 unresolved. Graphics0038 actual162–169/160–167;opening162–167 complete
+  as immutable partial native,final168–169/assembly pending. Source title/byline
+  separate from canonical identity. Opening143regions/122blocks/21originals;
+  six tables/52rows/330logicalcells/313nonempty/16covered/oneblank/sixrowgroups/
+  33logicalheaders. Diagram277fields/15captions/13overbars/73subscripts/16bitdigits/
+  55Figure9pins/eightinternal continuations/outgoing그려/지고 literal. Memory
+  strings10×8/210×8/150×8 and17EDH/17E0H independent;two boxglyphs/oneunknownmark/
+  faintleftedge/H6uppermark unverified. No circuit/code repair or execution.
+  All517files match independent rebuild;6,832ranges/7,862pins/143images pass.
+  All38,703priorfiles/50inventories/30priorpackages/nineformats/30corepins exact;
+  213-test baseline reused. Inventory41,052files. Eleven views(threereused/
+  eightnew),sixmapped/fiveoutside;144initial/38round1replacement/onecomplete
+  Figure9crop before122kor+engtasks,allraws beforeonepass. Two pre-OCR repair
+  rounds/onepre-output preparation assertion failure retained;no OCR retries.
+  Next final168–169,reuse167–171;preserve figures10–12/table7/threeBASIClistings/
+  CHANGE assembly/physicalrows/captions/photos literally,thenimmutableassembly
+  separately. Parent0036,cover,remaining entries/244-page accounting/closeout
+  pending. Human/source limits andvolunteertranscription explicit. Use pinned
+  batch41 dispatcher. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
