@@ -19,32 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:35 readable/sample-reviewed, one partial, eight non-owning headings,
-  four unresolved. Business0044 all eleven206–216 body pages covered by368 opening
-  files(batch66-r02) plus286 final files(batch67-r01),654 natives/192regions/
-  148blocks/44originals/913serializedtextrows. Final286 files independently exact;
-  opening unchanged/PDF208folio null. No body pages pending;complete assembly next.
-  Final187BASICphysicalrows/110labels/77wraps/fiveblankcandidates/sixgroups/eight
-  panels;numeric-only5130/35/45/0/6022 and11numeric-prefix wraps not inventedlabels.
-  Full197BASICrows/120labels/eightgroups/tenpanels/5324listingbytes. Two finaltables
-  26nonblankcells/oneblankfooter/unknownrecordcount;QI10charactersfivepairs/sixform
-  categories27fields/two multipliers/16summaryrefs/7screenlabels7blankfields/
-  threeRETURN/twobackspace markers/ninecaptionlinks/fourproseboundaries retained.
-  Source list7 ends125 versus separate explanation/duplicate220;AN030310 versus
-  diagramAN03031227 and all bitmap/glyph/spacing candidates literal;no repair.
-  All8023ranges/7828pins/85images pass;55491priorfiles/66inventories/
-  30corepins/35readable+onepartial/12formats unchanged;213baseline55 reused.
-  Inventory56771files. Eightreusedviews/5mapped/3outside/onetask;64initial
-  crops15sheets/18replacements8sheets/21originalsbefore64tasks(8eng/56kor+eng),
-  allrawsbeforeonepass. OCR completed64tasks before final recorder path failure;
-  saved stages verified/reused,zero recognition failure/retry. Serializer blank-cell
-  failure repaired before export;readings unchanged. No export/verifierfailure.
-  Next assembly-only68:654immutablefiles/allrawmetadata/array-object projections
-  reverse exact;preserve index scopes/blank fields/source discrepancies/17caption
-  links. Usebatch64dispatcher/12formats until fresh private adapter;core unchanged.
-  Games0046–0048/parent0045/cover/244pageaccounting/index-report/independentissue
-  rebuild/freshcloseout213/fullrequirementsaudit pending. Other47entries unchanged;
-  human-source limits/volunteerwork/batch52timingexception retained.
+- March1985:36 readable/sample-reviewed, zero partial, eight non-owning headings,
+  four unresolved. Business0044 complete atbatch68-r01/business-complete;663 files
+  independently exact including654 unchanged native files/192regions/148blocks/
+  44originals/eleven206–216pages. No body/assembly pending;PDF208 folio staysnull.
+  913serializedtextrows/197BASICphysicalrows/fiveblankcandidates/120labels120logical
+  entries/eightgroups/tenpanels/5324listingbytes. Fourtables42nonblankcells/oneblank
+  footer/template widths/unknownrecordcount;sixdiagrams/three displays22cells/
+  27formfields/16summaryrefs/17captions/11connections/sixmarkers21localcandidates
+  retained. No joins/semanticrepair/execution. Source list7ends125/summaryduplicate
+  220 and AN030310/diagramAN03031227 remain literal. All88arrayslices/eightreserved
+  projections/fifteenobjects reverseexact;13846projectedranges/15087activeUTF8ranges/
+  29512pins/192images pass. Nativequote scopes openingall-text/finalcode-only kept.
+  Six exact stale stage notes resolved only in active complete output;full original
+  metadata unchanged.56771priorfiles/67inventories/30corepins/35readable+onepartial
+  checked;newbatch68dispatcher retains12priorformats/addsbusiness=13. Fresh213tests
+  pass. Inventory58135files. No newmapping/render/OCR/sourcepass/export or
+  verifierfailure. Other47entries unchanged. Next0046low-scoreextent:known217/215,
+  continuation218/216;inspect216–230/reuseviews/verifyallinterveningpages/ending/
+  nextpuzzle before<=6 mappedpages. Games0046–0048/parent0045/cover/244pageaccounting/
+  index-report/independentissue rebuild/freshcloseout213/fullrequirementsaudit
+  pending. Human-source limits/volunteerwork/batch52timingexception retained.
   Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
