@@ -8,58 +8,56 @@ by the calendar month in which restoration work happened.
 
 March 1985 remains in progress: 33 of 48 entries are readable and assistant
 sample-reviewed, one article is partial, seven headings are non-owning, and
-seven entries remain unresolved. Word Power0042 has a validated opening at
-`archive/pdf/1985-03/packages/batch-57-r02/word-power-a`: all447 files match the
-independent rebuild. Actual full extent176–195/visible174–193 was reviewed
-page by page before mapping. This native covers176–181 only;182–195 and
-complete immutable article assembly remain pending. Printed title/subtitle,
-이 성 민 and affiliation 서강대학교 전자공학과(S.G.C.C.) remain source readings.
-Earlier S.G.C. lookup candidate remains preserved. Parent0040 awaits all children.
+seven entries remain unresolved. Word Power0042 now has two validated natives:
+opening176–181 at `archive/pdf/1985-03/packages/batch-57-r02/word-power-a`
+(447 files) and middle182–187 at
+`archive/pdf/1985-03/packages/batch-58-r02/word-power-b` (189 files).
+Each matches its independent rebuild. These636 immutable files cover12 of20
+body pages;188–195 and complete article assembly remain pending. Full extent
+176–195/visible174–193 was individually reviewed in batch57. Parent0040 awaits
+all children and a separate grouping review. Canonical identities and parents
+are unchanged. The ledger's primary directory remains the opening; its
+`native_segments_coverage` records current aggregate coverage.
 
-The opening retains126 regions,104 searchable blocks and22 original images:
-four tables with36 numbered rows,134 logical positions,118 nonempty cells,
-16 blanks,14 logical header fields and13 physical header cells. Table3's first
-two fields share an unruled physical column;no vertical rule was invented.
-Four vertical continuation bands remain separate from data rows. Eight menus/
-36 entries,two test-type groups,18 diagram labels,five program-diagram nodes
-andfive caption links survive. Five worked command displays retain26 physical
-rows,12 return marks,10 ordinal occurrences,11 boxed key labels,two cursor
-blocks and18 editorial markers. BASIC program listings begin183,in a later segment.
+The middle retains60 regions,40 blocks,20 originals and545 nonempty serialized
+text rows. Tables5–6 preserve six rows,21 logical positions,18 nonempty cells,
+three blanks andthree printed headers. Table6 has no printed header and retains
+literal5/aominate. MAIN,DICT andDMAKE span11 framed panels:399 nonblank
+physical code rows,one blank-baseline candidate,305 selected labels and94 wraps.
+Four numeric-prefix wrap candidates are explicit;printed260 IF… retains its
+alternative-label uncertainty. Forty-six summary rows,29 variable rows,nine
+box glyphs,13 caption links,270 quote glyphs,12 blank quoted literals,two hex
+candidates,one DATA row and11 unknown-count dash bands remain source-bound.
+Incoming181 링/182 크2 and183 FILE CHE/184 CK remain physical fragments.
+No encoded join,syntax,algorithm,address,math,hardware or encoding repair,or
+execution. Human acceptance,full proofreading,source bytes/exact spacing and
+historical/technical claims remain unverified;original pixels govern.
 
-Printed collet word,C/W menu differences,forbear/forebear,ad/as and
-absob/aborb/asorb variants,table zeros/blanks,quoted spaces,old grammar and
-physical wraps remain literal. Four internal prose connections and outgoing
-181 링→182 크2 remain unjoined. No syntax,algorithm,address,math,hardware or
-encoding repair or execution. Human acceptance,full proofreading,source bytes/
-spacing and historical/technical claims remain unverified;original pixels govern.
+Eight whole views181–188 were reused:one task,six mapped pages,two outside
+lookups. All40 initial text crops on14 sheets,two replacement text crops and20
+selected originals were inspected before40 tasks:11 eng/29 kor+eng. All40 raws
+preceded one source pass;zero OCR failures,retries or engine changes. Two pre-OCR
+repair rounds widened variable text/original,DMAKE labels andone original frame.
+The first verifier exposed numeric-prefix indexing mistakes. Fresh corrections/
+recipe r02 fixes four classifications;the189-file r01 export and rebuild remain
+preserved. Only article/corrections/provenance/manifest metadata differ;all text,
+download and image bytes are unchanged.
 
-Twenty-three whole views175–197,two reused/21 new;one canonical task,six mapped
-pages and17 outside lookups stay within bounds. All110 initial text crops,
-27 first replacements,three cursor-boundary replacements and22 originals were
-inspected before104 tasks:five eng/99 kor+eng. All104 raws preceded one source
-pass;zero OCR failures,retries or engine changes. Two pre-OCR repair rounds
-retain all maps,crops and retired regions. A fresh metadata revision fixes one
-history-pin base directory;original447-file export/rebuild remain preserved.
-Only four metadata files differ;all readings and assets match the original.
+All10,316 UTF-8 ranges (9,499 article/817 listing),9,714 pin occurrences and60
+crop images pass. All47,504 prior files,57 inventories,30 core pins,33 prior
+readable packages andten private formats pass. The unchanged fresh213-test
+batch55 baseline is reused. Inventory contains48,820 files. All other47
+canonical entries remain unchanged;only six middle-page observations changed.
+The batch52 replacement-crop timing exception remains retained for closeout.
 
-All7,639 UTF-8 ranges,8,166 pin occurrences and126 crop images pass. All44,518
-prior files,56 inventories,30 core pins,33 prior readable packages andten private
-formats pass. The fresh213-test batch55 baseline is reused. Inventory contains
-47,504 files. All other47 canonical entries remain unchanged;only six opening
-page observations changed. Batch52's replacement-crop timing exception remains
-retained for issue closeout.
-
-Next: restore middle182–187 of0042 워드 파워. Inspect181–188,reusing all views.
-Preserve incoming 링/크2,continued editing,tables5–6,program summaries,variables,
-capacity claims and MAIN/DICT/DMAKE listings. Keep every physical row,label,
-wrap,quoted string,blank string,DATA and opaque field literal,including
-183 FILE CHE→184 CK. Six mapped/two outside/one task.188–195 and complete
-immutable assembly remain pending. Use pinned batch53 dispatcher/ten formats.
-
-Cover selection,remaining entries,all244-page accounting,standalone issue index,
-report,independent issue rebuild,fresh closeout tests and requirements audit
-remain pending. News/classified body transcription awaits volunteers.
-No reader rebuild.
+Next: restore Word Power188–193. Inspect187–194,reusing the saved whole views.
+Preserve continued DMAKE/STEST/CHECK listings,physical rows,labels,wraps,quoted
+strings,blank strings,DATA,opaque fields,captions andframe geometry. Keep the636
+opening/middle files immutable. Final194–195 and complete assembly follow.
+Use pinned batch53 dispatcher/ten formats. Cover selection,remaining entries,
+all244-page accounting,standalone issue index/report,independent issue rebuild,
+fresh closeout tests andrequirements audit remain pending. News/classified body
+transcription awaits volunteers. No reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

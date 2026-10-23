@@ -20,27 +20,27 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March1985:33 readable/sample-reviewed,one partial,seven non-owning headings
-  andseven unresolved. WordPower0042opening176–181/174–179 selectedr02:
-  447files match independent rebuild. Full176–195 extent individuallyverified;
-  182–195/immutableassembly pending.126regions/104blocks/22originals;fourtables/
-  36numberedrows/134positions/16blanks/14logicalheaders/13physicalheadercells/
-  fourcontinuationbands. Table3firsttwofields shareunruledcolumn. Eightmenus/
-  36entries/18diagramlabels/fivenodes/fivecaptions;26workeddisplayrows/12returns/
-  tenordinals/11boxedkeys/twocursors/18markers. BASIC listingsbegin183. Source
-  collet/C-W/forbear-forebear/ad-as/absob-aborb-asorb andallzeros/blanks/wraps
-  retained;S.G.C.C.reading retainsoldS.G.C.lookuphistory. No semanticrepair or
-  execution.23views(2reused/21new)/sixmapped/17outside/onetask.110initialtextcrops/
-  27first/3cursor replacements and22originals before104tasks(5eng/99kor+eng),
-  allraws beforeonepass. Two preOCRrepairrounds;one pin-rootmetadataissue fixed
-  infreshc/reciper02;original447-fileoutput/rebuild retained,onlyfourmetadatafiles
-  differ.7,639ranges/8,166pins/126images exact. All44,518priorfiles/56inventories/
-  30corepins/33priorpackages/tenformats pass;213-testbatch55baseline reused.
-  Inventory47,504files;allother47entries unchanged. Next0042middle182–187:
-  inspect181–188/reuseall;incoming링/크2,tables5–6/summaries/variables/capacity/
-  MAIN-DICT-DMAKElistingrows/strings/DATA/183FILE CHE→184CKwrap literal.
-  188–195/assemblythenremainingentries/cover/244pageaccounting/index/report/
-  independentissuerebuild/freshcloseouttests/requirementsaudit pending. Parent0040
-  awaitsallchildren. Human/source limits,volunteerwork andbatch52timingexception
+  andseven unresolved. WordPower0042opening176–181(447files) andmiddle182–187
+  (189files),both selectedr02,match independent rebuilds.636immutable nativefiles
+  cover12of20pages;188–195/completeassemblypending. Middle60regions/40blocks/
+  20originals/545nonemptytextrows;tables5–6sixrows/21positions/18nonempty/
+  threeblanks/threeheaders. Table6literal5/aominate/noheader.11BASICpanels/
+  399nonblankphysicalrows/oneblankbaseline/305selectedlabels/94wraps/fournumeric
+  prefixwrapcandidates;260IFalternative-labeluncertaintyretained.46summaryrows/
+  29variablerows/nineboxglyphs/13captionlinks/270quotes/12blankquotedliterals/
+  twohex/oneDATArow/11unknown-countdashbands. Incoming링/크2 andFILE CHE/CK
+  remainphysical;no semanticrepair/execution. Eightreusedviews181–188/sixmapped/
+  twooutside/onetask.40initialtextcrops/14sheets/twotextreplacements/20originals
+  before40tasks(11eng/29kor+eng),allrawsbeforeonepass;zeroOCRretry. TwopreOCR
+  repairrounds. Firstverifierfailedonnumericwrapindex;freshmetadatarevisionfixes
+  fourclassifications,original189-fileexport/rebuild retained. Onlyfourmetadata
+  filesdiffer;alltext/assets exact.10,316ranges/9,714pins/60images pass. All47,504
+  priorfiles/57inventories/30corepins/33priorpackages/tenformats pass;unchanged
+  fresh213-testbatch55baseline reused. Inventory48,820files;other47entries
+  unchanged. Next188–193:inspect187–194/reuseall;keep636nativefilesimmutable.
+  Final194–195/assemblythenremainingentries/cover/244pageaccounting/index/report/
+  independentissuerebuild/freshcloseouttests/requirementsauditpending. Parent0040
+  waitsallchildren. Human/source limits,volunteerwork andbatch52timingexception
   retained. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
