@@ -8552,13 +8552,381 @@
       "started_at": "2026-10-23T13:11:21.872728+00:00",
       "finished_at": "2026-10-23T13:20:40.867372+00:00",
       "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured."
+    },
+    {
+      "id": "issue-accounting-01",
+      "status": "complete",
+      "stage": "verified-cover-and-all-source-pages",
+      "toc_entry_ids": [],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        147,
+        243,
+        244
+      ],
+      "canonical_tasks": 0,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "formal_validation_failures": 2,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/validation.json",
+        "sha256": "e583793e462899d5e7cb9278158df507c942e2467701bf05cb08d6f7546f9ce6",
+        "bytes": 1860
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/verification-completed.json",
+        "sha256": "d6dc24f6d3d558788f7aebdbfc54df7cff6039df2551974c625eb4c2eeca083c",
+        "bytes": 1220
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/issue-accounting-01-preserved-work.json",
+        "sha256": "6901e8b3779fe21087bbd481e307282a75cb5dd5a616b4a5f652ea7bb9f079fd",
+        "bytes": 13776365
+      },
+      "source_page_accounting": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-accounting.json",
+        "sha256": "b26064206298da5d560c5afd7523398f7ebdb380ac9acd3a1b1bf5b6ed2311aa",
+        "bytes": 452813
+      },
+      "cover_verification": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/cover-verification-r03.json",
+        "sha256": "d341ef7a0badb471c84d78039d54fccb6d7d8c60317a7fb9987d59e30cd125d4",
+        "bytes": 3193
+      },
+      "started_at": "2026-10-23T13:23:23.673916+00:00",
+      "finished_at": "2026-10-23T13:43:15.218551+00:00",
+      "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
     {
+      "pdf_page": 1,
+      "classification": "cover",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-001.png",
+        "sha256": "906b54b3b8c70449b389418e25c659ebaa2df3dc3d4050696f04e336004eec7c",
+        "bytes": 7526811
+      },
+      "notes": "Front cover visibly85.3, MicroSoftware masthead, green/blue planets, chair and flower artwork; same issue/art as donated cover."
+    },
+    {
+      "pdf_page": 2,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-002.png",
+        "sha256": "d1c87d84b34de237590603ea76f884bf60a46a91bdbbfcfc2a6084ebe678e0aa",
+        "bytes": 4284505
+      },
+      "notes": "Full-page SKC96TPI mini-floppy disk advertisement."
+    },
+    {
+      "pdf_page": 3,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-003.png",
+        "sha256": "ba06b650d262b8d085460256424430edd550279ea03f9cb47a66df9da47ccb04",
+        "bytes": 4590981
+      },
+      "notes": "Full-page Sambo TriGem20XT/TriGem88 computer advertisement."
+    },
+    {
+      "pdf_page": 4,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-004.png",
+        "sha256": "90c75a384cc1c25f0ec4b58ae28c1df3f0f52e17f573d9edf92bd64d5d470bee",
+        "bytes": 4768526
+      },
+      "notes": "Full-page ComputerTown retail/showroom/services advertisement."
+    },
+    {
+      "pdf_page": 5,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-005.png",
+        "sha256": "380c40fd29039b059ad12528c07111178ead94c2b88b85332291233ad6761dfb",
+        "bytes": 6461834
+      },
+      "notes": "Full-page ASUKA NF-555 single-drive advertisement, Buil/Newtech."
+    },
+    {
+      "pdf_page": 6,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-006.png",
+        "sha256": "07ef12bccce6a93dbd8b5de08566c4dcfc5c2abd4ab6bad85af10248f1c47621",
+        "bytes": 2090446
+      },
+      "notes": "Full-page Super7/Bear drives and computers advertisement, Hong Ick Electronics."
+    },
+    {
+      "pdf_page": 7,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-007.png",
+        "sha256": "e266406af7873feaccf903906a95a74a860cf0dee4ccea6f6d524d7d3d15ea89",
+        "bytes": 2558545
+      },
+      "notes": "Full-page EXIM-6502-84 disk-drive advertisement, Dongseo Electronics."
+    },
+    {
+      "pdf_page": 8,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-008.png",
+        "sha256": "a546815b0cc74c933f460fd005e1445ab42a59b30ef1f988c8ce6f4bc1726052",
+        "bytes": 4607180
+      },
+      "notes": "Full-page TIGER ATS16/32/64 systems advertisement, Koryo System."
+    },
+    {
+      "pdf_page": 9,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-009.png",
+        "sha256": "6121407ae0a0e3523c5dab1022eb7a44cd6da28fe3f8a1abefab942827367d29",
+        "bytes": 7288857
+      },
+      "notes": "Full-page Centech colored diskette advertisement, Bellel."
+    },
+    {
+      "pdf_page": 10,
+      "classification": "unlisted-reference-chart",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-010.png",
+        "sha256": "2b484be7f042e963ef5af73886bf8710e81d4015a100edeab1abcc117fdcef7c",
+        "bytes": 3305593
+      },
+      "notes": "Unlisted ASCII CODE/ASCII and control-code reference tables. Source pixels preserved; no canonical article identity or cell transcription added."
+    },
+    {
+      "pdf_page": 11,
+      "classification": "unlisted-reference-chart",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-011.png",
+        "sha256": "f29b88a5a8bc9b24c56599dee229ed7b21a191a3bb9415b1d12a44111acf8eae",
+        "bytes": 3450800
+      },
+      "notes": "Unlisted hex/decimal/binary conversion reference tables headed16진수↔10진수. Printed gift/reference material adjacent to ASCII page10. Source pixels preserved; no new article/cell transcription."
+    },
+    {
+      "pdf_page": 12,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-012.png",
+        "sha256": "e57e23e94c1b1d279073030c5485bc1d7370d3e75b467a64d842c9cf188250d9",
+        "bytes": 3384309
+      },
+      "notes": "Full-page publisher diskette sales promotion using bread/jam artwork, Jungbosidae."
+    },
+    {
+      "pdf_page": 13,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-013.png",
+        "sha256": "a3cc341776b07f12cd3eea1b9eabe07d3b6c42b5e092bb766df490981b8f2897",
+        "bytes": 3336670
+      },
+      "notes": "Full-page publisher1984 Apple programs/PASCAL/MT+/BDS-C diskette sales promotion."
+    },
+    {
+      "pdf_page": 14,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-014.png",
+        "sha256": "5120558d17855a6ff93b96e15b0194ec12cf9ef4de8863070328ce1aa80c55d5",
+        "bytes": 4991479
+      },
+      "notes": "Full-page Jongro bookstore/office-equipment computer showroom advertisement."
+    },
+    {
+      "pdf_page": 15,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-015.png",
+        "sha256": "076a334d048d64cb37ae6f91fe60c936e8f18128187d91afa68875f223102e86",
+        "bytes": 5296058
+      },
+      "notes": "Full-page DACOM terminals/network/data-service advertisement."
+    },
+    {
+      "pdf_page": 16,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-016.png",
+        "sha256": "03aea0c0e302e19530a70ee841ac1ea7fd5d0796308657303c4f8d475939aa1a",
+        "bytes": 4468110
+      },
+      "notes": "Full-page3M diskette/storage-media advertisement."
+    },
+    {
       "pdf_page": 17,
       "classification": "contents",
-      "evidence": "1985년3월호 통권17호 visible"
+      "evidence": "1985년3월호 통권17호 visible",
+      "prior_observation": {
+        "pdf_page": 17,
+        "classification": "contents",
+        "evidence": "1985년3월호 통권17호 visible"
+      },
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-017.png",
+        "sha256": "1071a8d02a012e2177f2a374ace2eb862cb01b42b6ebc03a712020a6f65ce365",
+        "bytes": 3096587
+      },
+      "notes": "Contents/staff/imprint explicitly1985년3월호 통권17호; no additional body or catalog correction."
     },
     {
       "pdf_page": 18,
@@ -10176,13 +10544,31 @@
       "pdf_page": 147,
       "classification": "independent-publisher-contest-notice",
       "printed_page": null,
-      "source_material_observed": "매월 소프트웨어 공모",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "outside-canonical-body; source accounting verified",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "prior_observation": {
+        "pdf_page": 147,
+        "classification": "independent-publisher-contest-notice",
+        "printed_page": null,
+        "source_material_observed": "매월 소프트웨어 공모",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [],
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-147.png",
+        "sha256": "507c1a00c5d590f96872797e4217eaeb483b784583f45d2d0c8ca66e40b59756",
+        "bytes": 2279334
+      },
+      "notes": "Independent 매월 소프트웨어 공모 publisher contest notice; outside canonical article bodies."
     },
     {
       "pdf_page": 148,
@@ -12876,45 +13262,89 @@
     },
     {
       "pdf_page": 243,
-      "classification": "other-material-lookup-only",
+      "classification": "advertisement",
       "printed_page": null,
-      "source_material_observed": "IndependentDaewoo advertisement",
-      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "restoration": "outside-canonical-body; source accounting verified",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
-        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
-        "bytes": 2265
-      }
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "prior_observation": {
+        "pdf_page": 243,
+        "classification": "other-material-lookup-only",
+        "printed_page": null,
+        "source_material_observed": "IndependentDaewoo advertisement",
+        "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+          "bytes": 2265
+        }
+      },
+      "toc_entry_ids": [],
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-243.png",
+        "sha256": "d71902284d6d7e424c9ac72e88b3a1b84d86f3b6f19baa486d7afa7037b9a92c",
+        "bytes": 4805668
+      },
+      "notes": "Full-page Daewoo IQ1000/1MB FDD commercial advertisement."
+    },
+    {
+      "pdf_page": 244,
+      "classification": "advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body; source accounting verified",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-classifications-r03.json",
+        "sha256": "447795a548fa890f06198853f627cec85bba17d67bc0ce23b1ad8782ebc96d24",
+        "bytes": 18914
+      },
+      "source_view": {
+        "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-review/full-244.png",
+        "sha256": "7b24adf89e9c04f7a2222fce27018b916ebcefcaa4d7f5fc0f4c0bfec31e7cac",
+        "bytes": 5788584
+      },
+      "notes": "Back-cover MS-DOS/MSX-DOS commercial software advertisement, Qnix/Microsoft."
     }
   ],
-  "cover_status": "pending; donated cover priority; no cover selected in batch01",
-  "next_checkpoint": {
-    "id": "issue-accounting-01",
-    "goal": "Verify donated March cover and account for all244 source pages without changing selected articles.",
-    "toc_entry_ids": [],
-    "mapping_targets": "All48 canonical entries are accounted:39 readable/9 non-owning headings/zero partial/unresolved. Cover not yet selected;217 unique source pages occur in selected bodies and27 are outside. Inspect/reuse20 outside lookup pages1–17,147,243,244. Pages1–16/244 have no prior source-page observations;243 has lookup-only classification;17 is contents and147 is an independent publisher notice, to be verified in this accounting checkpoint. Reuse all seven previously classified outside advertisement pages18/31/43/63/79/105/124 and their existing source evidence; no repeated OCR. Use donated covers/8503.jpg before PDF fallback; inspect visible issue identity/upright proportions/derivative metadata and independently rebuild a private thumbnail with pinned cover settings. Preserve donated original/selected derivative/core30pins/39 selected packages/14 formats and every prior archive file. Classify all244 pages from selected package ownership and explicit outside dispositions;verify seven shared pages61/143/150/161/205/221/228 with disjoint mapped-region pairs and all mixed-page exclusions. Keep PDF208 folio null. Do not add unlisted articles or transcribe ads. Then standalone issue index/report/independent issue rebuild/fresh closeout213/full requirements audit remain. Human-source/volunteer limits/global batch52 timing exception retained. No reader rebuild.",
-    "provisional_lookup_targets": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      147,
-      243,
-      244
+  "cover_status": {
+    "status": "verified",
+    "source_kind": "donated",
+    "original": {
+      "path": "covers/8503.jpg",
+      "sha256": "c8f5283d6df7dbfacd6e7518139cf0da565503fee304018d0e960b207a1b67eb",
+      "bytes": 12283819
+    },
+    "thumbnail": {
+      "path": "archive/covers/derivatives/8503-b1fa14abc3c5044dbe070ddc-thumb.jpg",
+      "sha256": "9c0a0ef937d13ee9aecf811c0e3ff5b6b3ac227473677feb51a82a4b84c4bf8a",
+      "bytes": 60112
+    },
+    "dimensions": [
+      477,
+      640
     ],
+    "verification": {
+      "path": "archive/pdf/1985-03/restoration/issue-accounting-01/cover-verification-r03.json",
+      "sha256": "d341ef7a0badb471c84d78039d54fccb6d7d8c60317a7fb9987d59e30cd125d4",
+      "bytes": 3193
+    },
+    "independent_rebuild": {
+      "path": "archive/pdf/1985-03/restoration/issue-accounting-01/cover-review/independent-thumbnail.jpg",
+      "sha256": "9c0a0ef937d13ee9aecf811c0e3ff5b6b3ac227473677feb51a82a4b84c4bf8a",
+      "bytes": 60112
+    },
+    "independent_rebuild_exact": true,
+    "reader_rebuild": false
+  },
+  "next_checkpoint": {
+    "id": "issue-closeout",
+    "goal": "Deliver and independently reproduce the complete March1985 canonical TOC JSON/assets issue, then audit full requirements.",
+    "toc_entry_ids": [],
+    "mapping_targets": "All48 entries/39 readable/nine non-owning/zero partial/unresolved. Cover verified donated477x640/60112byte thumbnail and private independent exact rebuild. All244 source pages accounted:217 body/27 outside (22 ads,two unlisted charts10–11,contents17,cover1,unlisted publisher notice147). Seven shared pages61/143/150/161/205/221/228:162 nonfigure pairs disjoint;399 all-region pairs comprise395 disjoint plusfour common printed-folio-only image pairs on61/143/150/161.28 native exclusion records retained;source folio208 remains null. All39 selected packages/9582 files/2743 regions2069 blocks674 figures unchanged. Build a fresh private canonical issue base/export ledger from unchanged structured TOC and selected donated thumbnail. Use pinned batch72 assembly_dispatch.py/14 formats with installed() for issue export/check,retain30 core pins. Export standalone archive/pdf/1985-03/reference/issue.json and full private evidence/issue-closeout/report.json. Independently rebuild/check complete issue byte-for-byte includingall9582 exact selected files;validate own source/range/image/native/reverse projections,manifest/ownership/counts/cover/source accounting. Fresh make test-pdf PYTHON=.venv/bin/python must pass213 at closeout. Audit every batch against bounds/source inspection/OCR settings/preservation/corrections/uncertainties and every explicit PLAN-PDF/PLAN-OCR requirement;global batch52 crop observation timing exception remains explicit. Retain both current failed accounting verifiers and fresh r03 results; failures were optional-field compatibility and expected exclusion count27 corrected to actual28,not article/source changes. Retain all old/current archive files,full metadata/raws/crops/maps/recipes/revisions. No human acceptance/fullproofreading/encodedbytes/exactspacing/glyphcounts/claim/code execution or backup-recoverability inference. News/classified body/custom glyph volunteers remain. No reader/frontend/browser rebuild. Mark goal complete only after actual completeissue/rebuild/fresh213/full audit/docs/commit; do not start another issue.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -13022,12 +13452,30 @@
     "Coin retains343 BASIC labels/logical entries/422 nonempty physical rows/79 wraps/one blank baseline candidate/nine panels/2210 crosspanel F/10961 listing bytes.736 opaque hex DATA fields+14 decimal fields/703 commas/nine outline entries/three screen label rows/four numeric fields/one caption/15 music fields/70 quote glyphs/35 quoted fields/one empty/one blank/two trailing-space runs/44 editorial markers/20 local candidates/32 identifier candidate occurrences. Damaged2590/3200/graphic3210 remain source-linked unknowns. All13806 UTF8 ranges/13029 pins/40 exact source crops pass. No semantic reconstruction or execution.",
     "Eight reused source whole views228–235/five mapped/three outside/one task.24 initial text crops/11 sheets/16 originals/two margin replacements inspected before24 pinned tasks(9eng/15kor+eng);all raws before one source pass. Original truncated231 whole-view not counted until successful re-view before mapping. No OCR failure/retry/export/verifier failure. Quote-space metadata revision corrects occurrence scope only; original first export/metadata and all source text/crops/raws preserved. All60444 prior files/72 inventories/30 core pins/38 prior readable/14 formats checked;213 baseline68 reused. Parent/cover/244-page accounting/index-report/issue rebuild/fresh closeout213/full audit remain. Human-source/volunteer limits/global batch52 timing exception retained.",
     "Parent0045 게임 모음 is non-owning after structured TOC/printed contents17 and every body/adjacent whole page216–234. Three complete child packages retain518 exact files/17 ordered unique217–233 pages/three own title ranges. No independent parent body/divider/export. Shared221/228 retain94 disjoint region pairs/101 unchanged neighbor files.39 readable/zero partial/nine non-owning/zero unresolved; all48 canonical entries classified.",
-    "All39 readable packages/14 formats/30 core pins/61165 prior files/73 inventories unchanged. Twenty reused whole views include supplemental contents17 plus planned19 pages216–234; zero mapping/OCR/source correction/export.213 baseline68 reused. Cover/all244-page accounting/standalone issue index-report/independent issue rebuild/fresh closeout213/full audit remain; human-source/volunteer limits/global batch52 timing exception retained."
+    "All39 readable packages/14 formats/30 core pins/61165 prior files/73 inventories unchanged. Twenty reused whole views include supplemental contents17 plus planned19 pages216–234; zero mapping/OCR/source correction/export.213 baseline68 reused. Cover/all244-page accounting/standalone issue index-report/independent issue rebuild/fresh closeout213/full audit remain; human-source/volunteer limits/global batch52 timing exception retained.",
+    "Cover verified from donated covers/8503.jpg;477x640 RGB JPEG thumbnail60112bytes/metadata stripped;independent private transform exact. PDF1 and contents17 corroborate85.3/1985년3월호 통권17호;original donation/derivative unchanged. All244 source pages classified:217 selected-body pages/27 outside (22 ads/two unlisted charts/contents/cover/unlisted publisher notice). Charts10–11 and notice147 remain original private source pixels outside canonical transcription;no new identities.",
+    "Seven shared pages retain162 disjoint nonfigure region pairs. Across399 all-region pairs,395 are disjoint;four overlapping pairs are small common printed-folio images on61/143/150/161,not body overlap.28 native excluded-region records remain exact,including original historical notes about formerly pending neighbors. Active complete ownership governs current status. PDF208 remains null;no global folio offset.",
+    "All39 selected packages/9582 files/2743 regions2069 blocks674 figures remain unchanged,withall61230 prior files/74 inventories/30 core pins/14 formats checked. Twenty outside views/17 new renders/three reused;zero mapping/OCR/source correction/export.213 baseline68 reused;fresh213 mandatory at closeout. Two failed accounting verifier attempts retained;optional early metadata compatibility and expected exclusion count27 corrected to actual28 in selectedr03. No article/source changes or OCR retries. Standalone issue index/report/independent issue rebuild/fresh closeout213/full audit pending;full goal active/human-source/volunteer limits/global batch52 timing exception retained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
     "path": "archive/pdf/1985-03/restoration/batch-72/assembly_dispatch.py",
     "sha256": "cc22e7992630e1602405428f384a0793014b5c3dd7d01c60ef66c8b838648a30",
     "bytes": 2677
+  },
+  "source_page_accounting": {
+    "path": "archive/pdf/1985-03/restoration/issue-accounting-01/source-page-accounting.json",
+    "sha256": "b26064206298da5d560c5afd7523398f7ebdb380ac9acd3a1b1bf5b6ed2311aa",
+    "bytes": 452813
+  },
+  "shared_page_verification": {
+    "path": "archive/pdf/1985-03/restoration/issue-accounting-01/shared-page-verification.json",
+    "sha256": "fb85ba465644d149003a84c3e288af2392aa1a6a87cee892977eebe60bf8a03f",
+    "bytes": 29334
+  },
+  "mixed_page_exclusions": {
+    "path": "archive/pdf/1985-03/restoration/issue-accounting-01/mixed-page-exclusions.json",
+    "sha256": "addafe207749bd8e165bfb8a68cc538a1352e8909b736b7f01ab33f7a586767b",
+    "bytes": 18490
   }
 }

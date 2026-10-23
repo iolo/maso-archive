@@ -8,39 +8,46 @@ by the calendar month in which restoration work happened.
 
 March 1985 remains in progress. All 48 canonical TOC entries are classified:
 39 readable, assistant sample-reviewed articles and nine non-owning headings.
-No article is partial and no eligibility question remains unresolved. The pageless
-parent0045 게임 모음 is a non-owning group heading. Its three completed children
-cover PDF217–233 (visible215–231), retaining all 518 selected-package files exactly.
-No independent parent body, divider or export is needed. Canonical identities,
-titles, order, parents and all 39 selected articles remain unchanged.
+No article is partial and no eligibility question remains unresolved. All 39 selected
+packages remain unchanged: 9,582 files, 2,743 regions, 2,069 blocks and 674 original
+figures. Game parent0045 remains non-owning; all three complete children retain
+their separate bodies. Canonical identities, titles, order and parents are unchanged.
 
-The decision follows the unchanged structured TOC, independently inspected printed
-contents17 and every whole page216–234. Business ends216; low-score217–221, puzzle
-222–228 and coin229–233 follow continuously; classifieds begin234. Three exact
-source title ranges resolve to the child packages. Shared221 retains 45 disjoint
-region pairs and 36 unchanged mini-clock files; shared228 retains 49 pairs and 65
-unchanged cartoon files. Neither game owns a complete shared-page image.
+All 244 PDF pages are accounted for: 217 contain selected article bodies and 27 are
+outside-body material. The latter comprise 22 advertisements/promotions, two unlisted
+reference charts10–11, contents17, front cover1 and publisher contest notice147.
+Unlisted charts and notices remain original private source images without new article
+identities or transcription. Twenty outside views were individually inspected within
+the checkpoint limit; seven previously classified advertisement pages reuse their
+retained source evidence. No mapping, OCR or source correction was needed.
 
-All 20 reused lookup views (contents17 plus216–234) fit the outside-lookup ceiling.
-No mapping, OCR, source correction or article export was needed. All 61,165 prior
-files, 73 prior inventories, 30 core pins, 39 readable packages and 14 private formats
-pass. The unchanged 213-test baseline68 is reused. The preservation inventory contains
-61,230 files. Every earlier attempt, crop, raw, correction and revision remains
-preserved; PDF208's printed folio stays null. No reader rebuild.
+Seven pages have two canonical owners. All 162 pairs of mapped non-figure regions
+are disjoint. Of 399 cross-owner region pairs, 395 are disjoint; four small overlapping
+pairs preserve only the same printed folio on61/143/150/161. They do not duplicate
+article bodies. All 28 native exclusion records remain exact, including mixed-page
+advertisements/publisher notices and historical notes about formerly pending neighbors.
+The active ownership table governs current status. PDF208's printed folio stays null.
 
-Next: verify the donated March cover and account for all 244 PDF pages. Selected
-article bodies occupy 217 unique pages; 27 pages lie outside those bodies. Inspect
-pages1–17,147,243,244 within one 20-page lookup checkpoint, reuse the seven already
-classified advertisement-page records, verify all seven shared pages and retain
-every mixed-page exclusion. Prefer donated `covers/8503.jpg`, inspect its issue
-identity and thumbnail, and independently rebuild the private cover derivative.
-Then create the standalone issue index/report, independently rebuild the issue,
-rerun all 213 closeout tests and audit every requirement before declaring completion.
+The donated cover takes priority. Its verified RGB JPEG thumbnail is 477×640 and
+60,112 bytes, with metadata stripped; a private independent rebuild is byte-identical.
+The donated original and existing derivative are unchanged. Both donated cover and
+PDF1 visibly identify85.3; contents17 independently identifies1985년3월호 통권17호.
 
+All 61,230 prior files, 74 prior inventories, 30 core pins, 39 readable packages and
+14 private formats pass. The unchanged 213-test baseline68 is reused. Current
+preservation inventory contains 61,311 files. Two failed accounting verifier
+drafts remain preserved: one assumed optional fields absent from older valid records;
+the other expected27 exclusions instead of the independently enumerated28. Selected
+r03 fixes these verifier assumptions; source readings and selected articles are unchanged.
+
+Next: export the standalone issue index and report, independently rebuild the complete
+issue, rerun all 213 PDF tests and audit every requirement before declaring completion.
+Use the pinned batch72 dispatcher for all 14 private formats and retain all evidence.
 Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts,
-historical/technical claims and code execution remain unverified. News/classified
-body transcription and custom-glyph labels await volunteers. The batch52 crop-timing
-exception remains explicit. The full March goal remains active.
+historical/technical claims, execution and backup recoverability remain unverified.
+News/classified-body and custom-glyph label transcription await volunteers. The
+batch52 crop-timing exception remains explicit. No reader rebuild; the full March
+goal remains active.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

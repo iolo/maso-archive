@@ -19,21 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985: all48 canonical entries classified as39 readable/sample-reviewed
-  articles and nine non-owning headings; zero partial/unresolved. Pageless0045 게임
-  모음 is non-owning after structured TOC/printed contents17 and every whole view
-  216–234. Three complete children/518 exact files/17 ordered unique217–233 pages/
-  three exact title ranges; no independent parent body/divider/export. Shared221/
-  228 retain94 disjoint pairs/101 unchanged neighbor files and existing exclusions;
-  no full shared-page asset in games. Twenty reused outside views/zero mapping/OCR/
-  source correction/export. All61165 prior files/73 inventories/30 core pins/39
-  readable/14 formats pass;213 baseline68 reused. Inventory61230files.
-  Next cover/source accounting:inspect1–17/147/243/244 within20 outside lookups;
-  donated covers/8503.jpg priority; verify derivative/independent rebuild and all244
-  pages/seven shared pages/mixed exclusions/PDF208 null folio. Standalone issue
-  index/report/independent issue rebuild/fresh closeout213/full audit remain.
-  Human-source/volunteer limits/global batch52 timing exception retained.
-  Follow [March log](docs/progress/8503.md) and
+- March1985:all48 entries classified as39 readable/sample-reviewed articles and
+  nine non-owning headings;zero partial/unresolved. All39 selected packages/9582
+  files/2743 regions2069 blocks674 figures remain unchanged. Donated cover verified:
+  RGB JPEG477×640/60112bytes/metadata stripped/private independent rebuild exact;
+  original and existing derivative unchanged. All244 pages accounted:217 body/27
+  outside (22 ads,two unlisted charts10–11,contents17,cover1,publisher notice147).
+  Unlisted source pixels preserved without new article identities/transcription.
+  Seven shared pages/162 disjoint nonfigure pairs;399 all-region pairs comprise395
+  disjoint plusfour common-folio image pairs61/143/150/161;no body overlap.28 native
+  exclusion records retained;source folio208 remains null.20 outside views/17 new
+  renders/three reused/zero mapping/OCR/source correction/export;seven earlier ads
+  reuse retained evidence. All61230 prior files/74 inventories/30 core pins/39 readable/
+  14 formats pass;213 baseline68 reused. Inventory61311files. Two failed accounting
+  verifiers preserved;selectedr03 handles optional older metadata and corrects expected
+  exclusion count27 to actual28 (8ad/20other). Source/selected packages unchanged.
+  Next standalone issue index/report/independent issue rebuild/fresh closeout213/full
+  requirements audit. Human-source/volunteer limits/global batch52 timing exception
+  retained. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
