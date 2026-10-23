@@ -7,47 +7,41 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 31 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, six headings are non-owning, and
-11 entries remain unresolved. Entry0038 SPC-1000 그래픽 페이지 II/ 이준화 is
-complete on PDF162–169/visible160–167. All630 files from its opening and final
-natives remain exact inside the639-file complete package. No graphics body
-pages or article assembly remain pending.
+sample-reviewed, no articles are partial, seven headings are non-owning, and
+10 entries remain unresolved. Parent0036 테크니컬 is non-owning after a separate
+review of printed contents,two complete children andall intervening boundaries.
+RAM-card0037 coversPDF158–161/visible156–159;graphics0038 covers162–169/160–167.
+Their970 selected files remain unchanged. The parent owns no additional body
+pages,has no standalone divider andrequires no article package.
 
-The complete article retains178 regions,145 blocks and33 originals. Seven tables
-contain56 rows/342 logical positions,including one printed blank and16 covered
-positions. There are310 diagram fields,23 caption links,46 physical code rows,
-36 BASIC labels and19 opaque object pairs. Signal bars/subscripts,bit digits,
-55 Figure9 pins,the printed1/60 fraction,rotated보드로 label,vertical captions
-andphotos remain source-bound. One그려/지고 boundary connection preserves both
-physical fragments without changing block bytes or joining encoded words.
-Printed source title/byline remain separate from the canonical title. Source
-mistakes andglyph candidates remain literal;no circuit/code/reference repair
-or execution was used.
+Six printed테크니컬 banner ranges andtwo distinct child-title ranges remain
+exact. Twelve page assignments cover12 unique child-body pages158–169. The
+separate lower-right161 cartoon retains65 exact files;all44 non-figure region
+pairs are disjoint. Previous recursive BASIC ends upper157 with a separate
+lower bookshop advertisement;the interpreter article opens independently170.
+Printed contents17 groups only references156/160 under테크니컬 andseparately
+rules the interpreter's168 entry. Contents-neighbor18 is an advertisement.
 
-All639 selected files match an independent rebuild. All70 native-category
-occurrences,12 object projections and8,816 projected range occurrences reverse
-exactly. All9,608 active UTF-8 ranges,21,147 pin occurrences and178 images pass.
-Eight exact stage notes were resolved only in active availability;full native
-metadata,notes andflags remain unchanged. All41,574 prior files,52 inventories,
-30 core pins andprior packages remain exact. The fresh213-test batch43 baseline
-is reused. Inventory contains42,885 files. Assembly required no new rendering,
-mapping,OCR or source pass. One verifier revision handles core listing-index
-ranges without excerpt fields;both attempts remain anddata was unchanged.
+Sixteen reused whole views were inspected:17/18 and157–170. One canonical task,
+zero mapped pages/OCR/correction/export and16 outside lookups stay within bounds.
+All42,885 prior files,53 inventories,30 core pins,31 readable packages andten
+private formats pass. The unchanged fresh213-test batch43 baseline is reused.
+Inventory contains42,940 files. All other47 canonical entries andall existing
+source-page observations are unchanged. Source readings andtechnical claims were
+not altered by this organizational decision.
 
-Use pinned batch53 assembly_dispatch.py for all ten private March formats;
-all nine previous formats are retained. Batch52's four replacement crops were
-inspected after OCR launch;the corrected timing record remains explicit in the
-complete package andmust survive issue closeout. Human/source limits remain.
-
-Next: review parent0036 테크니컬 body ownership after its two complete children.
-Reuse whole views157–170 andcheck technical banners,title boundaries,shared161
-cartoon andneighbor articles. Verify any additional parent body orclassify it
-as non-owning;running banners andTOC grouping alone are insufficient.
+Next: verify the full extent of0039 인터프리터 분석 : 엔트리 포인트.
+InspectPDF169–176,reusing169–171. Candidate170–174 beforecontest175 is provisional;
+verify actual ending andall intervening pages before mapping. Preserve every
+physical BASIC row,label,wrap,quoted message,opaque hex/address,table/flowchart
+label/caption andoriginal scan. No syntax,opcode,address,hardware,math orencoding
+repair or execution. Use pinned batch53 dispatcher for all ten private formats.
 
 Cover selection,remaining entries,all244-page accounting and full issue closeout
 remain pending. Human acceptance,full proofreading,source bytes/spacing and
 historical/technical claims remain unverified;news/classified body transcription
-awaits volunteers. No reader rebuild.
+awaits volunteers. Batch52's replacement-crop timing exception remains retained
+for issue closeout. No reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

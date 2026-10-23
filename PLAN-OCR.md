@@ -19,27 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:31 readable/sample-reviewed,no partial,six non-owning headings
-  and11 unresolved. Graphics0038 complete162–169/160–167;639completefiles match
-  independentrebuild,including630exactnativefiles/fullmetadata. No bodypages/
-  assembly pending. Retains178regions/145blocks/33originals/seventables56rows/
-  342logicalpositions/oneblank/16covered/310diagramfields/23captions/46coderows/
-  36BASIClabels/19pairs. Physical그려/지고 linkedonce,noencodedwordjoin. Source
-  title/byline/geometry/codeerrors/glyphcandidates literal;no repair/execution.
-  All70category occurrences/12objects/8,816projectedranges reverse exactly;
-  9,608activeUTF8ranges/21,147pins/178images pass. Eight exactstage notes resolved
-  onlyinactiveavailability;fullnative notes/flags retained. All41,574priorfiles/
-  52inventories/30corepins/priorpackages exact;213-test baseline reused.
-  Inventory42,885files. No newrender/map/OCR/sourcepass. Firstverifier lacked
-  corelisting-index optionalexcerpt handling;freshrevision checks exactblockbytes,
-  originalfailedattempt retained;data unchanged. Freshbatch53dispatcher supports
-  allten Marchprivateformats,retainingallninepriorformats. Batch52fourreplacement
-  crops inspectedafterOCRlaunch exception remains explicit throughcloseout.
-  Nextparent0036ownership review:reuse157–170,verifybothcompletechildren/banners/
-  titleboundaries/shared161cartoon/neighborarticles. No TOC-onlyclassification.
-  Cover/remainingentries/244-pageaccounting/closeout pending. Human/source limits
-  andvolunteertranscription explicit. Follow [March log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:31 readable/sample-reviewed,no partial,seven non-owning headings
+  and10 unresolved. Parent0036 테크니컬 now non-owning afterprintedcontents and
+  two completechildren/boundaries review. RAMcard158–161 andgraphics162–169
+  retain970 selectedfiles;parent ownsno body/divider/independentpackage. Sixbanner/
+  twotitleranges exact;12uniquechildpages158–169. Shared161cartoon65files exact/
+  44nonfigurepairs disjoint. Sixteen reusedviews17/18/157–170;onetask/zero mapped/
+  OCR/correction/export/16outside lookups. All42,885priorfiles/53inventories/
+  30corepins/31readablepackages/tenformats exact;213-test baseline reused.
+  Inventory42,940files. Allother47entries/sourcepage observations unchanged.
+  Next0039interpreter:inspect169–176,reuse169–171;candidate170–174 beforecontest175
+  provisional. Verifyactualfullend/allinterveningpages beforemapping;preserve all
+  physicalBASICrows/labels/wraps/quotedmessages/hex/addresses/table/flowchartlabels/
+  captions/originalpixels literally. No semanticrepair/execution. Parent0036 is
+  separatelynon-owning;0039 remains top-level. Usebatch53dispatcher/tenformats.
+  Cover/remainingentries/244-pageaccounting/fullcloseout pending;human/source
+  limits/volunteertranscription andbatch52timingexception remainexplicit. Follow
+  [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
