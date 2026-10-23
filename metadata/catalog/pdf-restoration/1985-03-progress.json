@@ -4207,12 +4207,146 @@
       "toc_entry_id": "maso-1985-03-toc-0043",
       "title": "슈퍼맨",
       "parent_id": "maso-1985-03-toc-0040",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All13wholeviews195–207inspectedbeforemapping. WordPower195endsCHECK2000/terminal;independentSuperman196/194title/photo/prose and197/195SPC-1000/성 경 훈. ContinuousSupermanbody196–205/194–203,tenpages;each198–204individuallyreviewed,final205upperhexlistingends5B4A. Lower205canonical0015컴퓨돌이/상cartoonisalreadyrestoredinbatch45andoutsideSupermanbody. Businessopens206/204관리프로그램의작성법/김 영 일andcontinues207/205. TOC194/204arelookupcuesonly;actualextentnowverified.",
+        "Boundedopening196–201only:sixmapped/sevenoutside195,202–207/onecanonical0043task. Fourlaterbodypages202–205andimmutablecompleteassemblypending. Canonicalidentity/title/parent0040unchanged;parentclassificationwaitscomplete0043andseparatereview.",
+        "Opening196left보너스판continuesright에서는;197leftvariableA/1Zcontinuesright2V/3SPACE/4andloopnote;197summary4300–4331ends움직,198first임의처리continuesit. EightframedBASICpanels198left/right199left/right200left/right201left/right underprinted리스트1caption. Listingcontinuesacrosspanels:198right410Y<4→199leftORLEFT;200right6100IE=→201left1:IL...;201right10030...&HECD→202left,&HC9.... Preservephysicalrows;noencodedjoins.",
+        "Preserveprintedtitle/subtitle/byline/platform/screenshotstage-score-energy-liveslabels,boxedSPACE/RETURN/Zkeys,warning,commands,variableandline-rangesummaries,allBASICphysicalrows/labels/wraps/quotes/blankliterals/DATA/hex/graphicglyphsandcreditbandsasliteralcandidateswithoriginalimages. Unknowngraphicglyphsandbandcountsneedexplicitmarkers,notinferredencoding. Programclaimsnotverified;no syntax/opcode/algorithm/address/math/hardware/encodingrepair or execution.",
+        "AllselectedexacttextcropsandoriginalsrequireinspectionbeforeOCR. Keepallprior51207files/30corepinsandWordPower790files/781nativesimmutable. FullMarch/remainingentries/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseout213tests/requirementsauditpending;humanacceptance/fullproofreading/sourcebytes/exactspacing/technicalclaimsunverified;batch52timingexceptionexplicit. No readerrebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-62-r02/superman-a",
+        "article_id": "scan-maso-1985-03-toc-0043",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-62-r02/superman-a/manifest.json",
+          "sha256": "18da567803afabc42da827fee9fc0e04ca51cdaaf69878825890131fdafe9416",
+          "bytes": 25059
+        },
+        "coverage": {
+          "pdf_pages": [
+            196,
+            197,
+            198,
+            199,
+            200,
+            201
+          ],
+          "printed_pages": [
+            "194",
+            "195",
+            "196",
+            "197",
+            "198",
+            "199"
+          ],
+          "regions": 48,
+          "blocks": 31,
+          "figures": 17,
+          "actual_full_pdf_pages": [
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "actual_full_printed_pages": [
+            "194",
+            "195",
+            "196",
+            "197",
+            "198",
+            "199",
+            "200",
+            "201",
+            "202",
+            "203"
+          ],
+          "deferred_pdf_pages": [
+            202,
+            203,
+            204,
+            205
+          ]
+        },
+        "segments": [
+          {
+            "id": "superman-a",
+            "directory": "archive/pdf/1985-03/packages/batch-62-r02/superman-a",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-62-r02/superman-a/manifest.json",
+              "sha256": "18da567803afabc42da827fee9fc0e04ca51cdaaf69878825890131fdafe9416",
+              "bytes": 25059
+            },
+            "pdf_pages": [
+              196,
+              197,
+              198,
+              199,
+              200,
+              201
+            ],
+            "printed_pages": [
+              "194",
+              "195",
+              "196",
+              "197",
+              "198",
+              "199"
+            ],
+            "availability": "partial",
+            "validation": {
+              "path": "archive/pdf/1985-03/restoration/batch-62/validation.json",
+              "sha256": "4f5000018ea46b9b9c05c80dbcdcafee9f52add3cfcbaa7251b405182efadd8c",
+              "bytes": 3078
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-03/restoration/batch-62/reproduction.json",
+              "sha256": "5874a1eb80096d8409ae3e7d7c2329596642f137647173199d67da8fbcf3f21f",
+              "bytes": 1988
+            }
+          }
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-62/validation.json",
+          "sha256": "4f5000018ea46b9b9c05c80dbcdcafee9f52add3cfcbaa7251b405182efadd8c",
+          "bytes": 3078
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-62/reproduction.json",
+          "sha256": "5874a1eb80096d8409ae3e7d7c2329596642f137647173199d67da8fbcf3f21f",
+          "bytes": 1988
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+          "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+          "bytes": 3931
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-62-r02/superman-a/corrections.json",
+            "sha256": "312a100de1bc2236e69c7b9eb1a12652d6b507477ff237cf97caf0151076dfba",
+            "bytes": 3610629
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Current196–201openingonly;202–205andcompleteassemblypending. Unknowngraphicfields/stripebandsretainoriginalpixelswithnonprintedmarkers;noencodedglyphidentity/countclaim. Source0/A-label/bitmapletters/930/3/의무/10200~10907/CGI-NIT/4410Y<1/6061tailcandidatesliteral. Lower205ownedbyalreadyrestoredcanonical0015컴퓨돌이,notSuperman. Humanacceptance/fullproofreading/sourcebytes/exactspacing/technicalclaims unverified. No semanticrepair/execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/previous-ledger.json",
+        "sha256": "88c6dc71467380382f81f834861ebae40a46114b005963c17950db7581bc9f95",
+        "bytes": 426233
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0044",
@@ -4273,9 +4407,9 @@
   "totals": {
     "canonical_entries": 48,
     "readable": 34,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 7,
-    "unresolved_eligibility": 7
+    "unresolved_eligibility": 6
   },
   "checkpoints": [
     {
@@ -7153,6 +7287,67 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-62",
+      "status": "complete",
+      "stage": "validated-superman-opening",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "mapped_pdf_pages": [
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "outside_map_lookup_pages": [
+        195,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 31,
+      "eng_code_tasks": 8,
+      "kor_eng_tasks": 23,
+      "source_correction_passes": 1,
+      "mapping_authoring_failures": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "changed_text_crops": 5,
+      "accounting_metadata_revision": true,
+      "formal_validation_failures": 2,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/validation.json",
+        "sha256": "4f5000018ea46b9b9c05c80dbcdcafee9f52add3cfcbaa7251b405182efadd8c",
+        "bytes": 3078
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/verification-completed.json",
+        "sha256": "2865aa2c67162e7d27897d57d4e03f51124508391f37d92640e0c079dd6e2019",
+        "bytes": 1315
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-62-preserved-work.json",
+        "sha256": "45fd64ac8f24debb8bf86c0d4e518343352d4bdcd90dcdc0a3179eb67a38f126",
+        "bytes": 11737827
+      },
+      "started_at": "2026-10-23T06:18:51.488542+00:00",
+      "finished_at": "2026-10-23T07:15:24.802547+00:00",
+      "timing_scope": "Wallclockincludeswaits/gaps/interruptions;activehumaneffortunmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [
+        202,
+        203,
+        204,
+        205
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -10123,6 +10318,96 @@
       }
     },
     {
+      "pdf_page": 196,
+      "classification": "article-body",
+      "printed_page": "194",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "restoration": "checked-superman-opening-native",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+        "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+        "bytes": 3931
+      },
+      "notes": "CurrentSupermanopeningpagecoveragecomplete;prose/keys/screenlabels/programsummaries/variables/BASICphysicalrows/labels/quotes/graphicfields/originalpixelsretained. Articlecontinues202–205;immutableassemblypending."
+    },
+    {
+      "pdf_page": 197,
+      "classification": "article-body",
+      "printed_page": "195",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "restoration": "checked-superman-opening-native",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+        "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+        "bytes": 3931
+      },
+      "notes": "CurrentSupermanopeningpagecoveragecomplete;prose/keys/screenlabels/programsummaries/variables/BASICphysicalrows/labels/quotes/graphicfields/originalpixelsretained. Articlecontinues202–205;immutableassemblypending."
+    },
+    {
+      "pdf_page": 198,
+      "classification": "article-body",
+      "printed_page": "196",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "restoration": "checked-superman-opening-native",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+        "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+        "bytes": 3931
+      },
+      "notes": "CurrentSupermanopeningpagecoveragecomplete;prose/keys/screenlabels/programsummaries/variables/BASICphysicalrows/labels/quotes/graphicfields/originalpixelsretained. Articlecontinues202–205;immutableassemblypending."
+    },
+    {
+      "pdf_page": 199,
+      "classification": "article-body",
+      "printed_page": "197",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "restoration": "checked-superman-opening-native",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+        "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+        "bytes": 3931
+      },
+      "notes": "CurrentSupermanopeningpagecoveragecomplete;prose/keys/screenlabels/programsummaries/variables/BASICphysicalrows/labels/quotes/graphicfields/originalpixelsretained. Articlecontinues202–205;immutableassemblypending."
+    },
+    {
+      "pdf_page": 200,
+      "classification": "article-body",
+      "printed_page": "198",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "restoration": "checked-superman-opening-native",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+        "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+        "bytes": 3931
+      },
+      "notes": "CurrentSupermanopeningpagecoveragecomplete;prose/keys/screenlabels/programsummaries/variables/BASICphysicalrows/labels/quotes/graphicfields/originalpixelsretained. Articlecontinues202–205;immutableassemblypending."
+    },
+    {
+      "pdf_page": 201,
+      "classification": "article-body",
+      "printed_page": "199",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0043"
+      ],
+      "restoration": "checked-superman-opening-native",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-62/source-reviewed-r02.json",
+        "sha256": "d9e02a6d8daa31fba1842b8b04f3d28d263dfa5067ccf0c24a33d05505421033",
+        "bytes": 3931
+      },
+      "notes": "Last10030POKE&HECDcontinues202first,&HC9withoutinventedtext/encodedjoin. Currentcoveragecomplete;fourlaterpages/assemblypending."
+    },
+    {
       "pdf_page": 204,
       "classification": "other-material-lookup-only",
       "printed_page": "202",
@@ -10445,26 +10730,19 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-62",
-    "goal": "Verifyfull0043슈퍼맨extentandrestoreboundedopening;parent0040classificationafterallchildrencomplete.",
+    "id": "batch-63",
+    "goal": "Restore remaining0043Supermanbody202–205andthenassembleimmutablefullarticle.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0043"
     ],
-    "mapping_targets": "PreviousWordPowerends1952000/terminal;independentSuperman196/194and197/195observed. CanonicalTOC194Superman/204businessarelookupcues,notglobaloffsetproof. Inspect195–207wholeviews,reuse195–197/add198–207,verifyeveryinterveningpage/actualending/nextbusinessopeningbeforemapping. Maponlybounded196–201openingifeligiblebodycontinuous,sixmapped/sevenoutside/onecanonicaltask;deferlaterSupermanbody/completeassemblyasneeded. Preserveprintedtitle/subtitle/byline/platform/screenshotlabels/boxedkeys/prose/programsummaries/variables/BASICphysicalrows/labels/wraps/quotedspaces/DATA/hex/opaqueobjectfields/listingcaptions/terminal literally. No syntax/opcode/algorithm/address/math/hardware/encodingrepair or execution. Parent0040waitscomplete0043andseparategroupingreview;WordPower790files/781nativesimmutable. Usepinnedbatch61dispatcher-r03/elevenformats;30corepinsunchanged. Cover/remainingentries/244pageaccounting/index/report/independentissuerebuild/freshcloseout213tests/requirementsauditpending;batch52timingexceptionretained. No readerrebuild.",
+    "mapping_targets": "ActualSuperman196–205/194–203verifiedfromall13views195–207in62. Retainselectedopeningnative196–201unchanged. Inspect201–206,reuseall62views;map202–205only/fourmapped/twooutside201,206/onecanonicaltask. Incoming10030&HECD→202,&HC9physicalwrap;continueBASIClist1/graphicDATAfields/creditbands/sound/loaderthrough204upperthenlist2opaquehexcolumns204lower/205upperends5B4A. Preservephysicalrows/labels/wraps/quote/openquotes/blankfields/DATA/opaqueaddresses/hex/checksum-lookingfields literally;no syntax/opcode/algorithm/address/math/hardware/encodingrepair or execution. Originalglyphs/stripebands/spacingandfadedcandidatesretain scans/explicitunknownmarkers. Final205lowercanonical0015컴퓨돌이상cartoonalreadyrestoredinbatch45;excludeandcheckdisjointnessagainstimmutablecartoonmap;do notchange0015. Business206/207independent. Fullassemblyafterallbodypages;parent0040waitscomplete0043/separategroupingreview. Usepinnedbatch61dispatcher-r03/11formats;30corepinsunchanged. Cover/remainingentries/244pageaccounting/index/report/independentissuerebuild/freshcloseout213tests/requirementsauditpending;batch52timingexceptionexplicit. No readerrebuild.",
     "provisional_lookup_targets": [
-      195,
-      196,
-      197,
-      198,
-      199,
-      200,
       201,
       202,
       203,
       204,
       205,
-      206,
-      207
+      206
     ],
     "limits": {
       "articles": 2,
@@ -10540,7 +10818,11 @@
     "WordPower240arrayslices/16reservedarrayprojections/42dictobjects/threeheadingIDaliases reverseexactly;33,978projectedrangeoccurrences/41,199activeUTF8ranges/70,974pins/238images exact.17exactstagenotesresolvedonlyinactivecompleteoutput;allnativehistory/candidateaffiliationS.G.C.C.vsearlierS.G.C./sourceuncertaintiesretained. No newmapping/render/OCR/sourcepass. FirstbuildfailedonrepeatedIDs;initialdiagnosticexpectedtwo/actualthree/unbuiltr02draftretained;freshr03passedallchecks.",
     "WordPowersix tables42rows155logicalpositions136nonempty19blank17logicalheaders16physicalheadercells/fourverticalunknownbands;table3unruledsharedcolumn/table6literal5/aominate/noheader.8menus36entries/18diagramlabels/fivenodes/36captions/11boxedkeys/twocursors/12returns/tenordinalsretained. Fiveworkeddisplays26rowsseparatefromfiveBASICprograms29panels/30coderegions1184nonblankrows/oneblankcandidate/927printedlabels. Allphysicalrows/quotedstrings/DATA/hex/unknownbands/numericprefixcandidates/sourceerrors literal;no semanticrepair/execution.",
     "WordPowersixphysicalconnections preserve링/크2,FILE CHE/CK,STEST1460/B(JJ),CHECK50M2/$,450Y1/$=Y$,ERR/1unjoined. CompleteCHECK450associationcombinesmetadataforexistingphysicalfragmentswithoutinsertinglabel/text. Final1952000/terminalbeforeSuperman196/197. Sourcebytes/encodedspacing/glyphs/historical/technical/math/hardware/algorithmclaims andhumanacceptance/fullproofreadingunverified.",
-    "Usepinnedbatch61assembly_dispatch-r03.py forall11Marchprivateformats;alltenpriorformats retained.30corepins unchanged;fresh213-testbatch55baseline reused. All49,585priorfiles/60inventories/33priorreadable+onepartial checked. Next0043Supermanfull-extentproof/boundedopening;parent0040/remainingentries/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/requirementsauditpending. Globalbatch52timingexception/volunteerwork retained."
+    "Usepinnedbatch61assembly_dispatch-r03.py forall11Marchprivateformats;alltenpriorformats retained.30corepins unchanged;fresh213-testbatch55baseline reused. All49,585priorfiles/60inventories/33priorreadable+onepartial checked. Next0043Supermanfull-extentproof/boundedopening;parent0040/remainingentries/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/requirementsauditpending. Globalbatch52timingexception/volunteerwork retained.",
+    "Superman0043partial:opening196–201/194–199completecurrentcoverage;actualfull196–205/194–203individuallyverifiedthroughhex5B4Aabove205lowercanonical0015컴퓨돌이. Business206/204next. Fourlaterpages202–205/immutableassemblypending;34readable/1partial/7non-owning/6unresolved;parent0040unchanged/waitsallchildren/separatereview.",
+    "Supermanopening150selectedfilesmatchindependentr02rebuild;7691UTF8ranges/6976pins/48cropimagesexact. 332nonblankBASICrows/fiveblankcandidates/139printedlabels/193wraps/eightpanels. Nineboxedkeys/fourscreenlabels/11variables/fourinputcases/46summaryphysicalrows/35rangecandidates/112unknownmarkers/338quotes/17blankquotedfields/35opaquehexfields. Threeprose/twointernalcodeconnectionsandoutgoing10030retainedunjoined;0/A/bitmap/CGI-NIT/의무/10200~10907/4410Y<1/6061tailcandidatesliteral. No semanticrepair/execution.",
+    "Thirteenwholeviews/sixreused/sevennew/sixmapped/sevenoutside/onetask.31initialtextcrops/14sheets/fivereplacements/17originals inspectedbefore31tasks(8eng/23kor+eng);allrawsbeforeonepass. Initialschema-kindauthoringfailurebeforemap/crops/OCRretained;freshallowedtypesrevisionpassed. OnepreOCRmarginrepairround. Firstverifieromittednumeric-only4060continuationfromexpectation;transcriptionalreadycorrect. Secondverifierexpectedreview.jsoninsteadofprovenance.jsonamongfourmetadatachanges;freshread-onlyr03correctedfilename. Ledgerclarified205loweralready-owned0015컴퓨돌이;freshsource-accounting/c/reciper02changesonlyfourmetadatafiles,alltext/assets/mapunchanged. r01exports/twofailedverifiersretained;noOCR/sourcepassrestart.",
+    "All51207priorfiles/61inventories/30corepins/34priorreadablepackages/11privateformatsverified;213-testbatch55baseline reusedunchanged. NextfinalSuperman202–205thenimmutablefullassembly. FullMarch/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/requirementsauditpending;human-source limits/volunteerwork/batch52timingexceptionexplicit."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
