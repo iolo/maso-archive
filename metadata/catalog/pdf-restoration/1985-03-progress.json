@@ -3428,12 +3428,75 @@
       "toc_entry_id": "maso-1985-03-toc-0037",
       "title": "램카드 활용의 기초",
       "parent_id": "maso-1985-03-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Seven whole views157–163 inspected beforemapping. RecursiveBASIC endsupper157;RAMcard opens158/156,continues159/157 and160/158,andends161/159 leftbody/rightupper lastadvice/terminal.162 opensSPCgraphics and163 continues it. CompleteRAMcard extent158–161;no bodypage orassembly deferral.",
+        "Printed title 램 카드 활용의 기초(1),running테크니컬 and연재1회 retained separately fromcanonical 램카드 활용의 기초. No separately printedarticlebyline;canonical편집부 not inferred asprintedauthor.",
+        "Shared161 lower-right cartoon0015 is alreadycomplete. Exclude its exactselected panel rectangle;retain onlyRAMcard leftbody/rightupper/terminal andshared observed159folio. No cartoon files changed orcartoon body duplicated.",
+        "Preserve allhardware/softswitch/ROM/RAM/address/bit claims,printedcommand spellings andphysical commentwraps literally;no opcode/hardware/address/math/encoding repair or execution. Figure4 blankcells/circlemarks/mergedsegment labels remain source evidence,not computed switch states.",
+        "One canonicaltask/four mappedpages/three outside lookups. All exactcrops,figure captions/labels,tablecells andoriginaldiagram geometry requireinspection beforepinned mappedTesseract."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-50-r01/ram-card",
+        "article_id": "scan-maso-1985-03-toc-0037",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-50-r01/ram-card/manifest.json",
+          "sha256": "ea68b64c73dff598c231f3a5ae9b574af8164e8f0355f7748da3755ca78e5b3b",
+          "bytes": 56723
+        },
+        "coverage": {
+          "pdf_pages": [
+            158,
+            159,
+            160,
+            161
+          ],
+          "printed_pages": [
+            "156",
+            "157",
+            "158",
+            "159"
+          ],
+          "regions": 91,
+          "blocks": 77,
+          "figures": 14,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-50/validation.json",
+          "sha256": "c22cf4af767cf3aa500d3ee0552c2da1f2cf3cfaffba96d89c440aa01df49608",
+          "bytes": 2559
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-50/reproduction.json",
+          "sha256": "692cc6800b756a640b44efa2c6b0971f1361e6102f7ca0527daf695168084b82",
+          "bytes": 1717
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-50/source-reviewed.json",
+          "sha256": "53c844fb9d1168879e0c7ef67e7c93b6d36933356b00148896a387f7c106e5ce",
+          "bytes": 2024
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-50-r01/ram-card/corrections.json",
+            "sha256": "bb6c89c9343ed85eba0433c0b7a46b28f039f92ffb3554fbbb528473240b9500",
+            "bytes": 2554874
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "13physical/10logicalcommands/threecommentcontinuations;LAD/repeatedC081/monitorcandidates literal. Two tables136logicalpositions/48blankflagcells/16mergedpositions;29diagramlabels/fourcaptions/twounknownmarkers. No separately printedbyline. Lower161cartoon excluded/65files unchanged. No semanticrepair or execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-50/previous-ledger.json",
+        "sha256": "66779f290141dbc53efb1366dbaf0cadf92acea032ff1ad6de7bc68524fc080a",
+        "bytes": 320980
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0038",
@@ -3559,10 +3622,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 29,
+    "readable": 30,
     "partial": 0,
     "non_owning_headings": 6,
-    "unresolved_eligibility": 13
+    "unresolved_eligibility": 12
   },
   "checkpoints": [
     {
@@ -5835,6 +5898,53 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-50",
+      "status": "complete",
+      "stage": "validated-complete-ram-card",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0037"
+      ],
+      "mapped_pdf_pages": [
+        158,
+        159,
+        160,
+        161
+      ],
+      "outside_map_lookup_pages": [
+        157,
+        162,
+        163
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 77,
+      "eng_code_tasks": 3,
+      "kor_eng_tasks": 74,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "crops_changed": 14,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-50/validation.json",
+        "sha256": "c22cf4af767cf3aa500d3ee0552c2da1f2cf3cfaffba96d89c440aa01df49608",
+        "bytes": 2559
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-50/verification-completed.json",
+        "sha256": "10c70b2e21c60843be55b40d586ef380e521ba40a9cc393bdac6ffb47febaf1b",
+        "bytes": 1241
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-50-preserved-work.json",
+        "sha256": "950c4e5993acddc90a69bf1cf5cdce0f2a79120df0b998c907772a22fec604c3",
+        "bytes": 8630342
+      },
+      "started_at": "2026-10-23T00:35:25.243894+00:00",
+      "finished_at": "2026-10-23T01:05:01.629932+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -7674,32 +7784,93 @@
       "notes": "Upperfinal program-explanationtable/terminal only;no visiblefolio,lowerbookshop advertisement excluded."
     },
     {
-      "pdf_page": 160,
-      "classification": "other-material-lookup-only",
-      "printed_page": "158",
-      "source_material_observed": "RAM-card technical continuation",
-      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "pdf_page": 158,
+      "classification": "article-body",
+      "printed_page": "156",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0037"
+      ],
+      "restoration": "checked-complete-ram-card",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
-        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
-        "bytes": 2265
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-50/source-reviewed.json",
+        "sha256": "53c844fb9d1168879e0c7ef67e7c93b6d36933356b00148896a387f7c106e5ce",
+        "bytes": 2024
+      },
+      "notes": "Complete RAMcard article page;all eligibletext/code/table/diagram pixels retained."
+    },
+    {
+      "pdf_page": 159,
+      "classification": "article-body",
+      "printed_page": "157",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0037"
+      ],
+      "restoration": "checked-complete-ram-card",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-50/source-reviewed.json",
+        "sha256": "53c844fb9d1168879e0c7ef67e7c93b6d36933356b00148896a387f7c106e5ce",
+        "bytes": 2024
+      },
+      "notes": "Complete RAMcard article page;all eligibletext/code/table/diagram pixels retained."
+    },
+    {
+      "pdf_page": 160,
+      "classification": "article-body",
+      "printed_page": "158",
+      "restoration": "checked-complete-ram-card",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-50/source-reviewed.json",
+        "sha256": "53c844fb9d1168879e0c7ef67e7c93b6d36933356b00148896a387f7c106e5ce",
+        "bytes": 2024
+      },
+      "prior_observation": {
+        "pdf_page": 160,
+        "classification": "other-material-lookup-only",
+        "printed_page": "158",
+        "source_material_observed": "RAM-card technical continuation",
+        "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+          "bytes": 2265
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0037"
+      ],
+      "notes": "Complete RAMcard article page;all eligibletext/code/table/diagram pixels retained."
     },
     {
       "pdf_page": 161,
-      "classification": "mixed-canonical-article-body-and-other-material",
+      "classification": "shared-canonical-article-bodies",
       "toc_entry_ids": [
+        "maso-1985-03-toc-0037",
         "maso-1985-03-toc-0015"
       ],
       "printed_page": "159",
-      "restoration": "checked-complete-cartoon-panel",
+      "restoration": "checked-complete-ram-card-and-cartoon",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
-        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
-        "bytes": 2265
+        "path": "archive/pdf/1985-03/restoration/batch-50/source-reviewed.json",
+        "sha256": "53c844fb9d1168879e0c7ef67e7c93b6d36933356b00148896a387f7c106e5ce",
+        "bytes": 2024
       },
-      "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
-      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0037"
+      "notes": "RAMcard left/upperright andseparate lower-right completedcartoon;65cartoonfiles unchanged/44nonfigure pairs disjoint.",
+      "prior_observation": {
+        "pdf_page": 161,
+        "classification": "mixed-canonical-article-body-and-other-material",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0015"
+        ],
+        "printed_page": "159",
+        "restoration": "checked-complete-cartoon-panel",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+          "bytes": 2265
+        },
+        "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
+        "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0037"
+      }
     },
     {
       "pdf_page": 162,
@@ -8036,20 +8207,24 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-50",
-    "goal": "Verify actual full extent andrestore0037 램카드 활용의 기초.",
+    "id": "batch-51",
+    "goal": "Verify full extent and restore a bounded opening of0038 SPC-1000 그래픽 페이지 II/ 이준화.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0037"
+      "maso-1985-03-toc-0038"
     ],
-    "mapping_targets": "TOC156 is a lookup cue,not global PDFoffset. Initially inspect157–163 wholeviews,reusing saved157–159 andcartoon-boundary160–162 whereavailable. Candidate158–161 beforegraphics162 is provisional;verify fullarticle ending andseparate lower161 cartoon0015 ownership. Preserve printedrunning/series/title/intro/byline ifpresent,all codephysicalrows/opaquehex/addresses/tables/allcells/diagrams/labels/captions/softswitch claims/originalpixels without hardware/opcode/math/encoding repair or execution. One canonicaltask;at mostsix mappedpages/twenty outside lookups;segment iffullbody exceeds cap. Do notchange completedcartoon files. Technical parent0036 waits bothchildren0037/0038 andseparate classification. Cover,remaining entries,244-page accounting/fullMarchcloseout pending. No reader rebuild.",
+    "mapping_targets": "Canonical title/identity remain exact,including / 이준화. Initially inspect161–171 wholeviews,reusing161–163;candidate fullgraphics162–169 beforeinterpreter170 is provisional. Verify allintervening pages/end/printedfolios/byline beforemapping. Map atmostsix openingpages162–167 iffullarticle exceeds6;defer finalpages into separate checkpoint and immutableassembly. Preserve sourceactual title,byline,allcode/labels/hex/addresses/tables/diagrams/captions/geometry literally;no hardware/opcode/math/encoding reconstruction or execution. One canonicaltask;max6mapped/20outside. Parenttechnical0036 waits0038 completion andseparate review. Cover/remainingentries/244-page accounting/closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      157,
-      158,
-      159,
-      160,
       161,
       162,
-      163
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
     ],
     "limits": {
       "articles": 2,
@@ -8113,9 +8288,10 @@
     "Ampersandprintedtitle &의 사용법 separate fromcanonical &의 활용법. Three BASIC labels,36assemblyrows/22printed57–78 ordinals/14unnumbered rows includingfive tailrows,29diagramlabels/four captions acrossbotharticles. Prose57～77,DELARY-1,ROUTI.,SO STACK-ROUTINE,G1AA8/editor1A9F andallsource spelling/fields remainliteral;no repair/execution.",
     "MSX four BASIC examples/24labels/twoDATA rows16fields;five tables52rows112cells includingtwo explicit blankVRAM521/525 cells;21diagramlabel rows/nine captions. Figure4 nineaxis labels/sixbinary digits/last68 versusDATA60 remainliteral;figure1 tiny mark retains unknownidentity/count. First째 edge supported byfull original144;noOCR retry.",
     "Random6502 ordinals1–54 andZ80 ordinals0000–0057 retain112numbered rows/fourunnumbered headers/commentwraps/63objectfields/113opaque pairs. Filename finalO/0 uncertain;onehyphen/twosemicolon bands unknowncounts. Completeprinted regressionoutput/table5rows20cells/15vectorvalues retained underprinted list3/list1caption;apparentmismatch not repaired/reassigned/recomputed. No printedbyline inferred fromcodecomment.",
-    "13 canonical entries remain unresolved. RecursiveBASIC0035 complete154–157/152–154,null finalfolio.67regions/51blocks/16originals;five examples/two listings retain148physical code rows/146labels/logicalrows/two unnumbered0) continuations.15separatorbands andonesmallmark unknownidentity/count;no programrepair/execution.",
     "RecursiveBASIC two tables/fourparts/37rows/74cells/twoheaders,three towerlabels/three glossarybullets/ten captions/14quotedliterals includingfourO/0 candidates. Printed170 ～ 220 200,proposedCALL PROCEDURE syntax,INKEY$(1),타워게/임 andMS/X wraps retained. Final157 upperonly/lowerbookshop excluded;no printedbyline invented.",
-    "All229 selectedfiles match independent rebuild;everyactive UTF8range/sourcepin/67cropimages passes. All36,282 priorfiles/48inventories/28priorpackages/nineformats/30corepins unchanged;213-test baseline reused. Sevenviews(three reused/fournew),fourmapped/threeoutside;all67initial/sevenreplacementcrops before51tasks(nineeng/42kor+eng),allraws beforeonesourcepass. Next0037RAMcard extent/source restoration;parent0036/cover/remainingentries/244-page accounting/fullcloseout pending."
+    "12 canonical entries remain unresolved. RAMcard0037 complete158–161/156–159;91regions/77blocks/14originals.13physical/10logicalcommands/threecommentcontinuations;LAD/repeatedC081/source monitorstrings literal. No printedbyline or semanticrepair/execution.",
+    "RAMcard two tables/18rows/136logicalpositions/72nonemptycells/48blankflagcells/16mergedpositions/48circlemarks/16addresses/twosegmentlabels.12logicalheaders/11printednonblank/18physicalparts;29diagramlabels/fourcaptions/twounknownmarkers/fourphysicalprosecontinuations retained. Sourceglyphs/encodedspacing/hardwareclaims unverified.",
+    "All331 selectedfiles match independent rebuild;4,635activeUTF8ranges/5,070pinoccurrences/91croppixels pass. All37,287priorfiles/49inventories/29priorpackages/nineformats/30corepins exact;213-test baseline reused. Sevenviews(sixreused/onenew),fourmapped/threeoutside;91initial/14replacementcrops before77tasks(threeeng/74kor+eng),allraws beforeonepass. Cartoon65files unchanged/44disjointnonfigurepairs. Next0038graphics extent/opening;parent0036/cover/remainingentries/244-pageaccounting/fullcloseout pending."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

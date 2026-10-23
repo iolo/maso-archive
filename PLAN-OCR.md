@@ -19,27 +19,28 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:29 readable/sample-reviewed,no partial articles,six non-owning
-  headings and13 unresolved. RecursiveBASIC0035 complete154–157/152–154,null
-  final folio;upper157 table/terminal retained,lowerbookshop advertisement excluded.
-  67 regions/51 blocks/16 originals;five examples/two listings/148 physical rows/
-  146 labels/logical rows/two unnumbered0) continuations. Fifteen separator bands
-  andone small mark retain unknown glyph/count;14 quoted literals include four0/O
-  candidates. Two tables/four parts/37 rows/74 cells/two headers;three tower labels/
-  three glossary bullets/ten captions. Extra200,proposed CALL PROCEDURE,INKEY$(1),
-  타워게/임 andMS/X wraps literal;no byline inferred orsemantic repair/execution.
-  All229 files match independent rebuild;5,937 ranges/5,691 pins/67 crop images pass.
-  All36,282 prior files/48 inventories/28 prior packages/nine private formats/30 core
-  pins unchanged;213-test baseline reused. Inventory37,287 files. Seven views
-  (three reused/four new),four mapped/three outside pages;all67 initial/seven
-  replacement crops before51 tasks (nine eng/42 kor+eng),all51 raws beforeone pass.
-  One pre-OCR crop repair round;original maps/crops retained;no OCR failures/retries.
-  Next0037 램카드 활용의 기초:verify actual extent from157–163 whole views before
-  mapping;candidate158–161 provisional. Preserve literal hardware/code/hex/table/
-  diagram claims and separate lower161 cartoon;completed cartoon files unchanged.
-  Parent0036,cover,remaining entries/244-page accounting/closeout remain pending.
-  Human/source limits andvolunteer transcription remain explicit. Use pinned
-  batch41 dispatcher. Follow [March log](docs/progress/8503.md) and
+- March1985:30 readable/sample-reviewed,no partial articles,six non-owning
+  headings and12 unresolved. RAMcard0037 complete158–161/156–159;lower-right161
+  cartoon remains separate/65files unchanged/44nonfigure pairs disjoint.
+  91regions/77blocks/14originals;13physical code rows/ten commands/threecomment
+  continuations. LAD,repeatedC081,3DOG/3D0G candidate anddifferent printedmonitor
+  strings literal. Two tables/18rows/136logicalpositions/72nonemptycells/48blank
+  flagcells/16mergedpositions;48circlemarks/16addresses/twosegmentlabels.
+  Twelve logicalheaders/11nonblank/18physicalparts;29diagramlabels/fourcaptions/
+  twounknownmarkers/fourprosecontinuations. No printedbyline inferred orrepair/
+  execution. All331files match independent rebuild;4,635ranges/5,070pins/91images
+  pass. All37,287priorfiles/49inventories/29priorpackages/nineformats/30corepins
+  unchanged;213-test baseline reused. Inventory38,703files. Sevenviews(sixreuse/
+  onenew),fourmapped/threeoutside;all91initial/14replacementcrops before77tasks
+  (threeeng/74kor+eng),all77raws beforeonepass. Onepre-OCRcroprepair;noOCRfailure/
+  retry. Two read-only status-probe errors recorded;no completed stages restarted.
+  Next0038 SPC-1000 그래픽 페이지 II/ 이준화:inspect161–171,reuse161–163,verify
+  actual extent beforemapping. Candidate162–169 provisional;atmostsix opening
+  pages162–167 inone checkpoint,remainingpages/immutableassembly separately.
+  Preserve actualtitle/byline/code/tables/diagrams/captions literally. Parent0036,
+  cover,remainingentries/244-pageaccounting/closeout pending. Human/source limits
+  andvolunteertranscription explicit. Use pinnedbatch41 dispatcher. Follow
+  [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

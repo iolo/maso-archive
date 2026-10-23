@@ -6,40 +6,42 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 29 of 48 entries are readable and assistant
+March 1985 remains in progress: 30 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, six headings are non-owning, and
-13 entries remain unresolved. Entry0035 베이직 강좌 : 베이직에서 되부름이 가능하다!
-is complete on PDF154–157: visible152–154 and a null final folio. The final table
-and terminal occupy upper157; the lower bookshop advertisement is excluded.
-No body pages or article assembly remain pending for this entry.
+12 entries remain unresolved. Entry0037 램카드 활용의 기초 is complete on
+PDF158–161/visible156–159. The lower-right161 cartoon remains a separate complete
+article; its65 files are unchanged and all44 non-figure region pairs are disjoint.
+No body pages or article assembly remain pending for the RAM-card article.
 
-The package retains67 regions,51 blocks and16 original images. Five examples
-and two tower listings preserve148 physical code rows,146 printed labels/logical
-rows andtwo unnumbered0) continuations. Fifteen decorative bands retain unknown
-glyph identities/counts; a small mark before될 is also explicit. Four quoted0/O
-candidates and encoded spacing remain unverified. Two tables/four parts retain
-37 rows,74 cells andtwo headers;three tower labels,three glossary bullets andten
-caption links remain source-bound. Printed170 ～ 220 200,proposed CALL PROCEDURE
-syntax,INKEY$(1),타워게/임 andMS/X wraps are literal. No independently printed
-article byline is invented. No syntax,recursion,math,hardware or encoding repair
-or execution was used.
+The package retains91 regions,77 blocks and14 original images. Three code groups
+preserve13 physical rows,ten logical commands andthree comment continuations.
+Printed LAD,repeated C081,3DOG (alternative3D0G),F800〈F800.FFFFM andthe distinct
+prose F800〈800. FFFM remain literal. Two tables retain18 rows,136 logical cell
+positions,72 nonempty cells,48 blank flag cells and16 positions covered by merged
+labels. The matrix preserves48 circle marks,16 addresses in source order andtwo
+segment labels. Twelve logical headers include11 nonblank labels/18 physical parts.
+Twenty-nine diagram labels,four caption links,two unknown marks andfour prose
+continuations retain original scans. No independently printed byline is invented.
+Hardware,address,opcode,math and encoding claims remain unverified;no execution.
 
-All229 selected files match the independent rebuild. All5,937 active UTF-8
-ranges,5,691 evidence-pin occurrences and67 crop-image pixel comparisons pass.
-All36,282 prior files,48 inventories,28 prior packages,nine private formats and30
+All331 selected files match the independent rebuild. All4,635 active UTF-8
+ranges,5,070 evidence-pin occurrences and91 crop-image pixel comparisons pass.
+All37,287 prior files,49 inventories,29 prior packages,nine private formats and30
 core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
-The current preservation inventory contains37,287 files. Seven whole views
-(three reused/four new),four mapped pages/three outside lookups. All67 initial
-crops andseven pre-OCR replacements were inspected before51 tasks (nine eng/
-42 kor+eng);all51 raws before one source pass. One crop repair round retained
-both map revisions. No OCR failures/retries. Use the pinned batch41 dispatcher.
+The current preservation inventory contains38,703 files. Seven whole views
+(six reused/one new),four mapped pages/three outside lookups. All91 initial
+crops and14 pre-OCR replacements were inspected before77 tasks (three eng/
+74 kor+eng);all77 raws before one source pass. One crop repair round retained
+both map revisions. No OCR failures/retries. Two read-only status-probe errors
+are recorded;completed build/rebuild/validation outputs were reused.
 
-Next: verify the actual full extent and restore0037 램카드 활용의 기초.
-InspectPDF157–163 first;candidate158–161 before graphics162 is provisional.
-Preserve all code,opaque hex/address fields,tables/cells,diagram labels/captions,
-soft-switch claims and original pixels literally. Verify the separate lower161
-cartoon boundary and retain its completed files. Technical parent0036 waits both
-children and a separate classification review.
+Next: verify the full extent of0038 SPC-1000 그래픽 페이지 II/ 이준화.
+InspectPDF161–171 first,reusing161–163. Candidate full extent162–169 before
+interpreter170 is provisional. If more than six pages,map opening162–167 in
+one checkpoint,then the remaining pages and immutable assembly separately.
+Preserve canonical identity/title and literal source title,byline,code,tables,
+diagrams and captions. Technical parent0036 waits both children and a separate
+classification review. Use the pinned batch41 dispatcher.
 
 Cover selection,remaining entries,all244-page accounting and full issue closeout
 remain pending. Human acceptance,full proofreading,source bytes/spacing and
