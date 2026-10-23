@@ -20,27 +20,25 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March1985:33 readable/sample-reviewed,one partial,seven non-owning headings
-  andseven unresolved. WordPower0042opening176–181(447files) andmiddle182–187
-  (189files),both selectedr02,match independent rebuilds.636immutable nativefiles
-  cover12of20pages;188–195/completeassemblypending. Middle60regions/40blocks/
-  20originals/545nonemptytextrows;tables5–6sixrows/21positions/18nonempty/
-  threeblanks/threeheaders. Table6literal5/aominate/noheader.11BASICpanels/
-  399nonblankphysicalrows/oneblankbaseline/305selectedlabels/94wraps/fournumeric
-  prefixwrapcandidates;260IFalternative-labeluncertaintyretained.46summaryrows/
-  29variablerows/nineboxglyphs/13captionlinks/270quotes/12blankquotedliterals/
-  twohex/oneDATArow/11unknown-countdashbands. Incoming링/크2 andFILE CHE/CK
-  remainphysical;no semanticrepair/execution. Eightreusedviews181–188/sixmapped/
-  twooutside/onetask.40initialtextcrops/14sheets/twotextreplacements/20originals
-  before40tasks(11eng/29kor+eng),allrawsbeforeonepass;zeroOCRretry. TwopreOCR
-  repairrounds. Firstverifierfailedonnumericwrapindex;freshmetadatarevisionfixes
-  fourclassifications,original189-fileexport/rebuild retained. Onlyfourmetadata
-  filesdiffer;alltext/assets exact.10,316ranges/9,714pins/60images pass. All47,504
-  priorfiles/57inventories/30corepins/33priorpackages/tenformats pass;unchanged
-  fresh213-testbatch55baseline reused. Inventory48,820files;other47entries
-  unchanged. Next188–193:inspect187–194/reuseall;keep636nativefilesimmutable.
-  Final194–195/assemblythenremainingentries/cover/244pageaccounting/index/report/
-  independentissuerebuild/freshcloseouttests/requirementsauditpending. Parent0040
-  waitsallchildren. Human/source limits,volunteerwork andbatch52timingexception
+  andseven unresolved. WordPower0042threeimmutable natives176–181/182–187/188–193
+  (447+189+105=741files) match independent rebuilds.18of20pages covered;194–195/
+  completeassemblypending.225regions/163blocks/62originals aggregate. Latestnative
+  39regions/19blocks/20originals/593nonemptytextrows;14BASICpanels/585physicalrows/
+  464selectedlabels/121wraps/twonumeric-prefixwraps/10captionlinks/twocaptions/
+  375quotes/27blankquotedliterals/26unknownbands/threeprintedlabeljumps.
+  STEST1460/B(JJ),CHECK50M2/$panelwraps andoutgoing450Y1/194$=Y$ physical;
+  no encodedjoins/semanticrepair/execution. Faded191/0-O/Q8/CK0/CHECKN1/unclosed
+  DMAKE-STESTquotes/doublequote2300candidates retained. Eightreusedviews187–194/
+  sixmapped/twooutside/onetask.19initialtextcrops/14sheets/two193replacements/
+  20originalsbefore19tasks(14eng/5kor+eng),allrawsbeforeonepass. ZeroOCRretry/
+  export/verifierfailure.11,870ranges/10,782pins/39images pass. All48,820prior
+  files/58inventories/30corepins/33priorpackages/tenformats pass;unchangedfresh
+  213-testbatch55baseline reused. Inventory49,356files;other47entries unchanged.
+  Nextfinal194–195:inspect193–197/reuseall;incoming450Y1/$=Y$,ending1952000/
+  terminal andSuperman196/197boundary. Keep741nativefilesimmutable;complete
+  assemblyseparate. Parent0040waitsallchildren. Cover/remainingentries/244page
+  accounting/index/report/independentissuerebuild/freshcloseouttests/requirements
+  auditpending. Human/source limits,volunteerwork andbatch52timingexception
   retained. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
