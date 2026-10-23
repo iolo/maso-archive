@@ -3504,23 +3504,21 @@
       "parent_id": "maso-1985-03-toc-0036",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "All eleven whole views161–171 inspected before mapping.161 ends RAMcard/separatecartoon;162 opensSPCgraphics,163–168 continueit,169 hasfourfinal codepanels/large integratedphoto;170 opensindependentinterpreter/171continuesit. Actual fullgraphics162–169/folios160–167.",
-        "Printed SPC-1000의 그래픽 기능과 확장방법 and 이 준 화／서울대 제어계측공학과 2 retained separately fromcanonical SPC-1000 그래픽 페이지 II/ 이준화. No canonical identity/title/parent change.",
-        "Current bounded opening162–167/160–165 only,sixmappedpages/onecanonicaltask/fiveoutside lookups161,168,169,170,171. Final168–169/deferred lists1–4 andfigures10–12/table7 remain for separatecheckpoint;immutable fullarticleassembly still required.",
-        "Preserve allprinted signals including overbars/subscripts,bit patterns/pin numbers,tableheaders/rows/blankcells/mergedlabels,circuit/logic/timewave/geometry,sourcefigure/caption links andopaqueaddresses literally. No signal logic,historical hardware,circuit state,opcode,math,sourcebyte orencodedspacing reconstruction/execution.",
-        "Allsix openingpages contain eligiblearticle material with no independentadvertisement/cartoon region. Completepage originals retained together with exactdiagram/table originals;no graphical reconstruction. Read every exactcrop beforepinned mappedTesseract;allraws beforeone sourcecorrectionpass.",
-        "Final168–169/166–167 restored as113-file immutable native. All8graphics pages162–169 now covered by630nativefiles/178regions/145blocks/33originals. Fourcodegroups46physicalrows/36BASIClabels/nineaddresses/19opaqueobjectpairs;figures10–12/table7/twophotos retained. Incoming그려/지고 physicalsourceverified. Fourreplacementcrops inspectedafterOCRlaunch;timingexception explicitlyretained. Completeassembly pending;availabilitypartial."
+        "Completecanonical0038 graphics162–169/160–167 assembledfromtwo immutable natives;all630nativefiles/fullmetadata exact. No bodypages/assembly pending. Printed source title/byline remainseparate fromcanonical identity.",
+        "All70 nativecategory occurrences/12object projections reverse exactly. Seven tables56rows342logicalpositions/oneblank/16covered,310diagramfields/23captions/46coderows/36BASIClabels/19opaqueobjectpairs retained. No circuit/code/byte/address/reference/math/encoding repair or execution.",
+        "Onephysical167→168 connection retains그려/지고 withoutchanging original blockbytes orjoining encodedwords. Final169list4RET/integratedphoto precedesindependent170interpreter.",
+        "Eight exactnative stage-notes resolved only inactivecomplete scope;alloriginalnotes/flags/files retained. Durablehuman/sourceglyph/circuit/technical limits andbatch52fourreplacementcrops inspectedafterOCRlaunch exception remainexplicit throughcloseout."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-03/packages/batch-51-r01/spc-graphics-a",
+        "directory": "archive/pdf/1985-03/packages/batch-53-r01/spc-graphics-complete",
         "article_id": "scan-maso-1985-03-toc-0038",
         "manifest": {
-          "path": "archive/pdf/1985-03/packages/batch-51-r01/spc-graphics-a/manifest.json",
-          "sha256": "9c145e4b623de65777791691d520c14404a54fb9bf8bc83e462c62a5f8b440b7",
-          "bytes": 88414
+          "path": "archive/pdf/1985-03/packages/batch-53-r01/spc-graphics-complete/manifest.json",
+          "sha256": "d79dfe61b91d105bc140fe89538a4acb04f5d40a22dae32d569c51b251a5c920",
+          "bytes": 115591
         },
         "coverage": {
           "pdf_pages": [
@@ -3529,7 +3527,9 @@
             164,
             165,
             166,
-            167
+            167,
+            168,
+            169
           ],
           "printed_pages": [
             "160",
@@ -3537,34 +3537,15 @@
             "162",
             "163",
             "164",
-            "165"
+            "165",
+            "166",
+            "167"
           ],
-          "regions": 143,
-          "blocks": 122,
-          "figures": 21,
-          "deferred_pdf_pages": [
-            168,
-            169
-          ]
+          "regions": 178,
+          "blocks": 145,
+          "figures": 33,
+          "deferred_pdf_pages": []
         },
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "validation": {
-          "path": "archive/pdf/1985-03/restoration/batch-51/validation.json",
-          "sha256": "c5c3985990f5a6834499d716e52d2f8d594dbcc52a1d26da1253deca9a1864de",
-          "bytes": 2424
-        },
-        "reproduction": {
-          "path": "archive/pdf/1985-03/restoration/batch-51/reproduction.json",
-          "sha256": "49cb4e99ac697911358e21e484f1eb57ecb4f00a67a9256ce654e8e33ad16b06",
-          "bytes": 1673
-        },
-        "source_review": {
-          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
-          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
-          "bytes": 2250
-        },
-        "source_limits": "Opening only. Six tables/52rows/330logicalcells/313nonempty/16covered/oneblank;277diagramfields/15captions/13overbars/73subscripts. 55Figure9pins/16bitdigits literal. Source17EDH/17E0H andmemorystrings independent;no circuit repair/execution. Final168–169 and immutable assembly pending.",
         "segments": [
           {
             "id": "spc-graphics-a",
@@ -3631,6 +3612,43 @@
             }
           }
         ],
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "assembly_recipe": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/assembly-recipe.json",
+          "sha256": "53362340a1748975346177ff824ec935358f807ba785288fced414e2345806e3",
+          "bytes": 11019
+        },
+        "private_adapter": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/graphics_literal.py",
+          "sha256": "12647f4fd9b3e5c77c4eeb7a48615a946183d0470320ade02ad9e85a83ce3ee3",
+          "bytes": 8633
+        },
+        "assembly_dispatcher": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/assembly_dispatch.py",
+          "sha256": "7f9ed447bf4935e2efddcee514ea41e0a45c46b13b9f940ba589937c0dae88d2",
+          "bytes": 2233
+        },
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/validation.json",
+          "sha256": "5cabb974dd41c37f858125eb5efef5a3a69981899d191ca96c95488e0c21b3d5",
+          "bytes": 1897
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/reproduction.json",
+          "sha256": "3c837290cf6c896de633d24b76de126d397542c66386e1bad2ded85db1b1609c",
+          "bytes": 2475
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/source-reviewed.json",
+          "sha256": "b938e8583a91bed12ac030c1a3a561b728a72fa1d3f49efb7490af8e76b49970",
+          "bytes": 2001
+        },
+        "native_stage_history": {
+          "path": "archive/pdf/1985-03/restoration/batch-53/previous-ledger.json",
+          "sha256": "5fc45ef90c9fef222493181e9b0ba354f2bf88250c729ad7236b9607dde47053",
+          "bytes": 346772
+        },
         "native_segments_coverage": {
           "pdf_pages": [
             162,
@@ -3657,27 +3675,24 @@
           "figures": 33,
           "deferred_pdf_pages": [],
           "all_eligible_body_pages_restored": true,
-          "assembly_pending": true,
-          "native_files": 630,
-          "coverage_note": "Primarydirectory/coverage remains immutableopeningnative;all8bodypages now have630nativefiles. Completeassembly pending."
+          "assembly_pending": false,
+          "native_files_retained": 630
         },
-        "final_native_validation": {
-          "path": "archive/pdf/1985-03/restoration/batch-52/validation.json",
-          "sha256": "6b076113558d1393a086d4594fe50ebef549209df9f80bfbf5a4f8cf49b621d5",
-          "bytes": 2575
-        },
-        "final_native_source_review": {
-          "path": "archive/pdf/1985-03/restoration/batch-52/source-reviewed-r02.json",
-          "sha256": "c1344ec526a97af6ccfa6acd870764ed6d3c0db1cb807b3a316821880f1a38fa",
-          "bytes": 2279
-        },
-        "latest_native_ending": {
+        "complete_source_ending": {
           "corrections": {
-            "path": "archive/pdf/1985-03/packages/batch-52-r01/spc-graphics-b/corrections.json",
-            "sha256": "406a1198687ba7634b18173c3d8fd9a182f946a7e943a54193c5ad8212db791d",
-            "bytes": 999880
+            "path": "archive/pdf/1985-03/packages/batch-53-r01/spc-graphics-complete/corrections.json",
+            "sha256": "1b4e566488ada90e8af5af08bfed456bbc4ea5a6e7a88fa63d9ab3c9d4e85656",
+            "bytes": 11578895
           },
-          "field": "source_ending"
+          "field": "complete_source_ending"
+        },
+        "cross_segment_connections": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-53-r01/spc-graphics-complete/corrections.json",
+            "sha256": "1b4e566488ada90e8af5af08bfed456bbc4ea5a6e7a88fa63d9ab3c9d4e85656",
+            "bytes": 11578895
+          },
+          "field": "cross_segment_connections"
         },
         "preflight_timing_exceptions": [
           {
@@ -3688,9 +3703,9 @@
         ]
       },
       "classification_history": {
-        "path": "archive/pdf/1985-03/restoration/batch-51/previous-ledger.json",
-        "sha256": "ba138812d256b7e46ad57dc4e1365cf2047752db882cac1a4ff0037246943746",
-        "bytes": 328870
+        "path": "archive/pdf/1985-03/restoration/batch-53/previous-ledger.json",
+        "sha256": "5fc45ef90c9fef222493181e9b0ba354f2bf88250c729ad7236b9607dde47053",
+        "bytes": 346772
       }
     },
     {
@@ -3806,8 +3821,8 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 30,
-    "partial": 1,
+    "readable": 31,
+    "partial": 0,
     "non_owning_headings": 6,
     "unresolved_eligibility": 11
   },
@@ -6234,6 +6249,40 @@
       "article_availability": "partial",
       "deferred_body_pdf_pages": [],
       "assembly_required": true
+    },
+    {
+      "id": "batch-53",
+      "status": "complete",
+      "stage": "validated-complete-spc-graphics-assembly",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0038"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-53/validation.json",
+        "sha256": "5cabb974dd41c37f858125eb5efef5a3a69981899d191ca96c95488e0c21b3d5",
+        "bytes": 1897
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-53/verification-completed.json",
+        "sha256": "b37e8bfbd8fe6147f63e66a6e4f6dd8759d9c5ce3edd20925da37c2d6c76d080",
+        "bytes": 1292
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-53-preserved-work.json",
+        "sha256": "d0c7cbd2de81e23ca3c361fec1b4fbc68a9fd2c4bc34f53b85f1850e3f8d0555",
+        "bytes": 9608352
+      },
+      "started_at": "2026-10-23T01:56:32.754548+00:00",
+      "finished_at": "2026-10-23T02:08:40.069030+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -8165,7 +8214,7 @@
       "pdf_page": 162,
       "classification": "article-body",
       "printed_page": "160",
-      "restoration": "checked-spc-graphics-opening-segment",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
         "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
@@ -8173,20 +8222,35 @@
       },
       "prior_observation": {
         "pdf_page": 162,
-        "classification": "other-material-lookup-only",
+        "classification": "article-body",
         "printed_page": "160",
-        "source_material_observed": "SPC-1000 graphics opening",
-        "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+        "restoration": "checked-spc-graphics-opening-segment",
         "source_review": {
-          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
-          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
-          "bytes": 2265
-        }
+          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
+          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
+          "bytes": 2250
+        },
+        "prior_observation": {
+          "pdf_page": 162,
+          "classification": "other-material-lookup-only",
+          "printed_page": "160",
+          "source_material_observed": "SPC-1000 graphics opening",
+          "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+          "source_review": {
+            "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+            "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+            "bytes": 2265
+          }
+        },
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
       },
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained."
     },
     {
       "pdf_page": 163,
@@ -8195,13 +8259,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-opening-segment",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
         "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
         "bytes": 2250
       },
-      "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 163,
+        "classification": "article-body",
+        "printed_page": "161",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-opening-segment",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
+          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
+          "bytes": 2250
+        },
+        "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      }
     },
     {
       "pdf_page": 164,
@@ -8210,13 +8289,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-opening-segment",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
         "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
         "bytes": 2250
       },
-      "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 164,
+        "classification": "article-body",
+        "printed_page": "162",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-opening-segment",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
+          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
+          "bytes": 2250
+        },
+        "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      }
     },
     {
       "pdf_page": 165,
@@ -8225,13 +8319,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-opening-segment",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
         "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
         "bytes": 2250
       },
-      "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 165,
+        "classification": "article-body",
+        "printed_page": "163",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-opening-segment",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
+          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
+          "bytes": 2250
+        },
+        "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      }
     },
     {
       "pdf_page": 166,
@@ -8240,13 +8349,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-opening-segment",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
         "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
         "bytes": 2250
       },
-      "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 166,
+        "classification": "article-body",
+        "printed_page": "164",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-opening-segment",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
+          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
+          "bytes": 2250
+        },
+        "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      }
     },
     {
       "pdf_page": 167,
@@ -8255,13 +8379,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-opening-segment",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
         "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
         "bytes": 2250
       },
-      "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 167,
+        "classification": "article-body",
+        "printed_page": "165",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-opening-segment",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-51/source-reviewed.json",
+          "sha256": "e588a1129d53331c89f712e021131a8d16a5722d1023b4906f62c60059e54b55",
+          "bytes": 2250
+        },
+        "notes": "Complete eligible opening-page text/table/diagram pixels retained;full article continues through169,assembly pending."
+      }
     },
     {
       "pdf_page": 168,
@@ -8270,13 +8409,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-final-native;complete-assembly-pending",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-52/source-reviewed-r02.json",
         "sha256": "c1344ec526a97af6ccfa6acd870764ed6d3c0db1cb807b3a316821880f1a38fa",
         "bytes": 2279
       },
-      "notes": "Allfinal eligibleprose/code/table/diagram/photo pixels retained;openingnative immutable. No morebodypages;completeassemblypending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 168,
+        "classification": "article-body",
+        "printed_page": "166",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-final-native;complete-assembly-pending",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-52/source-reviewed-r02.json",
+          "sha256": "c1344ec526a97af6ccfa6acd870764ed6d3c0db1cb807b3a316821880f1a38fa",
+          "bytes": 2279
+        },
+        "notes": "Allfinal eligibleprose/code/table/diagram/photo pixels retained;openingnative immutable. No morebodypages;completeassemblypending."
+      }
     },
     {
       "pdf_page": 169,
@@ -8285,13 +8439,28 @@
       "toc_entry_ids": [
         "maso-1985-03-toc-0038"
       ],
-      "restoration": "checked-spc-graphics-final-native;complete-assembly-pending",
+      "restoration": "checked-complete-spc-graphics-assembly",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-52/source-reviewed-r02.json",
         "sha256": "c1344ec526a97af6ccfa6acd870764ed6d3c0db1cb807b3a316821880f1a38fa",
         "bytes": 2279
       },
-      "notes": "Allfinal eligibleprose/code/table/diagram/photo pixels retained;openingnative immutable. No morebodypages;completeassemblypending."
+      "notes": "Completeeligiblebody source retained inimmutable natives andverifiedfullassembly;no deferredbodypages/assembly. Native stageobservations retained.",
+      "prior_observation": {
+        "pdf_page": 169,
+        "classification": "article-body",
+        "printed_page": "167",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0038"
+        ],
+        "restoration": "checked-spc-graphics-final-native;complete-assembly-pending",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-52/source-reviewed-r02.json",
+          "sha256": "c1344ec526a97af6ccfa6acd870764ed6d3c0db1cb807b3a316821880f1a38fa",
+          "bytes": 2279
+        },
+        "notes": "Allfinal eligibleprose/code/table/diagram/photo pixels retained;openingnative immutable. No morebodypages;completeassemblypending."
+      }
     },
     {
       "pdf_page": 204,
@@ -8616,13 +8785,28 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-53",
-    "goal": "Assemble complete0038 SPC-1000 graphics from two immutable natives covering162–169/160–167;no new mapping/OCR.",
+    "id": "batch-54",
+    "goal": "Review canonical0036 테크니컬 body ownership after both children0037/0038 are complete.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0038"
+      "maso-1985-03-toc-0036"
     ],
-    "mapping_targets": "Preserve517opening+113final files,630total,full metadata/everyarray/object projection. Source-boundary그려/지고 fromopeningoutgoing/finalincoming retained exactlyonce;no codebyte/spacing/circuit reconstruction. Distinctprivategraphicsliteral adapter mustpreserve7tables/56rows/342logicalpositions/oneblank/16covered/33originals/145blocks/178regions/310diagramfields/23captionlinks/fourcodegroups/46physicalcoderows/36BASIClabels/19pairs/overbars/subscripts/fraction/rotatedlabel/photos. Retainallnative stageflags/files anddurablesource uncertainty,includingbatch52fourreplacementcrops inspectedafterOCRlaunch. Resolveonlyexactpendingstagenotes inactivecompleteoutput. Verifyeverycombinedrange/pin/image/orderedcoverage,nativecopies,reverseprojections andindependentrebuild. Freshdispatcher mustretainallninepriorprivateformats;30corepinsunchanged. Readableonlyafterverifiedassembly. Parent0036 classificationseparate;cover/remainingentries/244-pageaccounting/closeout pending. No reader rebuild.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Classify parent0036 separately fromcompleted children0037RAMcard158–161 and0038graphics162–169. Reusewholeviews157–170 toreview alltechnical banners/titleboundaries/shared161cartoon/precedingrecursiveBASIC/followinginterpreter. Verifywhetherparent hasadditional eligiblebody orisnon-owningorganization;do not inferownership fromTOC orrunningbanners alone. Verifybothchild manifests/files andsourcebound headingranges. Onecanonicaltask,zero plannedmapped/OCRpages,14outside lookups within20;maponlyif actualadditionalbodyfoundunder6pagecap. Preserveall48canonicalidentities/titles/order/parents. Usebatch53dispatcher foralltenformats. Cover/remainingentries/244-pageaccounting/fullcloseout pending. No reader rebuild.",
+    "provisional_lookup_targets": [
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -8678,7 +8862,6 @@
     "Printed BLPAD,IC₃74L05→78L05,Q A,윗쪽,circled7/#,source cell wraps and LOCATE claim remain literal. Row4 title 애플쿨러 middle vowel 쿨/콜 explicitly uncertain;full source/focus retained. Diagram outlines/arrows original pixels;no circuit/command/encoding repair or applying historical corrections.",
     "Classified source oldspellings물려드리겠읍니다/바꾸고 싶읍니다 override preliminary modernized map descriptions,which remain immutable historical evidence. All offers/contact/price pixels retained;no source item counts/current identities/historical claims inferred.239right final offers not assigned a contact from following240new bullet. Failed initial wording-only verifier retained;fresh r02 checks exact notes/structured boundary without source changes.",
     "Final classified native retains four image fragments/two physical associations,actual241contact/terminal andfollowing242nullfolio. Source exchange heading belongs immutable opening;no repeated heading/caption/byline or239→240same-item/contact association inferred. Body transcription remains pending volunteers;all offer/contact/price claims unverified.",
-    "Use pinned batch41 assembly_dispatch for all nine March private formats in JSON/assets issue export/check. Full native stage notes/flags retained;active complete classifieds scope has no deferred body pages orassembly pending.",
     "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
     "Keyboard sourceLOCATEY,0 twice,LO/newlineCATE andHA/newline!  HA! remain literal;quoted encoded-space counts unverified. Miniclock sourcePOKE54,0,0,Q=Q/newline+(R-Q),CIRCL/newlineE andIFR>6/newline0THEN unchanged. Canonical미니 클럭 independent fromprinted미니클럭. No syntax/number/keyboard/clock/encoding repair or execution.",
     "Advertisingindex0016 complete lowerPDF242 withnullfolio despite canonical240:two ordered parts/26 rows/52 cells/no printed headers/three cover references/26 original leader bands/tree/lower rule. Source벨엘상사/보라바이컴/선경화학 andall names remainvisual candidates;no identity/reference-target/leader-count/folio-offset repair.",
@@ -8688,15 +8871,16 @@
     "RecursiveBASIC two tables/fourparts/37rows/74cells/twoheaders,three towerlabels/three glossarybullets/ten captions/14quotedliterals includingfourO/0 candidates. Printed170 ～ 220 200,proposedCALL PROCEDURE syntax,INKEY$(1),타워게/임 andMS/X wraps retained. Final157 upperonly/lowerbookshop excluded;no printedbyline invented.",
     "RAMcard two tables/18rows/136logicalpositions/72nonemptycells/48blankflagcells/16mergedpositions/48circlemarks/16addresses/twosegmentlabels.12logicalheaders/11printednonblank/18physicalparts;29diagramlabels/fourcaptions/twounknownmarkers/fourphysicalprosecontinuations retained. Sourceglyphs/encodedspacing/hardwareclaims unverified.",
     "Graphics opening143regions/122blocks/21originals. Six tables52rows/330logicalpositions/313nonemptycells/16covered/oneblank/sixmergedrowgroups/33logicalheaders;277diagramfields/15captions/13overbars/73subscripts/16bitdigits/55Figure9pins/eightinternalcontinuations/oneoutgoing. One slantedmark unknown;faintleftedge/H6uppermark/17EDHcandidate/boxglyphs unverified. No circuit orcode reconstruction/execution.",
-    "11 canonical entries remain unresolved;0038 graphics all8bodypages162–169 nowcovered across630immutable nativefiles/178regions/145blocks/33originals. Completeassembly pending;availabilitypartial. Primarydirectory/coverage remains openingnative,historicaldeferral resolved inaggregate native_segments_coverage.",
-    "Finalgraphics native113files matches independentrebuild;1,984UTF8ranges(1,838article/146listing),1,982pins/35images pass. 46coderows/36BASIClabels/nineaddresses/19objectpairs/table7fourrows12cells/33diagramfields/eightcaptions/rotated보드로/fraction1/60 retained. Five reusedviews/twomapped/threeoutside;23tasks(foureng/19kor+eng),allrawsbeforeonepass,noOCRretry. All41,052priorfiles/51inventories/30corepins exact;213-testbaseline reused.",
     "Batch52 timing exception:35initialcrops/12originals/eightsheets inspectedbeforeOCR;fourreplacementcrops returnedinsamecallasOCRlaunch andinspectedafterlaunch. Retained preflight-observation-timing.json correctsoriginalpreflightclaim;allfour source rowscomplete,recognitionnotrestarted. Carryexceptionthroughassemblyandissuecloseout.",
-    "Finalcode DIMRR(1),SCREEN1,1,2,1018,list3selected8/Bcandidate,ORG0/Ocandidate andprose list2/100 versuscode100GOTO90 remainliteral;no hardware/math/reference/code repair or execution. Nextcompletegraphicsassembly;parent0036/cover/remainingentries/244-pageaccounting/closeout pending."
+    "11 canonical entries remain unresolved. Graphics0038 complete162–169/160–167;630immutable nativefiles/178regions/145blocks/33originals. No bodypages/assembly pending. Parenttechnical0036 classification next;cover/remainingentries/244-pageaccounting/closeout pending.",
+    "Graphics639selectedfiles match independentrebuild;70category occurrences/12objects/8,816projectedrange occurrences reverse exactly;9,608activeUTF8ranges/21,147pinoccurrences/178images pass. Seven tables56rows342logicalpositions/oneblank/16covered;310diagramfields/23captions/46coderows/36BASIClabels/19pairs retained. Eight exactstage notes resolved onlyinactivecomplete scope;allnative notes/flags/files preserved.",
+    "Use pinned batch53 assembly_dispatch.py forallten March privateformats;allninepriorformats retained. Thirtycorepins unchanged;fresh213-testbatch43 baseline reused. No newmapping/render/OCR/sourcepass. All41,574priorfiles/52inventories/30priorreadable+onepartial exact.",
+    "Graphics printedDIMRR(1),SCREEN1,1,2,1018,list3selected8/Bcandidate,ORG0/Ocandidate,proselist2/100 versuscode100GOTO90,17EDH/17E0H andmemorystrings remainliteral. Physical그려/지고 boundary linkedonce,noencodedwordjoin. No hardware/math/reference/code repair or execution. Batch52timingexception explicitlyretained forissuecloseout."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
-    "path": "archive/pdf/1985-03/restoration/batch-41/assembly_dispatch.py",
-    "sha256": "4f0b3891a1c0f893099b6f89367fab52468611e38ed55a0a034a63d62b7e123c",
-    "bytes": 2115
+    "path": "archive/pdf/1985-03/restoration/batch-53/assembly_dispatch.py",
+    "sha256": "7f9ed447bf4935e2efddcee514ea41e0a45c46b13b9f940ba589937c0dae88d2",
+    "bytes": 2233
   }
 }

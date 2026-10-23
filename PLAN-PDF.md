@@ -24,47 +24,43 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 30 of 48 entries are readable and assistant
-sample-reviewed, one article is partial, six headings are non-owning, and
-11 entries remain unresolved. All eight body pages of0038 SPC-1000 그래픽
-페이지 II/ 이준화 are now restored across two immutable natives: opening
-PDF162–167/visible160–165 and final168–169/166–167. Their630 files retain178
-regions,145 blocks and33 originals. Complete article assembly remains pending;
-availability is partial. The primary ledger directory still names the opening
-native;aggregate native coverage records that no body pages remain deferred.
+March 1985 remains in progress: 31 of 48 entries are readable and assistant
+sample-reviewed, no articles are partial, six headings are non-owning, and
+11 entries remain unresolved. Entry0038 SPC-1000 그래픽 페이지 II/ 이준화 is
+complete on PDF162–169/visible160–167. All630 files from its opening and final
+natives remain exact inside the639-file complete package. No graphics body
+pages or article assembly remain pending.
 
-The final native retains35 regions,23 blocks and12 originals. Four code groups
-contain46 physical rows:36 BASIC labels andORG plus nine assembly address rows.
-Nine object fields retain19 opaque hex pairs. Table7 has four rows/12 cells/three
-logical headers/four printed header labels. Thirty-three diagram fields,eight
-caption links,four vertical captions,the printed1/60 fraction,rotated보드로 label
-and both large photos remain source-bound. Incoming그려/지고 andinternal인터/럽트
-remain physical fragments. DIMRR(1),SCREEN1,1,2,1018,selected8/B andORG0/O
-candidates remain literal. The prose's list2/100 claim andcode100 GOTO90 remain
-independent. No opcode,byte,address,reference,hardware ormath repair or execution.
+The complete article retains178 regions,145 blocks and33 originals. Seven tables
+contain56 rows/342 logical positions,including one printed blank and16 covered
+positions. There are310 diagram fields,23 caption links,46 physical code rows,
+36 BASIC labels and19 opaque object pairs. Signal bars/subscripts,bit digits,
+55 Figure9 pins,the printed1/60 fraction,rotated보드로 label,vertical captions
+andphotos remain source-bound. One그려/지고 boundary connection preserves both
+physical fragments without changing block bytes or joining encoded words.
+Printed source title/byline remain separate from the canonical title. Source
+mistakes andglyph candidates remain literal;no circuit/code/reference repair
+or execution was used.
 
-All113 final files match the independent rebuild. All1,984 active UTF-8 ranges
-(1,838 article/146 listing),1,982 pins and35 crop-image comparisons pass.
-All41,052 prior files,51 inventories,30 core pins,30 prior readable packages and
-the opening partial package remain exact. Nine private formats pass;the unchanged
-fresh213-test batch43 baseline is reused. Inventory contains41,574 files.
-Five reused whole views,two mapped pages/three outside lookups. All23 OCR tasks
-(four eng/19 kor+eng) succeeded;all23 raws were read before one source pass.
+All639 selected files match an independent rebuild. All70 native-category
+occurrences,12 object projections and8,816 projected range occurrences reverse
+exactly. All9,608 active UTF-8 ranges,21,147 pin occurrences and178 images pass.
+Eight exact stage notes were resolved only in active availability;full native
+metadata,notes andflags remain unchanged. All41,574 prior files,52 inventories,
+30 core pins andprior packages remain exact. The fresh213-test batch43 baseline
+is reused. Inventory contains42,885 files. Assembly required no new rendering,
+mapping,OCR or source pass. One verifier revision handles core listing-index
+ranges without excerpt fields;both attempts remain anddata was unchanged.
 
-One crop repair round retained both maps andfour replacements. Initial35 crops/
-12 originals/eight sheets were inspected before OCR. The four replacement crops
-were returned in the same tool call as OCR launch and inspected after launch.
-The retained timing supplement corrects the original preflight claim;the crops
-retain complete rows and recognition was not restarted. Carry this exception
-through assembly and issue closeout. Metadata-only draft-prose revisions retain
-their originals;source readings andraws are unchanged.
+Use pinned batch53 assembly_dispatch.py for all ten private March formats;
+all nine previous formats are retained. Batch52's four replacement crops were
+inspected after OCR launch;the corrected timing record remains explicit in the
+complete package andmust survive issue closeout. Human/source limits remain.
 
-Next: assemble complete0038 from the517-file opening and113-file final natives.
-Preserve full metadata,every supplemental array/object,source uncertainty and
-the incoming boundary exactly once. Verify all combined ranges,pins,images,
-native copies,reverse projections andan independent rebuild. Use a fresh private
-dispatcher retaining all nine existing formats. Technical parent0036 waits the
-completed assembly and a separate classification review.
+Next: review parent0036 테크니컬 body ownership after its two complete children.
+Reuse whole views157–170 andcheck technical banners,title boundaries,shared161
+cartoon andneighbor articles. Verify any additional parent body orclassify it
+as non-owning;running banners andTOC grouping alone are insufficient.
 
 Cover selection,remaining entries,all244-page accounting and full issue closeout
 remain pending. Human acceptance,full proofreading,source bytes/spacing and

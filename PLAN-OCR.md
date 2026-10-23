@@ -19,31 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:30 readable/sample-reviewed,one partial,six non-owning headings
-  and11 unresolved. Graphics0038 all eight actual body pages162–169/160–167
-  restored across517 opening+113 final immutable files;178regions/145blocks/
-  33originals. Complete assembly pending;availabilitypartial. Primarydirectory
-  remains openingnative;aggregate coverage has no deferredbodypages.
-  Final35regions/23blocks/12originals;46coderows/36BASIClabels/ORG+nineaddresses/
-  19opaquehexpairs;table7fourrows12cells/threeheaders/fourprintedlabels;
-  33diagramfields/eightcaptions/fourverticalcaptions/1/60/rotated보드로/twophotos.
-  Incoming그려/지고 andinternal인터/럽트 literal. DIMRR(1),SCREEN1,1,2,1018,
-  selected8/B andORG0/O candidates,prose list2/100 versuscode100GOTO90 unchanged.
-  No hardware/code/reference/math repair or execution. All113files matchrebuild;
-  1,984ranges/1,982pins/35images pass. All41,052priorfiles/51inventories/30corepins/
-  30readable+onepartial exact;nineformats pass;213-test baseline reused.
-  Inventory41,574files. Five reusedviews/twomapped/threeoutside;23tasks
-  (foureng/19kor+eng),allrawsbeforeonepass,noOCRretry. Onecroprepairround.
-  Timingexception:35initialcrops/12originals/eightsheets beforeOCR;fourreplacement
-  crops returnedinsamecallasOCRlaunch,inspectedafterlaunch. Retainedsupplement
-  correctspreflightclaim;allrowscomplete,recognitionnotrestarted. Carryexception
-  throughassembly/closeout. Metadata-only prose revisions retainoriginalrecords.
-  Nextcompletegraphicsassembly preserving630nativefiles/fullmetadata/everyrange/
-  array/object/sourceboundary. Freshdispatcher mustretainallninepriorformats.
-  Parent0036,cover,remainingentries/244-pageaccounting/closeout pending. Human/
-  source limits andvolunteertranscription explicit. Follow
-  [March log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:31 readable/sample-reviewed,no partial,six non-owning headings
+  and11 unresolved. Graphics0038 complete162–169/160–167;639completefiles match
+  independentrebuild,including630exactnativefiles/fullmetadata. No bodypages/
+  assembly pending. Retains178regions/145blocks/33originals/seventables56rows/
+  342logicalpositions/oneblank/16covered/310diagramfields/23captions/46coderows/
+  36BASIClabels/19pairs. Physical그려/지고 linkedonce,noencodedwordjoin. Source
+  title/byline/geometry/codeerrors/glyphcandidates literal;no repair/execution.
+  All70category occurrences/12objects/8,816projectedranges reverse exactly;
+  9,608activeUTF8ranges/21,147pins/178images pass. Eight exactstage notes resolved
+  onlyinactiveavailability;fullnative notes/flags retained. All41,574priorfiles/
+  52inventories/30corepins/priorpackages exact;213-test baseline reused.
+  Inventory42,885files. No newrender/map/OCR/sourcepass. Firstverifier lacked
+  corelisting-index optionalexcerpt handling;freshrevision checks exactblockbytes,
+  originalfailedattempt retained;data unchanged. Freshbatch53dispatcher supports
+  allten Marchprivateformats,retainingallninepriorformats. Batch52fourreplacement
+  crops inspectedafterOCRlaunch exception remains explicit throughcloseout.
+  Nextparent0036ownership review:reuse157–170,verifybothcompletechildren/banners/
+  titleboundaries/shared161cartoon/neighborarticles. No TOC-onlyclassification.
+  Cover/remainingentries/244-pageaccounting/closeout pending. Human/source limits
+  andvolunteertranscription explicit. Follow [March log](docs/progress/8503.md)
+  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
