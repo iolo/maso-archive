@@ -3799,12 +3799,23 @@
       "toc_entry_id": "maso-1985-03-toc-0040",
       "title": "공모입상",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printedcontents17rightcolumnhaspageless공모 입상headingabovepreciselythreechildreferences173공모총평/174워드파워/194슈퍼맨;next비지니스/204separatelyruled. Canonical공모입상parentandthreechildidentities/titles/order/parentsremainexact;printedspacing/headingvariantsnotnormalized.",
+        "Sevenreusedwholeviews17/174/175/176/195/196/197inspected. Previousinterpreterendsupper174withterminal/lowerbookadindependent. Contestreview175/173ownsits공모총평runninghead/개인용컴퓨터는게임기인가headline/prose/14rowawardtable/terminal. Noindependentparentbody/dividerbetween174andchild175or175andWordPower176.",
+        "WordPower176/174opensunder프로그램공모최우수상;itscomplete20pages176–195endCHECK2000/terminal. Superman196/194opensunder프로그램공모우수상and197printsSPC-1000/성 경 훈. Complete10pages196–205endupperhex5B4A;business206nextalreadyverified. All31childpageassignments175–205coveredbythreecompletereadablepackages;no unexplainedgapassignedtoparent.",
+        "Contestreviewintroexplicitlynames워드파워/슈퍼맨asselectedawardsandthetableis3월호공모입선작. Sixteenrunning/awardheadingsandthreedistincttitlesbelongtochildpackages;program공모isgroupbranding,notseparatearticlebody. All1100selectedchildfilesunchanged;no duplicateparenttext/export.",
+        "Lower205canonical0015컴퓨돌이/folioalreadyownedandexcludedfromSuperman;all28regionpairsdisjoint/all65cartoonfilesunchanged. Parentownsnochildbody/ad/cartoon/dividerandhasnoindependentexport. Allsourcecandidate/human/sourcebytes/spacing/technical/executionlimits/globalbatch52timingexceptionremain. No OCR/sourcecorrectionneeded."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-65/parent-heading-decision.json",
+        "sha256": "d906e9e8554a148d713526226e48e31a12418465bcb52a8dfa159a48f4e7d3d6",
+        "bytes": 29178
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0041",
@@ -4485,8 +4496,8 @@
     "canonical_entries": 48,
     "readable": 35,
     "partial": 0,
-    "non_owning_headings": 7,
-    "unresolved_eligibility": 6
+    "non_owning_headings": 8,
+    "unresolved_eligibility": 5
   },
   "checkpoints": [
     {
@@ -7505,6 +7516,50 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-65",
+      "status": "complete",
+      "stage": "verified-non-owning-contest-parent",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0040"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        17,
+        174,
+        175,
+        176,
+        195,
+        196,
+        197
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "classification": {
+        "path": "archive/pdf/1985-03/restoration/batch-65/parent-heading-decision.json",
+        "sha256": "d906e9e8554a148d713526226e48e31a12418465bcb52a8dfa159a48f4e7d3d6",
+        "bytes": 29178
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-65/validation.json",
+        "sha256": "2f5b7fe0626579fde1afdb9ddf02c75ecf30bce5b8274bcb0652fbfb07bb3ac5",
+        "bytes": 1423
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-65/verification-completed.json",
+        "sha256": "ea6bcae33d9961f82d425a0e636445ff1579cbc98e6695d277cc514e491d8fa3",
+        "bytes": 1122
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-65-preserved-work.json",
+        "sha256": "1ba635abdb154c33d9b8b25f0adb95cc7a51d65b03896c5c59421557400173d0",
+        "bytes": 11957389
+      },
+      "started_at": "2026-10-23T08:13:01.667349+00:00",
+      "finished_at": "2026-10-23T08:21:53.771316+00:00",
+      "timing_scope": "Wallclockincludeswaits/gaps;activehumaneffortunmeasured."
     }
   ],
   "source_page_observations": [
@@ -11149,19 +11204,27 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-65",
-    "goal": "Reviewcanonicalparent0040공모입상groupingafterallthreechildrencomplete;classifyownershipfromsource/TOC.",
+    "id": "batch-66",
+    "goal": "Verifyfull0044business管理programarticleextentandrestoreboundedopening.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0040"
+      "maso-1985-03-toc-0044"
     ],
-    "mapping_targets": "Canonicaltitle공모입상ispagelessparentof0041공모총평/0042워드파워/0043슈퍼맨;allthreechildrenreadable/complete. Separategroupingreviewneededbeforeparentclassification. InspectcurrentcanonicalTOChierarchyandwholeviews174/175/176/195/196/197(reusefrompriorcheckpoints),includingcontestreview/awardstable175,WordPower176andSuperman196/197withadjacentchildboundaries. Determinewhetherparenthasindependenteligiblebodyoronlygroupschildren;do notassumenon-owningfrompagelessTOCalone. Ifonlygrouping,recordnon-owning/noOCR/no bodypackage,keepallchildidentities/titles/parents/ownermaps/selectedfilesunchanged. Otherwisemaponlyboundedeligiblebody(max6/twoarticles/20outside). Usepinnedbatch64dispatcher/12formats;30corepinsunchanged. Business0044nextaftergrouping;remainingentries/cover/all244pageaccounting/index/report/independentissuerebuild/freshcloseout213tests/fullrequirementsauditpending. Allhuman-source/volunteerlimits/globalbatch52timingexceptionretain. No readerrebuild.",
+    "mapping_targets": "Canonical비즈니스 : 관리 프로그램의 작성법/김영일TOC204;actualopening206/204관리프로그램의작성법/김 영 일and207/205continuationalreadyseen. TOC215nextgameislaterlookupcue,notglobaloffsetproof. Inspect205–218wholeviews(reuse205–207andotherswhereavailable),verifyeveryinterveningpage/actualending/nextgameopeningbeforemapping. Map206–211boundedopeningonlyifcontinuouseligiblebody;laterbody/assemblyasneeded,max6mapped/20outside/twoarticles. Preserveeveryprosecolumn/heading/byline/affiliation/serialnumber/list/ruledtable/cells/headers/diagramnodes/arrows/labels/captions/physicalcode rows/labels/wraps/quotedspaces/DATA/opaquehex/addressfields/originalpixelsliterally. No syntax/opcode/algorithm/address/math/hardware/encodingrepair or execution. Page205lowercanonical0015/uppercompleted0043unchanged;parent0040nowseparatelynon-owningandallthreechildrencomplete. Usepinnedbatch64dispatcher/12formats;30corepinsunchanged. Remainingentries/cover/all244pageaccounting/index/report/independentissuerebuild/freshcloseout213tests/fullrequirementsauditpending;human-source/volunteerlimits/globalbatch52timingexceptionexplicit. No readerrebuild.",
     "provisional_lookup_targets": [
-      174,
-      175,
-      176,
-      195,
-      196,
-      197
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218
     ],
     "limits": {
       "articles": 2,
@@ -11242,7 +11305,9 @@
     "Superman88arrayslices/8reservedprojections/16objectsreverseexactly;28076projectedranges/35182activeUTF8ranges/59906pins/74imagesexact. Sevenexactstalenotesresolvedonlyinactivecompleteoutput;allnativehistory/sourcecandidates/historicalprior_correctionspinrootretained. No newmapping/render/OCR/sourcepass. IDsunique/noaliases;firstbuild/rebuild/verifierpassed.",
     "SupermanoneBASICprogram14panels/523physicalrowcandidates/13blankcandidates/269labels;native270logicalentriespreserved,complete269reconcilesonlyinherited10030withoutinventedlabel/text/encodedjoin.193hexrows1930cells1544pairs/sixcolumns/fourBASICDATAstatements30fields/88graphicDATAfields/fourblank/55quote-prefixcandidatesremainseparate. Nineboxedkeys/fourscreenlabels/11variables/fourinputcases/46summaryrows35ranges/236unknownmarkers/479quotes/17blankquotedfieldsretained. Sourceglyph/spacing/counts/claimsunverified;no decoding/semanticrepair/execution.",
     "Supermanninephysicalconnections:threeprose/fiveinternalcode/onecrossnative10030&HECD/,&HC9. Native10captionlinksretained;complete16addsixinheritedlist1linkswithoutreprintingcaption. Final5B4Aupper205/lowercanonical0015excludedand28regionpairsdisjoint. Humanacceptance/fullproofreading/sourcebytes/exactspacing/technicalclaims unverified;globalbatch52timingexceptionexplicit.",
-    "Usepinnedbatch64assembly_dispatch.pyforall12privateMarchformats/all11priorformatsretained.30corepinsunchanged;213-testbatch55baseline reused. All52679priorfiles/63inventories/34readable+onepartialpackages checked. Nextparent0040separategroupingreviewthenbusiness0044/remainingentries/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/requirementsauditpending;human-source/volunteerlimits/globalbatch52timingexceptionretained."
+    "Usepinnedbatch64assembly_dispatch.pyforall12privateMarchformats/all11priorformatsretained.30corepinsunchanged;213-testbatch55baseline reused. All52679priorfiles/63inventories/34readable+onepartialpackages checked. Nextparent0040separategroupingreviewthenbusiness0044/remainingentries/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/requirementsauditpending;human-source/volunteerlimits/globalbatch52timingexceptionretained.",
+    "Parent0040공모입상non-owningafterprintedcontents17/structuredTOC/threecompletechildren/actualboundaryreview.31childpageassignments/31unique175–205pages/all1100selectedchildfilesunchanged.16running-award/threetitle/twoassociationrangesexact;no independentparentbody/divider/duplicatechildtext/export.35readable/0partial/8headings/5unresolved.",
+    "All35readablepackages/12privateformats/30corepins/53193priorfiles/64inventoriesunchanged. Sevenreusedwholeviews/zero mapping/OCR/sourcecorrection/export forgroupclassification;213-testbatch55baseline reused. Shared20528allregionpairsdisjointand65cartoonfilesexact. Next0044businessfullextentproof/boundedopening;allremainingMarch/cover/244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/requirementsauditpending;human-source/volunteerlimits/globalbatch52timingexceptionretained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

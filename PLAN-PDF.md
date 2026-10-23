@@ -25,52 +25,39 @@ records below are historical and do not authorize a new rebuild.
 ## March 1985 in progress, 2026-10-23
 
 March 1985 remains in progress: 35 of 48 entries are readable and assistant
-sample-reviewed, none are partial, seven headings are non-owning, and six remain
-unresolved. Superman0043 is complete at
-`archive/pdf/1985-03/packages/batch-64-r01/superman-complete`: all239 files match
-the independent rebuild, including230 unchanged native files. Full coverage is
-PDF196–205/visible194–203,74 regions,46 text blocks and28 originals. No Superman
-body pages or assembly remain pending. Printed슈퍼맨/subtitle/성 경 훈/SPC-1000
-and all source candidates remain separate from canonical identity/title/parent0040.
-Word Power0042 remains complete. Parent0040 now needs its separate grouping review.
+sample-reviewed, none are partial, eight headings are non-owning, and five remain
+unresolved. Parent0040, 공모입상, is now verified as a non-owning group after a
+separate printed-contents, hierarchy and source-boundary review. Its three
+children—공모 총평, 워드 파워 and 슈퍼맨—remain complete and unchanged. Their31
+body pages175–205 and all1,100 selected package files retain their existing owners.
+The parent has no independent body, divider, duplicated child text or article export.
 
-All88 native array slices, eight reserved-list projections and16 object projections
-reverse exactly. Native IDs are unique; no aliases were needed. Seven exact stale
-article-stage notes are resolved only in the complete output; native history and
-source uncertainty remain. The historical opening prior_corrections pin resolves
-to the original restoration corrections.json by hash, while the selected package
-correction is a different file. The assembly preserves that evidence root.
+Seven whole views were reused:17/174/175/176/195/196/197. Printed contents17 has a
+pageless 공모 입상 heading over exactly173/174/194 references, followed by the
+separately ruled business entry. Source175 owns its contest-review headline,
+prose, award table and terminal; Word Power opens176 under 프로그램공모/최우수상;
+Superman opens196 under 프로그램공모/우수상 and prints its platform/byline197.
+Existing complete extent/ending records cover every intervening child page.
+Sixteen running/award heading ranges, three title ranges and two contest-association
+ranges are exact. Lower205's canonical0015 cartoon and folio remain separate:
+all28 region pairs are disjoint and all65 cartoon files remain unchanged.
 
-One BASIC program retains14 panels,523 nonempty physical-row candidates,13 blank
-candidates and269 printed labels. The270 native logical entries remain preserved;
-a complete269-entry index reconciles only inherited10030 without inserting text,
-labels or encoded joins. The separate list2 table retains193 rows in six columns,
-1,930 cells and1,544 opaque pairs. Four BASIC DATA statements/30 fields and88 graphic
-DATA fields/four visually blank/55 quote-prefix candidates remain distinct.
-Original spatial pixels and unknown encoded identities/counts remain explicit.
+All53,193 prior files,64 inventories,30 core pins,35 readable packages and12 private
+formats pass. The unchanged213-test batch55 baseline is reused. Current preservation
+inventory contains53,236 files. No new mapping, OCR, source correction or parent
+export was needed; all47 other canonical entries, all page observations and the
+pinned batch64 dispatcher remain unchanged. Superman's complete239-file package
+at `archive/pdf/1985-03/packages/batch-64-r01/superman-complete` and Word Power's
+complete790-file package remain selected, with their immutable natives preserved.
 
-Nine physical connections retain three prose continuations, five internal code
-continuations and10030 &HECD/,&HC9 across natives. All10 native caption links remain;
-the complete16 links add six inherited list1 associations without reprinting the
-caption. Nine boxed keys, four screen labels,11 variables, four input cases,
-46 summary rows/35 range candidates,236 unknown markers,479 quote glyphs and17
-blank quoted fields survive. Final5B4A is in205's upper panel; lower canonical0015,
-컴퓨돌이, and its folio remain excluded and unchanged. All28 region pairs are disjoint.
+Next: verify the full extent of0044, 비즈니스 : 관리 프로그램의 작성법. Its opening
+is PDF206/visible204, with continuation207/205 already observed. Inspect205–218,
+reusing available views, and verify every intervening page, actual ending and next
+game opening before mapping. TOC204/215 are lookup cues. Map206–211 only if the
+eligible body is continuous; later body and assembly follow as needed. Preserve
+all prose, tables, diagrams, labels, captions, code and opaque fields literally.
+Use pinned `batch-64/assembly_dispatch.py` for all12 private formats.
 
-All28,076 projected range occurrences,35,182 active UTF-8 ranges,59,906 pin
-occurrences and74 exact crop images pass. All52,679 prior files,63 inventories,
-30 core pins and34 prior readable/one partial package pass. The new pinned
-`batch-64/assembly_dispatch.py` supports12 private formats and retains all11 prior
-formats. The unchanged213-test batch55 baseline is reused. Inventory contains
-53,193 files. No new mapping, rendering, OCR or source correction was needed.
-All other47 canonical entries remain unchanged. Build, rebuild and verification
-passed without retry; the recorder's next-step description had a one-character
-label typo corrected separately, with its initial snapshot retained.
-
-Next: review pageless parent0040, 공모입상, against the TOC hierarchy and source
-views174/175/176/195/196/197. All three children are now complete; determine whether
-the parent owns independent body material or only groups them. Preserve every
-child identity, title, relationship and native package. Business0044 follows.
 Remaining entries, cover selection, all244-page accounting, standalone issue
 index/report, independent issue rebuild, fresh closeout213 tests and full
 requirements audit remain pending. Human acceptance, full proofreading, source

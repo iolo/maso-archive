@@ -19,33 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:35 readable/sample-reviewed, zero partial, seven non-owning headings,
-  six unresolved. Superman0043 complete196–205/194–203 atbatch64-r01:239 files
-  match independent rebuild, including230 unchanged native files.74 regions/
-  46 blocks/28 originals;no body pages/assembly pending.88 array slices/eight
-  reserved projections/16 objects reverse exactly;IDs unique/no aliases. Seven
-  exact stale article notes resolved only in active complete output. Historical
-  prior_corrections pin retains its original evidence root by hash.
-  One BASIC program14 panels/523 physical rows/13 blank candidates/269 labels;
-  native270 logical entries preserved,complete269 reconciles only inherited10030
-  without invented label/text/encoded join.193 hex rows1930 cells1544 pairs/six
-  columns/four BASIC DATA statements30 fields/88 graphic DATA fields/fourblank/
-  55 quote-prefix candidates stay separate. Nine physical connections/16 complete
-  captionlinks/236 unknown markers/479 quotes/17 blankquotedfields retainpixels.
-  Lower205 canonical0015/folio unchanged/excluded,28 regionpairs disjoint.
-  All28,076 projected/35,182 active ranges/59,906 pins/74 images pass;52,679 prior
-  files/63 inventories/30 core pins/34 readable+onepartial checked. Pinnedbatch64
-  dispatcher supports12 formats/retains11 prior;213-testbatch55 baseline reused.
-  Inventory53,193 files. No new mapping/render/OCR/sourcepass;first build/rebuild/
-  verifier passed. Recorder next-step label typo corrected separately with initial
-  snapshot retained;all source/identity/package data unchanged.
-  Next parent0040 grouping review:TOC plus174/175/176/195/196/197 source views;
-  all three children complete. Determine independent ownership from evidence,
-  keep all child identities/titles/relationships/packages. Business0044 follows.
-  Remainingentries/cover/244pageaccounting/index/report/independentissuerebuild/
-  freshcloseout213tests/fullrequirementsaudit pending;human-source limits/
-  volunteerwork/batch52 timingexception retained.
-  Follow [March log](docs/progress/8503.md) and
+- March1985:35 readable/sample-reviewed, zero partial, eight non-owning headings,
+  five unresolved. Parent0040 공모입상 is non-owning after separate source/TOC/
+  three-complete-child review. Printedcontents17 groups173/174/194 references;
+  seven reused views17/174/175/176/195/196/197,zero mapped/sevenoutside/onetask.
+  Three children own31 pages175–205/all1,100 selected files unchanged;16 running-
+  award headings/three titles/two association ranges exact. No separate parent
+  body/divider/duplicatechildtext/export. Lower205 canonical0015 unchanged/
+  excluded,28 regionpairs disjoint/65 cartoonfiles exact. All53,193 prior files/
+  64 inventories/30 core pins/35 readable packages/12 formats pass;213-testbatch55
+  baseline reused. Inventory53,236 files. No mapping/OCR/sourcepass;other47
+  entries/all page observations/dispatcher unchanged. Superman239-filecomplete
+  package and WordPower790-filecomplete package remain selected with all natives.
+  Next0044 business:206/204 opening/207 continuation known. Inspect205–218/reuse
+  views,verifyeveryinterveningpage/ending/nextgamebeforemapping206–211eligible
+  opening;TOC204/215 cuesonly. Laterbody/assembly asneeded. Preserveprose/tables/
+  diagramnodes-arrows-labels/captions/code/opaquefields literally;no semanticrepair
+  or execution. Use pinnedbatch64dispatcher/12 formats. Remainingentries/cover/
+  244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/full
+  requirements audit pending;human-source limits/volunteerwork/batch52 timing
+  exception retained. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
