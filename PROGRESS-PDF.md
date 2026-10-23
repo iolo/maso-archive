@@ -6,57 +6,60 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 36 of 48 entries are readable and assistant
-sample-reviewed, none are partial, eight headings are non-owning, and four remain
-unresolved. Business0044, 비즈니스 : 관리 프로그램의 작성법, is complete at
-`archive/pdf/1985-03/packages/batch-68-r01/business-complete`. All663 files match
-the independent rebuild, including654 exact files from the two immutable natives.
-All eleven PDF pages206–216 retain192 regions,148 text blocks and44 original
-images. No business body pages or assembly remain pending. PDF208 has no visible
-folio and stays null; the other visible folios are204,205,207–214. All47 other
-canonical entries remain unchanged.
+March 1985 remains in progress: 37 of 48 entries are readable and assistant
+sample-reviewed, none are partial, eight headings are non-owning, and three remain
+unresolved. Low-score0046, 낮은 점수 쟁탈전, is complete at
+`archive/pdf/1985-03/packages/batch-69-r01/low-score`. All178 files match the
+independent rebuild. Five PDF pages217–221/visible215–219 retain52 regions,
+39 text blocks and13 original images. No low-score body or assembly remains
+pending. Shared221 lower-right0014 미니 클럭 and its folio remain separate:
+all36 prior files are unchanged and45 mapped-region pairs are disjoint. The
+low-score article has no full-page221 asset. All47 other entries are unchanged.
 
-The complete article retains913 nonempty serialized text rows,197 BASIC physical
-rows, five blank-baseline candidates and120 printed labels/120 logical entries.
-Eight independent listing groups occupy ten panels and5,324 listing bytes.
-Numeric-only5130/35/45/0/6022 and eleven numeric-prefix wraps remain continuations.
-Four literal tables retain42 nonblank cells and one blank stock-footer cell;
-output-design widths and unknown dot-band record count remain explicit. Six
-diagrams, three record displays/22 cells/eight separate position labels,27 form
-fields,16 summary references,17 caption links and eleven physical/context
-connections remain source-linked. List7 ends125 while its explanation retains
-other references and duplicate220. AN030310/diagramAN03031227 and all source
-spelling, glyph, numeric and punctuation differences remain literal candidates.
+One BASIC program retains128 printed labels/128 logical entries,243 nonempty
+physical rows,115 continuation rows and nine blank-baseline candidates across
+six panels. Entries225 and365 cross panels with their physical fragments intact.
+Three disk/tape commands and one centering example are four separate unnumbered
+groups; all five groups retain7,063 listing bytes. Thirty DATA fields include
+two physically wrapped fields. The original two-by-six screen retains eight
+visible labels, four blank cells and two original dice/pip images. Four prose
+boundaries and five code-panel boundaries remain source-linked without text joins.
 
-All88 native array slices, eight reserved-list projections and fifteen objects
-reverse exactly. All13,846 projected range occurrences,15,087 active UTF-8 ranges,
-29,512 pin occurrences and192 image crops pass. Native IDs are unique; no aliases
-were needed. Full native metadata, six editorial markers,21 local candidates,
-quote/blank-field scopes and original stage notes remain. Six exact stale stage
-notes were resolved only in active complete gaps/block uncertainties. The opening
-quote index covers all text; the final quote index covers code only. No aggregate
-all-code glyph count or encoded text join is inferred.
+Printed plus-sign frame/equal-sign bands, nine editorial markers,21 local
+candidates,62 code quote glyph candidates,31 quoted candidates and one blank
+quoted field retain their original scans. Unknown glyph counts/blank widths
+remain explicit. Source1..0,35/30 references,save dot/load comma,6400($4000),
+A(2)=3,415/451,560 reference,325 without REM and I/1/star-like ambiguities stay
+literal. The prose references 리스트2, but no separately captioned panel was
+observed in verified217–221;association remains unverified, with no reconstructed
+data or borrowed puzzle panel.
 
-All56,771 prior files,67 inventories,30 core pins,35 previously readable packages
-and the prior partial package pass. The pinned batch68 dispatcher now supports
-all13 private formats, retaining the prior12. All213 freshly rerun PDF tests pass.
-Current preservation inventory contains58,135 files. No new mapping, rendering,
-OCR or source correction was required for assembly. No export or verifier failure
-occurred. All earlier crop revisions, raw drafts, failed completion writer and
-blank-cell serializer attempts remain preserved.
+All8,834 UTF-8 range occurrences,8,430 pin occurrences and52 image crops pass.
+All58,135 prior files,68 inventories,30 core pins,36 prior readable articles and
+13 private formats pass. Preservation inventory contains58,968 files.
+Fifteen whole views216–230 used ten reused/five new renders;five mapped pages,
+ten outside lookups and one canonical task stay within bounds. All39 initial
+text crops/14 sheets,13 originals and two margin replacements were inspected
+before39 pinned tasks(10eng/29kor+eng);all raws preceded one source pass. The
+earlier truncated basic-d image was counted only after successful re-view.
+Pre-export range revision selects the terminal모 and code215's repeated value;
+all readings/initial ranges remain preserved. No OCR failure/retry/export or
+verifier failure. The unchanged213-test baseline68 is reused.
 
-Next: verify the full extent of0046, 낮은 점수 쟁탈전, from its known opening
-PDF217/visible215 and continuation218/216. Inspect216–230 whole views, reusing
-available renders, and verify every intervening page, actual ending and next
-puzzle opening before mapping at most six eligible pages. TOC220/227 remain
-lookup cues. Use pinned `batch-68/assembly_dispatch.py` for all13 formats; retain
-30 core pins and current213-test baseline. Games0046–0048 and parent0045, cover
-selection, all244-page accounting, standalone issue index/report, independent
-issue rebuild, fresh closeout213 tests and full requirements audit remain pending.
-Human acceptance, full proofreading, source bytes/exact spacing and historical/
-technical claims remain unverified. No semantic repair or execution. News/
-classified body transcription awaits volunteers. The batch52 replacement-crop
-timing exception remains explicit. No reader rebuild.
+Next: verify0047 퍼즐링 게임's continuous extent from222/visible220 through
+its actual ending and next coin opening229. Reuse221–230 whole views. If the
+candidate seven-page222–228 extent is confirmed, restore222–227 as a bounded
+opening native, then final228 and immutable assembly separately. Shared lower228
+canonical0015 컴퓨돌이 must remain separate. TOC220/227 are lookup cues only.
+Use pinned `batch-68/assembly_dispatch.py` for all13 formats and retain30 core
+pins. Puzzle0047,coin0048,parent0045,cover,all244-page accounting,standalone issue
+index/report,independent issue rebuild,fresh closeout213 tests and full
+requirements audit remain pending. Complete business0044 remains unchanged at
+batch68-r01/business-complete/663files/654exact natives;PDF208 folio stays null.
+Human acceptance,full proofreading,source encoded bytes/spacing/glyph counts,
+historical/technical claims and execution remain unverified. News/classified
+body transcription awaits volunteers. The batch52 replacement-crop timing
+exception remains explicit. No semantic repair or reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

@@ -19,28 +19,31 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:36 readable/sample-reviewed, zero partial, eight non-owning headings,
-  four unresolved. Business0044 complete atbatch68-r01/business-complete;663 files
-  independently exact including654 unchanged native files/192regions/148blocks/
-  44originals/eleven206–216pages. No body/assembly pending;PDF208 folio staysnull.
-  913serializedtextrows/197BASICphysicalrows/fiveblankcandidates/120labels120logical
-  entries/eightgroups/tenpanels/5324listingbytes. Fourtables42nonblankcells/oneblank
-  footer/template widths/unknownrecordcount;sixdiagrams/three displays22cells/
-  27formfields/16summaryrefs/17captions/11connections/sixmarkers21localcandidates
-  retained. No joins/semanticrepair/execution. Source list7ends125/summaryduplicate
-  220 and AN030310/diagramAN03031227 remain literal. All88arrayslices/eightreserved
-  projections/fifteenobjects reverseexact;13846projectedranges/15087activeUTF8ranges/
-  29512pins/192images pass. Nativequote scopes openingall-text/finalcode-only kept.
-  Six exact stale stage notes resolved only in active complete output;full original
-  metadata unchanged.56771priorfiles/67inventories/30corepins/35readable+onepartial
-  checked;newbatch68dispatcher retains12priorformats/addsbusiness=13. Fresh213tests
-  pass. Inventory58135files. No newmapping/render/OCR/sourcepass/export or
-  verifierfailure. Other47entries unchanged. Next0046low-scoreextent:known217/215,
-  continuation218/216;inspect216–230/reuseviews/verifyallinterveningpages/ending/
-  nextpuzzle before<=6 mappedpages. Games0046–0048/parent0045/cover/244pageaccounting/
-  index-report/independentissue rebuild/freshcloseout213/fullrequirementsaudit
-  pending. Human-source limits/volunteerwork/batch52timingexception retained.
-  Follow [March log](docs/progress/8503.md) and
+- March1985:37 readable/sample-reviewed,zero partial,eight non-owning headings,
+  three unresolved. Low-score0046 complete batch69-r01/low-score178files exactly
+  matches independent rebuild. Full217–221/visible215–219/52regions/39blocks/
+  13originals;no body/assembly pending. Shared221lower-right0014/folio excluded;
+  36priorfiles unchanged/45pairs disjoint/no full221asset.128BASIClabels/logical
+  entries/243physicalrows/115continuations/nineblankcandidates/sixpanels/two
+  crosspanel225365entries/four unnumberedexamples/fivegroups/7063listingbytes.
+ 30DATAfields/twowrappedfields/12gridpositions/eightlabels/fourblanks/twodice;
+  unknown plus/equalbands/nine markers/21candidates/62codequoteglyphcandidates/
+ 31quotedcandidates/oneblankfield remain source-linked. Printed discrepancies
+  literal;list2association unverified/no reconstructed data. All8834ranges/8430
+  pins/52images pass;58135priorfiles/68inventories/30corepins/36priorreadable/
+ 13formats checked. Inventory58968files.15views10reused5new/5mapped10outside/
+  onetask.39initialcrops14sheets/13originals/two margin repairs inspected before39
+  tasks(10eng29kor+eng),allraws beforeone sourcepass. Truncatedbasic-dobservation
+  counted only after successfulreview. Preexportrange r02 fixes two repeated-source
+  selections;readingsunchanged/initialevidence retained. NoOCRfailure/retry/export/
+  verifierfailure.213baseline68 reused. Business663files/654natives unchanged;
+  PDF208null. Next70:puzzle0047full extent222onward/actualending/nextcoin229;
+  reuse221–230views. If seven-page222–228confirmed,opening222–227native thenfinal
+  228/assembly separately. Lower228canonical0015excludedafterexplicitchecks.
+  Coin0048/parent0045/cover/244pageaccounting/index-report/independentissuerebuild/
+  freshcloseout213/fullrequirementsaudit pending. No semanticrepair/execution.
+  Human-source/volunteer limits/globalbatch52timingexception retained. Follow
+  [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

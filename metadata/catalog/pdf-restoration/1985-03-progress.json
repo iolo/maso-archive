@@ -4652,12 +4652,92 @@
       "toc_entry_id": "maso-1985-03-toc-0046",
       "title": "낮은 점수 쟁탈전",
       "parent_id": "maso-1985-03-toc-0045",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0046 낮은 점수 쟁탈전/편집부/TOC215 under0045 게임 모음 unchanged. Actual full body217–221/visible215–219 verified continuously from all15wholeviews216–230. Business ends216,low-score opens217/platform-byline/title/prose and continues218screen/prose,219prose+code,220code,221code ending670RETURN/terminal. Independent puzzle opens222/220. Five mapped pages/ten outside216,222–230/one canonical task;no remaining body or assembly beyond current full native if validated.",
+        "Source221 lower-right canonical0014 미니 클럭 already complete atbatch43-r01/miniclock. Preserve all existing regions/program/credit/address/folio and original pixels. Current221 covers left code/right-upper code/terminal only; no full-page221 image in article assets. Exclude right-lower bbox[0.491,0.55,1,1] including prior panel/folio. All five new221 regions must be disjoint from all nine existing0014 regions (45 pairs). No duplicated neighbor text or folio image.",
+        "Keep original platform/byline/title/subtitle/prose/headings/instructions/interactive save-load commands/monitor punctuation/quoted commands/program explanation/printed numeric examples/score claims/source credit/NIBBLE1981 reference literal. Source list2 reference has no separately captioned list2 panel observed in eligible217–221; preserve reference and association uncertainty without inventing data or assigning unrelated puzzle list2.",
+        "Preserve screen grid as two physical rows/six positions each: visible1,4,6 and7,8,9,10,12 with four blank cells; two original dice/pip shapes remain pixels without inferred encoded identities. Pullquote/ellipsis band and all photos/art remain original. Read numeric pairs/arithmetic/probability claims literally without validating game logic or repairing source wording.",
+        "One printed BASIC program spans six panels219left/right,220left/right,221left/right. Crosspanel225 tailA/(2)=2:RETURN and365tailSC(/I,J)=0:NEXTJ,I remain physical continuations, not invented labels. Printed45 plus-sign frame and585 equal-sign band retain original spatial fields/unknown encoded counts/blank widths. Every label/wrap/quote/empty or blank string/DATA/address and numeric-only continuation must be indexed literally. Three interactive disk/tape commands and centering example remain separate groups from the numbered BASIC listing. No opcode/syntax/algorithm/address/math/hardware/encoding repair or execution.",
+        "All fifteen source views inspected this goal turn before mapping;ten reused/five new renders. All current exact crops/originals must be model-inspected in preceding tool calls before pinned Tesseract;all raw drafts before one source correction pass. Preserve all58135 priorfiles/30corepins/36readablepackages/13formats/fresh213baseline68. Remaining games0047–0048/parent0045/cover/all244-pageaccounting/index-report/independent issue rebuild/freshcloseout213/full requirements audit pending;human-source/volunteer limits/globalbatch52timingexception explicit. No reader rebuild.",
+        "Complete178file native matches independent rebuild;52regions/39blocks/13originals.128printed BASIC labels/128logical entries/243nonempty BASIC physical rows/nineblankbaseline candidates;two crosspanel logical entries225/365 retain original physical fragments. Four unnumbered examples separate.30DATAfields/twowrappedfields;12gridpositions/eightlabels/fourblanks/twooriginaldice. All8834UTF8ranges/8430pins/52sourcecrops pass. Referenced list2association unverified, no data reconstruction."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-69-r01/low-score",
+        "article_id": "scan-maso-1985-03-toc-0046",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-69-r01/low-score/manifest.json",
+          "sha256": "f66bc5dda5315256fc2be65ae93aea567abcdea89a9321b3b3ae1c8d56994ea3",
+          "bytes": 30130
+        },
+        "coverage": {
+          "pdf_pages": [
+            217,
+            218,
+            219,
+            220,
+            221
+          ],
+          "printed_pages": [
+            "215",
+            "216",
+            "217",
+            "218",
+            "219"
+          ],
+          "regions": 52,
+          "blocks": 39,
+          "figures": 13,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-69/validation.json",
+          "sha256": "1e245bc66fedc5774b7b4583a0fe4645db0e811c9e3e18b650a20ee9a48cf331",
+          "bytes": 3079
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-69/reproduction.json",
+          "sha256": "f0cdfc8529ea20a1ee6295838e76a8fa283928c377833c5258b25255400d0e29",
+          "bytes": 1853
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-69/source-reviewed.json",
+          "sha256": "2fb823b19d79ec73b6a7805ed4ceffe760b13a3bbef39b4828d20217094d40a6",
+          "bytes": 4867
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-69-r01/low-score/corrections.json",
+            "sha256": "8cce305d1522e737ad269994bfd992413b13677b39acc7eadb46abee00ad6d83",
+            "bytes": 4027196
+          },
+          "field": "source_ending"
+        },
+        "listing_structure": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-69-r01/low-score/corrections.json",
+            "sha256": "8cce305d1522e737ad269994bfd992413b13677b39acc7eadb46abee00ad6d83",
+            "bytes": 4027196
+          },
+          "BASIC_physical_rows": 243,
+          "BASIC_labels": 128,
+          "BASIC_logical_entries": 128,
+          "crosspanel_logical_entries": 2,
+          "unnumbered_examples": 4,
+          "DATA_fields": 30
+        },
+        "source_limits": "Literal source;unknown plus/equal bands/blank widths/quote glyphs/physical wraps and printed discrepancies retained. List2reference has no separately captioned panel in verified217–221;association unverified/no reconstruction. Human acceptance/full proofreading/source encoded bytes/spacing/claims/execution unverified. Shared2210014panel/folio excluded;36filesunchanged/45pairsdisjoint."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-69/previous-ledger.json",
+        "sha256": "d86593a6da36a63c304b659b01ce4d6c7c4cb916de8ef7bc68db7d61ee6e1cd5",
+        "bytes": 495921
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0047",
@@ -4684,10 +4764,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 36,
+    "readable": 37,
     "partial": 0,
     "non_owning_headings": 8,
-    "unresolved_eligibility": 4
+    "unresolved_eligibility": 3
   },
   "checkpoints": [
     {
@@ -7905,6 +7985,66 @@
         "sha256": "85a4be62e8966aa9a01a92f6da0c0d1e719b63ecc85d2b05ce2b8293e13e0abc",
         "bytes": 36303
       }
+    },
+    {
+      "id": "batch-69",
+      "status": "complete",
+      "stage": "validated-complete-low-score",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0046"
+      ],
+      "mapped_pdf_pages": [
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "outside_map_lookup_pages": [
+        216,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 39,
+      "eng_code_tasks": 10,
+      "kor_eng_tasks": 29,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "changed_text_crops": 2,
+      "changed_original_crops": 0,
+      "OCR_recognition_failures": 0,
+      "OCR_retries": 0,
+      "source_range_serialization_revisions": 1,
+      "formal_validation_failures": 0,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-69/validation.json",
+        "sha256": "1e245bc66fedc5774b7b4583a0fe4645db0e811c9e3e18b650a20ee9a48cf331",
+        "bytes": 3079
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-69/verification-completed.json",
+        "sha256": "2853a098b8695412ffac4211cfb70d66b0c7a39e6c75c8608b62833130dd5049",
+        "bytes": 1271
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-69-preserved-work.json",
+        "sha256": "ebfa4036078dc2eee1631b211cdcc6632a6210bb0453c21445419430e0a07e76",
+        "bytes": 13264873
+      },
+      "started_at": "2026-10-23T10:24:10.869913+00:00",
+      "finished_at": "2026-10-23T11:06:54.697427+00:00",
+      "timing_scope": "Wall clock includes waits/gaps/interruptions;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -11597,32 +11737,108 @@
       }
     },
     {
-      "pdf_page": 220,
-      "classification": "other-canonical-body-lookuponly",
-      "printed_page": "218",
-      "source_material_observed": "낮은 점수 챔피언",
-      "restoration": "outside-current-one-line-maps;no-other-entry-classification-change",
+      "pdf_page": 217,
+      "classification": "article-body",
+      "printed_page": "215",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0046"
+      ],
+      "restoration": "checked-complete-low-score",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
-        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
-        "bytes": 1661
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-69/source-reviewed.json",
+        "sha256": "2fb823b19d79ec73b6a7805ed4ceffe760b13a3bbef39b4828d20217094d40a6",
+        "bytes": 4867
+      },
+      "notes": "Complete eligible low-score body;all prose/headings/commands/BASIC/physical wraps/DATA/grid blank positions/unknown bands and original pixels retained. No body or assembly pending."
+    },
+    {
+      "pdf_page": 218,
+      "classification": "article-body",
+      "printed_page": "216",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0046"
+      ],
+      "restoration": "checked-complete-low-score",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-69/source-reviewed.json",
+        "sha256": "2fb823b19d79ec73b6a7805ed4ceffe760b13a3bbef39b4828d20217094d40a6",
+        "bytes": 4867
+      },
+      "notes": "Complete eligible low-score body;all prose/headings/commands/BASIC/physical wraps/DATA/grid blank positions/unknown bands and original pixels retained. No body or assembly pending."
+    },
+    {
+      "pdf_page": 219,
+      "classification": "article-body",
+      "printed_page": "217",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0046"
+      ],
+      "restoration": "checked-complete-low-score",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-69/source-reviewed.json",
+        "sha256": "2fb823b19d79ec73b6a7805ed4ceffe760b13a3bbef39b4828d20217094d40a6",
+        "bytes": 4867
+      },
+      "notes": "Complete eligible low-score body;all prose/headings/commands/BASIC/physical wraps/DATA/grid blank positions/unknown bands and original pixels retained. No body or assembly pending."
+    },
+    {
+      "pdf_page": 220,
+      "classification": "article-body",
+      "printed_page": "218",
+      "restoration": "checked-complete-low-score",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-69/source-reviewed.json",
+        "sha256": "2fb823b19d79ec73b6a7805ed4ceffe760b13a3bbef39b4828d20217094d40a6",
+        "bytes": 4867
+      },
+      "prior_observation": {
+        "pdf_page": 220,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "218",
+        "source_material_observed": "낮은 점수 챔피언",
+        "restoration": "outside-current-one-line-maps;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+          "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+          "bytes": 1661
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0046"
+      ],
+      "notes": "Complete eligible low-score body;all prose/headings/commands/BASIC/physical wraps/DATA/grid blank positions/unknown bands and original pixels retained. No body or assembly pending."
     },
     {
       "pdf_page": 221,
-      "classification": "mixed-canonical-body-and-other-material",
+      "classification": "shared-article-body",
       "toc_entry_ids": [
-        "maso-1985-03-toc-0014"
+        "maso-1985-03-toc-0014",
+        "maso-1985-03-toc-0046"
       ],
       "printed_page": "219",
-      "restoration": "complete-one-line-program-panel;neighbor-body-restoration-pending",
+      "restoration": "checked-shared-complete-articles",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
-        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
-        "bytes": 1661
+        "path": "archive/pdf/1985-03/restoration/batch-69/source-reviewed.json",
+        "sha256": "2fb823b19d79ec73b6a7805ed4ceffe760b13a3bbef39b4828d20217094d40a6",
+        "bytes": 4867
       },
-      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0046",
-      "notes": "Only mapped one-line panel owned;adjacent other article andpublisher material excluded. Original program panel/boxed code/folio retained."
+      "notes": "Low-score left/right-upper final BASIC through670RETURN/terminal complete;lower-right0014miniclock/credit/address/folio already complete.45 mapped-region pairs disjoint;all36prior0014files unchanged. No full-page221asset in low-score. Next independent puzzle opens222.",
+      "prior_observation": {
+        "pdf_page": 221,
+        "classification": "mixed-canonical-body-and-other-material",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0014"
+        ],
+        "printed_page": "219",
+        "restoration": "complete-one-line-program-panel;neighbor-body-restoration-pending",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+          "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+          "bytes": 1661
+        },
+        "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0046",
+        "notes": "Only mapped one-line panel owned;adjacent other article andpublisher material excluded. Original program panel/boxed code/folio retained."
+      }
     },
     {
       "pdf_page": 222,
@@ -11879,18 +12095,13 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-69",
-    "goal": "Verify full extent of0046 낮은 점수 쟁탈전 and restore a bounded body checkpoint.",
+    "id": "batch-70",
+    "goal": "Verify full0047 퍼즐링 게임 extent and restore bounded opening native.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0046"
+      "maso-1985-03-toc-0047"
     ],
-    "mapping_targets": "Canonical0046 낮은 점수 쟁탈전/편집부/TOC215 under pageless0045 게임 모음. Actual opening217/visible215 and continuation218/216 were inspected in66/67;both independent of completed business ending216/214. Inspect216–230wholeviews,reuseavailable renders,verifyevery intervening page/actual low-score ending/next puzzle opening before mapping. TOC220 puzzle and227 coin are lookup cues only,not global offset proof. Map at most six actual eligible pages beginning217;if full body fits<=6 restore it,otherwise opening native only and defer remainder/assembly. Preserve all prose/headings/byline/platform/screens/labels/grid blank positions/diagrams/captions/BASIC physical rows/wraps/labels/quoted fields/DATA/opaque hex-address-trailer fields and original pixels literally. Inspect all exact crops/originals before pinned Tesseract,all raws before one source pass. No syntax/opcode/algorithm/address/math/hardware/encoding repair or execution. Keep complete business663files/654natives and all earlier packages unchanged;source208 staysnull. Use pinned batch68 dispatcher/all13formats and30 unchanged core pins;fresh213baseline68 may be reused only while core unchanged. Parent0045 needs separate grouping review after its three children. Then0047 puzzle/0048 coin,cover/all244-pageaccounting/standalone index-report/independent issue rebuild/freshcloseout213/fullrequirementsaudit. Human-source/volunteer limits/globalbatch52timingexception explicit. No reader rebuild.",
+    "mapping_targets": "Canonical0047 퍼즐링 게임/신재혁/TOC220 under0045게임모음. Actual opening222/220 and all222–228wholeviews inspected as outside69;verify again full continuous extent/actual ending/next coin229 before mapping. Lookups221–230 reuseavailable renders. Candidate seven-page222–228 extent exceeds sixmappedpagebound:map222–227 opening native only, defer228final/complete assembly to next checkpoints if actual source confirms. Preserve prose/instructions/controllerkeys/screen/gridblankpositions/small8rowmachinecodefigure/BASICallphysicalrows/wraps/labels/quotedbitmapfields/music/graphicDATA/list2hexaddress-byte-trailerrows/alloriginalpixels literally. Final228 lowercanonical0015컴퓨돌이 already restored;exclude only after explicit shared-region/file-pin checks, never full-page asset copying neighbor. No syntax/opcode/algorithm/address/math/hardware/encoding repair or execution. Every eligible mappedcrop/original before pinned Tesseract,allraws before one source pass;preserve every attempt. All37readable/58135priorfiles+new69inventory/30corepins/13formats/213baseline68 unchanged. Parent0045 separate group review after children;0048coin/cover/all244pageaccounting/standalone index-report/independent issue rebuild/freshcloseout213/full requirementsaudit pending. Human-source/volunteer limits/globalbatch52timingexception explicit. No reader rebuild.",
     "provisional_lookup_targets": [
-      216,
-      217,
-      218,
-      219,
-      220,
       221,
       222,
       223,
@@ -11992,7 +12203,10 @@
     "Eight reused wholeviews211–218/five mapped/three outside/one task.64initial text crops/15sheets,18 replacements/8sheets and all21selected originals includingtwo revised images inspected before64tasks(8eng/56kor+eng).Allraws before one source pass. OCR wrapper finished all64tasks/crop checks then failed final completion writer on business-a path; saved outputs verified/reused and corrected completion record written, zero recognition failure/retry. Serializer failed whitespace-only footer-cell trim before corrections/recipe/export; fresh version emits explicit blank/None, all readings unchanged. Zero export/verifier failures. All55491priorfiles/66inventories/30corepins/35readable+onepartial/12formats checked;213-testbatch55 baseline reused. Complete immutable assembly next; full March/human-source/volunteer limits/batch52 timing exception unchanged.",
     "Business0044 complete:663files independently exact,including654 immutable native files/all metadata.192regions/148blocks/44originals/eleven206–216pages/913serializedtextrows/197BASICphysicalrows/120labels/eightgroups/tenpanels/5324listingbytes. No body or assembly pending.36readable/0partial/8headings/4unresolved;games0046–0048 and parent0045 remain.",
     "Business assembly all88array slices/eightreserved projections/fifteenobjects reverseexactly;13846projectedranges/15087activeUTF8ranges/29512pins/192images exact. Fourtables42nonblankcells/oneblanktemplatefooter;18flownodes16arrows/recordstack/QIfivepairs/inputfield/27formfields/16summaryrefs/17captions/11connections/sixmarkers/21localcandidates retained. Native quote scopes all-text versus code-only remain distinct. Six exact stale stage notes resolved only in active package,full native notes immutable. Source errors/spacing/unknown counts/technical claims unverified;no semantic repair/execution.",
-    "All56771priorfiles/67inventories/30corepins/35readable+onepartial/13privateformats checked. Fresh213PDFtests pass;new pinnedbatch68 dispatcher addsbusiness format and retainsall12priorformats. Zero newmapping/render/OCR/sourcepass/exportfailure/verifierfailure. Next low-score extent/bounded body;full March/cover/244pageaccounting/index-report/independent issue rebuild/freshcloseout213/requirementsaudit/human-source/volunteer limits/globalbatch52 timing exception retained."
+    "All56771priorfiles/67inventories/30corepins/35readable+onepartial/13privateformats checked. Fresh213PDFtests pass;new pinnedbatch68 dispatcher addsbusiness format and retainsall12priorformats. Zero newmapping/render/OCR/sourcepass/exportfailure/verifierfailure. Next low-score extent/bounded body;full March/cover/244pageaccounting/index-report/independent issue rebuild/freshcloseout213/requirementsaudit/human-source/volunteer limits/globalbatch52 timing exception retained.",
+    "Low-score0046 complete batch69-r01/low-score178files independently exact;52regions/39blocks/13originals cover217–221/visible215–219. No body/assembly pending;shared221lower-right0014/folio excluded/all36files unchanged/45pairs disjoint.37readable/0partial/8headings/3unresolved.",
+    "Low-score retains128printedBASIClabels/128logicalentries/243nonemptyphysicalrows/nineblankcandidates/115continuations/twocrosspanelentries225365. Fourunnumberedexamples remain separate from mainprogram.30DATAfields/twowrappedfields/12gridpositions/eightlabels/fourblanks/twooriginaldice/nineeditorialmarkers/21localcandidates/62codequoteglyphcandidates/31quotedcandidates/oneblankquote/7063listingbytes source-linked. Printed1..0/35vs30/dot-vs-comma/6400($4000)/A(2)=3/415vs451/560reference/325withoutREM/I-vs1/star-vs# remain candidates;list2association unverified. No reconstruction/semanticrepair/execution.",
+    "Fifteen wholeviews216–230/ten reused/five new/five mapped/ten outside/onetask.39initialtextcrops14sheets/13originals/two repairedtextmargins inspected before39tasks(10eng29kor+eng);all39raws beforeone sourcepass. Earlier truncatedbasic-dimage notcounteduntilreviewedcurrentturn. NoOCRfailure/retry/export/verifierfailure. Preexportsource-rangerevision selects terminal모/215second(2)=4 occurrence;readingsunchanged/initialserializerretained. All58135priorfiles/68inventories/30corepins/36priorreadable/13formats checked;213baseline68 reused. FullMarchcloseout/human-source/volunteer limits/batch52timingexception retained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
