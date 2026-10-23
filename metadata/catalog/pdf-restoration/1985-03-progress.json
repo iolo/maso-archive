@@ -3723,12 +3723,77 @@
       "toc_entry_id": "maso-1985-03-toc-0039",
       "title": "인터프리터 분석 : 엔트리 포인트",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All eight complete whole views169–176 inspected beforemapping. Previousgraphics ends169/167;independent interpreter opens170/168 with running인터프리터 분석,source titleSPC-1000의 / 엔트리 포인트 andprintedbyline권 기 현. Continues171/169,172/170,173/171,174/172 andends upper174 withline1580–1590 explanation andterminal mark.",
+        "Lower174 is separate two-book advertisementAPPLE에는… / SPC1000이라면. Exclude it fromarticlebody. Independent contestreview공모총평 opens175/173;WordPower opens176/174. Fullinterpreter extent170–174 individuallyobserved,not derived fromglobaloffset. Onecanonicaltask/fivemapped/threeoutside169,175,176.",
+        "List1 comprises six framed BASICpanels across170–171. Physicalwraps,standalone punctuation,blankquotedspace,decorativecommentbands,labels,opaquehex/addresses andliteralerrors must remain. Error message on170 andfour-row PRINT assemblyexample173 are separate fromList1;no invented BASIC label.",
+        "List2 is one outputtable in six ordered columnparts across172–173. MC/WORD/BUFFER/ENTRY headers printonce in firstpart;blankWORD fields andfinalFFC2 rowfields must stayblank. Do notcompute token/address/entryvalues,fillmissingfields orrepeatheaders asprinted.",
+        "Figure1 flowchart on171 retains all labels/yes-no branches andoriginal topology/arrows. Source prose,numbered explanations andfour outputcolumn explanations retainphysicalwraps andtwo acrosspage continuations173→174. No codeexecution,syntax/opcode/address/math/hardware/encoding repair. Originalpixels remainauthoritative;all exactcrops requireinspection beforeOCR."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-55-r01/interpreter",
+        "article_id": "scan-maso-1985-03-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-55-r01/interpreter/manifest.json",
+          "sha256": "fa643a606b0e6e95287abb31c17e0d45078fd1ab3908ac787f830d5a19f18db3",
+          "bytes": 47287
+        },
+        "coverage": {
+          "pdf_pages": [
+            170,
+            171,
+            172,
+            173,
+            174
+          ],
+          "printed_pages": [
+            "168",
+            "169",
+            "170",
+            "171",
+            "172"
+          ],
+          "regions": 84,
+          "blocks": 63,
+          "figures": 21,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-55/validation.json",
+          "sha256": "3ed662ab2930c59dfab3cb7bd85acce4471ab60869f453dc7eb2319abe7f7e7e",
+          "bytes": 2411
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-55/reproduction.json",
+          "sha256": "a434faf1e10beb711e651593be8c5739b42c8206c000277dab1620479fcc5b49",
+          "bytes": 1734
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-55/source-reviewed.json",
+          "sha256": "5c927baccb0e8e11318c947c81839223fc41b53a0568863d127d829c4c300b93",
+          "bytes": 2276
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-55-r01/interpreter/corrections.json",
+            "sha256": "d027673f35402ac3bc8a31817391675fbbe24969714cdb793ec61767d112b85b",
+            "bytes": 4252947
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Complete170–174/168–172;lower174bookadvertisement excluded.89physicalBASICrows/68labels/21wraps,4assemblyrows/oneoutputrow.193table rows/772positions/41blankcells/4headers;22flowchartlabels/13links/3captions/10unknownmarkers. Printederrors/8-Bcandidates/unknownink remainliteral. Humanacceptance/sourcebytes/spacing/claims/execution unverified."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/previous-ledger.json",
+        "sha256": "1cacc21aa9080c3d6ef1df810140bf579a14c43433492430966baa98fa4ceaf5",
+        "bytes": 356761
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0040",
@@ -3832,10 +3897,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 31,
+    "readable": 32,
     "partial": 0,
     "non_owning_headings": 7,
-    "unresolved_eligibility": 10
+    "unresolved_eligibility": 9
   },
   "checkpoints": [
     {
@@ -6347,6 +6412,54 @@
       "started_at": "2026-10-23T02:13:26.583612+00:00",
       "finished_at": "2026-10-23T02:19:38.102140+00:00",
       "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-55",
+      "status": "complete",
+      "stage": "validated-complete-interpreter",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0039"
+      ],
+      "mapped_pdf_pages": [
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "outside_map_lookup_pages": [
+        169,
+        175,
+        176
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 63,
+      "eng_code_tasks": 8,
+      "kor_eng_tasks": 55,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "crops_changed": 7,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/validation.json",
+        "sha256": "3ed662ab2930c59dfab3cb7bd85acce4471ab60869f453dc7eb2319abe7f7e7e",
+        "bytes": 2411
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/verification-completed.json",
+        "sha256": "47a1da435fa2fbec60a46ef05cbcc8414e59137cd9177871d71a33b053964afa",
+        "bytes": 1228
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-55-preserved-work.json",
+        "sha256": "cb34e803b3d7677bf17fb97dd8602061fe70b5c3802c848a8d91660a88184343",
+        "bytes": 9893247
+      },
+      "started_at": "2026-10-23T02:23:15.895034+00:00",
+      "finished_at": "2026-10-23T02:49:38.207913+00:00",
+      "timing_scope": "Wallclockincludeswaits/gaps/interruptions;activehumaneffortunmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -8527,6 +8640,81 @@
       }
     },
     {
+      "pdf_page": 170,
+      "classification": "article-body",
+      "printed_page": "168",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0039"
+      ],
+      "restoration": "checked-complete-interpreter",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/source-reviewed.json",
+        "sha256": "5c927baccb0e8e11318c947c81839223fc41b53a0568863d127d829c4c300b93",
+        "bytes": 2276
+      },
+      "notes": "Completeinterpreterarticlebody;allprose/listing/table/flowchart/caption/originalpixels retained."
+    },
+    {
+      "pdf_page": 171,
+      "classification": "article-body",
+      "printed_page": "169",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0039"
+      ],
+      "restoration": "checked-complete-interpreter",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/source-reviewed.json",
+        "sha256": "5c927baccb0e8e11318c947c81839223fc41b53a0568863d127d829c4c300b93",
+        "bytes": 2276
+      },
+      "notes": "Completeinterpreterarticlebody;allprose/listing/table/flowchart/caption/originalpixels retained."
+    },
+    {
+      "pdf_page": 172,
+      "classification": "article-body",
+      "printed_page": "170",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0039"
+      ],
+      "restoration": "checked-complete-interpreter",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/source-reviewed.json",
+        "sha256": "5c927baccb0e8e11318c947c81839223fc41b53a0568863d127d829c4c300b93",
+        "bytes": 2276
+      },
+      "notes": "Completeinterpreterarticlebody;allprose/listing/table/flowchart/caption/originalpixels retained."
+    },
+    {
+      "pdf_page": 173,
+      "classification": "article-body",
+      "printed_page": "171",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0039"
+      ],
+      "restoration": "checked-complete-interpreter",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/source-reviewed.json",
+        "sha256": "5c927baccb0e8e11318c947c81839223fc41b53a0568863d127d829c4c300b93",
+        "bytes": 2276
+      },
+      "notes": "Completeinterpreterarticlebody;allprose/listing/table/flowchart/caption/originalpixels retained."
+    },
+    {
+      "pdf_page": 174,
+      "classification": "article-body-with-separate-advertisement",
+      "printed_page": "172",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0039"
+      ],
+      "restoration": "checked-complete-interpreter",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-55/source-reviewed.json",
+        "sha256": "5c927baccb0e8e11318c947c81839223fc41b53a0568863d127d829c4c300b93",
+        "bytes": 2276
+      },
+      "notes": "Interpreterendsupperpage/terminal;lowerindependentAPPLE/SPCbookadvertisementexcluded."
+    },
+    {
       "pdf_page": 204,
       "classification": "other-material-lookup-only",
       "printed_page": "202",
@@ -8849,18 +9037,13 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-55",
-    "goal": "Verify full extent and restore0039 인터프리터 분석 : 엔트리 포인트.",
+    "id": "batch-56",
+    "goal": "Verify full extent and restore0041 공모 총평.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0039"
+      "maso-1985-03-toc-0041"
     ],
-    "mapping_targets": "TOC168 islookupcue,notglobalPDFoffset. Initially inspect169–176wholeviews,reusing169–171;candidate170–174 beforecontest175 provisional. Verifyallinterveningbodypages/actualending/adjacent175–176/title/byline/code/outputs/tables/flowchart beforemapping. Onecanonicaltask;maxsixmapped/twentyoutside;segment ifactualbody exceedscap. Preserve everyphysicalBASICrow/label/wrap/quotedmessage/blankstring/opaquehex/address,alltablecells/headers/flowchartlabels/captions/originalpixels literally. No BASICsyntax/opcode/address/math/hardware/encoding repair or execution. Parent0036 nowseparatelynon-owning;do notassign0039 totechnicalparent. Cover/remainingentries/244-pageaccounting/fullcloseout pending. Usebatch53dispatcher/tenformats. No reader rebuild.",
+    "mapping_targets": "TOC173 islookupcue,notglobaloffset. Initiallyinspect174–176,reusingallthreewholeviews;candidatefullcontestreview175/173 beforeWordPower176 observedin55,butverifyactualstart/end/printedtitle/table/terminalbeforemapping. Preserveprintedtitle개인용 컴퓨터는 게임기인가? separatelyfromcanonical공모 총평;no bylineinferred. Transcribeeveryproseparagraphand14entryawardtable/headers/captionliterally;no author/program/platform/value repair. Onecanonicaltask/max6mapped/20outside. Parent0040 공모입상waitsallthreechildren0041/0042/0043andseparategroupingreview. Usepinnedbatch53dispatcher/tenformats. Cover/remainingentries/244pageaccounting/fullcloseoutpending;batch52timingexceptionretained. No readerrebuild.",
     "provisional_lookup_targets": [
-      169,
-      170,
-      171,
-      172,
-      173,
       174,
       175,
       176
@@ -8933,8 +9116,9 @@
     "Graphics639selectedfiles match independentrebuild;70category occurrences/12objects/8,816projectedrange occurrences reverse exactly;9,608activeUTF8ranges/21,147pinoccurrences/178images pass. Seven tables56rows342logicalpositions/oneblank/16covered;310diagramfields/23captions/46coderows/36BASIClabels/19pairs retained. Eight exactstage notes resolved onlyinactivecomplete scope;allnative notes/flags/files preserved.",
     "Use pinned batch53 assembly_dispatch.py forallten March privateformats;allninepriorformats retained. Thirtycorepins unchanged;fresh213-testbatch43 baseline reused. No newmapping/render/OCR/sourcepass. All41,574priorfiles/52inventories/30priorreadable+onepartial exact.",
     "Graphics printedDIMRR(1),SCREEN1,1,2,1018,list3selected8/Bcandidate,ORG0/Ocandidate,proselist2/100 versuscode100GOTO90,17EDH/17E0H andmemorystrings remainliteral. Physical그려/지고 boundary linkedonce,noencodedwordjoin. No hardware/math/reference/code repair or execution. Batch52timingexception explicitlyretained forissuecloseout.",
-    "10 canonical entries remain unresolved. Parent0036 테크니컬 is non-owning afterprintedcontents/twochild/allboundary review. Twelvepageassignments/12uniquechildbodypages158–169,all970selectedchildfiles unchanged. Sixsourcebanner/twotitleranges exact;no parentbody/divider/duplicatechildtext orindependent package.",
-    "All31readablepackages/tenprivateformats/30corepins/42,885priorfiles/53inventories unchanged. Shared161RAMcard/cartoon44nonfigurepairs disjoint and65cartoonfiles exact. Sixteenreusedwholeviews/zero mapping/OCR/correction/export forclassification;213-testbaseline reused. Next0039interpreter extent/source restoration. Cover/remainingentries/244-pageaccounting/fullissuecloseout pending."
+    "9 canonical entries remain unresolved. Interpreter0039 complete170–174/168–172 withsourceSPC-1000의 / 엔트리 포인트 and권 기 현;canonicaltitle/parentnull unchanged. Lower174bookadvertisementexcluded;endsbeforecontest175. No bodypages/assemblypending.",
+    "Interpreter282filesmatchindependentrebuild;7,986UTF8ranges/8,857pinoccurrences/84croppixels exact.89physicalBASICrows/68labels/21wraps,4assemblyrows/oneoutputrow;193table rows/772positions/731nonemptycells/41blanks/4headers;22flowchartlabels/13links/3captions/10unknownmarkers.1510OFFOFF,1210punctuation,BRAEK,STATEMENTNOTINSTALL,2F69/2F68,PAI/FAC/SUM/STAT/PAR/450 andallblankfieldsliteral.8/B/faintink/encodedspacing unverified;no semanticrepair/execution.",
+    "Eightwholeviews(3reused/5new),fivemapped/threeoutside/onetask;84initialand7replacementcrops before63tasks(8eng/55kor+eng);allrawsbeforeonepass. All42,940priorfiles/54inventories/31priorpackages/tenformats/30corepins exact;fresh213PDFtestspass inexistingworking.venv. Next0041contestreivew;parent0040waitsallchildren. Cover/remainingentries/244-pageaccounting/standaloneindex/report/independentissuerebuild/freshcloseouttests/requirementsaudit pending. Batch52timingexception retained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
