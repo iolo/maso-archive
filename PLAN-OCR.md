@@ -19,26 +19,28 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:35 readable/sample-reviewed, zero partial, eight non-owning headings,
-  five unresolved. Parent0040 공모입상 is non-owning after separate source/TOC/
-  three-complete-child review. Printedcontents17 groups173/174/194 references;
-  seven reused views17/174/175/176/195/196/197,zero mapped/sevenoutside/onetask.
-  Three children own31 pages175–205/all1,100 selected files unchanged;16 running-
-  award headings/three titles/two association ranges exact. No separate parent
-  body/divider/duplicatechildtext/export. Lower205 canonical0015 unchanged/
-  excluded,28 regionpairs disjoint/65 cartoonfiles exact. All53,193 prior files/
-  64 inventories/30 core pins/35 readable packages/12 formats pass;213-testbatch55
-  baseline reused. Inventory53,236 files. No mapping/OCR/sourcepass;other47
-  entries/all page observations/dispatcher unchanged. Superman239-filecomplete
-  package and WordPower790-filecomplete package remain selected with all natives.
-  Next0044 business:206/204 opening/207 continuation known. Inspect205–218/reuse
-  views,verifyeveryinterveningpage/ending/nextgamebeforemapping206–211eligible
-  opening;TOC204/215 cuesonly. Laterbody/assembly asneeded. Preserveprose/tables/
-  diagramnodes-arrows-labels/captions/code/opaquefields literally;no semanticrepair
-  or execution. Use pinnedbatch64dispatcher/12 formats. Remainingentries/cover/
-  244pageaccounting/index/report/independentissuerebuild/freshcloseouttests/full
-  requirements audit pending;human-source limits/volunteerwork/batch52 timing
-  exception retained. Follow [March log](docs/progress/8503.md) and
+- March1985:35 readable/sample-reviewed, one partial, eight non-owning headings,
+  four unresolved. Business0044 actual206–216 extent verified continuously;
+  ending216/output table TOTAL/terminal, independent game217/215 continues218.
+  Opening206–211 selectedbatch66-r02/business-a has368 independently exact files,
+  107regions/84blocks/23originals/452serializedtextrows/twoBASICmethods10rows10labels.
+  PDF208 folio absent/null; other current folios204,205,207,208,209. Final212–216/
+  completeassembly pending. Two4column tables16cells/fouroutlines55physicalrows/
+  fourdiagrams18flownodes16arrows/three displays22cells/eightseparatepositionlabels/
+  fourformulas/eightcaptionlinks/twoproseboundaries/sevenlocalcandidates/oneunknown
+  dot band preserved. Printed L8/L7/colon/semicolon/repeatedwords/fomatting literal;
+  no semanticrepair/execution. All5823 ranges/6104 pins/107 images pass;
+  53,236 prior files/65 inventories/30 core pins/35 readable/12 formats unchanged.
+  213-testbatch55baseline reused; environment fresh213 also passed. Inventory
+  55491 files. Fourteenviews/3reused/11new/6mapped/8outside/onetask;
+  84crops17sheets/23originalsbefore84tasks(2eng/82kor+eng),allrawsbeforeonepass.
+  Zero OCRretry/enginechange/croprepair/exportfailure. First verifier evidence-root
+  error fixed in fresh metadata revision; originals/failed check retained.
+  Next212–216,thenimmutableassembly;usebatch64dispatcher/12formats. Games0046–0048/
+  parent0045/cover/244pageaccounting/index/report/independentissuerebuild/fresh
+  closeout213/fullrequirementsaudit pending. Other47entries unchanged;0040 stays
+  non-owning. Human-source limits/volunteerwork/batch52timingexception retained.
+  Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

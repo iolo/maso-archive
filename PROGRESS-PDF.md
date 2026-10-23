@@ -7,40 +7,44 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 35 of 48 entries are readable and assistant
-sample-reviewed, none are partial, eight headings are non-owning, and five remain
-unresolved. Parent0040, 공모입상, is now verified as a non-owning group after a
-separate printed-contents, hierarchy and source-boundary review. Its three
-children—공모 총평, 워드 파워 and 슈퍼맨—remain complete and unchanged. Their31
-body pages175–205 and all1,100 selected package files retain their existing owners.
-The parent has no independent body, divider, duplicated child text or article export.
+sample-reviewed, one is partial, eight headings are non-owning, and four remain
+unresolved. Business0044, 비즈니스 : 관리 프로그램의 작성법, spans PDF206–216.
+Every intervening page, the final output-design table/TOTAL and terminal on216,
+and the next game opening217/continuation218 have been inspected. The opening
+six pages206–211 are restored at
+`archive/pdf/1985-03/packages/batch-66-r02/business-a`: all368 files match the
+independent rebuild. PDF208 has no visible folio and retains null; the other
+current visible folios are204,205,207,208,209. Final212–216 and complete assembly
+remain pending. The other47 canonical entries and all35 readable packages remain
+unchanged; 공모입상0040 remains a non-owning heading.
 
-Seven whole views were reused:17/174/175/176/195/196/197. Printed contents17 has a
-pageless 공모 입상 heading over exactly173/174/194 references, followed by the
-separately ruled business entry. Source175 owns its contest-review headline,
-prose, award table and terminal; Word Power opens176 under 프로그램공모/최우수상;
-Superman opens196 under 프로그램공모/우수상 and prints its platform/byline197.
-Existing complete extent/ending records cover every intervening child page.
-Sixteen running/award heading ranges, three title ranges and two contest-association
-ranges are exact. Lower205's canonical0015 cartoon and folio remain separate:
-all28 region pairs are disjoint and all65 cartoon files remain unchanged.
+The opening retains107 regions,84 text blocks and23 original images,452 nonempty
+serialized text rows and two independent five-row BASIC examples. Two four-column
+tables retain16 cells; four ordered outlines retain55 physical rows without
+invented headers. Three flow diagrams retain18 nodes/16 observed arrows; the
+record-stack diagram retains six label candidates. Three record displays retain22
+cells, with eight position labels0–7 indexed separately from seven length-display
+data cells. Four formulas, eight caption associations, two physical prose
+boundaries, seven local candidates and one unknown dot band remain source-linked.
+Printed L8/L7, colon/semicolon, repeated 계산하여, 프로그래머듯 and fomatting remain
+literal candidates. Source glyph counts, encoded spaces and technical claims are
+unverified; original geometry/pixels remain authoritative.
 
-All53,193 prior files,64 inventories,30 core pins,35 readable packages and12 private
-formats pass. The unchanged213-test batch55 baseline is reused. Current preservation
-inventory contains53,236 files. No new mapping, OCR, source correction or parent
-export was needed; all47 other canonical entries, all page observations and the
-pinned batch64 dispatcher remain unchanged. Superman's complete239-file package
-at `archive/pdf/1985-03/packages/batch-64-r01/superman-complete` and Word Power's
-complete790-file package remain selected, with their immutable natives preserved.
+All5,823 UTF-8 ranges, 6,104 pin occurrences and107 crop images pass.
+All53,236 prior files,65 inventories,30 core pins,35 readable packages and12 private
+formats pass; the unchanged213-test batch55 baseline is reused. The environment
+check also freshly passed213 PDF tests. Current preservation inventory contains
+55,491 files. Fourteen whole views were inspected (three reused/eleven new).
+All84 exact text crops on17 sheets and23 originals were reviewed before84 OCR
+tasks (2eng/82kor+eng); all raw drafts preceded one source pass. No OCR retry,
+engine change, crop repair or export failure occurred. The first verifier found
+one extent-review evidence-root error; fresh r02 changes metadata only, retaining
+the original exports, failed check, maps, text and assets.
 
-Next: verify the full extent of0044, 비즈니스 : 관리 프로그램의 작성법. Its opening
-is PDF206/visible204, with continuation207/205 already observed. Inspect205–218,
-reusing available views, and verify every intervening page, actual ending and next
-game opening before mapping. TOC204/215 are lookup cues. Map206–211 only if the
-eligible body is continuous; later body and assembly follow as needed. Preserve
-all prose, tables, diagrams, labels, captions, code and opaque fields literally.
-Use pinned `batch-64/assembly_dispatch.py` for all12 private formats.
-
-Remaining entries, cover selection, all244-page accounting, standalone issue
+Next: restore final business PDF212–216 using retained211–218 views, then assemble
+all eleven pages from immutable natives with exact metadata/range projections.
+Use pinned `batch-64/assembly_dispatch.py` for all12 private formats. Games0046–0048
+and parent0045, cover selection, all244-page accounting, standalone issue
 index/report, independent issue rebuild, fresh closeout213 tests and full
 requirements audit remain pending. Human acceptance, full proofreading, source
 bytes/exact spacing and historical/technical claims remain unverified. No semantic
