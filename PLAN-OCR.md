@@ -19,31 +19,30 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:37 readable/sample-reviewed,one partial,eight non-owning headings,
-  two unresolved. Puzzle0047opening batch70-r01/puzzle-a179files independently
-  exact;current222–227/visible220–225/56regions/38blocks/18originals. Full222–228;
-  final228upperhex/terminal and assemblypending;coinopens229. Lower2280015cartoon/
-  folio65files/sevenregions unchanged;no228asset current.209BASIClabels/logical/
- 283physicalrows/74wraps/twoblankcandidates/eightpanels/1310crosspanelentry. Partial
-  list2hex231rows/sixcolumns/2310cells/1848bytefields withfourunknownbytes andtwo
-  unknownaddresses;no sequence/checksum/opcode reconstruction. Figure1eightrows/
- 64pairs;threeunnumberedcommands/inlineSCRN$example separate.14graphicDATAfields/
- 50musicfields/57commas/82markers25candidates/146codequoteglyphcandidates73quoted/
-  fourblankfields/14boxedkeys11captionlinks1inheritedcontext remain source-linked.
-  Customglyphs/blank widths/screens remain pixels,not decoded bitmap bytes.
-  All19449ranges/18866pins/56images pass;58968priorfiles/69inventories/30corepins/
- 37priorreadable/13formats checked. Inventory59811files.10reusedwholeviews/
- 6mapped4outside1task;38initialcrops17sheets/ninerepairs7sheets/all18originals
-  before38tasks(18eng20kor+eng),allraws beforeone sourcepass. NoOCRfailure/retry/
-  export/verifierfailure. Wrongpollhandle corrected;actual6877terminal0,no restart.
- 213baseline68 reused. Next71finalupper228native:reuse227–230views,exclude lower
- 0015cartoon/folio,verifyallcurrent-vs-sevenpriorregions disjoint;nofullpage228
-  asset. Then immutableassembly retaining allopening179files/fullmetadata and
-  uncertainties. Coin0048/parent0045/cover/244pageaccounting/index-report/independent
-  issue rebuild/freshcloseout213/fullrequirementsaudit pending. Human-source/
-  volunteer limits/globalbatch52timingexception retained. No semanticrepair or
-  execution. Follow [March log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March1985:37readable/sample-reviewed,onepartial,eightnon-owningheadings,two
+  unresolved. Puzzle0047full222–228body in179opening+31final=210exactnativefiles/
+  63regions43blocks20originals/visible220–226;no bodypending,completeassemblynext.
+  Primarydirectory/coverage remains opening;native_segments_coverage fullaggregate.
+  Finalbatch71-r01/puzzle-b31files independentlyexact;107hexrows3columns/1070cells/
+  856opaquepairs/actualAA88lastrow/terminal beforecoin229. Lower2280015cartoon/
+  folio65files unchanged/49regionpairsdisjoint/no fullpage228asset. No newcaption/
+  byline;inheritedopeningcaption andcrossnativeA730→A738context useoriginalROOTpins.
+  Combined338hexrows9columns/3380cells/2704bytepositions retainfourunknownbytefields/
+  twounknownaddresses. FullBASIC209labels283physicalrows74wrapstwoblankcandidates/
+  eightpanels/1310continuation,14graphicDATA50musicfields82markers31localcandidates/
+  146codequoteglyphcandidates73quotedfourblankfields/14boxedkeys11printedcaptions/
+  twoinheritedcontexts remain exact. No sourcebyte/checksum/address/bitmap/opcode
+  reconstruction or execution. All5392finalranges5420pins7images pass;59811prior
+  files70inventories30corepins37readable+onepartial13formats checked. Inventory
+  59972files.4reusedviews/1mapped3outside1task;fiveexactcrops3sheets2originals
+  before5tasks(3eng2kor+eng),allraws beforeonesourcepass;no failure/retry/croprepair.
+ 213baseline68 reused. Next72completeassembly/all210files/fullrawmetadata/declared
+  externalnative_source_reference roots/reverseprojections/independentrebuild;
+  resolveonlyexactactive stage notes,retain originals andall13priorformats30corepins.
+  Coin0048/parent0045/cover/244pageaccounting/index-report/independentissuerebuild/
+  freshcloseout213/fullrequirementsaudit pending. Human-source/volunteer limits/
+  globalbatch52timingexception retained. Follow [March log](docs/progress/8503.md)
+  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

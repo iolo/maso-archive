@@ -4754,7 +4754,8 @@
         "Preserve all prose/platform/byline/title/runningheadings/instructions/controllerkeys/small8rowmachinecodefigure/address-bytefields/two printed figurecaptions/list1list2captions/three unnumbered POKE-SAVEcommands/allBASICphysicalrows/labels/wraps/quotedbitmapgraphicfields/emptyfields/musicDATA/hexaddress-byte-trailercolumns/alloriginalpixels literally. Source commands/labels/DATA/graphic clusters remain source candidates,not semantic encodings. No syntax/opcode/algorithm/address/math/hardware/encoding repair or execution.",
         "List1 is one BASIC program across eight panels223–226,including physical incoming1310fragment on224left;opaquegraphic quoted comparisons/PRINT/DATA fields need local unknown markers and original geometry,not inferred bitmap letters/bytes. List2hex spans226–228 withthreephysicalcolumns perpage;retain every printed address/eightbytefields/opaque trailer without reconstructing damaged crease glyphs on227. Current native ends227;no missing finalrows invented.",
         "All initial exact crops/originals require model inspection in preceding tool calls before pinned Tesseract. All raw drafts must be read before one source correction pass. Preserve all58968priorfiles/30corepins/37readablepackages/13formats and unchanged213baseline68. Puzzle final/assembly,coin0048,parent0045,cover/all244pageaccounting/index-report/independentissue rebuild/freshcloseout213/fullrequirementsaudit pending. Human-source/volunteer limits/globalbatch52timingexception explicit. No reader rebuild.",
-        "Opening native179files independently exact;56regions/38blocks/18originals cover222–227. Full article222–228;final228/assemblypending. All19449UTF8ranges/18866pins/56sourcecrops pass. Full BASIC209labels/283physicalrows/74wraps/twoblankbaselinecandidates/eightpanels/1310crosspanel entry;partial231hexrows/sixcolumns/eightbytefields+opaquetrailer each/twounknownaddresses/fourunknownbytefields retained. No encoded-byte/checksum/bitmap/opcode reconstruction."
+        "Opening native179files independently exact;56regions/38blocks/18originals cover222–227. Full article222–228;final228/assemblypending. All19449UTF8ranges/18866pins/56sourcecrops pass. Full BASIC209labels/283physicalrows/74wraps/twoblankbaselinecandidates/eightpanels/1310crosspanel entry;partial231hexrows/sixcolumns/eightbytefields+opaquetrailer each/twounknownaddresses/fourunknownbytefields retained. No encoded-byte/checksum/bitmap/opcode reconstruction.",
+        "Finalupper228native31files independentlyexact;179openingfilesunchanged. All210nativefiles/63regions/43blocks/20originals cover full222–228. Final107hexrows/threecolumns/eightbytefields+opaquetrailer/AA88lastrow/terminal verified.49regionpairsdisjoint/lower0015cartoon65filesunchanged/no fullpage228asset. No bodypagespending;completeimmutableassemblypending,availabilitypartial."
       ],
       "restoration": {
         "directory": "archive/pdf/1985-03/packages/batch-70-r01/puzzle-a",
@@ -4826,6 +4827,32 @@
               "sha256": "373503675a3f05fc599b5086c27fc6830c7782404430ea52e685c38ef591606a",
               "bytes": 1871
             }
+          },
+          {
+            "id": "puzzle-b",
+            "directory": "archive/pdf/1985-03/packages/batch-71-r01/puzzle-b",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-71-r01/puzzle-b/manifest.json",
+              "sha256": "646cbebb9a65e5b817554b43e440eb861c5dec6b2fd61dd88b75051b2408771e",
+              "bytes": 5010
+            },
+            "pdf_pages": [
+              228
+            ],
+            "printed_pages": [
+              "226"
+            ],
+            "availability": "partial",
+            "validation": {
+              "path": "archive/pdf/1985-03/restoration/batch-71/validation.json",
+              "sha256": "1d6295dc199b35b88760fc787222a378a16bca29b6c87b382011bc47a094d701",
+              "bytes": 2654
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-03/restoration/batch-71/reproduction.json",
+              "sha256": "a5af16d8c8d8f49e44f227e46e55cf52298120b28cea5f0d400a8ce3ca9e2b65",
+              "bytes": 1767
+            }
           }
         ],
         "validation": {
@@ -4851,7 +4878,53 @@
           },
           "field": "source_ending"
         },
-        "source_limits": "Current222–227only/final228upperframe and assemblypending. Custom graphicfields/unknown glyph counts/blank widths/quotedfields/musicDATA/crease damage preserved. No source byte/bitmap/address/checksum/opcode reconstruction or execution. Human acceptance/full proofreading/encoded bytes/spacing/claims unverified. Shared lower2280015cartoon65files unchanged;explicit final-native disjointness check pending."
+        "source_limits": "Current222–227only/final228upperframe and assemblypending. Custom graphicfields/unknown glyph counts/blank widths/quotedfields/musicDATA/crease damage preserved. No source byte/bitmap/address/checksum/opcode reconstruction or execution. Human acceptance/full proofreading/encoded bytes/spacing/claims unverified. Shared lower2280015cartoon65files unchanged;explicit final-native disjointness check pending.",
+        "native_segments_coverage": {
+          "pdf_pages": [
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228
+          ],
+          "printed_pages": [
+            "220",
+            "221",
+            "222",
+            "223",
+            "224",
+            "225",
+            "226"
+          ],
+          "regions": 63,
+          "blocks": 43,
+          "figures": 20,
+          "deferred_pdf_pages": [],
+          "all_eligible_body_pages_restored": true,
+          "assembly_pending": true,
+          "native_files": 210,
+          "coverage_note": "Primarydirectory/coverage remains immutable openingnative222–227;this aggregate covers allseven222–228pages. No puzzlebodypagespending;completeassemblypending."
+        },
+        "latest_native_validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-71/validation.json",
+          "sha256": "1d6295dc199b35b88760fc787222a378a16bca29b6c87b382011bc47a094d701",
+          "bytes": 2654
+        },
+        "latest_native_source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-71/source-reviewed.json",
+          "sha256": "d4abe21525a877310f024fbe6b177e3558d41b4899dcbccba67d5989968b0843",
+          "bytes": 3429
+        },
+        "latest_native_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-71-r01/puzzle-b/corrections.json",
+            "sha256": "7ab9bad8b5ca26e2538de246cb2ddd0667ed752811dfb970a74f5fa7ef9a81ef",
+            "bytes": 2496884
+          },
+          "field": "source_ending"
+        }
       },
       "classification_history": {
         "path": "archive/pdf/1985-03/restoration/batch-70/previous-ledger.json",
@@ -8209,6 +8282,52 @@
       "deferred_body_pdf_pages": [
         228
       ],
+      "assembly_required": true
+    },
+    {
+      "id": "batch-71",
+      "status": "complete",
+      "stage": "validated-puzzle-final-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0047"
+      ],
+      "mapped_pdf_pages": [
+        228
+      ],
+      "outside_map_lookup_pages": [
+        227,
+        229,
+        230
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 5,
+      "eng_code_tasks": 3,
+      "kor_eng_tasks": 2,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 0,
+      "OCR_recognition_failures": 0,
+      "OCR_retries": 0,
+      "formal_validation_failures": 0,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-71/validation.json",
+        "sha256": "1d6295dc199b35b88760fc787222a378a16bca29b6c87b382011bc47a094d701",
+        "bytes": 2654
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-71/verification-completed.json",
+        "sha256": "43e30cfc45353b616bb26c348f8e4de8dbcff3dc5aa2b8121cafaea38cea7c4b",
+        "bytes": 1306
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-71-preserved-work.json",
+        "sha256": "5fc68f08b002795c6f1213bb19e4e7f018a15fedf95367590068f4aa451d6e38",
+        "bytes": 13482093
+      },
+      "started_at": "2026-10-23T11:54:56.943131+00:00",
+      "finished_at": "2026-10-23T12:13:16.280387+00:00",
+      "timing_scope": "Wall clock includes waits/gaps/interruptions;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [],
       "assembly_required": true
     }
   ],
@@ -12121,19 +12240,35 @@
     },
     {
       "pdf_page": 228,
-      "classification": "mixed-canonical-article-body-and-other-material",
+      "classification": "shared-article-body",
       "toc_entry_ids": [
-        "maso-1985-03-toc-0015"
+        "maso-1985-03-toc-0015",
+        "maso-1985-03-toc-0047"
       ],
       "printed_page": "226",
-      "restoration": "checked-complete-cartoon-panel",
+      "restoration": "checked-puzzle-final-native-and-complete-cartoon",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
-        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
-        "bytes": 2265
+        "path": "archive/pdf/1985-03/restoration/batch-71/source-reviewed.json",
+        "sha256": "d4abe21525a877310f024fbe6b177e3558d41b4899dcbccba67d5989968b0843",
+        "bytes": 3429
       },
-      "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
-      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0047"
+      "notes": "Upper228puzzle threecolumnhexframe endingAA88/terminal/platform/runningheading complete;lower0015cartoon/prose/folio already complete65files/sevenregions.49mappedregionpairsdisjoint;no fullpage228asset. Allpuzzle222–228bodyinnatives;completeassemblypending. Independentcoin229.",
+      "prior_observation": {
+        "pdf_page": 228,
+        "classification": "mixed-canonical-article-body-and-other-material",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0015"
+        ],
+        "printed_page": "226",
+        "restoration": "checked-complete-cartoon-panel",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+          "bytes": 2265
+        },
+        "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
+        "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0047"
+      }
     },
     {
       "pdf_page": 229,
@@ -12350,18 +12485,13 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-71",
-    "goal": "Restore final0047 puzzle upperPDF228 native,excluding lowercanonical0015cartoon;complete assembly afterward.",
+    "id": "batch-72",
+    "goal": "Assemble complete0047 puzzle222–228 from two immutable natives;no newmapping/OCR/sourcecorrection.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0047"
     ],
-    "mapping_targets": "Canonical0047 퍼즐링 게임/신재혁/TOC220 unchanged. Fullactual222–228/visible220–226/nextindependentcoin229 verified continuously;current opening222–227native179files unchanged. Lookups227–230reuseviews. Map only228upperframed finalthree-column list2hex/terminal plusSPC-1000/runningheading. Verifyall printed rows/cells/opaqueaddress-byte-trailerfields literally;do not infer addresses/bytes/checksums/bitmap contents. FinalrowAA88candidate must be confirmedscan-direct. No full-page228asset. Lower228canonical0015컴퓨돌이/title/cartoon/prose/folio already restored65files/seven mappedregions;explicitexclude lowerregion and verifyevery current-vs-priorregion pair disjoint before anycrop/OCR. All finaleligible exactcrops/originals before pinnedTesseract,allraws beforeone correctionpass. Preserve opening283BASICphysicalrows/209labels/74wraps/twoblankcandidates/1310crosspanelentry/231hexrows/twounknownaddresses/fourunknownbytefields/8machinecode rows/3unnumberedcommands/inlineSCRN$example/14graphicDATAfields50musicfields/82markers25localcandidates/146codequote glyphcandidates73quoted4blankfields/14boxedkeys11captionlinks1inheritedcontext/fullrawmetadata. Full original graphicfields/unknownencodedwidths/no reconstruction. Finalnative may cover allremainingbody but completeimmutableassembly remains nextseparatecheckpoint;do notmarkreadableuntilfullrange/pin/reverseprojection/independentrebuild checks. All37readable/30corepins/13formats/213baseline68 unchanged. Thencoin0048/parent0045/cover/all244pageaccounting/standaloneindex-report/independentissuerebuild/freshcloseout213/fullrequirementsaudit;human-source/volunteer limits/globalbatch52timingexception retained. No reader rebuild.",
-    "provisional_lookup_targets": [
-      227,
-      228,
-      229,
-      230
-    ],
+    "mapping_targets": "Retain all179opening+31final nativefiles(210total) exactly includingfullcorrectionmetadata/maps/crops/raws/settings/recipes/stagenotes/unknownmarkers/externalpinroots. Full63regions43blocks20originals/seven222–228pages/visible220–226;no bodypending. Primarycoverage currentlyopening;native_segments_coverage governsaggregate. Complete BASIC209printedlabels/logicalentries/283physicalrows/74wraps/twoblankbaselinecandidates/eightpanels/1310physicalcrosspanelentry allinopening. Complete list2hex338physicalrows/ninecolumns/3380cellpositions/2704bytefieldpositions withfourunknownbytefields/twounknownaddresses. Keepunknownsnotreconstructsequence/checksum/opcode/bitmap. Figure1eightrows64paircandidates/separatethreeunnumberedcommands/inlineSCRN$example.14graphicDATAfields50musicfields/57commas/unknowncustomglyphs/frameblankwidths/82markers31localcandidates/146codequoteglyphcandidates73quoted4blankfields/14boxedkeys11printedcaptionlinks/twoinheritedcaptioncontexts/oneproseboundary/sevenBASICpanelboundaries/onecrossnativehexcontext preserved. Source list2captionprintedonly226;227and228contexts inheritednotreprinted. Preserve bothoriginalgroupindices(list2opening/final aretwonativeparts,not twoindependentprintedlistings);completeactivehexgroup maylinktwopartswithfullnative reverseprojections. No crossnativeBASIC continuation. Fulloriginalnative metadata/declaredROOTarchivepinroots crucial:final native_source_reference pins openingpackage manifest/corrections inROOT;do notblindlyrebase. Allarrays/reservedlists/objects/ranges/pins forwardandreverseexact;full original external contexts preserved. Finalsource228shared0015cartoon65files/sevenregions unchanged/current7regions49pairsdisjoint/no fullpage228asset/folio belongsprior0015. Addprivateadapter/dispatcheronlyifneeded retainingall13formats30corepins;fresh213baseline68reusablewhileunchanged. Resolveonlyexactactive stage deferralnotes;retainoriginalnotes. Build/rebuild/fullvalidationbefore readable. Thencoin0048,parent0045,cover/all244pageaccounting/standaloneindex-report/independentissuerebuild/freshcloseout213/fullrequirementsaudit;human-source/volunteer limits/globalbatch52timingexceptionexplicit. No readerrebuild.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -12458,7 +12588,10 @@
     "Fifteen wholeviews216–230/ten reused/five new/five mapped/ten outside/onetask.39initialtextcrops14sheets/13originals/two repairedtextmargins inspected before39tasks(10eng29kor+eng);all39raws beforeone sourcepass. Earlier truncatedbasic-dimage notcounteduntilreviewedcurrentturn. NoOCRfailure/retry/export/verifierfailure. Preexportsource-rangerevision selects terminal모/215second(2)=4 occurrence;readingsunchanged/initialserializerretained. All58135priorfiles/68inventories/30corepins/36priorreadable/13formats checked;213baseline68 reused. FullMarchcloseout/human-source/volunteer limits/batch52timingexception retained.",
     "Puzzle0047 now partial atbatch70-r01/puzzle-a:179independently exactfiles/56regions/38blocks/18originals/current222–227. Full222–228;final228upperhex/terminal and completeassemblypending.37readable1partial8headings2unresolved. All47otherentries unchanged.",
     "Opening retains209BASIClabels/logicalentries/283physicalrows/74wraps/twoblankcandidates/eightpanels/1310crosspanelentry;231partialhexrows/sixcolumns/2310cellpositions/1848bytefields withfourunknownfields/twounknownaddresses;8machinecode rows64bytecandidates/3unnumberedcommands/inlineSCRN$example.14graphicDATAfields50musicfields/57commas/82markers/25localcandidates/146codequoteglyphcandidates73quoted4blankfields/14boxedkeys/11captionlinks1inheritedcontext/15359listingbytes preserved. All19449UTF8ranges/18866pins/56sourcecrops pass. No encoded-byte/checksum/bitmap/opcode reconstruction or execution.",
-    "Ten reused wholeviews221–230/sixmapped/fouroutside/onetask.38initialtextcrops17sheets/nine marginrepairs seven sheets/all18originals inspected before38tasks(18eng20kor+eng);allraws beforeone sourcepass. ZeroOCRfailures/retries/export/verifierfailure. One wrong-handle observation reportedUnknown;actual6877rebuildhandle then confirmedterminal0, no processrestarted. All58968priorfiles/69inventories/30corepins/37priorreadable/13formats checked;213baseline68 reused. Lower228canonical0015cartoon65files unchanged/currentnative no228asset/finaldisjointnesspending. FullMarch/human-source/volunteer limits/globalbatch52timingexception retained."
+    "Ten reused wholeviews221–230/sixmapped/fouroutside/onetask.38initialtextcrops17sheets/nine marginrepairs seven sheets/all18originals inspected before38tasks(18eng20kor+eng);allraws beforeone sourcepass. ZeroOCRfailures/retries/export/verifierfailure. One wrong-handle observation reportedUnknown;actual6877rebuildhandle then confirmedterminal0, no processrestarted. All58968priorfiles/69inventories/30corepins/37priorreadable/13formats checked;213baseline68 reused. Lower228canonical0015cartoon65files unchanged/currentnative no228asset/finaldisjointnesspending. FullMarch/human-source/volunteer limits/globalbatch52timingexception retained.",
+    "Puzzle0047remains partialsolelypendingcompleteassembly:full222–228bodyin179opening+31final=210nativefiles/63regions43blocks20originals. Primarydirectory/coverage remains opening;native_segments_coveragehasno deferredbody.37readable1partial8headings2unresolved unchanged.",
+    "Final31filesindependentlyexact;5392UTF8ranges/5420pins/7sourcecrops pass.107hexrows/3columns/1070cells/856opaquepaircandidates;lastAA88/terminal beforecoin229. Combined338hexrows/9columns/3380cells/2704bytefields(with4unknownbytefields)/2unknownaddresses,alloriginalcandidateambiguities retained.49regionpairsdisjoint/lower0015cartoon65filesunchanged/179openingfilesunchanged/no fullpage228asset. No captionreprinted/bylineinvented.",
+    "Fourreusedwholeviews227–230/onemapped/threeoutside/onetask. Allfiveexacttextcrops/threesheets/twooriginals inspectedbeforefivetasks(3eng2kor+eng);allraws beforeone sourcepass. No OCRfailure/retry/croprepair/export/verifierfailure. All59811priorfiles/70inventories/30corepins/37readableplusonepartial/13formats checked;213baseline68 reused. FullMarchgoal/assembly/human-source/volunteer limits/globalbatch52timingexception retained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
