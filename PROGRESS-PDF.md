@@ -6,55 +6,56 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 33 of 48 entries are readable and assistant
-sample-reviewed, one article is partial, seven headings are non-owning, and
-seven entries remain unresolved. All20 Word Power0042 body pages176–195/
-visible174–193 are now restored across four immutable natives: opening
-`archive/pdf/1985-03/packages/batch-57-r02/word-power-a` (447 files),middle
-`archive/pdf/1985-03/packages/batch-58-r02/word-power-b` (189),listings
-`archive/pdf/1985-03/packages/batch-59-r01/word-power-c` (105),andfinal
-`archive/pdf/1985-03/packages/batch-60-r01/word-power-d` (40). All781 files match
-independent rebuilds. Combined coverage is238 regions,169 blocks and69 original
-image regions. Complete article assembly remains pending;availability is partial.
-The ledger's primary directory remains the opening;`native_segments_coverage`
-records aggregate coverage. Parent0040 waits all children and separate review.
+March 1985 remains in progress: 34 of48 entries are readable and assistant
+sample-reviewed, none are partial, seven headings are non-owning, andseven
+entries remain unresolved. Word Power0042 is complete at
+`archive/pdf/1985-03/packages/batch-61-r03/word-power-complete`: all790 files match
+the independent rebuild,including781 unchanged native files. Coverage is all20
+pages176–195/visible174–193,238 regions,169 blocks and69 original image regions.
+No Word Power body pages or assembly remain pending. Printed워드 파워/이 성 민/
+서강대학교 전자공학과(S.G.C.C.) andearlierS.G.C.candidate history remain source
+readings;canonical identity/title/parent0040 are unchanged. Parent0040 waits0043
+andseparate grouping review.
 
-The final native retains200 CHECK physical rows,158 printed labels,42 unlabelled
-continuation rows andone inherited450 entry. Four panels use five code crops;
-the final2000 row is separated from the terminal mark. Four numeric-prefixwrap
-candidates,one two-row DATA statement/three quoted fields,186 quote glyphs and
-four blank quoted literals remain literal. Incoming193Y1/194$=Y$ and195ERR/1
-physical fragments stay unjoined. Final2000/terminal ends195;Superman opens196
-andcontinues197. PR#0,N1,WO$,repeated GET1,1 andunclosed MAIN/CHECK quotes
-retain source uncertainty. No syntax,algorithm,address,math,hardware or encoding
-repair or execution. Human acceptance,full proofreading,source bytes/exact
-spacing andhistorical/technical claims remain unverified;original pixels govern.
+All240 native array slices,16 reserved array projections,42 object projections
+andthree heading-ID aliases reverse exactly. Repeated check-heading,dict-heading
+anddmake-heading in segmentb have reversible b-prefix aliases;native IDs/files
+remain unchanged.17 exact stale stage notes are resolved only in the complete
+output;all native history andsource uncertainty remain. Six tables preserve42
+rows,155 logical positions,136 nonempty cells,19 blanks,17 logical headers and16
+physical header cells. Table3's unruled shared header andtable6's literal5/
+aominate/noheader survive. Eight menus/36 entries,18 diagram labels,five nodes,
+36 caption links,boxed keys,cursors,returns andordinals remain source-bound.
+Five worked displays/26 rows stay separate from five BASIC programs:29 panels,
+30 code regions,1184 nonblank physical rows,one blank candidate and927 printed
+label occurrences. Six physical connections preserve링/크2,FILE CHE/CK,
+STEST1460/B(JJ),CHECK50M2/$,450Y1/$=Y$ andERR/1 without encoded joins.
+CHECK450's unnumbered continuation is linked without inserting a label or text.
 
-Five reused whole views193–197,two mapped pages,three outside lookups,one task.
-Allfive initial text crops/five sheets,two replacements andseven originals were
-inspected before six tasks:five eng/one kor+eng. Allsix drafts preceded one
-source pass. One pre-OCR repair widened the right panel andseparated2000.
-The first verifier handle disappeared with an empty log/no completion;that
-attempt is preserved. A fresh read-only verification passed without repeating
-OCR,source correction or export. All4,153 UTF-8 ranges (3,741 article/412 listing),
-3,781 pin occurrences and13 crop images pass. All49,356 prior files,59 inventories,
-30 core pins,33 prior readable packages andten private formats pass. The unchanged
-fresh213-test batch55 baseline is reused. Inventory contains49,585 files.
-All other47 canonical entries remain unchanged;only194–195 observations changed.
-The batch52 replacement-crop timing exception remains explicit for closeout.
+All41,199 active UTF-8 ranges,33,978 projected range occurrences,70,974 pin
+occurrences and238 crop images pass. The first build rejected repeated heading
+IDs;an initial diagnostic undercounted three as two andleft an unbuilt r02 draft.
+All attempts remain preserved. Fresh r03 passed identity/text preflight,build,
+independent rebuild andfull verification. No mapping,rendering,OCR orsource pass
+was repeated. All49,585 prior files,60 inventories,30 core pins and33 prior
+readable/one partial packages pass. The new pinned batch61 dispatcher supports
+all11 private formats andretains allten earlier formats. The unchanged fresh213-
+test batch55 baseline is reused. Inventory contains51,207 files;other47
+canonical entries remain unchanged. Human acceptance,full proofreading,source
+bytes/exact spacing andhistorical/technical/algorithm claims remain unverified.
+No syntax,address,math,hardware or encoding repair or execution. The batch52
+replacement-crop timing exception remains explicit for issue closeout.
 
-Next: assemble complete Word Power from all four natives. Preserve781 native
-files andevery metadata array/object,range,pin,download,image,candidate history
-andphysical continuation. Keep five worked displays separate from the five
-BASIC programs;retain all29 program panels and1184 nonblank BASIC physical rows.
-Resolve only exact stale stage flags in the complete output;keep native history.
-Use a fresh private adapter/dispatcher retaining allten earlier formats and30
-core pins. No new mapping,OCR orsource pass. Availability becomes readable only
-after full assembly/rebuild/projection checks. Parent0040 classification is
-separate andwaits0043. Remaining entries,cover selection,all244-page accounting,
-standalone issue index/report,independent issue rebuild,fresh closeout213 tests
-andrequirements audit remain pending. News/classified body transcription awaits
-volunteers. No reader rebuild.
+Next: verify the full extent of0043 슈퍼맨 andrestore its bounded opening.
+Inspect195–207,reusing195–197 andadding198–207. TOC194/204 are lookup cues;
+verify every intervening page,ending andnext business opening before mapping.
+Map196–201 only if eligible body is continuous;later body andassembly follow.
+Keep all physical prose/code rows,labels,wraps,quoted spaces,DATA,hex/opaque
+fields,keys,screenshot labels,captions andoriginal pixels literal. Use pinned
+`batch-61/assembly_dispatch-r03.py`/11 formats. Remaining entries,cover selection,
+all244-page accounting,standalone issue index/report,independent issue rebuild,
+fresh closeout213 tests andrequirements audit remain pending. News/classified
+body transcription awaits volunteers. No reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
