@@ -20,25 +20,29 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March1985:30 readable/sample-reviewed,one partial,six non-owning headings
-  and11 unresolved. Graphics0038 actual162–169/160–167;opening162–167 complete
-  as immutable partial native,final168–169/assembly pending. Source title/byline
-  separate from canonical identity. Opening143regions/122blocks/21originals;
-  six tables/52rows/330logicalcells/313nonempty/16covered/oneblank/sixrowgroups/
-  33logicalheaders. Diagram277fields/15captions/13overbars/73subscripts/16bitdigits/
-  55Figure9pins/eightinternal continuations/outgoing그려/지고 literal. Memory
-  strings10×8/210×8/150×8 and17EDH/17E0H independent;two boxglyphs/oneunknownmark/
-  faintleftedge/H6uppermark unverified. No circuit/code repair or execution.
-  All517files match independent rebuild;6,832ranges/7,862pins/143images pass.
-  All38,703priorfiles/50inventories/30priorpackages/nineformats/30corepins exact;
-  213-test baseline reused. Inventory41,052files. Eleven views(threereused/
-  eightnew),sixmapped/fiveoutside;144initial/38round1replacement/onecomplete
-  Figure9crop before122kor+engtasks,allraws beforeonepass. Two pre-OCR repair
-  rounds/onepre-output preparation assertion failure retained;no OCR retries.
-  Next final168–169,reuse167–171;preserve figures10–12/table7/threeBASIClistings/
-  CHANGE assembly/physicalrows/captions/photos literally,thenimmutableassembly
-  separately. Parent0036,cover,remaining entries/244-page accounting/closeout
-  pending. Human/source limits andvolunteertranscription explicit. Use pinned
-  batch41 dispatcher. Follow [March log](docs/progress/8503.md) and
+  and11 unresolved. Graphics0038 all eight actual body pages162–169/160–167
+  restored across517 opening+113 final immutable files;178regions/145blocks/
+  33originals. Complete assembly pending;availabilitypartial. Primarydirectory
+  remains openingnative;aggregate coverage has no deferredbodypages.
+  Final35regions/23blocks/12originals;46coderows/36BASIClabels/ORG+nineaddresses/
+  19opaquehexpairs;table7fourrows12cells/threeheaders/fourprintedlabels;
+  33diagramfields/eightcaptions/fourverticalcaptions/1/60/rotated보드로/twophotos.
+  Incoming그려/지고 andinternal인터/럽트 literal. DIMRR(1),SCREEN1,1,2,1018,
+  selected8/B andORG0/O candidates,prose list2/100 versuscode100GOTO90 unchanged.
+  No hardware/code/reference/math repair or execution. All113files matchrebuild;
+  1,984ranges/1,982pins/35images pass. All41,052priorfiles/51inventories/30corepins/
+  30readable+onepartial exact;nineformats pass;213-test baseline reused.
+  Inventory41,574files. Five reusedviews/twomapped/threeoutside;23tasks
+  (foureng/19kor+eng),allrawsbeforeonepass,noOCRretry. Onecroprepairround.
+  Timingexception:35initialcrops/12originals/eightsheets beforeOCR;fourreplacement
+  crops returnedinsamecallasOCRlaunch,inspectedafterlaunch. Retainedsupplement
+  correctspreflightclaim;allrowscomplete,recognitionnotrestarted. Carryexception
+  throughassembly/closeout. Metadata-only prose revisions retainoriginalrecords.
+  Nextcompletegraphicsassembly preserving630nativefiles/fullmetadata/everyrange/
+  array/object/sourceboundary. Freshdispatcher mustretainallninepriorformats.
+  Parent0036,cover,remainingentries/244-pageaccounting/closeout pending. Human/
+  source limits andvolunteertranscription explicit. Follow
+  [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

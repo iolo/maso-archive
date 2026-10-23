@@ -26,39 +26,45 @@ records below are historical and do not authorize a new rebuild.
 
 March 1985 remains in progress: 30 of 48 entries are readable and assistant
 sample-reviewed, one article is partial, six headings are non-owning, and
-11 entries remain unresolved. Entry0038 SPC-1000 그래픽 페이지 II/ 이준화 spans
-PDF162–169/visible160–167. Its opening six pages162–167 are restored as an
-immutable partial package. Final168–169 and complete article assembly remain
-pending. The printed title SPC-1000의 그래픽 기능과 확장방법 and byline
-이 준 화／서울대 제어계측공학과 2 remain separate from the canonical title.
+11 entries remain unresolved. All eight body pages of0038 SPC-1000 그래픽
+페이지 II/ 이준화 are now restored across two immutable natives: opening
+PDF162–167/visible160–165 and final168–169/166–167. Their630 files retain178
+regions,145 blocks and33 originals. Complete article assembly remains pending;
+availability is partial. The primary ledger directory still names the opening
+native;aggregate native coverage records that no body pages remain deferred.
 
-The opening retains143 regions,122 blocks and21 original images. Six tables
-contain52 rows/330 logical cell positions:313 nonempty,16 covered by merged
-labels andone printed blank. Six row groups and33 logical headers remain indexed.
-There are277 diagram-label fields,15 caption links,13 signal overbars,73 subscript
-fields,16 bit digits and55 Figure9 pin numbers. Eight internal prose continuations
-and outgoing그려/지고 retain physical fragments. Printed memory strings10×8,
-210×8,150×8 and independent17EDH/17E0H candidates remain literal. Two SCREEN
-box glyphs,one unknown slanted mark,faint left-edge readings and a tiny H6 mark
-retain source uncertainty. No circuit,opcode,address,math or encoding repair
-or execution was used.
+The final native retains35 regions,23 blocks and12 originals. Four code groups
+contain46 physical rows:36 BASIC labels andORG plus nine assembly address rows.
+Nine object fields retain19 opaque hex pairs. Table7 has four rows/12 cells/three
+logical headers/four printed header labels. Thirty-three diagram fields,eight
+caption links,four vertical captions,the printed1/60 fraction,rotated보드로 label
+and both large photos remain source-bound. Incoming그려/지고 andinternal인터/럽트
+remain physical fragments. DIMRR(1),SCREEN1,1,2,1018,selected8/B andORG0/O
+candidates remain literal. The prose's list2/100 claim andcode100 GOTO90 remain
+independent. No opcode,byte,address,reference,hardware ormath repair or execution.
 
-All517 selected files match the independent rebuild. All6,832 active UTF-8
-ranges,7,862 evidence-pin occurrences and143 crop-image pixel comparisons pass.
-All38,703 prior files,50 inventories,30 prior packages,nine private formats and30
-core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
-The current preservation inventory contains41,052 files. Eleven whole views
-(three reused/eight new),six mapped pages/five outside lookups. All144 initial
-crops,38 first-round replacements andone complete Figure9 crop were inspected
-before122 kor+eng tasks;all122 raws before one source pass. Two pre-OCR repair
-rounds retained all maps/crops. One preparation assertion failed before outputs;
-its corrected fresh revision and original log remain. No OCR failures/retries.
+All113 final files match the independent rebuild. All1,984 active UTF-8 ranges
+(1,838 article/146 listing),1,982 pins and35 crop-image comparisons pass.
+All41,052 prior files,51 inventories,30 core pins,30 prior readable packages and
+the opening partial package remain exact. Nine private formats pass;the unchanged
+fresh213-test batch43 baseline is reused. Inventory contains41,574 files.
+Five reused whole views,two mapped pages/three outside lookups. All23 OCR tasks
+(four eng/19 kor+eng) succeeded;all23 raws were read before one source pass.
 
-Next: restore finalPDF168–169/visible166–167 of0038,reusing167–171 whole views.
-Preserve figures10–12/table7,three BASIC listings and the CHANGE assembly listing,
-all physical rows,labels/hex/addresses/captions and integrated photos literally.
-Then assemble the immutable segments separately. Technical parent0036 waits
-complete0038 and a separate classification review. Use the pinned batch41 dispatcher.
+One crop repair round retained both maps andfour replacements. Initial35 crops/
+12 originals/eight sheets were inspected before OCR. The four replacement crops
+were returned in the same tool call as OCR launch and inspected after launch.
+The retained timing supplement corrects the original preflight claim;the crops
+retain complete rows and recognition was not restarted. Carry this exception
+through assembly and issue closeout. Metadata-only draft-prose revisions retain
+their originals;source readings andraws are unchanged.
+
+Next: assemble complete0038 from the517-file opening and113-file final natives.
+Preserve full metadata,every supplemental array/object,source uncertainty and
+the incoming boundary exactly once. Verify all combined ranges,pins,images,
+native copies,reverse projections andan independent rebuild. Use a fresh private
+dispatcher retaining all nine existing formats. Technical parent0036 waits the
+completed assembly and a separate classification review.
 
 Cover selection,remaining entries,all244-page accounting and full issue closeout
 remain pending. Human acceptance,full proofreading,source bytes/spacing and
