@@ -24,53 +24,41 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 39 of 48 entries are readable and assistant
-sample-reviewed, none are partial, eight headings are non-owning, and only the
-pageless parent0045 게임 모음 remains unresolved. Coin0048 행운의 동전 is complete
-at `archive/pdf/1985-03/packages/batch-73-r02/coin`. All121 files match its independent
-rebuild. The full five-page article covers PDF229–233/visible227–231, with40 regions,
-24 blocks and16 original images. Its final4420/physical0 wrap and terminal precede
-the independent classifieds opening234. No coin body pages or assembly remain pending.
-All other47 canonical entries and their selected packages remain unchanged.
+March 1985 remains in progress. All 48 canonical TOC entries are classified:
+39 readable, assistant sample-reviewed articles and nine non-owning headings.
+No article is partial and no eligibility question remains unresolved. The pageless
+parent0045 게임 모음 is a non-owning group heading. Its three completed children
+cover PDF217–233 (visible215–231), retaining all 518 selected-package files exactly.
+No independent parent body, divider or export is needed. Canonical identities,
+titles, order, parents and all 39 selected articles remain unchanged.
 
-One BASIC listing retains343 printed labels/logical entries,422 nonempty physical
-rows,79 wraps,one blank-baseline candidate,nine panels and the2210 crosspanel F.
-All47 DATA rows retain750 fields (736 opaque hex candidates/14 decimal fields)
-and703 commas. Nine line-reference outline entries,three embedded screen label rows,
-four screen numeric fields and one printed two-row caption remain source-linked.
-The10,961-byte listing,15 music fields,70 quote glyph candidates/35 quoted fields,
-one empty/one blank field,two trailing-space runs,44 editorial markers,20 local
-candidates and32 identifier candidate occurrences remain literal. Damaged2590/3200,
-graphic3210,unknown star-band counts and blank widths remain explicit. No code,
-bitmap,music,gameplay,hardware or encoding reconstruction;no execution.
+The decision follows the unchanged structured TOC, independently inspected printed
+contents17 and every whole page216–234. Business ends216; low-score217–221, puzzle
+222–228 and coin229–233 follow continuously; classifieds begin234. Three exact
+source title ranges resolve to the child packages. Shared221 retains 45 disjoint
+region pairs and 36 unchanged mini-clock files; shared228 retains 49 pairs and 65
+unchanged cartoon files. Neither game owns a complete shared-page image.
 
-All13,806 UTF-8 ranges,13,029 pin occurrences and40 exact source crops pass.
-Eight reused whole views228–235/five mapped pages/three outside lookups/one task stay
-within checkpoint bounds. All24 text crops/11 sheets/16 originals and two repaired
-left margins were inspected before24 pinned tasks (nine eng/15 kor+eng);all24 raws
-were read before one source correction pass. No OCR failure/retry/export or verifier
-failure. A fresh metadata revision fixes quoted-space occurrence scope only;source
-text,crops,raws and the first export remain unchanged. Earlier truncated231 output
-was not counted until its successful re-view before mapping.
+All 20 reused lookup views (contents17 plus216–234) fit the outside-lookup ceiling.
+No mapping, OCR, source correction or article export was needed. All 61,165 prior
+files, 73 prior inventories, 30 core pins, 39 readable packages and 14 private formats
+pass. The unchanged 213-test baseline68 is reused. The preservation inventory contains
+61,230 files. Every earlier attempt, crop, raw, correction and revision remains
+preserved; PDF208's printed folio stays null. No reader rebuild.
 
-All60,444 prior files,72 prior inventories,30 core pins,38 prior readable packages
-and14 private formats pass. The unchanged213-test baseline68 is reused;the current
-preservation inventory contains61,165 files. Complete puzzle0047,low-score0046,
-business0044 and their mixed-page neighbor exclusions remain unchanged. PDF208's
-printed folio remains null. Every source attempt,map,crop,raw,correction and revision
-is retained. No reader rebuild.
+Next: verify the donated March cover and account for all 244 PDF pages. Selected
+article bodies occupy 217 unique pages; 27 pages lie outside those bodies. Inspect
+pages1–17,147,243,244 within one 20-page lookup checkpoint, reuse the seven already
+classified advertisement-page records, verify all seven shared pages and retain
+every mixed-page exclusion. Prefer donated `covers/8503.jpg`, inspect its issue
+identity and thumbnail, and independently rebuild the private cover derivative.
+Then create the standalone issue index/report, independently rebuild the issue,
+rerun all 213 closeout tests and audit every requirement before declaring completion.
 
-Next: resolve parent0045 from its unchanged pageless TOC relationship and all three
-complete game children. Inspect/reuse every whole page216–234 (19 outside lookups,
-zero mapped pages),including preceding business ending216,game bodies217–233 and
-independent classifieds234. Verify shared221/0014 and228/0015 exclusions;record
-non-ownership only if no independent parent body is observed. Then cover,all244-page
-accounting,standalone issue index/report,independent issue rebuild,fresh closeout213
-tests and a full requirements audit remain. Human acceptance/full proofreading,
-source encoded bytes/spacing/glyph counts,historical/technical claims and execution
-remain unverified. News/classified-body and custom-glyph label transcription await
-volunteers. The batch52 crop-timing exception remains explicit. The full March goal
-remains active.
+Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts,
+historical/technical claims and code execution remain unverified. News/classified
+body transcription and custom-glyph labels await volunteers. The batch52 crop-timing
+exception remains explicit. The full March goal remains active.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

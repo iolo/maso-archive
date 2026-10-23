@@ -19,27 +19,20 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:39 readable/sample-reviewed,zero partial,eight non-owning headings,
-  one unresolved parent0045. Coin0048 complete at batch73-r02/coin:121 independently
-  exact files/full229–233/visible227–231/40 regions24 blocks16 originals. No body or
-  assembly pending.343 BASIC labels/logical entries/422 physical rows79 wraps/one
-  blank baseline/nine panels/2210 crosspanel F/10961 listing bytes.47 DATA rows750
-  fields(736 opaque hex/14 decimal)703 commas; nine outline entries/three screen
-  label rows/four numeric fields/one caption.15 music fields70 quote glyphs35 quoted
-  fields/one empty/one blank/two trailing-space runs/44 markers20 candidates32
-  identifier occurrences;damaged2590/3200/graphic3210/unknown bands and blank widths
-  retained. No semantic/code/bitmap/music/gameplay reconstruction or execution.
-  All13806 UTF8 ranges13029 pins40 exact source crops pass. Eight reused whole views/
-  five mapped/three outside/one task.24 text crops11 sheets16 originals/two margin
-  repairs inspected before24 tasks(9eng15kor+eng);all raws before one source pass.
-  No OCR failure/retry/export/verifier failure. Quote-space metadata revision changes
-  occurrence scope only;source text/first export retained. Truncated231 view excluded
-  until successful re-view before mapping. All60444 prior files72 inventories30 core
-  pins38 prior readable14 formats pass;213 baseline68 reused. Inventory61165files.
-  Next74 parent0045:inspect216–234/19 outside views/zero mapping,verify all three
-  complete children/shared221/228 exclusions and absence of independent parent body.
-  Then cover/244-page accounting/index-report/issue rebuild/fresh closeout213/full
-  audit remain. Human-source/volunteer limits/global batch52 timing exception retained.
+- March1985: all48 canonical entries classified as39 readable/sample-reviewed
+  articles and nine non-owning headings; zero partial/unresolved. Pageless0045 게임
+  모음 is non-owning after structured TOC/printed contents17 and every whole view
+  216–234. Three complete children/518 exact files/17 ordered unique217–233 pages/
+  three exact title ranges; no independent parent body/divider/export. Shared221/
+  228 retain94 disjoint pairs/101 unchanged neighbor files and existing exclusions;
+  no full shared-page asset in games. Twenty reused outside views/zero mapping/OCR/
+  source correction/export. All61165 prior files/73 inventories/30 core pins/39
+  readable/14 formats pass;213 baseline68 reused. Inventory61230files.
+  Next cover/source accounting:inspect1–17/147/243/244 within20 outside lookups;
+  donated covers/8503.jpg priority; verify derivative/independent rebuild and all244
+  pages/seven shared pages/mixed exclusions/PDF208 null folio. Standalone issue
+  index/report/independent issue rebuild/fresh closeout213/full audit remain.
+  Human-source/volunteer limits/global batch52 timing exception retained.
   Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

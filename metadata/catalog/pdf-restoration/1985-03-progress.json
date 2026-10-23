@@ -4641,12 +4641,22 @@
       "toc_entry_id": "maso-1985-03-toc-0045",
       "title": "게임 모음",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Unchanged structured TOC line824 has pageless 게임 모음; its three canonical children at lines825–827 retain pages215/220/227. Independently inspected printed contents PDF17 shows pageless 게임모음 followed by the same three game entries. Printed grouping spacing remains distinct from canonical title; no catalog change.",
+        "All whole pages216–234 were individually inspected. Business ends216/visible214 with terminal; low-score begins217/215 and ends221/219; puzzle independently opens222/220 and ends upper228/226; coin opens229/227 and ends233/231; independent classifieds open234/232. Every217–233 page belongs to a completed child body, with only the separately owned0014/0015 panels on221/228. No separate parent introduction, divider, article or continuation appears.",
+        "Three complete child packages retain518 exact files and17 unique ordered game pages. Three source title ranges and final source metadata resolve to their own package scans/downloads. Shared221 has45 disjoint mapped-region pairs and36 unchanged miniclock files; shared228 has49 pairs and65 unchanged cartoon files. Neither game owns a complete shared-page image. Parent owns no child text, diagram, listing, folio or independent body; no parent export is required.",
+        "Twenty reused whole views include the one supplemental printed-contents lookup17 plus planned216–234:one canonical grouping task/zero mapped pages/zero OCR/source correction/export. All61165 prior files/73 inventories/30 core pins/39 readable packages/14 formats remain unchanged. Human acceptance/full proofreading/source encoded bytes/spacing/glyph counts/claims/execution and volunteer transcription limits remain explicit. Global batch52 timing exception remains. Full March cover/accounting/index/report/rebuild/fresh tests/audit remain pending; no reader rebuild."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-03/restoration/batch-74/parent-heading-decision.json",
+        "sha256": "db26bdcacd318faa0e04e80974ec93a171f46eda78100da52b552491c0ec5ca7",
+        "bytes": 13234
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0046",
@@ -5011,8 +5021,8 @@
     "canonical_entries": 48,
     "readable": 39,
     "partial": 0,
-    "non_owning_headings": 8,
-    "unresolved_eligibility": 1
+    "non_owning_headings": 9,
+    "unresolved_eligibility": 0
   },
   "checkpoints": [
     {
@@ -8485,6 +8495,63 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-74",
+      "status": "complete",
+      "stage": "verified-non-owning-game-parent",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0045"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        17,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "classification": {
+        "path": "archive/pdf/1985-03/restoration/batch-74/parent-heading-decision.json",
+        "sha256": "db26bdcacd318faa0e04e80974ec93a171f46eda78100da52b552491c0ec5ca7",
+        "bytes": 13234
+      },
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-74/validation.json",
+        "sha256": "6c7c3b4a6bc107cff58210e7d94387de094a6c2cb3a4ecdd7fa5d2d962a42be0",
+        "bytes": 1270
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-74/verification-completed.json",
+        "sha256": "6633ee3b63b57c8585d2b109e760a6320d261e1c91dc876d50592c505b017b84",
+        "bytes": 1122
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-74-preserved-work.json",
+        "sha256": "20da060e173ecb46d932506633c8c49589c4091ea94089351b2e2af20e3bb31d",
+        "bytes": 13759157
+      },
+      "started_at": "2026-10-23T13:11:21.872728+00:00",
+      "finished_at": "2026-10-23T13:20:40.867372+00:00",
+      "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -12822,32 +12889,31 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-74",
-    "goal": "Resolve pageless0045 게임 모음 ownership from TOC and all three complete game children.",
-    "toc_entry_ids": [
-      "maso-1985-03-toc-0045"
-    ],
-    "mapping_targets": "Canonical0045 게임 모음 is the one unresolved entry. Verify its unchanged pageless TOC parent relationship to0046 낮은 점수 쟁탈전,0047 퍼즐링 게임 and0048 행운의 동전. Reuse and inspect every whole page216–234: preceding business ending216, all game body pages217–233 and following independent classifieds234. Nineteen outside-map lookups/zero mapped pages/one canonical grouping task. Verify all three selected complete child packages/actual boundaries/coverage and mixed-page exclusions221/0014 and228/0015. Decide whether any independent parent-owned body exists from source; do not invent a group export or duplicate child bodies. If non-owning, record classification/body_owner false/not-applicable while preserving identity/title/order/parents and all selected children. Retain all39 readable packages/14 formats/30 core pins/213 baseline68 and all prior files. Then cover/all244-page source accounting/standalone issue index-report/independent issue rebuild/fresh closeout213/full requirement audit remain. Keep human-source/volunteer limits/global batch52 timing exception explicit. No reader rebuild.",
+    "id": "issue-accounting-01",
+    "goal": "Verify donated March cover and account for all244 source pages without changing selected articles.",
+    "toc_entry_ids": [],
+    "mapping_targets": "All48 canonical entries are accounted:39 readable/9 non-owning headings/zero partial/unresolved. Cover not yet selected;217 unique source pages occur in selected bodies and27 are outside. Inspect/reuse20 outside lookup pages1–17,147,243,244. Pages1–16/244 have no prior source-page observations;243 has lookup-only classification;17 is contents and147 is an independent publisher notice, to be verified in this accounting checkpoint. Reuse all seven previously classified outside advertisement pages18/31/43/63/79/105/124 and their existing source evidence; no repeated OCR. Use donated covers/8503.jpg before PDF fallback; inspect visible issue identity/upright proportions/derivative metadata and independently rebuild a private thumbnail with pinned cover settings. Preserve donated original/selected derivative/core30pins/39 selected packages/14 formats and every prior archive file. Classify all244 pages from selected package ownership and explicit outside dispositions;verify seven shared pages61/143/150/161/205/221/228 with disjoint mapped-region pairs and all mixed-page exclusions. Keep PDF208 folio null. Do not add unlisted articles or transcribe ads. Then standalone issue index/report/independent issue rebuild/fresh closeout213/full requirements audit remain. Human-source/volunteer limits/global batch52 timing exception retained. No reader rebuild.",
     "provisional_lookup_targets": [
-      216,
-      217,
-      218,
-      219,
-      220,
-      221,
-      222,
-      223,
-      224,
-      225,
-      226,
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
-      233,
-      234
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      147,
+      243,
+      244
     ],
     "limits": {
       "articles": 2,
@@ -12954,7 +13020,9 @@
     "All59972priorfiles/71inventories/30corepins/37readable+onepartial/14privateformats checked;newbatch72dispatcher retainsprevious13formats.213baseline68reused. Nonewmapping/render/OCR/sourcepass/exportfailure/verifierfailure. One wrong-handle readonlypollcorrected torealrebuild51299terminal0/no restart. Nextcoinfull-extent/boundedbody. FullMarch/cover/244pageaccounting/index-report/independentissuerebuild/freshcloseout213/fullrequirementsaudit/human-source/volunteerlimits/globalbatch52timingexceptionretained.",
     "Coin0048 complete atarchive/pdf/1985-03/packages/batch-73-r02/coin;121 files independently exact/40 regions/24 blocks/16 originals/full229–233. No body or assembly pending.39 readable/zero partial/eight non-owning/one unresolved parent0045. Other47 entries remain exact.",
     "Coin retains343 BASIC labels/logical entries/422 nonempty physical rows/79 wraps/one blank baseline candidate/nine panels/2210 crosspanel F/10961 listing bytes.736 opaque hex DATA fields+14 decimal fields/703 commas/nine outline entries/three screen label rows/four numeric fields/one caption/15 music fields/70 quote glyphs/35 quoted fields/one empty/one blank/two trailing-space runs/44 editorial markers/20 local candidates/32 identifier candidate occurrences. Damaged2590/3200/graphic3210 remain source-linked unknowns. All13806 UTF8 ranges/13029 pins/40 exact source crops pass. No semantic reconstruction or execution.",
-    "Eight reused source whole views228–235/five mapped/three outside/one task.24 initial text crops/11 sheets/16 originals/two margin replacements inspected before24 pinned tasks(9eng/15kor+eng);all raws before one source pass. Original truncated231 whole-view not counted until successful re-view before mapping. No OCR failure/retry/export/verifier failure. Quote-space metadata revision corrects occurrence scope only; original first export/metadata and all source text/crops/raws preserved. All60444 prior files/72 inventories/30 core pins/38 prior readable/14 formats checked;213 baseline68 reused. Parent/cover/244-page accounting/index-report/issue rebuild/fresh closeout213/full audit remain. Human-source/volunteer limits/global batch52 timing exception retained."
+    "Eight reused source whole views228–235/five mapped/three outside/one task.24 initial text crops/11 sheets/16 originals/two margin replacements inspected before24 pinned tasks(9eng/15kor+eng);all raws before one source pass. Original truncated231 whole-view not counted until successful re-view before mapping. No OCR failure/retry/export/verifier failure. Quote-space metadata revision corrects occurrence scope only; original first export/metadata and all source text/crops/raws preserved. All60444 prior files/72 inventories/30 core pins/38 prior readable/14 formats checked;213 baseline68 reused. Parent/cover/244-page accounting/index-report/issue rebuild/fresh closeout213/full audit remain. Human-source/volunteer limits/global batch52 timing exception retained.",
+    "Parent0045 게임 모음 is non-owning after structured TOC/printed contents17 and every body/adjacent whole page216–234. Three complete child packages retain518 exact files/17 ordered unique217–233 pages/three own title ranges. No independent parent body/divider/export. Shared221/228 retain94 disjoint region pairs/101 unchanged neighbor files.39 readable/zero partial/nine non-owning/zero unresolved; all48 canonical entries classified.",
+    "All39 readable packages/14 formats/30 core pins/61165 prior files/73 inventories unchanged. Twenty reused whole views include supplemental contents17 plus planned19 pages216–234; zero mapping/OCR/source correction/export.213 baseline68 reused. Cover/all244-page accounting/standalone issue index-report/independent issue rebuild/fresh closeout213/full audit remain; human-source/volunteer limits/global batch52 timing exception retained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
