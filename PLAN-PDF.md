@@ -25,51 +25,56 @@ records below are historical and do not authorize a new rebuild.
 ## March 1985 in progress, 2026-10-23
 
 March 1985 remains in progress: 34 of 48 entries are readable and assistant
-sample-reviewed, one is partial, seven headings are non-owning, and six entries
-remain unresolved. Superman0043 now has a verified opening at
-`archive/pdf/1985-03/packages/batch-62-r02/superman-a`: all 150 files match the
-independent rebuild. PDF196–201/visible194–199 retain 48 regions, 31 text blocks
-and 17 original image regions. The full ten-page extent is PDF196–205/194–203;
-four later pages202–205 and complete assembly remain pending. Word Power0042
-remains complete and unchanged. Parent0040 waits for Superman and a separate
-grouping review.
+sample-reviewed, one is partial, seven headings are non-owning, and six remain
+unresolved. All ten Superman0043 body pages, PDF196–205/visible194–203, are now
+covered by two immutable native packages. The opening remains atbatch62-r02;
+the final segment is `archive/pdf/1985-03/packages/batch-63-r01/superman-b`.
+All80 final files match the independent rebuild, and all150 opening files remain
+unchanged. The230 native files retain74 regions,46 text blocks and28 originals.
+No body pages remain pending; complete-article assembly is next. Word Power0042
+remains complete. Parent0040 waits for complete Superman and separate review.
 
-All 13 whole views195–207 were inspected before mapping: six reused renders and
-seven new renders. Superman ends with the upper hex listing on205, through5B4A.
-The lower panel is already restored as canonical0015, 컴퓨돌이; it is outside
-Superman's body. Business0044 opens on206/204 and continues207/205. These are
-source observations, not an assumed global page offset.
+Final202–205 retains six BASIC panels,191 nonempty serialized physical code rows,
+130 printed labels plus an inherited10030 entry,61 continuation rows and eight
+blank-baseline candidates. There are88 graphic DATA fields, four visually blank,
+and55 opening-quote candidates. Original spatial pixels remain authoritative;
+encoded glyph identities, counts and spacing are unknown. The separate list2
+hex table retains193 rows in six columns,1,930 cells and1,544 opaque pairs.
+Four BASIC DATA statements/30 fields remain distinct. No checksum, address,
+opcode or program-behavior validation was performed.
 
-The opening preserves the title/subtitle, 성 경 훈 byline, SPC-1000 platform,
-four screenshot labels, nine boxed keys, warning, save commands, 11 variable
-entries, four input cases and 46 physical summary rows/35 range candidates.
-Eight BASIC panels retain 332 nonempty physical rows, five blank-baseline
-candidates, 139 printed labels and 193 continuation rows. The 338 quote glyphs,
-17 blank quoted fields and 35 opaque hex fields remain literal. There are112
-explicit unknown graphic/stripe markers with original pixels and no inferred
-encoded identities or counts. Three prose connections and two internal code
-connections remain unjoined; the final10030 &HECD continues on202 with ,&HC9.
+The final5B4A row is in205's upper panel. Lower canonical0015, 컴퓨돌이, and its
+folio remain excluded and unchanged; all28 pairs between the four new regions
+and seven existing cartoon regions are disjoint. Business opens206/204. Three
+internal code connections and the incoming10030 &HECD/,&HC9 preserve physical
+fragments without encoded joins. Both native packages together retain851
+nonempty serialized text rows,716 code rows(523 BASIC/193 hex),13 blank BASIC
+candidates and269 printed BASIC labels. Assembly must reconcile the single
+inherited10030 entry while retaining every original native index and file.
 
-All 7,691 UTF-8 ranges, 6,976 pin occurrences and 48 crop images pass. All51,207
-prior files, 61 prior inventories, 30 core pins and 34 readable packages pass;
-the pinned batch61 dispatcher still supports all11 private formats. The unchanged
-213-test batch55 baseline is reused. Inventory contains52,264 files. All other47
-canonical entries and existing ownership remain unchanged. Initial schema-kind
-failure, crop repairs, both verifier expectation failures and the source-accounting
-metadata revision are preserved. Selectedr02 changes only four metadata files;
-all text, maps and assets matchr01. No successful OCR or source pass was restarted.
+All20,385 final UTF-8 ranges,19,719 pin occurrences and26 exact crop images pass.
+All52,264 prior files,62 inventories,30 core pins,34 readable packages and the
+prior partial package pass. The pinned batch61 dispatcher supports all11 private
+formats; the unchanged213-test batch55 baseline is reused. Inventory contains
+52,679 files. Six whole views were reused;15 initial text crops on12 sheets,
+one widened replacement and11 originals were inspected before15 OCR tasks
+(12eng/3kor+eng). All drafts were read before one source pass. No OCR retry,
+engine change, mapping failure, export failure or verifier failure occurred.
+All other47 canonical entries remain unchanged.
 
-Next: restore Superman's remaining PDF202–205. Inspect201–206 using saved views;
-map202–205 only. Preserve incoming code fragments, graphic DATA fields, physical
-rows, labels, quotes, blank fields, opaque hex/checksum-looking fields and original
-pixels literally. Exclude205's lower cartoon and verify disjointness against its
-existing immutable map. Complete Superman assembly follows, then parent0040 and
-the remaining canonical entries. Cover selection, all244-page accounting, standalone
-issue index/report, independent issue rebuild, fresh closeout213 tests and a full
-requirements audit remain pending. Human acceptance, full proofreading, source
-bytes/exact spacing and historical/technical claims remain unverified. No semantic
-repair or execution. News/classified body transcription awaits volunteers. The
-batch52 replacement-crop timing exception remains explicit. No reader rebuild.
+Next: assemble Superman from the230 immutable native files. Preserve every array,
+reserved list, object, physical/source range, caption association and candidate
+history with exact reverse projections. Resolve only stale article-stage flags
+in the complete output. The opening's historical prior_corrections pin names the
+original restoration corrections.json, not its selected package file; retain the
+correct external evidence root. Add six inherited list1 caption links without
+reprinting the caption. Parent0040 and the remaining entries follow assembly.
+Cover selection, all244-page accounting, standalone issue index/report,
+independent issue rebuild, fresh closeout213 tests and full requirements audit
+remain pending. Human acceptance, full proofreading, source bytes/exact spacing
+and historical/technical claims remain unverified. No semantic repair or
+execution. News/classified body transcription awaits volunteers. The batch52
+replacement-crop timing exception remains explicit. No reader rebuild.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

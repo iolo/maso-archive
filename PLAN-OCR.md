@@ -20,31 +20,32 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March1985:34 readable/sample-reviewed, one partial, seven non-owning headings,
-  six unresolved. Superman0043 opening196–201/194–199 is verified atbatch62-r02:
-  150 files match the independent rebuild;48 regions/31 blocks/17 originals.
-  Fulltenpage196–205 extent verified through upper205 hex5B4A. Lower205 is
-  already-restored canonical0015 컴퓨돌이, outsideSuperman;business opens206/204.
-  Current eight BASIC panels preserve332 nonblank rows/five blank candidates/
-  139 printed labels/193 wraps;338 quotes/17 blank quoted fields/35 opaquehex
-  fields/112 explicit unknown graphic markers. Nine boxed keys/four screen
-  labels/11 variables/four cases/46 summary rows/35 ranges remain source-linked.
-  Three prose/two internal code connections and outgoing10030&HECD→202,&HC9
-  retain physical fragments, no encoded joins. All7,691 ranges/6,976 pins/48
-  sourcecrop images pass. All51,207 prior files/61 inventories/30 core pins/
-  34 readable packages/11 private formats checked;213-testbatch55 baseline reused.
-  Inventory52,264 files;other47 entries unchanged. Six reused/seven new views,
-  six mapped/seven outside/one task;31 initial text crops/14 sheets/five margin
-  replacements/17 originals inspected before31 tasks(8eng/23kor+eng),allraws
-  beforeonepass. Schema-kind authoring failure beforemap/OCR and two verifier
-  expectation failures retained. Source-accountingreciper02 changes onlyfour
-  metadata files;alltext/map/assets unchanged, no OCR/sourcepass restart.
-  Next202–205 finalbody:inspect201–206/reuseviews/mapfourpages;preserve BASIC/
-  graphicDATA/opaquehex/physicalrows/quotes/literals. Exclude lower205 canonical
-  cartoon and verify disjointness;fullassembly thenparent0040/separatereview.
-  WordPower0042 remains complete/unchanged. Cover/remainingentries/244page
-  accounting/index/report/independentissuerebuild/freshcloseouttests/full
-  requirements audit pending;human-source limits/volunteerwork/batch52 timing
-  exception retained. Follow [March log](docs/progress/8503.md) and
+  six unresolved. Superman0043 all ten body pages196–205/194–203 are now covered
+  by150 opening files(batch62-r02) and80 final files(batch63-r01),230 immutable
+  native files/74 regions/46 blocks/28 originals. Final80 files match independent
+  rebuild;opening unchanged. No body pages pending;complete assembly next.
+  Final191 BASIC physical rows/130 labels+one inherited10030/61 wraps/eightblank
+  candidates;88 graphic DATA fields/four blank/55 quote-prefix candidates retain
+  original spatial pixels/unknown encoding/counts. List2 six columns193 rows/
+  1930 cells/1544 opaque pairs;four BASIC DATA statements30 fields stay separate.
+  Three internal connections and incoming10030&HECD/,&HC9 remain unjoined.
+  Final5B4Aupper205;lowercanonical0015/folio unchanged/excluded,28 regionpairs
+  disjoint. All20,385 ranges/19,719 pins/26 images pass;52,264 prior files/
+  62 inventories/30 core pins/34 readable+onepartial/11 formats checked;213-test
+  batch55 baseline reused. Inventory52,679 files. Six reused views/four mapped/
+  twooutside/onetask;15 initial text crops/12sheets/one widened replacement/
+  11 originals before15 tasks(12eng/3kor+eng),allraws beforeonepass. No OCRretry/
+  enginechange/mapping/export/verifierfailure. Native source candidates retained.
+  Next assembly-onlybatch64:230 native files/rawfullmetadata/all array/object/
+  reserved projections must reverse exactly;reconcile inherited10030/addsix
+  inherited list1captionlinks without insertingtext. Historical prior_corrections
+  pin resolves to original restoration file,notselected differentlyhashedfile.
+  Use pinnedbatch61dispatcher/11 formats untilnew private adapter addsformat;
+  30corepins unchanged. Parent0040 aftercomplete0043/separatereview. WordPower
+  complete/unchanged. Remainingentries/cover/244pageaccounting/index/report/
+  independentissuerebuild/freshcloseouttests/fullrequirementsaudit pending;
+  human-source limits/volunteerwork/batch52 timingexception retained.
+  Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
