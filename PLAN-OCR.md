@@ -19,28 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:38readable/sample-reviewed,zeropartial,eightnon-owningheadings,two
-  unresolved. Puzzle0047complete batch72-r01/puzzle-complete219files independently
-  exact/all210natives unchanged/fullmetadata/63regions43blocks20originals/seven
-  222–228pages/visible220–226. No body/assemblypending. Lower2280015cartoon/folio
-  65filesunchanged49pairsdisjoint/no full228asset.88arrayslices(87present+oneexplicit
-  absent)/eightreserved/elevenobjects reverseexact;24841projectedranges34175active
-  UTF8ranges57770pins63images pass. FinalROOTnative_source_reference openingpins
-  preserved. Sixcompletelistinggroups/sevennativeparts/18783bytes;209BASIClabels/
-  283physicalrows74wrapstwoblankcandidates/eightpanels/1310continuation;338hexrows/
-  ninecolumns/2704bytepositionswithfourunknownbytes/twounknownaddresses;8machinecode
-  rows64pairs/threecommands/inlineSCRN$example separate.14graphicDATA50musicfields/
-  82markers31candidates146codequoteglyphcandidates73quotedfourblankfields/14boxedkeys/
-  11printedcaptions2inheritedcontexts9connections retained. No encodedjoin/address/
-  checksum/bitmap/opcode reconstruction/execution. Sixexactstage notes resolvedonly
-  activeoutput/originalnotesimmutable. All59972priorfiles/71inventories/30corepins/
-  37priorreadable+onepartial checked;new14formatdispatcher retains13priorformats.
- 213baseline68reused. Inventory60444files. Nonewmapping/render/OCR/sourcepass/
-  exportfailure/verifierfailure. Wrongreadonlypollcorrected/actual51299terminal0/
-  no restart. Next73coin0048fromknown229/227and230continuation;inspectall228–235
-  wholeviews/actualending/nextclassifieds before<=6mappedpages. Parent0045/cover/
-  244pageaccounting/index-report/independentissuerebuild/freshcloseout213/fullaudit
-  pending. Human-source/volunteerlimits/globalbatch52timingexception retained.
+- March1985:39 readable/sample-reviewed,zero partial,eight non-owning headings,
+  one unresolved parent0045. Coin0048 complete at batch73-r02/coin:121 independently
+  exact files/full229–233/visible227–231/40 regions24 blocks16 originals. No body or
+  assembly pending.343 BASIC labels/logical entries/422 physical rows79 wraps/one
+  blank baseline/nine panels/2210 crosspanel F/10961 listing bytes.47 DATA rows750
+  fields(736 opaque hex/14 decimal)703 commas; nine outline entries/three screen
+  label rows/four numeric fields/one caption.15 music fields70 quote glyphs35 quoted
+  fields/one empty/one blank/two trailing-space runs/44 markers20 candidates32
+  identifier occurrences;damaged2590/3200/graphic3210/unknown bands and blank widths
+  retained. No semantic/code/bitmap/music/gameplay reconstruction or execution.
+  All13806 UTF8 ranges13029 pins40 exact source crops pass. Eight reused whole views/
+  five mapped/three outside/one task.24 text crops11 sheets16 originals/two margin
+  repairs inspected before24 tasks(9eng15kor+eng);all raws before one source pass.
+  No OCR failure/retry/export/verifier failure. Quote-space metadata revision changes
+  occurrence scope only;source text/first export retained. Truncated231 view excluded
+  until successful re-view before mapping. All60444 prior files72 inventories30 core
+  pins38 prior readable14 formats pass;213 baseline68 reused. Inventory61165files.
+  Next74 parent0045:inspect216–234/19 outside views/zero mapping,verify all three
+  complete children/shared221/228 exclusions and absence of independent parent body.
+  Then cover/244-page accounting/index-report/issue rebuild/fresh closeout213/full
+  audit remain. Human-source/volunteer limits/global batch52 timing exception retained.
   Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
