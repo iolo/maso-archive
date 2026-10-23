@@ -19,22 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:28 readable/sample-reviewed,no partial articles,six non-owning
-  headings and14 unresolved. Parent0030 메아리 is non-owning after printed-contents
-  and three-child review. Assembler0031/ampersand0032/MSX0033 are complete across
-  seven unique PDF pages140–146 with their original mixed-page exclusions. All468
-  child files,three banner ranges andthree title ranges remain exact. Parent owns
-  no body pages or divider and has no independent export or duplicated child text.
-  All18 ampersand/keyboard nonfigure pairs on143 remain disjoint;36 keyboard files
-  unchanged. Ten reused views17/18/140–147,one task/zero mapping/OCR/correction/export.
-  All36,235 prior files/47 inventories/28 readable packages/nine private formats/
-  30 core pins unchanged;213-test baseline reused. Inventory36,282 files.
-  Next0035 베이직 강좌 : 베이직에서 되부름이 가능하다! Verify actual extent
-  from153–159 whole views before mapping;candidate154–157 provisional. Preserve
-  all physical code rows,labels,literals,DATA fields,tables/diagrams/captions and
-  original assets without semantic repair or execution. Segment if over six mapped
-  pages. Cover,remaining entries/244-page accounting/closeout remain pending.
-  Human/source limits and volunteer transcription remain explicit. Use pinned
+- March1985:29 readable/sample-reviewed,no partial articles,six non-owning
+  headings and13 unresolved. RecursiveBASIC0035 complete154–157/152–154,null
+  final folio;upper157 table/terminal retained,lowerbookshop advertisement excluded.
+  67 regions/51 blocks/16 originals;five examples/two listings/148 physical rows/
+  146 labels/logical rows/two unnumbered0) continuations. Fifteen separator bands
+  andone small mark retain unknown glyph/count;14 quoted literals include four0/O
+  candidates. Two tables/four parts/37 rows/74 cells/two headers;three tower labels/
+  three glossary bullets/ten captions. Extra200,proposed CALL PROCEDURE,INKEY$(1),
+  타워게/임 andMS/X wraps literal;no byline inferred orsemantic repair/execution.
+  All229 files match independent rebuild;5,937 ranges/5,691 pins/67 crop images pass.
+  All36,282 prior files/48 inventories/28 prior packages/nine private formats/30 core
+  pins unchanged;213-test baseline reused. Inventory37,287 files. Seven views
+  (three reused/four new),four mapped/three outside pages;all67 initial/seven
+  replacement crops before51 tasks (nine eng/42 kor+eng),all51 raws beforeone pass.
+  One pre-OCR crop repair round;original maps/crops retained;no OCR failures/retries.
+  Next0037 램카드 활용의 기초:verify actual extent from157–163 whole views before
+  mapping;candidate158–161 provisional. Preserve literal hardware/code/hex/table/
+  diagram claims and separate lower161 cartoon;completed cartoon files unchanged.
+  Parent0036,cover,remaining entries/244-page accounting/closeout remain pending.
+  Human/source limits andvolunteer transcription remain explicit. Use pinned
   batch41 dispatcher. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

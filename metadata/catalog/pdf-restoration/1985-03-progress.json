@@ -3343,12 +3343,75 @@
       "toc_entry_id": "maso-1985-03-toc-0035",
       "title": "베이직 강좌 : 베이직에서 되부름이 가능하다!",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Seven whole views153–159 inspected beforemapping. Random course ends153;recursiveBASIC opens154/visible152,continues155/153 and156/154,andends withtable2/terminal upper157.158 opensRAMcard,159 continues it. Complete actual recursive article extent154–157;no bodypage orassembly deferral.",
+        "FinalPDF157 hasno visiblefolio;null retained. Independent lower157 technical-bookshop advertisement excluded. CanonicalTOC152 remains unchanged;no global pageoffset inferred.",
+        "Preserve five codeexamples,two complete tower listings,physical rowwraps/line labels/quoted strings/opaque numeric fields/decorativebands,glossary bullets,towerdiagram labels/two tables/captions/all original pixelgeometry. No separately printed articlebyline;none inferred.",
+        "The source demonstrates proposed CALL PROCEDURE forms alongsideBASIC versions. Every spelling/operator/line reference/numericvalue remains literal;no syntax/recursion/math/hardware/encoding repair or execution. Sourceuncertainty/unknown bandcounts explicit.",
+        "One canonicaltask/four distinctmappedpages/three outside lookups;all exact crops requireinspection beforepinned mappedTesseract."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-49-r01/recursive-basic",
+        "article_id": "scan-maso-1985-03-toc-0035",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-49-r01/recursive-basic/manifest.json",
+          "sha256": "8904f62447410466f34e6fb44d71b2f013985e03928b4c16b6761930b13ef737",
+          "bytes": 39029
+        },
+        "coverage": {
+          "pdf_pages": [
+            154,
+            155,
+            156,
+            157
+          ],
+          "printed_pages": [
+            "152",
+            "153",
+            "154",
+            null
+          ],
+          "regions": 67,
+          "blocks": 51,
+          "figures": 16,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-49/validation.json",
+          "sha256": "931afef5be224ce53a10aea1b4fcefabc2a8f9607f0294bd81ba10e614e4c421",
+          "bytes": 2381
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-49/reproduction.json",
+          "sha256": "e90c00fee7cdad4b9f6481bf3b7fe2167771e5b298c4a62a118500cea9030007",
+          "bytes": 1724
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-49/source-reviewed.json",
+          "sha256": "a178dc8702aeb04f352b58bf24a9ea65b20eec9a3ceea4c44fc237ebc0aed6fb",
+          "bytes": 1710
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-49-r01/recursive-basic/corrections.json",
+            "sha256": "012a035ae56a5e0217ca76a5a425959ede7a144b260046d5f5863ed3a1a968c4",
+            "bytes": 2874421
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Five codeexamples/two towerlistings,physicalwraps/quotedglyph uncertainty/15 unknownseparatorbands/smallmark/two tables/extra200/diagramgeometry literal. No independently printedbyline;157folio null/lowerad excluded. No semanticrepair or execution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-49/previous-ledger.json",
+        "sha256": "1117345d2b14806da44344c40970378fa350506b56bd260bb254a738e543d41b",
+        "bytes": 313116
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0036",
@@ -3496,10 +3559,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 28,
+    "readable": 29,
     "partial": 0,
     "non_owning_headings": 6,
-    "unresolved_eligibility": 14
+    "unresolved_eligibility": 13
   },
   "checkpoints": [
     {
@@ -5725,6 +5788,53 @@
       "started_at": "2026-10-23T00:07:56.912276+00:00",
       "finished_at": "2026-10-23T00:11:52.480212+00:00",
       "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-49",
+      "status": "complete",
+      "stage": "validated-complete-recursive-basic",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0035"
+      ],
+      "mapped_pdf_pages": [
+        154,
+        155,
+        156,
+        157
+      ],
+      "outside_map_lookup_pages": [
+        153,
+        158,
+        159
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 51,
+      "eng_code_tasks": 9,
+      "kor_eng_tasks": 42,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "crops_changed": 7,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-49/validation.json",
+        "sha256": "931afef5be224ce53a10aea1b4fcefabc2a8f9607f0294bd81ba10e614e4c421",
+        "bytes": 2381
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-49/verification-completed.json",
+        "sha256": "7ee188214d50c8b8176b37c4b21f8be949bcb3f1b2b483ed38fbf583e0c4b46d",
+        "bytes": 1241
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-49-preserved-work.json",
+        "sha256": "5143403915ea2e9ab0420fd9a025ac339d2ac0288eae70360ea92e64192e9976",
+        "bytes": 8314993
+      },
+      "started_at": "2026-10-23T00:14:01.139230+00:00",
+      "finished_at": "2026-10-23T00:31:39.075797+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -7492,15 +7602,76 @@
     },
     {
       "pdf_page": 154,
-      "classification": "other-canonical-body-lookuponly",
+      "classification": "article-body",
       "printed_page": "152",
       "source_material_observed": "베이직에서 되부름이 가능하다! opening",
-      "restoration": "outside-current-news-map;no-other-entry-classification-change",
+      "restoration": "checked-complete-recursive-basic",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
-        "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
-        "bytes": 2170
-      }
+        "path": "archive/pdf/1985-03/restoration/batch-49/source-reviewed.json",
+        "sha256": "a178dc8702aeb04f352b58bf24a9ea65b20eec9a3ceea4c44fc237ebc0aed6fb",
+        "bytes": 1710
+      },
+      "prior_observation": {
+        "pdf_page": 154,
+        "classification": "other-canonical-body-lookuponly",
+        "printed_page": "152",
+        "source_material_observed": "베이직에서 되부름이 가능하다! opening",
+        "restoration": "outside-current-news-map;no-other-entry-classification-change",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-37/source-reviewed.json",
+          "sha256": "0be8e43670d64ed8feefc68a6f856801fe38b38f47e5e4e9047292c79926f065",
+          "bytes": 2170
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0035"
+      ],
+      "notes": "Complete recursiveBASIC article page;originals andall eligibletext/code/figures retained."
+    },
+    {
+      "pdf_page": 155,
+      "classification": "article-body",
+      "printed_page": "153",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0035"
+      ],
+      "restoration": "checked-complete-recursive-basic",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-49/source-reviewed.json",
+        "sha256": "a178dc8702aeb04f352b58bf24a9ea65b20eec9a3ceea4c44fc237ebc0aed6fb",
+        "bytes": 1710
+      },
+      "notes": "Complete recursiveBASIC article page;originals andall eligibletext/code/figures retained."
+    },
+    {
+      "pdf_page": 156,
+      "classification": "article-body",
+      "printed_page": "154",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0035"
+      ],
+      "restoration": "checked-complete-recursive-basic",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-49/source-reviewed.json",
+        "sha256": "a178dc8702aeb04f352b58bf24a9ea65b20eec9a3ceea4c44fc237ebc0aed6fb",
+        "bytes": 1710
+      },
+      "notes": "Complete recursiveBASIC article page;originals andall eligibletext/code/figures retained."
+    },
+    {
+      "pdf_page": 157,
+      "classification": "mixed-article-and-advertisement",
+      "printed_page": null,
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0035"
+      ],
+      "restoration": "checked-complete-recursive-basic",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-49/source-reviewed.json",
+        "sha256": "a178dc8702aeb04f352b58bf24a9ea65b20eec9a3ceea4c44fc237ebc0aed6fb",
+        "bytes": 1710
+      },
+      "notes": "Upperfinal program-explanationtable/terminal only;no visiblefolio,lowerbookshop advertisement excluded."
     },
     {
       "pdf_page": 160,
@@ -7865,20 +8036,20 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-49",
-    "goal": "Verify actual full extent andrestore0035 베이직 강좌 : 베이직에서 되부름이 가능하다!",
+    "id": "batch-50",
+    "goal": "Verify actual full extent andrestore0037 램카드 활용의 기초.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0035"
+      "maso-1985-03-toc-0037"
     ],
-    "mapping_targets": "TOC152 is a lookup cue,not a global PDF offset. Initially inspect153–159 wholeviews,reusing saved renders. Candidate154–157 beforeRAMcard158 is provisional;verify title/intro/byline ifprinted,all actualbody/listings/tables/diagrams,finalending andneighbors beforemapping. One canonical task;at mostsix distinctmappedpages/twenty outside lookups. Segment separately ifactualextent exceeds cap. Preserve every physical BASIC row/label/quotedliteral/opaque numeric orDATA field,formula/tablecell/diagramlabel/caption/originalpixel andprose wrap. No syntax/recursion/math/hardware/encoding repair or execution. Technical parent0036 waits its children andseparate classification review. Cover,remainingentries,244-page accounting/fullMarchcloseout pending. No reader rebuild.",
+    "mapping_targets": "TOC156 is a lookup cue,not global PDFoffset. Initially inspect157–163 wholeviews,reusing saved157–159 andcartoon-boundary160–162 whereavailable. Candidate158–161 beforegraphics162 is provisional;verify fullarticle ending andseparate lower161 cartoon0015 ownership. Preserve printedrunning/series/title/intro/byline ifpresent,all codephysicalrows/opaquehex/addresses/tables/allcells/diagrams/labels/captions/softswitch claims/originalpixels without hardware/opcode/math/encoding repair or execution. One canonicaltask;at mostsix mappedpages/twenty outside lookups;segment iffullbody exceeds cap. Do notchange completedcartoon files. Technical parent0036 waits bothchildren0037/0038 andseparate classification. Cover,remaining entries,244-page accounting/fullMarchcloseout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      153,
-      154,
-      155,
-      156,
       157,
       158,
-      159
+      159,
+      160,
+      161,
+      162,
+      163
     ],
     "limits": {
       "articles": 2,
@@ -7942,8 +8113,9 @@
     "Ampersandprintedtitle &의 사용법 separate fromcanonical &의 활용법. Three BASIC labels,36assemblyrows/22printed57–78 ordinals/14unnumbered rows includingfive tailrows,29diagramlabels/four captions acrossbotharticles. Prose57～77,DELARY-1,ROUTI.,SO STACK-ROUTINE,G1AA8/editor1A9F andallsource spelling/fields remainliteral;no repair/execution.",
     "MSX four BASIC examples/24labels/twoDATA rows16fields;five tables52rows112cells includingtwo explicit blankVRAM521/525 cells;21diagramlabel rows/nine captions. Figure4 nineaxis labels/sixbinary digits/last68 versusDATA60 remainliteral;figure1 tiny mark retains unknownidentity/count. First째 edge supported byfull original144;noOCR retry.",
     "Random6502 ordinals1–54 andZ80 ordinals0000–0057 retain112numbered rows/fourunnumbered headers/commentwraps/63objectfields/113opaque pairs. Filename finalO/0 uncertain;onehyphen/twosemicolon bands unknowncounts. Completeprinted regressionoutput/table5rows20cells/15vectorvalues retained underprinted list3/list1caption;apparentmismatch not repaired/reassigned/recomputed. No printedbyline inferred fromcodecomment.",
-    "14 canonical entries remain unresolved. Parent0030 메아리 is non-owning after printedcontents/three-child review:seven pageassignments/seven unique bodypages140–146/all468 childfiles unchanged. Three sourcebanner/three sourceheading ranges remainexact;no parentbody/divider/duplicate childtext orindependent package.",
-    "All28 readablepackages/nine privateformats/30 corepins/36,235 priorfiles/47 inventories unchanged. Shared143 ampersand/keyboard18 nonfigurepairs disjoint and36keyboardfiles exact. Ten reused wholeviews/zero mapping/OCR/correction/export for classification;213-test baseline reused. Next0035recursiveBASIC actualextent/source restoration;parent0036 andothergroups remain separate. Cover,remainingentries,244-page accounting/fullissuecloseout pending."
+    "13 canonical entries remain unresolved. RecursiveBASIC0035 complete154–157/152–154,null finalfolio.67regions/51blocks/16originals;five examples/two listings retain148physical code rows/146labels/logicalrows/two unnumbered0) continuations.15separatorbands andonesmallmark unknownidentity/count;no programrepair/execution.",
+    "RecursiveBASIC two tables/fourparts/37rows/74cells/twoheaders,three towerlabels/three glossarybullets/ten captions/14quotedliterals includingfourO/0 candidates. Printed170 ～ 220 200,proposedCALL PROCEDURE syntax,INKEY$(1),타워게/임 andMS/X wraps retained. Final157 upperonly/lowerbookshop excluded;no printedbyline invented.",
+    "All229 selectedfiles match independent rebuild;everyactive UTF8range/sourcepin/67cropimages passes. All36,282 priorfiles/48inventories/28priorpackages/nineformats/30corepins unchanged;213-test baseline reused. Sevenviews(three reused/fournew),fourmapped/threeoutside;all67initial/sevenreplacementcrops before51tasks(nineeng/42kor+eng),allraws beforeonesourcepass. Next0037RAMcard extent/source restoration;parent0036/cover/remainingentries/244-page accounting/fullcloseout pending."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

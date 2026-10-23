@@ -6,33 +6,40 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 28 of 48 entries are readable and assistant
+March 1985 remains in progress: 29 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, six headings are non-owning, and
-14 entries remain unresolved. Parent0030 메아리 is now a non-owning organizational
-heading. Its three children are complete: assembler0031 on PDF140/visible138,
-ampersand0032 on PDF141–143/139–141, and MSX0033 on PDF144–146/142–144.
+13 entries remain unresolved. Entry0035 베이직 강좌 : 베이직에서 되부름이 가능하다!
+is complete on PDF154–157: visible152–154 and a null final folio. The final table
+and terminal occupy upper157; the lower bookshop advertisement is excluded.
+No body pages or article assembly remain pending for this entry.
 
-The printed contents page17 lists 메아리 without a page reference above those
-three children, followed by the separately ruled 기계어 강좌. All three articles
-carry the 메아리 banner and their own titles and credits. Ten reused whole views
-(17/18/140–147) and the complete child packages establish no independent parent
-body or divider. Parent owns no body pages, duplicates no child text, and needs
-no article export. The seven child page assignments retain their existing mixed-page
-exclusions; all468 child files are unchanged. The18 nonfigure ampersand/keyboard
-pairs on shared143 remain disjoint, and all36 keyboard files remain exact.
+The package retains67 regions,51 blocks and16 original images. Five examples
+and two tower listings preserve148 physical code rows,146 printed labels/logical
+rows andtwo unnumbered0) continuations. Fifteen decorative bands retain unknown
+glyph identities/counts; a small mark before될 is also explicit. Four quoted0/O
+candidates and encoded spacing remain unverified. Two tables/four parts retain
+37 rows,74 cells andtwo headers;three tower labels,three glossary bullets andten
+caption links remain source-bound. Printed170 ～ 220 200,proposed CALL PROCEDURE
+syntax,INKEY$(1),타워게/임 andMS/X wraps are literal. No independently printed
+article byline is invented. No syntax,recursion,math,hardware or encoding repair
+or execution was used.
 
-All36,235 prior files,47 inventories,28 readable packages,nine private formats
-and30 core pins pass. The unchanged fresh213-test batch43 baseline is reused.
-The current preservation inventory contains36,282 files. This classification
-used one canonical task,ten outside-map lookup pages,zero mapped pages andzero
-OCR tasks/source corrections/exports. Use the pinned batch41 dispatcher.
+All229 selected files match the independent rebuild. All5,937 active UTF-8
+ranges,5,691 evidence-pin occurrences and67 crop-image pixel comparisons pass.
+All36,282 prior files,48 inventories,28 prior packages,nine private formats and30
+core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
+The current preservation inventory contains37,287 files. Seven whole views
+(three reused/four new),four mapped pages/three outside lookups. All67 initial
+crops andseven pre-OCR replacements were inspected before51 tasks (nine eng/
+42 kor+eng);all51 raws before one source pass. One crop repair round retained
+both map revisions. No OCR failures/retries. Use the pinned batch41 dispatcher.
 
-Next: verify the actual full extent and restore0035
-베이직 강좌 : 베이직에서 되부름이 가능하다! TOC152 is a lookup cue; inspect
-PDF153–159 before mapping. Candidate154–157 before RAM-card158 is provisional.
-Preserve every physical code row,label,quoted literal,numeric/DATA field,table
-cell,diagram label,caption and original image without semantic repair or execution.
-Segment separately if the actual extent exceeds six mapped pages.
+Next: verify the actual full extent and restore0037 램카드 활용의 기초.
+InspectPDF157–163 first;candidate158–161 before graphics162 is provisional.
+Preserve all code,opaque hex/address fields,tables/cells,diagram labels/captions,
+soft-switch claims and original pixels literally. Verify the separate lower161
+cartoon boundary and retain its completed files. Technical parent0036 waits both
+children and a separate classification review.
 
 Cover selection,remaining entries,all244-page accounting and full issue closeout
 remain pending. Human acceptance,full proofreading,source bytes/spacing and
