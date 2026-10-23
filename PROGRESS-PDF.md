@@ -6,59 +6,62 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 37 of 48 entries are readable and assistant
-sample-reviewed, one is partial, eight headings are non-owning, and two remain
-unresolved. Puzzle0047, 퍼즐링 게임, has all seven body pages222–228 preserved
-in two immutable natives:179 opening files atbatch70-r01/puzzle-a and31 final
-files atbatch71-r01/puzzle-b. All210 native files match their independent rebuilds.
-The aggregate retains63 regions,43 text blocks and20 originals/visible220–226.
-No puzzle body pages remain pending;complete immutable assembly is next. The
-primary directory/coverage still describes the opening native;the ledger's
-native_segments_coverage records the full body. Availability stays partial until
-assembly validates. Complete low-score0046 and business0044 remain unchanged.
+March 1985 remains in progress: 38 of 48 entries are readable and assistant
+sample-reviewed, none are partial, eight headings are non-owning, and two remain
+unresolved. Puzzle0047, 퍼즐링 게임, is complete at
+`archive/pdf/1985-03/packages/batch-72-r01/puzzle-complete`. All219 files match
+the independent rebuild, including210 exact native files/full original metadata.
+All seven PDF pages222–228/visible220–226 retain63 regions,43 blocks and20
+original images. No puzzle body pages or assembly remain pending. Lower228
+canonical0015 컴퓨돌이/cartoon/prose/folio remains separate:all65 files unchanged,
+49 mapped-region pairs disjoint,no full-page228 asset. Other47 entries remain
+unchanged;complete low-score0046 and business0044 stay selected.
 
-Final228 retains107 literal hex rows/three columns,1,070 cells and856 opaque
-pair candidates,ending at AA88 and the terminal mark before independent coin229.
-Lower228 canonical0015 컴퓨돌이/cartoon/prose/folio remains separate:all65 files
-unchanged,49 current-vs-prior mapped-region pairs disjoint,no full-page228 asset.
-No new list2caption/byline invented;the final frame's caption context points to
-the opening native's printed caption. The crossnative hex context preserves
-A730→A738 source fragments without encoded text join or sequence validation.
+All88 array slices reverse exactly:87 categories present in their natives and
+one explicit empty slice for a category absent from the opening. Original absence
+remains in native_metadata. Eight reserved arrays and eleven objects also reverse
+exactly. All24,841 projected range occurrences,34,175 active UTF-8 ranges,57,770
+pin occurrences and63 images pass. Native IDs are unique;no aliases were needed.
+Declared evidence roots preserve final native_source_reference pins into the
+original opening package. Six exact stale stage notes were resolved only in
+active output;all original notes/metadata/projections remain unchanged.
 
-Combined list2 retains338 physical rows/nine columns,3,380 cells and2,704 byte
-field positions,including four unreadable byte fields/two damaged addresses from
-the opening. No address-sequence,checksum,opcode or bitmap reconstruction. Full
-BASIC209 labels/283 nonempty physical rows/74 wraps/two blank-baseline candidates/
-eight panels/1310 crosspanel entry remains exact in the opening. Its eight-row
-machine-code figure/64 pairs,three unnumbered commands,inline SCRN$ example,
-14 graphic DATA fields/50 music fields/57 commas,82 markers and all original
-graphic fields remain unchanged. Thirty-one combined local candidates retain
-scans.146 code quote glyph candidates/73 quoted fields/four blank fields/14 boxed
-keys/11 printed caption links/two inherited caption contexts stay source-linked.
-The two native list2 group records describe parts of one printed listing.
+Six complete listing groups retain18,783 listing bytes:one BASIC program with
+209 labels/209 logical entries/283 physical rows/74 wraps/two blank-baseline
+candidates/eight panels;one hex listing with338 rows/nine columns/3,380 cells/
+2,704 byte-field positions;one eight-row machine-code figure/64 pair candidates
+and three unnumbered commands. Four unreadable hex byte fields and two damaged
+addresses remain explicit. The inline SCRN$ example stays separate. Seven native
+group records include two parts of the one printed list2. No address-sequence,
+checksum,opcode,bitmap or encoding reconstruction;no execution.
 
-All5,392 final UTF-8 range occurrences,5,420 pin occurrences and seven crops pass.
-All59,811 prior files,70 inventories,30 core pins,37 readable plus one partial
-package and13 formats pass. Preservation inventory contains59,972 files.
-Four reused whole views227–230/one mapped page/three outside lookups/one task.
-All five exact text crops/three sheets/two originals were viewed before five
-pinned tasks(3eng/2kor+eng);all raws preceded one literal correction pass.
-No OCR failure/retry/crop repair/export or verifier failure. The unchanged213-test
-baseline68 is reused. Source glyph/blank-width/encoded-byte/claim limits remain.
+Fourteen graphic DATA fields/50 music fields/57 commas,82 markers,31 local
+candidates,146 code quote glyph candidates/73 quoted fields/four blank fields,
+14 boxed keys,11 printed caption links and two inherited caption contexts remain
+source-linked. Nine connections retain one prose/seven BASIC-panel/one crossnative
+hex context without encoded text joins. Caption printed only226;227/228 inherit
+context without reprinting. Native quote scopes are code-only. Original screen/
+custom glyphs/unknown blank widths/source discrepancies remain authoritative.
 
-Next: assemble complete puzzle222–228 from all210 exact native files/full raw
-metadata. Verify every array/reserved-list/object projection,range,pin and an
-independent complete rebuild before readable. Preserve declared evidence roots,
-especially final native_source_reference pins into the original opening package;
-do not blindly rebase them. Resolve only exact active stage deferral notes while
-retaining originals. Retain the existing13 formats/30 core pins in any new
-private dispatcher. Coin0048,parent0045,cover,all244-page accounting,standalone
-issue index/report,independent issue rebuild,fresh closeout213 tests and full
-requirements audit remain pending. Human acceptance,full proofreading,source
-encoded bytes/spacing/glyph counts,historical/technical claims and execution remain
-unverified. News/classified body transcription awaits volunteers. The batch52
-replacement-crop timing exception remains explicit. No semantic repair or reader
-rebuild.
+All59,972 prior files,71 inventories,30 core pins,37 prior readable articles and
+the prior partial package pass. The pinned batch72 dispatcher supports14 private
+formats,retaining all13 earlier formats. The unchanged213-test baseline68 is
+reused. Preservation inventory contains60,444 files. No new mapping,rendering,
+OCR or source correction was needed for assembly. No export or verifier failure.
+One read-only poll used a wrong handle;the actual rebuild confirmed exit0 with
+no restart. All source attempts,crops,raws,corrections and revisions remain.
+
+Next: verify0048 행운의 동전's full extent from known opening229/visible227
+and continuation230. Inspect every whole view228–235,reusing available renders,
+and verify its actual ending and independent classifieds opening before mapping
+at most six eligible pages. TOC227 is a lookup cue. Restore a complete native if its actual body fits the checkpoint limit.
+Use pinned `batch-72/assembly_dispatch.py` for all14 formats and retain30 core
+pins. Coin0048,parent0045,cover,all244-page accounting,standalone issue index/report,
+independent issue rebuild,fresh closeout213 tests and full requirements audit
+remain pending. Human acceptance,full proofreading,source encoded bytes/spacing/
+glyph counts,historical/technical claims and execution remain unverified. News/
+classified body transcription and custom-glyph label decoding await volunteers.
+The batch52 replacement-crop timing exception remains explicit. No reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
