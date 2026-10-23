@@ -6,50 +6,45 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 32 of 48 entries are readable and assistant
+March 1985 remains in progress: 33 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, seven headings are non-owning, and
-nine entries remain unresolved. Interpreter0039 is complete at
-`archive/pdf/1985-03/packages/batch-55-r01/interpreter`: all 282 files match the
-independent rebuild. Actual PDF170–174/visible168–172 ends above a separate
-two-book advertisement; contest review starts on175. Printed title
-SPC-1000의 / 엔트리 포인트 and byline 권 기 현 remain separate from the canonical
-title. Parent0036 테크니컬 remains non-owning;0039 remains top-level.
+eight entries remain unresolved. Contest review0041 is complete at
+`archive/pdf/1985-03/packages/batch-56-r01/contest-review`: all 71 files match
+the independent rebuild. Actual PDF175/visible173 ends with the award table
+and terminal, before Word Power opens on176. Printed title 개인용 컴퓨터는
+게임기인가? and running 공모총평 remain separate from canonical 공모 총평.
+No printed byline was inferred. Parent0040 공모입상 awaits all three children.
 
-The package retains 84 regions,63 searchable blocks and21 original images.
-Six BASIC panels contain89 physical rows,68 labels and21 continuation rows;
-the numeric-only1520 row remains a physical wrap. Four printed assembly rows
-and one unlabelled error-output row remain separate. The output table retains
-193 rows in six ordered parts,772 cell positions,731 nonempty cells,41 blanks
-and four headers printed once. All22 flowchart label/branch rows,13 caption
-links and three printed captions survive. Ten editorial markers retain unknown
-ink,decorative bands or boxed keys without inventing original glyph counts.
+The package retains 18 regions,15 searchable blocks and three original images:
+four prose paragraphs,14 award rows,56 nonempty cells,four printed headers,
+one caption,original table/grid,terminal and full page. Each cell links to its
+own column and row occurrence. Proper-name candidates,Cook er spacing,
+proseH.R.G.T versus tableH.R.G.T.,old spelling and printed count claims remain
+literal. No identity,name,title,platform,math or encoding repair or verification.
+Human acceptance,full proofreading,source bytes/spacing and historical claims
+remain unverified;original pixels remain authoritative.
 
-Printed OFF OFF,BRAEK,STATEMENT NOT INSTALL,1210 punctuation,2F69/2F68,
-PAI/FAC/SUM/STAT/PAR,three-digit450 and all blank fields remain literal.
-Faint CLEAR/ON and8/B candidates remain source-linked. Physical code/string/
-prose wraps and two page/column connections remain unjoined. No syntax,opcode,
-address,hardware,math or encoding repair or execution. Original pixels remain
-authoritative;human acceptance,full proofreading,source bytes/spacing and
-historical/technical claims remain unverified.
+Three reused whole views174–176,one mapped page,two outside lookups and one
+canonical task stay within bounds. Two pre-OCR repair rounds retain all three
+maps:four first boundary repairs,then two broad table regions replaced with
+eight column/header crops to follow the scan's tilt. All selected crops were
+inspected before15 kor+eng tasks;all15 raws preceded one source pass. No OCR
+failure,retry or engine change. All1,329 UTF-8 ranges,1,511 pin occurrences and
+18 crop images pass. All44,174 prior files,55 inventories,30 core pins,
+32 prior readable packages andten private formats pass. The fresh213-test
+batch55 baseline is reused. Inventory contains44,518 files. All other47
+canonical entries remain unchanged;only source-page observation175 changed.
+Batch52's replacement-crop timing exception remains retained for issue closeout.
 
-Eight whole views were inspected:169–176,three reused/five newly rendered.
-One canonical task,five mapped pages and three outside lookups stay within
-bounds. All84 initial crops and seven replacements were inspected before63
-pinned tasks:eight eng code/55 kor+eng. All63 raws preceded one source pass;
-zero OCR failures,retries or engine changes. All7,986 UTF-8 ranges,8,857 pin
-occurrences and84 crop images pass. All42,940 prior files,54 inventories,
-30 core pins,31 prior readable packages andten private formats pass. Fresh213
-PDF tests pass in the existing working `.venv`. Inventory contains44,174 files.
-All other47 canonical entries remain unchanged;only five interpreter source-page
-observations changed. Batch52's replacement-crop timing exception remains
-retained for issue closeout.
-
-Next: verify and restore0041 공모 총평. Inspect174–176,reusing all three views;
-candidate full review is175/173. Verify title,actual ending,14-row award table,
-headers and terminal before mapping. Keep printed 개인용 컴퓨터는 게임기인가?
-separate from the canonical title;do not infer a byline or repair names,program
-titles or platforms. Parent0040 공모입상 waits for all three complete children
-and a separate grouping review. Use pinned batch53 dispatcher for all ten formats.
+Next: verify the full extent of0042 워드 파워 and restore a bounded opening.
+InspectPDF175–197,reusing175–176. Candidate176–195 beforeSuperman196 is
+provisional;verify all intervening pages,actual ending,printed folios/title/
+byline,listings,screens,tables,flowcharts and captions before mapping. If the
+expected20-page extent is confirmed,map at most opening176–181 now and retain
+later segments for immutable assembly.23 views/six mapped leave17 outside
+lookups,within the20 cap. Preserve physical MBASIC rows,labels,wraps,strings,
+blank spaces,data fields and all original pixels. No syntax,algorithm,address,
+hardware,math or encoding repair or execution. Use pinned batch53 dispatcher.
 
 Cover selection,remaining entries,all244-page accounting,standalone issue index,
 report,independent issue rebuild,fresh closeout tests and requirements audit

@@ -3810,12 +3810,68 @@
       "toc_entry_id": "maso-1985-03-toc-0041",
       "title": "공모 총평",
       "parent_id": "maso-1985-03-toc-0040",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Threewholeviews174–176 inspected. Interpreterendsupper174/172aboveindependentbookadvertisement. Contestreviewopens175/173,endswith14-rowawardtableandterminalon175. WordPoweropensindependently176/174. Actualfullcontestreview175only;no globaloffset assumption.",
+        "Printedrunning공모총평 andlargelefttitle개인용 컴퓨터는 게임기인가 ? retainedseparatelyfromcanonical공모 총평. No printedbyline;do notinferTOC편집부.0041remainschildof0040;parentclassificationwaitsallthreechildrenandseparatereview.",
+        "Fourproseparagraphs/one14-rowfour-columnawardtable/printedcaptionandheaders/originalgrid/rules/terminal/fullpage retained. Preserve literalpropernames/programtitles/platforms/sourceclaimcounts/sourceoldspelling/physicalwraps;no identity/name/program/platform/math/grammar repair.",
+        "Onecanonicaltask/onemappedpage/twooutside174,176. All exactcrops requireinspection beforeOCR. No codebody/execution orreaderrebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-56-r01/contest-review",
+        "article_id": "scan-maso-1985-03-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-56-r01/contest-review/manifest.json",
+          "sha256": "9a1a8885fbbfaded9bf79dd9dfc748b1184122d051c533c2692d0ee96efc56b3",
+          "bytes": 11887
+        },
+        "coverage": {
+          "pdf_pages": [
+            175
+          ],
+          "printed_pages": [
+            "173"
+          ],
+          "regions": 18,
+          "blocks": 15,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-56/validation.json",
+          "sha256": "de5e7d4a5322156fe430e3bb64cf25e2deab9faba7a39813bbcd9f456d00acff",
+          "bytes": 2255
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-56/reproduction.json",
+          "sha256": "2974b2174d5632ef0692f12795ffff2eedbf31281e78e5cff9c7675406014168",
+          "bytes": 1735
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-56/source-reviewed.json",
+          "sha256": "240e2c50f70b773f00d7d84d96679f6eb52b16b10296444890c184a92be9927a",
+          "bytes": 1439
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-56-r01/contest-review/corrections.json",
+            "sha256": "576a7d7a3447614a5d65308f5fb8681a71b4766b5f594a5e77a8ecc929c2d6c3",
+            "bytes": 732444
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Complete175/173;printedtitle개인용 컴퓨터는 게임기인가? separatefromcanonical공모 총평. No printedbyline. Fourproseparagraphs/14awardrows/56nonemptyfields/fourheaders/onecaption/fullgrid/terminal/originalpage. Propernames/Cook er/letterspacing/oldspelling/countclaims remainliteralcandidates. No sourceidentity/name/title/platform/math/encodingrepair. Humanacceptance/sourcebytes/claims unverified."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-56/previous-ledger.json",
+        "sha256": "c9564f528758e2b76e0b4c501b8a8d0a87ef74c6bcb248a15a92feb1bb312d1e",
+        "bytes": 365677
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0042",
@@ -3897,10 +3953,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 32,
+    "readable": 33,
     "partial": 0,
     "non_owning_headings": 7,
-    "unresolved_eligibility": 9
+    "unresolved_eligibility": 8
   },
   "checkpoints": [
     {
@@ -6460,6 +6516,51 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-56",
+      "status": "complete",
+      "stage": "validated-complete-contest-review",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0041"
+      ],
+      "mapped_pdf_pages": [
+        175
+      ],
+      "outside_map_lookup_pages": [
+        174,
+        176
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 15,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 15,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 2,
+      "first_crops_changed": 4,
+      "retired_regions": 2,
+      "new_column_crops": 8,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-56/validation.json",
+        "sha256": "de5e7d4a5322156fe430e3bb64cf25e2deab9faba7a39813bbcd9f456d00acff",
+        "bytes": 2255
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-56/verification-completed.json",
+        "sha256": "bd97016a245c27fab3f0dd7ba2c143993d2ffefffc509ba21ec3b826e8094676",
+        "bytes": 1229
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-56-preserved-work.json",
+        "sha256": "f92286d5d7f6332c452b0462502b42c08ea3464dcea28c3d824e42131e6d926c",
+        "bytes": 9969489
+      },
+      "started_at": "2026-10-23T02:53:49.561323+00:00",
+      "finished_at": "2026-10-23T03:10:22.867837+00:00",
+      "timing_scope": "Wallclockincludeswaits/gaps/interruptions;activehumaneffortunmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -8715,6 +8816,21 @@
       "notes": "Interpreterendsupperpage/terminal;lowerindependentAPPLE/SPCbookadvertisementexcluded."
     },
     {
+      "pdf_page": 175,
+      "classification": "article-body",
+      "printed_page": "173",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0041"
+      ],
+      "restoration": "checked-complete-contest-review",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-56/source-reviewed.json",
+        "sha256": "240e2c50f70b773f00d7d84d96679f6eb52b16b10296444890c184a92be9927a",
+        "bytes": 1439
+      },
+      "notes": "Completecontestreviewfourparagraphs/14awardrows/headers/caption/originaltable/grid/terminal/fullpage. No continuationbeforeindependentWordPower176."
+    },
+    {
       "pdf_page": 204,
       "classification": "other-material-lookup-only",
       "printed_page": "202",
@@ -9037,16 +9153,36 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-56",
-    "goal": "Verify full extent and restore0041 공모 총평.",
+    "id": "batch-57",
+    "goal": "Verify full extent and restore a bounded opening of0042 워드 파워.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0041"
+      "maso-1985-03-toc-0042"
     ],
-    "mapping_targets": "TOC173 islookupcue,notglobaloffset. Initiallyinspect174–176,reusingallthreewholeviews;candidatefullcontestreview175/173 beforeWordPower176 observedin55,butverifyactualstart/end/printedtitle/table/terminalbeforemapping. Preserveprintedtitle개인용 컴퓨터는 게임기인가? separatelyfromcanonical공모 총평;no bylineinferred. Transcribeeveryproseparagraphand14entryawardtable/headers/captionliterally;no author/program/platform/value repair. Onecanonicaltask/max6mapped/20outside. Parent0040 공모입상waitsallthreechildren0041/0042/0043andseparategroupingreview. Usepinnedbatch53dispatcher/tenformats. Cover/remainingentries/244pageaccounting/fullcloseoutpending;batch52timingexceptionretained. No readerrebuild.",
+    "mapping_targets": "TOC174andnextSuperman194arelookupcues,notglobalPDFoffset. Initiallyinspect175–197wholeviews,reusing175–176;candidatefullWordPower176–195beforeSuperman196provisional. Verifyallinterveningpages/actualending/adjacenttitle/printedfolios/byline/listings/screens/tables/flowcharts/captions beforemapping. Expected20-pagearticlemustsegmentimmutableopeningatmost176–181sixpages;retainremainingpagesforlaternativesandcompleteassembly.23wholeviewswithsixmappedleave17outside,within20cap;adjustboundedmapifactualextentdiffers. PreserveallphysicalMBASICrows/labels/wraps/strings/blankspaces/datafields/screenlabels/diagramlabels/tablecells/headers/originals literally. No syntax/algorithm/address/math/hardware/encoding repair or execution. Onecanonicaltask/max6mapped/20outside. Parent0040awaitsallchildrenandseparategroupingreview. Usebatch53dispatcher/tenformats. Cover/remainingentries/244pageaccounting/fullcloseoutpending;batch52timingexceptionretained. No readerrebuild.",
     "provisional_lookup_targets": [
-      174,
       175,
-      176
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197
     ],
     "limits": {
       "articles": 2,
@@ -9116,9 +9252,10 @@
     "Graphics639selectedfiles match independentrebuild;70category occurrences/12objects/8,816projectedrange occurrences reverse exactly;9,608activeUTF8ranges/21,147pinoccurrences/178images pass. Seven tables56rows342logicalpositions/oneblank/16covered;310diagramfields/23captions/46coderows/36BASIClabels/19pairs retained. Eight exactstage notes resolved onlyinactivecomplete scope;allnative notes/flags/files preserved.",
     "Use pinned batch53 assembly_dispatch.py forallten March privateformats;allninepriorformats retained. Thirtycorepins unchanged;fresh213-testbatch43 baseline reused. No newmapping/render/OCR/sourcepass. All41,574priorfiles/52inventories/30priorreadable+onepartial exact.",
     "Graphics printedDIMRR(1),SCREEN1,1,2,1018,list3selected8/Bcandidate,ORG0/Ocandidate,proselist2/100 versuscode100GOTO90,17EDH/17E0H andmemorystrings remainliteral. Physical그려/지고 boundary linkedonce,noencodedwordjoin. No hardware/math/reference/code repair or execution. Batch52timingexception explicitlyretained forissuecloseout.",
-    "9 canonical entries remain unresolved. Interpreter0039 complete170–174/168–172 withsourceSPC-1000의 / 엔트리 포인트 and권 기 현;canonicaltitle/parentnull unchanged. Lower174bookadvertisementexcluded;endsbeforecontest175. No bodypages/assemblypending.",
     "Interpreter282filesmatchindependentrebuild;7,986UTF8ranges/8,857pinoccurrences/84croppixels exact.89physicalBASICrows/68labels/21wraps,4assemblyrows/oneoutputrow;193table rows/772positions/731nonemptycells/41blanks/4headers;22flowchartlabels/13links/3captions/10unknownmarkers.1510OFFOFF,1210punctuation,BRAEK,STATEMENTNOTINSTALL,2F69/2F68,PAI/FAC/SUM/STAT/PAR/450 andallblankfieldsliteral.8/B/faintink/encodedspacing unverified;no semanticrepair/execution.",
-    "Eightwholeviews(3reused/5new),fivemapped/threeoutside/onetask;84initialand7replacementcrops before63tasks(8eng/55kor+eng);allrawsbeforeonepass. All42,940priorfiles/54inventories/31priorpackages/tenformats/30corepins exact;fresh213PDFtestspass inexistingworking.venv. Next0041contestreivew;parent0040waitsallchildren. Cover/remainingentries/244-pageaccounting/standaloneindex/report/independentissuerebuild/freshcloseouttests/requirementsaudit pending. Batch52timingexception retained."
+    "8 canonical entries remain unresolved. Contestreview0041 complete175/173;source개인용 컴퓨터는 게임기인가? separatefromcanonical공모 총평;no printedbyline inferred.18regions/15blocks/3originals/fourproseparagraphs/14awardrows/56nonemptycells/fourheaders/onecaption/fullgrid/terminal/fullpage. Parent0040andcanonicalchildrelationshipunchanged;no bodypages/assemblypending.",
+    "Contestreview71filesmatchindependentrebuild;1,329UTF8ranges/1,511pinoccurrences/18croppixels exact. All44,174priorfiles/55inventories/32priorpackages/tenformats/30corepins exact;fresh213-testbatch55baseline reused. Threereusedviews/onemapped/twooutside/onetask;12initial/fourfirst/eightcolumncrops before15kor+engtasks,allraws beforeonepass. Two preOCRboundaryrepairsretainr01-r02-r03maps/retiredregions/diagnostic;no OCRfailure/retry/enginechange.",
+    "Contestpropernames이 용회/김 재협/김 영철/황 선민,Cook er/proseH.R.G.TversustableH.R.G.T.,source41/29/10/2/14claims,oldspellings/physicalwraps remainliteralcandidates. No identity/name/title/platform/count/encoding repair or verification. Next0042WordPowerextent/boundedopening:inspect175–197,candidate176–195provisional,max6mapped/20outside. Parent0040waitsallchildren. Cover/remainingentries/244pageaccounting/standaloneindex/report/independentissuerebuild/freshcloseouttests/requirementsaudit pending. Batch52timingexception retained."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
