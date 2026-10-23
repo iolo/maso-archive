@@ -7,44 +7,37 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 remains in progress: 28 of 48 entries are readable and assistant
-sample-reviewed, no articles are partial, five headings are non-owning, and
-15 entries remain unresolved. Entry0033 MSX 문자패턴 정의 is complete on
-PDF144–146/visible142–144; entry0034 기계어 강좌 : 난수·난수·난수 is complete
-on PDF151–153/149–151. Neither has deferred body pages or assembly pending.
+sample-reviewed, no articles are partial, six headings are non-owning, and
+14 entries remain unresolved. Parent0030 메아리 is now a non-owning organizational
+heading. Its three children are complete: assembler0031 on PDF140/visible138,
+ampersand0032 on PDF141–143/139–141, and MSX0033 on PDF144–146/142–144.
 
-The MSX package retains four BASIC examples/24 line labels/two DATA records
-with16 fields, five tables/52 rows/112 cells including two printed blank VRAM
-cells,21 diagram-label rows andnine caption links. Figure4's nine axis labels,
-six binary digits andlast68 versus listing4 DATA60 remain literal. A tiny mark
-in figure1 has an explicit unknown marker. Narrow first-glyph edge in the opening
-is supported by the complete original page; no recognition retry was needed.
+The printed contents page17 lists 메아리 without a page reference above those
+three children, followed by the separately ruled 기계어 강좌. All three articles
+carry the 메아리 banner and their own titles and credits. Ten reused whole views
+(17/18/140–147) and the complete child packages establish no independent parent
+body or divider. Parent owns no body pages, duplicates no child text, and needs
+no article export. The seven child page assignments retain their existing mixed-page
+exclusions; all468 child files are unchanged. The18 nonfigure ampersand/keyboard
+pairs on shared143 remain disjoint, and all36 keyboard files remain exact.
 
-Random retains54 printed6502 ordinals and58 Z80 ordinals, four unnumbered
-header/comment-wrap rows,63 object fields and113 opaque pairs. Filename final
-O/0 remains uncertain; one hyphen andtwo semicolon bands retain unknown counts.
-The complete printed regression-results panel andlist3/list1 execution caption
-remain together with their apparent mismatch explicit. Its five-row/20-cell
-residual table and15 vector values are literal, not recomputed. No printed author
-is inferred from the code comment. No syntax,opcode,byte,address,math,hardware,
-algorithm or encoding repair or execution.
+All36,235 prior files,47 inventories,28 readable packages,nine private formats
+and30 core pins pass. The unchanged fresh213-test batch43 baseline is reused.
+The current preservation inventory contains36,282 files. This classification
+used one canonical task,ten outside-map lookup pages,zero mapped pages andzero
+OCR tasks/source corrections/exports. Use the pinned batch41 dispatcher.
 
-All357 selected files match independent rebuilds. All9,630 active UTF-8
-ranges,9,664 evidence-pin occurrences and102 crop-image pixel comparisons pass.
-All34,728 prior files,46 inventories,26 prior packages,nine private formats and30
-core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
-Preservation inventory contains36,235 files. Twelve whole views,11 reused/one
-new; six mapped pages/six outside lookups. All102 initial crops andfour pre-OCR
-replacements inspected before79 tasks (nine eng/70 kor+eng);all79 raws before
-one source pass. One pre-OCR repair round widens four left edges;all original
-revisions remain. No OCR failures/retries. Use pinned batch41 dispatcher.
-No reader rebuild.
+Next: verify the actual full extent and restore0035
+베이직 강좌 : 베이직에서 되부름이 가능하다! TOC152 is a lookup cue; inspect
+PDF153–159 before mapping. Candidate154–157 before RAM-card158 is provisional.
+Preserve every physical code row,label,quoted literal,numeric/DATA field,table
+cell,diagram label,caption and original image without semantic repair or execution.
+Segment separately if the actual extent exceeds six mapped pages.
 
-Next: separately review andclassify parent0030 메아리 using contentsPDF17/18,
-actual140–147 boundaries andthe three complete child packages0031/0032/0033.
-Do not duplicate child bodies or infer independent parent text. Cover selection,
-remaining entries,all244-page accounting andfull issue closeout remain pending.
-Human acceptance,full proofreading,source bytes/spacing andhistorical/technical
-claims remain unverified;news/classified body transcription awaits volunteers.
+Cover selection,remaining entries,all244-page accounting and full issue closeout
+remain pending. Human acceptance,full proofreading,source bytes/spacing and
+historical/technical claims remain unverified;news/classified body transcription
+awaits volunteers. No reader rebuild.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

@@ -19,26 +19,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:28 readable/sample-reviewed,no partial articles,five non-owning
-  headings and15 unresolved. MSX0033 complete144–146/142–144;random0034 complete
-  151–153/149–151. Combined102 regions/79 blocks/23 originals/140 physical code
-  rows. MSX24 BASIC labels/two DATA records16 fields/five tables52 rows112 cells
-  (two printed blanks)/21 diagram-label rows/nine captions. Figure4 nine axis
-  labels/six binary digits/68 versus DATA60 remain literal;figure1 tiny mark unknown.
-  Random54 6502/58 Z80 ordinals/four unnumbered rows/63 object fields/113 opaque
-  pairs;filename finalO/0 andthree decorative bands remain uncertain. Complete
-  printed regression-output panel/list3-list1 caption mismatch retained;five rows/
-  20 cells/15 input values not recomputed. No printed byline inferred from comment.
-  All357 files match independent rebuilds;9,630 ranges/9,664 pins/102 crop
-  images pass. All34,728 prior files/46 inventories/26 prior packages/nine formats/
-  30 core pins unchanged;213-test baseline reused. Inventory36,235 files.
-  Twelve views (11 reused/one new),six mapped/six outside pages;all102 initial/
-  four replacement crops before79 tasks (nine eng/70 kor+eng);all raws before one
-  source pass. One pre-OCR repair round/four crops;opening glyph-edge fallback
-  uses complete original144. No OCR failures/retries/semantic repair/execution.
-  Next separate parent0030 메아리 review:contents17/18,boundaries140–147,complete
-  children0031/0032/0033. Cover,remaining entries/244-page accounting/closeout pending.
-  Human/source limits andvolunteer transcription remain explicit. Use pinned
+- March1985:28 readable/sample-reviewed,no partial articles,six non-owning
+  headings and14 unresolved. Parent0030 메아리 is non-owning after printed-contents
+  and three-child review. Assembler0031/ampersand0032/MSX0033 are complete across
+  seven unique PDF pages140–146 with their original mixed-page exclusions. All468
+  child files,three banner ranges andthree title ranges remain exact. Parent owns
+  no body pages or divider and has no independent export or duplicated child text.
+  All18 ampersand/keyboard nonfigure pairs on143 remain disjoint;36 keyboard files
+  unchanged. Ten reused views17/18/140–147,one task/zero mapping/OCR/correction/export.
+  All36,235 prior files/47 inventories/28 readable packages/nine private formats/
+  30 core pins unchanged;213-test baseline reused. Inventory36,282 files.
+  Next0035 베이직 강좌 : 베이직에서 되부름이 가능하다! Verify actual extent
+  from153–159 whole views before mapping;candidate154–157 provisional. Preserve
+  all physical code rows,labels,literals,DATA fields,tables/diagrams/captions and
+  original assets without semantic repair or execution. Segment if over six mapped
+  pages. Cover,remaining entries/244-page accounting/closeout remain pending.
+  Human/source limits and volunteer transcription remain explicit. Use pinned
   batch41 dispatcher. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
