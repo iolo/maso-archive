@@ -20,22 +20,22 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:26 readable/sample-reviewed,1 partial article,12 unresolved.
-  Batch49 restores 매직윈도우0038/박강수 middle222–227/220–225 at
-  `packages/magic-window-middle`:213files independentlyexact;66regions/43blocks/20originals.
-  Opening216–221 immutable;final228–229left and14pageassembly pending;229folio null.
-  ASCII128rows/512cells/16headers,24menuentries/25options,3file-selectionrows/6filefields,
-  13caption/image associations. Listings1–2 complete,listing3opening ends94FN→228left.
-  Sixcodepanels,136numberedentries/6immediatecommands/159coderows/272linefields,
-  72quotes/36strings,3codejoins/3prosejoins,517transcriptrows. Faint222inputjamo explicitly
-  unresolved withoriginal.49candidate notes/57occurrences,54markers;sourceerrors retained.
-  All6,474ranges/6,639pins/66images validate;8malformedfixtures reject. All57,685priorfiles,
-  48inventories/30corepins exact;213-testbaseline reused. Newinventory:58,622.
-  Ninewholeviews;6mapped/3outside/1task. Two preOCRrepairschange3crops;CRnote corrected
-  tosourceN.A. All66selectedcrops reviewedbefore46tasks(6eng/40kor+eng),allrawsreadbefore
-  onesourcepass. ZeroOCRfailures/retries/enginechanges;no crop-review timing exception.
-  Failedverifier IndexError retained;r01 fixesmatchoffsets only,source/exports unchanged.
-  Nextbatch50:228–229left,listing3tail/incoming94,listing4hex/checksums,endingart,
-  4.마침말/glossary;exclude229rightnotice.Then separate14pageassemblyfromimmutable natives.
+  Batch50 restores 매직윈도우0038/박강수 ending228–229left at
+  `packages/magic-window-ending`:53files independentlyexact;14regions/9blocks/4originals.
+  All14bodypages216–229left nowcovered inthreeimmutable natives;fullassemblypending.
+  229rightnoticeexcluded,folio null. Listing3incoming94 and96–118tail;listing4 has32hexrows,
+  256bytefields/32printedchecksums,withoutrecalculation. Fourglossaryentries and3lineexample.
+  Fourcodepanels/72rows,22BASICentries includingincoming94/21newlabels,15immediatecommands,
+  42linefields/8quotes/4strings,105transcriptrows,20candidate notes/28occurrences.
+  Source IN(HHEX)+1,1) correctsprovisionalboundarynotes only;middletranscriptstillendsFN.
+  Explicit supersession retained;prior222faintjamo unresolved. No execution/semanticrepair.
+  All2,344ranges/2,387pins/14images validate;8malformedfixturesreject. All58,622priorfiles,
+  49inventories/30corepins exact;213-testbaseline reused. Newinventory:58,860.
+  Fourwholeviews;2mapped/2outside/1task. All14crops reviewedbefore10tasks(4eng/6kor+eng),
+  allrawsreadbeforeonesourcepass. ZeroOCRfailures/retries/enginechanges/croprepairs;
+  no crop-review timing exception. Initialmap schemafailure retained;r01 fixesexclusionkind
+  beforeanymap/cropoutput. Nextbatch51:separate14pageassemblyfromthreeimmutable natives,
+  preservingallmetadata andjoining94withpinnedfragments;independentexactrebuild required.
   Partialarticle,12unresolvedidentities,cover,268-pageaccounting,index/report,independent
   issuerebuild andcloseout remain. Keepallsevenprivateadapters. Humanacceptance/fullproofreading,
   sourcebytes/spacing/claims/execution unverified. No readerrebuild.

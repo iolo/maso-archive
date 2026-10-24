@@ -25,61 +25,61 @@ records below are historical and do not authorize a new rebuild.
 ## October 1985 active, 2026-10-25
 
 October 1985 restoration continues under step 12: **26 readable/sample-reviewed
-entries, one partial article and 12 unresolved**, accounting for all 39 canonical
+entries, one partial article and 12 unresolved**, accounting for all39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch 49 restores the middle of **매직윈도우0038 / 박강수**, PDF222–227/printed220–225,
-at `archive/pdf/1985-10/packages/magic-window-middle`. All 213 files match an independent
-rebuild. Together with the immutable opening, PDF216–227 is restored in two native
-packages. Final228–229left and the separate14-page assembly remain pending.
-Page229's left column contains4.마침말 and a glossary; its right column is an independent
-manuscript notice. Page229 has no visible folio. PDF230 opens dBASEⅡ.
-Canonical title, author, order and parent relationships remain unchanged.
+Batch 50 restores the ending of **매직윈도우0038 / 박강수**, PDF228–229left,
+at `archive/pdf/1985-10/packages/magic-window-ending`. All53 files match an independent
+rebuild. The entire14-page body,PDF216–229left,is now covered across three immutable
+native packages. Full-article assembly remains pending. Page228 visibly carries226;
+page229 has no visible folio. Its independently framed right-column manuscript notice
+is excluded. PDF230 opens dBASEⅡ. Canonical identity and parent relationships are unchanged.
 
-The middle segment retains66 regions,43 corrected blocks and20 original images,
-including six full pages. The ASCII table has128 manually transcribed rows/512 cells
-in six source panels, with16 fields across two repeated header groups. Nine screen
-figures retain24 menu entries,25 options,three file-selection rows andsix file fields.
-Thirteen caption/image associations,three prose joins and the Hangul input/output
-associations preserve source context. A faint fragment of the input-example jamo
-remains explicitly unresolved with original pixels and an inspection enlargement.
+The ending retains14 regions, nine corrected blocks andfour original images: the
+ending illustration,glossary,full228 and229left. Listing3's incoming line94 fragment
+and remaining numbered96–118 entries retain their physical wraps. Its13 immediate
+commands remain separate from numbered lines. Listing4 has32 independently transcribed
+hex rows,256 opaque byte fields and32 printed checksum fields,plus CALL-151/FEB0G
+commands. No checksum was recalculated and no program was executed.
 
-Six code panels form three independent listing groups: listings1–2 are complete;
-listing3 begins here and line94 continues from227right to228left. The indexes retain
-136 numbered entries, six immediate commands,159 nonblank code rows,272 line fields,
-72 quote marks/36 strings andthree code joins. NEW and the unnumbered save commands
-remain separate from numbered lines. All517 nonblank transcript rows are indexed.
-Forty-nine candidate notes cover57 occurrences;54 markers preserve unknown leader,
-blank/tilde bands, cursor/box glyphs and the unresolved jamo fragment. Source DISASAMBLE,
-CONFIGRATION, FEET, PERFORMATION, PINT, CREAT and LHEK remain literal. No program was
-executed and no historical, software, hardware or mathematical claims were verified.
+The conclusion and four glossary entries retain the editor,indentation,overlay and
+wordprocessor definitions. The indentation example preserves labels10/20/30 and its
+association with the definition and original image. Across allfour code panels,
+the indexes retain72 nonblank rows,22 BASIC entries including incoming94,21 newly
+printed labels,15 immediate commands,42 BASIC line fields andeight quote marks/four
+strings. All105 nonblank transcript rows are indexed. Twenty candidate notes cover28
+occurrences,including Pleanse,Becanse,K$,89/86 and B/8-like hex glyphs.
 
-All 6,474 UTF8 range occurrences,6,639 evidence pins and66 images validate;
-179 same-page nonfigure pairs are disjoint. Eight malformed fixtures reject,
-including a repeated menu number linked to another screen, a wrong ASCII key cell,
-an immediate command attached to a numbered REM and a missing line94 continuation.
-All57,685 prior files,48 inventories and30 core pins remain exact; the unchanged
-213-test baseline is reused. New preservation inventory: 58,622 files.
+Direct source review establishes the first228 fragment as
+`IN(HHEX)+1,1)+MID$(JIN$,FN MO(HHEX)+1,1)`. This supersedes the provisional boundary
+notes that omitted the parenthesis afterHHEX; the frozen middle transcript ends atFN
+and remains unchanged. The earlier notes are preserved with an explicit supersession.
+The middle segment's faint222 input-jamo fragment remains explicitly unresolved.
 
-Nine reused whole views cover six mapped pages,three outside lookups andone canonical
-task. Two pre-OCR coverage repairs change three crops: the ASCII ESC closing bracket
-and adjacent panel edge, and figure10's YES values. The initial blank-CR mapping note
-is corrected to the source N.A. All66 selected crops were inspected before46 tasks
-(six eng code,40 kor+eng); all46 drafts were read before one source correction pass.
-Zero OCR failures, retries or engine changes. There is no crop-review timing exception.
-One verifier IndexError is retained; r01 fixes capture offsets without changing source
-transcripts or exports. Human acceptance/full proofreading,source bytes/spacing/glyph
-counts and source claims remain unverified. No reader was rebuilt.
+All 2,344 UTF8 range occurrences,2,387 evidence pins and14 images validate;
+21 same-page nonfigure pairs are disjoint. Eight malformed fixtures reject,
+including a repeated byte linked to the wrong occurrence,a checksum linked to another
+row,an incorrect incoming94 source range,a wrong glossary definition and a missing
+right-notice exclusion. All58,622 prior files,49 inventories and30 core pins remain
+exact; the unchanged213-test baseline is reused. New preservation inventory: 58,860 files.
 
-Next is **batch50: restore final PDF228–229left of 매직윈도우0038**, reusing227–230
-whole views. Preserve listing3's incoming line94 continuation and remaining code,
-immediate commands,listing4's hex/checksum rows,ending art,4.마침말 and glossary.
-Exclude229right's independent notice. Then assemble all14 pages separately from the
-immutable natives, retaining the unresolved222 jamo. The partial article,12 unresolved
-identities,cover,268-page accounting,standalone index/report,independent issue rebuild
-and closeout remain. Retain the batch44 Beautiful Text,batch41 Arong,batch36 PLAY,
-batch33 MSX corners,batch29 Prologue,batch24 numerical andbatch20 MSX private adapters.
-No reader rebuild.
+Four reused whole views cover two mapped pages,two outside lookups andone canonical
+task. All14 selected crops were inspected before10 tasks(four eng,six kor+eng);
+all10 drafts were read before one source correction pass. Zero OCR failures,retries,
+engine changes or crop repairs. There is no crop-review timing exception. The initial
+mapping script failed schema validation before writing maps/crops; r01 fixes only the
+exclusion category. All attempts remain preserved. Human acceptance/full proofreading,
+source bytes/spacing/glyph counts and technical claims remain unverified. No reader was rebuilt.
+
+Next is **batch51: assemble the complete14-page 매직윈도우 article** from the exact
+opening,middle andending natives. No newmapping/OCR. Preserve every native index,
+original image,source candidate and unresolved fragment; join listing3 line94 across
+227→228 using the pinned source fragments and retain the boundary-note supersession.
+Validate all combined UTF8 ranges and an independent byte-identical rebuild.
+The partial article,12 unresolved identities,cover,268-page accounting,standalone
+index/report,independent issue rebuild and closeout remain. Retain the batch44 Beautiful
+Text,batch41 Arong,batch36 PLAY,batch33 MSX corners,batch29 Prologue,batch24 numerical
+andbatch20 MSX private adapters. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
