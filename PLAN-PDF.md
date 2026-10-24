@@ -28,52 +28,48 @@ October 1985 restoration continues under step 12: **29 readable/sample-reviewed
 entries, one partial article and nine unresolved**, accounting for all 39 canonical
 identities. Earlier packages, identities and parent relationships remain unchanged.
 
-Batch54 restores the middle of **모킹보드를 이용한 &뮤직0002 / 오필홍**,
-PDF240–245/printed238–243, at `archive/pdf/1985-10/packages/mocking-music-b`.
-All 188 files match an independent rebuild. The immutable opening234–239 remains
-at `packages/mocking-music-a`. Together they cover12 of16 verified article pages,
-234–245;final246–249 and complete article assembly remain pending.
+Batch55 restores the final segment of **모킹보드를 이용한 &뮤직0002 / 오필홍**,
+PDF246–249/printed244–247, at `archive/pdf/1985-10/packages/mocking-music-c`.
+All 106 files match an independent rebuild. Together with immutable opening234–239
+and middle240–245, all16 verified body pages234–249 are now covered. Complete
+article assembly remains pending; the canonical article stays partial until then.
 
-The middle retains50 regions,43 source-corrected blocks andseven original images,
-including six complete pages. The complete hex dump retains296 physical rows,
-296 address fields,2,368 value fields and296 printed checksum fields. No checksum
-was recalculated. The source listing retains343 numbered entries:1,2,12–352;
-no rows3–11 were invented. Its417 physical rows,1,193 literal fields and358
-operand-value occurrences retain comment/data wraps and their own source ranges.
-Three command-fragment rows bring the total to716 physical code rows.
+The ending retains28 regions,23 source-corrected blocks andfive original images,
+including allfour full pages andthe related purchasing sidebar. Its682 physical
+assembly rows retain682 entries,2,056 literal fields and161 operand-value occurrences.
+Printed duplicate ordinals518 and578 remain separate occurrences;no renumbering.
+The label STA in578 STA DEC CNT remains a label. Missing$prefixes,MUSICGu/MUSICGO,
+.INDEX andVO90 remain literal candidates. Directcrop353 CPX END supersedes the
+provisional CPY boundary note; frozen prior maps/transcripts remain unchanged.
+Final1034 RTS andthe related sidebar establish the ending before independent ad250.
 
-Twenty-eight routine and42 work-area entries retain addresses and descriptions.
-Incoming239→240 prose,240→241 BSAVE fragments,two work-area column joins and
-17 listing-column/page joins remain explicit. Four music command forms,two command
-examples,30 command occurrences andtwo wrapped identifiers retain their source.
-All862 transcript rows and43 candidate occurrences from40 notes are source-linked.
-Printed $C889,모킹모드는,&MUSI/IC,line226 #00,the cutoff-looking line116 $0C and
-line351 PLUGI’ remain literal candidates. Opening diagram/music-glyph volunteer
-work and every earlier uncertainty remain preserved.
+Fourteen code-column/page joins,one incoming assembly boundary andone sidebar
+소프/트웨어 word continuation remain explicit. Five quoted strings/ten quote marks,
+two vendor records,one address,two phones,two telephone-pictogram Unicode candidates,
+one hyphenated identifier wrap andprice/quantity claims retain their own source.
+All708 transcript rows,2,135 token ranges and43 candidate occurrences from37 notes
+are source-linked. Allopening/middle uncertainties andmusic-glyph volunteer work remain.
 
-All 27,983 UTF8 range occurrences,28,132 evidence pins,50 crops and164 disjoint
-nonfigure pairs validate. Nine malformed cases reject,including a repeated zero
-linked to the wrong occurrence,missing hex/comment/work-area content and an
-unsupported checksum-verification claim. All64,147 prior files,53 inventories
-and30 core pins remain exact;the unchanged213-test baseline is reused.
-New preservation inventory: 64,978 files.
+All 14,719 UTF8 range occurrences,14,806 evidence pins,28 crops and62 disjoint
+nonfigure pairs validate. Nine malformed cases reject,including repeated518/578
+linked to the wrong occurrence,missing finalRTS,missing secondphone andwrong sidebar
+continuation. All64,978 prior files,54 inventories and30 core pins remain exact;
+the unchanged213-test baseline is reused. New preservation inventory: 65,457 files.
 
-Eight whole views239–246 were reused byte for byte. One task covers six mapped
-pages andtwo outside lookups. All50 selected crops were reviewed before43 Tesseract
-tasks(22 eng code,21 kor+eng);all raw drafts were read before one source correction
-pass. Four pre-OCR boundary repairs changed six crops;replacements were separately
-reviewed and44 unchanged crops remained exact. All initial maps/crops andthree
-boundary-study images remain preserved. Zero OCR failures,retries orengine changes.
-Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims and
-execution remain unverified. No reader was rebuilt.
+Six whole views245–250 were reused byte for byte. One task covers four mapped
+pages andtwo outside lookups. All28 selected crops were reviewed before23 Tesseract
+tasks(15 eng code,8 kor+eng);all raw drafts were read before one source correction
+pass. Two pre-OCR boundary repairs changed three crops;replacements were separately
+reviewed and25 unchanged crops remained exact. All initial maps/crops remain preserved.
+Zero OCR failures,retries orengine changes. Human acceptance/full proofreading,
+source bytes/spacing/glyph counts,claims andexecution remain unverified. No reader rebuilt.
 
-Next is **batch55: restore final246–249/printed244–247 of 모킹보드&뮤직0002**.
-Reuse the reviewed whole views;check line352 SV3 INX→353 CPY END,then restore
-through249line1034 RTS andthe related purchasing sidebar.250 is an independent
-advertisement. Full immutable16-page assembly follows separately. Nine unresolved
-identities,cover,268-page accounting,standalone index/report,independent issue
-rebuild andcloseout remain. Preserve all eight private assembly adapters.
-No semantic/hardware repair,checksum recomputation,code execution orreader rebuild.
+Next is **batch56: assemble the complete16-page 모킹보드&뮤직0002 article** from
+its three immutable packages,without newmapping orOCR. Project every native range
+andlocal index,retain allsource candidates andresolve only superseded stage deferrals.
+Preserve all eight existing private assembly adapters. Nine unresolved identities,
+cover,268-page accounting,standalone index/report,independent issue rebuild andcloseout
+remain. No semantic/hardware repair,checksum recomputation,code execution orreader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

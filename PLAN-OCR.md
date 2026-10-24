@@ -20,26 +20,25 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:29 readable/sample-reviewed,1 partial,9 unresolved.
-  Batch54 restores 모킹보드&뮤직0002 middle240–245 at `packages/mocking-music-b`:
-  188files independently exact;opening234–239 immutable,final246–249/fullassembly pending.
-  50regions/43blocks/7originals,862transcriptrows/43candidateoccurrences/40notes.
-  Completehexlisting296rows/2960fields retainsprintedchecksums;no recalculation.
-  Assembly343entries(1,2,12–352),417physicalrows/1193fields/358operandvalues;no invented3–11.
-  Fourcodegroups/716physicalrows,28routine/42workarea entries,oneincomingprosejoin,
-  twoworkareajoins/18codejoins,fourmusicforms/twocommandexamples/30commandoccurrences.
-  SourceC889,모킹모드는,&MUSI/IC,226#00,116cutoff-looking0C and351PLUGI’ remaincandidates.
-  Openingmusicglyph/diagramvolunteerwork andallprioruncertainties retained.
-  All27,983ranges/28,132pins/50crops/164disjointpairs pass;ninemalformedcases reject.
-  All64,147priorfiles/53inventories/30corepins exact;213-testbaseline reused.
-  Newinventory:64,978. Eightwholeviews allreused;sixmapped/twooutside/onetask.
-  All50crops before43OCRtasks(22eng/21kor+eng),allraws beforeonesourcepass.
-  Fourboundaryrepairs/sixchangedcrops separatelyreviewed;44unchangedexact.
-  Allinitialmaps/crops andthreeboundarystudies preserved;zeroOCRfailures/retries.
-  Nextbatch55:final246–249 through1034RTS andpurchasingsidebar,thenfullassembly.
+  Batch55 restores 모킹보드&뮤직0002 final246–249 at `packages/mocking-music-c`:
+  106files independently exact;all16bodypages234–249 covered inthreeimmutablenatives,
+  fullassembly pending.28regions/23blocks/5originals;708transcriptrows/2135tokens.
+  Final682assemblyentries/2056fields/161operandvalues preserveprintedduplicate518/578,
+  STA label,missing$prefixes,MUSICGu/MUSICGO,.INDEX andVO90. Direct353CPX supersedes
+  provisionalCPY boundarynote;frozenpriorfiles unchanged. Final1034RTS/sidebar verified.
+  Fourteencodejoins/oneincomingassembly/onesidebarwordjoin;fivequotedstrings/tenmarks,
+  twovendors/oneaddress/twophones/two☎Unicodecandidates;43candidateoccurrences/37notes.
+  Allopening/middleuncertainties andmusicglyphvolunteerwork retained.
+  All14,719ranges/14,806pins/28crops/62disjointpairs pass;ninemalformedcases reject.
+  All64,978priorfiles/54inventories/30corepins exact;213-testbaseline reused.
+  Newinventory:65,457. Sixwholeviews reused;fourmapped/twooutside/onetask.
+  All28crops before23OCRtasks(15eng/8kor+eng),allraws beforeonesourcepass.
+  Twoboundaryrepairs/threechangedcrops separatelyreviewed;25unchangedexact.
+  Allinitialmaps/crops retained;zeroOCRfailures/retries. Nextbatch56:full16-pageassembly
+  fromthreeimmutablepackages,withoutnewmapping/OCR. Preservealleightexistingadapters.
   Nineunresolvedidentities,cover,268-pageaccounting,index/report,independentissuerebuild
-  andcloseout remain. Preservealleightprivateadapters. Humanacceptance/fullproofreading,
-  sourcebytes/spacing/glyphcounts/claims/execution unverified. No semantic/hardware repair,
-  checksumrecomputation orreaderrebuild.
+  andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/glyphcounts,
+  claims/execution unverified. No semantic/hardware repair,checksumrecomputation orreaderrebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
