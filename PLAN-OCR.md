@@ -19,21 +19,20 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: thirteen of 39 entries are readable/sample-reviewed.
-  Latest: 테이프용 MLE by 박성준, printed 69–71 / PDF 71–73 upper; lower independent
-  advertisement excluded. Its 76 files independently match and retain 56 BASIC
-  labels / 57 fragments / 110 physical rows, six DATA fields, ten routine entries,
-  five joins and three originals. Embedded monitor string: four addresses, 29 byte
-  fields and four commands; physical wraps and printed errors remain literal.
-  All 19 crops reviewed before 16 tasks (four eng, twelve kor+eng); all drafts read
-  before one source pass. Zero OCR failures, retries or crop repairs. All 1,509
-  ranges / 1,564 pins validate; all 7,410 earlier files / 30 core pins remain exact.
-  Fresh 213-test batch 01 baseline reused. All thirteen selected packages match
-  independent rebuilds; 26 identities, cover/accounting/closeout remain.
-  Next batch 14: canonical0001, 특집 : MSX의 모든 것 by 심규석, printed 73 / PDF 75.
-  Reuse saved PDF 74–77, verify full extent/adjacent page, and segment after at most
-  six mapped opening pages. Full extent remains unverified. [October log](docs/progress/8510.md),
-  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+- October 1985 is active: thirteen readable/sample-reviewed entries, one partial
+  and 25 unresolved. MSX opening printed 73–78 / PDF75–80 is partial at `packages/msx-a`;
+  all 185 files independently match. It retains 24 BASIC rows / 39 DATA fields,
+  88 dump rows / 882 byte fields, 106 table body cells / 23 headers, eight joins,
+  two source markers and twelve originals. Diagram labels await volunteers.
+  All 53 exact crops reviewed before 41 tasks (six eng, 35 kor+eng); all drafts read
+  before one source pass. Zero OCR failures, retries or crop repairs. All 5,228
+  ranges / 5,370 pins validate; all 7,739 prior files / 30 core pins remain exact.
+  Fresh 213-test batch 01 baseline reused. Full MSX assembly remains pending.
+  Ending104/PDF106 is verified across advertisement105;107 is an advertisement,
+  108 starts 수치해석 (4). Interior82–103 is uninspected, so full body continuity
+  remains unverified. Next batch 15: inspect and map at most PDF81–86, adjacent80/87;
+  reuse80–81 and preserve msx-a. Remaining identities, cover/accounting/closeout remain.
+  [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

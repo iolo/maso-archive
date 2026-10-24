@@ -24,12 +24,175 @@
       "toc_entry_id": "maso-1985-10-toc-0001",
       "title": "특집 : MSX의 모든 것",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0001 特集/MSX feature source heading 특집.MSX의 모든것/byline심규석 opens printed73/PDF75 after book advertisementPDF74. Canonical title/order/parent unchanged.",
+        "Ending printed104/PDF106 explicitly concludes protection discussion;previousPDF104 continues to106 across independent TOPIA advertisementPDF105. PDF107 is separate TOPIA advertisement;PDF108 starts canonical0003 수치해석(4). Endpoints verified,not proof of uninspected interior continuity.",
+        "Current six-page segment printed73–78/PDF75–80 covers opening,boot process,two-page flowchart,disk formats,practice/sample BASIC and machine dump,boot-sector output and analysis.",
+        "Next PDF81/printed79 starts (3)FAT;no unfinished prose sentence crosses80→81. Remaining span81–106 requires later coverage/classification;known105 advertisement excluded. Pages82–103 not yet inspected.",
+        "Six mapped pages,seven outside-map lookups74/81/104/105/106/107/108,one canonical task. Full article assembly required after remaining segments."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/msx-a",
+        "article_id": "scan-maso-1985-10-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/msx-a/manifest.json",
+          "sha256": "d1fd1626926a049f00411b927010e4575262e5f9041555d8f6850966d87a2425",
+          "bytes": 30823
+        },
+        "coverage": {
+          "pdf_pages": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "printed_pages": [
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78"
+          ],
+          "regions": 53,
+          "blocks": 33,
+          "figures": 12,
+          "provisional_full_pdf_pages": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            106
+          ],
+          "deferred_pdf_pages": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            106
+          ],
+          "full_extent_status": "Endpoints75/106 verified;interior coverage not fully verified. Listed span is provisional body candidates excluding known105 advertisement.",
+          "uninspected_interior_pdf_pages": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "known_interleaved_advertisement_pdf_pages": [
+            105
+          ]
+        },
+        "segments": [
+          {
+            "id": "msx-a",
+            "directory": "archive/pdf/1985-10/packages/msx-a",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/msx-a/manifest.json",
+              "sha256": "d1fd1626926a049f00411b927010e4575262e5f9041555d8f6850966d87a2425",
+              "bytes": 30823
+            },
+            "pdf_pages": [
+              75,
+              76,
+              77,
+              78,
+              79,
+              80
+            ],
+            "printed_pages": [
+              "73",
+              "74",
+              "75",
+              "76",
+              "77",
+              "78"
+            ],
+            "availability": "partial"
+          }
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-14/validation.json",
+          "sha256": "11d07863e58aa8decf1050680f3cfe84c93e7728cd52f59092b38a7d5c7496ce",
+          "bytes": 2076
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-14/reproduction.json",
+          "sha256": "4b0e987064bd0fafeaeb2b50414e21ead0d3462826df31d280ebb9dbd82b9825",
+          "bytes": 1241
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0002",
@@ -1003,9 +1166,9 @@
   "totals": {
     "canonical_entries": 39,
     "readable": 13,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 26
+    "unresolved_eligibility": 25
   },
   "checkpoints": [
     {
@@ -1539,6 +1702,83 @@
       "started_at": "2026-10-24T07:04:46.601032+00:00",
       "finished_at": "2026-10-24T07:15:36.979347+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-14",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "mapped_pdf_pages": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "outside_map_lookup_pages": [
+        74,
+        81,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 41,
+      "eng_code_tasks": 6,
+      "kor_eng_tasks": 35,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-14/validation.json",
+        "sha256": "11d07863e58aa8decf1050680f3cfe84c93e7728cd52f59092b38a7d5c7496ce",
+        "bytes": 2076
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-14/verification-completed.json",
+        "sha256": "53943806fdb6668dd31348a06fdfb9214a3abf92df434d1ea559cfcf80fc4989",
+        "bytes": 725
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-14-preserved-work.json",
+        "sha256": "0533d5cd44b77505f4956039d35b1e5a544082378ca9e3bccd7d0f15759683aa",
+        "bytes": 1850390
+      },
+      "started_at": "2026-10-24T07:17:40.653198+00:00",
+      "finished_at": "2026-10-24T07:30:59.213968+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        106
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -2025,52 +2265,137 @@
     {
       "pdf_page": 75,
       "printed_page": "73",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "not-started",
-      "evidence": "Independent 특집.MSX의 모든것 opening;source 심규석. Full extent still to verify."
+      "restoration": "opening-native-complete;article-partial",
+      "evidence": "Feature opening,title/byline/affiliation and complete introduction."
     },
     {
       "pdf_page": 76,
       "printed_page": "74",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "not-started",
-      "evidence": "MSX feature disk-system continuation;outside-map lookup only."
+      "restoration": "opening-native-complete;article-partial",
+      "evidence": "Disk-system title,boot-process prose,table1caption and first flowchart part."
     },
     {
       "pdf_page": 77,
       "printed_page": "75",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "opening-native-complete;article-partial",
+      "evidence": "Second flowchart part,format introduction,table2both parts and prose."
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": "76",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "opening-native-complete;article-partial",
+      "evidence": "Format ending,table3layout diagram,sample creation,24-line BASIC and24-row machine dump."
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": "77",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "opening-native-complete;article-partial",
+      "evidence": "Sample creation continuation,FILES output,boot-sector introduction and64-row display."
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": "78",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "opening-native-complete;article-partial",
+      "evidence": "Boot-sector analysis,table5and annotated table6original;next81 starts FAT."
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": "79",
       "classification": "article-continuation-observed",
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
+      "restoration": "pending",
+      "evidence": "Starts (3)FAT;no outgoing sentence from80. Full original retained for next segment."
+    },
+    {
+      "pdf_page": 104,
+      "printed_page": "102",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "pending",
+      "evidence": "Protection discussion continues into106 across advertisement105."
+    },
+    {
+      "pdf_page": 105,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Independent TOPIA ROM PACK membership advertisement;not MSX article body."
+    },
+    {
+      "pdf_page": 106,
+      "printed_page": "104",
+      "classification": "article-ending-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "pending",
+      "evidence": "Concludes protection discussion after listings25/26;ends before107advertisement. Endpoints do not prove uninspected82–103continuity."
+    },
+    {
+      "pdf_page": 107,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Independent TOPIA ROM writer advertisement."
+    },
+    {
+      "pdf_page": 108,
+      "printed_page": "106",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
       "restoration": "not-started",
-      "evidence": "MSX feature disk-system continuation;outside-map lookup only."
+      "evidence": "Distinct 수치해석(4) by박재현 opening;not restored this checkpoint."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-14",
-    "goal": "Verify actual extent and restore opening of canonical0001 특집 : MSX의 모든 것 by심규석 from printed73/PDF75.",
+    "id": "batch-15",
+    "goal": "Restore next MSX feature segment from printed79/PDF81;preserve opening msx-a native.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0001"
     ],
-    "mapping_targets": "Reuse savedPDF74–77;verify actual article scope and adjacent page. Map at most six pages in opening segment and defer remaining pages explicitly;do not infer full extent from TOC order.",
+    "mapping_targets": "Inspect and map at most PDF81–86,with adjacent80/87. Reuse saved80–81. Verify actual interior continuity/classification;remaining span to106 may contain other advertisements. Known105 advertisement excluded. Full assembly after remaining segments.",
     "provisional_lookup_targets": [
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
       80,
       81,
-      82
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
     ],
     "limits": {
       "articles": 2,
@@ -2082,7 +2407,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining26 identities and remaining source-page accounting require restoration/classification;no global page offset inferred."
+    "MSX is partial:openingPDF75–80 restored;remaining81–106 span excluding known105 advertisement and complete assembly pending. Interior82–103 still uninspected. Another25 identities,cover selection,remaining source-page accounting and closeout remain;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
