@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1985-10",
   "status": "in-progress",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "source": {
     "path": "maso-pdf/maso-8510.pdf",
     "sha256": "71f5f8519efae702b5c7ae6ca32308e148e0530b51db584c7331c1ea2a1e75f9",
@@ -1063,15 +1063,16 @@
         "134–139 continuegrammar/I/O/builtinpredicates andstartprogramexamples;140–141 continueexamples thenPROLOG-1usage;142–144 editor/interrupt/limits/applicationconclusion;144–145bibliography endsupper145. Nofullinterleavedadvertisement.",
         "Lower145independent우신기술서적advertisement must beexcludedwhenfinalsegmentmapped.146printed144opensindependentMSX의구석구석 by신동윤,147continuesitsmemory/slotarticle;noadditionalProloguebody.",
         "Completearticle18bodypages128–145,notallrestoredthischeckpoint. Mapopening128–133;defer134–139and140–145,thenimmutableassembly. Full21viewsretainedforreuse;15outside-maplookupspass20limit.",
-        "Middle134–139 restored as immutable partial native. Twelve pages128–139 now available in two natives;final140–145 and complete18-page assembly pending. Incoming133받아들여/134질 and outgoing factorial139/140 explicitly indexed."
+        "Middle134–139 restored as immutable partial native. Twelve pages128–139 now available in two natives;final140–145 and complete18-page assembly pending. Incoming133받아들여/134질 and outgoing factorial139/140 explicitly indexed.",
+        "Final140–145 restored as immutable partial native. All18pages128–145 now available inthree natives;completearticleassembly pending. Lower145independent advertisement excluded. Incomingfactorial139/140 remains explicitlyanchored topreviousnative."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/prologue-b",
+        "directory": "archive/pdf/1985-10/packages/prologue-c",
         "article_id": "scan-maso-1985-10-toc-0014",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/prologue-b/manifest.json",
-          "sha256": "55989f1c656e6fd788d2c6e41f0d2e7aafdde511a9881329f9b6bab4c44e83d7",
-          "bytes": 60322
+          "path": "archive/pdf/1985-10/packages/prologue-c/manifest.json",
+          "sha256": "aa89c7a9b403ffbb6ed6696f8e7628a7a68fad94a191f6dcf162cefabe9a4ac8",
+          "bytes": 80048
         },
         "coverage": {
           "pdf_pages": [
@@ -1086,7 +1087,13 @@
             136,
             137,
             138,
-            139
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145
           ],
           "printed_pages": [
             "126",
@@ -1100,20 +1107,19 @@
             "134",
             "135",
             "136",
-            "137"
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143"
           ],
-          "regions": 214,
-          "blocks": 183,
-          "figures": 22,
-          "coverage_scope": "Cumulative coverage of two immutable natives;directory/manifest select latest middle segment only. Full article assembly pending.",
-          "deferred_pdf_pages": [
-            140,
-            141,
-            142,
-            143,
-            144,
-            145
-          ],
+          "regions": 335,
+          "blocks": 262,
+          "figures": 30,
+          "coverage_scope": "Cumulative coverage ofthree immutable natives;directory/manifest select latest final segmentonly. Full article assembly pending.",
+          "deferred_pdf_pages": [],
           "actual_full_pdf_pages": [
             128,
             129,
@@ -1133,19 +1139,20 @@
             143,
             144,
             145
-          ]
+          ],
+          "body_pages_complete": true
         },
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-27/validation.json",
-          "sha256": "440681152436d9de25eacbc7ca29d0321527de6e9980cb96f5843fb081dc9fe9",
-          "bytes": 2560
+          "path": "archive/pdf/1985-10/restoration/batch-28/validation.json",
+          "sha256": "7ca86f574d1a722e9711ca269039e6197e58d29d158fe9e02c778764d2df2498",
+          "bytes": 2706
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-27/reproduction.json",
-          "sha256": "11365beb849187ba60663c2f3dd596b503840e4ec2dbcf70063ce6dce82d24b4",
-          "bytes": 1375
+          "path": "archive/pdf/1985-10/restoration/batch-28/reproduction.json",
+          "sha256": "65038ac290ea9aa9c7496360b018aff5ca3dcfa7251562eb283cd58454c04dfe",
+          "bytes": 1415
         },
         "segments": [
           {
@@ -1197,6 +1204,32 @@
               "135",
               "136",
               "137"
+            ],
+            "availability": "partial"
+          },
+          {
+            "id": "prologue-c",
+            "directory": "archive/pdf/1985-10/packages/prologue-c",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/prologue-c/manifest.json",
+              "sha256": "aa89c7a9b403ffbb6ed6696f8e7628a7a68fad94a191f6dcf162cefabe9a4ac8",
+              "bytes": 80048
+            },
+            "pdf_pages": [
+              140,
+              141,
+              142,
+              143,
+              144,
+              145
+            ],
+            "printed_pages": [
+              "138",
+              "139",
+              "140",
+              "141",
+              "142",
+              "143"
             ],
             "availability": "partial"
           }
@@ -3031,6 +3064,53 @@
         145
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-28",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0014"
+      ],
+      "mapped_pdf_pages": [
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "outside_map_lookup_pages": [
+        139,
+        146
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 113,
+      "eng_code_tasks": 35,
+      "kor_eng_tasks": 78,
+      "source_correction_passes": 1,
+      "crop_repairs": 11,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-28/validation.json",
+        "sha256": "7ca86f574d1a722e9711ca269039e6197e58d29d158fe9e02c778764d2df2498",
+        "bytes": 2706
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-28/verification-completed.json",
+        "sha256": "2903df98a6a4aecb5b282a2dbd0e21a5f3a8c3410aca952a3761f3223283d1af",
+        "bytes": 1852
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-28-preserved-work.json",
+        "sha256": "572685157ca8ba5d12183f0fa1d8e0b4186d931c598d21f5204dc9fd8c3f7ec0",
+        "bytes": 7046925
+      },
+      "started_at": "2026-10-24T14:56:39.031965+00:00",
+      "finished_at": "2026-10-24T15:24:04.248920+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -4207,64 +4287,69 @@
     {
       "pdf_page": 140,
       "printed_page": "138",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0014"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review only;actualPrologue continuation128–145."
+      "restoration": "complete-segment",
+      "evidence": "Final Prologue native140–145 validated;prior128–139 unchanged;all18 bodypages available,complete assembly pending."
     },
     {
       "pdf_page": 141,
       "printed_page": "139",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0014"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review only;actualPrologue continuation128–145."
+      "restoration": "complete-segment",
+      "evidence": "Final Prologue native140–145 validated;prior128–139 unchanged;all18 bodypages available,complete assembly pending."
     },
     {
       "pdf_page": 142,
       "printed_page": "140",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0014"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review only;actualPrologue continuation128–145."
+      "restoration": "complete-segment",
+      "evidence": "Final Prologue native140–145 validated;prior128–139 unchanged;all18 bodypages available,complete assembly pending."
     },
     {
       "pdf_page": 143,
       "printed_page": "141",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0014"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review only;actualPrologue continuation128–145."
+      "restoration": "complete-segment",
+      "evidence": "Final Prologue native140–145 validated;prior128–139 unchanged;all18 bodypages available,complete assembly pending."
     },
     {
       "pdf_page": 144,
       "printed_page": "142",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0014"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review only;actualPrologue continuation128–145."
+      "restoration": "complete-segment",
+      "evidence": "Final Prologue native140–145 validated;prior128–139 unchanged;all18 bodypages available,complete assembly pending."
     },
     {
       "pdf_page": 145,
       "printed_page": "143",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0014"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review only;actualPrologue continuation128–145.",
+      "restoration": "complete-segment",
+      "evidence": "Final Prologue native140–145 validated;prior128–139 unchanged;all18 bodypages available,complete assembly pending.",
       "mixed_page": true,
-      "excluded_material": "Lower independent 우신기술서적 advertisement;upper bibliography belongs to Prologue. Final segment must map exclusion."
+      "excluded_material": "Lower independent 우신기술서적 advertisement excluded bynative map p145-lower-ad;upper bibliography belongs toPrologue.",
+      "exclusion_evidence": {
+        "path": "archive/pdf/1985-10/packages/prologue-c/map.json",
+        "sha256": "6dff63a54c0700b2ec6aeaad729db26afbd8517ff2cfc5b76a736207f4c1d20f",
+        "bytes": 48346
+      }
     },
     {
       "pdf_page": 146,
@@ -4289,16 +4374,13 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-28",
-    "goal": "Restore final six pages140–145 ofcanonical0014 고급언어 : 프롤로그 by정덕기.",
+    "id": "batch-29",
+    "goal": "Assemble complete18-page canonical0014 고급언어 : 프롤로그 by정덕기 fromthree immutable natives.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0014"
     ],
-    "mapping_targets": "Reuse saved batch26 views. Map140–145 after direct review;incoming factorial139fact(0,1) clause continues140fact(X,Y). Preserve examples,PROLOG-1 usage,editor,limitations,conclusion andbibliography. Exclude lower145independent advertisement. Then immutable18-pageassembly;retain both prior natives.",
-    "provisional_lookup_targets": [
-      139,
-      146
-    ],
+    "mapping_targets": "No newmapping/OCR. Preserve prologue-a128–133,prologue-b134–139,prologue-c140–145 andallnative metadata. Join받아들여/질 andfactorial139/140 exactlyonce;retain lower145adexclusion,allranges/codegroups/annotations/definitions/grammar/bibliography. Independently rebuild andvalidate completearticle,then nextcanonical0016MSX구석구석 fromPDF146.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -4309,7 +4391,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Prologue0014partial128–139ofactual128–145 in two immutable natives;final140–145 andcompleteassemblypending. ABC,numericalanalysis,MSXcompleteunchanged. Remaining22unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
+    "Prologue0014all18bodypages128–145restored inthreeimmutable natives;completeassemblypending,soavailabilityremainspartial. ABC,numericalanalysis,MSXcompleteunchanged. Remaining22unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
   ],
   "reader_rebuild": false
 }

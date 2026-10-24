@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-24. Read this before future PDF restoration. This is the current
+Updated 2026-10-25. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -20,23 +20,23 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:16 readable/sample-reviewed,one partial,22 unresolved.
-  Batch27 restores middle Prologue0014 PDF134–139 at `packages/prologue-b`;
-  opening128–133 immutable. Twelve of18 bodypages now available;final140–145 andassembly
-  remain. All347files independently exact;92regions/76blocks/10originals,23codepanels/
-  227rows/18examplegroups,13grammarrules/39fields,39predicate/operator definitionentries,
-  threeprosejoins/threecodejoins. Incoming받아들여/질 anchored to opening native;
-  outgoingfactorial139/140 remains pending. All6,218ranges/6,490pins/92images pass;
-  three malformedrange cases reject. All27,916priorfiles/26inventories/30corepins exact;
-  213-test baseline reused. All92initialcrops/fiverepairs reviewed before82tasks
-  (23eng/59kor+eng);all82raws read before one sourcepass,zero OCRfailures/retries.
-  Twenty-eight candidatenotes/30occurrences,five source-direct fallbacks,all revisions
-  and failed builder/verifier attempts retained. Nextbatch28:140–145,exclude lower145ad,
-  thenimmutable18-pageassembly. Remaining22identities,cover,268-pageaccounting,index/report,
-  independentissuerebuild/closeout pending. ABC/MSX/numericalanalysis unchanged;
-  retain pinnedprivateadapters. [October log](docs/progress/8510.md),
-  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified;embedded
-  labels awaitvolunteers. No reader rebuild.
+  Batch28 restores finalPrologue0014 PDF140–145 at `packages/prologue-c`;
+  all18bodypages128–145 now restored acrossimmutableprologue-a/b/c. Assembly remains;
+  lower145ad excluded. All469files independently exact;121regions/79blocks/8originals,
+  35codepanels/224rows/10groups,13editordefinitions/18numberedrows/26commands,
+  19annotationfragments/threefilepairs/sevenlimits/eightreferences.34joins(25code/nineother)
+  andincomingfactorial139/140 retain source-local ranges. All6,147ranges/6,509pins/121images
+  pass;three malformedrange cases reject. All29,401priorfiles/27inventories/30corepins
+  unchanged;213-test baseline reused. All121initialcrops/11repairs reviewed before113tasks
+  (35eng/78kor+eng);all113raws read before one sourcepass,zero OCRfailures/retries.
+  Fifty-one candidatenotes/65occurrences,12source-direct fallbacks,all failedmap/crop
+  attempts andmetadatarevisions retained. Nextbatch29:immutable18-pageassembly;
+  no newmapping/OCR. Then canonical0016MSX구석구석 fromPDF146. Remaining22identities,
+  cover,268-pageaccounting,index/report,independentissuerebuild/closeout pending.
+  ABC/MSX/numericalanalysis unchanged;retain pinnedprivateadapters.
+  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+  Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified;earlier
+  embedded diagramlabels awaitvolunteers. No reader rebuild.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

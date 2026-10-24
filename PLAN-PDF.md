@@ -22,42 +22,43 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## October 1985 active, 2026-10-24
+## October 1985 active, 2026-10-25
 
 October 1985 restoration continues under step 12: **16 readable/sample-reviewed
 entries, one partial article and 22 unresolved**, accounting for all 39 canonical
 identities. ABC, numerical analysis and MSX remain complete and unchanged.
 
-Batch 27 restores the middle Prologue pages PDF134–139/printed132–137 at
-`archive/pdf/1985-10/packages/prologue-b`. Opening128–133 remains immutable at
-`packages/prologue-a`. Twelve of the article's18 pages are now restored in two
-natives; final140–145 and complete assembly remain. Lower145's independent
-우신기술서적 advertisement must be excluded in the final map.
+Batch 28 restores final Prologue pages PDF140–145/printed138–143 at
+`archive/pdf/1985-10/packages/prologue-c`. All18 body pages128–145 are now restored
+across immutable prologue-a,prologue-b andprologue-c natives. Complete article assembly
+remains pending,so canonical0014 stays partial. Lower145's independent 우신기술서적
+advertisement is excluded;the upper bibliography remains complete.
 
-All347 middle-package files match an independent rebuild. Its92 regions,76 blocks
-and10 originals retain23 code panels/227 nonblank code rows/18 related example
-groups,13 grammar rules/39 fields and39 predicate/operator definition entries.
-Three prose joins and three code-column joins preserve physical source ranges.
-Five example captions remain distinct; four diagrams retain original embedded labels.
-Incoming133받아들여/134질 stays anchored to the opening native; factorial139/140
-remains an explicit pending continuation. Source errors and uncertain glyphs remain.
+All469 final-package files match an independent rebuild. Its121 regions,79 blocks
+and8 originals retain35 code panels/224 nonblank rows/10 related example groups,
+13 editor definitions,18 numbered editor rows,26 console command/input rows,
+19 annotation fragments,three filename/description pairs,seven limit statements
+and eight bibliography entries. Five example headings remain separate from captions.
+Thirty-four internal joins preserve25 code andnine prose/annotation/reference
+continuations. Incoming factorial139/140 remains anchored to the middle native.
 
-All6,218 local UTF8 ranges,6,490 evidence pins and92 images validate; three malformed
-range cases reject. All27,916 prior files,26 inventories and30 core pins remain exact;
-the unchanged213-test baseline is reused. All92 initial crops and five repairs were
-reviewed before82 tasks(23eng/59kor+eng); all82 raw drafts were read before one
-source pass. No OCR failure or retry. Twenty-eight candidate notes identify30
-occurrences; five source-direct fallbacks recover successful OCR omissions/damage.
-Original and revised maps, crops, metadata and failed verifier/builder attempts remain.
+All6,147 local UTF8 ranges,6,509 evidence pins and121 images validate;three malformed
+range cases reject. All29,401 prior files,27 inventories and30 core pins remain exact;
+the unchanged213-test baseline is reused. All121 initial crops and11 repairs were
+reviewed before113 tasks(35eng/78kor+eng);all113 drafts read before one source pass.
+No OCR failure or retry. Fifty-one candidate notes identify65 occurrences;12 recorded
+source-direct fallbacks recover successful OCR omissions/damage. Every failed
+map-authoring/crop-repair attempt andmetadata revision remains preserved.
 
-Next is **batch28: final Prologue pages PDF140–145**, then immutable18-page assembly.
-Reuse saved batch26 views; retain the factorial continuation and exclude lower145's
-advertisement. Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining22
-identities, cover selection,268-page accounting, standalone index/report, independent
-issue rebuild and closeout remain. Use batch24's pinned numerical-literal-v1 and
-batch20's MSX adapter for their assembly checks. Human acceptance/full proofreading,
-source encoded bytes,technical/historical claims and execution remain unverified;
-embedded diagram labels await volunteers. No reader rebuild.
+Next is **batch29: assemble all18 Prologue pages from the three immutable natives**.
+Join133받아들여/134질 andfactorial139/140 exactly once;preserve all native metadata,
+code groups,annotations,definitions,grammar rules,bibliography andlower145 exclusion.
+No new mapping orOCR is needed. Then restore canonical0016,MSX 구석구석,fromPDF146.
+Remaining22 identities,cover selection,268-page accounting,standalone index/report,
+independent issue rebuild andcloseout remain. Use batch24's pinned numerical-literal-v1
+andbatch20's MSX adapter for their assembly checks. Human acceptance/full proofreading,
+source encoded bytes,technical/historical claims andexecution remain unverified;
+earlier embedded diagram labels awaitvolunteers. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

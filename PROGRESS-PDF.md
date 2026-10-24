@@ -1,26 +1,26 @@
 # PDF restoration progress
 
-Updated 2026-10-24. This file is the status index; detailed records live under
+Updated 2026-10-25. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
 October 1985 restoration is in progress: **16 readable/sample-reviewed entries,
-one partial article and22 unresolved**. Batch27 restores Prologue PDF134–139 at
-`packages/prologue-b`; opening128–133 remains immutable at `packages/prologue-a`.
-Twelve of18 pages are restored; final140–145 and assembly remain. All347 middle
-files independently match:92 regions/76 blocks/10 originals,23 code panels/227 rows/
-18 example groups,13 grammar rules/39 fields,39 predicate/operator definition entries,
-three prose joins and three code joins. All6,218 UTF8 ranges/6,490 pins/92 images pass;
-three malformed range cases reject. All27,916 prior files/26 inventories/30 core pins
-remain exact;213-test baseline reused. Five crop repairs preceded82 OCR tasks;
-all82 raws read before one source pass,zero retries. All revisions/failed attempts
-remain preserved. ABC,numericalanalysis andMSX remain complete.
-Nextbatch28:PDF140–145, retaining factorial continuation and excluding lower145 ad;
-then immutable18-page assembly. Remaining22 identities,cover,268-page accounting,
-index/report,independent issue rebuild andcloseout pending. Human acceptance/full
-proofreading/sourcebytes/claims/execution unverified;diagram labels await volunteers.
+one partial article and22 unresolved**. Batch28 restores finalPrologue PDF140–145 at
+`packages/prologue-c`;all18 bodypages128–145 are now restored across three immutable
+natives. Complete assembly remains,so availability stayspartial. Lower145ad excluded.
+All469 finalfiles independently match:121regions/79blocks/8originals,35codepanels/
+224rows/10groups,13editordefinitions,18numberedrows,26commands,19annotationfragments,
+threefilenamepairs,sevenlimits,eightreferences and34internaljoins. All6,147ranges/
+6,509pins/121images pass;three malformedrange cases reject. All29,401priorfiles/
+27inventories/30corepins unchanged;213-test baseline reused. Eleven crop repairs
+preceded113OCRtasks;all113raws read before one sourcepass,zero retries. Every revision
+andfailedattempt retained. ABC,numericalanalysis andMSX remain complete.
+Nextbatch29:assemble18-pagePrologue with two cross-segment joins andallnative metadata;
+thencanonical0016MSX구석구석 fromPDF146. Remaining22identities,cover,268-pageaccounting,
+index/report,independentissuerebuild andcloseout pending. Humanacceptance/fullproofreading/
+sourcebytes/claims/execution unverified;earlier diagramlabels awaitvolunteers.
 No reader rebuild. See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
