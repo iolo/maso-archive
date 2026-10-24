@@ -6,19 +6,20 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress:14 of39 canonical entries are readable
-and assistant sample-reviewed,zero are partial,and25 remain unresolved. Batch20
-completes 특집 : MSX의 모든 것 across31bodypages75–104and106,excluding105advertisement.
-The1,217-file assembly independently matches;all1,208files from six immutable natives
-remain exact.335regions/195joinedblocks/62originals,five boundaries/four joins and
-27listinggroups/999code rows are preserved. All64,994UTF8ranges/67,745pins/335images
-validate;67native metadata categories retain402 explicit slices. All12,924priorfiles,
-19inventories and30corepins unchanged;fresh213-test baseline reused. Four negative
-cases rejected. Initial adjacent-page source-root metadata failure and revised build
-are retained;source text/maps/assets unchanged. No new OCR or source correction.
-Next:canonical0003수치해석(4) fromPDF108. Remaining identities,cover,268-pageaccounting,
-standalone index/report,independent issue rebuild andcloseout pending. Human acceptance,
-sourcebytes/claims/execution unverified;diagramlabels await volunteers. No reader rebuild.
+October 1985 restoration is in progress: **14 of39 entries are readable and
+assistant sample-reviewed,one is partial and24 remain unresolved**. Batch21
+restores 수치해석(4),printed106–111/PDF108–113, in `packages/numerical-a-r02`.
+The full15-page extent108–122 is inspected;remaining114–122 and assembly pending.
+MSX remains complete. All295 opening-package files independently match.79regions,
+56blocks/10originals retain182BASICrows,12FORTRANrows,63tablecells,30matrixcells,
+worked output/formulas and13joins. All5,960UTF8ranges/6,194pins/79images validate.
+All20,261priorfiles/20inventories/30corepins remain exact;213-test baseline reused.
+69OCRtasks and one scan correction pass completed without recognition retries.
+Pre-OCR crop revisions and failed aggregation/export inputs remain preserved;
+selectedexport changes17blockkinds only. Next:batch22,PDF114–119,then120–122 and
+fullassembly. Remaining identities,cover,268-pageaccounting,standaloneindex/report,
+independentissue rebuild andcloseout pending. Humanacceptance/fullproofreading,
+sourcebytes/claims/execution unverified;graphlabels await volunteers. No reader rebuild.
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 

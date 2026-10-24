@@ -19,22 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:14 readable/sample-reviewed entries,zero partial,25unresolved.
-  Batch20 completes MSX canonical0001:31bodypages75–104and106,excluding105advertisement,
-  in `packages/msx-complete-r02`. All1,217files independently match;all1,208nativefiles
-  remain exact.335regions/195joinedblocks/62originals;five boundaries checked,four joins.
-  All27listinggroups/999code rows retain exact concatenated native bytes.67categories/
-  402slices/199blockparts and fullnative metadata preserved.64,994UTF8range occurrences/
-  67,745pins/335images validate.12,924priorfiles/19inventories/30corepins unchanged;
-  fresh213-test baseline reused. Four negative cases rejected. Retain initial missing
-  adjacent-page root-label verifier failure;revision02 changes only complete metadata.
-  No new mapping/render/OCR/sourcecorrection. Nineteen exact stale stage notes resolved
-  only in active status;originals/source uncertainties/diagram-label volunteer work remain.
-  Next batch21:inspect actualextent andrestore canonical0003수치해석(4),starting108;
-  map at most108–113,reuse107–108 views. Remaining25identities,cover,268-pageaccounting,
-  standalone index/report,independent issue rebuild andcloseout pending. No reader rebuild.
+- October1985 active:14 readable/sample-reviewed entries,one partial,24 unresolved.
+  Batch21 restores canonical0003수치해석(4) opening108–113 in
+  `packages/numerical-a-r02`. Full15-page extent108–122 inspected;123 advertisement,
+  124 nextarticle. Remaining114–122 and fullassembly pending;MSX remains complete.
+  All295 files independently match;79regions/56blocks/10originals,182BASICrows,
+  12FORTRANrows (three blank source rows/one continuation mark),63tablecells,
+  30matrixcells,workedoutput/formula indexes and13joins retained. All5,960UTF8ranges,
+  6,194pins/79images validate;three negative range cases reject.69tasks (11eng,
+  58kor+eng),allraws read before one source pass.15pre-OCR crop repairs/sixrefinements;
+  zero OCR failures/retries. Empty equation6 and other omissions corrected fromscan.
+  Retain initial aggregation failure and unsupportedblock-kind export failure;
+  selectedrecipe changes17blockkinds only,without text/map/crop/OCR changes.
+  All20,261priorfiles/20inventories/30corepins unchanged;213-test baseline reused.
+  Nextbatch22:reuse sourceviews andrestore114–119,FORTRANphysicalrow12→13;
+  then120–122 andcompleteassembly.24unresolved identities,cover,268-pageaccounting,
+  standaloneindex/report,independentissue rebuild andcloseout remain. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  Humanacceptance/fullproofreading/sourceencodedbytes/claims/execution unverified.
+  Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified;
+  graphlabels await volunteers.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

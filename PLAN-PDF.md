@@ -22,47 +22,45 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## October 1985 started, 2026-10-24
+## October 1985 active, 2026-10-24
 
-October 1985 restoration is active under step 12. Fourteen of 39 canonical entries
-are readable and assistant sample-reviewed; no article is currently partial and
-25 identities remain unresolved. The newly completed article is canonical0001,
-특집 : MSX의 모든 것 by 심규석.
+October restoration continues under step 12: **14 readable/sample-reviewed entries,
+one partial and 24 unresolved**, accounting for all 39 canonical identities.
+MSX remains complete across PDF75–104 and106; its selected assembly is unchanged.
 
-Batch20 assembles all31 body pages,printed73–102 and104/PDF75–104 and106,
-into `archive/pdf/1985-10/packages/msx-complete-r02`. All1,217 files match an
-independent rebuild. All1,208 files from the six immutable msx-a through msx-f
-packages remain exact. The complete article retains335 regions,195 joined blocks
-and62 original images. Advertisement105 is excluded;107 is another advertisement
-and108 begins 수치해석 (4).
+Batch21 restores the opening of canonical0003, **수치해석 (4) by 박재현**,
+printed106–111/PDF108–113, in `archive/pdf/1985-10/packages/numerical-a-r02`.
+All15 article pages108–122 were visually inspected; no advertisement interrupts
+this article. PDF107 is an advertisement,123 is a book advertisement, and124
+begins 컴퓨터 활용 ABC. Only the first six pages are restored so far.
 
-Five native boundaries are verified. The80→81 boundary starts the FAT section;
-sector32 joins A038→A040 across86→87. Three prose joins are 써→넣는다.,
-코드→에 해당되는 and 카피→명령을 across advertisement105. Only the last adds
-an editorial word space. All27 listing groups/999 physical code rows retain the
-exact concatenated native listing bytes. All2,000 physical text rows remain indexed.
+The partial package retains79 regions,56 reading blocks and10 original images.
+It includes182 BASIC rows,12 FORTRAN compiler-listing rows, a seven-row table
+with63 body cells/eight headers,11 matrices with30 cells,56 displayed formula
+rows, worked-output fields, and13 source joins. FORTRAN blank rows1/3/8 and
+row5's continuation mark remain explicit. Printed errors and uncertain symbols
+remain source-linked; no mathematics, code or source encoding was repaired.
 
-All67 metadata categories survive through402 explicit slices,including empty and
-absent categories;26 objects,24 reserved lists,six scalars and199 original block
-parts also validate. All64,994 UTF8 range occurrences,67,745 evidence pins and335
-images pass. All12,924 prior files,19 inventories and30 core pins remain unchanged;
-the fresh213-test batch01 baseline is reused. Four negative cases are rejected.
-The first assembly's missing adjacent-page source-root label was caught by the
-broader verifier;both versions and rebuilds remain. Revision02 changes complete
-metadata only;source text,maps,assets and natives are identical.
+All69 OCR drafts were read before one source correction pass. Fifteen crop
+boundaries were repaired before OCR, with six further refinements; all revisions
+and original crops remain. No OCR failure or retry occurred. The successful but
+empty equation6 draft and other omissions received direct scan transcription.
+The initial export rejected unsupported reading-block kind `other`; a fresh
+recipe changes only17 block kinds to `prose`. The earlier record-aggregation
+failure and both export-input revisions remain preserved.
 
-No new mapping,rendering,OCR or source correction was needed. Nineteen exact stale
-stage notes resolve only in active status;all original metadata and uncertainties
-remain. Human acceptance/full proofreading,source encoded bytes,glyph counts,
-historical/technical claims and code execution remain unverified. Original diagram
-labels await volunteers. No MSX body pages or assembly remain pending.
+All295 package files match an independent rebuild. All5,960 UTF8 ranges,
+6,194 evidence pins and79 images validate; three negative range cases reject.
+All20,261 prior files,20 inventories and30 core pins remain unchanged. The fresh
+213-test batch01 baseline is reused. Human acceptance/full proofreading,
+source bytes, historical/technical/mathematical claims and execution remain
+unverified. Original graph labels await volunteers. No reader rebuild.
 
-Next is batch21: inspect and restore canonical0003,수치해석 (4) by 박재현,
-starting printed106/PDF108. Inspect actual extent;map at most108–113 and reuse
-107–108 views. Keep two-task/six-mapped-page/twenty-outside-lookup limits.
-Remaining25 identities,cover selection,268-page accounting,standalone index/report,
-independent issue rebuild and closeout remain. No reader rebuild.
-Details:[October log](docs/progress/8510.md) and
+Next is **batch22: PDF114–119**, reusing batch21 source views and continuing
+FORTRAN physical row12→13. Then restore120–122 and assemble the full article.
+Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining24 identities,
+cover selection,268-page accounting,standalone index/report,independent issue
+rebuild and closeout remain. Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23

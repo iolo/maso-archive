@@ -384,12 +384,120 @@
       "toc_entry_id": "maso-1985-10-toc-0003",
       "title": "수치해석 (4)",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All19 whole source pages107–125 visually inspected before recognition. Fifteen-page article108–122 has no intervening advertisement.107TOPIA advertisement,123book advertisement,124starts canonical0004컴퓨터활용ABC;125continues it.",
+        "Opening6pages contain theory,linear/nonlinear formula derivation,seven-function table,worked output,complete BASIC CURFIT and opening FORTRAN compiler listing.",
+        "Outgoing FORTRAN physical row12on113 continues row13on114. Later114–122 and complete assembly remain untranscribed.",
+        "Canonical0003수치해석(4)by박재현/서울대제어계측공학과 opensprinted106/PDF108;identity,title,parent/orderunchanged.",
+        "Current108–113only;all15bodypages108–122visuallyinspected,nointerleavedad. BASICCURFITcomplete1000–5070;FORTRANcompilerlistingrows1–12continuesrow13on114. Remaining114–122andcompleteassemblypending.",
+        "Onecanonicaltask,sixmappedpages,13outsidelookups107and114–125.19wholeviews,2reused17new;all79selectedcropsreviewedbefore69tasks."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/numerical-a-r02",
+        "article_id": "scan-maso-1985-10-toc-0003",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/numerical-a-r02/manifest.json",
+          "sha256": "09249fad148422be482745e9bb65bd25d7b257545aac524a371b6497478982d1",
+          "bytes": 49320
+        },
+        "coverage": {
+          "pdf_pages": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ],
+          "printed_pages": [
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111"
+          ],
+          "regions": 79,
+          "blocks": 56,
+          "figures": 10,
+          "coverage_scope": "Openingnative108–113only;remaining114–122andfullarticleassemblypending.",
+          "provisional_full_pdf_pages": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122
+          ],
+          "deferred_pdf_pages": [
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122
+          ],
+          "full_extent_status": "All15bodypages108–122 visuallyinspected;nointerleavedadvertisement.107advertisementprecedesopening;123advertisementand124canonical0004establishending.",
+          "uninspected_interior_pdf_pages": [],
+          "known_interleaved_advertisement_pdf_pages": []
+        },
+        "segments": [
+          {
+            "id": "numerical-a",
+            "directory": "archive/pdf/1985-10/packages/numerical-a-r02",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/numerical-a-r02/manifest.json",
+              "sha256": "09249fad148422be482745e9bb65bd25d7b257545aac524a371b6497478982d1",
+              "bytes": 49320
+            },
+            "pdf_pages": [
+              108,
+              109,
+              110,
+              111,
+              112,
+              113
+            ],
+            "printed_pages": [
+              "106",
+              "107",
+              "108",
+              "109",
+              "110",
+              "111"
+            ],
+            "availability": "partial"
+          }
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-21/validation.json",
+          "sha256": "578825a9253cb47cd9a800cd302be64fa758ec5b35638729fbc4434974f6641d",
+          "bytes": 2923
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-21/reproduction.json",
+          "sha256": "ecd69e296c3cb74d34711d4e1d911a06cdcfdfc3c9c8c132dd15ce500ce8943e",
+          "bytes": 1773
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0004",
@@ -1341,9 +1449,9 @@
   "totals": {
     "canonical_entries": 39,
     "readable": 14,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 25
+    "unresolved_eligibility": 24
   },
   "checkpoints": [
     {
@@ -2283,6 +2391,75 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-21",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "mapped_pdf_pages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "outside_map_lookup_pages": [
+        107,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 69,
+      "eng_code_tasks": 11,
+      "kor_eng_tasks": 58,
+      "source_correction_passes": 1,
+      "crop_repairs": 15,
+      "crop_refinements": 6,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-21/validation.json",
+        "sha256": "578825a9253cb47cd9a800cd302be64fa758ec5b35638729fbc4434974f6641d",
+        "bytes": 2923
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-21/verification-completed.json",
+        "sha256": "57d0f0089a513d9f4a1e6ef1859740c81c7faf1474a2ee840eb79c471cd53057",
+        "bytes": 1777
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-21-preserved-work.json",
+        "sha256": "63657c38ff1d692e08e73fa4b4e5cda7ac57bf6fc71c5c2e6dfef2d67632240b",
+        "bytes": 4827540
+      },
+      "started_at": "2026-10-24T09:23:15.966315+00:00",
+      "finished_at": "2026-10-24T10:02:17.450382+00:00",
+      "timing_scope": "Prospectivewallclockincludeswaits/gaps/turns;activehumaneffortunmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -2844,54 +3021,6 @@
       "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
-      "pdf_page": 104,
-      "printed_page": "102",
-      "classification": "article-body",
-      "toc_entry_ids": [
-        "maso-1985-10-toc-0001"
-      ],
-      "restoration": "complete-assembled-article",
-      "evidence": "GTSTCK ending;table24bootdump16rows256bytes,fourBASIC lines,bootwrite prose andprotection section opening.",
-      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
-    },
-    {
-      "pdf_page": 105,
-      "printed_page": null,
-      "classification": "advertisement",
-      "toc_entry_ids": [],
-      "restoration": "outside-canonical-body",
-      "evidence": "Whole TOPIA-ROMPACK advertisement between article104and106;source viewed and retained."
-    },
-    {
-      "pdf_page": 106,
-      "printed_page": "104",
-      "classification": "article-body",
-      "toc_entry_ids": [
-        "maso-1985-10-toc-0001"
-      ],
-      "restoration": "complete-assembled-article",
-      "evidence": "Final MSX page;protection diagram,tables25/26,nineBASIC lines,proseleft감→right지해,conclusion anddecorative repeatedtitle. Complete finalsource before107advertisement and108nextarticle.",
-      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
-    },
-    {
-      "pdf_page": 107,
-      "printed_page": null,
-      "classification": "advertisement",
-      "toc_entry_ids": [],
-      "restoration": "outside-canonical-body",
-      "evidence": "Independent TOPIA ROM writer advertisement."
-    },
-    {
-      "pdf_page": 108,
-      "printed_page": "106",
-      "classification": "article-opening-observed",
-      "toc_entry_ids": [
-        "maso-1985-10-toc-0003"
-      ],
-      "restoration": "not-started",
-      "evidence": "Distinct 수치해석(4) by박재현 opening;not restored this checkpoint."
-    },
-    {
       "pdf_page": 82,
       "printed_page": "80",
       "classification": "article-body",
@@ -3132,19 +3261,235 @@
       "restoration": "complete-assembled-article",
       "evidence": "Table23assembly2140–2360,thirdbanner,three unnumberedbytewraps;BIOS GTTRIG/GTSTCK explanation anddirectionalkey mapping.",
       "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
+    },
+    {
+      "pdf_page": 104,
+      "printed_page": "102",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "complete-assembled-article",
+      "evidence": "GTSTCK ending;table24bootdump16rows256bytes,fourBASIC lines,bootwrite prose andprotection section opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
+    },
+    {
+      "pdf_page": 105,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Whole TOPIA-ROMPACK advertisement between article104and106;source viewed and retained."
+    },
+    {
+      "pdf_page": 106,
+      "printed_page": "104",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "complete-assembled-article",
+      "evidence": "Final MSX page;protection diagram,tables25/26,nineBASIC lines,proseleft감→right지해,conclusion anddecorative repeatedtitle. Complete finalsource before107advertisement and108nextarticle.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
+    },
+    {
+      "pdf_page": 107,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Independent TOPIA ROM writer advertisement."
+    },
+    {
+      "pdf_page": 108,
+      "printed_page": "106",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "opening-native-complete;article-continuation-and-assembly-pending",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 109,
+      "printed_page": "107",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "opening-native-complete;article-continuation-and-assembly-pending",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 110,
+      "printed_page": "108",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "opening-native-complete;article-continuation-and-assembly-pending",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 111,
+      "printed_page": "109",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "opening-native-complete;article-continuation-and-assembly-pending",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 112,
+      "printed_page": "110",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "opening-native-complete;article-continuation-and-assembly-pending",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 113,
+      "printed_page": "111",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "opening-native-complete;article-continuation-and-assembly-pending",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 114,
+      "printed_page": "112",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 115,
+      "printed_page": "113",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 116,
+      "printed_page": "114",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 117,
+      "printed_page": "115",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": "116",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": "117",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": "118",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": "119",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": "120",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0003"
+      ],
+      "restoration": "not-transcribed",
+      "evidence": "Numericalanalysis15pagearticle108–122visuallyinspected;nointerleavedad. Currentnativecovers108–113;later114–122sourceviewsretainedforreuse."
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Independent大恩bookadvertisement after numericalanalysisending122."
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": "122",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0004"
+      ],
+      "restoration": "not-started",
+      "evidence": "컴퓨터활용ABCopeningobserved;notrestoredthischeckpoint."
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": "123",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0004"
+      ],
+      "restoration": "not-started",
+      "evidence": "컴퓨터활용ABCcontinuationobserved;fullcanonicalextent/restorationpending."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-21",
-    "goal": "Restore canonical0003,수치해석(4),by박재현,starting atPDF108/printed106.",
+    "id": "batch-22",
+    "goal": "Continue canonical0003수치해석(4),middlePDF114–119.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0003"
     ],
-    "mapping_targets": "Inspect actual article extent and adjacent pages;map at mostPDF108–113 in this checkpoint. Reuse preserved107–108 views. Source title/byline visible on108;do not infer ending from next TOC entry or global folio offset. Preserve completeMSX package and sixnatives unchanged.",
+    "mapping_targets": "Reusebatch21sourceviews. Mapatmostsixpages114–119;preserveincomingFORTRANphysicalrow12→13,allsubsequentlistings/prose/formulasandoriginals. Retainopeningnative unchanged. Final120–122andfullassemblyremainlatercheckpoints.",
     "provisional_lookup_targets": [
-      107,
-      114
+      113,
+      120
     ],
     "limits": {
       "articles": 2,
@@ -3156,7 +3501,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "MSX complete31bodypagesPDF75–104and106 assembled;105advertisement excluded. No MSX bodypages/OCR/assembly pending. Another25 identities,cover selection,remaining268-page accounting,standalone index/report,independentissue rebuild and closeout remain. No global page offset inferred."
+    "MSXcomplete remainsunchanged. Numericalanalysis0003fullbody108–122verified;onlyopening108–113restored. Remaining114–122andassembly,24unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
   ],
   "reader_rebuild": false
 }
