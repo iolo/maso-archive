@@ -19,24 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:14 readable/sample-reviewed entries,one partial,24 unresolved.
-  Batch23 restores canonical0003 수치해석(4), finalPDF120–122, in `packages/numerical-c`.
-  All15 body pages108–122 now exist in three immutable natives; full assembly pending.
-  MSX remains complete. All53 files independently match;14 regions/five blocks/four
-  originals retain94 BASIC rows,213 visible FORTRAN ordinals1–214 (96 absent),
-  printed215 Source Lines,one caption,compiler header/summary andfive source joins.
-  All4,870 UTF8 ranges/4,917 pins/14 images validate;three negative cases reject.
-  Ten tasks (7eng/3kor+eng),all drafts read before one source pass;three pre-OCR
-  crop repairs,zero recognition failures/retries. Retain index-builder DATA/REM
-  matching failure andfresh revision;source text unchanged. Two ink-damaged spans
-  andsix unknown bands remain explicit. All22,696 priorfiles/22 inventories/30
-  core pins exact;213-test baseline reused. Nextbatch24:full15-page assembly,
-  retaining allnative metadata andproving FORTRAN12→13/BASIC1710→1720 joins.
-  Remaining24 identities,cover,268-page accounting,standalone index/report,
-  independent issue rebuild andcloseout pending. No reader rebuild.
+- October1985 active:15 readable/sample-reviewed entries,no partials,24 unresolved.
+  Batch24 completes canonical0003 수치해석(4),all15 pagesPDF108–122,at
+  `packages/numerical-complete`. Three immutable natives/all588 native files remain
+  exact;all597 assembled files byte-match an independent rebuild.162 regions,
+  106 blocks/29 originals retain nine listing/output groups,four complete programs
+  andtwo external code joins:FORTRAN12→13/BASIC1710→1720. No article pages orassembly
+  pending. All65 native array categories/195 slices/fullmetadata reverse-project;
+  37,514 local UTF8 ranges/38,888 pins/162 images validate;four negative cases reject.
+  All22,966 priorfiles/23 inventories/30 corepins exact;213-test baseline reused.
+  No new mapping/render/OCR/sourcecorrection. Ten exact stage notes resolve only
+  inactive status;all source uncertainties andnative notes remain. Authoring verifier
+  count typo corrected beforeexecution;drafts retained. Use pinnedprivate
+  `numerical-literal-v1` adapter/reproduction record forchecks/issuecloseout.
+  Nextbatch25:canonical0004 컴퓨터활용ABC,startingPDF124;inspect actualextent before
+  mapping atmost sixpages. Remaining24 identities,cover,268-pageaccounting,
+  standalone index/report,independentissuerebuild/closeout pending. MSX unchanged.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  Human acceptance/full proofreading/source bytes/claims/execution unverified;
-  original graph/illustration labels await volunteers.
+  Human acceptance/full proofreading/sourcebytes/claims/execution unverified;
+  graph/illustration labels await volunteers. No reader rebuild.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

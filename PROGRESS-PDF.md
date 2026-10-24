@@ -6,22 +6,21 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress: **14 of39 entries are readable and
-assistant sample-reviewed,one is partial and24 remain unresolved**. Batch23
-restores 수치해석(4), finalPDF120–122, in `packages/numerical-c`. All15 body pages
-108–122 are restored across three immutable natives; full article assembly remains.
-MSX remains complete. All53 final-package files independently match.14 regions,
-five blocks/four originals retain94 BASIC rows,213 visible FORTRAN ordinal rows,
-compiler header/summary,one caption andfive joins. Source95→97 and214/215 summary
-remain independent;two ink-damaged spans andsix bands remain explicit markers.
-All4,870 UTF8 ranges/4,917 pins/14 images validate;22,696 priorfiles/22 inventories/
-30 core pins remain exact. The213-test baseline is reused. Ten OCR tasks andone
-source correction pass completed without recognition retries. Three pre-OCRcrop
-repairs and an index-builder DATA/REM failure/fresh revision remain preserved.
-Next:batch24,full15-page assembly with allnative metadata andtwo external joins.
-Remaining identities,cover,268-page accounting,standalone index/report,independent
-issue rebuild andcloseout pending. Human acceptance/full proofreading/source bytes/
-claims/execution unverified;graph/illustration labels await volunteers. No reader rebuild.
+October 1985 restoration is in progress: **15 of39 entries are readable and
+assistant sample-reviewed,no articles are partial,and24 remain unresolved**.
+Batch24 completes 수치해석(4),all15 pagesPDF108–122,in `packages/numerical-complete`.
+All597 assembly files match an independent rebuild byte for byte,including588
+unchanged native files.162 regions/106 blocks/29 originals retain nine listing/
+output groups,four complete programs andtwo verified cross-segment code joins.
+All65 native array categories/195 slices/full metadata reverse-project;37,514 UTF8
+range occurrences/38,888 evidence pins/162 images validate. Four negative cases
+reject. All22,966 priorfiles/23 inventories/30 corepins remain exact;213-test baseline
+reused. No new mapping/render/OCR/sourcecorrection;all source uncertainties remain.
+No numerical-analysis body pages orassembly remain. MSX is unchanged.
+Nextbatch25:컴퓨터활용ABC,startingPDF124;inspect actual extent before mapping.
+Remaining24 identities,cover,268-page accounting,standalone index/report,independent
+issue rebuild andcloseout pending. Human acceptance/full proofreading/sourcebytes/
+claims/execution unverified;original labels await volunteers. No reader rebuild.
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 

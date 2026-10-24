@@ -24,41 +24,43 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-24
 
-October restoration continues under step 12: **14 readable/sample-reviewed entries,
-one partial and 24 unresolved**, accounting for all 39 canonical identities.
+October restoration continues under step 12: **15 readable/sample-reviewed entries,
+no partial articles and 24 unresolved**, accounting for all 39 canonical identities.
 MSX remains complete; its selected assembly is unchanged.
 
-Batch 23 restores the final printed118–120/PDF120–122 of canonical0003,
-**수치해석 (4) by 박재현**, in `archive/pdf/1985-10/packages/numerical-c`.
-All 15 body pages108–122 are now restored across three immutable segments:
-`numerical-a-r02`, `numerical-b` and `numerical-c`. Full article assembly remains.
-No advertisement interrupts the article.
+Batch24 completes canonical0003, **수치해석 (4) by 박재현**, printed106–120/
+PDF108–122, at `archive/pdf/1985-10/packages/numerical-complete`. All15 body pages
+are assembled from unchanged `numerical-a-r02`, `numerical-b` and `numerical-c`.
+No body pages or numerical-analysis assembly remain pending. No advertisement
+interrupts the article;107 and123 are separate advertisements,124 the next article.
 
-The final package retains 14 regions, five reading blocks and four original images.
-Its 94 BASIC POLFIT rows continue1720–4080. The complete FORTRAN POLFIT listing
-has 213 visible ordinal rows1–214, with no visible96 between95 and97; the printed
-summary independently says215 Source Lines. Compiler depths, labels, comments,
-blank source rows and literal lowercase dble remain separately indexed. Two
-ink-damaged spans and six unknown-length bands retain explicit editorial markers.
-No program behavior, mathematics or source encoding was repaired or verified.
+All597 files match an independent rebuild byte for byte,including588 exact native
+files. The complete package retains162 regions,106 reading blocks and29 originals.
+Two source joins preserve FORTRAN12→13 and BASIC1710→1720 without added characters.
+Nine listing/output groups retain four programs: BASIC CURFIT182 rows,FORTRAN
+CURFIT259 rows,BASIC POLFIT154 rows andFORTRAN POLFIT213 visible ordinal rows.
+Source95→97 andfinal214/printed215 Source Lines remain independent.
 
-All ten OCR drafts were read before one source correction pass. Three crops were
-adjusted before OCR; initial and revised maps/crops remain. No recognition failure
-or retry occurred. An index-builder revision excludes a REM comment from DATA-row
-counting; the failed builder remains, and no source transcription changed.
+All65 native array categories,195 explicit slices,13 objects,12 reserved arrays,
+six scalars and108 block fragments retain reversible projections andfull original
+metadata. All37,514 local UTF8 range occurrences,38,888 evidence pins and162 images
+validate. Four malformed cases reject. All22,966 prior files,23 inventories and30
+core pins remain exact. The unchanged fresh213-test baseline is reused.
 
-All 53 package files match an independent rebuild. All 4,870 UTF8 ranges,
-4,917 evidence pins and 14 images validate; three negative range cases reject.
-All 22,696 prior files, 22 inventories and 30 core pins remain unchanged.
-The fresh 213-test batch01 baseline is reused. Human acceptance/full proofreading,
-source bytes, historical/technical/mathematical claims and execution remain
-unverified. Original graph/illustration labels await volunteers. No reader rebuild.
+Ten exact native-stage deferral notes resolve only in active assembly status;
+original notes andsource uncertainties remain. No new mapping,rendering,OCR or
+source correction was needed. An expected-count typo was corrected before verifier
+execution;all authoring drafts remain. Use the pinned private `numerical-literal-v1`
+adapter in batch24's reproduction record for checks andissue closeout.
+Human acceptance/full proofreading,source bytes,historical/technical/mathematical
+claims andexecution remain unverified. Original graph/illustration labels await
+volunteers. No reader rebuild.
 
-Next is **batch24: assemble the full 15-page article** from its immutable segments,
-preserving every native index and proving FORTRAN12→13 and BASIC1710→1720 joins.
-Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining24 identities,
+Next is **batch25: 컴퓨터활용 ABC**, starting atPDF124/printed122. Inspect its
+actual extent andadjacent pages before mapping at most six body pages. Keep the
+two-task/six-mapped-page/twenty-outside-lookup limits. Remaining24 identities,
 cover selection,268-page accounting,standalone index/report,independent issue
-rebuild and closeout remain. Details: [October log](docs/progress/8510.md) and
+rebuild andcloseout remain. Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23
