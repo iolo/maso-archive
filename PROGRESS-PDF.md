@@ -6,20 +6,21 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress. Thirteen of 39 canonical entries are readable
-and assistant sample-reviewed: 편집자 노트, 애독자 광장, 입력이 힘드십니까?, QA, 디버깅 룸,
-퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FORMAT II, DEF, 가로세로 체크썸, both
-자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱, and 테이프용 MLE by 박성준.
-All thirteen complete packages independently match. All31 MSX body pages are restored
-in six immutable natives:PDF75–104 and106,excluding advertisement105. The article
-remains partial until assembly. Final47-file native independently matches;11regions/
-8blocks/2originals retain nine BASIC lines/78DATA fields/twostrings and one prose join.
-All427UTF8ranges validate;12,714prior files/30core pins unchanged. Fresh213-test batch01
-baseline reused through batch19. Thirteen readable,one partial and25unresolved entries
-account for all39 identities. Next assemble the complete MSX article from six natives;
-no more MSX OCR needed. Remaining identities,cover,source-page accounting andissue
-closeout remain. See [October log](docs/progress/8510.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
+October 1985 restoration is in progress:14 of39 canonical entries are readable
+and assistant sample-reviewed,zero are partial,and25 remain unresolved. Batch20
+completes 특집 : MSX의 모든 것 across31bodypages75–104and106,excluding105advertisement.
+The1,217-file assembly independently matches;all1,208files from six immutable natives
+remain exact.335regions/195joinedblocks/62originals,five boundaries/four joins and
+27listinggroups/999code rows are preserved. All64,994UTF8ranges/67,745pins/335images
+validate;67native metadata categories retain402 explicit slices. All12,924priorfiles,
+19inventories and30corepins unchanged;fresh213-test baseline reused. Four negative
+cases rejected. Initial adjacent-page source-root metadata failure and revised build
+are retained;source text/maps/assets unchanged. No new OCR or source correction.
+Next:canonical0003수치해석(4) fromPDF108. Remaining identities,cover,268-pageaccounting,
+standalone index/report,independent issue rebuild andcloseout pending. Human acceptance,
+sourcebytes/claims/execution unverified;diagramlabels await volunteers. No reader rebuild.
+See [October log](docs/progress/8510.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
 are accounted for by 39 readable, assistant sample-reviewed articles and nine

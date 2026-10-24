@@ -26,7 +26,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0001 特集/MSX feature source heading 특집.MSX의 모든것/byline심규석 opens printed73/PDF75 after book advertisementPDF74. Canonical title/order/parent unchanged.",
@@ -70,15 +70,20 @@
         "Final106has openingprose,unlabeled two-box protection diagram,explanatoryprose,tables25/26BASIC,furtherprose left감→right지해 andconclusionending보호하기 바란다. Decorative repeatedtitle허수아비를 이용한 프로텍트 remains independently searchable.",
         "Table25 has five numbered lines1000–1040;table26has four lines50,60,70,90. No line80invented. DATA field counts,quoted strings and individual printedmemory references require source-local indexes.",
         "One mapped page,four outside-map lookups104/105/107/108,one canonical task. All31MSX body pages nowclassified;no remaining body pages afterthissegment,fullsix-native assembly remains.",
-        "Diagram labels await volunteers;original entirepageanddiagram preserved. Human acceptance/full proofreading,sourcebytes,claims andexecution unverified."
+        "Diagram labels await volunteers;original entirepageanddiagram preserved. Human acceptance/full proofreading,sourcebytes,claims andexecution unverified.",
+        "Six immutable native packages msx-a through msx-f retain1208files,335regions,199nativeblocks,62originalimages. All31bodypages75–104and106 present;105TOPIAadvertisement excluded. End106protectprose/decorative title precedes independent107advertisement and nextarticle108수치해석(4). Canonical0001/title/parent unchanged.",
+        "Five native boundaries checked against retained exact crops and whole views.80→81is section transition to(3)FAT,not a word join.86A038→87A040 joins sector32dump with no added characters.92써→93넣는다. and98코드→99에 해당되는 join directly.104카피→106명령을 joins with one editorial word space across105advertisement. Native physical regions and exact text spans remain separately source-owned.",
+        "Duplicate c boot-title region/block and c sector32block use explicit aliases;then four joined blocks yield195completeblocks. All62original images retained. Every original correction category,array/object/scalar,reservedlist,empty/absentcategory and source range preserved with reversible projections. No new mapping/render/OCR/source correction.",
+        "All codebytes equal concatenated native listing downloads. Opaque dump fields,source errors and independent program variants remain literal. Sector32 native group parts merge into one complete printed group;all others stay distinct. Systemcall23H receives its exact next-page source fragment. No semantic/opcode/address/byte reconstruction or execution.",
+        "All source candidates,unknown glyphs,blank widths,source typography limitations,diagram label volunteer work and human acceptance limits remain. Original source stage scope is historical;complete_*scope/indexes govern completed MSX availability. Other25identities,cover,268-page accounting,standalone index/report and fullissuecloseout remain. No reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/msx-f",
+        "directory": "archive/pdf/1985-10/packages/msx-complete-r02",
         "article_id": "scan-maso-1985-10-toc-0001",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/msx-f/manifest.json",
-          "sha256": "1357a43a0ab13eed40476371b4213390b5fc36a92978c33b505d8941bcef79ec",
-          "bytes": 7853
+          "path": "archive/pdf/1985-10/packages/msx-complete-r02/manifest.json",
+          "sha256": "fcf30c85ca2992b344ea6d7136100f1edfaadf900e1afb17c2021e4ce87c57ae",
+          "bytes": 214665
         },
         "coverage": {
           "pdf_pages": [
@@ -148,10 +153,10 @@
             "104"
           ],
           "regions": 335,
-          "blocks": 199,
+          "blocks": 195,
           "figures": 62,
-          "coverage_scope": "Cumulative coverage of six immutable native segments;no assembled full-article package yet. directory/manifest select latest segment only.",
-          "provisional_full_pdf_pages": [
+          "coverage_scope": "Complete assembled article from six immutable natives;all31bodypages,all335regions,195joinedblocks and62originals.",
+          "full_pdf_pages": [
             75,
             76,
             77,
@@ -185,11 +190,11 @@
             106
           ],
           "deferred_pdf_pages": [],
-          "full_extent_status": "All31articlebodypages visuallyclassified andrestored acrosssixnatives.105interleaved advertisement excluded;107advertisement and108nextarticle establish ending.",
           "uninspected_interior_pdf_pages": [],
           "known_interleaved_advertisement_pdf_pages": [
             105
-          ]
+          ],
+          "full_extent_status": "All31bodypages75–104and106 restored and assembled;105advertisement excluded. Final106conclusion/decorative title precedes107advertisement and nextarticle108."
         },
         "segments": [
           {
@@ -339,17 +344,28 @@
             "availability": "partial"
           }
         ],
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-19/validation.json",
-          "sha256": "9215157afd4f17ce3e5df6c658bf625f67f473e43946307e32c7a3f06675458c",
-          "bytes": 1999
+          "path": "archive/pdf/1985-10/restoration/batch-20/validation.json",
+          "sha256": "7001d6583f4b811232fc4b97ccd7f38a4bdcb8b5c16aacf3a6cc14ab812b1051",
+          "bytes": 1790
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-19/reproduction.json",
-          "sha256": "f9cccb747bc59646ca03266418f06b03858fba0ebaf5385788356d926ba42b32",
-          "bytes": 1284
+          "path": "archive/pdf/1985-10/restoration/batch-20/reproduction.json",
+          "sha256": "16ecb9ca0de5ceec3d8e85fb7f19156a4c0d4c9d75314e577a5ac74d8efa3c94",
+          "bytes": 2706
+        },
+        "assembly_format": "msx-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-10/restoration/batch-20/msx_literal_r02.py",
+          "sha256": "536fbfd6eb247e6fb65e8f1711c6b09afa87b7923b690b77911c5f6532d5326d",
+          "bytes": 18040
+        },
+        "preservation_validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-20/preservation-validation.json",
+          "sha256": "8c45d10594c839f1524e2649a0efcdc65f45eeda6c2318f119fed830883cae23",
+          "bytes": 892
         }
       }
     },
@@ -1324,8 +1340,8 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 13,
-    "partial": 1,
+    "readable": 14,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 25
   },
@@ -2215,6 +2231,58 @@
       "article_availability": "partial",
       "deferred_pdf_pages": [],
       "assembly_required": true
+    },
+    {
+      "id": "batch-20",
+      "status": "complete",
+      "stage": "validated-complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        75,
+        80,
+        81,
+        86,
+        87,
+        92,
+        93,
+        98,
+        99,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-20/validation.json",
+        "sha256": "7001d6583f4b811232fc4b97ccd7f38a4bdcb8b5c16aacf3a6cc14ab812b1051",
+        "bytes": 1790
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-20/verification-completed.json",
+        "sha256": "8f0ccf388092dd3ca6b973fc29db220dad52029b03f7342f9e23cdc130ec9f95",
+        "bytes": 1659
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-20-preserved-work.json",
+        "sha256": "c39dd123b971eacec583fbbd028d16cda08bb9831f5e5168a9ec43365686b308",
+        "bytes": 4522915
+      },
+      "started_at": "2026-10-24T09:05:28.071803+00:00",
+      "finished_at": "2026-10-24T09:21:12.270633+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -2705,8 +2773,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "opening-native-complete;article-partial",
-      "evidence": "Feature opening,title/byline/affiliation and complete introduction."
+      "restoration": "complete-assembled-article",
+      "evidence": "Feature opening,title/byline/affiliation and complete introduction.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 76,
@@ -2715,8 +2784,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "opening-native-complete;article-partial",
-      "evidence": "Disk-system title,boot-process prose,table1caption and first flowchart part."
+      "restoration": "complete-assembled-article",
+      "evidence": "Disk-system title,boot-process prose,table1caption and first flowchart part.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 77,
@@ -2725,8 +2795,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "opening-native-complete;article-partial",
-      "evidence": "Second flowchart part,format introduction,table2both parts and prose."
+      "restoration": "complete-assembled-article",
+      "evidence": "Second flowchart part,format introduction,table2both parts and prose.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 78,
@@ -2735,8 +2806,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "opening-native-complete;article-partial",
-      "evidence": "Format ending,table3layout diagram,sample creation,24-line BASIC and24-row machine dump."
+      "restoration": "complete-assembled-article",
+      "evidence": "Format ending,table3layout diagram,sample creation,24-line BASIC and24-row machine dump.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 79,
@@ -2745,8 +2817,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "opening-native-complete;article-partial",
-      "evidence": "Sample creation continuation,FILES output,boot-sector introduction and64-row display."
+      "restoration": "complete-assembled-article",
+      "evidence": "Sample creation continuation,FILES output,boot-sector introduction and64-row display.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 80,
@@ -2755,8 +2828,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "opening-native-complete;article-partial",
-      "evidence": "Boot-sector analysis,table5and annotated table6original;next81 starts FAT."
+      "restoration": "complete-assembled-article",
+      "evidence": "Boot-sector analysis,table5and annotated table6original;next81 starts FAT.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 81,
@@ -2765,8 +2839,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "FAT heading,prose,table7full64-row dump;outgoing 취/급한다 prose join."
+      "restoration": "complete-assembled-article",
+      "evidence": "FAT heading,prose,table7full64-row dump;outgoing 취/급한다 prose join.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 104,
@@ -2775,8 +2850,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "GTSTCK ending;table24bootdump16rows256bytes,fourBASIC lines,bootwrite prose andprotection section opening."
+      "restoration": "complete-assembled-article",
+      "evidence": "GTSTCK ending;table24bootdump16rows256bytes,fourBASIC lines,bootwrite prose andprotection section opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 105,
@@ -2793,8 +2869,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "final-native-complete;article-assembly-pending",
-      "evidence": "Final MSX page;protection diagram,tables25/26,nineBASIC lines,proseleft감→right지해,conclusion anddecorative repeatedtitle. Complete finalsource before107advertisement and108nextarticle."
+      "restoration": "complete-assembled-article",
+      "evidence": "Final MSX page;protection diagram,tables25/26,nineBASIC lines,proseleft감→right지해,conclusion anddecorative repeatedtitle. Complete finalsource before107advertisement and108nextarticle.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 107,
@@ -2821,8 +2898,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "FAT incoming prose,bit-layout diagram,directory introduction,table8full64-row dump and entry-layout diagram."
+      "restoration": "complete-assembled-article",
+      "evidence": "FAT incoming prose,bit-layout diagram,directory introduction,table8full64-row dump and entry-layout diagram.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 83,
@@ -2831,8 +2909,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Directory summary,annotated table9,DOS usage introduction and table10sector12opening."
+      "restoration": "complete-assembled-article",
+      "evidence": "Directory summary,annotated table9,DOS usage introduction and table10sector12opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 84,
@@ -2841,8 +2920,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table10sector12endsA200;sector13startsA000 and continuesA0D8."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table10sector12endsA200;sector13startsA000 and continuesA0D8.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 85,
@@ -2851,8 +2931,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Sector13continuesA0E0throughA200;analysis and table11sector14opening."
+      "restoration": "complete-assembled-article",
+      "evidence": "Sector13continuesA0E0throughA200;analysis and table11sector14opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 86,
@@ -2861,8 +2942,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Sector14endsA200;machine-file analysis,cluster formula and table12sector32openingA000–A038."
+      "restoration": "complete-assembled-article",
+      "evidence": "Sector14endsA200;machine-file analysis,cluster formula and table12sector32openingA000–A038.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 87,
@@ -2871,8 +2953,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Incoming table12sector32A040–A1F8;ASCII-file discussion and table13directory openingA000–A058."
+      "restoration": "complete-assembled-article",
+      "evidence": "Incoming table12sector32A040–A1F8;ASCII-file discussion and table13directory openingA000–A058.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 88,
@@ -2881,8 +2964,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table13directoryA060–A158;cluster52 calculation;table14sector52A000–A178."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table13directoryA060–A158;cluster52 calculation;table14sector52A000–A178.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 89,
@@ -2891,8 +2975,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Sector52A180–A200,ASCII discussion,boot analysis,two-part screen15 and annotated bootdump16C000/C010."
+      "restoration": "complete-assembled-article",
+      "evidence": "Sector52A180–A200,ASCII discussion,boot analysis,two-part screen15 and annotated bootdump16C000/C010.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 90,
@@ -2901,8 +2986,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "BootdumpC020–C0F0;analysis;table17disassembly42instructions plus command;system-call introduction."
+      "restoration": "complete-assembled-article",
+      "evidence": "BootdumpC020–C0F0;analysis;table17disassembly42instructions plus command;system-call introduction.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 91,
@@ -2911,8 +2997,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "System intro ending,DOS entry heading,and17 entries00H–11H excluding unprinted0CH;11H continues at32바."
+      "restoration": "complete-assembled-article",
+      "evidence": "System intro ending,DOS entry heading,and17 entries00H–11H excluding unprinted0CH;11H continues at32바.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 92,
@@ -2921,8 +3008,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "11H incoming ending,14additional entry groups12H–23H including reserved1CH~20H,29H;17H column join;23H continues after써."
+      "restoration": "complete-assembled-article",
+      "evidence": "11H incoming ending,14additional entry groups12H–23H including reserved1CH~20H,29H;17H column join;23H continues after써.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 93,
@@ -2931,8 +3019,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "23H incoming prose;ten system-call entries26H–30H with2DH across columns;section6/table18read disassembly opening."
+      "restoration": "complete-assembled-article",
+      "evidence": "23H incoming prose;ten system-call entries26H–30H with2DH across columns;section6/table18read disassembly opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 94,
@@ -2941,8 +3030,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table18ending,read explanation,flowchart,write explanation and table19BASIC10–100 with annotated2Fchange."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table18ending,read explanation,flowchart,write explanation and table19BASIC10–100 with annotated2Fchange.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 95,
@@ -2951,8 +3041,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "BASIC110–240,machine-byte example,sector200dump20rows endingA098;section7/table21boot disassembly opening."
+      "restoration": "complete-assembled-article",
+      "evidence": "BASIC110–240,machine-byte example,sector200dump20rows endingA098;section7/table21boot disassembly opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 96,
@@ -2961,8 +3052,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table21disassembly continuation,annotated FCB dump with standalone00 and final disassembly rows throughC07C."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table21disassembly continuation,annotated FCB dump with standalone00 and final disassembly rows throughC07C.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 97,
@@ -2971,8 +3063,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Error dump with unaddressed first fragment,FCB prose/layout,section8editing keys,nine special-key entries and command example."
+      "restoration": "complete-assembled-article",
+      "evidence": "Error dump with unaddressed first fragment,FCB prose/layout,section8editing keys,nine special-key entries and command example.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 98,
@@ -2981,8 +3074,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Editing examples with boxed glyphs and column continuation저/장;section9six control keys and outgoingprose코드."
+      "restoration": "complete-assembled-article",
+      "evidence": "Editing examples with boxed glyphs and column continuation저/장;section9six control keys and outgoingprose코드.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 99,
@@ -2991,8 +3085,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Incomingcontrol-key explanation;single-drive guidance/example/illustration andautoexecution/batch processing opening."
+      "restoration": "complete-assembled-article",
+      "evidence": "Incomingcontrol-key explanation;single-drive guidance/example/illustration andautoexecution/batch processing opening.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 100,
@@ -3001,8 +3096,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Batchprose ending;boot-sector autoexecution introduction;table23assembly1000–1220 and firstbanner/annotations."
+      "restoration": "complete-assembled-article",
+      "evidence": "Batchprose ending;boot-sector autoexecution introduction;table23assembly1000–1220 and firstbanner/annotations.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 101,
@@ -3011,8 +3107,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table23assembly1230–1650 with secondbanner anddirection/coordinate/delay annotations."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table23assembly1230–1650 with secondbanner anddirection/coordinate/delay annotations.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 102,
@@ -3021,8 +3118,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table23assembly1660–2130 with VRAM/register diagram andannotations."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table23assembly1660–2130 with VRAM/register diagram andannotations.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     },
     {
       "pdf_page": 103,
@@ -3031,19 +3129,23 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "middle-native-complete;article-partial",
-      "evidence": "Table23assembly2140–2360,thirdbanner,three unnumberedbytewraps;BIOS GTTRIG/GTSTCK explanation anddirectionalkey mapping."
+      "restoration": "complete-assembled-article",
+      "evidence": "Table23assembly2140–2360,thirdbanner,three unnumberedbytewraps;BIOS GTTRIG/GTSTCK explanation anddirectionalkey mapping.",
+      "selected_package": "archive/pdf/1985-10/packages/msx-complete-r02"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-20",
-    "goal": "Assemble complete31-page MSX feature from six immutable natives msx-a/b/c/d/e/f.",
+    "id": "batch-21",
+    "goal": "Restore canonical0003,수치해석(4),by박재현,starting atPDF108/printed106.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0001"
+      "maso-1985-10-toc-0003"
     ],
-    "mapping_targets": "No new mapping orOCR. Preserve all sixnative packages/fullmetadata and every source uncertainty. Project all native category/range indexes and resolve five source-linked boundaries:80→81,86→87,92→93,98→99 and104→106 across advertisement105. Validate complete coverage,all ranges/assets/identities and independent byte-identical rebuild.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Inspect actual article extent and adjacent pages;map at mostPDF108–113 in this checkpoint. Reuse preserved107–108 views. Source title/byline visible on108;do not infer ending from next TOC entry or global folio offset. Preserve completeMSX package and sixnatives unchanged.",
+    "provisional_lookup_targets": [
+      107,
+      114
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -3054,7 +3156,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "MSX all31bodypagesPDF75–104and106 restored in siximmutable natives;105advertisement excluded. No bodypages remain;complete article assembly pending. Another25 identities,cover selection,remaining source-page accounting and closeout remain;no global page offset inferred."
+    "MSX complete31bodypagesPDF75–104and106 assembled;105advertisement excluded. No MSX bodypages/OCR/assembly pending. Another25 identities,cover selection,remaining268-page accounting,standalone index/report,independentissue rebuild and closeout remain. No global page offset inferred."
   ],
   "reader_rebuild": false
 }

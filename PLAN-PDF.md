@@ -24,34 +24,44 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step 12. Thirteen of 39 canonical entries are
-readable and assistant sample-reviewed: 편집자 노트, 애독자 광장, 입력이 힘드십니까?,
-QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FORMAT II, DEF,
-가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
-and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
+October 1985 restoration is active under step 12. Fourteen of 39 canonical entries
+are readable and assistant sample-reviewed; no article is currently partial and
+25 identities remain unresolved. The newly completed article is canonical0001,
+특집 : MSX의 모든 것 by 심규석.
 
-All31 MSX body pages are now restored:printed73–102 and104/PDF75–104 and106,
-across six immutable packages `archive/pdf/1985-10/packages/msx-a` through `msx-f`.
-The article remains partial until assembly. Latest batch19 restores finalPDF106:
-all47 files match an independent rebuild;11 regions yield8 blocks and2 originals.
-Two BASIC listings retain nine printed lines,78 DATA fields andtwo strings. Table25
-has1000–1040;table26has50/60/70/90 with no invented80. The 감/지해 prose join is explicit.
+Batch20 assembles all31 body pages,printed73–102 and104/PDF75–104 and106,
+into `archive/pdf/1985-10/packages/msx-complete-r02`. All1,217 files match an
+independent rebuild. All1,208 files from the six immutable msx-a through msx-f
+packages remain exact. The complete article retains335 regions,195 joined blocks
+and62 original images. Advertisement105 is excluded;107 is another advertisement
+and108 begins 수치해석 (4).
 
-All11 exact crops reviewed before9 tasks (2eng/7kor+eng);all drafts read before one
-source pass. No crop/OCR repairs or retries. All427 UTF8 ranges,467 evidence pins
-and11 images validate;12,714 prior files,18 inventories and30 core pins remain exact.
-Fresh213-test batch01 baseline reused. Five whole-page views104–108 reused unchanged.
-Source DATAE E,DEFUSR0,C01EH/512/논리섹터20/FFFH and differing program bytes remain
-literal. Table25line1020has14 trailing zeros;table26line70has12. Original diagram
-labels await volunteers. No code execution or historical/technical verification.
+Five native boundaries are verified. The80→81 boundary starts the FAT section;
+sector32 joins A038→A040 across86→87. Three prose joins are 써→넣는다.,
+코드→에 해당되는 and 카피→명령을 across advertisement105. Only the last adds
+an editorial word space. All27 listing groups/999 physical code rows retain the
+exact concatenated native listing bytes. All2,000 physical text rows remain indexed.
 
-Advertisement105 is excluded;107 is another advertisement and108 starts 수치해석 (4).
-No MSX body pages remain. Next is batch20:assemble all six immutable natives into
-one complete article, preserving their full metadata, local indexes and uncertainties.
-Check all five native boundaries,including104카피→106명령을 across advertisement105;
-validate every range/asset and an independent rebuild. No new mapping or OCR needed.
-Remaining25 identities,cover selection,page accounting and closeout follow.
-Keep two-task/six-mapped-page/twenty-outside-lookup limits. No reader rebuild.
+All67 metadata categories survive through402 explicit slices,including empty and
+absent categories;26 objects,24 reserved lists,six scalars and199 original block
+parts also validate. All64,994 UTF8 range occurrences,67,745 evidence pins and335
+images pass. All12,924 prior files,19 inventories and30 core pins remain unchanged;
+the fresh213-test batch01 baseline is reused. Four negative cases are rejected.
+The first assembly's missing adjacent-page source-root label was caught by the
+broader verifier;both versions and rebuilds remain. Revision02 changes complete
+metadata only;source text,maps,assets and natives are identical.
+
+No new mapping,rendering,OCR or source correction was needed. Nineteen exact stale
+stage notes resolve only in active status;all original metadata and uncertainties
+remain. Human acceptance/full proofreading,source encoded bytes,glyph counts,
+historical/technical claims and code execution remain unverified. Original diagram
+labels await volunteers. No MSX body pages or assembly remain pending.
+
+Next is batch21: inspect and restore canonical0003,수치해석 (4) by 박재현,
+starting printed106/PDF108. Inspect actual extent;map at most108–113 and reuse
+107–108 views. Keep two-task/six-mapped-page/twenty-outside-lookup limits.
+Remaining25 identities,cover selection,268-page accounting,standalone index/report,
+independent issue rebuild and closeout remain. No reader rebuild.
 Details:[October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
