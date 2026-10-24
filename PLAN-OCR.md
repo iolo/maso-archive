@@ -20,20 +20,21 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1985 is active: thirteen readable/sample-reviewed entries, one partial
-  and 25 unresolved. MSX opening printed 73–78 / PDF75–80 is partial at `packages/msx-a`;
-  all 185 files independently match. It retains 24 BASIC rows / 39 DATA fields,
-  88 dump rows / 882 byte fields, 106 table body cells / 23 headers, eight joins,
-  two source markers and twelve originals. Diagram labels await volunteers.
-  All 53 exact crops reviewed before 41 tasks (six eng, 35 kor+eng); all drafts read
-  before one source pass. Zero OCR failures, retries or crop repairs. All 5,228
-  ranges / 5,370 pins validate; all 7,739 prior files / 30 core pins remain exact.
-  Fresh 213-test batch 01 baseline reused. Full MSX assembly remains pending.
-  Ending104/PDF106 is verified across advertisement105;107 is an advertisement,
-  108 starts 수치해석 (4). Interior82–103 is uninspected, so full body continuity
-  remains unverified. Next batch 15: inspect and map at most PDF81–86, adjacent80/87;
-  reuse80–81 and preserve msx-a. Remaining identities, cover/accounting/closeout remain.
+  and 25 unresolved. MSX printed73–84/PDF75–86 is restored in immutable msx-a/msx-b.
+  Latest batch15/msx-b:206 files independently match;59 regions/24 blocks/13 originals,
+  six dump groups331 rows/2,648 byte fields,23 header rows and22 source joins.
+  Sector32 continuesA038/PDF86→A040/PDF87. Diagram labels await volunteers.
+  All59 final crops reviewed before46 tasks (24eng/22kor+eng);all raws read before
+  one source pass. Four pre-OCR crop repairs retained;zero OCR failures/retries.
+  All10,735 ranges/10,895 pins/59 images validate;8,504 prior files/30 core pins exact.
+  Fresh213-test batch01 baseline reused. Printed3574,SLMPLE,FEH/FFH,extraA200 rows
+  and faint hex-field candidates remain explicit. Full MSX assembly remains pending.
+  Ending104/PDF106 is verified across advertisement105;107advertisement/108수치해석(4).
+  Interior88–103 remains uninspected. Next batch16:map at most87–92,adjacent86/93;
+  reuse86–87,preserve both natives and continue sector32 explicitly. Remaining
+  identities,cover/accounting/closeout remain. No reader rebuild.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
+  Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

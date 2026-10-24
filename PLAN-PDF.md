@@ -30,30 +30,30 @@ QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FOR
 가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
 and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
 
-The MSX feature is now partial: its opening printed 73–78 / PDF 75–80 is restored
-at `archive/pdf/1985-10/packages/msx-a`. All 185 files match the independent rebuild.
-The 53 regions yield 33 blocks and 12 originals, including a two-page flowchart,
-sector-layout diagram and annotated boot dump. Twenty-four BASIC rows retain
-39 DATA fields; two dumps retain 88 rows / 882 byte fields. Two numeric tables
-retain 106 body cells / 23 header cells. Eight joins and two explicit source markers
-validate. Printed errors, single-digit hex, DATAE and the AB·FC dot candidate remain.
-Diagram-label transcription awaits volunteers; all original pixels are retained.
+The MSX feature remains partial, with printed 73–84 / PDF75–86 restored in two
+immutable packages: `archive/pdf/1985-10/packages/msx-a` and `packages/msx-b`.
+The latest six-page segment (batch 15) has 206 files matching its independent rebuild.
+Its 59 regions yield 24 blocks and 13 original images. Six dump groups retain
+331 rows / 2,648 byte fields, 23 header rows and 22 source joins. The sector32 dump
+continues from A038 on PDF86 to A040 on PDF87; that outgoing join awaits assembly.
+Diagram labels await volunteers; all original pixels remain complete.
 
-All 53 crops reviewed before 41 tasks (six eng, 35 kor+eng); all drafts read before
-one source pass. Zero OCR failures, retries or crop repairs. All 5,228 UTF8 ranges /
-5,370 evidence pins / 53 images validate. All 7,739 prior October files and 30 core
-implementation pins remain exact; the fresh 213-test batch 01 baseline is reused.
-Thirteen entries are readable, one partial and 25 unresolved. Cover selection,
-source-page accounting and issue closeout remain. No reader rebuild.
+All 59 final crops were reviewed before 46 tasks (24 eng, 22 kor+eng), and all
+raws read before one source pass. Four crops were repaired before OCR to avoid
+clipping row tops; both revisions remain. Zero OCR failures or retries. All 10,735
+UTF8 ranges / 10,895 evidence pins / 59 images validate. All 8,504 prior October
+files and 30 core pins remain exact; the fresh 213-test batch 01 baseline is reused.
+Printed3574, SLMPLE, conflicting FEH/FFH, extra A200 rows and faint field candidates
+remain explicit. Thirteen entries are readable, one partial and 25 unresolved.
+Cover selection, source-page accounting and issue closeout remain. No reader rebuild.
 
-MSX ends on printed 104 / PDF 106, after inserted advertisement PDF105; PDF107 is
-another advertisement and PDF108 starts 수치해석 (4). These verified endpoints do
-not establish continuity through uninspected PDF82–103. Remaining pages and complete
-article assembly are pending. Next is batch 15: inspect and restore the next MSX
-segment from printed 79 / PDF81, mapping at most PDF81–86 and checking adjacent80/87.
-Reuse saved PDF80–81. Preserve msx-a unchanged; exclude any intervening advertisements
-as they are found. Keep the two-task/six-mapped-page/twenty-outside-lookup limits.
-Details: [October log](docs/progress/8510.md) and
+MSX ends on printed104/PDF106 after inserted advertisement105;107 is another
+advertisement and108 starts 수치해석 (4). Interior88–103 is still uninspected.
+Next is batch 16: inspect and restore from printed85/PDF87, mapping at most87–92
+and checking adjacent86/93. Reuse saved86–87; preserve both natives unchanged.
+Continue the sector32 dump explicitly and exclude intervening advertisements as found.
+Keep the two-task/six-mapped-page/twenty-outside-lookup limits. Full article assembly
+remains pending. Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23
