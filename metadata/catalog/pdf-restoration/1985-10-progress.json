@@ -2888,15 +2888,19 @@
         "Prose explanation252right ends 바깥/쪽 루프 변수인 I는 데 andcontinues255left 이터의 갯수를 지정하/고;255leftlast 검은 돌이 놓여→256leftfirst 지게 한다.;256leftlast 끝났으면1690행으로→253leftfirst 가고 그렇지 않으면630.253endseditorialtranslationcreditclaim 마이컴 베이직 매거진1985년3월호;not aninventedindividualbyline.",
         "PrintedBASIClisting1 begins255100–590,continues256600–1070,then2531080–1550,2541560–2050,2572060–2230. Current251–256 includesfourlistingpanels. Keepnative physicalorder andexplicitlogicalpageorder separate. No missingrowsyntheses,renumbering,opcode/grammar/strategychecks orcodeexecution.",
         "252board-to-data diagram andtwo boardexamples retainedaspixels;254flowchart labels awaitvolunteers. Separateprogram-explanation prose andright-side bracketannotations transcribedwiththeir ownranges.252data rows includeastruckthroughfirstline;keep sourceink/strikethroughoriginal andliteralcandidate separately.",
-        "251whiteproseoverboardphoto mayyield OCRomissions;originalpanel retained. Everyeligibletextcrop reviewedbeforeOCR. Current6bodypages only;257finalpageandfullassembly deferred."
+        "251whiteproseoverboardphoto mayyield OCRomissions;originalpanel retained. Everyeligibletextcrop reviewedbeforeOCR. Current6bodypages only;257finalpageandfullassembly deferred.",
+        "Four saved whole views254,256,257,258 inspected. Final257/printed255 ends Othello with listing2060–2230 RETURN, side annotation 사운드 및 음악/서브루틴 and uncaptioned cartoon. Independent258 program-tape advertisement is outside article.",
+        "Priorphysical256 ends1070 INKEY$; priorlogical254 ends2050 SOUND10,0. The numbered listing continues254→257 despite physical255/256 between them. Keep physicalpageorder and separate logical listing255→256→253→254→257.",
+        "Current257 has eighteen printed BASIC rows,including two quoted PLAY strings. Preserve faint left-side digits, O/0 andS/5 candidates literally; no inferred execution or grammar corrections. Bracket connects to sound section begun254; source-local annotation and pixels retained.",
+        "Finalbodypage only; immutable opening251–256 remains unchanged. Seven bodypages are covered after this segment, but fullarticleassembly remains pending. No title/byline invented on endingpage."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/othello-a",
+        "directory": "archive/pdf/1985-10/packages/othello-b",
         "article_id": "scan-maso-1985-10-toc-0035",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/othello-a/manifest.json",
-          "sha256": "5513200da43eeec899fdfa844a2a18cce54c4ae7233cad640c195032a36560b0",
-          "bytes": 29097
+          "path": "archive/pdf/1985-10/packages/othello-b/manifest.json",
+          "sha256": "705b9d840c459d29cb8ab2226708264baa7710196ae74808465f2c60d40a0df7",
+          "bytes": 3064
         },
         "coverage": {
           "pdf_pages": [
@@ -2905,7 +2909,8 @@
             253,
             254,
             255,
-            256
+            256,
+            257
           ],
           "printed_pages": [
             "249",
@@ -2913,15 +2918,14 @@
             "251",
             "252",
             "253",
-            "254"
+            "254",
+            "255"
           ],
-          "regions": 48,
-          "blocks": 38,
-          "figures": 10,
-          "coverage_scope": "First six source pages of verified seven-page article. Final257/full assembly pending.",
-          "deferred_pdf_pages": [
-            257
-          ],
+          "regions": 52,
+          "blocks": 40,
+          "figures": 12,
+          "coverage_scope": "Cumulative seven-page coverage of two immutable natives;directory/manifest selectendingonly;fullassembly pending.",
+          "deferred_pdf_pages": [],
           "full_extent_candidate_pdf_pages": [
             251,
             252,
@@ -2932,8 +2936,8 @@
             257
           ],
           "uninspected_interior_pdf_pages": [],
-          "body_pages_complete": false,
-          "full_extent_status": "Verified seven-page article251–257/printed249–255; 250,258,259 independent advertisements;260 classified opening."
+          "body_pages_complete": true,
+          "full_extent_status": "Verified seven-page article251–257/printed249–255;allbodypages restored. Fullassembly pending."
         },
         "segments": [
           {
@@ -2971,19 +2975,45 @@
               "sha256": "494ad3eaf0035202a05d49d6faa24ea44b17b31aecc3a2bfac30af3b4927f0af",
               "bytes": 1331
             }
+          },
+          {
+            "id": "othello-b",
+            "directory": "archive/pdf/1985-10/packages/othello-b",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/othello-b/manifest.json",
+              "sha256": "705b9d840c459d29cb8ab2226708264baa7710196ae74808465f2c60d40a0df7",
+              "bytes": 3064
+            },
+            "pdf_pages": [
+              257
+            ],
+            "printed_pages": [
+              "255"
+            ],
+            "availability": "partial",
+            "validation": {
+              "path": "archive/pdf/1985-10/restoration/batch-58/validation.json",
+              "sha256": "7aab20287271052b9566e88ae0953def4582d1a1df6e85636b97ffdeb49b409b",
+              "bytes": 2358
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-10/restoration/batch-58/reproduction.json",
+              "sha256": "5ca828a7a5abae4671e4adae6141d03824e0fe41be606a447daff9765ac056e1",
+              "bytes": 1323
+            }
           }
         ],
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-57/validation.json",
-          "sha256": "31010446512bdbd8376eceafc80444184d4050b27c1e136b84aacb2e9cfee269",
-          "bytes": 2458
+          "path": "archive/pdf/1985-10/restoration/batch-58/validation.json",
+          "sha256": "7aab20287271052b9566e88ae0953def4582d1a1df6e85636b97ffdeb49b409b",
+          "bytes": 2358
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-57/reproduction.json",
-          "sha256": "494ad3eaf0035202a05d49d6faa24ea44b17b31aecc3a2bfac30af3b4927f0af",
-          "bytes": 1331
+          "path": "archive/pdf/1985-10/restoration/batch-58/reproduction.json",
+          "sha256": "5ca828a7a5abae4671e4adae6141d03824e0fe41be606a447daff9765ac056e1",
+          "bytes": 1323
         }
       }
     },
@@ -6178,6 +6208,51 @@
         257
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-58",
+      "status": "complete",
+      "stage": "validated-ending-segment",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0035"
+      ],
+      "mapped_pdf_pages": [
+        257
+      ],
+      "outside_map_lookup_pages": [
+        254,
+        256,
+        258
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 2,
+      "eng_code_tasks": 1,
+      "kor_eng_tasks": 1,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "changed_crop_regions": 0,
+      "all_selected_crops_reviewed_before_ocr": true,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-58/validation.json",
+        "sha256": "7aab20287271052b9566e88ae0953def4582d1a1df6e85636b97ffdeb49b409b",
+        "bytes": 2358
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-58/verification-completed.json",
+        "sha256": "daa91a79275dc86d338e8a1e26a19fb3d126e0dbd3edb4ca22f1ac498e83732a",
+        "bytes": 1262
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-58-preserved-work.json",
+        "sha256": "57e2db845b71c1d5c2914673cbde709f0879a2f6b6ea44252834906a0b0af906",
+        "bytes": 16463999
+      },
+      "started_at": "2026-10-24T23:39:56.072744+00:00",
+      "finished_at": "2026-10-24T23:44:04.517628+00:00",
+      "timing_scope": "Wallclock includeswaits/gaps;activehumaneffort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -9124,12 +9199,13 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "not-started",
-      "evidence": "Verified final Othello page: listing2060–2230 RETURN and cartoon; final transcription/assembly deferred.",
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/othello-b",
+      "evidence": "Final257 sourcecorrected:18literal BASIC entries2060–2230 RETURN,twoPLAYstrings,24SOUNDfields,sideannotation anduncaptionedcartoon. Logicalincoming254→257 distinctfromphysical256→257. Fullassembly pending.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
-        "sha256": "ac47e45ec846bc5cf46691bed4b4f4a1a910c626722c661e861b591cb2edd5c4",
-        "bytes": 8247
+        "path": "archive/pdf/1985-10/restoration/batch-58/source-reviewed.json",
+        "sha256": "66f1d6e15d027246ce980b57499a2294da8872106b63b4b10af94661a530c16b",
+        "bytes": 4433
       }
     },
     {
@@ -9174,29 +9250,26 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-58",
-    "goal": "Restore final Othello0035 page PDF257/printed255, then assemble the complete seven-page article in a separate checkpoint.",
+    "id": "batch-59",
+    "goal": "Assemble complete seven-page 게임 : 오델로 묘수풀이0035 from two exact immutable native packages.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0035"
     ],
-    "mapping_targets": "Reuse reviewed whole257 and adjacent256/258 views. Preserve final listing2060–2230 RETURN, annotations/cartoon/original pixels. Incoming logical listing connection is254 last2050→257 first2060 despite intervening physical255/256 pages. Keep all physical scans and text in source order; preserve explicit logical listing255→256→253→254→257 and explanation252→255→256→253. No game execution or semantic/strategy repair.",
-    "provisional_lookup_targets": [
-      254,
-      256,
-      257,
-      258
-    ],
+    "mapping_targets": "No newmapping/OCR/sourcecorrection. Preserveopening251–256 andending257,alllocalindexes/candidates/strikethrough/underlines/emptyarguments/boardpixels. Projectevery ownregionrange andnativecategory occurrence reversibly. Keep sourcephysicalpage/downloadorder,explicit logical listing255→256→253→254→257 andexplanation252→255→256→253. Crossnative listing254→257 connects2050→2060 despitephysical255/256 between;do not reorder downloads. Verify final2230RETURN/cartoon andindependent258ad. Preserveexistingnineprivateadapters;add privateadapter ifneeded. No game/semantic/strategyrepair orexecution.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    }
+    },
+    "new_source_pages": 0,
+    "new_ocr_tasks": 0
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Othello0035 partial: first six pages251–256 covered; final257 and complete assembly pending.30 readable,1 partial,8 unresolved. Preserve source physical page order with separate logical listing/explanation indexes, four physical BASIC wraps, struck-through data row, PRIN#1/UAST/1050 apostrophe/1530 comma candidates and all board/flowchart original pixels. Retain all nine private assembly adapters. Cover,268-page accounting,index/report,independent issue rebuild and closeout remain. Human acceptance/full proofreading,source bytes/spacing/claims/execution unverified. No reader rebuild."
+    "Othello0035 partial:allsevenpages251–257 covered in two immutable natives;fullassembly pending.30readable,1partial,8unresolved. Physicalsourceorder separatefromlogical listing/explanation order. Preserveallpriorcandidates,sourceink anddiagramvolunteerwork;final18BASICrows,24SOUNDfields,twoPLAYstrings,nonadjacent254→257 listingedge,2230RETURN andcartoon literal. Allnineprivateadapters retained. Cover,268pageaccounting,index/report,independentissuerebuild andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/claims/execution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
