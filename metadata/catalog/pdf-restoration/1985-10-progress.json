@@ -1746,15 +1746,21 @@
         "Four prose word continuations:incoming860 from183,1140 돌/아가고 on184,1630 시/작점 on185,and2980~3070 지/정한다 on187. Source routine labels and prose are not executable code.",
         "Hex dump mapped one column per region;retain row addresses,eight byte fields and trailing printed checksum independently. No byte/checksum/opcode repair.",
         "BASIC mapped one column per region;physical wraps,duplicate0 labels,graphic company-name lettering and reverse-video key glyphs require source-linked review. Exact encoded bytes/glyph identity remain unverified.",
-        "List1 andlist2 captions link only to their respective listing groups. Incoming listing continuation at188 and internal basic column/page boundaries remain explicit."
+        "List1 andlist2 captions link only to their respective listing groups. Incoming listing continuation at188 and internal basic column/page boundaries remain explicit.",
+        "Canonical0020 아롱다롱/이지상 spans178–193. Current189–194 whole views inspected;191 fills previous uninspected interior. Earlier178–189 evidence unchanged. Canonical0019 뷰티풀 텍스트/김덕현 opens194/printed192.",
+        "PDF189 ends BASIC900;190 starts910. PDF190 right1520 ends :P;191 left starts LAY\"D4\". PDF191 left1800 continues in right column. PDF192 right2850 ends -6,;193 left starts H$:NEXT:EY=EY+YT+1. Retain physical wraps without inserting code characters.",
+        "PDF190–193 continuous BASIC listing,through3470 RETURN on193 right. Uncaptioned original illustration below listing ends article. No advertisement or independent feature in mapped pages.",
+        "Final four pages only. Opening arong-a and middle arong-b stay immutable;separate assembly required for complete16-page article. No claim of executable or encoded-byte accuracy.",
+        "Eight code columns mapped in reading order;graphic key symbols1020–1050 and quoted blank widths retained as source-linked uncertainties.",
+        "Complete originals retain borders,folios,code typography and artwork. Ending art also mapped separately without invented caption."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/arong-b",
+        "directory": "archive/pdf/1985-10/packages/arong-c",
         "article_id": "scan-maso-1985-10-toc-0020",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/arong-b/manifest.json",
-          "sha256": "8c90bd2fa7a46f3e9299af8eb36ce88fae927eb72ab6e294ef7392840b5e1664",
-          "bytes": 18863
+          "path": "archive/pdf/1985-10/packages/arong-c/manifest.json",
+          "sha256": "a0708adcba51d3c3d1e4922038f98f9fe184d3a4fa13bebff1f906a25da1f9da",
+          "bytes": 7686
         },
         "coverage": {
           "pdf_pages": [
@@ -1769,7 +1775,11 @@
             186,
             187,
             188,
-            189
+            189,
+            190,
+            191,
+            192,
+            193
           ],
           "printed_pages": [
             "176",
@@ -1783,18 +1793,17 @@
             "184",
             "185",
             "186",
-            "187"
+            "187",
+            "188",
+            "189",
+            "190",
+            "191"
           ],
-          "regions": 103,
-          "blocks": 60,
-          "figures": 12,
-          "coverage_scope": "Cumulative twelve-page coverage of two immutable native segments. Directory/manifest select latest middle segment only;complete article assembly pending.",
-          "deferred_pdf_pages": [
-            190,
-            191,
-            192,
-            193
-          ],
+          "regions": 116,
+          "blocks": 61,
+          "figures": 17,
+          "coverage_scope": "Cumulative16-page coverage of3 immutable native segments;16 full originals and1 separately cropped ending art. Directory/manifest selectlatest endingsegment only;completearticle assembly pending.",
+          "deferred_pdf_pages": [],
           "full_extent_candidate_pdf_pages": [
             178,
             179,
@@ -1813,21 +1822,19 @@
             192,
             193
           ],
-          "uninspected_interior_pdf_pages": [
-            191
-          ],
-          "body_pages_complete": false
+          "uninspected_interior_pdf_pages": [],
+          "body_pages_complete": true
         },
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-39/validation.json",
-          "sha256": "54884cb6666e540b2ff6d16b6037bbda8e45a46fddbb389f732891c9814df7ab",
-          "bytes": 2558
+          "path": "archive/pdf/1985-10/restoration/batch-40/validation.json",
+          "sha256": "94143e770cdedaa64a7987929f8fa948af350e92ba2f9391f204f004ca7cab6a",
+          "bytes": 2530
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-39/reproduction.json",
-          "sha256": "e97f6389d8464da17a2e65eccc48e5f9d36e97c3c97490ee346cf96cdced95fe",
+          "path": "archive/pdf/1985-10/restoration/batch-40/reproduction.json",
+          "sha256": "7fcbc27b2fec7809ae240e2b1100f133bf8c6ce9a2a2a10cca9c4b2b391dd4e9",
           "bytes": 1260
         },
         "segments": [
@@ -1900,6 +1907,38 @@
             "reproduction": {
               "path": "archive/pdf/1985-10/restoration/batch-39/reproduction.json",
               "sha256": "e97f6389d8464da17a2e65eccc48e5f9d36e97c3c97490ee346cf96cdced95fe",
+              "bytes": 1260
+            }
+          },
+          {
+            "id": "arong-c",
+            "directory": "archive/pdf/1985-10/packages/arong-c",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/arong-c/manifest.json",
+              "sha256": "a0708adcba51d3c3d1e4922038f98f9fe184d3a4fa13bebff1f906a25da1f9da",
+              "bytes": 7686
+            },
+            "pdf_pages": [
+              190,
+              191,
+              192,
+              193
+            ],
+            "printed_pages": [
+              "188",
+              "189",
+              "190",
+              "191"
+            ],
+            "availability": "partial",
+            "validation": {
+              "path": "archive/pdf/1985-10/restoration/batch-40/validation.json",
+              "sha256": "94143e770cdedaa64a7987929f8fa948af350e92ba2f9391f204f004ca7cab6a",
+              "bytes": 2530
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-10/restoration/batch-40/reproduction.json",
+              "sha256": "7fcbc27b2fec7809ae240e2b1100f133bf8c6ce9a2a2a10cca9c4b2b391dd4e9",
               "bytes": 1260
             }
           }
@@ -4227,6 +4266,52 @@
         193
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-40",
+      "status": "complete",
+      "stage": "validated-partial-article-ending",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "mapped_pdf_pages": [
+        190,
+        191,
+        192,
+        193
+      ],
+      "outside_map_lookup_pages": [
+        189,
+        194
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 8,
+      "eng_code_tasks": 8,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-40/validation.json",
+        "sha256": "94143e770cdedaa64a7987929f8fa948af350e92ba2f9391f204f004ca7cab6a",
+        "bytes": 2530
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-40/verification-completed.json",
+        "sha256": "fb5097455913a960466b19adecc4219d0afa745ae24644d5ec51db46fe3074a5",
+        "bytes": 1003
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-40-preserved-work.json",
+        "sha256": "e83530eab13917c7620d001417d9bf2f1fdcc6954c1666da3e2edfef1ceda80e",
+        "bytes": 11170995
+      },
+      "started_at": "2026-10-24T19:12:35.799837+00:00",
+      "finished_at": "2026-10-24T19:23:58.328245+00:00",
+      "timing_scope": "Prospective wallclock includeswaits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [],
+      "body_pages_complete": true,
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -6083,46 +6168,65 @@
     {
       "pdf_page": 190,
       "printed_page": "188",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0020"
       ],
-      "restoration": "not-started",
-      "evidence": "BASIC continues910 after189 line900. Last190 line1520 physically continues beyond page. Source viewed only;191 uninspected. Next bounded segment190–193.",
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-c",
+      "evidence": "Source-corrected final 아롱다롱190–193:257 numbered BASIC entries910–3470/359 physicalrows,three cross-panel logicalwraps andending artwork. Allbodypages178–193 nowcovered;complete immutable assembly pending.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-39/source-reviewed.json",
-        "sha256": "19455004b9f41b98cef034ae93409ca934d1a00e2beb8be203bbdcc65f73ee05",
-        "bytes": 7286
+        "path": "archive/pdf/1985-10/restoration/batch-40/source-reviewed.json",
+        "sha256": "130f4c9b5d45d78cab4340d380724e09a3e46fce7d139b9714dd2eefff751735",
+        "bytes": 5685
+      }
+    },
+    {
+      "pdf_page": 191,
+      "printed_page": "189",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-c",
+      "evidence": "Source-corrected final 아롱다롱190–193:257 numbered BASIC entries910–3470/359 physicalrows,three cross-panel logicalwraps andending artwork. Allbodypages178–193 nowcovered;complete immutable assembly pending.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-40/source-reviewed.json",
+        "sha256": "130f4c9b5d45d78cab4340d380724e09a3e46fce7d139b9714dd2eefff751735",
+        "bytes": 5685
       }
     },
     {
       "pdf_page": 192,
       "printed_page": "190",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0020"
       ],
-      "restoration": "not-started",
-      "evidence": "184 begins860 continuation 반전시킨다. and more routine explanations.192 has BASIC2120–2850;193 opens physical wrap and ends3470 RETURN then original art. Endpoints verified;185–191 continuity uninspected.",
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-c",
+      "evidence": "Source-corrected final 아롱다롱190–193:257 numbered BASIC entries910–3470/359 physicalrows,three cross-panel logicalwraps andending artwork. Allbodypages178–193 nowcovered;complete immutable assembly pending.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
-        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
-        "bytes": 9318
+        "path": "archive/pdf/1985-10/restoration/batch-40/source-reviewed.json",
+        "sha256": "130f4c9b5d45d78cab4340d380724e09a3e46fce7d139b9714dd2eefff751735",
+        "bytes": 5685
       }
     },
     {
       "pdf_page": 193,
       "printed_page": "191",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0020"
       ],
-      "restoration": "not-started",
-      "evidence": "184 begins860 continuation 반전시킨다. and more routine explanations.192 has BASIC2120–2850;193 opens physical wrap and ends3470 RETURN then original art. Endpoints verified;185–191 continuity uninspected.",
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-c",
+      "evidence": "Source-corrected final 아롱다롱190–193:257 numbered BASIC entries910–3470/359 physicalrows,three cross-panel logicalwraps andending artwork. Allbodypages178–193 nowcovered;complete immutable assembly pending.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
-        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
-        "bytes": 9318
+        "path": "archive/pdf/1985-10/restoration/batch-40/source-reviewed.json",
+        "sha256": "130f4c9b5d45d78cab4340d380724e09a3e46fce7d139b9714dd2eefff751735",
+        "bytes": 5685
       }
     },
     {
@@ -6158,20 +6262,13 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-40",
-    "goal": "Restore final 아롱다롱 pagesPDF190–193/printed188–191,then schedule complete immutable assembly.",
+    "id": "batch-41",
+    "goal": "Assemble complete 아롱다롱 PDF178–193/printed176–191 fromthree exact immutable native segments.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0020"
     ],
-    "mapping_targets": "Inspect191 continuity and190–193 listings,retaining physical wraps,graphic key symbols and ending art. Preserve incoming BASIC900→910 and page190 line1520 continuation. Opening178–183 andmiddle184–189 remain immutable. Full assembly is a separate checkpoint after coverage verification. Canonical0019 opens194/192;parent0017 pending.",
-    "provisional_lookup_targets": [
-      189,
-      190,
-      191,
-      192,
-      193,
-      194
-    ],
+    "mapping_targets": "No newmapping/OCR. Preserve all native correction metadata,indexes,source candidates,graphic/blank markers andoriginals. Resolve A→B routine860 prose andB→C BASIC900→910;retain nativeinternal joins and1520/1800/2850 physicalwraps. Reproject everycombined UTF8range andretain prior-download source-localranges. Complete independent assembly rebuild andcanonical/coverage verification.0019 opens194/192;parent0017 pending.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -6182,7 +6279,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "아롱다롱0020 has12 restored pages178–189 in two immutable natives;final190–193 and complete assembly pending.191 uninspected. Currentmiddle retains130 routine explanations,185 hex rows/1480 bytes,94 numbered BASIC entries/125 physical rows,19 joins,3 graphic markers and2 unknown blank widths.20 readable,1 partial,18 unresolved. Canonical0019 opens194/192;parent0017 pending. Cover,268-page accounting,index/report,independent issue rebuild andcloseout pending. Keep batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Human acceptance/full proofreading,source bytes/claims/execution unverified."
+    "아롱다롱0020 hasall16 bodypages178–193 in3 immutable natives;completeassembly pending. Finalsegment retains257 numbered BASICentries/359physicalrows,7 joins,8 graphic markers,6 unknownblankwidths andending art. Total BASIC351 numberedentries/484physicalrows;four initial0 comments retained.20 readable,1 partial,18 unresolved. Canonical0019 opens194/192;parent0017 pending. Cover,268-pageaccounting,index/report,independentissue rebuild andcloseout pending. Keep batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Human acceptance/fullproofreading,sourcebytes/claims/execution unverified."
   ],
   "reader_rebuild": false
 }

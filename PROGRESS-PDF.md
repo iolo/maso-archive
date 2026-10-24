@@ -10,31 +10,33 @@ October 1985 restoration continues under step 12: **20 readable/sample-reviewed
 entries, one partial article and 18 unresolved**, accounting for all 39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch 39 restores the middle of canonical0020 **아롱다롱** by 이지상,
-PDF184–189 / printed182–187, at `archive/pdf/1985-10/packages/arong-b`.
-All 111 files match an independent rebuild. This partial segment retains 30 regions,
-24 corrected text regions, five blocks and six complete original page images.
-Opening `arong-a` remains immutable; twelve pages178–189 are now preserved in two natives.
+Batch 40 restores the final four pages of canonical0020 **아롱다롱** by 이지상,
+PDF190–193 / printed188–191, at `archive/pdf/1985-10/packages/arong-c`.
+All 46 files match an independent rebuild. This partial segment retains 13 regions,
+eight corrected code panels, one code block, four complete original pages and the
+separately cropped ending illustration. All16 bodypages178–193 are now preserved
+in three immutable natives: `arong-a`, `arong-b` and `arong-c`.
 
-The middle segment retains 130 routine explanations and two listing groups: a complete
-six-column hexadecimal dump with 185 rows/1,480 byte fields, and the BASIC opening with
-94 numbered entries/125 physical rows/92 DATA fields. Four repeated0 comments remain.
-Nineteen internal joins and the incoming860 explanation preserve source boundaries.
-Three graphic markers and two unknown blank-string widths retain their original scans.
-Repeated1500/2720 labels,YS/SY,source wording and code discrepancies remain literal.
+The ending retains257 numbered BASIC entries910–3470 and359 physicalrows,514 line
+fields and177 quoted strings. Seven panel joins retain three cross-panel logical
+wraps:1520,1800 and2850. Incoming900→910 links the middle native without merging
+logical lines. Eight graphic-key markers,six unknown blank-string widths and39
+candidate occurrences/30 notes retain original scans. Printed COLR,colon inside
+1970's quotedmusic string,A=A!2 and3000's adjacency/LX remain literal.
 
-All 13,676 UTF8 range occurrences,13,767 evidence pins and30 images validate. Five
-malformed cases reject,including repeated00 byte and1500 label references moved to
-wrong source occurrences. All 48,139 prior files,38 inventories and30 core pins remain
-exact;the unchanged213-test baseline is reused. New preservation inventory:48,623 files.
-All 30 exact crops reviewed before24 tasks (10 eng code,14 kor+eng);all drafts read
-before one source pass. No crop repairs,OCR retries,failed exports or core changes.
+All8,876 UTF8 ranges,8,913 evidence pins and13 images validate. Five malformed cases
+reject,including repeated1 token references moved to wrong occurrences and1520's
+wrap assigned to1530. All48,623 prior files,39 inventories and30 core pins remain
+exact;the unchanged213-test baseline is reused. New preservation inventory:48,848 files.
+All13 exact crops reviewed before8 eng tasks;all8 drafts read before one source
+pass. No crop repairs,OCR retries,failed exports or core changes.
 
-Next is **batch 40: restore 아롱다롱 PDF190–193 / printed188–191**. Page190 starts
-BASIC910 after current900;its1520 line continues onto191. Page191 remains uninspected.
-Verify those continuations and the final art,then assemble the three immutable segments
-in a separate checkpoint. Canonical0019 뷰티풀 텍스트 by김덕현 opens194/192 and remains
-pending;canonical order and parent 컴퓨터 그래픽0017 are unchanged.
+Next is **batch 41: assemble complete 아롱다롱 PDF178–193 / printed176–191**
+from the three exact natives. Preserve every native index,correction,source candidate
+and graphic/blank marker. Resolve A→B routine860 prose and B→C BASIC900→910 boundaries;
+reproject combined ranges while retaining prior-download source-local ranges.
+No new mapping or OCR is needed. Canonical0019 뷰티풀 텍스트 by김덕현 opens194/192
+and remains pending;canonical order and parent 컴퓨터 그래픽0017 are unchanged.
 
 Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining18 identities,
 cover selection,268-page accounting,standalone index/report,independent issue rebuild
