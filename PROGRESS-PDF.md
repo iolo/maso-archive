@@ -7,20 +7,21 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration is in progress: **14 of39 entries are readable and
-assistant sample-reviewed,one is partial and24 remain unresolved**. Batch22
-restores 수치해석(4),printed112–117/PDF114–119,in `packages/numerical-b`.
-Opening108–113 remains unchanged;12of15articlepages are restored. Final120–122
-and fullassembly remain. MSX remains complete. All240 middle-package files
-independently match.69regions/47blocks/15originals retain247FORTRANrows,
-60BASICrows,fouroutputpanels,two tables,15matrices andseven source joins.
-All7,460UTF8ranges/7,655pins/69images validate;21,642priorfiles/21inventories/
-30corepins remain exact. The213-test baseline is reused.54OCRtasks andone scan
-correction pass completed without recognition retries;fourpre-OCRcrop repairs
-and a verifier field-name failure/freshrevision remain preserved.
-Next:batch23,PDF120–122,thenfull15-pageassembly. Remaining identities,cover,
-268-pageaccounting,standaloneindex/report,independentissue rebuild andcloseout
-pending. Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified;
-graphlabels await volunteers. No reader rebuild.
+assistant sample-reviewed,one is partial and24 remain unresolved**. Batch23
+restores 수치해석(4), finalPDF120–122, in `packages/numerical-c`. All15 body pages
+108–122 are restored across three immutable natives; full article assembly remains.
+MSX remains complete. All53 final-package files independently match.14 regions,
+five blocks/four originals retain94 BASIC rows,213 visible FORTRAN ordinal rows,
+compiler header/summary,one caption andfive joins. Source95→97 and214/215 summary
+remain independent;two ink-damaged spans andsix bands remain explicit markers.
+All4,870 UTF8 ranges/4,917 pins/14 images validate;22,696 priorfiles/22 inventories/
+30 core pins remain exact. The213-test baseline is reused. Ten OCR tasks andone
+source correction pass completed without recognition retries. Three pre-OCRcrop
+repairs and an index-builder DATA/REM failure/fresh revision remain preserved.
+Next:batch24,full15-page assembly with allnative metadata andtwo external joins.
+Remaining identities,cover,268-page accounting,standalone index/report,independent
+issue rebuild andcloseout pending. Human acceptance/full proofreading/source bytes/
+claims/execution unverified;graph/illustration labels await volunteers. No reader rebuild.
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
