@@ -19,26 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:26 readable/sample-reviewed,zero partial articles,13 unresolved.
-  Batch47 completes 한글소트0037/김종순,PDF210–215/printed208–213 at
-  `packages/hangul-sort`:161 files independently exact;47 regions/29 blocks/12 originals.
-  Three independent listings retain198 numbered entries/371 nonblank code rows,
-  396 line fields,156 quotes/78 strings,6 codejoins including crosspage456 and4 prose
-  continuations. Four timing rows/22 fields/6 headers,four numeric rules,11 references;
-  nine box markers and10 unknown blank/leader bands. Source POGRAM,3의 됨.,FOR I 2 TO,
-  numeric/identifier wraps,0/O andfaintPRINT remain source-linked candidates;no execution.
-  All9,356 ranges/9,480 pins/47 images validate;8 malformed fixtures reject. All56,085
-  prior files/46 inventories/30 core pins exact;213-test baseline reused. Newinventory:56,814.
-  Nine wholeviews;6mapped/3outside/1task. Three preOCR crop repairs inspected;all47 crops
-  reviewed before35 tasks (9eng,26kor+eng),allraws read beforeone sourcepass. ZeroOCR
-  failures/retries/enginechanges. Builder/verifier syntax andsubgroup-offset failures
-  retained withfresh corrected scripts. No crop-review timing exception inthisbatch.
-  Nextbatch48:verifyextent/restoreopening 매직윈도우0038 from216/214;atmostsixpages,
-  segmentiflonger. Parent0036 and13unresolvedidentities,cover,268-pageaccounting,
-  index/report,independentissuerebuild andcloseout remain. Keep allsevenprivateassembly
-  adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified.
-  No readerrebuild. [October log](docs/progress/8510.md),
-  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+- October1985 active:26 readable/sample-reviewed,1 partial article,12 unresolved.
+  Batch48 restores 매직윈도우0038/박강수 opening216–221/214–219 at
+  `packages/magic-window-opening`:192files independentlyexact;58regions/42blocks/16originals.
+  Fullarticle216–229verified;229leftconclusion/glossary only,rightnoticeexcluded,folio null.
+  Fourversiontablerows/12cells/3headers,5catalogrows/15fields/2groups,8menunodes/7edges,
+  14screenmenuentries,26movement/editkeys,45keyreferences,6justificationoptions,28outlineentries.
+  Fourprosejoins,393nonblanktranscriptrows,29candidate notes/33occurrences,oneunknownseparator.
+  Scaeen,BMAGIC,extention,SUBSYTEM,repeated점 and^Λ/^ⓐ/^I remainliteral;noexecution.
+  All3,113ranges/3,262pins/58images validate;8malformedfixturesreject. All56,814priorfiles,
+  47inventories/30corepins exact;213-testbaseline reused. Newinventory:57,685.
+  Seventeenwholeviews;6mapped/11outside/1task. Two preOCRrepairschange/add4regions;
+  all58selectedcrops reviewed before42kor+engtasks,allrawsreadbeforeonesourcepass.
+  ZeroOCRfailures/retries/enginechanges. No crop-review timing exception inthisbatch.
+  Nextbatch49:222–227middle,then228–229left and14pageassembly. PreserveASCII table,
+  menus,Hangulinput/output,listings andline94outgoing227→228 literally.
+  Partialarticle,12unresolvedidentities,cover,268-pageaccounting,index/report,independent
+  issuerebuild andcloseout remain. Keepallsevenprivateadapters. Humanacceptance/fullproofreading,
+  sourcebytes/spacing/claims/execution unverified. No readerrebuild.
+  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

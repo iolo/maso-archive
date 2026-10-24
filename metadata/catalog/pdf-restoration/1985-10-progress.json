@@ -2696,12 +2696,88 @@
       "toc_entry_id": "maso-1985-10-toc-0038",
       "title": "매직윈도우",
       "parent_id": "maso-1985-10-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All seventeen whole views215–231 inspected. Canonical0038 매직윈도우 / 박강수 opens216/214 as 매직 윈도우Ⅱ. Actual ending is229 LEFT: 4.마침말 and glossary with indentation example. The article includes fourteen source pages216–229;229 has no visible folio. Do not infer its ending from the TOC or stop at228 listing4/artwork.",
+        "Adjacent215 ends한글소트. Right229 is an independently framed manuscript solicitation, excluded from0038;230/228 opens independentdBASEⅡ,231/229 continuesit. Identity of the229notice is deferred to its own canonical boundary review.",
+        "Opening segment maps216–221 only, six pages. Eight pages222–229 remain deferred; later segments and full assembly remain pending. Eleven outside-map lookups215,222–231;one canonical task.",
+        "216 outline reads left→right with the cursor/edit/menu/control/Hangul subhead sequence.217two columns contain independentIandII headings;218left advantages continuesII beforeIII, right applications thenweakness.218right→219left splits일일 / 이.219left→right splits아스 / 키.219right→220left splits있 / 었다.220rightcursorcommands precede221lefteditcommands;221rightcontrolentry points to deferred222ASCII table.",
+        "Original page images, opening illustration, outline box, ruled version table, catalog brackets, menu hierarchy and screen figures retained. Menus/commands transcribed literally; no historical, hardware, software, numeric or program execution verification."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/magic-window-opening",
+        "article_id": "scan-maso-1985-10-toc-0038",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/magic-window-opening/manifest.json",
+          "sha256": "0b195a889dd10c5d05a92da93cf785b0930c0a542add4cbba08aadde7d4f1132",
+          "bytes": 32201
+        },
+        "coverage": {
+          "pdf_pages": [
+            216,
+            217,
+            218,
+            219,
+            220,
+            221
+          ],
+          "printed_pages": [
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219"
+          ],
+          "regions": 58,
+          "blocks": 42,
+          "figures": 16,
+          "deferred_pdf_pages": [
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229
+          ],
+          "full_extent_candidate_pdf_pages": [
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229
+          ],
+          "uninspected_interior_pdf_pages": [],
+          "body_pages_complete": false,
+          "full_extent_status": "Verified fourteenpagearticle216–229;229left conclusion andglossary only,229right independentnotice excluded;229visiblefolio null."
+        },
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-48/validation.json",
+          "sha256": "ed82b46436c3960360b997e78c019ec4f7ccb7e1469ae527dee2f1ab5253dc07",
+          "bytes": 2877
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-48/reproduction.json",
+          "sha256": "7d2e8e882a72d407d99e8e5efc82c4c367d45e026b0b44cd21d917e045b8afb8",
+          "bytes": 1408
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0039",
@@ -2718,9 +2794,9 @@
   "totals": {
     "canonical_entries": 39,
     "readable": 26,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 13
+    "unresolved_eligibility": 12
   },
   "checkpoints": [
     {
@@ -5022,6 +5098,73 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-48",
+      "status": "complete",
+      "stage": "validated-partial-article-opening",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "mapped_pdf_pages": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "outside_map_lookup_pages": [
+        215,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 42,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 42,
+      "source_correction_passes": 1,
+      "crop_repairs": 2,
+      "changed_or_added_regions": 4,
+      "all_selected_crops_reviewed_before_ocr": true,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/validation.json",
+        "sha256": "ed82b46436c3960360b997e78c019ec4f7ccb7e1469ae527dee2f1ab5253dc07",
+        "bytes": 2877
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/verification-completed.json",
+        "sha256": "dc91fc48c9e3935bf83ccccdc1b536cd4f3a24de9b7a6540a46c67c650a56222",
+        "bytes": 1245
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-48-preserved-work.json",
+        "sha256": "c3273b86998ceac2dfcc1e1b8f947795e71cf64641208848c7f666c4f000a705",
+        "bytes": 13247490
+      },
+      "started_at": "2026-10-24T20:58:39.955981+00:00",
+      "finished_at": "2026-10-24T21:14:23.016666+00:00",
+      "timing_scope": "Prospective wallclock includeswaits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -7293,23 +7436,260 @@
         "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
         "bytes": 6722
       }
+    },
+    {
+      "pdf_page": 216,
+      "printed_page": "214",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "partial-article-segment",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "selected_package": "archive/pdf/1985-10/packages/magic-window-opening"
+    },
+    {
+      "pdf_page": 217,
+      "printed_page": "215",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "partial-article-segment",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "selected_package": "archive/pdf/1985-10/packages/magic-window-opening"
+    },
+    {
+      "pdf_page": 218,
+      "printed_page": "216",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "partial-article-segment",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "selected_package": "archive/pdf/1985-10/packages/magic-window-opening"
+    },
+    {
+      "pdf_page": 219,
+      "printed_page": "217",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "partial-article-segment",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "selected_package": "archive/pdf/1985-10/packages/magic-window-opening"
+    },
+    {
+      "pdf_page": 220,
+      "printed_page": "218",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "partial-article-segment",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "selected_package": "archive/pdf/1985-10/packages/magic-window-opening"
+    },
+    {
+      "pdf_page": 221,
+      "printed_page": "219",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "partial-article-segment",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "selected_package": "archive/pdf/1985-10/packages/magic-window-opening"
+    },
+    {
+      "pdf_page": 222,
+      "printed_page": "220",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 223,
+      "printed_page": "221",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 224,
+      "printed_page": "222",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 225,
+      "printed_page": "223",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 226,
+      "printed_page": "224",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 227,
+      "printed_page": "225",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 228,
+      "printed_page": "226",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 229,
+      "printed_page": null,
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0038"
+      ],
+      "restoration": "not-started",
+      "evidence": "Canonical0038매직윈도우/박강수 verified216–229. Opening216–221 restored. Deferred222ASCII table/Hangul input;223–225file andothermenus;226–228listings1–4;229left4.마침말 andglossary.229right separatelyframedmanuscriptnotice excluded;identity deferred.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      },
+      "ownership_note": "Leftarticle only;rightindependentnotice remains separatelyunresolved."
+    },
+    {
+      "pdf_page": 230,
+      "printed_page": "228",
+      "classification": "outside-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "not-started",
+      "evidence": "IndependentdBASEⅡ opens230 andcontinues231;notpartof매직윈도우. Itsfullboundary/classification requiresseparatetask.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
+    },
+    {
+      "pdf_page": 231,
+      "printed_page": "229",
+      "classification": "outside-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "not-started",
+      "evidence": "IndependentdBASEⅡ opens230 andcontinues231;notpartof매직윈도우. Itsfullboundary/classification requiresseparatetask.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
+        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
+        "bytes": 10771
+      }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-48",
-    "goal": "Verify full extent andrestore opening ofcanonical0038 매직윈도우/박강수,TOC214,openingPDF216 withsource title매직윈도우Ⅱ.",
+    "id": "batch-49",
+    "goal": "Restore middle sixpages ofcanonical0038매직윈도우/박강수:PDF222–227/printed220–225.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0038"
     ],
-    "mapping_targets": "Reuse215–217wholeviews;inspectfollowingpages toverifyfullendandadjacentmaterial beforemapping. Initial215–231lookup. Mapatmostsixbodypages;likelyopening216–221 onlyifsourceverified. Segmentandassemble separatelyiflonger. Retain literalprose,commands,menus,figures,captions andsourceerrors withoutsemanticrepair orprogramexecution. Parent0036비즈니스 remainsseparate. Preserveallcompletedpackages andprivateadapters.",
+    "mapping_targets": "Reuse verifiedwholeviews221–229. RestoreASCIIcharacter table222,Hangulinput/output222–223,file/print/format/configurationmenus223–225,listing1and2on226–227andlisting3opening227. Preserveall128ASCIIrows andkeysequences,sourcecolumns,wrappedcodeandmenuerrors literally. Listing3line94continues227right→228left;leaveoutgoingcontinuation explicit. Then restore228–229left separately,excluding229rightnotice,thenassemble14pages fromimmutable natives. No codeexecution/hardwareverification orreaderrebuild.",
     "provisional_lookup_targets": [
-      215,
-      216,
-      217,
-      218,
-      219,
-      220,
       221,
       222,
       223,
@@ -7318,9 +7698,7 @@
       226,
       227,
       228,
-      229,
-      230,
-      231
+      229
     ],
     "limits": {
       "articles": 2,
@@ -7332,7 +7710,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Canonical0037한글소트210–215 complete;47regions/29blocks/12originals,threeBASIC listings198entries/371nonblankrows. Fourtimingrows/22fields/6headers,fournumericrules,11linereferences. Tenunknownblank/leaderbands,nineboxmarkers and0/O/jamocandidates remainexplicit.26readable/sample-reviewed,0partial,13unresolved. Next0038매직윈도우from216/214;verifyextent andsegmentatmostsixpages. Parent0017/0021/0036 andremainingidentities,cover,268-pageaccounting,index/report,independentissuerebuild andcloseout pending. Keep batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified. No readerrebuild."
+    "0038매직윈도우opening216–221partial;full14pageextent216–229verified,229leftconclusion/glossary only,229rightnoticeexcluded andfolio null.26readable/sample-reviewed,1partial,12unresolved. Next222–227,then228–229left andassembly.58regions/42blocks/16originals;4versiontablerows/12cells/3headers,5catalogrows/15fields,8menunodes/7edges,14screenmenuentries,26movement/editkeys,45keyreferences,6justificationoptions,28outlineentries. Fourprosejoins,oneunknownseparatorband,29candidate notes. Cover,268-pageaccounting,index/report,independentissuerebuild andcloseout pending. Retain batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
