@@ -19,26 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:26 readable/sample-reviewed,1 partial article,12 unresolved.
-  Batch50 restores 매직윈도우0038/박강수 ending228–229left at
-  `packages/magic-window-ending`:53files independentlyexact;14regions/9blocks/4originals.
-  All14bodypages216–229left nowcovered inthreeimmutable natives;fullassemblypending.
-  229rightnoticeexcluded,folio null. Listing3incoming94 and96–118tail;listing4 has32hexrows,
-  256bytefields/32printedchecksums,withoutrecalculation. Fourglossaryentries and3lineexample.
-  Fourcodepanels/72rows,22BASICentries includingincoming94/21newlabels,15immediatecommands,
-  42linefields/8quotes/4strings,105transcriptrows,20candidate notes/28occurrences.
-  Source IN(HHEX)+1,1) correctsprovisionalboundarynotes only;middletranscriptstillendsFN.
-  Explicit supersession retained;prior222faintjamo unresolved. No execution/semanticrepair.
-  All2,344ranges/2,387pins/14images validate;8malformedfixturesreject. All58,622priorfiles,
-  49inventories/30corepins exact;213-testbaseline reused. Newinventory:58,860.
-  Fourwholeviews;2mapped/2outside/1task. All14crops reviewedbefore10tasks(4eng/6kor+eng),
-  allrawsreadbeforeonesourcepass. ZeroOCRfailures/retries/enginechanges/croprepairs;
-  no crop-review timing exception. Initialmap schemafailure retained;r01 fixesexclusionkind
-  beforeanymap/cropoutput. Nextbatch51:separate14pageassemblyfromthreeimmutable natives,
-  preservingallmetadata andjoining94withpinnedfragments;independentexactrebuild required.
-  Partialarticle,12unresolvedidentities,cover,268-pageaccounting,index/report,independent
-  issuerebuild andcloseout remain. Keepallsevenprivateadapters. Humanacceptance/fullproofreading,
-  sourcebytes/spacing/claims/execution unverified. No readerrebuild.
+- October1985 active:27 readable/sample-reviewed,0 partial,12 unresolved.
+  Batch51 completes 매직윈도우0038/박강수,14 pages216–229left, at
+  `packages/magic-window-complete-r01`:467 files independently exact, including458
+  unchanged native files;138regions/93blocks/40original figures.229right notice excluded,
+  visiblefolio null. No body pages or article assembly pending.
+  Listing3 line94 joins pinned227→228 fragments with physical newline retained;
+  boundary-note supersession preserved, faint222 jamo unresolved. Five code groups,
+  231rows/10panels,157 numbered entries/176 numbered fragments,21 immediate commands,
+  80quotes/40strings,32hexrows/256bytefields/32printed checksums;no recalculation/execution.
+  Every native category retained, including outline/menu/key/table/glossary metadata;
+  135 segment/category slices,1,015 transcript rows and118 candidate occurrences.
+  All24,251 ranges/25,297 pins/138 images validate;8 malformed cases reject.
+  All58,860 prior files/50 inventories/30 core pins exact;213-test baseline reused.
+  New inventory:62,162. Eight reused whole views;0 mapping/OCR/source correction.
+  Initial adapter count assertion retained;r01 corrects178→176 numbered fragments
+  because two wrapped rows belong to immediate commands;native evidence unchanged.
+  Nextbatch52:verify actual dBASEII0039 extent fromPDF230/printed228,then bounded restore.
+  Twelve unresolved identities,cover,268-page accounting,index/report,independent issue
+  rebuild and closeout remain. Keep all eight private adapters. Human acceptance/full
+  proofreading,source bytes/spacing/claims/execution unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

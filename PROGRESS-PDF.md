@@ -6,62 +6,56 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration continues under step 12: **26 readable/sample-reviewed
-entries, one partial article and 12 unresolved**, accounting for all39 canonical
-identities. Earlier completed packages and private assembly adapters remain unchanged.
+October 1985 restoration continues under step 12: **27 readable/sample-reviewed
+entries, no partial articles and 12 unresolved**, accounting for all 39 canonical
+identities. Earlier packages, identities and parent relationships remain unchanged.
 
-Batch 50 restores the ending of **매직윈도우0038 / 박강수**, PDF228–229left,
-at `archive/pdf/1985-10/packages/magic-window-ending`. All53 files match an independent
-rebuild. The entire14-page body,PDF216–229left,is now covered across three immutable
-native packages. Full-article assembly remains pending. Page228 visibly carries226;
-page229 has no visible folio. Its independently framed right-column manuscript notice
-is excluded. PDF230 opens dBASEⅡ. Canonical identity and parent relationships are unchanged.
+Batch 51 completes the 14-page **매직윈도우0038 / 박강수** article, PDF216–229left,
+at `archive/pdf/1985-10/packages/magic-window-complete-r01`. All 467 files match an
+independent rebuild, including all 458 files copied from the three immutable native
+packages. The assembly retains 138 regions, 93 blocks and 40 original figures.
+No body pages or article assembly remain pending. PDF229 has no visible folio;
+its independently framed right-column manuscript notice remains excluded.
+PDF215 ends 한글소트; PDF230 opens dBASEⅡ.
 
-The ending retains14 regions, nine corrected blocks andfour original images: the
-ending illustration,glossary,full228 and229left. Listing3's incoming line94 fragment
-and remaining numbered96–118 entries retain their physical wraps. Its13 immediate
-commands remain separate from numbered lines. Listing4 has32 independently transcribed
-hex rows,256 opaque byte fields and32 printed checksum fields,plus CALL-151/FEB0G
-commands. No checksum was recalculated and no program was executed.
+Listing3 line94 now connects the pinned227 and228 fragments while preserving the
+physical newline. The complete index has157 numbered BASIC entries and176 numbered
+physical fragments;21 immediate commands remain separate, including wrapped commands.
+Five complete code groups retain231 nonblank rows across10 panels. Listing4 retains
+32 hex rows,256 opaque byte fields and32 printed checksums; none was recalculated.
+All80 quote marks/40 strings,314 BASIC line fields,320 hex fields and four glossary
+entries retain their own source ranges. No program was executed.
 
-The conclusion and four glossary entries retain the editor,indentation,overlay and
-wordprocessor definitions. The indentation example preserves labels10/20/30 and its
-association with the definition and original image. Across allfour code panels,
-the indexes retain72 nonblank rows,22 BASIC entries including incoming94,21 newly
-printed labels,15 immediate commands,42 BASIC line fields andeight quote marks/four
-strings. All105 nonblank transcript rows are indexed. Twenty candidate notes cover28
-occurrences,including Pleanse,Becanse,K$,89/86 and B/8-like hex glyphs.
+All native metadata survives:45 array categories with135 explicit segment slices,
+20 object projections,12 reserved arrays and six scalars. This includes the outline,
+version/catalog tables, menus, command keys,128-row ASCII table, captions, glossary,
+1,015 transcript rows and118 source-candidate occurrences. Native fragment indexes
+and stage notes remain exact. Ten active stage-deferral notes are resolved only in
+the assembled status. The boundary-note supersession preserves the source reading
+`IN(HHEX)+1,1)+MID$(JIN$,FN MO(HHEX)+1,1)`; older notes remain frozen.
+The faint222 input-jamo fragment remains explicitly unresolved.
 
-Direct source review establishes the first228 fragment as
-`IN(HHEX)+1,1)+MID$(JIN$,FN MO(HHEX)+1,1)`. This supersedes the provisional boundary
-notes that omitted the parenthesis afterHHEX; the frozen middle transcript ends atFN
-and remains unchanged. The earlier notes are preserved with an explicit supersession.
-The middle segment's faint222 input-jamo fragment remains explicitly unresolved.
+All 24,251 UTF8 range occurrences,25,297 evidence pins and138 images validate;
+365 same-page nonfigure pairs are disjoint. Eight malformed cases reject, including
+a repeated hex byte linked to the wrong occurrence, a shifted prior-download range,
+a missing line94 fragment and a removed boundary supersession. All58,860 prior files,
+50 inventories and30 core pins remain exact; the unchanged213-test baseline is reused.
+New preservation inventory: 62,162 files. The initial adapter's incorrect numbered
+fragment-count assertion is retained; r01 corrects178 to176 because two wrapped rows
+belong to immediate commands. No native transcription or index changed.
 
-All 2,344 UTF8 range occurrences,2,387 evidence pins and14 images validate;
-21 same-page nonfigure pairs are disjoint. Eight malformed fixtures reject,
-including a repeated byte linked to the wrong occurrence,a checksum linked to another
-row,an incorrect incoming94 source range,a wrong glossary definition and a missing
-right-notice exclusion. All58,622 prior files,49 inventories and30 core pins remain
-exact; the unchanged213-test baseline is reused. New preservation inventory: 58,860 files.
+Eight saved whole-page views were rechecked for one canonical assembly task.
+No new rendering, mapping, OCR or source correction was required. Human acceptance,
+full proofreading, source bytes/spacing/glyph counts and technical claims remain
+unverified. No reader was rebuilt.
 
-Four reused whole views cover two mapped pages,two outside lookups andone canonical
-task. All14 selected crops were inspected before10 tasks(four eng,six kor+eng);
-all10 drafts were read before one source correction pass. Zero OCR failures,retries,
-engine changes or crop repairs. There is no crop-review timing exception. The initial
-mapping script failed schema validation before writing maps/crops; r01 fixes only the
-exclusion category. All attempts remain preserved. Human acceptance/full proofreading,
-source bytes/spacing/glyph counts and technical claims remain unverified. No reader was rebuilt.
-
-Next is **batch51: assemble the complete14-page 매직윈도우 article** from the exact
-opening,middle andending natives. No newmapping/OCR. Preserve every native index,
-original image,source candidate and unresolved fragment; join listing3 line94 across
-227→228 using the pinned source fragments and retain the boundary-note supersession.
-Validate all combined UTF8 ranges and an independent byte-identical rebuild.
-The partial article,12 unresolved identities,cover,268-page accounting,standalone
-index/report,independent issue rebuild and closeout remain. Retain the batch44 Beautiful
-Text,batch41 Arong,batch36 PLAY,batch33 MSX corners,batch29 Prologue,batch24 numerical
-andbatch20 MSX private adapters. No reader rebuild.
+Next is **batch52: verify and restore dBASEII0039**, starting at PDF230/printed228.
+Review its actual ending and adjacent pages before mapping; do not infer extent from
+the TOC. Keep the two-task/six-mapped-page/twenty-outside-lookup bounds.
+The12 unresolved identities,cover,268-page accounting,standalone index/report,
+independent issue rebuild and closeout remain. Retain the batch51 Magic Window,
+batch44 Beautiful Text,batch41 Arong,batch36 PLAY,batch33 MSX corners,batch29 Prologue,
+batch24 numerical andbatch20 MSX private adapters. No reader rebuild.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
