@@ -19,22 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:18 readable/sample-reviewed,no partial articles,21 unresolved.
-  Batch33 completes MSX 구석구석0016 PDF146–159/lower166 at `packages/msx-corners-complete`.
-  All937 files independently exact;928 nativefiles unchanged;250regions/205blocks/33originals.
-  All50 arraycategories/150slices,fullmetadata,12nativejoins,tablecontinuation and159→166
-  command/proseflow retained. Tables preserve blankcells/mergedspans,handwriting layers,
-  unknown leader counts and129candidateoccurrences. No externaljoins ornewOCR/correction.
-  All36,430 UTF8ranges/38,509pins/250images validate;five negativecases reject.
-  All40,505priorfiles/32inventories/30corepins exact;213-testbaseline reused.
-  Currentinventory 44,287files. Keepnativeb white-margin overlap andnativec nearwhite
-  lower166 mask/timing exception,bothoriginalversions andallpriorfailures.
-  Nextbatch34:restorePLAY0005 PDF160–165 first,then upper166 andcompleteassembly.
-  Lower166 MSXcomplete;upper166 PLAYunrestored. Keep six-mapped-page/two-task/twenty-lookup
-  limits. Remaining21identities,cover,268-pageaccounting,index/report,independentissuerebuild
-  andcloseout pending. Keepbatch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX
-  privateadapters. Diagramlabelsawaitvolunteers;humanacceptance/fullproofreading/sourcebytes/
-  claims/executionunverified. No reader rebuild.
+- October1985 active:18 readable/sample-reviewed,one partial article,20 unresolved.
+  Batch34 restores PLAY 정복0005 PDF160–165 at `packages/play-a-r02`.
+  All202files independently exact;55regions/29blocks/9originals/46correctedtexts.
+  Fivecodegroups/15panels/456physicalrows/420BASIClabels,17joins,8annotationlabels,
+  12keyinstructions,538DATAfields and8unknown-band markers retained. PrintedDSTA,
+  R15,emptyDATA,numberinggaps andO/0candidates literal;no music/code repair orexecution.
+  All13,431UTF8ranges/13,597pins/55images validate;five negativecases reject.
+  All44,287priorfiles/33inventories/30corepins exact;213-testbaseline reused.
+  Currentinventory 45,306files. All55selectedcrops reviewed before46tasks(15eng/31kor+eng);
+  allraws read beforeonesourcepass.12pre-OCRrepairs/11regions,1typingrepair and2failed
+  schemaexports retained;newmetadatarevision changes8annotationblockkinds only. No OCRretry.
+  Opening160folio null independently fromTOC158. Nextbatch35:upper166withlowerMSXexcluded;
+  thenbatch36assembletwoimmutablePLAYnatives. Shared166upperPLAYunrestored/lowerMSXcomplete.
+  Keep six-mapped-page/two-task/twenty-lookup limits. Remaining20identities,cover,
+  268-pageaccounting,index/report,independentissuerebuild andcloseout pending.
+  Keepbatch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX privateadapters and
+  earlierMSXmask/timing exceptions. Embeddedlabelsawaitvolunteers;humanacceptance/
+  fullproofreading/sourcebytes/claims/executionunverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

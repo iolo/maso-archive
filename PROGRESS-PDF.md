@@ -7,19 +7,19 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration is in progress: **18 readable/sample-reviewed entries,
-no partial articles and 21 unresolved**. Batch33 completes MSX 구석구석146–159/lower166
-at `packages/msx-corners-complete`:937 independently identical files,928 unchanged
-native files,250 regions,205 blocks and33 originals. All50 native array categories,
-full metadata,12 native joins,table blanks/merges,handwriting and129 candidate occurrences
-remain. All36,430 UTF8 ranges/38,509 pins/250 images validate;five malformed cases reject.
-All40,505 priorfiles/32 inventories/30 corepins exact;213-test baseline reused.
-New inventory: 44,287 files. No new mapping,OCR orsource correction. White-margin
-overlap and nearwhite lower166 mask/timing exceptions remain explicit with original evidence.
-Nextbatch34:restorePLAY0005 PDF160–165 first,then upper166 andassembly. Lower166 MSX
-complete;upper166 PLAYunrestored. Remaining21 identities,cover,268-page accounting,
-index/report,independent issue rebuild andcloseout pending. Humanacceptance/fullproofreading,
-sourcebytes/claims/execution unverified. No reader rebuild. See [October log](docs/progress/8510.md)
-and [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+one partial article and 20 unresolved**. Batch34 restores PLAY 정복0005 PDF160–165 at
+`packages/play-a-r02`: 202 independently identical files,55 regions,29 blocks,nine
+originals. Five codegroups/15panels retain456physicalrows/420BASIClabels,17joins,
+eight externalannotations,12keyinstructions,538DATAfields andeight unknown-band markers.
+All13,431ranges/13,597pins/55images validate;five malformed cases reject.
+All44,287priorfiles/33inventories/30corepins exact;213-test baseline reused.
+New inventory: 45,306 files. Twelve pre-OCR crop repairs/11regions,one typingrepair
+andtwo schema-failed exports retained;no OCRretry. Opening160folio staysnull despiteTOC158.
+Nextbatch35:upper166,excluding completedlowerMSX;thenbatch36completePLAYassembly.
+Remaining20identities,cover,268-pageaccounting,index/report,independentissuerebuild and
+closeout pending. Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified.
+No reader rebuild. See [October log](docs/progress/8510.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
 are accounted for by 39 readable, assistant sample-reviewed articles and nine
