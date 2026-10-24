@@ -19,24 +19,23 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:16 readable/sample-reviewed entries,no partials,23 unresolved.
-  Batch25 completes canonical0004 컴퓨터활용ABC,all4 pagesPDF124–127,at
-  `packages/computer-abc`. All130files independently byte-identical;34regions,
-  24blocks,5originals retain6 independent examples/8rows,5prosejoins,4references,
-  20explicit control-number definitions and4caption associations. All2,705UTF8ranges,
-  2,806pins/34images pass;three malformedrange cases reject. All25,393priorfiles,
-  24inventories/30corepins unchanged;213-test baseline reused. All34crops reviewed
-  before29tasks(6eng/23kor+eng);all29raws read before one source correction pass.
-  ZeroOCRretries/croprepairs. Original NCK/carrage/synchrous/prioring/IEEE802U/CHR(15)
-  retained;quotedblankwidth andH/Aoverprint unresolved withpixels. Repeatedbinary
-  substring index-anchor failure andnegativefixture UnicodeDecodeError harness failure
-  retained;fresh script revisions fix only indexing/checks. No source/package revision.
-  Nextbatch26:프롤로그 by정덕기,startingPDF128/printed126;inspect extent/adjacentpages.
-  Remaining23 identities,cover,268-page accounting,index/report,independentissuerebuild
-  andcloseout pending. MSX/numericalanalysis unchanged;use their pinnedprivateadapters.
+- October1985 active:16 readable/sample-reviewed,one partial,22 unresolved.
+  Batch26 restores opening Prologue0014 by정덕기,PDF128–133,at `packages/prologue-a`.
+  Actual18-page body128–145 fully extent-reviewed;134–145 andassembly remain.
+  All461files independently exact;122regions/107blocks/12originals,40codepanels/
+  107nonblankrows/20examplegroups,threeprosejoins andseparatecaption/annotationlinks.
+  All5,726UTF8ranges/6,082pins/122images validate;three malformedrange cases reject.
+  All25,961priorfiles/25inventories/30corepins exact;213-test baseline reused.
+  All122 initialcrops and12repairedcrops reviewed before110tasks(40eng/70kor+eng);
+  all110raws read before one sourcepass. No OCRfailures/retries. Twenty-eight candidate
+  notes/30occurrences preserve source syntax/spelling/math inconsistencies;successful
+  OCR's omitted empty-list brackets recovered fromscan. Original/revised evidence retained.
+  Nextbatch27:134–139,then140–145 excludinglower145ad,thenimmutableassembly.
+  Remaining22identities,cover,268-pageaccounting,index/report,independentissuerebuild
+  andcloseout pending. ABC/MSX/numericalanalysis unchanged;use pinnedprivateadapters.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   Human acceptance/fullproofreading/sourcebytes/claims/execution unverified;embedded
-  diagramlabels awaitvolunteers. No reader rebuild.
+  labels awaitvolunteers. No reader rebuild.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

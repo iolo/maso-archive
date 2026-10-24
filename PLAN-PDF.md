@@ -25,40 +25,39 @@ records below are historical and do not authorize a new rebuild.
 ## October 1985 active, 2026-10-24
 
 October 1985 restoration continues under step 12: **16 readable/sample-reviewed
-entries, no partial articles and 23 unresolved**, accounting for all 39 canonical
-identities. MSX and the complete numerical-analysis assembly remain unchanged.
+entries, one partial article and 22 unresolved**, accounting for all 39 canonical
+identities. ABC, numerical analysis and MSX remain complete and unchanged.
 
-Batch 25 completes canonical0004, **컴퓨터활용 ABC**, printed122–125/PDF124–127,
-at `archive/pdf/1985-10/packages/computer-abc`. The source title 컴퓨터 활용 ABC
-and 편집부 byline remain separate from the canonical TOC metadata. PDF123 is an
-independent advertisement; PDF128 opens 프롤로그. No body pages or assembly remain.
+Batch 26 restores the opening six pages of canonical0014, **고급언어 : 프롤로그**
+by 정덕기, printed126–131/PDF128–133, at `archive/pdf/1985-10/packages/prologue-a`.
+The actual article spans PDF128–145/printed126–143. All18 body pages and adjacent
+127/146–147 were inspected. Lower145 is an independent 우신기술서적 advertisement;
+its exclusion must be mapped in the final segment. Twelve pages and assembly remain.
 
-All130 files match an independent rebuild byte for byte. The package retains
-34 regions,24 reading blocks and5 original images,including the complete four-panel
-illustration. Six independent examples retain8 physical rows,including BASIC10/20/30.
-Five prose joins preserve column/page continuations. Four references,24 bibliographic
-fields,20 explicit control-number definitions and4 caption associations are indexed.
-All2,705 local UTF8 range occurrences,2,806 evidence pins and34 images validate;
-three malformed range cases reject. All25,393 prior files,24 inventories and30 core
-pins remain exact. The unchanged fresh213-test baseline is reused.
+All461 files match an independent rebuild. The partial package retains122 regions,
+107 blocks and12 originals: six full pages and six diagram/annotated panels.
+Forty code panels retain107 nonblank rows in20 related example groups; they are not
+one executable program. Three prose joins preserve 없으/면, 보/자. and 질문을/하면.
+Two case captions, two example labels and two derivative annotations remain distinct.
+All5,726 local UTF8 ranges,6,082 evidence pins and122 images validate; three malformed
+range cases reject. All25,961 prior files,25 inventories and30 core pins remain exact.
+The unchanged fresh213-test baseline is reused.
 
-All34 exact crops were reviewed before29 Tesseract tasks (6eng/23kor+eng);all29 raw
-drafts were read before one direct source correction pass. No OCR retries or crop
-repairs. Source NCK,carrage return,synchrous idle,prioring,IEEE802U andCHR(15) remain
-literal. Quoted blank width and H/A overprint retain explicit unknown markers and
-original pixels. A repeated binary substring required an occurrence-specific index
-anchor; a negative-fixture harness was revised to accept UTF8 decoding rejection.
-Both failed authoring attempts remain; source transcripts and package bytes unchanged.
-The checkpoint inventory was refreshed after its recorder log finished; the original
-inventory remains preserved.
+All122 initial crops were reviewed, then12 repaired crops were separately reviewed
+before110 Tesseract tasks (40eng/70kor+eng). All110 raw drafts were read before one
+source correction pass. No OCR failure or retry. Original and revised maps/crops
+remain preserved. Twenty-eight candidate notes identify30 occurrences, including
+basedall, absent periods, mixed brackets, apostrophe marks, door(g,e), repeated U
+arguments and prose /= versus code backslash. No syntax, math or historical repair.
+Successful OCR's omitted empty-list brackets were recovered directly from the scan.
 
-Next is **batch26: 프롤로그 by 정덕기**, starting atPDF128/printed126. Reuse saved
-127–128 views and inspect actual extent/adjacent pages before mapping atmost six body
-pages. Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining23 identities,
+Next is **batch27: middle Prologue pages PDF134–139**. Reuse saved batch26 views;
+keep incoming133받아들여/134질 continuation. Then restore140–145 and assemble all18
+pages. Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining22 identities,
 cover selection,268-page accounting,standalone index/report,independent issue rebuild
-andcloseout remain. Use batch24's pinned `numerical-literal-v1` and batch20's MSX
+and closeout remain. Use batch24's pinned numerical-literal-v1 and batch20's MSX
 adapter for their assembly checks. Human acceptance/full proofreading,source encoded
-bytes,technical/historical claims andexecution remain unverified; embedded diagram
+bytes,technical/historical claims and execution remain unverified; embedded diagram
 labels await volunteers. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
