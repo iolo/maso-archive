@@ -20,22 +20,23 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:20 readable/sample-reviewed,one partial article,18 unresolved.
-  Batch38 restores 아롱다롱0020/이지상 openingPDF178–183/printed176–181 at
-  `packages/arong-a`:282 files independently exact,73 regions/67 text/55 blocks/6 originals.
-  Sixteen modes,84 key entries,68 routine explanations,5 circle variables,9 features,
-  3 G-key subitems and12 joins retain source associations. Final860 continues184.
-  Source24,ANGLF,AS,EA signs,100행 and580 wording retained;28 candidate occurrences/25 notes.
-  All3,701 ranges/3,925 pins/73 images validate;5 negative cases reject,including repeated
-  descriptions in wrong key/mode positions. All47,003 prior files/37 inventories/30 core
-  pins exact;213-test baseline reused. New inventory48,139 files. All73 crops reviewed before
-  67 kor+eng tasks;all drafts read before one source pass. No crop/OCR/export retries.
-  Endpoint193 observed;185–191 interior uninspected. Next batch39:184–189,then provisional
-  190–193 and immutable assembly. Canonical0019 뷰티풀 텍스트/김덕현 opens194/192;
-  its restoration and parent0017 classification remain pending. Canonical order unchanged.
-  Remaining18 identities,cover,268-page accounting,index/report,independent issue rebuild
-  and closeout pending. Keep batch36PLAY,batch33MSX corners,batch29Prologue,batch24numerical,
-  batch20MSX adapters. Human acceptance/full proofreading/source bytes/claims/execution
-  unverified;embedded labels await volunteers. No reader rebuild.
+  Batch39 restores 아롱다롱0020/이지상 middlePDF184–189/printed182–187 at
+  `packages/arong-b`:111 files independently exact,30 regions/24 text/5 blocks/6 originals.
+  Opening `arong-a` unchanged;twelve pages178–189 now preserved in two immutable natives.
+  Middle retains130 routine explanations,185 hex rows/1,480 byte fields,94 numbered BASIC
+  entries/125 physical rows/92 DATA fields,19 internal joins and incoming860 explanation.
+  Three graphic markers,two unknown blank widths and37 candidate occurrences/27 notes
+  retain source evidence. Printed1500/2720 duplicates,YS/SY andcode discrepancies preserved.
+  All13,676 ranges/13,767 pins/30 images validate;five malformed cases reject,including
+  repeated00 and1500 moved to wrong occurrences. All48,139 prior files/38 inventories/
+  30 core pins exact;213-test baseline reused. New inventory48,623 files. All30 crops
+  reviewed before24 tasks(10eng/14kor+eng);all raws read before one source pass.
+  No crop/OCR/export retries. Next batch40:final190–193,verify191 continuity and190's
+ 1520 wrap,then separate immutable assembly.0019 뷰티풀 텍스트/김덕현 opens194/192;
+  parent0017 pending. Remaining18 identities,cover,268-page accounting,index/report,
+  independent issue rebuild andcloseout pending. Keep batch36PLAY,batch33MSX corners,
+  batch29Prologue,batch24numerical,batch20MSX adapters. Human acceptance/full proofreading,
+  source bytes/claims/execution unverified;embedded labels await volunteers.No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
