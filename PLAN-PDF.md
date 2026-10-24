@@ -24,27 +24,26 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Eight of39 canonical entries are now
+October restoration is active under step12. Nine of39 canonical entries are now
 readable and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,
-QA,디버깅 룸,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II and DEF. Their
-54/116/140/171/70/155/150/197-file packages independently match. DEF covers
-printed46–51/PDF48–53,excluding FORMAT II above its opening and 가로세로 체크썸
-below its ending. Its36 blocks retain110 BASIC labels/201 DATA values,four DATA
-values split across physical rows,94 dump rows/738 byte pairs/14 blank slots,
-six commands,five procedure steps and12 original images. All44 drafts read before
-one source correction pass;no OCR failures/retries. One pre-OCR crop extension and
-one verifier failure remain preserved;the latter resolved by inspecting an exact
-three-pixel blank overlap strip without changing the source map or package.
-All6,007 UTF8 ranges/6,172 evidence pins/56 images validate. Fresh213 PDF tests passed
-at batch01;unchanged baseline reused through batch08. All3,676 earlier October files
-and30 core implementation pins remain exact. No reader rebuild;31 entries,cover
-selection,source-page accounting and closeout remain.
+QA,디버깅 룸,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II,DEF and
+가로세로 체크썸. Their54/116/140/171/70/155/150/197/237-file packages independently match.
+가로세로 체크썸 covers printed51–56/PDF53–58,excluding completed DEF above its opening.
+Its40 blocks retain253 assembly ordinals/259 physical assembly rows,two checksum
+examples and a60-row dump (100 total rows/800 byte pairs),four headers/four checksum
+footers,seven variables/39 address explanations,five commands/two inline commands
+and eight originals. All55 drafts read before one source pass;zero OCR failures/retries.
+One pre-OCR revision repairs two prose crops;all61 others unchanged. All6,688 UTF8
+ranges/6,869 evidence pins/63 images validate. Fresh213 PDF tests passed at batch01;
+unchanged baseline reused through batch09. All4,533 earlier October files and30 core
+implementation pins remain exact. No reader rebuild;30 entries,cover selection,
+source-page accounting and closeout remain.
 
-Next is batch09: verify canonical0009,가로세로 체크썸,
-from lower printed51/PDF53,including its ending and adjacent page. Reuse saved PDF52–54
-views and retain the two-task/six-mapped-page/twenty-outside-lookup limits.
-Canonical title and order stay unchanged. Details and remaining issue work:
-[October log](docs/progress/8510.md) and
+Next is batch10: verify canonical0010,자동메뉴 II by정우진,
+from printed57/PDF59,including its ending and adjacent page. Keep it distinct from
+canonical0011 of the same title by서동철. Reuse saved PDF58–59 views and retain the
+two-task/six-mapped-page/twenty-outside-lookup limits. Canonical title and order stay
+unchanged. Details and remaining issue work: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23
