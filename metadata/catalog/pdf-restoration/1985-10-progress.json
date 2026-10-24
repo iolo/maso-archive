@@ -654,15 +654,16 @@
         "Allnine savedviews159–167 reviewed.160–162prose discussesdata creation/performance;160keyboard screenshot,161three-partmusicnotation andannotatedexample retainedasoriginals.162–163list1 isdata creationprogram;164list2 performanceprogram andlist3 What a feelingmusicdata begin.165 continueslist3;166upper completesit beforedecorativeart anddivider.",
         "166lower explicitly resumesMSX구석구석 fromprinted157/PDF159. Exclude lower166when finalPLAYsegment mapped;completedMSX images untouched.167TOPIAadvertisement confirmsending. FullPLAYbodysevenpages160–166upper;mapsixpages160–165now,final166andassemblylater.",
         "160intro crossesmiddle→right대/응;F1instruction실/행 crosses160→161.161usageleft→middletop continues sentence;performance discussionmiddle→right부/분 andright→bottom까지.161bottom마디/162를;162summaryleft정리하/middlego. Preserve source-local continuations.",
-        "List1 hasfour sourcecolumns162/163,List2 three sourcecolumns164,List3 threecolumns164 andtwo165 plusfinaltwo166. Retainline labels,physicalwraps,blank/commentrows andopaque musicdata. No missing line-number sequence repair or music/executable interpretation."
+        "List1 hasfour sourcecolumns162/163,List2 three sourcecolumns164,List3 threecolumns164 andtwo165 plusfinaltwo166. Retainline labels,physicalwraps,blank/commentrows andopaque musicdata. No missing line-number sequence repair or music/executable interpretation.",
+        "Finalupper166listing58310–58540andmusicartrestored;lowerMSXexcluded. Allsevenbodypagesavailableintwonatives;completeassemblypending. Crosscolumn58410G/8wrapandincoming58300→58310retained."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/play-a-r02",
+        "directory": "archive/pdf/1985-10/packages/play-b",
         "article_id": "scan-maso-1985-10-toc-0005",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/play-a-r02/manifest.json",
-          "sha256": "0d5f7e09bbc6aed3ba0dbb97dca436c657dfb9881b44f484e94c36257c725cbd",
-          "bytes": 34461
+          "path": "archive/pdf/1985-10/packages/play-b/manifest.json",
+          "sha256": "9a14de3d0ec13c6592b4c76a8e419fea9cd9d0c64c980ad41dacb83364c5bb1b",
+          "bytes": 3079
         },
         "coverage": {
           "pdf_pages": [
@@ -671,7 +672,8 @@
             162,
             163,
             164,
-            165
+            165,
+            166
           ],
           "printed_pages": [
             null,
@@ -679,14 +681,14 @@
             "160",
             "161",
             "162",
-            "163"
+            "163",
+            "164"
           ],
-          "regions": 55,
-          "blocks": 29,
-          "figures": 9,
-          "deferred_pdf_pages": [
-            166
-          ],
+          "regions": 59,
+          "blocks": 30,
+          "figures": 11,
+          "coverage_scope": "Cumulativecoverageoftwoimmutablenatives;directory/manifestselectlatestfinalsegmentonly. Completeassemblypending.",
+          "deferred_pdf_pages": [],
           "actual_full_pdf_pages": [
             160,
             161,
@@ -696,7 +698,7 @@
             165,
             166
           ],
-          "body_pages_complete": false
+          "body_pages_complete": true
         },
         "segments": [
           {
@@ -724,19 +726,36 @@
               "163"
             ],
             "availability": "partial"
+          },
+          {
+            "id": "play-b",
+            "directory": "archive/pdf/1985-10/packages/play-b",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/play-b/manifest.json",
+              "sha256": "9a14de3d0ec13c6592b4c76a8e419fea9cd9d0c64c980ad41dacb83364c5bb1b",
+              "bytes": 3079
+            },
+            "pdf_pages": [
+              166
+            ],
+            "printed_pages": [
+              "164"
+            ],
+            "availability": "partial",
+            "mixed_page_exclusion": "Lower166completedMSX0016excluded;upperPLAYonly."
           }
         ],
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-34/validation.json",
-          "sha256": "87327de5d6ffd7b89d185ffd555cdc29af6dc9521bd00886c5cffb44c92b85e4",
-          "bytes": 3162
+          "path": "archive/pdf/1985-10/restoration/batch-35/validation.json",
+          "sha256": "d29fce7e3dfffcab1729dff5fbc5ff829f17eceb2c6f6cf747fa55fdf5b7b7db",
+          "bytes": 2605
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-34/reproduction.json",
-          "sha256": "586e2195fff5054a559f3c5eecb3129b9203495f5af1d9c0cde5235213f64278",
-          "bytes": 1356
+          "path": "archive/pdf/1985-10/restoration/batch-35/reproduction.json",
+          "sha256": "6ef7f120208482d1540519f07443c4e710c6cfaef067976c93689fee3db3add5",
+          "bytes": 1487
         }
       }
     },
@@ -3717,6 +3736,48 @@
         166
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-35",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0005"
+      ],
+      "mapped_pdf_pages": [
+        166
+      ],
+      "outside_map_lookup_pages": [
+        165,
+        167
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 2,
+      "eng_code_tasks": 2,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-35/validation.json",
+        "sha256": "d29fce7e3dfffcab1729dff5fbc5ff829f17eceb2c6f6cf747fa55fdf5b7b7db",
+        "bytes": 2605
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-35/verification-completed.json",
+        "sha256": "8cf134d4df045f7addf502d47165e54baa566081f17a7f744c561531f069b1f6",
+        "bytes": 1022
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-35-preserved-work.json",
+        "sha256": "a777b2b9a9ce59d982cd644ec578d9e40c8d6e319fc5e12bd5c9f29af573d01e",
+        "bytes": 10400478
+      },
+      "started_at": "2026-10-24T17:56:19.629381+00:00",
+      "finished_at": "2026-10-24T18:03:45.286527+00:00",
+      "timing_scope": "Prospectivewallclockincludeswaits/gaps;activehumaneffortunmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -5206,21 +5267,27 @@
         "maso-1985-10-toc-0005",
         "maso-1985-10-toc-0016"
       ],
-      "restoration": "partial-shared-page",
-      "evidence": "Lower166 completes assembled MSX 구석구석146–159/lower166. Upper166 PLAY remains unrestored;shared-page restoration stays partial.",
+      "restoration": "body-segments-complete",
+      "evidence": "Upper166PLAYfinalmusiclisting/artsource-corrected;allsevenPLAYbodypagesavailable,assemblypending. Lower166MSXcompleteassembledunchanged. Eachownerretainsseparateexclusionmap.",
       "mixed_page": true,
       "ownership_regions": "UpperPLAY정복0005;lowerMSX구석구석0016. Final MSXsegment mustmapupperexclusion.",
       "incoming_continuation": "From159printed157 tolower166printed164;fourfinalworkentries andhorseillustration.",
       "body_owner_restoration": {
         "maso-1985-10-toc-0016": "complete-assembled-article",
-        "maso-1985-10-toc-0005": "not-started"
+        "maso-1985-10-toc-0005": "complete-segment"
       },
       "selected_exclusion_map": {
         "path": "archive/pdf/1985-10/packages/msx-corners-c/map.json",
         "sha256": "5ed066d46d700e075685b7f628f838283002c8a16309e2bc59dcae69053cefd7",
         "bytes": 25167
       },
-      "selected_msx_package": "archive/pdf/1985-10/packages/msx-corners-complete"
+      "selected_msx_package": "archive/pdf/1985-10/packages/msx-corners-complete",
+      "selected_play_package": "archive/pdf/1985-10/packages/play-b",
+      "selected_play_exclusion_map": {
+        "path": "archive/pdf/1985-10/packages/play-b/map.json",
+        "sha256": "42c903cdeb03df91d78c0c9c521b244905fd938a0fde1f0623832c55340e5097",
+        "bytes": 4998
+      }
     },
     {
       "pdf_page": 167,
@@ -5253,16 +5320,13 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-35",
-    "goal": "Restore final upperPDF166 ofcanonical0005 PLAY 정복.",
+    "id": "batch-36",
+    "goal": "Assemble complete seven-pagecanonical0005PLAY정복 fromtwoimmutable natives.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0005"
     ],
-    "mapping_targets": "Reuse savedviews165–167;map onlyupper166musiclisting anddecorativeart with explicitlowerMSXexclusion. Preserve incoming58300→58310listingcontinuation. Thenassemble twoimmutable natives inbatch36,keeping17openingjoins,annotation/sourcefield occurrenceindexes,unknownbands,sourceerrors andnullopeningfolio.",
-    "provisional_lookup_targets": [
-      165,
-      167
-    ],
+    "mapping_targets": "No newmapping/OCR/sourcecorrection. Preserve play-a-r02 PDF160–165andplay-b upper166 withallnative metadata/sourceerrors/ranges/annotations/unknownbands. Join music-data58300→58310 once,preservingnative18joinsincluding58410G/8crosscolumnphysicalwrap. Projectallnativecategoryoccurrences;retainnullopeningfolio andlowerMSXexclusion. Independentlyrebuild/validatecompletearticle.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -5273,7 +5337,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "PLAY정복0005partial160–165ofactual160–166upper;finalupper166andcompleteassemblypending. Opening160visiblefolio null despiteTOC158. CompletedMSX구석구석0016lower166untouched;sharedpage upperPLAYunrestored/lowerMSXcomplete. Prologue/ABC/numericalanalysis/earlierMSXcompleteunchanged. Remaining20unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. All sourceerrors/unknownbytes/music/codeexecution remainunverified."
+    "PLAY정복0005allsevenbodypages160–166upperrestoredintwoimmutable natives;completeassemblypending,availabilityremainspartial. Opening160folio null despiteTOC158. CompletedMSX구석구석0016lower166untouched;bothsharedpagebodiesnowrestoredindependently. Remaining20unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Sourcebytes/music/codeexecutionremainunverified."
   ],
   "reader_rebuild": false
 }
