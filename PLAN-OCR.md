@@ -19,24 +19,23 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:17 readable/sample-reviewed, no partials,22 unresolved.
-  Batch29 completes canonical0014 고급언어 : 프롤로그, all18 pagesPDF128–145,
-  at `packages/prologue-complete`. All1,286 files independently match, including
-  1,277 exact native files.335 regions/260 blocks/30 originals retain98 code panels,
-  558 nonblank code rows and47 complete related example groups. Prose133/134 and
-  factorial139/140 join once without added separators;43 internal joins remain.
-  All42 native array categories/126 slices/full metadata and262 block fragments
-  reverse-project;36,582 local UTF8 ranges/39,439 pins/335 images validate.
-  External previous-download references retain their own roots. Five negative cases
-  reject. All31,381 prior files/28 inventories/30 core pins remain exact;213-test
-  baseline reused. No new mapping/render/OCR/source correction. Eleven stage notes
-  resolve only in active status; original notes/source uncertainties remain.
-  Verifier field-shape error repaired in fresh revision; all failed drafts retained.
-  Use batch29's pinned prologue-literal-v1 adapter/reproduction record for checks
-  and issue closeout; retain numerical/MSX adapters. Lower145 ad remains excluded.
-  Nextbatch30:canonical0016 MSX 구석구석 fromPDF146;inspect extent before mapping
-  at most six pages. Remaining22 identities,cover,268-page accounting,index/report,
-  independent issue rebuild/closeout pending. ABC/MSX/numerical analysis unchanged.
+- October1985 active:17 readable/sample-reviewed,one partial,21 unresolved.
+  Batch30 restores canonical0016 MSX 구석구석 by신동윤,PDF146–151,
+  at `packages/msx-corners-a`. Actual15-page body146–159 pluslower166;PLAY정복
+  occupies160–165/upper166. Nine further bodypages andassembly pending.
+  All272 files independently exact;71 regions/60 blocks/seven originals retain
+  seven code groups/257 rows,179 numbered BASIC lines,23 assembly rows,20 program
+  explanations,five listing captions andfour joins. All7,783 UTF8 ranges/7,995 pins/
+  71 images validate;three malformed range cases reject. All36,560 prior files,
+  29 inventories/30 core pins exact;213-test baseline reused. All71 initial crops
+  plus seven repairs reviewed before64 tasks(10eng/54kor+eng);all drafts read before
+  one source pass. No OCR failures/retries. Source errors,37 candidate occurrences
+  andfive unknown quoted widths remain explicit. Index coverage failure repaired
+  in fresh revision;all attempts retained. No source corrections changed by that fix.
+  Nextbatch31:152–157,then158–159/lower166,thenimmutable15-page assembly.
+  Remaining21 unresolved identities,the partial article,cover,268-page accounting,
+  index/report,independent issue rebuild/closeout pending. Completed Prologue/ABC/
+  numerical/earlierMSX unchanged;retain pinned private adapters.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   Human acceptance/full proofreading/source bytes/claims/execution unverified;
   embedded diagram labels await volunteers. No reader rebuild.

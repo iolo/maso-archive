@@ -25,43 +25,45 @@ records below are historical and do not authorize a new rebuild.
 ## October 1985 active, 2026-10-25
 
 October 1985 restoration continues under step 12: **17 readable/sample-reviewed
-entries, no partial articles and 22 unresolved**, accounting for all 39 canonical
-identities. ABC, numerical analysis and MSX remain complete and unchanged.
+entries, one partial article and 21 unresolved**, accounting for all 39 canonical
+identities. Prologue, ABC, numerical analysis and the earlier MSX article remain complete.
 
-Batch 29 completes canonical0014, **고급언어 : 프롤로그 by 정덕기**, across all
-18 body pages PDF128–145/printed126–143, at
-`archive/pdf/1985-10/packages/prologue-complete`. The three immutable natives and
-all1,277 native files remain exact. No Prologue body pages or assembly remain pending.
-The lower145 independent 우신기술서적 advertisement remains excluded.
+Batch 30 restores the opening six pages of canonical0016, **MSX 구석구석 by 신동윤**,
+PDF146–151/printed144–149, at `archive/pdf/1985-10/packages/msx-corners-a`.
+The verified full body is 15 pages: PDF146–159 and the lower part of166.
+Independent PLAY 정복 occupies160–165 and upper166. Printed continuation markers
+connect159 to lower166; nine further body pages and complete assembly remain.
 
-All1,286 package files match an independent rebuild byte for byte. The complete
-article retains335 regions,260 blocks and30 original images. Prose133받아들여/134질
-and factorial139/140 join exactly once without added separators. Forty-three native
-joins remain;98 code panels/558 nonblank code rows form47 complete related example
-groups. These are printed examples and transcripts, not one executable program.
+All272 package files match an independent rebuild. The partial package retains71
+regions,60 blocks and seven originals, including six complete pages and the memory
+diagram. Seven code groups retain257 physical rows: four BASIC programs with179
+numbered lines/232 physical rows,23 assembly rows and two commands. Twenty program
+explanations, five listing captions, a figure caption and its external annotation
+remain distinct. Three code joins and the prose 도/형정의 join occur once.
 
-All42 native array categories/126 slices,11 objects,12 reserved arrays,six scalars
-and262 block fragments retain reversible projections and full original metadata.
-All36,582 local UTF8 range occurrences,39,439 evidence pins and335 images validate;
-external previous-download pins/ranges retain their own source roots. Five malformed
-cases reject. All31,381 prior files,28 inventories and30 core pins remain exact;
-the unchanged213-test baseline is reused. Grammar rules, predicate/editor definitions,
-annotations, commands, file descriptions, seven limits and eight references survive.
+All7,783 local UTF8 ranges,7,995 evidence pins and71 images validate; three malformed
+range cases reject, including a wrong-region reference to duplicated text. All36,560
+prior files,29 inventories and30 core pins remain exact; the unchanged213-test
+baseline is reused. The new preservation inventory records37,771 files.
 
-Eleven exact stage deferral notes resolve only in active assembly status; original
-notes and all source uncertainties remain. No new mapping, rendering, OCR or source
-correction was needed. A verifier field-shape error was repaired in a fresh revision;
-all drafts and the failed attempt remain. Use batch29's pinned `prologue-literal-v1`
-adapter/reproduction record for checks and issue closeout, alongside batch24's
-numerical adapter and batch20's MSX adapter. Human acceptance/full proofreading,
-source encoded bytes, technical/historical claims and execution remain unverified;
-earlier embedded diagram labels await volunteers. No reader rebuild.
+All71 initial crops and seven repaired crops were reviewed before64 Tesseract tasks
+(10eng/54kor+eng). All drafts were read before one source correction pass; no OCR
+failures or retries. Twenty-nine source candidate notes retain37 occurrences and
+five unknown quoted-blank-width markers. Printed7026~D033, duplicate1290~1320
+explanations, listing1620 versus explanation1630, MESSEGE/Massege, Patten and ROM
+remain literal. Successful OCR omissions were recovered from the scans. An index
+coverage assertion caught an overly broad image-name rule; a fresh script revision
+includes the memory diagram. The failed draft and every earlier attempt are retained.
 
-Next is **batch30: canonical0016, MSX 구석구석 by 신동윤, from PDF146/printed144**.
-Inspect the actual extent and adjacent pages, then map at most six body pages.
-Reuse saved145–147 views and retain the two-task/six-mapped-page/twenty-outside-lookup
-limits. Remaining22 identities, cover selection,268-page accounting, standalone
-index/report, independent issue rebuild and closeout remain.
+Next is **batch31: MSX 구석구석 PDF152–157**. Reuse saved batch30 views145–169;
+no partial-word join is required at151/152. Then restore158–159 and lower166, excluding
+upper166's PLAY article, and assemble all15 body pages. Keep the two-task/six-mapped-
+page/twenty-outside-lookup limits. Remaining21 unresolved identities, the partial
+article, cover selection,268-page accounting, standalone index/report, independent
+issue rebuild and closeout remain. Use the pinned Prologue/numerical/MSX assembly
+adapters for completed articles. Human acceptance/full proofreading, source encoded
+bytes, technical/historical claims and execution remain unverified; embedded diagram
+labels await volunteers. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
