@@ -24,28 +24,30 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Twelve of39 canonical entries are now
-readable and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,
-QA,디버깅 룸,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II,DEF,
-가로세로 체크썸,both 자동메뉴 II articles by정우진/서동철,and 함수그래프 II by이진욱.
-Their54/116/140/171/70/155/150/197/237/97/161/174-file packages independently match.
-함수그래프 II covers printed63–68/PDF65lower–70,excluding completed auto-menu above.
-Its27 blocks retain184 BASIC labels/185 fragments/221 physical rows,18 DATA fields,
-three dump rows/24 byte cells/three unchecked checksums,41 routine descriptions,
-a three-row/two-column table,12 joins and nine originals. Three graphic placeholders
-and B/E glyph candidates remain explicit;source errors/listing-number conflict remain literal.
-All39 drafts read before one source pass;zero OCR failures/retries. One pre-OCR
-revision changes nine boxes/adds two to preserve sloping code columns;37 unchanged.
-All3,528 UTF8 ranges/3,661 evidence pins/48 images validate. Fresh213 PDF tests passed
-at batch01;unchanged baseline reused through batch12. All6,640 earlier October files
-and30 implementation pins remain exact. No reader rebuild;27 entries,cover selection,
-source-page accounting and closeout remain.
+October restoration is active under step 12. Thirteen of 39 canonical entries are
+readable and assistant sample-reviewed: 편집자 노트, 애독자 광장, 입력이 힘드십니까?,
+QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FORMAT II, DEF,
+가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
+and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
 
-Next is batch13: verify canonical0013,테이프용 MLE by박성준,
-from printed69/PDF71,including its ending and adjacent page. Reuse saved PDF70–71;
-the opening is verified but the complete extent is not. Retain the two-task/six-mapped-
-page/twenty-outside-lookup limits and segment if needed. Canonical title/order/parent
-stay unchanged. Details and remaining issue work: [October log](docs/progress/8510.md)
+The latest MLE package covers printed 69–71 / PDF 71–73 upper, excluding the lower
+academy advertisement. Its 76 files retain 19 regions, 11 blocks, three originals,
+56 BASIC labels / 57 fragments / 110 physical rows, six DATA fields, ten routine
+entries and five joins. The embedded monitor string retains four addresses,
+29 byte fields and four commands, including two physically wrapped byte readings.
+Printed $3374, decimal/hex pairings, RECODER and 서부루틴 remain literal.
+All 19 crops reviewed before 16 tasks; all drafts read before one source pass.
+Zero OCR failures, retries or crop repairs. All 1,509 UTF8 ranges / 1,564 evidence
+pins / 19 images validate. All 7,410 earlier October files and 30 implementation
+pins remain exact. The fresh 213-test batch 01 baseline is reused through batch 13.
+No reader rebuild; 26 entries, cover selection, source-page accounting and closeout remain.
+
+Next is batch 14: canonical0001, 특집 : MSX의 모든 것 by 심규석,
+from printed 73 / PDF 75. Reuse saved PDF 74–77; verify the actual full extent and
+adjacent page, then restore at most six opening pages and explicitly defer any
+remaining pages. The opening and first two continuation pages are observed; full
+extent is not yet verified. Keep the two-task/six-mapped-page/twenty-outside-lookup
+limits. Canonical title/order/parent stay unchanged. Details: [October log](docs/progress/8510.md)
 and [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23
