@@ -30,34 +30,28 @@ QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FOR
 가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
 and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
 
-The MSX feature remains partial, with printed73–102/PDF75–104 restored in five
-immutable packages: `archive/pdf/1985-10/packages/msx-a` through `packages/msx-e`.
-Latest batch18 has184 files matching its independent rebuild. Its52 regions yield
-25 blocks and11 original images. Four code groups retain168 physical rows:
-140 assembly rows,three listing banners,16 dump rows,four BASIC lines and five
-command/example rows. Assembly retains137 numbered lines1000–2360 and three
-unnumbered packed-byte continuations,605 fields and375 explicit blank columns.
+All31 MSX body pages are now restored:printed73–102 and104/PDF75–104 and106,
+across six immutable packages `archive/pdf/1985-10/packages/msx-a` through `msx-f`.
+The article remains partial until assembly. Latest batch19 restores finalPDF106:
+all47 files match an independent rebuild;11 regions yield8 blocks and2 originals.
+Two BASIC listings retain nine printed lines,78 DATA fields andtwo strings. Table25
+has1000–1040;table26has50/60/70/90 with no invented80. The 감/지해 prose join is explicit.
 
-All52 final crops reviewed before41 tasks (16eng/25kor+eng). Seven replacement
-crops repair two shared row boundaries and three prose margins;both revisions remain.
-All drafts read before one source pass;zero OCR failures/retries. All4,357 UTF8
-ranges,4,505 evidence pins and52 images validate. All11,901 prior files,17 inventories
-and30 core pins remain exact;fresh213-test batch01 baseline reused.
+All11 exact crops reviewed before9 tasks (2eng/7kor+eng);all drafts read before one
+source pass. No crop/OCR repairs or retries. All427 UTF8 ranges,467 evidence pins
+and11 images validate;12,714 prior files,18 inventories and30 core pins remain exact.
+Fresh213-test batch01 baseline reused. Five whole-page views104–108 reused unchanged.
+Source DATAE E,DEFUSR0,C01EH/512/논리섹터20/FFFH and differing program bytes remain
+literal. Table25line1020has14 trailing zeros;table26line70has12. Original diagram
+labels await volunteers. No code execution or historical/technical verification.
 
-Table23 retains36 DEFB fields,15 EQU operands and one DEFM message;table24 retains
-256 dump bytes. BASIC has39 DATA fields and one string. Two BIOS entries,eight
-key-to-value examples,twelve boxed-arrow markers and16 joins remain indexed.
-Source AUTOEXFC.BAT,C01FFH/C0FFH,diskett/copyed and repeated용 remain literal.
-Diagrams/annotations remain original images with labels awaiting volunteers.
-Full article assembly,remaining25 identities,cover selection,page accounting and
-closeout remain. No reader rebuild.
-
-All31 MSX body pages are now visually classified:PDF75–104 and106. Advertisement105
-is excluded;107 is another advertisement and108 starts 수치해석 (4).
-Next is batch19:restore final printed104/PDF106, reusing saved104–108 boundary
-sources as needed. Continue104카피→106명령을 across advertisement105. Preserve all
-five completed natives;assemble all six after the final native is validated.
-Keep two-task/six-mapped-page/twenty-outside-lookup limits.
+Advertisement105 is excluded;107 is another advertisement and108 starts 수치해석 (4).
+No MSX body pages remain. Next is batch20:assemble all six immutable natives into
+one complete article, preserving their full metadata, local indexes and uncertainties.
+Check all five native boundaries,including104카피→106명령을 across advertisement105;
+validate every range/asset and an independent rebuild. No new mapping or OCR needed.
+Remaining25 identities,cover selection,page accounting and closeout follow.
+Keep two-task/six-mapped-page/twenty-outside-lookup limits. No reader rebuild.
 Details:[October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 

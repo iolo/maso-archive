@@ -20,20 +20,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:13 readable/sample-reviewed entries,one partial,25unresolved.
-  MSX printed73–102/PDF75–104 restored in immutable msx-a/b/c/d/e. Latest batch18:
-  184files independently match;52regions/25blocks/11originals;168code rows including
-  140assembly rows/three banners,16dump rows/256bytes,fourBASIC lines andfiveexample
-  rows. Assembly137numbered labels/threeunnumbered wraps/605fields/375blanks;
-  36DEFB fields,15EQU operands,oneDEFM message. BASIC39DATA fields/one string.
-  TwoBIOS entries,eightkey-value examples,twelveboxed-arrow markers and16joins.
-  All52final crops reviewed before41tasks (16eng/25kor+eng);sevenpre-OCR crop repairs
-  retained. All raws read before one source pass;zeroOCR failures/retries. All4,357
-  UTF8ranges/4,505pins/52images validate;11,901prior files/17inventories/30core pins
-  exact. Fresh213-test baseline reused. Source AUTOEXFC.BAT,C01FFH/C0FFH,diskett,
-  copyed and repeated용 retained. Diagram labels await volunteers.
-  All31body pages75–104and106 visuallyclassified;105advertisement excluded. Next
-  batch19restores final106,reusing104–108boundary sources as needed and carrying
-  104카피→106명령을 across105. Preserve five natives;fullsix-native assembly follows.
+  All31MSX body pages75–104and106 restored in immutable msx-a/b/c/d/e/f;105advertisement
+  excluded. Fullarticle assembly pending,no remaining body pages. Latest batch19:
+  47files independently match;11regions/8blocks/2originals;nineBASIC lines/78DATA fields/
+  twostrings/one prosejoin. Table25labels1000–1040;table26labels50/60/70/90,no invented80.
+  All11exact crops reviewed before9tasks (2eng/7kor+eng),all drafts read before one
+  source pass;zero crop/OCR repairs/failures/retries. Fivewhole views104–108 reused.
+  All427UTF8ranges/467pins/11images validate;12,714prior files/18inventories/30core pins
+  exact. Fresh213-test baseline reused. DATAE E,DEFUSR0 andindependent bytes retained;
+  trailingzero fields14/12 verified in originaldetails. Diagramlabels await volunteers.
+  Next batch20assembles sixnatives with fullmetadata/category/range preservation and
+  five source-linked boundary checks,including104카피→106명령을 across105. No newOCR.
   Remaining identities,cover/accounting/closeout remain. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   Human acceptance/full proofreading/source bytes remain unverified.
