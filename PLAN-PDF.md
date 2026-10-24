@@ -24,43 +24,44 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-24
 
-October restoration continues under step 12: **15 readable/sample-reviewed entries,
-no partial articles and 24 unresolved**, accounting for all 39 canonical identities.
-MSX remains complete; its selected assembly is unchanged.
+October 1985 restoration continues under step 12: **16 readable/sample-reviewed
+entries, no partial articles and 23 unresolved**, accounting for all 39 canonical
+identities. MSX and the complete numerical-analysis assembly remain unchanged.
 
-Batch24 completes canonical0003, **수치해석 (4) by 박재현**, printed106–120/
-PDF108–122, at `archive/pdf/1985-10/packages/numerical-complete`. All15 body pages
-are assembled from unchanged `numerical-a-r02`, `numerical-b` and `numerical-c`.
-No body pages or numerical-analysis assembly remain pending. No advertisement
-interrupts the article;107 and123 are separate advertisements,124 the next article.
+Batch 25 completes canonical0004, **컴퓨터활용 ABC**, printed122–125/PDF124–127,
+at `archive/pdf/1985-10/packages/computer-abc`. The source title 컴퓨터 활용 ABC
+and 편집부 byline remain separate from the canonical TOC metadata. PDF123 is an
+independent advertisement; PDF128 opens 프롤로그. No body pages or assembly remain.
 
-All597 files match an independent rebuild byte for byte,including588 exact native
-files. The complete package retains162 regions,106 reading blocks and29 originals.
-Two source joins preserve FORTRAN12→13 and BASIC1710→1720 without added characters.
-Nine listing/output groups retain four programs: BASIC CURFIT182 rows,FORTRAN
-CURFIT259 rows,BASIC POLFIT154 rows andFORTRAN POLFIT213 visible ordinal rows.
-Source95→97 andfinal214/printed215 Source Lines remain independent.
+All130 files match an independent rebuild byte for byte. The package retains
+34 regions,24 reading blocks and5 original images,including the complete four-panel
+illustration. Six independent examples retain8 physical rows,including BASIC10/20/30.
+Five prose joins preserve column/page continuations. Four references,24 bibliographic
+fields,20 explicit control-number definitions and4 caption associations are indexed.
+All2,705 local UTF8 range occurrences,2,806 evidence pins and34 images validate;
+three malformed range cases reject. All25,393 prior files,24 inventories and30 core
+pins remain exact. The unchanged fresh213-test baseline is reused.
 
-All65 native array categories,195 explicit slices,13 objects,12 reserved arrays,
-six scalars and108 block fragments retain reversible projections andfull original
-metadata. All37,514 local UTF8 range occurrences,38,888 evidence pins and162 images
-validate. Four malformed cases reject. All22,966 prior files,23 inventories and30
-core pins remain exact. The unchanged fresh213-test baseline is reused.
+All34 exact crops were reviewed before29 Tesseract tasks (6eng/23kor+eng);all29 raw
+drafts were read before one direct source correction pass. No OCR retries or crop
+repairs. Source NCK,carrage return,synchrous idle,prioring,IEEE802U andCHR(15) remain
+literal. Quoted blank width and H/A overprint retain explicit unknown markers and
+original pixels. A repeated binary substring required an occurrence-specific index
+anchor; a negative-fixture harness was revised to accept UTF8 decoding rejection.
+Both failed authoring attempts remain; source transcripts and package bytes unchanged.
+The checkpoint inventory was refreshed after its recorder log finished; the original
+inventory remains preserved.
 
-Ten exact native-stage deferral notes resolve only in active assembly status;
-original notes andsource uncertainties remain. No new mapping,rendering,OCR or
-source correction was needed. An expected-count typo was corrected before verifier
-execution;all authoring drafts remain. Use the pinned private `numerical-literal-v1`
-adapter in batch24's reproduction record for checks andissue closeout.
-Human acceptance/full proofreading,source bytes,historical/technical/mathematical
-claims andexecution remain unverified. Original graph/illustration labels await
-volunteers. No reader rebuild.
+Next is **batch26: 프롤로그 by 정덕기**, starting atPDF128/printed126. Reuse saved
+127–128 views and inspect actual extent/adjacent pages before mapping atmost six body
+pages. Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining23 identities,
+cover selection,268-page accounting,standalone index/report,independent issue rebuild
+andcloseout remain. Use batch24's pinned `numerical-literal-v1` and batch20's MSX
+adapter for their assembly checks. Human acceptance/full proofreading,source encoded
+bytes,technical/historical claims andexecution remain unverified; embedded diagram
+labels await volunteers. No reader rebuild.
 
-Next is **batch25: 컴퓨터활용 ABC**, starting atPDF124/printed122. Inspect its
-actual extent andadjacent pages before mapping at most six body pages. Keep the
-two-task/six-mapped-page/twenty-outside-lookup limits. Remaining24 identities,
-cover selection,268-page accounting,standalone index/report,independent issue
-rebuild andcloseout remain. Details: [October log](docs/progress/8510.md) and
+Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23

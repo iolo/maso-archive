@@ -6,21 +6,21 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress: **15 of39 entries are readable and
-assistant sample-reviewed,no articles are partial,and24 remain unresolved**.
-Batch24 completes 수치해석(4),all15 pagesPDF108–122,in `packages/numerical-complete`.
-All597 assembly files match an independent rebuild byte for byte,including588
-unchanged native files.162 regions/106 blocks/29 originals retain nine listing/
-output groups,four complete programs andtwo verified cross-segment code joins.
-All65 native array categories/195 slices/full metadata reverse-project;37,514 UTF8
-range occurrences/38,888 evidence pins/162 images validate. Four negative cases
-reject. All22,966 priorfiles/23 inventories/30 corepins remain exact;213-test baseline
-reused. No new mapping/render/OCR/sourcecorrection;all source uncertainties remain.
-No numerical-analysis body pages orassembly remain. MSX is unchanged.
-Nextbatch25:컴퓨터활용ABC,startingPDF124;inspect actual extent before mapping.
-Remaining24 identities,cover,268-page accounting,standalone index/report,independent
-issue rebuild andcloseout pending. Human acceptance/full proofreading/sourcebytes/
-claims/execution unverified;original labels await volunteers. No reader rebuild.
+October 1985 restoration is in progress: **16 of39 entries are readable and
+assistant sample-reviewed,no articles are partial,and23 remain unresolved**.
+Batch25 completes 컴퓨터활용ABC,printed122–125/PDF124–127,at `packages/computer-abc`.
+All130files independently byte-identical;34regions/24blocks/5originals retain
+6independent examples/8rows,5prosejoins,4references and4figurecaption associations.
+All2,705UTF8ranges/2,806pins/34images validate;three malformedrange cases reject.
+All25,393priorfiles/24inventories/30corepins unchanged;213-test baseline reused.
+All34crops reviewed before29tasks(6eng/23kor+eng);allraws read before one sourcepass.
+Source spelling/code mistakes,unknown quotedblankwidth andH/Aoverprint remain explicit.
+Two authoring failures preserved with fresh index/checker revisions;no OCR retries,
+crop repairs orsource/package changes. MSX/numericalanalysis remain complete.
+Nextbatch26:프롤로그 by정덕기,startingPDF128;inspect actual extent before mapping.
+Remaining23identities,cover,268-pageaccounting,index/report,independentissuerebuild
+andcloseout pending. Human acceptance/fullproofreading/sourcebytes/claims/execution
+unverified;embeddedlabels awaitvolunteers. No reader rebuild.
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 

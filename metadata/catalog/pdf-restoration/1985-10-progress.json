@@ -590,12 +590,56 @@
       "toc_entry_id": "maso-1985-10-toc-0004",
       "title": "컴퓨터활용 ABC",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0004컴퓨터활용ABC hasTOC122;source124printed122opens컴퓨터활용ABCwith편집부byline. Canonicaltitleandidentityremainunchanged.",
+        "Bodycontinues124–127/printed122–125withoutadvertisement. 124right끝정→125left도;125right후→126leftCR을;126left텍→right스트;126rightseparator→127left인데 continuations remain source-linked.",
+        "127concludescontrol-code discussionwith참고문헌fouritems andanoriginalfourpanel figure.128printed126opensindependent프롤로그by정덕기/canonical0014;123isindependent大恩bookadvertisement. No additionalABCbodypage.",
+        "124has3line BASICexample andunlabelledbinarytoken;126hasseparatePRINT/PRINT#1examples,ESC+SI+\"D\"notation andCHR$expression. Do notexecuteorinfercontrolbytes.",
+        "127fourpanelcaptions그림1/2/3/4searchableseparately;embeddedlabels,letterplacement,waveformanddottedglyphs remainoriginalpixelsforvolunteers. Sourcecontrolnumber/spelling/technicalclaimsandbibliographicreferencesunverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/computer-abc",
+        "article_id": "scan-maso-1985-10-toc-0004",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/computer-abc/manifest.json",
+          "sha256": "72b482e9362c4f6a86c6d6dacaa90e64aab9c9f4b0661350e492d4ddec9cd270",
+          "bytes": 21742
+        },
+        "coverage": {
+          "pdf_pages": [
+            124,
+            125,
+            126,
+            127
+          ],
+          "printed_pages": [
+            "122",
+            "123",
+            "124",
+            "125"
+          ],
+          "regions": 34,
+          "blocks": 24,
+          "figures": 5,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-25/validation.json",
+          "sha256": "18a71a62db3d542505f9b562a818472c33429c89208f565d381f845777ed8bca",
+          "bytes": 2503
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-25/reproduction.json",
+          "sha256": "897e244bbcc372dd11eed77e45665187e89eb09885e1554b62a40fe387c48442",
+          "bytes": 1280
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0005",
@@ -1535,10 +1579,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 15,
+    "readable": 16,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 24
+    "unresolved_eligibility": 23
   },
   "checkpoints": [
     {
@@ -2689,6 +2733,51 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-25",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0004"
+      ],
+      "mapped_pdf_pages": [
+        124,
+        125,
+        126,
+        127
+      ],
+      "outside_map_lookup_pages": [
+        123,
+        128
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 29,
+      "eng_code_tasks": 6,
+      "kor_eng_tasks": 23,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-25/validation.json",
+        "sha256": "18a71a62db3d542505f9b562a818472c33429c89208f565d381f845777ed8bca",
+        "bytes": 2503
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-25/verification-completed.json",
+        "sha256": "092d0ea683c84e8d39c4ccb4c97df737fe4c907c8f0af3ca76c0ed9822fc8db4",
+        "bytes": 1474
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-25-preserved-work-r02.json",
+        "sha256": "9944e2b48078ffa55558ceb0280a588c75cf8b681d3c10243d29df83f33616b3",
+        "bytes": 5837353
+      },
+      "started_at": "2026-10-24T11:29:44.479003+00:00",
+      "finished_at": "2026-10-24T13:46:42.910318+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured.",
+      "preservation_revision": {
+        "path": "archive/pdf/1985-10/restoration/batch-25/preservation-revision-r02.json",
+        "sha256": "6e509da2e0b1354bd6c0583610efd71539533d64a39028af176518b43bc0507b",
+        "bytes": 1227
+      }
     }
   ],
   "source_page_observations": [
@@ -3705,39 +3794,71 @@
     {
       "pdf_page": 124,
       "printed_page": "122",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0004"
       ],
-      "restoration": "not-started",
-      "evidence": "컴퓨터활용ABCopeningobserved;notrestoredthischeckpoint."
+      "restoration": "complete",
+      "evidence": "컴퓨터 활용 ABC opening and편집부byline;NULL/SOH prose andthree-row BASICexample/binarynotation."
     },
     {
       "pdf_page": 125,
       "printed_page": "123",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0004"
       ],
+      "restoration": "complete",
+      "evidence": "STX through printercontrol discussion,NAK/NCK discrepancy andH/Aoverprint sourceuncertainty retained."
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": "124",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0004"
+      ],
+      "restoration": "complete",
+      "evidence": "Printer/communication control prose,four independent examples/notations,sourcebinarystrings andCHR(15)retained."
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": "125",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0004"
+      ],
+      "restoration": "complete",
+      "evidence": "Final prose,four bibliographicentries andfour-panel original illustration withfour captions;article ends before128Prologue."
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": "126",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0014"
+      ],
       "restoration": "not-started",
-      "evidence": "컴퓨터활용ABCcontinuationobserved;fullcanonicalextent/restorationpending."
+      "evidence": "Independent프롤로그opening by정덕기;outside-map lookup only. Full extent to verify."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-25",
-    "goal": "Restorecanonical0004컴퓨터활용ABC,startingPDF124/printed122.",
+    "id": "batch-26",
+    "goal": "Verify actual extent and restore canonical0014프롤로그 by정덕기,startingPDF128/printed126.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0004"
+      "maso-1985-10-toc-0014"
     ],
-    "mapping_targets": "Inspectactualarticleextentandadjacentpages;mapatmostsixbodypagesstarting124. Reusepreserved123–125views. Sourceheading컴퓨터활용ABC and편집부visibleon124;keepcanonicaltitle/identity unchanged. Do notinferendingfromnextTOCentry/globalfoliooffset. Preservecompletednumericalanalysis/MSXandallnatives.",
+    "mapping_targets": "Reuse saved127–128 views. Inspect actual extent andadjacent pages before mapping atmostsixbodypages. Do not infer ending fromTOC/globalfoliooffset. Preserve ABC,numericalanalysis,MSX andallpriornatives.",
     "provisional_lookup_targets": [
-      123,
-      126,
       127,
       128,
       129,
-      130
+      130,
+      131,
+      132,
+      133,
+      134
     ],
     "limits": {
       "articles": 2,
@@ -3749,7 +3870,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Numericalanalysis0003complete15-pageassembly108–122;MSXcompleteunchanged. No partialarticles orpending assemblies. Remaining24identities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
+    "ABC0004complete124–127;numericalanalysis0003complete108–122;MSXcompleteunchanged. No partialarticles orpendingassemblies. Remaining23identities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
   ],
   "reader_rebuild": false
 }
