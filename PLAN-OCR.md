@@ -19,27 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:29 readable/sample-reviewed,1 partial,9 unresolved.
-  Batch55 restores 모킹보드&뮤직0002 final246–249 at `packages/mocking-music-c`:
-  106files independently exact;all16bodypages234–249 covered inthreeimmutablenatives,
-  fullassembly pending.28regions/23blocks/5originals;708transcriptrows/2135tokens.
-  Final682assemblyentries/2056fields/161operandvalues preserveprintedduplicate518/578,
-  STA label,missing$prefixes,MUSICGu/MUSICGO,.INDEX andVO90. Direct353CPX supersedes
-  provisionalCPY boundarynote;frozenpriorfiles unchanged. Final1034RTS/sidebar verified.
-  Fourteencodejoins/oneincomingassembly/onesidebarwordjoin;fivequotedstrings/tenmarks,
-  twovendors/oneaddress/twophones/two☎Unicodecandidates;43candidateoccurrences/37notes.
-  Allopening/middleuncertainties andmusicglyphvolunteerwork retained.
-  All14,719ranges/14,806pins/28crops/62disjointpairs pass;ninemalformedcases reject.
-  All64,978priorfiles/54inventories/30corepins exact;213-testbaseline reused.
-  Newinventory:65,457. Sixwholeviews reused;fourmapped/twooutside/onetask.
-  All28crops before23OCRtasks(15eng/8kor+eng),allraws beforeonesourcepass.
-  Twoboundaryrepairs/threechangedcrops separatelyreviewed;25unchangedexact.
-  Allinitialmaps/crops retained;zeroOCRfailures/retries. Nextbatch56:full16-pageassembly
-  fromthreeimmutablepackages,withoutnewmapping/OCR. Preservealleightexistingadapters.
+- October1985 active:30 readable/sample-reviewed,0 partial,9 unresolved.
+  Batch56 completes16-page 모킹보드&뮤직0002 at `packages/mocking-music-complete-r01`:
+  596files independentlyexact,587nativefiles unchanged;158regions/134blocks/24figures.
+  Allbodypages234–249 complete;noarticleassembly pending. Final1034RTS/sidebar before250ad.
+  All30,993nativearrayentries/147slices/14objects/12reservedlists/6scalars preserved.
+  All107,917ranges/109,220pins/158crops/635disjointpairs pass;9malformedcases reject.
+  Twelvecompletecodegroups/1514physicalrows;mainassembly1025entries/1099rows/3249fields
+  retains1,2,12–1034 andduplicate518/578. Completehex296rows/2960fields;no recalculation.
+  Eightopeningexamples,twotables,mergedcells,commands/musicforms,quotes/contacts preserved.
+  Twoexplicitnativeboundaries:239→240prose and245→246assembly;physicalblocks unchanged.
+  Selected353CPX rechecked againstexistingcrop;provisionalCPYnotes remainfrozen/superseded.
+  Nineactivestagedeferrals resolved;138sourcecandidateoccurrences andmusicglyphwork retained.
+  Eightwholeviews/oneexistingcrop rechecked;no newrender/mapping/OCR/sourcecorrection.
+  All65,457priorfiles/55inventories/30corepins exact;213-testbaseline reused.
+  Newinventory:70,254. Preserveallnineprivateassemblyadapters,includingbatch56.
+  Nextbatch57:verifyactualextent/restoreOthello0035 fromPDF251/printed249,atmost6mappedpages.
   Nineunresolvedidentities,cover,268-pageaccounting,index/report,independentissuerebuild
   andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/glyphcounts,
-  claims/execution unverified. No semantic/hardware repair,checksumrecomputation orreaderrebuild.
-  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+  claims/execution unverified. No semantic/hardware/strategyrepair,checksumrecomputation
+  orreaderrebuild. [October log](docs/progress/8510.md),
+  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

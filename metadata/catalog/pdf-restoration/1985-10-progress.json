@@ -375,7 +375,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "All233–252 whole views inspected. Opening234/printed232 has title 모킹보드를 이용한 &뮤직, byline 오 필 홍 and programme contest first-prize series.233 belongs to preceding dBASEII/공모총평. Article continues without an independent insertion through249/printed247.",
@@ -392,15 +392,21 @@
         "Current246–249/printed244–247 contains final15assemblycolumns:246threecolumns353–508;247four509–716;248four717–924;249four925–1034. Printedline1034 RTS endslastlistingcolumn. Literalordinals requireownsource transcription,not automaticsequence repair.",
         "249lowerrelatedsidebar 모킹보드를 구할 수 있는 두곳 hasheading,leftprose continuingright 소프/트웨어,then two vendorcontact records. Sourcehistoricalprice/phones/addresses retained as printed claims,not current recommendations. Telephoneicons remain originalpixels withUnicodecandidate representation.",
         "250 independent희망전자개발/BAL500advertisement,no visiblefolio;excludedfromarticleextent. Priorverified251Othello opening remainspinnedbatch53 evidence. No newidentity oradvertisementbodytranscription.",
-        "Finalfourbodypages only;opening234–239/middle240–245 immutable. Full16pageassembly remainsseparate. No codeexecution,opcode/target/address/arithmetic/hardware/semanticrepair."
+        "Finalfourbodypages only;opening234–239/middle240–245 immutable. Full16pageassembly remainsseparate. No codeexecution,opcode/target/address/arithmetic/hardware/semanticrepair.",
+        "Three immutable natives retain587 files,158regions,134blocks and24figures. Full body234–249. Canonical0002 공모 최우수상 : 모킹보드를 이용한 & 뮤직 / 오필홍 andparent unchanged;source title/byline preserved.",
+        "Eight saved wholepages233,234,239,240,245,246,249,250 rechecked.233precedingdBASEII/contest commentary;234opensarticle.239ends 점점 음;240begins 량이 작아지는 길/이를 나타낸다. Physical sourcefragments retained,explicit cross-native proseconnection;headers/fullpage originals remain in theirnative order.",
+        "245last352 SV3 INX continues246first353 CPX END. Wholepage thumbnail ambiguous;existing selectedasm246-left crop separately rechecked confirmsX. No new sourcecorrection. Current55CPX supersedes provisional54CPY boundarynote only;allfrozennatives preserved.",
+        "249ends1034RTS withrelatedpurchasingsidebar.250independent희망전자개발/BAL500ad excluded. No inventedEND,missing3–11 rows,or repair ofduplicateprinted518/578.",
+        "Every nativearray,object,scalar,reservedcategory andsource-localreference survivesreversibleprojection. Completeassembly-source group combines middle andendingmetadata with uniquecomplete ordinals;printednumbers andnativeordinals retained. Listingdownload is exactnativeconcatenation.",
+        "Alltablemergedcells,register/controlfields,examples,hexchecksumcolumns,physicalcommentwraps,quotedstrings,contacts,telephoneUnicodecandidates andfigureassociations preserved. No newrender,mapping,OCR,semanticrepair,checksumrecomputation orexecution."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/mocking-music-c",
+        "directory": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
         "article_id": "scan-maso-1985-10-toc-0002",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/mocking-music-c/manifest.json",
-          "sha256": "fc71a359f9c2cd3ef6fe04abc57c8dba6cd5fe07e9e4b40b6376b60612935afa",
-          "bytes": 17849
+          "path": "archive/pdf/1985-10/packages/mocking-music-complete-r01/manifest.json",
+          "sha256": "2db9e23a9e5a0e724653cd26e82aac64b6d08729a09f5eecaaace61aa96e8ee1",
+          "bytes": 107432
         },
         "coverage": {
           "pdf_pages": [
@@ -442,9 +448,8 @@
           "regions": 158,
           "blocks": 134,
           "figures": 24,
-          "coverage_scope": "Cumulative16-pagecoverage of3immutable natives;directory/manifest selectendingonly;fullassembly pending.",
-          "deferred_pdf_pages": [],
-          "full_extent_candidate_pdf_pages": [
+          "coverage_scope": "Complete16-pagearticle from3immutablenatives;158regions,134blocks,24originalfigures. No bodypages orassembly pending.",
+          "actual_full_pdf_pages": [
             234,
             235,
             236,
@@ -462,21 +467,23 @@
             248,
             249
           ],
+          "deferred_pdf_pages": [],
           "uninspected_interior_pdf_pages": [],
+          "known_interleaved_advertisement_pdf_pages": [],
           "body_pages_complete": true,
-          "full_extent_status": "Verified sixteen-pagearticle234–249/printed232–247;allbodypages restored. Fullassembly pending."
+          "full_extent_status": "Complete234–249.233prior dBASEII/contestcommentary;234title/byline;249final1034RTS andpurchasingsidebar;250independentBAL500ad."
         },
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-55/validation.json",
-          "sha256": "6b08b7b68e65edbea19469269f5d4aec0d214ed326c005bc268ebfdfcb0d4e5e",
-          "bytes": 2421
+          "path": "archive/pdf/1985-10/restoration/batch-56/validation.json",
+          "sha256": "f08d67bbac6787dbc1311c20e8496ade46c3d3c150efe2b0ac378dbc28c4f9ce",
+          "bytes": 3033
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-55/reproduction.json",
-          "sha256": "1a89c1492549e4a564f329abf94cb6d66efdd9bb0c2a12edd3d9f3886ea44e48",
-          "bytes": 1342
+          "path": "archive/pdf/1985-10/restoration/batch-56/reproduction.json",
+          "sha256": "79a1ace2606c6365f4b0f4b7a123429ddb9145abb62ce27d8f41db9bc3587951",
+          "bytes": 2441
         },
         "segments": [
           {
@@ -583,7 +590,18 @@
               "bytes": 1342
             }
           }
-        ]
+        ],
+        "assembly_format": "mocking-music-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-10/restoration/batch-56/mocking_music_literal.py",
+          "sha256": "8b5ae95226f50fce0fc236fefb0e16e3d27ff8461785d104d1d26d285545f5e6",
+          "bytes": 20251
+        },
+        "preservation_validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-56/preservation-validation.json",
+          "sha256": "990e1eba6d74a379e279b81ebec1242858dc2ea8400dbea6763245555badb05a",
+          "bytes": 490
+        }
       }
     },
     {
@@ -3222,8 +3240,8 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 29,
-    "partial": 1,
+    "readable": 30,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 9
   },
@@ -5958,6 +5976,52 @@
       "article_availability": "partial",
       "deferred_pdf_pages": [],
       "assembly_required": true
+    },
+    {
+      "id": "batch-56",
+      "status": "complete",
+      "stage": "validated-complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0002"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        233,
+        234,
+        239,
+        240,
+        245,
+        246,
+        249,
+        250
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-56/validation.json",
+        "sha256": "f08d67bbac6787dbc1311c20e8496ade46c3d3c150efe2b0ac378dbc28c4f9ce",
+        "bytes": 3033
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-56/verification-completed.json",
+        "sha256": "83f1bd4895f85fa1f459c2c72f4d06c1b2eeaa0f76f2744e07473f8313e1c18f",
+        "bytes": 1420
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-56-preserved-work.json",
+        "sha256": "7d4456007ce9cb2b895a8037ba52f65fb2d397848015f09e0d47ef3321955e17",
+        "bytes": 16274074
+      },
+      "started_at": "2026-10-24T23:19:31.138034+00:00",
+      "finished_at": "2026-10-24T23:23:43.625236+00:00",
+      "timing_scope": "Wallclock includeswaits/gaps;activehumaneffort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -8539,14 +8603,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article",
+      "restoration": "complete-assembled-article",
       "evidence": "Verifiedcontinuous 모킹보드를 이용한 &뮤직 article234–249;currentopening234–239 sourcecorrected,remainingbody240–249 pending. No sourceclaim/executionverification.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
         "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
         "bytes": 12929
       },
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-a"
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01"
     },
     {
       "pdf_page": 235,
@@ -8555,14 +8619,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article",
+      "restoration": "complete-assembled-article",
       "evidence": "Verifiedcontinuous 모킹보드를 이용한 &뮤직 article234–249;currentopening234–239 sourcecorrected,remainingbody240–249 pending. No sourceclaim/executionverification.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
         "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
         "bytes": 12929
       },
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-a"
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01"
     },
     {
       "pdf_page": 236,
@@ -8571,14 +8635,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article",
+      "restoration": "complete-assembled-article",
       "evidence": "Verifiedcontinuous 모킹보드를 이용한 &뮤직 article234–249;currentopening234–239 sourcecorrected,remainingbody240–249 pending. No sourceclaim/executionverification.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
         "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
         "bytes": 12929
       },
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-a"
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01"
     },
     {
       "pdf_page": 237,
@@ -8587,14 +8651,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article",
+      "restoration": "complete-assembled-article",
       "evidence": "Verifiedcontinuous 모킹보드를 이용한 &뮤직 article234–249;currentopening234–239 sourcecorrected,remainingbody240–249 pending. No sourceclaim/executionverification.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
         "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
         "bytes": 12929
       },
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-a"
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01"
     },
     {
       "pdf_page": 238,
@@ -8603,14 +8667,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article",
+      "restoration": "complete-assembled-article",
       "evidence": "Verifiedcontinuous 모킹보드를 이용한 &뮤직 article234–249;currentopening234–239 sourcecorrected,remainingbody240–249 pending. No sourceclaim/executionverification.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
         "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
         "bytes": 12929
       },
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-a"
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01"
     },
     {
       "pdf_page": 239,
@@ -8619,14 +8683,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article",
+      "restoration": "complete-assembled-article",
       "evidence": "Verifiedcontinuous 모킹보드를 이용한 &뮤직 article234–249;currentopening234–239 sourcecorrected,remainingbody240–249 pending. No sourceclaim/executionverification.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
         "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
         "bytes": 12929
       },
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-a"
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01"
     },
     {
       "pdf_page": 240,
@@ -8635,8 +8699,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Middle240–245 sourcecorrected:incomingprose,commands/workarea continuations,complete296-rowhexlisting andnumberedassembly1,2,12–352. Sourceclaims/checksums/code unverified. Final246–249 andfullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-54/source-reviewed.json",
@@ -8651,8 +8715,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Middle240–245 sourcecorrected:incomingprose,commands/workarea continuations,complete296-rowhexlisting andnumberedassembly1,2,12–352. Sourceclaims/checksums/code unverified. Final246–249 andfullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-54/source-reviewed.json",
@@ -8667,8 +8731,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Middle240–245 sourcecorrected:incomingprose,commands/workarea continuations,complete296-rowhexlisting andnumberedassembly1,2,12–352. Sourceclaims/checksums/code unverified. Final246–249 andfullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-54/source-reviewed.json",
@@ -8683,8 +8747,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Middle240–245 sourcecorrected:incomingprose,commands/workarea continuations,complete296-rowhexlisting andnumberedassembly1,2,12–352. Sourceclaims/checksums/code unverified. Final246–249 andfullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-54/source-reviewed.json",
@@ -8699,8 +8763,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Middle240–245 sourcecorrected:incomingprose,commands/workarea continuations,complete296-rowhexlisting andnumberedassembly1,2,12–352. Sourceclaims/checksums/code unverified. Final246–249 andfullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-54/source-reviewed.json",
@@ -8715,8 +8779,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Middle240–245 sourcecorrected:incomingprose,commands/workarea continuations,complete296-rowhexlisting andnumberedassembly1,2,12–352. Sourceclaims/checksums/code unverified. Final246–249 andfullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-54/source-reviewed.json",
@@ -8731,8 +8795,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-c",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Final246–249 sourcecorrected:682literalassemblyentries353–1034 withprintedduplicate518/578 preserved,terminal1034RTS andrelatedpurchasingsidebar. Direct353CPX supersedesprovisionalCPY boundarynote;priorfiles unchanged. Fullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-55/source-reviewed-r01.json",
@@ -8747,8 +8811,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-c",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Final246–249 sourcecorrected:682literalassemblyentries353–1034 withprintedduplicate518/578 preserved,terminal1034RTS andrelatedpurchasingsidebar. Direct353CPX supersedesprovisionalCPY boundarynote;priorfiles unchanged. Fullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-55/source-reviewed-r01.json",
@@ -8763,8 +8827,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-c",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Final246–249 sourcecorrected:682literalassemblyentries353–1034 withprintedduplicate518/578 preserved,terminal1034RTS andrelatedpurchasingsidebar. Direct353CPX supersedesprovisionalCPY boundarynote;priorfiles unchanged. Fullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-55/source-reviewed-r01.json",
@@ -8779,8 +8843,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0002"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/mocking-music-c",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/mocking-music-complete-r01",
       "evidence": "Final246–249 sourcecorrected:682literalassemblyentries353–1034 withprintedduplicate518/578 preserved,terminal1034RTS andrelatedpurchasingsidebar. Direct353CPX supersedesprovisionalCPY boundarynote;priorfiles unchanged. Fullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-55/source-reviewed-r01.json",
@@ -8830,26 +8894,36 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-56",
-    "goal": "Assemblecomplete16-page 모킹보드를 이용한 &뮤직0002 fromthreeexactimmutable nativepackages.",
+    "id": "batch-57",
+    "goal": "Verifyactualextent andrestore canonical0035 게임 : 오델로 묘수풀이 fromPDF251/printed249.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0002"
+      "maso-1985-10-toc-0035"
     ],
-    "mapping_targets": "No newmapping/OCR/sourcecorrection. Preserveopening234–239,middle240–245,ending246–249 andalllocalindexes/uncertainties. Projecteveryownregionrange andcategoryoccurrence. Preserveincoming239→240 prose and245→246 assembly boundary;selected353CPX supersedesonlyprovisionalCPY note. Verifyterminal1034RTS/sidebar andindependent250ad. Retainexisting8privateadapters;addboundedprivateassemblyadapter ifneeded. No semantic/hardware repair,checksumrecomputation orexecution.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Reuseverified251opening/252continuationviews;inspectactualending andadjacentpages beforemapping. Do notinferendingfromTOC. Preserveboarddiagrams/originalpixels andliteralprose/code ifpresent. Atmost6mappedpages;splitlongerarticle. No gameexecution,strategyanalysis orsemanticrepair.",
+    "provisional_lookup_targets": [
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    },
-    "new_source_pages": 0,
-    "new_ocr_tasks": 0
+    }
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "모킹보드를 이용한 &뮤직0002 partial:all16pages234–249 covered inthreeimmutablenatives;fullassembly pending.29readable,1partial,9unresolved. Final682assemblyentries/2056fields andsidebar preserveprintedduplicate518/578,STA label,missing$prefixes,MUSICGu/MUSICGO,.INDEX,VO90,phone733 andtwo☎Unicodecandidates. Direct353CPX supersedesprovisionalCPY boundarynote;frozenpriorunchanged. Allopening/middlecandidate/table/musicglyph records retained. Preserveall8privateadapters. Cover,268pageaccounting,index/report,independentissuerebuild andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/claims/execution unverified. No readerrebuild."
+    "모킹보드를 이용한 &뮤직0002 complete16pageassembly234–249;30readable/sample-reviewed,0partial,9unresolvedidentities. Nextverify/restoreOthello0035 fromPDF251. Allsourcecandidates,printednumberinggaps/duplicates,CPX/provisionalCPYnotes,table/musicglyphvolunteerwork retained. Cover,268pageaccounting,index/report,independentissuerebuild andcloseout pending. Retainbatch56MockingMusic,batch51MagicWindow,batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
