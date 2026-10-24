@@ -19,25 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:30 readable/sample-reviewed,1 partial,8 unresolved.
-  Batch58 restores Othello0035 final257 at `packages/othello-b`:19files independently
-  exact. Allsevenbodypages251–257 covered in twoimmutablenatives;fullassembly pending.
-  Cumulative52regions/40blocks/12figures. Ending4regions/2blocks/2images;18BASICrows,
-  36fields,12SOUNDrows/24fields,twoPLAYstrings/fourquotes;20transcriptrows/66tokens.
-  Faintordinals,2150final16,musicstringO/0,S/5,G/6 retain21sourcecandidates.
-  Final2230RETURN/cartoon before258ad;incoming254→257 listing2050→2060 explicit.
-  Physicalpageorder unchanged;logical listing255→256→253→254→257 andexplanation
-  252→255→256→253 preserved. Allopeningwraps/sourceink/emptyarguments/candidates remain.
-  All461ranges/476pins/4crops/1disjointpair pass;eightmalformedcases reject.
-  All71,018priorfiles/57inventories/30corepins exact;213-testbaseline reused.
-  Newinventory:71,123. Preserveallnineprivateassemblyadapters.
-  Fourwholeviews reused/one mapped/threeoutside/onetask. All4crops before2OCRtasks
-  (1eng/1kor+eng);bothraws beforeonesourcepass. Zero crop/OCR repairs/failures/retries.
-  Nextbatch59:fullseven-pageassembly fromtwoimmutablenatives;no newmapping/OCR.
-  Eightunresolvedidentities,cover,268-pageaccounting,index/report,independentissue
-  rebuild andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/
-  glyphcounts,claims/execution unverified;diagramlabels awaitvolunteers.
-  No semantic/strategyrepair orreaderrebuild.
+- October1985 active:31 readable/sample-reviewed,0 partial,8 unresolved.
+  Batch59 completes7-page Othello0035 at `packages/othello-complete-r01`:
+  199files independentlyexact,190nativefiles unchanged;52regions/40blocks/12figures.
+  Allbodypages251–257 complete;noarticleassembly pending. Final2230RETURN/cartoon before258ad.
+  All5,743nativearrayentries/74slices/12objects/8reservedlists/4scalars preserved.
+  All16,368ranges/16,789pins/52crops/132disjointpairs pass;10malformedcases reject.
+  Threecompletecodegroups/220physicalrows;main214BASICentries/218rows/432fields.
+  Physicaldownloadorder253→254→255→256→257 andlogical255→256→253→254→257 separate;
+  printed100–2230,allnative/physical/logicalordinals andfourwraps preserved.
+  Threeprose/threecode connections pluscrossnative254→2572050→2060;no blockmerge.
+  Explanation252→255→256→253 retained. Sixactivestagedeferrals resolved;60candidates,
+  struck-through7-fieldrow/two8-fieldrows,underlines,emptySCREENargument,PRIN#1/UAST,
+  621claim,OUT PUT,1050apostrophe/1530comma,musicstrings anddiagramvolunteerwork retained.
+  Fivewholeviews rechecked;no newrender/mapping/OCR/sourcecorrection.
+  All71,123priorfiles/58inventories/30corepins exact;213-testbaseline reused.
+  Newinventory:72,941. Preservealltenprivateassemblyadapters,includingbatch59Othello.
+  Nextbatch60:verifyactualextent/restoreclassifieds0032 fromPDF260/printed258,
+  atmost6mappedpages;originalbodies/searchableheadings peraccepted imagepolicy.
+  Eightunresolvedidentities,cover,268-pageaccounting,index/report,independentissuerebuild
+  andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/glyphcounts,
+  claims/execution unverified. No semantic/strategyrepair orreaderrebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

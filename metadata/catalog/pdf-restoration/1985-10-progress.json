@@ -2880,7 +2880,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Elevenwholeviews250–260 inspected. Actualarticle251–257/printed249–255;251title 오델로 묘수 풀이 andMSX게임 label,no printedbyline.257final2230RETURN andcartoon endarticle.250BAL500ad,258tapead,259computerad,260classifieds independent.",
@@ -2892,15 +2892,21 @@
         "Four saved whole views254,256,257,258 inspected. Final257/printed255 ends Othello with listing2060–2230 RETURN, side annotation 사운드 및 음악/서브루틴 and uncaptioned cartoon. Independent258 program-tape advertisement is outside article.",
         "Priorphysical256 ends1070 INKEY$; priorlogical254 ends2050 SOUND10,0. The numbered listing continues254→257 despite physical255/256 between them. Keep physicalpageorder and separate logical listing255→256→253→254→257.",
         "Current257 has eighteen printed BASIC rows,including two quoted PLAY strings. Preserve faint left-side digits, O/0 andS/5 candidates literally; no inferred execution or grammar corrections. Bracket connects to sound section begun254; source-local annotation and pixels retained.",
-        "Finalbodypage only; immutable opening251–256 remains unchanged. Seven bodypages are covered after this segment, but fullarticleassembly remains pending. No title/byline invented on endingpage."
+        "Finalbodypage only; immutable opening251–256 remains unchanged. Seven bodypages are covered after this segment, but fullarticleassembly remains pending. No title/byline invented on endingpage.",
+        "Two immutable natives retain190files,52regions,40blocks,12figures. Fullarticle251–257/printed249–255;canonical0035 identity/title/parent unchanged.",
+        "Five saved whole views250,251,254,257,258 rechecked.250BAL500advertisement precedes251title 오델로 묘수 풀이; no individual byline invented. Editorial translationcredit on253 remainsseparate.",
+        "Physical sourcepages stay251–257. Numbered listinglogicalorder255→256→253→254→257 andexplanation252→255→256→253 remain explicit,without reordering downloads or mergingtextblocks.",
+        "Crossnative listing connection:254last2050 SOUND10,0→257first2060 SOUND11,0;source pages255/256 intervene physically. Final2230RETURN andcartoon on257 precedeindependent258 tapeadvertisement.",
+        "Every nativearray/object/scalar/reservedcategory andownregionrange reversiblyprojected. CompleteBASIClisting retains214numberedentries,218physicalrows,fourwraps andseparate physical/native/logical ordinals;two immediatecommands form independentgroups.",
+        "Struckthrough boarddatarow,sourceunderlines,emptySCREENargument,PRIN#1,UAST,621claim,OUT PUT,1050apostrophe/1530comma andallmusicstring candidates remain literal. Board/flowchartlabels awaitvolunteers. No newrender/mapping/OCR/sourcecorrection,semantic/strategyrepair orcodeexecution."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/othello-b",
+        "directory": "archive/pdf/1985-10/packages/othello-complete-r01",
         "article_id": "scan-maso-1985-10-toc-0035",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/othello-b/manifest.json",
-          "sha256": "705b9d840c459d29cb8ab2226708264baa7710196ae74808465f2c60d40a0df7",
-          "bytes": 3064
+          "path": "archive/pdf/1985-10/packages/othello-complete-r01/manifest.json",
+          "sha256": "94b70ce0cebaf54fd1ecad0723d5202a6f84f45a1b2e3fc24fc68affcbcac459",
+          "bytes": 35506
         },
         "coverage": {
           "pdf_pages": [
@@ -2924,9 +2930,8 @@
           "regions": 52,
           "blocks": 40,
           "figures": 12,
-          "coverage_scope": "Cumulative seven-page coverage of two immutable natives;directory/manifest selectendingonly;fullassembly pending.",
-          "deferred_pdf_pages": [],
-          "full_extent_candidate_pdf_pages": [
+          "coverage_scope": "Complete7-pagearticle from2immutablenatives;52regions,40blocks,12originalfigures. No bodypages orassembly pending.",
+          "actual_full_pdf_pages": [
             251,
             252,
             253,
@@ -2935,9 +2940,11 @@
             256,
             257
           ],
+          "deferred_pdf_pages": [],
           "uninspected_interior_pdf_pages": [],
+          "known_interleaved_advertisement_pdf_pages": [],
           "body_pages_complete": true,
-          "full_extent_status": "Verified seven-page article251–257/printed249–255;allbodypages restored. Fullassembly pending."
+          "full_extent_status": "Complete251–257.250independentBAL500ad;251title;257final2230RETURN/cartoon;258independenttapead. Physicalsourceorder retained;logicalorder separatelyindexed."
         },
         "segments": [
           {
@@ -3003,17 +3010,28 @@
             }
           }
         ],
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-58/validation.json",
-          "sha256": "7aab20287271052b9566e88ae0953def4582d1a1df6e85636b97ffdeb49b409b",
-          "bytes": 2358
+          "path": "archive/pdf/1985-10/restoration/batch-59/validation.json",
+          "sha256": "8d56ed4cfb726ae4f1ae9cf19f01e468dc0fffb4b36e9897c40de6059bcce98b",
+          "bytes": 2847
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-58/reproduction.json",
-          "sha256": "5ca828a7a5abae4671e4adae6141d03824e0fe41be606a447daff9765ac056e1",
-          "bytes": 1323
+          "path": "archive/pdf/1985-10/restoration/batch-59/reproduction.json",
+          "sha256": "dcf06a2f5968ad59a5468cfe123ec79c04472921fda6f28adc24bf8e8fba158f",
+          "bytes": 2214
+        },
+        "assembly_format": "othello-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-10/restoration/batch-59/othello_literal.py",
+          "sha256": "e1078c03266bb788e756378276f4780537025c4b8ae344ab80e9cfb4e01b9b6b",
+          "bytes": 21166
+        },
+        "preservation_validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-59/preservation-validation.json",
+          "sha256": "8fd406c2e8e9ff876a1cb6075c0056c9fc5e1e5e3a5cefcf95df2250228e3574",
+          "bytes": 494
         }
       }
     },
@@ -3372,8 +3390,8 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 30,
-    "partial": 1,
+    "readable": 31,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 8
   },
@@ -6253,6 +6271,49 @@
       "article_availability": "partial",
       "deferred_pdf_pages": [],
       "assembly_required": true
+    },
+    {
+      "id": "batch-59",
+      "status": "complete",
+      "stage": "validated-complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0035"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        250,
+        251,
+        254,
+        257,
+        258
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-59/validation.json",
+        "sha256": "8d56ed4cfb726ae4f1ae9cf19f01e468dc0fffb4b36e9897c40de6059bcce98b",
+        "bytes": 2847
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-59/verification-completed.json",
+        "sha256": "04ac8b9dabb4e8a5d65fefce7621385cd6cd583be02bc206132d09d2b0f8a275",
+        "bytes": 1421
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-59-preserved-work.json",
+        "sha256": "f4f57a4e96a29e0043843d32c9f6844946323d366c6fb7f7ce673e9f3ca95d05",
+        "bytes": 16912310
+      },
+      "started_at": "2026-10-24T23:45:43.322765+00:00",
+      "finished_at": "2026-10-24T23:49:29.571504+00:00",
+      "timing_scope": "Wallclock includeswaits/gaps;activehumaneffort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -9103,8 +9164,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-a",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "First six Othello pages source-corrected. Physical scan order retained; explanation252→255→256→253 and listing255→256→253→254→257 separately indexed. Final257 and full assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
@@ -9119,8 +9180,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-a",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "First six Othello pages source-corrected. Physical scan order retained; explanation252→255→256→253 and listing255→256→253→254→257 separately indexed. Final257 and full assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
@@ -9135,8 +9196,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-a",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "First six Othello pages source-corrected. Physical scan order retained; explanation252→255→256→253 and listing255→256→253→254→257 separately indexed. Final257 and full assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
@@ -9151,8 +9212,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-a",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "First six Othello pages source-corrected. Physical scan order retained; explanation252→255→256→253 and listing255→256→253→254→257 separately indexed. Final257 and full assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
@@ -9167,8 +9228,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-a",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "First six Othello pages source-corrected. Physical scan order retained; explanation252→255→256→253 and listing255→256→253→254→257 separately indexed. Final257 and full assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
@@ -9183,8 +9244,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-a",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "First six Othello pages source-corrected. Physical scan order retained; explanation252→255→256→253 and listing255→256→253→254→257 separately indexed. Final257 and full assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
@@ -9199,8 +9260,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0035"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/othello-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/othello-complete-r01",
       "evidence": "Final257 sourcecorrected:18literal BASIC entries2060–2230 RETURN,twoPLAYstrings,24SOUNDfields,sideannotation anduncaptionedcartoon. Logicalincoming254→257 distinctfromphysical256→257. Fullassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-58/source-reviewed.json",
@@ -9250,26 +9311,35 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-59",
-    "goal": "Assemble complete seven-page 게임 : 오델로 묘수풀이0035 from two exact immutable native packages.",
+    "id": "batch-60",
+    "goal": "Verify actual extent and restore canonical0032 복덕방 fromPDF260/printed258.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0035"
+      "maso-1985-10-toc-0032"
     ],
-    "mapping_targets": "No newmapping/OCR/sourcecorrection. Preserveopening251–256 andending257,alllocalindexes/candidates/strikethrough/underlines/emptyarguments/boardpixels. Projectevery ownregionrange andnativecategory occurrence reversibly. Keep sourcephysicalpage/downloadorder,explicit logical listing255→256→253→254→257 andexplanation252→255→256→253. Crossnative listing254→257 connects2050→2060 despitephysical255/256 between;do not reorder downloads. Verify final2230RETURN/cartoon andindependent258ad. Preserveexistingnineprivateadapters;add privateadapter ifneeded. No game/semantic/strategyrepair orexecution.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Reuse saved260classifieds opening view;inspect actual ending andadjacentpages beforemapping. Preserve complete original classifieds pages andsearchable headings/categories underaccepted body-image policy;body transcription remainsvolunteerwork. Atmost6mappedpages;split iflonger. No invented contacts,itemcounts,currentpriceclaims ornewidentities.",
+    "provisional_lookup_targets": [
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    },
-    "new_source_pages": 0,
-    "new_ocr_tasks": 0
+    }
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Othello0035 partial:allsevenpages251–257 covered in two immutable natives;fullassembly pending.30readable,1partial,8unresolved. Physicalsourceorder separatefromlogical listing/explanation order. Preserveallpriorcandidates,sourceink anddiagramvolunteerwork;final18BASICrows,24SOUNDfields,twoPLAYstrings,nonadjacent254→257 listingedge,2230RETURN andcartoon literal. Allnineprivateadapters retained. Cover,268pageaccounting,index/report,independentissuerebuild andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/claims/execution unverified. No readerrebuild."
+    "Othello0035 complete7-pageassembly251–257;31readable/sample-reviewed,0partial,8unresolvedidentities. Next verify/restoreclassifieds0032 fromPDF260. Physicalpage/downloadorder preserved;logical listing255→256→253→254→257 andexplanation252→255→256→253 indexed. All60sourcecandidates,sourceink,emptyarguments,wraps,board/flowchartvolunteerwork retained. Cover,268pageaccounting,index/report,independentissuerebuild andcloseout pending. Retainall10privateadapters,includingbatch59Othello. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
