@@ -24,43 +24,46 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-25
 
-October 1985 restoration continues under step 12: **18 readable/sample-reviewed
-entries, one partial article and 20 unresolved**, accounting for all 39 canonical
+October 1985 restoration continues under step 12: **19 readable/sample-reviewed
+entries, no partial articles and 20 unresolved**, accounting for all 39 canonical
 identities. Completed MSX 구석구석, Prologue, ABC, numerical analysis and earlier MSX
 remain unchanged.
 
-Batch 35 restores final upper PDF166 of canonical0005 **PLAY 정복** at
-`archive/pdf/1985-10/packages/play-b`. All 19 files match an independent rebuild.
-Four regions, one block and two original images preserve two code panels with
-24 numbered DATA lines and 31 physical rows. Cross-column58410 ends in G on the
-left and 8 at the right-column top; both fragments stay one logical line. Printed
-R14, the double period at58440, V5 glyph candidate and empty58540DATA remain literal.
-No music, syntax or execution repair. The final music illustration is uncaptioned.
+Batch 36 completes canonical0005 **PLAY 정복**, PDF160–166 upper, at
+`archive/pdf/1985-10/packages/play-complete`. All 230 files match an independent
+rebuild, including all 221 unchanged native files. The complete article retains
+59 regions, 29 blocks and 11 original images. Opening160 has no visible folio;
+canonical TOC158 remains separate. Shared166 now has both owners complete: upperPLAY
+and lowerMSX, each with its own exclusion map.
 
-Both masked and unmasked source crops match all four exported images exactly.
-Lower166 completed MSX is excluded; its package and the opening PLAY native remain
-unchanged. All seven PLAY body pages now exist in two immutable natives, totaling
-59 regions, 30 blocks and 11 original images. Complete article assembly is still
-pending, so availability remains partial. Opening160 visible folio stays null,
-independent of canonical TOC158; shared whole-page166 folio164 remains metadata.
+All 38 native array categories,76 category slices,11 objects,eight reserved arrays,
+four scalars and full metadata survive. All 14,174 native ranges project reversibly;
+all 28,431 resulting UTF8 range occurrences,28,940 evidence pins and59 images validate.
+Five malformed cases reject, including a repeated DATA value shifted to the wrong
+field. All 45,407 prior files,35 inventories and30 core pins remain exact; the unchanged
+213-test baseline is reused. New preservation inventory: 46,357 files.
 
-All 743 UTF8 range occurrences, 756 evidence pins and four images validate.
-Five malformed cases reject, including repeated DATA tokens moved to the wrong row
-and shifted incoming native ranges. All 45,306 prior files, 34 inventories and 30
-core pins remain exact; the unchanged 213-test baseline is reused. New preservation
-inventory: 45,407 files. Three reused whole views, one mapped page, two outside
-lookups and one canonical task. All four exact crops were reviewed before two eng
-Tesseract tasks; both raw drafts read before one source pass. No crop/OCR/export retries.
+Five complete code groups retain17 panels,487 physical rows and444 printed BASIC
+labels, including the separate circled-six explanation. The58300→58310 continuation
+joins once; all18 native joins remain, including58410G/8 across columns. Eight external
+annotation labels,12 key instructions,561 DATA fields,82 candidate occurrences and
+eight unknown-band markers retain their source positions. Source errors, empty DATA,
+physical wraps and uncertain glyphs remain literal; no music/code reconstruction.
 
-Next is **batch 36: assemble complete PLAY 정복** from `play-a-r02` and `play-b`.
-Join58300→58310 once; preserve all 18 native joins, annotation and source-field
-occurrences, unknown bands, source errors, full metadata and lowerMSX exclusion.
-Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining20 unresolved
-identities, cover selection,268-page accounting, standalone index/report, independent
-issue rebuild and closeout remain. Keep pinned batch33MSX corners, batch29Prologue,
-batch24numerical and batch20MSX adapters for issue closeout. Human acceptance/full
-proofreading, source bytes, claims and execution remain unverified. Embedded diagram
-labels await volunteers. No reader rebuild.
+Five exact native-stage deferrals resolve only in active status; original notes
+remain in full metadata. Embedded score/screenshot labels await volunteers. Earlier
+crop, typing and schema-export revisions remain preserved. No new mapping, rendering,
+OCR or source correction was needed. No PLAY body pages or assembly remain pending.
+
+Next is **batch 37: verify and restore 그래픽화면에 문자를 by 차재춘** (canonical0018),
+starting PDF168/printed166, with at most six mapped body pages in the checkpoint.
+Verify actual extent from scans; preserve canonical parent 컴퓨터 그래픽0017 until
+its classification is evidenced. Keep two-task/six-page/twenty-outside-lookup limits.
+Remaining20 unresolved identities,cover selection,268-page accounting,standalone
+index/report,independent issue rebuild and closeout remain. Keep pinned batch36PLAY,
+batch33MSX corners,batch29Prologue,batch24numerical andbatch20MSX adapters for closeout.
+Human acceptance/full proofreading,source bytes,claims and execution remain unverified.
+No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

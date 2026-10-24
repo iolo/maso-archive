@@ -647,7 +647,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0005 PLAY 정복 hasTOC158 andno byline. Actual160 opens 제2회 PLAY정복/데이터 작성. No visiblefolio on160;retain null rather than infer158.161–166 show159–164.159 belongsMSX구석구석;no PLAYbodybefore160.",
@@ -655,15 +655,20 @@
         "166lower explicitly resumesMSX구석구석 fromprinted157/PDF159. Exclude lower166when finalPLAYsegment mapped;completedMSX images untouched.167TOPIAadvertisement confirmsending. FullPLAYbodysevenpages160–166upper;mapsixpages160–165now,final166andassemblylater.",
         "160intro crossesmiddle→right대/응;F1instruction실/행 crosses160→161.161usageleft→middletop continues sentence;performance discussionmiddle→right부/분 andright→bottom까지.161bottom마디/162를;162summaryleft정리하/middlego. Preserve source-local continuations.",
         "List1 hasfour sourcecolumns162/163,List2 three sourcecolumns164,List3 threecolumns164 andtwo165 plusfinaltwo166. Retainline labels,physicalwraps,blank/commentrows andopaque musicdata. No missing line-number sequence repair or music/executable interpretation.",
-        "Finalupper166listing58310–58540andmusicartrestored;lowerMSXexcluded. Allsevenbodypagesavailableintwonatives;completeassemblypending. Crosscolumn58410G/8wrapandincoming58300→58310retained."
+        "Finalupper166listing58310–58540andmusicartrestored;lowerMSXexcluded. Allsevenbodypagesavailableintwonatives;completeassemblypending. Crosscolumn58410G/8wrapandincoming58300→58310retained.",
+        "Twoimmutable natives retain221files,59regions,30nativeblocks and11originals. Complete sevenbodypages160–166upper. Canonical0005titlePLAY 정복unchanged;sourcePLAY정복/제2회/데이터 작성indexed separately,no printedbyline. Opening160hasnullvisiblefolioindependentTOC158.",
+        "Five savedwholeviews159,160,165,166,167rechecked.159belongsMSX;160opensPLAY.165last58300continues166first58310;joinoncewithnoaddedseparator,bothnativecodepanelsalreadyendnewline.58410crosscolumnG/8wrapretained.58540emptyDATAanduncaptionedmusicartestablishending. Lower166MSXexcluded;167TOPIAadvertisement.",
+        "Allnativearrays,objects,scalars,empty/absentcategories,fullmetadata andlocalrangessurvive reversibleprojection.18nativejoins(11code/7prose)andoneexternalcodejoin. No newmapping,render,OCR orsourcecorrection.",
+        "Five complete codegroups retain17panels/487physicalrows/444labelsincludingexplanatorycircled6. Eight externalannotationlabels,12keyinstructions,561DATAfields,sourceunknownbands andallglyphcandidates retaincorrectsourceoccurrences. No music/codeexecutionorreconstruction.",
+        "Openingcrop/typing/schema-exportrevisions remainpreservedatnativeevidenceroots. Upper166masked/unmaskedselectedpixelsidentical;lowerMSXunchanged. Embeddedscore/screenshotlabelsawaitvolunteers."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/play-b",
+        "directory": "archive/pdf/1985-10/packages/play-complete",
         "article_id": "scan-maso-1985-10-toc-0005",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/play-b/manifest.json",
-          "sha256": "9a14de3d0ec13c6592b4c76a8e419fea9cd9d0c64c980ad41dacb83364c5bb1b",
-          "bytes": 3079
+          "path": "archive/pdf/1985-10/packages/play-complete/manifest.json",
+          "sha256": "56f56ab8262e6e781d961a0afaa3918e0d67bbfa03ac6b9be45761d3b22055ec",
+          "bytes": 41228
         },
         "coverage": {
           "pdf_pages": [
@@ -685,10 +690,9 @@
             "164"
           ],
           "regions": 59,
-          "blocks": 30,
+          "blocks": 29,
           "figures": 11,
-          "coverage_scope": "Cumulativecoverageoftwoimmutablenatives;directory/manifestselectlatestfinalsegmentonly. Completeassemblypending.",
-          "deferred_pdf_pages": [],
+          "coverage_scope": "Completeseven-pagearticleassembledfromtwoimmutablenatives;59regions,29blocks,11originals;noassemblypending. Lower166MSXexcluded.",
           "actual_full_pdf_pages": [
             160,
             161,
@@ -698,7 +702,11 @@
             165,
             166
           ],
-          "body_pages_complete": true
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "known_interleaved_advertisement_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Allsevenbodypages160–166upperrestoredandassembled.159MSXprecedesindependentopening;upper166empty58540DATAandmusicartendPLAYbeforelowerMSX/next167TOPIAad. Opening160visiblefolionullindependentTOC158."
         },
         "segments": [
           {
@@ -745,17 +753,28 @@
             "mixed_page_exclusion": "Lower166completedMSX0016excluded;upperPLAYonly."
           }
         ],
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-35/validation.json",
-          "sha256": "d29fce7e3dfffcab1729dff5fbc5ff829f17eceb2c6f6cf747fa55fdf5b7b7db",
-          "bytes": 2605
+          "path": "archive/pdf/1985-10/restoration/batch-36/validation.json",
+          "sha256": "8d88374cd6f0e3ef42194b6a568a0c5f9e4cf190b963ed676914df9ed7fca0f9",
+          "bytes": 2763
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-35/reproduction.json",
-          "sha256": "6ef7f120208482d1540519f07443c4e710c6cfaef067976c93689fee3db3add5",
-          "bytes": 1487
+          "path": "archive/pdf/1985-10/restoration/batch-36/reproduction.json",
+          "sha256": "e555e5d9751693e711a5ca3cad629eebe8725436c8cb50d7092cf998362bddc8",
+          "bytes": 2302
+        },
+        "assembly_format": "play-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-10/restoration/batch-36/play_literal.py",
+          "sha256": "2a2e8900059cf62f01e1b55b7befad2eae84b4864414f937ec3d42c370fc50dd",
+          "bytes": 18356
+        },
+        "preservation_validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-36/preservation-validation.json",
+          "sha256": "faba442bc4025557628709449147a8cc01cf66fe05bf8421539916254038f190",
+          "bytes": 770
         }
       }
     },
@@ -2071,8 +2090,8 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 18,
-    "partial": 1,
+    "readable": 19,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 20
   },
@@ -3778,6 +3797,49 @@
       "article_availability": "partial",
       "deferred_pdf_pages": [],
       "assembly_required": true
+    },
+    {
+      "id": "batch-36",
+      "status": "complete",
+      "stage": "validated-complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0005"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        159,
+        160,
+        165,
+        166,
+        167
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-36/validation.json",
+        "sha256": "8d88374cd6f0e3ef42194b6a568a0c5f9e4cf190b963ed676914df9ed7fca0f9",
+        "bytes": 2763
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-36/verification-completed.json",
+        "sha256": "94e9b257bb93a6de61d218acf744bf296e34de618b548de9722e4d323ea7d525",
+        "bytes": 1442
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-36-preserved-work.json",
+        "sha256": "9fa969e4b463daa359ee67bb5bd8d75aa7a3ccb1334e521f80f5a051574ea54d",
+        "bytes": 10630795
+      },
+      "started_at": "2026-10-24T18:05:42.693594+00:00",
+      "finished_at": "2026-10-24T18:11:47.474551+00:00",
+      "timing_scope": "Prospectivewallclockincludeswaits/gaps;activehumaneffortunmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -5199,9 +5261,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0005"
       ],
-      "restoration": "complete-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "PLAY정복 opening160–165 source-corrected and validated;upper166 andcompleteassembly pending. Opening160hasno visiblefolio;canonicalTOC158retained independently.",
-      "selected_package": "archive/pdf/1985-10/packages/play-a-r02",
+      "selected_package": "archive/pdf/1985-10/packages/play-complete",
       "printed_page_revision": "Earlier inferred158 corrected to null after directopeningpage review;canonicalTOC158unchanged."
     },
     {
@@ -5211,9 +5273,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0005"
       ],
-      "restoration": "complete-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "PLAY정복 opening160–165 source-corrected and validated;upper166 andcompleteassembly pending. Opening160hasno visiblefolio;canonicalTOC158retained independently.",
-      "selected_package": "archive/pdf/1985-10/packages/play-a-r02"
+      "selected_package": "archive/pdf/1985-10/packages/play-complete"
     },
     {
       "pdf_page": 162,
@@ -5222,9 +5284,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0005"
       ],
-      "restoration": "complete-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "PLAY정복 opening160–165 source-corrected and validated;upper166 andcompleteassembly pending. Opening160hasno visiblefolio;canonicalTOC158retained independently.",
-      "selected_package": "archive/pdf/1985-10/packages/play-a-r02"
+      "selected_package": "archive/pdf/1985-10/packages/play-complete"
     },
     {
       "pdf_page": 163,
@@ -5233,9 +5295,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0005"
       ],
-      "restoration": "complete-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "PLAY정복 opening160–165 source-corrected and validated;upper166 andcompleteassembly pending. Opening160hasno visiblefolio;canonicalTOC158retained independently.",
-      "selected_package": "archive/pdf/1985-10/packages/play-a-r02"
+      "selected_package": "archive/pdf/1985-10/packages/play-complete"
     },
     {
       "pdf_page": 164,
@@ -5244,9 +5306,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0005"
       ],
-      "restoration": "complete-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "PLAY정복 opening160–165 source-corrected and validated;upper166 andcompleteassembly pending. Opening160hasno visiblefolio;canonicalTOC158retained independently.",
-      "selected_package": "archive/pdf/1985-10/packages/play-a-r02"
+      "selected_package": "archive/pdf/1985-10/packages/play-complete"
     },
     {
       "pdf_page": 165,
@@ -5255,9 +5317,9 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0005"
       ],
-      "restoration": "complete-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "PLAY정복 opening160–165 source-corrected and validated;upper166 andcompleteassembly pending. Opening160hasno visiblefolio;canonicalTOC158retained independently.",
-      "selected_package": "archive/pdf/1985-10/packages/play-a-r02"
+      "selected_package": "archive/pdf/1985-10/packages/play-complete"
     },
     {
       "pdf_page": 166,
@@ -5267,14 +5329,14 @@
         "maso-1985-10-toc-0005",
         "maso-1985-10-toc-0016"
       ],
-      "restoration": "body-segments-complete",
-      "evidence": "Upper166PLAYfinalmusiclisting/artsource-corrected;allsevenPLAYbodypagesavailable,assemblypending. Lower166MSXcompleteassembledunchanged. Eachownerretainsseparateexclusionmap.",
+      "restoration": "complete-shared-page",
+      "evidence": "Upper166completesassembledPLAY160–166upper;lower166completesassembledMSX146–159/lower166. Bothindependentownerscompletewithseparateexclusionmaps.",
       "mixed_page": true,
       "ownership_regions": "UpperPLAY정복0005;lowerMSX구석구석0016. Final MSXsegment mustmapupperexclusion.",
       "incoming_continuation": "From159printed157 tolower166printed164;fourfinalworkentries andhorseillustration.",
       "body_owner_restoration": {
         "maso-1985-10-toc-0016": "complete-assembled-article",
-        "maso-1985-10-toc-0005": "complete-segment"
+        "maso-1985-10-toc-0005": "complete-assembled-article"
       },
       "selected_exclusion_map": {
         "path": "archive/pdf/1985-10/packages/msx-corners-c/map.json",
@@ -5282,7 +5344,7 @@
         "bytes": 25167
       },
       "selected_msx_package": "archive/pdf/1985-10/packages/msx-corners-complete",
-      "selected_play_package": "archive/pdf/1985-10/packages/play-b",
+      "selected_play_package": "archive/pdf/1985-10/packages/play-complete",
       "selected_play_exclusion_map": {
         "path": "archive/pdf/1985-10/packages/play-b/map.json",
         "sha256": "42c903cdeb03df91d78c0c9c521b244905fd938a0fde1f0623832c55340e5097",
@@ -5320,13 +5382,24 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-36",
-    "goal": "Assemble complete seven-pagecanonical0005PLAY정복 fromtwoimmutable natives.",
+    "id": "batch-37",
+    "goal": "Restore canonical0018 그래픽화면에 문자를 by차재춘,startingPDF168/printed166.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0005"
+      "maso-1985-10-toc-0018"
     ],
-    "mapping_targets": "No newmapping/OCR/sourcecorrection. Preserve play-a-r02 PDF160–165andplay-b upper166 withallnative metadata/sourceerrors/ranges/annotations/unknownbands. Join music-data58300→58310 once,preservingnative18joinsincluding58410G/8crosscolumnphysicalwrap. Projectallnativecategoryoccurrences;retainnullopeningfolio andlowerMSXexclusion. Independentlyrebuild/validatecompletearticle.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Verifyactualextentandadjacentpagesfromsource;do notinferendingfromTOC. Reusebatch30saved168–169views. Restoreatmostsixbodypages168–173firstifcontinuityconfirmed,thenremainingpagesandimmutableassemblyasneeded. Keepcanonicalparent0017컴퓨터그래픽unchanged;classifysectiononlyfromsufficientevidenceinaseparateboundedtask. PreservecompletedPLAY/MSXandallprivateadapters.",
+    "provisional_lookup_targets": [
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      177,
+      178
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -5337,7 +5410,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "PLAY정복0005allsevenbodypages160–166upperrestoredintwoimmutable natives;completeassemblypending,availabilityremainspartial. Opening160folio null despiteTOC158. CompletedMSX구석구석0016lower166untouched;bothsharedpagebodiesnowrestoredindependently. Remaining20unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Sourcebytes/music/codeexecutionremainunverified."
+    "PLAY정복0005completeseven-pageassembly160–166upper;no partialarticlesorpendingarticleassemblies. Bothownersofshared166complete:upperPLAY/lowerMSX. Opening160visiblefolionull,TOC158unchanged. Remaining20unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Nextverifycanonical0018그래픽화면에문자를from168;noglobalfoliooffsetinferred. Keepbatch36play_literalprivateadapteratissuecloseout."
   ],
   "reader_rebuild": false
 }

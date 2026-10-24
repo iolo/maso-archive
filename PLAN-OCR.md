@@ -19,21 +19,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:18 readable/sample-reviewed,one partial article,20 unresolved.
-  Batch35 restoresPLAY0005finalupper166 at `packages/play-b`:19files independentlyexact;
-  4regions/1block/2originals,24DATAlabels/31physicalrows. Crosscolumn58410G/8wrap,
-  R14,doubleperiod,V5candidate andempty58540DATAretained. All743ranges/756pins/
-  4images validate;five negativecasesreject. Masked/unmaskedcrops exact;lowerMSXexcluded.
-  All45,306priorfiles/34inventories/30corepins exact;213-testbaseline reused.
-  Currentinventory 45,407files. Fourcropsreviewedbeforetwoengtasks,bothrawsreadbefore
-  onesourcepass;no crop/OCR/exportretries. Threewholeviews/one mappedpage/twooutsideviews.
-  AllsevenPLAYpages160–166upperavailableintwonatives:59regions/30blocks/11originals.
-  Nextbatch36:assembleplay-a-r02andplay-b,join58300→58310once,preserve18nativejoins,
-  allsourceindexes/fullmetadata/unknownbands/sourceerrors andlowerMSXexclusion.
-  Opening160folio nullindependentTOC158. Shared166bothbodiesrestored;PLAYassemblypending.
+- October1985 active:19 readable/sample-reviewed,no partial articles,20 unresolved.
+  Batch36 completesPLAY0005 PDF160–166upper at `packages/play-complete`:230files
+  independentlyexact,221nativefiles unchanged,59regions/29blocks/11originals.
+  All38arraycategories/76slices/fullmetadata preserved;14,174nativeranges project
+  reversibly. All28,431ranges/28,940pins/59images validate;five negativecases reject.
+  Fivecodegroups/17panels/487rows/444BASIClabels,18nativejoins andone58300→58310join,
+  8annotations/12keyinstructions/561DATAfields/82candidates/8unknownbands retained.
+  Fiveexactstage-deferrals resolveonlyinactivestatus;originalnotes remaininfullmetadata.
+  Opening160folio nullindependentTOC158;shared166upperPLAY/lowerMSXbothcomplete.
+  All45,407priorfiles/35inventories/30corepins exact;213-testbaseline reused.
+  Currentinventory 46,357files. No newmap/render/OCR/correction;earlierrevisions retained.
+  Nextbatch37:verify/restore0018그래픽화면에문자를 by차재춘 fromPDF168/printed166,
+  atmostsixmappedbodypages. Verifyextentfromscans;parent0017classificationremainspending.
   Remaining20identities,cover,268-pageaccounting,index/report,independentissuerebuild and
-  closeoutpending. Keepbatch33MSXcorners,batch29Prologue,batch24numerical,batch20MSXadapters
-  andearlierexceptions. Humanacceptance/fullproofreading/sourcebytes/claims/execution
+  closeoutpending. Keepbatch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,
+  batch20MSXprivateadapters. Humanacceptance/fullproofreading/sourcebytes/claims/execution
   unverified;embeddedlabelsawaitvolunteers. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
