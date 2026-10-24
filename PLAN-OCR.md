@@ -19,15 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: canonical0022 편집자 노트,0023 애독자 광장 and0024
-  입력이 힘드십니까? are complete on PDF28–33. Three of39 entries are readable/
-  sample-reviewed;36 await restoration/classification. Their54/116/140-file
-  packages independently match. The input guide retains18 assembly rows,49 dump
-  rows/388 byte pairs and seven BASIC labels/14 physical rows. PDF33 folio stays
-  null;lower advertisement excluded. Fresh213 PDF tests passed at batch01;
-  unchanged baseline reused. March's80,532 files,726 earlier October files and
-  30 core pins remain exact. Next batch04: verify canonical0025 QA from printed32/
-  PDF34,including ending/adjacent page;reuse PDF33/34. Cover/accounting/closeout remain.
+- October 1985 is active: canonical0022 편집자 노트,0023 애독자 광장,0024
+  입력이 힘드십니까? and0025 QA are complete on PDF28–36. Four of39 entries are
+  readable/sample-reviewed;35 await restoration/classification. Their54/116/140/171-file
+  packages independently match. QA retains three question/answer groups,three diagrams,
+  eight code groups/22 physical rows,12 BASIC labels and three prose joins. PDF37 is an
+  independent association notice. All39 QA drafts read before one source correction
+  pass;one diagram edge repaired before OCR,no retries. All1,328 prior October files
+  and30 core pins remain exact;fresh213-test batch01 baseline reused. Next batch05:
+  verify canonical0026 디버깅룸 from printed36/PDF38,including ending/adjacent page;
+  reuse PDF37/38. Cover/accounting/closeout remain.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for

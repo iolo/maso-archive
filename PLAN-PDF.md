@@ -25,17 +25,17 @@ records below are historical and do not authorize a new rebuild.
 ## October 1985 started, 2026-10-24
 
 October restoration is active under step12. Canonical0022 편집자 노트,0023
-애독자 광장 and0024 입력이 힘드십니까? are complete across PDF28–33: three
-readable,assistant sample-reviewed articles;36 of39 entries await restoration
-or classification. Their54/116/140-file packages independently match. The input
-guide retains18 assembly rows,49 dump rows/388 byte pairs and seven BASIC labels/
-14 physical rows. PDF33's invisible folio stays null and lower advertisement is
-excluded. Fresh213 PDF tests passed at batch01;unchanged baseline reused through
-batch03. All80,532 March files and726 earlier October files remain exact.
+애독자 광장,0024 입력이 힘드십니까? and0025 QA are complete across PDF28–36:
+four readable,assistant sample-reviewed articles;35 of39 entries await restoration
+or classification. Their54/116/140/171-file packages independently match. QA retains
+three question/answer groups,three diagrams,eight code groups/22 physical rows,
+12 BASIC labels and three prose joins. PDF37 is an independent association notice.
+Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch04.
+All1,328 earlier October files and30 core implementation pins remain exact.
 No reader rebuild;cover selection,source-page accounting and issue closeout remain.
 
-Next is batch04: verify QA,canonical0025,from printed32/PDF34,
-including its ending and adjacent page. Reuse saved PDF33/34 views and retain
+Next is batch05: verify 디버깅룸,canonical0026,from printed36/PDF38,
+including its ending and adjacent page. Reuse saved PDF37/38 views and retain
 the two-task/six-mapped-page/twenty-outside-lookup limits. Details and remaining
 issue work: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

@@ -6,12 +6,12 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress. Three of39 canonical entries are readable
-and assistant sample-reviewed: 편집자 노트,애독자 광장 and 입력이 힘드십니까?,
-PDF28–33. Their54/116/140-file packages independently match;fresh213 PDF tests
-passed at batch01,with the unchanged baseline reused through batch03. The remaining36 entries,
-cover selection, source-page accounting and issue closeout remain. Next is
-QA from printed32/PDF34. See [October log](docs/progress/8510.md) and
+October 1985 restoration is in progress. Four of39 canonical entries are readable
+and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까? and QA,
+PDF28–36. Their54/116/140/171-file packages independently match;fresh213 PDF tests
+passed at batch01,with the unchanged baseline reused through batch04. The remaining35
+entries,cover selection,source-page accounting and issue closeout remain. Next is
+디버깅룸 from printed36/PDF38. See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries

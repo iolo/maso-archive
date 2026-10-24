@@ -402,12 +402,53 @@
       "toc_entry_id": "maso-1985-10-toc-0025",
       "title": "QA",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "QA canonical0025 opens printed32/PDF34 after input-guide panel and independent advertisementPDF33;continues printed33/PDF35 and ends printed34/PDF36 at CP/M answer.",
+        "PDF37/printed35 is independent 건의문 association notice;PDF38/printed36 starts 디버깅룸. Neither is QA body.",
+        "Three question/answer groups: assembler; SPC-1000 automatic tape and PATTERN; CP/M character definitions. Question submitters are not an article-wide byline.",
+        "Assembler answer joins left→right PDF34 at 에디/터나. Interpreter explanatory note continues34→35. Tape answer joins left→right PDF35 at 수가/있는데. PATTERN answer continues to diagram/listing onPDF36.",
+        "Three diagrams retained as original image pixels with separately transcribed captions; diagram internal labels deferred to volunteers. Complete page originals retain all decorative typography and boxed RETURN key labels."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-04-r01/qa",
+        "article_id": "scan-maso-1985-10-toc-0025",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-04-r01/qa/manifest.json",
+          "sha256": "6c30e739cac5e9eeb29074c074de080ad2dfff75c43945c3bc786c82a7df60bb",
+          "bytes": 28530
+        },
+        "coverage": {
+          "pdf_pages": [
+            34,
+            35,
+            36
+          ],
+          "printed_pages": [
+            "32",
+            "33",
+            "34"
+          ],
+          "regions": 45,
+          "blocks": 36,
+          "figures": 6,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-04/validation.json",
+          "sha256": "a8ae2f7cf69ec977f9d3d65f3d2e79951842b9626c93288b9123e259c3b5eec2",
+          "bytes": 1435
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-04/reproduction.json",
+          "sha256": "5ce677928c70c8464e47328d84420768d897796ebfb6f02e4df050ea86384e3a",
+          "bytes": 1195
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0026",
@@ -566,10 +607,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 3,
+    "readable": 4,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 36
+    "unresolved_eligibility": 35
   },
   "checkpoints": [
     {
@@ -685,6 +726,46 @@
       "started_at": "2026-10-24T02:53:37.333006+00:00",
       "finished_at": "2026-10-24T03:05:16.962760+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-04",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0025"
+      ],
+      "mapped_pdf_pages": [
+        34,
+        35,
+        36
+      ],
+      "outside_map_lookup_pages": [
+        33,
+        37,
+        38
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 39,
+      "eng_code_tasks": 8,
+      "kor_eng_tasks": 31,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-04/validation.json",
+        "sha256": "a8ae2f7cf69ec977f9d3d65f3d2e79951842b9626c93288b9123e259c3b5eec2",
+        "bytes": 1435
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-04/verification-completed.json",
+        "sha256": "42e482f0ded40fb9e2eb210b229e9c9d3d3ff48af01fad10afec9fe1bc10ece5",
+        "bytes": 819
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-04-preserved-work.json",
+        "sha256": "6aa8bd0277070be048b20c99e62aed9e635b4df5888b4e59f4a95065663f0960",
+        "bytes": 447681
+      },
+      "started_at": "2026-10-24T03:07:19.270499+00:00",
+      "finished_at": "2026-10-24T03:17:25.197588+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -764,28 +845,62 @@
     {
       "pdf_page": 34,
       "printed_page": "32",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0025"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": "33",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0025"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": "34",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0025"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": "35",
+      "classification": "unlisted-association-notice",
+      "toc_entry_ids": [],
+      "evidence": "Independent 건의문/건의사항 signed 한국잡지협회 and (주)정보시대;not QA body."
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": "36",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0026"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-04",
-    "goal": "Verify QA extent from printed32/PDF34 and restore complete bounded article or first segment.",
+    "id": "batch-05",
+    "goal": "Verify 디버깅룸 extent from printed36/PDF38 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0025"
+      "maso-1985-10-toc-0026"
     ],
-    "mapping_targets": "Starts PDF34/printed32;actual end and intervening pages unverified.",
+    "mapping_targets": "Starts PDF38/printed36;actual end and intervening pages unverified.",
     "provisional_lookup_targets": [
-      33,
-      34,
-      35,
-      36,
       37,
-      38
+      38,
+      39,
+      40,
+      41,
+      42
     ],
     "limits": {
       "articles": 2,
@@ -797,7 +912,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining36 identities and remaining source-page accounting require inspection;no global page offset inferred."
+    "Remaining35 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
