@@ -309,12 +309,56 @@
       "toc_entry_id": "maso-1985-10-toc-0011",
       "title": "자동메뉴 II",
       "parent_id": "maso-1985-10-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0011 자동메뉴 II by서동철 spans printed60–63/PDF62–65upper. Opening subtitle 페이지 선택개념을 채택한;two BASIC programs SCRN.2/SCRN.AUTO,annotated machine-code listings3/4,program explanations and terminal cartoon before independent 함수그래프 II below65.",
+        "PreviousPDF61 contains 정우진 article ending/editorial note. All four selected pages individually reviewed;no global folio offset inferred.",
+        "Printed 서 동 철 byline has strike-through and handwritten annotation below;preserve original image and do not replace canonical서동철 with an inferred name.",
+        "Four mapped pages,one outside lookupPDF61,one canonical task. SharedPDF65lower independent canonical0012 excluded. Canonical title/order/parent0006 unchanged.",
+        "SCRN.AUTO line120 continues into top of right column before130;usage prose62→63 and DOS explanation64left-bottom→right-top retain physical continuation evidence."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-11-r01/automenu-seo",
+        "article_id": "scan-maso-1985-10-toc-0011",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-11-r01/automenu-seo/manifest.json",
+          "sha256": "b732467e725ee2231b9f1c1a6c7f466408274496a551e9d009e95d347f4a7861",
+          "bytes": 26544
+        },
+        "coverage": {
+          "pdf_pages": [
+            62,
+            63,
+            64,
+            65
+          ],
+          "printed_pages": [
+            "60",
+            "61",
+            "62",
+            "63"
+          ],
+          "regions": 44,
+          "blocks": 30,
+          "figures": 8,
+          "deferred_pdf_pages": [],
+          "last_page_scope": "Upper panel;independent 함수그래프 II lower excluded."
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-11/validation.json",
+          "sha256": "ec933b5125b6c95a9374440662a172d21463702aaea6a799d635dce254617678",
+          "bytes": 1566
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-11/reproduction.json",
+          "sha256": "d4188a892d40890b93d0790f944fdd15b7c7f4b3f862034d8f14df8d5fe6ba56",
+          "bytes": 1215
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0012",
@@ -868,10 +912,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 10,
+    "readable": 11,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 29
+    "unresolved_eligibility": 28
   },
   "checkpoints": [
     {
@@ -1282,6 +1326,45 @@
       "started_at": "2026-10-24T06:13:51.693996+00:00",
       "finished_at": "2026-10-24T06:25:39.610266+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-11",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0011"
+      ],
+      "mapped_pdf_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "outside_map_lookup_pages": [
+        61
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 36,
+      "eng_code_tasks": 6,
+      "kor_eng_tasks": 30,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-11/validation.json",
+        "sha256": "ec933b5125b6c95a9374440662a172d21463702aaea6a799d635dce254617678",
+        "bytes": 1566
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-11/verification-completed.json",
+        "sha256": "acbf13075eec13d7fceb8819cec007a38c26430bf644740209f4a926efea2d0c",
+        "bytes": 1072
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-11-preserved-work.json",
+        "sha256": "154fe1113614cfd5f29b8b616eeb82ed366a0b281e825c11ab3faf4d67ffbbeb",
+        "bytes": 1446680
+      },
+      "started_at": "2026-10-24T06:28:06.448838+00:00",
+      "finished_at": "2026-10-24T06:40:31.379094+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1639,32 +1722,32 @@
     {
       "pdf_page": 62,
       "printed_page": "60",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0011"
       ],
-      "restoration": "pending",
-      "evidence": "Distinct 자동메뉴 II source byline서동철 with strike-through and handwritten annotation;canonical identity unchanged. Extent verifiedPDF62–65upper."
+      "restoration": "complete",
+      "evidence": "서동철 자동메뉴 II opening,SCRN.2 listing and usage. Printed byline strike-through/handwriting original retained without canonical change."
     },
     {
       "pdf_page": 63,
       "printed_page": "61",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0011"
       ],
-      "restoration": "pending",
-      "evidence": "Second auto-menu program and prose continue."
+      "restoration": "complete",
+      "evidence": "Usage continuation and complete SCRN.AUTO listing;line120 crosses columns. DOS explanation begins below."
     },
     {
       "pdf_page": 64,
       "printed_page": "62",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0011"
       ],
-      "restoration": "pending",
-      "evidence": "DOS disassembly illustrations and program explanation continue."
+      "restoration": "complete",
+      "evidence": "DOS explanation,two annotated machine-code listings with40 rows,and SCRN.AUTO explanation opening."
     },
     {
       "pdf_page": 65,
@@ -1674,24 +1757,27 @@
         "maso-1985-10-toc-0011",
         "maso-1985-10-toc-0012"
       ],
-      "restoration": "pending",
-      "evidence": "Upper panel ends second auto-menu program explanation with cartoon;independent 함수그래프 II opens below."
+      "restoration": "partial",
+      "evidence": "Upper canonical0011 explanations/cartoon complete. Independent canonical0012 함수그래프 II lower opening observed only;body extent still requires verification."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-11",
-    "goal": "Restore complete canonical0011 자동메뉴 II by서동철,printed60–63/PDF62–65upper.",
+    "id": "batch-12",
+    "goal": "Verify complete extent and restore canonical0012 함수그래프 II by이진욱 from printed63/PDF65lower.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0011"
+      "maso-1985-10-toc-0012"
     ],
-    "mapping_targets": "Use verified four-page extentPDF62–65upper;exclude independent 함수그래프 II lower65. Preserve printed byline strike-through/handwritten annotation separately from canonical서동철 and parent0006.",
+    "mapping_targets": "Opening below completed auto-menu onPDF65;exclude upper0011 panel. Inspect ending and adjacent page;next canonical0013 테이프용 MLE has TOC69 as lookup candidate only. Preserve parent0006;segment if over six mapped pages.",
     "provisional_lookup_targets": [
-      61,
-      62,
-      63,
       64,
-      65
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
     ],
     "limits": {
       "articles": 2,
@@ -1703,7 +1789,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining29 identities and remaining source-page accounting require restoration/classification;no global page offset inferred."
+    "Remaining28 identities and remaining source-page accounting require restoration/classification;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
