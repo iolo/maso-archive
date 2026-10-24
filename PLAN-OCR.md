@@ -20,20 +20,22 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:26 readable/sample-reviewed,1 partial article,12 unresolved.
-  Batch48 restores 매직윈도우0038/박강수 opening216–221/214–219 at
-  `packages/magic-window-opening`:192files independentlyexact;58regions/42blocks/16originals.
-  Fullarticle216–229verified;229leftconclusion/glossary only,rightnoticeexcluded,folio null.
-  Fourversiontablerows/12cells/3headers,5catalogrows/15fields/2groups,8menunodes/7edges,
-  14screenmenuentries,26movement/editkeys,45keyreferences,6justificationoptions,28outlineentries.
-  Fourprosejoins,393nonblanktranscriptrows,29candidate notes/33occurrences,oneunknownseparator.
-  Scaeen,BMAGIC,extention,SUBSYTEM,repeated점 and^Λ/^ⓐ/^I remainliteral;noexecution.
-  All3,113ranges/3,262pins/58images validate;8malformedfixturesreject. All56,814priorfiles,
-  47inventories/30corepins exact;213-testbaseline reused. Newinventory:57,685.
-  Seventeenwholeviews;6mapped/11outside/1task. Two preOCRrepairschange/add4regions;
-  all58selectedcrops reviewed before42kor+engtasks,allrawsreadbeforeonesourcepass.
-  ZeroOCRfailures/retries/enginechanges. No crop-review timing exception inthisbatch.
-  Nextbatch49:222–227middle,then228–229left and14pageassembly. PreserveASCII table,
-  menus,Hangulinput/output,listings andline94outgoing227→228 literally.
+  Batch49 restores 매직윈도우0038/박강수 middle222–227/220–225 at
+  `packages/magic-window-middle`:213files independentlyexact;66regions/43blocks/20originals.
+  Opening216–221 immutable;final228–229left and14pageassembly pending;229folio null.
+  ASCII128rows/512cells/16headers,24menuentries/25options,3file-selectionrows/6filefields,
+  13caption/image associations. Listings1–2 complete,listing3opening ends94FN→228left.
+  Sixcodepanels,136numberedentries/6immediatecommands/159coderows/272linefields,
+  72quotes/36strings,3codejoins/3prosejoins,517transcriptrows. Faint222inputjamo explicitly
+  unresolved withoriginal.49candidate notes/57occurrences,54markers;sourceerrors retained.
+  All6,474ranges/6,639pins/66images validate;8malformedfixtures reject. All57,685priorfiles,
+  48inventories/30corepins exact;213-testbaseline reused. Newinventory:58,622.
+  Ninewholeviews;6mapped/3outside/1task. Two preOCRrepairschange3crops;CRnote corrected
+  tosourceN.A. All66selectedcrops reviewedbefore46tasks(6eng/40kor+eng),allrawsreadbefore
+  onesourcepass. ZeroOCRfailures/retries/enginechanges;no crop-review timing exception.
+  Failedverifier IndexError retained;r01 fixesmatchoffsets only,source/exports unchanged.
+  Nextbatch50:228–229left,listing3tail/incoming94,listing4hex/checksums,endingart,
+  4.마침말/glossary;exclude229rightnotice.Then separate14pageassemblyfromimmutable natives.
   Partialarticle,12unresolvedidentities,cover,268-pageaccounting,index/report,independent
   issuerebuild andcloseout remain. Keepallsevenprivateadapters. Humanacceptance/fullproofreading,
   sourcebytes/spacing/claims/execution unverified. No readerrebuild.

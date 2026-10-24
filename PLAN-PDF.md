@@ -28,51 +28,58 @@ October 1985 restoration continues under step 12: **26 readable/sample-reviewed
 entries, one partial article and 12 unresolved**, accounting for all 39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch 48 restores the opening of **매직윈도우0038 / 박강수**, PDF216–221/printed214–219,
-at `archive/pdf/1985-10/packages/magic-window-opening`. All 192 files match an independent
-rebuild. The full article spans PDF216–229: page229's left column contains 4.마침말
-and a glossary; its right column is a separate manuscript notice. Page229 has no
-visible folio. PDF230 opens dBASEⅡ. Pages222–229 and full assembly remain pending.
+Batch 49 restores the middle of **매직윈도우0038 / 박강수**, PDF222–227/printed220–225,
+at `archive/pdf/1985-10/packages/magic-window-middle`. All 213 files match an independent
+rebuild. Together with the immutable opening, PDF216–227 is restored in two native
+packages. Final228–229left and the separate14-page assembly remain pending.
+Page229's left column contains4.마침말 and a glossary; its right column is an independent
+manuscript notice. Page229 has no visible folio. PDF230 opens dBASEⅡ.
 Canonical title, author, order and parent relationships remain unchanged.
 
-Fifty-eight regions retain 42 corrected blocks and16 original images, including six
-full pages. The 28-entry outline, four version-table rows/12 cells/three headers,
-five catalog rows/15 fields/two disk groups, eight menu-tree nodes/seven edges,
-14 screen-menu entries, 26 movement/edit-key entries,45 control-key references and
-six justification options preserve source order and associations. Four prose joins
-retain 일일/이, 아스/키, 있/었다 and the isolated final menu-choice line. Six captions
-remain linked to their original catalog/tree/screens. The transcript has393 nonblank
-rows, including editorial table/diagram rows; exact printed spacing remains unverified.
+The middle segment retains66 regions,43 corrected blocks and20 original images,
+including six full pages. The ASCII table has128 manually transcribed rows/512 cells
+in six source panels, with16 fields across two repeated header groups. Nine screen
+figures retain24 menu entries,25 options,three file-selection rows andsix file fields.
+Thirteen caption/image associations,three prose joins and the Hangul input/output
+associations preserve source context. A faint fragment of the input-example jamo
+remains explicitly unresolved with original pixels and an inspection enlargement.
 
-Source Scaeen, BMAGIC, extention, SUBSYTEM and repeated 점/점이 remain literal.
-Twenty-nine localized candidate notes cover33 occurrences, including ^Λ, ^ⓐ, ^I,
-0/O-like glyphs and Unicode roman/subscript approximations. One unknown screen-separator
-band retains its original pixels without an inferred character count. No program was
+Six code panels form three independent listing groups: listings1–2 are complete;
+listing3 begins here and line94 continues from227right to228left. The indexes retain
+136 numbered entries, six immediate commands,159 nonblank code rows,272 line fields,
+72 quote marks/36 strings andthree code joins. NEW and the unnumbered save commands
+remain separate from numbered lines. All517 nonblank transcript rows are indexed.
+Forty-nine candidate notes cover57 occurrences;54 markers preserve unknown leader,
+blank/tilde bands, cursor/box glyphs and the unresolved jamo fragment. Source DISASAMBLE,
+CONFIGRATION, FEET, PERFORMATION, PINT, CREAT and LHEK remain literal. No program was
 executed and no historical, software, hardware or mathematical claims were verified.
 
-All 3,113 UTF8 range occurrences,3,262 evidence pins and58 images validate;
-165 same-page nonfigure pairs are disjoint. Eight malformed fixtures reject,
-including a repeated menu number linked to another screen, a wrong version-table
-cell, an incorrect menu-tree parent and a missing prose continuation. All56,814
-prior files,47 inventories and30 core pins remain exact; the unchanged213-test
-baseline is reused. New preservation inventory: 57,685 files.
+All 6,474 UTF8 range occurrences,6,639 evidence pins and66 images validate;
+179 same-page nonfigure pairs are disjoint. Eight malformed fixtures reject,
+including a repeated menu number linked to another screen, a wrong ASCII key cell,
+an immediate command attached to a numbered REM and a missing line94 continuation.
+All57,685 prior files,48 inventories and30 core pins remain exact; the unchanged
+213-test baseline is reused. New preservation inventory: 58,622 files.
 
-Seventeen whole views establish the extent: six mapped pages,11 outside lookups and
-one canonical task. Two pre-OCR coverage repairs change/add four regions: the tree
-root top margin and a clipped final prose line beside figure5. Initial maps/crops remain.
-All58 selected crops were inspected before42 kor+eng tasks; all42 drafts were read
-before one source correction pass. Zero OCR failures, retries or engine changes.
-There is no crop-review timing exception in this batch. Human acceptance/full proofreading,
-source bytes/spacing/glyph counts and source claims remain unverified. No reader was rebuilt.
+Nine reused whole views cover six mapped pages,three outside lookups andone canonical
+task. Two pre-OCR coverage repairs change three crops: the ASCII ESC closing bracket
+and adjacent panel edge, and figure10's YES values. The initial blank-CR mapping note
+is corrected to the source N.A. All66 selected crops were inspected before46 tasks
+(six eng code,40 kor+eng); all46 drafts were read before one source correction pass.
+Zero OCR failures, retries or engine changes. There is no crop-review timing exception.
+One verifier IndexError is retained; r01 fixes capture offsets without changing source
+transcripts or exports. Human acceptance/full proofreading,source bytes/spacing/glyph
+counts and source claims remain unverified. No reader was rebuilt.
 
-Next is **batch49: restore PDF222–227/printed220–225 of 매직윈도우0038**, reusing
-221–229 whole views. Preserve the ASCII table, Hangul input/output, file/print/format/
-configuration menus, listings1–2 and listing3 opening literally. Listing3 line94
-continues from227right to228left; preserve that outgoing boundary. Then restore228–229left
-and assemble all14 pages separately. The partial article,12 unresolved identities,
-cover,268-page accounting,standalone index/report,independent issue rebuild and closeout remain.
-Retain the batch44 Beautiful Text,batch41 Arong,batch36 PLAY,batch33 MSX corners,
-batch29 Prologue,batch24 numerical andbatch20 MSX private adapters. No reader rebuild.
+Next is **batch50: restore final PDF228–229left of 매직윈도우0038**, reusing227–230
+whole views. Preserve listing3's incoming line94 continuation and remaining code,
+immediate commands,listing4's hex/checksum rows,ending art,4.마침말 and glossary.
+Exclude229right's independent notice. Then assemble all14 pages separately from the
+immutable natives, retaining the unresolved222 jamo. The partial article,12 unresolved
+identities,cover,268-page accounting,standalone index/report,independent issue rebuild
+and closeout remain. Retain the batch44 Beautiful Text,batch41 Arong,batch36 PLAY,
+batch33 MSX corners,batch29 Prologue,batch24 numerical andbatch20 MSX private adapters.
+No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
