@@ -19,30 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:24 readable/sample-reviewed,zero partial articles,15 unresolved.
-  Batch45 completes TOC-listed0027 과월호 디스켓/PDF177 at `packages/disk-notice`
-  (61 files) and0028 소프트웨어 공모/PDF205 at `packages/contest-notice` (57 files).
-  Both independently exact; visiblefolios null,canonicalTOC175/203 unchanged.
-  Disk14regions/13blocks/oneoriginal retain6bundles/84programrows/167name-month fields,
-  6prices/5내용labels,3languagepackages,로드런너Ⅲ andorderingdetails. CALL3327한글 has
-  no month;malformedMLE(Ⅱ(6),낙시,로즈런너 andsoftname candidates remainliteral.
-  Contest13regions/12blocks/oneoriginal retaincurvedheader/intro,10groups/27numbered
-  andnesteditems,11submissionfields,3prizes,3criteriaweights and4contactfields.
-  Threeleaderbands haveunknowncounts;physicalwraps/oddparenthesis remain. No byline
-  invented frompublisherlogo. All1,622 ranges/1,703pins/27images validate;6negativecases
-  reject. All55,279 priorfiles/44inventories/30corepins exact;213-testbaseline reused.
-  Newinventory:55,757 files. Sixreusedwholeviews,2mapped/4outside,all27crops reviewed
-  before25kor+eng tasks;allraws read beforeone sourcepass. ZeroOCRfailures/retries/
-  cropchanges. Source-direct fallback foromitted/garbledheadings;verifier syntaxfailure
-  retained withfresh typo-only revision.24candidateoccurrences/23notes preserved.
-  Current177ownership corrects earlierprovisionaloutside-canonical annotation to0027;
-  205assigned0028. Frozenrecords unchanged. Nextbatch46:verifyextent/restorenews0029
-  from206/printed204. Parent0017/0021,15unresolvedidentities,cover,268-pageaccounting,
-  index/report,independentissue rebuild andcloseout remain. Keep batch44BeautifulText,
-  batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX
-  adapters. Humanacceptance/fullproofreading,sourcebytes/claims/currentoffers/contacts
-  unverified. No readerrebuild.
-  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+- October1985 active: 25 readable/sample-reviewed, zero partial articles, 14 unresolved.
+  Batch46 completes 정보 레이다0029/PDF206–209 at `packages/news`: 72 files independently
+  exact; folios204/205/206/null. Right209 manuscript notice excluded, ownership unresolved.
+  Nineteen regions,15 searchable blocks and4 originals retain12 items/16 body fragments,
+  4 continuations,2 tables and1 photo. Original news bodies/table cells await volunteer
+  transcription under accepted policy. Literal51/4 and8~12월 retained;9 candidate notes.
+  All188 ranges/286 pins/19 images validate;7 malformed fixtures reject. All55,757 prior
+  files/45 inventories/30 core pins exact;213-test baseline reused. New inventory:56,085.
+  Nine whole views;4 mapped/5 outside/1 task. All15 text crops inspected before15kor+eng
+  tasks;all raws read beforeone source pass. ZeroOCR failures/retries/crop repairs.
+  Timing exception: original crops208/209 inspected after launch,before correction/export;
+  retained supplement corrects original preflight claim. Text-crop timing unaffected.
+  Nextbatch47:verifyextent/restore 한글소트0037 from210/208;preserve prose,tables,jamo,
+  BASIC listings/wraps literally. Parent0036 and14 unresolvedidentities,cover,268-page
+  accounting,index/report,independentissue rebuild andcloseout remain. Keep all seven
+  private assembly adapters. Humanacceptance/fullproofreading,sourcebytes/claims unverified.
+  No readerrebuild. [October log](docs/progress/8510.md),
+  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

@@ -2503,12 +2503,57 @@
       "toc_entry_id": "maso-1985-10-toc-0029",
       "title": "정보 레이다",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All nine whole views205–213 inspected. PDF205 is the completed independent software-contest notice. News masthead opens206/visible204; news continues207/205 and208/206, ending in left column209 with education contest report. PDF209 has no visible folio. PDF210/208 opens separate 한글 소트 and211–213 continue that article.",
+        "Four mapped pages206–209;five outside lookups205,210–213;one canonical task. Right209 is independently boxed 독자 여러분의 원고를 모집합니다 notice, excluded from news without assuming ownership by later TOC notice0030.",
+        "Twelve ordered news items include a training schedule. Sixteen body-image fragments preserve four continuations: printer left→right207; Samsung exhibition207→208; Hanja dictionary left208→topright208; monitor exports208→209. Printer photo and two tables retain their associations.",
+        "Accepted news policy: searchable corrected headings/captions plus complete original body images; body prose/table-cell transcription pending volunteers. Full206–208 and left209 originals retain all eligible pixels. No historical/product/price/contact claims verified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/news",
+        "article_id": "scan-maso-1985-10-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/news/manifest.json",
+          "sha256": "05e506790b65d3cc2887577ac5f80c5c269594dab527d4f0cf1cc2df2f17f647",
+          "bytes": 12138
+        },
+        "coverage": {
+          "pdf_pages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "printed_pages": [
+            "204",
+            "205",
+            "206",
+            null
+          ],
+          "regions": 19,
+          "blocks": 15,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete news206–209;shared209rightnotice excluded;209visiblefolio null. Searchable headings andcomplete originalbody images,volunteerbody/tabletranscription pending."
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-46/validation.json",
+          "sha256": "84d1e3c75109d46a2c0759ad82aa7c126ee528039d6a9a585ae5f6d52df0166a",
+          "bytes": 2423
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-46/reproduction.json",
+          "sha256": "38458874ae0d9aee6fff4aecf2d1e78e92e2d66aea91e53adb22691ee3951919",
+          "bytes": 1328
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0030",
@@ -2623,10 +2668,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 24,
+    "readable": 25,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 15
+    "unresolved_eligibility": 14
   },
   "checkpoints": [
     {
@@ -4826,6 +4871,59 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-46",
+      "status": "complete",
+      "stage": "validated-complete-news",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0029"
+      ],
+      "mapped_pdf_pages": [
+        206,
+        207,
+        208,
+        209
+      ],
+      "outside_map_lookup_pages": [
+        205,
+        210,
+        211,
+        212,
+        213
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 15,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 15,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "preflight_timing_exception": {
+        "path": "archive/pdf/1985-10/restoration/batch-46/preflight-timing-exception.json",
+        "sha256": "bff832d9b81c9e47d9cac9c1291dfddce8c9ea5c2cef648a30740e0569cda5b0",
+        "bytes": 1160
+      },
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-46/validation.json",
+        "sha256": "84d1e3c75109d46a2c0759ad82aa7c126ee528039d6a9a585ae5f6d52df0166a",
+        "bytes": 2423
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-46/verification-completed.json",
+        "sha256": "73078800f8a4f46870725177057a83f80dca71b69c8cc11fce1191cf803c1efd",
+        "bytes": 1226
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-46-preserved-work.json",
+        "sha256": "6d1b211b115d07bef2d72879c2d7b8881e51946983a6b32abe186dc65eeffa92",
+        "bytes": 12887921
+      },
+      "started_at": "2026-10-24T20:30:43.019109+00:00",
+      "finished_at": "2026-10-24T20:39:36.437934+00:00",
+      "timing_scope": "Prospective wallclock includeswaits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -6941,35 +7039,86 @@
     {
       "pdf_page": 206,
       "printed_page": "204",
-      "classification": "outside-article-observed",
-      "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "정보레이다 opens206,distinct from뷰티풀 텍스트;canonical classification andrestoration deferred.",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0029"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/news",
+      "evidence": "Canonical0029news;complete originalbodypixels andsource-correctedheadings. Separatefromnotice205 andfollowing한글소트210.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
-        "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
-        "bytes": 9413
+        "path": "archive/pdf/1985-10/restoration/batch-46/source-reviewed.json",
+        "sha256": "d9e4aff6b195c639733eca684e445fa9b5c8a9345c726d9fc9a98d22bd7e6ad8",
+        "bytes": 5624
+      }
+    },
+    {
+      "pdf_page": 207,
+      "printed_page": "205",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0029"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/news",
+      "evidence": "Canonical0029news;complete originalbodypixels andsource-correctedheadings. Separatefromnotice205 andfollowing한글소트210.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-46/source-reviewed.json",
+        "sha256": "d9e4aff6b195c639733eca684e445fa9b5c8a9345c726d9fc9a98d22bd7e6ad8",
+        "bytes": 5624
+      }
+    },
+    {
+      "pdf_page": 208,
+      "printed_page": "206",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0029"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/news",
+      "evidence": "Canonical0029news;complete originalbodypixels andsource-correctedheadings. Separatefromnotice205 andfollowing한글소트210.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-46/source-reviewed.json",
+        "sha256": "d9e4aff6b195c639733eca684e445fa9b5c8a9345c726d9fc9a98d22bd7e6ad8",
+        "bytes": 5624
+      }
+    },
+    {
+      "pdf_page": 209,
+      "printed_page": null,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0029"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/news",
+      "evidence": "Canonical0029news;searchableheadings andcomplete originalbody/table/photo pixels. Fourcontinuations retained. Right209independentmanuscriptnotice excluded,canonicalownership unresolved.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-46/source-reviewed.json",
+        "sha256": "d9e4aff6b195c639733eca684e445fa9b5c8a9345c726d9fc9a98d22bd7e6ad8",
+        "bytes": 5624
       }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-46",
-    "goal": "Verify actualextent andrestore canonical0029 정보 레이다/TOC204 startingPDF206.",
+    "id": "batch-47",
+    "goal": "Verify full extent andrestore canonical0037 한글소트/김종순,TOC208,openingPDF210.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0029"
+      "maso-1985-10-toc-0037"
     ],
-    "mapping_targets": "Inspect news boundaries andactualextent beforemapping;reuse206 openingview. Follow acceptednews policy:source-correct searchableheadings andretain fullbody/figures/tables asoriginalimages withvolunteerbodytranscription explicit. Restoreatmostsixdistinctbodypages;segmentandassemble separately iflonger. Do notinferendingfromnextTOC;checkfollowingarticle/divider. Preserve everycompletedpackage andprivateadapter. Parent0021 classification remainsseparate.",
+    "mapping_targets": "Reuse209–213wholeviews;inspectfollowingpages toverifyendandadjacentmaterial. Mapatmostsixactualbodypages. Retain prose,tables,boxedHangul/jamo examples,BASIC listing1 andlisting2 andallphysicalwraps/source errors withoutsemantic repair orcodeexecution. Segmentandassemble iflonger. Parent0036비즈니스 remainsseparate. Preserve all completedpackages andprivateadapters.",
     "provisional_lookup_targets": [
-      205,
-      206,
-      207,
-      208,
       209,
       210,
       211,
       212,
-      213
+      213,
+      214,
+      215,
+      216,
+      217
     ],
     "limits": {
       "articles": 2,
@@ -6981,7 +7130,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Two TOC-listed notices0027/177 and0028/205 complete;bothvisiblefolios null,canonicalTOC175/203 unchanged. Prior177 provisionaloutside-canonical annotation corrected onlyincurrentledger;historyretained.24 readable/sample-reviewed,0partial,15unresolved identities. Nextverify정보레이다0029 from206/printed204. Parent0017/0021 andotherunresolvedidentities,cover,268-page accounting,index/report,independentissue rebuild andcloseout pending. Keep batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/currentprices/contacts unverified. No readerrebuild."
+    "Canonical0029news206–209 complete underacceptedoriginalimagebodypolicy;15searchableblocks,12items,16bodyfragments,4continuations,2tables,1photo. Volunteerbody/tabletranscription pending.209visiblefolio null,rightnoticeownership unresolved. Twooriginalcrop reviewtimingexception recorded,all15textcrops reviewedbeforeOCR.25readable/sample-reviewed,0partial,14unresolved. Next0037한글소트from210/208. Parent0017/0021/0036 andremainingidentities,cover,268-pageaccounting,index/report,independentissuerebuild andcloseout pending. Keep batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
