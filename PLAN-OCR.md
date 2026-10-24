@@ -19,22 +19,23 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: thirteen readable/sample-reviewed entries, one partial
-  and 25 unresolved. MSX printed73–84/PDF75–86 is restored in immutable msx-a/msx-b.
-  Latest batch15/msx-b:206 files independently match;59 regions/24 blocks/13 originals,
-  six dump groups331 rows/2,648 byte fields,23 header rows and22 source joins.
-  Sector32 continuesA038/PDF86→A040/PDF87. Diagram labels await volunteers.
-  All59 final crops reviewed before46 tasks (24eng/22kor+eng);all raws read before
-  one source pass. Four pre-OCR crop repairs retained;zero OCR failures/retries.
-  All10,735 ranges/10,895 pins/59 images validate;8,504 prior files/30 core pins exact.
-  Fresh213-test batch01 baseline reused. Printed3574,SLMPLE,FEH/FFH,extraA200 rows
-  and faint hex-field candidates remain explicit. Full MSX assembly remains pending.
-  Ending104/PDF106 is verified across advertisement105;107advertisement/108수치해석(4).
-  Interior88–103 remains uninspected. Next batch16:map at most87–92,adjacent86/93;
-  reuse86–87,preserve both natives and continue sector32 explicitly. Remaining
-  identities,cover/accounting/closeout remain. No reader rebuild.
-  [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  Human acceptance/full proofreading/source bytes remain unverified.
+- October1985 is active:13 readable/sample-reviewed entries,one partial and25
+  unresolved. MSX printed73–90/PDF75–92 is restored in immutable msx-a/msx-b/msx-c.
+  Latest batch16/msx-c:281 files independently match;74 regions/52 blocks/8 originals,
+  four dumps181 rows/1,576 byte fields,42 disassembly instructions,31 system-call groups,
+  14 joins. All74 final crops reviewed before66 tasks (15eng/51kor+eng);three pre-OCR
+  crop repairs retained. All raws read before one source pass;zero OCR failures/retries.
+  All7,951 UTF8 ranges/8,169 pins/74 images validate;9,399 prior files/15 inventories/
+  30 core pins exact. Fresh213-test baseline reused. Initial verifier's symbol-span
+  count omitted two single# glyphs;failed attempt retained,fresh verifier passes11.
+  No source/package changes. Printed OUPUT,09H,ED+16 and conflicting success values
+  remain literal;three dot-band placeholders retain unknown glyph counts. Diagram
+  labels await volunteers. Full article assembly pending;incoming sector32 boundary
+  and outgoing23H prose remain source-linked. Endpoint106 and advertisement105 known;
+  interior94–103 uninspected. Next batch17:map at most93–98,adjacent92/99;reuse92–93.
+  Preserve all natives. Remaining identities,cover/accounting/closeout remain.
+  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+  Human acceptance/full proofreading/source bytes remain unverified. No reader rebuild.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

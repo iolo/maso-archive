@@ -30,30 +30,37 @@ QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FOR
 가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
 and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
 
-The MSX feature remains partial, with printed 73–84 / PDF75–86 restored in two
-immutable packages: `archive/pdf/1985-10/packages/msx-a` and `packages/msx-b`.
-The latest six-page segment (batch 15) has 206 files matching its independent rebuild.
-Its 59 regions yield 24 blocks and 13 original images. Six dump groups retain
-331 rows / 2,648 byte fields, 23 header rows and 22 source joins. The sector32 dump
-continues from A038 on PDF86 to A040 on PDF87; that outgoing join awaits assembly.
-Diagram labels await volunteers; all original pixels remain complete.
+The MSX feature remains partial, with printed73–90/PDF75–92 restored in three
+immutable packages: `archive/pdf/1985-10/packages/msx-a`, `packages/msx-b`, and
+`packages/msx-c`. Latest batch16 has281 files matching its independent rebuild.
+Its74 regions yield52 blocks and8 original images. Four dump groups retain181 rows
+and1,576 byte fields;boot disassembly retains42 instructions and one command.
+Thirty-one system-call entry groups include the printed reserved1CH~20H,29H group;
+no missing entry numbers are invented. Fourteen source joins remain explicit.
 
-All 59 final crops were reviewed before 46 tasks (24 eng, 22 kor+eng), and all
-raws read before one source pass. Four crops were repaired before OCR to avoid
-clipping row tops; both revisions remain. Zero OCR failures or retries. All 10,735
-UTF8 ranges / 10,895 evidence pins / 59 images validate. All 8,504 prior October
-files and 30 core pins remain exact; the fresh 213-test batch 01 baseline is reused.
-Printed3574, SLMPLE, conflicting FEH/FFH, extra A200 rows and faint field candidates
-remain explicit. Thirteen entries are readable, one partial and 25 unresolved.
-Cover selection, source-page accounting and issue closeout remain. No reader rebuild.
+All74 final crops were reviewed before66 tasks (15eng/51kor+eng). Three crops were
+repaired before OCR;both revisions remain. All drafts were read before one source
+pass;zero OCR failures/retries. All7,951 UTF8 ranges,8,169 evidence pins and74 images
+validate. All9,399 prior files,15 inventories and30 core pins remain exact;the fresh
+213-test batch01 baseline is reused. One verifier expected9 symbol spans but omitted
+two single# gutter glyphs;its failed version remains,and fresh verifier validates11.
+Source transcription and packages were unchanged by that repair.
+
+Printed AUX OUPUT,LST OUPUT,10H reference09H,14H success1/failure0 and17H ED+16
+remain literal. Faint C053 packed bytes and independent directory fields retain
+source notes. Three boot-display dot bands use explicit editorial placeholders;
+original glyph counts remain unknown. Internal diagram/screen labels await volunteers.
+Thirteen entries are readable,one partial and25 unresolved. Cover selection,source-page
+accounting and issue closeout remain. No reader rebuild.
 
 MSX ends on printed104/PDF106 after inserted advertisement105;107 is another
-advertisement and108 starts 수치해석 (4). Interior88–103 is still uninspected.
-Next is batch 16: inspect and restore from printed85/PDF87, mapping at most87–92
-and checking adjacent86/93. Reuse saved86–87; preserve both natives unchanged.
-Continue the sector32 dump explicitly and exclude intervening advertisements as found.
+advertisement and108 starts 수치해석 (4). Interior94–103 is still uninspected.
+Next is batch17:inspect and restore from printed91/PDF93,mapping at most93–98
+and checking adjacent92/99. Reuse saved92–93;preserve all three natives unchanged.
+Continue23H prose 써/PDF92→넣는다./PDF93. Sector32's earlier A038→A040 boundary
+is transcribed in separate natives and awaits assembly. Exclude advertisements as found.
 Keep the two-task/six-mapped-page/twenty-outside-lookup limits. Full article assembly
-remains pending. Details: [October log](docs/progress/8510.md) and
+remains pending. Details:[October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23
