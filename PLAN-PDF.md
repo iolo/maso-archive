@@ -28,36 +28,34 @@ October restoration continues under step 12: **14 readable/sample-reviewed entri
 one partial and 24 unresolved**, accounting for all 39 canonical identities.
 MSX remains complete across PDF75–104 and106; its selected assembly is unchanged.
 
-Batch21 restores the opening of canonical0003, **수치해석 (4) by 박재현**,
-printed106–111/PDF108–113, in `archive/pdf/1985-10/packages/numerical-a-r02`.
-All15 article pages108–122 were visually inspected; no advertisement interrupts
-this article. PDF107 is an advertisement,123 is a book advertisement, and124
-begins 컴퓨터 활용 ABC. Only the first six pages are restored so far.
+Batch22 restores the middle of canonical0003, **수치해석 (4) by 박재현**,
+printed112–117/PDF114–119, in `archive/pdf/1985-10/packages/numerical-b`.
+Together with the unchanged opening `packages/numerical-a-r02`, twelve of the
+article's fifteen pages are restored. Final PDF120–122 and full assembly remain.
+All15 body pages were inspected; no advertisement interrupts the article.
 
-The partial package retains79 regions,56 reading blocks and10 original images.
-It includes182 BASIC rows,12 FORTRAN compiler-listing rows, a seven-row table
-with63 body cells/eight headers,11 matrices with30 cells,56 displayed formula
-rows, worked-output fields, and13 source joins. FORTRAN blank rows1/3/8 and
-row5's continuation mark remain explicit. Printed errors and uncertain symbols
-remain source-linked; no mathematics, code or source encoding was repaired.
+The middle package retains69 regions,47 reading blocks and15 original images.
+It includes247 FORTRAN compiler rows13–259,60 BASIC POLFIT rows1000–1710,
+four worked-output panels,two tables,15 matrices and seven source joins.
+Compiler depths,labels,comments,blank rows and continuation marks have separate
+indexes. Printed errors,damaged rows and uncertain symbols remain source-linked.
+No mathematics,program behavior or source encoding was repaired or verified.
 
-All69 OCR drafts were read before one source correction pass. Fifteen crop
-boundaries were repaired before OCR, with six further refinements; all revisions
-and original crops remain. No OCR failure or retry occurred. The successful but
-empty equation6 draft and other omissions received direct scan transcription.
-The initial export rejected unsupported reading-block kind `other`; a fresh
-recipe changes only17 block kinds to `prose`. The earlier record-aggregation
-failure and both export-input revisions remain preserved.
+All54 OCR drafts were read before one source correction pass. Four crop boundaries
+were widened before OCR; original and revised crops remain. No recognition failure
+or retry occurred. The empty matrix draft and other omissions received direct scan
+transcription. A fresh verifier corrected one source-review field name; its failed
+predecessor remains. Page118's review-note count was corrected without changing text.
 
-All295 package files match an independent rebuild. All5,960 UTF8 ranges,
-6,194 evidence pins and79 images validate; three negative range cases reject.
-All20,261 prior files,20 inventories and30 core pins remain unchanged. The fresh
-213-test batch01 baseline is reused. Human acceptance/full proofreading,
-source bytes, historical/technical/mathematical claims and execution remain
-unverified. Original graph labels await volunteers. No reader rebuild.
+All240 package files match an independent rebuild. All7,460 UTF8 ranges,
+7,655 evidence pins and69 images validate; three negative range cases reject.
+All21,642 prior files,21 inventories and30 core pins remain unchanged. The fresh
+213-test batch01 baseline is reused. Human acceptance/full proofreading,source
+bytes,historical/technical/mathematical claims and execution remain unverified.
+Original graph labels await volunteers. No reader rebuild.
 
-Next is **batch22: PDF114–119**, reusing batch21 source views and continuing
-FORTRAN physical row12→13. Then restore120–122 and assemble the full article.
+Next is **batch23: PDF120–122**, reusing saved views and continuing BASIC
+line1710→1720. Then assemble the full15-page article from its immutable segments.
 Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining24 identities,
 cover selection,268-page accounting,standalone index/report,independent issue
 rebuild and closeout remain. Details: [October log](docs/progress/8510.md) and

@@ -20,21 +20,19 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:14 readable/sample-reviewed entries,one partial,24 unresolved.
-  Batch21 restores canonical0003수치해석(4) opening108–113 in
-  `packages/numerical-a-r02`. Full15-page extent108–122 inspected;123 advertisement,
-  124 nextarticle. Remaining114–122 and fullassembly pending;MSX remains complete.
-  All295 files independently match;79regions/56blocks/10originals,182BASICrows,
-  12FORTRANrows (three blank source rows/one continuation mark),63tablecells,
-  30matrixcells,workedoutput/formula indexes and13joins retained. All5,960UTF8ranges,
-  6,194pins/79images validate;three negative range cases reject.69tasks (11eng,
-  58kor+eng),allraws read before one source pass.15pre-OCR crop repairs/sixrefinements;
-  zero OCR failures/retries. Empty equation6 and other omissions corrected fromscan.
-  Retain initial aggregation failure and unsupportedblock-kind export failure;
-  selectedrecipe changes17blockkinds only,without text/map/crop/OCR changes.
-  All20,261priorfiles/20inventories/30corepins unchanged;213-test baseline reused.
-  Nextbatch22:reuse sourceviews andrestore114–119,FORTRANphysicalrow12→13;
-  then120–122 andcompleteassembly.24unresolved identities,cover,268-pageaccounting,
-  standaloneindex/report,independentissue rebuild andcloseout remain. No reader rebuild.
+  Batch22 restores canonical0003수치해석(4),middlePDF114–119,in `packages/numerical-b`.
+  Opening108–113 remains exact;12of15pages restored. Final120–122 andassembly
+  pending. MSX remains complete. All240 files independently match;69regions,
+  47blocks/15originals,247FORTRANrows,60BASICrows,fouroutputpanels,two tables,
+  15matrices/sevenjoins. All7,460UTF8ranges/7,655pins/69images validate;
+  three negative range cases reject.54tasks (9eng/45kor+eng),allraws read before
+  one source pass. Four pre-OCR crop repairs;zero recognition failures/retries.
+  Empty matrix draft corrected directly fromscan. Retain verifier field-name
+  failure/freshrevision and page118 review-note count revision;source text unchanged.
+  All21,642priorfiles/21inventories/30corepins exact;213-test baseline reused.
+  Nextbatch23:final120–122,incomingBASIC1710→1720,thenfull15-pageassembly.
+  Remaining24identities,cover,268-pageaccounting,standaloneindex/report,
+  independentissue rebuild andcloseout pending. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified;
   graphlabels await volunteers.
