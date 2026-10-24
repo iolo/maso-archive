@@ -24,46 +24,42 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-25
 
-October 1985 restoration continues under step 12: **19 readable/sample-reviewed
-entries, no partial articles and 20 unresolved**, accounting for all 39 canonical
-identities. Completed MSX 구석구석, Prologue, ABC, numerical analysis and earlier MSX
-remain unchanged.
+October 1985 restoration continues under step 12: **20 readable/sample-reviewed
+entries, no partial articles and 19 unresolved**, accounting for all 39 canonical
+identities. Earlier completed packages and their private assembly adapters remain unchanged.
 
-Batch 36 completes canonical0005 **PLAY 정복**, PDF160–166 upper, at
-`archive/pdf/1985-10/packages/play-complete`. All 230 files match an independent
-rebuild, including all 221 unchanged native files. The complete article retains
-59 regions, 29 blocks and 11 original images. Opening160 has no visible folio;
-canonical TOC158 remains separate. Shared166 now has both owners complete: upperPLAY
-and lowerMSX, each with its own exclusion map.
+Batch 37 completes canonical0018 **그래픽화면에 문자를** by 차재춘,
+PDF168–171 / printed166–169, at `archive/pdf/1985-10/packages/graphic-print`.
+All 156 files match an independent rebuild. The package retains 42 regions,
+35 corrected text regions, 30 blocks and seven original images. Source title
+그래픽 화면에 문자를··· remains separate from the unchanged canonical title.
 
-All 38 native array categories,76 category slices,11 objects,eight reserved arrays,
-four scalars and full metadata survive. All 14,174 native ranges project reversibly;
-all 28,431 resulting UTF8 range occurrences,28,940 evidence pins and59 images validate.
-Five malformed cases reject, including a repeated DATA value shifted to the wrong
-field. All 45,407 prior files,35 inventories and30 core pins remain exact; the unchanged
-213-test baseline is reused. New preservation inventory: 46,357 files.
+Five listing groups retain nine panels and 180 physical code rows: two independent
+commands, 34 BASIC rows, 26 dump rows with 206 byte fields, and 118 numbered assembly
+rows with 486 fields. Five joins preserve the usage-step column boundary, demo page
+boundary and three assembly boundaries. Both list1 caption occurrences remain linked.
+Printed CHARACTORS, POINTL, B0H candidate, six final dump bytes and missing1460 remain
+literal; no code, address or checksum repair. Two asterisk bands retain unknown counts.
 
-Five complete code groups retain17 panels,487 physical rows and444 printed BASIC
-labels, including the separate circled-six explanation. The58300→58310 continuation
-joins once; all18 native joins remain, including58410G/8 across columns. Eight external
-annotation labels,12 key instructions,561 DATA fields,82 candidate occurrences and
-eight unknown-band markers retain their source positions. Source errors, empty DATA,
-physical wraps and uncertain glyphs remain literal; no music/code reconstruction.
+All 5,013 UTF8 range occurrences, 5,134 evidence pins and 42 images validate. Five
+malformed cases reject, including correct repeated LD/CB text at wrong source positions.
+All 46,357 prior files, 36 inventories and 30 core pins remain exact; the unchanged
+213-test baseline is reused. New preservation inventory: 47,003 files. All 42 exact
+crops were reviewed before 35 Tesseract tasks (nine eng,26 kor+eng), and all drafts
+were read before one source pass. No crop repairs, OCR retries or failed exports.
 
-Five exact native-stage deferrals resolve only in active status; original notes
-remain in full metadata. Embedded score/screenshot labels await volunteers. Earlier
-crop, typing and schema-export revisions remain preserved. No new mapping, rendering,
-OCR or source correction was needed. No PLAY body pages or assembly remain pending.
+The article ends at4999 END on171. Independent HGR 텍스트 프린트 by 김성현 occupies
+172–176; right176 and whole177 contain promotions. It is outside this package and
+has no new canonical ID. Canonical0019 뷰티풀 텍스트 by 김덕현 / TOC192 remains pending.
 
-Next is **batch 37: verify and restore 그래픽화면에 문자를 by 차재춘** (canonical0018),
-starting PDF168/printed166, with at most six mapped body pages in the checkpoint.
-Verify actual extent from scans; preserve canonical parent 컴퓨터 그래픽0017 until
-its classification is evidenced. Keep two-task/six-page/twenty-outside-lookup limits.
-Remaining20 unresolved identities,cover selection,268-page accounting,standalone
-index/report,independent issue rebuild and closeout remain. Keep pinned batch36PLAY,
-batch33MSX corners,batch29Prologue,batch24numerical andbatch20MSX adapters for closeout.
-Human acceptance/full proofreading,source bytes,claims and execution remain unverified.
-No reader rebuild.
+Next is **batch 38: verify and restore 아롱다롱 by 이지상** (canonical0020), starting
+PDF178/printed176, in observed source order. Preserve canonical order and parent
+컴퓨터 그래픽0017 until classification is evidenced. Keep two-task/six-mapped-page/
+twenty-outside-lookup limits. Remaining19 identities, cover selection,268-page accounting,
+standalone index/report, independent issue rebuild and closeout remain. Retain pinned
+batch36PLAY, batch33MSX corners, batch29Prologue, batch24numerical and batch20MSX adapters.
+Human acceptance/full proofreading, source encoded bytes, claims and execution remain
+unverified. Embedded image labels await volunteers. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

@@ -1655,12 +1655,60 @@
       "toc_entry_id": "maso-1985-10-toc-0018",
       "title": "그래픽화면에 문자를",
       "parent_id": "maso-1985-10-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF167 is independent TOPIA anniversary advertisement. PDF168 opens MSX article 그래픽 화면에 문자를··· with byline 차 재 춘; printed folio166.",
+        "PDF169 prose and first two BASIC comment rows continue to PDF170 rows3–320. PDF170 also contains the complete hexadecimal dump and numbered comment assembly source1000–1150. PDF171 continues1160–4999 END across three columns, followed by uncaptioned decorative artwork and printed169.",
+        "PDF172 opens independent HGR 텍스트 프린트 by 김성현, printed170. Its prose172–174 and BASIC listings174–176 are a separate unlisted feature, not canonical0018. PDF176 left finishes its listing1260 GOTO720; right is independent 컴퓨터비전 promotion. PDF177 is 과월호 디스켓 promotion, with no visible folio. PDF178 opens distinct canonical 아롱다롱 by 이지상, printed176.",
+        "Canonical title, byline, parent0017 컴퓨터 그래픽 and TOC166 remain unchanged. Parent classification is not resolved by shared graphic-series decoration. No new canonical identity created for HGR.",
+        "One complete four-page article; initial provisional six-page scope superseded by observed boundary. All twelve prepared whole views were reviewed; the earlier truncated176–178 display was not counted and those three were displayed individually before this record.",
+        "Keep step① column continuation, BASIC row2→3 page continuation, and three numbered assembly panel continuations explicit. Repeated 리스트1 captions are two separate source occurrences associated with one listing.",
+        "Preserve opening photo, original screenshot, ending art and four full-page originals. Figure embedded labels await volunteers. Source command definitions are prose; CLEAR and BLOAD examples are independent code blocks.",
+        "Hex dump addresses, byte fields and printed trailing checksum fields are literal. Numbered assembly source is printed with apostrophe comment delimiters; retain line labels, symbols, mnemonics, operands and comments without execution or semantic repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/graphic-print",
+        "article_id": "scan-maso-1985-10-toc-0018",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/graphic-print/manifest.json",
+          "sha256": "ab2e5ca6e68873f0cd7f03cd8da74062e184403fa76b4fa08388bdc2431ae5ac",
+          "bytes": 26362
+        },
+        "coverage": {
+          "pdf_pages": [
+            168,
+            169,
+            170,
+            171
+          ],
+          "printed_pages": [
+            "166",
+            "167",
+            "168",
+            "169"
+          ],
+          "regions": 42,
+          "blocks": 30,
+          "figures": 7,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/validation.json",
+          "sha256": "25904c44147369b0c428ff67dc52292fecc180247302d2df134d6a1da28f45b6",
+          "bytes": 2459
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/reproduction.json",
+          "sha256": "7307f8cf7cf9dcbf97c4cc08c898a54e412ce331d470a4aa5c28eb791f3ec8e8",
+          "bytes": 1284
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0019",
@@ -2090,10 +2138,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 19,
+    "readable": 20,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 20
+    "unresolved_eligibility": 19
   },
   "checkpoints": [
     {
@@ -3840,6 +3888,57 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-37",
+      "status": "complete",
+      "stage": "validated-complete-article",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0018"
+      ],
+      "mapped_pdf_pages": [
+        168,
+        169,
+        170,
+        171
+      ],
+      "outside_map_lookup_pages": [
+        167,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 35,
+      "eng_code_tasks": 9,
+      "kor_eng_tasks": 26,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/validation.json",
+        "sha256": "25904c44147369b0c428ff67dc52292fecc180247302d2df134d6a1da28f45b6",
+        "bytes": 2459
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/verification-completed.json",
+        "sha256": "f58153a7aaad6092422b9ee8d58bd124dacfbb7a7600e8cdf3193009d2af6281",
+        "bytes": 1003
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-37-preserved-work.json",
+        "sha256": "bba17432b1167b3f04dbbc30925366106a5ad92720797c22986b1dc173eac58c",
+        "bytes": 10773707
+      },
+      "started_at": "2026-10-24T18:13:40.375027+00:00",
+      "finished_at": "2026-10-24T18:29:17.799937+00:00",
+      "timing_scope": "Prospective wall clock includes waits/gaps; active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -5362,43 +5461,179 @@
     {
       "pdf_page": 168,
       "printed_page": "166",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0018"
       ],
-      "restoration": "not-started",
-      "evidence": "Independent그래픽화면에 문자를 by차재춘 opens168printed166 andcontinues169GRAPHIC PRINT."
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/graphic-print",
+      "evidence": "Complete source-corrected GRAPHIC PRINT article168–171; title/byline on168, BASIC ending320 on170, numbered assembly ending4999 END on171. Following172 independent HGR feature excluded.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
     },
     {
       "pdf_page": 169,
       "printed_page": "167",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0018"
       ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/graphic-print",
+      "evidence": "Complete source-corrected GRAPHIC PRINT article168–171; title/byline on168, BASIC ending320 on170, numbered assembly ending4999 END on171. Following172 independent HGR feature excluded.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 170,
+      "printed_page": "168",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0018"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/graphic-print",
+      "evidence": "Complete source-corrected GRAPHIC PRINT article168–171; title/byline on168, BASIC ending320 on170, numbered assembly ending4999 END on171. Following172 independent HGR feature excluded.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 171,
+      "printed_page": "169",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0018"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/graphic-print",
+      "evidence": "Complete source-corrected GRAPHIC PRINT article168–171; title/byline on168, BASIC ending320 on170, numbered assembly ending4999 END on171. Following172 independent HGR feature excluded.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 172,
+      "printed_page": "170",
+      "classification": "unlisted-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 173,
+      "printed_page": "171",
+      "classification": "unlisted-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 174,
+      "printed_page": "172",
+      "classification": "unlisted-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 175,
+      "printed_page": "173",
+      "classification": "unlisted-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 176,
+      "printed_page": "174",
+      "classification": "unlisted-article-and-advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 177,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Whole-page 과월호 디스켓 promotion and ordering details; no visible folio.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
+    },
+    {
+      "pdf_page": 178,
+      "printed_page": "176",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
       "restoration": "not-started",
-      "evidence": "Independent그래픽화면에 문자를 by차재춘 opens168printed166 andcontinues169GRAPHIC PRINT."
+      "evidence": "SPC-1000 아롱다롱 by 이지상 opens at visible176, matching canonical0020. Extent not yet verified; only opening inspected.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+        "bytes": 8952
+      }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-37",
-    "goal": "Restore canonical0018 그래픽화면에 문자를 by차재춘,startingPDF168/printed166.",
+    "id": "batch-38",
+    "goal": "Verify actual extent and restore 아롱다롱 by 이지상, canonical0020, starting PDF178/printed176.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0018"
+      "maso-1985-10-toc-0020"
     ],
-    "mapping_targets": "Verifyactualextentandadjacentpagesfromsource;do notinferendingfromTOC. Reusebatch30saved168–169views. Restoreatmostsixbodypages168–173firstifcontinuityconfirmed,thenremainingpagesandimmutableassemblyasneeded. Keepcanonicalparent0017컴퓨터그래픽unchanged;classifysectiononlyfromsufficientevidenceinaseparateboundedtask. PreservecompletedPLAY/MSXandallprivateadapters.",
+    "mapping_targets": "Follow observed source order; inspect extent before mapping at most six body pages starting178. Canonical order stays unchanged;0019 뷰티풀 텍스트 by 김덕현 at TOC192 remains pending. Keep parent0017 classification pending. Exclude independent HGR172–176 and promotions.",
     "provisional_lookup_targets": [
-      167,
-      168,
-      169,
-      170,
-      171,
-      172,
-      173,
-      174,
       177,
-      178
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
     ],
     "limits": {
       "articles": 2,
@@ -5410,7 +5645,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "PLAY정복0005completeseven-pageassembly160–166upper;no partialarticlesorpendingarticleassemblies. Bothownersofshared166complete:upperPLAY/lowerMSX. Opening160visiblefolionull,TOC158unchanged. Remaining20unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Nextverifycanonical0018그래픽화면에문자를from168;noglobalfoliooffsetinferred. Keepbatch36play_literalprivateadapteratissuecloseout."
+    "GRAPHIC PRINT0018 complete168–171; no partial articles or pending article assemblies. Remaining19 unresolved identities, cover selection,268-page accounting, standalone index/report, independent issue rebuild and closeout pending. Next verify 아롱다롱0020 from178/176; canonical0019 뷰티풀 텍스트/김덕현/TOC192 and parent0017 remain pending. Unlisted HGR/김성현172–176 excluded from0018. Keep batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX private adapters for closeout. Human acceptance/full proofreading, source bytes/claims/execution remain unverified."
   ],
   "reader_rebuild": false
 }

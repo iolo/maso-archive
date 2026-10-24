@@ -6,21 +6,22 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress: **19 readable/sample-reviewed entries,
-no partial articles and20 unresolved**. Batch36 completesPLAY정복160–166upper at
-`packages/play-complete`:230files independentlyexact,221nativefiles unchanged;
-59regions/29blocks/11originals. All38arraycategories/76slices/fullmetadata and14,174native
-ranges preserve sourceoccurrences. All28,431ranges/28,940pins/59images validate;five
-malformedcases reject. Fivecodegroups/17panels/487rows/444BASIClabels,18nativejoins,
-one58300→58310join,8annotationlabels,12keyinstructions,561DATAfields and8unknownbands
-retained. Opening160folio nullindependentTOC158;bothshared166owners complete.
-All45,407priorfiles/35inventories/30corepins exact;213-testbaseline reused.
-Newinventory 46,357files. No newmapping/OCR/correction;allpriorrevisions retained.
-Nextbatch37:verify/restorecanonical0018그래픽화면에문자를 from168/166,atmostsixmappedpages.
-Remaining20identities,cover,268-pageaccounting,index/report,independentissuerebuild and
-closeoutpending. Keepbatch36play_literaladapter. Humanacceptance/fullproofreading/
-sourcebytes/claims/executionunverified;embeddedlabelsawaitvolunteers. No readerrebuild.
-See [October log](docs/progress/8510.md) and [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+October 1985 restoration is in progress: **20 readable/sample-reviewed entries,
+no partial articles and 19 unresolved**. Batch37 completes 그래픽화면에 문자를 by 차재춘,
+PDF168–171 / printed166–169, at `packages/graphic-print`:156 independently identical
+files,42 regions,30 blocks,seven originals. Five listing groups/nine panels retain
+34 BASIC rows,26 dump rows/206 byte fields,118 numbered assembly rows and two commands.
+Five source joins,28 candidate occurrences and two unknown asterisk bands are retained.
+All5,013 ranges/5,134 evidence pins/42 images validate;five malformed cases reject.
+All46,357 prior files/36 inventories/30 core pins remain exact;213-test baseline reused.
+New inventory47,003 files. All42 crops reviewed before35 OCR tasks;all raws read before
+one source pass. No crop/OCR/export retries. Independent HGR172–176 stays outside0018;
+canonical0019 뷰티풀 텍스트 / TOC192 remains pending. Next batch38:verify 아롱다롱0020
+fromPDF178/printed176,at most six mapped pages. Parent0017 remains unresolved.
+Cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
+Human acceptance/full proofreading,source bytes/claims/execution remain unverified.
+No reader rebuild. See [October log](docs/progress/8510.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
 are accounted for by 39 readable, assistant sample-reviewed articles and nine
