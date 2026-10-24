@@ -24,56 +24,58 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-25
 
-October 1985 restoration continues under step 12: **27 readable/sample-reviewed
-entries, no partial articles and 12 unresolved**, accounting for all 39 canonical
+October 1985 restoration continues under step 12: **29 readable/sample-reviewed
+entries, no partial articles and 10 unresolved**, accounting for all39 canonical
 identities. Earlier packages, identities and parent relationships remain unchanged.
 
-Batch 51 completes the 14-page **매직윈도우0038 / 박강수** article, PDF216–229left,
-at `archive/pdf/1985-10/packages/magic-window-complete-r01`. All 467 files match an
-independent rebuild, including all 458 files copied from the three immutable native
-packages. The assembly retains 138 regions, 93 blocks and 40 original figures.
-No body pages or article assembly remain pending. PDF229 has no visible folio;
-its independently framed right-column manuscript notice remains excluded.
-PDF215 ends 한글소트; PDF230 opens dBASEⅡ.
+Batch52 completes **소프트웨어 리뷰 dBASE II0039**, PDF230–233upper/printed228–231,
+and **공모총평0031**, PDF233lower/printed231. Selected packages are
+`archive/pdf/1985-10/packages/dbase-review` and `packages/contest-review`.
+All140 and26 files respectively match independent rebuilds. Their original233
+panels and text regions are disjoint, with reciprocal exclusions. PDF234 opens
+모킹보드를 이용한 &뮤직 / 오필홍;235 continues it. No bylines were invented for
+these two articles. No body pages or assembly remain pending for either.
 
-Listing3 line94 now connects the pinned227 and228 fragments while preserving the
-physical newline. The complete index has157 numbered BASIC entries and176 numbered
-physical fragments;21 immediate commands remain separate, including wrapped commands.
-Five complete code groups retain231 nonblank rows across10 panels. Listing4 retains
-32 hex rows,256 opaque byte fields and32 printed checksums; none was recalculated.
-All80 quote marks/40 strings,314 BASIC line fields,320 hex fields and four glossary
-entries retain their own source ranges. No program was executed.
+The dBASEII review retains38 regions,31 blocks andseven originals:three fullpages,
+upper233 andthree illustrations. Three independently transcribed command examples
+retain four physical rows,six curved quote marks andthree strings. Seven product
+fields,six platform entries,12 headings,four wrapped command references andeight
+prose continuations retain exact own-source ranges. Product prices,versions,
+capacities,platform claims andsoftware behavior are unverified;no code was executed.
 
-All native metadata survives:45 array categories with135 explicit segment slices,
-20 object projections,12 reserved arrays and six scalars. This includes the outline,
-version/catalog tables, menus, command keys,128-row ASCII table, captions, glossary,
-1,015 transcript rows and118 source-candidate occurrences. Native fragment indexes
-and stage notes remain exact. Ten active stage-deferral notes are resolved only in
-the assembled status. The boundary-note supersession preserves the source reading
-`IN(HHEX)+1,1)+MID$(JIN$,FN MO(HHEX)+1,1)`; older notes remain frozen.
-The faint222 input-jamo fragment remains explicitly unresolved.
+공모총평 retains six regions,four blocks andtwo originals. Its14 award rows preserve
+five columns,58 populated body fields,five headers and12 covered blank category
+slots. One printed 기사화 label,visually beside row8,spans rows2–14;it is not repeated
+into blank cells. The two 자동매뉴Ⅱ rows retain separate authors andoccurrences.
+The middle→right prose connection is조→언이;an explicit source-note supersession
+preserves the earlier mistaken observation. Source마아티,김종순,이덕현,차재춘,
+비지니스,멋짓,불분명하지 and앤으며 remain literal candidates without normalization.
+Across both articles,334 transcript rows and47 localized candidate occurrences remain.
 
-All 24,251 UTF8 range occurrences,25,297 evidence pins and138 images validate;
-365 same-page nonfigure pairs are disjoint. Eight malformed cases reject, including
-a repeated hex byte linked to the wrong occurrence, a shifted prior-download range,
-a missing line94 fragment and a removed boundary supersession. All58,860 prior files,
-50 inventories and30 core pins remain exact; the unchanged213-test baseline is reused.
-New preservation inventory: 62,162 files. The initial adapter's incorrect numbered
-fragment-count assertion is retained; r01 corrects178 to176 because two wrapped rows
-belong to immediate commands. No native transcription or index changed.
+All 2,369 UTF8 range occurrences,2,491 evidence pins and44 original crops validate.
+All45 same-page nonfigure pairs onshared233 are disjoint;all170 within-package pairs
+also pass. Eight malformed cases reject,including a repeated code identifier linked
+to the wrong occurrence,a repeated title linked to the wrong author row,a missing
+merged-category final row,a missing platform cell and a missing shared-page exclusion.
+All62,162 prior files,51 inventories and30 core pins remain exact;the unchanged
+213-test baseline is reused. New preservation inventory: 62,872 files.
 
-Eight saved whole-page views were rechecked for one canonical assembly task.
-No new rendering, mapping, OCR or source correction was required. Human acceptance,
-full proofreading, source bytes/spacing/glyph counts and technical claims remain
-unverified. No reader was rebuilt.
+Seven whole views were inspected:three reused renders andfour fresh renders.
+Two canonical tasks coverfour mapped pages andthree outside lookups. All44 selected
+crops were inspected before35 Tesseract tasks(three eng code,32 kor+eng);allraws were
+read beforeone source correction pass. One pre-OCR series-title crop repair restores
+clipped glyph bottoms;the replacement was separately inspected and37 unchanged
+crops reused exactly. Initial map/crops remain preserved. Zero OCR failures,retries
+orengine changes. Human acceptance/full proofreading,source bytes/spacing/glyphcounts
+andtechnical claims remain unverified. No reader was rebuilt.
 
-Next is **batch52: verify and restore dBASEII0039**, starting at PDF230/printed228.
-Review its actual ending and adjacent pages before mapping; do not infer extent from
-the TOC. Keep the two-task/six-mapped-page/twenty-outside-lookup bounds.
-The12 unresolved identities,cover,268-page accounting,standalone index/report,
-independent issue rebuild and closeout remain. Retain the batch51 Magic Window,
-batch44 Beautiful Text,batch41 Arong,batch36 PLAY,batch33 MSX corners,batch29 Prologue,
-batch24 numerical andbatch20 MSX private adapters. No reader rebuild.
+Next is **batch53: verify the extent and restore the opening of 모킹보드&뮤직0002 /
+오필홍**, starting at PDF234/printed232. Inspect actual ending andadjacent pages;
+map atmostsix bodypages andsegment the article ifneeded. Retain source code,tables
+anddiagrams without semantic/hardware repair orexecution. The10 unresolved identities,
+cover,268-page accounting,standalone index/report,independent issue rebuild andcloseout
+remain. Preserve all eight private assembly adapters,including batch51 Magic Window.
+No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

@@ -2570,12 +2570,52 @@
       "toc_entry_id": "maso-1985-10-toc-0031",
       "title": "공모총평",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Seven whole views229–235 inspected before mapping. Canonical0039 소프트웨어 리뷰 dBASE II opens230/228 and ends upper233/231.229left ends매직윈도우,right independent manuscriptnotice.234 opens모킹보드를 이용한 &뮤직 and235 continues it. No byline printed for dBASEII;do not invent one.",
+        "dBASEII230 introductory paragraph ends주→231left장한다.231left 사용이어렵다 continues배우→middle는.231right example ends철물점→232left에서.232left sortingexample ends아→middle닐.232middle indexing ends(주화일→right은 그대로 있다.)232right conclusion ends짤→233left수 있는.233left Hangulplatform introduction endsdB→middleASEⅡ;middle ends소개되지→right않는 after the six-row platform list. Preserve physical text fragments and column order.",
+        "233 lower separatelyframed 공모총평 is canonical0031/TOC231. Its middle→right prose splits조→인이. Awardtable hasfive columns and14 entries:one 최우수상 plus13 기사화;the latter category is a merged source cell. Preserve all names/titles/categories/platforms literally; no normalization by other articles.",
+        "Two canonical tasks share233 with disjoint upper/lower ownership. dBASEII original233upper excludes notice;notice original233lower excludes upperreview. Shared visible231 folio is page metadata. No full233 image assigned to either article. Three other dBASE pages retain full originals;artwork originals preserved separately. No parentclassification inferred.",
+        "Three independently printed dBASE command examples on232 require literal transcription, including Korean identifiers and quotation glyph candidates;do not execute. Product specifications,versions,prices,addresses,capacities and six Korean computer/platform rows are historical source claims,not verified facts."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/contest-review",
+        "article_id": "scan-maso-1985-10-toc-0031",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/contest-review/manifest.json",
+          "sha256": "91a0853dabcb6366dcd0829398a4eb7c062e068c5ef3aa573db79cc851ab9828",
+          "bytes": 4271
+        },
+        "coverage": {
+          "pdf_pages": [
+            233
+          ],
+          "printed_pages": [
+            "231"
+          ],
+          "regions": 6,
+          "blocks": 4,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete233lower 공모총평/printed231;233upper independentdBASEII excluded. Title,twocolumn prose,14awardrows/fivecolumns andsinglemergedcategory retained. No byline invented."
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-52/validation.json",
+          "sha256": "3735f00d7e7cb158ca1276827b671ef8438f078b448b4e4760f767e180949197",
+          "bytes": 3969
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-52/reproduction.json",
+          "sha256": "3e6417b708b1a9c7bd0abd5c764a36d99eb51a45079ad0487537f625bdf59715",
+          "bytes": 1862
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0032",
@@ -2920,20 +2960,66 @@
       "toc_entry_id": "maso-1985-10-toc-0039",
       "title": "소프트웨어 리뷰 dBASE II",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Seven whole views229–235 inspected before mapping. Canonical0039 소프트웨어 리뷰 dBASE II opens230/228 and ends upper233/231.229left ends매직윈도우,right independent manuscriptnotice.234 opens모킹보드를 이용한 &뮤직 and235 continues it. No byline printed for dBASEII;do not invent one.",
+        "dBASEII230 introductory paragraph ends주→231left장한다.231left 사용이어렵다 continues배우→middle는.231right example ends철물점→232left에서.232left sortingexample ends아→middle닐.232middle indexing ends(주화일→right은 그대로 있다.)232right conclusion ends짤→233left수 있는.233left Hangulplatform introduction endsdB→middleASEⅡ;middle ends소개되지→right않는 after the six-row platform list. Preserve physical text fragments and column order.",
+        "233 lower separatelyframed 공모총평 is canonical0031/TOC231. Its middle→right prose splits조→인이. Awardtable hasfive columns and14 entries:one 최우수상 plus13 기사화;the latter category is a merged source cell. Preserve all names/titles/categories/platforms literally; no normalization by other articles.",
+        "Two canonical tasks share233 with disjoint upper/lower ownership. dBASEII original233upper excludes notice;notice original233lower excludes upperreview. Shared visible231 folio is page metadata. No full233 image assigned to either article. Three other dBASE pages retain full originals;artwork originals preserved separately. No parentclassification inferred.",
+        "Three independently printed dBASE command examples on232 require literal transcription, including Korean identifiers and quotation glyph candidates;do not execute. Product specifications,versions,prices,addresses,capacities and six Korean computer/platform rows are historical source claims,not verified facts."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/dbase-review",
+        "article_id": "scan-maso-1985-10-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/dbase-review/manifest.json",
+          "sha256": "06a2466652b60877d928d3114b8e5634109ae8f0cdb12c700e352e7e2a526bbd",
+          "bytes": 23431
+        },
+        "coverage": {
+          "pdf_pages": [
+            230,
+            231,
+            232,
+            233
+          ],
+          "printed_pages": [
+            "228",
+            "229",
+            "230",
+            "231"
+          ],
+          "regions": 38,
+          "blocks": 31,
+          "figures": 7,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete dBASEII230–233upper/printed228–231;233lower separate공모총평. Three complete originalpages plusupper233 andthree uncaptioned illustrations. No byline invented."
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-52/validation.json",
+          "sha256": "3735f00d7e7cb158ca1276827b671ef8438f078b448b4e4760f767e180949197",
+          "bytes": 3969
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-52/reproduction.json",
+          "sha256": "3e6417b708b1a9c7bd0abd5c764a36d99eb51a45079ad0487537f625bdf59715",
+          "bytes": 1862
+        }
+      }
     }
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 27,
+    "readable": 29,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 12
+    "unresolved_eligibility": 10
   },
   "checkpoints": [
     {
@@ -5447,6 +5533,53 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-52",
+      "status": "complete",
+      "stage": "validated-complete-articles",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0039",
+        "maso-1985-10-toc-0031"
+      ],
+      "mapped_pdf_pages": [
+        230,
+        231,
+        232,
+        233
+      ],
+      "outside_map_lookup_pages": [
+        229,
+        234,
+        235
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 35,
+      "eng_code_tasks": 3,
+      "kor_eng_tasks": 32,
+      "source_correction_passes": 1,
+      "crop_repairs": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-52/validation.json",
+        "sha256": "3735f00d7e7cb158ca1276827b671ef8438f078b448b4e4760f767e180949197",
+        "bytes": 3969
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-52/verification-completed.json",
+        "sha256": "9b245bab3e08dac9e2afd36891e5dfb01447974d23a5c1ed97c9416e529f6b17",
+        "bytes": 1207
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-52-preserved-work.json",
+        "sha256": "b6bf8631d15e262379ffd15f85f931f5a0de7054d965a1085d2ce0976a27987e",
+        "bytes": 14487937
+      },
+      "started_at": "2026-10-24T21:57:47.548503+00:00",
+      "finished_at": "2026-10-24T22:09:03.093171+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -7947,46 +8080,136 @@
     {
       "pdf_page": 230,
       "printed_page": "228",
-      "classification": "outside-article-observed",
-      "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "IndependentdBASEⅡ opens230 andcontinues231;notpartof매직윈도우. Itsfullboundary/classification requiresseparatetask.",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0039"
+      ],
+      "restoration": "complete-article",
+      "evidence": "dBASEII source-corrected fullreview230–233upper;233lower independentlyframed공모총평. Shared panels disjoint;allbodypages covered. Sourceglyphs/claims/execution unverified.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
-        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
-        "bytes": 10771
-      }
+        "path": "archive/pdf/1985-10/restoration/batch-52/source-reviewed.json",
+        "sha256": "fbe3e1a2249e6c5c1d5c089427388cf24edef4ace9777161d4ddc99af54752f6",
+        "bytes": 7511
+      },
+      "selected_package": "archive/pdf/1985-10/packages/dbase-review"
     },
     {
       "pdf_page": 231,
       "printed_page": "229",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0039"
+      ],
+      "restoration": "complete-article",
+      "evidence": "dBASEII source-corrected fullreview230–233upper;233lower independentlyframed공모총평. Shared panels disjoint;allbodypages covered. Sourceglyphs/claims/execution unverified.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-52/source-reviewed.json",
+        "sha256": "fbe3e1a2249e6c5c1d5c089427388cf24edef4ace9777161d4ddc99af54752f6",
+        "bytes": 7511
+      },
+      "selected_package": "archive/pdf/1985-10/packages/dbase-review"
+    },
+    {
+      "pdf_page": 232,
+      "printed_page": "230",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0039"
+      ],
+      "restoration": "complete-article",
+      "evidence": "dBASEII source-corrected fullreview230–233upper;233lower independentlyframed공모총평. Shared panels disjoint;allbodypages covered. Sourceglyphs/claims/execution unverified.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-52/source-reviewed.json",
+        "sha256": "fbe3e1a2249e6c5c1d5c089427388cf24edef4ace9777161d4ddc99af54752f6",
+        "bytes": 7511
+      },
+      "selected_package": "archive/pdf/1985-10/packages/dbase-review"
+    },
+    {
+      "pdf_page": 233,
+      "printed_page": "231",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0039",
+        "maso-1985-10-toc-0031"
+      ],
+      "restoration": "complete-articles",
+      "evidence": "dBASEII source-corrected fullreview230–233upper;233lower independentlyframed공모총평. Shared panels disjoint;allbodypages covered. Sourceglyphs/claims/execution unverified.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-52/source-reviewed.json",
+        "sha256": "fbe3e1a2249e6c5c1d5c089427388cf24edef4ace9777161d4ddc99af54752f6",
+        "bytes": 7511
+      },
+      "owners": [
+        {
+          "toc_entry_id": "maso-1985-10-toc-0039",
+          "selected_package": "archive/pdf/1985-10/packages/dbase-review",
+          "area": "upper"
+        },
+        {
+          "toc_entry_id": "maso-1985-10-toc-0031",
+          "selected_package": "archive/pdf/1985-10/packages/contest-review",
+          "area": "lower"
+        }
+      ],
+      "ownership_note": "Two canonical articles share233:0039upper/0031lower,disjoint originalpanels andtextregions;visible231folio retained aspage metadata."
+    },
+    {
+      "pdf_page": 234,
+      "printed_page": "232",
       "classification": "outside-article-observed",
       "toc_entry_ids": [],
       "restoration": "not-started",
-      "evidence": "IndependentdBASEⅡ opens230 andcontinues231;notpartof매직윈도우. Itsfullboundary/classification requiresseparatetask.",
+      "evidence": "Independent 모킹보드를 이용한 &뮤직 opens234,byline오필홍;235continues. Full extent andrestoration requires separatecheckpoint.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-48/source-reviewed.json",
-        "sha256": "14be0021436602a744b22c36288ff68dbb2f63128ff127f691e8e9abd77d2209",
-        "bytes": 10771
+        "path": "archive/pdf/1985-10/restoration/batch-52/source-reviewed.json",
+        "sha256": "fbe3e1a2249e6c5c1d5c089427388cf24edef4ace9777161d4ddc99af54752f6",
+        "bytes": 7511
+      }
+    },
+    {
+      "pdf_page": 235,
+      "printed_page": "233",
+      "classification": "outside-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "not-started",
+      "evidence": "Independent 모킹보드를 이용한 &뮤직 opens234,byline오필홍;235continues. Full extent andrestoration requires separatecheckpoint.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-52/source-reviewed.json",
+        "sha256": "fbe3e1a2249e6c5c1d5c089427388cf24edef4ace9777161d4ddc99af54752f6",
+        "bytes": 7511
       }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-52",
-    "goal": "Verify actual extent and restore canonical0039 dBASEII, whose opening is PDF230/printed228.",
+    "id": "batch-53",
+    "goal": "Verify actual extent and restore opening of canonical0002 모킹보드&뮤직 / 오필홍 fromPDF234/printed232.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0039"
+      "maso-1985-10-toc-0002"
     ],
-    "mapping_targets": "Review actual ending and adjacent pages before mapping.230 opens dBASEⅡ;231 continues. Do not infer ending from following TOC entry. Keep current mapping within6 pages and split if needed. Excluded229right manuscript notice identity/accounting remains separate.",
+    "mapping_targets": "Review actual opening,ending andadjacentpages beforemapping.234opens모킹보드를 이용한 &뮤직;235continues with6522/PSG explanation,diagram andregistertable. Mapatmostsixbodypages,splitlongarticle andassemble separately. Source-only code/table/diagram restoration,no semantic/hardware validation orprogram execution. Preserveallcompletedpackages/privateadapters.",
     "provisional_lookup_targets": [
-      229,
-      230,
-      231,
-      232,
       233,
       234,
-      235
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252
     ],
     "limits": {
       "articles": 2,
@@ -7998,7 +8221,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "매직윈도우0038 complete14-page assembly216–229left;27 readable/sample-reviewed,0 partial,12 unresolved identities. Next verify/restore dBASEII0039 fromPDF230. Faint222 jamo remains unresolved;229right notice excluded and229folio null. Cover,268-page accounting,index/report,independent issue rebuild and closeout pending. Retain batch51 Magic Window,batch44 Beautiful Text,batch41 Arong,batch36 PLAY,batch33 MSXcorners,batch29 Prologue,batch24 numerical,batch20 MSX adapters. Human acceptance/full proofreading,source bytes/claims/execution unverified;embedded labels await volunteers. No reader rebuild."
+    "dBASEII0039 complete230–233upper and공모총평0031 complete233lower;sharedoriginalpanels disjoint.29readable/sample-reviewed,0partial,10unresolved identities. Nextverify모킹보드&뮤직0002/오필홍 from234. Source마아티/김종순/이덕현/멋짓 candidates remainliteral;no identity normalization orsemanticrepair. Cover,268-page accounting,index/report,independent issue rebuild andcloseout remain. Keep all8privateadapters includingbatch51MagicWindow. Human acceptance/full proofreading,sourcebytes/spacing/claims/execution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }

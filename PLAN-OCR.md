@@ -19,26 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:27 readable/sample-reviewed,0 partial,12 unresolved.
-  Batch51 completes 매직윈도우0038/박강수,14 pages216–229left, at
-  `packages/magic-window-complete-r01`:467 files independently exact, including458
-  unchanged native files;138regions/93blocks/40original figures.229right notice excluded,
-  visiblefolio null. No body pages or article assembly pending.
-  Listing3 line94 joins pinned227→228 fragments with physical newline retained;
-  boundary-note supersession preserved, faint222 jamo unresolved. Five code groups,
-  231rows/10panels,157 numbered entries/176 numbered fragments,21 immediate commands,
-  80quotes/40strings,32hexrows/256bytefields/32printed checksums;no recalculation/execution.
-  Every native category retained, including outline/menu/key/table/glossary metadata;
-  135 segment/category slices,1,015 transcript rows and118 candidate occurrences.
-  All24,251 ranges/25,297 pins/138 images validate;8 malformed cases reject.
-  All58,860 prior files/50 inventories/30 core pins exact;213-test baseline reused.
-  New inventory:62,162. Eight reused whole views;0 mapping/OCR/source correction.
-  Initial adapter count assertion retained;r01 corrects178→176 numbered fragments
-  because two wrapped rows belong to immediate commands;native evidence unchanged.
-  Nextbatch52:verify actual dBASEII0039 extent fromPDF230/printed228,then bounded restore.
-  Twelve unresolved identities,cover,268-page accounting,index/report,independent issue
-  rebuild and closeout remain. Keep all eight private adapters. Human acceptance/full
-  proofreading,source bytes/spacing/claims/execution unverified. No reader rebuild.
+- October1985 active:29 readable/sample-reviewed,0 partial,10 unresolved.
+  Batch52 completes dBASEII0039 at230–233upper/printed228–231 and공모총평0031 at233lower:
+  `packages/dbase-review`140files and`packages/contest-review`26files independently exact.
+  Shared233 originalpanels/textregions disjoint,reciprocal exclusions retained;no byline
+  invented. dBASE38regions/31blocks/7originals;notice6regions/4blocks/2originals.
+  Threecodeexamples/fourrows/sixquotes/three strings,seven productfields,sixplatformrows,
+  12headings andeightprosejoins. Awardtable14rows/fivecolumns,58bodyfields/fiveheaders,
+  12coveredblankslots andonecategorymerge2–14. Noticejoin조→언이 explicitly supersedes
+  initialnote;allsourcecandidates andphysicalwraps preserved.334transcriptrows/47candidates.
+  All2,369 ranges/2,491 pins/44crops validate;8malformedcases reject. All62,162 priorfiles,
+  51inventories/30corepins exact;213-testbaseline reused. Newinventory:62,872.
+  Sevenwholeviews(three reused/fourfresh);fourmapped/threeoutside/twotasks. All44selected
+  crops inspectedbefore35tasks(3eng/32kor+eng),allrawsread beforeonesourcepass. Onepre-OCR
+  titlecrop repair separatelyreviewed;37unchangedcrops exact. ZeroOCRfailures/retries/
+  enginechanges;initialmap/crops retained. No codeexecution orsemantic/hardware repair.
+  Nextbatch53:verifyactual모킹보드&뮤직0002 extent from234/232,thenrestoreatmostsixpages.
+  Tenunresolvedidentities,cover,268-page accounting,index/report,independentissuerebuild
+  andcloseout remain. Preservealleightprivateadapters. Humanacceptance/fullproofreading,
+  sourcebytes/spacing/glyphcounts/claims/execution unverified. No readerrebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
