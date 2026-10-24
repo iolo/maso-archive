@@ -25,49 +25,53 @@ records below are historical and do not authorize a new rebuild.
 ## October 1985 active, 2026-10-25
 
 October 1985 restoration continues under step 12: **17 readable/sample-reviewed
-entries, one partial article and 21 unresolved**, accounting for all 39 canonical
-identities. Prologue, ABC, numerical analysis and the earlier MSX article remain complete.
+entries, one partial article and 21 unresolved**, accounting for all39 canonical
+identities. Prologue,ABC,numerical analysis andearlierMSX remain complete.
 
-Batch31 restores canonical0016 **MSX 구석구석 by 신동윤**, PDF152–157/printed150–155,
-at `archive/pdf/1985-10/packages/msx-corners-b-r01`. Opening146–151 remains immutable
-at `packages/msx-corners-a`. Twelve of the actual15 bodypages are now restored;
-final158–159 andlower166, followed by complete assembly, remain. Independent PLAY
-정복 occupies160–165/upper166; printed markers connect159 tolower166.
+Batch32 restores canonical0016 **MSX 구석구석 by 신동윤**, finalPDF158–159/lower166,
+at `archive/pdf/1985-10/packages/msx-corners-c`. All15bodypages146–159/lower166 are
+now available in three immutable natives:msx-corners-a,msx-corners-b-r01,msx-corners-c.
+Complete-article assembly remains pending,so availability stays partial. Independent
+PLAY 정복 occupies160–165/upper166 andremains unrestored;upper166 is explicitly excluded.
 
-All431 package files match an independent rebuild. The middle segment retains119
-regions,94 blocks and18 originals. Its27 independent code panels retain141 physical
-rows:25 numbered BASIC lines,52 assembly rows and37 memory-dump rows/292 byte fields,
-alongside command sequences. A six-row pointer table retains23 nonblank logical cells,
-one blank header andtwo merged remarks. Four program explanations retain six address
-labels andone shared bracket. Seven prose joins,11 listing/caption associations and
-eight external annotations remain source-linked. The crossed printed D20D instruction
-and handwritten replacement remain two explicit layers beside the original image.
+All225 final-segment files match an independent rebuild. Sixty regions yield51 blocks
+and eight originals. Ten code panels retain24 physical rows,including14 assembly rows/
+54 opaque fields. Nineteen work-area entries retain37 address/name fields. Error-table
+parts retain35 rows/70 cells and35 original dotted leader bands withunknown counts.
+The token table retains255 logical positions:219 nonblank cells and36 blanks,including
+all15 headers/corner and16 rowlabels. Two handwritten address corrections remain
+separate from the printed formula. KBUF's 이/때 join,table13→14 continuation andthe
+printed159→166 command/prose transition remain explicitly indexed.
 
-All6,455 local UTF8 ranges,6,789 evidence pins and119 images validate; three malformed
-range cases reject, including a wrong-region reference to duplicate CMD text. All37,771
-prior files,30 inventories and30 core pins remain exact; unchanged213-test baseline reused.
-The new preservation inventory records39,600 files. One315×3-pixel overlap between
-text-region margins contains only white background; its exact pixels are separately
-verified. All other text-region pairs are disjoint.
+All3,889 UTF8 ranges,4,062 evidence pins and60 images validate. Four malformed cases
+reject,including a duplicateFF+8x header shifted to the wrong cell. All39,600 prior
+files,31 inventories and30 core pins remain exact;unchanged213-test baseline reused.
+New preservation inventory:40,505 files. All39 identities andother38 entry records
+remain unchanged. The three natives together retain250 regions,205 blocks and33 originals.
 
-All119 initial crops andfive repaired crops were reviewed before101 Tesseract tasks
-(27eng/74kor+eng). All drafts were read before one source correction pass; no OCR
-failures or retries. Thirty-seven candidate notes retain39 occurrences, including
-Illegar/Eror/funtion, the erroneous 수치해석 running header, repeated table pointers,
-the short8048 memory row and curved return-arrow approximations. No technical repair.
-Initial export rejected table reading-block kind other; a fresh metadata revision uses
-prose while preserving the map,transcripts and indexes. Both failed export attempts
-and the verifier's initial strict-overlap failure remain preserved.
+All60 preflight crops were viewed before52 Tesseract tasks(10eng/42kor+eng),andall
+drafts were read before one source pass. No crop repairs orrecognition retries.
+The upper166 exclusion mask whitened one nearwhite boundaryrow ofthe lower original
+through pixel rounding;post-OCR comparison caught it. All52 text crops andseven other
+figures match preflight exactly. The selected masked figure was reviewed afterward;
+its only change is a background row(252–255gray→255),withallsource ink intact.
+Both masked andunmasked originals andthe timing exception remain explicit.
 
-Next is **batch32: MSX 구석구석 PDF158–159 and lower166**. Reuse saved batch30 views;
-exclude upper166's PLAY article and preserve the printed159→166 continuation. No
-partial-word join is required at157/158. Then assemble all15 bodypages from three
-immutable natives. Keep two-task/six-mapped-page/twenty-outside-lookup limits.
-Remaining21 unresolved identities,the partial article,cover selection,268-page accounting,
-standalone index/report,independent issue rebuild andcloseout remain. Keep the pinned
-Prologue/numerical/MSX assembly adapters. Human acceptance/full proofreading, source
-encoded bytes,technical/historical claims andexecution remain unverified; embedded
-diagram labels await volunteers. No reader rebuild.
+Fifty-two candidate notes retain53 occurrences,includingFBB0/F3B0,printed&H3B3/&H3B4
+versushandwritten&HF3B3/&HF3B4,FIEFD,NEME,SWAT,CAELL,1F,FOFE,W andduplicateFF+8x.
+No token/address/keyword repair orcode execution. Initial excluded-region schema error,
+post-OCR image assertion andpremature raw-review timestamp are preserved. Fresh schema
+metadata andraw-review records resolve those stages without rerunning recognition.
+
+Next is **batch33: assemble all15 MSX 구석구석 bodypages** fromthe three immutable
+natives. No newmapping/OCR/sourcecorrection is needed. Preserve allnative metadata,
+12 native joins,table/handwriting indexes,blank cells,source uncertainties andupper166
+PLAY exclusion;validate independent rebuild andall projected ranges. Then restore
+canonical0005 PLAY 정복160–165/upper166. Keep two-task/six-mapped-page/twenty-outside-
+lookup limits. Remaining21 unresolved identities,the partial article,cover selection,
+268-page accounting,standalone index/report,independent issue rebuild andcloseout remain.
+Keep pinned Prologue/numerical/MSX adapters. Human acceptance/full proofreading,source
+bytes,technical/historical claims andexecution remain unverified. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

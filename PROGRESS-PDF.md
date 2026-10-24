@@ -7,25 +7,25 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration is in progress: **17 readable/sample-reviewed entries,
-one partial article and21 unresolved**. Batch31 restores MSX 구석구석 by신동윤,
-PDF152–157, at `packages/msx-corners-b-r01`. Opening146–151 remains immutable;
-final158–159/lower166 andcomplete15-page assembly remain. PLAY 정복160–165/upper166
-is separate. All431 files independently match;119 regions/94 blocks/18 originals retain
-27 code panels/141 rows,25 numbered BASIC lines,52 assembly rows,37 memory rows/292
-byte fields,23 nonblank table cells,four program explanations andseven prose joins.
-Printed andhandwritten D20D layers remain independently indexed with the original image.
-All6,455 UTF8 ranges/6,789 pins/119 images validate;three malformed cases reject.
-All37,771 prior files/30 inventories/30 core pins remain exact;213-test baseline reused.
-New preservation inventory:39,600 files. One white315×3-pixel margin overlap explicitly
-verified;all other text regions disjoint. Five crop repairs preceded101 OCR tasks;
-all drafts read before one source pass,zero OCR retries. Thirty-nine candidate occurrences
-retain source errors andglyph uncertainty. Export block-type revision andverifier
-overlap revision preserved;source transcripts/maps/OCR unchanged by both fixes.
-Nextbatch32:158–159/lower166, thenimmutable15-page assembly. Remaining21 unresolved
-identities,the partial article,cover,268-page accounting,index/report,independent issue
-rebuild andcloseout pending. Human acceptance/full proofreading/source bytes/claims/
-execution unverified;embedded labels await volunteers. No reader rebuild.
-See [October log](docs/progress/8510.md) and
+one partial article and21 unresolved**. Batch32 restores finalMSX 구석구석158–159/
+lower166 at `packages/msx-corners-c`. All15bodypages146–159/lower166 are available
+in three immutable natives;complete assembly remains. PLAY160–165/upper166 is separate
+andunrestored. The final225-file package matches its independent rebuild;60 regions/
+51 blocks/eight originals retain24 code rows,14 assembly rows,19 work-area entries,
+35 error messages,219 nonblank token-table cells/36 blanks andtwo handwritten mappings.
+KBUFwordjoin,table13→14continuation and159→166command/proseflow remain explicit.
+All3,889 UTF8 ranges/4,062 pins/60images validate;four malformed cases reject.
+All39,600 priorfiles/31inventories/30corepins remainexact;213-test baseline reused.
+Newinventory40,505files. All60preflightcrops reviewed before52tasks;allraws read before
+one sourcepass. No crop repairs/recognition retries. One nearwhite topboundaryrow of
+lower166original was whitened byupperPLAYexclusion rounding;selectedimage reviewed
+afterOCR andexacteffect audited. Alltextcrops exact;both originalversions preserved.
+Fifty-three candidate occurrences retain source errors,handwriting andglyph uncertainty.
+Schema,post-OCR comparison andraw-review timing revisions remain recorded.
+Nextbatch33:assemble15-pageMSXarticle,thenrestorePLAY160–165/upper166. Remaining21
+unresolvedidentities,the partialarticle,cover,268-pageaccounting,index/report,independent
+issuerebuild andcloseout pending. Human acceptance/fullproofreading/sourcebytes/claims/
+execution unverified. No reader rebuild. See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries

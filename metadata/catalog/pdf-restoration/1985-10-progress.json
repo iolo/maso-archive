@@ -1328,15 +1328,16 @@
         "Independentcanonical0005 PLAY 정복 opens160printed158,continues161–165,andendsupper166musiclisting/art. Theseareinterleavedotherarticlepages,notMSXbody oradvertisements. Preserve shared166ownership andexplicit159→166continuation whenfinalsegmentmapped.",
         "168printed166opensindependentcanonical0018그래픽화면에 문자를 by차재춘;169continuesitsGRAPHIC PRINT article. NoadditionalMSX구석구석body. Fullbody15pages146–159pluslower166. Map146–151now,defer152–157and158–159/166,thenimmutableassembly.",
         "Sixmappedpages and19distinctoutsidelookups meetlimits. No globalfoliooffset inferred. No crosssegmenttextfragmentjoin at151/152:151finishescompletepatternexamples;152opensnewcontinuingdiscussion.",
-        "Middle six pages152–157 restored as immutable partial native;opening146–151 unchanged. Final158–159/lower166 andcomplete15-pageassembly pending. No crosssegment partialword join151/152 or157/158."
+        "Middle six pages152–157 restored as immutable partial native;opening146–151 unchanged. Final158–159/lower166 andcomplete15-pageassembly pending. No crosssegment partialword join151/152 or157/158.",
+        "Final158–159/lower166 restored as immutable partial native;opening146–157 unchanged. All15bodypages available;completeassemblypending. Printed159→166 continuation retained. Upper166PLAYexplicitlyexcluded."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/msx-corners-b-r01",
+        "directory": "archive/pdf/1985-10/packages/msx-corners-c",
         "article_id": "scan-maso-1985-10-toc-0016",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/msx-corners-b-r01/manifest.json",
-          "sha256": "3dc50bf5880ebd5c91dd80cb0df7b188f5c25d5407ba78b7260b3a599f13ce78",
-          "bytes": 74302
+          "path": "archive/pdf/1985-10/packages/msx-corners-c/manifest.json",
+          "sha256": "ab9bd3814fc37250bb5d8ad4627e66ef3721477c13a03b2f354c80fe0f2a09d3",
+          "bytes": 38284
         },
         "coverage": {
           "pdf_pages": [
@@ -1351,7 +1352,10 @@
             154,
             155,
             156,
-            157
+            157,
+            158,
+            159,
+            166
           ],
           "printed_pages": [
             "144",
@@ -1365,17 +1369,16 @@
             "152",
             "153",
             "154",
-            "155"
+            "155",
+            "156",
+            "157",
+            "164"
           ],
-          "regions": 190,
-          "blocks": 154,
-          "figures": 25,
-          "coverage_scope": "Cumulative coverage oftwo immutable natives;directory/manifest select latest middle segmentonly. Full article assembly pending.",
-          "deferred_pdf_pages": [
-            158,
-            159,
-            166
-          ],
+          "regions": 250,
+          "blocks": 205,
+          "figures": 33,
+          "coverage_scope": "Cumulative coverage ofthree immutable natives;directory/manifest select latest finalsegment only. Completearticleassembly pending.",
+          "deferred_pdf_pages": [],
           "actual_full_pdf_pages": [
             146,
             147,
@@ -1393,19 +1396,19 @@
             159,
             166
           ],
-          "body_pages_complete": false
+          "body_pages_complete": true
         },
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-31/validation.json",
-          "sha256": "68f543a3190d5d2fc60041c12cf96e3fc623a927981fcf0e4efef9e879955f88",
-          "bytes": 3352
+          "path": "archive/pdf/1985-10/restoration/batch-32/validation.json",
+          "sha256": "935a852930f65854abb68eb84635c18592d9909ecb5f650dcfc7b62c1913616b",
+          "bytes": 3015
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-31/reproduction.json",
-          "sha256": "09d6f6f049797d73c22200ee4a95875f638ff1be274b44189b391752c4dfc323",
-          "bytes": 1299
+          "path": "archive/pdf/1985-10/restoration/batch-32/reproduction.json",
+          "sha256": "1d612785b6955f18f10fb7fe25b96e5941236132f56235ae05b0a97deadf384b",
+          "bytes": 1354
         },
         "segments": [
           {
@@ -1459,6 +1462,27 @@
               "155"
             ],
             "availability": "partial"
+          },
+          {
+            "id": "msx-corners-c",
+            "directory": "archive/pdf/1985-10/packages/msx-corners-c",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/msx-corners-c/manifest.json",
+              "sha256": "ab9bd3814fc37250bb5d8ad4627e66ef3721477c13a03b2f354c80fe0f2a09d3",
+              "bytes": 38284
+            },
+            "pdf_pages": [
+              158,
+              159,
+              166
+            ],
+            "printed_pages": [
+              "156",
+              "157",
+              "164"
+            ],
+            "availability": "partial",
+            "mixed_page_exclusion": "Upper166belongsPLAY0005;onlylower166selected."
           }
         ]
       }
@@ -3426,6 +3450,57 @@
         166
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-32",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0016"
+      ],
+      "mapped_pdf_pages": [
+        158,
+        159,
+        166
+      ],
+      "outside_map_lookup_pages": [
+        157,
+        160,
+        165,
+        167
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 52,
+      "eng_code_tasks": 10,
+      "kor_eng_tasks": 42,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-32/validation.json",
+        "sha256": "935a852930f65854abb68eb84635c18592d9909ecb5f650dcfc7b62c1913616b",
+        "bytes": 3015
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-32/verification-completed.json",
+        "sha256": "2e377b318bacd93b029c48dc6eb0220adf89936b354cf8993b5ccd538f5159d6",
+        "bytes": 1553
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-32-preserved-work.json",
+        "sha256": "9d50e0ede65aee0a5f4385fb9d25d2a6633ac3fb85ce0861bce7380967b4c5e4",
+        "bytes": 9215442
+      },
+      "started_at": "2026-10-24T16:48:51.955803+00:00",
+      "finished_at": "2026-10-24T17:08:24.761692+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [],
+      "assembly_required": true,
+      "exclusion_mask_boundary_audit": {
+        "path": "archive/pdf/1985-10/restoration/batch-32/exclusion-mask-boundary-audit.json",
+        "sha256": "0914c8895544162fc8518648ea1da4edf125240fa81ddf3fb6003c27659b5071",
+        "bytes": 1749
+      }
     }
   ],
   "source_page_observations": [
@@ -4808,22 +4883,22 @@
     {
       "pdf_page": 158,
       "printed_page": "156",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0016"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review:MSX구석구석 continues146–159 andlower166."
+      "restoration": "complete-segment",
+      "evidence": "FinalMSX구석구석158–159/lower166 validated;all15bodypagesavailable,assemblypending. Upper166PLAYremainsunrestored."
     },
     {
       "pdf_page": 159,
       "printed_page": "157",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0016"
       ],
-      "restoration": "not-started",
-      "evidence": "Whole-page extent review:MSX구석구석 continues146–159 andlower166.",
+      "restoration": "complete-segment",
+      "evidence": "FinalMSX구석구석158–159/lower166 validated;all15bodypagesavailable,assemblypending. Upper166PLAYremainsunrestored.",
       "outgoing_continuation": "Printed164page에 계속됩니다;FCA9H(CSRSW)entrycontinueslower166."
     },
     {
@@ -4889,16 +4964,25 @@
     {
       "pdf_page": 166,
       "printed_page": "164",
-      "classification": "article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0005",
         "maso-1985-10-toc-0016"
       ],
-      "restoration": "not-started",
-      "evidence": "UpperPLAY정복 finalmusiclisting/art;lowerMSXcontinuation marker157page에서 계속 matches159printed164page에 계속됩니다.",
+      "restoration": "partial-shared-page",
+      "evidence": "FinalMSX구석구석158–159/lower166 validated;all15bodypagesavailable,assemblypending. Upper166PLAYremainsunrestored.",
       "mixed_page": true,
       "ownership_regions": "UpperPLAY정복0005;lowerMSX구석구석0016. Final MSXsegment mustmapupperexclusion.",
-      "incoming_continuation": "From159printed157 tolower166printed164;fourfinalworkentries andhorseillustration."
+      "incoming_continuation": "From159printed157 tolower166printed164;fourfinalworkentries andhorseillustration.",
+      "body_owner_restoration": {
+        "maso-1985-10-toc-0016": "complete-segment",
+        "maso-1985-10-toc-0005": "not-started"
+      },
+      "selected_exclusion_map": {
+        "path": "archive/pdf/1985-10/packages/msx-corners-c/map.json",
+        "sha256": "5ed066d46d700e075685b7f628f838283002c8a16309e2bc59dcae69053cefd7",
+        "bytes": 25167
+      }
     },
     {
       "pdf_page": 167,
@@ -4931,18 +5015,13 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-32",
-    "goal": "Restore final158–159 andlower166 ofcanonical0016 MSX 구석구석 by신동윤.",
+    "id": "batch-33",
+    "goal": "Assemble complete15-page canonical0016 MSX 구석구석 by신동윤 fromthree immutable natives.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0016"
     ],
-    "mapping_targets": "Reuse saved batch30views145–169;map158–159 andlower166 only. Explicitly excludeupper166 PLAY정복 finalmusiclisting/art. Preserve printed159→166 markers andFCA9H(CSRSW) continuation. No partialwordjoin157/158. Thenassemble all15bodypages fromthree immutable natives.",
-    "provisional_lookup_targets": [
-      157,
-      160,
-      165,
-      167
-    ],
+    "mapping_targets": "No newmapping/OCR/sourcecorrection. Preserve msx-corners-a146–151,msx-corners-b152–157 andmsx-corners-c158–159/lower166 withallnative metadata,tableblankcells,handwrittenlayers,sourceerrors/ranges andupper166PLAYexclusion. No externalpartialwordjoins;retain12nativejoins,table13→14continuation and159→166command/proseflow. Independently rebuild/validate completearticle before restoringcanonical0005PLAY정복160–165/upper166.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -4953,7 +5032,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "MSX구석구석0016partial146–157ofactual146–159pluslower166;remainingthreepages andcompleteassemblypending. PLAY정복0005interleaved160–165/upper166 remains separate. Prologue/ABC/numericalanalysis/earlierMSXcompleteunchanged. Remaining21unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
+    "MSX구석구석0016all15bodypages146–159/lower166restored inthreeimmutable natives;completeassemblypending,soavailabilityremainspartial. PLAY정복0005interleaved160–165/upper166 separate andunrestored. Prologue/ABC/numericalanalysis/earlierMSXcompleteunchanged. Remaining21unresolvedidentities,coverselection,268-pageaccounting,standaloneindex/report,independentissuerebuildandcloseoutpending. Noglobalfoliooffsetinferred."
   ],
   "reader_rebuild": false
 }
