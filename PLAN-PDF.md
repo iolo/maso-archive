@@ -30,37 +30,36 @@ QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FOR
 가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
 and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
 
-The MSX feature remains partial, with printed73–90/PDF75–92 restored in three
-immutable packages: `archive/pdf/1985-10/packages/msx-a`, `packages/msx-b`, and
-`packages/msx-c`. Latest batch16 has281 files matching its independent rebuild.
-Its74 regions yield52 blocks and8 original images. Four dump groups retain181 rows
-and1,576 byte fields;boot disassembly retains42 instructions and one command.
-Thirty-one system-call entry groups include the printed reserved1CH~20H,29H group;
-no missing entry numbers are invented. Fourteen source joins remain explicit.
+The MSX feature remains partial,with printed73–96/PDF75–98 restored in four
+immutable packages:`archive/pdf/1985-10/packages/msx-a`, `packages/msx-b`,
+`packages/msx-c`,and `packages/msx-d`. Latest batch17 has305 files matching its
+independent rebuild. Its86 regions yield57 blocks and16 original images. Seven
+code groups retain117 physical rows:58 disassembly instructions,two commands,
+24 BASIC rows,29 dump rows/256 byte fields and four display-header rows.
+Ten more system-call entries,nine editing keys and six control keys remain indexed.
 
-All74 final crops were reviewed before66 tasks (15eng/51kor+eng). Three crops were
-repaired before OCR;both revisions remain. All drafts were read before one source
-pass;zero OCR failures/retries. All7,951 UTF8 ranges,8,169 evidence pins and74 images
-validate. All9,399 prior files,15 inventories and30 core pins remain exact;the fresh
-213-test batch01 baseline is reused. One verifier expected9 symbol spans but omitted
-two single# gutter glyphs;its failed version remains,and fresh verifier validates11.
-Source transcription and packages were unchanged by that repair.
+All86 final crops reviewed before70 tasks (15eng/55kor+eng). Eleven replacement
+crops repair coverage/margins and overlapping boundaries;both revisions remain.
+All drafts read before one source pass;zero OCR failures/retries. All3,583 UTF8
+ranges,3,822 evidence pins and86 images validate. All10,600 prior files,16 inventories
+and30 core pins remain exact;fresh213-test batch01 baseline reused. Initial metadata
+preparer accidentally matched H→시 inside2CH→시간;fresh parser adds a boundary.
+Failed attempt retained;source transcription unchanged.
 
-Printed AUX OUPUT,LST OUPUT,10H reference09H,14H success1/failure0 and17H ED+16
-remain literal. Faint C053 packed bytes and independent directory fields retain
-source notes. Three boot-display dot bands use explicit editorial placeholders;
-original glyph counts remain unknown. Internal diagram/screen labels await volunteers.
-Thirteen entries are readable,one partial and25 unresolved. Cover selection,source-page
-accounting and issue closeout remain. No reader rebuild.
+Printed repeatedC01E,4010,DATAE,PEEK(J)/PEEK(I),BYPE and 일정시킨다 remain literal.
+BASIC has41 DATA fields and10 strings;unaddressed dump fragments retain no invented
+addresses. Nineteen explicit markers preserve12 boxed characters,one uncertain key
+glyph and six unknown dot bands. Diagrams/annotations remain original images with
+labels awaiting volunteers. Full article assembly,remaining25 identities,cover
+selection,page accounting and closeout remain. No reader rebuild.
 
 MSX ends on printed104/PDF106 after inserted advertisement105;107 is another
-advertisement and108 starts 수치해석 (4). Interior94–103 is still uninspected.
-Next is batch17:inspect and restore from printed91/PDF93,mapping at most93–98
-and checking adjacent92/99. Reuse saved92–93;preserve all three natives unchanged.
-Continue23H prose 써/PDF92→넣는다./PDF93. Sector32's earlier A038→A040 boundary
-is transcribed in separate natives and awaits assembly. Exclude advertisements as found.
-Keep the two-task/six-mapped-page/twenty-outside-lookup limits. Full article assembly
-remains pending. Details:[October log](docs/progress/8510.md) and
+advertisement and108 starts 수치해석 (4). Interior100–103 is still uninspected.
+Next is batch18:inspect and restore from printed97/PDF99,mapping at most99–104
+and checking adjacent98/105. Reuse saved98–99;preserve all four natives unchanged.
+Continue98코드→99에 해당되는. Final106 remains a later bounded checkpoint before
+full assembly. Keep two-task/six-mapped-page/twenty-outside-lookup limits.
+Details:[October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23

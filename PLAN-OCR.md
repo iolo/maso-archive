@@ -19,23 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 is active:13 readable/sample-reviewed entries,one partial and25
-  unresolved. MSX printed73–90/PDF75–92 is restored in immutable msx-a/msx-b/msx-c.
-  Latest batch16/msx-c:281 files independently match;74 regions/52 blocks/8 originals,
-  four dumps181 rows/1,576 byte fields,42 disassembly instructions,31 system-call groups,
-  14 joins. All74 final crops reviewed before66 tasks (15eng/51kor+eng);three pre-OCR
-  crop repairs retained. All raws read before one source pass;zero OCR failures/retries.
-  All7,951 UTF8 ranges/8,169 pins/74 images validate;9,399 prior files/15 inventories/
-  30 core pins exact. Fresh213-test baseline reused. Initial verifier's symbol-span
-  count omitted two single# glyphs;failed attempt retained,fresh verifier passes11.
-  No source/package changes. Printed OUPUT,09H,ED+16 and conflicting success values
-  remain literal;three dot-band placeholders retain unknown glyph counts. Diagram
-  labels await volunteers. Full article assembly pending;incoming sector32 boundary
-  and outgoing23H prose remain source-linked. Endpoint106 and advertisement105 known;
-  interior94–103 uninspected. Next batch17:map at most93–98,adjacent92/99;reuse92–93.
-  Preserve all natives. Remaining identities,cover/accounting/closeout remain.
+- October1985 active:13 readable/sample-reviewed entries,one partial,25unresolved.
+  MSX printed73–96/PDF75–98 restored in immutable msx-a/b/c/d. Latest batch17/msx-d:
+  305files independently match;86regions/57blocks/16originals;117code rows including
+  58disassembly instructions,24BASIC rows/41DATA fields/10strings,29dump rows/256bytes.
+  Ten system-call entries,nine editing keys,six control keys and13joins indexed.
+  All86final crops reviewed before70tasks (15eng/55kor+eng);11pre-OCR crop repairs
+  retained. All raws read before one source pass;zeroOCR failures/retries. All3,583
+  UTF8ranges/3,822pins/86images validate;10,600prior files/16inventories/30core pins
+  exact. Fresh213-test baseline reused. Initial metadata parser matchedH→시 inside
+  heading2CH→시간;failed attempt retained,fresh boundary parser passes. No source
+  changes. RepeatedC01E,4010,DATAE and literal spelling retained;unaddressed fragments
+  have no invented addresses. Nineteen markers preserve boxed/key/dot glyph evidence.
+  Diagram labels await volunteers. Full assembly pending;next batch18maps at most
+  PDF99–104,adjacent98/105,reusing98–99 and carryingcontrol-code explanation. Known105
+  advertisement excluded;final106 later. Interior100–103uninspected. Remaining
+  identities,cover/accounting/closeout remain. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  Human acceptance/full proofreading/source bytes remain unverified. No reader rebuild.
+  Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;
