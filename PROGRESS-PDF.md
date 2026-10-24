@@ -6,49 +6,55 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration continues under step 12: **21 readable/sample-reviewed
-entries, one partial article and 17 unresolved**, accounting for all 39 canonical
+October 1985 restoration continues under step 12: **22 readable/sample-reviewed
+entries, zero partial articles and 17 unresolved**, accounting for all39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch 43 restores canonical0019 **뷰티풀 텍스트** by 김덕현, final PDF200–204 /
-printed198–202, at `archive/pdf/1985-10/packages/beautiful-b`. All 79 files match an
-independent rebuild. The ending retains 22 regions, 16 corrected text regions, three
-blocks and six original images. Together with immutable `packages/beautiful-a`, all
-11 body pages194–204 are covered; complete article assembly remains pending.
+Batch44 completes canonical0019 **뷰티풀 텍스트** by 김덕현 at
+`archive/pdf/1985-10/packages/beautiful-complete-r01`, covering PDF194–204 /
+printed192–202. All324 files match an independent rebuild. All315 files from immutable
+`beautiful-a` and `beautiful-b` remain exact. The complete article retains87 regions,
+48 blocks and17 original images:11 full pages andsix separate examples/art panels.
+No body pages or article assembly remain pending.
 
-The ending preserves 465 machine-code rows, 1,007 printed byte fields and 2,775 total
-address/separator/byte/mnemonic/operand fields. The BASIC demo retains 120 numbered
-entries and 151 nonblank physical rows, plus one separately indexed editorial blank.
-Thirteen joins preserve ten machine-code and three BASIC boundaries. Line360's quoted
-text crosses203–204. All199 quote marks,97 quoted strings/98 source fragments andfive
-unmatched quotes remain indexed without syntax repair. Duplicate790, MAID BY, KET,
-SWITCHS, missing separators andthree unknown blank bands remain source-linked.
+The complete guide retains11 usage entries and17 routine explanations. Listing1 has
+705 machine-code rows in17 columns,1,503 printed byte fields and4,190 total fields.
+Three BASIC examples retainfive numbered entries/six physical rows; the demo retains
+120 numbered entries/151 nonblank physical rows plusone editorial blank. The assembled
+index corrects the native demo count152 to151 nonblank rows, retaining the native record.
+The09F0→09F3 join preserves the original newline; all21 native joins remain intact.
 
-All17,323 UTF8 range occurrences,17,387 evidence pins and22 images validate. Six
-malformed cases reject, including repeated STA andduplicate790 at wrong occurrences
-andmissing360's cross-page tail. All52,600 prior files,42 inventories and30 core pins
-remain exact; the unchanged213-test baseline is reused. New inventory: 52,981 files.
+Every native metadata category survives:72 array slices,10 objects,eight reserved
+arrays andfour scalars, including absent/empty categories and original stage notes.
+All25,520 native range occurrences project independently; all56,065 assembled/native
+range occurrences,56,780 evidence pins and87 images validate. Six obsolete stage
+notes are resolved only in active package status. Source-local prior-download ranges
+remain in their original coordinates. Eight malformed fixtures reject, including
+wrong duplicate790 occurrence, missing360 quote tail andcounting a blank as code.
 
-All22 selected crops were inspected before16 OCR tasks (15eng code,one kor+eng caption).
-All raw drafts were read beforeone source correction pass. One pre-OCR crop expansion
-retains the rightmost closing parentheses in the201 right column. Zero OCR retries.
-The failed verifier draft is preserved; its fresh revision checks nonblank code rows
-andthe separately indexed editorial blank correctly. Source transcripts andbuilds
-were unchanged by that repair. Seven whole views199–205:five mapped,two outside.
+Seventy-one candidate occurrences,three unknown blank bands,100 quoted strings,
+199 explicit demo quote marks andfive unmatched quotes remain source-linked. The
+line360 cross-page quote, duplicate790, MAID BY, KET, SWITCHS, CONTROL variants,
+malformed72$, overlapping B14 references andodd punctuation remain literal. Human
+acceptance/full proofreading, source encoded bytes/spacing/glyph counts, historical/
+technical claims andexecution remain unverified. Embedded image labels await volunteers.
 
-PDF205 is an independent software-contest promotion with no visible folio. Its current
-ledger observation is corrected to null; frozen batch42 records remain unchanged.
-Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts, claims
-and execution remain unverified. Embedded image labels await volunteers.
+All52,981 prior files,43 inventories and30 core pins remain exact; the unchanged
+213-test baseline is reused. New preservation inventory: 55,279 files. Six saved whole
+views193,194,199,200,204,205 were rechecked. No new rendering,mapping,OCR orsource
+correction. Initial adapter failed before output on differing native scope-field names;
+the preserved revision supports both forms. Five deliberately altered packages and
+three malformed native fixtures remain private evidence. No reader rebuild.
 
-Next is **batch 44: assemble the complete11-page 뷰티풀 텍스트 article** from the two
-immutable segments. Preserve every native metadata category andsource-local range,
-join the09F0→09F3 listing boundary, andverify a complete independent rebuild. No new
-mapping orOCR is needed. Canonical parent 컴퓨터 그래픽0017 remains pending. Keep
-two-task/six-page/twenty-outside-lookup limits. Remaining17 identities, cover selection,
-268-page accounting, standalone index/report, independent issue rebuild andcloseout
-remain. Retain the batch41Arong,batch36PLAY,batch33MSX corners,batch29Prologue,
-batch24numerical andbatch20MSX private adapters. No reader rebuild.
+Next is **batch45: verify andrestore canonical0027 과월호 디스켓 and0028 소프트웨어
+공모**, at candidate PDF177 andPDF205. These notices are listed in the TOC and are
+separate from adjacent article bodies. PDF205 has no visible folio; preserve null
+independently of canonical TOC203. Verify extent andadjacent pages before mapping.
+Keep two-task/six-page/twenty-outside-lookup limits. Parent0017 컴퓨터 그래픽 and
+0021 독자와 함께 remain pending, along with the other unresolved identities,cover,
+268-page accounting,standalone index/report,independent issue rebuild andcloseout.
+Retain the batch44Beautiful Text,batch41Arong,batch36PLAY,batch33MSX corners,
+batch29Prologue,batch24numerical andbatch20MSX private adapters.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

@@ -19,25 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:21 readable/sample-reviewed,one partial article,17 unresolved.
-  Batch43 restores 뷰티풀 텍스트0019/김덕현 final200–204/198–202 at
-  `packages/beautiful-b`:79 files independently exact,22 regions/16 text/3 blocks/
-  6 original images. With immutable `packages/beautiful-a`,all11 pages194–204 covered;
-  completeassembly pending. Ending465 machine-code rows/1,007byte fields/2,775 fields;
-  BASIC120 numberedentries/151nonblankrows,one indexedblank,13 joins and360 quotedwrap.
-  All199 quote marks/97strings/98fragments/5unmatched quotes retained. Duplicate790,
-  MAID BY,KET,SWITCHS,missing separators and3unknown blankbands remain literal.
-  All17,323 ranges/17,387 pins/22 images validate;6 malformed cases reject. All52,600
-  prior files/42 inventories/30 corepins exact;unchanged213-test baseline reused.
-  Newinventory:52,981 files. All22 crops reviewed before16 tasks:15eng/1kor+eng;
-  allraws read beforeone sourcepass. One pre-OCR crop expansion;zero OCR retries.
-  Failed verifier retained;fresh revision distinguishes nonblankcode rows fromindexed
-  editorialblank. Transcripts andbuilds unchanged. Seven wholeviews199–205:5mapped/2outside.
-  PDF205 promotion hasno visiblefolio;currentledger corrected tonull,historical42 retained.
-  Nextbatch44:separate immutable11-pageassembly,09F0→09F3 join,every nativecategory/range,
-  independent rebuild. Parent0017,17 identities,cover,268-pageaccounting,index/report,
-  independentissue rebuild andcloseout remain. Keep batch41Arong,batch36PLAY,
-  batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters.
+- October1985 active:22 readable/sample-reviewed,zero partial articles,17 unresolved.
+  Batch44 completes 뷰티풀 텍스트0019/김덕현 at `packages/beautiful-complete-r01`:
+  all11 pages194–204/192–202,324 files independently exact,315 immutable native files
+  unchanged,87 regions/48 blocks/17 originals. No bodypages orassembly pending.
+  Complete guide11 usage entries/17 routine explanations;705 machine-code rows/
+  1,503bytefields/4,190fields;3 BASIC examples5numberedentries/6physicalrows;demo120
+  numberedentries/151nonblankrows plusoneblank. Complete index correctsnative152 count
+  whilepreservingnative. One09F0→09F3 join and21 nativejoins retainoriginalboundaries.
+  All72category slices/10objects/8reservedarrays/4scalars preserved;25,520 independently
+  projected ranges;all56,065 range occurrences/56,780 pins/87images validate. Eight
+  malformed fixtures reject. Six stale stage notes resolved onlyinactivepackage.
+  All52,981 prior files/43inventories/30 corepins exact;unchanged213-test baseline reused.
+  Newinventory:55,279 files. Six savedwholeviews;no newrender/mapping/OCR/sourcecorrection.
+  Initialadapter scope-field failure retained;freshrevision supports bothnativeforms.
+  Retain71 candidates,3unknownblank bands,100quotedstrings,199demoquotemarks,5unmatched
+  quotes,360crosspagequote,duplicate790,MAID BY,KET,SWITCHS andsourcepunctuation.
+  Nextbatch45:canonical0027 과월호 디스켓/175 and0028 소프트웨어 공모/203 atcandidate
+  PDF177/205;verify extent/adjacentpages.205 visiblefolio null,canonicalTOC203 unchanged.
+  Parent0017/0021,17 unresolved identities,cover,268-pageaccounting,index/report,
+  independentissue rebuild andcloseout remain. Keep batch44Beautiful Text,batch41Arong,
+  batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters.
   Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified;
   embeddedlabels awaitvolunteers. No readerrebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

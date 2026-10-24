@@ -1716,7 +1716,7 @@
       "parent_id": "maso-1985-10-toc-0017",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0019 뷰티풀 텍스트 by김덕현 opens194/printed192 after 아롱다롱 ends193. All193–206 whole views inspected. Article spans194–204/printed192–202. PDF205 is independent monthly software contest promotion;206 opens 정보레이다.",
@@ -1733,15 +1733,20 @@
         "Finalfive pages only;full11-pageassembly required aftercurrentandpriornative validation.",
         "Eleven machine-code columns,four BASICcolumns andone listingcaption mapped separately.",
         "Full originals retainall code typography andfolios;203uncaptioned art alsoseparate.",
-        "RepeatedF/5 glyph bands,quotedblank width,typesetoperators andspelling require literal source review;no semanticrepair."
+        "RepeatedF/5 glyph bands,quotedblank width,typesetoperators andspelling require literal source review;no semanticrepair.",
+        "Two immutable natives retain315 files,87regions,49nativeblocks and17figures:11fulloriginals plus6examples/art. Fullbody194–204/printed192–202. Canonical0019 뷰티풀 텍스트/김덕현 andparent0017 unchanged;sourcebyline 김 덕 현 retained.",
+        "Six savedwholeviews193,194,199,200,204,205 rechecked.193 ends아롱다롱;194 title/deck/byline opens뷰티풀 텍스트.199 final09F0 JMP $0C34 followed200 first09F3 LDX $25. Concatenate codeblocks withoutaddedseparator becauseopening endsLF.204 ends1180 RETURN.205 independentsoftwarecontest promotion hasnovisiblefolio;retainnull.",
+        "All native arrays,objects,scalars,empty/absent categories,fullmetadata andsource-localranges retained through reversibleprojection.21nativejoins plusoneexternaljoin. No newmapping,render,OCR orsourcecorrection.",
+        "Complete listing1 retains705machine-code rows/1503bytefields/4190fields across17panels. Three BASIC examples retain5numberedentries/6physicalrows;demo retains120numberedentries/151nonblankrows plusoneblank. Native basic-demo nonblank_rows152 includesblank;complete index corrects count to151 andseparately recordsblank1 withoutchanging native evidence.",
+        "Preserve11usageentries,17routineexplanations,71candidateoccurrences,3unknownblankbands,100quotedstrings includingcrosspage360 fragments,199explicitdemoquotemarks and5unmatchedquotes. Duplicate790,MAID BY,KET,SWITCHS,CONTROLvariants,72$,B14 overlap andoddsourcepunctuation remainliteral. No opcode,syntax,byte,spacing,glyphcount orexecution inference."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/beautiful-b",
+        "directory": "archive/pdf/1985-10/packages/beautiful-complete-r01",
         "article_id": "scan-maso-1985-10-toc-0019",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/beautiful-b/manifest.json",
-          "sha256": "7c0985e9391bb725c096835033a06873e678404af691d99e8080191b92efb250",
-          "bytes": 13252
+          "path": "archive/pdf/1985-10/packages/beautiful-complete-r01/manifest.json",
+          "sha256": "acde8f594bbb8a76bd5a18ae63c41ab766165d5b4ef234c7604c4771bf0952d3",
+          "bytes": 57640
         },
         "coverage": {
           "pdf_pages": [
@@ -1771,11 +1776,10 @@
             "202"
           ],
           "regions": 87,
-          "blocks": 49,
+          "blocks": 48,
           "figures": 17,
-          "coverage_scope": "Cumulative11-page coverage of2 immutable native segments;11 full originals and6 separately cropped examples/art. Directory/manifest selectlatest endingsegment only;completearticle assembly pending.",
-          "deferred_pdf_pages": [],
-          "full_extent_candidate_pdf_pages": [
+          "coverage_scope": "Complete11-page article assembled from2 immutable natives;87regions,48blocks,11fulloriginals and6examples/art;no bodypages orassembly pending.",
+          "actual_full_pdf_pages": [
             194,
             195,
             196,
@@ -1788,20 +1792,23 @@
             203,
             204
           ],
+          "deferred_pdf_pages": [],
           "uninspected_interior_pdf_pages": [],
-          "body_pages_complete": true
+          "known_interleaved_advertisement_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "All11 bodypages194–204 restored andassembled.193 ends아롱다롱;194 source title/byline;204 final1180RETURN;205 independent softwarecontest promotion withno visible folio. Printed192–202 observed perpage."
         },
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-43/validation.json",
-          "sha256": "b948a0b39c26a50ea2a12ee9c338e290d978f4fe416f37479ac3eac71506d2a6",
-          "bytes": 2584
+          "path": "archive/pdf/1985-10/restoration/batch-44/validation.json",
+          "sha256": "3126ac6868f2d71194a321deca0d4ef83359dcd164d295372d2b1ad06eae5e91",
+          "bytes": 2948
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-43/reproduction.json",
-          "sha256": "088eaea2f06f33a8982cd3ab769eaed52acb90aeacddf8f5af76ae6b6c2e9a79",
-          "bytes": 1276
+          "path": "archive/pdf/1985-10/restoration/batch-44/reproduction.json",
+          "sha256": "3299ff17c42fef2485a69daf7cdd5fba2ba3f4dcf41543151df263c8bfcf06dd",
+          "bytes": 2305
         },
         "segments": [
           {
@@ -1874,7 +1881,18 @@
               "bytes": 1276
             }
           }
-        ]
+        ],
+        "assembly_format": "beautiful-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-10/restoration/batch-44/beautiful_literal_r01.py",
+          "sha256": "84f084e6c97902cdb05e07131f27b2844d60bcc6717ce980eef8c5b0bf9daa08",
+          "bytes": 19409
+        },
+        "preservation_validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-44/preservation-validation.json",
+          "sha256": "41bc0f11c1ecdde3306d9d1adf2350b3e0c37cacc9dd9bef7b06cf5117b728bf",
+          "bytes": 487
+        }
       }
     },
     {
@@ -2525,8 +2543,8 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 21,
-    "partial": 1,
+    "readable": 22,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 17
   },
@@ -4638,6 +4656,50 @@
       "deferred_pdf_pages": [],
       "body_pages_complete": true,
       "assembly_required": true
+    },
+    {
+      "id": "batch-44",
+      "status": "complete",
+      "stage": "validated-complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0019"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        193,
+        194,
+        199,
+        200,
+        204,
+        205
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-44/validation.json",
+        "sha256": "3126ac6868f2d71194a321deca0d4ef83359dcd164d295372d2b1ad06eae5e91",
+        "bytes": 2948
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-44/verification-completed.json",
+        "sha256": "b37dd428c2c28d33b13fe185ff95cac361040c47cabc259acaeb43363dbe85fb",
+        "bytes": 1540
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-44-preserved-work.json",
+        "sha256": "6a08e3e5b3311f4d2dfc6788e386a137bd8e65366c89802a5b40bb2620b2e06d",
+        "bytes": 12714857
+      },
+      "started_at": "2026-10-24T20:11:04.821817+00:00",
+      "finished_at": "2026-10-24T20:15:52.075370+00:00",
+      "timing_scope": "Prospective wallclock includeswaits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -6562,14 +6624,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "Verified continuous 뷰티풀 텍스트194–204. Opening194–199 restored;machine-code listingcontinues200–203 thenBASICdemo203–204 ends1180 RETURN. Remaining200–204 andassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
         "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
         "bytes": 9413
       },
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-a"
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01"
     },
     {
       "pdf_page": 195,
@@ -6578,14 +6640,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "Verified continuous 뷰티풀 텍스트194–204. Opening194–199 restored;machine-code listingcontinues200–203 thenBASICdemo203–204 ends1180 RETURN. Remaining200–204 andassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
         "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
         "bytes": 9413
       },
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-a"
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01"
     },
     {
       "pdf_page": 196,
@@ -6594,14 +6656,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "Verified continuous 뷰티풀 텍스트194–204. Opening194–199 restored;machine-code listingcontinues200–203 thenBASICdemo203–204 ends1180 RETURN. Remaining200–204 andassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
         "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
         "bytes": 9413
       },
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-a"
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01"
     },
     {
       "pdf_page": 197,
@@ -6610,14 +6672,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "Verified continuous 뷰티풀 텍스트194–204. Opening194–199 restored;machine-code listingcontinues200–203 thenBASICdemo203–204 ends1180 RETURN. Remaining200–204 andassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
         "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
         "bytes": 9413
       },
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-a"
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01"
     },
     {
       "pdf_page": 198,
@@ -6626,14 +6688,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "Verified continuous 뷰티풀 텍스트194–204. Opening194–199 restored;machine-code listingcontinues200–203 thenBASICdemo203–204 ends1180 RETURN. Remaining200–204 andassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
         "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
         "bytes": 9413
       },
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-a"
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01"
     },
     {
       "pdf_page": 199,
@@ -6642,14 +6704,14 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
+      "restoration": "complete-assembled-article",
       "evidence": "Verified continuous 뷰티풀 텍스트194–204. Opening194–199 restored;machine-code listingcontinues200–203 thenBASICdemo203–204 ends1180 RETURN. Remaining200–204 andassembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-42/source-reviewed-r01.json",
         "sha256": "91c20b3c40b87203e99b343b8c85a9b6350e00d37875e916e9c59046badfbdba",
         "bytes": 9413
       },
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-a"
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01"
     },
     {
       "pdf_page": 200,
@@ -6658,8 +6720,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01",
       "evidence": "Source-corrected final 뷰티풀 텍스트200–204:465 machine-code rows and120 BASIC numbered entries/151 nonblank physicalrows;360 quoted wrap across203–204 andending art. Allbodypages194–204 covered;complete immutable assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-43/source-reviewed.json",
@@ -6674,8 +6736,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01",
       "evidence": "Source-corrected final 뷰티풀 텍스트200–204:465 machine-code rows and120 BASIC numbered entries/151 nonblank physicalrows;360 quoted wrap across203–204 andending art. Allbodypages194–204 covered;complete immutable assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-43/source-reviewed.json",
@@ -6690,8 +6752,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01",
       "evidence": "Source-corrected final 뷰티풀 텍스트200–204:465 machine-code rows and120 BASIC numbered entries/151 nonblank physicalrows;360 quoted wrap across203–204 andending art. Allbodypages194–204 covered;complete immutable assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-43/source-reviewed.json",
@@ -6706,8 +6768,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01",
       "evidence": "Source-corrected final 뷰티풀 텍스트200–204:465 machine-code rows and120 BASIC numbered entries/151 nonblank physicalrows;360 quoted wrap across203–204 andending art. Allbodypages194–204 covered;complete immutable assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-43/source-reviewed.json",
@@ -6722,8 +6784,8 @@
       "toc_entry_ids": [
         "maso-1985-10-toc-0019"
       ],
-      "restoration": "partial-article-segment",
-      "selected_package": "archive/pdf/1985-10/packages/beautiful-b",
+      "restoration": "complete-assembled-article",
+      "selected_package": "archive/pdf/1985-10/packages/beautiful-complete-r01",
       "evidence": "Source-corrected final 뷰티풀 텍스트200–204:465 machine-code rows and120 BASIC numbered entries/151 nonblank physicalrows;360 quoted wrap across203–204 andending art. Allbodypages194–204 covered;complete immutable assembly pending.",
       "source_review": {
         "path": "archive/pdf/1985-10/restoration/batch-43/source-reviewed.json",
@@ -6760,13 +6822,21 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-44",
-    "goal": "Assemble complete 뷰티풀 텍스트 PDF194–204/printed192–202 fromtwo exact immutable native segments.",
+    "id": "batch-45",
+    "goal": "Verify andrestore two TOC-listed notices:0027 과월호 디스켓/175 and0028 소프트웨어 공모/203.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0019"
+      "maso-1985-10-toc-0027",
+      "maso-1985-10-toc-0028"
     ],
-    "mapping_targets": "No newmapping/OCR. Preserve all native correction metadata,indexes,source candidates,unknownblank markers,quote occurrences andoriginals. Resolve A→B machine-code09F0→09F3 join without address oropcode inference;retain all nativeinternal joins andBASIC360 physicalwrap. Reproject everycombined UTF8range andretain prior-download source-localranges. Complete independent assembly rebuild andcanonical/coverage verification. Parent0017 remains pending.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Verify actualextent andadjacentpages fromsource;candidatePDF177 diskpromotion andPDF205 monthlysoftwarecontest notice. Both arecanonical TOCentries despitebeing outside precedingarticle bodies. Restore bothif confirmed;retainPDF205 null visiblefolio andcanonicalTOC203 independently. Preserve everycompletedarticle/privateadapter. Parent0017 and0021 classification remain separate.",
+    "provisional_lookup_targets": [
+      176,
+      177,
+      178,
+      204,
+      205,
+      206
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -6777,7 +6847,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "뷰티풀 텍스트0019 hasall11 bodypages194–204 in2 immutable natives;completeassembly pending. Finalsegment retains465 machine-code rows/1007bytefields/2775fields,120 BASICnumberedentries/151nonblankphysicalrows,13 joins,199quote marks/97strings/98fragments/5 unmatchedquotes and3 unknownblankwidths. Duplicate790,MAID BY,KET andprinted errors retained. PDF205 hasno visiblefolio andcurrent observation isnull;historical42 unchanged.21readable,1partial,17unresolved. Parent0017,cover,268-pageaccounting,index/report,independentissue rebuild andcloseout pending. Keep batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified."
+    "뷰티풀 텍스트0019 complete11-page assembly194–204;no partialarticles orpendingarticleassemblies.22 readable/sample-reviewed and17 unresolved identities. Nextverifycanonical0027 과월호 디스켓/175 atPDF177 and0028 소프트웨어 공모/203 atPDF205;205 visiblefolio null. Parent0017/0021 classifications pending. Cover,268-page accounting,standaloneindex/report,independent issue rebuild andcloseout pending. Retain batch44 beautiful_literal_r01,batch41 arong_literal,batch36 PLAY,batch33 MSXcorners,batch29 Prologue,batch24 numerical,batch20 MSX privateadapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified;embeddedlabels awaitvolunteers. No readerrebuild."
   ],
   "reader_rebuild": false
 }
