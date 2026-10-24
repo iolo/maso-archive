@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-23. Read this before future PDF restoration. This is the current
+Updated 2026-10-24. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -19,6 +19,15 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+- October 1985 is active: canonical0022 편집자 노트 is complete on printed26/PDF28.
+  One of39 entries is readable/sample-reviewed;38 await restoration/classification.
+  Its54-file package independently matches, retaining24 statistical rows/48 cells,
+  both column continuations and two original images. Fresh213 PDF tests pass;
+  March's80,532 preserved files and30 core pins remain unchanged. Next batch02:
+  verify canonical0023 애독자 광장 from printed27/PDF29, including its ending
+  and adjacent page; reuse saved PDF28/29 views. Cover/accounting/closeout remain.
+  [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+  No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;
@@ -37,8 +46,8 @@ paired OCR or a new engine comparison.
   `archive/pdf/1985-03/restoration/issue-closeout/reproduction.json`.
   Human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/
   execution/backup recovery remain unverified;news/classified body/custom labels
-  await volunteers. No reader rebuild. No March checkpoint remains;future October1985
-  work is separate and not started. See [March log](docs/progress/8503.md) and
+  await volunteers. No reader rebuild. No March checkpoint remains;October1985
+  work is separate and has now started as recorded above. See [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

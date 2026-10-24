@@ -1,10 +1,17 @@
 # PDF restoration progress
 
-Updated 2026-10-23. This file is the status index; detailed records live under
+Updated 2026-10-24. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
+
+October 1985 restoration has started. One of39 canonical entries is readable
+and assistant sample-reviewed: 편집자 노트, printed26/PDF28. Its54-file package
+matches an independent rebuild; fresh213 PDF tests pass. The remaining38 entries,
+cover selection, source-page accounting and issue closeout remain. Next is
+애독자 광장 from printed27/PDF29. See [October log](docs/progress/8510.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
 are accounted for by 39 readable, assistant sample-reviewed articles and nine

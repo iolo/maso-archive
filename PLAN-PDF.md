@@ -22,6 +22,21 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## October 1985 started, 2026-10-24
+
+October restoration is active under step12. Canonical0022, 편집자 노트,
+is complete on printed26/PDF28: one readable, assistant sample-reviewed article;
+38 of 39 entries still await restoration or classification. Its 54-file package
+matches an independent rebuild; 24 statistical rows/48 cells and both column
+continuations retain source evidence. Fresh213 PDF tests pass. All80,532 files
+in March's final preservation inventory remain unchanged. No reader rebuild.
+
+Next is batch02: verify 애독자 광장, canonical0023, from printed27/PDF29,
+including its ending and adjacent page. Reuse saved PDF28/29 views and retain
+the two-task/six-mapped-page/twenty-outside-lookup limits. Details and remaining
+issue work: [October log](docs/progress/8510.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+
 ## March 1985 closeout, 2026-10-23
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries

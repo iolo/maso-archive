@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1985-10",
+  "status": "in-progress",
+  "updated": "2026-10-24",
+  "source": {
+    "path": "maso-pdf/maso-8510.pdf",
+    "sha256": "71f5f8519efae702b5c7ae6ca32308e148e0530b51db584c7331c1ea2a1e75f9",
+    "bytes": 99283705
+  },
+  "canonical_toc": {
+    "path": "TOC.md",
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+    "bytes": 252444
+  },
+  "canonical_queue": {
+    "path": "archive/pdf/1985-10/restoration/canonical-queue.json",
+    "sha256": "0d6f9c5704b5e25962b4fbc1f813d671ddd4e8bdc150df85b54d16f6ab94c99d",
+    "bytes": 49199
+  },
+  "source_pdf_pages": 268,
+  "entries": [
+    {
+      "toc_entry_id": "maso-1985-10-toc-0001",
+      "title": "특집 : MSX의 모든 것",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0002",
+      "title": "공모 최우수상 : 모킹보드를 이용한 & 뮤직",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0003",
+      "title": "수치해석 (4)",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0004",
+      "title": "컴퓨터활용 ABC",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0005",
+      "title": "PLAY 정복",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0006",
+      "title": "TIPS",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0007",
+      "title": "FORMAT II",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0008",
+      "title": "DEF",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0009",
+      "title": "가로세로 체크썸",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0010",
+      "title": "자동메뉴 II",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0011",
+      "title": "자동메뉴 II",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0012",
+      "title": "함수그래프 II",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0013",
+      "title": "테이프용 MLE",
+      "parent_id": "maso-1985-10-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0014",
+      "title": "고급언어 : 프롤로그",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0015",
+      "title": "퍼스컴 입문 : 베이직을 꼭 배워야 합니까?",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0016",
+      "title": "MSX 구석구석",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0017",
+      "title": "컴퓨터 그래픽",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0018",
+      "title": "그래픽화면에 문자를",
+      "parent_id": "maso-1985-10-toc-0017",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0019",
+      "title": "뷰티풀 텍스트",
+      "parent_id": "maso-1985-10-toc-0017",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0020",
+      "title": "아롱다롱",
+      "parent_id": "maso-1985-10-toc-0017",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0021",
+      "title": "독자와 함께",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0022",
+      "title": "편집자 노트",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF1 cover visibly dated 85.10; PDF27 issue-title page explicitly 1985년10월호 VOL.24 with printed25.",
+        "PDF28 visibly numbered26 contains complete editor note, source headline 컴퓨터 어디에 쓰나? No printed byline.",
+        "Following PDF29/printed27 starts separate 애독자광장. Previous PDF27 is issue-title page; PDF26 is independent3M advertisement.",
+        "Brand statistics continue left bottom 매킨토시11% to middle top 리자3% and 애플III1%; middle prose final 우 continues right-column 리도. Final right paragraph ends 부탁드립니다. before two-computer ornament."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-01-r01/editorial",
+        "article_id": "scan-maso-1985-10-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-01-r01/editorial/manifest.json",
+          "sha256": "d57869f854f2ac5791f3fef54d100216b85346c3d57a5a8e976698a0179df145",
+          "bytes": 8821
+        },
+        "coverage": {
+          "pdf_pages": [
+            28
+          ],
+          "printed_pages": [
+            "26"
+          ],
+          "regions": 13,
+          "blocks": 9,
+          "figures": 2,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-01/validation.json",
+          "sha256": "66bac45fe5ad0a9b7770855bb8d399765fb24166972519494ae31d8b6bad7408",
+          "bytes": 1033
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-01/reproduction.json",
+          "sha256": "52c6f1e63d1b5cbe4e32692601f593c65a218c2b93088583bac1b7bde20af468",
+          "bytes": 1233
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0023",
+      "title": "애독자 광장",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0024",
+      "title": "입력이 힘드십니까?",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0025",
+      "title": "QA",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0026",
+      "title": "디버깅 룸",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0027",
+      "title": "과월호 디스켓",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0028",
+      "title": "소프트웨어 공모",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0029",
+      "title": "정보 레이다",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0030",
+      "title": "원고모집",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0031",
+      "title": "공모총평",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0032",
+      "title": "복덕방",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0033",
+      "title": "편집후기",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0034",
+      "title": "광고색인",
+      "parent_id": "maso-1985-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0035",
+      "title": "게임 : 오델로 묘수풀이",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0036",
+      "title": "비즈니스",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0037",
+      "title": "한글소트",
+      "parent_id": "maso-1985-10-toc-0036",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0038",
+      "title": "매직윈도우",
+      "parent_id": "maso-1985-10-toc-0036",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1985-10-toc-0039",
+      "title": "소프트웨어 리뷰 dBASE II",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    }
+  ],
+  "totals": {
+    "canonical_entries": 39,
+    "readable": 1,
+    "partial": 0,
+    "non_owning_headings": 0,
+    "unresolved_eligibility": 38
+  },
+  "checkpoints": [
+    {
+      "id": "batch-01",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0022"
+      ],
+      "mapped_pdf_pages": [
+        28
+      ],
+      "outside_map_lookup_pages": [
+        1,
+        26,
+        27,
+        29
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 11,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-01/validation.json",
+        "sha256": "66bac45fe5ad0a9b7770855bb8d399765fb24166972519494ae31d8b6bad7408",
+        "bytes": 1033
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-01/verification-completed.json",
+        "sha256": "bf593c0979543d7f93389a1311db6253759583a748e79b428eed21410d72b5d6",
+        "bytes": 875
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-01-preserved-work.json",
+        "sha256": "f25e4e913d1b0bb215d8d57fffe5ceda60e63175fa312a1a46cf526ed4bc91c6",
+        "bytes": 50061
+      },
+      "started_at": "2026-10-24T02:37:57.401014+00:00",
+      "finished_at": "2026-10-24T02:43:57.853746+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include tool waits and gaps; active human review time unmeasured."
+    }
+  ],
+  "source_page_observations": [
+    {
+      "pdf_page": 1,
+      "classification": "cover",
+      "evidence": "85.10 visible; donated-cover selection remains pending"
+    },
+    {
+      "pdf_page": 26,
+      "classification": "advertisement",
+      "evidence": "3M independent full-page diskette advertisement"
+    },
+    {
+      "pdf_page": 27,
+      "classification": "issue-title-page",
+      "printed_page": "25",
+      "evidence": "1985년10월호 VOL.24 explicitly visible"
+    },
+    {
+      "pdf_page": 28,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0022"
+      ],
+      "printed_page": "26"
+    },
+    {
+      "pdf_page": 29,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0023"
+      ],
+      "printed_page": "27",
+      "restoration": "pending"
+    }
+  ],
+  "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
+  "next_checkpoint": {
+    "id": "batch-02",
+    "goal": "Verify 애독자 광장 extent from printed27/PDF29 and restore complete bounded article or first segment.",
+    "toc_entry_ids": [
+      "maso-1985-10-toc-0023"
+    ],
+    "mapping_targets": "Starts PDF29/printed27; end and intervening pages unverified.",
+    "provisional_lookup_targets": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "limits": {
+      "articles": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 20
+    }
+  },
+  "known_limits": [
+    "Assistant sample review is not human acceptance or full proofreading.",
+    "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
+    "Localized source candidates and Unicode/space approximations retain original scans.",
+    "Remaining38 identities and remaining source-page accounting require inspection; no global page offset inferred."
+  ],
+  "reader_rebuild": false
+}
