@@ -24,15 +24,17 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Canonical0022, 편집자 노트,
-is complete on printed26/PDF28: one readable, assistant sample-reviewed article;
-38 of 39 entries still await restoration or classification. Its 54-file package
-matches an independent rebuild; 24 statistical rows/48 cells and both column
-continuations retain source evidence. Fresh213 PDF tests pass. All80,532 files
-in March's final preservation inventory remain unchanged. No reader rebuild.
+October restoration is active under step12. Canonical0022 편집자 노트 and0023
+애독자 광장 are complete across printed26–28/PDF28–30: two readable, assistant
+sample-reviewed articles;37 of39 entries await restoration or classification.
+Their54/116-file packages independently match. The editor's24 statistical rows/
+48 cells and reader letters'five letters/one reply/nine code rows/seven joins
+retain source evidence. Fresh213 PDF tests passed at batch01; unchanged baseline
+reused at batch02. All80,532 March files and231 earlier October files remain exact.
+No reader rebuild;cover selection,source-page accounting and issue closeout remain.
 
-Next is batch02: verify 애독자 광장, canonical0023, from printed27/PDF29,
-including its ending and adjacent page. Reuse saved PDF28/29 views and retain
+Next is batch03: verify 입력이 힘드십니까?, canonical0024, from printed29/PDF31,
+including its ending and adjacent page. Reuse saved PDF30/31 views and retain
 the two-task/six-mapped-page/twenty-outside-lookup limits. Details and remaining
 issue work: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

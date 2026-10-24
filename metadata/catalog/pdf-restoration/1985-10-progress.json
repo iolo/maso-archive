@@ -302,12 +302,50 @@
       "toc_entry_id": "maso-1985-10-toc-0023",
       "title": "애독자 광장",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF29/printed27 begins 애독자광장 after separate editorialPDF28/printed26. PDF30/printed28 continues letters and ends address-book letter plus uncaptioned cartoon. PDF31/printed29 begins separate 입력이 힘드십니까? All intervening pages inspected.",
+        "Five independent reader headings:매직 윈도우의 사용법도;역시 마이크로소프트웨어는 달라;더 정확한 기사를;초보자를 중시해야;주소록 관리 패키지는 많이 다듬어. One editorial reply follows letter3.",
+        "Letter1 left→middle continues 다른/포매팅;letter2 left→middle continues 구조를/자세히 and middle→right 있/다.;letter3 crosses27→28 after1040행 and left→middle 되겠/읍니까?;reply left→middle74/06;letter5 left→middle 그림4에서/O·K?(Y/N).",
+        "Nine physical unnumbered assembly rows are a reader-proposed correction,not verified executable code. Source A8H literal remains as printed. No circuit/opcode/program repair authorized."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-02-r01/reader-letters",
+        "article_id": "scan-maso-1985-10-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-02-r01/reader-letters/manifest.json",
+          "sha256": "3aa497887c845d180a97f11af331f553e67b184a2e243ba0563d278339daf657",
+          "bytes": 18761
+        },
+        "coverage": {
+          "pdf_pages": [
+            29,
+            30
+          ],
+          "printed_pages": [
+            "27",
+            "28"
+          ],
+          "regions": 29,
+          "blocks": 19,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-02/validation.json",
+          "sha256": "b93dcdbe37bd148505a4c73ecafdd5729c24a43a0268b3484fa3fc38e0286f78",
+          "bytes": 1291
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-02/reproduction.json",
+          "sha256": "2573252c7c80b5ece317bd4a2af779b89a8556749b4668527c6391874a7d965b",
+          "bytes": 1219
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0024",
@@ -488,10 +526,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 1,
+    "readable": 2,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 38
+    "unresolved_eligibility": 37
   },
   "checkpoints": [
     {
@@ -530,6 +568,44 @@
       "started_at": "2026-10-24T02:37:57.401014+00:00",
       "finished_at": "2026-10-24T02:43:57.853746+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-02",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0023"
+      ],
+      "mapped_pdf_pages": [
+        29,
+        30
+      ],
+      "outside_map_lookup_pages": [
+        28,
+        31
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 26,
+      "eng_code_tasks": 1,
+      "kor_eng_tasks": 25,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-02/validation.json",
+        "sha256": "b93dcdbe37bd148505a4c73ecafdd5729c24a43a0268b3484fa3fc38e0286f78",
+        "bytes": 1291
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-02/verification-completed.json",
+        "sha256": "2a9902354f5731775c10908805db3b77843c3c45be918bb1ede595a06f563777",
+        "bytes": 819
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-02-preserved-work.json",
+        "sha256": "674fdf57fe889dd3452fd3922ebf17ba1742bdf399f00aab7a0987af3fa89979",
+        "bytes": 159233
+      },
+      "started_at": "2026-10-24T02:45:06.613363+00:00",
+      "finished_at": "2026-10-24T02:51:53.970111+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -559,27 +635,46 @@
     },
     {
       "pdf_page": 29,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0023"
       ],
       "printed_page": "27",
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": "28",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0023"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": "29",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0024"
+      ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-02",
-    "goal": "Verify 애독자 광장 extent from printed27/PDF29 and restore complete bounded article or first segment.",
+    "id": "batch-03",
+    "goal": "Verify 입력이 힘드십니까? extent from printed29/PDF31 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0023"
+      "maso-1985-10-toc-0024"
     ],
-    "mapping_targets": "Starts PDF29/printed27; end and intervening pages unverified.",
+    "mapping_targets": "Starts PDF31/printed29;actual end and intervening pages unverified.",
     "provisional_lookup_targets": [
-      28,
-      29,
       30,
-      31
+      31,
+      32,
+      33,
+      34
     ],
     "limits": {
       "articles": 2,
@@ -591,7 +686,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining38 identities and remaining source-page accounting require inspection; no global page offset inferred."
+    "Remaining37 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

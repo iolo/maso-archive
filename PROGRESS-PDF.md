@@ -6,11 +6,12 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration has started. One of39 canonical entries is readable
-and assistant sample-reviewed: 편집자 노트, printed26/PDF28. Its54-file package
-matches an independent rebuild; fresh213 PDF tests pass. The remaining38 entries,
+October 1985 restoration is in progress. Two of39 canonical entries are readable
+and assistant sample-reviewed: 편집자 노트 and 애독자 광장, printed26–28/PDF28–30.
+Their54/116-file packages independently match; fresh213 PDF tests passed at batch01,
+with the unchanged baseline reused at batch02. The remaining37 entries,
 cover selection, source-page accounting and issue closeout remain. Next is
-애독자 광장 from printed27/PDF29. See [October log](docs/progress/8510.md) and
+입력이 힘드십니까? from printed29/PDF31. See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
