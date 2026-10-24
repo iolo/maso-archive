@@ -24,18 +24,20 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Five of39 canonical entries are now
+October restoration is active under step12. Six of39 canonical entries are now
 readable and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,
-QA and 디버깅 룸. Their54/116/140/171/70-file packages independently match.
-Debugging room covers printed36–37/PDF38–39,retaining four correction notices,
-one BASIC line,two dump groups/66rows/519byte pairs and five original images.
-LowerPDF39 book advertisement is excluded;printed irregularities remain literal.
-Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch05.
-All2,054 earlier October files and30 core implementation pins remain exact.
-No reader rebuild;34 entries,cover selection,source-page accounting and closeout remain.
+QA,디버깅 룸 and 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?. Their
+54/116/140/171/70/155-file packages independently match. The introduction covers
+printed38–43/PDF40–45,retaining21 blocks/369 physical rows,11 original images,
+12 prose joins,one title-spread join,three sections and two empty questionnaire boxes.
+All34 OCR drafts read before one source correction pass;no OCR retries/crop repairs.
+Two metadata/verifier failures remain preserved;source readings/packages unchanged.
+Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch06.
+All2,348 earlier October files and30 core implementation pins remain exact.
+No reader rebuild;33 entries,cover selection,source-page accounting and closeout remain.
 
-Next is batch06: verify canonical0015,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,
-from printed38/PDF40,including its ending and adjacent page. Reuse saved PDF39–42
+Next is batch07: verify canonical0007,FORMAT II,
+from printed44/PDF46,including its ending and adjacent page. Reuse saved PDF45–46
 views and retain the two-task/six-mapped-page/twenty-outside-lookup limits.
 Canonical title and order stay unchanged. Details and remaining issue work:
 [October log](docs/progress/8510.md) and

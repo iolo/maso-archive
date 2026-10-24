@@ -6,12 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress. Five of39 canonical entries are readable
-and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,QA and 디버깅 룸.
-Their54/116/140/171/70-file packages independently match;fresh213 PDF tests passed
-at batch01,with the unchanged baseline reused through batch05. The remaining34
+October 1985 restoration is in progress. Six of39 canonical entries are readable
+and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,QA,디버깅 룸
+and 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?. Their54/116/140/171/70/155-file
+packages independently match;fresh213 PDF tests passed
+at batch01,with the unchanged baseline reused through batch06. The remaining33
 entries,cover selection,source-page accounting and issue closeout remain. Next is
-퍼스컴 입문 : 베이직을 꼭 배워야 합니까? from printed38/PDF40.
+FORMAT II from printed44/PDF46.
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
 

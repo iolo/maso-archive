@@ -178,12 +178,59 @@
       "toc_entry_id": "maso-1985-10-toc-0015",
       "title": "퍼스컴 입문 : 베이직을 꼭 배워야 합니까?",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0015 opens with photographic title spread printed38–39/PDF40–41 after debugging finalPDF39;body printed40–43/PDF42–45 ends with 현실로 돌아갈 차례이다. FollowingPDF46/printed44 opens independent FORMAT II.",
+        "Six complete mapped pages and two outside-map lookups;all intervening source pages inspected. Canonical title/order unchanged;source title 꼭 베이직을 배워야 합니까? kept separately. No source byline present.",
+        "Three-column introductory prose leads to sections 모든 작업에는 보충설명을,큰 작업은 쪼개라,철저한 사전 계획. Column/page joins preserve physical transcripts and exact separators.",
+        "Separate pullquote and questionnaire remain associated with source page images;checkboxes are printed blank symbols,not recorded responses.",
+        "Five original illustrations/photos plus six original pages retained. Picture-internal logos/labels remain pixels pending volunteers;questionnaire words transcribed separately."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-06-r01/basic-intro",
+        "article_id": "scan-maso-1985-10-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-06-r01/basic-intro/manifest.json",
+          "sha256": "e8b0652d1c3a3ff65c2460d0086aec4c2ee4afcc5d97710b6cee2b85829ac88f",
+          "bytes": 25483
+        },
+        "coverage": {
+          "pdf_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "printed_pages": [
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "regions": 45,
+          "blocks": 21,
+          "figures": 11,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-06/validation.json",
+          "sha256": "8bf04df056a30386f2c36b9aa67ba6437eaf2fbd35dfa4a29999b803128a14e6",
+          "bytes": 1405
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-06/reproduction.json",
+          "sha256": "d610ac4ce7595dc9f9e518cfcbf865606551eb0c0092fdd5303e1247ca9b813b",
+          "bytes": 1204
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0016",
@@ -646,10 +693,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 5,
+    "readable": 6,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 34
+    "unresolved_eligibility": 33
   },
   "checkpoints": [
     {
@@ -845,6 +892,48 @@
       "started_at": "2026-10-24T03:19:01.489134+00:00",
       "finished_at": "2026-10-24T03:27:14.361203+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-06",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "mapped_pdf_pages": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "outside_map_lookup_pages": [
+        39,
+        46
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 34,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 34,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-06/validation.json",
+        "sha256": "8bf04df056a30386f2c36b9aa67ba6437eaf2fbd35dfa4a29999b803128a14e6",
+        "bytes": 1405
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-06/verification-completed.json",
+        "sha256": "2e47c9a67c9f5e2862d7878bef45291bb89a26b6530fd79fce8a7a36ea531099",
+        "bytes": 991
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-06-preserved-work.json",
+        "sha256": "3b0b5de6767c02e3490d572b1a88cbfbf7a29f3c3b242f32698201958225af1d",
+        "bytes": 650841
+      },
+      "started_at": "2026-10-24T03:31:25.064040+00:00",
+      "finished_at": "2026-10-24T05:20:37.548792+00:00",
+      "timing_scope": "Prospective wall-clock includes waits,gaps and interruption;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -980,51 +1069,89 @@
     {
       "pdf_page": 40,
       "printed_page": "38",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0015"
       ],
-      "restoration": "pending",
-      "evidence": "First half of two-page photographic title 꼭 베이직을 배워야 합니까?"
+      "restoration": "complete",
+      "evidence": "Complete basic-introduction article printed38–43/PDF40–45;two-page photographic title,three-column prose and concluding questionnaire verified."
     },
     {
       "pdf_page": 41,
       "printed_page": "39",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0015"
       ],
-      "restoration": "pending",
-      "evidence": "Second half of same photographic title."
+      "restoration": "complete",
+      "evidence": "Complete basic-introduction article printed38–43/PDF40–45;two-page photographic title,three-column prose and concluding questionnaire verified."
     },
     {
       "pdf_page": 42,
       "printed_page": "40",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0015"
       ],
+      "restoration": "complete",
+      "evidence": "Complete basic-introduction article printed38–43/PDF40–45;two-page photographic title,three-column prose and concluding questionnaire verified."
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": "41",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "restoration": "complete",
+      "evidence": "Complete article continuation;finalPDF45 ends 현실로 돌아갈 차례이다. before independent FORMAT II openingPDF46."
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": "42",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "restoration": "complete",
+      "evidence": "Complete article continuation;finalPDF45 ends 현실로 돌아갈 차례이다. before independent FORMAT II openingPDF46."
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": "43",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "restoration": "complete",
+      "evidence": "Complete article continuation;finalPDF45 ends 현실로 돌아갈 차례이다. before independent FORMAT II openingPDF46."
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": "44",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0007"
+      ],
       "restoration": "pending",
-      "evidence": "Three-column prose continuing opening subject;ending not yet verified."
+      "evidence": "Independent FORMAT II opening;extent not yet verified."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-06",
-    "goal": "Verify 퍼스컴 입문 : 베이직을 꼭 배워야 합니까? extent from printed38/PDF40 and restore complete bounded article or first segment.",
+    "id": "batch-07",
+    "goal": "Verify FORMAT II extent from printed44/PDF46 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0015"
+      "maso-1985-10-toc-0007"
     ],
-    "mapping_targets": "Opening PDF40–41/printed38–39 and bodyPDF42/printed40 observed;actual end to verify. Preserve canonical title/order.",
+    "mapping_targets": "Opening PDF46/printed44 observed;actual end to verify. Preserve canonical title/order and parent0006.",
     "provisional_lookup_targets": [
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
       45,
-      46
+      46,
+      47,
+      48,
+      49,
+      50
     ],
     "limits": {
       "articles": 2,
@@ -1036,7 +1163,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining34 identities and remaining source-page accounting require inspection;no global page offset inferred."
+    "Remaining33 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
