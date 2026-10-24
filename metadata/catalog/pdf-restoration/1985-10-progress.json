@@ -351,12 +351,52 @@
       "toc_entry_id": "maso-1985-10-toc-0024",
       "title": "입력이 힘드십니까?",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Input guide canonical0024 starts printed29/PDF31 after reader letters endingPDF30/printed28;continuesPDF32/printed30 and upperPDF33 with no visible folio. FollowingPDF34/printed32 begins independentQA.",
+        "Five examples:6502 assembly,Z80 assembly,Apple checksum dump,SPC-1000 checksum dump,MSX BASIC checksum program. Source order/physical rows and opaque values require direct checks;printed errors remain literal.",
+        "Checksum prose crosses31→32 after 프로;Apple prose crosses left→right32 at1985/년5월호;MSX opening under left dump continues in right-bottom panel.",
+        "PDF33 lower 세운기술서적 advertisement is separate outside-body material. Source folio remains null;no global offset inferred."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-03-r01/input-guide",
+        "article_id": "scan-maso-1985-10-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-03-r01/input-guide/manifest.json",
+          "sha256": "a0d1cf979a9e8e7eb75b647fcfbd640d2d8b82b5c206d59cf41d8fa4d8466886",
+          "bytes": 23036
+        },
+        "coverage": {
+          "pdf_pages": [
+            31,
+            32,
+            33
+          ],
+          "printed_pages": [
+            "29",
+            "30",
+            null
+          ],
+          "regions": 35,
+          "blocks": 29,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-03/validation.json",
+          "sha256": "557bf31fdc6ee82ff7d1ccb828cec4c929b3b7d6b7bbb0cc69fb848de7bfcd18",
+          "bytes": 1598
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-03/reproduction.json",
+          "sha256": "aaedf45dd295f9299e82bc5d331beb0dcbb4b55b9023692ebce870963cfc5687",
+          "bytes": 1213
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0025",
@@ -526,10 +566,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 2,
+    "readable": 3,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 37
+    "unresolved_eligibility": 36
   },
   "checkpoints": [
     {
@@ -606,6 +646,45 @@
       "started_at": "2026-10-24T02:45:06.613363+00:00",
       "finished_at": "2026-10-24T02:51:53.970111+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-03",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0024"
+      ],
+      "mapped_pdf_pages": [
+        31,
+        32,
+        33
+      ],
+      "outside_map_lookup_pages": [
+        30,
+        34
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 32,
+      "eng_code_tasks": 5,
+      "kor_eng_tasks": 27,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-03/validation.json",
+        "sha256": "557bf31fdc6ee82ff7d1ccb828cec4c929b3b7d6b7bbb0cc69fb848de7bfcd18",
+        "bytes": 1598
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-03/verification-completed.json",
+        "sha256": "681d44bab06015d0dc5dc07911cc303fbb221e3051de2b5dbe2bdb178fa2a074",
+        "bytes": 1232
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-03-preserved-work.json",
+        "sha256": "d3607197b6f323fb417ceb00dec16c9732c5553d5c802e182cff782d28da132d",
+        "bytes": 292031
+      },
+      "started_at": "2026-10-24T02:53:37.333006+00:00",
+      "finished_at": "2026-10-24T03:05:16.962760+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -654,27 +733,59 @@
     {
       "pdf_page": 31,
       "printed_page": "29",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0024"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": "30",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0024"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": null,
+      "classification": "mixed-article-and-advertisement",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0024"
+      ],
+      "restoration": "complete",
+      "excluded_region_ids": [
+        "p33-advertisement"
+      ],
+      "evidence": "Upper input-guide final;lower independent 세운기술서적 advertisement;no visible folio."
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": "32",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0025"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-03",
-    "goal": "Verify 입력이 힘드십니까? extent from printed29/PDF31 and restore complete bounded article or first segment.",
+    "id": "batch-04",
+    "goal": "Verify QA extent from printed32/PDF34 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0024"
+      "maso-1985-10-toc-0025"
     ],
-    "mapping_targets": "Starts PDF31/printed29;actual end and intervening pages unverified.",
+    "mapping_targets": "Starts PDF34/printed32;actual end and intervening pages unverified.",
     "provisional_lookup_targets": [
-      30,
-      31,
-      32,
       33,
-      34
+      34,
+      35,
+      36,
+      37,
+      38
     ],
     "limits": {
       "articles": 2,
@@ -686,7 +797,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining37 identities and remaining source-page accounting require inspection;no global page offset inferred."
+    "Remaining36 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

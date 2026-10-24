@@ -19,14 +19,15 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: canonical0022 편집자 노트 and0023 애독자 광장 are complete
-  on printed26–28/PDF28–30. Two of39 entries are readable/sample-reviewed;37 await
-  restoration/classification. Their54/116-file packages independently match,
-  retaining24 statistical rows/48 cells and five letters/one reply/nine code rows/
-  seven joins. Fresh213 PDF tests passed at batch01; unchanged baseline reused.
-  March's80,532 files,231 earlier October files and30 core pins remain exact.
-  Next batch03: verify canonical0024 입력이 힘드십니까? from printed29/PDF31,
-  including ending/adjacent page;reuse saved PDF30/31. Cover/accounting/closeout remain.
+- October 1985 is active: canonical0022 편집자 노트,0023 애독자 광장 and0024
+  입력이 힘드십니까? are complete on PDF28–33. Three of39 entries are readable/
+  sample-reviewed;36 await restoration/classification. Their54/116/140-file
+  packages independently match. The input guide retains18 assembly rows,49 dump
+  rows/388 byte pairs and seven BASIC labels/14 physical rows. PDF33 folio stays
+  null;lower advertisement excluded. Fresh213 PDF tests passed at batch01;
+  unchanged baseline reused. March's80,532 files,726 earlier October files and
+  30 core pins remain exact. Next batch04: verify canonical0025 QA from printed32/
+  PDF34,including ending/adjacent page;reuse PDF33/34. Cover/accounting/closeout remain.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
