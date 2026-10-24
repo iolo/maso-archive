@@ -2636,12 +2636,61 @@
       "toc_entry_id": "maso-1985-10-toc-0037",
       "title": "한글소트",
       "parent_id": "maso-1985-10-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All ninewholeviews209–217 inspected. Canonical0037한글소트/김종순 opens210/208 andends215/213 atlisting3 final2030PRINT:RETURN anduncaptionedofficeart.209containsnewsending andindependentnotice;216/214 opens매직윈도우Ⅱ by박강수;217continuesit. Sixcontinuousbodypages210–215,threeoutsidelookups209,216,217,onecanonicaltask;no deferredpagesorassembly.",
+        "Threeprintedlistings remainindependent:listing1 spans212left→right→213left→right,ending2030. Listing2 additions lower213right ends620NEXTII. Listing3 combinedprintedversion214left→right→215left→right ends2030. Neverderive3bymerging1+2;retain differences and sourceerrors.",
+        "Listing3line456 continues214right→215left atFLASH / :PRINT. Prose overview210left→right splits5 / 개숫자;variables explanation211left→right continues각글자 / 의최초;211right→212left continues85년1월 / 에소개된;212left→right continues등으로 / 구분되며. Timingtable210→211 retains70개 and500개 groups andprintedvalues.",
+        "Fullpage originals preserve typography,boxedHangul/jamo,superscriptdecimal examples,conversionfigures and endingart. Embedded figurelabels/glyphencoding remainunverified; literalreadable approximations explicitlyannotated."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/hangul-sort",
+        "article_id": "scan-maso-1985-10-toc-0037",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/hangul-sort/manifest.json",
+          "sha256": "10e61561ccf9e02fddaa03d240b42b30f8272784f892339906213ba5729abad8",
+          "bytes": 27174
+        },
+        "coverage": {
+          "pdf_pages": [
+            210,
+            211,
+            212,
+            213,
+            214,
+            215
+          ],
+          "printed_pages": [
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213"
+          ],
+          "regions": 47,
+          "blocks": 29,
+          "figures": 12,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete sixpagearticle210–215/208–213;threeindependentlytranscribedBASIC listings,prose,tables,jamo examples andendingart. Adjacent209/216 independentlyinspected."
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-47/validation.json",
+          "sha256": "58354166c199ca6935ccc46547e481b8f300d86f0b0dc3790e361fb01e91deb7",
+          "bytes": 2957
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-47/reproduction.json",
+          "sha256": "95dd1c6435c9edaaef04f7b3fe4fac9307c1036f9456b047a9e5ebe7e298cb1f",
+          "bytes": 1357
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0038",
@@ -2668,10 +2717,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 25,
+    "readable": 26,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 14
+    "unresolved_eligibility": 13
   },
   "checkpoints": [
     {
@@ -4924,6 +4973,55 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-47",
+      "status": "complete",
+      "stage": "validated-complete-article",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "mapped_pdf_pages": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "outside_map_lookup_pages": [
+        209,
+        216,
+        217
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 35,
+      "eng_code_tasks": 9,
+      "kor_eng_tasks": 26,
+      "source_correction_passes": 1,
+      "crop_repairs": 3,
+      "all_selected_crops_reviewed_before_ocr": true,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/validation.json",
+        "sha256": "58354166c199ca6935ccc46547e481b8f300d86f0b0dc3790e361fb01e91deb7",
+        "bytes": 2957
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/verification-completed.json",
+        "sha256": "7c16314cd6406d777ee450982da27f06f755071c7e741cc127a5fcd5bce09554",
+        "bytes": 1711
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-47-preserved-work.json",
+        "sha256": "1f35904822b001fd44913c3bc2acf464830a4a0b6ba2d3402edbe8f26ad6f97f",
+        "bytes": 13048822
+      },
+      "started_at": "2026-10-24T20:40:49.461291+00:00",
+      "finished_at": "2026-10-24T20:56:46.541561+00:00",
+      "timing_scope": "Prospective wallclock includeswaits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -7099,26 +7197,130 @@
         "sha256": "d9e4aff6b195c639733eca684e445fa9b5c8a9345c726d9fc9a98d22bd7e6ad8",
         "bytes": 5624
       }
+    },
+    {
+      "pdf_page": 210,
+      "printed_page": "208",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/hangul-sort",
+      "evidence": "Canonical0037한글소트 complete210–215,source title/byline한글 소트/김종순. Threeindependentlistings andsixfulloriginals retained. Noarticlebody continuesinto216매직윈도우Ⅱ.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/source-reviewed.json",
+        "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
+        "bytes": 6722
+      }
+    },
+    {
+      "pdf_page": 211,
+      "printed_page": "209",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/hangul-sort",
+      "evidence": "Canonical0037한글소트 complete210–215,source title/byline한글 소트/김종순. Threeindependentlistings andsixfulloriginals retained. Noarticlebody continuesinto216매직윈도우Ⅱ.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/source-reviewed.json",
+        "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
+        "bytes": 6722
+      }
+    },
+    {
+      "pdf_page": 212,
+      "printed_page": "210",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/hangul-sort",
+      "evidence": "Canonical0037한글소트 complete210–215,source title/byline한글 소트/김종순. Threeindependentlistings andsixfulloriginals retained. Noarticlebody continuesinto216매직윈도우Ⅱ.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/source-reviewed.json",
+        "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
+        "bytes": 6722
+      }
+    },
+    {
+      "pdf_page": 213,
+      "printed_page": "211",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/hangul-sort",
+      "evidence": "Canonical0037한글소트 complete210–215,source title/byline한글 소트/김종순. Threeindependentlistings andsixfulloriginals retained. Noarticlebody continuesinto216매직윈도우Ⅱ.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/source-reviewed.json",
+        "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
+        "bytes": 6722
+      }
+    },
+    {
+      "pdf_page": 214,
+      "printed_page": "212",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/hangul-sort",
+      "evidence": "Canonical0037한글소트 complete210–215,source title/byline한글 소트/김종순. Threeindependentlistings andsixfulloriginals retained. Noarticlebody continuesinto216매직윈도우Ⅱ.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/source-reviewed.json",
+        "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
+        "bytes": 6722
+      }
+    },
+    {
+      "pdf_page": 215,
+      "printed_page": "213",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0037"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/hangul-sort",
+      "evidence": "Canonical0037한글소트 complete210–215,source title/byline한글 소트/김종순. Threeindependentlistings andsixfulloriginals retained. Noarticlebody continuesinto216매직윈도우Ⅱ.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-47/source-reviewed.json",
+        "sha256": "13282cf9e4d823e31c92ff324cc4262535dce97810831c37bf51539b05790c79",
+        "bytes": 6722
+      }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-47",
-    "goal": "Verify full extent andrestore canonical0037 한글소트/김종순,TOC208,openingPDF210.",
+    "id": "batch-48",
+    "goal": "Verify full extent andrestore opening ofcanonical0038 매직윈도우/박강수,TOC214,openingPDF216 withsource title매직윈도우Ⅱ.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0037"
+      "maso-1985-10-toc-0038"
     ],
-    "mapping_targets": "Reuse209–213wholeviews;inspectfollowingpages toverifyendandadjacentmaterial. Mapatmostsixactualbodypages. Retain prose,tables,boxedHangul/jamo examples,BASIC listing1 andlisting2 andallphysicalwraps/source errors withoutsemantic repair orcodeexecution. Segmentandassemble iflonger. Parent0036비즈니스 remainsseparate. Preserve all completedpackages andprivateadapters.",
+    "mapping_targets": "Reuse215–217wholeviews;inspectfollowingpages toverifyfullendandadjacentmaterial beforemapping. Initial215–231lookup. Mapatmostsixbodypages;likelyopening216–221 onlyifsourceverified. Segmentandassemble separatelyiflonger. Retain literalprose,commands,menus,figures,captions andsourceerrors withoutsemanticrepair orprogramexecution. Parent0036비즈니스 remainsseparate. Preserveallcompletedpackages andprivateadapters.",
     "provisional_lookup_targets": [
-      209,
-      210,
-      211,
-      212,
-      213,
-      214,
       215,
       216,
-      217
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231
     ],
     "limits": {
       "articles": 2,
@@ -7130,7 +7332,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Canonical0029news206–209 complete underacceptedoriginalimagebodypolicy;15searchableblocks,12items,16bodyfragments,4continuations,2tables,1photo. Volunteerbody/tabletranscription pending.209visiblefolio null,rightnoticeownership unresolved. Twooriginalcrop reviewtimingexception recorded,all15textcrops reviewedbeforeOCR.25readable/sample-reviewed,0partial,14unresolved. Next0037한글소트from210/208. Parent0017/0021/0036 andremainingidentities,cover,268-pageaccounting,index/report,independentissuerebuild andcloseout pending. Keep batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims unverified. No readerrebuild."
+    "Canonical0037한글소트210–215 complete;47regions/29blocks/12originals,threeBASIC listings198entries/371nonblankrows. Fourtimingrows/22fields/6headers,fournumericrules,11linereferences. Tenunknownblank/leaderbands,nineboxmarkers and0/O/jamocandidates remainexplicit.26readable/sample-reviewed,0partial,13unresolved. Next0038매직윈도우from216/214;verifyextent andsegmentatmostsixpages. Parent0017/0021/0036 andremainingidentities,cover,268-pageaccounting,index/report,independentissuerebuild andcloseout pending. Keep batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }

@@ -24,50 +24,57 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-25
 
-October 1985 restoration continues under step 12: **25 readable/sample-reviewed
-entries, zero partial articles and 14 unresolved**, accounting for all 39 canonical
+October 1985 restoration continues under step 12: **26 readable/sample-reviewed
+entries, zero partial articles and 13 unresolved**, accounting for all 39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch 46 completes **정보 레이다0029** on PDF206–209 at
-`archive/pdf/1985-10/packages/news`. All 72 files match an independent rebuild.
-Observed folios are 204,205,206,null; PDF209's folio is not inferred. Its separate
-right-column manuscript notice is excluded from news, with canonical ownership still
-unresolved. PDF205 is the completed contest notice; PDF210 opens 한글 소트.
+Batch 47 completes **한글소트0037 / 김종순**, PDF210–215/printed208–213, at
+`archive/pdf/1985-10/packages/hangul-sort`. All 161 files match an independent rebuild.
+The six-page article ends with listing3 line2030 and office artwork; PDF216 opens
+매직 윈도우Ⅱ. No article pages or assembly remain pending. Parent0036 비즈니스
+remains unresolved; canonical title, author, order and parent relationships are unchanged.
 
-Nineteen regions preserve 15 corrected heading/caption blocks and four original
-images. Twelve news items retain 16 body-image fragments, four continuations, two
-tables and a printer photograph. Source I-/BM, 중/서 and 수/출 column/page splits
-remain image-linked without encoded joins. Under the accepted news policy, complete
-original bodies are readable; body prose and table-cell transcription await volunteers.
-The source 51/4 and headline 8~12월 remain literal, separate from the table's 10–12
-month groups. Organization kickers are not article bylines. Nine candidate notes
-retain source forms, dash/Roman-II approximations and unverified printed claims.
+Forty-seven regions retain 29 corrected blocks and 12 original images, including
+six full pages. Three printed BASIC listings remain independent: listing1 has83
+numbered entries/153 nonblank rows, listing2 has18/37, and listing3 has97/181.
+Total:198 entries,371 nonblank code rows,396 line fields,156 quote marks and78
+quoted strings. Six code joins preserve physical newlines, including listing3 line456
+across214–215. Four prose continuations, four timing-table rows/22 fields/six headers,
+four numeric rules and11 line references retain source order and associations.
 
-All 188 UTF8 range occurrences, 286 evidence pins and 19 images validate; seven
-malformed fixtures reject, including a repeated kicker linked to the wrong story,
-a missing continuation, a wrong body association and the missing final item.
-All 55,757 prior files, 45 inventories and 30 core pins remain exact; the unchanged
-213-test baseline is reused. New preservation inventory: 56,085 files.
+The transcription has502 nonblank rows, including five editorial table rows, and10
+blank rows whose printed spacing is unverified. Full originals and six example/art
+crops retain boxed jamo, name/number diagrams and raised numeric digits. Nine explicit
+box markers and10 unknown blank/leader bands remain source-linked. Source POGRAM,
+3의 됨., the missing visible equals in FOR I 2 TO, physical DATA/identifier/number
+wraps, 0/O-like glyphs and faint PRINT remain literal candidates. Listing3 was not
+synthesized from1+2. No program was executed or semantically repaired.
 
-Nine whole views establish the extent: four mapped pages, five outside lookups and
-one canonical task. All 15 text crops were inspected before 15 kor+eng OCR tasks;
-all raw drafts were read before one correction pass. Zero OCR failures, retries,
-engine changes or crop repairs. **Timing exception:** original-image crops208/209
-were inspected after OCR launch, before correction/export. The original preflight
-claim is explicitly corrected by a retained supplement; all text-crop timing is valid.
-Human acceptance/full proofreading, source bytes/spacing/glyph counts and historical
-claims remain unverified. No reading room was rebuilt.
+All 9,356 UTF8 range occurrences, 9,480 evidence pins and47 images validate;120
+same-page nonfigure pairs are disjoint. Eight malformed fixtures reject, including
+repeated line labels linked to another listing, a missing line456 continuation and
+a repeated timing value linked to the wrong row. All56,085 prior files,46 inventories
+and30 core pins remain exact; the unchanged213-test baseline is reused.
+New preservation inventory: 56,814 files.
 
-Next is **batch47: verify the full extent and restore 한글소트0037 / 김종순**,
-opening PDF210/printed208. Reuse209–213 views and inspect following pages before
-mapping at most six body pages. Preserve prose, tables, boxed Hangul/jamo examples,
-BASIC listings and physical wraps without semantic repair or execution. Segment and
-assemble separately if longer. Parent0036 비즈니스 remains unresolved.
+Nine whole views establish the extent: six mapped pages, three outside lookups and
+one canonical task. Three crop repairs were made and inspected before OCR; all47
+selected crops were reviewed before35 tasks (9eng,26kor+eng). All35 drafts were read
+before one source correction pass. Zero OCR failures, retries or engine changes.
+Initial index-builder/verifier syntax errors and a verifier subgroup-offset error
+are retained with fresh corrected scripts; source transcripts and packages were
+unchanged by those fixes. There is no crop-review timing exception in this batch.
+Human acceptance/full proofreading, source bytes/spacing/glyph counts and historical,
+technical or mathematical claims remain unverified. No reading room was rebuilt.
 
-The remaining 14 identities, cover, 268-page accounting, standalone index/report,
-independent issue rebuild and closeout remain. Retain the batch44 Beautiful Text,
-batch41 Arong, batch36 PLAY, batch33 MSX corners, batch29 Prologue, batch24 numerical
-and batch20 MSX private adapters. No reader rebuild.
+Next is **batch48: verify the full extent and restore the opening of 매직윈도우0038
+/ 박강수**, beginning PDF216/printed214. Reuse215–217 views; inspect through the
+actual ending and adjacent material before mapping at most six pages. Initial lookup
+215–231; segment and assemble separately if longer. Keep source menus, commands,
+prose, figures and captions literal. The remaining13 identities, cover,268-page
+accounting, standalone index/report, independent issue rebuild and closeout remain.
+Retain the batch44 Beautiful Text,batch41 Arong,batch36 PLAY,batch33 MSX corners,
+batch29 Prologue,batch24 numerical andbatch20 MSX private adapters. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

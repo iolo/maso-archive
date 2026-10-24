@@ -19,22 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active: 25 readable/sample-reviewed, zero partial articles, 14 unresolved.
-  Batch46 completes 정보 레이다0029/PDF206–209 at `packages/news`: 72 files independently
-  exact; folios204/205/206/null. Right209 manuscript notice excluded, ownership unresolved.
-  Nineteen regions,15 searchable blocks and4 originals retain12 items/16 body fragments,
-  4 continuations,2 tables and1 photo. Original news bodies/table cells await volunteer
-  transcription under accepted policy. Literal51/4 and8~12월 retained;9 candidate notes.
-  All188 ranges/286 pins/19 images validate;7 malformed fixtures reject. All55,757 prior
-  files/45 inventories/30 core pins exact;213-test baseline reused. New inventory:56,085.
-  Nine whole views;4 mapped/5 outside/1 task. All15 text crops inspected before15kor+eng
-  tasks;all raws read beforeone source pass. ZeroOCR failures/retries/crop repairs.
-  Timing exception: original crops208/209 inspected after launch,before correction/export;
-  retained supplement corrects original preflight claim. Text-crop timing unaffected.
-  Nextbatch47:verifyextent/restore 한글소트0037 from210/208;preserve prose,tables,jamo,
-  BASIC listings/wraps literally. Parent0036 and14 unresolvedidentities,cover,268-page
-  accounting,index/report,independentissue rebuild andcloseout remain. Keep all seven
-  private assembly adapters. Humanacceptance/fullproofreading,sourcebytes/claims unverified.
+- October1985 active:26 readable/sample-reviewed,zero partial articles,13 unresolved.
+  Batch47 completes 한글소트0037/김종순,PDF210–215/printed208–213 at
+  `packages/hangul-sort`:161 files independently exact;47 regions/29 blocks/12 originals.
+  Three independent listings retain198 numbered entries/371 nonblank code rows,
+  396 line fields,156 quotes/78 strings,6 codejoins including crosspage456 and4 prose
+  continuations. Four timing rows/22 fields/6 headers,four numeric rules,11 references;
+  nine box markers and10 unknown blank/leader bands. Source POGRAM,3의 됨.,FOR I 2 TO,
+  numeric/identifier wraps,0/O andfaintPRINT remain source-linked candidates;no execution.
+  All9,356 ranges/9,480 pins/47 images validate;8 malformed fixtures reject. All56,085
+  prior files/46 inventories/30 core pins exact;213-test baseline reused. Newinventory:56,814.
+  Nine wholeviews;6mapped/3outside/1task. Three preOCR crop repairs inspected;all47 crops
+  reviewed before35 tasks (9eng,26kor+eng),allraws read beforeone sourcepass. ZeroOCR
+  failures/retries/enginechanges. Builder/verifier syntax andsubgroup-offset failures
+  retained withfresh corrected scripts. No crop-review timing exception inthisbatch.
+  Nextbatch48:verifyextent/restoreopening 매직윈도우0038 from216/214;atmostsixpages,
+  segmentiflonger. Parent0036 and13unresolvedidentities,cover,268-pageaccounting,
+  index/report,independentissuerebuild andcloseout remain. Keep allsevenprivateassembly
+  adapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified.
   No readerrebuild. [October log](docs/progress/8510.md),
   [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
