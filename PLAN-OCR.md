@@ -20,25 +20,26 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:21 readable/sample-reviewed,one partial article,17 unresolved.
-  Batch42 restores 뷰티풀 텍스트0019/김덕현 opening194–199/192–197 at
-  `packages/beautiful-a`:236 files independently exact,65 regions/54 text/46 blocks/
-  11 original images. Full extent194–204 verified;final200–204 andassembly pending.
-  Eleven usage entries,17 routine explanations,3 BASIC examples/5 numbered entries/
-  6 physical rows and240 machine-code rows/496 byte fields/1,415 fields retain source
-  associations. Eight joins:3 prose and5 code. Thirty candidates/28 notes retain higer,
-  CONTRON-I,CONTOL-Z,CONTRL-Q,NORNAL,72$,B14 overlap andCONTROL-E/D differences.
-  All8,197 ranges/8,379 pins/65 images validate;5 malformed cases reject,including
-  repeatedSTA wrong occurrence andmissingD9D tail. All51,565 prior files/41 inventories/
-  30 core pins exact;unchanged213-test baseline reused. Newinventory:52,600 files.
-  All65 crops reviewed before54 tasks:9eng/45kor+eng. Allraws read beforeone sourcepass.
-  One pre-OCR crop expansion retains08B3 finalY;replacement reviewed beforeOCR.
-  Failed heading-kind andoccupied-destination attempts preserved;zero OCR retries.
-  Fourteen wholeviews193–206,six mapped/eight outside. Nextbatch43:200–204,then separate
-  immutable11-pageassembly. Final1180 RETURN on204;205 independentpromotion. Parent0017
-  pending. Remaining17 identities,cover,268-pageaccounting,index/report,independentissue
-  rebuild andcloseout remain. Keep batch41Arong,batch36PLAY,batch33MSXcorners,
-  batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,
-  sourcebytes/claims/execution unverified;embeddedlabels awaitvolunteers. No readerrebuild.
+  Batch43 restores 뷰티풀 텍스트0019/김덕현 final200–204/198–202 at
+  `packages/beautiful-b`:79 files independently exact,22 regions/16 text/3 blocks/
+  6 original images. With immutable `packages/beautiful-a`,all11 pages194–204 covered;
+  completeassembly pending. Ending465 machine-code rows/1,007byte fields/2,775 fields;
+  BASIC120 numberedentries/151nonblankrows,one indexedblank,13 joins and360 quotedwrap.
+  All199 quote marks/97strings/98fragments/5unmatched quotes retained. Duplicate790,
+  MAID BY,KET,SWITCHS,missing separators and3unknown blankbands remain literal.
+  All17,323 ranges/17,387 pins/22 images validate;6 malformed cases reject. All52,600
+  prior files/42 inventories/30 corepins exact;unchanged213-test baseline reused.
+  Newinventory:52,981 files. All22 crops reviewed before16 tasks:15eng/1kor+eng;
+  allraws read beforeone sourcepass. One pre-OCR crop expansion;zero OCR retries.
+  Failed verifier retained;fresh revision distinguishes nonblankcode rows fromindexed
+  editorialblank. Transcripts andbuilds unchanged. Seven wholeviews199–205:5mapped/2outside.
+  PDF205 promotion hasno visiblefolio;currentledger corrected tonull,historical42 retained.
+  Nextbatch44:separate immutable11-pageassembly,09F0→09F3 join,every nativecategory/range,
+  independent rebuild. Parent0017,17 identities,cover,268-pageaccounting,index/report,
+  independentissue rebuild andcloseout remain. Keep batch41Arong,batch36PLAY,
+  batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters.
+  Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified;
+  embeddedlabels awaitvolunteers. No readerrebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
