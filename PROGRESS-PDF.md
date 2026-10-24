@@ -6,15 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress. Eleven of39 canonical entries are readable
+October 1985 restoration is in progress. Twelve of39 canonical entries are readable
 and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,QA,디버깅 룸,
-퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II,DEF,가로세로 체크썸 and both
-자동메뉴 II articles by정우진/서동철. Their54/116/140/171/70/155/150/197/237/97/161-file
-packages independently match;fresh213 PDF tests passed at batch01,with the unchanged
-baseline reused through batch11. The remaining28 entries,cover selection,source-page
-accounting and issue closeout remain. Next verify canonical0012 함수그래프 II by이진욱
-from printed63/PDF65lower,excluding completed auto-menu above. See
-[October log](docs/progress/8510.md) and
+퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II,DEF,가로세로 체크썸,both
+자동메뉴 II articles by정우진/서동철,and 함수그래프 II by이진욱. Their54/116/140/171/
+70/155/150/197/237/97/161/174-file packages independently match;fresh213 PDF tests passed
+at batch01,with the unchanged baseline reused through batch12. The remaining27 entries,
+cover selection,source-page accounting and issue closeout remain. Next verify canonical0013
+테이프용 MLE by박성준 from printed69/PDF71,including ending and adjacent page.
+See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries

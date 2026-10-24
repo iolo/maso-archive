@@ -19,22 +19,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: eleven of39 entries are readable/sample-reviewed:
+- October 1985 is active: twelve of39 entries are readable/sample-reviewed:
   편집자 노트,애독자 광장,입력이 힘드십니까?,QA,디버깅 룸,퍼스컴 입문 :
-  베이직을 꼭 배워야 합니까?,FORMAT II,DEF,가로세로 체크썸 and both 자동메뉴 II
-  articles by정우진/서동철. Their54/116/140/171/70/155/150/197/237/97/161-file packages
-  independently match. 서동철's article covers printed60–63/PDF62–65upper,excluding
-  함수그래프 II below. It retains56 BASIC labels/95 physical rows,61 DATA values,
-  40 machine-code rows/152 fields/87 byte pairs/eight blank operands,16 explanations,
-  six joins and eight originals. Byline handwriting remains separate from canonical
-  서동철;source105-100,37 DATA values versus0TO37 and final??? remain literal.
-  All44 regions reviewed before36 tasks (6eng,30kor+eng);all drafts read before one
-  source pass. Zero OCR failures/retries;one pre-OCR revision widens six crop edges,
-  38 unchanged. All2,783 ranges/2,905 pins validate. All5,948 earlier files/30 core
-  pins exact;fresh213-test batch01 baseline reused. Next batch12: canonical0012,
-  함수그래프 II by이진욱,from printed63/PDF65lower;verify ending/adjacent page and
-  exclude completed auto-menu above. Reuse PDF64–65. Remaining28 entries,cover/
-  accounting/closeout remain. [October log](docs/progress/8510.md),
+  베이직을 꼭 배워야 합니까?,FORMAT II,DEF,가로세로 체크썸,both 자동메뉴 II
+  articles by정우진/서동철,and 함수그래프 II by이진욱. Their54/116/140/171/70/155/
+  150/197/237/97/161/174-file packages independently match. 함수그래프 II covers
+  printed63–68/PDF65lower–70,excluding completed auto-menu above. It retains184 BASIC
+  labels/185 fragments/221 physical rows,18 DATA fields,three dump rows/24 byte cells,
+  41 routine entries,a six-cell/two-header table,12 joins and nine originals. Three
+  graphic placeholders,B/E candidates,printed errors and listing-number conflict remain.
+  All48 crops reviewed before39 tasks (10eng,29kor+eng);all drafts read before one
+  source pass. Zero OCR failures/retries;one pre-OCR revision changes nine boxes/adds
+  two to preserve sloping code columns;37 unchanged. All3,528 ranges/3,661 pins validate.
+  All6,640 earlier files/30 core pins exact;fresh213-test batch01 baseline reused.
+  Next batch13: canonical0013,테이프용 MLE by박성준,from printed69/PDF71;
+  verify ending/adjacent page,reusePDF70–71 and segment if over six mapped pages.
+  Remaining27 entries,cover/accounting/closeout remain. [October log](docs/progress/8510.md),
   [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for

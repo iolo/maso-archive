@@ -364,12 +364,60 @@
       "toc_entry_id": "maso-1985-10-toc-0012",
       "title": "함수그래프 II",
       "parent_id": "maso-1985-10-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0012 함수그래프 II by이진욱 spans printed63–68/PDF65lower–70. All six pages individually inspected;complete BASIC ends1840 DATA before independent 테이프용 MLE openingPDF71/printed69.",
+        "UpperPDF65 remains completed canonical0011 auto-menu. Boundary.405 separates the two articles;no full-page duplicate ownership inferred. PreviousPDF64 continues auto-menu.",
+        "Source opening graph is uncaptioned. Feature table has two headers/three rows. Prose names BASIC listing1 and machine-code listing2,while actual machine dump caption is 리스트1 and BASIC caption is 리스트2;retain both without reconciliation.",
+        "BASIC listing physical1200 endsGOTO119 onPDF69 with trailing0 alone openingPDF70;retain as one statement across page. Prose usage66→67 and routine list67→68 continuations retain source-local fragments.",
+        "Six mapped pages,two outside lookupsPDF64/71,one canonical task. Canonical title/order/byline/parent0006 unchanged."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-12-r01/function-graph",
+        "article_id": "scan-maso-1985-10-toc-0012",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-12-r01/function-graph/manifest.json",
+          "sha256": "606d7f7158b4093e64faf7296a5100101ca3618fb7f707e840c2413094565c73",
+          "bytes": 28537
+        },
+        "coverage": {
+          "pdf_pages": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ],
+          "printed_pages": [
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68"
+          ],
+          "regions": 48,
+          "blocks": 27,
+          "figures": 9,
+          "deferred_pdf_pages": [],
+          "first_page_scope": "Lower panel;completed0011 auto-menu upper excluded."
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-12/validation.json",
+          "sha256": "63389fcc0388593c259b11e238ef671e2ccc97aa277dda3eb96bf76ba9e8c9c3",
+          "bytes": 2039
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-12/reproduction.json",
+          "sha256": "eb4dcf41137a13f7189d0fef2b059e099ccd7ed235edff4cd0bda2966b69d2ad",
+          "bytes": 1212
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0013",
@@ -912,10 +960,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 11,
+    "readable": 12,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 28
+    "unresolved_eligibility": 27
   },
   "checkpoints": [
     {
@@ -1365,6 +1413,48 @@
       "started_at": "2026-10-24T06:28:06.448838+00:00",
       "finished_at": "2026-10-24T06:40:31.379094+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-12",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0012"
+      ],
+      "mapped_pdf_pages": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "outside_map_lookup_pages": [
+        64,
+        71
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 39,
+      "eng_code_tasks": 10,
+      "kor_eng_tasks": 29,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-12/validation.json",
+        "sha256": "63389fcc0388593c259b11e238ef671e2ccc97aa277dda3eb96bf76ba9e8c9c3",
+        "bytes": 2039
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-12/verification-completed.json",
+        "sha256": "28c80e037760b311bfab12b5407dcaf6174de750e610e18b761df0195b738be2",
+        "bytes": 942
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-12-preserved-work.json",
+        "sha256": "6a89000b9e645f8a6643480c227152e16eb65e2df2f7e794b37474b48ad23871",
+        "bytes": 1618003
+      },
+      "started_at": "2026-10-24T06:43:08.065530+00:00",
+      "finished_at": "2026-10-24T07:01:45.428870+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1752,32 +1842,92 @@
     {
       "pdf_page": 65,
       "printed_page": "63",
-      "classification": "shared-article-page-observed",
+      "classification": "shared-article-page",
       "toc_entry_ids": [
         "maso-1985-10-toc-0011",
         "maso-1985-10-toc-0012"
       ],
-      "restoration": "partial",
-      "evidence": "Upper canonical0011 explanations/cartoon complete. Independent canonical0012 함수그래프 II lower opening observed only;body extent still requires verification."
+      "restoration": "complete",
+      "evidence": "Upper canonical0011 auto-menu complete;lower canonical0012 함수그래프 II title/deck/graph complete. Shared boundary .405;neither article owns the other panel."
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": "64",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0012"
+      ],
+      "restoration": "complete",
+      "evidence": "Overview,three-row feature table,input/save commands and usage opening."
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": "65",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0012"
+      ],
+      "restoration": "complete",
+      "evidence": "Usage ending and routine-analysis opening/two columns."
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": "66",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0012"
+      ],
+      "restoration": "complete",
+      "evidence": "Routine-analysis ending,three-row machine dump and BASIC labels10–340."
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": "67",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0012"
+      ],
+      "restoration": "complete",
+      "evidence": "BASIC labels350–1200;last1200 endsGOTO119 before final0 on next page."
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": "68",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0012"
+      ],
+      "restoration": "complete",
+      "evidence": "Incoming0 completes1200;BASIC1210–1840 DATA and closing cartoon end before distinct MLE openingPDF71."
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": "69",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0013"
+      ],
+      "restoration": "not-started",
+      "evidence": "Distinct 테이프용 MLE opening printed69,source byline박성준;boundary lookup only. Ending/body extent still to verify."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-12",
-    "goal": "Verify complete extent and restore canonical0012 함수그래프 II by이진욱 from printed63/PDF65lower.",
+    "id": "batch-13",
+    "goal": "Verify actual extent and restore canonical0013 테이프용 MLE by박성준 from printed69/PDF71.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0012"
+      "maso-1985-10-toc-0013"
     ],
-    "mapping_targets": "Opening below completed auto-menu onPDF65;exclude upper0011 panel. Inspect ending and adjacent page;next canonical0013 테이프용 MLE has TOC69 as lookup candidate only. Preserve parent0006;segment if over six mapped pages.",
+    "mapping_targets": "Reuse savedPDF70–71;verify ending and adjacent page. Preserve parent0006 and canonical title/order. Segment if over six mapped pages;do not infer extent from TOC order.",
     "provisional_lookup_targets": [
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
       70,
-      71
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
     ],
     "limits": {
       "articles": 2,
@@ -1789,7 +1939,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining28 identities and remaining source-page accounting require restoration/classification;no global page offset inferred."
+    "Remaining27 identities and remaining source-page accounting require restoration/classification;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
