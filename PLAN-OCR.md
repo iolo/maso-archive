@@ -19,19 +19,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: seven of39 entries are readable/sample-reviewed:
+- October 1985 is active: eight of39 entries are readable/sample-reviewed:
   편집자 노트,애독자 광장,입력이 힘드십니까?,QA,디버깅 룸,퍼스컴 입문 :
-  베이직을 꼭 배워야 합니까? and FORMAT II. Their54/116/140/171/70/155/150-file
-  packages independently match. FORMAT II covers printed44–46/PDF46–48 upper panel;
-  lower independent DEF excluded. Six BASIC examples/30 labels,five result panels/
-  29 values,three commands,92 dump rows/729 byte pairs/seven blank slots and five
-  originals remain. All34 drafts (17 eng,17 kor+eng) read before one source pass;
-  no OCR failures/retries. One schema failure and two pre-OCR crop-repair stages
-  retained;final title/subtitle combined and usage diagram expanded before recognition.
-  All2,988 earlier files and30 core pins exact;fresh213-test batch01 baseline reused.
-  Next batch08: verify canonical0008,DEF,from lower printed46/PDF48,including
-  ending/adjacent page;reuse PDF47–50. Remaining32 entries,cover/accounting/closeout remain.
-  [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+  베이직을 꼭 배워야 합니까?,FORMAT II and DEF. Their54/116/140/171/70/155/150/197-file
+  packages independently match. DEF covers printed46–51/PDF48–53 with adjacent
+  FORMAT II/가로세로 체크썸 excluded. Its110 BASIC labels/201 DATA values,four wrapped
+  DATA values,94 dump rows/738 byte pairs/14 blank slots,six commands,five procedure
+  steps and12 originals remain. All44 drafts (15 eng,29 kor+eng) read before one
+  source pass;zero OCR failures/retries. One pre-OCR crop expansion retained.
+  One verifier failure resolved through inspection of a three-pixel blank overlap;
+  no map,OCR,transcript or package mutation. All6,007 ranges/6,172 pins validate.
+  All3,676 earlier files/30 core pins exact;fresh213-test batch01 baseline reused.
+  Next batch09: verify canonical0009,가로세로 체크썸,from lower printed51/PDF53,
+  including ending/adjacent page;reuse PDF52–54. Remaining31 entries,cover/accounting/
+  closeout remain. [October log](docs/progress/8510.md),
+  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

@@ -142,12 +142,59 @@
       "toc_entry_id": "maso-1985-10-toc-0008",
       "title": "DEF",
       "parent_id": "maso-1985-10-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0008 DEF opens in lower printed46/PDF48,below FORMAT II final dump;continues through allPDF49–52 and upperPDF53/printed51,ending DEF DATA row8700. Independent 가로세로 체크썸 canonical0009 opens lowerPDF53 and continuesPDF54.",
+        "Six mapped pages,two outside lookupsPDF47/54,one canonical task. Canonical title,byline candidate and parent0006 unchanged;source byline 이 의 영/천호중3 retained literally.",
+        "POO YAN BASIC listing spans PDF50–52 with code and string/numeric wraps;machine routine list2 spans columns onPDF52;DEF DATA list3 spansPDF52–53. Preserve all physical rows and original dump/checksum irregularities without execution or repair.",
+        "Opening Felix illustration,ASL/ROL diagrams,initial and three-step bit states and character bitmap remain original pixels;prose captions/context transcribed separately.",
+        "FullPDF49–52 and eligible lower48/upper53 panels retained. Folio51 observed in full source below next article;not included in selected upper panel."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-08-r01/def",
+        "article_id": "scan-maso-1985-10-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-08-r01/def/manifest.json",
+          "sha256": "82082f742947f7b6f3e84c557cdaac0df29338b43141a7e6a14c21d4d9b90c13",
+          "bytes": 32550
+        },
+        "coverage": {
+          "pdf_pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "printed_pages": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51"
+          ],
+          "regions": 56,
+          "blocks": 36,
+          "figures": 12,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-08/validation.json",
+          "sha256": "049b39866b40bfccfa8282a72d5bf69a258973bc1faa6b711f58e195363e8c08",
+          "bytes": 2221
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-08/reproduction.json",
+          "sha256": "40535343c47e08e9b5eb3fa8bd3d39766d156872d8640b46f5853ef219bb7cf0",
+          "bytes": 1196
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0009",
@@ -734,10 +781,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 7,
+    "readable": 8,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 32
+    "unresolved_eligibility": 31
   },
   "checkpoints": [
     {
@@ -1015,6 +1062,48 @@
       "started_at": "2026-10-24T05:22:32.911065+00:00",
       "finished_at": "2026-10-24T05:33:49.935634+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-08",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0008"
+      ],
+      "mapped_pdf_pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "outside_map_lookup_pages": [
+        47,
+        54
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 44,
+      "eng_code_tasks": 15,
+      "kor_eng_tasks": 29,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-08/validation.json",
+        "sha256": "049b39866b40bfccfa8282a72d5bf69a258973bc1faa6b711f58e195363e8c08",
+        "bytes": 2221
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-08/verification-completed.json",
+        "sha256": "18fafa6769b7181500657031b7f444f99db0d2b03d5c9d4cd9186fb9a91f4f43",
+        "bytes": 1110
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-08-preserved-work.json",
+        "sha256": "ebaa0acf01deef80c195566c96d4950791cb768ede60ea422cfe34d1c1765ae5",
+        "bytes": 983651
+      },
+      "started_at": "2026-10-24T05:36:17.490239+00:00",
+      "finished_at": "2026-10-24T05:53:57.924318+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1235,47 +1324,88 @@
         "maso-1985-10-toc-0007",
         "maso-1985-10-toc-0008"
       ],
-      "restoration": "FORMAT II upper complete;DEF lower pending",
-      "evidence": "Upper FORMAT II dump ends22D8;independent DEF opens below. Each article requires its own disjoint mapped region ownership."
+      "restoration": "complete",
+      "evidence": "FORMAT II upper and DEF lower bodies complete;all shared-page nonfigure ownership pairs disjoint."
     },
     {
       "pdf_page": 49,
       "printed_page": "47",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0008"
       ],
-      "restoration": "pending",
-      "evidence": "DEF prose,diagrams and storage instructions;extent not yet verified."
+      "restoration": "complete",
+      "evidence": "DEF complete46–51/PDF48–53;prose,diagrams,instructions and BASIC opening retained."
     },
     {
       "pdf_page": 50,
       "printed_page": "48",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0008"
       ],
+      "restoration": "complete",
+      "evidence": "DEF complete46–51/PDF48–53;prose,diagrams,instructions and BASIC opening retained."
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": "49",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0008"
+      ],
+      "restoration": "complete",
+      "evidence": "DEF BASIC listing continues across both columns;line330 numeric wrap retained."
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": "50",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0008"
+      ],
+      "restoration": "complete",
+      "evidence": "DEF BASIC ending,list2 complete and list3 opening."
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": "51",
+      "classification": "shared-article-page",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0008",
+        "maso-1985-10-toc-0009"
+      ],
+      "restoration": "DEF upper complete;가로세로 체크썸 lower pending",
+      "evidence": "DEF DATA ends8700 above independent next-article opening;no assumed global page offset."
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": "52",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0009"
+      ],
       "restoration": "pending",
-      "evidence": "DEF instructions,bitmap illustration and POO YAN BASIC listing opening;extent not yet verified."
+      "evidence": "가로세로 체크썸 continuation;full extent requires inspection."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-08",
-    "goal": "Verify DEF extent from lower printed46/PDF48 and restore complete bounded article or first segment.",
+    "id": "batch-09",
+    "goal": "Verify 가로세로 체크썸 extent from lower printed51/PDF53 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0008"
+      "maso-1985-10-toc-0009"
     ],
-    "mapping_targets": "LowerPDF48 opening andPDF49–50 body observed. Exclude completed FORMAT II upper panel;preserve canonical parent0006. Segment if more than six mapped pages.",
+    "mapping_targets": "LowerPDF53 opening andPDF54 continuation observed. Exclude completed DEF upper panel;preserve canonical parent0006. Segment if more than six mapped pages.",
     "provisional_lookup_targets": [
-      47,
-      48,
-      49,
-      50,
-      51,
       52,
       53,
-      54
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
     ],
     "limits": {
       "articles": 2,
@@ -1287,7 +1417,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining32 identities and remaining source-page accounting require inspection;no global page offset inferred."
+    "Remaining31 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
