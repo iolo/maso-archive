@@ -20,21 +20,22 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:16 readable/sample-reviewed,one partial,22 unresolved.
-  Batch26 restores opening Prologue0014 by정덕기,PDF128–133,at `packages/prologue-a`.
-  Actual18-page body128–145 fully extent-reviewed;134–145 andassembly remain.
-  All461files independently exact;122regions/107blocks/12originals,40codepanels/
-  107nonblankrows/20examplegroups,threeprosejoins andseparatecaption/annotationlinks.
-  All5,726UTF8ranges/6,082pins/122images validate;three malformedrange cases reject.
-  All25,961priorfiles/25inventories/30corepins exact;213-test baseline reused.
-  All122 initialcrops and12repairedcrops reviewed before110tasks(40eng/70kor+eng);
-  all110raws read before one sourcepass. No OCRfailures/retries. Twenty-eight candidate
-  notes/30occurrences preserve source syntax/spelling/math inconsistencies;successful
-  OCR's omitted empty-list brackets recovered fromscan. Original/revised evidence retained.
-  Nextbatch27:134–139,then140–145 excludinglower145ad,thenimmutableassembly.
-  Remaining22identities,cover,268-pageaccounting,index/report,independentissuerebuild
-  andcloseout pending. ABC/MSX/numericalanalysis unchanged;use pinnedprivateadapters.
-  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
-  Human acceptance/fullproofreading/sourcebytes/claims/execution unverified;embedded
+  Batch27 restores middle Prologue0014 PDF134–139 at `packages/prologue-b`;
+  opening128–133 immutable. Twelve of18 bodypages now available;final140–145 andassembly
+  remain. All347files independently exact;92regions/76blocks/10originals,23codepanels/
+  227rows/18examplegroups,13grammarrules/39fields,39predicate/operator definitionentries,
+  threeprosejoins/threecodejoins. Incoming받아들여/질 anchored to opening native;
+  outgoingfactorial139/140 remains pending. All6,218ranges/6,490pins/92images pass;
+  three malformedrange cases reject. All27,916priorfiles/26inventories/30corepins exact;
+  213-test baseline reused. All92initialcrops/fiverepairs reviewed before82tasks
+  (23eng/59kor+eng);all82raws read before one sourcepass,zero OCRfailures/retries.
+  Twenty-eight candidatenotes/30occurrences,five source-direct fallbacks,all revisions
+  and failed builder/verifier attempts retained. Nextbatch28:140–145,exclude lower145ad,
+  thenimmutable18-pageassembly. Remaining22identities,cover,268-pageaccounting,index/report,
+  independentissuerebuild/closeout pending. ABC/MSX/numericalanalysis unchanged;
+  retain pinnedprivateadapters. [October log](docs/progress/8510.md),
+  [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+  Humanacceptance/fullproofreading/sourcebytes/claims/execution unverified;embedded
   labels awaitvolunteers. No reader rebuild.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

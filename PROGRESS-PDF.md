@@ -7,23 +7,21 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration is in progress: **16 readable/sample-reviewed entries,
-one partial article and22 unresolved**. Batch26 restores Prologue by정덕기,
-PDF128–133/printed126–131, at `packages/prologue-a`. Its verified full extent is
-PDF128–145; twelve further pages and complete assembly remain. Lower145's independent
-advertisement must be excluded. ABC, numerical analysis and MSX remain complete.
-All461 files independently byte-identical;122 regions/107 blocks/12 originals retain
-40 code panels/107 nonblank rows/20 example groups, three prose joins and distinct
-case captions/example labels/derivative annotations. All5,726 UTF8 ranges,6,082 pins
-and122 images validate; three malformed range cases reject. All25,961 prior files,
-25 inventories and30 core pins remain exact;213-test baseline reused.
-All122 initial crops plus12 repairs reviewed before110 OCR tasks (40eng/70kor+eng);
-all110 drafts read before one source pass. No OCR retries. Twenty-eight candidate
-notes/30 occurrences preserve printed syntax/math/spelling inconsistencies.
-Nextbatch27:PDF134–139, then140–145 and immutable18-page assembly. Remaining22
-identities,cover,268-page accounting,index/report,independent issue rebuild andcloseout
-pending. Human acceptance/fullproofreading/sourcebytes/claims/execution unverified;
-embedded labels await volunteers. No reader rebuild.
-See [October log](docs/progress/8510.md) and
+one partial article and22 unresolved**. Batch27 restores Prologue PDF134–139 at
+`packages/prologue-b`; opening128–133 remains immutable at `packages/prologue-a`.
+Twelve of18 pages are restored; final140–145 and assembly remain. All347 middle
+files independently match:92 regions/76 blocks/10 originals,23 code panels/227 rows/
+18 example groups,13 grammar rules/39 fields,39 predicate/operator definition entries,
+three prose joins and three code joins. All6,218 UTF8 ranges/6,490 pins/92 images pass;
+three malformed range cases reject. All27,916 prior files/26 inventories/30 core pins
+remain exact;213-test baseline reused. Five crop repairs preceded82 OCR tasks;
+all82 raws read before one source pass,zero retries. All revisions/failed attempts
+remain preserved. ABC,numericalanalysis andMSX remain complete.
+Nextbatch28:PDF140–145, retaining factorial continuation and excluding lower145 ad;
+then immutable18-page assembly. Remaining22 identities,cover,268-page accounting,
+index/report,independent issue rebuild andcloseout pending. Human acceptance/full
+proofreading/sourcebytes/claims/execution unverified;diagram labels await volunteers.
+No reader rebuild. See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries

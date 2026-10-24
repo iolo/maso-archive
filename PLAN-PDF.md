@@ -28,37 +28,36 @@ October 1985 restoration continues under step 12: **16 readable/sample-reviewed
 entries, one partial article and 22 unresolved**, accounting for all 39 canonical
 identities. ABC, numerical analysis and MSX remain complete and unchanged.
 
-Batch 26 restores the opening six pages of canonical0014, **고급언어 : 프롤로그**
-by 정덕기, printed126–131/PDF128–133, at `archive/pdf/1985-10/packages/prologue-a`.
-The actual article spans PDF128–145/printed126–143. All18 body pages and adjacent
-127/146–147 were inspected. Lower145 is an independent 우신기술서적 advertisement;
-its exclusion must be mapped in the final segment. Twelve pages and assembly remain.
+Batch 27 restores the middle Prologue pages PDF134–139/printed132–137 at
+`archive/pdf/1985-10/packages/prologue-b`. Opening128–133 remains immutable at
+`packages/prologue-a`. Twelve of the article's18 pages are now restored in two
+natives; final140–145 and complete assembly remain. Lower145's independent
+우신기술서적 advertisement must be excluded in the final map.
 
-All461 files match an independent rebuild. The partial package retains122 regions,
-107 blocks and12 originals: six full pages and six diagram/annotated panels.
-Forty code panels retain107 nonblank rows in20 related example groups; they are not
-one executable program. Three prose joins preserve 없으/면, 보/자. and 질문을/하면.
-Two case captions, two example labels and two derivative annotations remain distinct.
-All5,726 local UTF8 ranges,6,082 evidence pins and122 images validate; three malformed
-range cases reject. All25,961 prior files,25 inventories and30 core pins remain exact.
-The unchanged fresh213-test baseline is reused.
+All347 middle-package files match an independent rebuild. Its92 regions,76 blocks
+and10 originals retain23 code panels/227 nonblank code rows/18 related example
+groups,13 grammar rules/39 fields and39 predicate/operator definition entries.
+Three prose joins and three code-column joins preserve physical source ranges.
+Five example captions remain distinct; four diagrams retain original embedded labels.
+Incoming133받아들여/134질 stays anchored to the opening native; factorial139/140
+remains an explicit pending continuation. Source errors and uncertain glyphs remain.
 
-All122 initial crops were reviewed, then12 repaired crops were separately reviewed
-before110 Tesseract tasks (40eng/70kor+eng). All110 raw drafts were read before one
-source correction pass. No OCR failure or retry. Original and revised maps/crops
-remain preserved. Twenty-eight candidate notes identify30 occurrences, including
-basedall, absent periods, mixed brackets, apostrophe marks, door(g,e), repeated U
-arguments and prose /= versus code backslash. No syntax, math or historical repair.
-Successful OCR's omitted empty-list brackets were recovered directly from the scan.
+All6,218 local UTF8 ranges,6,490 evidence pins and92 images validate; three malformed
+range cases reject. All27,916 prior files,26 inventories and30 core pins remain exact;
+the unchanged213-test baseline is reused. All92 initial crops and five repairs were
+reviewed before82 tasks(23eng/59kor+eng); all82 raw drafts were read before one
+source pass. No OCR failure or retry. Twenty-eight candidate notes identify30
+occurrences; five source-direct fallbacks recover successful OCR omissions/damage.
+Original and revised maps, crops, metadata and failed verifier/builder attempts remain.
 
-Next is **batch27: middle Prologue pages PDF134–139**. Reuse saved batch26 views;
-keep incoming133받아들여/134질 continuation. Then restore140–145 and assemble all18
-pages. Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining22 identities,
-cover selection,268-page accounting,standalone index/report,independent issue rebuild
-and closeout remain. Use batch24's pinned numerical-literal-v1 and batch20's MSX
-adapter for their assembly checks. Human acceptance/full proofreading,source encoded
-bytes,technical/historical claims and execution remain unverified; embedded diagram
-labels await volunteers. No reader rebuild.
+Next is **batch28: final Prologue pages PDF140–145**, then immutable18-page assembly.
+Reuse saved batch26 views; retain the factorial continuation and exclude lower145's
+advertisement. Keep two-task/six-mapped-page/twenty-outside-lookup limits. Remaining22
+identities, cover selection,268-page accounting, standalone index/report, independent
+issue rebuild and closeout remain. Use batch24's pinned numerical-literal-v1 and
+batch20's MSX adapter for their assembly checks. Human acceptance/full proofreading,
+source encoded bytes,technical/historical claims and execution remain unverified;
+embedded diagram labels await volunteers. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
