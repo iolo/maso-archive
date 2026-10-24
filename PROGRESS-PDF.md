@@ -6,22 +6,22 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration is in progress: **16 readable/sample-reviewed entries,
-one partial article and22 unresolved**. Batch28 restores finalPrologue PDF140–145 at
-`packages/prologue-c`;all18 bodypages128–145 are now restored across three immutable
-natives. Complete assembly remains,so availability stayspartial. Lower145ad excluded.
-All469 finalfiles independently match:121regions/79blocks/8originals,35codepanels/
-224rows/10groups,13editordefinitions,18numberedrows,26commands,19annotationfragments,
-threefilenamepairs,sevenlimits,eightreferences and34internaljoins. All6,147ranges/
-6,509pins/121images pass;three malformedrange cases reject. All29,401priorfiles/
-27inventories/30corepins unchanged;213-test baseline reused. Eleven crop repairs
-preceded113OCRtasks;all113raws read before one sourcepass,zero retries. Every revision
-andfailedattempt retained. ABC,numericalanalysis andMSX remain complete.
-Nextbatch29:assemble18-pagePrologue with two cross-segment joins andallnative metadata;
-thencanonical0016MSX구석구석 fromPDF146. Remaining22identities,cover,268-pageaccounting,
-index/report,independentissuerebuild andcloseout pending. Humanacceptance/fullproofreading/
-sourcebytes/claims/execution unverified;earlier diagramlabels awaitvolunteers.
-No reader rebuild. See [October log](docs/progress/8510.md) and
+October 1985 restoration is in progress: **17 readable/sample-reviewed entries,
+no partial articles and22 unresolved**. Batch29 completes all18 Prologue pages
+PDF128–145 at `packages/prologue-complete`; no Prologue assembly remains pending.
+All1,286 files independently match, including1,277 exact native files.335 regions,
+260 blocks and30 originals retain98 code panels/558 nonblank rows/47 example groups.
+Prose133/134 and factorial139/140 join once;43 internal joins and lower145 ad exclusion
+remain. All42 native categories/126 slices/full metadata reverse-project;36,582 UTF8
+ranges/39,439 pins/335 images validate. Five negative cases reject. All31,381 prior
+files/28 inventories/30 core pins remain unchanged;213-test baseline reused.
+No new mapping/render/OCR/source correction. Verifier revisions/failure preserved.
+ABC, numerical analysis and MSX remain complete. Use pinned private assembly adapters.
+Nextbatch30:canonical0016 MSX 구석구석 fromPDF146; inspect extent before mapping.
+Remaining22 identities,cover,268-page accounting,index/report,independent issue rebuild
+and closeout pending. Human acceptance/full proofreading/source bytes/claims/execution
+unverified; earlier diagram labels await volunteers. No reader rebuild.
+See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries
