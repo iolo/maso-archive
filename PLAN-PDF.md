@@ -24,24 +24,26 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Nine of39 canonical entries are now
+October restoration is active under step12. Ten of39 canonical entries are now
 readable and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,
-QA,디버깅 룸,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II,DEF and
-가로세로 체크썸. Their54/116/140/171/70/155/150/197/237-file packages independently match.
-가로세로 체크썸 covers printed51–56/PDF53–58,excluding completed DEF above its opening.
-Its40 blocks retain253 assembly ordinals/259 physical assembly rows,two checksum
-examples and a60-row dump (100 total rows/800 byte pairs),four headers/four checksum
-footers,seven variables/39 address explanations,five commands/two inline commands
-and eight originals. All55 drafts read before one source pass;zero OCR failures/retries.
-One pre-OCR revision repairs two prose crops;all61 others unchanged. All6,688 UTF8
-ranges/6,869 evidence pins/63 images validate. Fresh213 PDF tests passed at batch01;
-unchanged baseline reused through batch09. All4,533 earlier October files and30 core
-implementation pins remain exact. No reader rebuild;30 entries,cover selection,
+QA,디버깅 룸,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,FORMAT II,DEF,
+가로세로 체크썸 and 자동메뉴 II by정우진. Their
+54/116/140/171/70/155/150/197/237/97-file packages independently match.
+정우진's article covers printed57–59/PDF59–61,including the closing editorial note.
+Its16 blocks retain77 BASIC labels/111 physical rows (one blank),two monitor commands,
+five continuation joins and four originals. Source SELETE=0,missing110,missing opening
+quote on240 and310 = < remain literal;three dash-band counts remain unknown.
+All25 exact crops viewed before21 tasks;all drafts read before one source pass.
+Zero OCR failures,retries or crop repairs. All2,266 UTF8 ranges/2,337 evidence pins/
+25 images validate. Fresh213 PDF tests passed at batch01;unchanged baseline reused
+through batch10. All5,542 earlier October files and30 core implementation pins remain
+exact. No reader rebuild;29 entries,cover selection,
 source-page accounting and closeout remain.
 
-Next is batch10: verify canonical0010,자동메뉴 II by정우진,
-from printed57/PDF59,including its ending and adjacent page. Keep it distinct from
-canonical0011 of the same title by서동철. Reuse saved PDF58–59 views and retain the
+Next is batch11: restore canonical0011,자동메뉴 II by서동철,
+across verified printed60–63/PDF62–65upper. Exclude independent 함수그래프 II below
+onPDF65. Preserve the printed byline strike-through/handwritten annotation separately
+from canonical서동철. Reuse saved PDF61–65 views and retain the
 two-task/six-mapped-page/twenty-outside-lookup limits. Canonical title and order stay
 unchanged. Details and remaining issue work: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
