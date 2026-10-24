@@ -454,12 +454,51 @@
       "toc_entry_id": "maso-1985-10-toc-0026",
       "title": "디버깅 룸",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0026 디버깅 룸 opens printed36/PDF38 after independent association notice printed35/PDF37;continues and ends upper printed37/PDF39 above independent book advertisement.",
+        "PDF40/printed38 andPDF41/printed39 form the next 베이직을 꼭 배워야 합니까? opening;PDF42/printed40 is its prose. These are outside current body.",
+        "Four correction notices:June TOILER ADVENTURE BASIC590;August determinant explanation;September 생명 listings1-1/2-1 continuation dumps;September page52 MXS→MSX correction. Historical target issues are references only,not fetched or changed.",
+        "Dump1 continues left-bottom→right-topPDF38;dump2 continues right-bottomPDF38→left-upperPDF39. Addresses/checksums are literal source strings,not calculated or disassembled.",
+        "Two determinant illustrations and horse ornament preserved as original pixels;formula labels remain image-only pending volunteers. No captions or byline invented."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-05-r01/debugging",
+        "article_id": "scan-maso-1985-10-toc-0026",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-05-r01/debugging/manifest.json",
+          "sha256": "a9f7e4e7bac68eb5ea16743b857bff1bc5d94ad88b4ffb6626eb3e9417419c05",
+          "bytes": 11416
+        },
+        "coverage": {
+          "pdf_pages": [
+            38,
+            39
+          ],
+          "printed_pages": [
+            "36",
+            "37"
+          ],
+          "regions": 19,
+          "blocks": 12,
+          "figures": 5,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-05/validation.json",
+          "sha256": "2dcdbef1b1b041009894b4a8acca84fc6375be83903e7991e16a99f444f90b5e",
+          "bytes": 1510
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-05/reproduction.json",
+          "sha256": "3190b60ba17e0be05d814d8d1bf273b2f4b636a4bdb19467da8f4e650b3a49ac",
+          "bytes": 1184
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0027",
@@ -607,10 +646,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 4,
+    "readable": 5,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 35
+    "unresolved_eligibility": 34
   },
   "checkpoints": [
     {
@@ -766,6 +805,46 @@
       "started_at": "2026-10-24T03:07:19.270499+00:00",
       "finished_at": "2026-10-24T03:17:25.197588+00:00",
       "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-05",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0026"
+      ],
+      "mapped_pdf_pages": [
+        38,
+        39
+      ],
+      "outside_map_lookup_pages": [
+        37,
+        40,
+        41,
+        42
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 14,
+      "eng_code_tasks": 5,
+      "kor_eng_tasks": 9,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-05/validation.json",
+        "sha256": "2dcdbef1b1b041009894b4a8acca84fc6375be83903e7991e16a99f444f90b5e",
+        "bytes": 1510
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-05/verification-completed.json",
+        "sha256": "a311173063e20a96a3bc8350478573377ad12f066e1e483e9be5e568a0bf1a99",
+        "bytes": 618
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-05-preserved-work.json",
+        "sha256": "2f6f66a3a4c37bef9fbb8a7d7d8537341cf1c337bf12b85497f77d3064a01e4e",
+        "bytes": 510875
+      },
+      "started_at": "2026-10-24T03:19:01.489134+00:00",
+      "finished_at": "2026-10-24T03:27:14.361203+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -879,28 +958,73 @@
     {
       "pdf_page": 38,
       "printed_page": "36",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0026"
       ],
-      "restoration": "pending"
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": "37",
+      "classification": "mixed-article-and-advertisement",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0026"
+      ],
+      "restoration": "complete",
+      "excluded_region_ids": [
+        "p39-book-advertisement"
+      ],
+      "evidence": "Upper debugging-room final with horse illustration and MXS→MSX erratum;lower independent APPLE book advertisement."
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": "38",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "restoration": "pending",
+      "evidence": "First half of two-page photographic title 꼭 베이직을 배워야 합니까?"
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": "39",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "restoration": "pending",
+      "evidence": "Second half of same photographic title."
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": "40",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0015"
+      ],
+      "restoration": "pending",
+      "evidence": "Three-column prose continuing opening subject;ending not yet verified."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-05",
-    "goal": "Verify 디버깅룸 extent from printed36/PDF38 and restore complete bounded article or first segment.",
+    "id": "batch-06",
+    "goal": "Verify 퍼스컴 입문 : 베이직을 꼭 배워야 합니까? extent from printed38/PDF40 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0026"
+      "maso-1985-10-toc-0015"
     ],
-    "mapping_targets": "Starts PDF38/printed36;actual end and intervening pages unverified.",
+    "mapping_targets": "Opening PDF40–41/printed38–39 and bodyPDF42/printed40 observed;actual end to verify. Preserve canonical title/order.",
     "provisional_lookup_targets": [
-      37,
-      38,
       39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45,
+      46
     ],
     "limits": {
       "articles": 2,
@@ -912,7 +1036,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining35 identities and remaining source-page accounting require inspection;no global page offset inferred."
+    "Remaining34 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

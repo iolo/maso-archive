@@ -19,16 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: canonical0022 편집자 노트,0023 애독자 광장,0024
-  입력이 힘드십니까? and0025 QA are complete on PDF28–36. Four of39 entries are
-  readable/sample-reviewed;35 await restoration/classification. Their54/116/140/171-file
-  packages independently match. QA retains three question/answer groups,three diagrams,
-  eight code groups/22 physical rows,12 BASIC labels and three prose joins. PDF37 is an
-  independent association notice. All39 QA drafts read before one source correction
-  pass;one diagram edge repaired before OCR,no retries. All1,328 prior October files
-  and30 core pins remain exact;fresh213-test batch01 baseline reused. Next batch05:
-  verify canonical0026 디버깅룸 from printed36/PDF38,including ending/adjacent page;
-  reuse PDF37/38. Cover/accounting/closeout remain.
+- October 1985 is active: five of39 entries are readable/sample-reviewed:
+  편집자 노트,애독자 광장,입력이 힘드십니까?,QA and 디버깅 룸. Their54/116/140/171/70-file
+  packages independently match. Debugging room covers printed36–37/PDF38–39;
+  lowerPDF39 advertisement excluded. Four correction notices,one BASIC line/two
+  physical rows,two dump groups/66rows/519byte pairs/nine blank byte positions and
+  five original images remain. All14 drafts read before one source correction pass;
+  no OCR failures,retries or crop repairs. All2,054 earlier October files and30 core
+  pins exact;fresh213-test batch01 baseline reused. Next batch06: verify canonical0015,
+  퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,from printed38/PDF40,including ending/adjacent
+  page;reuse PDF39–42. Remaining34 entries,cover/accounting/closeout remain.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for

@@ -24,20 +24,21 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Canonical0022 편집자 노트,0023
-애독자 광장,0024 입력이 힘드십니까? and0025 QA are complete across PDF28–36:
-four readable,assistant sample-reviewed articles;35 of39 entries await restoration
-or classification. Their54/116/140/171-file packages independently match. QA retains
-three question/answer groups,three diagrams,eight code groups/22 physical rows,
-12 BASIC labels and three prose joins. PDF37 is an independent association notice.
-Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch04.
-All1,328 earlier October files and30 core implementation pins remain exact.
-No reader rebuild;cover selection,source-page accounting and issue closeout remain.
+October restoration is active under step12. Five of39 canonical entries are now
+readable and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,
+QA and 디버깅 룸. Their54/116/140/171/70-file packages independently match.
+Debugging room covers printed36–37/PDF38–39,retaining four correction notices,
+one BASIC line,two dump groups/66rows/519byte pairs and five original images.
+LowerPDF39 book advertisement is excluded;printed irregularities remain literal.
+Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch05.
+All2,054 earlier October files and30 core implementation pins remain exact.
+No reader rebuild;34 entries,cover selection,source-page accounting and closeout remain.
 
-Next is batch05: verify 디버깅룸,canonical0026,from printed36/PDF38,
-including its ending and adjacent page. Reuse saved PDF37/38 views and retain
-the two-task/six-mapped-page/twenty-outside-lookup limits. Details and remaining
-issue work: [October log](docs/progress/8510.md) and
+Next is batch06: verify canonical0015,퍼스컴 입문 : 베이직을 꼭 배워야 합니까?,
+from printed38/PDF40,including its ending and adjacent page. Reuse saved PDF39–42
+views and retain the two-task/six-mapped-page/twenty-outside-lookup limits.
+Canonical title and order stay unchanged. Details and remaining issue work:
+[October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 
 ## March 1985 closeout, 2026-10-23
