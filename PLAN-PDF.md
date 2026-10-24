@@ -30,35 +30,34 @@ QA, 디버깅 룸, 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FOR
 가로세로 체크썸, both 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱,
 and 테이프용 MLE by 박성준. All thirteen packages independently match their rebuilds.
 
-The MSX feature remains partial,with printed73–96/PDF75–98 restored in four
-immutable packages:`archive/pdf/1985-10/packages/msx-a`, `packages/msx-b`,
-`packages/msx-c`,and `packages/msx-d`. Latest batch17 has305 files matching its
-independent rebuild. Its86 regions yield57 blocks and16 original images. Seven
-code groups retain117 physical rows:58 disassembly instructions,two commands,
-24 BASIC rows,29 dump rows/256 byte fields and four display-header rows.
-Ten more system-call entries,nine editing keys and six control keys remain indexed.
+The MSX feature remains partial, with printed73–102/PDF75–104 restored in five
+immutable packages: `archive/pdf/1985-10/packages/msx-a` through `packages/msx-e`.
+Latest batch18 has184 files matching its independent rebuild. Its52 regions yield
+25 blocks and11 original images. Four code groups retain168 physical rows:
+140 assembly rows,three listing banners,16 dump rows,four BASIC lines and five
+command/example rows. Assembly retains137 numbered lines1000–2360 and three
+unnumbered packed-byte continuations,605 fields and375 explicit blank columns.
 
-All86 final crops reviewed before70 tasks (15eng/55kor+eng). Eleven replacement
-crops repair coverage/margins and overlapping boundaries;both revisions remain.
-All drafts read before one source pass;zero OCR failures/retries. All3,583 UTF8
-ranges,3,822 evidence pins and86 images validate. All10,600 prior files,16 inventories
-and30 core pins remain exact;fresh213-test batch01 baseline reused. Initial metadata
-preparer accidentally matched H→시 inside2CH→시간;fresh parser adds a boundary.
-Failed attempt retained;source transcription unchanged.
+All52 final crops reviewed before41 tasks (16eng/25kor+eng). Seven replacement
+crops repair two shared row boundaries and three prose margins;both revisions remain.
+All drafts read before one source pass;zero OCR failures/retries. All4,357 UTF8
+ranges,4,505 evidence pins and52 images validate. All11,901 prior files,17 inventories
+and30 core pins remain exact;fresh213-test batch01 baseline reused.
 
-Printed repeatedC01E,4010,DATAE,PEEK(J)/PEEK(I),BYPE and 일정시킨다 remain literal.
-BASIC has41 DATA fields and10 strings;unaddressed dump fragments retain no invented
-addresses. Nineteen explicit markers preserve12 boxed characters,one uncertain key
-glyph and six unknown dot bands. Diagrams/annotations remain original images with
-labels awaiting volunteers. Full article assembly,remaining25 identities,cover
-selection,page accounting and closeout remain. No reader rebuild.
+Table23 retains36 DEFB fields,15 EQU operands and one DEFM message;table24 retains
+256 dump bytes. BASIC has39 DATA fields and one string. Two BIOS entries,eight
+key-to-value examples,twelve boxed-arrow markers and16 joins remain indexed.
+Source AUTOEXFC.BAT,C01FFH/C0FFH,diskett/copyed and repeated용 remain literal.
+Diagrams/annotations remain original images with labels awaiting volunteers.
+Full article assembly,remaining25 identities,cover selection,page accounting and
+closeout remain. No reader rebuild.
 
-MSX ends on printed104/PDF106 after inserted advertisement105;107 is another
-advertisement and108 starts 수치해석 (4). Interior100–103 is still uninspected.
-Next is batch18:inspect and restore from printed97/PDF99,mapping at most99–104
-and checking adjacent98/105. Reuse saved98–99;preserve all four natives unchanged.
-Continue98코드→99에 해당되는. Final106 remains a later bounded checkpoint before
-full assembly. Keep two-task/six-mapped-page/twenty-outside-lookup limits.
+All31 MSX body pages are now visually classified:PDF75–104 and106. Advertisement105
+is excluded;107 is another advertisement and108 starts 수치해석 (4).
+Next is batch19:restore final printed104/PDF106, reusing saved104–108 boundary
+sources as needed. Continue104카피→106명령을 across advertisement105. Preserve all
+five completed natives;assemble all six after the final native is validated.
+Keep two-task/six-mapped-page/twenty-outside-lookup limits.
 Details:[October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 

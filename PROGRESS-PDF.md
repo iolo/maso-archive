@@ -10,15 +10,15 @@ October 1985 restoration is in progress. Thirteen of 39 canonical entries are re
 and assistant sample-reviewed: 편집자 노트, 애독자 광장, 입력이 힘드십니까?, QA, 디버깅 룸,
 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?, FORMAT II, DEF, 가로세로 체크썸, both
 자동메뉴 II articles by 정우진/서동철, 함수그래프 II by 이진욱, and 테이프용 MLE by 박성준.
-All thirteen complete packages independently match. MSX remains partial:printed73–96/
-PDF75–98 is restored in four immutable natives. Latest305-file segment independently
-matches;86 regions/57 blocks/16 originals retain117 code rows,ten more system-call
-entries,nine editing keys and six control keys. Fresh213-test batch01 baseline remains
-unchanged through batch17. Thirteen readable,one partial and25 unresolved entries
-account for all39 identities. MSX continuation/assembly,cover selection,source-page
-accounting and issue closeout remain. Next inspect and restore at mostPDF99–104,
-carrying the control-code explanation. Ending104/PDF106 is verified,but interior
-coverage remains incomplete. See [October log](docs/progress/8510.md) and
+All thirteen complete packages independently match. MSX remains partial:printed73–102/
+PDF75–104 is restored in five immutable natives. Latest184-file segment independently
+matches;52 regions/25 blocks/11 originals retain168 code rows,including140 assembly
+rows and16 dump rows/256 bytes. All4,357 UTF8 ranges validate;11,901 prior files and
+30 implementation pins unchanged. Fresh213-test batch01 baseline reused through
+batch18. Thirteen readable,one partial and25 unresolved entries account for all39
+identities. All31 MSX body pages visually classified;next restore finalPDF106,then
+assemble six natives. Advertisement105 excluded. Cover selection,source-page accounting
+and issue closeout remain. See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json). No reader rebuild.
 
 March 1985 is complete under the canonical TOC JSON/assets scope. All 48 entries

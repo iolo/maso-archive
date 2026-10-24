@@ -55,15 +55,24 @@
         "PDF97error dump has a first unaddressed byte fragment and two addressed rows;do not invent a printedC079address. FCB layout follows. Section8and nine special editing-key entries start97;examples continue98.",
         "PDF98left ending저 continuesright장되었을 때. Section9control keys follows;last prose ends코드 and continues99에 해당되는. Next page99 starts section10 and disk-file autoexecution material;not mapped in this checkpoint.",
         "Six mapped pages93–98,two outside-map lookups92/99,one canonical task. Full endpoint106 and advertisement105 already known;interior100–103 remains uninspected. Full assembly pending.",
-        "All diagram labels/annotations retain original pixels pending volunteers;plain listing/code text and captions handled separately. Boxed letters/cursor examples remain original in full-page images;Unicode transcription cannot certify source encoded glyphs."
+        "All diagram labels/annotations retain original pixels pending volunteers;plain listing/code text and captions handled separately. Boxed letters/cursor examples remain original in full-page images;Unicode transcription cannot certify source encoded glyphs.",
+        "Canonical0001 continuation printed97–102/PDF99–104;previous immutable msx-a/b/c/d75–98 remain unchanged. Canonical title/order/parent preserved.",
+        "Nine whole-page views98–106 inspected. Six mapped pages contain no advertisements.105isTOPIA-ROMPACK advertisement outside article body;106is finalarticle page104. No global folio offset inferred.",
+        "Incoming98코드→99에 해당되는 completescontrol-key explanation. Single-drive guidance/command example/illustration precede autoexecution section. Batch prose99AU-→100TOEXEC.BAT continues;newboot-method subsection follows.",
+        "Table23annotated assembly starts100line1000 and ends103line2360. Three printed listing banners retained separately;137numbered source lines plus three unnumbered packed-byte continuation rows under2350. Code columns,comments,blank slots,DEFB/DEFM fields and original annotation panels require independent indexing.",
+        "Source BIOS explanation on103endsGTSTCK heading inleftcolumn,continuesrightand104top. Boxed directional-key symbols remain original pixels and need explicit transcription evidence.",
+        "Table24bootdump on104has16rowsC000–C0F0;four-lineBASIC1000–1030 below. Prose104leftPUSH S→rightPACE KEY is continuous. Protection section starts104andcontinuesafteradvertisement105to106카피 명령을.",
+        "Full MSX body candidates75–104and106now visuallyclassified;no interior pages remain uninspected. Current only99–104;final106restoration and complete assembly remain pending.",
+        "Six mapped pages,three outside-map lookups98/105/106,one canonical task. Prior106source reused. Generic preparer redundantly rendered104–105alreadyretainedinbatch14;bothrenderattemptspreserved,notOCRretries.",
+        "All annotations/illustration retained as original images;diagram-label transcription awaits volunteers. No execution or historical/technical verification."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-10/packages/msx-d",
+        "directory": "archive/pdf/1985-10/packages/msx-e",
         "article_id": "scan-maso-1985-10-toc-0001",
         "manifest": {
-          "path": "archive/pdf/1985-10/packages/msx-d/manifest.json",
-          "sha256": "e75cb832ec9e029aaa2a80b4cbacf26d66b7053c3427ad22d5419716bbe8da0e",
-          "bytes": 50647
+          "path": "archive/pdf/1985-10/packages/msx-e/manifest.json",
+          "sha256": "dad580d5b5ec8c6286dfa76d1520a9b55d7b4738760fd09f8fe9f349d2ad4fea",
+          "bytes": 30561
         },
         "coverage": {
           "pdf_pages": [
@@ -90,7 +99,13 @@
             95,
             96,
             97,
-            98
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104
           ],
           "printed_pages": [
             "73",
@@ -116,12 +131,18 @@
             "93",
             "94",
             "95",
-            "96"
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102"
           ],
-          "regions": 272,
-          "blocks": 166,
-          "figures": 49,
-          "coverage_scope": "Cumulative coverage of four immutable native segments;no assembled full-article package yet. directory/manifest select latest segment only.",
+          "regions": 324,
+          "blocks": 191,
+          "figures": 60,
+          "coverage_scope": "Cumulative coverage of five immutable native segments;no assembled full-article package yet. directory/manifest select latest segment only.",
           "provisional_full_pdf_pages": [
             75,
             76,
@@ -156,21 +177,10 @@
             106
           ],
           "deferred_pdf_pages": [
-            99,
-            100,
-            101,
-            102,
-            103,
-            104,
             106
           ],
-          "full_extent_status": "Endpoints75/106 verified;interior100–103 not inspected;provisional remaining candidates exclude known105 advertisement.",
-          "uninspected_interior_pdf_pages": [
-            100,
-            101,
-            102,
-            103
-          ],
+          "full_extent_status": "All31 article body pages visually classified;105interleaved advertisement excluded;107advertisement and108nextarticle independently establish ending.",
+          "uninspected_interior_pdf_pages": [],
           "known_interleaved_advertisement_pdf_pages": [
             105
           ]
@@ -279,19 +289,45 @@
               "96"
             ],
             "availability": "partial"
+          },
+          {
+            "id": "msx-e",
+            "directory": "archive/pdf/1985-10/packages/msx-e",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/msx-e/manifest.json",
+              "sha256": "dad580d5b5ec8c6286dfa76d1520a9b55d7b4738760fd09f8fe9f349d2ad4fea",
+              "bytes": 30561
+            },
+            "pdf_pages": [
+              99,
+              100,
+              101,
+              102,
+              103,
+              104
+            ],
+            "printed_pages": [
+              "97",
+              "98",
+              "99",
+              "100",
+              "101",
+              "102"
+            ],
+            "availability": "partial"
           }
         ],
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1985-10/restoration/batch-17/validation.json",
-          "sha256": "179b567df67d46f2ac38868253f5f50e71b102d0924568cb295d5dea6ec4b290",
-          "bytes": 2408
+          "path": "archive/pdf/1985-10/restoration/batch-18/validation.json",
+          "sha256": "677818f2aebf6c8c16f112650b501486b71774079f56364e95ccf0cefe6cdb04",
+          "bytes": 2437
         },
         "reproduction": {
-          "path": "archive/pdf/1985-10/restoration/batch-17/reproduction.json",
-          "sha256": "2ed06fecf838495a7d65be7cc79c84ae9823739ac33be5313c22372e56242edd",
-          "bytes": 1281
+          "path": "archive/pdf/1985-10/restoration/batch-18/reproduction.json",
+          "sha256": "e25dea3c41fa2696d2bc40b02d84817dcf711c9e97b5b3c5403680a060ef0546",
+          "bytes": 1286
         }
       }
     },
@@ -2063,6 +2099,56 @@
         106
       ],
       "assembly_required": true
+    },
+    {
+      "id": "batch-18",
+      "status": "complete",
+      "stage": "validated-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "mapped_pdf_pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "outside_map_lookup_pages": [
+        98,
+        105,
+        106
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 41,
+      "eng_code_tasks": 16,
+      "kor_eng_tasks": 25,
+      "source_correction_passes": 1,
+      "crop_repairs": 7,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-18/validation.json",
+        "sha256": "677818f2aebf6c8c16f112650b501486b71774079f56364e95ccf0cefe6cdb04",
+        "bytes": 2437
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-18/verification-completed.json",
+        "sha256": "bfd98189c8b758a6f2f73db49218e16a39e00f8367a73836e53d818d84912af6",
+        "bytes": 935
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-18-preserved-work.json",
+        "sha256": "bd9d513a542d30402623fd2551d5c973a051b3df31e4028d1626f7f9f2090e86",
+        "bytes": 2746652
+      },
+      "started_at": "2026-10-24T08:37:11.001718+00:00",
+      "finished_at": "2026-10-24T08:53:17.046076+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [
+        106
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -2619,12 +2705,12 @@
     {
       "pdf_page": 104,
       "printed_page": "102",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "pending",
-      "evidence": "Protection discussion continues into106 across advertisement105."
+      "restoration": "middle-native-complete;article-partial",
+      "evidence": "GTSTCK ending;table24bootdump16rows256bytes,fourBASIC lines,bootwrite prose andprotection section opening."
     },
     {
       "pdf_page": 105,
@@ -2632,17 +2718,17 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "evidence": "Independent TOPIA ROM PACK membership advertisement;not MSX article body."
+      "evidence": "Whole TOPIA-ROMPACK advertisement between article104and106;source viewed and retained."
     },
     {
       "pdf_page": 106,
       "printed_page": "104",
-      "classification": "article-ending-observed",
+      "classification": "article-continuation-observed",
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
       "restoration": "pending",
-      "evidence": "Concludes protection discussion after listings25/26;ends before107advertisement. Endpoints do not prove uninspected82–103continuity."
+      "evidence": "Final MSX page;starts명령을 after104카피 across105advertisement;protection diagram,BASIC tables25/26,prose/conclusion anddecorative title. Whole source viewed;not transcribed in batch18."
     },
     {
       "pdf_page": 107,
@@ -2835,31 +2921,68 @@
     {
       "pdf_page": 99,
       "printed_page": "97",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0001"
       ],
-      "restoration": "pending",
-      "evidence": "Startscontrol-code explanation에 해당되는;section10single-drive guidance,illustration,anddisk-file autoexecution/batch processing start. Source retained;not transcribed in batch17."
+      "restoration": "middle-native-complete;article-partial",
+      "evidence": "Incomingcontrol-key explanation;single-drive guidance/example/illustration andautoexecution/batch processing opening."
+    },
+    {
+      "pdf_page": 100,
+      "printed_page": "98",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "middle-native-complete;article-partial",
+      "evidence": "Batchprose ending;boot-sector autoexecution introduction;table23assembly1000–1220 and firstbanner/annotations."
+    },
+    {
+      "pdf_page": 101,
+      "printed_page": "99",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "middle-native-complete;article-partial",
+      "evidence": "Table23assembly1230–1650 with secondbanner anddirection/coordinate/delay annotations."
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": "100",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "middle-native-complete;article-partial",
+      "evidence": "Table23assembly1660–2130 with VRAM/register diagram andannotations."
+    },
+    {
+      "pdf_page": 103,
+      "printed_page": "101",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0001"
+      ],
+      "restoration": "middle-native-complete;article-partial",
+      "evidence": "Table23assembly2140–2360,thirdbanner,three unnumberedbytewraps;BIOS GTTRIG/GTSTCK explanation anddirectionalkey mapping."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-18",
-    "goal": "Restore next MSX feature segment from printed97/PDF99;preserve all four natives.",
+    "id": "batch-19",
+    "goal": "Restore final MSX feature page printed104/PDF106,then assemble all six immutable natives in a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0001"
     ],
-    "mapping_targets": "Inspect and map at most PDF99–104,with adjacent98/105. Reuse saved98–99. Carrycontrol-code explanation98코드→99에 해당되는. Verify remaining interior continuity. Known105 advertisement excluded;final106 remains later checkpoint before full assembly.",
+    "mapping_targets": "Map onlyPDF106;reuse saved104–108boundary sources as needed. Carry104카피→106명령을 across excluded advertisement105. Final106ends before107advertisement and108수치해석(4). Preserve all five completed natives;complete assembly follows final native.",
     "provisional_lookup_targets": [
-      98,
-      99,
-      100,
-      101,
-      102,
-      103,
       104,
-      105
+      105,
+      106,
+      107,
+      108
     ],
     "limits": {
       "articles": 2,
@@ -2871,7 +2994,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "MSX is partial:PDF75–98 restored in four immutable natives;remaining99–106 excluding known105 advertisement and complete assembly pending. Interior100–103 still uninspected. Another25 identities,cover selection,remaining source-page accounting and closeout remain;no global page offset inferred."
+    "MSX is partial:PDF75–104 restored in five immutable natives;all31body pages visuallyclassified,105advertisement excluded. Final106 restoration and complete assembly pending. Another25 identities,cover selection,remaining source-page accounting and closeout remain;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
