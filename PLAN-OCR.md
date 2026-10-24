@@ -19,29 +19,29 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:22 readable/sample-reviewed,zero partial articles,17 unresolved.
-  Batch44 completes 뷰티풀 텍스트0019/김덕현 at `packages/beautiful-complete-r01`:
-  all11 pages194–204/192–202,324 files independently exact,315 immutable native files
-  unchanged,87 regions/48 blocks/17 originals. No bodypages orassembly pending.
-  Complete guide11 usage entries/17 routine explanations;705 machine-code rows/
-  1,503bytefields/4,190fields;3 BASIC examples5numberedentries/6physicalrows;demo120
-  numberedentries/151nonblankrows plusoneblank. Complete index correctsnative152 count
-  whilepreservingnative. One09F0→09F3 join and21 nativejoins retainoriginalboundaries.
-  All72category slices/10objects/8reservedarrays/4scalars preserved;25,520 independently
-  projected ranges;all56,065 range occurrences/56,780 pins/87images validate. Eight
-  malformed fixtures reject. Six stale stage notes resolved onlyinactivepackage.
-  All52,981 prior files/43inventories/30 corepins exact;unchanged213-test baseline reused.
-  Newinventory:55,279 files. Six savedwholeviews;no newrender/mapping/OCR/sourcecorrection.
-  Initialadapter scope-field failure retained;freshrevision supports bothnativeforms.
-  Retain71 candidates,3unknownblank bands,100quotedstrings,199demoquotemarks,5unmatched
-  quotes,360crosspagequote,duplicate790,MAID BY,KET,SWITCHS andsourcepunctuation.
-  Nextbatch45:canonical0027 과월호 디스켓/175 and0028 소프트웨어 공모/203 atcandidate
-  PDF177/205;verify extent/adjacentpages.205 visiblefolio null,canonicalTOC203 unchanged.
-  Parent0017/0021,17 unresolved identities,cover,268-pageaccounting,index/report,
-  independentissue rebuild andcloseout remain. Keep batch44Beautiful Text,batch41Arong,
-  batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters.
-  Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified;
-  embeddedlabels awaitvolunteers. No readerrebuild.
+- October1985 active:24 readable/sample-reviewed,zero partial articles,15 unresolved.
+  Batch45 completes TOC-listed0027 과월호 디스켓/PDF177 at `packages/disk-notice`
+  (61 files) and0028 소프트웨어 공모/PDF205 at `packages/contest-notice` (57 files).
+  Both independently exact; visiblefolios null,canonicalTOC175/203 unchanged.
+  Disk14regions/13blocks/oneoriginal retain6bundles/84programrows/167name-month fields,
+  6prices/5내용labels,3languagepackages,로드런너Ⅲ andorderingdetails. CALL3327한글 has
+  no month;malformedMLE(Ⅱ(6),낙시,로즈런너 andsoftname candidates remainliteral.
+  Contest13regions/12blocks/oneoriginal retaincurvedheader/intro,10groups/27numbered
+  andnesteditems,11submissionfields,3prizes,3criteriaweights and4contactfields.
+  Threeleaderbands haveunknowncounts;physicalwraps/oddparenthesis remain. No byline
+  invented frompublisherlogo. All1,622 ranges/1,703pins/27images validate;6negativecases
+  reject. All55,279 priorfiles/44inventories/30corepins exact;213-testbaseline reused.
+  Newinventory:55,757 files. Sixreusedwholeviews,2mapped/4outside,all27crops reviewed
+  before25kor+eng tasks;allraws read beforeone sourcepass. ZeroOCRfailures/retries/
+  cropchanges. Source-direct fallback foromitted/garbledheadings;verifier syntaxfailure
+  retained withfresh typo-only revision.24candidateoccurrences/23notes preserved.
+  Current177ownership corrects earlierprovisionaloutside-canonical annotation to0027;
+  205assigned0028. Frozenrecords unchanged. Nextbatch46:verifyextent/restorenews0029
+  from206/printed204. Parent0017/0021,15unresolvedidentities,cover,268-pageaccounting,
+  index/report,independentissue rebuild andcloseout remain. Keep batch44BeautifulText,
+  batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX
+  adapters. Humanacceptance/fullproofreading,sourcebytes/claims/currentoffers/contacts
+  unverified. No readerrebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

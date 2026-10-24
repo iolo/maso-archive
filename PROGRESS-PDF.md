@@ -6,55 +6,56 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration continues under step 12: **22 readable/sample-reviewed
-entries, zero partial articles and 17 unresolved**, accounting for all39 canonical
+October 1985 restoration continues under step12: **24 readable/sample-reviewed
+entries, zero partial articles and15 unresolved**, accounting for all39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch44 completes canonical0019 **뷰티풀 텍스트** by 김덕현 at
-`archive/pdf/1985-10/packages/beautiful-complete-r01`, covering PDF194–204 /
-printed192–202. All324 files match an independent rebuild. All315 files from immutable
-`beautiful-a` and `beautiful-b` remain exact. The complete article retains87 regions,
-48 blocks and17 original images:11 full pages andsix separate examples/art panels.
-No body pages or article assembly remain pending.
+Batch45 completes two TOC-listed notices: **과월호 디스켓0027** on PDF177 at
+`archive/pdf/1985-10/packages/disk-notice` and **소프트웨어 공모0028** on PDF205 at
+`archive/pdf/1985-10/packages/contest-notice`. Their61 and57 files respectively match
+independent rebuilds. Both pages have no visible folio; null stays separate from the
+canonical TOC references175 and203. Neither notice has deferred pages or assembly.
 
-The complete guide retains11 usage entries and17 routine explanations. Listing1 has
-705 machine-code rows in17 columns,1,503 printed byte fields and4,190 total fields.
-Three BASIC examples retainfive numbered entries/six physical rows; the demo retains
-120 numbered entries/151 nonblank physical rows plusone editorial blank. The assembled
-index corrects the native demo count152 to151 nonblank rows, retaining the native record.
-The09F0→09F3 join preserves the original newline; all21 native joins remain intact.
+The disk notice retains14 regions,13 corrected blocks andone complete original page.
+Six bundles preserve84 program rows and167 name/month fields, six printed prices,
+five 내용 subheadings, three language packages andthe separate 로드런너Ⅲ offer.
+CALL3327한글 has no month reference; none is invented. Malformed MLE(Ⅱ(6), source
+낙시 and로즈런너, soft program-name candidates, issue dates, password/stage references
+andordering details remain source-linked. No source offers or contacts were verified.
 
-Every native metadata category survives:72 array slices,10 objects,eight reserved
-arrays andfour scalars, including absent/empty categories and original stage notes.
-All25,520 native range occurrences project independently; all56,065 assembled/native
-range occurrences,56,780 evidence pins and87 images validate. Six obsolete stage
-notes are resolved only in active package status. Source-local prior-download ranges
-remain in their original coordinates. Eight malformed fixtures reject, including
-wrong duplicate790 occurrence, missing360 quote tail andcounting a blank as code.
+The contest notice retains13 regions,12 corrected blocks andone complete original
+page. Its curved title/strapline andintroduction remain linked to the original layout.
+Ten instruction groups preserve27 numbered/nested items, including11 submission fields
+andthree prize subitems. Three judging percentages, four contact fields andthe
+publisher logo remain associated correctly; the logo is not an article byline.
+Three dotted leaders use explicit unknown-count markers. Physical wraps, source
+기재, 입선작/입선자 andthe unmatched closing parenthesis remain literal.
 
-Seventy-one candidate occurrences,three unknown blank bands,100 quoted strings,
-199 explicit demo quote marks andfive unmatched quotes remain source-linked. The
-line360 cross-page quote, duplicate790, MAID BY, KET, SWITCHS, CONTROL variants,
-malformed72$, overlapping B14 references andodd punctuation remain literal. Human
-acceptance/full proofreading, source encoded bytes/spacing/glyph counts, historical/
-technical claims andexecution remain unverified. Embedded image labels await volunteers.
+All1,622 UTF8 range occurrences,1,703 evidence pins and27 images validate; six malformed
+fixtures reject, including a month linked to the wrong row, the missing final submission
+item andmissing inner-arc copy. All55,279 prior files,44 inventories and30 core pins
+remain exact; the unchanged213-test baseline is reused. New inventory: 55,757 files.
 
-All52,981 prior files,43 inventories and30 core pins remain exact; the unchanged
-213-test baseline is reused. New preservation inventory: 55,279 files. Six saved whole
-views193,194,199,200,204,205 were rechecked. No new rendering,mapping,OCR orsource
-correction. Initial adapter failed before output on differing native scope-field names;
-the preserved revision supports both forms. Five deliberately altered packages and
-three malformed native fixtures remain private evidence. No reader rebuild.
+Six whole views were reused; two mapped pages andfour outside lookups meet limits.
+All27 selected crops were inspected before25 kor+eng OCR tasks. All25 raw drafts were
+read beforeone source correction pass. Empty/garbled headings were corrected directly
+from scans; no OCR failures,retries,engine changes orcrop repairs. The initial verifier
+had a syntax typo before execution; the preserved revision changes only that typo.
+Twenty-four candidate occurrences retain23 source notes. Human acceptance/full
+proofreading, source bytes/spacing/glyph counts andhistorical claims remain unverified.
 
-Next is **batch45: verify andrestore canonical0027 과월호 디스켓 and0028 소프트웨어
-공모**, at candidate PDF177 andPDF205. These notices are listed in the TOC and are
-separate from adjacent article bodies. PDF205 has no visible folio; preserve null
-independently of canonical TOC203. Verify extent andadjacent pages before mapping.
-Keep two-task/six-page/twenty-outside-lookup limits. Parent0017 컴퓨터 그래픽 and
-0021 독자와 함께 remain pending, along with the other unresolved identities,cover,
-268-page accounting,standalone index/report,independent issue rebuild andcloseout.
-Retain the batch44Beautiful Text,batch41Arong,batch36PLAY,batch33MSX corners,
-batch29Prologue,batch24numerical andbatch20MSX private adapters.
+PDF177's earlier provisional outside-canonical-body annotation is corrected in the
+current ledger: this is TOC-listed0027. PDF205 is likewise assigned to0028, separate
+from the adjoining article bodies. Frozen earlier records andall native packages remain.
+Parent0021 독자와 함께 andparent0017 컴퓨터 그래픽 remain unresolved.
+
+Next is **batch46: verify the actual extent andrestore 정보 레이다0029**, beginning
+PDF206/printed204. Inspect adjacent pages before mapping, keep article/item ownership
+andoriginal body/table images explicit, andstay within two tasks,six mapped pages and
+twenty outside lookups. The remaining15 identities,cover,268-page accounting,standalone
+index/report,independent issue rebuild andcloseout remain. Retain the batch44Beautiful
+Text,batch41Arong,batch36PLAY,batch33MSX corners,batch29Prologue,batch24numerical and
+batch20MSX private adapters. No reader rebuild.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

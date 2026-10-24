@@ -2401,23 +2401,103 @@
       "toc_entry_id": "maso-1985-10-toc-0027",
       "title": "과월호 디스켓",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0027 과월호 디스켓/TOC175 occupies fullPDF177;source title matches. No visiblefolio. PDF176 left endsunlisted HGRarticle1260GOTO720,right independent컴퓨터비전promotion;PDF178 openscanonical아롱다롱. No noticecontinuation acrossadjacentpages.",
+        "Canonical0028 소프트웨어 공모/TOC203 occupies fullPDF205;source title매월 소프트웨어 공모. No visiblefolio. PDF204 ends뷰티풀텍스트1180RETURN;PDF206 opens정보레이다. No noticecontinuation.",
+        "Both arelisted canonicalnotices,not exclusions merelybecause promotional. Full originalpagepixels retained. Parent0021 독자와 함께 andallcatalogidentities unchanged;publisherlogo isnot anarticlebyline.",
+        "Six programlists on177 arethree physicalcolumns withtwogroups percolumn. Readlefttop,bottom,middletop,bottom,righttop,bottom. Eachprogram row preservesits ownmonth reference;prices/issue dates areopaque sourcefields,not verified current offers. Bottom로드런너III andthree high-level languagepackages retainseparate labels andorderinginstructions.",
+        "205 curvedtitle/strapline/intro isone composite region toavoid rectangularcrop overlap. Correct readingorder ismain title,outerarc firstline theninnerarc continuation,thenintro. Allcurvedsourcepixels stayavailable. Fourleft andsixright instructiongroups retainheadings,nestednumbering,criteria percentages andcontacts. Leader-dot bands requireunknowncount markers."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/disk-notice",
+        "article_id": "scan-maso-1985-10-toc-0027",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/disk-notice/manifest.json",
+          "sha256": "d89018b0622295d605211a0c6ce40d13c86b7201ee5e541be58c24a008bef81c",
+          "bytes": 10103
+        },
+        "coverage": {
+          "pdf_pages": [
+            177
+          ],
+          "printed_pages": [
+            null
+          ],
+          "regions": 14,
+          "blocks": 13,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete singlepage TOC-listed notice;adjacentpages independentlychecked. No visiblefolio;canonicalTOCreference retained separately."
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-45/validation.json",
+          "sha256": "e743a5bd1d46b30932547b021b7fa915d3c8db879b7749dfe9cec0caec0405fe",
+          "bytes": 3359
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-45/reproduction.json",
+          "sha256": "03f72e5f158e73d63592ea87ffc397d566dce15c51a4d207116d0c829bb64e40",
+          "bytes": 1806
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0028",
       "title": "소프트웨어 공모",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0027 과월호 디스켓/TOC175 occupies fullPDF177;source title matches. No visiblefolio. PDF176 left endsunlisted HGRarticle1260GOTO720,right independent컴퓨터비전promotion;PDF178 openscanonical아롱다롱. No noticecontinuation acrossadjacentpages.",
+        "Canonical0028 소프트웨어 공모/TOC203 occupies fullPDF205;source title매월 소프트웨어 공모. No visiblefolio. PDF204 ends뷰티풀텍스트1180RETURN;PDF206 opens정보레이다. No noticecontinuation.",
+        "Both arelisted canonicalnotices,not exclusions merelybecause promotional. Full originalpagepixels retained. Parent0021 독자와 함께 andallcatalogidentities unchanged;publisherlogo isnot anarticlebyline.",
+        "Six programlists on177 arethree physicalcolumns withtwogroups percolumn. Readlefttop,bottom,middletop,bottom,righttop,bottom. Eachprogram row preservesits ownmonth reference;prices/issue dates areopaque sourcefields,not verified current offers. Bottom로드런너III andthree high-level languagepackages retainseparate labels andorderinginstructions.",
+        "205 curvedtitle/strapline/intro isone composite region toavoid rectangularcrop overlap. Correct readingorder ismain title,outerarc firstline theninnerarc continuation,thenintro. Allcurvedsourcepixels stayavailable. Fourleft andsixright instructiongroups retainheadings,nestednumbering,criteria percentages andcontacts. Leader-dot bands requireunknowncount markers."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/contest-notice",
+        "article_id": "scan-maso-1985-10-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/contest-notice/manifest.json",
+          "sha256": "04b388f1a8d268f10bea2b17d28de3f1843f8d35f70d0d6477e4179efc8d22cb",
+          "bytes": 9402
+        },
+        "coverage": {
+          "pdf_pages": [
+            205
+          ],
+          "printed_pages": [
+            null
+          ],
+          "regions": 13,
+          "blocks": 12,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete singlepage TOC-listed notice;adjacentpages independentlychecked. No visiblefolio;canonicalTOCreference retained separately."
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-45/validation.json",
+          "sha256": "e743a5bd1d46b30932547b021b7fa915d3c8db879b7749dfe9cec0caec0405fe",
+          "bytes": 3359
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-45/reproduction.json",
+          "sha256": "03f72e5f158e73d63592ea87ffc397d566dce15c51a4d207116d0c829bb64e40",
+          "bytes": 1806
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0029",
@@ -2543,10 +2623,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 22,
+    "readable": 24,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 17
+    "unresolved_eligibility": 15
   },
   "checkpoints": [
     {
@@ -4700,6 +4780,52 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-45",
+      "status": "complete",
+      "stage": "validated-complete-notices",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0027",
+        "maso-1985-10-toc-0028"
+      ],
+      "mapped_pdf_pages": [
+        177,
+        205
+      ],
+      "outside_map_lookup_pages": [
+        176,
+        178,
+        204,
+        206
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 25,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 25,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-45/validation.json",
+        "sha256": "e743a5bd1d46b30932547b021b7fa915d3c8db879b7749dfe9cec0caec0405fe",
+        "bytes": 3359
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-45/verification-completed.json",
+        "sha256": "8ed3da6943846726cb913758c76f4f2b9befcc0de36117b7995ae652a4b5b2e9",
+        "bytes": 1171
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-45-preserved-work.json",
+        "sha256": "e93074610ec19f33b6428fc5e6278aa421dc139b5518bbe196eba8bf93bb5ee6",
+        "bytes": 12818540
+      },
+      "started_at": "2026-10-24T20:17:23.444111+00:00",
+      "finished_at": "2026-10-24T20:29:03.405673+00:00",
+      "timing_scope": "Prospective wallclock includeswaits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -6351,14 +6477,17 @@
     {
       "pdf_page": 177,
       "printed_page": null,
-      "classification": "advertisement",
-      "toc_entry_ids": [],
-      "restoration": "outside-canonical-body",
-      "evidence": "Whole-page 과월호 디스켓 promotion and ordering details; no visible folio.",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0027"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/disk-notice",
+      "evidence": "Complete source-corrected TOC-listed notice;canonicalownership takesprecedence overearlier provisionalpromotion/outside-body classification. Sixdiskbundles84programrows andorderingdetails.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/batch-45/source-reviewed.json",
+        "sha256": "0e64d2673b3b23e68fe27aa3e1e80628749790d3dbe5246d44cae2ec6f94801c",
+        "bytes": 6540
       }
     },
     {
@@ -6796,14 +6925,17 @@
     {
       "pdf_page": 205,
       "printed_page": null,
-      "classification": "outside-article-observed",
-      "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent 매월 소프트웨어 공모 promotion afterarticle ending204. No visible folio; null corrects earlier203 inference. Frozen batch42 records retained. Issue-level accounting pending.",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0028"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/contest-notice",
+      "evidence": "Complete source-corrected TOC-listed contestnotice;title매월 소프트웨어 공모,curvedcopy,teninstructiongroups,27numbered/nesteditems,contacts andpublisherlogo. Separatefromendingarticle204 andnews206.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-43/source-reviewed.json",
-        "sha256": "b42076a50f63c7615fbfb96a8bc22c181ff5ad7eb7251afd433f76aab7bb40c1",
-        "bytes": 6339
+        "path": "archive/pdf/1985-10/restoration/batch-45/source-reviewed.json",
+        "sha256": "0e64d2673b3b23e68fe27aa3e1e80628749790d3dbe5246d44cae2ec6f94801c",
+        "bytes": 6540
       }
     },
     {
@@ -6822,20 +6954,22 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-45",
-    "goal": "Verify andrestore two TOC-listed notices:0027 과월호 디스켓/175 and0028 소프트웨어 공모/203.",
+    "id": "batch-46",
+    "goal": "Verify actualextent andrestore canonical0029 정보 레이다/TOC204 startingPDF206.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0027",
-      "maso-1985-10-toc-0028"
+      "maso-1985-10-toc-0029"
     ],
-    "mapping_targets": "Verify actualextent andadjacentpages fromsource;candidatePDF177 diskpromotion andPDF205 monthlysoftwarecontest notice. Both arecanonical TOCentries despitebeing outside precedingarticle bodies. Restore bothif confirmed;retainPDF205 null visiblefolio andcanonicalTOC203 independently. Preserve everycompletedarticle/privateadapter. Parent0017 and0021 classification remain separate.",
+    "mapping_targets": "Inspect news boundaries andactualextent beforemapping;reuse206 openingview. Follow acceptednews policy:source-correct searchableheadings andretain fullbody/figures/tables asoriginalimages withvolunteerbodytranscription explicit. Restoreatmostsixdistinctbodypages;segmentandassemble separately iflonger. Do notinferendingfromnextTOC;checkfollowingarticle/divider. Preserve everycompletedpackage andprivateadapter. Parent0021 classification remainsseparate.",
     "provisional_lookup_targets": [
-      176,
-      177,
-      178,
-      204,
       205,
-      206
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213
     ],
     "limits": {
       "articles": 2,
@@ -6847,7 +6981,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "뷰티풀 텍스트0019 complete11-page assembly194–204;no partialarticles orpendingarticleassemblies.22 readable/sample-reviewed and17 unresolved identities. Nextverifycanonical0027 과월호 디스켓/175 atPDF177 and0028 소프트웨어 공모/203 atPDF205;205 visiblefolio null. Parent0017/0021 classifications pending. Cover,268-page accounting,standaloneindex/report,independent issue rebuild andcloseout pending. Retain batch44 beautiful_literal_r01,batch41 arong_literal,batch36 PLAY,batch33 MSXcorners,batch29 Prologue,batch24 numerical,batch20 MSX privateadapters. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified;embeddedlabels awaitvolunteers. No readerrebuild."
+    "Two TOC-listed notices0027/177 and0028/205 complete;bothvisiblefolios null,canonicalTOC175/203 unchanged. Prior177 provisionaloutside-canonical annotation corrected onlyincurrentledger;historyretained.24 readable/sample-reviewed,0partial,15unresolved identities. Nextverify정보레이다0029 from206/printed204. Parent0017/0021 andotherunresolvedidentities,cover,268-page accounting,index/report,independentissue rebuild andcloseout pending. Keep batch44BeautifulText,batch41Arong,batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Humanacceptance/fullproofreading,sourcebytes/claims/currentprices/contacts unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
