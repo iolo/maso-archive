@@ -90,12 +90,53 @@
       "toc_entry_id": "maso-1985-10-toc-0007",
       "title": "FORMAT II",
       "parent_id": "maso-1985-10-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "FORMAT II canonical0007 opens printed44/PDF46 after independent BASIC introduction finalPDF45;continues through list7 dump ending22D8 in upper printed46/PDF48. LowerPDF48 independently opens DEF canonical0008;PDF49–50 continue DEF.",
+        "Three mapped pages,three outside-map lookupsPDF45/49/50,one canonical task. Parent0006/title/order unchanged. Source FORMAT Ⅱ and byline 김 순 철 remain separate literal fields.",
+        "Six BASIC examples and five printed RUN/result panels,three numbered relocation commands,and five-column machine dump retained in source order;no execution,checksum or syntax correction.",
+        "Original usage diagram retained with searchable caption;internal labels/braces/leader lines remain source pixels pending volunteers. Handwritten annotation onPDF47 retained as an image,not attributed to printed author.",
+        "FullPDF46/47 and eligible upperPDF48 retained;printed46 folio observed in full source below independent DEF body,not included in selected upper panel."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/batch-07-r01/format-ii",
+        "article_id": "scan-maso-1985-10-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/batch-07-r01/format-ii/manifest.json",
+          "sha256": "02284fcb5e2dfcf701fdc6161867b6f1485f0026ae509fc6730ac73aec6afcdf",
+          "bytes": 24509
+        },
+        "coverage": {
+          "pdf_pages": [
+            46,
+            47,
+            48
+          ],
+          "printed_pages": [
+            "44",
+            "45",
+            "46"
+          ],
+          "regions": 39,
+          "blocks": 29,
+          "figures": 5,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-07/validation.json",
+          "sha256": "ced028afe7bd21dcc606e7b8f537fb07fa4aa1b604ae322ef0d486e9d8fd6ff8",
+          "bytes": 1550
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-07/reproduction.json",
+          "sha256": "c03d2c2acc146f058949497a1c0958bf891f5644e977827aa15450c37158df20",
+          "bytes": 1208
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0008",
@@ -693,10 +734,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 33
+    "unresolved_eligibility": 32
   },
   "checkpoints": [
     {
@@ -934,6 +975,46 @@
       "started_at": "2026-10-24T03:31:25.064040+00:00",
       "finished_at": "2026-10-24T05:20:37.548792+00:00",
       "timing_scope": "Prospective wall-clock includes waits,gaps and interruption;active human effort unmeasured."
+    },
+    {
+      "id": "batch-07",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0007"
+      ],
+      "mapped_pdf_pages": [
+        46,
+        47,
+        48
+      ],
+      "outside_map_lookup_pages": [
+        45,
+        49,
+        50
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 34,
+      "eng_code_tasks": 17,
+      "kor_eng_tasks": 17,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-07/validation.json",
+        "sha256": "ced028afe7bd21dcc606e7b8f537fb07fa4aa1b604ae322ef0d486e9d8fd6ff8",
+        "bytes": 1550
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-07/verification-completed.json",
+        "sha256": "c77a74d82a43260b6897eadea12f68b94719583c5050f151a759dc8ce680e775",
+        "bytes": 1160
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-07-preserved-work.json",
+        "sha256": "14ca17ac5309435c9459cd5a83e1a6aa5933f70720201b3d4ae648603d420310",
+        "bytes": 800492
+      },
+      "started_at": "2026-10-24T05:22:32.911065+00:00",
+      "finished_at": "2026-10-24T05:33:49.935634+00:00",
+      "timing_scope": "Prospective wall-clock includes waits/gaps;active human effort unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1129,29 +1210,72 @@
     {
       "pdf_page": 46,
       "printed_page": "44",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-10-toc-0007"
       ],
+      "restoration": "complete",
+      "evidence": "FORMAT II opening;complete bodyPDF46–48 upper panel verified."
+    },
+    {
+      "pdf_page": 47,
+      "printed_page": "45",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0007"
+      ],
+      "restoration": "complete",
+      "evidence": "FORMAT II examples,editorial note and machine-code dump opening."
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": "46",
+      "classification": "shared-article-page",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0007",
+        "maso-1985-10-toc-0008"
+      ],
+      "restoration": "FORMAT II upper complete;DEF lower pending",
+      "evidence": "Upper FORMAT II dump ends22D8;independent DEF opens below. Each article requires its own disjoint mapped region ownership."
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": "47",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0008"
+      ],
       "restoration": "pending",
-      "evidence": "Independent FORMAT II opening;extent not yet verified."
+      "evidence": "DEF prose,diagrams and storage instructions;extent not yet verified."
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": "48",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0008"
+      ],
+      "restoration": "pending",
+      "evidence": "DEF instructions,bitmap illustration and POO YAN BASIC listing opening;extent not yet verified."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-07",
-    "goal": "Verify FORMAT II extent from printed44/PDF46 and restore complete bounded article or first segment.",
+    "id": "batch-08",
+    "goal": "Verify DEF extent from lower printed46/PDF48 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0007"
+      "maso-1985-10-toc-0008"
     ],
-    "mapping_targets": "Opening PDF46/printed44 observed;actual end to verify. Preserve canonical title/order and parent0006.",
+    "mapping_targets": "LowerPDF48 opening andPDF49–50 body observed. Exclude completed FORMAT II upper panel;preserve canonical parent0006. Segment if more than six mapped pages.",
     "provisional_lookup_targets": [
-      45,
-      46,
       47,
       48,
       49,
-      50
+      50,
+      51,
+      52,
+      53,
+      54
     ],
     "limits": {
       "articles": 2,
@@ -1163,7 +1287,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining33 identities and remaining source-page accounting require inspection;no global page offset inferred."
+    "Remaining32 identities and remaining source-page accounting require inspection;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

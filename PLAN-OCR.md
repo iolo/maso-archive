@@ -19,17 +19,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1985 is active: six of39 entries are readable/sample-reviewed:
-  편집자 노트,애독자 광장,입력이 힘드십니까?,QA,디버깅 룸 and 퍼스컴 입문 :
-  베이직을 꼭 배워야 합니까?. Their54/116/140/171/70/155-file packages independently
-  match. The introduction covers printed38–43/PDF40–45:21 blocks/369 physical rows,
-  11 originals,12 prose joins/one title join,three sections and two empty questionnaire
-  boxes. All34 kor+eng drafts read before one source correction pass;no OCR failures,
-  retries or crop repairs. Two metadata/verifier failures retained;source/packages
-  unchanged. All2,348 earlier October files and30 core pins exact;fresh213-test
-  batch01 baseline reused. Next batch07: verify canonical0007,FORMAT II,from
-  printed44/PDF46,including ending/adjacent page;reuse PDF45–46.
-  Remaining33 entries,cover/accounting/closeout remain.
+- October 1985 is active: seven of39 entries are readable/sample-reviewed:
+  편집자 노트,애독자 광장,입력이 힘드십니까?,QA,디버깅 룸,퍼스컴 입문 :
+  베이직을 꼭 배워야 합니까? and FORMAT II. Their54/116/140/171/70/155/150-file
+  packages independently match. FORMAT II covers printed44–46/PDF46–48 upper panel;
+  lower independent DEF excluded. Six BASIC examples/30 labels,five result panels/
+  29 values,three commands,92 dump rows/729 byte pairs/seven blank slots and five
+  originals remain. All34 drafts (17 eng,17 kor+eng) read before one source pass;
+  no OCR failures/retries. One schema failure and two pre-OCR crop-repair stages
+  retained;final title/subtitle combined and usage diagram expanded before recognition.
+  All2,988 earlier files and30 core pins exact;fresh213-test batch01 baseline reused.
+  Next batch08: verify canonical0008,DEF,from lower printed46/PDF48,including
+  ending/adjacent page;reuse PDF47–50. Remaining32 entries,cover/accounting/closeout remain.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
   No reader rebuild. Human acceptance/full proofreading/source bytes remain unverified.
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for

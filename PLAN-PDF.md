@@ -24,20 +24,21 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 started, 2026-10-24
 
-October restoration is active under step12. Six of39 canonical entries are now
+October restoration is active under step12. Seven of39 canonical entries are now
 readable and assistant sample-reviewed: 편집자 노트,애독자 광장,입력이 힘드십니까?,
-QA,디버깅 룸 and 퍼스컴 입문 : 베이직을 꼭 배워야 합니까?. Their
-54/116/140/171/70/155-file packages independently match. The introduction covers
-printed38–43/PDF40–45,retaining21 blocks/369 physical rows,11 original images,
-12 prose joins,one title-spread join,three sections and two empty questionnaire boxes.
-All34 OCR drafts read before one source correction pass;no OCR retries/crop repairs.
-Two metadata/verifier failures remain preserved;source readings/packages unchanged.
-Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch06.
-All2,348 earlier October files and30 core implementation pins remain exact.
-No reader rebuild;33 entries,cover selection,source-page accounting and closeout remain.
+QA,디버깅 룸,퍼스컴 입문 : 베이직을 꼭 배워야 합니까? and FORMAT II. Their
+54/116/140/171/70/155/150-file packages independently match. FORMAT II covers
+printed44–46/PDF46–48 upper panel;independent DEF below is excluded. Its29 blocks
+retain six BASIC examples/30 labels,five result panels/29 values,three commands,
+92 dump rows/729 byte pairs/seven blank slots and five original images.
+All34 OCR drafts read before one source correction pass;no OCR failures/retries.
+One schema failure and two pre-OCR crop-repair stages remain preserved.
+Fresh213 PDF tests passed at batch01;unchanged baseline reused through batch07.
+All2,988 earlier October files and30 core implementation pins remain exact.
+No reader rebuild;32 entries,cover selection,source-page accounting and closeout remain.
 
-Next is batch07: verify canonical0007,FORMAT II,
-from printed44/PDF46,including its ending and adjacent page. Reuse saved PDF45–46
+Next is batch08: verify canonical0008,DEF,
+from lower printed46/PDF48,including its ending and adjacent page. Reuse saved PDF47–50
 views and retain the two-task/six-mapped-page/twenty-outside-lookup limits.
 Canonical title and order stay unchanged. Details and remaining issue work:
 [October log](docs/progress/8510.md) and
