@@ -28,42 +28,46 @@ October 1985 restoration continues under step 12: **17 readable/sample-reviewed
 entries, one partial article and 21 unresolved**, accounting for all 39 canonical
 identities. Prologue, ABC, numerical analysis and the earlier MSX article remain complete.
 
-Batch 30 restores the opening six pages of canonical0016, **MSX 구석구석 by 신동윤**,
-PDF146–151/printed144–149, at `archive/pdf/1985-10/packages/msx-corners-a`.
-The verified full body is 15 pages: PDF146–159 and the lower part of166.
-Independent PLAY 정복 occupies160–165 and upper166. Printed continuation markers
-connect159 to lower166; nine further body pages and complete assembly remain.
+Batch31 restores canonical0016 **MSX 구석구석 by 신동윤**, PDF152–157/printed150–155,
+at `archive/pdf/1985-10/packages/msx-corners-b-r01`. Opening146–151 remains immutable
+at `packages/msx-corners-a`. Twelve of the actual15 bodypages are now restored;
+final158–159 andlower166, followed by complete assembly, remain. Independent PLAY
+정복 occupies160–165/upper166; printed markers connect159 tolower166.
 
-All272 package files match an independent rebuild. The partial package retains71
-regions,60 blocks and seven originals, including six complete pages and the memory
-diagram. Seven code groups retain257 physical rows: four BASIC programs with179
-numbered lines/232 physical rows,23 assembly rows and two commands. Twenty program
-explanations, five listing captions, a figure caption and its external annotation
-remain distinct. Three code joins and the prose 도/형정의 join occur once.
+All431 package files match an independent rebuild. The middle segment retains119
+regions,94 blocks and18 originals. Its27 independent code panels retain141 physical
+rows:25 numbered BASIC lines,52 assembly rows and37 memory-dump rows/292 byte fields,
+alongside command sequences. A six-row pointer table retains23 nonblank logical cells,
+one blank header andtwo merged remarks. Four program explanations retain six address
+labels andone shared bracket. Seven prose joins,11 listing/caption associations and
+eight external annotations remain source-linked. The crossed printed D20D instruction
+and handwritten replacement remain two explicit layers beside the original image.
 
-All7,783 local UTF8 ranges,7,995 evidence pins and71 images validate; three malformed
-range cases reject, including a wrong-region reference to duplicated text. All36,560
-prior files,29 inventories and30 core pins remain exact; the unchanged213-test
-baseline is reused. The new preservation inventory records37,771 files.
+All6,455 local UTF8 ranges,6,789 evidence pins and119 images validate; three malformed
+range cases reject, including a wrong-region reference to duplicate CMD text. All37,771
+prior files,30 inventories and30 core pins remain exact; unchanged213-test baseline reused.
+The new preservation inventory records39,600 files. One315×3-pixel overlap between
+text-region margins contains only white background; its exact pixels are separately
+verified. All other text-region pairs are disjoint.
 
-All71 initial crops and seven repaired crops were reviewed before64 Tesseract tasks
-(10eng/54kor+eng). All drafts were read before one source correction pass; no OCR
-failures or retries. Twenty-nine source candidate notes retain37 occurrences and
-five unknown quoted-blank-width markers. Printed7026~D033, duplicate1290~1320
-explanations, listing1620 versus explanation1630, MESSEGE/Massege, Patten and ROM
-remain literal. Successful OCR omissions were recovered from the scans. An index
-coverage assertion caught an overly broad image-name rule; a fresh script revision
-includes the memory diagram. The failed draft and every earlier attempt are retained.
+All119 initial crops andfive repaired crops were reviewed before101 Tesseract tasks
+(27eng/74kor+eng). All drafts were read before one source correction pass; no OCR
+failures or retries. Thirty-seven candidate notes retain39 occurrences, including
+Illegar/Eror/funtion, the erroneous 수치해석 running header, repeated table pointers,
+the short8048 memory row and curved return-arrow approximations. No technical repair.
+Initial export rejected table reading-block kind other; a fresh metadata revision uses
+prose while preserving the map,transcripts and indexes. Both failed export attempts
+and the verifier's initial strict-overlap failure remain preserved.
 
-Next is **batch31: MSX 구석구석 PDF152–157**. Reuse saved batch30 views145–169;
-no partial-word join is required at151/152. Then restore158–159 and lower166, excluding
-upper166's PLAY article, and assemble all15 body pages. Keep the two-task/six-mapped-
-page/twenty-outside-lookup limits. Remaining21 unresolved identities, the partial
-article, cover selection,268-page accounting, standalone index/report, independent
-issue rebuild and closeout remain. Use the pinned Prologue/numerical/MSX assembly
-adapters for completed articles. Human acceptance/full proofreading, source encoded
-bytes, technical/historical claims and execution remain unverified; embedded diagram
-labels await volunteers. No reader rebuild.
+Next is **batch32: MSX 구석구석 PDF158–159 and lower166**. Reuse saved batch30 views;
+exclude upper166's PLAY article and preserve the printed159→166 continuation. No
+partial-word join is required at157/158. Then assemble all15 bodypages from three
+immutable natives. Keep two-task/six-mapped-page/twenty-outside-lookup limits.
+Remaining21 unresolved identities,the partial article,cover selection,268-page accounting,
+standalone index/report,independent issue rebuild andcloseout remain. Keep the pinned
+Prologue/numerical/MSX assembly adapters. Human acceptance/full proofreading, source
+encoded bytes,technical/historical claims andexecution remain unverified; embedded
+diagram labels await volunteers. No reader rebuild.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
