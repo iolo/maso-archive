@@ -7,45 +7,48 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration continues under step 12: **21 readable/sample-reviewed
-entries, no partial articles and 18 unresolved**, accounting for all 39 canonical
+entries, one partial article and 17 unresolved**, accounting for all 39 canonical
 identities. Earlier completed packages and private assembly adapters remain unchanged.
 
-Batch 41 completes canonical0020 **아롱다롱** by 이지상, PDF178–193 / printed176–191,
-at `archive/pdf/1985-10/packages/arong-complete`. All 448 files match an independent
-rebuild, including all 439 unchanged files from three immutable natives. The complete
-article retains 116 regions, 59 blocks, 16 full original pages and a separate ending
-illustration. No article body pages or assembly remain pending.
+Batch 42 restores canonical0019 **뷰티풀 텍스트** by 김덕현, opening PDF194–199 /
+printed192–197, at `archive/pdf/1985-10/packages/beautiful-a`. All 236 files match an
+independent rebuild. The partial package retains 65 regions, 54 corrected text regions,
+46 blocks and 11 original images: six full pages, three transformed LIST examples and
+two art panels. The actual article extent is verified as PDF194–204 / printed192–202.
 
-All 38 native array categories, 114 category slices, 12 objects, 12 reserved arrays,
-six scalars and full native metadata survive. All 26,253 native range occurrences
-project reversibly; all 54,074 resulting UTF8 range occurrences, 55,091 evidence pins
-and 116 images validate. Seven malformed cases reject, including a duplicate1500
-reference moved to the wrong occurrence, a shifted prior-download range and a missing
-860 tail. All 48,848 prior files, 40 inventories and 30 core pins remain exact; the
-unchanged 213-test baseline is reused. New preservation inventory: 51,565 files.
+The complete opening guide retains 11 usage entries and 17 routine explanations.
+Three BASIC examples retain five numbered entries and six physical rows, including
+the wrapped SET string. The machine-code listing opens with 240 printed rows in six
+columns, preserving 496 byte fields and 1,415 total address/separator/byte/mnemonic/
+operand fields. No opcode, address arithmetic or program execution was used to repair
+source readings. Eight joins retain three prose and five listing boundaries.
 
-The full guide retains 16 modes, 84 key entries, nine features, five circle variables
-and 198 routine explanations. Routine860 joins across183→184 with one editorial
-space. The BASIC900→910 boundary joins189→190 while retaining its physical newline.
-All 38 native joins remain, including logical-line wraps1520,1800 and2850. Two complete
-listings retain 18 panels: 185 hex rows/1,480 byte fields and 351 numbered BASIC entries/
-484 physical rows. Four repeated0 comments, 92 DATA fields and 253 quoted strings remain.
+All 8,197 UTF8 range occurrences, 8,379 evidence pins and 65 images validate. Five
+malformed cases reject, including repeated STA at the wrong occurrence and a missing
+D9D explanation tail. All 51,565 prior files, 41 inventories and 30 core pins remain
+exact; the unchanged 213-test baseline is reused. New inventory: 52,600 files.
 
-All 104 candidate occurrences, 11 graphic markers and eight unknown blank widths
-retain their source positions. Source spelling, numbering, operators and code
-errors remain literal. Eleven exact native-stage deferrals resolve only in active
-status; full original notes remain. No new mapping, rendering, OCR or source correction
-was needed. Human acceptance/full proofreading, source bytes, claims and execution
-remain unverified. Embedded image labels await volunteers.
+All 65 selected crops were inspected before 54 OCR tasks (9 eng code, 45 kor+eng).
+All raw drafts were read before one source correction pass. One pre-OCR crop expansion
+retains the final Y of ($28),Y; its replacement was inspected before recognition.
+The initial unsupported heading-kind draft and an occupied-destination repair attempt
+are preserved. Neither failed attempt produced OCR; no recognition retries occurred.
 
-Next is **batch 42: verify and restore 뷰티풀 텍스트 by 김덕현** (canonical0019),
-starting PDF194 / printed192. Verify its actual extent from scans; restore at most
-six body pages in the checkpoint. Preserve canonical parent 컴퓨터 그래픽0017 until
-its classification is evidenced. Keep two-task/six-page/twenty-outside-lookup limits.
-Remaining18 identities, cover selection, 268-page accounting, standalone index/report,
-independent issue rebuild and closeout remain. Retain the pinned batch41아롱다롱,
-batch36PLAY, batch33MSX corners, batch29Prologue, batch24numerical and batch20MSX
-adapters for issue closeout. No reader rebuild.
+Thirty candidate occurrences retain 28 source notes, including higer, CONTRON-I,
+CONTOL-Z, CONTRL-Q, NORNAL, malformed72$ and CONTROL-E/D differences. The source
+spelling, punctuation, overlapping B14 ranges and uncertain glyphs remain literal.
+Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts, claims
+and execution remain unverified. Embedded image labels await volunteers.
+
+Next is **batch 43: restore 뷰티풀 텍스트 PDF200–204 / printed198–202**. Continue
+machine-code listing through203, then the BASIC demo203–204 and its physical360 wrap.
+The article ends1180 RETURN on204;205 is an independent software-contest promotion.
+Then assemble the complete11-page article from immutable segments in a separate
+checkpoint. Canonical parent 컴퓨터 그래픽0017 remains pending. Keep two-task/six-page/
+twenty-outside-lookup limits. Remaining17 identities, cover selection,268-page accounting,
+standalone index/report, independent issue rebuild and closeout remain. Retain the
+batch41Arong, batch36PLAY, batch33MSX corners, batch29Prologue, batch24numerical and
+batch20MSX private adapters. No reader rebuild.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
