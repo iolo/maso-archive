@@ -7,52 +7,57 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration continues under step 12: **30 readable/sample-reviewed
-entries, zero partial articles and nine unresolved**, accounting for all 39 canonical
+entries, one partial article and eight unresolved**, accounting for all 39 canonical
 identities. Earlier packages, identities and parent relationships remain unchanged.
 
-Batch56 completes **모킹보드를 이용한 &뮤직0002 / 오필홍**, PDF234–249/printed232–247,
-at `archive/pdf/1985-10/packages/mocking-music-complete-r01`. All596 files match an
-independent rebuild,including587 exact files embedded fromthree immutable natives.
-The16-page article retains158 regions,134 blocks and24 original figures. No body
-pages orarticle assembly remain pending. Final1034 RTS andthe related purchasing
-sidebar precede independent희망전자개발/BAL500advertisement250.
+Batch57 restores the first six pages of **게임 : 오델로 묘수풀이0035**,
+PDF251–256/printed249–254, at `archive/pdf/1985-10/packages/othello-a`.
+All171 files match an independent rebuild. The actual seven-page extent is
+PDF251–257/printed249–255. Final257 and complete article assembly remain pending.
+The package retains48 regions,38 source-corrected blocks and10 original figures,
+including six full source pages, the introduction photo, board examples and flowchart.
 
-All30,993 native array entries,147 category slices,14 objects,12 reserved lists
-andsix scalars survive reversible projection. All107,917 UTF8 range occurrences,
-109,220 evidence pins,158 decoded crops and635 disjoint nonfigure pairs validate.
-The private assembly adapter preserves fullnative metadata andall source-local
-references. Nine malformed cases reject after outer hashes are recalculated where
-applicable,including missing finalRTS/contactphone,lost boundary supersession,
-wrong repeated518 occurrence andshifted prior-download ranges.
+The scan/printed-page order stays intact. Explanation order252→255→256→253 and
+listing order255→256→253→254→257 are indexed separately. Three prose andthree code
+continuations retain their physical fragments without encoded joins. Incoming final
+listing connection will be254 last2050 SOUND10,0→257 first2060 SOUND11,0.
+No individual byline is invented; the editorial translation credit remains separate.
 
-Twelve complete listing groups retain1,514 physical code rows. The main assembly
-listing combines1,025 entries/1,099 physical rows/3,249 fields;printed1,2,12–1034
-andduplicate518/578 remain literal. Complete ordinals are separate fromprinted
-numbers andnative ordinals. The296-row hex dump retains2,960 fields including296
-printed checksums;none recalculated. Eight opening code examples,two tables,
-register/control fields,merged cells,physical comments,commands/music forms,
-quoted strings,contacts andall figure associations remain source-linked.
+Three code groups retain202 physical rows,including196 numbered BASIC entries,
+four physical wraps andtwo immediate commands. Physical listing order1080–2050,
+then100–1070 remains in the download; a separate logical index orders100–2050.
+The wrapped300 ELSE fragment belongs to1270,not a new numbered entry. All398 code
+fields,21 DATA rows/109 fields,18 quoted strings/36 quote marks,33 program-explanation
+entries and11 bracket annotations retain their own source ranges.
 
-Both native boundaries are explicit:239→240 splitprose 음/량 and245→246 listing
-352 SV3 INX→353 CPX END. Physical blocks andtheir native order remain unchanged;
-no encoded block merge. The selected246crop was rechecked andsupportsX;earlier
-provisionalCPY notes remain frozen withtheir explicit supersession. Nine obsolete
-stage deferrals are resolved only in active package notes. All138 candidate
-occurrences,printed errors andmusic-note/diagram volunteer work remain preserved.
+The crossed-out first board-data row retains seven printed fields andits trailing
+comma; the next two rows retain eight each. No missing eighth value is invented.
+Literal PRIN#1,UAST,621행,OUT PUT,1530 trailing-comma and1050 apostrophe candidates,
+empty second SCREEN argument,underlines,music strings and39 candidate occurrences
+from33 notes remain explicit. Board positions/flowchart labels await volunteers;
+original pixels remain authoritative. No strategy,grammar orcode-semantic repairs.
 
-Eight savedwholeviews233,234,239,240,245,246,249,250 andone existingcrop were
-rechecked. No newrender,mapping,OCR orsource correction. All65,457 prior files,
-55 inventories and30 core pins remain exact;the unchanged213-test baseline is
-reused. New preservation inventory: 70,254 files. Retain allnine private assembly
-adapters,including the newbatch56 Mockingboard adapter. Human acceptance/full
-proofreading,source bytes/spacing/glyph counts,claims andexecution remain unverified.
-No reader was rebuilt.
+All6,942 UTF8 range occurrences,7,074 evidence pins,48 crops and131 disjoint
+nonfigure pairs validate. Nine malformed cases reject,including missing wraps,
+wrong logical order,lost crossed-out data andwrong repeated00 occurrence. All70,254
+prior files,56 inventories and30 core pins remain exact; the unchanged213-test
+baseline is reused. New preservation inventory: 71,018 files. Allnine private
+assembly adapters remain preserved. One verifier draft used incorrect region names
+for PRIN#1/UAST; the failed attempt and corrected verifier remain,with no source or
+package changes.
 
-Next is **batch57: verify andrestore 게임 : 오델로 묘수풀이0035**, beginning at
-PDF251/printed249. Reuse its reviewed opening/continuation views andverify the
-actual ending before mapping;split iflonger thansix pages. Nine unresolved
-identities,cover,268-page accounting,standalone index/report,independent issue
-rebuild andcloseout remain. No semantic/game-strategy repair orcode execution.
+Eleven whole views250–260 establish extent andboundaries. One canonical task covers
+six mapped pages andfive outside lookups. All48 selected crops were reviewed before
+38 Tesseract tasks(6 eng code,32 kor+eng); allraws read beforeone source pass.
+Two pre-OCR crop repairs preserve right-edge glyph margins; both replacements were
+reviewed separately and46 unchanged crops remain exact. Zero OCR failures/retries.
+All initial evidence retained. Human acceptance/full proofreading,source bytes,
+spacing/glyph counts,claims andexecution remain unverified. No reader was rebuilt.
+
+Next is **batch58: restore final Othello page257/printed255**, then assemble its
+seven pages separately. Reuse saved257/adjacent views andretain the nonadjacent
+254→257 listing connection. Eight other unresolved identities,cover,268-page accounting,
+standalone index/report,independent issue rebuild andcloseout remain.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
