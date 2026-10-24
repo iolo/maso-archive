@@ -1725,12 +1725,102 @@
       "toc_entry_id": "maso-1985-10-toc-0020",
       "title": "아롱다롱",
       "parent_id": "maso-1985-10-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF177 is independent 과월호 디스켓 promotion. PDF178 opens SPC-1000 아롱다롱 by 이지상, visible folio176 matching canonical0020. Canonical title/order/parent0017 unchanged.",
+        "Opening178–183 is continuous article prose: features,input/save,mode/key guide and numbered routine explanations. No advertisements in these six pages. PDF183 ends860 explanation 사각형 안을;184 begins 반전시킨다. before870. Preserve this outgoing continuation for later assembly.",
+        "PDF192 carries BASIC2120–2850;193 opens its physical wrap H$:NEXT:EY=EY+YT+1 and continues2860–3470 RETURN, then uncaptioned decorative art. PDF194 opens distinct 뷰티풀 텍스트 by 김덕현 at visible192,matching canonical0019;195 continues its overview and usage. This confirms an endpoint,not uninspected interior continuity.",
+        "Full extent candidate178–193 has16 pages;185–191 are not yet inspected. Restore current178–183 only;next184–189,then provisional190–193,then immutable assembly after coverage verification. Parent0017 classification remains pending.",
+        "Opening series/platform/title/byline/introduction and9 numbered features are separate. Original full pages preserve all typography and folios. No standalone figure,caption or code listing occurs in current six pages.",
+        "Keyboard guide has16 conceptual modes but source heading for 부분 메모리 is printed(24);do not renumber to13. Retain source QUIT,ANG LF/ANGLF,AS/SA,EA +/- distinctions and key spelling literally without program-derived repair.",
+        "Explicit continuations:179 E-key description crosses columns;179 G-key item③ crosses to180;180 ALL mix description crosses181;181 circle key list continues in right column;181 mode15 has last key on182;182 pattern prose crosses columns. Routine270 splits 입/력 and640 splits 값/을. Last860 explanation remains incomplete until184.",
+        "Key names/descriptions,mode headings,numbered routine references,source numeric addresses and identifiers need exact regional occurrence indexes. These are prose instructions,not executable code. Do not execute or validate claims against future listings."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/arong-a",
+        "article_id": "scan-maso-1985-10-toc-0020",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/arong-a/manifest.json",
+          "sha256": "6804cabc7774f578e41724880f166b5ecca262c3c316d28c28b5037dc03d1a1a",
+          "bytes": 47554
+        },
+        "coverage": {
+          "pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ],
+          "printed_pages": [
+            "176",
+            "177",
+            "178",
+            "179",
+            "180",
+            "181"
+          ],
+          "regions": 73,
+          "blocks": 55,
+          "figures": 6,
+          "deferred_pdf_pages": [
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193
+          ],
+          "full_extent_candidate_pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193
+          ],
+          "uninspected_interior_pdf_pages": [
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191
+          ],
+          "body_pages_complete": false
+        },
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-38/validation.json",
+          "sha256": "6bbbabd74c7dfa5b97a14cf5f3e3848c6bf0051f05db02b60da6a5fa9c7bc8d2",
+          "bytes": 2275
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-38/reproduction.json",
+          "sha256": "b0a7b34d461e0123c5edd5084f86618c65ead44720ab6ab513c5f5577f4d0e12",
+          "bytes": 1260
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0021",
@@ -2139,9 +2229,9 @@
   "totals": {
     "canonical_entries": 39,
     "readable": 20,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 19
+    "unresolved_eligibility": 18
   },
   "checkpoints": [
     {
@@ -3939,6 +4029,68 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-38",
+      "status": "complete",
+      "stage": "validated-partial-article-opening",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "mapped_pdf_pages": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "outside_map_lookup_pages": [
+        177,
+        184,
+        192,
+        193,
+        194,
+        195
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 67,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 67,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/validation.json",
+        "sha256": "6bbbabd74c7dfa5b97a14cf5f3e3848c6bf0051f05db02b60da6a5fa9c7bc8d2",
+        "bytes": 2275
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/verification-completed.json",
+        "sha256": "76b5be8e4a8df2968c6124935ac383d2690f3358048e5b9457c8e2a5bb2819fa",
+        "bytes": 1003
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-38-preserved-work.json",
+        "sha256": "d200abd81190aa7b58f8bfbe56a555bdd85d330f9b1d4d39a3e70307d32a8258",
+        "bytes": 11018879
+      },
+      "started_at": "2026-10-24T18:32:23.193075+00:00",
+      "finished_at": "2026-10-24T18:52:46.363765+00:00",
+      "timing_scope": "Prospective wall clock includes waits/gaps; active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_pdf_pages": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -5603,37 +5755,192 @@
     {
       "pdf_page": 178,
       "printed_page": "176",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-a",
+      "evidence": "Source-corrected 아롱다롱 opening178–183; features,input/save,16 mode headings,84 key entries and routine explanations through incomplete860. Continued184; article not complete.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 179,
+      "printed_page": "177",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-a",
+      "evidence": "Source-corrected 아롱다롱 opening178–183; features,input/save,16 mode headings,84 key entries and routine explanations through incomplete860. Continued184; article not complete.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 180,
+      "printed_page": "178",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-a",
+      "evidence": "Source-corrected 아롱다롱 opening178–183; features,input/save,16 mode headings,84 key entries and routine explanations through incomplete860. Continued184; article not complete.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 181,
+      "printed_page": "179",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-a",
+      "evidence": "Source-corrected 아롱다롱 opening178–183; features,input/save,16 mode headings,84 key entries and routine explanations through incomplete860. Continued184; article not complete.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 182,
+      "printed_page": "180",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-a",
+      "evidence": "Source-corrected 아롱다롱 opening178–183; features,input/save,16 mode headings,84 key entries and routine explanations through incomplete860. Continued184; article not complete.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 183,
+      "printed_page": "181",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "partial-article-segment",
+      "selected_package": "archive/pdf/1985-10/packages/arong-a",
+      "evidence": "Source-corrected 아롱다롱 opening178–183; features,input/save,16 mode headings,84 key entries and routine explanations through incomplete860. Continued184; article not complete.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 184,
+      "printed_page": "182",
       "classification": "article-body-observed",
       "toc_entry_ids": [
         "maso-1985-10-toc-0020"
       ],
       "restoration": "not-started",
-      "evidence": "SPC-1000 아롱다롱 by 이지상 opens at visible176, matching canonical0020. Extent not yet verified; only opening inspected.",
+      "evidence": "184 begins860 continuation 반전시킨다. and more routine explanations.192 has BASIC2120–2850;193 opens physical wrap and ends3470 RETURN then original art. Endpoints verified;185–191 continuity uninspected.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 192,
+      "printed_page": "190",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "not-started",
+      "evidence": "184 begins860 continuation 반전시킨다. and more routine explanations.192 has BASIC2120–2850;193 opens physical wrap and ends3470 RETURN then original art. Endpoints verified;185–191 continuity uninspected.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 193,
+      "printed_page": "191",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0020"
+      ],
+      "restoration": "not-started",
+      "evidence": "184 begins860 continuation 반전시킨다. and more routine explanations.192 has BASIC2120–2850;193 opens physical wrap and ends3470 RETURN then original art. Endpoints verified;185–191 continuity uninspected.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 194,
+      "printed_page": "192",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0019"
+      ],
+      "restoration": "not-started",
+      "evidence": "194 opens 뷰티풀 텍스트 by김덕현 at printed192;195 continues overview and usage. Distinct from HGR/김성현172–176. Only source identity/start verified;full extent pending.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
+      }
+    },
+    {
+      "pdf_page": 195,
+      "printed_page": "193",
+      "classification": "article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0019"
+      ],
+      "restoration": "not-started",
+      "evidence": "194 opens 뷰티풀 텍스트 by김덕현 at printed192;195 continues overview and usage. Distinct from HGR/김성현172–176. Only source identity/start verified;full extent pending.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-38/source-reviewed.json",
+        "sha256": "bc3621ca1a3710d301a0854fc797e757aa7ac33e8623754097c33171b8209d9f",
+        "bytes": 9318
       }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-38",
-    "goal": "Verify actual extent and restore 아롱다롱 by 이지상, canonical0020, starting PDF178/printed176.",
+    "id": "batch-39",
+    "goal": "Restore next six pages of 아롱다롱0020:PDF184–189/printed182–187.",
     "toc_entry_ids": [
       "maso-1985-10-toc-0020"
     ],
-    "mapping_targets": "Follow observed source order; inspect extent before mapping at most six body pages starting178. Canonical order stays unchanged;0019 뷰티풀 텍스트 by 김덕현 at TOC192 remains pending. Keep parent0017 classification pending. Exclude independent HGR172–176 and promotions.",
+    "mapping_targets": "Verify continuity and restore184–189; preserve incoming860 explanation. Then provisional190–193 and immutable assembly after complete coverage verification. Opening178–183 immutable. Canonical0019 confirmedopening194/192,still pending;parent0017 pending.",
     "provisional_lookup_targets": [
-      177,
-      178,
-      179,
-      180,
-      181,
-      182,
       183,
       184,
-      185
+      185,
+      186,
+      187,
+      188,
+      189,
+      190
     ],
     "limits": {
       "articles": 2,
@@ -5645,7 +5952,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "GRAPHIC PRINT0018 complete168–171; no partial articles or pending article assemblies. Remaining19 unresolved identities, cover selection,268-page accounting, standalone index/report, independent issue rebuild and closeout pending. Next verify 아롱다롱0020 from178/176; canonical0019 뷰티풀 텍스트/김덕현/TOC192 and parent0017 remain pending. Unlisted HGR/김성현172–176 excluded from0018. Keep batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX private adapters for closeout. Human acceptance/full proofreading, source bytes/claims/execution remain unverified."
+    "아롱다롱0020 partial178–183;next184–189 then provisional190–193 and immutable assembly.185–191 continuity not inspected.20 readable,1 partial,18 unresolved. Canonical0019 뷰티풀 텍스트/김덕현 opens194/192;parent0017 pending. Cover,268-page accounting,index/report,independent issue rebuild and closeout pending. Keep batch36PLAY,batch33MSXcorners,batch29Prologue,batch24numerical,batch20MSX adapters. Source mode24,ANGLF,AS,EA signs,100 label,580 wording and key-mark candidates retained. Human acceptance/full proofreading,source bytes/claims/execution unverified."
   ],
   "reader_rebuild": false
 }
