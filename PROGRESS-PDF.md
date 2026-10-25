@@ -7,15 +7,15 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 restoration is active: 46 canonical entries and 266 source pages.
-Eleven articles are readable/sample-reviewed; no current partial article or pending
-assembly remains. Pascal course0043 is complete on 58–63 with 384 independently
-exact files and 653 physical text rows. All 4,049 text ranges, 105 images,
-32 Pascal fields, 42 table cells and seven command-key descriptions pass.
-All 7,656 prior files, ten inventories and 30 core pins remain unchanged;
-the 213-test baseline is reused. Thirty-five identities, cover and issue accounting
-remain. Next verify PLAY conquest(3)0044 from opening64. Updates and documentation
-use English; source text retains its original language. No reader rebuild.
-See [November log](docs/progress/8511.md) and
+Eleven articles are readable/sample-reviewed; PLAY conquest(3)0044 is partial,
+with64–69 restored and final70 plus complete assembly pending. All 607 segment
+files independently reproduce. All 4,804 text ranges, 178 images, 493 BASIC fields,
+93 nonempty table cells and 41 annotation associations validate. All 9,263 prior
+files, eleven inventories and 30 core pins remain unchanged; the unchanged
+213-test baseline is reused. Thirty-four identities, cover and issue accounting
+remain. Next restore PLAY final70. Conversation, updates, progress logs and
+documentation use English; source text retains its original language.
+No reader rebuild. See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries

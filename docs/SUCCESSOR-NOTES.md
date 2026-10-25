@@ -16,23 +16,30 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 November 1985 is in progress: eleven readable/sample-reviewed articles,
-35 unresolved identities and no current partial article or pending assembly.
-Pascal course0043 is complete on 58–63 at `packages/batch-11-r01/pascal-course`.
-All 384 files independently reproduce; 4,049 text ranges, 4,344 pins, 105 images,
-32 Pascal fields, 42 table cells and 685 disjoint nonfigure pairs pass. Seven
-command keys retain 17 nonempty cells and three blank continuation-key cells.
-All 7,656 prior files, ten inventories and 30 core pins remain unchanged;
-the 213-test baseline is reused. Current preservation contains 9,263 files.
-All 105 original and 46 replacement crops preceded the 90 OCR tasks; all drafts
-were read before one source pass. Preserve the early verifier failure; it passed
-unchanged after the independent build completed. Printed `readin`, the missing
-terminal period, `EXT`, misspelled menu commands and the absent referenced BASIC
-listing remain explicit. No execution or source-error repair was performed.
-Reproduce with `archive/pdf/1985-11/restoration/batch-11/reproduction.json`.
+one partial article and 34 unresolved identities. PLAY conquest(3)0044 spans
+64–70; its opening64–69 is at `packages/batch-12-r02/play-a`. All 607 files
+independently reproduce. All 4,804 text ranges, 5,283 pins, 178 images and 1,797
+disjoint nonfigure pairs pass. Eleven BASIC programs retain145 rows/493 fields,
+four strings, 43 comments and two numbered rows with no visible bodies.
+Four tables retain93 nonempty cells, four printed empty cells and eight merged
+continuation cells; six merged labels are represented once. There are41 code
+annotation associations, ten boundary joins and eight envelope data bands.
+All 9,263 prior files, eleven inventories and 30 core pins remain unchanged;
+the 213-test baseline is reused. Current preservation contains11,968 files.
+All173 original crops and42 replacement/addition view occurrences preceded140
+OCR tasks; all drafts were read before one source pass. Preserve first failed
+exports and recipe. Selected `package-recipe-r02.json` fixes the gap description
+from an object to the required string; source corrections are unchanged.
+Reproduce with `archive/pdf/1985-11/restoration/batch-12/reproduction.json`.
+Printed spellings, punctuation, missing code bodies and register descriptions
+remain literal; no program execution or semantic repair occurred.
 Numerical analysis0041 remains complete; its pinned batch09 adapter is required
-for assembly checks. Next batch12 verifies PLAY conquest(3)0044 from inspected
-opening64. Cover and whole-issue accounting remain. Use English for conversation,
-updates, logs and documentation; keep original-language source text. No reader rebuild.
+for assembly checks. Next batch13 restores verified PLAY final70. Complete PLAY
+assembly must preserve this segment. The following canonical0032 may be added
+only after extent inspection and within the two-task/six-page checkpoint limits.
+Cover and whole-issue accounting remain. Use English for conversation, updates,
+logs and documentation; keep original-language source text. This preference is
+also recorded in root `AGENTS.md`. No reader rebuild.
 See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 

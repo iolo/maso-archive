@@ -23,21 +23,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 is active: eleven readable/sample-reviewed articles and 35 unresolved
-  identities; no current partial article or pending assembly. Pascal course0043
-  is complete on 58–63 at `packages/batch-11-r01/pascal-course`. All 384 files
-  independently reproduce. Its 105 regions, 90 blocks and 15 figures retain
-  653 physical rows, three code groups/12 rows, 32 Pascal fields, 42 table cells,
-  seven command keys and 16 prose-boundary reconstructions. All 4,049 UTF-8
-  ranges, 4,344 pins, 105 images and 685 disjoint nonfigure pairs pass. All 7,656
-  prior files, ten inventories and 30 core pins remain unchanged; the 213-test
-  baseline is reused. All 105 original and 46 replacement crops were inspected
-  before 90 OCR tasks; all drafts were read before one source pass. Preserve
-  the early verifier failure and the subsequent successful verification.
-  Printed code errors and the absent referenced BASIC listing remain explicit.
-  Current preservation: 9,263 files. Next batch12 verifies PLAY conquest(3)0044
-  from opening64. Numerical analysis0041 remains complete; use its pinned
-  batch09 private adapter for assembly checks. Cover and whole-issue accounting
+- November 1985 is active: eleven readable/sample-reviewed articles, one partial
+  article and 34 unresolved identities. PLAY conquest(3)0044 spans64–70; its
+  opening64–69 is restored at `packages/batch-12-r02/play-a`. All 607 files
+  independently reproduce. Its 178 regions, 140 blocks and 38 figures retain
+  453 physical text rows plus 32 logical table rows. Eleven BASIC programs have
+  145 rows, 493 fields, four strings and two explicitly empty numbered bodies.
+  Four tables retain 93 nonempty cells, four printed empty cells and eight merged
+  continuation cells across six merged labels. All 4,804 ranges, 5,283 pins,
+  178 images and 1,797 disjoint nonfigure pairs pass. All 9,263 prior files,
+  eleven inventories and 30 core pins remain unchanged; the 213-test baseline
+  is reused. All 173 original crops and 42 replacement/addition view occurrences
+  preceded 140 OCR tasks; all drafts were read before one source pass. Preserve
+  failed first exports and recipe; selected recipe-r02 fixes only the gap type.
+  Current preservation: 11,968 files. Next batch13 restores final70 before full
+  PLAY assembly. Numerical analysis0041 remains complete; its pinned batch09
+  private adapter is required for assembly checks. Cover and whole-issue accounting
   remain. No reader rebuild. [November log](docs/progress/8511.md),
   [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
