@@ -2783,12 +2783,84 @@
       "toc_entry_id": "maso-1985-10-toc-0030",
       "title": "원고모집",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Whole228–230 inspected. PDF229right independently framed manuscript solicitation titled 독자 여러분의 원고를 모집합니다. matches canonical0030 원고모집/TOC227. Source229 has no visible folio;keep null,not inferred227.",
+        "Complete notice begins diagonal pencil title and ends information-age publisher imprint below prose. No continuation on228 or230:228 is Magic Window listing/art;230 begins dBASEII.",
+        "Left229 is completed Magic Window0038 conclusion/glossary. Notice region and original panel must remain disjoint from all selected native Magic Window regions;no prior package changes.",
+        "Historical submission address,telephone,remuneration andreturn claims transcribed literally,not verified as current rules. Publisher imprint is not an individual byline."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/recruitment",
+        "article_id": "scan-maso-1985-10-toc-0030",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/recruitment/manifest.json",
+          "sha256": "4d3b17b01f80e2845d709044625e4944e70b9538403b498d16a7cca14d4cd22a",
+          "bytes": 3436
+        },
+        "coverage": {
+          "pdf_pages": [
+            229
+          ],
+          "printed_pages": [
+            null
+          ],
+          "regions": 4,
+          "blocks": 3,
+          "figures": 1,
+          "coverage_scope": "Complete right-hand framed notice with diagonal title,16 body rows and publisher imprint. Six sections/four physical wraps retained;left Magic Window excluded.",
+          "actual_full_pdf_pages": [
+            229
+          ],
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete229right;source folio null,canonical TOC227 unchanged. Original pencil/frame preserved;historical submission claims unverified."
+        },
+        "segments": [
+          {
+            "id": "recruitment",
+            "directory": "archive/pdf/1985-10/packages/recruitment",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/recruitment/manifest.json",
+              "sha256": "4d3b17b01f80e2845d709044625e4944e70b9538403b498d16a7cca14d4cd22a",
+              "bytes": 3436
+            },
+            "pdf_pages": [
+              229
+            ],
+            "printed_pages": [
+              null
+            ],
+            "availability": "readable",
+            "validation": {
+              "path": "archive/pdf/1985-10/restoration/batch-62/validation.json",
+              "sha256": "e43886cf35038d97605af26d55815e57660fd7242c1794bf32a9e90e1d6a2d79",
+              "bytes": 2415
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-10/restoration/batch-62/reproduction.json",
+              "sha256": "5155216f37b8207c86bedcf862c166c7eae86566ae9ccadc1d8f3e78312e1723",
+              "bytes": 1328
+            }
+          }
+        ],
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-62/validation.json",
+          "sha256": "e43886cf35038d97605af26d55815e57660fd7242c1794bf32a9e90e1d6a2d79",
+          "bytes": 2415
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-62/reproduction.json",
+          "sha256": "5155216f37b8207c86bedcf862c166c7eae86566ae9ccadc1d8f3e78312e1723",
+          "bytes": 1328
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0031",
@@ -3630,10 +3702,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 34,
+    "readable": 35,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 5
+    "unresolved_eligibility": 4
   },
   "checkpoints": [
     {
@@ -6650,6 +6722,50 @@
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-62",
+      "status": "complete",
+      "stage": "validated-complete-article",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0030"
+      ],
+      "mapped_pdf_pages": [
+        229
+      ],
+      "outside_map_lookup_pages": [
+        228,
+        230
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 3,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 3,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "changed_crop_regions": 0,
+      "all_selected_crops_reviewed_before_ocr": true,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-62/validation.json",
+        "sha256": "e43886cf35038d97605af26d55815e57660fd7242c1794bf32a9e90e1d6a2d79",
+        "bytes": 2415
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-62/verification-completed.json",
+        "sha256": "e7e7d4dff331d54c769e7dfc5d22bce27b4fd9ab7923d7b54c40b3dae27c1d19",
+        "bytes": 1459
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-62-preserved-work.json",
+        "sha256": "5af55cb0e2d6c55aaff0c551e16fff864f582a9f70bda2d26f501292a3906550",
+        "bytes": 17065125
+      },
+      "started_at": "2026-10-25T00:14:19.160132+00:00",
+      "finished_at": "2026-10-25T00:19:12.631202+00:00",
+      "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -9135,17 +9251,38 @@
       "printed_page": null,
       "classification": "article-body",
       "toc_entry_ids": [
-        "maso-1985-10-toc-0038"
+        "maso-1985-10-toc-0038",
+        "maso-1985-10-toc-0030"
       ],
-      "restoration": "complete-assembled-article",
-      "selected_package": "archive/pdf/1985-10/packages/magic-window-complete-r01",
-      "evidence": "Final228listing3tail/incoming94,listing4hex/checksums andendingart;229left4.마침말 andfourglossaryentries with10/20/30indentationexample. All14bodypages covered acrossthreeimmutablenatives;fullassemblypending.",
+      "restoration": "complete-shared-page-articles",
+      "selected_packages": [
+        "archive/pdf/1985-10/packages/magic-window-complete-r01",
+        "archive/pdf/1985-10/packages/recruitment"
+      ],
+      "evidence": "Left Magic Window0038 conclusion/glossary remains unchanged;right canonical0030 independently framed manuscript solicitation complete. No visible folio. All32 cross-owner region pairs disjoint.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-50/source-reviewed.json",
-        "sha256": "f25449ecd7d46bdff21464442f1bad857b1cd0ec752e73e8ed4ffa32745b87e5",
-        "bytes": 4421
+        "path": "archive/pdf/1985-10/restoration/batch-62/source-reviewed.json",
+        "sha256": "8f9e07c118721e06a1fefad62a5d211a8a1e465e5ad3d34a1899ae4a02e5daf1",
+        "bytes": 3346
       },
-      "ownership_note": "Leftarticle only;separatelyframedrightmanuscriptnotice excluded anditsidentity/accounting deferred. Visiblefolio null."
+      "previous_left_owner_observation": {
+        "pdf_page": 229,
+        "printed_page": null,
+        "classification": "article-body",
+        "toc_entry_ids": [
+          "maso-1985-10-toc-0038"
+        ],
+        "restoration": "complete-assembled-article",
+        "selected_package": "archive/pdf/1985-10/packages/magic-window-complete-r01",
+        "evidence": "Final228listing3tail/incoming94,listing4hex/checksums andendingart;229left4.마침말 andfourglossaryentries with10/20/30indentationexample. All14bodypages covered acrossthreeimmutablenatives;fullassemblypending.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-50/source-reviewed.json",
+          "sha256": "f25449ecd7d46bdff21464442f1bad857b1cd0ec752e73e8ed4ffa32745b87e5",
+          "bytes": 4421
+        },
+        "ownership_note": "Leftarticle only;separatelyframedrightmanuscriptnotice excluded anditsidentity/accounting deferred. Visiblefolio null."
+      },
+      "ownership_note": "Two canonical owners;no shared text or image region overlap. Prior Magic Window exclusion and all native files unchanged."
     },
     {
       "pdf_page": 230,
@@ -9783,16 +9920,25 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-62",
-    "goal": "Verify and restore canonical0030 원고모집 in separately framed right-hand panel of PDF229; visible folio remains null.",
+    "id": "batch-63",
+    "goal": "Classify canonical parent identities0006 TIPS and0017 컴퓨터 그래픽 from source contents and existing child coverage.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0030"
+      "maso-1985-10-toc-0006",
+      "maso-1985-10-toc-0017"
     ],
-    "mapping_targets": "Reuse saved whole229 from batch48/50/51 and adjacent228/230. Verify source title,body/ending and canonical correspondence. Preserve left229 Magic Window0038 unchanged and disjoint; no whole-page figure overlapping the other article. No inferred229 folio,byline or historical submission rules. One canonical task,at most six mapped pages/twenty outside lookups.",
+    "mapping_targets": "Accounting-only checkpoint:inspect source contents and saved child openings/boundaries. Verify whether parents own any separate body/divider;preserve all seven TIPS and three graphics child identities/relationships/packages. Do not infer non-ownership from pageless TOC alone. At most20 outside lookups,two canonical tasks;no new article extraction or OCR unless separately scoped.",
     "provisional_lookup_targets": [
-      228,
-      229,
-      230
+      46,
+      48,
+      53,
+      59,
+      62,
+      65,
+      71,
+      73,
+      168,
+      178,
+      194
     ],
     "limits": {
       "articles": 2,
@@ -9804,7 +9950,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Editorial0033 and advertising index0034 complete on shared266/visible264;34 readable/sample-reviewed,0 partial,5 unresolved. Four signed notes,two column connections,one notice and uncertain ellipsis band;30 index rows/60 cells/38 reference parts/three cover references/30 leader bands retained. No full signature identities,source dot counts or reference targets inferred. Next recruitment0030 at229right;four parents,cover,268-page accounting,index/report,independent issue rebuild and closeout remain. Retain ten private assembly adapters and all failed attempts. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
+    "Recruitment0030 complete229right;35 readable/sample-reviewed,0 partial,4 unresolved parents. Six notice sections,four physical wraps,two publisher body occurrences,printed address/phone and10-day return claim retain own source ranges. Diagonal pencil title/body/imprint/frame original;source folio null,TOC227 unchanged. Left Magic Window and all ten assembly adapters unchanged. Next classify TIPS0006/graphics0017;then remaining parents,cover,268-page accounting,index/report,independent issue rebuild and closeout. Human acceptance/full proofreading,source bytes/spacing/glyph counts,historical/current claims unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }

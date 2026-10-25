@@ -19,26 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:34 readable/sample-reviewed,0 partial,5 unresolved.
-  Batch 61 completes editorial0033 and index0034 on sharedPDF266/visible264:
-  `packages/closing-editorial`42 files and `packages/advertising-index`21 files
-  independently exact.14 regions/11 blocks/three original panels;complete bodies,
-  no assembly pending. Lower-left unlisted colophon excluded from both owners.
-  Four signed notes,two column joins,one publication notice and one explicit
-  ellipsis marker retain uncertain signature candidates 閔/욱/成/막;no full identities.
-  Index:two15-row columns/60 cells/38 reference parts/three cover references/
-  30 original leader bands/29 flow links. No source dot counts or targets inferred.
-  All686 ranges/758 pins/14 crops/55 disjoint textpairs/40 cross-owner pairs pass;
-  14 malformed cases reject. Three saved whole views;one mapped/two outside/two tasks.
-  All14 crops before11 kor+eng tasks;all11 raws before one correction pass.
-  No crop repairs or recognition retries. Initial unsupported table kind failed
-  mapping schema;all attempts retained;selected r01 uses prose kind with table indexes.
-  All73,251 prior files/60 inventories/30 core pins exact;unchanged213-test baseline
-  reused. New inventory:73,529. Preserve all ten private assembly adapters.
-  Next batch 62:recruitment0030 onPDF229right;reuse228–230,keep left Magic Window
-  unchanged and229folio null. Four parents,cover,268-page accounting,index/report,
-  independent issue rebuild and closeout remain. Human acceptance/full proofreading,
-  source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild.
+- October1985 active:35 readable/sample-reviewed,0 partial,4 unresolved parents.
+  Batch 62 completes recruitment0030 at `packages/recruitment`:21 files independently
+  exact;four regions/three blocks/one original panel onPDF229right. Complete diagonal
+  title,16 body rows,publisher imprint/frame/pencil;left Magic Window unchanged.
+  No visible229folio;canonicalTOC227 unchanged. Six sections/five flow links/four
+  physical wraps/two publisher occurrences/three numeric fields retain126 ranges,
+  141 pins,four crops,three disjoint textpairs and32 cross-owner pairs. Ten malformed
+  cases reject. Six source candidates;historical address/phone/10-day claim unverified.
+  Three saved whole views;one mapped/two outside/one task. Four crops before three
+  kor+eng tasks;all raws before one source pass. No crop repair or OCRretry.
+  Failed serializer syntax/dependent build retained;fresh serializer fixes syntax
+  only,source unchanged. All73,529 prior files/61 inventories/30 core pins exact;
+  unchanged213-test baseline reused. New inventory:73,641. Preserve ten adapters.
+  Next batch 63:classify TIPS0006 and graphics0017 using source contents and child
+  boundaries;no inferred non-ownership from pageless TOC alone. Other two parents,
+  cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
+  Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
+  unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

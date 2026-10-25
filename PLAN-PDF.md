@@ -24,56 +24,48 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-25
 
-October 1985 restoration continues under step 12: **34 readable/sample-reviewed
-entries, zero partial articles and five unresolved**, accounting for all 39 canonical
-identities. Earlier packages, identities and parent relationships remain unchanged.
+October 1985 restoration continues under step 12: **35 readable/sample-reviewed
+entries, zero partial articles and four unresolved parent identities**, accounting
+for all39 canonical identities. Earlier packages and parent relationships are unchanged.
 
-Batch 61 completes **편집후기0033 and 광고색인0034**, sharing PDF266/visible264.
-The packages are `archive/pdf/1985-10/packages/closing-editorial` and
-`archive/pdf/1985-10/packages/advertising-index`: all 42 and21 files respectively
-match independent rebuilds. Together they retain14 regions,11 text blocks and
-three original panels. Both complete bodies are preserved; no assembly is pending.
-The lower-left colophon remains unlisted outside both articles.
+Batch 62 completes **원고모집0030**, the right-hand framed notice on PDF229,
+at `archive/pdf/1985-10/packages/recruitment`. All21 files match an independent
+rebuild. Four regions retain three text blocks and one complete original panel,
+including the diagonal pencil title,16 body rows and publisher imprint. No notice
+body pages or assembly remain pending. Page229 has no visible folio;canonical
+TOC reference227 is unchanged. Left-hand Magic Window0038 remains unchanged.
 
-The editorial retains four separately signed notes, two column continuations,
-the framed title/cartoon and the publication notice below the frame. Source
-signature candidates 閔/욱/成/막 remain separate from an article byline; no full
-identities inferred. The omitted ellipsis line is restored with an explicit
-[생략점] marker linked to the original band; its source glyph count is unknown.
-The publication notice retains CP/M의 진수, 실전 기계어 and the ’85년 8, 9월호
-reference literally. Historical wording and faint source candidates stay explicit.
+Six notice sections,five flow links,four physical wraps,two publisher occurrences
+and three numeric fields retain their source positions. Printed address36-4,
+phone783-2296 and10-day return claim remain historical text with explicit glyph
+and validity limits. Historical 겠읍니까 and 접수일로 부터 remain literal.
+The publisher wordmark 정보시대 is not an individual byline. All six source
+candidate notes retain their own scans,including diagonal title and separators.
 
-The index retains two15-row columns,60 cells,38 reference parts,three cover
-references and30 original leader-dot bands. The 29 row-flow links retain left-column
-then right-column order. No column headers,source dot counts or reference targets
-are invented. Source 극동씨스템,대은출판사,러브리 소프트웨어,대암전자,
-이행전기,한국 쓰리엠 and2·3 remain source-linked candidates.
+All126 UTF-8 range occurrences,141 evidence pins,four exact crops,three disjoint
+text pairs and32 cross-owner region pairs validate. Ten malformed cases reject,
+including a wrong repeated publisher occurrence,missing final contact section,
+lost physical wrap,inferred folio and publisher treated as an author.
 
-All686 UTF-8 range occurrences,758 evidence pins and14 exact crops validate.
-All55 nonfigure pairs and40 cross-owner region pairs are disjoint. Fourteen malformed
-cases reject,including missing notes/rows,wrong column joins,wrong repeated reference
-occurrences,invented identities/ellipsis counts and cover references treated as pages.
+Three saved whole views228–230 were reused:one mapped page,two outside lookups,
+one canonical task. All four selected crops were inspected before three kor+eng
+tasks;all three raw drafts were read before one source correction pass. No crop
+repairs or OCR failures/retries. The diagonal title and logo used recorded direct
+source fallback. Initial serializer syntax failure occurred before output;its
+attempt and dependent missing-recipe build are retained. Fresh serializer revision
+fixes only the syntax;source text,maps,crops and raw drafts are unchanged.
 
-Three saved whole views265–267 were reused: one distinct mapped page,two outside
-lookups and two canonical tasks. All14 selected crops were inspected before11
-kor+eng tasks;all11 raw drafts were read before one source correction pass.
-No crop repairs,OCR failures or retries. Successful OCR omitted several index rows
-and the ellipsis line; recorded direct source fallback restored them. Initial mapping
-used an unsupported table region kind and failed schema validation; its editorial
-map/crops and empty index attempt remain. Fresh r01 maps use prose region kind with
-explicit table row/cell metadata. Source content was not changed by that repair.
+All73,529 prior files,61 inventories and30 core implementation pins remain exact;
+the unchanged213-test baseline is reused. New preservation inventory:73,641 files.
+All ten private assembly adapters remain pinned. Human acceptance/full proofreading,
+source bytes/spacing/glyph counts,historical/current claims and execution remain
+unverified. No reader was rebuilt.
 
-All73,251 prior files,60 inventories and30 core implementation pins remain exact;
-the unchanged213-test baseline is reused. New preservation inventory: 73,529 files.
-Retain all ten private assembly adapters. Human acceptance/full proofreading,
-source bytes/spacing/glyph counts,claims and execution remain unverified.
-No reader was rebuilt.
-
-Next is **batch 62: 원고모집0030**, the separately framed right-hand panel of
-PDF229. Reuse saved228–230 views;verify identity and complete notice extent while
-preserving the left-hand Magic Window article. Page229 has no visible folio.
-Four unresolved parent classifications,cover,268-page accounting,standalone
-index/report,independent issue rebuild and closeout follow.
+Next is **batch 63: classify TIPS0006 and 컴퓨터 그래픽0017** from source contents
+and existing child coverage. Verify whether either parent owns separate material;
+do not infer non-ownership from a pageless TOC alone. Preserve all seven TIPS and
+three graphics children. The remaining two parents,cover,268-page accounting,
+standalone index/report,independent issue rebuild and closeout follow.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
