@@ -19,26 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:32 readable/sample-reviewed,0 partial,7 unresolved.
-  Batch 60 completes classifieds0032 at `packages/classifieds`:39 files independently
-  exact;13 regions/six searchable blocks/seven original panels across PDF260–264.
-  Original bodies and instructions await volunteer transcription; all body pages
-  complete, no assembly pending. Four embedded ads excluded. Only261 visible259;
-  other four folios null; canonical TOC258 unchanged. Final offer contact/terminal
-  absent in source, not reconstructed. Twelve body fragments,four physical associations,
-  11 flow links,51 ranges,161 pins,13 crops and ten malformed-case rejections pass.
-  Five source candidates retain title spacing,clipped coupon ink and 드리겠읍니다.
-  Ten whole views/five mapped/five outside;13 crops before six kor+eng tasks;
-  all raws before one correction pass. One crop operation/two changed/11 unchanged.
-  No recognition failures/retries. Retain initial serializer draft; selected r02 fixes
-  page261 image ordering only. Failed unqualified-Python launch retained; corrected
-  preservation check passed. All72,941 prior files/59 inventories/30 core pins exact;
-  unchanged213-test baseline reused. New inventory:73,251. Preserve ten adapters.
-  Next batch 61:editorial0033 and ad index0034 share PDF266/visible264; verify separate
-  ownership from colophon and use saved265–267 views. Seven unresolved identities,
-  cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
-  Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
-  unverified. No reader rebuild.
+- October1985 active:34 readable/sample-reviewed,0 partial,5 unresolved.
+  Batch 61 completes editorial0033 and index0034 on sharedPDF266/visible264:
+  `packages/closing-editorial`42 files and `packages/advertising-index`21 files
+  independently exact.14 regions/11 blocks/three original panels;complete bodies,
+  no assembly pending. Lower-left unlisted colophon excluded from both owners.
+  Four signed notes,two column joins,one publication notice and one explicit
+  ellipsis marker retain uncertain signature candidates 閔/욱/成/막;no full identities.
+  Index:two15-row columns/60 cells/38 reference parts/three cover references/
+  30 original leader bands/29 flow links. No source dot counts or targets inferred.
+  All686 ranges/758 pins/14 crops/55 disjoint textpairs/40 cross-owner pairs pass;
+  14 malformed cases reject. Three saved whole views;one mapped/two outside/two tasks.
+  All14 crops before11 kor+eng tasks;all11 raws before one correction pass.
+  No crop repairs or recognition retries. Initial unsupported table kind failed
+  mapping schema;all attempts retained;selected r01 uses prose kind with table indexes.
+  All73,251 prior files/60 inventories/30 core pins exact;unchanged213-test baseline
+  reused. New inventory:73,529. Preserve all ten private assembly adapters.
+  Next batch 62:recruitment0030 onPDF229right;reuse228–230,keep left Magic Window
+  unchanged and229folio null. Four parents,cover,268-page accounting,index/report,
+  independent issue rebuild and closeout remain. Human acceptance/full proofreading,
+  source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

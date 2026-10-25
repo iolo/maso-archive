@@ -2952,23 +2952,167 @@
       "toc_entry_id": "maso-1985-10-toc-0033",
       "title": "편집후기",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Three whole views265–267 inspected. Complete editorial0033 and advertising index0034 share PDF266/visible264.265 independent book advertisement;267 independent DAEWOO advertisement.",
+        "Editorial occupies upper framed panel with cartoon/title, four separately signed notes and two physical column continuations. Below-box publication notice belongs to editorial material. No full byline inferred from initials.",
+        "Advertising index occupies lower-right panel: title and two ordered columns of fifteen name/reference rows each. Preserve cover references and multiple reference punctuation literally; no reference target inferred.",
+        "Lower-left colophon is unlisted outside both canonical bodies. Original eligible panels retained; full shared page stays private evidence. No full-page figure that duplicates the other article."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/closing-editorial",
+        "article_id": "scan-maso-1985-10-toc-0033",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/closing-editorial/manifest.json",
+          "sha256": "ea013672abdf7f4b0ac6e27269fce2f2f28ebbd4c13fcc6417cc3dcab52270bc",
+          "bytes": 6988
+        },
+        "coverage": {
+          "pdf_pages": [
+            266
+          ],
+          "printed_pages": [
+            "264"
+          ],
+          "regions": 10,
+          "blocks": 8,
+          "figures": 2,
+          "coverage_scope": "Complete upper editorial and below-frame notice;four signed notes,two column connections,one uncertain ellipsis band.",
+          "actual_full_pdf_pages": [
+            266
+          ],
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete canonical body on shared266/visible264;other canonical owner and unlisted lower-left colophon excluded."
+        },
+        "segments": [
+          {
+            "id": "closing-editorial",
+            "directory": "archive/pdf/1985-10/packages/closing-editorial",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/closing-editorial/manifest.json",
+              "sha256": "ea013672abdf7f4b0ac6e27269fce2f2f28ebbd4c13fcc6417cc3dcab52270bc",
+              "bytes": 6988
+            },
+            "pdf_pages": [
+              266
+            ],
+            "printed_pages": [
+              "264"
+            ],
+            "availability": "readable",
+            "validation": {
+              "path": "archive/pdf/1985-10/restoration/batch-61/validation.json",
+              "sha256": "379c58e65c09b5975559f8c2726b2534fcf3050bc0c91c5631ce7a1e86ff55ee",
+              "bytes": 3469
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-10/restoration/batch-61/reproduction.json",
+              "sha256": "945769313d0354052c65e003551233c5ff67440172cd816a7378f95fdf0fca99",
+              "bytes": 1845
+            }
+          }
+        ],
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-61/validation.json",
+          "sha256": "379c58e65c09b5975559f8c2726b2534fcf3050bc0c91c5631ce7a1e86ff55ee",
+          "bytes": 3469
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-61/reproduction.json",
+          "sha256": "945769313d0354052c65e003551233c5ff67440172cd816a7378f95fdf0fca99",
+          "bytes": 1845
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0034",
       "title": "광고색인",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Three whole views265–267 inspected. Complete editorial0033 and advertising index0034 share PDF266/visible264.265 independent book advertisement;267 independent DAEWOO advertisement.",
+        "Editorial occupies upper framed panel with cartoon/title, four separately signed notes and two physical column continuations. Below-box publication notice belongs to editorial material. No full byline inferred from initials.",
+        "Advertising index occupies lower-right panel: title and two ordered columns of fifteen name/reference rows each. Preserve cover references and multiple reference punctuation literally; no reference target inferred.",
+        "Lower-left colophon is unlisted outside both canonical bodies. Original eligible panels retained; full shared page stays private evidence. No full-page figure that duplicates the other article."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/advertising-index",
+        "article_id": "scan-maso-1985-10-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/advertising-index/manifest.json",
+          "sha256": "4e27eee56a355c277e21dcaa960da98a89747a28866f21a1d349054689cffcd8",
+          "bytes": 3397
+        },
+        "coverage": {
+          "pdf_pages": [
+            266
+          ],
+          "printed_pages": [
+            "264"
+          ],
+          "regions": 4,
+          "blocks": 3,
+          "figures": 1,
+          "coverage_scope": "Complete lower-right index;two15-row columns,60 cells,38 literal reference parts,three cover references and30 original leader bands.",
+          "actual_full_pdf_pages": [
+            266
+          ],
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "body_pages_complete": true,
+          "full_extent_status": "Complete canonical body on shared266/visible264;other canonical owner and unlisted lower-left colophon excluded."
+        },
+        "segments": [
+          {
+            "id": "advertising-index",
+            "directory": "archive/pdf/1985-10/packages/advertising-index",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/advertising-index/manifest.json",
+              "sha256": "4e27eee56a355c277e21dcaa960da98a89747a28866f21a1d349054689cffcd8",
+              "bytes": 3397
+            },
+            "pdf_pages": [
+              266
+            ],
+            "printed_pages": [
+              "264"
+            ],
+            "availability": "readable",
+            "validation": {
+              "path": "archive/pdf/1985-10/restoration/batch-61/validation.json",
+              "sha256": "379c58e65c09b5975559f8c2726b2534fcf3050bc0c91c5631ce7a1e86ff55ee",
+              "bytes": 3469
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-10/restoration/batch-61/reproduction.json",
+              "sha256": "945769313d0354052c65e003551233c5ff67440172cd816a7378f95fdf0fca99",
+              "bytes": 1845
+            }
+          }
+        ],
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-61/validation.json",
+          "sha256": "379c58e65c09b5975559f8c2726b2534fcf3050bc0c91c5631ce7a1e86ff55ee",
+          "bytes": 3469
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-61/reproduction.json",
+          "sha256": "945769313d0354052c65e003551233c5ff67440172cd816a7378f95fdf0fca99",
+          "bytes": 1845
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0035",
@@ -3486,10 +3630,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 32,
+    "readable": 34,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 7
+    "unresolved_eligibility": 5
   },
   "checkpoints": [
     {
@@ -6458,6 +6602,51 @@
       "started_at": "2026-10-24T23:50:58.971786+00:00",
       "finished_at": "2026-10-25T00:03:14.530445+00:00",
       "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
+    },
+    {
+      "id": "batch-61",
+      "status": "complete",
+      "stage": "validated-two-complete-articles",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0033",
+        "maso-1985-10-toc-0034"
+      ],
+      "mapped_pdf_pages": [
+        266
+      ],
+      "outside_map_lookup_pages": [
+        265,
+        267
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 11,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 11,
+      "source_correction_passes": 1,
+      "crop_repairs": 0,
+      "changed_crop_regions": 0,
+      "all_selected_crops_reviewed_before_ocr": true,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-61/validation.json",
+        "sha256": "379c58e65c09b5975559f8c2726b2534fcf3050bc0c91c5631ce7a1e86ff55ee",
+        "bytes": 3469
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-61/verification-completed.json",
+        "sha256": "a51501352ef40993e7f626fbcc3c4faa3315cee65ec12c836d3a83c571bdec5b",
+        "bytes": 1453
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-61-preserved-work.json",
+        "sha256": "c16c71a5ba70fc7ce9176396cd464c7f84f45850139cb01e783733f495324fa4",
+        "bytes": 17041633
+      },
+      "started_at": "2026-10-25T00:05:24.631289+00:00",
+      "finished_at": "2026-10-25T00:11:58.415565+00:00",
+      "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
@@ -9547,15 +9736,23 @@
     {
       "pdf_page": 266,
       "printed_page": "264",
-      "classification": "outside-article-observed",
-      "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Closing editorial and advertising index share page; lower-left colophon separate. Canonical0033/0034 restoration deferred to batch61.",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0033",
+        "maso-1985-10-toc-0034"
+      ],
+      "restoration": "complete-shared-page-articles",
+      "selected_packages": [
+        "archive/pdf/1985-10/packages/closing-editorial",
+        "archive/pdf/1985-10/packages/advertising-index"
+      ],
+      "evidence": "Upper editorial0033/frame/cartoon/four signed notes plus below-box publication notice;lower-right advertising index0034. Lower-left unlisted colophon excluded. All40 cross-owner region pairs disjoint.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
-        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
-        "bytes": 7796
-      }
+        "path": "archive/pdf/1985-10/restoration/batch-61/source-reviewed.json",
+        "sha256": "976be87b16e8f34ece136915f5791ad6d02a17ee95409bb0ac9c1917e34b3d2d",
+        "bytes": 5247
+      },
+      "ownership_note": "Two canonical owners; neither package includes the other body or colophon. Original full page private; eligible panels exported."
     },
     {
       "pdf_page": 267,
@@ -9586,17 +9783,16 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-61",
-    "goal": "Restore closing editorial0033 편집후기 and advertising index0034 광고색인 on PDF266/visible264.",
+    "id": "batch-62",
+    "goal": "Verify and restore canonical0030 원고모집 in separately framed right-hand panel of PDF229; visible folio remains null.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0033",
-      "maso-1985-10-toc-0034"
+      "maso-1985-10-toc-0030"
     ],
-    "mapping_targets": "Reuse reviewed whole266 and adjacent265/267. Verify upper editorial including publication notice below its box, lower-right advertising index and separate lower-left colophon. Keep two canonical owners disjoint; no invented bylines or ad reference targets. Preserve source spellings, leader bands and original panels. At most two canonical tasks/six mapped pages/twenty outside lookups.",
+    "mapping_targets": "Reuse saved whole229 from batch48/50/51 and adjacent228/230. Verify source title,body/ending and canonical correspondence. Preserve left229 Magic Window0038 unchanged and disjoint; no whole-page figure overlapping the other article. No inferred229 folio,byline or historical submission rules. One canonical task,at most six mapped pages/twenty outside lookups.",
     "provisional_lookup_targets": [
-      265,
-      266,
-      267
+      228,
+      229,
+      230
     ],
     "limits": {
       "articles": 2,
@@ -9608,7 +9804,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Classifieds0032 complete260–264 under accepted image-body policy;32 readable/sample-reviewed,0 partial,7 unresolved. Six searchable blocks/seven original panels retain12 body fragments,4 physical associations,11 flow links and4 independent ad exclusions. Only261 visible259; other folios null. Final offer lacks visible contact/terminal; no reconstruction. Next editorial0033/index0034 on266. Preserve ten private assembly adapters. Cover,268-page accounting,index/report,independent issue rebuild and closeout remain. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
+    "Editorial0033 and advertising index0034 complete on shared266/visible264;34 readable/sample-reviewed,0 partial,5 unresolved. Four signed notes,two column connections,one notice and uncertain ellipsis band;30 index rows/60 cells/38 reference parts/three cover references/30 leader bands retained. No full signature identities,source dot counts or reference targets inferred. Next recruitment0030 at229right;four parents,cover,268-page accounting,index/report,independent issue rebuild and closeout remain. Retain ten private assembly adapters and all failed attempts. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }
