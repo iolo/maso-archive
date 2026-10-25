@@ -20,19 +20,18 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:35 readable/sample-reviewed articles,4 non-owning headings,
-  0 partial,0 unresolved;all39 canonical identities accounted. Batch 64 classifies
-  reader0021 and business0036 using contents and complete child boundaries. All15
-  children/46 page assignments/44 distinct pages remain unchanged. Source 비지니스
-  and canonical 비즈니스 preserved. All66 text-region pairs on229/233/266 disjoint;
-  unlisted209notice and266colophon remain outside selected bodies. No parent package.
-  Nineteen saved PDF views plus one original TOC scan:20 conservative lookups,two
-  tasks,zero mapping/OCR/source correction. Six malformed cases reject. All73,699
-  prior files/63 inventories/30 core pins exact;213-test baseline reused. New inventory:
-  73,758 files. All ten private assembly adapters remain pinned.
-  Next batch 65:verify donated cover and independently reproduce bounded thumbnail.
-  Then268-page accounting,index/report,independent issue rebuild and closeout.
+  0 partial,0 unresolved;all39 canonical identities accounted. Batch 65 verifies
+  donated `covers/8510.jpg` and existing480×611 RGB JPEG thumbnail68,837bytes.
+  Source metadata stripped;independent private transform byte-identical. Donation
+  takes priority over PDF cover;originals/derivative unchanged. Original review,
+  thumbnail andPDF1 visually agree on85.10,masthead andstatue/cloud/keyboard artwork.
+  Three conservative lookups,zero mapping/OCR/article tasks. All73,758 prior files,
+  64 inventories,30 core pins and ten adapters exact;213-test baseline reused.
+  New inventory:73,780 files. All article/heading/source-page records unchanged.
+  Next issue-accounting-01:outside-body pages2–21,then remaining bounded accounting,
+  complete268-page ledger,index/report,independent issue rebuild,fresh213 andcloseout.
   Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
-  unverified. No reader rebuild.
+  and backup recovery remain unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

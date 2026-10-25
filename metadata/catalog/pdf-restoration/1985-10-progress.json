@@ -6932,6 +6932,47 @@
       "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
       "article_availability": "not-applicable",
       "assembly_required": false
+    },
+    {
+      "id": "batch-65",
+      "status": "complete",
+      "stage": "validated-cover",
+      "toc_entry_ids": [],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        1
+      ],
+      "other_source_lookup_images": [
+        "covers/8510.jpg",
+        "archive/covers/derivatives/8510-2e618b9ff6e79ddf187a956e-thumb.jpg"
+      ],
+      "conservative_outside_lookup_count": 3,
+      "canonical_tasks": 0,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-65/validation.json",
+        "sha256": "c501594ef87bab849021fd187a5d672b76e02a4a7e12376c77966c7774d67299",
+        "bytes": 1170
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-65/verification-completed.json",
+        "sha256": "1c08901e165ac9b207c60684129a732e65e6770b3627a1f4364ebf51732ddb91",
+        "bytes": 1183
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-65-preserved-work.json",
+        "sha256": "a8161e120611d8765e1b642ae4a965e62be497a6401e3201bf533f950da2e9ad",
+        "bytes": 17093054
+      },
+      "started_at": "2026-10-25T00:33:14.602899+00:00",
+      "finished_at": "2026-10-25T00:34:43.112232+00:00",
+      "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "not-applicable",
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -10084,18 +10125,33 @@
       }
     }
   ],
-  "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
+  "cover_status": "verified donated cover;480x611 RGB JPEG thumbnail68837bytes;metadata stripped;independent private rebuild exact",
   "next_checkpoint": {
-    "id": "batch-65",
-    "goal": "Verify October1985 donated cover selection and bounded thumbnail against original and PDF cover;independently reproduce derivative.",
+    "id": "issue-accounting-01",
+    "goal": "Classify outside-body PDF pages2–21 from source views;preserve every selected article and exclusion.",
     "toc_entry_ids": [],
-    "mapping_targets": "Cover-only checkpoint. Inspect donated cover,existing selected derivative and saved PDF1 cover;preserve all originals and prepared derivatives. Use private fresh independent rebuild;no reader integration.",
+    "mapping_targets": "Twenty outside-body source pages2–21 only. Save original3000px views and review images,inspect individually,classify contents/advertising/other with literal visible folios ornull. No new article extraction or OCR. Remaining outside pages22–27,37,74,105,107,123,167,172–176,250,258,259,265,267,268 follow in bounded checkpoints,then all268-page ownership/accounting audit and issue closeout.",
     "provisional_lookup_targets": [
-      1
-    ],
-    "other_source_lookup_images": [
-      "covers/8510.jpg",
-      "selected existing cover thumbnail"
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
     ],
     "limits": {
       "articles": 2,
@@ -10107,7 +10163,12 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "All39 canonical identities accounted:35 readable/sample-reviewed articles,4 non-owning headings,0 partial,0 unresolved parents. Reader0021 and business0036 are source-backed organizational groups;their15 children remain unchanged. Source 비지니스/canonical 비즈니스 preserved. Shared229/233/266 child bodies disjoint;colophon and unlisted notice209 outside selected packages. Cover,268-page accounting,index/report,independent issue rebuild and closeout pending. Retain ten private assembly adapters/all attempts. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
+    "All39 canonical identities accounted:35 readable/sample-reviewed articles,4 non-owning headings,0 partial,0 unresolved. Donated cover verified480x611/68837bytes;independent rebuild exact. Whole268-page accounting,index/report,independent issue rebuild,fresh213 tests and full requirement audit pending. Retain ten private adapters/all source attempts;human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution/backup recovery unverified. No reader rebuild."
   ],
-  "reader_rebuild": false
+  "reader_rebuild": false,
+  "cover_verification": {
+    "path": "archive/pdf/1985-10/restoration/batch-65/cover-verification.json",
+    "sha256": "44cb19d8e80746d5e1628c70fc989c07c939797a9c35057012eef098d541cf04",
+    "bytes": 3104
+  }
 }
