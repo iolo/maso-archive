@@ -1,6 +1,6 @@
 # maso-archive
 
-월간 마이크로소프트웨어의 비공식 디지털 아카이브.
+An unofficial digital archive of the monthly magazine Microsoftware.
 
 **CD1, CD2, CD3 restoration and the combined reading room are implemented.**
 The private reader provides issue/date-group browsing, library TOCs, Korean
@@ -171,10 +171,11 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November1985 restoration is in progress:nine articles are independently
-reproducible,including complete numerical analysis on42–upper51. Thirty-seven
-of46 entries still need restoration or classification;cover and issue accounting
-remain. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: ten articles are independently
+reproducible, including practical machine language on 52–upper56. Thirty-six
+of 46 entries still need restoration or classification; cover and issue accounting
+remain. Progress logs and documentation use English while original source text
+retains its language. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 

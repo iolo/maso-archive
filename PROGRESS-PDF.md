@@ -6,14 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-November 1985 restoration is active:46 canonical entries and266 source pages.
-Nine articles are readable/sample-reviewed;no current partial article or pending
-assembly remains. Complete numerical analysis(5)0041 spans42–upper51 with419
-independently exact files,including410 preserved native files. All15,231 text-range
-occurrences and117 images pass. Thirty-seven identities,cover and issue accounting
-remain. Next verify and restore practical machine language(3)0042 from opening52.
-The unchanged213-test baseline is reused;all30 core pins remain unchanged.
-English updates/documentation;original-language source text. No reader rebuild.
+November 1985 restoration is active: 46 canonical entries and 266 source pages.
+Ten articles are readable/sample-reviewed; no current partial article or pending
+assembly remains. Practical machine language(3)0042 is complete on 52–upper56,
+with 214 independently exact files, 247 reading rows and three assembly listings.
+All 2,006 text ranges, 64 images and 42 assembly fields pass. All 6,736 prior files,
+nine inventories and 30 core pins remain unchanged; the 213-test baseline is reused.
+Thirty-six identities, cover and issue accounting remain. Next verify Pascal
+course0043 from opening58. Updates and documentation use English; source text
+retains its original language. No reader rebuild.
 See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 

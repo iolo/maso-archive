@@ -23,21 +23,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 is active: nine readable/sample-reviewed articles and37 unresolved
-  identities;no current partial article or pending assembly. Complete numerical
-  analysis(5)0041 spans42–upper51 at `packages/numerical-analysis-complete-r01`.
-  All419 files independently reproduce,including410 exact native files. All native
-  metadata,15,231 UTF-8 range occurrences,16,171 pins and117 images pass;5,880 prior
-  files,eight inventories and30 core pins remain unchanged. The unchanged213-test
-  baseline is reused. Five active stage deferrals are resolved;source uncertainties
-  and native stage records remain. No new mapping,OCR or source correction.
-  The article retains six tables/four diagrams,four programs,153 BASIC rows,
-  219 FORTRAN rows,450 fields,98 cells,16 blank cells,30 output values and12 unknown
-  glyph/band/cursor placeholders. Lower51's promotion remains excluded.
-  Next batch10:practical machine language(3)0042,verified opening52. Inspect the
-  full extent;52–57 is provisional and TOC58 is only a Pascal-course boundary hint.
-  Cover and whole-issue accounting remain. No global page offset;PDF25 issue-title
-  has no visible folio. No reader rebuild.
+- November 1985 is active: ten readable/sample-reviewed articles and 36 unresolved
+  identities; no current partial article or pending assembly. Practical machine
+  language(3)0042 is complete on 52–upper56 at `packages/batch-10-r01/practical-machine`.
+  All 214 files independently reproduce. Its 64 regions, 47 blocks and 17 figures
+  retain 247 reading rows, three listings/nine assembly rows, 42 fields/18 bytes,
+  two tables/12 cells (including two printed colon separators), nine header fields
+  and seven prose-boundary reconstructions. All 2,006 UTF-8 ranges, 2,170 pins,
+  64 images and 242 disjoint nonfigure pairs pass. All 6,736 prior files, nine
+  inventories and 30 core pins remain unchanged; the 213-test baseline is reused.
+  All 64 original and eight replacement crops were viewed before 47 OCR tasks;
+  all drafts were read before one source pass. Failed serializer remains preserved.
+  Lower56 advertisements and full-page advertisement57 remain excluded; PDF57
+  has no visible folio. Next batch11 verifies Pascal course0043 from opening58.
+  Numerical analysis0041 remains complete; use its pinned batch09 private adapter
+  for assembly checks. Cover and whole-issue accounting remain. No reader rebuild.
   [November log](docs/progress/8511.md),
   [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,

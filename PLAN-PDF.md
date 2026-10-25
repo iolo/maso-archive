@@ -24,15 +24,15 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-The 46-entry,266-page November issue is in progress. Nine articles are
-readable/sample-reviewed,including complete numerical analysis(5)0041 on42–upper51.
-Its419 files independently reproduce,including410 exact native files. No current
-partial article or pending assembly remains;37 identities,cover and whole-issue
-accounting are pending. Next verify the extent of practical machine language(3)
-0042 from its inspected opening52,then restore a bounded checkpoint.
-The unchanged213-test baseline passes. Updates and documentation use English;
-restored source text retains its original language. No reader rebuild.
-See [November progress](docs/progress/8511.md) and its
+The 46-entry, 266-page November issue is in progress. Ten articles are readable
+and sample-reviewed. Practical machine language(3)0042 is complete on 52–upper56;
+all 214 files independently reproduce. All 2,006 text ranges, 64 images and
+42 assembly fields validate. All 6,736 prior files and 30 core pins remain unchanged;
+the unchanged 213-test baseline is reused. No current partial article or pending
+assembly remains. Thirty-six identities, cover and whole-issue accounting remain.
+Next verify Pascal course0043 from its inspected opening58. Updates, progress logs
+and documentation use English; restored source text retains its original language.
+No reader rebuild. See [November progress](docs/progress/8511.md) and its
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 
 ## October 1985 closeout, 2026-10-25

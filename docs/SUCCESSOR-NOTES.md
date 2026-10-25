@@ -15,19 +15,21 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November1985 is in progress:nine readable/sample-reviewed articles,37 unresolved
-identities and no current partial article or pending assembly. Numerical analysis(5)
-0041 is complete42–upper51 at `packages/numerical-analysis-complete-r01`.
-All419 files independently reproduce;410 native files,all correction metadata,
-15,231 text-range occurrences,16,171 pins and117 images pass. All5,880 prior files,
-eight inventories and30 core pins remain unchanged;the213-test baseline is reused.
-The private adapter and reproduction instructions are pinned in
-`archive/pdf/1985-11/restoration/batch-09/reproduction.json`. Use that adapter when
-checking/exporting this assembly. Native stage notes remain;complete scope governs.
-Next batch10 restores practical machine language(3)0042 from verified opening52.
-Verify the extent first;52–57 is provisional and TOC58 is an unverified boundary hint.
-Cover and whole-issue accounting remain. Use English for updates,logs and
-documentation;keep original-language restored source text. No reader rebuild.
+November 1985 is in progress: ten readable/sample-reviewed articles, 36 unresolved
+identities and no current partial article or pending assembly. Practical machine
+language(3)0042 is complete on 52–upper56 at `packages/batch-10-r01/practical-machine`.
+All 214 files independently reproduce; 2,006 text ranges, 2,170 pins, 64 images,
+42 assembly fields and 242 disjoint nonfigure pairs pass. All 6,736 prior files,
+nine inventories and 30 core pins remain unchanged; the 213-test baseline is reused.
+The current preservation inventory contains 7,656 files. Eight crop-margin repairs
+preceded all 47 OCR tasks; all drafts were read before one source pass. Preserve
+the failed serializer and selected r02 script; no source readings changed in that fix.
+Reproduce with `archive/pdf/1985-11/restoration/batch-10/reproduction.json`.
+Numerical analysis0041 remains complete; its pinned batch09 adapter is still required
+for assembly checks. Next batch11 verifies Pascal course0043 from inspected opening58.
+Page57 is a full-page advertisement with no visible folio. Lower56's two ads remain
+excluded. Cover and whole-issue accounting remain. Use English for conversation,
+updates, logs and documentation; keep original-language source text. No reader rebuild.
 See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 
