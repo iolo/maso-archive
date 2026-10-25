@@ -172,12 +172,12 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: nineteen articles are readable and one
-is partial. MSX Corners (2) pages 104–109 now match across 339 exported files,
-preserving BASIC and assembly listings, keyboard tables and original scans.
-The article ends on page 114; restoring pages 110–114 and assembling the complete
-article are next. Twenty-six of 46 identities still need restoration or
-classification. Cover and whole-issue accounting remain. Conversation, progress
-logs and documents use English; original source text retains its language.
+is partial. All MSX Corners (2) pages 104–114 are restored in two segments; the
+final segment matches across 291 exported files and retains its annotated assembly
+listing and original scans. Assembling the complete article is next. Twenty-six
+of 46 identities still need restoration or classification. Cover and whole-issue
+accounting remain. Conversation, progress logs and documents use English;
+original source text retains its language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
