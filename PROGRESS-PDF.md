@@ -8,34 +8,33 @@ by the calendar month in which restoration work happened.
 
 November 1985 remains in progress: thirty-one readable, assistant sample-reviewed
 articles, one partial article awaiting further pages and assembly, and fourteen unresolved identities.
-Batch 52 restores Bank Panic 0013 opening pages 228-233 of its established 228-245 extent.
-All 252 package files match an independent rebuild. The segment retains 69 regions,
-58 blocks, eleven figures and 649 transcription rows. Its 71 BASIC statements retain
-two cross-column continuations and 31 wrapped statements. Metadata indexes eighty
-memory-map label pairs, 24 bit cells (including two blanks), fourteen key-table rows,
-five glossary terms, 29 screen fields and two separate handwriting rows.
-All 8,360 UTF-8 ranges, 8,675 evidence pins, 69 images and 290 disjoint nonfigure
-pairs validate. Three crop-margin adjustments preceded 58 pinned OCR tasks:
-six English and 52 Korean/English. All drafts were read before one source pass;
-zero recognition retries or failed package export/verification attempts occurred.
-A post-ledger assertion confused source title case with canonical title case;
-a fresh verifier corrects that assertion. Both attempts and all source files remain.
-Thirty-seven uncertain variants and one unknown quoted-blank band remain explicit.
-Literal source discrepancies and physical wraps remain; no code or checksum validation.
-All 46,594 previous files, 51 inventories and thirty core pins are unchanged.
-The unchanged 213-test baseline is reused. Current preservation: 47,694 issue files.
-Reproduction: `archive/pdf/1985-11/restoration/batch-52/reproduction.json`.
-Batch 53 preparation covers Bank Panic pages 234-239: the remainder of listing 1
-and the opening of listing 2. All eight whole views and 27 selected crops were reviewed.
-Seventeen pinned OCR tasks completed (sixteen English, one Korean/English); all raw
-drafts have been read. Two crop-margin extensions preceded OCR; zero retries.
-The single source-correction pass and independent middle-segment exports remain.
-Resume from `archive/pdf/1985-11/restoration/batch-53/continuation.json`.
-Pages 240-245 and complete immutable article assembly follow separately.
-The opening package remains immutable. Parent 0012 remains unresolved.
-Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
-and Back-Issue Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null.
-Cover, remaining identities, full 266-page accounting and issue closeout remain.
+Batch 53 restores Bank Panic 0013 middle pages 234-239. Immutable opening 228-233
+remains selected separately; pages 240-245 and full article assembly remain.
+All 87 middle-package files match an independent rebuild. The segment retains
+27 regions, seventeen blocks, ten figures and 796 transcription rows. Listing 1's
+ending preserves 117 BASIC statements and 58 wrapped statements. Listing 2's
+opening preserves 520 data rows, 26 headers, 26 group SUM rows, 5,460 literal fields
+and ten group continuations across columns or pages. Three quoted literals,
+four margin-mark images and nine further visual-mark associations remain distinct.
+All 38,954 UTF-8 ranges, 39,068 evidence pins, 27 images and seventeen disjoint
+nonfigure pairs validate. Two crop-margin extensions preceded seventeen pinned OCR
+tasks: sixteen English and one Korean/English. All raw drafts were read before
+one source pass; zero recognition retries or failed exports occurred.
+Forty-six uncertain variants and 29 unknown bands remain: 26 dashed separators
+and three quoted-spacing records. No code, address progression or checksum validation.
+The first serializer stopped at an incorrect statement-count assertion before output.
+A fresh revision corrects the count to 117; transcripts remain unchanged and both
+attempts are preserved. Independent export verification passed on its first attempt.
+All 47,694 previous files, 52 inventories and thirty core pins are unchanged.
+The unchanged 213-test baseline is reused. Current preservation: 48,122 issue files.
+Reproduction: `archive/pdf/1985-11/restoration/batch-53/reproduction.json`.
+Next batch 54 maps Bank Panic ending pages 240-245, including the end of listing 2
+and separate listings 3 and 4. Repeated address 6000 in listings 2 and 3 must remain
+as separate printed occurrences. Full immutable article assembly follows separately.
+Parent 0012 remains unresolved. Software Contest 0035's page-176 hint,
+parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved.
+Folios 175-177, 210 and 216 remain null. Cover, remaining identities, full 266-page
+accounting and issue closeout remain.
 Replies, logs and documentation use English; original source retains its language.
 No reader rebuild. Human acceptance/full proofreading, original bytes, spacing,
 glyph identity, technical/historical claims and execution remain unverified.
