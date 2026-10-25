@@ -171,11 +171,11 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirteen articles are readable and
-independently reproducible. Lessons from Apple now has all body pages 80–88
-restored in two immutable segments: 250 opening files and 119 final files, each
-matching an independent export. Complete article assembly remains pending.
-Thirty-two of 46 entries still need restoration or classification; cover and
+November 1985 restoration is in progress: fourteen articles are readable and
+independently reproducible. Complete Lessons from Apple pages 80–88 now match
+across 377 exported files, including 369 exact native files. Its pinned private
+adapter is required for reproduction. No current partial article or assembly
+remains; 32 of 46 entries still need restoration or classification. Cover and
 whole-issue accounting remain. Conversation, progress logs and documentation use
 English; original source text retains its language. See [the November progress log](docs/progress/8511.md).
 

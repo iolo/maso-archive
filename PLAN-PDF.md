@@ -24,27 +24,29 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-November 1985 remains in progress: thirteen readable, assistant sample-reviewed
-articles, one partial article and 32 unresolved identities. Batch 19 restores
-Lessons from Apple 0009 final pages 86–88 at
-`archive/pdf/1985-11/packages/batch-19-r01/apple-lessons-b`. All body pages 80–88
-now exist in two immutable segments; complete assembly remains pending. Canonical
-title and parsed byline fields remain unchanged, with no person byline inferred.
-Both final-segment exports match across 119 files. All 2,285 text ranges, 2,373
-evidence pins, 30 images and 109 disjoint nonfigure pairs validate.
-The final segment retains 27 blocks, three original page images, 264 physical
-text rows, eighteen named literals, five wrapped literals, twenty technical claim
-literals, two pullquotes and three continuation links. The incoming page 85→86
-sentence is recorded for assembly. Printed wording, source claims, shortened book
-title and name-glyph alternatives remain; no technical or historical repair.
-All 30 exact crops were inspected before 27 pinned OCR tasks, and all raw drafts
-were read before one source correction pass. No crop repairs or recognition retries.
-All 17,479 prior files, eighteen inventories and 30 core pins remain unchanged.
-The unchanged 213-test baseline is reused, not rerun. Current preservation contains
-17,950 files. Next batch 20 assembles the complete article 80–88 without new OCR.
-Diskette 0032 still needs a location search after its TOC 72 mismatch. Cover,
-all 266 pages and whole-issue closeout remain. Conversation, logs and documentation
-use English; original source text retains its language. No reader rebuild.
+November 1985 remains in progress: fourteen readable, assistant sample-reviewed
+articles, no partial article and 32 unresolved identities. Batch 20 completes
+Lessons from Apple 0009, pages 80–88, at
+`archive/pdf/1985-11/packages/apple-lessons-complete-r01`. Both exports match
+across 377 files, including all 369 immutable native files. The complete article
+retains 101 regions, 84 blocks, 17 original figures and 596 physical text rows.
+All 9,977 UTF-8 ranges, 10,835 evidence-pin occurrences, 101 images and 412 disjoint
+nonfigure pairs validate. Every native array, object, scalar and reserved category
+is preserved, including stage scopes; complete scope now governs article coverage.
+Eight timeline events with sixteen label/date fields, 43 named literals, eleven
+wrapped literals, twenty technical claim literals, five pullquotes and 38 source
+variants remain. Fourteen native continuation links and the exact page 85→86
+sentence boundary are indexed without merging source blocks. Six active stage
+deferrals are resolved; their original native records and uncertainties remain.
+No new mapping, rendering, OCR or source correction. All 17,950 prior files,
+nineteen inventories and 30 core pins remain unchanged. The unchanged 213-test
+baseline is reused, not rerun. Current preservation contains 18,722 issue files.
+Reproduction requires the pinned `apple-lessons-literal-v1` adapter from batch 20.
+Next batch 21 verifies Information Radar 0021, provisionally at TOC page 90,
+including its full extent and adjacent boundaries before mapping. Diskette 0032
+still needs a location search after its TOC 72 mismatch. Cover, all 266 source
+pages and whole-issue closeout remain. Conversation, logs and documentation use
+English; original source text retains its language. No reader rebuild.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 ## October 1985 closeout, 2026-10-25
