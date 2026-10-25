@@ -15,36 +15,33 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 remains in progress: fourteen readable, assistant sample-reviewed
-articles, no partial article and 32 unresolved identities. Batch 20 completes
-Lessons from Apple 0009, pages 80–88, at
-`archive/pdf/1985-11/packages/apple-lessons-complete-r01`. Both exports match
-across 377 files, including all 369 immutable native files. The complete article
-retains 101 regions, 84 blocks, 17 original figures and 596 physical text rows.
-All 9,977 UTF-8 ranges, 10,835 evidence-pin occurrences, 101 images and 412 disjoint
-nonfigure pairs validate. Every native array, object, scalar and reserved category
-is preserved, including stage scopes; complete scope now governs article coverage.
-Eight timeline events with sixteen label/date fields, 43 named literals, eleven
-wrapped literals, twenty technical claim literals, five pullquotes and 38 source
-variants remain. Fourteen native continuation links and the exact page 85→86
-sentence boundary are indexed without merging source blocks. Six active stage
-deferrals are resolved; their original native records and uncertainties remain.
-No new mapping, rendering, OCR or source correction. All 17,950 prior files,
-nineteen inventories and 30 core pins remain unchanged. The unchanged 213-test
-baseline is reused, not rerun. Current preservation contains 18,722 issue files.
-Reproduction requires the pinned `apple-lessons-literal-v1` adapter from batch 20.
-Next batch 21 verifies Information Radar 0021, provisionally at TOC page 90,
-including its full extent and adjacent boundaries before mapping. Diskette 0032
-still needs a location search after its TOC 72 mismatch. Cover, all 266 source
-pages and whole-issue closeout remain. Conversation, logs and documentation use
-English; original source text retains its language. No reader rebuild.
-Reproduce with `archive/pdf/1985-11/restoration/batch-20/reproduction.json`.
-The batch 20 private adapter is required for complete Lessons from Apple exports.
-The original timeline dates, photographic legends, name candidates, unfinished
-quotation and shortened book title remain unchanged. No body or assembly deferral
-remains for this article. Information Radar's actual pages are still unverified.
-Existing batch 17 Hangul feature, batch 14 PLAY and batch 09 numerical-analysis
-adapters also remain required for their complete assemblies.
+November 1985 remains in progress: fifteen readable, assistant sample-reviewed
+articles, no partial article and 31 unresolved identities. Batch 21 completes
+Information Radar 0021, pages 90–93, at
+`archive/pdf/1985-11/packages/batch-21-r01/information-radar`. Both exports match
+across 189 files. The article retains 52 regions, 43 blocks, nine original figures,
+267 physical text rows and eighteen logical table rows. Fifteen news items, three
+tables, 81 nonempty cells, seven covered grid positions and four merged cells are
+indexed. Cell-local wraps and the printed ditto mark remain without inferred values.
+All 2,708 UTF-8 ranges, 2,860 evidence-pin occurrences, 52 images and 223 disjoint
+nonfigure pairs validate. Forty-two named literals, seventeen wrapped literals,
+31 source claims, twenty source variants, four sentence continuations, two paragraph
+continuations and two historical contact records retain exact ranges.
+All 52 original crops and eighteen replacements were inspected before 43 pinned
+kor+eng tasks. All drafts were read before one direct source correction pass; zero
+recognition retries. All 18,722 prior files, twenty inventories and 30 core pins
+remain unchanged. The unchanged 213-test baseline is reused, not rerun. Current
+preservation contains 19,531 issue files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-21/reproduction.json`.
+Next batch 22 verifies News Review 0022 from the observed page 94 opening and
+page 95 continuation, locating its ending before mapping. Diskette 0032 still needs
+a location search after its TOC 72 mismatch. News parent 0020 remains unresolved.
+Cover, all 266 source pages and whole-issue closeout remain. Conversation, logs and
+documentation use English; original source text retains its language. No reader
+rebuild. Human acceptance/full proofreading, source bytes, exact spacing and
+historical/technical claims remain unverified.
+Existing batch 20 Lessons from Apple, batch 17 Hangul feature, batch 14 PLAY and
+batch 09 numerical-analysis adapters remain required for their complete assemblies.
 See [November log](progress/8511.md) and the issue ledger.
 
 ## Latest completed issue
