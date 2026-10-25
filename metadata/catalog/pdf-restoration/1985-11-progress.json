@@ -952,12 +952,58 @@
       "toc_entry_id": "maso-1985-11-toc-0043",
       "title": "파스칼 강좌(1)",
       "parent_id": "maso-1985-11-toc-0040",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Pascal course0043 starts58 after full-page advertisement57 and ends63 with conclusion and command table. PLAY conquest(3)0044 opens64.",
+        "Complete six-page extent58–63 mapped;three-column reading order,one Pascal listing,editor menu,printer directive,command-key explanations and13-row command table retained.",
+        "Source63 references a following BASIC program but no separate BASIC listing is visible within the verified article extent;retain the reference without inventing missing source."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-11-r01/pascal-course",
+        "article_id": "scan-maso-1985-11-toc-0043",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-11-r01/pascal-course/manifest.json",
+          "sha256": "b8cd96c1bc3608e8dcb1fad742d0e897a86153801d0c4aa80f3bab0582a7a9c8",
+          "bytes": 62742
+        },
+        "coverage": {
+          "pdf_pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "printed_pages": [
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63"
+          ],
+          "regions": 105,
+          "blocks": 90,
+          "figures": 15,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-11/validation.json",
+          "sha256": "d6eb8f98180338fdb6a06404a8ea394c3a6283f69af000d6be22a9f619c39782",
+          "bytes": 1613
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-11/reproduction.json",
+          "sha256": "d51e734cb55f3984151bdd0ba92f5b63de3e09230f8c3ddd9707f0f2a2f00b18",
+          "bytes": 1421
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0044",
@@ -995,10 +1041,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 10,
+    "readable": 11,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 36
+    "unresolved_eligibility": 35
   },
   "checkpoints": [
     {
@@ -1403,6 +1449,49 @@
       "started_at": "2026-10-25T04:01:53.536769+00:00",
       "finished_at": "2026-10-25T04:18:33.253240+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-11",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0043"
+      ],
+      "mapped_pdf_pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "outside_map_lookup_pages": [
+        57,
+        64
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 90,
+      "english_tasks": 3,
+      "source_correction_passes": 1,
+      "preflight_crop_repair": 46,
+      "scope_adjustment": "Complete six-page article58–63; no BASIC listing corresponding to the closing source reference is visible.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-11/validation.json",
+        "sha256": "d6eb8f98180338fdb6a06404a8ea394c3a6283f69af000d6be22a9f619c39782",
+        "bytes": 1613
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-11/verification-completed.json",
+        "sha256": "667c90edc606424fb28b77957101152337276519574239eb92c43f7eceaad6ca",
+        "bytes": 1778
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-11-preserved-work.json",
+        "sha256": "2c46f8f77bedc68d3d2a49a4facd68d5ab647cd73ba1d95aa3396fbbf22eeb85",
+        "bytes": 2061047
+      },
+      "started_at": "2026-10-25T04:21:15.942472+00:00",
+      "finished_at": "2026-10-25T04:51:02.150517+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1696,31 +1785,85 @@
     {
       "pdf_page": 58,
       "printed_page": "58",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0043"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 59,
+      "printed_page": "59",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0043"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": "60",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0043"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": "61",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0043"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": "62",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0043"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": "63",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0043"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": "64",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0044"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-11",
-    "goal": "Verify Pascal course0043 from inspected printed58/PDF58 opening;restore bounded complete article or first segment.",
+    "id": "batch-12",
+    "goal": "Verify PLAY conquest(3)0044 from inspected printed64/PDF64 opening; restore bounded complete article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0043"
+      "maso-1985-11-toc-0044"
     ],
-    "mapping_targets": "Opening58 verified;inspect subsequent pages and ending before mapping. Segment if over six mapped pages.",
+    "mapping_targets": "Opening64 verified; inspect subsequent pages and ending before mapping. Segment if over six mapped pages.",
     "provisional_lookup_targets": [
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
       63,
       64,
-      65
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
     ],
     "limits": {
       "articles": 2,
@@ -1732,7 +1875,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Ten readable articles;no current partial article or pending assembly. Thirty-six unresolved identities,cover and whole-source-page accounting remain;no global page offset inferred."
+    "Eleven readable articles; no current partial article or pending assembly. Thirty-five unresolved identities, cover and whole-source-page accounting remain; no global page offset inferred."
   ],
   "reader_rebuild": false
 }

@@ -7,14 +7,14 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 restoration is active: 46 canonical entries and 266 source pages.
-Ten articles are readable/sample-reviewed; no current partial article or pending
-assembly remains. Practical machine language(3)0042 is complete on 52–upper56,
-with 214 independently exact files, 247 reading rows and three assembly listings.
-All 2,006 text ranges, 64 images and 42 assembly fields pass. All 6,736 prior files,
-nine inventories and 30 core pins remain unchanged; the 213-test baseline is reused.
-Thirty-six identities, cover and issue accounting remain. Next verify Pascal
-course0043 from opening58. Updates and documentation use English; source text
-retains its original language. No reader rebuild.
+Eleven articles are readable/sample-reviewed; no current partial article or pending
+assembly remains. Pascal course0043 is complete on 58–63 with 384 independently
+exact files and 653 physical text rows. All 4,049 text ranges, 105 images,
+32 Pascal fields, 42 table cells and seven command-key descriptions pass.
+All 7,656 prior files, ten inventories and 30 core pins remain unchanged;
+the 213-test baseline is reused. Thirty-five identities, cover and issue accounting
+remain. Next verify PLAY conquest(3)0044 from opening64. Updates and documentation
+use English; source text retains its original language. No reader rebuild.
 See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 

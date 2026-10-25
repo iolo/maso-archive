@@ -15,20 +15,23 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 is in progress: ten readable/sample-reviewed articles, 36 unresolved
-identities and no current partial article or pending assembly. Practical machine
-language(3)0042 is complete on 52–upper56 at `packages/batch-10-r01/practical-machine`.
-All 214 files independently reproduce; 2,006 text ranges, 2,170 pins, 64 images,
-42 assembly fields and 242 disjoint nonfigure pairs pass. All 6,736 prior files,
-nine inventories and 30 core pins remain unchanged; the 213-test baseline is reused.
-The current preservation inventory contains 7,656 files. Eight crop-margin repairs
-preceded all 47 OCR tasks; all drafts were read before one source pass. Preserve
-the failed serializer and selected r02 script; no source readings changed in that fix.
-Reproduce with `archive/pdf/1985-11/restoration/batch-10/reproduction.json`.
-Numerical analysis0041 remains complete; its pinned batch09 adapter is still required
-for assembly checks. Next batch11 verifies Pascal course0043 from inspected opening58.
-Page57 is a full-page advertisement with no visible folio. Lower56's two ads remain
-excluded. Cover and whole-issue accounting remain. Use English for conversation,
+November 1985 is in progress: eleven readable/sample-reviewed articles,
+35 unresolved identities and no current partial article or pending assembly.
+Pascal course0043 is complete on 58–63 at `packages/batch-11-r01/pascal-course`.
+All 384 files independently reproduce; 4,049 text ranges, 4,344 pins, 105 images,
+32 Pascal fields, 42 table cells and 685 disjoint nonfigure pairs pass. Seven
+command keys retain 17 nonempty cells and three blank continuation-key cells.
+All 7,656 prior files, ten inventories and 30 core pins remain unchanged;
+the 213-test baseline is reused. Current preservation contains 9,263 files.
+All 105 original and 46 replacement crops preceded the 90 OCR tasks; all drafts
+were read before one source pass. Preserve the early verifier failure; it passed
+unchanged after the independent build completed. Printed `readin`, the missing
+terminal period, `EXT`, misspelled menu commands and the absent referenced BASIC
+listing remain explicit. No execution or source-error repair was performed.
+Reproduce with `archive/pdf/1985-11/restoration/batch-11/reproduction.json`.
+Numerical analysis0041 remains complete; its pinned batch09 adapter is required
+for assembly checks. Next batch12 verifies PLAY conquest(3)0044 from inspected
+opening64. Cover and whole-issue accounting remain. Use English for conversation,
 updates, logs and documentation; keep original-language source text. No reader rebuild.
 See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).

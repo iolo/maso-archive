@@ -171,8 +171,8 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: ten articles are independently
-reproducible, including practical machine language on 52–upper56. Thirty-six
+November 1985 restoration is in progress: eleven articles are independently
+reproducible, including Pascal course on 58–63. Thirty-five
 of 46 entries still need restoration or classification; cover and issue accounting
 remain. Progress logs and documentation use English while original source text
 retains its language. See [the November progress log](docs/progress/8511.md).
