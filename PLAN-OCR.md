@@ -20,15 +20,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - November 1985 is active. Editor0027/26,readers0028/27–28,input-guide0029/29–32
-  are readable/sample-reviewed;their33/82/173 files independently exact.
-  Latest guide retains47 regions,35 blocks,eight originals,seven code groups,
-  18 assembly rows,86 dump data rows/three totals,68 BASIC labels/75 physical rows,
-  four command-table rows/12 cells and11 explicit unknown decorative bands.
-  All4,547 UTF-8 ranges,4,724 pins,47 images,479 prior issue files and30 core pins
-  validate. Unchanged213-test baseline reused;batch01 also verified92,024 October files.
-  Three of46 identities restored;43 identities,cover and issue accounting remain.
-  Next verify canonical0030 QA from printed33/PDF33;inspect subsequent pages and
-  debugging-room boundary before mapping. Opening view retained inbatch03.
+  and QA0030/33–35 are readable/sample-reviewed;their33/82/173/187 files independently exact.
+  Latest QA retains49 regions,41 blocks,six originals,four questions/answers,
+  ten code groups/12 physical rows,two original equations with linearized fractions
+  and one excluded ad. All1,261 UTF-8 ranges,1,400 pins,49 images,1,165 prior files
+  and30 core pins validate. One crop-edge margin overlap is explicitly reviewed.
+  Initial map failure,preflight repair and export/verifier attempts remain;selected
+  correction-r03 supplies editorial LF code delimiters. All43 OCR tasks ran once.
+  Unchanged213-test baseline reused;batch01 also verified92,024 October files.
+  Four of46 identities restored;42 identities,cover and issue accounting remain.
+  Next verify canonical0031 debugging-room from printed36/PDF36;inspect its ending
+  and lower bulletin/photo ownership. Opening view retained inbatch04.
   No global page offset;
   PDF25 issue-title has no visible folio. No reader rebuild.
   [November log](docs/progress/8511.md),

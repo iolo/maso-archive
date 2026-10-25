@@ -16,10 +16,10 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 November1985 is in progress. Editor0027/26,readers0028/27–28,input-guide0029/29–32
-are readable/sample-reviewed;their33/82/173 files independently reproduce.
+and QA0030/33–35 are readable/sample-reviewed;their33/82/173/187 files independently reproduce.
 The213-test baseline passes with unchanged implementation pins. Next verify
-canonical0030 QA from printed33/PDF33,then inspect continuation/ending before
-mapping. Reuse the saved opening view inbatch03. Forty-three identities,cover selection and
+canonical0031 debugging-room from printed36/PDF36,including its ending and lower
+bulletin/photo ownership. Reuse the saved view inbatch04. Forty-two identities,cover selection and
 whole-issue accounting remain. See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 

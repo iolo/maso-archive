@@ -461,12 +461,54 @@
       "toc_entry_id": "maso-1985-11-toc-0030",
       "title": "QA",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete QA printed33–35/PDF33–35, following input-guide32 and preceding separate debugging-room36.",
+        "Four questions about SPC machine-code bounds, numeric error, MSX stack and interrupts; final answer ends upper35. Lower35 is independent 세운 기술서적 advertisement.",
+        "Answer2 joins 합니/다 across33→34;answer4 STRIG explanation continues34→35 then left→right column with INTERVAL. Folios33/34/35 individually visible."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-04-r03/qa",
+        "article_id": "scan-maso-1985-11-toc-0030",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-04-r03/qa/manifest.json",
+          "sha256": "7d078c2b4bd6767da89f1adee2c0ce7953f8c4cb09db57bd59c03f0d87685744",
+          "bytes": 29815
+        },
+        "coverage": {
+          "pdf_pages": [
+            33,
+            34,
+            35
+          ],
+          "printed_pages": [
+            "33",
+            "34",
+            "35"
+          ],
+          "regions": 49,
+          "blocks": 41,
+          "figures": 6,
+          "deferred_pdf_pages": [],
+          "excluded_advertisement_ids": [
+            "ad35"
+          ]
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-04/validation.json",
+          "sha256": "6a098f6525f14a70342e51231e8cb4326443188ba0643857980f201196b92741",
+          "bytes": 1359
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-04/reproduction.json",
+          "sha256": "901b0db5a6a8fa4d7d38193afdc39fceab538ab883e5b9ab5fe460ba09faabbd",
+          "bytes": 1304
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0031",
@@ -647,10 +689,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 3,
+    "readable": 4,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 43
+    "unresolved_eligibility": 42
   },
   "checkpoints": [
     {
@@ -765,6 +807,45 @@
       "started_at": "2026-10-25T02:32:01.984166+00:00",
       "finished_at": "2026-10-25T02:42:56.860583+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-04",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0030"
+      ],
+      "mapped_pdf_pages": [
+        33,
+        34,
+        35
+      ],
+      "outside_map_lookup_pages": [
+        32,
+        36
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 43,
+      "english_tasks": 10,
+      "source_correction_passes": 1,
+      "preflight_crop_repair": 1,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-04/validation.json",
+        "sha256": "6a098f6525f14a70342e51231e8cb4326443188ba0643857980f201196b92741",
+        "bytes": 1359
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-04/verification-completed.json",
+        "sha256": "8405f69fdd0bf598a3ba06956bfead37083b6e60115f2be8b134c9b8fb88a2f9",
+        "bytes": 1254
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-04-preserved-work.json",
+        "sha256": "eb45162a1e4129c001ce78729101df00db776811b08551c4659f66bd745a433b",
+        "bytes": 497190
+      },
+      "started_at": "2026-10-25T02:44:56.353449+00:00",
+      "finished_at": "2026-10-25T02:53:24.423222+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -838,27 +919,52 @@
     {
       "pdf_page": 33,
       "printed_page": "33",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0030"
+      ]
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": "34",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0030"
+      ],
+      "excluded_material": null
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": "35",
+      "classification": "article-body-and-advertisement",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0030"
+      ],
+      "excluded_material": "Lower independent 세운 기술서적 advertisement, native map ad35."
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": "36",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0031"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-04",
-    "goal": "Verify QA extent from printed33/PDF33 and restore complete bounded article or first segment.",
+    "id": "batch-05",
+    "goal": "Verify debugging-room0031 extent from printed36/PDF36 and restore bounded complete article.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0030"
+      "maso-1985-11-toc-0031"
     ],
-    "mapping_targets": "PDF33 opening verified;inspect subsequent pages and debugging-room boundary. Do not infer an ending from TOC alone.",
+    "mapping_targets": "PDF36 opening inspected;check subsequent page and classify lower bulletin/photo before mapping. Do not infer ending from TOC alone.",
     "provisional_lookup_targets": [
-      32,
-      33,
-      34,
       35,
-      36
+      36,
+      37,
+      38
     ],
     "limits": {
       "articles": 2,
@@ -870,7 +976,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining43 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
+    "Remaining42 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

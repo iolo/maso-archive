@@ -25,9 +25,9 @@ records below are historical and do not authorize a new rebuild.
 ## November 1985 active restoration, 2026-10-25
 
 The 46-entry,266-page November issue is in progress. Editor0027/26,readers0028/27–28
-and input-guide0029/29–32 are readable/sample-reviewed. Their33/82/173 files
-independently reproduce;the unchanged213-test baseline passes. Next verify QA
-from its known printed33/PDF33 opening. Forty-three identities,cover selection and whole-issue
+input-guide0029/29–32 and QA0030/33–35 are readable/sample-reviewed. Their33/82/173/187 files
+independently reproduce;the unchanged213-test baseline passes. Next verify debugging-room0031
+from its known printed36/PDF36 opening. Forty-two identities,cover selection and whole-issue
 accounting remain. See [November progress](docs/progress/8511.md) and its
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 
