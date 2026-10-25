@@ -7085,6 +7085,45 @@
       "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured.",
       "article_availability": "not-applicable",
       "assembly_required": false
+    },
+    {
+      "id": "issue-accounting-03",
+      "status": "complete",
+      "stage": "validated-outside-body-accounting",
+      "toc_entry_ids": [],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        265,
+        267,
+        268
+      ],
+      "conservative_outside_lookup_count": 3,
+      "canonical_tasks": 0,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/validation.json",
+        "sha256": "f4d72c7a010fe70555648a9c84c98d459c5ff9735c2238e07d54f63d4ce90452",
+        "bytes": 3881
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/verification-completed.json",
+        "sha256": "622bd0ae881e8c5554c1bacca369361f8107949af54f2cf5069e0d62dd06f652",
+        "bytes": 2166
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/issue-accounting-03-preserved-work.json",
+        "sha256": "702cce933e7f4ee23ee094052761c3a54aa12ac20ab9b8af3bd3f4f1d83400b1",
+        "bytes": 17124136
+      },
+      "started_at": "2026-10-25T00:50:51.695751+00:00",
+      "finished_at": "2026-10-25T00:53:54.522932+00:00",
+      "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured.",
+      "article_availability": "not-applicable",
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -10903,14 +10942,32 @@
     {
       "pdf_page": 265,
       "printed_page": null,
-      "classification": "outside-article-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent information-age books advertisement.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page 정보시대의 책들 book advertisement with five book-description panels.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
-        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
-        "bytes": 7796
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-page-classifications.json",
+        "sha256": "94aa1c6ba0241e28db618dda619c0d00da5258928dc34c8ee7632a6bd31a2903",
+        "bytes": 5142
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-review/full-265.png",
+        "sha256": "e403ae644e29862e862afecd97d6b25490ce9133cd5fdec42f67f120c7c70bf1",
+        "bytes": 1312360
+      },
+      "previous_source_observation": {
+        "pdf_page": 265,
+        "printed_page": null,
+        "classification": "outside-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "not-started",
+        "evidence": "Independent information-age books advertisement.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+          "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+          "bytes": 7796
+        }
       }
     },
     {
@@ -10937,41 +10994,73 @@
     {
       "pdf_page": 267,
       "printed_page": null,
-      "classification": "outside-article-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent DAEWOO IQ1000 advertisement.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page 대우전자 IQ1000 English-learning software advertisement with computer and stacked-book photographs.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
-        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
-        "bytes": 7796
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-page-classifications.json",
+        "sha256": "94aa1c6ba0241e28db618dda619c0d00da5258928dc34c8ee7632a6bd31a2903",
+        "bytes": 5142
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-review/full-267.png",
+        "sha256": "a834d6c90d29fef0e7639fb25aba0ff53819b80212aeb41aa2b01b02eed9a7a9",
+        "bytes": 5502912
+      },
+      "previous_source_observation": {
+        "pdf_page": 267,
+        "printed_page": null,
+        "classification": "outside-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "not-started",
+        "evidence": "Independent DAEWOO IQ1000 advertisement.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+          "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+          "bytes": 7796
+        }
       }
     },
     {
       "pdf_page": 268,
       "printed_page": null,
-      "classification": "outside-article-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent Qnix PC24 back-cover advertisement.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Back-cover Qnix PC24 series printer advertisement with printer and computer photographs; original cover wear retained.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
-        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
-        "bytes": 7796
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-page-classifications.json",
+        "sha256": "94aa1c6ba0241e28db618dda619c0d00da5258928dc34c8ee7632a6bd31a2903",
+        "bytes": 5142
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-review/full-268.png",
+        "sha256": "e606f88f62164fd8c23131de73cb1fe5e4a2b08c7265b38491746e362af27ca7",
+        "bytes": 6335753
+      },
+      "previous_source_observation": {
+        "pdf_page": 268,
+        "printed_page": null,
+        "classification": "outside-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "not-started",
+        "evidence": "Independent Qnix PC24 back-cover advertisement.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+          "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+          "bytes": 7796
+        }
       }
     }
   ],
   "cover_status": "verified donated cover;480x611 RGB JPEG thumbnail68837bytes;metadata stripped;independent private rebuild exact",
   "next_checkpoint": {
-    "id": "issue-accounting-03",
-    "goal": "Classify final outside-body pages 265,267,268 and complete the 268-page ownership/exclusion accounting.",
+    "id": "issue-closeout",
+    "goal": "Produce standalone October1985 JSON/assets issue index and report, independently rebuild, run fresh213 tests and complete requirement-by-requirement audit.",
     "toc_entry_ids": [],
-    "mapping_targets": "Inspect three outside-body pages; retain selected article packages and native exclusions unchanged. Audit all source pages, shared owners and exclusions; establish dispatcher for ten private assembly adapters. Then standalone index/report, independent rebuild, fresh 213 tests and full closeout audit. No reader rebuild.",
-    "provisional_lookup_targets": [
-      265,
-      267,
-      268
-    ],
+    "mapping_targets": "No new source mapping or OCR. Use all35 selected packages, four non-owning headings, verified donated cover, complete268-page accounting and ten-format dispatcher. Preserve all prior attempts and native artifacts. No reading-room rebuild.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -10982,7 +11071,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "All 39 canonical identities accounted: 35 readable/sample-reviewed articles, four non-owning headings, zero partial/unresolved. Donated cover verified 480x611/68,837 bytes. Selected bodies cover 224 distinct PDF pages; 44 outside. Cover and 40 other outside pages accounted; final 265,267,268 and complete 268-page ownership/exclusion audit remain. Current seven visible folios and thirteen null retained without offset inference. Unlisted HGR feature 172–176 remains outside canonical transcription; last page includes separate promotion. Standalone index/report, independent rebuild, fresh 213 tests and full audit pending. All ten adapters/attempts retained; human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/execution/backup recovery unverified. No reader rebuild."
+    "All39 canonical identities accounted:35 readable/sample-reviewed articles, four non-owning headings, zero partial/unresolved. Donated cover verified480x611/68,837bytes. All268 pages classified:224 selected-body pages/231 assignments and44 outside-body pages (34 ads, two contents, issue title, association notice, five unlisted HGR feature pages including one mixed promotion, cover). Seven shared pages have228 disjoint cross-owner region pairs including115 nonfigure pairs;25 native exclusions unchanged. Allten adapters validated through dispatcher. Standalone index/report, independent issue rebuild, fresh213 tests and fullaudit pending. Human acceptance/fullproofreading/sourcebytes/spacing/glyphcounts/claims/execution/backuprecovery unverified. No reader rebuild."
   ],
   "reader_rebuild": false,
   "cover_verification": {
@@ -11060,6 +11149,34 @@
         "sha256": "bb287d37f2a2a31bcc21c25e130ddbafb283f069a0936962324c243563dba4dd",
         "bytes": 1503
       }
+    },
+    {
+      "checkpoint": "issue-accounting-03",
+      "pdf_pages": [
+        265,
+        267,
+        268
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-page-classifications.json",
+        "sha256": "94aa1c6ba0241e28db618dda619c0d00da5258928dc34c8ee7632a6bd31a2903",
+        "bytes": 5142
+      },
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-03/validation.json",
+        "sha256": "f4d72c7a010fe70555648a9c84c98d459c5ff9735c2238e07d54f63d4ce90452",
+        "bytes": 3881
+      }
     }
-  ]
+  ],
+  "assembly_dispatcher": {
+    "path": "archive/pdf/1985-10/restoration/issue-accounting-03/assembly_dispatch.py",
+    "sha256": "6b96b44552ac7e88635f1c95846abcffa57ac2059f450e25ec04afdc0f473e08",
+    "bytes": 2291
+  },
+  "source_page_accounting": {
+    "path": "archive/pdf/1985-10/restoration/issue-accounting-03/source-page-accounting.json",
+    "sha256": "efaa9b29b514b1eba6424432a99f56af568dd2ef4d1940f711228e3754442bd6",
+    "bytes": 446323
+  }
 }

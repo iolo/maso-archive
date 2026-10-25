@@ -28,32 +28,32 @@ October 1985 has **35 readable/sample-reviewed articles and four non-owning
 headings**, accounting for all 39 canonical identities. No partial articles,
 unresolved eligibility or article assembly remain. Whole-issue closeout is pending.
 
-**Issue-accounting-02** classifies 20 outside-body PDF pages:
-22–27, 37, 74, 105, 107, 123, 167, 172–176, 250, 258 and 259. These comprise
-11 full-page advertisements, two contents pages, one issue-title page, one
-unlisted association notice and five pages of the unlisted HGR text-print feature.
-Its final page, PDF176, also contains a separate magazine promotion. These pages
-remain outside canonical article transcription; no new article identity was added.
+**Issue-accounting-03 completes the 268-page source ledger.** Selected article
+bodies occupy 224 distinct pages with 231 page assignments. The 44 outside-body
+pages comprise 34 advertisements, two contents pages, an issue-title page, an
+association notice, five unlisted HGR feature pages (the last also a promotion),
+and the cover. Final PDF265, 267 and 268 are advertisements with null folios;
+three reused source views were individually inspected, with no mapping or OCR.
+All observed folios and nulls remain literal; no global page offset is inferred.
 
-Visible folios are PDF27→25, PDF37→35 and PDF172–176→170–174. The other 13
-folios remain null. No global PDF-to-printed-page offset is inferred. Earlier
-provisional observations are retained as nested history. All 20 pages were
-individually inspected: four new renders, 16 reused renders, zero mapped pages,
-canonical tasks, OCR or source correction passes.
+Seven pages have two canonical owners: PDF48, 53, 65, 166, 229, 233 and 266.
+All 228 cross-owner region pairs, including 115 nonfigure pairs, are disjoint.
+The 25 native exclusion records remain unchanged. Right209 manuscript notice,
+lower-left266 colophon and independent advertisements remain outside selected
+bodies. Historical notes calling completed neighbors pending remain preserved.
 
-All 73,840 prior files, 66 checkpoint inventories, 30 core implementation pins
-and ten private assembly adapters remain exact; the unchanged 213-test baseline
-is reused. The new inventory contains 73,899 files. All article, heading and
-cover records remain unchanged. The donated cover is a verified 480×611 RGB JPEG,
-68,837 bytes, independently reproduced exactly.
+All 35 selected packages pass the ten-format private assembly dispatcher.
+All 73,899 prior files, 67 checkpoint inventories and 30 core implementation pins
+remain exact. The new preservation inventory contains 73,927 files. The
+unchanged 213-test baseline is reused. Article, heading and cover records remain
+unchanged. The donated 480×611 RGB JPEG cover, 68,837 bytes, remains independently
+exact. No reading-room output was rebuilt.
 
-Selected bodies cover 224 distinct PDF pages. Of the 44 outside-body pages,
-the cover and 40 others are now accounted for. **Next: issue-accounting-03**
-classifies PDF265, 267 and 268 and completes the full 268-page ownership/exclusion
-audit. Then produce the standalone index/report, independently rebuild the issue,
-run fresh 213 tests and complete the requirement-by-requirement audit.
-Human acceptance/full proofreading, source bytes/spacing/glyph counts, claims,
-execution and independent backup recovery remain unverified. No reader was rebuilt.
+**Next: issue-closeout** — produce the standalone JSON/assets index and report,
+independently rebuild the issue, run fresh 213 tests and complete the full
+requirement-by-requirement audit. Human acceptance/full proofreading, source
+bytes/spacing/glyph counts, claims, execution and independent backup recovery
+remain unverified. Unlisted material remains outside canonical transcription.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

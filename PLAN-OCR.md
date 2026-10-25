@@ -20,20 +20,19 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active: 35 readable/sample-reviewed articles, four non-owning headings,
-  zero partial/unresolved; all 39 canonical identities accounted. Issue-accounting-02
-  classifies 20 outside-body pages: 11 advertisements, two contents, issue title,
-  association notice and five unlisted HGR feature pages (last also a promotion).
-  PDF27→25, PDF37→35, PDF172–176→170–174; thirteen null folios, no offset inference.
-  Four new/16 reused renders, 20 outside lookups, zero mapping/article tasks/OCR.
-  Prior provisional observations retained as nested history; no new article identities.
-  All 73,840 prior files/66 inventories/30 core pins/ten adapters exact; 213 baseline
-  reused. New inventory: 73,899 files. Article/heading/cover records unchanged;
-  donated 480×611 cover, 68,837 bytes, independently exact.
-  Bodies cover 224 distinct PDF pages; cover plus 40 of 44 outside pages accounted.
-  Next issue-accounting-03: PDF265,267,268 and full 268-page ownership/exclusion audit;
-  then standalone index/report, independent rebuild, fresh 213 tests and closeout audit.
+  zero partial/unresolved; all 39 identities accounted. Issue-accounting-03 completes
+  all 268 pages: 224 distinct selected-body pages/231 assignments, 44 outside pages
+  (34 ads, two contents, issue title, association notice, five unlisted HGR pages
+  including one mixed promotion, cover). Final265,267,268 ads have null folios;
+  three reused views, zero mapping/OCR. No page-offset inference.
+  Seven shared pages have 228 disjoint region pairs, including 115 nonfigure pairs;
+  all 25 native exclusions exact. All 35 packages pass ten-format dispatcher.
+  All 73,899 prior files/67 inventories/30 core pins unchanged; 213 baseline reused.
+  New inventory: 73,927 files. Donated 480×611 cover, 68,837 bytes, remains exact.
+  Next issue-closeout: standalone JSON/assets index/report, independent issue rebuild,
+  fresh 213 tests and full requirements audit. No reader rebuild.
   Human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/execution/
-  backup recovery remain unverified. No reader rebuild.
+  backup recovery remain unverified; unlisted material stays outside transcription.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
