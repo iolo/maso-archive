@@ -25,11 +25,12 @@ records below are historical and do not authorize a new rebuild.
 ## November 1985 active restoration, 2026-10-25
 
 The 46-entry,266-page November issue is in progress. Eight articles through printed41
-are readable/sample-reviewed: editor0027,readers0028,input-guide0029,QA0030,
-debugging0031,protection0017,revised PICTURE0018 and list-manipulation0019.
-Their33/82/173/187/64/160/57/141 files independently reproduce;the unchanged213-test
-baseline passes. Next verify numerical analysis(5)0041 from printed42/PDF42 and
-continuation43. Thirty-eight identities,cover and whole-issue accounting remain.
+are readable/sample-reviewed. Numerical analysis(5)0041 is partial:its first segment
+42–47 has255 independently reproducible files;48–upper51 and full assembly remain.
+The other37 identities,cover and whole-issue accounting are pending. Next restore
+48–upper51 using saved source views,excluding the lower51 back-issue promotion.
+The unchanged213-test baseline passes. Updates and documentation use English;
+restored source text retains its original language.
 See [November progress](docs/progress/8511.md) and its
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 

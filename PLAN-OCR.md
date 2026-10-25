@@ -7,6 +7,10 @@ operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
 
+Use English for progress updates, logs and documentation (owner instruction,
+2026-10-25). Preserve the original language in restored source text and quoted
+source titles or glyph candidates.
+
 **Mapped Tesseract is the default restoration pipeline.** Use Qwen as an opt-in
 draft or second reading for difficult prose or code, with explicit layout and
 coverage review. The owner accepted this policy on 2026-10-14. It supersedes the
@@ -19,21 +23,20 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 is active. Eight articles through printed41 are readable/sample-reviewed:
-  editor0027,readers0028,input-guide0029,QA0030,debugging0031,protection0017,
-  revised PICTURE0018 and list-manipulation0019. Their33/82/173/187/64/160/57/141
-  files independently reproduce. Latest two retain54 regions,39 blocks,12 figures,
-  140 physical text rows and six code groups/37 rows. PICTURE has25 BASIC labels/
-  28 rows;list manipulation has four table rows/eight cells,four assembly bytes and
-  one unknown asterisk band. Handwriting/diagram-label transcription awaits volunteers.
-  All1,105 UTF-8 ranges,1,249 pins,54 images,3,261 prior files and30 core pins pass.
-  Shared40 is disjoint except the identical common folio. All54 exact crops precede
-  42 OCR tasks;all raws read before one source pass;no retry or crop repair.
-  Unchanged213-test baseline reused;batch01 also verified92,024 October files.
-  Thirty-eight identities,cover and whole-issue accounting remain. Next verify
-  numerical analysis(5)0041 from printed42/PDF42 and continuation43,saved inbatch06.
-  Canonical references38/39 for the latest two articles remain unchanged;no global
-  page offset. PDF25 issue-title has no visible folio. No reader rebuild.
+- November 1985 is active: eight readable/sample-reviewed articles,one partial
+  article and37 unresolved identities. Numerical analysis(5)0041 spans42–upper51;
+  first segment42–47 is exported in255 independently reproducible files. It retains
+  73 regions,58 blocks,15 originals,342 reading rows,97 math-bearing rows,81 table
+  cells,13 blank cells,eight table4 formulas and11 source continuations. One unclear
+  equality glyph and source math discrepancies remain explicit;no math repair.
+  All73 exact crops precede58 OCR tasks;all raws read before one source pass.
+  Initial map-ID validation failure and eight preflight margin repairs are retained;
+  no recognition retry. All2,389 UTF-8 ranges,2,590 pins,73 images,4,030 prior files
+  and30 core pins pass. The unchanged213-test baseline is reused.
+  Next restore48–upper51 from saved batch07 views,including table6,BASIC/FORTRAN
+  programs and outputs,then assemble immutable segments separately. Lower51's
+  back-issue promotion is excluded. Cover and whole-issue accounting remain.
+  No global page offset;PDF25 issue-title has no visible folio. No reader rebuild.
   [November log](docs/progress/8511.md),
   [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,

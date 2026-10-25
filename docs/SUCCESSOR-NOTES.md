@@ -15,13 +15,16 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November1985 is in progress. Eight articles through printed41 are readable/sample-reviewed:
-editor0027,readers0028,input-guide0029,QA0030,debugging0031,protection0017,
-revised PICTURE0018 and list-manipulation0019. Their33/82/173/187/64/160/57/141 files
-independently reproduce;the unchanged213-test baseline passes. Next verify numerical
-analysis(5)0041 from printed42/PDF42 and continuation43,saved inbatch06. Inspect its
-ending before mapping;segment if over six pages. Thirty-eight identities,cover and
-whole-issue accounting remain. See [November log](progress/8511.md) and
+November1985 is in progress: eight readable/sample-reviewed articles,one partial
+article and37 unresolved identities. Numerical analysis(5)0041 spans42–upper51;
+its first segment42–47 is at `packages/batch-07-r01/numerical-analysis-a`,255 files
+independently exact. Next restore48–upper51 from saved batch07 views,including
+BASIC/FORTRAN listings,outputs,table6 and closing thanks;exclude the lower51
+back-issue promotion. Assemble immutable segments in a later checkpoint.
+All2,389 UTF-8 ranges,81 table cells and4,030 prior files pass;the unchanged213-test
+baseline is reused. Cover and whole-issue accounting remain. Use English for
+updates,logs and documentation;keep original-language restored source text.
+See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 
 ## Latest completed issue

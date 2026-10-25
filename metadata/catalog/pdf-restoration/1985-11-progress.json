@@ -781,12 +781,95 @@
       "toc_entry_id": "maso-1985-11-toc-0041",
       "title": "수치해석(5)",
       "parent_id": "maso-1985-11-toc-0040",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0041 numerical analysis(5) starts42 and ends upper51,followed by separate machine-language article52. Lower51 back-issue promotion is outside this article.",
+        "This first immutable segment covers42–47,followed by48–51 with prose,programs and closing thanks; full assembly is pending.",
+        "Original equations,tables,diagrams and physical wraps retained; mathematical correctness and original encoding unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-07-r01/numerical-analysis-a",
+        "article_id": "scan-maso-1985-11-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-07-r01/numerical-analysis-a/manifest.json",
+          "sha256": "8e9c11b65a9420c7561fad849ac4aafb24d5c69c99be4af5affd2e257d10fe69",
+          "bytes": 41912
+        },
+        "coverage": {
+          "pdf_pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "printed_pages": [
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47"
+          ],
+          "full_article_pdf_pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "regions": 73,
+          "blocks": 58,
+          "figures": 15,
+          "deferred_pdf_pages": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "excluded_region_ids": []
+        },
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1985-11/packages/batch-07-r01/numerical-analysis-a",
+            "manifest": {
+              "path": "archive/pdf/1985-11/packages/batch-07-r01/numerical-analysis-a/manifest.json",
+              "sha256": "8e9c11b65a9420c7561fad849ac4aafb24d5c69c99be4af5affd2e257d10fe69",
+              "bytes": 41912
+            },
+            "pdf_pages": [
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ]
+          }
+        ],
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-07/validation.json",
+          "sha256": "1b56e02338b473c32dcc11e18153255379217a3dec5854e62722729a62113ceb",
+          "bytes": 1526
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-07/reproduction.json",
+          "sha256": "388597bf74242c88bc92c3f110fe161f1be3da85e57eb23a93bc1ca2d0b47d38",
+          "bytes": 1452
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0042",
@@ -847,9 +930,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 8,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 38
+    "unresolved_eligibility": 37
   },
   "checkpoints": [
     {
@@ -1086,6 +1169,52 @@
       "started_at": "2026-10-25T03:05:05.748642+00:00",
       "finished_at": "2026-10-25T03:13:40.996888+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-07",
+      "status": "complete-segment",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "mapped_pdf_pages": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "outside_map_lookup_pages": [
+        41,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 58,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_crop_repair": 1,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-07/validation.json",
+        "sha256": "1b56e02338b473c32dcc11e18153255379217a3dec5854e62722729a62113ceb",
+        "bytes": 1526
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-07/verification-completed.json",
+        "sha256": "97f7c5ede84a301a5a87dd23b1df8102626fcc3c768ec757633ba006d85abb47",
+        "bytes": 1113
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-07-preserved-work.json",
+        "sha256": "fc36daf6f1a75c55c3921a6f68220be9b0b16fce03d10d405367009c1d018343",
+        "bytes": 1117614
+      },
+      "started_at": "2026-10-25T03:15:19.845680+00:00",
+      "finished_at": "2026-10-25T03:33:05.021604+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1235,40 +1364,119 @@
     {
       "pdf_page": 42,
       "printed_page": "42",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "segment-a-restored"
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": "43",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "segment-a-restored"
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": "44",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "segment-a-restored"
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": "45",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "segment-a-restored"
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": "46",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "segment-a-restored"
+    },
+    {
+      "pdf_page": 47,
+      "printed_page": "47",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "segment-a-restored"
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": "48",
+      "classification": "article-continuation-observed",
       "toc_entry_ids": [
         "maso-1985-11-toc-0041"
       ],
       "restoration": "pending"
     },
     {
-      "pdf_page": 43,
-      "printed_page": "43",
+      "pdf_page": 49,
+      "printed_page": "49",
       "classification": "article-continuation-observed",
       "toc_entry_ids": [
         "maso-1985-11-toc-0041"
+      ],
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": "50",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": "51",
+      "classification": "article-body-and-promotion-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "pending",
+      "excluded_material": "Lower independent back-issue promotion; upper article closing remains to restore in segment b."
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": "52",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0042"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-07",
-    "goal": "Verify numerical analysis(5)0041 from printed42/PDF42;restore bounded complete article or first segment.",
+    "id": "batch-08",
+    "goal": "Restore numerical analysis(5)0041 final segment48–51,then assemble immutable segments in a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0041"
     ],
-    "mapping_targets": "Opening42 and continuation43 verified; inspect subsequent pages and ending before mapping. Preserve math, tables, code and all physical wraps; segment if over six mapped pages.",
+    "mapping_targets": "Full extent42–51 verified. Opening42–47 exported;restore48–upper51 prose,table6,BASIC and FORTRAN listings and outputs,closing thanks. Exclude lower51 promotion.",
     "provisional_lookup_targets": [
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
       47,
       48,
-      49
+      49,
+      50,
+      51,
+      52
     ],
     "limits": {
       "articles": 2,
@@ -1280,7 +1488,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining38 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
+    "One partial article (numerical analysis0041:48–51 plus assembly),37 unresolved identities,cover and whole-source-page accounting remain;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
