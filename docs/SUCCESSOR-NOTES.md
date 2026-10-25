@@ -15,11 +15,12 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November1985 is in progress. Six articles through printed38 are readable/sample-reviewed:
-editor0027,readers0028,input-guide0029,QA0030,debugging0031 and protection0017.
-Their33/82/173/187/64/160 files independently reproduce;the unchanged213-test baseline
-passes. Next verify revised PICTURE0018 from printed39/PDF39 and its continuation/
-ending. Reuse the saved opening view inbatch05. Forty identities,cover selection and
+November1985 is in progress. Eight articles through printed41 are readable/sample-reviewed:
+editor0027,readers0028,input-guide0029,QA0030,debugging0031,protection0017,
+revised PICTURE0018 and list-manipulation0019. Their33/82/173/187/64/160/57/141 files
+independently reproduce;the unchanged213-test baseline passes. Next verify numerical
+analysis(5)0041 from printed42/PDF42 and continuation43,saved inbatch06. Inspect its
+ending before mapping;segment if over six pages. Thirty-eight identities,cover and
 whole-issue accounting remain. See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 

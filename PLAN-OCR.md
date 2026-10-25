@@ -19,21 +19,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 is active. Six articles are readable/sample-reviewed: editor0027/26,
-  readers0028/27–28,input-guide0029/29–32,QA0030/33–35,debugging0031/36 and
-  protection0017/37–38. Their33/82/173/187/64/160 files independently reproduce.
-  Latest two articles retain56 regions,48 blocks,six originals,126 physical text
-  rows and14 code groups/26 rows. Five errata,six protection methods,three BASIC
-  labels/four rows,32 dump bytes and one unknown asterisk band remain indexed.
-  All1,044 UTF-8 ranges,1,205 pins,56 images,2,342 prior files and30 core pins pass.
-  Both widened preflight crops were viewed before50 OCR tasks; no recognition retry.
-  Lower36 bulletin/photo excluded. Provisional0032 was replaced by actual adjacent
-  protection0017 before mapping;0032's TOC reference remains72.
+- November 1985 is active. Eight articles through printed41 are readable/sample-reviewed:
+  editor0027,readers0028,input-guide0029,QA0030,debugging0031,protection0017,
+  revised PICTURE0018 and list-manipulation0019. Their33/82/173/187/64/160/57/141
+  files independently reproduce. Latest two retain54 regions,39 blocks,12 figures,
+  140 physical text rows and six code groups/37 rows. PICTURE has25 BASIC labels/
+  28 rows;list manipulation has four table rows/eight cells,four assembly bytes and
+  one unknown asterisk band. Handwriting/diagram-label transcription awaits volunteers.
+  All1,105 UTF-8 ranges,1,249 pins,54 images,3,261 prior files and30 core pins pass.
+  Shared40 is disjoint except the identical common folio. All54 exact crops precede
+  42 OCR tasks;all raws read before one source pass;no retry or crop repair.
   Unchanged213-test baseline reused;batch01 also verified92,024 October files.
-  Forty identities,cover and whole-issue accounting remain. Next verify revised
-  PICTURE0018 from printed39/PDF39,then its continuation/ending;opening saved inbatch05.
-  No global page offset;
-  PDF25 issue-title has no visible folio. No reader rebuild.
+  Thirty-eight identities,cover and whole-issue accounting remain. Next verify
+  numerical analysis(5)0041 from printed42/PDF42 and continuation43,saved inbatch06.
+  Canonical references38/39 for the latest two articles remain unchanged;no global
+  page offset. PDF25 issue-title has no visible folio. No reader rebuild.
   [November log](docs/progress/8511.md),
   [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,

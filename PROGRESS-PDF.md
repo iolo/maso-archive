@@ -7,12 +7,12 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 restoration is active: 46 canonical entries and 266 source pages.
-Six articles through printed38 are readable/sample-reviewed: editor,readers,
-input guide,QA,debugging room and program protection. Their33/82/173/187/64/160
-package files independently reproduce. The213-test
-PDF baseline passes with all30 implementation pins unchanged.
-Forty identities, cover selection and issue accounting remain pending.
-Next verify revised PICTURE0018 from printed39/PDF39 and its following pages.
+Eight articles through printed41 are readable/sample-reviewed: editor,readers,
+input guide,QA,debugging room,program protection,revised PICTURE and list manipulation.
+Their33/82/173/187/64/160/57/141 files independently reproduce. The unchanged213-test
+baseline passes with all30 core pins unchanged. Thirty-eight identities,cover and
+issue accounting remain. Next verify numerical analysis(5)0041 from printed42/PDF42
+and its continuation43;inspect the ending before mapping.
 See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 

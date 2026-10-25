@@ -249,23 +249,104 @@
       "toc_entry_id": "maso-1985-11-toc-0018",
       "title": "수정된 PICTURE",
       "parent_id": "maso-1985-11-toc-0016",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete revised PICTURE0018 printed39 plus upper40/PDF39–40. Preceding protection38 ends; lower40 opens separate list manipulation0019.",
+        "Source title 수정된 픽쳐(PICTURE),platform MSX,byline 민은홍 and cartoon-like bitmap example retained. Body39 left→right joins 지워/진다.",
+        "Page40 deletion commands then added/revised BASIC list; left→right column continuation. Canonical TOC reference38 retained despite actual opening39."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-06-r01/picture",
+        "article_id": "scan-maso-1985-11-toc-0018",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-06-r01/picture/manifest.json",
+          "sha256": "14636d2413aab9055d5832668621af2f3f417fa26f2493fffce908085b373a41",
+          "bytes": 9160
+        },
+        "coverage": {
+          "pdf_pages": [
+            39,
+            40
+          ],
+          "printed_pages": [
+            "39",
+            "40"
+          ],
+          "regions": 15,
+          "blocks": 9,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [
+            "listing-article40"
+          ]
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-06/validation.json",
+          "sha256": "72f77bc5f272bae6905af8c40b7ee91eec283828bd81016c98e90371ec942127",
+          "bytes": 1957
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-06/reproduction.json",
+          "sha256": "853331faa39efede7a739671a85f71e9e655bdb5dc300c5deab5f65af00bc492",
+          "bytes": 1981
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0019",
       "title": "리스트 조작",
       "parent_id": "maso-1985-11-toc-0016",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete list manipulation0019 begins lower40 and ends41/PDF40–41 before separate numerical analysis42. Canonical TOC reference39 remains unchanged.",
+        "Printed title 리스트 조작,platform SPC-1000,byline 이 상 호; execution paragraph wraps 7/C9DH across columns40.",
+        "Handwritten list1 and annotated memory diagram list2 retained as images; searchable printed captions retained. Separate list3/list5 output examples,DISFLG four-row table,assembly and byte-count example on41. No invented list4 caption.",
+        "Shared40 ownership is disjoint except the identical common printed folio image."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-06-r01/list-manipulation",
+        "article_id": "scan-maso-1985-11-toc-0019",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-06-r01/list-manipulation/manifest.json",
+          "sha256": "6a9293e113a2aa609d9cfb2f778e6e14652247f611b5a251f553951363280f56",
+          "bytes": 22952
+        },
+        "coverage": {
+          "pdf_pages": [
+            40,
+            41
+          ],
+          "printed_pages": [
+            "40",
+            "41"
+          ],
+          "regions": 39,
+          "blocks": 30,
+          "figures": 8,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [
+            "picture-article40"
+          ]
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-06/validation.json",
+          "sha256": "72f77bc5f272bae6905af8c40b7ee91eec283828bd81016c98e90371ec942127",
+          "bytes": 1957
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-06/reproduction.json",
+          "sha256": "853331faa39efede7a739671a85f71e9e655bdb5dc300c5deab5f65af00bc492",
+          "bytes": 1981
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0020",
@@ -765,10 +846,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 6,
+    "readable": 8,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 40
+    "unresolved_eligibility": 38
   },
   "checkpoints": [
     {
@@ -963,6 +1044,48 @@
       "started_at": "2026-10-25T02:55:27.268498+00:00",
       "finished_at": "2026-10-25T03:02:46.713142+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-06",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0018",
+        "maso-1985-11-toc-0019"
+      ],
+      "mapped_pdf_pages": [
+        39,
+        40,
+        41
+      ],
+      "outside_map_lookup_pages": [
+        38,
+        42,
+        43
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 42,
+      "english_tasks": 7,
+      "source_correction_passes": 1,
+      "preflight_crop_repair": 0,
+      "scope_adjustment": "Added canonical0019 after source review confirmed it shares40 and finishes41,within two-task/three-page bounds. Source40–42 first viewed while render job was still live;43 view deferred until same session63191 completed. No source preparation rerun.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-06/validation.json",
+        "sha256": "72f77bc5f272bae6905af8c40b7ee91eec283828bd81016c98e90371ec942127",
+        "bytes": 1957
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-06/verification-completed.json",
+        "sha256": "a4e8f513a15cb797d54a8a1abb5d9c045e56e9287e55d3d4eda605fe700ce5ca",
+        "bytes": 1339
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-06-preserved-work.json",
+        "sha256": "fb486307455432a95ce84c511cbdfbd07e55d72f08c584a765c06be2bd19c7da",
+        "bytes": 864958
+      },
+      "started_at": "2026-10-25T03:05:05.748642+00:00",
+      "finished_at": "2026-10-25T03:13:40.996888+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -1087,30 +1210,65 @@
     {
       "pdf_page": 39,
       "printed_page": "39",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0018"
+      ]
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": "40",
+      "classification": "shared-article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0018",
+        "maso-1985-11-toc-0019"
+      ]
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": "41",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0019"
+      ]
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": "42",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
+      ],
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": "43",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0041"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-06",
-    "goal": "Verify revised PICTURE0018 from printed39/PDF39;restore bounded complete article or first segment.",
+    "id": "batch-07",
+    "goal": "Verify numerical analysis(5)0041 from printed42/PDF42;restore bounded complete article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0018"
+      "maso-1985-11-toc-0041"
     ],
-    "mapping_targets": "Opening39 verified; inspect subsequent pages and boundary before mapping. Preserve screenshots/code physical rows and split into at most six mapped pages if necessary.",
+    "mapping_targets": "Opening42 and continuation43 verified; inspect subsequent pages and ending before mapping. Preserve math, tables, code and all physical wraps; segment if over six mapped pages.",
     "provisional_lookup_targets": [
-      38,
-      39,
-      40,
       41,
       42,
       43,
       44,
-      45
+      45,
+      46,
+      47,
+      48,
+      49
     ],
     "limits": {
       "articles": 2,
@@ -1122,7 +1280,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining40 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
+    "Remaining38 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
