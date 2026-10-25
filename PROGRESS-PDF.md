@@ -7,22 +7,23 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 remains in progress: thirteen readable, assistant sample-reviewed
-articles, one partial article and 32 unresolved identities. Batch 18 restores
-Lessons from Apple 0009 opening pages 80–85 at
-`archive/pdf/1985-11/packages/batch-18-r01/apple-lessons-a`. The full extent is
-80–88, followed by an independent advertisement on 89. Canonical title and parsed
-byline fields remain unchanged; the printed title is recorded separately, with no
-person byline inferred. Both exports match across 250 files. All 2,700 text ranges,
-2,906 evidence pins, 71 images and 303 disjoint nonfigure pairs validate.
-The segment retains 57 blocks, 14 original figures, 332 physical text rows,
-eight timeline events, 25 named literals, six wrapped literals, three pullquote
-associations and eleven continuation links. Printed dates, name candidates,
-spelling variants and incomplete quote wording remain. All 71 original crops and
-twelve replacements were inspected before 57 pinned OCR tasks; all drafts were
-read before one source correction pass. No recognition retries. All 16,415 prior
-files, seventeen inventories and 30 core pins remain unchanged. The unchanged
-213-test baseline is reused, not rerun. Current preservation contains 17,479 files.
-Next batch 19 restores final pages 86–88; complete immutable 80–88 assembly follows.
+articles, one partial article and 32 unresolved identities. Batch 19 restores
+Lessons from Apple 0009 final pages 86–88 at
+`archive/pdf/1985-11/packages/batch-19-r01/apple-lessons-b`. All body pages 80–88
+now exist in two immutable segments; complete assembly remains pending. Canonical
+title and parsed byline fields remain unchanged, with no person byline inferred.
+Both final-segment exports match across 119 files. All 2,285 text ranges, 2,373
+evidence pins, 30 images and 109 disjoint nonfigure pairs validate.
+The final segment retains 27 blocks, three original page images, 264 physical
+text rows, eighteen named literals, five wrapped literals, twenty technical claim
+literals, two pullquotes and three continuation links. The incoming page 85→86
+sentence is recorded for assembly. Printed wording, source claims, shortened book
+title and name-glyph alternatives remain; no technical or historical repair.
+All 30 exact crops were inspected before 27 pinned OCR tasks, and all raw drafts
+were read before one source correction pass. No crop repairs or recognition retries.
+All 17,479 prior files, eighteen inventories and 30 core pins remain unchanged.
+The unchanged 213-test baseline is reused, not rerun. Current preservation contains
+17,950 files. Next batch 20 assembles the complete article 80–88 without new OCR.
 Diskette 0032 still needs a location search after its TOC 72 mismatch. Cover,
 all 266 pages and whole-issue closeout remain. Conversation, logs and documentation
 use English; original source text retains its language. No reader rebuild.
