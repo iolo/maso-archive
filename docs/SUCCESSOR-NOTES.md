@@ -13,6 +13,16 @@ See [the reader guide](READING-ROOM.md) and
 `archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json`.
 This local build adds no human acceptance and performs no deployment. March and October 1985 are later data-only closeouts and are not included in this 11-issue reader snapshot.
 
+## Active restoration
+
+November 1985 is in progress. Batch01 restores canonical0027, 편집자 노트,
+printed26/PDF26. The selected package's 33 files reproduce exactly; all 213 PDF
+tests pass. One of 46 identities is readable/sample-reviewed. Next restore
+canonical0028 애독자 광장 on printed27–28/PDF27–28, using the retained batch01
+full-page views and adjacent26/29. Forty-five identities, cover selection and
+whole-issue accounting remain. See [November log](progress/8511.md) and
+[ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
+
 ## Latest completed issue
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries

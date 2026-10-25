@@ -19,6 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+- November 1985 is active. Batch01 restores canonical0027, 편집자 노트,
+  printed26/PDF26, as readable/sample-reviewed: seven regions, four blocks,
+  one complete original, 98 physical rows and two column joins. All 33 export
+  files independently exact; 610 UTF-8 ranges, 631 evidence pins, seven images,
+  92,024 prior files and 30 core pins validate. Fresh 213 PDF tests pass.
+  One of 46 identities restored; 45 identities, cover and issue accounting remain.
+  Next restore canonical0028 애독자 광장 on printed27–28/PDF27–28. Full views
+  and adjacent26/29 are already retained in batch01. No global page offset;
+  PDF25 issue-title has no visible folio. No reader rebuild.
+  [November log](docs/progress/8511.md),
+  [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
   35 readable/sample-reviewed articles, four non-owning headings, zero partial/
   unresolved/pending assemblies. All 9,031 issue files independently exact, including

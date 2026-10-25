@@ -6,6 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+November 1985 restoration is active: 46 canonical entries and 266 source pages.
+Batch01 restores the complete editor's note on printed26/PDF26, with 33 files
+matching an independent rebuild and all 213 PDF tests passing. One article is
+readable/sample-reviewed; 45 identities, cover selection and issue accounting
+remain pending. Next is 애독자 광장, printed27–28/PDF27–28, using the preserved
+source views. See [November log](docs/progress/8511.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
+
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
 are accounted for by 35 readable, assistant sample-reviewed articles and four
 non-owning headings. No partial articles, unresolved eligibility or article assembly
