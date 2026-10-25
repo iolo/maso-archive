@@ -743,12 +743,58 @@
       "toc_entry_id": "maso-1985-11-toc-0024",
       "title": "신제품 소개",
       "parent_id": "maso-1985-11-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "New Products canonical 0024 occupies complete pages 100–101, with individually observed folios, after dBASE III ending on upper 99 and before the separate book review on 102.",
+        "Page 100 presents Korea AT/200 and NET/300 systems with two specification tables and a supplier credit; page 101 presents DeCAD with one specification table and a separate supplier credit. Both notices remain within canonical 0024.",
+        "Page 102 and upper 103 belong to book review canonical 0025; lower 103 belongs to Back-Issue Guide canonical 0033. Both remain pending. Page 104 starts the separate MSX article."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-24-r01/new-products",
+        "article_id": "scan-maso-1985-11-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-24-r01/new-products/manifest.json",
+          "sha256": "3c72c65f852b78cdbda1d7da479d63614049c6a80c0c9ccf2f394f90e3eaf118",
+          "bytes": 16377
+        },
+        "coverage": {
+          "pdf_pages": [
+            100,
+            101
+          ],
+          "printed_pages": [
+            "100",
+            "101"
+          ],
+          "full_article_pdf_pages": [
+            100,
+            101
+          ],
+          "regions": 28,
+          "blocks": 21,
+          "figures": 7,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "신제품 소개",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-24/validation.json",
+          "sha256": "e1765984130c3b3f39315a28a91186d2e00a22947be76f4add9b20734c71d1b0",
+          "bytes": 2070
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-24/reproduction.json",
+          "sha256": "c9ac822f5d2b1bea0ed60a8fa68f054b9b21e7ab62d97d85193f0b517cfd1e12",
+          "bytes": 1452
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0025",
@@ -1485,10 +1531,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 17,
+    "readable": 18,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 29
+    "unresolved_eligibility": 28
   },
   "checkpoints": [
     {
@@ -2430,6 +2476,47 @@
       "started_at": "2026-10-25T08:18:01.129792+00:00",
       "finished_at": "2026-10-25T08:34:45.976800+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-24",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0024"
+      ],
+      "mapped_pdf_pages": [
+        100,
+        101
+      ],
+      "outside_map_lookup_pages": [
+        99,
+        102,
+        103,
+        104
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 21,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 0,
+      "scope_adjustment": "Complete New Products pages 100–101: two product notices, three tables with 25 label/value rows and 50 cells, six feature bullets and two supplier credits. Separate book review occupies 102–upper103; lower 103 Back-Issue Guide and MSX opening 104 remain pending.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-24/validation.json",
+        "sha256": "e1765984130c3b3f39315a28a91186d2e00a22947be76f4add9b20734c71d1b0",
+        "bytes": 2070
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-24/verification-completed.json",
+        "sha256": "424962c5c2ee6c4578e9ece4b74b0f0012bea7802564e887d950eb5fcf71dfab",
+        "bytes": 1690
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-24-preserved-work.json",
+        "sha256": "d48b92d5de62f6094dec89ce082c21d0da5332c853820f905b6127a42aa58216",
+        "bytes": 4718250
+      },
+      "started_at": "2026-10-25T08:36:57.092678+00:00",
+      "finished_at": "2026-10-25T08:46:54.489041+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -3115,31 +3202,67 @@
     {
       "pdf_page": 100,
       "printed_page": "100",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0024"
       ],
+      "restoration": "complete",
+      "note": "Complete New Products pages 100–101 verified in batch 24; earlier outside-map opening observation retained in batch 23 evidence."
+    },
+    {
+      "pdf_page": 101,
+      "printed_page": "101",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0024"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": "102",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0025"
+      ],
       "restoration": "pending",
-      "note": "Outside-map source review only; New Products extent after 100 remains to be checked."
+      "note": "Outside-map full-page review: separate book review begins on 102 and ends in upper 103."
+    },
+    {
+      "pdf_page": 103,
+      "printed_page": "103",
+      "classification": "shared-article-and-back-issue-guide",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0025",
+        "maso-1985-11-toc-0033"
+      ],
+      "restoration": "pending",
+      "note": "Outside-map full-page review: book review ends in upper panel; lower Back-Issue Guide belongs to separate canonical 0033. Both bodies remain pending."
+    },
+    {
+      "pdf_page": 104,
+      "printed_page": "104",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0045"
+      ],
+      "restoration": "pending",
+      "note": "Outside-map full-page review only: MSX article opens with ports and peripherals; extent after 104 not yet verified."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-24",
-    "goal": "Verify New Products 0024 from the observed page 100 opening; locate its ending and restore a bounded complete article or segment.",
+    "id": "batch-25",
+    "goal": "Restore Book Review: Structured Computer Organization 0025 on observed page 102 and upper 103, preserving the separate lower Back-Issue Guide.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0024"
+      "maso-1985-11-toc-0025"
     ],
-    "mapping_targets": "Reuse inspected 99/100 views, inspect subsequent pages and ending before mapping. Preserve individual product headings, specifications, contact fields, images and shared-page exclusions.",
+    "mapping_targets": "Reuse inspected 101–104 views to confirm boundaries. Map full 102 and upper-only 103 with separate folio; exclude lower 103 canonical 0033. Preserve book metadata, cover image, names, layer numbers and cross-column/page continuations.",
     "provisional_lookup_targets": [
-      99,
-      100,
       101,
       102,
       103,
-      104,
-      105,
-      106
+      104
     ],
     "limits": {
       "articles": 2,
@@ -3151,7 +3274,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Seventeen readable articles, no partial article or pending assembly. Twenty-nine unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Eighteen readable articles, no partial article or pending assembly. Twenty-eight unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }

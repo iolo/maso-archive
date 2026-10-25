@@ -15,29 +15,30 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 remains in progress: seventeen readable, assistant sample-reviewed
-articles, no partial article and 29 unresolved identities. Batch 23 completes
-Software Review dBASE III 0023 on pages 97–98 and the upper panel of 99, at
-`archive/pdf/1985-11/packages/batch-23-r01/dbase-review`. Both exports match across
-132 files. The article retains 37 regions, 29 blocks, eight original images and
-172 physical text rows. Seven product fields have fourteen exact label/value
-ranges. Ten inline command/key references, 44 model literals, three performance
-comparisons and five column/page continuations preserve the printed distinctions.
-All 1,399 UTF-8 ranges, 1,501 evidence-pin occurrences, 37 images and 138 disjoint
-nonfigure pairs validate. Ten named literals, fifteen wrapped literals, 32 source
-claims and nine source variants retain exact ranges. Original command case,
-address punctuation and uncertain glyphs remain documented. The lower Back-Issue
-Guide on page 99 belongs to canonical 0033 and remains pending; no included crop
-crosses its boundary. A separate folio crop records page 99.
-All 37 original crops and four replacements were inspected before 29 pinned
-kor+eng tasks. All drafts were read before one direct source correction pass;
-zero OCR retries. All 20,100 prior files, 22 inventories and 30 core pins remain
-unchanged. The unchanged 213-test baseline is reused, not rerun. Current
-preservation contains 20,676 issue files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-23/reproduction.json`.
-Next batch 24 verifies New Products 0024 from its observed page 100 opening,
-locating the ending before mapping. Diskette 0032 still needs a location search
-after its TOC 72 mismatch; it is distinct from Back-Issue Guide 0033. News parent
+November 1985 remains in progress: eighteen readable, assistant sample-reviewed
+articles, no partial article and 28 unresolved identities. Batch 24 completes
+New Products 0024 on pages 100–101, at
+`archive/pdf/1985-11/packages/batch-24-r01/new-products`. Both exports match across
+99 files. The article retains 28 regions, 21 blocks, seven original images,
+36 physical prose rows and 25 logical table rows. Three specification tables
+retain all 50 label/value cells and sixty cell-local physical rows. Two product
+notices preserve two supplier credits, six feature bullets and two product photos.
+All 695 UTF-8 ranges, 770 evidence-pin occurrences, 28 images and 102 disjoint
+nonfigure pairs validate. Forty-three named literals, twelve wrapped literals,
+thirty source claims, fourteen source variants and eight plotter-name candidates
+remain source-linked. Ambiguous I8086/18086 and HI/H1 glyphs remain flagged.
+All 28 exact crops were inspected before 21 pinned kor+eng tasks. All drafts were
+read before one direct source correction pass. Mostly omitted page 100 table
+recognition and an empty reversed-heading draft remain preserved; zero OCR retries.
+All 20,676 prior files, 23 inventories and 30 core pins remain unchanged. The
+unchanged 213-test baseline is reused, not rerun. Current preservation contains
+21,091 issue files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-24/reproduction.json`.
+Next batch 25 restores Book Review 0025 on observed page 102 and upper 103,
+excluding the lower Back-Issue Guide under canonical 0033. The page 104 MSX
+opening is canonical 0045, distinct from MSX entry 0010 at TOC 117; an initial
+outside-map metadata match was corrected, with its original record preserved.
+Diskette 0032 still needs a location search after its TOC 72 mismatch. News parent
 0020 remains unresolved. Cover, all 266 source pages and whole-issue closeout
 remain. Conversation, logs and documents use English; original source text retains
 its language. No reader rebuild. Human acceptance/full proofreading, source bytes,
