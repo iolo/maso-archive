@@ -16,24 +16,27 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 November 1985 remains in progress: twelve readable, assistant sample-reviewed
-articles and 34 unresolved identities. No current partial article or pending
-article assembly remains. PLAY conquest(3)0044 is complete on pages 64–70 at
-`packages/play-complete-r01`. All 716 files independently reproduce, including
-707 unchanged native files. All 12,722 text-range occurrences, 14,310 evidence
-pins and 206 images validate. The complete article retains 13 BASIC programs,
-208 program rows, 805 fields, six tables, 45 annotation associations and the
-page 69→70 program reference. All 12,391 prior files, thirteen inventories and
-30 core pins remain unchanged; the 213-test baseline is reused. Current
-preservation contains 13,842 files. Next batch15 verifies back-issue diskettes0032
-from the TOC hint72 before mapping. Cover, 266-page accounting and issue closeout
-remain. English is required for conversation, logs and documentation; original
-source text retains its language. No reader rebuild.
-Reproduce with `archive/pdf/1985-11/restoration/batch-14/reproduction.json`.
-The pinned private `play_literal.py` adapter is required for assembly checks;
-the batch09 numerical-analysis adapter remains required for that article.
-Native stage scopes and uncertainty notes remain unchanged; complete article
-scope governs coverage. Preserve the first verifier's stale-folio failure and
-successful revision. No source text or exported files changed for that fix.
+articles, one partial article and 33 unresolved identities. Batch15 restores
+Hangul-processing feature 0001 opening 73–78 at
+`packages/batch-15-r01/hangul-feature-a`; final 79 and complete 73–79 assembly
+remain pending. Both exports match across 329 files. All 3,158 text ranges,
+3,527 evidence pins and 90 images validate. The segment retains 77 blocks,
+13 figures, all 256 code-chart data positions, three tables, 107 blank cells,
+two uncertain-glyph placeholders and separately identified later handwriting.
+All 13,842 prior files, fourteen inventories and 30 core pins remain unchanged;
+the 213-test baseline is reused. Current preservation contains 15,336 files.
+Diskette 0032 remains unresolved: TOC 72 points to an unlisted slogan-contest
+notice, not the diskette offer. No source-absence claim or identity substitution.
+Next batch 16 restores final 79, followed by immutable article assembly.
+Cover, 266-page accounting and full issue closeout remain. Conversation, logs and
+documentation use English; original source text retains its language. No reader rebuild.
+Reproduce with `archive/pdf/1985-11/restoration/batch-15/reproduction.json`.
+Keep all original/revised crops, raw drafts, source details, transcripts and exports.
+The first preparation script selected a repeated character at the wrong occurrence;
+revision02 anchors joins to region boundaries. The failed script remains preserved,
+and source transcriptions are unchanged. Selected map-r03 splits the chart row-zero
+label from its cells to preserve the tilted corner. Existing batch14 PLAY and
+batch09 numerical-analysis adapters remain required for their complete assemblies.
 See [November log](progress/8511.md) and the issue ledger.
 
 ## Latest completed issue

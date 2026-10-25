@@ -25,18 +25,20 @@ records below are historical and do not authorize a new rebuild.
 ## November 1985 active restoration, 2026-10-25
 
 November 1985 remains in progress: twelve readable, assistant sample-reviewed
-articles and 34 unresolved identities. No current partial article or pending
-article assembly remains. PLAY conquest(3)0044 is complete on pages 64–70 at
-`packages/play-complete-r01`. All 716 files independently reproduce, including
-707 unchanged native files. All 12,722 text-range occurrences, 14,310 evidence
-pins and 206 images validate. The complete article retains 13 BASIC programs,
-208 program rows, 805 fields, six tables, 45 annotation associations and the
-page 69→70 program reference. All 12,391 prior files, thirteen inventories and
-30 core pins remain unchanged; the 213-test baseline is reused. Current
-preservation contains 13,842 files. Next batch15 verifies back-issue diskettes0032
-from the TOC hint72 before mapping. Cover, 266-page accounting and issue closeout
-remain. English is required for conversation, logs and documentation; original
-source text retains its language. No reader rebuild.
+articles, one partial article and 33 unresolved identities. Batch15 restores
+Hangul-processing feature 0001 opening 73–78 at
+`packages/batch-15-r01/hangul-feature-a`; final 79 and complete 73–79 assembly
+remain pending. Both exports match across 329 files. All 3,158 text ranges,
+3,527 evidence pins and 90 images validate. The segment retains 77 blocks,
+13 figures, all 256 code-chart data positions, three tables, 107 blank cells,
+two uncertain-glyph placeholders and separately identified later handwriting.
+All 13,842 prior files, fourteen inventories and 30 core pins remain unchanged;
+the 213-test baseline is reused. Current preservation contains 15,336 files.
+Diskette 0032 remains unresolved: TOC 72 points to an unlisted slogan-contest
+notice, not the diskette offer. No source-absence claim or identity substitution.
+Next batch 16 restores final 79, followed by immutable article assembly.
+Cover, 266-page accounting and full issue closeout remain. Conversation, logs and
+documentation use English; original source text retains its language. No reader rebuild.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 ## October 1985 closeout, 2026-10-25

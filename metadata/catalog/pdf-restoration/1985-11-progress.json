@@ -24,12 +24,71 @@
       "toc_entry_id": "maso-1985-11-toc-0001",
       "title": "특집 : 언제쯤이나 가능할까 컴퓨터의 만족스런 한글처리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0001 Hangul-processing feature starts with illustrated title/deck on PDF73(no visible folio),continues74–79 and ends79 before separate Lessons from Apple80.",
+        "This segment maps73–78;final79 and complete article assembly remain deferred. Source captions retain reversed figure1/figure2 page order.",
+        "Canonical0032 TOC72 mismatches the inspected slogan-contest notice72;keep that entry unresolved and do not substitute it for this feature or assert source absence."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-15-r01/hangul-feature-a",
+        "article_id": "scan-maso-1985-11-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-15-r01/hangul-feature-a/manifest.json",
+          "sha256": "803067d3d5e8f2d568a161a64e2360e47da5cc5538675eadd0836d4ea9bf731b",
+          "bytes": 54170
+        },
+        "coverage": {
+          "pdf_pages": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "printed_pages": [
+            null,
+            "74",
+            "75",
+            "76",
+            "77",
+            "78"
+          ],
+          "full_article_pdf_pages": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "regions": 90,
+          "blocks": 77,
+          "figures": 13,
+          "deferred_pdf_pages": [
+            79
+          ],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-15/validation.json",
+          "sha256": "263bacf617da638ef2189804cdf837bd10ac940dcbc89d8ebe014e5b1a2d9583",
+          "bytes": 1881
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-15/reproduction.json",
+          "sha256": "ac5e68a65359e2d0c0f6fc698aad79dbad5140ee30cfcac796f8d5b8fddc0d23",
+          "bytes": 1509
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0002",
@@ -686,8 +745,15 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification_evidence": [
+        "TOC hint72 points to an unlisted slogan-contest notice on inspected printed/PDF72. Back-issue diskettes location remains unresolved; no substitution or source-absence claim."
+      ],
+      "restoration": null,
+      "location_mismatch_evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-15/diskette-location-mismatch.json",
+        "sha256": "7e7232765522a3917d07124207306ce3bc2fdd6ac75ed15731ffc472847cdfa8",
+        "bytes": 1281
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0033",
@@ -1132,9 +1198,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 12,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 34
+    "unresolved_eligibility": 33
   },
   "checkpoints": [
     {
@@ -1702,6 +1768,57 @@
       "started_at": "2026-10-25T05:44:06.863443+00:00",
       "finished_at": "2026-10-25T05:47:44.041561+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-15",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0032",
+        "maso-1985-11-toc-0001"
+      ],
+      "mapped_pdf_pages": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "outside_map_lookup_pages": [
+        71,
+        72,
+        79,
+        80
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 77,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 41,
+      "scope_adjustment": "Diskette0032 TOC72 mismatches an unlisted notice. Keep it unresolved; restore feature0001 opening73–78 after full73–79 extent verification. Final79 and complete assembly remain pending.",
+      "scope_adjustment_evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-15/scope-adjustment.json",
+        "sha256": "06e6c6c12b1731c3dc07234660e874a878e40a9ecfd13b099bdc103d53dbee27",
+        "bytes": 567
+      },
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-15/validation.json",
+        "sha256": "263bacf617da638ef2189804cdf837bd10ac940dcbc89d8ebe014e5b1a2d9583",
+        "bytes": 1881
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-15/verification-completed.json",
+        "sha256": "0b81ecb49ab90a145b9159c76f9ce5f9793af1e33193242b8336f5f22bcc0f49",
+        "bytes": 2272
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-15-preserved-work.json",
+        "sha256": "8f55df321a5dc9a6a36a07352450b6a01e2bf7b917efd8fc71118c6f603e1662",
+        "bytes": 3415402
+      },
+      "started_at": "2026-10-25T05:50:08.720804+00:00",
+      "finished_at": "2026-10-25T06:21:29.945205+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -2115,21 +2232,107 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body"
+    },
+    {
+      "pdf_page": 72,
+      "printed_page": "72",
+      "classification": "unlisted-slogan-contest-notice",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-15/diskette-location-mismatch.json",
+        "sha256": "7e7232765522a3917d07124207306ce3bc2fdd6ac75ed15731ffc472847cdfa8",
+        "bytes": 1281
+      }
+    },
+    {
+      "pdf_page": 73,
+      "printed_page": null,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "segment-complete"
+    },
+    {
+      "pdf_page": 74,
+      "printed_page": "74",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "segment-complete"
+    },
+    {
+      "pdf_page": 75,
+      "printed_page": "75",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "segment-complete"
+    },
+    {
+      "pdf_page": 76,
+      "printed_page": "76",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "segment-complete"
+    },
+    {
+      "pdf_page": 77,
+      "printed_page": "77",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "segment-complete"
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": "78",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "segment-complete"
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": "79",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "restoration": "deferred-final-page"
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": "80",
+      "classification": "article-opening",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "unmapped",
+      "note": "Lessons from Apple opening follows feature ending79; verify its full extent before mapping."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-15",
-    "goal": "Verify and restore canonical0032 back-issue diskettes from TOC hint72. Inspect full extent and adjacent pages before mapping.",
+    "id": "batch-16",
+    "goal": "Restore verified Hangul-processing feature0001 final79; preserve opening73–78 and then assemble the complete73–79 article. A second task may inspect Lessons from Apple0009 extent within checkpoint limits.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0032"
+      "maso-1985-11-toc-0001"
     ],
-    "mapping_targets": "Provisional source72,not yet inspected. Source71 is a separate book advertisement;TOC73 feature0001 is a boundary hint,not verified evidence.",
+    "mapping_targets": [
+      79
+    ],
     "provisional_lookup_targets": [
-      71,
-      72,
-      73,
-      74
+      78,
+      80,
+      81
     ],
     "limits": {
       "articles": 2,
@@ -2141,7 +2344,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twelve readable articles;no current partial article or pending assembly.34 unresolved identities,cover and whole-source-page accounting remain;no global page offset inferred."
+    "Twelve readable articles,one partial Hangul feature0001 with final79 and complete assembly pending,33 unresolved identities. Diskette0032 remains unresolved after TOC72 mismatch. Cover and whole266-page accounting remain; no global page offset inferred."
   ],
   "reader_rebuild": false
 }
