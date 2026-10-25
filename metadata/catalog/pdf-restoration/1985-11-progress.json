@@ -1584,18 +1584,67 @@
       "toc_entry_id": "maso-1985-11-toc-0032",
       "title": "과월호 디스켓",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
       "classification_evidence": [
-        "TOC hint72 points to an unlisted slogan-contest notice on inspected printed/PDF72. Back-issue diskettes location remains unresolved; no substitution or source-absence claim."
+        "TOC hint72 points to an unlisted slogan-contest notice on inspected printed/PDF72. Back-issue diskettes location remains unresolved; no substitution or source-absence claim.",
+        "Canonical 0032 Back-Issue Diskettes matches the exact printed heading and publisher offer on PDF 176: categorized back-issue program disks, prices, month references and purchase instructions. It is a complete independent one-page offer, with no visible printed folio.",
+        "TOC reference 72 remains unchanged. Individually re-inspected printed/PDF 72 contains an unrelated slogan-contest notice, as previously recorded in batch 15. This is a location reconciliation, not a title substitution or an inferred folio offset.",
+        "PDF 175 contains the processor ending and independent contest overview. PDF 177 is an MS-DOS Handbook advertisement. Neither continues the diskette offer. Canonical 0035 Software Contest has TOC hint 176 but does not match this diskette page; its location remains unresolved.",
+        "Preserve six categorized program lists, a Lode Runner offer, three language-package offers, prices, month indications, purchase prose and opaque historical payment identifiers. No cross-issue title/month/platform or financial validation."
       ],
-      "restoration": null,
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-41/back-issue-diskettes",
+        "article_id": "scan-maso-1985-11-toc-0032",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-41/back-issue-diskettes/manifest.json",
+          "sha256": "d38ed85dd3a76d4630add727aef57860eb27d0c11d356978aa39fd8a587f7078",
+          "bytes": 10058
+        },
+        "coverage": {
+          "pdf_pages": [
+            176
+          ],
+          "printed_pages": [
+            null
+          ],
+          "full_article_pdf_pages": [
+            176
+          ],
+          "regions": 14,
+          "blocks": 13,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [],
+          "shared_page": null
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "과월호 디스켓",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-41/validation.json",
+          "sha256": "56ffa879f0384f62407aaefe6d8efad634911c55630124851fd540e6e7828bb1",
+          "bytes": 3129
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-41/reproduction.json",
+          "sha256": "2ab6a0fa2a7c750efb3595836b1aeeb4b9e3fe05654e0d12722b6a4ea67470e4",
+          "bytes": 2104
+        }
+      },
       "location_mismatch_evidence": {
         "path": "archive/pdf/1985-11/restoration/batch-15/diskette-location-mismatch.json",
         "sha256": "7e7232765522a3917d07124207306ce3bc2fdd6ac75ed15731ffc472847cdfa8",
         "bytes": 1281
+      },
+      "location_reconciliation_evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-41/diskette-location-reconciliation.json",
+        "sha256": "3d735a520d52b23cad1eecf67624b1dd0cc412bd497dc8a90ae995069d599be8",
+        "bytes": 2099
       }
     },
     {
@@ -1613,12 +1662,69 @@
       "toc_entry_id": "maso-1985-11-toc-0034",
       "title": "공모총평",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 0034 Contest Overview matches the printed heading in the independent lower panel of PDF 175 and its TOC reference. No printed folio is visible, so printed_page remains null. Upper processor canonical 0004 is excluded and remains immutable.",
+        "The separate panel has an ALG III prize banner, two-column assessment prose and an eight-work award table. It is a complete contest overview, not an opening segment of the separate prize-winning program canonical 0008 on observed 178. The named prize winner in the prose is not an article byline.",
+        "PDF 176 is an independent diskette offer and PDF 177 a book advertisement; the overview ends with its table. Canonical title, attribution and parent 0026 remain unchanged. Earlier batch 40 uncertainty about ownership remains in immutable evidence and is resolved here by the distinct canonical heading.",
+        "Preserve the table merged award-category cell, all eight contributor/work/platform rows, source spellings, physical wraps and references without reconciling them to other articles or executing any program."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-41/contest-overview",
+        "article_id": "scan-maso-1985-11-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-41/contest-overview/manifest.json",
+          "sha256": "fdd0f43b214a61abd9341949d34577a7b6196c17ace09ef5d5319fb0f3b9af4d",
+          "bytes": 5510
+        },
+        "coverage": {
+          "pdf_pages": [
+            175
+          ],
+          "printed_pages": [
+            null
+          ],
+          "full_article_pdf_pages": [
+            175
+          ],
+          "regions": 8,
+          "blocks": 6,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [
+            "microprocessor-upper175"
+          ],
+          "shared_page": {
+            "pdf_page": 175,
+            "article_scope": "lower panel",
+            "excluded_owner": "maso-1985-11-toc-0004",
+            "excluded_restoration": "complete immutable batch 40"
+          }
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "공모총평",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-41/validation.json",
+          "sha256": "56ffa879f0384f62407aaefe6d8efad634911c55630124851fd540e6e7828bb1",
+          "bytes": 3129
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-41/reproduction.json",
+          "sha256": "2ab6a0fa2a7c750efb3595836b1aeeb4b9e3fe05654e0d12722b6a4ea67470e4",
+          "bytes": 2104
+        }
+      },
+      "shared_page_ownership_evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-41/shared-page-175-resolution.json",
+        "sha256": "c588bb3c3fc41994808ba39048aed9706ece1a741f434d3088366f8698b3d9a1",
+        "bytes": 1297
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0035",
@@ -2148,10 +2254,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 23,
+    "readable": 25,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 23
+    "unresolved_eligibility": 21
   },
   "checkpoints": [
     {
@@ -3853,6 +3959,51 @@
       "started_at": "2026-10-25T14:53:33.227806+00:00",
       "finished_at": "2026-10-25T15:26:13.220197+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-41",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0032",
+        "maso-1985-11-toc-0034"
+      ],
+      "mapped_pdf_pages": [
+        175,
+        176
+      ],
+      "outside_map_lookup_pages": [
+        72,
+        177
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 19,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 0,
+      "scope_adjustment": "Diskette canonical 0032 reconciled to PDF 176 while preserving TOC hint 72 and mismatch evidence. Distinct Contest Overview canonical 0034 added as second task on lower 175. Both complete; folios null. Upper processor article remains immutable.",
+      "scope_evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-41/scope-adjustment.json",
+        "sha256": "b11d3f0bfebaaa1b7427ad1497ff65644d50d83ba48186d977f3ff4d2a3fdc9a",
+        "bytes": 750
+      },
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-41/validation.json",
+        "sha256": "56ffa879f0384f62407aaefe6d8efad634911c55630124851fd540e6e7828bb1",
+        "bytes": 3129
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-41/verification-completed.json",
+        "sha256": "4d6c44fb03ab661617f2fe069ba2daff5eb65d811ae610d13ba1d9273acc01f2",
+        "bytes": 1659
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-41-preserved-work.json",
+        "sha256": "ad090fbc0a5091372c22d0eb6d5ce466095ef2da511a1198e062c7a828d87d91",
+        "bytes": 8525562
+      },
+      "started_at": "2026-10-25T15:29:50.166708+00:00",
+      "finished_at": "2026-10-25T15:45:15.715754+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -5378,21 +5529,30 @@
       "printed_page": null,
       "classification": "shared-article-page",
       "toc_entry_ids": [
-        "maso-1985-11-toc-0004"
+        "maso-1985-11-toc-0004",
+        "maso-1985-11-toc-0034"
       ],
-      "restoration": "article-complete; lower-contest-panel-pending",
-      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. No visible folio. Lower contest overview remains excluded; ownership unresolved."
+      "restoration": "both-articles-complete",
+      "note": "No visible folio. Upper Microprocessor 65816 remains immutable; lower Contest Overview is now restored as distinct canonical 0034. Prior ownership uncertainty is resolved by its exact printed/TOC heading.",
+      "prior_stage_notes": [
+        "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. No visible folio. Lower contest overview remains excluded; ownership unresolved."
+      ]
     },
     {
       "pdf_page": 176,
       "printed_page": null,
-      "classification": "unresolved-entry-location-lead",
-      "toc_entry_ids": [],
-      "candidate_toc_entry_ids": [
+      "classification": "article-body",
+      "toc_entry_ids": [
         "maso-1985-11-toc-0032"
       ],
-      "restoration": "pending separate source and canonical-match review",
-      "note": "Back-issue diskette offer with no visible folio. New lead after the earlier TOC 72 mismatch; not assigned to canonical 0032 yet."
+      "restoration": "article-complete",
+      "note": "No visible folio. Complete Back-Issue Diskettes canonical 0032, matched by exact heading/content. TOC hint 72 and earlier mismatch remain unchanged. This page does not establish the location of Software Contest canonical 0035.",
+      "prior_stage_notes": [
+        "Back-issue diskette offer with no visible folio. New lead after the earlier TOC 72 mismatch; not assigned to canonical 0032 yet."
+      ],
+      "prior_candidate_toc_entry_ids": [
+        "maso-1985-11-toc-0032"
+      ]
     },
     {
       "pdf_page": 177,
@@ -5415,17 +5575,33 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-41",
-    "goal": "Review the back-issue diskette offer on PDF 176 against unresolved canonical 0032 and the earlier TOC 72 mismatch. Verify independent boundaries and canonical ownership before restoring the entry. No visible folio on 176; keep it null. Preserve all earlier evidence. ALG III canonical 0008 at observed 178 and its possible relation to lower contest panel 175 remain later work.",
+    "id": "batch-42",
+    "goal": "Establish the full extent of prize-winning ALG III canonical 0008, opening on observed page 178, then restore a complete article or bounded opening segment. The lower Contest Overview on 175 is now independently restored as canonical 0034; do not merge it into ALG III. Inspect ending and adjacent boundaries before mapping; preserve byline and canonical identity.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0032"
+      "maso-1985-11-toc-0008"
     ],
-    "mapping_targets": "Candidate PDF 176; only map after canonical-match review.",
+    "mapping_targets": "Opening on 178 observed; later extent must be verified before selecting up to six pages.",
     "provisional_lookup_targets": [
-      72,
-      175,
-      176,
-      177
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196
     ],
     "limits": {
       "articles": 2,
@@ -5437,7 +5613,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-three readable articles; no partial article or pending assembly. Twenty-three unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 has a new unassigned location lead on PDF 176 after the TOC 72 mismatch. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Lower Back-Issue Guide 169 and contest overview 175 remain pending. No visible folios on 175–177."
+    "Twenty-five readable articles; no partial article or pending assembly. Twenty-one unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 is reconciled to PDF 176; TOC hint 72 and prior mismatch retained. Lower Contest Overview 175 is complete as canonical 0034, separate from ALG III 0008. Software Contest 0035 hint 176 remains unresolved. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Lower Back-Issue Guide 169 remains pending. No visible folios on 175–177."
   ],
   "reader_rebuild": false
 }

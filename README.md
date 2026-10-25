@@ -171,11 +171,11 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twenty-three articles are readable,
-with no partial article or pending assembly. Twenty-three of 46 identities remain
-unresolved. Microprocessor 65816 is complete on pages 170–upper 175, with 150
-independently identical package files, including all 256 instruction-matrix cells
-and both chip pinouts. Next, review the diskette offer found on PDF 176.
+November 1985 restoration is in progress: twenty-five articles are readable,
+with no partial article or pending assembly. Twenty-one of 46 identities remain
+unresolved. Back-Issue Diskettes on PDF 176 and Contest Overview on lower 175
+are complete; all 95 package files match independent rebuilds. The earlier
+page-72 mismatch is preserved. Next, establish ALG III's extent from page 178.
 Cover, remaining articles and whole-issue accounting remain. Progress logs and
 documents use English; original source text retains its language.
 See [the November progress log](docs/progress/8511.md).

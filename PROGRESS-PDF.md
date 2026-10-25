@@ -6,31 +6,32 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-November 1985 remains in progress: twenty-three readable, assistant sample-reviewed
-articles, no partial article or pending assembly, and 23 unresolved identities.
-Batch 40 completes Microprocessor 65816, canonical 0004, on pages 170–upper 175.
-The package is `archive/pdf/1985-11/packages/microprocessor-65816`; all 150 files
-match an independent rebuild. Its 43 regions, 33 text blocks and ten figures
-preserve the complete prose, programming model, status diagram, two pinouts,
-two vector tables and the 16-by-16 instruction matrix. All 256 physical matrix
-cells, forty opposing pin pairs, twelve vector rows, six programming-model rows
-and eight status descriptions are indexed, including blank and shifted fields.
-Folios 170–174 are individually visible; 175 has no visible folio. Its lower
-contest overview is excluded and remains pending an ownership review.
-All 33 raw OCR drafts were read before one source correction pass, with no
-recognition retries. The failed initial mapping script and both map/crop versions
-remain preserved. Three revised crops resolve clipped pinout/table labels and
-one prose margin. All 8,253 UTF-8 ranges, 8,386 evidence pins, 43 decoded images
-and 85 disjoint nonfigure pairs validate. All 37,419 prior files, 39 inventories
-and thirty core pins remain unchanged. The unchanged 213-test baseline is reused,
-not rerun. Current preservation contains 38,120 files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-40/reproduction.json`.
-Next batch 41 reviews PDF 176 as a location lead for diskette canonical 0032,
-following the earlier TOC 72 mismatch. No canonical match is claimed yet.
-Pages 175–177 have no visible folios. ALG III 0008 opens on observed 178;
-its extent and possible relation to the lower contest panel 175 remain later work.
-Parents 0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Completed
-Power I/O, VDP and earlier assemblies retain their native files and adapters.
+November 1985 remains in progress: twenty-five readable, assistant sample-reviewed
+articles, no partial article or pending assembly, and 21 unresolved identities.
+Batch 41 completes Back-Issue Diskettes 0032 on PDF 176 and Contest Overview 0034
+on lower PDF 175. Both have null folios. Packages are under
+`archive/pdf/1985-11/packages/batch-41/`; their 61 and 34 files match independent
+rebuilds. The diskette offer matches its exact canonical title and contents;
+TOC hint 72 and the earlier unrelated slogan-notice evidence remain unchanged.
+The lower overview has its own canonical heading. It is separate from ALG III
+0008; the upper Microprocessor 65816 package remains immutable.
+The diskette catalogue preserves 84 entries in six groups, four package offers,
+three opaque historical payment identifiers and one blank month reference.
+The overview preserves all eight award rows and one category cell spanning seven
+rows. All 19 raw drafts were read before one source correction pass; no OCR
+retries or crop changes. The combined 22 regions, 19 blocks and three figures
+retain 1,629 UTF-8 ranges and 1,695 evidence pins. All 22 decoded images,
+93 within-article and 24 cross-article disjoint region pairs validate.
+All 38,120 prior files, forty inventories and thirty core pins remain unchanged.
+The unchanged 213-test baseline is reused, not rerun. Current preservation contains
+38,501 files. Reproduce with `archive/pdf/1985-11/restoration/batch-41/reproduction.json`.
+A ledger-recording script had a parse error before making changes; the failed
+script and fresh successful revision remain preserved. Source correction,
+serializer, exports and verifier required no retries.
+Next batch 42 establishes ALG III 0008's full extent from observed page 178 before
+restoring a bounded segment. Software Contest 0035's page-176 hint remains
+unresolved; that page contains the diskette offer. Parents 0002 and 0020 and
+Back-Issue Guide 0033 remain unresolved. Earlier assemblies and adapters remain.
 Cover, remaining identities, all 266 source pages and issue closeout remain.
 Replies, logs and documents use English; original source material retains its
 language. No reader rebuild. Human acceptance/full proofreading, source bytes,
