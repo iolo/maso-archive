@@ -171,15 +171,14 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: nineteen articles are readable and
-independently reproducible. The book review on page 102 and upper 103 now matches
-across 84 exported files, preserving the bibliography, original cover image,
-numbered machine layers and column/page continuations. No current partial article
-or assembly remains; 27 of 46 entries still need restoration or classification.
-Next is MSX Corners (2), beginning on page 104. The lower Back-Issue Guide on
-page 103 remains separate and pending. Cover and whole-issue accounting remain.
-Conversation, progress logs and documents use English; original source text
-retains its language. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: nineteen articles are readable and one
+is partial. MSX Corners (2) pages 104–109 now match across 339 exported files,
+preserving BASIC and assembly listings, keyboard tables and original scans.
+The article ends on page 114; restoring pages 110–114 and assembling the complete
+article are next. Twenty-six of 46 identities still need restoration or
+classification. Cover and whole-issue accounting remain. Conversation, progress
+logs and documents use English; original source text retains its language.
+See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
