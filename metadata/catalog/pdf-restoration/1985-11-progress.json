@@ -675,12 +675,69 @@
       "toc_entry_id": "maso-1985-11-toc-0023",
       "title": "소프트웨어 리뷰 dBASE III",
       "parent_id": "maso-1985-11-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Software Review dBASE III canonical 0023 occupies pages 97–98 and the upper article panel of page 99, after News Review final 96 and before New Products opening 100. All three article folios were observed individually.",
+        "The lower Back-Issue Guide panel on page 99 belongs to separate canonical 0033 and is excluded from this article. Its future restoration remains pending.",
+        "The review includes a seven-field product-information panel, three illustrations, three section headings, inline command/key names and cross-column/page continuations. No executable listing or table grid appears in this review."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-23-r01/dbase-review",
+        "article_id": "scan-maso-1985-11-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-23-r01/dbase-review/manifest.json",
+          "sha256": "9cd35d4bf44da1ef1b57ab672227884c6c49b95b447c6e96086d79784be3c269",
+          "bytes": 21634
+        },
+        "coverage": {
+          "pdf_pages": [
+            97,
+            98,
+            99
+          ],
+          "printed_pages": [
+            "97",
+            "98",
+            "99"
+          ],
+          "full_article_pdf_pages": [
+            97,
+            98,
+            99
+          ],
+          "regions": 37,
+          "blocks": 29,
+          "figures": 8,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [
+            "back-issue-guide99"
+          ],
+          "shared_page": {
+            "pdf_page": 99,
+            "article_scope": "upper panel",
+            "excluded_owner": "maso-1985-11-toc-0033",
+            "excluded_restoration": "pending"
+          }
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "dBASE Ⅲ",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-23/validation.json",
+          "sha256": "9270a8490ae012a85a9abb6cd94fbc5e7df1e86a4dcdb9fb33b76d12fd85e667",
+          "bytes": 2016
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-23/reproduction.json",
+          "sha256": "a6f46eef0d8e4b242f929f01c3388ac395e71243c33e79b4f649000cad385a36",
+          "bytes": 1441
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0024",
@@ -1428,10 +1485,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 16,
+    "readable": 17,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 30
+    "unresolved_eligibility": 29
   },
   "checkpoints": [
     {
@@ -2333,6 +2390,46 @@
       "started_at": "2026-10-25T08:04:49.756205+00:00",
       "finished_at": "2026-10-25T08:15:08.503920+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-23",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0023"
+      ],
+      "mapped_pdf_pages": [
+        97,
+        98,
+        99
+      ],
+      "outside_map_lookup_pages": [
+        96,
+        100
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 29,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 4,
+      "scope_adjustment": "Complete Software Review dBASE III on 97–98 and upper 99: seven product fields, three performance comparisons, ten inline commands/keys, three illustrations and five boundary continuations. Lower 99 belongs to separate Back-Issue Guide 0033; New Products opens on 100.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-23/validation.json",
+        "sha256": "9270a8490ae012a85a9abb6cd94fbc5e7df1e86a4dcdb9fb33b76d12fd85e667",
+        "bytes": 2016
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-23/verification-completed.json",
+        "sha256": "a40ac5667030cff85a3fde83fb0412ff5e53d75eda9792c3155bc988ad184bd1",
+        "bytes": 1871
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-23-preserved-work.json",
+        "sha256": "764446ad657c5cf755b719237a2b83741185d563a4326e4742a496be1d9ecd74",
+        "bytes": 4627075
+      },
+      "started_at": "2026-10-25T08:18:01.129792+00:00",
+      "finished_at": "2026-10-25T08:34:45.976800+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -2988,28 +3085,61 @@
     {
       "pdf_page": 97,
       "printed_page": "97",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0023"
       ],
+      "restoration": "complete",
+      "note": "Complete dBASE III review 97–98 and upper 99 verified in batch 23; earlier outside-map opening observation retained in batch 22 evidence."
+    },
+    {
+      "pdf_page": 98,
+      "printed_page": "98",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0023"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 99,
+      "printed_page": "99",
+      "classification": "shared-article-and-back-issue-guide",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0023",
+        "maso-1985-11-toc-0033"
+      ],
+      "restoration": "article-complete-guide-pending",
+      "note": "Upper dBASE III article panel complete; excluded lower Back-Issue Guide belongs to canonical 0033 and remains pending. Canonical 0032 diskette is distinct."
+    },
+    {
+      "pdf_page": 100,
+      "printed_page": "100",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0024"
+      ],
       "restoration": "pending",
-      "note": "Outside-map source review only; the dBASE III review extent after page 97 remains to be checked."
+      "note": "Outside-map source review only; New Products extent after 100 remains to be checked."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-23",
-    "goal": "Verify Software Review dBASE III 0023 from the observed page 97 opening; locate its ending and restore a bounded complete article or segment.",
+    "id": "batch-24",
+    "goal": "Verify New Products 0024 from the observed page 100 opening; locate its ending and restore a bounded complete article or segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0023"
+      "maso-1985-11-toc-0024"
     ],
-    "mapping_targets": "Reuse inspected 96/97 views, inspect subsequent pages and ending before mapping. Preserve the product-information panel, any command literals, tables and illustrations.",
+    "mapping_targets": "Reuse inspected 99/100 views, inspect subsequent pages and ending before mapping. Preserve individual product headings, specifications, contact fields, images and shared-page exclusions.",
     "provisional_lookup_targets": [
-      96,
-      97,
-      98,
       99,
-      100
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
     ],
     "limits": {
       "articles": 2,
@@ -3021,7 +3151,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Sixteen readable articles, no partial article or pending assembly. Thirty unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Seventeen readable articles, no partial article or pending assembly. Twenty-nine unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }

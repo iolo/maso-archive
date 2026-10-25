@@ -24,32 +24,33 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-November 1985 remains in progress: sixteen readable, assistant sample-reviewed
-articles, no partial article and 30 unresolved identities. Batch 22 completes
-News Review 0022, pages 94–96, at
-`archive/pdf/1985-11/packages/batch-22-r01/news-review`. Both exports match across
-133 files. The article retains 35 regions, 30 blocks, five original figures and
-161 physical text rows. Fourteen news items retain fourteen newspaper attributions
-with 42 exact month/day/publication fields. No attribution year or expanded
-publication title is inferred. Both cartoons and all three original pages remain.
-All 1,391 UTF-8 ranges, 1,493 evidence-pin occurrences, 35 images and 142 disjoint
-nonfigure pairs validate. Thirty-four named literals, ten wrapped literals,
-36 source claims, seventeen source variants and the page 94→95 sentence boundary
-retain exact ranges. Printed name variants, technical wording and reported figures
-remain; the software-spending report's uncertain word is explicitly documented.
-All 35 original crops and one replacement were inspected before 30 pinned kor+eng
-tasks. All drafts were read before one direct source correction pass; zero OCR
-retries. All 19,531 prior files, 21 inventories and 30 core pins remain unchanged.
-The unchanged 213-test baseline is reused, not rerun. Current preservation contains
-20,100 issue files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-22/reproduction.json`.
-Next batch 23 verifies Software Review dBASE III 0023 from its observed page 97
-opening, locating the ending before mapping. Diskette 0032 still needs a location
-search after its TOC 72 mismatch. News parent 0020 remains unresolved. Cover, all
-266 source pages and whole-issue closeout remain. Conversation, logs and documents
-use English; original source text retains its language. No reader rebuild.
-Human acceptance/full proofreading, source bytes, exact spacing, newspaper sources
-and historical/technical claims remain unverified.
+November 1985 remains in progress: seventeen readable, assistant sample-reviewed
+articles, no partial article and 29 unresolved identities. Batch 23 completes
+Software Review dBASE III 0023 on pages 97–98 and the upper panel of 99, at
+`archive/pdf/1985-11/packages/batch-23-r01/dbase-review`. Both exports match across
+132 files. The article retains 37 regions, 29 blocks, eight original images and
+172 physical text rows. Seven product fields have fourteen exact label/value
+ranges. Ten inline command/key references, 44 model literals, three performance
+comparisons and five column/page continuations preserve the printed distinctions.
+All 1,399 UTF-8 ranges, 1,501 evidence-pin occurrences, 37 images and 138 disjoint
+nonfigure pairs validate. Ten named literals, fifteen wrapped literals, 32 source
+claims and nine source variants retain exact ranges. Original command case,
+address punctuation and uncertain glyphs remain documented. The lower Back-Issue
+Guide on page 99 belongs to canonical 0033 and remains pending; no included crop
+crosses its boundary. A separate folio crop records page 99.
+All 37 original crops and four replacements were inspected before 29 pinned
+kor+eng tasks. All drafts were read before one direct source correction pass;
+zero OCR retries. All 20,100 prior files, 22 inventories and 30 core pins remain
+unchanged. The unchanged 213-test baseline is reused, not rerun. Current
+preservation contains 20,676 issue files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-23/reproduction.json`.
+Next batch 24 verifies New Products 0024 from its observed page 100 opening,
+locating the ending before mapping. Diskette 0032 still needs a location search
+after its TOC 72 mismatch; it is distinct from Back-Issue Guide 0033. News parent
+0020 remains unresolved. Cover, all 266 source pages and whole-issue closeout
+remain. Conversation, logs and documents use English; original source text retains
+its language. No reader rebuild. Human acceptance/full proofreading, source bytes,
+exact spacing and historical/technical claims remain unverified.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 ## October 1985 closeout, 2026-10-25
