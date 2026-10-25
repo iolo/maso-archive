@@ -22,38 +22,50 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## October 1985 active, 2026-10-25
+## October 1985 closeout, 2026-10-25
 
-October 1985 has **35 readable/sample-reviewed articles and four non-owning
-headings**, accounting for all 39 canonical identities. No partial articles,
-unresolved eligibility or article assembly remain. Whole-issue closeout is pending.
+October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
+are accounted for by 35 readable, assistant sample-reviewed articles and four
+non-owning headings. No partial articles, unresolved eligibility or article assembly
+remain. Canonical identities, titles, order and parent relationships are unchanged.
 
-**Issue-accounting-03 completes the 268-page source ledger.** Selected article
-bodies occupy 224 distinct pages with 231 page assignments. The 44 outside-body
-pages comprise 34 advertisements, two contents pages, an issue-title page, an
-association notice, five unlisted HGR feature pages (the last also a promotion),
-and the cover. Final PDF265, 267 and 268 are advertisements with null folios;
-three reused source views were individually inspected, with no mapping or OCR.
-All observed folios and nulls remain literal; no global page offset is inferred.
+The standalone index is `archive/pdf/1985-10/reference/issue.json`; the validation
+report is `archive/pdf/1985-10/evidence/issue-closeout/report.json`. All 9,031 issue
+files match the independent rebuild, including all 9,025 selected-package files.
+The packages retain 2,416 regions, 1,662 blocks and 404 figures. All
+301,480 local UTF-8 excerpt ranges and 2,412 distinct images validate.
+Ten private assembly formats preserve their native files, metadata and source uncertainties.
+Reproduce/check with `archive/pdf/1985-10/restoration/issue-closeout/reproduction.json`.
 
-Seven pages have two canonical owners: PDF48, 53, 65, 166, 229, 233 and 266.
-All 228 cross-owner region pairs, including 115 nonfigure pairs, are disjoint.
-The 25 native exclusion records remain unchanged. Right209 manuscript notice,
-lower-left266 colophon and independent advertisements remain outside selected
-bodies. Historical notes calling completed neighbors pending remain preserved.
+All 268 source pages are accounted for: 224 contain selected bodies, with 231 page
+assignments, and 44 are outside-body material. Those comprise 34 advertisements,
+two contents pages, an issue-title page, an association notice, five unlisted HGR
+feature pages (the last also a promotion), and the cover. Seven shared article
+pages have 228 disjoint region pairs, including 115 nonfigure pairs. All 25 native
+exclusion records remain exact. Null folios, including PDF229, remain null; no
+page offset is inferred. Unlisted material and mixed-page ads remain outside
+canonical transcription. No article identity was added.
 
-All 35 selected packages pass the ten-format private assembly dispatcher.
-All 73,899 prior files, 67 checkpoint inventories and 30 core implementation pins
-remain exact. The new preservation inventory contains 73,927 files. The
-unchanged 213-test baseline is reused. Article, heading and cover records remain
-unchanged. The donated 480×611 RGB JPEG cover, 68,837 bytes, remains independently
-exact. No reading-room output was rebuilt.
+The donated cover is verified: 480×611 RGB JPEG, 68,837 bytes, metadata stripped,
+with an independently identical thumbnail rebuild. Fresh
+`make test-pdf PYTHON=.venv/bin/python` passes all 213 tests. All 73,927 earlier
+files, 68 prior checkpoint inventories, 30 core implementation pins and ten
+private adapters remain unchanged. All earlier attempts and source evidence remain.
 
-**Next: issue-closeout** — produce the standalone JSON/assets index and report,
-independently rebuild the issue, run fresh 213 tests and complete the full
-requirement-by-requirement audit. Human acceptance/full proofreading, source
-bytes/spacing/glyph counts, claims, execution and independent backup recovery
-remain unverified. Unlisted material remains outside canonical transcription.
+All 68 restoration/accounting checkpoints meet the two-task/six-mapped-page/
+twenty-outside-lookup limits. The 52 OCR checkpoints retain 2,012 mapped Tesseract
+tasks (495 English code and 1,517 Korean/English other regions), one recorded
+source correction pass each and zero recognition retries. Three timing supplements
+from batches 32 and 46 remain explicit: one masked figure was inspected after OCR,
+an early raw-reading record was superseded before correction, and two original
+figures were inspected after launch but before correction. Text crops were reviewed
+before recognition; no stricter chronology is inferred.
+
+Human acceptance/full proofreading, source encoded bytes/spacing/glyph counts,
+historical or technical claims, execution and independent backup recovery remain
+unverified. News/classified body transcription and custom glyph/diagram labels await
+volunteers. No reader was rebuilt. No October 1985 restoration checkpoint remains;
+other issues and collection-wide aggregation are separate work.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

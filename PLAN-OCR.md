@@ -19,20 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active: 35 readable/sample-reviewed articles, four non-owning headings,
-  zero partial/unresolved; all 39 identities accounted. Issue-accounting-03 completes
-  all 268 pages: 224 distinct selected-body pages/231 assignments, 44 outside pages
-  (34 ads, two contents, issue title, association notice, five unlisted HGR pages
-  including one mixed promotion, cover). Final265,267,268 ads have null folios;
-  three reused views, zero mapping/OCR. No page-offset inference.
-  Seven shared pages have 228 disjoint region pairs, including 115 nonfigure pairs;
-  all 25 native exclusions exact. All 35 packages pass ten-format dispatcher.
-  All 73,899 prior files/67 inventories/30 core pins unchanged; 213 baseline reused.
-  New inventory: 73,927 files. Donated 480×611 cover, 68,837 bytes, remains exact.
-  Next issue-closeout: standalone JSON/assets index/report, independent issue rebuild,
-  fresh 213 tests and full requirements audit. No reader rebuild.
+- October 1985 is complete under canonical TOC JSON/assets: 39 identities,
+  35 readable/sample-reviewed articles, four non-owning headings, zero partial/
+  unresolved/pending assemblies. All 9,031 issue files independently exact, including
+  9,025 selected files; 2,416 regions/1,662 blocks/404 figures,
+  301,480 local UTF8 ranges/2,412 decoded images/ten formats validate.
+  All 268 pages accounted: 224 body/44 outside. Seven shared pages have 228 disjoint
+  region pairs, including 115 nonfigure pairs; 25 native exclusions/null folios exact.
+  Donated 480×611 cover, 68,837 bytes, independently exact. Fresh 213 tests pass;
+  all 73,927 prior files/68 inventories/30 core pins/ten adapters unchanged.
+  All 68 checkpoints bounded; 52 OCR checkpoints/2,012 tasks (495 eng/1,517 kor+eng),
+  one source pass each/zero recognition retries. Batch32 masked-figure/raw-reading
+  timing supplements and batch46 two-figure timing exception remain explicit.
+  Index `archive/pdf/1985-10/reference/issue.json`; report
+  `archive/pdf/1985-10/evidence/issue-closeout/report.json`; reproduction
+  `archive/pdf/1985-10/restoration/issue-closeout/reproduction.json`.
   Human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/execution/
-  backup recovery remain unverified; unlisted material stays outside transcription.
+  backup recovery unverified; volunteer body/glyph/diagram-label work remains explicit.
+  No reader rebuild or remaining October checkpoint. Other issues/aggregation are separate.
   [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

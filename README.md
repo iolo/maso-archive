@@ -157,20 +157,19 @@ ISOs, decoder probes, recovered bodies/assets, generated sites and browser
 artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate JSON/assets campaign. November 1983; February,
-March, May, June, July, August, September, October and December 1984; and February
-and March 1985 are complete. March 1984 retains one missing-source terminal partial;
-no April PDF was supplied. March 1985 accounts for all48 canonical entries:39 readable,
-assistant sample-reviewed articles and nine non-owning headings. All244 source pages
-are classified and the donated cover is verified. Its standalone index is
-`archive/pdf/1985-03/reference/issue.json`; the whole-issue report is
-`archive/pdf/1985-03/evidence/issue-closeout/report.json`. All9,588 files match the
-independent rebuild,including9,582 exact selected package files;fresh213 PDF tests pass.
-Human acceptance/full proofreading,source bytes/encoded spacing/glyph counts,
-historical and technical claims,execution and independent backup recovery remain
-unverified;volunteer glyph/diagram-label and news/classified-body work remains explicit.
-The batch52 crop-timing exception is preserved. No reader rebuild followed this closeout.
-See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md) and
-[successor handoff](docs/SUCCESSOR-NOTES.md).
+March, May, June, July, August, September, October and December 1984; and February,
+March and October 1985 are complete. March 1984 retains one missing-source terminal
+partial; no April PDF was supplied. October 1985 accounts for all 39 canonical
+entries: 35 readable, assistant sample-reviewed articles and four non-owning headings.
+All 268 source pages are classified and the donated cover is verified. Its index is
+`archive/pdf/1985-10/reference/issue.json`; the whole-issue report is
+`archive/pdf/1985-10/evidence/issue-closeout/report.json`. All 9,031 files match the
+independent rebuild, including 9,025 exact selected-package files; fresh 213 tests pass.
+Human acceptance/full proofreading, source bytes/spacing/glyph counts, claims,
+execution and independent backup recovery remain unverified. Volunteer body/glyph/
+diagram-label work and the batch32/46 timing supplements remain explicit. No reader
+rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
+[issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 ## Validation and handoff
 
