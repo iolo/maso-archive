@@ -358,12 +358,50 @@
       "toc_entry_id": "maso-1985-11-toc-0028",
       "title": "애독자 광장",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete readers forum printed27–28/PDF27–28; editorial26 precedes, separate 입력이 힘드십니까?29 follows.",
+        "Four letters: 가로세로 체크썸이 더 좋아; 과월호를 구할 길이 없을까; 수준높은 잡지를 위해; 어렵더라도 수준있는 내용을 원해. Last is followed by distinct editor response panel.",
+        "Letter1 이/런,letter2 들렀다/가 and 하는/것이라는;letter3 그들이/마이크로소프트웨어를 and 기계어게임/을;letter4 초/보자가 and 수용하/려면;editor 책의 내/용이 retain source reading order.",
+        "Four separately signed reader letters do not create an article-wide author. Original historical contact details remain source text."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-02-r01/readers",
+        "article_id": "scan-maso-1985-11-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-02-r01/readers/manifest.json",
+          "sha256": "b28097f925894fe64f544f43ad744d0b47844c7a154297151ff614e34b8de41a",
+          "bytes": 13337
+        },
+        "coverage": {
+          "pdf_pages": [
+            27,
+            28
+          ],
+          "printed_pages": [
+            "27",
+            "28"
+          ],
+          "regions": 20,
+          "blocks": 10,
+          "figures": 2,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-02/validation.json",
+          "sha256": "9314554099310e4e2429f2eb1765f8fd4040f9f9e96135902059f2f8516984a5",
+          "bytes": 1018
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-02/reproduction.json",
+          "sha256": "a6570e228a3bdc8ee56c565f655e17ed3e2aa644ea0677e738aa1902accc1876",
+          "bytes": 1191
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0029",
@@ -566,10 +604,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 1,
+    "readable": 2,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 45
+    "unresolved_eligibility": 44
   },
   "checkpoints": [
     {
@@ -609,6 +647,42 @@
       "started_at": "2026-10-25T02:17:44.286485+00:00",
       "finished_at": "2026-10-25T02:21:52.163205+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-02",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0028"
+      ],
+      "mapped_pdf_pages": [
+        27,
+        28
+      ],
+      "outside_map_lookup_pages": [
+        26,
+        29
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 18,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-02/validation.json",
+        "sha256": "9314554099310e4e2429f2eb1765f8fd4040f9f9e96135902059f2f8516984a5",
+        "bytes": 1018
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-02/verification-completed.json",
+        "sha256": "9f3dcac7d16384221dccf1c6d2a98cf0923715936648c44ddc54b6612aeab5b2",
+        "bytes": 613
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-02-preserved-work.json",
+        "sha256": "fe88fb3c3ddb57203a337e7fc7b218cc89ec6547cb116eeed72a74b5933501f5",
+        "bytes": 102046
+      },
+      "started_at": "2026-10-25T02:22:42.891381+00:00",
+      "finished_at": "2026-10-25T02:30:49.334100+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include tool waits/gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -633,21 +707,19 @@
     },
     {
       "pdf_page": 27,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0028"
       ],
-      "printed_page": "27",
-      "restoration": "pending"
+      "printed_page": "27"
     },
     {
       "pdf_page": 28,
-      "classification": "article-ending-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0028"
       ],
-      "printed_page": "28",
-      "restoration": "pending"
+      "printed_page": "28"
     },
     {
       "pdf_page": 29,
@@ -661,17 +733,19 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-02",
-    "goal": "Restore complete 애독자 광장, printed27–28/PDF27–28, reusing saved source views.",
+    "id": "batch-03",
+    "goal": "Verify 입력이 힘드십니까? extent from printed29/PDF29 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0028"
+      "maso-1985-11-toc-0029"
     ],
-    "mapping_targets": "PDF27–28 visibly numbered27–28; preceding editorial26 and following 입력이 힘드십니까?29 already inspected.",
+    "mapping_targets": "Opening PDF29 verified. Inspect subsequent pages and QA boundary; do not infer a global offset or complete extent from TOC alone.",
     "provisional_lookup_targets": [
-      26,
-      27,
       28,
-      29
+      29,
+      30,
+      31,
+      32,
+      33
     ],
     "limits": {
       "articles": 2,
@@ -683,7 +757,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining45 identities,cover and whole-source-page accounting require restoration/review; no global page offset inferred."
+    "Remaining44 identities,cover and whole-source-page accounting require restoration/review; no global page offset inferred."
   ],
   "reader_rebuild": false
 }

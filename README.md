@@ -171,8 +171,8 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: the editor's note is restored and
-independently reproducible; 45 of 46 canonical entries still need restoration or
+November 1985 restoration is in progress: the editor's note and readers' forum
+are independently reproducible; 44 of 46 canonical entries still need restoration or
 classification. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
