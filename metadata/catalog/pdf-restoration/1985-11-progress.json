@@ -403,12 +403,100 @@
       "toc_entry_id": "maso-1985-11-toc-0008",
       "title": "공모 최우수상 : ALg III",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All twenty complete source views 177 through 196 were individually inspected. PDF 177 is an independent MS-DOS Handbook advertisement with no visible folio. ALG III opens on observed 178 and ends on observed 195. Magic Square opens on observed 196. Every folio 178 through 196 was individually observed; no offset was inferred.",
+        "Canonical 0008 and byline remain unchanged. The printed opener has the ALG III title, structured BASIC translation subtitle and Park Kang-su attribution with affiliation. Distinct Contest Overview canonical 0034 on lower 175 is not part of this article.",
+        "Opening 178 contains title/byline/illustration. Page 179 has contents, introduction and usage; 180 and 181 continue screen-message examples and purpose; 182 has a workflow comparison table and coding rules; 183 continues the direct-command example, error handling, rerun instructions and variable definitions.",
+        "Page 184 continues variables and line-number explanations, then structured-programming background. Page 185 has loop conversions and example listings. Page 186 completes example material and opens numbered BASIC listing 4, continued on 187-189 and ending upper-left 190. Page 190 opens the separately printed source-program listing, continued on 191-194 and ending on 195 with variable, runtime and label-checking tables.",
+        "This map restores only the opening six pages 178-183. Variable definitions continue directly on 184. Remaining 184-195 require later bounded checkpoints and complete assembly; no complete-article claim is made. Preserve the 182-to-183 example continuation, multi-column prose joins and illustration numerals."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-42/alg-iii-opening",
+        "article_id": "scan-maso-1985-11-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-42/alg-iii-opening/manifest.json",
+          "sha256": "5da7de15f1c8d0940baf2972170c1d0c2b0ceb903eed63f950648daa3f82e434",
+          "bytes": 39552
+        },
+        "coverage": {
+          "pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ],
+          "printed_pages": [
+            "178",
+            "179",
+            "180",
+            "181",
+            "182",
+            "183"
+          ],
+          "boundary_supported_full_article_pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ],
+          "uninspected_interior_pdf_pages": [],
+          "regions": 63,
+          "blocks": 53,
+          "figures": 10,
+          "deferred_pdf_pages": [
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "source_title": "ALGⅢ",
+        "source_subtitle": "구조화 베이직 번역 프로그램",
+        "source_byline": "박 강 수/육본 전산실",
+        "source_byline_note": "Printed name and affiliation retained separately from unchanged canonical title and attribution.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-42/validation.json",
+          "sha256": "2e905dfab3ca0394ef0de59af9bf50151c9ec88fb69335191914e81ac1493fb9",
+          "bytes": 2327
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-42/reproduction.json",
+          "sha256": "5ce0ff99b2e098a86eb2023c0286dc33c456c2e4ae506410743924b2409c5a4c",
+          "bytes": 1607
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0009",
@@ -2255,9 +2343,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 25,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 21
+    "unresolved_eligibility": 20
   },
   "checkpoints": [
     {
@@ -4004,6 +4092,61 @@
       "started_at": "2026-10-25T15:29:50.166708+00:00",
       "finished_at": "2026-10-25T15:45:15.715754+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-42",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "mapped_pdf_pages": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "outside_map_lookup_pages": [
+        177,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 53,
+      "english_tasks": 10,
+      "source_correction_passes": 1,
+      "preflight_replacements": 11,
+      "scope_adjustment": "ALG III full extent 178-195 established by twenty complete source views. Opening 178-183 restored within six-page limit. Variables continue on 184; later 184-195 and complete assembly remain. Contest Overview lower 175 is separate canonical 0034. All folios 178-196 individually observed; 177 remains null.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-42/validation.json",
+        "sha256": "2e905dfab3ca0394ef0de59af9bf50151c9ec88fb69335191914e81ac1493fb9",
+        "bytes": 2327
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-42/verification-completed.json",
+        "sha256": "0387af7874e411ebbbbba2506c6afd7fd298c802c0ae02b9fda117bde4d2c18c",
+        "bytes": 2099
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-42-preserved-work.json",
+        "sha256": "e3aef01be4e0919426e7e48ceb656c53c4b0b65731c43c6d48e4b8e517e31157",
+        "bytes": 8754201
+      },
+      "started_at": "2026-10-25T15:49:11.963670+00:00",
+      "finished_at": "2026-10-25T16:28:44.150999+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -5565,41 +5708,215 @@
     {
       "pdf_page": 178,
       "printed_page": "178",
-      "classification": "article-opening",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196.",
+      "prior_stage_notes": [
+        "Observed ALG III prize-winning program opening. Full extent and relation to lower contest panel 175 require a separate bounded checkpoint."
+      ]
+    },
+    {
+      "pdf_page": 179,
+      "printed_page": "179",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 180,
+      "printed_page": "180",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 181,
+      "printed_page": "181",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 182,
+      "printed_page": "182",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 183,
+      "printed_page": "183",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 184,
+      "printed_page": "184",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 185,
+      "printed_page": "185",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 186,
+      "printed_page": "186",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 187,
+      "printed_page": "187",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 188,
+      "printed_page": "188",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 189,
+      "printed_page": "189",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 190,
+      "printed_page": "190",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 191,
+      "printed_page": "191",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 192,
+      "printed_page": "192",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 193,
+      "printed_page": "193",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 194,
+      "printed_page": "194",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 195,
+      "printed_page": "195",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "restoration": "unmapped",
+      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+    },
+    {
+      "pdf_page": 196,
+      "printed_page": "196",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0046"
+      ],
       "restoration": "pending",
-      "note": "Observed ALG III prize-winning program opening. Full extent and relation to lower contest panel 175 require a separate bounded checkpoint."
+      "note": "Separate Magic Square opening after ALG III ending on 195; only opening inspected, not restored here."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-42",
-    "goal": "Establish the full extent of prize-winning ALG III canonical 0008, opening on observed page 178, then restore a complete article or bounded opening segment. The lower Contest Overview on 175 is now independently restored as canonical 0034; do not merge it into ALG III. Inspect ending and adjacent boundaries before mapping; preserve byline and canonical identity.",
+    "id": "batch-43",
+    "goal": "Restore ALG III canonical 0008 next segment 184-189, including continued variable definitions, structured-programming examples and beginning numbered BASIC listing. Preserve immutable opening 178-183. Remaining 190-195 and complete article assembly will still be required. Keep source errors, physical wraps and literal code without execution or semantic repair.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0008"
     ],
-    "mapping_targets": "Opening on 178 observed; later extent must be verified before selecting up to six pages.",
-    "provisional_lookup_targets": [
-      177,
-      178,
-      179,
-      180,
-      181,
-      182,
-      183,
+    "mapping_targets": [
       184,
       185,
       186,
       187,
       188,
-      189,
+      189
+    ],
+    "provisional_lookup_targets": [
+      183,
       190,
-      191,
-      192,
-      193,
-      194,
       195,
       196
     ],
@@ -5613,7 +5930,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-five readable articles; no partial article or pending assembly. Twenty-one unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 is reconciled to PDF 176; TOC hint 72 and prior mismatch retained. Lower Contest Overview 175 is complete as canonical 0034, separate from ALG III 0008. Software Contest 0035 hint 176 remains unresolved. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Lower Back-Issue Guide 169 remains pending. No visible folios on 175–177."
+    "Twenty-five readable articles and one partial article. ALG III 0008 opening 178-183 restored; full extent 178-195 observed, with 184-195 and complete assembly pending. Twenty unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 is reconciled to PDF 176; TOC hint 72 and prior mismatch retained. Lower Contest Overview 175 is complete canonical 0034, separate from ALG III. Software Contest 0035 hint 176 remains unresolved. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Back-Issue Guide 0033 remains pending. No visible folios on 175-177."
   ],
   "reader_rebuild": false
 }

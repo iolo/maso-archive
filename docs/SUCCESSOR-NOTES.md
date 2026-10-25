@@ -16,50 +16,42 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 November 1985 remains in progress: twenty-five readable, assistant sample-reviewed
-articles, no partial article or pending assembly, and 21 unresolved identities.
-Batch 41 completes Back-Issue Diskettes 0032 on PDF 176 and Contest Overview 0034
-on lower PDF 175. Both have null folios. Packages are under
-`archive/pdf/1985-11/packages/batch-41/`; their 61 and 34 files match independent
-rebuilds. The diskette offer matches its exact canonical title and contents;
-TOC hint 72 and the earlier unrelated slogan-notice evidence remain unchanged.
-The lower overview has its own canonical heading. It is separate from ALG III
-0008; the upper Microprocessor 65816 package remains immutable.
-The diskette catalogue preserves 84 entries in six groups, four package offers,
-three opaque historical payment identifiers and one blank month reference.
-The overview preserves all eight award rows and one category cell spanning seven
-rows. All 19 raw drafts were read before one source correction pass; no OCR
-retries or crop changes. The combined 22 regions, 19 blocks and three figures
-retain 1,629 UTF-8 ranges and 1,695 evidence pins. All 22 decoded images,
-93 within-article and 24 cross-article disjoint region pairs validate.
-All 38,120 prior files, forty inventories and thirty core pins remain unchanged.
-The unchanged 213-test baseline is reused, not rerun. Current preservation contains
-38,501 files. Reproduce with `archive/pdf/1985-11/restoration/batch-41/reproduction.json`.
-A ledger-recording script had a parse error before making changes; the failed
-script and fresh successful revision remain preserved. Source correction,
-serializer, exports and verifier required no retries.
-Batch 42 is in progress. Twenty full-page inspections establish ALG III 0008
-on observed pages 178-195, between the independent advertisement on 177 (no
-visible folio) and Magic Square on observed 196. Its opening 178-183 is mapped
-in `archive/pdf/1985-11/restoration/batch-42/alg-iii-opening/map-r02.json`:
-63 regions, including 53 text regions and ten figures. All original crops and
-eleven widened replacements were inspected before 53 pinned OCR tasks (ten
-English, 43 Korean/English). All raws have been read; no recognition retries.
-The first crop-repair script stopped on an overlap assertion before writing a
-revised map; the failed attempt and successful fresh script remain preserved.
-Resume with one direct source correction pass; none has started. Do not rerun
-mapping or OCR. Source correction, exports, full checkpoint verification and
-ledger recording remain. Pages 184-195 and complete article assembly follow in
-later bounded checkpoints. The current segment uses six mapped pages and fourteen
-outside lookups. The completed ledger totals above are unchanged. In-flight
-validation and raw-reading records are in the batch-42 directory; neither is a
-completed article or checkpoint claim. Software Contest 0035's page-176 hint remains
-unresolved; that page contains the diskette offer. Parents 0002 and 0020 and
-Back-Issue Guide 0033 remain unresolved. Earlier assemblies and adapters remain.
-Cover, remaining identities, all 266 source pages and issue closeout remain.
-Replies, logs and documents use English; original source material retains its
-language. No reader rebuild. Human acceptance/full proofreading, source bytes,
-exact spacing, glyph identity, historical/technical claims and execution remain
-unverified.
+articles, one partial article requiring assembly, and twenty unresolved identities.
+Batch 42 restores ALG III 0008's opening pages 178-183. Twenty full-page views
+establish its complete extent as 178-195; every folio 178-196 was individually
+observed. The independent advertisement on 177 has no visible folio. Contest
+Overview 0034 on lower 175 remains separate and complete.
+The opening package is `archive/pdf/1985-11/packages/batch-42/alg-iii-opening`;
+all 231 files match its independent rebuild. Its 63 regions, 53 blocks and ten
+figures retain 420 transcription rows, nine screen examples, twelve workflow-table
+cells with 21 physical line parts, eight error messages and eighteen variable
+definitions with forty fields. Ten cross-column continuations, five literal wraps,
+thirteen source variants and two explicit unknown dot bands remain indexed.
+Screen-frame marks and illustration geometry stay in exact source crops; twelve
+illustration numeral candidates include one partial source-edge glyph.
+All original crops and eleven replacements were inspected before 53 pinned OCR
+tasks (ten English and 43 Korean/English). Every raw was read before one source
+correction pass. No recognition retries. The initial crop-repair script stopped
+on an overlap assertion before writing a revised map; its failed source and fresh
+successful revision remain preserved. Serializer, exports and verifier passed
+on first execution. All 3,012 UTF-8 ranges, 3,213 evidence pins, 63 decoded images
+and 246 disjoint nonfigure pairs validate. All 38,501 prior files, 41 inventories
+and thirty core pins remain unchanged. The unchanged 213-test baseline is reused,
+not rerun. Current preservation contains 39,508 issue files. Reproduction:
+`archive/pdf/1985-11/restoration/batch-42/reproduction.json`.
+Next batch 43 restores ALG III pages 184-189, including continued variable
+explanations, structured-programming examples and the beginning BASIC listing.
+Remaining 190-195 and complete immutable article assembly will still be required.
+Do not restart batch 42's mapping, OCR or source correction. All in-flight records
+and the earlier English handoff commit remain historical evidence.
+Software Contest 0035's page-176 hint remains unresolved; that page contains the
+completed diskette offer. Its canonical hint 72 and earlier mismatch are preserved.
+Parents 0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Earlier complete
+assemblies and private adapters remain. Cover, remaining identities, all 266 source
+pages and issue closeout remain. Replies, logs and documents use English; original
+source material retains its language. No reader rebuild. Human acceptance/full
+proofreading, original bytes, spacing, glyph identity, historical/technical claims
+and execution remain unverified.
 Existing batch 20 Lessons from Apple, batch 17 Hangul feature, batch 14 PLAY and
 batch 09 numerical-analysis adapters remain required for their complete assemblies.
 See [November log](progress/8511.md) and the issue ledger.
