@@ -25,36 +25,34 @@ paired OCR or a new engine comparison.
 
 - November 1985 remains in progress: twenty readable, assistant sample-reviewed
   articles, one partial article awaiting further segments and assembly, and 25
-  unresolved identities. Batch 29 restores VDP source-list analysis 0010 opening
-  117–122 at `archive/pdf/1985-11/packages/batch-29-r01/vdp-a`. All 345 files match
-  an independent rebuild. Its 102 regions retain 78 blocks, 24 figures, 276 physical
-  text rows, 175 linearized diagram-label rows and 13 logical table rows. Two
-  assembly examples retain 20 rows, 79 fields, 30 byte candidates and 45 explicitly
-  absent fields. Two tables retain 52 cells and all sixteen color-code entries.
-  Sixteen diagrams retain label groups and original geometry, with 72 bit cells,
-  70 address cells, eight byte rows and 64 visual grid-cell candidates. Four status
-  leaders, six flowchart nodes, two code braces, nineteen captions, five text
-  continuations, eighteen wrapped literals and 23 source variants are indexed.
-  Printed F7/F2 differences, an unlabelled register-4 bit, status-label associations
-  and unusual memory labels remain literal. No code execution or semantic repair.
-  All 4,285 UTF-8 ranges, 4,726 evidence pins, 102 images and 536 disjoint nonfigure
-  pairs validate. All 25,421 prior files, 28 inventories and 30 core pins remain
-  unchanged. All 78 OCR drafts were read before one source pass, with no retries.
-  The original 107 crops and sixteen replacements remain preserved. The unchanged
-  213-test baseline is reused, not rerun. Current preservation contains 26,902 files.
-  Reproduce with `archive/pdf/1985-11/restoration/batch-29/reproduction.json`.
-  Boundary evidence supports VDP pages 117–151: observed 151 ends with END; 152–153
-  are independent advertisements with null folios; power I/O 0003 opens on observed
-  154. Interior 124–147 remains uninspected, with no inferred folios. Next batch 30
-  restores 123–128 and observes each folio individually. Remaining 123–151 and a
-  complete immutable VDP assembly are required. Completed MSX Corners 104–114 and
-  its batch 28 private adapter remain unchanged. Diskette 0032 still needs a
-  location search after its TOC 72 mismatch; News parent 0020 and Back-Issue Guide
-  0033 remain unresolved. Cover, all 266 source pages and issue closeout remain.
-  Conversation, logs and documents use English; original source text retains its
-  language. No reader rebuild. Human acceptance/full proofreading, source bytes,
-  exact spacing, glyph identity, historical/technical claims and execution remain
-  unverified.
+  unresolved identities. Batch 30 restores VDP source-list analysis 0010 pages
+  123–128 at `archive/pdf/1985-11/packages/batch-30-r01/vdp-b`. All 236 files match
+  an independent rebuild. The segment retains 68 regions, 53 text blocks and
+  15 figures, with 400 physical text rows and 125 linearized diagram-label rows.
+  Two instruction examples retain five rows and ten fields; the screen transcript
+  retains six nonempty rows. Two diagram tables retain 61 populated cells and
+  three explicitly empty cells. Six diagrams retain original geometry, 48 letter
+  cells, nine braces and sixteen flowchart nodes. Five routine headings, sixteen
+  work-area addresses, five code annotations, nine captions, twelve continuations,
+  23 wrapped literals and 33 source variants are indexed. Printed inconsistencies
+  remain literal, including missing diagram labels, routine names, masks and
+  addresses. All 4,406 UTF-8 ranges, 4,698 evidence pins, 68 images and 290 disjoint
+  nonfigure pairs validate. All 26,902 prior files, 29 inventories and thirty core
+  pins remain unchanged. All 53 OCR drafts were read before one source pass;
+  no retries. The 68 original crops and two replacements remain preserved.
+  The unchanged 213-test baseline is reused, not rerun. Current preservation
+  contains 27,918 files. Reproduce with
+  `archive/pdf/1985-11/restoration/batch-30/reproduction.json`.
+  VDP segments 117–128 are now restored; remaining 129–151 and complete immutable
+  assembly are required. Boundary evidence supports 117–151. Interior 130–147
+  remains uninspected, with no inferred folios. Next batch 31 restores 129–134.
+  Completed MSX Corners 104–114 and its batch 28 adapter remain unchanged.
+  Diskette 0032 still needs a location search after its TOC 72 mismatch; News parent
+  0020 and Back-Issue Guide 0033 remain unresolved. Cover, all 266 source pages
+  and issue closeout remain. Conversation, logs and documents use English;
+  original source material retains its language. No reader rebuild. Human
+  acceptance/full proofreading, source bytes, exact spacing, glyph identity,
+  historical/technical claims and execution remain unverified.
   Existing batch 20 Lessons from Apple, batch 17 Hangul feature, batch 14 PLAY and
   batch 09 numerical-analysis adapters remain required for complete assemblies.
   [November log](docs/progress/8511.md), [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).

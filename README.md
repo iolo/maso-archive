@@ -172,13 +172,13 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: twenty articles are readable, one is
-partial, and twenty-five of 46 identities remain unresolved. The VDP analysis
-opening, pages 117–122, now has 345 independently identical package files,
-including its prose, two code examples, tables, diagram labels and original scans.
-Next is pages 123–128; the article continues through 151. Cover, remaining articles
-and whole-issue accounting still require work. Conversation, progress logs and
-documents use English; original source text retains its language.
-See [the November progress log](docs/progress/8511.md).
+partial, and twenty-five of 46 identities remain unresolved. VDP analysis pages
+123–128 now have 236 independently identical package files, preserving prose,
+code examples, a screen transcript, diagrams and original scans. Segments
+117–128 are restored; next is 129–134. The article continues through 151 and
+still requires complete assembly. Cover, remaining articles and whole-issue
+accounting remain. Progress logs and documents use English; original source
+text retains its language. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
