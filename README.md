@@ -173,11 +173,11 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 
 November 1985 restoration is in progress: twenty-nine articles are readable,
 one is partial and sixteen of 46 identities remain unresolved. Character Definition
-Editor opening pages 217-222 are restored; all 226 files match an independent
-rebuild. Its full extent is 217-227, with the original page-206 hint preserved.
-Closing pages 223-227 and full article assembly are next. Cover, remaining
-articles and whole-issue accounting remain. Progress logs and documentation
-use English; original source text retains its language.
+Editor has complete body coverage on 217-227 across two immutable segments;
+full article assembly is next. The closing segment's 96 files match an independent
+rebuild, with handwritten notes separate from printed listings. The original
+page-206 hint is preserved. Cover, remaining articles and whole-issue accounting
+remain. Progress logs and documentation use English; source retains its language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

@@ -8,40 +8,43 @@ by the calendar month in which restoration work happened.
 
 November 1985 remains in progress: twenty-nine readable, assistant sample-reviewed
 articles, one partial article and sixteen unresolved identities.
-Batch 48 restores Character Definition Editor 0006 opening pages 217-222.
-Its matching source title and byline establish the full extent on 217-227;
-the canonical page-206 hint remains unchanged. Small HCOPY on 206-209 is separate.
-The selected package is
-`archive/pdf/1985-11/packages/batch-48/character-definition-editor-opening`.
-All 226 files match the independent rebuild. Coverage remains partial until
-pages 223-227 and full article assembly are complete.
-The opening retains 61 regions, 52 blocks and nine figures. Its 428 transcription
-rows comprise 391 physical prose rows, 23 screen rows and fourteen spatial labels.
-Source-linked metadata preserves 63 routine references, fourteen help keys,
-nine menu items, eight explanations, eighteen screen coordinates and fourteen
-diagram labels. Two cross-region routine descriptions, five prose continuations,
-fifteen physical wraps and 44 uncertain source variants remain explicit.
-Custom screen glyphs and diagram geometry remain in original images.
-All 52 raw drafts preceded one source correction pass; zero OCR retries.
-Eight crop replacements, two coordinate additions and two merged heading/body
-pairs preceded recognition. Failed mapping and preparation-verifier attempts remain.
-One reference-count annotation was amended without changing source transcripts.
-Verification checks all 4,360 UTF-8 ranges, 4,660 evidence-pin references,
-61 decoded images and 243 disjoint nonfigure region pairs. All 43,624 prior files,
-47 prior inventories and thirty core pins remain unchanged. The unchanged
-213-test baseline is reused. Current preservation contains 44,704 issue files.
-Reproduction: `archive/pdf/1985-11/restoration/batch-48/reproduction.json`.
-Next batch 49 restores closing pages 223-227, including three printed listings
-and separate handwritten/struck-through material. Full article assembly follows.
+Batch 49 completes closing coverage for Character Definition Editor 0006,
+pages 223-227. All eligible body pages 217-227 are now restored across two
+immutable segments. Full article assembly remains required before readability.
+The canonical page-206 hint is unchanged; Small HCOPY on 206-209 is separate.
+The closing package is
+`archive/pdf/1985-11/packages/batch-49/character-definition-editor-closing`.
+All 96 files match an independent rebuild; the opening's 226 files remain intact.
+Closing coverage retains 27 regions, 21 reading blocks and seven figures.
+Its 456 transcription rows comprise twenty physical prose rows, 430 code rows
+and six handwritten rows. Three distinct listings retain 134 CHRMAKER statements,
+107 CHRMC000 assembly rows and 27 PROGEN statements. Five cross-region statement
+continuations and 91 wrapped statements preserve physical source boundaries.
+All 519 assembly fields, 107 addresses, seventy byte fields, ten labels,
+39 comments, 73 instruction fields and ten symbol pairs remain literal.
+Two handwritten annotations remain separate from printed code, including one
+mixed scan with distinct code/prose blocks. Six strike-mark records and two
+overwritten-operator records retain the original images. Seven routine references
+and the incoming page-222 reference-40 continuation await full assembly.
+All twenty raw drafts preceded one source pass; zero recognition retries.
+Three crop-margin repairs and one four-region merge preceded OCR. The initial
+failed mapping attempt remains. Serialization, both exports and verification
+passed on their first executions. No source text was semantically repaired.
+Verification checks 9,411 UTF-8 ranges, 9,540 evidence-pin references, 27 images
+and 37 disjoint nonfigure pairs. All 44,704 prior files, 48 inventories and thirty
+core pins remain unchanged. The unchanged 213-test baseline is reused.
+Current preservation contains 45,160 issue files. Reproduction:
+`archive/pdf/1985-11/restoration/batch-49/reproduction.json`.
+Next batch 50 assembles full Character Definition Editor 217-227 from the two
+immutable segments, preserving all native files, source layers and range indexes.
 Automatic Menu III 0007 is located on 211-215 but remains unrestored.
 Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
 and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176
 with its page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null.
 Cover, remaining identities, full 266-page accounting and issue closeout remain.
-Replies, logs and documentation use English; original source material retains
-its language. No reader rebuild. Human acceptance/full proofreading, original
-bytes, spacing, glyph identity, historical/technical claims and execution
-remain unverified.
+Replies, logs and documentation use English; original source retains its language.
+No reader rebuild. Human acceptance/full proofreading, original bytes, spacing,
+glyph identity, technical/historical claims and execution remain unverified.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
