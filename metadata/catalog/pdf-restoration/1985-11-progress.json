@@ -325,32 +325,36 @@
         "Second VDP analysis0010 segment123–128, following immutable opening117–122. All six current folios individually observed. Article boundary range117–151 remains supported by batch29 ending/adjacent evidence, not a global offset.",
         "123 continues the multicolor explanation from122, contains diagrams20–22 and starts section2 BIOS routines/source analysis. 124–128 explain WRTVDP, SETTXT, SETT32, SETGRP, SETMLT, SETSCM and SETREG variants, retaining diagrams23–28, short code examples and a screen transcript.",
         "The final128 sentence continues VDP/register6 on observed129. Page129 then opens screen ON/OFF routines and initialization explanations. Interior130–147 remains uninspected; no individual folios or full interior continuity are inferred.",
-        "Current mapping preserves all text, diagram labels and original geometry. Code/address/bit-mask contradictions remain source candidates, without semantic repair or execution. Remaining129–151 and complete immutable assembly with opening117–122 remain pending."
+        "Current mapping preserves all text, diagram labels and original geometry. Code/address/bit-mask contradictions remain source candidates, without semantic repair or execution. Remaining129–151 and complete immutable assembly with opening117–122 remain pending.",
+        "Third VDP analysis0010 segment129–134. All six current folios individually observed; immutable segments117–128 remain preserved. Boundary range117–151 retains prior end/adjacent evidence without inferred interior folios.",
+        "129 continues the register6 explanation, then begins screen ON/OFF and initialization routines. 130–133 cover initialization, sprites and table addresses. 134 contains listing example36 and explains VRAM transfer and pattern initialization.",
+        "135 is observed as the direct continuation of134, then continues BIOS explanation. Remaining135–151 and complete immutable assembly are required; interior136–147 remains uninspected.",
+        "Source inconsistencies remain literal: diagram29 ENASCR/DISSCR bit values differ from prose, numbered figure33 is not supplied between32 and34, and repeated routine/address/bit-mask variants are not semantically repaired."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-30-r01/vdp-b",
+        "directory": "archive/pdf/1985-11/packages/batch-31-r01/vdp-c",
         "article_id": "scan-maso-1985-11-toc-0010",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-30-r01/vdp-b/manifest.json",
-          "sha256": "bc9ca6c2c31433bb1fd856dd25a7690fcb43287a7c3fa435611e76c4e5944fea",
-          "bytes": 39087
+          "path": "archive/pdf/1985-11/packages/batch-31-r01/vdp-c/manifest.json",
+          "sha256": "6fb793db215f06feb169b9ed3fc6a7061abc0a95cfaffc932a041e93e58d70a3",
+          "bytes": 46791
         },
         "coverage": {
           "pdf_pages": [
-            123,
-            124,
-            125,
-            126,
-            127,
-            128
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
           ],
           "printed_pages": [
-            "123",
-            "124",
-            "125",
-            "126",
-            "127",
-            "128"
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134"
           ],
           "boundary_supported_full_article_pdf_pages": [
             117,
@@ -401,15 +405,15 @@
             125,
             126,
             127,
-            128
-          ],
-          "uninspected_interior_pdf_pages": [
+            128,
+            129,
             130,
             131,
             132,
             133,
-            134,
-            135,
+            134
+          ],
+          "uninspected_interior_pdf_pages": [
             136,
             137,
             138,
@@ -423,16 +427,10 @@
             146,
             147
           ],
-          "regions": 68,
-          "blocks": 53,
-          "figures": 15,
+          "regions": 78,
+          "blocks": 65,
+          "figures": 13,
           "deferred_pdf_pages": [
-            129,
-            130,
-            131,
-            132,
-            133,
-            134,
             135,
             136,
             137,
@@ -459,7 +457,7 @@
         "source_title": "VDP 소스 리스트 분석",
         "source_subtitle": "마이크로소프트웨어의 창간2주년을 기념하며",
         "source_byline": null,
-        "source_byline_note": "No byline observed in current segments117–128; canonical byline unchanged.",
+        "source_byline_note": "No byline observed in current segments117–134; canonical byline unchanged.",
         "segments": [
           {
             "name": "a",
@@ -494,17 +492,34 @@
               127,
               128
             ]
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1985-11/packages/batch-31-r01/vdp-c",
+            "manifest": {
+              "path": "archive/pdf/1985-11/packages/batch-31-r01/vdp-c/manifest.json",
+              "sha256": "6fb793db215f06feb169b9ed3fc6a7061abc0a95cfaffc932a041e93e58d70a3",
+              "bytes": 46791
+            },
+            "pdf_pages": [
+              129,
+              130,
+              131,
+              132,
+              133,
+              134
+            ]
           }
         ],
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-30/validation.json",
-          "sha256": "3d2bf327c828fc120484a6f1c416f4d58ce94cab27f64e3b9c5c22a58ce2c1cf",
-          "bytes": 2322
+          "path": "archive/pdf/1985-11/restoration/batch-31/validation.json",
+          "sha256": "f1c441ef13a3ae010068a3d43a2c1231dee6468b6f5a33010259661580ac816e",
+          "bytes": 2375
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-30/reproduction.json",
-          "sha256": "59b6a546db49686d4a4d51d4f82db057a9a29d9992481876a5aed4b2397bd844",
-          "bytes": 1438
+          "path": "archive/pdf/1985-11/restoration/batch-31/reproduction.json",
+          "sha256": "1828958f531b69ec85c0659263e2a310f6749661fe1a8618ffa3faa846d1836a",
+          "bytes": 1483
         }
       }
     },
@@ -3138,6 +3153,51 @@
       "started_at": "2026-10-25T10:58:44.296491+00:00",
       "finished_at": "2026-10-25T11:25:24.796302+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-31",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "mapped_pdf_pages": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "outside_map_lookup_pages": [
+        128,
+        135,
+        151,
+        152
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 65,
+      "english_tasks": 1,
+      "source_correction_passes": 1,
+      "preflight_replacements": 31,
+      "scope_adjustment": "Middle129–134 restored with six individually observed folios. Segments117–128 preserved. Boundary-supported extent117–151; remaining135–151 and complete immutable assembly required. Outside135 now inspected; interior136–147 remains uninspected.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-31/validation.json",
+        "sha256": "f1c441ef13a3ae010068a3d43a2c1231dee6468b6f5a33010259661580ac816e",
+        "bytes": 2375
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-31/verification-completed.json",
+        "sha256": "10ec466fabab364b589328ddfc5352da45a282afe6bffafa04b4587bded28754",
+        "bytes": 1665
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-31-preserved-work.json",
+        "sha256": "3ac963bebbbd5f9f3209d119eef3f515817c307ae622cb142dc218ad7c7085b1",
+        "bytes": 6472105
+      },
+      "started_at": "2026-10-25T11:28:23.695242+00:00",
+      "finished_at": "2026-10-25T11:55:45.217473+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -4113,8 +4173,68 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": "130",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 131,
+      "printed_page": "131",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 132,
+      "printed_page": "132",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": "133",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
       "restoration": "unmapped",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 148,
@@ -4195,22 +4315,22 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-31",
-    "goal": "Restore VDP source-list analysis0010 next segment129–134 with individually observed folios and literal BIOS analysis/listings; preserve segments117–128. Remaining135–151 and complete immutable assembly will still be required.",
+    "id": "batch-32",
+    "goal": "Restore VDP source-list analysis0010 next segment135–140 with individually observed folios and literal BIOS analysis/listings; preserve segments117–134. Remaining141–151 and complete immutable assembly will still be required.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0010"
     ],
     "mapping_targets": [
-      129,
-      130,
-      131,
-      132,
-      133,
-      134
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
     ],
     "provisional_lookup_targets": [
-      128,
-      135,
+      134,
+      141,
       151,
       152
     ],
@@ -4224,7 +4344,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty readable articles and one partial article. VDP analysis0010 segments117–128 restored; remaining129–151 and complete assembly pending. Interior130–147 not yet inspected. Twenty-five unresolved identities, cover and whole266-page accounting remain. Diskette0032 location remains unresolved after its TOC72 mismatch. News parent0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Twenty readable articles and one partial article. VDP analysis0010 segments117–134 restored; remaining135–151 and complete assembly pending. Interior136–147 not yet inspected. Twenty-five unresolved identities, cover and whole266-page accounting remain. Diskette0032 location remains unresolved after its TOC72 mismatch. News parent0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }
