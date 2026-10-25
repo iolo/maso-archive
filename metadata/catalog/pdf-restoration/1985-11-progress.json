@@ -1259,12 +1259,101 @@
       "toc_entry_id": "maso-1985-11-toc-0013",
       "title": "BANK PANIC",
       "parent_id": "maso-1985-11-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 0013 opens on PDF/printed 228 with Bank Panic, platform 애플 컴패티블 and byline 김교선. Canonical title BANK PANIC, identity, order and parent 0012 remain unchanged. The series banner does not by itself resolve parent 0012.",
+        "All twenty complete views 227-246 were inspected. Page 227 ends Character Definition Editor with PROGEN. Bank Panic occupies 228-245. Page 246 independently opens CRUSH CIRCLES with SPC-1000 and byline 장 창수. Every folio 227-246 was individually observed; no global page offset is inferred.",
+        "Pages 228-232 contain gameplay, entry/save instructions, variables and routine descriptions, address/memory diagrams, drawing controls and glossary. Listing 1 begins at the foot of 232, continues on 233-234 and ends on 235. This six-page segment 228-233 includes only its opening. Later material requires separate bounded segments and complete assembly.",
+        "Listing 2 begins on 236 and continues through 243, with three-column address/data/SUM tables and P-number groups. Its final group visibly includes rows beginning 6000 through 6078 on 243. Listing 3 independently starts at 6000 on 244 and ends on upper 245. Preserve both printed occurrences without deduplicating, recomputing SUM fields or validating code. Listing 4 occupies lower 245 and closes the article.",
+        "Handwritten 4900 and 800 above the page-228 title are separate annotation text, not program input or printed editorial text. Preserve all original screenshot glyphs and geometry, diagram arrows and bit positions, memory-map rows/columns/labels, key layout, glossary associations, physical wraps and cross-column/page continuations. Later listing pages contain handwritten stars/underlines/marks; retain them separately in their own segments.",
+        "One canonical task, six mapped pages 228-233, fourteen outside-map lookups 227 and 234-246. Deferred pages 234-245 remain unrestored. No OCR or source correction has started; this is boundary and crop preparation only. No execution, semantic/syntax/opcode/mathematical/hardware/historical verification."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-52/bank-panic-opening",
+        "article_id": "scan-maso-1985-11-toc-0013",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-52/bank-panic-opening/manifest.json",
+          "sha256": "f8f00e54e9377c0452746e6cdfc6986fecf95592f53382b96c78338e4857f238",
+          "bytes": 43859
+        },
+        "coverage": {
+          "pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233
+          ],
+          "printed_pages": [
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233"
+          ],
+          "boundary_supported_full_article_pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245
+          ],
+          "uninspected_interior_pdf_pages": [],
+          "regions": 69,
+          "blocks": 58,
+          "figures": 11,
+          "deferred_pdf_pages": [
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245
+          ],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "source_title": "Bank Panic",
+        "source_byline": "김교선",
+        "source_platform": "애플 컴패티블",
+        "source_byline_note": "Printed opening byline retained without external identity verification. Parent 0012 remains unresolved.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-52/validation.json",
+          "sha256": "ae71d4ea97dc44f840f1975af75f0ad5b25dba126746468200d8e7e407ac83bd",
+          "bytes": 2585
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-52/reproduction.json",
+          "sha256": "ef9978eb6ae46f018445bb1554cafeb9241576bc109ecb003d2c004b2a4c6ae4",
+          "bytes": 1597
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0014",
@@ -2816,9 +2905,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 31,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 15
+    "unresolved_eligibility": 14
   },
   "checkpoints": [
     {
@@ -5004,6 +5093,61 @@
       "started_at": "2026-10-25T20:10:34.542154+00:00",
       "finished_at": "2026-10-25T20:23:31.848435+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-52",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "mapped_pdf_pages": [
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "outside_map_lookup_pages": [
+        227,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 58,
+      "english_tasks": 6,
+      "source_correction_passes": 1,
+      "preflight_replacements": 3,
+      "scope_adjustment": "Bank Panic occupies 228-245. Opening 228-233 restored; 234-245 and full assembly pending. Preserve four distinct printed listings, repeated address rows in listings 2/3, handwritten marks and all diagram/field associations. Canonical parent 0012 remains unresolved.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-52/validation.json",
+        "sha256": "ae71d4ea97dc44f840f1975af75f0ad5b25dba126746468200d8e7e407ac83bd",
+        "bytes": 2585
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-52/verification-completed.json",
+        "sha256": "891f880a281c790e9c914e1b311096f2a27da91e7b48b1ed84a1a568d139068f",
+        "bytes": 2079
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-52-preserved-work.json",
+        "sha256": "0de9a1aacff07a191188593598f289780ec21b7a1317d032e02e554ff1cc4050",
+        "bytes": 10673020
+      },
+      "started_at": "2026-10-25T20:26:29.548148+00:00",
+      "finished_at": "2026-10-25T20:58:54.332719+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -7178,41 +7322,213 @@
     {
       "pdf_page": 228,
       "printed_page": "228",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "segment-complete",
+      "classification": "article-body",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
+      "prior_stage_notes": [
+        "Bank Panic opens after the Character Definition Editor ending on 227. Boundary observation only; no restoration or canonical assignment in this checkpoint."
+      ]
+    },
+    {
+      "pdf_page": 229,
+      "printed_page": "229",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "segment-complete",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 230,
+      "printed_page": "230",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "segment-complete",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 231,
+      "printed_page": "231",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "segment-complete",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 232,
+      "printed_page": "232",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "segment-complete",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 233,
+      "printed_page": "233",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "segment-complete",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 234,
+      "printed_page": "234",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 235,
+      "printed_page": "235",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 236,
+      "printed_page": "236",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 237,
+      "printed_page": "237",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 238,
+      "printed_page": "238",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 239,
+      "printed_page": "239",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 240,
+      "printed_page": "240",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 241,
+      "printed_page": "241",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 242,
+      "printed_page": "242",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 243,
+      "printed_page": "243",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 244,
+      "printed_page": "244",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 245,
+      "printed_page": "245",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "restoration": "unmapped",
+      "note": "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct."
+    },
+    {
+      "pdf_page": 246,
+      "printed_page": "246",
+      "classification": "article-opening-observed",
       "toc_entry_ids": [],
       "restoration": "pending",
-      "classification": "article-opening-observed",
-      "note": "Bank Panic opens after the Character Definition Editor ending on 227. Boundary observation only; no restoration or canonical assignment in this checkpoint."
+      "note": "CRUSH CIRCLES opens independently on 246 after Bank Panic ends on 245. Platform SPC-1000 and source byline observed. Boundary observation only; no canonical restoration assigned in this checkpoint."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-52",
-    "goal": "Verify full source extent and begin restoring canonical 0013 Bank Panic, opening observed on 228. Inspect ending and adjacent boundaries before mapping a complete article or at most six-page opening segment. Preserve literal listings, screens, controls, source title/byline and canonical parent 0012. Do not infer the parent classification from its child.",
+    "id": "batch-53",
+    "goal": "Restore Bank Panic canonical 0013 middle segment 234-239. Preserve the remainder of listing 1 and opening listing 2, all literal numbered lines, address/data/SUM fields, P-number groups, physical wraps and handwritten marks. Keep immutable opening 228-233. Later 240-245 and full article assembly remain; no checksum, code semantics or execution validation.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0013"
     ],
-    "mapping_targets": "Opening 228 observed. Full extent not yet established; map no more than six pages after boundary review.",
-    "provisional_lookup_targets": [
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
-      233,
+    "mapping_targets": [
       234,
       235,
       236,
       237,
       238,
-      239,
-      240,
-      241,
-      242,
-      243,
-      244,
-      245,
-      246
+      239
+    ],
+    "provisional_lookup_targets": [
+      233,
+      240
     ],
     "limits": {
       "articles": 2,
@@ -7224,7 +7540,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-one readable articles; no partial article or pending assembly. Fifteen unresolved identities, cover, full 266-page accounting and issue closeout remain. Automatic Menu III 0007 is complete on 211-215. Bank Panic 0013 opening is observed on 228; later extent remains unverified. Character Definition Editor 0006 page-206 hint remains unchanged; Small HCOPY 206-209 is distinct. Software Contest 0035 page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null."
+    "Thirty-one readable articles, one partial article and fourteen unresolved identities. Bank Panic 0013 opening 228-233 restored; full extent 228-245 established, with 234-245 and full assembly pending. Parent 0012 remains unresolved. Cover, full 266-page accounting and issue closeout remain. Software Contest 0035 page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null; no parent classification inferred from children."
   ],
   "reader_rebuild": false
 }

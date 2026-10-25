@@ -172,12 +172,10 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: thirty-one articles are readable,
-none is partial and fifteen of 46 identities remain unresolved. Automatic Menu III
-is complete on pages 211-215; all 171 files match an independent rebuild. Printed
-listings, inline examples and screen fields remain distinct. Bank Panic spans
-pages 228-245. Its first six pages have reviewed crops and completed OCR drafts;
-source correction, exports, remaining pages and assembly are pending. Cover,
-remaining articles and whole-issue accounting remain.
+one is partial and fourteen of 46 identities remain unresolved. Bank Panic opening
+pages 228-233 are restored; all 252 files match an independent rebuild. The next
+segment covers pages 234-239. Remaining pages 240-245 and complete assembly follow.
+Cover, remaining articles and whole-issue accounting remain.
 Progress logs and documentation use English; source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 
