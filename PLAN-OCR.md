@@ -24,38 +24,33 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - November 1985 remains in progress: twenty readable, assistant sample-reviewed
-  articles, no partial article or pending assembly, and 26 unresolved identities.
-  Batch 28 completes MSX Corners (2) 0045 pages 104–114 at
-  `archive/pdf/1985-11/packages/msx-corners`. All 639 files match the independent
-  rebuild, including all 630 native files. The eleven-page article retains 162
-  regions, 150 blocks and twelve figures. The private `msx-corners-literal-v1`
-  adapter at `archive/pdf/1985-11/restoration/batch-28/msx_corners_literal.py`
-  is required for reproduction and issue closeout; core tools remain unchanged.
-  The complete article retains 1,001 physical text rows and 28 logical table rows,
-  661 physical code rows, six BASIC programs with 209 logical rows and 1,533 fields,
-  and three assembly listings with 388 rows, 1,873 fields and 726 byte candidates.
-  Three keyboard tables retain 128 cells and 136 cell physical rows. Forty-two
-  annotation associations, twelve captions, three continuations and all native
-  source uncertainties remain. Ten program-explanation entries across 109–110
-  reference 130 Graphic Editor rows; source rows 1420 and 1440 have no printed
-  explanation entries and remain unmentioned. Five variable descriptions and both
-  separately reused listing 1–8 captions are linked without altering source text.
-  All 40 native array categories, eight object projections, eight reserved-list
-  projections and two scalars are retained. All 30,043 UTF-8 range occurrences,
-  31,517 evidence-pin occurrences, 162 images and 1,203 disjoint nonfigure pairs
-  validate. Six active stage deferrals are resolved; original native notes remain.
-  Eight saved boundary views were rechecked, with no new mapping, OCR or source
-  correction. The first verifier incorrectly expected an empty uncertainty list;
-  r02 verifies exact retained source uncertainties. Both attempts remain preserved.
-  All 24,119 prior files, 27 inventories and 30 core pins remain unchanged. The
-  unchanged 213-test baseline is reused, not rerun. Current preservation contains
-  25,421 issue files. Reproduce with
-  `archive/pdf/1985-11/restoration/batch-28/reproduction.json`.
-  Next batch 29 verifies the full extent of distinct VDP source-list analysis 0010,
-  opening on observed 117, before restoring a bounded complete article or segment.
-  Independent TOPIA advertisements 115–116 retain null folios. Diskette 0032 still
-  needs a location search after its TOC 72 mismatch; News parent 0020 and Back-Issue
-  Guide 0033 remain unresolved. Cover, all 266 source pages and issue closeout remain.
+  articles, one partial article awaiting further segments and assembly, and 25
+  unresolved identities. Batch 29 restores VDP source-list analysis 0010 opening
+  117–122 at `archive/pdf/1985-11/packages/batch-29-r01/vdp-a`. All 345 files match
+  an independent rebuild. Its 102 regions retain 78 blocks, 24 figures, 276 physical
+  text rows, 175 linearized diagram-label rows and 13 logical table rows. Two
+  assembly examples retain 20 rows, 79 fields, 30 byte candidates and 45 explicitly
+  absent fields. Two tables retain 52 cells and all sixteen color-code entries.
+  Sixteen diagrams retain label groups and original geometry, with 72 bit cells,
+  70 address cells, eight byte rows and 64 visual grid-cell candidates. Four status
+  leaders, six flowchart nodes, two code braces, nineteen captions, five text
+  continuations, eighteen wrapped literals and 23 source variants are indexed.
+  Printed F7/F2 differences, an unlabelled register-4 bit, status-label associations
+  and unusual memory labels remain literal. No code execution or semantic repair.
+  All 4,285 UTF-8 ranges, 4,726 evidence pins, 102 images and 536 disjoint nonfigure
+  pairs validate. All 25,421 prior files, 28 inventories and 30 core pins remain
+  unchanged. All 78 OCR drafts were read before one source pass, with no retries.
+  The original 107 crops and sixteen replacements remain preserved. The unchanged
+  213-test baseline is reused, not rerun. Current preservation contains 26,902 files.
+  Reproduce with `archive/pdf/1985-11/restoration/batch-29/reproduction.json`.
+  Boundary evidence supports VDP pages 117–151: observed 151 ends with END; 152–153
+  are independent advertisements with null folios; power I/O 0003 opens on observed
+  154. Interior 124–147 remains uninspected, with no inferred folios. Next batch 30
+  restores 123–128 and observes each folio individually. Remaining 123–151 and a
+  complete immutable VDP assembly are required. Completed MSX Corners 104–114 and
+  its batch 28 private adapter remain unchanged. Diskette 0032 still needs a
+  location search after its TOC 72 mismatch; News parent 0020 and Back-Issue Guide
+  0033 remain unresolved. Cover, all 266 source pages and issue closeout remain.
   Conversation, logs and documents use English; original source text retains its
   language. No reader rebuild. Human acceptance/full proofreading, source bytes,
   exact spacing, glyph identity, historical/technical claims and execution remain

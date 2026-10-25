@@ -171,13 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twenty articles are readable, with no
-partial article or pending assembly. MSX Corners (2), pages 104–114, is complete
-across 639 independently identical files, preserving its programs, keyboard tables,
-annotations and original scans. Next is the distinct VDP source-list analysis
-opening on page 117. Twenty-six of 46 identities still need restoration or
-classification; cover and whole-issue accounting remain. Conversation, progress
-logs and documents use English; original source text retains its language.
+November 1985 restoration is in progress: twenty articles are readable, one is
+partial, and twenty-five of 46 identities remain unresolved. The VDP analysis
+opening, pages 117–122, now has 345 independently identical package files,
+including its prose, two code examples, tables, diagram labels and original scans.
+Next is pages 123–128; the article continues through 151. Cover, remaining articles
+and whole-issue accounting still require work. Conversation, progress logs and
+documents use English; original source text retains its language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

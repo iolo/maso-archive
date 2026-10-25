@@ -312,12 +312,159 @@
       "toc_entry_id": "maso-1985-11-toc-0010",
       "title": "MSX의 모든 것 : VDP 소스 리스트 분석",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 0010 is distinct from completed MSX Corners (2) 0045. Source opening title VDP source-list analysis appears on observed 117 after a TOPIA advertisement on PDF116 with no visible folio.",
+        "Observed 117–123 contain the opening explanations; 123 starts section 2, BIOS source routines and analysis. Observed 148–151 continue the assembly listing, ending on 151 at printed row 653 END after CHGMOD. A decorative books illustration follows.",
+        "PDF152 is a Daewoo IQ1000 contest advertisement and PDF153 is a MAG LAB advertisement, each with no visible folio. Distinct canonical 0003 power I/O article starts at observed 154 and continues on observed 155.",
+        "Boundary-supported article extent is PDF117–151. Interior PDF124–147 remains uninspected; do not infer individual folios or content verification for those pages. This checkpoint maps only individually observed 117–122.",
+        "Opening diagrams, tables, captions, two assembly examples and full-page source images remain separate. Labels are transcribed from diagram crops while arrows, hatching, layout and glyphs retain original pixels. Page122 ends mid-sentence continuing on observed123. Complete article assembly remains pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-29-r01/vdp-a",
+        "article_id": "scan-maso-1985-11-toc-0010",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-29-r01/vdp-a/manifest.json",
+          "sha256": "8bfde79d13f05a599c0095044b4324f506c8acab94822e585e3f3de5988d04ac",
+          "bytes": 56829
+        },
+        "coverage": {
+          "pdf_pages": [
+            117,
+            118,
+            119,
+            120,
+            121,
+            122
+          ],
+          "printed_pages": [
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122"
+          ],
+          "boundary_supported_full_article_pdf_pages": [
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151
+          ],
+          "uninspected_interior_pdf_pages": [
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147
+          ],
+          "regions": 102,
+          "blocks": 78,
+          "figures": 24,
+          "deferred_pdf_pages": [
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151
+          ],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "source_title": "VDP 소스 리스트 분석",
+        "source_subtitle": "마이크로소프트웨어의 창간2주년을 기념하며",
+        "source_byline": null,
+        "source_byline_note": "No byline observed in opening117–122; canonical byline unchanged.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-29/validation.json",
+          "sha256": "1487d51c71670ba851bb67a2dd29df68320ff4d12ccc6e680c3c78ec75ef1d29",
+          "bytes": 2379
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-29/reproduction.json",
+          "sha256": "1ba61c47a660b4a1c40be569c9dbd0f7447b14b4edcb754c10a95f3a79872e3f",
+          "bytes": 1445
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0011",
@@ -1694,9 +1841,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 20,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 26
+    "unresolved_eligibility": 25
   },
   "checkpoints": [
     {
@@ -2853,6 +3000,57 @@
       "started_at": "2026-10-25T10:10:33.781244+00:00",
       "finished_at": "2026-10-25T10:18:35.193655+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-29",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "mapped_pdf_pages": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "outside_map_lookup_pages": [
+        116,
+        123,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 78,
+      "english_tasks": 2,
+      "source_correction_passes": 1,
+      "preflight_replacements": 16,
+      "scope_adjustment": "Boundary-supported VDP extent117–151; opening117–122 restored within six-page limit. Interior124–147 remains uninspected. Listing ends with END on observed151, independent advertisements occupy152–153 with null folios, and distinct power I/O canonical0003 starts observed154.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-29/validation.json",
+        "sha256": "1487d51c71670ba851bb67a2dd29df68320ff4d12ccc6e680c3c78ec75ef1d29",
+        "bytes": 2379
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-29/verification-completed.json",
+        "sha256": "c05a3f6d466e41f32201be91cf13a7b32f063641a86914085ef31092bd8a33ff",
+        "bytes": 1665
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-29-preserved-work.json",
+        "sha256": "be41778b5d2280541caa122dfa1d9a405caeba5385a2ccb9bc6c9d3c8fc52b60",
+        "bytes": 5996650
+      },
+      "started_at": "2026-10-25T10:22:56.038377+00:00",
+      "finished_at": "2026-10-25T10:54:04.364609+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and gaps; first saved source candidate time is filesystem-based, active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -3699,44 +3897,175 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "note": "Independent TOPIA advertisement, no visible folio; follows MSX Corners final 114 and precedes distinct VDP analysis opening 117."
+      "note": "Independent TOPIA ROM-writer advertisement, no visible folio; immediately precedes VDP analysis opening117."
     },
     {
       "pdf_page": 117,
       "printed_page": "117",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": "118",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": "119",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": "120",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": "121",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": "122",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "segment-complete",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": "123",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "unmapped",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 148,
+      "printed_page": "148",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "unmapped",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 149,
+      "printed_page": "149",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "unmapped",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 150,
+      "printed_page": "150",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "unmapped",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 151,
+      "printed_page": "151",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "restoration": "unmapped",
+      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+    },
+    {
+      "pdf_page": 152,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "note": "Independent Daewoo IQ1000 competition advertisement, no visible folio; after VDP final151 and before power I/O opening154."
+    },
+    {
+      "pdf_page": 153,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "note": "Independent MAG LAB advertisement, no visible folio; after VDP final151 and before power I/O opening154."
+    },
+    {
+      "pdf_page": 154,
+      "printed_page": "154",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
       "restoration": "pending",
-      "note": "Outside-map view: VDP source-list analysis opens with an anniversary introduction. Distinct canonical 0010; extent after 117 not yet verified."
+      "note": "Outside-map view of distinct power I/O article. Opening154 credits Steve Ciarcia; body continues155. Its final extent is not established."
+    },
+    {
+      "pdf_page": 155,
+      "printed_page": "155",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "pending",
+      "note": "Outside-map view of distinct power I/O article. Opening154 credits Steve Ciarcia; body continues155. Its final extent is not established."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-29",
-    "goal": "Verify full extent and restore canonical 0010 VDP source-list analysis, opening at observed page 117. Inspect the ending and adjacent boundaries before mapping a complete article or bounded opening segment.",
+    "id": "batch-30",
+    "goal": "Restore VDP source-list analysis0010 next segment123–128 with individually observed folios and literal diagrams/code; preserve opening117–122. Remaining129–151 and complete immutable assembly will still be required.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0010"
     ],
-    "mapping_targets": "Opening 117 observed. Later extent is unverified; next canonical start candidate 154 is only a lookup hint. Apply the six-page mapping limit and retain the distinct identity from MSX Corners 0045.",
-    "provisional_lookup_targets": [
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
+    "mapping_targets": [
       123,
-      148,
-      149,
-      150,
+      124,
+      125,
+      126,
+      127,
+      128
+    ],
+    "provisional_lookup_targets": [
+      122,
+      129,
       151,
-      152,
-      153,
-      154,
-      155
+      152
     ],
     "limits": {
       "articles": 2,
@@ -3748,7 +4077,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty readable articles, no current partial article or pending assembly. Twenty-six unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Twenty readable articles and one partial article. VDP analysis0010 opening117–122 restored; remaining123–151 and complete assembly pending. Interior124–147 not yet inspected. Twenty-five unresolved identities, cover and whole266-page accounting remain. Diskette0032 location remains unresolved after its TOC72 mismatch. News parent0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }
