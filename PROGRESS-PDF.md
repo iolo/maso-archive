@@ -6,13 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-November 1985 restoration is active: 46 canonical entries and 266 source pages.
-Eight articles through printed41 are readable/sample-reviewed. Numerical analysis(5)
-0041 has both body segments:42–47 has255 independently reproducible files and
-48–upper51 has155. Complete assembly is next;the article remains partial until
-that verification passes. Thirty-seven identities,cover and issue accounting
-are pending. Lower51's separate promotion is excluded. The unchanged213-test baseline passes;all30 core pins
-remain unchanged. English updates/documentation;original-language source text.
+November 1985 restoration is active:46 canonical entries and266 source pages.
+Nine articles are readable/sample-reviewed;no current partial article or pending
+assembly remains. Complete numerical analysis(5)0041 spans42–upper51 with419
+independently exact files,including410 preserved native files. All15,231 text-range
+occurrences and117 images pass. Thirty-seven identities,cover and issue accounting
+remain. Next verify and restore practical machine language(3)0042 from opening52.
+The unchanged213-test baseline is reused;all30 core pins remain unchanged.
+English updates/documentation;original-language source text. No reader rebuild.
 See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 

@@ -15,17 +15,19 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November1985 is in progress: eight readable/sample-reviewed articles,one partial
-article and37 unresolved identities. Numerical analysis(5)0041 spans42–upper51;
-both body segments are complete: `packages/batch-07-r01/numerical-analysis-a`
-has255 independently exact files; `packages/batch-08-r01/numerical-analysis-b`
-has155. Batch08 retains four programs,153 BASIC rows,219 FORTRAN rows,450 fields,
-17 table cells,30 output values and11 unknown band/cursor placeholders.
-All5,216 UTF-8 ranges,5,340 pins,44 images and5,129 prior files pass;the unchanged
-213-test baseline is reused. Next assemble the immutable segments in batch09,
-preserving all native corrections and resolving only active assembly deferrals.
-Lower51's promotion is excluded. Cover and whole-issue accounting remain. Use English for
-updates,logs and documentation;keep original-language restored source text.
+November1985 is in progress:nine readable/sample-reviewed articles,37 unresolved
+identities and no current partial article or pending assembly. Numerical analysis(5)
+0041 is complete42–upper51 at `packages/numerical-analysis-complete-r01`.
+All419 files independently reproduce;410 native files,all correction metadata,
+15,231 text-range occurrences,16,171 pins and117 images pass. All5,880 prior files,
+eight inventories and30 core pins remain unchanged;the213-test baseline is reused.
+The private adapter and reproduction instructions are pinned in
+`archive/pdf/1985-11/restoration/batch-09/reproduction.json`. Use that adapter when
+checking/exporting this assembly. Native stage notes remain;complete scope governs.
+Next batch10 restores practical machine language(3)0042 from verified opening52.
+Verify the extent first;52–57 is provisional and TOC58 is an unverified boundary hint.
+Cover and whole-issue accounting remain. Use English for updates,logs and
+documentation;keep original-language restored source text. No reader rebuild.
 See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 

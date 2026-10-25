@@ -23,20 +23,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 is active: eight readable/sample-reviewed articles,one partial
-  article and37 unresolved identities. Numerical analysis(5)0041 spans42–upper51;
-  both body segments are exported:42–47 has255 independently reproducible files;
-  final48–upper51 has155. The final segment retains44 regions,29 blocks,10 originals,
-  four programs,153 BASIC rows,219 FORTRAN rows,450 source fields,17 table cells,
-  three blank cells and30 output values. Source errors and11 unknown band/cursor
-  placeholders remain explicit. All44 selected crops precede34 OCR tasks;all drafts
-  read before one source pass. Preflight repairs and failed serializer/verifier
-  drafts remain;no recognition retry. All5,216 UTF-8 ranges,5,340 pins,44 images,
-  5,129 prior files and30 core pins pass. The unchanged213-test baseline is reused.
-  Next assemble the two immutable segments in batch09;no body pages remain.
-  Preserve native metadata and source uncertainties while resolving active assembly
-  deferrals. Lower51's promotion is excluded. Cover and issue accounting remain.
-  No global page offset;PDF25 issue-title has no visible folio. No reader rebuild.
+- November 1985 is active: nine readable/sample-reviewed articles and37 unresolved
+  identities;no current partial article or pending assembly. Complete numerical
+  analysis(5)0041 spans42–upper51 at `packages/numerical-analysis-complete-r01`.
+  All419 files independently reproduce,including410 exact native files. All native
+  metadata,15,231 UTF-8 range occurrences,16,171 pins and117 images pass;5,880 prior
+  files,eight inventories and30 core pins remain unchanged. The unchanged213-test
+  baseline is reused. Five active stage deferrals are resolved;source uncertainties
+  and native stage records remain. No new mapping,OCR or source correction.
+  The article retains six tables/four diagrams,four programs,153 BASIC rows,
+  219 FORTRAN rows,450 fields,98 cells,16 blank cells,30 output values and12 unknown
+  glyph/band/cursor placeholders. Lower51's promotion remains excluded.
+  Next batch10:practical machine language(3)0042,verified opening52. Inspect the
+  full extent;52–57 is provisional and TOC58 is only a Pascal-course boundary hint.
+  Cover and whole-issue accounting remain. No global page offset;PDF25 issue-title
+  has no visible folio. No reader rebuild.
   [November log](docs/progress/8511.md),
   [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,

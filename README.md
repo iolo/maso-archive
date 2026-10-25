@@ -171,10 +171,10 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November1985 restoration is in progress: eight articles through printed41 are
-independently reproducible. Numerical analysis has both body segments restored and
-awaits complete assembly;37 of46 entries still need restoration or classification.
-See [the November progress log](docs/progress/8511.md).
+November1985 restoration is in progress:nine articles are independently
+reproducible,including complete numerical analysis on42–upper51. Thirty-seven
+of46 entries still need restoration or classification;cover and issue accounting
+remain. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 

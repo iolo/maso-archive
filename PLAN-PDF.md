@@ -24,14 +24,14 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-The 46-entry,266-page November issue is in progress. Eight articles through printed41
-are readable/sample-reviewed. Numerical analysis(5)0041 has both body segments:
-42–47 has255 independently reproducible files;48–upper51 has155. It remains partial
-until the complete article is assembled. Next assemble these immutable segments in
-batch09. The other37 identities,cover and whole-issue accounting are pending.
-The lower51 back-issue promotion is excluded from the article.
+The 46-entry,266-page November issue is in progress. Nine articles are
+readable/sample-reviewed,including complete numerical analysis(5)0041 on42–upper51.
+Its419 files independently reproduce,including410 exact native files. No current
+partial article or pending assembly remains;37 identities,cover and whole-issue
+accounting are pending. Next verify the extent of practical machine language(3)
+0042 from its inspected opening52,then restore a bounded checkpoint.
 The unchanged213-test baseline passes. Updates and documentation use English;
-restored source text retains its original language.
+restored source text retains its original language. No reader rebuild.
 See [November progress](docs/progress/8511.md) and its
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 
