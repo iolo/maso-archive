@@ -20,18 +20,20 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October1985 active:35 readable/sample-reviewed articles,4 non-owning headings,
-  0 partial,0 unresolved;all39 canonical identities accounted. Batch 65 verifies
-  donated `covers/8510.jpg` and existing480×611 RGB JPEG thumbnail68,837bytes.
-  Source metadata stripped;independent private transform byte-identical. Donation
-  takes priority over PDF cover;originals/derivative unchanged. Original review,
-  thumbnail andPDF1 visually agree on85.10,masthead andstatue/cloud/keyboard artwork.
-  Three conservative lookups,zero mapping/OCR/article tasks. All73,758 prior files,
-  64 inventories,30 core pins and ten adapters exact;213-test baseline reused.
-  New inventory:73,780 files. All article/heading/source-page records unchanged.
-  Next issue-accounting-01:outside-body pages2–21,then remaining bounded accounting,
-  complete268-page ledger,index/report,independent issue rebuild,fresh213 andcloseout.
+  0 partial,0 unresolved;all39 canonical identities accounted. Issue-accounting-01
+  classifies20 full-page advertisements onPDF2–21,with20 new3000px source renders.
+  PDF3visiblefolio1;other19null,nooffset inference. Twenty outside lookups,zero
+  mapping/article tasks/OCR/source correction. Fresh metadata revisionr01 fixes
+  English page11 brand-label spacing only;original metadata andallsource pins retained.
+  All73,780 prior files/65 inventories/30 core pins/tenadapters exact;213baseline reused.
+  New inventory:73,840 files. All article/heading/cover records unchanged;
+  donated cover480×611/68,837bytes remains independently exact.
+  Article bodies cover224 distinctPDFpages;44 outsidebody. Twenty current ads and
+  verifiedcover accounted;23 outsidepages/full268-page audit remain. Next
+  issue-accounting-02 covers22–27,37,74,105,107,123,167,172–176,250,258,259;then265,267,268,
+  fullownership ledger,index/report,independent issue rebuild,fresh213 andcloseout.
   Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
-  and backup recovery remain unverified. No reader rebuild.
+  andbackup recovery remain unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

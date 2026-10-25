@@ -29,29 +29,30 @@ non-owning headings**, accounting for all39 canonical identities. No partial
 articles,unresolved eligibility or article assembly remain. Whole-issue closeout
 is still pending.
 
-Batch 65 verifies the donated cover from `covers/8510.jpg`. Its existing bounded
-thumbnail is a480×611 RGB JPEG,68,837bytes,with source metadata stripped. An
-independent private transform reproduces it byte for byte. The donation takes
-priority over the PDF cover;both originals and the prepared derivative are unchanged.
+Issue-accounting-01 classifies **PDF pages2–21 as20 full-page advertisements**.
+Each original3000px render and its review view is retained. Pages include computer,
+disk,printer,monitor,software,dealer andtraining promotions;none is added to the
+canonical article queue. PDF3 has visible folio1;the other19 pages have no visible
+folio and remain null. No global PDF-to-printed-page offset is inferred.
 
-The donated original review,selected thumbnail and saved PDF1 were individually
-inspected. All show85.10,the magazine masthead,MSX headline,statue/cloud/keyboard
-artwork and3M diskette box. The donation's original spine,border and wear remain;
-no manual crop or image repair was made. This checkpoint used one saved PDF view
-and two cover images:three conservative lookups,zero mapping/OCR/article tasks.
+Twenty distinct outside-body pages were individually inspected,with20 new renders,
+zero mapped pages,article tasks,OCR orsource correction. A typed brand-label spacing
+error in the English page11 accounting summary was corrected in fresh revisionr01;
+initial metadata remains. All classifications,folios and source-image pins are unchanged.
 
-All73,758 prior files,64 prior inventories,30 core implementation pins and ten
-private assembly adapters remain exact;the unchanged213-test baseline is reused.
-New preservation inventory:73,780 files. All35 article packages,four heading
-records,canonical identities and existing source-page observations are unchanged.
-The cover verification and reproduction records are preserved in batch65.
+All73,780 prior files,65 inventories,30 core pins and ten private assembly adapters
+remain exact;the unchanged213-test baseline is reused. New inventory:73,840 files.
+All35 selected packages,four heading records and verified donated cover remain
+unchanged. The cover is480×611 RGB JPEG/68,837bytes,independently reproduced exactly.
 
-Next is **issue-accounting-01: classify outside-body PDF pages2–21**. Remaining
-outside pages follow in bounded checkpoints,then the complete268-page ownership
-ledger,standalone index/report,independent issue rebuild,fresh213-test run and
-requirement-by-requirement closeout audit. Human acceptance/full proofreading,
-source bytes/spacing/glyph counts,claims/execution and independent backup recovery
-remain unverified. No reader was rebuilt.
+The selected article bodies cover224 distinct PDF pages;44 pages are outside them.
+This checkpoint accounts for20 of those pages,in addition to the verified cover1.
+The remaining23 outside pages andcomplete268-page ownership/exclusion audit remain.
+Next is **issue-accounting-02**, covering22–27,37,74,105,107,123,167,172–176,250,258,259.
+Then classify265,267,268 andcomplete the page ledger,before standalone index/report,
+independent issue rebuild,fresh213 tests andthe requirement-by-requirement audit.
+Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
+andindependent backup recovery remain unverified. No reader was rebuilt.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
