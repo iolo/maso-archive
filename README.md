@@ -171,13 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twenty articles are readable, one is
-partial, and twenty-five of 46 identities remain unresolved. The final VDP segment,
-pages 147–151, now has 74 independently identical package files, preserving 250
-numbered assembly rows through END. All VDP body pages 117–151 are restored in
-six segments; complete article assembly is next. Cover, remaining articles and
-whole-issue accounting remain. Progress logs and documents use English; original
-source text retains its language. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: twenty-one articles are readable and
+twenty-five of 46 identities remain unresolved. The complete VDP article,
+pages 117–151, has 1,264 independently identical package files, preserving all
+six original segments and listing ordinals 1–653. Power I/O, opening at 154,
+is next. Cover, remaining articles and whole-issue accounting remain. Progress
+logs and documents use English; original source text retains its language.
+See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 

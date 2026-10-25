@@ -314,7 +314,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical 0010 is distinct from completed MSX Corners (2) 0045. Source opening title VDP source-list analysis appears on observed 117 after a TOPIA advertisement on PDF116 with no visible folio.",
@@ -342,18 +342,49 @@
         "Full assembler listing continues from prior ordinal403 through current404–653, ending with the printed END directive. Comment-only rows, missing semicolon before a comment-column continuation and reference stars remain literal.",
         "Full originals retain closing books/disks illustration on151. Outside152 and153 are advertisements with no observed folios;154 starts Power I/O with its own title/byline and folio154. Prior source reviews and exact image pins support these reused boundary observations.",
         "No further VDP body pages deferred. Complete immutable assembly with segments117–146 is still required; final segment alone is partial.",
-        "Row509 has a semicolon in the left source column and COLOR in the right comment column. Map wording refers to absence of a second adjacent semicolon only; corrections preserve the actual semicolon and original geometry."
+        "Row509 has a semicolon in the left source column and COLOR in the right comment column. Map wording refers to absence of a second adjacent semicolon only; corrections preserve the actual semicolon and original geometry.",
+        "All thirty-five body pages 117–151 assembled from six immutable native segments; 1,264 independently identical files. Eighteen active stage deferrals resolved. Five prose/listing boundaries and twenty-four printed routine ranges linked to literal ordinals; seven headings without printed ranges remain without inferred ranges. All native metadata and source uncertainties retained; article coverage and assembly complete."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-34-r01/vdp-f",
+        "directory": "archive/pdf/1985-11/packages/vdp",
         "article_id": "scan-maso-1985-11-toc-0010",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-34-r01/vdp-f/manifest.json",
-          "sha256": "50bbb206b3a18e5841b52a23bd563b996aaead43f61ec9c2cc3479115c4e37ce",
-          "bytes": 12302
+          "path": "archive/pdf/1985-11/packages/vdp/manifest.json",
+          "sha256": "58a1fa286b58a1e69c58ea19e6cfd0b32c9cd64cc75e27be316962b56edc339a",
+          "bytes": 222814
         },
         "coverage": {
           "pdf_pages": [
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
             147,
             148,
             149,
@@ -361,137 +392,55 @@
             151
           ],
           "printed_pages": [
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
             "147",
             "148",
             "149",
             "150",
             "151"
           ],
-          "boundary_supported_full_article_pdf_pages": [
-            117,
-            118,
-            119,
-            120,
-            121,
-            122,
-            123,
-            124,
-            125,
-            126,
-            127,
-            128,
-            129,
-            130,
-            131,
-            132,
-            133,
-            134,
-            135,
-            136,
-            137,
-            138,
-            139,
-            140,
-            141,
-            142,
-            143,
-            144,
-            145,
-            146,
-            147,
-            148,
-            149,
-            150,
-            151
-          ],
-          "full_article_pdf_pages": [
-            117,
-            118,
-            119,
-            120,
-            121,
-            122,
-            123,
-            124,
-            125,
-            126,
-            127,
-            128,
-            129,
-            130,
-            131,
-            132,
-            133,
-            134,
-            135,
-            136,
-            137,
-            138,
-            139,
-            140,
-            141,
-            142,
-            143,
-            144,
-            145,
-            146,
-            147,
-            148,
-            149,
-            150,
-            151
-          ],
-          "all_segment_pdf_pages": [
-            117,
-            118,
-            119,
-            120,
-            121,
-            122,
-            123,
-            124,
-            125,
-            126,
-            127,
-            128,
-            129,
-            130,
-            131,
-            132,
-            133,
-            134,
-            135,
-            136,
-            137,
-            138,
-            139,
-            140,
-            141,
-            142,
-            143,
-            144,
-            145,
-            146,
-            147,
-            148,
-            149,
-            150,
-            151
-          ],
-          "uninspected_interior_pdf_pages": [],
-          "regions": 20,
-          "blocks": 15,
-          "figures": 5,
+          "regions": 355,
+          "blocks": 282,
+          "figures": 73,
           "deferred_pdf_pages": [],
           "excluded_region_ids": []
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "source_title": "VDP 소스 리스트 분석",
         "source_subtitle": "마이크로소프트웨어의 창간2주년을 기념하며",
         "source_byline": null,
-        "source_byline_note": "No byline observed in current segments117–151; canonical byline unchanged.",
+        "source_byline_note": "No printed byline observed across the six segments; canonical attribution remains unchanged.",
         "segments": [
           {
             "name": "a",
@@ -595,15 +544,21 @@
             ]
           }
         ],
+        "assembly_format": "vdp-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-11/restoration/batch-35/vdp_literal.py",
+          "sha256": "206f1bd5140a5182b6e43292a2d6ff6b61820e5b1db8a8e708b8f4dee9527e98",
+          "bytes": 17599
+        },
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-34/validation.json",
-          "sha256": "da822516ee1d8477f86472098a6549857a3223d915373ecc09d61190f756676a",
-          "bytes": 2280
+          "path": "archive/pdf/1985-11/restoration/batch-35/validation.json",
+          "sha256": "f5be0ff8624a76f570f6e19b226b1195026d413ea60fb2c01d3d3126b6590acc",
+          "bytes": 4276
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-34/reproduction.json",
-          "sha256": "958dfff79d9c79f4e8d2da3009ec9549eb00cfc9a46ff26d76ed6d902deca42c",
-          "bytes": 1465
+          "path": "archive/pdf/1985-11/restoration/batch-35/reproduction.json",
+          "sha256": "742672b94f2c03212f43e34ca05aacee47d41d0369d281f7563193cbfc5a787a",
+          "bytes": 2877
         }
       }
     },
@@ -1981,8 +1936,8 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 20,
-    "partial": 1,
+    "readable": 21,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 25
   },
@@ -3416,6 +3371,55 @@
       "started_at": "2026-10-25T12:43:17.122620+00:00",
       "finished_at": "2026-10-25T12:59:58.284640+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-35",
+      "status": "complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0010"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        116,
+        117,
+        122,
+        123,
+        128,
+        129,
+        134,
+        135,
+        140,
+        141,
+        146,
+        147,
+        151,
+        152,
+        153,
+        154
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_crop_repair": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-35/validation.json",
+        "sha256": "f5be0ff8624a76f570f6e19b226b1195026d413ea60fb2c01d3d3126b6590acc",
+        "bytes": 4276
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-35/verification-completed.json",
+        "sha256": "25f500e90aa4b439206fad33f05cf36517e9f1854f6f01094ddb2ac06654d84f",
+        "bytes": 1551
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-35-preserved-work.json",
+        "sha256": "7371517836e6a1ccf2517f4c35bd9436f733a9027295630657150cc9fcb79697",
+        "bytes": 7402263
+      },
+      "started_at": "2026-10-25T13:04:25.610263+00:00",
+      "finished_at": "2026-10-25T13:20:01.395072+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -4271,8 +4275,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
     },
     {
       "pdf_page": 118,
@@ -4281,8 +4286,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
     },
     {
       "pdf_page": 119,
@@ -4291,8 +4297,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
     },
     {
       "pdf_page": 120,
@@ -4301,8 +4308,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
     },
     {
       "pdf_page": 121,
@@ -4311,8 +4319,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
     },
     {
       "pdf_page": 122,
@@ -4321,8 +4330,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis, canonical0010. Boundary-supported extent117–151; this page individually observed. Opening117–122 selected; remaining pages and immutable assembly pending."
     },
     {
       "pdf_page": 123,
@@ -4331,8 +4341,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
     },
     {
       "pdf_page": 124,
@@ -4341,8 +4352,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
     },
     {
       "pdf_page": 125,
@@ -4351,8 +4363,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
     },
     {
       "pdf_page": 126,
@@ -4361,8 +4374,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
     },
     {
       "pdf_page": 127,
@@ -4371,8 +4385,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
     },
     {
       "pdf_page": 128,
@@ -4381,8 +4396,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–128 now selected; remaining129–151 and immutable assembly pending."
     },
     {
       "pdf_page": 129,
@@ -4391,8 +4407,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 130,
@@ -4401,8 +4418,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 131,
@@ -4411,8 +4429,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 132,
@@ -4421,8 +4440,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 133,
@@ -4431,8 +4451,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 134,
@@ -4441,8 +4462,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–134 now selected; remaining135–151 and immutable assembly pending."
     },
     {
       "pdf_page": 135,
@@ -4451,8 +4473,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
     },
     {
       "pdf_page": 136,
@@ -4461,8 +4484,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
     },
     {
       "pdf_page": 137,
@@ -4471,8 +4495,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
     },
     {
       "pdf_page": 138,
@@ -4481,8 +4506,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
     },
     {
       "pdf_page": 139,
@@ -4491,8 +4517,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
     },
     {
       "pdf_page": 140,
@@ -4501,8 +4528,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–140 now selected; remaining141–151 and immutable assembly pending."
     },
     {
       "pdf_page": 141,
@@ -4511,8 +4539,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
     },
     {
       "pdf_page": 142,
@@ -4521,8 +4550,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
     },
     {
       "pdf_page": 143,
@@ -4531,8 +4561,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
     },
     {
       "pdf_page": 144,
@@ -4541,8 +4572,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
     },
     {
       "pdf_page": 145,
@@ -4551,8 +4583,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
     },
     {
       "pdf_page": 146,
@@ -4561,8 +4594,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. Segments117–146 now selected; remaining147–151 and immutable assembly pending."
     },
     {
       "pdf_page": 147,
@@ -4571,8 +4605,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
     },
     {
       "pdf_page": 148,
@@ -4581,8 +4616,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
     },
     {
       "pdf_page": 149,
@@ -4591,8 +4627,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
     },
     {
       "pdf_page": 150,
@@ -4601,8 +4638,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
     },
     {
       "pdf_page": 151,
@@ -4611,8 +4649,9 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0010"
       ],
-      "restoration": "segment-complete",
-      "note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
+      "restoration": "complete-article-assembled",
+      "note": "VDP source-list analysis 0010; folio individually observed. Complete article 117–151 is assembled from six immutable segments and independently verified in batch 35. Prior stage notes are retained as history.",
+      "prior_stage_note": "VDP source-list analysis0010; folio individually observed. All body pages117–151 now selected in six segments; immutable assembly pending."
     },
     {
       "pdf_page": 152,
@@ -4653,29 +4692,33 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-35",
-    "goal": "Assemble complete VDP source-list analysis0010 pages117–151 from six immutable native segments, retaining all prose, examples, diagrams, tables, source uncertainties and full-listing ordinals1–653 with literal fields and comments.",
+    "id": "batch-36",
+    "goal": "Verify the full extent and restore canonical 0003 Power I/O, opening on observed page 154. Inspect ending and adjacent boundaries before mapping a complete article or bounded opening segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0010"
+      "maso-1985-11-toc-0003"
     ],
-    "mapping_targets": "No new mapping or OCR. Verify all six segment boundaries, article boundaries and projected text/metadata ranges. Preserve all native files; index literal prose/listing reference associations without semantic correction.",
+    "mapping_targets": "Opening 154 observed. Later extent is unverified. Preserve parent 0002 and title/order; do not infer non-owning classification from child restoration. Apply the six-page mapping limit. The next canonical start candidate 170 is a lookup hint only, not an inferred endpoint.",
     "provisional_lookup_targets": [
-      116,
-      117,
-      122,
-      123,
-      128,
-      129,
-      134,
-      135,
-      140,
-      141,
-      146,
-      147,
-      151,
-      152,
       153,
-      154
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
     ],
     "limits": {
       "articles": 2,
@@ -4687,7 +4730,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty readable articles and one partial article. All VDP analysis0010 body pages117–151 restored in six immutable segments; complete assembly pending. Twenty-five unresolved identities,cover and whole266-page accounting remain. Diskette0032 location remains unresolved after its TOC72 mismatch. News parent0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Twenty-one readable articles, no current partial article or pending assembly. Twenty-five unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }
