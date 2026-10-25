@@ -2386,12 +2386,24 @@
       "toc_entry_id": "maso-1985-10-toc-0021",
       "title": "독자와 함께",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original donated contents8510-02 shows 독자와 함께 as a heading over13 separately paginated children:편집자노트26,애독자광장27,입력이힘드십니까29,QA32,디버깅룸36,과월호디스켓175,소프트웨어공모203,정보레이다204,원고모집227,공모총평231,복덕방258,편집후기264,광고색인264. No independent parent article is listed.",
+        "All13 children have complete independently validated packages:26 child page assignments cover25 unique PDF pages. Their extents and original source panels are pinned below;nonconsecutive TOC grouping does not claim the intervening issue pages.",
+        "Saved27 is issue-title page;28 opens complete editor note;29 independently opens reader letters;31 opens input guide;34 opens QA;38 opens debugging room;39 ends debugging above independent book advertisement. Previous child extent evidence pins the un-repeated ending and adjacency views.",
+        "Saved177 and205 are independently titled disk and contest notices;206 opens news;209 ends news onleft with a separate manuscript notice onright. The right209 notice remains outside selected news and is not newly adopted by parent0021 or substituted for canonical0030 selected229right.",
+        "Saved229right is canonical manuscript solicitation beside the independent Magic Window ending onleft.233lower is canonical contest review beside dBASEII ending above.260 begins classifieds,264 ends its selected body above excluded advertisement.266upper editorial and lower-right advertising index are separate children;lower-left colophon stays outside both.",
+        "No independent reader-parent body/divider appears in reviewed contents and child boundaries. Complete child extents,canonical order and parent links remain unchanged;all banners/photos/notices and preserved source gaps stay in existing child packages. Do not create a duplicate parent body or assign intervening material."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-10/restoration/batch-64/parent-heading-decisions.json",
+        "sha256": "f389d97ecc6555a843004e1c85c3305db88f4a82ae17e1327b4a610b051d9359",
+        "bytes": 80975
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0022",
@@ -3372,12 +3384,23 @@
       "toc_entry_id": "maso-1985-10-toc-0036",
       "title": "비즈니스",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original donated contents8510-02 prints 비지니스 over two separately paginated children:한글소트/김종순208 and 매직윈도우/박강수214. Source spelling remains independent of canonical 비즈니스;no catalog normalization is authorized.",
+        "Both children have complete independently validated packages covering20 distinct PDF pages:한글소트210–215 and매직윈도우216–229left. Parent does not own these bodies a second time.",
+        "Saved209 ends independent news beside a separate notice.210 independently opens 한글소트 by김종순;215 ends its listing2030PRINT:RETURN above office artwork.216 independently opens 매직윈도우Ⅱ by박강수 and its article outline;no standalone business divider between these children.",
+        "Saved229left concludes Magic Window with4.마침말 andglossary;229right is the independent manuscript solicitation owned by reader child0030. Pinned complete-extent evidence establishes next230dBASEII opening. The source229folio remains null and all original native-stage uncertainty/supersession records remain unchanged.",
+        "No independent business-parent body/divider occurs in reviewed contents and child boundaries. Canonical titles,bylines,order,parent links and complete child packages remain unchanged. No intervening or shared-page material is assigned to this parent."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-10/restoration/batch-64/parent-heading-decisions.json",
+        "sha256": "f389d97ecc6555a843004e1c85c3305db88f4a82ae17e1327b4a610b051d9359",
+        "bytes": 80975
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0037",
@@ -3725,8 +3748,8 @@
     "canonical_entries": 39,
     "readable": 35,
     "partial": 0,
-    "non_owning_headings": 2,
-    "unresolved_eligibility": 2
+    "non_owning_headings": 4,
+    "unresolved_eligibility": 0
   },
   "checkpoints": [
     {
@@ -6845,6 +6868,67 @@
       },
       "started_at": "2026-10-25T00:22:05.383242+00:00",
       "finished_at": "2026-10-25T00:25:57.066662+00:00",
+      "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "not-applicable",
+      "assembly_required": false
+    },
+    {
+      "id": "batch-64",
+      "status": "complete",
+      "stage": "validated-parent-classification",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0021",
+        "maso-1985-10-toc-0036"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        27,
+        28,
+        29,
+        31,
+        34,
+        38,
+        39,
+        177,
+        205,
+        206,
+        209,
+        210,
+        215,
+        216,
+        229,
+        233,
+        260,
+        264,
+        266
+      ],
+      "other_source_lookup_images": [
+        "tocs/8510-02.jpg"
+      ],
+      "conservative_outside_lookup_count": 20,
+      "canonical_tasks": 2,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-64/validation.json",
+        "sha256": "54cdbd16d0269e5c9fe16f93e9138c85591e090459414411fbce52ef5b475ac8",
+        "bytes": 1920
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-64/verification-completed.json",
+        "sha256": "ad1f6f25949ce4e76ac3155a8bffef3c41f052c1beb339c7dc6f18cbb70015a3",
+        "bytes": 1211
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-64-preserved-work.json",
+        "sha256": "881a2a13a74d5a1672cfdfd7719ec23e555f5e4d0bd76977c3f0db958c8cb918",
+        "bytes": 17088729
+      },
+      "started_at": "2026-10-25T00:29:29.426420+00:00",
+      "finished_at": "2026-10-25T00:31:37.108497+00:00",
       "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
       "article_availability": "not-applicable",
       "assembly_required": false
@@ -10002,36 +10086,16 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-64",
-    "goal": "Classify remaining canonical parents0021 독자와 함께 and0036 비즈니스 using source contents and child boundaries.",
-    "toc_entry_ids": [
-      "maso-1985-10-toc-0021",
-      "maso-1985-10-toc-0036"
-    ],
-    "mapping_targets": "Accounting only:reuse original TOC8510-02 and saved child openings/endings. Verify13 reader-section and2 business children,shared229/266 ownership and absence of independent parent body. Preserve all child packages and canonical order. Do not infer non-ownership solely from pageless TOC. At most20 conservative outside lookups including original TOC image;no new OCR/extraction.",
+    "id": "batch-65",
+    "goal": "Verify October1985 donated cover selection and bounded thumbnail against original and PDF cover;independently reproduce derivative.",
+    "toc_entry_ids": [],
+    "mapping_targets": "Cover-only checkpoint. Inspect donated cover,existing selected derivative and saved PDF1 cover;preserve all originals and prepared derivatives. Use private fresh independent rebuild;no reader integration.",
     "provisional_lookup_targets": [
-      27,
-      28,
-      29,
-      31,
-      34,
-      38,
-      39,
-      177,
-      205,
-      206,
-      209,
-      210,
-      215,
-      216,
-      229,
-      233,
-      260,
-      264,
-      266
+      1
     ],
     "other_source_lookup_images": [
-      "tocs/8510-02.jpg"
+      "covers/8510.jpg",
+      "selected existing cover thumbnail"
     ],
     "limits": {
       "articles": 2,
@@ -10043,7 +10107,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "35 readable/sample-reviewed articles,2 non-owning headings,0 partial,2 unresolved parents. TIPS0006 and graphics0017 are source-backed organizational groups;their10 children and59 distinct body pages unchanged. No parent-owned body or duplicate package. Unlisted HGR172–176 remains outside canonical queue despite common graphics banner. Next parents0021/0036;cover,268-page accounting,index/report,independent issue rebuild and closeout pending. Retain ten private assembly adapters/all attempts. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
+    "All39 canonical identities accounted:35 readable/sample-reviewed articles,4 non-owning headings,0 partial,0 unresolved parents. Reader0021 and business0036 are source-backed organizational groups;their15 children remain unchanged. Source 비지니스/canonical 비즈니스 preserved. Shared229/233/266 child bodies disjoint;colophon and unlisted notice209 outside selected packages. Cover,268-page accounting,index/report,independent issue rebuild and closeout pending. Retain ten private assembly adapters/all attempts. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }

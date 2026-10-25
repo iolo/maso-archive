@@ -24,35 +24,35 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1985 active, 2026-10-25
 
-October 1985 restoration continues under step 12: **35 readable/sample-reviewed
-articles, two non-owning headings, zero partial articles and two unresolved parents**,
-accounting for all 39 canonical identities.
+October 1985 restoration has **35 readable/sample-reviewed articles and four
+non-owning headings**, accounting for all39 canonical identities. No partial
+articles,unresolved eligibility or article assembly remain. Whole-issue closeout
+is still pending.
 
-Batch 63 classifies **TIPS0006 and 컴퓨터 그래픽0017** as organizational headings
-with no separate article body. Source contents, child openings/endings and prior
-complete extent evidence support the decisions. All seven TIPS children and three
-graphics children retain their canonical identities, order, parents and packages.
-Their 62 page assignments cover 59 distinct PDF pages. All 37 pairs of text regions
-on the three shared TIPS pages are disjoint. Parent-related printed banners remain
-in the children's original images; no duplicate parent package was created.
+Batch 64 classifies **독자와 함께0021 and 비즈니스0036** as organizational headings
+without separate bodies. Source contents,independent child openings/endings and
+complete extent evidence support the decisions. Their13 reader-section and2
+business children retain all original packages,canonical titles,order and parents.
+The15 children have46 page assignments across44 distinct PDF pages. Source TOC
+비지니스 remains independent of canonical 비즈니스;no catalog edit was made.
 
-The source banner 그래픽의 세계 does not change the canonical parent title.
-Unlisted HGR 텍스트 프린트 on PDF172–176 remains outside the canonical queue;
-its shared banner does not establish a new child. Canonical graphics order remains
-0018,0019,0020 despite physical page order168,178,194.
+All66 text-region pairs on shared229,233 and266 are disjoint. This includes
+reader/business children on229,the dBASEII ending above contest review on233,
+and editorial above advertising index on266. Lower-left266colophon and right209
+unlisted manuscript notice remain outside selected bodies;no parent adopts them.
+All earlier article source uncertainties and native-stage supersessions remain.
 
-Eighteen saved PDF views and two original donated TOC images were inspected:
-20 conservative outside lookups, two canonical tasks, zero mapping or OCR.
-Six malformed classification cases reject. All 73,641 prior files,62 prior
-inventories and30 implementation pins remain exact;the unchanged213-test baseline
-is reused. New preservation inventory:73,699 files. All ten private assembly
-adapters remain pinned and all source-page observations are unchanged.
+Nineteen saved PDF views and one donated TOC image were inspected:20 conservative
+outside lookups,two canonical tasks,zero mapping/OCR/source correction. Six malformed
+classification cases reject. All73,699 prior files,63 inventories and30 core pins
+remain exact;the unchanged213-test baseline is reused. New inventory:73,758 files.
+All ten private assembly adapters and all source-page observations are unchanged.
 
-Next is **batch 64: classify 독자와 함께0021 and 비즈니스0036** using source
-contents and child boundaries, preserving their13 and2 children. Cover selection,
-268-page accounting,standalone index/report,independent issue rebuild and closeout
-remain. Human acceptance/full proofreading,source bytes/spacing/glyph counts,
-historical/technical claims and execution remain unverified. No reader was rebuilt.
+Next is **batch 65: verify the donated cover and independently reproduce its bounded
+thumbnail**. Then complete268-page accounting,standalone index/report,independent
+issue rebuild and the requirement-by-requirement closeout audit. Human acceptance/
+full proofreading,source bytes/spacing/glyph counts,historical/technical claims and
+execution remain unverified. No reader was rebuilt.
 
 Details: [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

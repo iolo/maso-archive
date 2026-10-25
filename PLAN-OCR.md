@@ -19,17 +19,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:35 readable/sample-reviewed,2 non-owning headings,0 partial,
-  2 unresolved parents. Batch 63 classifies TIPS0006 and graphics0017 from source
-  contents and child boundaries. All10 children/62 page assignments/59 distinct pages
-  remain unchanged;37 shared-page text pairs are disjoint. No new article package.
-  Unlisted HGR172–176 remains outside canonical queue despite common source banner.
-  Eighteen saved PDF views plus two original TOC images:20 conservative outside
-  lookups,two tasks,zero mapping/OCR. Six malformed cases reject. All73,641 prior
-  files/62 inventories/30 core pins unchanged;213-test baseline reused.
-  New inventory:73,699 files. Preserve all ten private assembly adapters.
-  Next batch 64:classify 독자와 함께0021 and 비즈니스0036, preserving13+2 children.
-  Cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
+- October1985 active:35 readable/sample-reviewed articles,4 non-owning headings,
+  0 partial,0 unresolved;all39 canonical identities accounted. Batch 64 classifies
+  reader0021 and business0036 using contents and complete child boundaries. All15
+  children/46 page assignments/44 distinct pages remain unchanged. Source 비지니스
+  and canonical 비즈니스 preserved. All66 text-region pairs on229/233/266 disjoint;
+  unlisted209notice and266colophon remain outside selected bodies. No parent package.
+  Nineteen saved PDF views plus one original TOC scan:20 conservative lookups,two
+  tasks,zero mapping/OCR/source correction. Six malformed cases reject. All73,699
+  prior files/63 inventories/30 core pins exact;213-test baseline reused. New inventory:
+  73,758 files. All ten private assembly adapters remain pinned.
+  Next batch 65:verify donated cover and independently reproduce bounded thumbnail.
+  Then268-page accounting,index/report,independent issue rebuild and closeout.
   Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
   unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
