@@ -8,10 +8,10 @@ by the calendar month in which restoration work happened.
 
 November 1985 restoration is active: 46 canonical entries and 266 source pages.
 Eight articles through printed41 are readable/sample-reviewed. Numerical analysis(5)
-0041 is partial:its42–47 opening has255 independently reproducible files;48–upper51
-and complete assembly remain. Thirty-seven identities,cover and issue accounting
-are pending. Next restore the final segment from saved batch07 views,excluding
-lower51's separate promotion. The unchanged213-test baseline passes;all30 core pins
+0041 has both body segments:42–47 has255 independently reproducible files and
+48–upper51 has155. Complete assembly is next;the article remains partial until
+that verification passes. Thirty-seven identities,cover and issue accounting
+are pending. Lower51's separate promotion is excluded. The unchanged213-test baseline passes;all30 core pins
 remain unchanged. English updates/documentation;original-language source text.
 See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).

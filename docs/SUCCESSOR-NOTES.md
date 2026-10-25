@@ -17,12 +17,14 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 November1985 is in progress: eight readable/sample-reviewed articles,one partial
 article and37 unresolved identities. Numerical analysis(5)0041 spans42–upper51;
-its first segment42–47 is at `packages/batch-07-r01/numerical-analysis-a`,255 files
-independently exact. Next restore48–upper51 from saved batch07 views,including
-BASIC/FORTRAN listings,outputs,table6 and closing thanks;exclude the lower51
-back-issue promotion. Assemble immutable segments in a later checkpoint.
-All2,389 UTF-8 ranges,81 table cells and4,030 prior files pass;the unchanged213-test
-baseline is reused. Cover and whole-issue accounting remain. Use English for
+both body segments are complete: `packages/batch-07-r01/numerical-analysis-a`
+has255 independently exact files; `packages/batch-08-r01/numerical-analysis-b`
+has155. Batch08 retains four programs,153 BASIC rows,219 FORTRAN rows,450 fields,
+17 table cells,30 output values and11 unknown band/cursor placeholders.
+All5,216 UTF-8 ranges,5,340 pins,44 images and5,129 prior files pass;the unchanged
+213-test baseline is reused. Next assemble the immutable segments in batch09,
+preserving all native corrections and resolving only active assembly deferrals.
+Lower51's promotion is excluded. Cover and whole-issue accounting remain. Use English for
 updates,logs and documentation;keep original-language restored source text.
 See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).

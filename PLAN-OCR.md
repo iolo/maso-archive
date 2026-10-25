@@ -25,17 +25,17 @@ paired OCR or a new engine comparison.
 
 - November 1985 is active: eight readable/sample-reviewed articles,one partial
   article and37 unresolved identities. Numerical analysis(5)0041 spans42–upper51;
-  first segment42–47 is exported in255 independently reproducible files. It retains
-  73 regions,58 blocks,15 originals,342 reading rows,97 math-bearing rows,81 table
-  cells,13 blank cells,eight table4 formulas and11 source continuations. One unclear
-  equality glyph and source math discrepancies remain explicit;no math repair.
-  All73 exact crops precede58 OCR tasks;all raws read before one source pass.
-  Initial map-ID validation failure and eight preflight margin repairs are retained;
-  no recognition retry. All2,389 UTF-8 ranges,2,590 pins,73 images,4,030 prior files
-  and30 core pins pass. The unchanged213-test baseline is reused.
-  Next restore48–upper51 from saved batch07 views,including table6,BASIC/FORTRAN
-  programs and outputs,then assemble immutable segments separately. Lower51's
-  back-issue promotion is excluded. Cover and whole-issue accounting remain.
+  both body segments are exported:42–47 has255 independently reproducible files;
+  final48–upper51 has155. The final segment retains44 regions,29 blocks,10 originals,
+  four programs,153 BASIC rows,219 FORTRAN rows,450 source fields,17 table cells,
+  three blank cells and30 output values. Source errors and11 unknown band/cursor
+  placeholders remain explicit. All44 selected crops precede34 OCR tasks;all drafts
+  read before one source pass. Preflight repairs and failed serializer/verifier
+  drafts remain;no recognition retry. All5,216 UTF-8 ranges,5,340 pins,44 images,
+  5,129 prior files and30 core pins pass. The unchanged213-test baseline is reused.
+  Next assemble the two immutable segments in batch09;no body pages remain.
+  Preserve native metadata and source uncertainties while resolving active assembly
+  deferrals. Lower51's promotion is excluded. Cover and issue accounting remain.
   No global page offset;PDF25 issue-title has no visible folio. No reader rebuild.
   [November log](docs/progress/8511.md),
   [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
