@@ -24,10 +24,10 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-The 46-entry, 266-page November issue is in progress. Editor's note0027 on26
-and readers' forum0028 on27–28 are readable/sample-reviewed. Their33/82 files
-independently reproduce;213 PDF tests pass. Next verify 입력이 힘드십니까?
-from its known printed29/PDF29 opening. Forty-four identities, cover selection and whole-issue
+The 46-entry,266-page November issue is in progress. Editor0027/26,readers0028/27–28
+and input-guide0029/29–32 are readable/sample-reviewed. Their33/82/173 files
+independently reproduce;the unchanged213-test baseline passes. Next verify QA
+from its known printed33/PDF33 opening. Forty-three identities,cover selection and whole-issue
 accounting remain. See [November progress](docs/progress/8511.md) and its
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 

@@ -15,11 +15,11 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 is in progress. Editor's note0027 on printed/PDF26 and readers'
-forum0028 on27–28 are readable/sample-reviewed;their33/82 files independently
-reproduce and213 PDF tests pass. Next verify canonical0029 입력이 힘드십니까?
-from its known printed29/PDF29 opening, then inspect continuation/ending before
-mapping. Reuse the saved opening view inbatch01. Forty-four identities, cover selection and
+November1985 is in progress. Editor0027/26,readers0028/27–28,input-guide0029/29–32
+are readable/sample-reviewed;their33/82/173 files independently reproduce.
+The213-test baseline passes with unchanged implementation pins. Next verify
+canonical0030 QA from printed33/PDF33,then inspect continuation/ending before
+mapping. Reuse the saved opening view inbatch03. Forty-three identities,cover selection and
 whole-issue accounting remain. See [November log](progress/8511.md) and
 [ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
 

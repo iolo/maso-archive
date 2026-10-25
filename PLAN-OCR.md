@@ -19,15 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 is active. Canonical0027 editor's note26 and0028 readers'
-  forum27–28 are readable/sample-reviewed. Their33/82 files independently exact.
-  Latest forum package retains20 regions,ten blocks,two originals,203 physical
-  rows,four separately signed letters,one response and eight continuations.
-  All1,220 UTF-8 ranges,1,279 pins,20 images,153 prior issue files and30 core pins
+- November 1985 is active. Editor0027/26,readers0028/27–28,input-guide0029/29–32
+  are readable/sample-reviewed;their33/82/173 files independently exact.
+  Latest guide retains47 regions,35 blocks,eight originals,seven code groups,
+  18 assembly rows,86 dump data rows/three totals,68 BASIC labels/75 physical rows,
+  four command-table rows/12 cells and11 explicit unknown decorative bands.
+  All4,547 UTF-8 ranges,4,724 pins,47 images,479 prior issue files and30 core pins
   validate. Unchanged213-test baseline reused;batch01 also verified92,024 October files.
-  Two of46 identities restored;44 identities,cover and issue accounting remain.
-  Next verify canonical0029 입력이 힘드십니까? from printed29/PDF29;inspect
-  subsequent pages and QA boundary before mapping. Opening view retained inbatch01.
+  Three of46 identities restored;43 identities,cover and issue accounting remain.
+  Next verify canonical0030 QA from printed33/PDF33;inspect subsequent pages and
+  debugging-room boundary before mapping. Opening view retained inbatch03.
   No global page offset;
   PDF25 issue-title has no visible folio. No reader rebuild.
   [November log](docs/progress/8511.md),

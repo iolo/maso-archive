@@ -407,12 +407,55 @@
       "toc_entry_id": "maso-1985-11-toc-0029",
       "title": "입력이 힘드십니까?",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0029 begins printed29/PDF29 after complete readers forum28,ends with BASIC listing and uncaptioned cartoon on32;followingPDF33 visibly numbered33 opens separateQA.",
+        "All four source pages29–32 visibly carry their own matching folios;no global offset inferred. No mixed-page advertising.",
+        "Opening machine introduction crosses left→right29 at リ/スト in Korean 리/스트;Apple dump30→31 includes P:01/P:02/P:03 and separate checksum totals;SPC dump31 left-bottom continues right-top.",
+        "MSX command table31 precedes BASIC listing32 left→right,labels5000–5670. Literal labels,bytes,columns,blank fields,strings and physical wraps require direct review;no execution or checksum verification.",
+        "Mapping description transliteration note is retained in corrections;actual source word is Korean 리스트."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-03-r01/input-guide",
+        "article_id": "scan-maso-1985-11-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-03-r01/input-guide/manifest.json",
+          "sha256": "7453ba035294d2e68ac5e519ebdbbee6641057113f4d02c8668e7fd26c173529",
+          "bytes": 28568
+        },
+        "coverage": {
+          "pdf_pages": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "printed_pages": [
+            "29",
+            "30",
+            "31",
+            "32"
+          ],
+          "regions": 47,
+          "blocks": 35,
+          "figures": 8,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-03/validation.json",
+          "sha256": "f30a696564a7635cdaa1095323849a65a036b255da86103a1c41265899b8ffe0",
+          "bytes": 1287
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-03/reproduction.json",
+          "sha256": "c8fc69192b1051ef5dcc8d31df10b9b9d402bd97e3c0830633e3802287e76d99",
+          "bytes": 1283
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0030",
@@ -604,10 +647,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 2,
+    "readable": 3,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 44
+    "unresolved_eligibility": 43
   },
   "checkpoints": [
     {
@@ -683,6 +726,45 @@
       "started_at": "2026-10-25T02:22:42.891381+00:00",
       "finished_at": "2026-10-25T02:30:49.334100+00:00",
       "timing_scope": "Prospective wall-clock stage timestamps include tool waits/gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-03",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0029"
+      ],
+      "mapped_pdf_pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "outside_map_lookup_pages": [
+        28,
+        33
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 39,
+      "english_tasks": 10,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-03/validation.json",
+        "sha256": "f30a696564a7635cdaa1095323849a65a036b255da86103a1c41265899b8ffe0",
+        "bytes": 1287
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-03/verification-completed.json",
+        "sha256": "06b20e319dcbfaae44d7d552c27d4d955cc004f019cdf14c419a2d22a7691890",
+        "bytes": 827
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-03-preserved-work.json",
+        "sha256": "0274b1198e9d04024643bc2a308929d9fd5902d8ba4134d7aa35f7ec035261dc",
+        "bytes": 252859
+      },
+      "started_at": "2026-10-25T02:32:01.984166+00:00",
+      "finished_at": "2026-10-25T02:42:56.860583+00:00",
+      "timing_scope": "Prospective wall-clock stage timestamps include tool waits/gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -723,29 +805,60 @@
     },
     {
       "pdf_page": 29,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0029"
       ],
-      "printed_page": "29",
+      "printed_page": "29"
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": "30",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0029"
+      ]
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": "31",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0029"
+      ]
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": "32",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0029"
+      ]
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": "33",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0030"
+      ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-03",
-    "goal": "Verify 입력이 힘드십니까? extent from printed29/PDF29 and restore complete bounded article or first segment.",
+    "id": "batch-04",
+    "goal": "Verify QA extent from printed33/PDF33 and restore complete bounded article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0029"
+      "maso-1985-11-toc-0030"
     ],
-    "mapping_targets": "Opening PDF29 verified. Inspect subsequent pages and QA boundary; do not infer a global offset or complete extent from TOC alone.",
+    "mapping_targets": "PDF33 opening verified;inspect subsequent pages and debugging-room boundary. Do not infer an ending from TOC alone.",
     "provisional_lookup_targets": [
-      28,
-      29,
-      30,
-      31,
       32,
-      33
+      33,
+      34,
+      35,
+      36
     ],
     "limits": {
       "articles": 2,
@@ -757,7 +870,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining44 identities,cover and whole-source-page accounting require restoration/review; no global page offset inferred."
+    "Remaining43 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
   ],
   "reader_rebuild": false
 }
