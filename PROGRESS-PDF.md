@@ -7,47 +7,34 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1985 restoration continues under step 12: **35 readable/sample-reviewed
-entries, zero partial articles and four unresolved parent identities**, accounting
-for all39 canonical identities. Earlier packages and parent relationships are unchanged.
+articles, two non-owning headings, zero partial articles and two unresolved parents**,
+accounting for all 39 canonical identities.
 
-Batch 62 completes **원고모집0030**, the right-hand framed notice on PDF229,
-at `archive/pdf/1985-10/packages/recruitment`. All21 files match an independent
-rebuild. Four regions retain three text blocks and one complete original panel,
-including the diagonal pencil title,16 body rows and publisher imprint. No notice
-body pages or assembly remain pending. Page229 has no visible folio;canonical
-TOC reference227 is unchanged. Left-hand Magic Window0038 remains unchanged.
+Batch 63 classifies **TIPS0006 and 컴퓨터 그래픽0017** as organizational headings
+with no separate article body. Source contents, child openings/endings and prior
+complete extent evidence support the decisions. All seven TIPS children and three
+graphics children retain their canonical identities, order, parents and packages.
+Their 62 page assignments cover 59 distinct PDF pages. All 37 pairs of text regions
+on the three shared TIPS pages are disjoint. Parent-related printed banners remain
+in the children's original images; no duplicate parent package was created.
 
-Six notice sections,five flow links,four physical wraps,two publisher occurrences
-and three numeric fields retain their source positions. Printed address36-4,
-phone783-2296 and10-day return claim remain historical text with explicit glyph
-and validity limits. Historical 겠읍니까 and 접수일로 부터 remain literal.
-The publisher wordmark 정보시대 is not an individual byline. All six source
-candidate notes retain their own scans,including diagonal title and separators.
+The source banner 그래픽의 세계 does not change the canonical parent title.
+Unlisted HGR 텍스트 프린트 on PDF172–176 remains outside the canonical queue;
+its shared banner does not establish a new child. Canonical graphics order remains
+0018,0019,0020 despite physical page order168,178,194.
 
-All126 UTF-8 range occurrences,141 evidence pins,four exact crops,three disjoint
-text pairs and32 cross-owner region pairs validate. Ten malformed cases reject,
-including a wrong repeated publisher occurrence,missing final contact section,
-lost physical wrap,inferred folio and publisher treated as an author.
+Eighteen saved PDF views and two original donated TOC images were inspected:
+20 conservative outside lookups, two canonical tasks, zero mapping or OCR.
+Six malformed classification cases reject. All 73,641 prior files,62 prior
+inventories and30 implementation pins remain exact;the unchanged213-test baseline
+is reused. New preservation inventory:73,699 files. All ten private assembly
+adapters remain pinned and all source-page observations are unchanged.
 
-Three saved whole views228–230 were reused:one mapped page,two outside lookups,
-one canonical task. All four selected crops were inspected before three kor+eng
-tasks;all three raw drafts were read before one source correction pass. No crop
-repairs or OCR failures/retries. The diagonal title and logo used recorded direct
-source fallback. Initial serializer syntax failure occurred before output;its
-attempt and dependent missing-recipe build are retained. Fresh serializer revision
-fixes only the syntax;source text,maps,crops and raw drafts are unchanged.
-
-All73,529 prior files,61 inventories and30 core implementation pins remain exact;
-the unchanged213-test baseline is reused. New preservation inventory:73,641 files.
-All ten private assembly adapters remain pinned. Human acceptance/full proofreading,
-source bytes/spacing/glyph counts,historical/current claims and execution remain
-unverified. No reader was rebuilt.
-
-Next is **batch 63: classify TIPS0006 and 컴퓨터 그래픽0017** from source contents
-and existing child coverage. Verify whether either parent owns separate material;
-do not infer non-ownership from a pageless TOC alone. Preserve all seven TIPS and
-three graphics children. The remaining two parents,cover,268-page accounting,
-standalone index/report,independent issue rebuild and closeout follow.
+Next is **batch 64: classify 독자와 함께0021 and 비즈니스0036** using source
+contents and child boundaries, preserving their13 and2 children. Cover selection,
+268-page accounting,standalone index/report,independent issue rebuild and closeout
+remain. Human acceptance/full proofreading,source bytes/spacing/glyph counts,
+historical/technical claims and execution remain unverified. No reader was rebuilt.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

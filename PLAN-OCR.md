@@ -19,22 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:35 readable/sample-reviewed,0 partial,4 unresolved parents.
-  Batch 62 completes recruitment0030 at `packages/recruitment`:21 files independently
-  exact;four regions/three blocks/one original panel onPDF229right. Complete diagonal
-  title,16 body rows,publisher imprint/frame/pencil;left Magic Window unchanged.
-  No visible229folio;canonicalTOC227 unchanged. Six sections/five flow links/four
-  physical wraps/two publisher occurrences/three numeric fields retain126 ranges,
-  141 pins,four crops,three disjoint textpairs and32 cross-owner pairs. Ten malformed
-  cases reject. Six source candidates;historical address/phone/10-day claim unverified.
-  Three saved whole views;one mapped/two outside/one task. Four crops before three
-  kor+eng tasks;all raws before one source pass. No crop repair or OCRretry.
-  Failed serializer syntax/dependent build retained;fresh serializer fixes syntax
-  only,source unchanged. All73,529 prior files/61 inventories/30 core pins exact;
-  unchanged213-test baseline reused. New inventory:73,641. Preserve ten adapters.
-  Next batch 63:classify TIPS0006 and graphics0017 using source contents and child
-  boundaries;no inferred non-ownership from pageless TOC alone. Other two parents,
-  cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
+- October1985 active:35 readable/sample-reviewed,2 non-owning headings,0 partial,
+  2 unresolved parents. Batch 63 classifies TIPS0006 and graphics0017 from source
+  contents and child boundaries. All10 children/62 page assignments/59 distinct pages
+  remain unchanged;37 shared-page text pairs are disjoint. No new article package.
+  Unlisted HGR172–176 remains outside canonical queue despite common source banner.
+  Eighteen saved PDF views plus two original TOC images:20 conservative outside
+  lookups,two tasks,zero mapping/OCR. Six malformed cases reject. All73,641 prior
+  files/62 inventories/30 core pins unchanged;213-test baseline reused.
+  New inventory:73,699 files. Preserve all ten private assembly adapters.
+  Next batch 64:classify 독자와 함께0021 and 비즈니스0036, preserving13+2 children.
+  Cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
   Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
   unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

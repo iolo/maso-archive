@@ -1006,12 +1006,22 @@
       "toc_entry_id": "maso-1985-10-toc-0006",
       "title": "TIPS",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents scan8510-01 shows TIPS as a heading over seven separately paginated articles:FORMAT II44,DEF46,가로세로 체크썸51,자동메뉴II57,자동메뉴II60,함수그래프II63,테이프용MLE69. No separate parent article/page is listed.",
+        "All seven children have independent complete packages and literal source titles/bylines.31 child page assignments cover28 unique PDF pages46–73;shared pages48,53,65 retain separate child regions. Parent owns none of these pages again.",
+        "Saved whole45 ends the preceding BASIC-introduction article.46 opens FORMAT II under tip branding;48 ends its listing then opens DEF;53 ends DEF then opens checksum.59 and62 open the two distinct automatic-menu articles;65 ends the second then opens function graph;71 opens MLE;73 ends its listing above an independent academy ad;74 is an independent MS-DOS handbook ad.",
+        "No separate TIPS body/divider occurs in reviewed contents and child boundaries. Repeated tip branding belongs to existing original article images. Canonical titles,byline candidates,order and parent links remain unchanged,including second automatic-menu source strike-through annotation."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-10/restoration/batch-63/parent-heading-decisions.json",
+        "sha256": "9875acb6765145a503fb99ac10241def47439404ad4abd0522c6cea7152c1ce3",
+        "bytes": 64358
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0007",
@@ -1868,12 +1878,23 @@
       "toc_entry_id": "maso-1985-10-toc-0017",
       "title": "컴퓨터 그래픽",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents scan8510-02 shows 컴퓨터 그래픽 as an organizational heading over three separately paginated articles:그래픽화면에 문자를166,뷰티풀 텍스트192,아롱다롱176. The promotional description beneath this list does not establish a separate body article.",
+        "All three children have independent complete packages covering31 unique PDF pages:168–171,194–204,178–193. Canonical child order0018/0019/0020 remains unchanged despite physical opening order168/178/194.",
+        "Saved167 is TOPIA advertising;168 is the independently titled/bylined 그래픽 화면에 문자를 opening.172 independently opens HGR 텍스트 프린트 by 김성현,which is absent from canonical TOC;its common 그래픽의 세계 banner does not confer parent ownership or add a canonical child. Existing unlisted172–176 observations remain unchanged.",
+        "Saved177 is separately restored back-issue disk notice.178 independently opens 아롱다롱,193 ends its listing/art,194 independently opens 뷰티풀 텍스트,and204 ends its BASIC demonstration. Existing complete-extent verification supplies the un-repeated intervening and ending boundaries.",
+        "No independent parent body/divider occurs in reviewed contents and child boundaries. Source 그래픽의 세계 banners remain original pixels within child packages;canonical 컴퓨터 그래픽 stays unchanged. Do not assign intervening advertisements,unlisted HGR text,or disk notice to this parent."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-10/restoration/batch-63/parent-heading-decisions.json",
+        "sha256": "9875acb6765145a503fb99ac10241def47439404ad4abd0522c6cea7152c1ce3",
+        "bytes": 64358
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0018",
@@ -3704,8 +3725,8 @@
     "canonical_entries": 39,
     "readable": 35,
     "partial": 0,
-    "non_owning_headings": 0,
-    "unresolved_eligibility": 4
+    "non_owning_headings": 2,
+    "unresolved_eligibility": 2
   },
   "checkpoints": [
     {
@@ -6765,6 +6786,67 @@
       "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
       "article_availability": "readable",
       "deferred_pdf_pages": [],
+      "assembly_required": false
+    },
+    {
+      "id": "batch-63",
+      "status": "complete",
+      "stage": "validated-parent-classification",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0006",
+        "maso-1985-10-toc-0017"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        45,
+        46,
+        48,
+        53,
+        59,
+        62,
+        65,
+        71,
+        73,
+        74,
+        167,
+        168,
+        172,
+        177,
+        178,
+        193,
+        194,
+        204
+      ],
+      "other_source_lookup_images": [
+        "tocs/8510-01.jpg",
+        "tocs/8510-02.jpg"
+      ],
+      "conservative_outside_lookup_count": 20,
+      "canonical_tasks": 2,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-63/validation.json",
+        "sha256": "bd44716c0833b1f8fad1e0bc1ca5fb1fb582cd0e81d486ba271e2187ca9d7ac6",
+        "bytes": 1711
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-63/verification-completed.json",
+        "sha256": "c1e142ecdf9b6e3e162f2cd8d6b01535470db15329a84bd2adde390a9931a624",
+        "bytes": 1211
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-63-preserved-work.json",
+        "sha256": "eab2b04b1036c95281f1adc7a2868ae4cc3a148c6897aa43c56999751a89b12e",
+        "bytes": 17076829
+      },
+      "started_at": "2026-10-25T00:22:05.383242+00:00",
+      "finished_at": "2026-10-25T00:25:57.066662+00:00",
+      "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "not-applicable",
       "assembly_required": false
     }
   ],
@@ -9920,25 +10002,36 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-63",
-    "goal": "Classify canonical parent identities0006 TIPS and0017 컴퓨터 그래픽 from source contents and existing child coverage.",
+    "id": "batch-64",
+    "goal": "Classify remaining canonical parents0021 독자와 함께 and0036 비즈니스 using source contents and child boundaries.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0006",
-      "maso-1985-10-toc-0017"
+      "maso-1985-10-toc-0021",
+      "maso-1985-10-toc-0036"
     ],
-    "mapping_targets": "Accounting-only checkpoint:inspect source contents and saved child openings/boundaries. Verify whether parents own any separate body/divider;preserve all seven TIPS and three graphics child identities/relationships/packages. Do not infer non-ownership from pageless TOC alone. At most20 outside lookups,two canonical tasks;no new article extraction or OCR unless separately scoped.",
+    "mapping_targets": "Accounting only:reuse original TOC8510-02 and saved child openings/endings. Verify13 reader-section and2 business children,shared229/266 ownership and absence of independent parent body. Preserve all child packages and canonical order. Do not infer non-ownership solely from pageless TOC. At most20 conservative outside lookups including original TOC image;no new OCR/extraction.",
     "provisional_lookup_targets": [
-      46,
-      48,
-      53,
-      59,
-      62,
-      65,
-      71,
-      73,
-      168,
-      178,
-      194
+      27,
+      28,
+      29,
+      31,
+      34,
+      38,
+      39,
+      177,
+      205,
+      206,
+      209,
+      210,
+      215,
+      216,
+      229,
+      233,
+      260,
+      264,
+      266
+    ],
+    "other_source_lookup_images": [
+      "tocs/8510-02.jpg"
     ],
     "limits": {
       "articles": 2,
@@ -9950,7 +10043,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Recruitment0030 complete229right;35 readable/sample-reviewed,0 partial,4 unresolved parents. Six notice sections,four physical wraps,two publisher body occurrences,printed address/phone and10-day return claim retain own source ranges. Diagonal pencil title/body/imprint/frame original;source folio null,TOC227 unchanged. Left Magic Window and all ten assembly adapters unchanged. Next classify TIPS0006/graphics0017;then remaining parents,cover,268-page accounting,index/report,independent issue rebuild and closeout. Human acceptance/full proofreading,source bytes/spacing/glyph counts,historical/current claims unverified. No reader rebuild."
+    "35 readable/sample-reviewed articles,2 non-owning headings,0 partial,2 unresolved parents. TIPS0006 and graphics0017 are source-backed organizational groups;their10 children and59 distinct body pages unchanged. No parent-owned body or duplicate package. Unlisted HGR172–176 remains outside canonical queue despite common graphics banner. Next parents0021/0036;cover,268-page accounting,index/report,independent issue rebuild and closeout pending. Retain ten private assembly adapters/all attempts. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }
