@@ -615,12 +615,61 @@
       "toc_entry_id": "maso-1985-11-toc-0022",
       "title": "뉴스 리뷰",
       "parent_id": "maso-1985-11-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "News Review canonical 0022 occupies pages 94–96, after Information Radar final 93 and before the independent dBASE III software review opening 97. All three article folios were observed individually.",
+        "Fourteen short news items include dated newspaper attributions. One item continues from page 94 to page 95. Two cartoons belong to this article.",
+        "The final source attribution on page 96 ends the article. Canonical title, parent News 0020 and TOC order remain unchanged; the printed title has no interword space."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-22-r01/news-review",
+        "article_id": "scan-maso-1985-11-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-22-r01/news-review/manifest.json",
+          "sha256": "a4cda128a6939a0e154e35a3509756cfc278ceb5e9adbf0f24fbd2822c8002e6",
+          "bytes": 21472
+        },
+        "coverage": {
+          "pdf_pages": [
+            94,
+            95,
+            96
+          ],
+          "printed_pages": [
+            "94",
+            "95",
+            "96"
+          ],
+          "full_article_pdf_pages": [
+            94,
+            95,
+            96
+          ],
+          "regions": 35,
+          "blocks": 30,
+          "figures": 5,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "뉴스리뷰",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-22/validation.json",
+          "sha256": "2aaf74879fa4908fb7046c82927548ef041d1d4a8b2e7471835ddf0cca1fbe3a",
+          "bytes": 1914
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-22/reproduction.json",
+          "sha256": "8e30b970a2dae5f6f61038d9764696a71f1b9a64fc63a0739416706b10bf9a62",
+          "bytes": 1377
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0023",
@@ -1379,10 +1428,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 15,
+    "readable": 16,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 31
+    "unresolved_eligibility": 30
   },
   "checkpoints": [
     {
@@ -2244,6 +2293,46 @@
       "started_at": "2026-10-25T07:38:47.982793+00:00",
       "finished_at": "2026-10-25T08:02:14.666293+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-22",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0022"
+      ],
+      "mapped_pdf_pages": [
+        94,
+        95,
+        96
+      ],
+      "outside_map_lookup_pages": [
+        93,
+        97
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 30,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 1,
+      "scope_adjustment": "Complete News Review pages 94–96: fourteen news items with dated newspaper attributions and two cartoons. Page 97 opens the separate dBASE III software review.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-22/validation.json",
+        "sha256": "2aaf74879fa4908fb7046c82927548ef041d1d4a8b2e7471835ddf0cca1fbe3a",
+        "bytes": 1914
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-22/verification-completed.json",
+        "sha256": "cf72d794da7b7620955e0cebdf5550891858cc6148a243f11e479c4a06346b60",
+        "bytes": 1870
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-22-preserved-work.json",
+        "sha256": "9d4a5e5c66e57f04e83ea253f7dc650c860d7dbe3bac048ee1728d3e4a51bfe2",
+        "bytes": 4500858
+      },
+      "started_at": "2026-10-25T08:04:49.756205+00:00",
+      "finished_at": "2026-10-25T08:15:08.503920+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -2870,36 +2959,52 @@
     {
       "pdf_page": 94,
       "printed_page": "94",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0022"
       ],
-      "restoration": "pending",
-      "note": "Outside-map source review only; News Review extent after page 95 remains to be checked."
+      "restoration": "complete",
+      "note": "Complete News Review pages 94–96 verified in batch 22; earlier outside-map observation retained in batch 21 evidence."
     },
     {
       "pdf_page": 95,
       "printed_page": "95",
-      "classification": "article-continuation-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0022"
       ],
+      "restoration": "complete",
+      "note": "Complete News Review pages 94–96 verified in batch 22; earlier outside-map observation retained in batch 21 evidence."
+    },
+    {
+      "pdf_page": 96,
+      "printed_page": "96",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0022"
+      ],
+      "restoration": "complete"
+    },
+    {
+      "pdf_page": 97,
+      "printed_page": "97",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0023"
+      ],
       "restoration": "pending",
-      "note": "Outside-map source review only; News Review extent after page 95 remains to be checked."
+      "note": "Outside-map source review only; the dBASE III review extent after page 97 remains to be checked."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-22",
-    "goal": "Verify News Review 0022 from observed page 94 opening and page 95 continuation; locate its ending and restore a bounded complete article or segment.",
+    "id": "batch-23",
+    "goal": "Verify Software Review dBASE III 0023 from the observed page 97 opening; locate its ending and restore a bounded complete article or segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0022"
+      "maso-1985-11-toc-0023"
     ],
-    "mapping_targets": "Reuse inspected 93/94/95 views, inspect subsequent pages and ending before mapping. Segment if over six mapped pages.",
+    "mapping_targets": "Reuse inspected 96/97 views, inspect subsequent pages and ending before mapping. Preserve the product-information panel, any command literals, tables and illustrations.",
     "provisional_lookup_targets": [
-      93,
-      94,
-      95,
       96,
       97,
       98,
@@ -2916,7 +3021,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Fifteen readable articles, no partial article or pending assembly. Thirty-one unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Sixteen readable articles, no partial article or pending assembly. Thirty unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }

@@ -171,13 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: fifteen articles are readable and
-independently reproducible. Information Radar pages 90–93 now match across 189
-exported files, retaining fifteen news items, three tables and nine original images.
-No current partial article or assembly remains; 31 of 46 entries still need
-restoration or classification. News Review begins the next checkpoint. Cover and
-whole-issue accounting remain. Conversation, progress logs and documentation use
-English; original source text retains its language. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: sixteen articles are readable and
+independently reproducible. News Review pages 94–96 now match across 133 exported
+files, retaining fourteen news items, their newspaper attributions and two cartoons.
+No current partial article or assembly remains; 30 of 46 entries still need
+restoration or classification. The dBASE III review begins the next checkpoint.
+Cover and whole-issue accounting remain. Conversation, progress logs and documents
+use English; original source text retains its language. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 

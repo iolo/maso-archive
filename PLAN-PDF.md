@@ -24,31 +24,32 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-November 1985 remains in progress: fifteen readable, assistant sample-reviewed
-articles, no partial article and 31 unresolved identities. Batch 21 completes
-Information Radar 0021, pages 90–93, at
-`archive/pdf/1985-11/packages/batch-21-r01/information-radar`. Both exports match
-across 189 files. The article retains 52 regions, 43 blocks, nine original figures,
-267 physical text rows and eighteen logical table rows. Fifteen news items, three
-tables, 81 nonempty cells, seven covered grid positions and four merged cells are
-indexed. Cell-local wraps and the printed ditto mark remain without inferred values.
-All 2,708 UTF-8 ranges, 2,860 evidence-pin occurrences, 52 images and 223 disjoint
-nonfigure pairs validate. Forty-two named literals, seventeen wrapped literals,
-31 source claims, twenty source variants, four sentence continuations, two paragraph
-continuations and two historical contact records retain exact ranges.
-All 52 original crops and eighteen replacements were inspected before 43 pinned
-kor+eng tasks. All drafts were read before one direct source correction pass; zero
-recognition retries. All 18,722 prior files, twenty inventories and 30 core pins
-remain unchanged. The unchanged 213-test baseline is reused, not rerun. Current
-preservation contains 19,531 issue files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-21/reproduction.json`.
-Next batch 22 verifies News Review 0022 from the observed page 94 opening and
-page 95 continuation, locating its ending before mapping. Diskette 0032 still needs
-a location search after its TOC 72 mismatch. News parent 0020 remains unresolved.
-Cover, all 266 source pages and whole-issue closeout remain. Conversation, logs and
-documentation use English; original source text retains its language. No reader
-rebuild. Human acceptance/full proofreading, source bytes, exact spacing and
-historical/technical claims remain unverified.
+November 1985 remains in progress: sixteen readable, assistant sample-reviewed
+articles, no partial article and 30 unresolved identities. Batch 22 completes
+News Review 0022, pages 94–96, at
+`archive/pdf/1985-11/packages/batch-22-r01/news-review`. Both exports match across
+133 files. The article retains 35 regions, 30 blocks, five original figures and
+161 physical text rows. Fourteen news items retain fourteen newspaper attributions
+with 42 exact month/day/publication fields. No attribution year or expanded
+publication title is inferred. Both cartoons and all three original pages remain.
+All 1,391 UTF-8 ranges, 1,493 evidence-pin occurrences, 35 images and 142 disjoint
+nonfigure pairs validate. Thirty-four named literals, ten wrapped literals,
+36 source claims, seventeen source variants and the page 94→95 sentence boundary
+retain exact ranges. Printed name variants, technical wording and reported figures
+remain; the software-spending report's uncertain word is explicitly documented.
+All 35 original crops and one replacement were inspected before 30 pinned kor+eng
+tasks. All drafts were read before one direct source correction pass; zero OCR
+retries. All 19,531 prior files, 21 inventories and 30 core pins remain unchanged.
+The unchanged 213-test baseline is reused, not rerun. Current preservation contains
+20,100 issue files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-22/reproduction.json`.
+Next batch 23 verifies Software Review dBASE III 0023 from its observed page 97
+opening, locating the ending before mapping. Diskette 0032 still needs a location
+search after its TOC 72 mismatch. News parent 0020 remains unresolved. Cover, all
+266 source pages and whole-issue closeout remain. Conversation, logs and documents
+use English; original source text retains its language. No reader rebuild.
+Human acceptance/full proofreading, source bytes, exact spacing, newspaper sources
+and historical/technical claims remain unverified.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 ## October 1985 closeout, 2026-10-25
