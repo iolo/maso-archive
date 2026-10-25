@@ -172,8 +172,8 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: eleven articles are readable and
-independently reproducible. PLAY conquest(3) is partially restored on64–69;
-final70 and complete assembly remain. Thirty-four of46 entries still need
+independently reproducible. PLAY conquest(3) has all64–70 pages restored in two segments;
+complete article assembly remains. Thirty-four of46 entries still need
 restoration or classification; cover and issue accounting remain. Conversation,
 progress logs and documentation use English while original source text retains
 its language. See [the November progress log](docs/progress/8511.md).

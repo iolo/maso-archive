@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-November 1985 restoration is active: 46 canonical entries and 266 source pages.
-Eleven articles are readable/sample-reviewed; PLAY conquest(3)0044 is partial,
-with64–69 restored and final70 plus complete assembly pending. All 607 segment
-files independently reproduce. All 4,804 text ranges, 178 images, 493 BASIC fields,
-93 nonempty table cells and 41 annotation associations validate. All 9,263 prior
-files, eleven inventories and 30 core pins remain unchanged; the unchanged
-213-test baseline is reused. Thirty-four identities, cover and issue accounting
-remain. Next restore PLAY final70. Conversation, updates, progress logs and
-documentation use English; source text retains its original language.
-No reader rebuild. See [November log](docs/progress/8511.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
+November 1985 remains in progress: eleven readable articles, one partial article
+and 34 unresolved identities. All PLAY conquest(3)0044 pages64–70 are restored in
+two immutable segments; complete assembly is next. Final70 at
+`packages/batch-13-r01/play-b` has100 independently identical files,21 blocks,
+seven figures and63 BASIC rows. All1,530 ranges,1,602 pins,28 images,32 hex cells
+and16 DATA-to-printed-pair links pass. All11,968 prior files,twelve inventories
+and30 core pins remain unchanged; the213-test baseline is reused. Current
+preservation contains12,391 files. Next batch14 assembles PLAY without new OCR.
+Cover,266-page accounting and issue closeout remain. English is required for
+conversation,logs and documentation; source text retains its language. No reader rebuild.
+See [November log](docs/progress/8511.md) and the issue ledger.
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
 are accounted for by 35 readable, assistant sample-reviewed articles and four

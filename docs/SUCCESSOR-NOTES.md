@@ -15,33 +15,17 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 is in progress: eleven readable/sample-reviewed articles,
-one partial article and 34 unresolved identities. PLAY conquest(3)0044 spans
-64–70; its opening64–69 is at `packages/batch-12-r02/play-a`. All 607 files
-independently reproduce. All 4,804 text ranges, 5,283 pins, 178 images and 1,797
-disjoint nonfigure pairs pass. Eleven BASIC programs retain145 rows/493 fields,
-four strings, 43 comments and two numbered rows with no visible bodies.
-Four tables retain93 nonempty cells, four printed empty cells and eight merged
-continuation cells; six merged labels are represented once. There are41 code
-annotation associations, ten boundary joins and eight envelope data bands.
-All 9,263 prior files, eleven inventories and 30 core pins remain unchanged;
-the 213-test baseline is reused. Current preservation contains11,968 files.
-All173 original crops and42 replacement/addition view occurrences preceded140
-OCR tasks; all drafts were read before one source pass. Preserve first failed
-exports and recipe. Selected `package-recipe-r02.json` fixes the gap description
-from an object to the required string; source corrections are unchanged.
-Reproduce with `archive/pdf/1985-11/restoration/batch-12/reproduction.json`.
-Printed spellings, punctuation, missing code bodies and register descriptions
-remain literal; no program execution or semantic repair occurred.
-Numerical analysis0041 remains complete; its pinned batch09 adapter is required
-for assembly checks. Next batch13 restores verified PLAY final70. Complete PLAY
-assembly must preserve this segment. The following canonical0032 may be added
-only after extent inspection and within the two-task/six-page checkpoint limits.
-Cover and whole-issue accounting remain. Use English for conversation, updates,
-logs and documentation; keep original-language source text. This preference is
-also recorded in root `AGENTS.md`. No reader rebuild.
-See [November log](progress/8511.md) and
-[ledger](../metadata/catalog/pdf-restoration/1985-11-progress.json).
+November 1985 remains in progress: eleven readable articles, one partial article
+and 34 unresolved identities. All PLAY conquest(3)0044 pages64–70 are restored in
+two immutable segments; complete assembly is next. Final70 at
+`packages/batch-13-r01/play-b` has100 independently identical files,21 blocks,
+seven figures and63 BASIC rows. All1,530 ranges,1,602 pins,28 images,32 hex cells
+and16 DATA-to-printed-pair links pass. All11,968 prior files,twelve inventories
+and30 core pins remain unchanged; the213-test baseline is reused. Current
+preservation contains12,391 files. Next batch14 assembles PLAY without new OCR.
+Cover,266-page accounting and issue closeout remain. English is required for
+conversation,logs and documentation; source text retains its language. No reader rebuild.
+See [November log](progress/8511.md) and the issue ledger.
 
 ## Latest completed issue
 
