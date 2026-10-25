@@ -7,23 +7,25 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 remains in progress: thirteen readable, assistant sample-reviewed
-articles, no partial article and 33 unresolved identities. Batch 17 assembles the
-complete Hangul-processing feature 0001, pages 73–79, at
-`archive/pdf/1985-11/packages/hangul-feature-complete-r01`. Both exports match
-across 398 files, including all 390 native files. All 7,816 UTF-8 ranges,
-214 blank-anchor occurrences, 8,923 evidence pins and 104 images validate.
-The assembly retains 90 blocks, 14 figures, all 256 chart positions, 107 blanks,
-two uncertain glyphs and separate handwriting. The word split across pages 78–79
-has an explicit source link; native text bytes remain unchanged. Page 73's folio
-remains null. The first verifier's row-label assumption and its correction are
-preserved; no export or transcription changed. All 15,598 prior files, sixteen
-inventories and 30 core pins remain unchanged. The 213-test baseline is reused,
-not rerun. Current preservation contains 16,415 issue files.
-Next batch 18 verifies Lessons from Apple 0009 from page 80 and its full extent
-before mapping. Diskette 0032 still needs a location search after its TOC 72
-mismatch. Cover, all 266 pages and whole-issue closeout remain. Conversation,
-logs and documentation use English; original source text retains its language.
-No reader rebuild.
+articles, one partial article and 32 unresolved identities. Batch 18 restores
+Lessons from Apple 0009 opening pages 80–85 at
+`archive/pdf/1985-11/packages/batch-18-r01/apple-lessons-a`. The full extent is
+80–88, followed by an independent advertisement on 89. Canonical title and parsed
+byline fields remain unchanged; the printed title is recorded separately, with no
+person byline inferred. Both exports match across 250 files. All 2,700 text ranges,
+2,906 evidence pins, 71 images and 303 disjoint nonfigure pairs validate.
+The segment retains 57 blocks, 14 original figures, 332 physical text rows,
+eight timeline events, 25 named literals, six wrapped literals, three pullquote
+associations and eleven continuation links. Printed dates, name candidates,
+spelling variants and incomplete quote wording remain. All 71 original crops and
+twelve replacements were inspected before 57 pinned OCR tasks; all drafts were
+read before one source correction pass. No recognition retries. All 16,415 prior
+files, seventeen inventories and 30 core pins remain unchanged. The unchanged
+213-test baseline is reused, not rerun. Current preservation contains 17,479 files.
+Next batch 19 restores final pages 86–88; complete immutable 80–88 assembly follows.
+Diskette 0032 still needs a location search after its TOC 72 mismatch. Cover,
+all 266 pages and whole-issue closeout remain. Conversation, logs and documentation
+use English; original source text retains its language. No reader rebuild.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries

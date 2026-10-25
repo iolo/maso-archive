@@ -202,12 +202,77 @@
       "toc_entry_id": "maso-1985-11-toc-0009",
       "title": "읽을거리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 0009 is the printed article 애플의 교훈, pages 80–88, ending before independent advertisement 89. Preceding page 79 ends the separate Hangul feature. Every folio 80–88 was individually observed.",
+        "Canonical title 읽을거리 and parsed byline candidate 애플의 교훈 remain unchanged in the TOC; the printed title is recorded separately and is not treated as a person byline.",
+        "This checkpoint maps opening 80–85 only. Final 86–88 and immutable complete-article assembly remain deferred. The timeline, pull quotes and original photographs are distinct source elements."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-18-r01/apple-lessons-a",
+        "article_id": "scan-maso-1985-11-toc-0009",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-18-r01/apple-lessons-a/manifest.json",
+          "sha256": "8ac59312a4f96562082815caed0c28a74988a1c13ce5f8c9a17fcd111f904ea5",
+          "bytes": 41102
+        },
+        "coverage": {
+          "pdf_pages": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "printed_pages": [
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85"
+          ],
+          "full_article_pdf_pages": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88
+          ],
+          "regions": 71,
+          "blocks": 57,
+          "figures": 14,
+          "deferred_pdf_pages": [
+            86,
+            87,
+            88
+          ],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "source_title": "애플의 교훈",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-18/validation.json",
+          "sha256": "cda64a389de66846c208993cdbcd3498adb8275a121dd17c4a507bab404d9238",
+          "bytes": 1960
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-18/reproduction.json",
+          "sha256": "0293e8b84df55cf016b23bd3c420f879dc777c96335ab6d40c721f9c8f0edacf",
+          "bytes": 1411
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0010",
@@ -1229,9 +1294,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 13,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 33
+    "unresolved_eligibility": 32
   },
   "checkpoints": [
     {
@@ -1926,6 +1991,52 @@
       "started_at": "2026-10-25T06:41:12.206990+00:00",
       "finished_at": "2026-10-25T06:49:36.216337+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-18",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "mapped_pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "outside_map_lookup_pages": [
+        79,
+        86,
+        87,
+        88,
+        89
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 57,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 12,
+      "scope_adjustment": "Full article extent 80–88 verified; opening 80–85 restored within the six-page limit. Final 86–88 and immutable assembly deferred.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-18/validation.json",
+        "sha256": "cda64a389de66846c208993cdbcd3498adb8275a121dd17c4a507bab404d9238",
+        "bytes": 1960
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-18/verification-completed.json",
+        "sha256": "673ecc1104e1abdc627579e020bf629cf9180a085bafaba03441f27e2ecd6c56",
+        "bytes": 1660
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-18-preserved-work.json",
+        "sha256": "cef575cf3fe81a1adc4d2434fa0963e2bae21772e52fb9827fcb9128687fb9cb",
+        "bytes": 3907886
+      },
+      "started_at": "2026-10-25T06:51:43.309493+00:00",
+      "finished_at": "2026-10-25T07:10:28.124658+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -2418,31 +2529,117 @@
     {
       "pdf_page": 80,
       "printed_page": "80",
-      "classification": "article-opening",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "segment-complete",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": "81",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "segment-complete",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": "82",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "segment-complete",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": "83",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "segment-complete",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": "84",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "segment-complete",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 85,
+      "printed_page": "85",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "segment-complete",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 86,
+      "printed_page": "86",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0009"
       ],
       "restoration": "unmapped",
-      "note": "Lessons from Apple opening follows feature ending79; verify its full extent before mapping."
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 87,
+      "printed_page": "87",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "unmapped",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 88,
+      "printed_page": "88",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0009"
+      ],
+      "restoration": "unmapped",
+      "note": "Lessons from Apple; full extent 80–88 verified before separate advertisement 89."
+    },
+    {
+      "pdf_page": 89,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "note": "Independent Hope Electronics advertisement follows Lessons from Apple final 88; no visible folio."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-18",
-    "goal": "Verify and restore canonical 0009 Lessons from Apple starting at source page 80. Inspect its complete extent and adjacent boundaries before mapping.",
+    "id": "batch-19",
+    "goal": "Restore canonical 0009 Lessons from Apple final pages 86–88, then assemble the complete article 80–88 in a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0009"
     ],
-    "mapping_targets": "Opening 80 is observed; subsequent pages remain provisional until inspected. Apply the six-page mapping limit if segmentation is required.",
+    "mapping_targets": [
+      86,
+      87,
+      88
+    ],
     "provisional_lookup_targets": [
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
       85,
-      86
+      89
     ],
     "limits": {
       "articles": 2,
@@ -2454,7 +2651,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirteen readable articles, no current partial article or pending assembly. Thirty-three unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch."
+    "Thirteen readable articles and one partial article. Lessons from Apple 0009 opening 80–85 restored; final 86–88 and complete assembly pending. Thirty-two unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch."
   ],
   "reader_rebuild": false
 }
