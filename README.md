@@ -173,12 +173,12 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 
 November 1985 restoration is in progress: twenty articles are readable, one is
 partial, and twenty-five of 46 identities remain unresolved. VDP analysis pages
-135–140 now have 231 independently identical package files, preserving routine
-explanations, two code examples and the opening 97 rows of the full assembler
-listing. Segments 117–140 are restored; next is 141–146. The article continues
-through 151 and still requires complete assembly. Cover, remaining articles and
-whole-issue accounting remain. Progress logs and documents use English; original
-source text retains its language. See [the November progress log](docs/progress/8511.md).
+141–146 now have 87 independently identical package files, preserving 306
+numbered assembly rows and their original comments and hex fields. Segments
+117–146 are restored; next is the final segment 147–151, followed by complete
+article assembly. Cover, remaining articles and whole-issue accounting remain.
+Progress logs and documents use English; original source text retains its language.
+See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
