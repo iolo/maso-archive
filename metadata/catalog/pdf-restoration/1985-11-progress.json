@@ -200,12 +200,50 @@
       "toc_entry_id": "maso-1985-11-toc-0017",
       "title": "프로그램을 보호하는 법",
       "parent_id": "maso-1985-11-toc-0016",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete canonical0017 printed37–38/PDF37–38; debugging36 precedes and revised PICTURE39 follows. Source title adds II to canonical 프로그램을 보호하는 법.",
+        "Six numbered methods; list1 left-bottom38 continues right-top38, list2 decorative star run and list3 dump remain original images as well as literal candidates.",
+        "Source byline 윤상집 and platform 애플 컴패티블 visible; all printed folios directly checked."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-05-r01/protection",
+        "article_id": "scan-maso-1985-11-toc-0017",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-05-r01/protection/manifest.json",
+          "sha256": "e521e0c92e117ad003db8979573027ee7364061b5f6a3c7e6651f8e0f5d10b82",
+          "bytes": 25862
+        },
+        "coverage": {
+          "pdf_pages": [
+            37,
+            38
+          ],
+          "printed_pages": [
+            "37",
+            "38"
+          ],
+          "regions": 40,
+          "blocks": 35,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": []
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-05/validation.json",
+          "sha256": "1751195c14d806e387719327ebbb4ec976e68bea6a9271d757536380ba6b2a1f",
+          "bytes": 1868
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-05/reproduction.json",
+          "sha256": "daa6eac5274b8938fd801e84d1e0275213fb9a30cd452cc0a420b7514f634a7a",
+          "bytes": 1968
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0018",
@@ -514,12 +552,50 @@
       "toc_entry_id": "maso-1985-11-toc-0031",
       "title": "디버깅 룸",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete debugging room occupies upper printed36/PDF36; preceding QA35 ends, following37 opens separate program protection article.",
+        "Lower framed 게시판 describes November disk/tape contents, not errata; adjacent uncaptioned photo is independent. Both excluded from canonical body, retained in whole source view.",
+        "Five printed errata bullets, five-row annotated assembly and one-row assembly plus two replacement expressions. No correction applied to October packages."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-05-r01/debugging",
+        "article_id": "scan-maso-1985-11-toc-0031",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-05-r01/debugging/manifest.json",
+          "sha256": "3c761f7b1a64d1182629543eac9c1baa2db614a5eae5eed8efb3a16e965f5fbe",
+          "bytes": 10364
+        },
+        "coverage": {
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            "36"
+          ],
+          "regions": 16,
+          "blocks": 13,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [
+            "bulletin-and-photo"
+          ]
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-05/validation.json",
+          "sha256": "1751195c14d806e387719327ebbb4ec976e68bea6a9271d757536380ba6b2a1f",
+          "bytes": 1868
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-05/reproduction.json",
+          "sha256": "daa6eac5274b8938fd801e84d1e0275213fb9a30cd452cc0a420b7514f634a7a",
+          "bytes": 1968
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0032",
@@ -689,10 +765,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 4,
+    "readable": 6,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 42
+    "unresolved_eligibility": 40
   },
   "checkpoints": [
     {
@@ -846,6 +922,47 @@
       "started_at": "2026-10-25T02:44:56.353449+00:00",
       "finished_at": "2026-10-25T02:53:24.423222+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-05",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0031",
+        "maso-1985-11-toc-0017"
+      ],
+      "mapped_pdf_pages": [
+        36,
+        37,
+        38
+      ],
+      "outside_map_lookup_pages": [
+        35,
+        39
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 50,
+      "english_tasks": 15,
+      "source_correction_passes": 1,
+      "preflight_crop_repair": 1,
+      "scope_adjustment": "Initial provisional checkpoint included0032 as possibly adjacent; authoritative TOC references it at72. Whole-page review identifies actual adjacent article0017 on37–38. No0032 body is classified/restored here; replace planned second task with0017, within two-task bounds.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-05/validation.json",
+        "sha256": "1751195c14d806e387719327ebbb4ec976e68bea6a9271d757536380ba6b2a1f",
+        "bytes": 1868
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-05/verification-completed.json",
+        "sha256": "4cac7b61759589c2a1ea90fe9b5318ccbfa38bec0bbc9cb8d050d123730b9dbe",
+        "bytes": 1381
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-05-preserved-work.json",
+        "sha256": "2664b3333234e8894775473e83c1b7f273a50e215b19d73b870af3a0493896eb",
+        "bytes": 695520
+      },
+      "started_at": "2026-10-25T02:55:27.268498+00:00",
+      "finished_at": "2026-10-25T03:02:46.713142+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -945,26 +1062,55 @@
     {
       "pdf_page": 36,
       "printed_page": "36",
-      "classification": "article-opening-observed",
+      "classification": "article-body-and-unlisted",
       "toc_entry_ids": [
         "maso-1985-11-toc-0031"
+      ],
+      "excluded_material": "Lower independent framed November disk/tape bulletin and adjacent uncaptioned photo; native map bulletin-and-photo."
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": "37",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0017"
+      ]
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": "38",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0017"
+      ]
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": "39",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0018"
       ],
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-05",
-    "goal": "Verify debugging-room0031 extent from printed36/PDF36 and restore bounded complete article.",
+    "id": "batch-06",
+    "goal": "Verify revised PICTURE0018 from printed39/PDF39;restore bounded complete article or first segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0031"
+      "maso-1985-11-toc-0018"
     ],
-    "mapping_targets": "PDF36 opening inspected;check subsequent page and classify lower bulletin/photo before mapping. Do not infer ending from TOC alone.",
+    "mapping_targets": "Opening39 verified; inspect subsequent pages and boundary before mapping. Preserve screenshots/code physical rows and split into at most six mapped pages if necessary.",
     "provisional_lookup_targets": [
-      35,
-      36,
-      37,
-      38
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "limits": {
       "articles": 2,
@@ -976,7 +1122,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Remaining42 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
+    "Remaining40 identities,cover and whole-source-page accounting require restoration/review;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

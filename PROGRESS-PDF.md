@@ -7,12 +7,13 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 restoration is active: 46 canonical entries and 266 source pages.
-The editor's note26, readers' forum27–28,input guide29–32 and QA33–35 are readable/
-sample-reviewed;their33/82/173/187 package files independently reproduce. The213-test
+Six articles through printed38 are readable/sample-reviewed: editor,readers,
+input guide,QA,debugging room and program protection. Their33/82/173/187/64/160
+package files independently reproduce. The213-test
 PDF baseline passes with all30 implementation pins unchanged.
-Forty-two identities, cover selection and issue accounting remain pending.
-Next verify debugging-room0031 from printed36/PDF36, including its ending and
-lower bulletin/photo ownership. See [November log](docs/progress/8511.md) and
+Forty identities, cover selection and issue accounting remain pending.
+Next verify revised PICTURE0018 from printed39/PDF39 and its following pages.
+See [November log](docs/progress/8511.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
