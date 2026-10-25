@@ -39,8 +39,18 @@ and 246 disjoint nonfigure pairs validate. All 38,501 prior files, 41 inventorie
 and thirty core pins remain unchanged. The unchanged 213-test baseline is reused,
 not rerun. Current preservation contains 39,508 issue files. Reproduction:
 `archive/pdf/1985-11/restoration/batch-42/reproduction.json`.
-Next batch 43 restores ALG III pages 184-189, including continued variable
-explanations, structured-programming examples and the beginning BASIC listing.
+Batch 43 is in progress for ALG III pages 184-189. Ten full-page views confirm
+six mapped pages and four outside lookups (183,190,195,196). Selected map-r02 has
+41 regions: 32 text regions and nine figures. All original crops and four widened
+right margins were inspected before 32 pinned OCR tasks (eleven English code,
+twenty-one Korean/English text). Every raw draft has been read; no recognition
+failures or retries. Resume with one direct source correction pass; none has
+started. Preserve the distinct example listings, loop-diagram labels, label-table
+cells, physical code wraps and statement continuations across columns/pages.
+In-flight evidence is in `archive/pdf/1985-11/restoration/batch-43/`; it is not an
+exported segment or completed checkpoint. All 39,508 prior files, thirty core
+pins and the canonical ledger remain unchanged. Do not rerun mapping or OCR.
+Corrected transcripts, structured indexes, two exports and full verification remain.
 Remaining 190-195 and complete immutable article assembly will still be required.
 Do not restart batch 42's mapping, OCR or source correction. All in-flight records
 and the earlier English handoff commit remain historical evidence.
