@@ -23,16 +23,20 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 remains in progress: eleven readable articles, one partial article
-  and 34 unresolved identities. All PLAY conquest(3)0044 pages64–70 are restored in
-  two immutable segments; complete assembly is next. Final70 at
-  `packages/batch-13-r01/play-b` has100 independently identical files,21 blocks,
-  seven figures and63 BASIC rows. All1,530 ranges,1,602 pins,28 images,32 hex cells
-  and16 DATA-to-printed-pair links pass. All11,968 prior files,twelve inventories
-  and30 core pins remain unchanged; the213-test baseline is reused. Current
-  preservation contains12,391 files. Next batch14 assembles PLAY without new OCR.
-  Cover,266-page accounting and issue closeout remain. English is required for
-  conversation,logs and documentation; source text retains its language. No reader rebuild.
+- November 1985 remains in progress: twelve readable, assistant sample-reviewed
+  articles and 34 unresolved identities. No current partial article or pending
+  article assembly remains. PLAY conquest(3)0044 is complete on pages 64–70 at
+  `packages/play-complete-r01`. All 716 files independently reproduce, including
+  707 unchanged native files. All 12,722 text-range occurrences, 14,310 evidence
+  pins and 206 images validate. The complete article retains 13 BASIC programs,
+  208 program rows, 805 fields, six tables, 45 annotation associations and the
+  page 69→70 program reference. All 12,391 prior files, thirteen inventories and
+  30 core pins remain unchanged; the 213-test baseline is reused. Current
+  preservation contains 13,842 files. Next batch15 verifies back-issue diskettes0032
+  from the TOC hint72 before mapping. Cover, 266-page accounting and issue closeout
+  remain. English is required for conversation, logs and documentation; original
+  source text retains its language. No reader rebuild.
+  Use the pinned batch14 `play_literal.py` adapter for PLAY assembly checks.
   [November log](docs/progress/8511.md), [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
   35 readable/sample-reviewed articles, four non-owning headings, zero partial/

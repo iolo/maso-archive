@@ -1011,57 +1011,52 @@
       "parent_id": "maso-1985-11-toc-0040",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PLAY conquest(3)0044 starts64 after Pascal final63 and ends70 with conclusion and final shuttle program;71 is an independent publisher book advertisement with no visible folio.",
         "The verified article spans seven pages64–70. This bounded opening segment maps64–69; final70 and complete assembly remain deferred.",
         "Physical program rows, printed annotations, merged register tables, arithmetic examples and diagram originals are retained; no hardware or execution repair is permitted.",
         "PLAY0044 full extent64–70 already verified; native opening64–69 retained unchanged. Final70 continues discussion of HELICOPTER200–240 from69, adds BOMBING and LAUNCHING OF SHUTTLE, sprite patterns and closing prose.",
-        "Page71 is an independent publisher book advertisement with no visible folio. Final70 is complete; full immutable article assembly remains pending."
+        "Page71 is an independent publisher book advertisement with no visible folio. Final70 is complete; full immutable article assembly remains pending.",
+        "All seven body pages64–70 assembled from two immutable natives;716 files independently exact. Six active stage deferrals resolved;native metadata and source uncertainties retained."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-13-r01/play-b",
+        "directory": "archive/pdf/1985-11/packages/play-complete-r01",
         "article_id": "scan-maso-1985-11-toc-0044",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-13-r01/play-b/manifest.json",
-          "sha256": "8b7dc112caecd9159415ea0e7151a0e0e67169bb98b8901e114529f306c22466",
-          "bytes": 16615
+          "path": "archive/pdf/1985-11/packages/play-complete-r01/manifest.json",
+          "sha256": "36b0ee2b45f7324e9adbcdc402ba2ce9bd5d38b7bccd92a07119de9903f89897",
+          "bytes": 126822
         },
         "coverage": {
           "pdf_pages": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
             70
           ],
           "printed_pages": [
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
             "70"
           ],
-          "full_article_pdf_pages": [
-            64,
-            65,
-            66,
-            67,
-            68,
-            69,
-            70
-          ],
-          "all_segment_pdf_pages": [
-            64,
-            65,
-            66,
-            67,
-            68,
-            69,
-            70
-          ],
-          "regions": 28,
-          "blocks": 21,
-          "figures": 7,
+          "regions": 206,
+          "blocks": 161,
+          "figures": 45,
           "deferred_pdf_pages": [],
           "excluded_region_ids": []
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "segments": [
           {
             "name": "a",
@@ -1093,15 +1088,21 @@
             ]
           }
         ],
+        "assembly_format": "play-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-11/restoration/batch-14/play_literal.py",
+          "sha256": "b4540d335aa6309a7f5a3c90585f1230c2fe02c67822d920a41dcdfd947ab637",
+          "bytes": 13969
+        },
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-13/validation.json",
-          "sha256": "bd53ca56ac9a837a56d0b59807731afe60cd36c1429faa94f3d889a0a1c51bab",
-          "bytes": 1717
+          "path": "archive/pdf/1985-11/restoration/batch-14/validation.json",
+          "sha256": "6134787d7ac58c44530677283e95fbff5cc343497a38d85835ac3137d9275ef1",
+          "bytes": 3211
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-13/reproduction.json",
-          "sha256": "20205f9cf233cc750a352bf0178c98746ca957a02c1fd971f4e86378262e78eb",
-          "bytes": 1313
+          "path": "archive/pdf/1985-11/restoration/batch-14/reproduction.json",
+          "sha256": "deb9f052116bae5da82757531f554a2dda1643cdf8e962f4f5a4337bbdcd65d5",
+          "bytes": 1949
         }
       }
     },
@@ -1130,8 +1131,8 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 11,
-    "partial": 1,
+    "readable": 12,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 34
   },
@@ -1663,6 +1664,44 @@
       "started_at": "2026-10-25T05:35:25.446687+00:00",
       "finished_at": "2026-10-25T05:42:25.909249+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-14",
+      "status": "complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0044"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        63,
+        64,
+        69,
+        70,
+        71
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_crop_repair": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-14/validation.json",
+        "sha256": "6134787d7ac58c44530677283e95fbff5cc343497a38d85835ac3137d9275ef1",
+        "bytes": 3211
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-14/verification-completed.json",
+        "sha256": "468b1b3a17857e1b1ef9b64351427bf1fa349f9d6eaedcb4f5b398a3192d3e55",
+        "bytes": 1938
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-14-preserved-work.json",
+        "sha256": "88bdcec992bf4c15c08984cd596eeb1e2e30ddbaa4a793a5be58adbe65b1f36f",
+        "bytes": 3079946
+      },
+      "started_at": "2026-10-25T05:44:06.863443+00:00",
+      "finished_at": "2026-10-25T05:47:44.041561+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits/gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -2014,7 +2053,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 65,
@@ -2023,7 +2062,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 66,
@@ -2032,7 +2071,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 67,
@@ -2041,7 +2080,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 68,
@@ -2050,7 +2089,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 69,
@@ -2059,7 +2098,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 70,
@@ -2068,7 +2107,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0044"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 71,
@@ -2080,18 +2119,17 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-14",
-    "goal": "Assemble complete PLAY conquest(3)0044 pages64–70 from immutable opening and final segments,retaining every native file and metadata category.",
+    "id": "batch-15",
+    "goal": "Verify and restore canonical0032 back-issue diskettes from TOC hint72. Inspect full extent and adjacent pages before mapping.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0044"
+      "maso-1985-11-toc-0032"
     ],
-    "mapping_targets": "No new mapping or OCR. Verify original boundaries63/64/69/70/71 and all projected ranges.",
+    "mapping_targets": "Provisional source72,not yet inspected. Source71 is a separate book advertisement;TOC73 feature0001 is a boundary hint,not verified evidence.",
     "provisional_lookup_targets": [
-      63,
-      64,
-      69,
-      70,
-      71
+      71,
+      72,
+      73,
+      74
     ],
     "limits": {
       "articles": 2,
@@ -2103,7 +2141,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Eleven readable articles and one partial article. All PLAY0044 body pages64–70 restored;complete assembly pending.34 unresolved identities,cover and whole-source-page accounting remain."
+    "Twelve readable articles;no current partial article or pending assembly.34 unresolved identities,cover and whole-source-page accounting remain;no global page offset inferred."
   ],
   "reader_rebuild": false
 }

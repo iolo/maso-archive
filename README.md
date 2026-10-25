@@ -171,12 +171,12 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: eleven articles are readable and
-independently reproducible. PLAY conquest(3) has all64–70 pages restored in two segments;
-complete article assembly remains. Thirty-four of46 entries still need
-restoration or classification; cover and issue accounting remain. Conversation,
-progress logs and documentation use English while original source text retains
-its language. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: twelve articles are readable and
+independently reproducible, including complete PLAY conquest(3) on pages 64–70.
+Thirty-four of 46 entries still need restoration or classification; cover and
+issue accounting remain. Conversation, progress logs and documentation use
+English while original source text retains its language. See
+[the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
