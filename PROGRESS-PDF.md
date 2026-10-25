@@ -25,8 +25,13 @@ Literal source discrepancies and physical wraps remain; no code or checksum vali
 All 46,594 previous files, 51 inventories and thirty core pins are unchanged.
 The unchanged 213-test baseline is reused. Current preservation: 47,694 issue files.
 Reproduction: `archive/pdf/1985-11/restoration/batch-52/reproduction.json`.
-Next batch 53 maps Bank Panic pages 234-239: the remainder of listing 1 and opening
-of listing 2. Pages 240-245 and complete immutable article assembly follow separately.
+Batch 53 preparation covers Bank Panic pages 234-239: the remainder of listing 1
+and the opening of listing 2. All eight whole views and 27 selected crops were reviewed.
+Seventeen pinned OCR tasks completed (sixteen English, one Korean/English); all raw
+drafts have been read. Two crop-margin extensions preceded OCR; zero retries.
+The single source-correction pass and independent middle-segment exports remain.
+Resume from `archive/pdf/1985-11/restoration/batch-53/continuation.json`.
+Pages 240-245 and complete immutable article assembly follow separately.
 The opening package remains immutable. Parent 0012 remains unresolved.
 Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
 and Back-Issue Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null.
