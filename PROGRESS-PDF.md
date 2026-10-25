@@ -6,54 +6,49 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration continues under step 12: **31 readable/sample-reviewed
-entries, zero partial articles and eight unresolved**, accounting for all39 canonical
-identities. Earlier packages, identities andparent relationships remain unchanged.
+October 1985 restoration continues under step 12: **32 readable/sample-reviewed
+entries, zero partial articles and seven unresolved**, accounting for all 39 canonical
+identities. Earlier packages, identities and parent relationships remain unchanged.
 
-Batch59 completes **게임 : 오델로 묘수풀이0035**, PDF251–257/printed249–255,
-at `archive/pdf/1985-10/packages/othello-complete-r01`. All199 files match an
-independent rebuild,including190 exact files embedded fromtwo immutable natives.
-The seven-page article retains52 regions,40 blocks and12 original figures. No body
-pages orarticle assembly remain pending. Final2230 RETURN andcartoon precede
-independent program-tape advertisement258. No individual byline is invented;
-source title 오델로 묘수 풀이 andeditorial translationcredit remain separate.
+Batch 60 completes **복덕방0032**, PDF260–264, at
+`archive/pdf/1985-10/packages/classifieds`. All 39 files match an independent rebuild.
+The five-page package retains 13 regions, six searchable blocks and seven original
+panels. Original classifieds bodies, usage instructions, offers, prices and contacts
+remain images pending volunteer transcription under the accepted policy. No body
+pages or article assembly remain pending. Four embedded advertisements are excluded.
 
-All5,743 native array entries,74 category slices,12 objects,eight reserved lists
-andfour scalars survive reversible projection. All16,368 UTF8 range occurrences,
-16,789 evidence pins,52 decoded crops and132 disjoint nonfigure pairs validate.
-The private assembly adapter preserves fullnative metadata andsource-local references.
-Ten malformed cases reject,including missing finalRETURN,wrong logical order,lost
-struck-through data,wrong repeated00 occurrence,missing1270 wrap andshifted prior
-ranges; outer hashes were recalculated for allseven altered assembly fixtures.
+Only PDF261 has a visible folio,259; PDF260/262/263/264 remain null. The earlier
+observation assigning printed258 to PDF260 is explicitly superseded; its frozen
+ledger remains unchanged. Canonical TOC reference258 is unchanged. The final offer
+on264 has no visible contact or terminal mark before independent book ad265;
+this source gap is preserved without reconstructing a contact.
 
-Three complete code groups retain220 physical rows:two immediatecommands andthe
-main BASIC listing's214 numbered entries/218 physical rows/432 fields. The listing
-download keeps physical page order253→254→255→256→257; the separate logical index
-orders255→256→253→254→257,printed100–2230. Native ordinals remain unchanged and
-complete physical ordinals are distinct fromlogical order. Four physical wraps,
-including300 ELSE as1270's continuation,remain intact. No source pages are reordered.
+Three classified categories and one usage section retain 12 ordered body-image
+fragments, four physical associations and 11 flow links. The 263 right-column ending
+and264 new bullet are not joined as one item. Source title spacing, historical
+드리겠읍니다 and clipped 응모권 ink remain linked to five uncertainty occurrences.
+All 51 UTF-8 range occurrences,161 evidence pins,13 exact crops,four disjoint text
+pairs and ten article/ad exclusion pairs validate; ten malformed cases reject.
 
-Three prose connections retain explanation order252→255→256→253. Three native
-code connections andone cross-native254→257 connection preserve2050 SOUND10,0→2060
-SOUND11,0 despite physicalpages255/256 between. All40 textblocks remain unchanged;
-no encoded blockmerge. Six obsolete stage deferrals are resolved only in active notes.
-All60 sourcecandidate occurrences,struck-through7-field row/two8-field rows,underlines,
-emptySCREENargument,PRIN#1,UAST,621claim,OUT PUT,1050apostrophe/1530comma,musicstrings,
-21DATArows/109fields,12endingSOUNDrows/24fields andboard/flowchart pixels survive.
-Diagram-label transcription remainsvolunteerwork; no semantic/game-strategy repair.
+Ten whole pages were reviewed: five mapped and five outside lookups. All 13 selected
+crops were inspected before six kor+eng tasks, and all raw drafts were read before
+one source correction pass. One crop repair changed two left margins and preserved
+11 unchanged crops. No OCR failures or retries. The first serializer draft placed
+the page261 image after later pages; retained authoring revision r02 fixes only
+source-page order. A failed preservation launch used an unavailable unqualified
+Python command; the corrected launch passed without source/package changes.
 
-Five savedwholeviews250,251,254,257,258 were rechecked. No newrender,mapping,OCR
-orsource correction. All71,123 prior files,58 inventories and30 core pins remain
-exact; the unchanged213-test baseline is reused. New preservation inventory:
-72,941 files. Retain allten private assembly adapters,including batch59 Othello.
-Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims andexecution
-remain unverified. No reader was rebuilt.
+All 72,941 prior files,59 inventories and30 core implementation pins remain exact.
+The unchanged213-test baseline is reused. New preservation inventory: 73,251 files.
+Retain all ten private assembly adapters, including batch59 Othello. Human acceptance,
+full proofreading,source bytes/spacing/glyph counts,claims and execution remain
+unverified. No reader was rebuilt.
 
-Next is **batch60: verify andrestore 복덕방0032**, beginning atPDF260/printed258.
-Reuse the reviewed opening view andverify the ending beforemapping; split iflonger
-than six pages. Preserve original classifieds bodies andsearchable headings under
-the accepted body-image policy. Eight unresolved identities,cover,268-page accounting,
-standalone index/report,independent issue rebuild andcloseout remain.
+Next is **batch 61: 편집후기0033 and 광고색인0034**, sharing PDF266/visible264.
+Reuse saved page266 and adjacent265/267 views; verify separate ownership of the upper
+editorial, its publication notice, the lower-right index and the lower-left colophon.
+Seven unresolved identities,cover,268-page accounting,standalone index/report,
+independent issue rebuild and closeout remain.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

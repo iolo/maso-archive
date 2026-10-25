@@ -19,27 +19,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:31 readable/sample-reviewed,0 partial,8 unresolved.
-  Batch59 completes7-page Othello0035 at `packages/othello-complete-r01`:
-  199files independentlyexact,190nativefiles unchanged;52regions/40blocks/12figures.
-  Allbodypages251–257 complete;noarticleassembly pending. Final2230RETURN/cartoon before258ad.
-  All5,743nativearrayentries/74slices/12objects/8reservedlists/4scalars preserved.
-  All16,368ranges/16,789pins/52crops/132disjointpairs pass;10malformedcases reject.
-  Threecompletecodegroups/220physicalrows;main214BASICentries/218rows/432fields.
-  Physicaldownloadorder253→254→255→256→257 andlogical255→256→253→254→257 separate;
-  printed100–2230,allnative/physical/logicalordinals andfourwraps preserved.
-  Threeprose/threecode connections pluscrossnative254→2572050→2060;no blockmerge.
-  Explanation252→255→256→253 retained. Sixactivestagedeferrals resolved;60candidates,
-  struck-through7-fieldrow/two8-fieldrows,underlines,emptySCREENargument,PRIN#1/UAST,
-  621claim,OUT PUT,1050apostrophe/1530comma,musicstrings anddiagramvolunteerwork retained.
-  Fivewholeviews rechecked;no newrender/mapping/OCR/sourcecorrection.
-  All71,123priorfiles/58inventories/30corepins exact;213-testbaseline reused.
-  Newinventory:72,941. Preservealltenprivateassemblyadapters,includingbatch59Othello.
-  Nextbatch60:verifyactualextent/restoreclassifieds0032 fromPDF260/printed258,
-  atmost6mappedpages;originalbodies/searchableheadings peraccepted imagepolicy.
-  Eightunresolvedidentities,cover,268-pageaccounting,index/report,independentissuerebuild
-  andcloseout remain. Humanacceptance/fullproofreading,sourcebytes/spacing/glyphcounts,
-  claims/execution unverified. No semantic/strategyrepair orreaderrebuild.
+- October1985 active:32 readable/sample-reviewed,0 partial,7 unresolved.
+  Batch 60 completes classifieds0032 at `packages/classifieds`:39 files independently
+  exact;13 regions/six searchable blocks/seven original panels across PDF260–264.
+  Original bodies and instructions await volunteer transcription; all body pages
+  complete, no assembly pending. Four embedded ads excluded. Only261 visible259;
+  other four folios null; canonical TOC258 unchanged. Final offer contact/terminal
+  absent in source, not reconstructed. Twelve body fragments,four physical associations,
+  11 flow links,51 ranges,161 pins,13 crops and ten malformed-case rejections pass.
+  Five source candidates retain title spacing,clipped coupon ink and 드리겠읍니다.
+  Ten whole views/five mapped/five outside;13 crops before six kor+eng tasks;
+  all raws before one correction pass. One crop operation/two changed/11 unchanged.
+  No recognition failures/retries. Retain initial serializer draft; selected r02 fixes
+  page261 image ordering only. Failed unqualified-Python launch retained; corrected
+  preservation check passed. All72,941 prior files/59 inventories/30 core pins exact;
+  unchanged213-test baseline reused. New inventory:73,251. Preserve ten adapters.
+  Next batch 61:editorial0033 and ad index0034 share PDF266/visible264; verify separate
+  ownership from colophon and use saved265–267 views. Seven unresolved identities,
+  cover,268-page accounting,index/report,independent issue rebuild and closeout remain.
+  Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
+  unverified. No reader rebuild.
   [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/

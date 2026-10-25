@@ -2845,12 +2845,108 @@
       "toc_entry_id": "maso-1985-10-toc-0032",
       "title": "복덕방",
       "parent_id": "maso-1985-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Ten wholeviews259–268 inspected. Actualclassifieds260–264:260photo/title andusageinstructions/coupon;261wanted/exchange;262exchange then sale;263–264sale.265independent bookadvertisement,266editorial/index,267DAEWOOadvertisement,268Qnixbackcover. Prior259independentcomputerad.",
+        "Only261 has visiblefolio259.260,262,263,264 have no visiblefolio;map null. Canonical TOC258 remains unchanged andis not asserted asvisible260folio. Prioroutsideobservation260 printed258 is superseded bythisdirectreview;frozenpriorledger unchanged.",
+        "Four independent embedded advertisements excluded:260lower-right 극동시스템;262lower 광화문 애플 컴퓨터;263lower MAEC;264lower 극동시스템. Complete eligible body/photo/coupon retained inoriginalpanels;fullsourcepages remainprivate reviewevidence,not cropscontainingadvertisements.",
+        "Accepted classifieds policy: searchable title/category/usage/couponlabels;complete original bodies/offers/prices/contacts/instructions retainedaspixels withvolunteertranscription pending. No item counts,currentidentities orpriceclaims inferred.",
+        "Physical associations:260usageleftlast 됩 continuesrightfirst 니다.;261exchangeleftlast options continue261righttop price/contact;262salerightlast groupeditems continue263lefttop contact;263leftlast 메뉴 continuesrightfirst 얼. Preserveoriginalpositions,not encodedbodytranscription.",
+        "263rightlast groupedoffer ends8천원에 before264left newbullet;do notinvent same-item/contact continuation.264rightlast groupedoffer ends20만원에, then independentlowerad and265bookad. No finalcontact orterminalmark visible;sourcegap explicit,no missingcontact reconstruction. Allfive bodypages retained;no assembly needed."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-10/packages/classifieds",
+        "article_id": "scan-maso-1985-10-toc-0032",
+        "manifest": {
+          "path": "archive/pdf/1985-10/packages/classifieds/manifest.json",
+          "sha256": "65ba838525215aaff220c393eacef1d91095ce8f0e7479677de21a1fb936cd1e",
+          "bytes": 6577
+        },
+        "coverage": {
+          "pdf_pages": [
+            260,
+            261,
+            262,
+            263,
+            264
+          ],
+          "printed_pages": [
+            null,
+            "259",
+            null,
+            null,
+            null
+          ],
+          "regions": 13,
+          "blocks": 6,
+          "figures": 7,
+          "coverage_scope": "Complete five-page classifieds extent; searchable labels and complete original eligible body panels. Body transcription pending volunteers.",
+          "actual_full_pdf_pages": [
+            260,
+            261,
+            262,
+            263,
+            264
+          ],
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "body_pages_complete": true,
+          "excluded_advertisement_regions": 4,
+          "full_extent_status": "Complete260–264 before independent book ad265. Final offer has no visible contact/terminal mark; preserve source gap. Only261 visible folio259; other folios null, canonical TOC258 unchanged."
+        },
+        "segments": [
+          {
+            "id": "classifieds",
+            "directory": "archive/pdf/1985-10/packages/classifieds",
+            "manifest": {
+              "path": "archive/pdf/1985-10/packages/classifieds/manifest.json",
+              "sha256": "65ba838525215aaff220c393eacef1d91095ce8f0e7479677de21a1fb936cd1e",
+              "bytes": 6577
+            },
+            "pdf_pages": [
+              260,
+              261,
+              262,
+              263,
+              264
+            ],
+            "printed_pages": [
+              null,
+              "259",
+              null,
+              null,
+              null
+            ],
+            "availability": "readable",
+            "validation": {
+              "path": "archive/pdf/1985-10/restoration/batch-60/validation.json",
+              "sha256": "cc29a8e31a30672c7ec2b10b89a40fc2ac188fe770f0d8edb6b8ad696e346497",
+              "bytes": 2324
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-10/restoration/batch-60/reproduction.json",
+              "sha256": "592d5d1b318f77acabc25d3736de851c12f448a5ec7003b8d263d4d223ee3ee9",
+              "bytes": 1337
+            }
+          }
+        ],
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "body_transcription": "pending-volunteer",
+        "validation": {
+          "path": "archive/pdf/1985-10/restoration/batch-60/validation.json",
+          "sha256": "cc29a8e31a30672c7ec2b10b89a40fc2ac188fe770f0d8edb6b8ad696e346497",
+          "bytes": 2324
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-10/restoration/batch-60/reproduction.json",
+          "sha256": "592d5d1b318f77acabc25d3736de851c12f448a5ec7003b8d263d4d223ee3ee9",
+          "bytes": 1337
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-10-toc-0033",
@@ -3390,10 +3486,10 @@
   ],
   "totals": {
     "canonical_entries": 39,
-    "readable": 31,
+    "readable": 32,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 8
+    "unresolved_eligibility": 7
   },
   "checkpoints": [
     {
@@ -6311,6 +6407,57 @@
       "started_at": "2026-10-24T23:45:43.322765+00:00",
       "finished_at": "2026-10-24T23:49:29.571504+00:00",
       "timing_scope": "Wallclock includeswaits/gaps;activehumaneffort unmeasured.",
+      "article_availability": "readable",
+      "deferred_pdf_pages": [],
+      "assembly_required": false
+    },
+    {
+      "id": "batch-60",
+      "status": "complete",
+      "stage": "validated-complete-article",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0032"
+      ],
+      "mapped_pdf_pages": [
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "outside_map_lookup_pages": [
+        259,
+        265,
+        266,
+        267,
+        268
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 6,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 6,
+      "source_correction_passes": 1,
+      "crop_repairs": 1,
+      "changed_crop_regions": 2,
+      "all_selected_crops_reviewed_before_ocr": true,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/validation.json",
+        "sha256": "cc29a8e31a30672c7ec2b10b89a40fc2ac188fe770f0d8edb6b8ad696e346497",
+        "bytes": 2324
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/verification-completed.json",
+        "sha256": "2380bad9b38ed8047cc6bc06cd658e35bc93a5071cf96e43b8848892edbdae3f",
+        "bytes": 1805
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/batch-60-preserved-work.json",
+        "sha256": "62c089dec23bee597cde3048ac802f5b21ef16cab4368b93be02608deb74c5d3",
+        "bytes": 16980213
+      },
+      "started_at": "2026-10-24T23:50:58.971786+00:00",
+      "finished_at": "2026-10-25T00:03:14.530445+00:00",
+      "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured.",
       "article_availability": "readable",
       "deferred_pdf_pages": [],
       "assembly_required": false
@@ -9297,37 +9444,159 @@
     },
     {
       "pdf_page": 260,
-      "printed_page": "258",
+      "printed_page": null,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0032"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/classifieds",
+      "evidence": "Complete classifieds eligible original panels and searchable headings. Four embedded ads excluded; only261 has visible folio259. Final offer contact absent in source.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      },
+      "superseded_observation": {
+        "previous_ledger": {
+          "path": "archive/pdf/1985-10/restoration/batch-60/previous-ledger.json",
+          "sha256": "b67594e9d6bc5011c6e9a0a7281ae49940be764f835256973c2b44d4447b971b",
+          "bytes": 395148
+        },
+        "previous_printed_page": "258",
+        "reason": "Direct whole-page review finds no visible folio. Canonical TOC reference unchanged."
+      }
+    },
+    {
+      "pdf_page": 261,
+      "printed_page": "259",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0032"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/classifieds",
+      "evidence": "Complete classifieds eligible original panels and searchable headings. Four embedded ads excluded; only261 has visible folio259. Final offer contact absent in source.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 262,
+      "printed_page": null,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0032"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/classifieds",
+      "evidence": "Complete classifieds eligible original panels and searchable headings. Four embedded ads excluded; only261 has visible folio259. Final offer contact absent in source.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 263,
+      "printed_page": null,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0032"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/classifieds",
+      "evidence": "Complete classifieds eligible original panels and searchable headings. Four embedded ads excluded; only261 has visible folio259. Final offer contact absent in source.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 264,
+      "printed_page": null,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-10-toc-0032"
+      ],
+      "restoration": "complete-article",
+      "selected_package": "archive/pdf/1985-10/packages/classifieds",
+      "evidence": "Complete classifieds eligible original panels and searchable headings. Four embedded ads excluded; only261 has visible folio259. Final offer contact absent in source.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 265,
+      "printed_page": null,
       "classification": "outside-article-observed",
       "toc_entry_ids": [],
       "restoration": "not-started",
-      "evidence": "Independent classifieds opening; canonical0032 extent/classification/restoration deferred to its checkpoint.",
+      "evidence": "Independent information-age books advertisement.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
-        "sha256": "ac47e45ec846bc5cf46691bed4b4f4a1a910c626722c661e861b591cb2edd5c4",
-        "bytes": 8247
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 266,
+      "printed_page": "264",
+      "classification": "outside-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "not-started",
+      "evidence": "Closing editorial and advertising index share page; lower-left colophon separate. Canonical0033/0034 restoration deferred to batch61.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 267,
+      "printed_page": null,
+      "classification": "outside-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "not-started",
+      "evidence": "Independent DAEWOO IQ1000 advertisement.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
+      }
+    },
+    {
+      "pdf_page": 268,
+      "printed_page": null,
+      "classification": "outside-article-observed",
+      "toc_entry_ids": [],
+      "restoration": "not-started",
+      "evidence": "Independent Qnix PC24 back-cover advertisement.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/batch-60/source-reviewed.json",
+        "sha256": "fcaa78784f1cedfd9859694d867555aada728a6da19df1f2993765c411d0fe11",
+        "bytes": 7796
       }
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF front cover visually identified but no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-60",
-    "goal": "Verify actual extent and restore canonical0032 복덕방 fromPDF260/printed258.",
+    "id": "batch-61",
+    "goal": "Restore closing editorial0033 편집후기 and advertising index0034 광고색인 on PDF266/visible264.",
     "toc_entry_ids": [
-      "maso-1985-10-toc-0032"
+      "maso-1985-10-toc-0033",
+      "maso-1985-10-toc-0034"
     ],
-    "mapping_targets": "Reuse saved260classifieds opening view;inspect actual ending andadjacentpages beforemapping. Preserve complete original classifieds pages andsearchable headings/categories underaccepted body-image policy;body transcription remainsvolunteerwork. Atmost6mappedpages;split iflonger. No invented contacts,itemcounts,currentpriceclaims ornewidentities.",
+    "mapping_targets": "Reuse reviewed whole266 and adjacent265/267. Verify upper editorial including publication notice below its box, lower-right advertising index and separate lower-left colophon. Keep two canonical owners disjoint; no invented bylines or ad reference targets. Preserve source spellings, leader bands and original panels. At most two canonical tasks/six mapped pages/twenty outside lookups.",
     "provisional_lookup_targets": [
-      259,
-      260,
-      261,
-      262,
-      263,
-      264,
       265,
       266,
-      267,
-      268
+      267
     ],
     "limits": {
       "articles": 2,
@@ -9339,7 +9608,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Othello0035 complete7-pageassembly251–257;31readable/sample-reviewed,0partial,8unresolvedidentities. Next verify/restoreclassifieds0032 fromPDF260. Physicalpage/downloadorder preserved;logical listing255→256→253→254→257 andexplanation252→255→256→253 indexed. All60sourcecandidates,sourceink,emptyarguments,wraps,board/flowchartvolunteerwork retained. Cover,268pageaccounting,index/report,independentissuerebuild andcloseout pending. Retainall10privateadapters,includingbatch59Othello. Humanacceptance/fullproofreading,sourcebytes/claims/execution unverified. No readerrebuild."
+    "Classifieds0032 complete260–264 under accepted image-body policy;32 readable/sample-reviewed,0 partial,7 unresolved. Six searchable blocks/seven original panels retain12 body fragments,4 physical associations,11 flow links and4 independent ad exclusions. Only261 visible259; other folios null. Final offer lacks visible contact/terminal; no reconstruction. Next editorial0033/index0034 on266. Preserve ten private assembly adapters. Cover,268-page accounting,index/report,independent issue rebuild and closeout remain. Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }
