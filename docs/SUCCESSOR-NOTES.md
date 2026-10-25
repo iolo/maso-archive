@@ -15,39 +15,39 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 remains in progress: twenty-one readable, assistant sample-reviewed
-articles, one partial article, and 24 unresolved identities. Batch 38 restores
-Power I/O 0003 ending pages 166–upper 169 at
-`archive/pdf/1985-11/packages/batch-38-r01/power-io-c`. All 150 files match an
-independent rebuild. The segment retains 43 regions, 33 text blocks and ten
-figures: four diagrams, one photograph, three complete pages, the upper article
-panel of 169 and its separate folio. The lower Back-Issue Guide panel belongs
-to canonical 0033 and remains excluded/pending. Source diagram order 23, 22,
-24, 25 is preserved. Its 292 transcription rows comprise 123 physical text rows
-and 169 diagram-label rows. Indexes preserve 322 label tokens, 24 schematic port
-rows, eight output groups, two repeated labels, thirty flowchart nodes, eight
-branch labels and seven routine items. Five captions, six continuations, eighteen
-physical wraps, eighteen source variants and 23 unverified technical claims are
-indexed. Solitary 6, incomplete PA, repeated 2Y1 and LS373/74LS374 remain literal.
-All selected exact crops were inspected before 33 pinned Korean/English OCR tasks;
-every raw draft was read before one source correction pass. No crop repair or
-recognition retry was needed. Serializer, both exports and verifier passed.
-All 2,582 UTF-8 ranges, 2,724 evidence pins, 43 decoded images and 131 disjoint
-nonfigure pairs validate. All 35,508 prior files, 37 inventories and thirty core
-pins remain unchanged. The unchanged 213-test baseline is reused, not rerun.
-Current preservation contains 36,109 files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-38/reproduction.json`.
-Power I/O source coverage now spans all pages 154–upper 169 in three immutable
-segments. Next batch 39 assembles them, preserving every custom index and source
-uncertainty, checking cross-segment boundaries and independent exports. Article
-availability stays partial until that assembly passes. No new mapping or OCR is
-expected. Parent 0002 remains unchanged. Completed VDP pages 117–151 and its
-batch 35 adapter remain. Diskette 0032 still needs a location search after its
-TOC 72 mismatch; News parent 0020 and Back-Issue Guide 0033 remain unresolved.
-Cover, all 266 source pages and issue closeout remain. Replies, logs and documents
-use English; original source material retains its language. No reader rebuild.
-Human acceptance/full proofreading, source bytes, exact spacing, glyph identity,
-historical/technical claims and execution remain unverified.
+November 1985 remains in progress: twenty-two readable, assistant sample-reviewed
+articles, no partial article or pending assembly, and 24 unresolved identities.
+Batch 39 completes Power I/O 0003, pages 154–upper 169, at
+`archive/pdf/1985-11/packages/power-io`. All 643 files match an independent rebuild,
+including 635 unchanged native files. The assembly retains 188 regions, 141 text
+blocks and 47 figures, with 25 diagrams, four photographs and sixteen source-page
+views. Page 169 preserves its upper article panel and separate folio; the lower
+Back-Issue Guide panel belongs to canonical 0033 and remains excluded/pending.
+Its 1,292 transcription rows comprise 726 physical text rows, 560 diagram-label
+rows and six logical table rows. All eighteen table cells, three overbars, one
+fraction, fourteen subscripts, 850 diagram-label tokens, 24 port rows, eight
+output groups, thirty flowchart nodes, eight branch labels and seven routine
+items remain indexed. Source figure order 1–21, 23, 22, 24, 25 is preserved.
+Nine obsolete stage deferrals are resolved, with two complete segment boundaries;
+all original stage metadata and source uncertainties remain. No new mapping,
+rendering, OCR or source correction was needed. Eight saved whole views were
+reopened. Every native metadata category reversibly projects into the assembly:
+43 array categories, 129 slices, nine objects, twelve reserved lists and six
+scalars. All 19,699 UTF-8 range occurrences, 21,341 evidence-pin references,
+188 decoded images and 586 disjoint nonfigure pairs validate. All 36,109 prior
+files, 38 inventories and thirty core pins remain unchanged. The unchanged
+213-test baseline is reused, not rerun. Current preservation contains 37,419 files.
+Reproduce with `archive/pdf/1985-11/restoration/batch-39/reproduction.json` and
+its pinned `power-io-literal-v1` adapter. Completed VDP and earlier assemblies
+retain their adapters. Next batch 40 establishes the full extent of Microprocessor
+65816, canonical 0004, opening on observed page 170, then restores a bounded
+segment. Parent 0002 remains unresolved and unchanged. Diskette 0032 still needs
+a location search after its TOC 72 mismatch; News parent 0020 and Back-Issue Guide
+0033 remain unresolved. Cover, all 266 source pages and issue closeout remain.
+Replies, logs and documents use English; original source material retains its
+language. No reader rebuild. Human acceptance/full proofreading, source bytes,
+exact spacing, glyph identity, historical/technical claims and execution remain
+unverified.
 Existing batch 20 Lessons from Apple, batch 17 Hangul feature, batch 14 PLAY and
 batch 09 numerical-analysis adapters remain required for their complete assemblies.
 See [November log](progress/8511.md) and the issue ledger.
