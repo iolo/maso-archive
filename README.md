@@ -171,13 +171,14 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twenty-five articles are readable,
-one is partial, and twenty of 46 identities remain unresolved. Batch 44 restores
-ALG III's ending pages 190-195; all 152 package files match the independent
-rebuild. All body pages 178-195 now exist in three immutable segments. Next,
-assemble the complete article. Cover and whole-issue accounting remain.
-Logs and documents use English; original source text retains its language.
-No reader rebuild. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: twenty-six articles are readable,
+with no partial article or pending assembly. Twenty of 46 identities remain
+unresolved. Complete ALG III pages 178-195 have 538 independently identical
+package files, preserving all three native segments, five distinct printed
+listings, five tables and all source uncertainties. Magic Square is next.
+Cover, remaining articles and whole-issue accounting remain. Progress logs and
+documentation use English; original source text retains its language.
+See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
