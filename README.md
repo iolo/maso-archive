@@ -171,13 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty articles are readable,
-none is partial and sixteen of 46 identities remain unresolved. Character Definition
-Editor is fully assembled across pages 217-227; all 331 files match an independent
-rebuild. Printed programs, screen fields and handwritten notes remain separate.
-Automatic Menu III on 211-215 is next. Cover, remaining articles and whole-issue
-accounting remain. Progress logs and documentation use English; source retains
-its original language. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: thirty-one articles are readable,
+none is partial and fifteen of 46 identities remain unresolved. Automatic Menu III
+is complete on pages 211-215; all 171 files match an independent rebuild. Printed
+listings, inline examples and screen fields remain distinct. Bank Panic, opening
+on 228, is next. Cover, remaining articles and whole-issue accounting remain.
+Progress logs and documentation use English; source retains its original language.
+See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 

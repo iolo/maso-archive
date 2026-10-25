@@ -6,28 +6,29 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-November 1985 remains in progress: thirty readable, assistant sample-reviewed
-articles, no partial article or pending assembly, and sixteen unresolved identities.
-Batch 50 completes Character Definition Editor 0006 across pages 217-227.
-All 331 assembled files match an independent rebuild, including 322 unchanged
-native files. The package retains 88 regions, 73 blocks and sixteen figures.
-Every native metadata category is preserved: 55 array categories, seven objects,
-eight reserved lists and two scalars. All 27,973 UTF-8 range occurrences and
-29,047 evidence-pin references validate, along with 88 decoded images and 280
-disjoint nonfigure pairs. Reference 40 is linked across pages 222-223 without
-changing its native text. Three printed listings retain 134 CHRMAKER statements,
-107 CHRMC000 assembly rows and 27 PROGEN statements. Screen fields, diagram
-labels and handwritten annotations remain separate; no handwritten edit is applied.
-Six obsolete stage notes are resolved. Original metadata and source uncertainties
-remain intact, including the canonical page-206 hint and unknown glyph counts.
-All 45,160 previous files, 49 inventories and thirty core pins are unchanged.
-The unchanged 213-test baseline is reused. No new mapping, OCR or source correction.
-An initial recipe wording assertion failed before writing; its script and failure
-record are preserved. The revised recipe, both exports and verifier succeeded.
-Current preservation contains 45,844 issue files. Reproduction:
-`archive/pdf/1985-11/restoration/batch-50/reproduction.json`.
-Next batch 51 restores Automatic Menu III 0007, located on pages 211-215.
-Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
+November 1985 remains in progress: thirty-one readable, assistant sample-reviewed
+articles, no partial article or pending assembly, and fifteen unresolved identities.
+Batch 51 completes Automatic Menu III 0007 across pages 211-215.
+All 171 package files match an independent rebuild. The package retains 48 regions,
+38 blocks, ten figures and 350 transcription rows. Two printed listings preserve
+72 BASIC statements and 28 assembly rows; three inline examples remain separate.
+All 151 assembly fields, 68 printed byte fields and 67 BASIC DATA values are retained
+without assuming equivalence or validating behavior. Two screen examples preserve
+thirteen catalog entries, seven menu choices and eighty separate screen fields.
+Four prose continuations, thirteen wrapped statements, eleven explanatory sections,
+eight artwork labels and three source-credit fields remain explicitly indexed.
+All 6,133 UTF-8 ranges, 6,348 evidence pins, 48 images and 139 disjoint nonfigure
+pairs validate. Five crop-margin adjustments preceded 38 pinned OCR tasks;
+eleven used English and 27 used Korean/English. One source pass, zero retries.
+Forty uncertain variants and five unknown text/character-count spans remain.
+The initial verifier had a newline-boundary assertion error; both attempts are
+preserved. Source transcripts, metadata and exports were unchanged by that fix.
+All 45,844 previous files, fifty inventories and thirty core pins are unchanged.
+The unchanged 213-test baseline is reused. Current preservation: 46,594 issue files.
+Reproduction: `archive/pdf/1985-11/restoration/batch-51/reproduction.json`.
+Next batch 52 verifies the full extent of Bank Panic 0013, opening observed on 228,
+and restores a complete article or a bounded opening segment. Parent 0012 remains
+unresolved. Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
 and Back-Issue Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null.
 Cover, remaining identities, full 266-page accounting and issue closeout remain.
 Replies, logs and documentation use English; original source retains its language.
