@@ -172,13 +172,11 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: twenty-five articles are readable,
-one is partial, and twenty of 46 identities remain unresolved. Batch 42 restores
-ALG III's opening pages 178-183; all 231 package files match the independent
-rebuild. Its complete extent is 178-195. In-flight batch 43 maps pages 184-189;
-all 32 OCR drafts have been read. Direct source correction and export verification
-are next. Remaining pages 190-195 and complete article assembly will follow.
-Cover and whole-issue accounting remain. Logs and documents use English;
-original source text retains its language.
+one is partial, and twenty of 46 identities remain unresolved. Batch 43 restores
+ALG III's middle pages 184-189; all 146 package files match the independent
+rebuild. Its opening 178-183 remains immutable. Next, restore final pages 190-195
+and assemble the complete article. Cover and whole-issue accounting remain.
+Logs and documents use English; original source text retains its language.
 No reader rebuild. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
