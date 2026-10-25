@@ -1,40 +1,37 @@
 # PDF restoration progress
 
-Updated 2026-10-25. This file is the status index; detailed records live under
+Updated 2026-10-26. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
-November 1985 remains in progress: twenty-two readable, assistant sample-reviewed
-articles, no partial article or pending assembly, and 24 unresolved identities.
-Batch 39 completes Power I/O 0003, pages 154–upper 169, at
-`archive/pdf/1985-11/packages/power-io`. All 643 files match an independent rebuild,
-including 635 unchanged native files. The assembly retains 188 regions, 141 text
-blocks and 47 figures, with 25 diagrams, four photographs and sixteen source-page
-views. Page 169 preserves its upper article panel and separate folio; the lower
-Back-Issue Guide panel belongs to canonical 0033 and remains excluded/pending.
-Its 1,292 transcription rows comprise 726 physical text rows, 560 diagram-label
-rows and six logical table rows. All eighteen table cells, three overbars, one
-fraction, fourteen subscripts, 850 diagram-label tokens, 24 port rows, eight
-output groups, thirty flowchart nodes, eight branch labels and seven routine
-items remain indexed. Source figure order 1–21, 23, 22, 24, 25 is preserved.
-Nine obsolete stage deferrals are resolved, with two complete segment boundaries;
-all original stage metadata and source uncertainties remain. No new mapping,
-rendering, OCR or source correction was needed. Eight saved whole views were
-reopened. Every native metadata category reversibly projects into the assembly:
-43 array categories, 129 slices, nine objects, twelve reserved lists and six
-scalars. All 19,699 UTF-8 range occurrences, 21,341 evidence-pin references,
-188 decoded images and 586 disjoint nonfigure pairs validate. All 36,109 prior
-files, 38 inventories and thirty core pins remain unchanged. The unchanged
-213-test baseline is reused, not rerun. Current preservation contains 37,419 files.
-Reproduce with `archive/pdf/1985-11/restoration/batch-39/reproduction.json` and
-its pinned `power-io-literal-v1` adapter. Completed VDP and earlier assemblies
-retain their adapters. Next batch 40 establishes the full extent of Microprocessor
-65816, canonical 0004, opening on observed page 170, then restores a bounded
-segment. Parent 0002 remains unresolved and unchanged. Diskette 0032 still needs
-a location search after its TOC 72 mismatch; News parent 0020 and Back-Issue Guide
-0033 remain unresolved. Cover, all 266 source pages and issue closeout remain.
+November 1985 remains in progress: twenty-three readable, assistant sample-reviewed
+articles, no partial article or pending assembly, and 23 unresolved identities.
+Batch 40 completes Microprocessor 65816, canonical 0004, on pages 170–upper 175.
+The package is `archive/pdf/1985-11/packages/microprocessor-65816`; all 150 files
+match an independent rebuild. Its 43 regions, 33 text blocks and ten figures
+preserve the complete prose, programming model, status diagram, two pinouts,
+two vector tables and the 16-by-16 instruction matrix. All 256 physical matrix
+cells, forty opposing pin pairs, twelve vector rows, six programming-model rows
+and eight status descriptions are indexed, including blank and shifted fields.
+Folios 170–174 are individually visible; 175 has no visible folio. Its lower
+contest overview is excluded and remains pending an ownership review.
+All 33 raw OCR drafts were read before one source correction pass, with no
+recognition retries. The failed initial mapping script and both map/crop versions
+remain preserved. Three revised crops resolve clipped pinout/table labels and
+one prose margin. All 8,253 UTF-8 ranges, 8,386 evidence pins, 43 decoded images
+and 85 disjoint nonfigure pairs validate. All 37,419 prior files, 39 inventories
+and thirty core pins remain unchanged. The unchanged 213-test baseline is reused,
+not rerun. Current preservation contains 38,120 files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-40/reproduction.json`.
+Next batch 41 reviews PDF 176 as a location lead for diskette canonical 0032,
+following the earlier TOC 72 mismatch. No canonical match is claimed yet.
+Pages 175–177 have no visible folios. ALG III 0008 opens on observed 178;
+its extent and possible relation to the lower contest panel 175 remain later work.
+Parents 0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Completed
+Power I/O, VDP and earlier assemblies retain their native files and adapters.
+Cover, remaining identities, all 266 source pages and issue closeout remain.
 Replies, logs and documents use English; original source material retains its
 language. No reader rebuild. Human acceptance/full proofreading, source bytes,
 exact spacing, glyph identity, historical/technical claims and execution remain

@@ -291,12 +291,80 @@
       "toc_entry_id": "maso-1985-11-toc-0004",
       "title": "마이크로프로세서 65816",
       "parent_id": "maso-1985-11-toc-0002",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 0004 Microprocessor 65816 occupies PDF pages 170–upper 175. Folios 170–174 are individually visible; no printed folio is visible on PDF 175, so it remains null. Canonical identity, title, attribution and parent 0002 remain unchanged.",
+        "Opening 170 follows the Power I/O ending and separate lower Back-Issue Guide on 169. The processor article ends in the upper-right column of 175 before an independent contest overview and award table. PDF 176 is a diskette offer, 177 an MS-DOS book advertisement, and observed 178 opens canonical 0008 ALG III.",
+        "This complete six-page map preserves two-column prose, the programming model/status diagram, two chip pinouts, two vector tables and the dense 16-by-16 instruction matrix printed as Table 4. Unlabelled figure numbering is not inferred from expected processor documentation.",
+        "The instruction matrix is mapped into sixteen physical row strips with separate column and side labels. Printed errors, inconsistent labels, unusual values and omitted fields must remain source-linked. No processor behavior, opcode correctness or execution is checked.",
+        "PDF 176 is a new location lead for unresolved diskette canonical 0032 after the earlier TOC 72 mismatch. It is outside this article and is not restored or assigned ownership here."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/microprocessor-65816",
+        "article_id": "scan-maso-1985-11-toc-0004",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/microprocessor-65816/manifest.json",
+          "sha256": "bb80ff05e478e1d1999e1fe66fdc88aec6eb57c2e160a5d24380852cf10c19f7",
+          "bytes": 24970
+        },
+        "coverage": {
+          "pdf_pages": [
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "printed_pages": [
+            "170",
+            "171",
+            "172",
+            "173",
+            "174",
+            null
+          ],
+          "full_article_pdf_pages": [
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "regions": 43,
+          "blocks": 33,
+          "figures": 10,
+          "deferred_pdf_pages": [],
+          "excluded_region_ids": [
+            "contest-overview175"
+          ],
+          "shared_page": {
+            "pdf_page": 175,
+            "article_scope": "upper panel",
+            "excluded_owner": null,
+            "excluded_restoration": "pending independent review"
+          }
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "마이크로 프로세서\n65816",
+        "source_byline": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-40/validation.json",
+          "sha256": "57d15391416c0f6701e40d2d405552b04f18eb3890b81e4e58cc2b322b059e7b",
+          "bytes": 2140
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-40/reproduction.json",
+          "sha256": "4368b04a71e73538f39f8ed63a4677de85b1e8985df5b8db75e0b1b10c5cbd58",
+          "bytes": 1489
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0005",
@@ -2080,10 +2148,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 22,
+    "readable": 23,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 24
+    "unresolved_eligibility": 23
   },
   "checkpoints": [
     {
@@ -3740,6 +3808,51 @@
       "started_at": "2026-10-25T14:44:17.110973+00:00",
       "finished_at": "2026-10-25T14:50:15.920651+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-40",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
+      "mapped_pdf_pages": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "outside_map_lookup_pages": [
+        169,
+        176,
+        177,
+        178
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 33,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 3,
+      "scope_adjustment": "Complete Microprocessor 65816 article 170–upper 175. Folios 170–174 observed; 175 null. Lower contest overview excluded. PDF 176 is a new unassigned diskette lead; no canonical match claimed. Failed initial mapping script and all original/revised crops preserved.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-40/validation.json",
+        "sha256": "57d15391416c0f6701e40d2d405552b04f18eb3890b81e4e58cc2b322b059e7b",
+        "bytes": 2140
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-40/verification-completed.json",
+        "sha256": "6ad9eef54d744f48c82d7755891ff18e76ea6730bab646f76d9df6f83b395605",
+        "bytes": 1844
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-40-preserved-work.json",
+        "sha256": "bf7876bce5c2c342eb18a9aa35ed93954f0a834da47f610542884de2b4b49f5b",
+        "bytes": 8440705
+      },
+      "started_at": "2026-10-25T14:53:33.227806+00:00",
+      "finished_at": "2026-10-25T15:26:13.220197+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -5210,34 +5323,109 @@
     {
       "pdf_page": 170,
       "printed_page": "170",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0004"
       ],
+      "restoration": "article-complete",
+      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. Folio individually observed.",
+      "prior_stage_notes": [
+        "Separate Microprocessor65816 article opening after Power I/O conclusion169; extent beyond this opening not established."
+      ]
+    },
+    {
+      "pdf_page": 171,
+      "printed_page": "171",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
+      "restoration": "article-complete",
+      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. Folio individually observed."
+    },
+    {
+      "pdf_page": 172,
+      "printed_page": "172",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
+      "restoration": "article-complete",
+      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. Folio individually observed."
+    },
+    {
+      "pdf_page": 173,
+      "printed_page": "173",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
+      "restoration": "article-complete",
+      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. Folio individually observed."
+    },
+    {
+      "pdf_page": 174,
+      "printed_page": "174",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
+      "restoration": "article-complete",
+      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. Folio individually observed."
+    },
+    {
+      "pdf_page": 175,
+      "printed_page": null,
+      "classification": "shared-article-page",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
+      "restoration": "article-complete; lower-contest-panel-pending",
+      "note": "Microprocessor 65816 canonical 0004 is complete at 170–upper 175. No visible folio. Lower contest overview remains excluded; ownership unresolved."
+    },
+    {
+      "pdf_page": 176,
+      "printed_page": null,
+      "classification": "unresolved-entry-location-lead",
+      "toc_entry_ids": [],
+      "candidate_toc_entry_ids": [
+        "maso-1985-11-toc-0032"
+      ],
+      "restoration": "pending separate source and canonical-match review",
+      "note": "Back-issue diskette offer with no visible folio. New lead after the earlier TOC 72 mismatch; not assigned to canonical 0032 yet."
+    },
+    {
+      "pdf_page": 177,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside mapped article",
+      "note": "MS-DOS Handbook book advertisement; no visible folio. Individually inspected boundary lookup."
+    },
+    {
+      "pdf_page": 178,
+      "printed_page": "178",
+      "classification": "article-opening",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
       "restoration": "pending",
-      "note": "Separate Microprocessor65816 article opening after Power I/O conclusion169; extent beyond this opening not established."
+      "note": "Observed ALG III prize-winning program opening. Full extent and relation to lower contest panel 175 require a separate bounded checkpoint."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-40",
-    "goal": "Verify the full extent and restore canonical 0004 Microprocessor 65816, opening on observed page 170. Inspect ending and adjacent boundaries before mapping a complete article or bounded opening segment. Preserve canonical title, attribution and parent 0002.",
+    "id": "batch-41",
+    "goal": "Review the back-issue diskette offer on PDF 176 against unresolved canonical 0032 and the earlier TOC 72 mismatch. Verify independent boundaries and canonical ownership before restoring the entry. No visible folio on 176; keep it null. Preserve all earlier evidence. ALG III canonical 0008 at observed 178 and its possible relation to lower contest panel 175 remain later work.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0004"
+      "maso-1985-11-toc-0032"
     ],
-    "mapping_targets": "Opening 170 observed. Later extent unverified; apply the six-page mapping limit.",
+    "mapping_targets": "Candidate PDF 176; only map after canonical-match review.",
     "provisional_lookup_targets": [
-      169,
-      170,
-      171,
-      172,
-      173,
-      174,
+      72,
       175,
       176,
-      177,
-      178,
-      179
+      177
     ],
     "limits": {
       "articles": 2,
@@ -5249,7 +5437,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-two readable articles; no current partial article or pending assembly. Twenty-four unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from child restoration. Lower Back-Issue Guide panel 169 is excluded from Power I/O and pending under canonical 0033."
+    "Twenty-three readable articles; no partial article or pending assembly. Twenty-three unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 has a new unassigned location lead on PDF 176 after the TOC 72 mismatch. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Lower Back-Issue Guide 169 and contest overview 175 remain pending. No visible folios on 175–177."
   ],
   "reader_rebuild": false
 }
