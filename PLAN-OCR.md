@@ -23,41 +23,29 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 remains in progress: twenty-nine readable, assistant sample-reviewed
-  articles, one partial article and sixteen unresolved identities.
-  Batch 49 completes closing coverage for Character Definition Editor 0006,
-  pages 223-227. All eligible body pages 217-227 are now restored across two
-  immutable segments. Full article assembly remains required before readability.
-  The canonical page-206 hint is unchanged; Small HCOPY on 206-209 is separate.
-  The closing package is
-  `archive/pdf/1985-11/packages/batch-49/character-definition-editor-closing`.
-  All 96 files match an independent rebuild; the opening's 226 files remain intact.
-  Closing coverage retains 27 regions, 21 reading blocks and seven figures.
-  Its 456 transcription rows comprise twenty physical prose rows, 430 code rows
-  and six handwritten rows. Three distinct listings retain 134 CHRMAKER statements,
-  107 CHRMC000 assembly rows and 27 PROGEN statements. Five cross-region statement
-  continuations and 91 wrapped statements preserve physical source boundaries.
-  All 519 assembly fields, 107 addresses, seventy byte fields, ten labels,
-  39 comments, 73 instruction fields and ten symbol pairs remain literal.
-  Two handwritten annotations remain separate from printed code, including one
-  mixed scan with distinct code/prose blocks. Six strike-mark records and two
-  overwritten-operator records retain the original images. Seven routine references
-  and the incoming page-222 reference-40 continuation await full assembly.
-  All twenty raw drafts preceded one source pass; zero recognition retries.
-  Three crop-margin repairs and one four-region merge preceded OCR. The initial
-  failed mapping attempt remains. Serialization, both exports and verification
-  passed on their first executions. No source text was semantically repaired.
-  Verification checks 9,411 UTF-8 ranges, 9,540 evidence-pin references, 27 images
-  and 37 disjoint nonfigure pairs. All 44,704 prior files, 48 inventories and thirty
-  core pins remain unchanged. The unchanged 213-test baseline is reused.
-  Current preservation contains 45,160 issue files. Reproduction:
-  `archive/pdf/1985-11/restoration/batch-49/reproduction.json`.
-  Next batch 50 assembles full Character Definition Editor 217-227 from the two
-  immutable segments, preserving all native files, source layers and range indexes.
-  Automatic Menu III 0007 is located on 211-215 but remains unrestored.
+- November 1985 remains in progress: thirty readable, assistant sample-reviewed
+  articles, no partial article or pending assembly, and sixteen unresolved identities.
+  Batch 50 completes Character Definition Editor 0006 across pages 217-227.
+  All 331 assembled files match an independent rebuild, including 322 unchanged
+  native files. The package retains 88 regions, 73 blocks and sixteen figures.
+  Every native metadata category is preserved: 55 array categories, seven objects,
+  eight reserved lists and two scalars. All 27,973 UTF-8 range occurrences and
+  29,047 evidence-pin references validate, along with 88 decoded images and 280
+  disjoint nonfigure pairs. Reference 40 is linked across pages 222-223 without
+  changing its native text. Three printed listings retain 134 CHRMAKER statements,
+  107 CHRMC000 assembly rows and 27 PROGEN statements. Screen fields, diagram
+  labels and handwritten annotations remain separate; no handwritten edit is applied.
+  Six obsolete stage notes are resolved. Original metadata and source uncertainties
+  remain intact, including the canonical page-206 hint and unknown glyph counts.
+  All 45,160 previous files, 49 inventories and thirty core pins are unchanged.
+  The unchanged 213-test baseline is reused. No new mapping, OCR or source correction.
+  An initial recipe wording assertion failed before writing; its script and failure
+  record are preserved. The revised recipe, both exports and verifier succeeded.
+  Current preservation contains 45,844 issue files. Reproduction:
+  `archive/pdf/1985-11/restoration/batch-50/reproduction.json`.
+  Next batch 51 restores Automatic Menu III 0007, located on pages 211-215.
   Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
-  and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176
-  with its page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null.
+  and Back-Issue Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null.
   Cover, remaining identities, full 266-page accounting and issue closeout remain.
   Replies, logs and documentation use English; original source retains its language.
   No reader rebuild. Human acceptance/full proofreading, original bytes, spacing,

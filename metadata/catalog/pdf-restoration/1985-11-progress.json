@@ -442,7 +442,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical 0006 is located by the title on 217 and matching author credit, not by the canonical page-206 hint. Printed title is 문자정의 에디터, platform SPC-1000 and byline 진 용 성. The canonical identity, title, byline, order and parent remain unchanged.",
@@ -457,18 +457,25 @@
         "Listing 2 CHRMC000 begins at the foot of 225, continues on 226 and ends at the top of 227 with an adjacent symbol table. Keep every printed row number, address, byte field, label, instruction and comment as literal source fields; no opcode, address-target or execution verification.",
         "Listing 3 PROGEN occupies lower 227 and ends at printed statement 200. Bank Panic opens separately on 228. All five mapped pages contain eligible article body; no continuation of this article is inferred into 228. Full immutable assembly with opening 217-222 remains required.",
         "One canonical task, five mapped pages and two outside-map boundary views. Preserve complete page images and original marked excerpts. Handwritten notes are prose blocks separate from printed listing code; do not silently merge or execute them. No OCR or source correction has started.",
-        "All source-body pages 217-227 restored across two immutable segments. Complete assembly remains required before readable classification."
+        "All source-body pages 217-227 restored across two immutable segments. Complete assembly remains required before readable classification.",
+        "All eleven Character Definition Editor pages 217-227 assembled from two immutable natives; all 331 files match an independent rebuild, including 322 exact native files. Six obsolete stage notes resolved. Reference 40 linked across 222/223 without modifying source text. All metadata and uncertainties retained; three printed listings, screen fields and handwritten notes remain distinct. Canonical page-206 hint remains unchanged."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-49/character-definition-editor-closing",
+        "directory": "archive/pdf/1985-11/packages/character-definition-editor",
         "article_id": "scan-maso-1985-11-toc-0006",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-49/character-definition-editor-closing/manifest.json",
-          "sha256": "d03814ba7bc7b96c7d57cf9868ca708b5c9e99f37138ace0d4341fa8250c5e67",
-          "bytes": 16688
+          "path": "archive/pdf/1985-11/packages/character-definition-editor/manifest.json",
+          "sha256": "55ec961d1dafafe97d2f1e648ef563723e3043bf7f4493302ad96b0c3124d917",
+          "bytes": 62600
         },
         "coverage": {
           "pdf_pages": [
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
             223,
             224,
             225,
@@ -476,6 +483,12 @@
             227
           ],
           "printed_pages": [
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
             "223",
             "224",
             "225",
@@ -509,15 +522,15 @@
             227
           ],
           "uninspected_interior_pdf_pages": [],
-          "regions": 27,
-          "blocks": 21,
-          "figures": 7,
+          "regions": 88,
+          "blocks": 73,
+          "figures": 16,
           "deferred_pdf_pages": [],
           "excluded_region_ids": []
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "source_title": "문자정의 에디터",
         "source_byline": "진 용 성",
         "source_platform": "SPC-1000",
@@ -526,14 +539,14 @@
         "source_start_pdf_page": 217,
         "page_hint_note": "Canonical page-206 hint remains unchanged. Small HCOPY on 206-209 is a distinct article; actual source identity and byline locate this article on 217-227.",
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-49/validation.json",
-          "sha256": "af114f4c988f32c47be79f3b5608c5284d4fd8e03b74707c7bcf493e4e7dc7f7",
-          "bytes": 2637
+          "path": "archive/pdf/1985-11/restoration/batch-50/validation.json",
+          "sha256": "18856ae153545d0878127d6ff071b0c558f90009955eb47de6730249da0b9281",
+          "bytes": 3951
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-49/reproduction.json",
-          "sha256": "a1f8b1e18bfd43bc8df01547909b3a7dba9f9e5dfb5b47593245a0219a515581",
-          "bytes": 1749
+          "path": "archive/pdf/1985-11/restoration/batch-50/reproduction.json",
+          "sha256": "b6b14aa7485b9fc9b3072a611cc5013c86719cc9b3735f3629234839693d98ef",
+          "bytes": 2321
         },
         "segments": [
           {
@@ -589,7 +602,13 @@
               "bytes": 1749
             }
           }
-        ]
+        ],
+        "assembly_format": "character-editor-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-11/restoration/batch-50/character_editor_literal.py",
+          "sha256": "2e892064feab2bd7404bd70803e6c641d7b70753a7236c3d2d6268b0e6b5965c",
+          "bytes": 18068
+        }
       }
     },
     {
@@ -2742,8 +2761,8 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 29,
-    "partial": 1,
+    "readable": 30,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 16
   },
@@ -4858,6 +4877,38 @@
       "started_at": "2026-10-25T19:33:03.593309+00:00",
       "finished_at": "2026-10-25T19:57:52.115418+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-50",
+      "status": "complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0006"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_crop_repair": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-50/validation.json",
+        "sha256": "18856ae153545d0878127d6ff071b0c558f90009955eb47de6730249da0b9281",
+        "bytes": 3951
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-50/verification-completed.json",
+        "sha256": "96b4525f2c1b61c921b6f0c08caf7c73739683cd17c38605df1c24ce626a2baf",
+        "bytes": 2381
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-50-preserved-work.json",
+        "sha256": "7e3244f7e2e031c67714881990a5c4ab3a1f26309805b547052b6ef649f5204d",
+        "bytes": 10244227
+      },
+      "started_at": "2026-10-25T20:02:55.546335+00:00",
+      "finished_at": "2026-10-25T20:07:58.153670+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -6872,9 +6923,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
+      "prior_stage_notes": [
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      ]
     },
     {
       "pdf_page": 218,
@@ -6882,9 +6936,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
+      "prior_stage_notes": [
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      ]
     },
     {
       "pdf_page": 219,
@@ -6892,9 +6949,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
+      "prior_stage_notes": [
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      ]
     },
     {
       "pdf_page": 220,
@@ -6902,9 +6962,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
+      "prior_stage_notes": [
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      ]
     },
     {
       "pdf_page": 221,
@@ -6912,9 +6975,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
+      "prior_stage_notes": [
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      ]
     },
     {
       "pdf_page": 222,
@@ -6922,9 +6988,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
+      "prior_stage_notes": [
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+      ]
     },
     {
       "pdf_page": 223,
@@ -6932,11 +7001,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed.",
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
       "prior_stage_notes": [
-        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed.",
+        "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed."
       ]
     },
     {
@@ -6945,11 +7015,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed.",
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
       "prior_stage_notes": [
-        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed.",
+        "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed."
       ]
     },
     {
@@ -6958,11 +7029,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed.",
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
       "prior_stage_notes": [
-        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed.",
+        "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed."
       ]
     },
     {
@@ -6971,11 +7043,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed.",
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
       "prior_stage_notes": [
-        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed.",
+        "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed."
       ]
     },
     {
@@ -6984,11 +7057,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0006"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed.",
+      "note": "Character Definition Editor canonical 0006 fully assembled across 217-227 from two immutable segments. Folio individually observed. Printed listings, screen fields, handwriting and source uncertainties remain distinct and unchanged. Canonical page-206 hint retained.",
       "prior_stage_notes": [
-        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed."
+        "Character Definition Editor canonical 0006 occupies 217-227. Opening 217-222 restored. Remaining 223-227 and full article assembly pending. Canonical page-206 hint retained; folio individually observed.",
+        "Character Definition Editor canonical 0006 closing 223-227 restored. Together with immutable opening 217-222, all eligible body pages are covered. Full article assembly remains required. Printed and handwritten layers remain separate; folio individually observed."
       ]
     },
     {
@@ -7002,13 +7076,22 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-50",
-    "goal": "Assemble complete Character Definition Editor canonical 0006 from immutable opening 217-222 and closing 223-227. Preserve all native files, per-block ranges, separate handwritten annotations, source-layer marks, routine-reference continuation across 222/223, three listing identities, assembly fields, symbol pairs, source uncertainties and page-hint mismatch. Export independently twice and verify complete coverage. No new OCR, source correction or execution.",
+    "id": "batch-51",
+    "goal": "Restore complete canonical 0007 Automatic Menu III on observed pages 211-215. Reinspect full pages and adjacent advertisements 210/216 before mapping. Preserve title, attribution, literal program rows, physical wraps, figures and source uncertainties. Canonical identity, page hint and parent unchanged.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0006"
+      "maso-1985-11-toc-0007"
     ],
-    "mapping_targets": [],
-    "provisional_lookup_targets": [],
+    "mapping_targets": [
+      211,
+      212,
+      213,
+      214,
+      215
+    ],
+    "provisional_lookup_targets": [
+      210,
+      216
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -7019,7 +7102,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-nine readable articles, one partial article and sixteen unresolved identities. Character Definition Editor 0006 now has complete body coverage 217-227 across immutable opening and closing segments; full article assembly remains. Canonical page-206 hint unchanged; Small HCOPY 206-209 is distinct. Automatic Menu III 0007 located on 211-215 but unrestored. Cover, full 266-page accounting and issue closeout remain. Software Contest 0035 page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null."
+    "Thirty readable articles; no partial article or pending assembly. Sixteen unresolved identities, cover, full 266-page accounting and issue closeout remain. Character Definition Editor 0006 is fully assembled on 217-227 with canonical page-206 hint unchanged; Small HCOPY 206-209 is distinct. Automatic Menu III 0007 is located on 211-215 but unrestored. Software Contest 0035 page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null."
   ],
   "reader_rebuild": false
 }

@@ -171,14 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twenty-nine articles are readable,
-one is partial and sixteen of 46 identities remain unresolved. Character Definition
-Editor has complete body coverage on 217-227 across two immutable segments;
-full article assembly is next. The closing segment's 96 files match an independent
-rebuild, with handwritten notes separate from printed listings. The original
-page-206 hint is preserved. Cover, remaining articles and whole-issue accounting
-remain. Progress logs and documentation use English; source retains its language.
-See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: thirty articles are readable,
+none is partial and sixteen of 46 identities remain unresolved. Character Definition
+Editor is fully assembled across pages 217-227; all 331 files match an independent
+rebuild. Printed programs, screen fields and handwritten notes remain separate.
+Automatic Menu III on 211-215 is next. Cover, remaining articles and whole-issue
+accounting remain. Progress logs and documentation use English; source retains
+its original language. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
