@@ -172,12 +172,12 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: twenty-nine articles are readable,
-with no partial article or pending assembly. Seventeen of 46 identities remain
-unresolved. Bit Image Hardcopy (200-205) and Manuscripts Wanted (right 205) are
-complete; their independent rebuilds match all 167 files. The next checkpoint
-locates Character Definition Editor and resolves its conflicting page-206 hint.
-Cover, remaining articles and whole-issue accounting remain. Progress logs and
-documentation use English; original source text retains its language.
+one is partial and sixteen of 46 identities remain unresolved. Character Definition
+Editor opening pages 217-222 are restored; all 226 files match an independent
+rebuild. Its full extent is 217-227, with the original page-206 hint preserved.
+Closing pages 223-227 and full article assembly are next. Cover, remaining
+articles and whole-issue accounting remain. Progress logs and documentation
+use English; original source text retains its language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

@@ -24,40 +24,41 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - November 1985 remains in progress: twenty-nine readable, assistant sample-reviewed
-  articles, no partial article or pending assembly, and seventeen unresolved identities.
-  Batch 47 completes Bit Image Hardcopy 0005, pages 200-205, and the separate
-  Manuscripts Wanted notice 0036 at right 205. Selected packages are under
-  `archive/pdf/1985-11/packages/batch-47/`. Both independent rebuilds match all
-  145 and 22 files respectively. The shared bodies are disjoint; only the folio
-  crop overlaps. Parent 0026 remains unchanged and unresolved.
-  Bit Image Hardcopy retains forty regions, 32 blocks and eight figures. Its two
-  printed listings remain distinct: 98 and 238 statement labels, including the
-  standalone zero, missing 1990, sixteen physical wraps and final 3380 END. All
-  43 DATA rows/387 fields and 238 assembly records retain literal addresses, bytes,
-  labels, comments and uncertainties. No syntax, opcode, checksum or execution checks.
-  The notice retains five regions, three blocks and two figures, including its
-  diagonal headline, pencil artwork, historical contact details and publisher mark.
-  Across both items, 454 transcription rows comprise 94 physical text rows,
-  359 physical code rows and one linearized diagonal headline. All 35 raw drafts
-  preceded one source correction pass. Seven crop repairs preceded recognition;
-  zero OCR retries. One failed serializer attempt is preserved; its fresh revision
-  fixes DATA-statement classification without changing source transcription.
-  Independent verification checks 13,310 UTF-8 ranges, 13,449 evidence-pin references,
-  45 decoded images, 132 within-article nonfigure pairs and fourteen disjoint
-  cross-article pairs on 205. All 42,885 prior files, 46 inventories and thirty core
-  pins remain unchanged. The unchanged 213-test baseline is reused.
-  Current preservation contains 43,624 issue files. Reproduction:
-  `archive/pdf/1985-11/restoration/batch-47/reproduction.json`.
-  Next batch 48 locates canonical 0006 Character Definition Editor. Its page-206
-  hint conflicts with the observed Small HCOPY opening credited to Index Club;
-  no canonical ownership has been inferred. Software Contest 0035's page-176 hint,
-  parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved.
-  Diskette 0032 is complete on 176 with its page-72 mismatch preserved. Folios
-  175-177 remain null. Cover, remaining identities, full 266-page accounting and
-  issue closeout remain. Replies, logs and documentation use English; original
-  source material retains its language. No reader rebuild. Human acceptance/full
-  proofreading, original bytes, spacing, glyph identity, historical/technical claims
-  and execution remain unverified.
+  articles, one partial article and sixteen unresolved identities.
+  Batch 48 restores Character Definition Editor 0006 opening pages 217-222.
+  Its matching source title and byline establish the full extent on 217-227;
+  the canonical page-206 hint remains unchanged. Small HCOPY on 206-209 is separate.
+  The selected package is
+  `archive/pdf/1985-11/packages/batch-48/character-definition-editor-opening`.
+  All 226 files match the independent rebuild. Coverage remains partial until
+  pages 223-227 and full article assembly are complete.
+  The opening retains 61 regions, 52 blocks and nine figures. Its 428 transcription
+  rows comprise 391 physical prose rows, 23 screen rows and fourteen spatial labels.
+  Source-linked metadata preserves 63 routine references, fourteen help keys,
+  nine menu items, eight explanations, eighteen screen coordinates and fourteen
+  diagram labels. Two cross-region routine descriptions, five prose continuations,
+  fifteen physical wraps and 44 uncertain source variants remain explicit.
+  Custom screen glyphs and diagram geometry remain in original images.
+  All 52 raw drafts preceded one source correction pass; zero OCR retries.
+  Eight crop replacements, two coordinate additions and two merged heading/body
+  pairs preceded recognition. Failed mapping and preparation-verifier attempts remain.
+  One reference-count annotation was amended without changing source transcripts.
+  Verification checks all 4,360 UTF-8 ranges, 4,660 evidence-pin references,
+  61 decoded images and 243 disjoint nonfigure region pairs. All 43,624 prior files,
+  47 prior inventories and thirty core pins remain unchanged. The unchanged
+  213-test baseline is reused. Current preservation contains 44,704 issue files.
+  Reproduction: `archive/pdf/1985-11/restoration/batch-48/reproduction.json`.
+  Next batch 49 restores closing pages 223-227, including three printed listings
+  and separate handwritten/struck-through material. Full article assembly follows.
+  Automatic Menu III 0007 is located on 211-215 but remains unrestored.
+  Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
+  and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176
+  with its page-72 mismatch preserved. Folios 175-177, 210 and 216 remain null.
+  Cover, remaining identities, full 266-page accounting and issue closeout remain.
+  Replies, logs and documentation use English; original source material retains
+  its language. No reader rebuild. Human acceptance/full proofreading, original
+  bytes, spacing, glyph identity, historical/technical claims and execution
+  remain unverified.
   Existing batch 28 MSX Corners, batch 20 Lessons from Apple, batch 17 Hangul
   feature, batch 14 PLAY and batch 09 numerical-analysis adapters remain required
   for complete assemblies.
