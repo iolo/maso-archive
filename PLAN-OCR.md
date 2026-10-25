@@ -24,21 +24,20 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - November 1985 remains in progress: twelve readable, assistant sample-reviewed
-  articles, one partial article and 33 unresolved identities. Batch15 restores
-  Hangul-processing feature 0001 opening 73–78 at
-  `packages/batch-15-r01/hangul-feature-a`; final 79 and complete 73–79 assembly
-  remain pending. Both exports match across 329 files. All 3,158 text ranges,
-  3,527 evidence pins and 90 images validate. The segment retains 77 blocks,
-  13 figures, all 256 code-chart data positions, three tables, 107 blank cells,
-  two uncertain-glyph placeholders and separately identified later handwriting.
-  All 13,842 prior files, fourteen inventories and 30 core pins remain unchanged;
-  the 213-test baseline is reused. Current preservation contains 15,336 files.
-  Diskette 0032 remains unresolved: TOC 72 points to an unlisted slogan-contest
-  notice, not the diskette offer. No source-absence claim or identity substitution.
-  Next batch 16 restores final 79, followed by immutable article assembly.
-  Cover, 266-page accounting and full issue closeout remain. Conversation, logs and
+  articles, one partial article and 33 unresolved identities. Batch 16 restores
+  Hangul-processing feature 0001 final page 79 at `packages/batch-16-r 01/hangul-feature-b`.
+  All 73–79 body pages are now restored in two immutable segments; complete article
+  assembly remains pending. Both final-page exports match across 61 files. All 746
+  text ranges, 788 evidence-pin occurrences and 14 images validate. The segment
+  retains 13 blocks, 103 physical rows, ten named literals, two wrapped names and the
+  closing ellipsis. All 15,336 prior files, fifteen inventories and 30 core pins remain
+  unchanged; the 213-test baseline is reused. Current preservation contains 15,598 files.
+  Next batch 17 assembles the complete feature, including its page 73 title page without a
+  visible folio, the code-chart blanks/placeholders, later handwriting and 78→79 join.
+  Diskette 0032 still needs a location search after its TOC 72 mismatch. Cover,
+  266-page accounting and full issue closeout remain. Conversation, logs and
   documentation use English; original source text retains its language. No reader rebuild.
-  Use the pinned batch14 PLAY and batch09 numerical-analysis adapters for those assemblies.
+  Existing batch 14 PLAY and batch 09 numerical-analysis adapters remain required.
   [November log](docs/progress/8511.md), [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
   35 readable/sample-reviewed articles, four non-owning headings, zero partial/

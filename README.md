@@ -172,11 +172,11 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: twelve articles are readable and
-independently reproducible. The Hangul-processing feature is restored through
-page 78; final 79 and complete assembly remain. Thirty-three of 46 entries still
-need restoration or classification; cover and issue accounting remain. Conversation,
-progress logs and documentation use English while original source text retains
-its language. See [the November progress log](docs/progress/8511.md).
+independently reproducible. All seven Hangul-processing feature pages 73–79 are
+restored in two segments; complete article assembly remains. Thirty-three of 46
+entries still need restoration or classification; cover and issue accounting
+remain. Conversation, progress logs and documentation use English while original
+source text retains its language. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
