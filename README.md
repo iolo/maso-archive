@@ -171,13 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twenty-seven articles are readable,
-with no partial article or pending assembly. Nineteen of 46 identities remain
-unresolved. Complete Magic Square pages 196-199 have 216 independently identical
-package files, preserving thirteen grids, three distinct BASIC listings and all
-source uncertainties. Bit Image Hardcopy is next. Cover, remaining articles and
-whole-issue accounting remain. Progress logs and documentation use English;
-original source text retains its language.
+November 1985 restoration is in progress: twenty-nine articles are readable,
+with no partial article or pending assembly. Seventeen of 46 identities remain
+unresolved. Bit Image Hardcopy (200-205) and Manuscripts Wanted (right 205) are
+complete; their independent rebuilds match all 167 files. The next checkpoint
+locates Character Definition Editor and resolves its conflicting page-206 hint.
+Cover, remaining articles and whole-issue accounting remain. Progress logs and
+documentation use English; original source text retains its language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

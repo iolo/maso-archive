@@ -370,12 +370,71 @@
       "toc_entry_id": "maso-1985-11-toc-0005",
       "title": "프로그램 비트이미지 하드카피",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Eight complete views 199-206 were inspected. Magic Square ends on individually observed 199. Bit Image Hardcopy opens on 200 and ends with listing 2 at left 205. The independent Small HCOPY article opens on 206. Every folio was observed separately; no global offset inferred.",
+        "Bit Image Hardcopy is canonical 0005; source title and spaced byline remain separate from canonical title/byline. It has opening prose, inline commands, one output figure, numbered program explanations and two distinct listings. Listing 1 spans 201-202; listing 2 spans 202-205. Preserve all physical wraps, printed numbers, addresses, byte fields, labels, comments and glyph uncertainties without syntax, opcode or execution repair.",
+        "Right 205 is the complete Manuscripts Wanted notice, canonical 0036, with diagonal headline, pencil artwork, submission text and publisher mark. It is separate from Bit Image Hardcopy. Parent 0026 remains unchanged and unresolved. Both source bodies are disjoint; their common observed folio is retained separately.",
+        "The six mapped pages support two complete canonical items. Two outside-map lookups are 199 and 206. Canonical 0006 has a page-206 hint for Character Definition Editor, but observed 206 opens Small HCOPY credited to Index Club. This mismatch is unresolved and does not authorize assigning Small HCOPY to 0006.",
+        "Complete eligible source body restored with all 145 files byte-identical to an independent rebuild. One source pass. Shared-page bodies disjoint; common folio only. No syntax, opcode, checksum, historical-contact or execution validation."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-47/bit-image-hardcopy",
+        "article_id": "scan-maso-1985-11-toc-0005",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-47/bit-image-hardcopy/manifest.json",
+          "sha256": "d926e855d26f4c8e76dd19ccb9735c9b69f0b0cc6d4d3ba276e3982c53493f14",
+          "bytes": 24699
+        },
+        "coverage": {
+          "pdf_pages": [
+            200,
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "printed_pages": [
+            "200",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205"
+          ],
+          "regions": 40,
+          "blocks": 32,
+          "figures": 8,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": [
+            "p205-other-canonical-panel"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "비트 이미지\n하드 카피",
+        "source_byline": "박 승 제",
+        "source_byline_note": "Source-spaced author credit retained separately from canonical byline.",
+        "source_series": "그\n래\n픽\n의\n\n세\n계",
+        "source_platform": "MSX",
+        "publisher_credit": null,
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-47/validation.json",
+          "sha256": "9d1e04c8b6c38d399efce879e15e052a119a650ae504ac2391c728a9e25a87bc",
+          "bytes": 4151
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-47/reproduction.json",
+          "sha256": "42c3c388283bf91c2b126b383f3cf97a100bc3d113fb1167ec3eb59efe3890d8",
+          "bytes": 2370
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0006",
@@ -1923,12 +1982,61 @@
       "toc_entry_id": "maso-1985-11-toc-0036",
       "title": "원고모집",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Eight complete views 199-206 were inspected. Magic Square ends on individually observed 199. Bit Image Hardcopy opens on 200 and ends with listing 2 at left 205. The independent Small HCOPY article opens on 206. Every folio was observed separately; no global offset inferred.",
+        "Bit Image Hardcopy is canonical 0005; source title and spaced byline remain separate from canonical title/byline. It has opening prose, inline commands, one output figure, numbered program explanations and two distinct listings. Listing 1 spans 201-202; listing 2 spans 202-205. Preserve all physical wraps, printed numbers, addresses, byte fields, labels, comments and glyph uncertainties without syntax, opcode or execution repair.",
+        "Right 205 is the complete Manuscripts Wanted notice, canonical 0036, with diagonal headline, pencil artwork, submission text and publisher mark. It is separate from Bit Image Hardcopy. Parent 0026 remains unchanged and unresolved. Both source bodies are disjoint; their common observed folio is retained separately.",
+        "The six mapped pages support two complete canonical items. Two outside-map lookups are 199 and 206. Canonical 0006 has a page-206 hint for Character Definition Editor, but observed 206 opens Small HCOPY credited to Index Club. This mismatch is unresolved and does not authorize assigning Small HCOPY to 0006.",
+        "Complete eligible source body restored with all 22 files byte-identical to an independent rebuild. One source pass. Shared-page bodies disjoint; common folio only. No syntax, opcode, checksum, historical-contact or execution validation."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-47/manuscripts-wanted",
+        "article_id": "scan-maso-1985-11-toc-0036",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-47/manuscripts-wanted/manifest.json",
+          "sha256": "e643fe0465df2a5ce84ea5087390051f075a2c7249f7c9df47d5d4442f8579a3",
+          "bytes": 3574
+        },
+        "coverage": {
+          "pdf_pages": [
+            205
+          ],
+          "printed_pages": [
+            "205"
+          ],
+          "regions": 5,
+          "blocks": 3,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": [
+            "p205-other-canonical-panel"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "독자 여러분의 원고를 모집합니다.",
+        "source_byline": null,
+        "source_byline_note": "Publisher mark is not an inferred personal byline; parent 0026 remains unresolved.",
+        "source_series": null,
+        "source_platform": null,
+        "publisher_credit": "정보시대",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-47/validation.json",
+          "sha256": "9d1e04c8b6c38d399efce879e15e052a119a650ae504ac2391c728a9e25a87bc",
+          "bytes": 4151
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-47/reproduction.json",
+          "sha256": "42c3c388283bf91c2b126b383f3cf97a100bc3d113fb1167ec3eb59efe3890d8",
+          "bytes": 2370
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0037",
@@ -2489,10 +2597,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 27,
+    "readable": 29,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 19
+    "unresolved_eligibility": 17
   },
   "checkpoints": [
     {
@@ -4457,6 +4565,51 @@
       "started_at": "2026-10-25T17:56:19.178370+00:00",
       "finished_at": "2026-10-25T18:22:32.693587+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-47",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005",
+        "maso-1985-11-toc-0036"
+      ],
+      "mapped_pdf_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "outside_map_lookup_pages": [
+        199,
+        206
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 35,
+      "english_tasks": 13,
+      "source_correction_passes": 1,
+      "preflight_replacements": 7,
+      "serializer_repairs": 1,
+      "scope_adjustment": "Complete Bit Image Hardcopy 200-205 and independent canonical Manuscripts Wanted at right 205. Added second canonical task after source/TOC confirmation; six unique mapped pages and two outside lookups. Parent 0026 unchanged. Observed Small HCOPY on 206 does not match canonical 0006 page hint; unresolved.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-47/validation.json",
+        "sha256": "9d1e04c8b6c38d399efce879e15e052a119a650ae504ac2391c728a9e25a87bc",
+        "bytes": 4151
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-47/verification-completed.json",
+        "sha256": "880a773c3d10c8d57b7c45948e43fcb32d57524bb59851c3039a43440b291a74",
+        "bytes": 2475
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-47-preserved-work.json",
+        "sha256": "0ef090bc909e0f9b12c5b7946dec60e75eef800e381abdc31b8facc3d9c4b516",
+        "bytes": 9692558
+      },
+      "started_at": "2026-10-25T18:23:51.360338+00:00",
+      "finished_at": "2026-10-25T18:46:54.487953+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -6305,29 +6458,103 @@
       ],
       "restoration": "complete",
       "note": "Complete Magic Square canonical 0046, pages 196-199. Folio individually observed. Three separate listings, all grids and source uncertainties retained. Adjacent ALG III ends on 195; Bit Image Hardcopy opens on 200."
+    },
+    {
+      "pdf_page": 200,
+      "printed_page": "200",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005"
+      ],
+      "restoration": "complete",
+      "note": "Bit Image Hardcopy canonical 0005 complete on 200-205; separately canonical Manuscripts Wanted 0036 complete at right 205. Folio individually observed. Shared body regions are disjoint; common folio retained. Literal source and all uncertainties preserved."
+    },
+    {
+      "pdf_page": 201,
+      "printed_page": "201",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005"
+      ],
+      "restoration": "complete",
+      "note": "Bit Image Hardcopy canonical 0005 complete on 200-205; separately canonical Manuscripts Wanted 0036 complete at right 205. Folio individually observed. Shared body regions are disjoint; common folio retained. Literal source and all uncertainties preserved."
+    },
+    {
+      "pdf_page": 202,
+      "printed_page": "202",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005"
+      ],
+      "restoration": "complete",
+      "note": "Bit Image Hardcopy canonical 0005 complete on 200-205; separately canonical Manuscripts Wanted 0036 complete at right 205. Folio individually observed. Shared body regions are disjoint; common folio retained. Literal source and all uncertainties preserved."
+    },
+    {
+      "pdf_page": 203,
+      "printed_page": "203",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005"
+      ],
+      "restoration": "complete",
+      "note": "Bit Image Hardcopy canonical 0005 complete on 200-205; separately canonical Manuscripts Wanted 0036 complete at right 205. Folio individually observed. Shared body regions are disjoint; common folio retained. Literal source and all uncertainties preserved."
+    },
+    {
+      "pdf_page": 204,
+      "printed_page": "204",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005"
+      ],
+      "restoration": "complete",
+      "note": "Bit Image Hardcopy canonical 0005 complete on 200-205; separately canonical Manuscripts Wanted 0036 complete at right 205. Folio individually observed. Shared body regions are disjoint; common folio retained. Literal source and all uncertainties preserved."
+    },
+    {
+      "pdf_page": 205,
+      "printed_page": "205",
+      "classification": "shared-canonical-bodies",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0005",
+        "maso-1985-11-toc-0036"
+      ],
+      "restoration": "complete",
+      "note": "Bit Image Hardcopy canonical 0005 complete on 200-205; separately canonical Manuscripts Wanted 0036 complete at right 205. Folio individually observed. Shared body regions are disjoint; common folio retained. Literal source and all uncertainties preserved."
+    },
+    {
+      "pdf_page": 206,
+      "printed_page": "206",
+      "classification": "unresolved-canonical-title-mismatch",
+      "toc_entry_ids": [],
+      "restoration": "pending",
+      "note": "Observed opening SMALL HCOPY, source platform SPC-1000 and credit Index Club. Canonical 0006 Character Definition Editor by Jin Yong-seong has a page-206 hint but does not match this visible title/credit. No ownership inferred; actual canonical 0006 location and unlisted-page accounting remain unresolved."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-47",
-    "goal": "Verify the full extent and restore Bit Image Hardcopy canonical 0005, opening on observed page 200 and continuing on 201. Inspect ending and adjacent boundaries before mapping a complete article or bounded segment. Preserve canonical identity and literal source.",
+    "id": "batch-48",
+    "goal": "Locate canonical 0006 Character Definition Editor by its source title and byline, resolve its page-206 hint mismatch, and restore its complete article or a bounded segment after inspecting boundaries. Observed 206 opens Small HCOPY credited to Index Club; do not assign it to 0006 without source evidence.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0005"
+      "maso-1985-11-toc-0006"
     ],
-    "mapping_targets": "Opening 200 and continuation 201 observed; later extent unverified. Apply six-page mapping limit.",
+    "mapping_targets": "Actual canonical 0006 location unverified. Six-page mapping limit applies after identity and extent are established.",
     "provisional_lookup_targets": [
-      199,
-      200,
-      201,
-      202,
-      203,
-      204,
-      205,
       206,
       207,
       208,
       209,
-      210
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222
     ],
     "limits": {
       "articles": 2,
@@ -6339,7 +6566,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-seven readable articles; no partial article or pending assembly. Nineteen unresolved identities, cover and full 266-page accounting/issue closeout remain. Software Contest 0035 page-176 hint, parents 0002, 0020 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176 with canonical page-72 mismatch preserved. Folios 175-177 remain null. No parent classification inferred from child restoration."
+    "Twenty-nine readable articles; no partial article or pending assembly. Seventeen unresolved identities, cover and full 266-page accounting/issue closeout remain. Canonical 0006 page-206 hint conflicts with the observed Small HCOPY opening; actual location remains unverified. Software Contest 0035 page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 page-72 mismatch preserved. Folios 175-177 remain null; no parent classification inferred from children."
   ],
   "reader_rebuild": false
 }
