@@ -39,8 +39,24 @@ Current preservation contains 41,944 issue files. Reproduction:
 `archive/pdf/1985-11/restoration/batch-45/reproduction.json`, with its pinned
 `alg-iii-literal-v1` adapter. No new mapping, source viewing, OCR, source correction
 or reader rebuild. All batch-45 steps passed on their first executions.
-Next batch 46 establishes Magic Square 0046's full extent from observed page 196
-before restoring a bounded segment. Software Contest 0035's page-176 hint,
+Batch 46 is in progress for complete Magic Square 0046, pages 196-199.
+Seven full-page views establish the opening, ending and adjacent boundaries;
+each folio was observed independently. The map has sixty regions: 49 text regions
+and eleven original images. All original crops and ten revised crops were
+inspected before recognition. All 49 pinned OCR tasks completed (three English
+code, 46 Korean/English text), and every raw draft has been read. Zero recognition
+failures or retries. The thirteen grids and compact BASIC listing require direct
+source correction; one heading and the editorial credit were omitted by OCR.
+Resume with the single source correction pass using `magic-square/map-r02.json`
+and `crop-preflight-r02/`; no source pass has started. Preserve all grid cells and
+blanks, formula geometry, arrows, physical code rows and the three separate listings.
+The final grid's handwritten-looking mark remains a source uncertainty. No semantic
+or mathematical repair. In-flight evidence is in
+`archive/pdf/1985-11/restoration/batch-46/`; no article export exists yet.
+All 41,944 prior issue files, thirty core pins and the canonical ledger remain
+unchanged. Corrected transcripts, indexes, two exports and verification remain.
+Do not restart successful mapping or OCR. Parent 0040 remains unchanged and
+unresolved. Bit Image Hardcopy opens separately on 200 and continues on 201. Software Contest 0035's page-176 hint,
 parents 0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Diskette 0032
 is complete on 176 with its canonical page-72 mismatch preserved. Contest
 Overview 0034 on lower 175 remains separate and complete; folios on 175-177

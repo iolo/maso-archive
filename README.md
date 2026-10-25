@@ -175,7 +175,9 @@ November 1985 restoration is in progress: twenty-six articles are readable,
 with no partial article or pending assembly. Twenty of 46 identities remain
 unresolved. Complete ALG III pages 178-195 have 538 independently identical
 package files, preserving all three native segments, five distinct printed
-listings, five tables and all source uncertainties. Magic Square is next.
+listings, five tables and all source uncertainties. Magic Square pages 196-199
+are mapped; all 49 OCR drafts have been read. Source correction and independent
+export verification are next.
 Cover, remaining articles and whole-issue accounting remain. Progress logs and
 documentation use English; original source text retains its language.
 See [the November progress log](docs/progress/8511.md).
