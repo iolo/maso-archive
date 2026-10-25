@@ -136,12 +136,101 @@
       "toc_entry_id": "maso-1985-11-toc-0003",
       "title": "전력 입출력 시스템의 구성",
       "parent_id": "maso-1985-11-toc-0002",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 0003 Power I/O opens on observed 154 after the independent MAG LAB advertisement on 153. Source title, Steve Ciarcia byline, subtitle and translation notice remain distinct from canonical attribution and parent 0002.",
+        "Observed opening154–160 discusses interfaces, isolation, optocouplers, input receivers, change detection and DC/AC output control. Ending165–169 contains implementation photographs, schematics, flowcharts and a conclusion in upper169.",
+        "Lower169 is the independent Back-Issue Guide0033 panel, outside this article. Observed170 opens distinct canonical0004 Microprocessor65816. Boundary-supported extent154–upper169; interior161–164 remains uninspected.",
+        "This checkpoint maps only six individually observed pages154–159. Eleven circuit originals, label transcriptions, captions, one resistor table and six complete page originals remain separate. No circuit topology or electrical validity is inferred.",
+        "Current159 ends mid-sentence at SCR을 켜는 전압; observed160 continues 의 양은 표1에서. Later160–upper169 and complete immutable assembly remain pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-36-r01/power-io-a",
+        "article_id": "scan-maso-1985-11-toc-0003",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-36-r01/power-io-a/manifest.json",
+          "sha256": "c3eb97fb8827823079ee7d73a376dd2c35cd4926d3e07175d1a350b7aa82ed5e",
+          "bytes": 42539
+        },
+        "coverage": {
+          "pdf_pages": [
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "printed_pages": [
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159"
+          ],
+          "boundary_supported_full_article_pdf_pages": [
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169
+          ],
+          "uninspected_interior_pdf_pages": [
+            161,
+            162,
+            163,
+            164
+          ],
+          "regions": 76,
+          "blocks": 58,
+          "figures": 18,
+          "deferred_pdf_pages": [
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169
+          ],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "source_title": "전력 입출력 시스템의 구성",
+        "source_subtitle": "컴퓨터를 이용한 電力의 제어",
+        "source_byline": "스티브 시아시아(Steve Ciarcia)",
+        "source_byline_note": "Printed byline retained separately from unchanged canonical byline and parent0002.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-36/validation.json",
+          "sha256": "c8a47757ef0a334c7697c718c9753595d48333c8429ead380fbcac7c9692a988",
+          "bytes": 2143
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-36/reproduction.json",
+          "sha256": "d9923893328e838a9959895a8c6aa599a88a5f832ae1983731b5655d48c50cf1",
+          "bytes": 1463
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0004",
@@ -1937,9 +2026,9 @@
   "totals": {
     "canonical_entries": 46,
     "readable": 21,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 25
+    "unresolved_eligibility": 24
   },
   "checkpoints": [
     {
@@ -3420,6 +3509,55 @@
       "started_at": "2026-10-25T13:04:25.610263+00:00",
       "finished_at": "2026-10-25T13:20:01.395072+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-36",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "mapped_pdf_pages": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "outside_map_lookup_pages": [
+        153,
+        160,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 58,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 4,
+      "scope_adjustment": "Boundary-supported Power I/O extent154–upper169. Opening154–159 restored within six-page limit; interior161–164 remains uninspected. Upper169 conclusion precedes separate lower169 Back-Issue Guide0033;170 opens canonical0004. Parent0002 unchanged.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-36/validation.json",
+        "sha256": "c8a47757ef0a334c7697c718c9753595d48333c8429ead380fbcac7c9692a988",
+        "bytes": 2143
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-36/verification-completed.json",
+        "sha256": "89f299544695fe76589d936d80a74299d7bd3bd2476a35e4d1d0bc7286d3ad30",
+        "bytes": 1820
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-36-preserved-work.json",
+        "sha256": "2f6e381ca317a72da8e2b14d4a7ab4b7454e9f3d55273eeb18f55efaccb505c3",
+        "bytes": 7645872
+      },
+      "started_at": "2026-10-25T13:24:37.570291+00:00",
+      "finished_at": "2026-10-25T13:52:45.165736+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -4672,12 +4810,13 @@
     {
       "pdf_page": 154,
       "printed_page": "154",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0003"
       ],
-      "restoration": "pending",
-      "note": "Outside-map view of distinct power I/O article. Opening154 credits Steve Ciarcia; body continues155. Its final extent is not established."
+      "restoration": "segment-complete",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending.",
+      "prior_stage_note": "Outside-map view of distinct power I/O article. Opening154 credits Steve Ciarcia; body continues155. Its final extent is not established."
     },
     {
       "pdf_page": 155,
@@ -4686,39 +4825,142 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0003"
       ],
+      "restoration": "segment-complete",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending.",
+      "prior_stage_note": "Outside-map view of distinct power I/O article. Opening154 credits Steve Ciarcia; body continues155. Its final extent is not established."
+    },
+    {
+      "pdf_page": 156,
+      "printed_page": "156",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "segment-complete",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 157,
+      "printed_page": "157",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "segment-complete",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 158,
+      "printed_page": "158",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "segment-complete",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 159,
+      "printed_page": "159",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "segment-complete",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 160,
+      "printed_page": "160",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "unmapped",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 165,
+      "printed_page": "165",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "unmapped",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 166,
+      "printed_page": "166",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "unmapped",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 167,
+      "printed_page": "167",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "unmapped",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 168,
+      "printed_page": "168",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003"
+      ],
+      "restoration": "unmapped",
+      "note": "Power I/O canonical0003; folio individually observed. Opening154–159 selected; remaining160–upper169 and immutable assembly pending."
+    },
+    {
+      "pdf_page": 169,
+      "printed_page": "169",
+      "classification": "shared-article-page",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0003",
+        "maso-1985-11-toc-0033"
+      ],
+      "restoration": "unmapped",
+      "note": "Power I/O concludes in upper169. Independent Back-Issue Guide0033 occupies lower169. Both originals observed; neither region mapped in this checkpoint."
+    },
+    {
+      "pdf_page": 170,
+      "printed_page": "170",
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0004"
+      ],
       "restoration": "pending",
-      "note": "Outside-map view of distinct power I/O article. Opening154 credits Steve Ciarcia; body continues155. Its final extent is not established."
+      "note": "Separate Microprocessor65816 article opening after Power I/O conclusion169; extent beyond this opening not established."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-36",
-    "goal": "Verify the full extent and restore canonical 0003 Power I/O, opening on observed page 154. Inspect ending and adjacent boundaries before mapping a complete article or bounded opening segment.",
+    "id": "batch-37",
+    "goal": "Restore Power I/O0003 next segment160–165 with individually observed folios and literal circuit labels/body text; preserve opening154–159. Remaining166–upper169 and complete immutable assembly will still be required.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0003"
     ],
-    "mapping_targets": "Opening 154 observed. Later extent is unverified. Preserve parent 0002 and title/order; do not infer non-owning classification from child restoration. Apply the six-page mapping limit. The next canonical start candidate 170 is a lookup hint only, not an inferred endpoint.",
-    "provisional_lookup_targets": [
-      153,
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
+    "mapping_targets": [
       160,
+      161,
+      162,
+      163,
       164,
-      165,
+      165
+    ],
+    "provisional_lookup_targets": [
+      159,
       166,
-      167,
-      168,
       169,
-      170,
-      171,
-      172,
-      173,
-      174,
-      175
+      170
     ],
     "limits": {
       "articles": 2,
@@ -4730,7 +4972,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-one readable articles, no current partial article or pending assembly. Twenty-five unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Twenty-one readable articles and one partial article. Power I/O0003 opening154–159 restored; remaining160–upper169 and complete assembly pending. Interior161–164 not yet inspected. Twenty-four unresolved identities, cover and whole266-page accounting remain. Diskette0032 location remains unresolved after TOC72 mismatch. Parents0002 and0020 remain unresolved; no non-owning classification inferred from children."
   ],
   "reader_rebuild": false
 }
