@@ -23,56 +23,38 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 remains in progress: twenty-six readable, assistant sample-reviewed
-  articles, no partial article or pending assembly, and twenty unresolved identities.
-  Batch 45 completes ALG III 0008, pages 178-195, at
-  `archive/pdf/1985-11/packages/alg-iii`. All 538 files match an independent rebuild,
-  including all 529 native files from opening 178-183, middle 184-189 and ending
-  190-195. The complete article retains 148 regions, 118 blocks and thirty figures.
-  Its 1,969 transcription rows comprise 574 physical text rows, 1,303 physical code
-  rows and 92 logical table rows. Five tables retain 212 cells, including four
-  blanks. Two distinct glossary groups preserve 112 variable definitions. Five
-  printed listings remain separate; listing 4 spans the middle/ending boundary.
-  All 277 numbered statements, seven runtime fields, two source stamps, four
-  comment diagrams, 89 source variants, 31 unknown-count bands and three scan-only
-  handwritten marks remain literal. No syntax, arithmetic or execution validation.
-  Both native boundaries and all eighteen individually observed folios validate.
-  Nine obsolete active-stage notes are resolved; all original stage records remain.
-  Every metadata category is retained: 54 native arrays across 162 category slices,
-  ten object projections, twelve reserved lists and three scalars. Independent
-  verification checks 58,102 UTF-8 ranges, 59,689 evidence-pin references, 148 decoded
-  images and 410 disjoint nonfigure pairs. All 40,843 prior files, 44 inventories
-  and thirty core pins remain unchanged. The unchanged 213-test baseline is reused.
-  Current preservation contains 41,944 issue files. Reproduction:
-  `archive/pdf/1985-11/restoration/batch-45/reproduction.json`, with its pinned
-  `alg-iii-literal-v1` adapter. No new mapping, source viewing, OCR, source correction
-  or reader rebuild. All batch-45 steps passed on their first executions.
-  Batch 46 is in progress for complete Magic Square 0046, pages 196-199.
-  Seven full-page views establish the opening, ending and adjacent boundaries;
-  each folio was observed independently. The map has sixty regions: 49 text regions
-  and eleven original images. All original crops and ten revised crops were
-  inspected before recognition. All 49 pinned OCR tasks completed (three English
-  code, 46 Korean/English text), and every raw draft has been read. Zero recognition
-  failures or retries. The thirteen grids and compact BASIC listing require direct
-  source correction; one heading and the editorial credit were omitted by OCR.
-  Resume with the single source correction pass using `magic-square/map-r02.json`
-  and `crop-preflight-r02/`; no source pass has started. Preserve all grid cells and
-  blanks, formula geometry, arrows, physical code rows and the three separate listings.
-  The final grid's handwritten-looking mark remains a source uncertainty. No semantic
-  or mathematical repair. In-flight evidence is in
-  `archive/pdf/1985-11/restoration/batch-46/`; no article export exists yet.
-  All 41,944 prior issue files, thirty core pins and the canonical ledger remain
-  unchanged. Corrected transcripts, indexes, two exports and verification remain.
-  Do not restart successful mapping or OCR. Parent 0040 remains unchanged and
-  unresolved. Bit Image Hardcopy opens separately on 200 and continues on 201. Software Contest 0035's page-176 hint,
-  parents 0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Diskette 0032
-  is complete on 176 with its canonical page-72 mismatch preserved. Contest
-  Overview 0034 on lower 175 remains separate and complete; folios on 175-177
-  remain null. Cover, remaining identities, all 266-page accounting and issue
-  closeout remain. Replies, progress logs and documentation use English; original
-  source material retains its language. Human acceptance/full proofreading,
-  original bytes, spacing, glyph identity, historical/technical claims and
-  execution remain unverified.
+- November 1985 remains in progress: twenty-seven readable, assistant sample-reviewed
+  articles, no partial article or pending assembly, and nineteen unresolved identities.
+  Batch 46 completes Magic Square 0046, pages 196-199, at
+  `archive/pdf/1985-11/packages/batch-46/magic-square`. All 216 files match an
+  independent rebuild. Sixty regions retain 49 text blocks and eleven original
+  images. Thirteen grids preserve 236 cells, including 75 blanks and one explicitly
+  handwritten-looking mark whose underlying printed value remains unknown.
+  Three separate BASIC listings retain 57 printed statements and 59 physical code
+  rows. No fragment was applied as a patch; no missing program line was inferred.
+  The 444 transcription rows comprise 330 physical text rows, 59 physical code
+  rows, 54 logical grid rows and one linearized stacked-fraction row. One metadata
+  revision corrects that row classification without changing source text; original
+  metadata remains preserved. All 49 raw drafts preceded one source correction pass.
+  Ten crop revisions preceded recognition; zero recognition retries. Source formulas,
+  arrows, continuations, 24 uncertain source variants and fourteen editorial
+  placeholders retain scan evidence. No arithmetic, syntax or execution validation.
+  Independent verification checks 4,463 UTF-8 ranges, 5,124 evidence-pin references,
+  sixty decoded images and 307 disjoint nonfigure pairs. All 41,944 prior files,
+  45 inventories and thirty core pins remain unchanged. The unchanged 213-test
+  baseline is reused. Current preservation contains 42,885 issue files.
+  Reproduction: `archive/pdf/1985-11/restoration/batch-46/reproduction.json`.
+  Next batch 47 establishes Bit Image Hardcopy 0005's full extent from observed
+  200-201 before restoring a complete article or bounded segment. Parent 0040
+  remains unchanged and unresolved. Software Contest 0035's page-176 hint, parents
+  0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete
+  on 176 with its canonical page-72 mismatch preserved. Contest Overview 0034 on
+  lower 175 remains separate and complete; folios 175-177 remain null. Cover,
+  remaining identities, full 266-page accounting and issue closeout remain.
+  Replies, progress logs and documentation use English; original source material
+  retains its language. No reader rebuild. Human acceptance/full proofreading,
+  original bytes, spacing, glyph identity, historical/technical claims and execution
+  remain unverified.
   Existing batch 28 MSX Corners, batch 20 Lessons from Apple, batch 17 Hangul
   feature, batch 14 PLAY and batch 09 numerical-analysis adapters remain required
   for complete assemblies.

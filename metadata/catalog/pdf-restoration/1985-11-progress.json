@@ -2426,20 +2426,73 @@
       "toc_entry_id": "maso-1985-11-toc-0046",
       "title": "프로그램공장 : 마방진",
       "parent_id": "maso-1985-11-toc-0040",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Seven complete source views 195-201 were individually inspected. ALG III ends on observed 195. Magic Square opens on observed 196 and ends on observed 199. Bit Image Hardcopy opens independently on observed 200 and continues on observed 201. Every folio was observed separately; no global page offset inferred.",
+        "Canonical 0046, title and parent 0040 remain unchanged. The source series is Program Factory and article title is Magic Square. The editorial introduction is signed by the editorial department; no article-wide personal byline is inferred.",
+        "Page 196 has the editorial introduction, definition, four-by-four numeric example and illustration. Page 197 continues the factorial expression and three-by-three reasoning, five numbered diagram panels and an odd-square algorithm. Page 198 has three five-by-five panels, programming flow and line explanations, then reader questions. Page 199 completes those questions, four further five-by-five panels, closing remarks and three separate BASIC listings.",
+        "The complete four-page article fits this checkpoint. Preserve the 196/197 and 198/199 word continuations, column continuations, spatial formulas and arrows. Source row-320 reference versus listing line 220 remains literal; no semantic or arithmetic correction.",
+        "All diagrams and grids retain original geometry. Text-grid readings require explicit blank cells and source-linked panel identities. The small handwritten-looking mark in the last five-by-five panel is scan-only pending direct crop review.",
+        "Complete article 196-199 restored and independently rebuilt: all 216 files match. Direct source correction completed once. The final grid mark is recorded as handwritten-looking 21 with underlying printed value unknown. Original geometry and all uncertainties retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/batch-46/magic-square",
+        "article_id": "scan-maso-1985-11-toc-0046",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/batch-46/magic-square/manifest.json",
+          "sha256": "d3822d3c6359773b7fad8d1399a45b0ad0c876fb7a7dfc900ac0d938c334b1be",
+          "bytes": 36947
+        },
+        "coverage": {
+          "pdf_pages": [
+            196,
+            197,
+            198,
+            199
+          ],
+          "printed_pages": [
+            "196",
+            "197",
+            "198",
+            "199"
+          ],
+          "regions": 60,
+          "blocks": 49,
+          "figures": 11,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "마방진",
+        "source_series": "프로그램 공장",
+        "source_byline": null,
+        "source_byline_note": "Editorial-department signature applies to the introduction, not an inferred personal article byline. Code credit is separate literal source.",
+        "editorial_credit": "편집부",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-46/validation.json",
+          "sha256": "d9a3d5973618816b27988dce7c5c0f33fbdf62cfe58e946cd320a8ca716203b1",
+          "bytes": 2647
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-46/reproduction.json",
+          "sha256": "dc1301aa8547bb289530727dba068739a5176e554c544e9b8c6a6ea2970941d9",
+          "bytes": 1672
+        }
+      }
     }
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 26,
+    "readable": 27,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 20
+    "unresolved_eligibility": 19
   },
   "checkpoints": [
     {
@@ -4361,6 +4414,49 @@
       "started_at": "2026-10-25T17:50:21.238464+00:00",
       "finished_at": "2026-10-25T17:54:35.762250+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-46",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0046"
+      ],
+      "mapped_pdf_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "outside_map_lookup_pages": [
+        195,
+        200,
+        201
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 49,
+      "english_tasks": 3,
+      "source_correction_passes": 1,
+      "preflight_replacements": 10,
+      "metadata_revisions": 1,
+      "scope_adjustment": "Complete Magic Square 196-199; all folios individually observed. Thirteen grids and three printed listings remain separate. Parent 0040 unchanged and unresolved. Bit Image Hardcopy opens separately on 200.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-46/validation.json",
+        "sha256": "d9a3d5973618816b27988dce7c5c0f33fbdf62cfe58e946cd320a8ca716203b1",
+        "bytes": 2647
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-46/verification-completed.json",
+        "sha256": "409f27ed4e1f5ce5426641ffc9e57bd67d1cc5cbd3b8d1a12133245d4f413caf",
+        "bytes": 2064
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-46-preserved-work.json",
+        "sha256": "dcc3a743bba9096dea70b82d588f9b24143cab2af67a6a1d39f76b223e4f69a2",
+        "bytes": 9524229
+      },
+      "started_at": "2026-10-25T17:56:19.178370+00:00",
+      "finished_at": "2026-10-25T18:22:32.693587+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -6170,34 +6266,68 @@
     {
       "pdf_page": 196,
       "printed_page": "196",
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-11-toc-0046"
       ],
-      "restoration": "pending",
-      "note": "Separate Magic Square opening after ALG III ending on 195; only opening inspected, not restored here."
+      "restoration": "complete",
+      "note": "Complete Magic Square canonical 0046, pages 196-199. Folio individually observed. Three separate listings, all grids and source uncertainties retained. Adjacent ALG III ends on 195; Bit Image Hardcopy opens on 200.",
+      "prior_stage_notes": [
+        "Separate Magic Square opening after ALG III ending on 195; only opening inspected, not restored here."
+      ]
+    },
+    {
+      "pdf_page": 197,
+      "printed_page": "197",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0046"
+      ],
+      "restoration": "complete",
+      "note": "Complete Magic Square canonical 0046, pages 196-199. Folio individually observed. Three separate listings, all grids and source uncertainties retained. Adjacent ALG III ends on 195; Bit Image Hardcopy opens on 200."
+    },
+    {
+      "pdf_page": 198,
+      "printed_page": "198",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0046"
+      ],
+      "restoration": "complete",
+      "note": "Complete Magic Square canonical 0046, pages 196-199. Folio individually observed. Three separate listings, all grids and source uncertainties retained. Adjacent ALG III ends on 195; Bit Image Hardcopy opens on 200."
+    },
+    {
+      "pdf_page": 199,
+      "printed_page": "199",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0046"
+      ],
+      "restoration": "complete",
+      "note": "Complete Magic Square canonical 0046, pages 196-199. Folio individually observed. Three separate listings, all grids and source uncertainties retained. Adjacent ALG III ends on 195; Bit Image Hardcopy opens on 200."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-46",
-    "goal": "Verify the full extent and restore canonical 0046 Magic Square, opening on observed page 196. Inspect ending and adjacent boundaries before mapping a complete article or bounded opening segment. Preserve canonical identity, title, attribution and parent.",
+    "id": "batch-47",
+    "goal": "Verify the full extent and restore Bit Image Hardcopy canonical 0005, opening on observed page 200 and continuing on 201. Inspect ending and adjacent boundaries before mapping a complete article or bounded segment. Preserve canonical identity and literal source.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0046"
+      "maso-1985-11-toc-0005"
     ],
-    "mapping_targets": "Opening 196 observed. Later extent unverified; apply the six-page mapping limit.",
+    "mapping_targets": "Opening 200 and continuation 201 observed; later extent unverified. Apply six-page mapping limit.",
     "provisional_lookup_targets": [
-      195,
-      196,
-      197,
-      198,
       199,
       200,
       201,
       202,
       203,
       204,
-      205
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
     ],
     "limits": {
       "articles": 2,
@@ -6209,7 +6339,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-six readable articles; no current partial article or pending assembly. Twenty unresolved identities, cover and full 266-page accounting/issue closeout remain. Software Contest 0035 page-176 hint, parents 0002 and 0020 and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176 with its canonical page-72 mismatch preserved. Folios on 175-177 remain null. No non-owning parent classification inferred from child restoration."
+    "Twenty-seven readable articles; no partial article or pending assembly. Nineteen unresolved identities, cover and full 266-page accounting/issue closeout remain. Software Contest 0035 page-176 hint, parents 0002, 0020 and 0040, and Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176 with canonical page-72 mismatch preserved. Folios 175-177 remain null. No parent classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }
