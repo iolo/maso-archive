@@ -31,8 +31,19 @@ text-region pairs validate. All 39,508 prior files, 42 inventories and thirty co
 pins remain unchanged. The unchanged 213-test baseline is reused, not rerun.
 Current preservation contains 40,159 issue files. Reproduction:
 `archive/pdf/1985-11/restoration/batch-43/reproduction.json`.
-Next batch 44 restores ALG III final pages 190-195: the end of numbered listing 4,
-the separate source-program listing and closing variable/runtime/label tables.
+Batch 44 is in progress for ALG III final pages 190-195: the end of numbered
+listing 4, the separate source listing and closing variable/runtime/label tables.
+Eight full-page views confirm six mapped pages and two outside lookups (189,196).
+Selected map-r02 contains 44 regions: 33 text regions and eleven original images.
+All original crops and seventeen revised crops were inspected before recognition.
+All 33 pinned OCR tasks completed (21 English code, twelve Korean/English text),
+and every raw draft has been read. No recognition failures or retries. Resume with
+one direct source correction pass; none has started. Preserve boxed comments,
+physical rows, separate listings, table fields and the two blank final label cells.
+In-flight evidence is in `archive/pdf/1985-11/restoration/batch-44/`; this is not
+an exported segment or completed checkpoint. All 40,159 prior files, thirty core
+pins and the canonical ledger remain unchanged. Do not rerun mapping or OCR.
+Corrected transcripts, structured indexes, two exports and full verification remain.
 Complete immutable article assembly will still be required. Do not restart earlier
 mapping, OCR or source passes. All in-flight records and English handoff commits
 remain historical evidence. Contest Overview 0034 on lower 175 is separate and
