@@ -24,34 +24,33 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-25
 
-November 1985 remains in progress: eighteen readable, assistant sample-reviewed
-articles, no partial article and 28 unresolved identities. Batch 24 completes
-New Products 0024 on pages 100–101, at
-`archive/pdf/1985-11/packages/batch-24-r01/new-products`. Both exports match across
-99 files. The article retains 28 regions, 21 blocks, seven original images,
-36 physical prose rows and 25 logical table rows. Three specification tables
-retain all 50 label/value cells and sixty cell-local physical rows. Two product
-notices preserve two supplier credits, six feature bullets and two product photos.
-All 695 UTF-8 ranges, 770 evidence-pin occurrences, 28 images and 102 disjoint
-nonfigure pairs validate. Forty-three named literals, twelve wrapped literals,
-thirty source claims, fourteen source variants and eight plotter-name candidates
-remain source-linked. Ambiguous I8086/18086 and HI/H1 glyphs remain flagged.
-All 28 exact crops were inspected before 21 pinned kor+eng tasks. All drafts were
-read before one direct source correction pass. Mostly omitted page 100 table
-recognition and an empty reversed-heading draft remain preserved; zero OCR retries.
-All 20,676 prior files, 23 inventories and 30 core pins remain unchanged. The
-unchanged 213-test baseline is reused, not rerun. Current preservation contains
-21,091 issue files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-24/reproduction.json`.
-Next batch 25 restores Book Review 0025 on observed page 102 and upper 103,
-excluding the lower Back-Issue Guide under canonical 0033. The page 104 MSX
-opening is canonical 0045, distinct from MSX entry 0010 at TOC 117; an initial
-outside-map metadata match was corrected, with its original record preserved.
-Diskette 0032 still needs a location search after its TOC 72 mismatch. News parent
-0020 remains unresolved. Cover, all 266 source pages and whole-issue closeout
-remain. Conversation, logs and documents use English; original source text retains
-its language. No reader rebuild. Human acceptance/full proofreading, source bytes,
-exact spacing and historical/technical claims remain unverified.
+November 1985 remains in progress: nineteen readable, assistant sample-reviewed
+articles, no partial article and 27 unresolved identities. Batch 25 completes
+Book Review 0025 on page 102 and upper 103, at
+`archive/pdf/1985-11/packages/batch-25-r01/book-review`. Both exports match across
+84 files. The article retains 22 regions, 18 blocks, four original images and
+148 physical text rows. Five bibliographic rows, six numbered machine layers,
+ten paragraphs and four column/page continuations retain exact source ranges.
+The author and translator names describe the book; no review byline is inferred.
+All 1,170 UTF-8 ranges, 1,232 evidence-pin occurrences, 22 images and 76 disjoint
+nonfigure pairs validate. Twenty-two named literals, eighteen wrapped literals,
+sixteen source claims and fourteen source variants remain literal. The original
+book-cover image, upper-only page 103 panel and separate folio are preserved;
+lower Back-Issue Guide 0033 remains excluded and pending.
+All 22 original crops and three replacements were inspected before 18 pinned
+kor+eng tasks. All drafts were read before one direct source correction pass;
+zero OCR retries. All 21,091 prior files, 24 inventories and 30 core pins remain
+unchanged. The unchanged 213-test baseline is reused, not rerun. Current
+preservation contains 21,473 issue files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-25/reproduction.json`.
+Next batch 26 verifies MSX Corners (2) 0045 from its observed page 104 opening,
+locates the ending and restores a bounded article or segment. This is distinct
+from MSX VDP analysis 0010 at TOC 117. Diskette 0032 still needs a location search
+after its TOC 72 mismatch; News parent 0020 remains unresolved. Cover, all 266
+source pages and whole-issue closeout remain. Conversation, logs and documents
+use English; original source text retains its language. No reader rebuild.
+Human acceptance/full proofreading, source bytes, exact spacing, bibliographic
+identity and historical/technical claims remain unverified.
 See [November log](docs/progress/8511.md) and the issue ledger.
 
 ## October 1985 closeout, 2026-10-25
