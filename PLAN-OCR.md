@@ -19,22 +19,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October1985 active:35 readable/sample-reviewed articles,4 non-owning headings,
-  0 partial,0 unresolved;all39 canonical identities accounted. Issue-accounting-01
-  classifies20 full-page advertisements onPDF2–21,with20 new3000px source renders.
-  PDF3visiblefolio1;other19null,nooffset inference. Twenty outside lookups,zero
-  mapping/article tasks/OCR/source correction. Fresh metadata revisionr01 fixes
-  English page11 brand-label spacing only;original metadata andallsource pins retained.
-  All73,780 prior files/65 inventories/30 core pins/tenadapters exact;213baseline reused.
-  New inventory:73,840 files. All article/heading/cover records unchanged;
-  donated cover480×611/68,837bytes remains independently exact.
-  Article bodies cover224 distinctPDFpages;44 outsidebody. Twenty current ads and
-  verifiedcover accounted;23 outsidepages/full268-page audit remain. Next
-  issue-accounting-02 covers22–27,37,74,105,107,123,167,172–176,250,258,259;then265,267,268,
-  fullownership ledger,index/report,independent issue rebuild,fresh213 andcloseout.
-  Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
-  andbackup recovery remain unverified. No reader rebuild.
-  [October log](docs/progress/8510.md),[ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
+- October1985 active: 35 readable/sample-reviewed articles, four non-owning headings,
+  zero partial/unresolved; all 39 canonical identities accounted. Issue-accounting-02
+  classifies 20 outside-body pages: 11 advertisements, two contents, issue title,
+  association notice and five unlisted HGR feature pages (last also a promotion).
+  PDF27→25, PDF37→35, PDF172–176→170–174; thirteen null folios, no offset inference.
+  Four new/16 reused renders, 20 outside lookups, zero mapping/article tasks/OCR.
+  Prior provisional observations retained as nested history; no new article identities.
+  All 73,840 prior files/66 inventories/30 core pins/ten adapters exact; 213 baseline
+  reused. New inventory: 73,899 files. Article/heading/cover records unchanged;
+  donated 480×611 cover, 68,837 bytes, independently exact.
+  Bodies cover 224 distinct PDF pages; cover plus 40 of 44 outside pages accounted.
+  Next issue-accounting-03: PDF265,267,268 and full 268-page ownership/exclusion audit;
+  then standalone index/report, independent rebuild, fresh 213 tests and closeout audit.
+  Human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/execution/
+  backup recovery remain unverified. No reader rebuild.
+  [October log](docs/progress/8510.md), [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).
 - March 1985 is complete under canonical TOC JSON/assets:48 entries account for
   39 readable/sample-reviewed articles and nine non-owning headings;zero partial/
   unresolved/pending assemblies. Standalone index `archive/pdf/1985-03/reference/issue.json`;

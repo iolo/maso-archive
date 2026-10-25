@@ -6,35 +6,36 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1985 restoration has **35 readable/sample-reviewed articles and four
-non-owning headings**, accounting for all39 canonical identities. No partial
-articles,unresolved eligibility or article assembly remain. Whole-issue closeout
-is still pending.
+October 1985 has **35 readable/sample-reviewed articles and four non-owning
+headings**, accounting for all 39 canonical identities. No partial articles,
+unresolved eligibility or article assembly remain. Whole-issue closeout is pending.
 
-Issue-accounting-01 classifies **PDF pages2–21 as20 full-page advertisements**.
-Each original3000px render and its review view is retained. Pages include computer,
-disk,printer,monitor,software,dealer andtraining promotions;none is added to the
-canonical article queue. PDF3 has visible folio1;the other19 pages have no visible
-folio and remain null. No global PDF-to-printed-page offset is inferred.
+**Issue-accounting-02** classifies 20 outside-body PDF pages:
+22–27, 37, 74, 105, 107, 123, 167, 172–176, 250, 258 and 259. These comprise
+11 full-page advertisements, two contents pages, one issue-title page, one
+unlisted association notice and five pages of the unlisted HGR text-print feature.
+Its final page, PDF176, also contains a separate magazine promotion. These pages
+remain outside canonical article transcription; no new article identity was added.
 
-Twenty distinct outside-body pages were individually inspected,with20 new renders,
-zero mapped pages,article tasks,OCR orsource correction. A typed brand-label spacing
-error in the English page11 accounting summary was corrected in fresh revisionr01;
-initial metadata remains. All classifications,folios and source-image pins are unchanged.
+Visible folios are PDF27→25, PDF37→35 and PDF172–176→170–174. The other 13
+folios remain null. No global PDF-to-printed-page offset is inferred. Earlier
+provisional observations are retained as nested history. All 20 pages were
+individually inspected: four new renders, 16 reused renders, zero mapped pages,
+canonical tasks, OCR or source correction passes.
 
-All73,780 prior files,65 inventories,30 core pins and ten private assembly adapters
-remain exact;the unchanged213-test baseline is reused. New inventory:73,840 files.
-All35 selected packages,four heading records and verified donated cover remain
-unchanged. The cover is480×611 RGB JPEG/68,837bytes,independently reproduced exactly.
+All 73,840 prior files, 66 checkpoint inventories, 30 core implementation pins
+and ten private assembly adapters remain exact; the unchanged 213-test baseline
+is reused. The new inventory contains 73,899 files. All article, heading and
+cover records remain unchanged. The donated cover is a verified 480×611 RGB JPEG,
+68,837 bytes, independently reproduced exactly.
 
-The selected article bodies cover224 distinct PDF pages;44 pages are outside them.
-This checkpoint accounts for20 of those pages,in addition to the verified cover1.
-The remaining23 outside pages andcomplete268-page ownership/exclusion audit remain.
-Next is **issue-accounting-02**, covering22–27,37,74,105,107,123,167,172–176,250,258,259.
-Then classify265,267,268 andcomplete the page ledger,before standalone index/report,
-independent issue rebuild,fresh213 tests andthe requirement-by-requirement audit.
-Human acceptance/full proofreading,source bytes/spacing/glyph counts,claims/execution
-andindependent backup recovery remain unverified. No reader was rebuilt.
+Selected bodies cover 224 distinct PDF pages. Of the 44 outside-body pages,
+the cover and 40 others are now accounted for. **Next: issue-accounting-03**
+classifies PDF265, 267 and 268 and completes the full 268-page ownership/exclusion
+audit. Then produce the standalone index/report, independently rebuild the issue,
+run fresh 213 tests and complete the requirement-by-requirement audit.
+Human acceptance/full proofreading, source bytes/spacing/glyph counts, claims,
+execution and independent backup recovery remain unverified. No reader was rebuilt.
 
 See [October log](docs/progress/8510.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-10-progress.json).

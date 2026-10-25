@@ -7029,6 +7029,62 @@
       "timing_scope": "Wall clock includes waits/gaps;active human effort unmeasured.",
       "article_availability": "not-applicable",
       "assembly_required": false
+    },
+    {
+      "id": "issue-accounting-02",
+      "status": "complete",
+      "stage": "validated-outside-body-accounting",
+      "toc_entry_ids": [],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        37,
+        74,
+        105,
+        107,
+        123,
+        167,
+        172,
+        173,
+        174,
+        175,
+        176,
+        250,
+        258,
+        259
+      ],
+      "conservative_outside_lookup_count": 20,
+      "canonical_tasks": 0,
+      "ocr_tasks": 0,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 0,
+      "source_correction_passes": 0,
+      "crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/validation.json",
+        "sha256": "bb287d37f2a2a31bcc21c25e130ddbafb283f069a0936962324c243563dba4dd",
+        "bytes": 1503
+      },
+      "verification": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/verification-completed.json",
+        "sha256": "f951031d43def784608da24d0cc4e8c34e57f9bda95fe789aca6af4b92595adb",
+        "bytes": 1462
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-10/evidence/issue-accounting-02-preserved-work.json",
+        "sha256": "064043885ae1e9232c6222517b965d32cf711e149292b5d21de8f2bdb8c84591",
+        "bytes": 17118258
+      },
+      "started_at": "2026-10-25T00:43:54.801793+00:00",
+      "finished_at": "2026-10-25T00:49:33.580653+00:00",
+      "timing_scope": "Wall clock includes waits/gaps; active human effort unmeasured.",
+      "article_availability": "not-applicable",
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -7398,15 +7454,127 @@
       }
     },
     {
-      "pdf_page": 26,
+      "pdf_page": 22,
+      "printed_page": null,
       "classification": "advertisement",
-      "evidence": "3M independent full-page diskette advertisement"
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page 에이스컴퓨터 SH-100 advertisement with computer/printer photograph and specifications.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-022.png",
+        "sha256": "69e235f93406cfacc300c8c2385714fe2dc54315ae549c8cc79f6bac29c6050b",
+        "bytes": 4510703
+      },
+      "previous_source_observation": null
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page star PRINTER / 한국컴퓨터 advertisement with six printer panels and a disk-drive photograph.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-023.png",
+        "sha256": "9f18ee6efa5fd23f34cb53faf01453fad5173abbc5f6e217914879428f49de46",
+        "bytes": 4868012
+      },
+      "previous_source_observation": null
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": null,
+      "classification": "contents",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "First contents page: MSX feature, Mocking Board music, education and TIPS; cover explanation and staff line.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-024.png",
+        "sha256": "4f4d2fd2b4ef32513b51f49d8d51aa21396c2078626e8e21ae71083249f1c85b",
+        "bytes": 2312397
+      },
+      "previous_source_observation": null
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": null,
+      "classification": "contents",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Second contents page: Prologue, BASIC introduction, MSX corners, graphics, reader section, game, business and dBASE II. No HGR text-print entry.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-025.png",
+        "sha256": "68b2833fcede568e176b98a8c510628937ad70ab36029d8f6e55d2f8414f2e72",
+        "bytes": 1957510
+      },
+      "previous_source_observation": null
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": null,
+      "classification": "advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page 3M diskette advertisement with diskette images and product descriptions.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-026.png",
+        "sha256": "6f0ef577feb8edf4a103f1047fcae0e11a16691ecc4c24f5e8dc4d31e164a13a",
+        "bytes": 4830471
+      },
+      "previous_source_observation": {
+        "pdf_page": 26,
+        "classification": "advertisement",
+        "evidence": "3M independent full-page diskette advertisement"
+      }
     },
     {
       "pdf_page": 27,
-      "classification": "issue-title-page",
       "printed_page": "25",
-      "evidence": "1985년10월호 VOL.24 explicitly visible"
+      "classification": "issue-title-page",
+      "toc_entry_ids": [],
+      "restoration": "outside-canonical-body",
+      "evidence": "Monochrome cover reproduction beneath magazine masthead and 1985년 10월호 VOL.24; visible lower-right folio 25.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-027.png",
+        "sha256": "80976afe084fc55eaf8b789343c12da8d041118a9dcf166493c80fe26e64b223",
+        "bytes": 2339328
+      },
+      "previous_source_observation": {
+        "pdf_page": 27,
+        "classification": "issue-title-page",
+        "printed_page": "25",
+        "evidence": "1985년10월호 VOL.24 explicitly visible"
+      }
     },
     {
       "pdf_page": 28,
@@ -7497,7 +7665,25 @@
       "printed_page": "35",
       "classification": "unlisted-association-notice",
       "toc_entry_ids": [],
-      "evidence": "Independent 건의문/건의사항 signed 한국잡지협회 and (주)정보시대;not QA body."
+      "restoration": "outside-canonical-body",
+      "evidence": "Framed 건의문 / 건의사항 notice signed 한국잡지협회 and (주)정보시대; visible lower-right folio 35. Outside the canonical TOC.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-037.png",
+        "sha256": "fe9378e42334ee081353b3af896f21b02217ff05faefcc4460be0652f1a44815",
+        "bytes": 985254
+      },
+      "previous_source_observation": {
+        "pdf_page": 37,
+        "printed_page": "35",
+        "classification": "unlisted-association-notice",
+        "toc_entry_ids": [],
+        "evidence": "Independent 건의문/건의사항 signed 한국잡지협회 and (주)정보시대;not QA body."
+      }
     },
     {
       "pdf_page": 38,
@@ -7870,7 +8056,25 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "evidence": "Full-page MS-DOS handbook advertisement;outside canonical transcription."
+      "evidence": "Full-page 정보시대 MS-DOS 핸드북 book promotion.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-074.png",
+        "sha256": "9daa0117bc124b4910df8b6978c233479f923318421a0c0dce6e3be710503c5e",
+        "bytes": 1419876
+      },
+      "previous_source_observation": {
+        "pdf_page": 74,
+        "printed_page": null,
+        "classification": "advertisement",
+        "toc_entry_ids": [],
+        "restoration": "outside-canonical-body",
+        "evidence": "Full-page MS-DOS handbook advertisement;outside canonical transcription."
+      }
     },
     {
       "pdf_page": 75,
@@ -8208,7 +8412,25 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "evidence": "Whole TOPIA-ROMPACK advertisement between article104and106;source viewed and retained."
+      "evidence": "Full-page TOPIA ROM PACK membership promotion with cartoon and membership terms.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-105.png",
+        "sha256": "e2c34006e73913f3a6ed1fb8820bc8ab9c319f9dcdc400af8f9ece8c539da0b2",
+        "bytes": 1745351
+      },
+      "previous_source_observation": {
+        "pdf_page": 105,
+        "printed_page": null,
+        "classification": "advertisement",
+        "toc_entry_ids": [],
+        "restoration": "outside-canonical-body",
+        "evidence": "Whole TOPIA-ROMPACK advertisement between article104and106;source viewed and retained."
+      }
     },
     {
       "pdf_page": 106,
@@ -8227,7 +8449,25 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "evidence": "Independent TOPIA ROM writer advertisement."
+      "evidence": "Full-page TOPIA 롬마스터 컴돌이 ROM WRITER promotion with chip illustration and cartoon.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-107.png",
+        "sha256": "55b9baf0773f2fbbab1ec53eeac1fbc59a44021f9736b6997d6d6bbe17c143d7",
+        "bytes": 1804376
+      },
+      "previous_source_observation": {
+        "pdf_page": 107,
+        "printed_page": null,
+        "classification": "advertisement",
+        "toc_entry_ids": [],
+        "restoration": "outside-canonical-body",
+        "evidence": "Independent TOPIA ROM writer advertisement."
+      }
     },
     {
       "pdf_page": 108,
@@ -8400,7 +8640,25 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "evidence": "Independent大恩bookadvertisement after numericalanalysisending122."
+      "evidence": "Full-page 大恩電算學 series book advertisement with two columns of titles.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-123.png",
+        "sha256": "9ecc2ae000b9b08af06f085ab048f88c71a19ab91560135dd3f5d27297fbbc8b",
+        "bytes": 2589672
+      },
+      "previous_source_observation": {
+        "pdf_page": 123,
+        "printed_page": null,
+        "classification": "advertisement",
+        "toc_entry_ids": [],
+        "restoration": "outside-canonical-body",
+        "evidence": "Independent大恩bookadvertisement after numericalanalysisending122."
+      }
     },
     {
       "pdf_page": 124,
@@ -8906,7 +9164,25 @@
       "classification": "advertisement",
       "toc_entry_ids": [],
       "restoration": "outside-canonical-body",
-      "evidence": "IndependentTOPIA advertisement between shared166andGRAPHIC PRINT168;wholepage inspected."
+      "evidence": "Full-page TOPIA first-anniversary software sale promotion.",
+      "source_review": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-167.png",
+        "sha256": "5affac98feaa63f198657361f503e98c8266adec6cf8021969bbabeed40900d4",
+        "bytes": 1962672
+      },
+      "previous_source_observation": {
+        "pdf_page": 167,
+        "printed_page": null,
+        "classification": "advertisement",
+        "toc_entry_ids": [],
+        "restoration": "outside-canonical-body",
+        "evidence": "IndependentTOPIA advertisement between shared166andGRAPHIC PRINT168;wholepage inspected."
+      }
     },
     {
       "pdf_page": 168,
@@ -8975,66 +9251,156 @@
     {
       "pdf_page": 172,
       "printed_page": "170",
-      "classification": "unlisted-article-observed",
+      "classification": "unlisted-feature",
       "toc_entry_ids": [],
-      "restoration": "outside-current-canonical-body",
-      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Opening HGR 텍스트 프린트 / 김성현 page with graphics banner and printer photograph. Not a canonical TOC article or a body owned by the graphics heading. Visible lower-left folio 170.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-172.png",
+        "sha256": "19a13563658c3087642386e5bda99e3e018fcc4e6aecb0092b4de37fdfbb6002",
+        "bytes": 1671142
+      },
+      "previous_source_observation": {
+        "pdf_page": 172,
+        "printed_page": "170",
+        "classification": "unlisted-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "outside-current-canonical-body",
+        "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+          "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+          "bytes": 8952
+        }
       }
     },
     {
       "pdf_page": 173,
       "printed_page": "171",
-      "classification": "unlisted-article-observed",
+      "classification": "unlisted-feature",
       "toc_entry_ids": [],
-      "restoration": "outside-current-canonical-body",
-      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "restoration": "outside-canonical-body",
+      "evidence": "HGR text-print continuation: overview, input/save, usage and explanation sections. Visible lower-right folio 171.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-173.png",
+        "sha256": "c33b91ea686202ad6f502549cb3c406ebf094e09fdfbd0931a658532da388684",
+        "bytes": 1881651
+      },
+      "previous_source_observation": {
+        "pdf_page": 173,
+        "printed_page": "171",
+        "classification": "unlisted-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "outside-current-canonical-body",
+        "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+          "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+          "bytes": 8952
+        }
       }
     },
     {
       "pdf_page": 174,
       "printed_page": "172",
-      "classification": "unlisted-article-observed",
+      "classification": "unlisted-feature",
       "toc_entry_ids": [],
-      "restoration": "outside-current-canonical-body",
-      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "restoration": "outside-canonical-body",
+      "evidence": "HGR text-print continuation: explanation at left and BASIC list at right. Visible lower-left folio 172.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-174.png",
+        "sha256": "8d75a260f696a8f388f299450b35b597f653fa21391e229197bb311cf65f5b8e",
+        "bytes": 2080748
+      },
+      "previous_source_observation": {
+        "pdf_page": 174,
+        "printed_page": "172",
+        "classification": "unlisted-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "outside-current-canonical-body",
+        "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+          "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+          "bytes": 8952
+        }
       }
     },
     {
       "pdf_page": 175,
       "printed_page": "173",
-      "classification": "unlisted-article-observed",
+      "classification": "unlisted-feature",
       "toc_entry_ids": [],
-      "restoration": "outside-current-canonical-body",
-      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "restoration": "outside-canonical-body",
+      "evidence": "HGR text-print continuation: two columns of BASIC listing. Visible lower-right folio 173.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-175.png",
+        "sha256": "be753af7881751b3bc60346f00c9aa1dcb0dd7b230e46a89bb5cf5d6db63dbf7",
+        "bytes": 2457158
+      },
+      "previous_source_observation": {
+        "pdf_page": 175,
+        "printed_page": "173",
+        "classification": "unlisted-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "outside-current-canonical-body",
+        "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+          "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+          "bytes": 8952
+        }
       }
     },
     {
       "pdf_page": 176,
       "printed_page": "174",
-      "classification": "unlisted-article-and-advertisement-observed",
+      "classification": "unlisted-feature-and-advertisement",
       "toc_entry_ids": [],
-      "restoration": "outside-current-canonical-body",
-      "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+      "restoration": "outside-canonical-body",
+      "evidence": "HGR text-print listing ends at left with 1260 GOTO 720; separate 컴퓨터비전 85.10 promotion at right. Visible lower-left folio 174. Both panels outside canonical bodies.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
-        "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
-        "bytes": 8952
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-176.png",
+        "sha256": "ecf578bda58001db332b2d84086cf47ff5d6e57a02463c462ba79b8284675a17",
+        "bytes": 2052611
+      },
+      "previous_source_observation": {
+        "pdf_page": 176,
+        "printed_page": "174",
+        "classification": "unlisted-article-and-advertisement-observed",
+        "toc_entry_ids": [],
+        "restoration": "outside-current-canonical-body",
+        "evidence": "Independent HGR 텍스트 프린트 by 김성현 opens172 and ends left176 at1260 GOTO720. Right176 is 컴퓨터비전 promotion. No matching title/byline in canonical queue; no new canonical ID or body transcription. Canonical0019 뷰티풀 텍스트 by 김덕현 has separate TOC192 reference, still requires source verification.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-37/source-reviewed.json",
+          "sha256": "0de9c989eaee64238bb81887d9373f3007454bbe261feba28bfcb4da8f7c1985",
+          "bytes": 8952
+        }
       }
     },
     {
@@ -10243,14 +10609,32 @@
     {
       "pdf_page": 250,
       "printed_page": null,
-      "classification": "outside-article-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent 희망전자개발/BAL500 advertisement,no visiblefolio.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page 희망전자개발 advertisement with BAL 500 disk equipment and printer-buffer panels.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
-        "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
-        "bytes": 12929
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-250.png",
+        "sha256": "37b8561dccac0cf7d2ebc73265c5d673c3acf83d97ef3d24507cdb024af5584a",
+        "bytes": 2138930
+      },
+      "previous_source_observation": {
+        "pdf_page": 250,
+        "printed_page": null,
+        "classification": "outside-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "not-started",
+        "evidence": "Independent 희망전자개발/BAL500 advertisement,no visiblefolio.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-53/source-reviewed-r01.json",
+          "sha256": "19df4c6145b1d053f2aa62327fa45d90266f192638bdf4f070c99676c15f79cc",
+          "bytes": 12929
+        }
       }
     },
     {
@@ -10368,27 +10752,63 @@
     {
       "pdf_page": 258,
       "printed_page": null,
-      "classification": "outside-article-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent tape advertisement.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page 반포상사 promotion for monthly magazine program tapes and MSX game tapes.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
-        "sha256": "ac47e45ec846bc5cf46691bed4b4f4a1a910c626722c661e861b591cb2edd5c4",
-        "bytes": 8247
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-258.png",
+        "sha256": "a8d532f94ce9b53ceb1285e989fa01867b067b88a14e1e378c87bc6440b0b933",
+        "bytes": 1339328
+      },
+      "previous_source_observation": {
+        "pdf_page": 258,
+        "printed_page": null,
+        "classification": "outside-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "not-started",
+        "evidence": "Independent tape advertisement.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
+          "sha256": "ac47e45ec846bc5cf46691bed4b4f4a1a910c626722c661e861b591cb2edd5c4",
+          "bytes": 8247
+        }
       }
     },
     {
       "pdf_page": 259,
       "printed_page": null,
-      "classification": "outside-article-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
-      "restoration": "not-started",
-      "evidence": "Independent computer advertisement.",
+      "restoration": "outside-canonical-body",
+      "evidence": "Full-page computer installment-sale and CRT-filter promotion with computer department contact panel.",
       "source_review": {
-        "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
-        "sha256": "ac47e45ec846bc5cf46691bed4b4f4a1a910c626722c661e861b591cb2edd5c4",
-        "bytes": 8247
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "original_source_view": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-review/full-259.png",
+        "sha256": "b1056568bd2ecc124c985c8d8ca8876b0143ab5471db525a8702b054c961cfbd",
+        "bytes": 2089039
+      },
+      "previous_source_observation": {
+        "pdf_page": 259,
+        "printed_page": null,
+        "classification": "outside-article-observed",
+        "toc_entry_ids": [],
+        "restoration": "not-started",
+        "evidence": "Independent computer advertisement.",
+        "source_review": {
+          "path": "archive/pdf/1985-10/restoration/batch-57/source-reviewed.json",
+          "sha256": "ac47e45ec846bc5cf46691bed4b4f4a1a910c626722c661e861b591cb2edd5c4",
+          "bytes": 8247
+        }
       }
     },
     {
@@ -10543,31 +10963,14 @@
   ],
   "cover_status": "verified donated cover;480x611 RGB JPEG thumbnail68837bytes;metadata stripped;independent private rebuild exact",
   "next_checkpoint": {
-    "id": "issue-accounting-02",
-    "goal": "Classify twenty remaining outside-body pages22–27,37,74,105,107,123,167,172–176,250,258,259 fromsaved/newsource views.",
+    "id": "issue-accounting-03",
+    "goal": "Classify final outside-body pages 265,267,268 and complete the 268-page ownership/exclusion accounting.",
     "toc_entry_ids": [],
-    "mapping_targets": "Twenty outside-body pages only;reuse saved3000px views whereavailable. Preserve prior observations as nested history when resolving old provisional labels. No new article/parentidentity orOCR;unlisted HGR172–176 remains outside canonical body. Remaining265,267,268 andfull268-page ownership/exclusion audit follow inissue-accounting-03,thenindex/report/rebuild/fresh213/closeout.",
+    "mapping_targets": "Inspect three outside-body pages; retain selected article packages and native exclusions unchanged. Audit all source pages, shared owners and exclusions; establish dispatcher for ten private assembly adapters. Then standalone index/report, independent rebuild, fresh 213 tests and full closeout audit. No reader rebuild.",
     "provisional_lookup_targets": [
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      37,
-      74,
-      105,
-      107,
-      123,
-      167,
-      172,
-      173,
-      174,
-      175,
-      176,
-      250,
-      258,
-      259
+      265,
+      267,
+      268
     ],
     "limits": {
       "articles": 2,
@@ -10579,7 +10982,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "All39 canonical identities accounted:35 readable/sample-reviewed articles,4 non-owning headings,0 partial/unresolved. Donated cover verified480x611/68837bytes. Selectedarticles cover224 distinctPDFpages;44 pages outsidebody. Current accounting classifies20 advertisingpages2–21 pluspreviouslyverifiedcover1;23 other outsidepages andfull268-page ownership audit remain. KeepPDF3folio1 and19 currentnullfolios,nooffsetinference. Standaloneindex/report,independentrebuild,fresh213,fullaudit pending. Alltenadapters/attempts retained;humanacceptance/fullproofreading/sourcebytes/spacing/glyphcounts/claims/execution/backuprecovery unverified. No reader rebuild."
+    "All 39 canonical identities accounted: 35 readable/sample-reviewed articles, four non-owning headings, zero partial/unresolved. Donated cover verified 480x611/68,837 bytes. Selected bodies cover 224 distinct PDF pages; 44 outside. Cover and 40 other outside pages accounted; final 265,267,268 and complete 268-page ownership/exclusion audit remain. Current seven visible folios and thirteen null retained without offset inference. Unlisted HGR feature 172–176 remains outside canonical transcription; last page includes separate promotion. Standalone index/report, independent rebuild, fresh 213 tests and full audit pending. All ten adapters/attempts retained; human acceptance/full proofreading/source bytes/spacing/glyph counts/claims/execution/backup recovery unverified. No reader rebuild."
   ],
   "reader_rebuild": false,
   "cover_verification": {
@@ -10621,6 +11024,41 @@
         "path": "archive/pdf/1985-10/restoration/issue-accounting-01/validation-r01.json",
         "sha256": "86f99d9454267fe66fa888f7d0484f692e24b62d39fb5cdfc94ca254bc218734",
         "bytes": 2036
+      }
+    },
+    {
+      "checkpoint": "issue-accounting-02",
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        37,
+        74,
+        105,
+        107,
+        123,
+        167,
+        172,
+        173,
+        174,
+        175,
+        176,
+        250,
+        258,
+        259
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/source-page-classifications.json",
+        "sha256": "a9d039821cbaf2044aae42f018655faea9ada00f098a9f71767d1ec21fae031a",
+        "bytes": 29309
+      },
+      "validation": {
+        "path": "archive/pdf/1985-10/restoration/issue-accounting-02/validation.json",
+        "sha256": "bb287d37f2a2a31bcc21c25e130ddbafb283f069a0936962324c243563dba4dd",
+        "bytes": 1503
       }
     }
   ]
