@@ -171,12 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: twelve articles are readable and
-independently reproducible. All seven Hangul-processing feature pages 73–79 are
-restored in two segments; complete article assembly remains. Thirty-three of 46
-entries still need restoration or classification; cover and issue accounting
-remain. Conversation, progress logs and documentation use English while original
-source text retains its language. See [the November progress log](docs/progress/8511.md).
+November 1985 restoration is in progress: thirteen articles are readable and
+independently reproducible. The complete Hangul-processing feature, pages 73–79,
+now has a verified 398-file assembly preserving all native text, chart positions,
+uncertain glyphs and handwriting. Thirty-three of 46 entries still need restoration
+or classification; cover and issue accounting remain. Next is Lessons from Apple,
+starting at page 80. Conversation, progress logs and documentation use English;
+original source text retains its language. See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 

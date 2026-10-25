@@ -15,26 +15,29 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 remains in progress: twelve readable, assistant sample-reviewed
-articles, one partial article and 33 unresolved identities. Batch 16 restores
-Hangul-processing feature 0001 final page 79 at `packages/batch-16-r 01/hangul-feature-b`.
-All 73–79 body pages are now restored in two immutable segments; complete article
-assembly remains pending. Both final-page exports match across 61 files. All 746
-text ranges, 788 evidence-pin occurrences and 14 images validate. The segment
-retains 13 blocks, 103 physical rows, ten named literals, two wrapped names and the
-closing ellipsis. All 15,336 prior files, fifteen inventories and 30 core pins remain
-unchanged; the 213-test baseline is reused. Current preservation contains 15,598 files.
-Next batch 17 assembles the complete feature, including its page 73 title page without a
-visible folio, the code-chart blanks/placeholders, later handwriting and 78→79 join.
-Diskette 0032 still needs a location search after its TOC 72 mismatch. Cover,
-266-page accounting and full issue closeout remain. Conversation, logs and
-documentation use English; original source text retains its language. No reader rebuild.
-Reproduce final 79 with `archive/pdf/1985-11/restoration/batch-16/reproduction.json`.
-Preserve both feature segments and all native correction metadata. The complete
-assembly must retain the 73–78 code chart, manufacturer table, handwriting records,
-all empty cells and uncertain glyphs, and resolve the final word boundary 78→79.
-Existing batch 14 PLAY and batch 09 numerical-analysis adapters remain required
-for their complete assemblies. No new OCR is needed for feature assembly.
+November 1985 remains in progress: thirteen readable, assistant sample-reviewed
+articles, no partial article and 33 unresolved identities. Batch 17 assembles the
+complete Hangul-processing feature 0001, pages 73–79, at
+`archive/pdf/1985-11/packages/hangul-feature-complete-r01`. Both exports match
+across 398 files, including all 390 native files. All 7,816 UTF-8 ranges,
+214 blank-anchor occurrences, 8,923 evidence pins and 104 images validate.
+The assembly retains 90 blocks, 14 figures, all 256 chart positions, 107 blanks,
+two uncertain glyphs and separate handwriting. The word split across pages 78–79
+has an explicit source link; native text bytes remain unchanged. Page 73's folio
+remains null. The first verifier's row-label assumption and its correction are
+preserved; no export or transcription changed. All 15,598 prior files, sixteen
+inventories and 30 core pins remain unchanged. The 213-test baseline is reused,
+not rerun. Current preservation contains 16,415 issue files.
+Next batch 18 verifies Lessons from Apple 0009 from page 80 and its full extent
+before mapping. Diskette 0032 still needs a location search after its TOC 72
+mismatch. Cover, all 266 pages and whole-issue closeout remain. Conversation,
+logs and documentation use English; original source text retains its language.
+No reader rebuild.
+Reproduce with `archive/pdf/1985-11/restoration/batch-17/reproduction.json`.
+The pinned `hangul-feature-literal-v1` adapter is required for reconstruction and
+checking. It retains all native metadata categories and projects blank insertion
+anchors as well as text ranges. Existing batch 14 PLAY and batch 09 numerical-analysis
+adapters remain required for their complete assemblies.
 See [November log](progress/8511.md) and the issue ledger.
 
 ## Latest completed issue

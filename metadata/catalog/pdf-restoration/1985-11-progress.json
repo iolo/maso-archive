@@ -26,57 +26,52 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0001 Hangul-processing feature starts with illustrated title/deck on PDF73(no visible folio),continues74–79 and ends79 before separate Lessons from Apple80.",
         "This segment maps73–78;final79 and complete article assembly remain deferred. Source captions retain reversed figure1/figure2 page order.",
         "Canonical0032 TOC72 mismatches the inspected slogan-contest notice72;keep that entry unresolved and do not substitute it for this feature or assert source absence.",
         "Final79 continues the split word 카/드들은 from78, closes the Hangul feature with a final ellipsis, and is followed by independent Lessons from Apple80.",
-        "Feature full extent73–79 remains verified; this segment covers79 only. Opening73–78 remains immutable and complete assembly is pending."
+        "Feature full extent73–79 remains verified; this segment covers79 only. Opening73–78 remains immutable and complete assembly is pending.",
+        "All seven body pages 73–79 assembled from two immutable native segments; 398 independently identical files. Six active stage deferrals resolved. All native metadata and source uncertainties retained; full source coverage and assembly now complete."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-16-r01/hangul-feature-b",
+        "directory": "archive/pdf/1985-11/packages/hangul-feature-complete-r01",
         "article_id": "scan-maso-1985-11-toc-0001",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-16-r01/hangul-feature-b/manifest.json",
-          "sha256": "2f6e2dd4bae81791bdfd202189f5e697d892779ade808b23ef8470e04965cb19",
-          "bytes": 9914
+          "path": "archive/pdf/1985-11/packages/hangul-feature-complete-r01/manifest.json",
+          "sha256": "3e1233325a83090ce933c32660bc44e7730624315aba789bda4923bf5828a7f7",
+          "bytes": 69481
         },
         "coverage": {
           "pdf_pages": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
             79
           ],
           "printed_pages": [
+            null,
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
             "79"
           ],
-          "full_article_pdf_pages": [
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79
-          ],
-          "all_segment_pdf_pages": [
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79
-          ],
-          "regions": 14,
-          "blocks": 13,
-          "figures": 1,
+          "regions": 104,
+          "blocks": 90,
+          "figures": 14,
           "deferred_pdf_pages": [],
           "excluded_region_ids": []
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "segments": [
           {
             "name": "a",
@@ -108,15 +103,21 @@
             ]
           }
         ],
+        "assembly_format": "hangul-feature-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-11/restoration/batch-17/hangul_feature_literal.py",
+          "sha256": "4c70aeec941bbb416d768d01e7b39da90b2eb30bb6462ab2f7796e5bc5b1c248",
+          "bytes": 15066
+        },
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-16/validation.json",
-          "sha256": "4ab55e9ef59ceff9a9c1ca7db2bb7925ef34a60a2c7eb8f95de594e7b6b94356",
-          "bytes": 1587
+          "path": "archive/pdf/1985-11/restoration/batch-17/validation.json",
+          "sha256": "0cbc7f52d9fab894a021fa59a5285d83c6fbce374182dbdec63493eb79f57ef9",
+          "bytes": 2937
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-16/reproduction.json",
-          "sha256": "ee10b5591935296c239304f158acc40d060a021b6d68b41e2ed877225f338c63",
-          "bytes": 1371
+          "path": "archive/pdf/1985-11/restoration/batch-17/reproduction.json",
+          "sha256": "a299c6e9592cff79abc908e1b4d175a00e76779b924c8496686f20019df5b1d8",
+          "bytes": 2080
         }
       }
     },
@@ -1227,8 +1228,8 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 12,
-    "partial": 1,
+    "readable": 13,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 33
   },
@@ -1887,6 +1888,44 @@
       "started_at": "2026-10-25T06:26:43.627727+00:00",
       "finished_at": "2026-10-25T06:36:03.862729+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits/gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-17",
+      "status": "complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0001"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        72,
+        73,
+        78,
+        79,
+        80
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_crop_repair": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-17/validation.json",
+        "sha256": "0cbc7f52d9fab894a021fa59a5285d83c6fbce374182dbdec63493eb79f57ef9",
+        "bytes": 2937
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-17/verification-completed.json",
+        "sha256": "00bf54c03d0e111ce27961cd4bdb59d484672054f3c33f5f0d38c1fedd4b28b9",
+        "bytes": 2268
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-17-preserved-work.json",
+        "sha256": "576cfec22cbbac4fe7cf42b0e8f55b853df35d8a8d261a881ce3579deb7fc1b5",
+        "bytes": 3670226
+      },
+      "started_at": "2026-10-25T06:41:12.206990+00:00",
+      "finished_at": "2026-10-25T06:49:36.216337+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -2320,7 +2359,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 74,
@@ -2329,7 +2368,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 75,
@@ -2338,7 +2377,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 76,
@@ -2347,7 +2386,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 77,
@@ -2356,7 +2395,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 78,
@@ -2365,7 +2404,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 79,
@@ -2374,7 +2413,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0001"
       ],
-      "restoration": "segment-complete"
+      "restoration": "complete-article-assembled"
     },
     {
       "pdf_page": 80,
@@ -2389,18 +2428,21 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-17",
-    "goal": "Assemble complete Hangul-processing feature0001 pages73–79 from immutable opening and final segments, retaining every native file, table cell, handwriting record and metadata category.",
+    "id": "batch-18",
+    "goal": "Verify and restore canonical 0009 Lessons from Apple starting at source page 80. Inspect its complete extent and adjacent boundaries before mapping.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0001"
+      "maso-1985-11-toc-0009"
     ],
-    "mapping_targets": "No new mapping or OCR. Verify boundaries72/73/78/79/80 and all projected ranges.",
+    "mapping_targets": "Opening 80 is observed; subsequent pages remain provisional until inspected. Apply the six-page mapping limit if segmentation is required.",
     "provisional_lookup_targets": [
-      72,
-      73,
-      78,
       79,
-      80
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
     ],
     "limits": {
       "articles": 2,
@@ -2412,7 +2454,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twelve readable articles and one partial article. All Hangul feature0001 body pages73–79 restored; complete assembly pending.33 unresolved identities,cover and whole266-page accounting remain. Diskette0032 location remains unresolved after TOC72 mismatch."
+    "Thirteen readable articles, no current partial article or pending assembly. Thirty-three unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch."
   ],
   "reader_rebuild": false
 }
