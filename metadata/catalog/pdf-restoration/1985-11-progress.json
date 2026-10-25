@@ -1566,7 +1566,7 @@
       "parent_id": "maso-1985-11-toc-0040",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical 0045 occupies printed/PDF pages 104–114, ending with the hard-copy listing RET at D2A3 and a decorative bird. Folios 104–114 individually observed. Pages 115 and 116 are independent TOPIA advertisements with no visible folios; page 117 opens distinct VDP analysis canonical 0010.",
@@ -1576,18 +1576,25 @@
         "Final segment 110–114 of canonical MSX Corners (2) 0045. Full extent 104–114 was established in batch 26; original opening segment 104–109 remains unchanged. All five final folios individually observed.",
         "Page 110 continues the Graphic Editor program explanation from 109, lists five variable descriptions, then starts the hard-copy section and a separately numbered listing 1–8. This duplicate source number is retained.",
         "The hard-copy assembly listing runs from D000 on 110 through D2A3/RET on 114. Annotation braces cross 111→112, 112→113 and 113→114 and cross columns; source addresses/bytes and the decorative bird remain literal.",
-        "Independent TOPIA advertisements 115–116 have no visible folios. Distinct VDP analysis canonical 0010 opens on observed 117. No new location search or global offset inferred. All 104–114 body pages will be present in two immutable segments; complete assembly remains pending."
+        "Independent TOPIA advertisements 115–116 have no visible folios. Distinct VDP analysis canonical 0010 opens on observed 117. No new location search or global offset inferred. All 104–114 body pages will be present in two immutable segments; complete assembly remains pending.",
+        "All eleven body pages 104–114 assembled from two immutable native segments; 639 independently identical files. Six active stage deferrals resolved. Program explanation across 109–110 and duplicate listing captions linked. All native metadata and source uncertainties retained; article coverage and assembly complete."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-27-r01/msx-corners-b",
+        "directory": "archive/pdf/1985-11/packages/msx-corners",
         "article_id": "scan-maso-1985-11-toc-0045",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-27-r01/msx-corners-b/manifest.json",
-          "sha256": "2c04414897740404268d96d34cafa87474678db360030459a8289ce91561ff81",
-          "bytes": 47855
+          "path": "archive/pdf/1985-11/packages/msx-corners/manifest.json",
+          "sha256": "1d50f29b8ec3bf93cb80bb639ef8d90610002336e8eadd7ce2c0eeaa8b69b64d",
+          "bytes": 112068
         },
         "coverage": {
           "pdf_pages": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
             110,
             111,
             112,
@@ -1595,47 +1602,27 @@
             114
           ],
           "printed_pages": [
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
             "110",
             "111",
             "112",
             "113",
             "114"
           ],
-          "full_article_pdf_pages": [
-            104,
-            105,
-            106,
-            107,
-            108,
-            109,
-            110,
-            111,
-            112,
-            113,
-            114
-          ],
-          "all_segment_pdf_pages": [
-            104,
-            105,
-            106,
-            107,
-            108,
-            109,
-            110,
-            111,
-            112,
-            113,
-            114
-          ],
-          "regions": 75,
-          "blocks": 69,
-          "figures": 6,
+          "regions": 162,
+          "blocks": 150,
+          "figures": 12,
           "deferred_pdf_pages": [],
           "excluded_region_ids": []
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "source_title": "MSX의 구석구석",
         "source_subtitle": "포트와 주변기기의 응용",
         "source_byline": "신 동 윤 / 광성중 3 / 내일 소프트 클럽",
@@ -1674,15 +1661,21 @@
             ]
           }
         ],
+        "assembly_format": "msx-corners-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-11/restoration/batch-28/msx_corners_literal.py",
+          "sha256": "36b903964409822fa89b283a2140ef8d8cc6da32b4af8532359141abb5032c61",
+          "bytes": 17517
+        },
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-27/validation.json",
-          "sha256": "992f35f3f28be3783787b4969b8b2a224ee12448bc7e30e08b69f1fd3da791de",
-          "bytes": 2193
+          "path": "archive/pdf/1985-11/restoration/batch-28/validation.json",
+          "sha256": "724202dde6670056a8afdd7d4537de6f8caac48c412d86b172f6947eb70e9f79",
+          "bytes": 3264
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-27/reproduction.json",
-          "sha256": "6d4817fbacccd70a3b8c6ded586b268f552749ce67f5557e8ff9c81e0bbf6a1d",
-          "bytes": 1473
+          "path": "archive/pdf/1985-11/restoration/batch-28/reproduction.json",
+          "sha256": "f135ce809c28abb5c0e7a87f63cf5c111e49b542341d0dc755b1678075d3a507",
+          "bytes": 2118
         }
       }
     },
@@ -1700,8 +1693,8 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 19,
-    "partial": 1,
+    "readable": 20,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 26
   },
@@ -2819,6 +2812,47 @@
       "started_at": "2026-10-25T09:42:51.708009+00:00",
       "finished_at": "2026-10-25T10:06:38.860464+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-28",
+      "status": "complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0045"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        103,
+        104,
+        109,
+        110,
+        114,
+        115,
+        116,
+        117
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_crop_repair": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-28/validation.json",
+        "sha256": "724202dde6670056a8afdd7d4537de6f8caac48c412d86b172f6947eb70e9f79",
+        "bytes": 3264
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-28/verification-completed.json",
+        "sha256": "8a2f27b1611f4dd1901ad5007ea62d2f151130b7544033d03c2a4125642ecd2f",
+        "bytes": 1960
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-28-preserved-work.json",
+        "sha256": "74719517863dc0306038054d30f9d464344506776b292e3f2fae368c7ec9147d",
+        "bytes": 5679935
+      },
+      "started_at": "2026-10-25T10:10:33.781244+00:00",
+      "finished_at": "2026-10-25T10:18:35.193655+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -3548,7 +3582,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3558,7 +3592,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3568,7 +3602,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3578,7 +3612,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3588,7 +3622,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3598,7 +3632,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3608,7 +3642,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3618,7 +3652,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3628,7 +3662,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3638,7 +3672,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3648,7 +3682,7 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0045"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "note": "MSX Corners (2), canonical 0045; full extent 104–114 verified. Graphics-editor explanation continues on 110; hard-copy listing ends on 114."
     },
     {
@@ -3680,21 +3714,29 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-28",
-    "goal": "Assemble complete MSX Corners (2) 0045 pages 104–114 from immutable opening and final segments, retaining BASIC logical/physical rows, assembly fields/bytes, keyboard tables, annotation braces, program explanation and every source uncertainty.",
+    "id": "batch-29",
+    "goal": "Verify full extent and restore canonical 0010 VDP source-list analysis, opening at observed page 117. Inspect the ending and adjacent boundaries before mapping a complete article or bounded opening segment.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0045"
+      "maso-1985-11-toc-0010"
     ],
-    "mapping_targets": "No new mapping or OCR. Verify boundaries 103/104/109/110/114/115/116/117 and all projected ranges; connect incoming program explanation and preserve duplicate listing number 1–8.",
+    "mapping_targets": "Opening 117 observed. Later extent is unverified; next canonical start candidate 154 is only a lookup hint. Apply the six-page mapping limit and retain the distinct identity from MSX Corners 0045.",
     "provisional_lookup_targets": [
-      103,
-      104,
-      109,
-      110,
-      114,
-      115,
       116,
-      117
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
     ],
     "limits": {
       "articles": 2,
@@ -3706,7 +3748,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Nineteen readable articles and one partial article. All MSX Corners (2) 0045 body pages 104–114 restored in two immutable segments; complete assembly pending. Twenty-six unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
+    "Twenty readable articles, no current partial article or pending assembly. Twenty-six unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 location remains unresolved after its TOC 72 mismatch. News parent 0020 remains unresolved; no non-owning classification inferred from child restoration."
   ],
   "reader_rebuild": false
 }

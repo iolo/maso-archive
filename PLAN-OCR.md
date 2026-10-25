@@ -23,40 +23,43 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 remains in progress: nineteen readable, assistant sample-reviewed
-  articles, one partial article and 26 unresolved identities. Batch 27 restores
-  MSX Corners (2) 0045 final pages 110–114 at
-  `archive/pdf/1985-11/packages/batch-27-r01/msx-corners-b`. Both exports match across
-  291 files. All article body pages 104–114 are now available in two immutable
-  segments; complete article assembly remains pending. Independent TOPIA
-  advertisements 115–116 have no visible folios; distinct VDP analysis 0010 opens
-  on observed 117. Canonical identities, titles and parent relationships are unchanged.
-  The final segment retains 75 regions, 69 blocks, five full originals and a
-  separate decorative bird. Its 554 physical text rows include 370 assembly rows,
-  1,767 assembly fields and 676 byte candidates. Thirty-eight annotation associations
-  include four across pages and seven across code regions; an unlabelled brace is
-  preserved without invented text. Eight continued program-explanation rows, five
-  variable descriptions, one source-boundary join, thirteen wrapped literals,
-  eighteen source variants and 44 unverified technical claims remain source-linked.
-  The reused listing number 1–8, printed X/Y inconsistency, repeated wording and
-  three damaged code glyph candidates remain literal. No program execution.
-  All 7,387 UTF-8 ranges, 7,650 evidence-pin occurrences, 75 images and 536 disjoint
-  nonfigure pairs validate. All 76 original crops and eight replacements were
-  inspected before 69 pinned tasks (9 eng, 60 kor+eng); every draft was read before
-  one source pass, with zero OCR retries. The initial map overlap and later serializer
-  lookup failure are preserved with their successful revisions. No verifier failure.
-  All 22,902 prior files, 26 inventories and 30 core pins remain unchanged. The
+- November 1985 remains in progress: twenty readable, assistant sample-reviewed
+  articles, no partial article or pending assembly, and 26 unresolved identities.
+  Batch 28 completes MSX Corners (2) 0045 pages 104–114 at
+  `archive/pdf/1985-11/packages/msx-corners`. All 639 files match the independent
+  rebuild, including all 630 native files. The eleven-page article retains 162
+  regions, 150 blocks and twelve figures. The private `msx-corners-literal-v1`
+  adapter at `archive/pdf/1985-11/restoration/batch-28/msx_corners_literal.py`
+  is required for reproduction and issue closeout; core tools remain unchanged.
+  The complete article retains 1,001 physical text rows and 28 logical table rows,
+  661 physical code rows, six BASIC programs with 209 logical rows and 1,533 fields,
+  and three assembly listings with 388 rows, 1,873 fields and 726 byte candidates.
+  Three keyboard tables retain 128 cells and 136 cell physical rows. Forty-two
+  annotation associations, twelve captions, three continuations and all native
+  source uncertainties remain. Ten program-explanation entries across 109–110
+  reference 130 Graphic Editor rows; source rows 1420 and 1440 have no printed
+  explanation entries and remain unmentioned. Five variable descriptions and both
+  separately reused listing 1–8 captions are linked without altering source text.
+  All 40 native array categories, eight object projections, eight reserved-list
+  projections and two scalars are retained. All 30,043 UTF-8 range occurrences,
+  31,517 evidence-pin occurrences, 162 images and 1,203 disjoint nonfigure pairs
+  validate. Six active stage deferrals are resolved; original native notes remain.
+  Eight saved boundary views were rechecked, with no new mapping, OCR or source
+  correction. The first verifier incorrectly expected an empty uncertainty list;
+  r02 verifies exact retained source uncertainties. Both attempts remain preserved.
+  All 24,119 prior files, 27 inventories and 30 core pins remain unchanged. The
   unchanged 213-test baseline is reused, not rerun. Current preservation contains
-  24,119 issue files. Reproduce with
-  `archive/pdf/1985-11/restoration/batch-27/reproduction.json`.
-  Next batch 28 assembles complete MSX Corners 104–114, retaining every native file
-  and metadata category and connecting the program explanation across 109→110.
-  Diskette 0032 still needs a location search after its TOC 72 mismatch; News parent
-  0020 and Back-Issue Guide 0033 remain unresolved. Cover, all 266 source pages and
-  whole-issue closeout remain. Conversation, logs and documents use English;
-  original source text retains its language. No reader rebuild. Human acceptance/
-  full proofreading, source bytes, exact spacing, glyph identity, historical/
-  technical claims and execution remain unverified.
+  25,421 issue files. Reproduce with
+  `archive/pdf/1985-11/restoration/batch-28/reproduction.json`.
+  Next batch 29 verifies the full extent of distinct VDP source-list analysis 0010,
+  opening on observed 117, before restoring a bounded complete article or segment.
+  Independent TOPIA advertisements 115–116 retain null folios. Diskette 0032 still
+  needs a location search after its TOC 72 mismatch; News parent 0020 and Back-Issue
+  Guide 0033 remain unresolved. Cover, all 266 source pages and issue closeout remain.
+  Conversation, logs and documents use English; original source text retains its
+  language. No reader rebuild. Human acceptance/full proofreading, source bytes,
+  exact spacing, glyph identity, historical/technical claims and execution remain
+  unverified.
   Existing batch 20 Lessons from Apple, batch 17 Hangul feature, batch 14 PLAY and
   batch 09 numerical-analysis adapters remain required for complete assemblies.
   [November log](docs/progress/8511.md), [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
