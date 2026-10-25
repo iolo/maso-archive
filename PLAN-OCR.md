@@ -25,52 +25,42 @@ paired OCR or a new engine comparison.
 
 - November 1985 remains in progress: twenty-five readable, assistant sample-reviewed
   articles, one partial article requiring assembly, and twenty unresolved identities.
-  Batch 43 restores ALG III 0008's middle pages 184-189. Its complete extent remains
-  178-195; the opening 178-183 is immutable. Ten full-page views confirm the six
-  mapped folios and four outside lookups (183,190,195,196), each observed separately.
-  The middle package is `archive/pdf/1985-11/packages/batch-43/alg-iii-middle`;
-  all 146 files match its independent rebuild. Its 41 regions, 32 blocks and nine
-  figures retain 629 transcription rows, sixteen variables with 36 fields, sixteen
-  line-span explanations, three loop conversions and four distinct printed listings.
-  The eight table cells include two blank cells. The 269 numbered statements retain
-  416 physical rows and three cross-column/page continuations. All 2,926 code
-  lexemes, 816 digit runs and 2,120 operator glyphs are indexed as literal fields.
-  Twenty wraps, 28 source variants, six unknown-count bands and two handwritten
-  marks remain explicit. No syntax repair, renumbering or execution was performed.
-  All original crops and four widened margins were inspected before 32 pinned OCR
-  tasks (eleven English code, twenty-one Korean/English text). Every raw was read
-  before one source pass. No recognition retries. The first serializer stopped
-  before writing corrections because an unanchored F$ search matched inside LF$;
-  the fresh revision passed. Both attempts remain preserved. An editorial glossary
-  count of seventeen was explicitly corrected to sixteen; source text is unchanged.
-  All 12,060 UTF-8 ranges, 12,200 evidence pins, 41 decoded images and 88 disjoint
-  text-region pairs validate. All 39,508 prior files, 42 inventories and thirty core
+  Batch 44 restores ALG III 0008's ending pages 190-195. All body pages 178-195 now
+  exist in three immutable segments: opening 178-183, middle 184-189 and ending
+  190-195. Complete article assembly remains required. Eight full-page views confirm
+  six mapped folios and two outside lookups (189,196), each observed separately.
+  The ending package is `archive/pdf/1985-11/packages/batch-44/alg-iii-ending`;
+  all 152 files match its independent rebuild. Its 44 regions, 33 blocks and eleven
+  figures retain 920 transcription rows, 78 variable definitions with 172 fields,
+  three tables with 192 cells including two blanks, seven duration fields and two
+  independent source stamps. Numbered listing 4 ends with eight statements across
+  eleven rows. The separate source listing retains thirty label definitions, nine
+  DATA rows, 391 comment rows, 170 physical quote pairs and four comment diagrams.
+  All 2,745 code lexemes, 570 digit runs and 3,205 operator glyphs remain literal.
+  Six wraps, 48 source variants, 23 unknown-count bands and a handwritten mark remain
+  explicit. No syntax repair, label reconciliation, arithmetic or execution validation.
+  All original crops and seventeen revised crops were inspected before 33 pinned
+  OCR tasks (21 English code, twelve Korean/English text). Every raw was read before
+  one source pass. No recognition retries. Serializer, exports and verifier passed
+  on their first executions. Two editorial counts were explicitly corrected without
+  changing source text: three numbered-statement wraps and seven duration marks.
+  All 13,935 UTF-8 ranges, 14,216 evidence pins, 44 decoded images and 76 disjoint
+  text-region pairs validate. All 40,159 prior files, 43 inventories and thirty core
   pins remain unchanged. The unchanged 213-test baseline is reused, not rerun.
-  Current preservation contains 40,159 issue files. Reproduction:
-  `archive/pdf/1985-11/restoration/batch-43/reproduction.json`.
-  Batch 44 is in progress for ALG III final pages 190-195: the end of numbered
-  listing 4, the separate source listing and closing variable/runtime/label tables.
-  Eight full-page views confirm six mapped pages and two outside lookups (189,196).
-  Selected map-r02 contains 44 regions: 33 text regions and eleven original images.
-  All original crops and seventeen revised crops were inspected before recognition.
-  All 33 pinned OCR tasks completed (21 English code, twelve Korean/English text),
-  and every raw draft has been read. No recognition failures or retries. Resume with
-  one direct source correction pass; none has started. Preserve boxed comments,
-  physical rows, separate listings, table fields and the two blank final label cells.
-  In-flight evidence is in `archive/pdf/1985-11/restoration/batch-44/`; this is not
-  an exported segment or completed checkpoint. All 40,159 prior files, thirty core
-  pins and the canonical ledger remain unchanged. Do not rerun mapping or OCR.
-  Corrected transcripts, structured indexes, two exports and full verification remain.
-  Complete immutable article assembly will still be required. Do not restart earlier
-  mapping, OCR or source passes. All in-flight records and English handoff commits
-  remain historical evidence. Contest Overview 0034 on lower 175 is separate and
-  complete. Software Contest 0035's page-176 hint, parents 0002 and 0020 and Back-Issue
-  Guide 0033 remain unresolved. Diskette 0032 is complete on 176; its canonical hint
-  72 and earlier mismatch remain. Folios on 175-177 remain null. Cover, remaining
-  identities, all 266 source pages and issue closeout remain. Replies, logs and
-  documents use English; original source material retains its language. No reader
-  rebuild. Human acceptance/full proofreading, original bytes, spacing, glyph identity,
-  historical/technical claims and execution remain unverified.
+  Current preservation contains 40,843 issue files. Reproduction:
+  `archive/pdf/1985-11/restoration/batch-44/reproduction.json`.
+  Next batch 45 assembles complete ALG III 178-195 from the three immutable native
+  packages. Preserve every original file and metadata category, project all source
+  ranges and verify complete ordered coverage with an independent rebuild. No new
+  mapping, OCR or source correction is needed. Earlier failed attempts and in-flight
+  records remain historical evidence. Contest Overview 0034 on lower 175 is separate
+  and complete. Software Contest 0035's page-176 hint, parents 0002 and 0020 and
+  Back-Issue Guide 0033 remain unresolved. Diskette 0032 is complete on 176; its
+  canonical hint 72 and earlier mismatch remain. Folios on 175-177 remain null.
+  Cover, remaining identities, all 266 source pages and issue closeout remain.
+  Replies, logs and documents use English; original source material retains its
+  language. No reader rebuild. Human acceptance/full proofreading, original bytes,
+  spacing, glyph identity, historical/technical claims and execution remain unverified.
   Existing batch 28 MSX Corners, batch 20 Lessons from Apple, batch 17 Hangul
   feature, batch 14 PLAY and batch 09 numerical-analysis adapters remain required
   for complete assemblies.

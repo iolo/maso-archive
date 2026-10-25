@@ -418,32 +418,39 @@
         "Page 185 has three loop conversion diagrams, numbered example listing 1, separately printed source listing 2 across left-bottom and right columns, and a generated four-column label table. Its output footer continues upper-left 186. List 3 on 186 is the separately printed translated example, followed by explanatory prose.",
         "Numbered main BASIC listing 4 begins in the right column of 186 and continues across both columns on 187-189. Statement 172 crosses 186/187, 277 crosses columns on 187, and 655 crosses columns on 189. Statement 787 at the end of 189 precedes 793 on 190. Physical wraps are retained and must not be conflated with statement boundaries.",
         "Page 190 finishes listing 4 in its upper-left panel, then opens a separately printed source-program listing. Article end 195 retains variable/runtime/label tables; 196 opens distinct Magic Square canonical 0046. Remaining 190-195 and complete article assembly are required after this six-page middle segment.",
-        "Illustration 184 and full original pages retain geometry. Loop diagrams and label table have dedicated original crops as well as text regions; frame glyph counts and original encoded spacing remain unverified. Handwritten marks adjacent to 189 lines 599/612 remain in the full-page original, not silently inserted into printed code."
+        "Illustration 184 and full original pages retain geometry. Loop diagrams and label table have dedicated original crops as well as text regions; frame glyph counts and original encoded spacing remain unverified. Handwritten marks adjacent to 189 lines 599/612 remain in the full-page original, not silently inserted into printed code.",
+        "Full source pages 189-196 individually inspected. Every displayed folio observed separately. Reused batch-42 renders are preserved and pinned; no folio offset inferred.",
+        "ALG III canonical 0008 has verified extent 178-195. Immutable opening 178-183 and middle 184-189 remain unchanged. Numbered listing 4 ends on upper-left 190, following the printed 787 REM at the end of 189.",
+        "Section III on 190 opens the separate unnumbered source-program listing. Its left-bottom initialization continues at right-top. The boxed grammar comment begins lower-right 190 and continues upper-left 191. It remains part of the listing, with dedicated original images preserving its geometry.",
+        "The unnumbered listing continues down the left column then down the right column on each page 191-194 and ends upper-left 195. Artificial region divisions retain physical order and do not infer statement boundaries. PASS stages, label routines, comments and source errors remain literal.",
+        "Two comment-table diagrams on 193 remain embedded in the source listing and retain dedicated original images. The source terminates on 195 with RETURN, an ampersand marker and a printed edit stamp; no execution or comparison-based repair is authorized.",
+        "Closing page 195 contains separate INTEGER and CHARACTER variable tables, runtime report, update stamp, four-column label checking table and output footer. The table has eight body rows with two final blank cells. These are printed output, not executable code. Complete original pages retain all layout and folios.",
+        "Page 196 opens Program Factory and Magic Square canonical 0046, outside ALG III. Complete immutable ALG III assembly remains required after this ending segment."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-43/alg-iii-middle",
+        "directory": "archive/pdf/1985-11/packages/batch-44/alg-iii-ending",
         "article_id": "scan-maso-1985-11-toc-0008",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-43/alg-iii-middle/manifest.json",
-          "sha256": "be3f81b85883be375c525a82c91b2104f8ed2c9965230812a16e571c0c5d3d64",
-          "bytes": 25102
+          "path": "archive/pdf/1985-11/packages/batch-44/alg-iii-ending/manifest.json",
+          "sha256": "08cc11f41e6cde09170bd282fd2a1e02f2f6e6b7c5cfd1d08d0ff2601acfddf1",
+          "bytes": 26426
         },
         "coverage": {
           "pdf_pages": [
-            184,
-            185,
-            186,
-            187,
-            188,
-            189
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
           ],
           "printed_pages": [
-            "184",
-            "185",
-            "186",
-            "187",
-            "188",
-            "189"
+            "190",
+            "191",
+            "192",
+            "193",
+            "194",
+            "195"
           ],
           "boundary_supported_full_article_pdf_pages": [
             178,
@@ -477,13 +484,7 @@
             186,
             187,
             188,
-            189
-          ],
-          "uninspected_interior_pdf_pages": [],
-          "regions": 41,
-          "blocks": 32,
-          "figures": 9,
-          "deferred_pdf_pages": [
+            189,
             190,
             191,
             192,
@@ -491,9 +492,14 @@
             194,
             195
           ],
+          "uninspected_interior_pdf_pages": [],
+          "regions": 44,
+          "blocks": 33,
+          "figures": 11,
+          "deferred_pdf_pages": [],
           "excluded_region_ids": []
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "source_title": "ALGⅢ",
@@ -554,17 +560,44 @@
               "sha256": "b32472efdf74f5528c662f0a99a3f43ad531f47151d69afd4927b4206b26d585",
               "bytes": 1616
             }
+          },
+          {
+            "name": "ending",
+            "directory": "archive/pdf/1985-11/packages/batch-44/alg-iii-ending",
+            "manifest": {
+              "path": "archive/pdf/1985-11/packages/batch-44/alg-iii-ending/manifest.json",
+              "sha256": "08cc11f41e6cde09170bd282fd2a1e02f2f6e6b7c5cfd1d08d0ff2601acfddf1",
+              "bytes": 26426
+            },
+            "pdf_pages": [
+              190,
+              191,
+              192,
+              193,
+              194,
+              195
+            ],
+            "validation": {
+              "path": "archive/pdf/1985-11/restoration/batch-44/validation.json",
+              "sha256": "6bf3581961fc1a5ce4e5dc399b9ccd6824bd331be171d309340f451b30ebc2b3",
+              "bytes": 2575
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-11/restoration/batch-44/reproduction.json",
+              "sha256": "577a9a7f85433f90eb92100cca1b9d20063f7af444320abdc1e303feab66bbcf",
+              "bytes": 1645
+            }
           }
         ],
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-43/validation.json",
-          "sha256": "8414ea460dc425920087c4c7e42df24f8c4fe65975dba66a8350e6fd070b426e",
-          "bytes": 2396
+          "path": "archive/pdf/1985-11/restoration/batch-44/validation.json",
+          "sha256": "6bf3581961fc1a5ce4e5dc399b9ccd6824bd331be171d309340f451b30ebc2b3",
+          "bytes": 2575
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-43/reproduction.json",
-          "sha256": "b32472efdf74f5528c662f0a99a3f43ad531f47151d69afd4927b4206b26d585",
-          "bytes": 1616
+          "path": "archive/pdf/1985-11/restoration/batch-44/reproduction.json",
+          "sha256": "577a9a7f85433f90eb92100cca1b9d20063f7af444320abdc1e303feab66bbcf",
+          "bytes": 1645
         }
       }
     },
@@ -4262,6 +4295,49 @@
       "started_at": "2026-10-25T16:32:40.806057+00:00",
       "finished_at": "2026-10-25T17:04:19.868112+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-44",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0008"
+      ],
+      "mapped_pdf_pages": [
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
+      ],
+      "outside_map_lookup_pages": [
+        189,
+        196
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 33,
+      "english_tasks": 21,
+      "source_correction_passes": 1,
+      "preflight_replacements": 17,
+      "scope_adjustment": "ALG III ending 190-195 restored within six-page limit. Immutable opening and middle retained. Eight final numbered statements, independent unnumbered source listing with boxed comments, forty integer and thirty-eight character variables, seven duration fields and four-column output table retained. All body segments 178-195 exist; full immutable assembly remains required. Folios individually observed.",
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-44/validation.json",
+        "sha256": "6bf3581961fc1a5ce4e5dc399b9ccd6824bd331be171d309340f451b30ebc2b3",
+        "bytes": 2575
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-44/verification-completed.json",
+        "sha256": "d6656a6501a349067c135c3cc496e25f1cc5fd5980e1084915f486684de0a89c",
+        "bytes": 1884
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-44-preserved-work.json",
+        "sha256": "cccc6f1dc61a1398b22fe565b4f5ef45e3d446d96e99f019fbe0125ed6fd7942",
+        "bytes": 9057509
+      },
+      "started_at": "2026-10-25T17:07:50.968545+00:00",
+      "finished_at": "2026-10-25T17:43:18.866533+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -5968,10 +6044,11 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
-      "restoration": "unmapped",
-      "note": "ALG III canonical 0008; folio individually observed. Segments 178-189 restored; remaining 190-195 and complete immutable assembly pending. Main numbered listing continues onto 190 before separate source-program listing.",
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. All immutable body segments 178-195 restored; complete article assembly pending. Separate Magic Square starts on 196.",
       "prior_stage_notes": [
-        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196.",
+        "ALG III canonical 0008; folio individually observed. Segments 178-189 restored; remaining 190-195 and complete immutable assembly pending. Main numbered listing continues onto 190 before separate source-program listing."
       ]
     },
     {
@@ -5981,8 +6058,11 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
-      "restoration": "unmapped",
-      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. All immutable body segments 178-195 restored; complete article assembly pending. Separate Magic Square starts on 196.",
+      "prior_stage_notes": [
+        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      ]
     },
     {
       "pdf_page": 192,
@@ -5991,8 +6071,11 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
-      "restoration": "unmapped",
-      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. All immutable body segments 178-195 restored; complete article assembly pending. Separate Magic Square starts on 196.",
+      "prior_stage_notes": [
+        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      ]
     },
     {
       "pdf_page": 193,
@@ -6001,8 +6084,11 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
-      "restoration": "unmapped",
-      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. All immutable body segments 178-195 restored; complete article assembly pending. Separate Magic Square starts on 196.",
+      "prior_stage_notes": [
+        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      ]
     },
     {
       "pdf_page": 194,
@@ -6011,8 +6097,11 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
-      "restoration": "unmapped",
-      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. All immutable body segments 178-195 restored; complete article assembly pending. Separate Magic Square starts on 196.",
+      "prior_stage_notes": [
+        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      ]
     },
     {
       "pdf_page": 195,
@@ -6021,8 +6110,11 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0008"
       ],
-      "restoration": "unmapped",
-      "note": "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      "restoration": "segment-complete",
+      "note": "ALG III canonical 0008; folio individually observed. All immutable body segments 178-195 restored; complete article assembly pending. Separate Magic Square starts on 196.",
+      "prior_stage_notes": [
+        "ALG III canonical 0008; folio individually observed. Opening 178-183 restored; remaining 184-195 and complete assembly pending. Article ends on 195, separately from Magic Square on 196."
+      ]
     },
     {
       "pdf_page": 196,
@@ -6037,23 +6129,13 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-44",
-    "goal": "Restore ALG III canonical 0008 final segment 190-195: end of numbered BASIC listing, separate source-program listing, variable/runtime/label tables. Preserve immutable segments 178-189, physical wraps, source errors and glyph uncertainty. Complete immutable article assembly will still be required. No execution or semantic repair.",
+    "id": "batch-45",
+    "goal": "Assemble complete ALG III canonical 0008 from immutable opening 178-183, middle 184-189 and ending 190-195. Preserve every native file, source field, range, listing identity, comment diagram, table cell, uncertainty and boundary relationship. Export independently twice and verify complete 178-195 coverage. No new OCR, source correction or code execution.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0008"
     ],
-    "mapping_targets": [
-      190,
-      191,
-      192,
-      193,
-      194,
-      195
-    ],
-    "provisional_lookup_targets": [
-      189,
-      196
-    ],
+    "mapping_targets": [],
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -6064,7 +6146,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Twenty-five readable articles and one partial article. ALG III 0008 segments 178-189 restored; full extent 178-195 observed, with 190-195 and complete assembly pending. Twenty unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 is reconciled to PDF 176; TOC hint 72 and prior mismatch retained. Lower Contest Overview 175 is complete canonical 0034, separate from ALG III. Software Contest 0035 hint 176 remains unresolved. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Back-Issue Guide 0033 remains pending. No visible folios on 175-177."
+    "Twenty-five readable articles and one partial article. ALG III 0008 has all immutable body segments 178-195 restored; complete assembly pending. Twenty unresolved identities, cover and whole 266-page accounting remain. Diskette 0032 is reconciled to PDF 176; TOC hint 72 and prior mismatch retained. Lower Contest Overview 175 is complete canonical 0034, separate from ALG III. Software Contest 0035 hint 176 remains unresolved. Parents 0002 and 0020 remain unresolved; no non-owning classification inferred from children. Back-Issue Guide 0033 remains pending. No visible folios on 175-177."
   ],
   "reader_rebuild": false
 }
