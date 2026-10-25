@@ -46,8 +46,22 @@ The unchanged 213-test baseline is reused, not rerun. Current preservation conta
 A ledger-recording script had a parse error before making changes; the failed
 script and fresh successful revision remain preserved. Source correction,
 serializer, exports and verifier required no retries.
-Next batch 42 establishes ALG III 0008's full extent from observed page 178 before
-restoring a bounded segment. Software Contest 0035's page-176 hint remains
+Batch 42 is in progress. Twenty full-page inspections establish ALG III 0008
+on observed pages 178-195, between the independent advertisement on 177 (no
+visible folio) and Magic Square on observed 196. Its opening 178-183 is mapped
+in `archive/pdf/1985-11/restoration/batch-42/alg-iii-opening/map-r02.json`:
+63 regions, including 53 text regions and ten figures. All original crops and
+eleven widened replacements were inspected before 53 pinned OCR tasks (ten
+English, 43 Korean/English). All raws have been read; no recognition retries.
+The first crop-repair script stopped on an overlap assertion before writing a
+revised map; the failed attempt and successful fresh script remain preserved.
+Resume with one direct source correction pass; none has started. Do not rerun
+mapping or OCR. Source correction, exports, full checkpoint verification and
+ledger recording remain. Pages 184-195 and complete article assembly follow in
+later bounded checkpoints. The current segment uses six mapped pages and fourteen
+outside lookups. The completed ledger totals above are unchanged. In-flight
+validation and raw-reading records are in the batch-42 directory; neither is a
+completed article or checkpoint claim. Software Contest 0035's page-176 hint remains
 unresolved; that page contains the diskette offer. Parents 0002 and 0020 and
 Back-Issue Guide 0033 remain unresolved. Earlier assemblies and adapters remain.
 Cover, remaining identities, all 266 source pages and issue closeout remain.

@@ -175,7 +175,10 @@ November 1985 restoration is in progress: twenty-five articles are readable,
 with no partial article or pending assembly. Twenty-one of 46 identities remain
 unresolved. Back-Issue Diskettes on PDF 176 and Contest Overview on lower 175
 are complete; all 95 package files match independent rebuilds. The earlier
-page-72 mismatch is preserved. Next, establish ALG III's extent from page 178.
+page-72 mismatch is preserved. In-flight batch 42 establishes ALG III on pages
+178-195 and maps its opening 178-183. All 53 OCR drafts have been read; direct
+source correction and export verification are next. Completed ledger totals
+remain unchanged; no reader rebuild.
 Cover, remaining articles and whole-issue accounting remain. Progress logs and
 documents use English; original source text retains its language.
 See [the November progress log](docs/progress/8511.md).
