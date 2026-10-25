@@ -174,8 +174,10 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 November 1985 restoration is in progress: thirty-one articles are readable,
 none is partial and fifteen of 46 identities remain unresolved. Automatic Menu III
 is complete on pages 211-215; all 171 files match an independent rebuild. Printed
-listings, inline examples and screen fields remain distinct. Bank Panic, opening
-on 228, is next. Cover, remaining articles and whole-issue accounting remain.
+listings, inline examples and screen fields remain distinct. Bank Panic spans
+pages 228-245. Its first six pages have reviewed crops and completed OCR drafts;
+source correction, exports, remaining pages and assembly are pending. Cover,
+remaining articles and whole-issue accounting remain.
 Progress logs and documentation use English; source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 

@@ -44,9 +44,17 @@ preserved. Source transcripts, metadata and exports were unchanged by that fix.
 All 45,844 previous files, fifty inventories and thirty core pins are unchanged.
 The unchanged 213-test baseline is reused. Current preservation: 46,594 issue files.
 Reproduction: `archive/pdf/1985-11/restoration/batch-51/reproduction.json`.
-Next batch 52 verifies the full extent of Bank Panic 0013, opening observed on 228,
-and restores a complete article or a bounded opening segment. Parent 0012 remains
-unresolved. Software Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040,
+Batch 52 preparation establishes Bank Panic 0013 on pages 228-245, between the
+Character Definition Editor ending on 227 and Crush Circles opening on 246.
+Its first six pages, 228-233, have 69 reviewed crops and 58 completed OCR tasks
+(six English, 52 Korean/English), with zero retries. All raw drafts have been read.
+The single source-correction pass and independent exports remain; pages 234-245
+and complete assembly follow separately. Three crop-margin adjustments preceded OCR.
+All 46,594 prior files, 46 identities and thirty core pins were revalidated.
+Resume from `archive/pdf/1985-11/restoration/batch-52/continuation.json`.
+The ledger still records completed checkpoints only; availability totals are unchanged.
+Parent 0012 remains unresolved. Software Contest 0035's page-176 hint,
+parents 0002, 0020, 0026 and 0040,
 and Back-Issue Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null.
 Cover, remaining identities, full 266-page accounting and issue closeout remain.
 Replies, logs and documentation use English; original source retains its language.
