@@ -25,33 +25,33 @@ records below are historical and do not authorize a new rebuild.
 ## November 1985 active restoration, 2026-10-25
 
 November 1985 remains in progress: twenty-one readable, assistant sample-reviewed
-articles, one partial article, and 24 unresolved identities. Batch 36 restores
-Power I/O 0003 opening pages 154–159 at
-`archive/pdf/1985-11/packages/batch-36-r01/power-io-a`. All 258 files match an
-independent rebuild. The segment retains 76 regions, 58 text blocks and eighteen
-figures: eleven circuit diagrams, one table original and six complete pages.
-Its 529 transcription rows comprise 384 physical text rows, 139 diagram-label
-rows and six logical table rows. Indexes preserve eighteen table cells, 214 label
-tokens, three overbars, one fraction, fourteen subscripts, twelve caption links,
-fifteen continuations and fifteen physical wraps. Twenty-three source variants
-and thirty unverified technical claims remain literal; uncertain glyphs and
-inconsistent component names or units are linked to the original images.
-All selected crops were reviewed before 58 pinned Korean/English OCR tasks.
-Four page 155 crops were widened before recognition; the original map and crops
-remain. Every raw draft was read before one direct source correction pass, with
-no recognition retries. A serializer lookup failed because a phrase spans a
-printed line break; revision 02 preserves that newline without changing the
-transcript. The failed script and repair record remain. Both exports and the
-verifier passed. All 3,962 UTF-8 ranges, 4,180 evidence pins, 76 decoded images
-and 262 disjoint nonfigure pairs validate. All 33,415 prior files, 35 inventories
-and thirty core pins remain unchanged. The unchanged 213-test baseline is reused,
-not rerun. Current preservation contains 34,529 files. Reproduce with
-`archive/pdf/1985-11/restoration/batch-36/reproduction.json`.
-Boundary views support Power I/O through upper page 169; the lower panel is the
-separate Back-Issue Guide 0033, and page 170 opens Microprocessor 65816. Interior
-pages 161–164 remain uninspected. Next batch 37 restores pages 160–165; pages
-166–upper page 169 and complete immutable assembly will still be required. Parent
-0002 remains unchanged. Completed VDP 117–151 and its batch 35 adapter remain.
+articles, one partial article, and 24 unresolved identities. Batch 37 restores
+Power I/O 0003 middle pages 160–165 at
+`archive/pdf/1985-11/packages/batch-37-r01/power-io-b`. All 227 files match an
+independent rebuild. The segment retains 69 regions, fifty text blocks and
+nineteen figures: ten circuit diagrams, three photographs and six complete pages.
+Its 471 transcription rows comprise 219 physical text rows and 252 diagram-label
+rows. Indexes preserve 314 label tokens, four diagram panels, eighteen numbered
+terminals, two repeated pin labels, four bit labels, thirteen captions, eleven
+continuations, sixteen physical wraps and one duplicated page-boundary fragment.
+Two pull quotes, 26 source variants and 28 unverified technical claims remain
+literal. Diagram 14 repeats pin 2; diagram 19 prints BITO/BIT1/BIT3/BIT7; diagram
+20 retains its output-module titles and separate INPUT/OUTPUT labels. The printed
+(M / (Micromint) boundary is preserved without concatenation or deduplication.
+All selected crops were reviewed before fifty pinned Korean/English OCR tasks.
+Eleven crops were widened before recognition, including one identical diagram/
+label pair; all original crops remain. Every raw draft was read before one source
+correction pass, with no retries. Serializer, both exports and verifier passed.
+All 3,301 UTF-8 ranges, 3,514 evidence pins, 69 decoded images and 193 disjoint
+nonfigure pairs validate. All 34,529 prior files, 36 inventories and thirty core
+pins remain unchanged. The unchanged 213-test baseline is reused, not rerun.
+Current preservation contains 35,508 files. Reproduce with
+`archive/pdf/1985-11/restoration/batch-37/reproduction.json`.
+Power I/O pages 154–165 are now restored in two immutable segments. All interior
+article pages have been inspected. Next batch 38 restores ending pages 166–upper
+169, excluding the independent lower page 169 Back-Issue Guide 0033 panel. Complete
+article assembly will still be required. Page 170 opens Microprocessor 65816.
+Parent 0002 remains unchanged. Completed VDP 117–151 and its batch 35 adapter remain.
 Diskette 0032 still needs a location search after its TOC 72 mismatch; News parent
 0020 and Back-Issue Guide 0033 remain unresolved. Cover, all 266 source pages and
 issue closeout remain. Replies, logs and documents use English; original source

@@ -172,13 +172,13 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: twenty-one articles are readable, one
-is partial, and twenty-four of 46 identities remain unresolved. Power I/O opening
-pages 154–159 now have 258 independently identical package files, preserving
-source text, eleven circuit diagrams and a resistor table. Pages 160–169 and
-complete article assembly remain. The next segment is 160–165. Cover, remaining
-articles and whole-issue accounting remain. Progress logs and documents use
-English; original source text retains its language. See
-[the November progress log](docs/progress/8511.md).
+is partial, and twenty-four of 46 identities remain unresolved. Power I/O pages
+154–165 are restored in two immutable segments. The latest six pages have 227
+independently identical package files, preserving ten circuit diagrams, three
+photographs and their source text. Ending pages 166–169 and complete article
+assembly are next. Cover, remaining articles and whole-issue accounting remain.
+Progress logs and documents use English; original source text retains its language.
+See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
