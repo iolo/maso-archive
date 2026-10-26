@@ -172,11 +172,11 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: thirty-nine entries are readable,
-none is partial, TIPS is one non-owning heading, and six of 46 identities remain
-unresolved. The contest invitation is restored from its complete notice on the
-unpaginated contents spread; all 22 files match an independent rebuild. TIPS groups
-three unchanged complete articles and owns no body pages. Next: investigate
-Software Contest and the Technical heading. Cover, remaining identities and
+none is partial, Technical and TIPS are two non-owning headings, and five of 46
+identities remain unresolved. Technical's two complete child packages retain all
+793 files unchanged. Software Contest's printed page-176 reference conflicts with
+the separate diskette offer; its location remains unresolved. Next: inspect front
+pages 10-16 and review the Games heading. Cover, remaining identities and
 whole-issue accounting remain. Responses, logs and documentation use English;
 literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).

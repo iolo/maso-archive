@@ -125,12 +125,22 @@
       "toc_entry_id": "maso-1985-11-toc-0002",
       "title": "테크니컬",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Technical0002 is a group in original contents19,over separately paginated Power I/O154 and Microprocessor65816170. Opening154 has the repeated Technical banner within its independently titled/bylined child article.",
+        "Reviewed153 is an independent MAG LAB advertisement;154 opens Power I/O. Power I/O ends in upper169 above separate Back-Issue Guide0033;170 opens Microprocessor65816.174 continues the processor article,which ends upper175 above independent Contest Overview0034.176 is separate Back-Issue Diskettes0032. No separate Technical parent body/divider occurs in these source boundaries.",
+        "Both canonical children are complete and readable. Child packages retain original banners,article content,source uncertainties and disjoint non-child panel exclusions. No duplicate parent article or body/page ownership is assigned.",
+        "Twenty-two child page assignments cover22 unique pages154-175. Complete Power I/O was checked with its unchanged private assembly adapter;Microprocessor65816 and non-child guide/overview exports were checked with the standard verifier. Shared169/175 body regions remain disjoint. No separate parent package or ownership."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/parent-heading-decisions.json",
+        "sha256": "40e032f66c50cb65a9538bcca38af2bdc8324a112c17b2fa82b24de801ccda7e",
+        "bytes": 234725
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0003",
@@ -2848,8 +2858,16 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification_evidence": [
+        "Software Contest0035 is explicitly listed in original contents19 with reference176. Source176 instead has Back-Issue Diskettes0032;175 already contains Contest Overview0034 and177 is an MS-DOS Handbook advertisement. Canonical reference remains176;no substitution from title proximity or contest wording.",
+        "Additional source72 is a slogan-winners notice,210 a book-series advertisement,and216 a sales-management software advertisement. Front2-9 are independent disk/computer/peripheral/training advertisements. None supplies an exact Software Contest body. Only bounded search has been done;do not infer source absence,body ownership or readable availability. Front10-16 remains a next search area."
+      ],
+      "restoration": null,
+      "location_review": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/software-contest-location-review.json",
+        "sha256": "c749e1c9eaa5d8fdb3f2a3e34c617981e3b770e8717a24c888de9f8f6d0b9a6e",
+        "bytes": 5171
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0036",
@@ -3766,8 +3784,8 @@
     "canonical_entries": 46,
     "readable": 39,
     "partial": 0,
-    "non_owning_headings": 1,
-    "unresolved_eligibility": 6
+    "non_owning_headings": 2,
+    "unresolved_eligibility": 5
   },
   "checkpoints": [
     {
@@ -6414,6 +6432,68 @@
       "started_at": "2026-10-26T12:09:57.055460+00:00",
       "finished_at": "2026-10-26T12:32:17.080740+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps;active human review time unmeasured."
+    },
+    {
+      "id": "batch-62",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0035",
+        "maso-1985-11-toc-0002"
+      ],
+      "mapped_pdf_pages": [
+        19,
+        154
+      ],
+      "article_mapped_pdf_pages": [],
+      "classification_evidence_pdf_pages": [
+        19,
+        154
+      ],
+      "outside_map_lookup_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        72,
+        153,
+        169,
+        170,
+        174,
+        175,
+        176,
+        177,
+        178,
+        210,
+        216
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_replacements": 0,
+      "preflight_adjustments": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/validation.json",
+        "sha256": "46aabd69b40e771e99f9f0daf3ff786b234b23d1301a2dc147c61159616172e7",
+        "bytes": 1914
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/verification-completed.json",
+        "sha256": "59f2d36ba64b29e94fb037e501f352de4ea94d62e13bb26985d581c661dba447",
+        "bytes": 2137
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-62-preserved-work.json",
+        "sha256": "82e4bf2e3ffd037845f5ea46ca58638b2186aada04554ed72ce961b484b6bc87",
+        "bytes": 12078310
+      },
+      "started_at": "2026-10-26T12:36:18.108769+00:00",
+      "finished_at": "2026-10-26T12:49:38.987996+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -6421,6 +6501,110 @@
       "pdf_page": 1,
       "classification": "cover",
       "evidence": "85.11 and 창간2주년 기념호 visible; donated-cover selection pending"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "SKC floppy-disk advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-002.png",
+        "sha256": "cfb59b13b9ecb2624ce2c0d1e2758ef2cdeae13753300660dc1632127dfb6612",
+        "bytes": 5051954
+      }
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "Samsung SPC-1000A advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-003.png",
+        "sha256": "763c7ab5fad61e9c4694a08cddef69218134b2ae9a4d291029290fee6cb41061",
+        "bytes": 5468056
+      }
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "GoldStar Mighty Junior applications advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-004.png",
+        "sha256": "71399006e9950fd2807a42905d9c7d645805fdb888868d1db78a01caad2bae7b",
+        "bytes": 5261930
+      }
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "GoldStar Mighty Junior computer advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-005.png",
+        "sha256": "860706c3131161ae15c33bbaf5cf8671e14e3e757aa92f763d3ce775d59a86cb",
+        "bytes": 3218204
+      }
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "GoldStar printers and disk drives advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-006.png",
+        "sha256": "c1824bf99af5e173d05da0ea21de220fdd190680d20be69026f8b2291183266b",
+        "bytes": 3927043
+      }
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "GoldStar floppy-disk advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-007.png",
+        "sha256": "7a29631916376f0b151c5862d244aa86b6a895c095ab8e82025579317a12e01b",
+        "bytes": 5073241
+      }
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "ITTC information/telecommunications training advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-008.png",
+        "sha256": "a27ebd1523a197a97899e437fc1e39c39dcc7c1880872e7d05a27cbc65bc3444",
+        "bytes": 6585905
+      }
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-canonical-body",
+      "note": "Union computer and ASUKA drive advertisement. No visible folio observed;printed_page remains null. No Software Contest body identified.",
+      "evidence": {
+        "path": "archive/pdf/1985-11/restoration/batch-62/source-review/full-009.png",
+        "sha256": "584cff6c9a470b2302601b33a03f613324cc0df023d9e6e37fa37fddf5d88f5a",
+        "bytes": 5565633
+      }
     },
     {
       "pdf_page": 17,
@@ -9164,24 +9348,30 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-62",
-    "goal": "Resolve Software Contest0035 page176 hint and Technical parent0002 from original contents and bounded source boundaries. Verify exact identity,eligibility and extent;restore eligible body or record evidence-backed non-owning classification. Existing Back-Issue Diskettes176 must not be substituted for Software Contest.",
+    "id": "batch-63",
+    "goal": "Continue Software Contest0035 location review in previously uninspected front10-16 and classify Games0012 from original contents/complete child boundaries. Preserve reference176 mismatch and no-source-absence limit unless full source evidence proves otherwise.",
     "toc_entry_ids": [
       "maso-1985-11-toc-0035",
-      "maso-1985-11-toc-0002"
+      "maso-1985-11-toc-0012"
     ],
-    "mapping_targets": "Software Contest reference176 is unresolved and176 is already independently identified as Back-Issue Diskettes. Inspect original contents and surrounding promotional pages. Review Technical hierarchy and complete child boundaries without assigning duplicate ownership.",
+    "mapping_targets": "Finish front10-16 lookup for Software Contest;Technical0002 is complete non-owning. Review Games hierarchy and complete Bank Panic,CRUSH CIRCLES,Flying Lode Runner boundaries. Restore eligible exact body only or record source-backed classification.",
     "provisional_lookup_targets": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
       19,
-      153,
-      154,
-      169,
-      170,
-      174,
-      175,
-      176,
-      177,
-      178
+      227,
+      228,
+      245,
+      246,
+      251,
+      252,
+      256,
+      257
     ],
     "limits": {
       "articles": 2,
@@ -9193,7 +9383,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-nine readable entries;no partial article or pending assembly. TIPS0016 is one non-owning heading;parents0002,0012,0020,0026,0040 and Software Contest0035 remain unresolved. Invitation0011 is complete bounded notice on unpaginated contents19,with no inferred interior article page. Cover,full266-page accounting and closeout remain. Diskette0032 page72 mismatch retained. Folios17-25,175-177,210,216,257,258,265,266 remain null. Retain five private adapters and all earlier artifacts. Batch54 original inventory has one documented recorder-log growth exception;selected stable revision02 requires none. English responses,logs and documentation;literal source retains its language."
+    "Thirty-nine readable entries;no partial article or pending assembly. Technical0002 and TIPS0016 are two non-owning headings. Parents0012,0020,0026,0040 and Software Contest0035 remain unresolved. Software Contest reference176 conflicts with exact Back-Issue Diskettes body176;source absence not asserted. Front2-9 checked,10-16 remains. Invitation0011 is complete bounded notice on unpaginated contents19. Cover,full266-page accounting and closeout remain. Folios2-9,17-25,175-177,210,216,257,258,265,266 remain null. All private adapters and earlier artifacts retained. Batch54 original inventory has one documented recorder-log growth exception;selected stable revision02 requires none. English responses,logs and documentation;literal source retains its language."
   ],
   "reader_rebuild": false
 }

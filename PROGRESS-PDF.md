@@ -7,38 +7,43 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 November 1985 remains in progress: thirty-nine readable entries, no partial
-article or pending assembly, one non-owning heading and six unresolved identities.
-Batch 61 restores invitation 0011 as the complete bounded notice printed on the
-unpaginated contents spread, PDF page 19. Its anniversary header, four paragraph
-rows, three title rows and keyboard photograph remain source-linked. No interior
-article page, byline, rules, deadline or prizes were inferred. Four complement
-exclusions keep other contents material separate; the selected original is only
-the notice area. Five model strings, four printed claims, two physical wraps and
-seven localized candidate records retain source wording and unresolved identities.
-Both 22-file exports match exactly. All 95 UTF-8 ranges, 120 notice evidence pins
-and five decoded source images validate. All three raw drafts were read before
-one direct source pass; no recognition retry. Three pre-OCR margin repairs retain
-both maps and every crop. No reader or HTML rebuild was performed.
-TIPS 0016 is a non-owning heading supported by original contents hierarchy and
-repeated child branding. Its three complete children cover pages 37-41 with six
-page assignments. All 72 shared-page body-region comparisons on 40 are disjoint;
-shared folio evidence confers no parent ownership. All child packages and canonical
-identities, titles, order and parents remain unchanged. Classification revision 02
-pins an immutable prior-ledger snapshot; the initial decision remains retained.
-All 53,646 prior files, 60 selected inventories and thirty core pins remain exact.
-The unchanged 213-test baseline is reused. Current preservation: 53,799 issue files.
-Reproduction: `archive/pdf/1985-11/restoration/batch-61/reproduction.json`.
-Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
-private adapters. Batch 54's original inventory retains its recorder-log growth
-supplement; selected stable revision 02 needs none.
-Next batch 62 investigates Software Contest 0035's page-176 hint and Technical
-parent 0002. The independently restored diskette notice on 176 is a separate
-identity. Parents 0012, 0020, 0026 and 0040 also remain unresolved. Folios 17-25,
-175-177, 210, 216, 257, 258, 265 and 266 remain null. Cover, full 266-page accounting
-and issue closeout remain. Responses, progress logs and documentation use English;
-literal source retains its original language. Human acceptance, full proofreading,
-original bytes, exact spacing, glyph identities and historical claims remain
-unverified. The full November goal remains active.
+article or pending assembly, two non-owning headings and five unresolved identities.
+Batch 62 classifies Technical 0002 as a non-owning heading. Original contents and
+the banner on the independently titled Power I/O opening support this decision.
+Its complete children cover Power I/O 154-upper 169 and Microprocessor 65816
+170-upper 175: 22 page assignments across 22 unique pages. All 793 child-package
+files remain unchanged. The Power I/O private adapter validates its complete
+assembly while retaining native-stage caveats. Separate Back-Issue Guide and
+Contest Overview panels on 169 and 175 remain outside the parent and its children;
+all 94 comparisons between child and non-child body regions are disjoint.
+Software Contest 0035 remains unresolved. Original contents explicitly prints
+reference 176, but that source page contains the distinct restored diskette offer.
+Page 175 contains the separate restored contest assessment; 177 is a book
+advertisement. Slogan-winners notice 72, book advertisement 210, sales-management
+advertisement 216 and front advertisements 2-9 provide no exact Software Contest
+body. These are bounded search results; source absence has not been asserted.
+The original reference, title, parent and order remain unchanged. Next lookup:
+previously uninspected front pages 10-16.
+Twenty-one whole source views and three exact crops were inspected. Two evidence
+pages and nineteen outside lookups satisfy checkpoint bounds. No new article map,
+package, OCR, transcription or source correction was created. The initial decision
+script stopped on an overstrict empty-gaps assertion; revision 02 checks the
+Power I/O complete-coverage record and preserves all caveats. Both scripts and logs
+remain retained. Independent verification passed; all canonical identities, prior
+source owners, 53,799 previous files, 61 selected inventories and thirty core pins
+remain exact. The unchanged 213-test baseline is reused. Current preservation:
+53,844 issue files. Reproduction and source-review evidence are retained under
+`archive/pdf/1985-11/restoration/batch-62/`. No reader or HTML rebuild.
+Technical and TIPS are the two non-owning headings. Parents 0012, 0020, 0026 and
+0040, plus Software Contest 0035, remain unresolved. Next batch 63 continues that
+location search and reviews Games 0012 using original contents and complete child
+boundaries. Folios 2-9, 17-25, 175-177, 210, 216, 257, 258, 265 and 266 remain null.
+All private adapters and previous artifacts remain. Batch 54's original inventory
+retains its recorder-log growth supplement; selected stable revision 02 needs none.
+Cover, full 266-page accounting and issue closeout remain. Responses, progress logs
+and documentation use English; literal source retains its original language.
+Human acceptance, full proofreading, original bytes, exact spacing, glyph identities
+and historical claims remain unverified. The full November goal remains active.
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
 are accounted for by 35 readable, assistant sample-reviewed articles and four
