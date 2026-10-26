@@ -675,17 +675,96 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": []
+      "classification_evidence": [
+        "Canonical utility0011 is a page-less group candidate with children0012/0013/0014. Canonical parent relationships remain unchanged.",
+        "Bounded batch12 inspected contents candidates PDF2–9 and14–19 without finding source utility contents/ownership evidence. Total outside research reached20 pages including editor boundary pages; no further source lookups in this checkpoint.",
+        "Do not infer a final non-owning heading or a source-wide absence from the structured TOC alone. Ownership remains unresolved; remaining contents candidates10–13 are deferred."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1988-01/restoration/batch-12/utility-heading-review.json",
+        "sha256": "1fe544c72bd6e53a4378d3e3301ebfe5300ff05ccbc3d29d3a87dc3bffa36433",
+        "bytes": 3493
+      },
+      "ownership_review": "deferred-after-bounded-source-search"
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0012",
       "title": "그래픽 효과 에디터",
       "parent_id": "maso-1988-01-toc-0011",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0012 opens printed86/PDF88 with source title 그래픽 효과 에디터,section 컴퓨터 그래픽,machine subtitle MSX2 and byline 정찬용. Canonical title/parent0011 retained.",
+        "Complete article is printed86–88/PDF88–90. Prose ends on upper87; final88 is the complete two-column listing through20030 RESUME60. Lower87 Sam-In Computer advertisement is independent and excluded.",
+        "Preceding PDF87 continues a different Hangul article. PDF91 is an independent software advertisement; PDF92 opens 비글 컴파일러에서 한글을. Actual end checked from source,not from next TOC reference or fixed folio offset.",
+        "Two named tasks0011/0012,three mapped pages and20 outside lookups. Contents candidates2–9,14–19 did not provide the source utility heading; classification0011 remains unresolved after the declared lookup limit. No source-wide absence or ownership is inferred."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-12-r01/graphics-effect-editor",
+        "article_id": "scan-maso-1988-01-toc-0012",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-12-r01/graphics-effect-editor/manifest.json",
+          "sha256": "61dafeeed891283f01a8e4d522e76fe7512c4e45c8b079a4e129e83041d7fa51",
+          "bytes": 25392
+        },
+        "coverage": {
+          "pdf_pages": [
+            88,
+            89,
+            90
+          ],
+          "printed_pages": [
+            "86",
+            "87",
+            "88"
+          ],
+          "regions": 39,
+          "blocks": 31,
+          "figures": 5,
+          "regional_transcripts": 34,
+          "code_units": 18,
+          "physical_code_rows": 164,
+          "program_physical_rows": 162,
+          "prefixed_BASIC_rows": 155,
+          "unlabelled_wraps": 7,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            88,
+            89,
+            90
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "p87-sam-in-computer-advertisement"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-12",
+        "latest_checkpoint": "batch-12",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-12/graphics-effect-editor/article-scope.json",
+          "sha256": "f76238a4de1cd85f3a112fdb3f469a4cee4d2db838c6196811de46b5bf5e76ff",
+          "bytes": 584
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-12/validation.json",
+          "sha256": "942b9716a2dced3fa30bea78c3082071344ea5b9a3f306129ea10277fa847d8a",
+          "bytes": 2937
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-12/reproduction.json",
+          "sha256": "d710b612c46f6546536dc33338c71f6029be8fad436dff5844f5cfb515911e6f",
+          "bytes": 1366
+        },
+        "source_limits": [
+          "Three repeated bands have explicit glyph/count markers; original full listing pixels retained.",
+          "Original encoded glyphs/exact string spaces,prefix algorithm,technical claims and execution unverified. Printed unclosed strings,wraps,source spellings/formulas and .SAI/.CUB discrepancy retained."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0013",
@@ -1745,6 +1824,45 @@
         "sha256": "60c7c192b042f008b7664e925f0f2a9b8c1c7e6ea1259358948ace48dbba4fba",
         "bytes": 1289
       }
+    },
+    {
+      "name": "batch-12",
+      "completed_at": "2026-10-26T18:56:53.584554+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0011",
+        "maso-1988-01-toc-0012"
+      ],
+      "mapped_pdf_pages": [
+        88,
+        89,
+        90
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 3,
+      "outside_lookup_pages": 20,
+      "all_inspected_source_pages": 23,
+      "recognition_tasks": 34,
+      "eng_code": 18,
+      "kor_eng_other": 16,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_prose_parenthesis_margin_refinement": true,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article;heading-review-deferred",
+      "unresolved_toc_entry_ids": [
+        "maso-1988-01-toc-0011"
+      ],
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-12/validation.json",
+        "sha256": "942b9716a2dced3fa30bea78c3082071344ea5b9a3f306129ea10277fa847d8a",
+        "bytes": 2937
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-12/reproduction.json",
+        "sha256": "d710b612c46f6546536dc33338c71f6029be8fad436dff5844f5cfb515911e6f",
+        "bytes": 1366
+      }
     }
   ],
   "notes": [
@@ -1752,20 +1870,25 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Review page-less utility0011 ownership and locate child graphic-effect editor0012,canonical title 그래픽 효과 에디터,from printed reference86. Verify actual opening/ending and restore at most six verified body pages. Nearby PDF86–92 are lookup candidates only; do not assume a global folio offset.",
+    "goal": "Resume utility0011 ownership review using uninspected source contents candidatesPDF10–13 and locate child RAM-removal utility0013,canonical title 램상주 제거 유틸리티,from printed reference112. Verify actual extent and restore at most six body pages. Nearby PDF112–119 are lookup candidates only; no global folio offset.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0011",
-      "maso-1988-01-toc-0012"
+      "maso-1988-01-toc-0013"
     ],
-    "canonical_reference": "86 for child0012; parent0011 has no page reference",
+    "canonical_reference": "112 for child0013; parent0011 has no page reference",
     "lookup_pdf_page_candidates": [
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92
+      10,
+      11,
+      12,
+      13,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -1774,16 +1897,16 @@
     }
   },
   "remaining_work": [
-    "42 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
+    "41 canonical identities still need classification/restoration,including utility0011 after a bounded ownership search; no classified article currently has partial pages or pending assembly.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 9,
+    "readable": 10,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved": 42
+    "unresolved": 41
   }
 }

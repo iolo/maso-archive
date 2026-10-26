@@ -24,45 +24,47 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-January 1988 is active: 51 canonical identities, nine readable/sample-reviewed
-articles and 42 unresolved classifications. No classified article has partial
+January 1988 is active: 51 canonical identities, ten readable/sample-reviewed
+articles and 41 unresolved classifications. No classified article has partial
 pages or a pending assembly. No heading has a final non-owning classification.
 
-MSX expansion-slot0010, source title MSX용 확장 슬롯의 제작, is complete across
-printed94–98/PDF96–100, including the full-page Figure6 circuit. Selected package:
-`archive/pdf/1988-01/packages/batch-11-r01/msx-expansion-slot`. All 117 files
-reproduce independently and exactly. The 37 regions, 16 blocks, 24 regional
-transcripts, eight prose joins, seven captions and 13 original images validate.
-Source figure order1,2,3,4,6,5,7 remains. Four full pages plus separate final body/
-footer views retain all eligible source material; the independent typewriter tip
-and publisher-address banner are excluded. All 16 address-table cells/three
-headers,12 IC rows/36 fields,three supply/category rows and one wrapped OUT
-quotation/two fragments/five fields validate. The narrow OUT glyph,small quantity/
-header points,printed −15V claim,IC-list differences and repeated Figure4 page2
-label remain source-linked candidates without semantic repair. Full circuit/
-graphic-label transcription is volunteer work; original pixels retained.
-All 1,692 UTF-8 range occurrences,1,773 review-pin occurrences and37 decoded images
-pass. A skewed left prose margin was widened before OCR; initial map/crops remain.
-All24 kor+eng recognitions used one source correction pass and zero failures/
-retries/post-OCR crop repairs. Successful empty Figure4 caption restored directly
-from source; read-only OUT enlargement retained. All8,272 prior January files,
-134 pilot/evidence files and thirty core files remain exact. The unchanged passing
-213-test baseline is reused; no fresh test run is claimed.
+Graphic-effect editor0012,source title 그래픽 효과 에디터,is complete across
+printed86–88/PDF88–90,including the final two-column listing. Selected package:
+`archive/pdf/1988-01/packages/batch-12-r01/graphics-effect-editor`. All150 files
+reproduce independently and exactly. The39 regions,31 blocks,34 transcripts,
+three prose joins,one caption and five original image assets validate. Eighteen
+code units retain164 physical rows:155 prefixed BASIC rows,seven unlabelled wraps
+and two immediate commands. All155 printed hex prefixes,627 source fields,six
+feature items,five command routes,4,451 UTF-8 range occurrences,4,504 review-pin
+occurrences and39 decoded images pass. Source labels10–1440/10000–20030 and all
+seven wraps remain,including the isolated quote after1260. Three decorative bands
+have explicit glyph/count markers. INKO/unclosed strings,Hiy/Devision wording,
+DX+3,formula/1-I/backslash candidates and prose .SAI versus listing .CUB remain
+unrepaired. Original full listing pixels are retained. Independent lower87
+advertisement excluded; separate original upper body/footer remain. All34 tasks,
+18eng/16kor+eng,used one source pass and zero failures/retries/post-OCR crop repairs.
+Initial map/crops and pre-OCR prose-margin padding remain. A stopped transcript-
+authoring script/revision is retained; no source row or OCR was restarted.
+All8,815 prior January files,134 pilot/evidence files and thirty core pins remain
+exact; unchanged213-test passing baseline reused,no fresh run claimed.
 
-Next review page-less utility0011 ownership and locate child graphic-effect
-editor0012,그래픽 효과 에디터,from printed reference86. Verify the actual extent
-and restore at most six body pages within the two-task limit. PDF86–92 are lookup
-candidates only; no global folio offset is assumed. Earlier completed articles
-remain exact. Historical Turbo Pascal0018 legacy TOC-pin adoption,other
+Utility0011 remains unresolved:two named tasks,three mapped pages and20 outside
+lookups/23 inspected pages reached the research limit without enough original
+contents/ownership evidence. Canonical parent0011 remains; no parent body or final
+non-owning classification is inferred. The bounded review and source pins remain.
+Next resume0011 using uninspected contents candidatesPDF10–13 and locate child
+RAM-removal utility0013,램상주 제거 유틸리티,from printed reference112. Verify the
+actual extent and restore at most six body pages. PDF112–119 are lookup candidates
+only; no global folio offset. Legacy Turbo Pascal0018 TOC-pin adoption,other
 classifications/articles,all-page accounting,donated cover,standalone JSON/assets
 issue export and final audit remain. Human acceptance/full proofreading,encoded
-bytes/exact spacing,source claims/ROM/circuit correspondence,execution and
-independent backup recovery remain unverified. No reader/browser/frontend rebuild
-or deployment.
+bytes/exact spaces,prefix algorithms,source claims/ROM correspondence,execution
+and independent backup recovery remain unverified. No reader/browser/frontend
+rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-11/validation.json`.
+`archive/pdf/1988-01/restoration/batch-12/validation.json`.
 
 ## November 1985 closeout, 2026-10-26
 
