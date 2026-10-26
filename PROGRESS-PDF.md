@@ -7,7 +7,8 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 January 1988 is active. Its 51 canonical identities currently account for three
-readable/sample-reviewed articles and 48 unresolved classifications. Batch01's
+readable/sample-reviewed articles, one partial C tutorial and 47 unresolved
+classifications. Batch01's
 gift18–19/PDF20–21 and contest22–25/PDF24–27 exports contain184 files, independently
 exact; all54 regions/38 blocks/16 images/997 local UTF-8 ranges/24 table cells/
 33 form fields validate. Fresh213 PDF tests pass. The38 pinned Tesseract tasks
@@ -16,11 +17,16 @@ twelve provisional lookups. All134 historical sample/evidence files and thirty
 core files remain unchanged. Reused Turbo Pascal0018 retains its historical
 evidence and legacy TOC pin; explicit reproduction/adoption remains pending.
 No final heading classifications or whole-issue completion is claimed.
-Next verify C tutorial0005/reference28 and restore at most six pages. Remaining
+C tutorial0005 opening28,30–34/PDF30,32–36 is preserved in an independently
+exact 337-file partial package:88 regions/68 blocks/eight images/twelve joins/
+seventeen code groups/22 rows/4,100 local ranges validate. One crop extension
+retains79 unchanged text results;80+1 recognitions and one correction pass. The
+213-test baseline is reused;752 prior January files/thirty core files are exact.
+Next restore final35–37/PDF37–39, then assemble separately. Remaining
 articles/assemblies, page accounting, donated cover and issue closeout remain.
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-01/validation.json`. No reader rebuild.
+`archive/pdf/1988-01/restoration/batch-02/validation.json`. No reader rebuild.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

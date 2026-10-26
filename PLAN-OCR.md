@@ -24,7 +24,8 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - January 1988 is active: 51 canonical identities, three readable/sample-reviewed
-  articles (including one immutable historical sample), 48 unresolved classifications.
+  articles (including one immutable historical sample), one partial C tutorial
+  and 47 unresolved classifications.
   Batch01 restores gift18–19/PDF20–21 and contest22–25/PDF24–27. All184 selected
   files independently exact;54 regions/38 blocks/16 images/997 local UTF-8 ranges/
   24 prize-table cells/33 form fields validate. All38 pinned kor+eng Tesseract tasks
@@ -32,8 +33,12 @@ paired OCR or a new engine comparison.
   twelve provisional lookups remain bounded;213 fresh PDF tests pass. All134
   historical sample/evidence files and thirty core files are unchanged.
   Legacy Turbo Pascal0018 TOC-pin reproduction/adoption remains pending; no new
-  OCR claimed for it. Next verify C tutorial0005/reference28 and restore at most
-  six pages. Remaining classifications/articles/assemblies, all-page accounting,
+  OCR claimed for it. C tutorial0005 opening28,30–34/PDF30,32–36 is now a
+  337-file independently exact partial: 88 regions/68 blocks/eight images,
+  twelve joins/seventeen code groups/22 rows/4,100 local ranges validate. One
+  crop extension preserves79 unchanged text results;80+1 recognitions and one
+  correction pass. The213-test baseline is reused with all thirty core files exact.
+  Next restore final35–37/PDF37–39, then assemble. Remaining classifications/articles/assemblies, all-page accounting,
   donated cover and JSON/assets closeout remain. No reader rebuild.
   See [January log](docs/progress/8801.md) and
   `metadata/catalog/pdf-restoration/1988-01-progress.json`.

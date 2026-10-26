@@ -25,7 +25,8 @@ records below are historical and do not authorize a new rebuild.
 ## January 1988 active restoration, 2026-10-27
 
 The January issue is in progress: 51 canonical identities currently account for
-three readable/sample-reviewed articles and 48 unresolved classifications.
+three readable/sample-reviewed articles, one partial/sample-reviewed C tutorial
+and 47 unresolved classifications.
 Batch01 restores the gift announcement18–19/PDF20–21 and contest notice22–25/
 PDF24–27. Their 184 selected files independently reproduce exactly; all54
 regions,38 blocks,16 images,997 local UTF-8 ranges,24 table cells and33 form
@@ -36,8 +37,13 @@ Two tasks/six mapped pages/twelve provisional lookups meet the limits.
 The completed historical Turbo Pascal0018 sample is preserved and accounted
 separately; its legacy TOC-pin reproduction/adoption remains pending. No heading
 has yet received a final non-owning classification. Source errors, uncertain
-spelling/encoding and historical claims remain explicit. Next verify the extent
-of C를 배우자(9), canonical0005/reference28, and restore at most six pages.
+spelling/encoding and historical claims remain explicit. The C tutorial's
+opening28,30–34/PDF30,32–36 is preserved in an independently exact 337-file
+partial package: 88 regions/68 blocks/eight images, twelve joins and seventeen
+independent code examples/22 rows validate. One crop extension retains 79
+unchanged text results; 80+1 recognitions and one correction pass.
+Next restore final35–37/PDF37–39, then assemble separately. The intervening
+PDF31 advertisement and lowerPDF39 promotion remain outside the article body.
 All-page accounting, remaining articles/assemblies, donated cover, issue export
 and final audit remain. No reader rebuild. See [January log](docs/progress/8801.md)
 and `metadata/catalog/pdf-restoration/1988-01-progress.json`.

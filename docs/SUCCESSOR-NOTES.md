@@ -16,19 +16,24 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 January 1988 is active under the full-issue restoration goal. Its51 canonical
-identities currently account for three readable/sample-reviewed articles and48
-unresolved classifications. Batch01 restores gift18–19/PDF20–21 and contest22–25/
+identities currently account for three readable/sample-reviewed articles, one
+partial C tutorial and47 unresolved classifications. Batch01 restores gift18–19/PDF20–21 and contest22–25/
 PDF24–27:184 selected files independently exact;54 regions/38 blocks/16 images/
 997 local UTF-8 ranges/24 table cells/33 form fields validate. Fresh213 PDF tests
 pass;38 pinned Tesseract tasks, one correction pass, zero retries. Two tasks/six
 mapped pages/twelve provisional lookups remain bounded. All134 historical sample/
 evidence files and thirty core files are unchanged. Reused Turbo Pascal0018
 retains its legacy TOC pin; explicit reproduction/adoption remains pending.
-Next verify C tutorial0005/reference28 and restore at most six pages. Remaining
+C tutorial0005 opening28,30–34/PDF30,32–36 is an independently exact337-file
+partial:88 regions/68 blocks/eight images/twelve joins/seventeen code groups/
+22 rows/4,100 local ranges validate. One crop extension preserves79 unchanged
+text results;80+1 recognitions and one correction pass. The213-test baseline
+is reused;752 previous January files and thirty core files are exact.
+Next restore final35–37/PDF37–39, then assemble. Remaining
 classifications/articles/assemblies, all-page accounting, cover selection, issue
 export and final audit remain. Follow [January log](progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-01/validation.json`. No reader rebuild.
+`archive/pdf/1988-01/restoration/batch-02/validation.json`. No reader rebuild.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

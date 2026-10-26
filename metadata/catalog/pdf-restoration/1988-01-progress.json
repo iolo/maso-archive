@@ -64,11 +64,165 @@
       "toc_entry_id": "maso-1988-01-toc-0005",
       "title": "C를 배우자(9) : 유닉스와 C언어",
       "parent_id": "maso-1988-01-toc-0004",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0005 has contents reference28 and visible source title 유닉스와 C 언어, byline 홍성수(서울대 전산과), series C를 배우자9.",
+        "Opening printed28/PDF30 precedes independent full advertisementPDF31; tutorial resumes printed30/PDF32.",
+        "Tutorial continues PDF32–39; final printed37/PDF39 contains conclusion and six references above a separate back-issue promotion. Next PDF40 opens PFS interview.",
+        "Current segment maps printed28,30–34/PDF30,32–36 only. Final printed35–37/PDF37–39 and assembly remain deferred.",
+        "Final current page34 ends with heading (1) 연관성 리스트; next35 opens 과연 어떻게 make가 변경된 화일만.... No broken word crosses this segment boundary."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-02-r01/c-tutorial-a",
+        "article_id": "scan-maso-1988-01-toc-0005",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-02-r01/c-tutorial-a/manifest.json",
+          "sha256": "eba85cd307a8071afebd79c90cb4ef992a85af3209a6b3603459b7dab276c3a8",
+          "bytes": 58992
+        },
+        "coverage": {
+          "pdf_pages": [
+            30,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "printed_pages": [
+            "28",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
+          "regions": 88,
+          "blocks": 68,
+          "figures": 8,
+          "deferred_pdf_pages": [
+            37,
+            38,
+            39
+          ],
+          "full_article_pdf_pages": [
+            30,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "full_article_printed_pages": [
+            "28",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37"
+          ],
+          "outside_body_pdf_pages_within_extent": [
+            31
+          ]
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "checkpoint": "batch-02",
+        "segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1988-01/packages/batch-02-r01/c-tutorial-a",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-02-r01/c-tutorial-a/manifest.json",
+              "sha256": "eba85cd307a8071afebd79c90cb4ef992a85af3209a6b3603459b7dab276c3a8",
+              "bytes": 58992
+            },
+            "coverage": {
+              "full_pdf_pages": [
+                30,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "full_printed_pages": [
+                "28",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37"
+              ],
+              "current_pdf_pages": [
+                30,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "current_printed_pages": [
+                "28",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34"
+              ],
+              "deferred_pdf_pages": [
+                37,
+                38,
+                39
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "source_title": "유닉스와 C 언어",
+              "source_byline": "홍성수(서울대 전산과)",
+              "outside_body_pdf_pages_within_extent": [
+                31
+              ],
+              "next_segment_boundary": {
+                "next_pdf_page": 37,
+                "next_printed_page": "35",
+                "current_ending": "(1) 연관성 리스트",
+                "following_opening": "과연 어떻게 make가 변경된 화일만",
+                "prose_join_required": false
+              },
+              "stage_notes_to_resolve": [
+                "Opening segment only: printed28,30–34; final35–37 and immutable article assembly remain pending.",
+                "Segment only; final three eligible pages and complete article assembly remain pending."
+              ]
+            }
+          }
+        ],
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-02/validation.json",
+          "sha256": "12bfce92ba6d9cf1d51f231c81cb68f7acf34be9d8157e262f852da43acf8f66",
+          "bytes": 2229
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-02/reproduction.json",
+          "sha256": "4d1ecbab44d17c7779907729076a2d68d2f749bdc9f51ee27a0a1070a83976d8",
+          "bytes": 1388
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0006",
@@ -687,6 +841,41 @@
         "sha256": "2f222887db248bf103d5010470165ee9f89c462e91bf49cb6b488284625d5f53",
         "bytes": 1663
       }
+    },
+    {
+      "name": "batch-02",
+      "completed_at": "2026-10-26T15:50:02.231169+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0005"
+      ],
+      "mapped_pdf_pages": [
+        30,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "initially_provisional_lookup_pages": 12,
+      "outside_final_map_lookup_pages": 6,
+      "initial_recognition_tasks": 80,
+      "changed_crop_recognitions": 1,
+      "unchanged_text_results_reused": 79,
+      "source_correction_passes": 1,
+      "unchanged_input_retries": 0,
+      "status": "complete-partial-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-02/validation.json",
+        "sha256": "12bfce92ba6d9cf1d51f231c81cb68f7acf34be9d8157e262f852da43acf8f66",
+        "bytes": 2229
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-02/reproduction.json",
+        "sha256": "4d1ecbab44d17c7779907729076a2d68d2f749bdc9f51ee27a0a1070a83976d8",
+        "bytes": 1388
+      }
     }
   ],
   "notes": [
@@ -694,11 +883,15 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Locate and restore opening of C를 배우자(9), canonical0005, within6 pages; first verify actual start/end and intervening continuity. Longer article remains partial until source-preserving assembly.",
+    "goal": "Restore final C tutorial printed35–37/PDF37–39, excluding lowerPDF39 independent promotion. Then assemble the two immutable segments in a separate checkpoint; no cross-segment broken word requires joining.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0005"
     ],
-    "canonical_reference": "28",
+    "known_pdf_pages": [
+      37,
+      38,
+      39
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -706,7 +899,7 @@
     }
   },
   "remaining_work": [
-    "48 canonical identities need source classification/restoration; do not automatically classify headings from queue candidates.",
+    "47 canonical identities still need source classification/restoration; C tutorial0005 is partial with three final body pages and assembly pending.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
@@ -714,8 +907,8 @@
   "outcome_totals": {
     "canonical_entries": 51,
     "readable": 3,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved": 48
+    "unresolved": 47
   }
 }
