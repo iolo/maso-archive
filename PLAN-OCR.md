@@ -23,47 +23,43 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 remains in progress: thirty-four readable, assistant sample-reviewed
-  articles, no partial article or pending assembly, and twelve unresolved identities.
-  Batch 57 completes Flying Lode Runner 0015, pages 252-upper256. All 219 files match
-  an independent rebuild. The complete package has 57 regions, 51 blocks, six figures
-  and 417 transcription rows. All 6,065 UTF-8 ranges, 6,342 evidence pins and 57 images
-  validate; 268 nonfigure pairs are disjoint. Lower256 Back-Issue Guide is explicitly
-  excluded and remains unrestored; full256 stays separate boundary evidence.
-  One BASIC listing retains 187 statements, seven wraps and three cross-region
-  continuations. Twenty-four DATA rows retain 192 opaque character candidates in
-  three source groups, without binary or sprite interpretation. Two command blocks,
-  fifteen variable descriptions, 21 variable-label fields, 33 routine references,
-  eleven guide labels and one unlabeled bracket retain their own source occurrences.
-  Four prose continuations, ten explicit literal wraps, seventeen quoted literals,
-  48 source variants and four unknown bands preserve glyph/spacing uncertainty.
-  Source R(8)/R(6), MISTERY/MYSTERY, XY/X/Y, GV/ME and ambiguous identifier glyphs
-  remain independent. Page256 gold/mystery guide labels stay where printed. No
-  syntax, arithmetic, behavior, hardware, historical or execution validation.
-  All 51 OCR drafts were read before one source pass; zero recognition retries.
-  Two pre-OCR crop-review rounds retained all three map/crop revisions. The initial
-  metadata draft split two numeric continuation rows into apparent statement starts;
-  it remains unselected. Revision02 preserves observed4410/4600 associations without
-  changing transcripts. Both exports and the verifier passed on first execution.
-  All 51,085 prior files, 56 selected inventories and thirty core pins are unchanged.
-  The unchanged 213-test baseline is reused. Current preservation: 52,124 issue files.
-  Reproduction: `archive/pdf/1985-11/restoration/batch-57/reproduction.json`.
-  Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
-  private adapters. Batch54's original inventory retains its recorder-log growth
-  supplement; selected stable revision02 needs none. No reader/HTML rebuild.
-  Batch 58 preparation establishes Classifieds0037 on pages 258-upper262.
-  All eight full views and 26 exact regions were inspected; the independent lower262
-  MAEC advertisement is excluded. Twelve crop-margin repairs preceded nineteen
-  pinned Korean/English OCR tasks. Every raw draft was read, with zero retries.
-  One source correction pass and independent complete-article exports remain.
-  Resume from `archive/pdf/1985-11/restoration/batch-58/continuation.json`.
-  Parent0012 and Back-Issue Guide0033 remain unresolved, along
-  with Software Contest0035's page-176 hint and parents0002,0020,0026,0040.
-  Folios175-177,210,216,257 and258 remain null. Cover, remaining identities, full
-  266-page accounting and issue closeout remain. Replies, logs and documents use
-  English; literal source retains its original language. Human acceptance/full
-  proofreading, source bytes, exact spacing and glyph identity remain unverified.
-  The full November goal remains active.
+- November 1985 remains in progress: thirty-five readable, assistant sample-reviewed
+  articles, no partial article or pending assembly, and eleven unresolved identities.
+  Batch 58 completes Classifieds 0037, pages 258-upper 262. Both 91-file independent
+  exports match byte for byte. The package retains 26 regions,20 prose blocks, seven
+  figures and 353 transcription rows. All 6,907 UTF-8 ranges,7,029 evidence pins and 26
+  images validate;39 nonfigure pairs are disjoint. Lower 262 MAEC advertisement is
+  explicitly excluded; full 262 remains separate boundary/folio evidence.
+  Seventy-two square-bullet entries retain seven wanted, thirty exchange and 35 sale
+  occurrences. All 72 contacts,62 telephone fields, ten addresses,62 circled alternatives,
+  62 monetary/unpriced fields and three cross-column/page entry continuations remain
+  source-local. Repeated markers and product/contact wording are retained. 135
+  quantity-like fields,174 model-letter candidates and 1,606 literal fields remain
+  unverified source occurrences. No historical offer, model, price, phone, address or
+  identity validation. No article byline invented from individual contacts.
+  Opening monitor title, two photo-object labels and three rotated coupon-label bands
+  are separately searchable. Coupon geometry and tiny photo details remain original
+  image evidence; no blank form or extra OCR was invented. Nineteen raw drafts were
+  read before one source pass; twenty immutable transcripts include the direct
+  figure-label reading. Thirty source-variant records retain glyph/spacing uncertainty.
+  Both exports passed on first execution. Three verifier drafts stopped on an
+  anticipated file count and two index-order assumptions. All remain preserved;
+  selected revision 04 verifies exact memberships, positions and complete associations.
+  No source transcript, metadata, recipe or export changed during those revisions.
+  All 52,124 prior files,57 selected inventories and thirty core pins remain exact.
+  The unchanged 213-test baseline is reused. Current preservation: 52,586 issue files.
+  Reproduction: `archive/pdf/1985-11/restoration/batch-58/reproduction.json`.
+  Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis private
+  adapters. Batch 54's original inventory retains its recorder-log growth supplement;
+  selected stable revision 02 needs none. No reader/HTML rebuild.
+  Next batch 59 verifies closing editorial 0038 and advertising index 0039 on observed
+  page 264, with colophon separation and adjacent-page review. Parent 0026 remains
+  unresolved, along with parents 0002,0012,0020,0040, Back-Issue Guide 0033, contest 0011,
+  TIPS 0016 and Software Contest 0035's page-176 hint. Folios 175-177,210,216,257 and 258
+  remain null. Cover, remaining identities, full 266-page accounting and issue closeout
+  remain. Replies, progress logs and documents use English; literal source retains its
+  original language. Human acceptance/full proofreading, source bytes, exact spacing
+  and glyph identity remain unverified. The full November goal remains active.
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
   35 readable/sample-reviewed articles, four non-owning headings, zero partial/
   unresolved/pending assemblies. All 9,031 issue files independently exact, including
