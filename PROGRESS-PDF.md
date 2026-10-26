@@ -6,30 +6,25 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active. Its 51 canonical identities currently account for three
-readable/sample-reviewed articles, one partial C tutorial and 47 unresolved
-classifications. Batch01's
-gift18–19/PDF20–21 and contest22–25/PDF24–27 exports contain184 files, independently
-exact; all54 regions/38 blocks/16 images/997 local UTF-8 ranges/24 table cells/
-33 form fields validate. Fresh213 PDF tests pass. The38 pinned Tesseract tasks
-used one source correction pass and zero retries within two tasks/six mapped pages/
-twelve provisional lookups. All134 historical sample/evidence files and thirty
-core files remain unchanged. Reused Turbo Pascal0018 retains its historical
-evidence and legacy TOC pin; explicit reproduction/adoption remains pending.
-No final heading classifications or whole-issue completion is claimed.
-C tutorial0005 opening28,30–34/PDF30,32–36 is preserved in an independently
-exact 337-file partial package:88 regions/68 blocks/eight images/twelve joins/
-seventeen code groups/22 rows/4,100 local ranges validate. One crop extension
-retains79 unchanged text results;80+1 recognitions and one correction pass. The
-213-test baseline is reused;752 prior January files/thirty core files are exact.
-Final35–37/PDF37–39 is preserved in an independently exact 216-file ending:
-54 regions/43 blocks/three source views/eight joins/ten examples/27 rows/six
-references validate. All nine body pages now exist; next assemble the two
-immutable segments. Availability remains partial. Remaining
-articles/assemblies, page accounting, donated cover and issue closeout remain.
+January 1988 is active: 51 canonical identities, four readable/sample-reviewed
+articles and 47 unresolved classifications; zero partial articles/pending assemblies
+among classified articles. The complete nine-body-page C tutorial0005 is selected
+at `archive/pdf/1988-01/packages/c-tutorial-complete-r01`: 562 files independently
+exact, including all 553 immutable native files. Its 142 regions/111 blocks/
+eleven figures or source views/five captions/131 regional transcripts/twenty joins/
+27 code examples/49 physical rows and source uncertainties validate. All 456
+projected and 6,402 native UTF-8 range occurrences pass in their proper contexts.
+Four active stage notes are resolved; original evidence remains. No new OCR or
+source correction for assembly; the passing 213-test baseline is reused with
+thirty core files unchanged. All 4,394 prior January files and 134 historical
+sample/evidence files remain exact. Legacy Turbo Pascal0018 TOC-pin adoption
+remains pending. Next verify PFS interview0036 from printed38/knownPDF40, then
+restore at most six pages. Other classifications/articles, page accounting,
+cover selection and JSON/assets closeout remain. No reader rebuild.
+
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-03/validation.json`. No reader rebuild.
+`archive/pdf/1988-01/restoration/batch-04/validation.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

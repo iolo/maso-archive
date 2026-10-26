@@ -24,32 +24,38 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-The January issue is in progress: 51 canonical identities currently account for
-three readable/sample-reviewed articles, one partial/sample-reviewed C tutorial
-and 47 unresolved classifications.
-Batch01 restores the gift announcement18–19/PDF20–21 and contest notice22–25/
-PDF24–27. Their 184 selected files independently reproduce exactly; all54
-regions,38 blocks,16 images,997 local UTF-8 ranges,24 table cells and33 form
-fields validate. Fresh213 PDF tests pass. All38 mapped Tesseract tasks retain
-the pinned settings, one source correction pass and zero recognition retries.
-Two tasks/six mapped pages/twelve provisional lookups meet the limits.
+January 1988 is in progress: its 51 canonical identities currently account for
+four readable/sample-reviewed articles and 47 unresolved classifications. There
+are no partial articles or pending assemblies among the classified articles.
+No heading has yet received a final non-owning classification.
 
-The completed historical Turbo Pascal0018 sample is preserved and accounted
-separately; its legacy TOC-pin reproduction/adoption remains pending. No heading
-has yet received a final non-owning classification. Source errors, uncertain
-spelling/encoding and historical claims remain explicit. The C tutorial's
-opening28,30–34/PDF30,32–36 is preserved in an independently exact 337-file
-partial package: 88 regions/68 blocks/eight images, twelve joins and seventeen
-independent code examples/22 rows validate. One crop extension retains 79
-unchanged text results; 80+1 recognitions and one correction pass.
-Final35–37/PDF37–39 is now a second independently exact 216-file segment:
-54 regions/43 blocks/three source views, eight joins, ten examples/27 rows and
-six references validate. All nine body pages are preserved; next assemble the
-two immutable segments without new OCR. The intervening
-PDF31 advertisement and lowerPDF39 promotion remain outside the article body.
-All-page accounting, remaining articles/assemblies, donated cover, issue export
-and final audit remain. No reader rebuild. See [January log](docs/progress/8801.md)
-and `metadata/catalog/pdf-restoration/1988-01-progress.json`.
+The complete C tutorial0005, source title 유닉스와 C 언어, covers nine body
+pages, printed28,30–37/PDF30,32–39. Its 562-file assembly independently reproduces
+exactly; all 553 native files and complete original metadata remain exact.
+The 142 regions, 111 blocks, eleven original figures/source views, five captions,
+131 regional transcripts, twenty internal prose joins and 27 independent code
+examples/49 physical rows validate. Six references, four Makefile explanatory
+ordinals, three omission notations and all source uncertainties remain literal.
+All 456 projected and 6,402 native UTF-8 range occurrences validate in their
+proper contexts; 142 region images decode. Four active assembly deferrals are
+resolved; original notes remain in immutable natives. No new mapping, OCR or
+source correction was needed for assembly. The passing 213-test baseline is
+reused with all thirty core files unchanged. All 4,394 prior January files and
+134 historical sample/evidence files remain exact.
+
+Gift0040 and contest0041 remain complete from batch01. The historical Turbo
+Pascal0018 sample remains preserved with explicit legacy TOC-pin reproduction/
+adoption pending. No new OCR or fresh review is claimed for that reused sample.
+Next verify the extent of the PFS interview0036 from printed38/knownPDF40 and
+restore at most six source pages. Remaining classifications/articles/assemblies,
+all-page accounting, donated-cover selection, issue export and final audit remain.
+Human acceptance/full proofreading, source encoded bytes and exact spacing,
+historical/technical/bibliographic claims, execution and independent backup
+recovery remain unverified. No reader/browser/frontend rebuild or deployment.
+
+See [January log](docs/progress/8801.md),
+`metadata/catalog/pdf-restoration/1988-01-progress.json` and
+`archive/pdf/1988-01/restoration/batch-04/validation.json`.
 
 ## November 1985 closeout, 2026-10-26
 
