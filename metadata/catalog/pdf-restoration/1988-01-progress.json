@@ -406,11 +406,87 @@
       "toc_entry_id": "maso-1988-01-toc-0008",
       "title": "MSX 인터프리터로의 접근(10) : 괄호있는 명령",
       "parent_id": "maso-1988-01-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0008 opens printed50/PDF52 with source title 인터프리터로의 접근10 / 괄호있는 명령, series 인터프리터 분석 / MSX1 MSX2, byline 정찬용(서울대 화학과).",
+        "Six continuous body pages printed50–55/PDF52–57. Two complete original Z80 listing panels on51–52, figures1–4 and PAD table1 remain eligible body.",
+        "Final prose on middle printed55 closes with 다음 호에는 괄호를 갖는 명령들의 나머지와 함께, 다른 유형의 명령에 대해서 살펴 보도록 하겠다. Independent right-column author solicitation/pencil advertisement is excluded.",
+        "PDF51 closes previous Apple LIST2 figure supplement; PDF58 opens distinct 경험과 시각화. Actual end verified from source, not inferred from TOC or a global folio offset.",
+        "All six body pages mapped in one checkpoint; no body segmentation or complete article assembly remains needed. Source execution, ROM correspondence and original bytes remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-09-r01/msx-parentheses",
+        "article_id": "scan-maso-1988-01-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-09-r01/msx-parentheses/manifest.json",
+          "sha256": "fb5a1c3a0bf0580b3f8d9b7ea3530136e84ddb78a152679804f5c9c988fbd617",
+          "bytes": 39539
+        },
+        "coverage": {
+          "pdf_pages": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "printed_pages": [
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55"
+          ],
+          "regions": 67,
+          "blocks": 46,
+          "figures": 14,
+          "regional_transcripts": 53,
+          "code_units": 25,
+          "physical_code_rows": 195,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "p55-independent-author-solicitation"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-09",
+        "latest_checkpoint": "batch-09",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-09/msx-parentheses/article-scope.json",
+          "sha256": "f7c282ad38c9ac05b4c7d3ee0231f5459bf9b0ad6963f1dd16310d608af0dcbf",
+          "bytes": 736
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-09/validation.json",
+          "sha256": "0b72d31e44d451c331461c0a29798eb3d14c231d4b728dc4e383449e34c43c16",
+          "bytes": 3047
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-09/reproduction.json",
+          "sha256": "a412b52d5ec46e888d310ef9934fedf758ee114deb7fc242a6599ba96b09ca42",
+          "bytes": 1283
+        },
+        "source_limits": [
+          "Full diagram-label transcription remains volunteer work; original diagrams/table/listing panels retained as exact images.",
+          "Original encoded glyphs/spaces, technical/ROM claims and execution unverified; printed errors,blank byte field and missing port digit preserved."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0047",
@@ -1419,6 +1495,44 @@
         "sha256": "5c00dd6264399fa6ced3b445dd8841ea2fc06f334a2acb37278c2c3238d3c8d5",
         "bytes": 1267
       }
+    },
+    {
+      "name": "batch-09",
+      "completed_at": "2026-10-26T18:00:55.607241+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0008"
+      ],
+      "mapped_pdf_pages": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 2,
+      "all_inspected_source_pages": 8,
+      "recognition_tasks": 53,
+      "eng_code": 25,
+      "kor_eng_other": 28,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_listing_boundary_and_margin_refinement": true,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-09/validation.json",
+        "sha256": "0b72d31e44d451c331461c0a29798eb3d14c231d4b728dc4e383449e34c43c16",
+        "bytes": 3047
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-09/reproduction.json",
+        "sha256": "a412b52d5ec46e888d310ef9934fedf758ee114deb7fc242a6599ba96b09ca42",
+        "bytes": 1283
+      }
     }
   ],
   "notes": [
@@ -1426,12 +1540,12 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent/continuations of MSX interpreter0008, canonical title MSX 인터프리터로의 접근(10) : 괄호있는 명령, from printed50/knownPDF52, then restore at most six body pages. Preserve source code/diagram evidence and segment if longer.",
+    "goal": "Verify actual extent/continuations of BASIC education0009, canonical title 베이직 교육방법(4) : 경험과 시각화, from printed56/knownPDF58, then restore at most six verified body pages. Preserve literal source examples/figures and segment if longer.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0008"
+      "maso-1988-01-toc-0009"
     ],
-    "known_start_pdf_page": 52,
-    "canonical_reference": "50",
+    "known_start_pdf_page": 58,
+    "canonical_reference": "56",
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -1439,16 +1553,16 @@
     }
   },
   "remaining_work": [
-    "45 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
+    "44 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved": 45
+    "unresolved": 44
   }
 }

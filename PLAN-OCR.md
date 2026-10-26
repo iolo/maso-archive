@@ -23,26 +23,30 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, six readable/sample-reviewed articles,
-  45 unresolved classifications and no partial articles/pending assemblies among
-  classified articles. Apple interpreter0007 is complete printed46–49/PDF48–51:
-  99 independently exact files, 30 regions/16 blocks/20 regional transcripts/
-  four joins/three captions/ten original image assets. Eight code units retain
-  88 physical rows, including 70 disassembly rows, 268 printed fields, 220 byte
-  cells and 32 alphabetic cells. All 2,550 UTF-8 range occurrences/30 images pass.
-  Initial map/crops and pre-OCR B-connector edge-tile repair remain; no post-OCR
-  crop repair. All 20 pinned recognitions, 8 eng/12 kor+eng, used one source pass,
-  zero failures/retries; successful omissions corrected directly from source.
-  Stopped metadata-index draft/revision retained. All 6,250 earlier January files/
-  134 sample files/thirty core files exact; unchanged 213-test baseline reused.
-  Next verify MSX interpreter0008 from printed50/knownPDF52, then restore at most
-  six pages. Legacy Turbo Pascal TOC-pin adoption and remaining classifications/
-  articles/accounting/cover/JSON-assets closeout pending. Full graph-label
-  transcription remains volunteer work; original pixels retained. Human acceptance/
-  full proofreading, bytes/spacing/claims/ROM/execution/backup unverified.
-  No reader rebuild. See [January log](docs/progress/8801.md),
+- January 1988 is active: 51 identities, seven readable/sample-reviewed articles,
+  44 unresolved classifications and no partial articles/pending assemblies among
+  classified articles. MSX interpreter0008 is complete printed50–55/PDF52–57:
+  235 independently exact files,67 regions/46 blocks/53 regional transcripts/
+  seven joins/five captions/14 original image assets. Twenty-five code units
+  retain195 physical rows,122 Z80 rows,525 fields and220 byte cells. All24 PAD
+  cells/six device rows/four condition headers/two corner labels,5,135 UTF-8
+  range occurrences/5,277 review-pin occurrences/67 decoded images pass.
+  Printed blank68E1 bytes,missing fourth-row port digit,source operands/claims
+  remain literal. Final right advertisement excluded; original diagrams/table/
+  listing panels and eligible page views retained. Initial maps/crops and pre-OCR
+  listing-boundary/margin refinements remain; no post-OCR crop repair. All53
+  pinned tasks,25eng/28kor+eng,used one source pass and zero failures/retries.
+  Two stopped phrase-index drafts and one field-index revision remain without
+  changing source transcripts. All6,710 prior January files/134 pilot files/thirty
+  core pins exact; unchanged213-test passing baseline reused,no fresh test run.
+  Next verify BASIC education0009 from printed56/knownPDF58,then restore at most
+  six verified pages. Legacy Turbo Pascal TOC-pin adoption and remaining
+  classifications/articles/accounting/cover/JSON-assets closeout pending.
+  Full diagram-label transcription remains volunteer work; original pixels retained.
+  Human acceptance/full proofreading,bytes/spacing/claims/ROM/execution/backup
+  unverified. No reader rebuild. See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-08/validation.json`.
+  `archive/pdf/1988-01/restoration/batch-09/validation.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
