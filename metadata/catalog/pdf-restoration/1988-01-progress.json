@@ -1561,21 +1561,114 @@
       "toc_entry_id": "maso-1988-01-toc-0015",
       "title": "테크닉",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source contentsPDF11 shows 테크닉 without a page/body reference and three independently titled children at60/90/92. Canonical0015 is a non-owning group heading;no parent package or duplicated child body is created.",
+        "Canonical0016 independently opens printed60/PDF62 with title 디베이스 데이터를 다른 소프트웨어로,category 데이터베이스 and IBM PC 호환기종. No visible byline is inferred.",
+        "Source contents gives only children their own references;the independently titled database opening is child0016. No whole-source absence or independent parent body is claimed."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1988-01/restoration/batch-19/techniques-heading-decision.json",
+        "sha256": "e44a78ab357b21fc566596ed8299da36124b3822aad6b86f02403169380dd292",
+        "bytes": 1961
+      },
+      "ownership_review": "resolved-from-original-contents-and-independent-child-opening",
+      "restoration": null
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0016",
       "title": "디베이스 데이터를 다른 소프트웨어로",
       "parent_id": "maso-1988-01-toc-0015",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source contentsPDF11 shows 테크닉 without a page/body reference and three independently titled children at60/90/92. Canonical0015 is a non-owning group heading;no parent package or duplicated child body is created.",
+        "Canonical0016 independently opens printed60/PDF62 with title 디베이스 데이터를 다른 소프트웨어로,category 데이터베이스 and IBM PC 호환기종. No visible byline is inferred.",
+        "Complete article spans printed60–63/PDF62–65. Final upper right conclusion ends 테스트업무에 투여야 한다는 부탁을 드린다 reading candidate before separate publisher banner and course advertisement.",
+        "PrecedingPDF61 is a full BYTE SUPER advertisement. FollowingPDF66 is full MEDUSA advertisement;PDF67 independently opens special PC software trends. No TOC-derived ending or global folio offset.",
+        "Complete original MAIL.DBF screen,worksheet/type tables,all bilingual command/comment displays and source prose are retained. Original handwriting/underlines remain pixels;quoted command syntax and field/file-name differences are not repaired.",
+        "Final single source pass reads ending 터 염두에 두어야 한다는 부탁을 드린다. Initial extent candidate remains provenance;두/투 and 어/여 glyph alternatives remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-19-r01/dbase-transfer",
+        "article_id": "scan-maso-1988-01-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-19-r01/dbase-transfer/manifest.json",
+          "sha256": "8bdd0612ef7430a56fb7182753e9c6102ec81f91858472c6db0223b4013d16fb",
+          "bytes": 33099
+        },
+        "coverage": {
+          "pdf_pages": [
+            62,
+            63,
+            64,
+            65
+          ],
+          "printed_pages": [
+            "60",
+            "61",
+            "62",
+            "63"
+          ],
+          "regions": 52,
+          "blocks": 37,
+          "figures": 8,
+          "regional_transcripts": 44,
+          "code_units": 11,
+          "physical_code_rows": 51,
+          "command_starts": 20,
+          "command_fields": 179,
+          "table_cells": 24,
+          "table_blanks": 3,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            62,
+            63,
+            64,
+            65
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf65-publisher-address-banner",
+            "pdf65-softwink-course-advertisement"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-19",
+        "latest_checkpoint": "batch-19",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-19/dbase-transfer-r01/article-scope.json",
+          "sha256": "de5f40526282b1b7b0cf8f5d197d14e9e8433a9c3f6f867a859c91e7b6abd4ec",
+          "bytes": 678
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-19/validation.json",
+          "sha256": "7f8e27f663722720805eb47e80a8221cb6422a3d09b6441571ec434cca3ec1c6",
+          "bytes": 2538
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-19/reproduction.json",
+          "sha256": "8169d06da771577fcc0bc2fc9b90e60a57969e9b4182a02b3197ce77a24e814e",
+          "bytes": 1316
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded glyphs/exact spaces,historical/software claims,command syntax/data correspondence and execution remain unverified.",
+          "All four actual article pages complete;no further body or article assembly pending. Source contents classifies parent0015 as non-owning heading;canonical identity and child links unchanged.",
+          "Printed UNIT/UNITS,DEPT/DEPTS,item.na/me versus ITEM_NAME and number.dat/numbers.dat,outfile/outfile.txt remain distinct literal source occurrences. No semantic/syntax/file-format repair.",
+          "All bilingual command/comment physical wraps retained,including return-key split,filename fragments and use-command comment across columns. No complete executable program inferred.",
+          "Original MAIL.DBF screen labels,handwriting/underlines and source graphic glyphs retained as pixels;screen-label transcription remains volunteer work.",
+          "Two source tables retain all24 cells,including three explicit blanks;TSV separators are editorial layout,not recovered original spacing.",
+          "Source drop cap linearized once;quotes,O/0,period/underscore,return/key angles,ellipsis and final 두어야 reading remain source-linked candidates. Initial extent-observation wording remains provenance.",
+          "Independent publisher address banner and lower SOFTWINK course advertisement onPDF65 excluded;eligible upper article and folio remain separately."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0017",
@@ -2843,6 +2936,53 @@
         "sha256": "2213792a9cf1a77507bdfa595d11f23ca64baa5ec74e95d5c393ba23a4e58ed7",
         "bytes": 19998
       }
+    },
+    {
+      "name": "batch-19",
+      "completed_at": "2026-10-26T21:45:19.928785+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0015",
+        "maso-1988-01-toc-0016"
+      ],
+      "mapped_pdf_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 4,
+      "all_inspected_source_pages": 8,
+      "rendered_but_not_inspected_pdf_pages": [
+        68,
+        69,
+        70
+      ],
+      "recognition_tasks": 44,
+      "eng_code": 11,
+      "kor_eng_other": 33,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_crop_repairs": 8,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article-and-non-owning-heading",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-19/validation.json",
+        "sha256": "7f8e27f663722720805eb47e80a8221cb6422a3d09b6441571ec434cca3ec1c6",
+        "bytes": 2538
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-19/reproduction.json",
+        "sha256": "8169d06da771577fcc0bc2fc9b90e60a57969e9b4182a02b3197ce77a24e814e",
+        "bytes": 1316
+      },
+      "heading_decision": {
+        "path": "archive/pdf/1988-01/restoration/batch-19/techniques-heading-decision.json",
+        "sha256": "e44a78ab357b21fc566596ed8299da36124b3822aad6b86f02403169380dd292",
+        "bytes": 1961
+      }
     }
   ],
   "notes": [
@@ -2850,30 +2990,19 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Verify canonical0015 테크닉 as heading versus body owner using original contents and child source evidence,and verify actual extent of canonical0016 디베이스 데이터를 다른 소프트웨어로 from printed60/known openingPDF62. Restore at most six verified body pages while preserving code,tables,figures,physical wraps and source mistakes. A longer body remains partial until all immutable natives and separate complete assembly. No inferred group body,TOC ending or global folio offset.",
+    "goal": "Verify canonical0017 비글 컴파일러에서 한글을 from printed reference90. Inspect actual opening,extent and adjacent source;restore at most six verified body pages. PDF90–96 are lookup candidates only,not a confirmed global folio offset or ending. Preserve literal command/code,physical wraps and source mistakes. Legacy0018 TOC-pin adoption remains separate.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0015",
-      "maso-1988-01-toc-0016"
+      "maso-1988-01-toc-0017"
     ],
-    "known_start_pdf_page": 62,
-    "canonical_reference": "60",
-    "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-10/source-reviewed.json",
-      "sha256": "d62214f31a3ce8ea3ed2b0cf68e496de8f76a103e78267dd447514e1717586f0",
-      "bytes": 1307
-    },
+    "canonical_reference": "90",
     "lookup_pdf_page_candidates": [
-      11,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -2882,17 +3011,17 @@
     }
   },
   "remaining_work": [
-    "38 canonical identities still need source classification/restoration. MAGIC KEY0014 and RAM-removal0013 are complete/readable with no deferred body pages or pending complete article assembly. Utility0011 remains a verified non-owning heading.",
+    "36 canonical identities still need source classification/restoration. dBASE0016,MAGIC KEY0014 and RAM-removal0013 are complete/readable with no deferred body pages or pending complete article assembly. Utility0011 and Techniques0015 are verified non-owning headings.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 12,
+    "readable": 13,
     "partial": 0,
-    "non_owning_headings": 1,
-    "unresolved": 38
+    "non_owning_headings": 2,
+    "unresolved": 36
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-18/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-19/preservation-inventory.json"
 }
