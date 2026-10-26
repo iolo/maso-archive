@@ -171,14 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty-five articles are readable,
-none is partial and eleven of 46 identities remain unresolved. Classifieds is
-complete on 258-upper 262: all 91 files match an independent rebuild. Its 72 entries,
-contacts, alternatives, three continuations and rotated coupon label remain source-
-linked. Lower 262 MAEC advertisement is excluded. Next: verify closing editorial
-and advertising index on observed 264. Cover, remaining identities and whole-issue
-accounting remain. Responses, progress logs and documentation use English; literal
-source retains its original language.
+November 1985 restoration is in progress: thirty-seven articles are readable,
+none is partial and nine of 46 identities remain unresolved. Closing editorial and
+advertising index are complete in separate areas on page 264; all 59 files match
+independent rebuilds. Five signed notes and 29 index rows retain source evidence.
+The colophon is excluded. Next: verify six Back-Issue Guide panels. Cover,
+remaining identities and whole-issue accounting remain. Responses, progress logs
+and documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

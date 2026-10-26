@@ -2724,23 +2724,197 @@
       "toc_entry_id": "maso-1985-11-toc-0038",
       "title": "편집후기",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete closing editorial0038 and advertising index0039 share source264 with a separate lower-left colophon. All four whole views263-266 were inspected before mapping.263 contains Back-Issue Guide/book advertisement;265 and266 are independent advertisements. Neither article continues off264.",
+        "Closing editorial retains its source title,artwork and five independently signed notes. The second note starts at lower left and continues at upper middle. Preserve note fragments and signature glyph candidates without resolving full personal identities or inventing a common byline.",
+        "Advertising index retains two printed columns of advertiser names,leader bands and reference strings. Cover references and comma-separated numerals remain literal. Do not resolve advertisement targets,correct names or infer folios from references.",
+        "Both article-area originals exclude the separate colophon and the other article. The full264 view remains independent folio/shared-page evidence. No full-page264 restoration claim. Canonical identities,titles,order and parent0026 remain unchanged.",
+        "One unique mapped page264,two canonical tasks and three outside-map lookups263/265/266 meet the bounds. Folios263/264 observed individually;265/266 have no observed folio and remain null. Source encoded bytes,spacing,glyph identity and human acceptance remain unverified.",
+        "Five signed notes retain five local signature glyphs, one physical column continuation, two quotations, six indexed wraps and three unknown ellipsis bands; no common article byline or full personal identity inferred.",
+        "Complete selected article area264 restored and independently verified. Other canonical article and lower-left colophon explicitly excluded; full264 remains separate shared-page/folio evidence. No whole-page264 restoration claim."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/closing-editorial",
+        "article_id": "scan-maso-1985-11-toc-0038",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/closing-editorial/manifest.json",
+          "sha256": "cbcceb7db5ce52557685057073688a9f1279d9026cc8c5f2d872950d46699f0c",
+          "bytes": 6426
+        },
+        "coverage": {
+          "pdf_pages": [
+            264
+          ],
+          "printed_pages": [
+            "264"
+          ],
+          "regions": 9,
+          "blocks": 7,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": [
+            "p264-colophon",
+            "p264-advertising-index-area"
+          ],
+          "page_areas": [
+            {
+              "pdf_page": 264,
+              "bbox": [
+                0.113,
+                0.08,
+                0.947,
+                0.525
+              ]
+            }
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "편집후기",
+        "source_byline": null,
+        "source_byline_note": "Five local signed notes;no common article byline inferred or full personal identities resolved.",
+        "source_exclusions": [
+          {
+            "id": "p264-colophon",
+            "pdf_index": 263,
+            "kind": "other",
+            "bbox": [
+              0.124,
+              0.717,
+              0.369,
+              0.92
+            ],
+            "notes": "Independent publication/printing metadata, outside both canonical article bodies. No article byline inferred from publisher/editor credits."
+          },
+          {
+            "id": "p264-advertising-index-area",
+            "pdf_index": 263,
+            "kind": "prose",
+            "bbox": [
+              0.401,
+              0.663,
+              0.984,
+              0.917
+            ],
+            "notes": "Independent advertising-index canonical0039 area, excluded from closing-editorial0038."
+          }
+        ],
+        "shared_page_note": "Two independent canonical article areas and colophon share264. Other article and colophon explicitly excluded;full264 remains independent folio/boundary evidence.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-59/validation.json",
+          "sha256": "f522d0f216bd13009bae46b9364966af805ad3495312a454bf536f63f3e62528",
+          "bytes": 3010
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-59/reproduction.json",
+          "sha256": "2be70d91834d2ed2816915ea39e772fc77bbd23f11a98caf29df612cc70f82a1",
+          "bytes": 2359
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0039",
       "title": "광고색인",
       "parent_id": "maso-1985-11-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete closing editorial0038 and advertising index0039 share source264 with a separate lower-left colophon. All four whole views263-266 were inspected before mapping.263 contains Back-Issue Guide/book advertisement;265 and266 are independent advertisements. Neither article continues off264.",
+        "Closing editorial retains its source title,artwork and five independently signed notes. The second note starts at lower left and continues at upper middle. Preserve note fragments and signature glyph candidates without resolving full personal identities or inventing a common byline.",
+        "Advertising index retains two printed columns of advertiser names,leader bands and reference strings. Cover references and comma-separated numerals remain literal. Do not resolve advertisement targets,correct names or infer folios from references.",
+        "Both article-area originals exclude the separate colophon and the other article. The full264 view remains independent folio/shared-page evidence. No full-page264 restoration claim. Canonical identities,titles,order and parent0026 remain unchanged.",
+        "One unique mapped page264,two canonical tasks and three outside-map lookups263/265/266 meet the bounds. Folios263/264 observed individually;265/266 have no observed folio and remain null. Source encoded bytes,spacing,glyph identity and human acceptance remain unverified.",
+        "Twenty-nine index rows retain fifteen left and fourteen right advertiser/reference pairs, 36 literal reference atoms including three cover-reference candidates, and29 unknown-count leader bands. Names and targets remain unverified.",
+        "Complete selected article area264 restored and independently verified. Other canonical article and lower-left colophon explicitly excluded; full264 remains separate shared-page/folio evidence. No whole-page264 restoration claim."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/advertising-index",
+        "article_id": "scan-maso-1985-11-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/advertising-index/manifest.json",
+          "sha256": "331aa75a4b0265810553f65086b23fbe68027f7e9e0c087127ba8530b92a4f57",
+          "bytes": 3432
+        },
+        "coverage": {
+          "pdf_pages": [
+            264
+          ],
+          "printed_pages": [
+            "264"
+          ],
+          "regions": 4,
+          "blocks": 3,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": [
+            "p264-colophon",
+            "p264-editorial-area"
+          ],
+          "page_areas": [
+            {
+              "pdf_page": 264,
+              "bbox": [
+                0.401,
+                0.663,
+                0.984,
+                0.917
+              ]
+            }
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "광고 색인",
+        "source_byline": null,
+        "source_byline_note": "No article byline printed;colophon publisher/editor credits are separate.",
+        "source_exclusions": [
+          {
+            "id": "p264-colophon",
+            "pdf_index": 263,
+            "kind": "other",
+            "bbox": [
+              0.124,
+              0.717,
+              0.369,
+              0.92
+            ],
+            "notes": "Independent publication/printing metadata, outside both canonical article bodies. No article byline inferred from publisher/editor credits."
+          },
+          {
+            "id": "p264-editorial-area",
+            "pdf_index": 263,
+            "kind": "prose",
+            "bbox": [
+              0.113,
+              0.08,
+              0.947,
+              0.525
+            ],
+            "notes": "Independent closing-editorial canonical0038 area, excluded from advertising-index0039."
+          }
+        ],
+        "shared_page_note": "Two independent canonical article areas and colophon share264. Other article and colophon explicitly excluded;full264 remains independent folio/boundary evidence.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-59/validation.json",
+          "sha256": "f522d0f216bd13009bae46b9364966af805ad3495312a454bf536f63f3e62528",
+          "bytes": 3010
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-59/reproduction.json",
+          "sha256": "2be70d91834d2ed2816915ea39e772fc77bbd23f11a98caf29df612cc70f82a1",
+          "bytes": 2359
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0040",
@@ -3268,10 +3442,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 35,
+    "readable": 37,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 11
+    "unresolved_eligibility": 9
   },
   "checkpoints": [
     {
@@ -5763,6 +5937,46 @@
       },
       "started_at": "2026-10-26T10:19:23.809308+00:00",
       "finished_at": "2026-10-26T11:01:07.333311+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-59",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0038",
+        "maso-1985-11-toc-0039"
+      ],
+      "mapped_pdf_pages": [
+        264
+      ],
+      "outside_map_lookup_pages": [
+        263,
+        265,
+        266
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 10,
+      "english_tasks": 0,
+      "source_correction_passes": 1,
+      "preflight_replacements": 0,
+      "preflight_adjustments": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-59/validation.json",
+        "sha256": "f522d0f216bd13009bae46b9364966af805ad3495312a454bf536f63f3e62528",
+        "bytes": 3010
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-59/verification-completed.json",
+        "sha256": "3a5a5acb43a043c27fc5a1775c002edf3275028f7dd79ddedbbe4389bb5303e5",
+        "bytes": 2065
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-59-preserved-work.json",
+        "sha256": "fa98ece4b5fa35357d7ab7c2da09bcdc52bba2cc440a4588875c077b340bb66a",
+        "bytes": 11857682
+      },
+      "started_at": "2026-10-26T11:04:43.817156+00:00",
+      "finished_at": "2026-10-26T11:18:20.349851+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
@@ -8397,26 +8611,61 @@
     {
       "pdf_page": 264,
       "printed_page": "264",
-      "classification": "editorial-advertising-index-colophon-observed",
+      "classification": "shared-editorial-advertising-index-and-colophon",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0038",
+        "maso-1985-11-toc-0039"
+      ],
+      "restoration": "both-article-areas-complete; colophon-excluded",
+      "note": "Closing editorial0038 and advertising index0039 complete in disjoint selected areas. Five note/signature occurrences and29 index rows retained. Lower-left colophon excluded from both packages; full264 remains folio/shared-page evidence. Folio264 individually observed; no whole-page restoration claim.",
+      "prior_stage_notes": [
+        "Closing editorial,advertising index and colophon observed on full264. Folio264 individually visible. Canonical0038/0039 source mapping and restoration remain pending."
+      ]
+    },
+    {
+      "pdf_page": 265,
+      "printed_page": null,
       "toc_entry_ids": [],
-      "restoration": "pending",
-      "note": "Closing editorial,advertising index and colophon observed on full264. Folio264 individually visible. Canonical0038/0039 source mapping and restoration remain pending."
+      "classification": "advertisement-observed",
+      "restoration": "outside-current-article-bodies",
+      "note": "Independent Daewoo computer advertisement after both complete articles on264. No visible folio observed; printed_page remains null. Outside canonical0038/0039 bodies; whole-issue accounting remains pending."
+    },
+    {
+      "pdf_page": 266,
+      "printed_page": null,
+      "toc_entry_ids": [],
+      "classification": "advertisement-observed",
+      "restoration": "outside-current-article-bodies",
+      "note": "Independent Qnix printer back-cover advertisement, final PDF page. No visible folio observed; printed_page remains null. Outside canonical0038/0039 bodies; whole-issue accounting remains pending."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-59",
-    "goal": "Verify and restore closing editorial0038 and advertising index0039 from observed264. Inspect all shared-page boundaries and adjacent material before mapping. Preserve source headline,prose,index rows,printed references and colophon separation without inferring article bylines or validating advertisement targets.",
+    "id": "batch-60",
+    "goal": "Verify and restore canonical0033 Back-Issue Guide across six observed panels on51,99,103,169,256,263. Inspect every shared-page boundary and the adjacent source material before mapping. Preserve month/title/author/platform candidates, physical table/list rows and panel geometry without filling gaps, inferring missing issues or validating historical contents.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0038",
-      "maso-1985-11-toc-0039"
+      "maso-1985-11-toc-0033"
     ],
-    "mapping_targets": "Observed264 contains closing editorial,advertising index and colophon; exact region boundaries unverified.",
+    "mapping_targets": "Six observed panels51,99,103,169,256,263; verify discontinuous coverage and boundaries before mapping at most six unique pages.",
     "provisional_lookup_targets": [
+      50,
+      51,
+      52,
+      98,
+      99,
+      100,
+      102,
+      103,
+      104,
+      168,
+      169,
+      170,
+      255,
+      256,
+      257,
+      262,
       263,
-      264,
-      265,
-      266
+      264
     ],
     "limits": {
       "articles": 2,
@@ -8428,7 +8677,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-five readable articles; no partial article or pending assembly. Eleven unresolved identities,cover,full266-page accounting and issue closeout remain. Classifieds0037 complete258-upper262 with lowerMAEC exclusion. Closing editorial0038 and advertising index0039 observed264 remain pending. Parent0026 unresolved;other parents0002,0012,0020,0040,Back-Issue Guide0033,Software Contest0035 page-176 hint,contest0011 and TIPS0016 remain unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216,257,258 remain null. Retain five private assembly adapters and all failed attempts. Batch54 original inventory has one documented recorder-log growth exception;selected stable revision02 requires none. English responses,progress logs and documentation;literal source retains its language."
+    "Thirty-seven readable articles; no partial article or pending assembly. Nine unresolved identities, cover, full266-page accounting and issue closeout remain. Closing editorial0038 and advertising index0039 complete in disjoint areas on264; colophon excluded. Back-Issue Guide0033 observed on six panels51,99,103,169,256,263 remains pending. Parents0002,0012,0020,0026,0040, contest0011, TIPS0016 and Software Contest0035 page-176 hint remain unresolved. Diskette0032 page-72 mismatch retained. Folios175-177,210,216,257,258,265,266 remain null. Retain five private adapters and all failed attempts. Batch54 original inventory has one documented recorder-log growth exception; selected stable revision02 requires none. English responses, logs and documentation; literal source retains its language."
   ],
   "reader_rebuild": false
 }
