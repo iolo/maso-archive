@@ -23,34 +23,36 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, thirteen readable/sample-reviewed articles,
-  two non-owning headings and 36 unresolved identities. No classified article has
-  deferred body pages or pending complete assembly. Batch19 completes dBASE0016,
-  디베이스 데이터를 다른 소프트웨어로, printed60–63/PDF62–65. Selected
-  packages/batch-19-r01/dbase-transfer independently reproduces193 files/31,160,770
-  bytes:52 regions/37 blocks/44 transcripts/eight originals,11 command/display units,
-  51 physical rows,20 commands/179 fields,two tables/24 cells/three blanks,seven prose
-  joins,two code/comment connections,one caption/two table links and five reference
-  views. Techniques0015 is a non-owning heading from source contents/child evidence;
-  no parent body/package. Publisher banner/course ad on65 excluded. Eight crop
-  repairs preceded first OCR;original/revised maps/crops retained. All44 drafts read
-  before one source pass. Pinned Tesseract11 eng code/33 kor+eng other tasks,zero
-  failures/retries/no post-OCR crop repairs. All3,094 UTF-8 ranges/3,176 pins/52 images
-  and exact source crop pixels pass. Two tasks/four mapped/four outside lookups;
-  rendered68–70 not inspected. All13,092 prior files/134 pilot/thirty core pins exact;
-  unchanged213-test baseline reused,no fresh run. Source field/file spelling
-  differences,quotes,key/filename/command-comment wraps and final glyph candidates
-  remain literal;screen labels/handwriting remain pixels for volunteers.
-  MAGIC KEY/RAM-removal remain complete. Retain batch-18/magic_literal_r02.py/
-  magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1 for
-  eventual issue dispatcher. Next verify0017 비글 컴파일러에서 한글을 from printed90;
-  PDF90–96 are lookup candidates,not inferred extent/offset. Legacy0018 TOC adoption,
-  36 classifications/restorations,accounting/cover/export/audit pending. Human
-  acceptance/proofreading,bytes/spaces/glyphs/claims/execution/backup unverified.
-  No reader rebuild. See [January log](docs/progress/8801.md),
+- January 1988 is active: 51 identities, fourteen readable/sample-reviewed articles,
+  two non-owning headings and 35 unresolved identities. No classified article has
+  deferred body pages or pending complete assembly. Batch20 completes0017,
+  비글 컴파일러에서 한글을,printed90–91/PDF92–93. Selected
+  packages/batch-20-r01/beagle-hangul independently reproduces172 files/15,543,296 bytes:
+  46 regions/36 blocks/39 transcripts/seven originals,13 code units/37 physical rows,
+  twenty assembly rows/97 fields/46 hex pairs/three blank operands,two complete BASIC
+  loaders/five rows/29 tokens,nine commands/twelve rows/27 fields. Three prose joins,
+  four source connections,four captions/panels and three reference views pass.
+  Publisher banner on93 excluded. All46 crops viewed before39 recognitions;all drafts
+  read before one source pass. Pinned Tesseract13 eng/26 kor+eng,zero failures/retries/
+  crop revisions. All1,531 UTF-8 ranges/1,601 pins/46 images and source crop pixels
+  pass. One task/two mapped/two outside lookups;rendered90/95/96 not inspected.
+  All13,918 prior files/134 pilot/thirty core pins exact;unchanged213-test baseline
+  reused,no fresh run. Literal85 36/STA $36,01,HAN2.PRO/HAN1.LOADER,source replacement
+  prose and BSAVE apostrophe-like mark retained. Slashed-zero/cursor/key/quote/space
+  candidates remain unverified. DBASE/MAGIC KEY/RAM-removal remain complete;two group
+  headings retained. Keep batch-18/magic_literal_r02.py/magic-key-literal-v1 and
+  batch-15/ram_literal_r01.py/ram-removal-literal-v1 in eventual issue dispatcher.
+  Next explicit legacy0018 Turbo Pascal TOC-pin reproduction/adoption;preserve all55
+  original files,verify original recipe/current identity/actual94–95 extent and
+  adjacent source. Use pinned legacy-input context/private adoption adapter;no
+  bypass of current validation or new OCR implied. Resolve reproduction_pending
+  without inflating existing readable totals. The35 unresolved identities,accounting/
+  cover/issue export/audit remain. Human acceptance/proofreading,bytes/spaces/glyphs/
+  claims/execution/backup unverified. No reader rebuild.
+  See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-19/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-19/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-20/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-20/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
