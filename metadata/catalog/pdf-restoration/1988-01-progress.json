@@ -1125,11 +1125,211 @@
       "toc_entry_id": "maso-1988-01-toc-0014",
       "title": "MAGIC KEY",
       "parent_id": "maso-1988-01-toc-0011",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0014 MAGIC KEY independently opens printed124/PDF126 after RAM-removal PCMAP.ASM ends onPDF125. Original utility category and IBM PC machine label belong to this child article.",
+        "Nine body pages126–134 are continuous. PDF131 begins listing1 MAGickey assembly001–157,132 continues158–324,133 ends325–441 then begins listing2 BASIC,134 ends BASIC/DATA at1680. PDF135 independently opens Turbo Pascal tips and136 opens Turbo C graphics.",
+        "This immutable opening segment maps only126–131; final132–134 and separate complete article assembly remain deferred. No global folio offset is inferred. PDF130 has no visible folio and retains null.",
+        "Three prose columns continue across pages and within pages; mid-word continuations remain separate native blocks with explicit joins to follow. Dump lines0010 and0030 have physical tail wraps; no missing bytes are synthesized.",
+        "Full diagrams1/2, dump/BASIC/table/assembly panels and original eligible source layouts retained. PDF130 lower Central Computer ad excluded; other selected pages have no independent whole advertisement.",
+        "Opening six-page native independently reproduces153 files. Source title/identity/parent unchanged;final three body pages and complete article assembly pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a",
+        "article_id": "scan-maso-1988-01-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a/manifest.json",
+          "sha256": "d0c94cec307fca49a48dd0016999c5c0c9c568746c171a86fe084a9b9dca9b0d",
+          "bytes": 25921
+        },
+        "coverage": {
+          "pdf_pages": [
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "printed_pages": [
+            "124",
+            "125",
+            "126",
+            "127",
+            null,
+            "129"
+          ],
+          "regions": 45,
+          "blocks": 33,
+          "figures": 12,
+          "regional_transcripts": 33,
+          "code_units": 5,
+          "physical_code_rows": 188,
+          "assembly_physical_rows": 164,
+          "assembly_printed_ordinals": 157,
+          "assembly_wraps": 7,
+          "table_data_rows": 25,
+          "table_data_cells": 75,
+          "table_blank_cells": 18,
+          "dump_hex_pairs": 126,
+          "deferred_pdf_pages": [
+            132,
+            133,
+            134
+          ],
+          "full_article_pdf_pages": [
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf130-central-computer-advertisement"
+          ]
+        },
+        "body_pages_complete": false,
+        "all_body_pages_preserved_across_segments": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "checkpoint": "batch-16",
+        "latest_checkpoint": "batch-16",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-16/magic-key-a/segment-scope.json",
+          "sha256": "50a703174e7fdc9126c55d15839adc287ca263cee6a88980c6c679134806ce04",
+          "bytes": 1082
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-16/validation.json",
+          "sha256": "f20c31df7878671ad0215d54b8f583b6d03da088cf6419241afd39e9be439248",
+          "bytes": 2691
+        },
+        "latest_validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-16/validation.json",
+          "sha256": "f20c31df7878671ad0215d54b8f583b6d03da088cf6419241afd39e9be439248",
+          "bytes": 2691
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-16/reproduction.json",
+          "sha256": "05a6c76129337b8188a8dba5236fb3dc0a521c087ef8b20aea483ccbc2dd428f",
+          "bytes": 1355
+        },
+        "latest_reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-16/reproduction.json",
+          "sha256": "05a6c76129337b8188a8dba5236fb3dc0a521c087ef8b20aea483ccbc2dd428f",
+          "bytes": 1355
+        },
+        "segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a/manifest.json",
+              "sha256": "d0c94cec307fca49a48dd0016999c5c0c9c568746c171a86fe084a9b9dca9b0d",
+              "bytes": 25921
+            },
+            "coverage": {
+              "full_pdf_pages": [
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134
+              ],
+              "full_printed_pages": [
+                "124",
+                "125",
+                "126",
+                "127",
+                null,
+                "129",
+                "130",
+                "131",
+                "132"
+              ],
+              "current_pdf_pages": [
+                126,
+                127,
+                128,
+                129,
+                130,
+                131
+              ],
+              "current_printed_pages": [
+                "124",
+                "125",
+                "126",
+                "127",
+                null,
+                "129"
+              ],
+              "deferred_pdf_pages": [
+                132,
+                133,
+                134
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "body_pages_complete": false,
+              "source_title": "MAGIC KEY",
+              "source_byline": "글·최철룡(동아대 기계4)",
+              "source_byline_identity_verified": false,
+              "excluded_region_ids": [
+                "pdf130-central-computer-advertisement"
+              ],
+              "outside_body_pdf_pages_within_extent": [],
+              "stage_notes_to_resolve": [
+                "Opening native segmenta only: final body pagesPDF132–134 and separate complete article assembly remain pending.",
+                "Opening segment only; final three body pages132–134 and complete assembly pending."
+              ]
+            },
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "recipe": {
+              "path": "archive/pdf/1988-01/restoration/batch-16/magic-key-a/package-recipe.json",
+              "sha256": "33b2c9e17be1d33210364a0cece00f8b7b2afa92b45621014a583e04b17b680a",
+              "bytes": 12254
+            },
+            "source_scope": {
+              "path": "archive/pdf/1988-01/restoration/batch-16/magic-key-a/segment-scope.json",
+              "sha256": "50a703174e7fdc9126c55d15839adc287ca263cee6a88980c6c679134806ce04",
+              "bytes": 1082
+            },
+            "validation": {
+              "path": "archive/pdf/1988-01/restoration/batch-16/validation.json",
+              "sha256": "f20c31df7878671ad0215d54b8f583b6d03da088cf6419241afd39e9be439248",
+              "bytes": 2691
+            },
+            "native_immutable": true,
+            "coverage_is_original_native_provenance": true
+          }
+        ],
+        "active_stage_notes": [
+          "Final three MAGIC KEY body pagesPDF132–134 are deferred;separate full article assembly pending."
+        ],
+        "source_limits": [
+          "Assistant sample review; human acceptance/full proofreading,original encoded bytes/exact spaces,glyph identities,technical claims,binary correspondence and execution remain unverified.",
+          "Opening native segmenta only: final body pagesPDF132–134 and separate complete article assembly remain pending.",
+          "Byline 최철룡/최철용 and source 듣게/들게 are localized glyph candidates. No external person identity inferred.",
+          "Source hyphen/underscore variants,state-sw/memory-key/ram-sw/int call,open parentheses and wording are literal. No prose/code consistency repair.",
+          "Assembly c/o/1/l/0/O,cr/or/cursor_left/oursor_left,15h/16h and5ch/50h are glyph candidates. Printed revers/righr spelling,the extra apostrophe before cs at152 and four dots split across050/unnumbered continuation remain literal candidates. No assembler or executable validation.",
+          "The dump has126 visible opaque hex pairs,including only14 at0010 and two physical tail wraps. No expected16-byte row fill or address/ROM/real-memory correspondence inferred. The vertical gap is serialized as a blank band with unverified original encoded row count.",
+          "Usage table has25 rows/75 data cells and18 blanks. Angle wrappers/musical notes are Unicode candidates,not recovered control bytes. Dot-band counts are explicit unknowns. Lowercase word and unbalanced System wrapper remain.",
+          "Two diagram labels stay as original pixels for volunteer transcription;their captions and associations are searchable. Exact encoded spaces,dot/glyph counts,technical assertions and execution remain unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0015",
@@ -2315,6 +2515,43 @@
         "sha256": "9de90dac512c059a7ee61dcdc676a2f6a73b1f90d94b7c1bc46cdfb3aa2ac7b2",
         "bytes": 16554
       }
+    },
+    {
+      "name": "batch-16",
+      "completed_at": "2026-10-26T20:36:37.072653+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0014"
+      ],
+      "mapped_pdf_pages": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 6,
+      "all_inspected_source_pages": 12,
+      "recognition_tasks": 33,
+      "eng_code": 5,
+      "kor_eng_other": 28,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-opening-native;final-three-body-pages-and-assembly-pending",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-16/validation.json",
+        "sha256": "f20c31df7878671ad0215d54b8f583b6d03da088cf6419241afd39e9be439248",
+        "bytes": 2691
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-16/reproduction.json",
+        "sha256": "05a6c76129337b8188a8dba5236fb3dc0a521c087ef8b20aea483ccbc2dd428f",
+        "bytes": 1355
+      }
     }
   ],
   "notes": [
@@ -2322,13 +2559,28 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Verify extent of canonical0014 MAGIC KEY from printed reference124/known openingPDF126,then restore at most six verified body pages. Prior ending article0013 is complete;do not infer a global folio offset or end from the TOC. Preserve code/physical wraps/graphic labels and source glyph candidates. Longer body stays partial until all immutable segments and separate assembly.",
+    "goal": "Restore final three verified MAGIC KEY0014 body pagesPDF132–134 as immutable ending nativeb. Preserve assembly continuation158 onward and ending,opening/ending BASIC generator/DATA,all physical wraps/opaque hex/check fields and original eligible panels;exclude final independent advertisement. Verify incoming ordinal157/158 boundary against immutable opening segmenta. No source errors,checksums,binary or executable repair. Article stays partial until separate complete nine-page assembly.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0014"
     ],
-    "known_start_pdf_page": 126,
-    "canonical_reference": "124",
+    "known_start_pdf_page": 132,
+    "mapping_pdf_pages": [
+      132,
+      133,
+      134
+    ],
     "lookup_pdf_page_candidates": [
+      131,
+      132,
+      133,
+      134,
+      135,
+      136
+    ],
+    "source_segments": [
+      "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a"
+    ],
+    "full_body_pdf_pages": [
       126,
       127,
       128,
@@ -2336,7 +2588,8 @@
       130,
       131,
       132,
-      133
+      133,
+      134
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -2345,7 +2598,7 @@
     }
   },
   "remaining_work": [
-    "39 canonical identities still need source classification/restoration. RAM-removal0013 is complete/readable with no deferred body pages or article assembly. Utility0011 remains a verified non-owning heading.",
+    "38 canonical identities still need source classification/restoration. MAGIC KEY0014 has six of nine body pages preserved;finalPDF132–134 and separate complete article assembly remain pending. RAM-removal0013 is complete;Utility0011 remains a verified non-owning heading.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
@@ -2353,9 +2606,9 @@
   "outcome_totals": {
     "canonical_entries": 51,
     "readable": 11,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 1,
-    "unresolved": 39
+    "unresolved": 38
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-15/preservation-inventory-r01.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-16/preservation-inventory.json"
 }

@@ -23,34 +23,36 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active:51 identities,eleven readable/sample-reviewed articles,
-  one non-owning heading and39 unresolved identities;no classified article has
-  deferred body pages or pending assembly. RAM-removal0013 complete across11 body
-  pages,PDF114,115,117–125,at packages/ram-removal-complete-r02. All206 files/
-  150,323,132 bytes independently exact,including197 immutable native files/all
-  metadata. Private ram-removal-literal-v1 adapter projects65 regions/34 blocks/
-  38 transcripts/27 original images,six source programs,20 code units/812 physical
-  rows,217 BASIC labels/six wraps/1395 DATA cells,441 BASIC fields and575 assembly
-  rows/1362 fields. Four prose joins/11 code connections/native REMOVE boundary,
-  six captions/13 panel links pass. Full reference views follow primary text/code;
-  native orders remain. All15,869 native/15,922 projected UTF-8 ranges,16,082 native/
-  16,279 projected pins/65 images validate. Seven exact stage notes resolved;
-  original stage state remains provenance. Three mixed ad exclusions retained;
-  PDF116 whole ad outside. Source end entpt precedes MAGIC KEY on126. Initial
-  assembly/adapter and fresh order-refined revision preserved. Four invalid DATA/
-  range/ad-body/resolved-note mutations rejected. Zero new mapping/lookups/OCR/
-  source correction. All10,447 prior files/134 pilot files/thirty core pins exact;
-  unchanged213-test baseline reused,no fresh run. Preserve pinned private adapter
-  in future issue dispatcher. Source errors/glyph/space/register/address candidates,
-  46 band markers/one blank-width marker and handwriting retained. Human acceptance/
-  proofreading,bytes/spaces/glyph counts/checksums/binary correspondence/claims/
-  execution/backup unverified. Next verify MAGIC KEY0014 from printed124/PDF126,
-  at most six body pages. Legacy Turbo Pascal adoption,39 classifications/articles,
-  accounting/cover/issue export/audit pending. No reader rebuild.
+- January 1988 is active: 51 identities, eleven readable/sample-reviewed articles,
+  one partial article, one non-owning heading and 38 unresolved identities.
+  MAGIC KEY 0014 opening native covers PDF 126–131, six of nine body pages. Full extent
+  126–134 ends with BASIC DATA 1680 before independent Turbo Pascal on 135. PDF 130
+  folio stays null; lower Central Computer ad excluded. Selected 153 files/55,100,849
+  bytes independently exact;45 regions, 33 blocks/transcripts, 12 original assets,
+  12 prose joins, three caption links, one internal 075/076 boundary. Five code/display
+  units/188 physical rows retain 164 ASM rows/157 ordinal strings/seven wraps,
+  568 opaque ASM fields, 11 labelled BASIC rows/40 fields, one unlabelled insertion,
+  12 dump rows/126 literal pairs/two tails. No expected 16-byte fill at 0010.
+  Usage table 25 rows/75 cells/three headers/18 blanks/31 physical TSV rows retain
+  source case, unbalanced System wrapper and note glyph candidate. Eight dot bands
+  explicit; diagram labels remain pixels for volunteers. Byline 최철룡/최철용 and
+  source spelling, c/o/1/l/0/O/point/apostrophe/address/register/space candidates
+  remain; row 152 extra apostrophe and revers/righr spelling unrepaired.
+  All 6,411 UTF-8 ranges/6,633 pin occurrences/45 decoded images pass. All 33 pinned
+  tasks: five eng/28 kor+eng, one source pass, zero failures/retries/crop revisions.
+  All 45 crops before OCR; all 33 raws before correction. Encoded-PNG identity check
+  failed due serialization; all five full references have identical decoded pixels.
+  One task/six mapped/six outside lookups/twelve source views. All 11,093 prior files,
+  134 pilot files/thirty core pins exact; unchanged 213-test baseline reused, no fresh
+  run. Next ending native PDF 132–134, then separate nine-page assembly. RAM-removal
+  complete-r02/ram-removal-literal-v1 adapter unchanged; retain dispatcher support.
+  Legacy Turbo Pascal adoption, 38 classifications/articles, accounting/cover/issue
+  export/audit pending. Human acceptance/proofreading, bytes/spaces/glyph counts/
+  checksum/binary correspondence/claims/execution/backup unverified. No reader.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-15/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-15/preservation-inventory-r01.json`.
+  `archive/pdf/1988-01/restoration/batch-16/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-16/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
