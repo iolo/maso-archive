@@ -16,8 +16,21 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 January 1988 is active: 51 canonical identities, sixteen readable/sample-reviewed
-articles, three non-owning headings and 32 unresolved identities. No classified
+articles, four non-owning headings and 31 unresolved identities. No classified
 article has deferred body pages or a pending complete article assembly.
+
+Batch 24 classifies 0022, 정보 레이다, as a non-owning heading. Original contents
+PDF11 lists ten children with references105/146/149/155/158/161/164/166/174/175;
+PDF148 independently opens Domestic News under the same category banner.
+No parent package, duplicated body or changed canonical title/parent is introduced.
+Debugging-room/bulletin-board0023 remains unlocated: original contents itself prints
+105, matching the canonical TOC, while actual printed105/PDF107 contains MSX-DOS
+TOOLS and the independent disk3 promotion. The twelve inspected lookup pages are
+11,104–108 and144–149. Source147/printed145 is a training calendar, not a corrected
+debugging-room location. This bounded review establishes no source-wide absence;
+no unrelated panel or article is substituted. Zero body maps/OCR/new packages.
+All19,738 prior January files,134 pilot files and thirty core pins remain exact.
+Validation and both source decisions are retained under `restoration/batch-24/`.
 
 Batch 23 completes 0021, 터보 파스칼 유틸리티 툴박스, on printed 106–111/PDF
 108–113. Selected package: `archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox`.
@@ -71,20 +84,20 @@ Keep `batch-21/legacy_input_r01.py`/`legacy-toc-input-v1`, exact legacy context 
 separate current-identity guard for the issue dispatcher. Also retain
 `batch-18/magic_literal_r02.py`/`magic-key-literal-v1` and
 `batch-15/ram_literal_r01.py`/`ram-removal-literal-v1`; immutable natives and historical
-stage notes remain. Earlier completed articles and all three heading decisions stand.
+stage notes remain. Earlier completed articles and all four heading decisions stand.
 
-Next verify 0022, 정보 레이다, heading ownership and locate 0023, 디버깅 룸·게시판.
-Canonical0023 reference105 remains in conflict with actual printed105/PDF107;
-do not substitute the disk3 promotion. Review original contents/actual title and
-adjacent source within two tasks/six mapped pages/twenty outside lookups. PDF11,
-104–108 and144–149 are lookup candidates only; no opening or ending is assumed.
-The32 unresolved identities, all-page accounting, donated cover, standalone
-JSON/assets issue export and final audit remain. No reader rebuild or deployment.
+Next verify 0024, 국내뉴스, from printed146/known opening PDF148. Inspect actual
+extent and adjacent independent titles within two tasks/six mapped pages/twenty
+outside lookups; PDF147–154 are lookup candidates only. Preserve news headlines,
+columns, continuations, contact fields, original images and historical claims.
+Debugging-room0023 stays unresolved and must be revisited during further source
+accounting. The31 unresolved identities, all-page accounting, donated cover,
+standalone JSON/assets issue export and final audit remain. No reader rebuild.
 
 See [January log](progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-23/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-23/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-24/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-24/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

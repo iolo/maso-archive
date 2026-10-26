@@ -2143,11 +2143,22 @@
       "toc_entry_id": "maso-1988-01-toc-0022",
       "title": "정보 레이다",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contentsPDF11 shows 정보 레이다 as a page-less parent of ten separately referenced children105/146/149/155/158/161/164/166/174/175. No independent parent body is listed.",
+        "SourcePDF148/printed146 independently opens 국내뉴스 under 정보레이다 category banner and its own vertical title/introduction/news body. SourcePDF149/printed147 continues Domestic News.",
+        "Canonical0022 is a non-owning group heading,not an article. No duplicate parent package/body/pages are created. Canonical IDs,titles and parent relationships stay unchanged."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1988-01/restoration/batch-24/information-radar-heading-decision.json",
+        "sha256": "00d1113609ba5d481fd303c6419d960214a97a29c9c5b4f3f1b6ebe097cd7720",
+        "bytes": 1638
+      },
+      "ownership_review": "resolved from original contents and independent Domestic News category/title opening",
+      "restoration": null
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0023",
@@ -2157,7 +2168,17 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": []
+      "classification_evidence": [
+        "Original contentsPDF11 and canonical TOC both give debugging-room/bulletin-board0023 reference105. Source printed105/PDF107 contains the MSX-DOS TOOLS conclusion and a separately titled utility-disk3 promotion;neither is substituted.",
+        "All twelve declared lookup pages11,104–108,144–149 were inspected. Source147/printed145 is a January training calendar;148/146 opens Domestic News. No verified debugging-room/bulletin-board body was located within this bounded set.",
+        "Location remains unresolved. This checkpoint establishes no source-wide absence,no corrected page reference,no inferred body extent,and no failed/image-only article package. Revisit remaining pages during all-page source accounting and any independently justified bounded lookup."
+      ],
+      "source_location_review": "bounded-search-inconclusive",
+      "source_location_review_record": {
+        "path": "archive/pdf/1988-01/restoration/batch-24/debugging-room-location-review.json",
+        "sha256": "e1c40ad986cbae7dd5dd3e1950f1999d405e59acb52b5933591667e5ca9b44ed",
+        "bytes": 1694
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0024",
@@ -3547,6 +3568,42 @@
         "sha256": "70586f31226885983ca6fcf5a7149ea554f4e6c23f7335e9d9cf9400f42c8347",
         "bytes": 761
       }
+    },
+    {
+      "name": "batch-24",
+      "completed_at": "2026-10-26T23:17:21.009164+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0022",
+        "maso-1988-01-toc-0023"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pdf_pages": [],
+      "mapped_pages": 0,
+      "outside_lookup_pages": 12,
+      "all_inspected_source_pages": 12,
+      "recognition_tasks": 0,
+      "source_correction_passes": 0,
+      "status": "complete heading classification;debugging-room location unresolved after bounded review",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-24/validation.json",
+        "sha256": "c2d550759f74b182be9a360fcce1e64627b6ba0809528b5c85f1943056688a6b",
+        "bytes": 1748
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-24/reproduction.json",
+        "sha256": "cdd9378944e9f0a7a9cd539c0cdf66fd14b1d120cf7a829ab9984a932bc21195",
+        "bytes": 4461
+      },
+      "heading_decision": {
+        "path": "archive/pdf/1988-01/restoration/batch-24/information-radar-heading-decision.json",
+        "sha256": "00d1113609ba5d481fd303c6419d960214a97a29c9c5b4f3f1b6ebe097cd7720",
+        "bytes": 1638
+      },
+      "unresolved_location": {
+        "path": "archive/pdf/1988-01/restoration/batch-24/debugging-room-location-review.json",
+        "sha256": "e1c40ad986cbae7dd5dd3e1950f1999d405e59acb52b5933591667e5ca9b44ed",
+        "bytes": 1694
+      }
     }
   ],
   "notes": [
@@ -3555,31 +3612,26 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify Information Radar 0022 heading ownership from original contents and independent child source. Locate and verify debugging-room/bulletin-board 0023, retaining canonical reference105 and the known conflict on printed105/PDF107. Inspect actual title,extent and adjacent source before mapping;do not substitute the independent disk3 promotion or infer a global offset. Restore at most six verified body pages;record a bounded unresolved location if evidence remains insufficient.",
+    "goal": "Verify actual extent and restore canonical0024 Domestic News from original contents reference146/known source openingPDF148. Inspect its ending and next independently titled section;at most six verified body pages. Preserve news headlines,columns,continuations,contact fields,images and historical claims. Debugging-room0023 remains unlocated after bounded review;retain its conflict for further source accounting without substituting unrelated material.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0022",
-      "maso-1988-01-toc-0023"
+      "maso-1988-01-toc-0024"
     ],
-    "canonical_reference": "0022 has no page;0023 reference105",
-    "known_start_pdf_page": null,
-    "prior_conflict_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-22/source-reviewed.json",
-      "sha256": "8a79195f46c264f2110278384ff9d16df1c3d8ba94797fd1b191141b14f6abd8",
-      "bytes": 2870
+    "canonical_reference": "146",
+    "known_start_pdf_page": 148,
+    "prior_opening_evidence": {
+      "path": "archive/pdf/1988-01/restoration/batch-24/source-reviewed.json",
+      "sha256": "8fc06b145368925b5cbfcf2f71089ed41f8e1bae55735b47a35a67498979f75c",
+      "bytes": 5665
     },
     "lookup_pdf_page_candidates": [
-      11,
-      104,
-      105,
-      106,
-      107,
-      108,
-      144,
-      145,
-      146,
       147,
       148,
-      149
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3588,7 +3640,7 @@
     }
   },
   "remaining_work": [
-    "32 canonical identities still need source classification/restoration. No classified article has deferred body pages or a pending complete article assembly. Utility0011,Techniques0015 and Software Introduction0019 are verified non-owning headings;legacy0018 input reproduction/adoption is complete.",
+    "31 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Utility0011,Techniques0015,Software Introduction0019 and Information Radar0022 are verified non-owning headings;legacy0018 adoption is complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
@@ -3596,8 +3648,8 @@
     "canonical_entries": 51,
     "readable": 16,
     "partial": 0,
-    "non_owning_headings": 3,
-    "unresolved": 32
+    "non_owning_headings": 4,
+    "unresolved": 31
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-23/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-24/preservation-inventory.json"
 }

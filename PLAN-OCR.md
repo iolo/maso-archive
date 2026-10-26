@@ -24,8 +24,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - January 1988 is active:51 identities,sixteen readable/sample-reviewed articles,
-  three non-owning headings and32 unresolved identities. No classified body pages
-  or article assembly pending. Batch23 completes0021 Turbo Pascal Utility Toolbox,
+  four non-owning headings and31 unresolved identities. No classified body pages
+  or article assembly pending.
+  Batch24 classifies0022 Information Radar as non-owning from original contents11
+  and independent Domestic News opening148/146. Ten children,no parent package.
+  Original contents also prints105 for debugging-room0023. Twelve lookups11,
+  104–108/144–149 retain the conflict:actual105/PDF107 is MSX-DOS TOOLS plus disk3
+  promotion;source147/printed145 is a calendar. No unrelated substitution or
+  source-wide absence claim. Location stays unresolved;zero maps/OCR/new packages.
+  All19,738 prior files/134 pilot/thirty core exact. Further source accounting must
+  revisit this gap. Heading/location decisions and source observations in batch24.
+  Batch23 completes0021 Turbo Pascal Utility Toolbox,
   printed106–111/PDF108–113;byline 글·편집부. Selected
   `archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox`:516 independently exact
   files/46,401,721 bytes,135 regions/111 blocks/124 transcripts/eleven originals.
@@ -53,14 +62,14 @@ paired OCR or a new engine comparison.
   backup unverified. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1 with
   exact context/current identity guard,plus batch-18/magic_literal_r02.py/
   magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1.
-  Next verify0022 정보 레이다 ownership and locate0023 디버깅 룸·게시판;reference105
-  conflict remains,do not substitute disk3 promotion. Lookup candidates11,104–108,
-  144–149 only;two tasks/six mapped/twenty outside limits. Remaining32 identities,
+  Next verify0024 Domestic News from printed146/knownPDF148;inspect actual extent
+  and adjacent titles. PDF147–154 are lookup candidates only;two tasks/six mapped/
+  twenty outside limits. Remaining31 identities,including0023 location gap,and
   accounting/cover/export/audit pending. No reader rebuild.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-23/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-23/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-24/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-24/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
