@@ -586,11 +586,86 @@
       "toc_entry_id": "maso-1988-01-toc-0010",
       "title": "MSX 확장슬롯의 제작",
       "parent_id": "maso-1988-01-toc-0048",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0010 opens printed94/PDF96 with source title MSX용 확장 슬롯의 제작,section 하드웨어 제작,machine subtitle MSX/MSX2 and byline 김율석(제미나 개발실장). Canonical TOC title/parent retained.",
+        "Complete article covers five printed94–98/PDF96–100,including full-page Figure6 circuit on printed96. Source figure order1,2,3,4,6,5,7 is preserved,not renumbered.",
+        "Final three columns above the separate tip end 다음호에서는 MSX를 MSX2로 변환시켜 주는 MSX2 변환카드의 제작법에 대해 살펴 보도록 하겠다. Lower independent typewriter tip and publisher-address banner on printed98 are excluded.",
+        "Preceding PDF95 continues separate Turbo Pascal Korean-text article. Following PDF101 is an independent competition advertisement; PDF102 opens MSX-DOS TOOLS. Actual extent checked from source,not from a fixed folio offset or next TOC reference.",
+        "Ten source views93–102 inspected; five body pages96–100 mapped and five outside lookups93,94,95,101,102. No body segmentation or article assembly needed."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-11-r01/msx-expansion-slot",
+        "article_id": "scan-maso-1988-01-toc-0010",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-11-r01/msx-expansion-slot/manifest.json",
+          "sha256": "f16c3b494e2fa087ee786b6e23d415487eb1e7d51fcbb30bb0f52346c4a1f68a",
+          "bytes": 19454
+        },
+        "coverage": {
+          "pdf_pages": [
+            96,
+            97,
+            98,
+            99,
+            100
+          ],
+          "printed_pages": [
+            "94",
+            "95",
+            "96",
+            "97",
+            "98"
+          ],
+          "regions": 37,
+          "blocks": 16,
+          "figures": 13,
+          "regional_transcripts": 24,
+          "standalone_code_units": 0,
+          "inline_quoted_examples": 1,
+          "inline_command_fragments": 2,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            96,
+            97,
+            98,
+            99,
+            100
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "p98-independent-typewriter-tip",
+            "p98-publisher-address-banner"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-11",
+        "latest_checkpoint": "batch-11",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-11/msx-expansion-slot/article-scope.json",
+          "sha256": "a98dbdc96a25e04500e5c6317d6149ed2e7631665d7a1703e2af9a4f03e33fbe",
+          "bytes": 786
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-11/validation.json",
+          "sha256": "5988ffbe5b1a47b020058fb685a85f8a71bf5a2dada5965914927d6894c6f7a4",
+          "bytes": 2817
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-11/reproduction.json",
+          "sha256": "60c7c192b042f008b7664e925f0f2a9b8c1c7e6ea1259358948ace48dbba4fba",
+          "bytes": 1289
+        },
+        "source_limits": [
+          "Full circuit/graphic-label transcription remains volunteer work; all original diagrams,circuit nets/labels and eligible page/body/footer views retained.",
+          "Original encoded glyphs/spaces,technical/circuit/supply claims and execution unverified. Source -15V,IC-list differences,repeated page2 label and uncertain OUT stroke remain unrepaired."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0011",
@@ -1632,6 +1707,44 @@
         "sha256": "e5213716bea1535a00da3ad47d8784e659126f94e376db0932d9e6f6637aa492",
         "bytes": 1265
       }
+    },
+    {
+      "name": "batch-11",
+      "completed_at": "2026-10-26T18:31:29.890479+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0010"
+      ],
+      "mapped_pdf_pages": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "outside_lookup_pages": 5,
+      "all_inspected_source_pages": 10,
+      "recognition_tasks": 24,
+      "eng_code": 0,
+      "kor_eng_other": 24,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_skewed_left_prose_margin_refinement": true,
+      "read_only_uncertain_glyph_enlargement": true,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-11/validation.json",
+        "sha256": "5988ffbe5b1a47b020058fb685a85f8a71bf5a2dada5965914927d6894c6f7a4",
+        "bytes": 2817
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-11/reproduction.json",
+        "sha256": "60c7c192b042f008b7664e925f0f2a9b8c1c7e6ea1259358948ace48dbba4fba",
+        "bytes": 1289
+      }
     }
   ],
   "notes": [
@@ -1639,19 +1752,20 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Locate MSX expansion-slot0010,canonical title MSX 확장슬롯의 제작,from canonical printed reference94; verify actual opening/ending and restore at most six verified body pages. Nearby PDF94–100 are lookup candidates only,not a confirmed global folio offset.",
+    "goal": "Review page-less utility0011 ownership and locate child graphic-effect editor0012,canonical title 그래픽 효과 에디터,from printed reference86. Verify actual opening/ending and restore at most six verified body pages. Nearby PDF86–92 are lookup candidates only; do not assume a global folio offset.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0010"
+      "maso-1988-01-toc-0011",
+      "maso-1988-01-toc-0012"
     ],
-    "canonical_reference": "94",
+    "canonical_reference": "86 for child0012; parent0011 has no page reference",
     "lookup_pdf_page_candidates": [
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -1660,16 +1774,16 @@
     }
   },
   "remaining_work": [
-    "43 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
+    "42 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 8,
+    "readable": 9,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved": 43
+    "unresolved": 42
   }
 }
