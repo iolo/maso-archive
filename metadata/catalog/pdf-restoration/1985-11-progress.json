@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1985-11",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-26",
   "source": {
     "path": "maso-pdf/maso-8511.pdf",
@@ -6773,6 +6773,49 @@
       "started_at": "2026-10-26T14:00:02.836245+00:00",
       "finished_at": "2026-10-26T14:12:43.210844+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps;active human review time unmeasured."
+    },
+    {
+      "id": "issue-closeout-01",
+      "status": "complete",
+      "checkpoint": {
+        "path": "archive/pdf/1985-11/restoration/issue-closeout-01/checkpoint.json",
+        "sha256": "f7766eba47421ada87b05aab60331bf393578ab1a5a0391a57f1d5c6ab5639e9",
+        "bytes": 12157
+      },
+      "report": {
+        "path": "archive/pdf/1985-11/evidence/issue-closeout-01/closeout.json",
+        "sha256": "ea2abe8428f1e0d0aad3cd5171f6b4c164f5cd3e7d9f31d74c08eab63c522e20",
+        "bytes": 5571
+      },
+      "validation": {
+        "path": "archive/pdf/1985-11/evidence/issue-closeout-01/report.json",
+        "sha256": "f4df90f5b090b2642c7dfaf6cdbbc6abfaf6a5a942888724ceab7758ebb2f046",
+        "bytes": 30539
+      },
+      "completion_audit": {
+        "path": "archive/pdf/1985-11/evidence/issue-closeout-01/completion-audit.json",
+        "sha256": "6409f3f2d312698df78905cc822fb4358ba3329e954a0808ed9a1fbf46a5439f",
+        "bytes": 22368
+      },
+      "reproduction": {
+        "path": "archive/pdf/1985-11/restoration/issue-closeout-01/reproduction.json",
+        "sha256": "538c01271e2dfc4618cc73cb083051b6f6ef2129a95daa9d657dd036f450e44b",
+        "bytes": 4782
+      },
+      "canonical_tasks": 0,
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "reader_rebuild": false,
+      "independent_rebuild_byte_identical": true,
+      "tests": 213,
+      "issue_files": 9644,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/issue-closeout-01/preserved-work-inventory.json",
+        "sha256": "f1db631c2e8e6ff552ddaa1dd6b5aa58ad2f13bbf20e0633922700c1fca71a87",
+        "bytes": 19638400
+      }
     }
   ],
   "source_page_observations": [
@@ -9717,23 +9760,15 @@
     }
   ],
   "cover_status": "verified-front-cover;donor covers/8511.jpg visibly dated85.11 selected in original bytes and5174x6981 dimensions;PDF source and historical candidate retained",
-  "next_checkpoint": {
-    "id": "issue-closeout-01",
-    "goal": "Deliver validated November1985 JSON/assets issue index and report with provenance,verified cover,39 complete readable articles,six non-owning headings and one separately reported unresolved eligibility gap. Independently rebuild all selected packages/export,compare bytes and run fresh checks before full completion audit.",
-    "toc_entry_ids": [],
-    "mapping_targets": "Use complete accounting,39 immutable packages and ten private adapters. Extend private issue export/accounting only as needed for explicit unresolved eligibility;retain all30 pinned core files and canonical identities. No new OCR or HTML.",
-    "provisional_lookup_targets": [],
-    "limits": {
-      "articles": 0,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    }
-  },
+  "next_checkpoint": null,
   "known_limits": [
-    "Assistant sample review is not human acceptance or full proofreading.",
-    "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-nine readable entries;no partial or pending assembly. Six non-owning headings;Software Contest0035 alone unresolved. All266 pages accounted:224 selected body pages/233 assignments and42 outside-body pages(35 advertisements,one cover,one issue-title,one unlisted notice,four unlisted article pages). Thirty mixed exclusions and nine shared pages/368 disjoint cross-owner nonfigure pairs verified. Donor cover covers/8511.jpg visibly dated85.11 selected unchanged;PDF scan/candidate retained. Page36 lower bulletin/photo is excluded from Debugging0031;current accounting corrects earlier batch65 review-note wording without package changes. No exact Software Contest body identified or full-source absence inferred. Thirty core pins,9638 selected files and ten adapters unchanged. Final JSON/assets index/report,independent whole-issue rebuild,fresh tests and completion audit remain. No HTML or reader rebuild. English responses,logs and documents;literal source retains its language."
+    "Completed November1985 canonical TOC JSON/assets restoration pass:39 readable sample-reviewed articles,six non-owning headings and one explicitly unresolved Software Contest0035 eligibility/location gap. Original reference176 retained;no unrelated body substituted or full-source absence proved.",
+    "Full proofreading,human acceptance,encoded source text bytes,exact spacing,glyph identities and counts,historical/technical claims,code execution and independent backup recovery remain unverified. Readable is availability,not complete transcription certification.",
+    "Original source errors,uncertainties,code/table rows,wraps,native metadata and historical parent/pending-owner notes remain literal. Native offsets are checked in native contexts,not relabeled as assembled offsets.",
+    "Advertising,unlisted SMALL HCOPY206-209,winners notice72,lower36 bulletin/photo,contents,colophon and other excluded neighboring areas are outside canonical article transcription. Page36 earlier review-note wording correction is explicit;selected package was already correct.",
+    "Batch54 original inventory retains one recorder-log growth exception;selected stable revision02 and all later inventories use exact pins. All original attempts and unselected artifacts remain preserved.",
+    "Only validated474x640 donated-cover thumbnail bundled;original donation remains private and unchanged. All prior source/candidate cover evidence retained.",
+    "Independent local package/issue/cover regeneration proves reproducibility of these bytes,not independent backup recoverability. No new OCR,HTML/reader/browser/frontend rebuild,public deployment,other-issue restoration or full campaign aggregation."
   ],
   "reader_rebuild": false,
   "source_page_accounting": {
@@ -9745,5 +9780,68 @@
     "path": "archive/pdf/1985-11/restoration/issue-accounting-01/cover-selection.json",
     "sha256": "e4d4b420ba8697e27c25b595c63df7071e2ca16f7120dd74fdd0899f88c785af",
     "bytes": 2873
+  },
+  "cover_verification": {
+    "path": "archive/pdf/1985-11/restoration/issue-closeout-01/cover-verification.json",
+    "sha256": "6bb69792db96cdc101a419fb915a11157efb1d54c8cce014aac7a1375e75b411",
+    "bytes": 1518
+  },
+  "assembly_dispatcher": {
+    "path": "archive/pdf/1985-11/restoration/issue-closeout-01/assembly_dispatch.py",
+    "sha256": "45db28b07ec23a8fbe737e5ba990d53139e80be2f0d299396b8949fcf87c9edd",
+    "bytes": 1475
+  },
+  "issue_accounting_adapter": {
+    "path": "archive/pdf/1985-11/restoration/issue-closeout-01/issue_adapter.py",
+    "sha256": "0b396cf6aa74840d8f41b056c38211b772455650d78f2a9e403d44d02465dbfc",
+    "bytes": 2532
+  },
+  "issue_closeout": {
+    "report": {
+      "path": "archive/pdf/1985-11/evidence/issue-closeout-01/closeout.json",
+      "sha256": "ea2abe8428f1e0d0aad3cd5171f6b4c164f5cd3e7d9f31d74c08eab63c522e20",
+      "bytes": 5571
+    },
+    "validation": {
+      "path": "archive/pdf/1985-11/evidence/issue-closeout-01/report.json",
+      "sha256": "f4df90f5b090b2642c7dfaf6cdbbc6abfaf6a5a942888724ceab7758ebb2f046",
+      "bytes": 30539
+    },
+    "completion_audit": {
+      "path": "archive/pdf/1985-11/evidence/issue-closeout-01/completion-audit.json",
+      "sha256": "6409f3f2d312698df78905cc822fb4358ba3329e954a0808ed9a1fbf46a5439f",
+      "bytes": 22368
+    },
+    "reproduction": {
+      "path": "archive/pdf/1985-11/restoration/issue-closeout-01/reproduction.json",
+      "sha256": "538c01271e2dfc4618cc73cb083051b6f6ef2129a95daa9d657dd036f450e44b",
+      "bytes": 4782
+    },
+    "issue_index": {
+      "path": "archive/pdf/1985-11/reference/issue.json",
+      "sha256": "bbf7ca3c697c2502b1d146c97e95f83f0fe498b8d4d6d7543679455fc56b1973",
+      "bytes": 12003
+    },
+    "accounting_report": {
+      "path": "archive/pdf/1985-11/reference/accounting.json",
+      "sha256": "e3418532e38eceff8cc56febdc1371e18310ba9be646f93d57f84af27ea82974",
+      "bytes": 15785
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1985-11/reference/manifest.json",
+      "sha256": "1f8972dc3d0bee08c094eb710b7f0507f8bcdf0464ddc1371b764b3f907b131f",
+      "bytes": 1696487
+    },
+    "independent_rebuild_byte_identical": true,
+    "independently_regenerated_package_files": 9638,
+    "pdf_tests": 213,
+    "human_acceptance": "pending",
+    "unresolved_eligibility": 1,
+    "preserved_work_inventory": {
+      "path": "archive/pdf/1985-11/evidence/issue-closeout-01/preserved-work-inventory.json",
+      "sha256": "f1db631c2e8e6ff552ddaa1dd6b5aa58ad2f13bbf20e0633922700c1fca71a87",
+      "bytes": 19638400
+    },
+    "preserved_files": 82977
   }
 }

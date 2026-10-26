@@ -171,13 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty-nine entries are readable,
-six headings are non-owning, and Software Contest is the single unresolved identity
-among 46 entries. All 266 source pages and thirty mixed-page exclusions are
-accounted; the dated donor cover is verified. All 39 packages, 9,638 files and ten
-private adapters remain unchanged. The final JSON/assets index/report, independent
-rebuild and completion audit remain. Responses, logs and documents use English;
-literal source retains its original language.
+November 1985's canonical TOC restoration pass is complete: 39 readable articles,
+six non-owning headings and one explicitly unresolved Software Contest entry among
+46 identities. The JSON/assets collection has 9,644 files, independently identical;
+all 39 packages were regenerated into 9,638 exact files. All 266 pages are accounted,
+the donated-cover thumbnail is verified, and fresh 213 tests pass. Original errors
+and uncertainties remain; full proofreading and human acceptance are unverified.
+No HTML or reader rebuild. Logs and documentation use English.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

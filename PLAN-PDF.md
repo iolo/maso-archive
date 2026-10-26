@@ -24,48 +24,55 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-26
 
-November 1985 remains in progress: thirty-nine readable entries, no partial
-article or pending assembly, six non-owning headings and one unresolved identity.
-Issue-accounting-01 verifies all 266 source pages: 224 selected body pages with
-233 assignments and 42 pages outside selected bodies. Outside-body material is
-35 advertisements, one cover, one issue-title page, one unlisted slogan-winners
-notice and four pages of the unlisted SMALL HCOPY article on 206-209. None is
-substituted for Software Contest 0035. Its original reference 176 conflicts with
-the separate diskette-offer heading; eligibility and body location stay unresolved.
-All thirty mixed-page exclusions retain their original geometry and source notes.
-Current accounting resolves other selected owners separately from advertising,
-contents, colophon and unlisted material. Nine shared pages retain 368 disjoint
-cross-owner nonfigure region pairs. Shared folio figures are evidence, not exclusive
-body ownership. Page 36 upper Debugging Room is selected; its lower bulletin/photo
-is excluded. This corrects a batch-65 source-review note; the immutable package was
-already correct. Historical parent-status and pending-owner notes remain provenance.
-Twenty whole-page views were inspected within twenty outside lookups, including
-nineteen remaining outside-body pages and the additional page-36 boundary check.
-No article map, OCR, transcription, source correction or new PDF rendering.
-The existing donor cover `covers/8511.jpg` visibly reads 85.11, is upright and
-retains the left edge clipped in the PDF scan. Its original 5174 by 6981 pixels and
-bytes are selected unchanged. The PDF full view and historical JPEG candidate
-remain alternatives. Separate scans preserve their own proportions; no stretching,
-cropping, color repair or redraw. No canonical identity or source folio changed.
-All 39 selected packages, 9,638 files and ten adapters remain exact. The completed
-batch-65 package/range checks are reused only after every byte and relevant pin
-matches. All 53,962 prior files, 65 selected inventories and thirty core pins pass.
-The unchanged 213-test baseline is reused. Current preservation: 53,996 issue files.
-Evidence remains under `archive/pdf/1985-11/restoration/issue-accounting-01/`.
-Initial verifier pin comparison stopped on extended source metadata; revision 02
-compares its path, hash and size while retaining all metadata. Both attempts remain.
-A copied start-checkpoint progress sentence is corrected with its original record
-preserved. Independent accounting verification passes. All 266 provisional source
-observations remain unchanged; final accounting is a separate evidence artifact.
-Next issue-closeout-01 builds the complete JSON/assets index and report, retains
-the unresolved Software Contest row explicitly, independently rebuilds all selected
-packages and export bytes, runs fresh tests and audits every completion requirement.
-PLAN-PDF permits separately reported unresolved eligibility; report restoration
-coverage without claiming every article recovered or proving full-source absence.
-No reader or HTML rebuild. Responses, logs and documentation use English; literal
-source retains its original language. Human acceptance, full proofreading, original
-bytes, exact spacing, glyph identities and historical claims remain unverified.
-The full November goal remains active.
+November 1985 is complete as a canonical TOC JSON/assets restoration pass:
+46 identities account for 39 readable/sample-reviewed articles, six non-owning
+headings and one explicitly unresolved Software Contest eligibility/location gap.
+There are no partial articles or pending assemblies among the classified articles.
+Software Contest 0035 retains contents reference 176, which conflicts with the
+independently titled diskette offer on source 176. No unrelated notice or article
+is substituted, and no full-source absence is claimed. This is documented coverage,
+not a claim that every listed article was recovered. PLAN-PDF permits separately
+reported unresolved eligibility in a completed usable restoration pass.
+Index: `archive/pdf/1985-11/reference/issue.json`; coverage and gap report:
+`archive/pdf/1985-11/reference/accounting.json`. The collection has 9,644 files;
+all are byte-identical to a second export built from independently regenerated
+packages. All 39 packages were rebuilt from their frozen recipes: 9,638 exact
+files, including ten immutable assembly formats. Private adapters add format
+dispatch and explicit unresolved accounting without changing thirty core files.
+Seven invalid ownership/outcome mutations were rejected by the accounting check.
+All 2,630 regions, 2,123 blocks and 483 figures validate;
+556,020 local UTF8 excerpt records in their proper projected/native contexts and
+2,562 distinct decoded images pass. All 2,147 mapped OCR settings retain pinned
+Tesseract OEM1/PSM6/thread1/3000px/300DPI hint/interword spaces: 365 eng code and
+1,782 kor+eng other regions. All 66 earlier checkpoints satisfy two canonical
+tasks/six mapped pages/twenty outside lookups; 51 OCR checkpoints retain one source
+correction pass each and zero recognition retries. No new closeout OCR or correction.
+All 266 source pages are accounted: 224 selected body pages/233 assignments and
+42 outside-body pages. Thirty mixed exclusions and nine shared pages/368 disjoint
+cross-owner nonfigure pairs remain exact. Outside-body material is 35 advertisements,
+one cover, one issue-title, one unlisted slogan-winners notice and four SMALL HCOPY
+pages on 206-209. Contents, lower36 bulletin/photo and colophon stay separate.
+The page36 review-note correction is explicit; original package boundaries and
+historical parent/pending-owner notes remain unchanged as provenance. Folios and
+all provisional source observations remain literal, with no global offset.
+The dated donor cover is the source of a validated 474 by 640 RGB JPEG thumbnail,
+67,034 bytes, independently rebuilt exactly. EXIF and other source metadata are stripped;
+aspect ratio is preserved without upscaling or cropping. The donated original is
+unchanged and private; it is not bundled. PDF source/candidate alternatives remain.
+Fresh `make test-pdf PYTHON=.venv/bin/python` passes all 213 tests. All 53,996 prior
+issue files, 66 earlier inventories, ten adapters and thirty core pins remain exact.
+Batch54's original recorder-log inventory exception remains historical; its selected
+stable revision02 has literal pins. All source attempts, maps, crops, raw drafts,
+settings, corrections, failed checks, native segments and prior rebuilds remain.
+Validation: `archive/pdf/1985-11/evidence/issue-closeout-01/report.json`.
+Reproduction: `archive/pdf/1985-11/restoration/issue-closeout-01/reproduction.json`.
+Completion audit and final-state checks accompany the closeout evidence.
+No HTML/browser/frontend/reader rebuild, deployment or other-issue work. Responses,
+progress logs and documentation use English; original source retains its language.
+Human acceptance, full proofreading, original encoded text bytes, exact spacing,
+glyph identities, historical/technical claims, execution and independent backup
+recovery remain unverified. Original errors and scan-linked uncertainties remain
+literal. No further November restoration checkpoint is scheduled.
 
 ## October 1985 closeout, 2026-10-25
 
@@ -2326,3 +2333,17 @@ compatibility checkpoint; no new OCR, article restoration, or renderer redesign.
 index/report, with package preservation checks. Update PROGRESS and commit before
 starting March extraction. The 2026-10-03 implementation completes these gates;
 the earlier scope revision alone did not implement the tooling changes.
+
+
+## November 1985 closeout, 2026-10-26
+
+Completed the canonical TOC JSON/assets pass under steps 8, 9, 11, 12 and the
+single-issue handoff checks of step 14. All 46 identities are accounted: 39 complete
+readable/sample-reviewed articles, six non-owning headings and one separately
+reported unresolved Software Contest eligibility/location gap. The completion
+rule explicitly permits this reported gap; no other article replaces it. The
+9,644-file standalone collection and all 9,638 regenerated package files are
+independently exact; fresh 213 tests and direct range/image/source checks pass.
+All 266 pages, thirty mixed exclusions and the donated-cover thumbnail validate.
+See the November log, private closeout report and reproduction record. Collection
+aggregation, other issues, full proofreading and reader delivery remain separate.
