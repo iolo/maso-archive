@@ -6,43 +6,43 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active: 51 canonical identities, seven readable/sample-reviewed
-articles and 44 unresolved classifications. No classified article has partial
+January 1988 is active: 51 canonical identities, eight readable/sample-reviewed
+articles and 43 unresolved classifications. No classified article has partial
 pages or a pending assembly. No heading has a final non-owning classification.
 
-MSX interpreter0008, source title 인터프리터로의 접근10 / 괄호있는 명령,
-is complete across printed50–55/PDF52–57. Selected package:
-`archive/pdf/1988-01/packages/batch-09-r01/msx-parentheses`. All 235 files reproduce
-independently and exactly. The 67 regions, 46 blocks, 53 regional transcripts,
-seven prose joins, five printed captions and 14 original image assets validate.
-Four diagrams, the PAD table, two complete listing panels and seven eligible
-page/body/footer views remain. Twenty-five code units retain 195 physical rows,
-including 122 Z80 rows, 525 source fields and 220 byte cells. All 24 PAD cells,
-six device rows, four condition headers and two diagonal corner labels validate.
-The printed blank byte field at68E1, fourth device row's missing port digit,
-literal branch operands and source prose discrepancies remain unrepaired.
-All 5,135 UTF-8 range occurrences, 5,277 review-pin occurrences and 67 decoded
-images pass. Final-page independent right advertisement is excluded. Listing
-boundaries/prose margins were refined before OCR; initial maps/crops remain.
-All 53 recognitions used25 eng/28 kor+eng, one source correction pass and zero
-failures/retries/post-OCR crop repairs. Two stopped phrase-index drafts and a
-field-index revision remain; source transcripts were unchanged by those revisions.
-All 6,710 prior January files, 134 pilot/evidence files and thirty core files
-remain exact; unchanged passing 213-test baseline reused, without a fresh test run.
+BASIC education0009, source title 경험과 시각화, is complete across printed56–58/
+PDF58–60. Selected package: `archive/pdf/1988-01/packages/batch-10-r01/basic-education`.
+All 118 files reproduce independently and exactly. The 34 regions, 17 blocks,
+25 regional transcripts, eight prose joins, six printed captions and nine original
+images validate. Two teaching tables, four figures and three full source views
+remain. Three code units retain 11 physical rows: six BASIC rows and five rows
+across two function-expression/explanation units. All 36 BASIC fields, four
+expression fields, seven teaching-table units/14 fields/two context headings,
+1,622 UTF-8 range occurrences, 1,695 review-pin occurrences and 34 decoded images
+pass. Printed row40 S and split < = operator, Horizon spelling and identifier
+wraps remain unrepaired. Handwritten coordinate labels, H/V mnemonic drawings,
+flowchart arrows/sign and screen X/O marks remain original pixels; full graphic-
+label transcription is volunteer work. An omitted first prose row and clipped
+V-coordinate drawing were repaired before OCR; initial map/crops remain. All 25
+recognitions used three eng/22 kor+eng, one source correction pass and zero
+failures/retries/post-OCR crop repairs. All 7,745 prior January files, 134 pilot/
+evidence files and thirty core files remain exact. The unchanged passing 213-test
+baseline is reused; no fresh test run is claimed.
 
-Next verify BASIC education0009, 베이직 교육방법(4) : 경험과 시각화,
-from printed56/knownPDF58, then restore at most six verified source pages.
-Apple0007, PFS0036, C tutorial0005 and gift0040/contest0041 remain complete.
-Historical Turbo Pascal0018 legacy TOC-pin adoption remains pending. Other
-classifications/articles, all-page accounting, donated cover, standalone JSON/assets
-issue export and final audit remain. Full diagram-label transcription is volunteer
-work, with original pixels retained. Human acceptance/full proofreading, encoded
-bytes/exact spacing, source claims/ROM correspondence, execution and independent
-backup recovery remain unverified. No reader/browser/frontend rebuild or deployment.
+Next locate MSX expansion-slot0010, MSX 확장슬롯의 제작, from canonical printed
+reference94, verify its actual extent and restore at most six verified source
+pages. Nearby PDF94–100 are lookup candidates only; no global folio offset is
+assumed. MSX0008, Apple0007, PFS0036, C tutorial0005 and gift0040/contest0041
+remain complete. Historical Turbo Pascal0018 legacy TOC-pin adoption remains
+pending. Other classifications/articles, all-page accounting, donated cover,
+standalone JSON/assets issue export and final audit remain. Human acceptance/
+full proofreading, encoded bytes/exact spacing, source claims/ROM correspondence,
+execution and independent backup recovery remain unverified. No reader/browser/
+frontend rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-09/validation.json`.
+`archive/pdf/1988-01/restoration/batch-10/validation.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

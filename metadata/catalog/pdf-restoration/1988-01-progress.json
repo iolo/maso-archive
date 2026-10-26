@@ -502,11 +502,75 @@
       "toc_entry_id": "maso-1988-01-toc-0009",
       "title": "베이직 교육방법(4) : 경험과 시각화",
       "parent_id": "maso-1988-01-toc-0047",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0009 opens printed56/PDF58 with source title 경험과 시각화 and 컴퓨터 교육 section. Running heading 베이직 교육방법4 appears on printed57. No byline is inferred.",
+        "Complete article comprises printed56–58/PDF58–60: two teaching tables,four figures,three source example units and continuous prose. Last right column concludes 쉬워서 나쁠 이유는 하나도 없으니까.",
+        "PDF57 closes previous MSX article with independent right solicitation. PDF61 is a full-page BYTE SUPER advertisement. PDF62 opens distinct 디베이스 데이터를 다른 소프트웨어로. Actual ending verified from source,not assumed from the TOC.",
+        "Nine source views57–65 inspected,including contact-sheet observations of later separate database pages. Only three pages58–60 mapped; six outside lookups. No later article classification/restoration added."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-10-r01/basic-education",
+        "article_id": "scan-maso-1988-01-toc-0009",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-10-r01/basic-education/manifest.json",
+          "sha256": "95d905a6e906ab350df8196784d6004762a1b9302fa435bfe8537e406628fef4",
+          "bytes": 19652
+        },
+        "coverage": {
+          "pdf_pages": [
+            58,
+            59,
+            60
+          ],
+          "printed_pages": [
+            "56",
+            "57",
+            "58"
+          ],
+          "regions": 34,
+          "blocks": 17,
+          "figures": 9,
+          "regional_transcripts": 25,
+          "code_units": 3,
+          "physical_code_rows": 11,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            58,
+            59,
+            60
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-10",
+        "latest_checkpoint": "batch-10",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-10/basic-education/article-scope.json",
+          "sha256": "cb88e81c97bdc018640f517a2578a1289064c04e7a62571796ba6d70cfe0536d",
+          "bytes": 537
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-10/validation.json",
+          "sha256": "9119ac72f559603f0d82a2e6d2330326244b2e675a0db8be059a88afe766940c",
+          "bytes": 2560
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-10/reproduction.json",
+          "sha256": "e5213716bea1535a00da3ad47d8784e659126f94e376db0932d9e6f6637aa492",
+          "bytes": 1265
+        },
+        "source_limits": [
+          "Full graphic-label transcription remains volunteer work; original teaching tables/diagrams and source page views retained.",
+          "Original encoded glyphs/spaces,technical claims and execution unverified. Source row40 S and < =,Horizon spelling and physical identifier wraps retained without repair."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0048",
@@ -1533,6 +1597,41 @@
         "sha256": "a412b52d5ec46e888d310ef9934fedf758ee114deb7fc242a6599ba96b09ca42",
         "bytes": 1283
       }
+    },
+    {
+      "name": "batch-10",
+      "completed_at": "2026-10-26T18:14:57.240124+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0009"
+      ],
+      "mapped_pdf_pages": [
+        58,
+        59,
+        60
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "outside_lookup_pages": 6,
+      "all_inspected_source_pages": 9,
+      "recognition_tasks": 25,
+      "eng_code": 3,
+      "kor_eng_other": 22,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_first_prose_row_and_V_diagram_refinement": true,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-10/validation.json",
+        "sha256": "9119ac72f559603f0d82a2e6d2330326244b2e675a0db8be059a88afe766940c",
+        "bytes": 2560
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-10/reproduction.json",
+        "sha256": "e5213716bea1535a00da3ad47d8784e659126f94e376db0932d9e6f6637aa492",
+        "bytes": 1265
+      }
     }
   ],
   "notes": [
@@ -1540,12 +1639,20 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent/continuations of BASIC education0009, canonical title 베이직 교육방법(4) : 경험과 시각화, from printed56/knownPDF58, then restore at most six verified body pages. Preserve literal source examples/figures and segment if longer.",
+    "goal": "Locate MSX expansion-slot0010,canonical title MSX 확장슬롯의 제작,from canonical printed reference94; verify actual opening/ending and restore at most six verified body pages. Nearby PDF94–100 are lookup candidates only,not a confirmed global folio offset.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0009"
+      "maso-1988-01-toc-0010"
     ],
-    "known_start_pdf_page": 58,
-    "canonical_reference": "56",
+    "canonical_reference": "94",
+    "lookup_pdf_page_candidates": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -1553,16 +1660,16 @@
     }
   },
   "remaining_work": [
-    "44 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
+    "43 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 7,
+    "readable": 8,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved": 44
+    "unresolved": 43
   }
 }
