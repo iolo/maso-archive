@@ -694,7 +694,7 @@
       "parent_id": "maso-1988-01-toc-0035",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0036 source title PFS 시리즈의 존 페이지 and series 유명한 프로그래머를 만났습니다4 open at printed38/PDF40.",
@@ -705,15 +705,16 @@
         "Final printed44/PDF46 continues prior answer 일하고 / 있는 체계의 상태만을 고집하려고 하고 있어요.",
         "Three new printed questions and answers close the interview; the final answer continues across left/right columns as a new paragraph, with no broken word.",
         "Concluding sentence ends 그 해답이 종종 잘 발견되지는 않거든요. above independent lower publisher address panel.",
-        "PDF47 is a UNITEK advertisement; PDF48 opens distinct LIST2; opening six-page native remains immutable."
+        "PDF47 is a UNITEK advertisement; PDF48 opens distinct LIST2; opening six-page native remains immutable.",
+        "Complete seven-page interview assembled from two immutable natives with explicit answer32 boundary join;106-file independent assembly exact,98 native files/metadata unchanged. Four active stage deferrals resolved; no body pages or article assembly remain pending. Original native continuation notes remain provenance."
       ],
       "restoration": {
-        "directory": "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a",
+        "directory": "archive/pdf/1988-01/packages/pfs-interview-complete-r01",
         "article_id": "scan-maso-1988-01-toc-0036",
         "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a/manifest.json",
-          "sha256": "4566082e947d7157b30234b830c0085227aca87d1880cdce3c2efb230febef44",
-          "bytes": 13145
+          "path": "archive/pdf/1988-01/packages/pfs-interview-complete-r01/manifest.json",
+          "sha256": "175e079a0fa26f9838938c17498457428ffaddccafb71ed069e9a04f50656454",
+          "bytes": 18205
         },
         "coverage": {
           "pdf_pages": [
@@ -722,7 +723,8 @@
             42,
             43,
             44,
-            45
+            45,
+            46
           ],
           "printed_pages": [
             "38",
@@ -730,11 +732,12 @@
             "40",
             "41",
             "42",
-            "43"
+            "43",
+            "44"
           ],
-          "regions": 27,
+          "regions": 31,
           "blocks": 6,
-          "figures": 12,
+          "figures": 14,
           "deferred_pdf_pages": [],
           "full_article_pdf_pages": [
             40,
@@ -745,31 +748,16 @@
             45,
             46
           ],
-          "full_article_printed_pages": [
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44"
-          ],
           "outside_body_pdf_pages_within_extent": [],
-          "covered_across_immutable_segments": [
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46
+          "excluded_region_ids": [
+            "b-p44-publisher-address"
           ]
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "checkpoint": "batch-05",
-        "latest_checkpoint": "batch-06",
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-07",
+        "latest_checkpoint": "batch-07",
         "segments": [
           {
             "name": "a",
@@ -827,7 +815,8 @@
                 "Opening segment only: final printed44/PDF46 and complete immutable article assembly remain pending.",
                 "Opening segment only; final printed44/PDF46 and complete article assembly remain pending."
               ]
-            }
+            },
+            "coverage_is_original_native_provenance": true
           },
           {
             "name": "b",
@@ -888,18 +877,36 @@
               "path": "archive/pdf/1988-01/restoration/batch-06/validation.json",
               "sha256": "8c9bd4f9e194c3abc0ce73f71ee1770561a7c76f515e23741600ab94790a7163",
               "bytes": 2034
-            }
+            },
+            "coverage_is_original_native_provenance": true
           }
         ],
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-05/validation.json",
-          "sha256": "0b41cd8f43c626d33d689bc531898036d09341a0179fc30e8cb418aa5bcc81a4",
-          "bytes": 2290
+          "path": "archive/pdf/1988-01/restoration/batch-07/validation.json",
+          "sha256": "1d1bd2d2d0ef1956649e243a95339e8610cb4e16723a5a4772c81483e14db092",
+          "bytes": 2431
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-05/reproduction.json",
-          "sha256": "c9faa639a387a2caa365d97ed262abc9bb9cf786e6368b7acf8e468c9948577f",
-          "bytes": 1297
+          "path": "archive/pdf/1988-01/restoration/batch-07/reproduction.json",
+          "sha256": "788fb1dcd6a3444de838d827181e8f0968b6a8c8c16c61c184aeacce64aff9d6",
+          "bytes": 1372
+        },
+        "index_contexts": {
+          "path": "archive/pdf/1988-01/restoration/batch-07/index-contexts.json",
+          "sha256": "7d23e062685d36098ee2f83b888ce5840d9849443d3d4ced91f9f425b2ee5412",
+          "bytes": 1997
+        },
+        "assembly": {
+          "index_mode": "regional-prose-v1",
+          "recipe": {
+            "path": "archive/pdf/1988-01/restoration/batch-07/assembly-recipe.json",
+            "sha256": "8076a75073cfd3ee76a234be2481208f498e28bb32437b1929c260a4104ad0ee",
+            "bytes": 4854
+          },
+          "resolved_active_stage_notes": 4,
+          "cross_segment_answer_joins": 1,
+          "new_ocr": 0,
+          "new_correction": 0
         }
       }
     },
@@ -1284,6 +1291,30 @@
         "sha256": "f8f994a1cf236ce1b2ede7e80579c0e91e6540fa4ac71667fd0ed913757b5df7",
         "bytes": 1214
       }
+    },
+    {
+      "name": "batch-07",
+      "completed_at": "2026-10-26T17:00:50.444078+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0036"
+      ],
+      "canonical_tasks": 1,
+      "new_mapped_pages": 0,
+      "new_outside_lookup_pages": 0,
+      "new_ocr": 0,
+      "new_source_correction": 0,
+      "input_body_pages": 7,
+      "status": "complete-article-assembly",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-07/validation.json",
+        "sha256": "1d1bd2d2d0ef1956649e243a95339e8610cb4e16723a5a4772c81483e14db092",
+        "bytes": 2431
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-07/reproduction.json",
+        "sha256": "788fb1dcd6a3444de838d827181e8f0968b6a8c8c16c61c184aeacce64aff9d6",
+        "bytes": 1372
+      }
     }
   ],
   "notes": [
@@ -1291,14 +1322,12 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Assemble complete seven-page PFS interview0036 from immutable opening/ending; validate one cross-segment answer join, all local/native metadata and ranges, publisher-panel exclusion and independent rebuild. No new OCR.",
+    "goal": "Verify actual extent/continuations of Apple interpreter0007, canonical title 애플 인터프리터의 분석(8) : LIST(2), from printed46/knownPDF48, then restore at most six body pages. Preserve source code/flowchart/table evidence; segment if longer.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0036"
+      "maso-1988-01-toc-0007"
     ],
-    "source_segments": [
-      "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a",
-      "archive/pdf/1988-01/packages/batch-06-r01/pfs-interview-b"
-    ],
+    "known_start_pdf_page": 48,
+    "canonical_reference": "46",
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -1306,15 +1335,15 @@
     }
   },
   "remaining_work": [
-    "46 canonical identities still need classification/restoration; PFS interview0036 has all7 body pages in two immutable segments, with complete article assembly pending.",
+    "46 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 4,
-    "partial": 1,
+    "readable": 5,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved": 46
   }

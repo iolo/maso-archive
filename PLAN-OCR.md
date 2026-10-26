@@ -23,22 +23,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, four readable/sample-reviewed articles,
-  one partial article and 46 unresolved classifications. PFS0036 has all seven
-  body pages in two immutable segments; ending44/PDF46 independently exact across
-  18 files, 4 regions/1 block/2 transcripts/3 new Q/A pairs/incoming answer 32/
-  81 physical rows/716 UTF-8 range occurrences/four decoded images. Lower publisher
-  address panel excluded. Both pinned kor+eng tasks used one source pass, zero
-  failures/retries/crop repair. All 5,926 previous January files/134 pilot files/
-  thirty core files exact; passing 213-test baseline reused. Next assemble the
-  immutable 80-file opening and 18-file ending with the explicit answer join;
-  no new mapping/OCR needed. Opening source candidates/unreadable mark retained.
-  C tutorial complete; legacy Turbo Pascal TOC-pin adoption and remaining issue
-  classifications/articles/accounting/cover/JSON-assets closeout pending. Human
-  acceptance/full proofreading, bytes/spacing/claims/execution/backup unverified.
-  No reader rebuild. See [January log](docs/progress/8801.md),
+- January 1988 is active: 51 identities, five readable/sample-reviewed articles,
+  46 unresolved classifications and no partial articles/pending assemblies among
+  classified articles. PFS0036 is complete printed38–44/PDF40–46: 106 independently
+  exact files, 98 immutable native files/metadata, 31 regions/6 blocks/17 transcripts/
+  635 rows/35 questions/35 answer starts/70 turn records/seven portraits/seven
+  original eligible views. Ten native joins and one explicit answer 32 cross-page
+  join validate. All 47 projected/5,440 native UTF-8 ranges and 31 images pass.
+  Lower publisher address excluded; four active stage deferrals resolved, originals
+  retained. Assembly used no mapping/OCR/correction. Prior extraction retains 15+2
+  pinned kor+eng recognitions, one source pass per checkpoint, zero failures/retries.
+  All 6,021 previous January files/134 pilot files/thirty core files exact; unchanged
+  passing 213-test baseline reused. C tutorial complete; legacy Turbo Pascal TOC-pin
+  adoption pending. Next verify Apple interpreter0007 from printed46/knownPDF48,
+  then restore at most six pages. Other classifications/articles, page accounting,
+  donated cover and JSON/assets closeout remain. Human acceptance/full proofreading,
+  bytes/spacing/claims/execution/backup unverified. No reader rebuild. See
+  [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-06/validation.json`.
+  `archive/pdf/1988-01/restoration/batch-07/validation.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

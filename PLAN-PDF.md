@@ -24,35 +24,38 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-January 1988 is active: 51 canonical identities, four readable/sample-reviewed
-articles, one partial article and 46 unresolved classifications. No heading has
-yet received a final non-owning classification.
+January 1988 is active: 51 canonical identities, five readable/sample-reviewed
+articles and 46 unresolved classifications. No classified article has partial
+pages or a pending assembly. No heading has a final non-owning classification.
 
-PFS interview0036 has all seven body pages, printed38–44/PDF40–46, preserved in
-two immutable segments. Final printed44/PDF46 is an independently exact 18-file
-ending package: four regions, one block, two regional transcripts, one portrait,
-one eligible original body view, three new questions/answers and incoming answer32.
-All 716 UTF-8 range occurrences, 81 physical text rows and four images validate.
-The independent lower publisher address panel remains excluded. Two pinned
-kor+eng recognitions used one source correction pass, zero failures/retries and
-no crop repair. All 5,926 prior January files, 134 pilot/evidence files and 30 core
-files remain unchanged; the passing 213-test baseline is reused.
+PFS interview0036, source title PFS 시리즈의 존 페이지, is complete across
+printed38–44/PDF40–46. Selected package:
+`archive/pdf/1988-01/packages/pfs-interview-complete-r01`. All 106 files match
+an independent assembly exactly; all 98 native files and original metadata remain
+unchanged. Its 31 regions, six blocks, 17 regional transcripts, 635 physical rows,
+35 questions/35 answer starts and 70 source turn records validate. Seven original
+central caricatures and seven eligible original page views remain; no captions
+were inferred. Ten native joins and the explicit answer 32 cross-page join retain
+source context. All 47 projected and 5,440 native UTF-8 range occurrences and 31
+decoded region images pass. The lower PDF46 publisher address panel is excluded.
+Four active stage deferrals are resolved; original native notes remain provenance.
+The unreadable mark, scan-band/name candidates, source spelling/claims and encoded
+spacing/glyph uncertainty remain explicit. Assembly used no new mapping/OCR/source
+correction. All 6,021 previous January files, 134 pilot/evidence files and thirty
+core files remain exact; the unchanged passing 213-test baseline is reused.
 
-Next assemble the complete interview from the immutable 80-file opening and 18-file
-ending, joining the observed 일하고 / 있는 answer boundary and validating all
-source metadata/ranges/images/exclusions. No new mapping or OCR is needed.
-The opening retains 32 questions/answer starts and its unreadable mark/source
-candidates; final coverage does not resolve original glyph/spacing/claim uncertainty.
 C tutorial0005 remains complete in its 562-file assembly; gift0040 and contest0041
-remain complete. Legacy Turbo Pascal0018 TOC-pin adoption, other classifications/
-articles, all-page accounting, donated cover, JSON/assets issue export and final
-audit remain. Human acceptance/full proofreading, encoded bytes/exact spacing,
-claims, execution and independent backup recovery remain unverified. No reader,
-browser, frontend rebuild or deployment.
+remain complete. Historical Turbo Pascal0018 legacy TOC-pin adoption remains
+pending. Next verify Apple interpreter0007, 애플 인터프리터의 분석(8) : LIST(2),
+from printed46/knownPDF48, then restore at most six source pages. Other canonical
+classifications/articles, all-page accounting, donated cover, standalone JSON/assets
+issue export and final audit remain. Human acceptance/full proofreading, source
+encoded bytes/exact spacing, claims, execution and independent backup recovery
+remain unverified. No reader/browser/frontend rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-06/validation.json`.
+`archive/pdf/1988-01/restoration/batch-07/validation.json`.
 
 ## November 1985 closeout, 2026-10-26
 
