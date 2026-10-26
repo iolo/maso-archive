@@ -175,8 +175,9 @@ November 1985 restoration is in progress: thirty-three articles are readable,
 none is partial and thirteen of 46 identities remain unresolved. CRUSH CIRCLES is
 complete on pages 246-251; all 364 files match an independent rebuild. Both printed
 listings, independent examples/commands, routine-guide labels and source
-uncertainties remain. Next: verify Flying Lode Runner from its opening on 252.
-Cover, remaining identities and whole-issue accounting remain. Responses, progress
+uncertainties remain. Flying Lode Runner, pages 252-upper256, has reviewed crops
+and 51 completed OCR drafts; source correction and exports remain. Cover, remaining
+identities and whole-issue accounting remain. Responses, progress
 logs and documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 

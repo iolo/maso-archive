@@ -41,8 +41,14 @@ Reproduction: `archive/pdf/1985-11/restoration/batch-56/reproduction.json`.
 Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
 private adapters for other complete packages. Batch 54's original inventory keeps
 its exact recorder-log growth supplement; selected stable revision 02 needs none.
-Next batch 57 verifies Flying Lode Runner 0015 from its observed opening on 252;
-the later extent remains unverified. Parent 0012 remains unresolved. Software
+Batch 57 preparation establishes Flying Lode Runner 0015 on pages 252-upper256.
+All nine full views and 57 exact regions were inspected; the independent lower256
+Back-Issue Guide panel is excluded. Two crop-review rounds made 26 adjustments to
+nineteen regions before 51 pinned OCR tasks: 21 English and 30 Korean/English.
+Every raw draft was read, with zero recognition retries. One source correction
+pass and independent complete-article exports remain. Resume from
+`archive/pdf/1985-11/restoration/batch-57/continuation.json`.
+Parent 0012 remains unresolved. Software
 Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue
 Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null. Cover,
 remaining identities, full 266-page accounting and issue closeout remain.
