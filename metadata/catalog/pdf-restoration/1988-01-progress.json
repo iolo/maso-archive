@@ -1763,15 +1763,16 @@
       "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Reused immutable completed step6b; manifest/source/geometry/current canonical identity checked 2026-10-27. Legacy TOC pin and historical HTML preserved; no new OCR."
+        "Reused immutable completed step6b; manifest/source/geometry/current canonical identity checked 2026-10-27. Legacy TOC pin and historical HTML preserved; no new OCR.",
+        "Batch21 explicitly reproduced original recipe in exact legacy TOC input context. All52 historical data files unchanged;independent53-file JSON/assets exports exact. Normal legacy-context source validation and separate current canonical eligibility both pass;original55 files retained."
       ],
       "restoration": {
-        "directory": "archive/pdf/shared/packages/6b-turbo-pascal",
+        "directory": "archive/pdf/1988-01/packages/batch-21-r01/turbo-pascal",
         "article_id": "scan-maso-1988-01-toc-0018",
         "manifest": {
-          "path": "archive/pdf/shared/packages/6b-turbo-pascal/manifest.json",
-          "sha256": "da3e7f95158434e11cf144c06d6ca9b0a32e273ec00114a248c1e428a2ebeaa1",
-          "bytes": 8652
+          "path": "archive/pdf/1988-01/packages/batch-21-r01/turbo-pascal/manifest.json",
+          "sha256": "4bfd98532a85c00331938dfc6ab78e4001127357e36d992b23ac474b89b4d96f",
+          "bytes": 8362
         },
         "coverage": {
           "pdf_pages": [
@@ -1785,7 +1786,19 @@
           "regions": 11,
           "blocks": 11,
           "figures": 0,
-          "deferred_pdf_pages": []
+          "deferred_pdf_pages": [],
+          "regional_ranges": 16,
+          "prose_joins": 5,
+          "code_units": 1,
+          "physical_code_rows": 19,
+          "basic_labels": 16,
+          "unlabelled_wraps": 3,
+          "source_tokens": 74,
+          "excluded_region_ids": [
+            "running-header",
+            "unlisted-monitor",
+            "section-icon"
+          ]
         },
         "body_pages_complete": true,
         "assembly_required": false,
@@ -1795,7 +1808,103 @@
           "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
           "bytes": 251883
         },
-        "reproduction_pending": "Reconcile historical TOC pin through explicit immutable-input reproduction at adoption checkpoint."
+        "checkpoint": "batch-21",
+        "latest_checkpoint": "batch-21",
+        "legacy_original_restoration_provenance": {
+          "directory": "archive/pdf/shared/packages/6b-turbo-pascal",
+          "article_id": "scan-maso-1988-01-toc-0018",
+          "manifest": {
+            "path": "archive/pdf/shared/packages/6b-turbo-pascal/manifest.json",
+            "sha256": "da3e7f95158434e11cf144c06d6ca9b0a32e273ec00114a248c1e428a2ebeaa1",
+            "bytes": 8652
+          },
+          "coverage": {
+            "pdf_pages": [
+              94,
+              95
+            ],
+            "printed_pages": [
+              "92",
+              "93"
+            ],
+            "regions": 11,
+            "blocks": 11,
+            "figures": 0,
+            "deferred_pdf_pages": []
+          },
+          "body_pages_complete": true,
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "legacy_toc_pin": {
+            "path": "TOC.md",
+            "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+            "bytes": 251883
+          },
+          "reproduction_pending": "Reconcile historical TOC pin through explicit immutable-input reproduction at adoption checkpoint."
+        },
+        "legacy_original_directory": "archive/pdf/shared/packages/6b-turbo-pascal",
+        "legacy_original_manifest": {
+          "path": "archive/pdf/shared/packages/6b-turbo-pascal/manifest.json",
+          "sha256": "da3e7f95158434e11cf144c06d6ca9b0a32e273ec00114a248c1e428a2ebeaa1",
+          "bytes": 8652
+        },
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-21/article-scope.json",
+          "sha256": "b3d6f0820e0340accac1c8d420cd7648289e66468ed1776d001d19aec520f9d2",
+          "bytes": 825
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-21/validation.json",
+          "sha256": "e3f6f7066a09da62452cb7ede4900ce4f38b322233d011b0de5f15301532bc1b",
+          "bytes": 3623
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-21/reproduction.json",
+          "sha256": "36f8040e66a847ac445140244ce59847ead0bb2edfde5c5959c01584ae29a36d",
+          "bytes": 2786
+        },
+        "adoption": {
+          "format": "legacy-toc-input-v1",
+          "adapter": {
+            "path": "archive/pdf/1988-01/restoration/batch-21/legacy_input_r01.py",
+            "sha256": "e9640dba4541e31ef1144230aa5f3a72bc01f47c9bc73b2fe288b0f95b71b2bb",
+            "bytes": 4075
+          },
+          "legacy_context_directory": "archive/pdf/1988-01/restoration/batch-21/legacy-context",
+          "context_inputs": {
+            "path": "archive/pdf/1988-01/restoration/batch-21/source-preparation-completed.json",
+            "sha256": "c9fabdf9a8977981d1544120e2dc411abda6e4b2ce58a4d6bb609edefce2f738",
+            "bytes": 3044
+          },
+          "identity": {
+            "path": "archive/pdf/1988-01/restoration/batch-21/adoption-identity.json",
+            "sha256": "48bf77d68e48a43ed395b6c6f5bfc062aa015c47f89bb17dd098c13f60e44e75",
+            "bytes": 1051
+          },
+          "supplement": {
+            "path": "archive/pdf/1988-01/restoration/batch-21/adoption-supplement.json",
+            "sha256": "44cc1a770ba417dc8ba2aabe91c813108d7839a14eb140b9d87b3d584d04c1c3",
+            "bytes": 94370
+          },
+          "current_toc": {
+            "path": "TOC.md",
+            "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+            "bytes": 252444
+          },
+          "native_toc_pin_unchanged": true,
+          "all52_historical_data_files_unchanged": true,
+          "original55_files_preserved": true,
+          "historical_preview_not_regenerated": true,
+          "normal_source_validator_unchanged": true,
+          "current_eligibility_checked_separately": true,
+          "reproduction_pending": false
+        },
+        "source_limits": [
+          "All existing source text,corrections,review status and uncertainties remain byte-identical to the original historical package;no new OCR/correction.",
+          "The selected53-file JSON/assets package retains its exact legacy TOC pin and must reproduce/check via pinned legacy-toc-input-v1 adapter/context;separate current canonical eligibility validates normal source/geometry/identity without altering the native.",
+          "Original55-file package,including historical previewHTML/CSS,remains unchanged. Manifest is the only regenerated selected file;all52 historical data files remain exact.",
+          "Existing visibly blank source phrase,inline MEM punctuation,physical120/160 string wraps,slash-zero/spacing and historical/software claims remain unverified;no semantic/executable repair."
+        ]
       }
     },
     {
@@ -3096,37 +3205,69 @@
         "sha256": "1edb547789619bda1b505292b7f41899b246baad01983ea772ad2954c525be93",
         "bytes": 1233
       }
+    },
+    {
+      "name": "batch-21",
+      "completed_at": "2026-10-26T22:07:31.173813+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0018"
+      ],
+      "canonical_tasks": 1,
+      "existing_body_pdf_pages": [
+        94,
+        95
+      ],
+      "existing_body_pages": 2,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 2,
+      "all_inspected_source_pages": 4,
+      "new_OCR": 0,
+      "new_source_correction": 0,
+      "status": "complete-legacy-input-reproduction-and-adoption",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-21/validation.json",
+        "sha256": "e3f6f7066a09da62452cb7ede4900ce4f38b322233d011b0de5f15301532bc1b",
+        "bytes": 3623
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-21/reproduction.json",
+        "sha256": "36f8040e66a847ac445140244ce59847ead0bb2edfde5c5959c01584ae29a36d",
+        "bytes": 2786
+      },
+      "adapter": {
+        "path": "archive/pdf/1988-01/restoration/batch-21/legacy_input_r01.py",
+        "sha256": "e9640dba4541e31ef1144230aa5f3a72bc01f47c9bc73b2fe288b0f95b71b2bb",
+        "bytes": 4075
+      },
+      "index_mode": "legacy-toc-input-v1"
     }
   ],
   "notes": [
     "Full January1988 restoration goal active; headings and all other articles unresolved until source review.",
-    "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
+    "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset.",
+    "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Explicit immutable-input reproduction/adoption of historical Turbo Pascal0018 package. Preserve original55-file sample and legacy TOC pin;verify original recipe,source/current canonical identity and actualPDF94–95 extent/adjacent source,then reproduce through a private pinned legacy-input context or explicit adoption adapter. Do not bypass current validate_source or overwrite historical files;no new OCR unless separately justified. This checkpoint must resolve reproduction_pending without inflating existing readable totals.",
+    "goal": "Verify canonical0019 소프트웨어 소개 as heading versus body owner from original contents/child openings,and verify actual extent of0020 MSX-DOS TOOLS from printed reference100. InitialPDF99–110 are lookup candidates only. Restore at most six verified body pages;retain longer body as immutable partial natives until full assembly. No invented parent body,TOC-derived ending or global folio offset.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0018"
+      "maso-1988-01-toc-0019",
+      "maso-1988-01-toc-0020"
     ],
-    "legacy_directory": "archive/pdf/shared/packages/6b-turbo-pascal",
-    "legacy_manifest": {
-      "path": "archive/pdf/shared/packages/6b-turbo-pascal/manifest.json",
-      "sha256": "da3e7f95158434e11cf144c06d6ca9b0a32e273ec00114a248c1e428a2ebeaa1",
-      "bytes": 8652
-    },
-    "legacy_toc_pin": {
-      "path": "TOC.md",
-      "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
-      "bytes": 251883
-    },
-    "source_extent_to_verify": [
-      94,
-      95
-    ],
+    "canonical_reference": "100",
     "lookup_pdf_page_candidates": [
-      93,
-      94,
-      95,
-      96
+      11,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3136,7 +3277,6 @@
   },
   "remaining_work": [
     "35 canonical identities still need source classification/restoration. Beagle0017,dBASE0016,MAGIC KEY0014 and RAM-removal0013 are complete/readable with no deferred body pages or pending article assembly. Utility0011 and Techniques0015 are verified non-owning headings.",
-    "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
@@ -3147,5 +3287,5 @@
     "non_owning_headings": 2,
     "unresolved": 35
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-20/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-21/preservation-inventory.json"
 }
