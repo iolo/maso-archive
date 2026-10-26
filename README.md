@@ -175,8 +175,9 @@ November 1985 restoration is in progress: thirty-four articles are readable,
 none is partial and twelve of 46 identities remain unresolved. Flying Lode Runner
 is complete on pages 252-upper256; all 219 files match an independent rebuild.
 Literal BASIC, DATA strings, commands, descriptions, guides and uncertainties
-remain. Lower256 Back-Issue Guide is excluded and still pending. Next: verify
-Classifieds from its observed opening258 and continuation259. Cover, remaining
+remain. Lower256 Back-Issue Guide is excluded and still pending. Classifieds,
+pages258-upper262, has reviewed crops and nineteen completed OCR drafts; source
+correction and exports remain. The lower262 MAEC advertisement is excluded. Cover, remaining
 identities and whole-issue accounting remain. Responses, progress logs and
 documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).

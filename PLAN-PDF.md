@@ -52,8 +52,13 @@ Reproduction: `archive/pdf/1985-11/restoration/batch-57/reproduction.json`.
 Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
 private adapters. Batch54's original inventory retains its recorder-log growth
 supplement; selected stable revision02 needs none. No reader/HTML rebuild.
-Next batch 58 verifies Classifieds0037, opening258 with continuation259; its ending
-remains unverified. Parent0012 and Back-Issue Guide0033 remain unresolved, along
+Batch 58 preparation establishes Classifieds0037 on pages 258-upper262.
+All eight full views and 26 exact regions were inspected; the independent lower262
+MAEC advertisement is excluded. Twelve crop-margin repairs preceded nineteen
+pinned Korean/English OCR tasks. Every raw draft was read, with zero retries.
+One source correction pass and independent complete-article exports remain.
+Resume from `archive/pdf/1985-11/restoration/batch-58/continuation.json`.
+Parent0012 and Back-Issue Guide0033 remain unresolved, along
 with Software Contest0035's page-176 hint and parents0002,0020,0026,0040.
 Folios175-177,210,216,257 and258 remain null. Cover, remaining identities, full
 266-page accounting and issue closeout remain. Replies, logs and documents use
