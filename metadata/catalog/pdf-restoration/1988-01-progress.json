@@ -2031,11 +2031,113 @@
       "toc_entry_id": "maso-1988-01-toc-0021",
       "title": "터보 파스칼 유틸리티 툴박스",
       "parent_id": "maso-1988-01-toc-0019",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0021 independently opens printed106/PDF108 under Software Introduction/IBM PC compatible banner,source title 터보 파스칼 유틸리티 툴박스,byline 글·편집부.",
+        "Six consecutive body pages108–113 cover debugger,formatter and help;printed111/PDF113 concludes 에디터 명령을 수정하면 된다 above separate contributor advertisement. HASH.FMT panel also ends above that advertisement.",
+        "PriorPDF107 finishes MSX-DOS TOOLS alongside a separate disk3 promotion;followingPDF114 independently opens 램상주 제거 유틸리티. Actual scope verified,not inferred from TOC or fixed offset.",
+        "Debugger/menu screens and HASH.PAS/HASH.FMT original panels,physical source lines/options/tables and prose continuations retained without software behavior,program or claim repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox",
+        "article_id": "scan-maso-1988-01-toc-0021",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox/manifest.json",
+          "sha256": "6b2a2add51da0603ae1f479b341190186d948523bd3072dfcd21a51e34697640",
+          "bytes": 88480
+        },
+        "coverage": {
+          "pdf_pages": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ],
+          "printed_pages": [
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111"
+          ],
+          "regions": 135,
+          "blocks": 111,
+          "code_units": 26,
+          "physical_code_rows": 149,
+          "code_fields": 624,
+          "debugger_commands": 7,
+          "navigation_rows": 4,
+          "navigation_fields": 8,
+          "formatter_options": 15,
+          "menu_rows": 13,
+          "menu_fields": 37,
+          "menu_blank_defaults": 2,
+          "formatted_rows": 20,
+          "formatted_fields": 71,
+          "empty_statements": 2,
+          "cross_reference_rows": 5,
+          "cross_reference_fields": 21,
+          "statistics_rows": 6,
+          "statistics_fields": 12,
+          "printer_settings": 8,
+          "printer_fragments": 18,
+          "printer_value_wraps": 2,
+          "configuration_rows": 16,
+          "configuration_fields": 48,
+          "source_programs": 1,
+          "source_program_physical_rows": 20,
+          "figures": 11,
+          "regional_transcripts": 124,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf113-contributor-advertisement"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-23",
+        "latest_checkpoint": "batch-23",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-23/turbo-toolbox-r02/article-scope.json",
+          "sha256": "6db4b71f83ba8973d3b7f87ceb1207f12562a31d9e1821b316db26792c46590c",
+          "bytes": 711
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-23/validation.json",
+          "sha256": "10cd0d1e9a84fec08ab07f881286287376fd8aaa7cbbd917eb4f2f1686bde573",
+          "bytes": 2747
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-23/reproduction.json",
+          "sha256": "31a56804e56993dd5e415e84e92cec0f2b1473735be4e78b8183a7f0668988fc",
+          "bytes": 1291
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded glyphs/exact spaces,software/historical claims and execution remain unverified.",
+          "Complete six-page article includes debugger,formatter and help. One complete printed HASH.PAS source program is retained;HASH.FMT is formatted output and figure1 is a partial debugger display,not additional repaired executable programs.",
+          "All physical rows,twenty HASH.FMT row/depth labels,two empty statement fields,vertical rule approximations,five cross-reference rows/repeated15 and six printed statistics remain independent. Row15 has no closing parenthesis/semicolon in the source;none invented. Printed Total Lines Processed21 is not reconciled with20 visible rows.",
+          "Seven debugger commands,four navigation mappings,editor key list,fifteen prose option entries,thirteen screen menu entries,eight printer table settings,two numeric wraps and sixteen Boolean placeholders remain literal. Prose/menu defaults and130/132/78 claims differ;none reconciled.",
+          "Source colon-only Color:( declaration,lowercase e blue,INLINE I/1,Index1/l,comma/period D-X,REF filenames,slash-l and null-string quote cluster remain source-linked candidates. Exact original encoded glyphs/spaces/counts and syntax validity remain unverified.",
+          "Complete debugger/menu screens and both source listing panels retain original captions,blank memory area,displaced Symb/ol fragments,vertical rules and scan marks. Reference views follow primary content;no captions invented.",
+          "Thirteen prose joins/eight source connections preserve column/page continuations without global folio assumptions. Independent final contributor advertisement excluded. Parent0019 remains non-owning;no duplicated parent body."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0022",
@@ -3392,6 +3494,59 @@
         "sha256": "79a2322221e32870abbce44c865050f678c0a33343c55313c1ad1dadb002a7df",
         "bytes": 1969
       }
+    },
+    {
+      "name": "batch-23",
+      "completed_at": "2026-10-26T23:09:54.473752+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0021"
+      ],
+      "mapped_pdf_pages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 2,
+      "all_inspected_source_pages": 8,
+      "rendered_but_not_inspected_pdf_pages": [
+        115
+      ],
+      "recognition_tasks": 124,
+      "eng_code": 26,
+      "kor_eng_other": 98,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 5,
+      "before_ocr_added_regions": 1,
+      "map_revisions": 2,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-23/validation.json",
+        "sha256": "10cd0d1e9a84fec08ab07f881286287376fd8aaa7cbbd917eb4f2f1686bde573",
+        "bytes": 2747
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-23/reproduction.json",
+        "sha256": "31a56804e56993dd5e415e84e92cec0f2b1473735be4e78b8183a7f0668988fc",
+        "bytes": 1291
+      },
+      "retained_metadata_preparation_failure": {
+        "path": "archive/pdf/1988-01/restoration/batch-23/review-preparation-failed.json",
+        "sha256": "1c73626d8f13dbd5258ea5e1ba572cefb6717fefdc658baaa574c1edcc3d5d2e",
+        "bytes": 428
+      },
+      "typing_refinement": {
+        "path": "archive/pdf/1988-01/restoration/batch-23/transcription-typing-refinement.json",
+        "sha256": "70586f31226885983ca6fcf5a7149ea554f4e6c23f7335e9d9cf9400f42c8347",
+        "bytes": 761
+      }
     }
   ],
   "notes": [
@@ -3400,27 +3555,31 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent and restore canonical0021 터보 파스칼 유틸리티 툴박스 from printed106/known openingPDF108. Inspect adjacent source and at most six verified body pages;preserve debugger screenshots,commands,key/option tables,physical wraps and source mistakes. A longer body remains partial until all immutable natives and separate assembly. No TOC-derived ending or global folio offset.",
+    "goal": "Verify Information Radar 0022 heading ownership from original contents and independent child source. Locate and verify debugging-room/bulletin-board 0023, retaining canonical reference105 and the known conflict on printed105/PDF107. Inspect actual title,extent and adjacent source before mapping;do not substitute the independent disk3 promotion or infer a global offset. Restore at most six verified body pages;record a bounded unresolved location if evidence remains insufficient.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0021"
+      "maso-1988-01-toc-0022",
+      "maso-1988-01-toc-0023"
     ],
-    "canonical_reference": "106",
-    "known_start_pdf_page": 108,
-    "prior_opening_evidence": {
+    "canonical_reference": "0022 has no page;0023 reference105",
+    "known_start_pdf_page": null,
+    "prior_conflict_evidence": {
       "path": "archive/pdf/1988-01/restoration/batch-22/source-reviewed.json",
       "sha256": "8a79195f46c264f2110278384ff9d16df1c3d8ba94797fd1b191141b14f6abd8",
       "bytes": 2870
     },
     "lookup_pdf_page_candidates": [
+      11,
+      104,
+      105,
+      106,
       107,
       108,
-      109,
-      110,
-      111,
-      112,
-      113,
-      114,
-      115
+      144,
+      145,
+      146,
+      147,
+      148,
+      149
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3429,16 +3588,16 @@
     }
   },
   "remaining_work": [
-    "33 canonical identities still need source classification/restoration. No classified article has deferred body pages or a pending complete article assembly. Utility0011,Techniques0015 and Software Introduction0019 are verified non-owning headings;legacy0018 input reproduction/adoption is complete.",
+    "32 canonical identities still need source classification/restoration. No classified article has deferred body pages or a pending complete article assembly. Utility0011,Techniques0015 and Software Introduction0019 are verified non-owning headings;legacy0018 input reproduction/adoption is complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 15,
+    "readable": 16,
     "partial": 0,
     "non_owning_headings": 3,
-    "unresolved": 33
+    "unresolved": 32
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-22/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-23/preservation-inventory.json"
 }

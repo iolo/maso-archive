@@ -15,70 +15,76 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-January 1988 is active: 51 canonical identities, fifteen readable/sample-reviewed
-articles, three non-owning headings and 33 unresolved identities. No classified article
-has deferred body pages or a pending complete article assembly.
+January 1988 is active: 51 canonical identities, sixteen readable/sample-reviewed
+articles, three non-owning headings and 32 unresolved identities. No classified
+article has deferred body pages or a pending complete article assembly.
 
-Batch 22 completes 0020, MSX-DOS TOOLS, on printed 100–105/PDF 102–107.
-Selected package: `archive/pdf/1988-01/packages/batch-22-r01/msx-dos-tools`.
-All 592 files/45,459,283 bytes match the independent rebuild. The six-page article
-retains 154 regions, 135 blocks, 143 regional transcripts and eleven original assets.
-Twenty-eight numbered command entries retain 28 formal syntax units, 33 example
-displays, 85 physical code rows and 347 opaque command/placeholder fields. Ten View
-key/action rows retain twenty fields and the missing colon on the left-arrow row.
-Four Patch key mappings retain the wrapped X action. Eight prose joins and six
-source connections validate. The key-list panel and two uncaptioned photographs
-precede eight complete page/body/header/folio reference views; no captions invented.
+Batch 23 completes 0021, 터보 파스칼 유틸리티 툴박스, on printed 106–111/PDF
+108–113. Selected package: `archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox`.
+All 516 files/46,401,721 bytes match the independent rebuild. The article retains
+135 regions, 111 blocks, 124 regional transcripts and eleven original assets.
+Twenty-six code/display units retain 149 physical rows and 624 opaque fields.
+Seven debugger commands, four navigation mappings/eight fields, fifteen prose
+formatter options and thirteen menu entries/37 fields remain source-linked.
+The two menu default cells for P/E stay blank; prose and screen defaults differ.
 
-Software Introduction 0019, 소프트웨어 소개, is a non-owning heading. Original
-contents PDF 11 gives its two children references 100/106 with no separate parent
-page/body. Both children independently open under the same category banner. No
-parent package or duplicated body is created; canonical IDs/titles/parents remain.
-The final PDF 107 right disk3 promotion/editorial contents inset is excluded.
-It is not substituted for debugging-room0023, whose TOC105 location remains
-unresolved. Prior PDF 101 is a competition promotion; PDF 108 independently opens
-Turbo Pascal Utility Toolbox. Actual folios/extent were inspected without a global
-offset. Rendered PDF 99/100/109/110 were not inspected or counted.
+The complete printed HASH.PAS has twenty physical rows. HASH.FMT retains twenty
+numbered row/depth fields, two empty statement fields, vertical-rule approximations
+and the missing closing punctuation on row15. Five cross-reference rows retain
+21 fields and the repeated ISUM reference15; six statistics retain twelve fields,
+including Total Lines Processed21. No counts or source/output differences repaired.
+Eight printer settings retain eighteen fragments/two physical numeric wraps.
+Sixteen configuration rows retain 48 fields and unchosen True/False placeholders.
+Thirteen prose joins, eight source connections and four printed caption/panel
+associations validate. Both original screens, blank memory band, displaced Symb/ol
+fragments and both HASH panels precede seven page/body/folio reference views.
 
-Initial crop preflight exposed clipped first glyphs and a few paragraph/table row
-ends. Two map revisions retain all three crop states: 130 margin refinements then
-35 coverage adjustments, affecting 131 unique regions. Every selected crop was
-reviewed before first OCR. All 143 drafts were read before one direct source pass.
-Pinned Tesseract OEM1/PSM6/thread1/3000px/300DPI hint/interword spaces remains:
-61 eng code/82 kor+eng other tasks, zero failures/retries or post-OCR crop repairs.
-All 5,278 local UTF-8 ranges, 5,462 pin occurrences and 154 decoded images pass;
-each selected image matches source crop pixels. Two tasks/six mapped pages/three
-outside lookups meet limits. All 14,844 prior January files, 134 pilot files and
-thirty core pins remain exact. The unchanged 213-test passing baseline is reused;
-no fresh test run is claimed.
+The byline is 글·편집부. Prior PDF107 finishes MSX-DOS TOOLS alongside a separate
+disk3 promotion. Final PDF113 ends the Toolbox above an independent contributor
+advertisement, which is excluded. Next PDF114 independently opens RAM removal.
+Actual folios/extent were inspected without a global offset or TOC-derived ending.
+PDF115 was rendered only. One task/six mapped pages/two outside lookups meet limits.
 
-Printed 30-tools versus 28-command counts, w0D/dirw0d control notation, option
-casing, missing-looking syntax brackets, paragraph/placeholder/filename wraps,
-P/p and l/I/1/Q/O/zero/quote/angle/ellipsis candidates remain literal. No command,
-software behavior, syntax, source spelling or historical claim is repaired.
-Product-image labels stay pixels for volunteers. Human acceptance/full proofreading,
+Initial crop review found three clipped paragraph edges and two tight panel edges.
+Five crops were expanded, then a searchable Memory label added, before recognition;
+all three map/crop states remain. All 135 selected crops were reviewed before124
+recognitions and every draft read before one direct source correction pass. Pinned
+Tesseract OEM1/PSM6/thread1/3000px/300DPI hint/interword spaces remains:26 eng code,
+98 kor+eng other tasks, zero failures/retries or post-OCR crop repairs. A duplicated
+typed quote pair was refined during that same pass; both typed drafts remain.
+Initial metadata preparation rejected two parser mistakes before writing output;
+the retained fresh revision fixes only printer-row/menu indexing. No source change.
+All 5,824 local UTF-8 ranges, 6,002 pin occurrences and 135 decoded images pass;
+each selected crop matches source pixels. All 17,444 prior January files,134 pilot
+files and thirty core pins remain exact. The unchanged 213-test passing baseline
+is reused; no fresh test run is claimed.
+
+Colon-only Color:( declaration, unmatched-looking CLI brackets, D-X,REF filename
+punctuation,130/132/78 column claims,source spelling, physical wraps and I/l/1/zero/
+quote/rule/key glyph candidates remain literal. Human acceptance/full proofreading,
 encoded bytes/exact spaces/glyph identities, claims, execution and independent
-backup recovery remain unverified.
+backup recovery remain unverified. Original pixels remain authoritative.
 
 Legacy Turbo Pascal0018 adoption remains complete: its selected 53-file JSON/assets
-export retains all 52 historical data files and the old TOC pin; all 55 original
-files remain unchanged. Keep `batch-21/legacy_input_r01.py`/`legacy-toc-input-v1`,
-exact legacy context and separate current-identity guard for the issue dispatcher.
-Also retain `batch-18/magic_literal_r02.py`/`magic-key-literal-v1` and
+export keeps all52 historical data files and the old TOC pin;all55 originals remain.
+Keep `batch-21/legacy_input_r01.py`/`legacy-toc-input-v1`, exact legacy context and
+separate current-identity guard for the issue dispatcher. Also retain
+`batch-18/magic_literal_r02.py`/`magic-key-literal-v1` and
 `batch-15/ram_literal_r01.py`/`ram-removal-literal-v1`; immutable natives and historical
 stage notes remain. Earlier completed articles and all three heading decisions stand.
 
-Next verify 0021, 터보 파스칼 유틸리티 툴박스, from printed 106/known opening
-PDF 108. Inspect actual extent and adjacent source within the ordinary six-page
-mapping/twenty-outside-lookup limit; PDF 107–115 are lookup candidates only.
-Preserve screenshots, commands, key/option tables and source mistakes. The 33
-unresolved identities, all-page accounting, donated cover, standalone JSON/assets
-issue export and final audit remain. No reader/browser/frontend rebuild or deployment.
+Next verify 0022, 정보 레이다, heading ownership and locate 0023, 디버깅 룸·게시판.
+Canonical0023 reference105 remains in conflict with actual printed105/PDF107;
+do not substitute the disk3 promotion. Review original contents/actual title and
+adjacent source within two tasks/six mapped pages/twenty outside lookups. PDF11,
+104–108 and144–149 are lookup candidates only; no opening or ending is assumed.
+The32 unresolved identities, all-page accounting, donated cover, standalone
+JSON/assets issue export and final audit remain. No reader rebuild or deployment.
 
 See [January log](progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-22/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-22/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-23/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-23/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
