@@ -15,89 +15,75 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-January 1988 is active: 51 canonical identities, sixteen readable/sample-reviewed
-articles, four non-owning headings and 31 unresolved identities. No classified
+January 1988 is active: 51 canonical identities, seventeen readable/sample-reviewed
+articles, four non-owning headings and 30 unresolved identities. No classified
 article has deferred body pages or a pending complete article assembly.
 
-Batch 24 classifies 0022, 정보 레이다, as a non-owning heading. Original contents
-PDF11 lists ten children with references105/146/149/155/158/161/164/166/174/175;
-PDF148 independently opens Domestic News under the same category banner.
-No parent package, duplicated body or changed canonical title/parent is introduced.
-Debugging-room/bulletin-board0023 remains unlocated: original contents itself prints
-105, matching the canonical TOC, while actual printed105/PDF107 contains MSX-DOS
-TOOLS and the independent disk3 promotion. The twelve inspected lookup pages are
-11,104–108 and144–149. Source147/printed145 is a training calendar, not a corrected
-debugging-room location. This bounded review establishes no source-wide absence;
-no unrelated panel or article is substituted. Zero body maps/OCR/new packages.
-All19,738 prior January files,134 pilot files and thirty core pins remain exact.
-Validation and both source decisions are retained under `restoration/batch-24/`.
+Batch 25 completes 0024, 국내뉴스, on printed 146–147/PDF 148–149. Selected package:
+`archive/pdf/1988-01/packages/batch-25-r01/domestic-news`. All 139 files/18,769,248
+bytes match the independent rebuild. The article retains 35 regions, 30 blocks,
+32 regional transcripts, eleven news items, two subtitles and the editorial
+introduction. Three contact blocks retain nine fields, including the physical
+583-/4166 telephone wrap, both extensions and the direct number. All 62 technical
+identifier occurrences, twenty name candidates, 111 numeric fragments, 271 physical
+text rows and 1,129 transcript tokens remain linked to their own source crops.
+No executable program or listing download is inferred from these news reports.
 
-Batch 23 completes 0021, 터보 파스칼 유틸리티 툴박스, on printed 106–111/PDF
-108–113. Selected package: `archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox`.
-All 516 files/46,401,721 bytes match the independent rebuild. The article retains
-135 regions, 111 blocks, 124 regional transcripts and eleven original assets.
-Twenty-six code/display units retain 149 physical rows and 624 opaque fields.
-Seven debugger commands, four navigation mappings/eight fields, fifteen prose
-formatter options and thirteen menu entries/37 fields remain source-linked.
-The two menu default cells for P/E stay blank; prose and screen defaults differ.
+The Inha Hangul-recognition item joins across columns at 전환/점; the school-education
+item continues across pages at 등/모두. Both joins and five source connections pass.
+Three original images retain the central Person of the Year news inset and both
+complete pages. Its headline/subtitle links are source context, not figure captions;
+none invented. The article has no visible source byline. Prior PDF147 is a training
+calendar; PDF150 is a full XEBEC/Bel-El advertisement; PDF151 independently opens
+New Products. Actual body extent is two pages, without a global folio offset or
+TOC-derived ending. Rendered PDF152–154 were not inspected in this checkpoint.
 
-The complete printed HASH.PAS has twenty physical rows. HASH.FMT retains twenty
-numbered row/depth fields, two empty statement fields, vertical-rule approximations
-and the missing closing punctuation on row15. Five cross-reference rows retain
-21 fields and the repeated ISUM reference15; six statistics retain twelve fields,
-including Total Lines Processed21. No counts or source/output differences repaired.
-Eight printer settings retain eighteen fragments/two physical numeric wraps.
-Sixteen configuration rows retain 48 fields and unchosen True/False placeholders.
-Thirteen prose joins, eight source connections and four printed caption/panel
-associations validate. Both original screens, blank memory band, displaced Symb/ol
-fragments and both HASH panels precede seven page/body/folio reference views.
-
-The byline is 글·편집부. Prior PDF107 finishes MSX-DOS TOOLS alongside a separate
-disk3 promotion. Final PDF113 ends the Toolbox above an independent contributor
-advertisement, which is excluded. Next PDF114 independently opens RAM removal.
-Actual folios/extent were inspected without a global offset or TOC-derived ending.
-PDF115 was rendered only. One task/six mapped pages/two outside lookups meet limits.
-
-Initial crop review found three clipped paragraph edges and two tight panel edges.
-Five crops were expanded, then a searchable Memory label added, before recognition;
-all three map/crop states remain. All 135 selected crops were reviewed before124
-recognitions and every draft read before one direct source correction pass. Pinned
-Tesseract OEM1/PSM6/thread1/3000px/300DPI hint/interword spaces remains:26 eng code,
-98 kor+eng other tasks, zero failures/retries or post-OCR crop repairs. A duplicated
-typed quote pair was refined during that same pass; both typed drafts remain.
-Initial metadata preparation rejected two parser mistakes before writing output;
-the retained fresh revision fixes only printer-row/menu indexing. No source change.
-All 5,824 local UTF-8 ranges, 6,002 pin occurrences and 135 decoded images pass;
-each selected crop matches source pixels. All 17,444 prior January files,134 pilot
+All 35 selected crops were reviewed before 32 kor+eng recognitions. Three clipped
+prose margins were expanded before OCR; initial/revised maps and all crops remain.
+Pinned Tesseract OEM1/PSM6/thread1/3000px/300DPI hint/interword spaces remains.
+Every draft was read before one direct source pass; zero failures, retries or
+post-OCR crop repairs. The vertical title and faint headline/identifier omissions
+use direct source fallback. During the same pass, the selected faint name reading
+이정회 replaces the initial 이정희 candidate; both transcripts remain. A separate
+metadata revision translates one assistant-authored uncertainty phrase into English,
+without changing source text, ranges or OCR. Both correction/recipe versions remain.
+All 1,843 local UTF-8 ranges, 1,886 pin occurrences and 35 decoded images pass;
+every selected crop matches source pixels. All 19,769 prior January files, 134 pilot
 files and thirty core pins remain exact. The unchanged 213-test passing baseline
 is reused; no fresh test run is claimed.
 
-Colon-only Color:( declaration, unmatched-looking CLI brackets, D-X,REF filename
-punctuation,130/132/78 column claims,source spelling, physical wraps and I/l/1/zero/
-quote/rule/key glyph candidates remain literal. Human acceptance/full proofreading,
-encoded bytes/exact spaces/glyph identities, claims, execution and independent
-backup recovery remain unverified. Original pixels remain authoritative.
+Faint names/acronyms,83C252 versus87C252,split chip numbers,source grammar,extra
+closing headline quote,OLIMPIA,불/봉 place-name and contact glyph candidates remain
+literal and unverified. Printed dates,production/education/budget/award/product
+claims are not recalculated or repaired. Human acceptance/full proofreading,
+encoded bytes/exact spaces/glyph identities, historical claims, contact validity
+and independent backup recovery remain unverified. Original pixels are authoritative.
 
-Legacy Turbo Pascal0018 adoption remains complete: its selected 53-file JSON/assets
-export keeps all52 historical data files and the old TOC pin;all55 originals remain.
-Keep `batch-21/legacy_input_r01.py`/`legacy-toc-input-v1`, exact legacy context and
-separate current-identity guard for the issue dispatcher. Also retain
+Information Radar0022 remains a non-owning heading. Debugging-room0023 is still
+unlocated after Batch24's twelve-page bounded review: both original contents and
+canonical TOC print105, while actual105/PDF107 contains MSX-DOS TOOLS and a separate
+disk3 promotion. No substitute article, corrected page or source-wide absence was
+inferred. Retain this gap for further all-page source accounting.
+
+Earlier articles and all four heading decisions stand. Legacy Turbo Pascal0018
+keeps its 53-file data export, all52 historical data files and old TOC pin; all55
+original files remain. Keep `batch-21/legacy_input_r01.py`/`legacy-toc-input-v1`,
+exact legacy context and current-identity guard in the issue dispatcher. Also keep
 `batch-18/magic_literal_r02.py`/`magic-key-literal-v1` and
-`batch-15/ram_literal_r01.py`/`ram-removal-literal-v1`; immutable natives and historical
-stage notes remain. Earlier completed articles and all four heading decisions stand.
+`batch-15/ram_literal_r01.py`/`ram-removal-literal-v1`; immutable native files and
+historical stage notes remain.
 
-Next verify 0024, 국내뉴스, from printed146/known opening PDF148. Inspect actual
-extent and adjacent independent titles within two tasks/six mapped pages/twenty
-outside lookups; PDF147–154 are lookup candidates only. Preserve news headlines,
-columns, continuations, contact fields, original images and historical claims.
-Debugging-room0023 stays unresolved and must be revisited during further source
-accounting. The31 unresolved identities, all-page accounting, donated cover,
-standalone JSON/assets issue export and final audit remain. No reader rebuild.
+Next verify 0025, 신제품 안내, from printed149/known opening PDF151. Inspect actual
+extent and adjacent titles within two tasks/six mapped pages/twenty outside lookups;
+PDF150–158 are lookup candidates only. Preserve photographs, product headings,
+pricing/specification/contact fields, source claims and column/page continuations.
+The30 unresolved identities, all-page accounting, donated cover, standalone
+JSON/assets issue export and final audit remain. No reader rebuild or deployment.
 
 See [January log](progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-24/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-24/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-25/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-25/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

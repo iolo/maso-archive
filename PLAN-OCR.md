@@ -23,53 +23,42 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active:51 identities,sixteen readable/sample-reviewed articles,
-  four non-owning headings and31 unresolved identities. No classified body pages
-  or article assembly pending.
-  Batch24 classifies0022 Information Radar as non-owning from original contents11
-  and independent Domestic News opening148/146. Ten children,no parent package.
-  Original contents also prints105 for debugging-room0023. Twelve lookups11,
-  104–108/144–149 retain the conflict:actual105/PDF107 is MSX-DOS TOOLS plus disk3
-  promotion;source147/printed145 is a calendar. No unrelated substitution or
-  source-wide absence claim. Location stays unresolved;zero maps/OCR/new packages.
-  All19,738 prior files/134 pilot/thirty core exact. Further source accounting must
-  revisit this gap. Heading/location decisions and source observations in batch24.
-  Batch23 completes0021 Turbo Pascal Utility Toolbox,
-  printed106–111/PDF108–113;byline 글·편집부. Selected
-  `archive/pdf/1988-01/packages/batch-23-r01/turbo-toolbox`:516 independently exact
-  files/46,401,721 bytes,135 regions/111 blocks/124 transcripts/eleven originals.
-  Twenty-six code/display units retain149 physical rows/624 opaque fields;seven
-  commands,four navigation mappings/eight fields,fifteen prose options,thirteen
-  menu entries/37 fields/two blank defaults. One complete HASH.PAS has20 physical
-  rows;HASH.FMT has20 row/depth labels/71 fields,two empty statements and missing
-  row15 closing punctuation. Five xref rows/21 fields preserve repeated15;six
-  statistics/twelve fields retain printed Total Lines Processed21. Eight printer
-  settings/eighteen fragments/two numeric wraps and16 configuration rows/48 fields
-  retain all source placeholders. Thirteen joins,eight connections,four captions/
-  panels and seven reference views pass. Original screen blank memory area and
-  displaced Symb/ol retained. Final contributor advertisement excluded;prior107
-  finishes MSX-DOS TOOLS,next114 independently opens RAM removal. No global offset.
-  Three map/crop states retained:five pre-OCR expansions and one added Memory label.
-  All135 crops viewed before124 pinned Tesseract tasks26 eng/98 kor+eng;all raw
-  drafts read before one source pass,zero recognition failures/retries/post-OCR
-  crop repairs. A duplicated typed quote pair refined during that pass,both drafts
-  retained. Initial metadata parser failure retained;fresh revision changes only
-  printer/menu indexing,not source text. All5,824 UTF-8 ranges/6,002 pins/135 images
-  and exact crop pixels pass;all17,444 prior files/134 pilot/thirty core unchanged.
-  Unchanged213-test baseline reused,no fresh run. Source colon-only Color:(,CLI
-  brackets,D-X,REF punctuation,130/132/78 differences,wraps/case/spelling/glyphs
-  retained. Human acceptance/proofreading,bytes/spaces/glyphs/claims/execution/
-  backup unverified. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1 with
-  exact context/current identity guard,plus batch-18/magic_literal_r02.py/
-  magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1.
-  Next verify0024 Domestic News from printed146/knownPDF148;inspect actual extent
-  and adjacent titles. PDF147–154 are lookup candidates only;two tasks/six mapped/
-  twenty outside limits. Remaining31 identities,including0023 location gap,and
-  accounting/cover/export/audit pending. No reader rebuild.
+- January 1988 is active: 51 identities, seventeen readable/sample-reviewed
+  articles, four non-owning headings and 30 unresolved identities. No classified
+  article has deferred body pages or pending assembly. Batch25 completes0024
+  Domestic News,printed146–147/PDF148–149. Selected
+  `archive/pdf/1988-01/packages/batch-25-r01/domestic-news`:139 independently exact
+  files/18,769,248 bytes,35 regions/30 blocks/32 transcripts/three originals.
+  Eleven news items,two subtitles,editorial introduction,three contacts/nine fields,
+  62 identifier occurrences,twenty name candidates,111 numeric fragments,271 physical
+  rows and1,129 tokens retain their own source ranges. Two prose joins/five source
+  connections pass. Original central news inset/two full pages retained;no caption,
+  program or listing download invented. Actual body ends Digitec relocation149/147;
+  prior147 training calendar,next150 full ad,151 New Products opening. No byline or
+  global offset inferred. One task/two mapped/three outside lookups;152–154 rendered
+  only. Initial/revised maps/crops preserve three pre-OCR margin expansions.
+  All35 selected crops viewed before32 pinned kor+eng tasks;all drafts read before
+  one source pass,zero failures/retries/post-OCR repairs. Vertical title/faint fields
+  use source fallback. Both 이정회/이정희 typed candidates retained during that same
+  pass. Separate English-only uncertainty metadata revision changes no source text
+  or ranges. All1,843 UTF-8 ranges/1,886 pins/35 images/crop pixels pass;all19,769
+  prior files/134 pilot/thirty core unchanged. Existing213-test baseline reused,
+  no fresh run. Faint names/address/acronym candidates,83C252 versus87C252,OLIMPIA,
+  physical wraps,source grammar/quotes and historical numeric/product/contact
+  claims remain literal. Human acceptance/proofreading,bytes/spaces/glyphs/claims/
+  contacts/backup unverified. Information Radar0022 remains non-owning;debugging-room
+  0023 is unlocated after twelve-page review,original contents105 conflict retained.
+  No substitute or source-wide absence claim. Keep batch-21/legacy_input_r01.py/
+  legacy-toc-input-v1 exact context/current identity guard,plus
+  batch-18/magic_literal_r02.py/magic-key-literal-v1 and
+  batch-15/ram_literal_r01.py/ram-removal-literal-v1 for issue dispatch.
+  Next verify0025 New Products from printed149/knownPDF151;PDF150–158 lookup
+  candidates only,two tasks/six mapped/twenty outside limits. Remaining30 identities,
+  all-page accounting/cover/export/audit pending. No reader rebuild.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-24/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-24/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-25/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-25/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

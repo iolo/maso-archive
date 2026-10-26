@@ -2184,11 +2184,85 @@
       "toc_entry_id": "maso-1988-01-toc-0024",
       "title": "국내뉴스",
       "parent_id": "maso-1988-01-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0024 independently opens printed146/PDF148 with vertical 국내뉴스 title,정보레이다 banner and editorial introduction. No visible source byline inferred.",
+        "Eleven separate news items retain their own headlines and prose. Inha Hangul recognition item crosses columns on146;school computer education item crosses printed146/147. Person of the Year is a central news inset within Domestic News,not an unrelated advertisement.",
+        "Final printed147/PDF149 ends with Digitec relocation/address/telephone. PriorPDF147 is the independent January training calendar;followingPDF150 is full XEBEC/Bel-El advertisement andPDF151 independently opens 신제품안내. Complete body is exactly148–149,not inferred from TOC or global folio offset.",
+        "All names,versions,numerals,date/education/production/award/software claims,address/phone fields and source spellings remain historical literal source content;no independent factual or product verification."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-25-r01/domestic-news",
+        "article_id": "scan-maso-1988-01-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-25-r01/domestic-news/manifest.json",
+          "sha256": "716c451915d63edb33de5aabd14c6068d5bc1dcfcf84429c04cbba16d0adb399",
+          "bytes": 23562
+        },
+        "coverage": {
+          "pdf_pages": [
+            148,
+            149
+          ],
+          "printed_pages": [
+            "146",
+            "147"
+          ],
+          "regions": 35,
+          "blocks": 30,
+          "code_units": 0,
+          "physical_text_rows": 271,
+          "transcript_tokens": 1129,
+          "news_items": 11,
+          "subtitles": 2,
+          "contact_blocks": 3,
+          "contact_fields": 9,
+          "identifier_occurrences": 62,
+          "name_candidate_occurrences": 20,
+          "number_fragments": 111,
+          "figures": 3,
+          "regional_transcripts": 32,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            148,
+            149
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-25",
+        "latest_checkpoint": "batch-25",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-25/domestic-news-r01/article-scope.json",
+          "sha256": "38b862da68856a83cd551b3b9d865f773902dfe856cae479fb27368462c88e13",
+          "bytes": 454
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-25/validation.json",
+          "sha256": "e02d948168d43fe26563fbe9d7417c320ef534e1638b66764a3cbec121531d37",
+          "bytes": 2281
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-25/reproduction.json",
+          "sha256": "d898ab5fa16da2e01f6264d59b65e640e4d3c56ff1ea1a725017f079a504c189",
+          "bytes": 1328
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded glyphs/exact spaces,historical/software/numeric/contact claims and independent backup recovery remain unverified.",
+          "Complete two-page Domestic News article with eleven independently headed news items,one editorial introduction,two subtitles and three printed contact blocks. These items are parts of canonical0024,not additional canonical article identities. No visible source byline inferred.",
+          "Inha Hangul-recognition item crosses columns at 전환/점;school-education item crosses pages at 등/모두. Every other item retains its own heading/body/contact source anchors.",
+          "Names 김기복/이승규,ADRPG acronym,83C252 versus87C252 device strings,이정회/이정희,불/봉천 place-name,building names and original telephone glyphs are localized unverified source candidates. No correction from modern geography,biography,software catalogs or expected device numbers.",
+          "Original punctuation,extra closing Person of the Year headline quote,획기적이 전환,노력이커,용이하여.,OLIMPIA,date,numeric,budget,product and policy claims and physical wraps remain literal. No arithmetic,grammar,history or product claim repair.",
+          "Three original images preserve the central news inset and both complete pages. News headline/subtitle links are not printed figure captions;none invented. Source column rules,vertical title,faint text and original marks remain pixels.",
+          "All original map/crops and selected pre-OCR three-crop expansion retained;one source pass and zero recognition retries. The during-pass 회/희 transcription refinement retains both drafts. Human acceptance/full proofreading and historical/technical claims remain unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0025",
@@ -3604,6 +3678,56 @@
         "sha256": "e1c40ad986cbae7dd5dd3e1950f1999d405e59acb52b5933591667e5ca9b44ed",
         "bytes": 1694
       }
+    },
+    {
+      "name": "batch-25",
+      "completed_at": "2026-10-26T23:31:14.870766+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0024"
+      ],
+      "mapped_pdf_pages": [
+        148,
+        149
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "outside_lookup_pages": 3,
+      "all_inspected_source_pages": 5,
+      "rendered_but_not_inspected_pdf_pages": [
+        152,
+        153,
+        154
+      ],
+      "recognition_tasks": 32,
+      "eng_code": 0,
+      "kor_eng_other": 32,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 3,
+      "map_revisions": 1,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-25/validation.json",
+        "sha256": "e02d948168d43fe26563fbe9d7417c320ef534e1638b66764a3cbec121531d37",
+        "bytes": 2281
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-25/reproduction.json",
+        "sha256": "d898ab5fa16da2e01f6264d59b65e640e4d3c56ff1ea1a725017f079a504c189",
+        "bytes": 1328
+      },
+      "transcription_refinement": {
+        "path": "archive/pdf/1988-01/restoration/batch-25/transcription-refinement.json",
+        "sha256": "059a66658bc1045c39f67c4f95e1869bb1080e59bdf6dab2472b4a44d71f8f45",
+        "bytes": 741
+      },
+      "english_metadata_refinement": {
+        "path": "archive/pdf/1988-01/restoration/batch-25/english-metadata-refinement.json",
+        "sha256": "d3496072038fa2c79968e9ebf7b97f33be826ca41917a67b0e5138405319a2ae",
+        "bytes": 995
+      }
     }
   ],
   "notes": [
@@ -3612,26 +3736,27 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent and restore canonical0024 Domestic News from original contents reference146/known source openingPDF148. Inspect its ending and next independently titled section;at most six verified body pages. Preserve news headlines,columns,continuations,contact fields,images and historical claims. Debugging-room0023 remains unlocated after bounded review;retain its conflict for further source accounting without substituting unrelated material.",
+    "goal": "Verify actual extent and restore canonical0025 New Products from original contents reference149/known openingPDF151. Inspect actual ending and adjacent title;at most six verified body pages. Preserve product headings,photographs,pricing/specification/contact fields,column/page continuations and all source claims or mistakes. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0024"
+      "maso-1988-01-toc-0025"
     ],
-    "canonical_reference": "146",
-    "known_start_pdf_page": 148,
+    "canonical_reference": "149",
+    "known_start_pdf_page": 151,
     "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-24/source-reviewed.json",
-      "sha256": "8fc06b145368925b5cbfcf2f71089ed41f8e1bae55735b47a35a67498979f75c",
-      "bytes": 5665
+      "path": "archive/pdf/1988-01/restoration/batch-25/source-reviewed.json",
+      "sha256": "bdb3d294208fce359f5887ab25f9802b2001c54aec2d96847f90085b0fafdd15",
+      "bytes": 1453
     },
     "lookup_pdf_page_candidates": [
-      147,
-      148,
-      149,
       150,
       151,
       152,
       153,
-      154
+      154,
+      155,
+      156,
+      157,
+      158
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3640,16 +3765,16 @@
     }
   },
   "remaining_work": [
-    "31 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Utility0011,Techniques0015,Software Introduction0019 and Information Radar0022 are verified non-owning headings;legacy0018 adoption is complete.",
+    "30 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 16,
+    "readable": 17,
     "partial": 0,
     "non_owning_headings": 4,
-    "unresolved": 31
+    "unresolved": 30
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-24/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-25/preservation-inventory.json"
 }
