@@ -38,7 +38,11 @@ paired OCR or a new engine comparison.
   twelve joins/seventeen code groups/22 rows/4,100 local ranges validate. One
   crop extension preserves79 unchanged text results;80+1 recognitions and one
   correction pass. The213-test baseline is reused with all thirty core files exact.
-  Next restore final35–37/PDF37–39, then assemble. Remaining classifications/articles/assemblies, all-page accounting,
+  Final35–37/PDF37–39 is now an independently exact 216-file ending segment:
+  54 regions/43 blocks/three source views/eight joins/ten examples/27 rows/six
+  references validate;51 pinned tasks, one correction pass and zero retries.
+  All nine body pages are preserved; next assemble the two immutable segments.
+  Remaining classifications/articles/assemblies, all-page accounting,
   donated cover and JSON/assets closeout remain. No reader rebuild.
   See [January log](docs/progress/8801.md) and
   `metadata/catalog/pdf-restoration/1988-01-progress.json`.

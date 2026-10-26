@@ -22,11 +22,14 @@ exact 337-file partial package:88 regions/68 blocks/eight images/twelve joins/
 seventeen code groups/22 rows/4,100 local ranges validate. One crop extension
 retains79 unchanged text results;80+1 recognitions and one correction pass. The
 213-test baseline is reused;752 prior January files/thirty core files are exact.
-Next restore final35–37/PDF37–39, then assemble separately. Remaining
+Final35–37/PDF37–39 is preserved in an independently exact 216-file ending:
+54 regions/43 blocks/three source views/eight joins/ten examples/27 rows/six
+references validate. All nine body pages now exist; next assemble the two
+immutable segments. Availability remains partial. Remaining
 articles/assemblies, page accounting, donated cover and issue closeout remain.
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-02/validation.json`. No reader rebuild.
+`archive/pdf/1988-01/restoration/batch-03/validation.json`. No reader rebuild.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

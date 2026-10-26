@@ -42,7 +42,10 @@ opening28,30–34/PDF30,32–36 is preserved in an independently exact 337-file
 partial package: 88 regions/68 blocks/eight images, twelve joins and seventeen
 independent code examples/22 rows validate. One crop extension retains 79
 unchanged text results; 80+1 recognitions and one correction pass.
-Next restore final35–37/PDF37–39, then assemble separately. The intervening
+Final35–37/PDF37–39 is now a second independently exact 216-file segment:
+54 regions/43 blocks/three source views, eight joins, ten examples/27 rows and
+six references validate. All nine body pages are preserved; next assemble the
+two immutable segments without new OCR. The intervening
 PDF31 advertisement and lowerPDF39 promotion remain outside the article body.
 All-page accounting, remaining articles/assemblies, donated cover, issue export
 and final audit remain. No reader rebuild. See [January log](docs/progress/8801.md)
