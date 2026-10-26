@@ -24,41 +24,42 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - November 1985 remains in progress: thirty-nine readable entries, no partial
-  article or pending assembly, three non-owning headings and four unresolved identities.
-  Batch 63 classifies Games 0012 as a non-owning heading. Original contents lists
-  three separately paginated children; their openings repeat Computer Game banners.
-  Bank Panic spans 228-245, CRUSH CIRCLES 246-251, and Flying Lode Runner 252-upper 256.
-  All 1,036 child-package files remain unchanged across 29 unique body pages. Bank
-  Panic validates through its unchanged private adapter, retaining native caveats;
-  the other packages use standard export checks. The separate Back-Issue Guide panel
-  on lower 256 stays with canonical 0033. All 84 game-versus-guide body comparisons
-  are disjoint. No duplicate parent article, body ownership or source correction.
-  Software Contest 0035 remains unresolved. Front pages 10-16 are advertisements;
-  combined with retained earlier reviews, the front-matter search covers pages 2-25.
-  No exact Software Contest body was identified there. Original contents reference
-  176 remains unchanged and conflicts with the distinct diskette offer. This bounded
-  search does not prove absence from the entire issue. Whole-issue page accounting
-  and unmatched-content review remain necessary before any source-absence decision.
-  Sixteen whole source views and five exact crops were inspected. Four evidence pages
-  and twelve outside lookups satisfy checkpoint bounds. Seven new front views were
-  rendered at 3000 pixels. No new article map, package, OCR or transcription was
-  created. Source preparation, decisions and independent verification passed on
-  first execution. All canonical identities, prior source owners, 53,844 previous
-  files, 62 selected inventories and thirty core pins remain exact. The unchanged
-  213-test baseline is reused. Current preservation: 53,887 issue files. Evidence and
-  reproduction remain under `archive/pdf/1985-11/restoration/batch-63/`.
-  All 266 PDF pages now have provisional source observations. Full area/content
-  accounting is still pending; observation coverage is not restoration completion.
-  Technical, Games and TIPS are non-owning headings. Parents 0020, 0026 and 0040,
-  plus Software Contest 0035, remain unresolved. Next batch 64 reviews News 0020 and
-  Column 0040 from original hierarchy and complete child boundaries. Folios 2-25,
-  175-177, 210, 216, 257, 258, 265 and 266 remain null. All private adapters and earlier
-  artifacts remain. Batch 54's original inventory retains its recorder-log growth
-  supplement; selected stable revision 02 needs none. No reader or HTML rebuild.
-  Cover, full 266-page accounting and issue closeout remain. Responses, progress logs
-  and documentation use English; literal source retains its original language.
-  Human acceptance, full proofreading, original bytes, exact spacing, glyph identities
-  and historical claims remain unverified. The full November goal remains active.
+  article or pending assembly, five non-owning headings and two unresolved identities.
+  Batch 64 classifies News 0020 and Column 0040 as non-owning headings, supported by
+  original contents hierarchy, independent child openings and retained complete
+  boundary evidence. News has five complete children on 90-103: 637 unchanged files
+  and fourteen distinct pages. Column has six complete children on 42-56, 58-70,
+  104-114 and 196-199: 2,588 unchanged files and 43 distinct pages. All eleven packages
+  retain 3,225 files across 57 distinct body pages. Numerical Analysis, PLAY and MSX
+  Corners validate with three unchanged private adapters. Native-stage caveats remain
+  literal; two older single-segment scopes retain their original ledger schemas.
+  Separate Back-Issue Guide panels on 51, 99 and 103 remain with canonical 0033.
+  All 121 child-versus-guide body comparisons are disjoint. Intervening advertising,
+  articles and notices are not assigned to either parent. The Program Factory
+  editorial introduction remains in canonical 0046 and is not duplicated as Column
+  parent body. All titles, identities, order and parent relations remain unchanged.
+  Twenty-one whole source views and four exact crops were inspected. Three evidence
+  pages and eighteen outside lookups satisfy checkpoint bounds. No source rendering,
+  article map, package, OCR, transcription or correction was created. The initial
+  classification check assumed newer completion fields in two older ledger entries;
+  revision 02 validates their explicit full/current scopes and no pending coverage.
+  The failed scripts/logs remain. Revised decisions and independent verification pass.
+  All 53,887 previous files, 63 selected inventories and thirty core pins remain exact.
+  The unchanged 213-test baseline is reused. Current preservation: 53,923 issue files.
+  Evidence and reproduction remain under `archive/pdf/1985-11/restoration/batch-64/`.
+  Technical, Games, TIPS, News and Column are non-owning headings. Readers 0026 and
+  Software Contest 0035 remain unresolved. Next batch 65 reviews Readers hierarchy
+  and advances full page/area accounting for the Software Contest reference mismatch.
+  Its front 2-25 search is complete; reference 176 conflicts with the distinct diskette
+  offer. No full-source absence has been asserted. All 266 pages have provisional
+  observations, while complete area/content accounting, cover verification and issue
+  closeout remain. Folios 2-25, 175-177, 210, 216, 257, 258, 265 and 266 remain null.
+  All private adapters and earlier artifacts remain. Batch 54's original inventory
+  retains its recorder-log growth supplement; selected stable revision 02 needs none.
+  No reader or HTML rebuild. Responses, progress logs and documentation use English;
+  literal source retains its original language. Human acceptance, full proofreading,
+  original bytes, exact spacing, glyph identities and historical claims remain
+  unverified. The full November goal remains active.
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
   35 readable/sample-reviewed articles, four non-owning headings, zero partial/
   unresolved/pending assemblies. All 9,031 issue files independently exact, including

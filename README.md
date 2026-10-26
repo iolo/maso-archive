@@ -172,11 +172,9 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: thirty-nine entries are readable,
-none is partial, Technical, Games and TIPS are three non-owning headings, and four
-of 46 identities remain unresolved. Games groups three complete articles; all
-1,036 package files remain unchanged. Software Contest's front-matter search is
-complete through page 25, but its location remains unresolved. Next: News and
-Column headings. All 266 PDF pages have provisional observations; full content
+none is partial, five headings are non-owning, and two of 46 identities remain
+unresolved. News and Column group eleven complete articles; all 3,225 package
+files remain unchanged. Readers and Software Contest are next. Full content
 accounting, cover verification and closeout remain. Responses, logs and
 documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
