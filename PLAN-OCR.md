@@ -23,42 +23,41 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, seventeen readable/sample-reviewed
-  articles, four non-owning headings and 30 unresolved identities. No classified
-  article has deferred body pages or pending assembly. Batch25 completes0024
-  Domestic News,printed146–147/PDF148–149. Selected
-  `archive/pdf/1988-01/packages/batch-25-r01/domestic-news`:139 independently exact
-  files/18,769,248 bytes,35 regions/30 blocks/32 transcripts/three originals.
-  Eleven news items,two subtitles,editorial introduction,three contacts/nine fields,
-  62 identifier occurrences,twenty name candidates,111 numeric fragments,271 physical
-  rows and1,129 tokens retain their own source ranges. Two prose joins/five source
-  connections pass. Original central news inset/two full pages retained;no caption,
-  program or listing download invented. Actual body ends Digitec relocation149/147;
-  prior147 training calendar,next150 full ad,151 New Products opening. No byline or
-  global offset inferred. One task/two mapped/three outside lookups;152–154 rendered
-  only. Initial/revised maps/crops preserve three pre-OCR margin expansions.
-  All35 selected crops viewed before32 pinned kor+eng tasks;all drafts read before
-  one source pass,zero failures/retries/post-OCR repairs. Vertical title/faint fields
-  use source fallback. Both 이정회/이정희 typed candidates retained during that same
-  pass. Separate English-only uncertainty metadata revision changes no source text
-  or ranges. All1,843 UTF-8 ranges/1,886 pins/35 images/crop pixels pass;all19,769
-  prior files/134 pilot/thirty core unchanged. Existing213-test baseline reused,
-  no fresh run. Faint names/address/acronym candidates,83C252 versus87C252,OLIMPIA,
-  physical wraps,source grammar/quotes and historical numeric/product/contact
-  claims remain literal. Human acceptance/proofreading,bytes/spaces/glyphs/claims/
-  contacts/backup unverified. Information Radar0022 remains non-owning;debugging-room
-  0023 is unlocated after twelve-page review,original contents105 conflict retained.
-  No substitute or source-wide absence claim. Keep batch-21/legacy_input_r01.py/
-  legacy-toc-input-v1 exact context/current identity guard,plus
-  batch-18/magic_literal_r02.py/magic-key-literal-v1 and
+- January 1988 is active: 51 identities, eighteen readable/sample-reviewed
+  articles, four non-owning headings and 29 unresolved identities. No classified
+  article has deferred body pages or pending assembly. Batch26 completes0025
+  New Products,printed149–152/PDF151–154. Selected
+  `archive/pdf/1988-01/packages/batch-26-r01/new-products`:302 independently exact
+  files/35,105,338 bytes,84 regions/57 blocks/70 transcripts/fourteen originals.
+  Twelve product entries/four categories,twelve prices/24 fields/fourteen expressions/
+  five qualifications,twelve inquiries/37 fields/twelve phone markers retain every
+  source fragment. Thirteen descriptive inventory entries/26 fields/thirty physical
+  rows are prose,not executable code;no listing download. All111 specification/168
+  numeric occurrences,520 physical rows and1,863 tokens remain source-linked.
+  Thirteen prose joins/fourteen connections pass. Nine product photos,one turtle/
+  computer illustration and four full pages retained;no captions invented. Actual
+  ending154,full ads155/156,next Foreign News157 opening;prior150 full ad. No byline
+  or global offset inferred. One task/four mapped/four outside;158 rendered only.
+  All84 final crops viewed before70 pinned kor+eng tasks;eleven pre-OCR expansions
+  preserve both maps/all crops. All drafts read before one source pass,zero failures/
+  retries/post-OCR repairs. Source fallback for vertical title/headlines/faint fields.
+  All3,352 UTF-8 ranges/3,477 pins/84 images/crop pixels pass;all20,383 prior files/
+  134 pilot/thirty core exact. Existing213-test baseline reused,no fresh run.
+  Source AT COMMAND SEI,V2/5 BIS,Centronix,STEPPIN/R CONTROL,D/T,EXTEN/TION,71MB,
+  12.767 dimensions,보안 and all wraps/claims/prices/contact candidates unrepaired.
+  Human acceptance/proofreading,bytes/spaces/glyphs/claims/prices/contacts/backup
+  unverified. Debugging-room0023 location gap unchanged,original contents105 conflict
+  retained;no substitute or source-wide absence claim. Keep
+  batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact legacy context/old TOC/current
+  identity guard,plus batch-18/magic_literal_r02.py/magic-key-literal-v1 and
   batch-15/ram_literal_r01.py/ram-removal-literal-v1 for issue dispatch.
-  Next verify0025 New Products from printed149/knownPDF151;PDF150–158 lookup
-  candidates only,two tasks/six mapped/twenty outside limits. Remaining30 identities,
+  Next verify0026 Foreign News from printed155/knownPDF157;PDF156–163 lookup
+  candidates only,two tasks/six mapped/twenty outside limits. Remaining29 identities,
   all-page accounting/cover/export/audit pending. No reader rebuild.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-25/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-25/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-26/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-26/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

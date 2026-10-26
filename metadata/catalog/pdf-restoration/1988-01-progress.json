@@ -2268,11 +2268,98 @@
       "toc_entry_id": "maso-1988-01-toc-0025",
       "title": "신제품 안내",
       "parent_id": "maso-1988-01-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0025 independently opens printed149/PDF151 with vertical 신제품안내 title,정보레이다 banner and editorial introduction. No source byline inferred.",
+        "Four consecutive eligible body pages151–154/printed149–152 contain twelve product entries grouped under Accessories,Systems,Peripherals and Software. Bodies,contacts and model-inventory fragments continue across columns/pages. All actual source folios inspected.",
+        "Final printed152/PDF154 completes bulk-dryer control report with price/contact and original turtle/computer illustration. Following155/156 are full HOPE/Brother advertisements;PDF157 independently opens 해외뉴스. Prior150 is full XEBEC/Bel-El advertisement. No TOC-derived ending or global folio offset.",
+        "Nine uncaptioned product photographs and one original uncaptioned illustration retained;no reconstructed diagrams,caption invention,standalone executable program or modern price/specification/contact validation."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-26-r01/new-products",
+        "article_id": "scan-maso-1988-01-toc-0025",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-26-r01/new-products/manifest.json",
+          "sha256": "b259a694c7bd7436f1ea1555848fd5a0e4fc08931e981bdba9854ad8dd6c802b",
+          "bytes": 52425
+        },
+        "coverage": {
+          "pdf_pages": [
+            151,
+            152,
+            153,
+            154
+          ],
+          "printed_pages": [
+            "149",
+            "150",
+            "151",
+            "152"
+          ],
+          "regions": 84,
+          "blocks": 57,
+          "code_units": 0,
+          "physical_text_rows": 520,
+          "transcript_tokens": 1863,
+          "product_entries": 12,
+          "categories": 4,
+          "price_blocks": 12,
+          "price_fields": 24,
+          "price_expressions": 14,
+          "price_qualifications": 5,
+          "contact_blocks": 12,
+          "contact_fields": 37,
+          "telephone_markers": 12,
+          "inventory_entries": 13,
+          "inventory_fields": 26,
+          "inventory_physical_rows": 30,
+          "specification_occurrences": 111,
+          "number_fragments": 168,
+          "figures": 14,
+          "regional_transcripts": 70,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            151,
+            152,
+            153,
+            154
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-26",
+        "latest_checkpoint": "batch-26",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-26/new-products-r01/article-scope.json",
+          "sha256": "1b07733af1d4ea8f755af1d31527fc48c65208aff8691573674cb1ab2e92f58d",
+          "bytes": 515
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-26/validation.json",
+          "sha256": "cb4a1c726b9216a74cb92dfd2733a81b3590c06d2420ede541f046382acc94da",
+          "bytes": 2552
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-26/reproduction.json",
+          "sha256": "d8d71eb82a51c55513f1d8dff82f27cfa843010047b8cee733fcade3f9228263",
+          "bytes": 1288
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded glyphs/exact spaces,technical/historical/commercial/contact claims and backup recovery remain unverified.",
+          "Complete four-page article with twelve product entries under four printed category labels. These are parts of canonical0025,not additional canonical article identities or owning group packages. No source byline inferred.",
+          "Thirteen prose joins preserve product-body/address continuations across columns/pages. Thirteen descriptive I/O inventory rows retain their own model and descriptor fields,all physical descriptor wraps and unusual source text;not executable program code.",
+          "All twelve original price displays and twelve inquiry blocks remain literal,including two undetermined prices,foreign-currency range,dual model/price offers,hardware-included condition and prior-purchaser free-update condition. No numeric conversion,current price or contact verification.",
+          "AT COMMAND SEI,V2/5 BIS,Centronix,STEPPIN/R CONTROL,D/T,EXTEN/TION,71MB,12.767 dimensions,보안 wording and vendor/building/name/zero/punctuation candidates remain unverified source readings. No technical,grammar,arithmetic or commercial-claim repair.",
+          "Nine uncaptioned original product photographs,one uncaptioned decorative turtle/computer illustration and four complete page references retained. Headings link photographs as source context;no figure caption or graphic reconstruction invented. Small photographic labels remain original pixels for volunteer transcription.",
+          "Human acceptance/full proofreading,source encoded bytes/exact spaces/glyph identities,software/hardware behavior,historical claims,price/contact validity and independent backup recovery remain unverified. Both maps and all crops/raw drafts/transcripts are retained."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0026",
@@ -3728,6 +3815,46 @@
         "sha256": "d3496072038fa2c79968e9ebf7b97f33be826ca41917a67b0e5138405319a2ae",
         "bytes": 995
       }
+    },
+    {
+      "name": "batch-26",
+      "completed_at": "2026-10-26T23:53:17.764882+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0025"
+      ],
+      "mapped_pdf_pages": [
+        151,
+        152,
+        153,
+        154
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 4,
+      "all_inspected_source_pages": 8,
+      "rendered_but_not_inspected_pdf_pages": [
+        158
+      ],
+      "recognition_tasks": 70,
+      "eng_code": 0,
+      "kor_eng_other": 70,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 11,
+      "map_revisions": 1,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-26/validation.json",
+        "sha256": "cb4a1c726b9216a74cb92dfd2733a81b3590c06d2420ede541f046382acc94da",
+        "bytes": 2552
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-26/reproduction.json",
+        "sha256": "d8d71eb82a51c55513f1d8dff82f27cfa843010047b8cee733fcade3f9228263",
+        "bytes": 1288
+      }
     }
   ],
   "notes": [
@@ -3736,27 +3863,26 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent and restore canonical0025 New Products from original contents reference149/known openingPDF151. Inspect actual ending and adjacent title;at most six verified body pages. Preserve product headings,photographs,pricing/specification/contact fields,column/page continuations and all source claims or mistakes. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
+    "goal": "Verify actual extent and restore canonical0026 Foreign News from original contents reference155/known openingPDF157. Inspect actual ending and adjacent title;at most six verified body pages. Preserve news headings,photos/captions,product/specification/numeric fields,column/page continuations and all source claims or mistakes. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0025"
+      "maso-1988-01-toc-0026"
     ],
-    "canonical_reference": "149",
-    "known_start_pdf_page": 151,
+    "canonical_reference": "155",
+    "known_start_pdf_page": 157,
     "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-25/source-reviewed.json",
-      "sha256": "bdb3d294208fce359f5887ab25f9802b2001c54aec2d96847f90085b0fafdd15",
-      "bytes": 1453
+      "path": "archive/pdf/1988-01/restoration/batch-26/source-reviewed.json",
+      "sha256": "784bfe40567a2de238b3d7ce50e7d0e15af051702ca370a656d051d6a354dc68",
+      "bytes": 1508
     },
     "lookup_pdf_page_candidates": [
-      150,
-      151,
-      152,
-      153,
-      154,
-      155,
       156,
       157,
-      158
+      158,
+      159,
+      160,
+      161,
+      162,
+      163
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3765,16 +3891,16 @@
     }
   },
   "remaining_work": [
-    "30 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
+    "29 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 17,
+    "readable": 18,
     "partial": 0,
     "non_owning_headings": 4,
-    "unresolved": 30
+    "unresolved": 29
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-25/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-26/preservation-inventory.json"
 }
