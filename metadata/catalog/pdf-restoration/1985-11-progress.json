@@ -1423,12 +1423,71 @@
       "toc_entry_id": "maso-1985-11-toc-0014",
       "title": "CRUSH CIRCLES",
       "parent_id": "maso-1985-11-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0014 CRUSH CIRCLES begins246 after Bank Panic ending245 and ends251 before independent Flying Lode Runner opening252. Printed platform SPC-1000 and byline 장 창수 are source candidates; canonical parent0012 remains unresolved.",
+        "All eight complete pages245-252 inspected. Folios245-252 individually visible; no page offset inferred. Six mapped pages246-251 and two outside-map lookups245/252, one canonical task.",
+        "Pages247-249 use left-to-middle-to-right columns, with prose continuing across column/page boundaries. Preserve table-like line/address ranges and variable descriptions as individually indexed source fields. Source technical claims remain unverified.",
+        "Figure1 on248 contains a separate assembly example and terminal interaction. Figure2 on249 contains another assembly example, BASIC example, RUN text, coordinate claims and a spatial data-number key. Preserve every occurrence separately; no semantic equivalence or numerical validation.",
+        "Listing1 on250 is BASIC with printed Korean routine-guide labels and brackets. Rectangular code fragments avoid the separate label crops. Physical wraps may divide identifiers, numbers or quoted blanks. Preserve original grouping and source mistakes.",
+        "Listing2 begins lower-right250 atD600 and continues left then right251, endingD9F8. Each printed row retains an address, data fields and colon/checksum field. Do not assume all rows have eight data cells; preserve observed cells without filling gaps, progression checks, opcode inference or checksum arithmetic.",
+        "Routine-guide labels on250/251 and all bracket geometry remain separate from code data. Full originals retain rules, scan artifacts, title artwork and handwriting. Page249 artwork is also a separate figure.",
+        "No OCR or source correction started at mapping. Complete article is six pages; independent exports and full source/category verification remain. No execution or historical/technical checks.",
+        "Complete article246-251 restored and independently verified across364 files,87 blocks,7 figures and605 transcription rows. Both printed listings, independent examples/commands, range/variable/work-area descriptions and21 routine-guide labels retain source-local fields. Physical wraps, source mistakes, marks and uncertainties preserved without semantic or execution checks."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/crush-circles",
+        "article_id": "scan-maso-1985-11-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/crush-circles/manifest.json",
+          "sha256": "7d0e657f0fe08d674e274527d1ff6b885cb6072ed2e30ab70566492fcce36206",
+          "bytes": 64307
+        },
+        "coverage": {
+          "pdf_pages": [
+            246,
+            247,
+            248,
+            249,
+            250,
+            251
+          ],
+          "printed_pages": [
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "251"
+          ],
+          "regions": 94,
+          "blocks": 87,
+          "figures": 7,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "CRUSH\nCIRCLES",
+        "source_platform": "SPC-1000",
+        "source_byline": "장 창수",
+        "source_byline_note": "Printed opening attribution retained without external identity verification. Parent0012 remains unresolved.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-56/validation.json",
+          "sha256": "0e9fe1473c8c868fd6bf72feb97bca76e4c211b4c3d7311b8628f8e9466fff2b",
+          "bytes": 2424
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-56/reproduction.json",
+          "sha256": "9d5147e083b141d03275a4f0ec88315d9392a0e1443ca583ad37711ff69f3dc0",
+          "bytes": 1678
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0015",
@@ -2968,10 +3027,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 32,
+    "readable": 33,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 14
+    "unresolved_eligibility": 13
   },
   "checkpoints": [
     {
@@ -5335,6 +5394,48 @@
       "started_at": "2026-10-26T08:20:03.046297+00:00",
       "finished_at": "2026-10-26T08:26:29.408062+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-56",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "mapped_pdf_pages": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ],
+      "outside_map_lookup_pages": [
+        245,
+        252
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 87,
+      "english_tasks": 28,
+      "source_correction_passes": 1,
+      "preflight_replacements": 3,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-56/validation.json",
+        "sha256": "0e9fe1473c8c868fd6bf72feb97bca76e4c211b4c3d7311b8628f8e9466fff2b",
+        "bytes": 2424
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-56/verification-completed.json",
+        "sha256": "66a790822ebc0aae3cc07436b4d040cf9194ce96bbcc047efbbb8938cab9db67",
+        "bytes": 2297
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-56-preserved-work.json",
+        "sha256": "2f5281c88f4838376e2dd7d951ee2a82d21f015e3e6a093e5a2ba873a8cd7867",
+        "bytes": 11455737
+      },
+      "started_at": "2026-10-26T08:31:45.321338+00:00",
+      "finished_at": "2026-10-26T09:25:39.075972+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -7780,30 +7881,93 @@
     {
       "pdf_page": 246,
       "printed_page": "246",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "restoration": "complete",
+      "note": "CRUSH CIRCLES canonical0014 fully restored on246-251. Folio individually observed. Printed listings, independent examples/commands, guide labels and source uncertainties preserved; eligible body coverage complete.",
+      "prior_stage_notes": [
+        "CRUSH CIRCLES opens independently on 246 after Bank Panic ends on 245. Platform SPC-1000 and source byline observed. Boundary observation only; no canonical restoration assigned in this checkpoint."
+      ]
+    },
+    {
+      "pdf_page": 247,
+      "printed_page": "247",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "restoration": "complete",
+      "note": "CRUSH CIRCLES canonical0014 fully restored on246-251. Folio individually observed. Printed listings, independent examples/commands, guide labels and source uncertainties preserved; eligible body coverage complete."
+    },
+    {
+      "pdf_page": 248,
+      "printed_page": "248",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "restoration": "complete",
+      "note": "CRUSH CIRCLES canonical0014 fully restored on246-251. Folio individually observed. Printed listings, independent examples/commands, guide labels and source uncertainties preserved; eligible body coverage complete."
+    },
+    {
+      "pdf_page": 249,
+      "printed_page": "249",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "restoration": "complete",
+      "note": "CRUSH CIRCLES canonical0014 fully restored on246-251. Folio individually observed. Printed listings, independent examples/commands, guide labels and source uncertainties preserved; eligible body coverage complete."
+    },
+    {
+      "pdf_page": 250,
+      "printed_page": "250",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "restoration": "complete",
+      "note": "CRUSH CIRCLES canonical0014 fully restored on246-251. Folio individually observed. Printed listings, independent examples/commands, guide labels and source uncertainties preserved; eligible body coverage complete."
+    },
+    {
+      "pdf_page": 251,
+      "printed_page": "251",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0014"
+      ],
+      "restoration": "complete",
+      "note": "CRUSH CIRCLES canonical0014 fully restored on246-251. Folio individually observed. Printed listings, independent examples/commands, guide labels and source uncertainties preserved; eligible body coverage complete."
+    },
+    {
+      "pdf_page": 252,
+      "printed_page": "252",
       "classification": "article-opening-observed",
       "toc_entry_ids": [],
       "restoration": "pending",
-      "note": "CRUSH CIRCLES opens independently on 246 after Bank Panic ends on 245. Platform SPC-1000 and source byline observed. Boundary observation only; no canonical restoration assigned in this checkpoint."
+      "note": "Flying Lode Runner opens independently on252 after CRUSH CIRCLES ends251. Folio individually visible. Boundary observation only; canonical0015 full extent and restoration remain unverified."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-56",
-    "goal": "Verify the complete extent and restore canonical0014 CRUSH CIRCLES, opening246. Inspect ending and adjacent boundaries before mapping246-251 as a complete article or bounded opening segment. Preserve canonical title, identity, attribution, parent0012 and all literal code/source uncertainties.",
+    "id": "batch-57",
+    "goal": "Verify full source extent and restore canonical0015 Flying Lode Runner, opening observed252. Inspect ending and adjacent boundaries before mapping at most six pages. Preserve literal listings, examples, source title/byline and canonical parent0012; do not infer parent classification from children.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0014"
+      "maso-1985-11-toc-0015"
     ],
-    "mapping_targets": [
-      246,
-      247,
-      248,
-      249,
-      250,
-      251
-    ],
+    "mapping_targets": "Opening252 observed; full extent not yet established. Map at most six pages after boundary review.",
     "provisional_lookup_targets": [
-      245,
-      252
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259
     ],
     "limits": {
       "articles": 2,
@@ -7815,7 +7979,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-two readable articles; no partial article or pending assembly. Fourteen unresolved identities, cover, full266-page accounting and issue closeout remain. Parent0012 unresolved. Software Contest0035 page-176 hint, parents0002,0020,0026,0040 and Back-Issue Guide0033 unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216 remain null; no parent classification inferred from children. Bank Panic complete with private bank-panic-literal-v1 adapter; retain prior four private adapters for full selected-package audits. Batch54 original inventory has one documented recorder-log growth exception; selected stable revision02 requires no exception."
+    "Thirty-three readable articles; no partial article or pending assembly. Thirteen unresolved identities, cover, full266-page accounting and issue closeout remain. CRUSH CIRCLES0014 complete246-251; Flying Lode Runner0015 opening252 observed, later extent unverified. Parent0012 unresolved. Software Contest0035 page-176 hint, parents0002,0020,0026,0040 and Back-Issue Guide0033 unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216 remain null. Retain all five private assembly adapters for full selected-package audits. Batch54 original inventory has one documented recorder-log growth exception; selected stable revision02 requires none. All responses, progress logs and documentation use English; literal source retains its language."
   ],
   "reader_rebuild": false
 }

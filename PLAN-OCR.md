@@ -23,51 +23,41 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- November 1985 remains in progress: thirty-two readable, assistant sample-reviewed
-  articles, no partial article or pending assembly, and fourteen unresolved identities.
-  Batch 55 completes Bank Panic 0013 assembly, pages 228-245. All 453 files match an
-  independent rebuild, including all 444 immutable native files. The complete package
-  retains 126 regions, 97 blocks, 29 figures and 2,328 transcription rows.
-  All 58 native array categories, 174 category slices, nine object projections,
-  twelve reserved lists and three scalars preserve their source state. All 94,254
-  independently projected ranges, 206,358 total UTF-8 range occurrences, 207,767 evidence
-  pins and 126 images validate; 340 nonfigure pairs are disjoint. Nine obsolete active
-  stage notes are resolved, with original notes retained in native metadata.
-  Four printed listings retain 228 BASIC statements, 99 wrapped statements, three
-  cross-column statements, 1,240 table data rows, 62 groups and 13,020 literal fields.
-  Both segment boundaries remain linked without text changes. Repeated addresses
-  6000-6078 in listings 2 and 3 retain distinct source occurrences. Both P:26 label
-  candidates remain distinct; the page-240 6/8 ambiguity remains explicit.
-  Opening prose, eighty memory-map pairs, 24 diagram cells including two blanks,
-  fourteen key entries, five glossary entries and 29 screen fields remain intact.
-  Handwriting, quoted spacing, unknown-count bands and listing 4's damaged rU(P/G)
-  continuation remain source candidates. No code, address or checksum validation.
-  No new mapping, OCR, correction or source viewing. Startup, recipe, adapter,
-  both exports and independent verifier succeeded on their first executions.
-  All 48,596 prior files, 54 selected inventories and thirty core pins are unchanged.
-  The unchanged 213-test baseline is reused. Current preservation: 49,532 issue files.
-  Reproduction: `archive/pdf/1985-11/restoration/batch-55/reproduction.json`.
-  The private `bank_panic_literal.py` adapter is required to reproduce/check this
-  assembly. Retain the existing Lessons from Apple, Hangul, PLAY and numerical-analysis
-  adapters for other assembled packages. Batch 54's original inventory retains its
-  exact recorder-log growth supplement; selected stable revision 02 needs no exception.
-  Batch 56 preparation establishes CRUSH CIRCLES 0014 on pages 246-251, between
-  Bank Panic ending 245 and Flying Lode Runner opening 252. Eight full views and all
-  94 exact regions were inspected. Three crop-margin repairs preceded 87 pinned OCR
-  tasks: 28 English and 59 Korean/English; all raw drafts were read, with zero retries.
-  The single source correction and independent complete-article exports remain.
-  Resume from `archive/pdf/1985-11/restoration/batch-56/continuation.json`.
-  Parent 0012 remains unresolved. Software Contest 0035's page-176 hint,
-  parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved.
-  Folios 175-177, 210 and 216 remain null. Cover, remaining identities, full 266-page
-  accounting and issue closeout remain.
-  Replies, logs and documentation use English; original source retains its language.
-  No reader rebuild. Human acceptance/full proofreading, original bytes, spacing,
-  glyph identity, technical/historical claims and execution remain unverified.
-  Existing batch 28 MSX Corners, batch 20 Lessons from Apple, batch 17 Hangul
-  feature, batch 14 PLAY and batch 09 numerical-analysis adapters remain required
-  for complete assemblies.
-  [November log](docs/progress/8511.md), [ledger](metadata/catalog/pdf-restoration/1985-11-progress.json).
+- November 1985 remains in progress: thirty-three readable, assistant sample-reviewed
+  articles, no partial article or pending assembly, and thirteen unresolved identities.
+  Batch 56 completes CRUSH CIRCLES 0014, pages 246-251. All 364 files match an
+  independent rebuild. The complete package has 94 regions, 87 blocks, seven figures
+  and 605 transcription rows. All 11,853 UTF-8 ranges, 12,308 evidence pins and
+  94 images validate; 730 nonfigure pairs are disjoint.
+  Two printed listings retain 69 BASIC statements, seven wrapped statements, one
+  cross-fragment continuation and 128 machine-table rows with 1,280 literal fields.
+  Three commands and two independent examples retain their own source occurrences.
+  Fifteen variable definitions, twelve BASIC routine references, 26 machine routine
+  references, nine work-area fields, two cursor fields and three spatial data keys
+  remain indexed. Twenty-one routine-guide labels retain their original bracket
+  geometry and visible row associations without inferred instruction boundaries.
+  Forty-eight source variants and five unknown bands preserve uncertain glyphs,
+  quoted blanks, ellipsis, decorative angles and spatial-brace padding. Source SK/AK,
+  SPC(2B), D908 and physical numeric wraps remain literal. No semantic, opcode,
+  checksum, address, arithmetic, hardware, historical or execution validation.
+  All 87 pinned OCR tasks completed without retries; every raw draft was read before
+  one source correction pass. Three crop-margin repairs preceded OCR. Original and
+  revised maps/crops, failed preparation attempts and all source evidence remain.
+  All 49,532 prior files, 55 selected inventories and thirty core pins are unchanged.
+  The unchanged 213-test baseline is reused. Current preservation: 51,085 issue files.
+  Reproduction: `archive/pdf/1985-11/restoration/batch-56/reproduction.json`.
+  Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
+  private adapters for other complete packages. Batch 54's original inventory keeps
+  its exact recorder-log growth supplement; selected stable revision 02 needs none.
+  Next batch 57 verifies Flying Lode Runner 0015 from its observed opening on 252;
+  the later extent remains unverified. Parent 0012 remains unresolved. Software
+  Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue
+  Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null. Cover,
+  remaining identities, full 266-page accounting and issue closeout remain.
+  Replies, progress logs and documentation use English; literal source retains its
+  original language. No reader rebuild. Human acceptance/full proofreading, source
+  encoded bytes, spacing, glyph identity and historical/technical claims remain
+  unverified. The full November goal remains active.
 - October 1985 is complete under canonical TOC JSON/assets: 39 identities,
   35 readable/sample-reviewed articles, four non-owning headings, zero partial/
   unresolved/pending assemblies. All 9,031 issue files independently exact, including

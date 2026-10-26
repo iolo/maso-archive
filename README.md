@@ -171,14 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty-two articles are readable,
-none is partial and fourteen of 46 identities remain unresolved. Bank Panic is
-complete on pages 228-245; all 453 files match an independent rebuild, including
-444 retained native files. Four printed listings and all source uncertainties remain.
-CRUSH CIRCLES pages 246-251 have reviewed crops and completed OCR drafts; source
-correction and exports remain. Cover, remaining identities and whole-issue
-accounting remain. Progress logs and documentation use English; source retains
-its original language.
+November 1985 restoration is in progress: thirty-three articles are readable,
+none is partial and thirteen of 46 identities remain unresolved. CRUSH CIRCLES is
+complete on pages 246-251; all 364 files match an independent rebuild. Both printed
+listings, independent examples/commands, routine-guide labels and source
+uncertainties remain. Next: verify Flying Lode Runner from its opening on 252.
+Cover, remaining identities and whole-issue accounting remain. Responses, progress
+logs and documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
