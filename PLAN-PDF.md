@@ -24,42 +24,38 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-26
 
-November 1985 remains in progress: thirty-eight readable, assistant sample-reviewed
-articles, no partial article or pending assembly, and eight unresolved identities.
-Batch 60 completes Back-Issue Guide 0033 across six panels on pages 51, 99, 103,
-169, 256 and 263. All 174 files match an independent rebuild. The complete package
-retains 46 regions, forty prose blocks, six guide-area figures and 269 physical rows.
-All 6,081 UTF-8 ranges, 6,306 evidence pins and 46 decoded images validate.
-Sixteen month catalogs retain 227 entries, including 28 nested subitems and fifteen
-group headings. Nine wrapped entries retain separate physical rows. All 358 fields,
-131 printed slash separators, fourteen internal CP/M or PL/1 tokens, 97 circled
-letter occurrences and one three-letter cluster remain source-local. No platform
-meanings, author identities or historical contents were inferred. Twenty-seven
-feature labels, 27 Roman-glyph fields and 890 literal fields retain source ranges.
-Six ordering/date/account fields, two quotations, three instruction wraps and the
-printed notice/list inconsistency remain literal. Thirty-seven indentation bands
-use editorial spaces with unknown original counts. Forty source-variant records
-retain glyph, title, name, spelling and punctuation candidates.
-Five upper article bodies and the lower 263 book advertisement remain explicitly
-excluded. Six selected originals contain only guide panels; full pages stay separate
-boundary/folio evidence. All 115 internal and 275 prior-body nonfigure comparisons
-are disjoint. Existing neighboring packages and canonical identities are unchanged.
-All forty raw OCR drafts were read before one source pass; zero retries. Original
-and revised maps/crops retain six pre-OCR margin repairs. Mapping, repair, source
-scripts, serializer, both exports and the verifier passed on first execution.
-All 52,858 prior files, 59 selected inventories and thirty core pins remain exact.
-The unchanged 213-test baseline is reused. Current preservation: 53,646 issue files.
-Reproduction: `archive/pdf/1985-11/restoration/batch-60/reproduction.json`.
+November 1985 remains in progress: thirty-nine readable entries, no partial
+article or pending assembly, one non-owning heading and six unresolved identities.
+Batch 61 restores invitation 0011 as the complete bounded notice printed on the
+unpaginated contents spread, PDF page 19. Its anniversary header, four paragraph
+rows, three title rows and keyboard photograph remain source-linked. No interior
+article page, byline, rules, deadline or prizes were inferred. Four complement
+exclusions keep other contents material separate; the selected original is only
+the notice area. Five model strings, four printed claims, two physical wraps and
+seven localized candidate records retain source wording and unresolved identities.
+Both 22-file exports match exactly. All 95 UTF-8 ranges, 120 notice evidence pins
+and five decoded source images validate. All three raw drafts were read before
+one direct source pass; no recognition retry. Three pre-OCR margin repairs retain
+both maps and every crop. No reader or HTML rebuild was performed.
+TIPS 0016 is a non-owning heading supported by original contents hierarchy and
+repeated child branding. Its three complete children cover pages 37-41 with six
+page assignments. All 72 shared-page body-region comparisons on 40 are disjoint;
+shared folio evidence confers no parent ownership. All child packages and canonical
+identities, titles, order and parents remain unchanged. Classification revision 02
+pins an immutable prior-ledger snapshot; the initial decision remains retained.
+All 53,646 prior files, 60 selected inventories and thirty core pins remain exact.
+The unchanged 213-test baseline is reused. Current preservation: 53,799 issue files.
+Reproduction: `archive/pdf/1985-11/restoration/batch-61/reproduction.json`.
 Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
 private adapters. Batch 54's original inventory retains its recorder-log growth
-supplement; selected stable revision 02 needs none. No reader/HTML rebuild.
-Next batch 61 investigates the missing-page contest invitation 0011 and TIPS 0016
-using pinned TOC/current evidence and bounded source lookup. Parents 0002,0012,
-0020,0026,0040 and Software Contest 0035's page-176 hint also remain unresolved.
-Folios 175-177,210,216,257,258,265 and 266 remain null. Cover, remaining identities,
-full 266-page accounting and issue closeout remain. Replies, progress logs and
-documents use English; literal source retains its original language. Human
-acceptance/full proofreading, source bytes, exact spacing and glyph identity remain
+supplement; selected stable revision 02 needs none.
+Next batch 62 investigates Software Contest 0035's page-176 hint and Technical
+parent 0002. The independently restored diskette notice on 176 is a separate
+identity. Parents 0012, 0020, 0026 and 0040 also remain unresolved. Folios 17-25,
+175-177, 210, 216, 257, 258, 265 and 266 remain null. Cover, full 266-page accounting
+and issue closeout remain. Responses, progress logs and documentation use English;
+literal source retains its original language. Human acceptance, full proofreading,
+original bytes, exact spacing, glyph identities and historical claims remain
 unverified. The full November goal remains active.
 
 ## October 1985 closeout, 2026-10-25

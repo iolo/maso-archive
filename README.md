@@ -171,12 +171,12 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty-eight articles are readable,
-none is partial and eight of 46 identities remain unresolved. Back-Issue Guide is
-complete across six panels; all 174 files match an independent rebuild. Its sixteen
-month catalogs preserve 227 entries, hierarchy, wraps, fields and circled glyphs.
-Neighboring articles and the book advertisement are excluded. Next: investigate
-the contest invitation and TIPS identities. Cover, remaining identities and
+November 1985 restoration is in progress: thirty-nine entries are readable,
+none is partial, TIPS is one non-owning heading, and six of 46 identities remain
+unresolved. The contest invitation is restored from its complete notice on the
+unpaginated contents spread; all 22 files match an independent rebuild. TIPS groups
+three unchanged complete articles and owns no body pages. Next: investigate
+Software Contest and the Technical heading. Cover, remaining identities and
 whole-issue accounting remain. Responses, logs and documentation use English;
 literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
