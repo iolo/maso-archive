@@ -1911,21 +1911,121 @@
       "toc_entry_id": "maso-1988-01-toc-0019",
       "title": "소프트웨어 소개",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source contentsPDF11 shows 소프트웨어 소개 without separate page/body reference above two independently titled children MSX-DOS TOOLS100 and 터보 파스칼 유틸리티 툴박스106. Canonical0019 is a non-owning group heading;no duplicated parent body/package is assigned.",
+        "Canonical0020 independently opens source MSX-DOS TOOLS,category 소프트웨어 소개,machine MSX,MSX₂,on printed100/PDF102. No visible source byline is inferred.",
+        "PriorPDF101 is full Daewoo competition promotion. NextPDF108 independently opens 터보 파스칼 유틸리티 툴박스 with the same source category heading and its own title/body. Actual extent verified without TOC-derived ending or global folio offset."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1988-01/restoration/batch-22/software-introduction-heading-decision.json",
+        "sha256": "79a2322221e32870abbce44c865050f678c0a33343c55313c1ad1dadb002a7df",
+        "bytes": 1969
+      },
+      "ownership_review": "resolved-from-original-contents-and-independent-child-openings;decision-preparation-pending-flag-is-provenance",
+      "restoration": null
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0020",
       "title": "MSX-DOS TOOLS",
       "parent_id": "maso-1988-01-toc-0019",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source contentsPDF11 shows 소프트웨어 소개 without separate page/body reference above two independently titled children MSX-DOS TOOLS100 and 터보 파스칼 유틸리티 툴박스106. Canonical0019 is a non-owning group heading;no duplicated parent body/package is assigned.",
+        "Canonical0020 independently opens source MSX-DOS TOOLS,category 소프트웨어 소개,machine MSX,MSX₂,on printed100/PDF102. No visible source byline is inferred.",
+        "Body continues through all six actual pages102–107/printed100–105. Final left column of107 completes command28 Wc and its example/explanation;lower left has uncaptioned tools/floppy product images.",
+        "PDF107 right boxed 새로나온 MSX용 유틸리티 디스크3편 is a separate promotion/editorial disk-contents panel,not the MSX-DOS TOOLS command guide. Preserve explicit mixed-page exclusion;do not substitute this panel for canonical debugging-room0023 whose TOC reference105 remains separate. No classification/location decision for0023 is made here.",
+        "PriorPDF101 is full Daewoo competition promotion. NextPDF108 independently opens 터보 파스칼 유틸리티 툴박스 with the same source category heading and its own title/body. Actual extent verified without TOC-derived ending or global folio offset.",
+        "Twenty-eight numbered command headings are visible in source order1Beep2Bio3Body4Bsave5Cal6Calc7Chkdsk8Cls9Diskcopy10Dump11Echo12Expand13Grep14Head15Help16Key17List18Ls19Menu20More21Patch22Sleep23Sort24Tail25Tr26Uniq27View28Wc. Preserve literal syntax/options/placeholders,examples,key list and physical wraps;source deck says30 tools while body says28. No command/behavior/version/claim repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-22-r01/msx-dos-tools",
+        "article_id": "scan-maso-1988-01-toc-0020",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-22-r01/msx-dos-tools/manifest.json",
+          "sha256": "3c270f630edc643f70db1a28b7dc804e5947d0176010b55c25ce8b27e705d44c",
+          "bytes": 100205
+        },
+        "coverage": {
+          "pdf_pages": [
+            102,
+            103,
+            104,
+            105,
+            106,
+            107
+          ],
+          "printed_pages": [
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105"
+          ],
+          "regions": 154,
+          "blocks": 135,
+          "code_units": 61,
+          "physical_code_rows": 85,
+          "command_entries": 28,
+          "command_fields": 347,
+          "syntax_units": 28,
+          "example_units": 33,
+          "view_key_rows": 10,
+          "view_key_fields": 20,
+          "patch_key_mappings": 4,
+          "figures": 11,
+          "regional_transcripts": 143,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            102,
+            103,
+            104,
+            105,
+            106,
+            107
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf107-utility-disk3-promotion"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-22",
+        "latest_checkpoint": "batch-22",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-22/msx-dos-tools-r02/article-scope.json",
+          "sha256": "204f8faeae1ff1961c9d0b1e21a4ab059f5bf658c4f1c0d6b81d6e8a5afe6641",
+          "bytes": 662
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-22/validation.json",
+          "sha256": "f6d794ea37f3dbe3fa33877122aeb552dcb5a693b3962bd33dcf7e43e81911c9",
+          "bytes": 2729
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-22/reproduction.json",
+          "sha256": "dd632a620cd7605a9c39856afd1b957d35eba20d692fc17eef053d25e6999e43",
+          "bytes": 1289
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded glyphs/exact spaces,software/version/historical claims and execution remain unverified.",
+          "Complete six-page article with28 numbered command entries,28 formal syntax units and33 example displays;no standalone executable program inferred. Source30-tools/deck versus28 command headings remains literal.",
+          "All physical command/placeholder/filename/paragraph wraps retained. Upper/lowercase options,odd/missing-looking brackets,separator/quote/angle readings and source description errors remain unnormalized.",
+          "Sourcew0D/dirw0d control notation,slash-l/I/1,zero/slash-zero,Q/O,period/comma,ellipsis counts and cursor/key glyph identities remain unverified;no encoded control bytes inferred.",
+          "Source View list has ten key/action rows and no colon on left-arrow row. Patch has four source key/action mappings including wrapped X action. No headers or missing punctuation invented.",
+          "Original uncaptioned tools/floppy photographs and View key panel retained;product-image label transcription remains volunteer work. Eight complete page/body/header/folio reference views follow primary text/panels.",
+          "Independent final right disk3 promotion/editorial contents inset excluded;do not substitute it for canonical0023 debugging-room TOC105,whose location remains unresolved. Parent0019 is a non-owning heading;no parent package/body."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0021",
@@ -3240,6 +3340,58 @@
         "bytes": 4075
       },
       "index_mode": "legacy-toc-input-v1"
+    },
+    {
+      "name": "batch-22",
+      "completed_at": "2026-10-26T22:45:13.036674+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0019",
+        "maso-1988-01-toc-0020"
+      ],
+      "mapped_pdf_pages": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 3,
+      "all_inspected_source_pages": 9,
+      "rendered_but_not_inspected_pdf_pages": [
+        99,
+        100,
+        109,
+        110
+      ],
+      "recognition_tasks": 143,
+      "eng_code": 61,
+      "kor_eng_other": 82,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_refined_regions": 131,
+      "before_ocr_refinement_occurrences": 165,
+      "map_revisions": 2,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article-and-non-owning-heading",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-22/validation.json",
+        "sha256": "f6d794ea37f3dbe3fa33877122aeb552dcb5a693b3962bd33dcf7e43e81911c9",
+        "bytes": 2729
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-22/reproduction.json",
+        "sha256": "dd632a620cd7605a9c39856afd1b957d35eba20d692fc17eef053d25e6999e43",
+        "bytes": 1289
+      },
+      "heading_decision": {
+        "path": "archive/pdf/1988-01/restoration/batch-22/software-introduction-heading-decision.json",
+        "sha256": "79a2322221e32870abbce44c865050f678c0a33343c55313c1ad1dadb002a7df",
+        "bytes": 1969
+      }
     }
   ],
   "notes": [
@@ -3248,26 +3400,27 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify canonical0019 소프트웨어 소개 as heading versus body owner from original contents/child openings,and verify actual extent of0020 MSX-DOS TOOLS from printed reference100. InitialPDF99–110 are lookup candidates only. Restore at most six verified body pages;retain longer body as immutable partial natives until full assembly. No invented parent body,TOC-derived ending or global folio offset.",
+    "goal": "Verify actual extent and restore canonical0021 터보 파스칼 유틸리티 툴박스 from printed106/known openingPDF108. Inspect adjacent source and at most six verified body pages;preserve debugger screenshots,commands,key/option tables,physical wraps and source mistakes. A longer body remains partial until all immutable natives and separate assembly. No TOC-derived ending or global folio offset.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0019",
-      "maso-1988-01-toc-0020"
+      "maso-1988-01-toc-0021"
     ],
-    "canonical_reference": "100",
+    "canonical_reference": "106",
+    "known_start_pdf_page": 108,
+    "prior_opening_evidence": {
+      "path": "archive/pdf/1988-01/restoration/batch-22/source-reviewed.json",
+      "sha256": "8a79195f46c264f2110278384ff9d16df1c3d8ba94797fd1b191141b14f6abd8",
+      "bytes": 2870
+    },
     "lookup_pdf_page_candidates": [
-      11,
-      99,
-      100,
-      101,
-      102,
-      103,
-      104,
-      105,
-      106,
       107,
       108,
       109,
-      110
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3276,16 +3429,16 @@
     }
   },
   "remaining_work": [
-    "35 canonical identities still need source classification/restoration. Beagle0017,dBASE0016,MAGIC KEY0014 and RAM-removal0013 are complete/readable with no deferred body pages or pending article assembly. Utility0011 and Techniques0015 are verified non-owning headings.",
+    "33 canonical identities still need source classification/restoration. No classified article has deferred body pages or a pending complete article assembly. Utility0011,Techniques0015 and Software Introduction0019 are verified non-owning headings;legacy0018 input reproduction/adoption is complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 14,
+    "readable": 15,
     "partial": 0,
-    "non_owning_headings": 2,
-    "unresolved": 35
+    "non_owning_headings": 3,
+    "unresolved": 33
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-21/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-22/preservation-inventory.json"
 }

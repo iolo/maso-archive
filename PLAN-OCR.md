@@ -23,38 +23,37 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, fourteen readable/sample-reviewed articles,
-  two non-owning headings and 35 unresolved identities. No classified article has
-  deferred body pages or pending complete assembly. Batch21 resolves legacy0018
-  Turbo Pascal TOC-input reproduction/adoption. Selected packages/batch-21-r01/
-  turbo-pascal and independent export each53 exact files/4,189,467 bytes;all52 native
-  data files unchanged,only manifest regenerated to omit previewHTML/CSS. Original55
-  package/79 input files remain exact. No new HTML/OCR/mapping/source correction.
-  Exact old TOC recovered from Git a0cf997,pinned legacy context passes normal source
-  validation;separate current eligibility view verifies source/geometry/identity
-  without altering native/old pin. Current/old target line/group agree. Default
-  current-root old-TOC rejection and wrong TOC/identity guards remain strict.
-  Retain batch-21/legacy_input_r01.py/legacy-toc-input-v1,exact context and identity
-  record in issue dispatcher. Standard data export retains old TOC. Supplementary
-  indexes add no corrections:11 block/16 regional ranges,five joins,one caption/link,
-  19 physical code rows/16 BASIC labels/three wraps/74 tokens. All154 UTF-8 ranges/
-  198 pins/11 images and source crop pixels pass. Actual94–95 extent and adjacent
-  93/96 inspected;lower95 unlisted monitor remains excluded. One task/two existing
-  body pages/zero new mapped/two outside lookups. All11 inherited OCR settings pinned:
-  one eng/ten kor+eng. All14,597 prior files/134 pilot/thirty core pins exact;unchanged
-  213-test baseline reused,no fresh run. Blank marker,MEM punctuation,string wraps
-  and all source glyph/space/claim limits unchanged. Main reproduction_pending
-  resolved;original wording stays provenance. No readable-total increase.
-  MAGIC KEY/RAM-removal remain complete;retain batch-18/magic_literal_r02.py/
-  magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1 too.
-  Next verify0019 소프트웨어 소개 and restore0020 MSX-DOS TOOLS from printed100;
-  contents11/PDF99–110 are lookup candidates only. Remaining35 identities,accounting/
+- January 1988 is active: 51 identities, fifteen readable/sample-reviewed articles,
+  three non-owning headings and 33 unresolved identities. No classified article has
+  deferred body pages or pending complete assembly. Batch22 completes0020 MSX-DOS
+  TOOLS,printed100–105/PDF102–107. Selected packages/batch-22-r01/msx-dos-tools:
+  592 independently exact files/45,459,283 bytes,154 regions/135 blocks/143 transcripts/
+  eleven originals. Twenty-eight commands/28 syntax units/33 examples retain61 code
+  units/85 physical rows/347 fields;View10 rows/20 fields and Patch4 mappings remain.
+  Eight prose joins,six source connections,three primary panels/photos and eight
+  reference views pass. No printed captions invented. Software Introduction0019 is
+  a non-owning heading from contents/child openings. Final right disk3 promotion
+  excluded;not substituted for debugging-room0023 TOC105,whose location is unresolved.
+  Initial/two revised maps/crops retained:130 margin+35 coverage refinements,131
+  unique regions before first OCR. All154 final crops viewed before143 recognitions;
+  all drafts read before one source pass. Pinned Tesseract61 eng/82 kor+eng,zero
+  failures/retries/post-OCR repairs. All5,278 UTF-8 ranges/5,462 pins/154 images and
+  source crop pixels pass. Two tasks/six mapped/three outside lookups;99/100/109/110
+  rendered only. All14,844 prior files/134 pilot/thirty core exact;unchanged213-test
+  baseline reused,no fresh run. Source30/28 claims,case,odd/missing-looking brackets,
+  control/key/glyph/space candidates and physical wraps retained;no command repair.
+  Legacy0018 adoption remains complete:53-file data export/52 unchanged native data
+  files/old TOC;all55 originals retained. Keep batch-21/legacy_input_r01.py/
+  legacy-toc-input-v1 with exact context/current identity guard in issue dispatcher,
+  plus batch-18/magic_literal_r02.py/magic-key-literal-v1 and batch-15/ram_literal_r01.py/
+  ram-removal-literal-v1. Next verify0021 터보 파스칼 유틸리티 툴박스 from printed106/
+  knownPDF108;107–115 are lookup candidates only. Remaining33 identities,accounting/
   cover/export/audit pending. Human acceptance/proofreading,bytes/spaces/glyphs/
   claims/execution/backup unverified. No reader rebuild.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-21/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-21/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-22/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-22/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
