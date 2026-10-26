@@ -24,47 +24,42 @@ records below are historical and do not authorize a new rebuild.
 
 ## November 1985 active restoration, 2026-10-26
 
-November 1985 remains in progress: thirty-three readable, assistant sample-reviewed
-articles, no partial article or pending assembly, and thirteen unresolved identities.
-Batch 56 completes CRUSH CIRCLES 0014, pages 246-251. All 364 files match an
-independent rebuild. The complete package has 94 regions, 87 blocks, seven figures
-and 605 transcription rows. All 11,853 UTF-8 ranges, 12,308 evidence pins and
-94 images validate; 730 nonfigure pairs are disjoint.
-Two printed listings retain 69 BASIC statements, seven wrapped statements, one
-cross-fragment continuation and 128 machine-table rows with 1,280 literal fields.
-Three commands and two independent examples retain their own source occurrences.
-Fifteen variable definitions, twelve BASIC routine references, 26 machine routine
-references, nine work-area fields, two cursor fields and three spatial data keys
-remain indexed. Twenty-one routine-guide labels retain their original bracket
-geometry and visible row associations without inferred instruction boundaries.
-Forty-eight source variants and five unknown bands preserve uncertain glyphs,
-quoted blanks, ellipsis, decorative angles and spatial-brace padding. Source SK/AK,
-SPC(2B), D908 and physical numeric wraps remain literal. No semantic, opcode,
-checksum, address, arithmetic, hardware, historical or execution validation.
-All 87 pinned OCR tasks completed without retries; every raw draft was read before
-one source correction pass. Three crop-margin repairs preceded OCR. Original and
-revised maps/crops, failed preparation attempts and all source evidence remain.
-All 49,532 prior files, 55 selected inventories and thirty core pins are unchanged.
-The unchanged 213-test baseline is reused. Current preservation: 51,085 issue files.
-Reproduction: `archive/pdf/1985-11/restoration/batch-56/reproduction.json`.
+November 1985 remains in progress: thirty-four readable, assistant sample-reviewed
+articles, no partial article or pending assembly, and twelve unresolved identities.
+Batch 57 completes Flying Lode Runner 0015, pages 252-upper256. All 219 files match
+an independent rebuild. The complete package has 57 regions, 51 blocks, six figures
+and 417 transcription rows. All 6,065 UTF-8 ranges, 6,342 evidence pins and 57 images
+validate; 268 nonfigure pairs are disjoint. Lower256 Back-Issue Guide is explicitly
+excluded and remains unrestored; full256 stays separate boundary evidence.
+One BASIC listing retains 187 statements, seven wraps and three cross-region
+continuations. Twenty-four DATA rows retain 192 opaque character candidates in
+three source groups, without binary or sprite interpretation. Two command blocks,
+fifteen variable descriptions, 21 variable-label fields, 33 routine references,
+eleven guide labels and one unlabeled bracket retain their own source occurrences.
+Four prose continuations, ten explicit literal wraps, seventeen quoted literals,
+48 source variants and four unknown bands preserve glyph/spacing uncertainty.
+Source R(8)/R(6), MISTERY/MYSTERY, XY/X/Y, GV/ME and ambiguous identifier glyphs
+remain independent. Page256 gold/mystery guide labels stay where printed. No
+syntax, arithmetic, behavior, hardware, historical or execution validation.
+All 51 OCR drafts were read before one source pass; zero recognition retries.
+Two pre-OCR crop-review rounds retained all three map/crop revisions. The initial
+metadata draft split two numeric continuation rows into apparent statement starts;
+it remains unselected. Revision02 preserves observed4410/4600 associations without
+changing transcripts. Both exports and the verifier passed on first execution.
+All 51,085 prior files, 56 selected inventories and thirty core pins are unchanged.
+The unchanged 213-test baseline is reused. Current preservation: 52,124 issue files.
+Reproduction: `archive/pdf/1985-11/restoration/batch-57/reproduction.json`.
 Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
-private adapters for other complete packages. Batch 54's original inventory keeps
-its exact recorder-log growth supplement; selected stable revision 02 needs none.
-Batch 57 preparation establishes Flying Lode Runner 0015 on pages 252-upper256.
-All nine full views and 57 exact regions were inspected; the independent lower256
-Back-Issue Guide panel is excluded. Two crop-review rounds made 26 adjustments to
-nineteen regions before 51 pinned OCR tasks: 21 English and 30 Korean/English.
-Every raw draft was read, with zero recognition retries. One source correction
-pass and independent complete-article exports remain. Resume from
-`archive/pdf/1985-11/restoration/batch-57/continuation.json`.
-Parent 0012 remains unresolved. Software
-Contest 0035's page-176 hint, parents 0002, 0020, 0026 and 0040, and Back-Issue
-Guide 0033 remain unresolved. Folios 175-177, 210 and 216 remain null. Cover,
-remaining identities, full 266-page accounting and issue closeout remain.
-Replies, progress logs and documentation use English; literal source retains its
-original language. No reader rebuild. Human acceptance/full proofreading, source
-encoded bytes, spacing, glyph identity and historical/technical claims remain
-unverified. The full November goal remains active.
+private adapters. Batch54's original inventory retains its recorder-log growth
+supplement; selected stable revision02 needs none. No reader/HTML rebuild.
+Next batch 58 verifies Classifieds0037, opening258 with continuation259; its ending
+remains unverified. Parent0012 and Back-Issue Guide0033 remain unresolved, along
+with Software Contest0035's page-176 hint and parents0002,0020,0026,0040.
+Folios175-177,210,216,257 and258 remain null. Cover, remaining identities, full
+266-page accounting and issue closeout remain. Replies, logs and documents use
+English; literal source retains its original language. Human acceptance/full
+proofreading, source bytes, exact spacing and glyph identity remain unverified.
+The full November goal remains active.
 
 ## October 1985 closeout, 2026-10-25
 

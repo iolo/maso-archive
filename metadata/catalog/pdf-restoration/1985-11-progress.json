@@ -1493,12 +1493,133 @@
       "toc_entry_id": "maso-1985-11-toc-0015",
       "title": "날으는 로드런너",
       "parent_id": "maso-1985-11-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0015 opens252 after CRUSH CIRCLES ending251. Title is the printed Korean source title; MSX platform/series labels are present. No source byline is visible in the complete article. Canonical title, identity and parent0012 remain unchanged.",
+        "Complete body extent252-256 established by visual inspection of every full page251-259. BASIC listing ends at5210 RETURN in upper256. Lower256 is an independent Back-Issue Guide panel;257 is a tape-sale advertisement,258 opens classifieds and259 continues them. No later article body inferred.",
+        "Mapped pages252-256 have individually observed printed folios252-256. Outside lookups251,257,258,259:251 and259 have visible folios;257 and258 have no observed folio and remain null. No offset inference.",
+        "Pages253-254 contain input/save/load commands, gameplay prose, line-range explanations and variable descriptions with column/page continuations. Preserve source spelling, numbers and claims literally; no program/historical validation.",
+        "One BASIC listing begins254 at10 and continues255 left-to-right, then256 left-to-right, ending5210. Physical rows wrap identifiers, numbers and quoted text; statement4600 crosses the256 columns. Each source fragment remains separate without encoded joins or syntax repair.",
+        "Korean routine-guide labels and bracket/rule geometry remain distinct from BASIC source. Rectangular fragments avoid label overlap. DATA glyphs, quoted blanks, source variable discrepancies and scan/fold lines remain source evidence without expected-value repair.",
+        "The full256 source view remains immutable boundary evidence. Selected original figure on256 covers only the upper article area so it cannot overlap the independent lower Back-Issue Guide exclusion. The four earlier complete pages and opening artwork retain exact original image crops.",
+        "One canonical task, five mapped pages and four outside-map lookups meet the two-task/six-page/twenty-lookup bounds. No recognition or source correction has started at mapping.",
+        "Complete article252-upper256 restored and independently verified across219 files,51 blocks,6 figures and417 physical rows.187 BASIC statements retain seven wraps and three cross-region continuations. All DATA strings,commands,variable/routine descriptions,eleven guide labels,one unlabeled bracket and source uncertainties remain literal. Lower256 independent Back-Issue Guide excluded; no source byline invented. No semantic,arithmetic or execution validation."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-11/packages/flying-lode-runner",
+        "article_id": "scan-maso-1985-11-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1985-11/packages/flying-lode-runner/manifest.json",
+          "sha256": "5a931023161d54056a18f51c3eb31ceee729ab62800d38c938c25e62b5c9e538",
+          "bytes": 38595
+        },
+        "coverage": {
+          "pdf_pages": [
+            252,
+            253,
+            254,
+            255,
+            256
+          ],
+          "printed_pages": [
+            "252",
+            "253",
+            "254",
+            "255",
+            "256"
+          ],
+          "regions": 57,
+          "blocks": 51,
+          "figures": 6,
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "excluded_region_ids": [
+            "p256-back-issue-guide"
+          ],
+          "page_areas": [
+            {
+              "pdf_page": 252,
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "pdf_page": 253,
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "pdf_page": 254,
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "pdf_page": 255,
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "pdf_page": 256,
+              "bbox": [
+                0,
+                0,
+                1,
+                0.54
+              ]
+            }
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "source_title": "날으는 로드런너",
+        "source_platform": "MSX게임",
+        "source_byline": null,
+        "source_byline_note": "No printed byline observed in complete source coverage252-upper256; none invented. Parent0012 remains unresolved.",
+        "source_exclusions": [
+          {
+            "id": "p256-back-issue-guide",
+            "pdf_index": 255,
+            "kind": "other",
+            "bbox": [
+              0,
+              0.548,
+              1,
+              1
+            ],
+            "notes": "Independent lower Back-Issue Guide panel belongs to canonical0033, still unresolved. Excluded from canonical0015 transcription and selected article-area image; entire original page remains immutable outside-map/source evidence."
+          }
+        ],
+        "shared_page_note": "Lower256 Back-Issue Guide is independent canonical0033 material and remains unresolved; no availability or ownership inferred.",
+        "validation": {
+          "path": "archive/pdf/1985-11/restoration/batch-57/validation.json",
+          "sha256": "c9fedec0fc73383fa4cf3a44b04a7a2064d075a41ef90a993854a38239d8604d",
+          "bytes": 2362
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-11/restoration/batch-57/reproduction.json",
+          "sha256": "6c80a0217292aa6cfb661f59c149366682ccf741aa1d421432be870f9ab85940",
+          "bytes": 1813
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-11-toc-0016",
@@ -3027,10 +3148,10 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 33,
+    "readable": 34,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 13
+    "unresolved_eligibility": 12
   },
   "checkpoints": [
     {
@@ -5435,6 +5556,50 @@
       },
       "started_at": "2026-10-26T08:31:45.321338+00:00",
       "finished_at": "2026-10-26T09:25:39.075972+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
+    },
+    {
+      "id": "batch-57",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0015"
+      ],
+      "mapped_pdf_pages": [
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "outside_map_lookup_pages": [
+        251,
+        257,
+        258,
+        259
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 51,
+      "english_tasks": 21,
+      "source_correction_passes": 1,
+      "preflight_replacements": 19,
+      "preflight_adjustments": 26,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-57/validation.json",
+        "sha256": "c9fedec0fc73383fa4cf3a44b04a7a2064d075a41ef90a993854a38239d8604d",
+        "bytes": 2362
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-57/verification-completed.json",
+        "sha256": "eae154cfdd6da43253f70e4869d3664062ad71e771311b5d64962a2f105619b8",
+        "bytes": 2428
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-57-preserved-work.json",
+        "sha256": "62465d7a671e77b910ab8ab79bfed54905bc96ae78b435d76917c63d218cd6fe",
+        "bytes": 11696575
+      },
+      "started_at": "2026-10-26T09:29:49.160290+00:00",
+      "finished_at": "2026-10-26T10:15:03.323009+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps; active human review time unmeasured."
     }
   ],
@@ -7944,30 +8109,98 @@
     {
       "pdf_page": 252,
       "printed_page": "252",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0015"
+      ],
+      "restoration": "complete",
+      "note": "Flying Lode Runner canonical0015 fully restored on252-upper256. Folio individually observed; all eligible source coverage complete. Literal BASIC,commands,descriptions,guides and uncertainties retained.",
+      "prior_stage_notes": [
+        "Flying Lode Runner opens independently on252 after CRUSH CIRCLES ends251. Folio individually visible. Boundary observation only; canonical0015 full extent and restoration remain unverified."
+      ]
+    },
+    {
+      "pdf_page": 253,
+      "printed_page": "253",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0015"
+      ],
+      "restoration": "complete",
+      "note": "Flying Lode Runner canonical0015 fully restored on252-upper256. Folio individually observed; all eligible source coverage complete. Literal BASIC,commands,descriptions,guides and uncertainties retained."
+    },
+    {
+      "pdf_page": 254,
+      "printed_page": "254",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0015"
+      ],
+      "restoration": "complete",
+      "note": "Flying Lode Runner canonical0015 fully restored on252-upper256. Folio individually observed; all eligible source coverage complete. Literal BASIC,commands,descriptions,guides and uncertainties retained."
+    },
+    {
+      "pdf_page": 255,
+      "printed_page": "255",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0015"
+      ],
+      "restoration": "complete",
+      "note": "Flying Lode Runner canonical0015 fully restored on252-upper256. Folio individually observed; all eligible source coverage complete. Literal BASIC,commands,descriptions,guides and uncertainties retained."
+    },
+    {
+      "pdf_page": 256,
+      "printed_page": "256",
+      "classification": "shared-article-and-independent-guide",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0015"
+      ],
+      "restoration": "article-area-complete; independent-guide-pending",
+      "note": "Upper256 completes Flying Lode Runner at5210 RETURN. Selected figure covers0-0.54 normalized height; lower Back-Issue Guide is excluded and remains unrestored. Folio256 observed in full source view. No whole-page restoration or canonical0033 availability claim."
+    },
+    {
+      "pdf_page": 257,
+      "printed_page": null,
+      "classification": "advertisement-observed",
+      "toc_entry_ids": [],
+      "restoration": "pending",
+      "note": "Independent tape-sale advertisement after Flying Lode Runner ending. No visible folio observed; printed_page remains null. Outside canonical0015 body."
+    },
+    {
+      "pdf_page": 258,
+      "printed_page": null,
       "classification": "article-opening-observed",
       "toc_entry_ids": [],
       "restoration": "pending",
-      "note": "Flying Lode Runner opens independently on252 after CRUSH CIRCLES ends251. Folio individually visible. Boundary observation only; canonical0015 full extent and restoration remain unverified."
+      "note": "Classifieds opening observed after independent advertisement257. No visible folio observed; printed_page remains null. Canonical0037 full extent and restoration remain unverified."
+    },
+    {
+      "pdf_page": 259,
+      "printed_page": "259",
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [],
+      "restoration": "pending",
+      "note": "Classifieds continuation observed; folio259 individually visible. Ending not yet established. No canonical0037 restoration assigned in this checkpoint."
     }
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-57",
-    "goal": "Verify full source extent and restore canonical0015 Flying Lode Runner, opening observed252. Inspect ending and adjacent boundaries before mapping at most six pages. Preserve literal listings, examples, source title/byline and canonical parent0012; do not infer parent classification from children.",
+    "id": "batch-58",
+    "goal": "Verify complete source extent and restore canonical0037 Classifieds, opening observed258 with continuation259. Inspect ending and adjacent material before mapping at most six pages. Preserve source titles,listing categories,individual entries,contacts,quoted text and layout without inventing a page/article byline or validating historical offers.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0015"
+      "maso-1985-11-toc-0037"
     ],
-    "mapping_targets": "Opening252 observed; full extent not yet established. Map at most six pages after boundary review.",
+    "mapping_targets": "Opening258 and continuation259 observed; ending unverified. Map at most six pages after boundary review.",
     "provisional_lookup_targets": [
-      251,
-      252,
-      253,
-      254,
-      255,
-      256,
       257,
       258,
-      259
+      259,
+      260,
+      261,
+      262,
+      263,
+      264
     ],
     "limits": {
       "articles": 2,
@@ -7979,7 +8212,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-three readable articles; no partial article or pending assembly. Thirteen unresolved identities, cover, full266-page accounting and issue closeout remain. CRUSH CIRCLES0014 complete246-251; Flying Lode Runner0015 opening252 observed, later extent unverified. Parent0012 unresolved. Software Contest0035 page-176 hint, parents0002,0020,0026,0040 and Back-Issue Guide0033 unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216 remain null. Retain all five private assembly adapters for full selected-package audits. Batch54 original inventory has one documented recorder-log growth exception; selected stable revision02 requires none. All responses, progress logs and documentation use English; literal source retains its language."
+    "Thirty-four readable articles; no partial article or pending assembly. Twelve unresolved identities,cover,full266-page accounting and issue closeout remain. Flying Lode Runner0015 complete252-upper256 with lower Back-Issue Guide exclusion. Classifieds0037 opening258/continuation259 observed;ending unverified. Parent0012 unresolved. Software Contest0035 page-176 hint,parents0002,0020,0026,0040 and Back-Issue Guide0033 unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216 and newly observed257/258 remain null. Retain all five private assembly adapters. Batch54 original inventory has one documented recorder-log growth exception; selected stable revision02 requires none. English responses,progress logs and documentation; literal source retains its language."
   ],
   "reader_rebuild": false
 }

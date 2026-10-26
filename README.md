@@ -171,14 +171,14 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty-three articles are readable,
-none is partial and thirteen of 46 identities remain unresolved. CRUSH CIRCLES is
-complete on pages 246-251; all 364 files match an independent rebuild. Both printed
-listings, independent examples/commands, routine-guide labels and source
-uncertainties remain. Flying Lode Runner, pages 252-upper256, has reviewed crops
-and 51 completed OCR drafts; source correction and exports remain. Cover, remaining
-identities and whole-issue accounting remain. Responses, progress
-logs and documentation use English; literal source retains its original language.
+November 1985 restoration is in progress: thirty-four articles are readable,
+none is partial and twelve of 46 identities remain unresolved. Flying Lode Runner
+is complete on pages 252-upper256; all 219 files match an independent rebuild.
+Literal BASIC, DATA strings, commands, descriptions, guides and uncertainties
+remain. Lower256 Back-Issue Guide is excluded and still pending. Next: verify
+Classifieds from its observed opening258 and continuation259. Cover, remaining
+identities and whole-issue accounting remain. Responses, progress logs and
+documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
