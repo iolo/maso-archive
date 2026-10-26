@@ -172,12 +172,10 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: thirty-one articles are readable,
-one is partial and fourteen of 46 identities remain unresolved. Bank Panic segments
-cover pages 228-239. All 87 middle-segment files match an independent rebuild,
-with every BASIC statement and printed address/data/SUM field indexed.
-Ending pages 240-245 have reviewed crops and completed OCR drafts; source correction
-and exports remain, followed by full article assembly. Cover, remaining articles
-and whole-issue accounting remain.
+one is partial and fourteen of 46 identities remain unresolved. Bank Panic's three
+immutable segments cover all body pages 228-245. All 105 ending-segment files match
+an independent rebuild, with every printed field and BASIC statement indexed.
+Next: full article assembly. Cover, remaining articles and whole-issue accounting remain.
 Progress logs and documentation use English; source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 
