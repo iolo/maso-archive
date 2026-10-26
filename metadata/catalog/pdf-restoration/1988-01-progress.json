@@ -692,11 +692,144 @@
       "toc_entry_id": "maso-1988-01-toc-0036",
       "title": "유명한 프로그래머를 만났습니다(4) : PFS 시리즈의 존 페이지",
       "parent_id": "maso-1988-01-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0036 source title PFS 시리즈의 존 페이지 and series 유명한 프로그래머를 만났습니다4 open at printed38/PDF40.",
+        "Seven continuous body pages printed38–44/PDF40–46; observed final44 closes interview with 그렇습니다. 발견은 그 해답을 찾는 방법이지만, 그 해답이 종종 잘 발견되지는 않거든요.",
+        "Independent publisher address panel below final body onPDF46 is outside article; PDF47 is a separate UNITEK advertisement; PDF48 starts LIST2.",
+        "Current segment maps only first six body pages printed38–43/PDF40–45. Last answer continues from final 일하고 into 있는 onPDF46; final page and immutable assembly remain deferred.",
+        "PrecedingPDF39 closes C tutorial above its independent promotion. No global printed/PDF offset is inferred."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a",
+        "article_id": "scan-maso-1988-01-toc-0036",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a/manifest.json",
+          "sha256": "4566082e947d7157b30234b830c0085227aca87d1880cdce3c2efb230febef44",
+          "bytes": 13145
+        },
+        "coverage": {
+          "pdf_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "printed_pages": [
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "regions": 27,
+          "blocks": 6,
+          "figures": 12,
+          "deferred_pdf_pages": [
+            46
+          ],
+          "full_article_pdf_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "full_article_printed_pages": [
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ],
+          "outside_body_pdf_pages_within_extent": []
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "checkpoint": "batch-05",
+        "latest_checkpoint": "batch-05",
+        "segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a/manifest.json",
+              "sha256": "4566082e947d7157b30234b830c0085227aca87d1880cdce3c2efb230febef44",
+              "bytes": 13145
+            },
+            "coverage": {
+              "full_pdf_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "full_printed_pages": [
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44"
+              ],
+              "current_pdf_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "current_printed_pages": [
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43"
+              ],
+              "deferred_pdf_pages": [
+                46
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "source_title": "PFS 시리즈의 존 페이지",
+              "source_series": "유명한 프로그래머를 만났습니다4",
+              "source_byline": null,
+              "outside_body_pdf_pages_within_extent": [],
+              "stage_notes_to_resolve": [
+                "Opening segment only: final printed44/PDF46 and complete immutable article assembly remain pending.",
+                "Opening segment only; final printed44/PDF46 and complete article assembly remain pending."
+              ]
+            }
+          }
+        ],
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-05/validation.json",
+          "sha256": "0b41cd8f43c626d33d689bc531898036d09341a0179fc30e8cb418aa5bcc81a4",
+          "bytes": 2290
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-05/reproduction.json",
+          "sha256": "c9faa639a387a2caa365d97ed262abc9bb9cf786e6368b7acf8e468c9948577f",
+          "bytes": 1297
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0037",
@@ -1019,6 +1152,39 @@
         "sha256": "57ad0d785398a00c1a66c3889f7f2d5791843d803afff90e6b9d3883ec60a0fa",
         "bytes": 1925
       }
+    },
+    {
+      "name": "batch-05",
+      "completed_at": "2026-10-26T16:46:05.724325+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0036"
+      ],
+      "mapped_pdf_pages": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 5,
+      "all_inspected_source_pages": 11,
+      "recognition_tasks": 15,
+      "source_correction_passes": 1,
+      "recognition_retries": 0,
+      "status": "complete-opening-segment;final-page-and-assembly-pending",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-05/validation.json",
+        "sha256": "0b41cd8f43c626d33d689bc531898036d09341a0179fc30e8cb418aa5bcc81a4",
+        "bytes": 2290
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-05/reproduction.json",
+        "sha256": "c9faa639a387a2caa365d97ed262abc9bb9cf786e6368b7acf8e468c9948577f",
+        "bytes": 1297
+      }
     }
   ],
   "notes": [
@@ -1026,12 +1192,18 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Verify extent of PFS interview0036, canonical reference38/known openingPDF40, then restore at most6 source pages. Longer article stays partial until all segments and immutable assembly.",
+    "goal": "Restore final PFS interview0036 printed44/PDF46, excluding the independent lower publisher address panel. Preserve incoming answer continuation from printed43/PDF45; then assemble both immutable segments separately.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0036"
     ],
-    "known_start_pdf_page": 40,
-    "canonical_reference": "38",
+    "known_pdf_pages": [
+      46
+    ],
+    "adjacent_lookup_pdf_pages": [
+      45,
+      47,
+      48
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -1039,7 +1211,7 @@
     }
   },
   "remaining_work": [
-    "47 canonical identities still need source classification/restoration; no classified article currently has partial pages or pending assembly.",
+    "46 canonical identities still need classification/restoration; PFS interview0036 is partial with final printed44/PDF46 and complete article assembly pending.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
@@ -1047,8 +1219,8 @@
   "outcome_totals": {
     "canonical_entries": 51,
     "readable": 4,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 0,
-    "unresolved": 47
+    "unresolved": 46
   }
 }

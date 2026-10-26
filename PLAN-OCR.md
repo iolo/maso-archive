@@ -24,23 +24,23 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - January 1988 is active: 51 identities, four readable/sample-reviewed articles,
-  47 unresolved classifications and zero partial articles/pending assemblies among
-  classified articles. Complete C tutorial0005 spans nine body pages and has a
-  562-file independently exact assembly, including 553 immutable native files.
-  Its 142 regions/111 blocks/eleven figures or source views/131 transcripts/
-  twenty joins/27 code groups/49 physical rows, six references and source errors
-  remain checked. All 456 projected and 6,402 native UTF-8 ranges validate in
-  their proper contexts. Four active stage deferrals resolved; originals remain.
-  Assembly used no mapping/OCR/correction; prior C extraction retains80+1+51
-  recognitions, one source correction pass per OCR checkpoint and zero unchanged-
-  input retries. The213-test baseline is reused; thirty core files/4,394 previous
-  January files/134 historical sample/evidence files remain exact. Legacy Turbo
-  Pascal0018 TOC-pin adoption remains pending. Next verify PFS0036 extent from
-  printed38/knownPDF40, then restore at most six pages. Other classifications/
-  articles, all-page accounting, donated cover and issue closeout remain.
-  No reader rebuild. See [January log](docs/progress/8801.md),
+  one partial article and 46 unresolved classifications. PFS 0036 spans seven body
+  pages printed38–44/PDF40–46; its first six pages have an 80-file independently
+  exact partial package, 27 regions/15 transcripts/32 questions/32 answer starts/
+  64 turns/554 physical rows/9 joins/six portraits/six original page views.
+  All 4,724 local UTF-8 range occurrences and 27 decoded region images pass. All 15
+  pinned kor+eng tasks used one source correction pass/zero failures/retries;
+  no crop repair. Stopped authoring drafts/revisions remain preserved. Source
+  scan-band readings/names/old spelling/claims remain literal; one mark after
+  first Fred Gibbons is unreadable. All 5,533 prior January files/134 sample files/
+  thirty core files remain exact; unchanged 213-test baseline reused. Next restore
+  final44/PDF46 excluding lower publisher address, then immutable full assembly.
+  C tutorial0005 remains complete; legacy Turbo Pascal0018 TOC-pin adoption pending.
+  Other classifications/articles, all-page accounting, cover and issue closeout
+  remain. Human acceptance/full proofreading, bytes/spacing/claims/execution/
+  backup recovery unverified. No reader rebuild. See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-04/validation.json`.
+  `archive/pdf/1988-01/restoration/batch-05/validation.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

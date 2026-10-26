@@ -24,38 +24,38 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-January 1988 is in progress: its 51 canonical identities currently account for
-four readable/sample-reviewed articles and 47 unresolved classifications. There
-are no partial articles or pending assemblies among the classified articles.
-No heading has yet received a final non-owning classification.
+January 1988 is active: 51 canonical identities, four readable/sample-reviewed
+articles, one partial article and 46 unresolved classifications. No heading has
+yet received a final non-owning classification.
 
-The complete C tutorial0005, source title 유닉스와 C 언어, covers nine body
-pages, printed28,30–37/PDF30,32–39. Its 562-file assembly independently reproduces
-exactly; all 553 native files and complete original metadata remain exact.
-The 142 regions, 111 blocks, eleven original figures/source views, five captions,
-131 regional transcripts, twenty internal prose joins and 27 independent code
-examples/49 physical rows validate. Six references, four Makefile explanatory
-ordinals, three omission notations and all source uncertainties remain literal.
-All 456 projected and 6,402 native UTF-8 range occurrences validate in their
-proper contexts; 142 region images decode. Four active assembly deferrals are
-resolved; original notes remain in immutable natives. No new mapping, OCR or
-source correction was needed for assembly. The passing 213-test baseline is
-reused with all thirty core files unchanged. All 4,394 prior January files and
-134 historical sample/evidence files remain exact.
+PFS interview0036 has seven verified body pages, printed38–44/PDF40–46. Its first
+six pages, printed38–43/PDF40–45, are preserved as an 80-file partial package at
+`archive/pdf/1988-01/packages/batch-05-r01/pfs-interview-a`; an independent rebuild
+matches exactly. All 27 regions, 15 regional transcripts, 32 questions/32 answer
+starts/64 source-linked turns, 554 physical text rows and 9 internal prose joins
+validate. Six central portraits and six complete source page views remain exact;
+they are not twelve inferred illustrations. All 4,724 UTF-8 range occurrences and
+27 decoded region images pass. Fifteen pinned kor+eng tasks used one source
+correction pass, zero failures/retries and no crop repair. Two stopped transcript
+authoring drafts and their revisions remain preserved. A small mark after first
+Fred Gibbons is explicitly unreadable; scan-band readings, original names,
+old spelling, source historical claims and Unicode candidates remain visible.
+All 5,533 earlier January files, 134 pilot/evidence files and 30 core files remain
+exact. The unchanged 213-test baseline is reused, not claimed as a fresh test run.
 
-Gift0040 and contest0041 remain complete from batch01. The historical Turbo
-Pascal0018 sample remains preserved with explicit legacy TOC-pin reproduction/
-adoption pending. No new OCR or fresh review is claimed for that reused sample.
-Next verify the extent of the PFS interview0036 from printed38/knownPDF40 and
-restore at most six source pages. Remaining classifications/articles/assemblies,
-all-page accounting, donated-cover selection, issue export and final audit remain.
-Human acceptance/full proofreading, source encoded bytes and exact spacing,
-historical/technical/bibliographic claims, execution and independent backup
-recovery remain unverified. No reader/browser/frontend rebuild or deployment.
+Next restore final printed44/PDF46, excluding its independent lower publisher
+address panel, then assemble the two immutable interview segments separately.
+The final answer continues from printed43's 일하고 into printed44's 있는.
+C tutorial0005 remains complete in its 562-file assembly; gift0040 and contest0041
+remain complete. Historical Turbo Pascal0018 legacy TOC-pin adoption remains
+pending. Other classifications/articles, all-page accounting, donated cover,
+JSON/assets issue export and final audit remain. Human acceptance/full proofreading,
+encoded bytes/exact spacing, historical/technical claims, execution and independent
+backup recovery remain unverified. No reader/browser/frontend rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-04/validation.json`.
+`archive/pdf/1988-01/restoration/batch-05/validation.json`.
 
 ## November 1985 closeout, 2026-10-26
 
