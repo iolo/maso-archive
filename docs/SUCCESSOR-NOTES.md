@@ -16,42 +16,44 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 November 1985 remains in progress: thirty-nine readable entries, no partial
-article or pending assembly, five non-owning headings and two unresolved identities.
-Batch 64 classifies News 0020 and Column 0040 as non-owning headings, supported by
-original contents hierarchy, independent child openings and retained complete
-boundary evidence. News has five complete children on 90-103: 637 unchanged files
-and fourteen distinct pages. Column has six complete children on 42-56, 58-70,
-104-114 and 196-199: 2,588 unchanged files and 43 distinct pages. All eleven packages
-retain 3,225 files across 57 distinct body pages. Numerical Analysis, PLAY and MSX
-Corners validate with three unchanged private adapters. Native-stage caveats remain
-literal; two older single-segment scopes retain their original ledger schemas.
-Separate Back-Issue Guide panels on 51, 99 and 103 remain with canonical 0033.
-All 121 child-versus-guide body comparisons are disjoint. Intervening advertising,
-articles and notices are not assigned to either parent. The Program Factory
-editorial introduction remains in canonical 0046 and is not duplicated as Column
-parent body. All titles, identities, order and parent relations remain unchanged.
-Twenty-one whole source views and four exact crops were inspected. Three evidence
-pages and eighteen outside lookups satisfy checkpoint bounds. No source rendering,
-article map, package, OCR, transcription or correction was created. The initial
-classification check assumed newer completion fields in two older ledger entries;
-revision 02 validates their explicit full/current scopes and no pending coverage.
-The failed scripts/logs remain. Revised decisions and independent verification pass.
-All 53,887 previous files, 63 selected inventories and thirty core pins remain exact.
-The unchanged 213-test baseline is reused. Current preservation: 53,923 issue files.
-Evidence and reproduction remain under `archive/pdf/1985-11/restoration/batch-64/`.
-Technical, Games, TIPS, News and Column are non-owning headings. Readers 0026 and
-Software Contest 0035 remain unresolved. Next batch 65 reviews Readers hierarchy
-and advances full page/area accounting for the Software Contest reference mismatch.
-Its front 2-25 search is complete; reference 176 conflicts with the distinct diskette
-offer. No full-source absence has been asserted. All 266 pages have provisional
-observations, while complete area/content accounting, cover verification and issue
-closeout remain. Folios 2-25, 175-177, 210, 216, 257, 258, 265 and 266 remain null.
-All private adapters and earlier artifacts remain. Batch 54's original inventory
-retains its recorder-log growth supplement; selected stable revision 02 needs none.
-No reader or HTML rebuild. Responses, progress logs and documentation use English;
-literal source retains its original language. Human acceptance, full proofreading,
-original bytes, exact spacing, glyph identities and historical claims remain
-unverified. The full November goal remains active.
+article or pending assembly, six non-owning headings and one unresolved identity.
+Batch 65 classifies Readers 0026 as a non-owning heading over thirteen separate
+children. Twelve complete readable children retain 980 files across twenty-six
+distinct pages and twenty-seven child-page assignments. Software Contest 0035
+remains unresolved. Original contents reference 176 conflicts with the separate
+Back-Issue Diskettes title on source 176; neither Contest Overview 175 nor the
+slogan-winners notice 72 is substituted. The parent decision does not infer a
+body, absence, ownership or restoration outcome for this unresolved child.
+Twenty whole-page views and four exact crops were inspected. Three evidence pages
+and seventeen outside lookups satisfy the two-task checkpoint bounds. No new
+source rendering, article map, package, OCR, transcription or correction.
+Preliminary full-issue accounting verifies all 39 selected packages, 9,638 files
+and ten private adapters. They cover 224 distinct body pages with 233 assignments.
+Nine shared pages have 368 disjoint cross-owner nonfigure region comparisons.
+All 266 provisional ownership sets agree; page 51 retains its original source
+ordering. The first recorder treated its owner order as significant and stopped;
+revision 02 verifies sets and multiplicity without changing either record.
+Both scripts, logs and exact-crop review records remain. Independent verification
+passed. Forty-two pages outside selected bodies and mixed-page exclusions still
+need definitive content accounting; these counts do not establish source absence.
+All 53,923 previous files, 64 selected inventories and thirty core pins remain exact.
+The unchanged 213-test baseline is reused. Current preservation: 53,962 issue files.
+Evidence and reproduction remain under `archive/pdf/1985-11/restoration/batch-65/`.
+Technical, Games, TIPS, News, Readers and Column are non-owning headings. Software
+Contest alone remains unresolved. Next issue-accounting-01 reviews the nineteen
+remaining outside-body PDF pages, verifies cover selection and completes page/area
+accounting using all retained article boundaries and exclusions. Then JSON/assets
+closeout requires a complete index/report and independent issue rebuild, including
+all ten selected private adapters. PLAN-PDF permits separately reported unresolved
+eligibility; report restoration coverage without claiming every article recovered.
+Canonical identities, titles, order, parent links and all source observations remain
+unchanged. Folios 2-25, 175-177, 210, 216, 257, 258, 265 and 266 remain null.
+Historical parent-status notes in immutable child packages remain as provenance.
+Batch 54's original inventory retains its recorder-log growth supplement; selected
+stable revision 02 needs none. No reader or HTML rebuild. Responses, progress logs
+and documentation use English; literal source retains its original language.
+Human acceptance, full proofreading, original bytes, exact spacing, glyph identities
+and historical claims remain unverified. The full November goal remains active.
 
 ## Latest completed issue
 

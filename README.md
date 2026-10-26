@@ -172,11 +172,12 @@ rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 November 1985 restoration is in progress: thirty-nine entries are readable,
-none is partial, five headings are non-owning, and two of 46 identities remain
-unresolved. News and Column group eleven complete articles; all 3,225 package
-files remain unchanged. Readers and Software Contest are next. Full content
-accounting, cover verification and closeout remain. Responses, logs and
-documentation use English; literal source retains its original language.
+none is partial, six headings are non-owning, and Software Contest remains the
+single unresolved identity among 46 entries. Readers groups twelve complete
+children and that unresolved entry. All 39 packages, 9,638 files and ten private
+adapters pass preservation checks. Cover, final page accounting and JSON/assets
+closeout with independent rebuild remain. Responses, logs and documentation use
+English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
