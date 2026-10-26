@@ -175,7 +175,9 @@ November 1985 restoration is in progress: thirty-seven articles are readable,
 none is partial and nine of 46 identities remain unresolved. Closing editorial and
 advertising index are complete in separate areas on page 264; all 59 files match
 independent rebuilds. Five signed notes and 29 index rows retain source evidence.
-The colophon is excluded. Next: verify six Back-Issue Guide panels. Cover,
+The colophon is excluded. Back-Issue Guide now has six verified panels,
+46 reviewed crops and forty completed OCR drafts; source correction and exports
+remain. Cover,
 remaining identities and whole-issue accounting remain. Responses, progress logs
 and documentation use English; literal source retains its original language.
 See [the November progress log](docs/progress/8511.md).

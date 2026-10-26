@@ -44,8 +44,14 @@ Reproduction: `archive/pdf/1985-11/restoration/batch-59/reproduction.json`.
 Retain the Bank Panic, Lessons from Apple, Hangul, PLAY and numerical-analysis
 private adapters. Batch 54's original inventory retains its recorder-log growth
 supplement; selected stable revision 02 needs none. No reader/HTML rebuild.
-Next batch 60 verifies Back-Issue Guide 0033 across observed panels 51,99,103,169,
-256 and 263, including shared-page boundaries and adjacent source material. Parents
+Batch 60 preparation establishes Back-Issue Guide 0033 across six complete panels
+on 51, 99, 103, 169, 256 and 263. All eighteen full views and 46 original exact crops
+were inspected. Six crop-margin repairs preceded forty successful pinned OCR tasks;
+every raw draft was read, with zero retries. The sixteen month lists, ordering
+instructions, notice and circled letter markers await one source correction pass
+and independent full-article exports. Existing neighboring bodies and the lower263
+book advertisement remain excluded. Resume from
+`archive/pdf/1985-11/restoration/batch-60/continuation.json`. Parents
 0002,0012,0020,0026,0040, contest 0011, TIPS 0016 and Software Contest 0035's page-176
 hint remain unresolved. Folios 175-177,210,216,257,258,265 and 266 remain null.
 Cover, remaining identities, full 266-page accounting and issue closeout remain.
