@@ -8,43 +8,46 @@ by the calendar month in which restoration work happened.
 
 November 1985 remains in progress: thirty-nine readable entries, no partial
 article or pending assembly, six non-owning headings and one unresolved identity.
-Batch 65 classifies Readers 0026 as a non-owning heading over thirteen separate
-children. Twelve complete readable children retain 980 files across twenty-six
-distinct pages and twenty-seven child-page assignments. Software Contest 0035
-remains unresolved. Original contents reference 176 conflicts with the separate
-Back-Issue Diskettes title on source 176; neither Contest Overview 175 nor the
-slogan-winners notice 72 is substituted. The parent decision does not infer a
-body, absence, ownership or restoration outcome for this unresolved child.
-Twenty whole-page views and four exact crops were inspected. Three evidence pages
-and seventeen outside lookups satisfy the two-task checkpoint bounds. No new
-source rendering, article map, package, OCR, transcription or correction.
-Preliminary full-issue accounting verifies all 39 selected packages, 9,638 files
-and ten private adapters. They cover 224 distinct body pages with 233 assignments.
-Nine shared pages have 368 disjoint cross-owner nonfigure region comparisons.
-All 266 provisional ownership sets agree; page 51 retains its original source
-ordering. The first recorder treated its owner order as significant and stopped;
-revision 02 verifies sets and multiplicity without changing either record.
-Both scripts, logs and exact-crop review records remain. Independent verification
-passed. Forty-two pages outside selected bodies and mixed-page exclusions still
-need definitive content accounting; these counts do not establish source absence.
-All 53,923 previous files, 64 selected inventories and thirty core pins remain exact.
-The unchanged 213-test baseline is reused. Current preservation: 53,962 issue files.
-Evidence and reproduction remain under `archive/pdf/1985-11/restoration/batch-65/`.
-Technical, Games, TIPS, News, Readers and Column are non-owning headings. Software
-Contest alone remains unresolved. Next issue-accounting-01 reviews the nineteen
-remaining outside-body PDF pages, verifies cover selection and completes page/area
-accounting using all retained article boundaries and exclusions. Then JSON/assets
-closeout requires a complete index/report and independent issue rebuild, including
-all ten selected private adapters. PLAN-PDF permits separately reported unresolved
-eligibility; report restoration coverage without claiming every article recovered.
-Canonical identities, titles, order, parent links and all source observations remain
-unchanged. Folios 2-25, 175-177, 210, 216, 257, 258, 265 and 266 remain null.
-Historical parent-status notes in immutable child packages remain as provenance.
-Batch 54's original inventory retains its recorder-log growth supplement; selected
-stable revision 02 needs none. No reader or HTML rebuild. Responses, progress logs
-and documentation use English; literal source retains its original language.
-Human acceptance, full proofreading, original bytes, exact spacing, glyph identities
-and historical claims remain unverified. The full November goal remains active.
+Issue-accounting-01 verifies all 266 source pages: 224 selected body pages with
+233 assignments and 42 pages outside selected bodies. Outside-body material is
+35 advertisements, one cover, one issue-title page, one unlisted slogan-winners
+notice and four pages of the unlisted SMALL HCOPY article on 206-209. None is
+substituted for Software Contest 0035. Its original reference 176 conflicts with
+the separate diskette-offer heading; eligibility and body location stay unresolved.
+All thirty mixed-page exclusions retain their original geometry and source notes.
+Current accounting resolves other selected owners separately from advertising,
+contents, colophon and unlisted material. Nine shared pages retain 368 disjoint
+cross-owner nonfigure region pairs. Shared folio figures are evidence, not exclusive
+body ownership. Page 36 upper Debugging Room is selected; its lower bulletin/photo
+is excluded. This corrects a batch-65 source-review note; the immutable package was
+already correct. Historical parent-status and pending-owner notes remain provenance.
+Twenty whole-page views were inspected within twenty outside lookups, including
+nineteen remaining outside-body pages and the additional page-36 boundary check.
+No article map, OCR, transcription, source correction or new PDF rendering.
+The existing donor cover `covers/8511.jpg` visibly reads 85.11, is upright and
+retains the left edge clipped in the PDF scan. Its original 5174 by 6981 pixels and
+bytes are selected unchanged. The PDF full view and historical JPEG candidate
+remain alternatives. Separate scans preserve their own proportions; no stretching,
+cropping, color repair or redraw. No canonical identity or source folio changed.
+All 39 selected packages, 9,638 files and ten adapters remain exact. The completed
+batch-65 package/range checks are reused only after every byte and relevant pin
+matches. All 53,962 prior files, 65 selected inventories and thirty core pins pass.
+The unchanged 213-test baseline is reused. Current preservation: 53,996 issue files.
+Evidence remains under `archive/pdf/1985-11/restoration/issue-accounting-01/`.
+Initial verifier pin comparison stopped on extended source metadata; revision 02
+compares its path, hash and size while retaining all metadata. Both attempts remain.
+A copied start-checkpoint progress sentence is corrected with its original record
+preserved. Independent accounting verification passes. All 266 provisional source
+observations remain unchanged; final accounting is a separate evidence artifact.
+Next issue-closeout-01 builds the complete JSON/assets index and report, retains
+the unresolved Software Contest row explicitly, independently rebuilds all selected
+packages and export bytes, runs fresh tests and audits every completion requirement.
+PLAN-PDF permits separately reported unresolved eligibility; report restoration
+coverage without claiming every article recovered or proving full-source absence.
+No reader or HTML rebuild. Responses, logs and documentation use English; literal
+source retains its original language. Human acceptance, full proofreading, original
+bytes, exact spacing, glyph identities and historical claims remain unverified.
+The full November goal remains active.
 
 October 1985 is complete under the canonical TOC JSON/assets scope. All 39 entries
 are accounted for by 35 readable, assistant sample-reviewed articles and four

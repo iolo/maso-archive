@@ -2892,13 +2892,14 @@
         "Software Contest0035 is explicitly listed in original contents19 with reference176. Source176 instead has Back-Issue Diskettes0032;175 already contains Contest Overview0034 and177 is an MS-DOS Handbook advertisement. Canonical reference remains176;no substitution from title proximity or contest wording.",
         "Additional source72 is a slogan-winners notice,210 a book-series advertisement,and216 a sales-management software advertisement. Front2-9 are independent disk/computer/peripheral/training advertisements. None supplies an exact Software Contest body. Only bounded search has been done;do not infer source absence,body ownership or readable availability. Front10-16 remains a next search area.",
         "Front10-16 are independent advertisements for software rental,computers,drives and monitors. No exact Software Contest body was identified. Together with retained batch61/62 review,front2-25 has been inspected;this is not a full-issue source-absence decision. Contents reference176 remains unchanged and conflicts with the separately restored diskette offer.",
-        "Batch65 confirms original Software Contest contents reference176 and independent Diskette176 heading;no substitution from175 overview,72 winners notice or176 diskette offer. Readers parent0026 is independently non-owning;this child stays unresolved. Preliminary accounting reconciles all266 provisional owner sets with39 complete selected packages,224 distinct pages and233 assignments. Nine shared pages have368 disjoint cross-owner nonfigure region pairs. Forty-two outside-body pages and mixed-page exclusions still require final accounting;no full-source absence asserted."
+        "Batch65 confirms original Software Contest contents reference176 and independent Diskette176 heading;no substitution from175 overview,72 winners notice or176 diskette offer. Readers parent0026 is independently non-owning;this child stays unresolved. Preliminary accounting reconciles all266 provisional owner sets with39 complete selected packages,224 distinct pages and233 assignments. Nine shared pages have368 disjoint cross-owner nonfigure region pairs. Forty-two outside-body pages and mixed-page exclusions still require final accounting;no full-source absence asserted.",
+        "Final source accounting covers all266 pages:224 selected body pages/233 assignments and42 outside-body pages,with30 mixed exclusions and368 disjoint cross-owner text-region pairs. No exact Software Contest body identified in reviewed areas;retain unresolved eligibility and literal reference176. Slogan-winners72,Daewoo competition advertisement152 and unlisted SMALL HCOPY206-209 remain distinct. No body or full-source absence inferred."
       ],
       "restoration": null,
       "location_review": {
-        "path": "archive/pdf/1985-11/restoration/batch-65/software-contest-location-review.json",
-        "sha256": "95decf481117c6480da198eccc88338c14ba5bc548a9d1000cb85ee22d88f5e5",
-        "bytes": 4070
+        "path": "archive/pdf/1985-11/restoration/issue-accounting-01/software-contest-location-review.json",
+        "sha256": "07349e3c5b619c8d8ecbf34d7345ccf0ee2ef7cc74a741e3b3d92eabf3444231",
+        "bytes": 2029
       }
     },
     {
@@ -6720,6 +6721,58 @@
       "started_at": "2026-10-26T13:40:35.443023+00:00",
       "finished_at": "2026-10-26T13:58:28.279927+00:00",
       "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps;active human review time unmeasured."
+    },
+    {
+      "id": "issue-accounting-01",
+      "status": "complete",
+      "toc_entry_ids": [],
+      "mapped_pdf_pages": [],
+      "article_mapped_pdf_pages": [],
+      "classification_evidence_pdf_pages": [],
+      "outside_map_lookup_pages": [
+        1,
+        36,
+        57,
+        71,
+        72,
+        89,
+        115,
+        116,
+        152,
+        153,
+        177,
+        206,
+        207,
+        208,
+        209,
+        210,
+        216,
+        257,
+        265,
+        266
+      ],
+      "canonical_tasks": 0,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/issue-accounting-01/validation.json",
+        "sha256": "06371a2fda73be63f1aa30b4d0878565abcc41d4dd7768b8a273d1640930f928",
+        "bytes": 1878
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/issue-accounting-01/verification-completed.json",
+        "sha256": "e7d9e0aa63b9f8f6555fe2754e638c7a3b26d2d7d88ce7497d5d5425c2375356",
+        "bytes": 1991
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/issue-accounting-01-preserved-work.json",
+        "sha256": "a312a57667925044ea7344f43c48a5ebd402dc692726009aac2952b50e8a7dd5",
+        "bytes": 12109335
+      },
+      "started_at": "2026-10-26T14:00:02.836245+00:00",
+      "finished_at": "2026-10-26T14:12:43.210844+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and conversation gaps;active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -9663,33 +9716,13 @@
       "note": "Independent Qnix printer back-cover advertisement, final PDF page. No visible folio observed; printed_page remains null. Outside canonical0038/0039 bodies; whole-issue accounting remains pending."
     }
   ],
-  "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
+  "cover_status": "verified-front-cover;donor covers/8511.jpg visibly dated85.11 selected in original bytes and5174x6981 dimensions;PDF source and historical candidate retained",
   "next_checkpoint": {
-    "id": "issue-accounting-01",
-    "goal": "Verify cover and complete source-page/area accounting. Preserve Software Contest0035 as explicit unresolved eligibility unless an exact body is found;do not substitute an unrelated notice or require zero unresolved for documented closeout.",
+    "id": "issue-closeout-01",
+    "goal": "Deliver validated November1985 JSON/assets issue index and report with provenance,verified cover,39 complete readable articles,six non-owning headings and one separately reported unresolved eligibility gap. Independently rebuild all selected packages/export,compare bytes and run fresh checks before full completion audit.",
     "toc_entry_ids": [],
-    "mapping_targets": "Use preliminary39-package accounting,all retained boundary/region/exclusion evidence and front2-25 reviews. Review remaining nineteen outside-body PDF pages,select/pin cover and verify all mixed/shared areas. Then prepare honest JSON/assets issue index and independent rebuild with all selected formats.",
-    "provisional_lookup_targets": [
-      1,
-      57,
-      71,
-      72,
-      89,
-      115,
-      116,
-      152,
-      153,
-      177,
-      206,
-      207,
-      208,
-      209,
-      210,
-      216,
-      257,
-      265,
-      266
-    ],
+    "mapping_targets": "Use complete accounting,39 immutable packages and ten private adapters. Extend private issue export/accounting only as needed for explicit unresolved eligibility;retain all30 pinned core files and canonical identities. No new OCR or HTML.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 0,
       "mapped_pages": 6,
@@ -9700,7 +9733,17 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-nine readable entries;no partial article or pending assembly. Technical0002,Games0012,TIPS0016,News0020,Readers0026 and Column0040 are six non-owning headings. Software Contest0035 alone remains unresolved. Its reference176 conflicts with Back-Issue Diskettes176;no body or full-source absence inferred. Preliminary39-package accounting:9638 files,233 assignments,224 distinct body pages,nine shared pages and368 disjoint cross-owner nonfigure pairs;all266 provisional owner sets agree. Forty-two pages outside selected bodies,cover verification,definitive area accounting and closeout remain. Folios2-25,175-177,210,216,257,258,265,266 remain null. All ten private adapters and prior artifacts retained and verified. Older package schemas and historical parent-status notes retained as provenance,not rewritten. Batch54 original inventory retains its recorder-log growth exception;selected stable revision02 has none. English responses,logs and documentation;literal source retains its language."
+    "Thirty-nine readable entries;no partial or pending assembly. Six non-owning headings;Software Contest0035 alone unresolved. All266 pages accounted:224 selected body pages/233 assignments and42 outside-body pages(35 advertisements,one cover,one issue-title,one unlisted notice,four unlisted article pages). Thirty mixed exclusions and nine shared pages/368 disjoint cross-owner nonfigure pairs verified. Donor cover covers/8511.jpg visibly dated85.11 selected unchanged;PDF scan/candidate retained. Page36 lower bulletin/photo is excluded from Debugging0031;current accounting corrects earlier batch65 review-note wording without package changes. No exact Software Contest body identified or full-source absence inferred. Thirty core pins,9638 selected files and ten adapters unchanged. Final JSON/assets index/report,independent whole-issue rebuild,fresh tests and completion audit remain. No HTML or reader rebuild. English responses,logs and documents;literal source retains its language."
   ],
-  "reader_rebuild": false
+  "reader_rebuild": false,
+  "source_page_accounting": {
+    "path": "archive/pdf/1985-11/restoration/issue-accounting-01/source-page-accounting.json",
+    "sha256": "2f511513de7336f637bcf024d6539cc150758388f6607b32e03dcd4db99213b8",
+    "bytes": 1704422
+  },
+  "cover_selection": {
+    "path": "archive/pdf/1985-11/restoration/issue-accounting-01/cover-selection.json",
+    "sha256": "e4d4b420ba8697e27c25b595c63df7071e2ca16f7120dd74fdd0899f88c785af",
+    "bytes": 2873
+  }
 }
