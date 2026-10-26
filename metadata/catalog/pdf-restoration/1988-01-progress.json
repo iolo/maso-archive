@@ -328,11 +328,79 @@
       "toc_entry_id": "maso-1988-01-toc-0007",
       "title": "애플 인터프리터의 분석(8) : LIST(2)",
       "parent_id": "maso-1988-01-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0007 opens at printed46/PDF48, source title LIST2, series 인터프리터 분석/애플 호환기종. No byline is printed.",
+        "Four continuous body pages printed46–49/PDF48–51; prose concludes printed48 above example3, while printed49 Figure2 with command-reader/token-reader code remains eligible article body.",
+        "Figure1 spans printed47–48, with explicit A/B connectors; the L-shaped continuation is preserved as two adjacent original tiles to avoid unrelated prose/example content.",
+        "Source printed48 tells readers to examine the token routine; following printed49 Figure2 supplies that material. PDF52 starts distinct MSX 괄호있는 명령, establishing article end without inferring a global folio offset.",
+        "PrecedingPDF47 is a separate UNITEK advertisement. All four article pages mapped within one checkpoint; no assembly or deferred body pages required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-08-r01/apple-list",
+        "article_id": "scan-maso-1988-01-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-08-r01/apple-list/manifest.json",
+          "sha256": "d0daf2e11b247f570993a9e9860435d79e918635b3f0522a1c28c9fb7b128bb8",
+          "bytes": 16595
+        },
+        "coverage": {
+          "pdf_pages": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "printed_pages": [
+            "46",
+            "47",
+            "48",
+            "49"
+          ],
+          "regions": 30,
+          "blocks": 16,
+          "figures": 10,
+          "regional_transcripts": 20,
+          "code_units": 8,
+          "physical_code_rows": 88,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-08",
+        "latest_checkpoint": "batch-08",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-08/apple-list/article-scope.json",
+          "sha256": "99201762b74f3fd7fcd52a7b5a13187016ef0adcae0301bf8aeea8a97f91789b",
+          "bytes": 551
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-08/validation.json",
+          "sha256": "3f20b63a27310dd4331361e80263054b238d4a4cf33cc7aff8fcfddfa9e28c8f",
+          "bytes": 3214
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-08/reproduction.json",
+          "sha256": "5c00dd6264399fa6ced3b445dd8841ea2fc06f334a2acb37278c2c3238d3c8d5",
+          "bytes": 1267
+        },
+        "source_limits": [
+          "Full graph-label transcription remains volunteer work; original diagrams/operators/arrows/labels preserved as exact images.",
+          "Original encoded glyphs/spaces, technical/ROM claims and execution unverified; printed source mistakes/candidates retained."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0008",
@@ -1315,6 +1383,42 @@
         "sha256": "788fb1dcd6a3444de838d827181e8f0968b6a8c8c16c61c184aeacce64aff9d6",
         "bytes": 1372
       }
+    },
+    {
+      "name": "batch-08",
+      "completed_at": "2026-10-26T17:23:19.444287+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0007"
+      ],
+      "mapped_pdf_pages": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 4,
+      "all_inspected_source_pages": 8,
+      "recognition_tasks": 20,
+      "eng_code": 8,
+      "kor_eng_other": 12,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_connector_edge_repair": true,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-08/validation.json",
+        "sha256": "3f20b63a27310dd4331361e80263054b238d4a4cf33cc7aff8fcfddfa9e28c8f",
+        "bytes": 3214
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-08/reproduction.json",
+        "sha256": "5c00dd6264399fa6ced3b445dd8841ea2fc06f334a2acb37278c2c3238d3c8d5",
+        "bytes": 1267
+      }
     }
   ],
   "notes": [
@@ -1322,12 +1426,12 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent/continuations of Apple interpreter0007, canonical title 애플 인터프리터의 분석(8) : LIST(2), from printed46/knownPDF48, then restore at most six body pages. Preserve source code/flowchart/table evidence; segment if longer.",
+    "goal": "Verify actual extent/continuations of MSX interpreter0008, canonical title MSX 인터프리터로의 접근(10) : 괄호있는 명령, from printed50/knownPDF52, then restore at most six body pages. Preserve source code/diagram evidence and segment if longer.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0007"
+      "maso-1988-01-toc-0008"
     ],
-    "known_start_pdf_page": 48,
-    "canonical_reference": "46",
+    "known_start_pdf_page": 52,
+    "canonical_reference": "50",
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -1335,16 +1439,16 @@
     }
   },
   "remaining_work": [
-    "46 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
+    "45 canonical identities still need classification/restoration; no classified article currently has partial pages or pending assembly.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 5,
+    "readable": 6,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved": 46
+    "unresolved": 45
   }
 }
