@@ -24,29 +24,32 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - January 1988 is active:51 identities,ten readable/sample-reviewed articles,
-  41 unresolved classifications,no partial articles/pending assemblies among
-  classified articles and no final non-owning heading classification. Graphic-effect
-  editor0012 is complete printed86–88/PDF88–90:150 independently exact files,
-  39 regions/31 blocks/34 transcripts/three joins/one caption/five original images.
-  Eighteen code units retain164 rows:155 prefixed BASIC rows,seven unlabelled wraps
-  and two immediate commands. All155 hex prefixes/627 fields,six features/five
-  command routes,4,451 UTF-8 ranges/4,504 pin occurrences/39 images pass. Original
-  full listing retained;three bands have explicit count/glyph markers. Unclosed
-  strings,Hiy/Devision,DX+3,formula/1-I/backslash and .SAI/.CUB source candidates
-  remain literal. Lower87 advertisement excluded. All34 tasks,18eng/16kor+eng,
-  one source pass,zero failures/retries/post-OCR crop repairs. Initial map/crops,
-  pre-OCR margin padding and stopped authoring script/revision remain. All8,815
-  prior January files/134 sample files/thirty core pins exact; unchanged213-test
-  baseline reused,no fresh run claimed. Utility0011 remains unresolved after the
-  two-task/three-page/20-outside-lookup checkpoint. No parent body or non-owning
-  decision is invented from the canonical candidate alone. Next resume its review
-  with contents candidatesPDF10–13 and locate child0013 from printed112;
-  PDF112–119 are lookup candidates,not a global folio offset. Legacy Turbo Pascal
-  adoption,remaining classifications/articles/accounting/cover/JSON-assets closeout
-  pending. Human acceptance/proofreading,bytes/spaces/prefix algorithms/claims/ROM/
-  execution/backup unverified. No reader rebuild. See [January log](docs/progress/8801.md),
+  one partial article,one non-owning heading and39 unresolved identities.
+  Utility0011 is a non-owning group from original contentsPDF11 and independent
+  child openings;no parent body/package. RAM-removal0013 has eleven body pages,
+  PDF114,115,117–125;PDF116 is an independent advertisement. Segmenta covers first
+  six pages114,115,117–120:147 independently exact files/55,802,775 bytes,45 regions,
+  27 blocks,31 transcripts,four joins,five captions/14 original images. Fourteen
+  code units retain426 physical rows/425 nonblank:223 BASIC rows/217 labels/six
+  wraps,189 assembly rows,seven commands,six console rows/one display blank.
+  Three BASIC generators retain155 DATA rows/1,395 literal number cells;441 BASIC
+  and440 assembly fields pass. INSTALL.ASM complete;REMOVE.ASM opening only.
+  Printed261,00,41055!,proint/then/thr/lw/NEW16H/ssgment/None installd retained;
+  nine band markers and original handwriting/ordinals preserved. Handwriting
+  transcription is volunteer work. All10,805 UTF-8 ranges/10,889 pin occurrences/
+  45 images pass. All31 tasks,14eng/17kor+eng,one source pass,zero failures/retries/
+  post-OCR crop repairs. Initial stopped splitter,map/crops and19 pre-OCR margin
+  pads remain. Two tasks/six mapped pages/14 outside lookups/20 source views.
+  All9,490 prior January files/134 pilot files/thirty core pins remain exact;
+  unchanged213-test baseline reused,no fresh test run claimed. Next restore
+  finalPDF121–125,exclude final125 right/bottom ads,then assemble eleven pages
+  separately from immutable segments. Article remains partial. Legacy Turbo
+  Pascal adoption,39 classifications/articles,accounting/cover/issue export/audit
+  pending. Human acceptance/proofreading,bytes/spaces/glyph counts/checksums/binary
+  correspondence/claims/execution/backup unverified. No reader rebuild.
+  See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-12/validation.json`.
+  `archive/pdf/1988-01/restoration/batch-13/validation.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
