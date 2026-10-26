@@ -15,35 +15,36 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-November 1985 remains in progress: thirty-one readable, assistant sample-reviewed
-articles, one partial article awaiting assembly, and fourteen unresolved identities.
-Batch 54 restores Bank Panic 0013 ending pages 240-245. Three immutable segments
-now cover all body pages 228-245; complete article assembly remains.
-All 105 ending-package files match an independent rebuild. The segment retains
-thirty regions, 22 blocks, eight figures and 883 transcription rows. Listing 2's
-ending and independent listing 3 preserve 720 data rows, 36 headers, 36 group SUM
-rows, 7,560 literal fields and fifteen group continuations across columns or pages.
-Listing 4 preserves forty BASIC statements, ten wrapped statements and one statement
-crossing columns. Repeated 6000-6078 rows in listings 2 and 3 remain distinct.
-All 46,940 UTF-8 ranges, 47,075 evidence pins, thirty images and 33 disjoint
-nonfigure pairs validate. Twenty-two pinned OCR tasks completed: twenty English,
-two Korean/English. All drafts were read before one source pass; zero retries.
-Forty-seven source variants and 36 unknown-count dashed bands remain explicit.
-The page-240 label candidate P:26 retains its 6/8 ambiguity; listing 4's damaged
-rU(P and G) continuation remains literal. Two margin images and six further visual
-mark associations preserve handwriting and scan marks separately from printed code.
-No code, address progression or checksum validation. The first verifier stopped at
-an incorrect expected file count of 100; a fresh revision corrects it to 105.
-Both attempts remain. Transcripts and exports were unchanged; the serializer and
-both independent exports succeeded on their first attempts.
-The stable preservation inventory is revision 02; the original inventory is retained.
-A supplement records only the recorder log growing from empty to its success line.
-All 48,122 previous files, 53 inventories and thirty core pins are unchanged.
-The unchanged 213-test baseline is reused. Current preservation: 48,596 issue files.
-Reproduction: `archive/pdf/1985-11/restoration/batch-54/reproduction.json`.
-Next batch 55 assembles Bank Panic from immutable opening 228-233, middle 234-239
-and ending 240-245. Preserve every native metadata category and source occurrence,
-including ambiguous labels, physical wraps, repeated addresses and visual marks.
+November 1985 remains in progress: thirty-two readable, assistant sample-reviewed
+articles, no partial article or pending assembly, and fourteen unresolved identities.
+Batch 55 completes Bank Panic 0013 assembly, pages 228-245. All 453 files match an
+independent rebuild, including all 444 immutable native files. The complete package
+retains 126 regions, 97 blocks, 29 figures and 2,328 transcription rows.
+All 58 native array categories, 174 category slices, nine object projections,
+twelve reserved lists and three scalars preserve their source state. All 94,254
+independently projected ranges, 206,358 total UTF-8 range occurrences, 207,767 evidence
+pins and 126 images validate; 340 nonfigure pairs are disjoint. Nine obsolete active
+stage notes are resolved, with original notes retained in native metadata.
+Four printed listings retain 228 BASIC statements, 99 wrapped statements, three
+cross-column statements, 1,240 table data rows, 62 groups and 13,020 literal fields.
+Both segment boundaries remain linked without text changes. Repeated addresses
+6000-6078 in listings 2 and 3 retain distinct source occurrences. Both P:26 label
+candidates remain distinct; the page-240 6/8 ambiguity remains explicit.
+Opening prose, eighty memory-map pairs, 24 diagram cells including two blanks,
+fourteen key entries, five glossary entries and 29 screen fields remain intact.
+Handwriting, quoted spacing, unknown-count bands and listing 4's damaged rU(P/G)
+continuation remain source candidates. No code, address or checksum validation.
+No new mapping, OCR, correction or source viewing. Startup, recipe, adapter,
+both exports and independent verifier succeeded on their first executions.
+All 48,596 prior files, 54 selected inventories and thirty core pins are unchanged.
+The unchanged 213-test baseline is reused. Current preservation: 49,532 issue files.
+Reproduction: `archive/pdf/1985-11/restoration/batch-55/reproduction.json`.
+The private `bank_panic_literal.py` adapter is required to reproduce/check this
+assembly. Retain the existing Lessons from Apple, Hangul, PLAY and numerical-analysis
+adapters for other assembled packages. Batch 54's original inventory retains its
+exact recorder-log growth supplement; selected stable revision 02 needs no exception.
+Next batch 56 verifies CRUSH CIRCLES 0014, opening 246, and its ending before mapping
+pages 246-251. Previous 245 and following 252 are provisional boundary lookups.
 Parent 0012 remains unresolved. Software Contest 0035's page-176 hint,
 parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved.
 Folios 175-177, 210 and 216 remain null. Cover, remaining identities, full 266-page

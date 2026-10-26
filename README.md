@@ -171,12 +171,13 @@ diagram-label work and the batch32/46 timing supplements remain explicit. No rea
 rebuild followed this closeout. See the [PDF plan](PLAN-PDF.md),
 [issue progress](docs/progress/README.md) and [successor handoff](docs/SUCCESSOR-NOTES.md).
 
-November 1985 restoration is in progress: thirty-one articles are readable,
-one is partial and fourteen of 46 identities remain unresolved. Bank Panic's three
-immutable segments cover all body pages 228-245. All 105 ending-segment files match
-an independent rebuild, with every printed field and BASIC statement indexed.
-Next: full article assembly. Cover, remaining articles and whole-issue accounting remain.
-Progress logs and documentation use English; source retains its original language.
+November 1985 restoration is in progress: thirty-two articles are readable,
+none is partial and fourteen of 46 identities remain unresolved. Bank Panic is
+complete on pages 228-245; all 453 files match an independent rebuild, including
+444 retained native files. Four printed listings and all source uncertainties remain.
+Next: verify and restore CRUSH CIRCLES. Cover, remaining identities and whole-issue
+accounting remain. Progress logs and documentation use English; source retains
+its original language.
 See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff

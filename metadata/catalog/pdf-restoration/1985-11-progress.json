@@ -1261,7 +1261,7 @@
       "parent_id": "maso-1985-11-toc-0012",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical 0013 opens on PDF/printed 228 with Bank Panic, platform 애플 컴패티블 and byline 김교선. Canonical title BANK PANIC, identity, order and parent 0012 remain unchanged. The series banner does not by itself resolve parent 0012.",
@@ -1282,18 +1282,31 @@
         "Listing3 is separately captioned on244 and starts again at6000 with P:01. Its repeated6000-6078 occurrences remain separate from listing2. Listing3 continues on upper245 and ends at6638 followed by its final SUM row. Lower245 contains separately captioned listing4, two BASIC columns, ending at1210. A physical continuation at the top of its right column belongs to the bottom-left statement255; inspect its exact crop before transcription.",
         "Three-column table order is left, middle, right on each page; listing4 is left then right. Preserve each printed address, eight data positions, colon and row SUM field, group header +0 through +7/SUM, dashed separators and final group SUM row. No checksum arithmetic, address progression validation, code execution, syntax/opcode checks or deduplication.",
         "Original page images preserve handwriting, underlines and scan artifacts. Separate margin figures retain the mark beside P:35 on241 and the mark beside6000 on243. Their interpretation and authorship remain unknown. Underlines and marks touching data remain in the exact table crops and full originals.",
-        "Page246 opens independent CRUSH CIRCLES, with printed SPC-1000 and byline 장 창수. It is outside this article. One canonical task, six mapped pages240-245 and two outside-map lookups239/246 meet checkpoint bounds. Full immutable article assembly remains after ending restoration. No OCR or source correction has started at mapping time."
+        "Page246 opens independent CRUSH CIRCLES, with printed SPC-1000 and byline 장 창수. It is outside this article. One canonical task, six mapped pages240-245 and two outside-map lookups239/246 meet checkpoint bounds. Full immutable article assembly remains after ending restoration. No OCR or source correction has started at mapping time.",
+        "All eighteen Bank Panic pages228-245 assembled from three immutable natives; all453 files match an independent rebuild, including444 unchanged native files. Nine active stage deferrals resolved. Both segment boundaries linked without changing source bytes. Every native metadata category and source uncertainty retained; four printed listings remain distinct."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-11/packages/batch-54/bank-panic-ending",
+        "directory": "archive/pdf/1985-11/packages/bank-panic",
         "article_id": "scan-maso-1985-11-toc-0013",
         "manifest": {
-          "path": "archive/pdf/1985-11/packages/batch-54/bank-panic-ending/manifest.json",
-          "sha256": "8397db68d2d912a947b6e1a915eb902eeb57276dcd9a255c19876ed240093614",
-          "bytes": 18290
+          "path": "archive/pdf/1985-11/packages/bank-panic/manifest.json",
+          "sha256": "795af6ef60f1c69829eb459e494bf931006844025eb3169df8aa02842472f973",
+          "bytes": 85835
         },
         "coverage": {
           "pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
             240,
             241,
             242,
@@ -1302,6 +1315,18 @@
             245
           ],
           "printed_pages": [
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233",
+            "234",
+            "235",
+            "236",
+            "237",
+            "238",
+            "239",
             "240",
             "241",
             "242",
@@ -1309,59 +1334,19 @@
             "244",
             "245"
           ],
-          "all_segment_pdf_pages": [
-            228,
-            229,
-            230,
-            231,
-            232,
-            233,
-            234,
-            235,
-            236,
-            237,
-            238,
-            239,
-            240,
-            241,
-            242,
-            243,
-            244,
-            245
-          ],
-          "boundary_supported_full_article_pdf_pages": [
-            228,
-            229,
-            230,
-            231,
-            232,
-            233,
-            234,
-            235,
-            236,
-            237,
-            238,
-            239,
-            240,
-            241,
-            242,
-            243,
-            244,
-            245
-          ],
-          "uninspected_interior_pdf_pages": [],
-          "regions": 30,
-          "blocks": 22,
-          "figures": 8,
+          "regions": 126,
+          "blocks": 97,
+          "figures": 29,
           "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
           "excluded_region_ids": []
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "source_title": "Bank Panic",
-        "source_byline": "김교선",
         "source_platform": "애플 컴패티블",
+        "source_byline": "김교선",
         "source_byline_note": "Printed opening byline preserved in immutable opening228-233; no new byline on ending240-245. Parent0012 unresolved.",
         "segments": [
           {
@@ -1416,15 +1401,21 @@
             ]
           }
         ],
+        "assembly_format": "bank-panic-literal-v1",
+        "assembly_adapter": {
+          "path": "archive/pdf/1985-11/restoration/batch-55/bank_panic_literal.py",
+          "sha256": "8cf29974b79aef57e146457a5e53f032f0f75ab8c61a94735d8e5f0a40f7405d",
+          "bytes": 18156
+        },
         "validation": {
-          "path": "archive/pdf/1985-11/restoration/batch-54/validation.json",
-          "sha256": "26dc4ae46a2bfeecca650e2f229b84070f60adb2415bcb7129da5fb04bf384b2",
-          "bytes": 2239
+          "path": "archive/pdf/1985-11/restoration/batch-55/validation.json",
+          "sha256": "6cb9f88ad0a07dc151c9c56a7bcb427caa6180b53af26378b68de59144dd6df0",
+          "bytes": 3916
         },
         "reproduction": {
-          "path": "archive/pdf/1985-11/restoration/batch-54/reproduction.json",
-          "sha256": "87a63bcc4fdfcac71b0a79b74770984d139b0a4d2d127041ebd658645f763d17",
-          "bytes": 1462
+          "path": "archive/pdf/1985-11/restoration/batch-55/reproduction.json",
+          "sha256": "d88c5bda20af8b621f0a63f5d5025476baf320fb04559f2e58b1f10ace43bfbe",
+          "bytes": 2415
         }
       }
     },
@@ -2977,8 +2968,8 @@
   ],
   "totals": {
     "canonical_entries": 46,
-    "readable": 31,
-    "partial": 1,
+    "readable": 32,
+    "partial": 0,
     "non_owning_headings": 0,
     "unresolved_eligibility": 14
   },
@@ -5312,6 +5303,38 @@
         "sha256": "70caa8e1a20d59d459d04674b2d6311f0a5ccd3179e40a29207f1f97cad22697",
         "bytes": 1187
       }
+    },
+    {
+      "id": "batch-55",
+      "status": "complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-11-toc-0013"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "english_tasks": 0,
+      "source_correction_passes": 0,
+      "preflight_crop_repair": 0,
+      "validation": {
+        "path": "archive/pdf/1985-11/restoration/batch-55/validation.json",
+        "sha256": "6cb9f88ad0a07dc151c9c56a7bcb427caa6180b53af26378b68de59144dd6df0",
+        "bytes": 3916
+      },
+      "verification": {
+        "path": "archive/pdf/1985-11/restoration/batch-55/verification-completed.json",
+        "sha256": "b75dfe63c365501bcdb42ac679c15fbdfb298f6660b0850ecb1e1e8fdf19e5be",
+        "bytes": 1721
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-11/evidence/batch-55-preserved-work.json",
+        "sha256": "f88786f857453aa27ca574cfe4d441b0bc592c2cce477f1246b167434dba5893",
+        "bytes": 11100937
+      },
+      "started_at": "2026-10-26T08:20:03.046297+00:00",
+      "finished_at": "2026-10-26T08:26:29.408062+00:00",
+      "timing_scope": "Prospective wall-clock stages include tool waits and gaps; active human review time unmeasured."
     }
   ],
   "source_page_observations": [
@@ -7489,13 +7512,14 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
+      "restoration": "complete-article-assembled",
       "classification": "article-body",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic opens after the Character Definition Editor ending on 227. Boundary observation only; no restoration or canonical assignment in this checkpoint.",
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7505,11 +7529,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7519,11 +7544,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7533,11 +7559,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7547,11 +7574,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7561,11 +7589,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7575,11 +7604,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7589,11 +7619,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7603,11 +7634,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7617,11 +7649,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7631,11 +7664,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7645,11 +7679,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7659,11 +7694,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7673,11 +7709,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7687,11 +7724,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7701,11 +7739,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7715,11 +7754,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7729,11 +7769,12 @@
       "toc_entry_ids": [
         "maso-1985-11-toc-0013"
       ],
-      "restoration": "segment-complete",
-      "note": "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+      "restoration": "complete-article-assembled",
+      "note": "Bank Panic canonical0013 fully assembled from three immutable segments covering228-245. Folio individually observed in the native checkpoint. Source text, separate printed listings and uncertainties retained.",
       "prior_stage_notes": [
         "Bank Panic canonical 0013 occupies 228-245. Opening 228-233 restored; remaining 234-245 and complete assembly required. Source folio individually observed. Parent 0012 remains unresolved; printed listings, handwriting and source uncertainties remain distinct.",
-        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233 and middle234-239 restored. Later240-245 and complete assembly remain. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved.",
+        "Bank Panic canonical0013 occupies228-245. Immutable opening228-233, middle234-239 and ending240-245 restored. All body pages covered; complete assembly remains. Printed listings, all literal fields, handwriting and uncertainty records remain distinct; parent0012 unresolved."
       ]
     },
     {
@@ -7747,13 +7788,23 @@
   ],
   "cover_status": "pending; donated cover priority; source PDF cover visually identified but no derivative selected in batch01",
   "next_checkpoint": {
-    "id": "batch-55",
-    "goal": "Assemble Bank Panic canonical0013 from immutable opening228-233, middle234-239 and ending240-245. Preserve all native packages, corrections, fields, physical wraps, group fragments, variants, unknown bands and visual-mark associations. Listing2 repeated6000-6078 and listing3 independent occurrences remain distinct. Preserve ambiguous P:26 group-label candidate on240 and listing4 rU(P/G) physical continuation without semantic repair. Verify all native categories, byte ranges and independent complete exports. Parent0012 remains unresolved.",
+    "id": "batch-56",
+    "goal": "Verify the complete extent and restore canonical0014 CRUSH CIRCLES, opening246. Inspect ending and adjacent boundaries before mapping246-251 as a complete article or bounded opening segment. Preserve canonical title, identity, attribution, parent0012 and all literal code/source uncertainties.",
     "toc_entry_ids": [
-      "maso-1985-11-toc-0013"
+      "maso-1985-11-toc-0014"
     ],
-    "mapping_targets": [],
-    "provisional_lookup_targets": [],
+    "mapping_targets": [
+      246,
+      247,
+      248,
+      249,
+      250,
+      251
+    ],
+    "provisional_lookup_targets": [
+      245,
+      252
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -7764,7 +7815,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "No historical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
     "Localized source candidates and Unicode/space approximations retain original scans.",
-    "Thirty-one readable articles, one partial article and fourteen unresolved identities. Bank Panic0013 immutable segments cover228-245; full assembly pending. Parent0012 unresolved. Cover, full266-page accounting and issue closeout remain. Software Contest0035 page-176 hint, parents0002,0020,0026,0040 and Back-Issue Guide0033 unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216 remain null; no parent classification inferred from children."
+    "Thirty-two readable articles; no partial article or pending assembly. Fourteen unresolved identities, cover, full266-page accounting and issue closeout remain. Parent0012 unresolved. Software Contest0035 page-176 hint, parents0002,0020,0026,0040 and Back-Issue Guide0033 unresolved. Diskette0032 page-72 mismatch preserved. Folios175-177,210,216 remain null; no parent classification inferred from children. Bank Panic complete with private bank-panic-literal-v1 adapter; retain prior four private adapters for full selected-package audits. Batch54 original inventory has one documented recorder-log growth exception; selected stable revision02 requires no exception."
   ],
   "reader_rebuild": false
 }
