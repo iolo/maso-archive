@@ -51,8 +51,12 @@ paired OCR or a new engine comparison.
   assembly. Retain the existing Lessons from Apple, Hangul, PLAY and numerical-analysis
   adapters for other assembled packages. Batch 54's original inventory retains its
   exact recorder-log growth supplement; selected stable revision 02 needs no exception.
-  Next batch 56 verifies CRUSH CIRCLES 0014, opening 246, and its ending before mapping
-  pages 246-251. Previous 245 and following 252 are provisional boundary lookups.
+  Batch 56 preparation establishes CRUSH CIRCLES 0014 on pages 246-251, between
+  Bank Panic ending 245 and Flying Lode Runner opening 252. Eight full views and all
+  94 exact regions were inspected. Three crop-margin repairs preceded 87 pinned OCR
+  tasks: 28 English and 59 Korean/English; all raw drafts were read, with zero retries.
+  The single source correction and independent complete-article exports remain.
+  Resume from `archive/pdf/1985-11/restoration/batch-56/continuation.json`.
   Parent 0012 remains unresolved. Software Contest 0035's page-176 hint,
   parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved.
   Folios 175-177, 210 and 216 remain null. Cover, remaining identities, full 266-page

@@ -175,7 +175,8 @@ November 1985 restoration is in progress: thirty-two articles are readable,
 none is partial and fourteen of 46 identities remain unresolved. Bank Panic is
 complete on pages 228-245; all 453 files match an independent rebuild, including
 444 retained native files. Four printed listings and all source uncertainties remain.
-Next: verify and restore CRUSH CIRCLES. Cover, remaining identities and whole-issue
+CRUSH CIRCLES pages 246-251 have reviewed crops and completed OCR drafts; source
+correction and exports remain. Cover, remaining identities and whole-issue
 accounting remain. Progress logs and documentation use English; source retains
 its original language.
 See [the November progress log](docs/progress/8511.md).
