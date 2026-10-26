@@ -6,72 +6,74 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active: 51 canonical identities, eleven readable/sample-reviewed
-articles, one partial article, one non-owning heading and 38 unresolved identities.
-All nine MAGIC KEY body pages are preserved in immutable natives; complete article
-assembly remains pending.
+January 1988 is active: 51 canonical identities, twelve readable/sample-reviewed
+articles, one non-owning heading and 38 unresolved identities. No classified article
+has deferred body pages or a pending complete article assembly.
 
-MAGIC KEY 0014 spans PDF 126–134. Opening native a preserves PDF 126–131; ending
-native b preserves printed 130–132/PDF 132–134. Its selected package is
-`archive/pdf/1988-01/packages/batch-17-r01/magic-key-b`: all 49 files/35,908,876 bytes
-match an independent rebuild. The opening 153 files remain unchanged. Combined
-natives retain 202 files/91,009,725 bytes, 61 regions, 41 blocks/transcripts and
-twenty original assets. Availability stays partial until complete assembly.
+MAGIC KEY 0014 is complete across nine body pages, PDF 126–134. Selected full article:
+`archive/pdf/1988-01/packages/magic-key-complete-r03`. All 211 files/156,132,399 bytes
+match the independent rebuild, including all 202 immutable native files and every
+native metadata array, object, scalar and reserved list. Original stage state remains
+provenance; complete scope/program/connection/caption records govern availability.
 
-The ending native has sixteen regions, eight blocks/transcripts and eight originals.
-Seven code units retain 386 physical rows: 294 assembly rows with 284 printed ordinal
-strings 158–441/ten unnumbered wraps, plus 92 labelled BASIC/DATA rows. All 971 opaque
-assembly fields and 1,441 BASIC/DATA fields validate. The complete BASIC generator
-has 23 main rows and 69 DATA rows with 1,104 hex pairs and 69 printed check fields.
-All values stay literal; no checksum arithmetic, binary or executable repair.
+The full article has 61 regions, 41 blocks/transcripts and twenty original assets.
+Twelve code/display units retain 574 physical rows: 458 assembly rows with 441 printed
+ordinal strings/seventeen wraps, 103 labelled BASIC rows, one unlabelled insertion
+and twelve dump rows. All 1,539 opaque assembly fields, 1,481 BASIC/DATA fields,
+1,104 DATA hex pairs/69 literal check fields and 126 dump pairs validate. Three
+complete source programs, one complete BASIC snippet and the DEBUG display remain
+distinct source units; no checksum, binary, syntax or executable repair.
 
-Source co/lor, 454b/h,+300h, ax, rec/ord_size and string continuations remain separate
-physical rows. The point after 244 inc di, BASIC Cleated/831, three unknown-count
-dot bands, comma/point candidates on 1170/1190 and repeated 1670/1680 DATA remain.
-c/o/1/l/0/O, cs/es/os, quote, register/address and exact-space candidates are explicit.
-No syntax or source inconsistency is repaired from expected behavior.
+The usage table retains 25 rows/75 data cells, three headers, eighteen blanks and
+31 physical TSV rows. Twelve prose connections, seven code connections and the
+157/158 native boundary preserve exact source occurrences. Four captions link seven
+panels, including the continuing assembly panels through the opening caption.
+Primary text/panels precede ten complete page/body/folio reference views. Native
+reading orders and all source text remain unchanged.
 
-Five internal code connections and the incoming 157/158 native boundary pass.
-Listing2 caption links both local BASIC panels; listing1's caption links two ending
-assembly panels through separately checked opening-native provenance. Original
-listing/page views retain source pixels. Final PDF 134 right back-issue advertisement
-and uncaptioned printer decoration outside the article box are excluded; the left
-boxed article/header and folio 132 remain. Source ends with DATA 1680 before independent
-Turbo Pascal on 135. Opening PDF 130's null folio remains unchanged.
+All 18,861 native and 18,950 projected local UTF-8 ranges, 19,211 native and 19,436
+projected pin occurrences, and 61 decoded images pass. Three native/five projected
+inherited-caption ranges validate in their embedded native-download contexts.
+The selected checker passes with its original source ROOT unavailable. Five invalid
+DATA/range/caption/page/resolved-note mutations are rejected. Five exact active
+stage notes are resolved while original native stage notes remain unchanged.
 
-All 12,450 local UTF-8 range occurrences, three inherited native-caption ranges,
-12,494 pin occurrences and sixteen decoded images pass in their proper contexts.
-All eight OCR tasks used pinned settings: seven eng code/one kor+eng caption,
-one source correction pass and zero failures/retries. Before OCR, two fresh map
-revisions padded row 384 and moved the 230/1000 boundary into blank source row 723;
-all earlier maps/crops remain. All sixteen selected crops preceded OCR and all
-eight raw drafts preceded correction. No post-OCR crop repair. One task, three
-mapped pages and three outside lookups/six whole source views meet the limits.
-All 11,748 prior January files, 134 pilot files and thirty core pins are unchanged.
-The passing 213-test baseline is reused; no fresh test run is claimed.
+The initial adapter/full assembly and embedded-context refinement remain. A verifier
+then caught unnamespaced prose endpoint IDs. Selected adapter revision 02/full r03
+fix only derived endpoint metadata; source text, listings, maps, raw ZIP, scans and
+all native files remain exact. Both earlier full assemblies, failed verifier and
+both independent rebuilds are retained. Use the pinned magic_literal_r02.py adapter
+and magic-key-literal-v1 format for reproduction and the eventual issue dispatcher.
+Retain the existing ram-removal-literal-v1 adapter there too.
 
-Next assemble the complete nine-page article from all 202 immutable native files,
-preserving every array/object/scalar/reserved list and the new DATA/check/caption
-contexts. Validate 574 physical code rows, 441 assembly ordinals/seventeen wraps,
-the table's 25 rows/75 cells/eighteen blanks and 126 dump pairs. Preserve twelve
-prose joins, six internal code connections plus the native boundary, all captions,
-source errors, three mixed-page exclusions and PDF 130's null folio. Resolve active
-stage deferrals while native provenance stays unchanged. Primary text/panels should
-precede full-page reference views. No new mapping, lookups, OCR or correction needed.
+Three exclusions remain: lower PDF 130 Central Computer advertisement and final
+PDF 134 right back-issue advertisement/uncaptioned printer decoration outside the
+article box. PDF 130's printed folio stays null. Source DATA 1680 ends before the
+independent Turbo Pascal article on PDF 135. Source Cleated/831, revers/righr,
+apostrophe 152/point 244, punctuation 1170/1190, repeated 1670/1680, byline/glyph/
+register/address/space candidates and eleven unknown-count dot bands remain literal.
+Diagram labels remain original pixels for volunteers. Human acceptance/full
+proofreading, encoded bytes/exact spaces/glyph counts, checksum/binary correspondence,
+claims, execution and independent backup recovery remain unverified.
 
-RAM-removal 0013 remains complete at packages/ram-removal-complete-r02; utility 0011
-remains a non-owning heading. Retain the pinned batch 15 ram_literal_r01.py adapter
-and ram-removal-literal-v1 format in the eventual issue dispatcher. Legacy Turbo
-Pascal 0018 TOC-pin adoption, 38 classifications/articles, all-page accounting, donated
-cover, standalone JSON/assets issue export and final audit remain. Human acceptance/
-full proofreading, original encoded bytes/exact spaces/glyph counts, checksum/binary
-correspondence, claims, execution and independent backup recovery remain unverified.
-No reader/browser/frontend rebuild or deployment.
+This checkpoint used one task and zero new mapping, lookups, OCR or correction.
+All 41 native OCR settings retain pinned Tesseract configuration, twelve eng code/
+29 kor+eng other. All 12,007 prior January files, 134 pilot files and thirty core
+pins remain exact. The unchanged 213-test passing baseline is reused; no fresh run.
+RAM-removal 0013 remains complete; utility 0011 remains a non-owning heading.
+
+Next verify Techniques 0015 as heading versus body owner from original contents/child
+evidence, and restore dBASE 0016, 디베이스 데이터를 다른 소프트웨어로, from printed 60/
+known opening PDF 62 within two-task/six-mapped-page/twenty-outside-lookup limits.
+Verify actual extent; no TOC ending or global folio offset. Legacy Turbo Pascal 0018
+TOC-pin adoption, 38 classifications/articles, all-page accounting, donated cover,
+standalone JSON/assets issue export and final audit remain. No reader/browser/
+frontend rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-17/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-17/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-18/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-18/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

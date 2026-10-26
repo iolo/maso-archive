@@ -1127,7 +1127,7 @@
       "parent_id": "maso-1988-01-toc-0011",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0014 MAGIC KEY independently opens printed124/PDF126 after RAM-removal PCMAP.ASM ends onPDF125. Original utility category and IBM PC machine label belong to this child article.",
@@ -1141,15 +1141,16 @@
         "Listing2 caption onPDF133 precedes BASIC10–190;PDF134 continues200–230 then DATA1000–1680. All hex pairs/trailing check fields remain opaque source values;no checksum or binary reconciliation.",
         "FinalPDF134 article is the boxed left panel with category header and separate source folio132. Right back-issue advertisement and uncaptioned printer decoration outside this box are not article content.",
         "FollowingPDF135 independently opens Turbo Pascal tips and136 Turbo C graphics. No TOC-derived ending or global folio offset. All nine body pages will be preserved across immutable a+b after validation;complete article assembly is separately pending.",
-        "Ending native b independently reproduces49 files. All nine body pages are preserved across immutable a+b;availability stays partial until complete article assembly. Opening folio null and all native source metadata remain unchanged."
+        "Ending native b independently reproduces49 files. All nine body pages are preserved across immutable a+b;availability stays partial until complete article assembly. Opening folio null and all native source metadata remain unchanged.",
+        "Complete nine-page MAGIC KEY0014 assembled in211 independently exact files,including202 unchanged native files and every metadata category. All61 regions/41 blocks/20 originals,574 physical code rows,441 assembly ordinals/seventeen wraps,1104 DATA pairs/69 literal checks,table blank cells,dump fields,prose/code continuations and captions validate. Five active stage notes resolved;no deferred body pages or article assembly. Native stage observations remain provenance;source bytes/glyphs/spacing/checksums/binary correspondence/claims/execution remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a",
+        "directory": "archive/pdf/1988-01/packages/magic-key-complete-r03",
         "article_id": "scan-maso-1988-01-toc-0014",
         "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a/manifest.json",
-          "sha256": "d0c94cec307fca49a48dd0016999c5c0c9c568746c171a86fe084a9b9dca9b0d",
-          "bytes": 25921
+          "path": "archive/pdf/1988-01/packages/magic-key-complete-r03/manifest.json",
+          "sha256": "1d2d47c7373ceb44d2dd16256242a46588abb615c1bb218f6499a3672a0bd349",
+          "bytes": 37910
         },
         "coverage": {
           "pdf_pages": [
@@ -1158,7 +1159,10 @@
             128,
             129,
             130,
-            131
+            131,
+            132,
+            133,
+            134
           ],
           "printed_pages": [
             "124",
@@ -1166,21 +1170,34 @@
             "126",
             "127",
             null,
-            "129"
+            "129",
+            "130",
+            "131",
+            "132"
           ],
-          "regions": 45,
-          "blocks": 33,
-          "figures": 12,
-          "regional_transcripts": 33,
-          "code_units": 5,
-          "physical_code_rows": 188,
-          "assembly_physical_rows": 164,
-          "assembly_printed_ordinals": 157,
-          "assembly_wraps": 7,
+          "regions": 61,
+          "blocks": 41,
+          "figures": 20,
+          "regional_transcripts": 41,
+          "code_units": 12,
+          "physical_code_rows": 574,
+          "assembly_rows": 458,
+          "assembly_printed_ordinals": 441,
+          "assembly_wraps": 17,
+          "assembly_fields": 1539,
+          "basic_labelled_rows": 103,
+          "basic_fields": 1481,
+          "unlabelled_basic_insertions": 1,
+          "data_rows": 69,
+          "data_hex_pairs": 1104,
+          "data_check_fields": 69,
+          "dump_rows": 12,
+          "dump_hex_pairs": 126,
           "table_data_rows": 25,
           "table_data_cells": 75,
           "table_blank_cells": 18,
-          "dump_hex_pairs": 126,
+          "complete_source_programs": 3,
+          "complete_BASIC_snippets": 1,
           "deferred_pdf_pages": [],
           "full_article_pdf_pages": [
             126,
@@ -1195,51 +1212,41 @@
           ],
           "outside_body_pdf_pages_within_extent": [],
           "excluded_region_ids": [
-            "pdf130-central-computer-advertisement"
-          ],
-          "covered_across_immutable_segments": [
-            126,
-            127,
-            128,
-            129,
-            130,
-            131,
-            132,
-            133,
-            134
-          ],
-          "primary_pdf_pages_are_opening_native_only": true
+            "a-pdf130-central-computer-advertisement",
+            "b-pdf134-back-issue-advertisement",
+            "b-pdf134-uncaptioned-printer-decoration"
+          ]
         },
         "body_pages_complete": true,
         "all_body_pages_preserved_across_segments": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "checkpoint": "batch-16",
-        "latest_checkpoint": "batch-17",
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-18",
+        "latest_checkpoint": "batch-18",
         "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-17/magic-key-b-r02/segment-scope.json",
-          "sha256": "8613e6fdde49ed29266a6a3008d89c6e0123b49d2a969845abfc5afb23651fdb",
-          "bytes": 1165
+          "path": "archive/pdf/1988-01/restoration/batch-18/complete-article-scope.json",
+          "sha256": "f6deb16307a7d2333bea33ee7286e9abd9b1b1113468302dced06b7bdca17ca9",
+          "bytes": 733
         },
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-17/validation.json",
-          "sha256": "5e007636e7bc340c9d2b1b449bf91f6478449afd9490c16a8f0c83a88831dd33",
-          "bytes": 2727
+          "path": "archive/pdf/1988-01/restoration/batch-18/validation.json",
+          "sha256": "8b9a0d238b90a2ff7c74864b5a27824fd522c6e5aafb12352222027214878202",
+          "bytes": 3987
         },
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-17/validation.json",
-          "sha256": "5e007636e7bc340c9d2b1b449bf91f6478449afd9490c16a8f0c83a88831dd33",
-          "bytes": 2727
+          "path": "archive/pdf/1988-01/restoration/batch-18/validation.json",
+          "sha256": "8b9a0d238b90a2ff7c74864b5a27824fd522c6e5aafb12352222027214878202",
+          "bytes": 3987
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-17/reproduction.json",
-          "sha256": "2bcb6974d8a6c0198ce77dc496dc6820b802303f99a8ca982b56eb1056b37719",
-          "bytes": 1572
+          "path": "archive/pdf/1988-01/restoration/batch-18/reproduction.json",
+          "sha256": "b7d064d7bcd45c6b91af38a05b4a17077f5e3b0aa543487acae173a0f99be0ce",
+          "bytes": 2306
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-17/reproduction.json",
-          "sha256": "2bcb6974d8a6c0198ce77dc496dc6820b802303f99a8ca982b56eb1056b37719",
-          "bytes": 1572
+          "path": "archive/pdf/1988-01/restoration/batch-18/reproduction.json",
+          "sha256": "b7d064d7bcd45c6b91af38a05b4a17077f5e3b0aa543487acae173a0f99be0ce",
+          "bytes": 2306
         },
         "segments": [
           {
@@ -1421,25 +1428,15 @@
             "coverage_is_original_native_provenance": true
           }
         ],
-        "active_stage_notes": [
-          "All nine MAGIC KEY body pages are preserved in immutable a+b. Separate complete article assembly remains pending;native source stage notes remain provenance."
-        ],
+        "active_stage_notes": [],
         "source_limits": [
-          "Assistant sample review; human acceptance/full proofreading,original encoded bytes/exact spaces,glyph identities,technical claims,binary correspondence and execution remain unverified.",
-          "Byline 최철룡/최철용 and source 듣게/들게 are localized glyph candidates. No external person identity inferred.",
-          "Source hyphen/underscore variants,state-sw/memory-key/ram-sw/int call,open parentheses and wording are literal. No prose/code consistency repair.",
-          "Assembly c/o/1/l/0/O,cr/or/cursor_left/oursor_left,15h/16h and5ch/50h are glyph candidates. Printed revers/righr spelling,the extra apostrophe before cs at152 and four dots split across050/unnumbered continuation remain literal candidates. No assembler or executable validation.",
-          "The dump has126 visible opaque hex pairs,including only14 at0010 and two physical tail wraps. No expected16-byte row fill or address/ROM/real-memory correspondence inferred. The vertical gap is serialized as a blank band with unverified original encoded row count.",
-          "Usage table has25 rows/75 data cells and18 blanks. Angle wrappers/musical notes are Unicode candidates,not recovered control bytes. Dot-band counts are explicit unknowns. Lowercase word and unbalanced System wrapper remain.",
-          "Two diagram labels stay as original pixels for volunteer transcription;their captions and associations are searchable. Exact encoded spaces,dot/glyph counts,technical assertions and execution remain unverified.",
-          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/exact spaces,c/o/1/l/0/O/punctuation/digit glyphs,technical claims,binary correspondence,checksum arithmetic and execution remain unverified.",
-          "Assembly c/o/1/l/0/O,cs/es/os,cr/or,cursor_left/oursor_left,fcb/fob,code/ocode,and digit/register/address candidates remain scan-linked. The small point after244 inc di is retained;the tiny point before262 mov remains pixels with unverified dust/punctuation status.",
-          "All ten physical assembly wraps are literal:co/lor,454b/h,option comment,+300h,346 ax,two rec/ord_size splits and three source string continuations. They are not syntactically reflowed or made executable.",
-          "BASIC source Cleated,831,CHR$233/161/5,N,2 versus N,3 and repeated1670/1680 DATA rows remain unrepaired. Three dot-band counts use editorial markers;original string spaces/quotes remain unverified.",
-          "All69 DATA rows preserve16 visible hex pairs and a separate printed three-hex check field each. Source1170 comma and1190 point/dust candidates stay explicit. 6D5/5D5,5E5/5E5 glyph identities and0/O/1/l/B/8 remain unverified. No checksum arithmetic,binary correspondence or execution is certified.",
-          "Listing1 caption is inherited from immutable opening native with a separate native byte-range context. Listing2 caption links both local original panels. Complete article assembly and active stage-note resolution remain pending.",
-          "FinalPDF134 right back-issue advertisement and uncaptioned printer decoration outside the boxed article are excluded. Original left listing/header/folio remain;openingPDF130 folio remains null in its immutable native.",
-          "All nine MAGIC KEY body pages are preserved in immutable a+b. Separate complete article assembly remains pending;native source stage notes remain provenance."
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/exact spaces,glyph identities,technical claims,checksum arithmetic,binary correspondence and execution remain unverified.",
+          "Byline 최철룡/최철용,듣게/들게,c/o/1/l/0/O/B/8,cr/or,cursor_left/oursor_left,fcb/fob,code/ocode,cs/es/os,register/address and quote/point/comma/dust candidates remain source-linked. No external person identity or semantic repair.",
+          "Original source state-sw/memory-key/ram-sw/int call forms,open parentheses,revers/righr spelling,apostrophe before cs at152,point244 and tiny point before262 remain. Physical assembly operands/comments/strings stay wrapped;no executable reconstruction.",
+          "All literal BASIC/DATA/check fields,Cleated,831,CHR$233/161/5,N,2 versus N,3 and duplicated ending DATA rows are retained. No arithmetic validation,code-generation correspondence or recovered source bytes are inferred.",
+          "Table angle wrappers,musical notes,lowercase word,unbalanced System wrapper,eighteen blank cells and source description wraps remain. Eleven dot bands have unknown-count markers. The dump retains126 visible pairs,only14 at0010,two tail wraps and an unverified vertical blank band;no expected byte fill.",
+          "Diagram labels stay original pixels for volunteer transcription. Inherited caption provenance keeps native byte contexts;complete caption records independently link combined text and scans.",
+          "Independent backup recovery remains unverified. No reader/browser/frontend rebuild or deployment."
         ],
         "opening_native_source_limits_provenance": [
           "Assistant sample review; human acceptance/full proofreading,original encoded bytes/exact spaces,glyph identities,technical claims,binary correspondence and execution remain unverified.",
@@ -1466,7 +1463,7 @@
           "sha256": "05a6c76129337b8188a8dba5236fb3dc0a521c087ef8b20aea483ccbc2dd428f",
           "bytes": 1355
         },
-        "directory_is_opening_native_only": true,
+        "directory_is_opening_native_only": false,
         "combined_segment_metrics": {
           "regions": 61,
           "blocks": 41,
@@ -1494,6 +1491,69 @@
           "native_code_boundaries": 1,
           "native_files": 202,
           "native_bytes": 91009725
+        },
+        "ending_native_source_limits_provenance": [
+          "Assistant sample review; human acceptance/full proofreading,original encoded bytes/exact spaces,glyph identities,technical claims,binary correspondence and execution remain unverified.",
+          "Byline 최철룡/최철용 and source 듣게/들게 are localized glyph candidates. No external person identity inferred.",
+          "Source hyphen/underscore variants,state-sw/memory-key/ram-sw/int call,open parentheses and wording are literal. No prose/code consistency repair.",
+          "Assembly c/o/1/l/0/O,cr/or/cursor_left/oursor_left,15h/16h and5ch/50h are glyph candidates. Printed revers/righr spelling,the extra apostrophe before cs at152 and four dots split across050/unnumbered continuation remain literal candidates. No assembler or executable validation.",
+          "The dump has126 visible opaque hex pairs,including only14 at0010 and two physical tail wraps. No expected16-byte row fill or address/ROM/real-memory correspondence inferred. The vertical gap is serialized as a blank band with unverified original encoded row count.",
+          "Usage table has25 rows/75 data cells and18 blanks. Angle wrappers/musical notes are Unicode candidates,not recovered control bytes. Dot-band counts are explicit unknowns. Lowercase word and unbalanced System wrapper remain.",
+          "Two diagram labels stay as original pixels for volunteer transcription;their captions and associations are searchable. Exact encoded spaces,dot/glyph counts,technical assertions and execution remain unverified.",
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/exact spaces,c/o/1/l/0/O/punctuation/digit glyphs,technical claims,binary correspondence,checksum arithmetic and execution remain unverified.",
+          "Assembly c/o/1/l/0/O,cs/es/os,cr/or,cursor_left/oursor_left,fcb/fob,code/ocode,and digit/register/address candidates remain scan-linked. The small point after244 inc di is retained;the tiny point before262 mov remains pixels with unverified dust/punctuation status.",
+          "All ten physical assembly wraps are literal:co/lor,454b/h,option comment,+300h,346 ax,two rec/ord_size splits and three source string continuations. They are not syntactically reflowed or made executable.",
+          "BASIC source Cleated,831,CHR$233/161/5,N,2 versus N,3 and repeated1670/1680 DATA rows remain unrepaired. Three dot-band counts use editorial markers;original string spaces/quotes remain unverified.",
+          "All69 DATA rows preserve16 visible hex pairs and a separate printed three-hex check field each. Source1170 comma and1190 point/dust candidates stay explicit. 6D5/5D5,5E5/5E5 glyph identities and0/O/1/l/B/8 remain unverified. No checksum arithmetic,binary correspondence or execution is certified.",
+          "Listing1 caption is inherited from immutable opening native with a separate native byte-range context. Listing2 caption links both local original panels. Complete article assembly and active stage-note resolution remain pending.",
+          "FinalPDF134 right back-issue advertisement and uncaptioned printer decoration outside the boxed article are excluded. Original left listing/header/folio remain;openingPDF130 folio remains null in its immutable native.",
+          "All nine MAGIC KEY body pages are preserved in immutable a+b. Separate complete article assembly remains pending;native source stage notes remain provenance."
+        ],
+        "ending_native_source_scope_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-17/magic-key-b-r02/segment-scope.json",
+          "sha256": "8613e6fdde49ed29266a6a3008d89c6e0123b49d2a969845abfc5afb23651fdb",
+          "bytes": 1165
+        },
+        "ending_native_validation_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-17/validation.json",
+          "sha256": "5e007636e7bc340c9d2b1b449bf91f6478449afd9490c16a8f0c83a88831dd33",
+          "bytes": 2727
+        },
+        "ending_native_reproduction_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-17/reproduction.json",
+          "sha256": "2bcb6974d8a6c0198ce77dc496dc6820b802303f99a8ca982b56eb1056b37719",
+          "bytes": 1572
+        },
+        "opening_directory_provenance": {
+          "directory": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a",
+          "manifest": {
+            "path": "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a/manifest.json",
+            "sha256": "d0c94cec307fca49a48dd0016999c5c0c9c568746c171a86fe084a9b9dca9b0d",
+            "bytes": 25921
+          },
+          "directory_was_opening_native_only": true
+        },
+        "index_contexts": {
+          "path": "archive/pdf/1988-01/restoration/batch-18/index-contexts.json",
+          "sha256": "8bfd75aeaa315dee8307d7e55c9503b91022756b1eade465b684a408d7168f49",
+          "bytes": 2265
+        },
+        "assembly": {
+          "index_mode": "magic-key-literal-v1",
+          "recipe": {
+            "path": "archive/pdf/1988-01/restoration/batch-18/assembly-recipe.json",
+            "sha256": "bcc27862b40616bc20ca7e17c3a140bdebe4507957b240d54aff3a4920c4ea8a",
+            "bytes": 6465
+          },
+          "adapter": {
+            "path": "archive/pdf/1988-01/restoration/batch-18/magic_literal_r02.py",
+            "sha256": "2213792a9cf1a77507bdfa595d11f23ca64baa5ec74e95d5c393ba23a4e58ed7",
+            "bytes": 19998
+          },
+          "resolved_active_stage_notes": 5,
+          "new_ocr": 0,
+          "new_correction": 0,
+          "embedded_native_caption_check_without_original_root": true
         }
       }
     },
@@ -2754,6 +2814,35 @@
         "sha256": "2bcb6974d8a6c0198ce77dc496dc6820b802303f99a8ca982b56eb1056b37719",
         "bytes": 1572
       }
+    },
+    {
+      "name": "batch-18",
+      "completed_at": "2026-10-26T21:19:15.367838+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0014"
+      ],
+      "canonical_tasks": 1,
+      "new_mapped_pages": 0,
+      "new_outside_lookup_pages": 0,
+      "new_ocr": 0,
+      "new_source_correction": 0,
+      "input_body_pages": 9,
+      "status": "complete-article-assembly",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-18/validation.json",
+        "sha256": "8b9a0d238b90a2ff7c74864b5a27824fd522c6e5aafb12352222027214878202",
+        "bytes": 3987
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-18/reproduction.json",
+        "sha256": "b7d064d7bcd45c6b91af38a05b4a17077f5e3b0aa543487acae173a0f99be0ce",
+        "bytes": 2306
+      },
+      "adapter": {
+        "path": "archive/pdf/1988-01/restoration/batch-18/magic_literal_r02.py",
+        "sha256": "2213792a9cf1a77507bdfa595d11f23ca64baa5ec74e95d5c393ba23a4e58ed7",
+        "bytes": 19998
+      }
     }
   ],
   "notes": [
@@ -2761,27 +2850,31 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Assemble complete nine-body-page MAGIC KEY0014 from immutable a+b without new mapping,source lookups,OCR or correction. Preserve all202 native files and every array/object/scalar/reserved list,including table blank cells,dump fields,assembly ordinals/logical wraps,BASIC/DATA/check indexes and inherited caption native contexts. Validate61 regions/41 blocks/20 figures,12 code units/574 physical rows,441 ASM ordinals/17 wraps,1104 DATA pairs/69 literal check fields,table25 rows/75 cells/18 blanks and126 dump pairs. Preserve12 prose joins,six internal code connections and incoming157/158 boundary;link inherited listing1 caption to all three panels and listing2 to both panels. Retain PDF130 null folio and three mixed-page exclusions. Resolve active stage deferrals while native provenance stays immutable;primary text/panels precede reference-page views. Verify all native/projected ranges,pins,images and independent rebuild. No checksum,binary,syntax or executable repair.",
+    "goal": "Verify canonical0015 테크닉 as heading versus body owner using original contents and child source evidence,and verify actual extent of canonical0016 디베이스 데이터를 다른 소프트웨어로 from printed60/known openingPDF62. Restore at most six verified body pages while preserving code,tables,figures,physical wraps and source mistakes. A longer body remains partial until all immutable natives and separate complete assembly. No inferred group body,TOC ending or global folio offset.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0014"
+      "maso-1988-01-toc-0015",
+      "maso-1988-01-toc-0016"
     ],
-    "source_segments": [
-      "archive/pdf/1988-01/packages/batch-16-r01/magic-key-a",
-      "archive/pdf/1988-01/packages/batch-17-r01/magic-key-b"
+    "known_start_pdf_page": 62,
+    "canonical_reference": "60",
+    "prior_opening_evidence": {
+      "path": "archive/pdf/1988-01/restoration/batch-10/source-reviewed.json",
+      "sha256": "d62214f31a3ce8ea3ed2b0cf68e496de8f76a103e78267dd447514e1717586f0",
+      "bytes": 1307
+    },
+    "lookup_pdf_page_candidates": [
+      11,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
     ],
-    "full_body_pdf_pages": [
-      126,
-      127,
-      128,
-      129,
-      130,
-      131,
-      132,
-      133,
-      134
-    ],
-    "new_ocr_required": false,
-    "new_source_pages_required": false,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -2789,17 +2882,17 @@
     }
   },
   "remaining_work": [
-    "38 canonical identities still need source classification/restoration. MAGIC KEY0014 has all nine body pages preserved across immutable a+b;separate complete article assembly remains pending. RAM-removal0013 is complete;Utility0011 remains a verified non-owning heading.",
+    "38 canonical identities still need source classification/restoration. MAGIC KEY0014 and RAM-removal0013 are complete/readable with no deferred body pages or pending complete article assembly. Utility0011 remains a verified non-owning heading.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 11,
-    "partial": 1,
+    "readable": 12,
+    "partial": 0,
     "non_owning_headings": 1,
     "unresolved": 38
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-17/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-18/preservation-inventory.json"
 }
