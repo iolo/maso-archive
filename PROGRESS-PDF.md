@@ -8,60 +8,58 @@ by the calendar month in which restoration work happened.
 
 January 1988 is active: 51 canonical identities, ten readable/sample-reviewed
 articles, one partial article, one non-owning heading and 39 unresolved identities.
-RAM-removal utility0013 still requires five body pages and complete article assembly.
+All eleven RAM-removal body pages are preserved; complete article assembly is pending.
 
-Utility0011, source heading 유틸리티, is now a non-owning group heading. Original
-contents PDF11 gives it no page and lists independently paginated children:
-그래픽 효과 에디터86, 램상주 제거 유틸리티112 and MAGIC KEY124. The independently
-titled RAM and MAGIC KEY openings retain the category banner. No parent body or
-package is assigned; canonical identities, titles, order and parents stay unchanged.
-Batch12's unresolved bounded search remains historical evidence.
+RAM-removal utility0013, source title 램상주 제거 유틸리티, spans printed112,113,
+115–123/PDF114,115,117–125. PDF116 is an independent advertisement. Its immutable
+opening segment is `archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a`.
+Ending segmentb is `archive/pdf/1988-01/packages/batch-14-r01/ram-removal-b`:
+50 independently exact files/33,221,877 bytes across final PDF121–125. The opening
+147 files remain unchanged. Article availability stays partial until assembly.
 
-RAM-removal utility0013, source title 램상주 제거 유틸리티, has eleven body pages:
-printed112,113,115–123/PDF114,115,117–125. Whole PDF116 is an independent advertisement.
-Segmenta restores its first six body pages, PDF114,115,117–120, in
-`archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a`. All147 files/55,802,775 bytes
-reproduce independently and exactly. Its45 regions,27 blocks,31 transcripts,
-four prose joins,five captions and14 original images validate. Seven original
-listing panels and seven page/body/footer views retain all source pixels.
-Independent lower113 Hosan advertisement excluded; upper body/footer are separate.
+The ending native has 20 regions, seven blocks/transcripts, six assembly units,
+386 physical rows and 922 fields. Three label-only rows and four internal code
+continuations retain their source order; the incoming REMOVE.ASM boundary matches
+the opening native. REMOVE.ASM ends on upper PDF122; PCMAP.ASM starts below its
+listing6 caption and ends on PDF125 with end entpt before MAGIC KEY on PDF126.
+One caption links four original PCMAP panels. Six original listing panels plus
+seven page/heading/body/footer views retain source pixels and large ordinals4–8.
+Final125 right Auto Computer and lower A/1 Computer advertisements are excluded.
 
-Fourteen code units retain426 physical code/display rows,425 nonblank:223 BASIC
-rows with217 printed labels/six wraps,189 assembly rows,seven command rows,six
-console-output rows and one display blank. Three complete BASIC generators have
-155 DATA rows/1,395 literal number cells,including printed trailing checks.
-All441 BASIC fields and440 assembly fields validate. Complete INSTALL.ASM and
-opening REMOVE.ASM retain printed labels,operands and comments; REMOVE.ASM continues.
-Printed261,00,41055!,proint/then/thr/lw/NEW16H/ssgment and None installd remain
-unrepaired. Nine horizontal comment bands use explicit glyph/count markers.
-Handwriting/oversized listing-page ordinals remain original image evidence;
-handwriting transcription awaits volunteers. Glyph/spacing candidates are explicit.
+All 5,064 local UTF-8 range occurrences, 5,115 review-pin occurrences, 20 decoded
+images, rows, fields, caption links and continuations pass. All seven OCR tasks,
+six eng/one kor+eng, used pinned settings and one source pass; zero failures,
+retries or crop revisions. Two stopped index scripts exposed two backslashes
+dropped by transcript-authoring escaping. Initial drafts/diagnoses remain;
+a fresh transcript revision restores exactly those two source characters before
+packaging. Maps, crops, OCR inputs and source readings are unchanged.
 
-All10,805 UTF-8 range occurrences,10,889 review-pin occurrences,45 decoded images,
-DATA cells,physical/logical rows,caption links and prose joins pass. All31 tasks,
-14eng/17kor+eng,used pinned settings and one source pass with zero failures/retries
-or post-OCR crop repairs. A stopped white-row splitter is retained; skewed numeric
-rows instead use complete code columns/panels. Nineteen tight margins were padded
-before recognition; all initial maps/crops/revisions and read-only detail tiles remain.
-The checkpoint used two canonical tasks,six mapped pages and14 outside lookups/
-20 distinct source views. All9,490 prior January files,134 pilot/evidence files
-and thirty core pins remain exact. Unchanged213-test passing baseline reused;
-no fresh test run claimed. Source PDF,TOC and OCR runtime pins remain exact.
+Printed spellings, c/o/1/l/0/O/point/backslash/space candidates and register/address
+differences remain unrepaired. Thirty-seven comment bands and one blank-span width
+use explicit uncertainty markers; the unclosed Format DB20DUP comment is literal.
+This checkpoint used one canonical task, five mapped pages and two outside lookups.
+All 10,188 prior January files, 134 pilot/evidence files and thirty core pins remain
+exact. The unchanged 213-test passing baseline is reused; no fresh run is claimed.
+Source PDF, TOC, runtime and immutable opening pins remain exact.
 
-Next restore final five body pages of0013, printed119–123/PDF121–125, including
-continuing REMOVE.ASM and PCMAP.ASM. Exclude the independent right/bottom ads on
-PDF125. Then assemble all eleven body pages separately from immutable segments.
-Keep segmenta partial until assembly; do not move to MAGIC KEY first.
-Legacy Turbo Pascal0018 TOC-pin adoption,39 unresolved classifications/articles,
-all-page accounting,donated cover,standalone JSON/assets issue export and final
-audit remain. Human acceptance/full proofreading,encoded bytes/exact spaces,
-glyph counts,checksum arithmetic/binary correspondence,source claims,execution
-and independent backup recovery remain unverified. No reader/browser/frontend
-rebuild or deployment.
+Next assemble the full eleven-page article0013 separately from exact a+b pins,
+preserving all 197 native files. Validate 65 regions/34 blocks/27 images, 20 code
+units/812 physical rows, 217 BASIC labels/six wraps/1,395 DATA number cells and
+575 assembly rows/1,362 assembly fields in their native and projected contexts.
+Retain all six source programs, three advertisement exclusions, original images,
+four prose joins, code continuations and listing5 caption associations. Resolve
+active stage deferrals without changing native provenance; no new OCR is needed.
+
+Utility0011 remains a source-verified non-owning heading with no parent body/package.
+Legacy Turbo Pascal0018 TOC-pin adoption, 39 classifications/articles, all-page
+accounting, donated cover, standalone JSON/assets issue export and final audit remain.
+Human acceptance/full proofreading, encoded bytes/exact spaces, glyph counts,
+checksum arithmetic/binary correspondence, source claims, execution and independent
+backup recovery remain unverified. No reader/browser/frontend rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-13/validation.json`.
+`archive/pdf/1988-01/restoration/batch-14/validation.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

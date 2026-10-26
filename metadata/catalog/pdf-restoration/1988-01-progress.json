@@ -779,7 +779,13 @@
         "Canonical0013 opens printed112/PDF114 with source title 램상주 제거 유틸리티,subtitle IBM PC 호환기종 and byline 편집부. Full article has11 eligible body pages112,113,115–123/PDF114,115,117–125. PDF116/printed114 is an independent full advertisement.",
         "Article prose concludes on upper113; BASIC generator listings1–3 and x86 assembly listings4–6 remain body. Final PCMAP.ASM ends on printed123/PDF125 before separately titled MAGIC KEY on124/PDF126. Final123 shares independent right/bottom ads,for the ending segment to exclude.",
         "Segmenta maps first six eligible pages114,115,117,118,119,120: prose,complete BASIC listings1–3,complete INSTALL.ASM and opening REMOVE.ASM. Final five body pages121–125 and immutable complete article assembly remain pending.",
-        "Two named canonical tasks,six mapped pages,14 outside lookups/20 total source views; all source research stays within limits. No global folio offset or TOC-inferred extent."
+        "Two named canonical tasks,six mapped pages,14 outside lookups/20 total source views; all source research stays within limits. No global folio offset or TOC-inferred extent.",
+        "Ending segmentb of canonical0013 maps printed119–123/PDF121–125. Prior immutable segmenta maps114,115,117–120. Full article has11 body pages;PDF116 is an independent full advertisement.",
+        "PDF120 ends opening REMOVE.ASM at jne find;PDF121 continues with mov mcb_start,es reading candidate. REMOVE.ASM concludes on upperPDF122 with end begin;PCMAP.ASM starts below its independently printed listing6 caption.",
+        "PCMAP.ASM continues123–125 and ends with cseg/oseg glyph candidate ends and end entpt. NextPDF126 independently opens MAGIC KEY. No whole-source absence or global folio offset inferred.",
+        "FinalPDF125 left listing panel,large8 ordinal,running heading and footer are retained separately. Independent right Auto Computer and lower A/1 Computer advertisements are excluded.",
+        "This native is only the ending segment. All eleven body pages are represented by two immutable natives after validation;complete article assembly remains a separate pending checkpoint.",
+        "Ending native segmentb passes50-file exact independent rebuild. Opening147 files remain unchanged. All eleven body pages are preserved across two immutable natives;canonical availability remains partial until complete article assembly."
       ],
       "restoration": {
         "directory": "archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a",
@@ -818,13 +824,7 @@
           "data_rows": 155,
           "data_number_cells": 1395,
           "assembly_rows": 189,
-          "deferred_pdf_pages": [
-            121,
-            122,
-            123,
-            124,
-            125
-          ],
+          "deferred_pdf_pages": [],
           "full_article_pdf_pages": [
             114,
             115,
@@ -843,9 +843,23 @@
           ],
           "excluded_region_ids": [
             "p113-hosan-font-card-advertisement"
-          ]
+          ],
+          "covered_across_immutable_segments": [
+            114,
+            115,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "primary_pdf_pages_are_opening_native_only": true
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "segments": [
@@ -930,11 +944,107 @@
               "sha256": "c95a3998bfb449e41d14934f4a7af6a6e29b1875cad140f87fd809822a3484ae",
               "bytes": 3118
             },
-            "native_immutable": true
+            "native_immutable": true,
+            "coverage_is_original_native_provenance": true
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1988-01/packages/batch-14-r01/ram-removal-b",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-14-r01/ram-removal-b/manifest.json",
+              "sha256": "2875d7a4535bebbefdb76be7daa147c4a7cc424bf434af54ae4d57eb7a9adc0f",
+              "bytes": 8668
+            },
+            "coverage": {
+              "full_pdf_pages": [
+                114,
+                115,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125
+              ],
+              "full_printed_pages": [
+                "112",
+                "113",
+                "115",
+                "116",
+                "117",
+                "118",
+                "119",
+                "120",
+                "121",
+                "122",
+                "123"
+              ],
+              "current_pdf_pages": [
+                121,
+                122,
+                123,
+                124,
+                125
+              ],
+              "current_printed_pages": [
+                "119",
+                "120",
+                "121",
+                "122",
+                "123"
+              ],
+              "deferred_pdf_pages": [],
+              "opening_preserved_pdf_pages": [
+                114,
+                115,
+                117,
+                118,
+                119,
+                120
+              ],
+              "all_body_pages_preserved_across_segments": true,
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "source_title": "램상주 제거 유틸리티",
+              "source_byline": "글·편집부",
+              "outside_body_pdf_pages_within_extent": [
+                116
+              ],
+              "excluded_region_ids": [
+                "p123-auto-computer-advertisement",
+                "p123-a1-computer-opening-advertisement"
+              ],
+              "stage_notes_to_resolve": [
+                "Ending segmentb only. No body page remains deferred across immutable a+b; separate complete article assembly is still pending.",
+                "Ending segmentb only; complete article assembly with immutable segmenta pending."
+              ]
+            },
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "recipe": {
+              "path": "archive/pdf/1988-01/restoration/batch-14/ram-removal-b/package-recipe.json",
+              "sha256": "16e4b626b47357b5ea0363deabacc3abd3ff19a8af7d83cee0d1a65af22602ad",
+              "bytes": 10030
+            },
+            "source_scope": {
+              "path": "archive/pdf/1988-01/restoration/batch-14/ram-removal-b/segment-scope.json",
+              "sha256": "9938455a7321e48d8595e9cd49ad70cc666e507fab64d6b7260b8c33771f5f5a",
+              "bytes": 1206
+            },
+            "validation": {
+              "path": "archive/pdf/1988-01/restoration/batch-14/validation.json",
+              "sha256": "7499d679265e7c76a5d4a33f15b7128a8c87fa0dc06670a0b03ca89da093f50f",
+              "bytes": 2665
+            },
+            "native_immutable": true,
+            "coverage_is_original_native_provenance": true
           }
         ],
         "checkpoint": "batch-13",
-        "latest_checkpoint": "batch-13",
+        "latest_checkpoint": "batch-14",
         "source_scope": {
           "path": "archive/pdf/1988-01/restoration/batch-13/ram-removal-a-r01/article-scope.json",
           "sha256": "785f4069230473593aa6798a17098bfa03cb349a568e8b04f4294a53abc599cf",
@@ -954,6 +1064,36 @@
           "Opening six of eleven body pages only; finalPDF121–125 and separate immutable complete article assembly pending. REMOVE.ASM continues; PCMAP.ASM deferred.",
           "All printed DATA/check tokens,source errors,physical wraps and nine band markers retained; original listing/handwriting pixels preserved.",
           "Source encoded bytes/exact spaces,glyph identities,checksum arithmetic/binary agreement,claims and execution unverified."
+        ],
+        "all_body_pages_preserved_across_segments": true,
+        "latest_validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-14/validation.json",
+          "sha256": "7499d679265e7c76a5d4a33f15b7128a8c87fa0dc06670a0b03ca89da093f50f",
+          "bytes": 2665
+        },
+        "latest_reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-14/reproduction.json",
+          "sha256": "39d0e76279b3c15a481b6427b492eb80e0a151aabb23edeb80c39baec6022ac0",
+          "bytes": 1407
+        },
+        "combined_segment_metrics": {
+          "regions": 65,
+          "blocks": 34,
+          "figure_assets": 27,
+          "regional_transcripts": 38,
+          "code_units": 20,
+          "physical_code_rows": 812,
+          "basic_physical_rows": 223,
+          "basic_logical_lines": 217,
+          "basic_wraps": 6,
+          "data_rows": 155,
+          "data_number_cells": 1395,
+          "assembly_rows": 575,
+          "assembly_fields": 1362,
+          "native_files": 197
+        },
+        "active_stage_notes": [
+          "All eleven body pages preserved in two immutable native packages; no deferred source page. Complete article assembly remains pending. Historical native coverage/stage notes stay unchanged."
         ]
       }
     },
@@ -2086,6 +2226,42 @@
         "sha256": "e22af4efaaf13bed679adf753b4454d351717d0cd5c8768f1ce48fd906001228",
         "bytes": 1407
       }
+    },
+    {
+      "name": "batch-14",
+      "completed_at": "2026-10-26T19:52:44.805420+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0013"
+      ],
+      "mapped_pdf_pages": [
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "outside_lookup_pages": 2,
+      "all_inspected_source_pages": 7,
+      "recognition_tasks": 7,
+      "eng_code": 6,
+      "kor_eng_other": 1,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-ending-segment;article-assembly-pending",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-14/validation.json",
+        "sha256": "7499d679265e7c76a5d4a33f15b7128a8c87fa0dc06670a0b03ca89da093f50f",
+        "bytes": 2665
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-14/reproduction.json",
+        "sha256": "39d0e76279b3c15a481b6427b492eb80e0a151aabb23edeb80c39baec6022ac0",
+        "bytes": 1407
+      }
     }
   ],
   "notes": [
@@ -2093,18 +2269,15 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Restore final five body pages of RAM-removal utility0013,printed119–123/PDF121–125,including continuing REMOVE.ASM and complete PCMAP.ASM. FinalPDF125 right/bottom ads are independent exclusions. Preserve segmenta; assemble the whole eleven-page article separately after final segment validation. Do not move to MAGIC KEY before0013 is complete.",
+    "goal": "Assemble the complete eleven-body-page RAM-removal utility0013 from immutable segmenta and segmentb;no new OCR. Preserve all197 native files and validate65 regions/34 blocks/27 images,all20 code units/812 physical rows,217 BASIC labels/six wraps/1395 DATA number cells and575 assembly rows/1362 assembly fields. Resolve active source-page/assembly deferrals without changing native provenance;verify the incoming REMOVE.ASM boundary and listing5 caption associations across segments,all local/projected UTF-8 ranges,three source ad exclusions and an independent rebuild.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0013"
     ],
-    "mapped_pdf_page_candidates": [
-      121,
-      122,
-      123,
-      124,
-      125
+    "source_segments": [
+      "archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a",
+      "archive/pdf/1988-01/packages/batch-14-r01/ram-removal-b"
     ],
-    "known_full_body_pdf_pages": [
+    "full_body_pdf_pages": [
       114,
       115,
       117,
@@ -2117,10 +2290,8 @@
       124,
       125
     ],
-    "outside_body_pdf_pages_within_extent": [
-      116
-    ],
-    "assembly_required_after_segment": true,
+    "new_ocr_required": false,
+    "new_source_pages_required": false,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -2128,7 +2299,7 @@
     }
   },
   "remaining_work": [
-    "39 canonical identities still need source classification/restoration. RAM-removal utility0013 is partial: finalPDF121–125 and complete article assembly remain. Utility0011 is a verified non-owning group heading.",
+    "39 canonical identities still need source classification/restoration. RAM-removal0013 has all eleven body pages preserved across immutable a+b;complete article assembly remains pending. Utility0011 remains a verified non-owning heading.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."

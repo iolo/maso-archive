@@ -25,31 +25,31 @@ paired OCR or a new engine comparison.
 
 - January 1988 is active:51 identities,ten readable/sample-reviewed articles,
   one partial article,one non-owning heading and39 unresolved identities.
-  Utility0011 is a non-owning group from original contentsPDF11 and independent
-  child openings;no parent body/package. RAM-removal0013 has eleven body pages,
-  PDF114,115,117–125;PDF116 is an independent advertisement. Segmenta covers first
-  six pages114,115,117–120:147 independently exact files/55,802,775 bytes,45 regions,
-  27 blocks,31 transcripts,four joins,five captions/14 original images. Fourteen
-  code units retain426 physical rows/425 nonblank:223 BASIC rows/217 labels/six
-  wraps,189 assembly rows,seven commands,six console rows/one display blank.
-  Three BASIC generators retain155 DATA rows/1,395 literal number cells;441 BASIC
-  and440 assembly fields pass. INSTALL.ASM complete;REMOVE.ASM opening only.
-  Printed261,00,41055!,proint/then/thr/lw/NEW16H/ssgment/None installd retained;
-  nine band markers and original handwriting/ordinals preserved. Handwriting
-  transcription is volunteer work. All10,805 UTF-8 ranges/10,889 pin occurrences/
-  45 images pass. All31 tasks,14eng/17kor+eng,one source pass,zero failures/retries/
-  post-OCR crop repairs. Initial stopped splitter,map/crops and19 pre-OCR margin
-  pads remain. Two tasks/six mapped pages/14 outside lookups/20 source views.
-  All9,490 prior January files/134 pilot files/thirty core pins remain exact;
-  unchanged213-test baseline reused,no fresh test run claimed. Next restore
-  finalPDF121–125,exclude final125 right/bottom ads,then assemble eleven pages
-  separately from immutable segments. Article remains partial. Legacy Turbo
-  Pascal adoption,39 classifications/articles,accounting/cover/issue export/audit
-  pending. Human acceptance/proofreading,bytes/spaces/glyph counts/checksums/binary
-  correspondence/claims/execution/backup unverified. No reader rebuild.
+  RAM-removal0013 has all eleven body pages preserved in immutable a+b; complete
+  article assembly pending. Ending segmentb covers PDF121–125:50 independently
+  exact files/33,221,877 bytes,20 regions,seven blocks/transcripts,six code units,
+  386 assembly rows/922 fields,three label-only rows,four internal continuations
+  and one incoming boundary. One caption links four PCMAP panels. Six original
+  listing panels/seven eligible page/heading/body/footer views retain ordinals4–8.
+  Right Auto Computer/lower A/1 Computer ads on125 excluded; final end entpt
+  precedes MAGIC KEY on126. All5,064 UTF-8 ranges/5,115 pin occurrences/20 images
+  pass. All seven tasks,six eng/one kor+eng,one source pass,zero failures/retries/
+  crop revisions. Two stopped index scripts and initial transcripts/diagnoses
+  remain; fresh transcript revision restores two backslashes dropped by authoring
+  escaping before packaging. Source readings/maps/OCR inputs unchanged. Printed
+  spelling,glyph/point/backslash/register/address/space candidates remain literal;
+  37 band markers/one blank-width marker and unclosed Format comment preserved.
+  One task/five mapped pages/two outside lookups. All10,188 prior files/134 pilot
+  files/thirty core pins exact;unchanged213-test baseline reused,no fresh run.
+  Next separately assemble0013 from197 exact native files;validate65 regions/
+  34 blocks/27 images,20 code units/812 rows,217 BASIC labels/six wraps/1395 DATA
+  cells and575 assembly rows/1362 fields. No new OCR. Utility0011 stays non-owning;
+  legacy Turbo Pascal adoption,39 classifications/articles,accounting/cover/issue
+  export/audit pending. Human acceptance/proofreading,bytes/spaces/glyph counts/
+  checksums/binary correspondence/claims/execution/backup unverified. No reader.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-13/validation.json`.
+  `archive/pdf/1988-01/restoration/batch-14/validation.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
