@@ -6,60 +6,61 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active: 51 canonical identities, ten readable/sample-reviewed
-articles, one partial article, one non-owning heading and 39 unresolved identities.
-All eleven RAM-removal body pages are preserved; complete article assembly is pending.
+January 1988 is active: 51 canonical identities, eleven readable/sample-reviewed
+articles, one non-owning heading and 39 unresolved identities. No classified article
+has deferred body pages or a pending complete article assembly.
 
-RAM-removal utility0013, source title 램상주 제거 유틸리티, spans printed112,113,
-115–123/PDF114,115,117–125. PDF116 is an independent advertisement. Its immutable
-opening segment is `archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a`.
-Ending segmentb is `archive/pdf/1988-01/packages/batch-14-r01/ram-removal-b`:
-50 independently exact files/33,221,877 bytes across final PDF121–125. The opening
-147 files remain unchanged. Article availability stays partial until assembly.
+RAM-removal utility0013, source title 램상주 제거 유틸리티, is complete across
+eleven body pages: printed112,113,115–123/PDF114,115,117–125. PDF116 is an independent
+advertisement. Selected full article:
+`archive/pdf/1988-01/packages/ram-removal-complete-r02`. All 206 files/150,323,132 bytes
+reproduce independently and exactly, including all 197 immutable native files.
+Every native array, object, scalar, reserved list and stage note remains preserved.
 
-The ending native has 20 regions, seven blocks/transcripts, six assembly units,
-386 physical rows and 922 fields. Three label-only rows and four internal code
-continuations retain their source order; the incoming REMOVE.ASM boundary matches
-the opening native. REMOVE.ASM ends on upper PDF122; PCMAP.ASM starts below its
-listing6 caption and ends on PDF125 with end entpt before MAGIC KEY on PDF126.
-One caption links four original PCMAP panels. Six original listing panels plus
-seven page/heading/body/footer views retain source pixels and large ordinals4–8.
-Final125 right Auto Computer and lower A/1 Computer advertisements are excluded.
+The full article has 65 regions, 34 blocks, 38 regional transcripts, 27 original
+images and six complete source programs. Twenty code units retain 812 physical
+code/display rows: 223 BASIC rows with 217 labels/six wraps, 575 assembly rows,
+seven commands, six console rows and one display blank. All 155 DATA rows/1,395
+literal number cells, 441 BASIC fields and 1,362 assembly fields validate without
+checksum, binary, assembler or executable repair. Four prose joins, eleven code
+connections and the native REMOVE.ASM boundary preserve source text and order.
+Six captions link all thirteen listing panels, including two continuing REMOVE.ASM
+panels linked to their original opening caption. Full-page reference views follow
+the primary text/listing panels; native reading orders stay unchanged.
 
-All 5,064 local UTF-8 range occurrences, 5,115 review-pin occurrences, 20 decoded
-images, rows, fields, caption links and continuations pass. All seven OCR tasks,
-six eng/one kor+eng, used pinned settings and one source pass; zero failures,
-retries or crop revisions. Two stopped index scripts exposed two backslashes
-dropped by transcript-authoring escaping. Initial drafts/diagnoses remain;
-a fresh transcript revision restores exactly those two source characters before
-packaging. Maps, crops, OCR inputs and source readings are unchanged.
+All 15,869 native and 15,922 projected UTF-8 range occurrences, 16,082 native and
+16,279 projected pin occurrences, and 65 decoded images pass in their proper
+contexts. Seven exact active stage notes are resolved; complete scope/program/
+boundary/caption indexes govern availability. Three source advertisement exclusions
+remain: lower PDF115 Hosan and final PDF125 right Auto Computer/lower A/1 Computer.
+PCMAP.ASM ends with end entpt before independent MAGIC KEY on PDF126.
 
-Printed spellings, c/o/1/l/0/O/point/backslash/space candidates and register/address
-differences remain unrepaired. Thirty-seven comment bands and one blank-span width
-use explicit uncertainty markers; the unclosed Format DB20DUP comment is literal.
-This checkpoint used one canonical task, five mapped pages and two outside lookups.
-All 10,188 prior January files, 134 pilot/evidence files and thirty core pins remain
-exact. The unchanged 213-test passing baseline is reused; no fresh run is claimed.
-Source PDF, TOC, runtime and immutable opening pins remain exact.
+The private ram-removal-literal-v1 adapter preserves the mixed BASIC/DATA/assembly
+indexes without changing thirty core files. Use the pinned selected adapter and
+reproduction command under batch15 for checking/rebuilding this assembly; retain
+that format in the eventual issue dispatcher. The initial adapter/full assembly
+and fresh order-refined revision remain. Four invalid DATA/range/ad-body/resolved-
+note mutations are rejected. No new mapping, source lookups, OCR or correction.
+All 10,447 prior January files and 134 historical pilot/evidence files remain exact.
+The unchanged 213-test passing baseline is reused; no fresh test run is claimed.
 
-Next assemble the full eleven-page article0013 separately from exact a+b pins,
-preserving all 197 native files. Validate 65 regions/34 blocks/27 images, 20 code
-units/812 physical rows, 217 BASIC labels/six wraps/1,395 DATA number cells and
-575 assembly rows/1,362 assembly fields in their native and projected contexts.
-Retain all six source programs, three advertisement exclusions, original images,
-four prose joins, code continuations and listing5 caption associations. Resolve
-active stage deferrals without changing native provenance; no new OCR is needed.
+Source errors, c/o/1/l/0/O/point/backslash/space/register/address candidates and
+unclosed comments remain literal. Forty-six comment bands and one blank-span width
+have explicit uncertainty markers; original handwriting/glyphs remain pixels.
+Human acceptance/full proofreading, encoded bytes/exact spaces, glyph counts,
+checksum arithmetic/binary correspondence, claims, execution and backup recovery
+remain unverified. Utility0011 stays a non-owning heading with no parent package.
 
-Utility0011 remains a source-verified non-owning heading with no parent body/package.
+Next verify canonical0014 MAGIC KEY from printed124/known opening PDF126 and restore
+at most six verified body pages. No ending or global folio offset is assumed.
 Legacy Turbo Pascal0018 TOC-pin adoption, 39 classifications/articles, all-page
 accounting, donated cover, standalone JSON/assets issue export and final audit remain.
-Human acceptance/full proofreading, encoded bytes/exact spaces, glyph counts,
-checksum arithmetic/binary correspondence, source claims, execution and independent
-backup recovery remain unverified. No reader/browser/frontend rebuild or deployment.
+No reader/browser/frontend rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-14/validation.json`.
+`archive/pdf/1988-01/restoration/batch-15/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-15/preservation-inventory-r01.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

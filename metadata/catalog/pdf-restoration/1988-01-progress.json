@@ -772,7 +772,7 @@
       "parent_id": "maso-1988-01-toc-0011",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Original contents PDF11 lists utility0011 as a page-less group over independently paginated graphic editor86,RAM-removal112 and MAGIC KEY124. Current RAM opening repeats Utility banner within its own independent title/body; source MAGIC KEY124/PDF126 is another independently titled child. No parent body/package is assigned.",
@@ -785,15 +785,16 @@
         "PCMAP.ASM continues123–125 and ends with cseg/oseg glyph candidate ends and end entpt. NextPDF126 independently opens MAGIC KEY. No whole-source absence or global folio offset inferred.",
         "FinalPDF125 left listing panel,large8 ordinal,running heading and footer are retained separately. Independent right Auto Computer and lower A/1 Computer advertisements are excluded.",
         "This native is only the ending segment. All eleven body pages are represented by two immutable natives after validation;complete article assembly remains a separate pending checkpoint.",
-        "Ending native segmentb passes50-file exact independent rebuild. Opening147 files remain unchanged. All eleven body pages are preserved across two immutable natives;canonical availability remains partial until complete article assembly."
+        "Ending native segmentb passes50-file exact independent rebuild. Opening147 files remain unchanged. All eleven body pages are preserved across two immutable natives;canonical availability remains partial until complete article assembly.",
+        "Complete eleven-body-page RAM-removal article assembled from immutable a+b in206 independently exact files,including197 unchanged native files/all metadata. Six programs,65 regions,812 code/display rows,1395 DATA cells and all source fields/ranges/captions/images/continuations validate. Seven active stage notes resolved;no deferred body page or complete article assembly remains. Native stage notes remain provenance."
       ],
       "restoration": {
-        "directory": "archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a",
+        "directory": "archive/pdf/1988-01/packages/ram-removal-complete-r02",
         "article_id": "scan-maso-1988-01-toc-0013",
         "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a/manifest.json",
-          "sha256": "d6ebeef7653e1019e86be1f066b30fabf98cc9997d5b88baa470041ec3d33073",
-          "bytes": 25209
+          "path": "archive/pdf/1988-01/packages/ram-removal-complete-r02/manifest.json",
+          "sha256": "9c51aaad1722328c2773d3d9f5588be27d8b75e0b6e187047a267f1bdcffe52f",
+          "bytes": 37299
         },
         "coverage": {
           "pdf_pages": [
@@ -802,7 +803,12 @@
             117,
             118,
             119,
-            120
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
           ],
           "printed_pages": [
             "112",
@@ -810,20 +816,26 @@
             "115",
             "116",
             "117",
-            "118"
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123"
           ],
-          "regions": 45,
-          "blocks": 27,
-          "figures": 14,
-          "regional_transcripts": 31,
-          "code_units": 14,
-          "physical_code_rows": 426,
+          "regions": 65,
+          "blocks": 34,
+          "figures": 27,
+          "regional_transcripts": 38,
+          "code_units": 20,
+          "physical_code_rows": 812,
           "basic_physical_rows": 223,
           "basic_logical_lines": 217,
           "basic_wraps": 6,
           "data_rows": 155,
           "data_number_cells": 1395,
-          "assembly_rows": 189,
+          "assembly_rows": 575,
+          "assembly_fields": 1362,
           "deferred_pdf_pages": [],
           "full_article_pdf_pages": [
             114,
@@ -842,26 +854,14 @@
             116
           ],
           "excluded_region_ids": [
-            "p113-hosan-font-card-advertisement"
-          ],
-          "covered_across_immutable_segments": [
-            114,
-            115,
-            117,
-            118,
-            119,
-            120,
-            121,
-            122,
-            123,
-            124,
-            125
-          ],
-          "primary_pdf_pages_are_opening_native_only": true
+            "a-p113-hosan-font-card-advertisement",
+            "b-p123-auto-computer-advertisement",
+            "b-p123-a1-computer-opening-advertisement"
+          ]
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "segments": [
           {
             "name": "a",
@@ -1043,38 +1043,38 @@
             "coverage_is_original_native_provenance": true
           }
         ],
-        "checkpoint": "batch-13",
-        "latest_checkpoint": "batch-14",
+        "checkpoint": "batch-15",
+        "latest_checkpoint": "batch-15",
         "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-13/ram-removal-a-r01/article-scope.json",
-          "sha256": "785f4069230473593aa6798a17098bfa03cb349a568e8b04f4294a53abc599cf",
-          "bytes": 849
+          "path": "archive/pdf/1988-01/restoration/batch-15/complete-article-scope.json",
+          "sha256": "08edb6201e25d8bea6555a68d76f010b26f5878c8d87f285c3d974ee2ff6fda2",
+          "bytes": 802
         },
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-13/validation.json",
-          "sha256": "c95a3998bfb449e41d14934f4a7af6a6e29b1875cad140f87fd809822a3484ae",
-          "bytes": 3118
+          "path": "archive/pdf/1988-01/restoration/batch-15/validation.json",
+          "sha256": "9a5e47d5b0d4b8b3fdf2838c9f4349196e582b360ae6eae73f9e1e82e6a2dfd4",
+          "bytes": 3384
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-13/reproduction.json",
-          "sha256": "e22af4efaaf13bed679adf753b4454d351717d0cd5c8768f1ce48fd906001228",
-          "bytes": 1407
+          "path": "archive/pdf/1988-01/restoration/batch-15/reproduction.json",
+          "sha256": "58c2e167cad41d927fae709d5fc7391a262a8dd23c72bf44936e342920d415d0",
+          "bytes": 2140
         },
         "source_limits": [
-          "Opening six of eleven body pages only; finalPDF121–125 and separate immutable complete article assembly pending. REMOVE.ASM continues; PCMAP.ASM deferred.",
-          "All printed DATA/check tokens,source errors,physical wraps and nine band markers retained; original listing/handwriting pixels preserved.",
-          "Source encoded bytes/exact spaces,glyph identities,checksum arithmetic/binary agreement,claims and execution unverified."
+          "Complete eleven-body-page article and all six source programs retained;no source page or complete article assembly remains deferred.",
+          "All printed DATA/check tokens,source errors,physical wraps,46 horizontal band markers and one blank-span marker retained;original listing/handwriting pixels preserved.",
+          "Human acceptance/full proofreading,source encoded bytes/exact spaces,glyph identities/counts,checksum arithmetic/binary agreement,claims,execution and independent backup recovery remain unverified."
         ],
         "all_body_pages_preserved_across_segments": true,
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-14/validation.json",
-          "sha256": "7499d679265e7c76a5d4a33f15b7128a8c87fa0dc06670a0b03ca89da093f50f",
-          "bytes": 2665
+          "path": "archive/pdf/1988-01/restoration/batch-15/validation.json",
+          "sha256": "9a5e47d5b0d4b8b3fdf2838c9f4349196e582b360ae6eae73f9e1e82e6a2dfd4",
+          "bytes": 3384
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-14/reproduction.json",
-          "sha256": "39d0e76279b3c15a481b6427b492eb80e0a151aabb23edeb80c39baec6022ac0",
-          "bytes": 1407
+          "path": "archive/pdf/1988-01/restoration/batch-15/reproduction.json",
+          "sha256": "58c2e167cad41d927fae709d5fc7391a262a8dd23c72bf44936e342920d415d0",
+          "bytes": 2140
         },
         "combined_segment_metrics": {
           "regions": 65,
@@ -1092,8 +1092,32 @@
           "assembly_fields": 1362,
           "native_files": 197
         },
-        "active_stage_notes": [
-          "All eleven body pages preserved in two immutable native packages; no deferred source page. Complete article assembly remains pending. Historical native coverage/stage notes stay unchanged."
+        "active_stage_notes": [],
+        "index_contexts": {
+          "path": "archive/pdf/1988-01/restoration/batch-15/index-contexts.json",
+          "sha256": "d6a69804829dd4e2a316fe6a5692518a8ef4a1a45400dc3942c6e3740be0b224",
+          "bytes": 2253
+        },
+        "assembly": {
+          "index_mode": "ram-removal-literal-v1",
+          "recipe": {
+            "path": "archive/pdf/1988-01/restoration/batch-15/assembly-recipe.json",
+            "sha256": "d55ebb78943483eaf7a72e295f92c99393947b33518927e75c7853b53e5b4e2e",
+            "bytes": 6793
+          },
+          "adapter": {
+            "path": "archive/pdf/1988-01/restoration/batch-15/ram_literal_r01.py",
+            "sha256": "9de90dac512c059a7ee61dcdc676a2f6a73b1f90d94b7c1bc46cdfb3aa2ac7b2",
+            "bytes": 16554
+          },
+          "resolved_active_stage_notes": 7,
+          "new_ocr": 0,
+          "new_correction": 0
+        },
+        "opening_native_source_limits_provenance": [
+          "Opening six of eleven body pages only; finalPDF121–125 and separate immutable complete article assembly pending. REMOVE.ASM continues; PCMAP.ASM deferred.",
+          "All printed DATA/check tokens,source errors,physical wraps and nine band markers retained; original listing/handwriting pixels preserved.",
+          "Source encoded bytes/exact spaces,glyph identities,checksum arithmetic/binary agreement,claims and execution unverified."
         ]
       }
     },
@@ -2262,6 +2286,35 @@
         "sha256": "39d0e76279b3c15a481b6427b492eb80e0a151aabb23edeb80c39baec6022ac0",
         "bytes": 1407
       }
+    },
+    {
+      "name": "batch-15",
+      "completed_at": "2026-10-26T20:09:22.965139+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0013"
+      ],
+      "canonical_tasks": 1,
+      "new_mapped_pages": 0,
+      "new_outside_lookup_pages": 0,
+      "new_ocr": 0,
+      "new_source_correction": 0,
+      "input_body_pages": 11,
+      "status": "complete-article-assembly",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-15/validation.json",
+        "sha256": "9a5e47d5b0d4b8b3fdf2838c9f4349196e582b360ae6eae73f9e1e82e6a2dfd4",
+        "bytes": 3384
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-15/reproduction.json",
+        "sha256": "58c2e167cad41d927fae709d5fc7391a262a8dd23c72bf44936e342920d415d0",
+        "bytes": 2140
+      },
+      "adapter": {
+        "path": "archive/pdf/1988-01/restoration/batch-15/ram_literal_r01.py",
+        "sha256": "9de90dac512c059a7ee61dcdc676a2f6a73b1f90d94b7c1bc46cdfb3aa2ac7b2",
+        "bytes": 16554
+      }
     }
   ],
   "notes": [
@@ -2269,29 +2322,22 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
   ],
   "next_checkpoint": {
-    "goal": "Assemble the complete eleven-body-page RAM-removal utility0013 from immutable segmenta and segmentb;no new OCR. Preserve all197 native files and validate65 regions/34 blocks/27 images,all20 code units/812 physical rows,217 BASIC labels/six wraps/1395 DATA number cells and575 assembly rows/1362 assembly fields. Resolve active source-page/assembly deferrals without changing native provenance;verify the incoming REMOVE.ASM boundary and listing5 caption associations across segments,all local/projected UTF-8 ranges,three source ad exclusions and an independent rebuild.",
+    "goal": "Verify extent of canonical0014 MAGIC KEY from printed reference124/known openingPDF126,then restore at most six verified body pages. Prior ending article0013 is complete;do not infer a global folio offset or end from the TOC. Preserve code/physical wraps/graphic labels and source glyph candidates. Longer body stays partial until all immutable segments and separate assembly.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0013"
+      "maso-1988-01-toc-0014"
     ],
-    "source_segments": [
-      "archive/pdf/1988-01/packages/batch-13-r01/ram-removal-a",
-      "archive/pdf/1988-01/packages/batch-14-r01/ram-removal-b"
+    "known_start_pdf_page": 126,
+    "canonical_reference": "124",
+    "lookup_pdf_page_candidates": [
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
     ],
-    "full_body_pdf_pages": [
-      114,
-      115,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      124,
-      125
-    ],
-    "new_ocr_required": false,
-    "new_source_pages_required": false,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -2299,16 +2345,17 @@
     }
   },
   "remaining_work": [
-    "39 canonical identities still need source classification/restoration. RAM-removal0013 has all eleven body pages preserved across immutable a+b;complete article assembly remains pending. Utility0011 remains a verified non-owning heading.",
+    "39 canonical identities still need source classification/restoration. RAM-removal0013 is complete/readable with no deferred body pages or article assembly. Utility0011 remains a verified non-owning heading.",
     "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 10,
-    "partial": 1,
+    "readable": 11,
+    "partial": 0,
     "non_owning_headings": 1,
     "unresolved": 39
-  }
+  },
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-15/preservation-inventory-r01.json"
 }
