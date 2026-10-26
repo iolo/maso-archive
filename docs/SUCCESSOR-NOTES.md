@@ -1,4 +1,4 @@
-# Successor handoff — 2026-10-26
+# Successor handoff — 2026-10-27
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
@@ -14,6 +14,21 @@ See [the reader guide](READING-ROOM.md) and
 This local build adds no human acceptance and performs no deployment. March and October 1985 are later data-only closeouts and are not included in this 11-issue reader snapshot.
 
 ## Active restoration
+
+January 1988 is active under the full-issue restoration goal. Its51 canonical
+identities currently account for three readable/sample-reviewed articles and48
+unresolved classifications. Batch01 restores gift18–19/PDF20–21 and contest22–25/
+PDF24–27:184 selected files independently exact;54 regions/38 blocks/16 images/
+997 local UTF-8 ranges/24 table cells/33 form fields validate. Fresh213 PDF tests
+pass;38 pinned Tesseract tasks, one correction pass, zero retries. Two tasks/six
+mapped pages/twelve provisional lookups remain bounded. All134 historical sample/
+evidence files and thirty core files are unchanged. Reused Turbo Pascal0018
+retains its legacy TOC pin; explicit reproduction/adoption remains pending.
+Next verify C tutorial0005/reference28 and restore at most six pages. Remaining
+classifications/articles/assemblies, all-page accounting, cover selection, issue
+export and final audit remain. Follow [January log](progress/8801.md),
+`metadata/catalog/pdf-restoration/1988-01-progress.json` and
+`archive/pdf/1988-01/restoration/batch-01/validation.json`. No reader rebuild.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

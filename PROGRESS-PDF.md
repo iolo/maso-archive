@@ -1,10 +1,26 @@
 # PDF restoration progress
 
-Updated 2026-10-26. This file is the status index; detailed records live under
+Updated 2026-10-27. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
+
+January 1988 is active. Its 51 canonical identities currently account for three
+readable/sample-reviewed articles and 48 unresolved classifications. Batch01's
+gift18–19/PDF20–21 and contest22–25/PDF24–27 exports contain184 files, independently
+exact; all54 regions/38 blocks/16 images/997 local UTF-8 ranges/24 table cells/
+33 form fields validate. Fresh213 PDF tests pass. The38 pinned Tesseract tasks
+used one source correction pass and zero retries within two tasks/six mapped pages/
+twelve provisional lookups. All134 historical sample/evidence files and thirty
+core files remain unchanged. Reused Turbo Pascal0018 retains its historical
+evidence and legacy TOC pin; explicit reproduction/adoption remains pending.
+No final heading classifications or whole-issue completion is claimed.
+Next verify C tutorial0005/reference28 and restore at most six pages. Remaining
+articles/assemblies, page accounting, donated cover and issue closeout remain.
+See [January log](docs/progress/8801.md),
+`metadata/catalog/pdf-restoration/1988-01-progress.json` and
+`archive/pdf/1988-01/restoration/batch-01/validation.json`. No reader rebuild.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

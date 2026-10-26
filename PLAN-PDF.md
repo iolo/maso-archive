@@ -22,7 +22,27 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## November 1985 active restoration, 2026-10-26
+## January 1988 active restoration, 2026-10-27
+
+The January issue is in progress: 51 canonical identities currently account for
+three readable/sample-reviewed articles and 48 unresolved classifications.
+Batch01 restores the gift announcement18–19/PDF20–21 and contest notice22–25/
+PDF24–27. Their 184 selected files independently reproduce exactly; all54
+regions,38 blocks,16 images,997 local UTF-8 ranges,24 table cells and33 form
+fields validate. Fresh213 PDF tests pass. All38 mapped Tesseract tasks retain
+the pinned settings, one source correction pass and zero recognition retries.
+Two tasks/six mapped pages/twelve provisional lookups meet the limits.
+
+The completed historical Turbo Pascal0018 sample is preserved and accounted
+separately; its legacy TOC-pin reproduction/adoption remains pending. No heading
+has yet received a final non-owning classification. Source errors, uncertain
+spelling/encoding and historical claims remain explicit. Next verify the extent
+of C를 배우자(9), canonical0005/reference28, and restore at most six pages.
+All-page accounting, remaining articles/assemblies, donated cover, issue export
+and final audit remain. No reader rebuild. See [January log](docs/progress/8801.md)
+and `metadata/catalog/pdf-restoration/1988-01-progress.json`.
+
+## November 1985 closeout, 2026-10-26
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

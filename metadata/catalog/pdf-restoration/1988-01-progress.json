@@ -1,0 +1,721 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1988-01",
+  "status": "in-progress",
+  "updated": "2026-10-27",
+  "source": {
+    "path": "maso-pdf/maso-8801.pdf",
+    "sha256": "fe9cba69f0a86dad9f5a3f1e72cf03de11cc7fc20225905be39f93edb9222aad",
+    "bytes": 89998868
+  },
+  "canonical_toc": {
+    "path": "TOC.md",
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+    "bytes": 252444
+  },
+  "canonical_queue": {
+    "path": "archive/pdf/1988-01/restoration/canonical-queue.json",
+    "sha256": "091dc7066c418f2d5ae4364ec164fceb1174fa2e8a117f3b0628b1dbd104e4b7",
+    "bytes": 67372
+  },
+  "source_pdf_pages": 242,
+  "entries": [
+    {
+      "toc_entry_id": "maso-1988-01-toc-0001",
+      "title": "워드프로세서",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0002",
+      "title": "중앙한글 에디터의 개선",
+      "parent_id": "maso-1988-01-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0003",
+      "title": "중앙한글의 개선된 프린터 루틴",
+      "parent_id": "maso-1988-01-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0004",
+      "title": "컴퓨터 언어",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0005",
+      "title": "C를 배우자(9) : 유닉스와 C언어",
+      "parent_id": "maso-1988-01-toc-0004",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0006",
+      "title": "인터프리터 분석",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0007",
+      "title": "애플 인터프리터의 분석(8) : LIST(2)",
+      "parent_id": "maso-1988-01-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0008",
+      "title": "MSX 인터프리터로의 접근(10) : 괄호있는 명령",
+      "parent_id": "maso-1988-01-toc-0006",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0047",
+      "title": "컴퓨터 교육",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0009",
+      "title": "베이직 교육방법(4) : 경험과 시각화",
+      "parent_id": "maso-1988-01-toc-0047",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0048",
+      "title": "하드웨어 제작",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0010",
+      "title": "MSX 확장슬롯의 제작",
+      "parent_id": "maso-1988-01-toc-0048",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0011",
+      "title": "유틸리티",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0012",
+      "title": "그래픽 효과 에디터",
+      "parent_id": "maso-1988-01-toc-0011",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0013",
+      "title": "램상주 제거 유틸리티",
+      "parent_id": "maso-1988-01-toc-0011",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0014",
+      "title": "MAGIC KEY",
+      "parent_id": "maso-1988-01-toc-0011",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0015",
+      "title": "테크닉",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0016",
+      "title": "디베이스 데이터를 다른 소프트웨어로",
+      "parent_id": "maso-1988-01-toc-0015",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0017",
+      "title": "비글 컴파일러에서 한글을",
+      "parent_id": "maso-1988-01-toc-0015",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0018",
+      "title": "터보 파스칼에 한글을",
+      "parent_id": "maso-1988-01-toc-0015",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Reused immutable completed step6b; manifest/source/geometry/current canonical identity checked 2026-10-27. Legacy TOC pin and historical HTML preserved; no new OCR."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/shared/packages/6b-turbo-pascal",
+        "article_id": "scan-maso-1988-01-toc-0018",
+        "manifest": {
+          "path": "archive/pdf/shared/packages/6b-turbo-pascal/manifest.json",
+          "sha256": "da3e7f95158434e11cf144c06d6ca9b0a32e273ec00114a248c1e428a2ebeaa1",
+          "bytes": 8652
+        },
+        "coverage": {
+          "pdf_pages": [
+            94,
+            95
+          ],
+          "printed_pages": [
+            "92",
+            "93"
+          ],
+          "regions": 11,
+          "blocks": 11,
+          "figures": 0,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "legacy_toc_pin": {
+          "path": "TOC.md",
+          "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "bytes": 251883
+        },
+        "reproduction_pending": "Reconcile historical TOC pin through explicit immutable-input reproduction at adoption checkpoint."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0019",
+      "title": "소프트웨어 소개",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0020",
+      "title": "MSX-DOS TOOLS",
+      "parent_id": "maso-1988-01-toc-0019",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0021",
+      "title": "터보 파스칼 유틸리티 툴박스",
+      "parent_id": "maso-1988-01-toc-0019",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0022",
+      "title": "정보 레이다",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0023",
+      "title": "디버깅 룸·게시판",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0024",
+      "title": "국내뉴스",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0025",
+      "title": "신제품 안내",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0026",
+      "title": "해외뉴스",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0027",
+      "title": "신간안내",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0028",
+      "title": "복덕방",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0029",
+      "title": "애독자광장",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0030",
+      "title": "QA",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0031",
+      "title": "애독자 퀴즈",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0032",
+      "title": "애독자 설문지",
+      "parent_id": "maso-1988-01-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0049",
+      "title": "컴퓨터 그래픽",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0033",
+      "title": "터보 C에서 그래픽을",
+      "parent_id": "maso-1988-01-toc-0049",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0050",
+      "title": "터보광",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0034",
+      "title": "터보 파스칼을 편하게",
+      "parent_id": "maso-1988-01-toc-0050",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0035",
+      "title": "읽을거리",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0036",
+      "title": "유명한 프로그래머를 만났습니다(4) : PFS 시리즈의 존 페이지",
+      "parent_id": "maso-1988-01-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0037",
+      "title": "마이크로 소프트웨어의 필자가 되는 법",
+      "parent_id": "maso-1988-01-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0051",
+      "title": "취재",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0038",
+      "title": "입력장치에 새바람 : 한글 문자 인식 시스템",
+      "parent_id": "maso-1988-01-toc-0051",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0039",
+      "title": "특집 : PC 소프트웨어의 동향",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0040",
+      "title": "애독자 111명에게 선물을 드립니다.",
+      "parent_id": null,
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source cover PDF1 visibly dated1988/1.",
+        "Gift notice printed18–19/PDF20–21; priorPDF19 is independent LIBTEK advertisement; followingPDF22–23 are independently headed prior survey/winners list.",
+        "Contest spread printed22–23/PDF24–25, entry form24/PDF26 and rules/prizes25/PDF27; followingPDF28 independent computer advertisement.",
+        "Actual source folios are recorded page by page; no global offset."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-01-r01/gift-notice",
+        "article_id": "scan-maso-1988-01-toc-0040",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-01-r01/gift-notice/manifest.json",
+          "sha256": "83a713d31b1d1de5854af62287770569623613dfb76da744c656d0c1ecec9abe",
+          "bytes": 13214
+        },
+        "coverage": {
+          "pdf_pages": [
+            20,
+            21
+          ],
+          "printed_pages": [
+            "18",
+            "19"
+          ],
+          "regions": 27,
+          "blocks": 15,
+          "figures": 12,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-01/validation.json",
+          "sha256": "0c4663c2386f62f5a7b05d6a45a71716cd1693727d95f42f07f867ca1845791a",
+          "bytes": 3353
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-01/reproduction.json",
+          "sha256": "2f222887db248bf103d5010470165ee9f89c462e91bf49cb6b488284625d5f53",
+          "bytes": 1663
+        },
+        "checkpoint": "batch-01"
+      }
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0041",
+      "title": "1라인 콘테스트 공모안내",
+      "parent_id": null,
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source cover PDF1 visibly dated1988/1.",
+        "Gift notice printed18–19/PDF20–21; priorPDF19 is independent LIBTEK advertisement; followingPDF22–23 are independently headed prior survey/winners list.",
+        "Contest spread printed22–23/PDF24–25, entry form24/PDF26 and rules/prizes25/PDF27; followingPDF28 independent computer advertisement.",
+        "Actual source folios are recorded page by page; no global offset."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-01-r01/contest-notice",
+        "article_id": "scan-maso-1988-01-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-01-r01/contest-notice/manifest.json",
+          "sha256": "bf1841afed698c9331718ec25f3bad07647399202a542d24fbf80f2d23d85ca3",
+          "bytes": 17544
+        },
+        "coverage": {
+          "pdf_pages": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "printed_pages": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ],
+          "regions": 27,
+          "blocks": 23,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-01/validation.json",
+          "sha256": "0c4663c2386f62f5a7b05d6a45a71716cd1693727d95f42f07f867ca1845791a",
+          "bytes": 3353
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-01/reproduction.json",
+          "sha256": "2f222887db248bf103d5010470165ee9f89c462e91bf49cb6b488284625d5f53",
+          "bytes": 1663
+        },
+        "checkpoint": "batch-01"
+      }
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0042",
+      "title": "우편번호를 이용한 프로그램 공모안내",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0043",
+      "title": "자료",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0044",
+      "title": "소프트웨어 보호법 시행이후 등록된 소프트웨어",
+      "parent_id": "maso-1988-01-toc-0043",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0045",
+      "title": "과월호 목차정리(1986. 11∼1987. 12)",
+      "parent_id": "maso-1988-01-toc-0043",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    },
+    {
+      "toc_entry_id": "maso-1988-01-toc-0046",
+      "title": "귀동냥 1-2-3 : 전동타자기를 프린터로 쓴다!",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": []
+    }
+  ],
+  "checkpoints": [
+    {
+      "name": "batch-01",
+      "completed_at": "2026-10-26T15:23:08.630439+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0040",
+        "maso-1988-01-toc-0041"
+      ],
+      "mapped_pdf_pages": [
+        20,
+        21,
+        24,
+        25,
+        26,
+        27
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "initially_provisional_lookup_pages": 12,
+      "outside_final_map_lookup_pages": 6,
+      "recognition_tasks": 38,
+      "source_correction_passes": 1,
+      "recognition_retries": 0,
+      "status": "complete",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-01/validation.json",
+        "sha256": "0c4663c2386f62f5a7b05d6a45a71716cd1693727d95f42f07f867ca1845791a",
+        "bytes": 3353
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-01/reproduction.json",
+        "sha256": "2f222887db248bf103d5010470165ee9f89c462e91bf49cb6b488284625d5f53",
+        "bytes": 1663
+      }
+    }
+  ],
+  "notes": [
+    "Full January1988 restoration goal active; headings and all other articles unresolved until source review.",
+    "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset."
+  ],
+  "next_checkpoint": {
+    "goal": "Locate and restore opening of C를 배우자(9), canonical0005, within6 pages; first verify actual start/end and intervening continuity. Longer article remains partial until source-preserving assembly.",
+    "toc_entry_ids": [
+      "maso-1988-01-toc-0005"
+    ],
+    "canonical_reference": "28",
+    "limits": {
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 20
+    }
+  },
+  "remaining_work": [
+    "48 canonical identities need source classification/restoration; do not automatically classify headings from queue candidates.",
+    "Historical Turbo Pascal0018 remains unchanged and sample-reviewed; explicit legacy TOC-pin reproduction/adoption checkpoint pending.",
+    "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
+    "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
+  ],
+  "outcome_totals": {
+    "canonical_entries": 51,
+    "readable": 3,
+    "partial": 0,
+    "non_owning_headings": 0,
+    "unresolved": 48
+  }
+}
