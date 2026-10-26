@@ -45,9 +45,14 @@ paired OCR or a new engine comparison.
   All 47,694 previous files, 52 inventories and thirty core pins are unchanged.
   The unchanged 213-test baseline is reused. Current preservation: 48,122 issue files.
   Reproduction: `archive/pdf/1985-11/restoration/batch-53/reproduction.json`.
-  Next batch 54 maps Bank Panic ending pages 240-245, including the end of listing 2
-  and separate listings 3 and 4. Repeated address 6000 in listings 2 and 3 must remain
-  as separate printed occurrences. Full immutable article assembly follows separately.
+  Batch 54 preparation covers Bank Panic ending pages 240-245. All eight whole views
+  and thirty selected crops were reviewed. Twenty-two pinned OCR tasks completed
+  (twenty English, two Korean/English); all raw drafts have been read. No crop repairs
+  or recognition retries. Source correction and independent ending exports remain.
+  Resume from `archive/pdf/1985-11/restoration/batch-54/continuation.json`.
+  Preserve the ambiguous page-240 group label, separate repeated addresses in listings
+  2 and 3, and listing 4's physical continuation across columns. Full immutable article
+  assembly follows ending restoration.
   Parent 0012 remains unresolved. Software Contest 0035's page-176 hint,
   parents 0002, 0020, 0026 and 0040, and Back-Issue Guide 0033 remain unresolved.
   Folios 175-177, 210 and 216 remain null. Cover, remaining identities, full 266-page
