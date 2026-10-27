@@ -25,74 +25,73 @@ records below are historical and do not authorize a new rebuild.
 ## January 1988 active restoration, 2026-10-27
 
 January 1988 is active: 51 canonical identities, twenty-five readable/sample-reviewed
-articles, four non-owning headings and 22 unresolved identities. No classified
-article has deferred body pages or a pending complete article assembly.
+articles, one partial article, four non-owning headings and 21 unresolved identities.
+The partial article has three deferred body pages and a pending complete assembly.
 
-Batch 32 completes 0031, 애독자 퀴즈, on PDF 176. Source has no visible folio;
-the map preserves printed_page null and original contents/catalog reference 174
-separately. Selected `archive/pdf/1988-01/packages/batch-32-r01/readers-quiz`
-(79 files / 8,552,650 bytes) matches its independent rebuild. Twenty regions,
-sixteen reading blocks, seventeen transcripts and three originals retain one
-current CP/M maker question, the prior month's mouse answer and two editorial
-award categories. No current question answer or unprinted submission fields filled.
+Batch 33 preserves the opening native of 0033, 터보 C에서 그래픽을. Actual full
+body is PDF 136–144 / printed 134–142; current native a covers PDF 136–141 only.
+Selected `archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a` contains
+375 files / 46,330,955 bytes and matches its independent rebuild. Original contents
+reference 134, 컴퓨터 그래픽 banner, IBM PC label and 글·설현수(서울대 전기3)
+byline remain source-linked. Prior135 is the independently titled TurboPascal
+convenience article; following145/146 are advertisements,147 an unlisted training
+table and148 Domestic News. No global folio offset or TOC-derived ending.
 
-Seventeen nominated work/contributor pairs retain 34 fields across fifteen left
-and two right rows, with one column row-sequence join. Five survey-award winners
-retain ten name/address fields and their physical address wraps. Nine source
-award/count/prize fields preserve 111, two categories, 628, 1213, 25-vote threshold,
-two leading-work claims, the changed award policy and one diskette-box allocation.
-The printed Nashua diskette caption, original prize photo, complete awards panel
-and full original page are retained. Small product-image labels remain pixels.
+The native retains 102 regions,79 blocks,88 transcripts,14 original figure/reference
+assets,nine prose joins and nine source connections. Fourteen numbered explanation
+sections,nine definition groups,eleven references,seven figure captions,two listing
+captions,16 memory-address pairs/32 fields,seven coordinates and four configuration
+settings are indexed. The 597 transcript rows include spatial label serializations;
+they are not all claimed physical typeset rows. All 2,651 tokens are preserved.
 
-Nomination 이준희 and award prose 이준회 remain independent printed candidates.
-ADBUG, 멋한글 V2.0, 터보 바이덱스 윈도우, 엄희태, 김매용, address 100호 and
-zero/slash-zero/roman/hyphen glyphs remain unverified. Source 100호 is retained
-independently from raw OCR 102호. No personal, software, geographic or grammar repair.
-All 52 physical rows / 262 tokens and six source connections pass coverage checks.
+Six code units retain266 physical rows:five configuration rows,three screen-message
+rows,GRAPH.H001–063 andGRAPHIC.H001–195. All258 printed ordinals,39 blank statement
+fields,1,248 code tokens and17 physical statement-fragment groups remain indexed.
+Eleven pen-obscured GRAPHIC.H fragments and one screen-message tail carry explicit
+[illegible] markers with unknown source character counts. Five asterisk-band counts,
+struct w {. and =.(int) dot candidates remain unverified. Preserve B800H with its
+handwritten0 independently from diagram B000H/prose B0000,asp-ratio versus asp_ratio,
+source figure4 reference and bibliographic candidates; no syntax or technical repair.
+Ratio fraction and source handwriting remain pixels with separate label indexes.
 
-Canonical 0032, 애독자 설문지, remains unresolved. Original contents PDF 11 visibly
-prints reference 175, matching the catalog. The eleven inspected pages are PDF 11
-and 172–181: 172 concludes writer guidance; 173–175 are publisher advertisements;
-176 is Quiz/awards; 177 is a school advertisement; 178–181 are the independently
-titled central-Hangul editor article with visible 178–181 folios. None locates
-the independent survey body. Preserve `batch-32/survey-location-review.json` as a
-bounded, inconclusive review. Quiz-page survey-award winners do not substitute for
-the survey form. No whole-source absence, missing-page or global-offset claim.
+LowerPDF139 publisher-address notice is excluded;upper body and separate folio
+references retained. PDF140/141 use lossless90-degree clockwise correction with
+original portrait scans preserved. One task,six mapped pages,eight outside lookups
+and fourteen inspected source pages meet bounds. Lookup extension and23 crop
+expansions precede OCR;initial and selected maps/crops remain. All102 selected crops
+reviewed before88 pinned tasks (six eng code/82 kor+eng);all raws read before one
+direct source pass. Zero failures,retries or post-OCR crop repairs.
 
-Two canonical tasks, one mapped body page and ten outside lookups meet the limits.
-Both lookup extensions were declared before mapping/OCR; original and revised
-checkpoints remain. All twenty exact crops precede seventeen pinned kor+eng tasks;
-all raw drafts were read before one direct source pass. Three auxiliary 2x zooms
-of unchanged crops support difficult name/zero readings. No recognition failures,
-retries, map revisions or post-OCR crop repairs. First verifier passes all 579
-UTF-8 range occurrences, 606 pin occurrences and twenty decoded images/exact crop
-pixels. All 26,777 prior January files, 134 pilot files and thirty core pins remain
-exact. Existing 213-test passing baseline reused; no fresh run. Human acceptance/
-full proofreading, encoded bytes/glyphs/exact spaces, personal/software/award/prize
-claims and backup recovery remain unverified.
+Validation passes9,305 local UTF-8 range occurrences,9,444 pin occurrences and102
+decoded images/exact source crops. All27,122 prior January files,134 pilot files
+and30 core pins remain exact. Existing213-test passing baseline reused;no fresh
+tests or core changes. Human acceptance/full proofreading,source encoded bytes,
+glyph identities/exact spaces,personal/hardware/software/historical claims,code
+execution and independent backup recovery remain unverified.
 
-Earlier articles and all four heading decisions stand. QA0030 remains complete;
-canonical 0023 remains readable at printed 165 / PDF 167 right with original
-contents/catalog reference 105 and Batch 24's inconclusive record unchanged in
-history. Keep `batch-30/debugging-room-location-found.json` for its resolved location
-and reference conflict. Retain `batch-21/legacy_input_r01.py` / `legacy-toc-input-v1`
-with exact legacy context, old TOC pin, all 52 historical data files / 55 originals
-and current-identity guard; also `batch-18/magic_literal_r02.py` / `magic-key-literal-v1`
-and `batch-15/ram_literal_r01.py` / `ram-removal-literal-v1` for issue dispatch.
+Survey0032 remains unresolved with original contents/catalog175 and Batch32's
+bounded,inconclusive PDF11/172–181 review. Preserve `batch-32/survey-location-review.json`;
+Quiz0031's survey-award notices do not substitute a survey body. No whole-source
+absence or missing-page claim. Earlier articles and four heading decisions stand.
+Canonical0023 remains readable at165/PDF167 right with original105 conflict and
+Batch24 history;keep `batch-30/debugging-room-location-found.json`.
+Retain `batch-21/legacy_input_r01.py` / `legacy-toc-input-v1` with exact legacy
+context/old TOC/current identity guard,`batch-18/magic_literal_r02.py` /
+`magic-key-literal-v1` and `batch-15/ram_literal_r01.py` / `ram-removal-literal-v1`.
 
-Next verify 0033, 터보 C에서 그래픽을, from contents reference 134. PDF 135–143
-are provisional lookup candidates only; inspect actual opening, ending and
-continuations. Preserve code/comments/literals/wraps, tables, diagrams/screens,
-captions and labels within two tasks / six mapped pages / twenty outside lookups.
-Longer body needs immutable bounded native segments and separate assembly. Survey
-0032 remains unresolved for later source-accounting/location evidence. The 22
-unresolved identities, all-page accounting, donated cover, standalone JSON/assets
-export and final audit remain. Full issue goal active. No reader rebuild or deployment.
+Next restore endingPDF142–144/printed140–142 as immutable nativeb:GRAPHIC.H196–458
+andDEMO.C001–168. Verify incoming195/196 boundary and final168 before145 advertisement;
+orient142/143 losslessly using existing core support. Preserve comments,literals,
+wraps,blank ordinal fields,pen marks and original listing panels. Then assemble all
+nine pages separately,retaining nativea unchanged. Two-task/six-page/twenty-outside
+limits continue. The21 unresolved identities,all-page accounting,donated cover,
+standalone JSON/assets export and final audit remain. Full issue goal active.
+No reader rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-32/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-32/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-33/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-33/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 

@@ -24,37 +24,41 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - January 1988 is active: 51 identities, twenty-five readable/sample-reviewed
-  articles, four non-owning headings and 22 unresolved identities. No classified
-  article has deferred body pages or pending assembly. Batch32 completes0031
-  Readers Quiz onPDF176,no visiblefolio/mapprinted_page null;contents174 retained.
-  Selected `archive/pdf/1988-01/packages/batch-32-r01/readers-quiz` has79 files /
-  8,552,650 bytes,independently exact. Twenty regions/sixteen blocks/seventeen
-  transcripts/three originals preserve currentCP/M question,prior mouse answer,
-  seventeen nominations/34 fields,one column join,five winners/ten fields,nine
-  award claims and six connections. Source이준희/prose이준회,100호 versusraw102호,
-  titles/names/addresses/zero/roman glyphs literal/unverified;no answers filled.
-  Original Nashua photo/printedcaption,award panel/fullpage retained. Survey0032
-  original175 confirmedcontents11;bounded11,172–181 review inconclusive. Quiz
-  survey-award notice does not substitute survey body;identity stays unresolved,
-  no absence/missing-page/global-offset claim. Two tasks/one mapped/ten outside;
-  lookup extensions beforemapping retained. All20 crops before17 kor+eng tasks,
-  allraws beforeone sourcepass;zero failures/retries/map revisions/postOCR repairs.
-  Three auxiliary2x unchanged-crop source zooms retained. First verifier passes
-  all579 ranges/606 pins/20 images/exact pixels,52 rows/262 tokens. All26,777
-  prior files/134 pilot/30core exact;213-test baseline reused,no fresh run.
-  Human acceptance/proofreading,encoding/spaces/personal/software/award/prize
-  claims/backup unverified. Former0023 remains located165/PDF167 right with original
-  105conflict/history. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact
-  legacy context/oldTOC/current guard,plus batch-18/magic_literal_r02.py/
+  articles, one partial article, four non-owning headings and 21 unresolved identities.
+  Batch33 preserves0033 Turbo C graphics nativeaPDF136–141/printed134–139 of full
+  nine-page136–144 body. Selected `archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a`
+  has375 files/46,330,955 bytes,independently exact.102 regions/79 blocks/88 transcripts/
+  14 figures/nine joins/nine connections retain14 explanations,nine definitions,
+  eleven references,16 memory pairs/32 fields,seven coordinates,four settings,
+  seven figure/two listing captions.597 transcript rows include spatial label
+  serialization;2,651 tokens. Six code units/266 physical rows retainGRAPH.H001–063,
+  GRAPHIC.H001–195,five config/three screen rows,258 ordinals,39 blank fields,
+  1,248 tokens and17 fragment groups. Eleven pen-obscured code fragments and one
+  screen tail retain[illegible] with unknown character counts. Five asterisk bands,
+  dot candidates,B800H/handwritten0 versusB000H/B0000,asp-ratio/asp_ratio,figure4
+  reference and bibliography candidates unverified;no syntax/technical repair.
+  Lower139 notice excluded;140/141 lossless90-degree orientation/originals retained.
+  One task/six mapped/eight outside/fourteen inspected pages;lookup extension and
+  23 crop expansions beforeOCR,both maps/crops retained. All102 selected crops
+  before88 tasks (six eng/82 kor+eng),all88 raws beforeone source pass,zero failures/
+  retries/postOCR repairs. All9,305 ranges/9,444 pins/102 images/exact pixels pass;
+  all27,122 prior files/134 pilot/30core exact;213-test baseline reused,no fresh run.
+  Next endingPDF142–144/printed140–142:GRAPHIC.H196–458 andDEMO.C001–168,
+  incoming195/196 boundary,lossless142/143 orientation;immutable nativeb then
+  separate nine-page assembly. Nativea unchanged;article stays partial meanwhile.
+  Survey0032 original175 and bounded Batch32 PDF11/172–181 review remain unresolved;
+  preserve `batch-32/survey-location-review.json`,no Quiz award-notice substitution
+  or whole-source absence claim. Former0023 remains located165/PDF167 right with
+  original105 conflict/history. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1
+  exact legacy context/oldTOC/current guard,plus batch-18/magic_literal_r02.py/
   magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1.
-  Next verify0033 터보 C에서 그래픽을 fromreference134;PDF135–143 candidates only.
-  Two tasks/six mapped/twenty outside limits;longbody requires immutable segments
-  and separate assembly. Survey0032 awaits later location/accounting evidence.
-  Remaining22 identities,all-page accounting/cover/export/audit pending;goalactive.
-  No reader rebuild. See [January log](docs/progress/8801.md),
+  Human acceptance/proofreading,encoding/glyphs/spaces/claims/execution/backup
+  unverified. Two-task/six-page/twenty-outside bounds continue.21 unresolved identities,
+  accounting/cover/standalone export/final audit remain;goalactive. No reader rebuild.
+  See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-32/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-32/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-33/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-33/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
