@@ -6,39 +6,46 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active: 51 canonical identities, thirty-five readable/sample-reviewed
-articles, zero partial articles, thirteen non-owning headings and three unresolved identities.
+January 1988 is active: 51 canonical identities, thirty-six readable/sample-reviewed
+articles, zero partial articles, fourteen non-owning headings and one unresolved identity.
 
-Batch 59 classifies canonical 0047 컴퓨터 교육 and 0048 하드웨어 제작 as
-non-owning group headings from direct source evidence. Original contents 11 uses
-unnumbered category headings above the separately referenced education-method and
-MSX expansion-slot articles. PDF58/printed56 and PDF60/printed58 repeat 컴퓨터 교육
-above the independent 경험과 시각화 title and its concluding discussion/figures.
-PDF96/printed94 and PDF100/printed98 repeat 하드웨어 제작 above the separately
-titled MSX용 확장 슬롯의 제작 and its conclusion. These positive source distinctions
-support organizational headings; no parent article, duplicate body or package is invented.
+Batch 60 restores canonical 0046, 귀동냥 1-2-3 : 전동타자기를 프린터로 쓴다!,
+as a complete independent panel on lower PDF100/printed98. The printed title
+전동 타자기를 프린터로 쓴다 has source spaces and no exclamation; canonical title,
+reference98 and parent remain unchanged. No article byline is printed. The named
+company/contact is not an inferred author. Upper hardware article0010 and the
+bottom publisher-address advertisement remain excluded.
 
-Child0009 retains complete PDF58–60; child0010 retains eligible PDF96–100 body.
-Both exports, manifests, body ownership and canonical IDs/titles/parents are unchanged.
-On PDF100, the bordered typewriter tip and lower publisher-address banner remain
-outside the hardware child. Tip0046 remains independently unresolved for restoration.
-Prior material57/95 and advertisements61/101 remain separate. This is bounded
-ownership classification, not a full-source absence claim.
+Selected `archive/pdf/1988-01/packages/typewriter-tip` has 29 files, 4,054,838 bytes,
+matching its independent rebuild. Six regions, five blocks and one uncaptioned original
+panel retain 50 nonempty lines, 243 tokens and eight physical prose paragraph parts.
+All 358 UTF-8 ranges, 368 review pins and six source crop images validate exactly.
+The source reading order is middle-left-right: middle final전 continues left initial동;
+left final달라 continues right initial코드. Two explicit continuation links preserve
+separate fragments with empty/space separator candidates; encoded spaces are unverified.
 
-Ten exact retained full-page source views were directly inspected:11,57,58,60,61,
-95,96,97,100,101. Two tasks, zero mapped pages, ten outside lookups; no new render,
-OCR, source correction or article export. All 49,258 prior January files, 134 pilot
-files and 30 core pins remain exact. The 213 passing Batch42 PDF tests are reused;
-no core changes or fresh run. Assistant sample review remains separate from human
-acceptance, full proofreading and original encoding verification.
+Literal ET-2000H/ET-3000H/GTS-8500, company/contact candidates, ESC/LF/CR/FF/TAB,
+프린터로/준비했다 wording and final785-0597)이다. punctuation remain source-linked.
+Unicode☎ approximates the telephone pictogram; original encoding/glyph count is unverified.
+All 30 cross-owner region pairs, including 15 nonfigure pairs, on shared PDF100 are
+disjoint from unchanged hardware0010. Its original tip exclusion matches this panel.
 
-Batch58 decisions for parents0004/0006 remain unchanged. Printer/font-editor0003
-is complete206–213 at `packages/central-hangul-printer-complete-r01`:345 files and
-226,532,509 bytes match its independent rebuild; all336 native files remain exact.
-Its47,980native/48,848projected UTF-8 ranges,48,356native/49,474projected pins and
-111crop images validate. Initial complete-figure-sequence omission/selected r01 remain
-preserved. Editor0002 is complete178–205; back-issue index0045 complete217–233.
-There are no partial articles or pending article assemblies.
+All six selected crops were reviewed before five pinned kor+eng Tesseract tasks.
+The initial middle crop clipped nonindented row starts; fresh pre-OCR map/crop r01
+widens it. All attempts remain. All five raw drafts were read before one direct
+source pass. No OCR retry, post-OCR crop repair, auxiliary view or source-text revision.
+The initial verifier wrongly expected printed100; fresh verifier r01 uses the observed
+printed98. Source maps, crops, OCR, transcripts, recipes and exports were unchanged.
+
+Canonical0049 컴퓨터 그래픽 is now a non-owning group heading. Original contents11
+and category banners above the distinct Turbo C child0033 opening136 and final listing144
+support the decision. The complete child136–144 and all other exports remain unchanged.
+No parent body/package or source-wide absence claim. Earlier parent decisions remain.
+
+All 49,288 prior January files, 134 pilot files and 30 core pins remain exact.
+The 213 passing Batch42 PDF tests are reused; no core changes or fresh run.
+Printer0003 is complete206–213, editor0002 complete178–205 and back-issue index0045
+complete217–233. No partial articles or article assemblies remain pending.
 
 Eventual issue dispatch must retain `batch-57/central_hangul_printer_literal_r01.py`,
 `batch-54/central_hangul_editor_literal_r02.py`, `batch-48/back_issue_index_literal.py`,
@@ -46,21 +53,20 @@ Eventual issue dispatch must retain `batch-57/central_hangul_printer_literal_r01
 `batch-21/legacy_input_r01.py` with exact old TOC/context/current identity guard,
 `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`.
 
-Next classify parent0049 컴퓨터 그래픽 from direct source evidence and restore
-independent tip0046 on lowerPDF100/printed98 in one bounded two-task checkpoint.
-Exclude upper hardware0010 body and bottom publisher advertisement. Verify source
-reading order and title rather than copying canonical wording. Survey0032 retains
-original175 and bounded inconclusive location review; former0023original105 history
-remains retained. All-page accounting, donated cover, standalone JSON/assets issue
-export, independent rebuild and final audit remain. Postal samples and scanner
-glyph/two graph panels need manual review. Keep two-task/six-page/twenty-outside bounds.
-The full issue goal is active. No reader rebuild or deployment. Human acceptance,
-full proofreading, encoded bytes/glyphs/exact spaces, historical/technical claims,
-execution and backup recovery remain unverified.
+Next begin all-page accounting: 242 source pages, 188 selected body pages and 54
+outside-body candidates derived from package coverage. Inspect the first20 outside
+candidates next; these are not yet visual classifications. Only survey0032 remains
+unresolved, retaining original175 and bounded inconclusive review. No unrelated body
+is substituted or full-source absence claimed. Former0023 original105 history remains.
+Donated-cover selection, standalone JSON/assets issue export, independent rebuild and
+final audit remain. Postal samples and scanner glyph/two graph panels need manual review.
+Keep two-task/six-page/twenty-outside bounds. The full issue goal is active. No reader
+rebuild or deployment. Human acceptance/full proofreading, encoded bytes/glyphs/exact
+spaces, historical/technical/contact claims, execution and recovery remain unverified.
 
-Validation/reproduction: `archive/pdf/1988-01/restoration/batch-59/validation.json`
-and `archive/pdf/1988-01/restoration/batch-59/reproduction.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-59/preservation-inventory.json`.
+Validation/reproduction: `archive/pdf/1988-01/restoration/batch-60/validation.json`
+and `archive/pdf/1988-01/restoration/batch-60/reproduction.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-60/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
