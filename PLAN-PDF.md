@@ -24,75 +24,73 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-January 1988 is active: 51 canonical identities, twenty-eight readable/sample-reviewed
-articles, six non-owning headings and 17 unresolved identities. No classified
+January 1988 is active: 51 canonical identities, twenty-nine readable/sample-reviewed
+articles, seven non-owning headings and 15 unresolved identities. No classified
 article has deferred body pages or a pending complete article assembly.
 
-Batch 37 completes 0037, 마이크로 소프트웨어의 필자가 되는 법, across printed
-169–170 / PDF 171–172. Selected `archive/pdf/1988-01/packages/batch-37-r01/writer-guidance`
-contains 160 files / 16,317,813 bytes and matches its independent rebuild. Source
-title 마이크로소프트웨어의 필자가 되는법 retains its own spacing; no byline is
-printed or inferred. The article lies between the Q&A ending on170 and independent
-publisher advertisement173. Original contents11 and the child banner support0035,
-읽을거리, as the sixth non-owning heading, grouping PFS0036 and writer guidance0037.
-The earlier PFS package and all canonical identities, titles and parents stay exact.
+Batch 38 completes0038, 입력장치에 새바람 : 한글 문자 인식 시스템, at printed
+82–85 / PDF84–87. Selected `archive/pdf/1988-01/packages/batch-38-r01/hangul-recognition`
+contains188 files /30,971,236 bytes, matching its independent rebuild. The source
+kicker/title remain separate; no printed byline inferred. Prior83 is LIFE computer
+advertising; following88 independently opens the restored graphics editor.
+Contents11 and the independent child/neighbor evidence classify0051 취재 as the
+seventh non-owning heading. No 취재 banner on the child or separate body claimed.
 
-The article retains41 regions,33 blocks,37 transcripts and four original assets.
-All203 transcript rows /976 tokens are indexed; nine rows serialize spatial diagram
-labels and do not claim typeset reading flow. Four joins preserve the preparation
-paragraph, 누를/때는 page continuation, 코멘/트가 and 달라/는 word continuations.
-Six section headings plus the contact heading retain their source order. Original
-keyboard/address diagrams, arrow/pointer shapes, table grid and both full pages
-remain pixels, with two separately reviewed printed captions.
+The report retains a separate desktop-publishing inset on lower85,57 regions,
+35 blocks,41 transcripts and16 originals. All311 transcript rows /1,426 tokens
+are indexed. Six joins preserve 이미지/화일에서,시스/템은,the inset paragraph,
+복잡한/로고나,또/한 across86–87,and도구로/사용하는. Three hardware specification
+groups retain11 physical rows/nine fields. Nine system labels are explicitly
+spatial serialization; arrows/icons/node shapes stay pixels. Five printed captions
+remain associated. Two independent right87 advertisements are excluded;eligible
+left report and separate folio remain original images.
 
-The five-row requirements table has ten nonblank logical cells and sixteen
-requirement items across eighteen physical value-cell rows. Final-cell wraps
-어셈블/러 and 필요/한 remain. Four keyboard instructions retain eight key fields;
-seven prose key-wrapper occurrences include physical ES/C. Nine address fields
-retain $67, $68, $0801 and $0802 candidates. No key/control-byte, address or pointer
-semantics are inferred. Two repeated point bands have unverified glyph counts.
-Source 온고이지신, 문은 깨진다., 썩혀, 놀라웁게, slashed zero and quote/angle/dash/
-spacing candidates remain literal. Historical contact/submission/document claims
-are unverified. The introduction's quoted survey question does not locate or
-substitute the separate unresolved0032 survey form.
+Handwriting and three printed recognition outputs retain independent readings,
+three recv001.001 filenames and end/END case. First 바이크로/하글/추 재 and second
+하글/추재 candidates are not harmonized to the input. One pen-obscured recognition
+glyph is explicitly unresolved with unknown source character count. Two original
+intermediate-stroke graph panels await manual glyph review;no guessed Unicode,
+node counts or control bytes. Circles,crosses and two handwritten22 annotations
+remain original pixels. Four screenshot field groups and21 source-clipped English
+fragments retain their visible readings without completing hidden words/counts.
+Full screenshot retained. Source Program/med Grammer,three acronym wraps,Functio/ns,
+dBAS/E,I80286,FO - 200,p321,홋가,만한다.,않겠냐는,스틱카 and사용./하는 stay
+literal candidates;hardware/person/price/recognition/historical claims unverified.
 
-Two tasks, two mapped pages and three outside lookups meet the limits; all five
-source views were inspected. All41 selected crops preceded37 pinned kor+eng tasks.
-Two coverage expansions before OCR retain both maps and all original crops.
-All37 raw drafts were read before one direct source pass. Two auxiliary3x zooms
-of unchanged crops support keyboard/telephone glyph review. Zero failures, retries
-or post-OCR crop repairs. All1,439 UTF-8 range occurrences,1,492 pin occurrences and
-41 decoded images/exact source crops pass. All30,223 prior January files,134 pilot
-files and thirty core pins remain exact. Existing213-test passing baseline reused;
-no fresh tests or core changes. Human acceptance/full proofreading, source encoded
-bytes/glyphs/exact spaces, personal/telephone/submission/technical/historical claims,
-execution and independent backup recovery remain unverified.
+Two tasks,four mapped pages,five outside lookups and nine inspected views meet
+the limits. All57 selected crops preceded41 pinned kor+eng tasks. Four coverage
+expansions and one added screenshot crop before OCR retain both maps/all originals.
+All41 raws were read before one direct source pass;five auxiliary3x unchanged-crop
+views,zero failures/retries/post-OCR repairs. All2,093 UTF-8 ranges,2,190 pins and
+57 images/exact crop pixels pass. All30,912 prior January files,134 pilot files
+and thirty core pins remain exact. Existing213-test passing baseline reused;no
+fresh tests/core changes. An initial verifier syntax failure is retained with its
+corrected script;source/recognition evidence unchanged. Human acceptance/full
+proofreading,source encoded bytes/glyphs/exact spaces,claims,execution and
+independent backup recovery remain unverified.
 
-TurboPascal0034 and Turbo C graphics0033 remain complete. Retain
-`batch-35/turbo_c_literal.py` / `turbo-c-graphics-literal-v1` for issue dispatch,
-alongside `batch-21/legacy_input_r01.py` / `legacy-toc-input-v1` with exact legacy
-context/old TOC/current identity guard, `batch-18/magic_literal_r02.py` /
-`magic-key-literal-v1` and `batch-15/ram_literal_r01.py` / `ram-removal-literal-v1`.
-Survey0032 retains original contents/catalog175 and Batch32's bounded, inconclusive
-PDF11/172–181 review. Preserve `batch-32/survey-location-review.json`; neither quiz
-award notices nor the writer article's survey quotation substitute its body.
-No sourcewide absence or missing-page claim. Canonical0023 remains readable at165/
-PDF167 right with original105 conflict/Batch24 history; keep
+Earlier0037/0034/0033 remain complete. Retain `batch-35/turbo_c_literal.py` /
+`turbo-c-graphics-literal-v1`, `batch-21/legacy_input_r01.py` / `legacy-toc-input-v1`
+with exact legacy context/old TOC/current identity guard, `batch-18/magic_literal_r02.py`
+/ `magic-key-literal-v1` and `batch-15/ram_literal_r01.py` / `ram-removal-literal-v1`
+for issue dispatch. Survey0032 retains original175 and Batch32's bounded inconclusive
+review,`batch-32/survey-location-review.json`;neither quiz notices nor writer's survey
+quotation substitutes its body. No sourcewide absence/missing-page claim. Former0023
+remains readable165/PDF167 right with original105 conflict/Batch24 history and
 `batch-30/debugging-room-location-found.json`.
 
-Next verify0051 취재 as heading versus body owner and locate/restore0038
-입력장치에 새바람 : 한글 문자 인식 시스템 from original reference82. Contents11
-and PDF82–89 are bounded lookup candidates only; verify actual opening, ending,
-continuations and independent neighbors before mapping. Preserve prose, names,
-technical claims, diagrams/screens/labels/captions/tables and literal code if present.
-Two-task/six-page/twenty-outside limits continue. The17 unresolved identities,
-all-page accounting, donated cover, standalone JSON/assets export and final audit
-remain. Full issue goal active. No reader rebuild or deployment.
+Next locate/restore0039, 특집 : PC 소프트웨어의 동향, from original reference65.
+Contents11/PDF63–80 are provisional lookup candidates only;verify actual opening,
+ending,continuations and neighbors. If longer than six body pages,restore bounded
+immutable natives then assemble separately. Two-task/six-page/twenty-outside limits
+continue. The15 unresolved identities,all-page accounting,donated cover,standalone
+JSON/assets export and final audit remain. Full issue goal active. No reader rebuild
+or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-37/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-37/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-38/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-38/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 
