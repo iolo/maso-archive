@@ -23,42 +23,42 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, twenty-seven readable/sample-reviewed
-  articles, five non-owning headings and 19 unresolved identities. No classified
-  deferred body pages or pending assembly. Batch36 completes0034 Turbo Pascal
-  convenience at133/PDF135;0050 터보광 is non-owning from original contents11 and
-  child banner. Adjacent134 endsMAGIC KEY;136 opensTurbo C graphics. Selected
-  `archive/pdf/1988-01/packages/batch-36-r01/turbo-pascal-convenience` has91 files /
-  7,982,861 bytes,independently exact.22 regions/18 blocks/20 transcripts/two
-  originals retain91 nonblank rows/403 tokens,two word joins 수/정할 and 프/로그램이,
-  nine code/display rows(XX lines/eight DEBUG),five commands/22 opaque fields,
-  two address rows/five arrow associations/six annotation rows,73.07 byte display,
-  five TEST filename occurrences/one physical wrap and eight independent claims.
-  Boxed deck/editorial byline/caption/original panel/fullpage preserved. Source9af7,
-  single1/annotation ell,zero/slashed-zero/point/quote/arrow glyphs,3.00B and source
-  compatibility/version/DOS claims unverified;first8-bit support and second8-bit
-  exclusion stay separate. Two tasks/one mapped/three outside/four inspected pages.
-  All22 selected crops before20 tasks(two eng/18 kor+eng);one pre-OCR deck expansion
-  preserved. All20 raws beforeone source pass,zero failures/retries/postOCR repairs.
-  Fresh metadata-only revision selects correct single1 occurrence after100 and
-  point range in73.07;all regional/listing bytes unchanged,initial metadata retained.
-  All804 ranges/832 pins/22 images/exact pixels pass;29,822 prior files/134 pilot/
-  30core exact.213-test baseline reused,no fresh run.0033 complete424-file assembly
-  and415 natives unchanged. Keep batch-35/turbo_c_literal.py/turbo-c-graphics-literal-v1
-  plus batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact context/oldTOC/current
-  guard,batch-18/magic_literal_r02.py/magic-key-literal-v1 and batch-15/ram_literal_r01.py/
+- January 1988 is active: 51 identities, twenty-eight readable/sample-reviewed
+  articles, six non-owning headings and 17 unresolved identities. No classified
+  deferred body pages or pending assembly. Batch37 completes0037 writer guidance
+  at169–170/PDF171–172;0035 읽을거리 is non-owning from contents11/PFS-child and
+  writer banner evidence. Source title spacing separate,no printed byline invented.
+  Prior170 endsQ&A,following173publisher advertisement. Selected
+  `archive/pdf/1988-01/packages/batch-37-r01/writer-guidance` has160 files/
+  16,317,813 bytes,independently exact.41 regions/33 blocks/37 transcripts/four
+  originals retain203 rows/976 tokens,nine spatial label rows,four prose joins,
+  six section headings/contact heading,two captions and full example/table/pages.
+  Five table rows/ten nonblank cells/sixteen items/eighteen physical value rows
+  retain final-cell word wraps. Four key instructions/eight key fields,seven prose
+  wrappers/one ESC physical wrap and nine address fields indexed. Original arrows,
+  pointers/grid retained,no key/control-byte/address semantics inferred. Source
+  온고이지신,문은 깨진다.,썩혀,놀라웁게,slashed0/quote/angle/dash/spacing and
+  two point-band counts unverified. Survey question quotation does not locate or
+  substitute0032 survey body. Two tasks/two mapped/three outside/five inspected
+  pages. All41 selected crops before37 kor+eng tasks,two pre-OCR expansions retained.
+  All37 raws beforeone source pass,two auxiliary3x unchanged-crop zooms,zero failures/
+  retries/postOCR repairs. All1,439 ranges/1,492 pins/41 images/exact pixels pass;
+  30,223 prior files/134 pilot/30core exact;213-test baseline reused,no fresh run.
+  Earlier0034/0033 complete. Keep batch-35/turbo_c_literal.py/turbo-c-graphics-literal-v1,
+  batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact context/oldTOC/current guard,
+  batch-18/magic_literal_r02.py/magic-key-literal-v1 and batch-15/ram_literal_r01.py/
   ram-removal-literal-v1 for issue dispatch. Survey0032 original175/bounded Batch32
   review remains unresolved;preserve `batch-32/survey-location-review.json`,no Quiz
-  award-notice substitution or sourcewide absence claim. Former0023 readable165/
-  PDF167 right retains105 conflict/history. Next verify0035 reading heading and
-  actual extent0037 writer guidance from169;PDF171 provisional opening,172 known
-  ending candidate,contents11/adjacent170–173 bounded lookups. Two-task/six-page/
-  twenty-outside limits continue;19 unresolved identities,accounting/cover/export/
-  audit remain;goalactive. Human acceptance/proofreading,encoding/glyphs/spaces/
-  claims/execution/backup unverified. No reader rebuild. See [January log](docs/progress/8801.md),
+  notice/writer-quote substitution or sourcewide absence claim. Former0023 readable
+  165/PDF167 right retains105 conflict/history. Next verify0051 취재 heading and
+  locate0038 Hangul character recognition from82;contents11/PDF82–89 provisional
+  candidates,actual extent/neighbors required. Two-task/six-page/twenty-outside
+  bounds continue;17 unresolved identities,accounting/cover/export/audit remain;
+  goalactive. Human acceptance/proofreading,encoding/glyphs/spaces/claims/execution/
+  backup unverified. No reader rebuild. See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-36/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-36/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-37/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-37/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
