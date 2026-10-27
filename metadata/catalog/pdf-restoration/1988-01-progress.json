@@ -2541,11 +2541,105 @@
       "toc_entry_id": "maso-1988-01-toc-0028",
       "title": "복덕방",
       "parent_id": "maso-1988-01-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0028 independently opens printed161/PDF163 with vertical 복덕방 title,정보레이다 banner and editorial instructions. No visible source byline inferred.",
+        "Three eligible pages163–165/printed161–163 contain thirty-seven square-marked classified notices,with category/action headings and a separate editorial used-equipment price guide on164. Individual offers and contacts cross columns/pages;notices are not separate canonical identities.",
+        "Final page165 right column completes the last wanted notice and contact/address. PDF166 independently opens 애독자광장. PriorPDF162 is full Brother/Miseong advertisements. Embedded Kukdong advertisements at164 center and165 lower left/center are excluded from article text/primary assets;eligible fragment/folio references exclude both commercial regions;complete original pages remain in private source-review. No global folio offset or TOC-derived ending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-29-r01/classifieds",
+        "article_id": "scan-maso-1988-01-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-29-r01/classifieds/manifest.json",
+          "sha256": "c4136e606994522f0b9cc3b3d33899dc353cf3b69b6b19a96fb453c1691998a4",
+          "bytes": 53269
+        },
+        "coverage": {
+          "pdf_pages": [
+            163,
+            164,
+            165
+          ],
+          "printed_pages": [
+            "161",
+            "162",
+            "163"
+          ],
+          "regions": 84,
+          "blocks": 70,
+          "code_units": 0,
+          "physical_text_rows": 355,
+          "transcript_tokens": 1064,
+          "classified_notices": 37,
+          "categories": 5,
+          "action_headings": 13,
+          "square_markers": 37,
+          "telephone_markers": 30,
+          "subitem_markers": 29,
+          "guide_bullets": 10,
+          "contact_blocks": 37,
+          "contact_fields": 96,
+          "names": 37,
+          "phone_fields": 30,
+          "address_fields": 29,
+          "inventory_descriptions": 37,
+          "notice_price_expressions": 39,
+          "price_trade_qualifications": 22,
+          "guide_price_fields": 15,
+          "identifier_occurrences": 91,
+          "number_fragments": 256,
+          "prose_joins": 5,
+          "source_connections": 38,
+          "excluded_commercial_regions": 2,
+          "figures": 9,
+          "regional_transcripts": 75,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            163,
+            164,
+            165
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf164-kukdong-ad",
+            "pdf165-kukdong-ad"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-29",
+        "latest_checkpoint": "batch-29",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-29/classifieds/article-scope.json",
+          "sha256": "965756701ee335d68a822cbee0d8e48528e6a40e0588dfb2bcb54524fffdb67e",
+          "bytes": 532
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-29/validation.json",
+          "sha256": "c96012cafdd167e2291031f8ddd6d9173270d0e66c1d2e1d4e7299033c296277",
+          "bytes": 2683
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-29/reproduction.json",
+          "sha256": "439792424b4b0897e844de196581902d318eb51f83bbcb37cefda48fd43942f1",
+          "bytes": 1319
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,personal/device/commercial/price/contact claims and independent backup recovery remain unverified.",
+          "Complete three-page Classifieds article with thirty-seven square-marked notices,five equipment categories,thirteen action headings and separate editorial used-equipment guide. Notices are parts of canonical0028,not new canonical identities;no byline inferred.",
+          "Four notice continuations keep contact/inventory/subitem associations:offer18 contact crosses columns,offer26 address crosses pages,offer30 joins 인사/급여관리,offer32 circled subitems cross columns. Guide MSX double-drive price crosses columns. No missing source words or contacts invented.",
+          "All printed personal names/addresses/phones and localized 엽/열,충/종/현/헌,혜/해,초/춘 glyph candidates remain unverified;no geography,directory,identity or current contact normalization. Seven notices have no printed phone field and eight no printed address field within their verified notice.",
+          "Source FWITSU,NIDECO,NH12D9,apostrophe0.5MX2,STARTR24f,DPP144A/CPP1200,TL/1,MBASE,dBASEⅡ,샘카드,dysan,머킹보드,교환기능,관제엽서,8MHZ and unmatched parenthesis remain literal. No hardware/software,spelling,grammar,unit or historical repair.",
+          "Guide 6만행 unit candidate,repeated 싱글 and every physical price/qualifier wrap remain literal;fifteen guide prices and all notice price/trade terms are historical printed claims,not a current appraisal. Contact/market terms do not authorize contact actions.",
+          "Two embedded Kukdong commercial advertisements excluded. Full mixed pages remain in private evidence;exported fragment/folio images and guide original contain eligible article material only. One full eligible page,seven mixed-page fragments/folios and guide original preserved;no captions invented.",
+          "All84 crops precede75 pinned kor+eng recognitions;all raw drafts precede one direct source pass. Two failed mapping-preparation scripts retained before first valid map. Zero recognition failures,retries or post-OCR repairs. Human acceptance/full proofreading and source encoded glyphs/spaces remain unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0029",
@@ -4106,6 +4200,66 @@
         "sha256": "a6b278f4419a679b4953f012ab3db8aa2ca0a5497137bd50adeaeac8d4817650",
         "bytes": 536
       }
+    },
+    {
+      "name": "batch-29",
+      "completed_at": "2026-10-27T00:39:49.199527+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0028"
+      ],
+      "mapped_pdf_pages": [
+        163,
+        164,
+        165
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "outside_lookup_pages": 2,
+      "all_inspected_source_pages": 5,
+      "rendered_but_not_inspected_pdf_pages": [
+        167,
+        168,
+        169
+      ],
+      "recognition_tasks": 75,
+      "eng_code": 0,
+      "kor_eng_other": 75,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 0,
+      "map_revisions": 0,
+      "failed_mapping_preparations": 2,
+      "failed_metadata_preparations": 1,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-29/validation.json",
+        "sha256": "c96012cafdd167e2291031f8ddd6d9173270d0e66c1d2e1d4e7299033c296277",
+        "bytes": 2683
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-29/reproduction.json",
+        "sha256": "439792424b4b0897e844de196581902d318eb51f83bbcb37cefda48fd43942f1",
+        "bytes": 1319
+      },
+      "mapping_preparation_failed": [
+        {
+          "path": "archive/pdf/1988-01/restoration/batch-29/mapping-preparation-failed.json",
+          "sha256": "ce7345c7612258396bca947ce022987134f393857a6f0ed84d359c8eb67687f2",
+          "bytes": 423
+        },
+        {
+          "path": "archive/pdf/1988-01/restoration/batch-29/mapping-preparation-failed-r01.json",
+          "sha256": "f6c5f681c13c5da5a6e524eff43e4118c4c931f95fd82a9321bcfabcbed2701a",
+          "bytes": 489
+        }
+      ],
+      "metadata_preparation_failed": {
+        "path": "archive/pdf/1988-01/restoration/batch-29/review-preparation-failed.json",
+        "sha256": "f80b6e638232c78932c32b36a677ead3e82f20e1d5ebf06b6ab39f7119834dea",
+        "bytes": 494
+      }
     }
   ],
   "notes": [
@@ -4114,26 +4268,26 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent and restore canonical0028 Classifieds from original contents reference161/known openingPDF163. Inspect actual ending and adjacent title;at most six verified body pages. Preserve category/action headings,all individual listings,bullet markers,equipment inventories,prices,personal/contact fields and physical wraps/source claims. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
+    "goal": "Verify actual extent and restore canonical0029 Readers Forum from original contents reference164/known openingPDF166. Inspect actual ending and adjacent title;at most six verified body pages. Preserve reader letters,editorial replies,headings,bylines/personal and address fields,original inset/illustrations and physical wraps/source claims. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0028"
+      "maso-1988-01-toc-0029"
     ],
-    "canonical_reference": "161",
-    "known_start_pdf_page": 163,
+    "canonical_reference": "164",
+    "known_start_pdf_page": 166,
     "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-28/source-reviewed.json",
-      "sha256": "7689727e88dcad174b6789b36b310f34cb9626e9c656dac81cfbede5ee2e0fa9",
-      "bytes": 1283
+      "path": "archive/pdf/1988-01/restoration/batch-29/source-reviewed.json",
+      "sha256": "1330e3e5609e2fd9ce3654f5afa2fdfc28ce78d78351c8ef2f5ce7ceb356e35d",
+      "bytes": 1422
     },
     "lookup_pdf_page_candidates": [
-      162,
-      163,
-      164,
       165,
       166,
       167,
       168,
-      169
+      169,
+      170,
+      171,
+      172
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -4142,16 +4296,16 @@
     }
   },
   "remaining_work": [
-    "27 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
+    "26 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 20,
+    "readable": 21,
     "partial": 0,
     "non_owning_headings": 4,
-    "unresolved": 27
+    "unresolved": 26
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-28/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-29/preservation-inventory.json"
 }
