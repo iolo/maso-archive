@@ -15,73 +15,78 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 ## Active restoration
 
-January 1988 is active: 51 canonical identities, twenty-nine readable/sample-reviewed
-articles, seven non-owning headings and 15 unresolved identities. No classified
-article has deferred body pages or a pending complete article assembly.
+January 1988 is active:51 canonical identities,twenty-nine readable/sample-reviewed
+articles,one partial article,seven non-owning headings and14 unresolved identities.
+Canonical0039 has seven deferred body pages and a pending complete assembly.
 
-Batch 38 completes0038, 입력장치에 새바람 : 한글 문자 인식 시스템, at printed
-82–85 / PDF84–87. Selected `archive/pdf/1988-01/packages/batch-38-r01/hangul-recognition`
-contains188 files /30,971,236 bytes, matching its independent rebuild. The source
-kicker/title remain separate; no printed byline inferred. Prior83 is LIFE computer
-advertising; following88 independently opens the restored graphics editor.
-Contents11 and the independent child/neighbor evidence classify0051 취재 as the
-seventh non-owning heading. No 취재 banner on the child or separate body claimed.
+Batch39 preserves opening nativea of0039, 특집 : PC 소프트웨어의 동향, on
+printed65–70/PDF67–72. Actual full feature spans printed65–77/PDF67–79,verified
+through its final interface-use-time paragraph and independent postal-code contest
+opening80. Prior66 is Medusa advertising. No byline inferred. Selected
+`archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a` has229 files /
+82,183,659 bytes,matching its independent rebuild. Keep this native immutable.
+PDF73–79 remain deferred;complete thirteen-page assembly is a separate checkpoint.
 
-The report retains a separate desktop-publishing inset on lower85,57 regions,
-35 blocks,41 transcripts and16 originals. All311 transcript rows /1,426 tokens
-are indexed. Six joins preserve 이미지/화일에서,시스/템은,the inset paragraph,
-복잡한/로고나,또/한 across86–87,and도구로/사용하는. Three hardware specification
-groups retain11 physical rows/nine fields. Nine system labels are explicitly
-spatial serialization; arrows/icons/node shapes stay pixels. Five printed captions
-remain associated. Two independent right87 advertisements are excluded;eligible
-left report and separate folio remain original images.
+The native retains65 regions,40 blocks,52 transcripts and13 originals. All849
+transcript rows/3,846 tokens are indexed,including196 spatial screenshot rows.
+Twelve joins retain introduction/page-scroll/WYSIWYG/menu flows,최/대로,
+있기/때문이다,그/런 across70–71,계/속적으로,둘째/는,제공한/다. and최/근까지는.
+Outgoing72right 워크쉬트의 제자리로 continues73left 돌아오는 것이다.;that
+native boundary remains pending. Fifteen separate headings and15 embedded headings,
+six printed captions,opening color artwork and six full pages retain source order.
 
-Handwriting and three printed recognition outputs retain independent readings,
-three recv001.001 filenames and end/END case. First 바이크로/하글/추 재 and second
-하글/추재 candidates are not harmonized to the input. One pen-obscured recognition
-glyph is explicitly unresolved with unknown source character count. Two original
-intermediate-stroke graph panels await manual glyph review;no guessed Unicode,
-node counts or control bytes. Circles,crosses and two handwritten22 annotations
-remain original pixels. Four screenshot field groups and21 source-clipped English
-fragments retain their visible readings without completing hidden words/counts.
-Full screenshot retained. Source Program/med Grammer,three acronym wraps,Functio/ns,
-dBAS/E,I80286,FO - 200,p321,홋가,만한다.,않겠냐는,스틱카 and사용./하는 stay
-literal candidates;hardware/person/price/recognition/historical claims unverified.
+Six independent screens preserve five tables/24 rows/83 logical cells:82 nonblank
+and one blank HAL bottom-row label. Fifteen printed headers indexed;no row/total
+labels invented. All96 screenshot numeric fragments remain unverified source
+candidates,without arithmetic or cross-screen reconciliation. Twenty explicit
+unknown/clipped/ruler/status markers have unknown source character counts. Tiny
+sample values and source-clipped window/column text remain linked to original
+pixels. WordStar's obscured equation is not completed from its budget or result;
+HAL's last factor is not completed from preceding1.02 repetitions. Four HAL relation
+rows,seventeen math-menu items,two3²/log₂ script examples and five key/command
+fields retain literal display/prose context;no executable listing invented.
 
-Two tasks,four mapped pages,five outside lookups and nine inspected views meet
-the limits. All57 selected crops preceded41 pinned kor+eng tasks. Four coverage
-expansions and one added screenshot crop before OCR retain both maps/all originals.
-All41 raws were read before one direct source pass;five auxiliary3x unchanged-crop
-views,zero failures/retries/post-OCR repairs. All2,093 UTF-8 ranges,2,190 pins and
-57 images/exact crop pixels pass. All30,912 prior January files,134 pilot files
-and thirty core pins remain exact. Existing213-test passing baseline reused;no
-fresh tests/core changes. An initial verifier syntax failure is retained with its
-corrected script;source/recognition evidence unchanged. Human acceptance/full
-proofreading,source encoded bytes/glyphs/exact spaces,claims,execution and
-independent backup recovery remain unverified.
+Source WYSIWG heading differs from bodyWYSIWYG;repeated매우,point before개발된,
+WordPerfect4./2,WordStarPr/ofessional,page-orie/nted,document-o/riented,WY/SIWYG,
+Shif/t,mous/e,libr/ary,linkin/g,circled-a/@,Roman numeral andcut and-paste candidates
+remain. Original pen marks,handwritten WYSIWYG,artwork labels,rulers and scan seams
+stay pixels;graphic-label interpretation/source bytes/exact spaces remain unverified.
+Historical/version/price/person/technical claims and execution are unverified.
 
-Earlier0037/0034/0033 remain complete. Retain `batch-35/turbo_c_literal.py` /
-`turbo-c-graphics-literal-v1`, `batch-21/legacy_input_r01.py` / `legacy-toc-input-v1`
-with exact legacy context/old TOC/current identity guard, `batch-18/magic_literal_r02.py`
-/ `magic-key-literal-v1` and `batch-15/ram_literal_r01.py` / `ram-removal-literal-v1`
-for issue dispatch. Survey0032 retains original175 and Batch32's bounded inconclusive
-review,`batch-32/survey-location-review.json`;neither quiz notices nor writer's survey
-quotation substitutes its body. No sourcewide absence/missing-page claim. Former0023
-remains readable165/PDF167 right with original105 conflict/Batch24 history and
+One task,six mapped pages,13 outside lookups and19 inspected views meet bounds.
+All65 selected crops preceded52 pinned kor+eng tasks. Thirteen pre-OCR expansion
+operations affected twelve distinct regions;all three maps/all crops retained.
+All52 raw drafts were read before one source pass,continued across turns;eight
+auxiliary4x unchanged-crop views,zero failures/retries/post-OCR repairs. All6,014
+UTF-8 ranges,6,119 pins and65 images/exact source pixels pass. All31,748 prior
+January files,134 pilot files and thirty core pins unchanged. Existing213-test
+passing baseline reused;no fresh tests/core changes. Initial PNG-byte equivalence
+check failure is retained;corrected decoded-pixel check passes twelve figure/view
+pairs without source changes. Human acceptance/full proofreading,source glyphs/
+encoding/spaces,claims,execution and independent backup recovery remain unverified.
+
+0038 scanner report remains complete with0051 취재 as seventh non-owning heading;
+one recognition glyph/two original graph panels retain manual glyph review. Earlier
+0037/0034/0033 complete. Retain `batch-35/turbo_c_literal.py`,
+`batch-21/legacy_input_r01.py` with exact legacy context/old TOC/current identity
+guard,`batch-18/magic_literal_r02.py` and`batch-15/ram_literal_r01.py` for issue
+dispatch. Survey0032 retains original175 and bounded inconclusive Batch32 review,
+`batch-32/survey-location-review.json`;quiz notices/writer quotation do not replace
+its body. No sourcewide absence/missing-page claim. Former0023 remains readable
+165/PDF167 right with original105 conflict/history and
 `batch-30/debugging-room-location-found.json`.
 
-Next locate/restore0039, 특집 : PC 소프트웨어의 동향, from original reference65.
-Contents11/PDF63–80 are provisional lookup candidates only;verify actual opening,
-ending,continuations and neighbors. If longer than six body pages,restore bounded
-immutable natives then assemble separately. Two-task/six-page/twenty-outside limits
-continue. The15 unresolved identities,all-page accounting,donated cover,standalone
-JSON/assets export and final audit remain. Full issue goal active. No reader rebuild
-or deployment.
+Next restore verified middlePDF73–78/printed71–76 as immutable nativeb,checking
+incoming72/73 boundary against nativea. Then restore final79 and assemble all
+thirteen pages separately. Contents/current identity unchanged;two-task/six-page/
+twenty-outside limits continue. The14 unresolved identities,0039 deferred pages/
+assembly,all-page accounting,donated cover,standalone JSON/assets export and final
+audit remain. Full issue goal active. No reader rebuild or deployment.
 
 See [January log](progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-38/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-38/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-39/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-39/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
