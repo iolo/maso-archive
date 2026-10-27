@@ -15834,21 +15834,22 @@
       "parent_id": "maso-1988-01-toc-0001",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Original TOC0003reference206and independent openingPDF/printed206establish canonical ownership. Source title중앙한글 프린터와 폰트에디터의 개선 is retained separately from canonical중앙한글의 개선된 프린터 루틴. No article-wide byline;HY.P/date inside List1header not expanded into author identity.",
         "All eightbody pages206–213directly reviewed;214independent registered-software list establishes ending. Lower213publisher-address banner is independent and will be excluded in final native. Current206–211has no exclusions or extra rotation.",
         "Opening native206–211restores all771printed List1rows/74numbered blanks,prose/commands,Figures1–4/seven captions,completeList2dump and openingList3dump. Final212–213and full article assembly remain explicitly deferred.",
-        "Batch56 restores final212–213:List3headerless P:2incoming continuation and ending;new List4CPFEcomplete. Lower213publisher-address advertisement excluded. All206–213body pages now available across two immutable natives. Entry remains partial until separately validated whole article assembly."
+        "Batch56 restores final212–213:List3headerless P:2incoming continuation and ending;new List4CPFEcomplete. Lower213publisher-address advertisement excluded. All206–213body pages now available across two immutable natives. Entry remains partial until separately validated whole article assembly.",
+        "Batch57 separately assembles complete206–213from exact Batch55/56natives. All336native files/full metadata preserved.345file export/rebuild exact;all native/projected ranges,listing offsets,111source crops,29complete dump groups,List3P:2native link,28caption associations and42figure sequence verified. No remaining body pages or article assembly;human acceptance/full proofreading/source bytes and execution remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1988-01/packages/batch-55/central-hangul-printer-a-r01",
+        "directory": "archive/pdf/1988-01/packages/central-hangul-printer-complete-r01",
         "article_id": "scan-maso-1988-01-toc-0003",
         "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-55/central-hangul-printer-a-r01/manifest.json",
-          "sha256": "87346dbb43613c3df9399431116288f2c6c42675cf8889ade8852fb3614c3da9",
-          "bytes": 43903
+          "path": "archive/pdf/1988-01/packages/central-hangul-printer-complete-r01/manifest.json",
+          "sha256": "d21e37a632b56312ddc3948b0f468401fd6216b9d5f2d355e9d1f1c10073fcef",
+          "bytes": 61504
         },
         "coverage": {
           "pdf_pages": [
@@ -15882,17 +15883,18 @@
           "deferred_pdf_pages": [],
           "uninspected_interior_pdf_pages": [],
           "excluded_region_ids": [
-            "pdf213-publisher-address-banner"
+            "b-pdf213-publisher-address-banner"
           ],
           "deferred_exclusions": [],
-          "coverage_is_combined_segments_pending_assembly": true
+          "coverage_is_combined_segments_pending_assembly": false,
+          "coverage_is_complete_assembled_article": true
         },
-        "directory_is_opening_native_only": true,
+        "directory_is_opening_native_only": false,
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "checkpoint": "batch-55",
-        "latest_checkpoint": "batch-56",
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-57",
+        "latest_checkpoint": "batch-57",
         "latest_native_directory": "archive/pdf/1988-01/packages/batch-56/central-hangul-printer-b",
         "latest_native_manifest": {
           "path": "archive/pdf/1988-01/packages/batch-56/central-hangul-printer-b/manifest.json",
@@ -16107,81 +16109,60 @@
           }
         ],
         "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-55/central-hangul-printer-a/article-scope.json",
-          "sha256": "b49bb93d3020dd1bd958edd7f0afcd13698bb7891d5beaca90f9dee5b169bd14",
-          "bytes": 1072
+          "path": "archive/pdf/1988-01/restoration/batch-57/complete-article-scope.json",
+          "sha256": "ed94862663d1ceb8e897b3cbcffc43d48b643d66adfc91b05d7621658cef781b",
+          "bytes": 605
         },
         "latest_source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-56/central-hangul-printer-b/article-scope.json",
-          "sha256": "420974a00200752076a45c7fd31e338a220c516fcb39eede5806787c4690424b",
-          "bytes": 965
+          "path": "archive/pdf/1988-01/restoration/batch-57/complete-article-scope.json",
+          "sha256": "ed94862663d1ceb8e897b3cbcffc43d48b643d66adfc91b05d7621658cef781b",
+          "bytes": 605
         },
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-55/validation-r01.json",
-          "sha256": "242ba8e86cd1108e5346992b6adcdc8eb68e75ac8075add8544f38d2b3f2d7bc",
-          "bytes": 3152
+          "path": "archive/pdf/1988-01/restoration/batch-57/validation.json",
+          "sha256": "9a1969c40b000e199241402f2b34b8649ea19261967339b0a625bea3513ed57c",
+          "bytes": 4102
         },
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-56/validation.json",
-          "sha256": "3bc099055b18ba9151b2fe29fc25cd542f96776593142bbd8f186f4b7d6e6a7b",
-          "bytes": 3002
+          "path": "archive/pdf/1988-01/restoration/batch-57/validation.json",
+          "sha256": "9a1969c40b000e199241402f2b34b8649ea19261967339b0a625bea3513ed57c",
+          "bytes": 4102
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-55/reproduction-r01.json",
-          "sha256": "596cc4e544029fa8dafa4802e503ca08840e0eed340c49d0e13c66efb3612a28",
-          "bytes": 2644
+          "path": "archive/pdf/1988-01/restoration/batch-57/reproduction.json",
+          "sha256": "f021f4ab21f951eff454b8a9061071b92070388fd715a6ed696022d01396893c",
+          "bytes": 2210
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-56/reproduction.json",
-          "sha256": "1105b9fa96e7bc79fe021f3c7a2755b1bb49e920ee5eb75899947b04be68c88b",
-          "bytes": 2474
+          "path": "archive/pdf/1988-01/restoration/batch-57/reproduction.json",
+          "sha256": "f021f4ab21f951eff454b8a9061071b92070388fd715a6ed696022d01396893c",
+          "bytes": 2210
         },
         "metrics": {
-          "regions": 86,
-          "blocks": 55,
-          "original_images": 31,
-          "code_units": 22,
-          "nonempty_serialized_lines": 1187,
-          "tokens": 5298,
-          "code_tokens": 4542,
+          "regions": 111,
+          "blocks": 69,
+          "figures": 42,
+          "regional_transcripts": 69,
+          "transcript_rows": 1618,
+          "transcript_tokens": 9409,
+          "code_units": 31,
+          "code_tokens": 8638,
           "main_listing_rows": 771,
           "numbered_blank_rows": 74,
-          "physical_code_rows": 1013,
-          "source_comments": 70,
-          "quote_characters": 20,
-          "quoted_physical_fields": 10,
-          "unmeasured_space_runs": 708,
-          "hex_fields": 2,
-          "binary_expressions": 1,
-          "storage_expressions": 1,
-          "source_mark_placeholders": 22,
-          "dump_data_rows": 194,
-          "dump_visible_values": 1550,
-          "dump_field_records": 2019,
-          "dump_headers": 10,
-          "dump_SUM_rows": 9,
-          "dump_rule_placeholders": 9,
-          "dump_physical_parts": 14,
-          "dump_groups": 10,
-          "open_dump_groups": 1,
-          "unprinted_dump_positions": 2,
-          "internal_listing_links": 8,
-          "internal_dump_links": 4,
-          "memory_example_rows": 4,
-          "memory_example_values": 28,
-          "prose_joins": 0,
-          "source_prose_continuations": 1,
-          "printed_captions": 7,
-          "caption_figure_links": 19,
-          "figure_label_links": 5,
-          "source_headings": 9,
-          "internal_headings": 15,
-          "source_correction_passes": 1,
-          "recognition_tasks": 55,
-          "eng_code": 22,
-          "kor_eng_other": 33,
-          "recognition_retries": 0,
-          "local_range_occurrences": 24176
+          "source_mark_placeholders": 42,
+          "dump_rows": 561,
+          "dump_visible_values": 4482,
+          "dump_field_records": 5865,
+          "dump_groups": 29,
+          "dump_physical_parts": 37,
+          "unprinted_dump_positions": 6,
+          "printed_captions": 8,
+          "caption_associations": 28,
+          "native_utf8_range_occurrences": 47980,
+          "projected_utf8_range_occurrences": 48848,
+          "native_pin_occurrences": 48356,
+          "projected_pin_occurrences": 49474,
+          "decoded_images": 111
         },
         "latest_native_metrics": {
           "regions": 25,
@@ -16355,26 +16336,44 @@
           "current_native_range_counts_are_not_projected_assembly_ranges": true
         },
         "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyph identities/exact spaces,historical/technical/title/byline/reference/address/checksum claims,execution and independent backup recovery remain unverified.",
+          "All source spelling,comments,quoted/blank/bitmap/arrow candidates,physical wraps,mixed-case dump fields and unknown-count source marks remain literal. No opcode/syntax/value/checksum/address/ordinal/glyph completion or execution.",
+          "Opening source title differs from canonical TOC title. HY.P and1987/11/28inside listing header are literal observations,not an inferred article byline.",
+          "Native stage scopes and notes remain historical provenance;complete_*scope and boundaries govern current article availability.",
           "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,source claims,checksums and historical program execution remain unverified.",
-          "Opening canonical0003only206–211. Actual source title중앙한글 프린터와 폰트에디터의 개선 stays separate from canonical중앙한글의 개선된 프린터 루틴/reference206. No printed article byline;HY.P/date inside listing header remain literal,not an expanded author identity.",
-          "All eightbody pages206–213directly inspected;current native six pages206–211. Final212–213and complete assembly deferred. Lower213independent publisher-address banner excluded in final native;current pages have no exclusions.214opens independently registered-software list.",
           "All771main listing ordinals/74numbered blanks,eight fresh-column links,six unknown-count asterisk bands,header/quoted-space candidates,twoHEX2Cfields,opaque binary literal and DS80retained. Source MINITOR/CARRAGE/UPPER MAGINE,CR1.period,repeated LDA/JSR/RAMCDreads and source punctuation remain literal without syntax,semantic or numeric repair.",
-          "List2dump159rows/1270visible values and List3opening35rows/280values remain separate listings. Ten printed headers,nineSUMrows/rules,fourteen physical parts/ten groups/four same-group column links retained. Final24F0sixvalues leaves two absent positions;no padding/checksum arithmetic. List3P:2is still open,continuing212.",
           "Seven printed captions link nineteen original images;four original figure samples/grids retain glyph shapes. Figure1dot-matrix prose/labels source-direct fallback;two bitmap-glyph placeholders and two arrow placeholders have unknown encoded identities/counts. Four headerless memory-example rows retain28visible values without invented header/checksum/padding.",
           "Physical CTRL/RESET/RETURN/filename wraps,curved quotes,commands/inline labels and independent period/comma candidates remain literal. No keyboard behavior,addresses/lengths,printed bug-fix claims,encoding/glyph counts or execution verified.",
-          "All86selected exact crops reviewed before55pinned recognitions;four pre-OCR207geometry repairs retain initial attempts. All55raw drafts read fully before one source pass. Five2xnearest auxiliary views retained;no recognition retry/post-OCR geometry or source-text revision."
-        ],
-        "latest_source_limits": [
-          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,source claims,checksums and historical program execution remain unverified.",
-          "Ending native for canonical 0003 covers only 212–213. Opening 206–211 remains an immutable separate native. All eight body pages reviewed and available across two natives; complete article assembly remains pending.",
+          "All86selected exact crops reviewed before55pinned recognitions;four pre-OCR207geometry repairs retain initial attempts. All55raw drafts read fully before one source pass. Five2xnearest auxiliary views retained;no recognition retry/post-OCR geometry or source-text revision.",
+          "Opening206–211only;final212–213and complete assembly deferred. Source bytes/glyphs/spaces/claims/execution unverified.",
           "Headerless List3 P:2 continuation begins at literal 0A18 after prior native 0A10. Its printed header and List3 caption remain explicitly pinned in their prior native download context. No current header/title/byline invented; no source rows joined.",
           "List3 ending has 156 data rows/1247 visible fields; List4 CPFE has 211 data rows/1685 visible fields. Nineteen printed headers, twenty SUM rows/rule placeholders, twenty groups and twenty-three physical parts retain independent literal fields and mixed case. Four parts have no current header. Seven internal column links include three same-group links; incoming P:2 native link remains separate.",
           "Short List3 0EF0 has seven visible values; List4 0F90 has five visible values FF 00 00 FF FF. Four unprinted display positions remain absent/null. No padding, address/byte/count derivation, checksum calculation, expected opcode, font decoding or execution.",
           "The printed List4 caption links six original columns; three List3 originals inherit the earlier caption via explicit pinned native context. Full 212 original and eligible 213 panel retain original pixels. Independent publisher-address banner on lower 213 is excluded; 214 opens the registered-software list.",
           "Current source title/byline absent; running 213 and category/platform 212 remain furniture. Canonical title, parent and contents reference 206 unchanged. Literal range $900,F94 is not computed. Dashed rule glyph counts and exact encoded spaces remain unverified.",
-          "All 25 selected exact crops reviewed before 14 pinned recognitions. All 14 raw drafts read fully before one source pass; empty successful category212 receives source-direct fallback. No recognition retry, crop repair, auxiliary view or source-text revision."
+          "All 25 selected exact crops reviewed before 14 pinned recognitions. All 14 raw drafts read fully before one source pass; empty successful category212 receives source-direct fallback. No recognition retry, crop repair, auxiliary view or source-text revision.",
+          "Final native212–213only;opening206–211immutable and complete article assembly remains separate. No source bytes/addresses/checksums/glyph counts or execution inferred."
         ],
-        "source_limits_are_original_opening_provenance": true,
+        "latest_source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyph identities/exact spaces,historical/technical/title/byline/reference/address/checksum claims,execution and independent backup recovery remain unverified.",
+          "All source spelling,comments,quoted/blank/bitmap/arrow candidates,physical wraps,mixed-case dump fields and unknown-count source marks remain literal. No opcode/syntax/value/checksum/address/ordinal/glyph completion or execution.",
+          "Opening source title differs from canonical TOC title. HY.P and1987/11/28inside listing header are literal observations,not an inferred article byline.",
+          "Native stage scopes and notes remain historical provenance;complete_*scope and boundaries govern current article availability.",
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,source claims,checksums and historical program execution remain unverified.",
+          "All771main listing ordinals/74numbered blanks,eight fresh-column links,six unknown-count asterisk bands,header/quoted-space candidates,twoHEX2Cfields,opaque binary literal and DS80retained. Source MINITOR/CARRAGE/UPPER MAGINE,CR1.period,repeated LDA/JSR/RAMCDreads and source punctuation remain literal without syntax,semantic or numeric repair.",
+          "Seven printed captions link nineteen original images;four original figure samples/grids retain glyph shapes. Figure1dot-matrix prose/labels source-direct fallback;two bitmap-glyph placeholders and two arrow placeholders have unknown encoded identities/counts. Four headerless memory-example rows retain28visible values without invented header/checksum/padding.",
+          "Physical CTRL/RESET/RETURN/filename wraps,curved quotes,commands/inline labels and independent period/comma candidates remain literal. No keyboard behavior,addresses/lengths,printed bug-fix claims,encoding/glyph counts or execution verified.",
+          "All86selected exact crops reviewed before55pinned recognitions;four pre-OCR207geometry repairs retain initial attempts. All55raw drafts read fully before one source pass. Five2xnearest auxiliary views retained;no recognition retry/post-OCR geometry or source-text revision.",
+          "Opening206–211only;final212–213and complete assembly deferred. Source bytes/glyphs/spaces/claims/execution unverified.",
+          "Headerless List3 P:2 continuation begins at literal 0A18 after prior native 0A10. Its printed header and List3 caption remain explicitly pinned in their prior native download context. No current header/title/byline invented; no source rows joined.",
+          "List3 ending has 156 data rows/1247 visible fields; List4 CPFE has 211 data rows/1685 visible fields. Nineteen printed headers, twenty SUM rows/rule placeholders, twenty groups and twenty-three physical parts retain independent literal fields and mixed case. Four parts have no current header. Seven internal column links include three same-group links; incoming P:2 native link remains separate.",
+          "Short List3 0EF0 has seven visible values; List4 0F90 has five visible values FF 00 00 FF FF. Four unprinted display positions remain absent/null. No padding, address/byte/count derivation, checksum calculation, expected opcode, font decoding or execution.",
+          "The printed List4 caption links six original columns; three List3 originals inherit the earlier caption via explicit pinned native context. Full 212 original and eligible 213 panel retain original pixels. Independent publisher-address banner on lower 213 is excluded; 214 opens the registered-software list.",
+          "Current source title/byline absent; running 213 and category/platform 212 remain furniture. Canonical title, parent and contents reference 206 unchanged. Literal range $900,F94 is not computed. Dashed rule glyph counts and exact encoded spaces remain unverified.",
+          "All 25 selected exact crops reviewed before 14 pinned recognitions. All 14 raw drafts read fully before one source pass; empty successful category212 receives source-direct fallback. No recognition retry, crop repair, auxiliary view or source-text revision.",
+          "Final native212–213only;opening206–211immutable and complete article assembly remains separate. No source bytes/addresses/checksums/glyph counts or execution inferred."
+        ],
+        "source_limits_are_original_opening_provenance": false,
         "original_opening_coverage": {
           "pdf_pages": [
             206,
@@ -16410,7 +16409,41 @@
             "pdf213-publisher-address-banner"
           ]
         },
-        "all_body_pages_available_across_two_natives": true
+        "all_body_pages_available_across_two_natives": true,
+        "original_opening_source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,source claims,checksums and historical program execution remain unverified.",
+          "Opening canonical0003only206–211. Actual source title중앙한글 프린터와 폰트에디터의 개선 stays separate from canonical중앙한글의 개선된 프린터 루틴/reference206. No printed article byline;HY.P/date inside listing header remain literal,not an expanded author identity.",
+          "All eightbody pages206–213directly inspected;current native six pages206–211. Final212–213and complete assembly deferred. Lower213independent publisher-address banner excluded in final native;current pages have no exclusions.214opens independently registered-software list.",
+          "All771main listing ordinals/74numbered blanks,eight fresh-column links,six unknown-count asterisk bands,header/quoted-space candidates,twoHEX2Cfields,opaque binary literal and DS80retained. Source MINITOR/CARRAGE/UPPER MAGINE,CR1.period,repeated LDA/JSR/RAMCDreads and source punctuation remain literal without syntax,semantic or numeric repair.",
+          "List2dump159rows/1270visible values and List3opening35rows/280values remain separate listings. Ten printed headers,nineSUMrows/rules,fourteen physical parts/ten groups/four same-group column links retained. Final24F0sixvalues leaves two absent positions;no padding/checksum arithmetic. List3P:2is still open,continuing212.",
+          "Seven printed captions link nineteen original images;four original figure samples/grids retain glyph shapes. Figure1dot-matrix prose/labels source-direct fallback;two bitmap-glyph placeholders and two arrow placeholders have unknown encoded identities/counts. Four headerless memory-example rows retain28visible values without invented header/checksum/padding.",
+          "Physical CTRL/RESET/RETURN/filename wraps,curved quotes,commands/inline labels and independent period/comma candidates remain literal. No keyboard behavior,addresses/lengths,printed bug-fix claims,encoding/glyph counts or execution verified.",
+          "All86selected exact crops reviewed before55pinned recognitions;four pre-OCR207geometry repairs retain initial attempts. All55raw drafts read fully before one source pass. Five2xnearest auxiliary views retained;no recognition retry/post-OCR geometry or source-text revision."
+        ],
+        "native_source_scopes": [
+          {
+            "path": "archive/pdf/1988-01/restoration/batch-55/central-hangul-printer-a/article-scope.json",
+            "sha256": "b49bb93d3020dd1bd958edd7f0afcd13698bb7891d5beaca90f9dee5b169bd14",
+            "bytes": 1072
+          },
+          {
+            "path": "archive/pdf/1988-01/restoration/batch-56/central-hangul-printer-b/article-scope.json",
+            "sha256": "420974a00200752076a45c7fd31e338a220c516fcb39eede5806787c4690424b",
+            "bytes": 965
+          }
+        ],
+        "assembly_adapter": {
+          "path": "archive/pdf/1988-01/restoration/batch-57/central_hangul_printer_literal_r01.py",
+          "sha256": "7a878b6bbf86e5564ea53a167daf7fa7b6e7af16840f63d7d0bbcdcd1c7a2aea",
+          "bytes": 21450
+        },
+        "assembly_recipe": {
+          "path": "archive/pdf/1988-01/restoration/batch-57/assembly-recipe.json",
+          "sha256": "7d9d3c46d48d734137d0e15ddaa1ba3e36b1466cb1f707900dba87338f3b5cfb",
+          "bytes": 4835
+        },
+        "assembly_index_mode": "central-hangul-printer-literal-v1",
+        "complete_native_files_retained": true
       }
     },
     {
@@ -24721,6 +24754,59 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-57",
+      "completed_at": "2026-10-27T14:48:37.112731+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0003"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "status": "complete-printer-article-assembly",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-57/validation.json",
+        "sha256": "9a1969c40b000e199241402f2b34b8649ea19261967339b0a625bea3513ed57c",
+        "bytes": 4102
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-57/reproduction.json",
+        "sha256": "f021f4ab21f951eff454b8a9061071b92070388fd715a6ed696022d01396893c",
+        "bytes": 2210
+      },
+      "adapter": {
+        "path": "archive/pdf/1988-01/restoration/batch-57/central_hangul_printer_literal_r01.py",
+        "sha256": "7a878b6bbf86e5564ea53a167daf7fa7b6e7af16840f63d7d0bbcdcd1c7a2aea",
+        "bytes": 21450
+      },
+      "extent_declaration": {
+        "path": "archive/pdf/1988-01/restoration/batch-57/checkpoint.json",
+        "sha256": "25351feab8cd43df822267a49c661f44570e1acc82cb4b47dacb05e0a12d16da",
+        "bytes": 7540
+      },
+      "metadata_notation_revision": {
+        "path": "archive/pdf/1988-01/restoration/batch-57/assembly-metadata-revision-r01.json",
+        "sha256": "bae9c693a5d2c2ca1664609e3ddd533adc8af5c1ac81b45597d6c98ae0b72c74",
+        "bytes": 1132
+      },
+      "source_correction_passes": 0,
+      "recognition_tasks": 0,
+      "recognition_retries": 0,
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing Batch42baseline reused;no core changes;no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      }
     }
   ],
   "notes": [
@@ -24734,60 +24820,56 @@
     "Batch53 completes source-native restoration202–205. Five immutable natives preserve178–205/all28body pages. Separate List2dump retains726rows/5799visible fields/37groups/43parts/nine absent positions;List3 retains five labels/11physicalrows/six wraps. Metadata r01 orders coverage image IDs; r02 corrects repeated5quote fragment reference from label30 to observed label80 row. Source text unchanged;initial exports retained. Separate assembly pending;no reader rebuild.",
     "Batch54 completes editor0002all178–205in704independently exact files/695unchanged natives.57metadata array categories/285slices/36objects/6scalars/15reserved arrays and every native correction object retained. Four native listing boundaries plus34internal links preserve fresh rows;11source prose continuations remain explicit/unmerged.58caption links include36continuation originals linked to opening List1caption. No new OCR/source correction/core change. Registerselected central_hangul_editor_literal_r02.py as seventh private dispatch format. No reader rebuild.",
     "Batch55classifies0003article/partial and restores206–211. Actual fullbody206–213verified;212–213/assemblydeferred. Printed source/canonical title difference,CTPL/MINITOR/CARRAGE/MAGINE,punctuation/quoted-space/bitmap candidates retained.55raws read before one pass,86selected crops/four pre-OCRrepairs/five nearest views preserved. Initial export block-kind schema rejection and prerequisite-verifier failure recorded;fresh r01 changes only five output label block kinds to prose. Source/map/OCR unchanged. No reader rebuild.",
-    "Batch56 restores final0003pages212–213;76files match independent rebuild.367dump rows/2932visible values,19headers/20SUMrules/20groups/23parts;four absent positions not padded. Headerless P:2and three inherited List3caption links retain explicit prior-native download contexts.25crops reviewed before14OCRtasks;allraws read before one pass;empty category source-direct fallback,zero retries/repairs. Allbody206–213available across two natives;wholeassembly remains. No reader rebuild."
+    "Batch56 restores final0003pages212–213;76files match independent rebuild.367dump rows/2932visible values,19headers/20SUMrules/20groups/23parts;four absent positions not padded. Headerless P:2and three inherited List3caption links retain explicit prior-native download contexts.25crops reviewed before14OCRtasks;allraws read before one pass;empty category source-direct fallback,zero retries/repairs. Allbody206–213available across two natives;wholeassembly remains. No reader rebuild.",
+    "Batch57 completes0003printer/font-editor206–213from two exact natives. Selected central-hangul-printer-complete-r01 has345files226,532,509bytes;336native files120,203,342bytes unchanged. All47,980native/48,848projected UTF8ranges and48,356native/49,474projected pins/111crop pixels pass.53array categories106slices16objects2scalars6reserved arrays retained. Four stale stage notes resolved only actively;15invalid mutations rejected. Initial successful export omitted31opening originals from complete_figure_sequence;selected r01corrects that derived index only,all attempts retained. No new mapping/OCR/source correction or reader build."
   ],
   "next_checkpoint": {
-    "goal": "Assemble complete canonical0003 printer/font-editor article206–213 from exact Batch55 opening and Batch56 ending natives. Preserve full native metadata/evidence, all typed categories/ranges/assets, List3 P:2 cross-native group link, inherited List3 caption associations, distinct List4 groups/caption and213advertisement exclusion. Resolve only exact stale stage deferrals in active complete output. No new mapping,render,OCR,source correction or program reconstruction.",
+    "goal": "Classify unresolved parent identities0004컴퓨터 언어 and0006인터프리터 분석 from bounded direct source evidence and their already-restored child openings. Preserve canonical IDs/titles/parents;do not infer nonownership from titles/hierarchy alone. Verify whether any independent parent body exists before assigning ownership. No child remapping/OCR or changed native packages unless source evidence establishes a separate body requiring its own bounded restoration.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0003"
+      "maso-1988-01-toc-0004",
+      "maso-1988-01-toc-0006"
     ],
-    "native_directories": [
-      "archive/pdf/1988-01/packages/batch-55/central-hangul-printer-a-r01",
-      "archive/pdf/1988-01/packages/batch-56/central-hangul-printer-b"
+    "known_child_body_pdf_page_candidates": [
+      30,
+      32,
+      48,
+      52
     ],
-    "native_manifests": [
-      {
-        "path": "archive/pdf/1988-01/packages/batch-55/central-hangul-printer-a-r01/manifest.json",
-        "sha256": "87346dbb43613c3df9399431116288f2c6c42675cf8889ade8852fb3614c3da9",
-        "bytes": 43903
-      },
-      {
-        "path": "archive/pdf/1988-01/packages/batch-56/central-hangul-printer-b/manifest.json",
-        "sha256": "557a45016a20bbf4fffec7e9a9266e53c5ada90aaadcb9ae6bae6f2a6d6df12c",
-        "bytes": 12649
-      }
+    "lookup_pdf_page_candidates": [
+      11,
+      29,
+      30,
+      31,
+      32,
+      39,
+      40,
+      47,
+      48,
+      49,
+      51,
+      52,
+      53,
+      57,
+      58
     ],
-    "complete_article_pdf_pages": [
-      206,
-      207,
-      208,
-      209,
-      210,
-      211,
-      212,
-      213
-    ],
-    "next_native_pdf_page_candidates": [],
-    "lookup_pdf_page_candidates": [],
-    "current_candidates_not_yet_inspected": [],
-    "full_article_continuity_verified": true,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    }
+    },
+    "starting_state": "Unresolved parent identities;no article or non-owning heading classification inferred yet."
   },
   "remaining_work": [
-    "Seven canonical identities still need classification/restoration: five parent headings,0046typewriter tip98and0032survey original175/bounded inconclusive location review. Partial0003has all206–213body pages in two immutable natives and requires separate complete assembly. Editor0002complete178–205;34readable articles remain complete.",
-    "All-page accounting,donated-cover selection,standalone JSON/assets issue export,independent rebuild and final requirement audit remain. Preserve seven private assembly adapters,including selected batch54 central_hangul_editor_literal_r02.py/central-hangul-editor-literal-v1,and all native metadata/evidence. No reader rebuild without explicit request.",
+    "Seven canonical identities still need classification/restoration: five parent headings,0046typewriter tip98and0032survey original175/bounded inconclusive location review. No partial articles or pending article assemblies.35readable articles complete,including0003printer206–213,0002editor178–205and0045back-issue index217–233. Next bounded source classification of parent0004/0006.",
+    "All-page accounting,donated-cover selection,standalone JSON/assets issue export,independent rebuild and final requirement audit remain. Preserve eight private assembly adapters,including selected batch57 central_hangul_printer_literal_r01.py/central-hangul-printer-literal-v1,and all native metadata/evidence. No reader rebuild without explicit request.",
     "Manual review remains for source glyphs/exact spaces/quoted fields/code comments and dense postal samples;0038scanner glyph/two graph panels and former0023original105history stay explicit. CD references retain their actual evidential scope."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 34,
-    "partial": 1,
+    "readable": 35,
+    "partial": 0,
     "non_owning_headings": 9,
     "unresolved": 7
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-56/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-57/preservation-inventory.json"
 }
