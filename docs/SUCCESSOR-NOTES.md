@@ -17,57 +17,53 @@ This local build adds no human acceptance and performs no deployment. March and 
 
 January 1988 is active: 51 canonical identities, twenty-nine readable/sample-reviewed
 articles, one partial article, seven non-owning headings and 14 unresolved identities.
-Canonical 0039 has one deferred body page and a pending complete assembly.
+Canonical0039 has no deferred body pages;complete article assembly remains pending.
 
-Batch40 preserves middle nativeb of0039, 특집 : PC 소프트웨어의 동향,
-on PDF73–78/printed71–76. Selected
-`archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b` has264 files /
-81,456,474 bytes, matching its independent rebuild. Opening nativea remains exact
+Batch41 preserves final nativec of0039, 특집 : PC 소프트웨어의 동향,
+on PDF79/printed77. Selected
+`archive/pdf/1988-01/packages/batch-41-r01/pc-software-trends-c` has30 files /
+15,684,286 bytes,matching its independent rebuild. Opening nativea remains exact
 at `archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a`:229 files /
-82,183,659 bytes. Twelve of thirteen body pagesPDF67–78 are now preserved across
-493 immutable native files. FinalPDF79/printed77 and complete assembly remain.
-Actual full featurePDF67–79/printed65–77 follows66Medusa advertising and precedes
-independent postal-code contest80. No article byline inferred from sample Joe Smith.
+82,183,659 bytes. Middle nativeb remains exact at
+`archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b`:264 files /
+81,456,474 bytes. All thirteen body pagesPDF67–79/printed65–77 are preserved
+across523 immutable native files/179,324,419 bytes. Complete assembly is separate.
+Actual feature follows66Medusa advertising and ends before independent postal-code
+contest80. No article byline. Source titles/identity/parent remain unchanged.
 
-The middle native retains70 regions,44 blocks,62 transcripts and eight originals.
-All972 physical transcript rows/4,788 tokens and eighteen internal prose joins are
-indexed. Incoming72/73 워크쉬트의 제자리로/돌아오는 것이다. and outgoing78/79
-탐나는 특징/들 remain separate assembly boundaries. Thirteen source headings,
-three embedded sample headings,two captions and all six full pages are retained.
+The final native retains seven regions,three blocks,five transcripts and two
+originals. All164 physical transcript rows/779 tokens are indexed. Two internal
+joins retain 우/선 and8088호환기/종;incoming78/79 특징/들 remains an assembly join.
+The final interface-use-time paragraph and one Windows2.0 caption are retained.
+Literal 위드프로세서,위드프로세싱 and final 인퍼페이/스 survive same-pass4x
+source review;company/product/menu/quoted-name wraps are not normalized.
 
-QA and Ventura displays retain eighteen independent panels/162 spatial rows.
-Two tables preserve eight rows/twenty cells: nineteen nonblank and one blank second
-QA region field,plus four printed QA headers. Six newsletter contents references
-are sample references,not issue-page targets. Two printed sample columns retain
-the physical CD-/ROM continuation. Eighteen menu labels,two path candidates and
-28 sidebar/control rows are indexed. Twenty display numeric fragments and35
-unknown/clipped/leader/ruler/control markers remain unverified;unknown source
-character counts are not inferred. Hidden fragments are not filled from another
-display;capacities/dimensions and other sample numbers are not reconciled.
+Windows display retains25 spatial rows/31 unverified numeric fragments and sixteen
+unknown/clipped/clock/icon/overlap markers of unknown source character counts.
+Calendar layout preserves five rows/thirty-five slots:four printed blanks,23 visible
+numeric candidates,eight obscured unknown fields. Seven headers include two
+unknown fields;expected weekday names or hidden dates are not generated. Independent
+10:44 AM,Thursday August13 andOctober1987 candidates are not reconciled with each
+other or highlighted13. Five menu/shortcut pairs,nine prose menu-name claims,four
+window titles and two exposed paint labels retain source context. Clock hands,
+patterns,tools,launcher icons and original clipping remain pixels,not decoded values.
 
-Source ITTCC/Consultive Committee,체택함에,터블리싱,데스트탑,벤트라 caption
-versus 벤츄라 body,3분 2,repeated 치밀한/adverbs,하자는 예를 들어서,항진되었다고,
-얼키고 설킨 and physical name/version/quoted-word wraps remain literal candidates.
-Tiny RNEWS-P2/Primo/Credo/name/paragraph-mark candidates remain source-linked.
-Nativea WYSIWG/bodyWYSIWYG,HAL/WordStar unknown values and all earlier source arrays,
-objects,scalars and uncertainties remain unchanged. No executable listing invented.
+One task,one mapped page,two outside lookups and three inspected views meet bounds.
+All seven exact crops reviewed before five pinned kor+eng tasks;all five raws read
+before one source pass. Three auxiliary4x unchanged-crop views;zero recognition
+failures,retries or crop repairs. All1,290 UTF-8 ranges,1,313 pins and seven images/
+exact source pixels pass. All34,978 prior January files,134 pilot files and thirty
+core pins unchanged. Existing213-test passing baseline reused;no fresh run/core
+changes. Nativeb's eight post-OCR edge repairs/four maps/124 reuse contexts and
+nativea's original failed PNG-byte equivalence attempt remain preserved evidence.
 
-One task,six mapped pages,two outside lookups and eight inspected views meet bounds.
-All70 initial crops were reviewed before62 initial pinned kor+eng tasks;ten pre-OCR
-expansions retained. During one source pass,eight edge repairs in two rounds
-(five PDF77,three Ventura panels) required eight changed-input recognitions.
-Each replacement crop preceded recognition;all replacement raws were read before
-same-pass resumption. Four maps/all crops/raws/transcripts retained. Seventy total
-recognition invocations,zero failures or unchanged-input retries. Selected62 drafts
-reuse54 original recognitions plus eight replacements;124 reuse-context bindings
-validate. Twenty-two auxiliary4x views inspected;one extra full Ventura4x generated
-but not inspected. Initial crop-review misses remain explicit in the repair records.
-
-All6,915 UTF-8 ranges,7,022 pins and70 images/exact source pixels pass. All32,859
-prior January files,134 pilot files and thirty core pins unchanged. Existing213-test
-passing baseline reused;no fresh tests or core changes. Human acceptance/full
-proofreading,source encoding/glyphs/exact spaces,historical/technical/price/forecast
-claims,execution and independent backup recovery remain unverified.
+Across all three natives:142 regions,87 native blocks,23 originals,119 transcripts,
+1,985 rows/9,413 tokens and32 internal prose joins. Both native boundaries72/73
+제자리로/돌아오는 것이다.(space) and78/79 특징/들(empty) require assembly.
+All earlier native arrays,objects,scalars,range/pin contexts and uncertainty records
+must survive,including nativea HAL/WordStar math/key/value/unknown fields,QA/Ventura
+independent displays/tables/UI references and final Windows fields. No executable
+listing invented. Hidden values are not filled or numerically/calendar reconciled.
 
 0038 scanner report and0051 취재 classification remain complete;one recognition
 glyph/two graph panels retain manual review. Earlier0037/0034/0033 complete. Retain
@@ -78,18 +74,22 @@ at `batch-32/survey-location-review.json`;quiz notices/writer quotations do not
 replace its body. No sourcewide absence claim. Former0023 remains readable165/
 PDF167right with original105 conflict/history and`batch-30/debugging-room-location-found.json`.
 
-Next restore finalPDF79/printed77 as immutable nativec,checking78/79 against nativeb
-and independent next80. Then assemble all thirteen pages separately from exact
-nativesa+b+c,preserving every source metadata category. Contents/current identities
-unchanged;two-task/six-page/twenty-outside bounds continue. The14 unresolved
-identities,0039 final page/assembly,all-page accounting,donated cover,standalone
-JSON/assets export and final audit remain. Full issue goal active. No reader rebuild
-or deployment.
+Next assemble all thirteen0039 pages from exact nativesa+b+c,with no new mapping,
+lookups,OCR or correction. Preserve523 native files and every source metadata
+category;project every range/pin in its proper native/combined context and apply
+only the two verified native prose joins. Verify complete coverage/source pixels,
+all inherited categories and independent exact rebuild before readable classification.
+Two-task/six-page/twenty-outside bounds continue. The14 unresolved identities,
+0039assembly,all-page accounting,donated cover,standalone JSON/assets export and
+final audit remain. Full issue goal active. No reader rebuild or deployment.
+Human acceptance/full proofreading,source encoding/glyphs/exact spaces,historical/
+technical/version/price/forecast claims,execution and independent backup recovery
+remain unverified.
 
 See [January log](progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-40/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-40/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-41/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-41/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
