@@ -23,47 +23,44 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active:51 identities,twenty-nine readable/sample-reviewed
-  articles,one partial article,seven non-owning headings and14 unresolved identities.
-  Batch41 preserves0039final nativecPDF79/printed77 at
-  `archive/pdf/1988-01/packages/batch-41-r01/pc-software-trends-c`:30files/
-  15,684,286bytes independently exact. Nativea67–72 and nativeb73–78 remain493files
-  exact. All thirteen actual body pages67–79/printed65–77 now preserved across523
-  immutable files/179,324,419bytes;complete assembly pending. Final paragraph precedes
-  independent postal-code contest80,no byline. Final seven regions/three blocks/
-  five transcripts/two originals retain164rows/779tokens,two internal joins,one
-  caption and incoming 특징/들 boundary. Windows display25rows/31numeric candidates/
-  sixteen unknown-count markers,five menu-shortcut pairs/nine prose menu claims/four
-  titles/two paint labels/three independent date-time-month fields retained. Calendar
-  five rows/35slots:four blanks,23visible numeric/eightunknown,seven headers/two
-  unknown. No expected dates/weekday names inferred;10:44AM,Thursday August13,
-  October1987/highlighted13 not reconciled;clock hands/icons/tools/patterns stay pixels.
-  Literal 위드프로세서/위드프로세싱/인퍼페이/스 and physical wraps retained.
-  All seven crops before five tasks/all raws before one source pass;three4xviews,
-  zero failures/retries/crop repairs. All1,290ranges/1,313pins/sevenimages exact;
-  34,978prior/134pilot/30core unchanged;213-test baseline reused,no fresh run.
-  One task/one mapped/two outside/three inspected. Nativeb's four maps/eight edge
-  repairs/124reuse contexts and nativea's PNG-byte check failure remain preserved.
-  Next separate complete assembly with no mapping/lookups/OCR/correction,preserving
-  all523native files and every original source array/object/scalar/list and correct
-  native/projected range/pin context. Verify142regions/87native blocks/23originals/
-  119transcripts/1,985rows/9,413tokens/32internal joins and only two native joins:
-  72/73 제자리로/돌아오는 것이다.(space),78/79 특징/들(empty). Retain all nativea
-  HAL/WordStar math/key/value/unknowns,QA/Ventura independent tables/UI and final
-  Windows fields without expected UI/calendar/arithmetic completion. Two-task/six-page/
-  twenty-outside bounds continue.0038/0051 and earlier0037/0034/0033 complete;
-  one recognition glyph/two graph panels manual review. Retain
+- January 1988 is active:51 identities,thirty readable/sample-reviewed articles,
+  zero partial articles,seven non-owning headings and14 unresolved identities.
+  Batch42 completes0039PC software trendsPDF67–79/printed65–77. Selected
+  `archive/pdf/1988-01/packages/pc-software-trends-complete-r01`:531files/
+  283,029,378bytes independently exact,including523 unchanged native files/
+  179,324,419bytes.142regions/85reading blocks/87native fragment projections/
+  23originals/119transcripts/1,985rows/9,413tokens.32internal joins plus two native
+  joins72/73 제자리로/돌아오는 것이다.(space),78/79 특징/들(empty),nine captions,
+  title/feature/deck and exact source ending retained.13reference pages follow
+  primary content. Absorbed block fragments retain precise subranges. All source
+  arrays/objects/scalars/reserved lists survive:129slices/15objects/3scalars/9reserved
+  projections plus full original corrections/native context roots.14,219native/
+  14,313projected ranges and14,695native/15,074projected pins validate;142images
+  exact source pixels.383display rows/147numeric candidates/71unknown-count markers,
+  eight tables/37rows/138cells/sixblank/eightunknown/26headers/twounknown preserved.
+  HAL/WordStar math/key/value unknowns,QA/Ventura independent displays/tables/UI and
+  final Windows date/time/month/calendar fields remain literal. No expected UI,
+  hidden completion,calendar/numeric reconciliation or grammar/claim repair.
+  Ten exact active notes resolved,native stages retained. Eleven invalid mutations
+  rejected;fresh213PDFtests pass;35,131prior/134pilot/30core exact. One task,
+  zero new mapping/lookups/OCR/correction. No deferred classified body or assembly.
+  Register`pc-software-trends-literal-v1` with selected
+  `batch-42/pc_software_literal_r01.py`;initial adapter/projection retained. Keep
   batch-35/turbo_c_literal.py,batch-21/legacy_input_r01.py exact old TOC/context/
-  current guard,batch-18/magic_literal_r02.py,batch-15/ram_literal_r01.py. Survey0032
-  original175/bounded Batch32 review retained;no quiz/writer substitution/sourcewide
-  absence claim. Former0023 readable165/PDF167right retains105conflict/history.
-  14 unresolved identities,0039assembly,accounting/cover/export/audit remain;full
-  goal active. Human acceptance/proofreading/source encoding/glyphs/spaces/claims/
-  execution/backup recovery unverified. No reader rebuild. See
+  current guard,batch-18/magic_literal_r02.py,batch-15/ram_literal_r01.py too.
+  0038/0051 and earlier0037/0034/0033 complete;one recognition glyph/two graph
+  panels manual review. Survey0032 original175/bounded Batch32 review retained;
+  no quiz/writer substitution or sourcewide absence. Former0023 readable165/
+  PDF167right retains105conflict/history. Next0042 postal-code contest original78/
+  knownPDF80;verify11/79/81 and actual folio/null,preserve lower postal-number
+  inset/diagram/map/table fields without inferred codes. Two-task/six-page/
+  twenty-outside bounds continue.14 identities/accounting/cover/export/audit remain,
+  full issue goal active. Human acceptance/proofreading/source encoding/glyphs/
+  spaces/claims/execution/backup unverified. No reader rebuild. See
   [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-41/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-41/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-42/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-42/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

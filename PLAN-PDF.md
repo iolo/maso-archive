@@ -24,81 +24,75 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-January 1988 is active: 51 canonical identities, twenty-nine readable/sample-reviewed
-articles, one partial article, seven non-owning headings and 14 unresolved identities.
-Canonical0039 has no deferred body pages;complete article assembly remains pending.
+January 1988 is active: 51 canonical identities, thirty readable/sample-reviewed
+articles, zero partial articles, seven non-owning headings and 14 unresolved identities.
+No classified article has deferred body pages or a pending complete assembly.
 
-Batch41 preserves final nativec of0039, 특집 : PC 소프트웨어의 동향,
-on PDF79/printed77. Selected
-`archive/pdf/1988-01/packages/batch-41-r01/pc-software-trends-c` has30 files /
-15,684,286 bytes,matching its independent rebuild. Opening nativea remains exact
-at `archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a`:229 files /
-82,183,659 bytes. Middle nativeb remains exact at
-`archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b`:264 files /
-81,456,474 bytes. All thirteen body pagesPDF67–79/printed65–77 are preserved
-across523 immutable native files/179,324,419 bytes. Complete assembly is separate.
-Actual feature follows66Medusa advertising and ends before independent postal-code
-contest80. No article byline. Source titles/identity/parent remain unchanged.
+Batch42 completes0039, 특집 : PC 소프트웨어의 동향, across thirteen source pages
+PDF67–79/printed65–77. Actual opening follows66Medusa advertising;the final
+interface-use-time paragraph precedes independent postal-code contest80. No byline.
+Selected `archive/pdf/1988-01/packages/pc-software-trends-complete-r01` has531 files /
+283,029,378 bytes,matching its independent rebuild. All523 native files /
+179,324,419 bytes remain exact,including openinga67–72,middleb73–78 and finalc79.
 
-The final native retains seven regions,three blocks,five transcripts and two
-originals. All164 physical transcript rows/779 tokens are indexed. Two internal
-joins retain 우/선 and8088호환기/종;incoming78/79 특징/들 remains an assembly join.
-The final interface-use-time paragraph and one Windows2.0 caption are retained.
-Literal 위드프로세서,위드프로세싱 and final 인퍼페이/스 survive same-pass4x
-source review;company/product/menu/quoted-name wraps are not normalized.
+The complete article retains142 regions,85 reading blocks,87 native block-fragment
+projections,23 originals and119 transcripts/1,985 physical rows/9,413 tokens.
+Thirty-two internal prose joins remain unchanged. Only two native joins were added:
+72/73 워크쉬트의 제자리로 + space + 돌아오는 것이다.;78/79 탐나는 특징 +
+empty separator + 들 - 그래픽과 사용하기 쉬운 사용자. Absorbed block fragments
+retain their own precise ranges inside the merged blocks. Nine caption associations
+and the opening feature label/title/deck remain source-linked. Thirteen full-page
+reference images follow primary article content. No executable listing or byline
+invented;no new mapping,lookups,OCR or source correction.
 
-Windows display retains25 spatial rows/31 unverified numeric fragments and sixteen
-unknown/clipped/clock/icon/overlap markers of unknown source character counts.
-Calendar layout preserves five rows/thirty-five slots:four printed blanks,23 visible
-numeric candidates,eight obscured unknown fields. Seven headers include two
-unknown fields;expected weekday names or hidden dates are not generated. Independent
-10:44 AM,Thursday August13 andOctober1987 candidates are not reconciled with each
-other or highlighted13. Five menu/shortcut pairs,nine prose menu-name claims,four
-window titles and two exposed paint labels retain source context. Clock hands,
-patterns,tools,launcher icons and original clipping remain pixels,not decoded values.
+Every native array,object,scalar and reserved list survives:129 array-category
+slices,15 object projections,three scalar projections,nine reserved projections,
+plus complete original corrections and declared native evidence roots. All14,219
+native/14,313 projected UTF-8 range occurrences and14,695 native/15,074 projected
+pins validate in their proper contexts. All142 assembled image assets match exact
+reviewed source pixels. Ten exact active native-stage notes are resolved;original
+stage statements remain native provenance. Eleven invalid recipe/native/projected
+metadata mutations were rejected. Fresh213 PDF tests pass;thirty core pins and all
+35,131 prior January files/134 pilot files remain unchanged.
 
-One task,one mapped page,two outside lookups and three inspected views meet bounds.
-All seven exact crops reviewed before five pinned kor+eng tasks;all five raws read
-before one source pass. Three auxiliary4x unchanged-crop views;zero recognition
-failures,retries or crop repairs. All1,290 UTF-8 ranges,1,313 pins and seven images/
-exact source pixels pass. All34,978 prior January files,134 pilot files and thirty
-core pins unchanged. Existing213-test passing baseline reused;no fresh run/core
-changes. Nativeb's eight post-OCR edge repairs/four maps/124 reuse contexts and
-nativea's original failed PNG-byte equivalence attempt remain preserved evidence.
+Source displays retain383 spatial rows/147 unverified numeric fragments and71
+unknown/clipped/leader/ruler/status/control markers with unknown character counts.
+Eight tables retain37 rows/138 cells:six printed blanks,eight occluded unknown
+fields,and26 headers including two unknowns. Nativea HAL/WordStar relations,math,
+key/menu fields and unknown factors/equation;QA/Ventura independent windows/printed
+newsletter,reference/path/tag fields;and final Windows menu/time/date/calendar fields
+all remain literal. Thursday August13,October1987,10:44AM and highlighted13 are
+not reconciled. Hidden text/values are not filled from another display or arithmetic.
+WYSIWG/bodyWYSIWYG,ITTCC/Consultive Committee,caption/body name differences,위드
+and final 인퍼 candidates,physical wraps and all earlier source variants remain.
 
-Across all three natives:142 regions,87 native blocks,23 originals,119 transcripts,
-1,985 rows/9,413 tokens and32 internal prose joins. Both native boundaries72/73
-제자리로/돌아오는 것이다.(space) and78/79 특징/들(empty) require assembly.
-All earlier native arrays,objects,scalars,range/pin contexts and uncertainty records
-must survive,including nativea HAL/WordStar math/key/value/unknown fields,QA/Ventura
-independent displays/tables/UI references and final Windows fields. No executable
-listing invented. Hidden values are not filled or numerically/calendar reconciled.
+Use private format`pc-software-trends-literal-v1` with selected
+`batch-42/pc_software_literal_r01.py` for eventual issue dispatch. Initial adapter
+and projection evidence remain retained;selected r01 adds the immutable native
+metadata-byte guard. Keep earlier`batch-35/turbo_c_literal.py`,
+`batch-21/legacy_input_r01.py` with exact old TOC/context/current identity guard,
+`batch-18/magic_literal_r02.py` and`batch-15/ram_literal_r01.py` too.
+0038 scanner report/0051 취재 and earlier0037/0034/0033 remain complete;one
+recognition glyph/two graph panels retain manual review. Survey0032 retains
+original175 and bounded inconclusive`batch-32/survey-location-review.json`;quiz
+notices/writer quotation do not replace its body. No sourcewide absence claim.
+Former0023 remains readable165/PDF167right with original105 conflict/history and
+`batch-30/debugging-room-location-found.json`.
 
-0038 scanner report and0051 취재 classification remain complete;one recognition
-glyph/two graph panels retain manual review. Earlier0037/0034/0033 complete. Retain
-`batch-35/turbo_c_literal.py`,`batch-21/legacy_input_r01.py` with exact old TOC/context
-and current identity guard,`batch-18/magic_literal_r02.py` and`batch-15/ram_literal_r01.py`
-for issue dispatch. Survey0032 retains original175 and bounded inconclusive review
-at `batch-32/survey-location-review.json`;quiz notices/writer quotations do not
-replace its body. No sourcewide absence claim. Former0023 remains readable165/
-PDF167right with original105 conflict/history and`batch-30/debugging-room-location-found.json`.
-
-Next assemble all thirteen0039 pages from exact nativesa+b+c,with no new mapping,
-lookups,OCR or correction. Preserve523 native files and every source metadata
-category;project every range/pin in its proper native/combined context and apply
-only the two verified native prose joins. Verify complete coverage/source pixels,
-all inherited categories and independent exact rebuild before readable classification.
+Next restore0042 우편번호를 이용한 프로그램 공모안내,original TOC78/known
+sourcePDF80. Verify contents11 and adjacent79/81 before mapping,observe actual
+folio or null,and preserve lower postal-number inset/diagram/map/table labels and
+contest/date/contact fields without inferred codes or current-claim repair.
 Two-task/six-page/twenty-outside bounds continue. The14 unresolved identities,
-0039assembly,all-page accounting,donated cover,standalone JSON/assets export and
-final audit remain. Full issue goal active. No reader rebuild or deployment.
-Human acceptance/full proofreading,source encoding/glyphs/exact spaces,historical/
-technical/version/price/forecast claims,execution and independent backup recovery
-remain unverified.
+all-page accounting,donated cover,standalone JSON/assets export and final audit
+remain. Full issue goal active. No reader rebuild or deployment. Human acceptance/
+full proofreading,source encoding/glyphs/exact spaces,historical/technical/version/
+price/forecast claims,execution and independent backup recovery remain unverified.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-41/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-41/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-42/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-42/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 
