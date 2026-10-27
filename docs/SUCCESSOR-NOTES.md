@@ -18,52 +18,58 @@ This local build adds no human acceptance and performs no deployment. March and 
 January 1988 is active: 51 canonical identities, thirty-three readable/sample-reviewed
 articles, one partial article, nine non-owning headings and eight unresolved identities.
 
-Batch 49 classifies canonical 0001, 워드프로세서, as a non-owning category heading
-and restores the opening of 0002, 중앙한글 에디터의 개선, on PDF/printed 178–183.
-Direct opening evidence supersedes the former unverified PDF 180 candidate. The
-source pages are upright; no extra orientation correction or global offset is used.
-Page 182 retains the article left column and excludes the independent right RAM-disk
-advertisement. Original canonical identities, titles, parents and references remain.
+Batch 50 restores canonical 0002, 중앙한글 에디터의 개선, continuation PDF/printed
+184–189. The opening 178–183 from Batch 49 remains immutable. Two native packages
+now preserve pages 178–189 and all printed main-listing rows 1–1210. Category 0001,
+워드프로세서, remains non-owning. Canonical titles, parents and reference 178 stay
+unchanged; the actual opening is 178, with no global folio offset inferred.
 
-Selected `archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a` has 257 files,
-43,648,872 bytes, matching its independent rebuild. All 74 source regions, 58 blocks,
-16 original images and 58 transcripts remain: 800 nonempty serialized lines and
-3,171 tokens. All 8,165 local UTF-8 range occurrences, 8,711 review pin occurrences
-and 74 decoded source images validate, including exact reviewed crop pixels.
+Selected `archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b` has 111 files,
+47,699,029 bytes, matching its independent rebuild. Its 39 regions, 21 blocks and
+18 original images retain 1,053 nonempty serialized lines and 3,297 tokens. All
+13,293 local UTF-8 range occurrences, 13,370 review pin occurrences and 39 decoded
+source images validate, including exact reviewed crop pixels. The six pages are
+upright listing pages with no advertisement exclusion or extra rotation.
 
-Nine code units retain twelve original/revised comparison parts; Figures 3 and 5
-print only revised routines. List 1 retains every printed ordinal 1–166, including
-19 numbered blank rows, comments and open quoted fields. The headerless Figure 8
-patch retains three rows and 27 opaque field positions. Nine printed captions
-link to ten original panels; the two listing columns share their printed caption.
-Eleven prose continuation links preserve fragments and separator candidates;
-native text blocks remain separate, with no actual prose joins. Source INSBNK,
-INSBLNK and INSBLKA differences remain literal. No syntax, opcode, byte, address,
-ordinal, source spelling, title or technical-claim completion or execution.
+Twelve code columns retain every printed row 167–1210, including 80 numbered blanks,
+119 comment occurrences, 36 opaque HEX fields, 33 DA fields, three ASC fields and
+26 control jump-table rows. Four conversion sections retain their source labels
+without reconstructing bytes or glyphs. Eleven internal column/page continuation
+links preserve fresh physical rows; incoming 166→167 and outgoing 1210→1211 remain
+explicit native boundaries. No code rows or prose blocks are joined. No new printed
+caption or byline is invented; the original List 1 caption stays in the opening native.
 
-All 74 initial crops and eight fresh geometry repairs were inspected before 58
-pinned Tesseract tasks: nine eng code and 49 kor+eng others. All drafts were read
-before one source correction pass; no recognition retry or post-OCR geometry repair.
-Forty-six descriptive placeholders retain 18 boxed return glyph occurrences,
-twelve unknown-count decorative bands, six unknown-count vertical-dot runs, nine
-graphical arrow/bracket annotations and one small source mark. Original pixels
-retain all spatial marks and gaps. Two nearest-neighbor source views and two fresh
-explanatory-record revisions remain; source text was not changed by those revisions.
-The initial mapping-schema failure occurred before map/crop output and is retained.
+Twenty-four descriptive placeholders retain seven spatial glyph rows, two quoted
+space runs, three boxed return symbols, four decorative bands, seven arrow graphics
+and one small source mark. Original columns/full pages and six nearest-neighbor
+views retain source geometry. O/0/I/1, EDRA/EDEA, punctuation, quoted blank counts,
+faint comment endings and all source spellings/operands remain independent candidates.
+No syntax, opcode, byte, address, alphabetic, ordinal or technical-claim completion
+or execution. The source comment ending 이동한 remains literal.
 
-The verified boundary envelope is 178–205, followed by the independent printer/
-font-editor opening 206. This does not establish continuous inspected body coverage:
-188–203 remain uninspected. Pages 184–205 and whole-article assembly are deferred.
-Next declare and directly review the bounded continuation 184–189, including the
-uninspected 188–189 and adjacent 183/190, before mapping. Reuse exact reviewed
-184–187 and boundary 205/206 evidence. Continue the two-task/six-page/twenty-outside
-limits; preserve every printed row, blank, comment, quote and opaque source field.
+All 39 initial crops and four fresh wider ordinal-margin crops were reviewed before
+21 pinned Tesseract tasks: twelve eng code and nine kor+eng headings. All drafts
+were read before one source correction pass; no recognition retry or post-OCR crop
+repair. The first recording helper retained an old raw-directory path and wrote
+one header before failing. Its script/helper/partial file remain; a fresh helper
+and fresh transcript directory record the same source readings in the same pass.
 
-All 41,634 prior January files, 134 pilot files and 30 core pins remain exact.
-The 213 passing Batch 42 PDF tests are reused; no core changes or fresh test run.
-Earlier canonical 0045 back-issue index remains complete across 217–233, with all
-500 native files and the complete 508-file package unchanged. Eventual issue
-dispatch must retain `batch-48/back_issue_index_literal.py`
+The boundary envelope remains 178–205, followed by the independent printer/font-editor
+opening 206. Outside 190 is now directly inspected; 191–203 remain uninspected. This
+does not establish continuous inspected coverage of the full envelope. Pages 190–205
+and separate complete article assembly are deferred. Next declare and directly
+review the bounded continuation 190–195 plus adjacent 189/196 before mapping. Reuse
+exact 190 and ending 205/206 evidence. Keep the two-task/six-page/twenty-outside limits.
+
+Across the two immutable editor natives, 113 regions, 79 blocks, 34 original images,
+21 code units and 1,210 numbered main-listing rows remain, including 99 numbered
+blanks and 70 mark/space/glyph placeholders. Original comparison figures and patch
+table from the opening stay exact. All 42,774 prior January files, 134 pilot files
+and 30 core pins remain unchanged. The 213 passing Batch 42 PDF tests are reused;
+no core changes or fresh test run. Earlier back-issue index 0045 remains complete
+across 217–233, with all original natives and complete package unchanged.
+
+Eventual issue dispatch must retain `batch-48/back_issue_index_literal.py`
 (`back-issue-index-literal-v1`), `batch-42/pc_software_literal_r01.py`
 (`pc-software-trends-literal-v1`), `batch-35/turbo_c_literal.py`,
 `batch-21/legacy_input_r01.py` with exact old TOC/context and current identity guard,
@@ -77,9 +83,9 @@ need manual review. The full issue goal remains active. No reader rebuild or
 deployment. Human acceptance/full proofreading, original encoded bytes/glyphs/exact
 spaces, historical/technical claims, execution and backup recovery remain unverified.
 
-Validation/reproduction: `archive/pdf/1988-01/restoration/batch-49/validation.json`
-and `archive/pdf/1988-01/restoration/batch-49/reproduction.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-49/preservation-inventory.json`.
+Validation/reproduction: `archive/pdf/1988-01/restoration/batch-50/validation.json`
+and `archive/pdf/1988-01/restoration/batch-50/reproduction.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-50/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning

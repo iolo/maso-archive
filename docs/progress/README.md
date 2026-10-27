@@ -22,7 +22,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | March 1985 | [8503.md](8503.md) — canonical TOC complete |
 | October 1985 | [8510.md](8510.md) — canonical TOC complete |
 | November 1985 | [8511.md](8511.md) — restoration pass complete; one unresolved entry |
-| January 1988 | [8801.md](8801.md) — active; thirty-three readable articles, one partial article, nine non-owning headings, eight unresolved identities; central Hangul editor opening 178–183 restored, 184–205 and assembly deferred; back-issue index 217–233 complete |
+| January 1988 | [8801.md](8801.md) — active; thirty-three readable articles, one partial article, nine non-owning headings, eight unresolved identities; two central Hangul editor natives preserve178–189;190–205 and assembly deferred; back-issue index217–233 complete |
 
 | Shared scope | Records |
 | --- | --- |
