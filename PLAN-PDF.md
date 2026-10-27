@@ -27,61 +27,66 @@ records below are historical and do not authorize a new rebuild.
 January 1988 is active: 51 canonical identities, thirty-six readable/sample-reviewed
 articles, zero partial articles, fourteen non-owning headings and one unresolved identity.
 
-Batch 63 completes page-content accounting for all 242 source pages. The 36 unchanged
-selected article maps retain 188 distinct body pages and 190 assignments. All 54 pages
-outside those selected bodies now have direct source observations; none remain pending.
-This establishes page-content records, not full issue completion or resolved eligibility.
-All 51 canonical entries and all article exports remain unchanged.
+All 242 source pages have content records:188 selected body pages/190 assignments
+from 36 unchanged articles, plus 54 directly reviewed outside pages. Batch 64 now
+audits shared ownership and exclusion geometry across 36 selected maps and all
+23 embedded native maps. The content-accounting index remains unchanged.
 
-This checkpoint reviewed the final fifteen outside pages:161,162,173,174,175,177 and
-234–242. Twelve are advertising pages, including publisher disk-sales catalogues on
-234–237. PDF238 is an unlisted public-software catalogue and visibly bears printed238;
-its source wording does not certify a modern license or executable recovery. PDF239
-contains subscription/payment instructions and a national distribution directory.
-PDF240 preserves three separate components:staff afterwords,advertiser index and
-the small Intel/동서전자공업 advertisement. No generic ad classification hides them.
-No additional canonical article or new survey body was identified in these fifteen pages.
+All 33 selected exclusions on 24 pages and 12 embedded native exclusions are disjoint
+from their own mapped regions:350 selected and 100 native comparisons. Each native
+exclusion retains every field in its selected-map projection, apart from prefixed IDs.
+The original advertisement/other/unlisted kinds and notes remain exact, including
+the unlisted monitor on PDF95 and utility-disk promotion on107. All 21 null printed
+folios are retained; no number is filled from a global offset.
 
-Across all 54 outside pages there are 45 advertisements, the cover, contents/colophon,
-an unlisted New Year editorial, two awards pages, the January events calendar, the
-public-software catalogue, subscription/distribution page and mixed afterword/index/ad
-page. Source folios remain literal; no global PDF-to-print offset is inferred. PDF1
-remains a damaged dated cover candidate; donated-cover selection is still pending.
-The sideways PDF8 advertisement retains its original orientation.
+Shared PDF100 and167 have 336 cross-owner region pairs, including 240 nonfigure pairs.
+All body pairs are disjoint. The sole overlap is the exact same small original-folio
+image on167 in both packages; it is explicitly recorded as shared page furniture.
+Every nonfigure body region lies within the other owner's exclusion. PDF100's
+hardware0010/typewriter0046 separation retains the previously reviewed Batch60 evidence.
+PDF167 was directly reviewed again:Readers Forum0029 concludes in the left two columns;
+Debugging Room/Bulletin Board0023 occupies the right two. Printed165 is directly visible.
+Other exclusions were checked against frozen maps and prior package evidence;
+this checkpoint did not freshly inspect their source pixels or proofread body text.
 
-The PDF22–23/printed20–21 awards spread has a verified extent. Its split heading
-애독자 설문지 / 당첨자 111명 and collection instructions do not establish ownership
-for canonical0032/original contents175. That identity remains unresolved, with all
-original evidence and new bounded-review supplements preserved. No substitute body,
-missing-scan explanation, folio-offset explanation or source-wide absence is claimed.
-Existing body maps are reused; this checkpoint did not freshly inspect all body text.
+The ownership/exclusion audit is byte-identical to its independent reconstruction.
+All 49,594 prior January files, 134 pilot files and 30 core pins remain exact. The
+213 passing Batch42 tests are reused. All 51 canonical entries and all article maps,
+exports and transcriptions remain unchanged. No new rendering, mapping, OCR or
+source correction. Human acceptance remains separate from assistant sample review.
 
-Three frozen observation groups and a survey-context supplement preserve the review.
-The complete content-accounting JSON is byte-identical to its independent rebuild;
-every earlier row outside the fifteen-page scope is unchanged. All 49,549 prior January
-files, 134 pilot files and 30 core pins remain exact. The 213 passing Batch42 tests are
-reused. No new rendering, mapping, OCR, source correction or article export.
+Outside-page accounting retains 45 advertisements,cover,contents/colophon,unlisted
+New Year editorial,two awards pages,January events calendar,public-software catalogue,
+subscription/distribution page and mixed afterword/advertiser-index/ad page240.
+PDF238 visibly bears printed238. PDF8's sideways advertisement remains unchanged.
+PDF1 is a damaged dated cover candidate; donated-cover selection is next.
 
-No partial articles or article assemblies are pending. Eventual issue dispatch must
-retain `batch-57/central_hangul_printer_literal_r01.py`,
+Canonical0032 remains unresolved with original contents reference175. The verified
+PDF22–23/printed20–21 awards spread and all bounded source-location reviews remain
+preserved. No questionnaire ownership, substitute body, missing-scan explanation or
+source-wide absence is established. This two-owner audit did not adjudicate survey
+eligibility; explicit gap disposition remains part of issue closeout.
+
+Eventual issue dispatch must retain `batch-57/central_hangul_printer_literal_r01.py`,
 `batch-54/central_hangul_editor_literal_r02.py`, `batch-48/back_issue_index_literal.py`,
 `batch-42/pc_software_literal_r01.py`, `batch-35/turbo_c_literal.py`,
 `batch-21/legacy_input_r01.py` with its exact old TOC/context/current identity guard,
 `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`.
 
-Next audit frozen selected-map shared ownership and mixed exclusions. Directly review
-shared PDF167 for owners0023/0029; reuse Batch60 source evidence for shared PDF100
-and recompute both geometries. Preserve every native exclusion and literal folio.
-Survey disposition, donated cover, standalone JSON/assets issue export, independent
-native/issue rebuild and final requirement audit remain. Former0023 original105 history,
-postal samples and scanner glyph/two graph panels retain their manual-review limits.
-Keep two-task/six-page/twenty-outside bounds. The full issue goal is active. No reader
-rebuild or deployment. Human acceptance, full proofreading, original encoded bytes,
-exact spaces/glyphs, historical/technical claims, execution and backup recovery are unverified.
+Next directly inspect donated `covers/8801.jpg` and the retained PDF1 candidate.
+Verify the visible date, orientation and proportions before selecting a source.
+Create a separate metadata-stripped RGB JPEG thumbnail without cropping/upscaling,
+at most640 pixels on its longest side, and independently reproduce it. Preserve all
+originals and alternatives. Standalone JSON/assets export, eligibility gap reporting,
+independent native/issue rebuild and final requirement audit remain. Former0023
+original105 history,postal samples and scanner glyph/two graph panels keep their limits.
+The full issue goal is active. Keep two-task/six-page/twenty-outside bounds. No reader
+rebuild or deployment. Human acceptance,full proofreading,encoded bytes,exact spaces/
+glyphs,historical/technical claims,execution and independent backup recovery are unverified.
 
-Validation/reproduction: `archive/pdf/1988-01/restoration/batch-63/validation.json`
-and `archive/pdf/1988-01/restoration/batch-63/reproduction.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-63/preservation-inventory.json`.
+Validation/reproduction: `archive/pdf/1988-01/restoration/batch-64/validation.json`
+and `archive/pdf/1988-01/restoration/batch-64/reproduction.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-64/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 
