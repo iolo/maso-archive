@@ -25,40 +25,42 @@ paired OCR or a new engine comparison.
 
 - January 1988 is active: 51 identities, twenty-five readable/sample-reviewed
   articles, one partial article, four non-owning headings and 21 unresolved identities.
-  Batch33 preserves0033 Turbo C graphics nativeaPDF136–141/printed134–139 of full
-  nine-page136–144 body. Selected `archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a`
-  has375 files/46,330,955 bytes,independently exact.102 regions/79 blocks/88 transcripts/
-  14 figures/nine joins/nine connections retain14 explanations,nine definitions,
-  eleven references,16 memory pairs/32 fields,seven coordinates,four settings,
-  seven figure/two listing captions.597 transcript rows include spatial label
-  serialization;2,651 tokens. Six code units/266 physical rows retainGRAPH.H001–063,
-  GRAPHIC.H001–195,five config/three screen rows,258 ordinals,39 blank fields,
-  1,248 tokens and17 fragment groups. Eleven pen-obscured code fragments and one
-  screen tail retain[illegible] with unknown character counts. Five asterisk bands,
-  dot candidates,B800H/handwritten0 versusB000H/B0000,asp-ratio/asp_ratio,figure4
-  reference and bibliography candidates unverified;no syntax/technical repair.
-  Lower139 notice excluded;140/141 lossless90-degree orientation/originals retained.
-  One task/six mapped/eight outside/fourteen inspected pages;lookup extension and
-  23 crop expansions beforeOCR,both maps/crops retained. All102 selected crops
-  before88 tasks (six eng/82 kor+eng),all88 raws beforeone source pass,zero failures/
-  retries/postOCR repairs. All9,305 ranges/9,444 pins/102 images/exact pixels pass;
-  all27,122 prior files/134 pilot/30core exact;213-test baseline reused,no fresh run.
-  Next endingPDF142–144/printed140–142:GRAPHIC.H196–458 andDEMO.C001–168,
-  incoming195/196 boundary,lossless142/143 orientation;immutable nativeb then
-  separate nine-page assembly. Nativea unchanged;article stays partial meanwhile.
-  Survey0032 original175 and bounded Batch32 PDF11/172–181 review remain unresolved;
+  All classified body pages preserved;one complete article assembly pending.
+  Batch34 preserves0033 endingPDF142–144/printed140–142,GRAPHIC.H196–458 and
+  DEMO.C001–168. Selected `archive/pdf/1988-01/packages/batch-34-r01/turbo-c-graphics-b`
+  has40 files/21,334,798 bytes,independently exact. Nativea remains375 files/
+  46,330,955 bytes at `archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a`.
+  All415 natives preserve112 regions/86 blocks/95 transcripts/17 figures,
+  12 code units/698 physical rows/689 printed ordinals/92 blanks/3,025 tokens,
+  nine prose joins/twelve connections and incoming195/196 boundary. Ending432
+  rows include one unnumbered414 comment wrap before blank415;visible06 between
+  015/017,broken-bar candidates¦,five initializer parentheses,scf/scff,ell/one and
+  shift expression retained. Nativea eleven code/one screen occlusions,dots,
+  B800H/handwritten0 versusB000H/B0000 and diagram/reference candidates unchanged.
+  Nine combined asterisk-band counts unverified. No syntax/execution repair.
+  One task/three mapped/two outside/five inspected pages;142/143 lossless90-degree
+  orientation with originals retained. Two pre-OCR expansions;all10 selected crops
+  before7 tasks(six eng/one kor+eng),all7 raws beforeone source pass. Three auxiliary
+  unchanged-crop zooms and one same-pass fresh candidate refinement preserve
+  initial transcript/script. Zero failures/retries/postOCR repairs. All9,686
+  ranges/9,702 pins/ten images/exact pixels pass;28,732 prior files/134 pilot/
+  30core exact.213-test baseline reused,no fresh run. Next complete nine-page
+  assembly ofa+b,no new mapping/lookups/OCR/correction. Preserve all native files,
+  arrays/objects/scalars/lists and projected/local article/listing ranges,pins,
+  caption associations,physical rows and original metadata;primary content before
+  page references. Resolve active stage notes while native provenance stays exact.
+  Survey0032 original175/bounded Batch32 PDF11/172–181 review remains unresolved;
   preserve `batch-32/survey-location-review.json`,no Quiz award-notice substitution
-  or whole-source absence claim. Former0023 remains located165/PDF167 right with
-  original105 conflict/history. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1
-  exact legacy context/oldTOC/current guard,plus batch-18/magic_literal_r02.py/
-  magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1.
-  Human acceptance/proofreading,encoding/glyphs/spaces/claims/execution/backup
-  unverified. Two-task/six-page/twenty-outside bounds continue.21 unresolved identities,
-  accounting/cover/standalone export/final audit remain;goalactive. No reader rebuild.
-  See [January log](docs/progress/8801.md),
+  or whole-source absence claim. Former0023 readable165/PDF167 right retains105
+  conflict/history. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact
+  context/oldTOC/current guard,plus batch-18/magic_literal_r02.py/magic-key-literal-v1
+  and batch-15/ram_literal_r01.py/ram-removal-literal-v1. Human acceptance/proofreading,
+  encoding/glyphs/spaces/claims/execution/backup unverified. Two-task/six-page/
+  twenty-outside bounds continue;21 unresolved identities,accounting/cover/export/
+  audit remain;goalactive. No reader rebuild. See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-33/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-33/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-34/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-34/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

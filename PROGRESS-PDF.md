@@ -8,72 +8,77 @@ by the calendar month in which restoration work happened.
 
 January 1988 is active: 51 canonical identities, twenty-five readable/sample-reviewed
 articles, one partial article, four non-owning headings and 21 unresolved identities.
-The partial article has three deferred body pages and a pending complete assembly.
+All classified body pages are preserved; one complete article assembly is pending.
 
-Batch 33 preserves the opening native of 0033, 터보 C에서 그래픽을. Actual full
-body is PDF 136–144 / printed 134–142; current native a covers PDF 136–141 only.
-Selected `archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a` contains
-375 files / 46,330,955 bytes and matches its independent rebuild. Original contents
-reference 134, 컴퓨터 그래픽 banner, IBM PC label and 글·설현수(서울대 전기3)
-byline remain source-linked. Prior135 is the independently titled TurboPascal
-convenience article; following145/146 are advertisements,147 an unlisted training
-table and148 Domestic News. No global folio offset or TOC-derived ending.
+Batch 34 completes the ending native of 0033, 터보 C에서 그래픽을. The full body
+is PDF 136–144 / printed 134–142. Native a covers 136–141; native b covers 142–144.
+Selected `archive/pdf/1988-01/packages/batch-34-r01/turbo-c-graphics-b` contains
+40 files / 21,334,798 bytes and matches its independent rebuild. Opening native
+`archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a` stays unchanged:
+375 files / 46,330,955 bytes. All 415 native files / 67,665,753 bytes are preserved.
+The article remains partial until separate complete assembly; primary directory
+and coverage still describe native a, with combined coverage recorded separately.
 
-The native retains 102 regions,79 blocks,88 transcripts,14 original figure/reference
-assets,nine prose joins and nine source connections. Fourteen numbered explanation
-sections,nine definition groups,eleven references,seven figure captions,two listing
-captions,16 memory-address pairs/32 fields,seven coordinates and four configuration
-settings are indexed. The 597 transcript rows include spatial label serializations;
-they are not all claimed physical typeset rows. All 2,651 tokens are preserved.
+Ending b retains GRAPHIC.H 196–458 and DEMO.C 001–168 in six code columns, with
+one printed listing caption and three original pages. Its 432 physical code rows
+contain 431 printed ordinals, 53 blank statement fields, 1,777 tokens, nine numbered
+fragment groups and one unnumbered continuation of the comment at 414 before blank
+415. The visible label 06 between 015/017 stays literal. Two split vertical operators
+remain Unicode broken-bar candidates ¦ with unverified source encoding. Five DEMO.C
+initializer groups retain parentheses; scf/scff, ell/one and shift-expression
+candidates remain unverified. Four asterisk bands retain pixels without a certified
+glyph count. No syntax, algorithm or executable repair.
 
-Six code units retain266 physical rows:five configuration rows,three screen-message
-rows,GRAPH.H001–063 andGRAPHIC.H001–195. All258 printed ordinals,39 blank statement
-fields,1,248 code tokens and17 physical statement-fragment groups remain indexed.
-Eleven pen-obscured GRAPHIC.H fragments and one screen-message tail carry explicit
-[illegible] markers with unknown source character counts. Five asterisk-band counts,
-struct w {. and =.(int) dot candidates remain unverified. Preserve B800H with its
-handwritten0 independently from diagram B000H/prose B0000,asp-ratio versus asp_ratio,
-source figure4 reference and bibliographic candidates; no syntax or technical repair.
-Ratio fraction and source handwriting remain pixels with separate label indexes.
+Combined natives retain 112 regions,86 blocks,95 transcripts,17 original assets,
+12 code units,698 physical code rows,689 printed ordinals,92 blank statement fields
+and 3,025 code tokens. Nine prose joins,twelve internal connections and the incoming
+GRAPHIC.H 195/196 boundary are preserved. Seven original figures/captions,14 numbered
+explanations,nine definitions,eleven references,16 memory pairs/32 fields,seven
+coordinates and four configuration settings remain in a. Its eleven pen-obscured
+code fragments,one hidden screen tail,dot candidates,B800H/handwritten0 versus
+B000H/B0000,ratio layout and source reference/spelling differences stay unchanged.
 
-LowerPDF139 publisher-address notice is excluded;upper body and separate folio
-references retained. PDF140/141 use lossless90-degree clockwise correction with
-original portrait scans preserved. One task,six mapped pages,eight outside lookups
-and fourteen inspected source pages meet bounds. Lookup extension and23 crop
-expansions precede OCR;initial and selected maps/crops remain. All102 selected crops
-reviewed before88 pinned tasks (six eng code/82 kor+eng);all raws read before one
-direct source pass. Zero failures,retries or post-OCR crop repairs.
+Batch 34 used one task,three mapped pages,two outside lookups and five inspected
+source pages. PDF 141 confirms incoming195;145 is an independent DACOM advertisement
+after final DEMO.C168. PDF142/143 use lossless90-degree clockwise orientation with
+portrait originals and observed folios retained. All ten selected crops preceded
+seven pinned tasks (six eng code/one kor+eng caption);all seven raw drafts were read
+before one direct source pass. Two pre-OCR expansions,three unchanged-crop auxiliary
+zooms and one fresh candidate refinement within that pass retain their originals.
+Zero recognition failures,retries or post-OCR crop repairs.
 
-Validation passes9,305 local UTF-8 range occurrences,9,444 pin occurrences and102
-decoded images/exact source crops. All27,122 prior January files,134 pilot files
-and30 core pins remain exact. Existing213-test passing baseline reused;no fresh
-tests or core changes. Human acceptance/full proofreading,source encoded bytes,
-glyph identities/exact spaces,personal/hardware/software/historical claims,code
-execution and independent backup recovery remain unverified.
+All 9,686 local UTF-8 range occurrences,9,702 pin occurrences and ten decoded images/
+exact crop pixels pass. All 28,732 prior January files,134 pilot files and thirty
+core pins remain exact. Existing213-test passing baseline reused;no fresh tests or
+core changes. Human acceptance/full proofreading,original encoded bytes,glyph
+identities/exact spaces,personal/technical/historical claims,execution and independent
+backup recovery remain unverified.
 
 Survey0032 remains unresolved with original contents/catalog175 and Batch32's
 bounded,inconclusive PDF11/172–181 review. Preserve `batch-32/survey-location-review.json`;
-Quiz0031's survey-award notices do not substitute a survey body. No whole-source
-absence or missing-page claim. Earlier articles and four heading decisions stand.
-Canonical0023 remains readable at165/PDF167 right with original105 conflict and
-Batch24 history;keep `batch-30/debugging-room-location-found.json`.
-Retain `batch-21/legacy_input_r01.py` / `legacy-toc-input-v1` with exact legacy
-context/old TOC/current identity guard,`batch-18/magic_literal_r02.py` /
-`magic-key-literal-v1` and `batch-15/ram_literal_r01.py` / `ram-removal-literal-v1`.
+Quiz0031 award notices do not substitute a survey body. No whole-source absence or
+missing-page claim. Canonical0023 remains readable at165/PDF167 right with original
+105 conflict and Batch24 history;keep `batch-30/debugging-room-location-found.json`.
+Four heading decisions and earlier articles stand. Retain `batch-21/legacy_input_r01.py`
+/ `legacy-toc-input-v1` with exact legacy context/old TOC/current identity guard,
+`batch-18/magic_literal_r02.py` / `magic-key-literal-v1` and
+`batch-15/ram_literal_r01.py` / `ram-removal-literal-v1` for issue dispatch.
 
-Next restore endingPDF142–144/printed140–142 as immutable nativeb:GRAPHIC.H196–458
-andDEMO.C001–168. Verify incoming195/196 boundary and final168 before145 advertisement;
-orient142/143 losslessly using existing core support. Preserve comments,literals,
-wraps,blank ordinal fields,pen marks and original listing panels. Then assemble all
-nine pages separately,retaining nativea unchanged. Two-task/six-page/twenty-outside
-limits continue. The21 unresolved identities,all-page accounting,donated cover,
-standalone JSON/assets export and final audit remain. Full issue goal active.
-No reader rebuild or deployment.
+Next assemble all nine pages of0033 from immutable a+b without new mapping,source
+lookups,OCR or correction. Preserve every native file,array/object/scalar/list and
+all local/projected article/listing ranges,pins,physical code rows,source candidates
+and original metadata. Link inherited GRAPHIC.H caption to all seven implementation
+columns and retain GRAPH.H/DEMO.C caption associations;verify195/196 boundary.
+Primary content precedes full-page references. Resolve active deferrals while
+native provenance remains unchanged;independently rebuild the complete assembly.
+Two-task/six-page/twenty-outside bounds continue. The21 unresolved identities,
+all-page accounting,donated cover,standalone JSON/assets export and final audit
+remain. Full issue goal active. No reader rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-33/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-33/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-34/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-34/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
