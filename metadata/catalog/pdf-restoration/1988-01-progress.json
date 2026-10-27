@@ -2164,20 +2164,119 @@
       "toc_entry_id": "maso-1988-01-toc-0023",
       "title": "디버깅 룸·게시판",
       "parent_id": "maso-1988-01-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
       "classification_evidence": [
-        "Original contentsPDF11 and canonical TOC both give debugging-room/bulletin-board0023 reference105. Source printed105/PDF107 contains the MSX-DOS TOOLS conclusion and a separately titled utility-disk3 promotion;neither is substituted.",
-        "All twelve declared lookup pages11,104–108,144–149 were inspected. Source147/printed145 is a January training calendar;148/146 opens Domestic News. No verified debugging-room/bulletin-board body was located within this bounded set.",
-        "Location remains unresolved. This checkpoint establishes no source-wide absence,no corrected page reference,no inferred body extent,and no failed/image-only article package. Revisit remaining pages during all-page source accounting and any independently justified bounded lookup."
+        "Canonical0023 source independently located at printed165/PDF167 right two columns with separate large 디버깅 룸 and 게시판 headings;not the printed105/PDF107 MSX-DOS/disk promotion examined in Batch24.",
+        "Original contentsPDF11 visibly prints105 and canonical TOC retains105. Actual source folio165 on167 and matching combined headings establish location despite that reference conflict. Preserve original reference and prior inconclusive record;do not rewrite either or substitute an unrelated promotion.",
+        "Two errata items and four bulletin items complete167 right two columns;first bulletin crosses columns. Left two columns independently conclude Readers Forum and are excluded. Next168 opens QA. No visible source byline,extra canonical identity or standalone executable program inferred."
       ],
-      "source_location_review": "bounded-search-inconclusive",
+      "source_location_review": "located-with-reference-conflict",
       "source_location_review_record": {
-        "path": "archive/pdf/1988-01/restoration/batch-24/debugging-room-location-review.json",
-        "sha256": "e1c40ad986cbae7dd5dd3e1950f1999d405e59acb52b5933591667e5ca9b44ed",
-        "bytes": 1694
+        "path": "archive/pdf/1988-01/restoration/batch-30/debugging-room-location-found.json",
+        "sha256": "0a3b3006c1533ecb9894cf3e7347d3c64c557717db776ff6a9f34257a4239797",
+        "bytes": 3517
+      },
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-30-r01/debugging-bulletin",
+        "article_id": "scan-maso-1988-01-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-30-r01/debugging-bulletin/manifest.json",
+          "sha256": "5e507dc9c3373868d172a1cc408ad4048c701f6a05a6735d36b95061b65e9f9f",
+          "bytes": 11949
+        },
+        "coverage": {
+          "pdf_pages": [
+            167
+          ],
+          "printed_pages": [
+            "165"
+          ],
+          "regions": 17,
+          "blocks": 14,
+          "physical_text_rows": 84,
+          "transcript_tokens": 302,
+          "letter_reply_pairs": 0,
+          "signature_fields": 0,
+          "envelope_labels": 0,
+          "circular_placeholder_fields": 0,
+          "name_occurrences": 0,
+          "errata": 2,
+          "correction_pairs": 3,
+          "errata_references": 7,
+          "bulletins": 4,
+          "policy_fields": 10,
+          "contact_fields": 4,
+          "identifier_occurrences": 20,
+          "number_fragments": 27,
+          "prose_joins": 1,
+          "source_connections": 6,
+          "code_units": 0,
+          "figures": 2,
+          "regional_transcripts": 15,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            167
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf167-independent-readers-forum"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-30",
+        "latest_checkpoint": "batch-30",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-30/debugging-bulletin/article-scope.json",
+          "sha256": "7a3cda9d0c65d7002ee19bb5f58955dc135bc59b1c80f3118192da1226c2cc72",
+          "bytes": 502
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-30/validation.json",
+          "sha256": "d0154bed3bf18600f4483011f4366f18147c5973d43ebccc10525b7572b87bfd",
+          "bytes": 5112
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-30/reproduction.json",
+          "sha256": "2974a88ce3b9a708aa50c46f6a5965a118a81c27d34a135e377c65e5cd506638",
+          "bytes": 1977
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,personal/software/errata/policy/contact claims and independent backup recovery remain unverified.",
+          "Combined canonical0023 contains two source errata/four bulletin notices on167 right/printed165. Original contentsPDF11 and canonical TOC still reference105;preserve that conflict and original Batch24 inconclusive record. No source-wide absence or substituted promotion.",
+          "Three original correction pairs/seven page-line references preserve read/real,MaxWind End./_Max-W wrap andwstk/_wstk literally. Correction instructions are prose,not complete executable programs;no other issue or native program is edited.",
+          "First bulletin joins 않/습니다 across columns. Ten policy/media/count/date fields and four contact fields retain all source claims and wraps;copying/shipping rules are historical source content,not a present-day authorization or legal finding.",
+          "Two primary title blocks remain separate printedsource 디버깅 룸 and 게시판;no source byline or separate canonical identities inferred. Unclosed heading parenthesis,정기독자,underscore/quote glyphs,telephone range/extension and names remain unverified literal candidates.",
+          "Shared-page ownership explicit:Readers Forum167 left and Debugging/Bulletin167 right are separate canonical bodies. Eligible original half-page/folio references exclude the other body.",
+          "All48 checkpoint drafts precede one source correction pass;no recognition failures,retries or post-OCR crop repair. Human acceptance/full proofreading and source encoding remain unverified."
+        ]
+      },
+      "source_location_review_history": [
+        {
+          "status": "bounded-search-inconclusive",
+          "record": {
+            "path": "archive/pdf/1988-01/restoration/batch-24/debugging-room-location-review.json",
+            "sha256": "e1c40ad986cbae7dd5dd3e1950f1999d405e59acb52b5933591667e5ca9b44ed",
+            "bytes": 1694
+          },
+          "classification": "unresolved",
+          "classification_evidence": [
+            "Original contentsPDF11 and canonical TOC both give debugging-room/bulletin-board0023 reference105. Source printed105/PDF107 contains the MSX-DOS TOOLS conclusion and a separately titled utility-disk3 promotion;neither is substituted.",
+            "All twelve declared lookup pages11,104–108,144–149 were inspected. Source147/printed145 is a January training calendar;148/146 opens Domestic News. No verified debugging-room/bulletin-board body was located within this bounded set.",
+            "Location remains unresolved. This checkpoint establishes no source-wide absence,no corrected page reference,no inferred body extent,and no failed/image-only article package. Revisit remaining pages during all-page source accounting and any independently justified bounded lookup."
+          ]
+        }
+      ],
+      "source_reference_conflict": {
+        "canonical_reference": "105",
+        "original_contents_reference": "105",
+        "observed_printed_page": "165",
+        "observed_pdf_page": 167,
+        "original_reference_preserved": true
       }
     },
     {
@@ -2645,11 +2744,94 @@
       "toc_entry_id": "maso-1988-01-toc-0029",
       "title": "애독자광장",
       "parent_id": "maso-1988-01-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0029 independently opens printed164/PDF166 with vertical 애독자광장 title,정보레이다 banner and editorial introduction;five letters and five titled editorial replies continue into167 left two columns.",
+        "First letter has original handwritten envelope-layout inset;fourth has boxed example mark. Letter03 crosses166–167;reply01 andreply04 cross columns. Named reader address/signature fields belong to letters;no whole-article byline inferred.",
+        "Final reply05 ends167 left second column. Independent large 디버깅 룸 and 게시판 occupy167 right two columns,excluded from this article. Prior165 completes Classifieds;following168 opens QA. Source pages/folios inspected;no global offset or TOC-derived ending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-30-r01/readers-forum",
+        "article_id": "scan-maso-1988-01-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-30-r01/readers-forum/manifest.json",
+          "sha256": "85bc0832eba36e4d1d8ed8510bc717581cac8bde12f4c4ddfed499e27575bc82",
+          "bytes": 24859
+        },
+        "coverage": {
+          "pdf_pages": [
+            166,
+            167
+          ],
+          "printed_pages": [
+            "164",
+            "165"
+          ],
+          "regions": 38,
+          "blocks": 30,
+          "physical_text_rows": 233,
+          "transcript_tokens": 878,
+          "letter_reply_pairs": 5,
+          "signature_fields": 10,
+          "envelope_labels": 5,
+          "circular_placeholder_fields": 4,
+          "name_occurrences": 11,
+          "errata": 0,
+          "correction_pairs": 0,
+          "errata_references": 0,
+          "bulletins": 0,
+          "policy_fields": 0,
+          "contact_fields": 0,
+          "identifier_occurrences": 10,
+          "number_fragments": 14,
+          "prose_joins": 3,
+          "source_connections": 8,
+          "code_units": 0,
+          "figures": 5,
+          "regional_transcripts": 33,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            166,
+            167
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [
+            "pdf167-independent-debugging-bulletin"
+          ]
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-30",
+        "latest_checkpoint": "batch-30",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-30/readers-forum-r01/article-scope.json",
+          "sha256": "b75cc975544d40f1f15e04d337418e349e15276257a67b55d65df08767476947",
+          "bytes": 523
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-30/validation.json",
+          "sha256": "d0154bed3bf18600f4483011f4366f18147c5973d43ebccc10525b7572b87bfd",
+          "bytes": 5112
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-30/reproduction.json",
+          "sha256": "2974a88ce3b9a708aa50c46f6a5965a118a81c27d34a135e377c65e5cd506638",
+          "bytes": 1977
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,personal/software/errata/policy/contact claims and independent backup recovery remain unverified.",
+          "Five complete reader letters/five titled editorial replies retain five signatures/ten name-address/affiliation fields. Letters remain canonical0029 parts,not additional article identities. No whole-article byline inferred.",
+          "Original envelope inset retains five handwritten labels/three physical rows;boxed example retains unverified 보유판 candidate and original spatial glyphs. Six circular placeholders/four fields remain literal,no actual dates/platform/file names invented.",
+          "Signature문길모 and reply문길호 remain independently printed name candidates. 부평서여중,한국공작기계(주),personal addresses,zero/slash-zero and all original spelling/claims remain unverified;no identity/geography/software repair.",
+          "Three joins preserve reply01필요/하겠읍니다,letter03것입/니다 and reply04생각됩/니다. Letter01 keeps source inset between prose parts;letters/replies remain in source order.",
+          "Shared-page ownership explicit:Readers Forum167 left and Debugging/Bulletin167 right are separate canonical bodies. Eligible original half-page/folio references exclude the other body.",
+          "All48 checkpoint drafts precede one source correction pass;no recognition failures,retries or post-OCR crop repair. Human acceptance/full proofreading and source encoding remain unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0030",
@@ -4260,6 +4442,64 @@
         "sha256": "f80b6e638232c78932c32b36a677ead3e82f20e1d5ebf06b6ab39f7119834dea",
         "bytes": 494
       }
+    },
+    {
+      "name": "batch-30",
+      "completed_at": "2026-10-27T01:03:55.531330+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0029",
+        "maso-1988-01-toc-0023"
+      ],
+      "mapped_pdf_pages": [
+        166,
+        167
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "article_page_assignments": 3,
+      "outside_lookup_pages": 3,
+      "all_inspected_source_pages": 5,
+      "rendered_but_not_inspected_pdf_pages": [
+        169,
+        170,
+        171,
+        172
+      ],
+      "recognition_tasks": 48,
+      "eng_code": 0,
+      "kor_eng_other": 48,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 1,
+      "map_revisions": 1,
+      "post_ocr_crop_repairs": 0,
+      "status": "two-complete-articles",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-30/validation.json",
+        "sha256": "d0154bed3bf18600f4483011f4366f18147c5973d43ebccc10525b7572b87bfd",
+        "bytes": 5112
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-30/reproduction.json",
+        "sha256": "2974a88ce3b9a708aa50c46f6a5965a118a81c27d34a135e377c65e5cd506638",
+        "bytes": 1977
+      },
+      "checkpoint_amendment": {
+        "path": "archive/pdf/1988-01/restoration/batch-30/checkpoint-amendment.json",
+        "sha256": "aa3515e553c29996a4b574c6d2b5f98c3f25cff274b0702c387ba8d07f7bcc90",
+        "bytes": 1015
+      },
+      "source_location_found": {
+        "path": "archive/pdf/1988-01/restoration/batch-30/debugging-room-location-found.json",
+        "sha256": "0a3b3006c1533ecb9894cf3e7347d3c64c557717db776ff6a9f34257a4239797",
+        "bytes": 3517
+      },
+      "english_metadata_refinement": {
+        "path": "archive/pdf/1988-01/restoration/batch-30/english-metadata-refinement.json",
+        "sha256": "099ac63c77ca0b575ddc78eae4d278455d36460b3f21446228a27dab9783eae7",
+        "bytes": 819
+      }
     }
   ],
   "notes": [
@@ -4268,26 +4508,28 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent and restore canonical0029 Readers Forum from original contents reference164/known openingPDF166. Inspect actual ending and adjacent title;at most six verified body pages. Preserve reader letters,editorial replies,headings,bylines/personal and address fields,original inset/illustrations and physical wraps/source claims. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
+    "goal": "Verify actual extent and restore canonical0030 QA from original contents reference166/known openingPDF168. Inspect actual ending,continuations and adjacent title;at most six verified body pages. Preserve questions/answers,source hardware/software/code/commands,personal/address fields,illustrations and physical wraps. If longer than six pages,retain bounded immutable native segments then assemble separately;do not mark a segment complete. No global folio offset or TOC-derived ending.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0029"
+      "maso-1988-01-toc-0030"
     ],
-    "canonical_reference": "164",
-    "known_start_pdf_page": 166,
+    "canonical_reference": "166",
+    "known_start_pdf_page": 168,
     "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-29/source-reviewed.json",
-      "sha256": "1330e3e5609e2fd9ce3654f5afa2fdfc28ce78d78351c8ef2f5ce7ceb356e35d",
-      "bytes": 1422
+      "path": "archive/pdf/1988-01/restoration/batch-30/source-reviewed.json",
+      "sha256": "d64cf89e5a735200852dd4bab7fd8c0a7f670b589b57c6f360af347f03df003b",
+      "bytes": 3773
     },
     "lookup_pdf_page_candidates": [
-      165,
-      166,
       167,
       168,
       169,
       170,
       171,
-      172
+      172,
+      173,
+      174,
+      175,
+      176
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -4296,16 +4538,16 @@
     }
   },
   "remaining_work": [
-    "26 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
+    "24 canonical identities still need source classification/restoration. Former0023 debugging-room location gap resolved on printed165/PDF167 right in Batch30;original reference105 and prior inconclusive record retained. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 21,
+    "readable": 23,
     "partial": 0,
     "non_owning_headings": 4,
-    "unresolved": 26
+    "unresolved": 24
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-29/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-30/preservation-inventory.json"
 }

@@ -6,57 +6,56 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active: 51 canonical identities, twenty-one readable/sample-reviewed
-articles, four non-owning headings and 26 unresolved identities. No classified
+January 1988 is active: 51 canonical identities, twenty-three readable/sample-reviewed
+articles, four non-owning headings and 24 unresolved identities. No classified
 article has deferred body pages or a pending complete article assembly.
 
-Batch 29 completes 0028, 복덕방, on printed161–163/PDF163–165. Selected package:
-`archive/pdf/1988-01/packages/batch-29-r01/classifieds`. All317 files/19,580,371 bytes
-match the independent rebuild. Eighty-four regions,seventy blocks/seventy-five
-transcripts and nine original eligible images retain37 square-marked notices,
-five equipment categories,thirteen action headings and an editorial price guide.
-All37 inventory descriptions remain prose. Thirty-seven names,thirty phones and
-29 addresses retain96 contact fields;seven notices have no printed phone field
-and eight no printed address field within their verified notice. No contacts added.
-Thirty-nine notice price expressions,22 price/trade qualifications and fifteen
-guide prices remain literal. All37 square markers,thirty phone markers,29 subitem
-markers and ten guide bullets are source-linked. Five continuations and38 source
-connections retain inventory/contact/guide associations,including cross-page
-address,split 인사/급여관리 and the MSX double-drive price in the next column.
+Batch 30 completes0029,애독자광장,on printed164–165/PDF166–167 left and recovers
+formerly unlocated0023,디버깅 룸·게시판,on printed165/PDF167 right. Selected packages:
+`archive/pdf/1988-01/packages/batch-30-r01/readers-forum`(145 files/14,128,622 bytes)
+and `archive/pdf/1988-01/packages/batch-30-r01/debugging-bulletin`(70 files/4,870,032
+bytes). Both match independent rebuilds:215 files/18,998,654 bytes total. Fifty-five
+regions,44 blocks,48 transcripts and seven original images pass source checks.
+Readers Forum retains five complete letters/five editorial replies,ten signature
+fields,five handwritten-envelope labels,original envelope/boxed-mark images,
+four circular-placeholder fields and three column/page joins. Signature문길모 and
+reply문길호 stay independent printed candidates;no name harmonization or placeholder
+values filled. Original spatial보유판 mark and handwritten shapes remain pixels.
 
-Actual final165 completes the last wanted notice/contact/address;166 independently
-opens Readers Forum. Prior162 is a full Brother/Miseong ad page. Two embedded
-Kukdong ads on164/165 are excluded. Full mixed pages stay in private source-review;
-exported originals comprise the complete guide,one eligible full page and seven
-eligible mixed-page fragments/folios. No invented captions or executable listings.
-One task/three mapped/two outside lookups meet limits;167–169 rendered only.
-No source byline,global folio offset or next-TOC-derived ending inferred.
+Debugging/Bulletin retains two errata,three source correction pairs,seven page/line
+references,four bulletin notices,ten policy/media/count/date fields,four venue/
+phone/extension fields and one column join. Quoted read/real,MaxWind End./_Max-W
+wrap andwstk/_wstk remain literal prose instructions;no executable program inferred
+or any other package changed. Unclosed heading parenthesis,정기독자 source spelling,
+underscore/quote/roman glyphs,telephone range/extension and physical wraps retained.
+The shared page has explicit ownership exclusions in both maps;only common folio
+context overlaps. Five Readers Forum originals and two Debugging/Bulletin originals
+retain the eligible body/insets/folio without the other canonical body.
 
-All84 crops reviewed before75 pinned kor+eng recognitions;all drafts read before
-one direct source correction pass. Zero recognition failures,retries or post-OCR
-repairs. Vertical title,damaged markers/models/names/guide-unit fields use direct
-source fallback. Two initial mapping preparations fail schema/advertisement-overlap
-checks before any map/crop output;selected prepare-map-r02 uses valid exclusions
-and eligible fragment references. Metadata preparation initially undercounts
-subitem markers;selected prepare-reviewed-r01 records29 and bounds price matching
-so2만원 does not select a suffix of12만원. All failed scripts/records remain;
-no source transcription or OCR/source-pass repeat for these fixes.
+The original contentsPDF11 visibly prints105 for0023,as does canonical TOC. Actual
+large 디버깅 룸 and 게시판 headings and source folio165 independently locate its
+body atPDF167 right. No reference rewrite or unrelated disk3-promotion substitution.
+Batch24's original twelve-page inconclusive review remains byte-exact in location
+history;new evidence is `batch-30/debugging-room-location-found.json`. Thus0023 is
+readable with a retained source-reference conflict,not an unresolved location gap.
+Source165 completes Classifieds;168 independently opens QA. Original single-task
+checkpoint amended before mapping/OCR to add newly located0023 within two-task
+limit. Two distinct mapped pages/three article-page assignments/three outside
+lookups(11,165,168) meet limits;169–172 rendered only. No global folio offset or
+next-TOC-derived ending inferred;no whole-article byline invented.
 
-All2,847 local UTF-8 ranges,2,954 pin occurrences,84 decoded images/crop pixels,
-91 identifier occurrences,256 number fragments,355 physical rows and1,064 tokens
-pass. All22,726 prior January files,134 pilot files and thirty core pins remain
-exact. The unchanged213-test passing baseline is reused;no fresh test run claimed.
-PrintedFWITSU,NIDECO,NH12D9,apostrophe0.5MX2,STARTR24f,DPP144A/CPP1200,TL/1,
-MBASE,dBASEⅡ,샘카드,dysan,머킹보드,교환기능,8MHZ,unmatched parenthesis,
-6만행 unit candidate,repeated 싱글 and all physical wraps remain unrepaired.
-Faint personal-name/address/phone glyph candidates remain explicit and unverified.
-Human acceptance/full proofreading,encoded bytes/glyphs/exact spaces,personal/device/
-commercial claims,prices/contacts and independent backup recovery remain unverified.
+All55 selected crops reviewed before48 pinned kor+eng recognitions;all drafts read
+before one direct source pass. One envelope-frame expansion precedes OCR;initial/
+selected maps and all crops retained. Zero recognition failures,retries or post-OCR
+repairs. Vertical title,handwriting,boxed mark,names and damaged punctuation use
+localized direct-source fallback. One assistant recipe sentence refined to English
+in fresh Debugging/Bulletin package-recipe-r01;original recipe retained,source text
+unchanged. All1,941 UTF-8 ranges,2,015 pin occurrences,55 decoded images/crop pixels,
+317 physical rows and1,180 tokens pass. All23,980 prior January files,134 pilot files
+and thirty core pins remain exact. Existing213-test passing baseline reused,no
+fresh run. Human acceptance/full proofreading,encoded bytes/glyphs/exact spaces,
+personal/software/errata/policy/contact claims and backup recovery unverified.
 
-Debugging-room0023 remains unlocated after Batch24's twelve-page bounded review.
-Both original contents and canonical TOC print105,while actual105/PDF107 contains
-MSX-DOS TOOLS and an independent disk3 promotion. No substitute article,corrected
-page or source-wide absence inferred. Retain this gap for all-page accounting.
 Earlier articles and all four heading decisions stand. Keep
 `batch-21/legacy_input_r01.py`/`legacy-toc-input-v1` with exact legacy context,old
 TOC pin,all52 historical data files/all55 originals and current-identity guard.
@@ -64,17 +63,19 @@ Also retain `batch-18/magic_literal_r02.py`/`magic-key-literal-v1` and
 `batch-15/ram_literal_r01.py`/`ram-removal-literal-v1` for issue dispatch;immutable
 natives and historical stage notes remain.
 
-Next verify 0029, 애독자광장, from printed164/known opening PDF166. Inspect actual
-extent and adjacent titles within two tasks/six mapped pages/twenty outside lookups;
-PDF165–172 are lookup candidates only. Preserve letters/editorial replies,headings,
-personal/address fields,original inset/illustrations and physical wraps/source
-claims. The26 unresolved identities,all-page accounting,donated cover,standalone
-JSON/assets issue export and final audit remain. No reader rebuild or deployment.
+Next verify0030,QA,from printed166/known openingPDF168. Inspect actual ending,
+continuations and adjacent title within two tasks/six mapped pages/twenty outside
+lookups;PDF167–176 are lookup candidates only. Preserve questions/answers,source
+hardware/software/code/commands,personal/address fields,original illustrations and
+wraps. If longer than six pages,restore bounded immutable segments then assemble
+separately;do not mark a segment complete. The24 unresolved identities,all-page
+accounting,donated cover,standalone JSON/assets export and final audit remain.
+No reader rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-29/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-29/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-30/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-30/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
