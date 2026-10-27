@@ -57,7 +57,8 @@
         "Direct source title and visible folio178 establish the opening at PDF178; initial PDF180 candidate is an observed continuation, not a global folio offset.",
         "Current native restores only PDF/printed178–183. Page182 retains the article left column and excludes the independent right RAM-disk advertisement. Figure1–7 comparisons, Figure8 patch and List1 opening are retained.",
         "Boundary review reaches final hex dump/BASIC listing205 before independently titled printer/font-editor206. This is an envelope178–205;188–203 remain uninspected,184–205 deferred, and complete-article assembly pending.",
-        "Batch50directly restores continuation184–189,all1044printed List1rows167–1210,with twelve code columns/nine source furniture labels/eighteen originals. Exact opening178–183is immutable. Outside190continues1211and is now inspected;191–203remain uninspected,190–205deferred and complete assembly pending. No new standalone article or caption is inferred."
+        "Batch50directly restores continuation184–189,all1044printed List1rows167–1210,with twelve code columns/nine source furniture labels/eighteen originals. Exact opening178–183is immutable. Outside190continues1211and is now inspected;191–203remain uninspected,190–205deferred and complete assembly pending. No new standalone article or caption is inferred.",
+        "Batch 51 restores continuation 190–195, all 1,044 printed List 1 rows 1211–2254, with twelve code columns, nine furniture labels and eighteen originals. Prior natives 178–189 remain immutable. Outside 196 begins 2255 and is now inspected; 197–203 remain uninspected, 196–205 deferred and complete assembly pending. No new article, caption or byline inferred."
       ],
       "restoration": {
         "directory": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a",
@@ -80,7 +81,13 @@
             186,
             187,
             188,
-            189
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
           ],
           "printed_pages": [
             "178",
@@ -94,23 +101,23 @@
             "186",
             "187",
             "188",
-            "189"
+            "189",
+            "190",
+            "191",
+            "192",
+            "193",
+            "194",
+            "195"
           ],
-          "regions": 113,
-          "blocks": 79,
-          "figures": 34,
+          "regions": 152,
+          "blocks": 100,
+          "figures": 52,
           "boundary_verified_pdf_envelope": [
             178,
             205
           ],
           "full_article_continuity_verified": false,
           "deferred_pdf_pages": [
-            190,
-            191,
-            192,
-            193,
-            194,
-            195,
             196,
             197,
             198,
@@ -123,12 +130,6 @@
             205
           ],
           "uninspected_interior_pdf_pages": [
-            191,
-            192,
-            193,
-            194,
-            195,
-            196,
             197,
             198,
             199,
@@ -140,7 +141,8 @@
           "excluded_region_ids": [
             "pdf182-ramdisk-advertisement"
           ],
-          "restored_body_pages_across_two_natives": [
+          "combined_scope_not_single_directory_coverage": true,
+          "restored_body_pages_across_three_natives": [
             178,
             179,
             180,
@@ -152,9 +154,14 @@
             186,
             187,
             188,
-            189
-          ],
-          "combined_scope_not_single_directory_coverage": true
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ]
         },
         "directory_is_opening_native_only": true,
         "body_pages_complete": false,
@@ -383,6 +390,146 @@
               "recognition_retries": 0
             },
             "coverage_is_original_native_provenance": true
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1988-01/packages/batch-51/central-hangul-editor-c-r01",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-51/central-hangul-editor-c-r01/manifest.json",
+              "sha256": "5cb52712abe872586d4b900297fddd922646bada92357b76161aac924033fe82",
+              "bytes": 18381
+            },
+            "coverage": {
+              "current_pdf_pages": [
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+              ],
+              "current_printed_pages": [
+                "190",
+                "191",
+                "192",
+                "193",
+                "194",
+                "195"
+              ],
+              "original_contents_reference": "178",
+              "boundary_verified_pdf_envelope": [
+                178,
+                205
+              ],
+              "full_article_continuity_verified": false,
+              "prior_preserved_pdf_pages": [
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189
+              ],
+              "restored_body_pages_across_three_natives": [
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+              ],
+              "uninspected_interior_pdf_pages": [
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203
+              ],
+              "deferred_pdf_pages": [
+                196,
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203,
+                204,
+                205
+              ],
+              "current_native_eligible_pages_complete": true,
+              "body_pages_complete": false,
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "excluded_region_ids": [],
+              "printed_caption_present": false,
+              "printed_byline_present": false,
+              "all_current_printed_rows_transcribed": true,
+              "printed_listing_ordinals": [
+                1211,
+                2254
+              ],
+              "numbered_blank_rows": 42
+            },
+            "metrics": {
+              "regions": 39,
+              "blocks": 21,
+              "original_images": 18,
+              "code_units": 12,
+              "nonempty_serialized_lines": 1053,
+              "tokens": 3587,
+              "code_tokens": 3569,
+              "printed_listing_rows": 1044,
+              "printed_ordinals": [
+                1211,
+                2254
+              ],
+              "numbered_blank_rows": 42,
+              "source_comments": 132,
+              "quote_character_occurrences": 0,
+              "unmeasured_space_runs": 1004,
+              "hex_fields": 0,
+              "da_fields": 0,
+              "asc_fields": 0,
+              "control_jump_table_rows": 0,
+              "conversion_sections": 0,
+              "spatial_glyph_rows": 0,
+              "internal_listing_continuations": 11,
+              "prose_joins": 0,
+              "source_mark_placeholders": 41,
+              "arrow_annotations": 36,
+              "screen_row_transfers": 18,
+              "star_annotation_rows": 24,
+              "printed_captions": 0,
+              "source_headings": 9,
+              "local_range_occurrences": 13772,
+              "source_correction_passes": 1,
+              "recognition_tasks": 21,
+              "eng_code": 12,
+              "kor_eng_other": 9,
+              "recognition_retries": 0
+            },
+            "coverage_is_original_native_provenance": true
           }
         ],
         "source_scope": {
@@ -391,9 +538,9 @@
           "bytes": 1065
         },
         "latest_source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-50/central-hangul-editor-b/article-scope.json",
-          "sha256": "a231d743d21c046396349c546a526818a7cccebb9e57d50ce1f99f8213609749",
-          "bytes": 1302
+          "path": "archive/pdf/1988-01/restoration/batch-51/central-hangul-editor-c/article-scope.json",
+          "sha256": "3f41dc4ce4e61ac7bdf0260c542d10a96d6b792dc1d3fb0fc7015e5a23d945e3",
+          "bytes": 1303
         },
         "validation": {
           "path": "archive/pdf/1988-01/restoration/batch-49/validation.json",
@@ -401,9 +548,9 @@
           "bytes": 2792
         },
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-50/validation.json",
-          "sha256": "e0333f95c20a7800cbbd2758d4a75158f4c36a2855eac700492493d307c142f8",
-          "bytes": 2724
+          "path": "archive/pdf/1988-01/restoration/batch-51/validation.json",
+          "sha256": "9b39116d81fae8eac6a3243d7a9c936116b8ec56e76f20ea52a458ba45b0443c",
+          "bytes": 2827
         },
         "reproduction": {
           "path": "archive/pdf/1988-01/restoration/batch-49/reproduction.json",
@@ -411,9 +558,9 @@
           "bytes": 2578
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-50/reproduction.json",
-          "sha256": "fff1ac18f1d4d7a79b82a1c217eb2d2c098d3568a4537fa4b89db5dc8c51b3d0",
-          "bytes": 2854
+          "path": "archive/pdf/1988-01/restoration/batch-51/reproduction.json",
+          "sha256": "070eb09026892f9b410230d18d2ccc82684376b514b06dda652ac756cb464e5c",
+          "bytes": 2860
         },
         "metrics": {
           "regions": 74,
@@ -445,24 +592,24 @@
           "recognition_retries": 0
         },
         "combined_segment_metrics": {
-          "regions": 113,
-          "blocks": 79,
-          "original_images": 34,
-          "code_units": 21,
-          "nonempty_serialized_lines": 1853,
-          "tokens": 6468,
-          "code_tokens": 4612,
-          "main_listing_rows": 1210,
-          "numbered_blank_rows": 99,
-          "source_mark_placeholders": 70,
+          "regions": 152,
+          "blocks": 100,
+          "original_images": 52,
+          "code_units": 33,
+          "nonempty_serialized_lines": 2906,
+          "tokens": 10055,
+          "code_tokens": 8181,
+          "main_listing_rows": 2254,
+          "numbered_blank_rows": 141,
+          "source_mark_placeholders": 111,
           "code_comparison_parts": 12,
           "patch_rows": 3,
           "patch_cells": 27,
           "printed_captions": 9,
-          "recognition_tasks": 79,
-          "eng_code": 21,
-          "kor_eng_other": 58,
-          "source_correction_passes": 2,
+          "recognition_tasks": 100,
+          "eng_code": 33,
+          "kor_eng_other": 67,
+          "source_correction_passes": 3,
           "recognition_retries": 0,
           "native_metrics": [
             {
@@ -528,6 +675,47 @@
                 "printed_captions": 0,
                 "source_headings": 9,
                 "local_range_occurrences": 13293,
+                "source_correction_passes": 1,
+                "recognition_tasks": 21,
+                "eng_code": 12,
+                "kor_eng_other": 9,
+                "recognition_retries": 0
+              }
+            },
+            {
+              "segment": "c",
+              "metrics": {
+                "regions": 39,
+                "blocks": 21,
+                "original_images": 18,
+                "code_units": 12,
+                "nonempty_serialized_lines": 1053,
+                "tokens": 3587,
+                "code_tokens": 3569,
+                "printed_listing_rows": 1044,
+                "printed_ordinals": [
+                  1211,
+                  2254
+                ],
+                "numbered_blank_rows": 42,
+                "source_comments": 132,
+                "quote_character_occurrences": 0,
+                "unmeasured_space_runs": 1004,
+                "hex_fields": 0,
+                "da_fields": 0,
+                "asc_fields": 0,
+                "control_jump_table_rows": 0,
+                "conversion_sections": 0,
+                "spatial_glyph_rows": 0,
+                "internal_listing_continuations": 11,
+                "prose_joins": 0,
+                "source_mark_placeholders": 41,
+                "arrow_annotations": 36,
+                "screen_row_transfers": 18,
+                "star_annotation_rows": 24,
+                "printed_captions": 0,
+                "source_headings": 9,
+                "local_range_occurrences": 13772,
                 "source_correction_passes": 1,
                 "recognition_tasks": 21,
                 "eng_code": 12,
@@ -815,42 +1003,45 @@
             "All74 initial crops inspected, then eight fresh geometry revisions inspected before58 pinned recognitions. All58 raws read before one direct source pass. Two nearest-neighbor source views clarify Figure6. All58 transcripts retained; two fresh explanatory-record revisions correct counts without changing source text. Zero recognition retries or post-OCR crop repairs."
           ]
         },
-        "latest_native_directory": "archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b",
+        "latest_native_directory": "archive/pdf/1988-01/packages/batch-51/central-hangul-editor-c-r01",
         "latest_native_manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b/manifest.json",
-          "sha256": "23598551a53b1ebb483ac9f45ac037cd3161e252ea1f3c51e68b062d9b75a6fc",
+          "path": "archive/pdf/1988-01/packages/batch-51/central-hangul-editor-c-r01/manifest.json",
+          "sha256": "5cb52712abe872586d4b900297fddd922646bada92357b76161aac924033fe82",
           "bytes": 18381
         },
-        "latest_checkpoint": "batch-50",
+        "latest_checkpoint": "batch-51",
         "latest_native_metrics": {
           "regions": 39,
           "blocks": 21,
           "original_images": 18,
           "code_units": 12,
           "nonempty_serialized_lines": 1053,
-          "tokens": 3297,
-          "code_tokens": 3279,
+          "tokens": 3587,
+          "code_tokens": 3569,
           "printed_listing_rows": 1044,
           "printed_ordinals": [
-            167,
-            1210
+            1211,
+            2254
           ],
-          "numbered_blank_rows": 80,
-          "source_comments": 119,
-          "quote_character_occurrences": 12,
-          "unmeasured_space_runs": 903,
-          "hex_fields": 36,
-          "da_fields": 33,
-          "asc_fields": 3,
-          "control_jump_table_rows": 26,
-          "conversion_sections": 4,
-          "spatial_glyph_rows": 7,
+          "numbered_blank_rows": 42,
+          "source_comments": 132,
+          "quote_character_occurrences": 0,
+          "unmeasured_space_runs": 1004,
+          "hex_fields": 0,
+          "da_fields": 0,
+          "asc_fields": 0,
+          "control_jump_table_rows": 0,
+          "conversion_sections": 0,
+          "spatial_glyph_rows": 0,
           "internal_listing_continuations": 11,
           "prose_joins": 0,
-          "source_mark_placeholders": 24,
+          "source_mark_placeholders": 41,
+          "arrow_annotations": 36,
+          "screen_row_transfers": 18,
+          "star_annotation_rows": 24,
           "printed_captions": 0,
           "source_headings": 9,
-          "local_range_occurrences": 13293,
+          "local_range_occurrences": 13772,
           "source_correction_passes": 1,
           "recognition_tasks": 21,
           "eng_code": 12,
@@ -860,13 +1051,822 @@
         "source_limits_are_original_opening_provenance": true,
         "latest_source_limits": [
           "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,source claims and program execution remain unverified.",
-          "Continuation0002only PDF/printed184–189. Immutable opening178–183remains exact. Current six pages are all eligible two-column listing pages,no ad/exclusion or extra rotation. Running title/category/platform are furniture;no new caption/byline invented.",
-          "Twelve code columns retain1044printed rows167–1210,including80numbered blanks. Eleven internal column/page continuation links preserve fresh physical rows;incoming183/184166→167and outgoing189/1901210→1211remain separate native-boundary records. No prose or code-row joins.",
-          "All36HEXfields,33DAfields,three ASCquoted fields,26control-table rows,Korean comments and explicit quote/space occurrences remain literal. Four source conversion sections retain printed labels without reconstructing bytes or glyph tables. Seven spatial glyph comments and two quoted blank runs retain unknown source counts. Source EDRA/EDEA and O/0/I/1 candidates remain independent.",
-          "Twenty-four descriptive placeholders retain seven spatial glyph rows,two quoted space runs,three boxed return glyphs,four decorative bands,seven arrow graphics and one small source mark. Exact source images and six nearest auxiliary views preserve geometry. No expected byte,syntax,opcode,address,ordinal,alphabetic or claim completion/execution.",
-          "Boundary envelope178–205is not a claim of inspected continuous article coverage. Outside190is now inspected;191–203remain uninspected. Deferred190–205and separate complete article assembly remain. Parent0001non-owning classification from49is unchanged.",
-          "All39initial exact crops reviewed,nine headers/twelve code-original pairs/six pixel-identical reviewed page frames;four fresh wider188/189right crops reviewed before21recognitions. All21raws read before one source pass. Six auxiliary nearest views preserve difficult glyph/quote/label evidence. Initial recorder wrote one header then failed on an old raw-directory literal;failed script/helper/partial file retained,fresh helper/transcript paths selected. Zero OCR retries/post-OCR crop repairs."
-        ]
+          "Continuation0002only PDF/printed190–195. Immutable prior178–189natives remain exact. All six current pages are eligible two-column listing pages,no ad/exclusion or extra rotation. Running title/category/platform are furniture;no new caption/byline invented.",
+          "Twelve code columns retain1044printed rows1211–2254,including42numbered blanks. Eleven internal continuation links preserve fresh physical rows;incoming189/1901210→1211and outgoing195/1962254→2255remain separate native-boundary records. No prose or code-row joins.",
+          "Every printed comment/physical wrap/identifier/operand/numeric fragment remains literal.132semicolon comments,18independent screen-row transfer annotations,36arrow annotations and printed star-comment lines retain source occurrences. No HEX/DA/ASCfields or ASCII quote characters appear in current source reading. Source formulae/ranges/scroll ordinals are not evaluated or normalized.",
+          "Forty-one descriptive placeholders retain17left arrows,19right arrows,three boxed return glyphs and two small source marks. Original column/full-page images and seven auxiliary display views retain source geometry. All dash/angle/boxed glyph counts and encoded identities remain unverified. Auxiliary wrong-target/clipped attempts retained.",
+          "Boundary envelope178–205is not a claim of inspected continuous article coverage. Outside196is now inspected;197–203remain uninspected. Deferred196–205and separate complete article assembly remain. Parent0001non-owning classification/canonical title,parent,reference178unchanged.",
+          "All39initial exact crops and four selected geometry repairs reviewed before21recognitions. All21raw drafts read before one continuing source correction pass. Seven display-only nearest-neighbor auxiliary views retained,including initial wrong-target/clipped attempts;no new mapping or OCR. Zero OCR retries/post-OCR crop repairs. All source readings frozen in21regional transcripts."
+        ],
+        "prior_batch50_restoration_provenance": {
+          "directory": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a",
+          "article_id": "scan-maso-1988-01-toc-0002",
+          "manifest": {
+            "path": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a/manifest.json",
+            "sha256": "2e17dc73ad1777c57847ea5fe0332436a9baafff3eb1d4d612b8dfc462ff9567",
+            "bytes": 42287
+          },
+          "coverage": {
+            "pdf_pages": [
+              178,
+              179,
+              180,
+              181,
+              182,
+              183,
+              184,
+              185,
+              186,
+              187,
+              188,
+              189
+            ],
+            "printed_pages": [
+              "178",
+              "179",
+              "180",
+              "181",
+              "182",
+              "183",
+              "184",
+              "185",
+              "186",
+              "187",
+              "188",
+              "189"
+            ],
+            "regions": 113,
+            "blocks": 79,
+            "figures": 34,
+            "boundary_verified_pdf_envelope": [
+              178,
+              205
+            ],
+            "full_article_continuity_verified": false,
+            "deferred_pdf_pages": [
+              190,
+              191,
+              192,
+              193,
+              194,
+              195,
+              196,
+              197,
+              198,
+              199,
+              200,
+              201,
+              202,
+              203,
+              204,
+              205
+            ],
+            "uninspected_interior_pdf_pages": [
+              191,
+              192,
+              193,
+              194,
+              195,
+              196,
+              197,
+              198,
+              199,
+              200,
+              201,
+              202,
+              203
+            ],
+            "excluded_region_ids": [
+              "pdf182-ramdisk-advertisement"
+            ],
+            "restored_body_pages_across_two_natives": [
+              178,
+              179,
+              180,
+              181,
+              182,
+              183,
+              184,
+              185,
+              186,
+              187,
+              188,
+              189
+            ],
+            "combined_scope_not_single_directory_coverage": true
+          },
+          "directory_is_opening_native_only": true,
+          "body_pages_complete": false,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "checkpoint": "batch-49",
+          "segments": [
+            {
+              "name": "a",
+              "directory": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a",
+              "manifest": {
+                "path": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a/manifest.json",
+                "sha256": "2e17dc73ad1777c57847ea5fe0332436a9baafff3eb1d4d612b8dfc462ff9567",
+                "bytes": 42287
+              },
+              "coverage": {
+                "current_pdf_pages": [
+                  178,
+                  179,
+                  180,
+                  181,
+                  182,
+                  183
+                ],
+                "current_printed_pages": [
+                  "178",
+                  "179",
+                  "180",
+                  "181",
+                  "182",
+                  "183"
+                ],
+                "original_contents_reference": "178",
+                "boundary_verified_pdf_envelope": [
+                  178,
+                  205
+                ],
+                "full_article_continuity_verified": false,
+                "uninspected_interior_pdf_pages": [
+                  188,
+                  189,
+                  190,
+                  191,
+                  192,
+                  193,
+                  194,
+                  195,
+                  196,
+                  197,
+                  198,
+                  199,
+                  200,
+                  201,
+                  202,
+                  203
+                ],
+                "deferred_pdf_pages": [
+                  184,
+                  185,
+                  186,
+                  187,
+                  188,
+                  189,
+                  190,
+                  191,
+                  192,
+                  193,
+                  194,
+                  195,
+                  196,
+                  197,
+                  198,
+                  199,
+                  200,
+                  201,
+                  202,
+                  203,
+                  204,
+                  205
+                ],
+                "current_native_eligible_pages_complete": true,
+                "body_pages_complete": false,
+                "assembly_required": true,
+                "complete_article_assembly_pending": true,
+                "excluded_region_ids": [
+                  "pdf182-ramdisk-advertisement"
+                ],
+                "source_title_spacing_independent": true,
+                "parent_heading_decision_pending_checkpoint": true
+              },
+              "coverage_is_original_native_provenance": true
+            },
+            {
+              "name": "b",
+              "directory": "archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b",
+              "manifest": {
+                "path": "archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b/manifest.json",
+                "sha256": "23598551a53b1ebb483ac9f45ac037cd3161e252ea1f3c51e68b062d9b75a6fc",
+                "bytes": 18381
+              },
+              "coverage": {
+                "current_pdf_pages": [
+                  184,
+                  185,
+                  186,
+                  187,
+                  188,
+                  189
+                ],
+                "current_printed_pages": [
+                  "184",
+                  "185",
+                  "186",
+                  "187",
+                  "188",
+                  "189"
+                ],
+                "original_contents_reference": "178",
+                "boundary_verified_pdf_envelope": [
+                  178,
+                  205
+                ],
+                "full_article_continuity_verified": false,
+                "opening_preserved_pdf_pages": [
+                  178,
+                  179,
+                  180,
+                  181,
+                  182,
+                  183
+                ],
+                "restored_body_pages_across_two_natives": [
+                  178,
+                  179,
+                  180,
+                  181,
+                  182,
+                  183,
+                  184,
+                  185,
+                  186,
+                  187,
+                  188,
+                  189
+                ],
+                "uninspected_interior_pdf_pages": [
+                  191,
+                  192,
+                  193,
+                  194,
+                  195,
+                  196,
+                  197,
+                  198,
+                  199,
+                  200,
+                  201,
+                  202,
+                  203
+                ],
+                "deferred_pdf_pages": [
+                  190,
+                  191,
+                  192,
+                  193,
+                  194,
+                  195,
+                  196,
+                  197,
+                  198,
+                  199,
+                  200,
+                  201,
+                  202,
+                  203,
+                  204,
+                  205
+                ],
+                "current_native_eligible_pages_complete": true,
+                "body_pages_complete": false,
+                "assembly_required": true,
+                "complete_article_assembly_pending": true,
+                "excluded_region_ids": [],
+                "printed_caption_present": false,
+                "printed_byline_present": false,
+                "all_current_printed_rows_transcribed": true,
+                "printed_listing_ordinals": [
+                  167,
+                  1210
+                ],
+                "numbered_blank_rows": 80
+              },
+              "metrics": {
+                "regions": 39,
+                "blocks": 21,
+                "original_images": 18,
+                "code_units": 12,
+                "nonempty_serialized_lines": 1053,
+                "tokens": 3297,
+                "code_tokens": 3279,
+                "printed_listing_rows": 1044,
+                "printed_ordinals": [
+                  167,
+                  1210
+                ],
+                "numbered_blank_rows": 80,
+                "source_comments": 119,
+                "quote_character_occurrences": 12,
+                "unmeasured_space_runs": 903,
+                "hex_fields": 36,
+                "da_fields": 33,
+                "asc_fields": 3,
+                "control_jump_table_rows": 26,
+                "conversion_sections": 4,
+                "spatial_glyph_rows": 7,
+                "internal_listing_continuations": 11,
+                "prose_joins": 0,
+                "source_mark_placeholders": 24,
+                "printed_captions": 0,
+                "source_headings": 9,
+                "local_range_occurrences": 13293,
+                "source_correction_passes": 1,
+                "recognition_tasks": 21,
+                "eng_code": 12,
+                "kor_eng_other": 9,
+                "recognition_retries": 0
+              },
+              "coverage_is_original_native_provenance": true
+            }
+          ],
+          "source_scope": {
+            "path": "archive/pdf/1988-01/restoration/batch-49/central-hangul-editor-a/article-scope.json",
+            "sha256": "033e084ed8cc5bd0c46bb10706d2525747ca8e84ca990a54ff3eccb9fa88a3c6",
+            "bytes": 1065
+          },
+          "latest_source_scope": {
+            "path": "archive/pdf/1988-01/restoration/batch-50/central-hangul-editor-b/article-scope.json",
+            "sha256": "a231d743d21c046396349c546a526818a7cccebb9e57d50ce1f99f8213609749",
+            "bytes": 1302
+          },
+          "validation": {
+            "path": "archive/pdf/1988-01/restoration/batch-49/validation.json",
+            "sha256": "a923043c2c064e9071555b7d3e8380a8b1b6ecb468ab0225484d6fe2e6e775a7",
+            "bytes": 2792
+          },
+          "latest_validation": {
+            "path": "archive/pdf/1988-01/restoration/batch-50/validation.json",
+            "sha256": "e0333f95c20a7800cbbd2758d4a75158f4c36a2855eac700492493d307c142f8",
+            "bytes": 2724
+          },
+          "reproduction": {
+            "path": "archive/pdf/1988-01/restoration/batch-49/reproduction.json",
+            "sha256": "0771802cf2a6e0be1f15b59268f35eb65e6ba14baa7b525c125d98ccdfcf51a5",
+            "bytes": 2578
+          },
+          "latest_reproduction": {
+            "path": "archive/pdf/1988-01/restoration/batch-50/reproduction.json",
+            "sha256": "fff1ac18f1d4d7a79b82a1c217eb2d2c098d3568a4537fa4b89db5dc8c51b3d0",
+            "bytes": 2854
+          },
+          "metrics": {
+            "regions": 74,
+            "blocks": 58,
+            "original_images": 16,
+            "code_units": 9,
+            "code_comparison_parts": 12,
+            "printed_captions": 9,
+            "caption_image_links": 10,
+            "nonempty_serialized_lines": 800,
+            "tokens": 3171,
+            "code_tokens": 1333,
+            "code_serialized_rows": 440,
+            "main_listing_rows": 166,
+            "numbered_blank_rows": 19,
+            "source_comments": 79,
+            "quoted_field_candidates": 7,
+            "unmeasured_space_runs": 425,
+            "source_prose_continuations": 11,
+            "prose_joins": 0,
+            "patch_rows": 3,
+            "patch_cells": 27,
+            "source_mark_placeholders": 46,
+            "local_range_occurrences": 8165,
+            "source_correction_passes": 1,
+            "recognition_tasks": 58,
+            "eng_code": 9,
+            "kor_eng_other": 49,
+            "recognition_retries": 0
+          },
+          "combined_segment_metrics": {
+            "regions": 113,
+            "blocks": 79,
+            "original_images": 34,
+            "code_units": 21,
+            "nonempty_serialized_lines": 1853,
+            "tokens": 6468,
+            "code_tokens": 4612,
+            "main_listing_rows": 1210,
+            "numbered_blank_rows": 99,
+            "source_mark_placeholders": 70,
+            "code_comparison_parts": 12,
+            "patch_rows": 3,
+            "patch_cells": 27,
+            "printed_captions": 9,
+            "recognition_tasks": 79,
+            "eng_code": 21,
+            "kor_eng_other": 58,
+            "source_correction_passes": 2,
+            "recognition_retries": 0,
+            "native_metrics": [
+              {
+                "segment": "a",
+                "metrics": {
+                  "regions": 74,
+                  "blocks": 58,
+                  "original_images": 16,
+                  "code_units": 9,
+                  "code_comparison_parts": 12,
+                  "printed_captions": 9,
+                  "caption_image_links": 10,
+                  "nonempty_serialized_lines": 800,
+                  "tokens": 3171,
+                  "code_tokens": 1333,
+                  "code_serialized_rows": 440,
+                  "main_listing_rows": 166,
+                  "numbered_blank_rows": 19,
+                  "source_comments": 79,
+                  "quoted_field_candidates": 7,
+                  "unmeasured_space_runs": 425,
+                  "source_prose_continuations": 11,
+                  "prose_joins": 0,
+                  "patch_rows": 3,
+                  "patch_cells": 27,
+                  "source_mark_placeholders": 46,
+                  "local_range_occurrences": 8165,
+                  "source_correction_passes": 1,
+                  "recognition_tasks": 58,
+                  "eng_code": 9,
+                  "kor_eng_other": 49,
+                  "recognition_retries": 0
+                }
+              },
+              {
+                "segment": "b",
+                "metrics": {
+                  "regions": 39,
+                  "blocks": 21,
+                  "original_images": 18,
+                  "code_units": 12,
+                  "nonempty_serialized_lines": 1053,
+                  "tokens": 3297,
+                  "code_tokens": 3279,
+                  "printed_listing_rows": 1044,
+                  "printed_ordinals": [
+                    167,
+                    1210
+                  ],
+                  "numbered_blank_rows": 80,
+                  "source_comments": 119,
+                  "quote_character_occurrences": 12,
+                  "unmeasured_space_runs": 903,
+                  "hex_fields": 36,
+                  "da_fields": 33,
+                  "asc_fields": 3,
+                  "control_jump_table_rows": 26,
+                  "conversion_sections": 4,
+                  "spatial_glyph_rows": 7,
+                  "internal_listing_continuations": 11,
+                  "prose_joins": 0,
+                  "source_mark_placeholders": 24,
+                  "printed_captions": 0,
+                  "source_headings": 9,
+                  "local_range_occurrences": 13293,
+                  "source_correction_passes": 1,
+                  "recognition_tasks": 21,
+                  "eng_code": 12,
+                  "kor_eng_other": 9,
+                  "recognition_retries": 0
+                }
+              }
+            ]
+          },
+          "source_limits": [
+            "Assistant sample review; human acceptance/full proofreading, original encoded bytes, exact glyphs/spaces, historical/technical claims and program execution remain unverified.",
+            "Opening canonical0002only PDF/printed178–183. Direct opening178 supersedes initial unverified180candidate. Boundary envelope178–205is not a claim of inspected continuous28page body:188–203remain uninspected;184–205and whole-article assembly are deferred. Next independent printer/font-editor opening206is retained in bounded source review.",
+            "All74regions retain58text blocks/nine code units/16original images. Figure1–7comparisons retain12original/revised parts;Figures3and5print only revised routines. Figure8retains three headerless patch rows/27opaque field positions. List1caption covers both original column images and printed rows1–166,including19numbered blanks.",
+            "Eleven explicit source prose-continuation links retain region fragments and separator candidates without merging native blocks. Page181BSAVE command and182incoming prose remain separate source fragments. List1left/right and deferred next-page167continue on fresh physical rows;no ordinal/quote/opcode completion.",
+            "Forty-six descriptive source-mark placeholders retain18boxed return occurrences,12unknown-count decorative bands,six unknown-count vertical-dot runs,nine graphical arrow/bracket annotations and one small source mark. Original images preserve all geometry. Exact encoded glyphs/space counts,quoted/open fields and source comments remain unverified.",
+            "Source title/name/reference/date/platform/identifier/operand/address/math/patch claims remain literal;source INSBNK/INSBLNK/INSBLKA differences are not normalized. All raw attempts/maps/crops/settings/transcripts/auxiliary views and explanatory revisions are preserved. Page182independent right RAM-disk advertisement remains excluded. Parent0001decision stays separate until completed checkpoint.",
+            "All74 initial crops inspected, then eight fresh geometry revisions inspected before58 pinned recognitions. All58 raws read before one direct source pass. Two nearest-neighbor source views clarify Figure6. All58 transcripts retained; two fresh explanatory-record revisions correct counts without changing source text. Zero recognition retries or post-OCR crop repairs."
+          ],
+          "prior_opening_restoration_provenance": {
+            "directory": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a",
+            "article_id": "scan-maso-1988-01-toc-0002",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a/manifest.json",
+              "sha256": "2e17dc73ad1777c57847ea5fe0332436a9baafff3eb1d4d612b8dfc462ff9567",
+              "bytes": 42287
+            },
+            "coverage": {
+              "pdf_pages": [
+                178,
+                179,
+                180,
+                181,
+                182,
+                183
+              ],
+              "printed_pages": [
+                "178",
+                "179",
+                "180",
+                "181",
+                "182",
+                "183"
+              ],
+              "regions": 74,
+              "blocks": 58,
+              "figures": 16,
+              "boundary_verified_pdf_envelope": [
+                178,
+                205
+              ],
+              "full_article_continuity_verified": false,
+              "deferred_pdf_pages": [
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203,
+                204,
+                205
+              ],
+              "uninspected_interior_pdf_pages": [
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203
+              ],
+              "excluded_region_ids": [
+                "pdf182-ramdisk-advertisement"
+              ]
+            },
+            "directory_is_opening_native_only": true,
+            "body_pages_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "checkpoint": "batch-49",
+            "segments": [
+              {
+                "name": "a",
+                "directory": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a",
+                "manifest": {
+                  "path": "archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a/manifest.json",
+                  "sha256": "2e17dc73ad1777c57847ea5fe0332436a9baafff3eb1d4d612b8dfc462ff9567",
+                  "bytes": 42287
+                },
+                "coverage": {
+                  "current_pdf_pages": [
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183
+                  ],
+                  "current_printed_pages": [
+                    "178",
+                    "179",
+                    "180",
+                    "181",
+                    "182",
+                    "183"
+                  ],
+                  "original_contents_reference": "178",
+                  "boundary_verified_pdf_envelope": [
+                    178,
+                    205
+                  ],
+                  "full_article_continuity_verified": false,
+                  "uninspected_interior_pdf_pages": [
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203
+                  ],
+                  "deferred_pdf_pages": [
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205
+                  ],
+                  "current_native_eligible_pages_complete": true,
+                  "body_pages_complete": false,
+                  "assembly_required": true,
+                  "complete_article_assembly_pending": true,
+                  "excluded_region_ids": [
+                    "pdf182-ramdisk-advertisement"
+                  ],
+                  "source_title_spacing_independent": true,
+                  "parent_heading_decision_pending_checkpoint": true
+                },
+                "coverage_is_original_native_provenance": true
+              }
+            ],
+            "source_scope": {
+              "path": "archive/pdf/1988-01/restoration/batch-49/central-hangul-editor-a/article-scope.json",
+              "sha256": "033e084ed8cc5bd0c46bb10706d2525747ca8e84ca990a54ff3eccb9fa88a3c6",
+              "bytes": 1065
+            },
+            "latest_source_scope": {
+              "path": "archive/pdf/1988-01/restoration/batch-49/central-hangul-editor-a/article-scope.json",
+              "sha256": "033e084ed8cc5bd0c46bb10706d2525747ca8e84ca990a54ff3eccb9fa88a3c6",
+              "bytes": 1065
+            },
+            "validation": {
+              "path": "archive/pdf/1988-01/restoration/batch-49/validation.json",
+              "sha256": "a923043c2c064e9071555b7d3e8380a8b1b6ecb468ab0225484d6fe2e6e775a7",
+              "bytes": 2792
+            },
+            "latest_validation": {
+              "path": "archive/pdf/1988-01/restoration/batch-49/validation.json",
+              "sha256": "a923043c2c064e9071555b7d3e8380a8b1b6ecb468ab0225484d6fe2e6e775a7",
+              "bytes": 2792
+            },
+            "reproduction": {
+              "path": "archive/pdf/1988-01/restoration/batch-49/reproduction.json",
+              "sha256": "0771802cf2a6e0be1f15b59268f35eb65e6ba14baa7b525c125d98ccdfcf51a5",
+              "bytes": 2578
+            },
+            "latest_reproduction": {
+              "path": "archive/pdf/1988-01/restoration/batch-49/reproduction.json",
+              "sha256": "0771802cf2a6e0be1f15b59268f35eb65e6ba14baa7b525c125d98ccdfcf51a5",
+              "bytes": 2578
+            },
+            "metrics": {
+              "regions": 74,
+              "blocks": 58,
+              "original_images": 16,
+              "code_units": 9,
+              "code_comparison_parts": 12,
+              "printed_captions": 9,
+              "caption_image_links": 10,
+              "nonempty_serialized_lines": 800,
+              "tokens": 3171,
+              "code_tokens": 1333,
+              "code_serialized_rows": 440,
+              "main_listing_rows": 166,
+              "numbered_blank_rows": 19,
+              "source_comments": 79,
+              "quoted_field_candidates": 7,
+              "unmeasured_space_runs": 425,
+              "source_prose_continuations": 11,
+              "prose_joins": 0,
+              "patch_rows": 3,
+              "patch_cells": 27,
+              "source_mark_placeholders": 46,
+              "local_range_occurrences": 8165,
+              "source_correction_passes": 1,
+              "recognition_tasks": 58,
+              "eng_code": 9,
+              "kor_eng_other": 49,
+              "recognition_retries": 0
+            },
+            "combined_segment_metrics": {
+              "regions": 74,
+              "blocks": 58,
+              "original_images": 16,
+              "code_units": 9,
+              "code_comparison_parts": 12,
+              "printed_captions": 9,
+              "caption_image_links": 10,
+              "nonempty_serialized_lines": 800,
+              "tokens": 3171,
+              "code_tokens": 1333,
+              "code_serialized_rows": 440,
+              "main_listing_rows": 166,
+              "numbered_blank_rows": 19,
+              "source_comments": 79,
+              "quoted_field_candidates": 7,
+              "unmeasured_space_runs": 425,
+              "source_prose_continuations": 11,
+              "prose_joins": 0,
+              "patch_rows": 3,
+              "patch_cells": 27,
+              "source_mark_placeholders": 46,
+              "local_range_occurrences": 8165,
+              "source_correction_passes": 1,
+              "recognition_tasks": 58,
+              "eng_code": 9,
+              "kor_eng_other": 49,
+              "recognition_retries": 0
+            },
+            "source_limits": [
+              "Assistant sample review; human acceptance/full proofreading, original encoded bytes, exact glyphs/spaces, historical/technical claims and program execution remain unverified.",
+              "Opening canonical0002only PDF/printed178–183. Direct opening178 supersedes initial unverified180candidate. Boundary envelope178–205is not a claim of inspected continuous28page body:188–203remain uninspected;184–205and whole-article assembly are deferred. Next independent printer/font-editor opening206is retained in bounded source review.",
+              "All74regions retain58text blocks/nine code units/16original images. Figure1–7comparisons retain12original/revised parts;Figures3and5print only revised routines. Figure8retains three headerless patch rows/27opaque field positions. List1caption covers both original column images and printed rows1–166,including19numbered blanks.",
+              "Eleven explicit source prose-continuation links retain region fragments and separator candidates without merging native blocks. Page181BSAVE command and182incoming prose remain separate source fragments. List1left/right and deferred next-page167continue on fresh physical rows;no ordinal/quote/opcode completion.",
+              "Forty-six descriptive source-mark placeholders retain18boxed return occurrences,12unknown-count decorative bands,six unknown-count vertical-dot runs,nine graphical arrow/bracket annotations and one small source mark. Original images preserve all geometry. Exact encoded glyphs/space counts,quoted/open fields and source comments remain unverified.",
+              "Source title/name/reference/date/platform/identifier/operand/address/math/patch claims remain literal;source INSBNK/INSBLNK/INSBLKA differences are not normalized. All raw attempts/maps/crops/settings/transcripts/auxiliary views and explanatory revisions are preserved. Page182independent right RAM-disk advertisement remains excluded. Parent0001decision stays separate until completed checkpoint.",
+              "All74 initial crops inspected, then eight fresh geometry revisions inspected before58 pinned recognitions. All58 raws read before one direct source pass. Two nearest-neighbor source views clarify Figure6. All58 transcripts retained; two fresh explanatory-record revisions correct counts without changing source text. Zero recognition retries or post-OCR crop repairs."
+            ]
+          },
+          "latest_native_directory": "archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b",
+          "latest_native_manifest": {
+            "path": "archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b/manifest.json",
+            "sha256": "23598551a53b1ebb483ac9f45ac037cd3161e252ea1f3c51e68b062d9b75a6fc",
+            "bytes": 18381
+          },
+          "latest_checkpoint": "batch-50",
+          "latest_native_metrics": {
+            "regions": 39,
+            "blocks": 21,
+            "original_images": 18,
+            "code_units": 12,
+            "nonempty_serialized_lines": 1053,
+            "tokens": 3297,
+            "code_tokens": 3279,
+            "printed_listing_rows": 1044,
+            "printed_ordinals": [
+              167,
+              1210
+            ],
+            "numbered_blank_rows": 80,
+            "source_comments": 119,
+            "quote_character_occurrences": 12,
+            "unmeasured_space_runs": 903,
+            "hex_fields": 36,
+            "da_fields": 33,
+            "asc_fields": 3,
+            "control_jump_table_rows": 26,
+            "conversion_sections": 4,
+            "spatial_glyph_rows": 7,
+            "internal_listing_continuations": 11,
+            "prose_joins": 0,
+            "source_mark_placeholders": 24,
+            "printed_captions": 0,
+            "source_headings": 9,
+            "local_range_occurrences": 13293,
+            "source_correction_passes": 1,
+            "recognition_tasks": 21,
+            "eng_code": 12,
+            "kor_eng_other": 9,
+            "recognition_retries": 0
+          },
+          "source_limits_are_original_opening_provenance": true,
+          "latest_source_limits": [
+            "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,source claims and program execution remain unverified.",
+            "Continuation0002only PDF/printed184–189. Immutable opening178–183remains exact. Current six pages are all eligible two-column listing pages,no ad/exclusion or extra rotation. Running title/category/platform are furniture;no new caption/byline invented.",
+            "Twelve code columns retain1044printed rows167–1210,including80numbered blanks. Eleven internal column/page continuation links preserve fresh physical rows;incoming183/184166→167and outgoing189/1901210→1211remain separate native-boundary records. No prose or code-row joins.",
+            "All36HEXfields,33DAfields,three ASCquoted fields,26control-table rows,Korean comments and explicit quote/space occurrences remain literal. Four source conversion sections retain printed labels without reconstructing bytes or glyph tables. Seven spatial glyph comments and two quoted blank runs retain unknown source counts. Source EDRA/EDEA and O/0/I/1 candidates remain independent.",
+            "Twenty-four descriptive placeholders retain seven spatial glyph rows,two quoted space runs,three boxed return glyphs,four decorative bands,seven arrow graphics and one small source mark. Exact source images and six nearest auxiliary views preserve geometry. No expected byte,syntax,opcode,address,ordinal,alphabetic or claim completion/execution.",
+            "Boundary envelope178–205is not a claim of inspected continuous article coverage. Outside190is now inspected;191–203remain uninspected. Deferred190–205and separate complete article assembly remain. Parent0001non-owning classification from49is unchanged.",
+            "All39initial exact crops reviewed,nine headers/twelve code-original pairs/six pixel-identical reviewed page frames;four fresh wider188/189right crops reviewed before21recognitions. All21raws read before one source pass. Six auxiliary nearest views preserve difficult glyph/quote/label evidence. Initial recorder wrote one header then failed on an old raw-directory literal;failed script/helper/partial file retained,fresh helper/transcript paths selected. Zero OCR retries/post-OCR crop repairs."
+          ]
+        }
       }
     },
     {
@@ -8894,6 +9894,56 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-51",
+      "completed_at": "2026-10-27T11:59:31.759536+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0002"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 4,
+      "status": "bounded-listing-continuation-native",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-51/validation.json",
+        "sha256": "9b39116d81fae8eac6a3243d7a9c936116b8ec56e76f20ea52a458ba45b0443c",
+        "bytes": 2827
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-51/reproduction.json",
+        "sha256": "070eb09026892f9b410230d18d2ccc82684376b514b06dda652ac756cb464e5c",
+        "bytes": 2860
+      },
+      "extent_declaration": {
+        "path": "archive/pdf/1988-01/restoration/batch-51/checkpoint.json",
+        "sha256": "e555bac033355256eff84b308f986209ecddd1a527ec0a76b91cc40f6e284a88",
+        "bytes": 8807
+      },
+      "metadata_notation_revision": {
+        "path": "archive/pdf/1988-01/restoration/batch-51/metadata-revision-r01.json",
+        "sha256": "c83f92b2c2eed01fc805310618439d93103132415ecfd2def9d7b18d38a0cc7c",
+        "bytes": 1047
+      },
+      "source_correction_passes": 1,
+      "recognition_tasks": 21,
+      "eng_code": 12,
+      "kor_eng_other": 9,
+      "recognition_retries": 0,
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing Batch42 baseline reused; no core changes and no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      }
     }
   ],
   "notes": [
@@ -8901,40 +9951,41 @@
     "Existing step6b sample preserved unchanged; source/date verified historically. No global folio offset.",
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged.",
     "Batch49 restores0002opening178–183 and classifies0001non-owning. All source identities/titles/parents remain;184–205 deferred,188–203uninspected and complete assembly pending. The initial180candidate and failed mapping schema runner remain as evidence. No reader rebuild.",
-    "Batch50restores0002List1continuation184–189,all1044printed rows167–1210. Opening178–183remains exact. Totalpreserved current editor pages178–189;190–205and final assembly deferred,191–203uninspected. Source candidates/glyphs/quotes/opaque fields remain literal;no reader rebuild."
+    "Batch50restores0002List1continuation184–189,all1044printed rows167–1210. Opening178–183remains exact. Totalpreserved current editor pages178–189;190–205and final assembly deferred,191–203uninspected. Source candidates/glyphs/quotes/opaque fields remain literal;no reader rebuild.",
+    "Batch 51 restores 0002 List 1 continuation 190–195, all 1,044 printed rows 1211–2254. Prior natives remain exact. Three natives now preserve 178–195; 196–205 and assembly deferred, 197–203 uninspected. Source glyphs, arrows, transfer comments and opaque operands remain literal. Exact incoming-boundary metadata whitespace corrected in fresh r01; initial export retained. No reader rebuild."
   ],
   "next_checkpoint": {
-    "goal": "Continue canonical0002with at most six eligible source pages190–195after direct review. Reuse exact outside review190as a candidate;inspect191–195and declared adjacent189/196before mapping. Reuse exact editor-ending205and independent-printer206evidence. Preserve printed listing rows/numbered blanks/comments/quotes/opaque fields without expected source completion or execution. Keep all uninspected interior pages and remaining196–205/whole-article assembly explicit.",
+    "goal": "Continue canonical 0002 with at most six eligible source pages 196–201 after direct review. Reuse exact outside review 196 as a candidate; inspect 197–201 and declared adjacent 195/202 before mapping. Reuse exact editor-ending 205 and independent-printer 206 evidence. Preserve printed rows, blanks, comments, quotes and opaque fields without expected source completion or execution. Keep 202–205 and whole-article assembly deferred.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0002"
     ],
     "canonical_reference": "178",
     "opening_pdf_page_verified": 178,
     "next_native_pdf_page_candidates": [
-      190,
-      191,
-      192,
-      193,
-      194,
-      195
+      196,
+      197,
+      198,
+      199,
+      200,
+      201
     ],
     "lookup_pdf_page_candidates": [
-      189,
-      196
+      195,
+      202
     ],
     "reusable_boundary_pdf_pages": [
       205,
       206
     ],
     "current_candidates_previously_inspected": [
-      190
+      196
     ],
     "current_candidates_not_yet_inspected": [
-      191,
-      192,
-      193,
-      194,
-      195
+      197,
+      198,
+      199,
+      200,
+      201
     ],
     "source_location_verified": false,
     "boundary_envelope_verified": true,
@@ -8946,7 +9997,7 @@
     }
   },
   "remaining_work": [
-    "Eight canonical identities still need classification/restoration,including0003printer206and0032Survey original175/bounded inconclusive location review. Partial0002requires190–205,interior191–203inspection and whole-article assembly. Two immutable natives preserve178–189and all1210printed main-listing rows. Parent0001non-owning;33earlier readable articles remain complete.",
+    "Eight canonical identities still need classification/restoration, including 0003 printer 206 and 0032 survey original 175/bounded inconclusive location review. Partial 0002 requires 196–205, interior 197–203 inspection and whole-article assembly. Three immutable natives preserve 178–195 and all 2,254 printed main-listing rows. Parent 0001 non-owning; 33 earlier readable articles remain complete.",
     "All-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain. Preserve six private assembly adapters and all native metadata/evidence. No reader rebuild without an explicit request.",
     "Manual review remains for source glyphs/exact spaces/quoted fields/code comments and dense postal samples;0038scanner glyph/two graph panels and former0023original105history stay explicit. CD references retain their actual evidential scope."
   ],
@@ -8957,5 +10008,5 @@
     "non_owning_headings": 9,
     "unresolved": 8
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-50/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-51/preservation-inventory.json"
 }

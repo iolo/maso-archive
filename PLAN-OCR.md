@@ -26,56 +26,54 @@ paired OCR or a new engine comparison.
 - January 1988 is active: 51 canonical identities, thirty-three readable/sample-reviewed
   articles, one partial article, nine non-owning headings and eight unresolved identities.
 
-  Batch 50 restores canonical 0002, 중앙한글 에디터의 개선, continuation PDF/printed
-  184–189. The opening 178–183 from Batch 49 remains immutable. Two native packages
-  now preserve pages 178–189 and all printed main-listing rows 1–1210. Category 0001,
-  워드프로세서, remains non-owning. Canonical titles, parents and reference 178 stay
-  unchanged; the actual opening is 178, with no global folio offset inferred.
+  Batch 51 restores canonical 0002, 중앙한글 에디터의 개선, continuation PDF/printed
+  190–195. Three immutable native packages now preserve 178–195 and every printed
+  main-listing row 1–2254. Category 0001, 워드프로세서, remains non-owning. Canonical
+  titles, parents and reference 178 stay unchanged; no global folio offset inferred.
 
-  Selected `archive/pdf/1988-01/packages/batch-50/central-hangul-editor-b` has 111 files,
-  47,699,029 bytes, matching its independent rebuild. Its 39 regions, 21 blocks and
-  18 original images retain 1,053 nonempty serialized lines and 3,297 tokens. All
-  13,293 local UTF-8 range occurrences, 13,370 review pin occurrences and 39 decoded
-  source images validate, including exact reviewed crop pixels. The six pages are
-  upright listing pages with no advertisement exclusion or extra rotation.
+  Selected `archive/pdf/1988-01/packages/batch-51/central-hangul-editor-c-r01` has
+  111 files, 53,882,119 bytes, matching its independent rebuild. Its 39 regions,
+  21 blocks and 18 original images retain 1,053 nonempty serialized lines and
+  3,587 tokens. All 13,772 local UTF-8 range occurrences, 13,849 review pin
+  occurrences and 39 decoded source images validate, including exact crop pixels.
+  All six pages are upright listing pages with no advertisement exclusion.
 
-  Twelve code columns retain every printed row 167–1210, including 80 numbered blanks,
-  119 comment occurrences, 36 opaque HEX fields, 33 DA fields, three ASC fields and
-  26 control jump-table rows. Four conversion sections retain their source labels
-  without reconstructing bytes or glyphs. Eleven internal column/page continuation
-  links preserve fresh physical rows; incoming 166→167 and outgoing 1210→1211 remain
-  explicit native boundaries. No code rows or prose blocks are joined. No new printed
-  caption or byline is invented; the original List 1 caption stays in the opening native.
+  Twelve code columns preserve rows 1211–2254, including 42 numbered blanks,
+  132 semicolon comments, 24 star-annotation rows and 18 independent screen-row
+  transfer comments. Eleven internal continuation links preserve fresh physical
+  rows; incoming 1210→1211 and outgoing 2254→2255 remain explicit native boundaries.
+  No prose or code rows are joined. No new caption or byline is invented; the
+  original List 1 caption remains in the opening native. Current pages have no
+  HEX/DA/ASC fields or ASCII quote characters in their reviewed transcription.
 
-  Twenty-four descriptive placeholders retain seven spatial glyph rows, two quoted
-  space runs, three boxed return symbols, four decorative bands, seven arrow graphics
-  and one small source mark. Original columns/full pages and six nearest-neighbor
-  views retain source geometry. O/0/I/1, EDRA/EDEA, punctuation, quoted blank counts,
-  faint comment endings and all source spellings/operands remain independent candidates.
-  No syntax, opcode, byte, address, alphabetic, ordinal or technical-claim completion
-  or execution. The source comment ending 이동한 remains literal.
+  Forty-one descriptive placeholders retain 17 left arrows, 19 right arrows,
+  three boxed return glyphs and two small source marks. Each repeated transfer
+  comment, source spelling, formula and operand remains independent. Source 세째/네째,
+  the comma after EOF and the comment +1 alongside SBC remain literal. Original
+  columns/full pages and seven nearest-neighbor auxiliary views retain geometry;
+  wrong-target and clipped auxiliary attempts remain archived. No syntax, opcode,
+  byte, address, ordinal, glyph-count or technical-claim completion or execution.
 
-  All 39 initial crops and four fresh wider ordinal-margin crops were reviewed before
-  21 pinned Tesseract tasks: twelve eng code and nine kor+eng headings. All drafts
-  were read before one source correction pass; no recognition retry or post-OCR crop
-  repair. The first recording helper retained an old raw-directory path and wrote
-  one header before failing. Its script/helper/partial file remain; a fresh helper
-  and fresh transcript directory record the same source readings in the same pass.
+  All 39 initial crops and four repaired crops were reviewed before 21 pinned
+  Tesseract tasks: twelve eng code and nine kor+eng headings. All drafts were read
+  before one source correction pass, with zero retries or post-OCR crop repairs.
+  A metadata-only r01 uses the exact prior serialized incoming row rather than
+  retyped whitespace. Source transcripts are unchanged; initial metadata/export remain.
 
   The boundary envelope remains 178–205, followed by the independent printer/font-editor
-  opening 206. Outside 190 is now directly inspected; 191–203 remain uninspected. This
-  does not establish continuous inspected coverage of the full envelope. Pages 190–205
-  and separate complete article assembly are deferred. Next declare and directly
-  review the bounded continuation 190–195 plus adjacent 189/196 before mapping. Reuse
-  exact 190 and ending 205/206 evidence. Keep the two-task/six-page/twenty-outside limits.
+  opening 206. Outside 196 is now directly inspected; 197–203 remain uninspected.
+  This does not establish inspected continuity of the full envelope. Pages 196–205
+  and complete article assembly remain deferred. Next declare and directly review
+  196–201 plus adjacent 195/202 before mapping, reusing exact 196 and ending 205/206
+  evidence. Keep the two-task/six-page/twenty-outside limits.
 
-  Across the two immutable editor natives, 113 regions, 79 blocks, 34 original images,
-  21 code units and 1,210 numbered main-listing rows remain, including 99 numbered
-  blanks and 70 mark/space/glyph placeholders. Original comparison figures and patch
-  table from the opening stay exact. All 42,774 prior January files, 134 pilot files
-  and 30 core pins remain unchanged. The 213 passing Batch 42 PDF tests are reused;
-  no core changes or fresh test run. Earlier back-issue index 0045 remains complete
-  across 217–233, with all original natives and complete package unchanged.
+  Across three editor natives, 152 regions, 100 blocks, 52 original images,
+  33 code units and 2,254 numbered main-listing rows remain, including 141 numbered
+  blanks and 111 mark/space/glyph placeholders. Original comparison figures, patch
+  table, quoted fields and prior native metadata stay exact. All 43,346 prior January
+  files, 134 pilot files and 30 core pins remain unchanged. The 213 passing Batch 42
+  PDF tests are reused; no core changes or fresh test run. Back-issue index 0045
+  remains complete across 217–233, with all natives and complete package unchanged.
 
   Eventual issue dispatch must retain `batch-48/back_issue_index_literal.py`
   (`back-issue-index-literal-v1`), `batch-42/pc_software_literal_r01.py`
@@ -91,9 +89,9 @@ paired OCR or a new engine comparison.
   deployment. Human acceptance/full proofreading, original encoded bytes/glyphs/exact
   spaces, historical/technical claims, execution and backup recovery remain unverified.
 
-  Validation/reproduction: `archive/pdf/1988-01/restoration/batch-50/validation.json`
-  and `archive/pdf/1988-01/restoration/batch-50/reproduction.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-50/preservation-inventory.json`.
+  Validation/reproduction: `archive/pdf/1988-01/restoration/batch-51/validation.json`
+  and `archive/pdf/1988-01/restoration/batch-51/reproduction.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-51/preservation-inventory.json`.
 
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
