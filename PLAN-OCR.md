@@ -23,44 +23,42 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, twenty-six readable/sample-reviewed
-  articles, four non-owning headings and 21 unresolved identities. No classified
-  deferred body pages or pending assembly. Batch35 completes0033 Turbo C graphics,
-  PDF136–144/printed134–142. Selected `archive/pdf/1988-01/packages/turbo-c-graphics-complete-r01`
-  has424 files/119,421,131 bytes,independently exact;all415 native files/67,665,753
-  bytes and every metadata array/object/scalar/reserved list retained.112 regions/
-  86 blocks/95 transcripts/17 figures,1,030 transcript rows/4,431 tokens distinguish
-  spatial diagram serialization from physical code rows.12 code units/698 physical
-  rows/689 ordinals/92 blanks/3,025 tokens preserve GRAPH.H63,GRAPHIC.H459(458ordinals
-  plus unnumbered414 comment wrap) andDEMO.C168 rows;5 config/3 screen rows separate.
-  Three listing captions link ten columns,includingGRAPHIC.H across seven. Seven
-  code connections/195–196 boundary,nine prose joins,twelve internal connections
-  and seven figure/caption links retained. Ten reference views follow primary text.
-  Source06 between015/017,blank415,broken-bar candidates¦,five initializer parentheses,
-  scf/scff,ell/one,shift expressions,dots,eleven code/one screen occlusions,nine
-  asterisk-band counts,B800H/handwritten0 versusB000H/B0000 and diagram/reference
-  candidates unverified/unchanged. No syntax/algorithm/execution repair. Five exact
-  active partial-stage notes resolved while original native metadata stays exact.
-  All18,991 native/19,079 projected ranges,19,339 native/19,652 projected pins and
-  112 images pass;five invalid mutations rejected. One task/zero new mapping,
-  lookups,OCR or correction;all28,955 prior files/134 pilot/30core exact.213-test
-  baseline reused,no fresh run. Lower139 notice excluded;140–143 lossless rotations
-  and original portrait folios retained. Keep batch-35/turbo_c_literal.py /
-  turbo-c-graphics-literal-v1 for eventual issue dispatch,plus batch-21/legacy_input_r01.py /
-  legacy-toc-input-v1 exact context/oldTOC/current guard,batch-18/magic_literal_r02.py /
-  magic-key-literal-v1 and batch-15/ram_literal_r01.py / ram-removal-literal-v1.
-  Survey0032 original175/bounded Batch32 review remains unresolved;preserve
-  `batch-32/survey-location-review.json`,no Quiz award-notice substitution or sourcewide
-  absence claim. Former0023 readable165/PDF167 right retains105 conflict/history.
-  Next verify0050 터보광 heading and restore0034 터보 파스칼을 편하게 from133/PDF135;
-  contents11/adjacent134–136 lookup candidates,actual extent must be verified.
-  Two-task/six-page/twenty-outside bounds continue.21 unresolved identities,
-  accounting/cover/export/audit remain;goalactive. Human acceptance/proofreading,
-  encoding/glyphs/spaces/claims/execution/backup unverified. No reader rebuild.
-  See [January log](docs/progress/8801.md),
+- January 1988 is active: 51 identities, twenty-seven readable/sample-reviewed
+  articles, five non-owning headings and 19 unresolved identities. No classified
+  deferred body pages or pending assembly. Batch36 completes0034 Turbo Pascal
+  convenience at133/PDF135;0050 터보광 is non-owning from original contents11 and
+  child banner. Adjacent134 endsMAGIC KEY;136 opensTurbo C graphics. Selected
+  `archive/pdf/1988-01/packages/batch-36-r01/turbo-pascal-convenience` has91 files /
+  7,982,861 bytes,independently exact.22 regions/18 blocks/20 transcripts/two
+  originals retain91 nonblank rows/403 tokens,two word joins 수/정할 and 프/로그램이,
+  nine code/display rows(XX lines/eight DEBUG),five commands/22 opaque fields,
+  two address rows/five arrow associations/six annotation rows,73.07 byte display,
+  five TEST filename occurrences/one physical wrap and eight independent claims.
+  Boxed deck/editorial byline/caption/original panel/fullpage preserved. Source9af7,
+  single1/annotation ell,zero/slashed-zero/point/quote/arrow glyphs,3.00B and source
+  compatibility/version/DOS claims unverified;first8-bit support and second8-bit
+  exclusion stay separate. Two tasks/one mapped/three outside/four inspected pages.
+  All22 selected crops before20 tasks(two eng/18 kor+eng);one pre-OCR deck expansion
+  preserved. All20 raws beforeone source pass,zero failures/retries/postOCR repairs.
+  Fresh metadata-only revision selects correct single1 occurrence after100 and
+  point range in73.07;all regional/listing bytes unchanged,initial metadata retained.
+  All804 ranges/832 pins/22 images/exact pixels pass;29,822 prior files/134 pilot/
+  30core exact.213-test baseline reused,no fresh run.0033 complete424-file assembly
+  and415 natives unchanged. Keep batch-35/turbo_c_literal.py/turbo-c-graphics-literal-v1
+  plus batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact context/oldTOC/current
+  guard,batch-18/magic_literal_r02.py/magic-key-literal-v1 and batch-15/ram_literal_r01.py/
+  ram-removal-literal-v1 for issue dispatch. Survey0032 original175/bounded Batch32
+  review remains unresolved;preserve `batch-32/survey-location-review.json`,no Quiz
+  award-notice substitution or sourcewide absence claim. Former0023 readable165/
+  PDF167 right retains105 conflict/history. Next verify0035 reading heading and
+  actual extent0037 writer guidance from169;PDF171 provisional opening,172 known
+  ending candidate,contents11/adjacent170–173 bounded lookups. Two-task/six-page/
+  twenty-outside limits continue;19 unresolved identities,accounting/cover/export/
+  audit remain;goalactive. Human acceptance/proofreading,encoding/glyphs/spaces/
+  claims/execution/backup unverified. No reader rebuild. See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-35/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-35/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-36/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-36/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

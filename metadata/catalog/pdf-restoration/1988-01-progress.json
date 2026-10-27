@@ -3456,21 +3456,112 @@
       "toc_entry_id": "maso-1988-01-toc-0050",
       "title": "터보광",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents11 places unnumbered 터보광 heading above child 터보 파스칼을 편하게133. The same heading is a banner on the independently titled child page135;canonical0050 has no independent body ownership. No extra divider/body invented."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1988-01/restoration/batch-36/turbo-heading-decision.json",
+        "sha256": "8824520bc4d54964692491ad8ba6e78102e67bc5f4b9c646dde0977b0aee8c95",
+        "bytes": 1019
+      },
+      "ownership_review": "resolved-from-original-contents-and-independent-child-opening",
+      "restoration": null
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0034",
       "title": "터보 파스칼을 편하게",
       "parent_id": "maso-1988-01-toc-0050",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0034 independently titled 터보 파스칼을 편하게 occupies printed133/PDF135,with 터보광 banner,IBM PC 호환기종 label and editorial byline 글·편집부. Source actual opening/ending on135 verified between finalMAGIC KEY134 and independent Turbo C graphics136.",
+        "Single page includes compilation-time tip,XX lines message,DEBUG trace with five explanation annotations,automatic-save tip across three prose columns,one boxed introduction and one printed figure caption. No body continuation after135.",
+        "Automatic-save prose continues 수/정할 from left-bottom to middle and 프/로그램이 from middle-bottom to right-top. Preserve both literal word continuations without adding spaces or reordering deck/byline as body.",
+        "Original contents11 places unnumbered 터보광 heading above child 터보 파스칼을 편하게133. The same heading is a banner on the independently titled child page135;canonical0050 has no independent body ownership. No extra divider/body invented."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-36-r01/turbo-pascal-convenience",
+        "article_id": "scan-maso-1988-01-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-36-r01/turbo-pascal-convenience/manifest.json",
+          "sha256": "417d92e7d40ed7ce474cfd0ae1c5a4aa2ec7c8c31ecf1dcb9812d6b775f3d494",
+          "bytes": 15306
+        },
+        "coverage": {
+          "pdf_pages": [
+            135
+          ],
+          "printed_pages": [
+            "133"
+          ],
+          "regions": 22,
+          "blocks": 18,
+          "regional_ranges": 20,
+          "prose_joins": 2,
+          "transcript_rows": 91,
+          "transcript_tokens": 403,
+          "identifier_occurrences": 44,
+          "number_fragments": 24,
+          "source_connections": 5,
+          "code_units": 2,
+          "physical_code_rows": 9,
+          "code_tokens": 19,
+          "debug_rows": 8,
+          "debug_fields": 22,
+          "command_starts": 5,
+          "arrow_annotations": 5,
+          "annotation_physical_rows": 6,
+          "address_rows": 2,
+          "patch_byte_candidates": 2,
+          "filename_occurrences": 5,
+          "filename_physical_wraps": 1,
+          "source_tip_claims": 8,
+          "printed_figure_captions": 1,
+          "editorial_credits": 1,
+          "figures": 2,
+          "regional_transcripts": 20,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            135
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-36",
+        "latest_checkpoint": "batch-36",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-36/turbo-pascal-convenience-r01/article-scope.json",
+          "sha256": "7dd426bfaa0c4b786534e984636fcc26c371be9cc1948421f2773103ca8f92f7",
+          "bytes": 415
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-36/validation.json",
+          "sha256": "0f95a809de047954250ba49115dd2c119b90d622cf05e9accae8ce6249838536",
+          "bytes": 3416
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-36/reproduction.json",
+          "sha256": "804ac283874e79547f4bde42d8aeb09ac53409becb8ab003d003e2b4fcf240c1",
+          "bytes": 1468
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,version/address/software/historical claims,code execution and independent backup recovery remain unverified.",
+          "Canonical0034 complete single pagePDF135/printed133,independent adjacentMAGIC KEY134 andTurboC graphics136. Canonical0050 is a non-owning contents/category heading;no heading body/package invented.",
+          "Two code/display units retain nine physical rows:one XX lines message placeholder and eight DEBUG interaction rows. Five command starts,22 opaque fields,two displayed segment/offset pairs,73.07 old/new byte candidates and five arrow annotations retain their physical associations. No recovered program,binary or execution claimed.",
+          "Automatic-save prose preserves two word joins 수/정할 and 프/로그램이. Five TEST filename occurrences include physical TEST./PASX wrap. Eight source version/compatibility/DOS/Main-file claims remain unverified and independent;first8-bit compatibility and second8-bit exclusion are not harmonized.",
+          "Original editorial byline,boxed deck,figure caption,complete DEBUG panel and full original page retained. Arrow,quote,zero/O/slashed-zero/ell/one,9af7,73.07 and3.00B glyph candidates remain source-linked;no technical,spelling or encoded-byte repair.",
+          "All22 selected crops reviewed before20 pinned tasks(two eng code/18 kor+eng other). One pre-OCR deck expansion preserves initial map/crops. All20 raws read before one direct source pass;zero failures,retries or post-OCR crop repairs."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0035",
@@ -5302,6 +5393,53 @@
         "sha256": "23ffa5b94082b079a049e9df49cdcec0526302722b233620f0acf174dc81cdd6",
         "bytes": 19085
       }
+    },
+    {
+      "name": "batch-36",
+      "completed_at": "2026-10-27T02:53:43.833101+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0050",
+        "maso-1988-01-toc-0034"
+      ],
+      "mapped_pdf_pages": [
+        135
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 1,
+      "article_page_assignments": 1,
+      "outside_lookup_pages": 3,
+      "all_inspected_source_pages": 4,
+      "rendered_but_not_inspected_pdf_pages": [],
+      "recognition_tasks": 20,
+      "eng_code": 2,
+      "kor_eng_other": 18,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 1,
+      "map_revisions": 1,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article-and-non-owning-heading",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-36/validation.json",
+        "sha256": "0f95a809de047954250ba49115dd2c119b90d622cf05e9accae8ce6249838536",
+        "bytes": 3416
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-36/reproduction.json",
+        "sha256": "804ac283874e79547f4bde42d8aeb09ac53409becb8ab003d003e2b4fcf240c1",
+        "bytes": 1468
+      },
+      "heading_decision": {
+        "path": "archive/pdf/1988-01/restoration/batch-36/turbo-heading-decision.json",
+        "sha256": "8824520bc4d54964692491ad8ba6e78102e67bc5f4b9c646dde0977b0aee8c95",
+        "bytes": 1019
+      },
+      "metadata_refinement": {
+        "path": "archive/pdf/1988-01/restoration/batch-36/metadata-refinement-r01.json",
+        "sha256": "267477a58c9344f7baf1806e229f61199e2257fd2984f68c3b082ad9037e0bab",
+        "bytes": 1818
+      }
     }
   ],
   "notes": [
@@ -5310,24 +5448,25 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify canonical0050 터보광 as heading versus body owner using original contents and child source evidence,and restore canonical0034 터보 파스칼을 편하게 from original reference133/known sourcePDF135. Verify opening/ending and adjacency134MAGIC KEY/136TurboC graphics;do not infer ending fromTOC. Preserve literal prose,code/comments/literals/physical wraps,original figures/screens/captions/labels and source mistakes. At most two canonical tasks/six mapped body pages/twenty outside lookups. No invented group body or global folio offset.",
+    "goal": "Verify canonical0035 읽을거리 as heading versus body owner using original contents and independent child source evidence,and verify actual extent of0037 마이크로 소프트웨어의 필자가 되는 법 from original reference169. Known ending candidatePDF172 was inspected in Batch32;PDF171 opening is provisional until direct review. Inspect adjacent170QA and173publisher advertisement;no TOC-derived ending or global offset. Preserve original prose,submission examples/formatting,guidelines,claims,byline,figures/captions and any literal command/code. At most two canonical tasks/six mapped body pages/twenty outside lookups;longer body needs immutable natives then separate assembly.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0050",
-      "maso-1988-01-toc-0034"
+      "maso-1988-01-toc-0035",
+      "maso-1988-01-toc-0037"
     ],
-    "known_start_pdf_page": 135,
-    "canonical_reference": "133",
-    "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-33/source-reviewed.json",
-      "sha256": "3e026c0214e250c9a5cc6fc7f8feb34615b6b58255e95a9dbb0526375925a1ec",
-      "bytes": 2193
-    },
+    "canonical_reference": "169",
+    "known_start_pdf_page": null,
     "lookup_pdf_page_candidates": [
       11,
-      134,
-      135,
-      136
+      170,
+      171,
+      172,
+      173
     ],
+    "prior_ending_evidence": {
+      "path": "archive/pdf/1988-01/restoration/batch-32/source-reviewed.json",
+      "sha256": "790b1bdfc47ed9036dc883470b51a420827138a10dca0a0e1c5e5b7e2e6ba56e",
+      "bytes": 2288
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -5335,16 +5474,16 @@
     }
   },
   "remaining_work": [
-    "21 canonical identities still need source classification/restoration,including0032 Survey with original175 reference and bounded inconclusive review.0033 Turbo C graphics complete/readable across nine pages;no classified article has deferred body pages or pending complete assembly.0031 Quiz award notice is not survey body. Former0023 gap remains resolved at165/PDF167 right with original105 conflict/history;four non-owning headings and legacy0018 adoption stand. Eventual issue dispatcher also needs turbo-c-graphics-literal-v1 private adapter.",
+    "19 canonical identities still need source classification/restoration,including0032 Survey with original175 reference and bounded inconclusive review.0034 TurboPascal convenience and0033 Turbo C graphics complete/readable;no classified article has deferred body pages or pending complete assembly.0050 Turbo광 is the fifth verified non-owning heading.0031 Quiz award notice is not survey body;former0023 resolved165/PDF167 right retains original105 conflict/history. Legacy0018 adoption stands;eventual issue dispatcher needs turbo-c-graphics-literal-v1 and earlier private adapters.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 26,
+    "readable": 27,
     "partial": 0,
-    "non_owning_headings": 4,
-    "unresolved": 21
+    "non_owning_headings": 5,
+    "unresolved": 19
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-35/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-36/preservation-inventory.json"
 }

@@ -22,7 +22,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | March 1985 | [8503.md](8503.md) — canonical TOC complete |
 | October 1985 | [8510.md](8510.md) — canonical TOC complete |
 | November 1985 | [8511.md](8511.md) — restoration pass complete; one unresolved entry |
-| January 1988 | [8801.md](8801.md) — active; twenty-six readable articles, four non-owning headings, 21 unresolved identities; Turbo C graphics complete; legacy sample adopted |
+| January 1988 | [8801.md](8801.md) — active; twenty-seven readable articles, five non-owning headings, 19 unresolved identities; Turbo Pascal convenience and Turbo C graphics complete; legacy sample adopted |
 
 | Shared scope | Records |
 | --- | --- |
