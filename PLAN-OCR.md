@@ -25,42 +25,43 @@ paired OCR or a new engine comparison.
 
 - January 1988 is active:51 identities,twenty-nine readable/sample-reviewed
   articles,one partial article,seven non-owning headings and14 unresolved identities.
-  Batch39 preserves0039PC software trends nativea65–70/PDF67–72 of full65–77/
-  PDF67–79. Actual opening67/final79,next80postal-code contest/prior66Medusa ad;
-  no byline. Selected `archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a`
-  has229files/82,183,659bytes,independently exact.65regions/40blocks/52transcripts/
-  13originals retain849rows/3,846tokens,196spatial screen rows,twelve prose joins,
-  fifteen separate/15embedded headings,six captions and six screenshots. Five
-  tables/24rows/83cells(82nonblank/oneblank HAL label)/15headers indexed.96numeric
-  fragments remain unverified,not recomputed or reconciled across screens. Twenty
-  unknown/clipped/ruler/status markers have unknown source counts. Obscured WordStar
-  equation not filled from result/budget;last HAL factor not filled from preceding
-  relations. Four HAL rows,17math-menu items,two3²/log₂ examples,five key/command
-  fields retained. Source WYSIWG/bodyWYSIWYG,repeated매우,point before개발된,
-  physical version/name/key/acronym wraps,circled-a/@,Roman numeral/cut and-paste,
-  original pen/handwritten WYSIWYG/artwork labels/rulers/seams retained.
-  All65 crops before52kor+eng tasks;13preOCR expansion operations/twelve regions,
-  three maps/all crops retained. All52 raws beforeone source pass,continued across
-  turns;eight4xviews,zero failures/retries/postOCR repairs. PNG-byte equivalence
-  assertion failure retained;corrected12decoded-pixel pairs pass. All6,014ranges/
-  6,119pins/65images exact;31,748prior/134pilot/30core unchanged;213-test baseline
-  reused,no fresh run/core changes. Seven body pages73–79 and complete assembly
-  pending. Next immutable nativeb73–78 with72/73incoming boundary,then final79/
-  separate thirteen-page assembly. One task/six mapped/13outside/19inspected views.
-  Two-task/six-page/twenty-outside bounds continue.0038/0051complete,one recognition
-  glyph/two graph panels manual review. Earlier0037/0034/0033complete. Retain
-  batch-35/turbo_c_literal.py,batch-21/legacy_input_r01.py exact legacy context/
-  oldTOC/current guard,batch-18/magic_literal_r02.py,batch-15/ram_literal_r01.py
-  for issue dispatch. Survey0032 original175/bounded Batch32 gap retained at
-  `batch-32/survey-location-review.json`;no quiz/writer-quote substitution or
-  sourcewide absence. Former0023 readable165/PDF167right retains105conflict/history.
-  14 unresolved identities,0039deferred pages/assembly,accounting/cover/export/audit
-  remain,full goalactive. Human acceptance/proofreading/source encoding/glyphs/
-  spaces/claims/execution/backup unverified. No reader rebuild. See
+  Batch40 preserves0039middle nativebPDF73–78/printed71–76 at
+  `archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b`:264files/
+  81,456,474bytes independently exact. Nativea67–72 remains229files exact;actual
+  full extent67–79/printed65–77,prior66Medusa ad,next80postal-code contest. Twelve
+  body pages across493 immutable files;final79 and separate complete assembly remain.
+  Middle70regions/44blocks/62transcripts/eight originals,972rows/4,788tokens,
+  eighteen prose joins,two native boundaries,13headings/three embedded headings/
+  two captions indexed. QA and independent Ventura displays retain18panels/162rows,
+  twenty unverified numeric candidates/35unknown-count markers. Two tables/eight
+  rows/twenty cells(one blank QA region)/four headers,six sample contents references,
+  eighteen menu labels/two paths/28tag-control rows,two printed columns retained.
+  No hidden completion,cross-display harmonization,numeric arithmetic or expected
+  software/hardware/grammar repair. ITTCC/Consultive Committee,source spellings,
+  physical wraps and tiny filename/tag/dimension candidates remain unverified.
+  All70 initial crops before62tasks,ten pre-OCR expansions. Two same-pass edge
+  repairs(five PDF77/three Ventura) required eight changed-input recognitions;
+  each crop before recognition/all new raws before same-pass resumption. Four maps/
+  all attempts retained;70total invocations,zero failures/unchanged-input retries.
+  Selected62drafts reuse54original/eight replacements,124reuse contexts verified.
+  Twenty-two4x views inspected,one full Ventura4x uninspected. All6,915ranges/
+  7,022pins/70images exact;32,859prior/134pilot/30core unchanged;213-test baseline
+  reused,no fresh run. One task/six mapped/two outside/eight inspected views.
+  Next final79 with incoming78/79 and next80,then separate thirteen-page assembly
+  preserving all native categories. Two-task/six-page/twenty-outside bounds continue.
+  Nativea HAL/WordStar values and earlier source arrays remain immutable.0038/0051
+  and earlier0037/0034/0033 complete;one recognition glyph/two graph panels manual
+  review. Retain batch-35/turbo_c_literal.py,batch-21/legacy_input_r01.py exact old
+  TOC/context/current guard,batch-18/magic_literal_r02.py,batch-15/ram_literal_r01.py.
+  Survey0032 original175/bounded Batch32 review retained;no quiz/writer substitution
+  or sourcewide absence claim. Former0023 readable165/PDF167right retains105conflict.
+  14 unresolved identities,0039final page/assembly,accounting/cover/export/audit remain;
+  full goal active. Human acceptance/proofreading/source encoding/glyphs/spaces/
+  claims/execution/backup recovery unverified. No reader rebuild. See
   [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-39/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-39/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-40/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-40/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

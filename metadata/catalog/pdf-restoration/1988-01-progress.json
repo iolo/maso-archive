@@ -4044,7 +4044,14 @@
         "Canonical0039 independently opens printed65/PDF67 with 특집 and PC 소프트웨어의 동향 over color artwork and separate deck. No printed byline. Prior66 is independent Medusa ROM-writer advertisement;63–65 are previously restored dBASE-transfer body/ending with exclusions. Original contents11 lists feature65.",
         "Actual full feature isPDF67–79/printed65–77. All thirteen pages inspected continuously:opening67,wordprocessor68–71left,spreadsheet71lower–73upper,database73lower–74middle,communications74lower–76upper,desktop publishing76middle–78middle,graphic environment78lower–79ending. Source79 ends final interface-use-time paragraph;80 independently opens postal-code contest notice. No TOC-derived ending or global folio offset.",
         "Current native maps onlyPDF67–72,six verified body pages. It retains opening artwork/deck,the wordprocessor discussion with five screenshots,the spreadsheet opening/HAL screenshot and continuation through spreadsheet communication discussion. Native endsPDF72right at 워크시트의 제자리로,continuingPDF73left 돌아오는 것이다. Seven later body pagesPDF73–79 deferred. Immutable continuation natives and separate complete assembly required.",
-        "No advertisements or independent material within current six-page native. Source color/yellow border,scan seams,handwritten WYSIWYG annotation/underlining and tiny source screenshot glyphs stay original pixels. Review captions/screen labels separately and explicitly retain unresolved small/occluded readings rather than infer expected prose or commands."
+        "No advertisements or independent material within current six-page native. Source color/yellow border,scan seams,handwritten WYSIWYG annotation/underlining and tiny source screenshot glyphs stay original pixels. Review captions/screen labels separately and explicitly retain unresolved small/occluded readings rather than infer expected prose or commands.",
+        "Middle immutable nativeb onlyPDF73–78/printed71–76 of verified full featurePDF67–79/printed65–77. Original opening67/prior66advertisement/final79/next80postal-code contest were verified inBatch39;current checkpoint directly re-inspects72–79. No new byline or independent article title inferred.",
+        "Incoming72right from immutable nativea ends 워크쉬트의 제자리로;73left begins 돌아오는 것이다. followed by spreadsheet ending.73lower database heading opens section continued through74middle;74lower communications continues75 and76upper-left.76middle desktop-publishing heading continues77 and78middle.78lower graphic-environment heading continues78right and final79. Preserve section nesting rather than new canonical articles.",
+        "Current scope contains six body pages73–78 and two outside lookups72/79,one canonical task. Nativea all229 files/manifest retained exactly. Final79 remains deferred and complete thirteen-page assembly remains separate. Outgoing78right 탐나는 특징 continues79left 들 - 그래픽과 사용하기 쉬운 사용자;preserve word continuation without premature boundary join.",
+        "QA natural-language query/result screenshot on73 has its own caption and independent table/labels.76 Ventura composition has two overlapping UI windows and separate printed newsletter sample with captions,headings,body columns,contents items,graphic/photo/ruler/leader bands. Keep repeated fragments independent;source-clipped/obscured text/counts remain unknown rather than reconstructed from the other display.",
+        "No advertisement exclusions within these six middle pages. Full original color pages retained. Source dates,prices,version/hardware/network/fax and forecast claims are literal unverified source statements,not verified recommendations or modern technical facts.",
+        "Twelve of thirteen PC software trends body pagesPDF67–78 are preserved in immutable nativesa+b. Final79 and separate complete article assembly remain;original native stage notes are retained as provenance.",
+        "Middle native independently matches264 files/81,456,474 bytes;all6,915 local ranges/7,022 pins/70 images and source pixels pass."
       ],
       "restoration": {
         "directory": "archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a",
@@ -4103,12 +4110,6 @@
           "figures": 13,
           "regional_transcripts": 52,
           "deferred_pdf_pages": [
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
             79
           ],
           "full_article_pdf_pages": [
@@ -4127,38 +4128,53 @@
             79
           ],
           "outside_body_pdf_pages_within_extent": [],
-          "excluded_region_ids": []
+          "excluded_region_ids": [],
+          "covered_across_immutable_segments": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "primary_pdf_pages_are_opening_native_only": true
         },
         "body_pages_complete": false,
         "all_body_pages_preserved_across_segments": false,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "checkpoint": "batch-39",
-        "latest_checkpoint": "batch-39",
+        "latest_checkpoint": "batch-40",
         "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-39/pc-software-trends-a-r02/article-scope.json",
-          "sha256": "d6107be8f529b453e1612929fbdfa3f2cf7d52489b054812dd33388d7700510a",
-          "bytes": 758
+          "path": "archive/pdf/1988-01/restoration/batch-40/pc-software-trends-b-r03/article-scope.json",
+          "sha256": "96f65473546a3ecff47fafbcc00b8a1306fc4e408e33772bfe7a58c77dd4808d",
+          "bytes": 756
         },
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-39/validation.json",
-          "sha256": "045750231c24aec99bbb85b04eed57a6184bac3da60a4149459cf9bc1ce16f82",
-          "bytes": 3387
+          "path": "archive/pdf/1988-01/restoration/batch-40/validation.json",
+          "sha256": "c15c6c2dfa9a651855a66c92e4d3a73ad359524143a6358fe66d06db99594c37",
+          "bytes": 3594
         },
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-39/validation.json",
-          "sha256": "045750231c24aec99bbb85b04eed57a6184bac3da60a4149459cf9bc1ce16f82",
-          "bytes": 3387
+          "path": "archive/pdf/1988-01/restoration/batch-40/validation.json",
+          "sha256": "c15c6c2dfa9a651855a66c92e4d3a73ad359524143a6358fe66d06db99594c37",
+          "bytes": 3594
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-39/reproduction.json",
-          "sha256": "e8082be654c35c7f8f208d857fd2fbafe1a1478794a81ef099a23a5212927194",
-          "bytes": 1497
+          "path": "archive/pdf/1988-01/restoration/batch-40/reproduction.json",
+          "sha256": "0ca856e897d2fe4e21ae78a77049a711023347927efddabbabae3ec43640cab2",
+          "bytes": 1668
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-39/reproduction.json",
-          "sha256": "e8082be654c35c7f8f208d857fd2fbafe1a1478794a81ef099a23a5212927194",
-          "bytes": 1497
+          "path": "archive/pdf/1988-01/restoration/batch-40/reproduction.json",
+          "sha256": "0ca856e897d2fe4e21ae78a77049a711023347927efddabbabae3ec43640cab2",
+          "bytes": 1668
         },
         "segments": [
           {
@@ -4245,14 +4261,123 @@
             },
             "native_immutable": true,
             "coverage_is_original_native_provenance": true
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b/manifest.json",
+              "sha256": "ae2bfceeabb54364125db69a1b23af8465daf49b809ad871e1acf324c5679518",
+              "bytes": 45618
+            },
+            "coverage": {
+              "full_pdf_pages": [
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79
+              ],
+              "full_printed_pages": [
+                "65",
+                "66",
+                "67",
+                "68",
+                "69",
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75",
+                "76",
+                "77"
+              ],
+              "current_pdf_pages": [
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "previous_native_pdf_pages": [
+                67,
+                68,
+                69,
+                70,
+                71,
+                72
+              ],
+              "deferred_pdf_pages": [
+                79
+              ],
+              "body_pages_complete": false,
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "printed_byline_present": false,
+              "sample_Joe_Smith_not_article_byline": true,
+              "outside_body_pdf_pages_within_extent": [],
+              "excluded_region_ids": []
+            },
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "recipe": {
+              "path": "archive/pdf/1988-01/restoration/batch-40/pc-software-trends-b-r03/package-recipe.json",
+              "sha256": "dc1d9581decf6543e2dacbce2835b77efdad6e9cea4a386a262b57788e4a10c1",
+              "bytes": 16007
+            },
+            "source_scope": {
+              "path": "archive/pdf/1988-01/restoration/batch-40/pc-software-trends-b-r03/article-scope.json",
+              "sha256": "96f65473546a3ecff47fafbcc00b8a1306fc4e408e33772bfe7a58c77dd4808d",
+              "bytes": 756
+            },
+            "validation": {
+              "path": "archive/pdf/1988-01/restoration/batch-40/validation.json",
+              "sha256": "c15c6c2dfa9a651855a66c92e4d3a73ad359524143a6358fe66d06db99594c37",
+              "bytes": 3594
+            },
+            "reproduction": {
+              "path": "archive/pdf/1988-01/restoration/batch-40/reproduction.json",
+              "sha256": "0ca856e897d2fe4e21ae78a77049a711023347927efddabbabae3ec43640cab2",
+              "bytes": 1668
+            },
+            "native_immutable": true,
+            "coverage_is_original_native_provenance": true
           }
         ],
         "active_stage_notes": [
-          "Opening nativea preservesPDF67–72 of thirteen actual body pages67–79. Seven later pages73–79 and separate complete assembly remain.",
-          "Outgoing72right 워크쉬트의 제자리로 continues73left 돌아오는 것이다.;native boundary remains pending.",
-          "Six screens/five tables preserve independent candidates with20 source-linked uncertainty markers and unverified small numerical glyphs;no arithmetic/cross-screen/source-code repair."
+          "Twelve of thirteen PC software trends body pagesPDF67–78 are preserved in immutable nativesa+b. Final79 and separate complete article assembly remain;original native stage notes are retained as provenance.",
+          "Incoming72/73 제자리로/돌아오는 것이다. and outgoing78/79 특징/들 remain source-linked separate assembly boundaries.",
+          "Two source-pass coverage repairs replaced five PDF77 and three Ventura inputs;all maps/raws/transcripts retained with explicit reuse provenance."
         ],
         "source_limits": [
+          "Twelve of thirteen PC software trends body pagesPDF67–78 are preserved in immutable nativesa+b. Final79 and separate complete article assembly remain;original native stage notes are retained as provenance.",
+          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source names/versions,numeric/historical/technical claims,execution and independent backup recovery remain unverified.",
+          "Opening native only:PDF67–72/printed65–70 of actual full featurePDF67–79/printed65–77. Prior66Medusa advertisement and next80independent postal-code contest support extent;no printed byline. Seven later body pages and separate complete assembly remain.",
+          "Twelve prose joins retain two introduction paragraphs,page-scroll continuation, WYSIWYG/menu flows,최/대로,있기/때문이다,그/런 across70–71,계/속적으로,둘째/는,제공한/다. and최/근까지는. Outgoing 제자리로/돌아오는 것이다. waits for nativeb,not silently claimed complete.",
+          "Six independent screenshots retain source UI/prose/value candidates with source-linked unknown/clipped/ruler/status placeholders. All original pixels remain. Five source tables preserve24 rows/83 logical cells(82 nonblank,one blank HAL bottom-row label)/15 printed headers;no unprinted total/header labels invented. Values are not calculated or harmonized across screens.",
+          "WordPerfect three columns and Word two clipped windows retain separate spatial serializations. Tiny numerical/name/operator/paragraph-marker candidates remain unverified;unknown source character counts are never inferred. One WordStar equation remains unresolved rather than filled from the budget or last result. Source math menu is display text,not an executable listing.",
+          "Two superscript/subscript candidates3²/log₂,three wrapped key fields plusS/Exit prose fields,seventeen WordStar math-menu items and four HAL relation rows retained. Last HAL factor is source-clipped,not completed from preceding1.02 repetitions. Opening artwork labels/handwritten WYSIWYG/rulers/scan seams remain pixels;source graphic label/glyph interpretation remains pending.",
+          "Source headingWYSIWG differs from bodyWYSIWYG. Repeated매우,point before개발된,WordPerfect4./2,WordStarPr/ofessional,page-orie/nted,document-o/riented,WY/SIWYG,Shif/t,mous/e,libr/ary,linkin/g,circled-a/@,Roman numeral andcut and-paste remain literal candidates. Historical/version/price/technical claims unverified.",
+          "All65 selected crops before52 kor+eng recognitions;13 pre-OCR expansion operations/twelve distinct regions and three maps/all crops retained. All52 raw drafts read before one source pass. Eight auxiliary4x unchanged-crop views;zero failures/retries/post-OCR repairs.",
+          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source names/versions,numeric/historical/technical claims,execution and independent backup recovery remain unverified.",
+          "Middle native onlyPDF73–78/printed71–76. Opening nativea67–72 remains exact;final79 and separate complete thirteen-page assembly remain. No byline inferred from newsletter sample by Joe Smith.",
+          "Eighteen internal prose joins retain spreadsheet ending,database five-column/page flow,communications/fax,desktop publishing/style/productivity/printing and graphic-environment opening. Incoming 제자리로/돌아오는 것이다. and outgoing 특징/들 remain separately source-linked assembly boundaries.",
+          "QA result and Ventura two overlapping windows/printed newsletter remain independent. Two tables retain eight rows/twenty cells:nineteen nonblank plus one blank second QA region field;four QA printed headers. Six newsletter contents references are sample references,not issue-page targets. Leader/ruler/control/obscured bands have unknown character counts.",
+          "Two captions/thirteen source headings/three embedded sample headings,eighteen independent display panels,two paths/eighteen menu labels and sidebar candidates retain original scans. Tiny names,RNEWS-P2/Primo/Credo,paragraph mark and numeric/dimension/capacity candidates unverified;no expected UI or cross-display completion.",
+          "Printed ITTCC/Consultive Committee,체택함에,터블리싱,데스트탑,벤트라 caption versus 벤츄라 body,3분 2,repeated 치밀한/adverbs,하자는 예를 들어서,항진되었다고,얼키고 설킨 and physical technical/name/quoted-word wraps retained. Historical hardware/version/network/fax/price/forecast/sample claims are unverified.",
+          "All70 initial crops reviewed before62 initial kor+eng tasks;ten pre-OCR expansions. During one source pass,two edge-coverage repairs expanded five PDF77 and three Ventura panels,eight changed-input recognitions only;each replacement reviewed before OCR and all new raws read before same-pass resumption. Four maps/all crops/raws retained;70 total recognition invocations,zero failures/unchanged-input retries. Selected62 drafts retain54 original and eight replacement recognitions with explicit reuse provenance. Twenty-two auxiliary4x views inspected;one additional full Ventura4x view generated but not inspected."
+        ],
+        "opening_native_source_limits_provenance": [
           "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source names/versions,numeric/historical/technical claims,execution and independent backup recovery remain unverified.",
           "Opening native only:PDF67–72/printed65–70 of actual full featurePDF67–79/printed65–77. Prior66Medusa advertisement and next80independent postal-code contest support extent;no printed byline. Seven later body pages and separate complete assembly remain.",
           "Twelve prose joins retain two introduction paragraphs,page-scroll continuation, WYSIWYG/menu flows,최/대로,있기/때문이다,그/런 across70–71,계/속적으로,둘째/는,제공한/다. and최/근까지는. Outgoing 제자리로/돌아오는 것이다. waits for nativeb,not silently claimed complete.",
@@ -4261,7 +4386,67 @@
           "Two superscript/subscript candidates3²/log₂,three wrapped key fields plusS/Exit prose fields,seventeen WordStar math-menu items and four HAL relation rows retained. Last HAL factor is source-clipped,not completed from preceding1.02 repetitions. Opening artwork labels/handwritten WYSIWYG/rulers/scan seams remain pixels;source graphic label/glyph interpretation remains pending.",
           "Source headingWYSIWG differs from bodyWYSIWYG. Repeated매우,point before개발된,WordPerfect4./2,WordStarPr/ofessional,page-orie/nted,document-o/riented,WY/SIWYG,Shif/t,mous/e,libr/ary,linkin/g,circled-a/@,Roman numeral andcut and-paste remain literal candidates. Historical/version/price/technical claims unverified.",
           "All65 selected crops before52 kor+eng recognitions;13 pre-OCR expansion operations/twelve distinct regions and three maps/all crops retained. All52 raw drafts read before one source pass. Eight auxiliary4x unchanged-crop views;zero failures/retries/post-OCR repairs."
-        ]
+        ],
+        "opening_native_source_scope_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-39/pc-software-trends-a-r02/article-scope.json",
+          "sha256": "d6107be8f529b453e1612929fbdfa3f2cf7d52489b054812dd33388d7700510a",
+          "bytes": 758
+        },
+        "opening_native_validation_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-39/validation.json",
+          "sha256": "045750231c24aec99bbb85b04eed57a6184bac3da60a4149459cf9bc1ce16f82",
+          "bytes": 3387
+        },
+        "opening_native_reproduction_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-39/reproduction.json",
+          "sha256": "e8082be654c35c7f8f208d857fd2fbafe1a1478794a81ef099a23a5212927194",
+          "bytes": 1497
+        },
+        "directory_is_opening_native_only": true,
+        "native_source_limits_provenance": [
+          [
+            "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source names/versions,numeric/historical/technical claims,execution and independent backup recovery remain unverified.",
+            "Opening native only:PDF67–72/printed65–70 of actual full featurePDF67–79/printed65–77. Prior66Medusa advertisement and next80independent postal-code contest support extent;no printed byline. Seven later body pages and separate complete assembly remain.",
+            "Twelve prose joins retain two introduction paragraphs,page-scroll continuation, WYSIWYG/menu flows,최/대로,있기/때문이다,그/런 across70–71,계/속적으로,둘째/는,제공한/다. and최/근까지는. Outgoing 제자리로/돌아오는 것이다. waits for nativeb,not silently claimed complete.",
+            "Six independent screenshots retain source UI/prose/value candidates with source-linked unknown/clipped/ruler/status placeholders. All original pixels remain. Five source tables preserve24 rows/83 logical cells(82 nonblank,one blank HAL bottom-row label)/15 printed headers;no unprinted total/header labels invented. Values are not calculated or harmonized across screens.",
+            "WordPerfect three columns and Word two clipped windows retain separate spatial serializations. Tiny numerical/name/operator/paragraph-marker candidates remain unverified;unknown source character counts are never inferred. One WordStar equation remains unresolved rather than filled from the budget or last result. Source math menu is display text,not an executable listing.",
+            "Two superscript/subscript candidates3²/log₂,three wrapped key fields plusS/Exit prose fields,seventeen WordStar math-menu items and four HAL relation rows retained. Last HAL factor is source-clipped,not completed from preceding1.02 repetitions. Opening artwork labels/handwritten WYSIWYG/rulers/scan seams remain pixels;source graphic label/glyph interpretation remains pending.",
+            "Source headingWYSIWG differs from bodyWYSIWYG. Repeated매우,point before개발된,WordPerfect4./2,WordStarPr/ofessional,page-orie/nted,document-o/riented,WY/SIWYG,Shif/t,mous/e,libr/ary,linkin/g,circled-a/@,Roman numeral andcut and-paste remain literal candidates. Historical/version/price/technical claims unverified.",
+            "All65 selected crops before52 kor+eng recognitions;13 pre-OCR expansion operations/twelve distinct regions and three maps/all crops retained. All52 raw drafts read before one source pass. Eight auxiliary4x unchanged-crop views;zero failures/retries/post-OCR repairs."
+          ],
+          [
+            "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source names/versions,numeric/historical/technical claims,execution and independent backup recovery remain unverified.",
+            "Middle native onlyPDF73–78/printed71–76. Opening nativea67–72 remains exact;final79 and separate complete thirteen-page assembly remain. No byline inferred from newsletter sample by Joe Smith.",
+            "Eighteen internal prose joins retain spreadsheet ending,database five-column/page flow,communications/fax,desktop publishing/style/productivity/printing and graphic-environment opening. Incoming 제자리로/돌아오는 것이다. and outgoing 특징/들 remain separately source-linked assembly boundaries.",
+            "QA result and Ventura two overlapping windows/printed newsletter remain independent. Two tables retain eight rows/twenty cells:nineteen nonblank plus one blank second QA region field;four QA printed headers. Six newsletter contents references are sample references,not issue-page targets. Leader/ruler/control/obscured bands have unknown character counts.",
+            "Two captions/thirteen source headings/three embedded sample headings,eighteen independent display panels,two paths/eighteen menu labels and sidebar candidates retain original scans. Tiny names,RNEWS-P2/Primo/Credo,paragraph mark and numeric/dimension/capacity candidates unverified;no expected UI or cross-display completion.",
+            "Printed ITTCC/Consultive Committee,체택함에,터블리싱,데스트탑,벤트라 caption versus 벤츄라 body,3분 2,repeated 치밀한/adverbs,하자는 예를 들어서,항진되었다고,얼키고 설킨 and physical technical/name/quoted-word wraps retained. Historical hardware/version/network/fax/price/forecast/sample claims are unverified.",
+            "All70 initial crops reviewed before62 initial kor+eng tasks;ten pre-OCR expansions. During one source pass,two edge-coverage repairs expanded five PDF77 and three Ventura panels,eight changed-input recognitions only;each replacement reviewed before OCR and all new raws read before same-pass resumption. Four maps/all crops/raws retained;70 total recognition invocations,zero failures/unchanged-input retries. Selected62 drafts retain54 original and eight replacement recognitions with explicit reuse provenance. Twenty-two auxiliary4x views inspected;one additional full Ventura4x view generated but not inspected."
+          ]
+        ],
+        "combined_segment_metrics": {
+          "regions": 135,
+          "blocks": 84,
+          "figure_assets": 21,
+          "regional_transcripts": 114,
+          "transcript_rows": 1821,
+          "transcript_tokens": 8634,
+          "internal_prose_joins": 30,
+          "native_files": 493,
+          "native_bytes": 163640133,
+          "display_serialized_rows": 358,
+          "display_numeric_candidates": 116,
+          "source_uncertainty_markers": 55,
+          "source_tables": 7,
+          "table_rows": 32,
+          "table_cells": 103,
+          "table_nonblank_cells": 101,
+          "table_blank_cells": 2,
+          "table_headers": 19,
+          "source_headings": 28,
+          "embedded_headings": 18,
+          "printed_captions": 8
+        }
       }
     },
     {
@@ -6000,6 +6185,61 @@
         "sha256": "e8082be654c35c7f8f208d857fd2fbafe1a1478794a81ef099a23a5212927194",
         "bytes": 1497
       }
+    },
+    {
+      "name": "batch-40",
+      "completed_at": "2026-10-27T05:12:47.177189+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0039"
+      ],
+      "mapped_pdf_pages": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "article_page_assignments": 6,
+      "outside_lookup_pages": 2,
+      "all_inspected_source_pages": 8,
+      "rendered_but_not_inspected_pdf_pages": [],
+      "recognition_tasks": 70,
+      "selected_ocr_drafts": 62,
+      "initial_recognitions": 62,
+      "changed_input_recognitions": 8,
+      "eng_code": 0,
+      "kor_eng_other": 70,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "before_ocr_expansion_operations": 10,
+      "post_ocr_crop_repairs": 8,
+      "post_ocr_repair_rounds": [
+        5,
+        3
+      ],
+      "map_revisions": 3,
+      "retained_maps": 4,
+      "recognition_reuse_context": {
+        "path": "archive/pdf/1988-01/restoration/batch-40/ocr-reuse-context.json",
+        "sha256": "92c8e81f735b0dae0de6449ff743fb71be6eab4d9f79cc617f4f65f774f7ad33",
+        "bytes": 107400
+      },
+      "status": "complete-middle-native;final79-and-complete-assembly-pending",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-40/validation.json",
+        "sha256": "c15c6c2dfa9a651855a66c92e4d3a73ad359524143a6358fe66d06db99594c37",
+        "bytes": 3594
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-40/reproduction.json",
+        "sha256": "0ca856e897d2fe4e21ae78a77049a711023347927efddabbabae3ec43640cab2",
+        "bytes": 1668
+      }
     }
   ],
   "notes": [
@@ -6008,32 +6248,23 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Restore verified middlePDF73–78/printed71–76 of0039 PC software trends as immutable nativeb. Preserve incoming72right 워크쉬트의 제자리로/73left 돌아오는 것이다. against immutable nativea;retain remaining spreadsheet discussion,database/communications/desktop-publishing sections and graphic-environment opening with captions/screens/UI/value/price/name/version/claim and physical-wrap uncertainties. EndingPDF79 and separate complete thirteen-page assembly remain for later checkpoints. Inspect72incoming/79ending as bounded outside views;no OCR of unchanged nativea and no technical/grammar/expected-screen-text repair.",
+    "goal": "Restore verified finalPDF79/printed77 of0039 PC software trends as immutable nativec. Inspect incoming78right 탐나는 특징/79left 들 - 그래픽과 사용하기 쉬운 사용자 and independent postal-code contest opening80;retain final graphics/interface paragraphs,source headings/captions/screens if present,and full original page without expected software/history/grammar repair. Keep exact opening nativea67–72 and middle nativeb73–78,including all source arrays/scalars/objects,screen/table/UI/value/unknown and physical-wrap metadata. Complete thirteen-page assembly remains a separate checkpoint after all three natives. Declare any second canonical task before mapping;none is pre-authorized by this final-native queue.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0039"
     ],
     "canonical_reference": "65",
-    "known_start_pdf_page": 73,
+    "known_start_pdf_page": 79,
     "mapping_pdf_pages": [
-      73,
-      74,
-      75,
-      76,
-      77,
-      78
-    ],
-    "lookup_pdf_page_candidates": [
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
       79
     ],
+    "lookup_pdf_page_candidates": [
+      78,
+      79,
+      80
+    ],
     "source_segments": [
-      "archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a"
+      "archive/pdf/1988-01/packages/batch-39-r01/pc-software-trends-a",
+      "archive/pdf/1988-01/packages/batch-40-r01/pc-software-trends-b"
     ],
     "full_body_pdf_pages": [
       67,
@@ -6057,7 +6288,7 @@
     }
   },
   "remaining_work": [
-    "14 canonical identities still need source classification/restoration,including0032 Survey original175/bounded inconclusive review.0039 PC software trends now partial with six of thirteen body pagesPDF67–72 preserved;73–79 and complete assembly remain.0038 scanner report and0051 non-owning heading complete;one recognition glyph/two graph panels retain manual glyph review. Earlier0037/0034/0033 complete;former0023 original105 conflict/history and legacy0018/private adapters retained.",
+    "14 canonical identities still need source classification/restoration,including0032 Survey original175/bounded inconclusive review.0039 PC software trends has twelve of thirteen body pagesPDF67–78 across two immutable natives;final79 and complete assembly remain.0038/0051 and earlier0037/0034/0033 complete;one recognition glyph/two graph panels retain manual review. Former0023 original105 conflict/history and legacy0018/private adapters retained.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
@@ -6068,5 +6299,5 @@
     "non_owning_headings": 7,
     "unresolved": 14
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-39/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-40/preservation-inventory.json"
 }
