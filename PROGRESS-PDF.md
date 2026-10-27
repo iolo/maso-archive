@@ -6,70 +6,73 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-January 1988 is active: 51 canonical identities, thirty-one readable/sample-reviewed
-articles, zero partial articles, seven non-owning headings and 13 unresolved identities.
+January 1988 is active: 51 canonical identities, thirty-two readable/sample-reviewed
+articles, zero partial articles, eight non-owning headings and 11 unresolved identities.
 No classified article has deferred body pages or a pending complete assembly.
 
-Batch43 restores0042, 우편번호를 이용한 프로그램 공모안내, acrossPDF80–81.
-Original contents reference78 remains unchanged;both visible folios are null.
-The source title 우편번호를 이용한 프로그램 공모 omits canonical안내.
-Prior79ends the PC software feature;next82is independent Samsung contest advertising.
-No byline or printed caption invented. Selected
-`archive/pdf/1988-01/packages/batch-43-r02/postal-code-contest` has159files /
-20,385,716bytes,matching its independent rebuild:46regions/33reading blocks/
-11originals/35transcripts/151physical rows/575tokens. All1,174local UTF-8 ranges,
-1,244review pins and46exact reviewed image pixels validate.
+Batch44 restores0044, 소프트웨어 보호법 시행이후 등록된 소프트웨어, on
+PDF214–216/printed214–216, and resolves0043 자료 as a non-owning parent heading.
+The original contents reference214 remains unchanged. Source furniture 정보 does
+not rename the canonical parent. The preceding printer/font-editor data ends213;
+the back-issue index independently opens217. No byline or printed caption invented.
+Selected `archive/pdf/1988-01/packages/batch-44-r01/software-registration` has158files /
+38,546,464bytes, matching its independent rebuild. All42regions/36blocks/six originals/
+36transcripts/542serialized rows/1,900tokens are retained. All5,557local UTF-8 ranges,
+5,611review pins and42exact source-image crops validate.
 
-The contest retains program aims,schedule,contact/address fields,opening deck,
-three award tiers,four conditions/four submission bullets and sponsor roles/names.
-Two cross-column connections preserve separate schedule items with a paragraph
-separator and source 공/개하고 with an empty join. Printed 상품60만원/상품20만원,
-historical spellings,physical wraps,dates,property terms and source names remain
-literal unverified candidates. Postal explanatory prose,ten structure-label rows,
-four numeric bands and23map/callout fields survive without inferred code values.
-Four reproduced directory panels,including the unheaded upper fragment,remain
-original images. Three heading/column groups retain12headers;dense body rows/cells/
-addresses/codes are explicitly volunteer transcription/verification pending,with
-unknown row/cell counts. Three circled postal marks and one tiny vertical marginal
-label retain editorial uncertainty markers with unknown source character counts.
-Small 통/상위번/콤텍/호산/779-0004 candidates remain unverified.
+The table retains94rows (24/35/35 by page),470logical cells and507physical cell lines.
+Each row has program title,creation date,registration date,author name and address.
+The two dates remain independent fields within their shared printed column. Eight
+rows retain two author/address lines:102name lines and102address lines in all.
+Their dates remain whole-row fields;no per-author date assignment or unprinted
+registration number is inferred. Eighteen header occurrences include three author
+spanners;two page continuations retain repeated headers and independent rows.
+Title,deck,registration-order/as-of note,furniture/folios and every original table
+remain source-linked. Four small marks retain unknown-count editorial placeholders.
+Source 우리내,격어야,미납적용,오펼화,위드프로세서,킹,version-comma/Latin/Roman/
+center-dot candidates and physical cell/prose wraps remain literal and unverified.
 
-One task/two mapped pages80–81/three outside lookups11/79/82 meet bounds. Initial
-one-page expectation revised before mapping;45initial exact crops inspected,then
-five changed/new crops. Four pre-OCR geometry repairs and one added text crop
-retain all originals.35pinned kor+eng tasks,all raw drafts read before one source
-pass,ten enlarged unchanged-crop views,zero failures/retries/post-OCR repairs.
-All36,226prior January files/134pilot files/30core pins remain exact. Reused the
-fresh213passing PDF tests from Batch42;no core changes or fresh test run.
+Two tasks/three mapped pages214–216/three outside lookups11/213/217 meet bounds.
+Rendered212/218/219 were not inspected and supply no location evidence. All42initial
+crops and one widened running-header crop were inspected before36pinned kor+eng
+recognitions. All raw drafts were read before one source pass;direct unchanged-band
+reads recovered nine empty drafts and other incomplete table OCR. Two enlarged
+source-field views;zero engine failures,retries or post-OCR crop repairs. Initial
+maps/crops/drafts/scripts and the recorder syntax failure remain preserved. The
+selected recorder revision changes only an invalid audit-key name. A fresh English
+reproduction-scope notation revision leaves source data/export unchanged.
+All37,306prior January files/134pilot files/30core pins remain exact. The fresh213
+passing PDF tests from Batch42 are reused;no core changes or fresh test run.
 
-0039PC software trends remains complete acrossPDF67–79/printed65–77,with523exact
-native files in its531file complete assembly. Eventual issue dispatch must retain
-`pc-software-trends-literal-v1` and selected`batch-42/pc_software_literal_r01.py`;
-keep`batch-35/turbo_c_literal.py`,`batch-21/legacy_input_r01.py` with exact oldTOC/
-context/current identity guard,`batch-18/magic_literal_r02.py` and
-`batch-15/ram_literal_r01.py` too.0038/0051 and earlier0037/0034/0033 remain complete;
-one recognition glyph/two graph panels retain manual review. Survey0032 retains
-original175 and bounded inconclusive`batch-32/survey-location-review.json`;no
-quiz/writer substitution or sourcewide absence claim. Former0023 remains readable
-165/PDF167right with original105 conflict/history and
-`batch-30/debugging-room-location-found.json`.
+Earlier0042postal-code notice is complete80–81;its dense reproduced directory bodies
+remain original images with volunteer transcription pending.0039PC software trends
+is complete67–79. Eventual issue dispatch must retain selected
+`batch-42/pc_software_literal_r01.py`/`pc-software-trends-literal-v1`,alongside
+`batch-35/turbo_c_literal.py`,`batch-21/legacy_input_r01.py` with exact oldTOC/context/
+current identity guard,`batch-18/magic_literal_r02.py` and`batch-15/ram_literal_r01.py`.
+0038scanner retains one recognition glyph/two graph panels for manual review.
+Survey0032 retains original175 and bounded inconclusive
+`batch-32/survey-location-review.json`;no quiz/writer substitution or sourcewide
+absence claim. Former0023 remains readable165/PDF167right with original105 conflict/
+history and`batch-30/debugging-room-location-found.json`.
 
-Next verify0043 자료 ownership and restore0044 소프트웨어 보호법 시행이후 등록된
-소프트웨어,original reference214. Contents11/PDF212–219 are provisional lookup
-candidates only. Verify actual opening/ending/continuations and independent neighbors
-before mapping;preserve table headings/rows/cells/names/dates/numbers and originals
-without inferred registrations or modern claim repair. Decide parent ownership
-from source evidence. Two-task/six-page/twenty-outside bounds continue;segment if
-longer. The13unresolved identities,all-page accounting,donated cover,standalone
-JSON/assets export and final audit remain. Full issue goal active. No reader rebuild
-or deployment. Human acceptance/full proofreading,source encoding/glyphs/exact
-spaces,historical/technical/legal/price/forecast claims,execution and independent
-backup recovery remain unverified.
+Next restore0045 과월호 목차정리(1986. 11∼1987. 12),original217/verified opening217.
+Verify ending,continuations and independent neighbors before mapping. Contents11,
+prior216,opening217–223 and final235–242 are provisional lookup candidates only.
+If longer than six pages,restore at most217–222 in the first immutable native,
+then bounded continuations and a separate assembly. Preserve the four index-use
+explanations and all table headings/rows/cells/month/platform/source-issue/page/
+blank/unknown fields. Source references are data,not current-issue folios;no expected
+chronology/title/platform completion. Two-task/six-page/twenty-outside bounds continue.
+The11unresolved identities,all-page accounting,donated cover,standalone JSON/assets
+export and final audit remain. Full issue goal active. No reader rebuild or deployment.
+Human acceptance/full proofreading,source encoding/glyphs/exact spaces,historical/
+technical/legal/price claims,execution and independent backup recovery remain unverified.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-43/validation-r01.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-43/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-44/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-44/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
