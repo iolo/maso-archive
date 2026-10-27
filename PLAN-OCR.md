@@ -26,66 +26,63 @@ paired OCR or a new engine comparison.
 - January 1988 is active: 51 canonical identities, thirty-six readable/sample-reviewed
   articles, zero partial articles, fourteen non-owning headings and one unresolved identity.
 
-  All 242 source pages have content records:188 selected body pages/190 assignments
-  from 36 unchanged articles, plus 54 directly reviewed outside pages. Batch 64 now
-  audits shared ownership and exclusion geometry across 36 selected maps and all
-  23 embedded native maps. The content-accounting index remains unchanged.
+  Batch 65 verifies the donated January1988 cover and a separate reproducible thumbnail.
+  Both donated `covers/8801.jpg` and the retained PDF1 candidate visibly show1/1988;
+  the publication line also identifies January1,1988. The donor retains the spine and
+  left-hand cover text clipped in the PDF framing. Its full5521×6956 input is preserved.
+  The selected480×605 RGB JPEG is47,370 bytes,metadata-stripped and independently exact.
+  It retains the whole scan and original aspect ratio,with no cropping or upscaling.
+  The original wear,spine and edges remain. Both inputs and all alternatives are unchanged;
+  the private donor original is not bundled. The thumbnail was directly visually reviewed.
 
-  All 33 selected exclusions on 24 pages and 12 embedded native exclusions are disjoint
-  from their own mapped regions:350 selected and 100 native comparisons. Each native
-  exclusion retains every field in its selected-map projection, apart from prefixed IDs.
-  The original advertisement/other/unlisted kinds and notes remain exact, including
-  the unlisted monitor on PDF95 and utility-disk promotion on107. All 21 null printed
-  folios are retained; no number is filled from a global offset.
+  The existing thumbnail transform was used only for this private derivative;no reader
+  operation was run. Both cover.jpg and its provenance JSON match the independent rebuild.
+  All49,618 prior January files,134 pilot files and30 core pins remain exact. The213
+  passing Batch42 tests are reused. All51canonical entries,36article exports,source
+  transcriptions,page-content accounting and ownership/exclusion audit remain unchanged.
+  No new rendering,mapping,OCR or source correction.
 
-  Shared PDF100 and167 have 336 cross-owner region pairs, including 240 nonfigure pairs.
-  All body pairs are disjoint. The sole overlap is the exact same small original-folio
-  image on167 in both packages; it is explicitly recorded as shared page furniture.
-  Every nonfigure body region lies within the other owner's exclusion. PDF100's
-  hardware0010/typewriter0046 separation retains the previously reviewed Batch60 evidence.
-  PDF167 was directly reviewed again:Readers Forum0029 concludes in the left two columns;
-  Debugging Room/Bulletin Board0023 occupies the right two. Printed165 is directly visible.
-  Other exclusions were checked against frozen maps and prior package evidence;
-  this checkpoint did not freshly inspect their source pixels or proofread body text.
+  All242source pages have content records:188selected body pages/190assignments plus
+  54directly reviewed outside pages. The static ownership audit covers36selected maps
+  and23embedded native maps.33selected exclusions on24pages and12native exclusions
+  pass350+100disjoint own-region comparisons. All12native exclusion projections retain
+  their fields except prefixed IDs.21null folios,unlisted monitor95 and disk promotion107
+  remain literal. Shared100/167have336region pairs,including240nonfigure pairs;all body
+  pairs are disjoint. Only the identical small original-folio image on167 overlaps.
+  Opposite-owner exclusions contain every other-owner nonfigure body region. PDF167
+  source review is fresh in Batch64;PDF100uses the frozen Batch60source review.
 
-  The ownership/exclusion audit is byte-identical to its independent reconstruction.
-  All 49,594 prior January files, 134 pilot files and 30 core pins remain exact. The
-  213 passing Batch42 tests are reused. All 51 canonical entries and all article maps,
-  exports and transcriptions remain unchanged. No new rendering, mapping, OCR or
-  source correction. Human acceptance remains separate from assistant sample review.
-
-  Outside-page accounting retains 45 advertisements,cover,contents/colophon,unlisted
-  New Year editorial,two awards pages,January events calendar,public-software catalogue,
+  Outside-page accounting retains45advertisements,cover,contents/colophon,unlisted New
+  Year editorial,two awards pages,January events calendar,public-software catalogue,
   subscription/distribution page and mixed afterword/advertiser-index/ad page240.
-  PDF238 visibly bears printed238. PDF8's sideways advertisement remains unchanged.
-  PDF1 is a damaged dated cover candidate; donated-cover selection is next.
+  PDF238visibly bears printed238. PDF8's sideways advertisement remains unchanged.
 
   Canonical0032 remains unresolved with original contents reference175. The verified
-  PDF22–23/printed20–21 awards spread and all bounded source-location reviews remain
-  preserved. No questionnaire ownership, substitute body, missing-scan explanation or
-  source-wide absence is established. This two-owner audit did not adjudicate survey
-  eligibility; explicit gap disposition remains part of issue closeout.
+  PDF22–23/printed20–21 awards spread and all bounded source-location evidence remain
+  preserved. No questionnaire ownership,substitute body,missing-scan explanation or
+  source-wide absence is established. This zero-canonical-task cover checkpoint did
+  not adjudicate that identity;the standalone issue must report its eligibility gap.
 
-  Eventual issue dispatch must retain `batch-57/central_hangul_printer_literal_r01.py`,
+  Issue dispatch must retain `batch-57/central_hangul_printer_literal_r01.py`,
   `batch-54/central_hangul_editor_literal_r02.py`, `batch-48/back_issue_index_literal.py`,
   `batch-42/pc_software_literal_r01.py`, `batch-35/turbo_c_literal.py`,
   `batch-21/legacy_input_r01.py` with its exact old TOC/context/current identity guard,
   `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`.
 
-  Next directly inspect donated `covers/8801.jpg` and the retained PDF1 candidate.
-  Verify the visible date, orientation and proportions before selecting a source.
-  Create a separate metadata-stripped RGB JPEG thumbnail without cropping/upscaling,
-  at most640 pixels on its longest side, and independently reproduce it. Preserve all
-  originals and alternatives. Standalone JSON/assets export, eligibility gap reporting,
-  independent native/issue rebuild and final requirement audit remain. Former0023
-  original105 history,postal samples and scanner glyph/two graph panels keep their limits.
-  The full issue goal is active. Keep two-task/six-page/twenty-outside bounds. No reader
-  rebuild or deployment. Human acceptance,full proofreading,encoded bytes,exact spaces/
-  glyphs,historical/technical claims,execution and independent backup recovery are unverified.
+  Next perform full issue closeout:standalone JSON/assets index and accounting/gap report,
+  independent regeneration of all selected/native packages and the thumbnail,then a
+  byte-identical second issue export. Verify every source/asset/local-range/listing/
+  image/native-context invariant and historical checkpoint bound/OCR/source-pass record.
+  Run the213PDF tests freshly and complete a requirement-by-requirement final audit.
+  Preserve every prior artifact and all eight adapters. Former0023original105history,
+  postal samples and scanner glyph/two graph panels retain their manual-review limits.
+  The full issue goal is active. No reader rebuild,deployment or other-issue work.
+  Human acceptance,full proofreading,encoded bytes,exact spaces/glyphs,historical/
+  technical claims,execution and independent backup recovery remain unverified.
 
-  Validation/reproduction: `archive/pdf/1988-01/restoration/batch-64/validation.json`
-  and `archive/pdf/1988-01/restoration/batch-64/reproduction.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-64/preservation-inventory.json`.
+  Validation/reproduction: `archive/pdf/1988-01/restoration/batch-65/validation.json`
+  and `archive/pdf/1988-01/restoration/batch-65/reproduction.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-65/preservation-inventory.json`.
 
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
