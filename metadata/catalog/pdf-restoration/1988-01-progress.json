@@ -3052,7 +3052,7 @@
       "parent_id": "maso-1988-01-toc-0049",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0033 independently opens printed134/PDF136 with 터보 C에서 그래픽을 title,컴퓨터 그래픽 banner,IBM PC compatibility label and printed 설현수(서울대 전기3) byline.",
@@ -3063,24 +3063,53 @@
         "GRAPHIC.H resumes ordinal196 after immutable nativea195 onPDF141;142 contains196–327,143 contains328–458 including final asterisk band. DEMO.C onPDF144 has original 리스트3 caption and ordinals001–168;following145 independently titled DACOM advertisement confirms ending.",
         "All five source pages141–145 inspected,including portrait originals and lossless clockwise oriented141–143 views. Only142–144 are mapped;141/145 are boundary lookups. No source pages deferred after this native,while article remains partial until assembly.",
         "Printed wraps,blank ordinal rows,source comments/operators/numerals,handwritten marks and asterisk bands remain literal source candidates;no code execution,algorithm or technical correctness claim.",
-        "Ending nativeb independently reproduces40 files/21,334,798 bytes. All nine body pages are preserved across415 immutable native files;availability stays partial until separate complete assembly. Nativea source metadata/limits remain original provenance."
+        "Ending nativeb independently reproduces40 files/21,334,798 bytes. All nine body pages are preserved across415 immutable native files;availability stays partial until separate complete assembly. Nativea source metadata/limits remain original provenance.",
+        "Complete nine-page0033 Turbo C graphics assembled in424 independently exact files,including415 unchanged native files and every metadata category. All112 regions/86 blocks/17 originals,698 physical code rows/689 printed ordinals/92 blank fields/3025 tokens,unnumbered414 wrap,source06,broken-bar/dot/diagram candidates,eleven code/one screen occlusions,nine prose joins,seven code connections,three listing captions and seven figure captions validate. Five exact active stage notes resolved;no deferred body pages or article assembly. Native stages remain provenance;source encoding/glyphs/spacing/claims/syntax/execution remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a",
+        "directory": "archive/pdf/1988-01/packages/turbo-c-graphics-complete-r01",
         "article_id": "scan-maso-1988-01-toc-0033",
         "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a/manifest.json",
-          "sha256": "540e13d045ef8bf82ae1592a10cb2e204721eddad8273970ccc73f66d81fd535",
-          "bytes": 64310
+          "path": "archive/pdf/1988-01/packages/turbo-c-graphics-complete-r01/manifest.json",
+          "sha256": "9ae7fc34848e54464e1620f5429edda3a8c4748f1ea2714f9a09a8f78b598115",
+          "bytes": 76845
         },
         "coverage": {
+          "regions": 112,
+          "blocks": 86,
+          "figures": 17,
+          "regional_transcripts": 95,
+          "transcript_rows": 1030,
+          "transcript_tokens": 4431,
+          "code_units": 12,
+          "physical_code_rows": 698,
+          "source_ordinal_rows": 689,
+          "blank_statement_rows": 92,
+          "code_tokens": 3025,
+          "unnumbered_comment_wraps": 1,
+          "numbered_fragment_groups": 26,
+          "asterisk_bands": 9,
+          "code_occlusions": 11,
+          "screen_occlusions": 1,
+          "complete_source_units": 3,
+          "standalone_programs": 0,
+          "printed_figure_captions": 7,
+          "printed_listing_captions": 3,
+          "listing_caption_links": 10,
+          "prose_joins": 9,
+          "internal_source_connections": 12,
+          "code_connections": 7,
+          "native_boundaries": 1,
           "pdf_pages": [
             136,
             137,
             138,
             139,
             140,
-            141
+            141,
+            142,
+            143,
+            144
           ],
           "printed_pages": [
             "134",
@@ -3088,39 +3117,11 @@
             "136",
             "137",
             "138",
-            "139"
+            "139",
+            "140",
+            "141",
+            "142"
           ],
-          "regions": 102,
-          "blocks": 79,
-          "regional_ranges": 88,
-          "transcript_rows": 597,
-          "transcript_tokens": 2651,
-          "identifier_occurrences": 843,
-          "number_fragments": 729,
-          "prose_joins": 9,
-          "source_connections": 9,
-          "code_units": 6,
-          "physical_code_rows": 266,
-          "source_ordinals": 258,
-          "code_tokens": 1248,
-          "blank_statements": 39,
-          "source_code_occlusions": 11,
-          "screen_occlusions": 1,
-          "asterisk_bands": 5,
-          "statement_fragment_groups": 17,
-          "numbered_explanations": 14,
-          "definitions": 9,
-          "references": 11,
-          "memory_address_rows": 16,
-          "memory_address_fields": 32,
-          "coordinate_labels": 7,
-          "diagram_serialized_rows": 49,
-          "configuration_entries": 4,
-          "byline_fields": 2,
-          "printed_figure_captions": 7,
-          "printed_listing_captions": 2,
-          "figures": 14,
-          "regional_transcripts": 88,
           "deferred_pdf_pages": [],
           "full_article_pdf_pages": [
             136,
@@ -3135,51 +3136,39 @@
           ],
           "outside_body_pdf_pages_within_extent": [],
           "excluded_region_ids": [
-            "pdf139-publisher-address-notice"
-          ],
-          "covered_across_immutable_segments": [
-            136,
-            137,
-            138,
-            139,
-            140,
-            141,
-            142,
-            143,
-            144
-          ],
-          "primary_pdf_pages_are_opening_native_only": true
+            "a-pdf139-publisher-address-notice"
+          ]
         },
         "body_pages_complete": true,
         "all_body_pages_preserved_across_segments": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "checkpoint": "batch-33",
-        "latest_checkpoint": "batch-34",
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-35",
+        "latest_checkpoint": "batch-35",
         "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-34/turbo-c-graphics-b-r01/article-scope.json",
-          "sha256": "fbfa8020ac91731721374ff1784ec5c3b129f296e5c1b472c20759ae4474c650",
-          "bytes": 753
+          "path": "archive/pdf/1988-01/restoration/batch-35/complete-article-scope.json",
+          "sha256": "4058fc30956719ed526a3a9bb8d0279361438707bf496847a0dff725e4307687",
+          "bytes": 640
         },
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-34/validation.json",
-          "sha256": "fea2bd54257e05297eab5b443d4631ef344c09eddbbf097471f4240d0f6e9b54",
-          "bytes": 3130
+          "path": "archive/pdf/1988-01/restoration/batch-35/validation.json",
+          "sha256": "65b21547e3046512df5692243b4e0a86956e24c63e4c338bbe850cc640a481bb",
+          "bytes": 3485
         },
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-34/validation.json",
-          "sha256": "fea2bd54257e05297eab5b443d4631ef344c09eddbbf097471f4240d0f6e9b54",
-          "bytes": 3130
+          "path": "archive/pdf/1988-01/restoration/batch-35/validation.json",
+          "sha256": "65b21547e3046512df5692243b4e0a86956e24c63e4c338bbe850cc640a481bb",
+          "bytes": 3485
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-34/reproduction.json",
-          "sha256": "e46bc178429836384e2d48cc48e45fb3d3713d36bbcf39f9399a744aaf94a45c",
-          "bytes": 1458
+          "path": "archive/pdf/1988-01/restoration/batch-35/reproduction.json",
+          "sha256": "cd3e3faa82071eb70f7d0cca9fbbc9df5ca415209942e28f2178c42d93835e1e",
+          "bytes": 2252
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-34/reproduction.json",
-          "sha256": "e46bc178429836384e2d48cc48e45fb3d3713d36bbcf39f9399a744aaf94a45c",
-          "bytes": 1458
+          "path": "archive/pdf/1988-01/restoration/batch-35/reproduction.json",
+          "sha256": "cd3e3faa82071eb70f7d0cca9fbbc9df5ca415209942e28f2178c42d93835e1e",
+          "bytes": 2252
         },
         "segments": [
           {
@@ -3330,15 +3319,13 @@
             "coverage_is_original_native_provenance": true
           }
         ],
-        "active_stage_notes": [
-          "All nine Turbo C graphics body pagesPDF136–144 are preserved across immutable nativesa+b. Complete article assembly remains pending;original native stage notes remain provenance."
-        ],
+        "active_stage_notes": [],
         "source_limits": [
           "Assistant sample review only;human acceptance/full proofreading,source encoded bytes,glyph identities/exact spaces,personal/technical/historical claims,code execution and independent backup recovery remain unverified.",
           "All source candidates and uncertainties remain unchanged in both natives. Eleven pen-obscured code fragments and one screen tail retain editorial[illegible] markers of unknown source length. Nine asterisk bands have unverified glyph counts.",
           "Visible06 between015/017,broken vertical operators¦,dot candidates,source initializer parentheses,scf/scff,ell/one,B800H/handwritten0 versusB000H/B0000,prose/code hyphens,figure4 reference and bibliography candidates remain literal/unverified. No syntax,hardware or identity repair.",
           "Lower139 publisher notice excluded;140–143 listing rotations lossless with portrait originals and observed folios retained. All original/revised maps,crops,raws,transcripts and same-pass refinement preserved.",
-          "All nine Turbo C graphics body pagesPDF136–144 are preserved across immutable nativesa+b. Complete article assembly remains pending;original native stage notes remain provenance."
+          "Original native stages remain provenance. The complete article has no deferred body page or pending assembly. All three source units are literal transcriptions,not verified executable programs;GRAPH.H/GRAPHIC.H filenames and DEMO include spelling remain independent."
         ],
         "opening_native_source_limits_provenance": [
           "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,personal/address/hardware/software/historical claims,execution and independent backup recovery remain unverified.",
@@ -3365,7 +3352,7 @@
           "sha256": "ce01ea17cbd7f2ac827cd52fb7a1016db3ba5c1923e87d5d21d15c4f4c65a473",
           "bytes": 1463
         },
-        "directory_is_opening_native_only": true,
+        "directory_is_opening_native_only": false,
         "native_source_limits_provenance": [
           [
             "Assistant sample review;human acceptance/full proofreading,original encoded bytes/glyphs/exact spaces,personal/address/hardware/software/historical claims,execution and independent backup recovery remain unverified.",
@@ -3410,6 +3397,58 @@
           "native_code_boundaries": 1,
           "native_files": 415,
           "native_bytes": 67665753
+        },
+        "ending_native_source_limits_provenance": [
+          "Assistant sample review only;human acceptance/full proofreading,source encoded bytes,glyph identities/exact spaces,personal/technical/historical claims,code execution and independent backup recovery remain unverified.",
+          "All source candidates and uncertainties remain unchanged in both natives. Eleven pen-obscured code fragments and one screen tail retain editorial[illegible] markers of unknown source length. Nine asterisk bands have unverified glyph counts.",
+          "Visible06 between015/017,broken vertical operators¦,dot candidates,source initializer parentheses,scf/scff,ell/one,B800H/handwritten0 versusB000H/B0000,prose/code hyphens,figure4 reference and bibliography candidates remain literal/unverified. No syntax,hardware or identity repair.",
+          "Lower139 publisher notice excluded;140–143 listing rotations lossless with portrait originals and observed folios retained. All original/revised maps,crops,raws,transcripts and same-pass refinement preserved.",
+          "All nine Turbo C graphics body pagesPDF136–144 are preserved across immutable nativesa+b. Complete article assembly remains pending;original native stage notes remain provenance."
+        ],
+        "ending_native_source_scope_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-34/turbo-c-graphics-b-r01/article-scope.json",
+          "sha256": "fbfa8020ac91731721374ff1784ec5c3b129f296e5c1b472c20759ae4474c650",
+          "bytes": 753
+        },
+        "ending_native_validation_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-34/validation.json",
+          "sha256": "fea2bd54257e05297eab5b443d4631ef344c09eddbbf097471f4240d0f6e9b54",
+          "bytes": 3130
+        },
+        "ending_native_reproduction_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-34/reproduction.json",
+          "sha256": "e46bc178429836384e2d48cc48e45fb3d3713d36bbcf39f9399a744aaf94a45c",
+          "bytes": 1458
+        },
+        "opening_directory_provenance": {
+          "directory": "archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a",
+          "manifest": {
+            "path": "archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a/manifest.json",
+            "sha256": "540e13d045ef8bf82ae1592a10cb2e204721eddad8273970ccc73f66d81fd535",
+            "bytes": 64310
+          },
+          "directory_was_opening_native_only": true
+        },
+        "index_contexts": {
+          "path": "archive/pdf/1988-01/restoration/batch-35/index-contexts.json",
+          "sha256": "bb1c09cf3425d8a3a98fe6de9a78d73dad3c2c2db440e54141d8a99888187e36",
+          "bytes": 1809
+        },
+        "assembly": {
+          "index_mode": "turbo-c-graphics-literal-v1",
+          "recipe": {
+            "path": "archive/pdf/1988-01/restoration/batch-35/assembly-recipe.json",
+            "sha256": "7a7311bff63051d3c00cd50178ca1d5db4f2fbb728ed764ccf19f98ea5ff16e9",
+            "bytes": 6210
+          },
+          "adapter": {
+            "path": "archive/pdf/1988-01/restoration/batch-35/turbo_c_literal.py",
+            "sha256": "23ffa5b94082b079a049e9df49cdcec0526302722b233620f0acf174dc81cdd6",
+            "bytes": 19085
+          },
+          "resolved_active_stage_notes": 5,
+          "new_ocr": 0,
+          "new_correction": 0
         }
       }
     },
@@ -5234,6 +5273,35 @@
         "sha256": "e46bc178429836384e2d48cc48e45fb3d3713d36bbcf39f9399a744aaf94a45c",
         "bytes": 1458
       }
+    },
+    {
+      "name": "batch-35",
+      "completed_at": "2026-10-27T02:39:12.619995+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0033"
+      ],
+      "canonical_tasks": 1,
+      "new_mapped_pages": 0,
+      "new_outside_lookup_pages": 0,
+      "new_ocr": 0,
+      "new_source_correction": 0,
+      "input_body_pages": 9,
+      "status": "complete-article-assembly",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-35/validation.json",
+        "sha256": "65b21547e3046512df5692243b4e0a86956e24c63e4c338bbe850cc640a481bb",
+        "bytes": 3485
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-35/reproduction.json",
+        "sha256": "cd3e3faa82071eb70f7d0cca9fbbc9df5ca415209942e28f2178c42d93835e1e",
+        "bytes": 2252
+      },
+      "adapter": {
+        "path": "archive/pdf/1988-01/restoration/batch-35/turbo_c_literal.py",
+        "sha256": "23ffa5b94082b079a049e9df49cdcec0526302722b233620f0acf174dc81cdd6",
+        "bytes": 19085
+      }
     }
   ],
   "notes": [
@@ -5242,27 +5310,24 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Assemble complete nine-page0033 Turbo C graphics from immutable nativesa+b with no new mapping,lookups,OCR or correction. Preserve all415 native files and every source array/object/scalar/list,including article/listing ranges,physical rows,printed ordinal06,unnumbered414 comment wrap,92 blank fields,26 fragment groups,11 code/one screen occlusions,nine asterisk bands,broken-bar/dot/diagram candidates,source programs,captions,tables/references/labels and original orientation/exclusion metadata. Project all local UTF8 ranges and pins into combined article/listing downloads while retaining exact native context. Verify GRAPHIC.H195/196 boundary and inherited listing2 caption across seven implementation columns;list1 GRAPH.H andlist3 DEMO.C associations. Keep nine prose joins/twelve internal connections and primary content before page references. Resolve active stage deferrals without altering native provenance. Verify112 regions/86 blocks/17 figures,12 code units/698 physical rows/689 printed ordinals/3025 code tokens,all source and projected ranges/pixels and independent rebuild. No syntax,encoded-glyph or executable repair.",
+    "goal": "Verify canonical0050 터보광 as heading versus body owner using original contents and child source evidence,and restore canonical0034 터보 파스칼을 편하게 from original reference133/known sourcePDF135. Verify opening/ending and adjacency134MAGIC KEY/136TurboC graphics;do not infer ending fromTOC. Preserve literal prose,code/comments/literals/physical wraps,original figures/screens/captions/labels and source mistakes. At most two canonical tasks/six mapped body pages/twenty outside lookups. No invented group body or global folio offset.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0033"
+      "maso-1988-01-toc-0050",
+      "maso-1988-01-toc-0034"
     ],
-    "source_segments": [
-      "archive/pdf/1988-01/packages/batch-33-r01/turbo-c-graphics-a",
-      "archive/pdf/1988-01/packages/batch-34-r01/turbo-c-graphics-b"
+    "known_start_pdf_page": 135,
+    "canonical_reference": "133",
+    "prior_opening_evidence": {
+      "path": "archive/pdf/1988-01/restoration/batch-33/source-reviewed.json",
+      "sha256": "3e026c0214e250c9a5cc6fc7f8feb34615b6b58255e95a9dbb0526375925a1ec",
+      "bytes": 2193
+    },
+    "lookup_pdf_page_candidates": [
+      11,
+      134,
+      135,
+      136
     ],
-    "full_body_pdf_pages": [
-      136,
-      137,
-      138,
-      139,
-      140,
-      141,
-      142,
-      143,
-      144
-    ],
-    "new_ocr_required": false,
-    "new_source_pages_required": false,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -5270,16 +5335,16 @@
     }
   },
   "remaining_work": [
-    "21 canonical identities still need source classification/restoration,including0032 Survey with original175 reference and bounded inconclusive review.0033 Turbo C graphics has all nine body pages preserved across415 immutable native files;separate complete article assembly remains pending.0031 Quiz complete;survey-award notice not survey body. Former0023 gap remains resolved at165/PDF167 right with original105 conflict/history;four non-owning headings and legacy0018 adoption stand.",
+    "21 canonical identities still need source classification/restoration,including0032 Survey with original175 reference and bounded inconclusive review.0033 Turbo C graphics complete/readable across nine pages;no classified article has deferred body pages or pending complete assembly.0031 Quiz award notice is not survey body. Former0023 gap remains resolved at165/PDF167 right with original105 conflict/history;four non-owning headings and legacy0018 adoption stand. Eventual issue dispatcher also needs turbo-c-graphics-literal-v1 private adapter.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 25,
-    "partial": 1,
+    "readable": 26,
+    "partial": 0,
     "non_owning_headings": 4,
     "unresolved": 21
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-34/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-35/preservation-inventory.json"
 }
