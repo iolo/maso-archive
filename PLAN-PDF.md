@@ -24,45 +24,45 @@ records below are historical and do not authorize a new rebuild.
 
 ## January 1988 active restoration, 2026-10-27
 
-January 1988 is active: 51 canonical identities, nineteen readable/sample-reviewed
-articles, four non-owning headings and 28 unresolved identities. No classified
+January 1988 is active: 51 canonical identities, twenty readable/sample-reviewed
+articles, four non-owning headings and 27 unresolved identities. No classified
 article has deferred body pages or a pending complete article assembly.
 
-Batch 27 completes 0026, 해외뉴스, on printed 155–156/PDF 157–158. Selected
-package: `archive/pdf/1988-01/packages/batch-27-r02/foreign-news`. All 116 files/
-18,117,739 bytes match the independent rebuild. Thirty regions,twenty blocks,
-26 regional transcripts and four original images preserve six news items under
-three categories. Both news photographs retain their printed captions;two complete
-page references retain typography,underlining and faint photographic labels.
-Six prose joins and seven source connections retain column/page continuations.
+Batch 28 completes 0027, 신간안내, on printed 158/PDF 160. Selected package:
+`archive/pdf/1988-01/packages/batch-28-r01/new-books`. All68 files/7,678,403 bytes
+match the independent rebuild. Eighteen regions,fourteen blocks/transcripts and
+four original images preserve three complete book notices,two subtitles/series
+labels,twelve bibliographic/price fields and three original uncaptioned covers.
+Each notice retains its credit,publisher,page count,price and full descriptive
+column. Eight source connections retain title/bibliography/body and subtitle
+associations. No column/page join is needed. All36 identifier occurrences,twenty
+numeric fragments,123 physical rows and439 tokens remain source-linked.
 
-Four price passages retain six literal expressions,including79/95 and14/000 physical
-wraps. Four PS/2 configurations retain twenty model/clock/CPU/RAM/disk fields,
-including8580-/041,8580/-071,8580/-111,2M/B and8038/6. All103 identifier occurrences,
-53 specification occurrences,144 number fragments,302 physical rows and1,164 tokens
-remain source-linked. Independent checking caught the second configuration's RAM
-pointing to the third configuration's identical text. Selected corrections-r01/
-package-recipe-r01 repair only that occurrence link;original metadata,failed checker,
-first exports and both authoring scripts remain. Source transcription is unchanged.
+The single eligible page ends with the complete COBOL description. Prior159 is
+a Dae-eun book ad;following161 is a Seong-an-dang book ad,162 Brother/Miseong ads;
+163 independently opens Classifieds. One task/one mapped/four outside lookups meet
+limits;PDF164–166 rendered only. No source byline,global folio offset or TOC-derived
+ending inferred. Both maps/all crops retained. Two pre-OCR expansions restore the
+leadingC in the library-functions heading and first-cover corner margin. All18
+selected crops reviewed before14 pinned kor+eng recognitions;all drafts read before
+one direct source correction pass. Zero recognition failures,retries or post-OCR
+repairs. Damaged vertical title,first headline,software/numeric fields use direct
+source fallback. Metadata preparation first omitted the physical전/체 wrap from a
+lookup;an adapted verifier retained a stale row count. Both failed scripts and
+records remain;fresh script revisions correct metadata/checks without changing
+source transcription or repeating OCR/source correction.
 
-Actual body ends on156/PDF158 with NEC/Seiko Epson dispute and compatibility prose.
-Prior156 is a full Brother advertisement;following159 is a full Dae-eun book ad;
-160 independently opens New Books. No visible byline,TOC-derived ending or global
-folio offset inferred. One task/two mapped pages/three outside lookups meet limits.
-PDF161–163 were rendered only. All30 crops reviewed before26 pinned kor+eng tasks;
-all raw drafts read before one direct source correction pass. Zero recognition
-failures,retries,crop revisions or post-OCR repairs. Vertical title,business headline
-and damaged model/acronym fields use direct source fallback. All2,006 local UTF-8
-ranges,2,050 pin occurrences and30 decoded images/crop pixels pass. All21,680 prior
-January files,134 pilot files and thirty core pins remain exact. The unchanged
-213-test passing baseline is reused;no fresh test run is claimed.
-
-Printed640 바이트,H/ougto-Mifflin,용량 for pounds,CMOS80/86,6MB versus4MB,
-매킨토시Ⅱ/MacⅡPlus,161MB,2334/3641,90000픽셀,ESDI expansion,점이·단점 and
-구매욕구/을 remain literal source candidates. No historical,technical,grammar,
-numeric,price or copyright-claim repair. Human acceptance/full proofreading,original
-encoded bytes/exact spaces/glyphs,source claims,prices and backup recovery remain
-unverified. Small photo labels remain original pixels for volunteer transcription.
+All764 local UTF-8 ranges,790 pin occurrences,eighteen decoded images and source
+crop pixels pass. All22,406 prior January files,134 pilot files and thirty core
+pins remain exact. The unchanged213-test passing baseline is reused;no fresh test
+run claimed. Printed퍼스컴,ANSI(국제규격협회),Zenix/제닉스,dBaseⅢ case,
+보석글Ⅰ/Ⅱ,담은시리즈,COBOL실무 heading versus실무연습 body and series counts
+remain literal. Editor/publisher candidates홍릉,황희융(희/회),김석문 and original
+roman glyphs/spaces remain unverified. No external bibliography,software,grammar,
+price or factual repair. Human acceptance/full proofreading,encoded bytes/glyphs/
+exact spaces,source claims/prices and independent backup recovery remain unverified.
+Small cover labels remain original pixels for volunteer transcription;no captions
+or executable source listings invented.
 
 Debugging-room0023 remains unlocated after Batch24's twelve-page bounded review.
 Both original contents and canonical TOC print105,while actual105/PDF107 contains
@@ -75,17 +75,18 @@ Also retain `batch-18/magic_literal_r02.py`/`magic-key-literal-v1` and
 `batch-15/ram_literal_r01.py`/`ram-removal-literal-v1` for issue dispatch;immutable
 natives and historical stage notes remain.
 
-Next verify 0027, 신간안내, from printed158/known opening PDF160. Inspect actual
+Next verify 0028, 복덕방, from printed161/known opening PDF163. Inspect actual
 extent and adjacent titles within two tasks/six mapped pages/twenty outside lookups;
-PDF159–166 are lookup candidates only. Preserve book titles,cover photos,
-bibliographic/price fields,descriptions and all physical wraps/source claims.
-The28 unresolved identities,all-page accounting,donated cover,standalone JSON/assets
-issue export and final audit remain. No reader rebuild or deployment.
+PDF162–169 are lookup candidates only. Preserve category/action headings,individual
+listings,bullet markers,equipment inventories,prices,personal/contact fields and
+all physical wraps/source claims. The27 unresolved identities,all-page accounting,
+donated cover,standalone JSON/assets issue export and final audit remain.
+No reader rebuild or deployment.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-27/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-27/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-28/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-28/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 

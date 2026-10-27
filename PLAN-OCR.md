@@ -23,40 +23,40 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, nineteen readable/sample-reviewed
-  articles, four non-owning headings and 28 unresolved identities. No classified
-  article has deferred body pages or pending assembly. Batch27 completes0026
-  Foreign News,printed155–156/PDF157–158. Selected
-  `archive/pdf/1988-01/packages/batch-27-r02/foreign-news`:116 independently exact
-  files/18,117,739 bytes,30 regions/20 blocks/26 transcripts/four originals.
-  Six news items/three categories,two captioned photos/two full pages,six prose
-  joins/seven connections retain source reading order. Four price passages/six
-  expressions and four PS/2 configurations/twenty fields retain all physical wraps.
-  All103 identifier/53 specification/144 numeric occurrences,302 physical rows and
-  1,164 tokens source-linked. Metadata occurrence repair retains initial corrections,
-  recipe,failed checker and first exports;source transcription unchanged. Selected
-  corrections-r01/package-recipe-r01 links configuration2 RAM to correct occurrence.
-  Actual ending158,next159 full book ad,160 New Books opening;prior156 full ad.
-  No byline/global offset inferred. One task/two mapped/three outside;161–163
-  rendered only. All30 crops before26 pinned kor+eng tasks,all drafts before one
-  source pass,zero recognition failures/retries/crop repairs. Direct fallback for
-  vertical title/business headline/damaged fields. All2,006 UTF-8 ranges/2,050 pins/
-  thirty images/crop pixels pass;all21,680 prior files/134 pilot/thirty core exact.
-  Existing213-test baseline reused,no fresh run. Printed640 바이트,H/ougto-Mifflin,
-  용량 for pounds,6MB/4MB,MacⅡPlus,161MB,2334/3641,90000픽셀,ESDI expansion,
-  점이·단점 and구매욕구/을 remain literal;no factual/grammar/numeric/price repair.
-  Human acceptance/proofreading,bytes/spaces/glyphs/claims/prices/backup unverified.
-  Debugging-room0023 original contents105 location conflict unchanged;no substitute
-  or source-wide absence claim. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1
+- January 1988 is active: 51 identities, twenty readable/sample-reviewed
+  articles, four non-owning headings and 27 unresolved identities. No classified
+  article has deferred body pages or pending assembly. Batch28 completes0027
+  New Books,printed158/PDF160. Selected
+  `archive/pdf/1988-01/packages/batch-28-r01/new-books`:68 independently exact files/
+  7,678,403 bytes,18 regions/14 blocks/transcripts/four originals. Three complete
+  notices,two subtitles/series labels,twelve bibliographic/price fields,three
+  uncaptioned covers and one full page retained. Eight source connections,no joins.
+  All36 identifiers,twenty numbers,123 physical rows and439 tokens source-linked.
+  Prior159 full book ad,following161 book ad/162 Brother-Miseong ads,163 Classifieds
+  opening. One task/one mapped/four outside;164–166 rendered only. No byline/global
+  offset inferred. Two pre-OCR title/cover expansions retain both maps/all crops.
+  All18 selected crops before14 pinned kor+eng tasks,all drafts before one source
+  pass;zero recognition failures/retries/post-OCR repairs. Direct fallback for
+  vertical title/first headline/damaged fields. Metadata prep omitted a physical
+  wrap;adapted verifier had stale row count. Fresh scripts fix only metadata/checks;
+  original failures retained,transcription/exports unchanged. All764 UTF-8 ranges/
+  790 pins/eighteen images/crop pixels pass;all22,406 prior files/134 pilot/thirty core
+  exact. Existing213-test baseline reused,no fresh run. Printed퍼스컴,ANSI expansion,
+  Zenix/제닉스,dBaseⅢ case,보석글Ⅰ/Ⅱ,담은시리즈,COBOL title/body difference,
+  counts and all wraps remain literal. Names홍릉/황희융(희/회)/김석문,glyphs/spaces/
+  claims/prices/human acceptance/proofreading/backup unverified;no external repair.
+  Debugging-room0023 original105 location conflict unchanged;no substitute or
+  source-wide absence claim. Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1
   exact legacy context/old TOC/current identity guard,plus batch-18/magic_literal_r02.py/
   magic-key-literal-v1 and batch-15/ram_literal_r01.py/ram-removal-literal-v1 for dispatch.
-  Next verify0027 New Books from printed158/knownPDF160;PDF159–166 lookup candidates
-  only,two tasks/six mapped/twenty outside limits. Remaining28 identities,all-page
-  accounting/cover/export/audit pending. No reader rebuild.
+  Next verify0028 Classifieds from printed161/knownPDF163;PDF162–169 lookup candidates
+  only,two tasks/six mapped/twenty outside limits. Preserve all listing/category/action/
+  inventory/price/name/contact fields. Remaining27 identities,all-page accounting/
+  cover/export/audit pending. No reader rebuild.
   See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-27/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-27/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-28/validation.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-28/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
