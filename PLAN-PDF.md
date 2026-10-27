@@ -27,74 +27,71 @@ records below are historical and do not authorize a new rebuild.
 January 1988 is active: 51 canonical identities, thirty-two readable/sample-reviewed
 articles, one partial article, eight non-owning headings and 10 unresolved identities.
 
-Batch 46 preserves the middle segment of 0045,
-과월호 목차정리(1986. 11∼1987. 12), on PDF pages 223–228. Opening native 217–222
-remains unchanged. Twelve pages, 217–228, are now preserved across two immutable
-segments. The boundary envelope remains 217–233; interior 230–232 has not been
-inspected. Final 229–233 and a separate complete assembly remain pending. Original
-contents reference 217/title/parent are unchanged. Current folios are null; all six
-middle pages retain explicit lossless clockwise 90-degree orientation corrections.
+Batch 47 preserves the final segment of 0045,
+과월호 목차정리(1986. 11∼1987. 12), on PDF pages 229–233. Opening 217–222 and
+middle 223–228 remain unchanged. All seventeen pages, 217–233, are now inspected
+and preserved across three immutable natives. No deferred body pages or uninspected
+interior remain. A separate complete article assembly is still pending. Original
+contents reference 217/title/parent are unchanged; current folios remain null, with
+five explicit lossless clockwise 90-degree corrections in the final native.
 
-Selected `archive/pdf/1988-01/packages/batch-46/back-issue-index-b` contains 149 files,
-73,986,198 bytes, matching its independent rebuild. Its 51 regions, 30 blocks and
-21 original images retain 1,326 serialized nonempty lines and 2,877 tokens. All
-15,100 local UTF-8 ranges, 15,194 review pins and 51 exact source crops validate.
-The two natives together contain 417 files/138,190,791 bytes, 131 regions, 90 blocks,
-41 original images and 675 table rows. They are preserved separately; no complete
-article assembly has been claimed.
+Selected `archive/pdf/1988-01/packages/batch-47/back-issue-index-c` contains 83 files,
+65,644,131 bytes, matching its independent rebuild. Its 30 regions, 15 blocks and
+15 original images retain 1,021 serialized nonempty lines and 2,653 tokens. All
+10,664 local UTF-8 ranges, 10,726 review pins and 30 exact source crops validate.
+The three natives together contain 500 files/203,834,922 bytes, 161 regions, 105
+blocks, 56 original images and 885 table rows. No complete assembly is claimed.
 
-The middle native has 18 subject-table parts with 292 rows and 11 monthly-table
-parts with 128 rows: 420 rows/1,388 logical field positions in all. There are 95
-actual header occurrences; the peripherals table on 224 has no printed header.
-Subject month groups retain 119 printed positions, 163 covered positions and ten
-incoming blanks. Two missing/faint separators remain source geometry uncertainties.
-Monthly rows retain four fields: page, title, description and classification.
-Their 68 blank description and 67 blank classification positions stay independent;
-trailing empty fields remain serialized. Six month labels, 12 category labels, two
-reference notes and ten internal table continuations are retained. Incoming 222–223
-and outgoing 228–229 links are table continuations, with no prose joins.
+The final native has 15 monthly-table parts with 210 rows/840 logical positions,
+60 repeated headers and eight actual month labels. Four fields remain independent:
+page, title, description and classification. Its 56 blank description fields and
+60 blank classification fields retain their empty positions, including trailing
+serialized fields. Physical wraps, source order, ten date/reference-bearing
+description fields and 64 parenthetical title markers remain literal. Six internal
+table continuations and incoming 228–229 April continuation have no prose joins.
+Final 233 COPYⅡ CPM precedes independent 234 disk-sales catalog, which is excluded.
 
-One canonical task, six mapped pages and four outside lookups meet the bounds.
-All 51 exact crops were inspected before 30 pinned kor+eng tasks. A fresh map
-metadata revision records the absent header; crop geometry is unchanged. All drafts
-were read before one direct source pass. Successful incomplete table drafts remain
-preserved; no empty drafts, engine failures, retries or post-OCR crop repairs.
-Two auxiliary source views retain two small mark placeholders with unknown source
-character counts. Duplicated assembler entries, source spelling, superscript/name/
-Roman/punctuation candidates, an unfinished description and the printed reference
-“87년 12월호 P152” remain literal. Initial source-preparation syntax failure and a
-range lookup that missed a physical word wrap are retained; fresh runners repair
-only the script syntax and lookup, without changing source transcripts or crops.
-All 39,413 prior January files, 134 pilot files and 30 core pins remain exact.
-The 213 passing PDF tests from Batch 42 are reused; no core changes or fresh run.
+One canonical task, five mapped pages and two outside lookups meet the bounds.
+All 30 exact crops were inspected before 15 pinned kor+eng tasks; all raw drafts
+were read before one direct source pass. Incomplete successful drafts remain
+preserved; no empty drafts, engine failures, retries or crop repairs. Four enlarged
+source views retain two raised-trace placeholders with unknown source counts and
+a baseline-dot Unicode candidate. Two fresh same-pass transcript/data revisions
+remove an assistant repeated syllable and refine the dot candidate; originals stay
+preserved. An initial metadata count assertion expected eight date-bearing fields;
+the fresh runner counts all ten without changing source data. The failure and an
+English diagnostic clarification remain. All 40,148 prior January files, 134 pilot
+files and 30 core pins remain exact. The 213 passing Batch 42 PDF tests are reused;
+no core changes or fresh test run.
 
-Earlier 0044 registration list is complete on 214–216, and 0043 자료 remains the
-non-owning parent. 0042 postal notice is complete on 80–81; dense directory sample
-bodies remain original images with volunteer transcription pending. 0039 PC software
-trends is complete on 67–79. Eventual issue dispatch must retain
-`batch-42/pc_software_literal_r01.py` (`pc-software-trends-literal-v1`),
+May's printed heading lacks 호. October's (6) stays in its description column.
+Out-of-order page values, an unfinished title ending 를, 스마트/스마팀, 허큘레스,
+JX/MX, platform tokens, superscript/Roman glyphs and reference dates remain source
+candidates. No chronology, spelling, title, platform or cross-index completion.
+Earlier 0044 registration list is complete on 214–216; 0043 자료 is non-owning.
+0042 postal notice is complete on 80–81; dense sample bodies await volunteer
+transcription. 0039 PC software trends is complete on 67–79. Eventual issue dispatch
+must retain `batch-42/pc_software_literal_r01.py` (`pc-software-trends-literal-v1`),
 `batch-35/turbo_c_literal.py`, `batch-21/legacy_input_r01.py` with exact old TOC/context
 and current identity guard, `batch-18/magic_literal_r02.py` and
 `batch-15/ram_literal_r01.py`. 0038 scanner glyph/two graph panels await manual review.
-Survey 0032 retains original 175 and `batch-32/survey-location-review.json`; no
-substitution or sourcewide absence claim. Former 0023 retains its original 105
-conflict/history and `batch-30/debugging-room-location-found.json`.
+Survey 0032 retains original 175 and its bounded inconclusive location review;
+former 0023 retains the original 105 conflict/history. No unrelated substitution.
 
-Next verify and restore final 229–233 as a fresh five-page native. Inspect 230–232
-and verify the ending/independent 234 neighbor before mapping. Then assemble all
-seventeen pages in a separate checkpoint using the immutable native contexts.
-Preserve every blank, header, source occurrence and physical wrap without chronology,
-title/platform or cross-index completion. Two-task/six-page/twenty-outside bounds
-continue. Ten unresolved identities, the partial index, all-page accounting, donated
-cover, standalone JSON/assets export and final audit remain. The full issue goal is
-active. No reader rebuild or deployment. Human acceptance/full proofreading, source
-encoding/glyphs/exact spaces, historical claims, execution and independent backup
-recovery remain unverified.
+Next assemble all seventeen pages from the three exact immutable native contexts,
+preserving full metadata, source arrays, ranges, blank fields and stage provenance.
+Resolve only exact stale stage notes in active assembled status; retain originals.
+Project native-boundary table continuations without prose joins. No new OCR or
+source correction is needed. Ten unresolved identities, the partial index assembly,
+all-page accounting, donated cover, standalone JSON/assets export and final audit
+remain. The full issue goal is active. No reader rebuild or deployment. Human
+acceptance/full proofreading, source encoding/glyphs/exact spaces, historical claims,
+execution and independent backup recovery remain unverified.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-46/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-46/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-47/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-47/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 

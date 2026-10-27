@@ -23,42 +23,66 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, thirty-two readable/sample-reviewed articles,
-  one partial article, eight non-owning headings and 10 unresolved identities.
-  Batch 46 preserves middle 0045 back-issue index native 223–228; opening 217–222
-  unchanged. Twelve pages now preserved; final 229–233 and separate assembly pending.
-  Boundary envelope 217–233 verified; interior 230–232 uninspected. Null folios/six
-  clockwise rotations, original contents 217/title/parent unchanged. Selected
-  `archive/pdf/1988-01/packages/batch-46/back-issue-index-b`:149 files/73,986,198 bytes
-  independently exact; 51 regions/30 blocks/21 originals, 1,326 lines/2,877 tokens,
-  15,100 ranges/15,194 pins/51 exact crops. Combined natives:417 files/138,190,791 bytes.
-  Middle source has 18 subject parts/292 rows plus 11 monthly parts/128 rows:420 rows/
-  1,388 logical positions/95 headers. One headerless peripherals table retained.
-  Subject month groups keep119 printed/163 covered/ten incoming blank positions.
-  Monthly fields keep68 blank descriptions/67 blank classifications and trailing
-  serialized empty fields. Six month labels/12 category labels/two reference notes,
-  ten internal table continuations; no prose joins or expected completion.
-  One task/six mapped/four outside; all51 crops before30 kor+eng tasks, all drafts
-  before one direct pass. Metadata-only header revision; geometry unchanged.
-  Incomplete successful drafts retained; no empty drafts/failures/retries/post-OCR
-  repairs. Two source-mark enlargements/two unknown-count markers. Initial script
-  syntax and physical-wrap range lookup failures retained; fresh runners change no
-  source data. All39,413 prior files/134 pilot/30 core exact;213 passing Batch42 tests
-  reused, no core changes/fresh run. Source duplicates/ordinals/reference dates/
-  spelling/glyphs/spaces/unfinished fields remain literal and unverified.
-  Earlier0044 registration list/0042 postal notice complete; dense postal sample
-  bodies await volunteers.0039 PC software complete. Keep
-  `batch-42/pc_software_literal_r01.py`/`pc-software-trends-literal-v1`,
-  `batch-35/turbo_c_literal.py`, `batch-21/legacy_input_r01.py` exact old TOC/context/current
-  guard, `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py` for dispatch.
-  0038 manual glyph/graph review,0032 original175/bounded inconclusive review and
-  former0023 original105 conflict/history remain explicit. Next final229–233, inspect
-  230–232/ending/independent234, then separate assembly. Two-task/six-page/twenty-outside
-  bounds continue. Ten identities/partial index/accounting/cover/export/audit remain.
-  Human acceptance/proofreading/source bytes/glyphs/spaces/claims/execution/backup
-  unverified. No reader rebuild. See [January log](docs/progress/8801.md) and
-  `archive/pdf/1988-01/restoration/batch-46/validation.json`.
-  Selected inventory: `archive/pdf/1988-01/restoration/batch-46/preservation-inventory.json`.
+- January 1988 is active: 51 canonical identities, thirty-two readable/sample-reviewed
+  articles, one partial article, eight non-owning headings and 10 unresolved identities.
+  Batch 47 preserves the final segment of 0045,
+  과월호 목차정리(1986. 11∼1987. 12), on PDF pages 229–233. Opening 217–222 and
+  middle 223–228 remain unchanged. All seventeen pages, 217–233, are now inspected
+  and preserved across three immutable natives. No deferred body pages or uninspected
+  interior remain. A separate complete article assembly is still pending. Original
+  contents reference 217/title/parent are unchanged; current folios remain null, with
+  five explicit lossless clockwise 90-degree corrections in the final native.
+  Selected `archive/pdf/1988-01/packages/batch-47/back-issue-index-c` contains 83 files,
+  65,644,131 bytes, matching its independent rebuild. Its 30 regions, 15 blocks and
+  15 original images retain 1,021 serialized nonempty lines and 2,653 tokens. All
+  10,664 local UTF-8 ranges, 10,726 review pins and 30 exact source crops validate.
+  The three natives together contain 500 files/203,834,922 bytes, 161 regions, 105
+  blocks, 56 original images and 885 table rows. No complete assembly is claimed.
+  The final native has 15 monthly-table parts with 210 rows/840 logical positions,
+  60 repeated headers and eight actual month labels. Four fields remain independent:
+  page, title, description and classification. Its 56 blank description fields and
+  60 blank classification fields retain their empty positions, including trailing
+  serialized fields. Physical wraps, source order, ten date/reference-bearing
+  description fields and 64 parenthetical title markers remain literal. Six internal
+  table continuations and incoming 228–229 April continuation have no prose joins.
+  Final 233 COPYⅡ CPM precedes independent 234 disk-sales catalog, which is excluded.
+  One canonical task, five mapped pages and two outside lookups meet the bounds.
+  All 30 exact crops were inspected before 15 pinned kor+eng tasks; all raw drafts
+  were read before one direct source pass. Incomplete successful drafts remain
+  preserved; no empty drafts, engine failures, retries or crop repairs. Four enlarged
+  source views retain two raised-trace placeholders with unknown source counts and
+  a baseline-dot Unicode candidate. Two fresh same-pass transcript/data revisions
+  remove an assistant repeated syllable and refine the dot candidate; originals stay
+  preserved. An initial metadata count assertion expected eight date-bearing fields;
+  the fresh runner counts all ten without changing source data. The failure and an
+  English diagnostic clarification remain. All 40,148 prior January files, 134 pilot
+  files and 30 core pins remain exact. The 213 passing Batch 42 PDF tests are reused;
+  no core changes or fresh test run.
+  May's printed heading lacks 호. October's (6) stays in its description column.
+  Out-of-order page values, an unfinished title ending 를, 스마트/스마팀, 허큘레스,
+  JX/MX, platform tokens, superscript/Roman glyphs and reference dates remain source
+  candidates. No chronology, spelling, title, platform or cross-index completion.
+  Earlier 0044 registration list is complete on 214–216; 0043 자료 is non-owning.
+  0042 postal notice is complete on 80–81; dense sample bodies await volunteer
+  transcription. 0039 PC software trends is complete on 67–79. Eventual issue dispatch
+  must retain `batch-42/pc_software_literal_r01.py` (`pc-software-trends-literal-v1`),
+  `batch-35/turbo_c_literal.py`, `batch-21/legacy_input_r01.py` with exact old TOC/context
+  and current identity guard, `batch-18/magic_literal_r02.py` and
+  `batch-15/ram_literal_r01.py`. 0038 scanner glyph/two graph panels await manual review.
+  Survey 0032 retains original 175 and its bounded inconclusive location review;
+  former 0023 retains the original 105 conflict/history. No unrelated substitution.
+  Next assemble all seventeen pages from the three exact immutable native contexts,
+  preserving full metadata, source arrays, ranges, blank fields and stage provenance.
+  Resolve only exact stale stage notes in active assembled status; retain originals.
+  Project native-boundary table continuations without prose joins. No new OCR or
+  source correction is needed. Ten unresolved identities, the partial index assembly,
+  all-page accounting, donated cover, standalone JSON/assets export and final audit
+  remain. The full issue goal is active. No reader rebuild or deployment. Human
+  acceptance/full proofreading, source encoding/glyphs/exact spaces, historical claims,
+  execution and independent backup recovery remain unverified.
+  See [January log](docs/progress/8801.md) and
+  `archive/pdf/1988-01/restoration/batch-47/validation.json`.
+  Selected inventory: `archive/pdf/1988-01/restoration/batch-47/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
