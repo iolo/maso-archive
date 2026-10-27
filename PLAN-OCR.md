@@ -23,46 +23,39 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active: 51 identities, twenty-three readable/sample-reviewed
-  articles, four non-owning headings and 24 unresolved identities. No classified
-  article has deferred body pages or pending assembly. Batch30 completes0029
-  Readers Forum,printed164–165/PDF166–167 left,and newly located0023 Debugging/
-  Bulletin,printed165/PDF167 right. Selected
-  `archive/pdf/1988-01/packages/batch-30-r01/readers-forum`(145 files/14,128,622 bytes)
-  and `archive/pdf/1988-01/packages/batch-30-r01/debugging-bulletin`(70 files/4,870,032
-  bytes) independently exact:215 files/18,998,654 bytes. Combined55 regions/44 blocks/
-  48 transcripts/seven originals. Five letter/reply pairs,ten signatures fields,
-  five handwritten labels,original envelope/boxed mark,four circular-placeholder
-  fields and three joins retained. Two errata/three source changes/seven references,
-  four bulletins/ten policy/four contact fields and one join retained as prose;
-  no program or external issue repair. Shared page ownership disjoint except folio.
-  Original contents11 visibly prints105,canonical TOC retains105;actual matching
-  headings/folio165 independently locate0023 on167 right. Prior Batch24 inconclusive
-  record/history unchanged;new batch-30/debugging-room-location-found.json resolves
-  location while preserving reference conflict. No substituted promotion/absence claim.
-  Original checkpoint amended before map/OCR:two tasks/two distinct body pages/three
-  assignments/three outside lookups11,165,168;169–172 rendered only. One envelope-frame
-  expansion retains both maps/all crops. All55 crops before48 pinned kor+eng tasks,
-  all drafts before one source pass;zero failures/retries/post-OCR repairs. Direct
-  fallback for title/handwriting/mark/names/punctuation. English-only recipe metadata
-  refinement retains original;source text unchanged. All1,941 ranges/2,015 pins/55
-  images/crop pixels,317 physical rows/1,180 tokens pass;all23,980 prior files/134
-  pilot/thirty core exact. Existing213-test baseline reused,no fresh run. Signature
-  문길모/reply문길호,보유판 candidate,unfilled circles,_Max-W wrap,unclosed heading,
-  정기독자,personal/address/software/policy/contact claims remain literal/unverified.
-  Human acceptance/proofreading,encoded bytes/glyphs/spaces/claims/backup unverified.
-  Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact legacy context/old TOC/
+- January 1988 is active: 51 identities, twenty-four readable/sample-reviewed
+  articles, four non-owning headings and 23 unresolved identities. No classified
+  article has deferred body pages or pending assembly. Batch 31 completes QA0030,
+  printed166–168/PDF168–170. Selected `archive/pdf/1988-01/packages/batch-31-r02/qa`
+  has 303 files/23,152,531 bytes, independently exact. Its78 regions/64 blocks/
+  72 transcripts/six originals preserve ten QA pairs,twenty signature fields,
+  twenty boxed markers,three displayed commands/seven physical rows/four wraps/
+  27 tokens,eight prose joins and seventeen source connections. Six address
+  candidates,six pseudo-ops and seven inline fields remain prose. Original book
+  photo,printed caption and complete closing editorial inset retained;lower170
+  independent BYTE advertisement excluded. Following171 independently opens
+  writer guidance. One task/three mapped pages/two outside167,171;172–176 rendered
+  only. All78 crops before72 pinned tasks(3eng code/69kor+eng other);all raws before
+  one source pass. Three pre-OCR expansions retain both maps/all crops;zero
+  failures,retries,post-OCR repairs. Math-Pack raw omitted first row,source-direct
+  restored. Fresh separator metadata revision preserves regional transcripts and
+  listing indexes;both exports retained. Two checker failures/scripts retained;
+  selected verifier-r02 passes all2,537 ranges/2,635 pins/78 images/exact pixels,
+  374 rows/1,351 tokens. All24,884 prior files/134 pilot/30core exact;213-test
+  passing baseline reused,no fresh run. Physical V/DP,filename/argument/address/
+  pseudo-op wraps,source9388,파소캘크/파스캘크,name/address/glyph candidates literal.
+  Human acceptance/proofreading,encoding/spaces/claims/execution/backup unverified.
+  Former0023 remains located at165/PDF167 right with original105 conflict/history.
+  Keep batch-21/legacy_input_r01.py/legacy-toc-input-v1 exact legacy context/oldTOC/
   current identity guard,plus batch-18/magic_literal_r02.py/magic-key-literal-v1 and
   batch-15/ram_literal_r01.py/ram-removal-literal-v1 for issue dispatch.
-  Next verify0030 QA from printed166/knownPDF168;PDF167–176 lookup candidates only,
-  two tasks/six mapped/twenty outside limits. Preserve question/answer/code/command/
-  personal/address/image fields;longer body requires bounded native segments and
-  separate assembly. Remaining24 identities,all-page accounting/cover/export/audit
-  pending. No reader rebuild.
-  See [January log](docs/progress/8801.md),
+  Next verify0031 애독자 퀴즈 from contents174;PDF175–181 candidates only,actual
+  opening/ending unverified. Two tasks/six mapped/twenty outside limits. Remaining
+  23 identities,all-page accounting/cover/export/audit pending;full goal active.
+  No reader rebuild. See [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-30/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-30/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-31/validation-r01.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-31/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.
