@@ -7,71 +7,60 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 January 1988 is active: 51 canonical identities, thirty-five readable/sample-reviewed
-articles, zero partial articles, nine non-owning headings and seven unresolved identities.
+articles, zero partial articles, eleven non-owning headings and five unresolved identities.
 
-Batch 57 completes canonical 0003, 중앙한글의 개선된 프린터 루틴, on all eight
-PDF/printed pages 206–213. No body pages or article assembly remain pending.
-The printed title 중앙한글 프린터와 폰트에디터의 개선 stays separate from canonical
-title, parent and reference 206. No article-wide byline is inferred from HY.P or
-1987/11/28 inside the listing header. Independent lower 213 publisher-address
-banner remains excluded; 214 opens the registered-software list.
+Batch 58 classifies canonical 0004 컴퓨터 언어 and 0006 인터프리터 분석 as
+non-owning group headings from direct source evidence. Original contents 11 uses
+bold icon/category headings without their own page references, above separately
+referenced child titles. PDF30/printed28 and PDF32/printed30 repeat 컴퓨터 언어
+over the independently titled C tutorial. PDF48/printed46 and PDF52/printed50
+repeat 인터프리터 분석 while platform lines and Apple LIST2/MSX article titles,
+decks and prose change. These positive banners and distinct child openings support
+organizational headings. No parent article, duplicate body or package is invented.
 
-Selected `archive/pdf/1988-01/packages/central-hangul-printer-complete-r01` has
-345 files, 226,532,509 bytes, matching its independent rebuild. All 336 native
-files/120,203,342 bytes from Batch 55 opening 206–211 and Batch 56 ending 212–213
-remain exact, including full native metadata and stage provenance. The complete
-article retains 111 regions, 69 blocks, 42 originals and 31 code units; 1,618
-nonempty lines, 9,409 tokens and 8,638 code tokens. All 47,980 native/48,848
-projected UTF-8 ranges, 48,356 native/49,474 projected pins and 111 crop images
-validate, including exact pixels. Fifty-three array categories/106 slices,
-sixteen objects, two scalars and six reserved arrays retain every native category.
+Canonical IDs, titles, parents and child relationships remain unchanged. C 0005
+keeps PDF30,32–39; Apple 0007 keeps PDF48–51; MSX 0008 keeps PDF52–57. All three
+complete exports, manifests and body ownership validate unchanged. Independent
+advertisements31/47, lower39promotion and right57solicitation remain outside their
+respective child bodies; PFS40 and next independent opening58 stay separate.
+The decision is bounded source classification, not a full-source absence claim.
 
-All 771 List 1 ordinals/74 numbered blanks, eight internal listing links,
-comments, HEX/binary/storage fields, quotes and unmeasured spaces remain literal.
-List 2 retains 159 dump rows/1,270 values; List 3 has 191 rows/1,527 values;
-List 4 CPFE has 211 rows/1,685 values. Together: 561 rows/4,482 visible values,
-twenty-nine printed headers/SUM rows/complete groups and thirty-seven physical parts.
-The List 3 P:2 boundary retains separate 0A10/0A18 rows and one explicit group
-association. Short 24F0/0EF0/0F90 rows leave six absent positions null. No padding,
-address/byte/count derivation, checksum calculation, glyph decoding or execution.
+Fifteen exact retained source views were directly inspected: 11,29,30,31,32,39,40,
+47,48,49,51,52,53,57,58. Two tasks, zero mapped pages, fifteen outside lookups;
+no new render, OCR, source correction or article export. All 49,223 prior January
+files, 134 pilot files and 30 core pins remain exact. The 213 passing Batch 42
+PDF tests are reused; no core changes or fresh run. Assistant sample review is
+separate from human acceptance, full proofreading and original encoding verification.
 
-Eight printed captions retain twenty-eight image associations, including three
-inherited List 3 links. All forty-two originals appear in complete source order.
-The one prose continuation stays as explicit fragments without textual merging.
-Source errors, mixed-case CEFE/CPFE differences, bitmap/arrow/quoted-space candidates,
-four memory-example rows and forty-two unknown-count markers remain source-linked.
+Printer/font-editor 0003 remains complete on206–213 at
+`packages/central-hangul-printer-complete-r01`:345 files/226,532,509 bytes match its
+independent rebuild;336native files remain exact. All47,980native/48,848projected
+UTF-8 ranges,48,356native/49,474projected pins and111source crops pass. The initial
+complete-figure-sequence omission and selected metadata-only r01 remain preserved.
+Editor0002 remains complete178–205;back-issue index0045 remains complete217–233.
+There are no partial articles or pending article assemblies.
 
-Four exact stale stage notes are resolved only in active complete output; full
-native notes/scopes remain unchanged. Fifteen invalid mutations are rejected.
-The initial export preserved every native/projected category but omitted thirty-one
-opening originals from its derived complete figure sequence. Selected adapter r01
-includes both native figure categories. Initial adapter/export and revision evidence
-remain preserved; source readings, native packages and recipe are unchanged.
-Assembly required no new mapping, render, OCR or source correction. Both source
-checkpoints retain their one-pass readings, raw evidence and successful OCR omissions.
-
-All 48,167 prior January files, 134 pilot files and 30 core pins remain exact.
-The 213 passing Batch 42 PDF tests are reused; no core changes or fresh run.
-Editor 0002 is complete on 178–205; back-issue index 0045 complete on 217–233.
 Eventual issue dispatch must retain `batch-57/central_hangul_printer_literal_r01.py`,
 `batch-54/central_hangul_editor_literal_r02.py`, `batch-48/back_issue_index_literal.py`,
 `batch-42/pc_software_literal_r01.py`, `batch-35/turbo_c_literal.py`,
 `batch-21/legacy_input_r01.py` with exact old TOC/context/current identity guard,
 `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`.
 
-Next classify unresolved parents 0004 컴퓨터 언어 and 0006 인터프리터 분석
-from bounded direct source evidence and their restored child openings. Do not infer
-nonownership from titles or hierarchy alone. Seven unresolved identities, all-page
-accounting, donated cover, standalone JSON/assets issue export and final audit remain.
-Survey 0032 retains original 175 and bounded inconclusive review; former 0023 retains
-original 105 history. Postal samples and scanner glyph/two graph panels need manual
-review. Keep two-task/six-page/twenty-outside bounds. The full issue goal is active.
-No reader rebuild or deployment. Human acceptance/full proofreading, encoded bytes,
-glyphs/exact spaces, historical/technical claims, execution and recovery remain unverified.
+Next classify unresolved parents 0047 컴퓨터 교육 and 0048 하드웨어 제작
+from bounded direct source evidence and restored child openings. Keep independent
+typewriter tip0046on lowerPDF100separate from the hardware article and parent;
+its restoration is a later task. Parent0049컴퓨터 그래픽 and survey0032original175
+also remain unresolved. Survey review is bounded/inconclusive; former0023original105
+history stays retained. All-page accounting, donated cover, standalone JSON/assets
+issue export, independent rebuild and final audit remain. Postal samples and scanner
+glyph/two graph panels need manual review. Keep two-task/six-page/twenty-outside bounds.
+The full issue goal is active. No reader rebuild or deployment. Human acceptance,
+full proofreading, encoded bytes/glyphs/exact spaces, historical/technical claims,
+execution and backup recovery remain unverified.
 
-Validation/reproduction: `archive/pdf/1988-01/restoration/batch-57/validation.json`
-and `archive/pdf/1988-01/restoration/batch-57/reproduction.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-57/preservation-inventory.json`.
+Validation/reproduction: `archive/pdf/1988-01/restoration/batch-58/validation.json`
+and `archive/pdf/1988-01/restoration/batch-58/reproduction.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-58/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
