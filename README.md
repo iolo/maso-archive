@@ -13,6 +13,14 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
+January 1988 is complete as a data-only restoration pass: 36 readable/sample-reviewed
+articles, 14 non-owning headings and one explicit unresolved survey entry. All 8,360
+JSON/assets files match an independently regenerated export; 213 fresh PDF tests pass.
+The original survey reference175 remains unresolved; full proofreading and human
+acceptance remain pending. This issue is separate from the existing reader snapshot.
+See the [January record](docs/progress/8801.md), [current PDF status](PROGRESS-PDF.md)
+and private `archive/pdf/1988-01/restoration/issue-closeout-01/reproduction.json`.
+
 ## What to keep
 
 | Directory | Purpose | Preserve? |

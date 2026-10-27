@@ -22,7 +22,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | March 1985 | [8503.md](8503.md) — canonical TOC complete |
 | October 1985 | [8510.md](8510.md) — canonical TOC complete |
 | November 1985 | [8511.md](8511.md) — restoration pass complete; one unresolved entry |
-| January 1988 | [8801.md](8801.md) — active; thirty-six readable articles, zero partial articles, fourteen non-owning headings, one unresolved survey identity; content242/242,ownership audit and donated cover/thumbnail complete; standalone issue closeout pending |
+| January 1988 | [8801.md](8801.md) — restoration pass complete; 36 readable articles, 14 non-owning headings and one unresolved survey entry; 8,360 JSON/assets files independently exact, 213 fresh tests |
 
 | Shared scope | Records |
 | --- | --- |
