@@ -23,44 +23,42 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active:51 identities,thirty readable/sample-reviewed articles,
-  zero partial articles,seven non-owning headings and14 unresolved identities.
-  Batch42 completes0039PC software trendsPDF67–79/printed65–77. Selected
-  `archive/pdf/1988-01/packages/pc-software-trends-complete-r01`:531files/
-  283,029,378bytes independently exact,including523 unchanged native files/
-  179,324,419bytes.142regions/85reading blocks/87native fragment projections/
-  23originals/119transcripts/1,985rows/9,413tokens.32internal joins plus two native
-  joins72/73 제자리로/돌아오는 것이다.(space),78/79 특징/들(empty),nine captions,
-  title/feature/deck and exact source ending retained.13reference pages follow
-  primary content. Absorbed block fragments retain precise subranges. All source
-  arrays/objects/scalars/reserved lists survive:129slices/15objects/3scalars/9reserved
-  projections plus full original corrections/native context roots.14,219native/
-  14,313projected ranges and14,695native/15,074projected pins validate;142images
-  exact source pixels.383display rows/147numeric candidates/71unknown-count markers,
-  eight tables/37rows/138cells/sixblank/eightunknown/26headers/twounknown preserved.
-  HAL/WordStar math/key/value unknowns,QA/Ventura independent displays/tables/UI and
-  final Windows date/time/month/calendar fields remain literal. No expected UI,
-  hidden completion,calendar/numeric reconciliation or grammar/claim repair.
-  Ten exact active notes resolved,native stages retained. Eleven invalid mutations
-  rejected;fresh213PDFtests pass;35,131prior/134pilot/30core exact. One task,
-  zero new mapping/lookups/OCR/correction. No deferred classified body or assembly.
-  Register`pc-software-trends-literal-v1` with selected
-  `batch-42/pc_software_literal_r01.py`;initial adapter/projection retained. Keep
-  batch-35/turbo_c_literal.py,batch-21/legacy_input_r01.py exact old TOC/context/
-  current guard,batch-18/magic_literal_r02.py,batch-15/ram_literal_r01.py too.
-  0038/0051 and earlier0037/0034/0033 complete;one recognition glyph/two graph
-  panels manual review. Survey0032 original175/bounded Batch32 review retained;
-  no quiz/writer substitution or sourcewide absence. Former0023 readable165/
-  PDF167right retains105conflict/history. Next0042 postal-code contest original78/
-  knownPDF80;verify11/79/81 and actual folio/null,preserve lower postal-number
-  inset/diagram/map/table fields without inferred codes. Two-task/six-page/
-  twenty-outside bounds continue.14 identities/accounting/cover/export/audit remain,
-  full issue goal active. Human acceptance/proofreading/source encoding/glyphs/
-  spaces/claims/execution/backup unverified. No reader rebuild. See
+- January 1988 is active:51 identities,thirty-one readable/sample-reviewed articles,
+  zero partial articles,seven non-owning headings and13 unresolved identities.
+  Batch43restores0042postal-code contestPDF80–81,nullfolios/original78retained.
+  Selected`archive/pdf/1988-01/packages/batch-43-r02/postal-code-contest`:159files/
+  20,385,716bytes independently exact.46regions/33blocks/11originals/35transcripts/
+  151rows/575tokens;1,174local UTF8 ranges/1,244review pins/46exact source images.
+  Schedule paragraph connection and conditions공/개하고 empty connection retained.
+  Source title/deck/programs/dates/contacts/awards/conditions/submissions/sponsors,
+  postal prose/ten structure-label rows/four bands/23map fields remain literal.
+  Printed 상품,codes/names/values/physical wraps/property terms not repaired.
+  Four reproduced directory panels retained as originals;three header groups/
+  12column headers serialized;dense body rows/cells/addresses/codes explicitly
+  volunteer transcription pending,counts unknown. Four unknown-count markers for
+  three circled postal marks/tiny vertical label;small source glyph candidates remain.
+  One task/two mapped80–81/three outside11/79/82. Initial extent revised before
+  mapping;45initial plus five changed/new crops inspected before35kor+eng tasks.
+  Four pre-OCR repairs/one added text crop;allraws before one sourcepass;ten enlarged
+  unchanged-crop views;zero failures/retries/post-OCR repairs. All36,226prior files/
+  134pilot/30core exact. Reused fresh213passing Batch42tests;no core changes/new run.
+  0039PCsoftware remains complete13pages;eventual dispatcher must keep selected
+  `batch-42/pc_software_literal_r01.py`/`pc-software-trends-literal-v1`,plus
+  `batch-35/turbo_c_literal.py`,`batch-21/legacy_input_r01.py` exact oldTOC/context/
+  current guard,`batch-18/magic_literal_r02.py`,`batch-15/ram_literal_r01.py`.
+  0038/0051 and earlier articles complete;one recognition glyph/two graph panels
+  manual review.0032survey original175/bounded Batch32review retained,no sourcewide
+  absence/substitution. Former0023readable165/PDF167right retains105conflict/history.
+  No deferred classified body or assembly. Next0043자료ownership and0044registration
+  list,original214;provisional11/PDF212–219lookups only. Verify exact extent/neighbors,
+  preserve all table/source fields without inferred registrations or modern claims.
+  Two-task/six-page/twenty-outside bounds;segment if needed.13identities/accounting/
+  cover/export/audit remain;full issue active. Human acceptance/proofreading/source
+  encoding/glyphs/spaces/claims/execution/backup unverified. No reader rebuild. See
   [January log](docs/progress/8801.md),
   `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-42/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-42/preservation-inventory.json`.
+  `archive/pdf/1988-01/restoration/batch-43/validation-r01.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-43/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

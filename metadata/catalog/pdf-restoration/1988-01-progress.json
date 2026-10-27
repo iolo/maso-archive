@@ -4721,11 +4721,109 @@
       "toc_entry_id": "maso-1988-01-toc-0042",
       "title": "우편번호를 이용한 프로그램 공모안내",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0042 original contentsPDF11 lists 우편번호를 이용한 프로그램 공모안내78. SourcePDF80has independently titled 우편번호를 이용한 프로그램 공모 and continues81with organizing deck,prizes,conditions,submission list,sponsors and postal-directory samples. No visible printed folio on either source page;map both null without replacing originalTOC78 or inferring a global offset. No byline.",
+        "Prior79ends independent PC software trends feature.81conditions item2 continues left 공/right 개하고;items3/4 and four submission bullets complete the main contest conditions. The same framed lower postal-directory samples/sponsor block belong to this two-page notice. Next82is independent Samsung eighth personal-computer software contest advertising;no continuation beyond81.",
+        "Current one canonical task/two mapped pages80–81 and outside contents11/prior79/next82 meet bounds. Initial checkpoint expected one page subject to verification;source review discovered81continuation before mapping/OCR. Preserve original declaration and selected extent revision.",
+        "80lower explanatory inset includesoverview,postal-code structure diagram,regional map with three magnified code callouts,regional/bulk-building/abbreviation prose. Source map/code/number/date/address/contact/award and historical statements remain literal unverified candidates. Diagram leaders,empty digit boxes,borders and printed shapes stay pixels;no encoded counts or postal arithmetic.",
+        "81lower inset reproduces postal-directory sample panelsII/III/IV plus unheaded upper sample fragment. Preserve every original panel and inspect exposed headings/column labels separately. Dense reproduced sample body rows/cells/addresses/code glyphs remain explicitly volunteer transcription/verification pending as original images,not omitted or invented structured entries. No row count/code completion inferred from expected directories.",
+        "Entire80–81are eligible notice/insets,no unrelated advertisement exclusions within mapped pages. The source title omits canonical안내;both preserved independently. Source reference78,visible null folios,source spelling/grammar,historical dates/current addresses/telephone and program/property terms are not modernized or verified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-43-r02/postal-code-contest",
+        "article_id": "scan-maso-1988-01-toc-0042",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-43-r02/postal-code-contest/manifest.json",
+          "sha256": "50e98157782088d26da40d8014074be71e70c654d54e4141a072f8e3490d15af",
+          "bytes": 27064
+        },
+        "coverage": {
+          "pdf_pages": [
+            80,
+            81
+          ],
+          "printed_pages": [
+            null,
+            null
+          ],
+          "regions": 46,
+          "blocks": 33,
+          "regional_ranges": 35,
+          "prose_joins": 2,
+          "transcript_rows": 151,
+          "transcript_tokens": 575,
+          "identifier_occurrences": 8,
+          "number_fragments": 92,
+          "spatial_label_rows": 72,
+          "unknown_markers": 4,
+          "postal_diagram_bands": 4,
+          "postal_map_fields": 23,
+          "contest_date_fields": 6,
+          "contact_fields": 9,
+          "award_rows": 5,
+          "submission_items": 4,
+          "program_items": 2,
+          "condition_items": 4,
+          "sponsor_fields": 7,
+          "directory_panels": 4,
+          "directory_body_transcription_pending": true,
+          "directory_body_rows": null,
+          "directory_body_cells": null,
+          "table_headers": 12,
+          "source_headings": 16,
+          "printed_captions": 0,
+          "source_connections": 6,
+          "figures": 11,
+          "regional_transcripts": 35,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            80,
+            81
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [],
+          "code_units": 0
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-43",
+        "latest_checkpoint": "batch-43",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-43/postal-code-contest/article-scope.json",
+          "sha256": "f168f1b4ee34d653dc799a1ec75723de69bf3924e3f1017af875393a4c735626",
+          "bytes": 469
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-43/validation-r01.json",
+          "sha256": "ffc378c469a9aa50b4e0bb5601fbf51e3957e414fe8f3017dd15ae3c8bd1c85c",
+          "bytes": 3458
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-43/reproduction-r01.json",
+          "sha256": "ddba52f9062009230a39eae01a472feeacc9de07cc15f0974c5ca4d2325ba4e6",
+          "bytes": 1482
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,postal-number/name/date/address/telephone/award/historical/technical/property claims and independent backup recovery remain unverified.",
+          "Complete canonical0042noticePDF80–81,both folios null;originalTOC78 unchanged. Source title omits canonical안내;both preserved independently. Prior79PC software feature complete,next82Samsung eighth personal-computer software contest advertising independent. No byline.",
+          "Two page-specific main text flows retain program aims,three schedule items,submission/contact fields,openingdeck,three award tiers,conditions1–4,four submission bullets and sponsor roles/names. Schedule cross-column grouping uses paragraph separator;conditions 공/개하고 uses empty join. Physical wraps/source spellings/property statements and source award-word candidates remain literal.",
+          "PDF80explanatory inset retains overview,features,structure/regional/bulk/abbreviation text,ten structure label rows/four number bands,and regional map with three magnified callouts. Every number/code candidate is literal;no arithmetic,current postal/geographic/address/date or historical repair. Leaders,borders,empty boxes,map shapes remain pixels.",
+          "PDF81reproduced directory panelsII/III/IV and unheaded upper fragment preserved separately and as complete inset/fullpage. Three title/column-header groups retained,including12column-header occurrences. IVagency/city/district/phone and separate unknown vertical label retained. Dense sample body rows/cells/addresses/codes explicitly volunteer transcription/verification pending;no structured body row/cell counts invented. Upper fragment relationship not inferred.",
+          "Three circled postal-symbol occurrences and one tiny vertical marginal label retain editorial unknown markers with unknown source character counts. Source label 통,heading상위번,sponsor콤텍/호산,telephone779-0004 are unverified glyph candidates;no expected readings substituted.",
+          "All45initial crops and five changed/new r01crops reviewed before35pinned kor+eng tasks. All35raws read before one direct source pass with ten enlarged unchanged-crop views. Four pre-OCR geometry repairs plus one added marginal-label crop;zero recognition failures/retries or post-OCR repairs. Dense sample bodies preserved as originals with volunteer transcription pending."
+        ],
+        "selected_revision": "r02 export;English metadata notation only",
+        "initial_checkpoint_provenance": {
+          "path": "archive/pdf/1988-01/restoration/batch-43/initial-record-provenance.json",
+          "sha256": "8ebaf5c1334a340ac5ada5776be5f5c719faebc7ce21313bd513dccf4b0ba6a9",
+          "bytes": 7034
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0043",
@@ -6479,6 +6577,68 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-43",
+      "completed_at": "2026-10-27T06:24:58.138957+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0042"
+      ],
+      "mapped_pdf_pages": [
+        80,
+        81
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "article_page_assignments": 2,
+      "outside_lookup_pages": 3,
+      "all_inspected_source_pages": 5,
+      "rendered_but_not_inspected_pdf_pages": [],
+      "recognition_tasks": 35,
+      "eng_code": 0,
+      "kor_eng_other": 35,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_revised_crops": 4,
+      "before_ocr_added_crops": 1,
+      "map_revisions": 1,
+      "post_ocr_crop_repairs": 0,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-43/validation-r01.json",
+        "sha256": "ffc378c469a9aa50b4e0bb5601fbf51e3957e414fe8f3017dd15ae3c8bd1c85c",
+        "bytes": 3458
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-43/reproduction-r01.json",
+        "sha256": "ddba52f9062009230a39eae01a472feeacc9de07cc15f0974c5ca4d2325ba4e6",
+        "bytes": 1482
+      },
+      "extent_declaration": {
+        "path": "archive/pdf/1988-01/restoration/batch-43/checkpoint-extent-r01.json",
+        "sha256": "6ee38d4b110448822d126095815e91873932429ecee5173f89548c895627d62f",
+        "bytes": 7913
+      },
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing fresh Batch42 baseline reused;no core changes;no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      },
+      "metadata_notation_revision": {
+        "path": "archive/pdf/1988-01/restoration/batch-43/metadata-notation-revision.json",
+        "sha256": "935e843f3b61228a4b469e4e2bde6ede7f7c6a758423595bfd0e6866d58dbe9d",
+        "bytes": 1167
+      }
     }
   ],
   "notes": [
@@ -6487,22 +6647,23 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Restore canonical0042 우편번호를 이용한 프로그램 공모안내 from original TOC reference78/known independent sourcePDF80. Verify exact opening/ending with contents11 and adjacent79PC software trends ending/81next material before mapping. Observe actual folio or null without inventing a global offset. Preserve title/body,contest program scope/dates/submission/contact fields and lower postal-number explanatory inset/diagram/map/table labels as source data;no current address/legal/date verification or inferred digit/region-code completion. Retain original source picture/unknown glyph/counts and all captions/physical wraps. At most two canonical tasks/six mapped body pages/twenty outside lookups;declare any additional task before mapping under existing full-issue authorization.",
+    "goal": "Verify canonical0043 자료 ownership from original contents and independently titled child0044 소프트웨어 보호법 시행이후 등록된 소프트웨어,original reference214. Contents11 andPDF212–219 are provisional lookup candidates,not verified extent or folio offset. Locate exact0044opening/ending/continuations and adjacent independent material before mapping. Restore at most six verified source pages;segment longer table material into immutable natives if necessary. Preserve source title/deck/prose,registration-table headings/rows/cells/names/dates/numbers and original images without inferred registrations,modern legal claims or expected numeric completion. Decide parent0043 from source evidence;no invented standalone article/banner/package. Two canonical tasks/six mapped pages/twenty outside lookups,one direct source correction pass.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0042"
+      "maso-1988-01-toc-0043",
+      "maso-1988-01-toc-0044"
     ],
-    "known_start_pdf_page": 80,
-    "canonical_reference": "78",
-    "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-41/source-reviewed.json",
-      "sha256": "15fc15c2616b7fa7d3599225e894676d8aa4e312418a6163b7ae7eb29c3dd7a0",
-      "bytes": 2470
-    },
+    "canonical_reference": "214",
+    "known_start_pdf_page": null,
     "lookup_pdf_page_candidates": [
       11,
-      79,
-      80,
-      81
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -6511,16 +6672,16 @@
     }
   },
   "remaining_work": [
-    "14 canonical identities still need source classification/restoration,including0032 Survey original175/bounded inconclusive review.0039 PC software trends complete/readable across13pages;no classified article has deferred body pages or pending complete assembly.0038/0051 and earlier0037/0034/0033 complete;one recognition glyph/two graph panels retain manual review. Former0023 original105 conflict/history and legacy0018/private adapters retained. Eventual issue dispatcher also needspc-software-trends-literal-v1/selectedpc_software_literal_r01.py.",
+    "13 canonical identities still need source classification/restoration,including0032 Survey original175/bounded inconclusive review.0042postal-code notice complete/readablePDF80–81 with dense reproduced directory-body transcription explicitly pending and four unknown-count markers.0039PC software trends complete across13pages;no classified article has deferred body pages or pending complete assembly.0038scanner one recognition glyph/two graph panels retain manual review. Former0023 original105 conflict/history and legacy0018/private adapters retained. Eventual dispatcher must retain selectedpc-software-trends-literal-v1/pc_software_literal_r01.py plus earlierfour.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 30,
+    "readable": 31,
     "partial": 0,
     "non_owning_headings": 7,
-    "unresolved": 14
+    "unresolved": 13
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-42/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-43/preservation-inventory.json"
 }
