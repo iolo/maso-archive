@@ -25125,6 +25125,47 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-61",
+      "completed_at": "2026-10-27T15:35:36.944801+00:00",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "outside_lookup_pages": 20,
+      "status": "outside-page-accounting-part1",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-61/validation.json",
+        "sha256": "0056b4e249de8523abc5858dc23627eca8080fb40395965dd0796fafed69995a",
+        "bytes": 2212
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-61/reproduction.json",
+        "sha256": "37c3605457989814aaff3116c48c8e12a9bfda9009d7bd9d40de3ad51eca2657",
+        "bytes": 1585
+      },
+      "extent_declaration": {
+        "path": "archive/pdf/1988-01/restoration/batch-61/checkpoint.json",
+        "sha256": "a3992349d31b50a7e2dcb476c2114fb39d404f48e7a20071b8894f753b9edb9b",
+        "bytes": 7592
+      },
+      "source_correction_passes": 0,
+      "recognition_tasks": 0,
+      "recognition_retries": 0,
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing Batch42 baseline reused;no core changes,no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      }
     }
   ],
   "notes": [
@@ -25142,35 +25183,74 @@
     "Batch57 completes0003printer/font-editor206–213from two exact natives. Selected central-hangul-printer-complete-r01 has345files226,532,509bytes;336native files120,203,342bytes unchanged. All47,980native/48,848projected UTF8ranges and48,356native/49,474projected pins/111crop pixels pass.53array categories106slices16objects2scalars6reserved arrays retained. Four stale stage notes resolved only actively;15invalid mutations rejected. Initial successful export omitted31opening originals from complete_figure_sequence;selected r01corrects that derived index only,all attempts retained. No new mapping/OCR/source correction or reader build.",
     "Batch58resolves0004컴퓨터 언어 and0006인터프리터 분석 as non-owning group headings. Directly inspected15exact prior source views:contents11and category banners above independently titled C/Apple/MSXchild openings30/48/52plus continuation/boundary pages. Three child exports/manifests/ownership unchanged;no parent body/package invented and no source-wide absence claim. Zero new mapping/render/OCR/source correction.49,223prior/134pilot/30core unchanged;35readable/0partial/11headings/5unresolved. No reader rebuild.",
     "Batch59resolves0047컴퓨터 교육 and0048하드웨어 제작 as non-owning group headings. Directly inspected10exact prior source views:contents11and banners above education-method child0009on58/60and hardware child0010on96/100plus boundaries. Two child exports/manifests/ownership unchanged;lower100typewriter tip and publisher banner remain excluded from hardware. No parent body/package or source-wide absence claim. Zero new mapping/render/OCR/source correction.49,258prior/134pilot/30core exact;35readable/13headings/3unresolved. No reader rebuild.",
-    "Batch60restores0046independent typewriter tip lowerPDF100/printed98and resolves0049graphics parent as non-owning. Complete29files4,054,838bytes match rebuild;358ranges368pins6pixels exact. Middle-left-right prose order/two continuations/eight physical paragraph parts retained. Source title punctuation,no byline,phone glyph/model/technical/contact candidates explicit.30shared-page region pairs15nonfigure pairs disjoint from hardware. Five raws before one source pass;one pre-OCRcrop repair/no retry. Initial verifier same-number folio assumption failed;fresh r01uses source98without artifact changes.49,288prior/134pilot/30core exact;36readable14headings1unresolved. Full issue active;no reader rebuild."
+    "Batch60restores0046independent typewriter tip lowerPDF100/printed98and resolves0049graphics parent as non-owning. Complete29files4,054,838bytes match rebuild;358ranges368pins6pixels exact. Middle-left-right prose order/two continuations/eight physical paragraph parts retained. Source title punctuation,no byline,phone glyph/model/technical/contact candidates explicit.30shared-page region pairs15nonfigure pairs disjoint from hardware. Five raws before one source pass;one pre-OCRcrop repair/no retry. Initial verifier same-number folio assumption failed;fresh r01uses source98without artifact changes.49,288prior/134pilot/30core exact;36readable14headings1unresolved. Full issue active;no reader rebuild.",
+    "Batch61records first20outside-selected-body pages:16advertisements,one dated cover,contents/colophon,unlisted New Year editorial and survey-awards notice candidate22/printed20. All188selected body pages/190assignments from36unchanged article maps are indexed.208of242pages have content records;34outside pages remain uninspected in accounting. Page22shares survey heading but contains prize recipients/collection instructions;review23next,keep0032unresolved/original175. Accounting JSON rebuild byte-identical;all49,451prior/134pilot/30core exact. All51canonical entries unchanged;no OCR/reader rebuild."
   ],
   "next_checkpoint": {
-    "goal": "Begin explicit all-page accounting for the242source pages. In this first accounting checkpoint directly inspect/classify only the first20outside-body candidates from the declared list. Preserve page/folio/source pins and exact reasons for cover,contents,advertising or other outside-body material. Do not assign any page to unresolved survey0032without its own source evidence or substitute unrelated content. No article/native/mapping/OCR/source-text changes;donated-cover derivative selection and complete issue export remain later checkpoints.",
-    "toc_entry_ids": [],
-    "accounting_part": 1,
+    "goal": "Continue all-page accounting with20declared outside lookups:revisit survey-awards candidate22and inspect the first19pending pages,starting with23. Examine22/23context before deciding whether any source body belongs to unresolved canonical0032;retain original contents175and all old evidence. The repeated heading alone does not establish questionnaire ownership. Record literal page content and explicit uncertainty. If a canonical body is positively identified,declare a separate bounded restoration checkpoint. No mapping,OCR,article export or source-text changes in this accounting/source-location review.",
+    "toc_entry_ids": [
+      "maso-1988-01-toc-0032"
+    ],
+    "accounting_part": 2,
+    "previous_accounting": {
+      "path": "archive/pdf/1988-01/restoration/batch-61/page-accounting.json",
+      "sha256": "2766aae7e73e0c5c20576d0d578d090310858b5be023b3e9caa276aeada73e62",
+      "bytes": 558359
+    },
+    "body_assignment_index": {
+      "path": "archive/pdf/1988-01/restoration/batch-61/selected-body-assignment-index.json",
+      "sha256": "aff004a72060b2a441c37f0a5202463473acdb797d2296641f196ce8245a9032",
+      "bytes": 275910
+    },
     "source_pdf_pages": 242,
     "selected_body_pdf_pages": 188,
-    "outside_body_page_candidates": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
+    "lookup_pdf_page_candidates": [
       22,
+      23,
+      28,
+      29,
+      31,
+      47,
+      61,
+      66,
+      82,
+      83,
+      91,
+      101,
+      116,
+      145,
+      146,
+      147,
+      150,
+      155,
+      156,
+      159
+    ],
+    "new_outside_page_candidates": [
+      23,
+      28,
+      29,
+      31,
+      47,
+      61,
+      66,
+      82,
+      83,
+      91,
+      101,
+      116,
+      145,
+      146,
+      147,
+      150,
+      155,
+      156,
+      159
+    ],
+    "revisited_candidate_pdf_pages": [
+      22
+    ],
+    "remaining_outside_page_candidates": [
       23,
       28,
       29,
@@ -25206,7 +25286,61 @@
       241,
       242
     ],
-    "lookup_pdf_page_candidates": [
+    "canonical_eligibility_review_only": true,
+    "limits": {
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 20
+    },
+    "actual_planned_work": {
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "outside_lookup_pages": 20,
+      "new_outside_pages": 19
+    },
+    "source_location_status": "Survey title appears on prize-recipient notice22/printed20;continuation23not yet reviewed. Canonical0032remains unresolved,original175unchanged."
+  },
+  "remaining_work": [
+    "Survey0032remains unresolved with original contents175and retained bounded review. New page22/printed20survey-awards candidate requires23continuation/context review before ownership adjudication;no questionnaire or source-wide absence claim. All50other identities remain36readable/14headings. Page accounting has188selected body pages/190assignments and20outside observations;34outside pages pending.",
+    "All-page accounting,donated-cover selection,standalone JSON/assets issue export,independent rebuild and final requirement audit remain. Preserve eight private assembly adapters,including selected batch57 central_hangul_printer_literal_r01.py/central-hangul-printer-literal-v1,and all native metadata/evidence. No reader rebuild without explicit request.",
+    "Manual review remains for source glyphs/exact spaces/quoted fields/code comments and dense postal samples;0038scanner glyph/two graph panels and former0023original105history stay explicit. CD references retain their actual evidential scope."
+  ],
+  "outcome_totals": {
+    "canonical_entries": 51,
+    "readable": 36,
+    "partial": 0,
+    "non_owning_headings": 14,
+    "unresolved": 1
+  },
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-61/preservation-inventory.json",
+  "page_accounting": {
+    "status": "partial outside-page review",
+    "accounting_part": 1,
+    "selected_accounting": {
+      "path": "archive/pdf/1988-01/restoration/batch-61/page-accounting.json",
+      "sha256": "2766aae7e73e0c5c20576d0d578d090310858b5be023b3e9caa276aeada73e62",
+      "bytes": 558359
+    },
+    "body_assignment_index": {
+      "path": "archive/pdf/1988-01/restoration/batch-61/selected-body-assignment-index.json",
+      "sha256": "aff004a72060b2a441c37f0a5202463473acdb797d2296641f196ce8245a9032",
+      "bytes": 275910
+    },
+    "validation": {
+      "path": "archive/pdf/1988-01/restoration/batch-61/validation.json",
+      "sha256": "0056b4e249de8523abc5858dc23627eca8080fb40395965dd0796fafed69995a",
+      "bytes": 2212
+    },
+    "reproduction": {
+      "path": "archive/pdf/1988-01/restoration/batch-61/reproduction.json",
+      "sha256": "37c3605457989814aaff3116c48c8e12a9bfda9009d7bd9d40de3ad51eca2657",
+      "bytes": 1585
+    },
+    "source_pdf_pages": 242,
+    "selected_articles": 36,
+    "selected_body_pages": 188,
+    "selected_body_assignments": 190,
+    "reviewed_outside_pages": [
       1,
       2,
       3,
@@ -25228,29 +25362,57 @@
       19,
       22
     ],
-    "limits": {
-      "canonical_tasks": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
+    "pending_outside_pages": [
+      23,
+      28,
+      29,
+      31,
+      47,
+      61,
+      66,
+      82,
+      83,
+      91,
+      101,
+      116,
+      145,
+      146,
+      147,
+      150,
+      155,
+      156,
+      159,
+      161,
+      162,
+      173,
+      174,
+      175,
+      177,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242
+    ],
+    "pages_with_content_records": 208,
+    "all_source_pages_have_content_records": false,
+    "outside_classification_counts": {
+      "advertisement": 16,
+      "contents": 1,
+      "front-cover": 1,
+      "survey-awards-notice": 1,
+      "unlisted-editorial": 1
     },
-    "actual_planned_work": {
-      "canonical_tasks": 0,
-      "mapped_pages": 0,
-      "outside_lookup_pages": 20
-    },
-    "candidate_status": "Page set difference from current selected native coverage,not a visual classification or full-source absence finding."
-  },
-  "remaining_work": [
-    "Only survey0032remains unresolved:original contents175with bounded inconclusive location review;no substitute or source-wide absence claim. All other50identities account for36readable articles and14non-owning headings;no partial articles/pending assemblies. Next explicit all-page accounting:188selected body pages and54outside-body candidates,at most20new lookup pages per checkpoint.",
-    "All-page accounting,donated-cover selection,standalone JSON/assets issue export,independent rebuild and final requirement audit remain. Preserve eight private assembly adapters,including selected batch57 central_hangul_printer_literal_r01.py/central-hangul-printer-literal-v1,and all native metadata/evidence. No reader rebuild without explicit request.",
-    "Manual review remains for source glyphs/exact spaces/quoted fields/code comments and dense postal samples;0038scanner glyph/two graph panels and former0023original105history stay explicit. CD references retain their actual evidential scope."
-  ],
-  "outcome_totals": {
-    "canonical_entries": 51,
-    "readable": 36,
-    "partial": 0,
-    "non_owning_headings": 14,
-    "unresolved": 1
-  },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-60/preservation-inventory.json"
+    "survey_candidate_pdf_pages": [
+      22
+    ],
+    "survey_candidate_ownership_resolved": false,
+    "next_survey_context_page": 23,
+    "canonical_entries_unchanged": true,
+    "article_exports_unchanged": true
+  }
 }
