@@ -26,56 +26,61 @@ paired OCR or a new engine comparison.
 - January 1988 is active: 51 canonical identities, thirty-six readable/sample-reviewed
   articles, zero partial articles, fourteen non-owning headings and one unresolved identity.
 
-  Batch 62 continues all-page accounting. The 36 unchanged selected article maps retain
-  188 distinct body pages and 190 assignments. Content records now cover 227 of 242 pages:
-  188 selected body pages plus 39 directly inspected outside pages. Fifteen outside pages
-  remain pending. This is partial accounting; all 51 canonical entries remain unchanged.
+  Batch 63 completes page-content accounting for all 242 source pages. The 36 unchanged
+  selected article maps retain 188 distinct body pages and 190 assignments. All 54 pages
+  outside those selected bodies now have direct source observations; none remain pending.
+  This establishes page-content records, not full issue completion or resolved eligibility.
+  All 51 canonical entries and all article exports remain unchanged.
 
-  PDF22–23/printed20–21 form an awards announcement. The heading is split as
-  애독자 설문지 / 당첨자 111명, and the collection instruction continues between pages.
-  Winner name/address lists end on23, above blank space and the closed lower border.
-  No questionnaire fields are visible on either page. The spread extent is verified,
-  but its relation to unresolved canonical0032/original contents175 is not established.
-  No canonical body is substituted and no source-wide absence is claimed. All earlier
-  source-location evidence and the original contents reference remain preserved.
+  This checkpoint reviewed the final fifteen outside pages:161,162,173,174,175,177 and
+  234–242. Twelve are advertising pages, including publisher disk-sales catalogues on
+  234–237. PDF238 is an unlisted public-software catalogue and visibly bears printed238;
+  its source wording does not certify a modern license or executable recovery. PDF239
+  contains subscription/payment instructions and a national distribution directory.
+  PDF240 preserves three separate components:staff afterwords,advertiser index and
+  the small Intel/동서전자공업 advertisement. No generic ad classification hides them.
+  No additional canonical article or new survey body was identified in these fifteen pages.
 
-  This checkpoint directly reviewed twenty exact frames: revisited22 and nineteen new
-  outside pages. Seventeen are advertising/promotional pages, including Samsung and
-  Daewoo manufacturer competitions and a DACOM call for papers. PDF147/printed145 is
-  the independent January events/training calendar, already separated from Domestic
-  News0024 by its original boundary review. No new article identity/export is created.
-  Across all 39 reviewed outside pages there are 33 advertisements, the cover,
-  contents/colophon, an unlisted New Year editorial, two awards pages and the calendar.
-  PDF1 remains a damaged dated cover candidate; donated-cover selection is deferred.
+  Across all 54 outside pages there are 45 advertisements, the cover, contents/colophon,
+  an unlisted New Year editorial, two awards pages, the January events calendar, the
+  public-software catalogue, subscription/distribution page and mixed afterword/index/ad
+  page. Source folios remain literal; no global PDF-to-print offset is inferred. PDF1
+  remains a damaged dated cover candidate; donated-cover selection is still pending.
   The sideways PDF8 advertisement retains its original orientation.
 
-  Three frozen observation groups and a survey-context record preserve this review.
-  The incremental accounting JSON is byte-identical to its independent reconstruction;
-  every earlier row outside the twenty-page scope is unchanged. All 49,499 prior January
+  The PDF22–23/printed20–21 awards spread has a verified extent. Its split heading
+  애독자 설문지 / 당첨자 111명 and collection instructions do not establish ownership
+  for canonical0032/original contents175. That identity remains unresolved, with all
+  original evidence and new bounded-review supplements preserved. No substitute body,
+  missing-scan explanation, folio-offset explanation or source-wide absence is claimed.
+  Existing body maps are reused; this checkpoint did not freshly inspect all body text.
+
+  Three frozen observation groups and a survey-context supplement preserve the review.
+  The complete content-accounting JSON is byte-identical to its independent rebuild;
+  every earlier row outside the fifteen-page scope is unchanged. All 49,549 prior January
   files, 134 pilot files and 30 core pins remain exact. The 213 passing Batch42 tests are
   reused. No new rendering, mapping, OCR, source correction or article export.
 
-  The complete lower-PDF100 typewriter tip, printer0003, editor0002 and back-issue
-  index0045 remain unchanged. No partial articles or article assemblies are pending.
-  Eventual issue dispatch must retain `batch-57/central_hangul_printer_literal_r01.py`,
+  No partial articles or article assemblies are pending. Eventual issue dispatch must
+  retain `batch-57/central_hangul_printer_literal_r01.py`,
   `batch-54/central_hangul_editor_literal_r02.py`, `batch-48/back_issue_index_literal.py`,
   `batch-42/pc_software_literal_r01.py`, `batch-35/turbo_c_literal.py`,
   `batch-21/legacy_input_r01.py` with its exact old TOC/context/current identity guard,
   `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`.
 
-  Next review the fifteen pending outside pages:161,162,173,174,175,177 and234–242.
-  Retain survey uncertainty; any positively identified body needs a separately declared
-  restoration checkpoint. Shared-page/mixed-exclusion audit, donated cover, standalone
-  JSON/assets issue export, independent rebuild and final requirement audit remain.
-  Former0023 original105 history, postal samples and scanner glyph/two graph panels
-  retain their manual-review limits. Keep two-task/six-page/twenty-outside bounds.
-  The full issue goal is active. No reader rebuild or deployment. Human acceptance,
-  full proofreading, original encoded bytes, exact spaces/glyphs, historical/technical
-  claims, execution and independent backup recovery remain unverified.
+  Next audit frozen selected-map shared ownership and mixed exclusions. Directly review
+  shared PDF167 for owners0023/0029; reuse Batch60 source evidence for shared PDF100
+  and recompute both geometries. Preserve every native exclusion and literal folio.
+  Survey disposition, donated cover, standalone JSON/assets issue export, independent
+  native/issue rebuild and final requirement audit remain. Former0023 original105 history,
+  postal samples and scanner glyph/two graph panels retain their manual-review limits.
+  Keep two-task/six-page/twenty-outside bounds. The full issue goal is active. No reader
+  rebuild or deployment. Human acceptance, full proofreading, original encoded bytes,
+  exact spaces/glyphs, historical/technical claims, execution and backup recovery are unverified.
 
-  Validation/reproduction: `archive/pdf/1988-01/restoration/batch-62/validation.json`
-  and `archive/pdf/1988-01/restoration/batch-62/reproduction.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-62/preservation-inventory.json`.
+  Validation/reproduction: `archive/pdf/1988-01/restoration/batch-63/validation.json`
+  and `archive/pdf/1988-01/restoration/batch-63/reproduction.json`.
+  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-63/preservation-inventory.json`.
 
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning

@@ -25214,6 +25214,54 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-63",
+      "completed_at": "2026-10-27T15:57:19.764859+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0032"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "outside_lookup_pages": 15,
+      "status": "outside-page-accounting-part3-content-records-complete",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-63/validation.json",
+        "sha256": "b9a1b5a75bf6a30c899af260d5d792f65452cf78da25508c18553512176ded28",
+        "bytes": 3064
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-63/reproduction.json",
+        "sha256": "e6bebeb3bd3b8c1ba564a0fdcc1fbb73d5010384bf8bb86611b61b5853f9d89b",
+        "bytes": 1901
+      },
+      "extent_declaration": {
+        "path": "archive/pdf/1988-01/restoration/batch-63/checkpoint.json",
+        "sha256": "425ce2f8e5899878e5f1bc0f3e37909d13a2c859b4bc0688d4ee139bf7b994b9",
+        "bytes": 8035
+      },
+      "source_location_review": {
+        "path": "archive/pdf/1988-01/restoration/batch-63/survey-context-review.json",
+        "sha256": "1ee7507de82c7d0db2f195fca0c7c7b7add72903492f754641e6ad115987c5b1",
+        "bytes": 2153
+      },
+      "source_correction_passes": 0,
+      "recognition_tasks": 0,
+      "recognition_retries": 0,
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing Batch42 baseline reused;no core changes,no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      }
     }
   ],
   "notes": [
@@ -25233,99 +25281,60 @@
     "Batch59resolves0047컴퓨터 교육 and0048하드웨어 제작 as non-owning group headings. Directly inspected10exact prior source views:contents11and banners above education-method child0009on58/60and hardware child0010on96/100plus boundaries. Two child exports/manifests/ownership unchanged;lower100typewriter tip and publisher banner remain excluded from hardware. No parent body/package or source-wide absence claim. Zero new mapping/render/OCR/source correction.49,258prior/134pilot/30core exact;35readable/13headings/3unresolved. No reader rebuild.",
     "Batch60restores0046independent typewriter tip lowerPDF100/printed98and resolves0049graphics parent as non-owning. Complete29files4,054,838bytes match rebuild;358ranges368pins6pixels exact. Middle-left-right prose order/two continuations/eight physical paragraph parts retained. Source title punctuation,no byline,phone glyph/model/technical/contact candidates explicit.30shared-page region pairs15nonfigure pairs disjoint from hardware. Five raws before one source pass;one pre-OCRcrop repair/no retry. Initial verifier same-number folio assumption failed;fresh r01uses source98without artifact changes.49,288prior/134pilot/30core exact;36readable14headings1unresolved. Full issue active;no reader rebuild.",
     "Batch61records first20outside-selected-body pages:16advertisements,one dated cover,contents/colophon,unlisted New Year editorial and survey-awards notice candidate22/printed20. All188selected body pages/190assignments from36unchanged article maps are indexed.208of242pages have content records;34outside pages remain uninspected in accounting. Page22shares survey heading but contains prize recipients/collection instructions;review23next,keep0032unresolved/original175. Accounting JSON rebuild byte-identical;all49,451prior/134pilot/30core exact. All51canonical entries unchanged;no OCR/reader rebuild.",
-    "Batch62directly reviews20declared pages,including revisited22and19new outside pages. Awards heading/sentence continue22–23/printed20–21;winner lists close on23. No questionnaire body or canonical0032ownership established;original175and every old evidence record retained.17current advertising/promotional pages and separate January events calendar147/printed145are outside selected bodies. Total227of242content records:188selected body pages/190assignments plus39outside pages;15outside pages pending. Independent accounting rebuild exact;all49,499prior/134pilot/30core pins exact;213-test baseline reused. All51canonical entries and36article exports unchanged;full issue active."
+    "Batch62directly reviews20declared pages,including revisited22and19new outside pages. Awards heading/sentence continue22–23/printed20–21;winner lists close on23. No questionnaire body or canonical0032ownership established;original175and every old evidence record retained.17current advertising/promotional pages and separate January events calendar147/printed145are outside selected bodies. Total227of242content records:188selected body pages/190assignments plus39outside pages;15outside pages pending. Independent accounting rebuild exact;all49,499prior/134pilot/30core pins exact;213-test baseline reused. All51canonical entries and36article exports unchanged;full issue active.",
+    "Batch63 directly reviews all15remaining outside pages. Twelve advertisements include four publisher disk-sales catalogue pages234–237;238is an unlisted public-software catalogue with literal printed238;239subscription/distribution;240contains separately recorded staff afterword,advertiser index and small commercial ad. Full242page content index has188selected body pages/190assignments plus54outside observations,no outside pages pending. No new survey body identified in this15page selection;canonical0032/original175and all51entries remain unchanged. Independent incremental accounting is byte-identical;all49,549prior/134pilot/30core pins exact,213-test baseline reused. Shared ownership/exclusions,cover,standalone issue export,rebuild and final audit remain;full issue active."
   ],
   "next_checkpoint": {
-    "goal": "Complete outside-selected-body page accounting with the remaining15declared pages. Record literal folios/content and any evidence relevant to unresolved survey0032,retaining original contents175 and all old/22–23awards context. Do not assign canonical ownership from a heading alone or substitute unrelated notices. If an eligible body is positively identified,declare a separate bounded restoration checkpoint. This is accounting/source-location review only:no mapping,OCR,article export or source-text changes. Shared-page/exclusion audit,cover,standalone issue export,independent rebuild and full requirement audit remain afterward.",
+    "goal": "Audit all frozen selected-map ownership/exclusion records programmatically and independently reconstruct that audit. Directly recheck shared PDF167 between canonical0023debugging bulletin and0029readers forum within a two-owner/one-page source-location scope. Reuse frozen Batch60 source/geometry evidence for shared100 hardware0010/typewriter0046;recompute both shared-page geometries from current unchanged maps. Retain every exclusion kind/literal folio/native context,including unlisted monitor95 and utility-disk promotion107. Do not alter source text,canonical entries or article exports. Any source defect requiring more mapping/OCR must get a fresh bounded declaration. Survey0032remains unresolved with original175and all current evidence;this two-owner audit does not adjudicate a third canonical task. Donated-cover selection,standalone issue export,independent native/issue rebuild and final audit remain afterward.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0032"
+      "maso-1988-01-toc-0023",
+      "maso-1988-01-toc-0029"
     ],
-    "accounting_part": 3,
-    "previous_accounting": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/page-accounting.json",
-      "sha256": "74193f7fee99ec2df50965f4004290de2584ae3b391a18222bfe4d0c13434b5c",
-      "bytes": 582892
+    "selected_accounting": {
+      "path": "archive/pdf/1988-01/restoration/batch-63/page-accounting.json",
+      "sha256": "1585f2d856d86a53e4d729fde8236673fe0a5367364325896da57793b0762c82",
+      "bytes": 603069
     },
     "body_assignment_index": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/selected-body-assignment-index.json",
+      "path": "archive/pdf/1988-01/restoration/batch-63/selected-body-assignment-index.json",
       "sha256": "aff004a72060b2a441c37f0a5202463473acdb797d2296641f196ce8245a9032",
       "bytes": 275910
     },
     "survey_context_review": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/survey-context-review.json",
-      "sha256": "79a2944f88f44c72222b5535a9aaf2747d71b07e2ca668b67c061fdb412b56bd",
-      "bytes": 2024
+      "path": "archive/pdf/1988-01/restoration/batch-63/survey-context-review.json",
+      "sha256": "1ee7507de82c7d0db2f195fca0c7c7b7add72903492f754641e6ad115987c5b1",
+      "bytes": 2153
     },
     "source_pdf_pages": 242,
-    "selected_body_pdf_pages": 188,
     "lookup_pdf_page_candidates": [
-      161,
-      162,
-      173,
-      174,
-      175,
-      177,
-      234,
-      235,
-      236,
-      237,
-      238,
-      239,
-      240,
-      241,
-      242
+      167
     ],
-    "new_outside_page_candidates": [
-      161,
-      162,
-      173,
-      174,
-      175,
-      177,
-      234,
-      235,
-      236,
-      237,
-      238,
-      239,
-      240,
-      241,
-      242
+    "mapping_targets": [],
+    "new_outside_page_candidates": [],
+    "revisited_candidate_pdf_pages": [
+      167
     ],
-    "revisited_candidate_pdf_pages": [],
-    "remaining_outside_page_candidates": [
-      161,
-      162,
-      173,
-      174,
-      175,
-      177,
-      234,
-      235,
-      236,
-      237,
-      238,
-      239,
-      240,
-      241,
-      242
+    "shared_pdf_pages_for_static_audit": [
+      100,
+      167
     ],
-    "canonical_eligibility_review_only": true,
+    "static_selected_article_inputs": 36,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
     "actual_planned_work": {
-      "canonical_tasks": 1,
+      "canonical_tasks": 2,
       "mapped_pages": 0,
-      "outside_lookup_pages": 15,
-      "new_outside_pages": 15
+      "outside_lookup_pages": 1
     },
-    "source_location_status": "Award spread22–23/printed20–21extent verified;no questionnaire fields visible there. Relation to canonical0032/original175 remains unresolved;all51entries unchanged."
+    "no_new_ocr": true,
+    "no_source_text_changes": true,
+    "no_article_exports": true
   },
   "remaining_work": [
-    "Survey0032remains unresolved with original contents175and retained bounded source-location evidence. Awards spread22–23/printed20–21has verified extent and no visible questionnaire fields;its relation to0032is not established. All50other identities remain36readable/14headings. Accounting has188selected body pages/190assignments and39outside observations;15outside pages pending. Complete remaining outside review,then audit shared ownership/mixed exclusions before issue closeout.",
+    "All242source pages have content records:188selected body pages/190assignments and54directly reviewed outside pages. Complete shared-page ownership/mixed-exclusion audit remains,including fresh PDF167two-owner source review and reuse of Batch60PDF100evidence. Survey0032remains unresolved with original contents175and preserved Batch32/61/62/63evidence;full page-content accounting does not establish canonical eligibility or full-text absence.",
     "All-page accounting,donated-cover selection,standalone JSON/assets issue export,independent rebuild and final requirement audit remain. Preserve eight private assembly adapters,including selected batch57 central_hangul_printer_literal_r01.py/central-hangul-printer-literal-v1,and all native metadata/evidence. No reader rebuild without explicit request.",
     "Manual review remains for source glyphs/exact spaces/quoted fields/code comments and dense postal samples;0038scanner glyph/two graph panels and former0023original105history stay explicit. CD references retain their actual evidential scope."
   ],
@@ -25336,29 +25345,29 @@
     "non_owning_headings": 14,
     "unresolved": 1
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-62/preservation-inventory.json",
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-63/preservation-inventory.json",
   "page_accounting": {
-    "status": "partial outside-page review",
-    "accounting_part": 2,
+    "status": "complete page-content records; ownership/exclusion closeout audit pending",
+    "accounting_part": 3,
     "selected_accounting": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/page-accounting.json",
-      "sha256": "74193f7fee99ec2df50965f4004290de2584ae3b391a18222bfe4d0c13434b5c",
-      "bytes": 582892
+      "path": "archive/pdf/1988-01/restoration/batch-63/page-accounting.json",
+      "sha256": "1585f2d856d86a53e4d729fde8236673fe0a5367364325896da57793b0762c82",
+      "bytes": 603069
     },
     "body_assignment_index": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/selected-body-assignment-index.json",
+      "path": "archive/pdf/1988-01/restoration/batch-63/selected-body-assignment-index.json",
       "sha256": "aff004a72060b2a441c37f0a5202463473acdb797d2296641f196ce8245a9032",
       "bytes": 275910
     },
     "validation": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/validation.json",
-      "sha256": "d0258873c3f16889950d22e75d796d7b2218b53217f7a16c40c96924326e7333",
-      "bytes": 2814
+      "path": "archive/pdf/1988-01/restoration/batch-63/validation.json",
+      "sha256": "b9a1b5a75bf6a30c899af260d5d792f65452cf78da25508c18553512176ded28",
+      "bytes": 3064
     },
     "reproduction": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/reproduction.json",
-      "sha256": "9a1c558d57ad8864f9bc3dfa57740733f65cbf04f7d99cf9dac99076444716f2",
-      "bytes": 1860
+      "path": "archive/pdf/1988-01/restoration/batch-63/reproduction.json",
+      "sha256": "e6bebeb3bd3b8c1ba564a0fdcc1fbb73d5010384bf8bb86611b61b5853f9d89b",
+      "bytes": 1901
     },
     "source_pdf_pages": 242,
     "selected_articles": 36,
@@ -25403,9 +25412,7 @@
       150,
       155,
       156,
-      159
-    ],
-    "pending_outside_pages": [
+      159,
       161,
       162,
       173,
@@ -25422,27 +25429,32 @@
       241,
       242
     ],
-    "pages_with_content_records": 227,
-    "all_source_pages_have_content_records": false,
+    "pending_outside_pages": [],
+    "pages_with_content_records": 242,
+    "all_source_pages_have_content_records": true,
     "outside_classification_counts": {
-      "advertisement": 33,
+      "advertisement": 45,
       "contents": 1,
+      "editorial-afterword-and-advertiser-index": 1,
       "front-cover": 1,
+      "subscription-and-distribution": 1,
       "survey-awards-notice": 2,
       "unlisted-editorial": 1,
-      "unlisted-events-calendar": 1
+      "unlisted-events-calendar": 1,
+      "unlisted-public-software-catalogue": 1
     },
     "survey_candidate_pdf_pages": [
       22,
       23
     ],
     "survey_context_review": {
-      "path": "archive/pdf/1988-01/restoration/batch-62/survey-context-review.json",
-      "sha256": "79a2944f88f44c72222b5535a9aaf2747d71b07e2ca668b67c061fdb412b56bd",
-      "bytes": 2024
+      "path": "archive/pdf/1988-01/restoration/batch-63/survey-context-review.json",
+      "sha256": "1ee7507de82c7d0db2f195fca0c7c7b7add72903492f754641e6ad115987c5b1",
+      "bytes": 2153
     },
     "survey_notice_extent_verified": true,
     "survey_candidate_ownership_resolved": false,
+    "all_shared_ownership_and_exclusions_audited": false,
     "canonical_entries_unchanged": true,
     "article_exports_unchanged": true
   }
