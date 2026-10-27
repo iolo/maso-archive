@@ -2365,11 +2365,94 @@
       "toc_entry_id": "maso-1988-01-toc-0026",
       "title": "해외뉴스",
       "parent_id": "maso-1988-01-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": []
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0026 independently opens printed155/PDF157 with vertical 해외뉴스 title,정보레이다 banner and editorial introduction. No visible byline inferred.",
+        "Two consecutive body pages157–158/printed155–156 contain six news items under three category labels. Page Perfect and Vectra CS cross columns;Motorola68030 crosses pages;4693D printer and IBM PS/2 cross columns. Two original photographs have printed captions.",
+        "Final printed156/PDF158 completes NEC/Seiko Epson copyright-dispute item with PC-286U/286V and PC-9801 compatibility description. Following PDF159 is a full Dae-eun computer-dictionary/book advertisement;PDF160 independently opens 신간안내. PriorPDF156 is a full Brother advertisement. No ending from a next TOC number or global folio offset."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1988-01/packages/batch-27-r02/foreign-news",
+        "article_id": "scan-maso-1988-01-toc-0026",
+        "manifest": {
+          "path": "archive/pdf/1988-01/packages/batch-27-r02/foreign-news/manifest.json",
+          "sha256": "5bd775fa05f519ddf2e696f5492a7e8bd385a243fbebb9536821085eeaa705d1",
+          "bytes": 19786
+        },
+        "coverage": {
+          "pdf_pages": [
+            157,
+            158
+          ],
+          "printed_pages": [
+            "155",
+            "156"
+          ],
+          "regions": 30,
+          "blocks": 20,
+          "code_units": 0,
+          "physical_text_rows": 302,
+          "transcript_tokens": 1164,
+          "news_items": 6,
+          "categories": 3,
+          "printed_captions": 2,
+          "price_blocks": 4,
+          "price_expressions": 6,
+          "configurations": 4,
+          "configuration_fields": 20,
+          "identifier_occurrences": 103,
+          "specification_occurrences": 53,
+          "number_fragments": 144,
+          "prose_joins": 6,
+          "source_connections": 7,
+          "figures": 4,
+          "regional_transcripts": 26,
+          "deferred_pdf_pages": [],
+          "full_article_pdf_pages": [
+            157,
+            158
+          ],
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-27",
+        "latest_checkpoint": "batch-27",
+        "source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-27/foreign-news/article-scope.json",
+          "sha256": "c90f954c55bde39be46db6857916c84c4ec0b5f4f0be29b79b269c2b9650deaa",
+          "bytes": 454
+        },
+        "validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-27/validation.json",
+          "sha256": "07225998fdb10c7025768727d0734e8a4a4927b235ff54834e3097cf485d7cac",
+          "bytes": 2330
+        },
+        "reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-27/reproduction.json",
+          "sha256": "ccb368b8f1778ccbec320bc22a92795440b6ce170030623be00d4b054589298a",
+          "bytes": 1268
+        },
+        "metadata_refinement": {
+          "path": "archive/pdf/1988-01/restoration/batch-27/metadata-refinement-r01.json",
+          "sha256": "34b147e88c0ec83064317862ebde234176ac2b8c1a42d5a19edb62c26bea0ed0",
+          "bytes": 1569
+        },
+        "source_limits": [
+          "Assistant sample review;human acceptance/full proofreading,original encoded glyphs/exact spaces,historical/technical/copyright/price claims and independent backup recovery remain unverified.",
+          "Complete two-page Foreign News article with six news items,three category labels,editorial introduction and two printed caption/photo associations. Items belong to canonical0026;no extra canonical identities or byline inferred.",
+          "Six prose joins preserve Page Perfect/Vectra CS/4693D/IBM PS2 column continuations and Motorola68030 page continuation. IBM final-column continuation starts a new paragraph;no absent source words added.",
+          "Source 640 바이트,H/ougto-Mifflin,용량 for pounds,CMOS80/86,6MB versus4MB,매킨토시Ⅱ/MacⅡPlus,161MB,2334/3641,90000픽셀,ESDI expansion,점이·단점 and구매욕구/을 remain literal localized glyph or claim candidates. No historical,technical,grammar or numeric repair.",
+          "Four price passages/six expressions and four PS/2 configurations/twenty fields retain physical wraps,including79/95,14/000,8580-/041,8580/-071,8580/-111,2M/B and8038/6. No price conversion or current commercial validation.",
+          "Two original photographs retain their printed captions. Two full-page reference views preserve source typography,underlining,tiny photographic labels,faint punctuation and zero/slash-zero glyphs. Human proofreading and exact source encoding remain unverified.",
+          "All thirty crops precede26 pinned recognitions,all raw drafts precede one direct source pass. No crop repairs,recognition failures or retries."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1988-01-toc-0027",
@@ -3855,6 +3938,52 @@
         "sha256": "d8d71eb82a51c55513f1d8dff82f27cfa843010047b8cee733fcade3f9228263",
         "bytes": 1288
       }
+    },
+    {
+      "name": "batch-27",
+      "completed_at": "2026-10-27T00:09:11.118484+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0026"
+      ],
+      "mapped_pdf_pages": [
+        157,
+        158
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "outside_lookup_pages": 3,
+      "all_inspected_source_pages": 5,
+      "rendered_but_not_inspected_pdf_pages": [
+        161,
+        162,
+        163
+      ],
+      "recognition_tasks": 26,
+      "eng_code": 0,
+      "kor_eng_other": 26,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "before_ocr_expanded_crops": 0,
+      "map_revisions": 0,
+      "post_ocr_crop_repairs": 0,
+      "metadata_revisions": 1,
+      "status": "complete-article",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-27/validation.json",
+        "sha256": "07225998fdb10c7025768727d0734e8a4a4927b235ff54834e3097cf485d7cac",
+        "bytes": 2330
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-27/reproduction.json",
+        "sha256": "ccb368b8f1778ccbec320bc22a92795440b6ce170030623be00d4b054589298a",
+        "bytes": 1268
+      },
+      "metadata_refinement": {
+        "path": "archive/pdf/1988-01/restoration/batch-27/metadata-refinement-r01.json",
+        "sha256": "34b147e88c0ec83064317862ebde234176ac2b8c1a42d5a19edb62c26bea0ed0",
+        "bytes": 1569
+      }
     }
   ],
   "notes": [
@@ -3863,26 +3992,26 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Verify actual extent and restore canonical0026 Foreign News from original contents reference155/known openingPDF157. Inspect actual ending and adjacent title;at most six verified body pages. Preserve news headings,photos/captions,product/specification/numeric fields,column/page continuations and all source claims or mistakes. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
+    "goal": "Verify actual extent and restore canonical0027 New Books from original contents reference158/known openingPDF160. Inspect actual ending and adjacent title;at most six verified body pages. Preserve book titles,cover photos,bibliographic/price fields,descriptions and all physical wraps/source claims. Longer body stays partial until immutable natives and separate assembly. No global folio offset or TOC-derived ending.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0026"
+      "maso-1988-01-toc-0027"
     ],
-    "canonical_reference": "155",
-    "known_start_pdf_page": 157,
+    "canonical_reference": "158",
+    "known_start_pdf_page": 160,
     "prior_opening_evidence": {
-      "path": "archive/pdf/1988-01/restoration/batch-26/source-reviewed.json",
-      "sha256": "784bfe40567a2de238b3d7ce50e7d0e15af051702ca370a656d051d6a354dc68",
-      "bytes": 1508
+      "path": "archive/pdf/1988-01/restoration/batch-27/source-reviewed.json",
+      "sha256": "86ac8b75e2ab37906a8f2c5f8dc39e17f5fcb89374c9b9252ef1a94840e6afb3",
+      "bytes": 1269
     },
     "lookup_pdf_page_candidates": [
-      156,
-      157,
-      158,
       159,
       160,
       161,
       162,
-      163
+      163,
+      164,
+      165,
+      166
     ],
     "limits": {
       "canonical_tasks": 2,
@@ -3891,16 +4020,16 @@
     }
   },
   "remaining_work": [
-    "29 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
+    "28 canonical identities still need source classification/restoration,including0023 debugging-room location unresolved after twelve-page bounded review. No classified article has deferred body pages or pending complete assembly. Four verified non-owning headings and legacy0018 adoption remain complete.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 18,
+    "readable": 19,
     "partial": 0,
     "non_owning_headings": 4,
-    "unresolved": 29
+    "unresolved": 28
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-26/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-27/preservation-inventory.json"
 }
