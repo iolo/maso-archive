@@ -4969,7 +4969,16 @@
         "Inspected final233after lossless clockwise90rotation contains87년11월호 and87년12월호 monthly tables. The final visible December row is source page214/COPYⅡ CPM with its description/classification. Next234opens independently titled disk-sales catalog 주옥같은 프로그램만;235continues disk catalog;236–237IBM-PCutility disk sales/descriptions;238public software distribution descriptions. These are separate material,not index continuation.",
         "239is independent subscription fees/order/distributor notice.240contains editorial notes and advertising index plus a separate Intel coprocesor ad.241DACOM/DNS advertisement and242SamsungSPC1500advertising are independent. These tail lookups locate actual index ending233without assuming the next contents entry or issue end is its boundary.",
         "Boundary envelope217–233is established,but interior224–232has not been inspected in this checkpoint. Do not claim complete article continuity or coverage from these boundary views. First immutable native maps only217–222,six verified body pages;defer223–233to later bounded source reviews/natives and assemble separately. Article stays partial after first native until complete assembly.",
-        "All index titles,authors,series ordinals/continued/end labels,source issue/month/page references,classification/platform fields,printed blanks/local merges/carry-in groups,physical wraps and spelling/numeric/historical claims remain literal candidates. Do not fill a blank from expected chronology,another index occurrence or a modern title/platform. No executable listing assumed. Original pages,rotations,table/cover/inset images remain authoritative."
+        "All index titles,authors,series ordinals/continued/end labels,source issue/month/page references,classification/platform fields,printed blanks/local merges/carry-in groups,physical wraps and spelling/numeric/historical claims remain literal candidates. Do not fill a blank from expected chronology,another index occurrence or a modern title/platform. No executable listing assumed. Original pages,rotations,table/cover/inset images remain authoritative.",
+        "Canonical0045opening nativea217–222is immutable and independently verified inBatch45. Current source review directly inspects223–229after lossless clockwise90transpose;222/233/234reuse exact already reviewed original views. One canonical task,six target body pages223–228,four outside lookups222/229/233/234. No current folios visible on223–229;source year/month/page references are older-issue data,not current folios.",
+        "223starts with unheaded language-table continuation from222:87.9WATFOR-77then87.10entries. Subject categories continue with 업무,OS·도스,워드프로세서(W/P),원리,운용,유틸리티. Utility table ends223at87.1group and continues224at87.2. Repeated source SPC-1000assembler128rows in223utility remain separate printed rows,not a duplicate-removal opportunity. No new byline/canonical article or caption.",
+        "224continues utility index through first left/middle columns;middle-top blank month positions continue preceding87.9group. Middle-bottom 읽을거리 continues into right-top;right-bottom 주변장치 continues onto225left-top.225left-top first blank month positions continue224final87.10group.225also has 취재,터보파스칼 acrossleft-bottom/middle,하드웨어 atmiddle-bottom and 한글 atupperright. TurboPascal middle-top blank month positions continue left-bottom87.1group. Subject tables end225atright 한글87.12group;no page gap or independent article.",
+        "226opens 월별 목차 with86년11월호acrossleft/right-top and86년12월호atright-bottom. Four printed fields areP/title/description/classification. Many source series-entry rows have blank description/classification areas;keep logical blanks,actual rule/merged-cell geometry and all printed classification exceptions independently. No prose/metadata completion from prior series index.",
+        "227starts86.12continuation,then87년1월호acrossleft/right-top and87년2월호atright-bottom.228starts87.2continuation,then87년3월호acrossleft-bottom/right-top and87년4월호atright-bottom. Preserve literal source month labels,page/order/ordinal variants and reference notes,including date references inconsistent with another occurrence. Source order need not be numeric page order;no sorting/harmonization.",
+        "Current native ends228at87.4table row source108/쉬운MS-DOS(9). Next229starts source118/MSX-DOS와 호환성 in the same87.4table,then87년5월and87년6월호. Outgoing boundary is a monthly-table continuation,not a prose join or article ending. Later229–233native and separate complete assembly required.",
+        "Full boundary envelope217–233remains supported by previous source233ending and independent234disk-sales opening. Combined inspected coverage now includes217–229and233;interior230–232has not been inspected. Do not claim whole-article continuity or coverage. Current native223–228only;defer229–233. Source circles/pen/underlines/arrows,table rules,blank/merged areas and original pixels stay authoritative;no glyph counts or reconstructed graphics inferred.",
+        "All source title/name/author/platform/ordinal/month/page/description/classification/punctuation/encoded spaces and historical claims remain literal candidates. No executable code assumed. First preparation script parse failure retained;selectedr01 removes only an extra closing parenthesis before any initial execution. All39,413prior January files/134pilot/30core/source/runtime/TOC verified by preparation. No map,crops,OCR,source-correction pass or export yet inBatch46.",
+        "Twelve source pages217–228now preserved across two immutable natives. Final229–233and separate complete assembly remain;230–232interior source review pending. Nativeaoriginal stage notes remain provenance,not current deferred-page instructions."
       ],
       "restoration": {
         "directory": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a",
@@ -5023,12 +5032,6 @@
           "printed_captions": 0,
           "regional_transcripts": 60,
           "deferred_pdf_pages": [
-            223,
-            224,
-            225,
-            226,
-            227,
-            228,
             229,
             230,
             231,
@@ -5041,12 +5044,6 @@
           ],
           "full_article_continuity_verified": false,
           "uninspected_interior_pdf_pages": [
-            224,
-            225,
-            226,
-            227,
-            228,
-            229,
             230,
             231,
             232
@@ -5060,7 +5057,13 @@
             219,
             220,
             221,
-            222
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228
           ],
           "primary_pdf_pages_are_opening_native_only": true
         },
@@ -5069,7 +5072,7 @@
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "checkpoint": "batch-45",
-        "latest_checkpoint": "batch-45",
+        "latest_checkpoint": "batch-46",
         "source_scope": {
           "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/article-scope.json",
           "sha256": "90dca1e289d75c1bba1fd134ca52b7f91c98de50e48b716b6a9e87a25e06bf94",
@@ -5175,6 +5178,89 @@
             "coverage_is_original_native_scope": true,
             "files": 268,
             "bytes": 64204593
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1988-01/packages/batch-46/back-issue-index-b",
+            "manifest": {
+              "path": "archive/pdf/1988-01/packages/batch-46/back-issue-index-b/manifest.json",
+              "sha256": "e4caa72a54ed80414638785fe0a11aa4ff177273e64ab95d174c4b1fc8e2f94a",
+              "bytes": 26436
+            },
+            "coverage": {
+              "current_pdf_pages": [
+                223,
+                224,
+                225,
+                226,
+                227,
+                228
+              ],
+              "current_visible_printed_pages": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "original_contents_reference": "217",
+              "boundary_verified_pdf_envelope": [
+                217,
+                233
+              ],
+              "full_article_continuity_verified": false,
+              "uninspected_interior_pdf_pages": [
+                230,
+                231,
+                232
+              ],
+              "deferred_pdf_pages": [
+                229,
+                230,
+                231,
+                232,
+                233
+              ],
+              "current_native_eligible_pages_complete": true,
+              "body_pages_complete": false,
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "printed_byline_present": false,
+              "all_current_native_table_rows_transcribed": true,
+              "subject_rows_by_page": [
+                100,
+                109,
+                83
+              ],
+              "monthly_rows_by_page": [
+                38,
+                45,
+                45
+              ],
+              "logical_cell_positions": 1388
+            },
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "recipe": {
+              "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/package-recipe.json",
+              "sha256": "6ba9210cd07a2fa79c3e198e5b9d239c3c4bcc76e1404aedf6a758928a898884",
+              "bytes": 19358
+            },
+            "source_scope": {
+              "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/article-scope.json",
+              "sha256": "d53b527d8314c36c3ba6a49faf00960a5e7405b7b8ae923b661c56f24c1d6a41",
+              "bytes": 868
+            },
+            "validation": {
+              "path": "archive/pdf/1988-01/restoration/batch-46/validation.json",
+              "sha256": "5175460a8db23c1e62aec3676b7323edab9700176c28638985b709f5f6e0b919",
+              "bytes": 4100
+            },
+            "native_immutable": true,
+            "coverage_is_original_native_scope": true,
+            "files": 149,
+            "bytes": 73986198
           }
         ],
         "source_limits": [
@@ -5184,8 +5270,58 @@
           "All18current table parts/255rows/765logical column positions/54header occurrences retained:96rows220,67rows221,92rows222. Local merged month cells and incoming blank positions remain distinct;source older-issue dates/page numbers are data,not current folios. Three incoming blank groups,including whole four-rowAPPLEgroup,retain blank fields with separate source carry evidence. Six table-part/category continuations retain independent rows/repeated headers without prose joins.",
           "221cover montage and scarcity/order/contact inset remain separate associated source flow,not invented caption/article. Three individually boxed postal digits/two empty boxes,phone glyph and stacked organization prefix preserve their original geometry in images;Unicode candidates do not certify encoded glyphs. All20original page/column/montage/inset images retained.",
           "222language category continues to223;this is a pending table/category continuation,not a prose join. Source222banner top loss remains at original image boundary. Arrows/pen traces/rules remain pixels,without invented Unicode glyph counts or reconstructed graphics. Source title/spelling/platform/name/punctuation/Roman/ordinal/phone/space candidates remain unverified. Initial erroneous assistant 스마트팀reading refined to source 스마팀within same pass in four fresh revisions;initial files preserved.",
-          "All80initial exact crops plus13fresh edge repairs inspected before60pinned kor+eng recognitions. All60raw drafts read before one direct source pass. Four empty headings/incomplete ruled-table and ordinal drafts retained;direct unchanged-crop reads recover all255rows/23series entries. Five auxiliary glyph views including one clipped initial SPC view/fresh expanded revision;no engine failures,retries or selected post-OCR crop repairs. Four fresh same-pass transcript/data refinements retain source 스마팀;initial candidates preserved."
-        ]
+          "All80initial exact crops plus13fresh edge repairs inspected before60pinned kor+eng recognitions. All60raw drafts read before one direct source pass. Four empty headings/incomplete ruled-table and ordinal drafts retained;direct unchanged-crop reads recover all255rows/23series entries. Five auxiliary glyph views including one clipped initial SPC view/fresh expanded revision;no engine failures,retries or selected post-OCR crop repairs. Four fresh same-pass transcript/data refinements retain source 스마팀;initial candidates preserved.",
+          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source title/platform/month/page/description/classification/name/historical claims,execution and independent backup recovery remain unverified.",
+          "Middle immutable native0045-bonly223–228. Opening nativea217–222unchanged. Boundary envelope217–233known;230–232interior uninspected;229–233/final native and separate complete assembly pending. Null current folios,six explicit clockwise90rotations. Original contents217/title/parent unchanged;no byline or caption invented.",
+          "18subject table parts retain292rows/876logical positions,100/109/83by page.17parts repeat three headers;224peripheral-a has no printed header.122month groups retain119printed month positions,163covered positions and10incoming blank positions in three groups. Distinct printed month groups at223OS/225TurboPascal retain missing/faint separators as source geometry uncertainty. Repeated SPC-1000assembler entries remain separate rows;no sorting or cross-index completion.",
+          "11monthly parts retain128rows/512logical positions,38/45/45by page. Six printed month labels and44repeated headers;68blank description and67blank classification positions remain independent. Four fieldsP/title/description/classification preserve all physical wraps/series markers/source reference notes and source abbreviations. Exactly one file-terminator newline removed when loading transcripts,so trailing empty-field lines remain serialized.",
+          "Ten internal table continuations preserve independent source rows and actual header presence,including one headerless source part. Incoming222–223language-category link and outgoing228–229April-table link remain separate native boundary metadata with no prose join. Older-issue month/page fields are source data,not current folios;no literal blank supplied from another occurrence.",
+          "All21original columns/halves/full pages preserve rules,white scan seams,pen/circles/underlines/arrows and unknown glyphs. Two enlarged same-pass title/classification mark views retain two editorial placeholders with unknown source character counts. Source 스마팀,체크쌤,Xʸ,위드,현장/현황,unfinished description,87년12월호P152,ordinal1/end markers and independent spelling/case/punctuation candidates remain literal and unverified.",
+          "All51exact initial crops inspected before30pinned kor+eng recognitions. Zero geometry repairs. Fresh pre-OCR map metadata records headerless224peripheral-a;initial retained. All30raws read before one source pass;successful but incomplete table drafts recovered by direct unchanged-crop reading. Two auxiliary3xnearest source views clarify title/classification traces;two unknown-count editorial markers retained. Zero engine failures,retries or post-OCR selected crop repairs."
+        ],
+        "latest_source_scope": {
+          "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/article-scope.json",
+          "sha256": "d53b527d8314c36c3ba6a49faf00960a5e7405b7b8ae923b661c56f24c1d6a41",
+          "bytes": 868
+        },
+        "latest_validation": {
+          "path": "archive/pdf/1988-01/restoration/batch-46/validation.json",
+          "sha256": "5175460a8db23c1e62aec3676b7323edab9700176c28638985b709f5f6e0b919",
+          "bytes": 4100
+        },
+        "latest_reproduction": {
+          "path": "archive/pdf/1988-01/restoration/batch-46/reproduction.json",
+          "sha256": "b0f90a211d9929bee752a254832e87d29007925e95a33f15148fdfd0caa8f4bf",
+          "bytes": 1640
+        },
+        "scope_note_resolution": "Opening nativeaoriginal223–233deferred note remains immutable provenance. Current ledger coverage supersedes it:217–228preserved;229–233and complete assembly pending. Primary directory/manifest/scope/validation/reproduction still identify nativea;latest_* fields identify nativeb.",
+        "combined_segment_metrics": {
+          "regions": 131,
+          "blocks": 90,
+          "figure_assets": 41,
+          "regional_transcripts": 90,
+          "transcript_rows": 2168,
+          "transcript_tokens": 5404,
+          "internal_table_part_continuations": 16,
+          "prose_joins": 0,
+          "native_files": 417,
+          "native_bytes": 138190791,
+          "table_parts": 47,
+          "subject_table_rows": 547,
+          "monthly_table_rows": 128,
+          "table_rows": 675,
+          "table_logical_cell_positions": 2153,
+          "table_headers": 149,
+          "headerless_table_parts": 1,
+          "subject_month_groups": 224,
+          "subject_printed_month_positions": 218,
+          "subject_covered_positions": 313,
+          "subject_incoming_blank_positions": 16,
+          "monthly_blank_description_fields": 68,
+          "monthly_blank_classification_fields": 67,
+          "physical_nonempty_cell_lines": 1832,
+          "source_unknown_markers": 2
+        }
       }
     },
     {
@@ -7120,6 +7256,74 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-46",
+      "completed_at": "2026-10-27T09:05:50.068689+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0045"
+      ],
+      "mapped_pdf_pages": [
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "article_page_assignments": 6,
+      "outside_lookup_pages": 4,
+      "all_inspected_or_exact_review_reused_source_pages": 10,
+      "outside_lookup_pdf_pages": [
+        222,
+        229,
+        233,
+        234
+      ],
+      "recognition_tasks": 30,
+      "eng_code": 0,
+      "kor_eng_other": 30,
+      "source_correction_passes": 1,
+      "recognition_failures": 0,
+      "recognition_retries": 0,
+      "empty_raw_drafts": 0,
+      "before_ocr_revised_crops": 0,
+      "before_ocr_added_crops": 0,
+      "map_revisions": 1,
+      "post_ocr_crop_repairs": 0,
+      "auxiliary_views": 2,
+      "status": "immutable-middle-native;article-partial",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-46/validation.json",
+        "sha256": "5175460a8db23c1e62aec3676b7323edab9700176c28638985b709f5f6e0b919",
+        "bytes": 4100
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-46/reproduction.json",
+        "sha256": "b0f90a211d9929bee752a254832e87d29007925e95a33f15148fdfd0caa8f4bf",
+        "bytes": 1640
+      },
+      "extent_declaration": {
+        "path": "archive/pdf/1988-01/restoration/batch-46/checkpoint.json",
+        "sha256": "601587393304acfeef42afbae3b97fad0ebea621c53da700e08d244b250dc546",
+        "bytes": 8734
+      },
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing fresh Batch42baseline reused;no core changes;no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      }
     }
   ],
   "notes": [
@@ -7128,7 +7332,7 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Continue canonical0045back-issue index in a fresh bounded nativeb. Verify223–228source content,orientation,all table/category/month continuations and neighbor229before mapping at most six pages. Opening nativea217–222remains immutable;boundary envelope217–233is known,but224–232interior has not been inspected. Later229–233native and separate complete assembly remain provisional until reviewed. Preserve every literal source field/blank/local merge/incoming group/physical wrap;do not harmonize repeated references or infer chronology/platform/title/glyphs. Original217canonical reference stays unchanged. No prose join at222–223language-category continuation.",
+    "goal": "Verify and restore final canonical0045back-issue index nativec on229–233,five pages. Inspect230–232interior plus reused229/233and independent234neighbor before mapping. Preserve remaining monthly tables,all repeated headers/row fields/blank descriptions/classifications/source notes/ordinal and page-order variants. Keep a217–222and b223–228immutable. Outgoing228–229April table is a category/month continuation,not prose join. Then assemble all seventeen217–233pages in a separate checkpoint with exact native source contexts;no new OCR of frozen natives.",
     "toc_entry_ids": [
       "maso-1988-01-toc-0045"
     ],
@@ -7138,15 +7342,13 @@
       217,
       233
     ],
-    "first_native_pdf_pages": [
+    "preserved_native_pdf_pages": [
       217,
       218,
       219,
       220,
       221,
-      222
-    ],
-    "next_native_pdf_page_candidates": [
+      222,
       223,
       224,
       225,
@@ -7154,19 +7356,18 @@
       227,
       228
     ],
-    "lookup_pdf_page_candidates": [
-      222,
+    "next_native_pdf_page_candidates": [
       229,
-      233,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lookup_pdf_page_candidates": [
+      228,
       234
     ],
     "deferred_pdf_pages": [
-      223,
-      224,
-      225,
-      226,
-      227,
-      228,
       229,
       230,
       231,
@@ -7174,21 +7375,15 @@
       233
     ],
     "uninspected_interior_pdf_pages": [
-      224,
-      225,
-      226,
-      227,
-      228,
-      229,
       230,
       231,
       232
     ],
     "complete_article_assembly_pending": true,
     "prior_source_review": {
-      "path": "archive/pdf/1988-01/restoration/batch-45/source-reviewed.json",
-      "sha256": "ef2291ddc3c9ac46dc9ebc82567ae2276d4eb68ffff855beac5278c8ac5f49b3",
-      "bytes": 6429
+      "path": "archive/pdf/1988-01/restoration/batch-46/source-reviewed.json",
+      "sha256": "013d091dc3bd8170398b7912847af037d3c55010b2531bb7c61d0bc804172585",
+      "bytes": 7402
     },
     "limits": {
       "canonical_tasks": 2,
@@ -7197,7 +7392,7 @@
     }
   },
   "remaining_work": [
-    "10 canonical identities still need source classification/restoration,including0032Survey original175/bounded inconclusive review.0045back-issue index has first immutable native217–222;223–233/full assembly remain and224–232interior review pending.0044registration list complete214–216/0043 data heading eighth non-owning heading.0042postal dense sample bodies remain original images/manual transcription pending;0039PCsoftware complete13pages.0038scanner glyph/two graph panels manual review. Former0023original105conflict/history retained. Eventual dispatcher must retain selectedpc-software-trends-literal-v1/pc_software_literal_r01.py plus turbo_c_literal.py,legacy_input_r01.py exact oldTOC/context/current guard,magic_literal_r02.py andram_literal_r01.py.",
+    "10 canonical identities still need source classification/restoration,including0032Survey original175/bounded inconclusive review.0045back-issue index has12of17candidate body pages217–228across two immutable natives;final229–233and separate assembly remain,with230–232interior source review pending.0044registration list complete214–216;0043 data heading is non-owning.0042postal dense sample bodies remain original images/manual transcription pending;0039PCsoftware complete13pages.0038scanner glyph/two graph panels manual review. Former0023original105conflict/history retained. Eventual dispatcher must retain pc_software_literal_r01.py/pc-software-trends-literal-v1,turbo_c_literal.py,legacy_input_r01.py exact oldTOC/context/current guard,magic_literal_r02.py andram_literal_r01.py.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
@@ -7208,5 +7403,5 @@
     "non_owning_headings": 8,
     "unresolved": 10
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-45/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-46/preservation-inventory.json"
 }
