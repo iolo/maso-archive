@@ -16,79 +16,70 @@ This local build adds no human acceptance and performs no deployment. March and 
 ## Active restoration
 
 January 1988 is active: 51 canonical identities, thirty-three readable/sample-reviewed
-articles, zero partial articles, eight non-owning headings and 10 unresolved identities.
+articles, one partial article, nine non-owning headings and eight unresolved identities.
 
-Batch 48 completes canonical 0045, 과월호 목차정리(1986. 11∼1987. 12), across all
-seventeen source pages 217–233. Opening 217–222, middle 223–228 and final 229–233
-remain immutable. No index body pages, interior inspections or assembly remain
-pending. Original contents reference 217/title/parent are unchanged. Current folios
-remain null; the sixteen sideways pages retain their explicit clockwise rotations.
-The final COPYⅡ CPM row on 233 precedes the independent disk-sales catalog on 234.
+Batch 49 classifies canonical 0001, 워드프로세서, as a non-owning category heading
+and restores the opening of 0002, 중앙한글 에디터의 개선, on PDF/printed 178–183.
+Direct opening evidence supersedes the former unverified PDF 180 candidate. The
+source pages are upright; no extra orientation correction or global offset is used.
+Page 182 retains the article left column and excludes the independent right RAM-disk
+advertisement. Original canonical identities, titles, parents and references remain.
 
-Selected `archive/pdf/1988-01/packages/back-issue-index-complete` has 508 files,
-349,754,086 bytes, matching its independent rebuild. All 500 native files and their
-203,834,922 bytes remain exact, including every original metadata category and
-stage scope. The article retains 161 regions, 105 blocks, 56 original images and
-105 regional transcripts with 3,189 nonempty lines/8,057 tokens. All 35,160 native
-and 36,104 projected UTF-8 range occurrences, 35,735 native/37,003 projected pin
-occurrences and 161 decoded source images validate.
+Selected `archive/pdf/1988-01/packages/batch-49/central-hangul-editor-a` has 257 files,
+43,648,872 bytes, matching its independent rebuild. All 74 source regions, 58 blocks,
+16 original images and 58 transcripts remain: 800 nonempty serialized lines and
+3,171 tokens. All 8,165 local UTF-8 range occurrences, 8,711 review pin occurrences
+and 74 decoded source images validate, including exact reviewed crop pixels.
 
-The full index retains 62 table parts, 885 rows, 2,993 logical field positions and
-209 actual header occurrences. One peripherals table has no printed header.
-Subject tables retain 547 rows and 224 month groups: 218 printed month positions,
-313 covered positions and 16 incoming blank positions. Monthly tables retain 338
-rows, 124 blank descriptions and 127 blank classifications, including trailing
-serialized empty fields. All 2,785 nonempty physical cell lines, 23 series entries,
-159 series issue occurrences, repeated labels/headers, source notes and original
-rules/marks remain. Native row numbers stay scoped by segment; a separate complete
-row-order index supplies global reading order. Table-part/month-group/series IDs
-are namespaced. All 22 internal table links and two native-boundary table links
-remain distinct; there are no prose joins or inferred field completions.
+Nine code units retain twelve original/revised comparison parts; Figures 3 and 5
+print only revised routines. List 1 retains every printed ordinal 1–166, including
+19 numbered blank rows, comments and open quoted fields. The headerless Figure 8
+patch retains three rows and 27 opaque field positions. Nine printed captions
+link to ten original panels; the two listing columns share their printed caption.
+Eleven prose continuation links preserve fragments and separator candidates;
+native text blocks remain separate, with no actual prose joins. Source INSBNK,
+INSBLNK and INSBLKA differences remain literal. No syntax, opcode, byte, address,
+ordinal, source spelling, title or technical-claim completion or execution.
 
-The private adapter `batch-48/back_issue_index_literal.py`, format
-`back-issue-index-literal-v1`, preserves 40 native array categories in 120 explicit
-slices, 23 object projections, three scalars and nine reserved-array projections.
-Full native correction objects and private evidence roots remain. Three exact
-active stage notes are resolved only in assembled status; original notes stay
-embedded. Twelve invalid input/projected mutations are rejected. The initial
-semantic verifier assumed the later covered-month schema on the opening native;
-fresh `verify-assembly-r01.py` explicitly reads both original schemas. Failed
-verifier and both exact exports remain; adapter/source data were unchanged.
+All 74 initial crops and eight fresh geometry repairs were inspected before 58
+pinned Tesseract tasks: nine eng code and 49 kor+eng others. All drafts were read
+before one source correction pass; no recognition retry or post-OCR geometry repair.
+Forty-six descriptive placeholders retain 18 boxed return glyph occurrences,
+twelve unknown-count decorative bands, six unknown-count vertical-dot runs, nine
+graphical arrow/bracket annotations and one small source mark. Original pixels
+retain all spatial marks and gaps. Two nearest-neighbor source views and two fresh
+explanatory-record revisions remain; source text was not changed by those revisions.
+The initial mapping-schema failure occurred before map/crop output and is retained.
 
-Assembly used one canonical task and no new mapping, source lookup, OCR or
-correction. All 40,590 prior January files, 134 pilot files and 30 core pins remain
-exact. The 213 passing Batch 42 PDF tests are reused; no core changes or fresh run.
-Four unknown-count source-mark placeholders, source-clipped banner, pen/circle/
-arrow geometry, physical wraps, blank/covered fields, repeated entries, reference
-dates, source spelling/platforms and superscript/Roman/punctuation candidates remain
-literal. No chronology, title, platform, code or cross-index completion.
+The verified boundary envelope is 178–205, followed by the independent printer/
+font-editor opening 206. This does not establish continuous inspected body coverage:
+188–203 remain uninspected. Pages 184–205 and whole-article assembly are deferred.
+Next declare and directly review the bounded continuation 184–189, including the
+uninspected 188–189 and adjacent 183/190, before mapping. Reuse exact reviewed
+184–187 and boundary 205/206 evidence. Continue the two-task/six-page/twenty-outside
+limits; preserve every printed row, blank, comment, quote and opaque source field.
 
-Earlier 0044 registration list is complete on 214–216; 0043 자료 is non-owning.
-0042 postal notice is complete on 80–81; dense sample bodies await volunteers.
-0039 PC software trends is complete on 67–79. Eventual issue dispatch must retain
-the new back-issue index adapter alongside `batch-42/pc_software_literal_r01.py`
+All 41,634 prior January files, 134 pilot files and 30 core pins remain exact.
+The 213 passing Batch 42 PDF tests are reused; no core changes or fresh test run.
+Earlier canonical 0045 back-issue index remains complete across 217–233, with all
+500 native files and the complete 508-file package unchanged. Eventual issue
+dispatch must retain `batch-48/back_issue_index_literal.py`
+(`back-issue-index-literal-v1`), `batch-42/pc_software_literal_r01.py`
 (`pc-software-trends-literal-v1`), `batch-35/turbo_c_literal.py`,
 `batch-21/legacy_input_r01.py` with exact old TOC/context and current identity guard,
-`batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`. 0038 scanner
-glyph/two graph panels await manual review. Survey 0032 retains original 175 and
-its bounded inconclusive location review; former 0023 retains original 105 history.
+`batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py`.
 
-Next verify heading ownership for 0001 워드프로세서 and locate 0002 중앙한글 에디터의
-개선 from original contents reference 178. Opening PDF180 and continuation180–185
-are search candidates, not verified locations or an inferred folio offset. Review
-contents11 and declared adjacent/boundary candidates before mapping. Restore at
-most six eligible opening pages; preserve any longer deferred extent explicitly.
-Two-task/six-page/twenty-outside bounds continue. Ten unresolved identities,
-all-page accounting, donated cover, standalone JSON/assets export and final audit
-remain. No classified article has deferred body pages or pending assembly. The
-full issue goal is active. No reader rebuild or deployment. Human acceptance/full
-proofreading, source encoding/glyphs/exact spaces, historical claims, execution and
-independent backup recovery remain unverified.
+Eight unresolved identities, partial 0002, all-page accounting, donated cover,
+standalone JSON/assets issue export and final audit remain. Survey 0032 retains
+original 175 and its bounded inconclusive review; former 0023 retains original 105
+history. Postal 0042 dense samples and scanner 0038 glyph/two graph panels still
+need manual review. The full issue goal remains active. No reader rebuild or
+deployment. Human acceptance/full proofreading, original encoded bytes/glyphs/exact
+spaces, historical/technical claims, execution and backup recovery remain unverified.
 
-See [January log](progress/8801.md),
-`metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-48/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-48/preservation-inventory.json`.
+Validation/reproduction: `archive/pdf/1988-01/restoration/batch-49/validation.json`
+and `archive/pdf/1988-01/restoration/batch-49/reproduction.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-49/preservation-inventory.json`.
 
 November 1985 is complete as a canonical TOC JSON/assets restoration pass:
 46 identities account for 39 readable/sample-reviewed articles, six non-owning
