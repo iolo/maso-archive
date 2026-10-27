@@ -23,48 +23,41 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- January 1988 is active:51 identities,thirty-two readable/sample-reviewed articles,
-  zero partial articles,eight non-owning headings and11 unresolved identities.
-  Batch44restores0044registration list214–216/printed214–216,original214retained;
-  resolves0043자료non-owning parent,without renaming it from source정보banner.
-  Selected`archive/pdf/1988-01/packages/batch-44-r01/software-registration`:158files/
-  38,546,464bytes independently exact.42regions/36blocks/six originals/36transcripts/
-  542serialized rows/1,900tokens;5,557UTF8 ranges/5,611review pins/42exact source images.
-  All94table rows/470cells/507physical cell lines retained,24/35/35rows by page.
-  94creation/94registration dates stay independent;no chronological/order completion.
-  Eight multi-author rows retain102name and102address lines,dates whole-row fields.
-  18headers/three author spanners/two table continuations,no invented registration
-  numbers/cell merges/byline/caption. Title/deck/order/as-of note/furniture retained.
-  Four unknown-count small marks and all source spelling/name/version/punctuation/
-  physical-wrap candidates remain unverified,without expected software/address repair.
-  Two tasks/three mapped214–216/three outside11/213/217;rendered212/218/219not inspected.
-  All42initial plus one widened running-header crop reviewed before36kor+eng tasks.
-  Allraws before one sourcepass;direct unchanged-band reads recover nine empty drafts
-  and incomplete table OCR. Two enlarged fields,zero engine failures/retries/post-OCR
-  repairs. Initial recorder syntax failure retained;selectedr01 fixes audit-key name.
-  English reproduction-scope notation revision leaves source/export unchanged.
-  All37,306prior files/134pilot/30core exact. Reused fresh213passing Batch42tests;
-  no core changes/new run.0042postal notice complete,dense sample bodies original
-  images/manual transcription pending.0039PCsoftware complete13pages. Eventual
-  dispatcher must retain selected`batch-42/pc_software_literal_r01.py` and format
-  `pc-software-trends-literal-v1`,plus`batch-35/turbo_c_literal.py`,
-  `batch-21/legacy_input_r01.py` exact oldTOC/context/current guard,
-  `batch-18/magic_literal_r02.py`,`batch-15/ram_literal_r01.py`.
-  0038scanner glyph/two graph panels manual review.0032survey original175/bounded
-  Batch32review retained,no sourcewide absence/substitution. Former0023readable165/
-  PDF167right retains105conflict/history. No deferred classified body or assembly.
-  Next0045back-issue index,original217/verified opening217. Provisional11/216/217–223/
-  235–242lookup candidates;verify ending/neighbors before mapping. At most six verified
-  body pages in first immutable native,then continuations/separate assembly if longer.
-  Preserve all index explanations/headers/rows/cells/month/platform/issue/page/blank/
-  unknown fields;references are source data,not current-issue folios. Two-task/six-page/
-  twenty-outside bounds continue.11identities/accounting/cover/export/audit remain;
-  full issue active. Human acceptance/proofreading/source encoding/glyphs/spaces/
+- January 1988 is active: 51 identities, thirty-two readable/sample-reviewed articles,
+  one partial article, eight non-owning headings and 10 unresolved identities.
+  Batch 45 preserves first immutable 0045 back-issue index native 217–222. Original
+  contents 217/title/parent unchanged; null folios and five clockwise rotations.
+  Boundary envelope 217–233 verified; interior 224–232 uninspected, 223–233 and
+  separate assembly pending. Selected `archive/pdf/1988-01/packages/batch-45/back-issue-index-a`:
+  268 files/64,204,593 bytes independently exact. 80 regions/60 blocks/20 originals,
+  842 serialized lines/2,527 tokens, 9,396 ranges/9,516 pins/80 exact crops.
+  Opening/four explanations, 23 series entries/159 issue occurrences, 18 table parts,
+  255 rows/765 logical positions/54 headers and separate 221 cover/order inset retained.
+  Month geometry preserves 99 printed cells, 150 covered positions and six incoming
+  blanks across 102 groups. Six table continuations, no prose joins. All references
+  remain literal older-issue data, with no chronology/title/platform completion.
+  One task/six mapped/13 outside; all 80 initial/13 revised crops before 60 kor+eng
+  tasks, all drafts before one source pass. Four empty headings/incomplete table
+  drafts retained; direct source fallback. Five auxiliary views include one clipped
+  initial and fresh expansion. Four fresh same-pass title revisions retain printed
+  스마팀; initial assistant 스마트팀 retained. Zero engine failures/retries/selected
+  post-OCR crop repairs. Scan-edge loss and all glyph/space/source candidates explicit.
+  All 38,068 prior files/134 pilot/30 core unchanged. Reused 213 passing Batch 42 tests;
+  no core changes/fresh run. Earlier 0044 registration list and 0042 postal notice
+  complete; dense postal sample bodies await volunteers. 0039 PC software complete.
+  Keep `batch-42/pc_software_literal_r01.py`/`pc-software-trends-literal-v1`,
+  `batch-35/turbo_c_literal.py`, `batch-21/legacy_input_r01.py` exact old TOC/context/current
+  guard, `batch-18/magic_literal_r02.py` and `batch-15/ram_literal_r01.py` for dispatch.
+  0038 scanner manual glyph/graph review, 0032 survey original 175/bounded inconclusive
+  Batch 32 review, and former 0023 original 105 conflict/history remain explicit.
+  Next verify/restore 223–228, then later 229–233 and separate assembly. Preserve
+  the opening native and every blank/merge/incoming group/source occurrence. Bounds
+  stay two tasks/six pages/twenty outside. Ten identities, partial index, accounting,
+  cover/export/audit remain. Human acceptance/proofreading/source bytes/glyphs/spaces/
   claims/execution/backup unverified. No reader rebuild. See
-  [January log](docs/progress/8801.md),
-  `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-  `archive/pdf/1988-01/restoration/batch-44/validation.json`.
-  Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-44/preservation-inventory.json`.
+  [January log](docs/progress/8801.md), the versioned ledger and
+  `archive/pdf/1988-01/restoration/batch-45/validation.json`.
+  Selected inventory: `archive/pdf/1988-01/restoration/batch-45/preservation-inventory.json`.
 - November 1985 is complete as a canonical TOC JSON/assets restoration pass:
   46 identities account for 39 readable/sample-reviewed articles, six non-owning
   headings and one explicitly unresolved Software Contest eligibility/location gap.

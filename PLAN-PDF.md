@@ -25,72 +25,70 @@ records below are historical and do not authorize a new rebuild.
 ## January 1988 active restoration, 2026-10-27
 
 January 1988 is active: 51 canonical identities, thirty-two readable/sample-reviewed
-articles, zero partial articles, eight non-owning headings and 11 unresolved identities.
-No classified article has deferred body pages or a pending complete assembly.
+articles, one partial article, eight non-owning headings and 10 unresolved identities.
 
-Batch44 restores0044, 소프트웨어 보호법 시행이후 등록된 소프트웨어, on
-PDF214–216/printed214–216, and resolves0043 자료 as a non-owning parent heading.
-The original contents reference214 remains unchanged. Source furniture 정보 does
-not rename the canonical parent. The preceding printer/font-editor data ends213;
-the back-issue index independently opens217. No byline or printed caption invented.
-Selected `archive/pdf/1988-01/packages/batch-44-r01/software-registration` has158files /
-38,546,464bytes, matching its independent rebuild. All42regions/36blocks/six originals/
-36transcripts/542serialized rows/1,900tokens are retained. All5,557local UTF-8 ranges,
-5,611review pins and42exact source-image crops validate.
+Batch 45 preserves the first immutable segment of 0045,
+과월호 목차정리(1986. 11∼1987. 12), on PDF pages 217–222. The original contents
+reference 217 and canonical title/parent remain unchanged. Its boundary envelope is
+217–233; interior pages 224–232 have not yet been inspected. Pages 223–233 and a
+separate complete assembly remain pending. Current folios are null. Pages 218–222
+retain explicit lossless clockwise 90-degree orientation corrections.
 
-The table retains94rows (24/35/35 by page),470logical cells and507physical cell lines.
-Each row has program title,creation date,registration date,author name and address.
-The two dates remain independent fields within their shared printed column. Eight
-rows retain two author/address lines:102name lines and102address lines in all.
-Their dates remain whole-row fields;no per-author date assignment or unprinted
-registration number is inferred. Eighteen header occurrences include three author
-spanners;two page continuations retain repeated headers and independent rows.
-Title,deck,registration-order/as-of note,furniture/folios and every original table
-remain source-linked. Four small marks retain unknown-count editorial placeholders.
-Source 우리내,격어야,미납적용,오펼화,위드프로세서,킹,version-comma/Latin/Roman/
-center-dot candidates and physical cell/prose wraps remain literal and unverified.
+Selected `archive/pdf/1988-01/packages/batch-45/back-issue-index-a` contains 268 files,
+64,204,593 bytes, matching its independent rebuild. Its 80 regions, 60 blocks and
+20 original images preserve the opening and four index-use explanations, 23 series
+entries, 18 table parts and the related cover montage/order inset on page 221.
+All 9,396 local UTF-8 ranges, 9,516 review pins and 80 exact source crops validate.
+The 60 transcripts retain 842 serialized nonempty lines and 2,527 tokens.
 
-Two tasks/three mapped pages214–216/three outside lookups11/213/217 meet bounds.
-Rendered212/218/219 were not inspected and supply no location evidence. All42initial
-crops and one widened running-header crop were inspected before36pinned kor+eng
-recognitions. All raw drafts were read before one source pass;direct unchanged-band
-reads recovered nine empty drafts and other incomplete table OCR. Two enlarged
-source-field views;zero engine failures,retries or post-OCR crop repairs. Initial
-maps/crops/drafts/scripts and the recorder syntax failure remain preserved. The
-selected recorder revision changes only an invalid audit-key name. A fresh English
-reproduction-scope notation revision leaves source data/export unchanged.
-All37,306prior January files/134pilot files/30core pins remain exact. The fresh213
-passing PDF tests from Batch42 are reused;no core changes or fresh test run.
+Tables retain 255 rows (96/67/92 by page), 765 logical column positions and 54 header
+occurrences. Their 102 month groups distinguish 99 printed month cells, 150 positions
+covered by local month cells and six incoming blank positions across three groups.
+No blank receives an inferred month. Six category/table continuations retain repeated
+headers and independent rows. The language table continues from 222 to 223; this is
+a category continuation, with no prose join. Older-issue dates and page references
+remain source data, not current folios. All 159 series issue occurrences retain
+printed ordinal repetitions/gaps, end/continued markers and physical wraps.
 
-Earlier0042postal-code notice is complete80–81;its dense reproduced directory bodies
-remain original images with volunteer transcription pending.0039PC software trends
-is complete67–79. Eventual issue dispatch must retain selected
-`batch-42/pc_software_literal_r01.py`/`pc-software-trends-literal-v1`,alongside
-`batch-35/turbo_c_literal.py`,`batch-21/legacy_input_r01.py` with exact oldTOC/context/
-current identity guard,`batch-18/magic_literal_r02.py` and`batch-15/ram_literal_r01.py`.
-0038scanner retains one recognition glyph/two graph panels for manual review.
-Survey0032 retains original175 and bounded inconclusive
-`batch-32/survey-location-review.json`;no quiz/writer substitution or sourcewide
-absence claim. Former0023 remains readable165/PDF167right with original105 conflict/
-history and`batch-30/debugging-room-location-found.json`.
+One canonical task, six mapped pages and 13 outside lookups meet the bounds. All
+80 initial crops and 13 revised crops were inspected before 60 pinned kor+eng tasks.
+All drafts were read before one direct source pass. Four empty heading drafts and
+incomplete table drafts remain preserved. Five auxiliary glyph views include one
+clipped initial view and a fresh expansion. Four fresh transcript/data revisions
+refine the assistant's initial 스마트팀 candidate to printed 스마팀 within that pass.
+Source repeats, spelling, names, dates, punctuation and glyph candidates are retained
+without expected completion. The scan's top-edge loss on the 222 banner remains.
+Zero engine failures, recognition retries or post-OCR selected crop repairs.
+All 38,068 prior January files, 134 pilot files and 30 core pins remain exact.
+The 213 passing PDF tests from Batch 42 are reused; no core changes or fresh run.
 
-Next restore0045 과월호 목차정리(1986. 11∼1987. 12),original217/verified opening217.
-Verify ending,continuations and independent neighbors before mapping. Contents11,
-prior216,opening217–223 and final235–242 are provisional lookup candidates only.
-If longer than six pages,restore at most217–222 in the first immutable native,
-then bounded continuations and a separate assembly. Preserve the four index-use
-explanations and all table headings/rows/cells/month/platform/source-issue/page/
-blank/unknown fields. Source references are data,not current-issue folios;no expected
-chronology/title/platform completion. Two-task/six-page/twenty-outside bounds continue.
-The11unresolved identities,all-page accounting,donated cover,standalone JSON/assets
-export and final audit remain. Full issue goal active. No reader rebuild or deployment.
-Human acceptance/full proofreading,source encoding/glyphs/exact spaces,historical/
-technical/legal/price claims,execution and independent backup recovery remain unverified.
+Earlier 0044 registration list is complete on 214–216, and 0043 자료 remains the
+non-owning parent. 0042 postal notice is complete on 80–81; dense directory sample
+bodies remain original images with volunteer transcription pending. 0039 PC software
+trends is complete on 67–79. Eventual issue dispatch must retain
+`batch-42/pc_software_literal_r01.py` (`pc-software-trends-literal-v1`),
+`batch-35/turbo_c_literal.py`, `batch-21/legacy_input_r01.py` with exact old TOC/context
+and current identity guard, `batch-18/magic_literal_r02.py` and
+`batch-15/ram_literal_r01.py`. 0038 scanner glyph/two graph panels await manual review.
+Survey 0032 retains original 175 and `batch-32/survey-location-review.json`; no
+substitution or sourcewide absence claim. Former 0023 retains its original 105
+conflict/history and `batch-30/debugging-room-location-found.json`.
+
+Next verify and restore 223–228 as a fresh bounded continuation native. Preserve the
+opening segment unchanged; inspect each new page and neighbor 229 before mapping.
+Later 229–233 and separate assembly follow only after their own source review.
+Keep every table field, blank, local merge, incoming group and source occurrence
+independent; do not harmonize repeated references. Two-task/six-page/twenty-outside
+limits continue. Ten unresolved identities, the partial index, all-page accounting,
+donated cover, standalone JSON/assets export and final audit remain. The full issue
+goal is active. No reader rebuild or deployment. Human acceptance/full proofreading,
+source encoding/glyphs/exact spaces, historical claims, execution and independent
+backup recovery remain unverified.
 
 See [January log](docs/progress/8801.md),
 `metadata/catalog/pdf-restoration/1988-01-progress.json` and
-`archive/pdf/1988-01/restoration/batch-44/validation.json`.
-Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-44/preservation-inventory.json`.
+`archive/pdf/1988-01/restoration/batch-45/validation.json`.
+Selected preservation inventory: `archive/pdf/1988-01/restoration/batch-45/preservation-inventory.json`.
 
 ## November 1985 closeout, 2026-10-26
 
