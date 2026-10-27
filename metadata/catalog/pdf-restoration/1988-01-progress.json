@@ -4960,7 +4960,7 @@
       "parent_id": "maso-1988-01-toc-0043",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0045original contents reference217/title 과월호 목차정리(1986. 11∼1987. 12) retained. Exact source openingPDF217has 권말부록/마이크로 소프트웨어/과월호 목차 정리/(86년11월호~87년12월호),introductory scope and four index-use explanations:연재기사,기종별 목차,분야별 목차,월별 목차. No printed byline or visible folio on217.",
@@ -4987,70 +4987,46 @@
         "233 has November left and December right, ending214/COPYⅡ CPM with its own description/classification. Independent234 disk-sales catalog 주옥같은 프로그램만 is excluded, reusing prior exact review. Thus all17 pages217–233 have now been inspected across retained contexts. Source body coverage/complete assembly are not yet delivered by this review.",
         "All tables retain four logical fieldsP/title/description/classification, repeated printed headers, independent blank positions, physical cell wraps and source-order rows. Preserve rules, arrows and other source marks as pixels; do not infer characters or repair titles/chronology/platforms/reference claims. No byline or caption invented.",
         "Prior goal turn was no progress toward restoration: it reported next steps only. Current continuation completes direct interior/ending review and records source evidence, then proceeds to bounded mapping. No live OCR process exists and none has started inBatch47.",
-        "All17source pages217–233now inspected and preserved across three independently verified immutable natives. Ending233precedes independent234catalog. Separate complete article assembly remains pending. Original native stage deferrals remain provenance,not current deferred-page instructions."
+        "All17source pages217–233now inspected and preserved across three independently verified immutable natives. Ending233precedes independent234catalog. Separate complete article assembly remains pending. Original native stage deferrals remain provenance,not current deferred-page instructions.",
+        "Complete17page0045back-issue index217–233assembled in508independently exact files,including500unchanged native files/every original metadata category.161regions/105blocks/56originals/105transcripts/3189lines/8057tokens retain885table rows/2993logical positions/209headers/62parts.35,160native/36,104projected UTF8ranges and35,735native/37,003projected pins validate.22internal plus two native table links,zero prose joins. Blank/covered/incoming fields,physical wraps,source occurrences and four unknown-count mark placeholders stay literal. Three exact active stage notes resolved;no deferred body pages or index assembly. Source encoding/glyphs/spaces/claims/execution and human acceptance remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a",
+        "directory": "archive/pdf/1988-01/packages/back-issue-index-complete",
         "article_id": "scan-maso-1988-01-toc-0045",
         "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a/manifest.json",
-          "sha256": "7e296250dc1d0983f3d7385b0bfa95ce9eba65142b80e6c5d5ce81949312d745",
-          "bytes": 47324
+          "path": "archive/pdf/1988-01/packages/back-issue-index-complete/manifest.json",
+          "sha256": "90f9318ebfa2b9a47e7fec2ab3fddecf6ff9068bc8f82372eae4413c116eafd6",
+          "bytes": 94870
         },
         "coverage": {
-          "pdf_pages": [
-            217,
-            218,
-            219,
-            220,
-            221,
-            222
-          ],
-          "printed_pages": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ],
-          "regions": 80,
-          "blocks": 60,
-          "figures": 20,
-          "regional_ranges": 60,
+          "regions": 161,
+          "native_blocks": 105,
+          "blocks": 105,
+          "figures": 56,
+          "regional_transcripts": 105,
+          "transcript_rows": 3189,
+          "transcript_tokens": 8057,
+          "table_parts": 62,
+          "table_rows": 885,
+          "table_cells": 2993,
+          "table_headers": 209,
+          "headerless_table_parts": 1,
+          "subject_table_rows": 547,
+          "monthly_table_rows": 338,
+          "subject_month_groups": 224,
+          "subject_printed_month_positions": 218,
+          "subject_covered_positions": 313,
+          "subject_incoming_blank_positions": 16,
+          "monthly_blank_descriptions": 124,
+          "monthly_blank_classifications": 127,
+          "physical_nonempty_cell_lines": 2785,
+          "source_unknown_markers": 4,
+          "internal_table_continuations": 22,
+          "native_table_continuations": 2,
+          "complete_table_continuations": 24,
           "prose_joins": 0,
-          "table_part_continuations": 6,
-          "transcript_rows": 842,
-          "transcript_tokens": 2527,
-          "identifier_occurrences": 248,
-          "number_fragments": 882,
-          "series_entries": 23,
-          "series_issue_occurrences": 159,
-          "table_parts": 18,
-          "table_rows": 255,
-          "table_logical_cell_positions": 765,
-          "table_month_groups": 102,
-          "table_printed_month_cells": 99,
-          "table_incoming_blank_groups": 3,
-          "table_incoming_blank_positions": 6,
-          "table_local_covered_positions": 150,
-          "table_headers": 54,
-          "physical_nonempty_cell_lines": 620,
-          "unknown_markers": 0,
-          "source_headings": 12,
           "printed_captions": 0,
-          "regional_transcripts": 60,
-          "deferred_pdf_pages": [],
-          "boundary_verified_pdf_envelope": [
-            217,
-            233
-          ],
-          "full_article_continuity_verified": true,
-          "uninspected_interior_pdf_pages": [],
-          "outside_body_pdf_pages_within_current_native": [],
-          "excluded_region_ids": [],
-          "code_units": 0,
-          "covered_across_immutable_segments": [
+          "pdf_pages": [
             217,
             218,
             219,
@@ -5069,28 +5045,71 @@
             232,
             233
           ],
-          "primary_pdf_pages_are_opening_native_only": true
+          "printed_pages": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "deferred_pdf_pages": [],
+          "uninspected_interior_pdf_pages": [],
+          "full_article_pdf_pages": [
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233
+          ],
+          "full_article_continuity_verified": true,
+          "outside_body_pdf_pages_within_extent": [],
+          "excluded_region_ids": [],
+          "code_units": 0
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "all_body_pages_preserved_across_segments": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "checkpoint": "batch-45",
-        "latest_checkpoint": "batch-47",
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "checkpoint": "batch-48",
+        "latest_checkpoint": "batch-48",
         "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/article-scope.json",
-          "sha256": "90dca1e289d75c1bba1fd134ca52b7f91c98de50e48b716b6a9e87a25e06bf94",
-          "bytes": 922
+          "path": "archive/pdf/1988-01/restoration/batch-48/complete-article-scope.json",
+          "sha256": "c93ac7085750a8e871a24e933c33da6e9466c8390389aee867542606e45749ef",
+          "bytes": 852
         },
         "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-45/validation.json",
-          "sha256": "f5c58d187e256d946118aadc140ac18b0249c4ccd6b63cd546b0f69f912b0d0e",
-          "bytes": 3741
+          "path": "archive/pdf/1988-01/restoration/batch-48/validation.json",
+          "sha256": "216d2f6594848745e0302b4cba150e7c5f79ad34d367446b32da6cfda2938faf",
+          "bytes": 4585
         },
         "reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-45/reproduction.json",
-          "sha256": "8045ff30505934a6c94c86560d26e81d7ad076a2b90b802b96b125478a506069",
-          "bytes": 1584
+          "path": "archive/pdf/1988-01/restoration/batch-48/reproduction.json",
+          "sha256": "0b6c52a6f208a7aedc42db77b10387cc642c0a6d3eb30deecf24af99827d5e8f",
+          "bytes": 2494
         },
         "segments": [
           {
@@ -5337,44 +5356,26 @@
           }
         ],
         "source_limits": [
-          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,software/title/platform/ordinal/month/page/address/historical claims and independent backup recovery remain unverified.",
-          "First immutable native of canonical0045only217–222. Boundary envelope217–233located before mapping,but224–232interior remains uninspected;223–233deferred and separate full assembly required. Original contents217/title/identity unchanged. No current folios/byline/caption invented. Five source pages218–222retain explicit lossless clockwise90orientation correction.",
-          "Opening217retains appendix/publication/title/subtitle/deck and four separate index-use explanations.218–219retain23independent series entries with printed headers/slash-authors/platform/classification when present,ordinal-month/end/continued fields and synopses. Repeated/skipped ordinals,date gaps,88.1ending and undated continued fields remain literal.",
-          "All18current table parts/255rows/765logical column positions/54header occurrences retained:96rows220,67rows221,92rows222. Local merged month cells and incoming blank positions remain distinct;source older-issue dates/page numbers are data,not current folios. Three incoming blank groups,including whole four-rowAPPLEgroup,retain blank fields with separate source carry evidence. Six table-part/category continuations retain independent rows/repeated headers without prose joins.",
-          "221cover montage and scarcity/order/contact inset remain separate associated source flow,not invented caption/article. Three individually boxed postal digits/two empty boxes,phone glyph and stacked organization prefix preserve their original geometry in images;Unicode candidates do not certify encoded glyphs. All20original page/column/montage/inset images retained.",
-          "222language category continues to223;this is a pending table/category continuation,not a prose join. Source222banner top loss remains at original image boundary. Arrows/pen traces/rules remain pixels,without invented Unicode glyph counts or reconstructed graphics. Source title/spelling/platform/name/punctuation/Roman/ordinal/phone/space candidates remain unverified. Initial erroneous assistant 스마트팀reading refined to source 스마팀within same pass in four fresh revisions;initial files preserved.",
-          "All80initial exact crops plus13fresh edge repairs inspected before60pinned kor+eng recognitions. All60raw drafts read before one direct source pass. Four empty headings/incomplete ruled-table and ordinal drafts retained;direct unchanged-crop reads recover all255rows/23series entries. Five auxiliary glyph views including one clipped initial SPC view/fresh expanded revision;no engine failures,retries or selected post-OCR crop repairs. Four fresh same-pass transcript/data refinements retain source 스마팀;initial candidates preserved.",
-          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source title/platform/month/page/description/classification/name/historical claims,execution and independent backup recovery remain unverified.",
-          "Middle immutable native0045-bonly223–228. Opening nativea217–222unchanged. Boundary envelope217–233known;230–232interior uninspected;229–233/final native and separate complete assembly pending. Null current folios,six explicit clockwise90rotations. Original contents217/title/parent unchanged;no byline or caption invented.",
-          "18subject table parts retain292rows/876logical positions,100/109/83by page.17parts repeat three headers;224peripheral-a has no printed header.122month groups retain119printed month positions,163covered positions and10incoming blank positions in three groups. Distinct printed month groups at223OS/225TurboPascal retain missing/faint separators as source geometry uncertainty. Repeated SPC-1000assembler entries remain separate rows;no sorting or cross-index completion.",
-          "11monthly parts retain128rows/512logical positions,38/45/45by page. Six printed month labels and44repeated headers;68blank description and67blank classification positions remain independent. Four fieldsP/title/description/classification preserve all physical wraps/series markers/source reference notes and source abbreviations. Exactly one file-terminator newline removed when loading transcripts,so trailing empty-field lines remain serialized.",
-          "Ten internal table continuations preserve independent source rows and actual header presence,including one headerless source part. Incoming222–223language-category link and outgoing228–229April-table link remain separate native boundary metadata with no prose join. Older-issue month/page fields are source data,not current folios;no literal blank supplied from another occurrence.",
-          "All21original columns/halves/full pages preserve rules,white scan seams,pen/circles/underlines/arrows and unknown glyphs. Two enlarged same-pass title/classification mark views retain two editorial placeholders with unknown source character counts. Source 스마팀,체크쌤,Xʸ,위드,현장/현황,unfinished description,87년12월호P152,ordinal1/end markers and independent spelling/case/punctuation candidates remain literal and unverified.",
-          "All51exact initial crops inspected before30pinned kor+eng recognitions. Zero geometry repairs. Fresh pre-OCR map metadata records headerless224peripheral-a;initial retained. All30raws read before one source pass;successful but incomplete table drafts recovered by direct unchanged-crop reading. Two auxiliary3xnearest source views clarify title/classification traces;two unknown-count editorial markers retained. Zero engine failures,retries or post-OCR selected crop repairs.",
-          "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source title/platform/month/page/description/classification/name/historical claims,execution and independent backup recovery remain unverified.",
-          "Final immutable native0045-conly229–233. Opening217–222and middle223–228remain exact. All17source pages now inspected across retained contexts;ending233COPYⅡ CPMprecedes independent234disk-sales catalog. This native ispartial until separate complete17page assembly. Null current folios,five explicit clockwise90rotations;original contents217/title/parent unchanged.",
-          "15monthly table parts retain210rows/840logical positions,38/44/44/44/40by page. Eight actual month labels and60repeated headers. Blank description/classification positions are independent,including trailing serialized fields. Preserve source-order rows,physical wraps,all references,series ordinals/end markers and source platform/category tokens without expected completion.",
-          "Six internal monthly-table continuations preserve original rows and repeated headers. Incoming228–229April-table link retains previous native manifest;no prose joins. No outgoing body continuation after233. Older-issue page/month values remain data,not current folios.",
-          "All15original halves/full pages retain rules,blank areas,arrows and glyphs. Four same-pass nearest3xviews retain two raised-trace placeholders with unknown source counts,a baseline-dot candidate and the corrected assistant repeated-syllable slip. Initial scripts/data/transcripts retained;two selected fresh revisions stay in the one pass.",
-          "May87년5월missing호,description-column(6),sourceout-of-order pages,unfinished title를,스마트/스마팀,허큘레스,sourceMclassification,JX/MX,superscripts/Roman glyphs and all references remain literal. No cross-index harmonization,chronology/title/platform/spelling/claim repair.",
-          "All30exact initial crops inspected before15pinned kor+eng recognitions. Zero geometry repairs. All15raws read before one source pass;successful but incomplete table drafts recovered by direct unchanged-crop reading. Four auxiliary3xnearest source views clarify two raised traces,a baseline dot candidate and an assistant repeated-syllable slip. Two fresh same-pass transcript/data revisions retain originals. Two unknown-count editorial markers retained. Zero engine failures,retries or post-OCR selected crop repairs."
+          "Assistant sample review only;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,historical/title/platform/month/page/description/classification claims,execution and independent backup recovery remain unverified.",
+          "All source variants,unknown marks,source-clipped banner,rules/merges/white seams/pen/circle/arrow geometry remain original observations. No chronology/title/platform/numeric/cross-index completion.",
+          "Original native scope/stage statements retained as provenance. Complete-scope metadata governs availability only after verified assembly."
         ],
         "latest_source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-47/back-issue-index-c/article-scope.json",
-          "sha256": "02d3c0b3530d54641e80f3e8261c3bd47cbab8165712c63364a7ad87c9b71297",
-          "bytes": 794
+          "path": "archive/pdf/1988-01/restoration/batch-48/complete-article-scope.json",
+          "sha256": "c93ac7085750a8e871a24e933c33da6e9466c8390389aee867542606e45749ef",
+          "bytes": 852
         },
         "latest_validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-47/validation.json",
-          "sha256": "cff4759cd9667f6bfc4ab6b2c6dea27572a648a496c355dccfab6aa49c61e2ea",
-          "bytes": 4095
+          "path": "archive/pdf/1988-01/restoration/batch-48/validation.json",
+          "sha256": "216d2f6594848745e0302b4cba150e7c5f79ad34d367446b32da6cfda2938faf",
+          "bytes": 4585
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1988-01/restoration/batch-47/reproduction.json",
-          "sha256": "c18a5f668685759e50a3d752541ffb26ed3cca7a0d00416078e6c6e7095da1ea",
-          "bytes": 1635
+          "path": "archive/pdf/1988-01/restoration/batch-48/reproduction.json",
+          "sha256": "0b6c52a6f208a7aedc42db77b10387cc642c0a6d3eb30deecf24af99827d5e8f",
+          "bytes": 2494
         },
-        "scope_note_resolution": "Opening and middle native original deferred-page/uninspected notes remain immutable provenance. Current ledger supersedes those stages:217–233preserved across three natives;no deferred body pages or uninspected interior remain. Separate complete assembly pending. Primary directory/manifest/scope/validation/reproduction still identify nativea;latest_*fields identify nativec.",
+        "scope_note_resolution": "All native scopes/deferrals/stage notes remain exact in native_restoration_provenance and embedded segments. Complete17page assembly scope now governs active availability;no deferred pages,uninspected interior or index assembly remain.",
         "combined_segment_metrics": {
           "regions": 161,
           "blocks": 105,
@@ -5401,7 +5402,462 @@
           "monthly_blank_classification_fields": 127,
           "physical_nonempty_cell_lines": 2785,
           "source_unknown_markers": 4
-        }
+        },
+        "native_restoration_provenance": {
+          "directory": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a",
+          "article_id": "scan-maso-1988-01-toc-0045",
+          "manifest": {
+            "path": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a/manifest.json",
+            "sha256": "7e296250dc1d0983f3d7385b0bfa95ce9eba65142b80e6c5d5ce81949312d745",
+            "bytes": 47324
+          },
+          "coverage": {
+            "pdf_pages": [
+              217,
+              218,
+              219,
+              220,
+              221,
+              222
+            ],
+            "printed_pages": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "regions": 80,
+            "blocks": 60,
+            "figures": 20,
+            "regional_ranges": 60,
+            "prose_joins": 0,
+            "table_part_continuations": 6,
+            "transcript_rows": 842,
+            "transcript_tokens": 2527,
+            "identifier_occurrences": 248,
+            "number_fragments": 882,
+            "series_entries": 23,
+            "series_issue_occurrences": 159,
+            "table_parts": 18,
+            "table_rows": 255,
+            "table_logical_cell_positions": 765,
+            "table_month_groups": 102,
+            "table_printed_month_cells": 99,
+            "table_incoming_blank_groups": 3,
+            "table_incoming_blank_positions": 6,
+            "table_local_covered_positions": 150,
+            "table_headers": 54,
+            "physical_nonempty_cell_lines": 620,
+            "unknown_markers": 0,
+            "source_headings": 12,
+            "printed_captions": 0,
+            "regional_transcripts": 60,
+            "deferred_pdf_pages": [],
+            "boundary_verified_pdf_envelope": [
+              217,
+              233
+            ],
+            "full_article_continuity_verified": true,
+            "uninspected_interior_pdf_pages": [],
+            "outside_body_pdf_pages_within_current_native": [],
+            "excluded_region_ids": [],
+            "code_units": 0,
+            "covered_across_immutable_segments": [
+              217,
+              218,
+              219,
+              220,
+              221,
+              222,
+              223,
+              224,
+              225,
+              226,
+              227,
+              228,
+              229,
+              230,
+              231,
+              232,
+              233
+            ],
+            "primary_pdf_pages_are_opening_native_only": true
+          },
+          "body_pages_complete": false,
+          "all_body_pages_preserved_across_segments": true,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "checkpoint": "batch-45",
+          "latest_checkpoint": "batch-47",
+          "source_scope": {
+            "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/article-scope.json",
+            "sha256": "90dca1e289d75c1bba1fd134ca52b7f91c98de50e48b716b6a9e87a25e06bf94",
+            "bytes": 922
+          },
+          "validation": {
+            "path": "archive/pdf/1988-01/restoration/batch-45/validation.json",
+            "sha256": "f5c58d187e256d946118aadc140ac18b0249c4ccd6b63cd546b0f69f912b0d0e",
+            "bytes": 3741
+          },
+          "reproduction": {
+            "path": "archive/pdf/1988-01/restoration/batch-45/reproduction.json",
+            "sha256": "8045ff30505934a6c94c86560d26e81d7ad076a2b90b802b96b125478a506069",
+            "bytes": 1584
+          },
+          "segments": [
+            {
+              "name": "a",
+              "directory": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a",
+              "manifest": {
+                "path": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a/manifest.json",
+                "sha256": "7e296250dc1d0983f3d7385b0bfa95ce9eba65142b80e6c5d5ce81949312d745",
+                "bytes": 47324
+              },
+              "coverage": {
+                "current_pdf_pages": [
+                  217,
+                  218,
+                  219,
+                  220,
+                  221,
+                  222
+                ],
+                "current_visible_printed_pages": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "original_contents_reference": "217",
+                "boundary_verified_pdf_envelope": [
+                  217,
+                  233
+                ],
+                "full_article_continuity_verified": false,
+                "uninspected_interior_pdf_pages": [
+                  224,
+                  225,
+                  226,
+                  227,
+                  228,
+                  229,
+                  230,
+                  231,
+                  232
+                ],
+                "deferred_pdf_pages": [
+                  223,
+                  224,
+                  225,
+                  226,
+                  227,
+                  228,
+                  229,
+                  230,
+                  231,
+                  232,
+                  233
+                ],
+                "current_native_eligible_pages_complete": true,
+                "body_pages_complete": false,
+                "assembly_required": true,
+                "complete_article_assembly_pending": true,
+                "printed_byline_present": false,
+                "all_current_native_table_rows_transcribed": true,
+                "source_table_rows_by_page": [
+                  96,
+                  67,
+                  92
+                ],
+                "logical_cell_positions": 765
+              },
+              "availability": "partial",
+              "verification": "sample-reviewed",
+              "recipe": {
+                "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/package-recipe.json",
+                "sha256": "61461cb6f6ec090712be8e2dce9f78778398fefb8ca89b14bf6a45bbb32716c5",
+                "bytes": 22246
+              },
+              "source_scope": {
+                "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/article-scope.json",
+                "sha256": "90dca1e289d75c1bba1fd134ca52b7f91c98de50e48b716b6a9e87a25e06bf94",
+                "bytes": 922
+              },
+              "validation": {
+                "path": "archive/pdf/1988-01/restoration/batch-45/validation.json",
+                "sha256": "f5c58d187e256d946118aadc140ac18b0249c4ccd6b63cd546b0f69f912b0d0e",
+                "bytes": 3741
+              },
+              "native_immutable": true,
+              "coverage_is_original_native_scope": true,
+              "files": 268,
+              "bytes": 64204593
+            },
+            {
+              "name": "b",
+              "directory": "archive/pdf/1988-01/packages/batch-46/back-issue-index-b",
+              "manifest": {
+                "path": "archive/pdf/1988-01/packages/batch-46/back-issue-index-b/manifest.json",
+                "sha256": "e4caa72a54ed80414638785fe0a11aa4ff177273e64ab95d174c4b1fc8e2f94a",
+                "bytes": 26436
+              },
+              "coverage": {
+                "current_pdf_pages": [
+                  223,
+                  224,
+                  225,
+                  226,
+                  227,
+                  228
+                ],
+                "current_visible_printed_pages": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "original_contents_reference": "217",
+                "boundary_verified_pdf_envelope": [
+                  217,
+                  233
+                ],
+                "full_article_continuity_verified": false,
+                "uninspected_interior_pdf_pages": [
+                  230,
+                  231,
+                  232
+                ],
+                "deferred_pdf_pages": [
+                  229,
+                  230,
+                  231,
+                  232,
+                  233
+                ],
+                "current_native_eligible_pages_complete": true,
+                "body_pages_complete": false,
+                "assembly_required": true,
+                "complete_article_assembly_pending": true,
+                "printed_byline_present": false,
+                "all_current_native_table_rows_transcribed": true,
+                "subject_rows_by_page": [
+                  100,
+                  109,
+                  83
+                ],
+                "monthly_rows_by_page": [
+                  38,
+                  45,
+                  45
+                ],
+                "logical_cell_positions": 1388
+              },
+              "availability": "partial",
+              "verification": "sample-reviewed",
+              "recipe": {
+                "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/package-recipe.json",
+                "sha256": "6ba9210cd07a2fa79c3e198e5b9d239c3c4bcc76e1404aedf6a758928a898884",
+                "bytes": 19358
+              },
+              "source_scope": {
+                "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/article-scope.json",
+                "sha256": "d53b527d8314c36c3ba6a49faf00960a5e7405b7b8ae923b661c56f24c1d6a41",
+                "bytes": 868
+              },
+              "validation": {
+                "path": "archive/pdf/1988-01/restoration/batch-46/validation.json",
+                "sha256": "5175460a8db23c1e62aec3676b7323edab9700176c28638985b709f5f6e0b919",
+                "bytes": 4100
+              },
+              "native_immutable": true,
+              "coverage_is_original_native_scope": true,
+              "files": 149,
+              "bytes": 73986198
+            },
+            {
+              "name": "c",
+              "directory": "archive/pdf/1988-01/packages/batch-47/back-issue-index-c",
+              "manifest": {
+                "path": "archive/pdf/1988-01/packages/batch-47/back-issue-index-c/manifest.json",
+                "sha256": "c9221d8aa1845fcd127e6d0fd0a241d5a38960e1b2638871cff957ea94310be8",
+                "bytes": 14537
+              },
+              "coverage": {
+                "current_pdf_pages": [
+                  229,
+                  230,
+                  231,
+                  232,
+                  233
+                ],
+                "current_visible_printed_pages": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "original_contents_reference": "217",
+                "boundary_verified_pdf_envelope": [
+                  217,
+                  233
+                ],
+                "full_article_continuity_verified": true,
+                "uninspected_interior_pdf_pages": [],
+                "deferred_pdf_pages": [],
+                "current_native_eligible_pages_complete": true,
+                "body_pages_complete": false,
+                "body_coverage_across_three_natives_pending_validation": true,
+                "assembly_required": true,
+                "complete_article_assembly_pending": true,
+                "printed_byline_present": false,
+                "all_current_native_table_rows_transcribed": true,
+                "monthly_rows_by_page": [
+                  38,
+                  44,
+                  44,
+                  44,
+                  40
+                ],
+                "logical_cell_positions": 840
+              },
+              "availability": "partial",
+              "verification": "sample-reviewed",
+              "recipe": {
+                "path": "archive/pdf/1988-01/restoration/batch-47/back-issue-index-c/package-recipe.json",
+                "sha256": "aa977c6f403a54717ef68cb2a4ff4b56e340c431ea68e514af370fa8c284a667",
+                "bytes": 14647
+              },
+              "source_scope": {
+                "path": "archive/pdf/1988-01/restoration/batch-47/back-issue-index-c/article-scope.json",
+                "sha256": "02d3c0b3530d54641e80f3e8261c3bd47cbab8165712c63364a7ad87c9b71297",
+                "bytes": 794
+              },
+              "validation": {
+                "path": "archive/pdf/1988-01/restoration/batch-47/validation.json",
+                "sha256": "cff4759cd9667f6bfc4ab6b2c6dea27572a648a496c355dccfab6aa49c61e2ea",
+                "bytes": 4095
+              },
+              "native_immutable": true,
+              "coverage_is_original_native_scope": true,
+              "files": 83,
+              "bytes": 65644131
+            }
+          ],
+          "source_limits": [
+            "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,software/title/platform/ordinal/month/page/address/historical claims and independent backup recovery remain unverified.",
+            "First immutable native of canonical0045only217–222. Boundary envelope217–233located before mapping,but224–232interior remains uninspected;223–233deferred and separate full assembly required. Original contents217/title/identity unchanged. No current folios/byline/caption invented. Five source pages218–222retain explicit lossless clockwise90orientation correction.",
+            "Opening217retains appendix/publication/title/subtitle/deck and four separate index-use explanations.218–219retain23independent series entries with printed headers/slash-authors/platform/classification when present,ordinal-month/end/continued fields and synopses. Repeated/skipped ordinals,date gaps,88.1ending and undated continued fields remain literal.",
+            "All18current table parts/255rows/765logical column positions/54header occurrences retained:96rows220,67rows221,92rows222. Local merged month cells and incoming blank positions remain distinct;source older-issue dates/page numbers are data,not current folios. Three incoming blank groups,including whole four-rowAPPLEgroup,retain blank fields with separate source carry evidence. Six table-part/category continuations retain independent rows/repeated headers without prose joins.",
+            "221cover montage and scarcity/order/contact inset remain separate associated source flow,not invented caption/article. Three individually boxed postal digits/two empty boxes,phone glyph and stacked organization prefix preserve their original geometry in images;Unicode candidates do not certify encoded glyphs. All20original page/column/montage/inset images retained.",
+            "222language category continues to223;this is a pending table/category continuation,not a prose join. Source222banner top loss remains at original image boundary. Arrows/pen traces/rules remain pixels,without invented Unicode glyph counts or reconstructed graphics. Source title/spelling/platform/name/punctuation/Roman/ordinal/phone/space candidates remain unverified. Initial erroneous assistant 스마트팀reading refined to source 스마팀within same pass in four fresh revisions;initial files preserved.",
+            "All80initial exact crops plus13fresh edge repairs inspected before60pinned kor+eng recognitions. All60raw drafts read before one direct source pass. Four empty headings/incomplete ruled-table and ordinal drafts retained;direct unchanged-crop reads recover all255rows/23series entries. Five auxiliary glyph views including one clipped initial SPC view/fresh expanded revision;no engine failures,retries or selected post-OCR crop repairs. Four fresh same-pass transcript/data refinements retain source 스마팀;initial candidates preserved.",
+            "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source title/platform/month/page/description/classification/name/historical claims,execution and independent backup recovery remain unverified.",
+            "Middle immutable native0045-bonly223–228. Opening nativea217–222unchanged. Boundary envelope217–233known;230–232interior uninspected;229–233/final native and separate complete assembly pending. Null current folios,six explicit clockwise90rotations. Original contents217/title/parent unchanged;no byline or caption invented.",
+            "18subject table parts retain292rows/876logical positions,100/109/83by page.17parts repeat three headers;224peripheral-a has no printed header.122month groups retain119printed month positions,163covered positions and10incoming blank positions in three groups. Distinct printed month groups at223OS/225TurboPascal retain missing/faint separators as source geometry uncertainty. Repeated SPC-1000assembler entries remain separate rows;no sorting or cross-index completion.",
+            "11monthly parts retain128rows/512logical positions,38/45/45by page. Six printed month labels and44repeated headers;68blank description and67blank classification positions remain independent. Four fieldsP/title/description/classification preserve all physical wraps/series markers/source reference notes and source abbreviations. Exactly one file-terminator newline removed when loading transcripts,so trailing empty-field lines remain serialized.",
+            "Ten internal table continuations preserve independent source rows and actual header presence,including one headerless source part. Incoming222–223language-category link and outgoing228–229April-table link remain separate native boundary metadata with no prose join. Older-issue month/page fields are source data,not current folios;no literal blank supplied from another occurrence.",
+            "All21original columns/halves/full pages preserve rules,white scan seams,pen/circles/underlines/arrows and unknown glyphs. Two enlarged same-pass title/classification mark views retain two editorial placeholders with unknown source character counts. Source 스마팀,체크쌤,Xʸ,위드,현장/현황,unfinished description,87년12월호P152,ordinal1/end markers and independent spelling/case/punctuation candidates remain literal and unverified.",
+            "All51exact initial crops inspected before30pinned kor+eng recognitions. Zero geometry repairs. Fresh pre-OCR map metadata records headerless224peripheral-a;initial retained. All30raws read before one source pass;successful but incomplete table drafts recovered by direct unchanged-crop reading. Two auxiliary3xnearest source views clarify title/classification traces;two unknown-count editorial markers retained. Zero engine failures,retries or post-OCR selected crop repairs.",
+            "Assistant sample review;human acceptance/full proofreading,source encoded bytes/glyph identities/exact spaces,source title/platform/month/page/description/classification/name/historical claims,execution and independent backup recovery remain unverified.",
+            "Final immutable native0045-conly229–233. Opening217–222and middle223–228remain exact. All17source pages now inspected across retained contexts;ending233COPYⅡ CPMprecedes independent234disk-sales catalog. This native ispartial until separate complete17page assembly. Null current folios,five explicit clockwise90rotations;original contents217/title/parent unchanged.",
+            "15monthly table parts retain210rows/840logical positions,38/44/44/44/40by page. Eight actual month labels and60repeated headers. Blank description/classification positions are independent,including trailing serialized fields. Preserve source-order rows,physical wraps,all references,series ordinals/end markers and source platform/category tokens without expected completion.",
+            "Six internal monthly-table continuations preserve original rows and repeated headers. Incoming228–229April-table link retains previous native manifest;no prose joins. No outgoing body continuation after233. Older-issue page/month values remain data,not current folios.",
+            "All15original halves/full pages retain rules,blank areas,arrows and glyphs. Four same-pass nearest3xviews retain two raised-trace placeholders with unknown source counts,a baseline-dot candidate and the corrected assistant repeated-syllable slip. Initial scripts/data/transcripts retained;two selected fresh revisions stay in the one pass.",
+            "May87년5월missing호,description-column(6),sourceout-of-order pages,unfinished title를,스마트/스마팀,허큘레스,sourceMclassification,JX/MX,superscripts/Roman glyphs and all references remain literal. No cross-index harmonization,chronology/title/platform/spelling/claim repair.",
+            "All30exact initial crops inspected before15pinned kor+eng recognitions. Zero geometry repairs. All15raws read before one source pass;successful but incomplete table drafts recovered by direct unchanged-crop reading. Four auxiliary3xnearest source views clarify two raised traces,a baseline dot candidate and an assistant repeated-syllable slip. Two fresh same-pass transcript/data revisions retain originals. Two unknown-count editorial markers retained. Zero engine failures,retries or post-OCR selected crop repairs."
+          ],
+          "latest_source_scope": {
+            "path": "archive/pdf/1988-01/restoration/batch-47/back-issue-index-c/article-scope.json",
+            "sha256": "02d3c0b3530d54641e80f3e8261c3bd47cbab8165712c63364a7ad87c9b71297",
+            "bytes": 794
+          },
+          "latest_validation": {
+            "path": "archive/pdf/1988-01/restoration/batch-47/validation.json",
+            "sha256": "cff4759cd9667f6bfc4ab6b2c6dea27572a648a496c355dccfab6aa49c61e2ea",
+            "bytes": 4095
+          },
+          "latest_reproduction": {
+            "path": "archive/pdf/1988-01/restoration/batch-47/reproduction.json",
+            "sha256": "c18a5f668685759e50a3d752541ffb26ed3cca7a0d00416078e6c6e7095da1ea",
+            "bytes": 1635
+          },
+          "scope_note_resolution": "Opening and middle native original deferred-page/uninspected notes remain immutable provenance. Current ledger supersedes those stages:217–233preserved across three natives;no deferred body pages or uninspected interior remain. Separate complete assembly pending. Primary directory/manifest/scope/validation/reproduction still identify nativea;latest_*fields identify nativec.",
+          "combined_segment_metrics": {
+            "regions": 161,
+            "blocks": 105,
+            "figure_assets": 56,
+            "regional_transcripts": 105,
+            "transcript_rows": 3189,
+            "transcript_tokens": 8057,
+            "internal_table_part_continuations": 22,
+            "prose_joins": 0,
+            "native_files": 500,
+            "native_bytes": 203834922,
+            "table_parts": 62,
+            "subject_table_rows": 547,
+            "monthly_table_rows": 338,
+            "table_rows": 885,
+            "table_logical_cell_positions": 2993,
+            "table_headers": 209,
+            "headerless_table_parts": 1,
+            "subject_month_groups": 224,
+            "subject_printed_month_positions": 218,
+            "subject_covered_positions": 313,
+            "subject_incoming_blank_positions": 16,
+            "monthly_blank_description_fields": 124,
+            "monthly_blank_classification_fields": 127,
+            "physical_nonempty_cell_lines": 2785,
+            "source_unknown_markers": 4
+          }
+        },
+        "opening_directory_provenance": {
+          "directory": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a",
+          "manifest": {
+            "path": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a/manifest.json",
+            "sha256": "7e296250dc1d0983f3d7385b0bfa95ce9eba65142b80e6c5d5ce81949312d745",
+            "bytes": 47324
+          },
+          "directory_was_opening_native_only": true
+        },
+        "directory_is_opening_native_only": false,
+        "index_contexts": {
+          "path": "archive/pdf/1988-01/restoration/batch-48/index-contexts.json",
+          "sha256": "496e6bb81f2cc838920ae7b7637e5a46b762142139b166220cd42eb772684b4c",
+          "bytes": 2312
+        },
+        "assembly": {
+          "index_mode": "back-issue-index-literal-v1",
+          "recipe": {
+            "path": "archive/pdf/1988-01/restoration/batch-48/assembly-recipe.json",
+            "sha256": "d78e8acd88fb59c94db004b091a7834f1b679287a7dca2adbc9ebc743e103505",
+            "bytes": 4405
+          },
+          "adapter": {
+            "path": "archive/pdf/1988-01/restoration/batch-48/back_issue_index_literal.py",
+            "sha256": "391ac19b8114c3f969096384b7d41c8d3c3802cecfec8babe4bd1c032c495441",
+            "bytes": 14952
+          },
+          "selected_verifier": {
+            "path": "archive/pdf/1988-01/restoration/batch-48/verify-assembly-r01.py",
+            "sha256": "a3d7e63e17be501919882fac360f7714b01a4069760a4a7eba34c4e08ba30390",
+            "bytes": 2059
+          },
+          "resolved_active_stage_notes": 3,
+          "native_array_slices": 120,
+          "native_object_projections": 23,
+          "native_scalar_projections": 3,
+          "native_reserved_array_projections": 9,
+          "new_ocr": 0,
+          "new_correction": 0
+        },
+        "active_stage_notes": []
       }
     },
     {
@@ -7470,6 +7926,49 @@
           "bytes": 353
         }
       }
+    },
+    {
+      "name": "batch-48",
+      "completed_at": "2026-10-27T09:54:04.108039+00:00",
+      "toc_entry_ids": [
+        "maso-1988-01-toc-0045"
+      ],
+      "canonical_tasks": 1,
+      "new_mapped_pages": 0,
+      "new_outside_lookup_pages": 0,
+      "new_ocr": 0,
+      "new_source_correction": 0,
+      "input_body_pages": 17,
+      "status": "complete-article-assembly",
+      "validation": {
+        "path": "archive/pdf/1988-01/restoration/batch-48/validation.json",
+        "sha256": "216d2f6594848745e0302b4cba150e7c5f79ad34d367446b32da6cfda2938faf",
+        "bytes": 4585
+      },
+      "reproduction": {
+        "path": "archive/pdf/1988-01/restoration/batch-48/reproduction.json",
+        "sha256": "0b6c52a6f208a7aedc42db77b10387cc642c0a6d3eb30deecf24af99827d5e8f",
+        "bytes": 2494
+      },
+      "adapter": {
+        "path": "archive/pdf/1988-01/restoration/batch-48/back_issue_index_literal.py",
+        "sha256": "391ac19b8114c3f969096384b7d41c8d3c3802cecfec8babe4bd1c032c495441",
+        "bytes": 14952
+      },
+      "test_pdf": {
+        "tests": 213,
+        "status": "passing fresh Batch42baseline reused;no core changes;no fresh run",
+        "log": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf.log",
+          "sha256": "e3fa3dd4de7905c91b2a62389a15ad730786b19ecd48b464b25bb104a5ab295c",
+          "bytes": 36303
+        },
+        "result": {
+          "path": "archive/pdf/1988-01/restoration/batch-42/test-pdf-result.json",
+          "sha256": "bd0e6cfcb1bbfe54ec03c92782a8324a7ab0a8071e03678d9c5c122a97b61d8f",
+          "bytes": 353
+        }
+      }
     }
   ],
   "notes": [
@@ -7478,289 +7977,33 @@
     "Legacy Turbo Pascal0018 reproduction/adoption completed Batch21 without changing readable totals. Selected53-file standard JSON/assets package keeps old TOC pin;retain legacy-toc-input-v1 adapter/exact context and current eligibility record for issue dispatcher. Original55 files remain unchanged."
   ],
   "next_checkpoint": {
-    "goal": "Assemble complete canonical0045back-issue index217–233from three exact immutable native contexts a217–222,b223–228,c229–233. No new mapping/OCR/source correction. Preserve full native metadata,all arrays/ranges/blank field positions/physical wraps/source marks and stage-scope provenance. Resolve only exact stale stage notes in active assembled status. Project table-part continuations across222–223and228–229without prose joins. Independently rebuild and verify complete JSON/assets before changing availability.",
+    "goal": "Verify canonical0001워드프로세서 heading ownership and canonical0002중앙한글 에디터의 개선 from original TOC178. Declare at most two tasks. Review contents11,opening PDF180candidate and adjacent178/179,opening continuation181–185,and boundary/neighbor candidates186/187/207/208/209 before mapping. Candidate PDF locations are unverified search targets,not inferred folios or a global offset. Verify source title/opening/ending/continuity and exact parent relationship;classify parent non-owning only if evidence supports it. Restore at most six eligible mapped pages180–185as a fresh opening native if body extends further;keep any deferred/uninspected extent explicit. Preserve every literal prose/code/table/title/ordinal/reference/physical wrap,source error/unknown glyph and original image;no code repair,expected opcode/byte/listing completion or execution. Reuse frozen earlier source evidence when exact;do not alter existing packages.",
     "toc_entry_ids": [
-      "maso-1988-01-toc-0045"
+      "maso-1988-01-toc-0001",
+      "maso-1988-01-toc-0002"
     ],
-    "canonical_reference": "217",
-    "known_start_pdf_page": 217,
-    "boundary_verified_pdf_envelope": [
-      217,
-      233
+    "canonical_reference": "178",
+    "opening_pdf_page_candidate": 180,
+    "next_native_pdf_page_candidates": [
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
     ],
-    "preserved_native_pdf_pages": [
-      217,
-      218,
-      219,
-      220,
-      221,
-      222,
-      223,
-      224,
-      225,
-      226,
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
-      233
+    "lookup_pdf_page_candidates": [
+      11,
+      178,
+      179,
+      186,
+      187,
+      207,
+      208,
+      209
     ],
-    "next_native_pdf_page_candidates": [],
-    "lookup_pdf_page_candidates": [],
-    "deferred_pdf_pages": [],
-    "uninspected_interior_pdf_pages": [],
-    "complete_article_assembly_pending": true,
-    "prior_source_review": {
-      "path": "archive/pdf/1988-01/restoration/batch-47/source-reviewed.json",
-      "sha256": "4c79f2f34ca011ac800f82eab95ae363ed35ea59e1dd0ed27ed2905a85f2095b",
-      "bytes": 5174
-    },
-    "native_segments": [
-      {
-        "name": "a",
-        "directory": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a",
-        "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-45/back-issue-index-a/manifest.json",
-          "sha256": "7e296250dc1d0983f3d7385b0bfa95ce9eba65142b80e6c5d5ce81949312d745",
-          "bytes": 47324
-        },
-        "coverage": {
-          "current_pdf_pages": [
-            217,
-            218,
-            219,
-            220,
-            221,
-            222
-          ],
-          "current_visible_printed_pages": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ],
-          "original_contents_reference": "217",
-          "boundary_verified_pdf_envelope": [
-            217,
-            233
-          ],
-          "full_article_continuity_verified": false,
-          "uninspected_interior_pdf_pages": [
-            224,
-            225,
-            226,
-            227,
-            228,
-            229,
-            230,
-            231,
-            232
-          ],
-          "deferred_pdf_pages": [
-            223,
-            224,
-            225,
-            226,
-            227,
-            228,
-            229,
-            230,
-            231,
-            232,
-            233
-          ],
-          "current_native_eligible_pages_complete": true,
-          "body_pages_complete": false,
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "printed_byline_present": false,
-          "all_current_native_table_rows_transcribed": true,
-          "source_table_rows_by_page": [
-            96,
-            67,
-            92
-          ],
-          "logical_cell_positions": 765
-        },
-        "availability": "partial",
-        "verification": "sample-reviewed",
-        "recipe": {
-          "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/package-recipe.json",
-          "sha256": "61461cb6f6ec090712be8e2dce9f78778398fefb8ca89b14bf6a45bbb32716c5",
-          "bytes": 22246
-        },
-        "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-45/back-issue-index-a/article-scope.json",
-          "sha256": "90dca1e289d75c1bba1fd134ca52b7f91c98de50e48b716b6a9e87a25e06bf94",
-          "bytes": 922
-        },
-        "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-45/validation.json",
-          "sha256": "f5c58d187e256d946118aadc140ac18b0249c4ccd6b63cd546b0f69f912b0d0e",
-          "bytes": 3741
-        },
-        "native_immutable": true,
-        "coverage_is_original_native_scope": true,
-        "files": 268,
-        "bytes": 64204593
-      },
-      {
-        "name": "b",
-        "directory": "archive/pdf/1988-01/packages/batch-46/back-issue-index-b",
-        "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-46/back-issue-index-b/manifest.json",
-          "sha256": "e4caa72a54ed80414638785fe0a11aa4ff177273e64ab95d174c4b1fc8e2f94a",
-          "bytes": 26436
-        },
-        "coverage": {
-          "current_pdf_pages": [
-            223,
-            224,
-            225,
-            226,
-            227,
-            228
-          ],
-          "current_visible_printed_pages": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ],
-          "original_contents_reference": "217",
-          "boundary_verified_pdf_envelope": [
-            217,
-            233
-          ],
-          "full_article_continuity_verified": false,
-          "uninspected_interior_pdf_pages": [
-            230,
-            231,
-            232
-          ],
-          "deferred_pdf_pages": [
-            229,
-            230,
-            231,
-            232,
-            233
-          ],
-          "current_native_eligible_pages_complete": true,
-          "body_pages_complete": false,
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "printed_byline_present": false,
-          "all_current_native_table_rows_transcribed": true,
-          "subject_rows_by_page": [
-            100,
-            109,
-            83
-          ],
-          "monthly_rows_by_page": [
-            38,
-            45,
-            45
-          ],
-          "logical_cell_positions": 1388
-        },
-        "availability": "partial",
-        "verification": "sample-reviewed",
-        "recipe": {
-          "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/package-recipe.json",
-          "sha256": "6ba9210cd07a2fa79c3e198e5b9d239c3c4bcc76e1404aedf6a758928a898884",
-          "bytes": 19358
-        },
-        "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-46/back-issue-index-b/article-scope.json",
-          "sha256": "d53b527d8314c36c3ba6a49faf00960a5e7405b7b8ae923b661c56f24c1d6a41",
-          "bytes": 868
-        },
-        "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-46/validation.json",
-          "sha256": "5175460a8db23c1e62aec3676b7323edab9700176c28638985b709f5f6e0b919",
-          "bytes": 4100
-        },
-        "native_immutable": true,
-        "coverage_is_original_native_scope": true,
-        "files": 149,
-        "bytes": 73986198
-      },
-      {
-        "name": "c",
-        "directory": "archive/pdf/1988-01/packages/batch-47/back-issue-index-c",
-        "manifest": {
-          "path": "archive/pdf/1988-01/packages/batch-47/back-issue-index-c/manifest.json",
-          "sha256": "c9221d8aa1845fcd127e6d0fd0a241d5a38960e1b2638871cff957ea94310be8",
-          "bytes": 14537
-        },
-        "coverage": {
-          "current_pdf_pages": [
-            229,
-            230,
-            231,
-            232,
-            233
-          ],
-          "current_visible_printed_pages": [
-            null,
-            null,
-            null,
-            null,
-            null
-          ],
-          "original_contents_reference": "217",
-          "boundary_verified_pdf_envelope": [
-            217,
-            233
-          ],
-          "full_article_continuity_verified": true,
-          "uninspected_interior_pdf_pages": [],
-          "deferred_pdf_pages": [],
-          "current_native_eligible_pages_complete": true,
-          "body_pages_complete": false,
-          "body_coverage_across_three_natives_pending_validation": true,
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "printed_byline_present": false,
-          "all_current_native_table_rows_transcribed": true,
-          "monthly_rows_by_page": [
-            38,
-            44,
-            44,
-            44,
-            40
-          ],
-          "logical_cell_positions": 840
-        },
-        "availability": "partial",
-        "verification": "sample-reviewed",
-        "recipe": {
-          "path": "archive/pdf/1988-01/restoration/batch-47/back-issue-index-c/package-recipe.json",
-          "sha256": "aa977c6f403a54717ef68cb2a4ff4b56e340c431ea68e514af370fa8c284a667",
-          "bytes": 14647
-        },
-        "source_scope": {
-          "path": "archive/pdf/1988-01/restoration/batch-47/back-issue-index-c/article-scope.json",
-          "sha256": "02d3c0b3530d54641e80f3e8261c3bd47cbab8165712c63364a7ad87c9b71297",
-          "bytes": 794
-        },
-        "validation": {
-          "path": "archive/pdf/1988-01/restoration/batch-47/validation.json",
-          "sha256": "cff4759cd9667f6bfc4ab6b2c6dea27572a648a496c355dccfab6aa49c61e2ea",
-          "bytes": 4095
-        },
-        "native_immutable": true,
-        "coverage_is_original_native_scope": true,
-        "files": 83,
-        "bytes": 65644131
-      }
-    ],
+    "source_location_verified": false,
+    "boundary_verified": false,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
@@ -7768,16 +8011,16 @@
     }
   },
   "remaining_work": [
-    "10 canonical identities still need source classification/restoration,including0032Survey original175/bounded inconclusive review.0045back-issue index has all17body pages217–233across three immutable natives;separate complete assembly remains. No deferred body pages or uninspected interior.0044registration list complete214–216;0043data heading non-owning.0042postal dense sample bodies remain original images/manual transcription pending;0039PCsoftware complete13pages.0038scanner glyph/two graph panels manual review. Former0023original105conflict/history retained. Eventual dispatcher must retain pc_software_literal_r01.py/pc-software-trends-literal-v1,turbo_c_literal.py,legacy_input_r01.py exact oldTOC/context/current guard,magic_literal_r02.py andram_literal_r01.py.",
+    "10 canonical identities still need source classification/restoration,including0032Survey original175/bounded inconclusive review.0045back-issue index complete17pages217–233;no classified article has deferred body pages or pending assembly.0044registration list complete214–216;0043data heading non-owning.0042postal dense sample bodies remain original images/manual transcription pending;0039PCsoftware complete13pages.0038scanner glyph/two graph panels manual review. Former0023original105conflict/history retained. Eventual dispatcher must retain back_issue_index_literal.py/back-issue-index-literal-v1,pc_software_literal_r01.py/pc-software-trends-literal-v1,turbo_c_literal.py,legacy_input_r01.py exact oldTOC/context/current guard,magic_literal_r02.py andram_literal_r01.py.",
     "Complete article extents/assemblies, all-page accounting, donated-cover selection, standalone JSON/assets issue export, independent rebuild and final requirement audit remain.",
     "CD comparison references must retain actual evidential scope; do not infer scan/CD equivalence from shared title alone."
   ],
   "outcome_totals": {
     "canonical_entries": 51,
-    "readable": 32,
-    "partial": 1,
+    "readable": 33,
+    "partial": 0,
     "non_owning_headings": 8,
     "unresolved": 10
   },
-  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-47/preservation-inventory.json"
+  "latest_preservation_inventory": "archive/pdf/1988-01/restoration/batch-48/preservation-inventory.json"
 }
