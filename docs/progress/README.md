@@ -22,7 +22,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | March 1985 | [8503.md](8503.md) — canonical TOC complete |
 | October 1985 | [8510.md](8510.md) — canonical TOC complete |
 | November 1985 | [8511.md](8511.md) — restoration pass complete; one unresolved entry |
-| January 1988 | [8801.md](8801.md) — active; thirty-five readable articles, zero partial articles, eleven non-owning headings, five unresolved identities; parents 0004/0006 resolved as headings; parent 0047/0048 classification next |
+| January 1988 | [8801.md](8801.md) — active; thirty-five readable articles, zero partial articles, thirteen non-owning headings, three unresolved identities; parents 0047/0048 resolved as headings; parent 0049 classification and typewriter tip restoration next |
 
 | Shared scope | Records |
 | --- | --- |
