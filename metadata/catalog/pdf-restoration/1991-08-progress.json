@@ -676,7 +676,8 @@
         "Independent title,author and opening172/printed186;171 is full academy advertisement. All six consecutive172–177/printed186–191 body pages individually reviewed and restored. Canonical identity/title/reference unchanged.",
         "178 has fourth dream/response andconclusion above independent recruitment advertisement;179 full peripheral advertisement. Final178 andcomplete article assembly pending;177 ends completed third response,so no midword join needed at native boundary.",
         "Fifty source regions,37 blocks,four original product photographs/four captions,three numbered dream-response pairs andnine exact continuation/paragraph boundaries retained. Source spellings,model names,predictions andclaims remain literal.",
-        "Seven top-edge refinements before46 initial recognitions. One left-edge fault discovered during raw reading,extended/reviewed/re-recognized once andread before source correction.45 unchanged recognition results reused with exact proofs;one source pass andzero unchanged retries."
+        "Seven top-edge refinements before46 initial recognitions. One left-edge fault discovered during raw reading,extended/reviewed/re-recognized once andread before source correction.45 unchanged recognition results reused with exact proofs;one source pass andzero unchanged retries.",
+        "Batch14 preserves final178 fourth dream/response andconclusion withclosing ornament in40-file native. Eight regions,seven blocks,one join and376 exact typed ranges pass. Lower recruitment advertisement excluded;no visible folio,printed_page null. Eight initial recognitions,zero retries,one source pass. All seven body pages now preserved across two natives;only complete article assembly remains. Original opening/deferred scope notes remain historical provenance."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-08/packages/batch-13-r01/mac-a",
@@ -738,7 +739,80 @@
           "sha256": "dbc4ce8ef289bb4d5a006c53a1fdd1d2ba129a68736ad7521c50ad0a5053ab0f",
           "bytes": 25681
         },
-        "checkpoint": "batch-13"
+        "checkpoint": "batch-13",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-08/packages/batch-13-r01/mac-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-13-r01/mac-a/manifest.json",
+              "sha256": "db56777baf26550aef94fc30f904f11bd596fd093a33f989d04fd53842b9ae4c",
+              "bytes": 34245
+            },
+            "pdf_pages": [
+              172,
+              173,
+              174,
+              175,
+              176,
+              177
+            ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-08/packages/batch-14-r01/mac-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-14-r01/mac-b/manifest.json",
+              "sha256": "10bb96f8a35878294d72a7e853d571f161cbb16672e00523001bef90a699262d",
+              "bytes": 6802
+            },
+            "pdf_pages": [
+              178
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-14/validation.json",
+              "sha256": "2bf6d8e2b718db1d4bbeca6abc0a459edb656f127aad8722b9008a3b2d9379e1",
+              "bytes": 1422
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-14/reproduction.json",
+              "sha256": "05205b4ed235fa008a30f733e6f5d976f69acaf0808226e7a71b5d2e015dac8a",
+              "bytes": 7513
+            }
+          }
+        ],
+        "aggregate_native_coverage": {
+          "pdf_pages": [
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178
+          ],
+          "printed_pages": [
+            "186",
+            "187",
+            "188",
+            "189",
+            "190",
+            "191",
+            null
+          ],
+          "regions": 58,
+          "blocks": 44,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "scope": "All seven pages preserved across two immutable partial natives;complete article assembly pending."
+        },
+        "all_body_pages_preserved_across_natives": true,
+        "ending_checkpoint": "batch-14",
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-13/ledger-complete.json",
+          "sha256": "af3c71da5b781723f8cd7706923ddf326a9df3236d43b2bc1a22710753fb004b",
+          "bytes": 58563
+        }
       },
       "source_location_observation": {
         "record": {
@@ -1384,6 +1458,31 @@
         "sha256": "68e723d7cd6e10784531d5237b4e3a3407bf48cb017bc787b9f4f524e05c1732",
         "bytes": 34956
       }
+    },
+    {
+      "name": "1991-08-batch-14",
+      "status": "complete",
+      "completed_at": "2026-10-28T09:02:37.187436+00:00",
+      "goal": "Restore final Mac178 fourth pair/conclusion withlower recruitment advertisement exclusion",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0009"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "outside_lookup_pages": 2,
+      "initial_recognitions": 8,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-14/validation.json",
+        "sha256": "2bf6d8e2b718db1d4bbeca6abc0a459edb656f127aad8722b9008a3b2d9379e1",
+        "bytes": 1422
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-14/reproduction.json",
+        "sha256": "05205b4ed235fa008a30f733e6f5d976f69acaf0808226e7a71b5d2e015dac8a",
+        "bytes": 7513
+      }
     }
   ],
   "totals": {
@@ -1394,28 +1493,32 @@
     "unresolved": 26
   },
   "notes": [
-    "Full issue goal active:26 identities still require source ownership/eligibility review. Mac0009 opening172–177 restored as partial;final178 andcomplete assembly pending. EMI0008 complete180–183. No global folio offset.",
+    "Full issue goal active:26 identities still require source ownership/eligibility review. Mac0009 all172–178 pages preserved across two partial natives;complete assembly pending.178 lower recruitment advertisement excluded andfolio null. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-14",
-    "goal": "Restore Mac final178 fourth dream/response andconclusion,excluding independent lower recruitment advertisement;then separate complete article assembly.",
+    "name": "1991-08-batch-15",
+    "goal": "Assemble complete seven-page Mac0009 from immutable opening172–177 andending178;retain all native metadata/exclusion/null folio/uncertainties.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0009"
     ],
-    "mapping_targets": [
-      178
-    ],
-    "outside_lookup_candidates": [
+    "mapping_targets": [],
+    "outside_lookup_pages": [],
+    "expected_pdf_pages": [
+      172,
+      173,
+      174,
+      175,
+      176,
       177,
-      179
+      178
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000px178 source;actual visible folio unverified/null. Preserve dream4,response4 andconclusion separately;no midword join with177. Explicit lower advertisement exclusion required. Keep opening native196files unchanged andstatus partial until complete assembly. No reader rebuild."
+    "note": "Use standard namespaced-v1;both natives have complete block text_index/text_review_items andno code listings.177 ends third response and178 starts fourth dream;no midword native join. Audit four numbered dream-response pairs,native/combined typed ranges,54 selected settings andoriginal236files. Resolve only obsolete body/assembly deferral notes;retain raw repair timing andall original notes."
   }
 }

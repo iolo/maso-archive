@@ -31,17 +31,16 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its35 canonical identities account for seven
-readable/sample-reviewed articles,one partial,one non-owning heading and26 unresolved
-classifications. Batch13 preserves Mac0009 openingPDF172–177/printed186–191 in196
-independently exact files:50 regions,37 blocks,four original photos/captions,three
-dream-response pairs,nine joins and3,615 typed ranges validate.46 initial plusone
-changed-crop recognition before source correction;45 unchanged results reused,
-zero unchanged retries,one source pass. Final178 andcomplete assembly remain pending.
-All6,328 prior issue files and30 core modules unchanged;213-test baseline reused.
-Next restore final178,excluding lower recruitment advertisement,then assemble.
-Whole-issue accounting,index,cover andcloseout remain pending. No reader rebuild.
-See [August progress](docs/progress/9108.md) and
+Step 12 is active for August 1991. Its35 identities account for seven readable,
+sample-reviewed articles,one partial,one non-owning heading and26 unresolved entries.
+Mac0009 allPDF172–178 body pages are now preserved across immutable196-file opening
+and40-file ending natives. Batch14 final178 retains eight regions,seven blocks,
+fourth dream/response,one join and376 exact typed ranges. Lower recruitment
+advertisement excluded;no visible folio,printed_page null. Eight initial recognitions,
+zero retries,one source pass. All7,243 prior files and30 core modules unchanged;
+213-test baseline reused. Next assemble the complete article withall236 native files,
+original metadata and54 settings. Whole-issue accounting,index,cover andcloseout
+remain pending. No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

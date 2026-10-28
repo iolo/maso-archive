@@ -6,14 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress:35 identities account for seven readable,
-sample-reviewed articles,one partial,one non-owning heading and26 unresolved entries.
-Mac0009 openingPDF172–177/printed186–191 is preserved in196 independently exact files.
-All50 crops,46 settings,nine joins and3,615 typed ranges pass.46 initial plusone
-changed-input recognition before source correction;45 unchanged results reused,
-zero unchanged retries,one source pass. All6,328 prior files and30 core modules
-unchanged;213-test baseline reused. Next restore final178,excluding lower recruitment
-advertisement,then assemble the complete article. Whole issue remains active. See
+August 1991 remains in progress:seven readable/sample-reviewed articles,one partial,
+one non-owning heading and26 unresolved identities. Mac0009 all172–178 body pages
+are preserved across196-file opening and40-file ending natives;complete assembly
+is next. Final178 retains eight regions,seven blocks,fourth dream/response,one join
+and376 exact ranges. Lower recruitment advertisement excluded;folio null. Eight
+initial recognitions,zero retries,one source pass. All7,243 prior files and30 core
+modules unchanged;213-test baseline reused. Whole issue remains active. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

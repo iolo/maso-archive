@@ -23,23 +23,22 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active:35 identities account for seven readable/sample-reviewed
-  articles,one partial,one non-owning heading and26 unresolved entries. Mac0009
-  openingPDF172–177/printed186–191 is preserved in196 independently exact files.
-  All50 crops,46 settings,37 blocks,four original photos/captions,nine joins,three
-  dream-response pairs and3,615 typed ranges validate. Seven top-edge refinements
-  preceded46 initial recognitions. One left-edge indent fault found during raw reading
-  was repaired/reviewed/re-recognized once before source correction;45 unchanged
-  results reused with exact proofs. All initial/repaired drafts read before one
-  source pass;zero unchanged retries. No all-final-crops-before-initial-OCR claim.
-  All6,328 prior files and30 core modules unchanged;213-test baseline reused.
-  Next restore final178 fourth pair/conclusion,excluding lower recruitment ad,then
-  assemble. Reuse retained3000px views;178 visible folio remains unverified/null.
-  Original photo-internal screens/chip markings remain pixels;source errors/claims
-  andquote/glyph approximations retained. Whole-issue cover/index/accounting/closeout
-  pending;no reader rebuild. Complete CompuServe0007 uses standard assembly.
-  Selected0003 requires batch07 `listing_adapter_r01.install()`;0002 requires its
-  retained batch04 native adapter. Immutable natives remain unchanged. See
+- August 1991 is active:seven readable/sample-reviewed articles,one partial,
+  one non-owning heading and26 unresolved entries. Mac0009 all172–178 body pages
+  are preserved across196-file opening and40-file ending natives;complete assembly
+  is next. Final178 retains fourth dream/response andconclusion in eight regions,
+  seven blocks,one join and376 exact ranges. Lower recruitment advertisement excluded;
+  no visible folio,printed_page null. Eight initial recognitions,zero retries,one pass.
+  Opening has46 initial plusone changed-crop recognition before source correction;
+  45 unchanged results reused. Its indent-fault timing exception remains explicit.
+  All7,243 prior files and30 core modules unchanged;213-test baseline reused.
+  Assemble using standard namespaced-v1,retaining all236 native files,54 selected
+  settings,four dream-response pairs andall original scope/accuracy notes. Resolve
+  only obsolete active body/assembly deferrals. No midword join at177/178.
+  Original photo-internal markings remain pixels;source errors/claims andglyph
+  approximations retained. Whole-issue cover/index/accounting/closeout pending;
+  no reader rebuild. Selected0003 requires batch07 `listing_adapter_r01.install()`;
+  0002 requires retained batch04 native adapter. See
   [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
