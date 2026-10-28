@@ -9,6 +9,12 @@ page/arm human review records remain pending. No new experiment is queued.
 The public JSON measurements and checkpoint ledgers are indexed in
 [OCR experiment data](ocr-experiments/README.md).
 
+For session wrap-up, use the [temporary-output cleanup](STORAGE.md#session-cleanup)
+after saving the checkpoint and finishing its jobs. OCR `stages/`, raw responses,
+settings and failed attempts under `archive/` are restoration evidence and remain
+preserved. Disposable reading-room `stages/` belong in `work/reading-room/`;
+the shared name does not give these directories the same retention rule.
+
 ## Mapped Qwen assistance
 
 For reviewed restoration maps, use the existing mapped adapter:

@@ -28,12 +28,12 @@ FEBRUARY_DISPATCHER = (
     'archive/pdf/1985-02/restoration/heading-classification-62/assembly_dispatch.py',
     '2ef8160b2777886c58e865519121687640604331a8c2ba783f8472f4904deb0e',
 )
-DEFAULT_BASE = 'archive/releases/reading-room-2026-10-22-before-all-restorations/data'
+DEFAULT_BASE = 'dist/releases/reading-room-2026-10-22-before-all-restorations/data'
 DEFAULT_LEDGERS = (
     'archive/pdf/1984-12/reference-r01/ledger.json',
     'archive/pdf/1985-02/reference/ledger.json',
 )
-DEFAULT_STAGES = 'archive/pdf/shared/evidence/reader-integration-2026-10-22/stages'
+DEFAULT_STAGES = 'work/reading-room/volunteer-stages'
 
 
 def load_february_dispatcher(root=ROOT):

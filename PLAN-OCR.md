@@ -580,6 +580,12 @@ ceilings of three articles/twelve pages do not expand the operating limits.
    human acceptance. Preserve original evidence and failed attempts, update the
    issue ledger, and commit a bounded checkpoint. Resolve issue accounting and
    closeout before moving to the next issue.
+8. At session end, save the checkpoint and finish its processing jobs, then run
+   `make clean-session` to preview disposable outputs. Use
+   `make clean-session CLEAN_ARGS=--apply` to remove them. Keep raw OCR, corrections,
+   recipes, unique review evidence and selected packages in `archive/`, and keep
+   `metadata/` in Git. Reader and cache removal are separate optional flags;
+   see [session cleanup](docs/STORAGE.md#session-cleanup).
 
 After an interruption, verify whether the original process is still running and
 resume it by its live handle. A lock or state file alone is not proof of a live

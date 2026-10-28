@@ -1,9 +1,15 @@
 # Reading-room implementation plan
 
-Storage update, 2026-10-16: the current volunteer reader is `dist/reading-room-volunteer/`;
-the CD-only reader is `dist/reading-room-cd/`. Preserve source references,
-restoration/integration evidence and named releases under `archive/`.
-A disposable reader must have a verified recovery path before replacement.
+Storage update, 2026-10-28: volunteer builds belong in `dist/reading-room-volunteer/`
+and CD-only builds in `dist/reading-room-cd/`. Preserve source references and unique
+restoration/integration evidence under `archive/`. Reader builds and optional
+release snapshots in `dist/releases/` are disposable deployment outputs.
+Intermediate reader stages belong in `work/reading-room/`; the default session
+cleanup removes those stages, with `--include-dist` adding generated readers and
+releases. See [session cleanup](docs/STORAGE.md#session-cleanup). Previous local
+readers/releases are absent, and a complete rebuild without a prior snapshot
+remains to be implemented and verified; this is a build limitation, not a
+preservation requirement.
 The completed implementation below is historical; follow [STORAGE.md](docs/STORAGE.md)
 and the current [reading-room guide](docs/READING-ROOM.md) for operations.
 

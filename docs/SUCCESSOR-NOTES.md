@@ -2,13 +2,29 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
+## Session wrap-up
+
+Save the restoration checkpoint and finish its processing jobs, then preview
+with `make clean-session`. Remove the listed outputs with
+`make clean-session CLEAN_ARGS=--apply`. Defaults cover `work/tmp/`,
+`work/validation/` and `work/reading-room/`. Reader builds/releases and the
+reproducible TOC cache require separate flags; see [session cleanup](STORAGE.md#session-cleanup).
+Keep selected packages, raw OCR, corrections and unique evidence in `archive/`,
+and keep identifiers, decisions, provenance and storage mappings in `metadata/`
+under Git. Store comparison reports there or under issue evidence rather than
+keeping redundant full rebuild copies.
+
 ## Current human-review reader
 
 The owner's 2026-10-22 request integrates all completed restorations into
 `dist/reading-room-volunteer/`: 11 PDF issues/407 articles plus all three CDs/3,386
-records, 3,793 total. Open `http://127.0.0.1:4189/#/review`; export local review
-notes before changing browser origin. The prior nine-issue reader and the complete
-new release are preserved under `archive/releases/reading-room-2026-10-22-*`.
+records, 3,793 total. When regenerated, open `http://127.0.0.1:4189/#/review`;
+export local review notes before changing browser origin. The owner has since
+deleted the release copies; local reader outputs are also absent. Optional
+deployment snapshots now belong in `dist/releases/`; they are disposable and
+are not restoration archive material. The incremental exporter still needs a
+generated base; a full rebuild without prior snapshots remains to be implemented
+and verified.
 See [the reader guide](READING-ROOM.md) and
 `archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json`.
 This local build adds no human acceptance and performs no deployment. March and October 1985 are later data-only closeouts and are not included in this 11-issue reader snapshot.

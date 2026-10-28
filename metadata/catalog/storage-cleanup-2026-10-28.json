@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "started_at": "2026-10-28T00:52:22.335737+00:00",
+  "status": "complete",
+  "authorization": "Owner requested cleanup of the identified reader staging copy and six verified duplicate exports.",
+  "verification": "All duplicate file paths, sizes and SHA-256 hashes equal the retained selected package; remaining evidence is checked before and after cleanup.",
+  "removed": [
+    {
+      "path": "archive/pdf/shared/evidence/pilot-repeat",
+      "kind": "verified duplicate export",
+      "selected_package": "archive/pdf/shared/packages/pilot",
+      "files": 44,
+      "bytes": 9353434,
+      "tree_sha256": "bec2ae4f7f0463cde4face87fed98d01950cb50a14f1f7b99fde60a54936896a",
+      "allocated_bytes": 9474048,
+      "status": "removed"
+    },
+    {
+      "path": "archive/pdf/shared/evidence/6a-matchsticks-repeat",
+      "kind": "verified duplicate export",
+      "selected_package": "archive/pdf/shared/packages/6a-matchsticks",
+      "files": 126,
+      "bytes": 15194201,
+      "tree_sha256": "6a1c5247641dd003d88d5bc5922a4c46f6c880015dcbca6d76b4f80eccae401d",
+      "allocated_bytes": 15572992,
+      "status": "removed"
+    },
+    {
+      "path": "archive/pdf/shared/evidence/6b-turbo-pascal-repeat",
+      "kind": "verified duplicate export",
+      "selected_package": "archive/pdf/shared/packages/6b-turbo-pascal",
+      "files": 55,
+      "bytes": 4201884,
+      "tree_sha256": "08c0879364aba9bf5154709b76cb9f32a84f73270a2e4ca0b65d385ba012ce1e",
+      "allocated_bytes": 4358144,
+      "status": "removed"
+    },
+    {
+      "path": "archive/pdf/shared/evidence/6c-basic-column-repeat",
+      "kind": "verified duplicate export",
+      "selected_package": "archive/pdf/shared/packages/6c-basic-column",
+      "files": 67,
+      "bytes": 23092134,
+      "tree_sha256": "4039397914275b96b69103be48a2fcba9aa7c760dede2b7e21dab6c48fdfeff3",
+      "allocated_bytes": 23281664,
+      "status": "removed"
+    },
+    {
+      "path": "archive/pdf/shared/evidence/7-cd-comparison-repeat",
+      "kind": "verified duplicate export",
+      "selected_package": "archive/pdf/shared/packages/7-cd-comparison",
+      "files": 58,
+      "bytes": 8169355,
+      "tree_sha256": "58e9c4243b3fa8b1a6052e13dde236576d6eded87bd5ebb860a9c3363630ef10",
+      "allocated_bytes": 8347648,
+      "status": "removed"
+    },
+    {
+      "path": "archive/pdf/shared/evidence/10-batch-repeat",
+      "kind": "verified duplicate export",
+      "selected_package": "archive/pdf/shared/packages/10-batch",
+      "files": 345,
+      "bytes": 55221603,
+      "tree_sha256": "4cb60e326a2c83314000f6f139c3282a350e4b6d908bd2c548e2093237f11cb7",
+      "allocated_bytes": 56098816,
+      "status": "removed"
+    },
+    {
+      "path": "archive/pdf/shared/evidence/reader-integration-2026-10-22/stages",
+      "kind": "generated reading-room intermediate",
+      "files": 136041,
+      "manifest": {
+        "path": "archive/pdf/shared/evidence/reader-integration-2026-10-22/stages/stage-01/data/manifest.json",
+        "bytes": 23080051,
+        "sha256": "14250579e9aa7d01ba477a406cf6463b2d4f0d95d85a5a1d77ef42ba21b219b5"
+      },
+      "allocated_bytes": 19864756224,
+      "status": "removed"
+    }
+  ],
+  "retained": {
+    "archive/pdf/shared/packages/pilot": {
+      "files": 44,
+      "bytes": 9353434,
+      "tree_sha256": "bec2ae4f7f0463cde4face87fed98d01950cb50a14f1f7b99fde60a54936896a"
+    },
+    "archive/pdf/shared/packages/6a-matchsticks": {
+      "files": 126,
+      "bytes": 15194201,
+      "tree_sha256": "6a1c5247641dd003d88d5bc5922a4c46f6c880015dcbca6d76b4f80eccae401d"
+    },
+    "archive/pdf/shared/packages/6b-turbo-pascal": {
+      "files": 55,
+      "bytes": 4201884,
+      "tree_sha256": "08c0879364aba9bf5154709b76cb9f32a84f73270a2e4ca0b65d385ba012ce1e"
+    },
+    "archive/pdf/shared/packages/6c-basic-column": {
+      "files": 67,
+      "bytes": 23092134,
+      "tree_sha256": "4039397914275b96b69103be48a2fcba9aa7c760dede2b7e21dab6c48fdfeff3"
+    },
+    "archive/pdf/shared/packages/7-cd-comparison": {
+      "files": 58,
+      "bytes": 8169355,
+      "tree_sha256": "58e9c4243b3fa8b1a6052e13dde236576d6eded87bd5ebb860a9c3363630ef10"
+    },
+    "archive/pdf/shared/packages/10-batch": {
+      "files": 345,
+      "bytes": 55221603,
+      "tree_sha256": "4cb60e326a2c83314000f6f139c3282a350e4b6d908bd2c548e2093237f11cb7"
+    },
+    "archive/pdf/shared/evidence/10-batch-map": {
+      "files": 301,
+      "bytes": 45859658,
+      "tree_sha256": "18a8cd025be05f93356da41fef662ac6536d5e2e54790682f72cb8e6578c98ad"
+    },
+    "archive/pdf/shared/evidence/7-cd-comparison-draft": {
+      "files": 55,
+      "bytes": 8139576,
+      "tree_sha256": "df0d6cb3876093d6d3c3820b24cfa3bc48e4ea0802043be948d7d8f1903dd454"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-mobile.log": {
+      "files": 1,
+      "bytes": 366,
+      "tree_sha256": "6111e6fe5913829b5eeeab99dda866ebb0a415bd306d6c12df3c1bf839e8008e"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-ocr-open.log": {
+      "files": 1,
+      "bytes": 317,
+      "tree_sha256": "e9cf114b5800ba84e0c8c3eebd560dff464ed2430807c424af51a90cd3fd5c83"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-cd3-screenshot.log": {
+      "files": 1,
+      "bytes": 366,
+      "tree_sha256": "bfd838a3c07fa32880c9846562dfa3999fbe779c6397c13ca42886a91b01bc4c"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-final-screenshot.log": {
+      "files": 1,
+      "bytes": 363,
+      "tree_sha256": "1cdcc8e962d64359151b988101fea06b195cf4743a17bc1d4f85835b045eb41f"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-desktop-size.log": {
+      "files": 1,
+      "bytes": 93,
+      "tree_sha256": "d7aa3a74291e3bad437f561714fd548bc951a2e17de295a2dfa7a3e030cb19ed"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-article.log": {
+      "files": 1,
+      "bytes": 221,
+      "tree_sha256": "5d56708ad48e8368acd01bcf68660328aadc12f0a4a24d4e9a531cd6df9f77c3"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-december-open.log": {
+      "files": 1,
+      "bytes": 292,
+      "tree_sha256": "4fb1da0c7c2ae555b685709cc9cfbe30c17fc8bd105aff6ba0a711569df47228"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-queue.log": {
+      "files": 1,
+      "bytes": 215,
+      "tree_sha256": "27cbcf5a2282cfa2200d7f8b7087a8d49ed43397b5a4bf68ffc199441c60ebac"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-mobile-size.log": {
+      "files": 1,
+      "bytes": 91,
+      "tree_sha256": "5e92840771eade6c417517b578d21e9937fbf7d3c3c148c003ba284129819348"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-text-download.log": {
+      "files": 1,
+      "bytes": 423,
+      "tree_sha256": "cf6abe77aebef7ccd76389582b92a049f7ed660dd9651ac39617e1a49d6563a8"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-review-desktop.log": {
+      "files": 1,
+      "bytes": 93,
+      "tree_sha256": "5642dd131583f99743bdda73758ea43e4692f0493eb5caa22779369f899df09f"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/commit-audit.json": {
+      "files": 1,
+      "bytes": 398,
+      "tree_sha256": "a7ffc47522b5ffa24d8aaa84568ad2428e59d12e7c0905fd86a71d83241aa302"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-note-text.log": {
+      "files": 1,
+      "bytes": 182,
+      "tree_sha256": "06511f636c9f0ff7700166b9a499b4dec3f816fe96ef9f4a3f1a25e98298be9c"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-cd3-article.log": {
+      "files": 1,
+      "bytes": 222,
+      "tree_sha256": "4d1953a41f589442c2850b6ba7541bbef27e595a88742b02cc09b0a3f8c21643"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-cd3-article-open.log": {
+      "files": 1,
+      "bytes": 318,
+      "tree_sha256": "4261719724fc84343cb551b0fad380704cee60c5b5bde24cd2b124c9c9fceea7"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/verify.py": {
+      "files": 1,
+      "bytes": 4051,
+      "tree_sha256": "921f8b5c033866be591ec238ea5f17d0251fd4ea51489ed616a916926d2554f4"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-validation.json": {
+      "files": 1,
+      "bytes": 2346,
+      "tree_sha256": "ba676c9c5f8db18ab2c2f3caa1a5faf68b0b292e2ad355b1a32ff2cdaa789cc0"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-desktop.log": {
+      "files": 1,
+      "bytes": 369,
+      "tree_sha256": "0723f063bc5bcb7350bacc339db435b0a89cef6409b829fba72233b30d537a0d"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/python-tests-r02.log": {
+      "files": 1,
+      "bytes": 2175,
+      "tree_sha256": "2e616f1f0a64f8691cf6a6dedc0545a3f24d985ba35428cf3dcaab7435d2a32b"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/python-tests.log": {
+      "files": 1,
+      "bytes": 1965,
+      "tree_sha256": "56f4fc072f348d896096cc0c955082308b5c9e99c2ec5935a63b36712b35937d"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-december.log": {
+      "files": 1,
+      "bytes": 203,
+      "tree_sha256": "1c50adefefa03b79b9ff6c60893a6bf859a0941617e52d1156a1721c9e3cdc45"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-final-review-open.log": {
+      "files": 1,
+      "bytes": 266,
+      "tree_sha256": "06209801e8ccd02a5d58cfad5681acc80b8c953f4eabd381477509efa31818f0"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-image-download.log": {
+      "files": 1,
+      "bytes": 451,
+      "tree_sha256": "374e8cc93688e195ef854c1edf62b4f0571d5d5353ec6daae9b8005f6cd0128f"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/update-docs.py": {
+      "files": 1,
+      "bytes": 8373,
+      "tree_sha256": "0cf87b81a9c03e355e28fe0ac731669b5e0982341674ae3683d6880851d78771"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-code-download.log": {
+      "files": 1,
+      "bytes": 426,
+      "tree_sha256": "707b50e2a5b3c3ecbcc3ddfb384dbae1226fed6a30011ead01fe07c69b52d3b3"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-compare-open.log": {
+      "files": 1,
+      "bytes": 350,
+      "tree_sha256": "0a3e448fc29a1e3d255062e8c41d34c769c75b7ca1f196a44e4f1f673a4444e1"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-note-form.log": {
+      "files": 1,
+      "bytes": 220,
+      "tree_sha256": "083081b327f77646389250efa47ef073cb9b4a38aa09eaf91e3707a149a55b8d"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-note-export.log": {
+      "files": 1,
+      "bytes": 481,
+      "tree_sha256": "b6738a5c07f35399b9c85243f23e3137df769074f5f7148e225f7d40957c6cb6"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/export.log": {
+      "files": 1,
+      "bytes": 732,
+      "tree_sha256": "93955b5fce24199caa3154bc8614a721e7452d10487d59aaaed7cf17e8d2d54d"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-console.log": {
+      "files": 1,
+      "bytes": 55,
+      "tree_sha256": "86b4d97f569b6c06a33eee7958503d0766f7e502cfcf2ed85946e5115e1336e8"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-compare.log": {
+      "files": 1,
+      "bytes": 244,
+      "tree_sha256": "66c9f8dc47b72368dfe670c75aa89e2f6a2d356a03a0265b99bd3efab296e4f6"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-note-save.log": {
+      "files": 1,
+      "bytes": 311,
+      "tree_sha256": "3af6de91f3e777c9b40a1c7e6dfb14450258cab9ea48b1de23ca63ab695bb0c9"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-cd3-queue.log": {
+      "files": 1,
+      "bytes": 203,
+      "tree_sha256": "e455470e207dc0bef65ecbd578ffbfb4ac88181cbf33944055bedb9d0b25f75a"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/web-tests.log": {
+      "files": 1,
+      "bytes": 658,
+      "tree_sha256": "2a34ca614779e37c648762e8fe3b8ce480123aa060825f15d5a1c1336919a108"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/verify.log": {
+      "files": 1,
+      "bytes": 2176,
+      "tree_sha256": "1fb37cdb054a8ffc833f07e1855770491710ae867c81c13489039a4dccf81406"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/build.log": {
+      "files": 1,
+      "bytes": 747,
+      "tree_sha256": "40b186e80f724121a29c9acf94473267504281f91d7cef83ef9fbef179cef505"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-desktop-metrics.log": {
+      "files": 1,
+      "bytes": 308,
+      "tree_sha256": "8bcc36cdfb9a5d4d6969dd59193b68ce8a187962ef472ea1be6a80d937aa065f"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/python-tests-r03.log": {
+      "files": 1,
+      "bytes": 2317,
+      "tree_sha256": "5932b0a85e806aae0efc2f248cbfd3109bead95fd9d92a97b0beb1fce2432e0f"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-downloads": {
+      "files": 4,
+      "bytes": 99472,
+      "tree_sha256": "c5da0c8551b5077abc55f0035b22a6694d0566ca53abd578e15a0d8d967b6348"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-open-article.log": {
+      "files": 1,
+      "bytes": 315,
+      "tree_sha256": "485d3780b20f1c2576c55182557085aa124d0d2d331df948d41238d7eafa815c"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-cd3-filter.log": {
+      "files": 1,
+      "bytes": 306,
+      "tree_sha256": "031ebe0407100ed7c2f95fd80a0831fbbcbe3dd5efc684a17d26078ff3049ef6"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-final-review.log": {
+      "files": 1,
+      "bytes": 194,
+      "tree_sha256": "3a15c728e1729afd6e8965b49f4a5671bec8a975e4826b4b9d819f1bc87e4aee"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-source-options.log": {
+      "files": 1,
+      "bytes": 432,
+      "tree_sha256": "f64be4532da3b86bb846d32987e3769cb583e941ac39ff8e4f72132d8614b6d9"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-all-review.log": {
+      "files": 1,
+      "bytes": 192,
+      "tree_sha256": "ae5997f964a7f6b1eebb4c2f8944ee6b04c98f131461152d3b6531ed8f3ed560"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-console-final.log": {
+      "files": 1,
+      "bytes": 55,
+      "tree_sha256": "93a82444f85d5d8f2a2f31f275d44496d2e034434f666019b51823c889fb7083"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-mobile-metrics.log": {
+      "files": 1,
+      "bytes": 306,
+      "tree_sha256": "f09ab74e2d83c0c9e0d4a180784b662cd62a1223fe3304c15eda11012c786dd1"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/release.log": {
+      "files": 1,
+      "bytes": 123,
+      "tree_sha256": "53fb9003ee6b5f5b2c76cfd49ebb5db1407ce951a54cad3a6ebecefb47ce6bfa"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json": {
+      "files": 1,
+      "bytes": 2176,
+      "tree_sha256": "ef3d2aea46af7344c655949841f394b70140f3528dcc7604006b21994290da4d"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-note-name.log": {
+      "files": 1,
+      "bytes": 133,
+      "tree_sha256": "58ea6bba9578ad1b8d2db498d9659c276df8f7b59f04529ea95ac2f9414e226e"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-note-open.log": {
+      "files": 1,
+      "bytes": 305,
+      "tree_sha256": "b46cce58b4330e4fb5c9ac3fc72bc33da4c0c96a5846303f4a34de3480a02ee7"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-clear-test-note.log": {
+      "files": 1,
+      "bytes": 67,
+      "tree_sha256": "c222c2cff91c5ba682d82a314f185018040380f31e1b743e968b51209574e677"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/reproduction.json": {
+      "files": 1,
+      "bytes": 5011,
+      "tree_sha256": "a1d325a21a36f72ca86f7aadcf99a672e167f14b3c5a259a56a9f650eaf229a8"
+    },
+    "archive/pdf/shared/evidence/reader-integration-2026-10-22/browser-all-review-open.log": {
+      "files": 1,
+      "bytes": 266,
+      "tree_sha256": "edf45ffd6ab84bd2b1e9b5f30a1b11000bfa215ee4e3bb18af21c313d5a9cc9b"
+    },
+    "archive/pdf/shared/evidence/10-batch-config": {
+      "files": 301,
+      "bytes": 45859463,
+      "tree_sha256": "7e29c070dd8f3b7d7440a6e4ddd6296f57ef7c8d3c377de127f8fb035f510ead"
+    },
+    "archive/pdf/shared/evidence/6a-matchsticks-before-paragraph-fix": {
+      "files": 126,
+      "bytes": 15193793,
+      "tree_sha256": "33cf5e2f41bc2ef714e906c890142372bcd61c918e848e9e40bf74e4c7fbd749"
+    },
+    "archive/pdf/shared/evidence/7-cd-comparison-before-provenance": {
+      "files": 55,
+      "bytes": 8140744,
+      "tree_sha256": "83b6876d57c40fb459ea7727d4db18a59cf90320ba9c179d2b0407a816a45f2e"
+    },
+    "archive/pdf/shared/evidence/7-cd-comparison-before-provenance-repeat": {
+      "files": 55,
+      "bytes": 8140744,
+      "tree_sha256": "83b6876d57c40fb459ea7727d4db18a59cf90320ba9c179d2b0407a816a45f2e"
+    }
+  },
+  "staging_default": "work/reading-room/volunteer-stages",
+  "repeat_destination": "work/validation/pdf-shared",
+  "historical_reader_alias_recreated": "build/reading-room-volunteer -> dist/reading-room",
+  "free_bytes_before": 115283034112,
+  "finished_at": "2026-10-28T00:52:23.226885+00:00",
+  "retained_content": "All recorded file inventories and SHA-256 hashes unchanged",
+  "storage_check": {
+    "moves": 1206,
+    "compatibility": "verified",
+    "regenerable_missing": [
+      {
+        "from": "build/pdf-restoration/10-batch-repeat",
+        "to": "work/validation/pdf-shared/10-batch-repeat"
+      },
+      {
+        "from": "build/pdf-restoration/6a-matchsticks-repeat",
+        "to": "work/validation/pdf-shared/6a-matchsticks-repeat"
+      },
+      {
+        "from": "build/pdf-restoration/6b-turbo-pascal-repeat",
+        "to": "work/validation/pdf-shared/6b-turbo-pascal-repeat"
+      },
+      {
+        "from": "build/pdf-restoration/6c-basic-column-repeat",
+        "to": "work/validation/pdf-shared/6c-basic-column-repeat"
+      },
+      {
+        "from": "build/pdf-restoration/7-cd-comparison-repeat",
+        "to": "work/validation/pdf-shared/7-cd-comparison-repeat"
+      },
+      {
+        "from": "build/pdf-restoration/pilot-repeat",
+        "to": "work/validation/pdf-shared/pilot-repeat"
+      },
+      {
+        "from": "build/reading-room-volunteer",
+        "to": "dist/reading-room"
+      }
+    ]
+  },
+  "free_bytes_after": 135264886784,
+  "free_bytes_increase": 19981852672
+}

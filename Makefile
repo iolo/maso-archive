@@ -1,5 +1,13 @@
 PYTHON ?= python3
 
+# Preview by default. Use CLEAN_ARGS=--apply after finishing the session's jobs.
+.PHONY: clean-session test-clean-session
+clean-session:
+	$(PYTHON) -m tools.clean_session $(CLEAN_ARGS)
+
+test-clean-session:
+	$(PYTHON) -m unittest tests.test_clean_session -v
+
 .PHONY: ocr-qwen3-vl benchmark-ocr-qwen3-vl test-ocr-qwen3-vl
 ocr-qwen3-vl:
 	PYTHONPATH=src $(PYTHON) -m tools.ocr_qwen page $(OCR_QWEN_ARGS)
@@ -300,13 +308,13 @@ build-cd3-reference:
 check-cd3-reference:
 	$(PYTHON) -m tools.verify_cd3_reference
 
-# Unified volunteer reader. Preserve release snapshots under archive/releases/.
+# Unified volunteer reader. Optional deployment snapshots belong in dist/releases/.
 VOLUNTEER_OUTPUT ?= dist/reading-room-volunteer
 VOLUNTEER_BASE ?= ./
 VOLUNTEER_PORT ?= 4189
-VOLUNTEER_INPUT ?= archive/releases/reading-room-2026-10-22-before-all-restorations/data
+VOLUNTEER_INPUT ?= dist/releases/reading-room-2026-10-22-before-all-restorations/data
 VOLUNTEER_LEDGERS ?= archive/pdf/1984-12/reference-r01/ledger.json archive/pdf/1985-02/reference/ledger.json
-VOLUNTEER_STAGES ?= archive/pdf/shared/evidence/reader-integration-2026-10-22/stages
+VOLUNTEER_STAGES ?= work/reading-room/volunteer-stages
 VOLUNTEER_RELEASE ?= reading-room-2026-10-22-all-restorations
 .PHONY: export-volunteer-reading-room build-volunteer-reading-room check-volunteer-reading-room preview-volunteer-reading-room
 export-volunteer-reading-room:

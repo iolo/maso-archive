@@ -1,6 +1,6 @@
 # Local PDF restoration
 
-## Current storage locations (2026-10-16)
+## Current storage locations (2026-10-28)
 
 Use [STORAGE.md](STORAGE.md#successive-restoration) and `PLAN-OCR.md` for new
 checkpoints. The numbered implementation history below retains its original
@@ -16,12 +16,25 @@ Current defaults are:
 | New maps, corrections, OCR state and attempts | `archive/pdf/YYYY-MM/restoration/batch-NN/` |
 | Checked article/batch exports | Fresh directories under `archive/pdf/YYYY-MM/packages/` |
 | Issue package / comparison evidence | `archive/pdf/YYYY-MM/reference/` / `evidence/` |
+| Disposable comparison exports | `work/validation/YYYY-MM/` |
+| Disposable render/scratch files | `work/tmp/` |
+| Disposable reader integration stages | `work/reading-room/` |
+
+The owner's 2026-10-28 cleanup removed six byte-identical repeat exports; their
+selected packages remain under `archive/pdf/shared/packages/`. Historical
+commands below describe those completed comparisons. Repeat aliases now target
+`work/validation/pdf-shared/`; reader integration stages use `work/reading-room/`.
+See the [cleanup record](STORAGE.md#shared-evidence-cleanup--2026-10-28).
 
 The active inventory/runtime readers prefer canonical paths; old unmigrated
 checkouts remain supported. Frozen state that pins an earlier implementation
 still needs that exact implementation. Do not weaken its checks or remove old
 attempts to resume it. Issue completion never makes raw OCR or corrections
-expendable. This storage update authorizes no reader rebuild or cleanup.
+expendable. Reader rebuilds remain a separate task. After saving the checkpoint
+and finishing processing, use `make clean-session` to preview temporary-output
+cleanup and `make clean-session CLEAN_ARGS=--apply` to remove it. See
+[cleanup scope and optional flags](STORAGE.md#session-cleanup); this command
+does not remove restoration material from `archive/`.
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths below remain available through compatibility links.
 

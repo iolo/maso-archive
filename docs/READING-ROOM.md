@@ -2,6 +2,25 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
+## Deployment output location and availability — October 28, 2026
+
+Reading-room releases are disposable web deployment outputs, not restoration
+archive material. Named snapshots now belong in `dist/releases/`. The owner
+has deleted the former release copies; local reader outputs are also absent. The release and
+serving commands below require available generated files.
+
+The current exporter still adds issues to an existing reader base. A complete
+rebuild directly from preserved CD/PDF packages and metadata remains to be
+implemented and verified. Moving release paths does not resolve that dependency.
+See [storage and build limits](STORAGE.md#reading-room-deployment-outputs).
+The dated sections below describe previous builds, not current file availability.
+
+For session wrap-up, `make clean-session` previews temporary outputs and
+`make clean-session CLEAN_ARGS=--apply` removes them, including reader stages in
+`work/reading-room/`. After finishing reader use, add `--include-dist` to remove
+generated readers and release snapshots too. Export browser review notes before
+changing or discarding a reader origin. See [cleanup scope and commands](STORAGE.md#session-cleanup).
+
 ## Unified volunteer reading room — October 22, 2026
 
 The current human-review build is `dist/reading-room-volunteer/`. It includes all
@@ -45,8 +64,8 @@ do not mark a whole article checked; personal notes add no official acceptance.
 
 ### Reproduce and restore
 
-The pre-integration reader is independently preserved as
-`archive/releases/reading-room-2026-10-22-before-all-restorations/`, with a file/hash
+The incremental export now expects its generated pre-integration reader at
+`dist/releases/reading-room-2026-10-22-before-all-restorations/`, with a file/hash
 receipt. Its nine PDF issues and all CD data are the base for the immutable
 December and February standalone ledgers. Both new issues retain exact package
 copies; 129,400 inherited files remain byte-identical. The shared
@@ -54,19 +73,20 @@ wrapper checks the four August adapters and February's dispatcher/13 private
 adapters against pinned hashes, while retaining the ordinary literal assemblers.
 
 ```sh
-# Restore the verified complete release to a fresh directory:
+# If the optional complete snapshot and receipt are available:
 make restore-volunteer-reading-room VOLUNTEER_OUTPUT=dist/recovered-volunteer
 
-# Re-export from preserved inputs; use fresh data and intermediate destinations:
-make export-volunteer-reading-room VOLUNTEER_OUTPUT=dist/volunteer-rebuild VOLUNTEER_STAGES=archive/pdf/shared/evidence/volunteer-rebuild/stages
+# Requires the generated base above; use fresh data and intermediate destinations:
+make export-volunteer-reading-room VOLUNTEER_OUTPUT=dist/volunteer-rebuild VOLUNTEER_STAGES=work/reading-room/volunteer-rebuild-stages
 make check-volunteer-reading-room VOLUNTEER_OUTPUT=dist/volunteer-rebuild
 make build-volunteer-reading-room VOLUNTEER_OUTPUT=dist/volunteer-rebuild
 ```
 
-The selected release is
-`archive/releases/reading-room-2026-10-22-all-restorations/`; its sibling receipt
-records every file's bytes and SHA-256. Existing outputs and releases are never
-replaced. The old `dist/reading-room/` remains preserved. `VOLUNTEER_BASE=./`
+The optional selected deployment snapshot is
+`dist/releases/reading-room-2026-10-22-all-restorations/`; its sibling receipt
+records every file's bytes and SHA-256. These commands refuse existing outputs
+and differing snapshots. Local reader and snapshot copies are currently absent.
+`VOLUNTEER_BASE=./`
 supports ordinary static hosting and hash navigation without route rewrites.
 
 Validation covers the full data inventory, ownership and reader projections,
@@ -74,6 +94,9 @@ unchanged inherited files and exact new package copies; 13 focused Python tests,
 25 frontend tests, TypeScript/production compilation and browser review flows.
 Integration evidence, reproduction inputs and browser observations are retained
 under `archive/pdf/shared/evidence/reader-integration-2026-10-22/`.
+The generated intermediate `stages/` copy was removed during the owner's
+2026-10-28 cleanup. New intermediate exports default to
+`work/reading-room/volunteer-stages/` and are disposable.
 This is a local review build. Human proofreading, source byte/spacing claims,
 historical execution and independent backup recovery remain unverified. Deployment
 is a separate task; see [the hosting guide](DEPLOY-READING-ROOM.md).

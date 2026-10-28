@@ -13,5 +13,11 @@ articles. Complete packages and ongoing work live in the separately preserved,
 Git-ignored `archive/`. The `data` directory inside an assembled reader is a
 separate export format. See [storage and recovery](../docs/STORAGE.md).
 
+Session cleanup excludes `metadata/`. Catalog records about a reader build or
+cleanup can remain as provenance even after the generated output is deleted.
+Reader builds and release snapshots belong in `dist/`, and temporary processing
+belongs in the designated `work/` locations. See
+[session cleanup](../docs/STORAGE.md#session-cleanup).
+
 Historical record contents are retained byte-for-byte, including original path
 strings. The root `data` compatibility link keeps those paths usable.

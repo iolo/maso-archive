@@ -1338,7 +1338,7 @@
     },
     {
       "from": "build/pdf-restoration/10-batch-repeat",
-      "to": "archive/pdf/shared/evidence/10-batch-repeat"
+      "to": "work/validation/pdf-shared/10-batch-repeat"
     },
     {
       "from": "build/pdf-restoration/11-batch-01",
@@ -4758,7 +4758,7 @@
     },
     {
       "from": "build/pdf-restoration/6a-matchsticks-repeat",
-      "to": "archive/pdf/shared/evidence/6a-matchsticks-repeat"
+      "to": "work/validation/pdf-shared/6a-matchsticks-repeat"
     },
     {
       "from": "build/pdf-restoration/6b-turbo-pascal",
@@ -4766,7 +4766,7 @@
     },
     {
       "from": "build/pdf-restoration/6b-turbo-pascal-repeat",
-      "to": "archive/pdf/shared/evidence/6b-turbo-pascal-repeat"
+      "to": "work/validation/pdf-shared/6b-turbo-pascal-repeat"
     },
     {
       "from": "build/pdf-restoration/6c-basic-column",
@@ -4774,7 +4774,7 @@
     },
     {
       "from": "build/pdf-restoration/6c-basic-column-repeat",
-      "to": "archive/pdf/shared/evidence/6c-basic-column-repeat"
+      "to": "work/validation/pdf-shared/6c-basic-column-repeat"
     },
     {
       "from": "build/pdf-restoration/7-cd-comparison",
@@ -4794,7 +4794,7 @@
     },
     {
       "from": "build/pdf-restoration/7-cd-comparison-repeat",
-      "to": "archive/pdf/shared/evidence/7-cd-comparison-repeat"
+      "to": "work/validation/pdf-shared/7-cd-comparison-repeat"
     },
     {
       "from": "build/pdf-restoration/cost-audit-2026-10-02",
@@ -4806,7 +4806,7 @@
     },
     {
       "from": "build/pdf-restoration/pilot-repeat",
-      "to": "archive/pdf/shared/evidence/pilot-repeat"
+      "to": "work/validation/pdf-shared/pilot-repeat"
     },
     {
       "from": "build/reading-room-volunteer",
@@ -4827,6 +4827,13 @@
     {
       "from": "output/playwright",
       "to": "archive/evidence/playwright"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "record": "metadata/catalog/storage-cleanup-2026-10-28.json",
+      "summary": "Six verified duplicate PDF exports are disposable validation outputs; their aliases now target work/validation/pdf-shared/."
     }
   ]
 }

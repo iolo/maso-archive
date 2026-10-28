@@ -7,9 +7,9 @@ Completion does not make the supporting evidence disposable.
 | Location | Contents | Retention |
 | --- | --- | --- |
 | `metadata/` | Stable IDs, catalog/provenance records, manual decisions, reference tables and storage map | Keep in Git |
-| `archive/` | Completed packages **and ongoing restoration**, corrections, mappings, recipes, raw OCR, failed attempts, review evidence, pinned toolchains and saved releases | Preserve and back up outside Git |
+| `archive/` | Completed packages **and ongoing restoration**, corrections, mappings, recipes, raw OCR, failed attempts, review evidence and pinned toolchains | Preserve and back up outside Git |
 | `work/` | Temporary processing and caches with a verified reconstruction path | May discard after the task finishes; never the sole copy of work |
-| `dist/` | Assembled readers for serving and deployment | May replace from preserved inputs or a verified release snapshot |
+| `dist/` | Generated readers and optional deployment snapshots under `dist/releases/` | Disposable; no archival retention required |
 
 `archive/` means local preserved material; it does not mean published or human
 accepted. Keep original `maso-pdf/`, `masocd-*.iso`, extracted disc directories,
@@ -31,7 +31,7 @@ archive/
       reference/           completed standalone issue package
       packages/            retained article/batch packages
       restoration/         ongoing work, recipes, raw OCR and corrections
-      evidence/            retained rebuilds and validation evidence
+      evidence/            comparison reports and unique validation evidence
     shared/                inventories and work shared across issues
   cd1/                     extraction, reference, packages and evidence
   cd2/
@@ -40,16 +40,17 @@ archive/
   covers/                  cover inventories and retained derivatives
   toolchains/ocr/           exact OCR runtime used by restoration recipes
   experiments/             retained OCR experiments
-  releases/                independently copied reading-room releases
   operations/              private deployment state and credentials
   migrations/              move journal, original code snapshot and checks
   legacy-paths/            compatibility links and older-script destinations
 work/
   cache/toc-snapshots/      historical catalogs reproducible from Git blobs
   validation/              disposable validation outputs
+  reading-room/            disposable reader integration stages
   tmp/                     disposable scratch work
 dist/                      assembled readers
-  reading-room/            current volunteer reader
+  releases/                optional, disposable deployment snapshots and receipts
+  reading-room-volunteer/  volunteer reader, when generated
   reading-room-cd/         CD-only reader, when regenerated
 ```
 
@@ -68,7 +69,67 @@ from recorded Git blobs and checks every hash, moved to `work/`.
 An output belongs in `work/` only if all inputs and instructions are preserved,
 regeneration has been checked, and no correction, review or provenance relies on
 that copy. Otherwise put it in `archive/`. Do not delete issue work after export.
-There is no automatic cleanup command.
+Use the explicit session cleanup below for disposable outputs.
+
+For an independent rebuild, compare the disposable `work/validation/` output with
+the selected archive package and retain the comparison report and hashes under
+`evidence/`. A byte-identical rebuild copy needs no separate permanent retention.
+Keep any unique failure, correction or review evidence before cleaning its scratch
+location. A directory named `evidence` or a file described as a cache does not by
+itself establish what needs preservation.
+
+## Session cleanup
+
+After saving the restoration checkpoint and finishing its processing jobs:
+
+```sh
+make clean-session                         # Preview; changes nothing
+make clean-session CLEAN_ARGS=--apply      # Remove the listed temporary outputs
+```
+
+The default locations are `work/tmp/`, `work/validation/` and `work/reading-room/`.
+Other `work/` locations are left alone. Optional flags broaden the selection:
+
+```sh
+# Preview reader builds/releases and the reproducible TOC cache as well:
+make clean-session CLEAN_ARGS="--include-dist --include-caches"
+# Remove the same selection:
+make clean-session CLEAN_ARGS="--apply --include-dist --include-caches"
+```
+
+`--include-dist` adds generated contents of `dist/`, including `dist/releases/`,
+while keeping `dist/README.md`. `--include-caches` adds only
+`work/cache/toc-snapshots/`; recreate it with `make restore-toc-snapshot` or the
+appropriate historical snapshot descriptor. Deleting readers does not implement
+the missing full reader rebuild described below.
+
+The command does not inspect or delete `archive/`, `metadata/`, original sources,
+compatibility aliases or installed toolchains. It rejects selected paths with
+symlinked parents, Git-tracked files, mount points or special files before any
+deletion. Links inside temporary directories are unlinked without following
+their targets. Space figures are estimates; hard links or filesystem sharing
+can affect the actual space reclaimed. Cleanup runs only when explicitly called;
+there is no automatic deletion after a failed or interrupted restoration.
+The command does not discover temporary copies misplaced inside `archive/`;
+those need a separate review of their contents and dependencies. Its default
+scope keeps existing readers and TOC caches available between sessions.
+
+### Shared evidence cleanup — 2026-10-28
+
+The owner's cleanup removed the generated reader integration `stages/` tree
+from `archive/pdf/shared/evidence/reader-integration-2026-10-22/`. Its reports,
+scripts and browser observations remain. New reader stages belong under
+`work/reading-room/`, with the default `work/reading-room/volunteer-stages/`.
+
+Six repeat exports (`pilot-repeat`, `6a-matchsticks-repeat`,
+`6b-turbo-pascal-repeat`, `6c-basic-column-repeat`, `7-cd-comparison-repeat` and
+`10-batch-repeat`) were checked file by file with SHA-256 against their selected
+copies in `archive/pdf/shared/packages/` before deletion. Those packages retain
+all of the duplicate content. Their historical `build/pdf-restoration/` aliases
+now point to disposable `work/validation/pdf-shared/` destinations so a later
+verification export stays outside the archive. Missing repeats are expected.
+Earlier correction/configuration variants and other unique evidence remain.
+The cleanup receipt is `metadata/catalog/storage-cleanup-2026-10-28.json`.
 
 ## Successive restoration
 
@@ -84,7 +145,8 @@ Use this sequence for October 1984 and subsequent issues:
    state and source hashes. A changed tool/runtime fingerprint calls for a new
    recorded attempt or the original pinned implementation, not weaker checks.
 4. Export to a fresh `packages/batch-NN-r01/`. Build an independent comparison
-   under `evidence/`, validate it, and record the selected package in the ledger.
+   under `work/validation/YYYY-MM/`, validate it, retain its report and hashes
+   under the issue's `evidence/`, and record the selected package in the ledger.
    Close an issue into a fresh `reference/` (or a named revision if it exists).
    Never replace a completed package in place or edit its manifest to hide a
    provenance change. Small mutable progress ledgers still need Git checkpoints
@@ -94,6 +156,9 @@ Use this sequence for October 1984 and subsequent issues:
    code revision and exact commands. Copy the local archive and original inputs
    to independent backup storage, then verify a restore before calling that
    checkpoint recoverable. Git commits alone do not back up these ignored files.
+6. After saving the session checkpoint and finishing its jobs, follow
+   [session cleanup](#session-cleanup). Remove disposable scratch, validation and
+   reader-stage outputs; keep the selected restoration inputs and results.
 
 The current PDF package/issue exporters refuse an existing destination. The CD2
 pilot/issue and CD2/CD3 reference builders now do too. For CD reference groups,
@@ -104,8 +169,8 @@ Finalization adds missing files during an ordinary/resumed build, accepts
 identical existing bytes, and refuses changes to existing files. Verification
 does not repair missing files. Run only one writer for a given batch/output.
 
-Reader integration is a separate task requiring an explicit request. Save a
-named release before replacing a reader. `work/` may contain disposable
+Reader integration is a separate task requiring an explicit request. A named
+deployment snapshot under `dist/releases/` is optional. `work/` may contain disposable
 validation outputs, but should never hold the only OCR result, correction or
 review decision needed to continue the next checkpoint.
 
@@ -164,70 +229,64 @@ only the original hash-checked restore function with its repository root adapted
 it retains the original source/snapshot checks and overwrite refusal. Restore
 the volunteer reader first if a retired snapshot depends on it.
 
-## Restore the reading room
+## Reading-room deployment outputs
 
-The current volunteer release is
-`archive/releases/reading-room-2026-10-22-all-restorations/`, built from the verified
-`reading-room-2026-10-22-before-all-restorations` baseline plus December1984 and
-February1985. It contains all11 completed PDF restorations and all3 CDs. The local
-build is `dist/reading-room-volunteer/`; `make restore-volunteer-reading-room`
-selects this release and refuses an existing destination. Both new snapshots have
-complete independently checked file/hash receipts. This remains a same-disk copy,
-not an independently restored backup. The October notes below are historical.
+Reading-room builds and release snapshots are generated web deployment artifacts.
+They belong in `dist/`, with optional named snapshots and their JSON hash receipts
+under `dist/releases/`. They are not part of the restoration archive and require
+no permanent preservation. `work/` remains for temporary processing and caches.
+Keep canonical source material, restoration packages, metadata, corrections,
+required assets, recipes and validation evidence in their preserved locations.
 
-After the owner's October integration request, the current reader release is
-`archive/releases/reading-room-2026-10-19-october/` (nine PDF issues plus all three
-CDs). `make restore-volunteer-reading-room` selects that verified release.
-The October export uses the saved September release as its base and October's
-standalone packages. August's four pinned validation adapters remain required.
-September's saved release and prior recipes remain preserved; an older prepared
-reader does not define the current JSON restoration scope.
-The pre-migration volunteer reader is retained independently at
-`archive/releases/reading-room-2026-10-16/`. Its sibling JSON file lists every
-file's size and SHA-256. The release contains the existing seven PDF issues and
-three CDs; this reorganization does not integrate another issue or deploy it.
+The owner deleted the former `archive/releases/` copies; local reader outputs
+are also absent.
+The empty old directory was removed when the release location changed. No release
+payloads were moved or regenerated. Historical catalogs, receipts and frozen
+reproduction records retain their original paths and hashes as evidence; an old
+release path in those records does not imply that the generated files still exist.
 
-The older July reader intermediate was already missing before migration. Keep
-this release so the existing reader can be recovered without that intermediate.
-The copy uses independent files, not hard links to the mutable reader.
+### Current build limitation
 
-```sh
-# Restore after dist/reading-room has been removed (refuses existing output).
-make restore-volunteer-reading-room
-# Or restore beside the current reader:
-make restore-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-restored
-make check-volunteer-reading-room
-python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
-```
+The current volunteer exporter is incremental: its default base is
+`dist/releases/reading-room-2026-10-22-before-all-restorations/data`, to which it
+adds December 1984 and February 1985. That base is currently absent. Changing its
+location does not implement a full rebuild. Rebuilding the complete reader from
+preserved CD/PDF packages and metadata without any previous release remains to
+be implemented and verified. The dependency on generated snapshots is a build
+limitation, not an archival retention requirement. Restoration can continue
+without any reading-room build or release snapshot.
 
-Restore verifies every copied file before installing the destination. UI-only
-rebuilds still use `make build-volunteer-reading-room`. Later releases use
-distinct names and can be restored separately:
+The last assembled volunteer reader (2026-10-22) contained 11 completed PDF
+restorations and all three CDs. Later restoration closeouts remain separate
+until explicitly integrated. See [the reader guide](READING-ROOM.md).
+
+### Optional deployment snapshots
+
+For an available, validated reader, these commands create an independent copy
+under `dist/releases/` and copy it back to a fresh serving directory:
 
 ```sh
-# Run only after an explicitly requested reader build has passed validation.
-python3 -m tools.storage_layout snapshot-reader --release reading-room-YYYY-MM-DD-r01
+python3 -m tools.storage_layout snapshot-reader --source dist/reading-room-volunteer --release reading-room-YYYY-MM-DD-r01
 python3 -m tools.storage_layout restore-reader dist/recovery-check --release reading-room-YYYY-MM-DD-r01
 ```
 
-Replace the example release name with the actual date/revision. Snapshot accepts
-`--source dist/another-reader` when needed. Reusing a release name checks both the
-saved copy and current source against the receipt; a changed reader requires a
-new name. Interrupted copies can resume only with matching source bytes.
-Preserve each release's sibling JSON receipt. The restore command without
-`--release` deliberately selects the original `reading-room-2026-10-16` release,
-not whichever directory happens to be newest.
+The snapshot command refuses differing bytes under an existing name. Copying a
+snapshot back verifies its receipt and refuses an existing output. Source and
+serving directories must be outside `dist/releases/` to avoid overlapping copies.
+If keeping a snapshot for convenience, keep its matching receipt with it; both
+are disposable deployment outputs.
 
-The old July integration input is absent. Replaying the historical August-only
-export still requires that base. The September recipe uses the saved August
-release; the current October recipe uses the saved September release.
-All earlier releases remain preserved.
+`make restore-volunteer-reading-room` selects the optional
+`reading-room-2026-10-22-all-restorations` snapshot. It works only while that
+snapshot and receipt exist in `dist/releases/`. The lower-level restore command
+without `--release` still selects the original `reading-room-2026-10-16` name,
+not whichever directory happens to be newest. Neither command rebuilds a reader
+from restoration packages. `make build-volunteer-reading-room` builds the UI;
+it does not regenerate the reader data.
 
-The retained release and migration journal are on this same disk. They protect
-against accidental rebuilding, not disk failure. Preserve `archive/` and
-original sources in a separate backup; repository commits cover `metadata/`,
-code and documentation only. Browser review notes must still be exported from
-the reading room: they live in browser storage, outside these directories.
+Back up `archive/` and original sources separately; repository commits cover
+`metadata/`, code and documentation only. Browser review notes live in browser
+storage and must be exported separately.
 
 ## Migration validation
 

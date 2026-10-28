@@ -28,15 +28,27 @@ and private `archive/pdf/1988-01/restoration/issue-closeout-01/reproduction.json
 | `metadata/` | Tracked IDs, catalog records, decisions and provenance | Yes; commit to Git |
 | `archive/` | Completed restorations, ongoing work, corrections, recipes, raw OCR, evidence and toolchains | Yes; back up separately |
 | `work/` | Verified reproducible caches and temporary processing | Disposable after the task finishes |
-| `dist/` | Assembled reading rooms | Replaceable from preserved inputs or release snapshots |
+| `dist/` | Generated reading rooms and optional deployment snapshots in `dist/releases/` | Disposable; no archival retention required |
 
 Keep original PDFs, ISOs, extracted source files, donated covers and TOCs too.
 A completed article does **not** make its restoration evidence disposable.
+Reading-room releases are deployment outputs, not restoration archive material.
+The current incremental reader exporter still needs a prior generated base;
+a complete rebuild without release snapshots remains to be implemented and verified.
 `data`, `private`, `build` and `output` are compatibility links for older recipes.
 Use the canonical directories above for new work. See [storage and recovery](docs/STORAGE.md)
 for the issue layout, retention rules and reader restore command.
 
+After saving a restoration checkpoint and finishing its jobs, use
+`make clean-session` to preview temporary-output cleanup, then
+`make clean-session CLEAN_ARGS=--apply` to remove those outputs. Optional reader
+and cache cleanup is documented in [session cleanup](docs/STORAGE.md#session-cleanup).
+
 ## Read the archive
+
+The owner deleted the release copies; local reader outputs are also absent. The commands below
+require regenerated output or an available optional snapshot; they do not describe
+files currently present. See [reader build limits](docs/STORAGE.md#reading-room-deployment-outputs).
 
 The unified volunteer reader’s 2026-10-22 snapshot includes **11 completed PDF restorations**
 (November 1983; February, March, May–October and December 1984; February 1985)

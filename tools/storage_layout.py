@@ -20,6 +20,10 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = 'metadata/storage-layout.json'
 LOCAL_ROOTS = ('archive', 'work', 'dist')
+PDF_VALIDATION_REPEATS = frozenset({
+    'pilot-repeat', '6a-matchsticks-repeat', '6b-turbo-pascal-repeat',
+    '6c-basic-column-repeat', '7-cd-comparison-repeat', '10-batch-repeat',
+})
 
 
 def pdf_issue(name):
@@ -58,6 +62,8 @@ def destination(relative):
         if parent == 'private':
             base = ('archive/toolchains/ocr' if item == 'ocr-runtime' else
                     f'archive/pdf/{issue}/restoration/{item}')
+        elif parent == 'build' and item in PDF_VALIDATION_REPEATS:
+            base = f'work/validation/pdf-shared/{item}'
         elif item.endswith('-reference') and issue != 'shared':
             base = f'archive/pdf/{issue}/reference'
         elif any(word in item for word in ('-repeat', '-evidence', '-draft', '-closeout', '-config', '-map', '-before-')):
@@ -283,7 +289,7 @@ def migrate(root=ROOT):
 
 
 
-READER_RELEASE = 'archive/releases/reading-room-2026-10-16'
+READER_RELEASE = 'dist/releases/reading-room-2026-10-16'
 
 
 def file_inventory(directory):
@@ -311,21 +317,23 @@ def release_path(root, release=None):
     name = release or Path(READER_RELEASE).name
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]*', name):
         raise ValueError('Release name must use letters, digits, hyphens or underscores')
-    target = root / 'archive/releases' / name
+    target = root / 'dist/releases' / name
     # Keep both the release tree and its receipt out of compatibility links.
-    if any(p.is_symlink() for p in (root/'archive', target.parent, target, target.with_suffix('.json'))):
+    if any(p.is_symlink() for p in (root/'dist', target.parent, target, target.with_suffix('.json'))):
         raise ValueError('Release paths must not be symlinks')
     return target
 
 
 def snapshot_reader(root=ROOT, release=None, source=None):
-    """Save a named independent release; existing releases are never replaced."""
+    """Copy a named optional deployment snapshot inside dist/."""
     root = Path(root).resolve()
     source = Path(source or 'dist/reading-room')
     source = (root / source).resolve()
     if not source.is_relative_to(root/'dist') or source == root/'dist':
         raise ValueError('Reader snapshot source must be a directory inside dist/')
     target = release_path(root, release)
+    if source.is_relative_to(target.parent) or target.parent.is_relative_to(source):
+        raise ValueError('Reader snapshot source must be outside dist/releases/')
     relative = target.relative_to(root).as_posix()
     receipt = target.with_suffix('.json')
     before = file_inventory(source)
@@ -357,7 +365,7 @@ def snapshot_reader(root=ROOT, release=None, source=None):
 
 
 def restore_reader(root=ROOT, output=None, release=None):
-    """Restore a named reader without overwriting existing output or archive."""
+    """Copy an optional deployment snapshot without overwriting existing output."""
     root = Path(root).resolve()
     source = release_path(root, release)
     output = Path(output or root / 'dist/reading-room')
@@ -368,17 +376,19 @@ def restore_reader(root=ROOT, output=None, release=None):
     output = output.resolve()
     if not output.is_relative_to(root / 'dist') or output == root / 'dist':
         raise ValueError('Reader restore output must be a directory inside dist/')
+    if output.is_relative_to(source.parent):
+        raise ValueError('Reader restore output must be outside dist/releases/')
     if output.exists():
         raise ValueError('Reader restore output already exists; choose a new directory')
     expected = json.loads(source.with_suffix('.json').read_text())['files']
     if file_inventory(source) != expected:
-        raise ValueError('Preserved release differs from its receipt')
+        raise ValueError('Release snapshot differs from its receipt')
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.restore-', dir=output.parent) as directory:
         stage = Path(directory) / 'reader'
         shutil.copytree(source, stage)
         if file_inventory(stage) != expected:
-            raise ValueError('Reader restore differs from the preserved release')
+            raise ValueError('Reader restore differs from the release snapshot')
         if output.exists():
             raise ValueError('Reader restore output appeared during restore')
         stage.rename(output)

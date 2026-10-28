@@ -6,6 +6,13 @@ evidence under `archive/pdf/YYYY-MM/`; preserve them after issue closeout too.
 Use a fresh destination for each revision. Older dated paths below remain valid
 through compatibility links and do not change the retention policy.
 
+Session wrap-up, 2026-10-28: keep disposable comparison exports under
+`work/validation/`, scratch renders under `work/tmp/`, and reader integration
+stages under `work/reading-room/`. Retain comparison reports and unique restoration
+evidence in `archive/`. After saving the checkpoint and finishing processing,
+preview with `make clean-session`; delete with
+`make clean-session CLEAN_ARGS=--apply`. See [cleanup scope and optional flags](docs/STORAGE.md#session-cleanup).
+
 ## Current OCR routing guide
 
 **User decision, 2026-10-14:** retain mapped Tesseract as the default restoration

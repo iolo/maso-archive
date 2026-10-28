@@ -76,6 +76,26 @@ class StorageTests(unittest.TestCase):
             for name, raw in files.items():
                 self.assertEqual((root/name).read_bytes(), raw)
 
+    def test_duplicate_validation_exports_are_disposable_with_legacy_links(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.fixture(root)
+            old = root/'build/pdf-restoration/pilot-repeat'
+            old.mkdir(parents=True)
+            (old/'article.json').write_bytes(b'rebuild verification copy')
+            self.migrate(root)
+            current = root/'work/validation/pdf-shared/pilot-repeat'
+            self.assertEqual(old.resolve(), current)
+            self.assertEqual((current/'article.json').read_bytes(), b'rebuild verification copy')
+            self.assertFalse((root/'archive/pdf/shared/evidence/pilot-repeat').exists())
+            (current/'article.json').unlink()
+            current.rmdir()
+            missing = storage.verify(root)['regenerable_missing']
+            self.assertEqual(missing, [{'from': 'build/pdf-restoration/pilot-repeat',
+                                        'to': 'work/validation/pdf-shared/pilot-repeat'}])
+            self.assertEqual((root/'private/pdf-restoration/14-1984-09/batch-1/correction.txt').read_bytes(),
+                             b'\xed\x95\x9c\xea\xb8\x80\n')
+
     def test_conflicts_and_cross_tree_links_are_rejected_before_moves(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -149,6 +169,40 @@ class StorageTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'differs'):
                 storage.restore_reader(root,'dist/bad')
             self.assertFalse((root/'dist/bad').exists())
+
+    def test_deployment_releases_do_not_write_to_archive(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.fixture(root)
+            self.migrate(root)
+            def archive_files():
+                return {p.relative_to(root): (p.read_bytes(), p.stat().st_ino, p.stat().st_mtime_ns)
+                        for p in (root/'archive').rglob('*') if p.is_file()}
+            before = archive_files()
+            storage.snapshot_reader(root, release='deployment')
+            self.assertTrue((root/'dist/releases/deployment/index.html').is_file())
+            self.assertTrue((root/'dist/releases/deployment.json').is_file())
+            storage.restore_reader(root, 'dist/served', release='deployment')
+            self.assertEqual(archive_files(), before)
+            self.assertFalse((root/'archive/releases').exists())
+
+    def test_release_operations_reject_overlapping_output_and_linked_roots(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.fixture(root)
+            self.migrate(root)
+            storage.snapshot_reader(root, release='deployment')
+            for source in ('dist/releases', 'dist/releases/deployment'):
+                with self.assertRaisesRegex(ValueError, 'outside dist/releases'):
+                    storage.snapshot_reader(root, release='nested', source=source)
+            for output in ('dist/releases/another', 'dist/releases/deployment/child'):
+                with self.assertRaisesRegex(ValueError, 'outside dist/releases'):
+                    storage.restore_reader(root, output, release='deployment')
+            self.assertFalse((root/'dist/releases/nested').exists())
+            (root/'dist').rename(root/'linked-dist')
+            (root/'dist').symlink_to('linked-dist', target_is_directory=True)
+            with self.assertRaisesRegex(ValueError, 'symlinks'):
+                storage.restore_reader(root, 'dist/served', release='deployment')
 
 
 if __name__ == '__main__':

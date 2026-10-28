@@ -160,9 +160,9 @@ class PreservationTests(unittest.TestCase):
             root = Path(directory)
             source = self.reader(root)
             storage.snapshot_reader(root, release='first')
-            before = identities(root/'archive/releases')
+            before = identities(root/'dist/releases')
             storage.snapshot_reader(root, release='first')
-            self.assertEqual(identities(root/'archive/releases'), before)
+            self.assertEqual(identities(root/'dist/releases'), before)
             (source/'index.html').write_bytes(b'second reader')
             with self.assertRaisesRegex(ValueError, 'choose a new --release'):
                 storage.snapshot_reader(root, release='first')
@@ -175,7 +175,7 @@ class PreservationTests(unittest.TestCase):
                 if not bad: continue
                 with self.assertRaisesRegex(ValueError, 'Release name'):
                     storage.snapshot_reader(root, release=bad)
-            (root/'archive/releases/linked').symlink_to('first')
+            (root/'dist/releases/linked').symlink_to('first')
             with self.assertRaisesRegex(ValueError, 'symlinks'):
                 storage.restore_reader(root, 'dist/linked', release='linked')
 
@@ -190,8 +190,8 @@ class PreservationTests(unittest.TestCase):
             with patch.object(Path, 'rename', interrupted):
                 with self.assertRaisesRegex(OSError, 'interruption'):
                     storage.snapshot_reader(root, release='interrupted')
-            self.assertTrue((root/'archive/releases/interrupted.json').is_file())
-            self.assertFalse((root/'archive/releases/interrupted').exists())
+            self.assertTrue((root/'dist/releases/interrupted.json').is_file())
+            self.assertFalse((root/'dist/releases/interrupted').exists())
             (source/'index.html').write_bytes(b'changed reader')
             with self.assertRaisesRegex(ValueError, 'receipt differs'):
                 storage.snapshot_reader(root, release='interrupted')

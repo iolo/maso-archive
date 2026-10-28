@@ -1,5 +1,10 @@
 # Storage sustainability review — 2026-10-16
 
+Current policy (2026-10-28): reader releases are disposable deployment outputs
+under `dist/releases/`, outside the preservation scope. The owner deleted the
+former snapshots. Statements below about saved readers describe the historical
+audit; see [current storage and build limits](STORAGE.md#reading-room-deployment-outputs).
+
 Subsequent update: the owner requested September reader integration after this
 review. The [current recipe](READING-ROOM.md) now uses the saved August release
 and a derived September ledger; its default export no longer needs the missing
