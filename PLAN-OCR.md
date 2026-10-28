@@ -23,31 +23,32 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: eight readable/sample-reviewed articles, one partial,
-  two non-owning headings and 24 unresolved entries. Parent0010 is non-owning;
-  VGA0011 opening PDF204–209/printed218–223 is preserved in 297 independently exact
-  files. All 78 regions, 58 blocks, eight originals, 70 settings and 4,472 typed
-  article/listing occurrences pass. Three eng code and 67 kor+eng other regions;
-  all raw drafts read before one source pass, zero retries/post-OCR crop repairs.
-  Preserve 37 pre-OCR edge refinements, one file-table region consolidation and
-  every failed helper/diagnostic. Source-direct fallback repaired successful OCR
-  omissions without engine changes or expected-code repairs.
-  Complete indexes cover 22 unnumbered code rows/667 listing bytes, 16 file pairs,
-  eight bit headers/cells, three register-role rows, ten memory boundaries and
-  eleven map fields. Original duplicate address,0011000b,175MHz,9450,ChekeSum and
-  uncertain punctuation/font/filename/dot bands remain source-linked.
-  Native index-projector component accepts the complete indexes without adapter;
-  full assembler now has two real natives;complete assembly remains pending.
-  All 7,642 prior files and 30 core modules unchanged; 213-test baseline reused.
-  Final210 DOS example,keyboard/ANSI controls andconclusion now preserved in81
-  exact files:21 regions,17 settings,two code rows,21 control rows/42cells,seven
-  visible eight-dollar bands and689 typed ranges. Lower promotion excluded;24
-  pre-OCR refinements,17 initial calls,allraws read before one pass,zero retries.
-  All8,798 prior files/30core exact. Next assemble both natives. Preserve unknown glyph/count bands
-  explicitly rather than inferring control syntax. Whole-issue accounting/index/
-  cover/closeout pending; no reader rebuild. Selected0003 requires batch07
-  `listing_adapter_r01.install()`; 0002 requires retained batch04 native adapter.
-  See [August progress](docs/progress/9108.md) and
+- August 1991 is active: nine readable/sample-reviewed articles, no partials,
+  two non-owning headings and 24 unresolved entries. VGA0011 is complete at
+  PDF204–210/printed218–224 in 387 independently exact files, including all 378
+  unchanged native files. Full standard namespaced-v1 two-native assembly passes
+  without adapter; the earlier component-only probe is not its qualification.
+  All 99 pixel crops, 75 blocks, 12 originals, 87 settings (five eng code, 82
+  kor+eng other), 5,161 native article/listing occurrences and 263 global ranges
+  validate. Complete indexes retain 24 physical/logical listing rows/744 bytes,
+  16 file pairs, eight bit fields, three register-role rows, ten memory boundaries,
+  eleven map fields, seven caption associations and two font-example groups.
+  Final210 retains five keyboard, thirteen ANSI and three string-control rows,
+  42 cells, seven visible eight-dollar bands and four uncaptioned originals.
+  Lower subscription promotion is excluded. Source errors, 34 uncertainty records
+  and original metadata stay literal. Four unique stage notes resolve six obsolete
+  active occurrences only. Native batches retain 87 initial recognitions, zero
+  retries/post-OCR repairs and one source pass each after all raw drafts were read.
+  Preserve 37 opening and 24 ending pre-OCR margin-refinement events, one file-table
+  consolidation and all failed helper/verifier attempts. No new assembly OCR.
+  All 9,097 prior files and 30 core modules are unchanged; 213-test baseline reused.
+  Next batch19 verifies child0012's actual extent and restores a bounded opening;
+  reuse retained212/213 renders, with212/226 independent title currently context
+  only. Review actual end, final crops and all raw drafts before correction. Keep
+  complete block/review/listing/physical indexes and explicit source uncertainties.
+  Whole-issue accounting/index/cover/closeout remain pending; no reader rebuild.
+  Selected0003 requires batch07 `listing_adapter_r01.install()`; 0002 requires the
+  retained batch04 native adapter. See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:

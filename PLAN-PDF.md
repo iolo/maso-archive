@@ -31,22 +31,21 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its 35 identities account for eight readable,
-sample-reviewed articles, one partial, two non-owning headings and 24 unresolved
-entries. Batch16 classifies parent0010 as a non-owning group and preserves VGA0011
-opening PDF204–209/printed218–223 in 297 independently exact files. All 78 regions,
-70 settings, 58 blocks, eight originals and 4,472 article/listing ranges validate.
-The three code blocks retain 22 complete physical/listing rows; structured evidence
-covers 16 file pairs, eight bit fields and ten memory boundaries, including the
-printed duplicate. Source values, punctuation/font/filename uncertainty and original
-panels remain literal. All 7,642 prior issue files and 30 core modules are unchanged;
-the 213-test baseline is reused. Final210 is now preserved in81 independently exact files;next assemble both natives.
-Batch17 validates21 final-page crops,17 settings,689 typed ranges,two code rows,
-21 control rows/42cells andseven visible eight-dollar bands. Lower subscription
-promotion excluded;24 pre-OCR crop refinements retained. All8,798 prior files and
-30 core modules unchanged. Whole-issue accounting,index,cover andcloseout remain
-pending. No reader rebuild.
-See [August progress](docs/progress/9108.md) and
+Step 12 is active for August 1991. Its 35 identities account for nine readable,
+sample-reviewed articles, no partial articles, two non-owning headings and 24
+unresolved entries. VGA0011 is complete at PDF204–210/printed218–224 in 387
+independently exact files, including all 378 immutable native files. The full
+standard two-native assembler needs no adapter. All 99 source-pixel crops, 75
+blocks, 12 originals, 87 settings and 5,161 native article/listing range occurrences
+validate; 263 global ranges also pass. Five code blocks retain 24 complete physical
+and logical rows partitioning 744 listing bytes. File/bitfield/memory/control
+structure, seven eight-dollar bands, printed errors and 34 source uncertainty
+records remain intact. Lower210 subscription promotion is excluded. Four unique
+obsolete stage notes resolve six occurrences; original native metadata stays exact.
+All 9,097 prior issue files and 30 core modules are unchanged; the 213-test baseline
+is reused. Next verify child0012's extent and restore its bounded opening; PDF212
+is retained title context. Whole-issue accounting, index, cover and closeout remain
+pending. No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

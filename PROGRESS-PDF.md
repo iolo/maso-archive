@@ -6,15 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: eight readable/sample-reviewed articles, one
-partial, two non-owning headings and 24 unresolved identities. Parent0010 is a
-non-owning group; VGA0011 opening PDF204–209/printed218–223 is preserved in 297
-independently exact files. All 78 crops, 70 settings and 4,472 article/listing ranges
-pass. The 22 complete listing rows, 16 file pairs, eight bit fields and ten memory
-boundaries remain source-linked. All 7,642 prior files and 30 core modules are
-unchanged; 213-test baseline reused. Final210 is preserved in81 exact files;next assemble both natives.
-Whole-issue accounting/index/cover/closeout remain pending. See
-[August progress](docs/progress/9108.md) and
+August 1991 remains in progress: nine readable/sample-reviewed articles, no
+partials, two non-owning headings and 24 unresolved identities. VGA0011 is complete
+at PDF204–210/printed218–224 in 387 independently exact files, including 378
+unchanged native files. All 99 crops, 87 settings, 5,161 native article/listing
+ranges and 263 global ranges pass. Its five code blocks retain 24 physical/logical
+rows covering 744 listing bytes. Lower210 subscription promotion is excluded;
+source errors and glyph uncertainties remain explicit. All 9,097 prior files and
+30 core modules are unchanged; the 213-test baseline is reused. Next verify
+child0012's extent and restore its bounded opening. Whole-issue accounting, index,
+cover and closeout remain pending. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:
