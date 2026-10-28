@@ -31,13 +31,13 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step12 is active for August 1991. Batch01 initializes its 35 canonical identities
-and adopts the completed BASIC column pilot without new OCR or correction. Its
-65-file JSON/assets export is independently exact; all64 retained legacy data
-files, fifteen source crop pixels, fourteen OCR settings and176 historical pins
-validate. One article is readable/sample-reviewed;34 classifications remain
-unresolved. Next review feature0001/child0002 ownership and extent from contents130
-within two tasks/six mapped pages/twenty outside lookups. See
+Step12 is active for August 1991. Its 35 canonical identities currently account for
+two readable/sample-reviewed articles, one partial and 32 unresolved classifications.
+Batch02 restores the complete parent introduction116–117 and first-child opening
+118–121, within two tasks/six mapped pages/sixteen outside lookups. Both exports
+independently match; all 45 source crops, 33 OCR settings and 1,840 typed ranges pass;
+fresh 213 PDF tests pass. Final child pages122–123 and complete assembly remain
+pending. Next restore those two pages, then assemble separately. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
@@ -744,7 +744,7 @@ Native43 completes radar95–96 and lower advertisingindex250 after native42
 commit31355dd. Exact pinned15wholeviews/fullsourceextent were reused;95/96/250
 were actually reinspected before mapping. Two articles/three mapped pages/12
 outside-map lookups.28 regions retain23 blocks/two original images,26 regional
-spans/52 text reviews and32 Unicode candidates. Six ending news reports preserve
+spans/52 text reviews and 32 Unicode candidates. Six ending news reports preserve
 three prose boundaries;30 advertiser entries retain60 cells in two source columns.
 Coverreferences표2/표3/표4 and source spelling/unit/model/price discrepancies remain
 literal candidates. Upper publisher ad250 excluded. All33 original panels/two
@@ -2244,7 +2244,7 @@ they do not impose rendering or reader acceptance on remaining issues.
   intervening continuity. Next219–224,then provisional225–230,231–236,237–239,
   followed by source-preserving assembly. No per-batch browser work.
 - Dictionary continuation219–224/PDF215–220 is restored:71 regions,62 blocks,
-  one original HCOLOR-table image,70 regional ranges,43 review notes and32
+  one original HCOLOR-table image,70 regional ranges,43 review notes and 32
   Unicode spans.57 definition fragments,73 machine labels,eight color rows
   plus header,19 command-guide rows,11 independent examples and three formula
   ranges validate. Eight internal joins and incoming DEFDBL 한/다. join are

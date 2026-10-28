@@ -25,23 +25,107 @@
       "toc_entry_id": "maso-1991-08-toc-0001",
       "title": "특집 : 디지털 영상 처리 기술과 응용",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents4, independent introductory/illustrated spread116–117, prior115 advertisement and independent first-child title/byline118 prove parent0001 owns only116–117. Its three-paragraph introduction and two-item outline are restored. Folios116/117 remain null."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-02-r01/feature-intro",
+        "article_id": "scan-maso-1991-08-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-02-r01/feature-intro/manifest.json",
+          "sha256": "8c791576374ba279b2160bc38bf77adfa01ba17667b7d020f6d2e5b24228fa58",
+          "bytes": 4277
+        },
+        "coverage": {
+          "pdf_pages": [
+            116,
+            117
+          ],
+          "printed_pages": [
+            null,
+            null
+          ],
+          "regions": 6,
+          "blocks": 3,
+          "figures": 2,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-02/validation.json",
+          "sha256": "c82419180de6cf3cdf307dfad571f86ef1148721bc0bc54dc621fc368d4c30b0",
+          "bytes": 2563
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-02/reproduction.json",
+          "sha256": "18791d01495a0419135ffbc54223320cc4421c5947b358276b38baee78031204",
+          "bytes": 31932
+        },
+        "checkpoint": "batch-02"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0002",
       "title": "1. 디지털 영상 처리란?",
       "parent_id": "maso-1991-08-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "First child0002 starts118/printed132 and concludes123/printed137 with closing ornament/reference list. Independent second child begins124/printed138. Current native preserves118–121/printed132–135;122–123 and full assembly remain pending.",
+        "Four source joins retain every text region, including 보/이고 and the paragraph crossing the intervening illustration band. Ten original figures, eight caption links and ten feature criteria are retained. Left-clipped monitor caption and 직절한/적절한 glyph candidates remain explicit; no source bytes inferred."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a",
+        "article_id": "scan-maso-1991-08-toc-0002",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a/manifest.json",
+          "sha256": "c886db32c90c07d34876e2dd4dea345f0d91e7527d836cc74408f88e96140599",
+          "bytes": 22869
+        },
+        "coverage": {
+          "pdf_pages": [
+            118,
+            119,
+            120,
+            121
+          ],
+          "printed_pages": [
+            "132",
+            "133",
+            "134",
+            "135"
+          ],
+          "regions": 39,
+          "blocks": 25,
+          "figures": 10,
+          "deferred_pdf_pages": [
+            122,
+            123
+          ]
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-02/validation.json",
+          "sha256": "c82419180de6cf3cdf307dfad571f86ef1148721bc0bc54dc621fc368d4c30b0",
+          "bytes": 2563
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-02/reproduction.json",
+          "sha256": "18791d01495a0419135ffbc54223320cc4421c5947b358276b38baee78031204",
+          "bytes": 31932
+        },
+        "checkpoint": "batch-02"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0003",
@@ -466,42 +550,74 @@
         "sha256": "70971b1b8781a99cdd57dd68b08c036bb985587eb5f058744ecab31e579adc1d",
         "bytes": 1865
       }
+    },
+    {
+      "name": "1991-08-batch-02",
+      "status": "complete",
+      "completed_at": "2026-10-28T01:57:47.650649+00:00",
+      "goal": "Restore complete parent introduction and bounded first-child opening",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0001",
+        "maso-1991-08-toc-0002"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "outside_lookup_pages": 16,
+      "recognition_invocations": 33,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-02/validation.json",
+        "sha256": "c82419180de6cf3cdf307dfad571f86ef1148721bc0bc54dc621fc368d4c30b0",
+        "bytes": 2563
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-02/reproduction.json",
+        "sha256": "18791d01495a0419135ffbc54223320cc4421c5947b358276b38baee78031204",
+        "bytes": 31932
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 1,
-    "partial": 0,
+    "readable": 2,
+    "partial": 1,
     "group_headings": 0,
-    "unresolved": 34
+    "unresolved": 32
   },
   "notes": [
-    "Full issue goal active;34identities require source ownership/eligibility review. No global folio offset or next-TOC inferred endings.",
+    "Full issue goal active;32 identities require source ownership/eligibility review. First child0002 is partial pending final122–123 and complete assembly. No global folio offset or next-TOC inferred ending.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-02",
-    "goal": "Review feature0001 ownership and locate first child0002 from original contents130; restore at most six pages after extent/crop review.",
+    "name": "1991-08-batch-03",
+    "goal": "Restore final first-child pages122–123/printed136–137,then complete its immutable assembly in a separate checkpoint.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0001",
       "maso-1991-08-toc-0002"
     ],
-    "initial_lookup_candidates": [
-      115,
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122
+    "mapping_targets": [
+      122,
+      123
     ],
+    "known_following_boundary": {
+      "pdf_page": 124,
+      "printed_page": "138",
+      "role": "Independent second child, not restored or classified in batch02"
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Candidates only; derive ownership/start/ending from scans. Parent may own introduction; do not preclassify from hierarchy."
+    "note": "Reuse retained lookup/source evidence; render final123 at3000px before map review. Full issue classification/accounting/cover/export/closeout remain required."
   }
 }
