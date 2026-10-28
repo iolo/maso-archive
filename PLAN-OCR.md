@@ -24,8 +24,14 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - August 1991 is active:35 canonical identities account for five readable,
-  sample-reviewed articles,zero partial,one non-owning heading and29 unresolved
-  classifications. Interview0005 is complete at148–152/printed162–166 in103
+  sample-reviewed articles, one partial, one non-owning heading and 28 unresolved
+  classifications. Child0007's opening154–159/printed168–173 is partial in 218
+  independently exact files; all60 crops,3,495 typed ranges,142 nonblank table
+  cells,two blank slots and77 menu entries pass. Fifty recognitions had no retries;
+  all preflight revisions preceded recognition and one source pass followed raw
+  reading. Next restore intrinsic appendices160–162,excluding lower162 promotion,
+  then assemble separately. Source mark/curved labels remain explicitly uncertain.
+  Interview0005 is complete at148–152/printed162–166 in103
   independently exact files;26 crops,2,965 typed ranges and45 speaker labels pass.
   Parent0006 is non-owning. Two crop-top repairs paused/resumed the same source
   pass;23 initial plus2 changed-input recognitions,21 reused,zero unchanged retries.
@@ -36,8 +42,7 @@ paired OCR or a new engine comparison.
   45 matrix cells and34 numeric table cells remain literal. Its pinned exact-input
   adapter derives complete listing row ranges without changing source/natives/core.
   Use retained batch07 `listing_adapter_r01.install()` before checking/rebuilding
-  this assembly. Both immutable natives remain preserved. Next verify child0007
-  extent from observed154/168 before bounded CompuServe restoration. Whole-issue accounting,
+  this assembly. Both immutable natives remain preserved. Whole-issue accounting,
   cover,index and closeout remain pending;no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

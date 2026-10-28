@@ -32,15 +32,15 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
-five readable/sample-reviewed articles, zero partial, one non-owning heading and
-29 unresolved classifications. Batch08 completes interview0005 at148–152/printed
-162–166 in103 independently exact files and classifies parent0006 as a non-owning
-section label. All26 interview crops,2,965 typed ranges,45 speaker labels and12
-continuations validate;fresh213 tests pass. Two crop repairs paused/resumed the
-same correction pass;23 initial plus2 changed-input recognitions,21 reused and
-zero unchanged retries. All attempts/source errors/uncertainties remain retained.
-Next verify child0007's actual extent from observed154/168 and restore a bounded
-CompuServe article segment. Whole-issue accounting/index/cover/closeout remain.
+five readable/sample-reviewed articles, one partial, one non-owning heading and
+28 unresolved classifications. Batch09 restores child0007's first six pages,
+PDF154–159/printed168–173, in 218 independently exact files. Its 60 source crops,
+3,495 typed ranges, 142 nonblank table cells, two blank slots and 77 menu entries
+validate; fresh 213 tests pass. All 50 recognitions used pinned settings with no
+retries. Source errors, uncertain mark and unread curved illustration labels remain
+explicit. The article's intrinsic appendices continue through upper PDF162;
+lower162 is unrelated promotion. Next restore160–162, then assemble separately.
+Whole-issue accounting, index, cover and closeout remain pending.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
