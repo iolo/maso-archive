@@ -6,13 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress:35 entries account for six readable/sample-reviewed
-articles,zero partial,one non-owning heading and28 unresolved classifications.
-CompuServe0007 is complete at154–162/printed168–176 in286 independently exact files,
-including278 unchanged native files. All76 regions and5,324 typed native/combined
-range contexts validate;the unchanged-core213-test baseline passes. Lower162
-promotion remains excluded. Next locate and restore child0008's EMI article.
-All originals,source errors and uncertainties remain retained. See
+August 1991 restoration is in progress:35 entries account for seven readable,
+sample-reviewed articles,zero partial,one non-owning heading and27 unresolved
+classifications. EMI0008 is complete atPDF180–183/printed194–197 in107 independently
+exact files. All27 crops,24 settings,seven joins and1,699 typed ranges pass;five
+crop faults repaired before OCR,24 initial recognitions,zero retries,one source
+pass. Lower183 advertisement excluded. Original graphic labels/signature remain
+pixels/manual-reading-pending;source errors and claims remain literal. All5,893
+prior issue files and30 core modules unchanged;213-test baseline reused.
+Next restore Mac0009 atPDF172–178 in bounded natives then assemble. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

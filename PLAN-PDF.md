@@ -32,15 +32,17 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
-six readable/sample-reviewed articles, zero partial, one non-owning heading and
-28 unresolved classifications. Batch11 completes CompuServe0007 atPDF154–162/
-printed168–176 in286 independently exact files,retaining all278 native files.
-All76 regions,45 blocks,14 figures and5,324 native/combined range contexts validate.
-The standard assembly needs no adapter;lower162 promotion remains excluded.
-The unchanged-core213-test baseline passes. Source errors,uncertain mark and
-unread illustration labels remain explicit. Next locate child0008's EMI article,
-whose actual location/extent remain unverified,and restore a bounded checkpoint.
-Whole-issue accounting, index, cover and closeout remain pending.
+seven readable/sample-reviewed articles, zero partial, one non-owning heading and
+27 unresolved classifications. Batch12 locates and completes EMI0008 at
+PDF180–183/printed194–197 in107 independently exact JSON/assets files. All27
+regions,17 blocks,three figures,24 settings,seven joins and1,699 typed ranges pass.
+Five crop faults were repaired before OCR;24 initial recognitions,zero retries,
+one source correction pass. Lower183 advertisement is excluded. Original chart
+labels/units/ticks and handwritten signature remain pixels/manual-reading-pending;
+historical claims and source errors remain literal. All5,893 prior issue files
+and30 core modules remain unchanged;the213-test baseline is reused.
+Next restore Mac0009,located atPDF172–178,through bounded natives then assembly.
+Whole-issue accounting,index,cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

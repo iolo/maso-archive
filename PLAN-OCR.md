@@ -23,28 +23,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active:35 canonical identities account for six readable,
-  sample-reviewed articles,zero partial,one non-owning heading and28 unresolved
-  classifications. CompuServe0007 is complete at154–162/printed168–176 in286
-  independently exact files,retaining278 original native files. All76 regions,
-  45 blocks,14 figures and5,324 native/combined typed ranges pass. Its detailed
-  menu retains133 entries across12 categories;the forum list has201 literal names.
-  Lower162 promotion remains excluded. Standard namespaced assembly requires no
-  adapter;source mark/curved labels and all native metadata remain unchanged.
-  Next locate child0008's EMI article before mapping;actual extent is unverified.
-  Interview0005 is complete at148–152/printed162–166 in103
-  independently exact files;26 crops,2,965 typed ranges and45 speaker labels pass.
-  Parent0006 is non-owning. Two crop-top repairs paused/resumed the same source
-  pass;23 initial plus2 changed-input recognitions,21 reused,zero unchanged retries.
-  All attempts and the old Hangul glyph candidate remain source-linked.
-  Second feature0003 is complete atPDF124–135/printed138–149 in571 independently
-  exact JSON/assets files,retaining562 original native files. All154 regions,
-  112 blocks,24 figures and5,897 native/combined typed ranges validate.137 C rows,
-  45 matrix cells and34 numeric table cells remain literal. Its pinned exact-input
-  adapter derives complete listing row ranges without changing source/natives/core.
-  Use retained batch07 `listing_adapter_r01.install()` before checking/rebuilding
-  this assembly. Both immutable natives remain preserved. Whole-issue accounting,
-  cover,index and closeout remain pending;no reader rebuild.
+- August 1991 is active:35 canonical identities account for seven readable,
+  sample-reviewed articles,zero partial,one non-owning heading and27 unresolved
+  classifications. EMI0008 is complete atPDF180–183/printed194–197 in107 independently
+  exact JSON/assets files. All27 regions,17 blocks,three original graphics,24
+  settings,seven joins and1,699 typed ranges validate. Five crop faults repaired
+  before OCR through two retained map revisions;24 initial recognitions,zero
+  retries,all raws read before one source pass. Lower183 advertisement excluded.
+  Graphic-internal chart labels/units/ticks and handwritten signature remain
+  pixels/manual-reading-pending;historical claims/source errors remain literal.
+  All5,893 prior issue files and30 core files unchanged;213-test baseline reused.
+  Next restore Mac0009 atPDF172–178,using six-page opening native,final178 native,
+  then complete assembly. Reuse retained3000px views and inspect every interior
+  page/crop/folio;178 lower recruitment advertisement needs explicit exclusion.
+  Whole-issue accounting,cover,index and closeout remain pending;no reader rebuild.
+  Complete CompuServe0007 uses standard namespaced assembly without adapter.
+  Selected second feature0003 still requires pinned batch07
+  `listing_adapter_r01.install()` before assembly/checking;first feature0002
+  requires its retained batch04 native adapter. Original natives remain unchanged.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

@@ -599,12 +599,70 @@
       "toc_entry_id": "maso-1991-08-toc-0008",
       "title": "EMI에 관심을 갖자",
       "parent_id": "maso-1991-08-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents4 names EMI without individual page reference. Actual independent title,intro and matching byline appear180/printed194,after Mac172–178 and179 advertisement. Canonical TOC/title/order/parent/reference unchanged.",
+        "All four pages180–183/printed194–197 individually inspected and restored.183 final prose/closing ornament precedes unrelated lower-page OMR advertisement;179/184 are full advertisements.",
+        "Twenty-seven original regions,17 blocks,three figures andseven exact continuation boundaries preserve complete prose. Chart caption/source associations retained;chart internal labels/units/ticks and cartoon signature remain original pixels/manual-reading-pending.",
+        "Five crop faults repaired before any OCR through two retained map revisions.24 initial recognitions,all raws read before one source correction pass,zero retries. Historical claims and printed errors remain literal."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-12-r01/emi",
+        "article_id": "scan-maso-1991-08-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-12-r01/emi/manifest.json",
+          "sha256": "b061741d42b9d1218f856b39a65a0d2ff69692de198ded844e278cf4866e400d",
+          "bytes": 18010
+        },
+        "coverage": {
+          "pdf_pages": [
+            180,
+            181,
+            182,
+            183
+          ],
+          "printed_pages": [
+            "194",
+            "195",
+            "196",
+            "197"
+          ],
+          "regions": 27,
+          "blocks": 17,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 180,
+          "end_pdf_page": 183,
+          "previous_pdf_page": 179,
+          "previous_role": "advertisement",
+          "following_pdf_page": 184,
+          "following_role": "advertisement"
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-12/validation.json",
+          "sha256": "c30ffb25f82ef795fe037fda5fb1d2204ec6709db3298d25f994cd95309bce6e",
+          "bytes": 1661
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-12/reproduction.json",
+          "sha256": "1b125c02a65d4ba6e880368d1bf964baa4fd729277bfb429b2d81fc9c5cd1516",
+          "bytes": 18714
+        },
+        "source_location_review": {
+          "path": "archive/pdf/1991-08/restoration/batch-12/source-location-review.json",
+          "sha256": "c03306392b540616933387470a6feef1999ba3ad8aa8d7a9d952f6a68fb1c357",
+          "bytes": 11183
+        },
+        "checkpoint": "batch-12"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0009",
@@ -615,7 +673,20 @@
       "availability": "unresolved",
       "verification": "unreviewed",
       "classification_evidence": [],
-      "restoration": null
+      "restoration": null,
+      "source_location_observation": {
+        "record": {
+          "path": "archive/pdf/1991-08/restoration/batch-12/source-location-review.json",
+          "sha256": "c03306392b540616933387470a6feef1999ba3ad8aa8d7a9d952f6a68fb1c357",
+          "bytes": 11183
+        },
+        "start_pdf_page": 172,
+        "end_pdf_page": 178,
+        "opening_printed_page": "186",
+        "ending_visible_folio": null,
+        "body_restoration_performed": false,
+        "note": "Independent opening172 and conclusion/closing ornament178 above recruitment advertisement;171/179 full advertisements. Interior prose/crop/source folio verification remains for bounded restoration. Canonical classification/availability unresolved until restoration checkpoint;no pages owned yet."
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0010",
@@ -1191,44 +1262,82 @@
         "sha256": "b04a8a8c8162c4b60c6492d76c33e172697237637a972554c620b679a5855608",
         "bytes": 52668
       }
+    },
+    {
+      "name": "1991-08-batch-12",
+      "status": "complete",
+      "completed_at": "2026-10-28T07:00:12.267327+00:00",
+      "goal": "Restore independently located four-page EMI0008 and preserve Mac0009 boundary/location evidence",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0008",
+        "maso-1991-08-toc-0009"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 20,
+      "initial_recognitions": 24,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_refinements": 5,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-12/validation.json",
+        "sha256": "c30ffb25f82ef795fe037fda5fb1d2204ec6709db3298d25f994cd95309bce6e",
+        "bytes": 1661
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-12/reproduction.json",
+        "sha256": "1b125c02a65d4ba6e880368d1bf964baa4fd729277bfb429b2d81fc9c5cd1516",
+        "bytes": 18714
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
     "group_headings": 1,
-    "unresolved": 28
+    "unresolved": 27
   },
   "notes": [
-    "Full issue goal active:28 identities still require source ownership/eligibility review. CompuServe0007 complete154–162,including intrinsic appendices;lower162 promotion excluded. No pending bodies/assemblies among selected readable articles. No global folio offset.",
+    "Full issue goal active:27 identities still require source ownership/eligibility review. EMI0008 complete180–183/printed194–197. Mac0009 located172–178,not restored. No pending bodies/assemblies among selected readable articles. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-12",
-    "goal": "Locate canonical child0008 EMI article,verify actual extent/adjacency,and restore bounded body pages.",
+    "name": "1991-08-batch-13",
+    "goal": "Restore bounded Mac0009 opening/body172–177 after individual full-page and crop/folio/continuation review;ending178 requires separate native then assembly.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0008"
+      "maso-1991-08-toc-0009"
     ],
-    "mapping_targets": [],
-    "lookup_candidates": [
-      165,
-      166,
-      167,
-      168,
-      169,
-      170,
-      171,
+    "mapping_targets": [
       172,
       173,
-      174
+      174,
+      175,
+      176,
+      177
+    ],
+    "known_source_extent": {
+      "start_pdf_page": 172,
+      "end_pdf_page": 178,
+      "opening_printed_page": "186",
+      "ending_visible_folio": null,
+      "source_location_evidence": {
+        "path": "archive/pdf/1991-08/restoration/batch-12/source-location-review.json",
+        "sha256": "c03306392b540616933387470a6feef1999ba3ad8aa8d7a9d952f6a68fb1c357",
+        "bytes": 11183
+      }
+    },
+    "outside_lookup_candidates": [
+      171,
+      178,
+      179
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Canonical EMI entry has no printed-page reference. Search candidates after reviewed163/164 advertisements;actual EMI location/extent remain unverified. Do not infer a global offset or endpoint from following Mac TOC reference186. Preserve actual title/byline and every source diagram/table/code field;source/crop review before pinned OCR,one source pass,all attempts retained."
+    "note": "Reuse retained3000px source views;do not rerun EMI OCR. Check every Mac interior page before mapping. Seven-page article must remain partial until final178 native and complete assembly.178 lower recruitment advertisement requires explicit exclusion. Preserve source spelling,claims,figures/captions and any tables/code literally. No reader rebuild."
   }
 }
