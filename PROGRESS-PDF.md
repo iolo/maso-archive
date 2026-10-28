@@ -6,18 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: fifteen readable/sample-reviewed articles, no
-partial articles, three non-owning headings and 17 unresolved identities. FoxView0018
-is complete at PDF270–279/printed284–293 in `packages/foxview-complete-r01`.
-All 532 files match its independent export; 523 native files remain unchanged.
-All 12,211 original typed occurrences validate in native/projected article/listing
-contexts, and 2,336 combined published ranges pass. The assembly retains 518 physical
-code rows, all source panels/tables/markers, and the explicit lower279 exclusion.
-A pinned batch35 boundary adapter adds only the source-validated prose link and
-provenance after full standard projection; native metadata stays source-local.
-All 21,145 prior files and 30 core modules exact; 213-test baseline reused.
-Next locate and restore child0019 within the batch limits. Whole-issue accounting,
-index, cover and closeout pending. No reader rebuild.
+August 1991 remains in progress: sixteen readable/sample-reviewed articles, no
+partials, three non-owning headings and 16 unresolved identities. Child0019 is
+complete at PDF284–287/printed298–301, with lower287 recruitment ad excluded.
+Its 220 files match the independent export; 58 source-pixel crops, 51 pinned settings
+and 2,975 typed ranges validate. It retains 42 physical code rows, the complete
+three-section table, thirteen annotation links and all original panels/graphics.
+Source code errors, values and claims remain literal. All 21,714 prior files and
+30 core modules exact; 213-test baseline reused. No body pages or0019 assembly pending.
+Next verify HIMEM.SYS0020 extent from retained288 opening and restore a bounded
+opening. Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

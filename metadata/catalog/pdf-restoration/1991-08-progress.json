@@ -1761,12 +1761,71 @@
       "toc_entry_id": "maso-1991-08-toc-0019",
       "title": "연산처리 한계의 벽을 넘어서",
       "parent_id": "maso-1991-08-toc-0016",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 title 연산처리 한계의 벽을 넘어서 and author지만진 match independent openingPDF284/printed298 title/byline글.지만진. Subtitle폭스를 이용한 복수의 데이타베이스 관리 및 연산처리 기법 andeditorialstandfirstcredit remain sourcecontent;parent활용 unchanged/non-owning. No individualTOCpage reference or globalfoliooffset inferred.",
+        "Complete actualextentPDF284–287/printed298–301. Previous283 full advertisement;287 upperconclusion/terminalmark beforeindependentlowerrecruitmentadvertisement;288 startsindependentHIMEM.SYS article. Allfourfullbodypages andadjacentcontexts reviewed. No bodypages orassembly pending.",
+        "220-file native matches independentexport. All58 exactsource-pixelcrops,44blocks,sevenoriginals,51pinnedsettings (6engcode/45kor+eng) and2975typedoccurrences (2617article/358listing) validate. Fiveexamples/listings acrosssixcodeblocks retain42completeunnumberedphysical/logicalrows partitioning1021listingbytes. Fourprosejoins/sevenboundaries andoneList1two-partcodecontinuity preservephysicalrows.",
+        "Three-sectionoriginaltable retains111fields/30rows,includingthreefiletitlecells,twelveheaders and24datarows/96fields. Thirteenannotation/codeanchorlinks,twocircledcallouts,tenworkflowsteps,fourcaptionlinks andterminalornament retained. Originalarrows/braces/underlines/dottedleaders remainpixels withunknownglyph/count/bytes. Annotationtext separatefromcode;quotedprogramwords maylegitimatelyrepeat annotationwords.",
+        "All69uncertainties/19opaquevariants preserveOEF(),GODDS1versusGOODS1,GAY,MSUMMfontcandidate,ALLIAS,UPTAE,Dec header,Unicodearrowoperators,0.8versusprose8%,comma-formattednumbers andhistorical/technicalclaims without semantic/syntax/mathrepair orexecution. All58finalcrops reviewedbefore51recognitions after27preOCRrefinements;all51raws beforeone sourcepass. Zero retries/post-OCRrepairs. All21714priorfiles and30coremodules exact;213-testbaseline reused. Initialverifier overlybroadword-absenceassertion correctedinfreshrevision;source/packages unchanged."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-36-r01/arithmetic",
+        "article_id": "scan-maso-1991-08-toc-0019",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-36-r01/arithmetic/manifest.json",
+          "sha256": "10b1c6d29ebe15c305052b10bc184f193467089ab297e9466f100426b58b2baf",
+          "bytes": 38303
+        },
+        "source_body_title": "연산처리 한계의 벽을 넘어서",
+        "coverage": {
+          "pdf_pages": [
+            284,
+            285,
+            286,
+            287
+          ],
+          "printed_pages": [
+            "298",
+            "299",
+            "300",
+            "301"
+          ],
+          "regions": 58,
+          "blocks": 44,
+          "figures": 7,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 284,
+          "end_pdf_page": 287,
+          "previous_pdf_page": 283,
+          "previous_role": "advertisement",
+          "following_pdf_page": 288,
+          "following_role": "independent HIMEM.SYS article",
+          "ending_printed_page": "301",
+          "ending_lower_advertisement": "Independent recruitment advertisement explicitly excluded;upper conclusion/terminalmark and301folio retained."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-36/validation.json",
+          "sha256": "21bd8556f59eb879cf3bf331511a0d2258933cb9ad3cf876dda2127fa0fcee19",
+          "bytes": 2415
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-36/reproduction.json",
+          "sha256": "5a158689bc59b31e69db98ef2f06110c82b4af3cd7102c888f6adf63e479bf2a",
+          "bytes": 39028
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-36"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0020",
@@ -2889,38 +2948,60 @@
         "sha256": "f3786647db92e867b10206c713398a877e7c94c22d096271741d22633f6427d7",
         "bytes": 99352
       }
+    },
+    {
+      "name": "1991-08-batch-36",
+      "status": "complete",
+      "completed_at": "2026-10-28T16:59:45.568901+00:00",
+      "goal": "Verify andrestore complete child0019 atPDF284–287",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0019"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 6,
+      "initial_recognitions": 51,
+      "eng_code_regions": 6,
+      "kor_eng_regions": 45,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 27,
+      "post_ocr_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-36/validation.json",
+        "sha256": "21bd8556f59eb879cf3bf331511a0d2258933cb9ad3cf876dda2127fa0fcee19",
+        "bytes": 2415
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-36/reproduction.json",
+        "sha256": "5a158689bc59b31e69db98ef2f06110c82b4af3cd7102c888f6adf63e479bf2a",
+        "bytes": 39028
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 15,
+    "readable": 16,
     "partial": 0,
     "group_headings": 3,
-    "unresolved": 17
+    "unresolved": 16
   },
   "notes": [
-    "Full August issue goal active:17 identities still require ownership/eligibility review. FoxView0018 complete atPDF270–279/printed284–293;all selected readable articles have no pending body pages orassemblies. No global folio offset.",
+    "Full August issue goal active:16 identities still require ownership/eligibility review. Child0019 complete atPDF284–287/printed298–301;allselectedreadablearticles have no pendingbodypages orassemblies. No globalfoliooffset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-36",
-    "goal": "Verify child0019 actual source extent and restore a bounded opening under the mapped Tesseract policy.",
+    "name": "1991-08-batch-37",
+    "goal": "Verify child0020 HIMEM.SYS actual extent from retained opening288,thenrestore boundedopening.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0019"
+      "maso-1991-08-toc-0020"
     ],
-    "canonical_title": "연산처리 한계의 벽을 넘어서",
-    "canonical_byline_candidate": "지만진",
+    "canonical_title": "확장 메모리의 활용(6) : HIMEM.SYS의 활용",
+    "canonical_byline_candidate": "박현철",
     "mapping_targets": [],
     "lookup_candidates": [
       5,
-      280,
-      281,
-      282,
-      283,
-      284,
-      285,
-      286,
       287,
       288,
       289,
@@ -2932,18 +3013,28 @@
       295,
       296,
       297,
-      298
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305
     ],
-    "retained_context": {
-      "pdf_page": 280,
-      "role": "Full advertisement after FoxView;not assigned to0019.",
-      "source_render": "archive/pdf/1991-08/restoration/batch-33/source-review/pdf-280.png"
+    "retained_opening_context": {
+      "pdf_page": 288,
+      "printed_page": "302",
+      "source_render": "archive/pdf/1991-08/restoration/batch-36/source-review/pdf-288.png",
+      "source_body_title": "HIMEM.SYS의 활용",
+      "observed_byline": "글. 박현철 ((주)DIS 연구원)",
+      "note": "Independenttitle/byline observedasoutsidecontext only;extent/end andbodyownership notyet assigned."
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. No individual contents page reference for0019. Reuse original contents5 and retained280 context;lookup281–298 are hypotheses,not assigned body pages. Verify title/byline,actual start/end,folios,continuations andadjacentmaterial beforemapping atmostsixpages. Preserve original tables/code/listings/physicalwraps/glyphs/captions andclaims without semantic/syntax/mathrepair. Every finalcrop before pinned mapped Tesseract;allraws beforeone sourcepass. Keep everynative/helper/evidence revision. Selected0018 requires batch35 boundary_adapter.install() forassembly/checking;0003 requires batch07 listingadapter;0002 batch04 adapter. Whole-issue accounting/index/cover/closeout pending;no reader rebuild."
+    "note": "Read PLAN-OCR. Reuse contents5 and287–288 context;289–305 are unassignedlookuphypotheses. Verify actualtitle/byline/folios/continuations/end andadjacentmaterial beforemapping atmostsixpages. Preserve sourceassembly/listings/registers/bytes/labels/tables/errors/glyphs/physicalwraps without opcode/syntax/math/semanticrepair orexecution. Every finalcrop before pinnedmappedTesseract;allraws beforeone sourcepass. Retain allsource/native/helper revisions. Selected0018requires batch35 boundary_adapter.install();0003 batch07 listingadapter;0002 batch04 adapter. Wholeissueaccounting/index/cover/closeout pending;no reader rebuild."
   }
 }

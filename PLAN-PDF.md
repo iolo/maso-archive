@@ -31,28 +31,28 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: fifteen readable/sample-reviewed articles, no partial
-articles, three non-owning headings and 17 unresolved identities out of 35.
-FoxView0018 is complete at `packages/foxview-complete-r01`, covering actual
-PDF270–279/printed284–293. All 532 files match the independent export, including
-523 unchanged native files. All 12,211 original typed occurrences validate in native
-and independently projected article/listing contexts; 2,336 published combined
-ranges pass. The assembly retains 139 exact source-pixel crops, 110 blocks,
-17 originals, 122 pinned settings, 32 code blocks and 518 complete physical/logical
-listing rows/14,276 bytes. Nineteen signatures, nine listings, five tables, fourteen
-caption links, eleven unknown band markers and three function stubs remain explicit.
-Lower279 promotion is excluded; printed293 folio stays literal. All source errors,
-physical wraps, values and uncertainties remain active without syntax/semantic repair
-or execution. The formal275 반드시 +276 생각해 space-separated prose link preserves
-native bytes. A pinned batch35 boundary adapter validates the frozen custom incoming/
-outgoing metadata and adds only that formal link and provenance after full standard
-actual two-native projection. Eight invalid mutations were rejected; all original
-metadata remains source-local. Use `boundary_adapter.install()` from batch35 before
-checking/rebuilding this assembly. All 21,145 prior files and 30 core modules exact;
-213-test baseline reused. No new mapping, rendering, OCR or source correction.
-Next verify the actual source extent of0019, 연산처리 한계의 벽을 넘어서, and restore
-its bounded opening. Whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild.
+Step 12 remains active: sixteen readable/sample-reviewed articles, no partial
+articles, three non-owning headings and 16 unresolved identities out of 35.
+Child0019, 연산처리 한계의 벽을 넘어서, is complete at actual PDF284–287/printed298–301.
+Its title and byline지만진 match original contents5. The lower287 recruitment ad is
+explicitly excluded; the upper conclusion, terminal mark and printed301 folio remain.
+All 220 files match the independent export. All 58 exact source-pixel crops,
+51 pinned settings (6 eng code/45 kor+eng) and 2,975 typed article/listing ranges
+validate. The native retains 44 blocks, seven originals, six code blocks and 42
+complete physical/logical listing rows/1,021 bytes across five examples/listings.
+The three-section database table retains 111 fields/30 rows, including 96 data
+fields, twelve headers and three title cells. Thirteen separate annotation/code
+links, two circled callouts, ten workflow steps, four captions and four prose joins/
+seven boundaries remain explicit. All source arrows, braces, underlines and dotted
+leaders retain original pixels with unknown glyph/count/bytes. Printed OEF(),
+GODDS1 versus GOODS1, GAY, MSUMM, ALLIAS, UPTAE, Dec and code0.8 versus prose8% remain
+literal without syntax/semantic/math repair or execution. All 69 uncertainties and
+19 opaque variants remain active. All 21,714 prior files and 30 core modules exact;
+213-test baseline reused. All final crops before 51 initial recognitions after
+27 pre-OCR refinements; all raws before one source pass. Zero retries/post-OCR repairs.
+No body pages or0019 assembly remain pending. Next verify HIMEM.SYS0020 extent from
+retained opening288/302 and restore its bounded opening. Whole-issue accounting,
+index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

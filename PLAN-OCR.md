@@ -23,35 +23,36 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: fifteen readable/sample-reviewed articles, no partial
-  articles, three non-owning headings and 17 unresolved identities. FoxView0018 is
-  complete at PDF270–279/printed284–293 in `packages/foxview-complete-r01`.
-  All 532 files match its independent export, including 523 unchanged native files.
-  All 12,211 original typed occurrences validate in native and independently projected
-  article/listing contexts; 2,336 published combined ranges pass. Retains 139 exact
-  source-pixel crops, 110 blocks, 17 originals, 122 settings (32 eng code/90 kor+eng),
-  32 code blocks and 518 complete physical/logical rows/14,276 listing bytes. Nineteen
-  signatures/nine listings, five tables, fourteen captions, eleven unknown band markers,
-  three function stubs, all physical wraps and source errors remain explicit. Lower279
-  promotion excluded; printed293 folio literal. No new OCR or correction for assembly.
-  All 21,145 prior files and 30 core modules exact; 213-test baseline reused.
+- August 1991 remains active: sixteen readable/sample-reviewed articles, no partials,
+  three non-owning headings and 16 unresolved identities. Child0019 is complete at
+  PDF284–287/printed298–301 in `packages/batch-36-r01/arithmetic`. Title/byline지만진
+  match contents5; lower287 recruitment ad excluded, printed301 folio retained.
+  All 220 files match the independent export. All 58 exact source-pixel crops,
+  51 settings (6 eng code/45 kor+eng) and 2,975 typed ranges (2,617 article/358 listing)
+  validate. Retains 44 blocks, seven originals, six code blocks, five example/listing
+  groups and 42 complete physical/logical rows/1,021 bytes. Three table sections retain
+  111 fields/30 rows: 96 data fields, twelve headers, three file-title cells. Thirteen
+  separate annotation/code links, two circled callouts, ten workflow steps, four
+  captions and four prose joins/seven boundaries remain explicit. Original arrows,
+  braces, underlines and dotted leaders retain unknown glyph/count/bytes. All 69
+  uncertainties/19 opaque variants preserve OEF(), GODDS1/GOODS1, GAY, MSUMM, ALLIAS,
+  UPTAE, Dec and code0.8 versus prose8% without syntax/semantic/math repair or execution.
+  All 58 final crops before 51 recognitions after 27 pre-OCR refinements; all 51 raws
+  before one source pass. Zero retries/post-OCR repairs. All 21,714 prior files and
+  30 core modules exact; 213-test baseline reused. Initial verifier's blanket word-
+  absence check was corrected to exact annotation block/range context; shared words
+  in quoted code strings remain. Original failed verifier/log retained; source unchanged.
 
-  Frozen FoxView natives use custom incoming/outgoing prose fields. The pinned batch35
-  `boundary_adapter.install()` validates both records, pins, source ranges/scans,
-  suffix/prefix and adjacent pages, then adds only formal275 반드시 +276 생각해 link
-  with space separator/text_normalizedfalse and adapter provenance after full standard
-  actual two-native projection. All original metadata remains unchanged/source-local.
-  Eight invalid mutations rejected. This supersedes the earlier no-adapter assumption.
-  Install that adapter before checking or rebuilding selected0018. Selected0003 still
-  requires batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
-
-  Next batch36 verifies actual source extent of child0019, 연산처리 한계의 벽을 넘어서,
-  canonical byline candidate지만진, with no individual contents page reference. Reuse
-  original contents5 and retained280 advertisement; candidates281–298 are unassigned
-  lookup hypotheses. Verify actual title/byline, start/end, folios and adjacent material
-  before mapping at most six pages. Preserve source tables/code/physical wraps/glyphs,
-  captions and literal claims. Every final crop before pinned mapped Tesseract; all
-  raws before one source pass. Two-task/six-mapped-page/twenty-outside-page limits apply.
+  Next batch37 verifies child0020, 확장 메모리의 활용(6) : HIMEM.SYS의 활용, from retained
+  PDF288/302 title/byline박현철((주)DIS연구원). Opening is context only; extent/end and
+  body ownership remain unassigned. Reuse contents5 and287–288 views;289–305 are lookup
+  hypotheses. Verify actual title, byline, folios, continuation, ending and neighbors
+  before mapping at most six pages. Preserve assembly/listing rows, registers, bytes,
+  labels, tables, source errors and physical wraps without opcode/syntax/math/semantic
+  repair or execution. Every final crop before pinned mapped Tesseract; all raws before
+  one source pass. Two-task/six-mapped-page/twenty-outside-page limits apply.
+  Selected0018 requires batch35 `boundary_adapter.install()` for assembly/checking;
+  0003 requires batch07 `listing_adapter_r01.install()`; 0002 batch04 native adapter.
   Whole-issue accounting/index/cover/closeout pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
