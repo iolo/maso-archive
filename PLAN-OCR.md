@@ -23,33 +23,36 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: fourteen readable/sample-reviewed articles, one partial,
-  three non-owning headings and 17 unresolved identities. FoxView0018 all270–279/
-  printed284–293 pages are now preserved across 523 immutable native files. The new
-  final276–279 native matches its independent export: 168 files, 45 exact source-pixel
-  crops, 38 settings (8 eng code/30 kor+eng) and 5,054 typed article/listing occurrences.
-  It retains 35 blocks, seven originals, five listings/eight code panels and 253 complete
-  physical/logical reading rows/7,385 bytes. Four-panel List9 continues through upper279;
-  lower279 promotion is excluded while folio293 stays literal. Two prose joins/three
-  boundaries, six bullets, five captions, three function stubs and closing ornament
-  remain explicit. Ten dotted-band markers retain unknown glyph/count/bytes and stay
-  outside source-derived indexes. All 120 uncertainties and 26 opaque variants retain
-  literal code, spelling, values and claims without syntax/semantic repair or execution.
-  All 45 final crops reviewed before 38 recognitions after 16 margin refinements;
-  all 38 raws read before one source pass. Zero retries or post-OCR crop repairs.
-  All 20,610 prior files, 355 opening files and 30 core modules exact; 213-test baseline
-  reused. Both failed initial mapping helper and corrected schema revision retained.
+- August 1991 remains active: fifteen readable/sample-reviewed articles, no partial
+  articles, three non-owning headings and 17 unresolved identities. FoxView0018 is
+  complete at PDF270–279/printed284–293 in `packages/foxview-complete-r01`.
+  All 532 files match its independent export, including 523 unchanged native files.
+  All 12,211 original typed occurrences validate in native and independently projected
+  article/listing contexts; 2,336 published combined ranges pass. Retains 139 exact
+  source-pixel crops, 110 blocks, 17 originals, 122 settings (32 eng code/90 kor+eng),
+  32 code blocks and 518 complete physical/logical rows/14,276 listing bytes. Nineteen
+  signatures/nine listings, five tables, fourteen captions, eleven unknown band markers,
+  three function stubs, all physical wraps and source errors remain explicit. Lower279
+  promotion excluded; printed293 folio literal. No new OCR or correction for assembly.
+  All 21,145 prior files and 30 core modules exact; 213-test baseline reused.
 
-  Next batch35 qualifies complete actual two-native assembly and independently audits
-  every original typed occurrence in native and projected article.txt/listing.txt.
-  Use standard namespaced-v1 on both natives; one-native projection is not qualification.
-  Preserve all 523 native files and source-local additional metadata, eleven total
-  unknown band markers, all source code/table/key fields and List9 panel order. Formal
-  275 반드시 +276 생각해 paragraph join uses a space separator without changing native
-  block bytes; no physical code row crosses that boundary. Resolve only exact obsolete
-  stage notes and keep source uncertainties active. No new OCR/correction or reader
-  rebuild. Whole-issue accounting/index/cover/closeout pending. Selected0003 requires
-  batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
+  Frozen FoxView natives use custom incoming/outgoing prose fields. The pinned batch35
+  `boundary_adapter.install()` validates both records, pins, source ranges/scans,
+  suffix/prefix and adjacent pages, then adds only formal275 반드시 +276 생각해 link
+  with space separator/text_normalizedfalse and adapter provenance after full standard
+  actual two-native projection. All original metadata remains unchanged/source-local.
+  Eight invalid mutations rejected. This supersedes the earlier no-adapter assumption.
+  Install that adapter before checking or rebuilding selected0018. Selected0003 still
+  requires batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
+
+  Next batch36 verifies actual source extent of child0019, 연산처리 한계의 벽을 넘어서,
+  canonical byline candidate지만진, with no individual contents page reference. Reuse
+  original contents5 and retained280 advertisement; candidates281–298 are unassigned
+  lookup hypotheses. Verify actual title/byline, start/end, folios and adjacent material
+  before mapping at most six pages. Preserve source tables/code/physical wraps/glyphs,
+  captions and literal claims. Every final crop before pinned mapped Tesseract; all
+  raws before one source pass. Two-task/six-mapped-page/twenty-outside-page limits apply.
+  Whole-issue accounting/index/cover/closeout pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

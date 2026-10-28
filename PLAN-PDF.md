@@ -31,27 +31,28 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: fourteen readable/sample-reviewed articles, one partial,
-three non-owning headings and 17 unresolved identities out of 35. FoxView0018 now has
-all PDF270–279/printed284–293 preserved across two immutable natives (523 files).
-The new final276–279 native contains 168 files matching its independent export.
-All 45 exact source-pixel crops, 38 pinned settings (8 eng code/30 kor+eng) and
-5,054 typed article/listing occurrences validate. It retains 35 blocks, seven
-originals, five listings across eight code panels and 253 complete physical/logical
-reading rows partitioning 7,385 listing bytes. List9 continues across four panels
-through upper279; lower279 promotion is explicitly excluded and folio293 retained.
-Two prose joins/three boundaries, six bullets, five captions, three List8 function
-stubs and the closing ornament remain explicit. Ten dotted-band markers preserve
-unknown source glyph/count/bytes; their interiors stay outside source-derived indexes.
-All 120 uncertainties and 26 opaque variants preserve printed code, values and claims
-without syntax/semantic repair or execution. All 20,610 prior files, 355 opening
-files and 30 core modules remain exact; the 213-test baseline is reused. All final
-crops preceded 38 initial recognitions, and all raws preceded one source pass;
-16 pre-OCR margin refinements, zero retries or post-OCR crop repairs.
-Next qualify the complete actual two-native assembly and independently audit every
-original typed range in native and projected article/listing contexts. The formal
-275 반드시 +276 생각해 join uses a space; no physical code row crosses that boundary.
-Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+Step 12 remains active: fifteen readable/sample-reviewed articles, no partial
+articles, three non-owning headings and 17 unresolved identities out of 35.
+FoxView0018 is complete at `packages/foxview-complete-r01`, covering actual
+PDF270–279/printed284–293. All 532 files match the independent export, including
+523 unchanged native files. All 12,211 original typed occurrences validate in native
+and independently projected article/listing contexts; 2,336 published combined
+ranges pass. The assembly retains 139 exact source-pixel crops, 110 blocks,
+17 originals, 122 pinned settings, 32 code blocks and 518 complete physical/logical
+listing rows/14,276 bytes. Nineteen signatures, nine listings, five tables, fourteen
+caption links, eleven unknown band markers and three function stubs remain explicit.
+Lower279 promotion is excluded; printed293 folio stays literal. All source errors,
+physical wraps, values and uncertainties remain active without syntax/semantic repair
+or execution. The formal275 반드시 +276 생각해 space-separated prose link preserves
+native bytes. A pinned batch35 boundary adapter validates the frozen custom incoming/
+outgoing metadata and adds only that formal link and provenance after full standard
+actual two-native projection. Eight invalid mutations were rejected; all original
+metadata remains source-local. Use `boundary_adapter.install()` from batch35 before
+checking/rebuilding this assembly. All 21,145 prior files and 30 core modules exact;
+213-test baseline reused. No new mapping, rendering, OCR or source correction.
+Next verify the actual source extent of0019, 연산처리 한계의 벽을 넘어서, and restore
+its bounded opening. Whole-issue accounting, index, cover and closeout remain pending.
+No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

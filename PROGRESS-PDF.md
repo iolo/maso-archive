@@ -6,16 +6,18 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: fourteen readable/sample-reviewed articles, one
-partial, three non-owning headings and 17 unresolved identities. FoxView0018 now has
-all270–279/printed284–293 preserved across two immutable natives (523 files).
-The ending native matches its independent export: 168 files, 45 exact crops,
-38 pinned settings and 5,054 typed article/listing ranges. It retains 253 physical
-code rows, four-panel List9 continuity, ten unknown dotted-band markers and three
-function stubs. Lower279 promotion is excluded; printed293 folio remains literal.
-All 20,610 prior files and 30 core modules exact; 213-test baseline reused.
-Next complete the actual two-native assembly and exhaustive native/projected range
-audit. Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
+August 1991 remains in progress: fifteen readable/sample-reviewed articles, no
+partial articles, three non-owning headings and 17 unresolved identities. FoxView0018
+is complete at PDF270–279/printed284–293 in `packages/foxview-complete-r01`.
+All 532 files match its independent export; 523 native files remain unchanged.
+All 12,211 original typed occurrences validate in native/projected article/listing
+contexts, and 2,336 combined published ranges pass. The assembly retains 518 physical
+code rows, all source panels/tables/markers, and the explicit lower279 exclusion.
+A pinned batch35 boundary adapter adds only the source-validated prose link and
+provenance after full standard projection; native metadata stays source-local.
+All 21,145 prior files and 30 core modules exact; 213-test baseline reused.
+Next locate and restore child0019 within the batch limits. Whole-issue accounting,
+index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
