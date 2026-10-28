@@ -23,22 +23,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active:seven readable/sample-reviewed articles,one partial,
-  one non-owning heading and26 unresolved entries. Mac0009 all172–178 body pages
-  are preserved across196-file opening and40-file ending natives;complete assembly
-  is next. Final178 retains fourth dream/response andconclusion in eight regions,
-  seven blocks,one join and376 exact ranges. Lower recruitment advertisement excluded;
-  no visible folio,printed_page null. Eight initial recognitions,zero retries,one pass.
-  Opening has46 initial plusone changed-crop recognition before source correction;
-  45 unchanged results reused. Its indent-fault timing exception remains explicit.
-  All7,243 prior files and30 core modules unchanged;213-test baseline reused.
-  Assemble using standard namespaced-v1,retaining all236 native files,54 selected
-  settings,four dream-response pairs andall original scope/accuracy notes. Resolve
-  only obsolete active body/assembly deferrals. No midword join at177/178.
-  Original photo-internal markings remain pixels;source errors/claims andglyph
-  approximations retained. Whole-issue cover/index/accounting/closeout pending;
-  no reader rebuild. Selected0003 requires batch07 `listing_adapter_r01.install()`;
-  0002 requires retained batch04 native adapter. See
+- August 1991 is active: eight readable/sample-reviewed articles, zero partial,
+  one non-owning heading and 26 unresolved entries. Mac0009 is complete at PDF172–178
+  in 244 independently exact files, retaining all 236 native files. All 58 regions,
+  44 blocks, four photos/captions, 54 settings, four dream/response pairs and 3,991
+  native/combined typed occurrences pass; 98 global ranges validate. Standard
+  namespaced assembly needs no adapter or cross-native midword join. Lower178
+  recruitment advertisement remains excluded; its folio stays null.
+  Opening had 46 initial plus one changed-crop recognition before source correction,
+  with 45 unchanged results reused. Ending had eight initial recognitions. Both
+  retain one source pass each; all attempts and indent-fault timing remain explicit.
+  Two unique exact stage-note resolutions remove four obsolete active occurrences;
+  original metadata, graphic/typography limits, predictions and claims remain intact.
+  All 7,375 prior files and 30 core modules are unchanged; 213-test baseline reused.
+  Next verify parent0010 and locate first VGA child0011. Source location/extent
+  remain unverified; do not infer an offset or parent classification. Keep later
+  code natives' whole-block and complete listing-row indexes for assembly.
+  Whole-issue cover/index/accounting/closeout pending; no reader rebuild.
+  Selected0003 requires batch07 `listing_adapter_r01.install()`; 0002 requires
+  retained batch04 native adapter. See
   [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

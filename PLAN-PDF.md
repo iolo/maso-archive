@@ -31,16 +31,18 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its35 identities account for seven readable,
-sample-reviewed articles,one partial,one non-owning heading and26 unresolved entries.
-Mac0009 allPDF172–178 body pages are now preserved across immutable196-file opening
-and40-file ending natives. Batch14 final178 retains eight regions,seven blocks,
-fourth dream/response,one join and376 exact typed ranges. Lower recruitment
-advertisement excluded;no visible folio,printed_page null. Eight initial recognitions,
-zero retries,one source pass. All7,243 prior files and30 core modules unchanged;
-213-test baseline reused. Next assemble the complete article withall236 native files,
-original metadata and54 settings. Whole-issue accounting,index,cover andcloseout
-remain pending. No reader rebuild. See [August progress](docs/progress/9108.md) and
+Step 12 is active for August 1991. Its 35 identities account for eight readable,
+sample-reviewed articles, zero partial, one non-owning heading and 26 unresolved
+entries. Batch15 completes Mac0009 at PDF172–178 in 244 independently exact files,
+including all 236 unchanged native files. All 58 regions, 44 blocks, four photos,
+54 settings, four dream/response pairs and 3,991 native/combined range contexts pass;
+98 projected global ranges validate. Lower178 recruitment advertisement is excluded;
+its folio remains null. Standard assembly requires no adapter. Original source
+claims, typography/graphic limits and crop-repair timing remain explicit.
+All 7,375 prior issue files and 30 core modules are unchanged; the 213-test baseline
+is reused. Next verify parent0010 and locate its first VGA child0011 before bounded
+restoration. Whole-issue accounting, index, cover and closeout remain pending.
+No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

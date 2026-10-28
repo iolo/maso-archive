@@ -6,13 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress:seven readable/sample-reviewed articles,one partial,
-one non-owning heading and26 unresolved identities. Mac0009 all172–178 body pages
-are preserved across196-file opening and40-file ending natives;complete assembly
-is next. Final178 retains eight regions,seven blocks,fourth dream/response,one join
-and376 exact ranges. Lower recruitment advertisement excluded;folio null. Eight
-initial recognitions,zero retries,one source pass. All7,243 prior files and30 core
-modules unchanged;213-test baseline reused. Whole issue remains active. See
+August 1991 remains in progress: eight readable/sample-reviewed articles, zero
+partial, one non-owning heading and 26 unresolved identities. Mac0009 is complete
+at PDF172–178 in 244 independently exact files, retaining all 236 native files.
+All 58 regions, 54 settings, four dream/response pairs and 3,991 native/combined range
+contexts pass; 98 global ranges validate. Lower178 recruitment advertisement remains
+excluded and folio null. All 7,375 prior files and 30 core modules are unchanged;
+the 213-test baseline is reused. Next verify parent0010 and locate first VGA child0011.
+Whole-issue accounting/index/cover/closeout remain pending. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
