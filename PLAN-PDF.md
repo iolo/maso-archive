@@ -31,21 +31,20 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its 35 identities account for nine readable,
-sample-reviewed articles, no partial articles, two non-owning headings and 24
-unresolved entries. VGA0011 is complete at PDF204–210/printed218–224 in 387
-independently exact files, including all 378 immutable native files. The full
-standard two-native assembler needs no adapter. All 99 source-pixel crops, 75
-blocks, 12 originals, 87 settings and 5,161 native article/listing range occurrences
-validate; 263 global ranges also pass. Five code blocks retain 24 complete physical
-and logical rows partitioning 744 listing bytes. File/bitfield/memory/control
-structure, seven eight-dollar bands, printed errors and 34 source uncertainty
-records remain intact. Lower210 subscription promotion is excluded. Four unique
-obsolete stage notes resolve six occurrences; original native metadata stays exact.
-All 9,097 prior issue files and 30 core modules are unchanged; the 213-test baseline
-is reused. Next verify child0012's extent and restore its bounded opening; PDF212
-is retained title context. Whole-issue accounting, index, cover and closeout remain
-pending. No reader rebuild. See [August progress](docs/progress/9108.md) and
+Step 12 is active for August 1991. Its 35 identities account for ten readable,
+sample-reviewed articles, no partials, two non-owning headings and 23 unresolved
+entries. Communications child0012 is complete at PDF212–215 in 201 independently
+exact files. Its visible folios are 226/227/228; final215 stays null. The independent
+lower215 program-sales promotion is excluded. All 51 source-pixel crops, 45 blocks,
+four originals, 47 settings and 2,206 article/listing range occurrences validate.
+Three code blocks retain 15 physical/listing rows covering 276 bytes. Four flow
+steps, three pool labels, three captions, two prose joins and 19 uncertainty records
+remain intact. Printed code punctuation and sample/prose differences stay literal.
+All 9,507 prior files and 30 core modules are unchanged; the 213-test baseline is
+reused. VGA0011 remains complete in 387 exact files. Next verify child0013's full
+extent, including CODE.C, then restore its bounded opening. Whole-issue accounting,
+index, cover and closeout remain pending. No reader rebuild. See
+[August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

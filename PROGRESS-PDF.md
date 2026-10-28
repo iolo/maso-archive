@@ -6,16 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: nine readable/sample-reviewed articles, no
-partials, two non-owning headings and 24 unresolved identities. VGA0011 is complete
-at PDF204–210/printed218–224 in 387 independently exact files, including 378
-unchanged native files. All 99 crops, 87 settings, 5,161 native article/listing
-ranges and 263 global ranges pass. Its five code blocks retain 24 physical/logical
-rows covering 744 listing bytes. Lower210 subscription promotion is excluded;
-source errors and glyph uncertainties remain explicit. All 9,097 prior files and
-30 core modules are unchanged; the 213-test baseline is reused. Next verify
-child0012's extent and restore its bounded opening. Whole-issue accounting, index,
-cover and closeout remain pending. See [August progress](docs/progress/9108.md) and
+August 1991 remains in progress: ten readable/sample-reviewed articles, no
+partials, two non-owning headings and 23 unresolved identities. Communications0012
+is complete at PDF212–215 in 201 independently exact files. All 51 source crops,
+47 settings and 2,206 article/listing ranges pass. It retains 15 code rows, seven
+diagram labels, three captions, two prose joins and 19 uncertainty records. Lower215
+promotion is excluded and its folio stays null. All 9,507 prior files and 30 core
+modules are unchanged; the 213-test baseline is reused. Next verify the BASIC
+interpreter child0013's extent and restore its bounded opening, including intrinsic
+code listings. Whole-issue accounting, index, cover and closeout remain pending.
+See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:

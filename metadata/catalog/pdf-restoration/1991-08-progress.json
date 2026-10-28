@@ -951,12 +951,70 @@
       "toc_entry_id": "maso-1991-08-toc-0012",
       "title": "한글 내장 통신 에뮬레이터의 제작(5) : 통신 풀그림의 주변 기능들",
       "parent_id": "maso-1991-08-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent PDF212/printed226 title 통신 풀그림의 주변기능들 and author 황태욱 (경북대 전자공학과), with running series headers213/215, match canonical child0012.211 is a full advertisement. Canonical title, order, parent and reference remain unchanged.",
+        "All four source pages212–215 individually reviewed through conclusion and closing ornament above independent lower215 program-sales promotion.216 independently titled BASIC-interpreter article establishes end. Literal folios226/227/228;215 has no visible folio and stays null. No global offset.",
+        "All201 selected files independently exact.51 source-pixel crops,45 blocks,four originals,47 settings and2,206 typed ranges pass. Three code blocks retain15 physical/listing rows covering276bytes,with no invented source row numbers. Four flow steps,three pool labels,three script bullets,three captions,two credits and15 inline command/key/file occurrences remain source-linked.",
+        "All51 final crops reviewed before47 initial calls:three eng code,44 kor+eng other.25 pre-OCR prose margin refinements;all raw drafts read before one source pass,zero retries/post-OCR crop repairs. Two exact joins preserve 있어+야 and컴파일+러. Hangup explanation remains after separate code.",
+        "Nineteen uncertainty records retain three raised quote-mark candidates, statement colon/semicolon candidates, code semicolon-like sample versus prose comma, boxed Return/series5 andquote/dash/ellipsis forms. Original code,grammar andhistorical/technical/language claims remain literal without semantic orsyntax repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-19-r01/communications",
+        "article_id": "scan-maso-1991-08-toc-0012",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-19-r01/communications/manifest.json",
+          "sha256": "df3027d433ea489d8f1811307a5418cc756064798fbee263afba7d83496cee9e",
+          "bytes": 34539
+        },
+        "coverage": {
+          "pdf_pages": [
+            212,
+            213,
+            214,
+            215
+          ],
+          "printed_pages": [
+            "226",
+            "227",
+            "228",
+            null
+          ],
+          "regions": 51,
+          "blocks": 45,
+          "figures": 4,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 212,
+          "end_pdf_page": 215,
+          "previous_pdf_page": 211,
+          "previous_role": "advertisement",
+          "following_pdf_page": 216,
+          "following_role": "independent BASIC-interpreter article",
+          "ending_visible_folio": null,
+          "ending_lower_promotion": "Independent program-sales promotion explicitly excluded."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-19/validation.json",
+          "sha256": "db928f49198e23015df44af9f9dd3dd888b010b4eba3c70509b6de1e4d45a824",
+          "bytes": 1864
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-19/reproduction.json",
+          "sha256": "3a5ec8c7befbfea115e31f5dcad2917f46030b0fa7e6e6b1d3fea03cf70d8d5c",
+          "bytes": 35276
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-19"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0013",
@@ -1688,50 +1746,80 @@
         "sha256": "3ba1a94f81ac6b6a37966e87208eeee62bdbe2b7392016d18c1d8044ac5255c5",
         "bytes": 71821
       }
+    },
+    {
+      "name": "1991-08-batch-19",
+      "status": "complete",
+      "completed_at": "2026-10-28T10:40:38.765361+00:00",
+      "goal": "Restore complete four-page communications-emulator child0012 with lower215 promotion excluded",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0012"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 7,
+      "initial_recognitions": 47,
+      "eng_code_regions": 3,
+      "kor_eng_regions": 44,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_edge_refinement_events": 25,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-19/validation.json",
+        "sha256": "db928f49198e23015df44af9f9dd3dd888b010b4eba3c70509b6de1e4d45a824",
+        "bytes": 1864
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-19/reproduction.json",
+        "sha256": "3a5ec8c7befbfea115e31f5dcad2917f46030b0fa7e6e6b1d3fea03cf70d8d5c",
+        "bytes": 35276
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 9,
+    "readable": 10,
     "partial": 0,
     "group_headings": 2,
-    "unresolved": 24
+    "unresolved": 23
   },
   "notes": [
-    "Full issue goal active: 24 identities still require source ownership/eligibility review. VGA0011 complete at PDF204–210/printed218–224; lower210 subscription promotion excluded. No pending body pages or assemblies among selected readable articles. No global folio offset.",
+    "Full issue goal active: 23 identities still require source ownership/eligibility review. Communications0012 complete at212–215; lower215 program-sales promotion excluded and ending folio null. No pending body pages or assemblies among selected readable articles. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-19",
-    "goal": "Verify actual source extent and restore bounded opening of child0012, 한글 내장 통신 에뮬레이터의 제작(5) : 통신 풀그림의 주변 기능들.",
+    "name": "1991-08-batch-20",
+    "goal": "Verify actual extent and restore bounded opening of child0013, 베이직 인터프리터를 구현해 보자(2) : 베이직 인터프리터 구현, 그 두 번째.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0012"
+      "maso-1991-08-toc-0013"
     ],
     "mapping_targets": [],
     "lookup_candidates": [
-      212,
-      213,
-      214,
-      215,
       216,
       217,
       218,
       219,
       220,
-      221
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227
     ],
     "retained_opening_context": {
-      "pdf_page": 212,
-      "printed_page": "226",
-      "source_render": "archive/pdf/1991-08/restoration/batch-16/source-review/pdf-212.png",
-      "note": "Independent title was observed as neighbor context only; full ownership/extent restoration review remains pending."
+      "pdf_page": 216,
+      "printed_page": "230",
+      "source_render": "archive/pdf/1991-08/restoration/batch-19/source-review/pdf-216.png",
+      "note": "Independent title and byline observed as following-article context only; actual end and complete restoration scope remain unverified."
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained212/213 source renders; review actual title, byline, folios, continuation and end before mapping at most six pages. Candidate pages are lookup hypotheses, not an inferred global offset or decided body extent. Use pinned mapped Tesseract, eng code/kor+eng other text, review final crops before OCR and all raws before one source pass. Retain complete article/listing/physical-row indexes, source code errors and glyph uncertainties. Preserve all prior files. No reader rebuild."
+    "note": "Reuse retained216–221 source views; verify actual title/byline/folios, intrinsic CODE.C listing continuation and ending before mapping at most six pages. Existing221 view shows listing opening only; do not infer source extent or close article at prose end. Segment if longer than six pages. Preserve physical wraps, opaque code fields/source mistakes, complete article/listing/review/row indexes and explicit glyph uncertainty. Use pinned mapped Tesseract, eng code/kor+eng other; all final crops reviewed before OCR and all raws before one source pass. No reader rebuild."
   }
 }
