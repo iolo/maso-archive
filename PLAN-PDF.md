@@ -33,24 +33,21 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 is active for August 1991. Its 35 identities account for twelve readable,
 sample-reviewed articles, one partial, two non-owning headings and 20 unresolved
-entries. C++0015 owns PDF240–249. Original contents title 가자! C++의 세계로,
-author 이재규 and ref254 match PDF240/printed254, whose body title is 클래스의 생성.
-The two titles stay distinct. Intrinsic listings continue through upper249;
-the lower249 bookseller advertisement is outside the article.
-
-Batch27 opening240–245 preserves 308 independently exact files: 77 source-pixel
-crops, 68 blocks, three originals, 74 settings and 5,419 typed article/listing ranges.
-Twenty-one code blocks retain 130 complete unnumbered physical rows/4,043 bytes
-across 17 examples/syntax groups. Four example continuities, five prose joined
-blocks/six boundaries, the compiler diagram, merged-cell access table and credits
-remain source-linked. All 253 uncertainties and 16 opaque variants retain source
-xd/x2d versus %d, underscore/dot runs, O/X and inline claims without semantic repair.
-All 77 final crops were reviewed before 74 initial calls after 49 refinements;
-all raws were read before one pass, with zero retries or post-OCR repairs.
-All 15,763 prior files and 30 core modules remain unchanged; the 213-test baseline
-is reused. Next restore final246–249, preserving245 차라 +246 리 without a
-separator, then qualify the actual two-native assembly. B+ tree0014 remains complete
-at226–238. Whole-issue accounting, index, cover and closeout remain pending.
+entries. C++0015 now has all PDF240–249/printed254–263 preserved across two
+immutable natives totaling 494 files. The canonical series title and body title
+클래스의 생성 stay distinct. Batch28 ending246–249 validates 48 source-pixel crops,
+38 blocks, five originals, 43 settings and 4,323 typed ranges. Its 195 complete
+unnumbered code rows cover 5,498 bytes. Three captions, graphic labels and intrinsic
+listing continuities remain linked; lower249 advertisement is excluded and its
+printed263 folio retained. All 285 uncertainties and 16 opaque variants preserve
+source claims, filenames and spelling. Twenty-two markers retain unknown graphic
+counts and one faint argument without guessing; marker interiors stay outside
+source-derived indexes. All 48 final crops reviewed before 43 calls after 31
+refinements; all raws read before one pass, zero retries or post-OCR repairs.
+All 16,769 prior files and 30 core modules unchanged; 213-test baseline reused.
+Next qualify the actual full two-native assembly, preserving245 차라 +246 리 with
+no separator and independently projecting every original typed occurrence into
+combined contexts. Whole-issue accounting, index, cover and closeout remain pending.
 No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

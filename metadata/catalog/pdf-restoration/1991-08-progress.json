@@ -1335,7 +1335,8 @@
         "Opening240–245/254–259 preserved as308 independently exact files:77 source-pixel crops,68 blocks,three original panels,74 pinned settings (21eng code/53kor+eng),5419 typed article/listing ranges.21code blocks retain130 complete unnumbered physical/listing rows partitioning4043bytes across17 examples/syntax groups.",
         "Original title/standfirst composite,compiler diagram andaccess table retained. Two captions,two code-label links,46 spatial fields/14 rows,four table headers/twenty visible data fields/six rows/two merged group cells,two credits anddrop-cap field remain source-linked. Merged cells do not imply blank or repeated printed values. Four example continuities keep physical rows separate. Five joined prose blocks retain six internal boundaries.",
         "All77 final crops reviewed before74 initial calls after49 pre-OCR refinements;all74 raws read before one source correction pass. Zero retries/post-OCR repairs. Empty label,omitted diagram/table fields anddamaged Korean code comments use source-direct fallback. All253 uncertainties and16 opaque variants retain xd/x2d versus independent %d,opaque underscore runs,PROTECT/private errors,four-dot placeholders,source inline claims andliteral table O/X without compilation,execution or semantic repair. Eight quoted strings/eight escapes,ten format-like fields,98 underscore runs andfour dot/rule runs remain source-linked.",
-        "245 right prose ends 차라;246 begins 리 함수의 선언을. Deferred carried word join explicit with no separator; final246–249 andcomplete assembly pending. All15763 prior files and30core modules unchanged;213-test baseline reused."
+        "245 right prose ends 차라;246 begins 리 함수의 선언을. Deferred carried word join explicit with no separator; final246–249 andcomplete assembly pending. All15763 prior files and30core modules unchanged;213-test baseline reused.",
+        "Batch28 preserves final246–249/260–263 in186 independently exact files.48 source-pixel crops,38 blocks,five originals,43 settings (14eng code/29kor+eng) and4323 typed article/listing ranges validate. Fourteen code blocks retain195 complete unnumbered physical rows partitioning5498bytes acrossnine source example/listing/command groups. Three multi-panel listing continuities preserve five boundaries without physical-row joins. Four prose joined blocks retain five boundaries;incoming245 차라 +246 리 matches opening without separator. Three printed captions,four original listing panels,closing ornament,ten spatial labels/seven rows,four direction definitions,three header/date/credit records,eight opaque math expressions,four demo sections,25function headers and10loop headers source-linked. Twenty-two editorial markers retain21graphic/rule occurrences (nine decorative bands) andone faint argument glyph withunknown identity/count;all marker interiors excluded from source token/glyph/literal indexes. All285 uncertainties and16opaque variants preserve tutle/TURTLE filenames,89/25/130 turns,source angle/color/loop claims,세거자 spelling andphysical comment/semicolon wraps without execution or semantic repair. Lower249 advertisement excluded,literal263folio retained;continuation panel has no invented caption.31pre-OCR refinements,all48 final crops before43 initial calls,all43 raws before one pass,zero retries/repairs. Initial map-schema andwriter-helper failures retained andfixed in fresh helpers before export;source text/raws unchanged. All16769 prior files and30core modules unchanged;213-test baseline reused. Allten body pages now preserved across494native files;actual full two-native assembly pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-08/packages/batch-27-r01/cpp-a",
@@ -1401,7 +1402,100 @@
         },
         "private_adapter_required": false,
         "full_assembler_checked": false,
-        "checkpoint": "batch-27"
+        "checkpoint": "batch-27",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-08/packages/batch-27-r01/cpp-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-27-r01/cpp-a/manifest.json",
+              "sha256": "c1c117e84afe6a1a95a16541a956af69e8fba677f3f80dbc8126ae28aa7d655a",
+              "bytes": 53754
+            },
+            "pdf_pages": [
+              240,
+              241,
+              242,
+              243,
+              244,
+              245
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-27/validation.json",
+              "sha256": "ccd0870b05c6ad27c4308c68c75435569f399b07dab2c41218c64c1338a50f5a",
+              "bytes": 2333
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-27/reproduction.json",
+              "sha256": "997ce7e1e4668ad1276e1f54afb60036d52592d83b4b8b3eac9be34f3bd39498",
+              "bytes": 54466
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-08/packages/batch-28-r01/cpp-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-28-r01/cpp-b/manifest.json",
+              "sha256": "b391b4c29ea3f337822738b7aca1349e05913d0a65cd517b2fe137f8a8219f9a",
+              "bytes": 32383
+            },
+            "pdf_pages": [
+              246,
+              247,
+              248,
+              249
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-28/validation.json",
+              "sha256": "8b31c4cf5293e63d69d759a126e5d4948ff493b1dac05f6e1acb9413dced0f51",
+              "bytes": 2396
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-28/reproduction.json",
+              "sha256": "d6456dba367b5d3f5c01f943f7e1c49b291cf0005743bfcba5a28903e10a5dfd",
+              "bytes": 33094
+            }
+          }
+        ],
+        "aggregate_native_coverage": {
+          "pdf_pages": [
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249
+          ],
+          "observed_printed_pages": [
+            "254",
+            "255",
+            "256",
+            "257",
+            "258",
+            "259",
+            "260",
+            "261",
+            "262",
+            "263"
+          ],
+          "regions": 125,
+          "blocks": 106,
+          "figures": 8,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": [],
+          "scope": "All ten body pages preserved across494 immutable native files; full article assembly pending."
+        },
+        "all_body_pages_preserved_across_natives": true,
+        "ending_checkpoint": "batch-28",
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-27/ledger-complete.json",
+          "sha256": "d167fb7121aed6d5515a68f0538e015657df5eb70197c98016b7e094082d98fd",
+          "bytes": 110754
+        }
       }
     },
     {
@@ -2347,6 +2441,34 @@
         "sha256": "997ce7e1e4668ad1276e1f54afb60036d52592d83b4b8b3eac9be34f3bd39498",
         "bytes": 54466
       }
+    },
+    {
+      "name": "1991-08-batch-28",
+      "status": "complete",
+      "completed_at": "2026-10-28T14:17:19.763722+00:00",
+      "goal": "Restore C++0015 final246–249 includingintrinsic listings andmixed-page exclusion",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0015"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 3,
+      "initial_recognitions": 43,
+      "eng_code_regions": 14,
+      "kor_eng_regions": 29,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 31,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-28/validation.json",
+        "sha256": "8b31c4cf5293e63d69d759a126e5d4948ff493b1dac05f6e1acb9413dced0f51",
+        "bytes": 2396
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-28/reproduction.json",
+        "sha256": "d6456dba367b5d3f5c01f943f7e1c49b291cf0005743bfcba5a28903e10a5dfd",
+        "bytes": 33094
+      }
     }
   ],
   "totals": {
@@ -2357,32 +2479,23 @@
     "unresolved": 20
   },
   "notes": [
-    "Full issue goal active:20 identities still require source ownership/eligibility review. C++0015 actual240–249,source body title 클래스의 생성; opening240–245 preserved as partial native. Final246–249 andcomplete assembly pending. Twelve earlier readable articles unchanged. No global folio offset.",
+    "Full issue goal active:20 identities still require source ownership/eligibility review. C++0015 actual240–249 now preserved across494 immutable files in two natives;complete assembly pending. Twelve earlier readable articles unchanged. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-28",
-    "goal": "Restore C++0015 final246–249,then qualify full immutable two-native assembly separately.",
+    "name": "1991-08-batch-29",
+    "goal": "Qualify complete C++0015 actual two-native assembly covering240–249.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0015"
     ],
-    "mapping_targets": [
-      246,
-      247,
-      248,
-      249
-    ],
-    "outside_lookup_candidates": [
-      245,
-      250,
-      260
-    ],
+    "mapping_targets": [],
+    "outside_lookup_candidates": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000px batch27/source-review/pdf-246..249.png.246/248/249 fully reviewed;247 contact review only,so inspect its complete source page before mapping. Actual extent240–249;prose closes248,with intrinsic listings continuing249 upper. Explicitly exclude lower249 bookseller advertisement; retain literal printed263 folio. Captioned List1 TURTLE.HPP on247,List2 TURTLE.CPP on248,List3 TURTDEMO.CPP begins248 andcontinues249. Preserve original frames/captions,physical code rows/wraps,header decorative bands with unknown source counts,andall source errors without execution/repair. Incoming246 region p246-left-top must begin 리 함수의 선언을 andmatch opening245 p245-right-tail ending 차라 with no separator:kind=prose,prior_segment=a,prior_region=p245-right-tail,prior_text_end=차라,text_start=리 함수의 선언을,join_separator=empty. No code physical row crosses native boundary. Preserve308 opening files andevery source-local metadata field. Every final crop before pinned mapped Tesseract;all raws before one source pass. Full actual two-native assembler andexhaustive original/combined range audit follow separately. No reader rebuild."
+    "note": "Use standard namespaced-v1 on real a/b natives, preserving all494 files andevery source-local metadata field. Independently project every typed occurrence into combined article/listing contexts. Match245 차라 +246 리 함수의 선언을 formal carried-word link without separator, preserving native block bytes. Full article has125 source crops,106 blocks,eight originals,117 settings (35eng/82kor+eng),35code blocks and325 complete unnumbered physical rows/9541 listing bytes. Preserve lower249 advertisement exclusion,all source errors/claims/filenames,22ending markers withunknown counts andone faint argument,marker-interior exclusion policy andboth native range contexts. Resolve only exact obsolete stage deferrals; no new OCR/source correction or reader rebuild. Whole-issue accounting/index/cover/closeout remain pending."
   }
 }

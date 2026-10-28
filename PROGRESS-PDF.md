@@ -7,16 +7,14 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: twelve readable/sample-reviewed articles, one
-partial, two non-owning headings and 20 unresolved identities. C++0015 owns240–249;
-its opening240–245 is preserved in 308 independently exact files: 77 source-pixel
-crops, 74 settings, 5,419 typed ranges and 130 complete unnumbered listing rows/
-4,043 bytes. Original contents, author and ref254 confirm ownership; source body
-title 클래스의 생성 stays distinct from the canonical series title. The diagram,
-merged-cell table, code/prose continuities and source errors/glyph candidates remain
-linked. All 15,763 prior files and 30 core modules remain unchanged; the 213-test
-baseline is reused. Next restore final246–249, excluding lower249 advertisement,
-then qualify full two-native assembly. B+ tree0014 remains complete226–238.
-Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+partial, two non-owning headings and 20 unresolved identities. All C++0015 pages
+240–249 are preserved across 494 immutable native files. Ending246–249 validates
+48 crops, 43 settings, 4,323 typed ranges and 195 complete unnumbered code rows/
+5,498 bytes. Lower249 advertisement excluded; source errors, graphic markers and
+one faint argument remain explicit. All 16,769 prior files and 30 core modules
+unchanged; 213-test baseline reused. Next qualify the full actual two-native
+assembly and exhaustive original/combined range projection. Whole-issue accounting,
+index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
