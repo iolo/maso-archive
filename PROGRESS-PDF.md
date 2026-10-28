@@ -1,20 +1,22 @@
 # PDF restoration progress
 
-Updated 2026-10-28. This file is the status index; detailed records live under
+Updated 2026-10-29. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: thirteen readable/sample-reviewed articles, one
-partial, three non-owning headings and 18 unresolved identities. Windows0017 has all
-260–268/printed 274–282 preserved across 343 native files; actual full assembly pending.
-Final 266–268 native has 121 independently exact files, 32 exact crops, 27 kor+eng settings
-and 2, 331 typed article ranges. Two diagrams, TDB table, screenshot and terminal ornament
-retain readable fields and explicit faint-area markers with unknown original counts.
-All 18, 668 prior files and 30 core modules exact; 213-test baseline reused. Next qualify
-full actual two-native assembly and exhaustive native/projected range audit. Whole-issue
-accounting, index, cover and closeout pending. No reader rebuild.
+August 1991 remains in progress: fourteen readable/sample-reviewed articles, no partials,
+three non-owning headings and 18 unresolved identities. Windows0017 is complete at
+260–268/printed274–282 in a 351-file full standard actual two-native assembly, including
+343 unchanged native files. All 6,167 original typed occurrences validate in native and
+independently projected combined contexts; 144 published combined ranges pass. Covers
+90 exact crops, 65 blocks, eleven originals, 79 settings and 334 spatial fields/196 rows.
+Source uncertainty, literal errors and thirty screenshot markers remain intact, with
+unknown faint-area counts and no inferred addresses. All 19,078 prior files and 30 core
+modules unchanged; 213-test baseline reused. Next verify FoxView0018 extent from270/284
+context and restore a bounded opening. Whole-issue accounting, index, cover and closeout
+pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

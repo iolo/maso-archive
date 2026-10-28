@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-28. Read this before future PDF restoration. This is the current
+Updated 2026-10-29. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -23,28 +23,34 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: thirteen readable/sample-reviewed articles, one partial,
-  three non-owning headings and 18 unresolved identities. Windows0017 has all 260–268 /
-  printed 274–282 preserved across 343 native files; full actual assembly is pending.
-  Final 266–268 native:121 independently exact files, 32 exact crops, 22 blocks, five
-  originals, 27 pinned kor+eng settings and 2, 331 typed article ranges. Preserves191
-  spatial fields/89 rows, eight table data rows/16 cells, two headers, four captions,
-  five address fields and 26 readable screenshot row candidates. Thirty screenshot
-  markers retain unreadable fields/bands and printed edge truncation; unknown original
-  row/field/glyph counts stay null and marker interiors stay outside source indexes.
-  Sourceメ모리 메모리, buggermaster versusBurgermaster, HEAPWALK versusHeapWorker and그림6
-  reference remain independent. All 18, 668 prior files and 30 core pins exact; 213-test
-  baseline reused. All 32 final crops before 27 recognitions; all 27 raws before one pass.
-  Six pre-OCR refinements, zero retries or post-OCR repairs. No source program listing.
+- August 1991 remains active: fourteen readable/sample-reviewed articles, no partials,
+  three non-owning headings and 18 unresolved identities. Windows0017 is complete at
+  PDF260–268/printed274–282 in a standard actual two-native 351-file assembly, including
+  all 343 unchanged native files. All 6,167 original typed occurrences validate in native
+  and independently projected combined article contexts; 144 published combined ranges
+  pass. Retains 90 exact crops, 65 blocks, eleven originals, 79 kor+eng settings, nine
+  captions and 334 spatial fields/196 rows. Two tables retain nineteen data rows/49 cells,
+  six headers and two merged groups. Six diagrams, sixteen address fields and fourteen
+  program labels remain linked. Nine internal prose joins/fourteen boundaries and formal
+  265 바 +266 이트로 제한된다. preserve native bytes without normalization.
+  All 182 uncertainties and 33 opaque variants stay active. Thirty screenshot markers
+  preserve 26 readable row candidates and unknown original row/field/glyph counts in faint
+  areas; marker interiors stay outside source-derived indexes. Preserve메모리 메모리,
+  buggermaster versus Burgermaster, HEAPWALK versus HeapWorker, 그림6 reference, addresses
+  and physical wraps without factual, mathematical or semantic repair. No source listing.
+  Four exact obsolete stage notes resolve six occurrences; all original metadata stays
+  source-local. All 19,078 prior files and 30 core modules exact; 213-test baseline reused.
+  No new assembly OCR or source correction.
 
-  Next batch32 qualifies full standard namespaced-v1 assembly on both actual natives.
-  Preserve343 native files and all source-local metadata. Independently project every
-  typed occurrence into combined article context. Keep265 바 +266 이트로 제한된다. with
-  empty separator and native bytes unchanged. Resolve only exact obsolete stage notes;
-  source uncertainties remain active. No new OCR/correction or reader rebuild. Issue
-  accounting/index/cover/closeout pending. Selected 0003 requires batch07
-  `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
-  See [August progress](docs/progress/9108.md) and
+  Next batch33 verifies FoxView0018 extent from retained270/284 opening and contents5,
+  then restores a bounded opening. Reuse retained269–275 renders; establish actual title,
+  byline, folios, continuations, ending and adjacent material before mapping at most six
+  pages. Lookup hypotheses do not assign ownership or a global folio offset. Preserve
+  tables, code/listing rows, screenshots/captions and source errors with complete source
+  region/block/listing/range metadata. Every final crop before pinned mapped Tesseract;
+  all raws before one source pass. Whole-issue accounting/index/cover/closeout pending;
+  no reader rebuild. Selected0003 requires batch07 `listing_adapter_r01.install()`;
+  0002 requires batch04 native adapter. See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:

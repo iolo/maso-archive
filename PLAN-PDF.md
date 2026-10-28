@@ -31,22 +31,24 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: thirteen readable/sample-reviewed articles, one partial,
-three non-owning headings and 18 unresolved identities out of35. Windows0017 now has
-all PDF260–268/printed 274–282 preserved across 343 immutable native files; actual full
-assembly remains pending. Final 266–268 native has 121 independently exact files,
-32 exact source-pixel crops, 22 blocks, five originals, 27 pinned kor+eng settings and
-2, 331 exact typed article ranges. Its191 spatial fields/89 rows retain two diagrams,
-eight TDB table rows/16 data cells, two headers, four captions, five addresses and 26
-readable screenshot row candidates. Thirty explicit screenshot markers retain faint
-fields/bands and printed edge truncation with unknown original counts; marker interiors
-stay outside source-derived indexes. Four prose joins/five boundaries andformal
-265 바 +266 이트로 제한된다. are explicit. Source claims, duplicated wording, utility names
-and glyph candidates remain literal. All 18, 668 prior files and 30 core modules unchanged;
-213-test baseline reused. Twenty-seven initial recognitions, one source pass, zero retries.
-Next qualify the full actual two-native Windows assembly with exhaustive native and
-projected range checks. Whole-issue accounting, index, cover and closeout pending.
-No reader rebuild.
+Step 12 remains active: fourteen readable/sample-reviewed articles, no partials,
+three non-owning headings and 18 unresolved identities out of 35. Windows0017 is
+complete at PDF260–268/printed274–282 in a full standard actual two-native assembly.
+Its 351 files match an independent export, including all 343 unchanged native files.
+All 6,167 original typed occurrences validate in native and independently projected
+combined article contexts; 144 published combined ranges pass. Retains 90 source-pixel
+crops, 65 blocks, eleven originals, 79 kor+eng settings, nine captions and 334 spatial
+fields/196 rows. Two tables retain nineteen data rows/49 cells, six headers and two
+merged groups. Six diagrams, sixteen address fields and fourteen program labels remain
+source-linked. Nine prose joins/fourteen native boundaries and formal265 바 +266 이트로
+제한된다. preserve native bytes. All 182 uncertainties, 33 opaque variants and thirty
+screenshot markers remain active, with original faint-area counts unknown and marker
+interiors outside source-derived indexes. Source claims, errors and utility names stay
+literal; no listing invented. Four exact obsolete stage notes resolve six occurrences;
+all original metadata remains source-local. All 19,078 prior files and 30 core modules
+unchanged; 213-test baseline reused. No new assembly OCR or correction. Next verify
+FoxView0018 extent from retained opening270/284 and contents5, then restore a bounded
+opening. Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
