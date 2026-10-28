@@ -23,33 +23,33 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: eleven readable/sample-reviewed articles, no partials,
-  two non-owning headings and 22 unresolved entries. BASIC-interpreter 0013 is
-  complete at PDF216–224/printed230–238, including intrinsic CODE.C after prose
-  conclusion 221. The full standard two-native assembler needs no adapter. All
-  484 files reproduce independently; all 475 native files remain byte-identical.
-  All 124 source-pixel crops, 107 blocks, 13 originals, 111 settings (34 eng code,
-  77 kor+eng), 8,710 native typed occurrences and 2,052 combined ranges validate.
-  Thirty-four code blocks retain 450 complete physical/logical listing rows
-  covering 11,559 bytes. Six actual BASIC labels stay distinct from twelve opaque
-  offsets and console output. All 332 source uncertainties, four prose joins,
-  nine captions, tables, diagrams, strings and physical wraps remain source-linked.
-  Sixteen decorative bands plus one faint-margin marker have unknown counts/bytes;
-  editorial interiors are excluded from source-derived indexes. Preserve source
-  ssign_code(), missing terminator, bare-assignment/else, clipped exis and all
-  original spelling/grammar. Four exact obsolete stage notes resolve six active
-  occurrences; original metadata stays source-local and unchanged. Failed audit
-  retained: numbered logical rows omit redundant visibility flags; fresh audit
-  checks their exact physical source rows. No new OCR or source correction.
-  All 11,834 prior files and 30 core modules unchanged; 213-test baseline reused.
-  Next batch 23 verifies B+ tree child 0014 from observed PDF226/printed240 title.
-  Reuse retained 226/227 renders. Full extent is unverified: inspect title, byline,
-  literal folios, continuations and ending before mapping at most six pages.
-  Use eng code/kor+eng other text; review exact crops before OCR and every draft
-  before one source pass. Keep complete block/review/listing/physical indexes,
-  source errors, glyph candidates and originals. Whole-issue accounting/index/
-  cover/closeout remain pending; no reader rebuild. Selected 0003 requires batch07
-  `listing_adapter_r01.install()`; 0002 requires the batch04 native adapter.
+- August 1991 is active: eleven readable/sample-reviewed articles, one partial,
+  two non-owning headings and 21 unresolved entries. B+ tree child 0014 spans
+  PDF226–238; final238/252 has figure24, 끝내며 and a closing ornament before
+  advertisement239 and new title240. Opening226–231/printed240–245 is preserved
+  in 339 independently exact files. All 90 crops, 75 blocks, ten originals,
+  80 settings (four eng code/76 kor+eng) and 5,489 typed ranges validate.
+  Four code blocks retain 34 complete physical/listing rows covering 1,139 bytes;
+  all are unnumbered. Eight captions, five prose joins, 336 spatial fields,
+  84 diagram reading rows, two credits and position-grid two headers/eight cells/
+  four blanks/four labels remain source-linked. All 414 glyph/punctuation
+  uncertainties and 19 opaque variants stay literal: then syntax, ROOT assignment,
+  nodo_no, comma after isoverflow condition, insoverflow prose spelling, repeated
+  CC and independent WXY/WXYZ fields. Circled 10/A/B/C-like candidates, source
+  hyphen wraps and stray quote remain explicit; no code/algorithm repair.
+  All 90 final crops reviewed before 80 initial recognitions, after 33 pre-OCR
+  refinements. All raws read before one source pass; zero retries/post-OCR repairs.
+  Source-direct fallback covers empty figure2 raw and damaged diagrams/code fields.
+  Early scope-note 한국대 corrected to source 단국대 in fresh scope-reviewed-r01
+  before OCR; all attempts remain retained. All 12,342 prior files and 30 core
+  modules unchanged; 213-test baseline reused. Next batch24 restores232–237 from
+  retained3000px renders.233–237 have only contact-sheet review: fully inspect them
+  and all selected exact crops before OCR. Incoming231 여 +232 러가지 needs a
+  deferred word join. Keep complete block/review/listing/physical-row indexes,
+  literal diagram fields and originals. Final238 and full assembly follow separately;
+  full assembler qualification remains pending. Whole-issue accounting/index/cover/
+  closeout remain pending; no reader rebuild. Selected0003 requires batch07
+  `listing_adapter_r01.install()`;0002 requires the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
