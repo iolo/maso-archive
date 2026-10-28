@@ -31,20 +31,22 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its 35 identities account for ten readable,
-sample-reviewed articles, one partial, two non-owning headings and 22 unresolved
-entries. BASIC-interpreter 0013 now has all PDF 216–224/printed 230–238 pages
-preserved across two immutable natives: opening 423 files and ending 52 files.
-Batch 21 final CODE.C 222–224 validates 13 source-pixel crops, ten blocks, three
-originals, ten settings and 4, 114 typed article/listing ranges. Six code blocks
-retain 316 complete physical/listing rows covering 7, 649 bytes, all unnumbered.
-Twelve unknown-count decorative bands and one faint-margin marker remain explicit;
-editorial interiors are excluded from source-derived indexes. Seven strings,
-eight literal escapes, 23 function headers and 268 source uncertainties remain
-source-linked. Printed errors and physical wraps are preserved without code repair.
-All 11, 642 prior files and 30 core modules are unchanged;213-test baseline reused.
-Next assemble both real natives as full 216–224 article and qualify the standard
-assembler. Whole-issue accounting, index, cover andcloseout remain pending.
+Step 12 is active for August 1991. Its 35 identities account for eleven readable,
+sample-reviewed articles, no partials, two non-owning headings and 22 unresolved
+entries. BASIC-interpreter 0013 is complete at PDF216–224/printed230–238, including
+intrinsic CODE.C after the prose conclusion on 221. The standard two-native
+assembler produces 484 independently exact files, retaining all 475 native files.
+All 124 source-pixel crops, 107 blocks, 13 original frames, 111 settings and 8,710
+native typed occurrences validate in native and combined article/listing contexts;
+2,052 combined ranges pass. Thirty-four code blocks retain 450 physical/logical
+listing rows covering 11,559 bytes. Six actual BASIC labels remain separate from
+opaque offsets and console output. All 332 source uncertainties, 17 editorial
+markers, tables, diagrams, captions, strings and physical wraps remain intact.
+Four exact obsolete stage notes resolve six active occurrences; original metadata
+is unchanged. All 11,834 prior files and 30 core modules are unchanged; the
+213-test baseline is reused. Next verify the B+ tree child 0014 from its observed
+PDF226/printed240 opening, then restore a bounded first segment. Full extent is
+unverified. Whole-issue accounting, index, cover and closeout remain pending.
 No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

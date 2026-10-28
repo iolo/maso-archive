@@ -6,16 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: ten readable/sample-reviewed articles, one
-partial, two non-owning headings and 22 unresolved identities. BASIC-interpreter 0013
-all PDF 216–224 pages are preserved across immutable 423-file opening and 52-file
-ending natives. Batch 21 ending validates 13 crops, ten settings, 4, 114 typed ranges
-and 316 complete listing rows/7, 649 bytes. Source errors, unknown-count markers,
-quoted strings, physical wraps and 268 source uncertainties remain explicit.
-All 11, 642 prior files and 30 core modules are unchanged;213-test baseline reused.
-Next assemble and validate the full nine-page article. Whole-issue accounting,
-index, cover andcloseout remain pending. See [August progress](docs/progress/9108.md)
-and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+August 1991 remains in progress: eleven readable/sample-reviewed articles, no
+partials, two non-owning headings and 22 unresolved identities. BASIC-interpreter
+0013 is complete at PDF216–224 in 484 independently exact files, preserving all
+475 native files. All 124 crops, 111 settings, 8,710 native range occurrences,
+2,052 combined ranges and 450 listing rows/11,559 bytes validate. Source errors,
+332 uncertainty records and 17 unknown-count editorial markers remain explicit.
+All 11,834 prior files and 30 core modules are unchanged; 213-test baseline reused.
+Next verify the B+ tree article from observed PDF226/printed240; full extent is
+unverified. Whole-issue accounting, index, cover and closeout remain pending.
+See [August progress](docs/progress/9108.md) and
+[ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:
 51 identities account for 36 readable/sample-reviewed articles, 14 non-owning
