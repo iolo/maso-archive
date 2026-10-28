@@ -31,15 +31,14 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step12 is active for August 1991. Its 35 canonical identities currently account for
-two readable/sample-reviewed articles, one partial and 32 unresolved classifications.
-Batch02 restores the complete parent introduction116–117 and first-child opening
-118–121, within two tasks/six mapped pages/sixteen outside lookups. Both exports
-independently match; all 45 source crops, 33 OCR settings and 1,840 typed ranges pass;
-fresh 213 PDF tests pass. Batch03 preserves final child pages122–123 in a second exact native. All six
-child body pages are available; next assemble both immutable natives without
-new OCR/correction. The article remains partial until assembly. See
-[August progress](docs/progress/9108.md) and
+Step 12 is active for August 1991. Its 35 canonical identities currently account for
+three readable/sample-reviewed articles, zero partial and 32 unresolved classifications.
+The parent introduction116–117 and complete first child118–123 are restored.
+The child's208-file assembly retains all 200 native files and validates all 2,326
+native typed ranges in source and combined contexts. A pinned adapter derives
+mandatory block indexes without editing original corrections or core checks.
+Next verify/restore second child0003 from 124/printed138 within the normal batch
+limits. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28
@@ -1265,7 +1264,7 @@ listing rows. It also restores 사냥게임64–66 of verified64–69:37 regions
 two images and four short code groups. Both exports rebuild byte-identically;
 86 earlier packages pass preservation checks. Two prose joins and source anomalies
 remain documented. Batch11 completes hunting67–69 and assembles64–69 as readable:
-45 regions,38 blocks,two images,195 physical listing rows across five code groups,
+45 regions, 38 blocks,two images,195 physical listing rows across five code groups,
 three prose joins and61 source-linked annotated code rows in native corrections.
 The assembly preserves both original segments unchanged. Puzzle70–72 is partial:
 12 regions,nine blocks,two images and67 program rows through3325;73 remains.
@@ -1585,7 +1584,7 @@ reading-room integration,preservation checks and desktop/mobile acceptance pass.
 All37 February articles coexist with35 November articles and3,386 CD articles;
 corrected TOC,145 cover assets and145 TOC scan sets remain intact. Manual bitmap
 correction and full proofreading remain deferred. February1984 is complete within
-the agreed restoration scope. Step12 remains open for the other17 eligible issues;
+the agreed restoration scope. Step 12 remains open for the other17 eligible issues;
 the next issue is March1984,with no extraction started yet.
 
 ## Objective

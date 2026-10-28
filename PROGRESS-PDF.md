@@ -6,13 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress: 35 canonical entries account for two
-readable/sample-reviewed articles, one partial and 32 unresolved classifications.
-The complete feature introduction owns PDF116–117; its first child has a restored
-opening118–121 and ending122–123 across two immutable partial natives. Exports match;
-all 45 source crops and 1,840 typed UTF-8 ranges validate; fresh 213 PDF tests pass.
-Next assemble its six-page article in a separate checkpoint without new OCR. See [August progress](docs/progress/9108.md)
-and the [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+August 1991 restoration is in progress: 35 canonical entries account for three
+readable/sample-reviewed articles, zero partial and 32 unresolved classifications.
+The parent introduction116–117 and first child118–123 are complete. The child's
+208-file assembly independently reproduces, retaining all 200 native files and
+validating 2,326 typed ranges in original/combined contexts. A pinned adapter is
+required for this assembly; original corrections/core checks remain unchanged.
+Next verify/restore second child0003 from 124/printed138. See
+[August progress](docs/progress/9108.md) and
+[ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:
 51 identities account for 36 readable/sample-reviewed articles, 14 non-owning

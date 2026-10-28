@@ -76,57 +76,48 @@
       "parent_id": "maso-1991-08-toc-0001",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "First child0002 starts118/printed132 and concludes123/printed137 with closing ornament/reference list. Independent second child begins124/printed138. Current native preserves118–121/printed132–135;122–123 and full assembly remain pending.",
         "Four source joins retain every text region, including 보/이고 and the paragraph crossing the intervening illustration band. Ten original figures, eight caption links and ten feature criteria are retained. Left-clipped monitor caption and 직절한/적절한 glyph candidates remain explicit; no source bytes inferred.",
-        "Batch03 preserves final122–123/printed136–137 in a second immutable native:16regions13blocks2figures,eightreferencesandoneconclusioncolumnjoin. Allsixbodypagesnowpreserved;article remains partial until separate full assembly. Original opening coverage notes remain historical native scope."
+        "Batch03 preserves final122–123/printed136–137 in a second immutable native:16regions13blocks2figures,eightreferencesandoneconclusioncolumnjoin. Allsixbodypagesnowpreserved;article remains partial until separate full assembly. Original opening coverage notes remain historical native scope.",
+        "Batch04 completes independent six-page article118–123 from two immutable natives. All200nativefiles remain exact;55regions38blocks12figures/fiveinternaljoins/tencriteria/eightreferences preserved. Alltypedrangesvalidateinbothnamednativeandcombinedblockcontexts;originalmetadatakeptsource-local. No deferredbodypagesorassembly;clippedcaption/glyphcandidatesremainexplicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a",
+        "directory": "archive/pdf/1991-08/packages/image-processing-introduction-complete-r01",
         "article_id": "scan-maso-1991-08-toc-0002",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a/manifest.json",
-          "sha256": "c886db32c90c07d34876e2dd4dea345f0d91e7527d836cc74408f88e96140599",
-          "bytes": 22869
+          "path": "archive/pdf/1991-08/packages/image-processing-introduction-complete-r01/manifest.json",
+          "sha256": "fb1425e519201ac4aa76d3c06d05e283fcd76b8321c7d2d0a9f715f25a8816e8",
+          "bytes": 37338
         },
         "coverage": {
           "pdf_pages": [
             118,
             119,
             120,
-            121
+            121,
+            122,
+            123
           ],
           "printed_pages": [
             "132",
             "133",
             "134",
-            "135"
+            "135",
+            "136",
+            "137"
           ],
-          "regions": 39,
-          "blocks": 25,
-          "figures": 10,
-          "deferred_pdf_pages": [
-            122,
-            123
-          ]
+          "regions": 55,
+          "blocks": 38,
+          "figures": 12,
+          "deferred_pdf_pages": []
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-02/validation.json",
-          "sha256": "c82419180de6cf3cdf307dfad571f86ef1148721bc0bc54dc621fc368d4c30b0",
-          "bytes": 2563
-        },
-        "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-02/reproduction.json",
-          "sha256": "18791d01495a0419135ffbc54223320cc4421c5947b358276b38baee78031204",
-          "bytes": 31932
-        },
-        "checkpoint": "batch-02",
-        "unassembled_native_segments": [
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "native_segments": [
           {
             "name": "opening",
             "directory": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a",
@@ -156,17 +147,28 @@
             ]
           }
         ],
-        "all_body_pages_preserved_across_natives": true,
-        "ending_validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-03/validation.json",
-          "sha256": "3e99b786d2a91645bb38f29f086f89167ac906ff4494c0954e4d13ea6505e38b",
-          "bytes": 928
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-04/validation.json",
+          "sha256": "558fbcc80583f28e7613efd59090869611b758694b51c899cfebf0e4968160b6",
+          "bytes": 1027
         },
-        "ending_reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-03/reproduction.json",
-          "sha256": "aea2b236735c4e6cc30a0343337c68c3ce24a901d1b3deae2125afcc0e7a9f7a",
-          "bytes": 11889
-        }
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-04/reproduction.json",
+          "sha256": "13a6aeae847f9d37188aa59fb5b94dd516613ef6f3fb93c5b1422ad8dfe5fac4",
+          "bytes": 38825
+        },
+        "checkpoint": "batch-04",
+        "assembly_adapter": {
+          "path": "archive/pdf/1991-08/restoration/batch-04/native_adapter_r01.py",
+          "sha256": "1bb9b23126b61689d75c6758e2242a50676d6cebf7e038c803ed992cbb5f6be8",
+          "bytes": 3198
+        },
+        "derived_block_validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-04/derived-block-index-validation.json",
+          "sha256": "396265c9f01a0c33d26623109430024da5f87c00ecce2b0620992a65a0bf09ba",
+          "bytes": 635
+        },
+        "assembly_format": "native-block-index-1991-08-v1 (pinned adapter over core namespaced-v1)"
       }
     },
     {
@@ -651,60 +653,76 @@
         "sha256": "aea2b236735c4e6cc30a0343337c68c3ce24a901d1b3deae2125afcc0e7a9f7a",
         "bytes": 11889
       }
+    },
+    {
+      "name": "1991-08-batch-04",
+      "status": "complete",
+      "completed_at": "2026-10-28T02:09:33.659865+00:00",
+      "goal": "Complete immutable first-child assembly",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0002"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 6,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-04/validation.json",
+        "sha256": "558fbcc80583f28e7613efd59090869611b758694b51c899cfebf0e4968160b6",
+        "bytes": 1027
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-04/reproduction.json",
+        "sha256": "13a6aeae847f9d37188aa59fb5b94dd516613ef6f3fb93c5b1422ad8dfe5fac4",
+        "bytes": 38825
+      },
+      "adapter": {
+        "path": "archive/pdf/1991-08/restoration/batch-04/native_adapter_r01.py",
+        "sha256": "1bb9b23126b61689d75c6758e2242a50676d6cebf7e038c803ed992cbb5f6be8",
+        "bytes": 3198
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 2,
-    "partial": 1,
+    "readable": 3,
+    "partial": 0,
     "group_headings": 0,
     "unresolved": 32
   },
   "notes": [
-    "Full issue goal active;32identities require source review. Allsixfirst-childbodypagespreservedintwonatives;completeassemblypending. No global folio offset.",
+    "Full issue goal active;32identitiesawaitsourceownership/eligibilityreview. Firstchild0002completewithno pendingbodypages/assembly. No globalfoliooffset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-04",
-    "goal": "Assemble complete first child118–123from two immutable natives; no new OCR/correction. Validate every original and namespaced data context plus independent rebuild.",
+    "name": "1991-08-batch-05",
+    "goal": "Restore bounded opening of second child0003from verified124/printed138;verify actual endpoint/adjacency and at most six mapped pages.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0002"
+      "maso-1991-08-toc-0003"
     ],
-    "native_segments": [
-      {
-        "name": "opening",
-        "directory": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a",
-        "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-02-r01/image-processing-a/manifest.json",
-          "sha256": "c886db32c90c07d34876e2dd4dea345f0d91e7527d836cc74408f88e96140599",
-          "bytes": 22869
-        },
-        "pdf_pages": [
-          118,
-          119,
-          120,
-          121
-        ]
-      },
-      {
-        "name": "ending",
-        "directory": "archive/pdf/1991-08/packages/batch-03-r01/image-processing-b",
-        "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-03-r01/image-processing-b/manifest.json",
-          "sha256": "51d7c7cb34b6a2e5677658c0f40c7d6ef39347fef50d22e05f2e97c70f2e38f2",
-          "bytes": 11161
-        },
-        "pdf_pages": [
-          122,
-          123
-        ]
-      }
+    "mapping_targets": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "lookup_candidates": [
+      146,
+      147,
+      148,
+      149,
+      150
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    }
+    },
+    "note": "Candidateendpointsareunverified;canonicalinterviewreference162doesnotprovefeatureending. Preserveallnativeattempts/maps/raw/corrections;no reader rebuild."
   }
 }
