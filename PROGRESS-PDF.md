@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress: 35 entries account for three readable/sample-reviewed
-articles, one partial and 31 unresolved classifications. Second child0003's
-ending130–135/printed144–149 is restored in 293 independently exact files alongside
-its preserved 269-file opening. All twelve source pages are inspected/preserved;
-the ending's 83 crops and 2,918 indexed ranges validate and fresh 213 tests pass.
-Next assemble the two immutable natives into the complete article. The first
-child's pinned assembly adapter and all original evidence remain unchanged. See
+August 1991 restoration is in progress: 35 entries account for four readable/sample-reviewed
+articles, zero partial and31 unresolved classifications. Second child0003 is complete
+at124–135/printed138–149 in571 independently exact files, including562 original
+native files. All154 regions and5,897 indexed native/combined ranges validate;
+137 C rows,45 matrix cells and34 numeric table cells survive. Its pinned listing
+adapter leaves originals/core unchanged; the213-test baseline passes. Next verify
+interview0005's actual extent from observed148/162 and restore a bounded batch. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
