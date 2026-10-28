@@ -36,8 +36,9 @@ two readable/sample-reviewed articles, one partial and 32 unresolved classificat
 Batch02 restores the complete parent introduction116–117 and first-child opening
 118–121, within two tasks/six mapped pages/sixteen outside lookups. Both exports
 independently match; all 45 source crops, 33 OCR settings and 1,840 typed ranges pass;
-fresh 213 PDF tests pass. Final child pages122–123 and complete assembly remain
-pending. Next restore those two pages, then assemble separately. See
+fresh 213 PDF tests pass. Batch03 preserves final child pages122–123 in a second exact native. All six
+child body pages are available; next assemble both immutable natives without
+new OCR/correction. The article remains partial until assembly. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
