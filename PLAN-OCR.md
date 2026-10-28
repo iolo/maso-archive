@@ -24,35 +24,28 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - August 1991 is active: eleven readable/sample-reviewed articles, one partial,
-  two non-owning headings and 21 unresolved entries. B+ tree child0014 actual
-  extent 226–238 now has 226–237 preserved across immutable 339-file opening and
-  348-file middle natives. Batch24 validates 96 crops, 71 blocks, 15 originals,
-  81 settings (one eng code/80 kor+eng), 5,997 typed ranges and 42 complete listing
-  rows/1,093 bytes, all unnumbered. Fifteen captions, 373 spatial fields/72 reading
-  rows and five visible node grids with no key text remain source-linked. No zeros,
-  pointer bytes or exact empty-cell counts inferred. Seven joined blocks retain
-  ten internal prose/title boundaries. Incoming 231 여 +232 러가지 and outgoing
-  237 B+트리의 +238 균형 are explicit; outgoing separator is a space.
-  All 837 uncertainty records and 19 opaque variants retain then syntax, 5과정,
-  ②번째, B−, 착가, case/figure references and independent diagram/prose values without
-  execution or algorithm repair. Source-direct fallback covers empty figure21 raw
-  and damaged diagram/code/key fields. All 96 final crops reviewed before 81 initial
-  calls after 33 pre-OCR refinements. All raws read before one source pass; zero
-  retries/post-OCR repairs. A residual (down) +} Ref was corrected to visible source
-  (down)과 Ref during final review of the same pass in fresh reviewed-text-r01;
-  earlier draft retained before export. All 13,532 prior files and 30 core modules
-  unchanged; 213-test baseline reused. Next batch25 restores final238/252 from the
-  retained 3000px render. Review exact crops before OCR and all raws before one pass.
-  Incoming final continuation must match middle's outgoing declaration:
-  kind=prose,prior_segment=b,prior_region=p237-right-tail,prior_text_end=B+트리의,
-  text_start=균형을,join_separator=space. Preserve figures22–24, captions, state
-  labels, empty grids, 끝내며 and closing ornament. BTREE.C in closing prose is a
-  filename, not an unprinted full listing; empty code/listing indexes are correct
-  if no code appears. Full actual three-native assembly qualification follows
-  separately. Whole-issue accounting/index/cover/closeout remain pending; no reader
-  rebuild. Selected 0003 requires batch07 `listing_adapter_r01.install()`; 0002
-  requires batch04 native adapter. See [August progress](docs/progress/9108.md)
-  and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+  two non-owning headings and 21 unresolved entries. B+ tree0014 actual226–238
+  now has all thirteen pages preserved across three immutable natives totaling
+  759 files. Batch25 final238/252 validates 19 source-pixel crops, 14 blocks,
+  four originals, 15 kor+eng settings and 920 typed ranges. Three captions,
+  98 spatial fields/20 reading rows and five empty grids remain source-linked.
+  All 138 uncertainties and 14 opaque variants retain figure22(c/d/e), independent
+  I/L keys, T/W/X/Y final leaf readings and BTREE.C as a prose filename. No code
+  on final238: empty listing indexes and absent listing.txt are correct. No zeros,
+  pointers, exact grid counts, source semantics or glyph identities inferred.
+  All19 exact crops reviewed before15 initial recognitions; all15 raws read before
+  one source pass, zero retries/repairs. Empty figure23 caption and damaged diagram
+  raws use source-direct fallback. All14,743 prior files and30 core modules unchanged;
+  213-test baseline reused. Next batch26 qualifies actual three-native a/b/c assembly
+  with standard namespaced-v1. Preserve all native metadata and independently project
+  every typed occurrence into combined article/listing contexts. Final c's missing
+  listing is empty bytes; combined a/b listing has76 physical rows/2,232 bytes.
+  Incoming links:231 여 +232 러가지 without separator;237 B+트리의 +238 균형
+  with a space. Resolve only obsolete stage deferrals. No new OCR/source correction
+  or reader rebuild. Whole-issue accounting/index/cover/closeout remain pending.
+  Selected0003 requires batch07 `listing_adapter_r01.install()`;0002 requires
+  batch04 native adapter. See [August progress](docs/progress/9108.md) and
+  [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:
   51 identities account for 36 readable/sample-reviewed articles, 14 non-owning

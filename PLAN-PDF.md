@@ -33,21 +33,21 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 is active for August 1991. Its 35 identities account for eleven readable,
 sample-reviewed articles, one partial, two non-owning headings and 21 unresolved
-entries. B+ tree child0014 now has PDF226–237 preserved across two immutable
-natives: opening339 files and middle348. Actual final238/252 and complete
-assembly remain pending. Batch24 validates 96 source-pixel crops, 71 blocks,
-15 originals, 81 settings and 5,997 typed article/listing ranges. Its deletion
-listing retains 42 complete physical rows covering 1,093 bytes, all unnumbered.
-Fifteen captions, 373 spatial fields, 72 diagram reading rows and five empty
-node grids remain source-linked. Seven joined blocks retain ten internal
-boundaries; both native prose joins are explicit. All 837 uncertainty records
-and 19 opaque variants preserve source code, spelling, figure references and
-independent diagram/prose values without semantic repair. All 13,532 prior files
-and 30 core modules are unchanged; 213-test baseline reused. Next restore final238,
-then qualify the complete three-native assembly. The incoming final-page join is
-237 B+트리의 +238 균형 with a space. Whole-issue accounting, index, cover and
-closeout remain pending. No reader rebuild. See [August progress](docs/progress/9108.md)
-and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+entries. B+ tree child0014 now has all PDF226–238/printed240–252 preserved across
+three immutable natives totaling 759 files. Batch25 final238 validates 19 source
+pixel crops, 14 blocks, four originals, 15 kor+eng settings and 920 typed ranges.
+Three captions, 98 spatial fields/20 reading rows and five empty-grid records
+remain source-linked. All 138 uncertainty records and 14 opaque variants retain
+printed figure22(c/d/e) references, independent I/L and W glyph readings and
+BTREE.C as a prose filename, with no invented listing. Incoming 237 B+트리의
++238 균형 uses a space; internal 앞으+로 joins columns. All 19 crops reviewed
+before 15 initial calls, all raws read before one source pass; zero retries or
+repairs. All 14,743 prior files and 30 core modules unchanged; 213-test baseline
+reused. Next qualify the complete actual three-native assembly, preserving every
+native metadata field and independently projecting every typed range. Whole-issue
+accounting, index, cover and closeout remain pending. No reader rebuild. See
+[August progress](docs/progress/9108.md) and
+[ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28
 

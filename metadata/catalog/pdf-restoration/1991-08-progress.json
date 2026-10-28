@@ -1170,7 +1170,8 @@
         "Ten originals include section panel,listing1,seven numbered diagrams andboxed six-case summary. Eight captions,five internal prose joins,336 spatial fields/84 reading rows,position table two headers/eight nonblank cells/four actual blanks/four position labels andtwo credits remain source-linked. Other diagram blank/rule/arrow counts andgeometry not reconstructed.",
         "33 pre-OCR refinements across two revisions. All90 final crops viewed or byte-identical to viewed earlier crops before80 initial recognitions. All80 drafts read before one source pass,zero retries/post-OCR repairs. Source-direct fallback preserves empty figure2 draft anddamaged diagram/code/comment/identifier fields. All414 uncertainty records and19 opaque variants retain printed then/ROOT assignment/nodo_no/comma condition,insoverflow prose spelling,CC cell andindependent WXY/WXYZ candidates without compilation or algorithm repair.",
         "231 right prose ends 여;232 begins 러가지 상황. Deferred word join retained explicitly; remaining232–238 andcomplete article assembly pending. Early scope-note 한국대 was corrected to source-crop 단국대 in fresh scope-reviewed-r01 before OCR; earlier note remains retained.",
-        "Batch24 preserves middle232–237/246–251 in348 independently exact files.96 source-pixel crops,71 blocks,15 original panels,81 settings (one eng code/80 kor+eng),5997 typed ranges and42 complete physical/listing rows partitioning1093bytes validate. Fourteen diagrams8–21 andlisting2 retain15 caption associations,373 spatial fields/72 reading rows andfive visible node grids with no key text,without zeros or box/pointer inference. Seven joined blocks preserve ten internal prose/title boundaries. Incoming231 여 +232 러가지 andoutgoing237 B+트리의 +238 균형 remain explicit,including standard continuation declarations for planned a/b/c assembly. All837 uncertainty records and19 opaque variants retain printed then syntax,5과정,②번째,B−,착가,figure/case references and independent diagram/prose values without compilation or semantic repair.33 pre-OCR refinements,all81 raws read before one source pass,zero retries/post-OCR repairs. Empty figure21 raw anddamaged diagram/code/key fields use source-direct fallback. A residual raw (down) +} Ref was corrected to source (down)과 Ref during the same pass in fresh reviewed-text-r01; earlier draft retained. All13532 prior files and30 core modules unchanged;213-test baseline reused. Final238 andfull assembly remain pending."
+        "Batch24 preserves middle232–237/246–251 in348 independently exact files.96 source-pixel crops,71 blocks,15 original panels,81 settings (one eng code/80 kor+eng),5997 typed ranges and42 complete physical/listing rows partitioning1093bytes validate. Fourteen diagrams8–21 andlisting2 retain15 caption associations,373 spatial fields/72 reading rows andfive visible node grids with no key text,without zeros or box/pointer inference. Seven joined blocks preserve ten internal prose/title boundaries. Incoming231 여 +232 러가지 andoutgoing237 B+트리의 +238 균형 remain explicit,including standard continuation declarations for planned a/b/c assembly. All837 uncertainty records and19 opaque variants retain printed then syntax,5과정,②번째,B−,착가,figure/case references and independent diagram/prose values without compilation or semantic repair.33 pre-OCR refinements,all81 raws read before one source pass,zero retries/post-OCR repairs. Empty figure21 raw anddamaged diagram/code/key fields use source-direct fallback. A residual raw (down) +} Ref was corrected to source (down)과 Ref during the same pass in fresh reviewed-text-r01; earlier draft retained. All13532 prior files and30 core modules unchanged;213-test baseline reused. Final238 andfull assembly remain pending.",
+        "Batch25 preserves final238/252 in72 independently exact files.19 source-pixel crops,14 blocks,four originals,15 kor+eng settings and920 typed article ranges validate. Figures22–24 retain three captions,98 spatial fields/20 reading rows andfive empty-grid records; closing ornament original retained. Internal 앞으+로 joins columns; incoming237 B+트리의 +238 균형 matches middle with a space. All138 uncertainty records and14 opaque variants retain printed figure22(c/d/e), independent I/L keys, T/W/X/Y final leaf readings and BTREE.C prose filename. No invented listing,zeros,pointers,geometry or semantic repair. All19 crops before15 calls,all15 raws before one source pass,zero retries/repairs. Empty caption/damaged diagram raws use source-direct fallback. All14743 prior files and30 core modules unchanged;213-test baseline reused. All13 pages now preserved across759 native files; full three-native assembly pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-08/packages/batch-23-r01/btree-a",
@@ -1281,6 +1282,28 @@
               "sha256": "a5ecf748d3ad43d35e294fb8ef33a6cdd9dcd49faa10b3a3bdbecc4a59aec438",
               "bytes": 61565
             }
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1991-08/packages/batch-25-r01/btree-c",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-25-r01/btree-c/manifest.json",
+              "sha256": "77f70c97e02315b4baf58672ab7c0ae770c6c8c1e8c8a9f79a66c4e678dc07b7",
+              "bytes": 12493
+            },
+            "pdf_pages": [
+              238
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-25/validation.json",
+              "sha256": "32e39108e22c56caabcfbc2d7e64cc31deb9b29f840af770db81445ee9d520bd",
+              "bytes": 1885
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-25/reproduction.json",
+              "sha256": "d035be528d9f615afc4a2f1d63f068fa12c8e5f09b22bb615c93ca776445ee27",
+              "bytes": 13209
+            }
           }
         ],
         "aggregate_native_coverage": {
@@ -1296,7 +1319,8 @@
             234,
             235,
             236,
-            237
+            237,
+            238
           ],
           "observed_printed_pages": [
             "240",
@@ -1310,23 +1334,23 @@
             "248",
             "249",
             "250",
-            "251"
+            "251",
+            "252"
           ],
-          "regions": 186,
-          "blocks": 146,
-          "figures": 25,
-          "deferred_pdf_pages": [
-            238
-          ],
-          "scope": "Twelve pages preserved across two immutable partial natives; final238 andfull article assembly pending."
+          "regions": 205,
+          "blocks": 160,
+          "figures": 29,
+          "deferred_pdf_pages": [],
+          "scope": "All thirteen body pages preserved across three immutable partial natives; complete article assembly pending."
         },
-        "all_body_pages_preserved_across_natives": false,
+        "all_body_pages_preserved_across_natives": true,
         "middle_checkpoint": "batch-24",
         "native_stage_history": {
           "path": "archive/pdf/1991-08/restoration/batch-23/ledger-complete.json",
           "sha256": "3ee75ed1719ed1775e443513f6a3b9527235aabaafe035b124d2cdde1ba753bf",
           "bytes": 95367
-        }
+        },
+        "ending_checkpoint": "batch-25"
       }
     },
     {
@@ -2202,6 +2226,34 @@
         "sha256": "a5ecf748d3ad43d35e294fb8ef33a6cdd9dcd49faa10b3a3bdbecc4a59aec438",
         "bytes": 61565
       }
+    },
+    {
+      "name": "1991-08-batch-25",
+      "status": "complete",
+      "completed_at": "2026-10-28T13:03:33.485928+00:00",
+      "goal": "Restore B+ tree0014 final238/252",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0014"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "outside_lookup_pages": 3,
+      "initial_recognitions": 15,
+      "eng_code_regions": 0,
+      "kor_eng_regions": 15,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-25/validation.json",
+        "sha256": "32e39108e22c56caabcfbc2d7e64cc31deb9b29f840af770db81445ee9d520bd",
+        "bytes": 1885
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-25/reproduction.json",
+        "sha256": "d035be528d9f615afc4a2f1d63f068fa12c8e5f09b22bb615c93ca776445ee27",
+        "bytes": 13209
+      }
     }
   ],
   "totals": {
@@ -2212,29 +2264,23 @@
     "unresolved": 21
   },
   "notes": [
-    "Full issue goal active:21 identities still require source ownership/eligibility review. B+ tree0014 actual226–238;226–237 now preserved across two immutable natives. Final238 andcomplete assembly pending. All earlier readable outcomes unchanged. No global folio offset.",
+    "Full issue goal active:21 identities still require source ownership/eligibility review. B+ tree0014 actual226–238 now preserved across three immutable natives; complete assembly pending. All earlier readable outcomes unchanged. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-25",
-    "goal": "Restore B+ tree0014 final238/252, then separately assemble all13 pages from three immutable natives.",
+    "name": "1991-08-batch-26",
+    "goal": "Qualify complete B+ tree0014 assembly from three immutable natives covering226–238.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0014"
     ],
-    "mapping_targets": [
-      238
-    ],
-    "outside_lookup_candidates": [
-      237,
-      239,
-      240
-    ],
+    "mapping_targets": [],
+    "outside_lookup_candidates": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained batch23/source-review/pdf-238.png at3000px. Actual ending contains figures22–24, 끝내며 conclusion andclosing ornament;239 advertisement and240 independent next title already reviewed. Review all final exact crops before OCR; all raw drafts before one source pass. Incoming middle237 region p237-right-tail ends B+트리의; final238 body begins 균형을. Add incoming kind=prose,prior_segment=b,prior_region=p237-right-tail,prior_text_end=B+트리의,text_start=균형을,join_separator=space to match retained outgoing declaration. Keep literal diagram state labels/keys/empty grids/captions,figure-reference errors andending. BTREE.C filename in closing prose is not a complete source listing; do not invent code. Retain complete block/review/spatial metadata; if no code,empty listing indexes are correct. Preserve687 immutable native files. Full actual three-native assembler qualification follows separately; no reader rebuild."
+    "note": "Use standard namespaced-v1 actual a/b/c assembly, preserving all759 native files and every source-local metadata field. Independently project every typed occurrence into combined article/listing contexts. Resolve only obsolete stage deferrals. Match231 여 +232 러가지 and237 B+트리의 +238 균형 formal prose links; no source normalization. Final c has no listing.txt; treat absent native listing as empty bytes in audit. Combined listing76 physical rows/2232 bytes from a/b only. Verify all205 source-pixel crops and176 settings, native inventories, original figures/captions/spatial fields/uncertainties and independent rebuild. No new OCR/source correction or reader rebuild."
   }
 }

@@ -7,14 +7,14 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: eleven readable/sample-reviewed articles, one
-partial, two non-owning headings and 21 unresolved identities. B+ tree child0014
-now has PDF226–237 preserved across 687 immutable native files. Middle232–237
-validates 96 crops, 81 settings, 5,997 typed ranges and 42 complete listing rows/
-1,093 bytes. Fifteen originals/captions, 373 spatial fields and 837 uncertainty
-records remain source-linked. All 13,532 prior files and 30 core modules unchanged;
-213-test baseline reused. Next restore final238, then complete three-native
-assembly. Whole-issue accounting, index, cover and closeout remain pending.
-See [August progress](docs/progress/9108.md) and
+partial, two non-owning headings and 21 unresolved identities. B+ tree0014 now
+has all PDF226–238 preserved across 759 immutable native files. Final238 validates
+19 crops, 15 settings, 920 typed ranges, four originals/three captions and 98 spatial
+fields/20 reading rows. Source errors, I/L/W glyph candidates and empty grids remain
+literal; BTREE.C is a prose filename, with no invented listing. All14,743 prior files
+and30 core modules unchanged;213-test baseline reused. Next qualify full actual
+three-native assembly. Whole-issue accounting, index, cover and closeout remain
+pending. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:
