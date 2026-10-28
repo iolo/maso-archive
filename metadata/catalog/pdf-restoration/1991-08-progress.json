@@ -1030,7 +1030,8 @@
         "All423 selected files independently exact.111 source-pixel crops,97 blocks,ten original panels,101 settings and4,596 typed article/listing ranges validate.28 code blocks retain134 complete physical/listing rows partitioning3910bytes. Six actual BASIC labels are distinct from twelve opaque intermediate offsets and numeric console output.",
         "Structured evidence retains nine caption associations,four prose joins,postfix table three headers/four rows/ten cells/two blanks,expression six fields/four below-field labels,22 spatial fields,12 offset rows/34 cells/four explanatory rows,five console rows,22 structure fields andtwo credits. Four decorative equals-band markers have unknown original counts; marker interiors excluded from source-derived token/identifier/numeric/glyph indexes.",
         "Two retained map revisions contain116 pre-OCR refinements. All111 final crops reviewed before101 initial calls:28eng code,73kor+eng other. All raw drafts read before one source pass,zero retries/post-OCR repairs. Source-direct fallback handles damaged code comments/pseudocode/tables. Sixty-four punctuation/glyph uncertainties,source wording,missing terminators andopaque offsets remain literal without compilation/semantic repair.",
-        "First correction helper failed before outputs on overlapping raw substitutions; fresh bounded replacements and no-write diagnostic complete same source pass. First writer failed on source physical-word wrap after writing101 transcripts; fresh writer verifies/reuses exact files and fixes the metadata range,including repeated diagram tail-mark occurrence. All failed helpers/logs retained. Final222–224 andcomplete article assembly pending."
+        "First correction helper failed before outputs on overlapping raw substitutions; fresh bounded replacements and no-write diagnostic complete same source pass. First writer failed on source physical-word wrap after writing101 transcripts; fresh writer verifies/reuses exact files and fixes the metadata range,including repeated diagram tail-mark occurrence. All failed helpers/logs retained. Final222–224 andcomplete article assembly pending.",
+        "Batch21 preserves final CODE.C222–224/236–238 in52 independently exact files:13 pixel crops,ten blocks,three uncaptioned original frames,ten settings (six eng code/four kor+eng labels),4114 exact typed ranges and316 complete physical/listing rows partitioning7649bytes. All rows unnumbered. Seven quoted strings,eight literal escapes,23 function headers andfive column continuities remain source-linked. Twelve unknown-count decorative bands andone faint-margin marker exclude editorial interiors from source-derived indexes. All268 punctuation/glyph uncertainties andsource defects remain literal, including ssign_code(),missing terminator,bare-assignment/else andedge-clipped exis. Four pre-OCR refinements,all ten raws read before one source pass,zero retries/post-OCR repairs. Initial verifier guessed21 function headers;fresh revision validates23 actual source headers without transcription changes. Complete article assembly remains pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-08/packages/batch-20-r01/basic-a",
@@ -1099,7 +1100,86 @@
         },
         "private_adapter_required": false,
         "full_assembler_checked": false,
-        "checkpoint": "batch-20"
+        "checkpoint": "batch-20",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-08/packages/batch-20-r01/basic-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-20-r01/basic-a/manifest.json",
+              "sha256": "90ac5a2fda758f9284c8695f1443b6eeec6a651f9bcb4344810750e846062b41",
+              "bytes": 74030
+            },
+            "pdf_pages": [
+              216,
+              217,
+              218,
+              219,
+              220,
+              221
+            ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-08/packages/batch-21-r01/basic-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-21-r01/basic-b/manifest.json",
+              "sha256": "0cfda6ba60890dba64d1b587a6c70b80ccbb5de8c92734000a962e2dc594b434",
+              "bytes": 8783
+            },
+            "pdf_pages": [
+              222,
+              223,
+              224
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-21/validation.json",
+              "sha256": "360efd543fdb5ea14d51430e4e78543a63898b55f67fce5938d017bef2be19f2",
+              "bytes": 1832
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-21/reproduction.json",
+              "sha256": "6bd3671101c450c54edec33af3f14d2283ef7f51a245530f7ff2ccdb88dc98cf",
+              "bytes": 9498
+            }
+          }
+        ],
+        "aggregate_native_coverage": {
+          "pdf_pages": [
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224
+          ],
+          "printed_pages": [
+            "230",
+            "231",
+            "232",
+            "233",
+            "234",
+            "235",
+            "236",
+            "237",
+            "238"
+          ],
+          "regions": 124,
+          "blocks": 107,
+          "figures": 13,
+          "deferred_pdf_pages": [],
+          "scope": "All nine pages preserved across two immutable partial natives; full assembly pending."
+        },
+        "all_body_pages_preserved_across_natives": true,
+        "ending_checkpoint": "batch-21",
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-20/ledger-complete.json",
+          "sha256": "a5c4b293854a62518260c0b6421a7a575308bb3503b331aea5ade87ffdc0b3d4",
+          "bytes": 84153
+        }
       }
     },
     {
@@ -1877,6 +1957,34 @@
         "sha256": "c305dbe71a29585e26dc771073d473c72a291b0a101bc27c0c9cb2d1f3786a74",
         "bytes": 74746
       }
+    },
+    {
+      "name": "1991-08-batch-21",
+      "status": "complete",
+      "completed_at": "2026-10-28T11:41:27.876239+00:00",
+      "goal": "Restore intrinsic CODE.C final222–224",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0013"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "outside_lookup_pages": 3,
+      "initial_recognitions": 10,
+      "eng_code_regions": 6,
+      "kor_eng_regions": 4,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 4,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-21/validation.json",
+        "sha256": "360efd543fdb5ea14d51430e4e78543a63898b55f67fce5938d017bef2be19f2",
+        "bytes": 1832
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-21/reproduction.json",
+        "sha256": "6bd3671101c450c54edec33af3f14d2283ef7f51a245530f7ff2ccdb88dc98cf",
+        "bytes": 9498
+      }
     }
   ],
   "totals": {
@@ -1887,31 +1995,34 @@
     "unresolved": 22
   },
   "notes": [
-    "Full issue goal active:22 identities still require source ownership/eligibility review. BASIC-interpreter0013 opening216–221 is partial; intrinsic CODE.C final222–224 and complete assembly remain pending. All selected complete articles retain prior outcomes. No global folio offset.",
+    "Full issue goal active:22 identities still require source ownership/eligibility review. BASIC-interpreter0013 all216–224 pages preserved across two immutable natives; complete assembly pending. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-21",
-    "goal": "Restore intrinsic CODE.C continuation/final222–224 for BASIC-interpreter0013; then separately assemble immutable216–221 and222–224 natives.",
+    "name": "1991-08-batch-22",
+    "goal": "Assemble full BASIC-interpreter216–224 from two immutable natives; validate article/listing projections, complete rows and every retained source metadata range.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0013"
     ],
-    "mapping_targets": [
+    "mapping_targets": [],
+    "outside_lookup_pages": [],
+    "expected_pdf_pages": [
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
       222,
       223,
       224
-    ],
-    "outside_lookup_candidates": [
-      221,
-      225,
-      226
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000px renders222–224; fully inspect223 and all selected crops before OCR. Source221 ends whole make-assign comment,222 begins function header; no carried physical row or prose join. Preserve literal source code,physical wraps,quoted strings,decorative-band unknown counts andsource errors without syntax repair. Use eng code/kor+eng labels. Keep complete block/review/listing/physical indexes and CODE.C grouping; native listing labels are unnumbered except actual examples,not address offsets. Source encoded bytes,exact spacing/glyphs andexecution remain unverified. Preserve423openingfiles and all helper revisions. Full two-native assembler qualification remains pending; no reader rebuild."
+    "note": "Use standard namespaced-v1 assembler with two real natives. Preserve475 native files,124 regions,107 blocks,13 originals,111 settings,450 physical/listing rows and11559 listing bytes. Six actual BASIC labels from opening only. Keep CODE.C grouping,all17 editorial markers/16 decorative bands,all332 source uncertainties andsource errors. No carried physical row or midword native join. Resolve only exact obsolete stage notes, deduplicated by segment/note. No reader rebuild."
   }
 }

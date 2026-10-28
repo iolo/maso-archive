@@ -7,14 +7,14 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: ten readable/sample-reviewed articles, one
-partial, two non-owning headings and 22 unresolved identities. BASIC-interpreter0013
-opening PDF216–221 is preserved in 423 independently exact files. All 111 source
-crops, 101 settings and 4,596 article/listing ranges pass. Its 28 code blocks retain
-134 physical/listing rows covering 3,910 bytes. Six actual BASIC labels stay separate
-from opaque offsets and console values. All 10,177 prior files and 30 core modules
-are unchanged; the 213-test baseline is reused. Next restore intrinsic CODE.C
-final222–224 and assemble the complete nine-page article. Whole-issue accounting,
-index, cover and closeout remain pending. See [August progress](docs/progress/9108.md)
+partial, two non-owning headings and 22 unresolved identities. BASIC-interpreter 0013
+all PDF 216–224 pages are preserved across immutable 423-file opening and 52-file
+ending natives. Batch 21 ending validates 13 crops, ten settings, 4, 114 typed ranges
+and 316 complete listing rows/7, 649 bytes. Source errors, unknown-count markers,
+quoted strings, physical wraps and 268 source uncertainties remain explicit.
+All 11, 642 prior files and 30 core modules are unchanged;213-test baseline reused.
+Next assemble and validate the full nine-page article. Whole-issue accounting,
+index, cover andcloseout remain pending. See [August progress](docs/progress/9108.md)
 and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:

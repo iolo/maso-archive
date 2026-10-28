@@ -33,17 +33,18 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 is active for August 1991. Its 35 identities account for ten readable,
 sample-reviewed articles, one partial, two non-owning headings and 22 unresolved
-entries. BASIC-interpreter0013 opening PDF216–221/printed230–235 is preserved in
-423 independently exact files. Actual extent is216–224: prose closes221, but
-CODE.C continues through224. All 111 source-pixel crops, 97 blocks, ten originals,
-101 settings and 4,596 typed article/listing ranges validate. Twenty-eight code
-blocks retain 134 physical/listing rows covering 3,910 bytes. Six actual BASIC
-labels remain distinct from twelve opaque offsets and console output. Tables,
-spatial fields, nine captions, four joins, four unknown-count equals-band markers
-and 64 glyph/punctuation uncertainties remain source-linked. All 10,177 prior
-files and 30 core modules are unchanged; the 213-test baseline is reused. Next
-restore CODE.C final222–224, then assemble both immutable natives. Full assembler
-qualification and whole-issue accounting, index, cover and closeout remain pending.
+entries. BASIC-interpreter 0013 now has all PDF 216–224/printed 230–238 pages
+preserved across two immutable natives: opening 423 files and ending 52 files.
+Batch 21 final CODE.C 222–224 validates 13 source-pixel crops, ten blocks, three
+originals, ten settings and 4, 114 typed article/listing ranges. Six code blocks
+retain 316 complete physical/listing rows covering 7, 649 bytes, all unnumbered.
+Twelve unknown-count decorative bands and one faint-margin marker remain explicit;
+editorial interiors are excluded from source-derived indexes. Seven strings,
+eight literal escapes, 23 function headers and 268 source uncertainties remain
+source-linked. Printed errors and physical wraps are preserved without code repair.
+All 11, 642 prior files and 30 core modules are unchanged;213-test baseline reused.
+Next assemble both real natives as full 216–224 article and qualify the standard
+assembler. Whole-issue accounting, index, cover andcloseout remain pending.
 No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
