@@ -23,25 +23,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active:35 canonical identities account for seven readable,
-  sample-reviewed articles,zero partial,one non-owning heading and27 unresolved
-  classifications. EMI0008 is complete atPDF180–183/printed194–197 in107 independently
-  exact JSON/assets files. All27 regions,17 blocks,three original graphics,24
-  settings,seven joins and1,699 typed ranges validate. Five crop faults repaired
-  before OCR through two retained map revisions;24 initial recognitions,zero
-  retries,all raws read before one source pass. Lower183 advertisement excluded.
-  Graphic-internal chart labels/units/ticks and handwritten signature remain
-  pixels/manual-reading-pending;historical claims/source errors remain literal.
-  All5,893 prior issue files and30 core files unchanged;213-test baseline reused.
-  Next restore Mac0009 atPDF172–178,using six-page opening native,final178 native,
-  then complete assembly. Reuse retained3000px views and inspect every interior
-  page/crop/folio;178 lower recruitment advertisement needs explicit exclusion.
-  Whole-issue accounting,cover,index and closeout remain pending;no reader rebuild.
-  Complete CompuServe0007 uses standard namespaced assembly without adapter.
-  Selected second feature0003 still requires pinned batch07
-  `listing_adapter_r01.install()` before assembly/checking;first feature0002
-  requires its retained batch04 native adapter. Original natives remain unchanged.
-  See [August progress](docs/progress/9108.md) and
+- August 1991 is active:35 identities account for seven readable/sample-reviewed
+  articles,one partial,one non-owning heading and26 unresolved entries. Mac0009
+  openingPDF172–177/printed186–191 is preserved in196 independently exact files.
+  All50 crops,46 settings,37 blocks,four original photos/captions,nine joins,three
+  dream-response pairs and3,615 typed ranges validate. Seven top-edge refinements
+  preceded46 initial recognitions. One left-edge indent fault found during raw reading
+  was repaired/reviewed/re-recognized once before source correction;45 unchanged
+  results reused with exact proofs. All initial/repaired drafts read before one
+  source pass;zero unchanged retries. No all-final-crops-before-initial-OCR claim.
+  All6,328 prior files and30 core modules unchanged;213-test baseline reused.
+  Next restore final178 fourth pair/conclusion,excluding lower recruitment ad,then
+  assemble. Reuse retained3000px views;178 visible folio remains unverified/null.
+  Original photo-internal screens/chip markings remain pixels;source errors/claims
+  andquote/glyph approximations retained. Whole-issue cover/index/accounting/closeout
+  pending;no reader rebuild. Complete CompuServe0007 uses standard assembly.
+  Selected0003 requires batch07 `listing_adapter_r01.install()`;0002 requires its
+  retained batch04 native adapter. Immutable natives remain unchanged. See
+  [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:

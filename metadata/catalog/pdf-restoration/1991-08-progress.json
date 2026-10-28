@@ -668,12 +668,78 @@
       "toc_entry_id": "maso-1991-08-toc-0009",
       "title": "이영식의 맥데이트 : IBM과 애플의 악수",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null,
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent title,author and opening172/printed186;171 is full academy advertisement. All six consecutive172–177/printed186–191 body pages individually reviewed and restored. Canonical identity/title/reference unchanged.",
+        "178 has fourth dream/response andconclusion above independent recruitment advertisement;179 full peripheral advertisement. Final178 andcomplete article assembly pending;177 ends completed third response,so no midword join needed at native boundary.",
+        "Fifty source regions,37 blocks,four original product photographs/four captions,three numbered dream-response pairs andnine exact continuation/paragraph boundaries retained. Source spellings,model names,predictions andclaims remain literal.",
+        "Seven top-edge refinements before46 initial recognitions. One left-edge fault discovered during raw reading,extended/reviewed/re-recognized once andread before source correction.45 unchanged recognition results reused with exact proofs;one source pass andzero unchanged retries."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-13-r01/mac-a",
+        "article_id": "scan-maso-1991-08-toc-0009",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-13-r01/mac-a/manifest.json",
+          "sha256": "db56777baf26550aef94fc30f904f11bd596fd093a33f989d04fd53842b9ae4c",
+          "bytes": 34245
+        },
+        "coverage": {
+          "pdf_pages": [
+            172,
+            173,
+            174,
+            175,
+            176,
+            177
+          ],
+          "printed_pages": [
+            "186",
+            "187",
+            "188",
+            "189",
+            "190",
+            "191"
+          ],
+          "regions": 50,
+          "blocks": 37,
+          "figures": 4,
+          "deferred_pdf_pages": [
+            178
+          ],
+          "native_scope_only": true
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "full_source_extent": {
+          "start_pdf_page": 172,
+          "end_pdf_page": 178,
+          "previous_pdf_page": 171,
+          "previous_role": "advertisement",
+          "following_pdf_page": 179,
+          "following_role": "advertisement",
+          "ending_visible_folio": null
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-13/validation.json",
+          "sha256": "45f1a59eeace8f2e5ccca6e1d7c9d898cb43a0d265c237fecab257ee5c06100c",
+          "bytes": 1913
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-13/reproduction.json",
+          "sha256": "68e723d7cd6e10784531d5237b4e3a3407bf48cb017bc787b9f4f524e05c1732",
+          "bytes": 34956
+        },
+        "ocr_repair": {
+          "path": "archive/pdf/1991-08/restoration/batch-13/repair-completed.json",
+          "sha256": "dbc4ce8ef289bb4d5a006c53a1fdd1d2ba129a68736ad7521c50ad0a5053ab0f",
+          "bytes": 25681
+        },
+        "checkpoint": "batch-13"
+      },
       "source_location_observation": {
         "record": {
           "path": "archive/pdf/1991-08/restoration/batch-12/source-location-review.json",
@@ -1289,48 +1355,60 @@
         "sha256": "1b125c02a65d4ba6e880368d1bf964baa4fd729277bfb429b2d81fc9c5cd1516",
         "bytes": 18714
       }
+    },
+    {
+      "name": "1991-08-batch-13",
+      "status": "complete",
+      "completed_at": "2026-10-28T07:25:18.232177+00:00",
+      "goal": "Restore six-page Mac opening172–177 as immutable partial native",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0009"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 3,
+      "initial_recognitions": 46,
+      "changed_input_repairs": 1,
+      "total_recognition_invocations": 47,
+      "unchanged_recognitions_reused": 45,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_refinements": 7,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-13/validation.json",
+        "sha256": "45f1a59eeace8f2e5ccca6e1d7c9d898cb43a0d265c237fecab257ee5c06100c",
+        "bytes": 1913
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-13/reproduction.json",
+        "sha256": "68e723d7cd6e10784531d5237b4e3a3407bf48cb017bc787b9f4f524e05c1732",
+        "bytes": 34956
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
     "readable": 7,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 1,
-    "unresolved": 27
+    "unresolved": 26
   },
   "notes": [
-    "Full issue goal active:27 identities still require source ownership/eligibility review. EMI0008 complete180–183/printed194–197. Mac0009 located172–178,not restored. No pending bodies/assemblies among selected readable articles. No global folio offset.",
+    "Full issue goal active:26 identities still require source ownership/eligibility review. Mac0009 opening172–177 restored as partial;final178 andcomplete assembly pending. EMI0008 complete180–183. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-13",
-    "goal": "Restore bounded Mac0009 opening/body172–177 after individual full-page and crop/folio/continuation review;ending178 requires separate native then assembly.",
+    "name": "1991-08-batch-14",
+    "goal": "Restore Mac final178 fourth dream/response andconclusion,excluding independent lower recruitment advertisement;then separate complete article assembly.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0009"
     ],
     "mapping_targets": [
-      172,
-      173,
-      174,
-      175,
-      176,
-      177
+      178
     ],
-    "known_source_extent": {
-      "start_pdf_page": 172,
-      "end_pdf_page": 178,
-      "opening_printed_page": "186",
-      "ending_visible_folio": null,
-      "source_location_evidence": {
-        "path": "archive/pdf/1991-08/restoration/batch-12/source-location-review.json",
-        "sha256": "c03306392b540616933387470a6feef1999ba3ad8aa8d7a9d952f6a68fb1c357",
-        "bytes": 11183
-      }
-    },
     "outside_lookup_candidates": [
-      171,
-      178,
+      177,
       179
     ],
     "limits": {
@@ -1338,6 +1416,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000px source views;do not rerun EMI OCR. Check every Mac interior page before mapping. Seven-page article must remain partial until final178 native and complete assembly.178 lower recruitment advertisement requires explicit exclusion. Preserve source spelling,claims,figures/captions and any tables/code literally. No reader rebuild."
+    "note": "Reuse retained3000px178 source;actual visible folio unverified/null. Preserve dream4,response4 andconclusion separately;no midword join with177. Explicit lower advertisement exclusion required. Keep opening native196files unchanged andstatus partial until complete assembly. No reader rebuild."
   }
 }

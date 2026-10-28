@@ -31,18 +31,16 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its 35 canonical identities currently account for
-seven readable/sample-reviewed articles, zero partial, one non-owning heading and
-27 unresolved classifications. Batch12 locates and completes EMI0008 at
-PDF180–183/printed194–197 in107 independently exact JSON/assets files. All27
-regions,17 blocks,three figures,24 settings,seven joins and1,699 typed ranges pass.
-Five crop faults were repaired before OCR;24 initial recognitions,zero retries,
-one source correction pass. Lower183 advertisement is excluded. Original chart
-labels/units/ticks and handwritten signature remain pixels/manual-reading-pending;
-historical claims and source errors remain literal. All5,893 prior issue files
-and30 core modules remain unchanged;the213-test baseline is reused.
-Next restore Mac0009,located atPDF172–178,through bounded natives then assembly.
-Whole-issue accounting,index,cover and closeout remain pending. No reader rebuild.
+Step 12 is active for August 1991. Its35 canonical identities account for seven
+readable/sample-reviewed articles,one partial,one non-owning heading and26 unresolved
+classifications. Batch13 preserves Mac0009 openingPDF172–177/printed186–191 in196
+independently exact files:50 regions,37 blocks,four original photos/captions,three
+dream-response pairs,nine joins and3,615 typed ranges validate.46 initial plusone
+changed-crop recognition before source correction;45 unchanged results reused,
+zero unchanged retries,one source pass. Final178 andcomplete assembly remain pending.
+All6,328 prior issue files and30 core modules unchanged;213-test baseline reused.
+Next restore final178,excluding lower recruitment advertisement,then assemble.
+Whole-issue accounting,index,cover andcloseout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
