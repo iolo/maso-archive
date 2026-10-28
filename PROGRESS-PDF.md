@@ -7,16 +7,14 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: thirteen readable/sample-reviewed articles, one
-partial, three non-owning headings and 18 unresolved identities. Parent0016 활용 is
-non-owning; Windows0017 actual extent is260–268/printed274–282. Opening260–265 is
-preserved in a 222-file native matching the independent export. All 58 exact crops,
-52 kor+eng settings and 3,836 typed article ranges validate. Retains 43 blocks, six
-originals, 143 spatial fields/107 rows, eleven table data rows, merged headers and five
-caption links. Source claims, addresses, spelling and glyph uncertainties remain literal;
-no listing invented. All 17,906 prior files and 30 core modules unchanged; 213-test
-baseline reused. Next restore final266–268, then separately qualify complete actual
-two-native assembly. Whole-issue accounting, index, cover and closeout pending.
-No reader rebuild.
+partial, three non-owning headings and 18 unresolved identities. Windows0017 has all
+260–268/printed 274–282 preserved across 343 native files; actual full assembly pending.
+Final 266–268 native has 121 independently exact files, 32 exact crops, 27 kor+eng settings
+and 2, 331 typed article ranges. Two diagrams, TDB table, screenshot and terminal ornament
+retain readable fields and explicit faint-area markers with unknown original counts.
+All 18, 668 prior files and 30 core modules exact; 213-test baseline reused. Next qualify
+full actual two-native assembly and exhaustive native/projected range audit. Whole-issue
+accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

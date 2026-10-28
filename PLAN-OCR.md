@@ -23,32 +23,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: thirteen readable/sample-reviewed articles, one partial,
-  three non-owning headings and 18 unresolved entries. C++0015 remains complete.
-  Parent0016 활용 is non-owning; Windows0017 spans actual PDF260–268/printed274–282.
-  Opening260–265 is preserved in a 222-file native matching the independent export.
-  All 58 exact source-pixel crops, 52 kor+eng settings and 3,836 typed article ranges
-  validate. Retains 43 blocks, six originals, five caption links, 143 spatial fields/
-  107 rows, eleven table data rows/33 fields, four headers/two merged groups, eleven
-  address fields and fourteen program labels. Five prose joins/nine boundaries and
-  outgoing265 바 +266 이트로 제한된다. are explicit. No source listing; WIN options are
-  prose literals. All 114 uncertainties and nineteen opaque variants remain literal,
-  including historical claims, addresses, spelling, W/IN and EM/M386.SYS physical wraps.
-  All 17,906 prior files and 30 core modules unchanged; 213-test baseline reused.
-  Fifty-two initial recognitions, one source correction pass, zero retries or post-OCR
-  crop repairs. Eleven pre-OCR edge refinement events retained.
+- August 1991 remains active: thirteen readable/sample-reviewed articles, one partial,
+  three non-owning headings and 18 unresolved identities. Windows0017 has all 260–268 /
+  printed 274–282 preserved across 343 native files; full actual assembly is pending.
+  Final 266–268 native:121 independently exact files, 32 exact crops, 22 blocks, five
+  originals, 27 pinned kor+eng settings and 2, 331 typed article ranges. Preserves191
+  spatial fields/89 rows, eight table data rows/16 cells, two headers, four captions,
+  five address fields and 26 readable screenshot row candidates. Thirty screenshot
+  markers retain unreadable fields/bands and printed edge truncation; unknown original
+  row/field/glyph counts stay null and marker interiors stay outside source indexes.
+  Sourceメ모리 메모리, buggermaster versusBurgermaster, HEAPWALK versusHeapWorker and그림6
+  reference remain independent. All 18, 668 prior files and 30 core pins exact; 213-test
+  baseline reused. All 32 final crops before 27 recognitions; all 27 raws before one pass.
+  Six pre-OCR refinements, zero retries or post-OCR repairs. No source program listing.
 
-  Next batch31 restores final266–268 using retained 3000px renders;267 so far has
-  contact-only review,266/268 were fully viewed as outside context. Review every
-  final crop before mapped Tesseract and read all raws before one source pass.
-  Preserve diagrams, table, screenshot and any code with complete field/region/range
-  metadata. Keep source facts, addresses and glyph candidates without inferred memory
-  semantics or numeric repair. Preserve265 바 +266 이트로 제한된다. with empty separator.
-  Final268 summary/next-issue promise and terminal ornament precede269 advertisement.
-  Complete actual two-native assembly and exhaustive native/projected range audit
-  follow separately; one-native projection is not full assembler qualification.
-  Whole-issue accounting/index/cover/closeout pending; no reader rebuild. Selected 0003
-  requires batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
+  Next batch32 qualifies full standard namespaced-v1 assembly on both actual natives.
+  Preserve343 native files and all source-local metadata. Independently project every
+  typed occurrence into combined article context. Keep265 바 +266 이트로 제한된다. with
+  empty separator and native bytes unchanged. Resolve only exact obsolete stage notes;
+  source uncertainties remain active. No new OCR/correction or reader rebuild. Issue
+  accounting/index/cover/closeout pending. Selected 0003 requires batch07
+  `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

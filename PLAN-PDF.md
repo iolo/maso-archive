@@ -29,25 +29,24 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## August 1991 restoration, 2026-10-28
+## August 1991 restoration, 2026-10-29
 
-Step 12 is active for August 1991. Its 35 identities account for thirteen readable,
-sample-reviewed articles, one partial article, three non-owning headings and 18
-unresolved entries. C++0015 remains complete. Parent0016 활용 is a non-owning section
-heading over four independent children. Windows0017 actual extent is PDF260–268 /
-printed274–282; its opening260–265 is preserved in an independently exact 222-file
-native. All 58 source-pixel crops, 52 pinned kor+eng settings and 3,836 typed article
-ranges validate. It retains 43 blocks, six originals, five caption links, 143 spatial
-fields/107 reading rows, eleven table rows/33 data fields, four header fields/two
-merged groups, eleven address fields and fourteen program labels. Five prose joins
-cover nine internal boundaries; outgoing265 바 +266 이트로 제한된다. remains explicit.
-All 114 uncertainties and nineteen opaque variants retain source claims, spelling,
-addresses and physical wraps without factual, mathematical or semantic repair. No
-source program listing on these pages; WIN options remain prose literals. All 17,906
-prior files and 30 core modules unchanged; 213-test baseline reused. Fifty-two initial
-recognitions, one source pass and zero retries. Next restore final266–268 from retained
-renders, then separately qualify the full actual two-native assembly. Whole-issue
-accounting, index, cover and closeout remain pending. No reader rebuild.
+Step 12 remains active: thirteen readable/sample-reviewed articles, one partial,
+three non-owning headings and 18 unresolved identities out of35. Windows0017 now has
+all PDF260–268/printed 274–282 preserved across 343 immutable native files; actual full
+assembly remains pending. Final 266–268 native has 121 independently exact files,
+32 exact source-pixel crops, 22 blocks, five originals, 27 pinned kor+eng settings and
+2, 331 exact typed article ranges. Its191 spatial fields/89 rows retain two diagrams,
+eight TDB table rows/16 data cells, two headers, four captions, five addresses and 26
+readable screenshot row candidates. Thirty explicit screenshot markers retain faint
+fields/bands and printed edge truncation with unknown original counts; marker interiors
+stay outside source-derived indexes. Four prose joins/five boundaries andformal
+265 바 +266 이트로 제한된다. are explicit. Source claims, duplicated wording, utility names
+and glyph candidates remain literal. All 18, 668 prior files and 30 core modules unchanged;
+213-test baseline reused. Twenty-seven initial recognitions, one source pass, zero retries.
+Next qualify the full actual two-native Windows assembly with exhaustive native and
+projected range checks. Whole-issue accounting, index, cover and closeout pending.
+No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

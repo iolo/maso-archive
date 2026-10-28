@@ -1506,47 +1506,77 @@
         "Original contents5 and canonical parentage identify Windows series/body title and author강민석. Actual260/274 opening title윈도우즈의 메모리 운영 방식 and byline강민석(금성중앙연구소) match child0017;source title stays separate from canonical series title.",
         "Actual260–268/274–282: running headers and final268 summary,next-issue promise and closing ornament.269 advertisement;270 independent FoxView title/byline. All six current260–265 source pages restored;266–268 and actual full native assembly pending.",
         "Current222-file standard native independently exact:58 source-pixel crops,43 blocks,six originals,52kor+eng settings,3836 exact typed article ranges,143 spatial fields/107rows,five captions,eleven table data rows/33fields,four headers/two merged-header groups,eleven address fields and fourteen program labels. Five joined prose blocks/nine internal boundaries;outgoing265 바 +266 이트로 제한된다. carried word.",
-        "All58 final crops reviewed before52 initial recognitions;all52 raws read before one source pass. Eleven pre-OCR refinement events,zero retries or post-OCR crop repairs. No source program listing on mapped pages;WIN options are prose literals.114 source uncertainties and19 opaque variants retain claims,addresses,spelling,physical W/IN and EM/M386.SYS wraps without factual/math/semantic repair. All17906 prior files and30core pins unchanged;213-test baseline reused."
+        "All58 final crops reviewed before52 initial recognitions;all52 raws read before one source pass. Eleven pre-OCR refinement events,zero retries or post-OCR crop repairs. No source program listing on mapped pages;WIN options are prose literals.114 source uncertainties and19 opaque variants retain claims,addresses,spelling,physical W/IN and EM/M386.SYS wraps without factual/math/semantic repair. All17906 prior files and30core pins unchanged;213-test baseline reused.",
+        "Batch31 preserves final266–268/280–282 in121 independently exact files, with32 exact crops,22 blocks,five originals,27kor+eng settings and2331 typed article ranges. Retains191 spatial fields/89 reading rows,four captions,eight TDB table data rows/16 cells,two headers,five address fields and26 readable screenshot row candidates. Thirty explicit markers retain faint address/handle fields,bands,ambiguous size andprinted lower-edge truncation;unknown original glyph/field/row counts remain null. Marker interiors excluded from source-derived indexes. Four joined prose blocks/five boundaries andformal265 바 +266 이트로 제한된다. carried word retained. Source메모리 메모리,buggermaster versusBurgermaster,HEAPWALK versusHeapWorker and그림6 reference remain literal. All32 final crops before27 initial recognitions;all27 raws before one pass;six pre-OCR refinements,zero retries/post-OCR repairs. All18668 prior files/30core pins exact;213-test baseline reused. All nine source pages now preserved across343 native files;full actual two-native assembly pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-30-r01/windows-a",
+        "directory": "archive/pdf/1991-08/packages/batch-31-r01/windows-b",
         "article_id": "scan-maso-1991-08-toc-0017",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-30-r01/windows-a/manifest.json",
-          "sha256": "25c21909700c0c32849b199c8abf1f5b091d18a117de56d61b01d41d44f42278",
-          "bytes": 38527
+          "path": "archive/pdf/1991-08/packages/batch-31-r01/windows-b/manifest.json",
+          "sha256": "26daf6f879808950104868fd9750b28ed656b19277ddca1ecc71a6f4809f9dd1",
+          "bytes": 20865
         },
         "source_body_title": "윈도우즈의 메모리 운영 방식",
         "coverage": {
           "pdf_pages": [
-            260,
-            261,
-            262,
-            263,
-            264,
-            265
-          ],
-          "printed_pages": [
-            "274",
-            "275",
-            "276",
-            "277",
-            "278",
-            "279"
-          ],
-          "regions": 58,
-          "blocks": 43,
-          "figures": 6,
-          "deferred_pdf_pages": [
             266,
             267,
             268
           ],
+          "printed_pages": [
+            "280",
+            "281",
+            "282"
+          ],
+          "regions": 32,
+          "blocks": 22,
+          "figures": 5,
+          "deferred_pdf_pages": [],
           "native_scope_only": true
         },
         "body_pages_complete": false,
+        "all_body_pages_preserved_across_natives": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-08/packages/batch-30-r01/windows-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-30-r01/windows-a/manifest.json",
+              "sha256": "25c21909700c0c32849b199c8abf1f5b091d18a117de56d61b01d41d44f42278",
+              "bytes": 38527
+            },
+            "pdf_pages": [
+              260,
+              261,
+              262,
+              263,
+              264,
+              265
+            ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-08/packages/batch-31-r01/windows-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-31-r01/windows-b/manifest.json",
+              "sha256": "26daf6f879808950104868fd9750b28ed656b19277ddca1ecc71a6f4809f9dd1",
+              "bytes": 20865
+            },
+            "pdf_pages": [
+              266,
+              267,
+              268
+            ]
+          }
+        ],
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-30/ledger-complete.json",
+          "sha256": "8c1a8a15ae4a6a2fbace7a00eb4eb205cfef0cb1ec179c5fa2ddade69d0c49f5",
+          "bytes": 123853
+        },
         "full_source_extent": {
           "start_pdf_page": 260,
           "end_pdf_page": 268,
@@ -1558,17 +1588,17 @@
           "next_independent_title_pdf_page": 270
         },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-30/validation.json",
-          "sha256": "fc7ff3eb4bd4d32da63a36d0d3164d9d48408e2e09f13de33d4caf23b51e2f33",
-          "bytes": 2214
+          "path": "archive/pdf/1991-08/restoration/batch-31/validation.json",
+          "sha256": "8ec47249f2c2fee4944c90c78402d4370843df6a2b1aeb06292924d30850315c",
+          "bytes": 2122
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-30/reproduction.json",
-          "sha256": "8867940d0638ef3e5778d5f6965c8fc9be80b25ea74946a07c799653597891b3",
-          "bytes": 39250
+          "path": "archive/pdf/1991-08/restoration/batch-31/reproduction.json",
+          "sha256": "5059cd411d345f5e9dd3235ac37c5cce5828774773b8b4969563b720c2e5e86f",
+          "bytes": 21588
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-30"
+        "checkpoint": "batch-31"
       }
     },
     {
@@ -2575,6 +2605,35 @@
         "sha256": "8867940d0638ef3e5778d5f6965c8fc9be80b25ea74946a07c799653597891b3",
         "bytes": 39250
       }
+    },
+    {
+      "name": "1991-08-batch-31",
+      "status": "complete",
+      "completed_at": "2026-10-28T15:15:39.636138+00:00",
+      "goal": "Restore Windows0017 final266–268",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0017"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "outside_lookup_pages": 3,
+      "initial_recognitions": 27,
+      "eng_code_regions": 0,
+      "kor_eng_regions": 27,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 6,
+      "post_ocr_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-31/validation.json",
+        "sha256": "8ec47249f2c2fee4944c90c78402d4370843df6a2b1aeb06292924d30850315c",
+        "bytes": 2122
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-31/reproduction.json",
+        "sha256": "5059cd411d345f5e9dd3235ac37c5cce5828774773b8b4969563b720c2e5e86f",
+        "bytes": 21588
+      }
     }
   ],
   "totals": {
@@ -2585,38 +2644,26 @@
     "unresolved": 18
   },
   "notes": [
-    "Full August issue goal active:18 identities still require ownership/eligibility review. Parent0016활용 is non-owning;Windows0017 opening260–265 partial,final266–268 andactual full native assembly pending. No global folio offset.",
+    "Full August issue goal active:18 identities still require ownership/eligibility review. Windows0017 has all260–268 pages preserved across two immutable natives;actual full assembly pending. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-31",
-    "goal": "Restore Windows0017 final266–268 then qualify complete actual two-native assembly separately.",
+    "name": "1991-08-batch-32",
+    "goal": "Complete Windows0017 actual two-native assembly andexhaustive native/projected article range audit.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0017"
     ],
-    "mapping_targets": [
-      266,
-      267,
-      268
+    "inputs": [
+      "archive/pdf/1991-08/packages/batch-30-r01/windows-a",
+      "archive/pdf/1991-08/packages/batch-31-r01/windows-b"
     ],
-    "outside_lookup_candidates": [
-      265,
-      269,
-      270
-    ],
-    "retained_source_renders": [
-      "archive/pdf/1991-08/restoration/batch-30/source-review/pdf-266.png",
-      "archive/pdf/1991-08/restoration/batch-30/source-review/pdf-267.png",
-      "archive/pdf/1991-08/restoration/batch-30/source-review/pdf-268.png",
-      "archive/pdf/1991-08/restoration/batch-30/source-review/pdf-269.png",
-      "archive/pdf/1991-08/restoration/batch-30/source-review/pdf-270.png"
-    ],
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000px source views. Final266–268 and final heading/table/screenshot fields require full mapped crop/source review;267 so far contact-only,266/268 fully viewed as context. Preserve265 바 +266 이트로 제한된다. withempty separator; final268 summary/next-issue promise andterminal ornament end before269 advertisement. Preserve original table/diagrams/screenshot/code ifpresent,all field labels andphysical wraps;no inferred memory semantics,source facts or numeric repair. Every final crop before mapped pinned Tesseract,all raws before one source pass. Opening222 files unchanged. Complete full actual two-native assembly and exhaustive native/projected range audit follow separately;single-native projection is not qualification. Whole-issue accounting/index/cover/closeout pending;no reader rebuild."
+    "note": "Use full standard namespaced-v1 assembler on two actual natives;no one-native qualification. Preserve343 native files,all source-local metadata,all30 screenshot markers andunknown row/field/glyph counts. Project every original typed occurrence independently tocombined article context. Formal carried word265 바 +266 이트로 제한된다. uses empty separator without normalizing native block bytes. Resolve only exact obsolete stage notes;source uncertainties remain active. No new OCR/correction or reader rebuild. Whole-issue accounting/index/cover/closeout pending."
   }
 }
