@@ -32,19 +32,19 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 identities account for ten readable,
-sample-reviewed articles, no partials, two non-owning headings and 23 unresolved
-entries. Communications child0012 is complete at PDF212–215 in 201 independently
-exact files. Its visible folios are 226/227/228; final215 stays null. The independent
-lower215 program-sales promotion is excluded. All 51 source-pixel crops, 45 blocks,
-four originals, 47 settings and 2,206 article/listing range occurrences validate.
-Three code blocks retain 15 physical/listing rows covering 276 bytes. Four flow
-steps, three pool labels, three captions, two prose joins and 19 uncertainty records
-remain intact. Printed code punctuation and sample/prose differences stay literal.
-All 9,507 prior files and 30 core modules are unchanged; the 213-test baseline is
-reused. VGA0011 remains complete in 387 exact files. Next verify child0013's full
-extent, including CODE.C, then restore its bounded opening. Whole-issue accounting,
-index, cover and closeout remain pending. No reader rebuild. See
-[August progress](docs/progress/9108.md) and
+sample-reviewed articles, one partial, two non-owning headings and 22 unresolved
+entries. BASIC-interpreter0013 opening PDF216–221/printed230–235 is preserved in
+423 independently exact files. Actual extent is216–224: prose closes221, but
+CODE.C continues through224. All 111 source-pixel crops, 97 blocks, ten originals,
+101 settings and 4,596 typed article/listing ranges validate. Twenty-eight code
+blocks retain 134 physical/listing rows covering 3,910 bytes. Six actual BASIC
+labels remain distinct from twelve opaque offsets and console output. Tables,
+spatial fields, nine captions, four joins, four unknown-count equals-band markers
+and 64 glyph/punctuation uncertainties remain source-linked. All 10,177 prior
+files and 30 core modules are unchanged; the 213-test baseline is reused. Next
+restore CODE.C final222–224, then assemble both immutable natives. Full assembler
+qualification and whole-issue accounting, index, cover and closeout remain pending.
+No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

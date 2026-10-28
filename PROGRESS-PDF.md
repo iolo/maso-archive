@@ -6,17 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: ten readable/sample-reviewed articles, no
-partials, two non-owning headings and 23 unresolved identities. Communications0012
-is complete at PDF212–215 in 201 independently exact files. All 51 source crops,
-47 settings and 2,206 article/listing ranges pass. It retains 15 code rows, seven
-diagram labels, three captions, two prose joins and 19 uncertainty records. Lower215
-promotion is excluded and its folio stays null. All 9,507 prior files and 30 core
-modules are unchanged; the 213-test baseline is reused. Next verify the BASIC
-interpreter child0013's extent and restore its bounded opening, including intrinsic
-code listings. Whole-issue accounting, index, cover and closeout remain pending.
-See [August progress](docs/progress/9108.md) and
-[ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+August 1991 remains in progress: ten readable/sample-reviewed articles, one
+partial, two non-owning headings and 22 unresolved identities. BASIC-interpreter0013
+opening PDF216–221 is preserved in 423 independently exact files. All 111 source
+crops, 101 settings and 4,596 article/listing ranges pass. Its 28 code blocks retain
+134 physical/listing rows covering 3,910 bytes. Six actual BASIC labels stay separate
+from opaque offsets and console values. All 10,177 prior files and 30 core modules
+are unchanged; the 213-test baseline is reused. Next restore intrinsic CODE.C
+final222–224 and assemble the complete nine-page article. Whole-issue accounting,
+index, cover and closeout remain pending. See [August progress](docs/progress/9108.md)
+and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:
 51 identities account for 36 readable/sample-reviewed articles, 14 non-owning
