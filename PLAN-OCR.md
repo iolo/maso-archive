@@ -23,30 +23,39 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: twelve readable/sample-reviewed articles, no partials,
-  two non-owning headings and 21 unresolved entries. B+ tree0014 is complete at
-  PDF226–238/printed240–252 in the standard actual three-native768-file assembly,
-  including759 unchanged native files. All12,406 original typed occurrences validate
-  in native and independently projected combined article/listing contexts;645
-  published combined ranges pass. Covers205 source-pixel crops,160 blocks,29
-  originals,176 settings (5eng/171kor+eng),five code blocks and76 complete unnumbered
-  physical/logical listing rows/2,232 bytes. Two cross-native prose links and13
-  internal joined blocks/16 boundaries retain original bytes. All26 captions,807
-  spatial fields/176 rows,ten empty grids,position-grid cells/blanks andtwo credits
-  remain source-linked. All1,389 uncertainties and52 opaque variants retain source
-  errors/then syntax,figure references andindependent I/L/W keys without semantic
-  repair. Final238 has no listing; BTREE.C is a prose filename. Six exact obsolete
-  stage notes resolve nine occurrences; all original metadata preserved source-locally.
-  All14,973 prior files and30 core modules unchanged;213-test baseline reused.
-  No new assembly OCR/source pass. Next batch27 verifies canonical0015 언어 :
-  가자! C++의 세계로 against original contents and actual opening240/254 titled
-  클래스의 생성, then restores a bounded opening. Reuse240–242 retained renders;
-  establish identity/ownership/ending before mapping at most six pages. Source and
-  canonical titles stay distinct. Every final crop before pinned mapped Tesseract,
-  all raws before one source pass. Whole-issue accounting/index/cover/closeout remain
-  pending; no reader rebuild. Selected0003 requires batch07
-  `listing_adapter_r01.install()`;0002 requires batch04 native adapter.
-  See [August progress](docs/progress/9108.md) and
+- August 1991 is active: twelve readable/sample-reviewed articles, one partial,
+  two non-owning headings and 20 unresolved entries. C++0015 owns PDF240–249.
+  Its canonical language-series title, author 이재규 and ref254 match independent
+  240/254 body title 클래스의 생성. Preserve both titles. Prose concludes248;
+  intrinsic list3 ends above the separate lower249 bookseller advertisement.
+  Opening240–245 is preserved in 308 independently exact files: 77 source-pixel
+  crops, 68 blocks, three originals, 74 settings (21 eng code/53 kor+eng), 5,419
+  typed ranges and 130 complete unnumbered physical/listing rows/4,043 bytes across
+  17 example/syntax groups. Four example continuities keep physical rows separate.
+  Five prose joins/six boundaries, two captions, 46 spatial fields/14 rows, four
+  table headers/twenty visible data fields/six rows/two merged group cells, two
+  credits and the drop cap remain source-linked. Merged cells imply no printed
+  blanks or repeated values. All 253 uncertainties and 16 opaque variants retain
+  xd/x2d versus independent %d, underscore/dot/rule runs, source inline claims,
+  PROTECT/error examples and O/X without semantic repair. All 77 final crops were
+  reviewed before 74 calls after 49 pre-OCR refinements; all 74 raws were read
+  before one source pass. Zero retries or post-OCR repairs. Empty label, omitted
+  diagram/table fields and Korean code comments use source-direct fallback.
+  All 15,763 prior files and 30 core modules remain unchanged; 213-test baseline reused.
+
+  Next batch28 restores final246–249 from retained 3000px renders.247 was contact-only
+  before opening OCR and fully viewed after export for ending context; recheck full
+  source and every final crop before recognition. Preserve List1/2/3, graphic
+  comments, captions, physical wraps and unknown decorative counts. Prose tutle
+  filenames remain independent from TURTLE headers. Exclude lower249 advertisement
+  and retain printed263 folio. Incoming246 p246-left-top must start 리 함수의 선언을,
+  with kind=prose, prior_segment=a, prior_region=p245-right-tail, prior_text_end=차라,
+  text_start=리 함수의 선언을, join_separator=empty. No physical code row crosses
+  the native boundary. Full actual two-native assembly and exhaustive original/
+  combined range projection follow separately. B+ tree0014 remains complete226–238.
+  Whole-issue accounting/index/cover/closeout remain pending; no reader rebuild.
+  Selected0003 requires batch07 `listing_adapter_r01.install()`; 0002 requires the
+  batch04 native adapter. See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:

@@ -32,25 +32,26 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 identities account for twelve readable,
-sample-reviewed articles, no partials, two non-owning headings and 21 unresolved
-entries. B+ tree child0014 is complete at PDF226–238/printed240–252. The actual
-standard three-native assembly has 768 independently exact files, including all
-759 unchanged native files. All 12,406 original typed occurrences validate in native
-and independently projected combined article/listing contexts; 645 published combined
-ranges pass. The audit covers 205 source-pixel crops, 160 blocks, 29 originals,
-176 settings, five code blocks and 76 complete unnumbered physical/logical rows/
-2,232 bytes. Two cross-native prose links, thirteen internal joined blocks/sixteen
-boundaries, 26 captions, 807 spatial fields/176 reading rows, ten empty grids,
-position-grid cells and credits remain source-linked. All 1,389 uncertainties and
-52 opaque variants preserve source errors, figure references and independent key
-readings without semantic repair. Six unique obsolete stage notes resolve nine
-active occurrences; all original metadata remains unchanged and source-local.
-All 14,973 prior files and 30 core modules unchanged; 213-test baseline reused.
-No new assembly OCR or correction. Next verify ownership and extent of canonical0015
-언어 : 가자! C++의 세계로, whose neighbor-context opening PDF240/printed254
-has source title 클래스의 생성, then restore its bounded opening. Whole-issue
-accounting, index, cover and closeout remain pending. No reader rebuild. See
-[August progress](docs/progress/9108.md) and
+sample-reviewed articles, one partial, two non-owning headings and 20 unresolved
+entries. C++0015 owns PDF240–249. Original contents title 가자! C++의 세계로,
+author 이재규 and ref254 match PDF240/printed254, whose body title is 클래스의 생성.
+The two titles stay distinct. Intrinsic listings continue through upper249;
+the lower249 bookseller advertisement is outside the article.
+
+Batch27 opening240–245 preserves 308 independently exact files: 77 source-pixel
+crops, 68 blocks, three originals, 74 settings and 5,419 typed article/listing ranges.
+Twenty-one code blocks retain 130 complete unnumbered physical rows/4,043 bytes
+across 17 examples/syntax groups. Four example continuities, five prose joined
+blocks/six boundaries, the compiler diagram, merged-cell access table and credits
+remain source-linked. All 253 uncertainties and 16 opaque variants retain source
+xd/x2d versus %d, underscore/dot runs, O/X and inline claims without semantic repair.
+All 77 final crops were reviewed before 74 initial calls after 49 refinements;
+all raws were read before one pass, with zero retries or post-OCR repairs.
+All 15,763 prior files and 30 core modules remain unchanged; the 213-test baseline
+is reused. Next restore final246–249, preserving245 차라 +246 리 without a
+separator, then qualify the actual two-native assembly. B+ tree0014 remains complete
+at226–238. Whole-issue accounting, index, cover and closeout remain pending.
+No reader rebuild. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

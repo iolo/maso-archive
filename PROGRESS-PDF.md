@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twelve readable/sample-reviewed articles, no
-partials, two non-owning headings and 21 unresolved identities. B+ tree0014 is
-complete atPDF226–238/printed240–252 in a768-file actual standard three-native
-assembly, including759 unchanged native files. All12,406 native typed occurrences
-validate in original andindependently projected combined contexts. Covers205 exact
-crops,176 settings,160 blocks,29 originals and76 complete unnumbered listing rows/
-2,232 bytes. Two prose links andall source errors/uncertainties remain intact.
-All14,973 prior files and30 core modules unchanged;213-test baseline reused.
-Next verify canonical0015 ownership/extent against original contents andPDF240/254
-source title 클래스의 생성, then restore its bounded opening. Whole-issue accounting,
-index, cover andcloseout remain pending. No reader rebuild.
+August 1991 remains in progress: twelve readable/sample-reviewed articles, one
+partial, two non-owning headings and 20 unresolved identities. C++0015 owns240–249;
+its opening240–245 is preserved in 308 independently exact files: 77 source-pixel
+crops, 74 settings, 5,419 typed ranges and 130 complete unnumbered listing rows/
+4,043 bytes. Original contents, author and ref254 confirm ownership; source body
+title 클래스의 생성 stays distinct from the canonical series title. The diagram,
+merged-cell table, code/prose continuities and source errors/glyph candidates remain
+linked. All 15,763 prior files and 30 core modules remain unchanged; the 213-test
+baseline is reused. Next restore final246–249, excluding lower249 advertisement,
+then qualify full two-native assembly. B+ tree0014 remains complete226–238.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
