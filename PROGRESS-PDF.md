@@ -7,14 +7,13 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: sixteen readable/sample-reviewed articles, one
-partial, three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 opening
-PDF288–293/printed302–307 is restored in 386 independently exact files. Actual extent
-288–296 includes intrinsic listings through upper 296; lower 296 is an unrelated ad.
-All 98 source-pixel crops, 93 pinned settings and 7,116 typed ranges validate. Retains
-218 code reading rows, 18 function references, 27 error entries and four circled callouts.
-Source errors, graphic-band uncertainties and physical quoted wrap 293 Test→294 Program
-remain explicit. All 22,416 prior files/30 core modules exact; 213-test baseline reused.
-Next final 294–296,then separate actual two-native assembly with code-boundary audit.
+partial, three non-owning headings and 15 unresolved identities. All HIMEM.SYS 0020
+body pages 288–296/printed302–310 are preserved across two immutable natives (464 files).
+Final 294–296 retains four listings with 413 code reading rows; its 78 files match the
+independent export. All 21 crops, 16 settings and 6,489 typed ranges validate. Lower 296
+bookstore ad excluded; folio 310 retained. Literal code/flags/font candidates remain.
+All 23,672 prior files and 30 core modules exact; 213-test baseline reused. Next actual
+two-native assembly with full range/context and unnumbered quoted-boundary audit.
 Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

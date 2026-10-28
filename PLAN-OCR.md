@@ -24,34 +24,34 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - August 1991 remains active: sixteen readable/sample-reviewed articles, one partial,
-  three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 opening 288–293/
-  printed302–307 is retained in `packages/batch-37-r01/himem-a` (386 independently exact
-  files). Actual 288–296/302–310: prose closes on 292; Lists1–4 end in upper 296 above unrelated
-  bookstore ad; 297–299 full ads. Title/byline 박현철 match contents page 5; parent 활용 non-owning.
-  All 98 source-pixel crops, 93 settings (5 eng code/88 kor+eng) and 7,116 typed ranges
-  (5,575 article/1,541 listing) validate. Retains 86 blocks, five originals, 218 code
-  reading rows/7,230 listing bytes, 18 function references/104 ABI rows/180 fields,
-  27 error entries,  23 screen rows/21 fields, four circled callout links, two captions
-  and seven joined blocks/seven boundaries. Thirteen unknown graphic-band markers
-  excluded from source-derived token/glyph/number/identifier indexes; blank-only
-  frame rows remain original graphics. All 157 uncertainties/20 variants preserve
-  0000 candidate, DX handle, UBM, NMK, XMM, dd·, ah10, BCD wording and independent prose/screen
-  values without opcode/syntax/math/semantic repair or historical code execution.
-  All 98 initial crops, 93 first refinements and 10 follow-ups viewed before 93 initial
-  recognitions ; all 93 raws read before one source pass ; zero retries/post-OCR repairs.
-  All 22,416 prior files and 30 core modules exact; 213-test baseline reused.
+  three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 now has all
+  actual 288–296/302–310 body pages preserved across two immutable natives: opening
+  `packages/batch-37-r01/himem-a` (386 files), ending `packages/batch-38-r01/himem-b`
+  (78 files). Lower 296 bookstore advertisement explicitly excluded; folio 310 retained.
+  Final native retains 21 exact crops, 16 pinned settings (10 eng code/6 kor+eng), 16 blocks,
+  five originals, ten code panels, 413 physical code reading rows/12,406 bytes and 6,489
+  typed ranges (3,174 article/3,315 listing). Four listings retain 21 function declarations,
+  five struct fields, 26 MAKE variables, nine helper definition heads, three captions and
+  seven physical wraps. All 267 uncertainties/24 variants preserve macro prime candidate,
+  /CO, /Ol, /Wx, PWBMAKE/pwbrmake, NMK, 0xFFFFF800L, casts and strings without syntax/opcode/
+  math/semantic repair or historical program execution. All 21 crops and ten refinements
+  before 16 recognitions; all 16 raws before one source pass; zero retries/post-OCR repairs.
+  Raw-reading narrative supplement corrects inherited page/output labels only; 16 pins
+  and timestamps unchanged. Fresh verifier fixes relative pin-base comparison; source and
+  both exports unchanged. All 23,672 prior files/386 opening files/30 core modules exact;
+  unchanged 213-test baseline reused.
 
-  Next batch38 restores final 294–296 using retained full source views. Exclude lower
-  296 bookstore ad andretain literal folio 310. Every final crop before pinned OCR;
-  all raws before one source pass. Then separate actual two-native assembly(batch39).
-  Wide source views confirm 293 SignOn ends with Test;294 begins with Program2.0-7/05/88 withquote.
-  Preserve physical rows andunknown quoted spacing. Native custom outgoing note and
-  segment_continuations code-physical-wrap declaration are provenance; standard
-  projection does not resolve this kind. Actual assembly must explicitly audit this
-  unnumbered boundary andevery typed range in proper native/projected contexts.
-  Selected 0018 still needs batch35 `boundary_adapter.install()`; 0003 batch07
-  `listing_adapter_r01.install()`; 0002 batch04 native adapter. Whole-issue accounting,
-  index, cover and closeout pending; no reader rebuild.
+  Next batch39: actual two-native assembly 288–296, zero new mapping/OCR/correction.
+  Use namespaced-v1 and both actual natives named himem-a/himem-b; preserve 464 native
+  files and every original source-local metadata field. Audit every typed occurrence
+  in its proper native/projected article/listing context. SignOn 293 ends with Test and 294
+  starts Program 2.0-7/05/88 with a quote; preserve both unnumbered physical rows. Both natives
+  have code-physical-wrap declarations; standard projection retains unknown kind as
+  provenance. Explicit actual-boundary validation remains required. Do not invent
+  source line numbers or merge physical rows. Resolve only exact obsolete stage notes;
+  source uncertainty remains. Selected 0018 still requires batch35 boundaryadapter;
+  0003 batch07 listingadapter; 0002 batch04 nativeadapter. Whole-issue accounting, index,
+  cover and closeout pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

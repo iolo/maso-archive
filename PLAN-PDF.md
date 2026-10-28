@@ -32,29 +32,30 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-29
 
 Step 12 remains active: sixteen readable/sample-reviewed articles, one partial,
-three non-owning headings and 15 unresolved identities out of 35. Child0020,
-확장 메모리의 활용(6) : HIMEM.SYS의 활용, is partial at PDF288–293/printed302–307
-in `packages/batch-37-r01/himem-a`. Source title HIMEM.SYS의 활용 and byline 박현철
-match contents page 5. Actual extent 288–296/302–310: prose ends on 292, but intrinsic
-Lists1–4 continue through upper 296 above an unrelated bookstore ad; 297–299 are advertisements.
-All 386 files match the independent export. All 98 exact source-pixel crops,
-93 settings (5 eng code/88 kor+eng) and 7,116 typed ranges validate. Retains 86 blocks,
-five originals, five code blocks, 218 code reading rows/7,230 listing bytes, eighteen
-function references/104 ABI rows/180 fields, 27 error entries,  23 screen rows/21 fields,
-four separate circled callouts, two captions and seven joined blocks/seven boundaries.
-Thirteen graphic-band markers preserve unknown source glyph/count/bytes; marker
-interiors are excluded from source-derived indexes. Blank-only header frame rows
-remain original graphics, with no invented encoded count. All 157 uncertainties/
-20 opaque variants remain active, including 0000, DX handle, UBM, NMK, XMM, dd·, ah10,
-BCD wording and independent prose/screen values. No opcode/syntax/math/semantic
-repair, compilation or execution. All final crops before 93 recognitions after 103
-pre-OCR refinement events; all raws before one source pass. Zero retries/repairs.
-All 22,416 prior files and 30 core modules exact; 213-test baseline reused.
-Next restore final 294–296 and exclude lower 296 ad while retaining folio 310, then
-assemble the two actual immutable natives separately. The 293 SignOn row ends with Test;
-294 begins with Program. Preserve both physical rows/open quote; code-physical-wrap is
-retained provenance and requires explicit actual assembly boundary audit. Whole-issue
-accounting, index, cover and closeout pending. No reader rebuild.
+three non-owning headings and 15 unresolved identities out of 35. HIMEM.SYS 0020 now
+has all actual PDF288–296/printed302–310 body pages preserved across two immutable
+natives: opening 288–293 (386 files) and ending 294–296 (78 files). Full assembly is
+pending. The prose closes on 292; intrinsic Lists1–4 end in upper 296 above an unrelated
+bookstore advertisement. The ending native explicitly excludes that ad and retains
+literal folio 310. Its 78 files match an independent export; 21 exact source-pixel
+crops, 16 settings (10 eng code/6 kor+eng) and 6,489 typed ranges validate.
+It retains 16 blocks, five originals, ten code panels and 413 complete code reading
+rows/12,406 listing bytes across four listings. Twenty-one function declarations,
+five struct fields, 26 MAKE variables, nine helper definition heads, three captions
+and seven physical-wrap fields remain explicit. All 267 uncertainties/24 variants
+preserve the macro prime candidate, /CO, /Ol, /Wx, PWBMAKE/pwbrmake, NMK, 0xFFFFF800L,
+casts and quoted strings without syntax/opcode/math/semantic repair or execution.
+All 21 final crops before 16 recognitions after ten pre-OCR refinements; all raws before
+one source pass. Zero retries/post-OCR repairs. Raw-reading narrative page labels
+are corrected in a supplement; 16 pins/timestamps unchanged. Initial verifier pin-base
+comparison corrected in a fresh helper; source/exports unchanged. All 23,672 prior
+files and 30 core modules exact; unchanged 213-test baseline reused.
+Next batch39 assembles both actual natives, with every native/projected typed range
+checked in its proper context. The open SignOn row on 293 ends with Test; 294 begins with Program.
+Keep both unnumbered physical rows and audit their explicit code-physical-wrap
+provenance; standard projection does not resolve this kind automatically. No new OCR
+or source correction is needed. Whole-issue accounting, index, cover and closeout
+remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
