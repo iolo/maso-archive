@@ -40,8 +40,12 @@ The three code blocks retain 22 complete physical/listing rows; structured evide
 covers 16 file pairs, eight bit fields and ten memory boundaries, including the
 printed duplicate. Source values, punctuation/font/filename uncertainty and original
 panels remain literal. All 7,642 prior issue files and 30 core modules are unchanged;
-the 213-test baseline is reused. Next restore final210 and assemble both natives.
-Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+the 213-test baseline is reused. Final210 is now preserved in81 independently exact files;next assemble both natives.
+Batch17 validates21 final-page crops,17 settings,689 typed ranges,two code rows,
+21 control rows/42cells andseven visible eight-dollar bands. Lower subscription
+promotion excluded;24 pre-OCR crop refinements retained. All8,798 prior files and
+30 core modules unchanged. Whole-issue accounting,index,cover andcloseout remain
+pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

@@ -37,10 +37,13 @@ paired OCR or a new engine comparison.
   eleven map fields. Original duplicate address,0011000b,175MHz,9450,ChekeSum and
   uncertain punctuation/font/filename/dot bands remain source-linked.
   Native index-projector component accepts the complete indexes without adapter;
-  full assembler needs two real natives and remains untested until final210 exists.
+  full assembler now has two real natives;complete assembly remains pending.
   All 7,642 prior files and 30 core modules unchanged; 213-test baseline reused.
-  Next restore final210 DOS example,keyboard/ANSI controls and conclusion,excluding
-  lower subscription promotion,then assemble. Preserve unknown glyph/count bands
+  Final210 DOS example,keyboard/ANSI controls andconclusion now preserved in81
+  exact files:21 regions,17 settings,two code rows,21 control rows/42cells,seven
+  visible eight-dollar bands and689 typed ranges. Lower promotion excluded;24
+  pre-OCR refinements,17 initial calls,allraws read before one pass,zero retries.
+  All8,798 prior files/30core exact. Next assemble both natives. Preserve unknown glyph/count bands
   explicitly rather than inferring control syntax. Whole-issue accounting/index/
   cover/closeout pending; no reader rebuild. Selected0003 requires batch07
   `listing_adapter_r01.install()`; 0002 requires retained batch04 native adapter.

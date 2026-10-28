@@ -12,7 +12,7 @@ non-owning group; VGA0011 opening PDF204–209/printed218–223 is preserved in 
 independently exact files. All 78 crops, 70 settings and 4,472 article/listing ranges
 pass. The 22 complete listing rows, 16 file pairs, eight bit fields and ten memory
 boundaries remain source-linked. All 7,642 prior files and 30 core modules are
-unchanged; 213-test baseline reused. Next restore final210 and assemble the article.
+unchanged; 213-test baseline reused. Final210 is preserved in81 exact files;next assemble both natives.
 Whole-issue accounting/index/cover/closeout remain pending. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
