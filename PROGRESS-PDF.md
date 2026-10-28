@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress: 35 entries account for four readable/sample-reviewed
-articles, zero partial and31 unresolved classifications. Second child0003 is complete
-at124–135/printed138–149 in571 independently exact files, including562 original
-native files. All154 regions and5,897 indexed native/combined ranges validate;
-137 C rows,45 matrix cells and34 numeric table cells survive. Its pinned listing
-adapter leaves originals/core unchanged; the213-test baseline passes. Next verify
-interview0005's actual extent from observed148/162 and restore a bounded batch. See
+August 1991 restoration is in progress:35 entries account for five readable/sample-reviewed
+articles,zero partial,one non-owning heading and29 unresolved classifications.
+Interview0005 is complete at148–152/printed162–166 in103 independently exact files;
+all26 crops and2,965 indexed ranges validate and fresh213 tests pass. Parent0006
+owns no body. All source errors/uncertainties and earlier native packages/adapters
+remain retained. Next verify child0007's extent from observed154/168 and restore
+a bounded CompuServe segment. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

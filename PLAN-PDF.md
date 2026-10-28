@@ -32,16 +32,15 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
-four readable/sample-reviewed articles, zero partial and 31 unresolved classifications.
-Batch07 completes second child0003 at124–135/printed138–149 in571 independently
-exact files, including all562 original native files. All154 regions,112 blocks,
-24 figures and5,897 typed native/combined range contexts validate.137 C rows,
-45 matrix cells,34 numeric table cells and13 native joins remain source-linked.
-A pinned exact-input adapter derives required complete listing row ranges in
-memory; original metadata and30 core modules remain unchanged. The unchanged
-213-test baseline passes. Source uncertainties/errors and all attempts remain.
-Next source-review/classify interview0005 from its observed148/162 opening,
-verify actual ending/adjacency and restore within normal batch limits.
+five readable/sample-reviewed articles, zero partial, one non-owning heading and
+29 unresolved classifications. Batch08 completes interview0005 at148–152/printed
+162–166 in103 independently exact files and classifies parent0006 as a non-owning
+section label. All26 interview crops,2,965 typed ranges,45 speaker labels and12
+continuations validate;fresh213 tests pass. Two crop repairs paused/resumed the
+same correction pass;23 initial plus2 changed-input recognitions,21 reused and
+zero unchanged retries. All attempts/source errors/uncertainties remain retained.
+Next verify child0007's actual extent from observed154/168 and restore a bounded
+CompuServe article segment. Whole-issue accounting/index/cover/closeout remain.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

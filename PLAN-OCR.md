@@ -23,16 +23,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active:35 canonical identities account for four readable,
-  sample-reviewed articles,zero partial and31 unresolved classifications.
+- August 1991 is active:35 canonical identities account for five readable,
+  sample-reviewed articles,zero partial,one non-owning heading and29 unresolved
+  classifications. Interview0005 is complete at148–152/printed162–166 in103
+  independently exact files;26 crops,2,965 typed ranges and45 speaker labels pass.
+  Parent0006 is non-owning. Two crop-top repairs paused/resumed the same source
+  pass;23 initial plus2 changed-input recognitions,21 reused,zero unchanged retries.
+  All attempts and the old Hangul glyph candidate remain source-linked.
   Second feature0003 is complete atPDF124–135/printed138–149 in571 independently
   exact JSON/assets files,retaining562 original native files. All154 regions,
   112 blocks,24 figures and5,897 native/combined typed ranges validate.137 C rows,
   45 matrix cells and34 numeric table cells remain literal. Its pinned exact-input
   adapter derives complete listing row ranges without changing source/natives/core.
   Use retained batch07 `listing_adapter_r01.install()` before checking/rebuilding
-  this assembly. Both immutable natives remain preserved. Next verify interview0005
-  extent from observed148/162 before a bounded restoration. Whole-issue accounting,
+  this assembly. Both immutable natives remain preserved. Next verify child0007
+  extent from observed154/168 before bounded CompuServe restoration. Whole-issue accounting,
   cover,index and closeout remain pending;no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

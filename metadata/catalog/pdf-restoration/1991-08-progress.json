@@ -372,23 +372,98 @@
       "toc_entry_id": "maso-1991-08-toc-0005",
       "title": "인터뷰 : 마소가 만난 사람(16) : 진한글의 개발자, 고일두",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent interview title,portrait,introduction and actual credits on148/printed162 establish opening;147 is unrelated advertising.",
+        "All five pages148–152/printed162–166 individually inspected/restored;152 ends with final thanks/closing ornament and153 is a full unrelated advertisement. No deferred body pages or assembly.",
+        "Two source dialogue blocks retain45 speaker labels and12 exact column/page/interrupted-column continuations. Two pull quotes retain their differing wording;three uncaptioned original images and their source contexts remain separate.",
+        "Printed formula is linearized with original stacked source scan;old Hangul product glyph remains an explicit Unicode candidate. Actual text/photography credits remain separate from canonical editor byline. Historical wording/claims not repaired.",
+        "Twenty-three initial recognitions plus two changed-crop repairs,total25,zero unchanged retries.21 unchanged results reused with exact source/crop/runtime/settings provenance. Two crop-top faults were discovered during source correction and repaired during a pause in that same single pass;all attempts retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-08-r01/interview",
+        "article_id": "scan-maso-1991-08-toc-0005",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-08-r01/interview/manifest.json",
+          "sha256": "0f175ff9135b2b6c387001c7254afff13309e824e063b0252d5a2636bf8ef0c3",
+          "bytes": 17678
+        },
+        "coverage": {
+          "pdf_pages": [
+            148,
+            149,
+            150,
+            151,
+            152
+          ],
+          "printed_pages": [
+            "162",
+            "163",
+            "164",
+            "165",
+            "166"
+          ],
+          "regions": 26,
+          "blocks": 11,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 148,
+          "end_pdf_page": 152,
+          "previous_pdf_page": 147,
+          "previous_role": "advertisement",
+          "following_pdf_page": 153,
+          "following_role": "advertisement"
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-08/validation.json",
+          "sha256": "10f51022cbbe963944f8d90e8667189fc7426fdaa69557dcaf3100cb09f9350e",
+          "bytes": 2074
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-08/reproduction.json",
+          "sha256": "59c5e086a71a25efe48dcfd91f188d5c6ee384f66299271e1d7e9c4aa170488f",
+          "bytes": 18392
+        },
+        "ocr_repair": {
+          "path": "archive/pdf/1991-08/restoration/batch-08/repair-completed.json",
+          "sha256": "b164e691e080ffad898dc39d9c27a30f0607da9d5a1da4366781e19d803c3d20",
+          "bytes": 12872
+        },
+        "checkpoint": "batch-08"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0006",
       "title": "읽을거리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical TOC groups two children under this parent. Source154/printed168 has the small section label above independently titled/bylined BBS article0007,which continues on155. No separate parent introduction/body occurs at that label.",
+        "Parent owns no body pages and receives no article package. Canonical title/order/parent/children unchanged;child body restoration and extent remain separate tasks."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1991-08/restoration/batch-08/heading-classification.json",
+        "sha256": "fe2be1fad8fd4c329bc4349b27a71142be482f0283f485acc3dc0c984f8cdbae",
+        "bytes": 1144
+      },
+      "classification_application": {
+        "path": "archive/pdf/1991-08/restoration/batch-08/heading-classification-applied.json",
+        "sha256": "0285e909724eb4cd0c978dec26c8c6eaaad21380cd579e93277fde79775bba1a",
+        "bytes": 646
+      },
+      "ownership_review": "resolved-from-canonical-parentage-and-source-section-label-over-independent-child-opening"
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0007",
@@ -893,46 +968,81 @@
         "sha256": "48a6c57b2e5547d5c26b9ff0950bbd4503403c9b97b7434a9c2b8503c0132489",
         "bytes": 106550
       }
+    },
+    {
+      "name": "1991-08-batch-08",
+      "status": "complete",
+      "completed_at": "2026-10-28T03:30:02.292408+00:00",
+      "goal": "Restore complete interview0005 and classify non-owning heading0006",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0005",
+        "maso-1991-08-toc-0006"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 5,
+      "outside_lookup_pages": 4,
+      "initial_recognitions": 23,
+      "changed_input_repairs": 2,
+      "total_recognition_invocations": 25,
+      "unchanged_input_retries": 0,
+      "unchanged_recognitions_reused": 21,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-08/validation.json",
+        "sha256": "10f51022cbbe963944f8d90e8667189fc7426fdaa69557dcaf3100cb09f9350e",
+        "bytes": 2074
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-08/reproduction.json",
+        "sha256": "59c5e086a71a25efe48dcfd91f188d5c6ee384f66299271e1d7e9c4aa170488f",
+        "bytes": 18392
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 4,
+    "readable": 5,
     "partial": 0,
-    "group_headings": 0,
-    "unresolved": 31
+    "group_headings": 1,
+    "unresolved": 29
   },
   "notes": [
-    "Full issue goal active:31 identities still require source ownership/eligibility review. Second child0003 is complete at124–135; first child0002 also complete. No pending body pages/assemblies for these articles. No global folio offset.",
+    "Full issue goal active:29 identities still require source ownership/eligibility review. Interview0005 is complete148–152;parent0006 is a non-owning group heading. No pending bodies/assemblies among selected readable articles. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-08",
-    "goal": "Source-review/classify next canonical interview0005 and restore bounded body pages after verifying actual extent and adjacency.",
+    "name": "1991-08-batch-09",
+    "goal": "Restore bounded opening/body of child0007 CompuServe article from observed154/168 after verifying actual endpoint/adjacency.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0005"
+      "maso-1991-08-toc-0007"
     ],
     "mapping_targets": [],
     "known_opening": {
-      "pdf_page": 148,
-      "printed_page": "162",
-      "evidence": "Prior bounded batch05 lookup; recheck retained source before mapping."
+      "pdf_page": 154,
+      "printed_page": "168",
+      "evidence": {
+        "path": "archive/pdf/1991-08/restoration/batch-08/source-review/pdf-154.png",
+        "sha256": "0d72505d4e68a6eab26a51f7debc77ea987d96979b4a75a815762842fb9bea1f",
+        "bytes": 4238237
+      }
     },
     "lookup_candidates": [
-      149,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "End/body extent remains unverified. Do not infer from TOC page numbers. Review actual neighboring pages and every crop before recognition. Retain original images/captions,source errors and uncertainties. New code natives must provide whole-block text_index/text_review_items, exact block listing_index and complete listing_line_index including normalized separators, or use a separately pinned adapter."
+    "note": "Actual child0007 ending and child0008 EMI opening remain unverified. Do not infer from TOC or apply a global offset. Reuse retained154/155 source views where suitable;map/review no more than six pages. Preserve screen/table originals and all source labels;code/future assembly indexes must be complete."
   }
 }
