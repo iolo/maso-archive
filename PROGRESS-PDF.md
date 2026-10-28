@@ -6,13 +6,12 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress: 35 canonical entries account for three
-readable/sample-reviewed articles, zero partial and 32 unresolved classifications.
-The parent introduction116–117 and first child118–123 are complete. The child's
-208-file assembly independently reproduces, retaining all 200 native files and
-validating 2,326 typed ranges in original/combined contexts. A pinned adapter is
-required for this assembly; original corrections/core checks remain unchanged.
-Next verify/restore second child0003 from 124/printed138. See
+August 1991 restoration is in progress: 35 entries account for three readable/sample-reviewed
+articles, one partial and 31 unresolved classifications. Second child0003's
+opening124–129/printed138–143 is restored in 269 independently exact files; 71 source
+crops and 2,979 indexed ranges validate and fresh 213 tests pass. Actual ending135/149
+is source-verified. Next restore final130–135 and assemble separately. The first
+child's pinned assembly adapter and all original evidence remain unchanged. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
@@ -138,7 +137,7 @@ remain. Canonical identities, titles, order and parent relationships are unchang
 The standalone index is `archive/pdf/1985-10/reference/issue.json`; the validation
 report is `archive/pdf/1985-10/evidence/issue-closeout/report.json`. All 9,031 issue
 files match the independent rebuild, including all 9,025 selected-package files.
-The packages retain 2,416 regions, 1,662 blocks and 404 figures. All
+The packages retain 2,416 regions, 1, 662 blocks and 404 figures. All
 301,480 local UTF-8 excerpt ranges and 2,412 distinct images validate.
 Ten private assembly formats preserve their native files, metadata and source uncertainties.
 Reproduce/check with `archive/pdf/1985-10/restoration/issue-closeout/reproduction.json`.

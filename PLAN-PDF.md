@@ -32,13 +32,14 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
-three readable/sample-reviewed articles, zero partial and 32 unresolved classifications.
-The parent introduction116–117 and complete first child118–123 are restored.
-The child's208-file assembly retains all 200 native files and validates all 2,326
-native typed ranges in source and combined contexts. A pinned adapter derives
-mandatory block indexes without editing original corrections or core checks.
-Next verify/restore second child0003 from 124/printed138 within the normal batch
-limits. See [August progress](docs/progress/9108.md) and
+three readable/sample-reviewed articles, one partial and 31 unresolved classifications.
+Batch05 restores second child0003 opening124–129/printed138–143 as a 269-file
+partial native. 71 source crops and 2,979 typed ranges validate; all 213 tests pass.
+Actual ending135/149 is source-verified; final130–135 and complete assembly remain
+pending. Three crop repairs followed initial OCR/raw reading but preceded the one
+source correction pass; 60 unchanged recognitions were reused. All attempts and
+metadata revisions are retained. Next restore final130–135 within the normal batch
+limits, then assemble separately. See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28
@@ -169,7 +170,7 @@ remain. Canonical identities, titles, order and parent relationships are unchang
 The standalone index is `archive/pdf/1985-10/reference/issue.json`; the validation
 report is `archive/pdf/1985-10/evidence/issue-closeout/report.json`. All 9,031 issue
 files match the independent rebuild, including all 9,025 selected-package files.
-The packages retain 2,416 regions, 1,662 blocks and 404 figures. All
+The packages retain 2,416 regions, 1, 662 blocks and 404 figures. All
 301,480 local UTF-8 excerpt ranges and 2,412 distinct images validate.
 Ten private assembly formats preserve their native files, metadata and source uncertainties.
 Reproduce/check with `archive/pdf/1985-10/restoration/issue-closeout/reproduction.json`.
@@ -811,7 +812,7 @@ OCR retries. Literal Received Date, Repuest, Trming, From DEC, boud, GS and prin
 address discrepancies retained. Listing4's PC-3001 reading has unresolved3/8
 ambiguity. Source bytes/execution unverified; full proofreading deferred.
 Exact rebuild and all UTF-8/table/caption/listing indexes pass;176 prior native
-and31 assembly pins unchanged. Passing unchanged100-test baseline reused. Both
+and 31 assembly pins unchanged. Passing unchanged100-test baseline reused. Both
 terminal natives remain immutable; remaining168–180 and full assembly required.
 Evidence: `private/pdf-restoration/12-1984-05-batch-25`.
 
@@ -905,7 +906,7 @@ hex-token candidates. Sector table retains16 data rows/32 cells; classifieds
 retain15 notices (two exchange, twelve sale, one wanted). Printed D9/I mismatch,
 BAGIC-G,15만원 and the reinitialization instruction remain literal. Hex glyphs,
 annotation alignment, prices/contacts, source bytes and execution remain unverified.
-All71 original/37 revised text panels and four original images reviewed. Twenty-four
+All 71 original/37 revised text panels and four original images reviewed. Twenty-four
 crops widened once;85 tasks61initial/24repair, zero failures or OCR retries.
 Exact UTF-8/table/notice/hex/listing/caption indexes, wrapped projection and
 independent rebuilds pass. All181 prior native/32 assembly pins preserved;
@@ -1658,7 +1659,7 @@ under [PLAN-reading-room.md](PLAN-reading-room.md), when requested.
 ## Inspected starting point
 
 The supplied `maso-pdf/` directory contains **21 PDFs, 6,615 PDF pages, and
-2,664,455,314 bytes (2.48 GiB)**.
+2, 664,455,314 bytes (2.48 GiB)**.
 
 | Group | Supplied issues | Work in this pass |
 | --- | --- | --- |
@@ -2049,9 +2050,9 @@ they do not impose rendering or reader acceptance on remaining issues.
   the prospective1983 date and1300MFLOPS. The complete eight-page extent is
   verified and both immutable segments are now assembled as readable/sample-reviewed.
   Validated news-index projection preserves all24 news identities, subsection
-  membership, image associations,62 regional ranges,66 review notes and143
+  membership, image associations,62 regional ranges, 66 review notes and143
   Unicode spans. Independent stories and header regions partition the source;
-  no new sentence join is needed. All71 PDF tests and deterministic rebuild pass.
+  no new sentence join is needed. All 71 PDF tests and deterministic rebuild pass.
   The page118 advertisement and following PDF115–116 notices are excluded.
   PDF117 is the 비즈니스 divider
   (no visible folio); 삼성SPC-500 opens at printed122/PDF118. These 정보모음
@@ -2120,7 +2121,7 @@ they do not impose rendering or reader acceptance on remaining issues.
 - 로더란 무엇인가 spans printed160–166/PDF156–162. First six pages are a
   partial package with63 regions,46 blocks,10 original images and eight captions.
   Three independent POKE examples and the complete main PROGRAM LOADER listing
-  retain120 physical rows:16 unnumbered,73 numbered and31 wrapped continuations.
+  retain120 physical rows:16 unnumbered,73 numbered and 31 wrapped continuations.
   Keep printed code/address discrepancies and ten unresolved quoted-space/glyph
   markers for manual correction. Seven joins,53 regional ranges,53 text reviews,
   66 Unicode spans,23 listing reviews and seven memory-table rows validate.
