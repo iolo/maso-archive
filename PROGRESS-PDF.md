@@ -8,11 +8,11 @@ by the calendar month in which restoration work happened.
 
 August 1991 restoration is in progress:35 entries account for five readable/sample-reviewed
 articles, one partial, one non-owning heading and 28 unresolved classifications.
-Child0007's opening154–159/printed168–173 is restored in 218 independently exact
-files; 60 crops and 3,495 indexed ranges validate and fresh 213 tests pass. Its
-intrinsic appendices160–162 and separate assembly remain pending. Parent0006 owns
-no body. All originals, source errors and uncertainties remain retained. Next
-restore the three appendix pages, excluding lower162's unrelated promotion. See
+Child0007's ending160–162/printed174–176 is restored in60 independently exact
+files;16 crops and1,829 indexed ranges validate and fresh213 tests pass. All nine
+body pages154–162 are preserved across two natives,with lower162 promotion excluded.
+Next assemble the complete article separately. Parent0006 owns no body;all originals,
+source errors and uncertainties remain retained. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

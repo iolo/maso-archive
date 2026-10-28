@@ -33,13 +33,13 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
 five readable/sample-reviewed articles, one partial, one non-owning heading and
-28 unresolved classifications. Batch09 restores child0007's first six pages,
-PDF154–159/printed168–173, in 218 independently exact files. Its 60 source crops,
-3,495 typed ranges, 142 nonblank table cells, two blank slots and 77 menu entries
-validate; fresh 213 tests pass. All 50 recognitions used pinned settings with no
-retries. Source errors, uncertain mark and unread curved illustration labels remain
-explicit. The article's intrinsic appendices continue through upper PDF162;
-lower162 is unrelated promotion. Next restore160–162, then assemble separately.
+28 unresolved classifications. Batch10 restores child0007's final appendices,
+PDF160–162/printed174–176, in 60 independently exact files. All16 crops,1,829 typed
+ranges,201 forum names/one blank partner and84 continued menu entries validate;
+fresh213 tests pass. All12 recognitions used pinned settings with no retries.
+All nine article pages154–162 are now preserved across two immutable natives;
+lower162 promotion is explicitly excluded. Next assemble the complete article
+separately. Source errors,uncertain mark and unread illustration labels remain.
 Whole-issue accounting, index, cover and closeout remain pending.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

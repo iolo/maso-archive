@@ -29,8 +29,11 @@ paired OCR or a new engine comparison.
   independently exact files; all60 crops,3,495 typed ranges,142 nonblank table
   cells,two blank slots and77 menu entries pass. Fifty recognitions had no retries;
   all preflight revisions preceded recognition and one source pass followed raw
-  reading. Next restore intrinsic appendices160–162,excluding lower162 promotion,
-  then assemble separately. Source mark/curved labels remain explicitly uncertain.
+  reading. Final160–162 is now preserved in60 independently exact files:201 forum
+  names/one blank partner,84 menu entries and1,829 typed ranges validate;fresh213
+  tests pass. All12 ending recognitions had no retries. Lower162 promotion excluded.
+  Next assemble complete154–162 from the two immutable natives separately.
+  Source mark/curved labels remain explicitly uncertain.
   Interview0005 is complete at148–152/printed162–166 in103
   independently exact files;26 crops,2,965 typed ranges and45 speaker labels pass.
   Parent0006 is non-owning. Two crop-top repairs paused/resumed the same source
