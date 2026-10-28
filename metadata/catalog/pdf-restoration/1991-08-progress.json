@@ -1975,23 +1975,104 @@
       "toc_entry_id": "maso-1991-08-toc-0021",
       "title": "집중리뷰",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents page5 groups independent Excalibur0022 and Borland C++0023 titles under 집중리뷰. Repeated section labels appear over Excalibur on300/302/304 and the independently titled/bylined Borland opening308. No separate parent prose or package assigned.",
+        "Canonical parent reference313 remains literal. Source299 is an advertisement; child0022 opens300 with visible314. Parent reference is not converted into body ownership or a global PDF offset."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1991-08/restoration/batch-40/group-ownership-review.json",
+        "sha256": "70c2570232ea4637d6990b34e7c8c0c6957bcd1b462aed3b090f82eb85201608",
+        "bytes": 2058
+      },
+      "ownership_review": "resolved-from-canonical-parentage-and-repeated-source-section-labels-over-independent-children"
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0022",
       "title": "화상 처리 데이터베이스, 엑스컬리버 2.0",
       "parent_id": "maso-1991-08-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical title and original contents5 identify the independent Excalibur review opening300/314. Source subtitle 화상처리 데이타베이스, and title 엑스컬리버 2.0 remain literal. Canonical credit 편집부 differs from actual 글. 성기준 기자; standfirst 〈편집자〉 is separate. Canonical TOC unchanged.",
+        "Complete actual extent PDF300–304/printed314–318. Upper304 concludes with terminal ornament before unrelated lower back-issue advertisement, which is excluded; literal318 folio retained.299 and305–307 are advertisements.308 is an independent Borland title/byline opening; full sibling extent is unverified.309 was rendered but not individually reviewed.",
+        "All302 files independently exact. All84 exact source-pixel crops,70 pinned kor+eng settings and2580 typed article ranges validate. Retains60 blocks,14 originals,13 caption links,five joined blocks/ten boundaries,140 spatial fields/53 reading rows,two screenshot tables/46 fields including one explicit blank cell,four record groups/30 fields,seven menu bars/35 fields,four diagram columns/17 fields,six application items/12 fields,three dialogs/21 choices,15 shortcut occurrences andsix status values.",
+        "Thirteen prose references and three caption discrepancies remain separate: source photo8/9/10 descriptions differ from captions8/9/화면10. Twenty screenshot label regions,104 uncertainties,26 opaque readings,six physical wraps andthree covered-text markers remain active. Marker interiors are excluded from source-derived token/glyph/numeric/identifier/spatial indexes; original screenshots retained without hidden-text reconstruction.",
+        "Printed Serch,TESTING ET−/3000,포터빅스 versus diagram포토빅스,하리라/하희라 and로렉스25/Z5 candidates,갯수,기능들을 과제를,문의사항는,871~9766 andnumeric/product claims remain literal and unverified. No factual,grammar,syntax orarithmetic repair,compilation orhistorical execution.",
+        "All84 final exact crops reviewed before70 recognitions after43 crop refinement events andseven added label regions. All70 raw drafts read before one source correction pass;zero retries orpost-OCR crop repairs. Two English metadata revisions preserve all source text/ranges/decisions andthe original pass timestamp. Failed verifier assumptions about spaces,block location,menu labels andcaption wraps are retained with corrected audit revisions.",
+        "All24466 prior archive files and30 core modules exact;unchanged213-test baseline reused. No body pages orarticle assembly pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-40-r02/excalibur",
+        "article_id": "scan-maso-1991-08-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-40-r02/excalibur/manifest.json",
+          "sha256": "7f5893908391cd04396ebfd001efe85b1a9f1b425dc97d2ac687a09cbd0fd138",
+          "bytes": 52633
+        },
+        "source_body_title": "엑스컬리버 2.0",
+        "source_subtitle": "화상처리 데이타베이스,",
+        "source_byline": "글. 성기준 기자",
+        "canonical_byline_candidate": "편집부",
+        "editorial_credit": "〈편집자〉",
+        "coverage": {
+          "pdf_pages": [
+            300,
+            301,
+            302,
+            303,
+            304
+          ],
+          "printed_pages": [
+            "314",
+            "315",
+            "316",
+            "317",
+            "318"
+          ],
+          "regions": 84,
+          "blocks": 60,
+          "figures": 14,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 300,
+          "end_pdf_page": 304,
+          "ending_printed_page": "318",
+          "previous_pdf_page": 299,
+          "previous_role": "advertisement",
+          "following_pdf_pages": [
+            305,
+            306,
+            307
+          ],
+          "following_role": "advertisements",
+          "next_independent_title_pdf_page": 308,
+          "ending_lower_advertisement": "Unrelated lower304 back-issue advertisement excluded;upper conclusion,terminal mark and318 folio retained."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-40/validation.json",
+          "sha256": "816b423a25fb94160e64a00e6bbc9736a44127b8b4dea8b5f65eeb4e61b1df20",
+          "bytes": 2573
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-40/reproduction-r02.json",
+          "sha256": "6a20f3eb1f5ca2193c59053810af5f9fb0b10caeea4015c3f8ebaf9204ebdb99",
+          "bytes": 53397
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-40"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0023",
@@ -3195,41 +3276,59 @@
         "sha256": "97977986f11df539e0aec5a3508cc21912fe73a00f7200d28e0fac1ea856b160",
         "bytes": 91016
       }
+    },
+    {
+      "name": "1991-08-batch-40",
+      "status": "complete",
+      "completed_at": "2026-10-28T18:42:28.097578+00:00",
+      "goal": "Classify non-owning 집중리뷰0021 and restore complete Excalibur0022",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0021",
+        "maso-1991-08-toc-0022"
+      ],
+      "canonical_tasks": 2,
+      "source_pages": 5,
+      "new_mapped_pages": 5,
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 70,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-40/validation.json",
+        "sha256": "816b423a25fb94160e64a00e6bbc9736a44127b8b4dea8b5f65eeb4e61b1df20",
+        "bytes": 2573
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-40/reproduction-r02.json",
+        "sha256": "6a20f3eb1f5ca2193c59053810af5f9fb0b10caeea4015c3f8ebaf9204ebdb99",
+        "bytes": 53397
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 17,
+    "readable": 18,
     "partial": 0,
-    "group_headings": 3,
-    "unresolved": 15
+    "group_headings": 4,
+    "unresolved": 13
   },
   "notes": [
-    "Full August issue goal active:15 identities still require ownership/eligibility review. HIMEM.SYS0020 complete atPDF288–296/printed302–310;allselectedreadablearticles have no pendingbodypages orassemblies. Three non-owning headings. No globalfoliooffset.",
+    "Full August issue goal remains active: thirteen identities require ownership/eligibility review. Eighteen readable articles have complete body coverage and no pending assembly;four non-owning headings. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-40",
-    "goal": "Classify 집중리뷰0021 ownership andverify/restore bounded 엑스컬리버0022 source extent/opening.",
+    "name": "1991-08-batch-41",
+    "goal": "Verify the complete source extent of Borland C++0023 from its retained independent opening; restore at most six verified body pages.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0021",
-      "maso-1991-08-toc-0022"
+      "maso-1991-08-toc-0023"
     ],
-    "canonical_title": "화상 처리 데이터베이스, 엑스컬리버 2.0",
-    "canonical_byline_candidate": "편집부",
+    "canonical_title": "새 모습, 새 기능의 볼랜드 C++ 2.0",
+    "canonical_byline_candidate": "정경민",
     "mapping_targets": [],
     "lookup_candidates": [
       5,
-      299,
-      300,
-      301,
-      302,
-      303,
-      304,
-      305,
-      306,
-      307,
       308,
       309,
       310,
@@ -3239,18 +3338,27 @@
       314,
       315,
       316,
-      317
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326
     ],
     "retained_context": {
-      "pdf_page": 299,
-      "role": "Full advertisement;not assigned review body. ParentTOC313 isliteral reference,not proof ofbodyownership orPDF offset.",
-      "source_render": "archive/pdf/1991-08/restoration/batch-37/source-review/pdf-299.png"
+      "pdf_page": 308,
+      "role": "Independent Borland title/byline opening reviewed as adjacent context only.309 rendered but not individually reviewed;310 onward unreviewed.",
+      "source_render": "archive/pdf/1991-08/restoration/batch-40/source-review/pdf-308.png"
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Reuse originalcontents5 and299 context;300–317 are lookuphypotheses only. Parent집중리뷰 hascanonical313 reference andtwochildren0022/0023 butbodyownership unresolved. Verify independenttitles/bylines,fullstart/end,visiblefolios,continuations andadjacentmaterial beforeclassifyinggroup ormappingatmostsixpages. No globalfoliooffset orTOCstart substitution. Preserve screenshots/labels/tables/prose/code/errors/glyphs/physicalwraps andclaims literally. Everyexactfinalcrop before pinnedmappedTesseract;allraws beforeone sourcepass. Selected0020 requiresbatch39 boundary_adapter.install(),0018batch35 boundaryadapter,0003batch07listingadapter,0002batch04nativeadapter. Wholeissueaccounting/index/cover/closeout pending;no reader rebuild."
+    "note": "Read PLAN-OCR. Reuse contents5 and308 opening;review309 before using it. All further page candidates are lookup hypotheses only. Verify visible folios,byline,continuations,ending andadjacent independent material before assigning body pages. Segment if more than six verified pages. Preserve printed source errors,code,UI,captions,diagrams,glyph candidates,physical wraps andclaims. Every final exact crop before pinned mapped Tesseract;all raw drafts before one source correction pass. Selected0020 requiresbatch39 boundary_adapter.install(),0018batch35 boundaryadapter,0003batch07 listingadapter,0002batch04 nativeadapter. Whole-issue accounting,index,cover andcloseout pending;no reader rebuild."
   }
 }

@@ -6,16 +6,18 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: seventeen readable/sample-reviewed articles, no
-partials, three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 is
-complete at PDF288–296/printed302–310: 473 files independently exact, including 464
-unchanged native files. All 119 source-pixel crops, 109 settings and 13,605 original
-native/projected typed ranges validate; all 2,750 published combined ranges pass.
-One pinned private adapter resolves the 293 Test→294 Program quoted boundary while
-keeping all 631 physical/logical rows and native bytes unchanged. Lower 296 ad excluded;
-folio 310 retained. All 23,956 prior files/30 core modules exact; 213-test baseline reused.
-Next classify group0021 집중리뷰 and locate child0022 엑스컬리버 from source.
-Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
+August 1991 remains in progress: eighteen readable/sample-reviewed articles, no
+partials, four non-owning headings and thirteen unresolved identities. Batch40
+completes Excalibur0022 at PDF300–304/printed314–318 in
+`packages/batch-40-r02/excalibur`: 302 files independently exact,
+84 source-pixel crops, 70 pinned kor+eng settings and 2,580 typed ranges validated.
+Retains fourteen originals/thirteen captions, screenshot tables/UI fields, three
+prose/caption discrepancies and three covered-text markers. Canonical 편집부 and
+actual 성기준 기자 credits remain separate. Lower304 advertisement excluded;318 folio
+retained. Parent 집중리뷰0021 is non-owning. All 24,466 prior files/30 core modules
+exact; unchanged 213-test baseline reused. Next verify Borland C++0023 extent from
+retained 308 opening; 309 rendered but not reviewed. Whole-issue accounting, index,
+cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

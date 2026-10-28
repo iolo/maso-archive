@@ -23,41 +23,41 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: seventeen readable/sample-reviewed articles, no partials,
-  three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 is complete at
-  PDF288–296/printed302–310 in `packages/himem-complete-r01` (473 independently exact
-  files, including 464 unchanged native files). All 13,605 original typed occurrences
-  (8,749 article/4,856 listing) independently validated in native and projected contexts;
-  all 2,750 published combined ranges pass. 119 source-pixel crops, 102 blocks, ten
-  originals, 109 pinned settings (15 eng code/94 kor+eng), 15 code blocks and 631 complete
-  unnumbered physical/logical rows/19,636 bytes retained. Four source listings plus
-  structure across six groups, seven native joins/seven boundaries, five code continuities/
-  nine panel boundaries, five captions, four circled callouts, 18 function references/
-  104 ABI rows/180 fields, 27 errors, 23 screen rows/21 fields, 21 C declarations, five
-  struct fields, 26 MAKE variables, nine helper heads and 13 physical wraps remain.
-  All 424 uncertainties/44 variants and 13 graphic-band markers active; marker interiors
-  outside source-derived indexes. No opcode/syntax/math/semantic repair or historical
-  execution. Lower 296 bookstore ad excluded; folio 310 literal. Source-local native
-  future-stage statements remain provenance; the full boundary audit is complete.
+- August 1991 remains active: eighteen readable/sample-reviewed articles, no partials,
+  four non-owning headings and thirteen unresolved identities. Batch40 completes
+  Excalibur0022 at PDF300–304/printed314–318 in `packages/batch-40-r02/excalibur`
+  (302 independently exact files). All 84 exact source-pixel crops, 70 pinned
+  kor+eng settings and 2,580 typed article ranges validate. Retains 60 blocks,
+  fourteen originals, thirteen caption links, five joined blocks/ten boundaries,
+  140 spatial fields/53 reading rows, two screenshot tables/46 fields including
+  one explicit blank cell, four record groups/30 fields, seven menu bars/35 fields,
+  four diagram columns/17 fields, six application items/12 fields, three dialogs/
+  21 choices, fifteen shortcut-key occurrences and six status values. Twenty UI
+  label regions and thirteen prose references retain three caption discrepancies.
+  All 104 uncertainties, 26 opaque readings, six physical-wrap fields and three
+  covered-text markers stay active; marker interiors are excluded from source-derived
+  indexes. Original screenshots remain authoritative. Canonical credit 편집부,
+  actual 글. 성기준 기자 and editorial 〈편집자〉 stay separate. Lower304 back-issue
+  advertisement excluded; literal318 folio retained. Group0021 집중리뷰 owns no body
+  or package; its canonical313 reference remains literal.
 
-  Batch39 uses full standard actual two-native namespaced-v1 projection. A pinned
-  private boundary adapter validates native pins, both article/listing endpoint spans,
-  scans, unnumbered List1 rows, adjacent pages and matching separators, then adds one
-  formal code-physical-wrap link/provenance only. SignOn 293 ends with Test; 294 starts with Program
-  with a quote. Both physical/logical rows remain separate; no text/quote/spacing change.
-  Twelve invalid mutations rejected. All 464 native files/original metadata unchanged.
-  All 23,956 prior files/30 core modules exact; unchanged 213-test baseline reused. Zero
-  new mapping/render/OCR/source correction. No body pages or 0020 assembly pending.
+  All 84 final exact crops reviewed before 70 recognitions, after 43 refinements
+  and seven added label regions. All 70 raw drafts read before one source pass;
+  zero retries/post-OCR crop repairs. English-only metadata revisions preserve
+  source text/ranges/decisions and correction timestamp. Failed verifier assumptions
+  and fresh corrected audits retained. All 24,466 prior archive files and 30 core
+  modules exact; unchanged 213-test baseline reused. No body pages or assembly pending
+  for 0022. No historical execution or source-error/claim repair.
 
-  Next batch40: classify group0021 집중리뷰 ownership and verify child0022 화상 처리
-  데이터베이스, 엑스컬리버 2.0 source extent/opening. Canonical parent313 reference is
-  literal; retained299 is an advertisement. Reuse contents page 5 and299; 300–317 are lookup
-  hypotheses, not assigned body. Verify title/byline 편집부, visible folios, actual extent/
-  ending/adjacent material before mapping at most six pages. Two-task/six-page/twenty-outside
-  limits; every exact final crop before pinned mapped Tesseract and all raws before one source pass.
-  Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 batch35 boundaryadapter,
-  0003 batch07 listingadapter, 0002 batch04 nativeadapter. Whole-issue accounting, index,
-  cover and closeout pending; no reader rebuild.
+  Next batch41: verify full Borland C++0023 extent from retained independent opening
+  PDF308/byline 정경민. Source309 is rendered but not individually reviewed; further
+  candidates are lookup hypotheses only. Verify title/byline, visible folios,
+  continuations, actual ending and adjacent material before mapping at most six
+  pages. Two-task/six-page/twenty-outside limits; every exact final crop before pinned
+  mapped Tesseract and all raw drafts before one source correction pass.
+  Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 batch35 boundary
+  adapter, 0003 batch07 listing adapter, 0002 batch04 native adapter. Whole-issue
+  accounting, index, cover and closeout pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

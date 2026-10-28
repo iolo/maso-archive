@@ -31,33 +31,40 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: seventeen readable/sample-reviewed articles, no partials,
-three non-owning headings and 15 unresolved identities out of 35. HIMEM.SYS 0020 is
-complete at actual PDF288–296/printed302–310 in `packages/himem-complete-r01`.
-All 473 files match an independent export, including 464 unchanged native files.
-All 13,605 original typed occurrences (8,749 article/4,856 listing) independently
-validate in native and projected combined contexts; all 2,750 published combined
-ranges validate. The full standard two-native assembler retains 119 exact source
-pixel crops, 102 blocks, ten originals and 109 pinned settings (15 eng code/94 kor+eng).
-A pinned private boundary adapter adds one validated physical-code link/provenance
-after standard projection. The SignOn row on 293 ends with Test; 294 begins with Program and a quote.
-All 631 physical/logical rows remain distinct, partitioning 19,636 listing bytes;
-no text normalization, quote completion, row merge or source line-number invention.
-Twelve invalid boundary mutations rejected. Native bytes/original metadata unchanged.
-Retains four source listings and one structure across six groups, seven joined blocks/
-seven boundaries, five code continuities/nine panel boundaries, five captions, four
-circled callouts, 18 function references/104 ABI rows/180 fields, 27 error entries,
-23 screen rows/21 fields, 21 C declarations, five struct fields, 26 MAKE variables,
-nine helper definition heads and 13 physical-wrap fields. All 424 uncertainties/44
-opaque variants and 13 unknown graphic-band markers remain active without opcode/
-syntax/math/semantic repair or historical program execution. Lower 296 ad excluded;
-literal folio 310 retained. Four exact obsolete stage notes resolve six occurrences.
-All 23,956 prior files and 30 core modules exact; 213-test baseline reused. No new OCR,
-rendering, mapping or source correction. No body pages or 0020 assembly pending.
-Next verify ownership of group0021 집중리뷰 and the source extent of its child0022,
-화상 처리 데이터베이스, 엑스컬리버 2.0. Parent TOC313 remains a
-literal reference; retained299 is an advertisement, not assigned body. Source300–317 are
-lookup hypotheses only. Whole-issue accounting, index, cover and closeout pending.
+Step 12 remains active: eighteen readable/sample-reviewed articles, no partials,
+four non-owning headings and thirteen unresolved identities out of 35. Batch40
+classifies 집중리뷰 0021 as a non-owning heading and completes child0022,
+화상 처리 데이터베이스, 엑스컬리버 2.0, at actual PDF300–304/printed314–318.
+Selected package: `packages/batch-40-r02/excalibur` below `archive/pdf/1991-08/`.
+All 302 files match an independent export. All 84 source-pixel crops, 70 pinned
+kor+eng settings and 2,580 typed article ranges validate. Retains 60 blocks,
+fourteen originals, thirteen caption links and five joined blocks/ten boundaries.
+Two screenshot tables retain 46 fields and an explicit blank cell; four record
+groups retain 30 fields. Seven menu bars/35 fields, four diagram columns/17 fields,
+six application items/12 fields, three dialogs/21 choices, fifteen shortcut-key
+occurrences and six status values remain source-linked. Thirteen prose references
+retain three discrepancies with captions 8/9/화면10, without renumbering.
+All 104 uncertainties, 26 opaque variants, six physical-wrap fields and three
+covered-text markers remain active; marker interiors are excluded from source-derived
+indexes. Canonical credit 편집부, actual 글. 성기준 기자 and 〈편집자〉 remain separate.
+Lower 304 back-issue advertisement is excluded; literal folio 318 retained.
+All final crops were reviewed before 70 recognitions, after 43 refinement events
+and seven added label regions. All raw drafts were read before one source correction
+pass; zero retries or post-OCR crop repairs. Fresh metadata revisions change English
+normalization prose only; source text/ranges/decisions and pass timestamp unchanged.
+Failed verifier assumptions and corrected audits are retained. All 24,466 prior
+archive files and 30 core modules remain exact; unchanged 213-test baseline reused.
+No child0022 body pages or assembly pending. No historical execution or repair of
+source grammar, product names, numeric claims, syntax or arithmetic.
+
+Next batch41: verify the full extent of child0023, 새 모습, 새 기능의 볼랜드 C++ 2.0,
+from the retained independent opening308/byline 정경민. Source309 was rendered but
+not individually inspected; further pages are lookup hypotheses only. Verify folios,
+continuations, ending and adjacent independent material before mapping at most six
+pages. Parent0021 reference313 remains literal; it owns no body or package.
+Selected HIMEM0020 requires batch39 `boundary_adapter.install()`; FoxView0018
+requires batch35 boundary adapter, 0003 batch07 listing adapter and 0002 batch04
+native adapter. Whole-issue accounting, index, cover and closeout remain pending.
 No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
