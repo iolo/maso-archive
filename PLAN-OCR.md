@@ -23,34 +23,40 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: sixteen readable/sample-reviewed articles, one partial,
-  three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 now has all
-  actual 288–296/302–310 body pages preserved across two immutable natives: opening
-  `packages/batch-37-r01/himem-a` (386 files), ending `packages/batch-38-r01/himem-b`
-  (78 files). Lower 296 bookstore advertisement explicitly excluded; folio 310 retained.
-  Final native retains 21 exact crops, 16 pinned settings (10 eng code/6 kor+eng), 16 blocks,
-  five originals, ten code panels, 413 physical code reading rows/12,406 bytes and 6,489
-  typed ranges (3,174 article/3,315 listing). Four listings retain 21 function declarations,
-  five struct fields, 26 MAKE variables, nine helper definition heads, three captions and
-  seven physical wraps. All 267 uncertainties/24 variants preserve macro prime candidate,
-  /CO, /Ol, /Wx, PWBMAKE/pwbrmake, NMK, 0xFFFFF800L, casts and strings without syntax/opcode/
-  math/semantic repair or historical program execution. All 21 crops and ten refinements
-  before 16 recognitions; all 16 raws before one source pass; zero retries/post-OCR repairs.
-  Raw-reading narrative supplement corrects inherited page/output labels only; 16 pins
-  and timestamps unchanged. Fresh verifier fixes relative pin-base comparison; source and
-  both exports unchanged. All 23,672 prior files/386 opening files/30 core modules exact;
-  unchanged 213-test baseline reused.
+- August 1991 remains active: seventeen readable/sample-reviewed articles, no partials,
+  three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 is complete at
+  PDF288–296/printed302–310 in `packages/himem-complete-r01` (473 independently exact
+  files, including 464 unchanged native files). All 13,605 original typed occurrences
+  (8,749 article/4,856 listing) independently validated in native and projected contexts;
+  all 2,750 published combined ranges pass. 119 source-pixel crops, 102 blocks, ten
+  originals, 109 pinned settings (15 eng code/94 kor+eng), 15 code blocks and 631 complete
+  unnumbered physical/logical rows/19,636 bytes retained. Four source listings plus
+  structure across six groups, seven native joins/seven boundaries, five code continuities/
+  nine panel boundaries, five captions, four circled callouts, 18 function references/
+  104 ABI rows/180 fields, 27 errors, 23 screen rows/21 fields, 21 C declarations, five
+  struct fields, 26 MAKE variables, nine helper heads and 13 physical wraps remain.
+  All 424 uncertainties/44 variants and 13 graphic-band markers active; marker interiors
+  outside source-derived indexes. No opcode/syntax/math/semantic repair or historical
+  execution. Lower 296 bookstore ad excluded; folio 310 literal. Source-local native
+  future-stage statements remain provenance; the full boundary audit is complete.
 
-  Next batch39: actual two-native assembly 288–296, zero new mapping/OCR/correction.
-  Use namespaced-v1 and both actual natives named himem-a/himem-b; preserve 464 native
-  files and every original source-local metadata field. Audit every typed occurrence
-  in its proper native/projected article/listing context. SignOn 293 ends with Test and 294
-  starts Program 2.0-7/05/88 with a quote; preserve both unnumbered physical rows. Both natives
-  have code-physical-wrap declarations; standard projection retains unknown kind as
-  provenance. Explicit actual-boundary validation remains required. Do not invent
-  source line numbers or merge physical rows. Resolve only exact obsolete stage notes;
-  source uncertainty remains. Selected 0018 still requires batch35 boundaryadapter;
-  0003 batch07 listingadapter; 0002 batch04 nativeadapter. Whole-issue accounting, index,
+  Batch39 uses full standard actual two-native namespaced-v1 projection. A pinned
+  private boundary adapter validates native pins, both article/listing endpoint spans,
+  scans, unnumbered List1 rows, adjacent pages and matching separators, then adds one
+  formal code-physical-wrap link/provenance only. SignOn 293 ends with Test; 294 starts with Program
+  with a quote. Both physical/logical rows remain separate; no text/quote/spacing change.
+  Twelve invalid mutations rejected. All 464 native files/original metadata unchanged.
+  All 23,956 prior files/30 core modules exact; unchanged 213-test baseline reused. Zero
+  new mapping/render/OCR/source correction. No body pages or 0020 assembly pending.
+
+  Next batch40: classify group0021 집중리뷰 ownership and verify child0022 화상 처리
+  데이터베이스, 엑스컬리버 2.0 source extent/opening. Canonical parent313 reference is
+  literal; retained299 is an advertisement. Reuse contents page 5 and299; 300–317 are lookup
+  hypotheses, not assigned body. Verify title/byline 편집부, visible folios, actual extent/
+  ending/adjacent material before mapping at most six pages. Two-task/six-page/twenty-outside
+  limits; every exact final crop before pinned mapped Tesseract and all raws before one source pass.
+  Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 batch35 boundaryadapter,
+  0003 batch07 listingadapter, 0002 batch04 nativeadapter. Whole-issue accounting, index,
   cover and closeout pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

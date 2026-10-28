@@ -31,31 +31,34 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: sixteen readable/sample-reviewed articles, one partial,
-three non-owning headings and 15 unresolved identities out of 35. HIMEM.SYS 0020 now
-has all actual PDF288–296/printed302–310 body pages preserved across two immutable
-natives: opening 288–293 (386 files) and ending 294–296 (78 files). Full assembly is
-pending. The prose closes on 292; intrinsic Lists1–4 end in upper 296 above an unrelated
-bookstore advertisement. The ending native explicitly excludes that ad and retains
-literal folio 310. Its 78 files match an independent export; 21 exact source-pixel
-crops, 16 settings (10 eng code/6 kor+eng) and 6,489 typed ranges validate.
-It retains 16 blocks, five originals, ten code panels and 413 complete code reading
-rows/12,406 listing bytes across four listings. Twenty-one function declarations,
-five struct fields, 26 MAKE variables, nine helper definition heads, three captions
-and seven physical-wrap fields remain explicit. All 267 uncertainties/24 variants
-preserve the macro prime candidate, /CO, /Ol, /Wx, PWBMAKE/pwbrmake, NMK, 0xFFFFF800L,
-casts and quoted strings without syntax/opcode/math/semantic repair or execution.
-All 21 final crops before 16 recognitions after ten pre-OCR refinements; all raws before
-one source pass. Zero retries/post-OCR repairs. Raw-reading narrative page labels
-are corrected in a supplement; 16 pins/timestamps unchanged. Initial verifier pin-base
-comparison corrected in a fresh helper; source/exports unchanged. All 23,672 prior
-files and 30 core modules exact; unchanged 213-test baseline reused.
-Next batch39 assembles both actual natives, with every native/projected typed range
-checked in its proper context. The open SignOn row on 293 ends with Test; 294 begins with Program.
-Keep both unnumbered physical rows and audit their explicit code-physical-wrap
-provenance; standard projection does not resolve this kind automatically. No new OCR
-or source correction is needed. Whole-issue accounting, index, cover and closeout
-remain pending. No reader rebuild.
+Step 12 remains active: seventeen readable/sample-reviewed articles, no partials,
+three non-owning headings and 15 unresolved identities out of 35. HIMEM.SYS 0020 is
+complete at actual PDF288–296/printed302–310 in `packages/himem-complete-r01`.
+All 473 files match an independent export, including 464 unchanged native files.
+All 13,605 original typed occurrences (8,749 article/4,856 listing) independently
+validate in native and projected combined contexts; all 2,750 published combined
+ranges validate. The full standard two-native assembler retains 119 exact source
+pixel crops, 102 blocks, ten originals and 109 pinned settings (15 eng code/94 kor+eng).
+A pinned private boundary adapter adds one validated physical-code link/provenance
+after standard projection. The SignOn row on 293 ends with Test; 294 begins with Program and a quote.
+All 631 physical/logical rows remain distinct, partitioning 19,636 listing bytes;
+no text normalization, quote completion, row merge or source line-number invention.
+Twelve invalid boundary mutations rejected. Native bytes/original metadata unchanged.
+Retains four source listings and one structure across six groups, seven joined blocks/
+seven boundaries, five code continuities/nine panel boundaries, five captions, four
+circled callouts, 18 function references/104 ABI rows/180 fields, 27 error entries,
+23 screen rows/21 fields, 21 C declarations, five struct fields, 26 MAKE variables,
+nine helper definition heads and 13 physical-wrap fields. All 424 uncertainties/44
+opaque variants and 13 unknown graphic-band markers remain active without opcode/
+syntax/math/semantic repair or historical program execution. Lower 296 ad excluded;
+literal folio 310 retained. Four exact obsolete stage notes resolve six occurrences.
+All 23,956 prior files and 30 core modules exact; 213-test baseline reused. No new OCR,
+rendering, mapping or source correction. No body pages or 0020 assembly pending.
+Next verify ownership of group0021 집중리뷰 and the source extent of its child0022,
+화상 처리 데이터베이스, 엑스컬리버 2.0. Parent TOC313 remains a
+literal reference; retained299 is an advertisement, not assigned body. Source300–317 are
+lookup hypotheses only. Whole-issue accounting, index, cover and closeout pending.
+No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

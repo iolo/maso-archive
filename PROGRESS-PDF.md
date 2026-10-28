@@ -6,14 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: sixteen readable/sample-reviewed articles, one
-partial, three non-owning headings and 15 unresolved identities. All HIMEM.SYS 0020
-body pages 288–296/printed302–310 are preserved across two immutable natives (464 files).
-Final 294–296 retains four listings with 413 code reading rows; its 78 files match the
-independent export. All 21 crops, 16 settings and 6,489 typed ranges validate. Lower 296
-bookstore ad excluded; folio 310 retained. Literal code/flags/font candidates remain.
-All 23,672 prior files and 30 core modules exact; 213-test baseline reused. Next actual
-two-native assembly with full range/context and unnumbered quoted-boundary audit.
+August 1991 remains in progress: seventeen readable/sample-reviewed articles, no
+partials, three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 is
+complete at PDF288–296/printed302–310: 473 files independently exact, including 464
+unchanged native files. All 119 source-pixel crops, 109 settings and 13,605 original
+native/projected typed ranges validate; all 2,750 published combined ranges pass.
+One pinned private adapter resolves the 293 Test→294 Program quoted boundary while
+keeping all 631 physical/logical rows and native bytes unchanged. Lower 296 ad excluded;
+folio 310 retained. All 23,956 prior files/30 core modules exact; 213-test baseline reused.
+Next classify group0021 집중리뷰 and locate child0022 엑스컬리버 from source.
 Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

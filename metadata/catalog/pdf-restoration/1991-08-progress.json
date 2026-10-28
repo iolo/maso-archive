@@ -1833,7 +1833,7 @@
       "parent_id": "maso-1991-08-toc-0016",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical series/title and author박현철 match original contents5 and independent288/302 titleHIMEM.SYS의 활용/byline글.박현철((주)DIS연구원). Running headers show확장 메모리의 활용 with boxed6. Parent활용 remains non-owning; no individual TOC page reference or global folio offset inferred.",
@@ -1843,39 +1843,50 @@
         "Source0000 candidate,DX handle,UBM versusUMB,NMK,XMM,dd·,ah10,BCD claim,PrintIt/PrntIt2 font candidates and prose960KB/160KB/704KB versus screen100K/03C0/02C0 remain literal. All157 uncertainties/20 opaque variants active. No opcode/syntax/math/semantic repair, compilation or execution.",
         "Wide source views correct remembered P/rogram hypothesis:293 SignOn endsTest;294 beginsProgram2.0-7/05/88 with quote. Current native retains open quoted physical row, no completion. Both custom outgoing note and segment_continuations code-physical-wrap declaration retained; actual unnumbered boundary audit required during full assembly, not falsely claimed standard resolved link.",
         "All98 initial crops,93 margin refinements and10 follow-up refinements individually reviewed before93 recognitions. Truncated initial290 image emission excluded and all26 re-viewed in small groups. All93 raw drafts read before one source pass; zero retries/post-OCR repairs. All22416 prior files and30 core modules exact; unchanged213-test baseline reused.",
-        "Batch38 restores final294–296/308–310 in78 independently exact files. All21 exact source-pixel crops,16 blocks,five originals,16 pinned settings(10eng code/6kor+eng) and6489 typed occurrences(3174article/3315listing) validate. Four listings across10codepanels retain413 complete unnumbered code reading rows/12406listingbytes. Four multi-panel continuities/six boundaries,three captions,21 function declarations,five struct fields,26MAKE variables,nine helper definition heads,seven physical-wrap fields,267 uncertainties and24 opaque variants retained. Incoming293Test→294Program remains two physical rows withopen quote provenance;FoundOne also wraps. Lower296 bookstore ad explicitly excluded;310folio literal. Source prime candidate,/CO,/Ol,/Wx,PWBMAKE/pwbrmake,NMK,0xFFFFF800L,casts andstrings retained without syntax/opcode/math/semantic repair orcompilation/execution. All21 initial crops and10 refinements viewed before16 recognitions;all16 raws read beforeone sourcepass;zero retries/postOCRrepairs. Original raw-reading narrative inherited old page labels;explicit supplement corrects method only,16 pins/timestamps unchanged. Initial verifier compared different relative pin bases;fresh revision fixes that check,source/exports unchanged. All23672 prior files/386 opening files/30core modules exact;213-test baseline reused. All288–296 body pages now preserved across464 immutable native files;actual fulltwo-native assembly pending."
+        "Batch38 restores final294–296/308–310 in78 independently exact files. All21 exact source-pixel crops,16 blocks,five originals,16 pinned settings(10eng code/6kor+eng) and6489 typed occurrences(3174article/3315listing) validate. Four listings across10codepanels retain413 complete unnumbered code reading rows/12406listingbytes. Four multi-panel continuities/six boundaries,three captions,21 function declarations,five struct fields,26MAKE variables,nine helper definition heads,seven physical-wrap fields,267 uncertainties and24 opaque variants retained. Incoming293Test→294Program remains two physical rows withopen quote provenance;FoundOne also wraps. Lower296 bookstore ad explicitly excluded;310folio literal. Source prime candidate,/CO,/Ol,/Wx,PWBMAKE/pwbrmake,NMK,0xFFFFF800L,casts andstrings retained without syntax/opcode/math/semantic repair orcompilation/execution. All21 initial crops and10 refinements viewed before16 recognitions;all16 raws read beforeone sourcepass;zero retries/postOCRrepairs. Original raw-reading narrative inherited old page labels;explicit supplement corrects method only,16 pins/timestamps unchanged. Initial verifier compared different relative pin bases;fresh revision fixes that check,source/exports unchanged. All23672 prior files/386 opening files/30core modules exact;213-test baseline reused. All288–296 body pages now preserved across464 immutable native files;actual fulltwo-native assembly pending.",
+        "Batch39 completes actual HIMEM.SYS two-native assembly PDF288–296/printed302–310. All464 native files unchanged inside473 independently exact files. Full standard namespaced-v1 projector isused;private pinned adapter validates exact article/listing endpoint ranges/scans,source suffix/prefix,matching declarations,unnumbered List1 rows,adjacentpages andseparators,then addsone formal code-physical-wrap link/provenance only.293 SignOn endsTest;294 beginsProgram2.0-7/05/88 withquote. Both631 physical/logical rows remain distinct;no quote completion,rowmerge,line-number invention,text normalization orsource-byte change. All13605 original typed occurrences(8749article/4856listing) validate innative andprojectedcombinedcontexts;all2750publishedcombinedranges(211article/2539listing) pass. Retains119 exact source-pixel crops,102 blocks,ten originals,109 pinned settings(15eng code/94kor+eng),15 code blocks,631 complete unnumbered reading rows/19636listingbytes,foursource listings plusstructure acrosssixgroups,sevennativejoinedblocks/sevenboundaries,fivecodecontinuities/ninepanelboundaries,fivecaptions andfourcircledcalloutlinks. Eighteen function references/104ABIrows/180fields,27errors,23screenrows/21fields,21Cdeclarations,fivestructfields,26MAKEvariables,ninehelperheads and13physicalwrapfields retained. All424uncertainties/44variants and13unknownbandmarkers stayactive;markerinteriors outside source-derivedindexes. Lower296ad excluded;310folio literal. Four exactobsolete stage notes resolve sixactive occurrences;native source-localmetadata unchanged. Twelve invalid boundary mutations rejected. All23956 prior files/30 core modules exact;213-test baseline reused. No new mapping/render/OCR/correction;no bodypages or0020assembly pending. No opcode/syntax/math/semantic repair,compilation orhistoricalexecution."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-38-r01/himem-b",
+        "directory": "archive/pdf/1991-08/packages/himem-complete-r01",
         "article_id": "scan-maso-1991-08-toc-0020",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-38-r01/himem-b/manifest.json",
-          "sha256": "32cdd469780c94771133b6dac0cbd9c87b33abadec213d16d0c140889a3a05bf",
-          "bytes": 13550
+          "path": "archive/pdf/1991-08/packages/himem-complete-r01/manifest.json",
+          "sha256": "a15cdda0da98126fbad717f8f1d75a816c95e1a08efceff84742f62793af4a9e",
+          "bytes": 89329
         },
         "source_body_title": "HIMEM.SYS의 활용",
         "coverage": {
           "pdf_pages": [
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
             294,
             295,
             296
           ],
           "printed_pages": [
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
             "308",
             "309",
             "310"
           ],
-          "regions": 21,
-          "blocks": 16,
-          "figures": 5,
+          "regions": 119,
+          "blocks": 102,
+          "figures": 10,
           "excluded_regions": 1,
-          "deferred_pdf_pages": [],
-          "native_scope_only": true
+          "deferred_pdf_pages": []
         },
-        "body_pages_complete": false,
-        "all_body_pages_preserved_across_natives": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "name": "himem-a",
@@ -1910,9 +1921,9 @@
           }
         ],
         "native_stage_history": {
-          "path": "archive/pdf/1991-08/restoration/batch-37/ledger-complete.json",
-          "sha256": "7e1c29d15afba7ed341047f49fb497d6baab6eb3e5b7559bbf4518b7f92353ff",
-          "bytes": 153087
+          "path": "archive/pdf/1991-08/restoration/batch-38/ledger-complete.json",
+          "sha256": "ce70d7014b557a6635ca5021eaabee6564409f842b991b229f9d4be324e5bc60",
+          "bytes": 156810
         },
         "full_source_extent": {
           "start_pdf_page": 288,
@@ -1928,26 +1939,36 @@
           "following_role": "advertisements",
           "ending_lower_advertisement": "Lower296 independent bookstore advertisement explicitly excluded;upper List4 and literal310folio retained."
         },
-        "incoming_code_boundary": {
-          "from_pdf_page": 293,
-          "to_pdf_page": 294,
-          "tail": "Test",
-          "head": "Program",
-          "physical_rows_joined": false,
-          "code_boundary_audit_pending": true
-        },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-38/validation.json",
-          "sha256": "9e565b8aae86f87bff5a8cbede36c9a230e8d24ad1a3420fe13962d320e7486f",
-          "bytes": 2672
+          "path": "archive/pdf/1991-08/restoration/batch-39/validation.json",
+          "sha256": "781ee2296324a6a8ee04096d3d436cff1c6214d06ca14f9f852e55645e93a6b0",
+          "bytes": 3422
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-38/reproduction.json",
-          "sha256": "0a5b17d3f78daa7644325118efde20ecefb45606cadeebd1c89fc31d2759579a",
-          "bytes": 14351
+          "path": "archive/pdf/1991-08/restoration/batch-39/reproduction.json",
+          "sha256": "97977986f11df539e0aec5a3508cc21912fe73a00f7200d28e0fac1ea856b160",
+          "bytes": 91016
         },
-        "private_adapter_required": false,
-        "checkpoint": "batch-38"
+        "assembly_index_mode": "namespaced-v1",
+        "private_adapter_required": true,
+        "private_adapter": {
+          "module": "boundary_adapter",
+          "directory": "archive/pdf/1991-08/restoration/batch-39",
+          "install": "boundary_adapter.install()",
+          "adapter": {
+            "path": "archive/pdf/1991-08/restoration/batch-39/boundary_adapter.py",
+            "sha256": "0e9d16af78ca9c8199aefc46865e50baac550ad5b713bfdc6d66206adc174cb5",
+            "bytes": 7963
+          },
+          "inputs": {
+            "path": "archive/pdf/1991-08/restoration/batch-39/adapter-inputs.json",
+            "sha256": "97315f12c4b37a894fff9cce141bc72c2b0dbd3ff9cd9fac12cc947094a84320",
+            "bytes": 8092
+          },
+          "reason": "Matching native code-physical-wrap declarations require one validated formal link after full standard projection. Both unnumbered physical/logical rows andallnativebytes/originalmetadata unchanged."
+        },
+        "full_assembler_checked": true,
+        "checkpoint": "batch-39"
       }
     },
     {
@@ -3147,36 +3168,89 @@
         "sha256": "0a5b17d3f78daa7644325118efde20ecefb45606cadeebd1c89fc31d2759579a",
         "bytes": 14351
       }
+    },
+    {
+      "name": "1991-08-batch-39",
+      "status": "complete",
+      "completed_at": "2026-10-28T18:04:13.528702+00:00",
+      "goal": "Complete HIMEM.SYS actual two-native assembly with exhaustive native/projected range andphysical-code boundary audit",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0020"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 9,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "private_adapter_required": true,
+      "adapter_rejected_mutations": 12,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-39/validation.json",
+        "sha256": "781ee2296324a6a8ee04096d3d436cff1c6214d06ca14f9f852e55645e93a6b0",
+        "bytes": 3422
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-39/reproduction.json",
+        "sha256": "97977986f11df539e0aec5a3508cc21912fe73a00f7200d28e0fac1ea856b160",
+        "bytes": 91016
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 16,
-    "partial": 1,
+    "readable": 17,
+    "partial": 0,
     "group_headings": 3,
     "unresolved": 15
   },
   "notes": [
-    "Full August issue goal active:15 identities still require ownership/eligibility review. HIMEM.SYS0020 all288–296 body pages preserved across two immutable natives; actual full assembly and unnumbered code-boundary audit pending. Sixteen readable articles,one partial,three non-owning headings. No global folio offset.",
+    "Full August issue goal active:15 identities still require ownership/eligibility review. HIMEM.SYS0020 complete atPDF288–296/printed302–310;allselectedreadablearticles have no pendingbodypages orassemblies. Three non-owning headings. No globalfoliooffset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-39",
-    "goal": "Complete actual HIMEM.SYS two-native assembly288–296 with exhaustive native/projected range andphysical code-boundary audit.",
+    "name": "1991-08-batch-40",
+    "goal": "Classify 집중리뷰0021 ownership andverify/restore bounded 엑스컬리버0022 source extent/opening.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0020"
+      "maso-1991-08-toc-0021",
+      "maso-1991-08-toc-0022"
     ],
-    "inputs": [
-      "archive/pdf/1991-08/packages/batch-37-r01/himem-a",
-      "archive/pdf/1991-08/packages/batch-38-r01/himem-b"
-    ],
+    "canonical_title": "화상 처리 데이터베이스, 엑스컬리버 2.0",
+    "canonical_byline_candidate": "편집부",
     "mapping_targets": [],
+    "lookup_candidates": [
+      5,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
+    ],
+    "retained_context": {
+      "pdf_page": 299,
+      "role": "Full advertisement;not assigned review body. ParentTOC313 isliteral reference,not proof ofbodyownership orPDF offset.",
+      "source_render": "archive/pdf/1991-08/restoration/batch-37/source-review/pdf-299.png"
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Use standard namespaced-v1 assembler onboth actual immutable natives namedhimem-a/himem-b;one-native projection isnotqualification. Preserve all464nativefiles,alloriginalsource-localmetadata,13 unknownbandmarkers fromopening,allcode/prose/function/error/screen/MAKEfields andphysicalrowwraps. Independently validateeverytypedoccurrence inpropernative/projectedarticle/listingcontexts. Bothnatives have matching code-physical-wrap declarations butstandardprojector retainsunknownkind asprovenance,notresolvedboundary. Explicitlyaudit293 SignOn endsTest +294 Programwithclosingquote;keepbothunnumberedphysicalrows anddo notinventprintedlinenumbers ormergesyntax. Decidewhetherreviewableboundaryevidence suffices orprivateadapterneededonlyafteractualtwo-nativeprojection;nativebytes unchanged. Lower296ad exclusion/310folio remain. Resolveonlyexactobsoletenative-stagenotes. No newOCR/sourcecorrection,codeexecution orreaderrebuild. Wholeissueaccounting/index/cover/closeout pending."
+    "note": "Read PLAN-OCR. Reuse originalcontents5 and299 context;300–317 are lookuphypotheses only. Parent집중리뷰 hascanonical313 reference andtwochildren0022/0023 butbodyownership unresolved. Verify independenttitles/bylines,fullstart/end,visiblefolios,continuations andadjacentmaterial beforeclassifyinggroup ormappingatmostsixpages. No globalfoliooffset orTOCstart substitution. Preserve screenshots/labels/tables/prose/code/errors/glyphs/physicalwraps andclaims literally. Everyexactfinalcrop before pinnedmappedTesseract;allraws beforeone sourcepass. Selected0020 requiresbatch39 boundary_adapter.install(),0018batch35 boundaryadapter,0003batch07listingadapter,0002batch04nativeadapter. Wholeissueaccounting/index/cover/closeout pending;no reader rebuild."
   }
 }
