@@ -57,11 +57,20 @@ archive files and 30 core modules remain exact; unchanged 213-test baseline reus
 No child0022 body pages or assembly pending. No historical execution or repair of
 source grammar, product names, numeric claims, syntax or arithmetic.
 
-Next batch41: verify the full extent of child0023, 새 모습, 새 기능의 볼랜드 C++ 2.0,
-from the retained independent opening308/byline 정경민. Source309 was rendered but
-not individually inspected; further pages are lookup hypotheses only. Verify folios,
-continuations, ending and adjacent independent material before mapping at most six
-pages. Parent0021 reference313 remains literal; it owns no body or package.
+Batch41 is in progress for child0023, 새 모습, 새 기능의 볼랜드 C++ 2.0.
+Its complete extent is verified at PDF308–313/printed322–327, with actual byline
+글. 정경민 (한국과학기술원 박사과정). Upper 313 conclusion and four references precede
+an unrelated lower CLiE advertisement; folio 327 retained. 314 opens the independent
+Mac System 7.0 article; 315 is continuation context only. Full Mac extent unverified.
+All 107 final exact crops are reviewed. 97 pinned kor+eng recognitions finished with
+zero retries, and all 97 raw drafts have been read. Source correction has not started.
+Next begin the single source-correction pass, then build and independently validate
+the complete six-page native package before changing 0023 availability. Preserve faint
+UI labels as candidates/unknown-count markers, with original screenshots authoritative.
+No printed program listing or historical execution. Parent 0021 remains non-owning;
+its reference 313 stays literal. Retained handoff: `restoration/batch-41/handoff-r01.json`
+below `archive/pdf/1991-08/`. The bounded batch remains one task/six mapped pages/four
+reviewed outside pages; no additional lookup is required for Borland.
 Selected HIMEM0020 requires batch39 `boundary_adapter.install()`; FoxView0018
 requires batch35 boundary adapter, 0003 batch07 listing adapter and 0002 batch04
 native adapter. Whole-issue accounting, index, cover and closeout remain pending.

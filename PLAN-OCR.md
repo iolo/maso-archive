@@ -49,12 +49,20 @@ paired OCR or a new engine comparison.
   modules exact; unchanged 213-test baseline reused. No body pages or assembly pending
   for 0022. No historical execution or source-error/claim repair.
 
-  Next batch41: verify full Borland C++0023 extent from retained independent opening
-  PDF308/byline 정경민. Source309 is rendered but not individually reviewed; further
-  candidates are lookup hypotheses only. Verify title/byline, visible folios,
-  continuations, actual ending and adjacent material before mapping at most six
-  pages. Two-task/six-page/twenty-outside limits; every exact final crop before pinned
-  mapped Tesseract and all raw drafts before one source correction pass.
+  Batch41 is in progress: Borland C++0023 extent 308–313/322–327 verified from all six
+  pages, original contents 5, previous 307 advertisement and independent Mac opening 314/
+  continuation 315. Upper 313 conclusion and four references precede the excluded CLiE
+  advertisement; folio 327 literal. All 107 final exact crops reviewed after 116 existing
+  crop refinements and three added label regions. 97 initial kor+eng recognitions,
+  zero retries; all 97 raw drafts read in three complete outputs. Source correction
+  has not started. Next begin one source pass, then build and independently validate
+  the complete native package before changing 0023 outcome. All source drafts, maps,
+  crops and refinements retained. Ten originals include five screenshots, two diagrams,
+  opening illustration, terminal ornament and reference box. Faded UI text and miniature
+  icon glyphs remain candidates or unknown-count markers; no label reconstruction from
+  program knowledge or duplicate images. No printed program listing or historical
+  execution. One task/six mapped pages/four outside pages. Handoff:
+  `archive/pdf/1991-08/restoration/batch-41/handoff-r01.json`.
   Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 batch35 boundary
   adapter, 0003 batch07 listing adapter, 0002 batch04 native adapter. Whole-issue
   accounting, index, cover and closeout pending; no reader rebuild.

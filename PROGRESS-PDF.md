@@ -15,8 +15,10 @@ Retains fourteen originals/thirteen captions, screenshot tables/UI fields, three
 prose/caption discrepancies and three covered-text markers. Canonical 편집부 and
 actual 성기준 기자 credits remain separate. Lower304 advertisement excluded;318 folio
 retained. Parent 집중리뷰0021 is non-owning. All 24,466 prior files/30 core modules
-exact; unchanged 213-test baseline reused. Next verify Borland C++0023 extent from
-retained 308 opening; 309 rendered but not reviewed. Whole-issue accounting, index,
+exact; unchanged 213-test baseline reused. Borland C++0023 batch41 is in progress:
+full 308–313/322–327 extent verified, 107 final crops reviewed, 97 recognitions and
+all raw-draft reading complete. Next source correction,export and validation;
+0023 outcome remains unresolved until then. Whole-issue accounting, index,
 cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
