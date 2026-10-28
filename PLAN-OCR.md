@@ -23,34 +23,35 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: fourteen readable/sample-reviewed articles, no partials,
-  three non-owning headings and 18 unresolved identities. Windows0017 is complete at
-  PDF260–268/printed274–282 in a standard actual two-native 351-file assembly, including
-  all 343 unchanged native files. All 6,167 original typed occurrences validate in native
-  and independently projected combined article contexts; 144 published combined ranges
-  pass. Retains 90 exact crops, 65 blocks, eleven originals, 79 kor+eng settings, nine
-  captions and 334 spatial fields/196 rows. Two tables retain nineteen data rows/49 cells,
-  six headers and two merged groups. Six diagrams, sixteen address fields and fourteen
-  program labels remain linked. Nine internal prose joins/fourteen boundaries and formal
-  265 바 +266 이트로 제한된다. preserve native bytes without normalization.
-  All 182 uncertainties and 33 opaque variants stay active. Thirty screenshot markers
-  preserve 26 readable row candidates and unknown original row/field/glyph counts in faint
-  areas; marker interiors stay outside source-derived indexes. Preserve메모리 메모리,
-  buggermaster versus Burgermaster, HEAPWALK versus HeapWorker, 그림6 reference, addresses
-  and physical wraps without factual, mathematical or semantic repair. No source listing.
-  Four exact obsolete stage notes resolve six occurrences; all original metadata stays
-  source-local. All 19,078 prior files and 30 core modules exact; 213-test baseline reused.
-  No new assembly OCR or source correction.
+- August 1991 remains active: fourteen readable/sample-reviewed articles, one partial,
+  three non-owning headings and 17 unresolved identities. FoxView0018 actual extent is
+  PDF270–279/printed284–293; prose ends278 but intrinsic List9 continues279 upper.
+  Opening270–275 is preserved in a 355-file native matching its independent export.
+  All 94 exact crops, 84 settings (24 eng code/60 kor+eng) and 7,157 typed article/listing
+  ranges validate. Retains 75 blocks, ten originals, 24 code blocks, nineteen signatures,
+  four listings/23 groups and 265 complete physical/logical rows/6,891 bytes. Five tables
+  retain 140 fields/51 rows, unequal independent command columns and two unnamed headers.
+  Eight prose joins/nine boundaries, one two-panel code continuity, nine captions and
+  outgoing275 반드시 +276 생각해 remain explicit. All 234 uncertainties and 23 opaque
+  variants preserve ARRARY/arrary versus proseARRAY, broken signatures, source .display,
+  code abbreviations/conditions, key values and literal claims. One rule marker retains
+  unknown glyph/count/bytes, with interior outside source-derived indexes. All 19,455
+  prior files and 30 core modules exact; 213-test baseline reused. All 94 final crops
+  reviewed before 84 recognitions; all 84 raws before one source pass. Fifty-six pre-OCR
+  refinements, zero retries or post-OCR repairs. Initial terminal143 preparation retains
+  all successful views; no recognition restarted.
 
-  Next batch33 verifies FoxView0018 extent from retained270/284 opening and contents5,
-  then restores a bounded opening. Reuse retained269–275 renders; establish actual title,
-  byline, folios, continuations, ending and adjacent material before mapping at most six
-  pages. Lookup hypotheses do not assign ownership or a global folio offset. Preserve
-  tables, code/listing rows, screenshots/captions and source errors with complete source
-  region/block/listing/range metadata. Every final crop before pinned mapped Tesseract;
-  all raws before one source pass. Whole-issue accounting/index/cover/closeout pending;
-  no reader rebuild. Selected0003 requires batch07 `listing_adapter_r01.install()`;
-  0002 requires batch04 native adapter. See [August progress](docs/progress/9108.md) and
+  Next batch34 restores final276–279 from retained3000px views. Incoming275 반드시 +276
+  생각해 uses a space separator; no physical code row crosses the native boundary.
+  Preserve Lists5–9, original panels/captions, prose and closing ornament, all literal
+  code rows and source markers. List9 continues278→279; exclude unrelated lower279
+  program-supply promotion while retaining printed293 folio. Every final crop before
+  pinned mapped Tesseract; all raws before one source pass. Opening355 files unchanged.
+  Complete actual two-native assembly and exhaustive native/projected article/listing
+  range audit follow separately; a one-native projection does not qualify it. Whole-issue
+  accounting/index/cover/closeout pending; no reader rebuild. Selected0003 requires
+  batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
+  See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:

@@ -31,24 +31,24 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: fourteen readable/sample-reviewed articles, no partials,
-three non-owning headings and 18 unresolved identities out of 35. Windows0017 is
-complete at PDF260–268/printed274–282 in a full standard actual two-native assembly.
-Its 351 files match an independent export, including all 343 unchanged native files.
-All 6,167 original typed occurrences validate in native and independently projected
-combined article contexts; 144 published combined ranges pass. Retains 90 source-pixel
-crops, 65 blocks, eleven originals, 79 kor+eng settings, nine captions and 334 spatial
-fields/196 rows. Two tables retain nineteen data rows/49 cells, six headers and two
-merged groups. Six diagrams, sixteen address fields and fourteen program labels remain
-source-linked. Nine prose joins/fourteen native boundaries and formal265 바 +266 이트로
-제한된다. preserve native bytes. All 182 uncertainties, 33 opaque variants and thirty
-screenshot markers remain active, with original faint-area counts unknown and marker
-interiors outside source-derived indexes. Source claims, errors and utility names stay
-literal; no listing invented. Four exact obsolete stage notes resolve six occurrences;
-all original metadata remains source-local. All 19,078 prior files and 30 core modules
-unchanged; 213-test baseline reused. No new assembly OCR or correction. Next verify
-FoxView0018 extent from retained opening270/284 and contents5, then restore a bounded
-opening. Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
+Step 12 remains active: fourteen readable/sample-reviewed articles, one partial,
+three non-owning headings and 17 unresolved identities out of 35. FoxView0018 spans
+actual PDF270–279/printed284–293; prose closes278 but intrinsic List9 continues279
+upper. Lower279 promotion and280 advertisement are outside its body. Opening270–275
+is preserved in a 355-file native matching the independent export. All 94 exact crops,
+84 pinned settings (24 eng code/60 kor+eng) and 7,157 typed article/listing occurrences
+validate. Retains 75 blocks, ten originals, 24 code blocks, nineteen usage signatures,
+four listings/23 groups and 265 complete physical/logical rows/6,891 listing bytes.
+Five tables retain 140 fields/51 reading rows, three independent command columns and
+two unnamed headers. Eight prose joins/nine boundaries, one two-panel code continuity,
+nine caption links and outgoing275 반드시 +276 생각해 remain explicit. All 234 source
+uncertainties and 23 opaque variants preserve source claims, spelling and code errors.
+One decorative-rule marker retains unknown source glyph/count/bytes; its interior
+stays outside source-derived indexes. All 19,455 prior files and 30 core modules exact;
+213-test baseline reused. Eighty-four initial recognitions, one source pass, zero
+retries or post-OCR repairs. Next restore final276–279 with lower279 promotion excluded,
+then separately qualify complete actual two-native assembly. Whole-issue accounting,
+index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

@@ -6,17 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: fourteen readable/sample-reviewed articles, no partials,
-three non-owning headings and 18 unresolved identities. Windows0017 is complete at
-260–268/printed274–282 in a 351-file full standard actual two-native assembly, including
-343 unchanged native files. All 6,167 original typed occurrences validate in native and
-independently projected combined contexts; 144 published combined ranges pass. Covers
-90 exact crops, 65 blocks, eleven originals, 79 settings and 334 spatial fields/196 rows.
-Source uncertainty, literal errors and thirty screenshot markers remain intact, with
-unknown faint-area counts and no inferred addresses. All 19,078 prior files and 30 core
-modules unchanged; 213-test baseline reused. Next verify FoxView0018 extent from270/284
-context and restore a bounded opening. Whole-issue accounting, index, cover and closeout
-pending. No reader rebuild.
+August 1991 remains in progress: fourteen readable/sample-reviewed articles, one
+partial, three non-owning headings and 17 unresolved identities. FoxView0018 spans
+270–279/printed284–293, including intrinsic List9 after prose ending278. Opening270–275
+is preserved in a 355-file native matching its independent export. All 94 exact crops,
+84 settings and 7,157 typed article/listing ranges validate. Retains 24 code blocks,
+265 complete physical/logical rows/6,891 listing bytes, five tables and nine captions.
+Source errors, claims and glyph candidates remain literal. All 19,455 prior files and
+30 core modules exact; 213-test baseline reused. Next restore final276–279, excluding
+lower279 promotion, then separately qualify complete actual two-native assembly.
+Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
