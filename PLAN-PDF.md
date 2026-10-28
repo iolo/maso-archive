@@ -32,14 +32,14 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
-five readable/sample-reviewed articles, one partial, one non-owning heading and
-28 unresolved classifications. Batch10 restores child0007's final appendices,
-PDF160–162/printed174–176, in 60 independently exact files. All16 crops,1,829 typed
-ranges,201 forum names/one blank partner and84 continued menu entries validate;
-fresh213 tests pass. All12 recognitions used pinned settings with no retries.
-All nine article pages154–162 are now preserved across two immutable natives;
-lower162 promotion is explicitly excluded. Next assemble the complete article
-separately. Source errors,uncertain mark and unread illustration labels remain.
+six readable/sample-reviewed articles, zero partial, one non-owning heading and
+28 unresolved classifications. Batch11 completes CompuServe0007 atPDF154–162/
+printed168–176 in286 independently exact files,retaining all278 native files.
+All76 regions,45 blocks,14 figures and5,324 native/combined range contexts validate.
+The standard assembly needs no adapter;lower162 promotion remains excluded.
+The unchanged-core213-test baseline passes. Source errors,uncertain mark and
+unread illustration labels remain explicit. Next locate child0008's EMI article,
+whose actual location/extent remain unverified,and restore a bounded checkpoint.
 Whole-issue accounting, index, cover and closeout remain pending.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

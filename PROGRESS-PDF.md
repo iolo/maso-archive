@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 restoration is in progress:35 entries account for five readable/sample-reviewed
-articles, one partial, one non-owning heading and 28 unresolved classifications.
-Child0007's ending160–162/printed174–176 is restored in60 independently exact
-files;16 crops and1,829 indexed ranges validate and fresh213 tests pass. All nine
-body pages154–162 are preserved across two natives,with lower162 promotion excluded.
-Next assemble the complete article separately. Parent0006 owns no body;all originals,
-source errors and uncertainties remain retained. See
+August 1991 restoration is in progress:35 entries account for six readable/sample-reviewed
+articles,zero partial,one non-owning heading and28 unresolved classifications.
+CompuServe0007 is complete at154–162/printed168–176 in286 independently exact files,
+including278 unchanged native files. All76 regions and5,324 typed native/combined
+range contexts validate;the unchanged-core213-test baseline passes. Lower162
+promotion remains excluded. Next locate and restore child0008's EMI article.
+All originals,source errors and uncertainties remain retained. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
