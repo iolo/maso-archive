@@ -23,37 +23,35 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: sixteen readable/sample-reviewed articles, no partials,
-  three non-owning headings and 16 unresolved identities. Child0019 is complete at
-  PDF284–287/printed298–301 in `packages/batch-36-r01/arithmetic`. Title/byline지만진
-  match contents5; lower287 recruitment ad excluded, printed301 folio retained.
-  All 220 files match the independent export. All 58 exact source-pixel crops,
-  51 settings (6 eng code/45 kor+eng) and 2,975 typed ranges (2,617 article/358 listing)
-  validate. Retains 44 blocks, seven originals, six code blocks, five example/listing
-  groups and 42 complete physical/logical rows/1,021 bytes. Three table sections retain
-  111 fields/30 rows: 96 data fields, twelve headers, three file-title cells. Thirteen
-  separate annotation/code links, two circled callouts, ten workflow steps, four
-  captions and four prose joins/seven boundaries remain explicit. Original arrows,
-  braces, underlines and dotted leaders retain unknown glyph/count/bytes. All 69
-  uncertainties/19 opaque variants preserve OEF(), GODDS1/GOODS1, GAY, MSUMM, ALLIAS,
-  UPTAE, Dec and code0.8 versus prose8% without syntax/semantic/math repair or execution.
-  All 58 final crops before 51 recognitions after 27 pre-OCR refinements; all 51 raws
-  before one source pass. Zero retries/post-OCR repairs. All 21,714 prior files and
-  30 core modules exact; 213-test baseline reused. Initial verifier's blanket word-
-  absence check was corrected to exact annotation block/range context; shared words
-  in quoted code strings remain. Original failed verifier/log retained; source unchanged.
+- August 1991 remains active: sixteen readable/sample-reviewed articles, one partial,
+  three non-owning headings and 15 unresolved identities. HIMEM.SYS 0020 opening 288–293/
+  printed302–307 is retained in `packages/batch-37-r01/himem-a` (386 independently exact
+  files). Actual 288–296/302–310: prose closes on 292; Lists1–4 end in upper 296 above unrelated
+  bookstore ad; 297–299 full ads. Title/byline 박현철 match contents page 5; parent 활용 non-owning.
+  All 98 source-pixel crops, 93 settings (5 eng code/88 kor+eng) and 7,116 typed ranges
+  (5,575 article/1,541 listing) validate. Retains 86 blocks, five originals, 218 code
+  reading rows/7,230 listing bytes, 18 function references/104 ABI rows/180 fields,
+  27 error entries,  23 screen rows/21 fields, four circled callout links, two captions
+  and seven joined blocks/seven boundaries. Thirteen unknown graphic-band markers
+  excluded from source-derived token/glyph/number/identifier indexes; blank-only
+  frame rows remain original graphics. All 157 uncertainties/20 variants preserve
+  0000 candidate, DX handle, UBM, NMK, XMM, dd·, ah10, BCD wording and independent prose/screen
+  values without opcode/syntax/math/semantic repair or historical code execution.
+  All 98 initial crops, 93 first refinements and 10 follow-ups viewed before 93 initial
+  recognitions ; all 93 raws read before one source pass ; zero retries/post-OCR repairs.
+  All 22,416 prior files and 30 core modules exact; 213-test baseline reused.
 
-  Next batch37 verifies child0020, 확장 메모리의 활용(6) : HIMEM.SYS의 활용, from retained
-  PDF288/302 title/byline박현철((주)DIS연구원). Opening is context only; extent/end and
-  body ownership remain unassigned. Reuse contents5 and287–288 views;289–305 are lookup
-  hypotheses. Verify actual title, byline, folios, continuation, ending and neighbors
-  before mapping at most six pages. Preserve assembly/listing rows, registers, bytes,
-  labels, tables, source errors and physical wraps without opcode/syntax/math/semantic
-  repair or execution. Every final crop before pinned mapped Tesseract; all raws before
-  one source pass. Two-task/six-mapped-page/twenty-outside-page limits apply.
-  Selected0018 requires batch35 `boundary_adapter.install()` for assembly/checking;
-  0003 requires batch07 `listing_adapter_r01.install()`; 0002 batch04 native adapter.
-  Whole-issue accounting/index/cover/closeout pending; no reader rebuild.
+  Next batch38 restores final 294–296 using retained full source views. Exclude lower
+  296 bookstore ad andretain literal folio 310. Every final crop before pinned OCR;
+  all raws before one source pass. Then separate actual two-native assembly(batch39).
+  Wide source views confirm 293 SignOn ends with Test;294 begins with Program2.0-7/05/88 withquote.
+  Preserve physical rows andunknown quoted spacing. Native custom outgoing note and
+  segment_continuations code-physical-wrap declaration are provenance; standard
+  projection does not resolve this kind. Actual assembly must explicitly audit this
+  unnumbered boundary andevery typed range in proper native/projected contexts.
+  Selected 0018 still needs batch35 `boundary_adapter.install()`; 0003 batch07
+  `listing_adapter_r01.install()`; 0002 batch04 native adapter. Whole-issue accounting,
+  index, cover and closeout pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

@@ -31,28 +31,30 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: sixteen readable/sample-reviewed articles, no partial
-articles, three non-owning headings and 16 unresolved identities out of 35.
-Child0019, 연산처리 한계의 벽을 넘어서, is complete at actual PDF284–287/printed298–301.
-Its title and byline지만진 match original contents5. The lower287 recruitment ad is
-explicitly excluded; the upper conclusion, terminal mark and printed301 folio remain.
-All 220 files match the independent export. All 58 exact source-pixel crops,
-51 pinned settings (6 eng code/45 kor+eng) and 2,975 typed article/listing ranges
-validate. The native retains 44 blocks, seven originals, six code blocks and 42
-complete physical/logical listing rows/1,021 bytes across five examples/listings.
-The three-section database table retains 111 fields/30 rows, including 96 data
-fields, twelve headers and three title cells. Thirteen separate annotation/code
-links, two circled callouts, ten workflow steps, four captions and four prose joins/
-seven boundaries remain explicit. All source arrows, braces, underlines and dotted
-leaders retain original pixels with unknown glyph/count/bytes. Printed OEF(),
-GODDS1 versus GOODS1, GAY, MSUMM, ALLIAS, UPTAE, Dec and code0.8 versus prose8% remain
-literal without syntax/semantic/math repair or execution. All 69 uncertainties and
-19 opaque variants remain active. All 21,714 prior files and 30 core modules exact;
-213-test baseline reused. All final crops before 51 initial recognitions after
-27 pre-OCR refinements; all raws before one source pass. Zero retries/post-OCR repairs.
-No body pages or0019 assembly remain pending. Next verify HIMEM.SYS0020 extent from
-retained opening288/302 and restore its bounded opening. Whole-issue accounting,
-index, cover and closeout pending. No reader rebuild.
+Step 12 remains active: sixteen readable/sample-reviewed articles, one partial,
+three non-owning headings and 15 unresolved identities out of 35. Child0020,
+확장 메모리의 활용(6) : HIMEM.SYS의 활용, is partial at PDF288–293/printed302–307
+in `packages/batch-37-r01/himem-a`. Source title HIMEM.SYS의 활용 and byline 박현철
+match contents page 5. Actual extent 288–296/302–310: prose ends on 292, but intrinsic
+Lists1–4 continue through upper 296 above an unrelated bookstore ad; 297–299 are advertisements.
+All 386 files match the independent export. All 98 exact source-pixel crops,
+93 settings (5 eng code/88 kor+eng) and 7,116 typed ranges validate. Retains 86 blocks,
+five originals, five code blocks, 218 code reading rows/7,230 listing bytes, eighteen
+function references/104 ABI rows/180 fields, 27 error entries,  23 screen rows/21 fields,
+four separate circled callouts, two captions and seven joined blocks/seven boundaries.
+Thirteen graphic-band markers preserve unknown source glyph/count/bytes; marker
+interiors are excluded from source-derived indexes. Blank-only header frame rows
+remain original graphics, with no invented encoded count. All 157 uncertainties/
+20 opaque variants remain active, including 0000, DX handle, UBM, NMK, XMM, dd·, ah10,
+BCD wording and independent prose/screen values. No opcode/syntax/math/semantic
+repair, compilation or execution. All final crops before 93 recognitions after 103
+pre-OCR refinement events; all raws before one source pass. Zero retries/repairs.
+All 22,416 prior files and 30 core modules exact; 213-test baseline reused.
+Next restore final 294–296 and exclude lower 296 ad while retaining folio 310, then
+assemble the two actual immutable natives separately. The 293 SignOn row ends with Test;
+294 begins with Program. Preserve both physical rows/open quote; code-physical-wrap is
+retained provenance and requires explicit actual assembly boundary audit. Whole-issue
+accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
