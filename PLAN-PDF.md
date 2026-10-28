@@ -31,50 +31,36 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: eighteen readable/sample-reviewed articles, no partials,
-four non-owning headings and thirteen unresolved identities out of 35. Batch40
-classifies 집중리뷰 0021 as a non-owning heading and completes child0022,
-화상 처리 데이터베이스, 엑스컬리버 2.0, at actual PDF300–304/printed314–318.
-Selected package: `packages/batch-40-r02/excalibur` below `archive/pdf/1991-08/`.
-All 302 files match an independent export. All 84 source-pixel crops, 70 pinned
-kor+eng settings and 2,580 typed article ranges validate. Retains 60 blocks,
-fourteen originals, thirteen caption links and five joined blocks/ten boundaries.
-Two screenshot tables retain 46 fields and an explicit blank cell; four record
-groups retain 30 fields. Seven menu bars/35 fields, four diagram columns/17 fields,
-six application items/12 fields, three dialogs/21 choices, fifteen shortcut-key
-occurrences and six status values remain source-linked. Thirteen prose references
-retain three discrepancies with captions 8/9/화면10, without renumbering.
-All 104 uncertainties, 26 opaque variants, six physical-wrap fields and three
-covered-text markers remain active; marker interiors are excluded from source-derived
-indexes. Canonical credit 편집부, actual 글. 성기준 기자 and 〈편집자〉 remain separate.
-Lower 304 back-issue advertisement is excluded; literal folio 318 retained.
-All final crops were reviewed before 70 recognitions, after 43 refinement events
-and seven added label regions. All raw drafts were read before one source correction
-pass; zero retries or post-OCR crop repairs. Fresh metadata revisions change English
-normalization prose only; source text/ranges/decisions and pass timestamp unchanged.
-Failed verifier assumptions and corrected audits are retained. All 24,466 prior
-archive files and 30 core modules remain exact; unchanged 213-test baseline reused.
-No child0022 body pages or assembly pending. No historical execution or repair of
-source grammar, product names, numeric claims, syntax or arithmetic.
+Step 12 remains active: nineteen readable/sample-reviewed articles, no partials,
+four non-owning headings and twelve unresolved identities out of 35. Batch41 completes
+0023, 새 모습, 새 기능의 볼랜드 C++ 2.0, at PDF308–313/printed322–327.
+Selected package: `archive/pdf/1991-08/packages/batch-41-r01/borland`.
+All 406 files match an independent export. All 107 source-pixel crops, 97 pinned
+kor+eng settings and 5,119 typed article ranges validate. Retains 88 blocks, ten
+originals, seven captions, eight joined blocks and nine explicit boundaries.
+The menu tree, build diagram, screenshot fields, five execution steps and four
+reference bullets remain source-linked. All 186 uncertainties, 21 opaque variants
+and fourteen faded/miniature UI markers remain active. Hidden labels are not inferred
+from program knowledge or duplicate images. Printed errors and physical wraps remain
+literal, with explicit font candidates. Lower 313 CLiE advertisement is excluded;
+upper conclusion, terminal ornament, references and literal folio 327 are retained.
+No body pages or assembly pending for 0023.
 
-Batch41 is in progress for child0023, 새 모습, 새 기능의 볼랜드 C++ 2.0.
-Its complete extent is verified at PDF308–313/printed322–327, with actual byline
-글. 정경민 (한국과학기술원 박사과정). Upper 313 conclusion and four references precede
-an unrelated lower CLiE advertisement; folio 327 retained. 314 opens the independent
-Mac System 7.0 article; 315 is continuation context only. Full Mac extent unverified.
-All 107 final exact crops are reviewed. 97 pinned kor+eng recognitions finished with
-zero retries, and all 97 raw drafts have been read. Source correction has not started.
-Next begin the single source-correction pass, then build and independently validate
-the complete six-page native package before changing 0023 availability. Preserve faint
-UI labels as candidates/unknown-count markers, with original screenshots authoritative.
-No printed program listing or historical execution. Parent 0021 remains non-owning;
-its reference 313 stays literal. Retained handoff: `restoration/batch-41/handoff-r01.json`
-below `archive/pdf/1991-08/`. The bounded batch remains one task/six mapped pages/four
-reviewed outside pages; no additional lookup is required for Borland.
-Selected HIMEM0020 requires batch39 `boundary_adapter.install()`; FoxView0018
-requires batch35 boundary adapter, 0003 batch07 listing adapter and 0002 batch04
-native adapter. Whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild.
+All final crops were reviewed before 97 initial recognitions. All raw drafts were read
+before one source correction pass; zero retries or post-OCR crop repairs. Failed writer
+helpers and fresh revisions are retained. An English-only metadata revision preserves
+all source text, ranges, decisions and the correction timestamp. All 26,536 saved archive
+files and thirty core modules remain exact; unchanged 213-test baseline reused.
+No compilation, historical execution or repair of source grammar, syntax or claims.
+
+Next batch42: verify the full extent of 0024, 매킨토시 포럼 : 매킨토시 시스템
+소프트웨어 7.0, from retained independent opening 314/328 and author 양승건.
+315 is continuation context; full Mac extent remains unverified. Further candidates
+are lookup hypotheses only. Verify visible folios, continuations, ending and adjacent
+material before mapping at most six pages. Use bounded segments and actual assembly
+if longer. Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 batch35
+boundary adapter, 0003 batch07 listing adapter and 0002 batch04 native adapter.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

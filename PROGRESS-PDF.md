@@ -6,20 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: eighteen readable/sample-reviewed articles, no
-partials, four non-owning headings and thirteen unresolved identities. Batch40
-completes Excalibur0022 at PDF300–304/printed314–318 in
-`packages/batch-40-r02/excalibur`: 302 files independently exact,
-84 source-pixel crops, 70 pinned kor+eng settings and 2,580 typed ranges validated.
-Retains fourteen originals/thirteen captions, screenshot tables/UI fields, three
-prose/caption discrepancies and three covered-text markers. Canonical 편집부 and
-actual 성기준 기자 credits remain separate. Lower304 advertisement excluded;318 folio
-retained. Parent 집중리뷰0021 is non-owning. All 24,466 prior files/30 core modules
-exact; unchanged 213-test baseline reused. Borland C++0023 batch41 is in progress:
-full 308–313/322–327 extent verified, 107 final crops reviewed, 97 recognitions and
-all raw-draft reading complete. Next source correction,export and validation;
-0023 outcome remains unresolved until then. Whole-issue accounting, index,
-cover and closeout pending. No reader rebuild.
+August 1991 remains in progress: nineteen readable/sample-reviewed articles, no
+partials, four non-owning headings and twelve unresolved identities. Batch41 completes
+Borland C++0023 at PDF308–313/printed322–327 in `packages/batch-41-r01/borland`:
+406 independently exact files, 107 source-pixel crops, 97 pinned kor+eng settings and
+5,119 typed ranges validated. Ten originals, seven captions, menu/build diagrams,
+five execution steps and four reference bullets retained. All fourteen UI markers,
+186 uncertainties and 21 opaque variants remain active. Lower 313 advertisement
+excluded; folio 327 retained. All 26,536 saved archive files and thirty core modules
+exact; unchanged 213-test baseline reused. Next verify Mac System 7.0 article 0024
+full extent from retained 314 opening and 315 continuation. Whole-issue accounting,
+index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

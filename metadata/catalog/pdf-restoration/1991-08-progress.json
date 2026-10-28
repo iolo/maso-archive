@@ -2078,12 +2078,84 @@
       "toc_entry_id": "maso-1991-08-toc-0023",
       "title": "새 모습, 새 기능의 볼랜드 C++ 2.0",
       "parent_id": "maso-1991-08-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical title and author 정경민 match original contents5 and independent opening308/322. Actual title 새 모습, 새 기능의 볼랜드 C++ 2.0 and byline 글. 정경민 (한국과학기술원 박사과정) retained. Standfirst 〈편집자〉 is separate; parent 집중리뷰0021 remains non-owning.",
+        "Complete actual extent PDF308–313/printed322–327. Upper313 conclusion, terminal ornament and four intrinsic references precede unrelated lower CLiE advertisement, which is excluded; literal327 folio retained. Previous307 is an advertisement.314 independently opens Mac System7.0 and315 continues it; full Mac extent remains unverified.",
+        "All 406 files match an independent export. All 107 source-pixel crops, 97 pinned kor+eng settings and 5,119 typed article ranges validate. Retains 88 blocks, ten original images, seven caption links, eight joined blocks and nine boundaries. No body pages or assembly pending.",
+        "Sixteen menu panels retain 96 reading rows and 136 fields; sixteen build-diagram label groups retain nineteen labels. Twenty-three screenshot label regions, four menu bars, two dialogs with five settings, four icon statistics, 44 shortcut occurrences, nine prose references, five execution steps, four reference bullets, nine menu-entry heads, eighteen contiguous filename occurrences and thirteen physical-wrap fields remain source-linked.",
+        "All 186 uncertainties, 21 opaque variants, five marker-candidate groups and fourteen faded/miniature UI markers remain active. Marker interiors stay outside source-derived indexes; visible efines beside a marker remains indexed. Hidden labels are not reconstructed from program knowledge; miniature icon text is not copied from the large icon. Diagram ASM and final EXE lack dots while .INC and intermediate .EXE retain dots.",
+        "Printed VROOMM, 없어 주었 with an explicit 없어/얻어 candidate, BCX.OVY, TERNEL rem, 미니움, 선택하는=메뉴, Option(Com-/piler/Exit Code), DLLS, prose Alt−O versus menu Alt−0, C : MYFILE paths and physical TD/W.EXE wrap remain literal. No source grammar, syntax, product-name or technical-claim repair; no compilation or historical execution.",
+        "All 107 final exact crops reviewed before 97 initial recognitions after 116 pre-OCR crop refinement events and three added label regions. All 97 raw drafts read before one source correction pass; zero retries or post-OCR crop repairs. Two failed writer helpers stopped before any reviewed-file output; fresh helper revisions restore syntax/setup without changing source text or restarting the pass. English-only metadata revision preserves all source ranges, decisions and correction timestamp.",
+        "All 26,536 saved archive files, including the earlier Borland input checkpoint, and thirty core modules remain exact; unchanged 213-test baseline reused. All earlier article outcomes remain unchanged."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-41-r01/borland",
+        "article_id": "scan-maso-1991-08-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-41-r01/borland/manifest.json",
+          "sha256": "583a5649ff43695d6bd9a60440f3acaa6efdd89a3a9c84c7feeed91d90aaf77b",
+          "bytes": 71873
+        },
+        "source_body_title": "새 모습, 새 기능의 볼랜드 C++ 2.0",
+        "source_byline": "글. 정경민 (한국과학기술원 박사과정)",
+        "canonical_byline_candidate": "정경민",
+        "editorial_credit": "〈편집자〉",
+        "coverage": {
+          "pdf_pages": [
+            308,
+            309,
+            310,
+            311,
+            312,
+            313
+          ],
+          "printed_pages": [
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327"
+          ],
+          "regions": 107,
+          "blocks": 88,
+          "figures": 10,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 308,
+          "end_pdf_page": 313,
+          "ending_printed_page": "327",
+          "previous_pdf_page": 307,
+          "previous_role": "advertisement",
+          "following_pdf_pages": [
+            314,
+            315
+          ],
+          "following_role": "Independent Mac opening314 and continuation315; full Mac extent unverified.",
+          "ending_lower_advertisement": "Lower313 unrelated CLiE advertisement excluded; upper conclusion, terminal ornament and four references retained; folio327 literal."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-41/validation.json",
+          "sha256": "7f48f9ac76fcba4169921aec5e0b9fa539d2fd29ec1b7c379532fad1dacc6c92",
+          "bytes": 2484
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-41/reproduction.json",
+          "sha256": "5c867bbf956b500cdedf7ac9a81dbaa692c0cb011c3881bfeb5bdad7ba7f49f5",
+          "bytes": 72625
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-41"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0024",
@@ -3304,43 +3376,59 @@
         "sha256": "6a20f3eb1f5ca2193c59053810af5f9fb0b10caeea4015c3f8ebaf9204ebdb99",
         "bytes": 53397
       }
+    },
+    {
+      "name": "1991-08-batch-41",
+      "status": "complete",
+      "completed_at": "2026-10-28T19:22:01.259314+00:00",
+      "goal": "Restore complete Borland C++0023 with literal menu, screenshot and diagram readings",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0023"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 6,
+      "new_mapped_pages": 6,
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 97,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-41/validation.json",
+        "sha256": "7f48f9ac76fcba4169921aec5e0b9fa539d2fd29ec1b7c379532fad1dacc6c92",
+        "bytes": 2484
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-41/reproduction.json",
+        "sha256": "5c867bbf956b500cdedf7ac9a81dbaa692c0cb011c3881bfeb5bdad7ba7f49f5",
+        "bytes": 72625
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 18,
+    "readable": 19,
     "partial": 0,
     "group_headings": 4,
-    "unresolved": 13
+    "unresolved": 12
   },
   "notes": [
-    "Full August issue goal remains active: thirteen identities require ownership/eligibility review. Eighteen readable articles have complete body coverage and no pending assembly;four non-owning headings. No global folio offset.",
+    "Full August issue goal remains active: twelve identities require ownership/eligibility review. Nineteen readable articles have complete body coverage and no pending assembly; four non-owning headings. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-41",
-    "goal": "Verify the complete source extent of Borland C++0023 from its retained independent opening; restore at most six verified body pages.",
+    "name": "1991-08-batch-42",
+    "goal": "Verify full Mac System7.0 article0024 extent from its independent opening314; restore at most six verified body pages.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0023"
+      "maso-1991-08-toc-0024"
     ],
-    "canonical_title": "새 모습, 새 기능의 볼랜드 C++ 2.0",
-    "canonical_byline_candidate": "정경민",
-    "mapping_targets": [
-      308,
-      309,
-      310,
-      311,
-      312,
-      313
-    ],
+    "canonical_title": "매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0",
+    "canonical_byline_candidate": "양승건",
+    "canonical_page_reference": "328",
+    "mapping_targets": [],
     "lookup_candidates": [
       5,
-      308,
-      309,
-      310,
-      311,
-      312,
       313,
       314,
       315,
@@ -3354,60 +3442,35 @@
       323,
       324,
       325,
-      326
+      326,
+      327,
+      328,
+      329,
+      330,
+      331
     ],
-    "retained_context": {
-      "pdf_page": 308,
-      "role": "Independent Borland title/byline opening reviewed as adjacent context only.309 rendered but not individually reviewed;310 onward unreviewed.",
-      "source_render": "archive/pdf/1991-08/restoration/batch-40/source-review/pdf-308.png"
-    },
+    "retained_context": [
+      {
+        "pdf_page": 313,
+        "role": "Complete Borland ending and references above unrelated lower CLiE advertisement.",
+        "source_render": "archive/pdf/1991-08/restoration/batch-41/source-review/pdf-313.png"
+      },
+      {
+        "pdf_page": 314,
+        "role": "Independent Mac System7.0 opening with visible328 and author 양승건; reviewed as adjacent context only.",
+        "source_render": "archive/pdf/1991-08/restoration/batch-41/source-review/pdf-314.png"
+      },
+      {
+        "pdf_page": 315,
+        "role": "Mac continuation reviewed as adjacent context only; full article extent unverified.",
+        "source_render": "archive/pdf/1991-08/restoration/batch-41/source-review/pdf-315.png"
+      }
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Batch41 is in progress. Full Borland extent308–313/322–327 is verified. All107 final crops reviewed;97 pinned kor+eng recognitions complete and all97 raw drafts read. Source correction has not started. Next begin one source pass, then build independent complete native exports and validate all source pixels/settings/ranges before changing0023 outcome. Preserve source errors/claims, faint UI glyphs and unknown-count markers without reconstruction. No OCR retry or frozen-helper rerun needed. Lower313 advertisement excluded;327 folio literal. All other article outcomes unchanged. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild.",
-    "phase": "source-review-and-raw-reading-complete",
-    "verified_pdf_pages": [
-      308,
-      309,
-      310,
-      311,
-      312,
-      313
-    ],
-    "verified_printed_pages": [
-      "322",
-      "323",
-      "324",
-      "325",
-      "326",
-      "327"
-    ],
-    "reviewed_outside_pages": [
-      5,
-      307,
-      314,
-      315
-    ],
-    "source_correction_started": false,
-    "source_correction_passes": 0,
-    "initial_recognitions": 97,
-    "recognition_retries": 0,
-    "source_extent": {
-      "path": "archive/pdf/1991-08/restoration/batch-41/source-extent-reviewed.json",
-      "sha256": "766a0c568523bc83ecfaecb5b5ecfe51e42c745434498115b7b821d5c1eb80f8",
-      "bytes": 3107
-    },
-    "input_validation": {
-      "path": "archive/pdf/1991-08/restoration/batch-41/input-validation.json",
-      "sha256": "2b3e2aae1854522af615ab825d0a14854ddbf0982e2f701f49c8831d43241cfd",
-      "bytes": 1061
-    },
-    "handoff": {
-      "path": "archive/pdf/1991-08/restoration/batch-41/handoff-r01.json",
-      "sha256": "227fd39c0f6edccf62516ce18d8a7c7bb9466bc2eefc4acc862e8ef9ebc186b7",
-      "bytes": 3288
-    }
+    "note": "Read PLAN-OCR. Reuse contents5 and retained313–315 context. All further candidates are lookup hypotheses, not assigned body pages. Verify title/byline, visible folios, continuations, actual ending and adjacent material before mapping. If the article exceeds six pages, use bounded native segments and a separate actual assembly. Preserve original screenshots, captions, diagrams, labels, code/errors, physical wraps, glyph candidates and historical claims. Every final exact crop before pinned mapped Tesseract; all raw drafts before one source correction pass. Selected0020 requires batch39 boundary_adapter.install(),0018 batch35 boundary adapter,0003 batch07 listing adapter,0002 batch04 native adapter. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild."
   }
 }

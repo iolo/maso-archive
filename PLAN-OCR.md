@@ -23,49 +23,37 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: eighteen readable/sample-reviewed articles, no partials,
-  four non-owning headings and thirteen unresolved identities. Batch40 completes
-  Excalibur0022 at PDF300–304/printed314–318 in `packages/batch-40-r02/excalibur`
-  (302 independently exact files). All 84 exact source-pixel crops, 70 pinned
-  kor+eng settings and 2,580 typed article ranges validate. Retains 60 blocks,
-  fourteen originals, thirteen caption links, five joined blocks/ten boundaries,
-  140 spatial fields/53 reading rows, two screenshot tables/46 fields including
-  one explicit blank cell, four record groups/30 fields, seven menu bars/35 fields,
-  four diagram columns/17 fields, six application items/12 fields, three dialogs/
-  21 choices, fifteen shortcut-key occurrences and six status values. Twenty UI
-  label regions and thirteen prose references retain three caption discrepancies.
-  All 104 uncertainties, 26 opaque readings, six physical-wrap fields and three
-  covered-text markers stay active; marker interiors are excluded from source-derived
-  indexes. Original screenshots remain authoritative. Canonical credit 편집부,
-  actual 글. 성기준 기자 and editorial 〈편집자〉 stay separate. Lower304 back-issue
-  advertisement excluded; literal318 folio retained. Group0021 집중리뷰 owns no body
-  or package; its canonical313 reference remains literal.
+- August 1991 remains active: nineteen readable/sample-reviewed articles, no partials,
+  four non-owning headings and twelve unresolved identities. Batch41 completes Borland
+  C++0023 at PDF308–313/printed322–327 in `packages/batch-41-r01/borland` below
+  `archive/pdf/1991-08/`: 406 independently exact files, 107 source-pixel crops,
+  97 pinned kor+eng settings and 5,119 typed article ranges validated. Retains 88 blocks,
+  ten originals, seven captions, eight joins and nine boundaries. Menu tree, build
+  diagram, screenshot fields, five execution steps and four references remain indexed.
+  All 186 uncertainties, 21 opaque variants and fourteen faded/miniature UI markers
+  remain active. Marker interiors stay outside source-derived indexes; visible
+  fragments beside markers remain indexed. Original screenshots remain authoritative;
+  hidden labels and miniature icon text are not inferred from other images or program
+  knowledge. Lower 313 advertisement excluded; literal 327 folio retained.
 
-  All 84 final exact crops reviewed before 70 recognitions, after 43 refinements
-  and seven added label regions. All 70 raw drafts read before one source pass;
-  zero retries/post-OCR crop repairs. English-only metadata revisions preserve
-  source text/ranges/decisions and correction timestamp. Failed verifier assumptions
-  and fresh corrected audits retained. All 24,466 prior archive files and 30 core
-  modules exact; unchanged 213-test baseline reused. No body pages or assembly pending
-  for 0022. No historical execution or source-error/claim repair.
+  All 107 final crops reviewed before 97 initial recognitions, after 116 pre-OCR crop
+  refinement events and three added label regions. All 97 raw drafts read before one
+  source pass; zero retries or post-OCR crop changes. Failed writer helpers stopped
+  before reviewed-file output; fresh revisions retained. English-only metadata revision
+  preserves source text, ranges, decisions and correction timestamp. All 26,536 saved
+  archive files and thirty core modules exact; unchanged 213-test baseline reused.
+  No body pages or assembly pending for 0023. No historical execution or source repair.
 
-  Batch41 is in progress: Borland C++0023 extent 308–313/322–327 verified from all six
-  pages, original contents 5, previous 307 advertisement and independent Mac opening 314/
-  continuation 315. Upper 313 conclusion and four references precede the excluded CLiE
-  advertisement; folio 327 literal. All 107 final exact crops reviewed after 116 existing
-  crop refinements and three added label regions. 97 initial kor+eng recognitions,
-  zero retries; all 97 raw drafts read in three complete outputs. Source correction
-  has not started. Next begin one source pass, then build and independently validate
-  the complete native package before changing 0023 outcome. All source drafts, maps,
-  crops and refinements retained. Ten originals include five screenshots, two diagrams,
-  opening illustration, terminal ornament and reference box. Faded UI text and miniature
-  icon glyphs remain candidates or unknown-count markers; no label reconstruction from
-  program knowledge or duplicate images. No printed program listing or historical
-  execution. One task/six mapped pages/four outside pages. Handoff:
-  `archive/pdf/1991-08/restoration/batch-41/handoff-r01.json`.
+  Next batch42: verify full Mac System 7.0 article 0024 extent from independent opening
+  PDF314/printed328, byline 양승건. 315 is continuation context only; full extent unverified.
+  Reuse contents 5 and retained 313–315 views. Further candidates are lookup hypotheses.
+  Verify actual ending, visible folios, continuations and adjacent material before mapping
+  at most six pages. Segment longer articles and complete actual assembly separately.
+  Two-task/six-page/twenty-outside limits; every exact final crop before pinned mapped
+  Tesseract and all raw drafts before one source correction pass.
   Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 batch35 boundary
-  adapter, 0003 batch07 listing adapter, 0002 batch04 native adapter. Whole-issue
-  accounting, index, cover and closeout pending; no reader rebuild.
+  adapter, 0003 batch07 listing adapter and 0002 batch04 native adapter. Whole-issue
+  accounting, index, cover and closeout remain pending; no reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
