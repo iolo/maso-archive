@@ -31,24 +31,25 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its 35 identities account for twelve readable,
-sample-reviewed articles, one partial, two non-owning headings and 20 unresolved
-entries. C++0015 now has all PDF240–249/printed254–263 preserved across two
-immutable natives totaling 494 files. The canonical series title and body title
-클래스의 생성 stay distinct. Batch28 ending246–249 validates 48 source-pixel crops,
-38 blocks, five originals, 43 settings and 4,323 typed ranges. Its 195 complete
-unnumbered code rows cover 5,498 bytes. Three captions, graphic labels and intrinsic
-listing continuities remain linked; lower249 advertisement is excluded and its
-printed263 folio retained. All 285 uncertainties and 16 opaque variants preserve
-source claims, filenames and spelling. Twenty-two markers retain unknown graphic
-counts and one faint argument without guessing; marker interiors stay outside
-source-derived indexes. All 48 final crops reviewed before 43 calls after 31
-refinements; all raws read before one pass, zero retries or post-OCR repairs.
-All 16,769 prior files and 30 core modules unchanged; 213-test baseline reused.
-Next qualify the actual full two-native assembly, preserving245 차라 +246 리 with
-no separator and independently projecting every original typed occurrence into
-combined contexts. Whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild. See [August progress](docs/progress/9108.md) and
+Step 12 is active for August 1991. Its 35 identities account for thirteen readable,
+sample-reviewed articles, no partials, two non-owning headings and 20 unresolved
+entries. C++0015 is complete at PDF240–249/printed254–263. The full standard
+actual two-native assembly has 503 independently exact files, including all 494
+unchanged native files. All 9,742 original typed occurrences validate in native and
+independently projected combined article/listing contexts; 1,558 published combined
+ranges pass. The audit covers 125 source-pixel crops, 106 blocks, eight originals,
+117 settings, 35 code blocks and 325 complete unnumbered physical/logical rows/
+9,541 bytes. The carried word245 차라 +246 리, native prose/code continuities,
+merged access table, captions and credits remain source-linked. All 538 uncertainties,
+32 opaque variants and 22 ending markers remain intact, including one faint argument
+with no guessed value. Lower249 advertisement excluded; printed263 folio retained.
+Four exact obsolete stage notes resolve six active occurrences; all original metadata
+remains unchanged and source-local. All 17,381 prior files and 30 core modules
+unchanged; 213-test baseline reused. No new assembly OCR or correction. Next verify
+parent0016 활용 ownership and child0017 Windows article extent from retained opening
+260/274 context, then restore a bounded opening. Whole-issue accounting, index,
+cover and closeout remain pending. No reader rebuild.
+See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

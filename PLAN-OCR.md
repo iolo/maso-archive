@@ -23,36 +23,38 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: twelve readable/sample-reviewed articles, one partial,
-  two non-owning headings and 20 unresolved entries. All C++0015 PDF240–249/
-  printed254–263 body pages are preserved in two immutable natives totaling 494
-  files. Canonical series title and source body title 클래스의 생성 stay distinct.
-  Batch28 ending246–249 validates 48 source-pixel crops, 38 blocks, five originals,
-  43 settings (14 eng code/29 kor+eng), 4,323 typed ranges and 195 complete unnumbered
-  physical rows/5,498 bytes. Three captions, original listing continuities, ten
-  spatial labels/seven rows, direction/header/math/demo fields and physical wraps
-  remain linked. Lower249 advertisement excluded; printed263 folio retained. All
-  285 uncertainties and 16 opaque variants preserve tutle/TURTLE names, source
-  angle/color/default claims, turn values and 세거자 spelling without semantic repair.
-  Twenty-two editorial markers retain 21 graphic/rule occurrences (nine bands) and
-  one faint argument with candidates0/n/1 and unknown original count/bytes. No
-  argument guessed or geometry reconstructed. Marker interiors stay outside source
-  token/glyph/numeric/identifier/code-literal indexes. All 48 final crops reviewed
-  before 43 calls after 31 pre-OCR refinements; all 43 raws read before one source
-  pass, zero retries or post-OCR repairs. Helper/schema failures retained and fixed
-  in fresh helpers before export, with source/raws unchanged. All 16,769 prior files
-  and 30 core modules unchanged; 213-test baseline reused.
+- August 1991 is active: thirteen readable/sample-reviewed articles, no partials,
+  two non-owning headings and 20 unresolved entries. C++0015 is complete at
+  PDF240–249/printed254–263 in the full standard actual two-native503-file assembly,
+  including 494 unchanged native files. Canonical series title and source body title
+  클래스의 생성 stay distinct. All 9,742 original typed occurrences validate in native
+  and independently projected combined article/listing contexts; 1,558 published
+  combined ranges pass. Covers 125 source-pixel crops, 106 blocks, eight originals,
+  117 settings (35 eng code/82 kor+eng), 35 code blocks and 325 complete unnumbered
+  physical/logical rows/9,541 bytes across 26 groups. One formal carried-word link
+  retains245 차라 +246 리 함수의 선언을 with no separator or native byte normalization.
+  Nine native prose joins/eleven boundaries, seven code continuities/nine panel
+  boundaries, five captions, 56 spatial fields/21 rows, merged access-table fields
+  and two credits remain linked. All 538 uncertainties and 32 opaque variants remain
+  active. Twenty-two ending markers retain 21 graphic/rule occurrences (nine bands)
+  and one faint argument with unknown original count/value; all marker interiors
+  remain outside source-derived indexes. Preserve source filenames, spelling,
+  xd/x2d versus %d, O/X, source claims and graphic candidates without semantic repair.
+  Lower249 advertisement excluded and literal263 folio retained. Four exact obsolete
+  stage notes resolve six occurrences; all original metadata stays source-local.
+  All 17,381 prior files and 30 core modules unchanged; 213-test baseline reused.
+  No new assembly OCR or source pass.
 
-  Next batch29 qualifies full actual a/b assembly with standard namespaced-v1.
-  Preserve every native file/metadata field and independently project every typed
-  occurrence into combined article/listing contexts. Full scope: 125 crops, 106
-  blocks, eight originals, 117 settings (35 eng/82 kor+eng), 35 code blocks and 325
-  complete unnumbered physical rows/9,541 listing bytes. Match formal245 차라 +246
-  리 함수의 선언을 with no separator; keep native block bytes. Resolve only obsolete
-  stage deferrals. Preserve lower249 exclusion, all markers and original metadata;
-  no new OCR or source correction. Whole-issue accounting/index/cover/closeout remain
-  pending; no reader rebuild. Selected0003 requires batch07
-  `listing_adapter_r01.install()`; 0002 requires the batch04 native adapter.
+  Next batch30 verifies parent0016 활용 ownership and child0017 Windows memory
+  article extent, then restores a bounded child opening. Reuse retained260/261
+  renders and original contents5; establish actual title/byline/folios, continuations,
+  ending and adjacent material before mapping at most six pages. Keep parent heading
+  ownership distinct from the child body; lookup hypotheses imply no assigned extent
+  or global folio offset. Every final crop before pinned mapped Tesseract, all raws
+  before one source pass. Preserve original diagrams/tables/code/captions and every
+  source error with complete block/region/listing/range metadata. Whole-issue
+  accounting/index/cover/closeout pending; no reader rebuild. Selected0003 requires
+  batch07 `listing_adapter_r01.install()`; 0002 requires the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

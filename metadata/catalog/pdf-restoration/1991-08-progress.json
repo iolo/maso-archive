@@ -1327,7 +1327,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Original contents4 lists 언어 / 가자! C++의 세계로 by이재규 at254. Independent240/254 opening has 언어 label,body title 클래스의 생성 and글.이재규(서울대 원자핵공학과) byline. Running series title/boxed1 corroborate one canonical0015 body owner. Canonical title,parent,order andcontents reference unchanged; source body title kept separately.239 is an advertisement.",
@@ -1336,15 +1336,16 @@
         "Original title/standfirst composite,compiler diagram andaccess table retained. Two captions,two code-label links,46 spatial fields/14 rows,four table headers/twenty visible data fields/six rows/two merged group cells,two credits anddrop-cap field remain source-linked. Merged cells do not imply blank or repeated printed values. Four example continuities keep physical rows separate. Five joined prose blocks retain six internal boundaries.",
         "All77 final crops reviewed before74 initial calls after49 pre-OCR refinements;all74 raws read before one source correction pass. Zero retries/post-OCR repairs. Empty label,omitted diagram/table fields anddamaged Korean code comments use source-direct fallback. All253 uncertainties and16 opaque variants retain xd/x2d versus independent %d,opaque underscore runs,PROTECT/private errors,four-dot placeholders,source inline claims andliteral table O/X without compilation,execution or semantic repair. Eight quoted strings/eight escapes,ten format-like fields,98 underscore runs andfour dot/rule runs remain source-linked.",
         "245 right prose ends 차라;246 begins 리 함수의 선언을. Deferred carried word join explicit with no separator; final246–249 andcomplete assembly pending. All15763 prior files and30core modules unchanged;213-test baseline reused.",
-        "Batch28 preserves final246–249/260–263 in186 independently exact files.48 source-pixel crops,38 blocks,five originals,43 settings (14eng code/29kor+eng) and4323 typed article/listing ranges validate. Fourteen code blocks retain195 complete unnumbered physical rows partitioning5498bytes acrossnine source example/listing/command groups. Three multi-panel listing continuities preserve five boundaries without physical-row joins. Four prose joined blocks retain five boundaries;incoming245 차라 +246 리 matches opening without separator. Three printed captions,four original listing panels,closing ornament,ten spatial labels/seven rows,four direction definitions,three header/date/credit records,eight opaque math expressions,four demo sections,25function headers and10loop headers source-linked. Twenty-two editorial markers retain21graphic/rule occurrences (nine decorative bands) andone faint argument glyph withunknown identity/count;all marker interiors excluded from source token/glyph/literal indexes. All285 uncertainties and16opaque variants preserve tutle/TURTLE filenames,89/25/130 turns,source angle/color/loop claims,세거자 spelling andphysical comment/semicolon wraps without execution or semantic repair. Lower249 advertisement excluded,literal263folio retained;continuation panel has no invented caption.31pre-OCR refinements,all48 final crops before43 initial calls,all43 raws before one pass,zero retries/repairs. Initial map-schema andwriter-helper failures retained andfixed in fresh helpers before export;source text/raws unchanged. All16769 prior files and30core modules unchanged;213-test baseline reused. Allten body pages now preserved across494native files;actual full two-native assembly pending."
+        "Batch28 preserves final246–249/260–263 in186 independently exact files.48 source-pixel crops,38 blocks,five originals,43 settings (14eng code/29kor+eng) and4323 typed article/listing ranges validate. Fourteen code blocks retain195 complete unnumbered physical rows partitioning5498bytes acrossnine source example/listing/command groups. Three multi-panel listing continuities preserve five boundaries without physical-row joins. Four prose joined blocks retain five boundaries;incoming245 차라 +246 리 matches opening without separator. Three printed captions,four original listing panels,closing ornament,ten spatial labels/seven rows,four direction definitions,three header/date/credit records,eight opaque math expressions,four demo sections,25function headers and10loop headers source-linked. Twenty-two editorial markers retain21graphic/rule occurrences (nine decorative bands) andone faint argument glyph withunknown identity/count;all marker interiors excluded from source token/glyph/literal indexes. All285 uncertainties and16opaque variants preserve tutle/TURTLE filenames,89/25/130 turns,source angle/color/loop claims,세거자 spelling andphysical comment/semicolon wraps without execution or semantic repair. Lower249 advertisement excluded,literal263folio retained;continuation panel has no invented caption.31pre-OCR refinements,all48 final crops before43 initial calls,all43 raws before one pass,zero retries/repairs. Initial map-schema andwriter-helper failures retained andfixed in fresh helpers before export;source text/raws unchanged. All16769 prior files and30core modules unchanged;213-test baseline reused. Allten body pages now preserved across494native files;actual full two-native assembly pending.",
+        "Batch29 completes actual C++ PDF240–249/printed254–263 using full standard namespaced-v1 assembler on two real natives,without adapter. All494 native files exact inside503 independently reproduced files. All9742 original typed occurrences validate in native andindependently projected combined article/listing contexts;1558 published combined ranges pass. Retains125 exact source-pixel crops,106 blocks,eight originals,117 settings (35eng/82kor+eng),35code blocks and325 complete unnumbered physical/logical rows partitioning9541bytes across26groups. One formal carried-word link245 차라 +246 리 함수의 선언을 preserves native bytes. Nine native prose joined blocks/eleven boundaries,seven code continuities/nine panel boundaries,five captions,56spatial fields/21rows,merged access-table cells andtwo credits remain linked. All538 uncertainties and32opaque variants retain source errors/claims/filenames/glyphs. Twenty-two ending markers preserve21graphic/rule occurrences (nine bands) andone faint argument withunknown original count/value;marker interiors excluded from source-derived indexes. Lower249 advertisement excluded andliteral263folio retained;no caption invented on continuation panel. Four unique exact obsolete stage notes resolve six occurrences;all original metadata unchanged/source-local. All17381 prior files and30core modules unchanged;213-test baseline reused. No new OCR/source pass. No body pages or article assembly pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-27-r01/cpp-a",
+        "directory": "archive/pdf/1991-08/packages/cpp-class-creation-complete-r01",
         "article_id": "scan-maso-1991-08-toc-0015",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-27-r01/cpp-a/manifest.json",
-          "sha256": "c1c117e84afe6a1a95a16541a956af69e8fba677f3f80dbc8126ae28aa7d655a",
-          "bytes": 53754
+          "path": "archive/pdf/1991-08/packages/cpp-class-creation-complete-r01/manifest.json",
+          "sha256": "12fc04ff360f3773cf207bb0d78d91d505f78efde1ccd5df1bab8e860680ddc6",
+          "bytes": 92825
         },
         "source_body_title": "클래스의 생성",
         "coverage": {
@@ -1354,7 +1355,11 @@
             242,
             243,
             244,
-            245
+            245,
+            246,
+            247,
+            248,
+            249
           ],
           "printed_pages": [
             "254",
@@ -1362,47 +1367,21 @@
             "256",
             "257",
             "258",
-            "259"
+            "259",
+            "260",
+            "261",
+            "262",
+            "263"
           ],
-          "regions": 77,
-          "blocks": 68,
-          "figures": 3,
-          "deferred_pdf_pages": [
-            246,
-            247,
-            248,
-            249
-          ],
-          "native_scope_only": true
+          "regions": 125,
+          "blocks": 106,
+          "figures": 8,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": []
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "full_source_extent": {
-          "start_pdf_page": 240,
-          "end_pdf_page": 249,
-          "previous_pdf_page": 239,
-          "previous_role": "advertisement",
-          "prose_ending_pdf_page": 248,
-          "ending_printed_page": "263",
-          "ending_mixed_exclusion": "Lower249 bookseller advertisement; upper intrinsic list3 belongs to article.",
-          "following_pdf_page": 250,
-          "following_role": "advertisement",
-          "next_independent_title": 260
-        },
-        "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-27/validation.json",
-          "sha256": "ccd0870b05c6ad27c4308c68c75435569f399b07dab2c41218c64c1338a50f5a",
-          "bytes": 2333
-        },
-        "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-27/reproduction.json",
-          "sha256": "997ce7e1e4668ad1276e1f54afb60036d52592d83b4b8b3eac9be34f3bd39498",
-          "bytes": 54466
-        },
-        "private_adapter_required": false,
-        "full_assembler_checked": false,
-        "checkpoint": "batch-27",
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "name": "a",
@@ -1457,45 +1436,37 @@
             }
           }
         ],
-        "aggregate_native_coverage": {
-          "pdf_pages": [
-            240,
-            241,
-            242,
-            243,
-            244,
-            245,
-            246,
-            247,
-            248,
-            249
-          ],
-          "observed_printed_pages": [
-            "254",
-            "255",
-            "256",
-            "257",
-            "258",
-            "259",
-            "260",
-            "261",
-            "262",
-            "263"
-          ],
-          "regions": 125,
-          "blocks": 106,
-          "figures": 8,
-          "excluded_regions": 1,
-          "deferred_pdf_pages": [],
-          "scope": "All ten body pages preserved across494 immutable native files; full article assembly pending."
-        },
-        "all_body_pages_preserved_across_natives": true,
-        "ending_checkpoint": "batch-28",
         "native_stage_history": {
-          "path": "archive/pdf/1991-08/restoration/batch-27/ledger-complete.json",
-          "sha256": "d167fb7121aed6d5515a68f0538e015657df5eb70197c98016b7e094082d98fd",
-          "bytes": 110754
-        }
+          "path": "archive/pdf/1991-08/restoration/batch-28/ledger-complete.json",
+          "sha256": "da91d69ea7bb37a026b72175e99310b5a5b22c3b1a5c3dd0d15235ef951a50a4",
+          "bytes": 116174
+        },
+        "full_source_extent": {
+          "start_pdf_page": 240,
+          "end_pdf_page": 249,
+          "previous_pdf_page": 239,
+          "previous_role": "advertisement",
+          "prose_ending_pdf_page": 248,
+          "ending_printed_page": "263",
+          "ending_mixed_exclusion": "Lower249 bookseller advertisement; upper intrinsic list3 belongs to article.",
+          "following_pdf_page": 250,
+          "following_role": "advertisement",
+          "next_independent_title": 260
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-29/validation.json",
+          "sha256": "36865d339439264ce6874f692d489a37f808638cbb07b5ffd81d219cbab15287",
+          "bytes": 3007
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-29/reproduction.json",
+          "sha256": "aee45a70ee02754b340ebd71eeff956b67e3ab0589f7cc9934deb8a4c9dc8e59",
+          "bytes": 94041
+        },
+        "assembly_index_mode": "namespaced-v1",
+        "private_adapter_required": false,
+        "full_assembler_checked": true,
+        "checkpoint": "batch-29"
       }
     },
     {
@@ -2469,33 +2440,85 @@
         "sha256": "d6456dba367b5d3f5c01f943f7e1c49b291cf0005743bfcba5a28903e10a5dfd",
         "bytes": 33094
       }
+    },
+    {
+      "name": "1991-08-batch-29",
+      "status": "complete",
+      "completed_at": "2026-10-28T14:26:20.509796+00:00",
+      "goal": "Complete ten-page C++ assembly andexhaustive native/combined range audit",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0015"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 10,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-29/validation.json",
+        "sha256": "36865d339439264ce6874f692d489a37f808638cbb07b5ffd81d219cbab15287",
+        "bytes": 3007
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-29/reproduction.json",
+        "sha256": "aee45a70ee02754b340ebd71eeff956b67e3ab0589f7cc9934deb8a4c9dc8e59",
+        "bytes": 94041
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 12,
-    "partial": 1,
+    "readable": 13,
+    "partial": 0,
     "group_headings": 2,
     "unresolved": 20
   },
   "notes": [
-    "Full issue goal active:20 identities still require source ownership/eligibility review. C++0015 actual240–249 now preserved across494 immutable files in two natives;complete assembly pending. Twelve earlier readable articles unchanged. No global folio offset.",
+    "Full issue goal active:20 identities still require source ownership/eligibility review. C++0015 is complete atPDF240–249/printed254–263,includingintrinsic listings after prose ending248 andexcludinglower249 advertisement. No pending body pages or assemblies among selected readable articles. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-29",
-    "goal": "Qualify complete C++0015 actual two-native assembly covering240–249.",
+    "name": "1991-08-batch-30",
+    "goal": "Verify parent0016 활용 ownership andchild0017 Windows memory article extent,then restore bounded child opening.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0015"
+      "maso-1991-08-toc-0016",
+      "maso-1991-08-toc-0017"
     ],
     "mapping_targets": [],
-    "outside_lookup_candidates": [],
+    "lookup_candidates": [
+      5,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275
+    ],
+    "retained_opening_context": {
+      "pdf_page": 260,
+      "printed_page": "274",
+      "source_render": "archive/pdf/1991-08/restoration/batch-27/source-review/pdf-260.png",
+      "observed_title": "윈도우즈의 메모리 운영 방식",
+      "note": "Independent title/byline강민석 observed as C++ outside context only.261 retained too. Parentlabel활용 andchild series/header require explicit ownership/extent review; no new classification assigned."
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Use standard namespaced-v1 on real a/b natives, preserving all494 files andevery source-local metadata field. Independently project every typed occurrence into combined article/listing contexts. Match245 차라 +246 리 함수의 선언을 formal carried-word link without separator, preserving native block bytes. Full article has125 source crops,106 blocks,eight originals,117 settings (35eng/82kor+eng),35code blocks and325 complete unnumbered physical rows/9541 listing bytes. Preserve lower249 advertisement exclusion,all source errors/claims/filenames,22ending markers withunknown counts andone faint argument,marker-interior exclusion policy andboth native range contexts. Resolve only exact obsolete stage deferrals; no new OCR/source correction or reader rebuild. Whole-issue accounting/index/cover/closeout remain pending."
+    "note": "Read PLAN-OCR. Reuse retained260/261 source renders andoriginal contents5; inspect actual title/byline/folios,continuations,ending andadjacent material before mapping at most six pages. Lookup candidates are hypotheses,not assigned article ownership or global folio offset. Distinguish parentsection-label ownership from childarticle. Preserve original diagram/table/code/caption assets,physical wraps,source errors andcomplete block/region/listing/range metadata. Every final crop before pinned mapped Tesseract;all raws before one pass. Preserve all earlier natives/helpers/evidence. No reader rebuild;whole-issue accounting/index/cover/closeout pending."
   }
 }
