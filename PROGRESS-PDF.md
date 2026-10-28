@@ -6,15 +6,18 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: eleven readable/sample-reviewed articles, one
-partial, two non-owning headings and 21 unresolved identities. B+ tree0014 now
-has all PDF226–238 preserved across 759 immutable native files. Final238 validates
-19 crops, 15 settings, 920 typed ranges, four originals/three captions and 98 spatial
-fields/20 reading rows. Source errors, I/L/W glyph candidates and empty grids remain
-literal; BTREE.C is a prose filename, with no invented listing. All14,743 prior files
-and30 core modules unchanged;213-test baseline reused. Next qualify full actual
-three-native assembly. Whole-issue accounting, index, cover and closeout remain
-pending. See [August progress](docs/progress/9108.md) and
+August 1991 remains in progress: twelve readable/sample-reviewed articles, no
+partials, two non-owning headings and 21 unresolved identities. B+ tree0014 is
+complete atPDF226–238/printed240–252 in a768-file actual standard three-native
+assembly, including759 unchanged native files. All12,406 native typed occurrences
+validate in original andindependently projected combined contexts. Covers205 exact
+crops,176 settings,160 blocks,29 originals and76 complete unnumbered listing rows/
+2,232 bytes. Two prose links andall source errors/uncertainties remain intact.
+All14,973 prior files and30 core modules unchanged;213-test baseline reused.
+Next verify canonical0015 ownership/extent against original contents andPDF240/254
+source title 클래스의 생성, then restore its bounded opening. Whole-issue accounting,
+index, cover andcloseout remain pending. No reader rebuild.
+See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:

@@ -1161,7 +1161,7 @@
       "parent_id": "maso-1991-08-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent226/240 B+ 트리의 삽입과 삭제 알고리즘 title and 조성만/단국대 전산통계학과 대학원 byline establish canonical0014 after225 advertisement. Headers C를 이용한 B+ 트리 boxed3 corroborate identity. Canonical title,parent,order and contents reference unchanged. Parent0010 remains non-owning.",
@@ -1171,15 +1171,16 @@
         "33 pre-OCR refinements across two revisions. All90 final crops viewed or byte-identical to viewed earlier crops before80 initial recognitions. All80 drafts read before one source pass,zero retries/post-OCR repairs. Source-direct fallback preserves empty figure2 draft anddamaged diagram/code/comment/identifier fields. All414 uncertainty records and19 opaque variants retain printed then/ROOT assignment/nodo_no/comma condition,insoverflow prose spelling,CC cell andindependent WXY/WXYZ candidates without compilation or algorithm repair.",
         "231 right prose ends 여;232 begins 러가지 상황. Deferred word join retained explicitly; remaining232–238 andcomplete article assembly pending. Early scope-note 한국대 was corrected to source-crop 단국대 in fresh scope-reviewed-r01 before OCR; earlier note remains retained.",
         "Batch24 preserves middle232–237/246–251 in348 independently exact files.96 source-pixel crops,71 blocks,15 original panels,81 settings (one eng code/80 kor+eng),5997 typed ranges and42 complete physical/listing rows partitioning1093bytes validate. Fourteen diagrams8–21 andlisting2 retain15 caption associations,373 spatial fields/72 reading rows andfive visible node grids with no key text,without zeros or box/pointer inference. Seven joined blocks preserve ten internal prose/title boundaries. Incoming231 여 +232 러가지 andoutgoing237 B+트리의 +238 균형 remain explicit,including standard continuation declarations for planned a/b/c assembly. All837 uncertainty records and19 opaque variants retain printed then syntax,5과정,②번째,B−,착가,figure/case references and independent diagram/prose values without compilation or semantic repair.33 pre-OCR refinements,all81 raws read before one source pass,zero retries/post-OCR repairs. Empty figure21 raw anddamaged diagram/code/key fields use source-direct fallback. A residual raw (down) +} Ref was corrected to source (down)과 Ref during the same pass in fresh reviewed-text-r01; earlier draft retained. All13532 prior files and30 core modules unchanged;213-test baseline reused. Final238 andfull assembly remain pending.",
-        "Batch25 preserves final238/252 in72 independently exact files.19 source-pixel crops,14 blocks,four originals,15 kor+eng settings and920 typed article ranges validate. Figures22–24 retain three captions,98 spatial fields/20 reading rows andfive empty-grid records; closing ornament original retained. Internal 앞으+로 joins columns; incoming237 B+트리의 +238 균형 matches middle with a space. All138 uncertainty records and14 opaque variants retain printed figure22(c/d/e), independent I/L keys, T/W/X/Y final leaf readings and BTREE.C prose filename. No invented listing,zeros,pointers,geometry or semantic repair. All19 crops before15 calls,all15 raws before one source pass,zero retries/repairs. Empty caption/damaged diagram raws use source-direct fallback. All14743 prior files and30 core modules unchanged;213-test baseline reused. All13 pages now preserved across759 native files; full three-native assembly pending."
+        "Batch25 preserves final238/252 in72 independently exact files.19 source-pixel crops,14 blocks,four originals,15 kor+eng settings and920 typed article ranges validate. Figures22–24 retain three captions,98 spatial fields/20 reading rows andfive empty-grid records; closing ornament original retained. Internal 앞으+로 joins columns; incoming237 B+트리의 +238 균형 matches middle with a space. All138 uncertainty records and14 opaque variants retain printed figure22(c/d/e), independent I/L keys, T/W/X/Y final leaf readings and BTREE.C prose filename. No invented listing,zeros,pointers,geometry or semantic repair. All19 crops before15 calls,all15 raws before one source pass,zero retries/repairs. Empty caption/damaged diagram raws use source-direct fallback. All14743 prior files and30 core modules unchanged;213-test baseline reused. All13 pages now preserved across759 native files; full three-native assembly pending.",
+        "Batch26 completes actual PDF226–238/printed240–252 B+ tree article using full standard namespaced-v1 assembler on three real natives, no adapter. All759 native files exact inside768 independently reproduced files. All12406 original typed occurrences validate in native and independently projected combined article/listing contexts;645 published combined ranges pass. Retains205 exact source-pixel crops,160 blocks,29 originals,176 settings (5eng/171kor+eng),5code blocks and76 complete unnumbered physical/logical rows partitioning2232bytes. Final238 has no listing; BTREE.C remains prose filename. Two formal prose links retain231 여 +232 러가지 and237 B+트리의 +238 균형 with original block bytes. Thirteen native joined blocks/16boundaries,26captions,807 spatial fields/176rows,10empty-grid records,position-grid headers/cells/blanks and2credits retained. All1389 uncertainties and52opaque variants preserve source spelling/then syntax/figure references/independent keys without semantics or glyph repair. Six unique obsolete stage notes resolve nine active occurrences; all original native metadata stays unchanged/source-local. All14973 prior files and30core modules unchanged;213-test baseline reused. No new OCR/source pass. No body pages or article assembly pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-23-r01/btree-a",
+        "directory": "archive/pdf/1991-08/packages/btree-complete-r01",
         "article_id": "scan-maso-1991-08-toc-0014",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-23-r01/btree-a/manifest.json",
-          "sha256": "201268a2f6205c411b447eff19e2a7c4d54ea036c4b056e0f3cbfd4df3de6270",
-          "bytes": 58902
+          "path": "archive/pdf/1991-08/packages/btree-complete-r01/manifest.json",
+          "sha256": "e203031ad1d966b3d9d72cf95834d255ac6d135224ecb0ad167192822d55c6f5",
+          "bytes": 141809
         },
         "coverage": {
           "pdf_pages": [
@@ -1188,20 +1189,7 @@
             228,
             229,
             230,
-            231
-          ],
-          "printed_pages": [
-            "240",
-            "241",
-            "242",
-            "243",
-            "244",
-            "245"
-          ],
-          "regions": 90,
-          "blocks": 75,
-          "figures": 10,
-          "deferred_pdf_pages": [
+            231,
             232,
             233,
             234,
@@ -1210,34 +1198,30 @@
             237,
             238
           ],
-          "native_scope_only": true
+          "printed_pages": [
+            "240",
+            "241",
+            "242",
+            "243",
+            "244",
+            "245",
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "251",
+            "252"
+          ],
+          "regions": 205,
+          "blocks": 160,
+          "figures": 29,
+          "excluded_regions": 0,
+          "deferred_pdf_pages": []
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "full_source_extent": {
-          "start_pdf_page": 226,
-          "end_pdf_page": 238,
-          "previous_pdf_page": 225,
-          "previous_role": "advertisement",
-          "following_pdf_page": 239,
-          "following_role": "advertisement",
-          "ending_printed_page": "252",
-          "next_independent_title": 240
-        },
-        "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-23/validation.json",
-          "sha256": "3ea71f81402488f4129f6d4b5e79c383c195a0987661e08be952152ed3ca42dc",
-          "bytes": 2012
-        },
-        "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-23/reproduction.json",
-          "sha256": "a94d729343e76b25208294170243f43ae7f464087658fb8d62bba3d469cfcbfd",
-          "bytes": 59620
-        },
-        "private_adapter_required": false,
-        "full_assembler_checked": false,
-        "checkpoint": "batch-23",
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "name": "a",
@@ -1306,51 +1290,35 @@
             }
           }
         ],
-        "aggregate_native_coverage": {
-          "pdf_pages": [
-            226,
-            227,
-            228,
-            229,
-            230,
-            231,
-            232,
-            233,
-            234,
-            235,
-            236,
-            237,
-            238
-          ],
-          "observed_printed_pages": [
-            "240",
-            "241",
-            "242",
-            "243",
-            "244",
-            "245",
-            "246",
-            "247",
-            "248",
-            "249",
-            "250",
-            "251",
-            "252"
-          ],
-          "regions": 205,
-          "blocks": 160,
-          "figures": 29,
-          "deferred_pdf_pages": [],
-          "scope": "All thirteen body pages preserved across three immutable partial natives; complete article assembly pending."
-        },
-        "all_body_pages_preserved_across_natives": true,
-        "middle_checkpoint": "batch-24",
         "native_stage_history": {
-          "path": "archive/pdf/1991-08/restoration/batch-23/ledger-complete.json",
-          "sha256": "3ee75ed1719ed1775e443513f6a3b9527235aabaafe035b124d2cdde1ba753bf",
-          "bytes": 95367
+          "path": "archive/pdf/1991-08/restoration/batch-25/ledger-complete.json",
+          "sha256": "8ad8967dc733ba0f5ee4602fad1123d2337eace974bf0244a3426e16e24d85e4",
+          "bytes": 103056
         },
-        "ending_checkpoint": "batch-25"
+        "full_source_extent": {
+          "start_pdf_page": 226,
+          "end_pdf_page": 238,
+          "previous_pdf_page": 225,
+          "previous_role": "advertisement",
+          "following_pdf_page": 239,
+          "following_role": "advertisement",
+          "ending_printed_page": "252",
+          "next_independent_title": 240
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-26/validation.json",
+          "sha256": "2ad9109266c39ba9de7c074375350eaa8cae8556abd796e00506e8484105fd54",
+          "bytes": 2477
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-26/reproduction.json",
+          "sha256": "e4dbfd3876c98a3fac5d0969e97dc71378713a52b91d52a26bcc7e7b1e1aea5f",
+          "bytes": 143017
+        },
+        "assembly_index_mode": "namespaced-v1",
+        "private_adapter_required": false,
+        "full_assembler_checked": true,
+        "checkpoint": "batch-26"
       }
     },
     {
@@ -2254,33 +2222,83 @@
         "sha256": "d035be528d9f615afc4a2f1d63f068fa12c8e5f09b22bb615c93ca776445ee27",
         "bytes": 13209
       }
+    },
+    {
+      "name": "1991-08-batch-26",
+      "status": "complete",
+      "completed_at": "2026-10-28T13:08:17.127706+00:00",
+      "goal": "Complete thirteen-page B+ tree assembly and exhaustive native/combined range audit",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0014"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 13,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-26/validation.json",
+        "sha256": "2ad9109266c39ba9de7c074375350eaa8cae8556abd796e00506e8484105fd54",
+        "bytes": 2477
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-26/reproduction.json",
+        "sha256": "e4dbfd3876c98a3fac5d0969e97dc71378713a52b91d52a26bcc7e7b1e1aea5f",
+        "bytes": 143017
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 11,
-    "partial": 1,
+    "readable": 12,
+    "partial": 0,
     "group_headings": 2,
     "unresolved": 21
   },
   "notes": [
-    "Full issue goal active:21 identities still require source ownership/eligibility review. B+ tree0014 actual226–238 now preserved across three immutable natives; complete assembly pending. All earlier readable outcomes unchanged. No global folio offset.",
+    "Full issue goal active:21 identities still require source ownership/eligibility review. B+ tree0014 is complete atPDF226–238/printed240–252 across three immutable natives. No pending body pages or assemblies among selected readable articles. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-26",
-    "goal": "Qualify complete B+ tree0014 assembly from three immutable natives covering226–238.",
+    "name": "1991-08-batch-27",
+    "goal": "Verify source ownership/extent for canonical0015 언어 : 가자! C++의 세계로, then restore its bounded opening.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0014"
+      "maso-1991-08-toc-0015"
     ],
     "mapping_targets": [],
-    "outside_lookup_candidates": [],
+    "lookup_candidates": [
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "retained_opening_context": {
+      "pdf_page": 240,
+      "printed_page": "254",
+      "source_render": "archive/pdf/1991-08/restoration/batch-23/source-review/pdf-240.png",
+      "observed_title": "클래스의 생성",
+      "note": "Independent title observed as B+ tree neighbor context only. Canonical/source title relationship, ownership, byline and actual ending require source review; no new classification assigned."
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Use standard namespaced-v1 actual a/b/c assembly, preserving all759 native files and every source-local metadata field. Independently project every typed occurrence into combined article/listing contexts. Resolve only obsolete stage deferrals. Match231 여 +232 러가지 and237 B+트리의 +238 균형 formal prose links; no source normalization. Final c has no listing.txt; treat absent native listing as empty bytes in audit. Combined listing76 physical rows/2232 bytes from a/b only. Verify all205 source-pixel crops and176 settings, native inventories, original figures/captions/spatial fields/uncertainties and independent rebuild. No new OCR/source correction or reader rebuild."
+    "note": "Read PLAN-OCR. Reuse retained240–242 renders and exact source pins; lookup candidates are hypotheses, not article ownership or global printed/PDF offset. Inspect original contents plus actual opening/ending and adjacent titles before mapping at most six pages. Preserve source/canonical title distinction. Pinned mapped Tesseract eng code/kor+eng other; every final crop reviewed before OCR, all raws read before one pass. Retain complete block/region/listing/physical-row metadata and all literal source errors. No reader rebuild; whole-issue accounting/index/cover/closeout remain pending."
   }
 }

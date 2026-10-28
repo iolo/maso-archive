@@ -31,20 +31,24 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-28
 
-Step 12 is active for August 1991. Its 35 identities account for eleven readable,
-sample-reviewed articles, one partial, two non-owning headings and 21 unresolved
-entries. B+ tree child0014 now has all PDF226–238/printed240–252 preserved across
-three immutable natives totaling 759 files. Batch25 final238 validates 19 source
-pixel crops, 14 blocks, four originals, 15 kor+eng settings and 920 typed ranges.
-Three captions, 98 spatial fields/20 reading rows and five empty-grid records
-remain source-linked. All 138 uncertainty records and 14 opaque variants retain
-printed figure22(c/d/e) references, independent I/L and W glyph readings and
-BTREE.C as a prose filename, with no invented listing. Incoming 237 B+트리의
-+238 균형 uses a space; internal 앞으+로 joins columns. All 19 crops reviewed
-before 15 initial calls, all raws read before one source pass; zero retries or
-repairs. All 14,743 prior files and 30 core modules unchanged; 213-test baseline
-reused. Next qualify the complete actual three-native assembly, preserving every
-native metadata field and independently projecting every typed range. Whole-issue
+Step 12 is active for August 1991. Its 35 identities account for twelve readable,
+sample-reviewed articles, no partials, two non-owning headings and 21 unresolved
+entries. B+ tree child0014 is complete at PDF226–238/printed240–252. The actual
+standard three-native assembly has 768 independently exact files, including all
+759 unchanged native files. All 12,406 original typed occurrences validate in native
+and independently projected combined article/listing contexts; 645 published combined
+ranges pass. The audit covers 205 source-pixel crops, 160 blocks, 29 originals,
+176 settings, five code blocks and 76 complete unnumbered physical/logical rows/
+2,232 bytes. Two cross-native prose links, thirteen internal joined blocks/sixteen
+boundaries, 26 captions, 807 spatial fields/176 reading rows, ten empty grids,
+position-grid cells and credits remain source-linked. All 1,389 uncertainties and
+52 opaque variants preserve source errors, figure references and independent key
+readings without semantic repair. Six unique obsolete stage notes resolve nine
+active occurrences; all original metadata remains unchanged and source-local.
+All 14,973 prior files and 30 core modules unchanged; 213-test baseline reused.
+No new assembly OCR or correction. Next verify ownership and extent of canonical0015
+언어 : 가자! C++의 세계로, whose neighbor-context opening PDF240/printed254
+has source title 클래스의 생성, then restore its bounded opening. Whole-issue
 accounting, index, cover and closeout remain pending. No reader rebuild. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
