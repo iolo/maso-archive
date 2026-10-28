@@ -29,6 +29,18 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## August 1991 restoration, 2026-10-28
+
+Step12 is active for August 1991. Batch01 initializes its 35 canonical identities
+and adopts the completed BASIC column pilot without new OCR or correction. Its
+65-file JSON/assets export is independently exact; all64 retained legacy data
+files, fifteen source crop pixels, fourteen OCR settings and176 historical pins
+validate. One article is readable/sample-reviewed;34 classifications remain
+unresolved. Next review feature0001/child0002 ownership and extent from contents130
+within two tasks/six mapped pages/twenty outside lookups. See
+[August progress](docs/progress/9108.md) and
+[ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+
 ## January 1988 closeout, 2026-10-28
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:

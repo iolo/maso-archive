@@ -6,6 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+August 1991 restoration is in progress: the 35-entry canonical queue is initialized,
+and the completed three-page BASIC column pilot is adopted as a 65-file JSON/assets
+package. Two fresh exports are exact; all 64 retained legacy data files and fifteen
+source crop pixels match. One article is readable/sample-reviewed; 34 identities
+await classification. Next is bounded ownership/extent review of feature0001 and
+child0002 from contents reference130. See [August progress](docs/progress/9108.md)
+and the [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:
 51 identities account for 36 readable/sample-reviewed articles, 14 non-owning
 headings and one explicit unresolved survey eligibility/location gap. There are
