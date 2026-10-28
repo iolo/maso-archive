@@ -183,7 +183,8 @@
         "Independent section II title/byline and printed138 on PDF124 establish child0003 opening. PDF135/printed149 has the conclusion/closing ornament;136 begins advertising. Actual ending is observed,not inferred from interview reference162.",
         "Current native maps only124–129/printed138–143. Expected remaining130–135 are deferred;131–133 have not yet been inspected. Source envelope124–135 does not claim uninspected interior continuity.",
         "Two C listings retain78 nonblank physical source rows,45 searchable matrix/grid cells,nine color-equation terms,six formula records and eight source joins. A damaged Listing1identifier and color-equation punctuation remain explicit;printed centre9/formula versus centre8/listing discrepancy retained.",
-        "Three post-initial-OCR crop faults were repaired before the single correction pass. Recognition accounting is63 initial plus3 changed-input repairs,66total,zero unchanged retries.60results reused with original settings inline and exact crop/runtime/region proofs. First export remains retained;selected revision02 removes editorial marker labels from literal/glyph indexes without text changes."
+        "Three post-initial-OCR crop faults were repaired before the single correction pass. Recognition accounting is63 initial plus3 changed-input repairs,66total,zero unchanged retries.60results reused with original settings inline and exact crop/runtime/region proofs. First export remains retained;selected revision02 removes editorial marker labels from literal/glyph indexes without text changes.",
+        "Batch06 individually inspected/restored final130–135/printed144–149, including previously uninspected131–133. All twelve source pages are now reviewed and preserved across two immutable natives; separate assembly pending. Ending has59 physical C rows/five routine groups,17 table rows/34 numeric cells/four pass guides,16 original figures, ten labels and five joins. Missing final gray brace, printed rotation signs and terminology retained literally."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-08/packages/batch-05-r02/image-tech-a",
@@ -228,11 +229,7 @@
         "full_source_extent": {
           "start_pdf_page": 124,
           "end_pdf_page": 135,
-          "uninspected_interior_pdf_pages": [
-            131,
-            132,
-            133
-          ]
+          "uninspected_interior_pdf_pages": []
         },
         "validation": {
           "path": "archive/pdf/1991-08/restoration/batch-05/validation.json",
@@ -254,7 +251,55 @@
           "sha256": "9eca14a2b9344210ef90c0872be9de345a2489ea4962781f68271a1ce03fa2c4",
           "bytes": 2858
         },
-        "checkpoint": "batch-05"
+        "checkpoint": "batch-05",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-08/packages/batch-05-r02/image-tech-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-05-r02/image-tech-a/manifest.json",
+              "sha256": "0d024bca49c335298cf9e3ea9926c02053f4140610c2905e878418ca98ad5da8",
+              "bytes": 46992
+            },
+            "pdf_pages": [
+              124,
+              125,
+              126,
+              127,
+              128,
+              129
+            ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-08/packages/batch-06-r01/image-tech-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-06-r01/image-tech-b/manifest.json",
+              "sha256": "10c9634700aef92c02def701d501ea5bb8924086df327f5cc40f12b21977ae63",
+              "bytes": 50505
+            },
+            "pdf_pages": [
+              130,
+              131,
+              132,
+              133,
+              134,
+              135
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-06/validation.json",
+              "sha256": "6f1dabed907e7c0981f75d1ac2895bea504f589556f0d0cc605460602052a9c2",
+              "bytes": 1485
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-06/reproduction.json",
+              "sha256": "fef62ac5e90eae234e34fa2ab4da14b00c0597d104538a67abda1849d52e7002",
+              "bytes": 51230
+            }
+          }
+        ],
+        "all_body_pages_preserved_across_natives": true,
+        "ending_checkpoint": "batch-06"
       }
     },
     {
@@ -786,6 +831,32 @@
         "sha256": "1abb5f98e47c496529bbb848e315c8ec0078e188059626befbdd82ba09425dfb",
         "bytes": 48142
       }
+    },
+    {
+      "name": "1991-08-batch-06",
+      "status": "complete",
+      "completed_at": "2026-10-28T03:03:46.993242+00:00",
+      "goal": "Restore bounded second-feature ending130–135",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0003"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 67,
+      "recognition_retries": 0,
+      "changed_input_repairs": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-06/validation.json",
+        "sha256": "6f1dabed907e7c0981f75d1ac2895bea504f589556f0d0cc605460602052a9c2",
+        "bytes": 1485
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-06/reproduction.json",
+        "sha256": "fef62ac5e90eae234e34fa2ab4da14b00c0597d104538a67abda1849d52e7002",
+        "bytes": 51230
+      }
     }
   ],
   "totals": {
@@ -796,17 +867,25 @@
     "unresolved": 31
   },
   "notes": [
-    "Full issue goal active:31 identities still require source ownership/eligibility review. Second child0003 is partial with final130–135 and full assembly pending. First child0002 remains complete. No global folio offset.",
+    "Full issue goal active:31 identities still require source ownership/eligibility review. Second child0003 has all124–135 body pages inspected and preserved in two partial natives; separate assembly pending. First child0002 remains complete. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-06",
-    "goal": "Restore second child0003 final130–135/printed144–149 after full source/crop review;then complete twelve-page assembly separately.",
+    "name": "1991-08-batch-07",
+    "goal": "Assemble second child0003 from immutable opening124–129 and ending130–135 into complete twelve-page JSON/assets article.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0003"
     ],
-    "mapping_targets": [
+    "mapping_targets": [],
+    "outside_lookup_pages": [],
+    "expected_pdf_pages": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
       130,
       131,
       132,
@@ -814,17 +893,11 @@
       134,
       135
     ],
-    "known_boundary": {
-      "last_pdf_page": 135,
-      "printed_page": "149",
-      "following_pdf_page": 136,
-      "following_role": "Advertisement"
-    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Render all final pages at3000px;131–133 interior has not yet been inspected. Retain literal code/formula/array/port fields and uncertainties;no algorithm or syntax repair. Include whole-block text_index/text_review_items and exact listing indexes in new native."
+    "note": "Both natives include whole-block text_index/text_review_items and exact listing indexes; use standard namespaced-v1. No cross-native prose join:129 ends rotation introduction,130 begins separate displayed formula. Preserve every native file, original uncertainty and source error; no new OCR/source correction."
   }
 }

@@ -33,13 +33,13 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 is active for August 1991. Its 35 canonical identities currently account for
 three readable/sample-reviewed articles, one partial and 31 unresolved classifications.
-Batch05 restores second child0003 opening124–129/printed138–143 as a 269-file
-partial native. 71 source crops and 2,979 typed ranges validate; all 213 tests pass.
-Actual ending135/149 is source-verified; final130–135 and complete assembly remain
-pending. Three crop repairs followed initial OCR/raw reading but preceded the one
-source correction pass; 60 unchanged recognitions were reused. All attempts and
-metadata revisions are retained. Next restore final130–135 within the normal batch
-limits, then assemble separately. See [August progress](docs/progress/9108.md) and
+Batch06 restores second child0003 ending130–135/printed144–149 as a 293-file
+partial native, alongside the preserved 269-file opening124–129. All twelve body
+pages are now inspected/preserved. The ending's 83 source crops, 2,918 typed ranges,
+59 C rows and 34 numeric table cells validate; all 213 tests pass. Its 67 recognitions
+had no retries. All earlier attempts and metadata revisions remain retained.
+Next assemble the two immutable natives separately into the complete article.
+See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

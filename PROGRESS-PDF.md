@@ -8,9 +8,10 @@ by the calendar month in which restoration work happened.
 
 August 1991 restoration is in progress: 35 entries account for three readable/sample-reviewed
 articles, one partial and 31 unresolved classifications. Second child0003's
-opening124–129/printed138–143 is restored in 269 independently exact files; 71 source
-crops and 2,979 indexed ranges validate and fresh 213 tests pass. Actual ending135/149
-is source-verified. Next restore final130–135 and assemble separately. The first
+ending130–135/printed144–149 is restored in 293 independently exact files alongside
+its preserved 269-file opening. All twelve source pages are inspected/preserved;
+the ending's 83 crops and 2,918 indexed ranges validate and fresh 213 tests pass.
+Next assemble the two immutable natives into the complete article. The first
 child's pinned assembly adapter and all original evidence remain unchanged. See
 [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
