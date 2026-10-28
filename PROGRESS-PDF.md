@@ -8,13 +8,13 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: eleven readable/sample-reviewed articles, one
 partial, two non-owning headings and 21 unresolved identities. B+ tree child0014
-spans PDF226–238; opening226–231 is preserved in 339 independently exact files.
-All 90 crops, 80 settings, 5,489 typed ranges and 34 complete listing rows/1,139
-bytes validate. Eight captions, five prose joins, 336 diagram fields and 414
-source uncertainties remain explicit. All 12,342 prior files and 30 core modules
-are unchanged; 213-test baseline reused. Next restore232–237, then final238 and
-complete article assembly. Whole-issue accounting, index, cover and closeout
-remain pending. See [August progress](docs/progress/9108.md) and
+now has PDF226–237 preserved across 687 immutable native files. Middle232–237
+validates 96 crops, 81 settings, 5,997 typed ranges and 42 complete listing rows/
+1,093 bytes. Fifteen originals/captions, 373 spatial fields and 837 uncertainty
+records remain source-linked. All 13,532 prior files and 30 core modules unchanged;
+213-test baseline reused. Next restore final238, then complete three-native
+assembly. Whole-issue accounting, index, cover and closeout remain pending.
+See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 January 1988 is complete as a canonical TOC JSON/assets restoration pass:

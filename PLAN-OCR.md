@@ -24,34 +24,35 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - August 1991 is active: eleven readable/sample-reviewed articles, one partial,
-  two non-owning headings and 21 unresolved entries. B+ tree child 0014 spans
-  PDF226–238; final238/252 has figure24, 끝내며 and a closing ornament before
-  advertisement239 and new title240. Opening226–231/printed240–245 is preserved
-  in 339 independently exact files. All 90 crops, 75 blocks, ten originals,
-  80 settings (four eng code/76 kor+eng) and 5,489 typed ranges validate.
-  Four code blocks retain 34 complete physical/listing rows covering 1,139 bytes;
-  all are unnumbered. Eight captions, five prose joins, 336 spatial fields,
-  84 diagram reading rows, two credits and position-grid two headers/eight cells/
-  four blanks/four labels remain source-linked. All 414 glyph/punctuation
-  uncertainties and 19 opaque variants stay literal: then syntax, ROOT assignment,
-  nodo_no, comma after isoverflow condition, insoverflow prose spelling, repeated
-  CC and independent WXY/WXYZ fields. Circled 10/A/B/C-like candidates, source
-  hyphen wraps and stray quote remain explicit; no code/algorithm repair.
-  All 90 final crops reviewed before 80 initial recognitions, after 33 pre-OCR
-  refinements. All raws read before one source pass; zero retries/post-OCR repairs.
-  Source-direct fallback covers empty figure2 raw and damaged diagrams/code fields.
-  Early scope-note 한국대 corrected to source 단국대 in fresh scope-reviewed-r01
-  before OCR; all attempts remain retained. All 12,342 prior files and 30 core
-  modules unchanged; 213-test baseline reused. Next batch24 restores232–237 from
-  retained3000px renders.233–237 have only contact-sheet review: fully inspect them
-  and all selected exact crops before OCR. Incoming231 여 +232 러가지 needs a
-  deferred word join. Keep complete block/review/listing/physical-row indexes,
-  literal diagram fields and originals. Final238 and full assembly follow separately;
-  full assembler qualification remains pending. Whole-issue accounting/index/cover/
-  closeout remain pending; no reader rebuild. Selected0003 requires batch07
-  `listing_adapter_r01.install()`;0002 requires the batch04 native adapter.
-  See [August progress](docs/progress/9108.md) and
-  [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+  two non-owning headings and 21 unresolved entries. B+ tree child0014 actual
+  extent 226–238 now has 226–237 preserved across immutable 339-file opening and
+  348-file middle natives. Batch24 validates 96 crops, 71 blocks, 15 originals,
+  81 settings (one eng code/80 kor+eng), 5,997 typed ranges and 42 complete listing
+  rows/1,093 bytes, all unnumbered. Fifteen captions, 373 spatial fields/72 reading
+  rows and five visible node grids with no key text remain source-linked. No zeros,
+  pointer bytes or exact empty-cell counts inferred. Seven joined blocks retain
+  ten internal prose/title boundaries. Incoming 231 여 +232 러가지 and outgoing
+  237 B+트리의 +238 균형 are explicit; outgoing separator is a space.
+  All 837 uncertainty records and 19 opaque variants retain then syntax, 5과정,
+  ②번째, B−, 착가, case/figure references and independent diagram/prose values without
+  execution or algorithm repair. Source-direct fallback covers empty figure21 raw
+  and damaged diagram/code/key fields. All 96 final crops reviewed before 81 initial
+  calls after 33 pre-OCR refinements. All raws read before one source pass; zero
+  retries/post-OCR repairs. A residual (down) +} Ref was corrected to visible source
+  (down)과 Ref during final review of the same pass in fresh reviewed-text-r01;
+  earlier draft retained before export. All 13,532 prior files and 30 core modules
+  unchanged; 213-test baseline reused. Next batch25 restores final238/252 from the
+  retained 3000px render. Review exact crops before OCR and all raws before one pass.
+  Incoming final continuation must match middle's outgoing declaration:
+  kind=prose,prior_segment=b,prior_region=p237-right-tail,prior_text_end=B+트리의,
+  text_start=균형을,join_separator=space. Preserve figures22–24, captions, state
+  labels, empty grids, 끝내며 and closing ornament. BTREE.C in closing prose is a
+  filename, not an unprinted full listing; empty code/listing indexes are correct
+  if no code appears. Full actual three-native assembly qualification follows
+  separately. Whole-issue accounting/index/cover/closeout remain pending; no reader
+  rebuild. Selected 0003 requires batch07 `listing_adapter_r01.install()`; 0002
+  requires batch04 native adapter. See [August progress](docs/progress/9108.md)
+  and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:
   51 identities account for 36 readable/sample-reviewed articles, 14 non-owning

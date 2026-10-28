@@ -33,21 +33,21 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 is active for August 1991. Its 35 identities account for eleven readable,
 sample-reviewed articles, one partial, two non-owning headings and 21 unresolved
-entries. B+ tree child 0014 spans PDF226–238: the final page has figure24,
-끝내며 and a closing ornament, before advertisement239 and new title240.
-Opening PDF226–231/printed240–245 is preserved in 339 independently exact files.
-All 90 source-pixel crops, 75 blocks, ten originals, 80 settings and 5,489 typed
-article/listing ranges validate. Four code blocks retain 34 complete physical/
-listing rows covering 1,139 bytes, all unnumbered. Eight captions, five prose
-joins, 336 spatial fields, 84 diagram reading rows and two credits remain
-source-linked. The position table retains two headers, eight cells, four blanks
-and four labels. All 414 uncertainty records and 19 opaque source variants remain
-literal; no algorithm or syntax repair. All 12,342 prior files and 30 core modules
-are unchanged; the 213-test baseline is reused. Next restore middle232–237, then
-final238 and full immutable assembly separately. The incoming word join is
-231 여 +232 러가지. Whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild. See [August progress](docs/progress/9108.md) and
-[ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
+entries. B+ tree child0014 now has PDF226–237 preserved across two immutable
+natives: opening339 files and middle348. Actual final238/252 and complete
+assembly remain pending. Batch24 validates 96 source-pixel crops, 71 blocks,
+15 originals, 81 settings and 5,997 typed article/listing ranges. Its deletion
+listing retains 42 complete physical rows covering 1,093 bytes, all unnumbered.
+Fifteen captions, 373 spatial fields, 72 diagram reading rows and five empty
+node grids remain source-linked. Seven joined blocks retain ten internal
+boundaries; both native prose joins are explicit. All 837 uncertainty records
+and 19 opaque variants preserve source code, spelling, figure references and
+independent diagram/prose values without semantic repair. All 13,532 prior files
+and 30 core modules are unchanged; 213-test baseline reused. Next restore final238,
+then qualify the complete three-native assembly. The incoming final-page join is
+237 B+트리의 +238 균형 with a space. Whole-issue accounting, index, cover and
+closeout remain pending. No reader rebuild. See [August progress](docs/progress/9108.md)
+and [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28
 
