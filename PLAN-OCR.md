@@ -24,32 +24,31 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - August 1991 remains active: fourteen readable/sample-reviewed articles, one partial,
-  three non-owning headings and 17 unresolved identities. FoxView0018 actual extent is
-  PDF270–279/printed284–293; prose ends278 but intrinsic List9 continues279 upper.
-  Opening270–275 is preserved in a 355-file native matching its independent export.
-  All 94 exact crops, 84 settings (24 eng code/60 kor+eng) and 7,157 typed article/listing
-  ranges validate. Retains 75 blocks, ten originals, 24 code blocks, nineteen signatures,
-  four listings/23 groups and 265 complete physical/logical rows/6,891 bytes. Five tables
-  retain 140 fields/51 rows, unequal independent command columns and two unnamed headers.
-  Eight prose joins/nine boundaries, one two-panel code continuity, nine captions and
-  outgoing275 반드시 +276 생각해 remain explicit. All 234 uncertainties and 23 opaque
-  variants preserve ARRARY/arrary versus proseARRAY, broken signatures, source .display,
-  code abbreviations/conditions, key values and literal claims. One rule marker retains
-  unknown glyph/count/bytes, with interior outside source-derived indexes. All 19,455
-  prior files and 30 core modules exact; 213-test baseline reused. All 94 final crops
-  reviewed before 84 recognitions; all 84 raws before one source pass. Fifty-six pre-OCR
-  refinements, zero retries or post-OCR repairs. Initial terminal143 preparation retains
-  all successful views; no recognition restarted.
+  three non-owning headings and 17 unresolved identities. FoxView0018 all270–279/
+  printed284–293 pages are now preserved across 523 immutable native files. The new
+  final276–279 native matches its independent export: 168 files, 45 exact source-pixel
+  crops, 38 settings (8 eng code/30 kor+eng) and 5,054 typed article/listing occurrences.
+  It retains 35 blocks, seven originals, five listings/eight code panels and 253 complete
+  physical/logical reading rows/7,385 bytes. Four-panel List9 continues through upper279;
+  lower279 promotion is excluded while folio293 stays literal. Two prose joins/three
+  boundaries, six bullets, five captions, three function stubs and closing ornament
+  remain explicit. Ten dotted-band markers retain unknown glyph/count/bytes and stay
+  outside source-derived indexes. All 120 uncertainties and 26 opaque variants retain
+  literal code, spelling, values and claims without syntax/semantic repair or execution.
+  All 45 final crops reviewed before 38 recognitions after 16 margin refinements;
+  all 38 raws read before one source pass. Zero retries or post-OCR crop repairs.
+  All 20,610 prior files, 355 opening files and 30 core modules exact; 213-test baseline
+  reused. Both failed initial mapping helper and corrected schema revision retained.
 
-  Next batch34 restores final276–279 from retained3000px views. Incoming275 반드시 +276
-  생각해 uses a space separator; no physical code row crosses the native boundary.
-  Preserve Lists5–9, original panels/captions, prose and closing ornament, all literal
-  code rows and source markers. List9 continues278→279; exclude unrelated lower279
-  program-supply promotion while retaining printed293 folio. Every final crop before
-  pinned mapped Tesseract; all raws before one source pass. Opening355 files unchanged.
-  Complete actual two-native assembly and exhaustive native/projected article/listing
-  range audit follow separately; a one-native projection does not qualify it. Whole-issue
-  accounting/index/cover/closeout pending; no reader rebuild. Selected0003 requires
+  Next batch35 qualifies complete actual two-native assembly and independently audits
+  every original typed occurrence in native and projected article.txt/listing.txt.
+  Use standard namespaced-v1 on both natives; one-native projection is not qualification.
+  Preserve all 523 native files and source-local additional metadata, eleven total
+  unknown band markers, all source code/table/key fields and List9 panel order. Formal
+  275 반드시 +276 생각해 paragraph join uses a space separator without changing native
+  block bytes; no physical code row crosses that boundary. Resolve only exact obsolete
+  stage notes and keep source uncertainties active. No new OCR/correction or reader
+  rebuild. Whole-issue accounting/index/cover/closeout pending. Selected0003 requires
   batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

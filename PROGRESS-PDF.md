@@ -7,15 +7,15 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: fourteen readable/sample-reviewed articles, one
-partial, three non-owning headings and 17 unresolved identities. FoxView0018 spans
-270–279/printed284–293, including intrinsic List9 after prose ending278. Opening270–275
-is preserved in a 355-file native matching its independent export. All 94 exact crops,
-84 settings and 7,157 typed article/listing ranges validate. Retains 24 code blocks,
-265 complete physical/logical rows/6,891 listing bytes, five tables and nine captions.
-Source errors, claims and glyph candidates remain literal. All 19,455 prior files and
-30 core modules exact; 213-test baseline reused. Next restore final276–279, excluding
-lower279 promotion, then separately qualify complete actual two-native assembly.
-Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
+partial, three non-owning headings and 17 unresolved identities. FoxView0018 now has
+all270–279/printed284–293 preserved across two immutable natives (523 files).
+The ending native matches its independent export: 168 files, 45 exact crops,
+38 pinned settings and 5,054 typed article/listing ranges. It retains 253 physical
+code rows, four-panel List9 continuity, ten unknown dotted-band markers and three
+function stubs. Lower279 promotion is excluded; printed293 folio remains literal.
+All 20,610 prior files and 30 core modules exact; 213-test baseline reused.
+Next complete the actual two-native assembly and exhaustive native/projected range
+audit. Whole-issue accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

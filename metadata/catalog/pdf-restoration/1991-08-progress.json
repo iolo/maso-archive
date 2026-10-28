@@ -1628,48 +1628,80 @@
         "Full actual extent270–279/284–293:prose conclusion/next-issue promise/ornament278 followed byintrinsic List9 continuation279 upper throughreturn ed[3]. Lower279 unrelated program-supply promotion and280 full advertisement. Current opening270–275 only;final276–279 andcomplete actual native assembly pending.",
         "355-file standard native independently exact.94 exact source-pixel crops,75 blocks,ten originals,84 pinned settings (24eng code/60kor+eng other) and7157 typed occurrences (5469article/1688listing) validate.24 code blocks preserve19 signatures andfour source listings across23 groups;265 complete physical/logical reading rows partition6891 listing bytes. One two-column List3 continuity,8 prose joined blocks/9 boundaries,9caption links,5tables/140fields/51reading rows,independent command columns11/13/12 andtwo unnamed headers retained.",
         "All94 final exact crops reviewed before84 initial recognitions after56 pre-OCR refinements;all84 raws read before one source pass. Zero recognition retries/post-OCR crop repairs.234 source uncertainties and23 opaque variants retain ARRARY/arrary,proseARRAY,source .display,broken signature/date placeholders,code abbreviations/conditions,key/table claims andfont candidates without execution orsemantic/syntax/math repair. One decorative-rule marker hasunknown sourceglyph/count/bytes;marker interiors excluded fromsource-derived indexes.",
-        "All19455 prior files and30core modules exact;213-test baseline reused. Initial preparation terminal143;successful276–278 views verified/reused,only279/280 neighbors then rendered. Only13 actual lookup views,7outside current map;unused281–287 candidates not inspected. Failed/unfinished preparation helper/log andall source/crop/raw/correction/helper revisions retained."
+        "All19455 prior files and30core modules exact;213-test baseline reused. Initial preparation terminal143;successful276–278 views verified/reused,only279/280 neighbors then rendered. Only13 actual lookup views,7outside current map;unused281–287 candidates not inspected. Failed/unfinished preparation helper/log andall source/crop/raw/correction/helper revisions retained.",
+        "Batch34 preserves final276–279/290–293 in168 independently exact files. All45 exact source-pixel crops,35 blocks,seven originals,38 pinned settings (8eng code/30kor+eng) and5054 typed occurrences (3427article/1627listing) validate. Five listings across8codepanels retain253 complete unnumbered physical/logical reading rows partitioning7385 bytes. List9 fourpanels/threeboundaries remain ordered withoutphysicalrowjoins. Two prose joins/threeboundaries,incoming275반드시 +276생각해,six advantagesbullets,five captions andterminalornament retained. Ten dottedbandmarkers withunknownsourceglyph/count/bytes andthreeList8functionstubs remain explicit;marker interiors outside source-derivedindexes. Six physicalprosewrap fields,120 uncertainties and26 opaquevariants retainsource errors,claims,values andfontcandidates without codeexecution orsemantic/syntax/mathrepair. All45finalcrops before38initialrecognitions after16marginrefinements;all38raws beforeone sourcepass;zero retries/post-OCR repairs. All20610 priorfiles/355openingfiles/30coremodules unchanged;213-testbaseline reused. All270–279 pages nowpreserved across523 immutable nativefiles;actualcomplete two-nativeassembly pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-33-r01/fox-a",
+        "directory": "archive/pdf/1991-08/packages/batch-34-r01/fox-b",
         "article_id": "scan-maso-1991-08-toc-0018",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-33-r01/fox-a/manifest.json",
-          "sha256": "36f0816add31a674b166d7a4ec9f8f360db9a4827f0511f72979699f09037792",
-          "bytes": 61605
+          "path": "archive/pdf/1991-08/packages/batch-34-r01/fox-b/manifest.json",
+          "sha256": "535823fdc2a533f0a1cf253aa59e3ac8d04b54d8572e3bd04d54aa7e061be961",
+          "bytes": 29048
         },
         "source_body_title": "폭스뷰와 필드 데이타 입력 방식",
         "coverage": {
           "pdf_pages": [
-            270,
-            271,
-            272,
-            273,
-            274,
-            275
-          ],
-          "printed_pages": [
-            "284",
-            "285",
-            "286",
-            "287",
-            "288",
-            "289"
-          ],
-          "regions": 94,
-          "blocks": 75,
-          "figures": 10,
-          "deferred_pdf_pages": [
             276,
             277,
             278,
             279
           ],
+          "printed_pages": [
+            "290",
+            "291",
+            "292",
+            "293"
+          ],
+          "regions": 45,
+          "blocks": 35,
+          "figures": 7,
+          "deferred_pdf_pages": [],
           "native_scope_only": true
         },
         "body_pages_complete": false,
+        "all_body_pages_preserved_across_natives": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-08/packages/batch-33-r01/fox-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-33-r01/fox-a/manifest.json",
+              "sha256": "36f0816add31a674b166d7a4ec9f8f360db9a4827f0511f72979699f09037792",
+              "bytes": 61605
+            },
+            "pdf_pages": [
+              270,
+              271,
+              272,
+              273,
+              274,
+              275
+            ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-08/packages/batch-34-r01/fox-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-34-r01/fox-b/manifest.json",
+              "sha256": "535823fdc2a533f0a1cf253aa59e3ac8d04b54d8572e3bd04d54aa7e061be961",
+              "bytes": 29048
+            },
+            "pdf_pages": [
+              276,
+              277,
+              278,
+              279
+            ]
+          }
+        ],
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-33/ledger-complete.json",
+          "sha256": "fb081ecdea843cd3b26cf024e5c139e1eafc2339d0c5e577b158385df6628fdf",
+          "bytes": 134891
+        },
         "full_source_extent": {
           "start_pdf_page": 270,
           "end_pdf_page": 279,
@@ -1679,20 +1711,20 @@
           "following_role": "advertisement",
           "ending_printed_page": "293",
           "prose_ending_pdf_page": 278,
-          "ending_lower_promotion": "Independent program-supply promotion onlower279;ending-native exclusion pending."
+          "ending_lower_promotion": "Independent lower279 program-supply promotion explicitly excluded in ending native;upper List9 continuation and printed293 folio retained."
         },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-33/validation.json",
-          "sha256": "ba8b9ce8ed43d3f3abe89d044cb6ff14b8132868dc94e27a2be2dc9f7e0b6d34",
-          "bytes": 2301
+          "path": "archive/pdf/1991-08/restoration/batch-34/validation.json",
+          "sha256": "cb14c7e64ae73c3c4da71ac4783f9993ac31ba26fcf19b0dbab9eaf89d442739",
+          "bytes": 2484
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-33/reproduction.json",
-          "sha256": "ba83477fc42f03ba4a435c3f0b2a251e46b09872e5b4d099d1ebb1c1ae9ff886",
-          "bytes": 62317
+          "path": "archive/pdf/1991-08/restoration/batch-34/reproduction.json",
+          "sha256": "bf131e2baf3d01ab2fa147a9959c26287622b62b8c3ee0c19c24d31706710eb4",
+          "bytes": 29759
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-33"
+        "checkpoint": "batch-34"
       }
     },
     {
@@ -2771,6 +2803,35 @@
         "sha256": "ba83477fc42f03ba4a435c3f0b2a251e46b09872e5b4d099d1ebb1c1ae9ff886",
         "bytes": 62317
       }
+    },
+    {
+      "name": "1991-08-batch-34",
+      "status": "complete",
+      "completed_at": "2026-10-28T16:20:36.023478+00:00",
+      "goal": "Restore FoxView0018 final276–279 with lower279 promotion excluded",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0018"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "outside_lookup_pages": 2,
+      "initial_recognitions": 38,
+      "eng_code_regions": 8,
+      "kor_eng_regions": 30,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 16,
+      "post_ocr_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-34/validation.json",
+        "sha256": "cb14c7e64ae73c3c4da71ac4783f9993ac31ba26fcf19b0dbab9eaf89d442739",
+        "bytes": 2484
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-34/reproduction.json",
+        "sha256": "bf131e2baf3d01ab2fa147a9959c26287622b62b8c3ee0c19c24d31706710eb4",
+        "bytes": 29759
+      }
     }
   ],
   "totals": {
@@ -2781,38 +2842,26 @@
     "unresolved": 17
   },
   "notes": [
-    "Full August issue goal active:17 identities still require ownership/eligibility review. FoxView0018 opening270–275 partial;final276–279 andactual full native assembly pending. No global folio offset.",
+    "Full August issue goal active:17 identities still require ownership/eligibility review. FoxView0018 all270–279 pages preserved across two immutable natives;actual full assembly pending. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-34",
-    "goal": "Restore FoxView0018 final276–279,includingintrinsic listings afterprose conclusion;exclude lower279 promotion;then separate actual complete native assembly.",
+    "name": "1991-08-batch-35",
+    "goal": "Complete FoxView0018 actual two-native assembly and exhaustive native/projected article/listing range audit.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0018"
     ],
-    "mapping_targets": [
-      276,
-      277,
-      278,
-      279
+    "inputs": [
+      "archive/pdf/1991-08/packages/batch-33-r01/fox-a",
+      "archive/pdf/1991-08/packages/batch-34-r01/fox-b"
     ],
-    "outside_lookup_candidates": [
-      275,
-      280
-    ],
-    "retained_source_renders": [
-      "archive/pdf/1991-08/restoration/batch-33/source-review/pdf-276.png",
-      "archive/pdf/1991-08/restoration/batch-33/source-review/pdf-277.png",
-      "archive/pdf/1991-08/restoration/batch-33/source-review/pdf-278.png",
-      "archive/pdf/1991-08/restoration/batch-33/source-review/pdf-279.png",
-      "archive/pdf/1991-08/restoration/batch-33/source-review/pdf-280.png"
-    ],
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000px source views. Incoming275 반드시 +276 생각해 is a space-separated paragraph continuation;no code physical row crosses native boundary. Restore finalList5–9 code,panel continuities,prose/headers/ornament,captions andall source markers/physical wraps without semantic/syntax/encoding repair. List9 continues278→279;lower279 unrelated program-supply promotion must be explicit exclusion while printed293 folio is retained. Every final crop before pinned mapped Tesseract;all raws before one source pass. Opening355 files unchanged. Full actual two-native assembly andexhaustive native/projected article/listing range audit follow separately;one-native projection not qualification. Whole-issue accounting/index/cover/closeout pending;no reader rebuild."
+    "note": "Use standard namespaced-v1 assembler on both actual natives;one-native projection is not qualification. Preserve523 nativefiles andall original source-local metadata,11unknown bandmarkers acrossbothnatives,threeList8stubs,alltable/key/sourcecodevalues/physicalwraps andList9four-panelcontinuity. Independently projecteveryoriginaltypedoccurrence inarticle.txt andlisting.txt;do not interpret source-localadditionalfields globally. Formal275반드시 +276생각해 prosejoin uses space separator withoutnormalizingnativebytes. No physicalcoderow crossesnativeboundary. Lower279promotionexplicitexclusion/printed293folio remain. Resolveonlyexactobsolete stage notes;sourceuncertainties active. No newOCR/correction orreaderrebuild. Whole-issue accounting/index/cover/closeout pending."
   }
 }
