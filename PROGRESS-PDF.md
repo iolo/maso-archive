@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: thirteen readable/sample-reviewed articles, no
-partials, two non-owning headings and 20 unresolved identities. C++0015 is complete
-at240–249/printed254–263 in a 503-file actual standard two-native assembly, including
-494 unchanged native files. All 9,742 original typed occurrences validate in native
-and independently projected combined contexts. Covers 125 exact crops, 117 settings,
-106 blocks, eight originals and 325 complete unnumbered physical/logical rows/
-9,541 listing bytes. Source uncertainties, graphic markers, one faint argument and
-lower249 advertisement exclusion remain intact. All 17,381 prior files and 30 core
-modules unchanged; 213-test baseline reused. Next verify parent0016 ownership and
-child0017 Windows article extent from260/274 context, then restore a bounded opening.
-Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+August 1991 remains in progress: thirteen readable/sample-reviewed articles, one
+partial, three non-owning headings and 18 unresolved identities. Parent0016 활용 is
+non-owning; Windows0017 actual extent is260–268/printed274–282. Opening260–265 is
+preserved in a 222-file native matching the independent export. All 58 exact crops,
+52 kor+eng settings and 3,836 typed article ranges validate. Retains 43 blocks, six
+originals, 143 spatial fields/107 rows, eleven table data rows, merged headers and five
+caption links. Source claims, addresses, spelling and glyph uncertainties remain literal;
+no listing invented. All 17,906 prior files and 30 core modules unchanged; 213-test
+baseline reused. Next restore final266–268, then separately qualify complete actual
+two-native assembly. Whole-issue accounting, index, cover and closeout pending.
+No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

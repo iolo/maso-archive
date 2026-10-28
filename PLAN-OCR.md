@@ -23,38 +23,32 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: thirteen readable/sample-reviewed articles, no partials,
-  two non-owning headings and 20 unresolved entries. C++0015 is complete at
-  PDF240–249/printed254–263 in the full standard actual two-native503-file assembly,
-  including 494 unchanged native files. Canonical series title and source body title
-  클래스의 생성 stay distinct. All 9,742 original typed occurrences validate in native
-  and independently projected combined article/listing contexts; 1,558 published
-  combined ranges pass. Covers 125 source-pixel crops, 106 blocks, eight originals,
-  117 settings (35 eng code/82 kor+eng), 35 code blocks and 325 complete unnumbered
-  physical/logical rows/9,541 bytes across 26 groups. One formal carried-word link
-  retains245 차라 +246 리 함수의 선언을 with no separator or native byte normalization.
-  Nine native prose joins/eleven boundaries, seven code continuities/nine panel
-  boundaries, five captions, 56 spatial fields/21 rows, merged access-table fields
-  and two credits remain linked. All 538 uncertainties and 32 opaque variants remain
-  active. Twenty-two ending markers retain 21 graphic/rule occurrences (nine bands)
-  and one faint argument with unknown original count/value; all marker interiors
-  remain outside source-derived indexes. Preserve source filenames, spelling,
-  xd/x2d versus %d, O/X, source claims and graphic candidates without semantic repair.
-  Lower249 advertisement excluded and literal263 folio retained. Four exact obsolete
-  stage notes resolve six occurrences; all original metadata stays source-local.
-  All 17,381 prior files and 30 core modules unchanged; 213-test baseline reused.
-  No new assembly OCR or source pass.
+- August 1991 is active: thirteen readable/sample-reviewed articles, one partial,
+  three non-owning headings and 18 unresolved entries. C++0015 remains complete.
+  Parent0016 활용 is non-owning; Windows0017 spans actual PDF260–268/printed274–282.
+  Opening260–265 is preserved in a 222-file native matching the independent export.
+  All 58 exact source-pixel crops, 52 kor+eng settings and 3,836 typed article ranges
+  validate. Retains 43 blocks, six originals, five caption links, 143 spatial fields/
+  107 rows, eleven table data rows/33 fields, four headers/two merged groups, eleven
+  address fields and fourteen program labels. Five prose joins/nine boundaries and
+  outgoing265 바 +266 이트로 제한된다. are explicit. No source listing; WIN options are
+  prose literals. All 114 uncertainties and nineteen opaque variants remain literal,
+  including historical claims, addresses, spelling, W/IN and EM/M386.SYS physical wraps.
+  All 17,906 prior files and 30 core modules unchanged; 213-test baseline reused.
+  Fifty-two initial recognitions, one source correction pass, zero retries or post-OCR
+  crop repairs. Eleven pre-OCR edge refinement events retained.
 
-  Next batch30 verifies parent0016 활용 ownership and child0017 Windows memory
-  article extent, then restores a bounded child opening. Reuse retained260/261
-  renders and original contents5; establish actual title/byline/folios, continuations,
-  ending and adjacent material before mapping at most six pages. Keep parent heading
-  ownership distinct from the child body; lookup hypotheses imply no assigned extent
-  or global folio offset. Every final crop before pinned mapped Tesseract, all raws
-  before one source pass. Preserve original diagrams/tables/code/captions and every
-  source error with complete block/region/listing/range metadata. Whole-issue
-  accounting/index/cover/closeout pending; no reader rebuild. Selected0003 requires
-  batch07 `listing_adapter_r01.install()`; 0002 requires the batch04 native adapter.
+  Next batch31 restores final266–268 using retained 3000px renders;267 so far has
+  contact-only review,266/268 were fully viewed as outside context. Review every
+  final crop before mapped Tesseract and read all raws before one source pass.
+  Preserve diagrams, table, screenshot and any code with complete field/region/range
+  metadata. Keep source facts, addresses and glyph candidates without inferred memory
+  semantics or numeric repair. Preserve265 바 +266 이트로 제한된다. with empty separator.
+  Final268 summary/next-issue promise and terminal ornament precede269 advertisement.
+  Complete actual two-native assembly and exhaustive native/projected range audit
+  follow separately; one-native projection is not full assembler qualification.
+  Whole-issue accounting/index/cover/closeout pending; no reader rebuild. Selected 0003
+  requires batch07 `listing_adapter_r01.install()`; 0002 requires batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
