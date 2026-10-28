@@ -32,17 +32,17 @@ records below are historical and do not authorize a new rebuild.
 ## August 1991 restoration, 2026-10-28
 
 Step 12 is active for August 1991. Its 35 identities account for eight readable,
-sample-reviewed articles, zero partial, one non-owning heading and 26 unresolved
-entries. Batch15 completes Mac0009 at PDF172–178 in 244 independently exact files,
-including all 236 unchanged native files. All 58 regions, 44 blocks, four photos,
-54 settings, four dream/response pairs and 3,991 native/combined range contexts pass;
-98 projected global ranges validate. Lower178 recruitment advertisement is excluded;
-its folio remains null. Standard assembly requires no adapter. Original source
-claims, typography/graphic limits and crop-repair timing remain explicit.
-All 7,375 prior issue files and 30 core modules are unchanged; the 213-test baseline
-is reused. Next verify parent0010 and locate its first VGA child0011 before bounded
-restoration. Whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild. See [August progress](docs/progress/9108.md) and
+sample-reviewed articles, one partial, two non-owning headings and 24 unresolved
+entries. Batch16 classifies parent0010 as a non-owning group and preserves VGA0011
+opening PDF204–209/printed218–223 in 297 independently exact files. All 78 regions,
+70 settings, 58 blocks, eight originals and 4,472 article/listing ranges validate.
+The three code blocks retain 22 complete physical/listing rows; structured evidence
+covers 16 file pairs, eight bit fields and ten memory boundaries, including the
+printed duplicate. Source values, punctuation/font/filename uncertainty and original
+panels remain literal. All 7,642 prior issue files and 30 core modules are unchanged;
+the 213-test baseline is reused. Next restore final210 and assemble both natives.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 ## January 1988 closeout, 2026-10-28

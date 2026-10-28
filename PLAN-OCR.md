@@ -23,26 +23,28 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 is active: eight readable/sample-reviewed articles, zero partial,
-  one non-owning heading and 26 unresolved entries. Mac0009 is complete at PDF172–178
-  in 244 independently exact files, retaining all 236 native files. All 58 regions,
-  44 blocks, four photos/captions, 54 settings, four dream/response pairs and 3,991
-  native/combined typed occurrences pass; 98 global ranges validate. Standard
-  namespaced assembly needs no adapter or cross-native midword join. Lower178
-  recruitment advertisement remains excluded; its folio stays null.
-  Opening had 46 initial plus one changed-crop recognition before source correction,
-  with 45 unchanged results reused. Ending had eight initial recognitions. Both
-  retain one source pass each; all attempts and indent-fault timing remain explicit.
-  Two unique exact stage-note resolutions remove four obsolete active occurrences;
-  original metadata, graphic/typography limits, predictions and claims remain intact.
-  All 7,375 prior files and 30 core modules are unchanged; 213-test baseline reused.
-  Next verify parent0010 and locate first VGA child0011. Source location/extent
-  remain unverified; do not infer an offset or parent classification. Keep later
-  code natives' whole-block and complete listing-row indexes for assembly.
-  Whole-issue cover/index/accounting/closeout pending; no reader rebuild.
-  Selected0003 requires batch07 `listing_adapter_r01.install()`; 0002 requires
-  retained batch04 native adapter. See
-  [August progress](docs/progress/9108.md) and
+- August 1991 is active: eight readable/sample-reviewed articles, one partial,
+  two non-owning headings and 24 unresolved entries. Parent0010 is non-owning;
+  VGA0011 opening PDF204–209/printed218–223 is preserved in 297 independently exact
+  files. All 78 regions, 58 blocks, eight originals, 70 settings and 4,472 typed
+  article/listing occurrences pass. Three eng code and 67 kor+eng other regions;
+  all raw drafts read before one source pass, zero retries/post-OCR crop repairs.
+  Preserve 37 pre-OCR edge refinements, one file-table region consolidation and
+  every failed helper/diagnostic. Source-direct fallback repaired successful OCR
+  omissions without engine changes or expected-code repairs.
+  Complete indexes cover 22 unnumbered code rows/667 listing bytes, 16 file pairs,
+  eight bit headers/cells, three register-role rows, ten memory boundaries and
+  eleven map fields. Original duplicate address,0011000b,175MHz,9450,ChekeSum and
+  uncertain punctuation/font/filename/dot bands remain source-linked.
+  Native index-projector component accepts the complete indexes without adapter;
+  full assembler needs two real natives and remains untested until final210 exists.
+  All 7,642 prior files and 30 core modules unchanged; 213-test baseline reused.
+  Next restore final210 DOS example,keyboard/ANSI controls and conclusion,excluding
+  lower subscription promotion,then assemble. Preserve unknown glyph/count bands
+  explicitly rather than inferring control syntax. Whole-issue accounting/index/
+  cover/closeout pending; no reader rebuild. Selected0003 requires batch07
+  `listing_adapter_r01.install()`; 0002 requires retained batch04 native adapter.
+  See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
 - January 1988 is complete as a canonical TOC JSON/assets restoration pass:
