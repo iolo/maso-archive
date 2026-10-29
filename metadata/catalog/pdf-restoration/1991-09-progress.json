@@ -1427,7 +1427,8 @@
         "Actual eleven-page body is noncontiguous242–247/printed240–245 plus382–386/printed380–384. Prose concludes245 but listing247 points to380 and382 points back to245.382 ends EHAN.C/starts EHAN2.C;383 continues;384 ends EHAN2.C/includes COMBINE.C/starts KEY.C;385–386 finish KEY.C.381 unrelated serial-port article, lower386 advertisement and387 reader-section divider establish outside boundaries. All11body pages viewed, no inferred global offset.",
         "Batch22 restores only242–247 first six pages:39 regions,17 blocks,eight original figures and31 OCR records. All full pages/39 crops before31 recognitions,six eng code/25 kor+eng other;all drafts read before one correction pass,zero retries. Three original flow diagrams and28 bitmap label candidates,three framed EHAN.C pages,category tile andclosing mark retained.",
         "Both selectedr02 exports141 exact files;all4289 typed ranges,459 nonblank transcription rows,14 joins (five code/nine prose),287 regional code rows/836 tokens/491 identifiers/33 macro rows/87 numeric literals/14 definitions,12 glossary items/12 headings/ten quantities pass. Sixteen operator/O-zero/clipped-row candidates and21 Hangul jamo candidates remain explicit; six source anomalies not semantically repaired. All39 crops/PNGs,31 settings/ZIP pass;12431 prior files/30 core/four adapters unchanged.",
-        "Enlarged source confirms 종성, superseding pre-OCR working-note assumption. Two helper assertions corrected within same source pass before reviewed files were written;source/raw unchanged. Metadata-onlyr02 fixes assistant notice/reference/boundary wording;originalr01 and reproducible recipe preserved,all text/raw files exact. Final382–386 and actual complete assembly remain pending."
+        "Enlarged source confirms 종성, superseding pre-OCR working-note assumption. Two helper assertions corrected within same source pass before reviewed files were written;source/raw unchanged. Metadata-onlyr02 fixes assistant notice/reference/boundary wording;originalr01 and reproducible recipe preserved,all text/raw files exact. Final382–386 and actual complete assembly remain pending.",
+        "Batch 23 restores final PDF382–386/printed380–384: 33 regions,13 blocks,eight original framed images and25 OCR drafts. Four source file groups preserve EHAN.C tail,EHAN2.C,COMBINE.C andKEY.C with12 column/page joins. All483 regional code rows/1,214 tokens/663 lexical identifiers/429 numeric occurrences,22 macro rows,12 includes,11 definitions,nine prototypes,14 original comments andnine arrays/420 ordered cells remain indexed. All78 character literals,if(midbuf) mark,l/1 andtwo !/| operator candidates remain explicit;five literal anomalies retained without semantic repair. Both exports/fresh-process rebuild117 exact files;all7,568 own-context ranges,33 exact crops/settings/PNGs/ZIP pass. All13,057 prior files/30 core/four adapters unchanged. All eleven body pages preserved in exact two natives;actual complete assembly pending,availability partial."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-22-r02/hangul-a",
@@ -1519,7 +1520,7 @@
             }
           ],
           "all_pages_directly_viewed": true,
-          "note": "Noncontiguous body242–247 plus382–386. Current native first six pages only;final382–386 source listing and full assembly pending. Explicit forward/back notices retained; do not assign intervening248–381 to this article."
+          "note": "All eleven noncontiguous body pages preserved across exact natives a/b.247 explicitly points to printed380;382 returns to245 and finishes EHAN.C. EHAN2.C follows382–384, COMBINE.C384, KEY.C384–386; lower386 advertisement excluded. Exact247→382 EHAN.C join and full actual assembly remain pending. Current directory/coverage retain original first-native context; original native deferrals/metadata remain unchanged. Intervening248–381 pages are not this article body."
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -1534,7 +1535,77 @@
           "sha256": "800cc6f4800314770ebc725c8693dcef9c2ac099ed28b1bf7f4c90539bbad48f",
           "bytes": 25066
         },
-        "checkpoint": "batch-22"
+        "checkpoint": "batch-22",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-09/packages/batch-22-r02/hangul-a",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-22-r02/hangul-a/manifest.json",
+              "sha256": "c2f059961fcdabc142879a9041646a1aaf8ab93bea517a18ce233dfad4f40eb7",
+              "bytes": 24001
+            },
+            "pdf_pages": [
+              242,
+              243,
+              244,
+              245,
+              246,
+              247
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-22/validation.json",
+              "sha256": "a87bb24603d58dafba48e3c840cfaaca7d538ab4cfc36ef338e97d65009a7548",
+              "bytes": 3100
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-22/reproduction.json",
+              "sha256": "800cc6f4800314770ebc725c8693dcef9c2ac099ed28b1bf7f4c90539bbad48f",
+              "bytes": 25066
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-09/packages/batch-23-r01/hangul-b",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-23-r01/hangul-b/manifest.json",
+              "sha256": "393e4a9e814ac3e11e021c10c4eb60c097d223c906a16d94df4651a3d8c1637d",
+              "bytes": 19917
+            },
+            "pdf_pages": [
+              382,
+              383,
+              384,
+              385,
+              386
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-23/validation.json",
+              "sha256": "4c7b682684d1a411d62464458d5b1c4b0c60d6d8d5c5b447885bc76719b0ec0d",
+              "bytes": 2492
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-23/reproduction.json",
+              "sha256": "e7703ec5c4b866425044450ee34fac8a0bf59bc6b0ba123c37875efca0e7336f",
+              "bytes": 20974
+            }
+          }
+        ],
+        "preserved_pdf_pages_across_natives": [
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          382,
+          383,
+          384,
+          385,
+          386
+        ],
+        "remaining_pdf_pages": [],
+        "all_body_pages_preserved_across_natives": true
       }
     },
     {
@@ -2440,6 +2511,38 @@
         "sha256": "930077dc6c6b449f44f81902d1251c17e1b1d14a30ba8281b6320695022e5940",
         "bytes": 1924
       }
+    },
+    {
+      "name": "1991-09-batch-23",
+      "status": "complete",
+      "completed_at": "2026-10-29T22:32:35.484092+00:00",
+      "goal": "Restore final five noncontiguous child0010 pages382–386 as second immutable native,with original listing frames and ordered keyboard cells;all eleven body pages preserved,exact full assembly pending.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0010"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        382,
+        383,
+        384,
+        385,
+        386
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 25,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-23/validation.json",
+        "sha256": "4c7b682684d1a411d62464458d5b1c4b0c60d6d8d5c5b447885bc76719b0ec0d",
+        "bytes": 2492
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-23/reproduction.json",
+        "sha256": "e7703ec5c4b866425044450ee34fac8a0bf59bc6b0ba123c37875efca0e7336f",
+        "bytes": 20974
+      }
     }
   ],
   "totals": {
@@ -2455,18 +2558,12 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-23",
-    "goal": "Restore final five noncontiguous child0010 source pages382–386/printed380–384 as second immutable native, then actual full eleven-page assembly separately.",
+    "name": "1991-09-batch-24",
+    "goal": "Assemble complete eleven-page child0010 Hangul emulator article from exact immutable Batch22r02/Batch23r01 natives; resolve only source-proved247→382 EHAN.C continuation.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0010"
     ],
-    "mapping_targets": [
-      382,
-      383,
-      384,
-      385,
-      386
-    ],
+    "mapping_targets": [],
     "known_extent": {
       "pdf_pages": [
         242,
@@ -2489,6 +2586,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "All11body pages viewed;382 notice points back to245 and247 notice points to380. Map382–386 only,exclude lower386 advertisement. Preserve EHAN.C top382 tail,EHAN2.C382–384,COMBINE.C384 andKEY.C384–386 with original framed images,physical rows/comments/macro resets/ordered array cells andkeyboard glyph candidates. Source247 final row partly clipped remains explicit,not repaired from expected semantics. PreviousnativeEHAN.C already ends with oneLF;future block boundary needs empty separator while regional row separator is LF. Preserve originalcode !!/!=/O-zero candidates,dafault/missing semicolons andall native text/metadata. Parent0009 non-owning andcanonical parent240/childnull references unchanged. Install pinned Batch21 cpp_adapter for complete checks;core30 modules remain unchanged. Keep exactr02 selection andoriginalr01 revision/reproduction. Full406-page accounting/other bodies/cover/issue export/closeout pending."
+    "note": "No new mapping/OCR/source correction. Consume exact first242–247 plus final382–386 natives and retain original full metadata in own article/listing contexts. Merge EHAN.C only:previous block has one terminalLF,so block separator empty;regional separator LF. Preserve source247 physically clipped final-row candidate and all literal anomalies,operators,O-zero,l/1,if(midbuf) scan mark,jamo/keyboard candidates. Complete four source file groups:EHAN.C,EHAN2.C,COMBINE.C,KEY.C with explicit two-LF separation at independent file boundaries. Keep grouped prose/three diagrams/28 bitmap labels/three diagram captions/three file captions/16 original figures,all770 regional code rows/2,050 tokens/1,154 lexical identifiers in their original count definitions,55 macro rows,420 ordered array cells/14 comments from23 plus original22 comment,12 glossary items,17 headings andall900 nonblank native reading rows. Native22 identifier index excludes comments;native23 includes lexical comment words,retain scopes rather than falsely unify semantics. Preserve exact source frames/crops/raw/settings/maps,lower386 advertisement exclusion andparent0009 non-owning,parent240/childnull references. Use pinned private adapter dispatching Batch21 C++/CompuServe/barcode/notebook if required;keep thirty core modules unchanged. Every current/native typed range and independent exact rebuild must pass before readable. Full406-page accounting,19 unresolved identities,cover,standalone export andissue closeout pending."
   }
 }

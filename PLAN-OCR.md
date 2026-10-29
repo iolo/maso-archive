@@ -25,32 +25,32 @@ paired OCR or a new engine comparison.
 
 September 1991 restoration is active: seven readable/sample-reviewed articles,
 one partial article, two non-owning group headings and 19 unresolved identities account
-for all 29 canonical TOC entries. Batch 22 classifies 원리구현 0009 as non-owning and
-restores child 0010, 한글 내장 통신 에뮬레이터의 제작(마지막회) / 황태욱, on its
-first six pages PDF 242–247/printed 240–245. The full body has eleven noncontiguous
-pages: 242–247 plus 382–386/printed 380–384. Page 247 points to380 and 382 points back
-to245; all eleven actual body pages viewed. Final 382–386 and actual full assembly
-remain pending. Parent reference240 and child null own reference unchanged.
-Both selected r02 exports contain 141 exact files: 39 regions, 17 blocks, eight original
-figures. All 4, 289 typed ranges pass in their own article/listing contexts:287 regional
-code rows, 836 whitespace tokens, 491 identifiers, 33 macro rows, 87 numeric literals and
-14 function definitions. Three flowcharts/28 bitmap label candidates, three framed
-EHAN.C pages, 12 glossary items, 12 headings, ten quantity claims and 459 nonblank rows
-remain source-linked. Fourteen joins include five code fragments/nine prose joins.
-Sixteen code operator/O-zero/clipped-row candidates and 21 Hangul jamo candidates remain
-explicit; no semantic repair or execution. Enlarged source confirms 종성, superseding
-an incorrect pre-OCR working note. Both failed correction helpers retained within the
-same source pass; metadata-only r02 retains reproducible original r01 and exact text/raw.
-All 39 source crops/PNG decodes, 31 OCR settings and ZIP CRC pass. All drafts read before
-one correction pass, zero retries. All 12, 431 prior files, thirty core modules/four adapters
-unchanged;all 21 prior checkpoints revalidated. No reader rebuild.
-Next: restore final five child 0010 pages382–386 as a second immutable native, including
-EHAN.C tail, EHAN2.C, COMBINE.C andKEY.C, excluding lower386 advertisement. Then assemble
-all eleven noncontiguous pages separately from exact natives;retain source 247 clipped
-row and all literal operator/keyboard glyph uncertainty. Keep parent 0009 non-owning,
-parent 240/childnull references unchanged. Install pinned Batch 21 cpp_adapter for complete
-checks;it dispatches C++/CompuServe/barcode/notebook. Full 406-page accounting, other bodies,
-cover, issue export and closeout remain pending.
+for all 29 canonical TOC entries. Batch 23 restores the final five pages of child 0010,
+한글 내장 통신 에뮬레이터의 제작(마지막회) / 황태욱: PDF 382–386, printed 380–384.
+All eleven noncontiguous body pages, 242–247 plus 382–386, are now preserved in two
+immutable natives. The actual full article assembly remains pending, so availability
+stays partial. Parent 0009 원리구현 is non-owning; parent reference 240 and the child's
+null own reference remain unchanged. Intervening 248–381 pages are outside this body.
+Both final-native exports and a fresh-process rebuild contain 117 exact files:
+33 regions, 13 blocks, eight original listing frames and 25 OCR records. EHAN.C's tail,
+EHAN2.C, COMBINE.C and KEY.C retain 483 regional code rows, 1,214 whitespace tokens,
+663 lexical identifiers, 429 numeric occurrences, 22 macro rows, 12 includes,
+11 function definitions, nine prototypes and 14 original comments. Nine arrays retain
+420 ordered cells, including the commented old keyboard tables. All 78 character
+literal candidates, the if(midbuf) scan mark, l/1 and two !/| operator candidates stay
+explicit; five printed anomalies remain literal. No semantic repair or execution.
+All 7,568 typed ranges pass in their own article/listing/block/region contexts.
+All 33 source crops/PNG decodes, 25 pinned OCR settings and ZIP CRC pass. All drafts
+were read before one source correction pass; zero recognition retries. Four crop edges
+were widened before OCR. All 13,057 prior files, thirty core modules and four adapters
+remain unchanged; all 22 prior checkpoints revalidated. Lower 386 advertisement excluded.
+Next: Batch 24 assembles the complete eleven-page article from exact Batch 22 r02 and
+Batch 23 r01 natives. Join EHAN.C at 247→382 with an empty block separator because the
+first block already ends with LF; preserve the partly clipped 247 row and all original
+metadata/glyph candidates. Keep independent source files separate. Install pinned Batch 21
+cpp_adapter for earlier complete checks; use a private assembly adapter if needed.
+Other bodies, full 406-page accounting, cover, issue export and closeout remain pending.
+No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
