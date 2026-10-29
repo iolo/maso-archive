@@ -31,15 +31,15 @@ records below are historical and do not authorize a new rebuild.
 
 ## September 1991 active, 2026-10-30
 
-September 1991 restoration is active: one readable/sample-reviewed article and
-28 unresolved identities account for 29 canonical TOC entries. Batch01 completes
-column0003, “컬럼 마소쉘 : IBM PC라는 기계”, at PDF84–87/printed82–85.
-Its 121 JSON/assets files match an independent export; all 29 source crops,
-442 typed ranges, 28 pinned OCR settings and ZIP integrity validate. One source
-correction pass, 28 recognition invocations and zero retries. All 9,272 August
-reference files and thirty core modules remain unchanged. Next: verify feature0001
-ownership/extent and restore its bounded opening. Full 406-page issue accounting,
-remaining bodies, cover and closeout are pending.
+September 1991 restoration is active: one readable/sample-reviewed article,
+one partial feature and 27 unresolved identities account for 29 canonical TOC entries.
+Batch02 preserves feature0001's opening PDF116–121: the main title/introduction/
+three-part outline and complete intrinsic partI. Its 122 JSON/assets files match an
+independent export; all 36 crops, 232 physical prose rows and 26 OCR settings validate.
+The canonical reference124 remains unchanged despite the earlier observed opening.
+The feature's ending is unverified after the 20-page outside lookup limit; later
+bodies and full assembly remain pending. Next: map partII122–127 and verify the ending.
+Full 406-page issue accounting, other bodies, cover and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

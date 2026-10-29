@@ -25,12 +25,74 @@
       "toc_entry_id": "maso-1991-09-toc-0001",
       "title": "특집 : 작고 빠르고 강력하게 : 소형화 기술의 집약체, 노트북 컴퓨터",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original matching title/introduction/three-part outline116–117 and intrinsic partI118–121 establish whole feature0001 ownership. Canonical reference124 remains unchanged despite actual opening conflict; no new TOC identities.",
+        "Six-page opening complete as an immutable native;partII begins122. Known122–132 continuation remains deferred. Actual ending unverified after20outside lookups;150–155 advertisements do not establish133–149 continuity or final ownership.",
+        "All36original crops exact;26drafts source-corrected once with zeroOCR retries;10original images,3outline items,sixjoin groups and complete range metadata retained. Literal/null folios preserved."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a",
+        "article_id": "scan-maso-1991-09-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a/manifest.json",
+          "sha256": "0dc1bb86ddd6b7fc38272609351fed41e6eca495b6a7e214c595da0d5666541c",
+          "bytes": 20785
+        },
+        "coverage": {
+          "pdf_pages": [
+            116,
+            117,
+            118,
+            119,
+            120,
+            121
+          ],
+          "printed_pages": [
+            null,
+            null,
+            null,
+            "117",
+            "118",
+            "119"
+          ],
+          "regions": 36,
+          "blocks": 15,
+          "figures": 10,
+          "deferred_pdf_pages": [
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+          ],
+          "remaining_extent_unverified": true
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": null,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-02/validation.json",
+          "sha256": "27f4731c9464550b1287337d2f5fd462c4a48d157bc710f68626b68a77ee4dd9",
+          "bytes": 1492
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-02/reproduction.json",
+          "sha256": "33d9a49a25e5bd509576616b9c15eb1dc123212fd59454bfe898b6fe459a09a9",
+          "bytes": 21842
+        },
+        "checkpoint": "batch-02"
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0002",
@@ -415,36 +477,78 @@
         "sha256": "249e02e2ef32a6422fdb7c94e576c1041a33dedadd9865cba43d007e56e78079",
         "bytes": 20996
       }
+    },
+    {
+      "name": "1991-09-batch-02",
+      "status": "complete",
+      "completed_at": "2026-10-29T16:34:33.715897+00:00",
+      "goal": "Restore feature0001 six-page opening while retaining source-reference conflict and unknown ending.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "outside_lookup_pages": 20,
+      "recognition_invocations": 26,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-02/validation.json",
+        "sha256": "27f4731c9464550b1287337d2f5fd462c4a48d157bc710f68626b68a77ee4dd9",
+        "bytes": 1492
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-02/reproduction.json",
+        "sha256": "33d9a49a25e5bd509576616b9c15eb1dc123212fd59454bfe898b6fe459a09a9",
+        "bytes": 21842
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
     "readable": 1,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 0,
-    "unresolved": 28
+    "unresolved": 27
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
-    "Previous goal turn identified next work without changing state; this turn initializes authoritative issue artifacts."
+    "Previous goal turn identified next work without changing state; this turn initializes authoritative issue artifacts.",
+    "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-02",
-    "goal": "Verify feature0001 title/ownership/actual extent and restore a bounded opening segment after full page and crop review.",
+    "name": "1991-09-batch-03",
+    "goal": "Restore feature0001 continuation122–127 and verify actual ending through a separate bounded lookup budget.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0001"
     ],
-    "canonical_printed_start": 124,
-    "initial_lookup_candidates": [
+    "mapping_targets": [
+      122,
+      123,
+      124,
       125,
       126,
       127
+    ],
+    "reusable_source_review": "archive/pdf/1991-09/restoration/batch-02/source-review/",
+    "initial_lookup_candidates": [
+      149,
+      148,
+      147
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "PDF candidates only. No global folio offset or end inferred from next TOC. Segment long feature and preserve immutable natives; full issue closeout remains required."
+    "note": "Inspect actual ending/title/adjacent pages before claiming full extent. All six mapping targets have retained3000px source renders but need region maps/crop review. No boundary prose join from121 to122; intrinsic partII begins122. Preserve original native; assemble only after complete feature coverage."
   }
 }
