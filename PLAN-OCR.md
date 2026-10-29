@@ -25,36 +25,28 @@ paired OCR or a new engine comparison.
 
 - August 1991 remains active: twenty-eight readable/sample-reviewed articles, no partials,
   five non-owning headings, two section references and zero unresolved identities out of 35.
-  Batch63 completes the actual fourteen-page community assembly at
-  `archive/pdf/1991-08/packages/community-complete-r01`.
-  All 584 files match an independent export, including all 576 unchanged native files.
-  All 183 source-pixel crops and 123 pinned kor+eng settings validate. The audit checks
-  4,002 native/projected typed occurrences, 3,756 retained local occurrences, 246 root
-  combined occurrences and 890 combined reading-index ranges in their proper contexts.
+  All canonical article bodies, actual assemblies and child-anchor projections are complete.
+  Community complete package: `archive/pdf/1991-08/packages/community-complete-r01`
+  (584 independently exact files, including all 576 unchanged native files).
 
-  Five letters, five Q&A entries, ten reader credits, reply/notices and eight editing notes
-  retain 39 body-image fragments and 15 continuations. The SDK/DDK answer369→370 boundary
-  is explicitly assembled without joining prose. Four diagrams, IRQ/memory fields,
-  catalogue/classifieds, quiz/prizes, 71 winner rows and survey front/back forms remain
-  source-linked. All 173 uncertainty records, 48 opaque variants and twelve source markers
-  remain active, including one unclear Hanja signature. Body prose and embedded lettering/
-  handwriting await volunteers; printed source claims and identities remain unverified.
+  Batch64 derives whole-issue ownership: 211 selected body pages/211 assignments, no shared
+  body pages, and 21 mixed exclusions. Of 172 outside-body candidates, pages1–20 are now
+  directly reviewed: cover, two contents pages including the colophon, fifteen advertisements
+  and two unlisted SKC contest-promotion pages. All observed folios on these pages remain
+  null; contents references and issue-month8 are not page folios. Accounting has 231 of383
+  content records; 152 outside pages remain explicitly pending. The partial accounting JSON
+  matches an independent reconstruction. BASIC0004 reuses its retained legacy adoption
+  validation/current-identity guard; no package or source text is changed.
 
-  Lower371 contributor advertisement and lower378 unlisted advertising index stay excluded
-  with exact masked-source reconstruction. Divider363 and survey375/376 observed folios
-  stay null; canonical377 remains literal. Non-owning child0047 now targets the actual
-  community-a-p363-topics anchor. All five source topic rows and the separate editing-notes
-  heading resolve; combined classifieds/bulletin and omitted 후기 label stay explicit.
-  Six obsolete stage notes are resolved; original native metadata/flags remain unchanged.
-
-  Zero new mapping, OCR or source correction. All 39,421 prior archive files and thirty
-  core modules remain exact; the unchanged 213-test baseline is reused. No canonical
-  article body pages, assemblies or child-anchor projections remain pending.
-  Next batch64 derives whole-issue page ownership and starts bounded outside-page
-  accounting. Full383-page accounting, standalone index/report, cover and closeout remain
-  required. Resume `archive/pdf/1991-08/restoration/batch-63/handoff.json`.
-  Human acceptance/full proofreading, source encoding/glyph counts and source claims
-  remain unverified. No reader rebuild.
+  No new article export, mapping, OCR or source correction. Twelve new full-page source
+  renders and eight retained views support the twenty declared outside lookups. All 40,037
+  prior archive files and thirty core modules remain exact; unchanged213-test baseline reused.
+  All 35 canonical outcomes remain unchanged. Body prose, embedded lettering/handwriting,
+  uncertain glyph encoding/counts, human acceptance/full proofreading and source claims
+  remain unverified. Next batch65 reviews outside pages21–40 within the twenty-page limit.
+  Resume `archive/pdf/1991-08/restoration/batch-64/handoff.json`.
+  Full383-page accounting, standalone issue index/report, cover and closeout remain required.
+  No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
