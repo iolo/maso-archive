@@ -1166,22 +1166,23 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Contents4 title/author/reference233 match canonical0008 and source234 independent title/byline at literal folio232. Source affiliation 서울대 원자핵공학과 independent. Prior233 closes Macdate. All eight234–241 body pages viewed,241 conclusion/closing mark precedes independent Hangul input242;243 confirms separate continuation. Canonical title/author/reference233 unchanged; no global offset inferred.",
         "First six234–239/printed232–237 source pages restored as immutable partial native. Final240–241 and complete assembly remain pending. Outgoing239 이와 같→240 이 값에 의한 호출로 continuation recorded for empty mid-word join.",
         "All90 original crops and six margin revisions viewed before66 initial recognitions,22 eng code/output and44 kor+eng other. All66 drafts read before one source correction pass, zero retries. Original22 code/output panels, title illustration and alias diagram retained;19 separate code blocks keep explicit example separators, three code-fragment joins and five prose/list joins.",
         "Both exports contain297 exact files; all2812 contextual ranges,138 regional code rows,402 whitespace tokens,32 comments,18 strings,334 identifier occurrences,12 printed output rows,15 numbered items/three code callouts,13 headings and eight source anomalies validate. Printed 건설자, extra closing parenthesis, trailing comma, BaseClass(1), delete[10], source/output punctuation and identifier-case variants not repaired. Two glyph candidates explicit.",
-        "Batch20 restores final240–241/printed238–239:22 regions,14 blocks,six original images and16 OCR drafts. Five code panels retain18 rows/69 whitespace tokens/seven comments/43 identifiers. Original IPtr/Iptr case difference, missing semicolon, wrapped non-comment row and 메. dot candidate remain literal; I/l candidate explicit. Two conclusion joins, all466 contextual ranges/22 exact crops/settings/PNG/ZIP pass; both exports79 exact files. All eight pages preserved across two natives; complete assembly remains pending, availability partial."
+        "Batch20 restores final240–241/printed238–239:22 regions,14 blocks,six original images and16 OCR drafts. Five code panels retain18 rows/69 whitespace tokens/seven comments/43 identifiers. Original IPtr/Iptr case difference, missing semicolon, wrapped non-comment row and 메. dot candidate remain literal; I/l candidate explicit. Two conclusion joins, all466 contextual ranges/22 exact crops/settings/PNG/ZIP pass; both exports79 exact files. All eight pages preserved across two natives; complete assembly remains pending, availability partial.",
+        "Batch21 completes actual C++234–241 assembly:112 regions,71 blocks,30 original figures and82 regional text occurrences. Both exports385 exact files including376 exact native files, original metadata unchanged. All3708 current ranges pass:429 core,3276 metadata,three resolution; all3278 native typed ranges independently verified. All156 regional code rows/471 tokens/39 comments/18 strings/377 identifiers,12 printed output rows,15 numbered items/three code callouts,13 source anomalies/four candidates and16 headings preserved. One empty239→240 join across240 category label; all551 reading rows and original LF example boundaries retained. All112 crops/PNGs,82 settings andthree ZIPs pass; fresh-process385-file rebuild exact. Six invalid inputs reject recipe/text/comment/candidate/exclusion changes. No new mapping/OCR/source correction, core change or reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-19-r01/cpp-a",
+        "directory": "archive/pdf/1991-09/packages/cpp-complete-r01",
         "article_id": "scan-maso-1991-09-toc-0008",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-19-r01/cpp-a/manifest.json",
-          "sha256": "5c128aa461c786a8d9bf95d8eb3c36ed4b6a8c34df3cb1cbd6df9406605fab86",
-          "bytes": 51411
+          "path": "archive/pdf/1991-09/packages/cpp-complete-r01/manifest.json",
+          "sha256": "cb2de0444c2f07a67a8451bf19e6dcf8c338d7c974101769a564b5e6c8c119a0",
+          "bytes": 70388
         },
         "coverage": {
           "pdf_pages": [
@@ -1190,7 +1191,9 @@
             236,
             237,
             238,
-            239
+            239,
+            240,
+            241
           ],
           "printed_pages": [
             "232",
@@ -1198,33 +1201,32 @@
             "234",
             "235",
             "236",
-            "237"
+            "237",
+            "238",
+            "239"
           ],
-          "regions": 90,
-          "blocks": 58,
-          "figures": 24,
-          "deferred_pdf_pages": [
-            240,
-            241
-          ],
+          "regions": 112,
+          "blocks": 71,
+          "figures": 30,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 234,
         "actual_end_pdf_page": 241,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-19/validation.json",
-          "sha256": "6e867bc809fa4d30b1fa2dab832685c6f6409d54aabc87730bb710ed77b32dea",
-          "bytes": 2220
+          "path": "archive/pdf/1991-09/restoration/batch-21/validation.json",
+          "sha256": "34ea7554161843dcd16ea0077436be5f4e788bf6b77f2740926e48c3e09218ec",
+          "bytes": 2312
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-19/reproduction.json",
-          "sha256": "695905e3ab777f0f4c39449496caf32c57bde00849080ea328023934dcc0cb61",
-          "bytes": 52449
+          "path": "archive/pdf/1991-09/restoration/batch-21/reproduction.json",
+          "sha256": "ed6c199ab59cfdf9f0e31b93d562bfdfa6fbf3cb5c5f2ce1c3e6757614b47b49",
+          "bytes": 71828
         },
-        "checkpoint": "batch-19",
+        "checkpoint": "batch-21",
         "native_segments": [
           {
             "name": "a",
@@ -1311,7 +1313,78 @@
             "239"
           ],
           "all_pages_directly_viewed": true,
-          "note": "All eight body pages preserved across exact nativea/b. Final241 conclusion/closing mark above separate recruitment advertisement precedes independent next-body242. Incoming239→240 empty mid-word join still requires actual complete assembly. Current directory/coverage retain original first-native context; native original deferrals remain unchanged."
+          "note": "Complete eight-page C++234–241 assembled from exact Batch19/20 natives. Literal folios232–239 and canonical title/byline/reference233 unchanged despite opening discrepancy. Sole239→240 empty mid-word join across240 category label resolves 이와 같이. All27 original code/output panels,24 separate code blocks, source comments/strings/identifiers/output/annotations/anomalies/candidates retain article/listing/native contexts. Conclusion/closing mark241 precedes separate lower241 recruitment advertisement and independent next-body242. No body pages or assembly pending."
+        },
+        "preassembly_native_selection": {
+          "directory": "archive/pdf/1991-09/packages/batch-19-r01/cpp-a",
+          "article_id": "scan-maso-1991-09-toc-0008",
+          "manifest": {
+            "path": "archive/pdf/1991-09/packages/batch-19-r01/cpp-a/manifest.json",
+            "sha256": "5c128aa461c786a8d9bf95d8eb3c36ed4b6a8c34df3cb1cbd6df9406605fab86",
+            "bytes": 51411
+          },
+          "coverage": {
+            "pdf_pages": [
+              234,
+              235,
+              236,
+              237,
+              238,
+              239
+            ],
+            "printed_pages": [
+              "232",
+              "233",
+              "234",
+              "235",
+              "236",
+              "237"
+            ],
+            "regions": 90,
+            "blocks": 58,
+            "figures": 24,
+            "deferred_pdf_pages": [
+              240,
+              241
+            ],
+            "remaining_extent_unverified": false
+          },
+          "body_pages_complete": false,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "actual_start_pdf_page": 234,
+          "actual_end_pdf_page": 241,
+          "validation": {
+            "path": "archive/pdf/1991-09/restoration/batch-19/validation.json",
+            "sha256": "6e867bc809fa4d30b1fa2dab832685c6f6409d54aabc87730bb710ed77b32dea",
+            "bytes": 2220
+          },
+          "reproduction": {
+            "path": "archive/pdf/1991-09/restoration/batch-19/reproduction.json",
+            "sha256": "695905e3ab777f0f4c39449496caf32c57bde00849080ea328023934dcc0cb61",
+            "bytes": 52449
+          },
+          "checkpoint": "batch-19"
+        },
+        "assembly": {
+          "recipe": {
+            "path": "archive/pdf/1991-09/restoration/batch-21/assembly-recipe.json",
+            "sha256": "da817e06ba65418ed0638066605ab8a354b381ed1e5edcf02a1523786151a73f",
+            "bytes": 3644
+          },
+          "adapter": {
+            "path": "archive/pdf/1991-09/restoration/batch-21/cpp_adapter.py",
+            "sha256": "98bcf1b9110f206ad6b2e475810aed5e5a07ccb337b86398ac5930fb6dc6fb95",
+            "bytes": 10230
+          },
+          "adapter_inputs": {
+            "path": "archive/pdf/1991-09/restoration/batch-21/adapter-inputs.json",
+            "sha256": "49df7fb169117bde653d5cf1304b09ce15b7d312011f79b994d5a6a33f579d71",
+            "bytes": 9677
+          },
+          "source_metadata_format": "cpp-1991-09-v1",
+          "native_segments": 2,
+          "original_metadata_unchanged": true
         }
       }
     },
@@ -2176,12 +2249,37 @@
         "sha256": "e1652eafe7f51ce33da87fbd54a859d429c5f77e85256f6d4bd8bb03d4f24056",
         "bytes": 14623
       }
+    },
+    {
+      "name": "1991-09-batch-21",
+      "status": "complete",
+      "completed_at": "2026-10-29T21:45:38.906211+00:00",
+      "goal": "Assemble complete C++234–241 from exact natives with source239→240 empty join and complete original/current dual-download metadata.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0008"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-21/validation.json",
+        "sha256": "34ea7554161843dcd16ea0077436be5f4e788bf6b77f2740926e48c3e09218ec",
+        "bytes": 2312
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-21/reproduction.json",
+        "sha256": "ed6c199ab59cfdf9f0e31b93d562bfdfa6fbf3cb5c5f2ce1c3e6757614b47b49",
+        "bytes": 71828
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 6,
-    "partial": 1,
+    "readable": 7,
+    "partial": 0,
     "group_headings": 1,
     "unresolved": 21
   },
@@ -2191,21 +2289,25 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-21",
-    "goal": "Assemble complete eight-page C++0008 article234–241 from exact two immutable natives, resolving only the source-proved239→240 empty mid-word join.",
+    "name": "1991-09-batch-22",
+    "goal": "Verify canonical0009 원리구현 ownership/classification and child0010 한글 내장 통신 에뮬레이터의 제작(마지막회) / 황태욱; restore at most six actual child pages after source identity/extent review.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0008"
+      "maso-1991-09-toc-0009",
+      "maso-1991-09-toc-0010"
     ],
     "mapping_targets": [],
-    "known_extent": {
-      "start_pdf_page": 234,
-      "end_pdf_page": 241
-    },
+    "initial_lookup_candidates": [
+      242,
+      243,
+      244
+    ],
+    "parent_canonical_reference": 240,
+    "child_canonical_reference": null,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "No new mapping/OCR/source correction. Consume exact Batch19 nativea and Batch20 nativeb, retaining complete original metadata and source-local article/listing contexts. Resolve previous239 ending 이와 같 plus current240 opening 이 값에 의한 호출로 with empty separator, across current240 category label only. Preserve all27 code/output panels and24 separate code blocks with explicit LF boundaries,156 regional code rows/471 tokens/39 comments/18 strings/377 identifier occurrences,12 printed output rows,15 numbered items/three callouts,13 literal anomalies/four candidates,16 source headings, source title illustration/alias diagram/conclusion/closing mark and lower241 advertisement exclusion. Keep thirty core modules unchanged; use a pinned private adapter if needed, dispatching earlier Batch17 CompuServe/barcode/notebook adapters. Independently rebuild full package and validate every current/native typed range before readable. Other identities/full406-page accounting/cover/issue export/closeout remain pending."
+    "note": "Source242 한글 입력 opening with 원리구현 category and 황태욱 byline,243 running 한글 내장 통신 에뮬레이터의 제작 [마지막회], previously viewed only as C++ adjacent context. Revalidate against contents4 and parent/child identities; do not give parent an independent body or copy its reference to child without evidence. Verify actual ending/continuity before bounded mapping; segment longer body. Preserve original Hangul diagrams/code/labels/comments and literal technical claims, eng code/kor+eng other; no semantic repair/execution. Keep all complete packages and parent0004 unchanged. Install pinned Batch21 cpp_adapter for complete-package checks; it dispatches C++/CompuServe/barcode/notebook. Full406-page accounting/cover/issue export/closeout pending."
   }
 }

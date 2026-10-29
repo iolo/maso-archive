@@ -23,31 +23,34 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-September 1991 restoration is active: six readable/sample-reviewed articles,
-one partial article, one non-owning group heading and 21 unresolved identities account
-for all 29 canonical TOC entries. Batch 20 restores final C++ 0008 pages 240–241/literal
-printed 238–239 as a second immutable native. All eight pages 234–241 are now preserved
-across exact Batch19/20 natives; complete assembly remains pending, availability partial.
-Canonical title/byline/reference 233 remain unchanged despite observed opening folio 232.
-Both final-native exports contain 79 exact files: 22 regions, 14 blocks and six original
-figures. All 466 ranges pass in their own article/listing contexts: 18 code rows,
-69 whitespace tokens, seven comments and 43 identifier occurrences across five examples.
-Two conclusion joins, literal IPtr/Iptr case, missing semicolon, wrapped comment row,
-메. dot candidate and I/l glyph candidate remain explicit without semantic repair.
-Original code images and closing mark retained; lower 241 recruitment advertisement
-excluded. All 22 source crops/PNG decodes, 16 OCR settings (five eng code, 11 kor+eng
-other) and ZIP CRC pass. All drafts read before one correction pass, zero retries.
-All 11,767 prior files, thirty core modules and three adapters remain unchanged;
-all nineteen prior checkpoints revalidated. No reader rebuild.
-Next: assemble complete eight-page C++ 0008 from both exact natives in Batch 21,
-resolving only 239→240 이와 같/이 값에 의한 호출로 with an empty separator across
-the current-page category label. Preserve every original/native metadata payload and
-project every typed range in its correct article/listing/download/block/region context.
-No new mapping, OCR or source correction. Keep all 27 code/output panels, 24 separate
-code blocks, comments/output/annotations, literal anomalies/candidates, original images
-and source exclusions. Install the pinned batch17 compuserve adapter before existing
-complete selected-package checks; it dispatches CompuServe, barcode and notebook formats.
-Full 406-page accounting, other bodies, cover, issue export and closeout remain pending.
+September 1991 restoration is active: seven readable/sample-reviewed articles,
+one non-owning group heading and 21 unresolved identities account for all 29 canonical
+TOC entries; no partial article remains. Batch 21 completes C++ 0008, PDF 234–241/
+literal printed 232–239, from exact Batch19/20 natives. Canonical title/byline/reference
+233 remain unchanged despite observed opening folio 232. The sole cross-native empty
+239→240 join resolves 이와 같이 across the retained current-page category label.
+Both exports contain 385 exact files, including all 376 exact native files and complete
+original metadata. All 3,708 current ranges pass: 429 core, 3,276 metadata and three
+resolution ranges; all 3,278 native ranges independently verified in their own contexts.
+All 27 original code/output panels and 24 separate code blocks retain 156 regional rows,
+471 whitespace tokens, 39 comments, 18 strings, 377 identifier occurrences, twelve output
+rows, 15 numbered items/three code callouts, thirteen literal anomalies/four candidates,
+sixteen headings and 551 nonblank transcription rows. Exact native code/example LF
+boundaries, original title illustration/alias diagram/conclusion/closing mark and lower
+241 advertisement exclusion remain. Source bytes/spacing/glyph identities/execution and
+technical claims remain unverified; no semantic repair. All 112 crops/PNG decodes,
+82 OCR settings and three ZIPs pass; fresh-process 385-file rebuild matches. Six invalid
+inputs rejected. All 12,021 prior files, thirty core modules and three prior adapters
+unchanged; all twenty previous checkpoints revalidated. No mapping/OCR/source correction
+or reader rebuild. New pinned private C++ adapter preserves dual-download metadata and
+dispatches earlier CompuServe/barcode/notebook adapters; shared core unchanged.
+Next: verify canonical 0009 원리구현 ownership/classification and child 0010 한글 내장
+통신 에뮬레이터의 제작(마지막회) / 황태욱. Opening 242/printed 240 and continuation
+243 were reviewed as C++ boundary context only; revalidate identity/extent/end/continuity,
+then map at most six actual child pages, segmenting a longer body. Keep parent reference
+240 and child null reference unchanged. Install pinned Batch21 cpp_adapter before
+complete-package checks. Full 406-page accounting, other bodies, cover, issue export
+and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
