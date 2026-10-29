@@ -1,6 +1,6 @@
 # PDF restoration progress
 
-Updated 2026-10-29. This file is the status index; detailed records live under
+Updated 2026-10-30. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
@@ -8,14 +8,15 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: twenty-eight readable/sample-reviewed articles,
 no partials, five headings, two section references and zero unresolved identities =35.
-Canonical bodies, assemblies and child anchors are complete. All 383 pages have content
-records: 211 selected body pages/211 assignments and 172 directly reviewed outside pages;
-zero pending, no shared body pages and 21 mixed exclusions. Batch72 finishes page accounting
-with eight advertisements, subscription/distribution information, payment-insert front/reverse
-and a cover-wrap fragment. All prior observations and canonical outcomes remain exact.
-Next batch73 verifies the donated-first cover. Standalone index/report, independent package
-and issue rebuilds and final closeout remain required. Body prose/embedded lettering,
-handwriting and uncertain glyphs remain volunteer work. No reader rebuild.
+Canonical bodies, assemblies and child anchors are complete. All383 pages have records:
+211 body pages/211 assignments,172 reviewed outside pages,zero pending/shared pages and
+21 mixed exclusions. The donated-first cover is verified:466×640 RGB JPEG,65,291bytes,
+metadata stripped,aspect ratio preserved,independent image/provenance rebuild exact.
+The original donor and all PDF alternatives remain unchanged and private.
+Next is full issue closeout:standalone index/report,independent native/actual-assembly and
+issue rebuilds,range/image/settings/history audits,fresh focused tests and completion audit.
+All canonical outcomes remain unchanged. Body prose,embedded lettering/handwriting and
+uncertain glyphs remain volunteer work. Full issue remains active. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

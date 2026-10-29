@@ -34,28 +34,27 @@ records below are historical and do not authorize a new rebuild.
 Step 12 remains active: twenty-eight readable/sample-reviewed articles, no partials,
 five non-owning headings, two section references and zero unresolved identities out of 35.
 All canonical article bodies, actual assemblies and child-anchor projections are complete.
-Community complete package: `archive/pdf/1991-08/packages/community-complete-r01`
-(584 independently exact files, including all 576 unchanged native files).
+All 383 source pages have content records: 211 selected body pages/211 assignments and
+172 directly reviewed outside pages, zero pending/shared pages and 21 mixed exclusions.
+The independent accounting export is byte-identical; all canonical outcomes remain unchanged.
 
-All 383 source pages now have content records: 211 selected body pages/211 assignments
-and 172 directly reviewed outside pages, with no shared body pages, 21 mixed exclusions
-and zero pending outside pages. Batch72 reviews the final twelve pages:
-355,358–361,367,377,379–383. Eight advertisements, subscription/distribution information,
-both sides of a payment insert and a cover-wrap/spine fragment retain null observed folios.
-The independent accounting export is byte-identical. All earlier 160 observations,
-211 body assignments and 35 canonical outcomes remain unchanged. Mirrored advertising360,
-landscape inserts379/380 and narrow partial-wrap source383 stay as scanned.
-BASIC0004 retains its legacy adoption validation/current-identity guard.
+Batch73 verifies the donated August1991 cover and retains its existing 466×640 RGB JPEG
+thumbnail, 65,291 bytes. The donated original, PDF candidate and exported thumbnail were
+viewed directly; both sources visibly identify8/1991. An independent transformation from
+the donor reproduces both image and provenance JSON exactly. Source metadata is stripped;
+aspect ratio/full framing is preserved without crop or upscale. The donor is unchanged,
+private and not bundled. All 336 cover input/evidence files remain exact.
 
-No new article export, mapping, rendering, OCR or source correction. Twelve retained
-3000px views support the declared lookups. All 40,387 prior archive files and thirty
-core modules remain exact; unchanged 213-test baseline reused. Body prose, embedded
-lettering/handwriting, uncertain glyph encoding/counts, human acceptance/full proofreading
-and source claims remain unverified; volunteer work remains explicit.
-Next batch73 verifies and independently reproduces the cover by donated→PDF→placeholder priority.
-Resume `archive/pdf/1991-08/restoration/batch-72/handoff.json`.
-Standalone issue index/report, cover, independent package/issue rebuilds and final closeout
-remain required. Complete page accounting does not complete the issue. No reader rebuild.
+No new article export, mapping, PDF render, OCR or source correction. Existing PDF1 review
+is reused. All 40,415 prior issue archive files and thirty core modules remain exact;
+unchanged 213-test baseline reused. The original failed verifier and corrected revision
+remain preserved; no successful export was repeated. Body prose, embedded lettering,
+handwriting, uncertain glyph encoding/counts, human acceptance/full proofreading and
+source claims remain unverified; volunteer work remains explicit.
+Next: standalone issue index/report, independent regeneration of all natives and actual
+assemblies, second issue export, full range/image/settings/history audits, fresh focused
+tests and requirement-by-requirement closeout. Full issue completion remains unproven.
+Resume `archive/pdf/1991-08/restoration/batch-73/handoff.json`. No reader rebuild.
 Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and0002 the batch04 native adapter.
 See [August progress](docs/progress/9108.md) and
