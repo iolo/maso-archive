@@ -30,22 +30,22 @@ paired OCR or a new engine comparison.
   (584 independently exact files, including all576 unchanged native files).
 
   Whole-issue ownership has211 selected body pages/211 assignments, no shared body pages
-  and21 mixed exclusions. Batch69 directly reviews twenty outside pages:
-  146–147,153,163–171,179,184–190. All are advertisements with null observed folios.
-  Cumulative outside review covers120 pages. Accounting now has331 of383 content records
-  and52 outside pages pending; an independent reconstruction is byte-identical. All earlier
-  one hundred observations and211 body assignments remain unchanged. PDF190 is a HYCOM
-  classroom-network promotion; following context is not assumed. BASIC0004 retains its
+  and21 mixed exclusions. Batch70 directly reviews twenty outside pages:
+  191–203,211,225,239,250–253. All are advertisements with null observed folios.
+  Cumulative outside review covers140 pages. Accounting now has351 of383 content records
+  and32 outside pages pending; an independent reconstruction is byte-identical. All earlier
+  one hundred twenty observations and211 body assignments remain unchanged. PDF191 confirms
+  the HYCOM promotion from190; its original observation stays unchanged. BASIC0004 retains its
   legacy adoption validation/current-identity guard. Unlisted material stays outside the queue.
 
-  No new article export, mapping, OCR or source correction. Eight new3000px renders and
-  twelve retained3000px views support the twenty declared lookups. All 40,279 prior archive files
+  No new article export, mapping, OCR or source correction. Nine new3000px renders and
+  eleven retained3000px views support the twenty declared lookups. All 40,317 prior archive files
   and thirty core modules remain exact; unchanged213-test baseline reused. All35 canonical
   outcomes remain unchanged. Body prose, embedded lettering/handwriting, uncertain glyph
   encoding/counts, human acceptance/full proofreading and source claims remain unverified;
   volunteer work remains explicit.
-  Next batch70 reviews outside191–203,211,225,239,250–253 within the twenty-page limit.
-  Resume `archive/pdf/1991-08/restoration/batch-69/handoff.json`.
+  Next batch71 reviews outside254–259,269,280–283,297–299,305–307,323,349,354 within the twenty-page limit.
+  Resume `archive/pdf/1991-08/restoration/batch-70/handoff.json`.
   Full383-page accounting, standalone issue index/report, cover, independent rebuilds and
   closeout remain required. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
