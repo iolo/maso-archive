@@ -7,20 +7,20 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 September 1991 restoration is active: two readable/sample-reviewed articles,
-zero partials and 27 unresolved identities account for 29 canonical TOC entries.
-Batch 08 completes feature 0001, PDF 116–147, from six immutable natives.
-The full assembly has 325 regions, 217 blocks, 72 original images and 253 regional
-text occurrences. All 1,140 files reproduce exactly; all 1,132 embedded native files
-and their complete original metadata remain unchanged. The verified 127/128 split-word
-join is applied while preserving the intervening sidebar.
-All 4,265 current text ranges, 70 specification fields and 100 benchmark slots validate:
-99 visible values and the explicit missing NP-902 source bar/value remain unchanged.
-All 325 crops match source pixels, 253 settings and seven ZIPs validate, and three
-invalid inputs are rejected. No new OCR/correction or reader rebuild.
-Canonical reference 124 remains unchanged despite the observed earlier opening.
-Next: verify canonical 0002, the barcode feature, from contents reference 196; actual
-body boundaries require source inspection. Full 406-page accounting, other bodies,
-cover, issue export and closeout remain pending.
+one partial feature and 26 unresolved identities account for 29 canonical TOC entries.
+Batch 09 restores barcode feature 0002's opening, PDF 198–203, as an immutable native.
+The matching title/deck/three-part outline establishes ownership; the source title's
+데이타 spelling and canonical 데이터/reference 196 remain independent. PDF 198 has no
+visible folio and stays null; the next five literal folios are 197–201. The feature ends on 217
+before independent advertisements 218–219; remaining interior coverage is deferred.
+Both exports contain 211 exact files. All 59 crops, 446 typed ranges, 48 OCR settings,
+59 decoded images and ZIP integrity pass. Three outline rows, six illustrated application
+groups and eleven listed cases are preserved. All 48 raw drafts were read before one
+source correction pass, with zero retries; original barcode/bitmap glyph work remains explicit.
+Next: restore 204–209. Current 203 market prose resumes on 205 across POS sidebar 204;
+prove the source-linked native join after the next export. Pages 204–217 and full
+barcode assembly remain pending. The complete notebook feature 116–147 stays unchanged.
+Full 406-page issue accounting, other bodies, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
