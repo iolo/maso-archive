@@ -6,21 +6,18 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty readable/sample-reviewed articles, no
-partials, four non-owning headings and eleven unresolved identities. Batch44 completes
-Mac System 7.0 article0024 at PDF314–322/printed328–336 in
-`packages/mac-system7-complete-r01`: 578 independently exact files, all 570 native
-files unchanged, 149 source-pixel crops and 135 pinned settings validated. All 6,506
-native typed ranges validate in combined context; 6,249 source-local metadata ranges
-and 257 root combined ranges are checked separately. One standard prose link resolves
-319찾아→320서; no private adapter. All 125 uncertainties, 49 opaque variants and 22
-unknown-count markers remain active. Lower322 advertisement excluded;336 folio retained.
-All 29,078 prior archive files and thirty core modules exact; 213-test baseline reused.
-Current batch45 verifies memory-expansion child0026 at PDF324–329/printed338–343,
-with an initial 73-region map. Exact crop review and OCR remain pending; all article
-and parent outcomes are unchanged. Canonical 편집부 and source 박주희 credits remain
-distinct. Whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild.
+August 1991 remains in progress: twenty-one readable/sample-reviewed articles, no
+partials, five non-owning headings and nine unresolved identities. Batch45 classifies
+hardware parent0025 as non-owning and completes memory-expansion child0026 at
+PDF324–329/printed338–343 in `packages/batch-45-r01/memory`: 276 independently exact
+files, 73 source-pixel crops, 65 pinned settings and 4,298 typed ranges validated.
+Two diagrams retain 69 independent labels; all 130 uncertainties and 23 opaque variants
+remain active. Actual 박주희 기자 and canonical 편집부 credits remain distinct. All
+29,793 saved input-stage files, 29,867 other pre-existing resumption files and thirty
+core modules remain exact; the active-log pin exception has a closed-log supplement.
+The unchanged 213-test baseline is reused. Next batch46 verifies coprocessor child0027
+full extent from retained330/344 opening. Whole-issue accounting, index, cover and
+closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

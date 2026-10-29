@@ -31,45 +31,41 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: twenty readable/sample-reviewed articles, no partials,
-four non-owning headings and eleven unresolved identities out of 35. Batch44 completes
-0024, 매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0, at PDF314–322/printed328–336.
-Selected package: `archive/pdf/1991-08/packages/mac-system7-complete-r01`.
-All 578 files match an independent export; all 570 original native files remain exact.
-All 6,506 native typed occurrences validate in their native and independently projected
-combined contexts. All 6,249 retained source-local metadata occurrences and 257 root
-combined occurrences are checked separately. All 149 source-pixel crops and 135 pinned
-kor+eng settings validate. Retains 122 blocks, fourteen originals, twelve captions,
-thirteen native prose joins and one standard cross-native319찾아→320서 link with an
-empty separator. Both actual natives are used; no private adapter is required.
+Step 12 remains active: twenty-one readable/sample-reviewed articles, no partials,
+five non-owning headings and nine unresolved identities out of 35. Batch45 classifies
+parent0025 하드웨어 as non-owning and completes child0026 메모리 확장을 내 손으로
+at PDF324–329/printed338–343. Selected package:
+`archive/pdf/1991-08/packages/batch-45-r01/memory`. All 276 files match an independent
+export. All 73 source-pixel crops, 65 pinned kor+eng settings and 4,298 typed article
+ranges validate. Retains 52 blocks, eight originals, six captions and nine prose joins
+with thirteen boundaries. No child body pages or assembly remain pending.
 
-All 225 spatial fields, twenty font-comparison rows, three Times specimens, 31 UI
-label regions, 59 icon/alias labels and tree/dialog/calculator/Note Pad/Pipe Dream
-fields remain source-linked. All 125 uncertainties, 49 opaque variants and 22
-unknown-count markers remain active. Lower322 advertisement is excluded; upper
-conclusion, contact, terminal ornament and literal336 folio are retained. Only two
-exact obsolete stage-note strings/four occurrences are resolved. Original source-local
-metadata and all earlier revisions remain unchanged. No Mac body pages or assembly
-remain pending. Source errors, hidden text and historical claims are not repaired.
+Two memory diagrams retain 69 independent printed fields: 54 chip labels, six group
+labels, five parity labels and four bottom labels. The fourth column in Figure4 has
+no printed parity label; none is supplied. All 130 uncertainties and 23 opaque variants
+remain active. Source b/B forms, chip markings, physical wraps, spelling and closing
+punctuation remain literal or font candidates. Canonical credit 편집부 and actual
+byline 글. 박주희 기자 remain distinct. No hardware execution or technical repair.
 
-No new mapping, rendering, OCR or source correction. All 29,078 prior archive files
-and thirty core modules remain exact; unchanged 213-test baseline reused. Full
-proofreading, human acceptance, original encoded bytes, exact spacing/font/glyph
-identities/counts, historical claims, execution and backup recovery remain unverified.
+All 73 initial crops and 66 refinements were individually reviewed before 65 initial
+recognitions. All raw drafts were read before one source correction pass; zero retries,
+added regions or post-OCR crop changes. An English-only metadata revision preserves
+source text, ranges, decisions and pass timestamp. All 29,793 saved input-stage files,
+29,867 other pre-existing resumption files and thirty core modules remain exact.
+The original resumption inventory captured its active OCR log; a retained supplement
+corrects only that pin after the original process finished. No recognition restarted.
+The unchanged 213-test baseline is reused. Earlier maps, evidence and revisions remain.
 
-Current batch45 has verified child0026 extent at PDF324–329/printed338–343;
-the actual source title is 메모리 확장을 내 손으로. All six full pages, contents5,
-previous323 advertisement and independent next opening330/344 were inspected.
-The article ends329 with a conclusion and terminal ornament; no body exclusions.
-Canonical credit 편집부 and actual byline 글. 박주희 기자 remain distinct. Parent0025
-하드웨어 remains an ownership candidate pending completed checkpoint validation.
-An initial map contains 73 regions: 65 text and eight originals. All exact crops still
-need visual review and any necessary refinement before OCR. No recognition, source
-correction, native export or outcome change yet. Six pages fit one native. Resume
-from `archive/pdf/1991-08/restoration/batch-45/handoff.json`; do not rerun frozen
-preparation helpers. All raw drafts must be read before one source correction pass.
-Selected 0020 requires batch39 boundary adapter; 0018 the batch35 boundary adapter,
-0003 the batch07 listing adapter and 0002 the batch04 native adapter. Whole-issue
+Next batch46: verify the full extent of child0027 수치보조 프로세서와 그 응용 from
+retained independent PDF330/printed344 opening, byline 글. 성기철 (인하대 전자공학과).
+Prepared331–335 renders have not been inspected. Further candidates are lookup
+hypotheses. Verify actual ending, continuations, intrinsic tables/listings/diagrams,
+visible folios and adjacent material before mapping at most six pages. Segment longer
+articles and assemble their actual immutable natives separately. Preserve historical
+numeric/mathematical/register claims and source errors without repair or execution.
+Every final exact crop must precede OCR; all raw drafts must precede one source pass.
+Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
+0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue
 accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
