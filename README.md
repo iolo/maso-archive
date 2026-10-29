@@ -13,6 +13,15 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
+August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
+articles, five non-owning headings and two section references account for all35 identities.
+All383 pages are accounted for. All9,272 JSON/assets files match an independent rebuild
+from48 regenerated natives and16 actual assemblies;213 fresh tests pass. The donated
+cover, reading indexes and bounded BASIC/CD1 sidecar are included. Full proofreading,
+human acceptance and volunteer body/glyph work remain deferred. No reader rebuild.
+See the [August record](docs/progress/9108.md) and private
+`archive/pdf/1991-08/restoration/issue-closeout-01/reproduction.json`.
+
 January 1988 is complete as a data-only restoration pass: 36 readable/sample-reviewed
 articles, 14 non-owning headings and one explicit unresolved survey entry. All 8,360
 JSON/assets files match an independently regenerated export; 213 fresh PDF tests pass.

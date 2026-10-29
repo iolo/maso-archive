@@ -29,34 +29,71 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## August 1991 restoration, 2026-10-29
+## August 1991 closeout, 2026-10-30
 
-Step 12 remains active: twenty-eight readable/sample-reviewed articles, no partials,
-five non-owning headings, two section references and zero unresolved identities out of 35.
-All canonical article bodies, actual assemblies and child-anchor projections are complete.
-All 383 source pages have content records: 211 selected body pages/211 assignments and
-172 directly reviewed outside pages, zero pending/shared pages and 21 mixed exclusions.
-The independent accounting export is byte-identical; all canonical outcomes remain unchanged.
+August 1991 is complete as a canonical TOC JSON/assets restoration pass:
+35 identities account for 28 readable/sample-reviewed articles, five non-owning
+headings and two non-owning section references, with no partial or unresolved entries.
+All canonical bodies, actual assemblies and child anchors are complete. Unlisted
+material remains outside the article queue; canonical titles, order and parents are unchanged.
 
-Batch73 verifies the donated August1991 cover and retains its existing 466×640 RGB JPEG
-thumbnail, 65,291 bytes. The donated original, PDF candidate and exported thumbnail were
-viewed directly; both sources visibly identify8/1991. An independent transformation from
-the donor reproduces both image and provenance JSON exactly. Source metadata is stripped;
-aspect ratio/full framing is preserved without crop or upscale. The donor is unchanged,
-private and not bundled. All 336 cover input/evidence files remain exact.
+Index: `archive/pdf/1991-08/reference/issue.json`; outcomes and coverage limits:
+`archive/pdf/1991-08/reference/accounting.json` and `coverage-gaps.json` in that directory.
+All 9,272 standalone files match the independent second export byte for byte.
+All 48 single-map natives were regenerated from frozen recipes; all sixteen actual
+assemblies consumed regenerated natives. The 28 selected packages contain 9,201 exact
+files. Four original private adapters and BASIC0004's legacy old-TOC/current-identity
+guard remain pinned. Both active news/community reading indexes are included with
+explicit article-relative asset/download contexts; their original provenance stays private.
 
-No new article export, mapping, PDF render, OCR or source correction. Existing PDF1 review
-is reused. All 40,415 prior issue archive files and thirty core modules remain exact;
-unchanged 213-test baseline reused. The original failed verifier and corrected revision
-remain preserved; no successful export was repeated. Body prose, embedded lettering,
-handwriting, uncertain glyph encoding/counts, human acceptance/full proofreading and
-source claims remain unverified; volunteer work remains explicit.
-Next: standalone issue index/report, independent regeneration of all natives and actual
-assemblies, second issue export, full range/image/settings/history audits, fresh focused
-tests and requirement-by-requirement closeout. Full issue completion remains unproven.
-Resume `archive/pdf/1991-08/restoration/batch-73/handoff.json`. No reader rebuild.
-Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
-0003 the batch07 listing adapter and0002 the batch04 native adapter.
+All 383 source pages have content records: 211 selected body pages/211 assignments
+and 172 directly reviewed outside pages, zero pending/shared pages and 21 mixed exclusions.
+All nine accounting checkpoints and the independent ownership audit reproduce exactly.
+Every selected/native exclusion is audited; nonfigure regions are disjoint from exclusions,
+and overlapping original figure pixels retain the original white masks. Literal/null
+folios, the unlisted editorial and all outside observations remain unchanged.
+
+The audit validates 2,460 regions, 1,836 blocks, 392 figures and 271,538 typed range
+occurrences across 64 root/native contexts, including 36 exact source-local metadata
+payloads. Companion indexes retain 1,235 current/native range pairs, complete eligible
+original images for 36 body pages and all column/page continuation links. Every native
+crop matches the original retained render pixels. All 2,436 distinct published images,
+including cover and original CD bitmap/derivative, fully decode; all 64 distinct ZIP
+assets pass CRC checks. All 2,068 OCR settings retain OEM1/PSM6/thread1/3000px/300DPI
+hint/interword spaces: 150 eng code regions and 1,918 kor+eng other regions.
+
+All 73 earlier checkpoints satisfy two canonical tasks/six newly mapped pages/twenty
+outside lookups. Their 46 new OCR checkpoints retain one source correction pass each:
+2,054 initial plus six changed-crop recognitions, 2,060 new invocations, zero unchanged-input
+retries. Fourteen retained legacy pilot settings are separate. Batch05's three repairs
+and Batch13's one preceded correction; Batch08's two occurred within its one paused/resumed
+pass. Batch38's narrative supplement and Batch43's formal-link repair remain explicit.
+The original failed checks/helpers and all source/metadata revisions are retained.
+
+The donated cover supplies a 466×640 RGB JPEG thumbnail, 65,291 bytes, independently
+reproduced with exact provenance. Source metadata is stripped; aspect ratio and full
+framing are preserved without cropping or upscaling. Donor and PDF alternatives remain
+private and unchanged; the donor is not bundled. The existing BASIC/CD1 correspondence
+sidecar is included: 58 exact files, bounded to PDF84–85 and thirteen complete text blocks.
+Its whole CD article remains unverified; neither CD nor scan data was edited.
+
+Fresh `make test-pdf PYTHON=.venv/bin/python` passes all 213 tests. Fourteen invalid
+canonical/ownership/outcome/child-anchor/page-accounting mutations are rejected. All
+40,445 prior issue files, 176 initial shared files, 336 cover input/evidence files,
+156 earlier inventory files, thirty core modules and four private adapters remain exact.
+Two documented historical open-log fingerprints retain their selected closed-log revisions.
+
+Validation: `archive/pdf/1991-08/evidence/issue-closeout-01/report.json`.
+Reproduction and private-input commands:
+`archive/pdf/1991-08/restoration/issue-closeout-01/reproduction.json`.
+The final completion audit and saved-state checks accompany the closeout. No further
+August checkpoint is scheduled. Other issues and collection aggregation are separate work.
+No new OCR, source correction, reader/HTML/browser/frontend build or deployment.
+Human acceptance, full proofreading, source encoded bytes/spacing/glyph identities/counts,
+historical or technical claims, execution and independent backup recovery remain unverified.
+Body prose, embedded lettering/handwriting and glyph/diagram-label work remain explicit
+volunteer tasks, with complete original image evidence retained.
+
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

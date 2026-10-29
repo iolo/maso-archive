@@ -6,17 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty-eight readable/sample-reviewed articles,
-no partials, five headings, two section references and zero unresolved identities =35.
-Canonical bodies, assemblies and child anchors are complete. All383 pages have records:
-211 body pages/211 assignments,172 reviewed outside pages,zero pending/shared pages and
-21 mixed exclusions. The donated-first cover is verified:466×640 RGB JPEG,65,291bytes,
-metadata stripped,aspect ratio preserved,independent image/provenance rebuild exact.
-The original donor and all PDF alternatives remain unchanged and private.
-Next is full issue closeout:standalone index/report,independent native/actual-assembly and
-issue rebuilds,range/image/settings/history audits,fresh focused tests and completion audit.
-All canonical outcomes remain unchanged. Body prose,embedded lettering/handwriting and
-uncertain glyphs remain volunteer work. Full issue remains active. No reader rebuild.
+August 1991 is complete as a canonical TOC JSON/assets restoration pass:
+28 readable/sample-reviewed articles, five non-owning headings and two section references
+account for all35 identities, with no partial or unresolved entries. All383 pages are
+accounted for. All9,272 standalone files match the independent rebuild, including9,201
+selected article files from48 regenerated natives and16 actual assemblies. The donated
+cover is verified;213 fresh tests pass. News/community body prose and glyph/diagram work,
+human acceptance and full proofreading remain deferred. No reader rebuild.
+Index: `archive/pdf/1991-08/reference/issue.json`.
+Report: `archive/pdf/1991-08/evidence/issue-closeout-01/report.json`.
+Reproduce/check: `archive/pdf/1991-08/restoration/issue-closeout-01/reproduction.json`.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

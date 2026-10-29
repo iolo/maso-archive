@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1991-08",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-30",
   "source": {
     "id": "pdf-maso-9108",
@@ -5932,6 +5932,34 @@
         "sha256": "c182483688043c2ca17a94dcac4e8d4f4a74299cc4c4bfd2c9d29d503161933f",
         "bytes": 1294
       }
+    },
+    {
+      "name": "1991-08-issue-closeout-01",
+      "status": "complete",
+      "completed_at": "2026-10-29T16:03:02.276682+00:00",
+      "goal": "Complete the standalone August1991 JSON/assets issue with independent full native/assembly/issue rebuilds and requirement audit",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "source_pages": 0,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/evidence/issue-closeout-01/report.json",
+        "sha256": "86cf954eb62b47f055b01fcbc3c0ae4bb99d1b426c27415312741134d6a5f999",
+        "bytes": 6900
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/issue-closeout-01/reproduction.json",
+        "sha256": "7283a04d69c1731c440ff7823d1b7c6cc6129761352afb291e2b80d70ca51db3",
+        "bytes": 2034618
+      },
+      "published_assets_audit": {
+        "path": "archive/pdf/1991-08/evidence/issue-closeout-01/published-assets-audit.json",
+        "sha256": "da5d3b086a9f76dc0397cc222a9785e76f4d875c613e53730f9d14b82bcf2361",
+        "bytes": 866367
+      }
     }
   ],
   "totals": {
@@ -5943,70 +5971,11 @@
     "unresolved": 0
   },
   "notes": [
-    "August remains active:28 readable/sample-reviewed articles,0 partials,5 headings,2 section references,0 unresolved=35. All canonical bodies/assemblies/child anchors complete. All383 pages accounted:211 body pages/211 assignments,172 reviewed outside pages,zero pending/shared pages,21 mixed exclusions. Donated-first cover466x640/65,291bytes is directly reviewed and independently exact. Standalone index/report,full native/actual-assembly and issue rebuilds,range/image/settings/history audits,fresh tests and requirement-by-requirement closeout remain. No reader rebuild.",
+    "August1991canonical TOC JSON/assets restoration complete:35identities=28readable/sample-reviewed,5non-owning headings,2anchored section references,0partial/unresolved. All383pages accounted;48natives/16actual assemblies andall9272issue files independently exact. Donated cover,2active companion indexes andbounded2-page CD sidecar retained. Fresh213tests/14negative cases pass;all prior/core/source evidence preserved. Human/full proofreading and source-byte/claim limits remain unverified;no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
-  "next_checkpoint": {
-    "name": "1991-08-issue-closeout-01",
-    "goal": "Complete the standalone August1991 JSON/assets issue with independent full native/assembly/issue rebuilds and requirement audit",
-    "toc_entry_ids": [],
-    "mapping_targets": [],
-    "lookup_pdf_page_candidates": [],
-    "actual_planned_work": {
-      "canonical_tasks": 0,
-      "mapped_pages": 0,
-      "outside_lookup_pages": 0
-    },
-    "limits": {
-      "canonical_tasks": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    },
-    "selected_accounting": {
-      "path": "archive/pdf/1991-08/restoration/batch-72/page-accounting.json",
-      "sha256": "97a668bdd5f6a743d648964883973c156ff9c7c381b7d7faaf1b4e94ee19828a",
-      "bytes": 778250
-    },
-    "body_assignment_index": {
-      "path": "archive/pdf/1991-08/restoration/batch-64/selected-body-assignment-index.json",
-      "sha256": "83b7f5197d2389145312b37c0de75400bd958a4bb410c4ce33f1d30dff0468f6",
-      "bytes": 293513
-    },
-    "cover_thumbnail": {
-      "path": "archive/pdf/1991-08/restoration/batch-73/cover-thumbnail/cover.jpg",
-      "sha256": "951f9bc7abe18af80d6e62752da2aa2fbfd8b547b0e0023bbdf4762ecb5406ec",
-      "bytes": 65291
-    },
-    "cover_metadata": {
-      "path": "archive/pdf/1991-08/restoration/batch-73/cover-thumbnail/cover.json",
-      "sha256": "875f7bd00a80e42661aaa7d1deded4a04326c32601c74b7e4e4998ae0e865a1d",
-      "bytes": 1730
-    },
-    "cover_recipe": {
-      "path": "archive/pdf/1991-08/restoration/batch-73/cover-recipe.json",
-      "sha256": "d85cdfd12419560aaac3d6699a11d4ba44238f4120a310303ae65132c464bdda",
-      "bytes": 1738
-    },
-    "cover_validation": {
-      "path": "archive/pdf/1991-08/restoration/batch-73/validation.json",
-      "sha256": "e3e153e4c67fc52040126d9b590251e10096e80bf5aef11179db38f404dc2808",
-      "bytes": 3540
-    },
-    "planned_outputs": [
-      "standalone issue index and all selected JSON/assets",
-      "coverage/accounting/gap report",
-      "file/hash manifest",
-      "native and actual-assembly rebuild audit",
-      "typed-range and source-crop/image/settings audits",
-      "checkpoint/OCR/correction history audit",
-      "independent second issue export",
-      "fresh focused PDF test log",
-      "requirement-by-requirement completion audit",
-      "preservation inventory and reproduction handoff"
-    ],
-    "note": "Perform the complete August1991 canonical TOC JSON/assets issue closeout from fixed retained evidence. All35 identities have outcomes:28 readable/sample-reviewed articles,5 non-owning headings,2 non-owning section references,0 partials/unresolved. All383 pages have content records:211 selected body pages/211 assignments,172 reviewed outside pages,zero shared pages,21 mixed exclusions. Preserve literal/null folios and unlisted classifications. Donated-first cover466x640/65,291bytes and provenance are independently exact. Build standalone issue JSON/index,coverage/gap/accounting report and file/hash manifest with all28 selected packages and cover,using original immutable metadata and evidence. Independently regenerate every single-map native from its frozen map/raw/corrections recipe first;then assemble every actual assembly from regenerated native directories. Use specific0002 batch04 native,0003 batch07 listing,0018 batch35 and0020 batch39 boundary adapters;do not force all formats through one assembler. Preserve source-local segments[].original_metadata and audit all native/local/projected typed occurrences in proper contexts. BASIC0004 requires old-TOC legacy input and current-identity guard. Verify all source/crop/asset/settings/provenance pins,complete ordered coverage,boundaries/mixed exclusions,all source-image crops and decoded image integrity,UTF8 ranges and glyph/diagram/physical-wrap associations,all checkpoint work limits and correction/retry history. Reject invalid accounting/ownership mutations. Rebuild the cover and second issue export independently and compare every output file set/byte. Run fresh focused PDF tests and derive a requirement-by-requirement completion audit from PLAN-PDF/PLAN-OCR/cover policy,current ledger and selected artifacts. Save full preservation inventory covering prior issue evidence,all earlier inventories,30 core modules,private adapters and original covers. Retain all failed attempts/helpers and successful stages;never overwrite or rerun frozen successful writers. Full proofreading,human acceptance,source encoded bytes/spacing/glyph counts,historical claims,execution and independent backup recovery remain unverified;volunteer body/glyph/diagram work remains explicit. No new recognition,mapping,source correction,TOC/CD changes,other-issue restoration,reader/browser/frontend build or deployment. Keep full goal active until every issue requirement has current authoritative evidence."
-  },
+  "next_checkpoint": null,
   "page_accounting": {
     "status": "complete-page-accounting",
     "directory": "archive/pdf/1991-08/restoration/batch-72",
@@ -6226,7 +6195,7 @@
       "1991-08-batch-72"
     ],
     "body_reviews_reused": true,
-    "whole_issue_closeout_complete": false,
+    "whole_issue_closeout_complete": true,
     "previous_accounting": {
       "path": "archive/pdf/1991-08/restoration/batch-71/page-accounting.json",
       "sha256": "2ded22174b8d4881af043c1193b4201ebd37aad76d6f6266a8df389d2f90a004",
@@ -6285,5 +6254,61 @@
     "independently_reproduced": true,
     "original_not_bundled": true,
     "human_acceptance": "pending"
+  },
+  "remaining_work": [],
+  "latest_preservation_inventory": "archive/pdf/1991-08/restoration/issue-closeout-01/completion-preservation-inventory.json",
+  "issue_closeout": {
+    "status": "complete",
+    "directory": "archive/pdf/1991-08/evidence/issue-closeout-01",
+    "report": {
+      "path": "archive/pdf/1991-08/evidence/issue-closeout-01/report.json",
+      "sha256": "86cf954eb62b47f055b01fcbc3c0ae4bb99d1b426c27415312741134d6a5f999",
+      "bytes": 6900
+    },
+    "published_assets_audit": {
+      "path": "archive/pdf/1991-08/evidence/issue-closeout-01/published-assets-audit.json",
+      "sha256": "da5d3b086a9f76dc0397cc222a9785e76f4d875c613e53730f9d14b82bcf2361",
+      "bytes": 866367
+    },
+    "reproduction": {
+      "path": "archive/pdf/1991-08/restoration/issue-closeout-01/reproduction.json",
+      "sha256": "7283a04d69c1731c440ff7823d1b7c6cc6129761352afb291e2b80d70ca51db3",
+      "bytes": 2034618
+    },
+    "issue_index": {
+      "path": "archive/pdf/1991-08/reference/issue.json",
+      "sha256": "75f9dbbe7d38624ba28336c0c39c7778d1824b4e6546d3ab8936d72337bc994d",
+      "bytes": 13363
+    },
+    "accounting_report": {
+      "path": "archive/pdf/1991-08/reference/accounting.json",
+      "sha256": "185c0efa70f4b1eec80f71361048e87e03d62b5243c0e48e2dfd2d19620faa84",
+      "bytes": 15434
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1991-08/reference/manifest.json",
+      "sha256": "5810ed188423b2cbb4ee416fbe8db2191abf7c32f30510a948ea62fada0f5975",
+      "bytes": 2032306
+    },
+    "coverage_gaps": {
+      "path": "archive/pdf/1991-08/restoration/issue-closeout-01/coverage-gaps.json",
+      "sha256": "a2566c9944c5211c6f75ff3986fc2a7c5a56d86b4879c13e65bfde4770ec355b",
+      "bytes": 1624
+    },
+    "closeout": {
+      "path": "archive/pdf/1991-08/evidence/issue-closeout-01/closeout.json",
+      "sha256": "2917949994a5afe514f410a7e2f9c873e57ebaa5c13aa0c53f379782371e156e",
+      "bytes": 2747
+    },
+    "completion_audit_path": "archive/pdf/1991-08/evidence/issue-closeout-01/completion-audit.json",
+    "final_state_checks_path": "archive/pdf/1991-08/evidence/issue-closeout-01/final-state-checks.json",
+    "canonical_entries": 35,
+    "selected_articles": 28,
+    "standalone_files": 9272,
+    "selected_article_files": 9201,
+    "source_pdf_pages": 383,
+    "all_source_pages_accounted": true,
+    "tests": 213,
+    "reader_rebuilt": false
   }
 }

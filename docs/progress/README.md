@@ -23,7 +23,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | October 1985 | [8510.md](8510.md) — canonical TOC complete |
 | November 1985 | [8511.md](8511.md) — restoration pass complete; one unresolved entry |
 | January 1988 | [8801.md](8801.md) — restoration pass complete; 36 readable articles, 14 non-owning headings and one unresolved survey entry; 8,360 JSON/assets files independently exact, 213 fresh tests |
-| August 1991 | [9108.md](9108.md) — in progress; eleven readable articles, one partial, two non-owning headings, 21 classifications unresolved |
+| August 1991 | [9108.md](9108.md) — restoration pass complete; 28 readable articles, five non-owning headings, two section references; all383 pages accounted, 9,272 JSON/assets files independently exact, 213 fresh tests |
 
 | Shared scope | Records |
 | --- | --- |
@@ -31,8 +31,8 @@ notes for targeted investigation, not as instructions to restart completed work.
 | Catalog reconciliation, scope/tooling decisions and cost accounting | [campaign.md](campaign.md) |
 | OCR benchmark/workflow setup | [ocr-experiments.md](ocr-experiments.md) |
 
-Earlier January 1988/August 1991 samples are in foundations and do not establish
-whole-issue completion. Raw scans, OCR, correction files and generated packages
+Earlier January 1988/August 1991 samples are in foundations; their later whole-issue
+closeouts are recorded separately above. Raw scans, OCR, correction files and generated packages
 remain in their existing private locations.
 
 ## Maintenance
