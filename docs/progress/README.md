@@ -25,7 +25,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | January 1988 | [8801.md](8801.md) — restoration pass complete; 36 readable articles, 14 non-owning headings and one unresolved survey entry; 8,360 JSON/assets files independently exact, 213 fresh tests |
 | August 1991 | [9108.md](9108.md) — restoration pass complete; 28 readable articles, five non-owning headings, two section references; all383 pages accounted, 9,272 JSON/assets files independently exact, 213 fresh tests |
 
-| September 1991 | [9109.md](9109.md) — active; one readable column, one partial feature (all 32 pages preserved; assembly pending), 27 unresolved identities |
+| September 1991 | [9109.md](9109.md) — active; two readable articles, including the complete 32-page notebook feature; 27 unresolved identities |
 
 | Shared scope | Records |
 | --- | --- |

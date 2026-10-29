@@ -6,19 +6,21 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-September 1991 restoration is active: one readable/sample-reviewed article,
-one partial feature and 27 unresolved identities account for 29 canonical TOC entries.
-Feature 0001 now has all PDF 116–147 preserved across six immutable natives.
-Batch 07 adds final benchmark results 146–147/printed 144–145: 193 JSON/assets
-files reproduce exactly. All 53 source crops, 547 typed ranges, 44 OCR settings
-and ZIP integrity validate. Eight tests retain ten plotted series, ten legend entries,
-99 visible values and one explicit source-absent bar/value slot for NP-902 in test 2.
-All 44 initial drafts were read before one paused/resumed source correction pass,
-with zero recognition retries. No missing source number was invented.
-Full feature assembly is pending; canonical reference 124 remains unchanged despite
-the observed earlier opening. Next: assemble PDF 116–147 from the six pinned natives,
-preserving original metadata, source gaps, glyph candidates and the 127/128 join.
-Full 406-page issue accounting, other bodies, cover and closeout remain pending.
+September 1991 restoration is active: two readable/sample-reviewed articles,
+zero partials and 27 unresolved identities account for 29 canonical TOC entries.
+Batch 08 completes feature 0001, PDF 116–147, from six immutable natives.
+The full assembly has 325 regions, 217 blocks, 72 original images and 253 regional
+text occurrences. All 1,140 files reproduce exactly; all 1,132 embedded native files
+and their complete original metadata remain unchanged. The verified 127/128 split-word
+join is applied while preserving the intervening sidebar.
+All 4,265 current text ranges, 70 specification fields and 100 benchmark slots validate:
+99 visible values and the explicit missing NP-902 source bar/value remain unchanged.
+All 325 crops match source pixels, 253 settings and seven ZIPs validate, and three
+invalid inputs are rejected. No new OCR/correction or reader rebuild.
+Canonical reference 124 remains unchanged despite the observed earlier opening.
+Next: verify canonical 0002, the barcode feature, from contents reference 196; actual
+body boundaries require source inspection. Full 406-page accounting, other bodies,
+cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
