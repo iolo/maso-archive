@@ -7,16 +7,18 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: twenty-six readable/sample-reviewed articles,
-no partials, five non-owning headings and four unresolved news/community identities.
-Editorial0031 is complete at362/376 in `packages/batch-54-r01/publicity`: all26 independent
-export files, six source crops, four settings and457 typed ranges validate. Eight paragraphs,
-two quoted passages, literal xx placeholder and two originals remain source-linked.
-Actual 김영숙 기자 remains separate from canonical 편집부. All17 uncertainties and eleven
-opaque variants survive without grammar or historical repair. No editorial body pages or
-assembly pending. Next batch55 verifies information-radar0032 and child0046 eligibility,
-ownership and source extent; PDF89 is only a lookup candidate for canonical103.
-Community0038/0047, whole-issue accounting, index, cover and closeout remain pending.
-No reader rebuild.
+one partial news parent, five non-owning headings, one section reference and two unresolved
+community identities =35. News0032 opening89–94 is at `packages/batch-55-r01/radar-a`:
+all109 independent files,32 source crops,23 settings and336 typed ranges validate.
+Six complete original pages preserve body content, with23 searchable heading/caption
+blocks and three separate photos. Body prose and embedded-photo lettering await volunteers.
+Sixteen item starts,28 body-image fragments, twelve internal continuations and outgoing94→95
+remain explicit. Child0046 is a non-owning topic-list reference; final anchor projection
+pending. Divider89 has no visible folio; canonical103 and intrinsic topic references remain
+separate. News95 onward, full extent and final assembly pending. Next batch56 resumes
+from reviewed95/109;96–101 remain unprepared/uninspected. Editorial0031 remains complete
+at `packages/batch-54-r01/publicity`. Community work, accounting, index, cover and closeout
+remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

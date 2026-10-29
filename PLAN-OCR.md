@@ -23,35 +23,37 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: twenty-six readable/sample-reviewed articles, no partials,
-  five non-owning headings and four unresolved identities out of 35. Batch54 completes
-  editorial0031, 마굿간 : 왜 홍보를 꺼리는 걸까?, at PDF362/printed376.
-  Actual source credit 글. 김영숙 기자 remains distinct from canonical 편집부.
-  Selected package: `archive/pdf/1991-08/packages/batch-54-r01/publicity`.
-  All 26 files match an independent export. Six source-pixel crops, four pinned kor+eng
-  settings and 457 typed article-range occurrences validate. Four text blocks preserve
-  the three-line title, series heading, byline and eight body paragraphs; two original
-  images retain the horse-journalist illustration and terminal ornament.
+- August 1991 remains active: twenty-six readable/sample-reviewed articles, one partial,
+  five non-owning headings, one section reference and two unresolved identities out of 35.
+  Batch55 restores the information-radar0032 opening at PDF89–94. The divider89 has no
+  visible folio; canonical103 remains literal. Observed folios on90–94 are104–108.
+  Selected partial package: `archive/pdf/1991-08/packages/batch-55-r01/radar-a`.
+  All109 files match an independent export. All32 source-pixel crops,23 pinned kor+eng
+  settings and336 typed ranges validate. Six complete original pages preserve all body
+  content;23 searchable heading/caption blocks and three separate photos retain source
+  associations. Body prose and embedded-photo lettering await volunteer transcription.
 
-  Two quoted passages and the lowercase xx source placeholder remain literal without
-  redaction. All 17 uncertainties and eleven opaque variants remain active, including
-  고마왔다, 왠만한, 끄떡하면, 안됩니까?, 카달로그 and 가져다·주기. Three source-claim
-  fields and four physical-wrap fields remain unverified; no grammar or historical repair.
-  Original illustration marks have no inferred encoded text or glyph counts.
+  Sixteen story starts retain28 body-image fragments, fifteen complete native item bodies,
+  twelve internal continuations and one outgoing94→95 continuation. Five topic-reference
+  rows retain104,112,118,123,124 as intrinsic references, not observed folios. Five unknown
+  leader-dot bands, fifteen uncertainties and five opaque source candidates remain active.
+  No grammar, company/model, source-glyph or historical/technical repair is claimed.
+  Child0046 is a non-owning topic-list section reference into parent0032, anchored to
+  native p089-topics. Its final parent-assembly anchor projection remains pending.
 
-  All six initial crops and four refinements were reviewed before four initial recognitions.
-  Every raw draft was read before one source pass; zero retries, added regions or post-OCR
-  changes. All 35,074 pre-OCR archive files and thirty core modules remain exact; unchanged
-  213-test baseline reused. No editorial body pages or assembly pending. Previous361 is
-  a book advertisement; following363 is an independent 애독자광장 divider with no visible folio.
+  All32 initial crops, twelve first refinements and one final refinement were reviewed
+  before23 initial recognitions. Every raw draft was read before one source pass; zero
+  retries, added regions or post-OCR changes. All35,235 pre-OCR archive files and thirty
+  core modules remain exact; unchanged213-test baseline reused. Only the bounded native
+  is complete.95 onward, full news extent and actual parent assembly remain pending.
+  Editorial0031 remains complete at `packages/batch-54-r01/publicity` (26 files).
 
-  Next batch55 verifies 정보 레이다0032 and its pageless child0046 against contents and
-  source before eligibility/ownership decisions and bounded restoration. Canonical103
-  stays literal; PDF89 is only an unverified lookup candidate. Community0038/0047 remains
-  separate:363 divider reviewed, intrinsic references378,382,386,387,389;364 prepared but
-  uninspected. Full news/community extents remain unverified. Resume
-  `archive/pdf/1991-08/restoration/batch-54/handoff.json`; retain frozen helpers.
-  News/community work, whole-issue accounting, index, cover and closeout remain pending.
+  Next batch56 continues news0032 from reviewed95/visible109. Candidate native95–100
+  requires full page/boundary review;96–101 remain unprepared and uninspected. Preserve
+  outgoing domestic-n16 without duplicate story IDs. Full news extent remains unverified;
+  divider topic references do not establish page mappings. Resume
+  `archive/pdf/1991-08/restoration/batch-55/handoff.json`; retain frozen helpers.
+  Community0038/0047, whole-issue accounting, index, cover and closeout remain pending.
   No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.

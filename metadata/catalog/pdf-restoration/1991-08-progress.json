@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1991-08",
   "status": "in-progress",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "source": {
     "id": "pdf-maso-9108",
     "path": "maso-pdf/maso-9108.pdf",
@@ -2881,23 +2881,104 @@
       "toc_entry_id": "maso-1991-08-toc-0032",
       "title": "정보 레이다",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0032 information-radar and child0046 five-topic list match source contents5 and independent divider89. The divider has no visible folio; canonical103 remains literal. Its topic references104,112,118,123,124 remain separate from observed folios. Page88 is a full independent book advertisement;90 opens 국내뉴스 at visible104. No global page offset or final extent inferred.",
+        "Opening native89–94 preserves the divider and first five domestic news pages. Individually observed folios on90–94 are104–108. All109 independent export files,32 source-pixel crops,23 pinned kor+eng settings and336 typed ranges validate. Six complete original pages and three separate photos retain every body/layout/footer pixel;23 searchable heading/caption blocks do not claim corrected body prose. Volunteer body transcription pending.",
+        "Sixteen item starts retain28 body-image fragments, fifteen complete native body-image sequences, twelve internal column/page continuations and one outgoing94→95 continuation in the last 탑헤드 report. Three photo-caption associations, five topic-reference rows, five unknown leader-dot bands, fifteen uncertainties and five opaque source candidates retained. No company/model/grammar/technical/historical repair.",
+        "All32 initial crops, twelve first refinements and one final IBM-heading refinement were reviewed before23 initial recognitions. Every raw draft was read before one source pass; zero retries, added regions or post-OCR changes. All35,235 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused.95 onward, full news extent and final parent assembly remain pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
+        "article_id": "scan-maso-1991-08-toc-0032",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-55-r01/radar-a/manifest.json",
+          "sha256": "775649306b329ea0f6fa135fcd95d44d3dd5564e476beeb28611655a10f51734",
+          "bytes": 18546
+        },
+        "source_body_title": "정보레이다",
+        "source_byline": null,
+        "canonical_page_reference": "103",
+        "coverage": {
+          "pdf_pages": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "printed_pages": [
+            null,
+            "104",
+            "105",
+            "106",
+            "107",
+            "108"
+          ],
+          "regions": 32,
+          "blocks": 23,
+          "figures": 9,
+          "excluded_regions": 0,
+          "deferred_pdf_pages": [
+            95
+          ],
+          "additional_deferred_extent_unknown": true
+        },
+        "body_pages_complete": false,
+        "native_body_pages_complete": true,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "full_source_extent_verified": false,
+        "opening_pdf_page": 89,
+        "opening_printed_folio": null,
+        "body_transcription": "pending-volunteer",
+        "body_availability": "original-image-readable",
+        "full_body_text_review_claimed": false,
+        "source_body_image_items": 16,
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
+          "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
+          "bytes": 2314
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-55/reproduction.json",
+          "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
+          "bytes": 19291
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-55"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0046",
       "title": "국내뉴스; 해외뉴스; 소프트웨어 열람실; 이 달의 행사안내; 새로 나온 책",
       "parent_id": "maso-1991-08-toc-0032",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical child0046 is one pageless topic-list reference under0032. The five printed divider rows identify subdivisions of the parent news bundle, not five additional canonical articles or a separate duplicate body. Source 이 달의 행사 remains distinct from canonical 이 달의 행사안내. Only domestic opening90/104 independently located so far; remaining topic locations and full extent pending.",
+        "All five printed topic labels and intrinsic references preserve exact native text ranges and original divider image. Canonical child title, null page reference and parent unchanged. Child owns no duplicate body; final parent assembly must project its anchor."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1991-08-toc-0032",
+      "section": {
+        "anchor": "p089-topics",
+        "anchor_scope": "native-parent",
+        "heading_pdf_page": 89,
+        "final_assembly_anchor_projection_pending": true
+      },
+      "classification_record": {
+        "path": "archive/pdf/1991-08/restoration/batch-55/section-reference-classification.json",
+        "sha256": "6aeee7d9f39aa92f18dd98ef51017899e5d6777cf30197445f3e6aa3023bac63",
+        "bytes": 1450
+      },
+      "ownership_review": "non-owning-pageless-topic-list-reference-into-news-parent"
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0038",
@@ -4452,66 +4533,116 @@
         "sha256": "a053d193055bb17f04e81f76f292a1003edfb8c6c16103d23898391bbad6710e",
         "bytes": 5049
       }
+    },
+    {
+      "name": "1991-08-batch-55",
+      "status": "complete",
+      "completed_at": "2026-10-29T08:06:22.055690+00:00",
+      "goal": "Restore six-page news opening and classify its non-owning topic-list child",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0032",
+        "maso-1991-08-toc-0046"
+      ],
+      "canonical_tasks": 2,
+      "source_pages": 6,
+      "new_mapped_pages": 6,
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 23,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 13,
+      "pre_ocr_added_regions": 0,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "body_transcription": "pending-volunteer",
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
+        "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
+        "bytes": 2314
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-55/reproduction.json",
+        "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
+        "bytes": 19291
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
     "readable": 26,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 5,
-    "unresolved": 4
+    "section_references": 1,
+    "unresolved": 2
   },
   "notes": [
-    "Full August issue remains active:26 readable articles, no partials, five non-owning headings and four unresolved news/community parent-child identities. Editorial0031 complete at362/376 in one native; no body pages or assembly pending. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild.",
+    "Full August issue remains active:26 readable articles, one partial news parent, five non-owning headings, one non-owning topic-list section reference and two unresolved community identities =35. News89–94 original body images and searchable headings retained;95 onward, full extent and final assembly pending. News body transcription deferred to volunteers. Whole-issue accounting, index, cover and closeout pending; no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-55",
-    "goal": "Verify information-radar0032 and pageless child0046 eligibility/ownership, then restore a bounded source segment.",
+    "name": "1991-08-batch-56",
+    "goal": "Continue news0032 from95 with bounded source review and original-body/headline restoration.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0032",
-      "maso-1991-08-toc-0046"
+      "maso-1991-08-toc-0032"
     ],
-    "canonical_title": "정보 레이다",
-    "canonical_page_reference": "103",
     "mapping_targets": [],
+    "candidate_next_native_pages": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
     "lookup_candidates": [
-      4,
       5,
-      88,
-      89,
-      90
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
     ],
     "retained_context": {
-      "source_candidate_pdf_page": 89,
-      "source_candidate_verified": false,
-      "full_extent_verified": false,
-      "community_divider": {
-        "pdf_page": 363,
-        "printed_page": null,
-        "topic_references": [
-          "378",
-          "382",
-          "386",
-          "387",
-          "389"
-        ],
-        "source_view": {
-          "path": "archive/pdf/1991-08/restoration/batch-53/source-review/pdf-363.png",
-          "sha256": "e2f1c5be76be39b2a0cbd41c639a2f7a14af2c03f6a0cb794bc173ee549cd4db",
-          "bytes": 6081565
-        }
+      "selected_opening_package": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
+      "opening_validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
+        "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
+        "bytes": 2314
       },
-      "community_prepared_uninspected_pages": [
-        364
-      ]
+      "reviewed_next_page": 95,
+      "reviewed_next_folio": "109",
+      "next_source_view": {
+        "path": "archive/pdf/1991-08/restoration/batch-55/source-review/pdf-095.png",
+        "sha256": "28b76bc967d6834a13acd0b4510b7fa292048f87a1c2265022d0db066da54b7c",
+        "bytes": 5407878
+      },
+      "incoming_item": "domestic-n16",
+      "prepared_uninspected_pages": [],
+      "unprepared_uninspected_candidates": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "full_extent_verified": false,
+      "child_reference": {
+        "path": "archive/pdf/1991-08/restoration/batch-55/section-reference-classification.json",
+        "sha256": "6aeee7d9f39aa92f18dd98ef51017899e5d6777cf30197445f3e6aa3023bac63",
+        "bytes": 1450
+      },
+      "final_child_anchor_projection_pending": true
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Verify canonical0032 정보 레이다 and pageless child0046 against contents and actual source. Canonical103 is literal; PDF89 is only an unverified lookup candidate, not a global-offset mapping or extent claim. Review neighboring full pages, section/item headings and actual boundaries before classification or mapping. Preserve all35 canonical identities/order/parents; do not invent separate canonical identities for the child topic list. At most two canonical tasks, six newly mapped pages and twenty outside-map lookups per checkpoint. Complete source and exact crop review before pinned Tesseract; all raw drafts before one source pass. Community0038/0047 remains separate: full363 divider reviewed, no visible folio, intrinsic references378,382,386,387,389;364 prepared but uninspected. Full community extent unverified. Retain frozen helpers, packages and all source evidence. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild."
+    "note": "Read PLAN-OCR and resume news0032 from reviewed95/visible109. Preserve immutable opening89–94 and non-owning child0046 reference. Next bounded native may map95–100 only after every full source page and adjacent boundary are reviewed;96–101 remain unprepared/uninspected. Full news extent is unverified. The divider lists five topics at intrinsic104,112,118,123,124; these are not observed folios or a global offset. Preserve16 initial stories and outgoing domestic-n16 on94→95 (CPU / 로 채택, source candidates) without creating duplicate item IDs. Continue established news-image treatment: complete original body pages, searchable headings/captions and explicit item/fragment/continuation order; body prose and embedded-photo lettering await volunteers. Six mapped pages/two canonical tasks/twenty outside lookups maximum; every final exact crop before pinned Tesseract, all raw drafts before one source pass. Child0046 native anchor p089-topics must be projected into final parent assembly; its current anchor_scope is native-parent, not ready for final issue accounting. Community0038/0047 remains separate. Whole-issue accounting, index, cover and closeout pending; no reader rebuild. Do not rerun frozen successful helpers."
   }
 }
