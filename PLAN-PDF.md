@@ -33,32 +33,36 @@ records below are historical and do not authorize a new rebuild.
 
 September 1991 restoration is active: eight readable/sample-reviewed articles,
 one partial article, two non-owning group headings and 18 unresolved identities account
-for all 29 canonical TOC entries. Batch 25 restores child 0011,
-베이직 인터프리터를 구현해 보자(마지막회) / 정진호, on its first six pages,
-PDF 250–255 / printed 248–253. The actual body is fourteen contiguous pages, 250–263;
-all were viewed. Prose concludes on 256, but CODE3.C and RUN.C continue through 263,
-before the independently titled B+ tree article on 264. Parent 0009 stays non-owning;
-parent reference 240 and the child's null own reference remain unchanged.
-Both selected r02 exports and a fresh-process rebuild contain 315 exact files:
-81 regions, 71 blocks, six original figures and 75 OCR records. All 3,651 typed ranges
-pass in their own contexts. Three diagrams retain 13 table rows/26 cells (one blank),
-six headers and six stack-value associations. Printed compiler output retains
-33 offset rows/99 cells (four blank operands) and 14 output rows, including ten star
-rows. All 401 reading rows, 173 code/example/output rows, 631 tokens, nine structure
-fields, eight instructions/three subitems and eight file-catalogue items remain linked.
-All 75 initial drafts were read; one heading crop was repaired before the single source
-correction pass. Seventy-four unchanged OCR results were reused with original provenance:
-76 actual invocations, zero unchanged-input retries. Thirteen earlier crop refinements
-preceded recognition. Metadata-only r02 removes a stack value incorrectly indexed as a
-table row; original r01 remains reproducible, with exact text/raw/crops/settings retained.
-All 81 crops/PNG decodes, 75 settings and ZIP CRC pass. All 13,744 prior files,
-thirty core modules and five adapters stay unchanged; all 24 prior checkpoints validate.
-Source anomalies and 35 glyph candidates remain literal; no semantic repair or execution.
-Next: Batch 26 restores PDF 256–261 as a second immutable native: catalogue tail,
-conclusion, CODE3.C and the beginning of RUN.C. Final 262–263 and actual fourteen-page
-assembly remain separate checkpoints. Install pinned Batch 24 hangul_adapter for complete
-checks. Other bodies, full 406-page accounting, cover, issue export and closeout remain
-pending. No reader rebuild.
+for all 29 canonical TOC entries. Batch 26 restores child 0011,
+베이직 인터프리터를 구현해 보자(마지막회) / 정진호, on PDF 256–261 / printed 254–259.
+Two immutable natives now preserve twelve of the fourteen actual body pages, 250–263.
+This second native contains the ninth file-catalogue item, conclusion, complete CODE3.C
+and beginning of RUN.C. Parent 0009 stays non-owning; parent reference 240 and the
+child's null own reference remain unchanged. Final pages 262–263 and assembly are pending.
+Both selected r02 exports and a fresh-process rebuild contain 117 exact files:
+33 regions, 13 blocks, eight original figures and 25 OCR records. All 11,425 current
+typed ranges (6,073 article / 5,352 listing) and one prior-native range pass in their
+own contexts. The two code blocks retain 740 regional rows, 1,664 tokens, 1,230 lexical
+identifiers, 80 comments, 31 strings and 62 numeric occurrences. Three structure fields,
+89 member occurrences, 1,248 operator-like glyphs, 45 signature-like rows, nine includes
+and two macros remain linked. These are lexical indexes, not a semantic C parse.
+Seven original listing frames and the closing mark retain fourteen column/image links;
+two file captions, seven headings and all 638 nonblank reading rows remain source-linked.
+Twelve single-LF column/page joins preserve physical wraps. RUN.C ends with one LF for
+the future empty-separator continuation. The catalogue tail is a logical next item,
+with its prior-native context retained; no same-word prose join is inferred.
+All 25 drafts were read before one source correction pass; five crop refinements preceded
+recognition. Twenty-five invocations, zero retries: fourteen eng code and eleven kor+eng
+other regions. Twenty-one source anomalies and eighty glyph candidates stay literal,
+including missing headers/case labels and printed naming/spelling/operator variants.
+Metadata-only r02 restricts the structure-field index to its three actual fields;
+original r01 remains reproducible, with text/raw/maps/crops/settings unchanged.
+All 33 crops/PNG decodes, 25 settings and ZIP CRC pass. All 15,449 prior files,
+thirty core modules and five adapters stay unchanged; all 25 prior checkpoints validate.
+Next: Batch 27 restores final RUN.C pages 262–263 as a third immutable native, then a
+separate checkpoint assembles all fourteen pages. Install pinned Batch 24 hangul_adapter
+for complete checks. Other bodies, full 406-page accounting, cover, issue export and
+closeout remain pending. No semantic repair, execution or reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
