@@ -6,17 +6,20 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: nineteen readable/sample-reviewed articles, one
-partial, four non-owning headings and eleven unresolved identities. Batch43 restores
-Mac System 7.0 final PDF320–322/printed334–336 at `packages/batch-43-r02/mac-b`:
-195 independently exact files, 49 source-pixel crops, 46 pinned settings and 2,228
-typed ranges validated. Fourteen unknown-count markers and 22 opaque variants remain
-active. Lower322 advertisement excluded;336 folio retained. All 28,266 prior archive
-files and thirty core modules exact; unchanged 213-test baseline reused. All nine
-body pages314–322 are now preserved across 570 immutable native files. Next batch44
-performs actual full assembly and exhaustive native/projected range checks. The
-article remains partial until assembly. Whole-issue accounting, index, cover and
-closeout remain pending. No reader rebuild.
+August 1991 remains in progress: twenty readable/sample-reviewed articles, no
+partials, four non-owning headings and eleven unresolved identities. Batch44 completes
+Mac System 7.0 article0024 at PDF314–322/printed328–336 in
+`packages/mac-system7-complete-r01`: 578 independently exact files, all 570 native
+files unchanged, 149 source-pixel crops and 135 pinned settings validated. All 6,506
+native typed ranges validate in combined context; 6,249 source-local metadata ranges
+and 257 root combined ranges are checked separately. One standard prose link resolves
+319찾아→320서; no private adapter. All 125 uncertainties, 49 opaque variants and 22
+unknown-count markers remain active. Lower322 advertisement excluded;336 folio retained.
+All 29,078 prior archive files and thirty core modules exact; 213-test baseline reused.
+Next batch45 verifies hardware parent0025 and memory-expansion child0026 from the
+retained324/338 opening. Full extent unverified; canonical 편집부 and actual 박주희
+credits remain distinct. Whole-issue accounting, index, cover and closeout pending.
+No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

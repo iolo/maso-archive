@@ -31,36 +31,39 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: nineteen readable/sample-reviewed articles, one partial,
-four non-owning headings and eleven unresolved identities out of 35. Batch43 restores
-the final PDF320–322/printed334–336 of 0024, 매킨토시 포럼 : 매킨토시 시스템
-소프트웨어 7.0. Selected ending: `archive/pdf/1991-08/packages/batch-43-r02/mac-b`.
-All nine body pages314–322/328–336 are now preserved across two immutable natives,
-570 files total. The article remains partial until actual full assembly.
+Step 12 remains active: twenty readable/sample-reviewed articles, no partials,
+four non-owning headings and eleven unresolved identities out of 35. Batch44 completes
+0024, 매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0, at PDF314–322/printed328–336.
+Selected package: `archive/pdf/1991-08/packages/mac-system7-complete-r01`.
+All 578 files match an independent export; all 570 original native files remain exact.
+All 6,506 native typed occurrences validate in their native and independently projected
+combined contexts. All 6,249 retained source-local metadata occurrences and 257 root
+combined occurrences are checked separately. All 149 source-pixel crops and 135 pinned
+kor+eng settings validate. Retains 122 blocks, fourteen originals, twelve captions,
+thirteen native prose joins and one standard cross-native319찾아→320서 link with an
+empty separator. Both actual natives are used; no private adapter is required.
 
-The 195-file ending matches an independent export. All 49 source-pixel crops,
-46 pinned kor+eng settings and 2,228 typed article ranges validate. Retains 41
-blocks, three originals, two captions, five prose joins and 84 spatial fields.
-Fifteen screenshot-label regions retain eleven alias labels, six calculator register
-fields, 31 keypad fields, fifteen visible strip fields, six Pipe Dream status fields
-and three Note Pad rows. Fourteen unknown-count markers, 51 uncertainties and 22
-opaque variants remain active. Printed System Fol-der, Before You Installs,
-Be fore You Install, source spelling and contactsoandso remain literal or candidates.
-Lower322 subscription advertisement is excluded; upper conclusion, contact, terminal
-ornament and literal336 folio are retained. Source instructions and claims unverified.
+All 225 spatial fields, twenty font-comparison rows, three Times specimens, 31 UI
+label regions, 59 icon/alias labels and tree/dialog/calculator/Note Pad/Pipe Dream
+fields remain source-linked. All 125 uncertainties, 49 opaque variants and 22
+unknown-count markers remain active. Lower322 advertisement is excluded; upper
+conclusion, contact, terminal ornament and literal336 folio are retained. Only two
+exact obsolete stage-note strings/four occurrences are resolved. Original source-local
+metadata and all earlier revisions remain unchanged. No Mac body pages or assembly
+remain pending. Source errors, hidden text and historical claims are not repaired.
 
-All 47 initial crops, two extensions and two added label crops were reviewed before
-46 initial recognitions. All raw drafts were read before one source correction pass;
-zero retries or post-OCR crop repairs. An English-only metadata revision preserves
-source text, ranges, decisions and correction timestamp. All 28,266 prior archive
-files and thirty core modules remain exact; unchanged 213-test baseline reused.
+No new mapping, rendering, OCR or source correction. All 29,078 prior archive files
+and thirty core modules remain exact; unchanged 213-test baseline reused. Full
+proofreading, human acceptance, original encoded bytes, exact spacing/font/glyph
+identities/counts, historical claims, execution and backup recovery remain unverified.
 
-Next batch44: assemble both actual natives, mac-a314–319 and mac-b320–322, using
-their pinned manifests. Preserve all 570 native files and original metadata. Verify
-the standard resolved prose link319찾아→320서 with an empty separator. Audit every
-typed occurrence in its source-local, native and projected article context, including
-additional metadata retained under segments[].original_metadata. Resolve only exact
-obsolete native-stage notes. No new mapping, OCR, source correction or execution.
+Next batch45: verify parent0025 하드웨어 ownership and child0026 메모리 확장을
+내 손으로 from retained independent PDF324/printed338 opening and325 continuation.
+Canonical credit 편집부 and actual source byline 글. 박주희 기자 remain distinct.
+The full article extent is unverified. Verify actual ending, visible folios, intervening
+continuity and adjacent material before mapping at most six pages. Further candidate
+pages are lookup hypotheses; use bounded segments and separate actual assembly if
+longer. Two canonical tasks, six mapped pages and twenty outside lookups maximum.
 Selected 0020 requires batch39 boundary adapter; 0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and 0002 the batch04 native adapter. Whole-issue
 accounting, index, cover and closeout remain pending. No reader rebuild.
