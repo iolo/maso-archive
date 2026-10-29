@@ -31,35 +31,38 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: twenty-seven readable/sample-reviewed articles, one partial
-community bundle, five non-owning headings, two section references and zero unresolved
-identities out of 35. Batch62 restores the final survey back376 and editing notes378.
-Selected native: `archive/pdf/1991-08/packages/batch-62-r01/community-c`.
-All 104 files match an independent export; 36 source-pixel crops, 20 pinned kor+eng
-settings and 698 typed ranges validate. All 14 eligible community pages are now
-preserved across three immutable natives (576 files); actual assembly remains pending.
+Step 12 remains active: twenty-eight readable/sample-reviewed articles, no partials,
+five non-owning headings, two section references and zero unresolved identities out of 35.
+Batch63 completes the actual fourteen-page community assembly at
+`archive/pdf/1991-08/packages/community-complete-r01`.
+All 584 files match an independent export, including all 576 unchanged native files.
+All 183 source-pixel crops and 123 pinned kor+eng settings validate. The audit checks
+4,002 native/projected typed occurrences, 3,756 retained local occurrences, 246 root
+combined occurrences and 890 combined reading-index ranges in their proper contexts.
 
-Survey reverse retains mixed orientations, three seminar topics, five seminar/six sender
-postal boxes, mailing/postage fields and the twelve-column equipment table: 66 nonblank
-fields, six blank choice cells and twelve empty-entry parentheses. Eight independent
-editing-note bodies retain their signatures; one unclear Hanja signature has an explicit
-marker linked to original glyph pixels. Full note prose and embedded handwriting await
-volunteers. Printed addresses, dates, spelling and technical claims remain unverified.
+Five letters, five Q&A entries, ten reader credits, reply/notices and eight editing notes
+retain 39 body-image fragments and 15 continuations. The SDK/DDK answer369→370 boundary
+is explicitly assembled without joining prose. Four diagrams, IRQ/memory fields,
+catalogue/classifieds, quiz/prizes, 71 winner rows and survey front/back forms remain
+source-linked. All 173 uncertainty records, 48 opaque variants and twelve source markers
+remain active, including one unclear Hanja signature. Body prose and embedded lettering/
+handwriting await volunteers; printed source claims and identities remain unverified.
 
-Full community extent is 363–366, 368–376 and 378. Lower371 contributor advertisement
-and lower378 unlisted advertising index are excluded; disjoint body/folio originals
-exactly reconstruct masked source pages. Divider363 and survey375/376 visible folios
-stay null; canonical377 remains literal. Child0047 is one non-owning seven-topic reference
-whose final native p363-topics projection is still pending. No duplicate body is created.
+Lower371 contributor advertisement and lower378 unlisted advertising index stay excluded
+with exact masked-source reconstruction. Divider363 and survey375/376 observed folios
+stay null; canonical377 remains literal. Non-owning child0047 now targets the actual
+community-a-p363-topics anchor. All five source topic rows and the separate editing-notes
+heading resolve; combined classifieds/bulletin and omitted 후기 label stay explicit.
+Six obsolete stage notes are resolved; original native metadata/flags remain unchanged.
 
-All 36 initial crops, four refinements and ten orientation reading views were reviewed
-before 20 recognitions; all drafts were read before one source pass. Zero retries, added
-regions or post-OCR changes. All 39,138 pre-OCR archive files and thirty core modules are
-exact; the unchanged 213-test baseline is reused. Complete news parent/child is immutable.
-Human acceptance/full proofreading and source encoding/glyph counts remain unverified.
-Next batch63 assembles all three community natives and resolves the child anchor.
-Resume `archive/pdf/1991-08/restoration/batch-62/handoff.json`; retain frozen helpers.
-Full383-page accounting, index, cover and closeout remain required. No reader rebuild.
+Zero new mapping, OCR or source correction. All 39,421 prior archive files and thirty
+core modules remain exact; the unchanged 213-test baseline is reused. No canonical
+article body pages, assemblies or child-anchor projections remain pending.
+Next batch64 derives whole-issue page ownership and starts bounded outside-page
+accounting. Full383-page accounting, standalone index/report, cover and closeout remain
+required. Resume `archive/pdf/1991-08/restoration/batch-63/handoff.json`.
+Human acceptance/full proofreading, source encoding/glyph counts and source claims
+remain unverified. No reader rebuild.
 Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and0002 the batch04 native adapter.
 See [August progress](docs/progress/9108.md) and
