@@ -25,30 +25,29 @@ paired OCR or a new engine comparison.
 
 September 1991 restoration is active: six readable/sample-reviewed articles,
 one partial article, one non-owning group heading and 21 unresolved identities account
-for all 29 canonical TOC entries. Batch 19 restores the first six of eight C++ 0008
-pages, PDF 234–239/literal printed 232–237. Source opening 234 and conclusion/closing
-mark 241 establish the actual extent; final 240–241 and complete assembly remain pending.
+for all 29 canonical TOC entries. Batch 20 restores final C++ 0008 pages 240–241/literal
+printed 238–239 as a second immutable native. All eight pages 234–241 are now preserved
+across exact Batch19/20 natives; complete assembly remains pending, availability partial.
 Canonical title/byline/reference 233 remain unchanged despite observed opening folio 232.
-Both exports contain 297 exact files: 90 regions, 58 blocks and 24 original figures,
-including 22 code/output panels. All 2,812 ranges pass in their own article/listing
-contexts: 138 regional code rows, 402 whitespace tokens, 32 comments, 18 strings,
-334 identifier occurrences and 12 printed output rows. Nineteen distinct code/output
-blocks retain explicit example separators; three code-fragment and five prose/list
-joins, 15 numbered items/three code callouts and 13 source headings validate. Literal
-건설자, BaseClass(1), extra parenthesis, trailing comma, delete[10], source/output
-punctuation and identifier-case variants remain without semantic repair; two glyph
-candidates and source whitespace/bytes/execution limits are explicit. All 90 crops,
-decoded PNGs, 66 OCR settings (22 eng code/output, 44 kor+eng other) and ZIP CRC pass.
-All drafts read before one correction pass, zero recognition retries. All 10,856 prior
-files, thirty core modules and three adapters remain unchanged; all eighteen prior
-checkpoints revalidated. No reader rebuild.
-Next: restore final C++ pages 240–241/printed 238–239 as a second immutable native,
-excluding the lower-page 241 recruitment advertisement. Then assemble all eight pages
-separately from exact natives, resolving the recorded 239→240 mid-word continuation
-with an empty separator. Keep canonical reference 233 unchanged. Install the pinned
-batch17 compuserve adapter before complete selected-package checks; it dispatches
-CompuServe, barcode and notebook formats. Full 406-page accounting, other bodies,
-cover, issue export and closeout remain pending.
+Both final-native exports contain 79 exact files: 22 regions, 14 blocks and six original
+figures. All 466 ranges pass in their own article/listing contexts: 18 code rows,
+69 whitespace tokens, seven comments and 43 identifier occurrences across five examples.
+Two conclusion joins, literal IPtr/Iptr case, missing semicolon, wrapped comment row,
+메. dot candidate and I/l glyph candidate remain explicit without semantic repair.
+Original code images and closing mark retained; lower 241 recruitment advertisement
+excluded. All 22 source crops/PNG decodes, 16 OCR settings (five eng code, 11 kor+eng
+other) and ZIP CRC pass. All drafts read before one correction pass, zero retries.
+All 11,767 prior files, thirty core modules and three adapters remain unchanged;
+all nineteen prior checkpoints revalidated. No reader rebuild.
+Next: assemble complete eight-page C++ 0008 from both exact natives in Batch 21,
+resolving only 239→240 이와 같/이 값에 의한 호출로 with an empty separator across
+the current-page category label. Preserve every original/native metadata payload and
+project every typed range in its correct article/listing/download/block/region context.
+No new mapping, OCR or source correction. Keep all 27 code/output panels, 24 separate
+code blocks, comments/output/annotations, literal anomalies/candidates, original images
+and source exclusions. Install the pinned batch17 compuserve adapter before existing
+complete selected-package checks; it dispatches CompuServe, barcode and notebook formats.
+Full 406-page accounting, other bodies, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
