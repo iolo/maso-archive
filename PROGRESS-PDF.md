@@ -10,9 +10,9 @@ August 1991 remains in progress: twenty-eight readable/sample-reviewed articles,
 no partials, five headings, two section references and zero unresolved identities =35.
 All canonical body pages, assemblies and child anchors are complete. Community package
 `packages/community-complete-r01` has584 independently exact files/576 immutable natives.
-Accounting has 271 of 383 content records:211 selected body pages and60 directly reviewed
-outside pages;112 outside pages pending. All canonical outcomes, earlier observations and
-body assignments are unchanged. Next batch67 reviews61–80. Standalone index/report, cover,
+Accounting has 291 of 383 content records:211 selected body pages and80 directly reviewed
+outside pages;92 outside pages pending. All canonical outcomes, earlier observations and
+body assignments are unchanged. Next batch68 reviews81–83,87–88,103,112–115,136–145. Standalone index/report, cover,
 independent rebuilds and whole-issue closeout remain required. Body prose/embedded lettering/
 handwriting and uncertain glyphs remain volunteer work. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
