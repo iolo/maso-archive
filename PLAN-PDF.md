@@ -31,66 +31,41 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: twenty-one readable/sample-reviewed articles, one partial,
-five non-owning headings and eight unresolved identities out of 35. Batch45 classifies
-parent0025 하드웨어 as non-owning and completes child0026 메모리 확장을 내 손으로
-at PDF324–329/printed338–343. Selected package:
-`archive/pdf/1991-08/packages/batch-45-r01/memory`. All 276 files match an independent
-export. All 73 source-pixel crops, 65 pinned kor+eng settings and 4,298 typed article
-ranges validate. Retains 52 blocks, eight originals, six captions and nine prose joins
-with thirteen boundaries. No child body pages or assembly remain pending.
+Step 12 remains active: twenty-two readable/sample-reviewed articles, no partials,
+five non-owning headings and eight unresolved identities out of 35. Batch48 completes
+coprocessor0027, 수치보조 프로세서와 그 응용, at PDF330–337/printed344–351.
+Selected package: `archive/pdf/1991-08/packages/coprocessor-complete-r02`.
+All 355 files match an independent export, including all 347 unchanged native files.
+All 94 source-pixel crops and 79 pinned kor+eng settings validate. The audit checks
+6,374 native/projected typed occurrences, 6,229 retained source-local metadata occurrences
+and 145 root combined occurrences independently in their proper article contexts.
 
-Two memory diagrams retain 69 independent printed fields: 54 chip labels, six group
-labels, five parity labels and four bottom labels. The fourth column in Figure4 has
-no printed parity label; none is supplied. All 130 uncertainties and 23 opaque variants
-remain active. Source b/B forms, chip markings, physical wraps, spelling and closing
-punctuation remain literal or font candidates. Canonical credit 편집부 and actual
-byline 글. 박주희 기자 remain distinct. No hardware execution or technical repair.
+The actual standard namespaced-v1 assembly resolves335수→336십 with an empty separator.
+Retains 66 blocks, fifteen originals, thirteen captions, nine native joins with thirteen
+boundaries, 340 diagram/table fields and 136 spatial reading rows. Nine numbered diagrams,
+four tables, opening montage and terminal ornament stay as original images. Register/stack
+and memory-matrix fields, data formats, package/company pairs, chart labels and inline
+program/configuration commands remain source-linked. All 494 uncertainties, thirty opaque
+variants and four unknown-count montage markers remain active. Printed errors, formulas,
+units, program spellings and font candidates remain unrepaired and unexecuted.
+Lower337 unrelated back-issue advertisement excluded; literal351 folio retained.
+No coprocessor body pages or assembly remain pending.
 
-All 73 initial crops and 66 refinements were individually reviewed before 65 initial
-recognitions. All raw drafts were read before one source correction pass; zero retries,
-added regions or post-OCR crop changes. An English-only metadata revision preserves
-source text, ranges, decisions and pass timestamp. All 29,793 saved input-stage files,
-29,867 other pre-existing resumption files and thirty core modules remain exact.
-The original resumption inventory captured its active OCR log; a retained supplement
-corrects only that pin after the original process finished. No recognition restarted.
-The unchanged 213-test baseline is reused. Earlier maps, evidence and revisions remain.
+No new mapping, OCR or source correction during assembly. Native stages retain one
+source pass each, all final crops before recognition and all raw drafts before correction,
+with zero retries. All 31,780 pre-existing archive files and thirty core modules remain
+exact; the unchanged 213-test baseline is reused. An authored figure-count description
+was corrected in fresh assembly revision02; initial assembly and failed verifier attempts
+remain retained. Source-local original metadata stays unchanged, including stage flags.
 
-Batch46 restores the first coprocessor native, PDF330–335/printed344–349, in
-`archive/pdf/1991-08/packages/batch-46-r01/copro-a`. All 263 files match an independent
-export; all 72 source-pixel crops, 61 pinned kor+eng settings and 5,130 typed ranges
-validate. Retains 52 blocks, eleven originals, ten captions, six prose joins with nine
-boundaries, 271 diagram/table fields and 100 spatial reading rows. Register/stack fields,
-the six-state memory matrix, seven data formats, both tables and 46 instruction fields
-remain source-linked. All 398 uncertainties, 18 opaque variants and four montage markers
-remain active. Printed errors, exponents, formulas and claims are preserved without repair
-or execution. All 72 initial crops and 74 refinements reviewed before 61 initial
-recognitions; all raw drafts before one source pass; zero retries or post-OCR repairs.
-All 30,802 pre-OCR archive files and thirty core modules remain exact; the unchanged
-213-test baseline is reused. Earlier source-stage handoff and every revision retained.
-
-Batch47 restores the ending PDF336–337/printed350–351 in
-`archive/pdf/1991-08/packages/batch-47-r01/copro-b`. All 84 files match an independent
-export; all 22 source-pixel crops, 18 pinned kor+eng settings and 1,244 typed ranges
-validate. Retains 14 blocks, four originals, three captions, three prose joins with four
-boundaries and 69 table/chart fields across 36 reading rows. Table3 retains twelve cells;
-table4 has three categories and sixteen package/company pairs. Chart9 retains twenty
-labels without inferred bar values. Eight command/configuration fields, 96 uncertainties
-and twelve opaque variants preserve printed program names, physical wraps, 4~3 and
-[I]/[1] font candidates. Lower337 advertisement excluded; literal351 folio retained.
-All 22 crops reviewed before 18 initial recognitions; all raw drafts before one source
-pass; zero retries or crop changes. All 31,539 pre-OCR archive files and thirty core
-modules remain exact; the unchanged 213-test baseline is reused.
-
-Next batch48 completes the actual full coprocessor assembly, PDF330–337/printed344–351,
-using both immutable natives copro-a and copro-b. All 347 native files must remain exact.
-Resolve standard335수→336십 with an empty separator. Independently audit every native,
-source-local and projected typed range, including segments[].original_metadata. Preserve
-all table/diagram fields, program commands, covered montage markers and source candidates.
-No new mapping, OCR or source correction. Resume
-`archive/pdf/1991-08/restoration/batch-47/handoff.json`; do not rerun frozen helpers.
-Prepared339–347 remain uninspected. Whole-issue accounting, index, cover and closeout
-remain pending. No reader rebuild.
+Next batch49 verifies hardware-basics child0028 from retained independent PDF338/printed352
+opening, 하드웨어 구성소자들, by 글. 정휴중 (디지탈 동호회). Canonical title is
+하드웨어 기초 강좌(1) : 하드웨어 구성소자들 and canonical page reference remains null.
+Prepared339–347 renders remain uninspected; full extent is unverified. Verify all body pages,
+ending and adjacent independent material before mapping at most six pages. Every final
+exact crop before pinned mapped Tesseract; all raw drafts before one source pass. Resume
+`archive/pdf/1991-08/restoration/batch-48/handoff.json`; do not rerun frozen helpers.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue
 accounting, index, cover and closeout remain pending. No reader rebuild.

@@ -6,16 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty-one readable/sample-reviewed articles,
-one partial, five non-owning headings and eight unresolved identities. Coprocessor0027
-has all eight body pages330–337/344–351 preserved across two natives: first330–335 at
-`packages/batch-46-r01/copro-a` (263 files), final336–337 at
-`packages/batch-47-r01/copro-b` (84 files). Both independent exports match exactly.
-The ending validates 22 crop pixels, 18 settings and 1,244 typed ranges; its tables,
-chart labels and commands remain literal. Lower337 advertisement excluded;351 folio
-retained. Next batch48 completes actual two-native assembly and every native/source-local/
-projected range audit, preserving all 347 native files and the empty335수→336십 separator.
-Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+August 1991 remains in progress: twenty-two readable/sample-reviewed articles,
+no partials, five non-owning headings and eight unresolved identities. Coprocessor0027
+is complete at330–337/344–351 in `packages/coprocessor-complete-r02`: 355 independently
+identical files, including 347 unchanged native files. All 94 source-pixel crops, 79 settings
+and 6,374 native/projected typed ranges validate; 6,229 retained source-local occurrences
+and 145 root combined occurrences are independently checked. All 494 uncertainties, thirty
+opaque variants and four montage markers remain active. Lower337 advertisement excluded;
+351 folio retained. No coprocessor body pages or assembly pending. Next batch49 verifies
+hardware-basics0028 extent from338/352; its canonical page reference remains null. Whole-issue
+accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
