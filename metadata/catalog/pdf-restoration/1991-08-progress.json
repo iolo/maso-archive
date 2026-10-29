@@ -3638,14 +3638,21 @@
   ],
   "next_checkpoint": {
     "name": "1991-08-batch-45",
-    "goal": "Verify hardware parent0025 ownership and first child0026 memory-expansion article full extent, then restore at most six verified body pages.",
+    "goal": "Review every initial exact crop for verified memory-expansion article324–329, refine coverage as needed, then run pinned mapped Tesseract and complete one source correction pass before full export/classification.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0025",
       "maso-1991-08-toc-0026"
     ],
     "canonical_title": "메모리 확장을 내 손으로",
     "canonical_byline_candidate": "편집부",
-    "mapping_targets": [],
+    "mapping_targets": [
+      324,
+      325,
+      326,
+      327,
+      328,
+      329
+    ],
     "lookup_candidates": [
       5,
       323,
@@ -3682,13 +3689,63 @@
       "continuation_pdf_page": 325,
       "previous_pdf_page": 323,
       "previous_role": "Full computer advertisement.",
-      "full_extent_verified": false
+      "full_extent_verified": true,
+      "verified_pdf_pages": [
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "printed_pages": [
+        "338",
+        "339",
+        "340",
+        "341",
+        "342",
+        "343"
+      ],
+      "ending": {
+        "pdf_page": 329,
+        "printed_page": "343",
+        "description": "Right-column conclusion and terminal ornament; no unrelated lower material."
+      },
+      "following": {
+        "pdf_page": 330,
+        "printed_page": "344",
+        "title": "수치보조 프로세서와 그 응용",
+        "byline": "글. 성기철 (인하대 전자공학과)",
+        "extent_verified": false
+      }
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Reuse retained contents5 and323–325 source views. Verify parent heading/body ownership, independent title/byline, actual full ending, visible folios and neighboring articles before mapping. Further candidate pages are lookup hypotheses only; do not infer a global printed/PDF offset or completed extent. Preserve canonical편집부 separately from actual박주희기자. At most six new mapped pages; longer articles require bounded native segments and separate actual assembly. Review every exact final crop before pinned mapped Tesseract and all raw drafts before one source pass. Preserve original diagrams/tables/hardware claims and physical wraps; no technical repair or execution. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild."
+    "note": "Resume batch45 from the retained map-r01 and source renders; do not rerun frozen prepare/map/save helpers. Full source review complete for contents5 and323–330; only5/323/330 are outside mapped body. Prepared331–335 renders have not been inspected or used to infer another extent. All73 initial exact crops still require visual review before OCR, including all diagram label regions andprose boundaries. Record any refined geometry in fresh map/crop revisions before recognition. Use OEM1/PSM6/thread1/3000px/300DPI hint/interword spaces, kor+eng for all currenttext regions. Read every raw draft before one source pass. Preserve canonical편집부 separately from actual글. 박주희 기자; classify parent0025 andchild0026 only after complete native export validation. Six pages can fit one complete native without assembly. Preserve repeated diagram b/B unit forms andclaims without arithmetic/technical repair orhardware execution. Full issue remains active; whole-issue accounting, index, cover andcloseout pending; no reader rebuild.",
+    "phase": "full-source-extent-reviewed-initial-map-prepared",
+    "source_extent_review": {
+      "path": "archive/pdf/1991-08/restoration/batch-45/source-extent-reviewed.json",
+      "sha256": "e4ba56488d7e4e75f4b57715dca83e9ed8de103aac10397b50a7a6fa27a83252",
+      "bytes": 3365
+    },
+    "initial_map": {
+      "path": "archive/pdf/1991-08/restoration/batch-45/memory/map-r01.json",
+      "sha256": "ba2ca967b1a4b71f0eec69cd4d319aec80fb4990f96dd4a0e23f0005e04b1848",
+      "bytes": 36259
+    },
+    "reviewed_outside_pages": [
+      5,
+      323,
+      330
+    ],
+    "initial_regions": 73,
+    "initial_text_regions": 65,
+    "initial_figures": 8,
+    "exact_crop_visual_review_complete": false,
+    "ocr_started": false,
+    "source_correction_started": false
   }
 }

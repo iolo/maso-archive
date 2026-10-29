@@ -16,9 +16,10 @@ and 257 root combined ranges are checked separately. One standard prose link res
 319찾아→320서; no private adapter. All 125 uncertainties, 49 opaque variants and 22
 unknown-count markers remain active. Lower322 advertisement excluded;336 folio retained.
 All 29,078 prior archive files and thirty core modules exact; 213-test baseline reused.
-Next batch45 verifies hardware parent0025 and memory-expansion child0026 from the
-retained324/338 opening. Full extent unverified; canonical 편집부 and actual 박주희
-credits remain distinct. Whole-issue accounting, index, cover and closeout pending.
+Current batch45 verifies memory-expansion child0026 at PDF324–329/printed338–343,
+with an initial 73-region map. Exact crop review and OCR remain pending; all article
+and parent outcomes are unchanged. Canonical 편집부 and source 박주희 credits remain
+distinct. Whole-issue accounting, index, cover and closeout remain pending.
 No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

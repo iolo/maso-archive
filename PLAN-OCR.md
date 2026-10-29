@@ -49,13 +49,17 @@ paired OCR or a new engine comparison.
   proofreading, human acceptance, original encoded bytes, exact spacing/font/glyph
   identities/counts, historical claims, execution and backup recovery remain unverified.
 
-  Next batch45: verify parent0025 하드웨어 ownership and child0026 메모리 확장을
-  내 손으로 from retained independent PDF324/printed338 opening and325 continuation.
-  Canonical credit 편집부 and actual source byline 글. 박주희 기자 remain distinct.
-  The full article extent is unverified. Verify actual ending, visible folios, intervening
-  continuity and adjacent material before mapping at most six pages. Further candidate
-  pages are lookup hypotheses; use bounded segments and separate actual assembly if
-  longer. Two canonical tasks, six mapped pages and twenty outside lookups maximum.
+  Current batch45 has verified child0026 extent at PDF324–329/printed338–343;
+  the actual source title is 메모리 확장을 내 손으로. All six full pages, contents5,
+  previous323 advertisement and independent next opening330/344 were inspected.
+  The article ends329 with a conclusion and terminal ornament; no body exclusions.
+  Canonical credit 편집부 and actual byline 글. 박주희 기자 remain distinct. Parent0025
+  하드웨어 remains an ownership candidate pending completed checkpoint validation.
+  An initial map contains 73 regions: 65 text and eight originals. All exact crops still
+  need visual review and any necessary refinement before OCR. No recognition, source
+  correction, native export or outcome change yet. Six pages fit one native. Resume
+  from `archive/pdf/1991-08/restoration/batch-45/handoff.json`; do not rerun frozen
+  preparation helpers. All raw drafts must be read before one source correction pass.
   Selected 0020 requires batch39 boundary adapter; 0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and 0002 the batch04 native adapter. Whole-issue
   accounting, index, cover and closeout remain pending. No reader rebuild.
