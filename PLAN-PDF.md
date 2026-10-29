@@ -31,24 +31,25 @@ records below are historical and do not authorize a new rebuild.
 
 ## September 1991 active, 2026-10-30
 
-September 1991 restoration is active: five readable/sample-reviewed articles,
-one non-owning group heading and 23 unresolved identities account for all 29 canonical
-TOC entries; no partial article remains. Batch 17 completes the CompuServe article,
-PDF 172–178/literal printed 170–176, from two immutable natives. Its 64 regions,
-41 blocks, 15 original figures and 49 regional text occurrences retain all eleven
-menu images/105 numbered items/four headers, AP two-column positions, 31 headings
-and 436 reading rows. Hobbies introduction 177 associates explicitly with menu 178;
-no prose join is invented. Source F candidate and independent quotation/conclusion remain.
-Both exports contain 235 exact files, including 227 unchanged native files and complete
-original metadata. All 1,321 current ranges, 64 crops/decoded PNGs, 49 OCR settings,
-three ZIPs and five invalid-input guards pass. Fresh-process check/rebuild matches all
-235 files. All 10,216 prior September files and thirty core modules remain unchanged;
-all sixteen prior checkpoints revalidated. No new mapping, OCR, source correction or
-reader rebuild. Human/glyph/historical/technical/claim limits remain explicit.
-Next: verify canonical 0007, 이영식의 맥데이트 : 포스트스크립트와 새롭게 등장한 컴퓨터
-슈퍼마켓 / 이영식, from unchanged contents reference 226. Lookup candidates 226/228/224
-are not body assignments or a folio offset. Prove title/byline/opening/ending/adjacent
-ownership, then restore at most six actual pages after full page/crop review.
+September 1991 restoration is active: six readable/sample-reviewed articles,
+one non-owning group heading and 22 unresolved identities account for all 29 canonical
+TOC entries; no partial article remains. Batch 18 restores complete Macdate 0007,
+PDF 228–233/literal printed 226–231, including the original EPS listing image and
+searchable code, all equipment/photos/embedded-advert reproduction, five caption
+associations and closing mark. Canonical title/byline/reference 226 remain unchanged.
+Both exports contain 111 exact files: 30 regions, 14 blocks and six original figures.
+All 1,542 ranges pass in their own article/listing contexts, including 77 transcribed
+code rows, 247 tokens, 28 EPS headers, seven graphics rows and 38 decimal operands.
+An O/0 code glyph candidate remains explicit; exact code whitespace/bytes and execution
+are unverified. Ten prose joins, 13 headings and 23 printed quantity occurrences retain
+original claims and physical wraps without factual repair. All 30 crops/decoded PNGs,
+24 pinned OCR settings and ZIP CRC pass. All drafts read before one correction pass,
+zero recognition retries. All 10,478 prior files, thirty core modules and three adapters
+remain unchanged; all seventeen prior checkpoints revalidated. No reader rebuild.
+Next: verify canonical 0008, 언어 : 가자! C++의 세계로(2) : 클래스의 생성과 소멸 /
+이재규, then restore at most six actual pages, segmenting a longer body. Adjacent opening
+PDF 234/printed 232 and continuation 235 were reviewed as boundary context only.
+Contents reference 233 remains unchanged; do not infer an offset or extent from it.
 Install the pinned batch17 compuserve adapter before complete selected-package checks;
 it dispatches CompuServe, barcode and notebook formats. Full 406-page accounting,
 other bodies, cover, issue export and closeout remain pending.

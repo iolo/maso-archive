@@ -1105,12 +1105,60 @@
       "toc_entry_id": "maso-1991-09-toc-0007",
       "title": "이영식의 맥데이트 : 포스트스크립트와 새롭게 등장한 컴퓨터 슈퍼마켓",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 title/byline/reference226 match canonical0007 and source228 independent Macdate opening/title/byline. Source body affiliation 미국 컬럼비아 대학 retained independently. Canonical title/credit/parent/reference unchanged.",
+        "Complete six-page PDF228–233, literal printed226–231, ends with conclusion/closing mark233 before independent C++ article234 and continuation235. Prior224/226/227 advertisements outside. No global folio offset or canonical edit.",
+        "All six full mapped pages,30 original/six refined crops viewed before24 recognitions (one eng code,23 kor+eng other); all drafts read before one correction pass, zero retries. EPS original framed listing and77 transcribed rows/247 tokens/28 headers/seven graphics rows/38 numeric operands retain O/0 candidate and unverified source spacing/bytes/execution. Ten explicit prose joins, five caption associations, all six original figures,13 headings and23 source quantity occurrences validate. Both exports contain111 exact files; all1,542 contextual ranges and30 original crops pass. Printed values/historical/technical/price claims not repaired."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-18-r01/macdate",
+        "article_id": "scan-maso-1991-09-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-18-r01/macdate/manifest.json",
+          "sha256": "1dd055b2371a15adefe16ddef5acb156b67a65c1196a5778ecd731f2224b296f",
+          "bytes": 18790
+        },
+        "coverage": {
+          "pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233
+          ],
+          "printed_pages": [
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231"
+          ],
+          "regions": 30,
+          "blocks": 14,
+          "figures": 6,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-18/validation.json",
+          "sha256": "c18ed87651d881c20fb370d011af1771e1b5a929ab58b10938ad0f7901c21e20",
+          "bytes": 2080
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-18/reproduction.json",
+          "sha256": "629d7269b6eb98768141007c5f92750c3917df62e66edb15ed27f8ebe5c4d90e",
+          "bytes": 19838
+        },
+        "checkpoint": "batch-18"
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0008",
@@ -1889,14 +1937,47 @@
         "sha256": "3ffacec61f732470e3fce6510160b84756667e22c2a71d304d9f56061e82248c",
         "bytes": 44432
       }
+    },
+    {
+      "name": "1991-09-batch-18",
+      "status": "complete",
+      "completed_at": "2026-10-29T21:06:11.998661+00:00",
+      "goal": "Restore complete Macdate0007 PDF228–233 with literal EPS listing/original images and source-linked captions/values.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0007"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 24,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-18/validation.json",
+        "sha256": "c18ed87651d881c20fb370d011af1771e1b5a929ab58b10938ad0f7901c21e20",
+        "bytes": 2080
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-18/reproduction.json",
+        "sha256": "629d7269b6eb98768141007c5f92750c3917df62e66edb15ed27f8ebe5c4d90e",
+        "bytes": 19838
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 5,
+    "readable": 6,
     "partial": 0,
     "group_headings": 1,
-    "unresolved": 23
+    "unresolved": 22
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -1904,23 +1985,34 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-18",
-    "goal": "Verify canonical0007 이영식의 맥데이트 : 포스트스크립트와 새롭게 등장한 컴퓨터 슈퍼마켓 / 이영식 from unchanged contents reference226, then restore at most six actual source pages.",
+    "name": "1991-09-batch-19",
+    "goal": "Verify canonical0008 언어 : 가자! C++의 세계로(2) : 클래스의 생성과 소멸 / 이재규, then restore at most six actual pages, segmenting a longer article.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0007"
+      "maso-1991-09-toc-0008"
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
-      226,
-      228,
-      224
+      234,
+      235,
+      236
     ],
-    "canonical_reference": 226,
+    "canonical_reference": 233,
+    "known_adjacent_opening_observation": {
+      "pdf_page": 234,
+      "printed_page": "232",
+      "source_title": "클래스의 생성과 소멸",
+      "source_byline": "이재규",
+      "source_render": {
+        "path": "archive/pdf/1991-09/restoration/batch-18/source-review/pdf-234.png",
+        "sha256": "52c4e87f7a6081c62d790c0aeaba7236c13f9fe903ab165175db157a405d80be",
+        "bytes": 3351873
+      }
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Lookup candidates are not body assignments or a global folio offset. Verify source title/byline/opening/ending/adjacent ownership, then map only current bounded source pages. Segment a longer body. Preserve all complete article packages and non-owning parent0004. Install pinned batch17 compuserve_adapter before complete selected-package checks; it dispatches CompuServe, barcode and notebook formats. Full406-page accounting, cover, issue export and closeout remain pending."
+    "note": "Adjacent234 opening and235 continuation viewed as Macdate boundary context only; no C++ extraction/mapping yet. Contents reference233 remains unchanged despite observed opening folio232. Revalidate title/byline/extent/end/continuity; do not infer a global offset from the discrepancy or the next TOC reference. Review all full pages/crops before recognition; eng code, kor+eng other. Preserve source listing rows/comments/tokens/glyph candidates without syntax/semantic repair or execution. Keep all complete packages and non-owning parent0004 unchanged; install pinned batch17 compuserve adapter for complete-package checks. Full406-page accounting, cover, issue export and closeout remain pending."
   }
 }
