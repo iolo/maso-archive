@@ -44,20 +44,37 @@ paired OCR or a new engine comparison.
   added regions or post-OCR crop changes. All 32,616 pre-OCR archive files and thirty core
   modules remain exact; the unchanged 213-test baseline is reused.
 
-  Next batch50 restores final PDF344–348 as a second native, retaining the logic truth
-  tables, formulas, flip-flops, glossary and original diagrams. Upper348 ends with
-  트리거(trigger) and a terminal ornament; exclude its lower modem/PC-communications
-  advertisement. Page348 has no visible folio and remains null; the canonical page
-  reference also remains null. First343 SCR prose ends 전극으;344left starts
-  로 게이트(G)를 접속한 정류 소자로. Use an empty-separator incoming standard
-  segment_continuations declaration referencing hardware-a/p343-right-prose.
-  Actual full two-native assembly follows separately, with every native, source-local
-  and projected typed occurrence audited. Resume
-  `archive/pdf/1991-08/restoration/batch-49/handoff-complete.json`; do not rerun frozen helpers.
-  Review every final crop before OCR and read all raw drafts before one source pass.
-  Prepared351–354 remain uninspected. Page349 is an independent book advertisement;
-  350/364 opens the next school-program article, whose full extent remains unverified.
-  Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+  Batch50 restores final PDF344–348 in
+  `archive/pdf/1991-08/packages/batch-50-r01/hardware-b`. All 196 files match an independent
+  export; all 56 source-pixel crops, 44 pinned kor+eng settings and 4,661 typed occurrences
+  validate. The ending retains 34 blocks, twelve originals, four captions, four joined blocks
+  with ten boundaries, 201 spatial fields and 87 reading rows. Six gate truth tables retain
+  22 data rows; four flip-flop diagrams retain twelve data rows and fourteen overbar scopes.
+  The glossary retains 38 headings and 43 complete regional definition fragments, with all
+  five cross-column/page continuations. All 289 uncertainties and fifteen opaque variants
+  remain active. Printed states, D-table header 입, Qn entries, 응압비, 약해서, 전위치 and
+  kathode remain literal, without technical repair or execution. Upper348 glossary and
+  terminal ornament are retained; the lower unrelated communications advertisement is
+  excluded. Page348 has no visible folio and remains null; the canonical reference stays null.
+
+  All 55 initial crops, eight refinements and one added original title panel were reviewed
+  before 44 initial recognitions; all raw drafts were read before one source correction pass.
+  There were zero retries or post-OCR changes. All 33,161 pre-OCR archive files and thirty
+  core modules remain exact; the unchanged 213-test baseline is reused. A failed serializer
+  composition attempt remains retained; its fresh repair preserves the same source readings.
+  The original map's inaccurate title-motif count is explicitly corrected in the metadata;
+  the original pixels remain unchanged.
+
+  Next batch51 completes the actual hardware-basics assembly, PDF338–348, using immutable
+  hardware-a and hardware-b. All 365 native files must remain exact. Resolve343전극으→344로
+  with an empty separator. Audit every native, source-local and projected typed occurrence,
+  including segments[].original_metadata. Preserve all resistor/component/FET fields, gate
+  and flip-flop tables, overbar scopes, glossary fragments and source uncertainties.
+  No new mapping, OCR or source correction. Resume
+  `archive/pdf/1991-08/restoration/batch-50/handoff.json`; do not rerun frozen helpers.
+  Prepared351–354 remain uninspected. The next school-program article opens350/364;
+  its full extent remains unverified. Whole-issue accounting, index, cover and closeout
+  remain pending. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
