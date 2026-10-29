@@ -429,7 +429,8 @@
         "Matching original title/deck/three-part outline on PDF 198 and part I on 199 establish canonical 0002 ownership. Source title uses 데이타; canonical 데이터/reference 196 remains unchanged. PDF 198 has no visible folio and stays null; PDF 199–203 retain literal folios 197–201. Advertisement 197 precedes the title; closing prose/ornament/supplier table on 217 ends the feature before advertisements 218–219.",
         "Six-page opening 198–203 preserved as an immutable partial native: 59 exact regions, 41 blocks, eleven original images, three outline rows, five prose join groups, six application associations and eleven listed cases. All 48 initial drafts were read before one source correction pass, with zero retries. Patterned title, two blank blue captions and watermark-obscured prose on 201 were corrected directly from retained scans. Original barcode/bitmap glyphs and historical/technical claims remain unverified.",
         "Current market prose on 203 ends 비롯한; the left column on 205 resumes 자동인식 시스템 시장은 across the full-page POS sidebar on 204. The explicit future join is pending the next native; no source prose is discarded. Remaining 204–217 and complete assembly remain pending; eight interior pages remain uninspected.",
-        "Batch 10 preserves PDF 204–209/printed 202–207 as the second immutable native: 78 regions, 50 blocks, seventeen original images, eight prose join groups and fourteen caption associations. Both intrinsic sidebars, eight numbered diagrams, fourteen label regions, six compact table cells and the original/linearized PCR formula remain source-linked. All 61 initial drafts read before one correction pass, zero retries. The interrupted 203/205 market join is attested in both native download contexts across complete POS sidebar 204. Original strat character, M row, formula order, arithmetic and physical English wraps remain literal; glyph/barcode decoding and technical claims remain unverified. Twelve feature pages preserved; remaining 210–217 and full assembly pending. Current 209 파 continues on 210 장의 with an empty separator."
+        "Batch 10 preserves PDF 204–209/printed 202–207 as the second immutable native: 78 regions, 50 blocks, seventeen original images, eight prose join groups and fourteen caption associations. Both intrinsic sidebars, eight numbered diagrams, fourteen label regions, six compact table cells and the original/linearized PCR formula remain source-linked. All 61 initial drafts read before one correction pass, zero retries. The interrupted 203/205 market join is attested in both native download contexts across complete POS sidebar 204. Original strat character, M row, formula order, arithmetic and physical English wraps remain literal; glyph/barcode decoding and technical claims remain unverified. Twelve feature pages preserved; remaining 210–217 and full assembly pending. Current 209 파 continues on 210 장의 with an empty separator.",
+        "Batch 11 preserves PDF 210–215/printed 208–213 as the third immutable native: 54 regions, 32 blocks, twelve original images, six prose join groups and eight caption associations. Part II devices/decoder ending, Part III title/body and complete bookstore/video case-study sidebar remain source-linked. Nine references retain their own part numbering; thirteen configuration/value occurrences preserve 80MB/360MB and 20MB/40MB independently. All 42 drafts read before one source correction pass, zero retries; five crop extensions preceded OCR. Incoming 209 파 + 210 장의 verified against separate native downloads. Eighteen pages preserved; final 216–217 and full assembly pending. The Part III figure 2 reference on 215 remains deferred to 216; no dangling prose or sidebar at this boundary."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-09-r01/barcode-a",
@@ -552,6 +553,38 @@
               "sha256": "6f4d53db8033b5d9f133f3e72460d6b029aaefeb28fd50e9c1f43f6cadf43a63",
               "bytes": 8933
             }
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1991-09/packages/batch-11-r01/barcode-c",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-11-r01/barcode-c/manifest.json",
+              "sha256": "e72cf2185b3a6e2596ba1c58275adf265ef827645ca80af47c9e341e23625f69",
+              "bytes": 32352
+            },
+            "pdf_pages": [
+              210,
+              211,
+              212,
+              213,
+              214,
+              215
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-11/validation.json",
+              "sha256": "f2a0ce679abc324a9fd1933094d01757069bbf290da3f9a39d1660b2e917f8ef",
+              "bytes": 1894
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-11/reproduction.json",
+              "sha256": "bddd9af91eee53d6d537d28912d11fca2dad58339b4f1c25977cbd0c2f28dab4",
+              "bytes": 33405
+            },
+            "incoming_boundary": {
+              "path": "archive/pdf/1991-09/restoration/batch-11/boundary-join-from-b.json",
+              "sha256": "9449aa536ddefcf1cbb31ed4fa7c3849e32fdc8842f8b759be1001af2c771f92",
+              "bytes": 1787
+            }
           }
         ],
         "preserved_pdf_pages_across_natives": [
@@ -566,15 +599,15 @@
           206,
           207,
           208,
-          209
-        ],
-        "remaining_pdf_pages": [
+          209,
           210,
           211,
           212,
           213,
           214,
-          215,
+          215
+        ],
+        "remaining_pdf_pages": [
           216,
           217
         ],
@@ -582,13 +615,8 @@
         "full_source_extent": {
           "start_pdf_page": 198,
           "end_pdf_page": 217,
-          "uninspected_interior_pdf_pages": [
-            211,
-            213,
-            214,
-            215
-          ],
-          "note": "PDF 198–209 now mapped and preserved in two immutable natives. Outside 210 reviewed for outgoing continuity; earlier contexts 212/216/217 retained. Remaining 210–217 require restoration and interior continuity review before complete assembly."
+          "uninspected_interior_pdf_pages": [],
+          "note": "All PDF 198–215 now mapped and preserved in three immutable natives. Every interior page has been viewed; final 216–217 retain prior source review but require restoration before full assembly. Part II ends 212 and Part III starts 213. Main prose and intrinsic two-case sidebar end locally on 215; 216 begins a new construction section."
         }
       }
     },
@@ -1253,6 +1281,39 @@
         "sha256": "dc15c45e4bd075190907dfe6058339a0641e9fdd03073fcbf3d7e090b0de8fe9",
         "bytes": 47739
       }
+    },
+    {
+      "name": "1991-09-batch-11",
+      "status": "complete",
+      "completed_at": "2026-10-29T19:01:32.024366+00:00",
+      "goal": "Restore barcode 210–215, Part II ending/Part III opening and complete case-study sidebar; attest incoming 209/210 boundary.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0002"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 42,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-11/validation.json",
+        "sha256": "f2a0ce679abc324a9fd1933094d01757069bbf290da3f9a39d1660b2e917f8ef",
+        "bytes": 1894
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-11/reproduction.json",
+        "sha256": "bddd9af91eee53d6d537d28912d11fca2dad58339b4f1c25977cbd0c2f28dab4",
+        "bytes": 33405
+      }
     }
   ],
   "totals": {
@@ -1268,22 +1329,18 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-11",
-    "goal": "Restore barcode continuation 210–215 after full source/crop review and attest incoming 209/210 ink paragraph boundary.",
+    "name": "1991-09-batch-12",
+    "goal": "Restore final barcode pages 216–217, including Part III figure 2, construction/cost conclusion and supplier table, before a separate full assembly.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0002"
     ],
     "mapping_targets": [
-      210,
-      211,
-      212,
-      213,
-      214,
-      215
+      216,
+      217
     ],
     "reusable_source_review": [
-      "archive/pdf/1991-09/restoration/batch-10/source-review/pdf-210.png",
-      "archive/pdf/1991-09/restoration/batch-09/source-review/pdf-212.png"
+      "archive/pdf/1991-09/restoration/batch-11/source-review/pdf-216.png",
+      "archive/pdf/1991-09/restoration/batch-09/source-review/pdf-217.png"
     ],
     "known_extent": {
       "start_pdf_page": 198,
@@ -1294,6 +1351,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "PDF 210 was reviewed as the current outgoing lookup; 212 retains an earlier lookup render/review. Review all six current pages and every selected crop before OCR. Current 209 ink paragraph ends 파 and 210 begins 장의 빛에서 PCR이; preserve both immutable native contexts and use an empty join. Final 216–217 and a separate complete barcode assembly follow. All previous packages and pinned notebook adapter remain unchanged."
+    "note": "215 main prose and intrinsic case-study sidebar conclude locally. 216 starts a new construction section and contains Part III figure 2 referenced on 215. Preserve all source table rows/cells, original photographs and closing mark. 217 ends the whole feature before independent advertisement 218. Keep all three immutable natives and existing boundary attestations. A separate complete 198–217 assembly must consume all four natives."
   }
 }

@@ -25,21 +25,22 @@ paired OCR or a new engine comparison.
 
 September 1991 restoration is active: two readable/sample-reviewed articles,
 one partial feature and 26 unresolved identities account for 29 canonical TOC entries.
-Batch 10 restores barcode feature 0002's continuation, PDF 204–209, as a second
-immutable native. Twelve of its twenty pages, PDF 198–209, are now preserved.
-The complete POS sidebar, part I market ending, part II opening and complete
-apocalypse sidebar are retained with seventeen original images. Eight numbered
-diagrams have separate caption/label evidence; six compact table cells and the
-PCR formula keep their printed values and original image pixels.
-Both exports contain 269 exact files. All 78 crops, 776 typed ranges, 61 OCR settings,
-78 decoded images and ZIP integrity pass. All 61 raw drafts were read before one
-source correction pass, with zero retries. The interrupted 203/205 market join is
-verified in both native download contexts across the complete POS sidebar on 204.
-Next: restore 210–215 and attest the 209/210 ink-paragraph continuation, 파/장의.
-Final 216–217 and full barcode assembly follow. The complete notebook feature
-116–147 and all prior packages remain unchanged. Canonical titles/reference 196
-and source 데이타 spelling remain independent. Full 406-page issue accounting,
-other bodies, cover, issue export and closeout remain pending.
+Batch 11 restores barcode feature 0002's continuation, PDF 210–215, as its third
+immutable native. Eighteen of twenty pages, PDF 198–215, are now preserved.
+Part II ends on 212; the original Part III title starts on 213. The complete
+bookstore/video case-study sidebar spans 214–215 and ends locally, as does the
+main PC-system discussion. Eight caption associations and nine source references
+retain their own part numbering. Thirteen configuration/value occurrences preserve
+bookstore 80MB/360MB and video 20MB/40MB independently.
+Both exports contain 188 exact files. All 54 crops, 579 typed ranges, 42 OCR settings,
+54 decoded images and ZIP integrity pass. All 42 raw drafts were read before one
+source correction pass, with zero retries. Five crop extensions preceded OCR.
+The incoming 209/210 파/장의 continuation is verified in both native download contexts.
+Next: restore final 216–217, including Part III figure 2, construction/cost conclusion
+and supplier table, then assemble the full barcode feature in a separate checkpoint.
+The complete notebook feature 116–147 and all prior packages remain unchanged.
+Canonical titles/reference 196 and source 데이타 spelling remain independent.
+Full 406-page issue accounting, other bodies, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
