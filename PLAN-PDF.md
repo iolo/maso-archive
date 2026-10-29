@@ -32,33 +32,33 @@ records below are historical and do not authorize a new rebuild.
 ## September 1991 active, 2026-10-30
 
 September 1991 restoration is active: seven readable/sample-reviewed articles,
-one non-owning group heading and 21 unresolved identities account for all 29 canonical
-TOC entries; no partial article remains. Batch 21 completes C++ 0008, PDF 234–241/
-literal printed 232–239, from exact Batch19/20 natives. Canonical title/byline/reference
-233 remain unchanged despite observed opening folio 232. The sole cross-native empty
-239→240 join resolves 이와 같이 across the retained current-page category label.
-Both exports contain 385 exact files, including all 376 exact native files and complete
-original metadata. All 3,708 current ranges pass: 429 core, 3,276 metadata and three
-resolution ranges; all 3,278 native ranges independently verified in their own contexts.
-All 27 original code/output panels and 24 separate code blocks retain 156 regional rows,
-471 whitespace tokens, 39 comments, 18 strings, 377 identifier occurrences, twelve output
-rows, 15 numbered items/three code callouts, thirteen literal anomalies/four candidates,
-sixteen headings and 551 nonblank transcription rows. Exact native code/example LF
-boundaries, original title illustration/alias diagram/conclusion/closing mark and lower
-241 advertisement exclusion remain. Source bytes/spacing/glyph identities/execution and
-technical claims remain unverified; no semantic repair. All 112 crops/PNG decodes,
-82 OCR settings and three ZIPs pass; fresh-process 385-file rebuild matches. Six invalid
-inputs rejected. All 12,021 prior files, thirty core modules and three prior adapters
-unchanged; all twenty previous checkpoints revalidated. No mapping/OCR/source correction
-or reader rebuild. New pinned private C++ adapter preserves dual-download metadata and
-dispatches earlier CompuServe/barcode/notebook adapters; shared core unchanged.
-Next: verify canonical 0009 원리구현 ownership/classification and child 0010 한글 내장
-통신 에뮬레이터의 제작(마지막회) / 황태욱. Opening 242/printed 240 and continuation
-243 were reviewed as C++ boundary context only; revalidate identity/extent/end/continuity,
-then map at most six actual child pages, segmenting a longer body. Keep parent reference
-240 and child null reference unchanged. Install pinned Batch21 cpp_adapter before
-complete-package checks. Full 406-page accounting, other bodies, cover, issue export
-and closeout remain pending.
+one partial article, two non-owning group headings and 19 unresolved identities account
+for all 29 canonical TOC entries. Batch 22 classifies 원리구현 0009 as non-owning and
+restores child 0010, 한글 내장 통신 에뮬레이터의 제작(마지막회) / 황태욱, on its
+first six pages PDF 242–247/printed 240–245. The full body has eleven noncontiguous
+pages: 242–247 plus 382–386/printed 380–384. Page 247 points to380 and 382 points back
+to245; all eleven actual body pages viewed. Final 382–386 and actual full assembly
+remain pending. Parent reference240 and child null own reference unchanged.
+Both selected r02 exports contain 141 exact files: 39 regions, 17 blocks, eight original
+figures. All 4, 289 typed ranges pass in their own article/listing contexts:287 regional
+code rows, 836 whitespace tokens, 491 identifiers, 33 macro rows, 87 numeric literals and
+14 function definitions. Three flowcharts/28 bitmap label candidates, three framed
+EHAN.C pages, 12 glossary items, 12 headings, ten quantity claims and 459 nonblank rows
+remain source-linked. Fourteen joins include five code fragments/nine prose joins.
+Sixteen code operator/O-zero/clipped-row candidates and 21 Hangul jamo candidates remain
+explicit; no semantic repair or execution. Enlarged source confirms 종성, superseding
+an incorrect pre-OCR working note. Both failed correction helpers retained within the
+same source pass; metadata-only r02 retains reproducible original r01 and exact text/raw.
+All 39 source crops/PNG decodes, 31 OCR settings and ZIP CRC pass. All drafts read before
+one correction pass, zero retries. All 12, 431 prior files, thirty core modules/four adapters
+unchanged;all 21 prior checkpoints revalidated. No reader rebuild.
+Next: restore final five child 0010 pages382–386 as a second immutable native, including
+EHAN.C tail, EHAN2.C, COMBINE.C andKEY.C, excluding lower386 advertisement. Then assemble
+all eleven noncontiguous pages separately from exact natives;retain source 247 clipped
+row and all literal operator/keyboard glyph uncertainty. Keep parent 0009 non-owning,
+parent 240/childnull references unchanged. Install pinned Batch 21 cpp_adapter for complete
+checks;it dispatches C++/CompuServe/barcode/notebook. Full 406-page accounting, other bodies,
+cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

@@ -1392,23 +1392,150 @@
       "toc_entry_id": "maso-1991-09-toc-0009",
       "title": "원리구현",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 groups three independent titles/authors under 원리구현 reference240, matching canonical parent/child hierarchy. No independent parent article title/byline/body is assigned.",
+        "242 category tile 원리구현 accompanies child0010 own title 한글 입력, 황태욱 byline and series-final introduction;243 running series gives full canonical child title.250 independent BASIC child0011 title/byline repeats same category tile. Parent remains non-owning category, not a substitute for these bodies.",
+        "Parent reference240 and child0010 null own reference remain unchanged;242 folio240 identifies actual child opening without copying parent reference into child."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1991-09/restoration/batch-22/parent-classification.json",
+        "sha256": "930077dc6c6b449f44f81902d1251c17e1b1d14a30ba8281b6320695022e5940",
+        "bytes": 1924
+      },
+      "classification_application": {
+        "path": "archive/pdf/1991-09/restoration/batch-22/parent-classification-applied.json",
+        "sha256": "bef7fdda1f9dec3f9ea67be7054fd2f22b112ecbe457bb18f410b80eeca625a9",
+        "bytes": 780
+      },
+      "ownership_review": "resolved-from-canonical-parentage-source-contents-group-and-independent-child-openings"
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0010",
       "title": "한글 내장 통신 에뮬레이터의 제작(마지막회)",
       "parent_id": "maso-1991-09-toc-0009",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 child title/author match242 own title 한글 입력, introduction/byline 황태욱 and243 full final-series running title. Parent0009 원리구현 is non-owning. Parent reference240 and child null own reference unchanged; source affiliation 경북대 전자공학과 independent.",
+        "Actual eleven-page body is noncontiguous242–247/printed240–245 plus382–386/printed380–384. Prose concludes245 but listing247 points to380 and382 points back to245.382 ends EHAN.C/starts EHAN2.C;383 continues;384 ends EHAN2.C/includes COMBINE.C/starts KEY.C;385–386 finish KEY.C.381 unrelated serial-port article, lower386 advertisement and387 reader-section divider establish outside boundaries. All11body pages viewed, no inferred global offset.",
+        "Batch22 restores only242–247 first six pages:39 regions,17 blocks,eight original figures and31 OCR records. All full pages/39 crops before31 recognitions,six eng code/25 kor+eng other;all drafts read before one correction pass,zero retries. Three original flow diagrams and28 bitmap label candidates,three framed EHAN.C pages,category tile andclosing mark retained.",
+        "Both selectedr02 exports141 exact files;all4289 typed ranges,459 nonblank transcription rows,14 joins (five code/nine prose),287 regional code rows/836 tokens/491 identifiers/33 macro rows/87 numeric literals/14 definitions,12 glossary items/12 headings/ten quantities pass. Sixteen operator/O-zero/clipped-row candidates and21 Hangul jamo candidates remain explicit; six source anomalies not semantically repaired. All39 crops/PNGs,31 settings/ZIP pass;12431 prior files/30 core/four adapters unchanged.",
+        "Enlarged source confirms 종성, superseding pre-OCR working-note assumption. Two helper assertions corrected within same source pass before reviewed files were written;source/raw unchanged. Metadata-onlyr02 fixes assistant notice/reference/boundary wording;originalr01 and reproducible recipe preserved,all text/raw files exact. Final382–386 and actual complete assembly remain pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-22-r02/hangul-a",
+        "article_id": "scan-maso-1991-09-toc-0010",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-22-r02/hangul-a/manifest.json",
+          "sha256": "c2f059961fcdabc142879a9041646a1aaf8ab93bea517a18ce233dfad4f40eb7",
+          "bytes": 24001
+        },
+        "coverage": {
+          "pdf_pages": [
+            242,
+            243,
+            244,
+            245,
+            246,
+            247
+          ],
+          "printed_pages": [
+            "240",
+            "241",
+            "242",
+            "243",
+            "244",
+            "245"
+          ],
+          "regions": 39,
+          "blocks": 17,
+          "figures": 8,
+          "deferred_pdf_pages": [
+            382,
+            383,
+            384,
+            385,
+            386
+          ],
+          "remaining_extent_unverified": false
+        },
+        "actual_start_pdf_page": 242,
+        "actual_end_pdf_page": 386,
+        "full_source_extent": {
+          "pdf_pages": [
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            382,
+            383,
+            384,
+            385,
+            386
+          ],
+          "source_segments": [
+            {
+              "pdf_pages": [
+                242,
+                243,
+                244,
+                245,
+                246,
+                247
+              ],
+              "printed_pages": [
+                "240",
+                "241",
+                "242",
+                "243",
+                "244",
+                "245"
+              ]
+            },
+            {
+              "pdf_pages": [
+                382,
+                383,
+                384,
+                385,
+                386
+              ],
+              "printed_pages": [
+                "380",
+                "381",
+                "382",
+                "383",
+                "384"
+              ]
+            }
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Noncontiguous body242–247 plus382–386. Current native first six pages only;final382–386 source listing and full assembly pending. Explicit forward/back notices retained; do not assign intervening248–381 to this article."
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-22/validation.json",
+          "sha256": "a87bb24603d58dafba48e3c840cfaaca7d538ab4cfc36ef338e97d65009a7548",
+          "bytes": 3100
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-22/reproduction.json",
+          "sha256": "800cc6f4800314770ebc725c8693dcef9c2ac099ed28b1bf7f4c90539bbad48f",
+          "bytes": 25066
+        },
+        "checkpoint": "batch-22"
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0011",
@@ -2274,14 +2401,53 @@
         "sha256": "ed6c199ab59cfdf9f0e31b93d562bfdfa6fbf3cb5c5f2ce1c3e6757614b47b49",
         "bytes": 71828
       }
+    },
+    {
+      "name": "1991-09-batch-22",
+      "status": "complete",
+      "completed_at": "2026-10-29T22:14:21.836690+00:00",
+      "goal": "Classify non-owning 원리구현 parent0009 and restore first six child0010 pages242–247 with original diagrams/literal EHAN.C;noncontiguous382–386 deferred.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0009",
+        "maso-1991-09-toc-0010"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247
+      ],
+      "outside_lookup_pages": 18,
+      "recognition_invocations": 31,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-22/validation.json",
+        "sha256": "a87bb24603d58dafba48e3c840cfaaca7d538ab4cfc36ef338e97d65009a7548",
+        "bytes": 3100
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-22/reproduction.json",
+        "sha256": "800cc6f4800314770ebc725c8693dcef9c2ac099ed28b1bf7f4c90539bbad48f",
+        "bytes": 25066
+      },
+      "parent_classification": {
+        "path": "archive/pdf/1991-09/restoration/batch-22/parent-classification.json",
+        "sha256": "930077dc6c6b449f44f81902d1251c17e1b1d14a30ba8281b6320695022e5940",
+        "bytes": 1924
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
     "readable": 7,
-    "partial": 0,
-    "group_headings": 1,
-    "unresolved": 21
+    "partial": 1,
+    "group_headings": 2,
+    "unresolved": 19
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -2289,25 +2455,40 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-22",
-    "goal": "Verify canonical0009 원리구현 ownership/classification and child0010 한글 내장 통신 에뮬레이터의 제작(마지막회) / 황태욱; restore at most six actual child pages after source identity/extent review.",
+    "name": "1991-09-batch-23",
+    "goal": "Restore final five noncontiguous child0010 source pages382–386/printed380–384 as second immutable native, then actual full eleven-page assembly separately.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0009",
       "maso-1991-09-toc-0010"
     ],
-    "mapping_targets": [],
-    "initial_lookup_candidates": [
-      242,
-      243,
-      244
+    "mapping_targets": [
+      382,
+      383,
+      384,
+      385,
+      386
     ],
-    "parent_canonical_reference": 240,
-    "child_canonical_reference": null,
+    "known_extent": {
+      "pdf_pages": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        382,
+        383,
+        384,
+        385,
+        386
+      ],
+      "actual_start_pdf_page": 242,
+      "actual_end_pdf_page": 386
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Source242 한글 입력 opening with 원리구현 category and 황태욱 byline,243 running 한글 내장 통신 에뮬레이터의 제작 [마지막회], previously viewed only as C++ adjacent context. Revalidate against contents4 and parent/child identities; do not give parent an independent body or copy its reference to child without evidence. Verify actual ending/continuity before bounded mapping; segment longer body. Preserve original Hangul diagrams/code/labels/comments and literal technical claims, eng code/kor+eng other; no semantic repair/execution. Keep all complete packages and parent0004 unchanged. Install pinned Batch21 cpp_adapter for complete-package checks; it dispatches C++/CompuServe/barcode/notebook. Full406-page accounting/cover/issue export/closeout pending."
+    "note": "All11body pages viewed;382 notice points back to245 and247 notice points to380. Map382–386 only,exclude lower386 advertisement. Preserve EHAN.C top382 tail,EHAN2.C382–384,COMBINE.C384 andKEY.C384–386 with original framed images,physical rows/comments/macro resets/ordered array cells andkeyboard glyph candidates. Source247 final row partly clipped remains explicit,not repaired from expected semantics. PreviousnativeEHAN.C already ends with oneLF;future block boundary needs empty separator while regional row separator is LF. Preserve originalcode !!/!=/O-zero candidates,dafault/missing semicolons andall native text/metadata. Parent0009 non-owning andcanonical parent240/childnull references unchanged. Install pinned Batch21 cpp_adapter for complete checks;core30 modules remain unchanged. Keep exactr02 selection andoriginalr01 revision/reproduction. Full406-page accounting/other bodies/cover/issue export/closeout pending."
   }
 }
