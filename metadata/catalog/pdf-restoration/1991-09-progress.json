@@ -892,7 +892,8 @@
       "classification_evidence": [
         "Contents4 title/byline and source172 independently titled 컴퓨서브의 유용한 가정정보들 / 글·윤영희 (넥서스 정보센터), with running series 컴퓨터를 이용한 정보 활용5, establish canonical0006. Parent0004 remains a non-owning category; canonical title/credit/parent and null own page reference unchanged.",
         "All seven body pages172–178 inspected, literal printed170–176. Prior165–171 are advertisements. Final178 has Hobbies/Arts menus, original screenshot, conclusion and closing mark before independent advertisement179. Current native restores only first six172–177; final178 and complete assembly remain pending.",
-        "All six full mapped pages,53 original/two extended crops reviewed before42 initial recognitions; all raw drafts read before one source correction pass, zero retries. Original nine menu images and eighty numbered items retain explicit source row/column positions, including AP two-column layout. Eight explicit column/page joins, independent quotation/byline and original house/village illustration retained. Printed Travel Fourms/Eaasy Sabre and menu/body label variants remain literal; historical/technical/health/finance claims unverified."
+        "All six full mapped pages,53 original/two extended crops reviewed before42 initial recognitions; all raw drafts read before one source correction pass, zero retries. Original nine menu images and eighty numbered items retain explicit source row/column positions, including AP two-column layout. Eight explicit column/page joins, independent quotation/byline and original house/village illustration retained. Printed Travel Fourms/Eaasy Sabre and menu/body label variants remain literal; historical/technical/health/finance claims unverified.",
+        "Batch16 restores final178/printed176 as second immutable native:11 regions,7 blocks,4 original images, two menus/25 numbered items and original screenshot/conclusion/closing mark. One changed-conclusion crop repair before correction restores clipped right-edge characters; all7+1 drafts read before one source pass, six unchanged recognitions reused, zero unchanged-input retries. All seven pages now preserved across two natives, but complete assembly remains pending. Hobbies item11 Forum F candidate remains linked to original blemished scan pixels; printed80만/80% and other historical claims unverified."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-15-r01/compuserve-a",
@@ -967,6 +968,28 @@
               "sha256": "f37de73d47cbaa4c20ce1165f512510e2484631b4ce4ed3a506f1f210890dc49",
               "bytes": 33495
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-09/packages/batch-16-r02/compuserve-b",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-16-r02/compuserve-b/manifest.json",
+              "sha256": "128aebf50f340fff5f90bbc97134852c430f22e744e3e751c3344eee3e9e68bf",
+              "bytes": 6930
+            },
+            "pdf_pages": [
+              178
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-16/validation.json",
+              "sha256": "0cbbfd8eabf8bd157203b7b8cbab084d4b309268d94e63b086122de526e97820",
+              "bytes": 2009
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-16/reproduction.json",
+              "sha256": "404e531c6e40ad23c9969db4d1405a3011ca0bd6da852aa2a06c39d3d1615e10",
+              "bytes": 8013
+            }
           }
         ],
         "preserved_pdf_pages_across_natives": [
@@ -975,12 +998,11 @@
           174,
           175,
           176,
-          177
-        ],
-        "remaining_pdf_pages": [
+          177,
           178
         ],
-        "all_body_pages_preserved_across_natives": false,
+        "remaining_pdf_pages": [],
+        "all_body_pages_preserved_across_natives": true,
         "full_source_extent": {
           "start_pdf_page": 172,
           "end_pdf_page": 178,
@@ -1004,7 +1026,7 @@
           ],
           "uninspected_interior_pdf_pages": [],
           "all_source_body_pages_inspected": true,
-          "note": "All seven body pages inspected. Only first six172–177 restored in this native; final178 Hobbies/Arts menus, screenshot/conclusion/mark and full seven-page immutable assembly remain pending. Hobbies introduction closes locally on177, so no interrupted prose join at177/178; source section/menu continuity still requires an explicit assembly association."
+          "note": "All seven body pages172–178 now preserved across two immutable natives. Final178 Hobbies/Arts menus, original screenshot, conclusion/closing mark precede independent advertisement179. Hobbies introduction177 closes locally before its menu178; complete assembly must retain source-local section association without a prose join. Full seven-page assembly remains pending; availability stays partial."
         }
       }
     },
@@ -1740,6 +1762,37 @@
         "sha256": "f37de73d47cbaa4c20ce1165f512510e2484631b4ce4ed3a506f1f210890dc49",
         "bytes": 33495
       }
+    },
+    {
+      "name": "1991-09-batch-16",
+      "status": "complete",
+      "completed_at": "2026-10-29T20:26:19.182868+00:00",
+      "goal": "Restore final178 of CompuServe article0006 with two menus, original screenshot/conclusion/closing mark.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0006"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        178
+      ],
+      "outside_lookup_pages": 2,
+      "initial_recognitions": 7,
+      "changed_input_repairs": 1,
+      "recognition_invocations": 8,
+      "recognition_retries": 1,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-16/validation.json",
+        "sha256": "0cbbfd8eabf8bd157203b7b8cbab084d4b309268d94e63b086122de526e97820",
+        "bytes": 2009
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-16/reproduction.json",
+        "sha256": "404e531c6e40ad23c9969db4d1405a3011ca0bd6da852aa2a06c39d3d1615e10",
+        "bytes": 8013
+      }
     }
   ],
   "totals": {
@@ -1755,14 +1808,12 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-16",
-    "goal": "Restore final source178/printed176 of canonical0006 CompuServe article: Hobbies and Arts/Music/Literature menus, prose, original screenshot, conclusion and closing mark.",
+    "name": "1991-09-batch-17",
+    "goal": "Assemble complete seven-page CompuServe article172–178 from two exact immutable natives, preserving all original metadata and projecting current/native menu/heading/variant/row indexes.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0006"
     ],
-    "mapping_targets": [
-      178
-    ],
+    "mapping_targets": [],
     "known_extent": {
       "start_pdf_page": 172,
       "end_pdf_page": 178
@@ -1772,6 +1823,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve exact first native172–177 and all source metadata. Final178 and advertisement179 already inspected; revalidate boundary177/178 and original source ending/mark. Keep Hobbies section/menu association across177/178 explicit without inventing a prose join. Preserve all final menu labels/numbers/rows, screenshot pixels and source claims. Once final native is exported/independently validated, use a separate complete seven-page assembly checkpoint before availability becomes readable. All prior notebooks/barcode/interview/parent classification unchanged; install pinned batch13 barcode adapter for complete-package checks. Full issue accounting, other bodies, cover, export and closeout remain pending."
+    "note": "No new mapping/OCR/source correction. Consume exact batch15 nativea and batch16-r02 nativeb, retaining original batch16-r01 metadata history and original/derived OCR provenance. No interrupted prose join: keep Hobbies heading/introduction177 and menu178 in an explicit section association with each original native context. Preserve all eleven original menu images/105 numbered items/four headers, AP two-column rows, source F candidate, independent quotation/conclusion, all title/byline/category/series/heading/literal/variant indexes, source screenshot/house/village/closing pixels and literal folios170–176. Keep thirty core modules unchanged; use a pinned local assembly adapter if needed. Independently rebuild/validate full package before readable. All other packages, parent0004 and full issue accounting/cover/export/closeout remain pending or unchanged as appropriate."
   }
 }

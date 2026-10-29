@@ -33,26 +33,26 @@ records below are historical and do not authorize a new rebuild.
 
 September 1991 restoration is active: four readable/sample-reviewed articles,
 one partial article, one non-owning group heading and 23 unresolved identities
-account for all 29 canonical TOC entries. Batch 15 verifies canonical0006, the
-CompuServe home-information article, across PDF172–178/printed170–176 and restores
-its first six pages172–177 as an immutable native. Final178 and complete seven-page
-assembly remain pending. Parent0004 and complete interview0005 remain unchanged.
-The native retains nine original menu images with eighty numbered items, including
-the AP menu's two-column positions, plus the original house/village illustration,
-quotation, byline and eight explicit prose joins. Both exports contain 187 exact
-files; 934 typed ranges, 53 exact crops/decoded PNGs, 42 pinned OCR settings and
-ZIP CRC pass. All42 raw drafts were read before one source correction pass, zero
-recognition retries. A helper count assertion90 was corrected to actual80 within
-the same pass; its original failed helper remains retained. Source Travel Fourms,
-Eaasy Sabre and menu/body label differences remain literal without factual repair.
-All 9,383 prior September files, thirty core modules and both adapters remain exact;
-all fourteen earlier checkpoints revalidated. No reader rebuild.
-Next: restore final178/printed176 of child0006: Hobbies and Arts/Music/Literature
-menus, prose, original screenshot, conclusion and closing mark. Preserve the exact
-first native and explicit Hobbies section/menu continuity from177; no interrupted
-prose join is needed. Then assemble the complete seven-page article separately.
+account for all 29 canonical TOC entries. Batch 16 restores final CompuServe page178/
+printed176. All seven source pages172–178 are now preserved across two immutable
+natives; actual complete article assembly remains pending, so availability stays partial.
+The final native retains two original menus/25 numbered items, arts prose, original
+screenshot, conclusion and closing mark. All179 typed ranges,11 exact crops/decoded
+PNGs, seven selected OCR settings and ZIP CRC pass; both exports contain40 exact files.
+One changed-conclusion crop repair restores right-edge characters before correction.
+All7+1 raw drafts were read before one source pass; six unchanged recognitions reused,
+zero unchanged-input retries. Source Hobbies item11 Forum F remains an explicit
+candidate linked to a white scan blemish; printed80만/80% claims remain unverified.
+A metadata-only revision improves assistant wording without changing source text;
+original r01 package/recipe/corrections/reproduction remain exact and reproducible.
+All9,983 prior September files, thirty core modules and both adapters remain exact;
+all fifteen earlier checkpoints revalidated. No reader rebuild.
+Next: assemble complete CompuServe172–178 from exact nativea/b pins. Preserve all
+original metadata and105 numbered menu items, four menu headers, AP row/column positions,
+the F candidate and every source/native context. Associate Hobbies introduction177 with
+menu178 explicitly; no prose join is needed. No new mapping, OCR or source correction.
 Install the pinned batch13 barcode adapter before checking complete selected packages;
-it dispatches barcode and notebook formats. Full 406-page accounting, other bodies,
+it dispatches barcode and notebook formats. Full406-page accounting, other bodies,
 cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
