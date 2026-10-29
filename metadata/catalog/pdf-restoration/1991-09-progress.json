@@ -36,7 +36,8 @@
         "Batch03 preserves122–127/printed120–125 as a second immutable native. Earlier116–121 remains exact;12pages preserved so far. Final8thbenchmarkchart/comment ends147/145,next148–150ads. Endpoint is now observed,but uninspected133–142 andremaining128–147bodycoverage/assembly remain pending. Canonical124 unchanged. 64regions44blocks12originalimages,8joins,9captionassociations and6tablerows/14cells retained;sourcepercentages total101without normalization. Caption2rightedge repairedonce before correction,51unchangedrecognitions reused;one correctionpass. Unknownwordreading remains explicit.",
         "Batch04preserves128–133/printed126–131asthirdimmutable native. PartIIends133withconclusion/closingornament/fourreferences;134independentintrinsicpartIIItitle. Incoming127슬립+128모드(Sleep Mode)verified in separatelypinnednative downloadcontexts withoutmutatingoldmetadata. 50regions29blocks10originalimages/sevenjoins/eightcaptionassociations/fourreferences preserved.40initialrecognitions,onecorrectionpass,zero retries. EatherNet,PCUREER,register/bitcases,386SLsidebarandprintedwording remainliteral;flowchartmodemlabel/glyph/hardwareverification staysvolunteertask.18featurepagespreserved;134–147andcompleteassemblypending.",
         "Batch05 preserves 134–139/printed 132–137 as fourth immutable native: independent part III title, main buying-guide prose through conclusion 138 and six model profiles. Sixty exact regions, 50 blocks, seven original images, three internal joins, six photo/title associations and 42 independent specification fields retained. 53 initial recognitions and one changed-crop repair precede one source correction pass; 52 unchanged drafts reused, zero unchanged-input retries. Historical values and printed errors including 3.25-inch/FTN/model 20 and independent profile/prose values retained. Twenty-four feature pages preserved; 140–147 and complete assembly pending.",
-        "Batch06 preserves PDF 140–145/printed 138–143 as a fifth immutable native: four final profiles, 28 exact specification fields, complete display/keyboard comparison panels and twenty caption occurrences. All 62 exact regions, 36 blocks, 24 original photos, 24 photo/title-or-caption associations and two column joins are retained. Thirty-eight initial recognitions precede one source correction pass, with zero retries. GW-BAIC, 680/600×480, DC-8140, sysLIT286, independent key-count variants and explicit small-glyph/DP-like uncertainties remain source-linked. Thirty feature pages preserved; 146–147 and complete assembly pending."
+        "Batch06 preserves PDF 140–145/printed 138–143 as a fifth immutable native: four final profiles, 28 exact specification fields, complete display/keyboard comparison panels and twenty caption occurrences. All 62 exact regions, 36 blocks, 24 original photos, 24 photo/title-or-caption associations and two column joins are retained. Thirty-eight initial recognitions precede one source correction pass, with zero retries. GW-BAIC, 680/600×480, DC-8140, sysLIT286, independent key-count variants and explicit small-glyph/DP-like uncertainties remain source-linked. Thirty feature pages preserved; 146–147 and complete assembly pending.",
+        "Batch07 preserves PDF 146–147/printed 144–145 as a sixth immutable native: eight tests, ten plotted series, ten legend entries, 99 printed decimal labels, 40 axis labels and one explicit source-absent third slot in test 2. The NP-902 bar/value is absent in the source; no number is invented. All 53 exact regions, 44 blocks, nine original chart/legend images and nine title/legend associations are retained. Forty-four initial recognitions precede one paused/resumed source correction pass, with zero retries. All 32 feature pages preserved; complete assembly pending. Printed legend clocks and 80286/8086/8088 prose variants remain literal."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a",
@@ -226,9 +227,32 @@
               "sha256": "4d115f543825f116dc57016913b5855a25b825331ca03715e5bea5f62bea96b9",
               "bytes": 33827
             }
+          },
+          {
+            "name": "f",
+            "directory": "archive/pdf/1991-09/packages/batch-07-r01/notebook-f",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-07-r01/notebook-f/manifest.json",
+              "sha256": "b8cb16de4ca875963f8a2c1d30caec6c54b5937eeccc7f9af7717039bdfaf670",
+              "bytes": 33458
+            },
+            "pdf_pages": [
+              146,
+              147
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-07/validation.json",
+              "sha256": "f7c953ca5cd8ff22a29c1ec320bec6d1c1b36efaa192b461cad051cc3d0a2cd2",
+              "bytes": 1643
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-07/reproduction.json",
+              "sha256": "bfbfba8b4427f3b6d2d7d4e50fc8dd1b40491e985d84098c4cb3becb0480554a",
+              "bytes": 34515
+            }
           }
         ],
-        "all_body_pages_preserved_across_natives": false,
+        "all_body_pages_preserved_across_natives": true,
         "preserved_pdf_pages_across_natives": [
           116,
           117,
@@ -259,17 +283,16 @@
           142,
           143,
           144,
-          145
-        ],
-        "remaining_pdf_pages": [
+          145,
           146,
           147
         ],
+        "remaining_pdf_pages": [],
         "full_source_extent": {
           "start_pdf_page": 116,
           "end_pdf_page": 147,
           "uninspected_interior_pdf_pages": [],
-          "note": "Endpoints 116/147 observed. All 116–145 mapped and preserved; final 146–147 have retained boundary/extent review but are not restored. All interior source pages now directly reviewed. Main part III prose closes on 138; final profiles 140–141 and display/keyboard comparisons 142–145 precede independent benchmark results 146–147."
+          "note": "All feature pages 116–147 now directly reviewed and preserved across six immutable natives. Final test 8 plot/comment end on 147; independent advertisement 148 confirms boundary. Complete assembly remains pending."
         }
       }
     },
@@ -825,6 +848,35 @@
         "sha256": "4d115f543825f116dc57016913b5855a25b825331ca03715e5bea5f62bea96b9",
         "bytes": 33827
       }
+    },
+    {
+      "name": "1991-09-batch-07",
+      "status": "complete",
+      "completed_at": "2026-10-29T17:49:14.632323+00:00",
+      "goal": "Restore final benchmark spread 146–147 and explicit missing source slot; retain partial availability until full assembly.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        146,
+        147
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 44,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-07/validation.json",
+        "sha256": "f7c953ca5cd8ff22a29c1ec320bec6d1c1b36efaa192b461cad051cc3d0a2cd2",
+        "bytes": 1643
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-07/reproduction.json",
+        "sha256": "bfbfba8b4427f3b6d2d7d4e50fc8dd1b40491e985d84098c4cb3becb0480554a",
+        "bytes": 34515
+      }
     }
   ],
   "totals": {
@@ -840,16 +892,12 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-07",
-    "goal": "Restore final benchmark-results pages 146–147 after full page/crop review, then prepare separate immutable full-feature assembly.",
+    "name": "1991-09-batch-08",
+    "goal": "Assemble full feature 0001 PDF 116–147 from six pinned immutable natives, retaining all source-local indexes and the verified 127/128 join.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0001"
     ],
-    "mapping_targets": [
-      146,
-      147
-    ],
-    "reusable_source_review": "archive/pdf/1991-09/restoration/batch-03/source-review/",
+    "mapping_targets": [],
     "known_extent": {
       "start_pdf_page": 116,
       "end_pdf_page": 147
@@ -859,6 +907,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "146–147 have retained extent review but need maps/crop review. No prose join145/146. Preserve all five immutable natives, original correction/uncertainty records and incoming127/128 sidecar. Following148 is an independent advertisement; full assembly follows complete source coverage."
+    "note": "No new OCR or correction required. Preserve original native corrections/metadata and glyph/source gaps. Resolve only current aggregate pending-assembly notes. Validate exact source-local/projected text ranges,all100 benchmark slots/99 values,70 profile fields,all original image assets and independent rebuild. Canonical reference124 remains unchanged."
   }
 }

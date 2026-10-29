@@ -25,16 +25,16 @@ paired OCR or a new engine comparison.
 
 September 1991 restoration is active: one readable/sample-reviewed article,
 one partial feature and 27 unresolved identities account for 29 canonical TOC entries.
-Feature 0001 now has PDF 116–145 preserved across five immutable natives. Batch 06
-adds PDF 140–145/printed 138–143: 184 JSON/assets files reproduce exactly.
-All 62 source crops, 541 typed ranges, 38 OCR settings and ZIP integrity validate.
-Four final model profiles retain 28 specification fields; twenty display/keyboard
-comparison captions and 24 original photos are preserved. All 38 initial drafts
-were read before one source correction pass, with zero recognition retries.
-Independent source variants and two glyph uncertainty records remain explicit.
-Remaining pages 146–147 and full assembly are pending. Canonical reference 124 remains
-unchanged despite the observed earlier opening. Next: restore the two final benchmark
-pages, then assemble the complete feature from immutable natives.
+Feature 0001 now has all PDF 116–147 preserved across six immutable natives.
+Batch 07 adds final benchmark results 146–147/printed 144–145: 193 JSON/assets
+files reproduce exactly. All 53 source crops, 547 typed ranges, 44 OCR settings
+and ZIP integrity validate. Eight tests retain ten plotted series, ten legend entries,
+99 visible values and one explicit source-absent bar/value slot for NP-902 in test 2.
+All 44 initial drafts were read before one paused/resumed source correction pass,
+with zero recognition retries. No missing source number was invented.
+Full feature assembly is pending; canonical reference 124 remains unchanged despite
+the observed earlier opening. Next: assemble PDF 116–147 from the six pinned natives,
+preserving original metadata, source gaps, glyph candidates and the 127/128 join.
 Full 406-page issue accounting, other bodies, cover and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
