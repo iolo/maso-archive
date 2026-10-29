@@ -48,14 +48,21 @@ paired OCR or a new engine comparison.
   corrects only that pin after the original process finished. No recognition restarted.
   The unchanged 213-test baseline is reused. Earlier maps, evidence and revisions remain.
 
-  Next batch46: verify the full extent of child0027 수치보조 프로세서와 그 응용 from
-  retained independent PDF330/printed344 opening, byline 글. 성기철 (인하대 전자공학과).
-  Prepared331–335 renders have not been inspected. Further candidates are lookup
-  hypotheses. Verify actual ending, continuations, intrinsic tables/listings/diagrams,
-  visible folios and adjacent material before mapping at most six pages. Segment longer
-  articles and assemble their actual immutable natives separately. Preserve historical
-  numeric/mathematical/register claims and source errors without repair or execution.
-  Every final exact crop must precede OCR; all raw drafts must precede one source pass.
+  Current batch46 has verified coprocessor child0027 at PDF330–337/printed344–351.
+  All eight body pages, contents5 and neighboring329/338 were reviewed. Actual byline
+  글. 성기철 (인하대 전자공학과) matches the canonical author. Upper337 closes the
+  emulator prose with a terminal ornament; the unrelated lower back-issue advertisement
+  must be excluded by the ending native, retaining351 folio.338 independently opens
+  the next hardware-basics child; its full extent remains unverified.
+  Next map and restore first330–335, at most six pages. Final336–337 and actual full
+  assembly follow separately.335 ends 수;336 middle-column prose below the tables starts
+  십 배에 달하는 성능의 향상을 기대할. Preserve the empty-separator carried word in
+  standard continuation declarations. Diagrams1–9 and tables1–4 are intrinsic. No mapping,
+  OCR, source correction or outcome change yet. Resume from
+  `archive/pdf/1991-08/restoration/batch-46/handoff.json`; do not rerun frozen helpers.
+  Every final exact crop before OCR; every raw draft before one source pass. Preserve
+  printed values, exponents, register/instruction fields and claims without repair or
+  execution. Prepared339–347 renders remain uninspected. Whole issue remains active.
   Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue
   accounting, index, cover and closeout remain pending. No reader rebuild.

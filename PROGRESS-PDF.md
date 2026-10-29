@@ -15,9 +15,11 @@ Two diagrams retain 69 independent labels; all 130 uncertainties and 23 opaque v
 remain active. Actual 박주희 기자 and canonical 편집부 credits remain distinct. All
 29,793 saved input-stage files, 29,867 other pre-existing resumption files and thirty
 core modules remain exact; the active-log pin exception has a closed-log supplement.
-The unchanged 213-test baseline is reused. Next batch46 verifies coprocessor child0027
-full extent from retained330/344 opening. Whole-issue accounting, index, cover and
-closeout remain pending. No reader rebuild.
+The unchanged 213-test baseline is reused. Current batch46 verifies coprocessor child0027 at PDF330–337/printed344–351. Next
+map first330–335; final336–337 and actual full assembly follow separately. No new
+mapping, OCR or outcome change yet. Lower337 advertisement belongs outside the
+ending native;351 folio retained. Whole-issue accounting, index, cover and closeout
+remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
