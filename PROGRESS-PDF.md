@@ -8,15 +8,14 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: twenty-six readable/sample-reviewed articles,
 one partial news parent, five headings, one section reference and two unresolved community
-identities =35. News0032 third native101–102/104–107 is at `packages/batch-57-r01/radar-c`:
-99 independent files, 34 source crops, 19 settings and 315 typed ranges validate.
-Complete original body images, seven caption links and two uncaptioned originals retained;
-body and embedded lettering transcription pending volunteers. Nine new foreign/software
-starts,33 body fragments,24 internal continuations and interleaved panels remain explicit.
-Full22-page news extent89–102 plus104–111 now verified. Source103 promotion and112–115
-ads are outside body;116 separate feature. Three natives preserve eighteen pages in322
-files. Next batch58 restores final108–111 from retained reviewed source. Actual four-native
-assembly and child0046 anchor projection pending. Community work, whole-issue accounting,
+identities =35. Final news108–111 native is at `packages/batch-58-r01/radar-d`:
+132 independent files,43 exact source crops,27 settings and877 typed ranges validate.
+Original body pages, two captioned screens, seven covers and three tables retained;
+body and embedded lettering transcription pending volunteers. Eleven event rows/52 fields,
+seven book reviews/28 metadata fields and six-entry books table/22 nonblank fields retain
+physical wraps and continuation blanks. Four immutable natives preserve all22 eligible
+news pages89–102 plus104–111 in454 files. Next batch59 performs actual parent assembly
+and child0046 anchor projection without new OCR. Community, whole-issue accounting,
 index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

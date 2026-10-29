@@ -33,34 +33,32 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 remains active: twenty-six readable/sample-reviewed articles, one partial,
 five non-owning headings, one section reference and two unresolved identities out of 35.
-Batch57 restores information-radar0032 PDF101–102 and104–107, with observed folios115–116
-and118–121. Source103 is an independent seminar promotion, outside the news body.
-Selected partial package: `archive/pdf/1991-08/packages/batch-57-r01/radar-c`.
-All 99 files match an independent export. All 34 source-pixel crops, 19 pinned kor+eng
-settings and 315 typed ranges validate. Six complete body pages and nine separate images
-retain seven caption links and two uncaptioned originals. Body and embedded lettering
-transcription remain pending volunteers; searchable headings do not certify body prose.
+Batch58 restores final information-radar0032 PDF108–111, observed folios122–125.
+Selected partial native: `archive/pdf/1991-08/packages/batch-58-r01/radar-d`.
+All132 files match an independent export;43 exact source crops,27 pinned kor+eng
+settings and877 typed byte-range occurrences validate. Four full pages, two captioned
+screens, seven covers and three original tables preserve every original body pixel.
+Body prose and embedded image lettering remain pending volunteers.
 
-Four foreign and five software starts retain33 body-image fragments,24 internal
-continuations, incoming Norton tail and outgoing GGOMA panel107→108. Two images appear
-before their review headings; their original caption associations remain explicit.
-Main four-column reviews and interleaved public-software panels retain separate flow.
-All14 chip-caption physical rows, six source-claim fields, nineteen uncertainties and
-nine opaque variants remain source-linked without technical or historical repair.
+Two software starts, seven book reviews and incoming GGOMA ending retain16 new body
+fragments and seven internal continuations. Eleven event rows preserve52 fields including
+eight headers. Seven reviews retain28 book credit/price/page-count/publisher fields;
+credits are not parent article bylines. The integrated books table retains six logical
+entries, seven physical data rows,22 nonblank cells and two continuation blanks.
+Physical title/author wraps,23 uncertainties and ten opaque variants remain source-linked.
 
-All 34 initial crops and nine refinements reviewed before19 initial recognitions; all raw
+All43 initial crops and14 refinements reviewed before27 initial recognitions; all raw
 drafts read before one source pass. Zero retries, added regions or post-OCR changes.
-All 36,012 pre-OCR archive files and thirty core modules remain exact; unchanged213-test
-baseline reused. Three actual natives preserve eighteen eligible pages in322 files.
+All36,369 pre-OCR archive files and thirty core modules remain exact; unchanged213-test
+baseline reused. Four actual immutable natives preserve all22 body pages in454 files.
+Full extent:89–102 plus104–111. Divider89 folio remains null; canonical103 stays literal.
+Lower97 subscription ad and independent103 promotion remain outside body ownership.
+111/125 ends before112–115 advertisements and separate restored feature116.
 
-Full news extent is now verified:89–102 plus104–111,22 eligible pages. Divider89 folio
-is null; canonical103 remains literal. Foreign ends102/116, software104–108/118–122,
-events109/123 and books110–111/124–125.103 promotion and112–115 advertisements remain
-outside body ownership;116 opens the separate already restored image-processing feature.
-Next batch58 restores final108–111 from retained reviewed pages, preserving incoming
-software-s05, events/book table fields and book-review continuations. Actual four-native
-assembly and child0046 p089-topics anchor projection remain separate pending work. Resume
-`archive/pdf/1991-08/restoration/batch-57/handoff.json`; retain frozen helpers.
+Next batch59 performs actual four-native namespaced-v1 parent assembly and child0046
+p089-topics anchor projection, with exhaustive native/source-local/projected range,
+image and continuation audits. No new OCR or correction. Parent remains partial until
+assembly passes. Resume `archive/pdf/1991-08/restoration/batch-58/handoff.json`.
 Community0038/0047, whole-issue accounting, index, cover and closeout remain pending.
 No reader rebuild.
 Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
