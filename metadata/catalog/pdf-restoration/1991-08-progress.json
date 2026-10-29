@@ -5697,6 +5697,35 @@
         "sha256": "74cb0445cb3dea355fd1ce4fcd9a14e1817b328a336d077470c98a8bcf756a5b",
         "bytes": 1024
       }
+    },
+    {
+      "name": "1991-08-batch-66",
+      "status": "complete",
+      "completed_at": "2026-10-29T12:53:45.986927+00:00",
+      "goal": "Continue outside-page accounting on41–60",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "source_pages": 20,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 20,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "private_adapter_required": false,
+      "page_accounting": {
+        "path": "archive/pdf/1991-08/restoration/batch-66/page-accounting.json",
+        "sha256": "e968552d24d57f6585bcb54ba5fd397777c2c1ccf54303bf2d68ad0f77e05d91",
+        "bytes": 660789
+      },
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-66/validation.json",
+        "sha256": "faa41de8712dd1735e34bb53a0f5ae9e651d37475b867fa0072d35420cdbf292",
+        "bytes": 2350
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-66/reproduction.json",
+        "sha256": "e6c86bc169c95465d2f366334d561dd9063945fd1a27ef199bc3cb34828bd6e7",
+        "bytes": 1024
+      }
     }
   ],
   "totals": {
@@ -5708,42 +5737,42 @@
     "unresolved": 0
   },
   "notes": [
-    "August remains active:28 readable/sample-reviewed articles,0partial,5headings,2section references,0unresolved=35. All canonical body pages/assemblies/child anchors complete. Page accounting251of383:211 selected body pages/21mixed exclusions plus40 directly reviewed outside pages;132outside pages pending. Standalone index/report,cover andcloseout required. No reader rebuild.",
+    "August remains active: 28 readable/sample-reviewed articles, 0 partials, 5 headings, 2 section references, 0 unresolved =35. All canonical bodies, assemblies and child anchors are complete. Page accounting: 271 of383 records, including211 selected body pages and60 directly reviewed outside pages;112 outside pages pending. The21 mixed exclusions remain exact. Standalone index/report, cover, independent rebuilds and closeout remain required. No reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-66",
-    "goal": "Continue bounded outside-page accounting onPDF41–60",
+    "name": "1991-08-batch-67",
+    "goal": "Continue bounded outside-page accounting onPDF61–80",
     "toc_entry_ids": [],
     "mapping_targets": [],
     "lookup_pdf_page_candidates": [
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
     "retained_context": {
       "previous_accounting": {
-        "path": "archive/pdf/1991-08/restoration/batch-65/page-accounting.json",
-        "sha256": "9c77780075de4cb35c9ee051d14fc399a5342c48c6436f4929ee28d830acdb13",
-        "bytes": 639982
+        "path": "archive/pdf/1991-08/restoration/batch-66/page-accounting.json",
+        "sha256": "e968552d24d57f6585bcb54ba5fd397777c2c1ccf54303bf2d68ad0f77e05d91",
+        "bytes": 660789
       },
       "selected_body_assignment_index": {
         "path": "archive/pdf/1991-08/restoration/batch-64/selected-body-assignment-index.json",
@@ -5752,8 +5781,8 @@
       },
       "all_canonical_articles_complete": true,
       "source_pdf_pages": 383,
-      "reviewed_outside_pages": 40,
-      "pending_outside_pages": 132,
+      "reviewed_outside_pages": 60,
+      "pending_outside_pages": 112,
       "whole_issue_page_accounting_complete": false
     },
     "limits": {
@@ -5761,15 +5790,15 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Continue whole383-page accounting with exactly20 declared outside-body lookups41–60. Reuse batch64 selected-body-assignment-index:28 articles,211body pages/211assignments,zero shared body pages,21mixed exclusions,172outside candidates. Current251contentrecords:40outside pages1–40 directly reviewed,132pending. Batch65pages21–40 are twenty advertisements;all observed folios null. Page40 is a TeleZone catalogue advertisement;only40reviewed in that group,so inspect41directly without assuming continuation. Preserve all earlier observations,body assignments,canonical outcomes,source originals and failure/helper revisions. Render/reuse exact full3000px sourceviews only for declared pages,then direct classification. No new article exports,mapping,OCR,source correction or reader rebuild. Keep literal labels and observed folios;do not infer global offsets,claim validity or source-wide article absence. If evidence contradicts existing ownership,record localized uncertainty and schedule a separate boundedrepair without invented canonical IDs. Use previousaccounting pin and deterministic builder;verify all prior observations/211ownership assignments unchanged and fresh comparison JSON byte-identical. BASIC0004 uses retained legacy adoption-validation/currentidentityguard,not a missing restoration.validation field. Preserve all prior archive/core files and exact source/TOC pins. Continue bounded outside groups until172outside pages all reviewed. Standalone issue index/report,cover preparation by donor→PDF→placeholder priority,independent selected/adapted package rebuilds and full requirement-by-requirement closeout remain required. Body prose/embedded lettering/handwriting,glyph encoding/spacing/counts,source claims,human proofreading,historical execution and backup recovery remain unverified. Neverrerun successful frozen helpers."
+    "note": "Continue whole383-page accounting with exactly20 declared outside-body lookups61–80. Reuse the batch64 selected-body-assignment-index: 28 articles,211 body pages/211 assignments, zero shared body pages,21 mixed exclusions and172 outside candidates. Current accounting has271 content records:60 outside pages1–60 directly reviewed and112 pending. Batch66 pages41–60 are twenty advertisements; all observed folios null. Page41 confirms the TeleZone catalogue continuation from40; the original40 observation remains unchanged. Preserve all earlier observations, body assignments, canonical outcomes, source originals and failure/helper revisions. Render/reuse exact full3000px source views only for declared pages, then classify directly. No new article exports, mapping, OCR, source correction or reader rebuild. Keep literal labels and observed folios; do not infer global offsets, claim validity or source-wide article absence. If evidence contradicts existing ownership, record localized uncertainty and schedule a separate bounded repair without invented canonical IDs. Use the previous-accounting pin and deterministic builder; verify all prior observations/211 ownership assignments unchanged and a fresh comparison JSON byte-identical. BASIC0004 uses retained legacy adoption-validation/current-identity guard, not a missing restoration.validation field. Preserve all prior archive/core files and exact source/TOC pins. Continue bounded groups until all172 outside pages are reviewed. Standalone issue index/report, cover preparation by donor→PDF→placeholder priority, independent selected/adapted package rebuilds and full requirement-by-requirement closeout remain required. Body prose/embedded lettering/handwriting, glyph encoding/spacing/counts, source claims, human proofreading, historical execution and backup recovery remain unverified. Never rerun successful frozen helpers."
   },
   "page_accounting": {
     "status": "partial",
-    "directory": "archive/pdf/1991-08/restoration/batch-65",
+    "directory": "archive/pdf/1991-08/restoration/batch-66",
     "page_accounting": {
-      "path": "archive/pdf/1991-08/restoration/batch-65/page-accounting.json",
-      "sha256": "9c77780075de4cb35c9ee051d14fc399a5342c48c6436f4929ee28d830acdb13",
-      "bytes": 639982
+      "path": "archive/pdf/1991-08/restoration/batch-66/page-accounting.json",
+      "sha256": "e968552d24d57f6585bcb54ba5fd397777c2c1ccf54303bf2d68ad0f77e05d91",
+      "bytes": 660789
     },
     "selected_body_assignment_index": {
       "path": "archive/pdf/1991-08/restoration/batch-64/selected-body-assignment-index.json",
@@ -5777,13 +5806,13 @@
       "bytes": 293513
     },
     "validation": {
-      "path": "archive/pdf/1991-08/restoration/batch-65/validation.json",
-      "sha256": "1e7f4bc7801a23ec6fa093431989f36532a828e8fb800c81546f3538baecc62d",
+      "path": "archive/pdf/1991-08/restoration/batch-66/validation.json",
+      "sha256": "faa41de8712dd1735e34bb53a0f5ae9e651d37475b867fa0072d35420cdbf292",
       "bytes": 2350
     },
     "reproduction": {
-      "path": "archive/pdf/1991-08/restoration/batch-65/reproduction.json",
-      "sha256": "74cb0445cb3dea355fd1ce4fcd9a14e1817b328a336d077470c98a8bcf756a5b",
+      "path": "archive/pdf/1991-08/restoration/batch-66/reproduction.json",
+      "sha256": "e6c86bc169c95465d2f366334d561dd9063945fd1a27ef199bc3cb34828bd6e7",
       "bytes": 1024
     },
     "source_pdf_pages": 383,
@@ -5833,9 +5862,7 @@
       37,
       38,
       39,
-      40
-    ],
-    "pending_outside_pages": [
+      40,
       41,
       42,
       43,
@@ -5855,7 +5882,9 @@
       57,
       58,
       59,
-      60,
+      60
+    ],
+    "pending_outside_pages": [
       61,
       62,
       63,
@@ -5969,18 +5998,19 @@
       382,
       383
     ],
-    "pages_with_content_records": 251,
+    "pages_with_content_records": 271,
     "all_source_pages_have_content_records": false,
     "contributing_checkpoints": [
       "1991-08-batch-64",
-      "1991-08-batch-65"
+      "1991-08-batch-65",
+      "1991-08-batch-66"
     ],
     "body_reviews_reused": true,
     "whole_issue_closeout_complete": false,
     "previous_accounting": {
-      "path": "archive/pdf/1991-08/restoration/batch-64/page-accounting.json",
-      "sha256": "86dd571e88af2f686e9dd36bbc28c649f6d53f6e823d0ac5aa2331dd38afcba2",
-      "bytes": 620341
+      "path": "archive/pdf/1991-08/restoration/batch-65/page-accounting.json",
+      "sha256": "9c77780075de4cb35c9ee051d14fc399a5342c48c6436f4929ee28d830acdb13",
+      "bytes": 639982
     }
   }
 }
