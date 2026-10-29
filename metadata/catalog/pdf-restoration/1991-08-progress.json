@@ -2173,14 +2173,15 @@
         "Sixteen screenshot-label regions retain five status windows/twenty fields, two clipped status suffixes, five icon panels/48 labels, ten directory-tree rows and twelve desktop-dialog fields. Twenty section headings, twelve command references, nine source-claim fields and seven physical-wrap fields remain source-linked. All 74 uncertainties, 27 opaque variants, three marker-candidate groups and eight clipped/covered UI markers remain active; marker interiors are outside source-derived indexes while visible fragments remain indexed.",
         "Printed 갖추게 되는., 다이얼로그 박스을, 움직이는데로, NICE font candidates, DAtabase, McSink, VCMD, opaque UI values, historical memory/network/font claims and raster font specimens remain literal or explicit candidates. Clipped10 MB av fields are not completed from duplicate screenshots. No source grammar, syntax, historical-claim repair, font reconstruction or software execution.",
         "All 100 initial exact crops, 43 first refinements and three follow-up refinements individually viewed before89 initial recognitions. All89 raw drafts read in three complete outputs before one source pass; zero retries, added regions or post-OCR crop repairs. English-only metadata revision preserves source text/ranges/decisions and correction timestamp. All27,099 prior archive files and thirty core modules exact; unchanged213-test baseline reused.",
-        "Batch43 restores final PDF320–322/printed334–336 in 195 independently exact files. All 49 source-pixel crops, 46 pinned kor+eng settings and 2,228 typed ranges validate. Retains 41 blocks, three originals, two captions, five prose joins, 84 spatial fields, fifteen screenshot-label regions, eleven alias labels, six calculator register fields, 31 keypad fields, fifteen visible strip fields, six Pipe Dream status fields and three visible Note Pad rows. Fourteen unknown-count markers, 51 uncertainties and 22 opaque variants remain active. Lower322 advertisement excluded; literal336 folio retained. Printed System Fol-der, Before You Installs, Be fore You Install, 네트워, 4Mb/1.44M and contactsoandso remain literal or explicit candidates without source repair or execution. All 47 initial crops, two extensions and two added label crops reviewed before 46 initial recognitions; all raw drafts read before one source pass, zero retries or post-OCR crop changes. All 28,266 prior files and thirty core modules remain exact; 213-test baseline reused. All nine body pages are preserved across 570 immutable native files; actual full two-native assembly remains pending."
+        "Batch43 restores final PDF320–322/printed334–336 in 195 independently exact files. All 49 source-pixel crops, 46 pinned kor+eng settings and 2,228 typed ranges validate. Retains 41 blocks, three originals, two captions, five prose joins, 84 spatial fields, fifteen screenshot-label regions, eleven alias labels, six calculator register fields, 31 keypad fields, fifteen visible strip fields, six Pipe Dream status fields and three visible Note Pad rows. Fourteen unknown-count markers, 51 uncertainties and 22 opaque variants remain active. Lower322 advertisement excluded; literal336 folio retained. Printed System Fol-der, Before You Installs, Be fore You Install, 네트워, 4Mb/1.44M and contactsoandso remain literal or explicit candidates without source repair or execution. All 47 initial crops, two extensions and two added label crops reviewed before 46 initial recognitions; all raw drafts read before one source pass, zero retries or post-OCR crop changes. All 28,266 prior files and thirty core modules remain exact; 213-test baseline reused. All nine body pages are preserved across 570 immutable native files; actual full two-native assembly remains pending.",
+        "Metadata revision02 adds the unchanged incoming declaration under the standard assembler segment_continuations key, retaining incoming_continuations and the original revision. All source text, article.txt, map, OCR/crop/settings and correction timestamp remain unchanged. The 195-file fresh revision matches an independent export and all native checks repeat against it. Actual two-native standard preflight now resolves exactly one319찾아→320서 prose link. Full export and exhaustive native/projected context audit remain batch44."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-43-r01/mac-b",
+        "directory": "archive/pdf/1991-08/packages/batch-43-r02/mac-b",
         "article_id": "scan-maso-1991-08-toc-0024",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-43-r01/mac-b/manifest.json",
-          "sha256": "ba994cf588968a16a41bbdc48b6646dce0643cea4988f882ca9fe49bd1dbfe5c",
+          "path": "archive/pdf/1991-08/packages/batch-43-r02/mac-b/manifest.json",
+          "sha256": "d8f521da418e3c9d2ca3cd717ff840f7ed3b7292e297bbddcde5d1cfeabdadfc",
           "bytes": 34200
         },
         "source_body_title": "매킨토시 시스템 소프트웨어 7.0",
@@ -2230,10 +2231,10 @@
           },
           {
             "name": "mac-b",
-            "directory": "archive/pdf/1991-08/packages/batch-43-r01/mac-b",
+            "directory": "archive/pdf/1991-08/packages/batch-43-r02/mac-b",
             "manifest": {
-              "path": "archive/pdf/1991-08/packages/batch-43-r01/mac-b/manifest.json",
-              "sha256": "ba994cf588968a16a41bbdc48b6646dce0643cea4988f882ca9fe49bd1dbfe5c",
+              "path": "archive/pdf/1991-08/packages/batch-43-r02/mac-b/manifest.json",
+              "sha256": "d8f521da418e3c9d2ca3cd717ff840f7ed3b7292e297bbddcde5d1cfeabdadfc",
               "bytes": 34200
             },
             "pdf_pages": [
@@ -2267,17 +2268,18 @@
           "assembled": false
         },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-43/validation.json",
-          "sha256": "fc5077c2e93de2d4d7e528fb0bb241d43518e77ce614301e369693c46c61a41d",
+          "path": "archive/pdf/1991-08/restoration/batch-43/validation-r02.json",
+          "sha256": "d397137741d734dbe1d07e21d4ca76f78ae5e97bcce38667c4bdb8dc7fbfa787",
           "bytes": 2568
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-43/reproduction.json",
-          "sha256": "8adf9e17c33052c728b5990071a21e600a47c04567f9178a237e5cf7d16a889b",
-          "bytes": 34999
+          "path": "archive/pdf/1991-08/restoration/batch-43/reproduction-r02.json",
+          "sha256": "08c89e2a15fed2f9626c95fe71dec6eba7b365a224d454299fc6369917f2b61e",
+          "bytes": 35003
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-43"
+        "checkpoint": "batch-43",
+        "metadata_revision": "r02: formal standard incoming continuation added; no source/OCR changes"
       }
     },
     {
@@ -3572,6 +3574,21 @@
         "path": "archive/pdf/1991-08/restoration/batch-43/reproduction.json",
         "sha256": "8adf9e17c33052c728b5990071a21e600a47c04567f9178a237e5cf7d16a889b",
         "bytes": 34999
+      },
+      "selected_validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-43/validation-r02.json",
+        "sha256": "d397137741d734dbe1d07e21d4ca76f78ae5e97bcce38667c4bdb8dc7fbfa787",
+        "bytes": 2568
+      },
+      "selected_reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-43/reproduction-r02.json",
+        "sha256": "08c89e2a15fed2f9626c95fe71dec6eba7b365a224d454299fc6369917f2b61e",
+        "bytes": 35003
+      },
+      "metadata_repair": {
+        "path": "archive/pdf/1991-08/restoration/batch-43/continuation-repair.json",
+        "sha256": "4e06120a69062ea9305510824a876f9e0710c0267a47fff635d5fc75b092a9e1",
+        "bytes": 940
       }
     }
   ],
@@ -3595,7 +3612,7 @@
     ],
     "inputs": [
       "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
-      "archive/pdf/1991-08/packages/batch-43-r01/mac-b"
+      "archive/pdf/1991-08/packages/batch-43-r02/mac-b"
     ],
     "mapping_targets": [],
     "limits": {

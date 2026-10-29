@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: nineteen readable/sample-reviewed articles, one
 partial, four non-owning headings and eleven unresolved identities. Batch43 restores
-Mac System 7.0 final PDF320–322/printed334–336 at `packages/batch-43-r01/mac-b`:
+Mac System 7.0 final PDF320–322/printed334–336 at `packages/batch-43-r02/mac-b`:
 195 independently exact files, 49 source-pixel crops, 46 pinned settings and 2,228
 typed ranges validated. Fourteen unknown-count markers and 22 opaque variants remain
 active. Lower322 advertisement excluded;336 folio retained. All 28,266 prior archive

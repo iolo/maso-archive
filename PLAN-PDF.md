@@ -34,7 +34,7 @@ records below are historical and do not authorize a new rebuild.
 Step 12 remains active: nineteen readable/sample-reviewed articles, one partial,
 four non-owning headings and eleven unresolved identities out of 35. Batch43 restores
 the final PDF320–322/printed334–336 of 0024, 매킨토시 포럼 : 매킨토시 시스템
-소프트웨어 7.0. Selected ending: `archive/pdf/1991-08/packages/batch-43-r01/mac-b`.
+소프트웨어 7.0. Selected ending: `archive/pdf/1991-08/packages/batch-43-r02/mac-b`.
 All nine body pages314–322/328–336 are now preserved across two immutable natives,
 570 files total. The article remains partial until actual full assembly.
 
