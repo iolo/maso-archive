@@ -2172,15 +2172,16 @@
         "All 375 files match an independent export. All 100 source-pixel crops, 89 pinned kor+eng settings and 4,278 typed article ranges validate. Retains 81 blocks, eleven original images, ten caption links, eight joined prose blocks and eight boundaries. Twenty font-comparison reading rows and three Times pangrams retain seven physical sample rows without font reconstruction.",
         "Sixteen screenshot-label regions retain five status windows/twenty fields, two clipped status suffixes, five icon panels/48 labels, ten directory-tree rows and twelve desktop-dialog fields. Twenty section headings, twelve command references, nine source-claim fields and seven physical-wrap fields remain source-linked. All 74 uncertainties, 27 opaque variants, three marker-candidate groups and eight clipped/covered UI markers remain active; marker interiors are outside source-derived indexes while visible fragments remain indexed.",
         "Printed 갖추게 되는., 다이얼로그 박스을, 움직이는데로, NICE font candidates, DAtabase, McSink, VCMD, opaque UI values, historical memory/network/font claims and raster font specimens remain literal or explicit candidates. Clipped10 MB av fields are not completed from duplicate screenshots. No source grammar, syntax, historical-claim repair, font reconstruction or software execution.",
-        "All 100 initial exact crops, 43 first refinements and three follow-up refinements individually viewed before89 initial recognitions. All89 raw drafts read in three complete outputs before one source pass; zero retries, added regions or post-OCR crop repairs. English-only metadata revision preserves source text/ranges/decisions and correction timestamp. All27,099 prior archive files and thirty core modules exact; unchanged213-test baseline reused."
+        "All 100 initial exact crops, 43 first refinements and three follow-up refinements individually viewed before89 initial recognitions. All89 raw drafts read in three complete outputs before one source pass; zero retries, added regions or post-OCR crop repairs. English-only metadata revision preserves source text/ranges/decisions and correction timestamp. All27,099 prior archive files and thirty core modules exact; unchanged213-test baseline reused.",
+        "Batch43 restores final PDF320–322/printed334–336 in 195 independently exact files. All 49 source-pixel crops, 46 pinned kor+eng settings and 2,228 typed ranges validate. Retains 41 blocks, three originals, two captions, five prose joins, 84 spatial fields, fifteen screenshot-label regions, eleven alias labels, six calculator register fields, 31 keypad fields, fifteen visible strip fields, six Pipe Dream status fields and three visible Note Pad rows. Fourteen unknown-count markers, 51 uncertainties and 22 opaque variants remain active. Lower322 advertisement excluded; literal336 folio retained. Printed System Fol-der, Before You Installs, Be fore You Install, 네트워, 4Mb/1.44M and contactsoandso remain literal or explicit candidates without source repair or execution. All 47 initial crops, two extensions and two added label crops reviewed before 46 initial recognitions; all raw drafts read before one source pass, zero retries or post-OCR crop changes. All 28,266 prior files and thirty core modules remain exact; 213-test baseline reused. All nine body pages are preserved across 570 immutable native files; actual full two-native assembly remains pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
+        "directory": "archive/pdf/1991-08/packages/batch-43-r01/mac-b",
         "article_id": "scan-maso-1991-08-toc-0024",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-42-r01/mac-a/manifest.json",
-          "sha256": "ff7808a452ed9b064486fee7a71b3154c3532d6fb697f17b2316c7dd9a83fd5f",
-          "bytes": 66104
+          "path": "archive/pdf/1991-08/packages/batch-43-r01/mac-b/manifest.json",
+          "sha256": "ba994cf588968a16a41bbdc48b6646dce0643cea4988f882ca9fe49bd1dbfe5c",
+          "bytes": 34200
         },
         "source_body_title": "매킨토시 시스템 소프트웨어 7.0",
         "source_series_title": "매킨토시포럼",
@@ -2188,33 +2189,25 @@
         "canonical_byline_candidate": "양승건",
         "coverage": {
           "pdf_pages": [
-            314,
-            315,
-            316,
-            317,
-            318,
-            319
-          ],
-          "printed_pages": [
-            "328",
-            "329",
-            "330",
-            "331",
-            "332",
-            "333"
-          ],
-          "regions": 100,
-          "blocks": 81,
-          "figures": 11,
-          "excluded_regions": 0,
-          "deferred_pdf_pages": [
             320,
             321,
             322
-          ]
+          ],
+          "printed_pages": [
+            "334",
+            "335",
+            "336"
+          ],
+          "regions": 49,
+          "blocks": 41,
+          "figures": 3,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": [],
+          "native_scope_only": true
         },
         "body_pages_complete": false,
         "native_body_pages_complete": true,
+        "all_body_pages_preserved_across_natives": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "native_segments": [
@@ -2234,8 +2227,27 @@
               318,
               319
             ]
+          },
+          {
+            "name": "mac-b",
+            "directory": "archive/pdf/1991-08/packages/batch-43-r01/mac-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-43-r01/mac-b/manifest.json",
+              "sha256": "ba994cf588968a16a41bbdc48b6646dce0643cea4988f882ca9fe49bd1dbfe5c",
+              "bytes": 34200
+            },
+            "pdf_pages": [
+              320,
+              321,
+              322
+            ]
           }
         ],
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-42/ledger-complete.json",
+          "sha256": "25fcfd881fe8add6c101ca8cbfb56e6f7ae3469b79030f6b5b928e0637ebd701",
+          "bytes": 181276
+        },
         "full_source_extent": {
           "start_pdf_page": 314,
           "end_pdf_page": 322,
@@ -2243,20 +2255,29 @@
           "previous_pdf_page": 313,
           "following_pdf_page": 323,
           "following_role": "Full computer advertisement; independent hardware article starts324.",
-          "ending_lower_advertisement": "Lower322 subscription promotion must be excluded by the ending native; upper conclusion/terminal ornament and literal336 folio retained."
+          "ending_lower_advertisement": "Lower322 subscription advertisement explicitly excluded; upper conclusion/contact/terminal ornament and literal336 folio retained."
+        },
+        "incoming_prose_boundary": {
+          "prior_segment": "mac-a",
+          "prior_region": "p319-find-prose",
+          "prior_text_end": "찾아",
+          "region_id": "p320-find-prose",
+          "text_start": "서 열어준다.",
+          "join_separator": "",
+          "assembled": false
         },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-42/validation.json",
-          "sha256": "8c30ab7f0d9a9c9fba7ece934f0cd70efbd4c373122250d26a1868dce5945396",
-          "bytes": 2625
+          "path": "archive/pdf/1991-08/restoration/batch-43/validation.json",
+          "sha256": "fc5077c2e93de2d4d7e528fb0bb241d43518e77ce614301e369693c46c61a41d",
+          "bytes": 2568
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-42/reproduction.json",
-          "sha256": "7ae7a7bea7e1945c32251676e043ba43e57efc933dae6d283a09172adda5837f",
-          "bytes": 66931
+          "path": "archive/pdf/1991-08/restoration/batch-43/reproduction.json",
+          "sha256": "8adf9e17c33052c728b5990071a21e600a47c04567f9178a237e5cf7d16a889b",
+          "bytes": 34999
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-42"
+        "checkpoint": "batch-43"
       }
     },
     {
@@ -3522,6 +3543,36 @@
         "sha256": "7ae7a7bea7e1945c32251676e043ba43e57efc933dae6d283a09172adda5837f",
         "bytes": 66931
       }
+    },
+    {
+      "name": "1991-08-batch-43",
+      "status": "complete",
+      "completed_at": "2026-10-29T02:54:48.586562+00:00",
+      "goal": "Restore final Mac pages320–322 and exclude lower322 subscription advertisement",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0024"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "outside_lookup_pages": 3,
+      "initial_recognitions": 46,
+      "eng_code_regions": 0,
+      "kor_eng_regions": 46,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 2,
+      "pre_ocr_added_regions": 2,
+      "post_ocr_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-43/validation.json",
+        "sha256": "fc5077c2e93de2d4d7e528fb0bb241d43518e77ce614301e369693c46c61a41d",
+        "bytes": 2568
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-43/reproduction.json",
+        "sha256": "8adf9e17c33052c728b5990071a21e600a47c04567f9178a237e5cf7d16a889b",
+        "bytes": 34999
+      }
     }
   ],
   "totals": {
@@ -3532,64 +3583,26 @@
     "unresolved": 11
   },
   "notes": [
-    "Full August issue goal remains active: eleven identities require ownership/eligibility review. Mac0024 is partial at314–319 of verified314–322; final320–322 and actual full assembly remain pending. Nineteen readable articles have complete body coverage and no pending assembly; four non-owning headings. No global folio offset.",
+    "Full August issue goal remains active: eleven identities require ownership/eligibility review. All Mac0024 body pages314–322 are preserved across two immutable natives; actual full assembly remains pending. Nineteen readable articles, one partial and four non-owning headings. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-43",
-    "goal": "Restore verified final Mac pages320–322, preserving the incoming319찾아→320서 carried word and lower322 advertisement exclusion; actual full assembly remains a separate checkpoint.",
+    "name": "1991-08-batch-44",
+    "goal": "Complete actual Mac System7.0 two-native assembly314–322 with exhaustive source-local/native/projected typed-range audit.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0024"
     ],
-    "canonical_title": "매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0",
-    "canonical_byline_candidate": "양승건",
-    "mapping_targets": [
-      320,
-      321,
-      322
+    "inputs": [
+      "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
+      "archive/pdf/1991-08/packages/batch-43-r01/mac-b"
     ],
-    "lookup_candidates": [
-      5,
-      319,
-      320,
-      321,
-      322,
-      323,
-      324
-    ],
-    "retained_context": {
-      "directory": "archive/pdf/1991-08/restoration/batch-42/source-review",
-      "verified_full_extent": [
-        314,
-        315,
-        316,
-        317,
-        318,
-        319,
-        320,
-        321,
-        322
-      ],
-      "first_native": "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
-      "incoming_boundary": {
-        "prior_segment": "mac-a",
-        "prior_region": "p319-find-prose",
-        "prior_text_end": "찾아",
-        "next_pdf_page": 320,
-        "next_printed_page": "334",
-        "text_start": "서 열어준다.",
-        "join_separator": "",
-        "carried_word": true
-      },
-      "ending": "322 upper conclusion/terminal ornament; exclude unrelated lower subscription promotion and retain336 folio.",
-      "following": "323 full advertisement;324 independent hardware opening."
-    },
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Reuse the already reviewed320–322 renders; do not rerun frozen source preparation, OCR, correction or verification helpers. Review every exact final ending crop before pinned mapped Tesseract and all raw drafts before one source pass. Preserve UI labels, clipped/covered text, program screenshots, instructions, physical wraps, source errors/claims and contact text literally without execution or inferred completion. Incoming standard prose link must match the first native declaration exactly. After ending validation, assemble both actual natives separately and audit every source-local/native/projected typed occurrence. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild."
+    "note": "Use standard namespaced-v1 assembly with both actual immutable natives named mac-a andmac-b; one-native projection is not qualification. Preserve all 570 native files and original metadata. Verify the standard resolved prose link319찾아→320서 with an empty separator. Independently audit every typed occurrence in its proper source-local/native/projected article context, including additional metadata retained in segments[].original_metadata. Preserve all font samples, UI labels, unknown-count markers, historical claims and source errors without execution. Resolve only exact obsolete native-stage notes. No new mapping, OCR or source correction. Lower322 advertisement exclusion andliteral336 folio remain. Whole-issue accounting, index, cover andcloseout remain pending; no reader rebuild."
   }
 }

@@ -7,15 +7,16 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: nineteen readable/sample-reviewed articles, one
-partial, four non-owning headings and eleven unresolved identities. Batch42 verifies
-Mac System 7.0 article 0024 at PDF314–322/printed328–336 and restores PDF314–319
-in `packages/batch-42-r01/mac-a`: 375 independently exact files, 100 source-pixel
-crops, 89 pinned settings and 4,278 typed ranges validated. All 74 uncertainties,
-27 opaque variants and eight clipped/covered UI markers remain active. All 27,099
-prior archive files and thirty core modules remain exact; 213-test baseline reused.
-Next batch43 restores final PDF320–322, preserving the carried word from 319 and
-excluding the lower 322 advertisement. Actual two-native assembly follows separately.
-Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+partial, four non-owning headings and eleven unresolved identities. Batch43 restores
+Mac System 7.0 final PDF320–322/printed334–336 at `packages/batch-43-r01/mac-b`:
+195 independently exact files, 49 source-pixel crops, 46 pinned settings and 2,228
+typed ranges validated. Fourteen unknown-count markers and 22 opaque variants remain
+active. Lower322 advertisement excluded;336 folio retained. All 28,266 prior archive
+files and thirty core modules exact; unchanged 213-test baseline reused. All nine
+body pages314–322 are now preserved across 570 immutable native files. Next batch44
+performs actual full assembly and exhaustive native/projected range checks. The
+article remains partial until assembly. Whole-issue accounting, index, cover and
+closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

@@ -24,38 +24,38 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - August 1991 remains active: nineteen readable/sample-reviewed articles, one partial,
-  four non-owning headings and eleven unresolved identities.
+  four non-owning headings and eleven unresolved identities. Batch43 restores
+  the final PDF320–322/printed334–336 of 0024, 매킨토시 포럼 : 매킨토시 시스템
+  소프트웨어 7.0. Selected ending: `archive/pdf/1991-08/packages/batch-43-r01/mac-b`.
+  All nine body pages314–322/328–336 are now preserved across two immutable natives,
+  570 files total. The article remains partial until actual full assembly.
 
-  Batch42 verifies the full nine-page extent of 0024,
-  매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0,
-  at PDF314–322/printed328–336, and restores its first six pages, PDF314–319.
-  Selected partial native: `archive/pdf/1991-08/packages/batch-42-r01/mac-a`.
-  All 375 files match an independent export. All 100 source-pixel crops, 89 pinned
-  kor+eng settings and 4,278 typed article ranges validate. Retains 81 blocks, eleven
-  originals, ten caption links, eight joined blocks and eight continuation boundaries.
-  Twenty font-comparison reading rows, three Times specimens, five status windows,
-  48 icon labels, ten directory-tree rows and twelve desktop-dialog fields remain
-  source-linked. All 74 uncertainties, 27 opaque variants and eight clipped/covered
-  UI markers remain active. Raster originals remain authoritative; clipped text is
-  not completed from duplicate screenshots. Source errors and claims remain literal.
+  The 195-file ending matches an independent export. All 49 source-pixel crops,
+  46 pinned kor+eng settings and 2,228 typed article ranges validate. Retains 41
+  blocks, three originals, two captions, five prose joins and 84 spatial fields.
+  Fifteen screenshot-label regions retain eleven alias labels, six calculator register
+  fields, 31 keypad fields, fifteen visible strip fields, six Pipe Dream status fields
+  and three Note Pad rows. Fourteen unknown-count markers, 51 uncertainties and 22
+  opaque variants remain active. Printed System Fol-der, Before You Installs,
+  Be fore You Install, source spelling and contactsoandso remain literal or candidates.
+  Lower322 subscription advertisement is excluded; upper conclusion, contact, terminal
+  ornament and literal336 folio are retained. Source instructions and claims unverified.
 
-  All final crops were reviewed before 89 initial recognitions, following 46 pre-OCR
-  refinement events. All raw drafts were read before one source correction pass;
-  zero retries or post-OCR crop repairs. The English-only metadata revision preserves
-  source text, ranges, decisions and correction timestamp. All 27,099 prior archive
+  All 47 initial crops, two extensions and two added label crops were reviewed before
+  46 initial recognitions. All raw drafts were read before one source correction pass;
+  zero retries or post-OCR crop repairs. An English-only metadata revision preserves
+  source text, ranges, decisions and correction timestamp. All 28,266 prior archive
   files and thirty core modules remain exact; unchanged 213-test baseline reused.
-  No historical execution, font reconstruction or repair of source grammar or claims.
 
-  Next batch43: restore verified final PDF320–322/printed334–336. Preserve the empty
-  separator joining 319 찾아 to 320 서 열어준다. Exclude the unrelated lower 322
-  subscription promotion while retaining the upper conclusion, terminal ornament
-  and literal folio 336. Reuse the reviewed source renders; review every final exact
-  crop before mapped Tesseract and all raw drafts before one source correction pass.
-  Then assemble both actual natives in a separate checkpoint and audit typed ranges
-  in their native and projected contexts. The article remains partial until assembly.
-  Selected 0020 requires batch39 `boundary_adapter.install()`; 0018 the batch35
-  boundary adapter, 0003 the batch07 listing adapter and 0002 the batch04 native adapter.
-  Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+  Next batch44: assemble both actual natives, mac-a314–319 and mac-b320–322, using
+  their pinned manifests. Preserve all 570 native files and original metadata. Verify
+  the standard resolved prose link319찾아→320서 with an empty separator. Audit every
+  typed occurrence in its source-local, native and projected article context, including
+  additional metadata retained under segments[].original_metadata. Resolve only exact
+  obsolete native-stage notes. No new mapping, OCR, source correction or execution.
+  Selected 0020 requires batch39 boundary adapter; 0018 the batch35 boundary adapter,
+  0003 the batch07 listing adapter and 0002 the batch04 native adapter. Whole-issue
+  accounting, index, cover and closeout remain pending. No reader rebuild.
   See [August progress](docs/progress/9108.md) and
   [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
