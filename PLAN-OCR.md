@@ -23,6 +23,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+September 1991 restoration is active: one readable/sample-reviewed article and
+28 unresolved identities account for 29 canonical TOC entries. Batch01 completes
+column0003, “컬럼 마소쉘 : IBM PC라는 기계”, at PDF84–87/printed82–85.
+Its 121 JSON/assets files match an independent export; all 29 source crops,
+442 typed ranges, 28 pinned OCR settings and ZIP integrity validate. One source
+correction pass, 28 recognition invocations and zero retries. All 9,272 August
+reference files and thirty core modules remain unchanged. Next: verify feature0001
+ownership/extent and restore its bounded opening. Full 406-page issue accounting,
+remaining bodies, cover and closeout are pending.
+See [September progress](docs/progress/9109.md) and
+[ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
+
 - August 1991 is complete as a canonical TOC JSON/assets restoration pass:
   35 identities account for 28 readable/sample-reviewed articles, five non-owning
   headings and two non-owning section references, with no partial or unresolved entries.

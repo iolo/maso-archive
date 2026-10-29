@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1991-09",
+  "status": "in-progress",
+  "updated": "2026-10-30",
+  "source": {
+    "id": "pdf-maso-9109",
+    "path": "maso-pdf/maso-9109.pdf",
+    "sha256": "a7999b1adf939fce8cdcae703a711044ce05383f61faf42509e33dd8ecdcf4b0",
+    "bytes": 186007662
+  },
+  "canonical_toc": {
+    "path": "TOC.md",
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+    "bytes": 252444
+  },
+  "canonical_queue": {
+    "path": "archive/pdf/1991-09/restoration/canonical-queue.json",
+    "sha256": "82c1e6f4e879a54efd0b4a25006d2ead49ff9c730c23f5726137c13dbf17f123",
+    "bytes": 42308
+  },
+  "source_pdf_pages": 406,
+  "entries": [
+    {
+      "toc_entry_id": "maso-1991-09-toc-0001",
+      "title": "특집 : 작고 빠르고 강력하게 : 소형화 기술의 집약체, 노트북 컴퓨터",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0002",
+      "title": "기획 : 데이터 처리의 혁신, 바코드",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0003",
+      "title": "컬럼 마소쉘 : IBM PC라는 기계",
+      "parent_id": null,
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 and original title/byline84 match canonical0003. Complete continuous PDF84–87, literal printed82–85, with closing ornament on87;83/88 advertisements and lower87 independent bookseller advertisement excluded.",
+        "All29 source crops exact;28 mapped drafts corrected once; column/page joins and independent pull quotations retained. Historical claims/source spacing/bytes and human acceptance unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-01-r01/ibm-pc-column",
+        "article_id": "scan-maso-1991-09-toc-0003",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-01-r01/ibm-pc-column/manifest.json",
+          "sha256": "d99f864a77cebf18cdaad5904bb340a71a3de30ae6da73651ae3f901aac69292",
+          "bytes": 19929
+        },
+        "coverage": {
+          "pdf_pages": [
+            84,
+            85,
+            86,
+            87
+          ],
+          "printed_pages": [
+            "82",
+            "83",
+            "84",
+            "85"
+          ],
+          "regions": 29,
+          "blocks": 17,
+          "figures": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-01/validation.json",
+          "sha256": "5a1ace6b543348b6014ae74ee6d718f314d10cf8d6e3f3777c78dfa490b2f51d",
+          "bytes": 1152
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-01/reproduction.json",
+          "sha256": "249e02e2ef32a6422fdb7c94e576c1041a33dedadd9865cba43d007e56e78079",
+          "bytes": 20996
+        },
+        "checkpoint": "batch-01"
+      }
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0004",
+      "title": "읽을거리",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0005",
+      "title": "마소가 만난 사람(17) : 클라이 제작자 황인창",
+      "parent_id": "maso-1991-09-toc-0004",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0006",
+      "title": "컴퓨터를 이용한 정보 활용(5) : 컴퓨서브의 가정정보",
+      "parent_id": "maso-1991-09-toc-0004",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0007",
+      "title": "이영식의 맥데이트 : 포스트스크립트와 새롭게 등장한 컴퓨터 슈퍼마켓",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0008",
+      "title": "언어 : 가자! C++의 세계로(2) : 클래스의 생성과 소멸",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0009",
+      "title": "원리구현",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0010",
+      "title": "한글 내장 통신 에뮬레이터의 제작(마지막회)",
+      "parent_id": "maso-1991-09-toc-0009",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0011",
+      "title": "베이직 인터프리터를 구현해 보자(마지막회)",
+      "parent_id": "maso-1991-09-toc-0009",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0012",
+      "title": "C로 작성한 B+ 트리(마지막회)",
+      "parent_id": "maso-1991-09-toc-0009",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0013",
+      "title": "활용",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0014",
+      "title": "윈도우즈 응용 프로그램 만들기(3) : 프로그램 작성과 실행 과정",
+      "parent_id": "maso-1991-09-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0015",
+      "title": "배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와 코드 입력 방식",
+      "parent_id": "maso-1991-09-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0016",
+      "title": "CONFIG.SYS의 최적화를 통한 메모리 활용",
+      "parent_id": "maso-1991-09-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0017",
+      "title": "클리퍼 5.0의 새로운 세계(마지막회) : 낸포럼을 이용한 풀다운 메뉴의 구현",
+      "parent_id": "maso-1991-09-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0018",
+      "title": "하드웨어 : 간단한 LAN, 마요네트의 구축과 PC-LAN의 이해",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0019",
+      "title": "업무활용코너 : 클리퍼로 작성한 회원관리 프로그램, 뿌리",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0020",
+      "title": "집중리뷰",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0021",
+      "title": "MS-DOS와 DR-DOS의 운영체제 경쟁",
+      "parent_id": "maso-1991-09-toc-0020",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0022",
+      "title": "클리퍼 5.01을 통해 본 클리퍼의 과거와 현재, 그리고 미래",
+      "parent_id": "maso-1991-09-toc-0020",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0023",
+      "title": "매킨토시 포럼 : 디렉터를 이용한 멀티미디어 구현",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0024",
+      "title": "테크니컬 독자마당 : 포트간 충돌을 해소시켜 주는 유스콤",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0025",
+      "title": "제3회 마이크로소프트웨어 애독자를 위한 세미나 개최 안내",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0026",
+      "title": "애독자 광장",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0040",
+      "title": "독자의 소리; 물어보세요; 애독자 퀴즈; 애독자 설문지; 게시판; 복덕방; 후기",
+      "parent_id": "maso-1991-09-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0034",
+      "title": "정보 레이다",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    },
+    {
+      "toc_entry_id": "maso-1991-09-toc-0041",
+      "title": "국내뉴스; 해외뉴스; 이 달의 행사안내; 새로 나온 책; 소프트웨어 열람실",
+      "parent_id": "maso-1991-09-toc-0034",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed",
+      "classification_evidence": [],
+      "restoration": null
+    }
+  ],
+  "checkpoints": [
+    {
+      "name": "1991-09-batch-01",
+      "status": "complete",
+      "completed_at": "2026-10-29T16:23:27.888147+00:00",
+      "goal": "Initialize issue and restore complete four-page column0003.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0003"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "outside_lookup_pages": 9,
+      "recognition_invocations": 28,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-01/validation.json",
+        "sha256": "5a1ace6b543348b6014ae74ee6d718f314d10cf8d6e3f3777c78dfa490b2f51d",
+        "bytes": 1152
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-01/reproduction.json",
+        "sha256": "249e02e2ef32a6422fdb7c94e576c1041a33dedadd9865cba43d007e56e78079",
+        "bytes": 20996
+      }
+    }
+  ],
+  "totals": {
+    "canonical_entries": 29,
+    "readable": 1,
+    "partial": 0,
+    "group_headings": 0,
+    "unresolved": 28
+  },
+  "notes": [
+    "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
+    "Previous goal turn identified next work without changing state; this turn initializes authoritative issue artifacts."
+  ],
+  "next_checkpoint": {
+    "name": "1991-09-batch-02",
+    "goal": "Verify feature0001 title/ownership/actual extent and restore a bounded opening segment after full page and crop review.",
+    "toc_entry_ids": [
+      "maso-1991-09-toc-0001"
+    ],
+    "canonical_printed_start": 124,
+    "initial_lookup_candidates": [
+      125,
+      126,
+      127
+    ],
+    "limits": {
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 20
+    },
+    "note": "PDF candidates only. No global folio offset or end inferred from next TOC. Segment long feature and preserve immutable natives; full issue closeout remains required."
+  }
+}
