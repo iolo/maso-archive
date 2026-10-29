@@ -33,36 +33,33 @@ records below are historical and do not authorize a new rebuild.
 
 Step 12 remains active: twenty-seven readable/sample-reviewed articles, one partial
 community bundle, five non-owning headings, two section references and zero unresolved
-identities out of 35. Batch60 restores PDF363–366 and368–369 for community0038.
-Selected partial native: `archive/pdf/1991-08/packages/batch-60-r01/community-a`.
-All179 files match an independent export. All54 source-pixel crops,39 pinned kor+eng
-settings and905 typed byte-range occurrences validate. Six complete page images and nine
-separate originals preserve body content; body prose/embedded lettering await volunteers.
+identities out of 35. Batch61 restores PDF370–375: Q&A ending, bulletin/classifieds,
+quiz and survey front. Selected native: `archive/pdf/1991-08/packages/batch-61-r02/community-b`.
+All293 files match an independent export;93 source-pixel crops,64 pinned kor+eng settings
+and2,399 typed ranges validate. Community now preserves12 of14 eligible pages across
+two immutable natives (472 files). Original body prose/embedded lettering await volunteers.
 
-Five letters, four Q&A starts, nine reader credits, interleaved editorial reply and related
-reader-gift notice retain24 body-image fragments and ten internal continuations. Reader
-credits are source data,not parent bylines; two split-column credits keep separate parts.
-The first VGA answer ends368 but its two diagrams appear369. PC Tools answer heading368
-precedes body369. SDK/DDK answer carries369→370. Two diagrams keep twelve circled-number
-rows;IRQ table retains16 data rows,51 fields and four printed dash cells. Five unknown
-leader-dot bands,45 uncertainties and eleven opaque variants remain source-linked.
+SDK/DDK answer closes370;fifth memory-map Q&A ends371. Two diagrams retain20 fields.
+Five disk groups/seven entries/four boxed markers,three classified posts,ten prize images
+and captions,71 winner names/addresses in11 categories and two category column continuations
+stay source-linked. Survey front retains seven blank response areas,three subscription rows
+and two vertical labels;right-edge label strokes remain uncertain. Printed spelling,
+hardware,contact,price and historical claims remain literal and unverified.
 
-Full community extent is14 eligible pages363–366,368–376 and378. Divider363 has no
-visible folio;canonical377 stays literal.367 book ad and377 subscription page outside body.
-Mixed371 lower contributor ad and378 lower unlisted advertising index require exclusions
-in later natives. Editing notes378/392 end the bundle;379–383 forms/ads/wrap-cover outside.
-Survey375/376 visible folios stay null. Child0047 is one non-owning seven-topic reference:
-source divider has five rows,combines classifieds/bulletin and omits the editing-notes label.
-Its native p363-topics anchor still requires final parent assembly projection.
+Full community extent is14 eligible pages363–366,368–376 and378. Lower371 contributor
+ad excluded with exact body/folio masked-source reconstruction.367 book ad and377
+subscription page outside body. Final378 lower unlisted advertising index must be excluded.
+Divider363 andsurvey375/376 visible folios stay null;canonical377 remains literal.
+Child0047 is one non-owning seven-topic reference with final p363-topics projection pending.
 
-All54 initial crops and26 refinements reviewed before39 recognitions;all raw drafts read
-before one source pass. Zero retries,added regions or post-OCR changes. All37,346 pre-OCR
-archive files and thirty core modules exact;unchanged213-test baseline reused. Complete
-news parent/child assembly remains immutable. Human acceptance/full proofreading,source
-encoding/glyph counts and historical/contact/hardware claims remain unverified.
-Next batch61 restores retained reviewed370–375:Q&A ending,bulletin/classifieds,quiz and
-survey front. Final376/378 then actual community assembly/child-anchor projection pending.
-Resume `archive/pdf/1991-08/restoration/batch-60/handoff.json`;retain frozen helpers.
+All93 initial crops and60 pre-OCR refinements reviewed before64 recognitions;all drafts
+read before one source pass;zero recognition retries. One pre-OCR boundary repair and
+same-pass descriptive-flow correction retained with every original revision/failure.
+All38,009 pre-OCR archive files and thirty core modules exact;unchanged213-test baseline
+reused. Complete news parent/child remains immutable. Human acceptance/full proofreading
+and source encoding/glyph counts remain unverified. Next batch62 restores final376/378,
+then actual three-native community assembly and child-anchor projection inbatch63.
+Resume `archive/pdf/1991-08/restoration/batch-61/handoff.json`;retain frozen helpers.
 Full383-page accounting,index,cover and closeout remain required. No reader rebuild.
 Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and0002 the batch04 native adapter.

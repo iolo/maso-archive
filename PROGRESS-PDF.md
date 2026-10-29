@@ -8,13 +8,13 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: twenty-seven readable/sample-reviewed articles,
 one partial community bundle, five headings, two section references and zero unresolved
-identities =35. Community0038 opening363–366/368–369 is at `packages/batch-60-r01/community-a`:
-179 independently exact files,54 source crops,39 settings and905 typed ranges validate.
-Five letters,four Q&A starts,nine reader credits,reply/notice,two monitor diagrams and
-16-row IRQ table retained;body/embedded lettering transcription pending volunteers.
-Full14-page extent363–366,368–376,378 verified;survey375/376 folios remain null.
-Child0047 is non-owning with final anchor projection pending. Next batch61 restores370–375;
-final376/378 and actual assembly follow. Complete news parent/child remains immutable.
+identities =35. Community0038 middle370–375 is at `packages/batch-61-r02/community-b`:
+293 independently exact files,93 source crops,64 settings and2,399 typed ranges validate.
+Twelve of14 community pages now preserved across472 native files. Q&A ending,diagram
+fields,catalogue/classifieds,quiz/prizes,71 winner rows and survey front retained.
+Body prose/embedded lettering await volunteers;survey375/376 folios stay null.
+Child0047 final anchor projection pending. Next batch62 restores376/378,then actual
+three-native assembly inbatch63. Complete news parent/child remains immutable.
 Full383-page accounting,index,cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
