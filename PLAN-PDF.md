@@ -33,19 +33,21 @@ records below are historical and do not authorize a new rebuild.
 
 September 1991 restoration is active: two readable/sample-reviewed articles,
 one partial feature and 26 unresolved identities account for 29 canonical TOC entries.
-Batch 09 restores barcode feature 0002's opening, PDF 198–203, as an immutable native.
-The matching title/deck/three-part outline establishes ownership; the source title's
-데이타 spelling and canonical 데이터/reference 196 remain independent. PDF 198 has no
-visible folio and stays null; the next five literal folios are 197–201. The feature ends on 217
-before independent advertisements 218–219; remaining interior coverage is deferred.
-Both exports contain 211 exact files. All 59 crops, 446 typed ranges, 48 OCR settings,
-59 decoded images and ZIP integrity pass. Three outline rows, six illustrated application
-groups and eleven listed cases are preserved. All 48 raw drafts were read before one
-source correction pass, with zero retries; original barcode/bitmap glyph work remains explicit.
-Next: restore 204–209. Current 203 market prose resumes on 205 across POS sidebar 204;
-prove the source-linked native join after the next export. Pages 204–217 and full
-barcode assembly remain pending. The complete notebook feature 116–147 stays unchanged.
-Full 406-page issue accounting, other bodies, cover, issue export and closeout remain pending.
+Batch 10 restores barcode feature 0002's continuation, PDF 204–209, as a second
+immutable native. Twelve of its twenty pages, PDF 198–209, are now preserved.
+The complete POS sidebar, part I market ending, part II opening and complete
+apocalypse sidebar are retained with seventeen original images. Eight numbered
+diagrams have separate caption/label evidence; six compact table cells and the
+PCR formula keep their printed values and original image pixels.
+Both exports contain 269 exact files. All 78 crops, 776 typed ranges, 61 OCR settings,
+78 decoded images and ZIP integrity pass. All 61 raw drafts were read before one
+source correction pass, with zero retries. The interrupted 203/205 market join is
+verified in both native download contexts across the complete POS sidebar on 204.
+Next: restore 210–215 and attest the 209/210 ink-paragraph continuation, 파/장의.
+Final 216–217 and full barcode assembly follow. The complete notebook feature
+116–147 and all prior packages remain unchanged. Canonical titles/reference 196
+and source 데이타 spelling remain independent. Full 406-page issue accounting,
+other bodies, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
