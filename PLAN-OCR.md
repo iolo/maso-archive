@@ -27,27 +27,25 @@ paired OCR or a new engine comparison.
   five non-owning headings, two section references and zero unresolved identities out of 35.
   All canonical article bodies, actual assemblies and child-anchor projections are complete.
   Community complete package: `archive/pdf/1991-08/packages/community-complete-r01`
-  (584 independently exact files, including all 576 unchanged native files).
+  (584 independently exact files, including all576 unchanged native files).
 
-  Whole-issue ownership has 211 selected body pages/211 assignments, no shared body pages,
-  and 21 mixed exclusions. Batch68 directly reviews twenty outside pages:
-  81–83,87–88,103,112–115,136–145. These contain eighteen advertisements, one unlisted
-  multimedia editorial on81 (literal folio95) and one seminar promotion on103 (null folio).
-  Cumulative outside review covers100 pages. Accounting now has311 of383 content records
-  and72 outside pages pending; an independent reconstruction is byte-identical. All earlier
-  eighty observations and211 body assignments remain unchanged. Unlisted material stays
-  outside the canonical queue. BASIC0004 retains its legacy adoption/current-identity guard.
+  Whole-issue ownership has211 selected body pages/211 assignments, no shared body pages
+  and21 mixed exclusions. Batch69 directly reviews twenty outside pages:
+  146–147,153,163–171,179,184–190. All are advertisements with null observed folios.
+  Cumulative outside review covers120 pages. Accounting now has331 of383 content records
+  and52 outside pages pending; an independent reconstruction is byte-identical. All earlier
+  one hundred observations and211 body assignments remain unchanged. PDF190 is a HYCOM
+  classroom-network promotion; following context is not assumed. BASIC0004 retains its
+  legacy adoption validation/current-identity guard. Unlisted material stays outside the queue.
 
-  No new article export, mapping, OCR or source correction. Twelve new3000px renders and
-  eight retained3000px views support the twenty declared lookups. Original preparation
-  failed on an older1800px view at136; fresh prepare-r01 reused saved inputs and successful
-  renders, retaining all earlier source views and the failed helper. All 40,235 prior archive
-  files and thirty core modules remain exact; the unchanged213-test baseline is reused.
-  All35 canonical outcomes remain unchanged. Body prose, embedded lettering/handwriting,
-  uncertain glyph encoding/counts, human acceptance/full proofreading and source claims
-  remain unverified; volunteer work remains explicit.
-  Next batch69 reviews outside146–147,153,163–171,179,184–190 within the twenty-page limit.
-  Resume `archive/pdf/1991-08/restoration/batch-68/handoff.json`.
+  No new article export, mapping, OCR or source correction. Eight new3000px renders and
+  twelve retained3000px views support the twenty declared lookups. All 40,279 prior archive files
+  and thirty core modules remain exact; unchanged213-test baseline reused. All35 canonical
+  outcomes remain unchanged. Body prose, embedded lettering/handwriting, uncertain glyph
+  encoding/counts, human acceptance/full proofreading and source claims remain unverified;
+  volunteer work remains explicit.
+  Next batch70 reviews outside191–203,211,225,239,250–253 within the twenty-page limit.
+  Resume `archive/pdf/1991-08/restoration/batch-69/handoff.json`.
   Full383-page accounting, standalone issue index/report, cover, independent rebuilds and
   closeout remain required. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
