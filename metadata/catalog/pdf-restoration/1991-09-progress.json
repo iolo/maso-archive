@@ -34,7 +34,8 @@
         "Six-page opening complete as an immutable native;partII begins122. Known122–132 continuation remains deferred. Actual ending unverified after20outside lookups;150–155 advertisements do not establish133–149 continuity or final ownership.",
         "All36original crops exact;26drafts source-corrected once with zeroOCR retries;10original images,3outline items,sixjoin groups and complete range metadata retained. Literal/null folios preserved.",
         "Batch03 preserves122–127/printed120–125 as a second immutable native. Earlier116–121 remains exact;12pages preserved so far. Final8thbenchmarkchart/comment ends147/145,next148–150ads. Endpoint is now observed,but uninspected133–142 andremaining128–147bodycoverage/assembly remain pending. Canonical124 unchanged. 64regions44blocks12originalimages,8joins,9captionassociations and6tablerows/14cells retained;sourcepercentages total101without normalization. Caption2rightedge repairedonce before correction,51unchangedrecognitions reused;one correctionpass. Unknownwordreading remains explicit.",
-        "Batch04preserves128–133/printed126–131asthirdimmutable native. PartIIends133withconclusion/closingornament/fourreferences;134independentintrinsicpartIIItitle. Incoming127슬립+128모드(Sleep Mode)verified in separatelypinnednative downloadcontexts withoutmutatingoldmetadata. 50regions29blocks10originalimages/sevenjoins/eightcaptionassociations/fourreferences preserved.40initialrecognitions,onecorrectionpass,zero retries. EatherNet,PCUREER,register/bitcases,386SLsidebarandprintedwording remainliteral;flowchartmodemlabel/glyph/hardwareverification staysvolunteertask.18featurepagespreserved;134–147andcompleteassemblypending."
+        "Batch04preserves128–133/printed126–131asthirdimmutable native. PartIIends133withconclusion/closingornament/fourreferences;134independentintrinsicpartIIItitle. Incoming127슬립+128모드(Sleep Mode)verified in separatelypinnednative downloadcontexts withoutmutatingoldmetadata. 50regions29blocks10originalimages/sevenjoins/eightcaptionassociations/fourreferences preserved.40initialrecognitions,onecorrectionpass,zero retries. EatherNet,PCUREER,register/bitcases,386SLsidebarandprintedwording remainliteral;flowchartmodemlabel/glyph/hardwareverification staysvolunteertask.18featurepagespreserved;134–147andcompleteassemblypending.",
+        "Batch05 preserves 134–139/printed 132–137 as fourth immutable native: independent part III title, main buying-guide prose through conclusion 138 and six model profiles. Sixty exact regions, 50 blocks, seven original images, three internal joins, six photo/title associations and 42 independent specification fields retained. 53 initial recognitions and one changed-crop repair precede one source correction pass; 52 unchanged drafts reused, zero unchanged-input retries. Historical values and printed errors including 3.25-inch/FTN/model 20 and independent profile/prose values retained. Twenty-four feature pages preserved; 140–147 and complete assembly pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a",
@@ -170,6 +171,33 @@
               "sha256": "c2157191a9156e7a1bcd3b9fd7303f6cd02ff3873513596ef6a0fa7be12ae8d0",
               "bytes": 1764
             }
+          },
+          {
+            "name": "d",
+            "directory": "archive/pdf/1991-09/packages/batch-05-r01/notebook-d",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-05-r01/notebook-d/manifest.json",
+              "sha256": "82c5b2196bda4eb5c3d4004391c9c789e606c8a85dbe4bb52c39d0a6bf325c68",
+              "bytes": 40256
+            },
+            "pdf_pages": [
+              134,
+              135,
+              136,
+              137,
+              138,
+              139
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-05/validation.json",
+              "sha256": "f3511738c4fd321f627a1b7eef68d7b10ac0be7d326ccd168b3e12392d833420",
+              "bytes": 1648
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-05/reproduction.json",
+              "sha256": "2cbcfb80926f7bab1660c39c5cc2affc8cad22f4703f20e50cda357037d42d81",
+              "bytes": 41313
+            }
           }
         ],
         "all_body_pages_preserved_across_natives": false,
@@ -191,15 +219,15 @@
           130,
           131,
           132,
-          133
-        ],
-        "remaining_pdf_pages": [
+          133,
           134,
           135,
           136,
           137,
           138,
-          139,
+          139
+        ],
+        "remaining_pdf_pages": [
           140,
           141,
           142,
@@ -213,17 +241,11 @@
           "start_pdf_page": 116,
           "end_pdf_page": 147,
           "uninspected_interior_pdf_pages": [
-            134,
-            135,
-            136,
-            137,
-            138,
-            139,
             140,
             141,
             142
           ],
-          "note": "Endpoints116/147observed. All116–133mapped/preserved;remaining134–147not yet restored. PartIIends133,partIIIstarts134."
+          "note": "Endpoints116/147 observed. All116–139 mapped/preserved; remaining140–147 not restored. Page140 inspected only as a boundary/contact lookup; full-page/crop review remains required. Main part III prose closes138, with independent model profiles and benchmark appendices continuing through147."
         }
       }
     },
@@ -711,6 +733,41 @@
         "sha256": "9cd42372a6a0dff4c5b91c3bafeced66019f32c6ec7347b3b6dec3ba2f46a21d",
         "bytes": 31719
       }
+    },
+    {
+      "name": "1991-09-batch-05",
+      "status": "complete",
+      "completed_at": "2026-10-29T17:26:05.359216+00:00",
+      "goal": "Restore intrinsic part III opening 134–139, main buying guide and first six model profiles; keep whole feature partial.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 54,
+      "initial_recognitions": 53,
+      "changed_input_recognitions": 1,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-05/validation.json",
+        "sha256": "f3511738c4fd321f627a1b7eef68d7b10ac0be7d326ccd168b3e12392d833420",
+        "bytes": 1648
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-05/reproduction.json",
+        "sha256": "2cbcfb80926f7bab1660c39c5cc2affc8cad22f4703f20e50cda357037d42d81",
+        "bytes": 41313
+      }
     }
   ],
   "totals": {
@@ -726,20 +783,20 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-05",
-    "goal": "Restore intrinsicpartIIIopening134–139after source/crop review,at mostsixmappedpages.",
+    "name": "1991-09-batch-06",
+    "goal": "Restore intrinsic part III model profiles/benchmark appendix 140–145 after full source/crop review, at most six mapped pages.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0001"
     ],
     "mapping_targets": [
-      134,
-      135,
-      136,
-      137,
-      138,
-      139
+      140,
+      141,
+      142,
+      143,
+      144,
+      145
     ],
-    "reusable_source_review": "archive/pdf/1991-09/restoration/batch-04/source-review/pdf-134.png",
+    "reusable_source_review": "archive/pdf/1991-09/restoration/batch-05/source-review/pdf-140.png",
     "known_extent": {
       "start_pdf_page": 116,
       "end_pdf_page": 147
@@ -749,6 +806,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "134has independentlyreviewedpartIIItitle;135–139need source renders/review. No prosejoinfrom133to134. Preserveallthree immutable natives andincoming127/128sidecar;fullfeature134–147andcompleteassemblyremainpending."
+    "note": "140 has boundary/contact review only; full pages/maps/crops require review. No prose join139/140. Preserve all four immutable natives and incoming127/128 sidecar. Final146–147 and full feature assembly follow."
   }
 }

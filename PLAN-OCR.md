@@ -25,15 +25,16 @@ paired OCR or a new engine comparison.
 
 September 1991 restoration is active: one readable/sample-reviewed article,
 one partial feature and 27 unresolved identities account for 29 canonical TOC entries.
-Feature0001 now has PDF116–133 preserved across three immutable natives. Batch04
-adds partIIending128–133/printed126–131: 178 JSON/assets files reproduce exactly;
-50 source crops, 423 typed ranges, 40 OCR settings and ZIP integrity validate.
-Forty initial recognitions used one source correction pass and zero retries.
-Incoming127 슬립 +128 모드 is verified in separately pinned native download contexts.
-PartII ends133 with a conclusion and four references; partIII starts independently134.
-Remaining134–147 and full assembly are pending. Canonical reference124 remains
-unchanged despite the observed earlier opening. Next: restore partIII134–139.
-Full406-page issue accounting, other bodies, cover and closeout remain pending.
+Feature 0001 now has PDF 116–139 preserved across four immutable natives. Batch 05
+adds part III opening 134–139/printed 132–137: 227 JSON/assets files reproduce exactly.
+All 60 source crops, 789 typed ranges, 53 OCR settings and ZIP integrity validate.
+Six model profiles retain 42 independently indexed specification fields; seven original
+images and three page-boundary joins are preserved. Fifty-three initial recognitions
+and one changed-crop repair precede one source correction pass; zero unchanged-input retries.
+Main part III prose closes on 138; independent profiles and benchmark appendices continue.
+Remaining pages 140–147 and full assembly are pending. Canonical reference 124 remains unchanged
+despite the observed earlier opening. Next: restore part III 140–145, then 146–147 and assembly.
+Full 406-page issue accounting, other bodies, cover and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
