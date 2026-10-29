@@ -69,16 +69,27 @@ recognitions; all raw drafts before one source pass; zero retries or post-OCR re
 All 30,802 pre-OCR archive files and thirty core modules remain exact; the unchanged
 213-test baseline is reused. Earlier source-stage handoff and every revision retained.
 
-Next batch47 restores final PDF336–337/printed350–351 as a second native, retaining
-tables3–4, chart9, emulator prose, command/configuration text and terminal ornament.
-Exclude the unrelated lower337 back-issue advertisement and retain literal351 folio.
-First335 ends 수;336 middle-column prose below the tables starts
-십 배에 달하는 성능의 향상을 기대할. Use an empty-separator incoming standard
-segment_continuations declaration referencing copro-a/p335-emulator-prose. Actual
-full two-native assembly follows separately, with every native/source-local/projected
-range audited. Resume `archive/pdf/1991-08/restoration/batch-46/handoff-complete.json`;
-do not rerun frozen helpers. Every final crop before OCR; all raw drafts before one source
-pass. Prepared339–347 remain uninspected. Whole-issue accounting, index, cover and closeout
+Batch47 restores the ending PDF336–337/printed350–351 in
+`archive/pdf/1991-08/packages/batch-47-r01/copro-b`. All 84 files match an independent
+export; all 22 source-pixel crops, 18 pinned kor+eng settings and 1,244 typed ranges
+validate. Retains 14 blocks, four originals, three captions, three prose joins with four
+boundaries and 69 table/chart fields across 36 reading rows. Table3 retains twelve cells;
+table4 has three categories and sixteen package/company pairs. Chart9 retains twenty
+labels without inferred bar values. Eight command/configuration fields, 96 uncertainties
+and twelve opaque variants preserve printed program names, physical wraps, 4~3 and
+[I]/[1] font candidates. Lower337 advertisement excluded; literal351 folio retained.
+All 22 crops reviewed before 18 initial recognitions; all raw drafts before one source
+pass; zero retries or crop changes. All 31,539 pre-OCR archive files and thirty core
+modules remain exact; the unchanged 213-test baseline is reused.
+
+Next batch48 completes the actual full coprocessor assembly, PDF330–337/printed344–351,
+using both immutable natives copro-a and copro-b. All 347 native files must remain exact.
+Resolve standard335수→336십 with an empty separator. Independently audit every native,
+source-local and projected typed range, including segments[].original_metadata. Preserve
+all table/diagram fields, program commands, covered montage markers and source candidates.
+No new mapping, OCR or source correction. Resume
+`archive/pdf/1991-08/restoration/batch-47/handoff.json`; do not rerun frozen helpers.
+Prepared339–347 remain uninspected. Whole-issue accounting, index, cover and closeout
 remain pending. No reader rebuild.
 Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue

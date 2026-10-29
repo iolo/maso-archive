@@ -2399,15 +2399,16 @@
         "All eight source pages330–337/344–351 reviewed. Upper337 emulator conclusion and terminal ornament end the article; lower back-issue advertisement is unrelated.338 opens independent 하드웨어 구성소자들; its full extent remains unverified.",
         "First330–335 native only:263 independently identical files,72 exact source-pixel crops,61 pinned kor+eng settings and5,130 typed range occurrences validate.52 blocks,11 original images,ten caption associations,six prose joins/nine boundaries,271 spatial fields/100 reading rows retained. Final336–337 andactual two-native assembly remain pending.",
         "Register bits/rows,24 stack row numbers,six-state register/memory matrix,seven data formats andtwo complete tables indexed occurrence by occurrence.46 instruction fields,16 source claims,eight physical wraps andnine boundary fields retained.398 uncertainty records,18 opaque variants andfour unknown-count montage markers remain active. Literal FLY2XP1,T×log₂(X+1),bit ordering,exponents,source grammar andclaims are not repaired or executed.",
-        "All72 initial crops,66 first refinements andeight second refinements individually viewed before61 initial recognitions. All61 raw drafts read beforeone source correction pass;zero retries,added regions orpost-OCR crop changes. All30,802 saved pre-OCR archive files andthirty core modules remain exact;unchanged213-test baseline reused. Standard outgoing335수→336십 continuation has empty separator andassembled=false."
+        "All72 initial crops,66 first refinements andeight second refinements individually viewed before61 initial recognitions. All61 raw drafts read beforeone source correction pass;zero retries,added regions orpost-OCR crop changes. All30,802 saved pre-OCR archive files andthirty core modules remain exact;unchanged213-test baseline reused. Standard outgoing335수→336십 continuation has empty separator andassembled=false.",
+        "Batch47 restores final336–337/350–351 in84 independently exact files. All22 exact source-pixel crops,18 pinned kor+eng settings and1,244 typed range occurrences validate.14 blocks,four originals,three captions,three prose joins/four boundaries and69 spatial fields/36 reading rows retained. Table3 keeps12 cells;table4 hasthree categories,sixteen package/company pairs and37 fields;chart9 keeps20 labels without inferred bar values. Eight command fields,five physical wraps,eight source claims,96 uncertainty records andtwelve opaque variants preserve 4~3,FRA-/NK.387,FRANK387/FRANK.387,THe/The and[I]/[1] candidates. All22 crops reviewed before18 initial recognitions;all raw drafts beforeone source pass;zero retries orcrop changes. All31,539 saved pre-OCR archive files andthirty core modules exact;213-test baseline reused. Incoming standard335수→336십 link has empty separator. All eight body pages are preserved across347 immutable native files;actual full assembly remains pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-46-r01/copro-a",
+        "directory": "archive/pdf/1991-08/packages/batch-47-r01/copro-b",
         "article_id": "scan-maso-1991-08-toc-0027",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-46-r01/copro-a/manifest.json",
-          "sha256": "a3806fc20ef971b2e9c3ffec4de10669932674c0d3c9329bc01b7396acaa7883",
-          "bytes": 46195
+          "path": "archive/pdf/1991-08/packages/batch-47-r01/copro-b/manifest.json",
+          "sha256": "b0817229c22c31fe50660b0c82a3e383f5435433ce48e778651526c6703babb0",
+          "bytes": 14508
         },
         "source_body_title": "수치보조 프로세서와 그 응용",
         "source_series_title": "하드웨어",
@@ -2415,54 +2416,92 @@
         "canonical_byline_candidate": "성기철",
         "coverage": {
           "pdf_pages": [
-            330,
-            331,
-            332,
-            333,
-            334,
-            335
-          ],
-          "printed_pages": [
-            "344",
-            "345",
-            "346",
-            "347",
-            "348",
-            "349"
-          ],
-          "regions": 72,
-          "blocks": 52,
-          "figures": 11,
-          "excluded_regions": 0,
-          "deferred_pdf_pages": [
             336,
             337
-          ]
+          ],
+          "printed_pages": [
+            "350",
+            "351"
+          ],
+          "regions": 22,
+          "blocks": 14,
+          "figures": 4,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": [],
+          "native_scope_only": true
         },
         "body_pages_complete": false,
         "native_body_pages_complete": true,
+        "all_body_pages_preserved_across_natives": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "name": "copro-a",
+            "directory": "archive/pdf/1991-08/packages/batch-46-r01/copro-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-46-r01/copro-a/manifest.json",
+              "sha256": "a3806fc20ef971b2e9c3ffec4de10669932674c0d3c9329bc01b7396acaa7883",
+              "bytes": 46195
+            },
+            "pdf_pages": [
+              330,
+              331,
+              332,
+              333,
+              334,
+              335
+            ]
+          },
+          {
+            "name": "copro-b",
+            "directory": "archive/pdf/1991-08/packages/batch-47-r01/copro-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-47-r01/copro-b/manifest.json",
+              "sha256": "b0817229c22c31fe50660b0c82a3e383f5435433ce48e778651526c6703babb0",
+              "bytes": 14508
+            },
+            "pdf_pages": [
+              336,
+              337
+            ]
+          }
+        ],
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-46/ledger-complete.json",
+          "sha256": "125e6fbe433abd52bf13cbdf86f15fa8bd815b1c4049427728727779e7c97212",
+          "bytes": 201737
+        },
         "full_source_extent": {
           "start_pdf_page": 330,
           "end_pdf_page": 337,
           "ending_printed_page": "351",
           "following_pdf_page": 338,
           "following_role": "Independent hardware-basics child opening; full extent unverified.",
-          "ending": "Upper337 emulator conclusion/terminal ornament; lower unrelated back-issue advertisement must be excluded by ending native."
+          "ending": "Upper337 emulator conclusion/terminal ornament; lower unrelated back-issue advertisement must be excluded by ending native.",
+          "ending_lower_advertisement": "Lower337 unrelated back-issue advertisement excluded; upper conclusion/terminal ornament and literal351 folio retained."
+        },
+        "incoming_prose_boundary": {
+          "prior_segment": "copro-a",
+          "prior_region": "p335-emulator-prose",
+          "prior_text_end": "수",
+          "region_id": "p336-emulator-middle",
+          "text_start": "십 배에 달하는 성능의 향상을 기대할",
+          "join_separator": "",
+          "assembled": false
         },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-46/validation.json",
-          "sha256": "a3c3c69897b230eae318752b7bf2e6aea462ec7fdbb9591cb6cffa07d4f1385c",
-          "bytes": 2390
+          "path": "archive/pdf/1991-08/restoration/batch-47/validation.json",
+          "sha256": "079055eab129de91358a90e6505b3d29c1be5afb1ab1653cc6dd4a11d5c31eae",
+          "bytes": 2338
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-46/reproduction.json",
-          "sha256": "a103b5f40815bde40a08654b95f2a88d8eb9633e60bd6b4d72c4e1894b0cfc4f",
-          "bytes": 46941
+          "path": "archive/pdf/1991-08/restoration/batch-47/reproduction.json",
+          "sha256": "0fd002cc853e57f597f87945c24adeb0e2ba87e57a46076dab1b8e0cb9f3274d",
+          "bytes": 15252
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-46"
+        "checkpoint": "batch-47"
       }
     },
     {
@@ -3842,6 +3881,36 @@
         "sha256": "a103b5f40815bde40a08654b95f2a88d8eb9633e60bd6b4d72c4e1894b0cfc4f",
         "bytes": 46941
       }
+    },
+    {
+      "name": "1991-08-batch-47",
+      "status": "complete",
+      "completed_at": "2026-10-29T04:34:08.617195+00:00",
+      "goal": "Restore final coprocessor336–337 andexclude unrelated lower337 advertisement",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0027"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 2,
+      "new_mapped_pages": 2,
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 18,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 0,
+      "pre_ocr_added_regions": 0,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-47/validation.json",
+        "sha256": "079055eab129de91358a90e6505b3d29c1be5afb1ab1653cc6dd4a11d5c31eae",
+        "bytes": 2338
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-47/reproduction.json",
+        "sha256": "0fd002cc853e57f597f87945c24adeb0e2ba87e57a46076dab1b8e0cb9f3274d",
+        "bytes": 15252
+      }
     }
   ],
   "totals": {
@@ -3852,97 +3921,26 @@
     "unresolved": 8
   },
   "notes": [
-    "Full August issue remains active:21 readable articles,one partial coprocessor article,five non-owning headings andeight unresolved identities. Coprocessor0027 first330–335 restored;final336–337 andactual full assembly pending. Whole-issue accounting,index,cover andcloseout remain pending;no global folio offset orreader rebuild.",
+    "Full August issue remains active:21 readable articles,one partial coprocessor article,five non-owning headings andeight unresolved identities. Allcoprocessor330–337 body pages preserved across347 immutable native files;actual full assembly pending. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-47",
-    "goal": "Restore final coprocessor336–337 andexclude lower337 unrelated advertisement; actual full assembly follows separately.",
+    "name": "1991-08-batch-48",
+    "goal": "Complete actual coprocessor two-native assembly330–337 with exhaustive native/source-local/projected range audit.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0027"
     ],
-    "canonical_title": "수치보조 프로세서와 그 응용",
-    "canonical_byline_candidate": "성기철",
-    "mapping_targets": [
-      336,
-      337
+    "inputs": [
+      "archive/pdf/1991-08/packages/batch-46-r01/copro-a",
+      "archive/pdf/1991-08/packages/batch-47-r01/copro-b"
     ],
-    "lookup_candidates": [
-      5,
-      330,
-      335,
-      336,
-      337,
-      338
-    ],
-    "retained_context": {
-      "source_extent": {
-        "path": "archive/pdf/1991-08/restoration/batch-46/source-extent-reviewed.json",
-        "sha256": "dbfc2da4ccd0ed50a4c70e4bb5f081ce96caa8c2ea9aa62eb4e970ab36e2293e",
-        "bytes": 5093
-      },
-      "first_native": "archive/pdf/1991-08/packages/batch-46-r01/copro-a",
-      "first_manifest": {
-        "path": "archive/pdf/1991-08/packages/batch-46-r01/copro-a/manifest.json",
-        "sha256": "a3806fc20ef971b2e9c3ffec4de10669932674c0d3c9329bc01b7396acaa7883",
-        "bytes": 46195
-      },
-      "first_validation": {
-        "path": "archive/pdf/1991-08/restoration/batch-46/validation.json",
-        "sha256": "a3c3c69897b230eae318752b7bf2e6aea462ec7fdbb9591cb6cffa07d4f1385c",
-        "bytes": 2390
-      },
-      "full_extent_verified": true,
-      "full_pdf_pages": [
-        330,
-        331,
-        332,
-        333,
-        334,
-        335,
-        336,
-        337
-      ],
-      "ending_pdf_pages": [
-        336,
-        337
-      ],
-      "ending_printed_pages": [
-        "350",
-        "351"
-      ],
-      "prepared_uninspected_pages": [
-        339,
-        340,
-        341,
-        342,
-        343,
-        344,
-        345,
-        346,
-        347
-      ],
-      "outgoing_boundary": {
-        "current_pdf_page": 335,
-        "last_source_text": "수",
-        "current_description": "Right-column emulator introduction ends 이렇듯 특정한 소프트웨어에서는 수",
-        "next_pdf_page": 336,
-        "next_printed_page": "350",
-        "next_region_description": "Middle-column prose below the tables and beside chart9, beginning 십 배에 달하는 성능의 향상을 기대할",
-        "next_source_text": "십 배에 달하는 성능의 향상을 기대할",
-        "join_separator": "",
-        "carried_word": true,
-        "assembled": false
-      }
-    },
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Restore verified final336–337/350–351 in a fresh copro-b native. Reuse batch46 source extent and retained renders; do not rerun frozen successful helpers. Review full ending pages andevery exact final crop before mapped Tesseract;read every raw draft beforeone source pass. Preserve tables3–4,chart9,emulator prose,printed commands/configuration text andterminal ornament. Exclude lower337 unrelated back-issue advertisement andretain351 folio. Firstnative copro-a ends p335-emulator-prose with수.336 middle-column prose belowtables starts십 배에 달하는 성능의 향상을 기대할: add incoming standard segment_continuations with prior_segment=copro-a,prior_region=p335-emulator-prose,prior_text_end=수,join_separator empty. Do not claim full article completion before actual two-native assembly andevery native/source-local/projected range audit. Prepared339–347 remain uninspected. No semantic/math/opcode/grammar repair orhistorical execution;no reader rebuild.",
-    "assembly_required": true,
-    "complete_article_assembly_pending": true
+    "note": "Use standard namespaced-v1 assembly with both actual immutable natives named copro-a andcopro-b. Preserve all347 native files andoriginal metadata. Standard incoming/outgoing declarations must resolve335수→336십 with empty separator. Independently audit every typed occurrence in native,source-local andprojected contexts,including additional metadata retained in segments[].original_metadata. Preserve all table cells,register/stack/matrix/data-format fields,package/company pairs,chart labels,program/configuration commands,unknown-count markers andsource uncertainties. Resolve only exact obsolete native-stage scope notes;no source reading changes,new mapping,OCR orcorrection. Lower337 advertisement exclusion andliteral351 folio retained. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild."
   }
 }
