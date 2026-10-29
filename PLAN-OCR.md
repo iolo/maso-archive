@@ -25,34 +25,34 @@ paired OCR or a new engine comparison.
 
 - August 1991 remains active: twenty-six readable/sample-reviewed articles, one partial,
   five non-owning headings, one section reference and two unresolved identities out of 35.
-  Batch56 restores information-radar0032 PDF95–100/printed109–114. Domestic news ends
-  on97/111; foreign news independently opens98/112. Lower97 subscription advertising
-  is excluded using separate original body/folio images; the unmasked source is retained.
-  Selected partial package: `archive/pdf/1991-08/packages/batch-56-r01/radar-b`.
-  All 114 files match an independent export. All 37 source-pixel crops, 23 pinned kor+eng
-  settings and 311 typed ranges validate. Five full pages, two97 body/folio images and
-  seven separate photos/screens preserve complete eligible body pixels. Searchable headings
-  and captions do not certify body prose; body and embedded lettering await volunteers.
+  Batch57 restores information-radar0032 PDF101–102 and104–107, with observed folios115–116
+  and118–121. Source103 is an independent seminar promotion, outside the news body.
+  Selected partial package: `archive/pdf/1991-08/packages/batch-57-r01/radar-c`.
+  All 99 files match an independent export. All 34 source-pixel crops, 19 pinned kor+eng
+  settings and 315 typed ranges validate. Six complete body pages and nine separate images
+  retain seven caption links and two uncaptioned originals. Body and embedded lettering
+  transcription remain pending volunteers; searchable headings do not certify body prose.
 
-  Incoming domestic-n16 closes on95. Eight new domestic and five foreign item starts retain
-  27 body-image fragments, thirteen internal continuations, seven captions and outgoing
-  Norton Desktop100→101. Multimedia foreign-f04 ends in100 middle opening; a provisional
-  flow note was explicitly corrected in the one source pass. Frozen OCR maps, crops, raws
-  and original notes remain intact. All fourteen uncertainties and nine variants survive.
+  Four foreign and five software starts retain33 body-image fragments,24 internal
+  continuations, incoming Norton tail and outgoing GGOMA panel107→108. Two images appear
+  before their review headings; their original caption associations remain explicit.
+  Main four-column reviews and interleaved public-software panels retain separate flow.
+  All14 chip-caption physical rows, six source-claim fields, nineteen uncertainties and
+  nine opaque variants remain source-linked without technical or historical repair.
 
-  All 37 initial crops and eight refinements were reviewed before 23 initial recognitions.
-  Every raw draft was read before one source pass; zero retries, added regions or post-OCR
-  changes. The failed initial mixed-page mapping attempt and fresh disjoint-region helper
-  remain archived. All 35,617 pre-OCR archive files and thirty core modules remain exact;
-  unchanged213-test baseline reused. Opening89–94 and middle95–100 retain223 native files.
-  These twelve source pages contain29 observed item starts; the full article is incomplete.
+  All 34 initial crops and nine refinements reviewed before19 initial recognitions; all raw
+  drafts read before one source pass. Zero retries, added regions or post-OCR changes.
+  All 36,012 pre-OCR archive files and thirty core modules remain exact; unchanged213-test
+  baseline reused. Three actual natives preserve eighteen eligible pages in322 files.
 
-  Next batch57 resumes foreign-f05 from reviewed101/visible115. Candidate native101–106
-  requires full page/boundary review;102–107 remain unprepared and uninspected.101 onward,
-  full news extent, actual assembly and child0046 p089-topics anchor projection remain pending.
-  Divider89 has no visible folio; canonical103 remains literal. Remaining software/event/book
-  topic locations are unverified. Resume
-  `archive/pdf/1991-08/restoration/batch-56/handoff.json`; retain frozen helpers.
+  Full news extent is now verified:89–102 plus104–111,22 eligible pages. Divider89 folio
+  is null; canonical103 remains literal. Foreign ends102/116, software104–108/118–122,
+  events109/123 and books110–111/124–125.103 promotion and112–115 advertisements remain
+  outside body ownership;116 opens the separate already restored image-processing feature.
+  Next batch58 restores final108–111 from retained reviewed pages, preserving incoming
+  software-s05, events/book table fields and book-review continuations. Actual four-native
+  assembly and child0046 p089-topics anchor projection remain separate pending work. Resume
+  `archive/pdf/1991-08/restoration/batch-57/handoff.json`; retain frozen helpers.
   Community0038/0047, whole-issue accounting, index, cover and closeout remain pending.
   No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,

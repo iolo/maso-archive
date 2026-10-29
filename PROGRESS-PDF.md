@@ -8,17 +8,16 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: twenty-six readable/sample-reviewed articles,
 one partial news parent, five headings, one section reference and two unresolved community
-identities =35. News0032 second native95–100 is at `packages/batch-56-r01/radar-b`:
-114 independent files, 37 source crops, 23 settings and 311 typed ranges validate.
-Complete eligible body images and searchable headings/captions are retained; body prose
-and embedded lettering await volunteers. Lower97 subscription advertisement excluded;
-separate body/folio images preserve eligible content. Domestic ends97; foreign opens98.
-Eight new domestic and five foreign starts, incoming domestic-n16 and outgoing Norton
-report100→101 remain explicit. One provisional body-flow note was corrected without new
-OCR or crop changes. Opening89–94 and middle95–100 preserve223 immutable native files.
-News101 onward, full extent, final assembly and child0046 anchor projection pending.
-Next batch57 resumes from reviewed101/115;102–107 unprepared/uninspected. Community work,
-whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+identities =35. News0032 third native101–102/104–107 is at `packages/batch-57-r01/radar-c`:
+99 independent files, 34 source crops, 19 settings and 315 typed ranges validate.
+Complete original body images, seven caption links and two uncaptioned originals retained;
+body and embedded lettering transcription pending volunteers. Nine new foreign/software
+starts,33 body fragments,24 internal continuations and interleaved panels remain explicit.
+Full22-page news extent89–102 plus104–111 now verified. Source103 promotion and112–115
+ads are outside body;116 separate feature. Three natives preserve eighteen pages in322
+files. Next batch58 restores final108–111 from retained reviewed source. Actual four-native
+assembly and child0046 anchor projection pending. Community work, whole-issue accounting,
+index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
