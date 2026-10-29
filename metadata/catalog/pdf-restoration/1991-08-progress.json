@@ -2889,47 +2889,50 @@
         "Canonical0032 information-radar and child0046 five-topic list match source contents5 and independent divider89. The divider has no visible folio; canonical103 remains literal. Its topic references104,112,118,123,124 remain separate from observed folios. Page88 is a full independent book advertisement;90 opens 국내뉴스 at visible104. No global page offset or final extent inferred.",
         "Opening native89–94 preserves the divider and first five domestic news pages. Individually observed folios on90–94 are104–108. All109 independent export files,32 source-pixel crops,23 pinned kor+eng settings and336 typed ranges validate. Six complete original pages and three separate photos retain every body/layout/footer pixel;23 searchable heading/caption blocks do not claim corrected body prose. Volunteer body transcription pending.",
         "Sixteen item starts retain28 body-image fragments, fifteen complete native body-image sequences, twelve internal column/page continuations and one outgoing94→95 continuation in the last 탑헤드 report. Three photo-caption associations, five topic-reference rows, five unknown leader-dot bands, fifteen uncertainties and five opaque source candidates retained. No company/model/grammar/technical/historical repair.",
-        "All32 initial crops, twelve first refinements and one final IBM-heading refinement were reviewed before23 initial recognitions. Every raw draft was read before one source pass; zero retries, added regions or post-OCR changes. All35,235 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused.95 onward, full news extent and final parent assembly remain pending."
+        "All32 initial crops, twelve first refinements and one final IBM-heading refinement were reviewed before23 initial recognitions. Every raw draft was read before one source pass; zero retries, added regions or post-OCR changes. All35,235 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused.95 onward, full news extent and final parent assembly remain pending.",
+        "Batch56 restores second native95–100/109–114 in 114 independently exact files. All 37 source-pixel crops, 23 pinned kor+eng settings and 311 typed ranges validate. Five full original pages, separate97 body/folio images and seven photo/screen originals retain complete eligible body pixels. Lower97 subscription advertisement excluded; unmasked source retained. Incoming domestic-n16 closes on95; eight new domestic starts17–24 and five foreign starts01–05 retain 27 body-image fragments, thirteen internal continuations, seven caption links and outgoing Norton report100→101. Domestic ends97/111; foreign opens98/112. Fourteen uncertainties and nine opaque variants remain active. All37 initial crops and eight refinements reviewed before23 initial recognitions; all raw drafts before one source pass; zero retries or post-OCR changes. The first full-page/excluded-ad mapping attempt is retained; a fresh helper uses disjoint97 body/folio crops. One provisional multimedia/Norton column-flow note is explicitly corrected in active correction metadata, with all original frozen maps/notes retained. All35,617 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused. Opening89–94 remains immutable; 223 native files preserve89–100.101 onward, full news extent, final assembly and child0046 anchor projection remain pending. Body transcription and embedded image lettering await volunteers; no reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
+        "directory": "archive/pdf/1991-08/packages/batch-56-r01/radar-b",
         "article_id": "scan-maso-1991-08-toc-0032",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-55-r01/radar-a/manifest.json",
-          "sha256": "775649306b329ea0f6fa135fcd95d44d3dd5564e476beeb28611655a10f51734",
-          "bytes": 18546
+          "path": "archive/pdf/1991-08/packages/batch-56-r01/radar-b/manifest.json",
+          "sha256": "87a9d0024484c399cb264af7be0b30630ecc6a163b3d882281bf0303e4864f82",
+          "bytes": 19493
         },
         "source_body_title": "정보레이다",
         "source_byline": null,
         "canonical_page_reference": "103",
         "coverage": {
           "pdf_pages": [
-            89,
-            90,
-            91,
-            92,
-            93,
-            94
+            95,
+            96,
+            97,
+            98,
+            99,
+            100
           ],
           "printed_pages": [
-            null,
-            "104",
-            "105",
-            "106",
-            "107",
-            "108"
+            "109",
+            "110",
+            "111",
+            "112",
+            "113",
+            "114"
           ],
-          "regions": 32,
+          "regions": 37,
           "blocks": 23,
-          "figures": 9,
-          "excluded_regions": 0,
+          "figures": 14,
+          "excluded_regions": 1,
           "deferred_pdf_pages": [
-            95
+            101
           ],
-          "additional_deferred_extent_unknown": true
+          "additional_deferred_extent_unknown": true,
+          "native_scope_only": true
         },
         "body_pages_complete": false,
         "native_body_pages_complete": true,
+        "all_body_pages_preserved_across_natives": false,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "full_source_extent_verified": false,
@@ -2938,19 +2941,129 @@
         "body_transcription": "pending-volunteer",
         "body_availability": "original-image-readable",
         "full_body_text_review_claimed": false,
-        "source_body_image_items": 16,
+        "native_segments": [
+          {
+            "name": "radar-a",
+            "directory": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-55-r01/radar-a/manifest.json",
+              "sha256": "775649306b329ea0f6fa135fcd95d44d3dd5564e476beeb28611655a10f51734",
+              "bytes": 18546
+            },
+            "pdf_pages": [
+              89,
+              90,
+              91,
+              92,
+              93,
+              94
+            ],
+            "files": 109,
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
+              "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
+              "bytes": 2314
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-55/reproduction.json",
+              "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
+              "bytes": 19291
+            }
+          },
+          {
+            "name": "radar-b",
+            "directory": "archive/pdf/1991-08/packages/batch-56-r01/radar-b",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-56-r01/radar-b/manifest.json",
+              "sha256": "87a9d0024484c399cb264af7be0b30630ecc6a163b3d882281bf0303e4864f82",
+              "bytes": 19493
+            },
+            "pdf_pages": [
+              95,
+              96,
+              97,
+              98,
+              99,
+              100
+            ],
+            "files": 114,
+            "validation": {
+              "path": "archive/pdf/1991-08/restoration/batch-56/validation.json",
+              "sha256": "44170de3550fb632409c1c12a90863b4e49949c4cd89aec0c9fd5fcebbbfc629",
+              "bytes": 2755
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-08/restoration/batch-56/reproduction.json",
+              "sha256": "0e29570415acbd89669219a1126f33aa593d9393d8732eb4ae4beddd8d84b355",
+              "bytes": 20238
+            }
+          }
+        ],
+        "native_stage_history": {
+          "path": "archive/pdf/1991-08/restoration/batch-55/ledger-complete.json",
+          "sha256": "17c52d3bf89ebed3c15cec9c04dbcb2fcd49c2e1c5ee6650cbd401d28d49189c",
+          "bytes": 241803
+        },
+        "preserved_pdf_pages": [
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ],
+        "native_files_preserved": 223,
+        "observed_story_starts": 29,
+        "observed_domestic_story_starts": 24,
+        "observed_foreign_story_starts": 5,
+        "domestic_section_complete": {
+          "ending_pdf_page": 97,
+          "ending_printed_page": "111",
+          "last_story": "domestic-n24",
+          "lower_subscription_advertisement_excluded": true
+        },
+        "foreign_section_opening": {
+          "pdf_page": 98,
+          "printed_page": "112"
+        },
+        "incoming_body_boundary": {
+          "story_id": "domestic-n16",
+          "from_pdf_page": 94,
+          "to_pdf_page": 95,
+          "body_tail_complete": true,
+          "assembled": false
+        },
+        "outgoing_body_boundary": {
+          "story_id": "foreign-f05",
+          "from_pdf_page": 100,
+          "to_pdf_page": 101,
+          "left_tail_candidate": "149달러로",
+          "right_prefix_candidate": "정해졌는데,",
+          "assembled": false
+        },
+        "source_flow_correction": {
+          "path": "archive/pdf/1991-08/restoration/batch-56/source-flow-correction.json",
+          "sha256": "9685ae9b1d7af4653e891f087eb98845e14112b1ec10ac0779d5aa89e1a4e0a2",
+          "bytes": 3633
+        },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
-          "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
-          "bytes": 2314
+          "path": "archive/pdf/1991-08/restoration/batch-56/validation.json",
+          "sha256": "44170de3550fb632409c1c12a90863b4e49949c4cd89aec0c9fd5fcebbbfc629",
+          "bytes": 2755
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-55/reproduction.json",
-          "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
-          "bytes": 19291
+          "path": "archive/pdf/1991-08/restoration/batch-56/reproduction.json",
+          "sha256": "0e29570415acbd89669219a1126f33aa593d9393d8732eb4ae4beddd8d84b355",
+          "bytes": 20238
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-55"
+        "checkpoint": "batch-56"
       }
     },
     {
@@ -4565,6 +4678,39 @@
         "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
         "bytes": 19291
       }
+    },
+    {
+      "name": "1991-08-batch-56",
+      "status": "complete",
+      "completed_at": "2026-10-29T08:29:37.105734+00:00",
+      "goal": "Restore domestic ending and foreign opening95–100 with literal source-image continuations",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0032"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 6,
+      "new_mapped_pages": 6,
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 23,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 8,
+      "pre_ocr_added_regions": 0,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "body_transcription": "pending-volunteer",
+      "source_flow_note_corrections": 1,
+      "initial_mapping_failure_retained": true,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-56/validation.json",
+        "sha256": "44170de3550fb632409c1c12a90863b4e49949c4cd89aec0c9fd5fcebbbfc629",
+        "bytes": 2755
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-56/reproduction.json",
+        "sha256": "0e29570415acbd89669219a1126f33aa593d9393d8732eb4ae4beddd8d84b355",
+        "bytes": 20238
+      }
     }
   ],
   "totals": {
@@ -4576,66 +4722,117 @@
     "unresolved": 2
   },
   "notes": [
-    "Full August issue remains active:26 readable articles, one partial news parent, five non-owning headings, one non-owning topic-list section reference and two unresolved community identities =35. News89–94 original body images and searchable headings retained;95 onward, full extent and final assembly pending. News body transcription deferred to volunteers. Whole-issue accounting, index, cover and closeout pending; no reader rebuild.",
+    "Full August issue remains active:26 readable articles, one partial news parent, five non-owning headings, one non-owning section reference and two unresolved community identities =35. Two immutable natives preserve news89–100 in223 files;101 onward, full extent, actual assembly and child-anchor projection pending. News body transcription deferred to volunteers. Whole-issue accounting, index, cover and closeout pending; no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-56",
-    "goal": "Continue news0032 from95 with bounded source review and original-body/headline restoration.",
+    "name": "1991-08-batch-57",
+    "goal": "Continue information-radar0032 from101 with bounded source/section review and eligible body-image/headline restoration.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0032"
     ],
     "mapping_targets": [],
     "candidate_next_native_pages": [
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
     ],
     "lookup_candidates": [
       5,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
       100,
-      101
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
     ],
     "retained_context": {
-      "selected_opening_package": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
-      "opening_validation": {
-        "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
-        "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
-        "bytes": 2314
-      },
-      "reviewed_next_page": 95,
-      "reviewed_next_folio": "109",
+      "native_segments": [
+        {
+          "name": "radar-a",
+          "directory": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
+          "manifest": {
+            "path": "archive/pdf/1991-08/packages/batch-55-r01/radar-a/manifest.json",
+            "sha256": "775649306b329ea0f6fa135fcd95d44d3dd5564e476beeb28611655a10f51734",
+            "bytes": 18546
+          },
+          "pdf_pages": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "files": 109,
+          "validation": {
+            "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
+            "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
+            "bytes": 2314
+          },
+          "reproduction": {
+            "path": "archive/pdf/1991-08/restoration/batch-55/reproduction.json",
+            "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
+            "bytes": 19291
+          }
+        },
+        {
+          "name": "radar-b",
+          "directory": "archive/pdf/1991-08/packages/batch-56-r01/radar-b",
+          "manifest": {
+            "path": "archive/pdf/1991-08/packages/batch-56-r01/radar-b/manifest.json",
+            "sha256": "87a9d0024484c399cb264af7be0b30630ecc6a163b3d882281bf0303e4864f82",
+            "bytes": 19493
+          },
+          "pdf_pages": [
+            95,
+            96,
+            97,
+            98,
+            99,
+            100
+          ],
+          "files": 114,
+          "validation": {
+            "path": "archive/pdf/1991-08/restoration/batch-56/validation.json",
+            "sha256": "44170de3550fb632409c1c12a90863b4e49949c4cd89aec0c9fd5fcebbbfc629",
+            "bytes": 2755
+          },
+          "reproduction": {
+            "path": "archive/pdf/1991-08/restoration/batch-56/reproduction.json",
+            "sha256": "0e29570415acbd89669219a1126f33aa593d9393d8732eb4ae4beddd8d84b355",
+            "bytes": 20238
+          }
+        }
+      ],
+      "reviewed_next_page": 101,
+      "reviewed_next_folio": "115",
       "next_source_view": {
-        "path": "archive/pdf/1991-08/restoration/batch-55/source-review/pdf-095.png",
-        "sha256": "28b76bc967d6834a13acd0b4510b7fa292048f87a1c2265022d0db066da54b7c",
-        "bytes": 5407878
+        "path": "archive/pdf/1991-08/restoration/batch-56/source-review/pdf-101.png",
+        "sha256": "a1172c2eb8df45ea912844a2683c2c8d004208570a3df7c46fbf65e44b38a89f",
+        "bytes": 5665868
       },
-      "incoming_item": "domestic-n16",
-      "prepared_uninspected_pages": [],
+      "incoming_item": "foreign-f05",
+      "source_flow_correction": {
+        "path": "archive/pdf/1991-08/restoration/batch-56/source-flow-correction.json",
+        "sha256": "9685ae9b1d7af4653e891f087eb98845e14112b1ec10ac0779d5aa89e1a4e0a2",
+        "bytes": 3633
+      },
       "unprepared_uninspected_candidates": [
-        96,
-        97,
-        98,
-        99,
-        100,
-        101
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
       ],
       "full_extent_verified": false,
-      "child_reference": {
-        "path": "archive/pdf/1991-08/restoration/batch-55/section-reference-classification.json",
-        "sha256": "6aeee7d9f39aa92f18dd98ef51017899e5d6777cf30197445f3e6aa3023bac63",
-        "bytes": 1450
-      },
       "final_child_anchor_projection_pending": true
     },
     "limits": {
@@ -4643,6 +4840,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR and resume news0032 from reviewed95/visible109. Preserve immutable opening89–94 and non-owning child0046 reference. Next bounded native may map95–100 only after every full source page and adjacent boundary are reviewed;96–101 remain unprepared/uninspected. Full news extent is unverified. The divider lists five topics at intrinsic104,112,118,123,124; these are not observed folios or a global offset. Preserve16 initial stories and outgoing domestic-n16 on94→95 (CPU / 로 채택, source candidates) without creating duplicate item IDs. Continue established news-image treatment: complete original body pages, searchable headings/captions and explicit item/fragment/continuation order; body prose and embedded-photo lettering await volunteers. Six mapped pages/two canonical tasks/twenty outside lookups maximum; every final exact crop before pinned Tesseract, all raw drafts before one source pass. Child0046 native anchor p089-topics must be projected into final parent assembly; its current anchor_scope is native-parent, not ready for final issue accounting. Community0038/0047 remains separate. Whole-issue accounting, index, cover and closeout pending; no reader rebuild. Do not rerun frozen successful helpers."
+    "note": "Read PLAN-OCR and resume news0032 from reviewed101/visible115. Preserve actual immutable natives radar-a89–94 and radar-b95–100 (223 files). Incoming foreign-f05 Norton report carries100→101 at149달러로 / 정해졌는데,. Do not duplicate that item or add an invented heading. Current source-flow correction explicitly supersedes the provisional map/scope note naming multimedia foreign-f04 as outgoing; the multimedia report ends in100 middle opening before the new-products band. Keep all original notes, map/crop/settings/raw pins and corrected active metadata. Next candidate native101–106 requires full page/boundary review;102–107 remain unprepared/uninspected. Full news extent and remaining software/event/book topic locations remain unverified; divider references are not a global PDF/folio offset. Continue established news-image treatment: complete eligible original body pages, searchable headings/captions, separate photo/screen originals and explicit story/fragment/continuation identities. Review and exclude independent advertisements, retaining unmasked source in archive. Every final exact crop before pinned Tesseract; all raw drafts before one source pass; at most two tasks/six mapped pages/twenty outside lookups. Final actual parent assembly must resolve source-local metadata, all story transitions, source-flow note resolutions and child0046 p089-topics anchor projection. Community0038/0047, whole-issue accounting, index, cover and closeout pending; no reader rebuild. Do not rerun frozen successful helpers."
   }
 }

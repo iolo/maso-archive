@@ -7,18 +7,18 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: twenty-six readable/sample-reviewed articles,
-one partial news parent, five non-owning headings, one section reference and two unresolved
-community identities =35. News0032 opening89–94 is at `packages/batch-55-r01/radar-a`:
-all109 independent files,32 source crops,23 settings and336 typed ranges validate.
-Six complete original pages preserve body content, with23 searchable heading/caption
-blocks and three separate photos. Body prose and embedded-photo lettering await volunteers.
-Sixteen item starts,28 body-image fragments, twelve internal continuations and outgoing94→95
-remain explicit. Child0046 is a non-owning topic-list reference; final anchor projection
-pending. Divider89 has no visible folio; canonical103 and intrinsic topic references remain
-separate. News95 onward, full extent and final assembly pending. Next batch56 resumes
-from reviewed95/109;96–101 remain unprepared/uninspected. Editorial0031 remains complete
-at `packages/batch-54-r01/publicity`. Community work, accounting, index, cover and closeout
-remain pending. No reader rebuild.
+one partial news parent, five headings, one section reference and two unresolved community
+identities =35. News0032 second native95–100 is at `packages/batch-56-r01/radar-b`:
+114 independent files, 37 source crops, 23 settings and 311 typed ranges validate.
+Complete eligible body images and searchable headings/captions are retained; body prose
+and embedded lettering await volunteers. Lower97 subscription advertisement excluded;
+separate body/folio images preserve eligible content. Domestic ends97; foreign opens98.
+Eight new domestic and five foreign starts, incoming domestic-n16 and outgoing Norton
+report100→101 remain explicit. One provisional body-flow note was corrected without new
+OCR or crop changes. Opening89–94 and middle95–100 preserve223 immutable native files.
+News101 onward, full extent, final assembly and child0046 anchor projection pending.
+Next batch57 resumes from reviewed101/115;102–107 unprepared/uninspected. Community work,
+whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

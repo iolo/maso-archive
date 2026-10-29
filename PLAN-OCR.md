@@ -25,34 +25,34 @@ paired OCR or a new engine comparison.
 
 - August 1991 remains active: twenty-six readable/sample-reviewed articles, one partial,
   five non-owning headings, one section reference and two unresolved identities out of 35.
-  Batch55 restores the information-radar0032 opening at PDF89–94. The divider89 has no
-  visible folio; canonical103 remains literal. Observed folios on90–94 are104–108.
-  Selected partial package: `archive/pdf/1991-08/packages/batch-55-r01/radar-a`.
-  All109 files match an independent export. All32 source-pixel crops,23 pinned kor+eng
-  settings and336 typed ranges validate. Six complete original pages preserve all body
-  content;23 searchable heading/caption blocks and three separate photos retain source
-  associations. Body prose and embedded-photo lettering await volunteer transcription.
+  Batch56 restores information-radar0032 PDF95–100/printed109–114. Domestic news ends
+  on97/111; foreign news independently opens98/112. Lower97 subscription advertising
+  is excluded using separate original body/folio images; the unmasked source is retained.
+  Selected partial package: `archive/pdf/1991-08/packages/batch-56-r01/radar-b`.
+  All 114 files match an independent export. All 37 source-pixel crops, 23 pinned kor+eng
+  settings and 311 typed ranges validate. Five full pages, two97 body/folio images and
+  seven separate photos/screens preserve complete eligible body pixels. Searchable headings
+  and captions do not certify body prose; body and embedded lettering await volunteers.
 
-  Sixteen story starts retain28 body-image fragments, fifteen complete native item bodies,
-  twelve internal continuations and one outgoing94→95 continuation. Five topic-reference
-  rows retain104,112,118,123,124 as intrinsic references, not observed folios. Five unknown
-  leader-dot bands, fifteen uncertainties and five opaque source candidates remain active.
-  No grammar, company/model, source-glyph or historical/technical repair is claimed.
-  Child0046 is a non-owning topic-list section reference into parent0032, anchored to
-  native p089-topics. Its final parent-assembly anchor projection remains pending.
+  Incoming domestic-n16 closes on95. Eight new domestic and five foreign item starts retain
+  27 body-image fragments, thirteen internal continuations, seven captions and outgoing
+  Norton Desktop100→101. Multimedia foreign-f04 ends in100 middle opening; a provisional
+  flow note was explicitly corrected in the one source pass. Frozen OCR maps, crops, raws
+  and original notes remain intact. All fourteen uncertainties and nine variants survive.
 
-  All32 initial crops, twelve first refinements and one final refinement were reviewed
-  before23 initial recognitions. Every raw draft was read before one source pass; zero
-  retries, added regions or post-OCR changes. All35,235 pre-OCR archive files and thirty
-  core modules remain exact; unchanged213-test baseline reused. Only the bounded native
-  is complete.95 onward, full news extent and actual parent assembly remain pending.
-  Editorial0031 remains complete at `packages/batch-54-r01/publicity` (26 files).
+  All 37 initial crops and eight refinements were reviewed before 23 initial recognitions.
+  Every raw draft was read before one source pass; zero retries, added regions or post-OCR
+  changes. The failed initial mixed-page mapping attempt and fresh disjoint-region helper
+  remain archived. All 35,617 pre-OCR archive files and thirty core modules remain exact;
+  unchanged213-test baseline reused. Opening89–94 and middle95–100 retain223 native files.
+  These twelve source pages contain29 observed item starts; the full article is incomplete.
 
-  Next batch56 continues news0032 from reviewed95/visible109. Candidate native95–100
-  requires full page/boundary review;96–101 remain unprepared and uninspected. Preserve
-  outgoing domestic-n16 without duplicate story IDs. Full news extent remains unverified;
-  divider topic references do not establish page mappings. Resume
-  `archive/pdf/1991-08/restoration/batch-55/handoff.json`; retain frozen helpers.
+  Next batch57 resumes foreign-f05 from reviewed101/visible115. Candidate native101–106
+  requires full page/boundary review;102–107 remain unprepared and uninspected.101 onward,
+  full news extent, actual assembly and child0046 p089-topics anchor projection remain pending.
+  Divider89 has no visible folio; canonical103 remains literal. Remaining software/event/book
+  topic locations are unverified. Resume
+  `archive/pdf/1991-08/restoration/batch-56/handoff.json`; retain frozen helpers.
   Community0038/0047, whole-issue accounting, index, cover and closeout remain pending.
   No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
