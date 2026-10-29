@@ -24,27 +24,31 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 September 1991 restoration is active: six readable/sample-reviewed articles,
-one non-owning group heading and 22 unresolved identities account for all 29 canonical
-TOC entries; no partial article remains. Batch 18 restores complete Macdate 0007,
-PDF 228–233/literal printed 226–231, including the original EPS listing image and
-searchable code, all equipment/photos/embedded-advert reproduction, five caption
-associations and closing mark. Canonical title/byline/reference 226 remain unchanged.
-Both exports contain 111 exact files: 30 regions, 14 blocks and six original figures.
-All 1,542 ranges pass in their own article/listing contexts, including 77 transcribed
-code rows, 247 tokens, 28 EPS headers, seven graphics rows and 38 decimal operands.
-An O/0 code glyph candidate remains explicit; exact code whitespace/bytes and execution
-are unverified. Ten prose joins, 13 headings and 23 printed quantity occurrences retain
-original claims and physical wraps without factual repair. All 30 crops/decoded PNGs,
-24 pinned OCR settings and ZIP CRC pass. All drafts read before one correction pass,
-zero recognition retries. All 10,478 prior files, thirty core modules and three adapters
-remain unchanged; all seventeen prior checkpoints revalidated. No reader rebuild.
-Next: verify canonical 0008, 언어 : 가자! C++의 세계로(2) : 클래스의 생성과 소멸 /
-이재규, then restore at most six actual pages, segmenting a longer body. Adjacent opening
-PDF 234/printed 232 and continuation 235 were reviewed as boundary context only.
-Contents reference 233 remains unchanged; do not infer an offset or extent from it.
-Install the pinned batch17 compuserve adapter before complete selected-package checks;
-it dispatches CompuServe, barcode and notebook formats. Full 406-page accounting,
-other bodies, cover, issue export and closeout remain pending.
+one partial article, one non-owning group heading and 21 unresolved identities account
+for all 29 canonical TOC entries. Batch 19 restores the first six of eight C++ 0008
+pages, PDF 234–239/literal printed 232–237. Source opening 234 and conclusion/closing
+mark 241 establish the actual extent; final 240–241 and complete assembly remain pending.
+Canonical title/byline/reference 233 remain unchanged despite observed opening folio 232.
+Both exports contain 297 exact files: 90 regions, 58 blocks and 24 original figures,
+including 22 code/output panels. All 2,812 ranges pass in their own article/listing
+contexts: 138 regional code rows, 402 whitespace tokens, 32 comments, 18 strings,
+334 identifier occurrences and 12 printed output rows. Nineteen distinct code/output
+blocks retain explicit example separators; three code-fragment and five prose/list
+joins, 15 numbered items/three code callouts and 13 source headings validate. Literal
+건설자, BaseClass(1), extra parenthesis, trailing comma, delete[10], source/output
+punctuation and identifier-case variants remain without semantic repair; two glyph
+candidates and source whitespace/bytes/execution limits are explicit. All 90 crops,
+decoded PNGs, 66 OCR settings (22 eng code/output, 44 kor+eng other) and ZIP CRC pass.
+All drafts read before one correction pass, zero recognition retries. All 10,856 prior
+files, thirty core modules and three adapters remain unchanged; all eighteen prior
+checkpoints revalidated. No reader rebuild.
+Next: restore final C++ pages 240–241/printed 238–239 as a second immutable native,
+excluding the lower-page 241 recruitment advertisement. Then assemble all eight pages
+separately from exact natives, resolving the recorded 239→240 mid-word continuation
+with an empty separator. Keep canonical reference 233 unchanged. Install the pinned
+batch17 compuserve adapter before complete selected-package checks; it dispatches
+CompuServe, barcode and notebook formats. Full 406-page accounting, other bodies,
+cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
