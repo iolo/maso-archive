@@ -7,16 +7,15 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: twenty-seven readable/sample-reviewed articles,
-no partials, five headings, one section reference and two unresolved community identities =35.
-News0032 is complete across22 eligible pages89–102 plus104–111 in
-`packages/information-radar-complete-r01`:462 independently exact files including454
-immutable native files. All146 source crops,92 settings,1,839 native/projected typed
-occurrences,1,655 local occurrences,184 root occurrences and345 final reading-index ranges
-validate.47 starts/106 body fragments/59 continuations and child0046 anchor projection
-are complete. Body prose and embedded lettering remain pending volunteers. Source errors,
-uncertainties, table cells, book credits, physical wraps and continuation blanks stay literal.
-Next batch60 verifies community0038/0047 from divider363;364 prepared but uninspected.
-Whole-issue383-page accounting, index, cover and closeout pending. No reader rebuild.
+one partial community bundle, five headings, two section references and zero unresolved
+identities =35. Community0038 opening363–366/368–369 is at `packages/batch-60-r01/community-a`:
+179 independently exact files,54 source crops,39 settings and905 typed ranges validate.
+Five letters,four Q&A starts,nine reader credits,reply/notice,two monitor diagrams and
+16-row IRQ table retained;body/embedded lettering transcription pending volunteers.
+Full14-page extent363–366,368–376,378 verified;survey375/376 folios remain null.
+Child0047 is non-owning with final anchor projection pending. Next batch61 restores370–375;
+final376/378 and actual assembly follow. Complete news parent/child remains immutable.
+Full383-page accounting,index,cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
