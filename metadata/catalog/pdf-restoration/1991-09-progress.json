@@ -1698,7 +1698,7 @@
       "parent_id": "maso-1991-09-toc-0009",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Contents4 child0011 title/정진호 match250 own 베이직 인터프리터 구현,마지막회 title,GOSUB/RETURN-IF-FOR subtitle,byline/한국과학기술원 전산학과 석사과정 affiliation and251 full runningseries. Parent0009 non-owning,parent240/childnull ownreference unchanged.",
@@ -1712,15 +1712,20 @@
         "Selectedr02 independentexports/freshprocessrebuild117exactfiles. All11425currentranges (6073article/5352listing) andonepriornativerange resolve inowncontexts;33crops/PNGs/25settings/ZIP pass. Metadataonlyr02 removeslocalint l_site fromf_stack fieldindex;originalr01 remainsreproducible,alltext/raw/map/crops/settings unchanged. Originalverifierhashpinshapefailure retained;successor validates exacthashonlyOCRmapbinding. All15449priorfiles/30core/5adapters/source/TOC/runtime/queue unchanged;25earliercheckpointsvalidate. Two natives250–261 preserved,final262–263/fullassembly pending.",
         "Batch27 preserves final262–263/printed260–261 as third immutable native. Both original RUN.Cframes,fourcodecolumns,mixedKorean/Englishcomments andrunningheadings retained. 8regions/3blocks/2figures/6OCRrecords;219code rows/548tokens/422lexicalidentifiers/9comments/5strings/10numericoccurrences,15signaturelike rows/12memberoccurrences/127operatorlikeglyphs,194nonblankreadingrows indexed.",
         "Bothfullmappedpages/twooutsidecontexts261/264/all8crops viewed before6recognitions;all6rawdrafts read beforeonepass,zero retries. Emptycategorydraft andomitted visible con_int_push signature recovered directlyagainstscan. ThreeinternalLFjoins retain is_logical262→263 andlogical_op across263columns. Printedunfinishedact_compelseif,ADDonlybreak,caculation andoperator/type/glyphvariants remain;7anomalies/24glyphcandidates,no semanticrepair/execution.",
-        "Bothselectedexports/freshprocessrebuild35exactfiles. All3037currentranges (1624article/1413listing) plusfourpriornativeboundaryranges resolve inowncontexts;8crops/PNGs/6settings/ZIP pass. Incoming261→262 sameassign_exec STRINGbranch explicitlymatchespriorpending source,startandoneLF/emptyfutureseparator.263finalcon_int_pop closesbefore264ownB+tree title/byline. All15968priorfiles/30core/5adapters/source/TOC/runtime/queue exact;26earliercheckpointsvalidate. All14pages nowpreserved inthreeimmutable natives;actualcompleteassembly remainspending,availabilitypartial. Failedexportpreparation literalbackslash-n search andinheritedmethodprose corrected beforeanypackagecreation;originalhelper retained,no source/OCRrepeat."
+        "Bothselectedexports/freshprocessrebuild35exactfiles. All3037currentranges (1624article/1413listing) plusfourpriornativeboundaryranges resolve inowncontexts;8crops/PNGs/6settings/ZIP pass. Incoming261→262 sameassign_exec STRINGbranch explicitlymatchespriorpending source,startandoneLF/emptyfutureseparator.263finalcon_int_pop closesbefore264ownB+tree title/byline. All15968priorfiles/30core/5adapters/source/TOC/runtime/queue exact;26earliercheckpointsvalidate. All14pages nowpreserved inthreeimmutable natives;actualcompleteassembly remainspending,availabilitypartial. Failedexportpreparation literalbackslash-n search andinheritedmethodprose corrected beforeanypackagecreation;originalhelper retained,no source/OCRrepeat.",
+        "Batch28 assembles actual14pagebody250–263/printed248–261 fromselectednativea=batch25r02,b=batch26r02,c=batch27r01. All467nativefiles andcomplete originalmetadata copiedexactlyinto476filecompletepackage. All122regions/86blocks/16originalfigures/106OCRrecords retained;sourceboundaries/catalogue/conclusion/sourcefileend remainliteral,parent0009 non-owning,parent240/childnull unchanged.",
+        "Private basic_adapter usescore namespace/legacyprojection thenmergesonlyb.run-c+c.run-c-tail withanemptyaddedseparator becausebalreadyendsoneLF;rightoffset7359bytes. Original listingisexacta+b+c concatenation,zerobytesadded/removed. CODE3.C remainsseparatecompletefile,andfirstnative19schema/syntax/example/diagram/outputblocks remainindependent. Sixinterveningoriginal layoutitems retained. Logicalninthcatalogueitem btest.c resolvedwithoutinventedprosebytejoin.",
+        "All18118originaltypedmetadataoccurrencesprojectexactly tocurrentarticle/listing/block/regioncontexts,includingone b→a andfour c→b nested prior_pending_record nativecontexts. Current18237ranges=111core+18118metadata+8resolutions;all18118native rangesalsoverified.1233readingrows/1132regionalcode rows/2843tokens/1940lexicalidentifiers/102comments/40strings/171numericoccurrences remainlinked.34anomalies/139glyphcandidates andallsourcephysicalwraps/typos/missingcode retainedwithoutsemanticrepair/execution.",
+        "Firstnative13diagramtablerows/26cells(oneblank)/6headers/6stackvalues,33printedoffsetrows/99cells(fourblankoperands),14outputrows/10starrows,8IFinstructions/3subitems/9totalcatalogueitems remainexact.12structurefields/101memberoccurrences/1375operatorlikeglyphs/60signaturelike rows/9includes/2macros retained. Seven captions/25figuretextlinks andnineCsourceframes source-linked.",
+        "Two476fileexports/freshprocessrebuild byteidentical.122crops match originalrenderpixels/122PNGsdecode,106settings(37eng/69kor+eng) and4ZIPs pass. Teninvalidnative/recipe/metadata/boundary/sourcekind inputsrejected. All16098priorfiles/30core/5existingadapters/source/TOC/runtime/queue unchanged;27earliercheckpointsvalidate. No newmapping/render/OCR/sourcecorrection/readerbuild. CompleteBASICarticle readable/sample-reviewed;otherbodies/issueaccounting/cover/export/closeout pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-25-r02/basic-a",
+        "directory": "archive/pdf/1991-09/packages/basic-complete-r01",
         "article_id": "scan-maso-1991-09-toc-0011",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-25-r02/basic-a/manifest.json",
-          "sha256": "8fef4778eeb351750b58fca41c6ab2430b82e9a72fdaa5574d0f905d1cbe320f",
-          "bytes": 55554
+          "path": "archive/pdf/1991-09/packages/basic-complete-r01/manifest.json",
+          "sha256": "d4c2c3df38c4b48452183763504ba8b6757f397d996dad72b7bc04678e1609bf",
+          "bytes": 87559
         },
         "coverage": {
           "pdf_pages": [
@@ -1729,7 +1734,15 @@
             252,
             253,
             254,
-            255
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263
           ],
           "printed_pages": [
             "248",
@@ -1737,11 +1750,19 @@
             "250",
             "251",
             "252",
-            "253"
+            "253",
+            "254",
+            "255",
+            "256",
+            "257",
+            "258",
+            "259",
+            "260",
+            "261"
           ],
-          "regions": 81,
-          "blocks": 71,
-          "figures": 6,
+          "regions": 122,
+          "blocks": 86,
+          "figures": 16,
           "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
@@ -1781,22 +1802,22 @@
             "261"
           ],
           "all_pages_directly_viewed": true,
-          "note": "Actual fourteen-page body250–263 directly viewed andpreserved across three immutable natives. CODE3.C256–259upper complete;RUN.C259lower–263 finaltail preserved,including263con_int_pop close. Independentlytitled/authoredB+tree264 follows. Fullactualassembly pending;parent240/childnull references unchanged."
+          "note": "Complete actual14pagebody250–263 assembled fromthreeexactnatives. Proseends256,CODE3.C256–259upper andRUN.C259lower–263 finalcon_int_pop.264 independentB+tree title/byline. Canonicalparent240/childnull unchanged;no globaloffset."
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-25/validation.json",
-          "sha256": "143611a06b1d0949a23fa6791f708112b32755beee070c0425d002864259053f",
-          "bytes": 3120
+          "path": "archive/pdf/1991-09/restoration/batch-28/validation.json",
+          "sha256": "08dfa651b9a0494a5ded80b4c307bad56e24784cff55decea99d4e29fbf79fd3",
+          "bytes": 3522
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-25/reproduction.json",
-          "sha256": "0031497448d4ad64025442bbe4cc3d8b324dbea4ddd4c4dc89df58746de45882",
-          "bytes": 56615
+          "path": "archive/pdf/1991-09/restoration/batch-28/reproduction.json",
+          "sha256": "f9e33e3fdada38fa2863008cdc388c4ba200882105d79d18c302c95b2f26c4d3",
+          "bytes": 89006
         },
-        "checkpoint": "batch-25",
+        "checkpoint": "batch-28",
         "native_segments": [
           {
             "directory": "archive/pdf/1991-09/packages/batch-25-r02/basic-a",
@@ -1876,22 +1897,6 @@
             }
           }
         ],
-        "preserved_pdf_pages": [
-          250,
-          251,
-          252,
-          253,
-          254,
-          255,
-          256,
-          257,
-          258,
-          259,
-          260,
-          261,
-          262,
-          263
-        ],
         "native_coverage": {
           "pdf_pages": [
             250,
@@ -1931,18 +1936,33 @@
           "ocr_records": 106,
           "native_segments": 3,
           "deferred_pdf_pages": [],
-          "note": "Aggregate preservation across three immutable natives;root directory/manifest/coverage page list still identify first native only. All14bodypages preserved;actual full article assembly pending."
+          "note": "Aggregate preservation across three immutable native contexts:122regions/87nativeblocks/16figures/106OCRrecords. Currentrootdirectory/manifest/coverage identifythecomplete14pageassembly with86blocks afteroneRUN.Cmerge;allnativefilesremainexact. No bodypage orassemblypending."
         },
-        "latest_checkpoint": "batch-27",
-        "latest_validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-27/validation.json",
-          "sha256": "4d9bc0b205fbb9c1b028e5ed2552bf0d3f4b5cb8e6472c829d28809897cd3009",
-          "bytes": 2561
+        "preserved_pdf_pages": [
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263
+        ],
+        "assembly_adapter": {
+          "path": "archive/pdf/1991-09/restoration/batch-28/basic_adapter.py",
+          "sha256": "574bd70c27a99e5f78bc57703fd934c38d8783e286d6974e598f73b878bf217e",
+          "bytes": 13463
         },
-        "latest_reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-27/reproduction.json",
-          "sha256": "8d3b11daa5c514e38734a417d273a4676184ec13c430c961cf12de6bea141f59",
-          "bytes": 6835
+        "adapter_inputs": {
+          "path": "archive/pdf/1991-09/restoration/batch-28/adapter-inputs.json",
+          "sha256": "e188c1d058a6a47b3c2c20fe72c1f5e077d0e1ffe21950c2fdb363d24e213757",
+          "bytes": 32848
         }
       }
     },
@@ -2997,12 +3017,39 @@
         "sha256": "8d3b11daa5c514e38734a417d273a4676184ec13c430c961cf12de6bea141f59",
         "bytes": 6835
       }
+    },
+    {
+      "name": "1991-09-batch-28",
+      "status": "complete",
+      "completed_at": "2026-10-29T23:50:13.608822+00:00",
+      "goal": "Assemble all14BASIC0011pages250–263 fromthreeexactimmutable natives,mergeonlysameRUN.Cfile withzeroaddedseparator,andpreserve/projectallnative/dualdownload metadata contexts.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0011"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-28/validation.json",
+        "sha256": "08dfa651b9a0494a5ded80b4c307bad56e24784cff55decea99d4e29fbf79fd3",
+        "bytes": 3522
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-28/reproduction.json",
+        "sha256": "f9e33e3fdada38fa2863008cdc388c4ba200882105d79d18c302c95b2f26c4d3",
+        "bytes": 89006
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 8,
-    "partial": 1,
+    "readable": 9,
+    "partial": 0,
     "group_headings": 2,
     "unresolved": 18
   },
@@ -3012,37 +3059,24 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-28",
-    "goal": "Assemble full fourteen-page BASIC0011 body250–263 from three exact immutable natives,merge sameRUN.C file acrossb/c andpreserve allsource-local metadata/dualdownload/nativecontexts.",
+    "name": "1991-09-batch-29",
+    "goal": "Verify canonicalchild0012 C로 작성한 B+ 트리(마지막회) / 조성만 fromknownown title264;establish actualextent/end/continuations andrestore firstboundednative.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0011"
+      "maso-1991-09-toc-0012"
     ],
-    "mapping_targets": [],
-    "known_extent": {
-      "pdf_pages": [
-        250,
-        251,
-        252,
-        253,
-        254,
-        255,
-        256,
-        257,
-        258,
-        259,
-        260,
-        261,
-        262,
-        263
-      ],
-      "actual_start_pdf_page": 250,
-      "actual_end_pdf_page": 263
-    },
+    "mapping_targets": [
+      264,
+      265,
+      266,
+      267,
+      268,
+      269
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Use selecteda=batch25r02/basic-a,b=batch26r02/basic-b,c=batch27r01/basic-c manifests exactly;all14pages preserved,no newOCR/sourcecorrection. Resolve onlyactivepending notes with explicitfrozen evidence;copyalloriginal native metadata/statusnotes. Catalogue255→256 islogicalninthbtest.c item,notinferredprosebytejoin. LiteralRUN.C b.run-c+c.run-c-tail mustuseemptyblockseparator becausebalreadyendsoneLF;allnativefilebytes exact,projectallarticle/listingoccurrences withmergedoffsets. CODE3.C remainsindependentcompletefile;firstnative19schema/syntax/example/diagram/outputblocks remainseparate,nocompatibility sourcerelabeling. Nativecorrections have nested prior_pending_record ranges: bcontainsone range innativea context;ccontainsfourranges innativeb context. Preserveandverifythoseexplicit contexts,do notblindlyrebase them ascurrentnative. Firstnative complexdiagrams/tablecells/stackvalues/printedoutput/catalogue/joins/glyphs/normalizations mustallpersistandproject. Use privateassemblyadapter ifneeded;fiveexistingadapters/30coreunchanged. Twoexports/freshprocessrebuild,fulltypedrange/sourcecrop/PNG/settings/ZIP/prior/core/source/TOC/runtime/queue auditsandnegativeinputchecks beforemarkingreadable. Parent0009 non-owning,parent240/childnull ownreference unchanged. InstallpinnedBatch24hangul_adapter forpreviouscompletechecks. Eightreadable/onepartial/twoheadings/18unresolved untilassembly;otherbodies/full406pageaccounting/cover/issueexport/closeout pending,no readerrebuild."
+    "note": "264source title B+ 트리 인덱스 관리 프로그램 andbyline조성만/단국대 전산통계학과 대학원 areknownboundaryevidence;265–267 independentB+runningseries previouslyviewed. Child0012 canonicaltitleC로 작성한 B+ 트리(마지막회) mustmatchcontents/title/author/series evidence,notretitled. Parent0009 remainsnon-owning,parentreference240/childnull unchanged.264–269 areprovisional firstsixmappingcandidates only:verifyallsourceownership/actualend/anytrailingcode beforemapping;do notinferending fromnextsection TOC270 orglobaloffset. Reuse sourceviewsalreadyretained;boundedlookup≤20. Inspectallfullpages/crops beforemappedTesseract,readallrawdrafts beforeone sourcepass;retainliteralCsource/diagrams/tables/captions/wraps/typos/glyphuncertainty,notsemanticrepair. Longeractualbody usesimmutable natives thenseparateassembly. InstallpinnedBatch28basic_adapter forcompletechecks;dispatchincludesBatch24hangul/21cpp/17compuserve/13barcode/08notebook. Sixprivateadapters total,30coreunchanged. Nine readable/zero partial/twoheadings/18unresolved;otherbodies/full406pageaccounting/cover/standaloneexport/issuecloseout remainpending,no readerrebuild."
   }
 }
