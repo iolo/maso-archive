@@ -6,17 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: nineteen readable/sample-reviewed articles, no
-partials, four non-owning headings and twelve unresolved identities. Batch41 completes
-Borland C++0023 at PDF308–313/printed322–327 in `packages/batch-41-r01/borland`:
-406 independently exact files, 107 source-pixel crops, 97 pinned kor+eng settings and
-5,119 typed ranges validated. Ten originals, seven captions, menu/build diagrams,
-five execution steps and four reference bullets retained. All fourteen UI markers,
-186 uncertainties and 21 opaque variants remain active. Lower 313 advertisement
-excluded; folio 327 retained. All 26,536 saved archive files and thirty core modules
-exact; unchanged 213-test baseline reused. Next verify Mac System 7.0 article 0024
-full extent from retained 314 opening and 315 continuation. Whole-issue accounting,
-index, cover and closeout remain pending. No reader rebuild.
+August 1991 remains in progress: nineteen readable/sample-reviewed articles, one
+partial, four non-owning headings and eleven unresolved identities. Batch42 verifies
+Mac System 7.0 article 0024 at PDF314–322/printed328–336 and restores PDF314–319
+in `packages/batch-42-r01/mac-a`: 375 independently exact files, 100 source-pixel
+crops, 89 pinned settings and 4,278 typed ranges validated. All 74 uncertainties,
+27 opaque variants and eight clipped/covered UI markers remain active. All 27,099
+prior archive files and thirty core modules remain exact; 213-test baseline reused.
+Next batch43 restores final PDF320–322, preserving the carried word from 319 and
+excluding the lower 322 advertisement. Actual two-native assembly follows separately.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

@@ -2161,12 +2161,103 @@
       "toc_entry_id": "maso-1991-08-toc-0024",
       "title": "매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical title, author 양승건 and reference328 match original contents5 and independent opening314/328. Source series 매킨토시포럼, body title 매킨토시 시스템 소프트웨어 7.0 and byline 글. 양승건 (PC서브 NICE시삽) retained. No separate parent body or global folio offset inferred.",
+        "Full actual extent PDF314–322/printed328–336 verified from all nine body pages. Upper322 conclusion and terminal ornament precede unrelated lower subscription promotion; the ending native must exclude it while retaining folio336. Previous313 contains the complete Borland ending above its advertisement.323 is a full advertisement;324 independently opens the memory-expansion article and325 continues it. Full hardware extent remains unverified.",
+        "This partial native covers314–319/328–333 only. Final320–322 and actual complete-article assembly remain pending.319 find prose ends찾아;320 begins서 열어준다. Typed outgoing evidence and a standard prose continuation declaration retain an empty separator for the carried word; no assembly is claimed.",
+        "All 375 files match an independent export. All 100 source-pixel crops, 89 pinned kor+eng settings and 4,278 typed article ranges validate. Retains 81 blocks, eleven original images, ten caption links, eight joined prose blocks and eight boundaries. Twenty font-comparison reading rows and three Times pangrams retain seven physical sample rows without font reconstruction.",
+        "Sixteen screenshot-label regions retain five status windows/twenty fields, two clipped status suffixes, five icon panels/48 labels, ten directory-tree rows and twelve desktop-dialog fields. Twenty section headings, twelve command references, nine source-claim fields and seven physical-wrap fields remain source-linked. All 74 uncertainties, 27 opaque variants, three marker-candidate groups and eight clipped/covered UI markers remain active; marker interiors are outside source-derived indexes while visible fragments remain indexed.",
+        "Printed 갖추게 되는., 다이얼로그 박스을, 움직이는데로, NICE font candidates, DAtabase, McSink, VCMD, opaque UI values, historical memory/network/font claims and raster font specimens remain literal or explicit candidates. Clipped10 MB av fields are not completed from duplicate screenshots. No source grammar, syntax, historical-claim repair, font reconstruction or software execution.",
+        "All 100 initial exact crops, 43 first refinements and three follow-up refinements individually viewed before89 initial recognitions. All89 raw drafts read in three complete outputs before one source pass; zero retries, added regions or post-OCR crop repairs. English-only metadata revision preserves source text/ranges/decisions and correction timestamp. All27,099 prior archive files and thirty core modules exact; unchanged213-test baseline reused."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
+        "article_id": "scan-maso-1991-08-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-42-r01/mac-a/manifest.json",
+          "sha256": "ff7808a452ed9b064486fee7a71b3154c3532d6fb697f17b2316c7dd9a83fd5f",
+          "bytes": 66104
+        },
+        "source_body_title": "매킨토시 시스템 소프트웨어 7.0",
+        "source_series_title": "매킨토시포럼",
+        "source_byline": "글. 양승건 (PC서브 NICE시삽)",
+        "canonical_byline_candidate": "양승건",
+        "coverage": {
+          "pdf_pages": [
+            314,
+            315,
+            316,
+            317,
+            318,
+            319
+          ],
+          "printed_pages": [
+            "328",
+            "329",
+            "330",
+            "331",
+            "332",
+            "333"
+          ],
+          "regions": 100,
+          "blocks": 81,
+          "figures": 11,
+          "excluded_regions": 0,
+          "deferred_pdf_pages": [
+            320,
+            321,
+            322
+          ]
+        },
+        "body_pages_complete": false,
+        "native_body_pages_complete": true,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "name": "mac-a",
+            "directory": "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
+            "manifest": {
+              "path": "archive/pdf/1991-08/packages/batch-42-r01/mac-a/manifest.json",
+              "sha256": "ff7808a452ed9b064486fee7a71b3154c3532d6fb697f17b2316c7dd9a83fd5f",
+              "bytes": 66104
+            },
+            "pdf_pages": [
+              314,
+              315,
+              316,
+              317,
+              318,
+              319
+            ]
+          }
+        ],
+        "full_source_extent": {
+          "start_pdf_page": 314,
+          "end_pdf_page": 322,
+          "ending_printed_page": "336",
+          "previous_pdf_page": 313,
+          "following_pdf_page": 323,
+          "following_role": "Full computer advertisement; independent hardware article starts324.",
+          "ending_lower_advertisement": "Lower322 subscription promotion must be excluded by the ending native; upper conclusion/terminal ornament and literal336 folio retained."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-42/validation.json",
+          "sha256": "8c30ab7f0d9a9c9fba7ece934f0cd70efbd4c373122250d26a1868dce5945396",
+          "bytes": 2625
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-42/reproduction.json",
+          "sha256": "7ae7a7bea7e1945c32251676e043ba43e57efc933dae6d283a09172adda5837f",
+          "bytes": 66931
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-42"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0025",
@@ -3403,74 +3494,102 @@
         "sha256": "5c867bbf956b500cdedf7ac9a81dbaa692c0cb011c3881bfeb5bdad7ba7f49f5",
         "bytes": 72625
       }
+    },
+    {
+      "name": "1991-08-batch-42",
+      "status": "complete",
+      "completed_at": "2026-10-29T02:36:12.933288+00:00",
+      "goal": "Verify full Mac extent and restore first six-page native with source font/UI readings",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0024"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 6,
+      "new_mapped_pages": 6,
+      "outside_lookup_pages": 8,
+      "outside_article_lookup_pages": 5,
+      "recognition_invocations": 89,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-42/validation.json",
+        "sha256": "8c30ab7f0d9a9c9fba7ece934f0cd70efbd4c373122250d26a1868dce5945396",
+        "bytes": 2625
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-42/reproduction.json",
+        "sha256": "7ae7a7bea7e1945c32251676e043ba43e57efc933dae6d283a09172adda5837f",
+        "bytes": 66931
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
     "readable": 19,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 4,
-    "unresolved": 12
+    "unresolved": 11
   },
   "notes": [
-    "Full August issue goal remains active: twelve identities require ownership/eligibility review. Nineteen readable articles have complete body coverage and no pending assembly; four non-owning headings. No global folio offset.",
+    "Full August issue goal remains active: eleven identities require ownership/eligibility review. Mac0024 is partial at314–319 of verified314–322; final320–322 and actual full assembly remain pending. Nineteen readable articles have complete body coverage and no pending assembly; four non-owning headings. No global folio offset.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-42",
-    "goal": "Verify full Mac System7.0 article0024 extent from its independent opening314; restore at most six verified body pages.",
+    "name": "1991-08-batch-43",
+    "goal": "Restore verified final Mac pages320–322, preserving the incoming319찾아→320서 carried word and lower322 advertisement exclusion; actual full assembly remains a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0024"
     ],
     "canonical_title": "매킨토시 포럼 : 매킨토시 시스템 소프트웨어 7.0",
     "canonical_byline_candidate": "양승건",
-    "canonical_page_reference": "328",
-    "mapping_targets": [],
+    "mapping_targets": [
+      320,
+      321,
+      322
+    ],
     "lookup_candidates": [
       5,
-      313,
-      314,
-      315,
-      316,
-      317,
-      318,
       319,
       320,
       321,
       322,
       323,
-      324,
-      325,
-      326,
-      327,
-      328,
-      329,
-      330,
-      331
+      324
     ],
-    "retained_context": [
-      {
-        "pdf_page": 313,
-        "role": "Complete Borland ending and references above unrelated lower CLiE advertisement.",
-        "source_render": "archive/pdf/1991-08/restoration/batch-41/source-review/pdf-313.png"
+    "retained_context": {
+      "directory": "archive/pdf/1991-08/restoration/batch-42/source-review",
+      "verified_full_extent": [
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322
+      ],
+      "first_native": "archive/pdf/1991-08/packages/batch-42-r01/mac-a",
+      "incoming_boundary": {
+        "prior_segment": "mac-a",
+        "prior_region": "p319-find-prose",
+        "prior_text_end": "찾아",
+        "next_pdf_page": 320,
+        "next_printed_page": "334",
+        "text_start": "서 열어준다.",
+        "join_separator": "",
+        "carried_word": true
       },
-      {
-        "pdf_page": 314,
-        "role": "Independent Mac System7.0 opening with visible328 and author 양승건; reviewed as adjacent context only.",
-        "source_render": "archive/pdf/1991-08/restoration/batch-41/source-review/pdf-314.png"
-      },
-      {
-        "pdf_page": 315,
-        "role": "Mac continuation reviewed as adjacent context only; full article extent unverified.",
-        "source_render": "archive/pdf/1991-08/restoration/batch-41/source-review/pdf-315.png"
-      }
-    ],
+      "ending": "322 upper conclusion/terminal ornament; exclude unrelated lower subscription promotion and retain336 folio.",
+      "following": "323 full advertisement;324 independent hardware opening."
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Reuse contents5 and retained313–315 context. All further candidates are lookup hypotheses, not assigned body pages. Verify title/byline, visible folios, continuations, actual ending and adjacent material before mapping. If the article exceeds six pages, use bounded native segments and a separate actual assembly. Preserve original screenshots, captions, diagrams, labels, code/errors, physical wraps, glyph candidates and historical claims. Every final exact crop before pinned mapped Tesseract; all raw drafts before one source correction pass. Selected0020 requires batch39 boundary_adapter.install(),0018 batch35 boundary adapter,0003 batch07 listing adapter,0002 batch04 native adapter. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild."
+    "note": "Read PLAN-OCR. Reuse the already reviewed320–322 renders; do not rerun frozen source preparation, OCR, correction or verification helpers. Review every exact final ending crop before pinned mapped Tesseract and all raw drafts before one source pass. Preserve UI labels, clipped/covered text, program screenshots, instructions, physical wraps, source errors/claims and contact text literally without execution or inferred completion. Incoming standard prose link must match the first native declaration exactly. After ending validation, assemble both actual natives separately and audit every source-local/native/projected typed occurrence. Whole-issue accounting, index, cover and closeout remain pending; no reader rebuild."
   }
 }
