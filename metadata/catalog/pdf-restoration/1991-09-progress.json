@@ -32,7 +32,8 @@
       "classification_evidence": [
         "Original matching title/introduction/three-part outline116–117 and intrinsic partI118–121 establish whole feature0001 ownership. Canonical reference124 remains unchanged despite actual opening conflict; no new TOC identities.",
         "Six-page opening complete as an immutable native;partII begins122. Known122–132 continuation remains deferred. Actual ending unverified after20outside lookups;150–155 advertisements do not establish133–149 continuity or final ownership.",
-        "All36original crops exact;26drafts source-corrected once with zeroOCR retries;10original images,3outline items,sixjoin groups and complete range metadata retained. Literal/null folios preserved."
+        "All36original crops exact;26drafts source-corrected once with zeroOCR retries;10original images,3outline items,sixjoin groups and complete range metadata retained. Literal/null folios preserved.",
+        "Batch03 preserves122–127/printed120–125 as a second immutable native. Earlier116–121 remains exact;12pages preserved so far. Final8thbenchmarkchart/comment ends147/145,next148–150ads. Endpoint is now observed,but uninspected133–142 andremaining128–147bodycoverage/assembly remain pending. Canonical124 unchanged. 64regions44blocks12originalimages,8joins,9captionassociations and6tablerows/14cells retained;sourcepercentages total101without normalization. Caption2rightedge repairedonce before correction,51unchangedrecognitions reused;one correctionpass. Unknownwordreading remains explicit."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a",
@@ -91,7 +92,107 @@
           "sha256": "33d9a49a25e5bd509576616b9c15eb1dc123212fd59454bfe898b6fe459a09a9",
           "bytes": 21842
         },
-        "checkpoint": "batch-02"
+        "checkpoint": "batch-02",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-02-r01/notebook-a/manifest.json",
+              "sha256": "0dc1bb86ddd6b7fc38272609351fed41e6eca495b6a7e214c595da0d5666541c",
+              "bytes": 20785
+            },
+            "pdf_pages": [
+              116,
+              117,
+              118,
+              119,
+              120,
+              121
+            ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-09/packages/batch-03-r01/notebook-b",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-03-r01/notebook-b/manifest.json",
+              "sha256": "d9fe3df0951166cdf1d4d81670014c48006398594671b2e7de2f71bac17e1f38",
+              "bytes": 39837
+            },
+            "pdf_pages": [
+              122,
+              123,
+              124,
+              125,
+              126,
+              127
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-03/validation.json",
+              "sha256": "fdf70e94e55a640d061c653427d50981d9ad37dd7e9b853df55bcc9ac634196f",
+              "bytes": 1814
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-03/reproduction.json",
+              "sha256": "afe62d58896a1ed468b30c3b99a9cd06801fc30cf5ad2df226e7920dea9950d8",
+              "bytes": 40895
+            }
+          }
+        ],
+        "all_body_pages_preserved_across_natives": false,
+        "preserved_pdf_pages_across_natives": [
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "remaining_pdf_pages": [
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147
+        ],
+        "full_source_extent": {
+          "start_pdf_page": 116,
+          "end_pdf_page": 147,
+          "uninspected_interior_pdf_pages": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142
+          ],
+          "note": "Endpoint147is observed;intrinsic bodycontinuity128–147 stillrequires mapping/review. Historical opening-native unknownending notes remain frozen."
+        }
       }
     },
     {
@@ -510,6 +611,41 @@
         "sha256": "33d9a49a25e5bd509576616b9c15eb1dc123212fd59454bfe898b6fe459a09a9",
         "bytes": 21842
       }
+    },
+    {
+      "name": "1991-09-batch-03",
+      "status": "complete",
+      "completed_at": "2026-10-29T16:50:10.696619+00:00",
+      "goal": "Preserve partIIopening122–127 and verify finalfeatureboundary147 without claiming uninspectedinteriorcoverage.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "outside_lookup_pages": 10,
+      "recognition_invocations": 53,
+      "initial_recognition_invocations": 52,
+      "changed_input_repairs": 1,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-03/validation.json",
+        "sha256": "fdf70e94e55a640d061c653427d50981d9ad37dd7e9b853df55bcc9ac634196f",
+        "bytes": 1814
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-03/reproduction.json",
+        "sha256": "afe62d58896a1ed468b30c3b99a9cd06801fc30cf5ad2df226e7920dea9950d8",
+        "bytes": 40895
+      }
     }
   ],
   "totals": {
@@ -525,30 +661,36 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-03",
-    "goal": "Restore feature0001 continuation122–127 and verify actual ending through a separate bounded lookup budget.",
+    "name": "1991-09-batch-04",
+    "goal": "Restore feature0001 continuation128–133,including uninspected133,within six-page limit; preserve incoming powerparagraph join.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0001"
     ],
     "mapping_targets": [
-      122,
-      123,
-      124,
-      125,
-      126,
-      127
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
     ],
     "reusable_source_review": "archive/pdf/1991-09/restoration/batch-02/source-review/",
-    "initial_lookup_candidates": [
-      149,
-      148,
-      147
-    ],
+    "known_extent": {
+      "start_pdf_page": 116,
+      "end_pdf_page": 147
+    },
+    "pending_join": {
+      "from_pdf_page": 127,
+      "ending": "슬립",
+      "to_pdf_page": 128,
+      "opening": "모드(Sleep Mode)",
+      "join_separator": ""
+    },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Inspect actual ending/title/adjacent pages before claiming full extent. All six mapping targets have retained3000px source renders but need region maps/crop review. No boundary prose join from121 to122; intrinsic partII begins122. Preserve original native; assemble only after complete feature coverage."
+    "note": "128–132 original renders retained;133 must be rendered/reviewed before mapping. Inspect allmapped fullpages/crops before OCR. Keep both immutable natives and source-reference conflict; whole feature remains partial until coverage128–147 and complete assembly."
   }
 }

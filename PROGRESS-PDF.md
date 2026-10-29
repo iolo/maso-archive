@@ -8,13 +8,16 @@ by the calendar month in which restoration work happened.
 
 September 1991 restoration is active: one readable/sample-reviewed article,
 one partial feature and 27 unresolved identities account for 29 canonical TOC entries.
-Batch02 preserves feature0001's opening PDF116–121: the main title/introduction/
-three-part outline and complete intrinsic partI. Its 122 JSON/assets files match an
-independent export; all 36 crops, 232 physical prose rows and 26 OCR settings validate.
-The canonical reference124 remains unchanged despite the earlier observed opening.
-The feature's ending is unverified after the 20-page outside lookup limit; later
-bodies and full assembly remain pending. Next: map partII122–127 and verify the ending.
-Full 406-page issue accounting, other bodies, cover and closeout remain pending.
+Feature0001 now has PDF116–127 preserved across two immutable natives. Batch03
+adds partII122–127/printed120–125: 228 JSON/assets files reproduce exactly;
+64 source crops, 517 typed ranges, 52 OCR settings and ZIP integrity validate.
+Fifty-two initial recognitions plus one changed-caption repair used one source
+correction pass; 51 unchanged results were reused. The final benchmark chart/comment
+ends PDF147/printed145 before independent advertisements148–150. Endpoint inspection
+does not certify uninspected middle pages. Remaining128–147 and full assembly are
+pending. Canonical reference124 remains unchanged despite the observed earlier opening.
+Next: restore128–133, including the incoming 슬립/모드 continuation. Full406-page
+issue accounting, other bodies, cover and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
