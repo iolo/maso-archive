@@ -8,13 +8,14 @@ by the calendar month in which restoration work happened.
 
 August 1991 remains in progress: twenty-eight readable/sample-reviewed articles,
 no partials, five headings, two section references and zero unresolved identities =35.
-Canonical bodies, assemblies and child anchors are complete. Accounting has 371 of 383
-content records: 211 selected body pages and 160 directly reviewed outside pages; 12 pending.
-Batch71 records twenty advertisements with null observed folios. All canonical outcomes,
-earlier observations and body assignments remain exact. Next batch72 reviews the final twelve
-outside pages:355,358–361,367,377,379–383. Standalone index/report, cover, independent rebuilds
-and closeout remain required. Body prose/embedded lettering/handwriting and uncertain glyphs
-remain volunteer work. No reader rebuild.
+Canonical bodies, assemblies and child anchors are complete. All 383 pages have content
+records: 211 selected body pages/211 assignments and 172 directly reviewed outside pages;
+zero pending, no shared body pages and 21 mixed exclusions. Batch72 finishes page accounting
+with eight advertisements, subscription/distribution information, payment-insert front/reverse
+and a cover-wrap fragment. All prior observations and canonical outcomes remain exact.
+Next batch73 verifies the donated-first cover. Standalone index/report, independent package
+and issue rebuilds and final closeout remain required. Body prose/embedded lettering,
+handwriting and uncertain glyphs remain volunteer work. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

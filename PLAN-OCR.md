@@ -29,24 +29,25 @@ paired OCR or a new engine comparison.
   Community complete package: `archive/pdf/1991-08/packages/community-complete-r01`
   (584 independently exact files, including all 576 unchanged native files).
 
-  Whole-issue ownership has 211 selected body pages/211 assignments, no shared body pages
-  and 21 mixed exclusions. Batch71 directly reviews twenty outside pages:
-  254–259,269,280–283,297–299,305–307,323,349,354. All are advertisements with null observed folios.
-  Cumulative outside review covers 160 pages. Accounting now has 371 of 383 content records
-  and 12 outside pages pending; an independent reconstruction is byte-identical. All earlier
-  140 outside observations and 211 body assignments remain unchanged. Publisher pages280–283
-  include preface-excerpt advertising; no independent article is inferred. BASIC0004 retains
-  its legacy adoption validation/current-identity guard. Unlisted material stays outside the queue.
+  All 383 source pages now have content records: 211 selected body pages/211 assignments
+  and 172 directly reviewed outside pages, with no shared body pages, 21 mixed exclusions
+  and zero pending outside pages. Batch72 reviews the final twelve pages:
+  355,358–361,367,377,379–383. Eight advertisements, subscription/distribution information,
+  both sides of a payment insert and a cover-wrap/spine fragment retain null observed folios.
+  The independent accounting export is byte-identical. All earlier 160 observations,
+  211 body assignments and 35 canonical outcomes remain unchanged. Mirrored advertising360,
+  landscape inserts379/380 and narrow partial-wrap source383 stay as scanned.
+  BASIC0004 retains its legacy adoption validation/current-identity guard.
 
-  No new article export, mapping, rendering, OCR or source correction. Twenty retained
-  3000px views support the declared lookups. All 40,356 prior archive files and thirty
-  core modules remain exact; unchanged 213-test baseline reused. All 35 canonical outcomes
-  remain unchanged. Body prose, embedded lettering/handwriting, uncertain glyph encoding/counts,
-  human acceptance/full proofreading and source claims remain unverified; volunteer work remains explicit.
-  Next batch72 reviews the final twelve outside pages:355,358–361,367,377,379–383.
-  Resume `archive/pdf/1991-08/restoration/batch-71/handoff.json`.
-  Full 383-page accounting, standalone issue index/report, cover, independent rebuilds and
-  closeout remain required. No reader rebuild.
+  No new article export, mapping, rendering, OCR or source correction. Twelve retained
+  3000px views support the declared lookups. All 40,387 prior archive files and thirty
+  core modules remain exact; unchanged 213-test baseline reused. Body prose, embedded
+  lettering/handwriting, uncertain glyph encoding/counts, human acceptance/full proofreading
+  and source claims remain unverified; volunteer work remains explicit.
+  Next batch73 verifies and independently reproduces the cover by donated→PDF→placeholder priority.
+  Resume `archive/pdf/1991-08/restoration/batch-72/handoff.json`.
+  Standalone issue index/report, cover, independent package/issue rebuilds and final closeout
+  remain required. Complete page accounting does not complete the issue. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
