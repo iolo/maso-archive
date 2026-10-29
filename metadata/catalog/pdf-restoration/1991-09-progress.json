@@ -1709,7 +1709,10 @@
         "Bothselectedexports/freshprocessrebuild315exactfiles;all81sourcecrops/PNGs,75settings/ZIP pass. All13744priorfiles,30core/fiveadapters/source/TOC/runtime/queue unchanged;all24priorcheckpoints revalidated. Final256–263,CODE3.C/RUN.C andactual14pageassembly pending.",
         "Batch26 preserves256–261 as second immutable native: ninth catalogue itembtest.c,initialversion prose,conclusion,completeCODE3.C256–259upper andpartialRUN.C259lower–261. Originalsevenlistingframes/closingmark retained. 33regions/13blocks/8figures/25OCRrecords;740code rows/1664tokens/1230lexicalidentifiers/80comments/31strings/62numbers,45signaturelike rows/9includes/2macros/3structurefields/89memberoccurrences/1248operatorlikeglyphs indexed with638readingrows.",
         "All25drafts read before one sourcepass;fivecoverage refinements before recognition,25invocations/zero retries. Two literalfilegroups retain12singleLFcolumn/page joins,including258→259 expression and260→261 missingcaselabel continuation.21sourceanomalies/80glyphcandidates retain printednames/operators/typos/missingheader/braces withoutsemanticrepair/execution. Catalogue255→256 logicalninthitem explicitlylinks priornativecontext;RUN.C261→262 remainsopenwithoneLF/emptyfutureseparator.",
-        "Selectedr02 independentexports/freshprocessrebuild117exactfiles. All11425currentranges (6073article/5352listing) andonepriornativerange resolve inowncontexts;33crops/PNGs/25settings/ZIP pass. Metadataonlyr02 removeslocalint l_site fromf_stack fieldindex;originalr01 remainsreproducible,alltext/raw/map/crops/settings unchanged. Originalverifierhashpinshapefailure retained;successor validates exacthashonlyOCRmapbinding. All15449priorfiles/30core/5adapters/source/TOC/runtime/queue unchanged;25earliercheckpointsvalidate. Two natives250–261 preserved,final262–263/fullassembly pending."
+        "Selectedr02 independentexports/freshprocessrebuild117exactfiles. All11425currentranges (6073article/5352listing) andonepriornativerange resolve inowncontexts;33crops/PNGs/25settings/ZIP pass. Metadataonlyr02 removeslocalint l_site fromf_stack fieldindex;originalr01 remainsreproducible,alltext/raw/map/crops/settings unchanged. Originalverifierhashpinshapefailure retained;successor validates exacthashonlyOCRmapbinding. All15449priorfiles/30core/5adapters/source/TOC/runtime/queue unchanged;25earliercheckpointsvalidate. Two natives250–261 preserved,final262–263/fullassembly pending.",
+        "Batch27 preserves final262–263/printed260–261 as third immutable native. Both original RUN.Cframes,fourcodecolumns,mixedKorean/Englishcomments andrunningheadings retained. 8regions/3blocks/2figures/6OCRrecords;219code rows/548tokens/422lexicalidentifiers/9comments/5strings/10numericoccurrences,15signaturelike rows/12memberoccurrences/127operatorlikeglyphs,194nonblankreadingrows indexed.",
+        "Bothfullmappedpages/twooutsidecontexts261/264/all8crops viewed before6recognitions;all6rawdrafts read beforeonepass,zero retries. Emptycategorydraft andomitted visible con_int_push signature recovered directlyagainstscan. ThreeinternalLFjoins retain is_logical262→263 andlogical_op across263columns. Printedunfinishedact_compelseif,ADDonlybreak,caculation andoperator/type/glyphvariants remain;7anomalies/24glyphcandidates,no semanticrepair/execution.",
+        "Bothselectedexports/freshprocessrebuild35exactfiles. All3037currentranges (1624article/1413listing) plusfourpriornativeboundaryranges resolve inowncontexts;8crops/PNGs/6settings/ZIP pass. Incoming261→262 sameassign_exec STRINGbranch explicitlymatchespriorpending source,startandoneLF/emptyfutureseparator.263finalcon_int_pop closesbefore264ownB+tree title/byline. All15968priorfiles/30core/5adapters/source/TOC/runtime/queue exact;26earliercheckpointsvalidate. All14pages nowpreserved inthreeimmutable natives;actualcompleteassembly remainspending,availabilitypartial. Failedexportpreparation literalbackslash-n search andinheritedmethodprose corrected beforeanypackagecreation;originalhelper retained,no source/OCRrepeat."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-25-r02/basic-a",
@@ -1739,10 +1742,7 @@
           "regions": 81,
           "blocks": 71,
           "figures": 6,
-          "deferred_pdf_pages": [
-            262,
-            263
-          ],
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
         "actual_start_pdf_page": 250,
@@ -1781,9 +1781,9 @@
             "261"
           ],
           "all_pages_directly_viewed": true,
-          "note": "Actual fourteen-page body250–263 directly viewed. Two immutable natives preserve250–261. CODE3.C complete256–259upper;RUN.C begins259lower andcontinues262–263. Finaltwo pages and actualfullassembly pending;parent240/childnull references unchanged."
+          "note": "Actual fourteen-page body250–263 directly viewed andpreserved across three immutable natives. CODE3.C256–259upper complete;RUN.C259lower–263 finaltail preserved,including263con_int_pop close. Independentlytitled/authoredB+tree264 follows. Fullactualassembly pending;parent240/childnull references unchanged."
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
@@ -1851,6 +1851,29 @@
               "sha256": "d9d7c706a7243accc59b9c49c2cb648094d44f39a95f2c017279d922ce9a09ff",
               "bytes": 20924
             }
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1991-09/packages/batch-27-r01/basic-c",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-27-r01/basic-c/manifest.json",
+              "sha256": "be39878befce7e089b642940358310d54c29875814a9f521fb002cf932ada729",
+              "bytes": 5783
+            },
+            "pdf_pages": [
+              262,
+              263
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-27/validation.json",
+              "sha256": "4d9bc0b205fbb9c1b028e5ed2552bf0d3f4b5cb8e6472c829d28809897cd3009",
+              "bytes": 2561
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-27/reproduction.json",
+              "sha256": "8d3b11daa5c514e38734a417d273a4676184ec13c430c961cf12de6bea141f59",
+              "bytes": 6835
+            }
           }
         ],
         "preserved_pdf_pages": [
@@ -1865,7 +1888,9 @@
           258,
           259,
           260,
-          261
+          261,
+          262,
+          263
         ],
         "native_coverage": {
           "pdf_pages": [
@@ -1880,7 +1905,9 @@
             258,
             259,
             260,
-            261
+            261,
+            262,
+            263
           ],
           "printed_pages": [
             "248",
@@ -1894,29 +1921,28 @@
             "256",
             "257",
             "258",
-            "259"
+            "259",
+            "260",
+            "261"
           ],
-          "regions": 114,
-          "blocks": 84,
-          "figures": 14,
-          "ocr_records": 100,
-          "native_segments": 2,
-          "deferred_pdf_pages": [
-            262,
-            263
-          ],
-          "note": "Aggregate preservation across two immutable natives;root directory/manifest/coverage page list still identify first native only. Full article assembly pending."
+          "regions": 122,
+          "blocks": 87,
+          "figures": 16,
+          "ocr_records": 106,
+          "native_segments": 3,
+          "deferred_pdf_pages": [],
+          "note": "Aggregate preservation across three immutable natives;root directory/manifest/coverage page list still identify first native only. All14bodypages preserved;actual full article assembly pending."
         },
-        "latest_checkpoint": "batch-26",
+        "latest_checkpoint": "batch-27",
         "latest_validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-26/validation.json",
-          "sha256": "51dbdc996519e327909a50b7d4e202175f128243ddbf685b9ca2a59643914cad",
-          "bytes": 2943
+          "path": "archive/pdf/1991-09/restoration/batch-27/validation.json",
+          "sha256": "4d9bc0b205fbb9c1b028e5ed2552bf0d3f4b5cb8e6472c829d28809897cd3009",
+          "bytes": 2561
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-26/reproduction.json",
-          "sha256": "d9d7c706a7243accc59b9c49c2cb648094d44f39a95f2c017279d922ce9a09ff",
-          "bytes": 20924
+          "path": "archive/pdf/1991-09/restoration/batch-27/reproduction.json",
+          "sha256": "8d3b11daa5c514e38734a417d273a4676184ec13c430c961cf12de6bea141f59",
+          "bytes": 6835
         }
       }
     },
@@ -2941,6 +2967,36 @@
         "sha256": "d9d7c706a7243accc59b9c49c2cb648094d44f39a95f2c017279d922ce9a09ff",
         "bytes": 20924
       }
+    },
+    {
+      "name": "1991-09-batch-27",
+      "status": "complete",
+      "completed_at": "2026-10-29T23:39:03.795142+00:00",
+      "goal": "Restore final BASIC0011 RUN.C pages262–263 as third immutable native. All fourteen bodypages nowpreserved;actualfullassembly separate.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0011"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        262,
+        263
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 6,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-27/validation.json",
+        "sha256": "4d9bc0b205fbb9c1b028e5ed2552bf0d3f4b5cb8e6472c829d28809897cd3009",
+        "bytes": 2561
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-27/reproduction.json",
+        "sha256": "8d3b11daa5c514e38734a417d273a4676184ec13c430c961cf12de6bea141f59",
+        "bytes": 6835
+      }
     }
   ],
   "totals": {
@@ -2956,15 +3012,12 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-27",
-    "goal": "Restore final BASIC0011 RUN.C pages262–263 as third immutable native;actual fourteen-page assembly separate.",
+    "name": "1991-09-batch-28",
+    "goal": "Assemble full fourteen-page BASIC0011 body250–263 from three exact immutable natives,merge sameRUN.C file acrossb/c andpreserve allsource-local metadata/dualdownload/nativecontexts.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0011"
     ],
-    "mapping_targets": [
-      262,
-      263
-    ],
+    "mapping_targets": [],
     "known_extent": {
       "pdf_pages": [
         250,
@@ -2990,6 +3043,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Two natives250–255/256–261 unchanged.262 firstleftcontinues assign_exec STRINGbranch from261right;nativeb run-c alreadyendsoneLF andfutureblockmerge mustaddemptyseparator. Review262/263allCcolumns/physicalwraps andliteraloperators/strings/comments,263 con_int_pop finalbrace andindependentB+tree264 title/byline. Preserve complete sourcefilegroup acrossfour morecolumns;do not labelasindependent examples orrepairfromsemantics. Prior255→256 catalogue links ownnativecontexts;all firstnative diagrams/tables/output/schema metadata retained. Finalthirdnative thenactual14pageassembly (separatecheckpoint),includingRUN.C two-nativefilemerge withalloccurrences projected inbothdownloads/nativecontexts. Parent0009 non-owning,parent240/childnull ownreference unchanged. InstallpinnedBatch24hangul_adapter forcompletechecks;fiveadapters/thirtycoremodulesunchanged. Eightreadable/onepartial/twoheadings/18unresolved;otherbodies/full406pageaccounting/cover/export/closeout pending,no readerrebuild."
+    "note": "Use selecteda=batch25r02/basic-a,b=batch26r02/basic-b,c=batch27r01/basic-c manifests exactly;all14pages preserved,no newOCR/sourcecorrection. Resolve onlyactivepending notes with explicitfrozen evidence;copyalloriginal native metadata/statusnotes. Catalogue255→256 islogicalninthbtest.c item,notinferredprosebytejoin. LiteralRUN.C b.run-c+c.run-c-tail mustuseemptyblockseparator becausebalreadyendsoneLF;allnativefilebytes exact,projectallarticle/listingoccurrences withmergedoffsets. CODE3.C remainsindependentcompletefile;firstnative19schema/syntax/example/diagram/outputblocks remainseparate,nocompatibility sourcerelabeling. Nativecorrections have nested prior_pending_record ranges: bcontainsone range innativea context;ccontainsfourranges innativeb context. Preserveandverifythoseexplicit contexts,do notblindlyrebase them ascurrentnative. Firstnative complexdiagrams/tablecells/stackvalues/printedoutput/catalogue/joins/glyphs/normalizations mustallpersistandproject. Use privateassemblyadapter ifneeded;fiveexistingadapters/30coreunchanged. Twoexports/freshprocessrebuild,fulltypedrange/sourcecrop/PNG/settings/ZIP/prior/core/source/TOC/runtime/queue auditsandnegativeinputchecks beforemarkingreadable. Parent0009 non-owning,parent240/childnull ownreference unchanged. InstallpinnedBatch24hangul_adapter forpreviouscompletechecks. Eightreadable/onepartial/twoheadings/18unresolved untilassembly;otherbodies/full406pageaccounting/cover/issueexport/closeout pending,no readerrebuild."
   }
 }
