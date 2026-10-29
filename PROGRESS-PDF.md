@@ -13,8 +13,10 @@ identical files, including 347 unchanged native files. All 94 source-pixel crops
 and 6,374 native/projected typed ranges validate; 6,229 retained source-local occurrences
 and 145 root combined occurrences are independently checked. All 494 uncertainties, thirty
 opaque variants and four montage markers remain active. Lower337 advertisement excluded;
-351 folio retained. No coprocessor body pages or assembly pending. Next batch49 verifies
-hardware-basics0028 extent from338/352; its canonical page reference remains null. Whole-issue
+351 folio retained. No coprocessor body pages or assembly pending. Current batch49 verifies hardware-basics0028 at338–348: folios352–361 on338–347,
+348folio null; canonical page reference remains null. Next restore first338–343,
+then final344–348 and actual assembly separately. Lower348 advertisement excluded
+by the ending native; all glossary prose retained. No new mapping or OCR yet. Whole-issue
 accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).

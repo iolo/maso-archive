@@ -3976,14 +3976,21 @@
   ],
   "next_checkpoint": {
     "name": "1991-08-batch-49",
-    "goal": "Verify complete hardware-basics child0028 extent from retained independent338/352 opening, then restore at most six verified pages.",
+    "goal": "Map and restore verified first hardware-basics native338–343; final344–348 andactual full assembly remain separate checkpoints.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0028"
     ],
     "canonical_title": "하드웨어 기초 강좌(1) : 하드웨어 구성소자들",
     "canonical_byline_candidate": "정휴중",
     "canonical_page_reference": null,
-    "mapping_targets": [],
+    "mapping_targets": [
+      338,
+      339,
+      340,
+      341,
+      342,
+      343
+    ],
     "lookup_candidates": [
       5,
       337,
@@ -4014,6 +4021,14 @@
         "source_byline": "글. 정휴중 (디지탈 동호회)"
       },
       "prepared_uninspected_pages": [
+        351,
+        352,
+        353,
+        354
+      ],
+      "full_extent_verified": true,
+      "verified_pdf_pages": [
+        338,
         339,
         340,
         341,
@@ -4022,15 +4037,128 @@
         344,
         345,
         346,
-        347
+        347,
+        348
       ],
-      "full_extent_verified": false
+      "printed_pages": [
+        "352",
+        "353",
+        "354",
+        "355",
+        "356",
+        "357",
+        "358",
+        "359",
+        "360",
+        "361",
+        null
+      ],
+      "ending": {
+        "pdf_page": 348,
+        "printed_page": null,
+        "description": "Upper glossary ends with 트리거(trigger) definition and terminal ornament. Lower unrelated modem/PC-communications advertisement must be excluded by the ending native. No visible folio; retain null without inferring362."
+      },
+      "following": {
+        "pdf_page": 349,
+        "printed_page": null,
+        "description": "Full independent computer-book advertisement. Next350/364 independently opens 클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램, by 글. 노선규 (심곡국민학교 교사); its full extent unverified."
+      },
+      "outgoing_boundary": {
+        "current_pdf_page": 343,
+        "last_source_text": "전극으",
+        "current_description": "Right-column SCR paragraph ends 우드(K) 옆의 P층에 제어용 전극으",
+        "next_pdf_page": 344,
+        "next_printed_page": "358",
+        "next_region_description": "Left-column opening SCR continuation",
+        "next_source_text": "로 게이트(G)를 접속한 정류 소자로",
+        "join_separator": "",
+        "carried_word": true,
+        "assembled": false
+      }
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Reuse contents5, ending337 and independent hardware-basics opening338/352 from batch46 source views. Canonical0028 has no page reference; keep it null and verify source extent rather than inferring a global offset. Actual body title 하드웨어 구성소자들 and byline 글. 정휴중 (디지탈 동호회) observed at338. Prepared339–347 renders remain uninspected. Review full pages, visible folios, intrinsic tables/diagrams/command orlisting material, actual ending andadjacent independent material before mapping at most six pages. Segment a longer article andcomplete actual full assembly separately. Preserve source component labels,values,units,physical wraps,claims andprinted errors without semantic/technical repair orhistorical execution. Every final exact crop before pinned mapped Tesseract;all raw drafts beforeone source pass. Whole issue accounting,index,cover andcloseout pending;no reader rebuild."
+    "note": "Resume batch49/handoff.json andretained source views;do not rerun frozen helpers. Full hardware-basics338–348 verified;visible folios352–361 on338–347,348folio null. Canonical0028 page reference remains null. All15 full views5/337–350 reviewed;prepared351–354 uninspected. Map at most first338–343 six pages now;final344–348 andactual full two-native assembly separate. First343 SCR prose ends전극으;344left begins로 게이트(G)를 접속한 정류 소자로. Preserve empty-separator carried word in standard segment_continuations. Ending348upperglossary/terminal ornament retained;lower modem/PC-communications advertisement excluded,folio null.349fullbookadvertisement independent;350/364 nextschool-program opening actual노선규,full extent unverified. Preserve source Register/Transformer headings,component names/labels,resistor table values,numeric/logic/truth-table/formula/flip-flop claims,physicalwraps,glossary text andoriginal annotations without grammar/technical repair orexecution. Every final exact crop before pinned mapped Tesseract;all raw drafts beforeone sourcepass. Outcomes unchanged;fullissueaccounting,index,cover andcloseout pending;no reader rebuild.",
+    "phase": "full-eleven-page-source-extent-reviewed",
+    "source_extent_review": {
+      "path": "archive/pdf/1991-08/restoration/batch-49/source-extent-reviewed.json",
+      "sha256": "7ba517391a9b34debb8e4eee854bbf4e11728f048147a7e9c5527934df322781",
+      "bytes": 6312
+    },
+    "full_pdf_pages": [
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348
+    ],
+    "printed_pages": [
+      "352",
+      "353",
+      "354",
+      "355",
+      "356",
+      "357",
+      "358",
+      "359",
+      "360",
+      "361",
+      null
+    ],
+    "deferred_pdf_pages": [
+      344,
+      345,
+      346,
+      347,
+      348
+    ],
+    "assembly_required": true,
+    "reviewed_full_pages": [
+      5,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350
+    ],
+    "source_review_lookup_pages": 15,
+    "first_native_outside_lookup_pages": [
+      5,
+      337,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350
+    ],
+    "outside_full_article_pages": [
+      5,
+      337,
+      349,
+      350
+    ],
+    "mapping_started": false,
+    "ocr_started": false,
+    "source_correction_started": false
   }
 }

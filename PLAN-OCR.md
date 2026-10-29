@@ -50,14 +50,26 @@ paired OCR or a new engine comparison.
   was corrected in fresh assembly revision02; initial assembly and failed verifier attempts
   remain retained. Source-local original metadata stays unchanged, including stage flags.
 
-  Next batch49 verifies hardware-basics child0028 from retained independent PDF338/printed352
-  opening, 하드웨어 구성소자들, by 글. 정휴중 (디지탈 동호회). Canonical title is
-  하드웨어 기초 강좌(1) : 하드웨어 구성소자들 and canonical page reference remains null.
-  Prepared339–347 renders remain uninspected; full extent is unverified. Verify all body pages,
-  ending and adjacent independent material before mapping at most six pages. Every final
-  exact crop before pinned mapped Tesseract; all raw drafts before one source pass. Resume
-  `archive/pdf/1991-08/restoration/batch-48/handoff.json`; do not rerun frozen helpers.
-  Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+  Current batch49 verifies the complete hardware-basics child0028 at PDF338–348.
+  Visible folios on338–347 are352–361;348 has no visible folio and remains null. The
+  canonical page reference remains null. Actual title 하드웨어 구성소자들 and byline
+  글. 정휴중 (디지탈 동호회) match the canonical identity. All eleven body pages,
+  contents5 and neighboring337/349/350 were reviewed. Upper348 ends the glossary with
+  트리거(trigger) and a terminal ornament; lower modem/PC-communications advertisement
+  must be excluded by the ending native.349 is an independent book advertisement;
+  350/364 independently opens the next school-program article, whose full extent is unverified.
+
+  Next map and restore first338–343, at most six pages. Final344–348 and actual full
+  two-native assembly follow separately.343 SCR prose ends 전극으;344 left-column opening
+  starts 로 게이트(G)를 접속한 정류 소자로. Preserve the empty-separator carried word
+  in standard continuation declarations. Intrinsic resistor tables/diagrams, component photo
+  labels, semiconductor/FET figures, logic truth tables/formulas, flip-flops and the glossary
+  remain source material. Preserve spelling, values, claims, physical wraps and annotations
+  without grammar/technical repair or execution. No mapping, OCR, source correction or
+  outcome change yet. Resume `archive/pdf/1991-08/restoration/batch-49/handoff.json`;
+  do not rerun frozen helpers. Every final crop before OCR; all raw drafts before one source
+  pass. Prepared351–354 remain uninspected. Whole-issue accounting, index, cover and closeout
+  remain pending. No reader rebuild.
   Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue
   accounting, index, cover and closeout remain pending. No reader rebuild.
