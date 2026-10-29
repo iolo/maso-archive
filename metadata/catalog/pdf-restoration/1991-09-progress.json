@@ -803,23 +803,83 @@
       "toc_entry_id": "maso-1991-09-toc-0004",
       "title": "읽을거리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source contents 4 presents 읽을거리 as a category grouping two independently titled/bylined children; its reference 156 matches the independently observed interview opening folio 156 on PDF 158. The complete interview body 158–162 has its own title/photo/introduction/credits, series 17, dialogue and closing mark. No separate parent introduction/body occurs at that reference. Prior 156/157 are the independent seminar notice; no child body is assigned to the parent.",
+        "Bounded category/first-child ownership decision; child 0006 eligibility/extent remains unresolved. Canonical title/IDs/parent/order/references unchanged."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1991-09/restoration/batch-14/heading-classification.json",
+        "sha256": "946bc3f80af86d7777658ac9641fa1e7016485b362f701f555966698f976bc00",
+        "bytes": 2047
+      },
+      "classification_application": {
+        "path": "archive/pdf/1991-09/restoration/batch-14/heading-classification-applied.json",
+        "sha256": "c305f1e8aff941c0903b0e372ac6b038be620965f645e1c145198181d80ce3da",
+        "bytes": 743
+      },
+      "ownership_review": "resolved-from-canonical-parentage-source-contents-group-and-independent-child-opening"
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0005",
       "title": "마소가 만난 사람(17) : 클라이 제작자 황인창",
       "parent_id": "maso-1991-09-toc-0004",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 child title/credit and source158 independent interview opening establish canonical0005. Actual source title 통합환경 에디터 클라이의 제작자, 황인창 and two body credits remain separate from canonical title/editorial credit 편집부. Parent0004 is a non-owning category.",
+        "Complete PDF158–162, literal printed156–160, retains introduction, two portraits, two independent pull quotations, repeated series17 headers and all fifteen question/answer pairs. Final answer/closing mark162 precede independent advertisements163/164; no body page/assembly remains pending.",
+        "All five full mapped pages and every original/refined crop reviewed before 21 initial recognitions; all raw drafts read before one source correction pass, zero retries. Twelve explicit column/page joins and all source-local QA intersections pass. Historical 읍니다 spellings, physical wraps, printed identifiers/values and award-wording differences retained without factual repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-14-r01/hwang-interview",
+        "article_id": "scan-maso-1991-09-toc-0005",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-14-r01/hwang-interview/manifest.json",
+          "sha256": "3bf14cea4b125b6795fbf580e75fc2c440b1b281795b9ae86154a13602124a96",
+          "bytes": 16443
+        },
+        "coverage": {
+          "pdf_pages": [
+            158,
+            159,
+            160,
+            161,
+            162
+          ],
+          "printed_pages": [
+            "156",
+            "157",
+            "158",
+            "159",
+            "160"
+          ],
+          "regions": 24,
+          "blocks": 9,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-14/validation.json",
+          "sha256": "852af5dc895e4e9a5321a81744f9973d50e5f99ff56f8c8edd8e09d176e3bbe7",
+          "bytes": 1957
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-14/reproduction.json",
+          "sha256": "b95a72bf35c73d8a0c375ec6de91208f5ac3d3d74239c8569a7d475d7bf5cf61",
+          "bytes": 17518
+        },
+        "checkpoint": "batch-14"
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0006",
@@ -1493,14 +1553,52 @@
         "sha256": "273827b11b95f17e23618d2c09f60b4c240157e1df1a011ab771cd6643221684",
         "bytes": 149249
       }
+    },
+    {
+      "name": "1991-09-batch-14",
+      "status": "complete",
+      "completed_at": "2026-10-29T19:59:20.450231+00:00",
+      "goal": "Classify non-owning 읽을거리 parent0004 and restore complete 황인창 interview child0005 on PDF158–162.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0004",
+        "maso-1991-09-toc-0005"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 21,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-14/validation.json",
+        "sha256": "852af5dc895e4e9a5321a81744f9973d50e5f99ff56f8c8edd8e09d176e3bbe7",
+        "bytes": 1957
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-14/reproduction.json",
+        "sha256": "b95a72bf35c73d8a0c375ec6de91208f5ac3d3d74239c8569a7d475d7bf5cf61",
+        "bytes": 17518
+      },
+      "parent_classification": {
+        "path": "archive/pdf/1991-09/restoration/batch-14/heading-classification.json",
+        "sha256": "946bc3f80af86d7777658ac9641fa1e7016485b362f701f555966698f976bc00",
+        "bytes": 2047
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 3,
+    "readable": 4,
     "partial": 0,
-    "group_headings": 0,
-    "unresolved": 26
+    "group_headings": 1,
+    "unresolved": 24
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -1508,17 +1606,16 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-14",
-    "goal": "Verify canonical 0004 읽을거리 and child 0005 interview with 황인창 from unchanged parent contents reference 156; classify actual ownership and restore at most six source pages after full page/crop review.",
+    "name": "1991-09-batch-15",
+    "goal": "Verify canonical0006 컴퓨터를 이용한 정보 활용(5) : 컴퓨서브의 가정정보 / 윤영희, second child of non-owning 읽을거리0004, then restore at most six actual source pages after full page/crop review.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0004",
-      "maso-1991-09-toc-0005"
+      "maso-1991-09-toc-0006"
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
-      156,
-      158,
-      154
+      165,
+      166,
+      167
     ],
     "canonical_parent_reference": 156,
     "child_reference": null,
@@ -1527,6 +1624,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Parent is currently unresolved with bundle_or_article flag; child has no own contents page. Candidate lookup pages are not body assignments and do not establish a global offset. Prove title/byline, actual opening/ending, adjacent ownership and whether parent owns body content before classification. Preserve canonical IDs/titles/parent/reference and all complete notebook/barcode packages. Install pinned batch13 barcode_adapter before checking complete selected packages; it dispatches both complete formats and retains batch08 notebook support. Native packages use the standard checker. Full issue accounting, cover, export and closeout remain pending."
+    "note": "Child has no own contents page. Use contents4 and known prior interview158–162/advertisements163–164 as local evidence, then verify title/byline/opening/ending/adjacent ownership. Candidate pages165–167 are not body assignments or a global folio offset. Segment if more than six source pages. Preserve canonical title/credit/parent/reference and all prior packages. Install pinned batch13 barcode_adapter for complete barcode/notebook checks. Full issue accounting, cover, standalone export and closeout remain pending."
   }
 }

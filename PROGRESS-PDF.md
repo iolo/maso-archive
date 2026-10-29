@@ -6,26 +6,28 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-September 1991 restoration is active: three readable/sample-reviewed articles and
-26 unresolved identities account for 29 canonical TOC entries; no partial article remains.
-Batch 13 completes the actual barcode assembly, PDF 198–217, from all four immutable
-natives. Its 223 regions, 130 blocks, 43 original images and 180 regional text occurrences
-retain the three-part outline, full sidebars and all source metadata. Both interrupted
-prose joins preserve the POS and apocalypse sidebars; Part III figure 2 resolves to the
-original 216 photo/caption. No barcode body page or assembly remains pending.
-Both independent exports contain 803 exact files, including 795 unchanged native files.
-All 3,257 current ranges, 223 crop comparisons, 180 OCR settings, 223 decoded PNGs and
-five ZIPs pass. Ninety supplier cells, six Code39 cells, three formula operands, both
-case studies/thirteen configurations and ten price claims remain source-linked.
-Six invalid-input checks are rejected. No new mapping, OCR, source correction, core
-change or reader rebuild. Original glyph, barcode and historical/technical limits remain.
-Next: verify unresolved parent 0004 읽을거리 and child 0005 황인창 interview from the
-unchanged parent contents reference 156. The child has no own contents page; lookup
-candidates are not body assignments. Classify ownership and restore at most six actual
-source pages after full page/crop review. The complete notebook feature remains unchanged.
+September 1991 restoration is active: four readable/sample-reviewed articles,
+one non-owning group heading and 24 unresolved identities account for all 29
+canonical TOC entries; no partial article remains. Batch 14 classifies parent
+0004 읽을거리 as a non-owning contents category and restores its first child,
+0005 황인창 interview, across PDF158–162/literal printed156–160. The complete
+interview retains all fifteen question/answer pairs, two independent pull quotations,
+two series17 headers, two portraits, source reporting/photo credits and closing mark.
+All twelve column/page joins and QA source intersections are indexed. Both exports
+contain 95 exact files; 792 typed ranges, 24 exact crops/decoded PNGs, 21 pinned OCR
+settings and ZIP CRC pass. All 21 raw drafts were read before one correction pass;
+zero recognition retries. Historical 읍니다 spellings, physical wraps, identifiers,
+values and award-wording differences remain source-linked without factual repair.
+All 9,054 prior September files, thirty core modules and both adapters remain exact;
+all thirteen earlier checkpoints revalidated. Notebook and barcode assemblies unchanged.
+Next: verify unresolved child0006 컴퓨터를 이용한 정보 활용(5) : 컴퓨서브의 가정정보 /
+윤영희, second child of 읽을거리0004. It has no own contents page. Candidate lookup
+pages165–167 follow known advertisements163–164 but are not body assignments.
+Prove title/byline/opening/ending/adjacent ownership, then restore at most six actual
+pages after full page/crop review. Parent reference156 stays unchanged.
 Install the pinned batch13 barcode adapter before checking complete selected packages;
 it dispatches barcode and notebook formats. Full 406-page accounting, other bodies,
-cover, issue export and closeout remain pending.
+cover, issue export and closeout remain pending. No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
