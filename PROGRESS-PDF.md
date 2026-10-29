@@ -7,27 +7,28 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 September 1991 restoration is active: four readable/sample-reviewed articles,
-one non-owning group heading and 24 unresolved identities account for all 29
-canonical TOC entries; no partial article remains. Batch 14 classifies parent
-0004 읽을거리 as a non-owning contents category and restores its first child,
-0005 황인창 interview, across PDF158–162/literal printed156–160. The complete
-interview retains all fifteen question/answer pairs, two independent pull quotations,
-two series17 headers, two portraits, source reporting/photo credits and closing mark.
-All twelve column/page joins and QA source intersections are indexed. Both exports
-contain 95 exact files; 792 typed ranges, 24 exact crops/decoded PNGs, 21 pinned OCR
-settings and ZIP CRC pass. All 21 raw drafts were read before one correction pass;
-zero recognition retries. Historical 읍니다 spellings, physical wraps, identifiers,
-values and award-wording differences remain source-linked without factual repair.
-All 9,054 prior September files, thirty core modules and both adapters remain exact;
-all thirteen earlier checkpoints revalidated. Notebook and barcode assemblies unchanged.
-Next: verify unresolved child0006 컴퓨터를 이용한 정보 활용(5) : 컴퓨서브의 가정정보 /
-윤영희, second child of 읽을거리0004. It has no own contents page. Candidate lookup
-pages165–167 follow known advertisements163–164 but are not body assignments.
-Prove title/byline/opening/ending/adjacent ownership, then restore at most six actual
-pages after full page/crop review. Parent reference156 stays unchanged.
+one partial article, one non-owning group heading and 23 unresolved identities
+account for all 29 canonical TOC entries. Batch 15 verifies canonical0006, the
+CompuServe home-information article, across PDF172–178/printed170–176 and restores
+its first six pages172–177 as an immutable native. Final178 and complete seven-page
+assembly remain pending. Parent0004 and complete interview0005 remain unchanged.
+The native retains nine original menu images with eighty numbered items, including
+the AP menu's two-column positions, plus the original house/village illustration,
+quotation, byline and eight explicit prose joins. Both exports contain 187 exact
+files; 934 typed ranges, 53 exact crops/decoded PNGs, 42 pinned OCR settings and
+ZIP CRC pass. All42 raw drafts were read before one source correction pass, zero
+recognition retries. A helper count assertion90 was corrected to actual80 within
+the same pass; its original failed helper remains retained. Source Travel Fourms,
+Eaasy Sabre and menu/body label differences remain literal without factual repair.
+All 9,383 prior September files, thirty core modules and both adapters remain exact;
+all fourteen earlier checkpoints revalidated. No reader rebuild.
+Next: restore final178/printed176 of child0006: Hobbies and Arts/Music/Literature
+menus, prose, original screenshot, conclusion and closing mark. Preserve the exact
+first native and explicit Hobbies section/menu continuity from177; no interrupted
+prose join is needed. Then assemble the complete seven-page article separately.
 Install the pinned batch13 barcode adapter before checking complete selected packages;
 it dispatches barcode and notebook formats. Full 406-page accounting, other bodies,
-cover, issue export and closeout remain pending. No reader rebuild.
+cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
