@@ -31,58 +31,45 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: twenty-two readable/sample-reviewed articles, one partial,
-five non-owning headings and seven unresolved identities out of 35. Coprocessor0027
-remains complete at `archive/pdf/1991-08/packages/coprocessor-complete-r02`.
+Step 12 remains active: twenty-three readable/sample-reviewed articles, no partials,
+five non-owning headings and seven unresolved identities out of 35. Batch51 completes
+hardware-basics0028, 하드웨어 기초 강좌(1) : 하드웨어 구성소자들, at PDF338–348.
+Selected package: `archive/pdf/1991-08/packages/hardware-basics-complete-r01`.
+All 373 files match an independent export, including all 365 unchanged native files.
+All 103 source-pixel crops and 82 pinned kor+eng settings validate. The audit checks
+8,911 native/projected typed occurrences, 8,765 retained source-local metadata occurrences
+and 146 root combined occurrences independently in their proper article contexts.
 
-Batch49 restores hardware-basics0028, PDF338–343/printed352–357, in
-`archive/pdf/1991-08/packages/batch-49-r01/hardware-a`. All 169 files match an independent
-export. All 47 source-pixel crops, 38 pinned kor+eng settings and 4,250 typed occurrences
-validate. The segment retains 30 blocks, nine originals, four captions, three joined blocks
-with eight boundaries, 119 spatial fields, 54 reading rows and 56 inline headings.
-The resistor table preserves 70 positions: 53 printed fields and 17 blanks. Its example
-keeps three 적 colour labels and literal zero strings. Eleven photographic labels, eight
-transistor terminal fields, 27 designation fields and nine FET-tree fields remain linked
-to their source occurrences. All 222 uncertainties and 31 opaque variants remain active.
-Printed Register/Transformer, component spellings, values, units, claims, physical wraps
-and scan annotations remain unchanged, without technical repair or execution.
+The actual standard namespaced-v1 assembly resolves343전극으→344로 with an empty
+separator. It retains 64 blocks, 21 originals, eight captions, seven native joins with
+eighteen boundaries, 320 spatial fields, 141 reading rows and 74 inline headings.
+The resistor table preserves 70 positions, 53 printed fields and 17 blanks. Eleven
+photographic labels, eight transistor terminals, 27 designation fields and nine FET-tree
+fields retain their source occurrences. Six gate tables retain 22 data rows; four flip-flop
+diagrams retain twelve data rows and fourteen overbar scopes. Thirty-eight glossary
+definitions retain 43 complete regional fragments, including five continued definitions.
+All 511 uncertainties and 46 opaque variants remain active. Source errors, values,
+component spellings, claims, physical wraps and scan annotations remain unrepaired and
+unexecuted. Lower348 unrelated communications advertisement excluded;348 folio and the
+canonical page reference remain null. No hardware-basics body pages or assembly pending.
 
-All 47 initial crops and six refinements were reviewed before 38 initial recognitions;
-all 38 raw drafts were read before one source correction pass. There were zero retries,
-added regions or post-OCR crop changes. All 32,616 pre-OCR archive files and thirty core
-modules remain exact; the unchanged 213-test baseline is reused.
+No new mapping, OCR or source correction during assembly. Both native stages retain
+one source pass, all final crops before recognition and all raw drafts before correction,
+with zero retries. All 33,686 pre-existing archive files and thirty core modules remain
+exact; the unchanged 213-test baseline is reused. Original source-local metadata stays
+unchanged, including stage flags. The fresh verifier preserves all eight native uncertainty
+notes and four root notes while resolving only two exact obsolete stage deferrals.
 
-Batch50 restores final PDF344–348 in
-`archive/pdf/1991-08/packages/batch-50-r01/hardware-b`. All 196 files match an independent
-export; all 56 source-pixel crops, 44 pinned kor+eng settings and 4,661 typed occurrences
-validate. The ending retains 34 blocks, twelve originals, four captions, four joined blocks
-with ten boundaries, 201 spatial fields and 87 reading rows. Six gate truth tables retain
-22 data rows; four flip-flop diagrams retain twelve data rows and fourteen overbar scopes.
-The glossary retains 38 headings and 43 complete regional definition fragments, with all
-five cross-column/page continuations. All 289 uncertainties and fifteen opaque variants
-remain active. Printed states, D-table header 입, Qn entries, 응압비, 약해서, 전위치 and
-kathode remain literal, without technical repair or execution. Upper348 glossary and
-terminal ornament are retained; the lower unrelated communications advertisement is
-excluded. Page348 has no visible folio and remains null; the canonical reference stays null.
-
-All 55 initial crops, eight refinements and one added original title panel were reviewed
-before 44 initial recognitions; all raw drafts were read before one source correction pass.
-There were zero retries or post-OCR changes. All 33,161 pre-OCR archive files and thirty
-core modules remain exact; the unchanged 213-test baseline is reused. A failed serializer
-composition attempt remains retained; its fresh repair preserves the same source readings.
-The original map's inaccurate title-motif count is explicitly corrected in the metadata;
-the original pixels remain unchanged.
-
-Next batch51 completes the actual hardware-basics assembly, PDF338–348, using immutable
-hardware-a and hardware-b. All 365 native files must remain exact. Resolve343전극으→344로
-with an empty separator. Audit every native, source-local and projected typed occurrence,
-including segments[].original_metadata. Preserve all resistor/component/FET fields, gate
-and flip-flop tables, overbar scopes, glossary fragments and source uncertainties.
-No new mapping, OCR or source correction. Resume
-`archive/pdf/1991-08/restoration/batch-50/handoff.json`; do not rerun frozen helpers.
-Prepared351–354 remain uninspected. The next school-program article opens350/364;
-its full extent remains unverified. Whole-issue accounting, index, cover and closeout
-remain pending. No reader rebuild.
+Next batch52 verifies school-program0029 from retained independent PDF350/printed364:
+클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램, by 글. 노선규 (심곡국민학교 교사).
+The canonical title is 업무 활용 코너 : 국민학교 교육계획 기초자료 작성 프로그램;
+its literal contents reference is364. Prepared351–354 remain uninspected; full extent
+is unverified. Verify all body pages, ending and adjacent material before mapping at most
+six pages. Preserve Clipper source rows, identifiers, literals, comments, physical wraps
+and printed errors without syntax repair or execution. Review every final exact crop before
+pinned mapped Tesseract; read all raw drafts before one source pass. Resume
+`archive/pdf/1991-08/restoration/batch-51/handoff.json`; do not rerun frozen helpers.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
 0003 the batch07 listing adapter and0002 the batch04 native adapter.
 See [August progress](docs/progress/9108.md) and
