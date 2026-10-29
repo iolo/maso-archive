@@ -23,25 +23,26 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-September 1991 restoration is active: two readable/sample-reviewed articles,
-one partial feature and 26 unresolved identities account for 29 canonical TOC entries.
-Batch 12 restores barcode feature 0002's ending, PDF 216–217, as its fourth
-immutable native. All twenty source pages, PDF 198–217, are now preserved.
-The final construction/cost prose, Part III figure 2, closing mark and complete
-supplier table retain eighteen header/body rows, ninety cells, seventeen suppliers
-and ten historical price occurrences. The figure 2 reference on 215 is linked to
-the original photo/caption on 216 in both native download contexts. Source 217 ends
-the feature before independent advertisement 218; no body-page extraction remains.
-Both exports contain 127 exact files. All 32 crops, 669 typed ranges, 29 OCR settings,
-32 decoded images and ZIP integrity pass. All 29 raw drafts were read before one
-source correction pass, with zero retries. Prior packages and thirty core modules
-remain unchanged. Availability stays partial until complete article assembly.
-Next: assemble the complete 198–217 barcode feature from all four immutable natives,
-including both native prose joins, full sidebars, table/cell/price/case/diagram indexes
-and original source metadata. No new mapping, OCR or source correction is needed.
-The complete notebook feature 116–147 remains unchanged. Canonical titles/reference
-196 and source 데이타 spelling remain independent. Full 406-page issue accounting,
-other bodies, cover, issue export and closeout remain pending.
+September 1991 restoration is active: three readable/sample-reviewed articles and
+26 unresolved identities account for 29 canonical TOC entries; no partial article remains.
+Batch 13 completes the actual barcode assembly, PDF 198–217, from all four immutable
+natives. Its 223 regions, 130 blocks, 43 original images and 180 regional text occurrences
+retain the three-part outline, full sidebars and all source metadata. Both interrupted
+prose joins preserve the POS and apocalypse sidebars; Part III figure 2 resolves to the
+original 216 photo/caption. No barcode body page or assembly remains pending.
+Both independent exports contain 803 exact files, including 795 unchanged native files.
+All 3,257 current ranges, 223 crop comparisons, 180 OCR settings, 223 decoded PNGs and
+five ZIPs pass. Ninety supplier cells, six Code39 cells, three formula operands, both
+case studies/thirteen configurations and ten price claims remain source-linked.
+Six invalid-input checks are rejected. No new mapping, OCR, source correction, core
+change or reader rebuild. Original glyph, barcode and historical/technical limits remain.
+Next: verify unresolved parent 0004 읽을거리 and child 0005 황인창 interview from the
+unchanged parent contents reference 156. The child has no own contents page; lookup
+candidates are not body assignments. Classify ownership and restore at most six actual
+source pages after full page/crop review. The complete notebook feature remains unchanged.
+Install the pinned batch13 barcode adapter before checking complete selected packages;
+it dispatches barcode and notebook formats. Full 406-page accounting, other bodies,
+cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
