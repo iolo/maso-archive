@@ -31,29 +31,27 @@ records below are historical and do not authorize a new rebuild.
 
 ## September 1991 active, 2026-10-30
 
-September 1991 restoration is active: four readable/sample-reviewed articles,
-one partial article, one non-owning group heading and 23 unresolved identities
-account for all 29 canonical TOC entries. Batch 16 restores final CompuServe page178/
-printed176. All seven source pages172–178 are now preserved across two immutable
-natives; actual complete article assembly remains pending, so availability stays partial.
-The final native retains two original menus/25 numbered items, arts prose, original
-screenshot, conclusion and closing mark. All179 typed ranges,11 exact crops/decoded
-PNGs, seven selected OCR settings and ZIP CRC pass; both exports contain40 exact files.
-One changed-conclusion crop repair restores right-edge characters before correction.
-All7+1 raw drafts were read before one source pass; six unchanged recognitions reused,
-zero unchanged-input retries. Source Hobbies item11 Forum F remains an explicit
-candidate linked to a white scan blemish; printed80만/80% claims remain unverified.
-A metadata-only revision improves assistant wording without changing source text;
-original r01 package/recipe/corrections/reproduction remain exact and reproducible.
-All9,983 prior September files, thirty core modules and both adapters remain exact;
-all fifteen earlier checkpoints revalidated. No reader rebuild.
-Next: assemble complete CompuServe172–178 from exact nativea/b pins. Preserve all
-original metadata and105 numbered menu items, four menu headers, AP row/column positions,
-the F candidate and every source/native context. Associate Hobbies introduction177 with
-menu178 explicitly; no prose join is needed. No new mapping, OCR or source correction.
-Install the pinned batch13 barcode adapter before checking complete selected packages;
-it dispatches barcode and notebook formats. Full406-page accounting, other bodies,
-cover, issue export and closeout remain pending.
+September 1991 restoration is active: five readable/sample-reviewed articles,
+one non-owning group heading and 23 unresolved identities account for all 29 canonical
+TOC entries; no partial article remains. Batch 17 completes the CompuServe article,
+PDF 172–178/literal printed 170–176, from two immutable natives. Its 64 regions,
+41 blocks, 15 original figures and 49 regional text occurrences retain all eleven
+menu images/105 numbered items/four headers, AP two-column positions, 31 headings
+and 436 reading rows. Hobbies introduction 177 associates explicitly with menu 178;
+no prose join is invented. Source F candidate and independent quotation/conclusion remain.
+Both exports contain 235 exact files, including 227 unchanged native files and complete
+original metadata. All 1,321 current ranges, 64 crops/decoded PNGs, 49 OCR settings,
+three ZIPs and five invalid-input guards pass. Fresh-process check/rebuild matches all
+235 files. All 10,216 prior September files and thirty core modules remain unchanged;
+all sixteen prior checkpoints revalidated. No new mapping, OCR, source correction or
+reader rebuild. Human/glyph/historical/technical/claim limits remain explicit.
+Next: verify canonical 0007, 이영식의 맥데이트 : 포스트스크립트와 새롭게 등장한 컴퓨터
+슈퍼마켓 / 이영식, from unchanged contents reference 226. Lookup candidates 226/228/224
+are not body assignments or a folio offset. Prove title/byline/opening/ending/adjacent
+ownership, then restore at most six actual pages after full page/crop review.
+Install the pinned batch17 compuserve adapter before complete selected-package checks;
+it dispatches CompuServe, barcode and notebook formats. Full 406-page accounting,
+other bodies, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

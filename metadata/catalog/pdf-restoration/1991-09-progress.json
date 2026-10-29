@@ -887,21 +887,22 @@
       "parent_id": "maso-1991-09-toc-0004",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Contents4 title/byline and source172 independently titled 컴퓨서브의 유용한 가정정보들 / 글·윤영희 (넥서스 정보센터), with running series 컴퓨터를 이용한 정보 활용5, establish canonical0006. Parent0004 remains a non-owning category; canonical title/credit/parent and null own page reference unchanged.",
         "All seven body pages172–178 inspected, literal printed170–176. Prior165–171 are advertisements. Final178 has Hobbies/Arts menus, original screenshot, conclusion and closing mark before independent advertisement179. Current native restores only first six172–177; final178 and complete assembly remain pending.",
         "All six full mapped pages,53 original/two extended crops reviewed before42 initial recognitions; all raw drafts read before one source correction pass, zero retries. Original nine menu images and eighty numbered items retain explicit source row/column positions, including AP two-column layout. Eight explicit column/page joins, independent quotation/byline and original house/village illustration retained. Printed Travel Fourms/Eaasy Sabre and menu/body label variants remain literal; historical/technical/health/finance claims unverified.",
-        "Batch16 restores final178/printed176 as second immutable native:11 regions,7 blocks,4 original images, two menus/25 numbered items and original screenshot/conclusion/closing mark. One changed-conclusion crop repair before correction restores clipped right-edge characters; all7+1 drafts read before one source pass, six unchanged recognitions reused, zero unchanged-input retries. All seven pages now preserved across two natives, but complete assembly remains pending. Hobbies item11 Forum F candidate remains linked to original blemished scan pixels; printed80만/80% and other historical claims unverified."
+        "Batch16 restores final178/printed176 as second immutable native:11 regions,7 blocks,4 original images, two menus/25 numbered items and original screenshot/conclusion/closing mark. One changed-conclusion crop repair before correction restores clipped right-edge characters; all7+1 drafts read before one source pass, six unchanged recognitions reused, zero unchanged-input retries. All seven pages now preserved across two natives, but complete assembly remains pending. Hobbies item11 Forum F candidate remains linked to original blemished scan pixels; printed80만/80% and other historical claims unverified.",
+        "Batch17 completes actual two-native CompuServe172–178 assembly:64 regions,41 blocks,15 original figures and49 regional text occurrences. Both independent exports contain235 exact files, including227 unchanged native files and exact complete original metadata. All1,321 current ranges validate:193 core,1,112 metadata and16 resolution ranges. Eleven menus/105 numbered items/four headers,31 source headings,436 reading rows and AP13 items/seven rows/two columns remain source-linked. Hobbies177/178 section association explicit, zero prose joins. All64 crops,49 settings,64 decoded PNGs,three ZIPs and five invalid-input guards pass. Fresh-process check/rebuild matches all235 files. No new mapping/OCR/source correction, core change or reader rebuild. Source F candidate and historical/technical/claim/human limits remain explicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-15-r01/compuserve-a",
+        "directory": "archive/pdf/1991-09/packages/compuserve-complete-r01",
         "article_id": "scan-maso-1991-09-toc-0006",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-15-r01/compuserve-a/manifest.json",
-          "sha256": "0dcd4b39339938728e89b5929e4534463a492a863aecdcadf2b34fed629b8b99",
-          "bytes": 32430
+          "path": "archive/pdf/1991-09/packages/compuserve-complete-r01/manifest.json",
+          "sha256": "b743af0b30b9b5fa7ffc241480cc472ece4a8eaaa61090426e00b35f85c6f619",
+          "bytes": 42964
         },
         "coverage": {
           "pdf_pages": [
@@ -910,7 +911,8 @@
             174,
             175,
             176,
-            177
+            177,
+            178
           ],
           "printed_pages": [
             "170",
@@ -918,29 +920,29 @@
             "172",
             "173",
             "174",
-            "175"
+            "175",
+            "176"
           ],
-          "regions": 53,
-          "blocks": 34,
-          "figures": 11,
-          "deferred_pdf_pages": [
-            178
-          ]
+          "regions": 64,
+          "blocks": 41,
+          "figures": 15,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-15/validation.json",
-          "sha256": "252c9f8a2714a1dae4c79ee32293f9be42444e46d54fc8968c7662b18cdb46ea",
-          "bytes": 1939
+          "path": "archive/pdf/1991-09/restoration/batch-17/validation.json",
+          "sha256": "d0a4934578b9fda3c11bd538cd771c55e2c6de175e33dbeadf6951bd40f5cb9c",
+          "bytes": 2072
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-15/reproduction.json",
-          "sha256": "f37de73d47cbaa4c20ce1165f512510e2484631b4ce4ed3a506f1f210890dc49",
-          "bytes": 33495
+          "path": "archive/pdf/1991-09/restoration/batch-17/reproduction.json",
+          "sha256": "3ffacec61f732470e3fce6510160b84756667e22c2a71d304d9f56061e82248c",
+          "bytes": 44432
         },
-        "checkpoint": "batch-15",
+        "checkpoint": "batch-17",
         "native_segments": [
           {
             "name": "a",
@@ -1026,7 +1028,76 @@
           ],
           "uninspected_interior_pdf_pages": [],
           "all_source_body_pages_inspected": true,
-          "note": "All seven body pages172–178 now preserved across two immutable natives. Final178 Hobbies/Arts menus, original screenshot, conclusion/closing mark precede independent advertisement179. Hobbies introduction177 closes locally before its menu178; complete assembly must retain source-local section association without a prose join. Full seven-page assembly remains pending; availability stays partial."
+          "note": "Complete CompuServe article172–178 assembled from two immutable natives. Literal folios170–176 and canonical title/byline/parent/null own reference unchanged; actual source title/affiliation independent. Hobbies heading/introduction177 associates with menu178 without a prose join. All eleven menu images/105 numbered items/four headers and AP two-column positions remain indexed, including source F candidate. Original screenshot/conclusion/closing mark178 precede independent advertisement179. No body pages or assembly remain pending."
+        },
+        "preassembly_native_selection": {
+          "directory": "archive/pdf/1991-09/packages/batch-15-r01/compuserve-a",
+          "article_id": "scan-maso-1991-09-toc-0006",
+          "manifest": {
+            "path": "archive/pdf/1991-09/packages/batch-15-r01/compuserve-a/manifest.json",
+            "sha256": "0dcd4b39339938728e89b5929e4534463a492a863aecdcadf2b34fed629b8b99",
+            "bytes": 32430
+          },
+          "coverage": {
+            "pdf_pages": [
+              172,
+              173,
+              174,
+              175,
+              176,
+              177
+            ],
+            "printed_pages": [
+              "170",
+              "171",
+              "172",
+              "173",
+              "174",
+              "175"
+            ],
+            "regions": 53,
+            "blocks": 34,
+            "figures": 11,
+            "deferred_pdf_pages": [
+              178
+            ]
+          },
+          "body_pages_complete": false,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "validation": {
+            "path": "archive/pdf/1991-09/restoration/batch-15/validation.json",
+            "sha256": "252c9f8a2714a1dae4c79ee32293f9be42444e46d54fc8968c7662b18cdb46ea",
+            "bytes": 1939
+          },
+          "reproduction": {
+            "path": "archive/pdf/1991-09/restoration/batch-15/reproduction.json",
+            "sha256": "f37de73d47cbaa4c20ce1165f512510e2484631b4ce4ed3a506f1f210890dc49",
+            "bytes": 33495
+          },
+          "checkpoint": "batch-15"
+        },
+        "actual_start_pdf_page": 172,
+        "actual_end_pdf_page": 178,
+        "assembly": {
+          "recipe": {
+            "path": "archive/pdf/1991-09/restoration/batch-17/assembly-recipe.json",
+            "sha256": "afb5b67491210cd6131014f2f27eeb1c786e5151d6b300db6b0c99d996404028",
+            "bytes": 3369
+          },
+          "adapter": {
+            "path": "archive/pdf/1991-09/restoration/batch-17/compuserve_adapter.py",
+            "sha256": "104bc33862ee36c7a07ed3ef89f4cb8cfaa69a94eba39ef5ada001fa8da3ae22",
+            "bytes": 7682
+          },
+          "adapter_inputs": {
+            "path": "archive/pdf/1991-09/restoration/batch-17/adapter-inputs.json",
+            "sha256": "b2c86c94be44d3bea4da8c80cc014304be7cada4639a5b28a92f1355592d53e2",
+            "bytes": 18800
+          },
+          "source_metadata_format": "compuserve-1991-09-v1",
+          "native_segments": 2,
+          "original_metadata_unchanged": true
         }
       }
     },
@@ -1793,12 +1864,37 @@
         "sha256": "404e531c6e40ad23c9969db4d1405a3011ca0bd6da852aa2a06c39d3d1615e10",
         "bytes": 8013
       }
+    },
+    {
+      "name": "1991-09-batch-17",
+      "status": "complete",
+      "completed_at": "2026-10-29T20:38:11.903686+00:00",
+      "goal": "Assemble complete CompuServe172–178 with exact original metadata, projected105 menu items and Hobbies177/178 section association.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0006"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-17/validation.json",
+        "sha256": "d0a4934578b9fda3c11bd538cd771c55e2c6de175e33dbeadf6951bd40f5cb9c",
+        "bytes": 2072
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-17/reproduction.json",
+        "sha256": "3ffacec61f732470e3fce6510160b84756667e22c2a71d304d9f56061e82248c",
+        "bytes": 44432
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 4,
-    "partial": 1,
+    "readable": 5,
+    "partial": 0,
     "group_headings": 1,
     "unresolved": 23
   },
@@ -1808,21 +1904,23 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-17",
-    "goal": "Assemble complete seven-page CompuServe article172–178 from two exact immutable natives, preserving all original metadata and projecting current/native menu/heading/variant/row indexes.",
+    "name": "1991-09-batch-18",
+    "goal": "Verify canonical0007 이영식의 맥데이트 : 포스트스크립트와 새롭게 등장한 컴퓨터 슈퍼마켓 / 이영식 from unchanged contents reference226, then restore at most six actual source pages.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0006"
+      "maso-1991-09-toc-0007"
     ],
     "mapping_targets": [],
-    "known_extent": {
-      "start_pdf_page": 172,
-      "end_pdf_page": 178
-    },
+    "initial_lookup_candidates": [
+      226,
+      228,
+      224
+    ],
+    "canonical_reference": 226,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "No new mapping/OCR/source correction. Consume exact batch15 nativea and batch16-r02 nativeb, retaining original batch16-r01 metadata history and original/derived OCR provenance. No interrupted prose join: keep Hobbies heading/introduction177 and menu178 in an explicit section association with each original native context. Preserve all eleven original menu images/105 numbered items/four headers, AP two-column rows, source F candidate, independent quotation/conclusion, all title/byline/category/series/heading/literal/variant indexes, source screenshot/house/village/closing pixels and literal folios170–176. Keep thirty core modules unchanged; use a pinned local assembly adapter if needed. Independently rebuild/validate full package before readable. All other packages, parent0004 and full issue accounting/cover/export/closeout remain pending or unchanged as appropriate."
+    "note": "Lookup candidates are not body assignments or a global folio offset. Verify source title/byline/opening/ending/adjacent ownership, then map only current bounded source pages. Segment a longer body. Preserve all complete article packages and non-owning parent0004. Install pinned batch17 compuserve_adapter before complete selected-package checks; it dispatches CompuServe, barcode and notebook formats. Full406-page accounting, cover, issue export and closeout remain pending."
   }
 }
