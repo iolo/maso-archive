@@ -33,15 +33,16 @@ records below are historical and do not authorize a new rebuild.
 
 September 1991 restoration is active: one readable/sample-reviewed article,
 one partial feature and 27 unresolved identities account for 29 canonical TOC entries.
-Feature 0001 now has PDF 116–139 preserved across four immutable natives. Batch 05
-adds part III opening 134–139/printed 132–137: 227 JSON/assets files reproduce exactly.
-All 60 source crops, 789 typed ranges, 53 OCR settings and ZIP integrity validate.
-Six model profiles retain 42 independently indexed specification fields; seven original
-images and three page-boundary joins are preserved. Fifty-three initial recognitions
-and one changed-crop repair precede one source correction pass; zero unchanged-input retries.
-Main part III prose closes on 138; independent profiles and benchmark appendices continue.
-Remaining pages 140–147 and full assembly are pending. Canonical reference 124 remains unchanged
-despite the observed earlier opening. Next: restore part III 140–145, then 146–147 and assembly.
+Feature 0001 now has PDF 116–145 preserved across five immutable natives. Batch 06
+adds PDF 140–145/printed 138–143: 184 JSON/assets files reproduce exactly.
+All 62 source crops, 541 typed ranges, 38 OCR settings and ZIP integrity validate.
+Four final model profiles retain 28 specification fields; twenty display/keyboard
+comparison captions and 24 original photos are preserved. All 38 initial drafts
+were read before one source correction pass, with zero recognition retries.
+Independent source variants and two glyph uncertainty records remain explicit.
+Remaining pages 146–147 and full assembly are pending. Canonical reference 124 remains
+unchanged despite the observed earlier opening. Next: restore the two final benchmark
+pages, then assemble the complete feature from immutable natives.
 Full 406-page issue accounting, other bodies, cover and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
