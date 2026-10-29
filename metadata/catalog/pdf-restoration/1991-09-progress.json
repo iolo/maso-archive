@@ -430,7 +430,8 @@
         "Six-page opening 198–203 preserved as an immutable partial native: 59 exact regions, 41 blocks, eleven original images, three outline rows, five prose join groups, six application associations and eleven listed cases. All 48 initial drafts were read before one source correction pass, with zero retries. Patterned title, two blank blue captions and watermark-obscured prose on 201 were corrected directly from retained scans. Original barcode/bitmap glyphs and historical/technical claims remain unverified.",
         "Current market prose on 203 ends 비롯한; the left column on 205 resumes 자동인식 시스템 시장은 across the full-page POS sidebar on 204. The explicit future join is pending the next native; no source prose is discarded. Remaining 204–217 and complete assembly remain pending; eight interior pages remain uninspected.",
         "Batch 10 preserves PDF 204–209/printed 202–207 as the second immutable native: 78 regions, 50 blocks, seventeen original images, eight prose join groups and fourteen caption associations. Both intrinsic sidebars, eight numbered diagrams, fourteen label regions, six compact table cells and the original/linearized PCR formula remain source-linked. All 61 initial drafts read before one correction pass, zero retries. The interrupted 203/205 market join is attested in both native download contexts across complete POS sidebar 204. Original strat character, M row, formula order, arithmetic and physical English wraps remain literal; glyph/barcode decoding and technical claims remain unverified. Twelve feature pages preserved; remaining 210–217 and full assembly pending. Current 209 파 continues on 210 장의 with an empty separator.",
-        "Batch 11 preserves PDF 210–215/printed 208–213 as the third immutable native: 54 regions, 32 blocks, twelve original images, six prose join groups and eight caption associations. Part II devices/decoder ending, Part III title/body and complete bookstore/video case-study sidebar remain source-linked. Nine references retain their own part numbering; thirteen configuration/value occurrences preserve 80MB/360MB and 20MB/40MB independently. All 42 drafts read before one source correction pass, zero retries; five crop extensions preceded OCR. Incoming 209 파 + 210 장의 verified against separate native downloads. Eighteen pages preserved; final 216–217 and full assembly pending. The Part III figure 2 reference on 215 remains deferred to 216; no dangling prose or sidebar at this boundary."
+        "Batch 11 preserves PDF 210–215/printed 208–213 as the third immutable native: 54 regions, 32 blocks, twelve original images, six prose join groups and eight caption associations. Part II devices/decoder ending, Part III title/body and complete bookstore/video case-study sidebar remain source-linked. Nine references retain their own part numbering; thirteen configuration/value occurrences preserve 80MB/360MB and 20MB/40MB independently. All 42 drafts read before one source correction pass, zero retries; five crop extensions preceded OCR. Incoming 209 파 + 210 장의 verified against separate native downloads. Eighteen pages preserved; final 216–217 and full assembly pending. The Part III figure 2 reference on 215 remains deferred to 216; no dangling prose or sidebar at this boundary.",
+        "Batch 12 preserves final PDF 216–217/printed 214–215 as the fourth immutable native: 32 regions, nine blocks, three original images, three join groups and two caption associations. The construction/cost conclusion, original PC-POS photo, closing mark and complete supplier table retain eighteen header/body rows, ninety cells, seventeen suppliers and ten historical price occurrences. All 29 raw drafts read before one source correction pass, zero retries. Incoming Part III figure 2 reference on 215 resolves to the 216 image/caption in separate native contexts. 217 ends the feature before independent advertisement 218. All twenty body pages now preserved across four natives; full 198–217 assembly remains pending, so availability stays partial."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-09-r01/barcode-a",
@@ -585,6 +586,34 @@
               "sha256": "9449aa536ddefcf1cbb31ed4fa7c3849e32fdc8842f8b759be1001af2c771f92",
               "bytes": 1787
             }
+          },
+          {
+            "name": "d",
+            "directory": "archive/pdf/1991-09/packages/batch-12-r01/barcode-d",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-12-r01/barcode-d/manifest.json",
+              "sha256": "4dffab1ed976b7daf72f0bb28051e05bab5e9b05c16e462ce3e30100803dee44",
+              "bytes": 22037
+            },
+            "pdf_pages": [
+              216,
+              217
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-12/validation.json",
+              "sha256": "1434e97a63fd1402fc9f33a9babf59e968c1b818720c782a8326dd489e979347",
+              "bytes": 1917
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-12/reproduction.json",
+              "sha256": "210069ea2c283be77fa6851cd8716b58ada9da0d75acd00e9860e5221883d89e",
+              "bytes": 23090
+            },
+            "incoming_figure_reference": {
+              "path": "archive/pdf/1991-09/restoration/batch-12/reference-link-from-c.json",
+              "sha256": "4e1c14a7f68bb85b6899ec4d85da7aedb29cae6161cccdc6826e93176746d13c",
+              "bytes": 2320
+            }
           }
         ],
         "preserved_pdf_pages_across_natives": [
@@ -605,18 +634,17 @@
           212,
           213,
           214,
-          215
-        ],
-        "remaining_pdf_pages": [
+          215,
           216,
           217
         ],
-        "all_body_pages_preserved_across_natives": false,
+        "remaining_pdf_pages": [],
+        "all_body_pages_preserved_across_natives": true,
         "full_source_extent": {
           "start_pdf_page": 198,
           "end_pdf_page": 217,
           "uninspected_interior_pdf_pages": [],
-          "note": "All PDF 198–215 now mapped and preserved in three immutable natives. Every interior page has been viewed; final 216–217 retain prior source review but require restoration before full assembly. Part II ends 212 and Part III starts 213. Main prose and intrinsic two-case sidebar end locally on 215; 216 begins a new construction section."
+          "note": "All PDF 198–217 mapped and preserved in four immutable natives. Source closing prose/mark and complete supplier table on 217 end the feature before independent advertisement 218. Part III figure 2 reference on 215 resolves to original photo/caption on 216 through a separately pinned native link. No body-page extraction remains, but complete article assembly is still required."
         }
       }
     },
@@ -1314,6 +1342,35 @@
         "sha256": "bddd9af91eee53d6d537d28912d11fca2dad58339b4f1c25977cbd0c2f28dab4",
         "bytes": 33405
       }
+    },
+    {
+      "name": "1991-09-batch-12",
+      "status": "complete",
+      "completed_at": "2026-10-29T19:13:16.225092+00:00",
+      "goal": "Restore barcode ending 216–217 with Part III figure 2, construction/cost conclusion, closing mark and complete supplier table.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0002"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        216,
+        217
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 29,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-12/validation.json",
+        "sha256": "1434e97a63fd1402fc9f33a9babf59e968c1b818720c782a8326dd489e979347",
+        "bytes": 1917
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-12/reproduction.json",
+        "sha256": "210069ea2c283be77fa6851cd8716b58ada9da0d75acd00e9860e5221883d89e",
+        "bytes": 23090
+      }
     }
   ],
   "totals": {
@@ -1329,19 +1386,12 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-12",
-    "goal": "Restore final barcode pages 216–217, including Part III figure 2, construction/cost conclusion and supplier table, before a separate full assembly.",
+    "name": "1991-09-batch-13",
+    "goal": "Assemble complete barcode feature 198–217 from four exact immutable native packages, preserving original metadata and projecting all current/native typed indexes.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0002"
     ],
-    "mapping_targets": [
-      216,
-      217
-    ],
-    "reusable_source_review": [
-      "archive/pdf/1991-09/restoration/batch-11/source-review/pdf-216.png",
-      "archive/pdf/1991-09/restoration/batch-09/source-review/pdf-217.png"
-    ],
+    "mapping_targets": [],
     "known_extent": {
       "start_pdf_page": 198,
       "end_pdf_page": 217
@@ -1351,6 +1401,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "215 main prose and intrinsic case-study sidebar conclude locally. 216 starts a new construction section and contains Part III figure 2 referenced on 215. Preserve all source table rows/cells, original photographs and closing mark. 217 ends the whole feature before independent advertisement 218. Keep all three immutable natives and existing boundary attestations. A separate complete 198–217 assembly must consume all four natives."
+    "note": "No new mapping, OCR or source correction. Consume exact native a/b/c/d pins and their correction metadata. Apply the interrupted market 203/205 one-space join across complete POS sidebar 204, and empty 209/210 ink join. Link prior Part III figure 2 reference to final native 216 image/caption. Preserve every original native/source metadata payload, all sidebar/table/cell/price/case/diagram indexes, original photo/table/closing pixels, literal/null folios and canonical title/reference. Use a pinned local assembly adapter if required; keep thirty core modules unchanged. Independently rebuild/validate the full package before changing availability to readable. Notebook assembly uses its existing pinned batch08 adapter during all prior checks."
   }
 }

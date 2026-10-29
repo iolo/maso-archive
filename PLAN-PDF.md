@@ -33,22 +33,23 @@ records below are historical and do not authorize a new rebuild.
 
 September 1991 restoration is active: two readable/sample-reviewed articles,
 one partial feature and 26 unresolved identities account for 29 canonical TOC entries.
-Batch 11 restores barcode feature 0002's continuation, PDF 210–215, as its third
-immutable native. Eighteen of twenty pages, PDF 198–215, are now preserved.
-Part II ends on 212; the original Part III title starts on 213. The complete
-bookstore/video case-study sidebar spans 214–215 and ends locally, as does the
-main PC-system discussion. Eight caption associations and nine source references
-retain their own part numbering. Thirteen configuration/value occurrences preserve
-bookstore 80MB/360MB and video 20MB/40MB independently.
-Both exports contain 188 exact files. All 54 crops, 579 typed ranges, 42 OCR settings,
-54 decoded images and ZIP integrity pass. All 42 raw drafts were read before one
-source correction pass, with zero retries. Five crop extensions preceded OCR.
-The incoming 209/210 파/장의 continuation is verified in both native download contexts.
-Next: restore final 216–217, including Part III figure 2, construction/cost conclusion
-and supplier table, then assemble the full barcode feature in a separate checkpoint.
-The complete notebook feature 116–147 and all prior packages remain unchanged.
-Canonical titles/reference 196 and source 데이타 spelling remain independent.
-Full 406-page issue accounting, other bodies, cover, issue export and closeout remain pending.
+Batch 12 restores barcode feature 0002's ending, PDF 216–217, as its fourth
+immutable native. All twenty source pages, PDF 198–217, are now preserved.
+The final construction/cost prose, Part III figure 2, closing mark and complete
+supplier table retain eighteen header/body rows, ninety cells, seventeen suppliers
+and ten historical price occurrences. The figure 2 reference on 215 is linked to
+the original photo/caption on 216 in both native download contexts. Source 217 ends
+the feature before independent advertisement 218; no body-page extraction remains.
+Both exports contain 127 exact files. All 32 crops, 669 typed ranges, 29 OCR settings,
+32 decoded images and ZIP integrity pass. All 29 raw drafts were read before one
+source correction pass, with zero retries. Prior packages and thirty core modules
+remain unchanged. Availability stays partial until complete article assembly.
+Next: assemble the complete 198–217 barcode feature from all four immutable natives,
+including both native prose joins, full sidebars, table/cell/price/case/diagram indexes
+and original source metadata. No new mapping, OCR or source correction is needed.
+The complete notebook feature 116–147 remains unchanged. Canonical titles/reference
+196 and source 데이타 spelling remain independent. Full 406-page issue accounting,
+other bodies, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
