@@ -27,26 +27,25 @@ paired OCR or a new engine comparison.
   five non-owning headings, two section references and zero unresolved identities out of 35.
   All canonical article bodies, actual assemblies and child-anchor projections are complete.
   Community complete package: `archive/pdf/1991-08/packages/community-complete-r01`
-  (584 independently exact files, including all576 unchanged native files).
+  (584 independently exact files, including all 576 unchanged native files).
 
-  Whole-issue ownership has211 selected body pages/211 assignments, no shared body pages
-  and21 mixed exclusions. Batch70 directly reviews twenty outside pages:
-  191–203,211,225,239,250–253. All are advertisements with null observed folios.
-  Cumulative outside review covers140 pages. Accounting now has351 of383 content records
-  and32 outside pages pending; an independent reconstruction is byte-identical. All earlier
-  one hundred twenty observations and211 body assignments remain unchanged. PDF191 confirms
-  the HYCOM promotion from190; its original observation stays unchanged. BASIC0004 retains its
-  legacy adoption validation/current-identity guard. Unlisted material stays outside the queue.
+  Whole-issue ownership has 211 selected body pages/211 assignments, no shared body pages
+  and 21 mixed exclusions. Batch71 directly reviews twenty outside pages:
+  254–259,269,280–283,297–299,305–307,323,349,354. All are advertisements with null observed folios.
+  Cumulative outside review covers 160 pages. Accounting now has 371 of 383 content records
+  and 12 outside pages pending; an independent reconstruction is byte-identical. All earlier
+  140 outside observations and 211 body assignments remain unchanged. Publisher pages280–283
+  include preface-excerpt advertising; no independent article is inferred. BASIC0004 retains
+  its legacy adoption validation/current-identity guard. Unlisted material stays outside the queue.
 
-  No new article export, mapping, OCR or source correction. Nine new3000px renders and
-  eleven retained3000px views support the twenty declared lookups. All 40,317 prior archive files
-  and thirty core modules remain exact; unchanged213-test baseline reused. All35 canonical
-  outcomes remain unchanged. Body prose, embedded lettering/handwriting, uncertain glyph
-  encoding/counts, human acceptance/full proofreading and source claims remain unverified;
-  volunteer work remains explicit.
-  Next batch71 reviews outside254–259,269,280–283,297–299,305–307,323,349,354 within the twenty-page limit.
-  Resume `archive/pdf/1991-08/restoration/batch-70/handoff.json`.
-  Full383-page accounting, standalone issue index/report, cover, independent rebuilds and
+  No new article export, mapping, rendering, OCR or source correction. Twenty retained
+  3000px views support the declared lookups. All 40,356 prior archive files and thirty
+  core modules remain exact; unchanged 213-test baseline reused. All 35 canonical outcomes
+  remain unchanged. Body prose, embedded lettering/handwriting, uncertain glyph encoding/counts,
+  human acceptance/full proofreading and source claims remain unverified; volunteer work remains explicit.
+  Next batch72 reviews the final twelve outside pages:355,358–361,367,377,379–383.
+  Resume `archive/pdf/1991-08/restoration/batch-71/handoff.json`.
+  Full 383-page accounting, standalone issue index/report, cover, independent rebuilds and
   closeout remain required. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.
