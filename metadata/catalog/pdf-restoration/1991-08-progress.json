@@ -2883,7 +2883,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0032 information-radar and child0046 five-topic list match source contents5 and independent divider89. The divider has no visible folio; canonical103 remains literal. Its topic references104,112,118,123,124 remain separate from observed folios. Page88 is a full independent book advertisement;90 opens 국내뉴스 at visible104. No global page offset or final extent inferred.",
@@ -2892,45 +2892,82 @@
         "All32 initial crops, twelve first refinements and one final IBM-heading refinement were reviewed before23 initial recognitions. Every raw draft was read before one source pass; zero retries, added regions or post-OCR changes. All35,235 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused.95 onward, full news extent and final parent assembly remain pending.",
         "Batch56 restores second native95–100/109–114 in 114 independently exact files. All 37 source-pixel crops, 23 pinned kor+eng settings and 311 typed ranges validate. Five full original pages, separate97 body/folio images and seven photo/screen originals retain complete eligible body pixels. Lower97 subscription advertisement excluded; unmasked source retained. Incoming domestic-n16 closes on95; eight new domestic starts17–24 and five foreign starts01–05 retain 27 body-image fragments, thirteen internal continuations, seven caption links and outgoing Norton report100→101. Domestic ends97/111; foreign opens98/112. Fourteen uncertainties and nine opaque variants remain active. All37 initial crops and eight refinements reviewed before23 initial recognitions; all raw drafts before one source pass; zero retries or post-OCR changes. The first full-page/excluded-ad mapping attempt is retained; a fresh helper uses disjoint97 body/folio crops. One provisional multimedia/Norton column-flow note is explicitly corrected in active correction metadata, with all original frozen maps/notes retained. All35,617 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused. Opening89–94 remains immutable; 223 native files preserve89–100.101 onward, full news extent, final assembly and child0046 anchor projection remain pending. Body transcription and embedded image lettering await volunteers; no reader rebuild.",
         "Batch57 restores third native101,102,104–107 in 99 independently exact files. All 34 source-pixel crops, 19 pinned kor+eng settings and 315 typed ranges validate. Six complete original pages, seven captioned separate images and two uncaptioned originals retain all body/graphic/folio pixels. The initial proposed map page103 is an independent unlisted seminar promotion;107 replaces it as the sixth eligible page. Twelve outside lookups establish full22-page source extent89–102 plus104–111, ending111/125 before112–115 advertisements and separate feature116. Four new foreign starts06–09 and five software starts01–05 retain33 body-image fragments,24 internal continuations, incoming Norton tail and outgoing GGOMA panel107→108. Screens104/105 precede their review headings105/106; interleaved public-software panels and main four-column reviews remain separate. All14 chip-caption physical rows, six source-claim fields, nineteen uncertainties and nine opaque variants retained without semantic or historical repair. All34 initial crops and nine refinements reviewed before19 initial recognitions; all raw drafts before one source pass; zero retries, added regions or post-OCR changes. All36,012 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused. Three actual immutable natives preserve eighteen eligible pages in322 files. Final108–111 and actual four-native assembly/child0046 anchor projection pending. Body/embedded lettering transcription awaits volunteers; no reader rebuild.",
-        "Batch58 restores final news108–111/122–125 in132 independently exact files. All43 source-pixel crops,27 pinned kor+eng settings and877 typed occurrences validate. Four complete page images, two captioned screens, seven covers and three original tables retained. Two new software starts and seven book reviews retain16 body-image fragments and seven internal continuations; incoming GGOMA tail closes108. Eleven event rows retain52 fields including eight headers. Seven book reviews retain28 author-role/price/page-count/publisher fields as book credits, not parent bylines. Integrated books table retains six logical entries, seven physical data rows,22 nonblank cells and two blank continuation positions. Five vertical title syllables, physical author/title wraps,23 uncertainties and ten variants remain scan-linked. All43 initial crops and14 refinements reviewed before27 recognitions; every raw draft read before one source pass; zero retries, added regions or post-OCR changes. All36,369 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused. Four immutable natives now preserve all22 eligible body pages in454 exact files. Actual four-native parent assembly and child0046 anchor projection required before parent readable. Body/embedded lettering transcription pending volunteers; no reader rebuild. Original failed verifier retained: its incorrect prior GGOMA title expectation was corrected in verify-r01.py after inspecting the unchanged native title; no source transcription or package changed. Unexecuted run-ocr.py draft has a year-path replacement error; executed run-ocr-r01.py pins the actual1991-08 archive."
+        "Batch58 restores final news108–111/122–125 in132 independently exact files. All43 source-pixel crops,27 pinned kor+eng settings and877 typed occurrences validate. Four complete page images, two captioned screens, seven covers and three original tables retained. Two new software starts and seven book reviews retain16 body-image fragments and seven internal continuations; incoming GGOMA tail closes108. Eleven event rows retain52 fields including eight headers. Seven book reviews retain28 author-role/price/page-count/publisher fields as book credits, not parent bylines. Integrated books table retains six logical entries, seven physical data rows,22 nonblank cells and two blank continuation positions. Five vertical title syllables, physical author/title wraps,23 uncertainties and ten variants remain scan-linked. All43 initial crops and14 refinements reviewed before27 recognitions; every raw draft read before one source pass; zero retries, added regions or post-OCR changes. All36,369 pre-OCR archive files and thirty core modules exact; unchanged213-test baseline reused. Four immutable natives now preserve all22 eligible body pages in454 exact files. Actual four-native parent assembly and child0046 anchor projection required before parent readable. Body/embedded lettering transcription pending volunteers; no reader rebuild. Original failed verifier retained: its incorrect prior GGOMA title expectation was corrected in verify-r01.py after inspecting the unchanged native title; no source transcription or package changed. Unexecuted run-ocr.py draft has a year-path replacement error; executed run-ocr-r01.py pins the actual1991-08 archive.",
+        "Batch59 completes actual namespaced-v1 assembly of all four news natives:22 eligible pages89–102 plus104–111,462 independently exact files including all454 unchanged native files. All146 source-pixel crops,92 pinned kor+eng settings and1839 native/projected typed occurrences validate;1655 retained source-local and184 root combined occurrences checked independently. The combined reading index validates345 typed occurrences after explicitly resolving all five topic targets and projecting97 exclusion identity; all original stage flags remain in native metadata.47 item starts (24 domestic,nine foreign,seven software,seven book reviews),106 body-image fragments and59 continuations include all three cross-native links:domestic-n16 94→95,Norton foreign-f05 100→101,GGOMA software-s05 107→108. No body text joined or inferred.19 caption associations,31 separate images,71 uncertainties,33 opaque variants,11 event rows/52 fields,28 book metadata fields and six-entry/seven-physical-row books table/22 nonblank fields/two continuation blanks retained. Book credits remain distinct from parent byline. Lower97 subscription ad excluded;body/folio reconstruction equals masked source.103 seminar promotion outside body;divider89 folio null,canonical103 literal;111/125 ends before112–115 ads and separate feature116. The earlier three multimedia/Norton flow correction records stay active and immutable. Child0046 p089-topics projects to actual radar-a-p089-topics without duplicate bodies. Eight exact obsolete native-stage notes resolved;source limitations retained. Zero new mapping,OCR or source correction. All36735 prior archive files and thirty core modules exact; unchanged213-test baseline reused. Failed verifier revisions retain mistaken render-record and old metadata-name assumptions; current verify-r02.py checks actual retained source revisions and both explicit photo/image-lettering field names. Body prose/embedded image lettering transcription, human acceptance/full proofreading and historical claims remain unverified. No reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-08/packages/batch-58-r01/radar-d",
+        "directory": "archive/pdf/1991-08/packages/information-radar-complete-r01",
         "article_id": "scan-maso-1991-08-toc-0032",
         "manifest": {
-          "path": "archive/pdf/1991-08/packages/batch-58-r01/radar-d/manifest.json",
-          "sha256": "be9b87e5169ef4af4e6b60ba8768d43e1fb57214abe8ee1941d8c09552446e1a",
-          "bytes": 22756
+          "path": "archive/pdf/1991-08/packages/information-radar-complete-r01/manifest.json",
+          "sha256": "4bdd235b6f2342e12a0763aa00d3530ac327dd09c44b9867e4bee52371e760dc",
+          "bytes": 86601
         },
         "source_body_title": "정보레이다",
         "source_byline": null,
         "canonical_page_reference": "103",
         "coverage": {
           "pdf_pages": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            104,
+            105,
+            106,
+            107,
             108,
             109,
             110,
             111
           ],
           "printed_pages": [
+            null,
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "118",
+            "119",
+            "120",
+            "121",
             "122",
             "123",
             "124",
             "125"
           ],
-          "regions": 43,
-          "blocks": 27,
-          "figures": 16,
-          "excluded_regions": 0,
+          "regions": 146,
+          "blocks": 92,
+          "figures": 54,
+          "excluded_regions": 1,
           "deferred_pdf_pages": [],
           "additional_deferred_extent_unknown": false,
-          "native_scope_only": true
+          "native_scope_only": false
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "native_body_pages_complete": true,
         "all_body_pages_preserved_across_natives": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "full_source_extent_verified": true,
         "full_source_extent": {
           "pdf_pages": [
@@ -3123,9 +3160,9 @@
           }
         ],
         "native_stage_history": {
-          "path": "archive/pdf/1991-08/restoration/batch-57/ledger-complete.json",
-          "sha256": "67165f56ba9b5056e93e0162bb6d0453e422fae9379a502c1025b7f2f256a57f",
-          "bytes": 259278
+          "path": "archive/pdf/1991-08/restoration/batch-58/ledger-complete.json",
+          "sha256": "ae6eedc78492eb22a76cc22fe013fe3c7978a97c8caf80520d101d3920334abb",
+          "bytes": 263766
         },
         "preserved_pdf_pages": [
           89,
@@ -3201,15 +3238,7 @@
           "ending_printed_page": "122",
           "ending_native_pending": false
         },
-        "incoming_body_boundary": {
-          "story_id": "software-s05",
-          "from_pdf_page": 107,
-          "to_pdf_page": 108,
-          "body_tail_complete": true,
-          "left_tail_candidate": "타",
-          "right_prefix_candidate": "원,",
-          "assembled": false
-        },
+        "incoming_body_boundary": null,
         "outgoing_body_boundary": null,
         "prior_source_flow_correction": {
           "path": "archive/pdf/1991-08/restoration/batch-56/source-flow-correction.json",
@@ -3217,17 +3246,17 @@
           "bytes": 3633
         },
         "validation": {
-          "path": "archive/pdf/1991-08/restoration/batch-58/validation.json",
-          "sha256": "533e820b260952720693ba9e279d84af795d221f93a241682a974cc1d9225ea2",
-          "bytes": 2961
+          "path": "archive/pdf/1991-08/restoration/batch-59/validation.json",
+          "sha256": "fd09b0b0e212dc85e3445987078d2ebafccd39d563ddfc65bdeec2dbea2d0135",
+          "bytes": 3388
         },
         "reproduction": {
-          "path": "archive/pdf/1991-08/restoration/batch-58/reproduction.json",
-          "sha256": "f16df7de686a6522118ba5f89c6e4167b48c3f1cb5ffb280ce14790a2317ed88",
-          "bytes": 23501
+          "path": "archive/pdf/1991-08/restoration/batch-59/reproduction.json",
+          "sha256": "5dcb6eeabd862d67b32885ce083d919349c6303cc302ca8811b04211be6bfade",
+          "bytes": 87714
         },
         "private_adapter_required": false,
-        "checkpoint": "batch-58",
+        "checkpoint": "batch-59",
         "observed_book_review_starts": 7,
         "events_section": {
           "pdf_page": 109,
@@ -3252,6 +3281,42 @@
           "integrated_table_physical_data_rows": 7,
           "integrated_table_nonblank_fields": 22,
           "integrated_table_continuation_blanks": 2
+        },
+        "native_files_retained": 454,
+        "assembly_format": "namespaced-v1",
+        "resolved_cross_native_body_links": 3,
+        "assembled_body_image_fragments": 106,
+        "assembled_body_continuations": 59,
+        "child0046_final_anchor_projection_pending": false,
+        "reading_index": {
+          "path": "archive/pdf/1991-08/restoration/batch-59/news-reading-index-r01.json",
+          "sha256": "1d5f391c1e7e698c70ecca4d48d9bb42c4abbfda708cda8e86c3275b45a36917",
+          "bytes": 500977
+        },
+        "child_section_projection": {
+          "path": "archive/pdf/1991-08/restoration/batch-59/child-section-projection-r01.json",
+          "sha256": "fbe0701549062443134d595978a8377d7511ca4332b781bbe8935f32283880bc",
+          "bytes": 13393
+        },
+        "reading_index_completion": {
+          "path": "archive/pdf/1991-08/restoration/batch-59/reading-index-completion.json",
+          "sha256": "4897fc1a9564c9e29ffcc45cc7541dd5c7d78d9bb9173c99111a6c97d2a759b9",
+          "bytes": 1478
+        },
+        "source_continuity": {
+          "path": "archive/pdf/1991-08/restoration/batch-59/source-continuity.json",
+          "sha256": "7a9f9e0be566b5e41c54b2116b5f4f54ca00a092b9e0ffa6837e002666c2c689",
+          "bytes": 97304
+        },
+        "range_context_projection": {
+          "path": "archive/pdf/1991-08/restoration/batch-59/range-context-projection.json",
+          "sha256": "1b4eb4f0248833acdd8a7bad3ecb4ee92e98e398a3334ef6eae722a6b88cb918",
+          "bytes": 1307663
+        },
+        "assembly_recipe": {
+          "path": "archive/pdf/1991-08/restoration/batch-59/assembly-recipe.json",
+          "sha256": "afaed6674bc77a894d6b16711e1f1916ba1f2bc5734612b6d7c2c870db734df0",
+          "bytes": 10509
         }
       }
     },
@@ -3265,22 +3330,44 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical child0046 is one pageless topic-list reference under0032. The five printed divider rows identify subdivisions of the parent news bundle, not five additional canonical articles or a separate duplicate body. Source 이 달의 행사 remains distinct from canonical 이 달의 행사안내. Only domestic opening90/104 independently located so far; remaining topic locations and full extent pending.",
-        "All five printed topic labels and intrinsic references preserve exact native text ranges and original divider image. Canonical child title, null page reference and parent unchanged. Child owns no duplicate body; final parent assembly must project its anchor."
+        "All five printed topic labels and intrinsic references preserve exact native text ranges and original divider image. Canonical child title, null page reference and parent unchanged. Child owns no duplicate body; final parent assembly must project its anchor.",
+        "Batch59 projects original native p089-topics to actual assembled parent radar-a-p089-topics. All five source topic references104,112,118,123,124 now link to verified openings90,98,104,109,110. Original stage notes/flags/classification remain provenance. Canonical child title,null page reference and parent unchanged; child remains non-owning with no duplicate body. Final assembly anchor projection complete."
       ],
       "restoration": null,
       "body_owner_toc_entry_id": "maso-1991-08-toc-0032",
       "section": {
-        "anchor": "p089-topics",
-        "anchor_scope": "native-parent",
+        "anchor": "radar-a-p089-topics",
+        "anchor_scope": "assembled-parent",
         "heading_pdf_page": 89,
-        "final_assembly_anchor_projection_pending": true
+        "final_assembly_anchor_projection_pending": false,
+        "native_anchor_provenance": {
+          "anchor": "p089-topics",
+          "anchor_scope": "native-parent",
+          "heading_pdf_page": 89,
+          "final_assembly_anchor_projection_pending": true
+        },
+        "native_parent_manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-55-r01/radar-a/manifest.json",
+          "sha256": "775649306b329ea0f6fa135fcd95d44d3dd5564e476beeb28611655a10f51734",
+          "bytes": 18546
+        },
+        "parent_manifest": {
+          "path": "archive/pdf/1991-08/packages/information-radar-complete-r01/manifest.json",
+          "sha256": "4bdd235b6f2342e12a0763aa00d3530ac327dd09c44b9867e4bee52371e760dc",
+          "bytes": 86601
+        }
       },
       "classification_record": {
+        "path": "archive/pdf/1991-08/restoration/batch-59/child-section-projection-r01.json",
+        "sha256": "fbe0701549062443134d595978a8377d7511ca4332b781bbe8935f32283880bc",
+        "bytes": 13393
+      },
+      "ownership_review": "non-owning-pageless-topic-list-reference-into-news-parent",
+      "prior_classification_record": {
         "path": "archive/pdf/1991-08/restoration/batch-55/section-reference-classification.json",
         "sha256": "6aeee7d9f39aa92f18dd98ef51017899e5d6777cf30197445f3e6aa3023bac63",
         "bytes": 1450
-      },
-      "ownership_review": "non-owning-pageless-topic-list-reference-into-news-parent"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0038",
@@ -4965,186 +5052,101 @@
         "sha256": "f16df7de686a6522118ba5f89c6e4167b48c3f1cb5ffb280ce14790a2317ed88",
         "bytes": 23501
       }
+    },
+    {
+      "name": "1991-08-batch-59",
+      "status": "complete",
+      "completed_at": "2026-10-29T09:56:03.544368+00:00",
+      "goal": "Complete actual four-native news assembly and project non-owning child anchor",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0032",
+        "maso-1991-08-toc-0046"
+      ],
+      "canonical_tasks": 2,
+      "source_pages": 22,
+      "new_mapped_pages": 0,
+      "outside_lookup_pages": 0,
+      "recognition_invocations": 0,
+      "source_correction_passes": 0,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-59/validation.json",
+        "sha256": "fd09b0b0e212dc85e3445987078d2ebafccd39d563ddfc65bdeec2dbea2d0135",
+        "bytes": 3388
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-59/reproduction.json",
+        "sha256": "5dcb6eeabd862d67b32885ce083d919349c6303cc302ca8811b04211be6bfade",
+        "bytes": 87714
+      },
+      "reading_index_completion": {
+        "path": "archive/pdf/1991-08/restoration/batch-59/reading-index-completion.json",
+        "sha256": "4897fc1a9564c9e29ffcc45cc7541dd5c7d78d9bb9173c99111a6c97d2a759b9",
+        "bytes": 1478
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 26,
-    "partial": 1,
+    "readable": 27,
+    "partial": 0,
     "group_headings": 5,
     "section_references": 1,
     "unresolved": 2
   },
   "notes": [
-    "Full August issue remains active:26 readable articles, one partial news parent, five non-owning headings, one section reference and two unresolved community identities =35. Four natives preserve all22 eligible news body pages in454 exact files. Actual parent assembly and child0046 anchor projection pending. Body transcription deferred to volunteers. Community, whole-issue accounting, index, cover and closeout pending; no reader rebuild.",
+    "Full August issue remains active:27 readable articles,no partials,five non-owning headings,one non-owning section reference and two unresolved community identities =35. Full22-page news parent and actual four-native assembly complete;child0046 anchor projected. Body transcription deferred to volunteers. Community0038/0047,383-page whole-issue accounting,index,cover and closeout pending;no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-59",
-    "goal": "Assemble full22-page news parent and project child0046 topic-list anchor",
+    "name": "1991-08-batch-60",
+    "goal": "Verify and begin restoring community0038/0047 from independent divider363",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0032",
-      "maso-1991-08-toc-0046"
+      "maso-1991-08-toc-0038",
+      "maso-1991-08-toc-0047"
     ],
+    "canonical_page_reference": "377",
     "mapping_targets": [],
+    "lookup_candidates": [
+      5,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369
+    ],
     "retained_context": {
-      "native_segments": [
-        {
-          "name": "radar-a",
-          "directory": "archive/pdf/1991-08/packages/batch-55-r01/radar-a",
-          "manifest": {
-            "path": "archive/pdf/1991-08/packages/batch-55-r01/radar-a/manifest.json",
-            "sha256": "775649306b329ea0f6fa135fcd95d44d3dd5564e476beeb28611655a10f51734",
-            "bytes": 18546
-          },
-          "pdf_pages": [
-            89,
-            90,
-            91,
-            92,
-            93,
-            94
-          ],
-          "files": 109,
-          "validation": {
-            "path": "archive/pdf/1991-08/restoration/batch-55/validation.json",
-            "sha256": "addd1cde7140377bd808391dc8eacb45a8fb141b2fd6018aee450de8e67c53fd",
-            "bytes": 2314
-          },
-          "reproduction": {
-            "path": "archive/pdf/1991-08/restoration/batch-55/reproduction.json",
-            "sha256": "fae738f99310f5f884466e282a5c52fdc65922c5919afb8c8a3901d9f77ba545",
-            "bytes": 19291
-          }
-        },
-        {
-          "name": "radar-b",
-          "directory": "archive/pdf/1991-08/packages/batch-56-r01/radar-b",
-          "manifest": {
-            "path": "archive/pdf/1991-08/packages/batch-56-r01/radar-b/manifest.json",
-            "sha256": "87a9d0024484c399cb264af7be0b30630ecc6a163b3d882281bf0303e4864f82",
-            "bytes": 19493
-          },
-          "pdf_pages": [
-            95,
-            96,
-            97,
-            98,
-            99,
-            100
-          ],
-          "files": 114,
-          "validation": {
-            "path": "archive/pdf/1991-08/restoration/batch-56/validation.json",
-            "sha256": "44170de3550fb632409c1c12a90863b4e49949c4cd89aec0c9fd5fcebbbfc629",
-            "bytes": 2755
-          },
-          "reproduction": {
-            "path": "archive/pdf/1991-08/restoration/batch-56/reproduction.json",
-            "sha256": "0e29570415acbd89669219a1126f33aa593d9393d8732eb4ae4beddd8d84b355",
-            "bytes": 20238
-          }
-        },
-        {
-          "name": "radar-c",
-          "directory": "archive/pdf/1991-08/packages/batch-57-r01/radar-c",
-          "manifest": {
-            "path": "archive/pdf/1991-08/packages/batch-57-r01/radar-c/manifest.json",
-            "sha256": "c791f73e65e6e0f8ca718c13f236146984b87b92d1d563404fd78d8ca52d855f",
-            "bytes": 17051
-          },
-          "pdf_pages": [
-            101,
-            102,
-            104,
-            105,
-            106,
-            107
-          ],
-          "files": 99,
-          "validation": {
-            "path": "archive/pdf/1991-08/restoration/batch-57/validation.json",
-            "sha256": "a44e0b77d8a8cfcff4235f5887ed170b547556dd7cd96ce1de602471e7d2909a",
-            "bytes": 2789
-          },
-          "reproduction": {
-            "path": "archive/pdf/1991-08/restoration/batch-57/reproduction.json",
-            "sha256": "ee52fc3d386b3d5ce6cef782cde6fa986e54e2ad0bc538617577c6bbbbaaeeb8",
-            "bytes": 17796
-          }
-        },
-        {
-          "name": "radar-d",
-          "directory": "archive/pdf/1991-08/packages/batch-58-r01/radar-d",
-          "manifest": {
-            "path": "archive/pdf/1991-08/packages/batch-58-r01/radar-d/manifest.json",
-            "sha256": "be9b87e5169ef4af4e6b60ba8768d43e1fb57214abe8ee1941d8c09552446e1a",
-            "bytes": 22756
-          },
-          "pdf_pages": [
-            108,
-            109,
-            110,
-            111
-          ],
-          "files": 132,
-          "validation": {
-            "path": "archive/pdf/1991-08/restoration/batch-58/validation.json",
-            "sha256": "533e820b260952720693ba9e279d84af795d221f93a241682a974cc1d9225ea2",
-            "bytes": 2961
-          },
-          "reproduction": {
-            "path": "archive/pdf/1991-08/restoration/batch-58/reproduction.json",
-            "sha256": "f16df7de686a6522118ba5f89c6e4167b48c3f1cb5ffb280ce14790a2317ed88",
-            "bytes": 23501
-          }
-        }
-      ],
-      "full_extent_verified": true,
-      "full_pdf_pages": [
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111
-      ],
-      "source_extent_review": {
-        "path": "archive/pdf/1991-08/restoration/batch-57/source-extent-reviewed.json",
-        "sha256": "d9f3e9c29aa4c72cfb5c65f6cea06c7cbd29f3dd9b2b0b36cccec9db9f8198f1",
-        "bytes": 9053
+      "source_review_directory": "archive/pdf/1991-08/restoration/batch-53/source-review",
+      "reviewed_divider": {
+        "pdf_page": 363,
+        "printed_folio": null,
+        "intrinsic_references": [
+          "378",
+          "382",
+          "386",
+          "387",
+          "389"
+        ]
       },
-      "final_native_review": {
-        "path": "archive/pdf/1991-08/restoration/batch-58/source-extent-reviewed.json",
-        "sha256": "825479a205d997397a7bbe51cd59fe1499e75e9e079ae0912d507c56bb572e6f",
-        "bytes": 4480
+      "prepared_uninspected_pages": [
+        364
+      ],
+      "prior_source_extent_review": {
+        "path": "archive/pdf/1991-08/restoration/batch-54/source-extent-reviewed.json",
+        "sha256": "c31b4c35d736b92abd42b56b3286a9c7613d379f2c8ff7f99df04b4d204a70e9",
+        "bytes": 2456
       },
-      "final_child_anchor_projection_pending": true,
-      "assembly_format": "namespaced-v1",
-      "source_local_extra_metadata": true
+      "full_extent_verified": false
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Assemble actual four immutable radar-a/b/c/d news natives with namespaced-v1, preserving all454 native files and full22-page extent89–102 plus104–111. No new mapping, OCR or source correction. Validate every native typed occurrence in its native context, every source-local extra metadata occurrence under segments[].original_metadata, and all globally projected typed occurrences independently. Preserve all body-image story/review/section/column/page continuations, table rows/cells/blank positions, book credits, physical wraps, uncertainties and original images. Resolve all three cross-native boundaries by exact source identity: domestic-n16 94→95; foreign-f05 Norton100→101; software-s05 GGOMA107→108. Keep original source-scope notes as provenance, with explicit active assembled resolutions; retain batch56 multimedia/Norton source-flow correction. Original lower97 subscription advertisement remains excluded with separate body/folio images;103 seminar promotion stays outside news body. Divider89 visible folio remains null and canonical103 literal. News extent ends111/125 before112–115 advertisements and separate feature116. Project child0046 native p089-topics anchor to actual assembled parent block, retain original native anchor provenance, and keep child non-owning without duplicate bodies. Parent availability can become readable/sample-reviewed only after actual complete assembly and exhaustive audits; body prose/embedded lettering transcription stays pending volunteers. Verify independent rebuild and all prior archive/core pins, update parent/child and public docs, commit bounded checkpoint. Community0038/0047,383-page whole-issue accounting,index,cover and closeout remain required. No reader rebuild or successful frozen-helper reruns."
+    "note": "Read PLAN-OCR. Verify remaining canonical community0038 애독자 광장, literal contentsreference377, and pageless child0047 list against contents5 and retained source. Source363 independent divider already reviewed with no visible folio;intrinsic references378,382,386,387,389 are literal. Source364 was prepared but remains uninspected. Reuse batch53 source-review363/364 and batch54 source-extent review;362 is the completed independent editorial outside community body. Do not infer a global folio offset or extent. Start bounded source review363–368 plus contents5/neighbor362;extend rightward only as needed within20 outside-map lookups and at most six mapped source pages. Source ends383;any full-tail review362–383 plus5 must still respect actual mapped/outside accounting. Verify every eligible body page,section/item headings,source folios,ending,ads and adjacent material before classification/mapping. Preserve35 canonical identities/order/parents;child0047 is one pageless list,not seven new canonical identities. Determine source ownership without duplicating parent/child bodies. Use established readable original-body-image treatment with searchable headings/captions/tables/metadata where appropriate; body or embedded lettering transcription limits remain explicit. Preserve reader-credit/contact values,source spelling,physical wraps,uncertain glyph candidates and all printed claims without repair or historical/contact verification. Every exact final crop before pinned mapped Tesseract;all raw drafts before one source pass. Segment longer eligible material,then actual immutable-native assembly and final anchor projection if required. News0032/0046 is complete and immutable,including all454 native files and462 assembled files plus companion reading/projection evidence. Full383-page accounting,index,cover and closeout still required. No reader rebuild or successful frozen-helper reruns."
   }
 }

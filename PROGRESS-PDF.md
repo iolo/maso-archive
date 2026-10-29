@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty-six readable/sample-reviewed articles,
-one partial news parent, five headings, one section reference and two unresolved community
-identities =35. Final news108–111 native is at `packages/batch-58-r01/radar-d`:
-132 independent files,43 exact source crops,27 settings and877 typed ranges validate.
-Original body pages, two captioned screens, seven covers and three tables retained;
-body and embedded lettering transcription pending volunteers. Eleven event rows/52 fields,
-seven book reviews/28 metadata fields and six-entry books table/22 nonblank fields retain
-physical wraps and continuation blanks. Four immutable natives preserve all22 eligible
-news pages89–102 plus104–111 in454 files. Next batch59 performs actual parent assembly
-and child0046 anchor projection without new OCR. Community, whole-issue accounting,
-index, cover and closeout remain pending. No reader rebuild.
+August 1991 remains in progress: twenty-seven readable/sample-reviewed articles,
+no partials, five headings, one section reference and two unresolved community identities =35.
+News0032 is complete across22 eligible pages89–102 plus104–111 in
+`packages/information-radar-complete-r01`:462 independently exact files including454
+immutable native files. All146 source crops,92 settings,1,839 native/projected typed
+occurrences,1,655 local occurrences,184 root occurrences and345 final reading-index ranges
+validate.47 starts/106 body fragments/59 continuations and child0046 anchor projection
+are complete. Body prose and embedded lettering remain pending volunteers. Source errors,
+uncertainties, table cells, book credits, physical wraps and continuation blanks stay literal.
+Next batch60 verifies community0038/0047 from divider363;364 prepared but uninspected.
+Whole-issue383-page accounting, index, cover and closeout pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
