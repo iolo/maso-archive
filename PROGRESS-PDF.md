@@ -6,20 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty-one readable/sample-reviewed articles, no
-partials, five non-owning headings and nine unresolved identities. Batch45 classifies
-hardware parent0025 as non-owning and completes memory-expansion child0026 at
-PDF324–329/printed338–343 in `packages/batch-45-r01/memory`: 276 independently exact
-files, 73 source-pixel crops, 65 pinned settings and 4,298 typed ranges validated.
-Two diagrams retain 69 independent labels; all 130 uncertainties and 23 opaque variants
-remain active. Actual 박주희 기자 and canonical 편집부 credits remain distinct. All
-29,793 saved input-stage files, 29,867 other pre-existing resumption files and thirty
-core modules remain exact; the active-log pin exception has a closed-log supplement.
-The unchanged 213-test baseline is reused. Current batch46 verifies coprocessor child0027 at PDF330–337/printed344–351. Next
-map first330–335; final336–337 and actual full assembly follow separately. No new
-mapping, OCR or outcome change yet. Lower337 advertisement belongs outside the
-ending native;351 folio retained. Whole-issue accounting, index, cover and closeout
-remain pending. No reader rebuild.
+August 1991 remains in progress: twenty-one readable/sample-reviewed articles,
+one partial, five non-owning headings and eight unresolved identities. Batch46 restores
+coprocessor0027's first pages330–335/344–349 in `packages/batch-46-r01/copro-a`: 263 independently
+exact files, 72 source-pixel crops, 61 settings and 5,130 typed ranges validated. All 271
+diagram/table fields, 398 uncertainties, 18 opaque variants and four montage markers
+remain active. Next batch47 restores final336–337, excluding the lower337 advertisement
+and retaining folio351; actual full two-native assembly follows separately. The empty
+separator for335수→336십 is declared. All 30,802 pre-OCR archive files and thirty
+core modules remain exact; the unchanged 213-test baseline is reused. Whole-issue accounting, index,
+cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

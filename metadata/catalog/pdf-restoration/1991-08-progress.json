@@ -2390,12 +2390,80 @@
       "toc_entry_id": "maso-1991-08-toc-0027",
       "title": "수치보조 프로세서와 그 응용",
       "parent_id": "maso-1991-08-toc-0025",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical contents identity and author match independent330/344 opening: 수치보조 프로세서와 그 응용, 글. 성기철 (인하대 전자공학과). Parent하드웨어 is non-owning; editorial standfirst credit remains separate.",
+        "All eight source pages330–337/344–351 reviewed. Upper337 emulator conclusion and terminal ornament end the article; lower back-issue advertisement is unrelated.338 opens independent 하드웨어 구성소자들; its full extent remains unverified.",
+        "First330–335 native only:263 independently identical files,72 exact source-pixel crops,61 pinned kor+eng settings and5,130 typed range occurrences validate.52 blocks,11 original images,ten caption associations,six prose joins/nine boundaries,271 spatial fields/100 reading rows retained. Final336–337 andactual two-native assembly remain pending.",
+        "Register bits/rows,24 stack row numbers,six-state register/memory matrix,seven data formats andtwo complete tables indexed occurrence by occurrence.46 instruction fields,16 source claims,eight physical wraps andnine boundary fields retained.398 uncertainty records,18 opaque variants andfour unknown-count montage markers remain active. Literal FLY2XP1,T×log₂(X+1),bit ordering,exponents,source grammar andclaims are not repaired or executed.",
+        "All72 initial crops,66 first refinements andeight second refinements individually viewed before61 initial recognitions. All61 raw drafts read beforeone source correction pass;zero retries,added regions orpost-OCR crop changes. All30,802 saved pre-OCR archive files andthirty core modules remain exact;unchanged213-test baseline reused. Standard outgoing335수→336십 continuation has empty separator andassembled=false."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-46-r01/copro-a",
+        "article_id": "scan-maso-1991-08-toc-0027",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-46-r01/copro-a/manifest.json",
+          "sha256": "a3806fc20ef971b2e9c3ffec4de10669932674c0d3c9329bc01b7396acaa7883",
+          "bytes": 46195
+        },
+        "source_body_title": "수치보조 프로세서와 그 응용",
+        "source_series_title": "하드웨어",
+        "source_byline": "글. 성기철 (인하대 전자공학과)",
+        "canonical_byline_candidate": "성기철",
+        "coverage": {
+          "pdf_pages": [
+            330,
+            331,
+            332,
+            333,
+            334,
+            335
+          ],
+          "printed_pages": [
+            "344",
+            "345",
+            "346",
+            "347",
+            "348",
+            "349"
+          ],
+          "regions": 72,
+          "blocks": 52,
+          "figures": 11,
+          "excluded_regions": 0,
+          "deferred_pdf_pages": [
+            336,
+            337
+          ]
+        },
+        "body_pages_complete": false,
+        "native_body_pages_complete": true,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "full_source_extent": {
+          "start_pdf_page": 330,
+          "end_pdf_page": 337,
+          "ending_printed_page": "351",
+          "following_pdf_page": 338,
+          "following_role": "Independent hardware-basics child opening; full extent unverified.",
+          "ending": "Upper337 emulator conclusion/terminal ornament; lower unrelated back-issue advertisement must be excluded by ending native."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-46/validation.json",
+          "sha256": "a3c3c69897b230eae318752b7bf2e6aea462ec7fdbb9591cb6cffa07d4f1385c",
+          "bytes": 2390
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-46/reproduction.json",
+          "sha256": "a103b5f40815bde40a08654b95f2a88d8eb9633e60bd6b4d72c4e1894b0cfc4f",
+          "bytes": 46941
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-46"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0028",
@@ -3739,66 +3807,111 @@
         "sha256": "e36ae96b48e6d2c4198cb424a2e8efcc6be5dde7f96ac9685402e5c7b889f448",
         "bytes": 894
       }
+    },
+    {
+      "name": "1991-08-batch-46",
+      "status": "complete",
+      "completed_at": "2026-10-29T04:17:37.354140+00:00",
+      "goal": "Restore verified first coprocessor native330–335 with literal diagrams,tables andcarried-word declaration",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0027"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 6,
+      "new_mapped_pages": 6,
+      "outside_lookup_pages": 5,
+      "recognition_invocations": 61,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 74,
+      "pre_ocr_added_regions": 0,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "source_stage": {
+        "path": "archive/pdf/1991-08/restoration/batch-46/handoff.json",
+        "sha256": "59e2cc944fd61bb66f18e7de5946b812bbc25af7c9a6aae6ea1a0bcc99834468",
+        "bytes": 1845
+      },
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-46/validation.json",
+        "sha256": "a3c3c69897b230eae318752b7bf2e6aea462ec7fdbb9591cb6cffa07d4f1385c",
+        "bytes": 2390
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-46/reproduction.json",
+        "sha256": "a103b5f40815bde40a08654b95f2a88d8eb9633e60bd6b4d72c4e1894b0cfc4f",
+        "bytes": 46941
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
     "readable": 21,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 5,
-    "unresolved": 9
+    "unresolved": 8
   },
   "notes": [
-    "Full August issue goal remains active: nine identities require ownership/eligibility review. Twenty-one readable articles have complete body coverage andno pending assembly;five non-owning headings, no partials. Hardware parent0025 is non-owning;memory child0026 complete324–329/338–343, source박주희 versuscanonical편집부 retained. No global folio offset.",
+    "Full August issue remains active:21 readable articles,one partial coprocessor article,five non-owning headings andeight unresolved identities. Coprocessor0027 first330–335 restored;final336–337 andactual full assembly pending. Whole-issue accounting,index,cover andcloseout remain pending;no global folio offset orreader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-46",
-    "goal": "Map and restore verified first coprocessor native330–335; final336–337 and actual full assembly remain separate checkpoints.",
+    "name": "1991-08-batch-47",
+    "goal": "Restore final coprocessor336–337 andexclude lower337 unrelated advertisement; actual full assembly follows separately.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0027"
     ],
     "canonical_title": "수치보조 프로세서와 그 응용",
     "canonical_byline_candidate": "성기철",
     "mapping_targets": [
-      330,
-      331,
-      332,
-      333,
-      334,
-      335
+      336,
+      337
     ],
     "lookup_candidates": [
       5,
-      329,
       330,
-      331,
-      332,
-      333,
-      334,
       335,
       336,
       337,
-      338,
-      339,
-      340,
-      341,
-      342,
-      343,
-      344,
-      345,
-      346,
-      347
+      338
     ],
     "retained_context": {
-      "directory": "archive/pdf/1991-08/restoration/batch-46/source-review",
-      "independent_opening": {
-        "pdf_page": 330,
-        "printed_page": "344",
-        "source_body_title": "수치보조 프로세서와 그 응용",
-        "source_byline": "글. 성기철 (인하대 전자공학과)"
+      "source_extent": {
+        "path": "archive/pdf/1991-08/restoration/batch-46/source-extent-reviewed.json",
+        "sha256": "dbfc2da4ccd0ed50a4c70e4bb5f081ce96caa8c2ea9aa62eb4e970ab36e2293e",
+        "bytes": 5093
       },
+      "first_native": "archive/pdf/1991-08/packages/batch-46-r01/copro-a",
+      "first_manifest": {
+        "path": "archive/pdf/1991-08/packages/batch-46-r01/copro-a/manifest.json",
+        "sha256": "a3806fc20ef971b2e9c3ffec4de10669932674c0d3c9329bc01b7396acaa7883",
+        "bytes": 46195
+      },
+      "first_validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-46/validation.json",
+        "sha256": "a3c3c69897b230eae318752b7bf2e6aea462ec7fdbb9591cb6cffa07d4f1385c",
+        "bytes": 2390
+      },
+      "full_extent_verified": true,
+      "full_pdf_pages": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "ending_pdf_pages": [
+        336,
+        337
+      ],
+      "ending_printed_pages": [
+        "350",
+        "351"
+      ],
       "prepared_uninspected_pages": [
         339,
         340,
@@ -3810,39 +3923,6 @@
         346,
         347
       ],
-      "full_extent_verified": true,
-      "verified_pdf_pages": [
-        330,
-        331,
-        332,
-        333,
-        334,
-        335,
-        336,
-        337
-      ],
-      "printed_pages": [
-        "344",
-        "345",
-        "346",
-        "347",
-        "348",
-        "349",
-        "350",
-        "351"
-      ],
-      "ending": {
-        "pdf_page": 337,
-        "printed_page": "351",
-        "description": "Upper three columns complete FRANK387 emulator prose with terminal ornament. Unrelated lower back-issue advertisement must be excluded by the ending native; retain literal351 folio."
-      },
-      "following": {
-        "pdf_page": 338,
-        "printed_page": "352",
-        "title": "하드웨어 구성소자들",
-        "actual_byline": "글. 정휴중 (디지탈 동호회)",
-        "description": "Independent next child opening; full extent unverified."
-      },
       "outgoing_boundary": {
         "current_pdf_page": 335,
         "last_source_text": "수",
@@ -3861,56 +3941,8 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Resume from batch46/handoff.json and retained source renders; do not rerun frozen prepare/save helpers. Full article330–337/344–351 verified, contents5 andneighbor329/338 reviewed. Map at most first330–335 six pages now; final336–337 andactual two-native assembly separate. Every exact final crop must be visually reviewed before pinned mapped Tesseract andevery raw draft before one source pass. First native335 ends수;336 middle-column body below tables starts십 배에 달하는 성능의 향상을 기대할. Preserve an empty-separator carried-word link in standard segment_continuations declarations when creating actual native metadata. Source337 upper emulator conclusion/terminal ornament retained;lower back-issue advertisement exclusion belongs to ending native, with literal351 folio. Diagrams1–9 andtables1–4 intrinsic. Preserve repeated values, exponents, register labels, instruction names, physical wraps and source errors without hardware/opcode/math repair or historical execution. Prepared339–347 uninspected; do not infer next-child extent. All35 outcomes unchanged; full issue accounting/index/cover/closeout pending; no reader rebuild.",
-    "phase": "full-eight-page-source-extent-reviewed",
-    "source_extent_review": {
-      "path": "archive/pdf/1991-08/restoration/batch-46/source-extent-reviewed.json",
-      "sha256": "dbfc2da4ccd0ed50a4c70e4bb5f081ce96caa8c2ea9aa62eb4e970ab36e2293e",
-      "bytes": 5093
-    },
-    "full_pdf_pages": [
-      330,
-      331,
-      332,
-      333,
-      334,
-      335,
-      336,
-      337
-    ],
-    "deferred_pdf_pages": [
-      336,
-      337
-    ],
+    "note": "Restore verified final336–337/350–351 in a fresh copro-b native. Reuse batch46 source extent and retained renders; do not rerun frozen successful helpers. Review full ending pages andevery exact final crop before mapped Tesseract;read every raw draft beforeone source pass. Preserve tables3–4,chart9,emulator prose,printed commands/configuration text andterminal ornament. Exclude lower337 unrelated back-issue advertisement andretain351 folio. Firstnative copro-a ends p335-emulator-prose with수.336 middle-column prose belowtables starts십 배에 달하는 성능의 향상을 기대할: add incoming standard segment_continuations with prior_segment=copro-a,prior_region=p335-emulator-prose,prior_text_end=수,join_separator empty. Do not claim full article completion before actual two-native assembly andevery native/source-local/projected range audit. Prepared339–347 remain uninspected. No semantic/math/opcode/grammar repair orhistorical execution;no reader rebuild.",
     "assembly_required": true,
-    "reviewed_full_pages": [
-      5,
-      329,
-      330,
-      331,
-      332,
-      333,
-      334,
-      335,
-      336,
-      337,
-      338
-    ],
-    "source_review_lookup_pages": 11,
-    "first_native_outside_lookup_pages": [
-      5,
-      329,
-      336,
-      337,
-      338
-    ],
-    "outside_full_article_pages": [
-      5,
-      329,
-      338
-    ],
-    "mapping_started": false,
-    "ocr_started": false,
-    "source_correction_started": false
+    "complete_article_assembly_pending": true
   }
 }

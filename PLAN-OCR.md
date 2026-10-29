@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: twenty-one readable/sample-reviewed articles, no partials,
-  five non-owning headings and nine unresolved identities. Batch45 classifies
+- August 1991 remains active: twenty-one readable/sample-reviewed articles, one partial,
+  five non-owning headings and eight unresolved identities. Batch45 classifies
   parent0025 하드웨어 as non-owning and completes child0026 메모리 확장을 내 손으로
   at PDF324–329/printed338–343. Selected package:
   `archive/pdf/1991-08/packages/batch-45-r01/memory`. All 276 files match an independent
@@ -48,21 +48,30 @@ paired OCR or a new engine comparison.
   corrects only that pin after the original process finished. No recognition restarted.
   The unchanged 213-test baseline is reused. Earlier maps, evidence and revisions remain.
 
-  Current batch46 has verified coprocessor child0027 at PDF330–337/printed344–351.
-  All eight body pages, contents5 and neighboring329/338 were reviewed. Actual byline
-  글. 성기철 (인하대 전자공학과) matches the canonical author. Upper337 closes the
-  emulator prose with a terminal ornament; the unrelated lower back-issue advertisement
-  must be excluded by the ending native, retaining351 folio.338 independently opens
-  the next hardware-basics child; its full extent remains unverified.
-  Next map and restore first330–335, at most six pages. Final336–337 and actual full
-  assembly follow separately.335 ends 수;336 middle-column prose below the tables starts
-  십 배에 달하는 성능의 향상을 기대할. Preserve the empty-separator carried word in
-  standard continuation declarations. Diagrams1–9 and tables1–4 are intrinsic. No mapping,
-  OCR, source correction or outcome change yet. Resume from
-  `archive/pdf/1991-08/restoration/batch-46/handoff.json`; do not rerun frozen helpers.
-  Every final exact crop before OCR; every raw draft before one source pass. Preserve
-  printed values, exponents, register/instruction fields and claims without repair or
-  execution. Prepared339–347 renders remain uninspected. Whole issue remains active.
+  Batch46 restores the first coprocessor native, PDF330–335/printed344–349, in
+  `archive/pdf/1991-08/packages/batch-46-r01/copro-a`. All 263 files match an independent
+  export; all 72 source-pixel crops, 61 pinned kor+eng settings and 5,130 typed ranges
+  validate. Retains 52 blocks, eleven originals, ten captions, six prose joins with nine
+  boundaries, 271 diagram/table fields and 100 spatial reading rows. Register/stack fields,
+  the six-state memory matrix, seven data formats, both tables and 46 instruction fields
+  remain source-linked. All 398 uncertainties, 18 opaque variants and four montage markers
+  remain active. Printed errors, exponents, formulas and claims are preserved without repair
+  or execution. All 72 initial crops and 74 refinements reviewed before 61 initial
+  recognitions; all raw drafts before one source pass; zero retries or post-OCR repairs.
+  All 30,802 pre-OCR archive files and thirty core modules remain exact; the unchanged
+  213-test baseline is reused. Earlier source-stage handoff and every revision retained.
+
+  Next batch47 restores final PDF336–337/printed350–351 as a second native, retaining
+  tables3–4, chart9, emulator prose, command/configuration text and terminal ornament.
+  Exclude the unrelated lower337 back-issue advertisement and retain literal351 folio.
+  First335 ends 수;336 middle-column prose below the tables starts
+  십 배에 달하는 성능의 향상을 기대할. Use an empty-separator incoming standard
+  segment_continuations declaration referencing copro-a/p335-emulator-prose. Actual
+  full two-native assembly follows separately, with every native/source-local/projected
+  range audited. Resume `archive/pdf/1991-08/restoration/batch-46/handoff-complete.json`;
+  do not rerun frozen helpers. Every final crop before OCR; all raw drafts before one source
+  pass. Prepared339–347 remain uninspected. Whole-issue accounting, index, cover and closeout
+  remain pending. No reader rebuild.
   Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue
   accounting, index, cover and closeout remain pending. No reader rebuild.
