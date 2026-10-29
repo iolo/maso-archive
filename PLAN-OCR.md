@@ -23,42 +23,42 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: twenty-four readable/sample-reviewed articles, no partials,
-  five non-owning headings and six unresolved identities out of 35. Batch52 completes
-  school-program0029, PDF350–353/printed364–367. Actual title:
-  클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램, by 글. 노선규 (심곡국민학교 교사).
-  Selected package: `archive/pdf/1991-08/packages/batch-52-r01/school-plan`.
-  All 184 files match an independent export. All 52 source-pixel crops, 41 pinned settings
-  (three eng code, 38 kor+eng other) and 5,381 typed occurrences validate: 5,353 article ranges
-  and 28 listing ranges. The article retains 35 blocks, eleven originals, seven captions,
-  three joined prose blocks with six boundaries, 478 spatial fields and 151 reading rows.
+- August 1991 remains active: twenty-five readable/sample-reviewed articles, no partials,
+  five non-owning headings and five unresolved identities out of 35. Batch53 completes
+  technical-readers0030 at PDF356–357/printed370–371. Actual title 로고화면 테크닉, hs
+  and credit 글. 편집부 match the canonical identity and literal contents reference370.
+  Selected package: `archive/pdf/1991-08/packages/batch-53-r01/hs`.
+  All 126 files match an independent export. All 36 source-pixel crops, 27 pinned settings
+  (three eng code, 24 kor+eng other) and 3,106 typed occurrences validate: 2,351 article
+  ranges and 755 listing ranges. The article retains 26 blocks, nine originals, six captions,
+  one prose continuation, 141 spatial fields and 22 reading rows.
 
-  All 83 JUKI rows retain 332 individual data fields, six repeated headers and total225.
-  The output-file table keeps fourteen names and one empty cell; the holiday structure
-  keeps six rows, 24 data fields, headers and total78. Four screenshots retain 21 independent
-  date occurrences and all ten screen4 day totals. Four unnumbered command rows remain
-  in three code blocks and 55 listing bytes; the Korean arrow explanation and boxed key
-  symbol stay separate. No full PLAN.PRG source is reconstructed. All 568 uncertainties,
-  55 opaque variants and four unknown-count graphic/input markers remain active.
-  Printed filename variants, O/0/I/1 candidates, prose220/204 versus screen284/298,
-  91/92/366-day fields and the formula remain unrepaired and unexecuted.
+  Six shift strips preserve 96 cell positions, 88 text fields and eight blanks. The memory
+  diagram retains six displayed rows, 36 byte fields, six row labels, seven address formulas,
+  two mode titles and two legend labels. No omitted middle bytes or rows are inferred.
+  One prose example and the two-column C listing retain 49 unnumbered physical rows in
+  three code blocks and 1,621 listing bytes. Both rows without trailing semicolons and
+  the final three braces remain literal. All 218 uncertainties and ten opaque variants
+  remain active, including MKFP/MK_FP, `<dos. h>` spacing, 38 ell/one and six buffer1/bufferl
+  occurrences. Twelve hex fields and 149 operator occurrences retain separate source ranges.
+  No syntax, semantic, address arithmetic or historical execution checks are claimed.
 
-  All 51 initial crops, eight refinements and one added lettering panel were reviewed before
-  41 initial recognitions. All raw drafts were read before one source correction pass;
-  zero retries or post-OCR changes. All 34,164 pre-OCR archive files and thirty core modules
-  remain exact; the unchanged 213-test baseline is reused. Lower353 unrelated contributor
-  advertisement excluded;367 folio retained. No school-program body pages or assembly pending.
+  All 36 initial crops, five first and two final refinements were reviewed before 27 initial
+  recognitions. All raw drafts were read before one source correction pass; zero retries,
+  added regions or post-OCR changes. All 34,721 pre-OCR archive files and thirty core modules
+  remain exact; the unchanged 213-test baseline is reused. No hs body pages or assembly pending.
 
-  Next batch53 verifies canonical0030, 테크니컬 독자마당 : 로고 화면 테크닉, hs,
-  canonical author 편집부, literal contents reference370. Its body opening and full extent
-  remain unverified. Reuse contents5, the reviewed354 printer advertisement and prepared
-  355–359 renders in batch52;355–359 remain uninspected. Candidate356 is a lookup candidate,
-  not established body ownership or a global folio offset. Verify complete source extent,
-  ending and neighbors before mapping at most six pages. Preserve program rows, literals,
-  screen/logo samples, physical wraps and source errors without syntax repair or execution.
-  Every final exact crop before pinned mapped Tesseract; all raw drafts before one source pass.
-  Resume `archive/pdf/1991-08/restoration/batch-52/handoff.json`; do not rerun frozen helpers.
-  Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+  Next batch54 verifies and restores canonical0031, 마굿간 : 왜 홍보를 꺼리는 걸까?,
+  at the observed PDF362/printed376 opening. Its observed source credit 글. 김영숙 기자
+  must remain distinct from canonical 편집부. The full362 page, terminal ornament and
+  376 folio were reviewed; verify the source byline crop and next363 independent material
+  before mapping. Page361 is an independent book advertisement;363–364 remain prepared but
+  uninspected. Preserve quoted conversation, placeholders, paragraphs, printed spellings
+  and original illustration without grammar or historical-claim repair. Every final exact
+  crop before pinned mapped Tesseract; all raw drafts before one source pass. Resume
+  `archive/pdf/1991-08/restoration/batch-53/handoff.json`; do not rerun frozen helpers.
+  News/community eligibility and body work, whole-issue accounting, index, cover and closeout
+  remain pending. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and

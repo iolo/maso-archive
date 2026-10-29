@@ -2745,12 +2745,70 @@
       "toc_entry_id": "maso-1991-08-toc-0030",
       "title": "테크니컬 독자마당 : 로고 화면 테크닉, hs",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0030 title,편집부 andcontentsreference370 match independent356/370 opening. Actual title 로고화면 테크닉, hs andcredit글. 편집부 retained. Full356–357/370–371 andneighboring independent advertisements reviewed;357 ends at the visible final C braces. Source contributor박명신 remains a prose reference,not a substituted canonical author. No body pages orassembly pending.",
+        "Complete two-page native:126 independent export files exact. All36 source-pixel crops,27 pinned settings(3eng code/24kor+eng other) and3,106 typed occurrences(2,351article/755listing) validate.26 blocks,nine originals,six captions,one prose continuation,141 spatial fields/22rows retained.",
+        "Six shift strips retain96 cell positions,88 literal fields andeight blanks. The screen-memory diagram retains six displayed rows,36byte fields,six row labels,seven address formulas,two titles andtwo legend labels;no missing middle bytes/rows inferred. One prose example andone two-column List1 retain49 unnumbered physical rows inthree code blocks/1,621listing bytes. Final three closing braces independently indexed;both source rows withouttrailing semicolons retained.",
+        "All218 uncertainty records andten opaque variants remain active. ProseMKFP versuslistingMK_FP,source<dos. h> spacing,38ell/one occurrences,sixbuffer1/bufferl occurrences,twelvehex fields and149operator occurrences remain source candidates without syntax,semantic orarithmetic repair orexecution. Allsource address formulas stay literal.",
+        "All36 initial crops,five first andtwo final refinements individually viewed before27 initial recognitions. All27 raw drafts read beforeone source correction pass;zero retries,added regions orpost-OCR changes. All34,721 pre-OCR archive files andthirty core modules exact;unchanged213-test baseline reused."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-53-r01/hs",
+        "article_id": "scan-maso-1991-08-toc-0030",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-53-r01/hs/manifest.json",
+          "sha256": "768c9115ee4c577079e73a85b52508f0963d7ca4d7c781ea5ee9564cb25371b4",
+          "bytes": 21886
+        },
+        "source_body_title": "로고화면 테크닉, hs",
+        "source_series_title": "테크니컬독자마당",
+        "source_byline": "글. 편집부",
+        "canonical_byline_candidate": "편집부",
+        "canonical_page_reference": "370",
+        "coverage": {
+          "pdf_pages": [
+            356,
+            357
+          ],
+          "printed_pages": [
+            "370",
+            "371"
+          ],
+          "regions": 36,
+          "blocks": 26,
+          "figures": 9,
+          "excluded_regions": 0,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "native_body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 356,
+          "end_pdf_page": 357,
+          "ending_printed_page": "371",
+          "following_pdf_page": 358,
+          "following_role": "358–359 independent TRON ads,360–361 independent book ads;362/376 opens separate마굿간 essay.",
+          "ending": "357 complete two-column List1 hs.C reaches final three visible closing braces.371 folio retained."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-53/validation.json",
+          "sha256": "e9e4cc0ee0d315a5216561c0164f3afbb7a45c2c2070bf34d403a25ee219d268",
+          "bytes": 2800
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-53/reproduction.json",
+          "sha256": "935d9d7190da4fa1e75a3e0034d0be4cd6973ea38fcad0384424887fdf40454e",
+          "bytes": 22616
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-53"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0031",
@@ -4278,69 +4336,94 @@
         "sha256": "db85e22ee6aef5e705b7995a19756cd1660c061c83ad12ebb09b7572e474ff36",
         "bytes": 32811
       }
+    },
+    {
+      "name": "1991-08-batch-53",
+      "status": "complete",
+      "completed_at": "2026-10-29T07:27:38.447035+00:00",
+      "goal": "Restore complete hs356–357 withliteral C source rows andbyte/address diagrams",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0030"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 2,
+      "new_mapped_pages": 2,
+      "outside_lookup_pages": 7,
+      "recognition_invocations": 27,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 7,
+      "pre_ocr_added_regions": 0,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-53/validation.json",
+        "sha256": "e9e4cc0ee0d315a5216561c0164f3afbb7a45c2c2070bf34d403a25ee219d268",
+        "bytes": 2800
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-53/reproduction.json",
+        "sha256": "935d9d7190da4fa1e75a3e0034d0be4cd6973ea38fcad0384424887fdf40454e",
+        "bytes": 22616
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 24,
+    "readable": 25,
     "partial": 0,
     "group_headings": 5,
-    "unresolved": 6
+    "unresolved": 5
   },
   "notes": [
-    "Full August issue remains active:24 readable articles,no partials,five non-owning headings andsix unresolved identities. School-program0029 complete at350–353/364–367 inone native. Lower353 advertisement excluded;367folio retained. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
+    "Full August issue remains active:25 readable articles,no partials,five non-owning headings andfive unresolved identities. Technical-readers0030 hs complete at356–357/370–371 inone native;no body pages orassembly pending. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-53",
-    "goal": "Verify complete technical-readers0030 source identity and extent fromliteral contentsreference370, then restore atmost six verifiedpages.",
+    "name": "1991-08-batch-54",
+    "goal": "Verify final editorial0031 one-page source extent andrestore362/376 withactual byline separate fromcanonical편집부.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0030"
+      "maso-1991-08-toc-0031"
     ],
-    "canonical_title": "테크니컬 독자마당 : 로고 화면 테크닉, hs",
+    "canonical_title": "마굿간 : 왜 홍보를 꺼리는 걸까?",
     "canonical_byline_candidate": "편집부",
-    "canonical_page_reference": "370",
+    "canonical_page_reference": "376",
     "mapping_targets": [],
     "lookup_candidates": [
       5,
-      354,
-      355,
-      356,
-      357,
-      358,
-      359,
-      360,
       361,
       362,
       363,
       364
     ],
     "retained_context": {
-      "directory": "archive/pdf/1991-08/restoration/batch-52/source-review",
+      "directory": "archive/pdf/1991-08/restoration/batch-53/source-review",
+      "independent_opening": {
+        "pdf_page": 362,
+        "printed_page": "376",
+        "source_body_title": "왜 홍보를 꺼리는 걸까?",
+        "source_byline_observation": "글. 김영숙 기자"
+      },
       "prepared_uninspected_pages": [
-        355,
-        356,
-        357,
-        358,
-        359
+        363,
+        364
       ],
       "source_preparation": {
-        "path": "archive/pdf/1991-08/restoration/batch-52/source-preparation.json",
-        "sha256": "07b6f1947e98825b7b7774adc6945ed7d69633d5e9679cf3c6b9ebfb3ea54152",
+        "path": "archive/pdf/1991-08/restoration/batch-53/source-preparation.json",
+        "sha256": "e2a84707aa361d3cacef84068b82c4cde348fb99e5395c708076d4758efba699",
         "bytes": 4241
       },
-      "previous_reviewed_page": 354,
-      "previous_reviewed_role": "Full independent printer advertisement, no visible folio.",
+      "previous_reviewed_page": 361,
+      "previous_reviewed_role": "Full independent book advertisement, no visible folio.",
       "full_extent_verified": false,
-      "independent_opening_verified": false,
-      "candidate_pdf_page": 356
+      "next_neighbor_verified": false
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Verify canonical0030 테크니컬 독자마당 : 로고 화면 테크닉, hs,canonical편집부,literal contentsreference370. No independent body opening orfull extent is verified yet. Reuse contents5,354 fullprinteradvertisement andprepared355–359 source views inbatch52/source-review;355–359 remain uninspected. Inspect nearby lookup pages355–364 tofind actual opening,full body,ending andindependent neighbors,without assuming a global folio offset. Candidate356 is onlya lookup candidate for370,not established ownership. Map atmost six verifiedpages andatmost two canonicaltasks. Preserve source prose,screen/logo samples,program rows,identifiers,literals,physicalwraps,source errors andtiny/graphic glyphs asprinted;do not repair expected syntax orexecute historicalprograms. Review every final exact crop before pinned mapped Tesseract(eng standalonecode/kor+eng other);read every raw draft beforeone sourcepass. Longer articles requireseparate natives andactual assembly. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild."
+    "note": "Read PLAN-OCR. Reuse contents5 andindependent362/376 마굿간 opening frombatch53 source-review. Canonical0031 마굿간 : 왜 홍보를 꺼리는 걸까? hasliteral reference376 andcanonical편집부;source credit observed글. 김영숙 기자 mustremain separate rather thanrewriting canonicalauthor. Full362 page wasreviewed withtitle,body,terminal ornament and376folio. Verify next363 independentmaterial andsource byline crop beforefinal one-page mapping;361 isindependent bookadvertisement.363–364 preparedbutuninspected. Preserve everysourceparagraph,quoted conversation,XX/xx placeholders,typos,figures andcredit,without grammar orhistorical claim repair. Retain original illustration/background;do not infer printed graphic glyph counts. Every final exact crop before pinned mapped Tesseract,all raw drafts beforeone source pass. Atmostsixmappedpages/two canonicaltasks/twenty outside lookups. After0031,remainingnews/community parent-child identities requireexplicit eligibility/ownership andbody restoration decisions. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild."
   }
 }

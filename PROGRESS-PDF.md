@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty-four readable/sample-reviewed articles,
-no partials, five non-owning headings and six unresolved identities. School-program0029
-is complete at350–353/364–367 in `packages/batch-52-r01/school-plan`: 184 independently
-exact files, 52 source-pixel crops, 41 settings and 5,381 typed occurrences validate.
-All 83 DBF rows, fourteen output filenames, four screenshots and four command rows
-retain literal source evidence. All 568 uncertainties, 55 opaque variants and four
-unknown-count graphic/input markers remain active. Lower353 advertisement excluded;
-367 folio retained. No school-program body pages or assembly pending. Next batch53
-verifies technical-readers0030 from contents reference370; its actual extent is unverified.
-Prepared355–359 remain uninspected. Whole-issue accounting, index, cover and closeout
-remain pending. No reader rebuild.
+August 1991 remains in progress: twenty-five readable/sample-reviewed articles,
+no partials, five non-owning headings and five unresolved identities. Technical-readers0030
+is complete at356–357/370–371 in `packages/batch-53-r01/hs`: 126 independently exact
+files, 36 source-pixel crops, 27 settings and 3,106 typed occurrences validate. All 49
+physical code/example rows, six strips/96 cell positions and the displayed memory-layout
+fields remain literal. All 218 uncertainties and ten opaque variants remain active;
+missing punctuation, ell/one candidates and MKFP/MK_FP are unrepaired and unexecuted.
+No hs body pages or assembly pending. Next batch54 verifies the separate362/376 essay,
+preserving observed source김영숙 기자 versus canonical편집부.363–364 remain uninspected.
+News/community eligibility and body work, accounting, index, cover and closeout remain
+pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
