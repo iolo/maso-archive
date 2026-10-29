@@ -31,56 +31,43 @@ records below are historical and do not authorize a new rebuild.
 
 ## August 1991 restoration, 2026-10-29
 
-Step 12 remains active: twenty-two readable/sample-reviewed articles, no partials,
-five non-owning headings and eight unresolved identities out of 35. Batch48 completes
-coprocessor0027, 수치보조 프로세서와 그 응용, at PDF330–337/printed344–351.
-Selected package: `archive/pdf/1991-08/packages/coprocessor-complete-r02`.
-All 355 files match an independent export, including all 347 unchanged native files.
-All 94 source-pixel crops and 79 pinned kor+eng settings validate. The audit checks
-6,374 native/projected typed occurrences, 6,229 retained source-local metadata occurrences
-and 145 root combined occurrences independently in their proper article contexts.
+Step 12 remains active: twenty-two readable/sample-reviewed articles, one partial,
+five non-owning headings and seven unresolved identities out of 35. Coprocessor0027
+remains complete at `archive/pdf/1991-08/packages/coprocessor-complete-r02`.
 
-The actual standard namespaced-v1 assembly resolves335수→336십 with an empty separator.
-Retains 66 blocks, fifteen originals, thirteen captions, nine native joins with thirteen
-boundaries, 340 diagram/table fields and 136 spatial reading rows. Nine numbered diagrams,
-four tables, opening montage and terminal ornament stay as original images. Register/stack
-and memory-matrix fields, data formats, package/company pairs, chart labels and inline
-program/configuration commands remain source-linked. All 494 uncertainties, thirty opaque
-variants and four unknown-count montage markers remain active. Printed errors, formulas,
-units, program spellings and font candidates remain unrepaired and unexecuted.
-Lower337 unrelated back-issue advertisement excluded; literal351 folio retained.
-No coprocessor body pages or assembly remain pending.
+Batch49 restores hardware-basics0028, PDF338–343/printed352–357, in
+`archive/pdf/1991-08/packages/batch-49-r01/hardware-a`. All 169 files match an independent
+export. All 47 source-pixel crops, 38 pinned kor+eng settings and 4,250 typed occurrences
+validate. The segment retains 30 blocks, nine originals, four captions, three joined blocks
+with eight boundaries, 119 spatial fields, 54 reading rows and 56 inline headings.
+The resistor table preserves 70 positions: 53 printed fields and 17 blanks. Its example
+keeps three 적 colour labels and literal zero strings. Eleven photographic labels, eight
+transistor terminal fields, 27 designation fields and nine FET-tree fields remain linked
+to their source occurrences. All 222 uncertainties and 31 opaque variants remain active.
+Printed Register/Transformer, component spellings, values, units, claims, physical wraps
+and scan annotations remain unchanged, without technical repair or execution.
 
-No new mapping, OCR or source correction during assembly. Native stages retain one
-source pass each, all final crops before recognition and all raw drafts before correction,
-with zero retries. All 31,780 pre-existing archive files and thirty core modules remain
-exact; the unchanged 213-test baseline is reused. An authored figure-count description
-was corrected in fresh assembly revision02; initial assembly and failed verifier attempts
-remain retained. Source-local original metadata stays unchanged, including stage flags.
+All 47 initial crops and six refinements were reviewed before 38 initial recognitions;
+all 38 raw drafts were read before one source correction pass. There were zero retries,
+added regions or post-OCR crop changes. All 32,616 pre-OCR archive files and thirty core
+modules remain exact; the unchanged 213-test baseline is reused.
 
-Current batch49 verifies the complete hardware-basics child0028 at PDF338–348.
-Visible folios on338–347 are352–361;348 has no visible folio and remains null. The
-canonical page reference remains null. Actual title 하드웨어 구성소자들 and byline
-글. 정휴중 (디지탈 동호회) match the canonical identity. All eleven body pages,
-contents5 and neighboring337/349/350 were reviewed. Upper348 ends the glossary with
-트리거(trigger) and a terminal ornament; lower modem/PC-communications advertisement
-must be excluded by the ending native.349 is an independent book advertisement;
-350/364 independently opens the next school-program article, whose full extent is unverified.
-
-Next map and restore first338–343, at most six pages. Final344–348 and actual full
-two-native assembly follow separately.343 SCR prose ends 전극으;344 left-column opening
-starts 로 게이트(G)를 접속한 정류 소자로. Preserve the empty-separator carried word
-in standard continuation declarations. Intrinsic resistor tables/diagrams, component photo
-labels, semiconductor/FET figures, logic truth tables/formulas, flip-flops and the glossary
-remain source material. Preserve spelling, values, claims, physical wraps and annotations
-without grammar/technical repair or execution. No mapping, OCR, source correction or
-outcome change yet. Resume `archive/pdf/1991-08/restoration/batch-49/handoff.json`;
-do not rerun frozen helpers. Every final crop before OCR; all raw drafts before one source
-pass. Prepared351–354 remain uninspected. Whole-issue accounting, index, cover and closeout
-remain pending. No reader rebuild.
-Selected0020 requires batch39 boundary adapter;0018 the batch35 boundary adapter,
-0003 the batch07 listing adapter and0002 the batch04 native adapter. Whole-issue
-accounting, index, cover and closeout remain pending. No reader rebuild.
+Next batch50 restores final PDF344–348 as a second native, retaining the logic truth
+tables, formulas, flip-flops, glossary and original diagrams. Upper348 ends with
+트리거(trigger) and a terminal ornament; exclude its lower modem/PC-communications
+advertisement. Page348 has no visible folio and remains null; the canonical page
+reference also remains null. First343 SCR prose ends 전극으;344left starts
+로 게이트(G)를 접속한 정류 소자로. Use an empty-separator incoming standard
+segment_continuations declaration referencing hardware-a/p343-right-prose.
+Actual full two-native assembly follows separately, with every native, source-local
+and projected typed occurrence audited. Resume
+`archive/pdf/1991-08/restoration/batch-49/handoff-complete.json`; do not rerun frozen helpers.
+Review every final crop before OCR and read all raw drafts before one source pass.
+Prepared351–354 remain uninspected. Page349 is an independent book advertisement;
+350/364 opens the next school-program article, whose full extent remains unverified.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
+Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
+0003 the batch07 listing adapter and0002 the batch04 native adapter.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

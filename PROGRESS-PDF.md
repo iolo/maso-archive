@@ -7,17 +7,16 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 August 1991 remains in progress: twenty-two readable/sample-reviewed articles,
-no partials, five non-owning headings and eight unresolved identities. Coprocessor0027
-is complete at330–337/344–351 in `packages/coprocessor-complete-r02`: 355 independently
-identical files, including 347 unchanged native files. All 94 source-pixel crops, 79 settings
-and 6,374 native/projected typed ranges validate; 6,229 retained source-local occurrences
-and 145 root combined occurrences are independently checked. All 494 uncertainties, thirty
-opaque variants and four montage markers remain active. Lower337 advertisement excluded;
-351 folio retained. No coprocessor body pages or assembly pending. Current batch49 verifies hardware-basics0028 at338–348: folios352–361 on338–347,
-348folio null; canonical page reference remains null. Next restore first338–343,
-then final344–348 and actual assembly separately. Lower348 advertisement excluded
-by the ending native; all glossary prose retained. No new mapping or OCR yet. Whole-issue
-accounting, index, cover and closeout remain pending. No reader rebuild.
+one partial, five non-owning headings and seven unresolved identities. Hardware-basics0028
+first338–343/352–357 is restored at `packages/batch-49-r01/hardware-a`: 169 independently
+exact files, 47 source-pixel crops, 38 settings and 4,250 typed occurrences validate.
+The segment retains 30 blocks, nine originals, 119 spatial fields, 56 inline headings,
+222 uncertainties and 31 opaque variants. Next batch50 restores final344–348, excluding
+the lower348 advertisement and retaining its null folio; the canonical page reference
+also remains null. The empty-separator343전극으→344로 continuation is declared.
+Actual full two-native assembly follows separately. All 32,616 pre-OCR archive files
+and thirty core modules remain exact; the unchanged 213-test baseline is reused.
+Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

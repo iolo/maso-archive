@@ -2526,12 +2526,84 @@
       "toc_entry_id": "maso-1991-08-toc-0028",
       "title": "하드웨어 기초 강좌(1) : 하드웨어 구성소자들",
       "parent_id": "maso-1991-08-toc-0025",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical hardware-basics child0028 matches the independent338/352 opening and actual credit 글. 정휴중 (디지탈 동호회). Canonical page reference remains null. Full actual extent338–348 reviewed;348 has no visible folio. Parent0025 remains non-owning.",
+        "First338–343/352–357 native only: 169 independently exact files,47 exact source-pixel crops,38 pinned kor+eng settings and 4250 typed occurrences validate. Retains30 blocks,nine originals,four captions,three joined blocks/eight boundaries,119 spatial fields/54 reading rows and56 inline headings.",
+        "The resistor table retains70 positions,53 printed fields and17 blanks; three 적 example labels and literal zero strings are not repaired. Eleven photographic labels,eight transistor terminal fields,27 designation fields andnine FET-tree fields retain their separate source occurrences. All222 uncertainties and31 opaque variants remain active. Source Register/Transformer headings,component spellings,units,claims,physical wraps andannotations remain literal or original pixels; no technical/grammar repair or execution.",
+        "All47 initial crops andsix refinements viewed before38 initial recognitions;all38 raw drafts read beforeone source correction pass. Zero retries,added regions orpost-OCR crop changes. All32,616 pre-OCR archive files andthirty core modules remain exact;unchanged213-test baseline reused.",
+        "Final344–348 and actual full two-native assembly remain pending. Standard outgoing343전극으→344로 has empty separator andassembled=false. Ending native must exclude lower348 modem/PC-communications advertisement while retaining upperglossary andterminal ornament;348folio andcanonical reference remain null."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-49-r01/hardware-a",
+        "article_id": "scan-maso-1991-08-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-49-r01/hardware-a/manifest.json",
+          "sha256": "200206f8ebb8c7c2201477309e58db4c8c075a0bd34508e3dd40099ba378e7f3",
+          "bytes": 29538
+        },
+        "source_body_title": "하드웨어 구성 소자들",
+        "source_series_title": "하드웨어 기초 강좌 1",
+        "source_byline": "글. 정휴중 (디지탈 동호회)",
+        "canonical_byline_candidate": "정휴중",
+        "canonical_page_reference": null,
+        "coverage": {
+          "pdf_pages": [
+            338,
+            339,
+            340,
+            341,
+            342,
+            343
+          ],
+          "printed_pages": [
+            "352",
+            "353",
+            "354",
+            "355",
+            "356",
+            "357"
+          ],
+          "regions": 47,
+          "blocks": 30,
+          "figures": 9,
+          "excluded_regions": 0,
+          "deferred_pdf_pages": [
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "body_pages_complete": false,
+        "native_body_pages_complete": true,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "full_source_extent": {
+          "start_pdf_page": 338,
+          "end_pdf_page": 348,
+          "ending_printed_page": null,
+          "following_pdf_page": 349,
+          "following_role": "Independent book advertisement. Next350/364 opens the school-program article; full next extent unverified.",
+          "ending": "Upper348 glossary ends with 트리거(trigger) and terminal ornament. Lower unrelated modem/PC-communications advertisement belongs outside ending native."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-49/validation.json",
+          "sha256": "08ffaf8de7a10622de1fcf0c6cd517118d193206904c4b7d0a193538b4f0d7f9",
+          "bytes": 2458
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-49/reproduction.json",
+          "sha256": "f609b6937825b2063be369bc552a11eac5a7a48a6f91f48a2447008152f74f1a",
+          "bytes": 30292
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-49"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0029",
@@ -3960,23 +4032,58 @@
         "sha256": "d533a5052ff02ce0c31cfabdad5ccd96ed2d82e6bc02c2fbacd35f7fbfafeadd",
         "bytes": 1521
       }
+    },
+    {
+      "name": "1991-08-batch-49",
+      "status": "complete",
+      "completed_at": "2026-10-29T05:35:01.273342+00:00",
+      "goal": "Restore first hardware-basics native338–343 with literal component tables,diagram fields andsource continuation",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0028"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 6,
+      "new_mapped_pages": 6,
+      "outside_lookup_pages": 9,
+      "recognition_invocations": 38,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 6,
+      "pre_ocr_added_regions": 0,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "source_stage": {
+        "path": "archive/pdf/1991-08/restoration/batch-49/handoff.json",
+        "sha256": "4293e6a5826af8bed66c459965748e8563a0ce8501a0c4ecd6222fdb9a6cced2",
+        "bytes": 1871
+      },
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-49/validation.json",
+        "sha256": "08ffaf8de7a10622de1fcf0c6cd517118d193206904c4b7d0a193538b4f0d7f9",
+        "bytes": 2458
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-49/reproduction.json",
+        "sha256": "f609b6937825b2063be369bc552a11eac5a7a48a6f91f48a2447008152f74f1a",
+        "bytes": 30292
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
     "readable": 22,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 5,
-    "unresolved": 8
+    "unresolved": 7
   },
   "notes": [
-    "Full August issue remains active:22 readable articles, no partial articles, five non-owning headings and eight unresolved identities. Coprocessor0027 is complete at330–337/344–351 in actual two-native assembly with347 immutable native files. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
+    "Full August issue remains active:22 readable articles,one partial hardware-basics article,five non-owning headings andseven unresolved identities. Hardware-basics0028 first338–343 restored;final344–348 andactual full assembly pending. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-49",
-    "goal": "Map and restore verified first hardware-basics native338–343; final344–348 andactual full assembly remain separate checkpoints.",
+    "name": "1991-08-batch-50",
+    "goal": "Restore final hardware-basics344–348 andexclude lower348 advertisement;actual full assembly follows separately.",
     "toc_entry_ids": [
       "maso-1991-08-toc-0028"
     ],
@@ -3984,21 +4091,15 @@
     "canonical_byline_candidate": "정휴중",
     "canonical_page_reference": null,
     "mapping_targets": [
-      338,
-      339,
-      340,
-      341,
-      342,
-      343
+      344,
+      345,
+      346,
+      347,
+      348
     ],
     "lookup_candidates": [
       5,
-      337,
       338,
-      339,
-      340,
-      341,
-      342,
       343,
       344,
       345,
@@ -4006,28 +4107,27 @@
       347,
       348,
       349,
-      350,
-      351,
-      352,
-      353,
-      354
+      350
     ],
     "retained_context": {
-      "directory": "archive/pdf/1991-08/restoration/batch-46/source-review",
-      "independent_opening": {
-        "pdf_page": 338,
-        "printed_page": "352",
-        "source_body_title": "하드웨어 구성소자들",
-        "source_byline": "글. 정휴중 (디지탈 동호회)"
+      "source_extent": {
+        "path": "archive/pdf/1991-08/restoration/batch-49/source-extent-reviewed.json",
+        "sha256": "7ba517391a9b34debb8e4eee854bbf4e11728f048147a7e9c5527934df322781",
+        "bytes": 6312
       },
-      "prepared_uninspected_pages": [
-        351,
-        352,
-        353,
-        354
-      ],
+      "first_native": "archive/pdf/1991-08/packages/batch-49-r01/hardware-a",
+      "first_manifest": {
+        "path": "archive/pdf/1991-08/packages/batch-49-r01/hardware-a/manifest.json",
+        "sha256": "200206f8ebb8c7c2201477309e58db4c8c075a0bd34508e3dd40099ba378e7f3",
+        "bytes": 29538
+      },
+      "first_validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-49/validation.json",
+        "sha256": "08ffaf8de7a10622de1fcf0c6cd517118d193206904c4b7d0a193538b4f0d7f9",
+        "bytes": 2458
+      },
       "full_extent_verified": true,
-      "verified_pdf_pages": [
+      "full_pdf_pages": [
         338,
         339,
         340,
@@ -4040,29 +4140,26 @@
         347,
         348
       ],
-      "printed_pages": [
-        "352",
-        "353",
-        "354",
-        "355",
-        "356",
-        "357",
+      "ending_pdf_pages": [
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "ending_printed_pages": [
         "358",
         "359",
         "360",
         "361",
         null
       ],
-      "ending": {
-        "pdf_page": 348,
-        "printed_page": null,
-        "description": "Upper glossary ends with 트리거(trigger) definition and terminal ornament. Lower unrelated modem/PC-communications advertisement must be excluded by the ending native. No visible folio; retain null without inferring362."
-      },
-      "following": {
-        "pdf_page": 349,
-        "printed_page": null,
-        "description": "Full independent computer-book advertisement. Next350/364 independently opens 클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램, by 글. 노선규 (심곡국민학교 교사); its full extent unverified."
-      },
+      "prepared_uninspected_pages": [
+        351,
+        352,
+        353,
+        354
+      ],
       "outgoing_boundary": {
         "current_pdf_page": 343,
         "last_source_text": "전극으",
@@ -4081,84 +4178,8 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Resume batch49/handoff.json andretained source views;do not rerun frozen helpers. Full hardware-basics338–348 verified;visible folios352–361 on338–347,348folio null. Canonical0028 page reference remains null. All15 full views5/337–350 reviewed;prepared351–354 uninspected. Map at most first338–343 six pages now;final344–348 andactual full two-native assembly separate. First343 SCR prose ends전극으;344left begins로 게이트(G)를 접속한 정류 소자로. Preserve empty-separator carried word in standard segment_continuations. Ending348upperglossary/terminal ornament retained;lower modem/PC-communications advertisement excluded,folio null.349fullbookadvertisement independent;350/364 nextschool-program opening actual노선규,full extent unverified. Preserve source Register/Transformer headings,component names/labels,resistor table values,numeric/logic/truth-table/formula/flip-flop claims,physicalwraps,glossary text andoriginal annotations without grammar/technical repair orexecution. Every final exact crop before pinned mapped Tesseract;all raw drafts beforeone sourcepass. Outcomes unchanged;fullissueaccounting,index,cover andcloseout pending;no reader rebuild.",
-    "phase": "full-eleven-page-source-extent-reviewed",
-    "source_extent_review": {
-      "path": "archive/pdf/1991-08/restoration/batch-49/source-extent-reviewed.json",
-      "sha256": "7ba517391a9b34debb8e4eee854bbf4e11728f048147a7e9c5527934df322781",
-      "bytes": 6312
-    },
-    "full_pdf_pages": [
-      338,
-      339,
-      340,
-      341,
-      342,
-      343,
-      344,
-      345,
-      346,
-      347,
-      348
-    ],
-    "printed_pages": [
-      "352",
-      "353",
-      "354",
-      "355",
-      "356",
-      "357",
-      "358",
-      "359",
-      "360",
-      "361",
-      null
-    ],
-    "deferred_pdf_pages": [
-      344,
-      345,
-      346,
-      347,
-      348
-    ],
+    "note": "Restore verified final hardware-basics344–348 in a fresh hardware-b native, at most five new mapped pages. Reuse batch49 full source extent and retained renders;do not rerun frozen successful helpers. Review each full ending page andevery exact final crop before pinned mapped Tesseract;read every raw draft beforeone source correction pass. Preserve SCR continuation,semiconductor/optoelectronic component prose,logic truth tables/formulas,flip-flops,glossary andoriginal diagrams as printed,without technical/grammar repair orhistorical execution. Firstnative hardware-a ends p343-right-prose with전극으;344left starts로 게이트(G)를 접속한 정류 소자로. Add incoming standard segment_continuations with prior_segment=hardware-a,prior_region=p343-right-prose,prior_text_end=전극으,empty join_separator;actual boundary priorblock hardware-a-fet-prose. Ending348upperglossary ends트리거(trigger) plus terminal ornament;exclude lower unrelated modem/PC-communications advertisement.348folio andcanonical page reference remain null.349 independentbookadvertisement;350/364 independently opens next school-program article,full extent unverified. Actual two-native full assembly follows separately,with every native/source-local/projected typed occurrence audited. Prepared351–354 remain uninspected. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
     "assembly_required": true,
-    "reviewed_full_pages": [
-      5,
-      337,
-      338,
-      339,
-      340,
-      341,
-      342,
-      343,
-      344,
-      345,
-      346,
-      347,
-      348,
-      349,
-      350
-    ],
-    "source_review_lookup_pages": 15,
-    "first_native_outside_lookup_pages": [
-      5,
-      337,
-      344,
-      345,
-      346,
-      347,
-      348,
-      349,
-      350
-    ],
-    "outside_full_article_pages": [
-      5,
-      337,
-      349,
-      350
-    ],
-    "mapping_started": false,
-    "ocr_started": false,
-    "source_correction_started": false
+    "complete_article_assembly_pending": true
   }
 }
