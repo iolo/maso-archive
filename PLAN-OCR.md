@@ -23,44 +23,41 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: twenty-three readable/sample-reviewed articles, no partials,
-  five non-owning headings and seven unresolved identities out of 35. Batch51 completes
-  hardware-basics0028, 하드웨어 기초 강좌(1) : 하드웨어 구성소자들, at PDF338–348.
-  Selected package: `archive/pdf/1991-08/packages/hardware-basics-complete-r01`.
-  All 373 files match an independent export, including all 365 unchanged native files.
-  All 103 source-pixel crops and 82 pinned kor+eng settings validate. The audit checks
-  8,911 native/projected typed occurrences, 8,765 retained source-local metadata occurrences
-  and 146 root combined occurrences independently in their proper article contexts.
-
-  The actual standard namespaced-v1 assembly resolves343전극으→344로 with an empty
-  separator. It retains 64 blocks, 21 originals, eight captions, seven native joins with
-  eighteen boundaries, 320 spatial fields, 141 reading rows and 74 inline headings.
-  The resistor table preserves 70 positions, 53 printed fields and 17 blanks. Eleven
-  photographic labels, eight transistor terminals, 27 designation fields and nine FET-tree
-  fields retain their source occurrences. Six gate tables retain 22 data rows; four flip-flop
-  diagrams retain twelve data rows and fourteen overbar scopes. Thirty-eight glossary
-  definitions retain 43 complete regional fragments, including five continued definitions.
-  All 511 uncertainties and 46 opaque variants remain active. Source errors, values,
-  component spellings, claims, physical wraps and scan annotations remain unrepaired and
-  unexecuted. Lower348 unrelated communications advertisement excluded;348 folio and the
-  canonical page reference remain null. No hardware-basics body pages or assembly pending.
-
-  No new mapping, OCR or source correction during assembly. Both native stages retain
-  one source pass, all final crops before recognition and all raw drafts before correction,
-  with zero retries. All 33,686 pre-existing archive files and thirty core modules remain
-  exact; the unchanged 213-test baseline is reused. Original source-local metadata stays
-  unchanged, including stage flags. The fresh verifier preserves all eight native uncertainty
-  notes and four root notes while resolving only two exact obsolete stage deferrals.
-
-  Next batch52 verifies school-program0029 from retained independent PDF350/printed364:
+- August 1991 remains active: twenty-four readable/sample-reviewed articles, no partials,
+  five non-owning headings and six unresolved identities out of 35. Batch52 completes
+  school-program0029, PDF350–353/printed364–367. Actual title:
   클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램, by 글. 노선규 (심곡국민학교 교사).
-  The canonical title is 업무 활용 코너 : 국민학교 교육계획 기초자료 작성 프로그램;
-  its literal contents reference is364. Prepared351–354 remain uninspected; full extent
-  is unverified. Verify all body pages, ending and adjacent material before mapping at most
-  six pages. Preserve Clipper source rows, identifiers, literals, comments, physical wraps
-  and printed errors without syntax repair or execution. Review every final exact crop before
-  pinned mapped Tesseract; read all raw drafts before one source pass. Resume
-  `archive/pdf/1991-08/restoration/batch-51/handoff.json`; do not rerun frozen helpers.
+  Selected package: `archive/pdf/1991-08/packages/batch-52-r01/school-plan`.
+  All 184 files match an independent export. All 52 source-pixel crops, 41 pinned settings
+  (three eng code, 38 kor+eng other) and 5,381 typed occurrences validate: 5,353 article ranges
+  and 28 listing ranges. The article retains 35 blocks, eleven originals, seven captions,
+  three joined prose blocks with six boundaries, 478 spatial fields and 151 reading rows.
+
+  All 83 JUKI rows retain 332 individual data fields, six repeated headers and total225.
+  The output-file table keeps fourteen names and one empty cell; the holiday structure
+  keeps six rows, 24 data fields, headers and total78. Four screenshots retain 21 independent
+  date occurrences and all ten screen4 day totals. Four unnumbered command rows remain
+  in three code blocks and 55 listing bytes; the Korean arrow explanation and boxed key
+  symbol stay separate. No full PLAN.PRG source is reconstructed. All 568 uncertainties,
+  55 opaque variants and four unknown-count graphic/input markers remain active.
+  Printed filename variants, O/0/I/1 candidates, prose220/204 versus screen284/298,
+  91/92/366-day fields and the formula remain unrepaired and unexecuted.
+
+  All 51 initial crops, eight refinements and one added lettering panel were reviewed before
+  41 initial recognitions. All raw drafts were read before one source correction pass;
+  zero retries or post-OCR changes. All 34,164 pre-OCR archive files and thirty core modules
+  remain exact; the unchanged 213-test baseline is reused. Lower353 unrelated contributor
+  advertisement excluded;367 folio retained. No school-program body pages or assembly pending.
+
+  Next batch53 verifies canonical0030, 테크니컬 독자마당 : 로고 화면 테크닉, hs,
+  canonical author 편집부, literal contents reference370. Its body opening and full extent
+  remain unverified. Reuse contents5, the reviewed354 printer advertisement and prepared
+  355–359 renders in batch52;355–359 remain uninspected. Candidate356 is a lookup candidate,
+  not established body ownership or a global folio offset. Verify complete source extent,
+  ending and neighbors before mapping at most six pages. Preserve program rows, literals,
+  screen/logo samples, physical wraps and source errors without syntax repair or execution.
+  Every final exact crop before pinned mapped Tesseract; all raw drafts before one source pass.
+  Resume `archive/pdf/1991-08/restoration/batch-52/handoff.json`; do not rerun frozen helpers.
   Whole-issue accounting, index, cover and closeout remain pending. No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.

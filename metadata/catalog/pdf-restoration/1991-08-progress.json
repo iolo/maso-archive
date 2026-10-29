@@ -2672,12 +2672,74 @@
       "toc_entry_id": "maso-1991-08-toc-0029",
       "title": "업무 활용 코너 : 국민학교 교육계획 기초자료 작성 프로그램",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0029 title,author노선규 andcontentsreference364 match independent350/364 opening. Actual title 클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램 andcredit글. 노선규 (심곡국민학교 교사) retained;editorial standfirst credit separate. Full350–353/364–367 andneighboring349/354 reviewed.353 right-column conclusion/terminal ornament ends the article;lower contributor-recruitment advertisement excluded.367folio retained.",
+        "Complete four-page native:184 independent export files exact. All52 source-pixel crops,41 pinned settings(3eng code/38kor+eng other) and5,381 typed occurrences(5,353article/28listing) validate.35 blocks,11 originals,seven captions,three joined prose blocks/six boundaries,478 spatial fields/151 rows retained. No body pages orassembly pending.",
+        "All83 JUKI rows/332 data fields,six repeated headers andtotal225 checked independently. Output table retains14 filenames/one empty cell;holiday table sixrows/24fields,headers andtotal78 retained. Four screenshots retain21 separate date occurrences andall ten screen4 day-count values. Four unnumbered command rows remain inthree code blocks/55listing bytes;Korean arrow explanation andboxed return-key original separate. No full PLAN.PRG source reconstructed orinstructions executed.",
+        "All568 uncertainty records,55 opaque variants andfour unknown-count graphic/input markers remain active. Filename variantsSUHUCHTS/SUHUCHST,PLAN31/PLAN32/PLAN6,HEADERFL,prose220/204 versus screen284/298,91/92/366days,printedformula andO/0/I/1 font candidates remain literal. No syntax,semantic,calendar orarithmetic repair.",
+        "All51 initial crops,eight refinements andone added illustration-lettering panel individually viewed before41 initial recognitions. All41 raw drafts read beforeone source correction pass;zero retries orpost-OCR changes. All34,164 pre-OCR archive files andthirty core modules exact;unchanged213-test baseline reused."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-08/packages/batch-52-r01/school-plan",
+        "article_id": "scan-maso-1991-08-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1991-08/packages/batch-52-r01/school-plan/manifest.json",
+          "sha256": "9ff0c7628e51e592ede9553a0c7429d30ecd6236ce53852eb6bd2f206a332226",
+          "bytes": 32054
+        },
+        "source_body_title": "클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램",
+        "source_series_title": "업무활용코너",
+        "source_byline": "글. 노선규 (심곡국민학교 교사)",
+        "canonical_byline_candidate": "노선규",
+        "canonical_page_reference": "364",
+        "coverage": {
+          "pdf_pages": [
+            350,
+            351,
+            352,
+            353
+          ],
+          "printed_pages": [
+            "364",
+            "365",
+            "366",
+            "367"
+          ],
+          "regions": 52,
+          "blocks": 35,
+          "figures": 11,
+          "excluded_regions": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "native_body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "full_source_extent": {
+          "start_pdf_page": 350,
+          "end_pdf_page": 353,
+          "ending_printed_page": "367",
+          "following_pdf_page": 354,
+          "following_role": "Full independent printer advertisement, no visible folio.",
+          "ending": "353 right-column conclusion andterminal ornament; lower unrelated contributor-recruitment advertisement excluded, visible367 folio retained."
+        },
+        "validation": {
+          "path": "archive/pdf/1991-08/restoration/batch-52/validation.json",
+          "sha256": "592b1477ca1a4137dae58effe0ba18f7d739c29ae0d8b72f6cac16a66b2a12fc",
+          "bytes": 2679
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-08/restoration/batch-52/reproduction.json",
+          "sha256": "db85e22ee6aef5e705b7995a19756cd1660c061c83ad12ebb09b7572e474ff36",
+          "bytes": 32811
+        },
+        "private_adapter_required": false,
+        "checkpoint": "batch-52"
+      }
     },
     {
       "toc_entry_id": "maso-1991-08-toc-0030",
@@ -4186,65 +4248,99 @@
         "sha256": "d22d1940cd30a0e2290a5acee6cf95ae1f41665ab45926a73c252b2172189f0c",
         "bytes": 73273
       }
+    },
+    {
+      "name": "1991-08-batch-52",
+      "status": "complete",
+      "completed_at": "2026-10-29T06:29:35.008962+00:00",
+      "goal": "Restore complete school-program350–353 with literal command,screen andDBF-table evidence",
+      "toc_entry_ids": [
+        "maso-1991-08-toc-0029"
+      ],
+      "canonical_tasks": 1,
+      "source_pages": 4,
+      "new_mapped_pages": 4,
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 41,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_refinement_events": 8,
+      "pre_ocr_added_regions": 1,
+      "post_ocr_crop_repairs": 0,
+      "private_adapter_required": false,
+      "validation": {
+        "path": "archive/pdf/1991-08/restoration/batch-52/validation.json",
+        "sha256": "592b1477ca1a4137dae58effe0ba18f7d739c29ae0d8b72f6cac16a66b2a12fc",
+        "bytes": 2679
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-08/restoration/batch-52/reproduction.json",
+        "sha256": "db85e22ee6aef5e705b7995a19756cd1660c061c83ad12ebb09b7572e474ff36",
+        "bytes": 32811
+      }
     }
   ],
   "totals": {
     "canonical_entries": 35,
-    "readable": 23,
+    "readable": 24,
     "partial": 0,
     "group_headings": 5,
-    "unresolved": 7
+    "unresolved": 6
   },
   "notes": [
-    "Full August issue remains active:23 readable articles,no partial articles,five non-owning headings andseven unresolved identities. Hardware-basics0028 complete at338–348 inactual two-native assembly with365 immutable native files. Canonical page reference and348folio remain null. Whole-issue accounting,index,cover andcloseout pending;no reader rebuild.",
+    "Full August issue remains active:24 readable articles,no partials,five non-owning headings andsix unresolved identities. School-program0029 complete at350–353/364–367 inone native. Lower353 advertisement excluded;367folio retained. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild.",
     "Previous goal-related response only identified next issue; no authoritative state change (no progress). This checkpoint creates issue accounting and validated restoration output.",
     "Historical pilot and bounded PDF84–85/CD9108098 comparison remain intact. No reader rebuild or frontend work."
   ],
   "next_checkpoint": {
-    "name": "1991-08-batch-52",
-    "goal": "Verify complete school-program0029 source extent from350/364, then restore at most six verified pages.",
+    "name": "1991-08-batch-53",
+    "goal": "Verify complete technical-readers0030 source identity and extent fromliteral contentsreference370, then restore atmost six verifiedpages.",
     "toc_entry_ids": [
-      "maso-1991-08-toc-0029"
+      "maso-1991-08-toc-0030"
     ],
-    "canonical_title": "업무 활용 코너 : 국민학교 교육계획 기초자료 작성 프로그램",
-    "canonical_byline_candidate": "노선규",
-    "canonical_page_reference": "364",
+    "canonical_title": "테크니컬 독자마당 : 로고 화면 테크닉, hs",
+    "canonical_byline_candidate": "편집부",
+    "canonical_page_reference": "370",
     "mapping_targets": [],
     "lookup_candidates": [
       5,
-      349,
-      350,
-      351,
-      352,
-      353,
       354,
       355,
       356,
       357,
       358,
-      359
+      359,
+      360,
+      361,
+      362,
+      363,
+      364
     ],
     "retained_context": {
-      "directory": "archive/pdf/1991-08/restoration/batch-49/source-review",
-      "independent_opening": {
-        "pdf_page": 350,
-        "printed_page": "364",
-        "source_body_title": "클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램",
-        "source_byline": "글. 노선규 (심곡국민학교 교사)"
-      },
+      "directory": "archive/pdf/1991-08/restoration/batch-52/source-review",
       "prepared_uninspected_pages": [
-        351,
-        352,
-        353,
-        354
+        355,
+        356,
+        357,
+        358,
+        359
       ],
-      "full_extent_verified": false
+      "source_preparation": {
+        "path": "archive/pdf/1991-08/restoration/batch-52/source-preparation.json",
+        "sha256": "07b6f1947e98825b7b7774adc6945ed7d69633d5e9679cf3c6b9ebfb3ea54152",
+        "bytes": 4241
+      },
+      "previous_reviewed_page": 354,
+      "previous_reviewed_role": "Full independent printer advertisement, no visible folio.",
+      "full_extent_verified": false,
+      "independent_opening_verified": false,
+      "candidate_pdf_page": 356
     },
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Read PLAN-OCR. Reuse contents5 and retained independent school-program opening350/364 frombatch49 source-review. Canonical0029 업무 활용 코너 : 국민학교 교육계획 기초자료 작성 프로그램 hasauthor노선규 andliteral contentsreference364. Actual350 title 클리퍼로 작성한 국민학교 교육계획 기초자료 작성 프로그램 andcredit글. 노선규 (심곡국민학교 교사) wereobserved;full extent remains unverified. Prepared351–354 renders remain uninspected. Verify each full body page,visible folio,actual ending andneighboring independent material before mapping atmost sixpages. Reuse349 independentbookadvertisement and350 opening. First source lookup window5/349–359 is within20 outside-map pages;extend only ifnecessary withinbounds. Segment longerarticles andcomplete actual assembly separately. Preserve every Clipper/program line,identifier,literal,comment,physicalwrap,table/example andprintederror without expectedsyntax repair orexecution. Every final exact crop before pinned mapped Tesseract;eng forstandalone code,kor+eng forothers;all raw drafts beforeone sourcepass. Whole-issue accounting,index,cover andcloseout pending;no reader rebuild."
+    "note": "Read PLAN-OCR. Verify canonical0030 테크니컬 독자마당 : 로고 화면 테크닉, hs,canonical편집부,literal contentsreference370. No independent body opening orfull extent is verified yet. Reuse contents5,354 fullprinteradvertisement andprepared355–359 source views inbatch52/source-review;355–359 remain uninspected. Inspect nearby lookup pages355–364 tofind actual opening,full body,ending andindependent neighbors,without assuming a global folio offset. Candidate356 is onlya lookup candidate for370,not established ownership. Map atmost six verifiedpages andatmost two canonicaltasks. Preserve source prose,screen/logo samples,program rows,identifiers,literals,physicalwraps,source errors andtiny/graphic glyphs asprinted;do not repair expected syntax orexecute historicalprograms. Review every final exact crop before pinned mapped Tesseract(eng standalonecode/kor+eng other);read every raw draft beforeone sourcepass. Longer articles requireseparate natives andactual assembly. Whole-issue accounting,index,cover andcloseout remain pending;no reader rebuild."
   }
 }

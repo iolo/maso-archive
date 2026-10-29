@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1991 remains in progress: twenty-three readable/sample-reviewed articles,
-no partials, five non-owning headings and seven unresolved identities. Hardware-basics0028
-is complete at338–348 in `packages/hardware-basics-complete-r01`: 373 independently exact
-files, including all 365 unchanged native files. All 103 source-pixel crops, 82 settings
-and 8,911 native/projected typed occurrences validate; 8,765 source-local and 146 root
-combined occurrences are independently checked. All 511 uncertainties, 46 opaque variants,
-320 spatial fields, fourteen overbar scopes and 38 glossary definitions remain active.
-Lower348 advertisement excluded;348 folio and canonical page reference remain null.
-No hardware-basics body pages or assembly pending. Next batch52 verifies school-program0029
-extent from350/364; prepared351–354 remain uninspected. Whole-issue accounting, index,
-cover and closeout remain pending. No reader rebuild.
+August 1991 remains in progress: twenty-four readable/sample-reviewed articles,
+no partials, five non-owning headings and six unresolved identities. School-program0029
+is complete at350–353/364–367 in `packages/batch-52-r01/school-plan`: 184 independently
+exact files, 52 source-pixel crops, 41 settings and 5,381 typed occurrences validate.
+All 83 DBF rows, fourteen output filenames, four screenshots and four command rows
+retain literal source evidence. All 568 uncertainties, 55 opaque variants and four
+unknown-count graphic/input markers remain active. Lower353 advertisement excluded;
+367 folio retained. No school-program body pages or assembly pending. Next batch53
+verifies technical-readers0030 from contents reference370; its actual extent is unverified.
+Prepared355–359 remain uninspected. Whole-issue accounting, index, cover and closeout
+remain pending. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 
