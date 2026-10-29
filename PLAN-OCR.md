@@ -23,42 +23,36 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1991 remains active: twenty-five readable/sample-reviewed articles, no partials,
-  five non-owning headings and five unresolved identities out of 35. Batch53 completes
-  technical-readers0030 at PDF356–357/printed370–371. Actual title 로고화면 테크닉, hs
-  and credit 글. 편집부 match the canonical identity and literal contents reference370.
-  Selected package: `archive/pdf/1991-08/packages/batch-53-r01/hs`.
-  All 126 files match an independent export. All 36 source-pixel crops, 27 pinned settings
-  (three eng code, 24 kor+eng other) and 3,106 typed occurrences validate: 2,351 article
-  ranges and 755 listing ranges. The article retains 26 blocks, nine originals, six captions,
-  one prose continuation, 141 spatial fields and 22 reading rows.
+- August 1991 remains active: twenty-six readable/sample-reviewed articles, no partials,
+  five non-owning headings and four unresolved identities out of 35. Batch54 completes
+  editorial0031, 마굿간 : 왜 홍보를 꺼리는 걸까?, at PDF362/printed376.
+  Actual source credit 글. 김영숙 기자 remains distinct from canonical 편집부.
+  Selected package: `archive/pdf/1991-08/packages/batch-54-r01/publicity`.
+  All 26 files match an independent export. Six source-pixel crops, four pinned kor+eng
+  settings and 457 typed article-range occurrences validate. Four text blocks preserve
+  the three-line title, series heading, byline and eight body paragraphs; two original
+  images retain the horse-journalist illustration and terminal ornament.
 
-  Six shift strips preserve 96 cell positions, 88 text fields and eight blanks. The memory
-  diagram retains six displayed rows, 36 byte fields, six row labels, seven address formulas,
-  two mode titles and two legend labels. No omitted middle bytes or rows are inferred.
-  One prose example and the two-column C listing retain 49 unnumbered physical rows in
-  three code blocks and 1,621 listing bytes. Both rows without trailing semicolons and
-  the final three braces remain literal. All 218 uncertainties and ten opaque variants
-  remain active, including MKFP/MK_FP, `<dos. h>` spacing, 38 ell/one and six buffer1/bufferl
-  occurrences. Twelve hex fields and 149 operator occurrences retain separate source ranges.
-  No syntax, semantic, address arithmetic or historical execution checks are claimed.
+  Two quoted passages and the lowercase xx source placeholder remain literal without
+  redaction. All 17 uncertainties and eleven opaque variants remain active, including
+  고마왔다, 왠만한, 끄떡하면, 안됩니까?, 카달로그 and 가져다·주기. Three source-claim
+  fields and four physical-wrap fields remain unverified; no grammar or historical repair.
+  Original illustration marks have no inferred encoded text or glyph counts.
 
-  All 36 initial crops, five first and two final refinements were reviewed before 27 initial
-  recognitions. All raw drafts were read before one source correction pass; zero retries,
-  added regions or post-OCR changes. All 34,721 pre-OCR archive files and thirty core modules
-  remain exact; the unchanged 213-test baseline is reused. No hs body pages or assembly pending.
+  All six initial crops and four refinements were reviewed before four initial recognitions.
+  Every raw draft was read before one source pass; zero retries, added regions or post-OCR
+  changes. All 35,074 pre-OCR archive files and thirty core modules remain exact; unchanged
+  213-test baseline reused. No editorial body pages or assembly pending. Previous361 is
+  a book advertisement; following363 is an independent 애독자광장 divider with no visible folio.
 
-  Next batch54 verifies and restores canonical0031, 마굿간 : 왜 홍보를 꺼리는 걸까?,
-  at the observed PDF362/printed376 opening. Its observed source credit 글. 김영숙 기자
-  must remain distinct from canonical 편집부. The full362 page, terminal ornament and
-  376 folio were reviewed; verify the source byline crop and next363 independent material
-  before mapping. Page361 is an independent book advertisement;363–364 remain prepared but
-  uninspected. Preserve quoted conversation, placeholders, paragraphs, printed spellings
-  and original illustration without grammar or historical-claim repair. Every final exact
-  crop before pinned mapped Tesseract; all raw drafts before one source pass. Resume
-  `archive/pdf/1991-08/restoration/batch-53/handoff.json`; do not rerun frozen helpers.
-  News/community eligibility and body work, whole-issue accounting, index, cover and closeout
-  remain pending. No reader rebuild.
+  Next batch55 verifies 정보 레이다0032 and its pageless child0046 against contents and
+  source before eligibility/ownership decisions and bounded restoration. Canonical103
+  stays literal; PDF89 is only an unverified lookup candidate. Community0038/0047 remains
+  separate:363 divider reviewed, intrinsic references378,382,386,387,389;364 prepared but
+  uninspected. Full news/community extents remain unverified. Resume
+  `archive/pdf/1991-08/restoration/batch-54/handoff.json`; retain frozen helpers.
+  News/community work, whole-issue accounting, index, cover and closeout remain pending.
+  No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
   0003 the batch07 listing adapter and0002 the batch04 native adapter.
   See [August progress](docs/progress/9108.md) and
