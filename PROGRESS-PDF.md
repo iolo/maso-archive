@@ -9,12 +9,12 @@ by the calendar month in which restoration work happened.
 August 1991 remains in progress: twenty-eight readable/sample-reviewed articles,
 no partials, five headings, two section references and zero unresolved identities =35.
 All canonical body pages, assemblies and child anchors are complete. Community package
-`packages/community-complete-r01` has 584 independently exact files/576 immutable natives.
-Batch64 derives211 body pages/211 assignments/21 mixed exclusions and reviews the first
-twenty outside pages. Accounting has231 of383 content records;152 outside pages pending.
-All canonical outcomes unchanged. Next batch65 reviews21–40. Standalone index/report,
-cover and whole-issue closeout remain required. Body prose/embedded lettering/handwriting
-and uncertain glyphs remain volunteer work. No reader rebuild.
+`packages/community-complete-r01` has584 independently exact files/576 immutable natives.
+Accounting has251 of383 content records:211 selected body pages and40 directly reviewed
+outside pages;132 outside pages pending. All canonical outcomes,earlier observations and
+body assignments unchanged. Next batch66 reviews41–60. Standalone index/report,cover and
+whole-issue closeout remain required. Body prose/embedded lettering/handwriting and
+uncertain glyphs remain volunteer work. No reader rebuild.
 See [August progress](docs/progress/9108.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-08-progress.json).
 

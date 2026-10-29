@@ -29,22 +29,21 @@ paired OCR or a new engine comparison.
   Community complete package: `archive/pdf/1991-08/packages/community-complete-r01`
   (584 independently exact files, including all 576 unchanged native files).
 
-  Batch64 derives whole-issue ownership: 211 selected body pages/211 assignments, no shared
-  body pages, and 21 mixed exclusions. Of 172 outside-body candidates, pages1–20 are now
-  directly reviewed: cover, two contents pages including the colophon, fifteen advertisements
-  and two unlisted SKC contest-promotion pages. All observed folios on these pages remain
-  null; contents references and issue-month8 are not page folios. Accounting has 231 of383
-  content records; 152 outside pages remain explicitly pending. The partial accounting JSON
-  matches an independent reconstruction. BASIC0004 reuses its retained legacy adoption
-  validation/current-identity guard; no package or source text is changed.
+  Whole-issue ownership has 211 selected body pages/211 assignments, no shared body pages,
+  and 21 mixed exclusions. Batch65 directly reviews outside pages21–40: twenty advertisements,
+  all with null observed folios. Cumulative outside review covers1–40. The accounting JSON
+  now has 251 of383 content records and 132 outside pages explicitly pending; an independent
+  reconstruction is byte-identical. All previous twenty observations and211 body assignments
+  remain unchanged. Page40 is a TeleZone catalogue advertisement;following context is not
+  assumed. BASIC0004 retains its legacy adoption validation/current-identity guard.
 
-  No new article export, mapping, OCR or source correction. Twelve new full-page source
-  renders and eight retained views support the twenty declared outside lookups. All 40,037
-  prior archive files and thirty core modules remain exact; unchanged213-test baseline reused.
-  All 35 canonical outcomes remain unchanged. Body prose, embedded lettering/handwriting,
-  uncertain glyph encoding/counts, human acceptance/full proofreading and source claims
-  remain unverified. Next batch65 reviews outside pages21–40 within the twenty-page limit.
-  Resume `archive/pdf/1991-08/restoration/batch-64/handoff.json`.
+  No new article export, mapping, OCR or source correction. Twenty full-page3000px renders
+  support the twenty declared outside lookups. All 40,082 prior archive files and thirty core
+  modules remain exact; unchanged213-test baseline reused. All35 canonical outcomes remain
+  unchanged. Body prose, embedded lettering/handwriting, uncertain glyph encoding/counts,
+  human acceptance/full proofreading and source claims remain unverified.
+  Next batch66 reviews outside pages41–60 within the twenty-page limit.
+  Resume `archive/pdf/1991-08/restoration/batch-65/handoff.json`.
   Full383-page accounting, standalone issue index/report, cover and closeout remain required.
   No reader rebuild.
   Selected0020 requires the batch39 boundary adapter;0018 the batch35 boundary adapter,
