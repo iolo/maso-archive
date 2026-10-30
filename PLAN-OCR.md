@@ -28,24 +28,24 @@ no partial articles, four non-owning group headings and two non-owning section r
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
 complete. Full issue accounting and closeout remain incomplete.
 
-Batch64 directly reviews outside PDF 41–60: twenty advertisements, with no visible printed
-folios and no additional canonical article bodies. All twenty complete 3000px source views
-are retained. Daewoo product/specification catalogues, PRONIX and NOVELL PC-LAN promotions,
-POS-Serve and KETEL membership notices remain outside article ownership. K.L. hardware 54–55
-and Samsung software 56–57 retain their two-page associations. No advertised membership notice
-is substituted for the unresolved community survey/application form.
+Batch65 directly reviews outside PDF 61–80: twenty advertisements with no visible printed
+folios or additional canonical article bodies. The TeleZone catalogue 64–65 and Handok terminal
+promotion 70–71 retain their two-page associations. Software catalogues, notebook/network/device
+promotions and page 77's advertising exchange coupon remain outside canonical body ownership.
+The coupon is not a substitute for the unresolved community survey/application form. Eighteen
+new 3000px source views and two retained full-page views support this checkpoint's direct review.
 
-There are now 284 of 406 content records: 224 selected body pages and sixty reviewed outside
-pages. Of 182 outside candidates, 122 remain pending. Cumulative outside categories are 57
-advertisements, cover, contents and contents/colophon. All previous page records remain exact,
-including literal/null folios and community 87/radar 385 index references; no global offset.
+There are now 304 of 406 content records: 224 selected body pages and eighty reviewed outside
+pages. Of 182 outside candidates, 102 remain pending. Cumulative outside categories are 77
+advertisements, cover, contents and contents/colophon. Every previous page record, literal/null
+folio and source index reference remains exact, without a global folio offset.
 
 The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
-Forty-eight frozen native contexts and eight exact mixed-page exclusions remain unchanged;
-the earlier nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches
-an independent fresh-process rebuild. All 29 canonical entries/outcomes, 40,827 prior files,
-thirty core modules and thirteen private adapters remain exact. Batch61's 213-test baseline is
-reused for data-only work. No new article export, mapping, OCR, source correction or reader build.
+Forty-eight native contexts and eight exact mixed-page exclusions remain unchanged; the prior
+nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches an independent
+fresh-process rebuild. All 29 canonical entries/outcomes, 40,884 prior files, thirty core modules
+and thirteen private adapters remain exact. Batch61's 213-test baseline is reused for data-only
+work. No new article export, mapping, OCR, source correction or reader build.
 
 Radar 0034 remains complete at radar-complete-r01: nineteen pages 89–95,98–109 and all 740 native
 files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor and typed
@@ -63,10 +63,11 @@ lettering and earlier manual glyph tasks remain explicit volunteer work. Human a
 full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
 contact/geographic claims, execution and independent backup recovery remain unverified.
 
-Next: Batch65 reviews PDF 61–80, at most twenty new outside pages. Reuse the pinned Batch62
-accounting builder/ownership and Batch64 accounting, preserving all earlier records. Finish all
-406 pages and final survey/application/SAMPLE.C gap dispositions, then cover, standalone issue
-export, independent all-native/actual assembly rebuilds and closeout. No reader rebuild.
+Next: Batch66 reviews the next twenty outside pages: PDF 81–83,88,96–97,110–115,148–155.
+Reuse pinned Batch62 accounting builder/ownership and Batch65 accounting, preserving earlier
+records. Finish all 406 pages and final survey/application/SAMPLE.C gap dispositions, then cover,
+standalone issue export, independent all-native/actual assembly rebuilds and closeout.
+No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
