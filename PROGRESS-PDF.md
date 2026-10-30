@@ -10,48 +10,51 @@ September 1991 restoration is active: twenty-one readable/sample-reviewed articl
 one partial article, four non-owning group headings, one non-owning section reference
 and two unresolved identities account for all 29 canonical TOC entries.
 
-Batch54 identifies community parent 0026 and compound child 0040 and preserves the opening
-PDF 387–392. PDF 387 is the community divider; 89 is the information-radar divider.
-Canonical community own 87, child null own reference, titles and hierarchy stay unchanged.
-The child is one section reference under the parent and owns no duplicate body. Six divider
-rows retain references 386, 388, 391, 394, 395, 400; quiz/survey share a row. These references are
-independent of observed folios and actual topic locations.
+Batch55 preserves the final five available community pages: PDF 393, 396–398 and upper 400.
+Together with the immutable opening 387–392, all eleven available pages now have native
+packages. Actual parent assembly and child 0040's final anchor projection remain pending;
+parent 0026 stays partial/sample-reviewed. Canonical own 87, child null own reference,
+titles and hierarchy remain unchanged. The lower 400 advertising index is excluded;
+the editing notes and visible 400 footer are retained in disjoint original crops.
 
-Both 205-file exports and a fresh-process rebuild match. The opening preserves 61 regions,
-45 blocks, 16 original figures and 45 OCR records, including six complete original pages.
-Four letters, six complete Q&A items, an editorial reply and two gift notices retain separate
-body-image reading flows and nine reader credits. Body prose and embedded artwork lettering
-await volunteer transcription. Two independent command rows use eng; 43 other regions,
-including screenshot fields, use kor+eng. All 45 drafts were read before one source correction
-pass; eleven crop revisions preceded OCR, with zero recognition retries. All 392 typed ranges,
-61 exact crops/decoded PNGs, 45 settings and ZIP CRC pass. All 35,434 prior files, 53 earlier
-packages, thirty core modules and eleven adapters remain exact; Batch49's successful 213-test
-baseline is reused for data-only work. No reader rebuild.
+Both 255-file exports and a fresh-process rebuild match. The new native preserves 79 regions,
+56 blocks, 23 figures, 56 OCR records and 189 reading rows. Nine classified posts retain 41
+physical rows and their separate names, contacts, prices and hardware fields. Quiz rules,
+nine prize originals/captions, current question, previous answer and survey-prize image remain
+source data. Five groups of three blank response boxes stay unfilled. The four-column winners
+list retains 58 names/addresses in ten categories, 116 name/address fields and two category
+continuations: 영진출판사 columns 1→2 and SKC columns 3→4. Five disk groups retain seven title
+entries; the catalogue does not establish recovered disk contents or locate B+ tree SAMPLE.C.
+Eight editing notes/credits retain their original body images and pen-name candidates.
 
-The source heading setbkclolor() stays separate from command setbkcolor(배경색).
-Ten textual manual markers, two image-only manual extents and 25 glyph candidates retain
-unknown glyph identities/counts. Available community coverage is eleven pages 387–393,
-396–398 and upper 400; five body pages and actual assembly remain pending. Independent ads 394–395,
-subscription page 399 and lower 400 advertising index are outside community body ownership.
+All five mapped full pages, eight outside contexts, 79 initial exact crops and 18 pre-OCR crop
+revisions were reviewed before 56 kor+eng recognitions. All 56 raw drafts were read before
+one source correction pass; zero recognition retries. The initial schema overlap rejection
+and map repair are retained. All 922 typed article ranges, 79 exact crops/decoded PNGs, 56
+settings and ZIP CRC pass. Every page 400 region is raster-disjoint from the advertising index;
+reconstructing its eligible original pixels is exact. All 36,130 prior files, 54 earlier packages,
+thirty core modules and eleven adapters remain unchanged. Batch49's successful 213-test baseline
+is reused for data-only work. There are 122 glyph candidates and zero new manual markers;
+earlier manual tasks remain unchanged. Body prose and embedded artwork lettering await
+volunteer transcription. No reader rebuild.
 
 The survey and seminar application form remain unlocated in the bounded community span.
-The source jumps from PDF 398/printed 396 to PDF 399/printed 399; PDF 405 has a literal 397~398
-placeholder with damaged text. Its missing-content identity is unverified. Subscription giro
-forms 401–402 are not substitutes. The active seminar related-link task records this bounded
-gap; its original complete 156–157 package remains unchanged. Full 406-page accounting must
-establish the final coverage disposition without an unsupported issue-wide absence claim.
-Human acceptance, full proofreading, source encoded bytes/exact spaces/glyph identities/counts,
-contacts/technical/historical claims, execution and independent backup recovery remain unverified.
+Source folios jump 396→399; PDF 405 contains a 397~398 placeholder with damaged text. Its missing
+content identity is unverified. Survey-prize material and subscription giro forms 401–402 are
+not substitutes. Full 406-page accounting and final gap disposition remain pending. Human
+acceptance, full proofreading, source encoded bytes/exact spaces/glyph identities/counts,
+contacts/geographic/technical/historical claims, execution and independent backup recovery
+remain unverified.
 
-Next: Batch55 restores community 0026's remaining five available pages 393, 396–398 and upper 400,
-using retained source renders and pinned Batch49 dos_adapter. Preserve classifieds, quiz/prizes/
-winners, bulletin and editing notes; exclude lower 400 advertising index and retain eligible footer.
-Then actually assemble the eleven available pages and project child 0040's final anchor, carrying
-the explicit survey/application gap and volunteer tasks. News identities 0034/0041 remain unresolved;
-actual 89 divider/90 domestic-news opening are observed clues, while canonical radar own 385 stays
-unchanged. Full 406-page accounting, cover, issue export and closeout remain pending. B+ tree 0012's
+Next: Batch56 actually assembles community 0026's eleven available pages from the two immutable
+natives and projects child 0040's topic anchor into the assembled parent. Preserve all native
+fields, body-image flows, exclusions, folios, glyph candidates and the explicit survey/application
+gap, with correct article/native text-range contexts. No new mapping, OCR or source correction
+is needed for this assembly. News identities 0034/0041 remain unresolved; actual radar divider 89
+and domestic-news opening 90 are observed clues, while canonical radar own 385 stays unchanged.
+Full 406-page accounting, cover, standalone issue export and closeout remain. B+ tree 0012's
 referenced 〈리스트 2〉SAMPLE.C remains unlocated in bounded body 264–271/appendix 374–381/387–390;
-retain the gap for bounded lookup/full accounting without an issue-wide absence claim.
+retain that gap without an unsupported issue-wide absence claim.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

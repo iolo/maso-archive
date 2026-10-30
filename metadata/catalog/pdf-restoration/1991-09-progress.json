@@ -4373,43 +4373,57 @@
         "Current205-file native preserves61regions,45blocks,16figures,45OCRrecords,89reading rows andtwo independent one-row command examples. Six complete original pages retain all body pixels. Four complete letters,six complete Q&A items,editorial reply andtwo gift notices have separate ordered body-image flows:nine reader credits,six letter/eight question/eleven answer fragments andnine internal continuations. Body prose/embedded artwork lettering await volunteer transcription.",
         "Source setbkclolor() question heading and setbkcolor(배경색) command remain independent literal occurrences. Original Speed Disk screenshot retains caption,five lettering regions,97%/0%/00:00:00/1block=9clusters candidates and graphic matrices. Ten textual manual markers plus two image-only manual extents retain unknown glyph counts;25glyph candidates preserve opaque/typographic fields without contact/hardware/historical repair.",
         "All61initial crops and11pre-OCR revisions/eight distinct regions reviewed before45recognitions:2eng commands/43kor+eng other text. All45raw drafts read before one source correction pass;zero recognition retries. Two205-file exports andfresh-process rebuild match;all392typed ranges in their named download/block/region/scan contexts,61exact crops/decodedPNGs,45settings andZIPCRC pass. All35434prior files,53prior packages,30core modules and11adapters remain exact. Batch49successful213-test baseline reused for data-only work.",
-        "Human acceptance/full proofreading,source encoded bytes/exact spaces/glyph identities/counts,contacts/technical/historical claims,execution andindependent backup recovery remain unverified. Earlier gaps/manual tasks remain exact;no reader rebuild or implementation change."
+        "Human acceptance/full proofreading,source encoded bytes/exact spaces/glyph identities/counts,contacts/technical/historical claims,execution andindependent backup recovery remain unverified. Earlier gaps/manual tasks remain exact;no reader rebuild or implementation change.",
+        "Batch55 preserves final five available community pages393/396–398/upper400. Opening387–392 remains immutable;all11available pages are preserved across two natives. No available source page remains unmapped,but actual parent assembly andfinal child0040 anchor projection are pending. Parent stays partial/sample-reviewed until actual assembly.",
+        "Allfive full mapped pages,eight outside contexts and79initial exact crops were reviewed before56kor+eng recognitions. Eighteen pre-OCR crop refinements were reviewed;one initial schema overlap rejection/map repair is retained. All56raw drafts were read beforeone source correction pass;zero recognition retries. Zero independent code orcommands.",
+        "Current255-file native retains79regions,56blocks,23figures and189reading rows. Nine classified posts(two wanted/seven sale) retain41physical rows andindependent names/contacts/prices/model/capacity fields. Four complete original pages andpage400 upperbody/footer retain all eligible pixels. Every page400 region is raster-disjoint fromthe lower advertising index;the masked eligible-page reconstruction is exact.",
+        "Quiz rules retain ten physical rows,deadline9월20일,announcement10월호지면에,nine prize originals/provider captions,current question andpreviousanswer프레임그래버. Five groups ofthree blank boxes remain unfilled Unicode candidates. Source페이지화이트 is literal. Survey-prize caption/image is not a survey/application-form substitute.",
+        "Four-column winners list preserves58names/addresses in10categories,116name/address fields,69physical rows andtwo category continuations. 영진출판사 continuesc1→c2;SKC디스켓 continuesc3→c4 andits printed(20명) stays atc4opening. 김 영 retains internalname spacing. No geographic,name,identity,provider-label orrecipient-count repair.",
+        "Five disk groups retainseven source titleentries andtheir existing canonical article associations,including B⁺tree andppuri parts(1)/(2). Catalogue labels do notprove recovered original disk data orlocatedSAMPLE.C. Publisher/back-issue notice andeight editing notes/pen-name credits remain distinct source occurrences;bodyprose/embeddedlettering volunteertranscription pending.",
+        "Both255-file exports andfresh-process rebuild match. All922typed article ranges validate in named download/block/region/scan contexts;79exact crops/decoded PNGs,56settings andZIPCRC pass. All36130prior files,54earlier packages,30core modules and11adapters remain exact;Batch49successful213-test baseline reused for data-only work.122glyph candidates/zero newmanual markers;earlier manual tasks unchanged.",
+        "Survey/application form remains unlocated in boundedcommunity span;405397~398placeholder andsource folio gap remain explicit withmissing-content identity unverified. Full406-pageaccounting/finaldisposition pending. Humanacceptance/fullproofreading,sourceencodedbytes/exactspaces/glyphidentities/counts,contacts/geographic/technical/historicalclaims,execution andindependentbackup recovery remainunverified. No readerbuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
+        "directory": "archive/pdf/1991-09/packages/batch-55-r01/community-b",
         "article_id": "scan-maso-1991-09-toc-0026",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-54-r01/community-a/manifest.json",
-          "sha256": "3b385edc987a38a0b2540c25cdc96b1388c9fd824eb9d18645d4307236a4fc81",
-          "bytes": 35154
+          "path": "archive/pdf/1991-09/packages/batch-55-r01/community-b/manifest.json",
+          "sha256": "92baf614968072ceacf2c96626865fd4f9b163efa027e141de5c531422636900",
+          "bytes": 44036
         },
         "coverage": {
           "pdf_pages": [
-            387,
-            388,
-            389,
-            390,
-            391,
-            392
-          ],
-          "printed_pages": [
-            null,
-            "386",
-            "387",
-            "388",
-            "389",
-            "390"
-          ],
-          "regions": 61,
-          "blocks": 45,
-          "figures": 16,
-          "deferred_pdf_pages": [
             393,
             396,
             397,
             398,
             400
           ],
+          "printed_pages": [
+            "391",
+            "394",
+            "395",
+            "396",
+            "400"
+          ],
+          "regions": 79,
+          "blocks": 56,
+          "figures": 23,
+          "deferred_pdf_pages": [],
+          "all_native_pdf_pages": [
+            387,
+            388,
+            389,
+            390,
+            391,
+            392,
+            393,
+            396,
+            397,
+            398,
+            400
+          ],
+          "all_available_pages_preserved_across_natives": true,
           "remaining_extent_unverified": false,
           "complete_article": false,
           "survey_recovery_unverified": true
@@ -4459,16 +4473,16 @@
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-54/validation.json",
-          "sha256": "40329570e14aadedbbee4cdfbcc01e8ac6cb597562f755c52b7253f0e6615617",
-          "bytes": 2330
+          "path": "archive/pdf/1991-09/restoration/batch-55/validation.json",
+          "sha256": "2b70c7f8bdbd961b3f1a72444da8adc0c2b5fb4933c4e01c18a9eeeb75ce522f",
+          "bytes": 2732
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-54/reproduction.json",
-          "sha256": "e14de9988587610e3540e50e67b54411935706cac12afe3d7be7f195d5dfc507",
-          "bytes": 36116
+          "path": "archive/pdf/1991-09/restoration/batch-55/reproduction.json",
+          "sha256": "1b683b32b01bd6c655d9a2f30ebe6e290f436914e073522df5e9efc1d5263131",
+          "bytes": 44998
         },
-        "checkpoint": "batch-54",
+        "checkpoint": "batch-55",
         "native_segments": [
           {
             "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
@@ -4493,6 +4507,28 @@
               "389",
               "390"
             ]
+          },
+          {
+            "directory": "archive/pdf/1991-09/packages/batch-55-r01/community-b",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-55-r01/community-b/manifest.json",
+              "sha256": "92baf614968072ceacf2c96626865fd4f9b163efa027e141de5c531422636900",
+              "bytes": 44036
+            },
+            "pdf_pages": [
+              393,
+              396,
+              397,
+              398,
+              400
+            ],
+            "printed_pages": [
+              "391",
+              "394",
+              "395",
+              "396",
+              "400"
+            ]
           }
         ],
         "related_reference_tasks": [
@@ -4506,7 +4542,9 @@
             "seminar_application_form_target_location": null,
             "full_issue_absence_claim": false
           }
-        ]
+        ],
+        "all_available_body_pages_preserved_across_natives": true,
+        "remaining_available_source_pages": []
       }
     },
     {
@@ -6444,6 +6482,51 @@
         "sha256": "e14de9988587610e3540e50e67b54411935706cac12afe3d7be7f195d5dfc507",
         "bytes": 36116
       }
+    },
+    {
+      "name": "1991-09-batch-55",
+      "status": "complete",
+      "completed_at": "2026-10-30T16:06:53.477049+00:00",
+      "goal": "Restore final five available community pages393/396–398/upper400 with classified/quiz/prize/winner/catalogue/editorial fields andexact advertising-index exclusion;retain survey/application gap beforeactualassembly.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0026"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        393,
+        396,
+        397,
+        398,
+        400
+      ],
+      "outside_lookup_pages": 8,
+      "outside_lookup_pdf_pages": [
+        5,
+        392,
+        394,
+        395,
+        399,
+        401,
+        402,
+        405
+      ],
+      "recognition_invocations": 56,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_revisions": 18,
+      "preflight_schema_map_repairs": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-55/validation.json",
+        "sha256": "2b70c7f8bdbd961b3f1a72444da8adc0c2b5fb4933c4e01c18a9eeeb75ce522f",
+        "bytes": 2732
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-55/reproduction.json",
+        "sha256": "1b683b32b01bd6c655d9a2f30ebe6e290f436914e073522df5e9efc1d5263131",
+        "bytes": 44998
+      }
     }
   ],
   "totals": {
@@ -6460,23 +6543,22 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-55",
-    "goal": "Restore community0026 remaining five available body pages393,396–398 andupper400;preserve classified listings,quiz/prizes/winners,bulletin andediting notes while carrying explicit survey/application gap.",
+    "name": "1991-09-batch-56",
+    "goal": "Actually assemble community0026 eleven available pages from immutable Batch54/55 natives andproject compoundchild0040 final topic anchor;carry explicit survey/application-form gap andvolunteer tasks.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0026"
+      "maso-1991-09-toc-0026",
+      "maso-1991-09-toc-0040"
     ],
-    "mapping_targets": [
-      393,
-      396,
-      397,
-      398,
-      400
+    "mapping_targets": [],
+    "native_sources": [
+      "archive/pdf/1991-09/packages/batch-54-r01/community-a",
+      "archive/pdf/1991-09/packages/batch-55-r01/community-b"
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse reviewed retained source renders and pinnedBatch49dos_adapter. Exclude394–395independent ads/399subscription andlower400advertising index;retain eligible page400footer separately. Do not infer a survey/application form fromgiro401–402 or405397~398placeholder. Keep canonicalown87/childnullown andsource intrinsicreferences unchanged. Then actually assemble11available parent pages andproject child0040anchor,withbounded survey/application gap andvolunteerbodytranscription tasks explicit. Two news identities0034/0041 remain unresolved;actualradardivider89/news90 observed,canonicalown385unchanged. Full406-pageaccounting/cover/issueexport/closeout andBtreeSAMPLE.Cgap remain. No readerbuild;30core/11adapters unchanged."
+    "note": "No new mapping/OCR/source correction needed for actualassembly ofavailable387–393/396–398/upper400. Keep both nativecorrections/sourcefields/exclusions/folio data immutable. Preserve all four letters/six Q&A,58winner records/10categories/two continuations,nine classifieds/nine prizes/five disk groups/seven titleentries/eight editing notes andall manualglyph candidates. Project actual parent metadata/text ranges andfinal childp387-topics anchor withproper native/article contexts;avoid duplicating body underchild. Currentgroupreferences386/388/391/394/395/400 remain independent ofobservedfolios;survey unlocated and397~398placeholder identity unverified. Full406-pageaccounting/finalgap disposition pending. Two news identities0034/0041 remain unresolved;actualradar89/news90 observed,canonicalown385unchanged. Cover/issueexport/closeout/BtreeSAMPLE.Cgap remain. No readerbuild;30core/11adapters pinned."
   }
 }
