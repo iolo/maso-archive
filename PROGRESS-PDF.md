@@ -6,31 +6,31 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-September 1991 restoration is active: twelve readable/sample-reviewed articles,
-zero partial articles, three non-owning group headings and fourteen unresolved identities
+September 1991 restoration is active: thirteen readable/sample-reviewed articles,
+zero partial articles, three non-owning group headings and thirteen unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch35 restores child0015, 배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와 코드
-입력 방식 / 노준양, on PDF282–287/printed280–285. The prose conclusion and closing
-mark on286 precede the intrinsic final program listing on287; CONFIG.SYS starts
-independently on288. All eight numbered listings are preserved, with no deferred page
-or assembly. Parent0013 활용 stays non-owning; canonical parent270/childnull unchanged.
-One faint expression remains an explicit manual glyph task beside original source pixels.
+Batch36 restores child0016, CONFIG.SYS의 최적화를 통한 메모리 활용 / 박현철,
+on PDF288–290/printed286–288. Its XT conclusion and original closing mark end on290;
+291 is an advertisement and the independent Nanforum article starts on292. The actual
+three-page body is complete, with no deferred page or assembly. Parent0013 활용 stays
+non-owning; canonical parent270/childnull and title unchanged.
 
-The 266-file native preserves 71 regions, 53 blocks, nine original figures and 62 OCR
-records. Both exports and a fresh-process rebuild match. All 6,208 text ranges, 71 source
-crops, 62 settings (8eng/54kor+eng) and ZIP CRC pass; all 34 earlier checkpoints validate.
-One source correction pass, zero unchanged-input retries. Schemas and mixed function
-documentation remain prose; printed examples, results, programs and comments retain
-their source discrepancies without semantic repair or execution.
+The 141-file native preserves 34 regions, 30 blocks, one original closing mark and
+33 kor+eng OCR records. Both exports and a fresh-process rebuild match. All 556 text
+ranges, 34 source crops, 33 settings and ZIP CRC pass; all 35 earlier checkpoints validate.
+One source correction pass, zero unchanged-input retries. Directive/program/filename/
+version/quantity references stay prose/headings, with physical wraps and literal source
+claims preserved. No executable configuration file is invented.
 
-Next: Batch36 verifies and restores child0016, CONFIG.SYS의 최적화를 통한 메모리 활용 /
-박현철. Source288–290 title/byline, running series and conclusion/closing mark were
-viewed as outside context; confirm ownership and adjacent boundaries before mapping
-those three pages. Use pinned Batch34 windows_adapter for complete checks; eight private
-adapters and thirty core modules stay unchanged. No reader rebuild.
+Next: Batch37 verifies child0017, 클리퍼 5.0의 새로운 세계(마지막회) : 낸포럼을 이용한
+풀다운 메뉴의 구현 / 안영재, from the own Nanforum title/byline on292. Establish actual
+extent, ending and any appendix before mapping;292–297 are provisional first-six candidates
+only. Use pinned Batch34 windows_adapter for complete checks; eight private adapters and
+thirty core modules stay unchanged. No reader rebuild.
 
-The Windows article272–280 remains assembled. B+ tree0012's referenced〈리스트 2〉
+The Windows article272–280 and array article282–287 remain complete. The array's faint
+expression stays an explicit manual glyph task. B+ tree0012's referenced〈리스트 2〉
 SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/387–390.
 Preserve this open gap for bounded lookup and full 406-page accounting; no issue-wide
 absence claim. Other bodies, accounting, cover, issue export and closeout remain pending.

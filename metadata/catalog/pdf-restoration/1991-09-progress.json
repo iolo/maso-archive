@@ -2534,12 +2534,75 @@
       "toc_entry_id": "maso-1991-09-toc-0016",
       "title": "CONFIG.SYS의 최적화를 통한 메모리 활용",
       "parent_id": "maso-1991-09-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 and own288title CONFIG.SYS의 최적화를 통한 메모리 활용/byline박현철((주)DIS연구원) identify canonical child0016.289 running 확장 메모리의 활용[마지막회] belongs to same article. Parent0013활용 non-owning;canonical parent270/childnull,title/hierarchy unchanged.",
+        "Complete actual three-page body288–290/printed286–288 ends with XTparagraph and original closing mark.287prior array final listing,291advertisement and292independent Nanforum title/byline안영재 bound it. No appendix/deferred page/assembly indicated.",
+        "All3 mapped full pages,4outside contexts and34original crops in10contact sheets reviewed.17 pre-OCR refinements recover heading/first-row strokes,trim adjacent fragments and capture actual closing mark;all refined crops reviewed in5contact sheets before33 recognitions. All33 terminal drafts read before one source correction pass;zero retries.",
+        "The141-file native preserves34regions,30blocks,one original closing mark,33kor+eng OCR records,228reading rows andthree regional groups/three joins. No code regions/listing download:configuration/directive/program references remain headings/prose rather than an invented executable CONFIG.SYS.",
+        "All16headings,44directive references,20filename references,21program references,16memory/environment references,44numeric/version/quantity occurrences,six physical word/filename wraps,one error-message string,14source-prose claim records andnine Unicode glyph candidates retain their own source ranges. Literal FIL/ES,BUF/FERS,KEYB/OARD.SYS,386M/AX,ABOV/EDISK wraps,source2메가바이트/A20/BUFFERS/x/386MAX/QEMM/XTclaims remain without semantic repair or execution.",
+        "Both141-file exports and fresh-process rebuild match. All556 article-local text ranges resolve in named block/region contexts;34 crops exact/PNGs decode,33pinned settings andZIP CRC pass. All21289prior files,thirty core modules,eight adapters/source/TOC/runtime/queue exact;all35earlier checkpoints validate. One task/three mapped/four outside pages satisfy limits. Btree listing gap/prior array manualglyph task unchanged;no reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-36-r01/config-memory",
+        "article_id": "scan-maso-1991-09-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-36-r01/config-memory/manifest.json",
+          "sha256": "c0bbf60743a15f83269f4b3f0e647637853c068844002d9163eea2a397f25f72",
+          "bytes": 24194
+        },
+        "coverage": {
+          "pdf_pages": [
+            288,
+            289,
+            290
+          ],
+          "printed_pages": [
+            "286",
+            "287",
+            "288"
+          ],
+          "regions": 34,
+          "blocks": 30,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "complete_article": true
+        },
+        "actual_start_pdf_page": 288,
+        "actual_end_pdf_page": 290,
+        "full_source_extent": {
+          "pdf_pages": [
+            288,
+            289,
+            290
+          ],
+          "printed_pages": [
+            "286",
+            "287",
+            "288"
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Complete actual three-page body ends with XTparagraph/closing mark290;291ad and292independent Nanforum title/byline. All directive references remain prose;no source configuration file invented."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-36/validation.json",
+          "sha256": "4a44efbfe7b15dd62210e5d3e69c608470d965ba2461b6616f56784f3e7742a1",
+          "bytes": 2091
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-36/reproduction.json",
+          "sha256": "91e5d1dd77efca88a2e7753bcaa4f9aa96b65c5c65d2b880f380d85e791702cd",
+          "bytes": 25248
+        },
+        "checkpoint": "batch-36"
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0017",
@@ -3816,14 +3879,51 @@
         "sha256": "3dc058ae4c147e5408c8a3073543f8cee99e77388a171edd97adb254b5fe1a07",
         "bytes": 47163
       }
+    },
+    {
+      "name": "1991-09-batch-36",
+      "status": "complete",
+      "completed_at": "2026-10-30T02:38:31.368480+00:00",
+      "goal": "Verify and restore complete CONFIG.SYS memory article0016 body288–290,with literal prose/directive references and closing mark.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0016"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        288,
+        289,
+        290
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        5,
+        287,
+        291,
+        292
+      ],
+      "recognition_invocations": 33,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-36/validation.json",
+        "sha256": "4a44efbfe7b15dd62210e5d3e69c608470d965ba2461b6616f56784f3e7742a1",
+        "bytes": 2091
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-36/reproduction.json",
+        "sha256": "91e5d1dd77efca88a2e7753bcaa4f9aa96b65c5c65d2b880f380d85e791702cd",
+        "bytes": 25248
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 12,
+    "readable": 13,
     "partial": 0,
     "group_headings": 3,
-    "unresolved": 14
+    "unresolved": 13
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -3831,21 +3931,24 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-36",
-    "goal": "Verify and restore child0016 CONFIG.SYS의 최적화를 통한 메모리 활용 / 박현철 from own288 title/byline;source ending290 observed,confirm complete ownership/boundaries and map actual three-page body.",
+    "name": "1991-09-batch-37",
+    "goal": "Verify child0017 클리퍼 5.0의 새로운 세계(마지막회) : 낸포럼을 이용한 풀다운 메뉴의 구현 / 안영재 from observed own292 Nanforum title/byline;establish actual extent and restore bounded first segment.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0016"
+      "maso-1991-09-toc-0017"
     ],
     "mapping_targets": [
-      288,
-      289,
-      290
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Original contents5/own288title/byline박현철((주)DIS연구원),printed286 known.289 running 확장 메모리의 활용[마지막회] and290 conclusion/closingmark directly viewed as bounded outside context inBatch35;291advertisement. Confirm actual288–290 ownership/ending and adjacent292 title before restoring,without treating canonicalnull ownreference asparent270 orglobaloffset. Parent0013활용 non-owning;canonical child0016title/reference/hierarchy unchanged. Reuse Batch35 source views;review all mapped full pages/crops before OCR,read all terminal drafts before one source pass. Preserve literal memory/configuration claims,headings,directive references,source spellings/physical wraps and glyph uncertainty;do not invent executable CONFIG.SYS from prose. Use pinnedBatch34windows_adapter for complete checks;eight adapters/thirty core modules unchanged. Array0015complete withonefaint-expression manualglyph task;B+tree referencedSAMPLE.C remainsunlocated/open forboundedlookup/full406-pageaccounting. Other14identities/accounting/cover/issueexport/closeout active;no readerrebuild."
+    "note": "Own292title 낸포럼 툴키트를 이용한 풀다운 메뉴 작성/byline안영재(휠셋 컴퓨팅) directly viewed as outside context. Match canonical identity/running series/contents and verify actual start/end/appendix before mapping;292–297 provisional first-six candidates only,not a claim of complete extent. Preserve canonical childnull/parent270 and non-owning활용. Reuse retained292view;review all mapped full pages/crops before OCR,read all terminal drafts before one source pass. Preserve printed prose/code/labels/wraps/glyph uncertainty;no semantic repair. Use pinnedBatch34windows_adapter;eight adapters/thirty core unchanged. CONFIG0016complete;arraymanualglyph/BtreeSAMPLE.Cgap unchanged. Thirteen unresolved identities/full406-pageaccounting/cover/issueexport/closeout pending;no reader rebuild."
   }
 }
