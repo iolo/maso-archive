@@ -4363,7 +4363,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Contents5 identifies community0026 own87 and pageless child0040. Actual PDF387 is community divider;PDF89 is information-radar divider. Keep canonical titles,own references and hierarchy unchanged without swapping the canonical references or applying a global offset.",
@@ -4381,36 +4381,26 @@
         "Four-column winners list preserves58names/addresses in10categories,116name/address fields,69physical rows andtwo category continuations. 영진출판사 continuesc1→c2;SKC디스켓 continuesc3→c4 andits printed(20명) stays atc4opening. 김 영 retains internalname spacing. No geographic,name,identity,provider-label orrecipient-count repair.",
         "Five disk groups retainseven source titleentries andtheir existing canonical article associations,including B⁺tree andppuri parts(1)/(2). Catalogue labels do notprove recovered original disk data orlocatedSAMPLE.C. Publisher/back-issue notice andeight editing notes/pen-name credits remain distinct source occurrences;bodyprose/embeddedlettering volunteertranscription pending.",
         "Both255-file exports andfresh-process rebuild match. All922typed article ranges validate in named download/block/region/scan contexts;79exact crops/decoded PNGs,56settings andZIPCRC pass. All36130prior files,54earlier packages,30core modules and11adapters remain exact;Batch49successful213-test baseline reused for data-only work.122glyph candidates/zero newmanual markers;earlier manual tasks unchanged.",
-        "Survey/application form remains unlocated in boundedcommunity span;405397~398placeholder andsource folio gap remain explicit withmissing-content identity unverified. Full406-pageaccounting/finaldisposition pending. Humanacceptance/fullproofreading,sourceencodedbytes/exactspaces/glyphidentities/counts,contacts/geographic/technical/historicalclaims,execution andindependentbackup recovery remainunverified. No readerbuild."
+        "Survey/application form remains unlocated in boundedcommunity span;405397~398placeholder andsource folio gap remain explicit withmissing-content identity unverified. Full406-pageaccounting/finaldisposition pending. Humanacceptance/fullproofreading,sourceencodedbytes/exactspaces/glyphidentities/counts,contacts/geographic/technical/historicalclaims,execution andindependentbackup recovery remainunverified. No readerbuild.",
+        "Batch56 actually assembles all eleven available community pages387–393/396–398/upper400 from two immutable natives. Readable/sample-reviewed describes complete available body coverage,not verified recovery ofthe complete original article. Survey/applicationform remains unlocated in the bounded span;full406-pageaccounting/finalgap disposition pending. Complete original article recovery remains false/unverified.",
+        "Both469-file exports andfresh-process rebuild match. All460native files remain byte-identical,including original maps,crops,raw/settings/transcripts/corrections andsource-local metadata. Assembled140regions/101blocks/39figures/101retainedOCRrecords preserve sourcephysicalorder,eleven eligible maskedpages andone exactlower400 advertising-index exclusion. No newmapping,sourceviews,render,recognition,sourcecorrection orreaderbuild.",
+        "All1314native typed occurrences(1296article/18listing) validate within native download/block/region/scan contexts. All1314retained source-local occurrences and1314projected native occurrences are audited separately. All2541combined-context ranges(2505article/36listing) validate. Original block/command bytes are unchanged;the46-byte command listing is exactnative concatenation. No nativeoffset interpreted asassembled offset.",
+        "Four letters,six Q&A items,nine readercredits,editorialreply,two gift notices,34original-image bodyfragments andnine internalcontinuations remain distinct. Native boundary392→393 changes topics without a source-textjoin;skipped394–395ads/399subscription remain outside body. Bodyprose/embeddedart lettering stillawait volunteer transcription.",
+        "Nine classified posts,nine prizes,58winner names/addresses in10categories/two sourcecolumn continuations,five disk groups/seven titleentries andeightediting notes retain exactsource metadata. Source setbkclolor()/setbkcolor spelling discrepancy,ten textualmanual extents,two image-only extents and147glyph candidates remain active without semantic/contact/price/geographic/historical repair.",
+        "Child0040 remains one non-owning seven-topic section reference. Final anchor a-p387-topics andsix available topic headings nowproject intoactualparent. Source references386/388/391/394/395/400 remain separatefromobservedfolios;bulletin394vs396 andquiz395vs394 discrepancies retained. Combinedquiz/survey rowdoesnotlocate survey;no duplicatebody ornew canonicalidentity.",
+        "Fresh213core regression tests pass andfour changedrecipe/native-text/range/gap mutations are rejected. Thirtycore modules andeleven priorprivate adapters remain exact;a twelfth frozen private community adapter projectsall original dual command andsource metadata contexts. Its first preflight singularfigure-key failure/fix is retained beforeanypublished export. All36962prior files and55earlier packages remain unchanged.",
+        "Humanacceptance/fullproofreading,sourceencodedbytes/exactspaces/glyphidentities/counts,claims,execution andindependentbackup recovery remainunverified. BtreeSAMPLE.C gap/earlier manualtasks unchanged. News0034/0041,full406-pageaccounting,cover,issueexport andcloseout remain pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-55-r01/community-b",
+        "directory": "archive/pdf/1991-09/packages/community-available-r01",
         "article_id": "scan-maso-1991-09-toc-0026",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-55-r01/community-b/manifest.json",
-          "sha256": "92baf614968072ceacf2c96626865fd4f9b163efa027e141de5c531422636900",
-          "bytes": 44036
+          "path": "archive/pdf/1991-09/packages/community-available-r01/manifest.json",
+          "sha256": "96f465d1ed2e802bfb5734a645accf67798ee18732f20f6f4945ff1cbe58cf08",
+          "bytes": 85502
         },
         "coverage": {
           "pdf_pages": [
-            393,
-            396,
-            397,
-            398,
-            400
-          ],
-          "printed_pages": [
-            "391",
-            "394",
-            "395",
-            "396",
-            "400"
-          ],
-          "regions": 79,
-          "blocks": 56,
-          "figures": 23,
-          "deferred_pdf_pages": [],
-          "all_native_pdf_pages": [
             387,
             388,
             389,
@@ -4423,9 +4413,27 @@
             398,
             400
           ],
+          "printed_pages": [
+            null,
+            "386",
+            "387",
+            "388",
+            "389",
+            "390",
+            "391",
+            "394",
+            "395",
+            "396",
+            "400"
+          ],
+          "regions": 140,
+          "blocks": 101,
+          "figures": 39,
+          "deferred_pdf_pages": [],
           "all_available_pages_preserved_across_natives": true,
-          "remaining_extent_unverified": false,
+          "complete_available_body": true,
           "complete_article": false,
+          "complete_original_article_recovery_verified": false,
           "survey_recovery_unverified": true
         },
         "actual_start_pdf_page": 387,
@@ -4469,20 +4477,20 @@
             }
           ]
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-55/validation.json",
-          "sha256": "2b70c7f8bdbd961b3f1a72444da8adc0c2b5fb4933c4e01c18a9eeeb75ce522f",
-          "bytes": 2732
+          "path": "archive/pdf/1991-09/restoration/batch-56/validation.json",
+          "sha256": "ceb1ad1bb108c20adebcf17a5cab70425b5724df45ea1d188ceb8843a46dab6e",
+          "bytes": 3504
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-55/reproduction.json",
-          "sha256": "1b683b32b01bd6c655d9a2f30ebe6e290f436914e073522df5e9efc1d5263131",
-          "bytes": 44998
+          "path": "archive/pdf/1991-09/restoration/batch-56/reproduction.json",
+          "sha256": "70d26fe1f96bc7cb77fe5cea1873214e304b9ee73558690b926e037b0cde46aa",
+          "bytes": 86999
         },
-        "checkpoint": "batch-55",
+        "checkpoint": "batch-56",
         "native_segments": [
           {
             "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
@@ -4544,7 +4552,61 @@
           }
         ],
         "all_available_body_pages_preserved_across_natives": true,
-        "remaining_available_source_pages": []
+        "remaining_available_source_pages": [],
+        "complete_available_body": true,
+        "complete_article": false,
+        "complete_original_article_recovery_verified": false,
+        "actual_assembly": {
+          "directory": "archive/pdf/1991-09/packages/community-available-r01",
+          "manifest": {
+            "path": "archive/pdf/1991-09/packages/community-available-r01/manifest.json",
+            "sha256": "96f465d1ed2e802bfb5734a645accf67798ee18732f20f6f4945ff1cbe58cf08",
+            "bytes": 85502
+          },
+          "native_segments_preserved": true,
+          "native_files_exact": 460,
+          "available_body_complete": true,
+          "original_article_recovery_unverified": true,
+          "adapter": {
+            "path": "archive/pdf/1991-09/restoration/batch-56/community_adapter.py",
+            "sha256": "370582840a2f4f561b2e87ea72086686647832740cb0944cb308cc02d7daa0f1",
+            "bytes": 14896
+          }
+        },
+        "source_range_projection": {
+          "path": "archive/pdf/1991-09/restoration/batch-56/range-context-projection.json",
+          "sha256": "ffc2fe680be0db69b5008f8bb7465e2507aac8e1d165d53ee5febef8c5d58b4f",
+          "bytes": 585372
+        },
+        "child_section_projection": {
+          "path": "archive/pdf/1991-09/restoration/batch-56/child-section-projection.json",
+          "sha256": "ef33bece14c56268457fc01c410e62f9a8dbec04a50495bf9bc4e0524156a4fa",
+          "bytes": 22309
+        },
+        "source_continuity": {
+          "path": "archive/pdf/1991-09/restoration/batch-56/source-continuity.json",
+          "sha256": "776e8bedfc7a27d92c22a592f4778b495c6d16755d1cb3375c27ac53c783c6aa",
+          "bytes": 15148
+        },
+        "source_body_title": {
+          "directory": "archive/pdf/1991-09/packages/community-available-r01",
+          "metadata_key": "source_body_title"
+        },
+        "active_survey_application_gap": {
+          "status": "unlocated-in-bounded-span",
+          "canonical_topic": "애독자 설문지",
+          "intrinsic_divider_reference": "395",
+          "source_placeholder_pdf_page": 405,
+          "placeholder_visible_range": "397~398",
+          "missing_body_pdf_pages": null,
+          "missing_printed_pages": [
+            "397",
+            "398"
+          ],
+          "placeholder_content_identity_verified": false,
+          "seminar_application_form_target_location": null,
+          "full_issue_absence_claim": false
+        }
       }
     },
     {
@@ -4557,13 +4619,14 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical child0040 is one pageless seven-topic list under community0026. Contents5 and source divider387 identify intrinsic parent subdivisions;all six available topic openings were directly reviewed. Survey remains an explicit unlocated topic,not an invented seventh body. No duplicate package or new canonical identities.",
-        "Source divider six rows combine quiz/survey and retain intrinsic references386,388,391,394,395,400. Canonical child title,null own reference andparent unchanged. Current native anchor p387-topics preserves all labels/references and original page;final assembled parent anchor projection pending."
+        "Source divider six rows combine quiz/survey and retain intrinsic references386,388,391,394,395,400. Canonical child title,null own reference andparent unchanged. Current native anchor p387-topics preserves all labels/references and original page;final assembled parent anchor projection pending.",
+        "Batch56 projects final parent anchor a-p387-topics intoactualassembled eleven-available-page parent. Allsix availabletopic headings link tocorrectassembled ranges,whileoriginalintrinsicreferences/folios andunlocatedsurvey target stay independent. Completeoriginalarticle recovery remainsunverified;childowns no duplicatebody. Original nativeanchor andclassification evidence retained."
       ],
       "restoration": null,
       "section_reference": {
         "body_owner_toc_entry_id": "maso-1991-09-toc-0026",
-        "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
-        "anchor": "p387-topics",
+        "directory": "archive/pdf/1991-09/packages/community-available-r01",
+        "anchor": "a-p387-topics",
         "metadata_key": "source_community_section_reference",
         "source_heading_pdf_page": 387,
         "source_topic_rows": 6,
@@ -4583,13 +4646,57 @@
           "seminar_application_form_target_location": null,
           "full_issue_absence_claim": false
         },
-        "final_parent_assembly_pending": true,
-        "final_anchor_projection_pending": true,
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-54/validation.json",
-          "sha256": "40329570e14aadedbbee4cdfbcc01e8ac6cb597562f755c52b7253f0e6615617",
-          "bytes": 2330
-        }
+          "path": "archive/pdf/1991-09/restoration/batch-56/validation.json",
+          "sha256": "ceb1ad1bb108c20adebcf17a5cab70425b5724df45ea1d188ceb8843a46dab6e",
+          "bytes": 3504
+        },
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1991-09/packages/community-available-r01/manifest.json",
+          "sha256": "96f465d1ed2e802bfb5734a645accf67798ee18732f20f6f4945ff1cbe58cf08",
+          "bytes": 85502
+        },
+        "source_projection": {
+          "path": "archive/pdf/1991-09/restoration/batch-56/child-section-projection.json",
+          "sha256": "ef33bece14c56268457fc01c410e62f9a8dbec04a50495bf9bc4e0524156a4fa",
+          "bytes": 22309
+        },
+        "original_native_reference": {
+          "body_owner_toc_entry_id": "maso-1991-09-toc-0026",
+          "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
+          "anchor": "p387-topics",
+          "metadata_key": "source_community_section_reference",
+          "source_heading_pdf_page": 387,
+          "source_topic_rows": 6,
+          "canonical_topics": 7,
+          "survey_gap": {
+            "status": "unlocated-in-bounded-span",
+            "canonical_topic": "애독자 설문지",
+            "intrinsic_divider_reference": "395",
+            "source_placeholder_pdf_page": 405,
+            "placeholder_visible_range": "397~398",
+            "missing_body_pdf_pages": null,
+            "missing_printed_pages": [
+              "397",
+              "398"
+            ],
+            "placeholder_content_identity_verified": false,
+            "seminar_application_form_target_location": null,
+            "full_issue_absence_claim": false
+          },
+          "final_parent_assembly_pending": true,
+          "final_anchor_projection_pending": true,
+          "validation": {
+            "path": "archive/pdf/1991-09/restoration/batch-54/validation.json",
+            "sha256": "40329570e14aadedbbee4cdfbcc01e8ac6cb597562f755c52b7253f0e6615617",
+            "bytes": 2330
+          }
+        },
+        "available_topic_count": 6,
+        "survey_target_status": "unlocated-in-bounded-community-span"
       }
     },
     {
@@ -6527,12 +6634,55 @@
         "sha256": "1b683b32b01bd6c655d9a2f30ebe6e290f436914e073522df5e9efc1d5263131",
         "bytes": 44998
       }
+    },
+    {
+      "name": "1991-09-batch-56",
+      "status": "complete",
+      "completed_at": "2026-10-30T16:37:32.753216+00:00",
+      "goal": "Actually assemble eleven available communitypages/projectchild0040 anchor withall native/rootrange contexts,exact sourcepixels andexplicit survey/applicationgap.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0026",
+        "maso-1991-09-toc-0040"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "native_source_pages": 11,
+      "native_source_pdf_pages": [
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        396,
+        397,
+        398,
+        400
+      ],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-56/validation.json",
+        "sha256": "ceb1ad1bb108c20adebcf17a5cab70425b5724df45ea1d188ceb8843a46dab6e",
+        "bytes": 3504
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-56/reproduction.json",
+        "sha256": "70d26fe1f96bc7cb77fe5cea1873214e304b9ee73558690b926e037b0cde46aa",
+        "bytes": 86999
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 21,
-    "partial": 1,
+    "readable": 22,
+    "partial": 0,
     "group_headings": 4,
     "section_references": 1,
     "unresolved": 2
@@ -6543,22 +6693,25 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-56",
-    "goal": "Actually assemble community0026 eleven available pages from immutable Batch54/55 natives andproject compoundchild0040 final topic anchor;carry explicit survey/application-form gap andvolunteer tasks.",
+    "name": "1991-09-batch-57",
+    "goal": "Verify information-radar0034 andcompoundchild0041 identities/bodyownership,localactualcontinuity andboundednewsopening fromobserved divider89/news90;preservecanonical own385 andchildnullown.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0026",
-      "maso-1991-09-toc-0040"
+      "maso-1991-09-toc-0034",
+      "maso-1991-09-toc-0041"
     ],
-    "mapping_targets": [],
-    "native_sources": [
-      "archive/pdf/1991-09/packages/batch-54-r01/community-a",
-      "archive/pdf/1991-09/packages/batch-55-r01/community-b"
+    "mapping_targets": [
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "No new mapping/OCR/source correction needed for actualassembly ofavailable387–393/396–398/upper400. Keep both nativecorrections/sourcefields/exclusions/folio data immutable. Preserve all four letters/six Q&A,58winner records/10categories/two continuations,nine classifieds/nine prizes/five disk groups/seven titleentries/eight editing notes andall manualglyph candidates. Project actual parent metadata/text ranges andfinal childp387-topics anchor withproper native/article contexts;avoid duplicating body underchild. Currentgroupreferences386/388/391/394/395/400 remain independent ofobservedfolios;survey unlocated and397~398placeholder identity unverified. Full406-pageaccounting/finalgap disposition pending. Two news identities0034/0041 remain unresolved;actualradar89/news90 observed,canonicalown385unchanged. Cover/issueexport/closeout/BtreeSAMPLE.Cgap remain. No readerbuild;30core/11adapters pinned."
+    "note": "Community available-body assembly complete atcommunity-available-r01;originalsurvey/applicationform recovery remainsunverified andrequiresfull406accounting/finalgap disposition. Newsactual89divider/90domesticopening were observed inBatch54 outsideviews;canonicalown385 isnot a verifiedbodylocation. Preservecanonicaltitle/order/parent/ownrefs withoutswappingrefs orusingglobaloffset. Reuse retainedsourceviews asverified,establishactualnewsstart/topicstructure/localcontinuity andeligibleopening;fullnewsending/remainingtopics stayexplicitlyunverified untilboundedsourceinspection proves them. Mapatmostsixpages andinspectatmost20outsidepages;childmustnotduplicateparentbody. Use pinnedBatch56community_adapter dispatcher/delegates(12privateadapters/30core). Remainingnewsbodies/actualassemblies,full406pageaccounting,cover,issueexport/closeout andBtreeSAMPLE.Cgap remain. No readerbuild."
   }
 }
