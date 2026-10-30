@@ -24,38 +24,42 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 September 1991 restoration is active: fifteen readable/sample-reviewed articles,
-no partial articles, three non-owning group headings and eleven unresolved identities
+one partial article, three non-owning group headings and ten unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch43 completes the LAN article's actual 26-page assembly, PDF314–339/printed312–337,
-from five immutable natives. All 21 intrinsic listings and two separate printed DOS examples
-are included. The own opening314, prose conclusion/closing mark331 and final DATAOUT.C339
-before independent340 뿌리 remain source-reviewed. No LAN body pages or assembly remain pending.
+Batch44 restores canonical0019 뿌리 opening PDF340–345/printed338–343 as an immutable
+partial native. Source title 클리퍼로 작성한 회원 관리 프로그램, 뿌리 and byline 글. 이점한
+identify the article; canonical 회원관리 and own reference337 stay unchanged. Direct review
+verifies the actual eight-page body340–347, ending with prose/closing mark and intrinsic
+listing2 CL.BAT/TL.BAT347 before the independent DOS review348. Ending346–347 remains deferred.
 
-Both 1,547-file exports and a fresh-process rebuild match; all 1,538 native files remain exact.
-The assembly preserves 423 regions, 286 blocks, 66 original figures and 357 OCR records.
-All 31,576 active root ranges and 28,206 original native ranges validate. Every source-metadata
-occurrence projects in its named context, including two whole-block indexes that retain their
-original native formatting bytes separately. All 423 source crops, 357 settings (50eng/307kor+eng)
-and six ZIPs pass. Thirty core modules and eight previous private adapters stay unchanged;
-a ninth private LAN adapter handles this exact assembly. Twelve invalid mutations are rejected
-and all 213 PDF tests pass. No new mapping, render, OCR, source correction or reader rebuild.
+Both 391-file exports and a fresh-process rebuild match. The native preserves106 regions,
+79 blocks,14 original figures and92 OCR records. Originals include nine screens,menu diagram,
+file table,opening illustration and two listing1 frames. Thirty-five filename/description rows
+and four physical table wraps are indexed. Three code blocks preserve two DOS commands,
+three CONFIG rows and complete listing1 across343–344,with73 physical source rows.
+All 2,509 typed ranges(1,857 article/652 listing),106 exact crops,92 settings(6eng/86kor+eng)
+and ZIP CRC pass. All28,937 prior files,thirty core modules,nine adapters and43 earlier package
+checkpoints remain exact. Six mapped pages/six outside lookups,one source correction pass and
+zero OCR retries meet limits. Four crop refinements preceded OCR. Preliminary correction text
+and two preexport finalization fixes remain retained; no extra recognition or source pass.
 
-The joins resolve 319만+320일, 325리턴+326값, figure9/figure23 references and listing1's
-331→332 source rows. Only two native editorial ending LFs become one row LF; all original
-native bytes remain retained. Nine glyph/count extents, printed column inversions and source
-operators/spellings remain explicit. Human acceptance, full proofreading, original encoded
-bytes/exact whitespace/glyph identities/counts, claims and execution remain unverified.
+Forty-six explicit manual extents retain shading,asterisk/dot runs,numeric ruler,box segments
+and occluded/faint screenshot lettering;108 glyph candidates remain scan-linked. All13 printed
+box rows are preserved without inventing glyph counts. Source filenames,shade178/176 claims,
+physical wraps and thirteen continuation joins remain literal. Human acceptance,full proofreading,
+original encoded bytes/exact spacing/glyph identities/counts,claims and execution are unverified.
+LAN0018's complete26-page assembly and all earlier gaps/manual tasks remain unchanged.
 
-Next: Batch44 verifies and begins canonical0019 뿌리 at observed PDF340/printed338, with
-provisional mapping candidates340–345. Keep canonical own reference337 unchanged and verify
-the local extent before mapping. Use pinned Batch43 lan_adapter; nine adapters/thirty core
-modules remain pinned. Prior array/Nanforum tasks and B+ tree0012's referenced〈리스트 2〉
-SAMPLE.C remain open. The listing is unlocated in bounded inspected body264–271/appendix
-374–381/387–390; preserve this gap for bounded lookup/full 406-page accounting without an
-issue-wide absence claim. Eleven unresolved identities, remaining bodies, accounting, cover,
-issue export and closeout remain pending. No reader rebuild. See
-[September progress](docs/progress/9109.md) and
+Next: Batch45 restores 뿌리 ending346–347: remaining menus,environment/compiler prose,
+screens10–12,table2 and intrinsic listing2 CL.BAT/TL.BAT. Reuse retained source images and
+keep opening native340–345 immutable. Then assemble the actual complete article separately.
+Use pinned Batch43 lan_adapter; nine adapters/thirty core modules remain pinned. Prior
+array/Nanforum tasks and B+ tree0012's referenced〈리스트 2〉 SAMPLE.C remain open. The listing
+is unlocated in bounded inspected body264–271/appendix374–381/387–390; preserve this gap for
+bounded lookup/full406-page accounting without an issue-wide absence claim. Ten unresolved
+identities,remaining bodies,accounting,cover,issue export and closeout remain pending.
+No reader rebuild. See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
 - August 1991 is complete as a canonical TOC JSON/assets restoration pass:
