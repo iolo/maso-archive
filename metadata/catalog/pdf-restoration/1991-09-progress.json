@@ -3266,7 +3266,14 @@
         "The391-file native preserves106regions,79blocks,14original figures,92OCR records and499 reading rows. Original figures comprise opening illustration,nine screens,menu diagram,file table and two complete listing1 frames. Three code blocks contain two installation DOS commands,three CONFIG rows and complete intrinsic listing1 spanning343–344:73physical rows,258tokens,161lexical identifiers,19strings,57numeric occurrences,12comments and26operator-shaped occurrences. Lexical/source coverage does not certify program syntax or execution.",
         "Table1 retains35 filename/description rows and four physical description wraps.13caption links,13figure-text links,13label groups,24references,23headings,nine anomalies and108glyph candidates validate in their named source contexts. Nine continuation groups/thirteen explicit joins preserve the opening dropcap and column/page source continuity,listing1 physical rows and two table parts. Source IMG87.PRG/IMG87.OBJ,DBED1.PRG/DBEDIT(),LO.PRG/LOGO.PRG,SHELL.PRG and shade178/176 claims stay literal without semantic repair.",
         "Forty-six explicit manual extents preserve source-occluded/faint screenshot lettering,dot/asterisk runs,two prose shade samples,one code numeric ruler and fifteen box segments across all13 printed @07–@19 source rows. Six listing1 asterisk bands remain separate from screenshot decoration. Original glyph identities/counts/encoded bytes and selected faint pixel-font values remain unverified. Unicode returnkey/pointinghand/smiley/bracket/dash choices retain original scan evidence. Manual tasks are separate from two deferred body pages.",
-        "Both391-file exports and a fresh-process rebuild match. All2509 typed ranges(1857 article/652 listing),106exact crops/decodedPNG,92pinned settings andZIPCRC pass. All28937 prior files,thirty core modules,nine private adapters,source/TOC/runtime/queue and43earlier checkpoint packages remain exact. One task,six mapped pages and six outside lookups meet limits. No reader rebuild,execution or core/adapter change. Prior LAN completion,Btree SAMPLE.C gap and array/Nanforum/manual tasks remain unchanged."
+        "Both391-file exports and a fresh-process rebuild match. All2509 typed ranges(1857 article/652 listing),106exact crops/decodedPNG,92pinned settings andZIPCRC pass. All28937 prior files,thirty core modules,nine private adapters,source/TOC/runtime/queue and43earlier checkpoint packages remain exact. One task,six mapped pages and six outside lookups meet limits. No reader rebuild,execution or core/adapter change. Prior LAN completion,Btree SAMPLE.C gap and array/Nanforum/manual tasks remain unchanged.",
+        "Batch45 preserves final PDF346–347/printed344–345 as a separate immutable native. Canonical0019 identity, title, own reference337, author and null parent stay unchanged. Final prose closing mark and intrinsic listing2 CL.BAT/TL.BAT347 precede independent DOS review348, confirmed349. Opening340–345 remains exact; there is no split-word byte join at345→346.",
+        "Both mapped full pages, five outside contexts reused from exact Batch44 direct views, 55 original crops in15 sheets and two refined screenshot-label crops in one sheet were reviewed before OCR. All47 raw drafts, including an empty category draft, were read before one source correction pass. Five eng printed shell/command/batch regions and42 kor+eng other regions use pinned settings. Zero recognition retries.",
+        "The205-file ending native preserves55 regions,46 blocks,eight original figures,47 OCR records and238 reading rows. Figures include three screenshots,three table2 panels,a closing mark and the listing2 frame. Five code blocks preserve printed shell output,two compiler commands and intrinsic CL.BAT/TL.BAT files:13 source rows,46 tokens,40 lexical identifier occurrences,two strings,six numeric occurrences and21 punctuation/operator-shaped occurrences. Case,commas,FI/FL and-l/-1 candidates,physical filename wraps and terminalplus remain literal;no syntax repair or execution.",
+        "Table2 preserves MEMBER.DBF12 rows,CNF.DBF12 rows andMODEL.DBF2 rows:26 rows/104 body cells with explicit column associations,headers and complete original images. Five DKBCTR function descriptions,seven caption links,seven figure/text links,eight references,eight anomalies and48 glyph candidates validate. The internal compiler paragraph joins 명명+한다 across columns with an empty separator. Printed DARK.COM/DKBY.COM,SHELL.BAT/SHELL.PRG and screenshotC:/printedD: differences remain independent.",
+        "Literal captions10완불여부확인,11시스템상황보기 and12도스쉘 remain beside DOS-output,payment/password-dialog and system-status images respectively. Three explicit mismatch records retain physical placement and unchanged prose reference numbers. No image/caption swap or renumbering. Twelve new manual extents retain seven screenshot asterisk runs,two occluded spans,one partly occluded calendar and two faint fields. Earlier46 opening extents remain exact and separate.",
+        "Both205-file exports and a fresh-process rebuild match. All969 typed ranges(813 article/156 listing),55 exact crops/decoded PNGs,47 pinned OCR settings and ZIP CRC pass. All30215 prior files,thirty core modules,nine private adapters,source/TOC/runtime/queue and44 earlier packages remain unchanged. One task,two mapped pages and five outside lookups meet limits. No new full-page rendering,reader rebuild,execution or core/adapter change.",
+        "All8 article body pages340–347 are now preserved across two immutable natives,with no deferred source pages. Actual complete article assembly remains pending; availability stays partial. Root directory/coverage/validation still identify opening native a; cumulative native coverage and latest native b are separate. All earlier issue gaps and manual tasks remain unchanged; human acceptance/full proofreading/source byte/spacing/glyph/count/claim/execution fidelity stays unverified."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-44-r01/ppuri-a",
@@ -3330,7 +3337,7 @@
           "prose_conclusion_pdf_page": 347,
           "final_intrinsic_listing": "〈리스트 2〉 CL.BAT와 TL.BAT의 내용",
           "next_independent_pdf_page": 348,
-          "note": "Verified eight-page body340–347 with own title/byline340 and final prose/mark plus listing2 on347. Current opening native covers340–345;346–347 deferred;complete assembly required. Canonical337 remains unchanged."
+          "note": "Verified eight-page body340–347 with own title/byline340 and final prose/mark plus listing2 on347 before independent DOS review348. All8 pages are preserved across two immutable natives; no deferred source pages. Actual complete article assembly remains pending. Canonical337 and literal source title/member-word spacing remain unchanged."
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -3341,12 +3348,11 @@
           342,
           343,
           344,
-          345
-        ],
-        "remaining_pdf_pages": [
+          345,
           346,
           347
         ],
+        "remaining_pdf_pages": [],
         "validation": {
           "path": "archive/pdf/1991-09/restoration/batch-44/validation.json",
           "sha256": "e480a9039d69a6abdfa8eff5085576c046ebb6c82656018b6d837b9cdd7a4830",
@@ -3385,6 +3391,29 @@
               "sha256": "405d3d0b84017207e603693c8076dfe57778ad588a0755a3ca85243d956872d1",
               "bytes": 68412
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-09/packages/batch-45-r01/ppuri-b",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-45-r01/ppuri-b/manifest.json",
+              "sha256": "a74b9ea8c6777d44f2be7ff27ba1d4ed8b42c7a259c52c2a295aae3f36014615",
+              "bytes": 35741
+            },
+            "pdf_pages": [
+              346,
+              347
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-45/validation.json",
+              "sha256": "546c2a9dc00e33c9c6902c7129ae76776eb85be44ed9461f4dbee4273efbd010",
+              "bytes": 2476
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-45/reproduction.json",
+              "sha256": "ff8255c269e737f753b27e5a8657f24e8d1af7e58c4cdf9adcabbeac20a8f637",
+              "bytes": 36690
+            }
           }
         ],
         "manual_glyph_tasks": {
@@ -3407,7 +3436,65 @@
             "bytes": 1609474
           },
           "note": "Source-linked editorial markers retain complete original frames/crops. Occluded text is not reconstructed. These tasks are distinct from source pages346–347,which are still deferred."
-        }
+        },
+        "preserved_pdf_pages_across_natives": [
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347
+        ],
+        "all_body_pages_preserved_across_natives": true,
+        "latest_native": {
+          "checkpoint": "batch-45",
+          "directory": "archive/pdf/1991-09/packages/batch-45-r01/ppuri-b",
+          "manifest": {
+            "path": "archive/pdf/1991-09/packages/batch-45-r01/ppuri-b/manifest.json",
+            "sha256": "a74b9ea8c6777d44f2be7ff27ba1d4ed8b42c7a259c52c2a295aae3f36014615",
+            "bytes": 35741
+          },
+          "pdf_pages": [
+            346,
+            347
+          ],
+          "printed_pages": [
+            "344",
+            "345"
+          ],
+          "validation": {
+            "path": "archive/pdf/1991-09/restoration/batch-45/validation.json",
+            "sha256": "546c2a9dc00e33c9c6902c7129ae76776eb85be44ed9461f4dbee4273efbd010",
+            "bytes": 2476
+          },
+          "reproduction": {
+            "path": "archive/pdf/1991-09/restoration/batch-45/reproduction.json",
+            "sha256": "ff8255c269e737f753b27e5a8657f24e8d1af7e58c4cdf9adcabbeac20a8f637",
+            "bytes": 36690
+          }
+        },
+        "additional_native_manual_glyph_tasks": [
+          {
+            "checkpoint": "batch-45",
+            "count": 12,
+            "status": "manual-source-glyph-count-and-faint-lettering-reading-required",
+            "directory": "archive/pdf/1991-09/packages/batch-45-r01/ppuri-b",
+            "corrections": {
+              "path": "archive/pdf/1991-09/packages/batch-45-r01/ppuri-b/corrections.json",
+              "sha256": "8402e342bff13f1cc4a95b1f3bce6efbc838d15e23a225caccf3fd9836997e64",
+              "bytes": 636096
+            },
+            "marker_counts": {
+              "⟦asterisk band⟧": 7,
+              "⟦occluded⟧": 2,
+              "⟦partly occluded calendar⟧": 1,
+              "⟦?⟧": 2
+            },
+            "note": "Seven asterisk runs,two source-occluded spans,one partly occluded calendar and two faint fields. Original scans remain authoritative. Prior46 opening extents unchanged;these tasks are separate from full native page coverage,now complete."
+          }
+        ]
       }
     },
     {
@@ -5010,6 +5097,43 @@
         "sha256": "405d3d0b84017207e603693c8076dfe57778ad588a0755a3ca85243d956872d1",
         "bytes": 68412
       }
+    },
+    {
+      "name": "1991-09-batch-45",
+      "status": "complete",
+      "completed_at": "2026-10-30T10:44:49.978266+00:00",
+      "goal": "Restore ppuri0019 final346–347 with menus,compiler prose,three screenshots,table2 and intrinsic listing2;retain literal source anomalies and verify ending.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0019"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        346,
+        347
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        5,
+        340,
+        345,
+        348,
+        349
+      ],
+      "recognition_invocations": 47,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-45/validation.json",
+        "sha256": "546c2a9dc00e33c9c6902c7129ae76776eb85be44ed9461f4dbee4273efbd010",
+        "bytes": 2476
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-45/reproduction.json",
+        "sha256": "ff8255c269e737f753b27e5a8657f24e8d1af7e58c4cdf9adcabbeac20a8f637",
+        "bytes": 36690
+      }
     }
   ],
   "totals": {
@@ -5025,20 +5149,17 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-45",
-    "goal": "Restore canonical0019 ppuri final346–347,including remaining menu/environment prose,screens10–12,table2 and intrinsic listing2 CL.BAT/TL.BAT;verify final boundary before DOS review348.",
+    "name": "1991-09-batch-46",
+    "goal": "Assemble complete ppuri0019 PDF340–347 from two exact immutable natives,retaining all prose,source-order figures,tables,listing1,listing2 and manual tasks.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0019"
     ],
-    "mapping_targets": [
-      346,
-      347
-    ],
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Actual article340–347 is directly verified. Opening340–345 native a is complete and immutable;two ending pages remain. Retain source title/byline/member-word spacing and canonical own337 unchanged. Current345 registration paragraph ends before new menu items346;no split-word source join is required at that boundary. Final prose/closingmark and listing2 end347 before independent DOS review348. Map346–347 only;reuse exact retained source images. Use eng for printed code/commands,kor+eng for other text;preserve physical rows,filename differences,unknown glyph/count candidates. Then perform a separate actual article assembly from exact natives. Use pinned Batch43 lan_adapter;nine adapters/thirty core modules remain unchanged.46opening manual extents,prior LAN nine extents,array/Nanforum tasks and Btree SAMPLE.C gap remain explicit. Ten unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or program execution."
+    "note": "All8 body pages are preserved in native a340–345 and b346–347. No new mapping,render,OCR or source correction required. No cross-native source-word join is indicated:345 registration explanation ends before new menu items346. Preserve the thirteen opening internal joins and final internal 명명+한다 join;original table/label/caption metadata and all source-local ranges must remain in exact named native/root contexts. Keep all58 manual extents(46opening+12ending),156 source glyph candidates,three caption/image mismatches,physical code rows/case/commas/terminalplus and all source filename discrepancies. Canonical own337 and source opening340/338 stay unchanged. Use pinned Batch43 lan_adapter;introduce a narrowly scoped private adapter only if existing assembly cannot preserve these exact payloads,without core changes. Validate complete source coverage and independent rebuild before changing partial availability. Ten unresolved identities,remaining bodies,full406-page accounting,Btree SAMPLE.C gap,cover,issue export and closeout remain pending. No reader rebuild or execution."
   }
 }

@@ -35,33 +35,31 @@ September 1991 restoration is active: fifteen readable/sample-reviewed articles,
 one partial article, three non-owning group headings and ten unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch44 restores canonical0019 뿌리 opening PDF340–345/printed338–343 as an immutable
-partial native. Source title 클리퍼로 작성한 회원 관리 프로그램, 뿌리 and byline 글. 이점한
-identify the article; canonical 회원관리 and own reference337 stay unchanged. Direct review
-verifies the actual eight-page body340–347, ending with prose/closing mark and intrinsic
-listing2 CL.BAT/TL.BAT347 before the independent DOS review348. Ending346–347 remains deferred.
+Batch45 restores 뿌리0019 ending PDF346–347/printed344–345. All eight body pages340–347
+are now preserved across two immutable natives; no source pages remain deferred. Actual
+complete article assembly is still pending, so availability stays partial. Canonical own
+reference337 remains unchanged; the source opening is PDF340/printed338. Final prose/closing
+mark and intrinsic listing2 CL.BAT/TL.BAT347 precede the independent DOS review348.
 
-Both 391-file exports and a fresh-process rebuild match. The native preserves106 regions,
-79 blocks,14 original figures and92 OCR records. Originals include nine screens,menu diagram,
-file table,opening illustration and two listing1 frames. Thirty-five filename/description rows
-and four physical table wraps are indexed. Three code blocks preserve two DOS commands,
-three CONFIG rows and complete listing1 across343–344,with73 physical source rows.
-All 2,509 typed ranges(1,857 article/652 listing),106 exact crops,92 settings(6eng/86kor+eng)
-and ZIP CRC pass. All28,937 prior files,thirty core modules,nine adapters and43 earlier package
-checkpoints remain exact. Six mapped pages/six outside lookups,one source correction pass and
-zero OCR retries meet limits. Four crop refinements preceded OCR. Preliminary correction text
-and two preexport finalization fixes remain retained; no extra recognition or source pass.
+Both 205-file exports and a fresh-process rebuild match. The ending native preserves55 regions,
+46 blocks,8 original figures and47 OCR records. Three database panels retain26 rows/104 body
+cells. Five code blocks contain printed shell output,two compiler commands and both batch files,
+with13 source rows. All 969 typed ranges(813 article/156 listing),55 exact source crops,
+47 settings(5eng/42kor+eng) and ZIP CRC pass. All30,215 prior files,thirty core modules,nine
+adapters and44 earlier packages remain exact. Two mapped pages/five outside lookups,one source
+correction pass and zero OCR retries meet limits. Two crop refinements preceded recognition.
 
-Forty-six explicit manual extents retain shading,asterisk/dot runs,numeric ruler,box segments
-and occluded/faint screenshot lettering;108 glyph candidates remain scan-linked. All13 printed
-box rows are preserved without inventing glyph counts. Source filenames,shade178/176 claims,
-physical wraps and thirteen continuation joins remain literal. Human acceptance,full proofreading,
-original encoded bytes/exact spacing/glyph identities/counts,claims and execution are unverified.
-LAN0018's complete26-page assembly and all earlier gaps/manual tasks remain unchanged.
+Three caption/image mismatches retain their original physical placement and reference numbers.
+Printed DARK.COM/DKBY.COM,SHELL.BAT/SHELL.PRG,linker case/punctuation and terminalplus remain
+literal. Twelve new manual extents and48 glyph candidates preserve uncertain screenshot bands,
+occlusion,calendar cells and fields. Earlier46 opening manual extents and108 candidates remain
+unchanged. The two natives now retain58 manual extents and156 glyph candidates in total.
+Human acceptance,full proofreading,original encoded bytes/exact spaces/glyph identities/counts,
+claims and execution remain unverified. LAN0018's complete assembly and all earlier gaps stay exact.
 
-Next: Batch45 restores 뿌리 ending346–347: remaining menus,environment/compiler prose,
-screens10–12,table2 and intrinsic listing2 CL.BAT/TL.BAT. Reuse retained source images and
-keep opening native340–345 immutable. Then assemble the actual complete article separately.
+Next: Batch46 assembles complete 뿌리 PDF340–347 from the two exact natives. No new mapping,
+render,OCR or source correction is needed. Preserve both metadata contexts,all original figures,
+source caption mismatches,tables and listings;no cross-native split-word join is indicated.
 Use pinned Batch43 lan_adapter; nine adapters/thirty core modules remain pinned. Prior
 array/Nanforum tasks and B+ tree0012's referenced〈리스트 2〉 SAMPLE.C remain open. The listing
 is unlocated in bounded inspected body264–271/appendix374–381/387–390; preserve this gap for
