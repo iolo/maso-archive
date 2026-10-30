@@ -3597,23 +3597,185 @@
       "toc_entry_id": "maso-1991-09-toc-0020",
       "title": "집중리뷰",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 groups DOS0021 and Clipper0022 under 집중리뷰0020/own346. Repeated category banner on348/350/352/354/356 accompanies independent DOS title/byline348 and Clipper title/byline356. Source own printed346 belongs to independently titled DOS review. No distinct parent body/introduction or duplicate body package. Canonical reference346,title,order and null parent unchanged.",
+        "Bounded source ownership decision;child0022 remains unresolved and is not restored by this checkpoint."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1991-09/restoration/batch-47/heading-classification.json",
+        "sha256": "68cfe928174ae968cd1ff0df85d7ce701eb0ebe9077d066b3be2370fea275b5b",
+        "bytes": 4594
+      },
+      "ownership_review": "resolved-from-contents-group-repeated-category-banners-and-independent-child-titles-bylines"
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0021",
       "title": "MS-DOS와 DR-DOS의 운영체제 경쟁",
       "parent_id": "maso-1991-09-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 and independent source title MS 도스와 DR 도스의 운영체제 경쟁/byline 글. 심현도 기자 on348/printed346 identify canonical0021. Canonical MS-DOS와 DR-DOS의 운영체제 경쟁,편집부,null own page reference,parent0020 and order remain unchanged. Source byline remains independent from canonical author.",
+        "Direct source review establishes actual DOS body348–355/printed346–353. Final prose/conclusion/closingmark355 precedes independent Clipper5.01 title/byline356. Current opening native348–353 only;final354–355 and actual complete assembly remain pending. Final353 ends a complete installation paragraph;354 opens a new subsection,with no split-word boundary join. No global folio offset inferred.",
+        "Six mapped full pages,five outside contexts5/347/354/355/356,97 original crops in27 sheets and nine refinements in five sheets were viewed before86 mapped recognitions. All86 raw drafts read fully before one source correction pass.1eng CONFIG/85kor+eng other text including screenshot/diagram lettering;zero retries. Original zero-byte preparation helpers and interrupted-handle evidence remain retained;safe restarted preparation used login:false and no source/OCR work was lost.",
+        "The364-file native retains97 regions,74 blocks,11 original figures,86 OCR records and607 serialized reading rows. Seven screenshots,two diagrams and two history tables preserve original pixels. Nine source continuation groups/twelve joins retain dropcap응+용,split words across pages/columns and explicit paragraph/space/LF boundaries. Physical English/filename wraps remain literal.",
+        "Two history tables preserve8+5 rows/39 body cells and six header cells;three source columns are serialized with explicit editorial LF separators and within-cell physical wraps. Literal dates,1991년9월/(발표예정),32MB 이상의 화일 지원,memory claims and source terminology remain unverified. One independent CONFIG example preserves three physical rows,seven tokens,13 lexical identifier occurrences,one numeric occurrence and11 operator-shaped occurrences;no execution or syntax repair.",
+        "Eleven caption and eleven figure/text links,nine printed references,two diagram spatial records,16 source headings and222 glyph candidates validate. Twenty-two manual extents preserve four shade samples,two vertical dotbands,one ruler dotband,source-clipped fields and faint menus/filenames/iconlabels/calculator/status/highlighted/bookexcerpt fields. Original glyph identities/counts/encoded bytes,selected screen numbers and source claims remain unverified.",
+        "Both364-file exports and fresh-process rebuild match. All1417 typed ranges(1379 article/38 listing),97 exact crops/decodedPNG,86 pinned settings andZIPCRC pass. All31479 prior files,thirty core modules,ten adapters,source/TOC/runtime/queue and46 earlier checkpoint packages remain exact. Batch46 successful213-test baseline reused for this data-only checkpoint. No reader rebuild or program execution. Earlier ppuri/LAN completion,Btree SAMPLE.C gap and array/Nanforum/manual tasks remain unchanged."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-47-r01/dos-a",
+        "article_id": "scan-maso-1991-09-toc-0021",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/manifest.json",
+          "sha256": "c4ad68b9b651d51ccbf054c3458094659ade82e256764998c831c87b90067d0b",
+          "bytes": 62925
+        },
+        "coverage": {
+          "pdf_pages": [
+            348,
+            349,
+            350,
+            351,
+            352,
+            353
+          ],
+          "printed_pages": [
+            "346",
+            "347",
+            "348",
+            "349",
+            "350",
+            "351"
+          ],
+          "regions": 97,
+          "blocks": 74,
+          "figures": 11,
+          "deferred_pdf_pages": [
+            354,
+            355
+          ],
+          "remaining_extent_unverified": false,
+          "complete_article": false
+        },
+        "actual_start_pdf_page": 348,
+        "observed_end_pdf_page": 355,
+        "full_source_extent": {
+          "pdf_pages": [
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355
+          ],
+          "printed_pages": [
+            "346",
+            "347",
+            "348",
+            "349",
+            "350",
+            "351",
+            "352",
+            "353"
+          ],
+          "all_pages_directly_viewed": true,
+          "prose_conclusion_pdf_page": 355,
+          "next_independent_pdf_page": 356,
+          "note": "Eight-page DOS body348–355 directly verified;opening native348–353 restored,ending354–355 and actual assembly pending. Source own346/source 심현도 기자 remain independent from canonical child null reference/편집부 and parent own346."
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "all_native_pdf_pages": [
+          348,
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "remaining_pdf_pages": [
+          354,
+          355
+        ],
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-47/validation.json",
+          "sha256": "14d3794ede170a5e87f02116f147aba2905860c2f27e572d8f593aa838db9150",
+          "bytes": 2958
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-47/reproduction.json",
+          "sha256": "d6b867c5ae6de8dfb307647622615fe9d79821d7473019aebce2f793558167b6",
+          "bytes": 63869
+        },
+        "checkpoint": "batch-47",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-09/packages/batch-47-r01/dos-a",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/manifest.json",
+              "sha256": "c4ad68b9b651d51ccbf054c3458094659ade82e256764998c831c87b90067d0b",
+              "bytes": 62925
+            },
+            "pdf_pages": [
+              348,
+              349,
+              350,
+              351,
+              352,
+              353
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-47/validation.json",
+              "sha256": "14d3794ede170a5e87f02116f147aba2905860c2f27e572d8f593aa838db9150",
+              "bytes": 2958
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-47/reproduction.json",
+              "sha256": "d6b867c5ae6de8dfb307647622615fe9d79821d7473019aebce2f793558167b6",
+              "bytes": 63869
+            }
+          }
+        ],
+        "manual_glyph_tasks": {
+          "count": 22,
+          "status": "manual-source-glyph-count-and-faint-lettering-reading-required",
+          "source_glyph_codes": null,
+          "source_glyph_counts": null,
+          "marker_counts": {
+            "⟦shade sample⟧": 4,
+            "⟦vertical dot band⟧": 2,
+            "⟦faint menu label⟧": 1,
+            "⟦faint filename⟧": 2,
+            "⟦faint directory name⟧": 1,
+            "⟦source-clipped⟧": 5,
+            "⟦faint directory suffix⟧": 1,
+            "⟦faint icon filenames⟧": 1,
+            "⟦faint calculator keys⟧": 1,
+            "⟦faint highlighted row⟧": 1,
+            "⟦ruler dot band⟧": 1,
+            "⟦faint status⟧": 1,
+            "⟦faint word⟧": 1
+          },
+          "corrections": {
+            "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/corrections.json",
+            "sha256": "d1254948741b56be7989c9747ba3b36aa130ced3db4c3e504389248f472401be",
+            "bytes": 1083089
+          },
+          "note": "Occurrence-linked markers retain original source pixels;clipped/occluded/faint fields are not reconstructed.222 glyph candidates remain explicit. These manual tasks are separate from deferred source354–355 and pending assembly."
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0022",
@@ -5258,14 +5420,56 @@
         "sha256": "d216b1deb183b23e6f3313ac74912aaf26e2f386ba730a8971c5e228544d37db",
         "bytes": 112444
       }
+    },
+    {
+      "name": "1991-09-batch-47",
+      "status": "complete",
+      "completed_at": "2026-10-30T12:42:16.004262+00:00",
+      "goal": "Resolve 집중리뷰0020 as non-owning and DOS0021 actual348–355 extent;restore opening348–353 with tables,diagrams,screens,CONFIG and source uncertainties.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0020",
+        "maso-1991-09-toc-0021"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        348,
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        5,
+        347,
+        354,
+        355,
+        356
+      ],
+      "recognition_invocations": 86,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-47/validation.json",
+        "sha256": "14d3794ede170a5e87f02116f147aba2905860c2f27e572d8f593aa838db9150",
+        "bytes": 2958
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-47/reproduction.json",
+        "sha256": "d6b867c5ae6de8dfb307647622615fe9d79821d7473019aebce2f793558167b6",
+        "bytes": 63869
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
     "readable": 16,
-    "partial": 0,
-    "group_headings": 3,
-    "unresolved": 10
+    "partial": 1,
+    "group_headings": 4,
+    "unresolved": 8
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -5273,25 +5477,20 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-47",
-    "goal": "Verify canonical0020 집중리뷰 ownership and canonical child0021 DOS-review extent from observed own PDF348;begin eligible pages among provisional348–353 within bounded limits.",
+    "name": "1991-09-batch-48",
+    "goal": "Restore DOS0021 final354–355 with remaining command/ROM/sales/support/conclusion prose and source screenshots;verify ending before independent Clipper356.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0020",
       "maso-1991-09-toc-0021"
     ],
     "mapping_targets": [
-      348,
-      349,
-      350,
-      351,
-      352,
-      353
+      354,
+      355
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Verify whether0020 is a non-owning group heading before classification;do not assume body ownership from contents. Keep its own canonical346 and child0021 null own reference/parent unchanged. Source DOS-review title/byline is observed348/printed346 after ppuri ending347. Canonical author 편집부 and source 글. 심현도 기자 must remain independent. Determine actual local ending/continuations before mapping only eligible pages among348–353;do not infer global folio offset or use nextTOC title as ending proof. Use eng for printed code/commands,kor+eng for other text;retain literal tables/screens/captions/spelling/glyph candidates. Use pinned Batch46 ppuri_adapter,which delegates nine earlier adapters;thirty core modules unchanged. Ppuri8-page assembly and LAN26-page assembly complete.58ppuri manual extents,three caption/image mismatches,prior manual tasks and Btree SAMPLE.C gap remain explicit. Ten unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or program execution."
+    "note": "Actual DOS348–355 directly verified. Opening348–353 native a is immutable;final354–355 and separate complete article assembly remain pending. Reuse retained exact source images.353 ends a complete installation paragraph before354 new subsection;no split-word source join. Source title/byline 심현도 기자 and canonical MS-DOS/편집부/null own reference/parent0020 own346 stay independent. Parent0020 is non-owning with no package;child0022 Clipper remains unresolved. Use eng for printed code/commands,kor+eng for other text including screenshot labels;preserve original clipping/faint fields,physical wraps,claims and22 opening manual extents/222glyph candidates. Use pinned Batch46 ppuri_adapter;ten adapters/thirty core modules remain exact. Then actually assemble both natives in a separate checkpoint. Eight unresolved identities,remaining bodies,full406-page accounting,Btree SAMPLE.C gap,cover,issue export and closeout remain pending. No reader rebuild or program execution."
   }
 }

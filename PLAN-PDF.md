@@ -32,48 +32,42 @@ records below are historical and do not authorize a new rebuild.
 ## September 1991 active, 2026-10-30
 
 September 1991 restoration is active: sixteen readable/sample-reviewed articles,
-no partial articles, three non-owning group headings and ten unresolved identities
+one partial article, four non-owning group headings and eight unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch46 completes the eight-page 뿌리 article, PDF340–347/printed338–345, from two
-immutable natives. Source title 클리퍼로 작성한 회원 관리 프로그램, 뿌리 and byline
-글. 이점한 remain literal; canonical 회원관리 and own reference337 stay unchanged.
-Final prose/closing mark and intrinsic listing2 CL.BAT/TL.BAT347 precede the independent
-DOS review348. No 뿌리 source pages or actual assembly remain pending.
+Batch47 resolves 집중리뷰0020 as a non-owning category heading and restores the DOS
+review0021 opening, PDF348–353/printed346–351. Actual source extent is348–355:
+prose/conclusion/closing mark355 precedes independent Clipper5.01 opening356.
+Final354–355 and the complete DOS article assembly remain pending. Canonical parent
+own346 and child null own reference/parent are unchanged. Source title MS 도스와
+DR 도스의 운영체제 경쟁 and byline 글. 심현도 기자 remain independent from canonical
+MS-DOS spelling/편집부. No duplicate parent body package;child0022 remains unresolved.
 
-Both 605-file exports and a fresh-process rebuild match; all 596 native files remain exact.
-The assembly preserves 161 regions, 125 blocks, 22 original figures and 139 OCR records.
-All source blocks retain exact native text. Eight code blocks preserve three intrinsic file
-groups and five independent examples, with 86 physical source rows. The code download is the
-exact concatenation of both native downloads; no cross-native text merge or formatting trim.
-Both source tables retain 35 file rows and 26 database rows/104 body cells. All 32 printed
-references resolve to their literal captions, preserving three original caption/image mismatches.
+Both 364-file exports and a fresh-process rebuild match. The native preserves97 regions,
+74 blocks,11 original figures and86 OCR records:seven screenshots,two diagrams,two history
+tables/13 rows/39 body cells,and one independent three-row CONFIG example. Nine groups/twelve
+source joins preserve physical wraps and regional reading order. All 1,417 typed ranges,
+97 exact crops/decoded PNGs,86 settings(1 eng/85 kor+eng) and ZIP CRC pass. All 31,479 prior
+files,thirty core modules,ten adapters and46 earlier packages remain unchanged. Batch46's
+successful213-test baseline is reused for this data-only checkpoint. No reader rebuild.
 
-All 4,700 active root ranges and 3,478 original native ranges validate; every source-metadata
-occurrence projects within its named download/block/region/scan context. All 161 crops,
-139 settings (11 eng/128 kor+eng) and three ZIPs pass. All 30,840 prior files, thirty core
-modules, nine previous adapters and 45 earlier packages remain unchanged. A tenth private
-ppuri adapter preserves these exact payloads and delegates to Batch43 lan_adapter. Twelve
-invalid mutations are rejected and all 213 PDF tests report OK. The first report helper
-expected pytest wording; its successful unittest log and original helper remain retained.
-The corrected report parser verified that log without rerunning tests. No new mapping,
-rendering, OCR or source correction, reader rebuild or execution.
+All86 raw drafts were read before one source correction pass;zero recognition retries.
+Six mapped full pages,five outside contexts,97 original crops and nine pre-OCR refinements
+were directly reviewed. Original zero-byte preparation helpers/interruption evidence remain
+retained;the verified restart used login:false. Twenty-two manual extents and222 glyph
+candidates retain faint/source-clipped fields,shade/dot/ruler bands and pixel-font numbers.
+Historical spelling,dates,technical claims and physical English/filename wraps stay literal.
+Human acceptance,full proofreading,original encoded bytes/exact spaces/glyph identities/counts,
+claims and execution remain unverified. Prior ppuri/LAN completion and all earlier gaps stay exact.
 
-Fifty-eight manual extents and 156 glyph candidates remain explicit. Source-occluded/faint
-lettering, decorative/shade/ruler/box glyphs, caption mismatches, filenames, punctuation,
-case and terminalplus stay literal. Human acceptance, full proofreading, original encoded
-bytes/exact spacing/glyph identities/counts, claims and execution remain unverified.
-LAN0018's complete assembly and all earlier manual/coverage gaps remain unchanged.
-
-Next: Batch47 verifies canonical0020 집중리뷰 ownership and child0021 DOS-review extent
-from observed own PDF348/printed346, then begins eligible pages among provisional348–353.
-Keep canonical0020 own346 and child0021 null own reference/parent unchanged. Preserve source
-byline 심현도 기자 independently of canonical 편집부. Use pinned Batch46 ppuri_adapter;
-ten adapters/thirty core modules remain pinned. Prior array/Nanforum tasks and B+ tree0012's
-referenced〈리스트 2〉 SAMPLE.C remain open. The listing is unlocated in bounded inspected
-body264–271/appendix374–381/387–390; preserve this gap for bounded lookup/full406-page
-accounting without an issue-wide absence claim. Ten unresolved identities, remaining bodies,
-accounting, cover, issue export and closeout remain pending. No reader rebuild. See
+Next: Batch48 restores DOS0021 final354–355 from retained source views,then a separate
+checkpoint assembles the complete348–355 article from immutable natives. Use pinned Batch46
+ppuri_adapter;ten adapters/thirty core modules remain pinned. Keep source/canonical title,
+byline and reference differences independent. Eight unresolved identities,remaining bodies,
+full406-page accounting,cover,issue export and closeout remain pending. B+ tree0012's
+referenced〈리스트 2〉 SAMPLE.C remains unlocated in bounded inspected body264–271/
+appendix374–381/387–390;retain the gap for bounded lookup/full accounting without an
+issue-wide absence claim. Array/Nanforum/manual tasks remain open. No reader rebuild. See
 [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
