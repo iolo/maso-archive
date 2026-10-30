@@ -23,26 +23,31 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-September 1991 restoration is active: ten readable/sample-reviewed articles,
-one partial article, three non-owning group headings and fifteen unresolved identities
+September 1991 restoration is active: eleven readable/sample-reviewed articles,
+zero partial articles, three non-owning group headings and fifteen unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch33 restores final PDF pages 278–280 of child0014, 윈도우즈 응용 프로그램 만들기(3) :
-프로그램 작성과 실행 과정 / 강민석. All nine body pages 272–280 are now preserved
-across two immutable natives. The article stays partial until actual assembly.
-Parent0013 활용 remains non-owning; canonical parent270/childnull references are unchanged.
-The final native retains the original message-flow diagram, assembly snippet, DEF/MAKE
-listings, screenshot and closing mark. Both 114-file exports and a fresh-process rebuild
-match. All 905 current text ranges plus one prior-native range, 30 source crops and
-25 OCR settings pass; all 32 earlier checkpoints revalidate. One source correction pass,
-zero recognition retries. Two uncertain screen labels retain markers and original pixels.
+Batch34 assembles the nine-page Windows child0014, 윈도우즈 응용 프로그램 만들기(3) :
+프로그램 작성과 실행 과정 / 강민석, on PDF272–280/printed270–278. Parent0013 활용
+remains non-owning; canonical parent270/childnull references are unchanged. All 308 original
+native files and complete metadata remain unchanged in the 317-file package. Only the
+277→278 parameter annotation is merged with LF, at right offset574; all eleven fields
+stay prose. Four printed code blocks remain independent, with exact native listing
+concatenation. No body pages or actual assembly remain pending for this article.
 
-Next: Batch34 assembles the actual nine-page article from exact Batch32/33 natives.
-Merge only the 277→278 parameter annotation with LF; keep all eleven fields as prose,
-all four printed code blocks independent and listing bytes as exact native concatenation.
-Preserve complete original metadata, including the nested prior-native continuation range.
-Use pinned Batch31 btree_adapter for complete checks; seven existing private adapters
-and thirty core modules remain unchanged. No new OCR or source correction is needed.
+Both exports and a fresh-process rebuild match. All 2,617 current ranges and 2,556 native
+ranges validate in their proper contexts, including one nested b→a prior range. All 80
+source crops, 70 settings (5eng/65kor+eng) and three ZIPs pass. The original tables,
+diagrams, screenshot, code frames, closing mark and uncertain glyph records remain intact.
+Two screenshot labels retain explicit unresolved markers. All 20,114 prior files, thirty
+core modules and seven existing adapters remain exact; all 33 earlier checkpoints validate.
+No new render, OCR, source correction, semantic repair, execution or reader rebuild.
+
+Next: Batch35 verifies child0015, 배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와
+코드 입력 방식 / 노준양, from known own title/byline on282. Establish actual ownership,
+extent and ending before mapping. Pages282–287 are provisional first-six candidates only.
+Use pinned Batch34 windows_adapter for complete checks; eight private adapters now
+dispatch all prior formats while thirty core modules remain unchanged.
 
 Child0012's B+ tree main body remains assembled. Its referenced〈리스트 2〉SAMPLE.C
 remains unlocated in bounded inspected body264–271/appendix374–381/387–390. Preserve
