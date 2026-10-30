@@ -4717,52 +4717,56 @@
         "Batch58 directly reviews six eligible pages 95,98–102 and four outside contexts 94,96,97,103. Page 95/93 completes incoming domestic-n16 and three new domestic items 17–19. Independent publisher book advertisements 96–97 own no news body. Foreign news opens 98/96 and ends 102/100 with a terminal ornament. Events open 103/101. All folios and topic boundaries are separate source observations; canonical own 385/child 0041 null own and hierarchy remain unchanged.",
         "The second native preserves 90 files, 28 regions, 18 blocks,ten figures and 18 kor+eng OCR records. Six complete original pages retain all source pixels. Three new domestic/eight foreign items have 24 body-image fragments and 13 internal continuations; one incoming ending fragment completes domestic-n16. Four photos/screens retain caption associations and original raster orientation. Two screenshots remain image-only manual extents;body prose,contacts and embedded lettering await volunteers. Nine opaque/pointer glyph candidates remain unverified.",
         "All 28 initial crops and one pre-OCR caption refinement were reviewed before 18 recognitions. All 18 raw drafts were read before one source correction pass; zero retries. Two 90-file exports and a fresh-process rebuild match. All 130 typed ranges validate in their named download/block/region/scan contexts; 28 exact crops/PNGs, 18 settings, ZIP CRC and six complete originals pass. All 37,917 prior files, 57 prior packages, 30 core modules and 12 adapters remain exact. Batch56 successful 213-test baseline reused for data-only work.",
-        "Radar remains partial: events 103 onward,books/software topic locations,full source extent and actual parent assembly/final child anchor projection remain pending. The earlier native and child 0041 reference remain unchanged. Community survey/application and Btree SAMPLE.C gaps remain active for full 406-page accounting. Human acceptance,full proofreading,original encoded bytes/exact spaces/glyph identities/counts,claims,execution and independent backup recovery remain unverified. No reader rebuild."
+        "Radar remains partial: events 103 onward,books/software topic locations,full source extent and actual parent assembly/final child anchor projection remain pending. The earlier native and child 0041 reference remain unchanged. Community survey/application and Btree SAMPLE.C gaps remain active for full 406-page accounting. Human acceptance,full proofreading,original encoded bytes/exact spaces/glyph identities/counts,claims,execution and independent backup recovery remain unverified. No reader rebuild.",
+        "Batch59 directly reviews mapped PDF 103–108 and outside contexts 102,109,110. Events open 103/101, books span 104–105/102–103, and software spans 106–109/104–107. Software ends on 109 with a terminal ornament; 110 is independent TRON promotional material. Radar full body extent is nineteen pages:89–95 and98–109, excluding publisher ads96–97. Current native covers103–108;final109 native andactual assembly remain pending. Canonical own385/child0041 null own,title/order/hierarchy unchanged.",
+        "The487-file native retains137 regions,114 blocks,23 figures and114 kor+eng OCR records. Thirteen event rows preserve52 cells/eight headers;five bookshelf rows preserve15 cells/three headers. Six main book reviews plus1991 catalogue inset retain21 bibliographic lines,seven covers,eleven original-image body fragments andfour continuations. Six software items retain13 body fragments,seven continuations,three contacts,six screens andfive captions. Key screenshot106 belongs toheading107;paint screenshot108 hasno printed caption. Body prose andembedded lettering remain volunteer tasks.",
+        "All137 initial exact crops and16 pre-OCR refinements were reviewed before114 recognitions. All114 raw drafts were read beforeone source correction pass;zero retries. Two487-file exports andfresh-process rebuild match. All876 typed ranges validate in their named download/block/region/scan contexts;137 exact crops/PNGs,114 settings,ZIP CRC andsix full-page originals pass. All38,246 prior files,58 prior packages,30 core modules and12 adapters remain exact. Batch56 successful213-test baseline reused fordata-only work. An unsupported region-kind preflight failure wasrepaired beforemap/crops/OCR;original attempt andevidence retained.",
+        "Six screenshot manual extents and66 glyph candidates preserve opaque company/place/credit/pointer/phone/date/roman readings. Source 만듬,영진출판사 지음,423쪽,대사고나,데이타베이스 and화일 remain literal without semantic/historical repair. Human acceptance/full proofreading,source encoded bytes/exact spaces/glyph identities/counts,contacts/book/event/technical/historical claims,execution andindependent backup recovery remain unverified. Earlier community survey/application andBtree SAMPLE.C gaps unchanged;full406-page accounting/final gap dispositions pending. No reader build."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-58-r01/radar-b",
+        "directory": "archive/pdf/1991-09/packages/batch-59-r01/radar-c",
         "article_id": "scan-maso-1991-09-toc-0034",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-58-r01/radar-b/manifest.json",
-          "sha256": "1476a7617017ec65cb1f7182cd96144703025d3b12017c786006785f6f0976d9",
-          "bytes": 15394
+          "path": "archive/pdf/1991-09/packages/batch-59-r01/radar-c/manifest.json",
+          "sha256": "512657833c045724881394abb6ca27d9989ff056ed60c12b606bc46bdda21cef",
+          "bytes": 84933
         },
         "coverage": {
           "pdf_pages": [
-            95,
-            98,
-            99,
-            100,
-            101,
-            102
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
           ],
           "printed_pages": [
-            "93",
-            "96",
-            "97",
-            "98",
-            "99",
-            "100"
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106"
           ],
-          "regions": 28,
-          "blocks": 18,
-          "figures": 10,
+          "regions": 137,
+          "blocks": 114,
+          "figures": 23,
           "deferred_pdf_pages": [
-            103
+            109
           ],
-          "remaining_extent_unverified": true,
+          "remaining_extent_unverified": false,
           "complete_article": false
         },
         "actual_start_pdf_page": 89,
-        "actual_end_pdf_page": null,
+        "actual_end_pdf_page": 109,
         "full_source_extent": {
           "current_pdf_pages": [
-            95,
-            98,
-            99,
-            100,
-            101,
-            102
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
           ],
           "restored_native_pdf_pages": [
             89,
@@ -4776,11 +4780,41 @@
             99,
             100,
             101,
-            102
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
           ],
-          "next_known_body_page": 103,
-          "full_article_extent_verified": false,
-          "additional_deferred_extent_unknown": true,
+          "available_pdf_pages": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109
+          ],
+          "next_known_body_page": 109,
+          "full_article_extent_verified": true,
+          "additional_deferred_extent_unknown": false,
+          "remaining_native_pdf_pages": [
+            109
+          ],
           "divider_topic_references": [
             "88",
             "96",
@@ -4791,29 +4825,52 @@
           "actual_topic_openings_verified": {
             "domestic": 90,
             "foreign": 98,
-            "events": 103
+            "events": 103,
+            "books": 104,
+            "software": 106
           },
           "domestic_ending_pdf_page": 95,
           "foreign_ending_pdf_page": 102,
+          "books_pdf_pages": [
+            104,
+            105
+          ],
+          "software_pdf_pages": [
+            106,
+            107,
+            108,
+            109
+          ],
           "excluded_whole_pdf_pages": [
             96,
             97
-          ]
+          ],
+          "ending_ornament": true,
+          "following_page": {
+            "pdf_page": 110,
+            "kind": "independent-TRON-promotional-material",
+            "printed_folio": null
+          },
+          "source_extent_review": {
+            "path": "archive/pdf/1991-09/restoration/batch-59/source-extent-reviewed.json",
+            "sha256": "f709c75d3d99a427ad3e8ea56d98ee9abdfc8806eef8b42b7c6cdfb96d383ae0",
+            "bytes": 4809
+          }
         },
         "body_pages_complete": false,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-58/validation.json",
-          "sha256": "74b63e90f4b9654828f460d83fd2e70a045c9d1c90a394020e4e7337c9922e91",
-          "bytes": 2389
+          "path": "archive/pdf/1991-09/restoration/batch-59/validation.json",
+          "sha256": "76d86520836e9dd838401f1ef948e3ed520f5092483440a0ac545143b32a7327",
+          "bytes": 2538
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-58/reproduction.json",
-          "sha256": "7f728d818817b54257fbc31d5950f185186f673021e1692d43eb75d4fcbeab27",
-          "bytes": 16342
+          "path": "archive/pdf/1991-09/restoration/batch-59/reproduction.json",
+          "sha256": "2b37b366a15c42be46dfc94b658e15f426e8affbab59992dc8dfa906e7b63f87",
+          "bytes": 85881
         },
-        "checkpoint": "batch-58",
+        "checkpoint": "batch-59",
         "native_segments": [
           {
             "directory": "archive/pdf/1991-09/packages/batch-57-r01/radar-a",
@@ -4861,6 +4918,30 @@
               "98",
               "99",
               "100"
+            ]
+          },
+          {
+            "directory": "archive/pdf/1991-09/packages/batch-59-r01/radar-c",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-59-r01/radar-c/manifest.json",
+              "sha256": "512657833c045724881394abb6ca27d9989ff056ed60c12b606bc46bdda21cef",
+              "bytes": 84933
+            },
+            "pdf_pages": [
+              103,
+              104,
+              105,
+              106,
+              107,
+              108
+            ],
+            "printed_pages": [
+              "101",
+              "102",
+              "103",
+              "104",
+              "105",
+              "106"
             ]
           }
         ],
@@ -6944,6 +7025,47 @@
         "sha256": "7f728d818817b54257fbc31d5950f185186f673021e1692d43eb75d4fcbeab27",
         "bytes": 16342
       }
+    },
+    {
+      "name": "1991-09-batch-59",
+      "status": "complete",
+      "completed_at": "2026-10-30T17:40:48.494978+00:00",
+      "goal": "Restore events/books/software PDF103–108 with literal table,bibliographic,contact,heading/caption fields andoriginal body/cover/screen images;verify radar extent/end while leaving final109 native explicit.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0034"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        102,
+        109,
+        110
+      ],
+      "recognition_invocations": 114,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_revisions": 16,
+      "pre_mapping_schema_repairs": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-59/validation.json",
+        "sha256": "76d86520836e9dd838401f1ef948e3ed520f5092483440a0ac545143b32a7327",
+        "bytes": 2538
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-59/reproduction.json",
+        "sha256": "2b37b366a15c42be46dfc94b658e15f426e8affbab59992dc8dfa906e7b63f87",
+        "bytes": 85881
+      }
     }
   ],
   "totals": {
@@ -6960,24 +7082,19 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-59",
-    "goal": "Continue radar0034 at observed events opening103/101. Review local topic continuity and map the next bounded eligible segment, provisionally103–108, preserving event table fields and following books/software material as observed.",
+    "name": "1991-09-batch-60",
+    "goal": "Restore radar0034 final software page109/107:four public-software items TAL1.0,BCD,ls4.7 andPMAP,three screenshot/caption associations andsource body flows;retain literal identifiers andsource terminal ornament.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0034"
     ],
     "mapping_targets": [
-      103,
-      104,
-      105,
-      106,
-      107,
-      108
+      109
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Review source before mapping. Domestic90–95 andforeign98–102 are now preserved across two natives;96–97 are independent publisher ads. Events open103/101;books/software locations andfullradar extent remain unverified. Keep canonicalown385/child0041nullown,title/order/hierarchy unchanged. Childnativeanchor p089-topics remains inradar-a untilactual assembly/finalprojection. Use pinned Batch56 community_adapter/twelve private dispatchers;30 core modules unchanged. Continue bounded natives thenactually assemble all radar bodies andprojectchild anchor. Community survey/application gap,Btree SAMPLE.C gap,full406-page accounting,cover,standalone issue export andcloseout remain. No reader build."
+    "note": "Use retained source109 andoutside108/110 forboundary review. Fullradar extent verified19pages89–95,98–109;96–97publisher ads excluded. Currentthree natives preserve18pages;109native thenactual19-page assembly/finalchild0041anchor projection remain. Preserve screenshots asoriginals andreview headings/captions;embeddedlettering/bodyprose volunteertranscription pending. Canonicalown385/childnullown,title/order/hierarchy unchanged. Use pinned Batch56community_adapter/twelve private dispatchers;30core modules unchanged. Communitysurvey/application gap,BtreeSAMPLE.C gap,full406-pageaccounting,cover,standaloneissueexport andcloseout remain. No readerbuild."
   }
 }
