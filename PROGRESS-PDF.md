@@ -11,46 +11,45 @@ no partial articles, four non-owning group headings and two non-owning section r
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
 complete. Full issue accounting and closeout remain incomplete.
 
-Batch62 initializes all 406 source-page records from the 23 selected articles and 48 frozen
-native contexts. They own 224 distinct body pages/224 assignments, with no shared body pages.
-Eight exact mixed-page exclusions remain in selected and native contexts; all nonfigure
-regions are disjoint from those exclusions. Literal/null printed folios and original source
-ownership remain unchanged. Existing body reviews are reused, without a new proofreading claim.
+Batch63 extends source accounting through outside PDF 21–40. All twenty complete 3000px views
+were directly inspected: twenty advertisements, with no visible printed folios and no additional
+canonical article bodies. The software price catalogue, SMART two-page promotion, notebook and
+Clipper-library advertisements remain outside body ownership. Page40's ppuri demo reference is
+advertising context, not additional article coverage or recovered program source.
 
-Twenty outside pages, PDF 1–20, were directly inspected: the cover, one contents page, one
-contents/colophon page and seventeen advertisements. No visible printed folio was found on
-these pages. Three retained full-page views were reused and seventeen new 3000px source views
-were rendered. Contents references remain index references, including community 87/radar 385;
-no canonical reference swap or global folio offset is inferred.
+There are now 264 of 406 content records: 224 selected body pages and forty reviewed outside
+pages. Of 182 outside candidates, 142 remain pending. Cumulative outside categories are 37
+advertisements, cover, contents and contents/colophon. All previous page records, including
+literal/null folios and community 87/radar 385 index references, remain exact without a global offset.
 
-The accounting JSON matches its independent fresh-process rebuild byte for byte. There are
-244 of 406 content records: 224 selected body pages plus twenty reviewed outside pages.
-Of 182 outside candidates, 162 remain pending. All 29 canonical entries and their outcomes,
-40,715 prior files, thirty core modules and thirteen private adapters remain exact. Batch61's
-213-test baseline is reused for this data-only checkpoint. No new article export, mapping,
-OCR, source correction or reader build.
+The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
+Forty-eight frozen native contexts and eight exact mixed-page exclusions remain unchanged;
+the earlier nonfigure/exclusion disjointness audit remains pinned. The accounting JSON matches
+an independent fresh-process rebuild. All 29 canonical entries/outcomes, 40,770 prior files,
+thirty core modules and thirteen private adapters remain exact. Batch61's 213-test baseline is
+reused for data-only work. No new article export, mapping, OCR, source correction or reader build.
 
-Radar 0034 remains complete at radar-complete-r01: all nineteen pages 89–95,98–109 and 740
-native files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor,
-five source topic references, original body-image continuations and typed source contexts remain
-verified. Use the pinned Batch61 radar_adapter and its thirteen-adapter dispatcher. Community
-0026's eleven available pages and child 0040's final a-p387-topics anchor remain complete.
+Radar 0034 remains complete at radar-complete-r01: nineteen pages 89–95,98–109 and all 740
+native files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor and
+its typed-source/body-continuation contexts remain verified. Use pinned Batch61 radar_adapter
+and its thirteen-adapter dispatcher. Community 0026's eleven available pages and child 0040's
+final a-p387-topics anchor remain complete.
 
 Complete original article recovery remains unverified. The community survey/application form
 is unlocated in the bounded community span; source 405's 397~398 placeholder and folio jump
 396→399 do not establish missing-content identity. Survey-prize material and giro forms
 401–402 are not substitutes. B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated
 in bounded body 264–271/appendix 374–381/387–390. These gap records and the seminar's related
-application-form task are carried forward unchanged; no issue-wide absence claim is made.
-Body prose, embedded screen/cover lettering and earlier manual glyph tasks remain explicit.
+application-form task remain unchanged; no issue-wide absence claim is made. Body prose,
+embedded screen/cover lettering and earlier manual glyph tasks remain explicit volunteer work.
 Human acceptance, full proofreading, source encoded bytes/exact spaces/glyph identities/counts,
 historical/technical/contact/geographic claims, execution and independent backup recovery remain
 unverified.
 
-Next: Batch63 reviews PDF 21–40, at most twenty new outside pages, extending the frozen
-Batch62 accounting without new body mapping. Continue through all 406 pages, resolve final
-survey/application/SAMPLE.C gap dispositions, then cover, standalone issue export, independent
-native/assembly rebuilds and closeout. No reader rebuild.
+Next: Batch64 reviews PDF 41–60, at most twenty new outside pages. Reuse the pinned Batch62
+accounting builder/ownership and Batch63 accounting, preserving all earlier records. Finish all
+406 pages and final survey/application/SAMPLE.C gap dispositions, then cover, standalone issue
+export, independent all-native/actual assembly rebuilds and closeout. No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
