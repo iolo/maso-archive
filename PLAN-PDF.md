@@ -31,42 +31,41 @@ records below are historical and do not authorize a new rebuild.
 
 ## September 1991 active, 2026-10-30
 
-September 1991 restoration is active: nineteen readable/sample-reviewed articles,
-no partial articles, four non-owning group headings and six unresolved identities
+September 1991 restoration is active: twenty readable/sample-reviewed articles,
+no partial articles, four non-owning group headings and five unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch51 completes the Director article0023, PDF362–366/printed360–364, upper366 only.
-The final conclusion and original closing mark precede an independent lower subscription
-advertisement and full367–369 advertisements. No Director body pages or actual assembly
-remain pending. Canonical title, 이진영, own360 and no parent remain unchanged. The mapped
-byline reads 글. 이진영 (엘렉스 컴퓨터 마켓팅부);this source affiliation supersedes the
-previous outside-context candidate while the earlier immutable package remains unchanged.
+Batch52 completes the port-conflict article0024, PDF380–381/printed378–379. Its
+three register steps, two diagrams and complete USECOM.C listing end before the
+independent Hangul appendix382. The department participation notice380 is retained
+as an associated editorial inset. No source pages or actual assembly remain pending.
+Canonical title, 편집부, own378 and no parent remain unchanged; the source program
+contributor 김형훈 is separate from the editorial article byline.
 
-Both 203-file exports and a fresh-process rebuild match. The complete native preserves
-54 regions, 40 blocks, seven original figures and 47 OCR records: opening Macintosh photo,
-five screenshots and closing mark. Five captions/lettering links,12 motion-menu options,
-three recycling categories/five visible axis labels and five groups/seven joins retain source
-contexts. No chart values or hidden fields are inferred. All 856 typed ranges validate;
-54 crops exactly match source pixels,47 kor+eng settings/PNG decoding/ZIP CRC pass,and every
-eligible crop is disjoint from the lower advertisement. All 34,031 prior files,thirty core
-modules,eleven adapters and50 earlier packages remain unchanged. Batch49's successful
-213-test baseline is reused for data-only work. No reader rebuild or execution.
+Both 87-file exports and a fresh-process rebuild match. The package preserves 24 regions,
+17 blocks, six original figures and 18 OCR records. USECOM.C retains 31 physical rows,
+116 tokens, two arrays/eight values, three includes/three defines and its usage string.
+Three source steps connect to exact code rows; two diagrams retain sixteen bit cells
+and three callouts. The listing reference resolves within the article. All 992 typed ranges
+(676 article/316 listing),24 exact crops/decoded PNGs,18 pinned settings and ZIP CRC pass.
+All 34,763 prior files,thirty core modules,eleven adapters and51 earlier packages remain
+unchanged. Batch49's successful213-test baseline is reused for data-only work.
 
-All five mapped full pages,five outside contexts,54original crops and23unique refined regions/
-26crop revisions were reviewed before47recognitions. All47drafts were read before one source
-correction pass;zero retries. Nineteen manual screenshot extents/35glyph candidates preserve
-clipping,occlusion,faint fields,slider textures and selected glyphs. The tilted editor remains
-at its original angle. Hardware/codec/numeric claims and physical English wraps stay literal.
-Human acceptance,full proofreading,source encoded bytes/exact spaces/glyph identities/counts,
-claims and execution remain unverified. Earlier Clipper/DOS/ppuri/LAN completion,array/Nanforum
-tasks and B+ tree SAMPLE.C gap remain exact.
+Both mapped full pages,three outside contexts,24 original crops and ten refinements were
+reviewed before18 recognitions. All18 raw drafts were read before one source correction
+pass;one eng code/seventeen kor+eng other regions,zero retries. Two dot-band manual tasks
+and24 glyph candidates remain explicit. Printed +1 port arithmetic,broken operator glyphs,
+repeated COM3 diagram label and GPO2/O0 ambiguity remain without technical repair.
+Human acceptance,full proofreading,encoded bytes/exact spaces/glyph identities/counts,
+hardware/technical/historical/contact claims and execution remain unverified. Earlier
+Director/Clipper/DOS/ppuri/LAN completion,array/Nanforum tasks and B+ tree SAMPLE.C gap stay exact.
 
-Next: Batch52 locates and verifies canonical0024,the port-conflict article,using
-its own378 reference as a local lookup clue. Actual source title/start/end remain unverified;
-PDF378/380 and provisional378–383 mapping candidates do not establish ownership or a global
-folio offset. Verify boundaries/continuations before mapping eligible pages. Reuse retained
-source views where applicable. Use pinned Batch49 dos_adapter;eleven adapters/thirty core
-modules stay pinned. Six unresolved identities,remaining bodies,full406-page accounting,
+Next: Batch53 locates and verifies canonical0025,the third reader-seminar notice,using
+its own154 reference as a local clue. Actual source location/extent remain unverified;
+PDF154/156 and provisional154–159 mapping candidates do not establish a global folio offset.
+The independent interview0005 starts158 and remains unchanged. Verify source boundaries
+before mapping eligible pages. Use pinned Batch49 dos_adapter;eleven adapters/thirty core
+modules stay pinned. Five unresolved identities,remaining bodies,full406-page accounting,
 cover,issue export and closeout remain pending. B+ tree0012's referenced〈리스트 2〉 SAMPLE.C
 remains unlocated in bounded body264–271/appendix374–381/387–390;retain the gap for bounded
 lookup/full accounting without an issue-wide absence claim. No reader rebuild. See

@@ -4176,12 +4176,88 @@
       "toc_entry_id": "maso-1991-09-toc-0024",
       "title": "테크니컬 독자마당 : 포트간 충돌을 해소시켜 주는 유스콤",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 and own380/printed378 source title포트 간의 충돌을 해소시켜 주는 유스콤/category테크니컬독자마당/byline글. 편집부 identify canonical0024. Canonical title/byline/own378/no parent unchanged. Program contributor김형훈/숭실대학교 and codecreditKimHyounghoon/SoongsilUniv remain separate from article editorial byline.",
+        "Complete actual two-page body380–381/printed378–379. Final prose step/closingmark381 precede completeUSECOM.C listing.379independentbookadvertisement and382independentHangulappendix/from245/EHAN2.C bound article. No deferred page or actual assembly;no globalfoliooffset inference. Department participation notice380 is associated editorial inset,not a new canonical article/externalad.",
+        "Both mapped full pages and three outside contexts5/379/382 directly reviewed.24original crops in7sheets and10refined crops in5sheets reviewed before18recognitions. All18drafts,including two empty dotbands and completeengcode,read before one sourcepass;zero retries. One independentengUSECOM.C/seventeenkor+eng othertext including diagramlabels. New382render exactly matches retained previously viewedHangulsource pixels;all other views reused.",
+        "The87-file complete native preserves24regions,17blocks,six original figures,18OCR records and110serialized reading rows. Original monitor illustration,associated department inset,two registerdiagrams,closingmark andlistingframe remain. Four caption/panel-heading links/four figuretext associations retain originaltext. One explicit경+험 prosejoin preserves continuation around inset.",
+        "CompleteUSECOM.C retains31physicalrows,116tokens,84lexicalidentifiers,oneusagestring,10decimalnumericoccurrences,10hexoccurrences,36operatoroccurrences,threeincludes/threedefines andtwoarrays/eightvalues. Three registersteps connect to exact source code rows;two diagrams retain16bitcells/threecallouts andsourcearrowtargets. Printedlistingreference resolves tocaption/frame/code. Every sourceoccurrence is linked inarticle/listing contexts.",
+        "Literalport=(atoi(argv[1])+1)%4,IMR|irq,MCR_OFF&0xF7,IER_OFF0,arrayvalues,voidmain andcommentUSECOM. C spacing remain without semantic repair. SourceCOM1,COM3/COM2,COM3 repeatsCOM3;GPO2 retainsO/0alternatives. Brokenoperatorglyphs remain explicit candidates. No compile/run/hardwarechange or inferredcorrectserialportbehavior.",
+        "Two editorialdotbands have occurrence-linkedmanualmarkers,unknownoriginalglyphidentity/count.24glyphcandidates retain circledsteps/arrows/brackets/squares/dashes/O0/COM3/operator/commentfilename readings. Humanacceptance/fullproofreading,encodedbytes/exactspaces/glyphidentities/counts,technical/hardware/historical/contactclaims,execution andbackuprecovery remain unverified.",
+        "Both87-file exports/freshprocessrebuild match. All992typedranges(676article/316listing) validate in nameddownload/block/region/scan contexts.24crops exact/PNGdecode,18pinnedsettings andZIPCRC pass. All34763priorfiles,30coremodules,11adapters,source/TOC/runtime/queue and51earlierpackages unchanged. Batch49successful213-test baseline reused fordata-onlywork. One task/two mapped/three outside pages satisfy bounds. Earlier manual/coveragegaps unchanged;no readerbuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-52-r01/port-conflict",
+        "article_id": "scan-maso-1991-09-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-52-r01/port-conflict/manifest.json",
+          "sha256": "17ade77210697ab857e8c6883aad92b943089b30147c125b1db2124734a33d30",
+          "bytes": 14751
+        },
+        "coverage": {
+          "pdf_pages": [
+            380,
+            381
+          ],
+          "printed_pages": [
+            "378",
+            "379"
+          ],
+          "regions": 24,
+          "blocks": 17,
+          "figures": 6,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "complete_article": true
+        },
+        "actual_start_pdf_page": 380,
+        "actual_end_pdf_page": 381,
+        "full_source_extent": {
+          "pdf_pages": [
+            380,
+            381
+          ],
+          "printed_pages": [
+            "378",
+            "379"
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Complete two-page article,including associateddepartmentinset,three registersteps/two diagrams and completeUSECOM.C.379bookad and382independentHangulappendix/from245/EHAN2.C bound article;not aUSECOMcontinuation."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-52/validation.json",
+          "sha256": "62f19075efcdff69c9281cf879e2e2341f6e79ffc266f995ec33478a80a37873",
+          "bytes": 2586
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-52/reproduction.json",
+          "sha256": "195f11bcb1119ff88826dff58924e6a7d6968ae3fa0ef7a321f64bb421e1f705",
+          "bytes": 15716
+        },
+        "checkpoint": "batch-52",
+        "manual_glyph_tasks": {
+          "count": 2,
+          "status": "manual-source-decorative-dot-band-identity-and-count-reading-required",
+          "directory": "archive/pdf/1991-09/packages/batch-52-r01/port-conflict",
+          "corrections": {
+            "path": "archive/pdf/1991-09/packages/batch-52-r01/port-conflict/corrections.json",
+            "sha256": "1608cb63305c5c26dc8090ffb5efdb078d4ea845e606c338dfa3b6f364fdb0e2",
+            "bytes": 584484
+          },
+          "marker_counts": {
+            "⟦dot band⟧": 2
+          },
+          "glyph_candidates": 24,
+          "note": "Two associated editorialinset circular dotbands retain unknownglyphidentities/counts. Originalpixels authoritative;separate fromcomplete2pagebodycoverage."
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0025",
@@ -5979,14 +6055,49 @@
         "sha256": "af676ac810a24cd4b2d13e4bbc9d2d634ff722e8138a785c5f359ff0243e93b4",
         "bytes": 36146
       }
+    },
+    {
+      "name": "1991-09-batch-52",
+      "status": "complete",
+      "completed_at": "2026-10-30T14:40:32.282551+00:00",
+      "goal": "Locate and restore complete port-conflict0024 PDF380–381 with literalUSECOM.C,registerdiagrams andassociatededitorialinset.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0024"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        380,
+        381
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        379,
+        382
+      ],
+      "recognition_invocations": 18,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-52/validation.json",
+        "sha256": "62f19075efcdff69c9281cf879e2e2341f6e79ffc266f995ec33478a80a37873",
+        "bytes": 2586
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-52/reproduction.json",
+        "sha256": "195f11bcb1119ff88826dff58924e6a7d6968ae3fa0ef7a321f64bb421e1f705",
+        "bytes": 15716
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 19,
+    "readable": 20,
     "partial": 0,
     "group_headings": 4,
-    "unresolved": 6
+    "unresolved": 5
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -5994,24 +6105,24 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-52",
-    "goal": "Locate and verify canonical0024 테크니컬 독자마당 : 포트간 충돌을 해소시켜 주는 유스콤 / 편집부,using canonical own378 as a local lookup clue;restore bounded eligible pages after verifying actual title/start/end.",
+    "name": "1991-09-batch-53",
+    "goal": "Locate and verify canonical0025 제3회 마이크로소프트웨어 애독자를 위한 세미나 개최 안내 from canonical own154;restore bounded eligible pages after actual source identity/start/end review.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0024"
+      "maso-1991-09-toc-0025"
     ],
     "mapping_targets": [
-      378,
-      379,
-      380,
-      381,
-      382,
-      383
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Director0023complete362–366,upper366only;367–369fullads outside. Next canonical0024 own378/byline편집부/no parent stay unchanged. Actual source start/end remain unverified. Inspect canonical page clue378 and nearby PDF378/380 as candidates,not a global offset or asserted body location. Provisional378–383mapping targets only;map eligible pages after source identity/boundary/continuation review. Reuse retained appendix/source views where applicable without assuming ownership;respect Btree referencedSAMPLE.C gap and previous appendix classifications. Preserve original prose/tables/code/figures/labels/wraps/uncertainties;eng independent code/commands,kor+eng other text including screenshots. Use pinnedBatch49dos_adapter;11adapters/30core unchanged. Prior Director/Clipper/DOS/ppuri/LAN completion and all manual tasks unchanged. Six unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or execution."
+    "note": "Port-conflict0024complete380–381;382independentHangulappendix alreadybelongs0010. Nextseminar0025 own154/no byline/no parent unchanged;actual source location/extent remains unverified. InspectPDF154and156 aslocalcandidates,not inferredglobaloffset. Provisional154–159mapping candidates only;independentinterview0005starts158 and remains exact,so do notmapunrelatedpages. Reuse retainednearbyviewswhereavailable. Preserve originaldate/time/location/schedule/fees/contactfields,figures/layout anduncertainties without convertinghistoricalnoticeintocurrentguidance. Eng independentcode/commands,kor+eng othertext. PinnedBatch49dos_adapter/11adapters/30coreunchanged. Fiveunresolvedidentities,remainingbodies/full406-pageaccounting,cover,issueexport andcloseoutpending. BtreeSAMPLE.Cgap/earliermanualtasks retained. No readerbuild or execution."
   }
 }
