@@ -23,35 +23,35 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-September 1991 restoration is active: thirteen readable/sample-reviewed articles,
-zero partial articles, three non-owning group headings and thirteen unresolved identities
+September 1991 restoration is active: fourteen readable/sample-reviewed articles,
+zero partial articles, three non-owning group headings and twelve unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch36 restores child0016, CONFIG.SYS의 최적화를 통한 메모리 활용 / 박현철,
-on PDF288–290/printed286–288. Its XT conclusion and original closing mark end on290;
-291 is an advertisement and the independent Nanforum article starts on292. The actual
-three-page body is complete, with no deferred page or assembly. Parent0013 활용 stays
-non-owning; canonical parent270/childnull and title unchanged.
+Batch37 restores child0017, 클리퍼 5.0의 새로운 세계(마지막회) : 낸포럼을 이용한
+풀다운 메뉴의 구현 / 안영재, on PDF292–296. Visible folios are290–293;296 has no
+visible folio and stays null. Prose closes on293, followed by all three intrinsic listings
+through DBASE.PRG's final // eof on296. The lower296 advertisement is excluded.
+No body page or assembly remains pending; twelve manual glyph/count extents stay explicit.
 
-The 141-file native preserves 34 regions, 30 blocks, one original closing mark and
-33 kor+eng OCR records. Both exports and a fresh-process rebuild match. All 556 text
-ranges, 34 source crops, 33 settings and ZIP CRC pass; all 35 earlier checkpoints validate.
-One source correction pass, zero unchanged-input retries. Directive/program/filename/
-version/quantity references stay prose/headings, with physical wraps and literal source
-claims preserved. No executable configuration file is invented.
+The 190-file native preserves 52 regions, 31 blocks, nine original figures and 43 OCR
+records. Both exports and a fresh-process rebuild match. All 9,086 text ranges, 52 source
+crops, 43 settings (14eng/29kor+eng) and ZIP CRC pass; all 36 earlier checkpoints validate.
+One source correction pass, zero unchanged-input retries. Printed code, comments, menu
+fields, prose, screenshot labels and source discrepancies remain linked to original scans.
+The source byline reads 풀빛 컴퓨팅, correcting the earlier affiliation candidate 휠셋.
 
-Next: Batch37 verifies child0017, 클리퍼 5.0의 새로운 세계(마지막회) : 낸포럼을 이용한
-풀다운 메뉴의 구현 / 안영재, from the own Nanforum title/byline on292. Establish actual
-extent, ending and any appendix before mapping;292–297 are provisional first-six candidates
-only. Use pinned Batch34 windows_adapter for complete checks; eight private adapters and
-thirty core modules stay unchanged. No reader rebuild.
+Next: Batch38 locates and verifies article0018, 하드웨어 : 간단한 LAN, 마요네트의 구축과
+PC-LAN의 이해 / 고진웅. Canonical reference312 is not a verified PDF start. Inspect title,
+byline, actual extent, ending and any appendix before selecting up to six mapped pages;
+PDF312–315 are initial lookup candidates only. Use pinned Batch34 windows_adapter for
+complete checks; eight private adapters and thirty core modules stay unchanged.
 
-The Windows article272–280 and array article282–287 remain complete. The array's faint
+The preceding Windows, array and CONFIG.SYS articles remain complete. The array's faint
 expression stays an explicit manual glyph task. B+ tree0012's referenced〈리스트 2〉
 SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/387–390.
 Preserve this open gap for bounded lookup and full 406-page accounting; no issue-wide
 absence claim. Other bodies, accounting, cover, issue export and closeout remain pending.
-See [September progress](docs/progress/9109.md) and
+No reader rebuild. See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
 - August 1991 is complete as a canonical TOC JSON/assets restoration pass:

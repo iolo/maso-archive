@@ -25,7 +25,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | January 1988 | [8801.md](8801.md) — restoration pass complete; 36 readable articles, 14 non-owning headings and one unresolved survey entry; 8,360 JSON/assets files independently exact, 213 fresh tests |
 | August 1991 | [9108.md](9108.md) — restoration pass complete; 28 readable articles, five non-owning headings, two section references; all383 pages accounted, 9,272 JSON/assets files independently exact, 213 fresh tests |
 
-| September 1991 | [9109.md](9109.md) — active; thirteen readable articles, zero partial articles, three non-owning headings and 13 unresolved identities; three-page CONFIG.SYS article restored; array manual glyph task and B+ tree referenced SAMPLE.C gap remain explicit |
+| September 1991 | [9109.md](9109.md) — active; fourteen readable articles, zero partial articles, three non-owning headings and 12 unresolved identities; five-page Nanforum/Clipper article restored with twelve glyph/count tasks; prior array task and B+ tree SAMPLE.C gap remain explicit |
 
 | Shared scope | Records |
 | --- | --- |
