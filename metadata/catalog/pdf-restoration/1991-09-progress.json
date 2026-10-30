@@ -1972,7 +1972,7 @@
       "parent_id": "maso-1991-09-toc-0009",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Contents4 canonical child0012 C로 작성한 B+ 트리(마지막회) / 조성만 matches264 own title B+ 트리 인덱스 관리 프로그램,byline 조성만/단국대 전산통계학과 대학원 and265/267/269 full running series. Parent0009 remains non-owning,parentreference240/childnull ownreference unchanged.",
@@ -1987,15 +1987,21 @@
         "All28terminaldrafts read beforeone directsourcepass,zero retries.13cropexpansions reviewedbeforeOCR. Sevenprintedcoderegions retaintwo-linepointerexample/sixDOScommandlines:eightrows/33tokens/39lexicalidentifieroccurrences/fournumericarguments. SixEntericons,sevensupplementarycommandarguments,118nonblankreadingrows,45contiguousfilenamereferences/fourliteralfilenamewraps,13sourcequantityclaims/threebatchfiles/threelistingreferences,fiveheadings/threeanomalies/17glyphcandidates source-linked. No execution,semanticrepair or inventedNowRef structuredfield.",
         "Twointernalgroups/threejoins retain270test-tail→271leftand271left→righttop withonespace each,diskfinalrowwithLF. Incoming267그 다→270음의 explicitlymatchesfirstnativependingboundary andrequires emptyfutureblockseparator;oneoriginalpendingrange verified inits priornativecontext. Sourcegraph264,265,268,269,266,267,270,271 unchanged;no269→270prosejoin.",
         "Selectedr03 corrects271folio tonull,rebindsall28exactunchangedinputs/results/settingswithcompleteoriginalprovenance,zero additionalrecognition orsourcecorrection. Bothselectedexports/freshprocessrebuild122exactfiles;all637currentranges (473article/164listing) plusonepriornativerange resolve inowncontexts.29sourcecrops/decodedPNGs,28settings (7eng/21kor+eng),ZIPCRC/exclusiondisjointness pass. All17863priorfiles/30core/sixadapters/source/TOC/runtime/queue exact;29earliercheckpoints revalidate. Failedexporthelper syntax beforeanyexecution/packagecreation andalloriginalmap/recipe/export revisions retained.",
-        "271authorstatesBTREE.Ctoolongtoprint/distributedondiskwithSAMPLE.C/BTREE.H/SAMPLE.PRJ;preserveassourceclaim,notindependentabsenceproof. ReferencedListing2SAMPLE.C remainsunlocated inboundedbody/appendixcontexts. All8mainbodypages nowpreserved in2immutable natives;actualassembly andlisting-reference gap pending."
+        "271authorstatesBTREE.Ctoolongtoprint/distributedondiskwithSAMPLE.C/BTREE.H/SAMPLE.PRJ;preserveassourceclaim,notindependentabsenceproof. ReferencedListing2SAMPLE.C remainsunlocated inboundedbody/appendixcontexts. All8mainbodypages nowpreserved in2immutable natives;actualassembly andlisting-reference gap pending.",
+        "Batch31 assembles all8mainbodypages264–271 fromexactnativea=Batch29r02/btree-a,b=Batch30r03/btree-b. All346nativefiles andcompleteoriginalmetadata copiedunchangedinto355filepackage.85regions/69blocks/fouroriginalfigures/81OCRrecords retained.270visible268,271nullnofolio andlowerbackissueavailabilitynotice excluded;272independentWindows follows. Parent0009 non-owning,parent240/childnull unchanged.",
+        "Privatebtree_adapter dispatchespriorbasic_adapter thenusescore namespace/legacyprojection andmergesonlya.memory-prose+b.p270-memory-intro withemptyseparator/rightoffset4150. Originalword 다음 preserved across267→270,noaddedspace/LF. Oneinterveningcategorylayoutitem retained. Tenprintedcodeblocks stayindependent,listingexacta+bconcatenation,zeroadded/removedbytes;noinventedexecutablehistoricalsourcefiles.",
+        "All2415originaltypedmetadata occurrences projecttoowncurrentarticle/listing/block/regioncontexts,includingone nestedb→a prior_pending_record range. Current2498ranges=79core+2415metadata+4resolution;all2415nativeranges independentlyverify. Completefield-by-field pairing retains everyvalue/identity/pin/sourceoccurrence andtrue mergedoffset. Sourcegraph264,265,268,269,266,267,270,271 stays explicit whilephysicalpages stayascending.",
+        "All533readingrows/58printedcoderows/130tokens/153lexicalidentifiers/onestring/fournumericoccurrences source-linked.15functionreferences/25parameters,32prototype rows/96cells(12blank)/37arguments/twopointermarkers,twoprojectrows/fourdependencies,sixdiagramnodes/twocompilelabels/fivearrows/sixschematiccalls retained. SixDOScommands/sevenarguments/sixEntercandidates/twopointerexamplerows,87contiguousfilename references/fourliteralwraps,13anomalies/29glyphcandidates/16headings,threecaptions/threefiguretextlinks persist.11nativeinternaljoins plusoneactualprosejoin retained.",
+        "Both355fileexports/freshprocessrebuild byteidentical.85sourcecrops exact/PNGsdecode,81settings(10eng/71kor+eng) andthreeZIPs pass.80reusedsettings/onechangedcrop provenance staysintact. Eleveninvalidrecipe/native/folio/exclusion/cell/Enter/context/spelling/sourcekind/gap mutations rejected. All18536priorfiles/30core/sixexistingadapters/source/TOC/runtime/queue unchanged;all30earliercheckpointsvalidate. No newmapping/render/OCR/sourcecorrection/semanticrepair/execution/readerbuild.",
+        "Mainbody nowreadable/sample-reviewed withno pendingmainbodypage orassembly. Referenced〈리스트2〉SAMPLE.C remainsunlocated inboundedinspectedbody264–271/appendix374–381/387–390;listingextent staysunverified andgap remainsopen forboundedownershiplookup/full406pageaccounting. Rootcoverage explicitlycomplete_main_body true/complete_article false,source_pages_missing unknown;no issuewideabsenceclaim orinventedsource. Originalstatus/folio/preparationnotes retainedhistorically;active271null andNextPartKey sourcecorrectionexplicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-29-r02/btree-a",
+        "directory": "archive/pdf/1991-09/packages/btree-main-complete-r01",
         "article_id": "scan-maso-1991-09-toc-0012",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-29-r02/btree-a/manifest.json",
-          "sha256": "8da20e80349b8390dd69fbed2217c21b504d32c9bd5012290f36ca2adb8da519",
-          "bytes": 39779
+          "path": "archive/pdf/1991-09/packages/btree-main-complete-r01/manifest.json",
+          "sha256": "b25c8a2a0b4cdb29468744c8b8534549c862b67fe7267fbd7aee0115e54fc471",
+          "bytes": 66277
         },
         "coverage": {
           "pdf_pages": [
@@ -2004,7 +2010,9 @@
             266,
             267,
             268,
-            269
+            269,
+            270,
+            271
           ],
           "printed_pages": [
             "262",
@@ -2012,13 +2020,17 @@
             "264",
             "265",
             "266",
-            "267"
+            "267",
+            "268",
+            null
           ],
-          "regions": 56,
-          "blocks": 45,
-          "figures": 3,
+          "regions": 85,
+          "blocks": 69,
+          "figures": 4,
           "deferred_pdf_pages": [],
-          "remaining_extent_unverified": false
+          "remaining_extent_unverified": true,
+          "complete_main_body": true,
+          "referenced_listing_extent_unverified": true
         },
         "actual_start_pdf_page": 264,
         "actual_end_pdf_page": 271,
@@ -2044,34 +2056,24 @@
             null
           ],
           "all_pages_directly_viewed": true,
-          "note": "Mainbody264–271 ends withownclosingmark before271independentlowerbackissueavailabilitynotice;272ownWindows title/byline follows. All8mainbodypages preserved intwoimmutable natives;actualassemblypending.270visible268,271no visiblefolio/null supersedes earlierpreparatory269 annotation;originalnotes retainedhistorically. ReferencedListing2SAMPLE.C remainsunlocated inboundedinspectedcontexts,no issue-wideabsenceclaim.",
+          "note": "Eight-page mainbody264–271 nowassembledfromtwoexactnatives;271conclusion/closingmark precedesexcludedlowernotice/independentWindows272.270visible268,271nullnofolio. Mainbodycomplete,referencedListing2SAMPLE.C extentunverified/unlocated inboundedcontexts;noissuewideabsenceclaim. Canonicalparent240/childnull unchanged.",
           "main_body_only": true,
           "referenced_listing_extent_unverified": true
         },
         "body_pages_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-29/validation.json",
-          "sha256": "780addfa8c6d553a4db549413e62d8f1b1ed668372e715e3bc307b52e5c3b149",
-          "bytes": 2924
+          "path": "archive/pdf/1991-09/restoration/batch-31/validation.json",
+          "sha256": "0c11bb7326b1a59b0605e68425a866710b1ff47d93551bad640513e36251642b",
+          "bytes": 3256
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-29/reproduction.json",
-          "sha256": "41cc2f59d22029e3090f8ebb4ea8f60758c46a19b7c2f1819696932c5805c424",
-          "bytes": 40847
+          "path": "archive/pdf/1991-09/restoration/batch-31/reproduction.json",
+          "sha256": "e08257af9b959ccdf10d2d277e6cce06f8b03d43dfee9fef4080cc0ae74db28b",
+          "bytes": 67734
         },
-        "checkpoint": "batch-29",
-        "preserved_pdf_pages": [
-          264,
-          265,
-          266,
-          267,
-          268,
-          269,
-          270,
-          271
-        ],
+        "checkpoint": "batch-31",
         "native_segments": [
           {
             "name": "a",
@@ -2124,6 +2126,45 @@
             }
           }
         ],
+        "native_coverage": {
+          "pdf_pages": [
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271
+          ],
+          "printed_pages": [
+            "262",
+            "263",
+            "264",
+            "265",
+            "266",
+            "267",
+            "268",
+            null
+          ],
+          "regions": 85,
+          "blocks": 70,
+          "figures": 4,
+          "ocr_records": 81,
+          "native_segments": 2,
+          "deferred_pdf_pages": [],
+          "note": "Aggregatepreservation intwoimmutable nativecontexts:85regions/70nativeblocks/fourfigures/81OCRrecords. Currentrootdirectory/manifest/coverage identifyeight-page mainbodyassembly with69blocks afteroneprosemerge. Allnativefiles exact;no mainbodypage/assemblypending. ReferencedListing2gap remainsopen."
+        },
+        "preserved_pdf_pages": [
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271
+        ],
         "source_reading_graph": [
           264,
           265,
@@ -2168,45 +2209,15 @@
             "note": "Keep pending through further bounded ownership/accounting review;do not invent source or substitute schematic/project/prototype table for the referenced program."
           }
         ],
-        "native_coverage": {
-          "pdf_pages": [
-            264,
-            265,
-            266,
-            267,
-            268,
-            269,
-            270,
-            271
-          ],
-          "printed_pages": [
-            "262",
-            "263",
-            "264",
-            "265",
-            "266",
-            "267",
-            "268",
-            null
-          ],
-          "regions": 85,
-          "blocks": 70,
-          "figures": 4,
-          "ocr_records": 81,
-          "native_segments": 2,
-          "deferred_pdf_pages": [],
-          "note": "Aggregate preservation in twoimmutable nativecontexts. Currentrootdirectory/manifest/coverage identifyfirstnative264–269 only;all8mainbodypages nowpreserved. Actualassemblypending;referencedListing2gap remainsunlocated.271folio null directlyreviewed,notinferred269."
+        "assembly_adapter": {
+          "path": "archive/pdf/1991-09/restoration/batch-31/btree_adapter.py",
+          "sha256": "bab38e2e20e7c0d51a2ffaea91ce03d92135ebd6bc3526a156d922b09f7f789c",
+          "bytes": 13719
         },
-        "latest_checkpoint": "batch-30",
-        "latest_validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-30/validation.json",
-          "sha256": "3e70003dd0c905eab66dd107dea32b95de26f4daddf9d52f5235f44ff2532ac8",
-          "bytes": 2641
-        },
-        "latest_reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-30/reproduction.json",
-          "sha256": "22fd62a89f65665fc0bda4ebd9ee2ae0b9e154eff08f635f3824596b54365062",
-          "bytes": 22506
+        "adapter_inputs": {
+          "path": "archive/pdf/1991-09/restoration/batch-31/adapter-inputs.json",
+          "sha256": "f65dc1c2cd75ecf3f7e786a6fa56fcd27846d791b5412ee3a0583e39543dd92e",
+          "bytes": 16702
         }
       }
     },
@@ -3343,12 +3354,39 @@
         "sha256": "22fd62a89f65665fc0bda4ebd9ee2ae0b9e154eff08f635f3824596b54365062",
         "bytes": 22506
       }
+    },
+    {
+      "name": "1991-09-batch-31",
+      "status": "complete",
+      "completed_at": "2026-10-30T00:45:36.593329+00:00",
+      "goal": "Assemble8B+tree0012mainbodypages264–271 fromtwoexactnatives,mergeonly267→270 prose withemptyseparator,preserveallnative metadata/nullfolio/exclusion andexplicitunlocatedListing2gap.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0012"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-31/validation.json",
+        "sha256": "0c11bb7326b1a59b0605e68425a866710b1ff47d93551bad640513e36251642b",
+        "bytes": 3256
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-31/reproduction.json",
+        "sha256": "e08257af9b959ccdf10d2d277e6cce06f8b03d43dfee9fef4080cc0ae74db28b",
+        "bytes": 67734
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 9,
-    "partial": 1,
+    "readable": 10,
+    "partial": 0,
     "group_headings": 2,
     "unresolved": 17
   },
@@ -3358,31 +3396,25 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-31",
-    "goal": "Assemble B+tree0012 eightmainbodypages264–271 fromtwoexactimmutable natives,preserveallmetadata/non-monotonic sourcegraph/nullfolio/exclusion andexplicitunlocatedListing2gap. No newOCR/sourcecorrection.",
+    "name": "1991-09-batch-32",
+    "goal": "Verify canonical0013 활용 parent andchild0014 윈도우즈 응용 프로그램 만들기(3) : 프로그램 작성과 실행 과정 / 강민석 fromknownown272title/byline;establishactualchildextent/ending andrestoreboundedfirstnative. Classifyparentonlyifsourceprovesnon-owning.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0012"
+      "maso-1991-09-toc-0013",
+      "maso-1991-09-toc-0014"
     ],
-    "mapping_targets": [],
-    "known_extent": {
-      "pdf_pages": [
-        264,
-        265,
-        266,
-        267,
-        268,
-        269,
-        270,
-        271
-      ],
-      "actual_start_pdf_page": 264,
-      "actual_end_pdf_page": 271
-    },
+    "mapping_targets": [
+      272,
+      273,
+      274,
+      275,
+      276,
+      277
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Exactinputsa=Batch29r02/btree-a,b=Batch30r03/btree-b. Mergeonlya.memory-prose+b.p270-memory-intro withEMPTYseparator:aproseends그 다 withoutLF,bstarts음의 키 값을 알고자 할 때 등이다. Interveningbcategorytile/otherlayoutitems remainrepresented;do notinvent269→270prosejoin. Literalphysicalpages264–271 preserved;source-textgraph264,265,268,269,266,267,270,271. Firstnativefunctionfields/prototypes/project/diagram/indexes/cells/joins/anomalies/glyphs/captionlinks andsecondnativecommands/Entercandidates/spaceexamples/filenamewraps/claims/closingmark/exclusion allretaincompleteoriginalmetadata andprojecteverytypedrange inownarticle/listing/block/regioncontexts. Secondnativeincoming_prose_continuation.prior_pending_record containsoneoriginala-context range;explicitlycontextswitchb→a,notblindlyrebaseasb. Tenillustrativecode blocks remainindependent (threea/sevenb),not inventedhistoricalsourcefiles;listing exacta+b concatenation,no added/removedbytes. Mainbodypreserved85regions/70nativeblocks/fourfigures/81OCRrecords,oneprosemergereducesrootblockcount.270visible268,271no visiblefolio/null supersedesearlierhistorical269preparatoryrange;preservealloriginalnotes andresolveactivefolioexplicitly.271lowerbackissueavailabilitynotice excluded. Mainbodycoverage distinctfromreferencedListing2extent:〈리스트2〉SAMPLE.C stillunlocated inboundedbody264–271/appendix374–381/387–390;retainexplicitgap forfurtherboundedownershiplookup/full406pageaccounting,no issuewideabsenceclaim orinventedprogram. AuthorBTREE.Ctoolongtoprint/distributionstatement retainedassourceclaim. Twoexports/freshrebuild/fullmetadata-range/crop/settings/PNG/ZIP/nativefile/prior/core/pinsaudits beforeclassifyingassembledoutcome. Canonicalparent0009 non-owning,parent240/childnull unchanged. UsepinnedBatch28basic_adapter forcompletepriorchecks;sixexistingadapters/30coreunchanged. Nine readable/onepartial/twoheadings/17unresolved untilassembly;otherbodies/accounting/cover/issueexport/closeout active,no readerrebuild."
+    "note": "272owntitle 프로그램 작성과 실행 과정/byline강민석(금성중앙연구소),top활용 andprinted270 known;273–275 Windowsseries/table/Cexample/diagram previouslyviewed. Matchoriginalcontents/queue,do notretitlecanonicalchildorinferparentbodyownership. Parent0013canonical270/child0014nullreferences unchanged;verifyparentsectionlabel isnotindependentbodybeforeclassifying.272–277 provisionalfirstsixmappingcandidates only:actualchildending/anyappendixlisting mustbesourceverified within≤20outsideviews,notinferredfromnextchildreference or globaloffset. Reuseknownfullviews;revieweverymappedfullpage/crop,readallrawdraftsbeforeonesourcepass. Preserveoriginalmixedprose/Csource/diagrams/tables/screens/physicalwraps/glyphuncertainty andliteraltechnicalclaims,no semanticrepair. Useimmutable segments ifactualbodylonger,thenactualassemblyseparate. B+tree0012 mainbodyassemblyreadablewithopenunlocatedListing2SAMPLE.C gap;carrythatgap intofull406pageaccounting,donotclaimrecoveredsource orissuewideabsence. UsepinnedBatch31btree_adapter forcompletechecks;dispatchincludesBatch28basic andallsixprioradapters. Sevenprivateadapters total/30coreunchanged. Tenreadable/zeropartial/twoheadings/17unresolved;otherbodies/accounting/cover/standaloneissueexport/closeout active,no readerrebuild."
   }
 }
