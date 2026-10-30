@@ -4330,7 +4330,7 @@
         "checkpoint": "batch-53",
         "related_reference_tasks": [
           {
-            "status": "target-location-unverified",
+            "status": "unlocated-in-bounded-community-span",
             "metadata_key": "source_application_form_reference",
             "directory": "archive/pdf/1991-09/packages/batch-53-r01/seminar",
             "corrections": {
@@ -4339,7 +4339,20 @@
               "bytes": 219189
             },
             "target_toc_entry_id": "maso-1991-09-toc-0040",
-            "note": "Locate seminarapplicationformwithin애독자설문지 duringcommunityrestoration;resolveactualtarget beforeissuecloseout. No bodypagegap asserted."
+            "note": "Community span387–406 reviewed. Survey/applicationform unlocated;405placeholder and397–398 folio gap recorded without asserting missing-content identity. Subscription giro401–402 are not a substitute. Full406-page accounting and explicit closeout disposition pending;original seminar package/metadata retained unchanged.",
+            "previous_status": "target-location-unverified",
+            "resolution_checkpoint": "batch-54",
+            "resolution_evidence": {
+              "path": "archive/pdf/1991-09/restoration/batch-54/source-extent-reviewed.json",
+              "sha256": "4ad81232065833765746e917362ccf49473cb81cbbd9e2a827978f58c0b2ce97",
+              "bytes": 5293
+            },
+            "target_pdf_page": null,
+            "target_region_id": null,
+            "placeholder_pdf_page": 405,
+            "placeholder_visible_range": "397~398",
+            "missing_content_identity_verified": false,
+            "full_issue_absence_claim": false
           }
         ]
       }
@@ -4348,23 +4361,198 @@
       "toc_entry_id": "maso-1991-09-toc-0026",
       "title": "애독자 광장",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 identifies community0026 own87 and pageless child0040. Actual PDF387 is community divider;PDF89 is information-radar divider. Keep canonical titles,own references and hierarchy unchanged without swapping the canonical references or applying a global offset.",
+        "Available community body is11pages:387–393,396–398 and upper400. Letters388–389,Q&A390–392,classifieds393,quiz396–397,bulletin398 and editing notes400 are directly reviewed. Independent394–395computer ads/399subscription notice and lower400advertising index are outside body ownership. Six mapped opening pages387–392;remaining five pages and actual assembly pending.",
+        "Divider387 has six physical rows for the seven canonical topics:quiz/survey share one row. References386,388,391,394,395,400 remain source occurrences;actual quiz396/394 and bulletin398/396 show that these references do not supply reliable target folios. Child0040 is one non-owning section reference under parent0026,not a duplicate body or seven new articles.",
+        "Survey and seminar application form remain unlocated in the bounded community span. The source jumps from398/396 to399/399;PDF405 prints397~398 with damaged text. The missing-content identity is unverified. Giro401–402 are subscription/payment forms,not survey/application substitutes. Full406-page accounting is pending before any issue-wide absence claim.",
+        "Current205-file native preserves61regions,45blocks,16figures,45OCRrecords,89reading rows andtwo independent one-row command examples. Six complete original pages retain all body pixels. Four complete letters,six complete Q&A items,editorial reply andtwo gift notices have separate ordered body-image flows:nine reader credits,six letter/eight question/eleven answer fragments andnine internal continuations. Body prose/embedded artwork lettering await volunteer transcription.",
+        "Source setbkclolor() question heading and setbkcolor(배경색) command remain independent literal occurrences. Original Speed Disk screenshot retains caption,five lettering regions,97%/0%/00:00:00/1block=9clusters candidates and graphic matrices. Ten textual manual markers plus two image-only manual extents retain unknown glyph counts;25glyph candidates preserve opaque/typographic fields without contact/hardware/historical repair.",
+        "All61initial crops and11pre-OCR revisions/eight distinct regions reviewed before45recognitions:2eng commands/43kor+eng other text. All45raw drafts read before one source correction pass;zero recognition retries. Two205-file exports andfresh-process rebuild match;all392typed ranges in their named download/block/region/scan contexts,61exact crops/decodedPNGs,45settings andZIPCRC pass. All35434prior files,53prior packages,30core modules and11adapters remain exact. Batch49successful213-test baseline reused for data-only work.",
+        "Human acceptance/full proofreading,source encoded bytes/exact spaces/glyph identities/counts,contacts/technical/historical claims,execution andindependent backup recovery remain unverified. Earlier gaps/manual tasks remain exact;no reader rebuild or implementation change."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
+        "article_id": "scan-maso-1991-09-toc-0026",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-54-r01/community-a/manifest.json",
+          "sha256": "3b385edc987a38a0b2540c25cdc96b1388c9fd824eb9d18645d4307236a4fc81",
+          "bytes": 35154
+        },
+        "coverage": {
+          "pdf_pages": [
+            387,
+            388,
+            389,
+            390,
+            391,
+            392
+          ],
+          "printed_pages": [
+            null,
+            "386",
+            "387",
+            "388",
+            "389",
+            "390"
+          ],
+          "regions": 61,
+          "blocks": 45,
+          "figures": 16,
+          "deferred_pdf_pages": [
+            393,
+            396,
+            397,
+            398,
+            400
+          ],
+          "remaining_extent_unverified": false,
+          "complete_article": false,
+          "survey_recovery_unverified": true
+        },
+        "actual_start_pdf_page": 387,
+        "actual_end_pdf_page": 400,
+        "full_source_extent": {
+          "available_pdf_pages": [
+            387,
+            388,
+            389,
+            390,
+            391,
+            392,
+            393,
+            396,
+            397,
+            398,
+            400
+          ],
+          "all_available_pages_directly_viewed": true,
+          "complete_available_extent_verified": true,
+          "complete_original_article_recovery_verified": false,
+          "survey_gap": {
+            "status": "unlocated-in-bounded-span",
+            "canonical_topic": "애독자 설문지",
+            "intrinsic_divider_reference": "395",
+            "source_placeholder_pdf_page": 405,
+            "placeholder_visible_range": "397~398",
+            "missing_body_pdf_pages": null,
+            "missing_printed_pages": [
+              "397",
+              "398"
+            ],
+            "placeholder_content_identity_verified": false,
+            "seminar_application_form_target_location": null,
+            "full_issue_absence_claim": false
+          },
+          "mixed_exclusions": [
+            {
+              "pdf_page": 400,
+              "role": "Lower advertising index"
+            }
+          ]
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-54/validation.json",
+          "sha256": "40329570e14aadedbbee4cdfbcc01e8ac6cb597562f755c52b7253f0e6615617",
+          "bytes": 2330
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-54/reproduction.json",
+          "sha256": "e14de9988587610e3540e50e67b54411935706cac12afe3d7be7f195d5dfc507",
+          "bytes": 36116
+        },
+        "checkpoint": "batch-54",
+        "native_segments": [
+          {
+            "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-54-r01/community-a/manifest.json",
+              "sha256": "3b385edc987a38a0b2540c25cdc96b1388c9fd824eb9d18645d4307236a4fc81",
+              "bytes": 35154
+            },
+            "pdf_pages": [
+              387,
+              388,
+              389,
+              390,
+              391,
+              392
+            ],
+            "printed_pages": [
+              null,
+              "386",
+              "387",
+              "388",
+              "389",
+              "390"
+            ]
+          }
+        ],
+        "related_reference_tasks": [
+          {
+            "status": "unlocated-in-bounded-community-span",
+            "canonical_topic": "애독자 설문지",
+            "source_reference": "395",
+            "placeholder_pdf_page": 405,
+            "placeholder_visible_range": "397~398",
+            "missing_content_identity_verified": false,
+            "seminar_application_form_target_location": null,
+            "full_issue_absence_claim": false
+          }
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0040",
       "title": "독자의 소리; 물어보세요; 애독자 퀴즈; 애독자 설문지; 게시판; 복덕방; 후기",
       "parent_id": "maso-1991-09-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical child0040 is one pageless seven-topic list under community0026. Contents5 and source divider387 identify intrinsic parent subdivisions;all six available topic openings were directly reviewed. Survey remains an explicit unlocated topic,not an invented seventh body. No duplicate package or new canonical identities.",
+        "Source divider six rows combine quiz/survey and retain intrinsic references386,388,391,394,395,400. Canonical child title,null own reference andparent unchanged. Current native anchor p387-topics preserves all labels/references and original page;final assembled parent anchor projection pending."
+      ],
+      "restoration": null,
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1991-09-toc-0026",
+        "directory": "archive/pdf/1991-09/packages/batch-54-r01/community-a",
+        "anchor": "p387-topics",
+        "metadata_key": "source_community_section_reference",
+        "source_heading_pdf_page": 387,
+        "source_topic_rows": 6,
+        "canonical_topics": 7,
+        "survey_gap": {
+          "status": "unlocated-in-bounded-span",
+          "canonical_topic": "애독자 설문지",
+          "intrinsic_divider_reference": "395",
+          "source_placeholder_pdf_page": 405,
+          "placeholder_visible_range": "397~398",
+          "missing_body_pdf_pages": null,
+          "missing_printed_pages": [
+            "397",
+            "398"
+          ],
+          "placeholder_content_identity_verified": false,
+          "seminar_application_form_target_location": null,
+          "full_issue_absence_claim": false
+        },
+        "final_parent_assembly_pending": true,
+        "final_anchor_projection_pending": true,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-54/validation.json",
+          "sha256": "40329570e14aadedbbee4cdfbcc01e8ac6cb597562f755c52b7253f0e6615617",
+          "bytes": 2330
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0034",
@@ -6200,14 +6388,71 @@
         "sha256": "8f01788730f9120d97516698e374cde9a7e41b18f1f87c6f642aff9286b8bef7",
         "bytes": 20250
       }
+    },
+    {
+      "name": "1991-09-batch-54",
+      "status": "complete",
+      "completed_at": "2026-10-30T15:33:32.737520+00:00",
+      "goal": "Identify community0026/child0040 ownership and preserve six-page opening387–392 with complete original body images,literal fields/commands and bounded survey/application gap.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0026",
+        "maso-1991-09-toc-0040"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        387,
+        388,
+        389,
+        390,
+        391,
+        392
+      ],
+      "outside_lookup_pages": 18,
+      "outside_lookup_pdf_pages": [
+        5,
+        89,
+        90,
+        386,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406
+      ],
+      "recognition_invocations": 45,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_revisions": 11,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-54/validation.json",
+        "sha256": "40329570e14aadedbbee4cdfbcc01e8ac6cb597562f755c52b7253f0e6615617",
+        "bytes": 2330
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-54/reproduction.json",
+        "sha256": "e14de9988587610e3540e50e67b54411935706cac12afe3d7be7f195d5dfc507",
+        "bytes": 36116
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
     "readable": 21,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 4,
-    "unresolved": 4
+    "section_references": 1,
+    "unresolved": 2
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -6215,25 +6460,23 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-54",
-    "goal": "Verify community0026 애독자 광장 and compoundchild0040 identities/bodyownership fromcanonicalown87;establishactualsourcecontinuity andrestoreboundedeligibleopening.",
+    "name": "1991-09-batch-55",
+    "goal": "Restore community0026 remaining five available body pages393,396–398 andupper400;preserve classified listings,quiz/prizes/winners,bulletin andediting notes while carrying explicit survey/application gap.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0026",
-      "maso-1991-09-toc-0040"
+      "maso-1991-09-toc-0026"
     ],
     "mapping_targets": [
-      89,
-      90,
-      91,
-      92,
-      93,
-      94
+      393,
+      396,
+      397,
+      398,
+      400
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Seminar0025complete156–157;relatedsurveyseminarapplicationformtarget remainsunverified. Communityparent0026 own87/no parent andcompoundchild0040 nullown/parent0026/titles stayunchanged. InspectPDF87/89 aslocalcandidates,not globaloffsetorverifiedbodylocation. Provisional89–94mapping candidatesonly;verifyidentity/start/localcontinuations andactualeligiblepages. Determineparent/compoundchildownership withoutduplicatedpackages;do notclaimallsevenlistedtopicsrecoveredfromopeningalone. Trackseminarapplicationformunder애독자설문지 andresolve actualtargetduringcommunity/issuework. Respecttwo canonicaltasks/sixmapped/twentyoutsidepages. PinnedBatch49dos_adapter/11adapters/30coreunchanged. Fourunresolvedidentities,remainingbodies/full406-pageaccounting,cover,issueexport andcloseoutpending;BtreeSAMPLE.Cgap/earliermanualtasksunchanged. No readerbuild."
+    "note": "Reuse reviewed retained source renders and pinnedBatch49dos_adapter. Exclude394–395independent ads/399subscription andlower400advertising index;retain eligible page400footer separately. Do not infer a survey/application form fromgiro401–402 or405397~398placeholder. Keep canonicalown87/childnullown andsource intrinsicreferences unchanged. Then actually assemble11available parent pages andproject child0040anchor,withbounded survey/application gap andvolunteerbodytranscription tasks explicit. Two news identities0034/0041 remain unresolved;actualradardivider89/news90 observed,canonicalown385unchanged. Full406-pageaccounting/cover/issueexport/closeout andBtreeSAMPLE.Cgap remain. No readerbuild;30core/11adapters unchanged."
   }
 }
