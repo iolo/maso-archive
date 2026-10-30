@@ -11,23 +11,23 @@ no partial articles, four non-owning group headings and two non-owning section r
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
 complete. Full issue accounting and closeout remain incomplete.
 
-Batch69 directly reviews outside PDF 281,291,297–313,361: twenty advertisements with no visible
-printed folios or additional canonical bodies. Retailer, antivirus, interface-converter,
-Macintosh-book, music-card, training, monitor-filter and Korean software promotions remain outside
-canonical ownership. 모아컴프라자 302–303 and the wholesale-market 304–305 retain paired-page context.
-PC Line 312's sideways dealer/financing advertisement retains its source orientation. Commercial
-course tables and anniversary prizes do not supply referenced source listings or application forms.
-Ten new 3000px views and ten retained full-page views support direct review.
+Batch70 directly reviews outside PDF 367–379,394–395,399,401–404: sixteen advertisements,
+subscription instructions, two giro-form pages and one competition announcement. PDF 399 has
+visible printed folio 399; all other current folios are null. Book/software/hardware promotions,
+commercial course tables and the competition poster remain outside canonical ownership.
+Subscription/giro material is distinct from the unresolved survey and seminar application forms.
+Four new 3000px views and sixteen retained full-page views support direct review.
 
-There are now 384 of 406 content records: 224 selected body pages and 160 reviewed outside
-pages. Of 182 outside candidates, 22 remain pending. Cumulative outside categories are 156
-advertisements, cover, contents, contents/colophon and one unlisted editorial. Every previous
-page record, literal/null folio and source index reference remains exact, without a global folio offset.
+There are now 404 of 406 content records: 224 selected body pages and 180 reviewed outside pages.
+Of 182 outside candidates, two remain pending. Cumulative outside classes are 172 advertisements,
+cover, contents, contents/colophon, unlisted editorial, subscription instructions, two giro-form
+pages and a competition announcement. Every previous page record, literal/null folio and source
+index reference remains exact, without a global folio offset.
 
 The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
 Forty-eight native contexts and eight exact mixed-page exclusions remain unchanged; the prior
 nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches an independent
-fresh-process rebuild. All 29 canonical entries/outcomes, 41,085 prior files, thirty core modules
+fresh-process rebuild. All 29 canonical entries/outcomes, 41,136 prior files, thirty core modules
 and thirteen private adapters remain exact. Batch61's 213-test baseline is reused for data-only
 work. No new article export, mapping, OCR, source correction or reader build.
 
@@ -47,8 +47,8 @@ lettering and earlier manual glyph tasks remain explicit volunteer work. Human a
 full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
 contact/geographic claims, execution and independent backup recovery remain unverified.
 
-Next: Batch70 reviews the next twenty outside pages: PDF 367–379,394–395,399,401–404.
-Reuse pinned Batch62 accounting builder/ownership and Batch69 accounting, preserving earlier
+Next: Batch71 reviews the final two outside pages: PDF 405–406.
+Reuse pinned Batch62 accounting builder/ownership and Batch70 accounting, preserving earlier
 records. Finish all 406 pages and final survey/application/SAMPLE.C gap dispositions, then cover,
 standalone issue export, independent all-native/actual assembly rebuilds and closeout.
 No reader rebuild.
