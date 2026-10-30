@@ -10,27 +10,27 @@ September 1991 restoration is active: fourteen readable/sample-reviewed articles
 one partial article, three non-owning group headings and eleven unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch40 restores the LAN article's third segment, PDF326–331/printed324–329.
-Eighteen pages PDF314–331 are now preserved across three immutable natives. The prose
-conclusion and closing mark are on PDF331, followed by the start of listing1 MAYONET4.C.
-Eight later pages PDF332–339 and actual assembly remain pending. Pages333–335 have not
-yet been directly reviewed; the complete listing inventory remains unverified. The observed
-ending remains listing21 DATAOUT.C on PDF339, before the independent 뿌리 article on PDF340.
+Batch41 restores the LAN article's fourth segment, PDF332–337/printed330–335.
+Twenty-four pages PDF314–337 are preserved across four immutable natives. All 26 body
+pages and all 21 listing-caption names/locations have now been directly viewed across
+checkpoints. The prose conclusion and closing mark are on PDF331. Listings16–21 on the
+final two pages PDF338–339 still need mapped restoration, followed by actual assembly.
+The article ends with listing21 DATAOUT.C before the independent 뿌리 article on PDF340.
 
-The new 407-file native preserves 113 regions, 81 blocks, eighteen original images and
-95 OCR records. Both exports and a fresh-process rebuild match. All 3,191 current text
-ranges, two prior-native ranges, 113 source crops, 95 settings (2eng/93kor+eng) and ZIP
-CRC pass; all 39 earlier checkpoints validate. Sixteen diagrams23–38, the conclusion,
-closing mark and partial C listing remain source-linked. The two printed C columns form
-one partial file with 84 source rows and 244 tokens. One source correction pass, zero
-unchanged-input retries. Printed misspellings, blank nodes and uncertain operators remain
-explicit; original glyphs, exact spacing and source claims are unverified.
+The new 242-file native preserves 71 regions, 35 blocks, seventeen original listing frames
+and 54 OCR records. Both exports and a fresh-process rebuild match. All 17,000 current text
+ranges, two prior-native ranges, 71 source crops, 54 settings (34eng/20kor+eng) and ZIP
+CRC pass; all 40 earlier checkpoints validate. Fifteen listing groups preserve 893 physical
+source rows and 2,731 tokens, including the end of MAYONET4.C and listings2–15. The header
+and RECEIVE.C's apparent column inversions stay in printed physical order. Three asterisk
+bands and one underline band retain source-linked unknown-count markers. One correction
+pass, zero OCR retries; original bytes, exact spacing, glyphs and source claims are unverified.
 
-Next: Batch41 continues the same article on PDF332–337 after full-page/crop review.
-Preserve listing1 MAYONET4.C's continuation and inventory later listings in source order.
-Incoming PDF325 리턴 + PDF326 값 and figure23 now resolve in separate native contexts,
-without changing either earlier native. Use pinned Batch34 windows_adapter; eight private
-adapters and thirty core modules stay unchanged.
+Next: Batch42 restores the final PDF338–339, including listings16–21, after page/crop
+review. Keep all four natives exact; assemble the complete article in a separate checkpoint.
+The PDF331→332 MAYONET4.C source-row continuation now validates in separate native
+contexts. Use pinned Batch34 windows_adapter; eight adapters and thirty core modules stay
+unchanged. No semantic code repair or execution.
 
 Prior array, Nanforum and LAN-opening manual glyph tasks remain explicit. B+ tree0012's
 referenced〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/

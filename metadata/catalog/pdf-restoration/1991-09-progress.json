@@ -2724,7 +2724,14 @@
         "Printed listing1 MAYONET4.C starts below the prose conclusion on331 and continues on332. Two C columns form one partial code block with84 source rows,244 tokens,232 lexical identifier-like occurrences,two string literals,fifteen numeric occurrences,eight include rows,eighteen comments,86 operator-shaped occurrences and36 call/declaration-shaped occurrences. These are lexical/source indexes,not a semantic parse or execution certification. Preserve visible blank rows/indentation without asserting original spaces or encoded bytes.",
         "Preserve aswinit versus aswtinit, COMMANDs/commands()/command(), Read Caracter, Store Caractor, form Destination Table, Check Datum form Line and Datum Avaliable ?. Two empty return ovals remain unlabelled. Printed code comments ctrl hander, Disk Driv, algement, destinstion, initialiation, recorver, recver and sand acknowalgment stay literal. The final vertical operator is selected | with |/: candidates. Source operators,comments,claims and diagrams were not repaired or executed.",
         "Both407-file exports and a fresh-process rebuild match. All3191 current ranges(2448 article/743 listing),two prior-native ranges,113 exact crops/decoded PNGs,95 pinned settings and ZIP CRC pass. All24874 prior files,thirty core modules,eight adapters,source/TOC/runtime/queue and39 earlier checkpoint packages remain exact. One task,six mapped pages and six outside lookups satisfy limits.",
-        "Eighteen article pages314–331 are now preserved across three natives. Prose conclusion and closing mark331 are source-reviewed; complete listing inventory remains unverified and333–335 have not yet been directly reviewed. Eight later pages332–339 and actual assembly remain pending. Outgoing listing1 continuation to332 is explicit; no unmapped code or invented closing braces appended. Prior Btree gap and array/Nanforum/LAN-opening glyph tasks unchanged. No reader rebuild."
+        "Eighteen article pages314–331 are now preserved across three natives. Prose conclusion and closing mark331 are source-reviewed; complete listing inventory remains unverified and333–335 have not yet been directly reviewed. Eight later pages332–339 and actual assembly remain pending. Outgoing listing1 continuation to332 is explicit; no unmapped code or invented closing braces appended. Prior Btree gap and array/Nanforum/LAN-opening glyph tasks unchanged. No reader rebuild.",
+        "Batch41 preserves fourth segment PDF332–337/printed330–335 as an immutable partial native for LAN0018. Contents5, own314 title/byline and running series identify the same canonical article. Earlier314–331 natives remain exact. The prior final source row outportb(LCR,byte | SETBREAK); and current disksave(); validate in distinct native download/block/region/scan contexts; actual listing1 assembly remains pending.",
+        "All six mapped full pages, six outside contexts (5,314,331,338,339,340),71 original crops in20 contact sheets and14 refined crops in four sheets were reviewed before OCR. Refinements recover complete first/last rows,outer braces and captions or trim partial adjacent lettering. Original and selected crops remain separately retained. All54 complete terminal drafts read before one correction pass:34eng printed code/project columns and20kor+eng headings/captions; zero OCR retries.",
+        "The242-file native preserves71 regions,35 blocks,seventeen original listing frames,54 OCR records,849 reading rows,fifteen listing groups and nineteen LF joins. Fifteen printed listing groups include listing1 ending, header/project files and listings4–15. Listing10 crosses334–335 and listing12 crosses335–336. Physical left-to-right columns are retained, including apparent inversions in MAYONET4.H and RECEIVE.C; no syntax-based rearrangement was applied.",
+        "Code/source indexes retain893 physical rows,2731 tokens,2396 lexical identifier-like occurrences,75 strings,134 decimal numeric occurrences,56 include rows,162 comments,795 operator-shaped occurrences,348 call/declaration-shaped occurrences,131 preprocessor rows and20 header prototypes. All41 hexadecimal fields and19 character fields are independently checked within both native download regional contexts. Nineteen project module rows retain shortened chkheade/acknowle and single-m jaming. These are lexical/source indexes,not semantic or execution certification.",
+        "Preserve caption MAYONET4.H independently from include mayonet.h, printed register addresses, implicit extern mode;, terminal semicolons after rename and the destination test, and bare return; in int send(). Historical comment/string spellings remain literal. Thirty-four anomalies,55 glyph candidates and two printed column-order anomalies are explicit. Four new manual extents preserve three TITLE.C asterisk bands and one DISPLAY.C underline band with unknown counts and source-linked markers. Broken-bar and punctuation candidates remain unverified.",
+        "Both242-file exports and a fresh-process rebuild match. All17000 current ranges(9055 article/7945 listing),two prior-native ranges,71 exact crops/decoded PNGs,54 pinned settings and ZIP CRC pass. All26143 prior files,thirty core modules,eight adapters,source/TOC/runtime/queue and40 earlier checkpoint packages remain exact. One task,six mapped pages and six outside lookups satisfy limits.",
+        "Twenty-four pages314–337 are now preserved across four natives. All26 body pages have now been directly viewed across checkpoints, and all21 listing-caption names/locations are observed. This is a location inventory,not completed transcription of later listings. Outside338 has16SENSE.C/17HEADER.C/18JAMING.C;339 has19CHKACK.C/20DATAIN.C/21DATAOUT.C before independent340 뿌리. Two later pages338–339 and actual complete article assembly remain pending. Prior Btree gap and array/Nanforum/LAN-opening glyph tasks unchanged. No reader rebuild."
       ],
       "restoration": {
         "directory": "archive/pdf/1991-09/packages/batch-38-r01/lan-a",
@@ -2810,13 +2817,15 @@
             338,
             339
           ],
-          "all_pages_directly_viewed": false,
+          "all_pages_directly_viewed": true,
           "status": "opening-and-ending-observed-intermediate-body-review-pending",
-          "note": "Own314 opening and final listing21 DATAOUT.C339 before independent340 뿌리 bound the observed extent. PDF314–331 preserved across three natives. Prose conclusion and closing mark331 now source-reviewed; listing1 MAYONET4.C starts below and continues332. PDF332 viewed outside;333–335 not yet directly reviewed. Complete listing inventory remains unverified. Eight later pages332–339 and actual assembly pending. Root directory/coverage/validation still identify immutable opening native a; cumulative coverage and latest native c recorded separately.",
+          "note": "Observed extent314–339 is now fully directly viewed across checkpoints. Prose conclusion/closing mark331 precedes intrinsic listings1–21 through339 before independent340 뿌리. PDF314–337 preserved across four natives; remaining338–339/listings16–21 and actual assembly pending. Root directory/coverage/validation still identify immutable opening native a; cumulative coverage and latest native d recorded separately.",
           "prose_conclusion_pdf_page": 331,
           "closing_mark_pdf_page": 331,
           "listing1_start_pdf_page": 331,
-          "complete_listing_inventory_verified": false
+          "complete_listing_inventory_verified": true,
+          "complete_listing_caption_inventory_observed": true,
+          "listing_inventory_scope": "All21 printed caption names and source locations observed. Later listings16–21 still require mapped transcription; no character-perfect source or execution certification."
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -2850,7 +2859,13 @@
           328,
           329,
           330,
-          331
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337
         ],
         "native_segments": [
           {
@@ -2933,6 +2948,33 @@
               "sha256": "dfb70d613c9d2a67c59de61f7598b3fabf824d9f83bdcbaffa81a6490cfcb0d9",
               "bytes": 72070
             }
+          },
+          {
+            "name": "d",
+            "directory": "archive/pdf/1991-09/packages/batch-41-r01/lan-d",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-41-r01/lan-d/manifest.json",
+              "sha256": "8df912a72612c2a077d9363ac046dbf12f8f7ec756fde9cd6e0e5026f3bc6e06",
+              "bytes": 42281
+            },
+            "pdf_pages": [
+              332,
+              333,
+              334,
+              335,
+              336,
+              337
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-41/validation.json",
+              "sha256": "afcec8994f386edc2fad01c8806d276d437f39f42beee0a94771b2e440cdfa0e",
+              "bytes": 2815
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-41/reproduction.json",
+              "sha256": "d806135e679dede575fd6e2bd8182f15daf68969877eba0d899a6c27ccf2f718",
+              "bytes": 43303
+            }
           }
         ],
         "manual_glyph_tasks": {
@@ -2960,54 +3002,68 @@
           328,
           329,
           330,
-          331
-        ],
-        "remaining_pdf_pages": [
+          331,
           332,
           333,
           334,
           335,
           336,
-          337,
+          337
+        ],
+        "remaining_pdf_pages": [
           338,
           339
         ],
         "all_body_pages_preserved_across_natives": false,
         "latest_native": {
-          "checkpoint": "batch-40",
-          "directory": "archive/pdf/1991-09/packages/batch-40-r01/lan-c",
+          "checkpoint": "batch-41",
+          "directory": "archive/pdf/1991-09/packages/batch-41-r01/lan-d",
           "manifest": {
-            "path": "archive/pdf/1991-09/packages/batch-40-r01/lan-c/manifest.json",
-            "sha256": "ee263e7384e76f826fea890ca3bd057839cf9820bb3cb739694a4f030e77cc46",
-            "bytes": 71050
+            "path": "archive/pdf/1991-09/packages/batch-41-r01/lan-d/manifest.json",
+            "sha256": "8df912a72612c2a077d9363ac046dbf12f8f7ec756fde9cd6e0e5026f3bc6e06",
+            "bytes": 42281
           },
           "pdf_pages": [
-            326,
-            327,
-            328,
-            329,
-            330,
-            331
+            332,
+            333,
+            334,
+            335,
+            336,
+            337
           ],
           "printed_pages": [
-            "324",
-            "325",
-            "326",
-            "327",
-            "328",
-            "329"
+            "330",
+            "331",
+            "332",
+            "333",
+            "334",
+            "335"
           ],
           "validation": {
-            "path": "archive/pdf/1991-09/restoration/batch-40/validation.json",
-            "sha256": "36aaec38b7b75643919775d71182785d27d98371b736f0623646438d15527d68",
-            "bytes": 2744
+            "path": "archive/pdf/1991-09/restoration/batch-41/validation.json",
+            "sha256": "afcec8994f386edc2fad01c8806d276d437f39f42beee0a94771b2e440cdfa0e",
+            "bytes": 2815
           },
           "reproduction": {
-            "path": "archive/pdf/1991-09/restoration/batch-40/reproduction.json",
-            "sha256": "dfb70d613c9d2a67c59de61f7598b3fabf824d9f83bdcbaffa81a6490cfcb0d9",
-            "bytes": 72070
+            "path": "archive/pdf/1991-09/restoration/batch-41/reproduction.json",
+            "sha256": "d806135e679dede575fd6e2bd8182f15daf68969877eba0d899a6c27ccf2f718",
+            "bytes": 43303
           }
-        }
+        },
+        "additional_native_manual_glyph_tasks": [
+          {
+            "checkpoint": "batch-41",
+            "count": 4,
+            "status": "manual-correction-required",
+            "directory": "archive/pdf/1991-09/packages/batch-41-r01/lan-d",
+            "corrections": {
+              "path": "archive/pdf/1991-09/packages/batch-41-r01/lan-d/corrections.json",
+              "sha256": "e3dcaf4be3cdf6c82128d6497b0ab705c1515d3caada79a1e667d699be1d3cee",
+              "bytes": 8987512
+            },
+            "note": "Three TITLE.C asterisk bands and one DISPLAY.C underline band retain source-linked editorial markers. Glyph identities/counts and original bytes remain unverified. This is separate from deferred source-page coverage; opening native manual tasks remain unchanged."
+          }
+        ]
       }
     },
     {
@@ -4471,6 +4527,48 @@
         "sha256": "dfb70d613c9d2a67c59de61f7598b3fabf824d9f83bdcbaffa81a6490cfcb0d9",
         "bytes": 72070
       }
+    },
+    {
+      "name": "1991-09-batch-41",
+      "status": "complete",
+      "completed_at": "2026-10-30T04:53:17.848984+00:00",
+      "goal": "Restore LAN0018 fourth segment332–337, including listing1 ending and printed listings2–15; retain physical column anomalies, unknown-count bands and incoming source-row contexts.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0018"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        5,
+        314,
+        331,
+        338,
+        339,
+        340
+      ],
+      "recognition_invocations": 54,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-41/validation.json",
+        "sha256": "afcec8994f386edc2fad01c8806d276d437f39f42beee0a94771b2e440cdfa0e",
+        "bytes": 2815
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-41/reproduction.json",
+        "sha256": "d806135e679dede575fd6e2bd8182f15daf68969877eba0d899a6c27ccf2f718",
+        "bytes": 43303
+      }
     }
   ],
   "totals": {
@@ -4486,24 +4584,20 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-41",
-    "goal": "Continue LAN article0018 on PDF332–337 after full-page/crop review. Preserve outgoing partial listing1 MAYONET4.C and inventory intrinsic listings in source order.",
+    "name": "1991-09-batch-42",
+    "goal": "Restore LAN0018 final pages PDF338–339 after full-page/crop review, preserving printed listings16–21 and final boundary before independent340 뿌리.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0018"
     ],
     "mapping_targets": [
-      332,
-      333,
-      334,
-      335,
-      336,
-      337
+      338,
+      339
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Keep all three immutable natives314–319,320–325 and326–331 exact. Eighteen article pages preserved; eight later pages332–339 and actual assembly pending. Prose conclusion/closing mark331 source-reviewed; listing1 starts331 and continues332. Pages333–335 not directly reviewed yet; complete listing inventory remains unverified. Observed ending remains listing21 DATAOUT.C339 before independent340 뿌리. Verify source ordering, names, operators, comments and exact cross-native source-row continuation; no inferred closing braces or executable syntax repair. Use eng only for printed code and kor+eng for other text. Preserve glyph candidates and original diagrams. Use pinned Batch34 windows_adapter; eight adapters/thirty core modules unchanged. Prior Btree SAMPLE.C gap, array/Nanforum/LAN-opening glyph tasks, eleven unresolved identities, full406-page accounting, cover, issue export and closeout remain pending. No reader rebuild."
+    "note": "Keep all four immutable natives314–319,320–325,326–331 and332–337 exact. Twenty-four article pages preserved; final338–339/listings16–21 and actual assembly pending. All26 body pages and all21 listing-caption locations now directly viewed. Listing15 SEND.C ends337; listing16 SENSE.C starts338 with no source-byte join between separate intrinsic files. Preserve complete listing frames, code rows, comments, strings, glyph/count markers and operators without semantic repair or execution. Use eng for printed code and kor+eng for other text. Use pinned Batch34 windows_adapter; eight adapters/thirty core modules unchanged. Four new band extents and prior manual glyph tasks remain explicit. Prior Btree SAMPLE.C gap, eleven unresolved identities, full406-page accounting, cover, issue export and closeout remain pending. No reader rebuild."
   }
 }
