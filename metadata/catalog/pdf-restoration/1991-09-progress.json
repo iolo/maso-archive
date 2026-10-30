@@ -2225,23 +2225,146 @@
       "toc_entry_id": "maso-1991-09-toc-0013",
       "title": "활용",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents PDF4 groups the Windows title and author under 활용. PDF272 has the matching independent child title 프로그램 작성과 실행 과정 and 강민석 byline, with 활용 as its category.",
+        "Repeated 활용 category labels on274/276 and the prior B+ tree ending/independent notice on271 establish a non-owning parent heading. No independent parent body is assigned. Canonical parent reference270 and child null reference remain unchanged."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1991-09/restoration/batch-32/parent-classification.json",
+        "sha256": "aafe2fcc7e0a56ff68acbf1682a8d95bcb970c6cc97045d3f86359b0b66b7867",
+        "bytes": 995
+      },
+      "ownership_review": "resolved-from-canonical-parentage-source-contents-and-independent-child-opening"
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0014",
       "title": "윈도우즈 응용 프로그램 만들기(3) : 프로그램 작성과 실행 과정",
       "parent_id": "maso-1991-09-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 title/author and own272 title/byline identify child0014. Actual body272–280, printed270–278, is nine directly viewed pages.280 ends with DEF/MAKE listings, original screenshot, conclusion and closing mark;281 is an advertisement and282 an independent next article. Parent0013 is non-owning; canonical references and titles remain unchanged.",
+        "Batch32 restores only first six pages272–277:50 regions,33 blocks,five original figures and45 OCR records. Final278–280 and actual nine-page assembly remain pending. One outgoing annotated-parameter continuation277→278 requires a future LF separator; mixed Korean parameter documentation stays prose.",
+        "All45 terminal drafts read before one source correction pass;45 recognitions (2eng code/43kor+eng other),zero unchanged-input retries. Original maps/crops and three expanded-crop refinements, including a further top-margin revision, remain preserved.",
+        "The selected native preserves501 reading rows,eight regional groups/twelve internal joins and the complete two-column printed C example:63 physical rows,167 tokens,117 lexical identifiers,three strings,seven numeric occurrences,ten member fields,fifteen operators,three signature ranges,one include and eleven CreateWindow arguments. Six current annotated parameters remain prose fields.",
+        "Both original tables retain five headers,21 rows,53 cells and five source blanks. The original build diagram retains23 separately indexed labels and24 edge associations; repeated .RC/.EXE occurrences remain distinct. Four caption links,five figure-text links,eight anomalies,nine glyph candidates,fifteen headings and nine source quantity claims remain source-linked.",
+        "Printed missing C punctuation,hPreInstance/lpCmdLine prose variants,window.h table header,Unsigned char/WORD row and diagram .CMR/.UBJ readings remain literal with source-linked uncertainty. No semantic repair,execution or original encoded-byte/spacing/glyph certification.",
+        "Both194-file exports and fresh-process rebuild match. All1650 ranges (1242 article/408 listing),50 source crops/decoded PNGs,45 settings and ZIP CRC pass. All18920 prior files,30 core modules,seven adapters and source/TOC/runtime/queue remain exact;all31 earlier checkpoints revalidate. Selected metadata-only r02 labels joins by actual prose/code kind without source or OCR change. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-32-r02/windows-a",
+        "article_id": "scan-maso-1991-09-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-32-r02/windows-a/manifest.json",
+          "sha256": "b5ae740116508f433d5a9212290ed42d3a6f910aa9804e681f3190511e6d48c8",
+          "bytes": 33085
+        },
+        "coverage": {
+          "pdf_pages": [
+            272,
+            273,
+            274,
+            275,
+            276,
+            277
+          ],
+          "printed_pages": [
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275"
+          ],
+          "regions": 50,
+          "blocks": 33,
+          "figures": 5,
+          "deferred_pdf_pages": [
+            278,
+            279,
+            280
+          ],
+          "remaining_extent_unverified": false
+        },
+        "actual_start_pdf_page": 272,
+        "actual_end_pdf_page": 280,
+        "full_source_extent": {
+          "pdf_pages": [
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280
+          ],
+          "printed_pages": [
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275",
+            "276",
+            "277",
+            "278"
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "All9actualbodypages viewed.280ownfinalDEF/MAKElistings/screenshot/conclusion/closingmark precede281advertisement and282independentarray/dataentrytitle/byline.272–277 onlymapped;no sourceextent inferredfromTOC/globaloffset."
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-32/validation.json",
+          "sha256": "7f375c405940bf189e4ed5cce8582c9c503c94050aa137c169f7048f242e1246",
+          "bytes": 2773
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-32/reproduction.json",
+          "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
+          "bytes": 34169
+        },
+        "checkpoint": "batch-32",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1991-09/packages/batch-32-r02/windows-a",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-32-r02/windows-a/manifest.json",
+              "sha256": "b5ae740116508f433d5a9212290ed42d3a6f910aa9804e681f3190511e6d48c8",
+              "bytes": 33085
+            },
+            "pdf_pages": [
+              272,
+              273,
+              274,
+              275,
+              276,
+              277
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-32/validation.json",
+              "sha256": "7f375c405940bf189e4ed5cce8582c9c503c94050aa137c169f7048f242e1246",
+              "bytes": 2773
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-32/reproduction.json",
+              "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
+              "bytes": 34169
+            }
+          }
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0015",
@@ -3381,14 +3504,58 @@
         "sha256": "e08257af9b959ccdf10d2d277e6cce06f8b03d43dfee9fef4080cc0ae74db28b",
         "bytes": 67734
       }
+    },
+    {
+      "name": "1991-09-batch-32",
+      "status": "complete",
+      "completed_at": "2026-10-30T01:19:44.468110+00:00",
+      "goal": "Verify Windows child0014 extent and parent0013 ownership; restore first six of nine actual body pages272–277.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0013",
+        "maso-1991-09-toc-0014"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        272,
+        273,
+        274,
+        275,
+        276,
+        277
+      ],
+      "outside_lookup_pages": 7,
+      "outside_lookup_pdf_pages": [
+        4,
+        271,
+        278,
+        279,
+        280,
+        281,
+        282
+      ],
+      "recognition_invocations": 45,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-32/validation.json",
+        "sha256": "7f375c405940bf189e4ed5cce8582c9c503c94050aa137c169f7048f242e1246",
+        "bytes": 2773
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-32/reproduction.json",
+        "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
+        "bytes": 34169
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
     "readable": 10,
-    "partial": 0,
-    "group_headings": 2,
-    "unresolved": 17
+    "partial": 1,
+    "group_headings": 3,
+    "unresolved": 15
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -3396,25 +3563,21 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-32",
-    "goal": "Verify canonical0013 활용 parent andchild0014 윈도우즈 응용 프로그램 만들기(3) : 프로그램 작성과 실행 과정 / 강민석 fromknownown272title/byline;establishactualchildextent/ending andrestoreboundedfirstnative. Classifyparentonlyifsourceprovesnon-owning.",
+    "name": "1991-09-batch-33",
+    "goal": "Restore final Windows0014 body pages278–280 as a second immutable native, then perform actual nine-page assembly in a separate checkpoint.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0013",
       "maso-1991-09-toc-0014"
     ],
     "mapping_targets": [
-      272,
-      273,
-      274,
-      275,
-      276,
-      277
+      278,
+      279,
+      280
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "272owntitle 프로그램 작성과 실행 과정/byline강민석(금성중앙연구소),top활용 andprinted270 known;273–275 Windowsseries/table/Cexample/diagram previouslyviewed. Matchoriginalcontents/queue,do notretitlecanonicalchildorinferparentbodyownership. Parent0013canonical270/child0014nullreferences unchanged;verifyparentsectionlabel isnotindependentbodybeforeclassifying.272–277 provisionalfirstsixmappingcandidates only:actualchildending/anyappendixlisting mustbesourceverified within≤20outsideviews,notinferredfromnextchildreference or globaloffset. Reuseknownfullviews;revieweverymappedfullpage/crop,readallrawdraftsbeforeonesourcepass. Preserveoriginalmixedprose/Csource/diagrams/tables/screens/physicalwraps/glyphuncertainty andliteraltechnicalclaims,no semanticrepair. Useimmutable segments ifactualbodylonger,thenactualassemblyseparate. B+tree0012 mainbodyassemblyreadablewithopenunlocatedListing2SAMPLE.C gap;carrythatgap intofull406pageaccounting,donotclaimrecoveredsource orissuewideabsence. UsepinnedBatch31btree_adapter forcompletechecks;dispatchincludesBatch28basic andallsixprioradapters. Sevenprivateadapters total/30coreunchanged. Tenreadable/zeropartial/twoheadings/17unresolved;otherbodies/accounting/cover/standaloneissueexport/closeout active,no readerrebuild."
+    "note": "Reuse retained full-page evidence; review all mapped full pages/crops before OCR, read every terminal raw draft before one source correction pass. Incoming277 annotation ends CW_USEDEFAULT, : 윈도우의 좌우 넓이 and278 begins 0, : 윈도우의 상하 깊이; use LF only at later actual block assembly. Keep mixed Korean annotation as prose. Verify final message-loop/function prose, diagram, printed snippets, DEF/MAKE listings, screenshot, conclusion/closing mark against source. Actual body272–280 known;281 advertisement/282 independent next article, canonical parent270/childnull unchanged. First native batch-32-r02/windows-a stays immutable. Use pinned Batch31 btree_adapter; seven adapters/30core unchanged. B+tree referenced SAMPLE.C remains unlocated and open for bounded lookup/full406-page accounting. Other15 identities, complete accounting, cover, issue export and closeout remain pending. No reader rebuild."
   }
 }

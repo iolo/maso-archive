@@ -24,47 +24,28 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 September 1991 restoration is active: ten readable/sample-reviewed articles,
-zero partial articles,two non-owning group headings and17 unresolved identities account
-for all29 canonical TOC entries. Batch31 assembles the eight-page main body of child0012,
-C로 작성한 B+ 트리(마지막회) / 조성만,on PDF264–271. Page270 visibly prints268;
-271 has no visible folio and remains null. Its conclusion/original closing mark precede
-an excluded independent lower back-issue notice;272 starts the Windows article.
-Parent0009 stays non-owning;parent reference240/childnull own reference remain unchanged.
-The selected355-file package preserves all346 files and complete original metadata from
-two exact immutable natives:85 regions,69 blocks,four original figures and81 OCR records.
-Both exports and a fresh-process rebuild match byte for byte. All2,498 current ranges
-(79 core,2,415 metadata,four resolutions) and all2,415 native ranges pass in their own
-article/listing/block/region contexts. Field-by-field metadata pairing includes one nested
-b→a prior_pending_record range. Original metadata/status notes remain unchanged history.
-Only a.memory-prose+b.p270-memory-intro are merged,with an empty separator at byte4,150:
-source267그 다→270음의. One intervening category layout item remains represented.
-Physical pages remain ascending;the source-text graph264,265,268,269,266,267,270,271
-stays explicit. Ten printed code/example blocks remain independent;listing bytes are
-exact native a+b concatenation,zero bytes added or removed. No historical source invented.
-All533 reading rows,58 code rows,130 tokens,153 lexical identifiers,one string and four
-numeric occurrences remain linked. Fifteen mixed function references/25 parameters,
-32 prototype rows/96 cells (12 blank)/37 arguments/two pointer markers,two project rows/
-four dependencies,six diagram nodes/two compile labels/five arrows/six schematic calls
-persist. Six DOS commands/seven arguments/six Enter candidates/two pointer-example rows,
-87 filename references/four literal wraps,13 anomalies/29 glyph candidates/16 headings,
-three captions/three figure-text links and eleven native internal joins remain intact.
-All85 source crops match retained pixels and fully decode;81 settings (10 eng/71 kor+eng)
-and three ZIPs pass. Eighty reused settings/one changed-crop provenance remain exact.
-Eleven invalid inputs are rejected. All18,536 prior files,thirty core modules,six existing
-adapters and source/TOC/runtime/queue remain unchanged;all30 earlier checkpoints validate.
-One task,zero mapped pages,four retained outside views;no new render/OCR/source correction,
-semantic repair,execution or reader rebuild. The main body has no pending page or assembly.
-Referenced〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/
-appendix374–381/387–390. Main-body completeness is distinct from referenced-listing
-completeness:the active coverage keeps this gap open,with no issue-wide absence claim.
-Next: Batch32 verifies parent0013 활용 and child0014 윈도우즈 응용 프로그램 만들기(3) :
-프로그램 작성과 실행 과정 / 강민석,from known own title/byline on272. Determine the
-child's actual extent/ending and classify the parent only from source evidence.
-PDF272–277 are provisional first-six mapping candidates. Preserve canonical parent270/
-childnull references and verify ownership before mapping. Other bodies,full406-page
-accounting (including the B+ tree listing gap),cover,issue export and closeout remain
-pending. Use pinned Batch31 btree_adapter for complete checks;seven private adapters
-and thirty core files stay pinned. No reader rebuild.
+one partial article, three non-owning group headings and fifteen unresolved identities
+account for all 29 canonical TOC entries.
+
+Batch32 restores PDF pages 272–277 of child0014, 윈도우즈 응용 프로그램 만들기(3) :
+프로그램 작성과 실행 과정 / 강민석. Direct source review establishes the full body
+on pages 272–280 and classifies parent0013 활용 as a non-owning heading. Canonical
+references remain unchanged. The native preserves the complete printed C example,
+two tables and original illustrations/diagram. Both 194-file exports and a fresh-process
+rebuild match; all 1,650 typed ranges, 50 source crops and 45 OCR settings pass.
+All 31 earlier checkpoints revalidate. One source correction pass, zero recognition retries.
+
+Next: Batch33 restores final pages 278–280 as a second immutable native. Then assemble
+the actual nine-page article in a separate checkpoint. The pending 277→278 parameter
+annotation requires LF at actual assembly; keep mixed Korean documentation as prose.
+Use the pinned Batch31 btree_adapter; seven private adapters and thirty core modules
+remain unchanged.
+
+Child0012's eight-page B+ tree main body remains assembled. Its referenced〈리스트 2〉
+SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/387–390.
+Preserve this open gap for bounded lookup and full 406-page accounting; no issue-wide
+absence claim. Other bodies, accounting, cover, issue export and closeout remain pending.
+No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
