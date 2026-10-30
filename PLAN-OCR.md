@@ -27,31 +27,31 @@ September 1991 restoration is active: fourteen readable/sample-reviewed articles
 one partial article, three non-owning group headings and eleven unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch38 restores article 0018's opening PDF314–319/printed312–317 as an immutable
-partial native. Its own title/byline identify 고진웅's LAN article; source 구현과 stays
-independent of canonical 구축과/reference 312. The observed final listing 21 DATAOUT.C
-ends on PDF339 before the independent 뿌리 article on PDF340. Twenty later pages 320–339 and actual assembly remain
-pending; intermediate pages 321–335 and the prose conclusion are not yet reviewed/located.
+Batch39 restores the LAN article's second segment, PDF320–325/printed318–323.
+Twelve pages PDF314–325 are now preserved across two immutable natives. Fourteen
+later pages PDF326–339 and actual assembly remain pending. Intermediate PDF327–335,
+the prose conclusion and complete listing inventory remain unverified. The observed
+ending is listing21 DATAOUT.C on PDF339, before the independent 뿌리 article on PDF340.
 
-The 366-file native preserves 97 regions, 72 blocks, ten original images and 87 OCR
-records. Both exports and a fresh-process rebuild match. All 1,838 text ranges, 97 source
-crops, 87 kor+eng settings and ZIP CRC pass; all 37 earlier checkpoints validate. The
-26-row address table retains six headers/156 cells, and diagrams retain source lettering,
-header fields and six prose message modes. Three schematic dot extents have explicit
-manual glyph/count tasks. One source correction pass, zero unchanged-input retries.
-All circuit, waveform and protocol claims remain literal source documentation.
+The new 428-file native preserves 116 regions, 87 blocks, fifteen original images and
+101 OCR records. Both exports and a fresh-process rebuild match. All 1,867 current text
+ranges, two prior-native ranges, 116 source crops, 101 settings (2eng/99kor+eng) and ZIP
+CRC pass; all 38 earlier checkpoints validate. Fourteen diagrams, the seven-command table,
+nineteen module labels and two printed DOS examples remain source-linked. One source
+correction pass, zero unchanged-input retries. Original glyphs and source claims remain
+unverified; sparse diagram drafts were completed directly from the reviewed scans.
 
-Next: Batch39 continues the same article on PDF320–325 after full-page/crop review.
-Keep the incoming PDF319 만 + PDF320 일 word join explicit in separate native download contexts.
-The opening PDF314–319 stays immutable; later pages and complete assembly remain pending.
-Use pinned Batch34 windows_adapter; eight private adapters and thirty core modules
-stay unchanged. No executable code was invented from the opening's diagram fields.
+Next: Batch40 continues the same article on PDF326–331 after full-page/crop review.
+Preserve incoming PDF325 리턴 + PDF326 값 and resolve the figure23 reference in separate
+native contexts. The opening's PDF319 만 + PDF320 일 join and figure9 reference are now
+verified without changing either native. Use pinned Batch34 windows_adapter; eight
+private adapters and thirty core modules stay unchanged.
 
-Prior array and Nanforum manual glyph tasks remain explicit. B+ tree 0012's referenced
-〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/
-387–390. Preserve this gap for bounded lookup and full 406-page accounting; no issue-wide
-absence claim. Eleven unresolved identities, remaining bodies/assembly, accounting, cover,
-issue export and closeout remain pending. No reader rebuild. See
+Prior array, Nanforum and LAN-opening manual glyph tasks remain explicit. B+ tree0012's
+referenced〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/
+appendix374–381/387–390. Preserve this gap for bounded lookup and full 406-page accounting;
+no issue-wide absence claim. Eleven unresolved identities, remaining bodies/assembly,
+accounting, cover, issue export and closeout remain pending. No reader rebuild. See
 [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
