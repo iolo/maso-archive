@@ -6,36 +6,38 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-September 1991 restoration is active: fourteen readable/sample-reviewed articles,
-one partial article, three non-owning group headings and eleven unresolved identities
+September 1991 restoration is active: fifteen readable/sample-reviewed articles,
+no partial articles, three non-owning group headings and eleven unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch42 restores the LAN article's final segment, PDF338–339/printed336–337, including
-listings16–21. All 26 article pages PDF314–339 and all 21 intrinsic listings are now
-preserved across five immutable natives. No source pages remain deferred for this article;
-actual complete article assembly remains pending, so availability stays partial. The prose
-conclusion/closing mark is on PDF331; final DATAOUT.C ends339 before independent340 뿌리.
+Batch43 completes the LAN article's actual 26-page assembly, PDF314–339/printed312–337,
+from five immutable natives. All 21 intrinsic listings and two separate printed DOS examples
+are included. The own opening314, prose conclusion/closing mark331 and final DATAOUT.C339
+before independent340 뿌리 remain source-reviewed. No LAN body pages or assembly remain pending.
 
-The selected r02 native contains 95 files, 26 regions, 14 blocks, six original listing frames
-and 20 OCR records. Both exports and a fresh-process rebuild match. All 4,302 current text
-ranges, two prior-native ranges, 26 source crops, 20 settings (12eng/8kor+eng) and ZIP
-CRC pass; all 41 earlier checkpoints validate. Six listing groups preserve 252 physical
-source rows and 673 tokens. Two HEADER.C asterisk bands retain distinct unknown-count
-markers. One correction pass, zero OCR retries. One metadata occurrence link was repaired
-in r02, with the original export retained and source text unchanged. Exact source bytes,
-spacing, glyph identities/counts, claims and execution remain unverified.
+Both 1,547-file exports and a fresh-process rebuild match; all 1,538 native files remain exact.
+The assembly preserves 423 regions, 286 blocks, 66 original figures and 357 OCR records.
+All 31,576 active root ranges and 28,206 original native ranges validate. Every source-metadata
+occurrence projects in its named context, including two whole-block indexes that retain their
+original native formatting bytes separately. All 423 source crops, 357 settings (50eng/307kor+eng)
+and six ZIPs pass. Thirty core modules and eight previous private adapters stay unchanged;
+a ninth private LAN adapter handles this exact assembly. Twelve invalid mutations are rejected
+and all 213 PDF tests pass. No new mapping, render, OCR, source correction or reader rebuild.
 
-Next: Batch43 assembles complete LAN0018 from all five exact natives. Resolve the two
-split prose words, figure9/figure23 references and listing1's PDF331→332 source-row
-continuation, retaining native contexts and editorial separator distinctions. Keep all
-source markers, printed column inversions and literal code. No new mapping or OCR is
-required. Use pinned Batch34 windows_adapter; core modules remain unchanged.
+The joins resolve 319만+320일, 325리턴+326값, figure9/figure23 references and listing1's
+331→332 source rows. Only two native editorial ending LFs become one row LF; all original
+native bytes remain retained. Nine glyph/count extents, printed column inversions and source
+operators/spellings remain explicit. Human acceptance, full proofreading, original encoded
+bytes/exact whitespace/glyph identities/counts, claims and execution remain unverified.
 
-Prior array, Nanforum and LAN-opening manual glyph tasks remain explicit. B+ tree0012's
-referenced〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/
-appendix374–381/387–390. Preserve this gap for bounded lookup and full 406-page accounting;
-no issue-wide absence claim. Eleven unresolved identities, remaining bodies/assembly,
-accounting, cover, issue export and closeout remain pending. No reader rebuild. See
+Next: Batch44 verifies and begins canonical0019 뿌리 at observed PDF340/printed338, with
+provisional mapping candidates340–345. Keep canonical own reference337 unchanged and verify
+the local extent before mapping. Use pinned Batch43 lan_adapter; nine adapters/thirty core
+modules remain pinned. Prior array/Nanforum tasks and B+ tree0012's referenced〈리스트 2〉
+SAMPLE.C remain open. The listing is unlocated in bounded inspected body264–271/appendix
+374–381/387–390; preserve this gap for bounded lookup/full 406-page accounting without an
+issue-wide absence claim. Eleven unresolved identities, remaining bodies, accounting, cover,
+issue export and closeout remain pending. No reader rebuild. See
 [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
