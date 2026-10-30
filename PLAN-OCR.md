@@ -23,45 +23,45 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-September 1991 restoration is active: eighteen readable/sample-reviewed articles,
-no partial articles, four non-owning group headings and seven unresolved identities
+September 1991 restoration is active: nineteen readable/sample-reviewed articles,
+no partial articles, four non-owning group headings and six unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch50 completes the Clipper review0022, PDF356–360, upper360 only. Folios354–357
-are visible on356–359;360 has no visible folio and stays null. The final next-generation
-paragraph and closing mark precede an independent lower360 back-issue advertisement,
-full361 advertisement and independent Director opening362/printed360. No Clipper body
-pages or actual assembly remain pending. Canonical title, 유상현, null own reference and
-parent0020 remain unchanged; parent own346 is not assigned to the child. Source signed
-byline and editorial deck credit〈편집부〉are separate. Non-owning0020 has no body package.
+Batch51 completes the Director article0023, PDF362–366/printed360–364, upper366 only.
+The final conclusion and original closing mark precede an independent lower subscription
+advertisement and full367–369 advertisements. No Director body pages or actual assembly
+remain pending. Canonical title, 이진영, own360 and no parent remain unchanged. The mapped
+byline reads 글. 이진영 (엘렉스 컴퓨터 마켓팅부);this source affiliation supersedes the
+previous outside-context candidate while the earlier immutable package remains unchanged.
 
-Both 175-file exports and a fresh-process rebuild match. The complete native preserves
-44 regions, 31 blocks, three original figures and 41 OCR records: opening floppy illustration,
-purchase inset and closing mark. Seven continuation groups/ten joins preserve source column,
-page, dropcap and physical line boundaries. All 839 typed ranges validate in their named
-article/block/region/scan contexts. All 44 crops exactly match source pixels;41 kor+eng settings,
-PNG decoding, ZIP CRC and advertisement exclusion checks pass. All 33,438 prior files,
-thirty core modules, eleven adapters and 49 earlier packages remain unchanged. Batch49's
-successful 213-test baseline is reused for this data-only checkpoint. No reader rebuild.
+Both 203-file exports and a fresh-process rebuild match. The complete native preserves
+54 regions, 40 blocks, seven original figures and 47 OCR records: opening Macintosh photo,
+five screenshots and closing mark. Five captions/lettering links,12 motion-menu options,
+three recycling categories/five visible axis labels and five groups/seven joins retain source
+contexts. No chart values or hidden fields are inferred. All 856 typed ranges validate;
+54 crops exactly match source pixels,47 kor+eng settings/PNG decoding/ZIP CRC pass,and every
+eligible crop is disjoint from the lower advertisement. All 34,031 prior files,thirty core
+modules,eleven adapters and50 earlier packages remain unchanged. Batch49's successful
+213-test baseline is reused for data-only work. No reader rebuild or execution.
 
-All five mapped full pages, five outside contexts, 44 original crops and eighteen unique
-refined regions/21 crop revisions were reviewed before OCR. All41 raw drafts were read
-before one source correction pass;zero retries. Two internal-error hash bands remain
-occurrence-linked manual tasks with unknown glyph identities/counts;29 glyph candidates
-retain literal punctuation/name/year/version readings. The quotation, four historical prices,
-four future goals and physical English/title/name wraps remain source-linked and unverified.
-Human acceptance, full proofreading, original encoded bytes/exact spaces/glyph identities/
-counts, historical/technical/price claims and execution remain unverified. Earlier DOS/ppuri/
-LAN completion, array/Nanforum tasks and B+ tree SAMPLE.C gap remain exact.
+All five mapped full pages,five outside contexts,54original crops and23unique refined regions/
+26crop revisions were reviewed before47recognitions. All47drafts were read before one source
+correction pass;zero retries. Nineteen manual screenshot extents/35glyph candidates preserve
+clipping,occlusion,faint fields,slider textures and selected glyphs. The tilted editor remains
+at its original angle. Hardware/codec/numeric claims and physical English wraps stay literal.
+Human acceptance,full proofreading,source encoded bytes/exact spaces/glyph identities/counts,
+claims and execution remain unverified. Earlier Clipper/DOS/ppuri/LAN completion,array/Nanforum
+tasks and B+ tree SAMPLE.C gap remain exact.
 
-Next: Batch51 verifies canonical0023 Director from observed own PDF362/printed360,
-then restores eligible pages among provisional362–367. Verify its local ending/continuations
-before mapping;the six candidates are not a claim of complete extent. Reuse retained362/363
-views. Use pinned Batch49 dos_adapter;eleven adapters/thirty core modules stay pinned.
-Seven unresolved identities, remaining bodies, full406-page accounting, cover, issue export
-and closeout remain pending. B+ tree0012's referenced〈리스트 2〉 SAMPLE.C remains unlocated
-in bounded body264–271/appendix374–381/387–390;retain the gap for bounded lookup/full
-accounting without an issue-wide absence claim. No reader rebuild. See
+Next: Batch52 locates and verifies canonical0024,the port-conflict article,using
+its own378 reference as a local lookup clue. Actual source title/start/end remain unverified;
+PDF378/380 and provisional378–383 mapping candidates do not establish ownership or a global
+folio offset. Verify boundaries/continuations before mapping eligible pages. Reuse retained
+source views where applicable. Use pinned Batch49 dos_adapter;eleven adapters/thirty core
+modules stay pinned. Six unresolved identities,remaining bodies,full406-page accounting,
+cover,issue export and closeout remain pending. B+ tree0012's referenced〈리스트 2〉 SAMPLE.C
+remains unlocated in bounded body264–271/appendix374–381/387–390;retain the gap for bounded
+lookup/full accounting without an issue-wide absence claim. No reader rebuild. See
 [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

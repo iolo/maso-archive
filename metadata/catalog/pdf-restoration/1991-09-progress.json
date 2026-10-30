@@ -4064,12 +4064,113 @@
       "toc_entry_id": "maso-1991-09-toc-0023",
       "title": "매킨토시 포럼 : 디렉터를 이용한 멀티미디어 구현",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 and own362/printed360 source title디렉터를 이용한 멀티미디어 구현/category매킨토시포럼/byline글. 이진영 identify canonical0023. Canonical own360/title/byline/no parent unchanged. Mapped source affiliation엘렉스 컴퓨터 마켓팅부 supersedes Batch50 outside-context candidate엔빅스 컴퓨터 마케팅부;prior immutable metadata remains historical and exact.",
+        "Actual complete five-page body362–366,upper366 only. Final conclusion and original closingmark366 precede independent lower subscription advertisement,then full367bookad/368trainingad/369trainingad. All literal folios360–364 visible. No deferred body page or actual assembly remains;no global folio offset inferred.",
+        "All five mapped full pages and five outside contexts5/361/367/368/369 directly reviewed.54original crops in15sheets and23unique refined regions/26crop revisions reviewed in12sheets and three final crops before47recognitions. All47terminal drafts read fully before one source correction pass;47kor+eng,zeroeng/retries. No independent printed code listing;inline references remain prose.",
+        "The203-file complete native preserves54regions,40blocks,seven original figures,47OCR records and327serialized reading rows. Original Macintosh photo,five screenshots and closingmark retained. Five source captions/five lettering links/five screenshot panels,12bullet-motion menu options,three recycling categories/five visible axis labels retain explicit source contexts. No chart bar values or hidden fields inferred.",
+        "Five groups/seven joins preserve수도+space+있다,메+뉴,강력+한,Al-+iasing,30번을+space+깜빡,현실+화 and것이+다.17headings,90prose identifier/name occurrences,50number/version/quantity fields,14physical wraps,46literal fields and19prose claim records remain source-linked. NTSC30Hz수평스캔,67~82Hz,640×480/24비트/1MB/10초300MB,50:1/200:1/650MB1시간,JPEG/MPEG names and QuickTime hardware/feature promises remain literal unverified historical assertions.",
+        "Nineteen manual screenshot extents retain source clipping,cast-palette occlusion/faint index/member labels,five menu-occluded fields,two slider textures,clipped style preview,checkbox/clock/cursor/window/sign/timecode/control fields.35glyph candidates retain punctuation,arrows,roman numerals,source names and selected pixel-font fields. Tilted video-editor screenshot stays at its original angle;no hidden lettering or original glyph counts/identities inferred.",
+        "Both203-file exports and a fresh-process rebuild match. All856typed article ranges validate in named download/block/region/scan contexts;54source crops exact/PNGs decode,47pinned OCR settings andZIPCRC pass. Eligible crops are disjoint from lower366advertisement. All34031prior files,30core modules,11adapters,source/TOC/runtime/queue and50earlier packages remain exact. Batch49successful213-test baseline reused for data-only work. One task/five mapped/five outside pages meet limits. No reader rebuild;earlier manual/coverage gaps unchanged.",
+        "Human acceptance/full proofreading,source encoded bytes/exact spaces/glyph identities/counts,historical/technical/numeric claims,execution and independent backup recovery remain unverified. Source-correction helper assertion and intermediate correction serialization retained;same single source pass replayed with physical-wrap target fixed,without OCR retry. Full September goal remains active."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-51-r01/director",
+        "article_id": "scan-maso-1991-09-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-51-r01/director/manifest.json",
+          "sha256": "d7a67da54e2ef87888bc5705bbabe6000d9a62d8507134024d608f3c4799e88d",
+          "bytes": 35195
+        },
+        "coverage": {
+          "pdf_pages": [
+            362,
+            363,
+            364,
+            365,
+            366
+          ],
+          "printed_pages": [
+            "360",
+            "361",
+            "362",
+            "363",
+            "364"
+          ],
+          "regions": 54,
+          "blocks": 40,
+          "figures": 7,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "complete_article": true
+        },
+        "actual_start_pdf_page": 362,
+        "actual_end_pdf_page": 366,
+        "full_source_extent": {
+          "pdf_pages": [
+            362,
+            363,
+            364,
+            365,
+            366
+          ],
+          "printed_pages": [
+            "360",
+            "361",
+            "362",
+            "363",
+            "364"
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Complete five-page Director article,upper366 only;original final conclusion/closingmark before independent lower subscription ad and367–369full advertisements. All actual folios360–364 visible;no global offset inference."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-51/validation.json",
+          "sha256": "fc39c996575b03af5e0ae1712a60220013777974b5c3fc4f090ce6de077e4b33",
+          "bytes": 2935
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-51/reproduction.json",
+          "sha256": "af676ac810a24cd4b2d13e4bbc9d2d634ff722e8138a785c5f359ff0243e93b4",
+          "bytes": 36146
+        },
+        "checkpoint": "batch-51",
+        "manual_glyph_tasks": {
+          "count": 19,
+          "status": "manual-source-screenshot-clipping-occlusion-faint-fields-and-glyph-reading-required",
+          "directory": "archive/pdf/1991-09/packages/batch-51-r01/director",
+          "corrections": {
+            "path": "archive/pdf/1991-09/packages/batch-51-r01/director/corrections.json",
+            "sha256": "14209fef9a6a33d1cdcadbcdd6a16811eaf75583859e56e952a0f2cb83c7c0a4",
+            "bytes": 670402
+          },
+          "marker_counts": {
+            "⟦source-clipped axis field⟧": 1,
+            "⟦palette-occluded chart area⟧": 1,
+            "⟦faint cast index band⟧": 1,
+            "⟦faint cast member labels⟧": 1,
+            "⟦clipped style preview⟧": 1,
+            "⟦slider texture⟧": 2,
+            "⟦title checkbox glyph⟧": 1,
+            "⟦menu-occluded field⟧": 5,
+            "⟦faint clock field⟧": 1,
+            "⟦window-occluded text⟧": 1,
+            "⟦cursor-occluded field⟧": 1,
+            "⟦source-clipped sign⟧": 1,
+            "⟦faint timeline timecodes⟧": 1,
+            "⟦faint lower control labels⟧": 1
+          },
+          "glyph_candidates": 35,
+          "note": "Screenshot clipping/occlusion/faint fields/slider textures/checkbox/clock/sign/timecodes remain original pixels,unknown glyph identities/counts. Separate from complete five-page body coverage."
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0024",
@@ -5838,14 +5939,54 @@
         "sha256": "d0baef9254bcc0f0b4cf4d0345d02154b0015ecbd252c34a0414e38a7d336f0f",
         "bytes": 30866
       }
+    },
+    {
+      "name": "1991-09-batch-51",
+      "status": "complete",
+      "completed_at": "2026-10-30T14:14:15.383803+00:00",
+      "goal": "Verify and restore complete Director0023 PDF362–366,upper366 only,with literal prose,five original screenshots/captions/lettering and manual source fields.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0023"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        362,
+        363,
+        364,
+        365,
+        366
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        5,
+        361,
+        367,
+        368,
+        369
+      ],
+      "recognition_invocations": 47,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-51/validation.json",
+        "sha256": "fc39c996575b03af5e0ae1712a60220013777974b5c3fc4f090ce6de077e4b33",
+        "bytes": 2935
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-51/reproduction.json",
+        "sha256": "af676ac810a24cd4b2d13e4bbc9d2d634ff722e8138a785c5f359ff0243e93b4",
+        "bytes": 36146
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 18,
+    "readable": 19,
     "partial": 0,
     "group_headings": 4,
-    "unresolved": 7
+    "unresolved": 6
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -5853,24 +5994,24 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-51",
-    "goal": "Verify canonical0023 매킨토시 포럼 : 디렉터를 이용한 멀티미디어 구현 / 이진영 from observed own PDF362/printed360;establish actual extent and restore bounded eligible pages.",
+    "name": "1991-09-batch-52",
+    "goal": "Locate and verify canonical0024 테크니컬 독자마당 : 포트간 충돌을 해소시켜 주는 유스콤 / 편집부,using canonical own378 as a local lookup clue;restore bounded eligible pages after verifying actual title/start/end.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0023"
+      "maso-1991-09-toc-0024"
     ],
     "mapping_targets": [
-      362,
-      363,
-      364,
-      365,
-      366,
-      367
+      378,
+      379,
+      380,
+      381,
+      382,
+      383
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Clipper0022complete356–360,upper360only;361fullad. Director independent opening362/printed360 and continuation363 directly viewed as outside contexts. Own canonical360 and independent title/byline/affiliation remain unchanged;verify local ending/continuations before mapping only eligible pages among provisional362–367. Six pages are candidates,not asserted complete extent. Reuse retained362/363views. Preserve original prose/screenshots/labels/captions/figures/code/wraps and uncertainties;eng only independent printed code/commands,kor+eng for other text including screen lettering. Use pinned Batch49 dos_adapter;11adapters/30core unchanged. Prior DOS/ppuri/LAN completion,Clipper2manualextents/29glyphcandidates,array/Nanforumtasks and BtreeSAMPLE.Cgap remain exact. Seven unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or program execution."
+    "note": "Director0023complete362–366,upper366only;367–369fullads outside. Next canonical0024 own378/byline편집부/no parent stay unchanged. Actual source start/end remain unverified. Inspect canonical page clue378 and nearby PDF378/380 as candidates,not a global offset or asserted body location. Provisional378–383mapping targets only;map eligible pages after source identity/boundary/continuation review. Reuse retained appendix/source views where applicable without assuming ownership;respect Btree referencedSAMPLE.C gap and previous appendix classifications. Preserve original prose/tables/code/figures/labels/wraps/uncertainties;eng independent code/commands,kor+eng other text including screenshots. Use pinnedBatch49dos_adapter;11adapters/30core unchanged. Prior Director/Clipper/DOS/ppuri/LAN completion and all manual tasks unchanged. Six unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or execution."
   }
 }
