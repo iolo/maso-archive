@@ -36,43 +36,43 @@ no partial articles, four non-owning group headings and two non-owning section r
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
 complete. Full issue accounting and closeout remain incomplete.
 
-Batch63 extends source accounting through outside PDF 21–40. All twenty complete 3000px views
-were directly inspected: twenty advertisements, with no visible printed folios and no additional
-canonical article bodies. The software price catalogue, SMART two-page promotion, notebook and
-Clipper-library advertisements remain outside body ownership. Page40's ppuri demo reference is
-advertising context, not additional article coverage or recovered program source.
+Batch64 directly reviews outside PDF 41–60: twenty advertisements, with no visible printed
+folios and no additional canonical article bodies. All twenty complete 3000px source views
+are retained. Daewoo product/specification catalogues, PRONIX and NOVELL PC-LAN promotions,
+POS-Serve and KETEL membership notices remain outside article ownership. K.L. hardware 54–55
+and Samsung software 56–57 retain their two-page associations. No advertised membership notice
+is substituted for the unresolved community survey/application form.
 
-There are now 264 of 406 content records: 224 selected body pages and forty reviewed outside
-pages. Of 182 outside candidates, 142 remain pending. Cumulative outside categories are 37
-advertisements, cover, contents and contents/colophon. All previous page records, including
-literal/null folios and community 87/radar 385 index references, remain exact without a global offset.
+There are now 284 of 406 content records: 224 selected body pages and sixty reviewed outside
+pages. Of 182 outside candidates, 122 remain pending. Cumulative outside categories are 57
+advertisements, cover, contents and contents/colophon. All previous page records remain exact,
+including literal/null folios and community 87/radar 385 index references; no global offset.
 
 The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
 Forty-eight frozen native contexts and eight exact mixed-page exclusions remain unchanged;
-the earlier nonfigure/exclusion disjointness audit remains pinned. The accounting JSON matches
-an independent fresh-process rebuild. All 29 canonical entries/outcomes, 40,770 prior files,
+the earlier nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches
+an independent fresh-process rebuild. All 29 canonical entries/outcomes, 40,827 prior files,
 thirty core modules and thirteen private adapters remain exact. Batch61's 213-test baseline is
 reused for data-only work. No new article export, mapping, OCR, source correction or reader build.
 
-Radar 0034 remains complete at radar-complete-r01: nineteen pages 89–95,98–109 and all 740
-native files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor and
-its typed-source/body-continuation contexts remain verified. Use pinned Batch61 radar_adapter
-and its thirteen-adapter dispatcher. Community 0026's eleven available pages and child 0040's
-final a-p387-topics anchor remain complete.
+Radar 0034 remains complete at radar-complete-r01: nineteen pages 89–95,98–109 and all 740 native
+files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor and typed
+source/body-continuation contexts remain verified. Use pinned Batch61 radar_adapter and its
+thirteen-adapter dispatcher. Community 0026's eleven available pages and child 0040's final
+a-p387-topics anchor remain complete.
 
 Complete original article recovery remains unverified. The community survey/application form
 is unlocated in the bounded community span; source 405's 397~398 placeholder and folio jump
-396→399 do not establish missing-content identity. Survey-prize material and giro forms
-401–402 are not substitutes. B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated
-in bounded body 264–271/appendix 374–381/387–390. These gap records and the seminar's related
-application-form task remain unchanged; no issue-wide absence claim is made. Body prose,
-embedded screen/cover lettering and earlier manual glyph tasks remain explicit volunteer work.
-Human acceptance, full proofreading, source encoded bytes/exact spaces/glyph identities/counts,
-historical/technical/contact/geographic claims, execution and independent backup recovery remain
-unverified.
+396→399 do not establish missing-content identity. Survey-prize material and giro forms 401–402
+are not substitutes. B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated in bounded
+body 264–271/appendix 374–381/387–390. Those gap records and the seminar's related application-form
+task remain unchanged; no issue-wide absence claim is made. Body prose, embedded screen/cover
+lettering and earlier manual glyph tasks remain explicit volunteer work. Human acceptance,
+full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
+contact/geographic claims, execution and independent backup recovery remain unverified.
 
-Next: Batch64 reviews PDF 41–60, at most twenty new outside pages. Reuse the pinned Batch62
-accounting builder/ownership and Batch63 accounting, preserving all earlier records. Finish all
+Next: Batch65 reviews PDF 61–80, at most twenty new outside pages. Reuse the pinned Batch62
+accounting builder/ownership and Batch64 accounting, preserving all earlier records. Finish all
 406 pages and final survey/application/SAMPLE.C gap dispositions, then cover, standalone issue
 export, independent all-native/actual assembly rebuilds and closeout. No reader rebuild.
 See [September progress](docs/progress/9109.md) and
