@@ -32,41 +32,50 @@ records below are historical and do not authorize a new rebuild.
 ## September 1991 active, 2026-10-30
 
 September 1991 restoration is active: nine readable/sample-reviewed articles,
-zero partial articles, two non-owning group headings and 18 unresolved identities account
-for all 29 canonical TOC entries. Batch 28 completes child 0011,
-베이직 인터프리터를 구현해 보자(마지막회) / 정진호, on all fourteen actual body pages,
-PDF 250–263 / printed 248–261. Three exact immutable natives supply the assembly;
-all 467 native files and complete original metadata remain unchanged in the package.
-Parent 0009 stays non-owning; parent reference 240 and the child's null own reference
-remain unchanged. The independent B+ tree article begins on 264 after con_int_pop closes.
-Both selected exports and a fresh-process rebuild contain 476 exact files:
-122 regions, 86 blocks, sixteen original figures and 106 OCR records. All 18,237 current
-ranges (111 core, 18,118 metadata and eight resolutions) and all 18,118 native ranges pass
-in their own contexts. This includes one b→a and four c→b nested prior-native ranges.
-Only the same RUN.C file is merged, with an empty added separator because the prior block
-already ends with one LF; its right fragment begins at byte 7,359. The combined listing is
-exact native concatenation, zero bytes added or removed. CODE3.C remains independent,
-as do the first native's nineteen schema/syntax/example/diagram/printed-output blocks.
-The catalogue's ninth btest.c item is resolved logically, without an inferred prose join.
-All 1,233 reading rows, 1,132 regional code rows, 2,843 tokens, 1,940 lexical identifiers,
-102 comments, forty strings and 171 numeric occurrences remain linked. Three diagrams
-retain thirteen table rows/26 cells (one blank), six headers and six stack values;
-printed output retains 33 offset rows/99 cells (four blank operands) and fourteen output
-rows, including ten star rows. Eight IF instructions/three subitems, nine catalogue items,
-twelve structure fields, sixty signature-like rows, nine includes and two macros persist.
-Seven captions, 25 figure/text links and nine C source frames retain original images.
-All 34 source anomalies and 139 glyph candidates stay literal and unverified; no semantic
-repair or execution. Original native status notes remain historical evidence; active body
-and assembly deferrals are resolved. No new mapping, render, OCR or source correction.
-All 122 crops/PNG decodes, 106 settings (37 eng / 69 kor+eng) and four ZIPs pass.
-Ten invalid inputs are rejected. All 16,098 prior files, thirty core modules and five
-existing adapters stay unchanged; all 27 prior checkpoints validate. Install pinned
-Batch 28 basic_adapter for complete checks; it dispatches the five earlier adapters.
-Next: Batch 29 verifies child 0012, C로 작성한 B+ 트리(마지막회) / 조성만, from its
-known own title on 264, establishes its actual extent and restores a bounded first native.
-PDF 264–269 are provisional mapping candidates only; verify ownership and ending from
-source before mapping. Other bodies, full 406-page accounting, cover, issue export and
-closeout remain pending. No reader rebuild.
+one partial article, two non-owning group headings and 17 unresolved identities account
+for all 29 canonical TOC entries. Batch 29 verifies child 0012,
+C로 작성한 B+ 트리(마지막회) / 조성만, as the eight-page main body PDF 264–271 /
+printed 262–269. Its own title/byline and running series match the contents identity.
+The conclusion/closing mark on 271 ends above an independent book advertisement;
+272 starts the independently titled/authored Windows article. Parent 0009 remains
+non-owning; parent reference 240 and the child's null own reference stay unchanged.
+The first six pages, 264–269, are now preserved in an immutable partial package:
+56 regions, 45 blocks, three original figures and 53 OCR records. Two selected exports
+and a fresh-process rebuild contain 224 exact files. All 1,777 typed ranges
+(1,327 article / 450 listing) resolve in their own download/block/region contexts.
+All 415 reading rows, fifty printed code rows, 97 tokens, 114 lexical identifiers and
+one string remain linked. Fifteen mixed Korean function references retain fifteen
+declarations and 25 parameters as prose; three printed code blocks separately preserve
+the schematic, project rows and prototype table. The table has 32 rows/96 cells,
+37 arguments and two pointer markers; the project has two rows/four dependencies.
+The original diagram retains six nodes, two compile labels and five arrow associations.
+Three caption/figure-text links, six schematic calls/directives, 42 filename references,
+five example keys, eleven headings, ten source anomalies and twelve glyph candidates
+remain. No semantic repair or execution; original images remain authoritative.
+Seven regional groups/eight joins preserve source continuity. The source-text page graph
+264,265,268,269,266,267,270,271 is explicit; physical PDF/printed folios stay literal.
+FindKey's return continues 269→266. The memory prose ends on 267 with 그 다 and
+continues on 270 with 음의; its empty future separator is pending, not a 269→270 join.
+All 53 terminal drafts were read before one source correction pass. That pass paused
+for one clipped PartKey heading crop: the expanded crop was viewed, recognized once,
+read, and the same pass resumed. Fifty-two unchanged results were reused with complete
+provenance: 54 actual invocations, zero unchanged-input retries. Eight earlier crop
+refinements preceded initial OCR. All 56 crops match retained source pixels and decode;
+53 settings (three eng / fifty kor+eng) and ZIP CRC pass. Metadata-only r02 improves
+filename indexing beside Korean particles and fixes an authored scope quote; source
+text/raw/settings stay exact. A historical reproduction pin was corrected to its already
+retained exact r01 path; the original failed check and history remain preserved.
+All 16,610 prior files, thirty core modules, six private adapters, source/TOC/runtime/queue
+stay unchanged; all 28 earlier checkpoint packages validate. One canonical task,
+six mapped pages and twenty outside lookups satisfy the checkpoint limits.
+Referenced〈리스트 2〉SAMPLE.C remains unlocated within inspected body 264–271 and
+appendix contexts 374–381/387–390. This is a bounded coverage gap, not issue-wide absence.
+Next: Batch 30 restores final body pages 270–271 as a second immutable native, excluding
+the lower book advertisement on 271, then a separate checkpoint assembles all eight pages.
+Preserve the 267→270 prose boundary and verify 270→271/271-column joins from source.
+Keep the listing-reference gap explicit through further bounded lookup/page accounting.
+Other bodies, full 406-page accounting, cover, issue export and closeout remain pending.
+Use pinned Batch 28 basic_adapter for complete checks. No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
