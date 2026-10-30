@@ -31,45 +31,47 @@ records below are historical and do not authorize a new rebuild.
 
 ## September 1991 active, 2026-10-30
 
-September 1991 restoration is active: sixteen readable/sample-reviewed articles,
-one partial article, four non-owning group headings and eight unresolved identities
+September 1991 restoration is active: seventeen readable/sample-reviewed articles,
+no partial articles, four non-owning group headings and eight unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch48 restores the DOS review0021 ending, PDF354–355/printed352–353. All eight
-body pages348–355 are now preserved across two immutable natives. Final conclusion
-and closing mark355 precede independent Clipper opening356. Actual complete article
-assembly remains pending, so availability stays partial. Canonical child null own
-reference/parent0020, parent own346, title and 편집부 are unchanged; source title and
-글. 심현도 기자 remain independent. Non-owning parent0020 has no body package.
+Batch49 completes the eight-page DOS review0021, PDF348–355/printed346–353, from
+two exact immutable natives. Final conclusion and closing mark355 precede independent
+Clipper opening356. No DOS source pages or actual assembly remain pending. Canonical
+title, 편집부, child null own reference/parent0020 and parent own346 stay unchanged;
+source MS 도스와 DR 도스의 운영체제 경쟁/글. 심현도 기자 remain independent.
+Non-owning0020 has no duplicate body package.
 
-Both 96-file exports and a fresh-process rebuild match. The ending retains 25 regions,
-18 blocks, four original figures and 21 OCR records: three screenshots and the closing
-mark. ViewMAX preserves 25 directory labels; QBASIC preserves 15 displayed declaration
-rows, seven partly menu-occluded and eight complete. Hidden text is not reconstructed.
-Three source joins retain 사용+하는, 곧+space+5.0 and 변화시+킬. All 413 typed ranges,
-25 exact crops/decoded PNGs, 21 kor+eng settings and ZIP CRC pass. All 32,594 prior files,
-thirty core modules, ten adapters and 47 earlier packages remain unchanged. Batch46's
-successful 213-test baseline is reused for this data-only checkpoint. No reader rebuild.
+Both 469-file exports and a fresh-process rebuild match; all 460 native files remain
+exact. The assembly preserves 122 regions, 92 blocks, 15 original figures and 107 OCR
+records: ten screenshots, two diagrams, two history tables and the closing mark.
+All source block text and three CONFIG rows remain exact; no cross-native text merge.
+Twelve internal groups/fifteen joins, 13 history rows/39 cells/six headers, 25 directory
+labels and 15 screenshot declaration rows survive. Hidden code is not reconstructed.
 
-All 21 raw drafts were read before one source correction pass; zero recognition retries.
-Both mapped full pages, four outside contexts, 25 original crops and seven unique refined
-regions/eight crop revisions were reviewed before OCR. Eighteen new manual extents retain
-dialog/menu occlusion, faint options/shortcuts/status and an unknown asterisk band.
-The opening's 22 extents/222 glyph candidates remain exact: both natives retain 40 manual
-extents and 264 glyph candidates. These tasks are separate from source-page coverage.
+All 2,607 active root ranges and 1,830 original native ranges validate; every source
+metadata range projects within its named download/block/region/scan context. All 122
+crops, 107 settings (1 eng/106 kor+eng) and three ZIPs pass. All 32,932 prior files,
+thirty core modules, ten older adapters and 48 earlier packages remain unchanged.
+An eleventh private DOS adapter delegates to Batch46 ppuri_adapter and preserves the
+complete custom metadata. Twelve invalid mutations are rejected; 213 fresh PDF tests
+pass. No new mapping, rendering, OCR, source correction, reader rebuild or execution.
+
+Forty manual extents and 264 glyph candidates remain explicit. Shade/dot/ruler/asterisk
+bands, source clipping/dialog/menu occlusion and faint fields retain original pixels.
 Human acceptance, full proofreading, original encoded bytes/exact spaces/glyph identities/
-counts, historical/technical claims and execution remain unverified. Earlier gaps stay exact.
+counts, historical/technical/price/contact claims and execution remain unverified.
+Earlier ppuri/LAN completion and all manual/coverage gaps remain exact.
 
-Next: Batch49 assembles complete DOS0021 PDF348–355 from the exact two natives.
-No new mapping, rendering, OCR or source correction is needed. Preserve every source block,
-all custom metadata and named native/root range contexts; no cross-native text merge is
-required. Use pinned Batch46 ppuri_adapter, adding a narrow private adapter only if needed
-to preserve these exact payloads. Keep thirty core modules and ten older adapters unchanged.
-Eight unresolved identities, remaining bodies, full406-page accounting, cover, issue export
-and closeout remain pending. B+ tree0012's referenced〈리스트 2〉 SAMPLE.C remains unlocated
-in bounded body264–271/appendix374–381/387–390; retain the gap for bounded lookup/full
-accounting without an issue-wide absence claim. Array/Nanforum/manual tasks remain open.
-Prior ppuri/LAN completion stays exact. No reader rebuild. See
+Next: Batch50 verifies canonical0022 Clipper-review extent from observed own PDF356/
+printed354, then restores eligible pages among provisional356–361. Keep its null own
+reference and parent0020 unchanged; do not assign inherited346 as its own. Verify local
+ending/continuations before mapping. Use pinned Batch49 dos_adapter; eleven adapters/
+thirty core modules stay pinned. Eight unresolved identities, remaining bodies, full406-page
+accounting, cover, issue export and closeout remain pending. B+ tree0012's referenced
+〈리스트 2〉 SAMPLE.C remains unlocated in bounded body264–271/appendix374–381/387–390;
+retain the gap for bounded lookup/full accounting without an issue-wide absence claim.
+Array/Nanforum/manual tasks remain open. No reader rebuild. See
 [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

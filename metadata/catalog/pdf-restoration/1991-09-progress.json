@@ -3619,7 +3619,7 @@
       "parent_id": "maso-1991-09-toc-0020",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Original contents5 and independent source title MS 도스와 DR 도스의 운영체제 경쟁/byline 글. 심현도 기자 on348/printed346 identify canonical0021. Canonical MS-DOS와 DR-DOS의 운영체제 경쟁,편집부,null own page reference,parent0020 and order remain unchanged. Source byline remains independent from canonical author.",
@@ -3635,15 +3635,21 @@
         "ViewMAX directory tree retains25 label/depth records. QBASIC screenshot preserves15 declaration rows:seven partly menu-occluded/eight complete,plus one partly occluded comment prefix. Hidden names/arguments are not reconstructed. Three caption links,three figure/text links,19 source literal fields,seven headings and42 glyph candidates validate. Original XDEL sorting/ROM/Not Bootable/compatibility/price/contact claims remain unverified source text.",
         "Eighteen new manual extents retain four setup-dialog occlusion spans,eight QBASIC menu occlusion spans,one asterisk band,two faint shortcuts and three faint menu/status/position fields. Earlier22opening extents/222glyph candidates remain exact and separate. Across both natives there are40manual extents/264glyph candidates,distinct from complete native page coverage and pending actual assembly.",
         "Both96-file exports and a fresh-process rebuild match. All413 typed article ranges,25 exact crops/decodedPNG,21 pinned settings andZIPCRC pass. All32594 prior files,30 core modules,10 adapters,source/TOC/runtime/queue and47 earlier packages remain unchanged. Batch46 successful213-test baseline reused for data-only work. One task,two mapped pages and four outside lookups meet limits. No new full-page rendering,reader rebuild or program execution.",
-        "All8DOS pages348–355 are preserved across two immutable natives with no deferred source pages. Actual complete article assembly remains pending;availability stays partial. Root directory/coverage/validation continue to identify opening native a;latest native b and cumulative coverage are separate. Non-owning0020,unresolved child0022,prior ppuri/LAN completion,array/Nanforum tasks and Btree SAMPLE.C gap remain unchanged. Human acceptance/full proofreading/source bytes/exact spaces/glyph identities/counts,claims,execution and backup recovery remain unverified."
+        "All8DOS pages348–355 are preserved across two immutable natives with no deferred source pages. Actual complete article assembly remains pending;availability stays partial. Root directory/coverage/validation continue to identify opening native a;latest native b and cumulative coverage are separate. Non-owning0020,unresolved child0022,prior ppuri/LAN completion,array/Nanforum tasks and Btree SAMPLE.C gap remain unchanged. Human acceptance/full proofreading/source bytes/exact spaces/glyph identities/counts,claims,execution and backup recovery remain unverified.",
+        "Batch49 completes the eight-page DOS0021 assembly PDF348–355/printed346–353 from exact immutable natives a348–353/b354–355. Source title MS 도스와 DR 도스의 운영체제 경쟁/byline 글. 심현도 기자 on348,final conclusion/closingmark355 before independent Clipper356 remain source-reviewed. Canonical title,편집부,null own reference,parent0020 and parent own346 stay unchanged. Non-owning0020 has no duplicate body package.",
+        "The469-file assembly retains all460 native files byte for byte,122 regions,92 blocks,15 original figures and107 OCR records. Figures comprise ten screenshots,two diagrams,two history tables and closingmark.13 history rows/39body cells/six headers,two diagram spatial records,25directory labels,15screenshot declaration rows and three independent CONFIG rows retain exact source text/bitmap evidence. Seven declaration rows remain partly menu-occluded and eight complete;hidden code is not reconstructed.",
+        "No cross-native block merge or source-text normalization is required:353 ends a complete installation paragraph before354 new subsection. All92 blocks retain exact native text;the code download is exactly opening native a and ending native b has no separate code listing. Twelve internal groups/fifteen joins remain exact. Native partial statuses remain explicitly historical;active root coverage records completion.",
+        "All2607 active root ranges and1830 original native ranges validate. All1830 source-metadata range occurrences project without trimming or context switches;2514 active source-occurrence records validate in original native contexts. Every native metadata payload remains exact,including source identity/parent ownership,table/diagram/directory/screenshot records,40manual extents/264glyph candidates,14caption links and nine numbered reference resolutions.",
+        "All122 crops match retained source pixels and decode;107 settings retain1eng CONFIG/106kor+eng other text,with three ZIP CRC checks passing. Both469-file exports and fresh-process rebuild match. All32932 prior files,30 core modules,10 older private adapters and48 earlier checkpoint packages remain exact. An eleventh private DOS adapter accepts only this exact frozen recipe/native payload and delegates to pinned Batch46 ppuri_adapter. Twelve invalid recipe/coverage/identity/CONFIG/table/ownership/glyph/directory/ending mutations are rejected;fresh213 PDF tests pass.",
+        "All eight body pages and actual complete article assembly are complete;availability is readable/sample-reviewed with no deferred source pages or assembly.40 manual extents/264 glyph candidates preserve unknown bands/shades,source clipping/dialog/menu occlusion and faint fields. Source glyph identities/counts/encoded bytes,exact whitespace,human acceptance/full proofreading,historical/technical/price/contact claims,execution and independent backup recovery remain unverified. Prior ppuri/LAN completion,array/Nanforum tasks,Btree SAMPLE.C gap and all other entries remain exact. Full September goal stays active;no new mapping,render,OCR,source correction,reader rebuild or execution."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-47-r01/dos-a",
+        "directory": "archive/pdf/1991-09/packages/dos-complete-r01",
         "article_id": "scan-maso-1991-09-toc-0021",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/manifest.json",
-          "sha256": "c4ad68b9b651d51ccbf054c3458094659ade82e256764998c831c87b90067d0b",
-          "bytes": 62925
+          "path": "archive/pdf/1991-09/packages/dos-complete-r01/manifest.json",
+          "sha256": "095737662dd3b0cc6c3f18818d3afd372f341a8ddd7efec05d07ed40ad4219e8",
+          "bytes": 85720
         },
         "coverage": {
           "pdf_pages": [
@@ -3652,7 +3658,9 @@
             350,
             351,
             352,
-            353
+            353,
+            354,
+            355
           ],
           "printed_pages": [
             "346",
@@ -3660,17 +3668,16 @@
             "348",
             "349",
             "350",
-            "351"
+            "351",
+            "352",
+            "353"
           ],
-          "regions": 97,
-          "blocks": 74,
-          "figures": 11,
-          "deferred_pdf_pages": [
-            354,
-            355
-          ],
+          "regions": 122,
+          "blocks": 92,
+          "figures": 15,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false,
-          "complete_article": false
+          "complete_article": true
         },
         "actual_start_pdf_page": 348,
         "observed_end_pdf_page": 355,
@@ -3698,11 +3705,12 @@
           "all_pages_directly_viewed": true,
           "prose_conclusion_pdf_page": 355,
           "next_independent_pdf_page": 356,
-          "note": "Verified eight-page body348–355 with own source title/byline348 and final conclusion/closingmark355 before independent Clipper356. All8pages preserved across two immutable natives;no deferred source pages. Actual complete article assembly remains pending. Canonical child null own reference/편집부 and source own346/심현도 기자 remain independent."
+          "note": "Complete eight-page DOS body348–355/printed346–353 assembled from two exact natives. Own source title/byline348 and final conclusion/closingmark355 before independent Clipper356 remain source-reviewed. All15 original figures,13history rows/39cells,CONFIG,screenshot lettering and source metadata present;no deferred pages or assembly.40manual extents/264glyph candidates remain explicit.",
+          "actual_article_assembly_complete": true
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "all_native_pdf_pages": [
           348,
           349,
@@ -3715,16 +3723,16 @@
         ],
         "remaining_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-47/validation.json",
-          "sha256": "14d3794ede170a5e87f02116f147aba2905860c2f27e572d8f593aa838db9150",
-          "bytes": 2958
+          "path": "archive/pdf/1991-09/restoration/batch-49/validation.json",
+          "sha256": "febbd74008584eff6b3fc2d3392fa85d7ab4d2ce95211e510027bf8cb7137cc8",
+          "bytes": 2782
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-47/reproduction.json",
-          "sha256": "d6b867c5ae6de8dfb307647622615fe9d79821d7473019aebce2f793558167b6",
-          "bytes": 63869
+          "path": "archive/pdf/1991-09/restoration/batch-49/reproduction.json",
+          "sha256": "4a2e838e6ba07f4b6e917681c5bc6e7401ead80ec18b2d1a3b5a1b4f5f38ac59",
+          "bytes": 87160
         },
-        "checkpoint": "batch-47",
+        "checkpoint": "batch-49",
         "native_segments": [
           {
             "name": "a",
@@ -3778,31 +3786,16 @@
           }
         ],
         "manual_glyph_tasks": {
-          "count": 22,
+          "count": 40,
           "status": "manual-source-glyph-count-and-faint-lettering-reading-required",
           "source_glyph_codes": null,
           "source_glyph_counts": null,
-          "marker_counts": {
-            "⟦shade sample⟧": 4,
-            "⟦vertical dot band⟧": 2,
-            "⟦faint menu label⟧": 1,
-            "⟦faint filename⟧": 2,
-            "⟦faint directory name⟧": 1,
-            "⟦source-clipped⟧": 5,
-            "⟦faint directory suffix⟧": 1,
-            "⟦faint icon filenames⟧": 1,
-            "⟦faint calculator keys⟧": 1,
-            "⟦faint highlighted row⟧": 1,
-            "⟦ruler dot band⟧": 1,
-            "⟦faint status⟧": 1,
-            "⟦faint word⟧": 1
-          },
           "corrections": {
-            "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/corrections.json",
-            "sha256": "d1254948741b56be7989c9747ba3b36aa130ced3db4c3e504389248f472401be",
-            "bytes": 1083089
+            "path": "archive/pdf/1991-09/packages/dos-complete-r01/corrections.json",
+            "sha256": "d38cdff5b9cf3582224135019cb046461abfea84745eb1a83747a3e9a846fa28",
+            "bytes": 5459640
           },
-          "note": "Occurrence-linked markers retain original source pixels;clipped/occluded/faint fields are not reconstructed.222 glyph candidates remain explicit. These manual tasks are separate from deferred source354–355 and pending assembly."
+          "note": "22opening plus18ending extents retain original source pixels and exact occurrence links. Shade/dot/ruler/asterisk bands,source clipping/dialog/menu occlusion,faint fields and264glyph candidates remain unverified. These are not missing source pages."
         },
         "preserved_pdf_pages_across_natives": [
           348,
@@ -3864,7 +3857,109 @@
             },
             "note": "Four setup-dialog and eight QBASIC menu occlusion spans,one asterisk band,two faint shortcuts and three faint menu/status/position fields. Prior22opening extents/222glyph candidates unchanged. Combined40extents/264glyph candidates are separate from completed native page coverage,pending assembly."
           }
-        ]
+        ],
+        "opening_native_scope_history": {
+          "directory": "archive/pdf/1991-09/packages/batch-47-r01/dos-a",
+          "manifest": {
+            "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/manifest.json",
+            "sha256": "c4ad68b9b651d51ccbf054c3458094659ade82e256764998c831c87b90067d0b",
+            "bytes": 62925
+          },
+          "coverage": {
+            "pdf_pages": [
+              348,
+              349,
+              350,
+              351,
+              352,
+              353
+            ],
+            "printed_pages": [
+              "346",
+              "347",
+              "348",
+              "349",
+              "350",
+              "351"
+            ],
+            "regions": 97,
+            "blocks": 74,
+            "figures": 11,
+            "deferred_pdf_pages": [
+              354,
+              355
+            ],
+            "remaining_extent_unverified": false,
+            "complete_article": false
+          },
+          "validation": {
+            "path": "archive/pdf/1991-09/restoration/batch-47/validation.json",
+            "sha256": "14d3794ede170a5e87f02116f147aba2905860c2f27e572d8f593aa838db9150",
+            "bytes": 2958
+          },
+          "reproduction": {
+            "path": "archive/pdf/1991-09/restoration/batch-47/reproduction.json",
+            "sha256": "d6b867c5ae6de8dfb307647622615fe9d79821d7473019aebce2f793558167b6",
+            "bytes": 63869
+          },
+          "manual_glyph_tasks": {
+            "count": 22,
+            "status": "manual-source-glyph-count-and-faint-lettering-reading-required",
+            "source_glyph_codes": null,
+            "source_glyph_counts": null,
+            "marker_counts": {
+              "⟦shade sample⟧": 4,
+              "⟦vertical dot band⟧": 2,
+              "⟦faint menu label⟧": 1,
+              "⟦faint filename⟧": 2,
+              "⟦faint directory name⟧": 1,
+              "⟦source-clipped⟧": 5,
+              "⟦faint directory suffix⟧": 1,
+              "⟦faint icon filenames⟧": 1,
+              "⟦faint calculator keys⟧": 1,
+              "⟦faint highlighted row⟧": 1,
+              "⟦ruler dot band⟧": 1,
+              "⟦faint status⟧": 1,
+              "⟦faint word⟧": 1
+            },
+            "corrections": {
+              "path": "archive/pdf/1991-09/packages/batch-47-r01/dos-a/corrections.json",
+              "sha256": "d1254948741b56be7989c9747ba3b36aa130ced3db4c3e504389248f472401be",
+              "bytes": 1083089
+            },
+            "note": "Occurrence-linked markers retain original source pixels;clipped/occluded/faint fields are not reconstructed.222 glyph candidates remain explicit. These manual tasks are separate from deferred source354–355 and pending assembly."
+          }
+        },
+        "actual_end_pdf_page": 355,
+        "native_coverage": {
+          "pdf_pages": [
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355
+          ],
+          "regions": 122,
+          "blocks": 92,
+          "figures": 15,
+          "ocr_records": 107,
+          "note": "Two exact natives retain92 source blocks;every source/CONFIG byte preserved without cross-native merge or source edits. All460 native files stay exact."
+        },
+        "assembly_adapter": {
+          "path": "archive/pdf/1991-09/restoration/batch-49/dos_adapter.py",
+          "sha256": "2a6c9ae0df14b89b00f0b87472f8554b1cb5827cf423f46182630e2d39cba226",
+          "bytes": 12699
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1991-09/restoration/batch-49/adapter-inputs.json",
+          "sha256": "5b5508d4b1834440d56ab7d86597a2a554da8d9313a0867eb3bc27f3e69f505d",
+          "bytes": 8118
+        },
+        "coverage_gaps": [],
+        "additional_native_manual_glyph_tasks_are_historical_provenance": true
       }
     },
     {
@@ -5588,12 +5683,40 @@
         "sha256": "94e3e6d5e6b25cfde787d0e02a97c9c05ffe8d642f19f5c5dae789dd9de233c1",
         "bytes": 17425
       }
+    },
+    {
+      "name": "1991-09-batch-49",
+      "status": "complete",
+      "completed_at": "2026-10-30T13:14:11.245224+00:00",
+      "goal": "Assemble complete DOS0021 PDF348–355 from two exact natives,retaining source text,metadata contexts,tables,diagrams,screenshot lettering,CONFIG and manual tasks.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0021"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-49/validation.json",
+        "sha256": "febbd74008584eff6b3fc2d3392fa85d7ab4d2ce95211e510027bf8cb7137cc8",
+        "bytes": 2782
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-49/reproduction.json",
+        "sha256": "4a2e838e6ba07f4b6e917681c5bc6e7401ead80ec18b2d1a3b5a1b4f5f38ac59",
+        "bytes": 87160
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 16,
-    "partial": 1,
+    "readable": 17,
+    "partial": 0,
     "group_headings": 4,
     "unresolved": 8
   },
@@ -5603,17 +5726,24 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-49",
-    "goal": "Assemble complete DOS0021 PDF348–355 from exact immutable native a348–353 and b354–355,retaining all source blocks,original figures,tables,diagram/screenshot labels,CONFIG and manual metadata.",
+    "name": "1991-09-batch-50",
+    "goal": "Verify canonical0022 Clipper-review actual extent from observed own PDF356/printed354;restore eligible pages among provisional356–361 within bounded limits.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0021"
+      "maso-1991-09-toc-0022"
     ],
-    "mapping_targets": [],
+    "mapping_targets": [
+      356,
+      357,
+      358,
+      359,
+      360,
+      361
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "All8bodypages348–355 preserved;actual complete article assembly remains pending. No new mapping,render,OCR or source correction required.353 ends complete installation paragraph before354 new subsection:no cross-native text merge or split-word join. Preserve all12internal groups/15joins,122regions,92blocks,15figures,107OCRrecords,13history rows/39cells,three CONFIG rows,25directory labels/15screenshot declaration rows,40manual extents and264glyph candidates. Source/canonical titles,byline 심현도 기자/편집부,child null own reference,parent0020 own346 and non-owning parent stay unchanged. Complete original/native metadata must remain exact in named root/native/download/block/region/scan contexts;project all custom payloads without clipping or formatting wrappers. Use pinned Batch46 ppuri_adapter;introduce a narrow private adapter only if existing assembly cannot preserve these exact payloads,without core/older-adapter changes. Validate every range/label/cell/crop/settings/ZIP,all prior packages/pins and independent fresh-process rebuild before changing partial availability. Eight unresolved identities,remaining bodies,full406-page accounting,Btree SAMPLE.C gap,cover,issue export and closeout remain pending. No reader rebuild or execution."
+    "note": "DOS0021 actual8page assembly complete;own title/byline of independent Clipper0022 observed356/printed354 with source 글. 유상현. Canonical0022 null own page reference and parent0020 must stay unchanged;do not substitute inherited parent reference346. Verify actual local ending/continuations before mapping only eligible pages among356–361. Next canonical0023 own360 is a lookup clue,not proof of boundary or global folio offset. Preserve original title/byline/editorial intro,prose/tables/figures/code/glyph candidates. Use eng for printed code/commands,kor+eng for other text including screenshot labels. Use pinned Batch49 dos_adapter,which delegates ten earlier adapters;30 core modules unchanged. Non-owning0020 owns no duplicate body. Prior ppuri/LAN/DOS completion,40DOS manual extents/264glyph candidates,array/Nanforum tasks and Btree SAMPLE.C gap remain exact. Eight unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or program execution."
   }
 }
