@@ -3966,12 +3966,99 @@
       "toc_entry_id": "maso-1991-09-toc-0022",
       "title": "클리퍼 5.01을 통해 본 클리퍼의 과거와 현재, 그리고 미래",
       "parent_id": "maso-1991-09-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 and own356/printed354 kicker클리퍼5.01을 통해 본/main클리퍼의 과거와 현재,그리고 미래/byline글. 유상현 identify canonical0022. Editorial deck〈편집부〉is separate from signed article byline. Canonical own null/title/byline/parent0020 and parent own346 unchanged;non-owning0020 has no duplicate package.",
+        "Actual complete five-page body356–360,upper360 only. Final next-generation paragraph/closingmark360 precede independent lower360 back-issue advertisement,full361 UNIX/C training advertisement,and independent Director title/byline362 confirmed363. Visible folios354–357 on356–359;360 has no visible folio,kept null,not inferred358. Purchase inset359 is article-related,not excluded advertising.",
+        "All five mapped full pages and five outside contexts5/355/361/362/363 reviewed.44original crops in13sheets and18unique refined regions/21crop revisions reviewed before41recognitions. Final three crops viewed individually after combined output truncation;the truncated output was not counted as completed review. All41terminal drafts read in full before one source correction pass;41kor+eng,zeroeng/retries. Inline identifiers/error messages remain prose,not an invented code listing.",
+        "The175-file complete native retains44regions,31blocks,three original figures,41OCR records,355serialized reading rows,seven continuation groups/ten joins,15headings and one purchase figure/title/prose association. Original floppy illustration,purchase inset and closingmark retained;lower360advertisement disjoint from every eligible crop. No deferred body page or assembly remains.",
+        "All92prose identifier/name occurrences,129number/version/date/quantity fields,12physical English/prose wraps,four price claims,one Greg Lief quotation/attribution,14prose claims and four future goals retain their own source ranges. Literal source names/spellings,Programing,Databased Advisor,Soft Pocket,Phill/Brian Russel,Riche Meconell/Chris White,physical5./LF/0 quotation wrap and70만원/500달러/36만원/20달러 remain unverified source claims,without chronology/name/technical repair or execution.",
+        "Two internal-error hash bands have occurrence-linked manual markers with unknown glyph identities/counts.29glyph candidates include original punctuation/roman numeral/name/version/year-count fields. Original pixels authoritative;human acceptance/full proofreading,encoded bytes/exact spaces/glyph identities/counts,historical/technical/price claims,execution and backup recovery remain unverified.",
+        "Both175-file exports and a fresh-process rebuild match. All839typed article ranges validate within named downloads/blocks/regions/scans.44crops exact/PNGs decode,41pinned settings andZIPCRC pass. All33438prior files,30core modules,11adapters,source/TOC/runtime/queue and49earlier packages remain exact. Batch49successful213-test baseline reused for data-only work. One canonical task/five mapped/five outside pages meet bounds. No reader rebuild;earlier manual/coverage gaps unchanged."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-50-r01/clipper-review",
+        "article_id": "scan-maso-1991-09-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-50-r01/clipper-review/manifest.json",
+          "sha256": "2fbecfaf5ad205c0ae1951c32ad909ca7e1cc94f09952aa7010724dcad67bb35",
+          "bytes": 29897
+        },
+        "coverage": {
+          "pdf_pages": [
+            356,
+            357,
+            358,
+            359,
+            360
+          ],
+          "printed_pages": [
+            "354",
+            "355",
+            "356",
+            "357",
+            null
+          ],
+          "regions": 44,
+          "blocks": 31,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "complete_article": true
+        },
+        "actual_start_pdf_page": 356,
+        "actual_end_pdf_page": 360,
+        "full_source_extent": {
+          "pdf_pages": [
+            356,
+            357,
+            358,
+            359,
+            360
+          ],
+          "printed_pages": [
+            "354",
+            "355",
+            "356",
+            "357",
+            null
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Complete five-page article,upper360 only;original closingmark before independent lower advertisement. Full361ad and362Director opening/363continuation bound ending. Lower360ad excluded;folio360null. No inferred global offset."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-50/validation.json",
+          "sha256": "672c64aefa775aa196f969d38294851bf7cc757090dd009f74146648ef75bc91",
+          "bytes": 2314
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-50/reproduction.json",
+          "sha256": "d0baef9254bcc0f0b4cf4d0345d02154b0015ecbd252c34a0414e38a7d336f0f",
+          "bytes": 30866
+        },
+        "checkpoint": "batch-50",
+        "manual_glyph_tasks": {
+          "count": 2,
+          "status": "manual-source-glyph-identity-and-count-reading-required",
+          "directory": "archive/pdf/1991-09/packages/batch-50-r01/clipper-review",
+          "corrections": {
+            "path": "archive/pdf/1991-09/packages/batch-50-r01/clipper-review/corrections.json",
+            "sha256": "2af23703ed305e3146e37996f57209ee145c653146a636b9616cd5d6d87b84db",
+            "bytes": 648827
+          },
+          "marker_counts": {
+            "⟦hash band⟧": 2
+          },
+          "glyph_candidates": 29,
+          "note": "Two internal-error hash bands,unknown identities/counts. Separate from complete five-page coverage;original source crops authoritative."
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0023",
@@ -5711,14 +5798,54 @@
         "sha256": "4a2e838e6ba07f4b6e917681c5bc6e7401ead80ec18b2d1a3b5a1b4f5f38ac59",
         "bytes": 87160
       }
+    },
+    {
+      "name": "1991-09-batch-50",
+      "status": "complete",
+      "completed_at": "2026-10-30T13:42:43.344852+00:00",
+      "goal": "Verify and restore complete Clipper0022 PDF356–360,upper360 only,with literal prose,quotation,purchase inset,figures and unknown hash bands.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0022"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        5,
+        355,
+        361,
+        362,
+        363
+      ],
+      "recognition_invocations": 41,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-50/validation.json",
+        "sha256": "672c64aefa775aa196f969d38294851bf7cc757090dd009f74146648ef75bc91",
+        "bytes": 2314
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-50/reproduction.json",
+        "sha256": "d0baef9254bcc0f0b4cf4d0345d02154b0015ecbd252c34a0414e38a7d336f0f",
+        "bytes": 30866
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 17,
+    "readable": 18,
     "partial": 0,
     "group_headings": 4,
-    "unresolved": 8
+    "unresolved": 7
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -5726,24 +5853,24 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-50",
-    "goal": "Verify canonical0022 Clipper-review actual extent from observed own PDF356/printed354;restore eligible pages among provisional356–361 within bounded limits.",
+    "name": "1991-09-batch-51",
+    "goal": "Verify canonical0023 매킨토시 포럼 : 디렉터를 이용한 멀티미디어 구현 / 이진영 from observed own PDF362/printed360;establish actual extent and restore bounded eligible pages.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0022"
+      "maso-1991-09-toc-0023"
     ],
     "mapping_targets": [
-      356,
-      357,
-      358,
-      359,
-      360,
-      361
+      362,
+      363,
+      364,
+      365,
+      366,
+      367
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "DOS0021 actual8page assembly complete;own title/byline of independent Clipper0022 observed356/printed354 with source 글. 유상현. Canonical0022 null own page reference and parent0020 must stay unchanged;do not substitute inherited parent reference346. Verify actual local ending/continuations before mapping only eligible pages among356–361. Next canonical0023 own360 is a lookup clue,not proof of boundary or global folio offset. Preserve original title/byline/editorial intro,prose/tables/figures/code/glyph candidates. Use eng for printed code/commands,kor+eng for other text including screenshot labels. Use pinned Batch49 dos_adapter,which delegates ten earlier adapters;30 core modules unchanged. Non-owning0020 owns no duplicate body. Prior ppuri/LAN/DOS completion,40DOS manual extents/264glyph candidates,array/Nanforum tasks and Btree SAMPLE.C gap remain exact. Eight unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or program execution."
+    "note": "Clipper0022complete356–360,upper360only;361fullad. Director independent opening362/printed360 and continuation363 directly viewed as outside contexts. Own canonical360 and independent title/byline/affiliation remain unchanged;verify local ending/continuations before mapping only eligible pages among provisional362–367. Six pages are candidates,not asserted complete extent. Reuse retained362/363views. Preserve original prose/screenshots/labels/captions/figures/code/wraps and uncertainties;eng only independent printed code/commands,kor+eng for other text including screen lettering. Use pinned Batch49 dos_adapter;11adapters/30core unchanged. Prior DOS/ppuri/LAN completion,Clipper2manualextents/29glyphcandidates,array/Nanforumtasks and BtreeSAMPLE.Cgap remain exact. Seven unresolved identities,remaining bodies/full406-page accounting,cover,issue export and closeout remain pending. No reader rebuild or program execution."
   }
 }
