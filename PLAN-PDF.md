@@ -35,25 +35,27 @@ September 1991 restoration is active: ten readable/sample-reviewed articles,
 one partial article, three non-owning group headings and fifteen unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch32 restores PDF pages 272–277 of child0014, 윈도우즈 응용 프로그램 만들기(3) :
-프로그램 작성과 실행 과정 / 강민석. Direct source review establishes the full body
-on pages 272–280 and classifies parent0013 활용 as a non-owning heading. Canonical
-references remain unchanged. The native preserves the complete printed C example,
-two tables and original illustrations/diagram. Both 194-file exports and a fresh-process
-rebuild match; all 1,650 typed ranges, 50 source crops and 45 OCR settings pass.
-All 31 earlier checkpoints revalidate. One source correction pass, zero recognition retries.
+Batch33 restores final PDF pages 278–280 of child0014, 윈도우즈 응용 프로그램 만들기(3) :
+프로그램 작성과 실행 과정 / 강민석. All nine body pages 272–280 are now preserved
+across two immutable natives. The article stays partial until actual assembly.
+Parent0013 활용 remains non-owning; canonical parent270/childnull references are unchanged.
+The final native retains the original message-flow diagram, assembly snippet, DEF/MAKE
+listings, screenshot and closing mark. Both 114-file exports and a fresh-process rebuild
+match. All 905 current text ranges plus one prior-native range, 30 source crops and
+25 OCR settings pass; all 32 earlier checkpoints revalidate. One source correction pass,
+zero recognition retries. Two uncertain screen labels retain markers and original pixels.
 
-Next: Batch33 restores final pages 278–280 as a second immutable native. Then assemble
-the actual nine-page article in a separate checkpoint. The pending 277→278 parameter
-annotation requires LF at actual assembly; keep mixed Korean documentation as prose.
-Use the pinned Batch31 btree_adapter; seven private adapters and thirty core modules
-remain unchanged.
+Next: Batch34 assembles the actual nine-page article from exact Batch32/33 natives.
+Merge only the 277→278 parameter annotation with LF; keep all eleven fields as prose,
+all four printed code blocks independent and listing bytes as exact native concatenation.
+Preserve complete original metadata, including the nested prior-native continuation range.
+Use pinned Batch31 btree_adapter for complete checks; seven existing private adapters
+and thirty core modules remain unchanged. No new OCR or source correction is needed.
 
-Child0012's eight-page B+ tree main body remains assembled. Its referenced〈리스트 2〉
-SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/387–390.
-Preserve this open gap for bounded lookup and full 406-page accounting; no issue-wide
-absence claim. Other bodies, accounting, cover, issue export and closeout remain pending.
-No reader rebuild.
+Child0012's B+ tree main body remains assembled. Its referenced〈리스트 2〉SAMPLE.C
+remains unlocated in bounded inspected body264–271/appendix374–381/387–390. Preserve
+this open gap for bounded lookup and full 406-page accounting; no issue-wide absence claim.
+Other bodies, accounting, cover, issue export and closeout remain pending. No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

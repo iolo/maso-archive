@@ -2256,41 +2256,36 @@
         "The selected native preserves501 reading rows,eight regional groups/twelve internal joins and the complete two-column printed C example:63 physical rows,167 tokens,117 lexical identifiers,three strings,seven numeric occurrences,ten member fields,fifteen operators,three signature ranges,one include and eleven CreateWindow arguments. Six current annotated parameters remain prose fields.",
         "Both original tables retain five headers,21 rows,53 cells and five source blanks. The original build diagram retains23 separately indexed labels and24 edge associations; repeated .RC/.EXE occurrences remain distinct. Four caption links,five figure-text links,eight anomalies,nine glyph candidates,fifteen headings and nine source quantity claims remain source-linked.",
         "Printed missing C punctuation,hPreInstance/lpCmdLine prose variants,window.h table header,Unsigned char/WORD row and diagram .CMR/.UBJ readings remain literal with source-linked uncertainty. No semantic repair,execution or original encoded-byte/spacing/glyph certification.",
-        "Both194-file exports and fresh-process rebuild match. All1650 ranges (1242 article/408 listing),50 source crops/decoded PNGs,45 settings and ZIP CRC pass. All18920 prior files,30 core modules,seven adapters and source/TOC/runtime/queue remain exact;all31 earlier checkpoints revalidate. Selected metadata-only r02 labels joins by actual prose/code kind without source or OCR change. No reader rebuild."
+        "Both194-file exports and fresh-process rebuild match. All1650 ranges (1242 article/408 listing),50 source crops/decoded PNGs,45 settings and ZIP CRC pass. All18920 prior files,30 core modules,seven adapters and source/TOC/runtime/queue remain exact;all31 earlier checkpoints revalidate. Selected metadata-only r02 labels joins by actual prose/code kind without source or OCR change. No reader rebuild.",
+        "Batch33 restores final Windows pages278–280/printed276–278 as a second immutable native:30 regions,21 blocks,five original figures and25 OCR records. Incoming277→278 parameter annotation remains prose with future LF.280 conclusion/original closing mark precedes advertisement281 and independent article282. All nine body pages272–280 are preserved across two natives; actual assembly remains pending.",
+        "All30 crops and three pre-OCR refinements reviewed before25 initial recognitions (3eng assembly/DEF/MAKE,22kor+eng other). All25 terminal drafts read before one source correction pass,zero unchanged-input retries.272 reading rows and three prose groups/four internal joins retain source wraps and literal word continuations.",
+        "Three independent printed source blocks retain20 physical rows,52 tokens,58 lexical identifiers,two single-quoted strings,two numbers. DEF has10 rows/22 fields;MAKE has three rules/three targets/four dependencies/three commands/twelve arguments/six flags. Five remaining annotated parameters,13 diagram labels/six arrows and21 screen-label rows remain source-linked.",
+        "Four captions/four figure-text links,six headings,four anomalies,nine glyph candidates,25 contiguous filename references,eight function references,eight physical-wrap references and three source claims retained. Printed defalut/WM_DESTROY이/EXPORT versus EXPORTS variants remain literal. Two uncertain screen-label markers retain candidates and original screenshot;dot/comma/quote/underscore/switch/status glyphs are not original encoded-byte certification.",
+        "Both114-file exports and fresh-process rebuild match byte for byte. All905 current ranges (685 article/220 listing) and one prior-native annotation range validate in their own download/block/region contexts. All30 crops exact/PNGs decoded,25 settings and ZIP CRC pass. All19744 prior files,30 core modules,seven adapters/source/TOC/runtime/queue remain exact;all32 earlier checkpoints revalidate. Prefix-authoring ValueError occurred before output helper/package creation;source pass and OCR were not rerun. No semantic repair,execution or reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1991-09/packages/batch-32-r02/windows-a",
+        "directory": "archive/pdf/1991-09/packages/batch-33-r01/windows-b",
         "article_id": "scan-maso-1991-09-toc-0014",
         "manifest": {
-          "path": "archive/pdf/1991-09/packages/batch-32-r02/windows-a/manifest.json",
-          "sha256": "b5ae740116508f433d5a9212290ed42d3a6f910aa9804e681f3190511e6d48c8",
-          "bytes": 33085
+          "path": "archive/pdf/1991-09/packages/batch-33-r01/windows-b/manifest.json",
+          "sha256": "00048cb6144e149bb182a72cbba96a81bff3c0c8f2cc47e01b8aee19a68d7dba",
+          "bytes": 19388
         },
         "coverage": {
           "pdf_pages": [
-            272,
-            273,
-            274,
-            275,
-            276,
-            277
-          ],
-          "printed_pages": [
-            "270",
-            "271",
-            "272",
-            "273",
-            "274",
-            "275"
-          ],
-          "regions": 50,
-          "blocks": 33,
-          "figures": 5,
-          "deferred_pdf_pages": [
             278,
             279,
             280
           ],
+          "printed_pages": [
+            "276",
+            "277",
+            "278"
+          ],
+          "regions": 30,
+          "blocks": 21,
+          "figures": 5,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
         "actual_start_pdf_page": 272,
@@ -2321,20 +2316,20 @@
           "all_pages_directly_viewed": true,
           "note": "All9actualbodypages viewed.280ownfinalDEF/MAKElistings/screenshot/conclusion/closingmark precede281advertisement and282independentarray/dataentrytitle/byline.272–277 onlymapped;no sourceextent inferredfromTOC/globaloffset."
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "validation": {
-          "path": "archive/pdf/1991-09/restoration/batch-32/validation.json",
-          "sha256": "7f375c405940bf189e4ed5cce8582c9c503c94050aa137c169f7048f242e1246",
-          "bytes": 2773
+          "path": "archive/pdf/1991-09/restoration/batch-33/validation.json",
+          "sha256": "fe84d628da6bbe087e31a21e56f28a2f31f1041c4a0d5011f542850a09c6c0b3",
+          "bytes": 2387
         },
         "reproduction": {
-          "path": "archive/pdf/1991-09/restoration/batch-32/reproduction.json",
-          "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
-          "bytes": 34169
+          "path": "archive/pdf/1991-09/restoration/batch-33/reproduction.json",
+          "sha256": "82a511ae005af0f11c6cfbb28929ca10233cbf4fc334e9f3028b17aa3b8ff530",
+          "bytes": 20456
         },
-        "checkpoint": "batch-32",
+        "checkpoint": "batch-33",
         "native_segments": [
           {
             "name": "a",
@@ -2362,8 +2357,44 @@
               "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
               "bytes": 34169
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1991-09/packages/batch-33-r01/windows-b",
+            "manifest": {
+              "path": "archive/pdf/1991-09/packages/batch-33-r01/windows-b/manifest.json",
+              "sha256": "00048cb6144e149bb182a72cbba96a81bff3c0c8f2cc47e01b8aee19a68d7dba",
+              "bytes": 19388
+            },
+            "pdf_pages": [
+              278,
+              279,
+              280
+            ],
+            "validation": {
+              "path": "archive/pdf/1991-09/restoration/batch-33/validation.json",
+              "sha256": "fe84d628da6bbe087e31a21e56f28a2f31f1041c4a0d5011f542850a09c6c0b3",
+              "bytes": 2387
+            },
+            "reproduction": {
+              "path": "archive/pdf/1991-09/restoration/batch-33/reproduction.json",
+              "sha256": "82a511ae005af0f11c6cfbb28929ca10233cbf4fc334e9f3028b17aa3b8ff530",
+              "bytes": 20456
+            }
           }
-        ]
+        ],
+        "all_native_pdf_pages": [
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280
+        ],
+        "note": "Both actual source segments preserved;selected directory is final native only. Availability stays partial until real nine-page assembly."
       }
     },
     {
@@ -3548,6 +3579,44 @@
         "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
         "bytes": 34169
       }
+    },
+    {
+      "name": "1991-09-batch-33",
+      "status": "complete",
+      "completed_at": "2026-10-30T01:34:18.495159+00:00",
+      "goal": "Restore final Windows0014 pages278–280 as second immutable native, preserving original source and incoming annotation context.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0014"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        278,
+        279,
+        280
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        4,
+        272,
+        277,
+        281,
+        282
+      ],
+      "recognition_invocations": 25,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-33/validation.json",
+        "sha256": "fe84d628da6bbe087e31a21e56f28a2f31f1041c4a0d5011f542850a09c6c0b3",
+        "bytes": 2387
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-33/reproduction.json",
+        "sha256": "82a511ae005af0f11c6cfbb28929ca10233cbf4fc334e9f3028b17aa3b8ff530",
+        "bytes": 20456
+      }
     }
   ],
   "totals": {
@@ -3563,21 +3632,70 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-33",
-    "goal": "Restore final Windows0014 body pages278–280 as a second immutable native, then perform actual nine-page assembly in a separate checkpoint.",
+    "name": "1991-09-batch-34",
+    "goal": "Assemble actual nine-page Windows child0014 body272–280 from exact two immutable natives;merge only277→278 annotated-parameter prose with LF,preserving complete original metadata.",
     "toc_entry_ids": [
       "maso-1991-09-toc-0014"
     ],
-    "mapping_targets": [
-      278,
-      279,
-      280
-    ],
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained full-page evidence; review all mapped full pages/crops before OCR, read every terminal raw draft before one source correction pass. Incoming277 annotation ends CW_USEDEFAULT, : 윈도우의 좌우 넓이 and278 begins 0, : 윈도우의 상하 깊이; use LF only at later actual block assembly. Keep mixed Korean annotation as prose. Verify final message-loop/function prose, diagram, printed snippets, DEF/MAKE listings, screenshot, conclusion/closing mark against source. Actual body272–280 known;281 advertisement/282 independent next article, canonical parent270/childnull unchanged. First native batch-32-r02/windows-a stays immutable. Use pinned Batch31 btree_adapter; seven adapters/30core unchanged. B+tree referenced SAMPLE.C remains unlocated and open for bounded lookup/full406-page accounting. Other15 identities, complete accounting, cover, issue export and closeout remain pending. No reader rebuild."
+    "native_segments": [
+      {
+        "name": "a",
+        "directory": "archive/pdf/1991-09/packages/batch-32-r02/windows-a",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-32-r02/windows-a/manifest.json",
+          "sha256": "b5ae740116508f433d5a9212290ed42d3a6f910aa9804e681f3190511e6d48c8",
+          "bytes": 33085
+        },
+        "pdf_pages": [
+          272,
+          273,
+          274,
+          275,
+          276,
+          277
+        ],
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-32/validation.json",
+          "sha256": "7f375c405940bf189e4ed5cce8582c9c503c94050aa137c169f7048f242e1246",
+          "bytes": 2773
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-32/reproduction.json",
+          "sha256": "c08035cecd437e076e5d512255c489a75639d0a44f55c5c33119aa51bed805f6",
+          "bytes": 34169
+        }
+      },
+      {
+        "name": "b",
+        "directory": "archive/pdf/1991-09/packages/batch-33-r01/windows-b",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-33-r01/windows-b/manifest.json",
+          "sha256": "00048cb6144e149bb182a72cbba96a81bff3c0c8f2cc47e01b8aee19a68d7dba",
+          "bytes": 19388
+        },
+        "pdf_pages": [
+          278,
+          279,
+          280
+        ],
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-33/validation.json",
+          "sha256": "fe84d628da6bbe087e31a21e56f28a2f31f1041c4a0d5011f542850a09c6c0b3",
+          "bytes": 2387
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-33/reproduction.json",
+          "sha256": "82a511ae005af0f11c6cfbb28929ca10233cbf4fc334e9f3028b17aa3b8ff530",
+          "bytes": 20456
+        }
+      }
+    ],
+    "note": "Use exact a=batch-32-r02/windows-a and b=batch-33-r01/windows-b. Merge onlya.p277-annotation+b.p278-annotation using LF;prior block has no terminal LF. Preserve all eleven parameter fields as prose and retain any intervening category layout item. Physical pages remain272–280,printed270–278. Four printed code blocks (C,assembly,DEF,MAKE) stay independent;listing bytes exacta+b concatenation with no extra bytes. Retain all native source/correction metadata and scope/status histories,including nested b→a prior_pending_record context. Expected80regions/53blocks/tenfigures/70OCR;both native contexts remain immutable. Table/graph/screenshot/label/flag/cell/source anomalies and glyph uncertainty must remain source-linked in current and native contexts. New private assembly adapter may dispatch existing pinned Batch31 btree_adapter;do not alter existing seven adapters or thirty core modules. No new OCR/source correction or reader rebuild. B+tree unlocated referenced SAMPLE.C remains open;other15identities,full406-page accounting,cover,issue export and closeout pending."
   }
 }
