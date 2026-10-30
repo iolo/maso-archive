@@ -24,34 +24,35 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 September 1991 restoration is active: fourteen readable/sample-reviewed articles,
-zero partial articles, three non-owning group headings and twelve unresolved identities
+one partial article, three non-owning group headings and eleven unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch37 restores child0017, 클리퍼 5.0의 새로운 세계(마지막회) : 낸포럼을 이용한
-풀다운 메뉴의 구현 / 안영재, on PDF292–296. Visible folios are290–293;296 has no
-visible folio and stays null. Prose closes on293, followed by all three intrinsic listings
-through DBASE.PRG's final // eof on296. The lower296 advertisement is excluded.
-No body page or assembly remains pending; twelve manual glyph/count extents stay explicit.
+Batch38 restores article 0018's opening PDF314–319/printed312–317 as an immutable
+partial native. Its own title/byline identify 고진웅's LAN article; source 구현과 stays
+independent of canonical 구축과/reference 312. The observed final listing 21 DATAOUT.C
+ends on PDF339 before the independent 뿌리 article on PDF340. Twenty later pages 320–339 and actual assembly remain
+pending; intermediate pages 321–335 and the prose conclusion are not yet reviewed/located.
 
-The 190-file native preserves 52 regions, 31 blocks, nine original figures and 43 OCR
-records. Both exports and a fresh-process rebuild match. All 9,086 text ranges, 52 source
-crops, 43 settings (14eng/29kor+eng) and ZIP CRC pass; all 36 earlier checkpoints validate.
-One source correction pass, zero unchanged-input retries. Printed code, comments, menu
-fields, prose, screenshot labels and source discrepancies remain linked to original scans.
-The source byline reads 풀빛 컴퓨팅, correcting the earlier affiliation candidate 휠셋.
+The 366-file native preserves 97 regions, 72 blocks, ten original images and 87 OCR
+records. Both exports and a fresh-process rebuild match. All 1,838 text ranges, 97 source
+crops, 87 kor+eng settings and ZIP CRC pass; all 37 earlier checkpoints validate. The
+26-row address table retains six headers/156 cells, and diagrams retain source lettering,
+header fields and six prose message modes. Three schematic dot extents have explicit
+manual glyph/count tasks. One source correction pass, zero unchanged-input retries.
+All circuit, waveform and protocol claims remain literal source documentation.
 
-Next: Batch38 locates and verifies article0018, 하드웨어 : 간단한 LAN, 마요네트의 구축과
-PC-LAN의 이해 / 고진웅. Canonical reference312 is not a verified PDF start. Inspect title,
-byline, actual extent, ending and any appendix before selecting up to six mapped pages;
-PDF312–315 are initial lookup candidates only. Use pinned Batch34 windows_adapter for
-complete checks; eight private adapters and thirty core modules stay unchanged.
+Next: Batch39 continues the same article on PDF320–325 after full-page/crop review.
+Keep the incoming PDF319 만 + PDF320 일 word join explicit in separate native download contexts.
+The opening PDF314–319 stays immutable; later pages and complete assembly remain pending.
+Use pinned Batch34 windows_adapter; eight private adapters and thirty core modules
+stay unchanged. No executable code was invented from the opening's diagram fields.
 
-The preceding Windows, array and CONFIG.SYS articles remain complete. The array's faint
-expression stays an explicit manual glyph task. B+ tree0012's referenced〈리스트 2〉
-SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/387–390.
-Preserve this open gap for bounded lookup and full 406-page accounting; no issue-wide
-absence claim. Other bodies, accounting, cover, issue export and closeout remain pending.
-No reader rebuild. See [September progress](docs/progress/9109.md) and
+Prior array and Nanforum manual glyph tasks remain explicit. B+ tree 0012's referenced
+〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/
+387–390. Preserve this gap for bounded lookup and full 406-page accounting; no issue-wide
+absence claim. Eleven unresolved identities, remaining bodies/assembly, accounting, cover,
+issue export and closeout remain pending. No reader rebuild. See
+[September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
 - August 1991 is complete as a canonical TOC JSON/assets restoration pass:
