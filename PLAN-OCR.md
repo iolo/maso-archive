@@ -28,22 +28,22 @@ no partial articles, four non-owning group headings and two non-owning section r
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
 complete. Full issue accounting and closeout remain incomplete.
 
-Batch66 directly reviews twenty outside pages: PDF 81–83,88,96–97,110–115,148–155.
-Nineteen are advertisements; PDF 81 is the unlisted editor’s note “시스템 소형화 기술이 가져 올 변화”,
-with visible printed folio 79. It remains outside the canonical article queue. Book catalogues,
-computer/graphics retailers, fax/modem and software-protection promotions retain source context;
-the five advertising spreads 96–97,110–111,112–113,148–149,152–153 retain their associations.
-Three new 3000px source views and seventeen retained full-page views support direct review.
+Batch67 directly reviews outside PDF 163–171,179–189: twenty advertisements with no visible
+printed folios or additional canonical article bodies. Computer/network/scanner/modem/sound-card
+promotions, a book catalogue and commercial training pages remain outside canonical ownership.
+PC ROUND 166–167, TERA 180–181, PC Mart 182–183 and GMS 184–185 retain their paired-page context.
+The course tables are not substitutes for the unresolved seminar/community application forms.
+Ten new 3000px source views and ten retained full-page views support direct review.
 
-There are now 324 of 406 content records: 224 selected body pages and one hundred reviewed outside
-pages. Of 182 outside candidates, 82 remain pending. Cumulative outside categories are 96
-advertisements, cover, contents, contents/colophon and one unlisted editorial. Every previous page record, literal/null
-folio and source index reference remains exact, without a global folio offset.
+There are now 344 of 406 content records: 224 selected body pages and 120 reviewed outside
+pages. Of 182 outside candidates, 62 remain pending. Cumulative outside categories are 116
+advertisements, cover, contents, contents/colophon and one unlisted editorial. Every previous
+page record, literal/null folio and source index reference remains exact, without a global folio offset.
 
 The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
 Forty-eight native contexts and eight exact mixed-page exclusions remain unchanged; the prior
 nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches an independent
-fresh-process rebuild. All 29 canonical entries/outcomes, 40,940 prior files, thirty core modules
+fresh-process rebuild. All 29 canonical entries/outcomes, 40,984 prior files, thirty core modules
 and thirteen private adapters remain exact. Batch61's 213-test baseline is reused for data-only
 work. No new article export, mapping, OCR, source correction or reader build.
 
@@ -63,14 +63,13 @@ lettering and earlier manual glyph tasks remain explicit volunteer work. Human a
 full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
 contact/geographic claims, execution and independent backup recovery remain unverified.
 
-Next: Batch67 reviews the next twenty outside pages: PDF 163–171,179–189.
-Reuse pinned Batch62 accounting builder/ownership and Batch66 accounting, preserving earlier
+Next: Batch68 reviews the next twenty outside pages: PDF 190–197,218–227,248–249.
+Reuse pinned Batch62 accounting builder/ownership and Batch67 accounting, preserving earlier
 records. Finish all 406 pages and final survey/application/SAMPLE.C gap dispositions, then cover,
 standalone issue export, independent all-native/actual assembly rebuilds and closeout.
 No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
-
 
 - August 1991 is complete as a canonical TOC JSON/assets restoration pass:
   35 identities account for 28 readable/sample-reviewed articles, five non-owning
