@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1991-09",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-31",
   "source": {
     "id": "pdf-maso-9109",
@@ -7831,6 +7831,39 @@
         "sha256": "d2813815c1f2902127e3c41b20d5f8aba0baa90dd1e0a9a5299fd19b4c2b253f",
         "bytes": 2176
       }
+    },
+    {
+      "name": "1991-09-issue-closeout-01",
+      "status": "complete",
+      "completed_at": "2026-10-30T20:53:32.728455+00:00",
+      "goal": "Complete the full September1991 canonical TOC JSON/assets restoration pass:standalone issue export and explicit coverage/gap report;independently regenerate every native and actual assembly,accounting,dispositions and cover;verify all source-local metadata/ranges/crops/settings/ownership/history,published references and preservation;fresh tests,negative cases,documentation and saved-state completion audit.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "new_source_renders": 0,
+      "reader_rebuild": false,
+      "standalone_files": 9332,
+      "selected_article_files": 9318,
+      "native_packages_regenerated": 48,
+      "actual_assemblies_regenerated": 13,
+      "fresh_tests_passed": 213,
+      "validation": {
+        "path": "archive/pdf/1991-09/evidence/issue-closeout-01/report.json",
+        "sha256": "aa0ceefdd15b6b84072f4481d19669bba22a679194130ae971953da164fab32b",
+        "bytes": 15082
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/issue-closeout-01/reproduction.json",
+        "sha256": "97f7ef39dff953ca143fec8a0e47df457f5238d78f09f6e9240e9cc8c3a82200",
+        "bytes": 2034565
+      }
     }
   ],
   "totals": {
@@ -7846,73 +7879,9 @@
     "Previous goal turn identified next work without changing state; this turn initializes authoritative issue artifacts.",
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
-  "next_checkpoint": {
-    "name": "1991-09-issue-closeout-01",
-    "goal": "Complete the full September1991 canonical TOC JSON/assets restoration pass:standalone issue export and explicit coverage/gap report;independently regenerate every native and actual assembly,accounting,dispositions and cover;verify all source-local metadata/ranges/crops/settings/ownership/history,published references and preservation;fresh tests,negative cases,documentation and saved-state completion audit.",
-    "toc_entry_ids": [],
-    "mapping_targets": [],
-    "outside_lookup_candidates": [],
-    "limits": {
-      "canonical_tasks": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    },
-    "actual_planned_work": {
-      "canonical_tasks": 0,
-      "mapped_pages": 0,
-      "outside_lookup_pages": 0
-    },
-    "selected_accounting": {
-      "path": "archive/pdf/1991-09/restoration/batch-71/page-accounting.json",
-      "sha256": "866c9e3f212291fda2aecf4c97555c40263aa92b2a04d4e99cab714c61d4f532",
-      "bytes": 822219
-    },
-    "body_assignment_index": {
-      "path": "archive/pdf/1991-09/restoration/batch-62/selected-body-assignment-index.json",
-      "sha256": "0466a9546c641708ecc2110b380601c396c6818152b8b585484d15cb0213ba31",
-      "bytes": 313311
-    },
-    "final_gap_dispositions": {
-      "path": "archive/pdf/1991-09/restoration/batch-73/final-gap-dispositions.json",
-      "sha256": "80b2acee34b0c5adc901ef01e03125502788f0c1108ee98dc1b1d6fed922ba09",
-      "bytes": 49263
-    },
-    "disposition_recipe": {
-      "path": "archive/pdf/1991-09/restoration/batch-73/disposition-recipe.json",
-      "sha256": "c403a85b83b4141af770939f27c9536b31727fb2fc2a5bc35fcae3504bd5c689",
-      "bytes": 2020
-    },
-    "cover_thumbnail": {
-      "path": "archive/pdf/1991-09/restoration/batch-73/cover-thumbnail/cover.jpg",
-      "sha256": "c33695132533265a95d344563fd074db998f6d646a72d64b8a2e1e1036a4a5d6",
-      "bytes": 62344
-    },
-    "cover_metadata": {
-      "path": "archive/pdf/1991-09/restoration/batch-73/cover-thumbnail/cover.json",
-      "sha256": "03cb37f190278b32837fb2b50dc272184d9f1a7e819cd7651536855193d14f0c",
-      "bytes": 1730
-    },
-    "cover_recipe": {
-      "path": "archive/pdf/1991-09/restoration/batch-73/cover-recipe.json",
-      "sha256": "6159bcbf8f97a08852e3139d40a40898ac77cf411c4c9199c11e75239b7fe5b5",
-      "bytes": 1738
-    },
-    "cover_validation": {
-      "path": "archive/pdf/1991-09/restoration/batch-73/validation.json",
-      "sha256": "906592901f11fb3099d6652cc3dd76df466cda121d1e1208e2cbf67db440ff32",
-      "bytes": 3539
-    },
-    "planned_outputs": [
-      "Standalone issue.json,TOC,accounting,coverage-gap/final-disposition report,source-page/body ownership records,cover and all23selected article packages/assets/downloads with portable references and full hash manifest.",
-      "Independent regeneration of all48single-map native contexts,then every actual assembly using regenerated natives and original13private adapters;second complete issue export byte-identical.",
-      "Full current/native/source-local typed-range,source-crop/image/OCR-setting,child-anchor,ownership/exclusion and all73checkpoint workload/correction/retry audits.",
-      "Independent page-accounting/disposition/cover rebuilds;fresh make test-pdf PYTHON=.venv/bin/python and invalid canonical/ownership/outcome/gap/reference cases.",
-      "Requirement-by-requirement completion audit,full preservation inventory,English progress/rebuild handoff,commit,cleanup and saved-state checks."
-    ],
-    "note": "All29identities classified:23readable,0partial,4headings,2sectionrefs,0unresolved. All406physicalpages recorded;224body assignments,182outside,0pending/shared,48nativecontexts,8exclusions. Final gap dispositions close search tasks without original recovery;do not erase historical gap/reference metadata or infer source405identity/count. Preserve all23selected packages,13adapters,30core modules,donated/PDF cover inputs and every failed/review revision. No new OCR,reader/HTML/browser/frontend work or deployment. Full proofreading/human acceptance/source bytes/glyphs/claims/execution/backup remain unverified."
-  },
+  "next_checkpoint": null,
   "source_page_accounting": {
-    "status": "page-records-complete;gap-dispositions-pending",
+    "status": "page-records-complete;gap-dispositions-final-for-current-pdf-pass",
     "checkpoint": "batch-71",
     "page_accounting": {
       "path": "archive/pdf/1991-09/restoration/batch-71/page-accounting.json",
@@ -8143,14 +8112,30 @@
       "unlisted-editorial": 1
     },
     "all_source_pages_have_content_records": true,
-    "coverage_gap_dispositions_final": false,
+    "coverage_gap_dispositions_final": true,
     "complete_original_article_recovery_verified": false,
-    "note": "All406 physical PDF pages have content records:224 selected body pages and182 directly reviewed outside pages. Source405 is a damaged-text placeholder with literal397~398; unavailable-content identity and extent remain unverified. Source406 is a worn cover/spine fragment. Every earlier page record, ownership assignment and exclusion stays exact. Final SAMPLE.C/survey/seminar-form gap dispositions remain pending. No issue-wide absence claim or full original recovery claim.",
+    "note": "All406 physical records and original Batch71 accounting bytes remain unchanged. That retained snapshot predates final gap dispositions and still carries its historical pending flags. Current Batch73/final standalone disposition sidecar finalizes all named gap/reference searches without original-content recovery. Full independent ownership/accounting/package/cover/export closeout passes;source405identity/extent/page count remains unverified.",
     "previous_accounting": {
       "path": "archive/pdf/1991-09/restoration/batch-70/page-accounting.json",
       "sha256": "03fc2a58d134bb0a6b3992e5a7a453d3bd1851b1c8fab37ccf05e4f17084c6ca",
       "bytes": 820502
-    }
+    },
+    "whole_issue_closeout_complete": true,
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1991-09/reference/final-gap-dispositions.json",
+      "sha256": "80b2acee34b0c5adc901ef01e03125502788f0c1108ee98dc1b1d6fed922ba09",
+      "bytes": 49263
+    },
+    "closeout_validation": {
+      "path": "archive/pdf/1991-09/evidence/issue-closeout-01/report.json",
+      "sha256": "aa0ceefdd15b6b84072f4481d19669bba22a679194130ae971953da164fab32b",
+      "bytes": 15082
+    },
+    "historical_snapshot_flags": {
+      "status": "page-records-complete;gap-dispositions-pending",
+      "coverage_gap_dispositions_final": false
+    },
+    "historical_note_before_closeout": "All406 physical PDF pages have content records:224 selected body pages and182 directly reviewed outside pages. Source405 is a damaged-text placeholder with literal397~398; unavailable-content identity and extent remain unverified. Source406 is a worn cover/spine fragment. Every earlier page record, ownership assignment and exclusion stays exact. Final SAMPLE.C/survey/seminar-form gap dispositions remain pending. No issue-wide absence claim or full original recovery claim."
   },
   "coverage_gap_dispositions": {
     "status": "final-for-current-pdf-pass",
@@ -8243,5 +8228,72 @@
     "original_unmodified": true,
     "original_not_bundled": true,
     "note": "Visible9/1991 on donated/PDF covers verifies the issue date. Donated original takes priority. Full framing and worn edges remain;all owner-supplied files and PDF alternatives preserved. No reader rebuild."
-  }
+  },
+  "completed_at": "2026-10-30T20:53:32.728455+00:00",
+  "remaining_work": [],
+  "restoration_pass_complete": true,
+  "complete_original_article_recovery_verified": false,
+  "issue_closeout": {
+    "status": "complete",
+    "checkpoint": "1991-09-issue-closeout-01",
+    "report": {
+      "path": "archive/pdf/1991-09/evidence/issue-closeout-01/report.json",
+      "sha256": "aa0ceefdd15b6b84072f4481d19669bba22a679194130ae971953da164fab32b",
+      "bytes": 15082
+    },
+    "reproduction": {
+      "path": "archive/pdf/1991-09/restoration/issue-closeout-01/reproduction.json",
+      "sha256": "97f7ef39dff953ca143fec8a0e47df457f5238d78f09f6e9240e9cc8c3a82200",
+      "bytes": 2034565
+    },
+    "issue_index": {
+      "path": "archive/pdf/1991-09/reference/issue.json",
+      "sha256": "fc10b16eea7eaebd3444b00090481c5ded36fe9c0bf3dfe8e14b5bceb579155f",
+      "bytes": 11497
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1991-09/reference/manifest.json",
+      "sha256": "83f25fb6b6112ba0b098ea06f4fdd65d9f33f3ca871bb3739e78089f60956aa6",
+      "bytes": 2032071
+    },
+    "accounting_report": {
+      "path": "archive/pdf/1991-09/reference/accounting.json",
+      "sha256": "de92a86c4f2e006ce2e97e6e705ff9a396017b4315fd5c9306cfa07a3aa8c1b6",
+      "bytes": 13197
+    },
+    "coverage_gaps": {
+      "path": "archive/pdf/1991-09/reference/coverage-gaps.json",
+      "sha256": "d4f70e03b2037068e8733183600573e00e28985f7fc6871b5e8c7907ab10fc5f",
+      "bytes": 6507
+    },
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1991-09/reference/final-gap-dispositions.json",
+      "sha256": "80b2acee34b0c5adc901ef01e03125502788f0c1108ee98dc1b1d6fed922ba09",
+      "bytes": 49263
+    },
+    "closeout": {
+      "path": "archive/pdf/1991-09/evidence/issue-closeout-01/closeout.json",
+      "sha256": "a9489dd56a873e943d33822fba8a91aba4cb0a09fdce65c18559394a1b8840a8",
+      "bytes": 1454
+    },
+    "published_assets_audit": {
+      "path": "archive/pdf/1991-09/evidence/issue-closeout-01/published-assets-audit.json",
+      "sha256": "16ec9081200fe8e7b392a2da42e25e3da1bf1de343a7723ad5c4d930f4a779c1",
+      "bytes": 868819
+    },
+    "portable_reference_audit": {
+      "path": "archive/pdf/1991-09/evidence/issue-closeout-01/portable-reference-audit.json",
+      "sha256": "82d6df04381c69604fd8d691f6c82a8f9aa5664c95b93025cd4a041c0f480f5c",
+      "bytes": 1416
+    },
+    "standalone_files": 9332,
+    "selected_article_files": 9318,
+    "all48natives_and13actual_assemblies_regenerated": true,
+    "all9332files_independently_exact": true,
+    "complete_original_article_recovery_verified": false,
+    "completion_audit_path": "archive/pdf/1991-09/evidence/issue-closeout-01/completion-audit.json",
+    "final_state_checks_path": "archive/pdf/1991-09/evidence/issue-closeout-01/final-state-checks.json",
+    "note": "Full canonical JSON/assets restoration pass,with final explicit unrecovered original-content/reference limits. Original entries/packages/source metadata remain exact. Final commit/cleanup/saved-state proof is recorded in the named audit paths;no reader rebuild."
+  },
+  "latest_preservation_inventory": "archive/pdf/1991-09/restoration/issue-closeout-01/completion-preservation-inventory.json"
 }

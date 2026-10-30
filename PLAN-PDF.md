@@ -29,69 +29,82 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## September 1991 active, 2026-10-31
+## September 1991 closeout, 2026-10-31
 
-September 1991 restoration has twenty-three readable/sample-reviewed articles,
-no partial articles, four non-owning group headings and two non-owning section references.
-All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
-complete. All physical source-page records, named final gap/reference dispositions and cover
-verification are complete. Standalone issue export and independent full issue closeout remain incomplete.
+September 1991 is complete as a canonical TOC JSON/assets restoration pass:
+29 identities account for 23 readable/sample-reviewed articles, four non-owning group
+headings and two non-owning section references, with no partial or unresolved entries.
+All main/available bodies, actual article assemblies and final child anchors are complete.
+Canonical titles, order, parents and original contents references remain unchanged.
 
-Batch73 finalizes seminar 0025's related participation-form reference: the complete two-page
-notice refers to an application inside the unrecovered reader questionnaire. The reference task
-is final for this PDF pass, with an unlocated physical target and no recovered form body.
-Batch72's two original-content dispositions remain exact: B+tree 0012's referenced 〈리스트 2〉
-SAMPLE.C and community 0026's survey/application form are unrecovered. These are two original-content
-gaps plus one related reference, without inventing three missing articles. The eight-page B+tree
-main body, eleven available community pages and two-page seminar body stay complete. All original
-ledger/package gap/reference metadata remains unchanged; a separate sidecar supplies current dispositions.
+Complete original article recovery remains unverified. Final dispositions retain two
+unrecovered original-content gaps: B+tree's referenced 〈리스트 2〉 SAMPLE.C and the
+community questionnaire. The seminar's application form inside that questionnaire is
+one related unrecovered reference, with null physical target. These search/disposition
+tasks are final for this PDF pass. Source 405's literal 397~398 placeholder and folio jump
+396→399 do not identify unavailable content or verify a missing-page count. Subscription/
+giro forms, quiz prize material, disk catalogue and source distribution claims are not
+recovered forms or program bytes. No issue-wide absence or reconstructed-content claim.
+All original package/ledger gap and reference metadata remains exact; final current
+dispositions are separate and explicitly linked to the preserved evidence.
 
-The donated cover and PDF page 1 both visibly show 9 / 1991. The donated original takes priority.
-Its 466 × 640 RGB JPEG thumbnail, 62,344 bytes, is independently retransformed from the original;
-both image and provenance JSON match exactly. Metadata is stripped and full framing/worn edges
-are preserved without crop or upscale. All donated/PDF alternatives remain private and unchanged;
-the original donor is not bundled. Two complete retained seminar views, one full PDF cover view,
-donor/PDF alternative/prepared thumbnail and the selected thumbnail were directly inspected.
-One canonical task, zero mapped pages and one outside lookup; no new PDF render, OCR, source
-correction or article export. The standalone cover export has two files.
+Index: `archive/pdf/1991-09/reference/issue.json`; outcomes and limits:
+`archive/pdf/1991-09/reference/accounting.json`, `coverage-gaps.json` and
+`final-gap-dispositions.json`. All 9,332 standalone files match the independent second
+export byte for byte. All 48 single-map natives were regenerated from frozen recipes;
+all thirteen actual assemblies consumed regenerated natives through the original thirteen
+private adapters. The 23 selected packages contain 9,318 exact files. Two active radar/
+community reading companions retain 73 exact source-index fields with explicit article
+asset/download contexts, 117 body fragments, 48 continuation links and one cross-native
+link. Complete eligible original images for all thirty companion body pages remain exact.
 
-All 406 physical PDF pages have content records: 224 selected body pages and 182 directly
-reviewed outside pages; zero pending/shared pages. Cumulative outside classes are 172 advertisements,
-cover, contents, contents/colophon, unlisted editorial, subscription instructions, two giro-form
-pages, competition announcement, damaged-source placeholder and cover/spine fragment.
-Every page record, literal/null folio, ownership/exclusion and source index reference stays exact.
-Complete page accounting does not establish recovery of unavailable original article content.
-Source 405's literal 397~398 placeholder and folio jump 396→399 do not identify unavailable content
-or verify its extent/page count. Quiz prize material and subscription/giro forms are not substitutes;
-source distribution claims and a disk catalogue do not supply SAMPLE.C/disk bytes. No issue-wide absence claim.
+All 406 physical source pages have content records: 224 selected body pages/224 assignments
+and 182 directly reviewed outside pages, zero pending/shared pages and eight mixed exclusions.
+All ten accounting checkpoints, both disposition exports, cover/provenance and the independent
+ownership audit reproduce exactly. Every selected/native exclusion is audited; nonfigure
+regions are disjoint and any overlapping original figure pixels retain their white masks.
+Literal/null folios, the unlisted editorial and all bounded outside observations remain unchanged.
+Complete physical-page accounting is separate from recovery of unavailable original content.
 
-The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
-Forty-eight native contexts and eight exact mixed-page exclusions remain unchanged; the prior
-nonfigure/exclusion disjointness audit stays pinned. Final dispositions and the two-file cover
-export match independent fresh-process rebuilds. The seminar's copied typed reference verifies
-in its own download/block/region/scan context; Batch72's original evidence remains exact.
-All 29 canonical entries/outcomes, 41,254 prior issue files, 336 cover inputs, thirty core modules,
-thirteen private adapters and the cover transform helper remain exact. Batch61's 213-test baseline
-is reused for data-only work; fresh tests are required at full closeout.
+The audit validates 2,534 regions, 1,731 blocks, 446 figures and 277,483 typed byte-range
+occurrences across 61 root/native contexts, including 38 exact source-local metadata payloads
+and 87,979 current/native projection pairs. Every native crop matches the retained render pixels.
+All 2,535 published image files/2,458 distinct images fully decode; all 61 distinct ZIP assets
+pass CRC checks. All 2,088 settings retain mapped Tesseract OEM1/PSM6/thread1/3000px/300DPI hint/
+interword spaces: 189 eng code regions and 1,899 kor+eng other regions. Declared local resources,
+3,834 correction-evidence fragments, both child anchors and detailed gap contexts resolve.
 
-Radar 0034 remains complete at radar-complete-r01: nineteen pages 89–95,98–109 and all 740 native
-files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor and typed
-source/body-continuation contexts remain verified. Use pinned Batch61 radar_adapter and its
-thirteen-adapter dispatcher. Community 0026's final child 0040 a-p387-topics anchor remains verified;
-that section anchor does not identify a recovered questionnaire/application-form target.
+All 73 earlier checkpoints satisfy two canonical tasks/six newly mapped pages/twenty outside
+lookups. Their 48 OCR checkpoints retain one source-correction pass each: 2,088 initial plus
+five changed-crop recognitions, 2,093 actual invocations, zero unchanged-input retries.
+Batches03/05/16/25 each repair one crop before correction; Batch29's repair resumes the same
+paused pass. Batch07's nine-value/absent-slot correction adds no OCR. Batch19's supplemental
+outside page 243 is conservatively counted; Batch16's recorded retry means its changed input.
+Raw-before-pass attestations and completion-only timing limits remain explicit. All failed
+helpers/logs, refinements and source/metadata revisions are retained without source changes.
 
-Complete original article recovery remains unverified. Body prose, embedded screen/cover
-lettering and earlier manual glyph tasks remain explicit volunteer work. Human acceptance,
-full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
-contact/geographic claims, execution and independent backup recovery remain unverified.
+The donated cover supplies a 466 × 640 RGB JPEG thumbnail, 62,344 bytes, independently
+reproduced with exact provenance. Metadata is stripped and full framing/worn edges/aspect ratio
+are preserved without crop or upscale. The original donor and verified PDF alternatives remain
+private and unchanged; the donor is not bundled.
 
-Next: the separate full September issue-closeout-01 checkpoint. Produce the standalone JSON/assets
-issue index, accounting/coverage-gap reports and manifest; independently regenerate every native,
-then every actual assembly, accounting/dispositions/cover and a byte-identical second issue export.
-Audit every source-local/current/native range, crop/image, OCR setting, child anchor, ownership/
-exclusion and all 73 earlier checkpoints; run fresh PDF tests and invalid mutations. Preserve all
-inputs, document reproduction/limits, audit every completion requirement, commit, clean and verify
-saved state. Full restoration goal remains active. No reader rebuild.
+Fresh `make test-pdf PYTHON=.venv/bin/python` passes all 213 tests. Twenty-two invalid canonical,
+ownership/outcome/anchor/accounting/gap/portable-path mutations are rejected. All 41,297 prior
+issue files, 336 cover inputs, 9,272 initial prior-reference files, thirty core modules, thirteen
+private adapters and the cover helper remain exact. All 110 original inventory files are
+preserved; 1,701,187 historical issue-file pin occurrences have zero mismatches.
+
+Validation: `archive/pdf/1991-09/evidence/issue-closeout-01/report.json`.
+Reproduction/private-input commands:
+`archive/pdf/1991-09/restoration/issue-closeout-01/reproduction.json`.
+The final requirement-by-requirement completion audit and saved-state checks accompany the
+closeout. No further September checkpoint is scheduled; other issues and collection aggregation
+are separate work. No new OCR, source correction, reader/HTML/browser/frontend build or deployment.
+Human acceptance/full proofreading, original encoded bytes/exact spaces/glyph identities/counts,
+historical/technical/contact/geographic claims, program execution and independent backup recovery
+remain unverified. Body prose, embedded lettering and glyph/diagram-label tasks remain explicit
+volunteer work, with complete original image evidence retained.
+
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
