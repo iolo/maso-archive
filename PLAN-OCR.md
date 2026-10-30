@@ -26,48 +26,53 @@ paired OCR or a new engine comparison.
 September 1991 restoration has twenty-three readable/sample-reviewed articles,
 no partial articles, four non-owning group headings and two non-owning section references.
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
-complete. All physical source-page records are complete; final gap dispositions and issue closeout remain incomplete.
+complete. All physical source-page records are complete; the seminar related-reference
+disposition, cover, standalone export and independent issue closeout remain incomplete.
 
-Batch71 directly reviews the final outside pages 405–406 using two retained 3000px full-page views.
-PDF 405 is a mostly blank damaged-text placeholder with literal reference 397~398; it does not
-identify the unavailable content or verify a missing-page count. PDF 406 is a worn cover/spine
-fragment with 1991.9 visible. Both retain null magazine folios and no canonical article ownership.
+Batch72 finalizes two search/disposition tasks for this PDF pass: B+tree 0012's referenced
+〈리스트 2〉 SAMPLE.C is unrecovered, and community 0026's survey/application form is unrecovered.
+This closes the bounded search tasks without recovering unavailable original content. The
+eight-page B+tree main body and eleven available community pages stay complete. Both original
+ledger/package gap records remain exact; a separate current-disposition sidecar records the result.
+The seminar's related application-form reference still needs its own final disposition.
+
+Ten retained complete 3000px source views were directly reviewed: six known body-context pages
+269,271,387,396–398 and four declared outside contexts 399,401–402,405. Listing references,
+schematic/project/function examples, distribution claims and disk1 catalogue are not recovered
+SAMPLE.C source bytes. The combined quiz/survey reference 395, questionnaire instructions,
+prize image, folio jump 396→399 and source 405's literal 397~398 placeholder do not identify
+or recover the questionnaire. Subscription/giro forms are not substitutes. Placeholder content
+identity, unavailable extent and missing-page count remain unverified; no issue-wide absence claim.
 No new render, mapping, OCR, source correction or article export.
 
-All 406 physical PDF pages now have content records: 224 selected body pages and 182 directly
+All 406 physical PDF pages have content records: 224 selected body pages and 182 directly
 reviewed outside pages; zero pending/shared pages. Cumulative outside classes are 172 advertisements,
 cover, contents, contents/colophon, unlisted editorial, subscription instructions, two giro-form
 pages, competition announcement, damaged-source placeholder and cover/spine fragment.
-Every previous record, literal/null folio, ownership/exclusion and source index reference stays exact.
+Every page record, literal/null folio, ownership/exclusion and source index reference stays exact.
 Complete page accounting does not establish recovery of unavailable original article content.
 
 The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
 Forty-eight native contexts and eight exact mixed-page exclusions remain unchanged; the prior
-nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches an independent
-fresh-process rebuild. All 29 canonical entries/outcomes, 41,183 prior files, thirty core modules
-and thirteen private adapters remain exact. Batch61's 213-test baseline is reused for data-only
-work. No new article export, mapping, OCR, source correction or reader build.
+nonfigure/exclusion disjointness audit stays pinned. The final disposition JSON matches an
+independent fresh-process rebuild. Sixteen copied typed evidence ranges, fifteen current/native
+pairs and thirty current/native scan pins verify in their own contexts. All 29 canonical entries/
+outcomes, 41,219 prior files, thirty core modules and thirteen private adapters remain exact.
+Batch61's 213-test baseline is reused for data-only work. No reader build.
 
 Radar 0034 remains complete at radar-complete-r01: nineteen pages 89–95,98–109 and all 740 native
 files remain exact in the 748-file assembly. Child 0041's final a-p089-topics anchor and typed
 source/body-continuation contexts remain verified. Use pinned Batch61 radar_adapter and its
-thirteen-adapter dispatcher. Community 0026's eleven available pages and child 0040's final
-a-p387-topics anchor remain complete.
+thirteen-adapter dispatcher. Community 0026's final child 0040 a-p387-topics anchor remains verified.
 
-Complete original article recovery remains unverified. The community survey/application form
-is unlocated in the bounded community span; source 405's 397~398 placeholder and folio jump
-396→399 do not establish missing-content identity. Survey-prize material and giro forms 401–402
-are not substitutes. B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated in bounded
-body 264–271/appendix 374–381/387–390. Those gap records and the seminar's related application-form
-task remain unchanged; no issue-wide absence claim is made. Body prose, embedded screen/cover
+Complete original article recovery remains unverified. Body prose, embedded screen/cover
 lettering and earlier manual glyph tasks remain explicit volunteer work. Human acceptance,
 full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
 contact/geographic claims, execution and independent backup recovery remain unverified.
 
-Next: Batch72 records final B+tree SAMPLE.C and community survey/application-form gap dispositions
-against the full 406-page records and existing bounded evidence, within two canonical tasks.
-Then finalize the seminar's related application-form reference and cover, produce the standalone
-issue export, independently rebuild every native/actual assembly and complete issue closeout.
+Next: Batch73 finalizes seminar 0025's related application-form reference and verifies the cover
+with a reproducible thumbnail while preserving owner-supplied inputs. Then produce the standalone
+JSON/assets issue export, independently rebuild every native/actual assembly and complete issue closeout.
 No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).

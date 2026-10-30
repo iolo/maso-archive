@@ -7726,6 +7726,55 @@
         "sha256": "c7880efdb4c217f0bfc28687c7d45774e8dc6cfab7b8ff4b48b8ba51550b1894",
         "bytes": 1095
       }
+    },
+    {
+      "name": "1991-09-batch-72",
+      "status": "complete",
+      "completed_at": "2026-10-30T20:10:38.635039+00:00",
+      "goal": "Record explicit final dispositions for B+tree referenced SAMPLE.C and the community survey/application-form gap against the complete406-page records and existing bounded source evidence. Preserve immutable selected/native packages, unknown source405 placeholder identity, canonical outcomes and literal/null source references.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0012",
+        "maso-1991-09-toc-0026"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        399,
+        401,
+        402,
+        405
+      ],
+      "body_context_pdf_pages": [
+        269,
+        271,
+        387,
+        396,
+        397,
+        398
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "new_source_renders": 0,
+      "reused_source_views": 10,
+      "final_gap_dispositions": {
+        "path": "archive/pdf/1991-09/restoration/batch-72/final-gap-dispositions.json",
+        "sha256": "a8f15c711b9d95722b4d84510edd87b52848dcf7ef9a9a9060c109a759b06ec5",
+        "bytes": 32539
+      },
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-72/validation.json",
+        "sha256": "c97506d2b0a678a1311da16a8501bda79123a988e5c8f0440675b90c5b1ba22e",
+        "bytes": 2696
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-72/reproduction.json",
+        "sha256": "a010187f1034c0a408717bd2126bb989ede4709a230b5aeb5db1b81b703be610",
+        "bytes": 1138
+      }
     }
   ],
   "totals": {
@@ -7742,11 +7791,10 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-72",
-    "goal": "Record explicit final dispositions for B+tree referenced SAMPLE.C and the community survey/application-form gap against the complete406-page records and existing bounded source evidence. Preserve immutable selected/native packages, unknown source405 placeholder identity, canonical outcomes and literal/null source references.",
+    "name": "1991-09-batch-73",
+    "goal": "Finalize seminar0025 related application-form reference against the final community unrecovered-form disposition; verify the September cover and reproducible thumbnail while preserving all owner-supplied inputs. Keep original source references, immutable packages and canonical outcomes unchanged.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0012",
-      "maso-1991-09-toc-0026"
+      "maso-1991-09-toc-0025"
     ],
     "mapping_targets": [],
     "outside_lookup_candidates": [],
@@ -7755,7 +7803,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "All406 physical source pages have records, but complete original article recovery remains unverified. This is two canonical gap-disposition tasks; do not reconstruct unavailable content or equate page accounting with article recovery. Then separately finalize seminar0025 related application-form reference and cover, standalone issue export, independent all-native/actual assembly rebuilds and closeout. Use pinned Batch61 radar_adapter/thirteen dispatch adapters/thirty unchanged core modules. No reader rebuild."
+    "note": "One canonical related-reference task plus cover evidence, no new mapping/OCR. Declare exact reused body/outside contexts before review; cover PDF search stays within first/last five pages. Do not substitute a giro form or assign source405 unknown content. Then standalone JSON/assets issue export, independent all-native/actual assembly rebuilds and full closeout. Full restoration goal remains active; no reader rebuild."
   },
   "source_page_accounting": {
     "status": "page-records-complete;gap-dispositions-pending",
@@ -7997,5 +8045,36 @@
       "sha256": "03fc2a58d134bb0a6b3992e5a7a453d3bd1851b1c8fab37ccf05e4f17084c6ca",
       "bytes": 820502
     }
+  },
+  "coverage_gap_dispositions": {
+    "status": "partially-finalized",
+    "checkpoint": "batch-72",
+    "dispositions": {
+      "path": "archive/pdf/1991-09/restoration/batch-72/final-gap-dispositions.json",
+      "sha256": "a8f15c711b9d95722b4d84510edd87b52848dcf7ef9a9a9060c109a759b06ec5",
+      "bytes": 32539
+    },
+    "validation": {
+      "path": "archive/pdf/1991-09/restoration/batch-72/validation.json",
+      "sha256": "c97506d2b0a678a1311da16a8501bda79123a988e5c8f0440675b90c5b1ba22e",
+      "bytes": 2696
+    },
+    "reproduction": {
+      "path": "archive/pdf/1991-09/restoration/batch-72/reproduction.json",
+      "sha256": "a010187f1034c0a408717bd2126bb989ede4709a230b5aeb5db1b81b703be610",
+      "bytes": 1138
+    },
+    "finalized_toc_entry_ids": [
+      "maso-1991-09-toc-0012",
+      "maso-1991-09-toc-0026"
+    ],
+    "pending_toc_entry_ids": [
+      "maso-1991-09-toc-0025"
+    ],
+    "all_issue_gap_dispositions_final": false,
+    "complete_original_article_recovery_verified": false,
+    "issue_wide_absence_verified": false,
+    "original_ledger_and_package_gap_records_unchanged": true,
+    "note": "Two search/disposition tasks are final for this PDF pass: unrecovered referenced SAMPLE.C listing and community questionnaire. Main/available bodies and canonical outcomes remain complete and exact. No missing-content identity or page count is inferred from source405 or folio gaps. Seminar related-form reference remains pending separately. Original package metadata and historical bounded gap records stay unchanged; this sidecar supplies current dispositions without claiming recovery."
   }
 }
