@@ -25,7 +25,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | January 1988 | [8801.md](8801.md) — restoration pass complete; 36 readable articles, 14 non-owning headings and one unresolved survey entry; 8,360 JSON/assets files independently exact, 213 fresh tests |
 | August 1991 | [9108.md](9108.md) — restoration pass complete; 28 readable articles, five non-owning headings, two section references; all383 pages accounted, 9,272 JSON/assets files independently exact, 213 fresh tests |
 
-| September 1991 | [9109.md](9109.md) — active; fourteen readable articles, one partial article, three non-owning headings and 11 unresolved identities; LAN PDF314–337 preserved across four natives, all body pages/listing locations viewed, final338–339 and assembly pending; glyph tasks and B+ tree SAMPLE.C gap remain explicit |
+| September 1991 | [9109.md](9109.md) — active; fourteen readable articles, one partial article, three non-owning headings and 11 unresolved identities; all26 LAN pages314–339 and21 listings preserved across five natives, actual assembly next; glyph tasks and B+ tree SAMPLE.C gap remain explicit |
 
 | Shared scope | Records |
 | --- | --- |
