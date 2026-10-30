@@ -31,36 +31,34 @@ records below are historical and do not authorize a new rebuild.
 
 ## September 1991 active, 2026-10-30
 
-September 1991 restoration is active: eleven readable/sample-reviewed articles,
-zero partial articles, three non-owning group headings and fifteen unresolved identities
+September 1991 restoration is active: twelve readable/sample-reviewed articles,
+zero partial articles, three non-owning group headings and fourteen unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch34 assembles the nine-page Windows child0014, 윈도우즈 응용 프로그램 만들기(3) :
-프로그램 작성과 실행 과정 / 강민석, on PDF272–280/printed270–278. Parent0013 활용
-remains non-owning; canonical parent270/childnull references are unchanged. All 308 original
-native files and complete metadata remain unchanged in the 317-file package. Only the
-277→278 parameter annotation is merged with LF, at right offset574; all eleven fields
-stay prose. Four printed code blocks remain independent, with exact native listing
-concatenation. No body pages or actual assembly remain pending for this article.
+Batch35 restores child0015, 배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와 코드
+입력 방식 / 노준양, on PDF282–287/printed280–285. The prose conclusion and closing
+mark on286 precede the intrinsic final program listing on287; CONFIG.SYS starts
+independently on288. All eight numbered listings are preserved, with no deferred page
+or assembly. Parent0013 활용 stays non-owning; canonical parent270/childnull unchanged.
+One faint expression remains an explicit manual glyph task beside original source pixels.
 
-Both exports and a fresh-process rebuild match. All 2,617 current ranges and 2,556 native
-ranges validate in their proper contexts, including one nested b→a prior range. All 80
-source crops, 70 settings (5eng/65kor+eng) and three ZIPs pass. The original tables,
-diagrams, screenshot, code frames, closing mark and uncertain glyph records remain intact.
-Two screenshot labels retain explicit unresolved markers. All 20,114 prior files, thirty
-core modules and seven existing adapters remain exact; all 33 earlier checkpoints validate.
-No new render, OCR, source correction, semantic repair, execution or reader rebuild.
+The 266-file native preserves 71 regions, 53 blocks, nine original figures and 62 OCR
+records. Both exports and a fresh-process rebuild match. All 6,208 text ranges, 71 source
+crops, 62 settings (8eng/54kor+eng) and ZIP CRC pass; all 34 earlier checkpoints validate.
+One source correction pass, zero unchanged-input retries. Schemas and mixed function
+documentation remain prose; printed examples, results, programs and comments retain
+their source discrepancies without semantic repair or execution.
 
-Next: Batch35 verifies child0015, 배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와
-코드 입력 방식 / 노준양, from known own title/byline on282. Establish actual ownership,
-extent and ending before mapping. Pages282–287 are provisional first-six candidates only.
-Use pinned Batch34 windows_adapter for complete checks; eight private adapters now
-dispatch all prior formats while thirty core modules remain unchanged.
+Next: Batch36 verifies and restores child0016, CONFIG.SYS의 최적화를 통한 메모리 활용 /
+박현철. Source288–290 title/byline, running series and conclusion/closing mark were
+viewed as outside context; confirm ownership and adjacent boundaries before mapping
+those three pages. Use pinned Batch34 windows_adapter for complete checks; eight private
+adapters and thirty core modules stay unchanged. No reader rebuild.
 
-Child0012's B+ tree main body remains assembled. Its referenced〈리스트 2〉SAMPLE.C
-remains unlocated in bounded inspected body264–271/appendix374–381/387–390. Preserve
-this open gap for bounded lookup and full 406-page accounting; no issue-wide absence claim.
-Other bodies, accounting, cover, issue export and closeout remain pending. No reader rebuild.
+The Windows article272–280 remains assembled. B+ tree0012's referenced〈리스트 2〉
+SAMPLE.C remains unlocated in bounded inspected body264–271/appendix374–381/387–390.
+Preserve this open gap for bounded lookup and full 406-page accounting; no issue-wide
+absence claim. Other bodies, accounting, cover, issue export and closeout remain pending.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

@@ -2438,12 +2438,97 @@
       "toc_entry_id": "maso-1991-09-toc-0015",
       "title": "배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와 코드 입력 방식",
       "parent_id": "maso-1991-09-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents5 and own282 title 다중 선택 메뉴와 코드 입력 방식/byline노준양(청주 리라병원 외과),with283/285/287 running series,identify canonical child0015. Parent0013활용 remains non-owning;canonical parent270/childnull references and title unchanged.",
+        "Actual six-page body282–287/printed280–285 fully viewed and restored. Prose conclusion/closing mark286 is followed by intrinsic final listing8 on287 ending retu mxval.288 independent CONFIG.SYS title/byline follows;281 preceding advertisement. All eight numbered listings are located on current pages;no deferred page or assembly.",
+        "All71 crops and six pre-OCR refinements reviewed before62 recognitions (8eng printed source/54kor+eng other). All62 terminal drafts read before one source correction pass,zero unchanged-input retries. One source-detail visual zoom during correction is retained without remapping or recognition.",
+        "The selected266-file native preserves71 regions,53 blocks,nine original figures,511 reading rows,seven regional groups/nine joins. Eight code regions form seven independent blocks and retain220 physical rows,775 tokens,713 lexical identifiers,77 string candidates,186 numeric occurrences,46 comments,403 operator-like glyph occurrences,30 array references and11 macros. These are transcription indexes,not certified original source counts or an executable reconstruction.",
+        "Three schema outputs remain prose/tables:12 headers,12 field rows,60 cells/twelve blank Dec cells and three literal totals. Function catalog24 references,six mixed-prose reference signatures/eighteen parameters stay non-executable documentation. Twenty printed prompt expressions/results,formal parameters9/documentation groups7,four multi calls/36arguments,five array declarations,seven key/mouse cases/four prose key references remain source-linked.",
+        "Eight captions/thirteen frame-text links,sixteen headings,eight anomalies,forty glyph candidates,nine filenames/seven source claims preserve literal variants. Prose8/9 versus code7/8,occur/occurs,ptsx/ptsx1/ptsx2,commucation,printed assignment/loop syntax and comments remain uncorrected semantically. One faint mouse-bound expression stays ⟦?⟧ with candidate cx(k)+qn+2 for manual source reading;no inferred code. Dot/asterisk bands and quote/space glyphs retain original pixels and unverified counts.",
+        "Both266-file exports and fresh-process rebuild match. All6208 ranges (3573article/2635listing) resolve in named download/block/region contexts.71 crops exact/PNGs decode,62 pinned settings and ZIP CRC pass. All20467 prior files,thirty core modules,eight private adapters/source/TOC/runtime/queue remain exact;all34 earlier checkpoints validate. One task/six mapped/six outside pages satisfy limits. No semantic repair,execution or reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-35-r01/array-data",
+        "article_id": "scan-maso-1991-09-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-35-r01/array-data/manifest.json",
+          "sha256": "085afb6cdb5117a3348e9eab0c821129cb3b67782e10ed111740ac825c0750ba",
+          "bytes": 46120
+        },
+        "coverage": {
+          "pdf_pages": [
+            282,
+            283,
+            284,
+            285,
+            286,
+            287
+          ],
+          "printed_pages": [
+            "280",
+            "281",
+            "282",
+            "283",
+            "284",
+            "285"
+          ],
+          "regions": 71,
+          "blocks": 53,
+          "figures": 9,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "complete_article": true
+        },
+        "actual_start_pdf_page": 282,
+        "actual_end_pdf_page": 287,
+        "full_source_extent": {
+          "pdf_pages": [
+            282,
+            283,
+            284,
+            285,
+            286,
+            287
+          ],
+          "printed_pages": [
+            "280",
+            "281",
+            "282",
+            "283",
+            "284",
+            "285"
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Complete actual body including all eight listings.286 prose conclusion/closing mark precedes final intrinsic listing287;288 independent next title/byline. One manual glyph expression remains,not a missing source page."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-35/validation.json",
+          "sha256": "0686e60adba2a4520c1e74a7d337c923867bcfeda62a2a184a8903275eba71ab",
+          "bytes": 2810
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-35/reproduction.json",
+          "sha256": "3dc058ae4c147e5408c8a3073543f8cee99e77388a171edd97adb254b5fe1a07",
+          "bytes": 47163
+        },
+        "checkpoint": "batch-35",
+        "manual_glyph_tasks": [
+          {
+            "region_id": "p287-listing8-right",
+            "marker": "⟦?⟧",
+            "candidate": "cx(k)+qn+2",
+            "status": "manual-source-reading-required",
+            "note": "Faint mouse-bound expression retained explicitly;original code crop and complete frame available. No semantic reconstruction."
+          }
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0016",
@@ -3689,14 +3774,56 @@
         "sha256": "350b7372f2bc66e37e210e02e7a6366299428e3e6e071bc7f000d3dcc2b8dc2e",
         "bytes": 58568
       }
+    },
+    {
+      "name": "1991-09-batch-35",
+      "status": "complete",
+      "completed_at": "2026-10-30T02:17:52.833682+00:00",
+      "goal": "Verify and restore complete six-page array/data-entry0015 body282–287,including final listing after prose conclusion.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0015"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        5,
+        281,
+        288,
+        289,
+        290,
+        291
+      ],
+      "recognition_invocations": 62,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-35/validation.json",
+        "sha256": "0686e60adba2a4520c1e74a7d337c923867bcfeda62a2a184a8903275eba71ab",
+        "bytes": 2810
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-35/reproduction.json",
+        "sha256": "3dc058ae4c147e5408c8a3073543f8cee99e77388a171edd97adb254b5fe1a07",
+        "bytes": 47163
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 11,
+    "readable": 12,
     "partial": 0,
     "group_headings": 3,
-    "unresolved": 15
+    "unresolved": 14
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -3704,24 +3831,21 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-35",
-    "goal": "Verify child0015 배열을 이용한 데이터 입출력(3) : 다중 선택 메뉴와 코드 입력 방식 / 노준양 from known own title/byline282; establish actual body extent/ending and restore bounded first native.",
+    "name": "1991-09-batch-36",
+    "goal": "Verify and restore child0016 CONFIG.SYS의 최적화를 통한 메모리 활용 / 박현철 from own288 title/byline;source ending290 observed,confirm complete ownership/boundaries and map actual three-page body.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0015"
+      "maso-1991-09-toc-0016"
     ],
     "mapping_targets": [
-      282,
-      283,
-      284,
-      285,
-      286,
-      287
+      288,
+      289,
+      290
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Parent0013활용 remains non-owning;canonical parent270/child0015null references,title,hierarchy unchanged.282 own title 다중 선택 메뉴와 코드 입력 방식/byline노준양(청주 리라병원 외과),printed280 known. Match original contents/canonical queue and verify actual ownership/extent/ending/any appendix before mapping;282–287 are provisional first-six candidates only,not inferred contiguous ownership or final extent. Reuse retained source views;Batch32 has283render not yet viewed. Review all mapped full pages/crops before OCR,read all terminal raws before one source pass. Preserve literal prose,printed code/tables/arrays/diagrams/source wraps/glyph uncertainty without semantic repair/execution. Use immutable segments then separate actual assembly if longer. Use pinned Batch34 windows_adapter for complete checks;it dispatches Batch31btree and all seven prior adapters. Eight private adapters total/thirty core modules unchanged. B+tree referenced SAMPLE.C remains unlocated and open for bounded lookup/full406-page accounting. Other identities/accounting/cover/issue export/closeout pending;no reader rebuild."
+    "note": "Original contents5/own288title/byline박현철((주)DIS연구원),printed286 known.289 running 확장 메모리의 활용[마지막회] and290 conclusion/closingmark directly viewed as bounded outside context inBatch35;291advertisement. Confirm actual288–290 ownership/ending and adjacent292 title before restoring,without treating canonicalnull ownreference asparent270 orglobaloffset. Parent0013활용 non-owning;canonical child0016title/reference/hierarchy unchanged. Reuse Batch35 source views;review all mapped full pages/crops before OCR,read all terminal drafts before one source pass. Preserve literal memory/configuration claims,headings,directive references,source spellings/physical wraps and glyph uncertainty;do not invent executable CONFIG.SYS from prose. Use pinnedBatch34windows_adapter for complete checks;eight adapters/thirty core modules unchanged. Array0015complete withonefaint-expression manualglyph task;B+tree referencedSAMPLE.C remainsunlocated/open forboundedlookup/full406-pageaccounting. Other14identities/accounting/cover/issueexport/closeout active;no readerrebuild."
   }
 }
