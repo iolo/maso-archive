@@ -7,54 +7,56 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 September 1991 restoration is active: twenty-two readable/sample-reviewed articles,
-no partial articles, four non-owning group headings, one non-owning section reference
-and two unresolved identities account for all 29 canonical TOC entries.
+one partial article, four non-owning group headings and two non-owning section references
+account for all 29 canonical TOC entries. No identities remain unclassified; news restoration
+and issue closeout remain incomplete.
 
-Batch56 actually assembles community 0026's eleven available pages: PDF 387–393, 396–398
-and upper 400. Child 0040's final anchor is a-p387-topics in the assembled parent; it owns
-no duplicate body. Canonical own 87, child null own reference, titles and hierarchy remain
-unchanged. Available-body coverage is readable/sample-reviewed. Complete original article
-recovery remains unverified because the survey/application form is unlocated in the bounded
-community span. Full 406-page accounting and final gap disposition remain pending.
+Batch57 identifies radar parent 0034 and compound child 0041 and preserves the six-page
+news opening, PDF 89–94. The divider on 89 has no visible folio; domestic news opens at
+90/printed 88. Folios 89–92 on PDF 91–94 were observed individually. Canonical radar own
+385 and child null own reference remain unchanged. The five-topic child is one non-owning
+section reference anchored to p089-topics; final parent assembly and anchor projection are
+pending. Divider references 88,96,101,102,104 are intrinsic source occurrences. Only the
+first topic's actual opening is verified; no global offset or full news extent is inferred.
 
-Both 469-file exports and a fresh-process rebuild match. All 460 native files remain exact.
-The assembled package preserves 140 regions, 101 blocks, 39 figures and 101 retained OCR records
-(two eng commands/99 kor+eng fields). All 1,314 original range occurrences validate in their
-native download/block/region/scan contexts; 1,314 retained source-local occurrences and 1,314
-projected native occurrences are checked separately. All 2,541 combined range occurrences
-(2,505 article/36 listing) validate. Original block text and 46 command-listing bytes are
-unchanged. All 140 original crops/decoded PNGs, 101 settings, three ZIPs and eleven reconstructed
-eligible pages pass. The lower 400 advertising index remains excluded with exact body/footer
-pixel reconstruction.
+Both 123-file exports and a fresh-process rebuild match. The opening preserves 37 regions,
+26 blocks, eleven figures and 26 kor+eng OCR records. Six complete original pages preserve
+all body, photograph, layout and footer pixels. Sixteen story starts retain 29 body-image
+fragments, thirteen internal column/page continuations, five photograph/caption associations
+and one outgoing PDF 94→95 continuation. The first fifteen original-image story bodies are
+complete in this native; the final 한음회계Ⅲ story continues. Body prose, contacts and embedded
+photo lettering await volunteer transcription. Searchable heading/caption review does not
+establish a full-body proofreading claim.
 
-Four letters, six Q&A items, nine reader credits, an editorial reply, two gift notices, 34 body-image
-fragments and nine internal continuations retain their source context. Nine classified posts,
-nine prize originals/captions, 58 winner names/addresses in ten categories, two winner-column
-continuations, five disk groups/seven title entries and eight editing notes remain literal.
-Ten textual manual extents, two image-only extents and 147 glyph candidates remain active.
-Body prose and embedded artwork lettering await volunteer transcription. Source setbkclolor()/
-setbkcolor spelling and intrinsic-reference/observed-folio differences are preserved.
+All 37 initial crops and fourteen pre-OCR crop revisions across thirteen regions were reviewed
+before recognition. All 26 raw drafts were read before one source correction pass, with zero
+recognition retries. Five leader-dot bands retain unknown encoded glyph counts; 21 glyph
+candidates preserve source spellings and triangle/dash/quote/Roman-numeral readings. Source
+쎈더, 롬 and 한음회계 remain literal without semantic or historical repair. All 223 typed ranges
+validate in their named download/block/region/scan contexts. All 37 exact crops/decoded PNGs,
+26 settings, ZIP CRC and six original-page reconstructions pass. All 37,480 prior files,
+56 earlier packages, thirty core modules and twelve private adapters remain exact. Batch56's
+successful 213-test baseline is reused for this data-only checkpoint. No reader rebuild.
 
-Fresh 213 core regression tests pass; four changed recipe/native text/range/gap mutations are
-rejected. Thirty core modules and eleven prior adapters remain unchanged. A twelfth frozen
-private adapter projects the command and community metadata contexts; its initial preflight
-figure-key failure/fix is retained. All 36,962 prior files and 55 earlier packages remain exact.
-There was no new mapping, source lookup, rendering, recognition, source correction or reader rebuild.
+Community 0026 remains readable/sample-reviewed for its eleven available pages, with actual
+assembly and child 0040's a-p387-topics anchor complete. Complete original article recovery
+remains unverified: the survey/application form is unlocated in the bounded community span.
+Source 405's 397~398 placeholder and folio jump 396→399 do not establish missing-content identity.
+Survey-prize material and giro forms 401–402 are not substitutes. The original seminar package,
+community manual tasks and earlier restoration evidence remain unchanged. Full 406-page
+accounting and final gap disposition remain pending.
 
-Source 405's 397~398 placeholder and folio jump 396→399 remain evidence of an unresolved coverage
-question, with missing-content identity unverified. Survey-prize material and giro forms 401–402
-are not substitutes. Human acceptance, full proofreading, source encoded bytes/exact spaces/glyph
-identities/counts, contacts/geographic/technical/historical claims, execution and independent backup
-recovery remain unverified. The original seminar package and earlier manual tasks remain unchanged.
+Human acceptance, full proofreading, source encoded bytes/exact spaces/glyph identities/counts,
+contacts/geographic/technical/historical claims, execution and independent backup recovery
+remain unverified.
 
-Next: Batch57 verifies information-radar 0034 and compound child 0041 ownership and restores a bounded
-news opening from observed divider 89 and news opening 90. Canonical radar own 385 and child null own reference
-stay unchanged; they are not verified body locations or a global folio offset. Review actual local
-continuity/topic structure and keep unexplored extent explicit, within two tasks/six mapped/twenty
-outside pages. Use pinned Batch56 community_adapter and its twelve-adapter dispatcher. News bodies/
-actual assemblies, full 406-page accounting, cover, standalone issue export and closeout remain.
-B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated in bounded body 264–271/appendix 374–381/
-387–390; retain that gap without an unsupported issue-wide absence claim.
+Next: Batch58 continues radar 0034 from observed PDF 95/printed 93, first reviewing local
+continuity and then mapping the next bounded eligible segment, provisionally PDF 95–100.
+Keep unexplored extent and later topic locations explicit. Use pinned Batch56 community_adapter
+and its twelve-adapter dispatcher, within two tasks/six mapped/twenty outside pages. Remaining
+news bodies and actual assembly, full 406-page accounting, cover, standalone issue export and
+closeout remain. B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated in bounded body
+264–271/appendix 374–381/387–390; retain the gap without an unsupported issue-wide absence claim.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
