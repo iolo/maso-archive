@@ -26,25 +26,25 @@ paired OCR or a new engine comparison.
 September 1991 restoration has twenty-three readable/sample-reviewed articles,
 no partial articles, four non-owning group headings and two non-owning section references.
 All 29 canonical TOC entries are classified; actual article assemblies and child anchors are
-complete. Full issue accounting and closeout remain incomplete.
+complete. All physical source-page records are complete; final gap dispositions and issue closeout remain incomplete.
 
-Batch70 directly reviews outside PDF 367–379,394–395,399,401–404: sixteen advertisements,
-subscription instructions, two giro-form pages and one competition announcement. PDF 399 has
-visible printed folio 399; all other current folios are null. Book/software/hardware promotions,
-commercial course tables and the competition poster remain outside canonical ownership.
-Subscription/giro material is distinct from the unresolved survey and seminar application forms.
-Four new 3000px views and sixteen retained full-page views support direct review.
+Batch71 directly reviews the final outside pages 405–406 using two retained 3000px full-page views.
+PDF 405 is a mostly blank damaged-text placeholder with literal reference 397~398; it does not
+identify the unavailable content or verify a missing-page count. PDF 406 is a worn cover/spine
+fragment with 1991.9 visible. Both retain null magazine folios and no canonical article ownership.
+No new render, mapping, OCR, source correction or article export.
 
-There are now 404 of 406 content records: 224 selected body pages and 180 reviewed outside pages.
-Of 182 outside candidates, two remain pending. Cumulative outside classes are 172 advertisements,
+All 406 physical PDF pages now have content records: 224 selected body pages and 182 directly
+reviewed outside pages; zero pending/shared pages. Cumulative outside classes are 172 advertisements,
 cover, contents, contents/colophon, unlisted editorial, subscription instructions, two giro-form
-pages and a competition announcement. Every previous page record, literal/null folio and source
-index reference remains exact, without a global folio offset.
+pages, competition announcement, damaged-source placeholder and cover/spine fragment.
+Every previous record, literal/null folio, ownership/exclusion and source index reference stays exact.
+Complete page accounting does not establish recovery of unavailable original article content.
 
 The 23 selected articles retain 224 distinct body pages/224 assignments, with no shared page.
 Forty-eight native contexts and eight exact mixed-page exclusions remain unchanged; the prior
 nonfigure/exclusion disjointness audit stays pinned. The accounting JSON matches an independent
-fresh-process rebuild. All 29 canonical entries/outcomes, 41,136 prior files, thirty core modules
+fresh-process rebuild. All 29 canonical entries/outcomes, 41,183 prior files, thirty core modules
 and thirteen private adapters remain exact. Batch61's 213-test baseline is reused for data-only
 work. No new article export, mapping, OCR, source correction or reader build.
 
@@ -64,10 +64,10 @@ lettering and earlier manual glyph tasks remain explicit volunteer work. Human a
 full proofreading, source encoded bytes/exact spaces/glyph identities/counts, historical/technical/
 contact/geographic claims, execution and independent backup recovery remain unverified.
 
-Next: Batch71 reviews the final two outside pages: PDF 405–406.
-Reuse pinned Batch62 accounting builder/ownership and Batch70 accounting, preserving earlier
-records. Finish all 406 pages and final survey/application/SAMPLE.C gap dispositions, then cover,
-standalone issue export, independent all-native/actual assembly rebuilds and closeout.
+Next: Batch72 records final B+tree SAMPLE.C and community survey/application-form gap dispositions
+against the full 406-page records and existing bounded evidence, within two canonical tasks.
+Then finalize the seminar's related application-form reference and cover, produce the standalone
+issue export, independently rebuild every native/actual assembly and complete issue closeout.
 No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).

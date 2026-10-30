@@ -7694,6 +7694,38 @@
         "sha256": "b8b0aba14f7c3145e8cc3d0c4877618390df75686e799996414076e71f5f149f",
         "bytes": 1095
       }
+    },
+    {
+      "name": "1991-09-batch-71",
+      "status": "complete",
+      "completed_at": "2026-10-30T19:52:00.808581+00:00",
+      "goal": "Extend full406-page source accounting with final two outside pages PDF405,406; retain exact previous page records, selected/native ownership and exclusion masks, literal/null folios and bounded coverage gaps.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        405,
+        406
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 0,
+      "new_source_renders": 0,
+      "reused_source_views": 2,
+      "source_accounting_part": 10,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-71/validation.json",
+        "sha256": "6f5ac2e795e8504982037e55044c51d2ef8203876e563bb068f7a15a32e38b63",
+        "bytes": 2650
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-71/reproduction.json",
+        "sha256": "c7880efdb4c217f0bfc28687c7d45774e8dc6cfab7b8ff4b48b8ba51550b1894",
+        "bytes": 1095
+      }
     }
   ],
   "totals": {
@@ -7710,28 +7742,28 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-71",
-    "goal": "Extend full406-page source accounting with final two outside pages PDF405,406; retain exact previous page records, selected/native ownership and exclusion masks, literal/null folios and bounded coverage gaps.",
-    "toc_entry_ids": [],
-    "mapping_targets": [],
-    "outside_lookup_candidates": [
-      405,
-      406
+    "name": "1991-09-batch-72",
+    "goal": "Record explicit final dispositions for B+tree referenced SAMPLE.C and the community survey/application-form gap against the complete406-page records and existing bounded source evidence. Preserve immutable selected/native packages, unknown source405 placeholder identity, canonical outcomes and literal/null source references.",
+    "toc_entry_ids": [
+      "maso-1991-09-toc-0012",
+      "maso-1991-09-toc-0026"
     ],
+    "mapping_targets": [],
+    "outside_lookup_candidates": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Current content records404/406:224 selected body pages plus180 directly reviewed outside pages. 2 outside pages pending. All23 canonical actual assemblies/child anchors complete. Reuse pinned Batch62 accounting builder/ownership and Batch70 accounting recipe; Batch61 radar_adapter/thirteen dispatch adapters/thirty core modules unchanged. Preserve SAMPLE.C/survey/application-form gaps for full source accounting and explicit final disposition; source405 placeholder identity remains unverified. Then cover,standalone issue export,independent all-native/actual assembly rebuilds and closeout.No reader rebuild."
+    "note": "All406 physical source pages have records, but complete original article recovery remains unverified. This is two canonical gap-disposition tasks; do not reconstruct unavailable content or equate page accounting with article recovery. Then separately finalize seminar0025 related application-form reference and cover, standalone issue export, independent all-native/actual assembly rebuilds and closeout. Use pinned Batch61 radar_adapter/thirteen dispatch adapters/thirty unchanged core modules. No reader rebuild."
   },
   "source_page_accounting": {
-    "status": "in-progress",
-    "checkpoint": "batch-70",
+    "status": "page-records-complete;gap-dispositions-pending",
+    "checkpoint": "batch-71",
     "page_accounting": {
-      "path": "archive/pdf/1991-09/restoration/batch-70/page-accounting.json",
-      "sha256": "03fc2a58d134bb0a6b3992e5a7a453d3bd1851b1c8fab37ccf05e4f17084c6ca",
-      "bytes": 820502
+      "path": "archive/pdf/1991-09/restoration/batch-71/page-accounting.json",
+      "sha256": "866c9e3f212291fda2aecf4c97555c40263aa92b2a04d4e99cab714c61d4f532",
+      "bytes": 822219
     },
     "selected_body_assignment_index": {
       "path": "archive/pdf/1991-09/restoration/batch-62/selected-body-assignment-index.json",
@@ -7739,13 +7771,13 @@
       "bytes": 313311
     },
     "validation": {
-      "path": "archive/pdf/1991-09/restoration/batch-70/validation.json",
-      "sha256": "e7bc1819f95cd125d97564b8192ee5d7be61ad3e1af4e76711b0c349ee3d33a6",
-      "bytes": 2624
+      "path": "archive/pdf/1991-09/restoration/batch-71/validation.json",
+      "sha256": "6f5ac2e795e8504982037e55044c51d2ef8203876e563bb068f7a15a32e38b63",
+      "bytes": 2650
     },
     "reproduction": {
-      "path": "archive/pdf/1991-09/restoration/batch-70/reproduction.json",
-      "sha256": "b8b0aba14f7c3145e8cc3d0c4877618390df75686e799996414076e71f5f149f",
+      "path": "archive/pdf/1991-09/restoration/batch-71/reproduction.json",
+      "sha256": "c7880efdb4c217f0bfc28687c7d45774e8dc6cfab7b8ff4b48b8ba51550b1894",
       "bytes": 1095
     },
     "source_pdf_pages": 406,
@@ -7757,7 +7789,7 @@
     "native_contexts": 48,
     "native_exclusions": 8,
     "outside_body_candidates": 182,
-    "reviewed_outside_pages": 180,
+    "reviewed_outside_pages": 182,
     "reviewed_outside_pdf_pages": [
       1,
       2,
@@ -7938,28 +7970,32 @@
       401,
       402,
       403,
-      404
+      404,
+      405,
+      406
     ],
-    "pending_outside_pages": 2,
-    "pages_with_content_records": 404,
+    "pending_outside_pages": 0,
+    "pages_with_content_records": 406,
     "outside_classification_counts": {
       "advertisement": 172,
       "contents": 1,
       "contents-and-colophon": 1,
       "cover": 1,
+      "cover-and-spine-fragment": 1,
+      "damaged-source-placeholder": 1,
       "event-announcement": 1,
       "subscription-information": 1,
       "subscription-payment-form": 2,
       "unlisted-editorial": 1
     },
-    "all_source_pages_have_content_records": false,
+    "all_source_pages_have_content_records": true,
     "coverage_gap_dispositions_final": false,
     "complete_original_article_recovery_verified": false,
-    "note": "All selected/native ownership, literal/null folios and eight exact exclusion records retained. Current outside pages367-404 directly reviewed as sixteen advertisements, subscription instructions (folio399), two giro-form pages and one competition announcement; remaining current folios null; 180 outside pages reviewed cumulatively. 2 outside pages still pending. Existing bounded SAMPLE.C and survey/application-form gaps unchanged; source405 placeholder identity remains unverified. No issue-wide absence claim.",
+    "note": "All406 physical PDF pages have content records:224 selected body pages and182 directly reviewed outside pages. Source405 is a damaged-text placeholder with literal397~398; unavailable-content identity and extent remain unverified. Source406 is a worn cover/spine fragment. Every earlier page record, ownership assignment and exclusion stays exact. Final SAMPLE.C/survey/seminar-form gap dispositions remain pending. No issue-wide absence claim or full original recovery claim.",
     "previous_accounting": {
-      "path": "archive/pdf/1991-09/restoration/batch-69/page-accounting.json",
-      "sha256": "d21cf0f4e74955ddf8c3de4a4aaae8f1168021e8108ab3a946f4f41c5166ecd7",
-      "bytes": 798400
+      "path": "archive/pdf/1991-09/restoration/batch-70/page-accounting.json",
+      "sha256": "03fc2a58d134bb0a6b3992e5a7a453d3bd1851b1c8fab37ccf05e4f17084c6ca",
+      "bytes": 820502
     }
   }
 }
