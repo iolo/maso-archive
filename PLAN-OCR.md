@@ -25,66 +25,67 @@ paired OCR or a new engine comparison.
 
 September 1991 restoration is active: twenty-two readable/sample-reviewed articles,
 one partial article, four non-owning group headings and two non-owning section references
-account for all 29 canonical TOC entries. All identities are classified; radar restoration
-and issue closeout remain incomplete.
+account for all 29 canonical TOC entries. All identities are classified. Every radar body page
+now has a native package; actual radar assembly and issue closeout remain incomplete.
 
-Batch59 preserves events, books and software on PDF 103–108. Events open 103/101; books span
-104–105/102–103; software spans 106–109/104–107. Direct outside review of 109 and 110 establishes
-the radar ending: software closes on 109 with a terminal ornament, followed by independent
-TRON promotional material on 110. The complete radar body extent is nineteen pages, 89–95
-and 98–109; publisher advertisements 96–97 are excluded. Folios and topic openings were observed
-individually. The final software page 109 still needs its native restoration, then actual
-parent assembly and final child-anchor projection. Canonical radar 0034 own 385, child 0041
-null own reference, titles and hierarchy remain unchanged; p089-topics stays in radar-a.
+Batch60 restores final software PDF 109/printed 107. Four complete items, TAL 1.0, BCD,
+ls 4.7 and PMAP, retain five body-image fragments and one internal column continuation.
+The ls body ends with the single opening word 있다. in the fourth column before PMAP.
+Three original screenshots retain their printed captions; PMAP has no separate screen/caption.
+The complete original page preserves all body/interface/layout/footer pixels, including the
+terminal ornament after PMAP. Outside views 108/106 and independent TRON promotion 110
+confirm the boundary. Canonical radar 0034 own 385, child 0041 null own reference, titles and
+hierarchy stay unchanged. The original child anchor p089-topics remains in radar-a until assembly.
 
-Both 487-file exports and a fresh-process rebuild match. The current six-page native preserves
-137 regions, 114 blocks, 23 figures and 114 kor+eng OCR records. Six complete original pages
-preserve every body, table, cover, screenshot, layout and footer pixel. Thirteen event rows
-retain 52 separate cells and eight headers; five bookshelf rows retain fifteen cells and
-three headers. Six main book reviews and a shaded 1991 catalogue inset retain 21 bibliographic
-lines, seven original covers, eleven body-image fragments and four internal continuations.
-Six software items retain thirteen body-image fragments, seven internal continuations, three
-purchase contacts, six original screens and five printed captions. The key screenshot on
-106 belongs to the heading on 107; the paint screenshot on 108 has no printed caption.
-Body prose and embedded cover/screen lettering await volunteer transcription.
+Both selected 40-file r02 exports and a fresh-process rebuild match. The final native preserves
+eleven regions, seven blocks, four figures and seven kor+eng OCR records. All eleven exact crops
+were reviewed before recognition; all seven drafts were read before one source correction pass.
+There were no crop revisions or OCR retries. Three screenshot manual extents and nine glyph
+candidates retain circle/pointer and ls/Is/1s uncertainty. Body prose and embedded lettering
+remain readable original images with volunteer transcription pending. All 58 typed ranges
+validate in their named download/block/region/scan contexts; eleven exact crops/decoded PNGs,
+seven settings, ZIP CRC and full-page reconstruction pass. All 39,706 prior files, 59 earlier
+packages, thirty core modules and twelve adapters remain exact. Batch56's successful 213-test
+baseline is reused for data-only work. No reader rebuild.
 
-All 137 initial exact crops and sixteen pre-OCR refinements were reviewed before recognition.
-All 114 raw drafts were read before one source correction pass, with zero retries. Six screen
-manual extents and 66 glyph candidates preserve opaque company/place/credit and typographic
-readings. Source 만듬, 영진출판사 지음, 423쪽, 대사고나, 데이타베이스 and 화일 remain literal without
-semantic or historical repair. All 876 typed ranges validate in their named download/block/
-region/scan contexts. All 137 exact crops/decoded PNGs, 114 settings, ZIP CRC and six original-page
-reconstructions pass. All 38,246 prior files, 58 earlier packages, thirty core modules and twelve
-private adapters remain exact. Batch56's successful 213-test baseline is reused for data-only
-work. An unsupported region-kind preflight failure was repaired before mapping/crops/OCR; the
-original attempt and evidence remain retained. No reader rebuild.
+An accidental phrase in an assistant-authored source-location note was replaced with English
+in a fresh r02 metadata revision. The complete r01 inputs/exports remain retained; printed
+transcription, article bytes, block text, crops/OCR and source associations are unchanged.
+A post-export check initially omitted provenance.json's expected recipe-pin change. The two
+successful r02 exports were reused, the check was repaired, and the failed helper/log retained;
+no recognition or source-correction pass was repeated.
 
-Three immutable radar natives now preserve eighteen of nineteen body pages. Their 202 regions,
-158 blocks, 44 figures and 158 OCR records remain separate until actual assembly. All previous
-news bodies, the incoming 94→95 continuation and child 0041's original reference remain exact.
-Five leader bands, eight screenshot extents and 96 glyph candidates remain active across the
-natives. All other 28 ledger entries and earlier gaps/manual tasks remain unchanged.
+All nineteen radar body pages, 89–95 and 98–109, are preserved across four frozen natives:
+740 files, 213 regions, 165 blocks, 48 figures and 165 OCR records. Publisher ads 96–97 remain
+excluded. The natives retain nineteen domestic/eight overseas news items, thirteen event rows
+with 52 cells/eight headers, seven book reviews/inset entries with 21 bibliography lines/seven
+covers, five shelf rows with fifteen cells/three headers, and ten software items with nine
+screens/eight captions/three contacts. Five leader bands, eleven screenshot extents and 105
+glyph candidates remain active. All previous natives, the incoming 94→95 reference, child 0041
+and all other 28 ledger entries remain unchanged. Availability remains partial until the actual
+nineteen-page parent assembly and final child-anchor projection are complete.
 
-Community 0026 remains readable/sample-reviewed for its eleven available pages, with actual
-assembly and child 0040's a-p387-topics anchor complete. Complete original article recovery
-remains unverified: the survey/application form is unlocated in the bounded community span.
-Source 405's 397~398 placeholder and folio jump 396→399 do not establish missing-content identity.
-Survey-prize material and giro forms 401–402 are not substitutes. The original seminar package,
-community manual tasks and earlier restoration evidence remain unchanged. Full 406-page
-accounting and final gap disposition remain pending.
+Community 0026 remains readable/sample-reviewed for eleven available pages, with actual assembly
+and child 0040's a-p387-topics anchor complete. Complete original article recovery remains
+unverified: the survey/application form is unlocated in the bounded community span. Source 405's
+397~398 placeholder and folio jump 396→399 do not establish missing-content identity. Survey-prize
+material and giro forms 401–402 are not substitutes. The original seminar package, earlier
+manual tasks and B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C gap remain unchanged. SAMPLE.C is
+unlocated in bounded body 264–271/appendix 374–381/387–390; no issue-wide absence is asserted.
+Full 406-page accounting and final gap disposition remain pending.
 
 Human acceptance, full proofreading, source encoded bytes/exact spaces/glyph identities/counts,
 contacts/geographic/event/book/technical/historical claims, execution and independent backup
 recovery remain unverified.
 
-Next: Batch60 restores radar 0034's final software page, PDF 109/printed 107: TAL 1.0, BCD,
-ls 4.7 and PMAP, with three original screenshots/captions and separate body flows. Reuse retained
-109 and boundary views 108/110. Then actually assemble all nineteen body pages and project child
-0041's final anchor. Use pinned Batch56 community_adapter and its twelve-adapter dispatcher,
-within two tasks/six mapped/twenty outside pages. Full 406-page accounting, cover, standalone
-issue export and closeout remain. B+ tree 0012's referenced 〈리스트 2〉SAMPLE.C remains unlocated
-in bounded body 264–271/appendix 374–381/387–390; retain the gap without an unsupported issue-wide
-absence claim.
+Next: Batch61 actually assembles all nineteen radar 0034 body pages from radar-a, radar-b,
+radar-c and selected radar-d r02. Preserve all 740 native files, complete typed/source indexes,
+source occurrence contexts and original native metadata. Resolve the incoming 94→95 image-body
+link without inventing a text join, and project child 0041's five-topic reference and final
+anchor. Use pinned Batch56 community_adapter and its twelve-adapter dispatcher; add a frozen
+private radar adapter if needed while preserving thirty core modules. No new mapping, source
+lookup, OCR or correction is needed. Full 406-page accounting, gap dispositions, cover,
+standalone issue export and closeout follow. No reader rebuild.
 See [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 
