@@ -6,44 +6,43 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-September 1991 restoration is active: twenty readable/sample-reviewed articles,
-no partial articles, four non-owning group headings and five unresolved identities
+September 1991 restoration is active: twenty-one readable/sample-reviewed articles,
+no partial articles, four non-owning group headings and four unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch52 completes the port-conflict article0024, PDF380–381/printed378–379. Its
-three register steps, two diagrams and complete USECOM.C listing end before the
-independent Hangul appendix382. The department participation notice380 is retained
-as an associated editorial inset. No source pages or actual assembly remain pending.
-Canonical title, 편집부, own378 and no parent remain unchanged; the source program
-contributor 김형훈 is separate from the editorial article byline.
+Batch53 completes the third reader-seminar notice0025, PDF156–157. Neither page has a
+visible folio;both stay null while canonical own154/title/no byline/no parent remain unchanged.
+The original split SEMINAR banner,computer/microphone illustration,schedule and organizer
+footer are preserved. No notice body pages or actual assembly remain pending. Its reference
+to a seminar application form in the reader survey has an unverified target location;resolve
+that related link during community restoration and issue closeout,without claiming a missing page.
 
-Both 87-file exports and a fresh-process rebuild match. The package preserves 24 regions,
-17 blocks, six original figures and 18 OCR records. USECOM.C retains 31 physical rows,
-116 tokens, two arrays/eight values, three includes/three defines and its usage string.
-Three source steps connect to exact code rows; two diagrams retain sixteen bit cells
-and three callouts. The listing reference resolves within the article. All 992 typed ranges
-(676 article/316 listing),24 exact crops/decoded PNGs,18 pinned settings and ZIP CRC pass.
-All 34,763 prior files,thirty core modules,eleven adapters and51 earlier packages remain
-unchanged. Batch49's successful213-test baseline is reused for data-only work.
+Both 113-file exports and a fresh-process rebuild match. The package preserves30 regions,
+24 blocks,five original figures and25 OCR records. Three lecture rows/four headers/twelve data
+cells retain source wording,names,affiliations and physical wraps. The overall10:30 start and
+first lecture10:20 start remain separate literal readings. All295 typed article ranges,
+30 exact crops/decoded PNGs,25 pinned settings and ZIP CRC pass. All35,070 prior files,
+thirty core modules,eleven adapters and52 earlier packages remain unchanged. Batch49's
+successful213-test baseline is reused for data-only work.
 
-Both mapped full pages,three outside contexts,24 original crops and ten refinements were
-reviewed before18 recognitions. All18 raw drafts were read before one source correction
-pass;one eng code/seventeen kor+eng other regions,zero retries. Two dot-band manual tasks
-and24 glyph candidates remain explicit. Printed +1 port arithmetic,broken operator glyphs,
-repeated COM3 diagram label and GPO2/O0 ambiguity remain without technical repair.
-Human acceptance,full proofreading,encoded bytes/exact spaces/glyph identities/counts,
-hardware/technical/historical/contact claims and execution remain unverified. Earlier
-Director/Clipper/DOS/ppuri/LAN completion,array/Nanforum tasks and B+ tree SAMPLE.C gap stay exact.
+Both mapped full pages,four outside contexts and all30 crops were reviewed before25 kor+eng
+recognitions. All25 drafts were read before one source correction pass;zero new rendering,
+refinements or retries. Eighteen event/contact fields and28 glyph candidates retain their
+own source occurrences. Historical dates,times,location,fees,benefits,contacts and affiliations
+remain unverified. Human acceptance,full proofreading,encoded bytes/exact spaces/glyph identities/
+counts and independent backup recovery remain unverified. Earlier restoration and manual tasks
+stay exact,including the B+ tree SAMPLE.C gap. No reader rebuild.
 
-Next: Batch53 locates and verifies canonical0025,the third reader-seminar notice,using
-its own154 reference as a local clue. Actual source location/extent remain unverified;
-PDF154/156 and provisional154–159 mapping candidates do not establish a global folio offset.
-The independent interview0005 starts158 and remains unchanged. Verify source boundaries
-before mapping eligible pages. Use pinned Batch49 dos_adapter;eleven adapters/thirty core
-modules stay pinned. Five unresolved identities,remaining bodies,full406-page accounting,
-cover,issue export and closeout remain pending. B+ tree0012's referenced〈리스트 2〉 SAMPLE.C
-remains unlocated in bounded body264–271/appendix374–381/387–390;retain the gap for bounded
-lookup/full accounting without an issue-wide absence claim. No reader rebuild. See
+Next: Batch54 verifies community parent0026 and compound child0040 identities/body ownership
+from canonical own87. PDF87/89 and provisional89–94 mapping candidates are lookup clues,
+not verified body locations or a global folio offset. Verify local continuity and eligible pages;
+opening coverage alone cannot recover all seven listed topics. Preserve parent own87/child null
+own reference and their hierarchy. Locate the seminar application form under the survey topic
+and resolve its source link during issue work. Use pinned Batch49 dos_adapter;eleven adapters/
+thirty core modules stay pinned. Four unresolved identities,remaining bodies,full406-page
+accounting,cover,issue export and closeout remain pending. B+ tree0012's referenced〈리스트 2〉
+SAMPLE.C remains unlocated in bounded body264–271/appendix374–381/387–390;retain the gap for
+bounded lookup/full accounting without an issue-wide absence claim. See
 [September progress](docs/progress/9109.md) and
 [ledger](metadata/catalog/pdf-restoration/1991-09-progress.json).
 

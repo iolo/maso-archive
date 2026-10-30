@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1991-09",
   "status": "in-progress",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "source": {
     "id": "pdf-maso-9109",
     "path": "maso-pdf/maso-9109.pdf",
@@ -4263,12 +4263,86 @@
       "toc_entry_id": "maso-1991-09-toc-0025",
       "title": "제3회 마이크로소프트웨어 애독자를 위한 세미나 개최 안내",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 and actualsource156–157 announcementtitle identify canonical0025. Canonical own154/title/no byline/no parent unchanged;no sourcebyline invented. Neither actualnoticepage hasvisiblefolio,bothnull,not inferred154/155. Source154Macintoshad/155bookad and158independentinterview0005 bound complete2pagenotice.",
+        "Bothmappedfullpages/fouroutsidecontexts5/154/155/158 directlyviewed;all30originalcrops in8sheets reviewed before25kor+engrecognitions. All25drafts,including16tablecells anddamagedfooter,read beforeone sourcepass;zeronewrenders,eng,code,refinements or retries. Fullpagerenders reusedexactly.",
+        "The113-file complete native preserves30regions,24blocks,five originalfigures,25OCRrecords and52serializedreadingrows. SEM156+INAR157 joins with emptyseparator intoSEMINAR whilebothoriginalbannerpanels remain. Originalcomputer/microphoneillustration,scheduletable andorganizerfooter retained. Fourfiguretextlinks/one tablesourceheading association preservelettering.",
+        "Threelecturerows/fourcolumns,12datacells/fourheaders retain originalordering/timefields/topics/speakernames/affiliations/physicalwraps. Sourceheader시간 andKCR):)punctuation,prose사용자/table유저 wording remainliteral. Overallstart10:30 vs firstlecture10:20 explicitlypreserved,not repaired. Eighteen event/contactfields andbothindependentlyprintedcontactareas retainsourceoccurrences.",
+        "No bodypage oractualassembly pending. Relatedsurveyseminarapplicationformreference isexplicitly target-location-unverified,underfuturecommunity0040work. Noticebodycompletion doesnotclaimformreference resolution. Locateandresolveformtargetduringissuework;no missing-page/source-wideabsenceclaim.",
+        "Both113-file exports/freshprocessrebuild match. All295typedarticle-localranges validate in nameddownload/block/region/scan contexts.30crops exact/PNGdecode,25pinnedsettings andZIPCRC pass. All35070priorfiles,30coremodules,11adapters,source/TOC/runtime/queue and52earlierpackages unchanged. Batch49successful213-test baseline reused fordata-onlywork. One task/two mapped/four outside pages satisfybounds.",
+        "Twenty-eight glyphcandidatesretain originalpunctuation/dashes/tilde/postalglyph/logotype/names. No newmanualmarkers;earliermanualtasksunchanged. Humanacceptance/fullproofreading,sourceencodedbytes/exactspaces/glyphidentities/counts,historicaldates/times/venue/fees/benefits/names/affiliations/contacts andbackuprecovery remainunverified. No readerbuild,current-eventadvice orcore/adapterchange."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1991-09/packages/batch-53-r01/seminar",
+        "article_id": "scan-maso-1991-09-toc-0025",
+        "manifest": {
+          "path": "archive/pdf/1991-09/packages/batch-53-r01/seminar/manifest.json",
+          "sha256": "1d79ce2a695cbdf4862dd19f7383b5e4de1698cc3321021c670bb90aee5d3625",
+          "bytes": 19302
+        },
+        "coverage": {
+          "pdf_pages": [
+            156,
+            157
+          ],
+          "printed_pages": [
+            null,
+            null
+          ],
+          "regions": 30,
+          "blocks": 24,
+          "figures": 5,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "complete_article": true
+        },
+        "actual_start_pdf_page": 156,
+        "actual_end_pdf_page": 157,
+        "full_source_extent": {
+          "pdf_pages": [
+            156,
+            157
+          ],
+          "printed_pages": [
+            null,
+            null
+          ],
+          "all_pages_directly_viewed": true,
+          "note": "Complete2pagenotice156–157,no visiblefolios.155bookad/158interviewboundbody. Relatedsurveyapplicationformtargetremainsunverified,distinctfromcompletebodycoverage."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1991-09/restoration/batch-53/validation.json",
+          "sha256": "82c32925043850be9686f959db4c7e9dc1624f2a918f89d158186a9b9e883d3f",
+          "bytes": 2320
+        },
+        "reproduction": {
+          "path": "archive/pdf/1991-09/restoration/batch-53/reproduction.json",
+          "sha256": "8f01788730f9120d97516698e374cde9a7e41b18f1f87c6f642aff9286b8bef7",
+          "bytes": 20250
+        },
+        "checkpoint": "batch-53",
+        "related_reference_tasks": [
+          {
+            "status": "target-location-unverified",
+            "metadata_key": "source_application_form_reference",
+            "directory": "archive/pdf/1991-09/packages/batch-53-r01/seminar",
+            "corrections": {
+              "path": "archive/pdf/1991-09/packages/batch-53-r01/seminar/corrections.json",
+              "sha256": "f56794b46d71fbd91ad489ac91614afbb6d4a44a4f7827c3af6ac61faa888db3",
+              "bytes": 219189
+            },
+            "target_toc_entry_id": "maso-1991-09-toc-0040",
+            "note": "Locate seminarapplicationformwithin애독자설문지 duringcommunityrestoration;resolveactualtarget beforeissuecloseout. No bodypagegap asserted."
+          }
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1991-09-toc-0026",
@@ -6090,14 +6164,50 @@
         "sha256": "195f11bcb1119ff88826dff58924e6a7d6968ae3fa0ef7a321f64bb421e1f705",
         "bytes": 15716
       }
+    },
+    {
+      "name": "1991-09-batch-53",
+      "status": "complete",
+      "completed_at": "2026-10-30T15:03:29.741061+00:00",
+      "goal": "Locate andrestorecomplete third-reader-seminarnotice0025 PDF156–157 withoriginalschedule,event/contactdetails/artwork andliteralstart-timeconflict.",
+      "toc_entry_ids": [
+        "maso-1991-09-toc-0025"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        156,
+        157
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        5,
+        154,
+        155,
+        158
+      ],
+      "recognition_invocations": 25,
+      "recognition_retries": 0,
+      "unchanged_input_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1991-09/restoration/batch-53/validation.json",
+        "sha256": "82c32925043850be9686f959db4c7e9dc1624f2a918f89d158186a9b9e883d3f",
+        "bytes": 2320
+      },
+      "reproduction": {
+        "path": "archive/pdf/1991-09/restoration/batch-53/reproduction.json",
+        "sha256": "8f01788730f9120d97516698e374cde9a7e41b18f1f87c6f642aff9286b8bef7",
+        "bytes": 20250
+      }
     }
   ],
   "totals": {
     "canonical_entries": 29,
-    "readable": 20,
+    "readable": 21,
     "partial": 0,
     "group_headings": 4,
-    "unresolved": 5
+    "unresolved": 4
   },
   "notes": [
     "Initial source/TOC/runtime pins verified; no ownership or global folio offset inferred.",
@@ -6105,24 +6215,25 @@
     "Batch02:feature0001 actual opening116–117 differs from canonical124 reference,which remains unchanged. Only116–121 preserved now; feature ending not yet verified. Previous turn was progress,validated against current package/pins before batch02."
   ],
   "next_checkpoint": {
-    "name": "1991-09-batch-53",
-    "goal": "Locate and verify canonical0025 제3회 마이크로소프트웨어 애독자를 위한 세미나 개최 안내 from canonical own154;restore bounded eligible pages after actual source identity/start/end review.",
+    "name": "1991-09-batch-54",
+    "goal": "Verify community0026 애독자 광장 and compoundchild0040 identities/bodyownership fromcanonicalown87;establishactualsourcecontinuity andrestoreboundedeligibleopening.",
     "toc_entry_ids": [
-      "maso-1991-09-toc-0025"
+      "maso-1991-09-toc-0026",
+      "maso-1991-09-toc-0040"
     ],
     "mapping_targets": [
-      154,
-      155,
-      156,
-      157,
-      158,
-      159
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Port-conflict0024complete380–381;382independentHangulappendix alreadybelongs0010. Nextseminar0025 own154/no byline/no parent unchanged;actual source location/extent remains unverified. InspectPDF154and156 aslocalcandidates,not inferredglobaloffset. Provisional154–159mapping candidates only;independentinterview0005starts158 and remains exact,so do notmapunrelatedpages. Reuse retainednearbyviewswhereavailable. Preserve originaldate/time/location/schedule/fees/contactfields,figures/layout anduncertainties without convertinghistoricalnoticeintocurrentguidance. Eng independentcode/commands,kor+eng othertext. PinnedBatch49dos_adapter/11adapters/30coreunchanged. Fiveunresolvedidentities,remainingbodies/full406-pageaccounting,cover,issueexport andcloseoutpending. BtreeSAMPLE.Cgap/earliermanualtasks retained. No readerbuild or execution."
+    "note": "Seminar0025complete156–157;relatedsurveyseminarapplicationformtarget remainsunverified. Communityparent0026 own87/no parent andcompoundchild0040 nullown/parent0026/titles stayunchanged. InspectPDF87/89 aslocalcandidates,not globaloffsetorverifiedbodylocation. Provisional89–94mapping candidatesonly;verifyidentity/start/localcontinuations andactualeligiblepages. Determineparent/compoundchildownership withoutduplicatedpackages;do notclaimallsevenlistedtopicsrecoveredfromopeningalone. Trackseminarapplicationformunder애독자설문지 andresolve actualtargetduringcommunity/issuework. Respecttwo canonicaltasks/sixmapped/twentyoutsidepages. PinnedBatch49dos_adapter/11adapters/30coreunchanged. Fourunresolvedidentities,remainingbodies/full406-pageaccounting,cover,issueexport andcloseoutpending;BtreeSAMPLE.Cgap/earliermanualtasksunchanged. No readerbuild."
   }
 }
