@@ -35,25 +35,27 @@ September 1991 restoration is active: fourteen readable/sample-reviewed articles
 one partial article, three non-owning group headings and eleven unresolved identities
 account for all 29 canonical TOC entries.
 
-Batch39 restores the LAN article's second segment, PDF320–325/printed318–323.
-Twelve pages PDF314–325 are now preserved across two immutable natives. Fourteen
-later pages PDF326–339 and actual assembly remain pending. Intermediate PDF327–335,
-the prose conclusion and complete listing inventory remain unverified. The observed
-ending is listing21 DATAOUT.C on PDF339, before the independent 뿌리 article on PDF340.
+Batch40 restores the LAN article's third segment, PDF326–331/printed324–329.
+Eighteen pages PDF314–331 are now preserved across three immutable natives. The prose
+conclusion and closing mark are on PDF331, followed by the start of listing1 MAYONET4.C.
+Eight later pages PDF332–339 and actual assembly remain pending. Pages333–335 have not
+yet been directly reviewed; the complete listing inventory remains unverified. The observed
+ending remains listing21 DATAOUT.C on PDF339, before the independent 뿌리 article on PDF340.
 
-The new 428-file native preserves 116 regions, 87 blocks, fifteen original images and
-101 OCR records. Both exports and a fresh-process rebuild match. All 1,867 current text
-ranges, two prior-native ranges, 116 source crops, 101 settings (2eng/99kor+eng) and ZIP
-CRC pass; all 38 earlier checkpoints validate. Fourteen diagrams, the seven-command table,
-nineteen module labels and two printed DOS examples remain source-linked. One source
-correction pass, zero unchanged-input retries. Original glyphs and source claims remain
-unverified; sparse diagram drafts were completed directly from the reviewed scans.
+The new 407-file native preserves 113 regions, 81 blocks, eighteen original images and
+95 OCR records. Both exports and a fresh-process rebuild match. All 3,191 current text
+ranges, two prior-native ranges, 113 source crops, 95 settings (2eng/93kor+eng) and ZIP
+CRC pass; all 39 earlier checkpoints validate. Sixteen diagrams23–38, the conclusion,
+closing mark and partial C listing remain source-linked. The two printed C columns form
+one partial file with 84 source rows and 244 tokens. One source correction pass, zero
+unchanged-input retries. Printed misspellings, blank nodes and uncertain operators remain
+explicit; original glyphs, exact spacing and source claims are unverified.
 
-Next: Batch40 continues the same article on PDF326–331 after full-page/crop review.
-Preserve incoming PDF325 리턴 + PDF326 값 and resolve the figure23 reference in separate
-native contexts. The opening's PDF319 만 + PDF320 일 join and figure9 reference are now
-verified without changing either native. Use pinned Batch34 windows_adapter; eight
-private adapters and thirty core modules stay unchanged.
+Next: Batch41 continues the same article on PDF332–337 after full-page/crop review.
+Preserve listing1 MAYONET4.C's continuation and inventory later listings in source order.
+Incoming PDF325 리턴 + PDF326 값 and figure23 now resolve in separate native contexts,
+without changing either earlier native. Use pinned Batch34 windows_adapter; eight private
+adapters and thirty core modules stay unchanged.
 
 Prior array, Nanforum and LAN-opening manual glyph tasks remain explicit. B+ tree0012's
 referenced〈리스트 2〉SAMPLE.C remains unlocated in bounded inspected body264–271/
