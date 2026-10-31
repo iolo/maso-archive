@@ -15,13 +15,13 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: twelve readable/sample-reviewed articles,
 two partials, two non-owning group headings, three section references and 26 unresolved
-identities. Batch 32 preserves vaccine-toolkit continuation PDF 313–318 as 328 files
-that reproduce independently and in a fresh process. Nineteen procedure descriptions,
-result codes, byte-layout diagrams and a printed hex dump retain source context.
-Natives a/b now preserve twelve pages 307–318; the article remains partial.
-Fifteen selected roots contain 6,471 files; ten classification files are separate.
-Next: 319–324, then final 325 and actual nineteen-page assembly. Year-in-review feature
-0019's continuation remains unlocated. Other bodies, full issue accounting, cover,
+identities. Batch 33 preserves vaccine-toolkit continuation PDF 319–324 as 324 files
+that reproduce independently and in a fresh process. Practical examples, printed dumps,
+user notice and numbered listings retain source context and caption/banner conflicts.
+Natives a/b/c preserve eighteen pages 307–324; the article remains partial.
+Sixteen selected roots contain 6,795 files; ten classification files are separate.
+Next: final 325, then actual nineteen-page assembly. Year-in-review feature 0019's
+continuation remains unlocated. Other bodies, full issue accounting, cover,
 export/rebuild and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.
 

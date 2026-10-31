@@ -2838,7 +2838,13 @@
         "All 2,235 current typed ranges/seven blank occurrences, 532 physical reading rows, nineteen detailed procedure descriptions/308 physical parts, eighteen procedure continuations and one main-prose continuation validate. Fifteen result rows/thirty cells, eight byte-layout diagrams/64 fields and unknown wavy omission remain source-linked. Physical code/data/dump has 26 rows, including sixteen printed offsets and 256 hex-token candidates. Original images preserve all geometry/arrows/underlines.",
         "Source-only details confirm four F letters in both FFFFh returns and u-shaped PPSur candidate with PPStr alternative. The 92h prose and diagram agree on four register values with CS/SS adjusted by 10h; earlier prospective conflict note superseded. Literal source 0/10h enumeration then 1, boot-virus wording in file-virus note, top-memory wording in disk note, omitted error 8 and 주 000 retained. No software repair, original encoded-byte certification or execution claim.",
         "Initial export helper failed at Python compilation before outputs. Fresh helper corrects syntax and continued-note part classification. A later metadata-only revision adds the page 313 cross-column prose link in fresh inputs/output; all 509 copied execution inputs and article/listing bytes remain exact. No new OCR or source pass. Twenty-one consistently rehashed roots pass generic checks and fail private semantic audits.",
-        "All prior December files, 6,143 earlier selected files, ten classification files, 9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused with complete current data audits. Combined a/b coverage is twelve pages 307–318/630 package files; final 319–325 and nineteen-page assembly remain pending. Canonical title/byline/order/parent/reference and unrelated outcomes unchanged."
+        "All prior December files, 6,143 earlier selected files, ten classification files, 9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused with complete current data audits. Combined a/b coverage is twelve pages 307–318/630 package files; final 319–325 and nineteen-page assembly remain pending. Canonical title/byline/order/parent/reference and unrelated outcomes unchanged.",
+        "Batch 33 preserves PDF 319–324/individually read printed 344–349 as 324 independently/fresh-process exact files: 90 exact crops, 75 blocks and fifteen original images. All 75 complete raws read before one literal source pass; 32 eng/43 kor+eng, zero retries or within-pass repairs. Eight pre-OCR edge repairs retained, including clipped printed row 118 and leading zero in 034.",
+        "All 5,643 current typed ranges/435 blank occurrences, four private boundary ranges, 688 reading rows and 523 code/data/dump rows validate. 412 numbered rows retain all 61 numbered blanks without invented wraps; unnumbered Listing 1 has 29 rows/nineteen EXTRN declarations. Three main-prose joins and five code continuation associations retain intervening originals and source labels.",
+        "Figures 15–17 retain 832 visible dump-token candidates plus three hex-pair candidates in the separately printed jump text. Figure 15 omission/offset gap and Figure 17 partial first/last rows remain unknown at unprinted positions. All source arrows/underlines and annotation-token associations remain original/source-linked. The 12Ah star candidate and eight opaque banner-divider runs remain explicit.",
+        "Printed Listings 2/3/4 captions name LBC/Ping Pong/Jerusalem, while banners/program data name Dark Avenger/Jerusalem/LBC. Preserve both; no program reassignment. Original user notice retains historical copyright/registration/payment/address/three benefits separately from main prose; its claims are not current advice. Prose M on 321 does not end the body.",
+        "Initial export retained; fresh metadata-only revision corrects general numbered-row flags for 412 rows, with 505 exact copied execution inputs and unchanged article/listing bytes. Twenty-four consistently rehashed roots pass generic checks and fail private semantic audits. All 33,054 prior December files, 6,471 earlier selected files, ten classification files, 9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused with complete current audits; no full-issue accounting claim.",
+        "Natives a/b/c preserve eighteen pages 307–324/954 files; final 325 and actual nineteen-page assembly remain required. Incoming 318 complete explanatory sentence introduces current 319 data without a prose/code join. Current 324 blank label 103 continues at 325 label 104, with no physical code-line join. Canonical identity/title/byline/order/parent/reference and unrelated outcomes unchanged."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/batch-31-r01/vaccine-a",
@@ -2869,16 +2875,10 @@
           "blocks": 59,
           "figures": 13,
           "deferred_pdf_pages": [
-            319,
-            320,
-            321,
-            322,
-            323,
-            324,
             325
           ],
           "remaining_extent_unverified": false,
-          "note": "Root directory/manifest/coverage describe immutable opening native a on 307–312. Native b on 313–318 is selected separately in native_segments; combined preserved coverage is 307–318. Actual assembly remains pending."
+          "note": "Root directory/manifest/coverage describe immutable opening native a on 307–312. Natives b/c on 313–318/319–324 are separately selected in native_segments; combined preserved coverage is 307–324. Actual assembly remains pending."
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -2898,43 +2898,43 @@
           315,
           316,
           317,
-          318
-        ],
-        "remaining_pdf_pages": [
+          318,
           319,
           320,
           321,
           322,
           323,
-          324,
+          324
+        ],
+        "remaining_pdf_pages": [
           325
         ],
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-32/validation-r02.json",
-          "sha256": "6d9e3dffa2b682dcf0ae9e3bfb66601afda4228b406f864b819d3cc49ce15793",
-          "bytes": 1246
+          "path": "archive/pdf/1992-12/restoration/batch-33/validation.json",
+          "sha256": "77239fcc1ff2f4cd363da193c152017c4a83e6fa04c096cd087409eee61869e3",
+          "bytes": 1402
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-32/reproduction-r02.json",
-          "sha256": "5b297d2c06e29f94da6f9996604e24e9470f2bcf534b022438dc7d3f9e4693ab",
-          "bytes": 57331
+          "path": "archive/pdf/1992-12/restoration/batch-33/reproduction-r02.json",
+          "sha256": "9890749580c7388c5ca1c0f7466a8d9d0095b431ce148cf80f8e211453ffe109",
+          "bytes": 58504
         },
         "fresh_process_reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-32/fresh-process-reproduction-r02.json",
-          "sha256": "80aecb5af37dc3ac210b1ed2a0c5314fde3776f255329d0c196ec1288ec90cc3",
-          "bytes": 57145
+          "path": "archive/pdf/1992-12/restoration/batch-33/fresh-process-reproduction.json",
+          "sha256": "3c826022f8c61bad1ead1039bb9d149e1353db16fa5076f80cf58ec4c3dd9d5d",
+          "bytes": 58318
         },
         "boundary_evidence": {
-          "path": "archive/pdf/1992-12/restoration/batch-32/source-ending-and-boundaries-r02.json",
-          "sha256": "b293d6134cbc264ca914f8797a11ebd76edefb4b6a8c6697b78aea425cc1b9a4",
-          "bytes": 3745
+          "path": "archive/pdf/1992-12/restoration/batch-33/source-ending-and-boundaries-r02.json",
+          "sha256": "2c07380c3c9b5304cb586802485836d90a4d3a4f20500ef954735e1987e4d73b",
+          "bytes": 6074
         },
         "negative_checks": {
-          "path": "archive/pdf/1992-12/restoration/batch-32/negative-checks-r02.json",
-          "sha256": "9e2aabfbefffd44d9d2a2f894f94dc4bbb871ce5b1932c04726796c9df696b5e",
-          "bytes": 4167
+          "path": "archive/pdf/1992-12/restoration/batch-33/negative-checks.json",
+          "sha256": "1df39ea9c5e3a02adb06a24d6087f8a011ec13f5cbe045d64c1dd346d922479f",
+          "bytes": 4799
         },
-        "checkpoint": "batch-32",
+        "checkpoint": "batch-33",
         "native_segments": [
           {
             "name": "a",
@@ -3009,6 +3009,43 @@
               "sha256": "b293d6134cbc264ca914f8797a11ebd76edefb4b6a8c6697b78aea425cc1b9a4",
               "bytes": 3745
             }
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1992-12/packages/batch-33-r02/vaccine-c",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-33-r02/vaccine-c/manifest.json",
+              "sha256": "38393cb8070dfdf1b1c6dfa8a276efd5849518f08f59d65748c5b3ede06460df",
+              "bytes": 58098
+            },
+            "pdf_pages": [
+              319,
+              320,
+              321,
+              322,
+              323,
+              324
+            ],
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-33/vaccine-c-r03/package-recipe.json",
+              "sha256": "bbc44e35c59c12466859d635c605df86fde066a87149cb3acf414e6003c44a47",
+              "bytes": 15171
+            },
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-33/validation.json",
+              "sha256": "77239fcc1ff2f4cd363da193c152017c4a83e6fa04c096cd087409eee61869e3",
+              "bytes": 1402
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-33/reproduction-r02.json",
+              "sha256": "9890749580c7388c5ca1c0f7466a8d9d0095b431ce148cf80f8e211453ffe109",
+              "bytes": 58504
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-33/source-ending-and-boundaries-r02.json",
+              "sha256": "2c07380c3c9b5304cb586802485836d90a4d3a4f20500ef954735e1987e4d73b",
+              "bytes": 6074
+            }
           }
         ],
         "full_source_extent": {
@@ -3055,7 +3092,7 @@
             "350"
           ],
           "uninspected_interior_pdf_pages": [],
-          "note": "All nineteen source body pages 307–325 directly reviewed; folios 332–350 locally read. Prose M closes 321, while printed listings continue through final Listing 5 label 131 END Start on 325. Immutable natives a/b preserve twelve pages 307–318; final seven pages 319–325 and actual assembly remain required. No global folio offset inferred."
+          "note": "All nineteen source body views 307–325 directly reviewed; folios 332–350 locally read. Prose ends with M and separate user notice on 321, while printed listings continue through final Listing 5 label 131 END Start on 325. Immutable natives a/b/c preserve eighteen pages 307–324; final 325 and actual assembly remain required. No global folio offset or prose-mark-derived ending inferred."
         },
         "source_fragment_limits": [
           "Three classification trees and two hierarchical analysis outlines retain original images and explicit source hierarchy; no rectangular cell matrices inferred.",
@@ -3064,7 +3101,11 @@
           "All nineteen detailed procedure descriptions now preserved in native b, with source input/output registers, return values, notes and physical fragments. The incoming 312 프 / 313 로시져는 join validates both native download/scan contexts; assembly remains pending.",
           "Original program/header/library bytes, exact glyphs/spaces/encoded commands, historical/technical truth and execution unverified.",
           "Native b retains fifteen result rows/thirty cells, eight byte-layout diagrams/64 fields, Figure 14 sixteen-offset/256-token printed hex dump and six small practical-example fragments/ten physical rows. Figure 12 omission length remains unknown. No original encoded program recovery or opcode interpretation.",
-          "Both source return values print FFFFh. The 92h prose and diagram retain four register values with CS/SS adjusted by 10h; prior prospective conflict wording is superseded by explicit source-reading decisions. PPSur is the u-shaped identifier candidate, with PPStr unresolved alternative. Literal 0/10h/1 distinction, procedure 12/15 note terminology, procedure 16/18 error-8 omission and 주 000 remain unchanged."
+          "Both source return values print FFFFh. The 92h prose and diagram retain four register values with CS/SS adjusted by 10h; prior prospective conflict wording is superseded by explicit source-reading decisions. PPSur is the u-shaped identifier candidate, with PPStr unresolved alternative. Literal 0/10h/1 distinction, procedure 12/15 note terminology, procedure 16/18 error-8 omission and 주 000 remain unchanged.",
+          "Native c preserves remaining practical examples, original Figures 15–17/dump annotations/omission, independent user notice/prose closing, complete printed Listings 1–3 and Listing 4 labels 001–103. Lists 2/3/4 caption/program-banner subjects differ literally. Printed source is not recovered or executed software.",
+          "Figure 15 explicit omission/offset gap and Figure 17 partial 9410/9510 rows remain unreconstructed. 832 displayed dump-token candidates plus three concatenated jump-pair candidates do not certify original bytes or opcode meaning. Source 12Ah* candidate retained without inferred repair or footnote meaning.",
+          "Eight source-linked U+E100–U+E107 banner-run markers retain unknown divider counts. Native-a graphic keys use overlapping code points with different source occurrences; preserve each native-scoped meaning and range at assembly without altering immutable natives.",
+          "Final 325 continues Listing 4 at printed 104 after current blank 103, then Listing 5 ends at 131 in lower-right inset after 120. No physical code-line join is required across 324→325. Actual nineteen-page assembly must preserve all native custom indexes, source execution-map provenance and original pixel/label contexts."
         ]
       }
     },
@@ -4840,6 +4881,57 @@
         "sha256": "9e2aabfbefffd44d9d2a2f894f94dc4bbb871ce5b1932c04726796c9df696b5e",
         "bytes": 4167
       }
+    },
+    {
+      "name": "1992-12-batch-33",
+      "status": "complete",
+      "completed_at": "2026-10-31T21:22:28.353125+00:00",
+      "goal": "Restore six vaccine-toolkit continuation pages with remaining practical examples, original dumps/notice/prose ending and beginning printed listings.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0024"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        319,
+        320,
+        321,
+        322,
+        323,
+        324
+      ],
+      "outside_lookup_pages": 7,
+      "outside_lookup_pdf_pages": [
+        307,
+        318,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "recognition_invocations": 75,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 8,
+      "pre_ocr_distinct_changed_regions": 8,
+      "within_pass_crop_repairs": 0,
+      "metadata_only_export_revisions": 1,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-33/validation.json",
+        "sha256": "77239fcc1ff2f4cd363da193c152017c4a83e6fa04c096cd087409eee61869e3",
+        "bytes": 1402
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-33/reproduction-r02.json",
+        "sha256": "9890749580c7388c5ca1c0f7466a8d9d0095b431ce148cf80f8e211453ffe109",
+        "bytes": 58504
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-33/negative-checks.json",
+        "sha256": "1df39ea9c5e3a02adb06a24d6087f8a011ec13f5cbe045d64c1dd346d922479f",
+        "bytes": 4799
+      }
     }
   ],
   "totals": {
@@ -4856,31 +4948,24 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-33",
-    "goal": "Restore vaccine-toolkit continuation 319–324 as native c, including remaining practical examples, printed dump diagrams, user notice/prose ending and beginning numbered listings.",
+    "name": "1992-12-batch-34",
+    "goal": "Restore final vaccine-toolkit PDF 325 as immutable native d, then actually assemble and independently reproduce the complete nineteen-page article 307–325 from all four regenerated natives.",
     "toc_entry_ids": [
       "maso-1992-12-toc-0024"
     ],
     "mapping_targets": [
-      319,
-      320,
-      321,
-      322,
-      323,
-      324
+      325
     ],
     "candidate_mapping_targets": [
-      319,
-      320,
-      321,
-      322,
-      323,
-      324
+      325
     ],
     "initial_lookup_candidates": [
       307,
+      312,
+      313,
       318,
-      325,
+      319,
+      324,
       326,
       327,
       328,
@@ -4892,7 +4977,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Immutable natives a/b preserve 307–318. Restore at most six distinct pages 319–324; final 325 and actual nineteen-page assembly remain required afterward. Current 318 ends a complete sentence introducing following 319 data; preserve association without a prose/code midword join. Prose M on 321 is not the body ending: listings continue through 325, final Listing 5 label 131 END Start in lower-right inset after 120. Keep all caption/program-banner conflicts and printed numbering/wraps/defects literal. Preserve native-a hierarchy/list/graphic-key indexes and native-b procedure/result/byte-layout/dump/omission indexes during assembly. Source PPSur candidate has unresolved PPStr alternative; FFFFh and 92h source-reading decisions supersede earlier prospective notes. Review whole pages and exact crops before mapped Tesseract, eng code/kor+eng other text, read all complete raws before one literal source pass. Fifteen selected roots contain 6,471 files; ten classification files separate. Feature 0019 continuation/children 0020/0021 remain pending. Other bodies/assemblies, full 446-page accounting, cover, standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
+    "note": "Final 325/locally read 350 continues Listing 4 at 104 after native-c blank 103, then contains complete Listing 5 with final label 131 END Start in lower-right inset after 120. Preserve caption/program-banner conflicts, all labels/numbered blanks/physical rows and inset reading order. No physical code-line join across 324→325. Prose M/user notice on 321 do not end the body. Restore/reproduce final native before actual assembly; regenerate exact native a/b/c inputs and verify original execution-map/crop/raw/TSV/settings provenance for copied-input revisions. Preserve/project every native custom range/index: a trees/outlines/numbered lists/diagrams/graphic keys/source MASM colons; b nineteen procedures/parts/registers/results/table/byte layouts/unknown omission/dump/PPSur candidate; c numbered listings/blank margins/source conflicts/dumps/unknown gaps/star/banner graphics/notice/prose joins. Native a and c reuse some PUA code points for different original graphics: retain scoped occurrences, meanings and byte ranges without rewriting immutable natives. Resolve observed later listing references only against actual mapped occurrences, preserving source caption/banner disagreement. Preserve all four immutable natives and derive real combined text/listing/assets with independent/fresh-process rebuilds and invalid-data checks; do not claim readable from page coverage alone. Sixteen selected roots currently contain 6,795 files, ten classification files separate. Feature 0019 continuation/children 0020/0021 remain pending. Other bodies/assemblies, full 446-page accounting, cover, standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
