@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: twelve readable/sample-reviewed
-articles, no partials, two non-owning group headings, three section references and 28 unresolved
+articles, one partial, two non-owning group headings, three section references and 27 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -278,18 +278,33 @@ retries/crop repairs. Failed helper/import and pin-path verifier checks retained
 fresh revisions pass without source/OCR changes. Twenty invalid cases rejected,
 including thirteen consistently rehashed roots. Earlier files and core remain exact.
 
-Next: verify year-in-review feature 0019's actual extent, folios and ownership from
-independent opening 299/printed 289, then restore at most six opening pages,
-provisionally 299–304. Its actual ending remains unverified. Preserve canonical and
-source title forms; children 0020/0021 need complete body/assembly/final anchors before
-final classification. Do not infer extent from the next TOC reference or a global
-folio offset. Twelve readable articles, no partials, two group headings, three section
-references and 28 unresolved identities remain. Twelve selected roots contain 5,808
-files; ten classification files are separate. Install the new private batch-28/tetris_adapter
-with the eight prior adapters when checking all roots.
-Remaining bodies/assemblies, full 446-page accounting, cover, standalone issue export,
+Batch 29 preserves year-in-review feature 0019's confirmed opening on PDF 299 as
+a partial package: 33 independently/fresh-process exact files, seven exact crops,
+six text blocks and the original full-page composition. All six kor+eng raw drafts
+were read before one literal source pass; zero retries or crop repairs. Two introductory
+paragraphs, title/credit/outline forms, eighteen physical reading rows including one
+blank separator, 48 current typed ranges and two private boundary ranges validate.
+Twelve consistently rehashed false ownership/folio/extent/completion/absence/recovery/
+glyph claims are rejected. Earlier packages, source, reference files and core stay exact.
+
+Source evidence supersedes the prior provisional handoff: PDF 299 has no visible
+printed folio; 289 is its canonical contents reference. Physical 300–305 print 325–330
+and contain unrelated shell listings. Page 306 is advertising; 307–317 contain the
+separate vaccine-toolkit article. Only opener 299 is confirmed feature content in
+this bounded review. Its continuation, intrinsic section bodies and ending remain
+unlocated. No 299–304 extent, missing-page count or source-wide absence is inferred.
+Children 0020/0021 remain unresolved; the opening outline is not a final body anchor.
+
+Next: bounded continuation-location search for feature 0019, initially outside pages
+290–297 and 318–329 (twenty pages, no new mapping/OCR). Save page-level source evidence
+and locally read folios/material/ownership. Reuse prior review evidence to choose any
+later search range. A discovered continuation needs its own bounded mapping checkpoint.
+Twelve readable articles, one partial, two group headings, three section references
+and 27 unresolved identities remain. Thirteen selected roots contain 5,841 files;
+ten classification files are separate. Keep all nine private adapters for all-root checks.
+Other bodies/assemblies, full 446-page accounting, cover, standalone issue export,
 independent rebuilds and closeout remain required. Human acceptance/full proofreading,
-original encoded bytes/exact glyphs/spaces, technical truth and execution are unverified.
+original encoded bytes/exact glyphs/spaces and historical/technical truth remain unverified.
 No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

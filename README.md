@@ -14,12 +14,12 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: twelve readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 28 unresolved
-identities. Batch 28 completes Tetris PDF 272–279: all 379 files reproduce from two
-regenerated natives. Five complete listings retain 506 labels and 100 numbered blanks;
-three original diagrams, six examples and four unresolved border tails remain intact.
-Twelve selected roots contain 5,808 files; ten classification files are separate.
-Next: verify year-in-review feature 0019's extent from PDF 299 and restore its opening.
+one partial, two non-owning group headings, three section references and 27 unresolved
+identities. Batch 29 preserves year-in-review feature 0019's opening on PDF 299:
+33 files reproduce independently and in a fresh process. Its continuation and ending
+remain unlocated; following pages contain unrelated material. Page 299 has no visible
+folio; 289 is its contents reference. Thirteen selected roots contain 5,841 files;
+ten classification files are separate. Next: bounded continuation-location search.
 Remaining bodies, full issue accounting, cover, export/rebuild and closeout remain
 pending. See the [December record](docs/progress/9212.md). No reader rebuild.
 
