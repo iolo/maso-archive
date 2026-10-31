@@ -6,6 +6,20 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+December 1992 is in progress at the owner's request. Batch01 completes canonical
+column0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF108–110/printed98–100.
+One readable/sample-reviewed article and44 unresolved identities account for45
+canonical entries. All94 independent JSON/assets export files are exact;23 native
+crops match retained renders. All21 raw mapped Tesseract drafts were read, then
+corrected once against scans, with zero OCR retries. Four section headings, two
+original images, two pull quotes, an attributed closing quote and six continuation
+boundaries remain explicit. The old araea glyph is a source-linked approximation.
+Next: verify feature0001, listed at146, and restore a bounded opening segment.
+Remaining bodies/assemblies, full446-page accounting, cover, issue export/rebuilds
+and closeout remain pending. No global offset inferred and no reader rebuild.
+See [December progress](docs/progress/9212.md) and
+[ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
+
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
 headings and two non-owning section references, with no partial or unresolved entries.

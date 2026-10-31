@@ -29,6 +29,31 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## December 1992 in progress, 2026-10-31
+
+The owner requested the complete December 1992 issue under this plan and
+`PLAN-OCR.md`. The source PDF has 446 physical pages and 45 canonical TOC
+identities. Batch01 restores canonical0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자,
+as a complete three-page article: PDF108–110, individually verified printed98–100.
+One article is readable/sample-reviewed; 44 identities remain unresolved.
+
+The two independent JSON/assets exports contain 94 exact files. All23 native
+crops match source render pixels; all21 mapped Tesseract drafts were read and
+source-corrected once, with zero OCR retries. Four section headings, two original
+images, two independent pull quotations, a separately attributed closing quotation
+and six continuation boundaries are retained. A pre-OCR crop revision is preserved;
+the old araea product-name glyph remains an explicit source-linked approximation.
+The checkpoint uses one canonical task, three mapped pages and seventeen outside
+lookups. Prior September reference files and thirty core modules remain exact.
+
+Next: bounded source review and opening restoration of feature0001, listed at146.
+No global PDF/folio offset, final feature extent or child ownership is inferred.
+Remaining article bodies/assemblies, full446-page accounting, cover, standalone
+issue export, independent rebuilds and closeout remain required. Human acceptance,
+full proofreading and original bytes/glyph identities remain unverified.
+No reader rebuild. See [December progress](docs/progress/9212.md) and
+[ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
+
 ## September 1991 closeout, 2026-10-31
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:

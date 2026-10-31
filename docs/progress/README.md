@@ -27,6 +27,8 @@ notes for targeted investigation, not as instructions to restart completed work.
 
 | September 1991 | [9109.md](9109.md) — restoration pass complete; 23 readable articles, four non-owning headings, two anchored section references; 9,332 JSON/assets files independently exact; all 406 pages accounted; two original-content gaps and one related-form reference final unrecovered; donated cover reproduced; 213 fresh tests pass; human proofreading/volunteer glyph work unverified; no reader rebuild |
 
+| December 1992 | [9212.md](9212.md) — in progress; one readable/sample-reviewed article, 44 unresolved identities; first three-page column independently rebuilt into 94 exact files |
+
 | Shared scope | Records |
 | --- | --- |
 | Inventory, covers, pilots, contracts and batch qualification | [foundation.md](foundation.md) |

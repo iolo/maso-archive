@@ -23,6 +23,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+December 1992 is now in progress at the owner's request. Batch01 completes
+column0005 on PDF108–110/printed98–100: one readable/sample-reviewed article,
+44 unresolved identities among45. All94 independent export files and23 native
+crops are exact;21 mapped Tesseract invocations, one source correction pass and
+zero OCR retries. The first narrow crop map is retained; nine boundaries were
+enlarged before recognition. All raw drafts were read before correction.
+Next is bounded source review and opening restoration of feature0001, listed at146.
+No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
+446-page accounting, cover, export and closeout remain pending. No reader rebuild.
+See [December progress](docs/progress/9212.md) and
+[ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
+
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
 headings and two non-owning section references, with no partial or unresolved entries.
