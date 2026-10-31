@@ -1884,7 +1884,7 @@
       "parent_id": "maso-1992-12-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent opening 242/printed 232 has series C++로 작성한 3차원 그래픽 라이브러리 with boxed digit 4, title 빛과 조명, subtitle —light, sspace, sobject 클래스 제작— and credit 글. 박재홍 (서강대 전자계산학과). Canonical title, byline, order, parent 0010 and reference 232 unchanged. Actual eleven-page body 242–252 directly reviewed; final five pages and actual assembly remain required.",
@@ -1892,15 +1892,21 @@
         "The original palette diagram retains six printed ranges, three intensity groups, nine saturation bands and 51 searchable label occurrences. Table 2 inside the complete independent mathematical sidebar retains seven data rows, 35 data cells, five headers, negative zero -0.00 and 21 parenthesized color values. Four screen captions retain source order 2, 1, 3, 4; two vector diagrams and the five-episode series panel/current fourth episode keep exact contexts.",
         "Twenty-nine descriptive catalogue entries, seven attributes and 22 methods across colorcontroller/light/sspace groups 4/11/14 retain 31 physical rows and two wraps. Printed int/double lux_a discrepancy, lightptr period and getillumination trailing dot remain source candidates. Seven internal groups retain fifteen boundaries, including seven table-row layout boundaries. The independent sidebar joins 얻 / 었는데; main prose ends 의미있 for continuation on 248 with intervening native content explicitly recorded.",
         "The faint source operator remains explicitly unresolved at U+E100, with original crop and enlarged detail retained. No operator inferred from expected C++. Literal cosθ=a · b / |a| · |b| and technical claims remain unchanged. Fifteen opaque variants, original title/credit forms, caption sub ject and physical identifier/constant wraps remain source-linked. Original encoded headers/program/marble geometry, exact spaces/glyph identities and execution unverified.",
-        "Ten altered custom-data cases rejected with outer hashes bypassed, including lost numeric cell, normalized negative zero, wrong valid numeric/declaration occurrence, flattened palette, invented resolved glyph, changed caption order, sidebar attached to main prose, premature completion and invented original header recovery. This is a private current-data audit, not generic core enforcement of all custom fields. All 19922 prior December files, 4041 earlier selected files, ten classification files, 9332 September reference files and thirty core modules remain exact with source/runtime/TOC/queue. Unchanged 213-test baseline reused with complete current native/range/pixel/structure/source/ownership audits. Human acceptance/full proofreading and technical accuracy unverified."
+        "Ten altered custom-data cases rejected with outer hashes bypassed, including lost numeric cell, normalized negative zero, wrong valid numeric/declaration occurrence, flattened palette, invented resolved glyph, changed caption order, sidebar attached to main prose, premature completion and invented original header recovery. This is a private current-data audit, not generic core enforcement of all custom fields. All 19922 prior December files, 4041 earlier selected files, ten classification files, 9332 September reference files and thirty core modules remain exact with source/runtime/TOC/queue. Unchanged 213-test baseline reused with complete current native/range/pixel/structure/source/ownership audits. Human acceptance/full proofreading and technical accuracy unverified.",
+        "Batch23 preserves final248–252/238–242 as a194-file immutable native:47 exact crops,37 blocks,one original M mark,22 eng code/24 kor+eng other-text outcomes. All46 complete raws read before one literal source pass;zero retries or within-pass repairs. Six pre-OCR crop repairs and a failed notes-field schema preflight remain archived. Prose ends249; four complete printed listings continue through252 above an independent lower office-relocation advertisement.",
+        "Actual readable eleven-page assembly contains657 independent/fresh-process exact files from two regenerated natives/648 files. All165 exact crops,130 blocks,ten original images,155 settings,5372 projected metadata ranges,10644 current typed occurrences including636 empty anchors and10470 native-source links validate. Eight private ranges and155 source-local transcript pins also pass. Original natives/metadata remain byte-exact.",
+        "Four complete printed listings preserve42/158/158/40 numbered occurrences,78 empty program rows including three graphic dividers,21 unnumbered physical wraps and419 physical listing rows. Every logical row independently partitions its original physical rows/newlines. Graphic rules stay image-linked, not inferred program syntax. Forty descriptive declarations across four classes retain45 physical rows,ten attributes and30 methods; source catalogue groups are4/11/15/10.",
+        "One main-prose join retains247 의미있 / 248 는 조도를 구할 수 있다. with ten explicit intervening figure/sidebar/table contexts. Complete independent sidebar stays separate. All palette51 labels,Table2 35 cells/five headers,negative zero,21 parenthesized colors,screen order2/1/3/4,series current episode4 and original formula/claims retain root/native associations. Table header_region is explicitly namespaced.",
+        "Opening U+E100 operator remains unresolved. Final U+E101 operator at Listing2 label131 and U+E102 original panel-edge-obscured getvertex tail at Listing3 label111 are also unresolved placeholders, not recovered source characters or inferred valid C++. Printed single-l colorcontroler,missing row137 semicolon,int/double lux_a discrepancy and original declaration dots remain. Literal prose Listing3 claim is linked separately to actual printed Listing2 rows128–140 without rewriting either source.",
+        "Seventeen invalid native/recipe/rehashed-root cases rejected,including ten consistently rehashed roots covering table/palette/sidebar/header/declaration/caption/flow/unresolved-span/original-file claims. Supplemental audit partitions all398 logical rows into419 physical rows and pins enlarged reading-detail provenance,including the first missed-target detail. All21429 prior December files,4495 earlier selected files,ten classification files,9332 September reference files and thirty core modules remain exact with source/runtime/TOC/queue. Unchanged213-test baseline reused with complete current audits. Human acceptance/full proofreading,original encoded bytes/exact glyphs/spaces,technical accuracy and execution unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-22-r01/shading-a",
+        "directory": "archive/pdf/1992-12/packages/shading-r01",
         "article_id": "scan-maso-1992-12-toc-0015",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-22-r01/shading-a/manifest.json",
-          "sha256": "5745d3d7b519e295852fe422ccc38fd36f45ce74f9fb6419759da9aac43640b7",
-          "bytes": 79344
+          "path": "archive/pdf/1992-12/packages/shading-r01/manifest.json",
+          "sha256": "79708f76bdf08fe21e0b733762a1a0267996224972376692f09e4d69a2fcac3d",
+          "bytes": 121630
         },
         "coverage": {
           "pdf_pages": [
@@ -1909,7 +1915,12 @@
             244,
             245,
             246,
-            247
+            247,
+            248,
+            249,
+            250,
+            251,
+            252
           ],
           "printed_pages": [
             "232",
@@ -1917,23 +1928,22 @@
             "234",
             "235",
             "236",
-            "237"
+            "237",
+            "238",
+            "239",
+            "240",
+            "241",
+            "242"
           ],
-          "regions": 118,
-          "blocks": 94,
-          "figures": 9,
-          "deferred_pdf_pages": [
-            248,
-            249,
-            250,
-            251,
-            252
-          ],
+          "regions": 165,
+          "blocks": 130,
+          "figures": 10,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 242,
         "actual_end_pdf_page": 252,
         "actual_ending_observed": true,
@@ -1943,36 +1953,35 @@
           244,
           245,
           246,
-          247
-        ],
-        "remaining_pdf_pages": [
+          247,
           248,
           249,
           250,
           251,
           252
         ],
+        "remaining_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-22/validation.json",
-          "sha256": "b83de1b6bf16e565ed2ffaa1c0a0495625d3cc71b29b9fa4506c890cd4491a41",
-          "bytes": 3460
+          "path": "archive/pdf/1992-12/restoration/batch-23/validation.json",
+          "sha256": "e994ef55716770bf1ba9489d48096a026110f159c22e87ef544a85e13b00b28f",
+          "bytes": 3856
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-22/reproduction.json",
-          "sha256": "de9b73b93942e6bf685df6465b02b1f65cdf402700b7a0e9e24dc02f053a13fb",
-          "bytes": 80400
+          "path": "archive/pdf/1992-12/restoration/batch-23/assembly-reproduction.json",
+          "sha256": "1e6a3c2695053e6fb296cbaed5c2db6ca59b9bf3b993fa7f6cd779f8bcedf394",
+          "bytes": 123050
         },
         "fresh_process_reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-22/fresh-process-reproduction.json",
-          "sha256": "8afa204fcd9929ce925c20c94446ce065fef5b4b69aea7f0ecec3655d77b2d0a",
-          "bytes": 79634
+          "path": "archive/pdf/1992-12/restoration/batch-23/fresh-process-reproduction.json",
+          "sha256": "113be402f9baa805606479ce7312fff690d8a2ccd5bf762ced5332c8871a6822",
+          "bytes": 121837
         },
         "boundary_evidence": {
           "path": "archive/pdf/1992-12/restoration/batch-22/source-ending-and-boundaries.json",
           "sha256": "cc5d3fa8eac8472cfd614f7e7dfb475e81f84a2630387529e617524e20712dcc",
           "bytes": 7095
         },
-        "checkpoint": "batch-22",
+        "checkpoint": "batch-23",
         "native_segments": [
           {
             "name": "a",
@@ -2005,6 +2014,37 @@
               "sha256": "cc5d3fa8eac8472cfd614f7e7dfb475e81f84a2630387529e617524e20712dcc",
               "bytes": 7095
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-23-r01/shading-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-23-r01/shading-b/manifest.json",
+              "sha256": "0fb518a632e8ab45d2297c1a814721fc116a6a696914ff27b96afeef003ddbdb",
+              "bytes": 33904
+            },
+            "pdf_pages": [
+              248,
+              249,
+              250,
+              251,
+              252
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-23/validation.json",
+              "sha256": "e994ef55716770bf1ba9489d48096a026110f159c22e87ef544a85e13b00b28f",
+              "bytes": 3856
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-23/native-b-reproduction.json",
+              "sha256": "a8be7357ddcaf121707c84fe8b6aa80bed9a46e2c2d404c859fa241735351b3e",
+              "bytes": 34370
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-23/final-boundaries.json",
+              "sha256": "425a4f1808a6460fa8b191f4980f75cca9cc5c2b74d678009f0d823c52c07190",
+              "bytes": 7293
+            }
           }
         ],
         "full_source_extent": {
@@ -2035,14 +2075,46 @@
             "242"
           ],
           "uninspected_interior_pdf_pages": [],
-          "note": "All eleven whole body views directly reviewed for ownership/continuity. Main prose continues 247 의미있 / 248 는 조도를 구할 수 있다.; independent mathematical sidebar on 247 is complete and must remain separate. Prose closes 249 with the M mark; four printed listings continue through 252 above an independent lower office-relocation advertisement. 253 is a full advertisement; 254 opens Fractint by 나원규 and 255 continues. Current native preserves 242–247 only. Every folio read locally; no global offset inferred."
+          "note": "Actual complete eleven-page article 242–252 assembled from independently regenerated immutable natives. Main prose joins 247 의미있 / 248 는 조도를 구할 수 있다. with ten explicit intervening figure/sidebar/table items. Independent complete mathematical sidebar remains separate. Closing prose/M mark end on249; four complete printed listings continue through252 above excluded independent lower office-relocation advertisement. All folios232–242 read locally; 253 advertisement, 254 independent Fractint opening/255 continuation. No global offset inferred. Canonical title/byline/order/parent/reference unchanged."
         },
         "source_fragment_limits": [
-          "One faint cross-product operator on 247 remains unresolved. U+E100 is an explicit searchable placeholder with source/context ranges, not a recovered original glyph or inferred C++ operator.",
-          "Twenty-nine descriptive declarations retain 31 physical rows, two wraps, double/int lux_a differences, light. *lightptr and the trailing dot after getillumination. Original headers/program/marble geometry encoded files are unrecovered; descriptions are not repaired into compilable code.",
-          "The palette is preserved as an original hierarchical image plus 51 logically ordered searchable labels. Table 2 retains 35 data cells, five headers, negative zero and 21 parenthesized color values; tabs are declared serialization boundaries, not recovered source spaces.",
-          "Literal cosine expression, sign/brightness claims, screen order 2/1/3/4, sub ject caption candidate and prose reference to Listing 3 remain unchanged. Actual listing correspondence awaits exact final-page mapping/transcription."
-        ]
+          "Three source spans remain explicitly unresolved: opening U+E100 cross-product operator, Listing2 label131 U+E101 operator and Listing3 label111 U+E102 panel-edge-obscured getvertex tail. Placeholders are not recovered original characters/strings or inferred valid C++; the last covers an unknown tail length.",
+          "Four complete printed listings retain sequences01–42,001–158,001–158,01–40:398 labels,78 empty program rows including three graphic dividers,21 unnumbered physical wraps and419 physical listing rows. Graphic rules are source-linked, not invented C syntax. Forty descriptive declarations retain45 physical rows.",
+          "Printed listing colorcontroler differs from prose colorcontroller; Listing3 row137 has no semicolon, setter int lux_a differs from constructor double lux_a, descriptive lightptr/getillumination dots remain. Literal prose Listing3 claim is linked separately to actual Listing2 getillumination rows128–140; no source repair.",
+          "Original encoded headers/program/marble geometry remain unrecovered. Exact glyphs/spaces/dash-run lengths, physical identifier wraps, cl/ml/ld candidates, literal cosine/sign/brightness/publication claims and execution remain unverified."
+        ],
+        "assembly": {
+          "recipe": {
+            "path": "archive/pdf/1992-12/restoration/batch-23/assembly-recipe.json",
+            "sha256": "2aee6991893d19f2d2eb6d225786a614ede3fcb22bd2d6d04ecb133acc6520ec",
+            "bytes": 2665
+          },
+          "adapter": {
+            "path": "archive/pdf/1992-12/restoration/batch-23/shading_adapter.py",
+            "sha256": "3425c32e5a070182a7c24632746b9e7837593cfbfbf124373c535ae16c945ebe",
+            "bytes": 18007
+          },
+          "adapter_inputs": {
+            "path": "archive/pdf/1992-12/restoration/batch-23/adapter-inputs.json",
+            "sha256": "b63af32bf99493cdd8698bc1669db79af24252b860e56ad2ec0a900dfd8aebea",
+            "bytes": 10044
+          },
+          "native_reproduction": {
+            "path": "archive/pdf/1992-12/restoration/batch-23/native-reproduction.json",
+            "sha256": "14213d0c0afdda57ce264554fd2afbc4a102b23fd4c17a9eed699a71467a6e40",
+            "bytes": 127921
+          },
+          "negative_checks": {
+            "path": "archive/pdf/1992-12/restoration/batch-23/negative-checks.json",
+            "sha256": "0dd023dde62a8c4880cda872ef83d1595e8823426b86266bcfcc7ae368fbe96e",
+            "bytes": 3831
+          },
+          "supplemental_validation": {
+            "path": "archive/pdf/1992-12/restoration/batch-23/supplemental-validation.json",
+            "sha256": "9064ddcc7de3bffa900210bfb5af7537ecea1af360efdbeb0025d4b14a07060a",
+            "bytes": 1100
+          }
+        }
       }
     },
     {
@@ -3278,12 +3350,71 @@
         "sha256": "e452b61985d4d2ea6ecc7bf5157e56d3c64cde5cc55d5995ac52d6ca74467c2c",
         "bytes": 1709
       }
+    },
+    {
+      "name": "1992-12-batch-23",
+      "status": "complete",
+      "completed_at": "2026-10-31T16:35:48.295221+00:00",
+      "goal": "Restore final graphics-library body pages and complete the actual readable eleven-page assembly with explicit source uncertainties and all root/native metadata contexts.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0015"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        242,
+        246,
+        247,
+        253,
+        254,
+        255
+      ],
+      "recognition_invocations": 46,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_repairs": 6,
+      "schema_preflight_failures": 1,
+      "assembly_new_ocr": 0,
+      "assembly_new_source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-23/validation.json",
+        "sha256": "e994ef55716770bf1ba9489d48096a026110f159c22e87ef544a85e13b00b28f",
+        "bytes": 3856
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-23/assembly-reproduction.json",
+        "sha256": "1e6a3c2695053e6fb296cbaed5c2db6ca59b9bf3b993fa7f6cd779f8bcedf394",
+        "bytes": 123050
+      },
+      "native_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-23/native-reproduction.json",
+        "sha256": "14213d0c0afdda57ce264554fd2afbc4a102b23fd4c17a9eed699a71467a6e40",
+        "bytes": 127921
+      },
+      "supplemental_validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-23/supplemental-validation.json",
+        "sha256": "9064ddcc7de3bffa900210bfb5af7537ecea1af360efdbeb0025d4b14a07060a",
+        "bytes": 1100
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-23/negative-checks.json",
+        "sha256": "0dd023dde62a8c4880cda872ef83d1595e8823426b86266bcfcc7ae368fbe96e",
+        "bytes": 3831
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 9,
-    "partial": 1,
+    "readable": 10,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 30
@@ -3294,40 +3425,51 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-23",
-    "goal": "Restore final graphics-library pages 248–252, then create the actual readable eleven-page assembly from independently regenerated immutable natives.",
+    "name": "1992-12-batch-24",
+    "goal": "Verify actual extent of Fractint article0016 from independent opening254/244 and restore at most six source pages.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0015"
+      "maso-1992-12-toc-0016"
     ],
-    "mapping_targets": [
-      248,
-      249,
-      250,
-      251,
-      252
-    ],
+    "mapping_targets": [],
     "candidate_mapping_targets": [
-      248,
-      249,
-      250,
-      251,
-      252
+      254,
+      255,
+      256,
+      257,
+      258,
+      259
     ],
     "initial_lookup_candidates": [
-      242,
-      246,
-      247,
       253,
       254,
-      255
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274
     ],
-    "canonical_article_reference": 232,
+    "canonical_article_reference": 244,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Main 247 ends 의미있; 248 begins 는 조도를 구할 수 있다. Join that main block with explicit intervening native figure/sidebar/table contexts, keeping the independent complete 247 sidebar separate. Prose concludes 249; four printed listings continue through 252 above an independent lower office-relocation advertisement. Exact listing crops, printed numbering/blanks/wraps/captions/files and cross-references require source review; outside-only observations are not final counts. Preserve literal Listing 3 claim pending actual correspondence. Review whole pages and every exact crop before mapped Tesseract; eng code, kor+eng other text. Read all raws before one literal source pass. Regenerate both natives independently, then project all custom metadata into explicit root/native contexts, including table header_region, palette hierarchy, unresolved U+E100 slot, descriptive catalogues, original screen order and intervening flow. Retain native source-fidelity limits and unrecovered original encoded files. Full December objective remains active."
+    "note": "Independent opening254/printed244 has series 미래 물리학의 시발점, 프렉탈(마지막회), title 공개 프렉탈 엔진, Fractint and credit 글. 나원규 (항공대 전자회로연구반(ESC) 9기);255/245 continues. Canonical title/byline/order/parent/reference remain unchanged. Actual ending is unverified; do not infer it from next contents reference or global folio offset. Initial253–274 are lookup candidates only; stop within20 outside mapped pages and retain unfinished extent if not found. Review all whole pages/exact crops, original tables/images/formulas/code/captions/associations before mapped Tesseract; eng code,kor+eng other text. Read all raws before one literal source pass. Longer bodies require immutable natives and actual assembly. Full December objective remains active."
   },
   "final_issue_classification_evidence_required": [
     {

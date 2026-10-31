@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: nine readable/sample-reviewed articles,
-one partial, two group headings, three section references and 30 unresolved identities.
+Current totals: ten readable/sample-reviewed articles,
+no partials, two group headings, three section references and 30 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -261,12 +261,26 @@ printed declaration defects remain. One faint operator stays explicitly unresolv
 at U+E100; no C++ operator inferred. All raws read before one literal source pass;
 80 kor+eng/29 eng, zero retries, 43 pre-OCR crop repairs. Ten altered-data cases rejected.
 
-Next: restore final 248–252, then actually assemble all eleven pages from regenerated
-immutable natives. Join main 247 의미있 / 248 는 조도를 구할 수 있다. with explicit
-intervening figure/sidebar/table contexts; keep the complete independent sidebar
-separate. Review exact listing numbering, blanks, wraps, captions and file references;
-outside-only observations are not final row counts. Preserve the unresolved operator
-and project every custom index, including table header_region, into root/native contexts.
+Batch 23 restores final 248–252 as a 194-file native and actually assembles the full
+article 242–252: 657 independent/fresh-process exact files from two regenerated natives/
+648 files. All 165 exact crops, 155 settings, 5,372 projected ranges, 10,644 current typed
+occurrences/636 empty anchors and 10,470 native-source links validate. One main-prose
+join retains 의미있 / 는 조도를 구할 수 있다. with ten explicit intervening items;
+the complete independent sidebar stays separate. Four printed listings retain
+42/158/158/40 labels, 78 empty program rows including three graphic dividers, 21 wraps
+and 419 physical listing rows. Forty descriptive entries retain 45 physical rows.
+Three source spans remain explicitly unresolved: opening operator U+E100, Listing 2
+operator U+E101 and Listing 3 panel-edge-obscured tail U+E102. Printed colorcontroler,
+missing row 137 semicolon, signature/dot defects and literal Listing 3 claim remain.
+All 46 raws read before one source pass; 22 eng/24 kor+eng, zero retries, six pre-OCR
+repairs. Schema failure retained; seventeen invalid cases rejected, ten rehashed roots.
+
+Next: verify Fractint article 0016's actual extent from independent opening 254/244,
+by 나원규, and restore at most six source pages. Candidate opening pages are 254–259;
+the ending is unverified. Review whole pages and every exact crop before mapped
+Tesseract, read all raws before one literal source pass, and preserve original images,
+tables, formulas, code, captions and source claims. Longer bodies require immutable
+natives and actual assembly; do not infer the ending from the next contents reference.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

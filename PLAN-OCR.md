@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: nine readable/sample-reviewed
-articles, one partial, two non-owning group headings, three section references and 30 unresolved
+December 1992 is in progress at the owner's request: ten readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 30 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -191,12 +191,23 @@ and 29 descriptive declarations/31 physical rows retain source contexts. Indepen
 sidebar, screen order 2/1/3/4, negative zero, literal formula/claims and printed defects
 remain. One faint operator is explicitly unresolved at U+E100, not an inferred C++
 operator. Ten altered-data cases rejected; 109 source-local transcript pins exact.
-Next: restore final 248–252 and assemble all eleven pages from independently regenerated
-natives. Join main 247 의미있 / 248 는 조도를 구할 수 있다. with explicit intervening
-figure/sidebar/table contexts, keeping the independent sidebar separate. Review exact
-listing rows/labels/blanks/wraps/captions/file references; preserve literal source claims
-and unrecovered originals. Project all custom metadata, including table header_region,
-palette hierarchy and unresolved operator, into explicit root/native contexts.
+Batch 23 completes final 248–252 as a 194-file native and the actual eleven-page
+assembly: 657 exact files from two regenerated natives/648 files and a fresh process.
+All 165 crops, 155 settings, 5,372 projected ranges and 10,644 current occurrences/
+636 empty anchors pass. Main 247→248 prose joins with ten explicit intervening items;
+independent sidebar remains separate. Four listings retain 398 labels, 78 empty
+program rows/three graphic dividers, 21 wraps and 419 physical rows. Forty descriptive
+entries retain 45 rows. Opening operator U+E100, Listing 2 operator U+E101 and Listing 3
+edge-obscured tail U+E102 remain unresolved; no inferred valid C++. Single-l class
+spelling, missing row 137 semicolon, signature/dot defects and literal Listing 3 claim
+remain. All 46 raws read before one pass: 22 eng/24 kor+eng, zero retries, six pre-OCR
+repairs. Schema failure and forward byline-note revision retained; seventeen invalid
+cases rejected, ten consistently rehashed roots. No assembly OCR/source pass.
+Next: verify actual extent of Fractint article 0016 from opening 254/244 by 나원규;
+restore at most six pages, provisionally 254–259. Ending unverified; no inference from
+next contents reference. Review every whole page/exact crop/association, use eng code
+and kor+eng other text, read all raws before one literal pass. Longer bodies need
+immutable natives and actual assembly.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

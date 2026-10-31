@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Nine readable/sample-reviewed articles, one partial, two non-owning group headings,
+Ten readable/sample-reviewed articles, no partials, two non-owning group headings,
 three section references and 30 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -166,9 +166,17 @@ and four private ranges validate. All raws read before one literal source pass;
 screen order remain. One faint operator explicitly unresolved at U+E100; printed
 formula/claims/defects retained. Ten altered-data cases rejected. Actual body 242–252
 confirmed; prose ends 249, four printed listings continue through 252 above a separate ad.
-Next: restore final 248–252 and create the actual eleven-page assembly from regenerated
-natives, preserving main 247→248 continuation, independent sidebar and all root/native
-custom metadata contexts. Exact listing rows/labels/wraps require source review.
+Batch 23 completes final 248–252 as a 194-file native and the actual eleven-page
+assembly: 657 exact files from regenerated natives/648 files. All 165 crops, 155 settings,
+5,372 projected ranges, 10,644 current occurrences/636 empty anchors and 10,470 source
+links pass. Main 247→248 join retains ten intervening items; independent sidebar stays
+separate. Four complete listings preserve 398 labels, 78 empty program rows/three
+graphic dividers and 21 wraps; 40 descriptive entries retain 45 rows. Three source spans
+remain explicitly unresolved; printed spelling/semicolon/signature/dot/reference defects
+retained. All 46 raws read before one pass, zero retries, six pre-OCR repairs; seventeen
+invalid cases rejected, ten rehashed roots. No new assembly OCR/pass.
+Next: verify Fractint article 0016 extent from opening 254/244 and restore at most six
+pages, provisionally 254–259. Actual ending unverified; no inference from next reference.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

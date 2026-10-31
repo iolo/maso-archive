@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: nine readable/sample-reviewed articles,
-one partial, two non-owning group headings, three section references and 30 unresolved
-identities. Batch 22 preserves C++ graphics article 0015 opening 242–247: all 454 files
-reproduce independently, with 118 exact crops, nine original images, 109 OCR outcomes
-and 1,288 typed ranges. Palette/table/declaration data and printed defects remain;
-one faint operator is explicitly unresolved. The confirmed full body spans 242–252.
-Next: restore final 248–252 and assemble the complete eleven-page article.
+December 1992 restoration is in progress: ten readable/sample-reviewed articles,
+no partials, two non-owning group headings, three section references and 30 unresolved
+identities. Batch 23 completes C++ graphics article 0015 on PDF 242–252: all 657 assembly
+files reproduce from regenerated natives. All 165 crops, 155 settings and 10,644 typed
+occurrences validate. Four printed listings, palette/table/catalogue data and source
+defects remain; three source spans are explicitly unresolved, original files unrecovered.
+Next: verify Fractint article 0016's extent from PDF 254 and restore at most six pages.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.
