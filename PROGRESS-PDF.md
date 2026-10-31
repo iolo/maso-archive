@@ -8,8 +8,9 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-One readable/sample-reviewed article, one partial feature and 43 unresolved identities
-account for 45 canonical entries. All 94 independent column JSON/assets export files are exact;23 native
+Two readable/sample-reviewed articles, one non-owning section reference and 42 unresolved
+identities account for 45 canonical entries; no partial articles remain. All 94 independent
+column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
 original images, two pull quotes, an attributed closing quote and six continuation
@@ -44,7 +45,13 @@ All 474 current ranges and three private boundary/ending ranges validate. One so
 pass, no OCR retry. All 28 feature body pages are preserved across five natives,
 with the actual ending and neighboring advertisements verified. Availability remains
 partial until assembly; child 0002–0004 remain unresolved.
-Next: parent 0001 assembly and child 0002 anchor, then children 0003/0004 separately.
+Batch 07 actually assembles the readable feature and resolves child 0002's final
+non-owning anchor. All 1,524 files reproduce from five independently regenerated
+natives; 4,746 metadata ranges, 9,156 current occurrences, 403 exact crops, 356 settings
+and three cross-native joins validate. Stable revision02 passes fresh-process checks;
+prior metadata-order revision/helpers retained, article/listing/map bytes unchanged.
+All 213 PDF tests and nine negative checks pass. No new OCR/source correction.
+Next: final non-owning anchors for children 0003/0004.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

@@ -27,7 +27,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Shared introduction/title/three-part outline/byline on156 and intrinsic part1 on157 establish parent0001 feature ownership. Canonical child0002–0004 remain unresolved until full body review/assembly and final anchors.",
@@ -37,15 +37,16 @@
         "Batch03 preserves162–167/printed152–157 as immutable native b. First intrinsic section now complete across native a/b; incoming161→162 is explicit in separate original download/scan contexts and168 starts intrinsic part2. All92 crops,80 OCR outcomes,nine glossary entries,nine diagram captions/four code fragments/16 nonempty rows/eight colons/three incomplete signatures and ten internal boundaries validate. One source pass/zero OCR retries; two pre-OCR map revisions,a failed helper,one bracket-output refinement and one explanatory-metadata export revision retained. Whole-feature168–183/actual assembly/child anchors pending.",
         "Batch04 preserves168–173/printed158–163 as immutable native c. Part2 starts168 without incoming prose join;173→174 continues mid-word 속+성. All86 crops/77 initial OCR outcomes,14 code fragments/61 rows,46 colon candidates,three ellipsis rows,seven caption associations and five column joins validate. One source pass and no recognition retry; interrupted pre-recognition render retained. Whole-feature174–183/actual assembly/child anchors pending.",
         "Batch05 preserves174–179/printed164–169 as immutable native d. Part2 body is complete across c/d through175;176 starts part3 independently. Incoming173→174 and outgoing179→180 preserve 속+성 and Ma-+chine boundaries. All116 crops/106 initial OCR outcomes,4 complete tables/34 rows/285 cells,14 criteria,four code fragments/34 rows,28 colon candidates and8 internal joins validate. One source pass/no recognition retry;four pre-OCR crop repairs and a failed preflight helper retained. Remaining180–183/actual assembly/child anchors pending.",
-        "Batch06 preserves final180–183/printed170–173 as immutable native e. All28 feature body pages156–183 and three intrinsic section bodies now preserved across a–e; actual whole-feature assembly/final child anchors remain pending. All55 exact crops/45 initial OCR outcomes,11 step entries/four references,six caption associations and8 internal boundaries validate. Both original incoming179→180 contexts retained;183 summary/M ornament/four references/photo end feature and184–185 are full advertisements. One source pass/no recognition retry/no crop revision."
+        "Batch06 preserves final180–183/printed170–173 as immutable native e. All28 feature body pages156–183 and three intrinsic section bodies now preserved across a–e; actual whole-feature assembly/final child anchors remain pending. All55 exact crops/45 initial OCR outcomes,11 step entries/four references,six caption associations and8 internal boundaries validate. Both original incoming179→180 contexts retained;183 summary/M ornament/four references/photo end feature and184–185 are full advertisements. One source pass/no recognition retry/no crop revision.",
+        "Batch07 actually assembles all28 feature pages156–183 into readable/sample-reviewed parent0001 from five exact natives,with403 regions/281 coherent blocks/47 original images/356 raw outcomes. Three source-proved cross-native paragraphs join with physical newlines;section boundaries remain independent. All4746 metadata ranges project with native contexts;all9156 root typed occurrences and8852 source occurrences validate. All1524 files reproduce from independently regenerated natives;deterministic revision02 passes fresh-process checks. First metadata-order revision and failed preflight retained;article/listing/map bytes unchanged. No new OCR/source correction;child0003/0004 remain pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-02-r01/oop-a",
+        "directory": "archive/pdf/1992-12/packages/feature-oop-r02",
         "article_id": "scan-maso-1992-12-toc-0001",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-02-r01/oop-a/manifest.json",
-          "sha256": "2b46b934d007976a8ce9d82737fb83abc1335a3a7a474ab2c369f17dbcc45242",
-          "bytes": 34965
+          "path": "archive/pdf/1992-12/packages/feature-oop-r02/manifest.json",
+          "sha256": "70465fd434e71dc40c02be1389e4d6bd5d9f85b461d3fae58190b78dc7c3564c",
+          "bytes": 278153
         },
         "coverage": {
           "pdf_pages": [
@@ -54,20 +55,7 @@
             158,
             159,
             160,
-            161
-          ],
-          "printed_pages": [
-            null,
-            "147",
-            "148",
-            "149",
-            "150",
-            "151"
-          ],
-          "regions": 54,
-          "blocks": 37,
-          "figures": 6,
-          "deferred_pdf_pages": [
+            161,
             162,
             163,
             164,
@@ -91,50 +79,58 @@
             182,
             183
           ],
-          "directly_observed_deferred_pdf_pages": [
-            162,
-            182,
-            183
+          "printed_pages": [
+            null,
+            "147",
+            "148",
+            "149",
+            "150",
+            "151",
+            "152",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165",
+            "166",
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
+            "172",
+            "173"
           ],
-          "unreviewed_intervening_pdf_pages": [
-            163,
-            164,
-            165,
-            166,
-            167,
-            168,
-            169,
-            170,
-            171,
-            172,
-            173,
-            174,
-            175,
-            176,
-            177,
-            178,
-            179,
-            180,
-            181
-          ],
-          "remaining_extent_unverified": true
+          "regions": 403,
+          "blocks": 281,
+          "figures": 47,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 183,
         "actual_ending_observed": true,
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-02/validation.json",
-          "sha256": "305d06bcd58ed1c0156749b15a6ccfef36f56fb4d7583cc873478472b264f51d",
-          "bytes": 1925
+          "path": "archive/pdf/1992-12/restoration/batch-07/validation.json",
+          "sha256": "91a1aba0f3229f7c6096445bf58acfd3b0167614f15673d4c923884c4c0bf1a3",
+          "bytes": 2428
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-02/reproduction.json",
-          "sha256": "2e2d8b646f000947a9f7577fa540f07b792a93b03718181c6aa7b18ca45149c6",
-          "bytes": 36222
+          "path": "archive/pdf/1992-12/restoration/batch-07/reproduction-r02.json",
+          "sha256": "0f59763726db094320a3949354fda0ff912b39aa291e61fe4eb2fcd1c6e4510b",
+          "bytes": 279810
         },
-        "checkpoint": "batch-02",
+        "checkpoint": "batch-07",
         "native_segments": [
           {
             "name": "a",
@@ -317,23 +313,162 @@
           "start_pdf_page": 156,
           "end_pdf_page": 183,
           "uninspected_interior_pdf_pages": [],
-          "note": "All28 body pages directly reviewed and preserved across a–e.183 actual ending and184–185 advertising verified. Actual assembly/final child anchors remain pending; original native-a snapshot stays immutable."
+          "note": "All28 body pages actually assembled from exact natives a–e. Three cross-native prose joins complete;ending183 verified. Child0002 final anchor resolved;children0003/0004 pending separate bounded classification."
         },
         "second_intrinsic_section_body_pages_complete": true,
         "third_intrinsic_section_body_pages_complete": true,
-        "actual_ending_complete": true
+        "actual_ending_complete": true,
+        "opening_native_snapshot": {
+          "directory": "archive/pdf/1992-12/packages/batch-02-r01/oop-a",
+          "manifest": {
+            "path": "archive/pdf/1992-12/packages/batch-02-r01/oop-a/manifest.json",
+            "sha256": "2b46b934d007976a8ce9d82737fb83abc1335a3a7a474ab2c369f17dbcc45242",
+            "bytes": 34965
+          },
+          "coverage": {
+            "pdf_pages": [
+              156,
+              157,
+              158,
+              159,
+              160,
+              161
+            ],
+            "printed_pages": [
+              null,
+              "147",
+              "148",
+              "149",
+              "150",
+              "151"
+            ],
+            "regions": 54,
+            "blocks": 37,
+            "figures": 6,
+            "deferred_pdf_pages": [
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182,
+              183
+            ],
+            "directly_observed_deferred_pdf_pages": [
+              162,
+              182,
+              183
+            ],
+            "unreviewed_intervening_pdf_pages": [
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181
+            ],
+            "remaining_extent_unverified": true
+          },
+          "validation": {
+            "path": "archive/pdf/1992-12/restoration/batch-02/validation.json",
+            "sha256": "305d06bcd58ed1c0156749b15a6ccfef36f56fb4d7583cc873478472b264f51d",
+            "bytes": 1925
+          },
+          "reproduction": {
+            "path": "archive/pdf/1992-12/restoration/batch-02/reproduction.json",
+            "sha256": "2e2d8b646f000947a9f7577fa540f07b792a93b03718181c6aa7b18ca45149c6",
+            "bytes": 36222
+          },
+          "checkpoint": "batch-02"
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "adapter": {
+          "path": "archive/pdf/1992-12/restoration/batch-07/oop_adapter_r03.py",
+          "sha256": "99e4018fb4a82304bdcae3125e0595cc1c8f4edaeb76c5571d8f0ec050e82e61",
+          "bytes": 12495
+        },
+        "rebuild_instructions": {
+          "path": "archive/pdf/1992-12/restoration/batch-07/rebuild-instructions.json",
+          "sha256": "284d31ea6d5b2f4b95e46e83ef1e8a173c3db253f27a8be7647d987103405307",
+          "bytes": 1748
+        }
       }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0002",
       "title": "1. 소프트웨어 위기를 해결할 객체지향 기술",
       "parent_id": "maso-1992-12-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4/shared outline156 and matching intrinsic title157 establish child0002 as the first section of parent0001;body157–167 ends before independent part2 on168. Canonical wording,parent,order and null page reference unchanged. No independent article or duplicate body.",
+        "Final assembled-parent title anchor a-p157-part-title resolves to original source157/printed147 and exact article-relative bytes/scan. Parent body and first-section extent actually assembled;human acceptance/full proofreading/source glyph/byte identity remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1992-12-toc-0001",
+      "section": {
+        "anchor": "a-p157-part-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 157
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1992-12-toc-0001",
+        "directory": "archive/pdf/1992-12/packages/feature-oop-r02",
+        "anchor": "a-p157-part-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 157,
+        "source_heading_printed_page": "147",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1992-12/packages/feature-oop-r02/manifest.json",
+          "sha256": "70465fd434e71dc40c02be1389e4d6bd5d9f85b461d3fae58190b78dc7c3564c",
+          "bytes": 278153
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1992-12/restoration/batch-07/child-0002-anchor.json",
+          "sha256": "5f28cefad519c86faa82fce7b7f3f4a813ce81dbf39f7f6063f228e7c839de32",
+          "bytes": 3634
+        },
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-07/validation.json",
+          "sha256": "91a1aba0f3229f7c6096445bf58acfd3b0167614f15673d4c923884c4c0bf1a3",
+          "bytes": 2428
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0003",
@@ -1052,14 +1187,42 @@
         "sha256": "a4c673b6499f30a879d1e56252e069dcc621c79081b08abeec36d7fd0c534fcf",
         "bytes": 35482
       }
+    },
+    {
+      "name": "1992-12-batch-07",
+      "status": "complete",
+      "completed_at": "2026-10-31T09:47:22.659007+00:00",
+      "goal": "Actual complete feature assembly and first non-owning child0002 final anchor.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0001",
+        "maso-1992-12-toc-0002"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 5,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-07/validation.json",
+        "sha256": "91a1aba0f3229f7c6096445bf58acfd3b0167614f15673d4c923884c4c0bf1a3",
+        "bytes": 2428
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-07/reproduction-r02.json",
+        "sha256": "0f59763726db094320a3949354fda0ff912b39aa291e61fe4eb2fcd1c6e4510b",
+        "bytes": 279810
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 1,
-    "partial": 1,
+    "readable": 2,
+    "partial": 0,
     "group_headings": 0,
-    "unresolved": 43
+    "section_references": 1,
+    "unresolved": 42
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -1067,41 +1230,19 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-07",
-    "goal": "Assemble parent feature0001 from five immutable natives, validate all projected/native metadata and cross-native joins, then resolve child0002 first-section anchor. Keep child0003/0004 classification for the next two-task checkpoint.",
+    "name": "1992-12-batch-08",
+    "goal": "Resolve children0003/0004 as non-owning intrinsic section references with final assembled-parent anchors;preserve canonical/source third-title wording difference.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0001",
-      "maso-1992-12-toc-0002"
+      "maso-1992-12-toc-0003",
+      "maso-1992-12-toc-0004"
     ],
     "mapping_targets": [],
-    "expected_pdf_pages": [
+    "planned_outside_lookup_pdf_pages": [
+      4,
       156,
-      157,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
       168,
-      169,
-      170,
-      171,
-      172,
-      173,
-      174,
       175,
       176,
-      177,
-      178,
-      179,
-      180,
-      181,
-      182,
       183
     ],
     "limits": {
@@ -1109,6 +1250,6 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "No new OCR/source correction required. Regenerate natives independently before assembly reproduction; preserve every original custom index/private evidence context. Child0003/0004 remain unresolved until later bounded classification."
+    "note": "Complete parent is feature-oop-r02;no new OCR/source correction or duplicate child bodies. Verify both exact heading ranges/scans and actual section extents;canonical titles/parents/null references remain unchanged."
   }
 }

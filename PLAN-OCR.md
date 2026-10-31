@@ -23,8 +23,9 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: one readable/sample-reviewed
-article, one partial feature and 43 unresolved identities among 45. Batch 01 completes
+December 1992 is in progress at the owner's request: two readable/sample-reviewed
+articles, one non-owning section reference, no partial articles and 42 unresolved
+identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
 zero OCR retries. The first narrow crop map is retained; nine boundaries were
@@ -33,8 +34,8 @@ Batch 02 preserves the six-page feature 0001 opening on PDF 156–161 as partial
 207 independently exact files,54 exact native crops,48 OCR outcomes (47 kor+eng,
 one eng), one source correction pass and zero OCR retries. Original POINT colons
 and missing final semicolon remain literal. The failed helper, pre-OCR map revision
-and one saved-transcript refinement are retained. Current totals: one readable,
-one partial and 43 unresolved identities. PDF 183's ending is observed; unreviewed
+and one saved-transcript refinement are retained. At that checkpoint: one readable,
+one partial and 43 unresolved identities. PDF 183's ending was observed; unreviewed
 intervening continuity beyond the restored natives is not established.
 Batch 03 completes continuation 162–167: 341 independently exact selected revision02
 files, 92 source crops and 80 OCR outcomes (76 kor+eng/four eng), one source pass
@@ -65,9 +66,14 @@ references. All 474 current ranges and three private boundary/ending ranges
 validate. One source pass, no OCR retry/crop revision. Complete ending on 183;
 184–185 are advertisements. All 28 feature body pages are now preserved across
 a–e; actual assembly and final child anchors remain pending, availability partial.
-Next: parent 0001 assembly plus child 0002 first-section anchor, then children
-0003/0004 in a separate two-task checkpoint. Regenerate natives independently
-before assembly reproduction; preserve all custom metadata/private contexts.
+Batch 07 actually assembles the complete readable parent and resolves child 0002's
+non-owning final anchor. All 1,524 files reproduce from five independently regenerated
+natives. All 4,746 metadata ranges project into explicit root/native contexts; 9,156
+current typed occurrences, 403 exact crops, 356 settings and three cross-native joins
+validate. Code bytes and all custom indexes remain intact. First metadata-order
+revision and failed helpers retained; stable revision02 passes fresh-process checks.
+All 213 tests and nine negative mutations pass. No new OCR/source correction.
+Next: children 0003/0004 final anchors in one two-task classification checkpoint.
 No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

@@ -35,9 +35,10 @@ The owner requested the complete December 1992 issue under this plan and
 `PLAN-OCR.md`. The source PDF has 446 physical pages and 45 canonical TOC
 identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자,
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
-Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. One article is
-readable/sample-reviewed, one feature is partial/sample-reviewed and 43 identities
-remain unresolved.
+Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07 now
+assembles that complete 28-page feature. Current outcomes: two readable/sample-
+reviewed articles, one non-owning section reference, no partial articles and
+42 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -94,9 +95,18 @@ pass, no recognition retry or crop revision. All 28 feature body pages, 156–18
 are preserved across five immutable natives. Availability remains partial until
 actual assembly; child 0002–0004 remain unresolved.
 
-Next: assemble parent feature 0001 and resolve child 0002's first-section anchor
-within two canonical tasks. Resolve children 0003/0004 in the following bounded
-checkpoint. No new OCR/source correction expected; no global folio offset.
+Batch 07 delivers the actual readable parent assembly and child 0002's final
+non-owning anchor on PDF 157/printed 147. All 1,524 assembled files reproduce from
+five independently regenerated natives; 403 exact crops, 356 OCR settings, 4,746
+projected metadata ranges, 9,156 current typed occurrences and three cross-native
+joins validate. The deterministic second revision passes fresh-process checks;
+the first metadata-order revision and failed helpers remain preserved, with unchanged
+article/listing/map bytes. All 213 PDF tests pass; nine rehashed assembly/child
+mutations are rejected. No new OCR or source correction; thirty core modules unchanged.
+
+Next: resolve children 0003/0004 as non-owning references with final assembled-parent
+anchors, preserving canonical/source third-title wording separately. No new OCR or
+source correction expected; no global folio offset.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.
