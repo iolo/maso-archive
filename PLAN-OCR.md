@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: two readable/sample-reviewed
-articles, three non-owning section references, no partial articles and 40 unresolved
+December 1992 is in progress at the owner's request: three readable/sample-reviewed
+articles, one non-owning group heading, three section references, no partials and 38 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -78,7 +78,15 @@ printed158/166. All three child anchors are now final. Five sidecars reproduce i
 fresh processes; ten parent-relative ranges and nine invalid cases validate. All
 parent bytes remain exact; historical pending-child notes have an external current
 disposition. Canonical/source title variants and every source-fidelity limit remain.
-No new OCR/source correction. Next: 읽을거리 group0006 and PC-election article0007.
+No new OCR/source correction.
+Batch 09 completes PC-election article 0007 on 148–152/printed 138–142 and classifies
+읽을거리 group 0006 as non-owning. All 170 article files and one classification sidecar
+reproduce independently and in fresh processes. All 45 exact crops, 39 pinned settings,
+751 typed ranges, 554 reading rows, six headings and 16 boundaries validate. Three
+independent pulls and separate attributed quote retained. All 39 raws read before one
+source pass; no retries or crop repairs. Printed dates, wording, numbers and claims literal.
+Next: bounded location/restoration of look-and-feel article0008;reference 176/PDF 186
+are location cues,not proof of whole extent. Segment beyond six mapped pages.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

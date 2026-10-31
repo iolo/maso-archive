@@ -13,6 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
+December 1992 restoration is in progress: three readable/sample-reviewed articles,
+one group heading, three section references and 38 unresolved identities. Batch 09
+completes the PC-election story on PDF 148–152 and classifies its non-owning group;
+170 article files and one classification file reproduce exactly. Next is the look-and-feel
+article, within the bounded OCR workflow. Full issue accounting/export/closeout remain
+pending. See the [December record](docs/progress/9212.md). No reader rebuild.
+
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
 All383 pages are accounted for. All9,272 JSON/assets files match an independent rebuild

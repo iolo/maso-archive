@@ -35,10 +35,10 @@ The owner requested the complete December 1992 issue under this plan and
 `PLAN-OCR.md`. The source PDF has 446 physical pages and 45 canonical TOC
 identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자,
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
-Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07 now
-assembles that complete 28-page feature. Current outcomes: two readable/sample-
-reviewed articles, three non-owning section references, no partial articles and
-40 unresolved identities.
+Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
+assembles that complete 28-page feature. Batch 09 completes the PC-election story.
+Current totals: three readable/sample-reviewed articles,
+one group heading, three section references, no partials and 38 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -112,9 +112,17 @@ ten parent-relative ranges and nine invalid ownership/anchor cases validate. The
 frozen pending-child notes are resolved by an external current disposition, with all
 1,524 parent files and source-fidelity limits unchanged. No new OCR/source correction.
 
-Next: classify the canonical 읽을거리 group 0006 and locate/restore article 0007,
-이영식의 PC 이야기 : 미국 대통령 선거와 컴퓨터, within one bounded checkpoint.
-Contents reference 138 is a locator cue; verify actual source pages without a global offset.
+Batch 09 completes article 0007, 이영식의 PC 이야기 : 미국 대통령 선거와 컴퓨터,
+on PDF 148–152/printed 138–142, and classifies 읽을거리 group 0006 as non-owning.
+All 170 article files and one classification sidecar reproduce independently and in
+fresh processes. All 45 exact crops, 39 OCR settings, 751 typed ranges, 554 reading
+rows, six headings and sixteen boundaries validate. Three independent pull quotations
+and a separate attributed closing quotation remain distinct. One source pass, no OCR
+retry or crop repair; printed dates, numbers, wording and claims remain literal.
+
+Next: locate/restore article 0008, '룩앤필'을 둘러싼 50억불 청구 소송, in a bounded
+native. Contents reference 176 and previously observed PDF 186 are locator cues;
+verify actual extent and each folio without a global offset. Segment if longer than six pages.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.
