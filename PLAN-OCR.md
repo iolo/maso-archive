@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: ten readable/sample-reviewed
-articles, one partial, two non-owning group headings, three section references and 29 unresolved
+December 1992 is in progress at the owner's request: eleven readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 29 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -232,13 +232,31 @@ Direct incoming reading is 259 옵션을 / 260 써 줄 필요가 없다.; this s
 earlier prospective 쓸 handoff without rewriting native-a bytes or historical evidence.
 Natives a/b preserve twelve pages 254–265; availability remains partial.
 
-Next: restore final 266–267, then actually assemble all fourteen pages 254–267 from
-three independently regenerated natives. Preserve L-system/testpt/formula annotations,
-color-map/help/conclusion text and closing M mark. Page 265 ends a complete sound
-paragraph; 266 starts separate concluding prose, with no midword join. Project all
-custom indexes, ranges, exponent partitions and intervening contexts; retain opening
-OCR execution provenance. Resolve printed figure-reference correspondence against
-the complete source without inventing panels or claiming issue-wide absence.
+Batch 26 preserves final Fractint 266–267 as a 126-file native, then actually
+assembles the complete fourteen-page article 254–267: 731 independent/fresh-process
+exact files from three regenerated natives/722 files. All 185 exact crops, 170 OCR
+outcomes, 2,228 projected metadata ranges, 4,372 current ranges, 4,202 source links,
+sixteen private ranges and 170 source-local transcript pins validate. One FPU prose
+join retains 옵션을 / 써 줄 필요가 없다.; 265→266 remains separate paragraphs.
+Seventeen complete option headers, all original images/menus/series/parable and
+closing M mark remain. Final examples retain fifteen code rows and five formula
+annotations; nine comment glyphs retain explicit colon/semicolon candidates.
+Literal figure references 9/12 remain label mismatches, with null confirmed targets
+and unconfirmed semantic candidates after complete body review; no panels invented.
+All 29 final raws read before one source pass; zero retries, three pre-OCR margin
+repairs. First assembly metadata aliasing failure retained; fresh r02 changes only
+three JSON files, with article/listing/native bytes unchanged. Twenty invalid cases
+rejected, including thirteen rehashed roots. All prior source/core/evidence exact.
+
+Next: verify Tetris article 0017's actual extent, folios and ownership from its
+independent opening 272/printed 262 by 임광섭, then restore at most six opening
+pages, provisionally 272–277. Its actual ending remains unverified. Preserve source
+C++ listings, printed labels, wraps, blanks, diagrams/screens and eligible prose;
+read all drafts before one literal source pass. Do not infer completion from the
+next TOC reference or apply a global folio offset. Current totals are eleven
+readable articles, no partials and 29 unresolved identities. Eleven selected roots
+contain 5,429 files; ten classification files are separate. Install the new private
+batch-26/fractint_adapter_r02 with the seven prior adapters when checking all roots.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

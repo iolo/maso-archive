@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: ten readable/sample-reviewed articles,
-one partial, two non-owning group headings, three section references and 29 unresolved
-identities. Batch 25 adds Fractint continuation 260–265: all 346 files reproduce
-independently, with 88 exact crops, five original menus, 83 OCR outcomes and 1,033
-current typed ranges. Twelve body pages 254–265 are preserved across two immutable
-natives; literal source spelling, options, exponents and continuation contexts remain.
-Next: restore final 266–267 and actually assemble the complete fourteen-page article.
+December 1992 restoration is in progress: eleven readable/sample-reviewed articles,
+no partials, two non-owning group headings, three section references and 29 unresolved
+identities. Batch 26 completes Fractint on PDF 254–267: all 731 files reproduce from
+three regenerated natives, with 185 exact crops, 170 OCR outcomes and 4,372 current
+ranges. Original images, menus, parable, options, annotated examples and closing mark
+remain intact; printed reference mismatches and code-glyph uncertainty stay explicit.
+Next: verify the Tetris article's extent and restore its opening from PDF 272.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.

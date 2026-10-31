@@ -2123,7 +2123,7 @@
       "parent_id": "maso-1992-12-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent opening254/printed244 has series 미래 물리학의 시발점, 프렉탈(마지막회), title 공개 프렉탈 엔진,Fractint and credit 글. 나원규 (항공대 전자회로연구반(ESC) 9기). Canonical title/byline/order/parent0010/reference244 unchanged. Actual fourteen-page body254–267 directly reviewed; closing prose/M mark267, four advertisements268–271, independent next title/byline272 and continuations273–274.",
@@ -2136,15 +2136,22 @@
         "All12 whole views and88 original exact crops reviewed;two pre-OCR edge refinements re-reviewed and retained. All83 raw drafts read before one literal source pass;14 eng syntax/69 kor+eng text,zero retries or within-pass crop repairs. Earlier narrative count12 corrected to actual14 syntax regions without OCR/map changes. All original maps/crops/raws/corrections/recipes/review evidence retained.",
         "Five full menu screens2–6/five captions,twelve assignment headers/two command examples,four displayed resolution entries/five physical rows,nine structural hotkey descriptions,five drawing-option descriptions,two exponent partitions,22 technical claims,18 file and20 hotkey occurrences remain source-linked. Literal Mamimum,Retrive,maxi/teer,expen-/ded memory and filename/model/case variants retained. Printed figure9 reference remains null-target pending full correspondence review;no invented panel or issue-wide absence claim.",
         "Incoming259 옵션을 /260 써 줄 필요가 없다. validates both original native download/scan contexts;direct crop supersedes prior prospective 쓸 handoff. FPU header/description remains linked across a/b. Outgoing265 sound paragraph is complete;266 begins separate concluding prose before L-system section,no midword join invented. Final266–267 and actual14-page assembly still required.",
-        "Fourteen altered-data cases rejected with outer hashes bypassed;private custom-data audit,not generic core enforcement. All24151 prior December files,4948 prior selected files,ten classification files,9332 September reference files and thirty core modules remain exact with source/runtime/TOC/queue. Opening58 original execution records/57 reused raw/TSV outcomes revalidated. Unchanged213-test baseline reused with complete current source/pixel/range/provenance/ownership audits. Human acceptance/full proofreading,original encoded bytes/exact glyphs/spaces,technical truth and execution unverified."
+        "Fourteen altered-data cases rejected with outer hashes bypassed;private custom-data audit,not generic core enforcement. All24151 prior December files,4948 prior selected files,ten classification files,9332 September reference files and thirty core modules remain exact with source/runtime/TOC/queue. Opening58 original execution records/57 reused raw/TSV outcomes revalidated. Unchanged213-test baseline reused with complete current source/pixel/range/provenance/ownership audits. Human acceptance/full proofreading,original encoded bytes/exact glyphs/spaces,technical truth and execution unverified.",
+        "Batch26 preserves final266–267/printed256–257 as126 exact files,30 source crops,25 blocks,one original closing mark and29 initial outcomes. Four printed examples retain6/7/1/1 physical code rows;five separately cropped Korean formula-field annotations retain exact code correspondence. All 29 raws read before one source pass;four eng/25 kor+eng,zero retries,three pre-OCR margin repairs. Full14-page ownership/continuity and ending source directly re-reviewed withinone task/two mapped/fourteen outside limits.",
+        "Actual selected assembly731 files matches independent and fresh-process exports from three regenerated natives/722 exact files. All 185 crops,170 outcomes,2228 projected metadata ranges,4372 current typed occurrences,4202 native-source links,16 private ranges and170 source-local transcript pins validate. One FPU prose join retains 옵션을 / 써 줄 필요가 없다.;265→266 remains separate paragraphs. All 36 physical code rows are exact native concatenation;no logical code-line merge.",
+        "Original seven numbered fractal images,six source menus,three-episode panel/current third,embedded26-row parable and closing M mark retained. Seventeen complete option headers,twelve assignment headers in continuation/two command rows,four printer-resolution entries,nine hotkey/five drawing-option descriptions,three source exponent contexts and all claims/files/source variants retain native/current contexts. Original encoded files/generated manual,exact glyphs/spaces,technical truth and execution remain unverified.",
+        "Complete14-page source review establishes literal figures1–7/screens1–6,with actual prose references 〈그림9〉and 〈그림12〉remaining source-label mismatches. Confirmed targets staynull;unconfirmed semantic candidates are screen4 parameter selection andfigure7 palette/crosshair. Earlier prospective8–12 shorthand superseded. No panels invented,source labels renumbered,missing-page count inferred or issue-wide absence claimed.",
+        "Nine small printed comment glyphs retain colon-shaped candidates with colon/semicolon alternatives andsource scans;prose semicolon descriptions stay independent. Printed Foward,formular,반시계반향 andformula initial z/iteration Z remain literal with prior Mamimum,Retrive,maxi/teer,expen-/ded memory,filename/model/case variants. No inferred valid code or technical repair.",
+        "First assembly adapter shallow-copied option rows;current FPU completion also appended tohistorical projected description list. Fullrange-count audit detected2229actual versus2228declared projected ranges. Fresh r02 deep-copy correction changes onlyarticle.json/corrections.json/manifest.json;article/listing/native/source/map/OCR bytes unchanged. Original adapter/root/export/failure and all native inputs retained. Stable r02 passesfull audits andtwenty invalid cases, thirteen consistently rehashed roots including historical FPU mutation.",
+        "All 25,302 prior December files,5294 earlier selected files,ten classification files,9332 September reference files and thirty core modules remain exact with source/runtime/TOC/queue. Opening 58 original execution records/57 reused outcomes revalidated; unchanged 213-test baseline reused with complete current native/root/source/pixel/provenance/ownership audits. Boundedtwo-entry fixture is not full 45 accounting. Human acceptance/full proofreading and original source byte/glyph/space identities remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-24-r01/fractint-a",
+        "directory": "archive/pdf/1992-12/packages/fractint-r02",
         "article_id": "scan-maso-1992-12-toc-0016",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-24-r01/fractint-a/manifest.json",
-          "sha256": "e5b028d6f78eddaf2ad8d1196e78132ba4fbceeab5d9f39a22027bfe6da1886b",
-          "bytes": 43722
+          "path": "archive/pdf/1992-12/packages/fractint-r02/manifest.json",
+          "sha256": "db781144d2b2ecd4ef48633f64d55096de9745242a2f36b703a49e593298e753",
+          "bytes": 135350
         },
         "coverage": {
           "pdf_pages": [
@@ -2153,7 +2160,15 @@
             256,
             257,
             258,
-            259
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267
           ],
           "printed_pages": [
             "244",
@@ -2161,21 +2176,25 @@
             "246",
             "247",
             "248",
-            "249"
+            "249",
+            "250",
+            "251",
+            "252",
+            "253",
+            "254",
+            "255",
+            "256",
+            "257"
           ],
-          "regions": 67,
-          "blocks": 47,
-          "figures": 9,
-          "deferred_pdf_pages": [
-            266,
-            267
-          ],
-          "remaining_extent_unverified": false,
-          "note": "Root directory/manifest/coverage pages describe immutable opening native a254–259. Native b260–265 is separately selected in native_segments;combined preserved coverage254–265. Actual assembly pending."
+          "regions": 185,
+          "blocks": 145,
+          "figures": 15,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 254,
         "actual_end_pdf_page": 267,
         "actual_ending_observed": true,
@@ -2191,38 +2210,32 @@
           262,
           263,
           264,
-          265
-        ],
-        "remaining_pdf_pages": [
+          265,
           266,
           267
         ],
+        "remaining_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-25/validation.json",
-          "sha256": "cb283cd0300b024757565216107f5e7e784228c00890b6c7ad7277852acac973",
-          "bytes": 3602
+          "path": "archive/pdf/1992-12/restoration/batch-26/validation.json",
+          "sha256": "86a8fce91e98240ffb185d0eefcf432705252ea75a1330657335b9606f240fff",
+          "bytes": 3515
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-25/reproduction.json",
-          "sha256": "6492efb8308dab63ff2d294c0d46d343ef37c21dd7cfb4d0481cbad1351abff6",
-          "bytes": 61090
+          "path": "archive/pdf/1992-12/restoration/batch-26/assembly-reproduction-r02.json",
+          "sha256": "d7d9007885e8b5a475c6934730052e0d95d4462ecfae1f18ec1213eda607f396",
+          "bytes": 136789
         },
         "fresh_process_reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-25/fresh-process-reproduction.json",
-          "sha256": "bae33e3407db175478486be3253edb235b1daf0d542b98edbc3677ba2686f89c",
-          "bytes": 60529
+          "path": "archive/pdf/1992-12/restoration/batch-26/fresh-process-reproduction.json",
+          "sha256": "fcdbafc516fc6a6752ee30f1a69a87ace0fcf626ae91e4d2ab3e3c1aa42594b5",
+          "bytes": 135561
         },
         "boundary_evidence": {
-          "path": "archive/pdf/1992-12/restoration/batch-25/adjacent-boundaries.json",
-          "sha256": "564cb89c7673729471d4517d2965a658763c0ca6785db21cffcd1429d21e2eec",
-          "bytes": 9132
+          "path": "archive/pdf/1992-12/restoration/batch-26/final-boundaries.json",
+          "sha256": "4255d73e12a5f5a5b7157f8823d4321b226f26ce0055eaeaaebf7cbd724433d1",
+          "bytes": 8667
         },
-        "supplemental_validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-24/supplemental-validation.json",
-          "sha256": "4d0f2363334d50287d68cf3021458589533fb725e5a6297868778d2315c5fbe8",
-          "bytes": 2161
-        },
-        "checkpoint": "batch-25",
+        "checkpoint": "batch-26",
         "native_segments": [
           {
             "name": "a",
@@ -2287,6 +2300,34 @@
               "sha256": "564cb89c7673729471d4517d2965a658763c0ca6785db21cffcd1429d21e2eec",
               "bytes": 9132
             }
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1992-12/packages/batch-26-r01/fractint-c",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-26-r01/fractint-c/manifest.json",
+              "sha256": "82763cfc21b43671307ae16d8523850623190d5d63d9307fb288209e11293745",
+              "bytes": 22042
+            },
+            "pdf_pages": [
+              266,
+              267
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-26/validation.json",
+              "sha256": "86a8fce91e98240ffb185d0eefcf432705252ea75a1330657335b9606f240fff",
+              "bytes": 3515
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-26/native-c-reproduction.json",
+              "sha256": "59ea6b581871bfbd1c2f52b3a7bc175c0e9940b59d97414d15d4727b90e4bba8",
+              "bytes": 22711
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-26/final-boundaries.json",
+              "sha256": "4255d73e12a5f5a5b7157f8823d4321b226f26ce0055eaeaaebf7cbd724433d1",
+              "bytes": 8667
+            }
           }
         ],
         "full_source_extent": {
@@ -2323,17 +2364,33 @@
             "257"
           ],
           "uninspected_interior_pdf_pages": [],
-          "note": "All14 source body pages254–267 directly reviewed;folios244–257 locally read. Closing prose/M mark267,four advertisement pages268–271,next Tetris opening272. Immutable natives a/b preserve254–265;final266–267 and actual assembly required. Direct current260 crop reads 써 줄 필요가 없다.,superseding prior prospective 쓸 handoff;259 ends 옵션을. Original native-a bytes/evidence remain unchanged."
+          "note": "Complete14-page body254–267 directly reviewed and actually assembled from three independently regenerated natives. Folios244–257 read locally;closing prose/M mark267 followed by four book advertisements268–271,next Tetris opening272 by 임광섭. FPU join259 옵션을 /260 써 줄 필요가 없다.;earlier prospective 쓸 candidate remains historical. No global folio offset inferred."
         },
         "source_fragment_limits": [
-          "Final266–267 and actual14-page assembly required. FPU description now complete across immutable natives a/b with both original download/scan contexts;actual assembly join pending.",
-          "Printed baseline1026 and source10 with superscript26 remain distinct as1026 and10²⁶, with explicit printed erratum and byte-partitioned base/exponent ranges. No mathematical or technical repair.",
-          "Embedded26-row Stone Soup parable remains a separate reading block, with source introduction/commentary and no invented external author. Source caption Blackholl and parable ending 다녔대나. retained from enlarged original readings.",
-          "Original Fractint/program/configuration/parameter/image/key encoded files remain unrecovered. Original screen pixels preserve menu version17.1 without claiming every embedded UI label is searchable. Technical/history/performance claims, filenames/option syntax, glyph/space identities and execution unverified.",
-          "Later source figure-reference correspondence awaits exact final-page mapping/transcription; no missing panel invented or whole-issue absence claimed. Mixed AUTOKEY heading containing 혹은 uses kor+eng heading routing; seven pure-ASCII option/command rows use eng.",
-          "Batch25 preserves original menu screens2–6/five captions,twelve ASCII assignment headers/two command examples,four printer-resolution list entries,nine structural hotkey descriptions andfive drawing-option descriptions. Mamimum Iterations,Retrive,maxi/teer,expen-/ded memory,fractint.cfg versus fractint.vid and10 superscript9/26 remain literal.",
-          "Batch25 direct incoming reading is 옵션을 / 써 줄 필요가 없다.;earlier prospective 쓸 candidate superseded externally without rewriting original native-a corrections or private sidecar. Source-review narrative12 code regions was a count typo;actual map/settings have14 eng and69 kor+eng,explicitly corrected before source pass."
-        ]
+          "Original encoded Fractint/program/configuration/parameters/images/key/print files and generated manual unrecovered;exact glyphs/spaces,technical/historical accuracy,execution,human acceptance/full proofreading unverified.",
+          "Printed source reference9/12 mismatches remain literal with null confirmed targets and unconfirmed bounded semantic candidates;no source labels renumbered or missing panels invented.",
+          "Nine small printed comment glyphs retain colon-shaped candidates with colon/semicolon alternatives;prose semicolon descriptions remain distinct. Source Foward,formular,Mamimum,Retrive,maxi/teer,expen-/ded memory,z/Z and filename/model/case variants remain literal."
+        ],
+        "native_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-26/native-reproduction-r02.json",
+          "sha256": "bbf311657e2a461cd67dea047df0fa53cdeded4fb5f89be3bce7889f3cac529f",
+          "bytes": 142756
+        },
+        "assembly_revision": {
+          "path": "archive/pdf/1992-12/restoration/batch-26/assembly-revision-r02.json",
+          "sha256": "5256e1dc1d3b05568caf2f2c507642c4e60187d2bdfc0046e98e14391df5b317",
+          "bytes": 1794
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-26/negative-checks-r02.json",
+          "sha256": "5994e67ea2951f49609ca2517ae618bc236814f1dfaab1b4f5f4f7363d1fd6fb",
+          "bytes": 4451
+        },
+        "opening_supplemental_validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-24/supplemental-validation.json",
+          "sha256": "4d0f2363334d50287d68cf3021458589533fb725e5a6297868778d2315c5fbe8",
+          "bytes": 2161
+        }
       }
     },
     {
@@ -3741,12 +3798,77 @@
         "sha256": "d4eb414d56727f933e18ab91a565021c427ff5945a99e849586c510a513e6d88",
         "bytes": 1367
       }
+    },
+    {
+      "name": "1992-12-batch-26",
+      "status": "complete",
+      "completed_at": "2026-10-31T18:17:23.054401+00:00",
+      "goal": "Restore final Fractint pages and actually assemble complete fourteen-page article from three independently regenerated natives.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0016"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        266,
+        267
+      ],
+      "outside_lookup_pages": 14,
+      "outside_lookup_pdf_pages": [
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        268,
+        272
+      ],
+      "recognition_invocations": 29,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 3,
+      "within_pass_crop_repairs": 0,
+      "assembly_new_ocr": 0,
+      "assembly_new_source_passes": 0,
+      "assembly_revisions": 2,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-26/validation.json",
+        "sha256": "86a8fce91e98240ffb185d0eefcf432705252ea75a1330657335b9606f240fff",
+        "bytes": 3515
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-26/assembly-reproduction-r02.json",
+        "sha256": "d7d9007885e8b5a475c6934730052e0d95d4462ecfae1f18ec1213eda607f396",
+        "bytes": 136789
+      },
+      "native_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-26/native-reproduction-r02.json",
+        "sha256": "bbf311657e2a461cd67dea047df0fa53cdeded4fb5f89be3bce7889f3cac529f",
+        "bytes": 142756
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-26/negative-checks-r02.json",
+        "sha256": "5994e67ea2951f49609ca2517ae618bc236814f1dfaab1b4f5f4f7363d1fd6fb",
+        "bytes": 4451
+      },
+      "assembly_revision": {
+        "path": "archive/pdf/1992-12/restoration/batch-26/assembly-revision-r02.json",
+        "sha256": "5256e1dc1d3b05568caf2f2c507642c4e60187d2bdfc0046e98e14391df5b317",
+        "bytes": 1794
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 10,
-    "partial": 1,
+    "readable": 11,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 29
@@ -3757,33 +3879,57 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-26",
-    "goal": "Restore Fractint final266–267 as immutable native c,then actually assemble and independently reproduce all14 pages254–267 from three regenerated natives.",
+    "name": "1992-12-batch-27",
+    "goal": "Verify Tetris article 0017 actual source extent/ownership/folios and preserve at most six opening pages, provisionally272–277.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0016"
+      "maso-1992-12-toc-0017"
     ],
     "mapping_targets": [
-      266,
-      267
+      272,
+      273,
+      274,
+      275,
+      276,
+      277
     ],
     "candidate_mapping_targets": [
-      266,
-      267
+      272,
+      273,
+      274,
+      275,
+      276,
+      277
     ],
     "initial_lookup_candidates": [
-      254,
-      259,
-      260,
-      265,
-      268,
-      272
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      298,
+      299
     ],
+    "canonical_article_reference": 262,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Review final L-system/testpt/formula/color-map/help/conclusion source,all printed code/formula annotations and actual ending/M mark. Preserve literal source defects and physical wraps;eng code/kor+eng other text,all raws read before one source pass.265 sound paragraph ends complete;266 starts separate concluding paragraph,no midword join. Actual assembly must consume three independently regenerated natives and project all custom ranges/identities/intervening contexts,source exponent partitions,menus/options/series/parable/claims/files/hotkeys and figure-reference dispositions. Incoming259 옵션을 /260 써 줄 필요가 없다. supersedes prior prospective 쓸 without altering native-a. Opening57 reused raw/TSV settings retain original execution-map/pins;verify those,not an invented rerun. Resolve printed8–12 references against directly reviewed complete source without inventing panels or issue-wide absence claims. Until actual assembly,retain native-a root plus both selected native_segments;5294 selected files across12 roots,including596 Fractint files. Full December goal active."
+    "note": "Independent 272/printed262 opens 텍스트 모드에서 살아 있는 테트리스 게임을 by 임광섭,with canonical 살아있는/source 살아 있는 spacing kept separate. Whole 273–274 continuations observed in Batch 24;actual ending/intervening extent beyond those views unverified. Do not infer extent from next TOC reference,global offset or source code completion. Review source-owned C++ listings,printed numbers/wraps/blank rows,diagrams/screens and all eligible prose before mapping. Use eng code/kor+eng other text,read all raws before one literal source pass,no unchanged-input retries. Selected roots now eleven readable/5429files;ten classification files separate. Install batch26/fractint_adapter_r02 alongside seven prior private adapters when checking all roots;retain source metadata/native statuses and original execution provenance. Other 29 unresolved identities,446-page accounting,cover,standalone issue export/rebuild and closeout remain;full December goal active."
   },
   "final_issue_classification_evidence_required": [
     {

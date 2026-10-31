@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Ten readable/sample-reviewed articles, one partial, two non-owning group headings,
+Eleven readable/sample-reviewed articles, no partials, two non-owning group headings,
 three section references and 29 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -193,9 +193,19 @@ forms. All raws read before one pass; zero retries, two pre-OCR edge refinements
 fourteen rejection cases. Direct incoming 옵션을 / 써 줄 필요가 없다. supersedes the
 prior prospective 쓸 reading; old native/evidence unchanged. Opening execution/reuse
 pins revalidated. Twelve body pages 254–265 are now preserved across natives a/b.
-Next: restore final 266–267, then actually assemble all fourteen pages from three
-regenerated natives; retain all custom indexes/source contexts and resolve printed
-figure references against complete source. Availability remains partial.
+Batch 26 preserves final 266–267 as a 126-file native, then actually assembles all
+fourteen Fractint pages: 731 exact files from three regenerated natives/722 files.
+All 185 crops, 170 outcomes, 2,228 projected/4,372 current ranges, 4,202 source links,
+sixteen private ranges and 170 source-local pins validate. One FPU join, seventeen
+complete option headers, fifteen final code rows/five formula annotations, original
+closing mark and nine explicit comment-glyph candidates remain. Printed figure9/12
+references are final bounded label mismatches with unconfirmed semantic candidates.
+All 29 final raws read before one source pass; zero retries, three pre-OCR repairs.
+First metadata aliasing failure retained; stable r02 passes full audits and twenty
+rejection checks, thirteen rehashed roots. Article/listing/native bytes unchanged.
+Next: verify Tetris 0017's actual extent from opening 272/262 and restore at most six
+opening pages, provisionally 272–277. Fractint is now readable. Eleven selected roots
+contain 5,429 files; ten classification files remain separate.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
