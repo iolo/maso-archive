@@ -66,9 +66,18 @@ Pre-OCR map revisions, one failed helper, one bracket-output refinement and one
 metadata-only export revision remain preserved. One source correction pass; no
 OCR retry. Child 0002–0004 remain unresolved pending actual assembly/final anchors.
 
-Next: source review and restoration of intrinsic part 2 opening PDF 168–173, within
-the same two/six/twenty ceilings. PDF 168 starts a new section; no prose join from
-167 is required. No global PDF/folio offset is inferred.
+Batch 04 preserves part 2 opening PDF 168–173/printed 158–163 as native c:
+326 independently exact files, 86 exact source crops, 77 OCR outcomes, 72 blocks
+and nine original images. Fourteen code fragments retain 61 nonempty rows,
+46 colon candidates and three ellipsis rows; seven caption associations and five
+column joins validate. One source pass, no recognition retry. A terminal render
+interruption before recognition is retained. The feature now spans eighteen
+preserved pages across a/b/c. PDF 168 starts a new section without an incoming
+prose join; 173→174 continues mid-word 속+성. No child classification is advanced.
+
+Next: source review and restoration of continuation PDF 174–179, within the same
+two/six/twenty ceilings. Verify both adjacent boundaries and intrinsic section
+transitions. No global PDF/folio offset is inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

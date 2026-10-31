@@ -43,8 +43,15 @@ fragments retain explicit contexts; the incoming 161→162 sidecar validates bot
 original native downloads/scans. First-section body coverage is complete across
 156–167; whole-feature availability stays partial and child anchors remain pending.
 Both pre-OCR map revisions, failed helper, bracket-output refinement and metadata
-export revision are retained. Next is bounded part 2 opening 168–173; no prose
-join across the 167→168 section boundary.
+export revision are retained.
+Batch 04 adds part 2 opening 168–173/printed 158–163 as native c: 326 independently
+exact files, 86 exact crops, nine original images and 77 OCR outcomes (63 kor+eng,
+14 eng). All raw drafts were read before one source pass; zero recognition retries.
+A stopped render before any recognition is retained separately. Fourteen code
+fragments/61 rows, 46 colon candidates, three ellipsis rows, seven captions and five
+column joins validate. Source wording and code defects remain literal. Natives a/b/c
+now preserve 156–173. No prose join across 167→168; 173→174 continues 속+성.
+Next is bounded continuation 174–179, including adjacent-boundary/section review.
 No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

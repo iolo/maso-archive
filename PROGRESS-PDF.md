@@ -26,7 +26,14 @@ no OCR retry. The first intrinsic section is preserved across natives a/b on
 156–167; actual whole-feature assembly and child anchors remain pending.
 Nine glossary entries, nine diagram captions, four code fragments, ten internal
 boundaries and the incoming native-a/native-b download/scan contexts validate.
-All input/output revisions remain retained. Next: bounded part 2 opening 168–173.
+All input/output revisions remain retained.
+Batch 04 adds part 2 opening 168–173/printed 158–163 as native c: 326 independently
+exact files, 86 exact crops, nine original images and 77 OCR outcomes. Fourteen code
+fragments/61 rows, seven captions and five column joins validate. One source pass,
+zero recognition retries; interrupted pre-recognition render retained. All 956 current
+typed ranges and two private boundary ranges validate. Feature coverage is now
+156–173 across a/b/c; whole feature and child anchors remain pending.
+Next: bounded continuation 174–179, including the incoming 속+성 boundary.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
