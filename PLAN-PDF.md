@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: six readable/sample-reviewed articles,
-no partials, two group headings, three section references and 34 unresolved identities.
+Current totals: seven readable/sample-reviewed articles,
+no partials, two group headings, three section references and 33 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -191,10 +191,23 @@ listing bytes equal native concatenation. The abbreviated 212/full 214 functions
 linked as distinct source occurrences. Listing 2 remains its printed fragment.
 Ten invalid native/recipe/rehashed-root cases are rejected. No assembly OCR/source pass.
 
-Next: verify actual extent of child 0012, 필기 알파벳 대문자 인식, from independent
-opening 216/printed 206, then restore at most six pages. Review all tables, stroke/
-character diagrams, code and associations before recognition; do not infer its ending
-from the next contents reference. Longer bodies require immutable natives and assembly.
+Batch 17 completes child 0012, 필기 문자 인식 시스템의 구현(3) : 필기 알파벳 대문자 인식,
+on PDF 216–221/individually read printed 206–211: 241 independently/fresh-process exact
+files, 64 exact crops, 48 blocks and eight original images. Three tables retain 148
+data cells plus 15 headers and two blanks. Fifty opaque graphic markers retain
+source contexts: 45 in tables and five inline.
+Six listings retain 319 physical rows, 224 normal numbered rows, 26 numbered blanks,
+19 unnumbered wraps and a displaced inline 15: candidate. All 2,446 current typed
+ranges and 18 private source ranges validate; eight altered custom-data cases are
+rejected. All 56 raws read before one source pass; no retries. Thirteen crop repairs,
+one split region and a failed schema preflight are retained. Literal reference conflicts,
+printed ellipsis and unrecovered automaton/global.h references remain explicit.
+
+Next: verify article 0013's actual extent from independent opening PDF 222/printed 212,
+source title 원근 투영 문제를 개선한 D—투영, by 이정운; then restore at most six pages.
+Preserve its canonical title 원근 투영을 개선한 D-투영 separately. Review all formula,
+figure and code associations before recognition; do not infer its ending from the
+next contents reference. Longer bodies require immutable natives and assembly.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

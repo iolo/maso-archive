@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: six readable/sample-reviewed
-articles, no partials, two non-owning group headings, three section references and 34 unresolved
+December 1992 is in progress at the owner's request: seven readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 33 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -136,9 +136,19 @@ two initial recognitions, no retry/crop repair. Actual readable assembly 208–2
 33 numbered blanks/13 wraps validate; native-a original execution pins remain intact.
 No cross-native text merge or new assembly OCR/pass. Ten invalid cases rejected;
 Listing 2's printed fragment and distinct abbreviated/full function forms remain explicit.
-Next: verify child 0012 extent from 216/206 and map at most six pages after full
-page/crop/table/stroke-diagram/code review. Use eng code/kor+eng other text and read
-all raws before one literal source pass; longer bodies need natives and assembly.
+Batch 17 completes alphabet-recognition child 0012 on PDF 216–221/printed 206–211:
+241 independent/fresh-process exact files, 64 exact crops, eight original images,
+three tables/148 data cells/15 headers/two blanks and 50 opaque graphic markers.
+Six listings retain 319 physical code rows, 224 normal numbered rows, 26 numbered
+blanks, 19 wraps and the displaced inline 15: candidate. All 2,446 current ranges
+and 18 private ranges validate; eight custom-data mutations rejected. All 56 raws
+(48 kor+eng/eight eng) read before one literal source pass; zero retries. Thirteen
+pre-OCR crop repairs, one split region and a failed schema preflight retained.
+Printed reference conflicts/ellipsis and unrecovered automaton/global.h remain explicit.
+Next: verify article 0013 extent from 222/212, source title 원근 투영 문제를 개선한 D—투영,
+by 이정운. Map at most six pages after full page/crop/formula/figure/code review.
+Use eng code/kor+eng other text and read all raws before one literal source pass;
+longer bodies need natives and assembly. Canonical/source title variants stay separate.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

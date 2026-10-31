@@ -13,12 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: six readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 34 unresolved
-identities. Batch 16 completes GUI-library child 0011 on PDF 208–214: all 280 assembly
-files reproduce exactly from regenerated natives. Complete numbered listings, blank
-rows, physical wraps, source fragment limits and five original images remain explicit.
-Next: verify article 0012's extent from PDF 216 and restore a bounded opening segment.
+December 1992 restoration is in progress: seven readable/sample-reviewed articles,
+no partials, two non-owning group headings, three section references and 33 unresolved
+identities. Batch 17 completes alphabet-recognition child 0012 on PDF 216–221:
+all 241 files reproduce independently and in a fresh process. Original diagrams,
+three tables and six listings retain source glyph candidates, physical wraps,
+printed defects and explicit unrecovered references.
+Next: verify article 0013's extent from PDF 222 and restore at most six pages.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.

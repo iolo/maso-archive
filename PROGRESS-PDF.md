@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Six readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 34 unresolved identities account for 45 canonical entries. All 94 independent
+Seven readable/sample-reviewed articles, no partials, two non-owning group headings,
+three section references and 33 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -113,8 +113,18 @@ rows, 33 numbered blanks/13 wraps and five original images. No cross-native text
 listing bytes equal native concatenation. Abbreviated 212/full 214 functions retain
 distinct contexts; Listing 2 remains the printed fragment. Two eng recognitions/one
 source pass for final 214, no retry/crop repair; no new assembly OCR/pass. Ten invalid
-native/recipe/rehashed-root cases rejected. Next: source-verify child 0012 extent from
-216/206, then restore at most six pages with table/stroke/code/image coverage review.
+native/recipe/rehashed-root cases rejected.
+Batch 17 completes alphabet-recognition child 0012 on PDF 216–221/printed 206–211:
+241 independently/fresh-process exact files, 64 exact crops, 48 blocks, eight images
+and 56 OCR outcomes. Three tables retain 148 data cells, 15 headers and two blanks;
+50 opaque graphic markers retain source contexts. Six listings retain 319 physical
+code rows, 224 normal labels, 26 numbered blanks, 19 wraps and a displaced inline
+15: candidate. All 2,446 current typed ranges and 18 private source ranges validate;
+eight custom-data mutations rejected. All raws read before one source pass, no retries.
+Thirteen crop repairs, one split region and failed schema preflight retained. Printed
+reference conflicts/ellipsis and unrecovered automaton/global.h remain explicit.
+Next: verify article 0013 extent from 222/212 and restore at most six pages, reviewing
+all formula/figure/code associations and preserving canonical/source title variants.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

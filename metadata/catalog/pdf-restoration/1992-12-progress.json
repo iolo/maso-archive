@@ -1358,12 +1358,85 @@
       "toc_entry_id": "maso-1992-12-toc-0012",
       "title": "필기 문자 인식 시스템의 구현(3) : 필기 알파벳 대문자 인식",
       "parent_id": "maso-1992-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent opening on PDF 216/printed 206 carries the series title, chapter 3, article title and byline 진상헌. Canonical title and parent 0010 remain unchanged. The complete body spans PDF 216–221/printed 206–211, each folio read locally. Prose closes on 219; code continues through 221 above an independent publisher advertisement. PDF 215 is a book advertisement; 222 starts a separately titled/bylined D-projection article and 223 continues it. No global folio offset inferred.",
+        "All 241 selected files match independent and fresh-process recipe exports. All 64 exact source crops, 48 blocks, eight original images, 56 pinned OCR settings, 2,446 current typed ranges including 72 empty occurrences, and 18 private ending/reference ranges validate. All 56 raw drafts were read before one literal source correction pass: 48 kor+eng and eight eng recognitions, no retries. Thirteen crops were repaired and one prose region split before OCR; failed schema preflight and earlier maps remain preserved.",
+        "Three complete original table images retain 148 data cells plus 15 headers, two blank positions, A–Z, 19 stroke/feature pairs, and eight condition rows with 16 circle and 32 cross candidates. Fifty opaque graphic markers retain exact source contexts without assigning Unicode or program identities to drawn strokes. The 19-slot original stroke key, connection diagram, automaton, six captions, six headings, two numbered lists/nine entries and six flow groups/eight boundaries remain explicit.",
+        "Six printed listings retain 319 physical code rows, 224 normal printed numbered rows, 26 numbered blanks and 19 unnumbered wraps. List 3 preserves its displaced inline 15: candidate without rewriting the source into valid C. Four literal prose/listing reference conflicts, five global.h references and one printed ellipsis remain explicit. The referenced automaton implementation is not identified/recovered among these six printed listings; no invented implementation or issue-wide absence claim.",
+        "Eight altered custom-data cases are rejected with outer hashes bypassed; this is the current private audit rather than generic core enforcement of all custom fields. Previous selected/classification evidence, source/runtime/TOC/queue, September reference and thirty core modules remain exact. Human acceptance/full proofreading, exact spaces/original glyph identities and encoded bytes, technical accuracy and execution remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-17-r01/alphabet",
+        "article_id": "scan-maso-1992-12-toc-0012",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-17-r01/alphabet/manifest.json",
+          "sha256": "62243f97e1121192ff065bfbc55d0198cc9dd63b22475f4c72f6ef6af2226864",
+          "bytes": 41522
+        },
+        "coverage": {
+          "pdf_pages": [
+            216,
+            217,
+            218,
+            219,
+            220,
+            221
+          ],
+          "printed_pages": [
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "regions": 64,
+          "blocks": 48,
+          "figures": 8,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 216,
+        "actual_end_pdf_page": 221,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-17/validation.json",
+          "sha256": "122af95fd126c9eded28b62a89b15adf6b92ff9917e4720da2a9b358c6a50b3e",
+          "bytes": 3921
+        },
+        "private_evidence_validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-17/private-evidence-validation.json",
+          "sha256": "477128212f5929e31c675ad814d09fdd2bb3a6c26ce7cf2880501a77add05643",
+          "bytes": 577
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-17/reproduction.json",
+          "sha256": "f3dfe816ce462ac869621f514b6038bdb0103ab8579bab83aed9ff333022944a",
+          "bytes": 42786
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-17/fresh-process-reproduction.json",
+          "sha256": "5a1f1fe8ad8a2be7b5ce631202333aaf9636e5d54a93fbd1b9fe31f649ebe2d5",
+          "bytes": 41812
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-17/source-ending-and-gaps.json",
+          "sha256": "32afd43e2b5527dc2b3a37b7e2997fefc996ef4c6a08ba3dbef3f4f284e34e58",
+          "bytes": 21635
+        },
+        "source_fragment_limits": [
+          "Prose on218 references anIF/ELSE alphabet-recognition automaton asList4;actual printed List4 on220 ispre_inc_dec. Referenced implementation isnot identified/recovered amongthese six printed listings. No substitute orsource-wide absence claim.",
+          "List5 contains aprinted ellipsis;its omitted implementation isnot invented. Referenced global.h file bytes areunrecovered;five literal include occurrences remain."
+        ],
+        "checkpoint": "batch-17"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0013",
@@ -2317,15 +2390,66 @@
         "sha256": "2bd444595972d3a3325e47943ef3d622f5d1de52007c6d5bcb63d6e048ec8f05",
         "bytes": 2065
       }
+    },
+    {
+      "name": "1992-12-batch-17",
+      "status": "complete",
+      "completed_at": "2026-10-31T13:53:23.078562+00:00",
+      "goal": "Restore the complete six-page alphabet recognition article 0012 with original diagrams, searchable tables and literal code.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0012"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        215,
+        222,
+        223
+      ],
+      "recognition_invocations": 56,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_repairs": 13,
+      "pre_ocr_split_region_additions": 1,
+      "schema_preflight_failures": 1,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-17/validation.json",
+        "sha256": "122af95fd126c9eded28b62a89b15adf6b92ff9917e4720da2a9b358c6a50b3e",
+        "bytes": 3921
+      },
+      "private_evidence_validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-17/private-evidence-validation.json",
+        "sha256": "477128212f5929e31c675ad814d09fdd2bb3a6c26ce7cf2880501a77add05643",
+        "bytes": 577
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-17/reproduction.json",
+        "sha256": "f3dfe816ce462ac869621f514b6038bdb0103ab8579bab83aed9ff333022944a",
+        "bytes": 42786
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-17/negative-checks.json",
+        "sha256": "dc5e2649850ee43fd02819d10903537a386c0064b035457ed0a364fbd3ff2985",
+        "bytes": 1420
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
     "group_headings": 2,
     "section_references": 3,
-    "unresolved": 34
+    "unresolved": 33
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -2333,38 +2457,31 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-17",
-    "goal": "Verify actual extent ofchild0012 필기 알파벳 대문자 인식 andrestore atmostsix source pages withoriginal stroke/character diagrams andsearchable tables.",
+    "name": "1992-12-batch-18",
+    "goal": "Verify actual extent of article 0013, 원근 투영을 개선한 D-투영, from its independent opening and restore at most six source pages.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0012"
+      "maso-1992-12-toc-0013"
     ],
     "mapping_targets": [],
     "candidate_mapping_targets": [
-      216,
-      217,
-      218,
-      219,
-      220,
-      221
+      222,
+      223,
+      224,
+      225,
+      226,
+      227
     ],
     "initial_lookup_candidates": [
-      215,
-      216,
-      217,
-      218,
-      219,
-      220,
-      221,
       222,
       223
     ],
-    "canonical_article_reference": 206,
+    "canonical_article_reference": 212,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Independent title/byline 진상헌 on216/printed206 observed after215 book advertisements. Actual complete extent unverified;do not infer ending fromnext contents reference orglobal offset. Review every whole page/crop,code row,table cell,stroke glyph andfigure association before mapped Tesseract;eng code,kor+eng other text. Read allraws before one literal source pass. Longer body requires immutable segments andactual assembly. Full December objective active."
+    "note": "Opening PDF 222/printed 212 has source title 원근 투영 문제를 개선한 D—투영 and byline 이정운; PDF 223 continues it. Preserve canonical/source title forms separately. Actual ending and remaining extent are unverified; do not infer them from contents references or a global folio offset. Review every full page and exact crop, including formula, figure and code associations, before mapped Tesseract. Use eng code and kor+eng other text; read all raws before one literal source pass. Longer bodies require immutable natives and actual assembly. Full December objective remains active."
   },
   "final_issue_classification_evidence_required": [
     {
