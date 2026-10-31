@@ -23,13 +23,19 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is now in progress at the owner's request. Batch01 completes
-column0005 on PDF108–110/printed98–100: one readable/sample-reviewed article,
-44 unresolved identities among45. All94 independent export files and23 native
+December 1992 is in progress at the owner's request: one readable/sample-reviewed
+article, one partial feature and 43 unresolved identities among 45. Batch 01 completes
+column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
 zero OCR retries. The first narrow crop map is retained; nine boundaries were
 enlarged before recognition. All raw drafts were read before correction.
-Next is bounded source review and opening restoration of feature0001, listed at146.
+Batch 02 preserves the six-page feature 0001 opening on PDF 156–161 as partial:
+207 independently exact files,54 exact native crops,48 OCR outcomes (47 kor+eng,
+one eng), one source correction pass and zero OCR retries. Original POINT colons
+and missing final semicolon remain literal. The failed helper, pre-OCR map revision
+and one saved-transcript refinement are retained. Current totals: one readable,
+one partial and 43 unresolved identities. PDF 183's ending is observed; unreviewed
+intervening continuity is not established. Next is bounded continuation 162–167.
 No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

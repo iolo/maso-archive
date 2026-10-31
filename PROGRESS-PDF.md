@@ -6,16 +6,21 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1992 is in progress at the owner's request. Batch01 completes canonical
-column0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF108–110/printed98–100.
-One readable/sample-reviewed article and44 unresolved identities account for45
-canonical entries. All94 independent JSON/assets export files are exact;23 native
-crops match retained renders. All21 raw mapped Tesseract drafts were read, then
+December 1992 is in progress at the owner's request. Batch 01 completes canonical
+column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
+One readable/sample-reviewed article, one partial feature and 43 unresolved identities
+account for 45 canonical entries. All 94 independent column JSON/assets export files are exact;23 native
+crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
 original images, two pull quotes, an attributed closing quote and six continuation
 boundaries remain explicit. The old araea glyph is a source-linked approximation.
-Next: verify feature0001, listed at146, and restore a bounded opening segment.
-Remaining bodies/assemblies, full446-page accounting, cover, issue export/rebuilds
+Batch 02 preserves the feature 0001 opening on PDF 156–161:207 independently exact
+files,54 native crops and 48 OCR outcomes, one source correction pass and zero OCR
+retries. Original diagrams, formulas, POINT code punctuation and eleven continuation
+boundaries remain explicit. Pre-OCR crop repairs, a failed helper and one saved-text
+refinement are retained. Ending 183 is observed, without claiming unreviewed intervening
+coverage. Next: source review and bounded restoration of continuation 162–167.
+Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

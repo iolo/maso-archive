@@ -33,12 +33,14 @@ records below are historical and do not authorize a new rebuild.
 
 The owner requested the complete December 1992 issue under this plan and
 `PLAN-OCR.md`. The source PDF has 446 physical pages and 45 canonical TOC
-identities. Batch01 restores canonical0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자,
-as a complete three-page article: PDF108–110, individually verified printed98–100.
-One article is readable/sample-reviewed; 44 identities remain unresolved.
+identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자,
+as a complete three-page article: PDF 108–110, individually verified printed 98–100.
+Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. One article is
+readable/sample-reviewed, one feature is partial/sample-reviewed and 43 identities
+remain unresolved.
 
-The two independent JSON/assets exports contain 94 exact files. All23 native
-crops match source render pixels; all21 mapped Tesseract drafts were read and
+The two independent JSON/assets exports contain 94 exact files. All 23 native
+crops match source render pixels; all 21 mapped Tesseract drafts were read and
 source-corrected once, with zero OCR retries. Four section headings, two original
 images, two independent pull quotations, a separately attributed closing quotation
 and six continuation boundaries are retained. A pre-OCR crop revision is preserved;
@@ -46,9 +48,17 @@ the old araea product-name glyph remains an explicit source-linked approximation
 The checkpoint uses one canonical task, three mapped pages and seventeen outside
 lookups. Prior September reference files and thirty core modules remain exact.
 
-Next: bounded source review and opening restoration of feature0001, listed at146.
-No global PDF/folio offset, final feature extent or child ownership is inferred.
-Remaining article bodies/assemblies, full446-page accounting, cover, standalone
+The feature native contains 207 independently exact files, 54 exact source crops,
+48 OCR outcomes and eleven continuation boundaries. The original opening artwork,
+three diagrams/charts, two formula panels and literal POINT code remain intact.
+One source correction pass, no OCR retries; pre-OCR crop repairs, a failed helper
+and one saved-transcript refinement remain explicit. The final summary/closing
+mark/references are observed on PDF 183, followed by advertisements; this does not
+prove unreviewed intervening continuity. Child 0002–0004 remain unresolved.
+
+Next: source review and restoration of feature 0001 continuation PDF 162–167, within
+the same two/six/twenty ceilings. No global PDF/folio offset is inferred.
+Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.
 No reader rebuild. See [December progress](docs/progress/9212.md) and
