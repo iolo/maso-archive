@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Seven readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 33 unresolved identities account for 45 canonical entries. All 94 independent
+Seven readable/sample-reviewed articles, one partial, two non-owning group headings,
+three section references and 32 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -123,8 +123,16 @@ code rows, 224 normal labels, 26 numbered blanks, 19 wraps and a displaced inlin
 eight custom-data mutations rejected. All raws read before one source pass, no retries.
 Thirteen crop repairs, one split region and failed schema preflight retained. Printed
 reference conflicts/ellipsis and unrecovered automaton/global.h remain explicit.
-Next: verify article 0013 extent from 222/212 and restore at most six pages, reviewing
-all formula/figure/code associations and preserving canonical/source title variants.
+Batch 18 preserves article 0013 opening 222–227/212–217 as partial: 238 independent/
+fresh-process exact files, 70 exact crops, 46 blocks and 17 original images. Nine
+diagrams/seven formula panels, 15 variable entries/17 function entries and 96 physical
+code/catalogue rows retain source contexts. Listing 1 has current 001–010/three blanks.
+All 1,034 current ranges, four private ranges and eight rejection cases pass. All 53
+raws read before one source pass; zero retries. Five pre-OCR edge repairs and schema
+failure retained. Direct byline 이정윤 supersedes prior forward-note 이정운; canonical
+identity is unchanged. Actual body ends 230, after prose closing 227. Next: final
+228–230, then actual nine-page assembly from independently regenerated natives,
+preserving all formula/catalogue indexes and the lower 230 advertisement exclusion.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: seven readable/sample-reviewed articles,
-no partials, two group headings, three section references and 33 unresolved identities.
+one partial, two group headings, three section references and 32 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -203,11 +203,22 @@ rejected. All 56 raws read before one source pass; no retries. Thirteen crop rep
 one split region and a failed schema preflight are retained. Literal reference conflicts,
 printed ellipsis and unrecovered automaton/global.h references remain explicit.
 
-Next: verify article 0013's actual extent from independent opening PDF 222/printed 212,
-source title 원근 투영 문제를 개선한 D—투영, by 이정운; then restore at most six pages.
-Preserve its canonical title 원근 투영을 개선한 D-투영 separately. Review all formula,
-figure and code associations before recognition; do not infer its ending from the
-next contents reference. Longer bodies require immutable natives and assembly.
+Batch 18 preserves article 0013 opening PDF 222–227/printed 212–217 as a partial
+native: 238 independent/fresh-process exact files, 70 exact crops, 46 blocks and
+17 original images. Nine diagrams and seven formula panels retain literal source
+geometry; 15 variable and 17 function entries retain descriptive annotations and
+continuations. All 1,034 current ranges, four private ranges and eight rejection
+cases pass. Numbered Listing 1 starts 001–010, including three blanks. All 53 raws
+read before one source pass; zero retries. Five pre-OCR edge repairs and a schema
+failure remain retained. Direct source credit is 이정윤; the previous forward-note
+reading 이정운 is superseded. Canonical title/byline/order/parent remain unchanged.
+
+Actual article extent is nine pages, PDF 222–230/printed 212–220. Prose closes on
+227; listings continue through 230 above a separate advertisement. Next: restore
+final 228–230, then create the actual nine-page assembly from independently
+regenerated natives. Preserve all formula/catalogue indexes, numbered/blank/wrapped
+code rows and the lower 230 advertisement exclusion. Body preservation alone does
+not complete the article; final assembly and root/native range validation are required.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

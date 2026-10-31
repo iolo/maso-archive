@@ -14,12 +14,12 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: seven readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 33 unresolved
-identities. Batch 17 completes alphabet-recognition child 0012 on PDF 216–221:
-all 241 files reproduce independently and in a fresh process. Original diagrams,
-three tables and six listings retain source glyph candidates, physical wraps,
-printed defects and explicit unrecovered references.
-Next: verify article 0013's extent from PDF 222 and restore at most six pages.
+one partial, two non-owning group headings, three section references and 32 unresolved
+identities. Batch 18 preserves D-projection article 0013 opening PDF 222–227:
+all 238 files reproduce independently and in a fresh process. Original diagrams,
+formulas, interface catalogues and printed code retain source contexts and defects.
+Next: restore final 228–230, then assemble the complete nine-page article from
+independently regenerated natives.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.

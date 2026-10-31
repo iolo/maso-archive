@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: seven readable/sample-reviewed
-articles, no partials, two non-owning group headings, three section references and 33 unresolved
+articles, one partial, two non-owning group headings, three section references and 32 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -145,10 +145,20 @@ and 18 private ranges validate; eight custom-data mutations rejected. All 56 raw
 (48 kor+eng/eight eng) read before one literal source pass; zero retries. Thirteen
 pre-OCR crop repairs, one split region and a failed schema preflight retained.
 Printed reference conflicts/ellipsis and unrecovered automaton/global.h remain explicit.
-Next: verify article 0013 extent from 222/212, source title 원근 투영 문제를 개선한 D—투영,
-by 이정운. Map at most six pages after full page/crop/formula/figure/code review.
-Use eng code/kor+eng other text and read all raws before one literal source pass;
-longer bodies need natives and assembly. Canonical/source title variants stay separate.
+Batch 18 preserves article 0013 opening 222–227/212–217 as a partial native:
+238 independent/fresh-process exact files, 70 exact crops, 46 blocks, nine diagrams,
+seven formula panels and the original prose closing mark. Fifteen variable entries,
+seventeen function entries, 96 physical code/catalogue rows and numbered 001–010/
+three blanks validate. All 1,034 current ranges and four private ranges pass; eight
+custom-data mutations rejected. All 53 raws (48 kor+eng/five eng) read before one
+source pass, zero retries. Five pre-OCR edge repairs and schema failure retained.
+Literal X²/Z² formula differences and catalogue wording/signatures stay unchanged.
+Direct credit crop reads 이정윤, superseding earlier forward-note 이정운.
+Actual body is 222–230/212–220: prose closes 227, listings end 230 above a separate
+advertisement. Next: restore final 228–230 and perform actual nine-page assembly
+from independently regenerated natives. Preserve every formula/catalogue index and
+native context, numbered/blank/wrapped row and lower 230 advertisement exclusion.
+Use eng code/kor+eng other text; read all new raws before one literal source pass.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
