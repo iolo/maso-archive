@@ -58,8 +58,16 @@ garbled narrow prose were source-corrected in the one pass, with no OCR retry.
 Four pre-OCR crop repairs and a failed helper remain retained. All 1,880 current
 typed ranges, four private adjacent-native/source ranges, eight joins and four
 code fragments/34 rows validate. Part 2 ends175; part3 starts176 independently.
-Coverage156–179 is preserved across a/b/c/d. Next: final feature180–183, then a
-separate actual assembly/child-anchor checkpoint.
+Coverage156–179 is preserved across a/b/c/d.
+Batch 06 completes final 180–183/printed 170–173 as native e: 198 independently
+exact files, 55 exact crops, 45 kor+eng outcomes, eleven step entries and four
+references. All 474 current ranges and three private boundary/ending ranges
+validate. One source pass, no OCR retry/crop revision. Complete ending on 183;
+184–185 are advertisements. All 28 feature body pages are now preserved across
+a–e; actual assembly and final child anchors remain pending, availability partial.
+Next: parent 0001 assembly plus child 0002 first-section anchor, then children
+0003/0004 in a separate two-task checkpoint. Regenerate natives independently
+before assembly reproduction; preserve all custom metadata/private contexts.
 No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

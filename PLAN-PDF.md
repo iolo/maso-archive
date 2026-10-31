@@ -85,8 +85,18 @@ crop repairs and a failed preflight helper retained. Coverage is now 156–179 a
 a/b/c/d; the first two intrinsic section bodies are preserved, with no child
 classification or completed assembly claim.
 
-Next: review and restore final feature PDF 180–183, then assemble the whole feature
-and resolve final child anchors in a separate checkpoint. No global folio offset.
+Batch 06 completes final PDF 180–183/printed 170–173 as native e: 198 independently
+exact files, 55 exact crops and 45 OCR outcomes. Three lists/eleven step entries,
+four references, six captions and eight internal boundaries validate; both original
+incoming native contexts remain explicit. The conclusion, closing ornament,
+bibliography and photograph end on 183; 184–185 are advertisements. One source
+pass, no recognition retry or crop revision. All 28 feature body pages, 156–183,
+are preserved across five immutable natives. Availability remains partial until
+actual assembly; child 0002–0004 remain unresolved.
+
+Next: assemble parent feature 0001 and resolve child 0002's first-section anchor
+within two canonical tasks. Resolve children 0003/0004 in the following bounded
+checkpoint. No new OCR/source correction expected; no global folio offset.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

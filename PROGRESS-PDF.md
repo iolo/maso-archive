@@ -38,7 +38,13 @@ Batch 05 adds174–179/printed164–169 as native d: 443 independently exact fil
 fragments/34 rows. All1,880 current ranges and four private boundary ranges validate.
 One source pass/no recognition retry; four crop repairs and failed helper retained.
 Coverage156–179 now spans a/b/c/d, completing the first two section bodies.
-Next: final feature180–183, then separate actual assembly and child anchors.
+Batch 06 completes final 180–183/printed 170–173 as native e: 198 independently
+exact files, 55 exact crops, 45 OCR outcomes, eleven step entries and four references.
+All 474 current ranges and three private boundary/ending ranges validate. One source
+pass, no OCR retry. All 28 feature body pages are preserved across five natives,
+with the actual ending and neighboring advertisements verified. Availability remains
+partial until assembly; child 0002–0004 remain unresolved.
+Next: parent 0001 assembly and child 0002 anchor, then children 0003/0004 separately.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

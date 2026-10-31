@@ -36,7 +36,8 @@
         "Original POINT colons/missing terminal semicolon retained. One post-save transcript output refinement restores an already-reviewed Flex token and balances quotation normalization; original output preserved, no second full-source pass. Historical claims/glyphs/bytes/spacing/execution remain unverified.",
         "Batch03 preserves162–167/printed152–157 as immutable native b. First intrinsic section now complete across native a/b; incoming161→162 is explicit in separate original download/scan contexts and168 starts intrinsic part2. All92 crops,80 OCR outcomes,nine glossary entries,nine diagram captions/four code fragments/16 nonempty rows/eight colons/three incomplete signatures and ten internal boundaries validate. One source pass/zero OCR retries; two pre-OCR map revisions,a failed helper,one bracket-output refinement and one explanatory-metadata export revision retained. Whole-feature168–183/actual assembly/child anchors pending.",
         "Batch04 preserves168–173/printed158–163 as immutable native c. Part2 starts168 without incoming prose join;173→174 continues mid-word 속+성. All86 crops/77 initial OCR outcomes,14 code fragments/61 rows,46 colon candidates,three ellipsis rows,seven caption associations and five column joins validate. One source pass and no recognition retry; interrupted pre-recognition render retained. Whole-feature174–183/actual assembly/child anchors pending.",
-        "Batch05 preserves174–179/printed164–169 as immutable native d. Part2 body is complete across c/d through175;176 starts part3 independently. Incoming173→174 and outgoing179→180 preserve 속+성 and Ma-+chine boundaries. All116 crops/106 initial OCR outcomes,4 complete tables/34 rows/285 cells,14 criteria,four code fragments/34 rows,28 colon candidates and8 internal joins validate. One source pass/no recognition retry;four pre-OCR crop repairs and a failed preflight helper retained. Remaining180–183/actual assembly/child anchors pending."
+        "Batch05 preserves174–179/printed164–169 as immutable native d. Part2 body is complete across c/d through175;176 starts part3 independently. Incoming173→174 and outgoing179→180 preserve 속+성 and Ma-+chine boundaries. All116 crops/106 initial OCR outcomes,4 complete tables/34 rows/285 cells,14 criteria,four code fragments/34 rows,28 colon candidates and8 internal joins validate. One source pass/no recognition retry;four pre-OCR crop repairs and a failed preflight helper retained. Remaining180–183/actual assembly/child anchors pending.",
+        "Batch06 preserves final180–183/printed170–173 as immutable native e. All28 feature body pages156–183 and three intrinsic section bodies now preserved across a–e; actual whole-feature assembly/final child anchors remain pending. All55 exact crops/45 initial OCR outcomes,11 step entries/four references,six caption associations and8 internal boundaries validate. Both original incoming179→180 contexts retained;183 summary/M ornament/four references/photo end feature and184–185 are full advertisements. One source pass/no recognition retry/no crop revision."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/batch-02-r01/oop-a",
@@ -247,9 +248,39 @@
               "sha256": "9abbb79a4e34fe15313533dec843a86bcf331d768a700ffdab8ea5bb80076c2f",
               "bytes": 4538
             }
+          },
+          {
+            "name": "e",
+            "directory": "archive/pdf/1992-12/packages/batch-06-r01/oop-e",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-06-r01/oop-e/manifest.json",
+              "sha256": "2db229608b9ba27d38edfeeb6c47e28263a7a28be8fa382a9bfa946d0c223c1c",
+              "bytes": 34026
+            },
+            "pdf_pages": [
+              180,
+              181,
+              182,
+              183
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-06/validation.json",
+              "sha256": "6c789676baa713280b723f982b369726e21468561a012bb76388c719903d50a3",
+              "bytes": 2267
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-06/reproduction.json",
+              "sha256": "a4c673b6499f30a879d1e56252e069dcc621c79081b08abeec36d7fd0c534fcf",
+              "bytes": 35482
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-06/incoming-and-ending.json",
+              "sha256": "bc9352751fd3a8491bf333c560f7487e7c72e68cc7e256e6094f8b4e16d9ee24",
+              "bytes": 3858
+            }
           }
         ],
-        "all_body_pages_preserved_across_natives": false,
+        "all_body_pages_preserved_across_natives": true,
         "preserved_pdf_pages_across_natives": [
           156,
           157,
@@ -274,24 +305,23 @@
           176,
           177,
           178,
-          179
-        ],
-        "remaining_pdf_pages": [
+          179,
           180,
           181,
           182,
           183
         ],
+        "remaining_pdf_pages": [],
         "first_intrinsic_section_body_pages_complete": true,
         "full_source_extent": {
           "start_pdf_page": 156,
           "end_pdf_page": 183,
-          "uninspected_interior_pdf_pages": [
-            181
-          ],
-          "note": "Natives a/b/c/d preserve156–179. Source180 and182–183 observed;181 requires review. Original native-a scope/history remains immutable."
+          "uninspected_interior_pdf_pages": [],
+          "note": "All28 body pages directly reviewed and preserved across a–e.183 actual ending and184–185 advertising verified. Actual assembly/final child anchors remain pending; original native-a snapshot stays immutable."
         },
-        "second_intrinsic_section_body_pages_complete": true
+        "second_intrinsic_section_body_pages_complete": true,
+        "third_intrinsic_section_body_pages_complete": true,
+        "actual_ending_complete": true
       }
     },
     {
@@ -991,6 +1021,37 @@
         "sha256": "69562890c4d28b4098dc97d8b1dfbf48590a156b33cab1634026076ab26d3e94",
         "bytes": 77929
       }
+    },
+    {
+      "name": "1992-12-batch-06",
+      "status": "complete",
+      "completed_at": "2026-10-31T09:18:00.053929+00:00",
+      "goal": "Restore final180–183 as immutable native e and complete all feature body-page preservation across a–e.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        180,
+        181,
+        182,
+        183
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 45,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-06/validation.json",
+        "sha256": "6c789676baa713280b723f982b369726e21468561a012bb76388c719903d50a3",
+        "bytes": 2267
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-06/reproduction.json",
+        "sha256": "a4c673b6499f30a879d1e56252e069dcc621c79081b08abeec36d7fd0c534fcf",
+        "bytes": 35482
+      }
     }
   ],
   "totals": {
@@ -1006,24 +1067,48 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-06",
-    "goal": "Review and restore final feature180–183 within four mapped pages; verify incoming179→180, all final diagrams/summary/references and actual ending before separate whole-feature assembly.",
+    "name": "1992-12-batch-07",
+    "goal": "Assemble parent feature0001 from five immutable natives, validate all projected/native metadata and cross-native joins, then resolve child0002 first-section anchor. Keep child0003/0004 classification for the next two-task checkpoint.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0001"
+      "maso-1992-12-toc-0001",
+      "maso-1992-12-toc-0002"
     ],
-    "mapping_targets": [
+    "mapping_targets": [],
+    "expected_pdf_pages": [
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
       180,
       181,
       182,
       183
     ],
-    "reusable_source_review": "archive/pdf/1992-12/restoration/batch-05/source-review/",
-    "observed_end_pdf_page": 183,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "180 full render retained; review181–183 and every selected crop before OCR. Keep natives a/b/c/d exact; whole-feature actual assembly/child anchors remain pending."
+    "note": "No new OCR/source correction required. Regenerate natives independently before assembly reproduction; preserve every original custom index/private evidence context. Child0003/0004 remain unresolved until later bounded classification."
   }
 }
