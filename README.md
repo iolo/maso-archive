@@ -14,12 +14,12 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: ten readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 30 unresolved
-identities. Batch 23 completes C++ graphics article 0015 on PDF 242–252: all 657 assembly
-files reproduce from regenerated natives. All 165 crops, 155 settings and 10,644 typed
-occurrences validate. Four printed listings, palette/table/catalogue data and source
-defects remain; three source spans are explicitly unresolved, original files unrecovered.
-Next: verify Fractint article 0016's extent from PDF 254 and restore at most six pages.
+one partial, two non-owning group headings, three section references and 29 unresolved
+identities. Batch 24 preserves Fractint article 0016 opening 254–259: all 250 files
+reproduce independently, with 67 exact crops, nine original images, 58 OCR outcomes
+and 794 typed ranges. The confirmed full body spans 254–267; original source claims,
+parable, image captions and printed superscript erratum remain literal.
+Next: restore 260–265, then final 266–267 and the actual fourteen-page assembly.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.

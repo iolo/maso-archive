@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: ten readable/sample-reviewed articles,
-no partials, two group headings, three section references and 30 unresolved identities.
+one partial, two group headings, three section references and 29 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -275,12 +275,26 @@ missing row 137 semicolon, signature/dot defects and literal Listing 3 claim rem
 All 46 raws read before one source pass; 22 eng/24 kor+eng, zero retries, six pre-OCR
 repairs. Schema failure retained; seventeen invalid cases rejected, ten rehashed roots.
 
-Next: verify Fractint article 0016's actual extent from independent opening 254/244,
-by 나원규, and restore at most six source pages. Candidate opening pages are 254–259;
-the ending is unverified. Review whole pages and every exact crop before mapped
-Tesseract, read all raws before one literal source pass, and preserve original images,
-tables, formulas, code, captions and source claims. Longer bodies require immutable
-natives and actual assembly; do not infer the ending from the next contents reference.
+Batch 24 verifies Fractint article 0016's fourteen-page body 254–267/printed 244–257
+and preserves opening 254–259 as a partial native: 250 independent/fresh-process exact
+files, 67 exact crops, 47 blocks, nine original images and 58 selected OCR outcomes.
+All 794 current ranges, four private ranges and 58 source-local transcript pins pass.
+Embedded 26-row Stone Soup parable, three-episode panel/current third, seven fractal
+images, first source menu screen/eight captions, printed 1026 versus 10²⁶ erratum and
+five option headers/seven syntax rows remain. Twelve technical claims, fourteen file
+and thirteen hotkey occurrences retain source contexts. All 58 initial drafts read;
+one clipped margin widened, recognized and read before the single correction pass.
+57 unchanged raw/TSV outcomes reused with original execution pins; 59 actual calls,
+zero unchanged-input retries. Thirteen pre-OCR crop events/twelve distinct repairs,
+one split addition and one post-OCR/pre-pass margin repair remain archived. Ten
+altered-data cases rejected; eleven boundaries retain sixteen intervening contexts.
+
+Next: restore continuation 260–265, preserving incoming FPU description 259 옵션을 /
+260 쓸 필요가 없다. and both native source contexts. Final 266–267 and actual
+fourteen-page assembly will still be required. Review exact menus/options/code/images/
+captions/claims and physical wraps; use eng code/kor+eng other text, read all raws
+before one literal source pass. Verify opening OCR reuse against its original execution
+pins. Later figure-reference correspondence remains deferred; do not invent panels.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: ten readable/sample-reviewed
-articles, no partials, two non-owning group headings, three section references and 30 unresolved
+articles, one partial, two non-owning group headings, three section references and 29 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -203,11 +203,26 @@ spelling, missing row 137 semicolon, signature/dot defects and literal Listing 3
 remain. All 46 raws read before one pass: 22 eng/24 kor+eng, zero retries, six pre-OCR
 repairs. Schema failure and forward byline-note revision retained; seventeen invalid
 cases rejected, ten consistently rehashed roots. No assembly OCR/source pass.
-Next: verify actual extent of Fractint article 0016 from opening 254/244 by 나원규;
-restore at most six pages, provisionally 254–259. Ending unverified; no inference from
-next contents reference. Review every whole page/exact crop/association, use eng code
-and kor+eng other text, read all raws before one literal pass. Longer bodies need
-immutable natives and actual assembly.
+Batch 24 verifies Fractint article 0016's fourteen-page body 254–267/printed 244–257
+and preserves opening 254–259 as a partial native: 250 independent/fresh-process exact
+files, 67 exact crops, 47 blocks, nine original images and 58 selected OCR outcomes.
+All 794 current ranges, four private ranges and 58 source-local transcript pins pass.
+Embedded 26-row Stone Soup parable, three-episode panel/current third, seven fractal
+images, first source menu screen/eight captions, printed 1026 versus 10²⁶ erratum and
+five option headers/seven syntax rows remain. Twelve technical claims, fourteen file
+and thirteen hotkey occurrences retain source contexts. All 58 initial drafts read;
+one clipped margin widened, recognized and read before the single correction pass.
+57 unchanged raw/TSV outcomes reused with original execution pins; 59 actual calls,
+zero unchanged-input retries. Thirteen pre-OCR crop events/twelve distinct repairs,
+one split addition and one post-OCR/pre-pass margin repair remain archived. Ten
+altered-data cases rejected; eleven boundaries retain sixteen intervening contexts.
+
+Next: restore continuation 260–265, preserving incoming FPU description 259 옵션을 /
+260 쓸 필요가 없다. and both native source contexts. Final 266–267 and actual
+fourteen-page assembly will still be required. Review exact menus/options/code/images/
+captions/claims and physical wraps; use eng code/kor+eng other text, read all raws
+before one literal source pass. Verify opening OCR reuse against its original execution
+pins. Later figure-reference correspondence remains deferred; do not invent panels.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

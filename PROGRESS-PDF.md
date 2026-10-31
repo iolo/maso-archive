@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Ten readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 30 unresolved identities account for 45 canonical entries. All 94 independent
+Ten readable/sample-reviewed articles, one partial, two non-owning group headings,
+three section references and 29 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -175,8 +175,17 @@ graphic dividers and 21 wraps; 40 descriptive entries retain 45 rows. Three sour
 remain explicitly unresolved; printed spelling/semicolon/signature/dot/reference defects
 retained. All 46 raws read before one pass, zero retries, six pre-OCR repairs; seventeen
 invalid cases rejected, ten rehashed roots. No new assembly OCR/pass.
-Next: verify Fractint article 0016 extent from opening 254/244 and restore at most six
-pages, provisionally 254–259. Actual ending unverified; no inference from next reference.
+Batch 24 verifies Fractint article 0016's actual body 254–267 and preserves opening
+254–259 as a 250-file partial: 67 exact crops, 47 blocks, nine original images and
+58 selected outcomes. All 794 current/four private ranges and 58 source-local pins pass.
+Embedded parable, series panel, seven fractal images/menu screen, eight captions,
+printed superscript erratum, five option headers and seven syntax rows remain literal.
+All 58 initial raws read; one widened margin recognized/read before one source pass.
+57 unchanged outcomes reused with original execution pins; 59 actual calls, zero
+unchanged-input retries. Ten altered-data cases rejected; no original program/config/
+image bytes or technical truth/execution certified.
+Next: restore 260–265 with incoming FPU continuation and both source contexts; final
+266–267 and actual fourteen-page assembly will remain required.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
