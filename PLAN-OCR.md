@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: nine readable/sample-reviewed
-articles, no partials, two non-owning group headings, three section references and 31 unresolved
+articles, one partial, two non-owning group headings, three section references and 30 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -182,10 +182,21 @@ fragment/read defects, ten escaped sequences and seven printed reference rows re
 All nineteen raws (eight eng/eleven kor+eng) read before one source pass; zero retries/
 crop repairs. Schema failure retained; fourteen invalid cases rejected, including seven
 rehashed roots. No new assembly OCR/pass. Independent lower 241 PCSHELL tip excluded.
-Next: verify C++ graphics article 0015 extent from opening 242/232 and restore at most
-six pages after full page/crop/table/image/formula/code/caption review. Actual ending
-is unverified; no inference from next contents reference. Use eng code/kor+eng other
-text, read all raws before one literal source pass; longer bodies need natives/assembly.
+Batch 22 preserves C++ graphics article 0015 opening 242–247/232–237: 454 exact files,
+118 exact crops, 94 blocks, nine original images, 109 settings and 1,288 current typed
+ranges/four private ranges. Actual body is eleven pages 242–252; final five and assembly
+remain required. All 109 raws read before one literal source pass: 80 kor+eng/29 eng,
+zero retries, 43 pre-OCR crop repairs. Palette 51 labels, Table 2's 35 cells/five headers
+and 29 descriptive declarations/31 physical rows retain source contexts. Independent
+sidebar, screen order 2/1/3/4, negative zero, literal formula/claims and printed defects
+remain. One faint operator is explicitly unresolved at U+E100, not an inferred C++
+operator. Ten altered-data cases rejected; 109 source-local transcript pins exact.
+Next: restore final 248–252 and assemble all eleven pages from independently regenerated
+natives. Join main 247 의미있 / 248 는 조도를 구할 수 있다. with explicit intervening
+figure/sidebar/table contexts, keeping the independent sidebar separate. Review exact
+listing rows/labels/blanks/wraps/captions/file references; preserve literal source claims
+and unrecovered originals. Project all custom metadata, including table header_region,
+palette hierarchy and unresolved operator, into explicit root/native contexts.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

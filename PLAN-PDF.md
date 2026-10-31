@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: nine readable/sample-reviewed articles,
-no partials, two group headings, three section references and 31 unresolved identities.
+one partial, two group headings, three section references and 30 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -248,11 +248,25 @@ rows and original closing mark/panel retained; lower 241 PCSHELL tip excluded.
 Nineteen raws read before one source pass, zero retries/crop repairs; schema failure
 retained. Fourteen invalid native/recipe/rehashed-root cases rejected. No new assembly OCR/pass.
 
-Next: verify article 0015's actual extent from independent opening PDF 242/printed 232,
-C++로 작성한 3차원 그래픽 라이브러리(4) : 빛과 조명, by 박재홍; restore at most
-six pages after full page/crop/table/image/formula/code/caption review. Actual ending
-is unverified; do not infer it from the next contents reference. Longer bodies require
-immutable natives and actual assembly.
+Batch 22 preserves article 0015 opening 242–247/printed 232–237 as an immutable
+partial native: 454 independent/fresh-process exact files, 118 exact crops, 94 blocks,
+nine original images and 109 OCR outcomes. Actual eleven-page body 242–252 is directly
+reviewed; prose closes 249, but four printed listings continue through 252 above a
+separate lower advertisement. The palette retains 51 searchable labels; Table 2 has
+35 data cells/five headers, negative zero and 21 parenthesized color values. Twenty-nine
+descriptive declarations retain 31 physical rows and two wraps. All 1,288 current
+ranges, four private ranges and 109 source-local transcript pins validate. Screen
+caption order 2/1/3/4, independent mathematical sidebar, literal formula/claims and
+printed declaration defects remain. One faint operator stays explicitly unresolved
+at U+E100; no C++ operator inferred. All raws read before one literal source pass;
+80 kor+eng/29 eng, zero retries, 43 pre-OCR crop repairs. Ten altered-data cases rejected.
+
+Next: restore final 248–252, then actually assemble all eleven pages from regenerated
+immutable natives. Join main 247 의미있 / 248 는 조도를 구할 수 있다. with explicit
+intervening figure/sidebar/table contexts; keep the complete independent sidebar
+separate. Review exact listing numbering, blanks, wraps, captions and file references;
+outside-only observations are not final row counts. Preserve the unresolved operator
+and project every custom index, including table header_region, into root/native contexts.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Nine readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 31 unresolved identities account for 45 canonical entries. All 94 independent
+Nine readable/sample-reviewed articles, one partial, two non-owning group headings,
+three section references and 30 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -158,8 +158,17 @@ concatenation. Listing 2 retains 616 numbered occurrences, fifteen numbered blan
 start_screen occurrences, printed fragment/read defects and escaped n/r order retained.
 Nineteen raws read before one pass, no retries/crop repairs; schema failure retained.
 Fourteen invalid native/recipe/rehashed-root cases rejected; no new assembly OCR/pass.
-Next: verify C++ graphics article 0015's extent from independent opening 242/232 and
-restore at most six source pages after complete source/crop review. Ending unverified.
+Batch 22 preserves C++ graphics article 0015 opening 242–247 as a 454-file partial:
+118 exact crops, 94 blocks, nine original images, 109 settings, 1,288 current ranges
+and four private ranges validate. All raws read before one literal source pass;
+80 kor+eng/29 eng, zero retries, 43 pre-OCR crop repairs. Palette 51 labels, Table 2's
+35 cells/five headers, 29 declarations/31 physical rows, independent sidebar and source
+screen order remain. One faint operator explicitly unresolved at U+E100; printed
+formula/claims/defects retained. Ten altered-data cases rejected. Actual body 242–252
+confirmed; prose ends 249, four printed listings continue through 252 above a separate ad.
+Next: restore final 248–252 and create the actual eleven-page assembly from regenerated
+natives, preserving main 247→248 continuation, independent sidebar and all root/native
+custom metadata contexts. Exact listing rows/labels/wraps require source review.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

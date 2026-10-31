@@ -14,12 +14,12 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: nine readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 31 unresolved
-identities. Batch 21 completes Turbo C article 0014 on PDF 232–241: all 426 assembly
-files reproduce from independently regenerated natives. All 102 crops, 99 settings
-and 12,477 typed occurrences validate. Original panels, checklists, irregular listing
-numbers and printed code defects remain; original encoded files/execution unverified.
-Next: verify C++ graphics article 0015's extent from PDF 242 and restore at most six pages.
+one partial, two non-owning group headings, three section references and 30 unresolved
+identities. Batch 22 preserves C++ graphics article 0015 opening 242–247: all 454 files
+reproduce independently, with 118 exact crops, nine original images, 109 OCR outcomes
+and 1,288 typed ranges. Palette/table/declaration data and printed defects remain;
+one faint operator is explicitly unresolved. The confirmed full body spans 242–252.
+Next: restore final 248–252 and assemble the complete eleven-page article.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.
