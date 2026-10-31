@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Seven readable/sample-reviewed articles, one partial, two non-owning group headings,
+Eight readable/sample-reviewed articles, no partials, two non-owning group headings,
 three section references and 32 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -130,9 +130,18 @@ code/catalogue rows retain source contexts. Listing 1 has current 001–010/thre
 All 1,034 current ranges, four private ranges and eight rejection cases pass. All 53
 raws read before one source pass; zero retries. Five pre-OCR edge repairs and schema
 failure retained. Direct byline 이정윤 supersedes prior forward-note 이정운; canonical
-identity is unchanged. Actual body ends 230, after prose closing 227. Next: final
-228–230, then actual nine-page assembly from independently regenerated natives,
-preserving all formula/catalogue indexes and the lower 230 advertisement exclusion.
+identity is unchanged. Actual body ends 230, after prose closing 227.
+Batch 19 adds final 228–230 as a 57-file native and completes the actual readable
+nine-page assembly: 304 independent/fresh-process exact files from two regenerated
+natives/295 files. All 3,469 projected ranges, 7,646 current occurrences, 82 exact
+crops, 65 settings and three ZIPs validate. Five complete printed listings retain
+349 numbered rows/57 numbered blanks/nine wraps; all 444 physical code/catalogue
+rows and original formula/diagram/catalogue metadata remain. Code bytes equal native
+concatenation without cross-native text merge. Twelve raws read before one source
+pass, no retries; four pre-OCR edge repairs retained. No new assembly OCR/pass.
+Eleven invalid native/recipe/rehashed-root cases rejected; original encoded program/
+header/picture recovery and execution unverified. Next: verify Turbo C article 0014
+extent from independent opening 232/222, then restore at most six source pages.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

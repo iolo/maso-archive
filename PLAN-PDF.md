@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: seven readable/sample-reviewed articles,
-one partial, two group headings, three section references and 32 unresolved identities.
+Current totals: eight readable/sample-reviewed articles,
+no partials, two group headings, three section references and 32 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -213,12 +213,22 @@ read before one source pass; zero retries. Five pre-OCR edge repairs and a schem
 failure remain retained. Direct source credit is 이정윤; the previous forward-note
 reading 이정운 is superseded. Canonical title/byline/order/parent remain unchanged.
 
-Actual article extent is nine pages, PDF 222–230/printed 212–220. Prose closes on
-227; listings continue through 230 above a separate advertisement. Next: restore
-final 228–230, then create the actual nine-page assembly from independently
-regenerated natives. Preserve all formula/catalogue indexes, numbered/blank/wrapped
-code rows and the lower 230 advertisement exclusion. Body preservation alone does
-not complete the article; final assembly and root/native range validation are required.
+Batch 19 preserves final 228–230/218–220 as a 57-file native, then actually assembles
+all nine pages 222–230: 304 independent/fresh-process exact files from two regenerated
+natives/295 files. All 3,469 projected ranges, 7,646 current typed occurrences,
+82 source crops, 65 settings and three ZIPs validate. Five complete printed listings
+retain 349 numbered rows, 57 numbered blanks and nine physical wraps; 444 physical
+code/catalogue rows include the descriptive interfaces. All original diagrams,
+formulas, catalogue indexes and literal defects retain current/native contexts.
+No cross-native text merge; code bytes equal native concatenation. Original encoded
+program/header/picture recovery and execution remain unverified. Eleven invalid
+native/recipe/rehashed-root cases rejected. Twelve raws read before one source pass,
+zero retries; four pre-OCR edge repairs retained. No new assembly OCR/source pass.
+
+Next: verify article 0014's actual extent from independent opening PDF 232/printed 222,
+터보 C 120% 활용작전(마지막회) : 벌레없는 프로그램, by 박종천; restore at most
+six pages after whole-page/crop/code/caption review. Do not infer its ending from
+the next contents reference. Longer bodies require immutable natives and assembly.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: seven readable/sample-reviewed
-articles, one partial, two non-owning group headings, three section references and 32 unresolved
+December 1992 is in progress at the owner's request: eight readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 32 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -154,11 +154,18 @@ custom-data mutations rejected. All 53 raws (48 kor+eng/five eng) read before on
 source pass, zero retries. Five pre-OCR edge repairs and schema failure retained.
 Literal X²/Z² formula differences and catalogue wording/signatures stay unchanged.
 Direct credit crop reads 이정윤, superseding earlier forward-note 이정운.
-Actual body is 222–230/212–220: prose closes 227, listings end 230 above a separate
-advertisement. Next: restore final 228–230 and perform actual nine-page assembly
-from independently regenerated natives. Preserve every formula/catalogue index and
-native context, numbered/blank/wrapped row and lower 230 advertisement exclusion.
-Use eng code/kor+eng other text; read all new raws before one literal source pass.
+Batch 19 adds final 228–230 as a 57-file native: 348 physical rows/339 numbered rows,
+54 numbered blanks/nine wraps. All twelve raws (eight eng/four kor+eng) read before
+one source pass; zero retries. Four pre-OCR edge repairs retained. Actual readable
+nine-page assembly has 304 exact files from two regenerated natives/295 files.
+All 3,469 projected ranges, 7,646 current occurrences, 82 crops, 65 settings and
+three ZIPs validate. Five printed listings retain 349 numbered rows/57 blanks/nine
+wraps; all formula/catalogue metadata and source defects remain. No cross-native
+text merge or new assembly OCR/pass. Eleven invalid native/recipe/rehashed-root cases
+rejected. Complete printed source does not establish original encoded-file recovery.
+Next: verify Turbo C article 0014 extent from 232/222 and restore at most six pages
+after full page/crop/code/caption review. Use eng code/kor+eng other text; read all
+new raws before one literal source pass. Longer bodies require natives and assembly.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

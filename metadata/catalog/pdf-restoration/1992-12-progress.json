@@ -1444,22 +1444,27 @@
       "parent_id": "maso-1992-12-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent source title 원근 투영 문제를 개선한 D—투영 and credit 글. 이정윤 on PDF 222/printed 212 establish this child of group 0010. Canonical title 원근 투영을 개선한 D-투영, byline 이정윤, order, parent and reference 212 remain unchanged. Actual complete extent 222–230/212–220 is directly reviewed; final 228–230 and actual nine-page assembly remain pending.",
         "Opening native 222–227 contains 238 independent/fresh-process exact files, 70 exact crops, 46 blocks, 17 original images, 53 pinned OCR outcomes, 288 reading rows, 1034 current typed ranges including 12 empty occurrences, and four private source ranges including two empty anchors. All 53 raws read before one source pass; 48 kor+eng/five eng recognitions, zero retries. Five edge crops repaired before OCR; schema failure and earlier map/crop evidence retained.",
         "Nine original diagrams retain all embedded graphics/lettering, with nine separately transcribed captions. Seven original formula panels have six logical formula groups, including three numbered equations and equation 2 split across columns. Equation 3 X²+Y²+Z² remains distinct from the later printed X²+Y²+X². Prime/fraction/radical/superscript Unicode candidates do not certify original glyph identities, encoded bytes or mathematical correctness.",
         "Annotated interface catalogues preserve fifteen variable/macro/pointer entries and seventeen function entries, including descriptions continued across page and column boundaries. Printed int _detail description calls it a function; literal wording and pointer names remain unchanged. All 96 physical code/catalogue rows and numbered Listing 1 rows 001–010/three blanks validate. Original comment milimeter and literal filename wildcard patterns remain; no compilable-prototype repair or original program recovery claim.",
-        "All six flow groups/seven boundaries, eight headings, twelve opaque variants, source title/credit forms and complete current region coverage validate. Eight altered custom-data cases rejected with outer hashes bypassed; this is the private audit rather than generic core enforcement. All previous package/classification/source/runtime/TOC/queue/reference/core pins remain exact. Human acceptance/full proofreading, original glyphs/bytes/exact spaces, technical accuracy and execution unverified."
+        "All six flow groups/seven boundaries, eight headings, twelve opaque variants, source title/credit forms and complete current region coverage validate. Eight altered custom-data cases rejected with outer hashes bypassed; this is the private audit rather than generic core enforcement. All previous package/classification/source/runtime/TOC/queue/reference/core pins remain exact. Human acceptance/full proofreading, original glyphs/bytes/exact spaces, technical accuracy and execution unverified.",
+        "Batch 19 preserves final 228–230/218–220 as a 57-file immutable native: twelve exact crops, eight eng code/four kor+eng caption outcomes, 348 physical code rows, 339 numbered rows, 54 numbered blanks and nine unnumbered physical wraps. All twelve raws read before one literal source pass; zero retries. Four edge repairs reviewed before OCR; old crops/maps retained.",
+        "The actual complete readable nine-page assembly has 304 independent/fresh-process exact files from two regenerated natives/295 files. All 82 exact crops, 55 blocks, seventeen images, 65 selected OCR outcomes, 3469 projected ranges, 7646 current typed occurrences including 456 empty occurrences, and 7583 native-source occurrences validate. Eight private boundary/credit ranges include two empty anchors. Native evidence and original metadata remain unchanged.",
+        "All five printed listings retain 349 numbered logical rows, 57 numbered blanks and nine unnumbered physical wraps: List 1 001–197, List 2 01–28, List 3 01–37, List 4 01–32, List 5 01–55. Combined physical code/catalogue rows total 444, including 358 physical numbered-listing rows. Native boundary 010/011 needs no prose or logical code-line merge; listing bytes are exact native concatenation.",
+        "Nine original diagrams, seven original formula panels, fifteen variable entries, seventeen function entries, eight headings and five listing captions retain complete root/native contexts. The repeated-X² derivation, literal catalogue wording/pointer names and printed code defects/coordinates remain unchanged. Current file dispositions distinguish complete printed programs/header from unrecovered original encoded files; no original PCX recovery or execution claim.",
+        "Eleven invalid frozen-input/rehashed-root cases rejected, including moved blank anchor, a radius redirected to a valid but wrong equation, a header linked to a valid but wrong example caption and invented original-header-byte recovery. Frozen native/parent-group pending notes remain historical snapshots resolved by the current complete assembly and ledger. All other identities and parent/group decisions remain unchanged. Human acceptance/full proofreading, original glyphs/bytes/exact spaces, technical accuracy and execution unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-18-r01/dprojection-a",
+        "directory": "archive/pdf/1992-12/packages/dprojection-r01",
         "article_id": "scan-maso-1992-12-toc-0013",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-18-r01/dprojection-a/manifest.json",
-          "sha256": "040c8e93988b8110215627f1cf64d3cb94400ac5ba2a92e2cb83035a7a13ca6b",
-          "bytes": 41510
+          "path": "archive/pdf/1992-12/packages/dprojection-r01/manifest.json",
+          "sha256": "c47e2297d0aeb7cda0a4cb49cfd7d2fc107249e7e1eee3ae552280c2cc40b0e5",
+          "bytes": 55636
         },
         "coverage": {
           "pdf_pages": [
@@ -1468,7 +1473,10 @@
             224,
             225,
             226,
-            227
+            227,
+            228,
+            229,
+            230
           ],
           "printed_pages": [
             "212",
@@ -1476,21 +1484,20 @@
             "214",
             "215",
             "216",
-            "217"
+            "217",
+            "218",
+            "219",
+            "220"
           ],
-          "regions": 70,
-          "blocks": 46,
+          "regions": 82,
+          "blocks": 55,
           "figures": 17,
-          "deferred_pdf_pages": [
-            228,
-            229,
-            230
-          ],
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 222,
         "actual_end_pdf_page": 230,
         "actual_ending_observed": true,
@@ -1500,24 +1507,23 @@
           224,
           225,
           226,
-          227
-        ],
-        "remaining_pdf_pages": [
+          227,
           228,
           229,
           230
         ],
+        "remaining_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-18/validation.json",
-          "sha256": "1d1639b549dab7e48ea067af394f9af85d898a2da5a1eec1202de499ab2a1c60",
-          "bytes": 3262
+          "path": "archive/pdf/1992-12/restoration/batch-19/validation.json",
+          "sha256": "dad5b7aa0b72539fe19176b8bb1d25d319e964ef561695e5d96a0f460d8982b4",
+          "bytes": 3519
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-18/reproduction.json",
-          "sha256": "b85b7a00d137dc75f8847a76700a902f1610c5515ff9a1ff4f3bcace1f28125d",
-          "bytes": 42584
+          "path": "archive/pdf/1992-12/restoration/batch-19/assembly-reproduction.json",
+          "sha256": "3d2ec8e4c7e07a48f6cd5bc40ef68249ec2cdc2a909a07e0bcce8ad36fb8adac",
+          "bytes": 57065
         },
-        "checkpoint": "batch-18",
+        "checkpoint": "batch-19",
         "native_segments": [
           {
             "name": "a",
@@ -1550,6 +1556,35 @@
               "sha256": "60ca2ccd2c357f4185823c4ed0a90abe92f73403eba635483525a70028d7334f",
               "bytes": 6284
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-19-r01/dprojection-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-19-r01/dprojection-b/manifest.json",
+              "sha256": "516dfcae3d8f353894070cdfa7b9329be04b51bd4ae3aa0da2dbc7451d1f5372",
+              "bytes": 9626
+            },
+            "pdf_pages": [
+              228,
+              229,
+              230
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-19/validation.json",
+              "sha256": "dad5b7aa0b72539fe19176b8bb1d25d319e964ef561695e5d96a0f460d8982b4",
+              "bytes": 3519
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-19/native-b-reproduction.json",
+              "sha256": "4e060a38bb9951de72c0c522393b27d95c29dacd15b87f5290d2e293b14a4de5",
+              "bytes": 10102
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-19/final-boundaries.json",
+              "sha256": "bb6732af2b8f5938bd5c9e7ca6e6327449ade3d123fb627645b99ffebe19d910",
+              "bytes": 4012
+            }
           }
         ],
         "full_source_extent": {
@@ -1576,11 +1611,11 @@
             "220"
           ],
           "uninspected_interior_pdf_pages": [],
-          "note": "All nine whole body views reviewed for ownership and continuity. Prose closes on 227; printed listings continue through 230 above an independent recruitment advertisement. 231 is a full book advertisement; 232 opens the independent Turbo C article and 233 continues it. Current native preserves only 222–227; final three pages and actual assembly remain required. No global folio offset inferred."
+          "note": "Actual complete nine-page article 222–230 assembled from independently regenerated immutable natives a/b. Prose closes 227; five printed listings continue through 230 above an excluded recruitment advertisement. All folios 212–220 read locally; no global offset inferred. Boundary 010/011 requires no cross-native prose or logical code-line merge. Canonical title/byline/order/parent/reference unchanged."
         },
         "source_fragment_limits": [
-          "Current Listing 1 contains only printed 001–010; its remaining rows and other four printed listings are deferred on 228–230.",
-          "Printed picture/program/header filenames and patterns are references, not recovered original encoded files or executable programs."
+          "All five printed listings are now complete: 001–197, 01–28, 01–37, 01–32 and 01–55. Scan-based typed source does not recover original encoded program/header files or establish exact spaces/glyphs, technical accuracy or execution.",
+          "Literal pic0???.pcx/list0?.c patterns remain source references. Original PCX bytes are not recovered or invented; original printed diagrams remain intact."
         ],
         "source_byline_resolution": {
           "current_candidate": "이정윤",
@@ -1592,6 +1627,33 @@
             "bytes": 16202
           },
           "note": "Direct exact opening credit crop supersedes the previous forward-note spelling. Historical observations and packages remain unchanged."
+        },
+        "assembly": {
+          "recipe": {
+            "path": "archive/pdf/1992-12/restoration/batch-19/assembly-recipe.json",
+            "sha256": "1e3260aa83465eafa460c0d41129ba50132b43a1fceca9d1cdeb7cf91081520a",
+            "bytes": 2510
+          },
+          "adapter": {
+            "path": "archive/pdf/1992-12/restoration/batch-19/dprojection_adapter.py",
+            "sha256": "62906dff42371548f61807d3cc55013693d38e9eb200b68b681c8e7f8fe2aa33",
+            "bytes": 16056
+          },
+          "adapter_inputs": {
+            "path": "archive/pdf/1992-12/restoration/batch-19/adapter-inputs.json",
+            "sha256": "82fa0c0b9843fde8e6e665a9fc6a37ee656b0d2cccea5bd98d49ee0c357029eb",
+            "bytes": 8905
+          },
+          "native_reproduction": {
+            "path": "archive/pdf/1992-12/restoration/batch-19/native-reproduction.json",
+            "sha256": "05f3985ec28e3e0e43346d2971dbe442a78e8c3851627085df1405cd7a72f98a",
+            "bytes": 58765
+          },
+          "negative_checks": {
+            "path": "archive/pdf/1992-12/restoration/batch-19/negative-checks.json",
+            "sha256": "83771b09397a1bfbaacbddcd932495c7d92dcb5e8d2d8761739d2961293b04cf",
+            "bytes": 2375
+          }
         }
       }
     },
@@ -2635,12 +2697,61 @@
         "sha256": "05370f89abb1b2b218c09397ab03578334f626ec7b4be2158da4028f767ee88c",
         "bytes": 1412
       }
+    },
+    {
+      "name": "1992-12-batch-19",
+      "status": "complete",
+      "completed_at": "2026-10-31T14:34:50.278779+00:00",
+      "goal": "Restore final D-projection body pages and complete the actual readable nine-page assembly from independently regenerated natives.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0013"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        228,
+        229,
+        230
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        222,
+        227,
+        231,
+        232
+      ],
+      "recognition_invocations": 12,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_repairs": 4,
+      "assembly_new_ocr": 0,
+      "assembly_new_source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-19/validation.json",
+        "sha256": "dad5b7aa0b72539fe19176b8bb1d25d319e964ef561695e5d96a0f460d8982b4",
+        "bytes": 3519
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-19/assembly-reproduction.json",
+        "sha256": "3d2ec8e4c7e07a48f6cd5bc40ef68249ec2cdc2a909a07e0bcce8ad36fb8adac",
+        "bytes": 57065
+      },
+      "native_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-19/native-reproduction.json",
+        "sha256": "05f3985ec28e3e0e43346d2971dbe442a78e8c3851627085df1405cd7a72f98a",
+        "bytes": 58765
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-19/negative-checks.json",
+        "sha256": "83771b09397a1bfbaacbddcd932495c7d92dcb5e8d2d8761739d2961293b04cf",
+        "bytes": 2375
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 7,
-    "partial": 1,
+    "readable": 8,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 32
@@ -2651,33 +2762,38 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-19",
-    "goal": "Restore final D-projection body pages 228–230, then create the actual readable nine-page assembly from independently regenerated immutable natives.",
+    "name": "1992-12-batch-20",
+    "goal": "Verify actual extent of Turbo C final installment 0014 from its independent opening and restore at most six source pages.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0013"
+      "maso-1992-12-toc-0014"
     ],
-    "mapping_targets": [
-      228,
-      229,
-      230
-    ],
+    "mapping_targets": [],
     "candidate_mapping_targets": [
-      228,
-      229,
-      230
+      232,
+      233,
+      234,
+      235,
+      236,
+      237
     ],
     "initial_lookup_candidates": [
-      227,
       231,
-      232
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
     ],
-    "canonical_article_reference": 212,
+    "canonical_article_reference": 222,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve Listing 1 continuation 011–197, complete printed header and three example listings, all numbered/blank/wrapped rows and the lower 230 advertisement exclusion. Verify 227→228 boundary: final current 010 is blank, next 011 starts declarations. The prose closing mark on 227 is not the article ending. Retain all native-a formula/catalogue indexes and literal mathematical/code defects in projected root/native contexts. Read all new raws before one literal source pass. Final body preservation alone does not complete the article; independently regenerate both natives and perform actual assembly. Full December goal remains active."
+    "note": "Independent opening 232/printed 222 has series 터보 C 120% 활용 작전(마지막회), title 벌레없는 프로그램 and credit 박종천 (연세대 YCC 학술부). Canonical title/order/byline/parent/reference stay unchanged. Actual ending is unverified; do not infer it from next contents reference or a global folio offset. Review every whole page/crop, series panel, code row, caption and association before mapped Tesseract; eng code, kor+eng other text. Read all raws before one literal source pass. Longer bodies require immutable natives and actual assembly. Full December objective remains active."
   },
   "final_issue_classification_evidence_required": [
     {

@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: seven readable/sample-reviewed articles,
-one partial, two non-owning group headings, three section references and 32 unresolved
-identities. Batch 18 preserves D-projection article 0013 opening PDF 222–227:
-all 238 files reproduce independently and in a fresh process. Original diagrams,
-formulas, interface catalogues and printed code retain source contexts and defects.
-Next: restore final 228–230, then assemble the complete nine-page article from
-independently regenerated natives.
+December 1992 restoration is in progress: eight readable/sample-reviewed articles,
+no partials, two non-owning group headings, three section references and 32 unresolved
+identities. Batch 19 completes D-projection article 0013 on PDF 222–230: all 304
+assembly files reproduce from independently regenerated natives. Five printed
+listings, original diagrams/formulas and interface catalogues retain source contexts
+and defects; original encoded files and execution remain unverified.
+Next: verify Turbo C article 0014's extent from PDF 232 and restore at most six pages.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.
