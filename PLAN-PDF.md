@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: three readable/sample-reviewed articles,
-one group heading, three section references, no partials and 38 unresolved identities.
+one partial article, one group heading, three section references and 37 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -120,9 +120,20 @@ rows, six headings and sixteen boundaries validate. Three independent pull quota
 and a separate attributed closing quotation remain distinct. One source pass, no OCR
 retry or crop repair; printed dates, numbers, wording and claims remain literal.
 
-Next: locate/restore article 0008, '룩앤필'을 둘러싼 50억불 청구 소송, in a bounded
-native. Contents reference 176 and previously observed PDF 186 are locator cues;
-verify actual extent and each folio without a global offset. Segment if longer than six pages.
+Batch 10 preserves the look-and-feel article 0008 opening on PDF 186–191/printed
+176–181 as an immutable partial native. All 306 files reproduce independently and
+in a fresh process; 76 exact crops, 74 selected OCR outcomes and 1,845 typed ranges
+validate. Its table retains 29 data rows/203 cells plus seven headers: 46 blank
+positions, 98 circle candidates, one partial-circle marker and two faint name spans.
+Two five-entry lists and fifteen prose boundaries remain explicit. One source pass
+was paused for one wider prose crop; 74 initial recognitions plus one changed-crop
+recognition, 73 unchanged raw/TSV results reused, zero unchanged-input retries.
+Fourteen row crops were repaired before OCR. A failed statistics preflight is retained;
+source text/cells were unchanged. Source title/credits, amounts and citations stay literal.
+
+Next: review/restore continuation 192–197 as native b, within six mapped pages.
+The actual ending on 198 is observed above an advertisement; remaining body ownership,
+continuity and final assembly still need verification. No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

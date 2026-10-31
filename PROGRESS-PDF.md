@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Three readable/sample-reviewed articles, one non-owning group heading, three section
-references and 38 unresolved identities account for 45 canonical entries; no partials remain. All 94 independent
+Three readable/sample-reviewed articles, one partial article, one non-owning group heading,
+three section references and 37 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -61,8 +61,16 @@ reproduce independently and in fresh processes. All 45 exact crops, 39 OCR setti
 751 typed ranges, 554 reading rows, six headings and 16 boundaries validate. Three
 independent pulls and a separate attributed quotation remain distinct. All 39 raws read
 before one source pass; no retries or crop repairs. Source dates,wording and claims literal.
-Next: bounded location/restoration of look-and-feel article0008;reference 176/PDF 186
-are locator cues. Verify actual extent and segment beyond six mapped pages.
+Batch 10 preserves look-and-feel opening 186–191/printed 176–181 as partial native a.
+All 306 independent/fresh-process files, 76 exact crops, 74 selected OCR outcomes and
+1,845 typed ranges validate. The table has 29 rows/203 data cells/seven headers,
+46 blanks, 98 circles, one partial-circle marker and two faint name spans. Two
+five-entry lists and fifteen boundaries remain. Fourteen row crops were repaired
+before OCR; one prose crop widened during the same paused source pass. Seventy-five
+actual recognitions, 73 exact reused raw/TSV outcomes with original execution
+provenance, zero unchanged-input retries. Failed statistics preflight retained;
+source text/cells unchanged. Next: bounded continuation 192–197; remaining body,
+final native and actual assembly pending.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

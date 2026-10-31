@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: three readable/sample-reviewed
-articles, one non-owning group heading, three section references, no partials and 38 unresolved
+articles, one partial article, one non-owning group heading, three section references and 37 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -85,8 +85,18 @@ reproduce independently and in fresh processes. All 45 exact crops, 39 pinned se
 751 typed ranges, 554 reading rows, six headings and 16 boundaries validate. Three
 independent pulls and separate attributed quote retained. All 39 raws read before one
 source pass; no retries or crop repairs. Printed dates, wording, numbers and claims literal.
-Next: bounded location/restoration of look-and-feel article0008;reference 176/PDF 186
-are location cues,not proof of whole extent. Segment beyond six mapped pages.
+Batch 10 preserves look-and-feel opening 186–191/printed 176–181 as partial native a:
+306 exact independent/fresh-process files, 76 exact crops, 74 selected outcomes,
+1,845 ranges and a 29-row table/203 data cells plus seven headers. Forty-six blank
+slots, 98 circle candidates, one partial-circle marker and two faint name spans stay
+explicit. Two five-entry lists and fifteen prose boundaries validate. Fourteen row
+crops repaired before OCR; one prose crop widened during the paused source pass.
+All 74 initial raws read before the pass; changed raw read before resuming that same
+pass. Seventy-five actual recognitions, 73 unchanged raw/TSV outcomes reused with
+original execution-map/settings provenance, zero unchanged-input retries. Failed
+statistics preflight retained; source text/cells unchanged. Source title/credits,
+amounts, citations and spelling stay literal. Next: review/restore continuation
+192–197; ending198 observed, remaining body/final native/actual assembly pending.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
