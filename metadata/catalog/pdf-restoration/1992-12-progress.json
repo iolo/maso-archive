@@ -3455,7 +3455,7 @@
       "parent_id": "maso-1992-12-toc-0025",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent utility opening361/locally read386 shows title 환경 변수를 이용해 경로 설정을 자유자재로 and writer credit 정희태. All eleven body pages361–371/386–396 and neighboring advertisements360/372 directly reviewed; next independent Norton opening373/398. No global printed/PDF offset inferred.",
@@ -3464,15 +3464,22 @@
         "Example1 retains before3/buffer1/after3 rows and three labels. Example2 thirteen fields/descriptions retains colon/semicolon candidates. Eight function descriptions retain physical prototype wraps. Printed inline disk_check preserves defalut, two dot-pair candidate :: with || alternative, colon-shaped statement punctuation and absent final function brace. No syntax repair, original program/header recovery or execution claim.",
         "Usage table retains eight options/sixteen cells, four examples/eight cells and wrapped final description/footnote. Distinct shell placeholders2/4/5 and warning5-x candidate remain, with glyph alternatives. Editorial deck/editor credit, author prose, attributed James Martin quotation, historical warning and prose-closing M remain separate. Prose closes366; four printed listings continue367–371, final DEFINE.H label76, so full body assembly is pending.",
         "Twenty-eight invalid cases rejected:22 consistently rehashed native edits pass generic export checks but fail frozen source-specific audit, plus six group cases. No generic custom-schema validation claim. All36400 prior December files,6840 prior selected files/fourteen roots,ten classification files,9332 September files,thirty core/source/runtime/TOC/queue pins exact.213-test baseline reused for unchanged core.62 distinct crop repairs/70events precede OCR; first map schema failure, metadata-only final-label revision (659exact execution inputs) and verifier runtime-base failure retained.",
-        "Final367–371 and actual eleven-page assembly remain required. Human acceptance/full proofreading, exact glyphs/spaces/encoded bytes, historical/technical truth and execution remain unverified."
+        "Final367–371 and actual eleven-page assembly remain required. Human acceptance/full proofreading, exact glyphs/spaces/encoded bytes, historical/technical truth and execution remain unverified.",
+        "Batch 37 restores final printed listing pages367–371/individually read392–396 and actually assembles the complete eleven-page body361–371. All621 root files reproduce independently and in a fresh process from two regenerated immutable natives/612 embedded files. Current availability readable/sample-reviewed; original glyph/space/byte identities, historical/technical truth, original source-file recovery, execution and human acceptance/full proofreading remain unverified.",
+        "All165 exact source crops,143 settings (63eng/80kor+eng),9434 projected native metadata ranges,19178 current typed ranges/440 blank occurrences and18985 native source links validate. Thirteen literal prose joins preserve intervening panels and original physical wraps; no prose join366→367 or physical code-line merge. Code bytes equal exact native concatenation. All22 original images,165 PNG decodes and three ZIP CRCs pass.",
+        "All four complete printed listings retain708 labels,29 numbered blanks,seven unnumbered wraps and715 physical listing rows; source reading index1415 rows and869 code/data/dump rows include opening material. Listing2 label136 wraps across two crops; numbered macro32/33 remains distinct physical rows. Eighteen function definitions,16 prototypes,19 macros,14 full-header fields and three caption/prototype filename relationships remain source-linked.",
+        "Fourteen flower-shaped graphic bands and six equals-like string divider runs retain20 scoped markers, alongside nine earlier ASCII runs:29 scoped occurrences without inferred lengths/encoded bytes. Earlier memory tables/21 diagram labels/480 visible dump tokens/unknown dotted omission, eight options/four examples, attributed quotation and historical warning remain intact. Full listing brace197 does not backfill missing inline brace; full header path field does not alter earlier13-field Example2.",
+        "Printed defalut, colon/semicolon candidates, two dot-pair ::/|| alternative, caret-shaped ^= candidates, quoted AUTOEXEC.BAT, source spelling/claims and filename forms AUTOPATH.C/AP.C,DIR.C/FILE_IO.C,FILE.C/DIR_FIND.C remain literal. No corrected valid C, file reassignment or encoded program recovery. All native metadata and earlier availability notes remain historical; current complete-assembly disposition is explicit.",
+        "All41 complete final-page drafts read before one literal source pass;37eng/fourkor+eng,zero retries or within-pass crop changes. Thirty pre-OCR crop repairs retain first map/53crops and reuse23 unchanged crops. Initial pixel-only number-band probe was unreliable and is retained as a geometry trial, not recognition. Selected assembly recipe revision resolves all four original assembly deferrals; first plan and native inputs remain unchanged.",
+        "Thirty-one consistently rehashed invalid cases rejected through frozen source projection and guarded assembly checks:26 root edits and five recipe/native edits. These do not claim generic custom-schema validation. All prior December files,7267 former selected files/fifteen roots,eleven classification files,9332 September files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged213-test baseline reused with complete current audits; all eleven private adapters required for current selected-root checks. No reader/HTML/browser/frontend build or deployment."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-36-r02/autopath-a",
+        "directory": "archive/pdf/1992-12/packages/autopath-r01",
         "article_id": "scan-maso-1992-12-toc-0026",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-36-r02/autopath-a/manifest.json",
-          "sha256": "e4a8411cc3a750f88ba75d9346b7fe0f6e0570643733077d72bea5df57e73382",
-          "bytes": 74963
+          "path": "archive/pdf/1992-12/packages/autopath-r01/manifest.json",
+          "sha256": "11a08bfc6625998178444a4fc134957f93a0be1c0ab9944bce51783ee06a89e6",
+          "bytes": 115637
         },
         "coverage": {
           "pdf_pages": [
@@ -3481,7 +3488,12 @@
             363,
             364,
             365,
-            366
+            366,
+            367,
+            368,
+            369,
+            370,
+            371
           ],
           "printed_pages": [
             "386",
@@ -3489,22 +3501,21 @@
             "388",
             "389",
             "390",
-            "391"
+            "391",
+            "392",
+            "393",
+            "394",
+            "395",
+            "396"
           ],
-          "regions": 112,
-          "blocks": 102,
-          "figures": 10,
-          "deferred_pdf_pages": [
-            367,
-            368,
-            369,
-            370,
-            371
-          ]
+          "regions": 165,
+          "blocks": 130,
+          "figures": 22,
+          "deferred_pdf_pages": []
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 361,
         "actual_end_pdf_page": 371,
         "actual_ending_observed": true,
@@ -3514,42 +3525,41 @@
           363,
           364,
           365,
-          366
-        ],
-        "remaining_pdf_pages": [
+          366,
           367,
           368,
           369,
           370,
           371
         ],
+        "remaining_pdf_pages": [],
         "remaining_page_locations_known": true,
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-36/validation.json",
-          "sha256": "ba2a1d6518cdadf6622939fe86c18fa31813c01b769771db4ba765667961ae05",
-          "bytes": 2439
+          "path": "archive/pdf/1992-12/restoration/batch-37/validation.json",
+          "sha256": "d7cab322b521fa80480c988404144d5ca2a91ff74d927530a97b8232d970c410",
+          "bytes": 2665
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-36/reproduction-r02.json",
-          "sha256": "55657f4ccf62ce8fd4ef9d67de3a74702e01d4965e4b6f13f9c5641b3109451f",
-          "bytes": 75509
+          "path": "archive/pdf/1992-12/restoration/batch-37/assembly-reproduction.json",
+          "sha256": "4b441c3586b7ef8cb7dcca792c9f081348e9093c307ffc891c407fcb9214d603",
+          "bytes": 116813
         },
-        "fresh_process_reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-36/fresh-process-reproduction.json",
-          "sha256": "6c034c0fc2fc1fad23cca53281c749166865a8bd7e79a2901e004e6b4ea6e6f8",
-          "bytes": 75405
+        "all_native_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-37/all-native-reproduction.json",
+          "sha256": "91217791e8cb4328dc8ddc4feda8a6feb0cddb2607d1a05a27133c620f006cdd",
+          "bytes": 121629
         },
         "boundary_evidence": {
-          "path": "archive/pdf/1992-12/restoration/batch-36/source-reviewed.json",
-          "sha256": "009e9b8ec68c9524cd4b216bed0196b178bdc2d7db75488c335ccbac26cdcc7d",
-          "bytes": 25201
+          "path": "archive/pdf/1992-12/restoration/batch-37/final-boundaries.json",
+          "sha256": "b79c76e1965a1d73117dd0aa8a41933ee4bed0f250e307085f31b3338623ebe2",
+          "bytes": 4775
         },
         "negative_checks": {
-          "path": "archive/pdf/1992-12/restoration/batch-36/negative-checks.json",
-          "sha256": "7e10055c3a3752d12640fd4c2de90587445833448bdcee4bd5d33b4ae313aa9c",
-          "bytes": 3512
+          "path": "archive/pdf/1992-12/restoration/batch-37/negative-checks.json",
+          "sha256": "1e3238958cbbbe7f282f1e833bac19c960433f7d1198ed3ebdaffe35f5239c4f",
+          "bytes": 6459
         },
-        "checkpoint": "batch-36",
+        "checkpoint": "batch-37",
         "native_segments": [
           {
             "name": "a",
@@ -3587,8 +3597,64 @@
               "sha256": "009e9b8ec68c9524cd4b216bed0196b178bdc2d7db75488c335ccbac26cdcc7d",
               "bytes": 25201
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-37-r01/autopath-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-37-r01/autopath-b/manifest.json",
+              "sha256": "e36ea6c8610c76761d244b994912fcd3d2c6bc71348c5c300488c4e985fa5406",
+              "bytes": 32688
+            },
+            "pdf_pages": [
+              367,
+              368,
+              369,
+              370,
+              371
+            ],
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-37/autopath-b-r02/package-recipe.json",
+              "sha256": "82879822f1f993b4469cf4ba6a89decd45d528f57d6cf96dc4f979260e6330af",
+              "bytes": 10169
+            },
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-37/validation.json",
+              "sha256": "d7cab322b521fa80480c988404144d5ca2a91ff74d927530a97b8232d970c410",
+              "bytes": 2665
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-37/all-native-reproduction.json",
+              "sha256": "91217791e8cb4328dc8ddc4feda8a6feb0cddb2607d1a05a27133c620f006cdd",
+              "bytes": 121629
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-37/final-boundaries.json",
+              "sha256": "b79c76e1965a1d73117dd0aa8a41933ee4bed0f250e307085f31b3338623ebe2",
+              "bytes": 4775
+            }
           }
-        ]
+        ],
+        "assembly_recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-37/assembly-recipe-r02.json",
+          "sha256": "9bba06675174d2e56d41cf1eddbbb26fef8ec4d00d1396a162f1e88fe37d7247",
+          "bytes": 4101
+        },
+        "private_adapter": {
+          "path": "archive/pdf/1992-12/restoration/batch-37/autopath_adapter.py",
+          "sha256": "cd817ce2f2aacbf9a2a79b7fad977cdac27c59c28f5f90b4e54e534653b5d78f",
+          "bytes": 16390
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1992-12/restoration/batch-37/adapter-inputs-r02.json",
+          "sha256": "f6cdcacadd0c4302d9b6633e69eb57c1fdcdef286d0653e0daf591c05acde08f",
+          "bytes": 19794
+        },
+        "source_reading_decisions": {
+          "path": "archive/pdf/1992-12/restoration/batch-37/source-reading-decisions.json",
+          "sha256": "38cb3627c9e5abdbafd805a4e73586fae297c4ebc3f7818ed465795c06dbfce8",
+          "bytes": 19237
+        }
       }
     },
     {
@@ -5559,12 +5625,59 @@
         "sha256": "7e10055c3a3752d12640fd4c2de90587445833448bdcee4bd5d33b4ae313aa9c",
         "bytes": 3512
       }
+    },
+    {
+      "name": "1992-12-batch-37",
+      "status": "complete",
+      "completed_at": "2026-10-31T23:34:21.521135+00:00",
+      "goal": "Restore final five utility pages and actually assemble the complete eleven-page article from immutable natives.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0026"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        366,
+        372,
+        373
+      ],
+      "recognition_invocations": 41,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-37/validation.json",
+        "sha256": "d7cab322b521fa80480c988404144d5ca2a91ff74d927530a97b8232d970c410",
+        "bytes": 2665
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-37/assembly-reproduction.json",
+        "sha256": "4b441c3586b7ef8cb7dcca792c9f081348e9093c307ffc891c407fcb9214d603",
+        "bytes": 116813
+      },
+      "all_native_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-37/all-native-reproduction.json",
+        "sha256": "91217791e8cb4328dc8ddc4feda8a6feb0cddb2607d1a05a27133c620f006cdd",
+        "bytes": 121629
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-37/negative-checks.json",
+        "sha256": "1e3238958cbbbe7f282f1e833bac19c960433f7d1198ed3ebdaffe35f5239c4f",
+        "bytes": 6459
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 13,
-    "partial": 2,
+    "readable": 14,
+    "partial": 1,
     "group_headings": 3,
     "section_references": 3,
     "unresolved": 24
@@ -5575,29 +5688,34 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-37",
-    "goal": "Restore final five utility pages367–371 and actually assemble the complete eleven-page article361–371 from immutable natives.",
+    "name": "1992-12-batch-38",
+    "goal": "Verify Norton article0027 actual ending/continuity and restore at most six confirmed body pages from its independent373 opening.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0026"
+      "maso-1992-12-toc-0027"
     ],
-    "mapping_targets": [
-      367,
-      368,
-      369,
-      370,
-      371
+    "candidate_mapping_targets": [
+      373,
+      374,
+      375,
+      376,
+      377,
+      378
     ],
+    "mapping_targets": [],
     "initial_lookup_candidates": [
-      366,
       372,
-      373
+      376,
+      377,
+      378,
+      379,
+      380
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained source views; review whole pages/every exact crop before mapped Tesseract and all complete raw drafts before one literal source pass. Four printed listings on367–371 continue after prose closes366. Preserve printed labels, blanks, physical wraps, C-shaped colon/semicolon candidates, graphic runs, literal defects and original panels; do not repair from expected C syntax or earlier descriptive fragments. Final DEFINE.H ends at label76 above independent lower371 advertisement;372 full ad,373 independently opens child0027. Incoming366→367 is not a prose join. Keep opening partial427-file native immutable; project all original custom ranges and nine scoped ASCII markers at actual assembly. Group0025 final non-owning; child0027 remains unresolved. Ten prior adapters required for old roots; add a frozen private projection adapter only if needed for actual utility assembly. Thirteen readable/two partial/three groups/three section references/24unresolved; fifteen selected roots7267files,eleven classification files separate. UNIX0022/0023 locations, year-feature0019 continuation/children0020/0021, other bodies/assemblies,446-page accounting,cover,standalone export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
+    "note": "Independent opening373/locally read398 and credit탁연상 were directly observed;374/399 and375/400 continue. Actual ending and complete extent remain unverified. Candidate373–378 is not six-page ownership or global-offset proof. Review full pages/neighbors and adapt from actual source; map at most six confirmed body pages. Reuse exact retained whole views where available, review every exact crop before mapped Tesseract and all complete raws before one literal correction pass. Preserve original screenshots/captions/options/claims/source variants; no current software advice or execution verification. Group0025 already final non-owning; do not reclassify it. Fourteen readable articles/one partial/three groups/three section references/24 unresolved; fifteen selected roots7461files,eleven classification files separate. Install all eleven private adapters, including batch-37/autopath_adapter, for current selected-root checks. UNIX0022/0023 locations, feature0019 continuation/ending/children0020/0021, other eligible bodies/assemblies,446-page accounting,cover,standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Thirteen readable/sample-reviewed articles, two partials, three non-owning group headings,
+Fourteen readable/sample-reviewed articles, one partial, three non-owning group headings,
 three section references and 24 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -398,19 +398,53 @@ helper. All 36,400 prior December files, 6,840 former selected files, ten former
 classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins
 remain exact. Unchanged 213-test baseline reused; no core or reader changes.
 
-Next: restore final utility pages 367–371 and actually assemble all eleven pages
-361–371 from immutable natives. Reuse retained whole views, review every exact crop
-before mapped Tesseract, and read every complete raw before one literal source pass.
-Keep printed listing labels/blanks, physical wraps, punctuation/graphic candidates
-and source defects; no inferred valid C. No prose join is required across 366→367.
-Preserve/project every original custom range and scoped ASCII marker at assembly.
-Within two tasks/six mapped/twenty outside pages. Thirteen readable/sample-reviewed
-articles, two partials, three non-owning groups, three section references and 24
-unresolved identities remain. Fifteen selected roots contain 7,267 files; eleven
-classification files are separate. UNIX locations, feature 0019 continuation/ending
-and children 0020/0021, other bodies/assemblies, full 446-page accounting, cover,
-standalone issue export/rebuild and closeout remain required. Full December goal active.
-No reader rebuild.
+Batch 37 restores final utility pages 367–371/individually read 392–396 and actually
+assembles the complete eleven-page article 361–371. All 621 files match independent
+and fresh-process exports from two regenerated immutable natives/612 embedded files.
+The final five-page native has 185 exact files. Thirteen literal prose joins retain
+intervening panels and physical source wraps; no prose join across 366→367 or physical
+code-line merge. All code bytes equal native concatenation. Original native scope
+notes remain historical, with an explicit current complete-assembly disposition.
+
+All 165 exact crops, 143 settings (63 eng/80 kor+eng), 9,434 projected native ranges,
+19,178 current typed ranges/440 blank occurrences and 18,985 native source links validate.
+All 22 original images, 165 PNG decodes and three ZIP CRCs pass. Four complete printed
+listings retain 708 labels, 29 numbered blanks, seven unnumbered wraps and 715 listing
+rows. The full source index retains 1,415 reading rows and 869 code/data/dump rows.
+Eighteen definitions, sixteen prototypes, nineteen macros and fourteen full-header
+fields remain source-linked. Caption/prototype filename forms stay separate.
+
+All 41 complete final-page raws read before one literal source pass; 37 eng/four kor+eng,
+zero retries or within-pass crop changes. Thirty pre-OCR repairs retain first-map crops
+and reuse 23 unchanged crops. The unreliable pixel-only number-band probe is preserved
+as geometry evidence, not recognition. Twenty later graphic/string-divider runs and
+nine earlier ASCII runs retain 29 scoped markers without inferred widths/bytes.
+Literal defalut, ::/|| alternatives, caret-shaped ^= candidates, physical wraps,
+quote/punctuation/blank-width candidates and spelling/claims remain. Full listing's
+brace does not repair the inline fragment; header's extra path field does not backfill
+Example 2. Earlier tables/dump/quotation/historical warning stay intact.
+
+Thirty-one consistently rehashed root/recipe/native mutations are rejected through
+frozen source projection and guarded assembly checks; no generic custom-schema claim.
+All 39,177 prior December files, 7,267 former selected files/fifteen roots, eleven
+classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins
+remain exact. Unchanged 213-test baseline reused. No new assembly OCR/source pass or
+core/reader changes; exact glyphs/spaces/encoded files, technical/historical truth,
+execution, human acceptance and full proofreading remain unverified.
+
+Next: verify Norton article 0027's actual ending, neighboring material and complete
+continuity, then restore at most six confirmed pages from independent opener 373/398.
+Source credit is 탁연상; 374/399 and 375/400 continue, but the ending is unverified.
+Physical 373–378 are locator candidates, not six-page ownership or global-offset proof.
+Review all whole pages/exact crops before mapped Tesseract and every complete raw
+before one literal source pass. Keep within two tasks/six mapped/twenty outside pages.
+Install all eleven private adapters, including batch-37/autopath_adapter, for selected
+root checks. Fourteen readable/sample-reviewed articles, one partial, three non-owning
+groups, three section references and 24 unresolved identities remain. Fifteen selected
+roots contain 7,461 files; eleven classification files remain separate. UNIX locations,
+feature 0019 continuation/ending/children 0020/0021, other bodies/assemblies, all 446-page
+accounting, cover, standalone issue export/rebuild and closeout remain required.
+Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
