@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: twelve readable/sample-reviewed
-articles, one partial, two non-owning group headings, three section references and 27 unresolved
+articles, two partials, two non-owning group headings, three section references and 26 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -306,22 +306,41 @@ The immutable opening and original gap metadata remain exact. Its body location,
 ending and children 0020/0021 are still pending; no missing-page count, source-wide
 absence or complete feature recovery is inferred.
 
-Next: restore canonical 0024's vaccine-toolkit opening on PDF 307–312, at most six
-mapped pages. Direct review across Batches 29/30 locates its prospective nineteen-page
-body on 307–325/printed 332–350; verify ownership/continuity in its own article task.
-The prose closing M is on 321, but printed listings continue through 325, ending at
-Listing 5 label 131 END Start in a lower-right inset. Ads follow 326–329. Preserve
-literal caption/program-banner conflicts and physical reading order. All exact crops
-must be reviewed before mapped Tesseract; eng code/kor+eng other text, all complete
-raws read before one literal source pass. Remaining natives and actual assembly follow.
-Keep feature 0019's location gap pending and continue displaced-content review alongside
-other article restoration and the required full 446-page accounting.
-Twelve readable articles, one partial, two group headings, three section references
-and 27 unresolved identities remain. Thirteen selected roots contain 5,841 files;
+Batch 31 preserves vaccine-toolkit article 0024 opening PDF 307–312/individually
+read printed 332–337 as a partial native: 302 independently/fresh-process exact files,
+83 exact crops, 59 text blocks and thirteen original images. All seventy complete
+raws were read before one literal source pass; four eng/66 kor+eng, zero retries or
+within-pass crop repairs. One schema preflight failure, 26 pre-OCR edge refinements
+and an export metadata helper failure remain retained. Fresh helper/input copies
+repair the continuation pairing with unchanged map/crop/raw/TSV/settings bytes.
+
+Three classification trees retain 39 source-linked nodes; two hierarchical analysis
+outlines retain 29 entries. Twelve improvements, eight limitations and ten construction
+steps retain thirty numbered entries and all continued fragments. Five diagrams
+retain thirty searchable labels; portrait, source title/credit forms and two original
+assembler panels remain intact. Four boxed return-key graphics stay explicit markers,
+without inferred control bytes. Literal ASH filename, MASM colons, physical filename/
+procedure wraps, historical claims and source terminology remain unchanged.
+All 1,067 current ranges/eleven blank occurrences, two private boundary ranges, seventy
+transcript pins, 453 reading rows and six code rows validate. Eighteen rehashed invalid
+cases are rejected; earlier packages/evidence/source/reference/core remain exact.
+
+Next: restore continuation 313–318 as native b, including nineteen detailed procedure
+entries, input/output registers, result codes, byte-layout diagrams and beginning
+practical examples. Verify incoming 312 프 / 313 로시져는 in both native download/scan
+contexts; the direct source spelling supersedes the prospective 저 note. Final 319–325
+and actual nineteen-page assembly remain required. Prose M on 321 is not the ending;
+printed listings continue through 325, Listing 5 label 131 END Start in a lower-right
+inset. Keep later caption/program-banner conflicts literal. Preserve every native-a
+tree/outline/list/diagram/graphic-key index when assembling. Review exact crops before
+mapped Tesseract; eng code/kor+eng other text, all complete raws before one source pass.
+Twelve readable articles, two partials, two group headings, three section references
+and 26 unresolved identities remain. Fourteen selected roots contain 6,143 files;
 ten classification files are separate. Keep all nine private adapters for all-root checks.
-Other bodies/assemblies, full 446-page accounting, cover, standalone issue export,
-independent rebuilds and closeout remain required. Human acceptance/full proofreading,
-original encoded bytes/exact glyphs/spaces and historical/technical truth remain unverified.
+Feature 0019 continuation and children 0020/0021 remain pending. Other bodies/assemblies,
+full 446-page accounting, cover, standalone issue export, independent rebuilds and
+closeout remain required. Human acceptance/full proofreading, original encoded bytes/
+exact glyphs/spaces, historical/technical truth and execution remain unverified.
 No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
