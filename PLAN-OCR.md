@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: three readable/sample-reviewed
-articles, one partial article, one non-owning group heading, three section references and 37 unresolved
+articles, two partial articles, one non-owning group heading, three section references and 36 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -102,9 +102,15 @@ ten window diagrams, eleven captions, sixteen claim occurrences and two explicit
 advertisement exclusions validate. All raws read before one source pass; no retries.
 Two pre-OCR revisions repaired ten distinct crops in eleven events. All source
 body pages 186–198 now directly reviewed; 186–197 preserved across natives a/b.
-Next: final198 above its lower advertisement; optionally use up to five remaining
-mapped pages for source-verified article0009 opening200 within two/six/twenty.
-Actual complete look-and-feel assembly remains a separate required checkpoint.
+Batch 12 preserves final 198 above its lower advertisement: 25 exact files, five crops,
+four outcomes, 56 rows and 82 ranges. All thirteen look-and-feel pages 186–198 are preserved;
+actual assembly is pending. Article 0009 opening 200–204 adds 266 exact files, 66 crops,
+64 outcomes, 571 rows, 890 ranges and two original images; actual ending 205 observed,
+final 205 deferred. All 68 raws read before one source pass; zero retries. Fifty-five
+law crops repaired before recognition; two schema preflight failures retained.
+Next: actual look-and-feel assembly from three independently regenerated natives,
+with all custom metadata and native-a execution provenance preserved; restore final 205
+of article 0009 within the same two-task checkpoint, then complete its actual assembly.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

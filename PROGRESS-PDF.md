@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Three readable/sample-reviewed articles, one partial article, one non-owning group heading,
-three section references and 37 unresolved identities account for 45 canonical entries. All 94 independent
+Three readable/sample-reviewed articles, two partial articles, one non-owning group heading,
+three section references and 36 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -77,8 +77,14 @@ window diagrams and a separate case chart; eleven captions, sixteen claim occurr
 and two advertisement exclusions remain explicit. One source pass, zero retries;
 two pre-OCR revisions repair ten distinct crops in eleven events. All source body
 pages186–198 directly reviewed;186–197 preserved across a/b, article still partial.
-Next: final198 above its lower advertisement, optionally with up to five verified
-opening pages of article0009 within the checkpoint limit; actual assembly follows.
+Batch 12 preserves final 198/188 above its lower advertisement: 25 exact files,
+five crops, four outcomes, 56 rows and 82 ranges. All thirteen look-and-feel body pages
+are preserved across a/b/c; actual assembly pending. Article 0009 opening 200–204/
+printed 190–194 adds 266 exact files, 66 crops, 64 outcomes, 571 rows, 890 ranges and
+two original images. Actual ending 205/195 observed; final 205 deferred. All 68 raws
+read before one source pass; zero retries. Fifty-five pre-OCR crop repairs and two schema
+failures retained. Next: actual look-and-feel assembly and final 205 within the two-task
+limit, then actual article 0009 assembly. Source spelling/citations/claims remain literal.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

@@ -14,13 +14,14 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: three readable/sample-reviewed articles,
-one partial article, one group heading, three section references and 37 unresolved identities. Batch 09
+two partial articles, one group heading, three section references and 36 unresolved identities. Batch 09
 completes the PC-election story on PDF 148–152 and classifies its non-owning group;
 170 article files and one classification file reproduce exactly. Batch 10 preserves
 the look-and-feel opening on PDF 186–191 as partial: 306 files reproduce exactly,
 including a 29-row table. Batch 11 adds continuation192–197: 340 exact files,
-four original panels and ten window diagrams. Next is final198, followed by actual
-article assembly; bounded article0009 opening work may share the final-page batch.
+four original panels and ten window diagrams. Batch 12 preserves final 198 and
+article 0009 opening 200–204: 291 exact files. Next is actual look-and-feel assembly
+and final 205 of article 0009, followed by that article's assembly.
 Full issue accounting/export/closeout remain
 pending. See the [December record](docs/progress/9212.md). No reader rebuild.
 

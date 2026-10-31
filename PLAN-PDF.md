@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: three readable/sample-reviewed articles,
-one partial article, one group heading, three section references and 37 unresolved identities.
+two partial articles, one group heading, three section references and 36 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -141,10 +141,19 @@ in eleven events. Repeated B1 labels and source spelling variants remain literal
 All source body pages 186–198 now have direct ownership/continuity review;
 186–197 are preserved across natives a/b. Availability stays partial.
 
-Next: restore final PDF 198 above its lower advertisement. Within the same two-task,
-six-page limit, verify article 0009's opening on 200 and restore up to five pages
-if appropriate; establish its actual extent first. Then assemble the complete
-look-and-feel article from immutable natives in a separate checkpoint.
+Batch 12 preserves final PDF 198/printed 188 above its lower advertisement: 25 exact files,
+five crops, four outcomes, 56 rows and 82 ranges. All thirteen look-and-feel body
+pages 186–198 are preserved across a/b/c; actual assembly remains required.
+The same batch preserves article 0009 opening 200–204/printed 190–194: 266 exact files,
+66 crops, 64 outcomes, 571 rows, 890 ranges and two original images. Its actual
+ending 205/195 is observed; final 205 remains deferred. All 68 raws read before one
+source pass, zero retries; 55 law crops repaired before OCR, two schema preflight
+failures retained. Canonical title/byline/parent and literal source variants stay intact.
+
+Next: actually assemble complete look-and-feel article 0008 from three independently
+regenerated natives, preserving every custom index/range and native-a original
+execution provenance. The same two-task checkpoint may restore article 0009 final 205;
+its actual complete assembly remains required afterward.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
