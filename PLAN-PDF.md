@@ -56,8 +56,19 @@ and one saved-transcript refinement remain explicit. The final summary/closing
 mark/references are observed on PDF 183, followed by advertisements; this does not
 prove unreviewed intervening continuity. Child 0002–0004 remain unresolved.
 
-Next: source review and restoration of feature 0001 continuation PDF 162–167, within
-the same two/six/twenty ceilings. No global PDF/folio offset is inferred.
+Batch 03 completes continuation PDF 162–167/printed 152–157 as native b. The first
+intrinsic section is now preserved across twelve feature pages in natives a/b;
+whole-feature availability remains partial. The selected second export revision has
+341 independently exact files, 92 exact source crops, 80 OCR outcomes, nine glossary
+entries, nine diagram captions, four code fragments and ten internal boundaries.
+Both original download/scan contexts for the incoming 161→162 join validate.
+Pre-OCR map revisions, one failed helper, one bracket-output refinement and one
+metadata-only export revision remain preserved. One source correction pass; no
+OCR retry. Child 0002–0004 remain unresolved pending actual assembly/final anchors.
+
+Next: source review and restoration of intrinsic part 2 opening PDF 168–173, within
+the same two/six/twenty ceilings. PDF 168 starts a new section; no prose join from
+167 is required. No global PDF/folio offset is inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

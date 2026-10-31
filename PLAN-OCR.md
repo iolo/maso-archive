@@ -35,7 +35,16 @@ one eng), one source correction pass and zero OCR retries. Original POINT colons
 and missing final semicolon remain literal. The failed helper, pre-OCR map revision
 and one saved-transcript refinement are retained. Current totals: one readable,
 one partial and 43 unresolved identities. PDF 183's ending is observed; unreviewed
-intervening continuity is not established. Next is bounded continuation 162–167.
+intervening continuity beyond the restored natives is not established.
+Batch 03 completes continuation 162–167: 341 independently exact selected revision02
+files, 92 source crops and 80 OCR outcomes (76 kor+eng/four eng), one source pass
+and no OCR retry. Nine glossary entries, nine diagram captions and four code
+fragments retain explicit contexts; the incoming 161→162 sidecar validates both
+original native downloads/scans. First-section body coverage is complete across
+156–167; whole-feature availability stays partial and child anchors remain pending.
+Both pre-OCR map revisions, failed helper, bracket-output refinement and metadata
+export revision are retained. Next is bounded part 2 opening 168–173; no prose
+join across the 167→168 section boundary.
 No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

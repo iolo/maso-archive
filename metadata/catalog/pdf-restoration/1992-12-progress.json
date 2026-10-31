@@ -33,7 +33,8 @@
         "Shared introduction/title/three-part outline/byline on156 and intrinsic part1 on157 establish parent0001 feature ownership. Canonical child0002–0004 remain unresolved until full body review/assembly and final anchors.",
         "Complete156–161 opening native, null folio on156 and literal147–151 on157–161. Source162 continues. Source183/173 final summary/M ornament/four references is observed;184–185 ads and186 independently titled look-and-feel article/176. Unreviewed intervening continuity is not claimed.",
         "All54 native crops,48 raw OCR outcomes,three diagrams/charts/two formula panels/original opening composition and11 continuation boundaries retained. One source correction pass, zero OCR retries. Six pre-OCR crop repairs and failed/revised correction helpers preserved.",
-        "Original POINT colons/missing terminal semicolon retained. One post-save transcript output refinement restores an already-reviewed Flex token and balances quotation normalization; original output preserved, no second full-source pass. Historical claims/glyphs/bytes/spacing/execution remain unverified."
+        "Original POINT colons/missing terminal semicolon retained. One post-save transcript output refinement restores an already-reviewed Flex token and balances quotation normalization; original output preserved, no second full-source pass. Historical claims/glyphs/bytes/spacing/execution remain unverified.",
+        "Batch03 preserves162–167/printed152–157 as immutable native b. First intrinsic section now complete across native a/b; incoming161→162 is explicit in separate original download/scan contexts and168 starts intrinsic part2. All92 crops,80 OCR outcomes,nine glossary entries,nine diagram captions/four code fragments/16 nonempty rows/eight colons/three incomplete signatures and ten internal boundaries validate. One source pass/zero OCR retries; two pre-OCR map revisions,a failed helper,one bracket-output refinement and one explanatory-metadata export revision retained. Whole-feature168–183/actual assembly/child anchors pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/batch-02-r01/oop-a",
@@ -148,8 +149,94 @@
               160,
               161
             ]
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-03-r02/oop-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-03-r02/oop-b/manifest.json",
+              "sha256": "b56018607fb553570568f5b6d4f4ccdc0aa9017cff2bae750db574e969795adb",
+              "bytes": 58918
+            },
+            "pdf_pages": [
+              162,
+              163,
+              164,
+              165,
+              166,
+              167
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-03/validation.json",
+              "sha256": "4035fe32eedc401c900c8ffcbcc1ed3e5c6744b6319d6a91b275ef886e18effe",
+              "bytes": 2568
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-03/reproduction-r02.json",
+              "sha256": "1866652ff44052b27c87a13447243788ead557670e6c5b4bc5b8a5a8d0338e81",
+              "bytes": 60404
+            },
+            "incoming_boundary": {
+              "path": "archive/pdf/1992-12/restoration/batch-03/incoming-boundary-r02.json",
+              "sha256": "b4c1fd85ec92e6b9d12bcf3dd3ea718e6beec33df88222794f1a8a172e7f6064",
+              "bytes": 2518
+            }
           }
-        ]
+        ],
+        "all_body_pages_preserved_across_natives": false,
+        "preserved_pdf_pages_across_natives": [
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ],
+        "remaining_pdf_pages": [
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183
+        ],
+        "first_intrinsic_section_body_pages_complete": true,
+        "full_source_extent": {
+          "start_pdf_page": 156,
+          "end_pdf_page": 183,
+          "uninspected_interior_pdf_pages": [
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181
+          ],
+          "note": "Endpoint183 observed. Source168 part2 opening inspected but not restored;169–181 still require direct source review. Original native-a scope/history stays exact."
+        }
       }
     },
     {
@@ -744,6 +831,41 @@
         "sha256": "2e2d8b646f000947a9f7577fa540f07b792a93b03718181c6aa7b18ca45149c6",
         "bytes": 36222
       }
+    },
+    {
+      "name": "1992-12-batch-03",
+      "status": "complete",
+      "completed_at": "2026-10-31T04:03:21.350011+00:00",
+      "goal": "Restore feature0001 continuation162–167 as immutable native b and complete first intrinsic section body coverage across a/b.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 80,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "source_correction_output_refinements": 1,
+      "export_metadata_revisions": 1,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-03/validation.json",
+        "sha256": "4035fe32eedc401c900c8ffcbcc1ed3e5c6744b6319d6a91b275ef886e18effe",
+        "bytes": 2568
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-03/reproduction-r02.json",
+        "sha256": "1866652ff44052b27c87a13447243788ead557670e6c5b4bc5b8a5a8d0338e81",
+        "bytes": 60404
+      }
     }
   ],
   "totals": {
@@ -759,26 +881,26 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-03",
-    "goal": "Review/restore source-proved feature0001 continuation162–167, up to six pages; preserve intrinsic section boundaries and validate the incoming161→162 continuation.",
+    "name": "1992-12-batch-04",
+    "goal": "Review and restore intrinsic part2 opening168–173 within six mapped pages; preserve source section boundary167→168 and determine actual following continuity.",
     "toc_entry_ids": [
       "maso-1992-12-toc-0001"
     ],
     "mapping_targets": [
-      162,
-      163,
-      164,
-      165,
-      166,
-      167
+      168,
+      169,
+      170,
+      171,
+      172,
+      173
     ],
-    "reusable_source_review": "archive/pdf/1992-12/restoration/batch-02/source-review/",
+    "reusable_source_review": "archive/pdf/1992-12/restoration/batch-03/source-review/",
     "observed_end_pdf_page": 183,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Only162 is already rendered within the next mapping target. Inspect every new full page/crop before OCR. Do not infer unreviewed continuity from distant endpoint. Keep native a exact; final assembly and child anchors remain pending."
+    "note": "168 source render already retained. Inspect169–173 and all selected crops before OCR; no prose join across the167→168 section boundary. Keep a/b exact; full assembly and child anchors pending."
   }
 }

@@ -19,7 +19,14 @@ files,54 native crops and 48 OCR outcomes, one source correction pass and zero O
 retries. Original diagrams, formulas, POINT code punctuation and eleven continuation
 boundaries remain explicit. Pre-OCR crop repairs, a failed helper and one saved-text
 refinement are retained. Ending 183 is observed, without claiming unreviewed intervening
-coverage. Next: source review and bounded restoration of continuation 162–167.
+coverage beyond the restored natives.
+Batch 03 adds continuation 162–167/printed 152–157: 341 independently exact
+selected revision02 files, 92 exact crops and 80 OCR outcomes, one source pass and
+no OCR retry. The first intrinsic section is preserved across natives a/b on
+156–167; actual whole-feature assembly and child anchors remain pending.
+Nine glossary entries, nine diagram captions, four code fragments, ten internal
+boundaries and the incoming native-a/native-b download/scan contexts validate.
+All input/output revisions remain retained. Next: bounded part 2 opening 168–173.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
