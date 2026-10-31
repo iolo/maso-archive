@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: thirteen readable/sample-reviewed articles,
-one partial, two group headings, three section references and 26 unresolved identities.
+two partials, three group headings, three section references and 24 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -478,23 +478,55 @@ inferred. All earlier packages, feature 0019 partial/children, classification ou
 core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused;
 private search checks do not claim generic schema or full-source coverage.
 
-Next: verify utility article 0026's independent opening, source folios and actual
-extent, then restore at most six confirmed opening pages. Canonical contents reference
-386 and physical 361–366 are locator candidates only; no global offset or ownership
-is established. Begin with direct title/credit/folio review and adapt from source.
-Check neighboring material and actual ending before extent claims. Non-owning 활용
-group 0025 may be resolved only with original contents/body anchors, within two
-canonical tasks/six mapped/twenty outside pages. Review every whole page/exact crop
-before mapped Tesseract, eng code/kor+eng other text; all complete raws before one
-literal source pass. Preserve code defects/whitespace/labels and source variants.
-Keep all ten private adapters, including batch-34/vaccine_adapter, for selected-root
-checks. Thirteen readable/sample-reviewed articles, one partial, two group headings,
-three section references and 26 unresolved identities remain. Fourteen selected roots
-contain 6,840 files; ten classification files are separate. Feature 0019 continuation,
-ending and children 0020/0021 remain pending. Other bodies/assemblies, full 446-page
-accounting, cover, standalone issue export/rebuild and closeout remain required.
-Human acceptance/full proofreading, exact glyphs/spaces/original encoded bytes,
-technical/historical truth and execution remain unverified. Full December goal active.
+Batch 36 preserves utility article 0026 opening PDF 361–366/individually read
+printed 386–391 as a 427-file immutable partial native. Its actual eleven-page body
+361–371 is directly reviewed: prose closes 366, but four printed listings continue
+through DEFINE.H label 76 on 371 above an independent advertisement. Full-page
+advertisements 360/372 and independent Norton opening 373/398 bound the article.
+Group 활용 0025 is non-owning from original contents/body anchors; child 0027 stays
+unresolved. One classification record with ten source pins reproduces independently
+and in a fresh process, separately from the article files.
+
+All 112 exact crops, 102 settings, 3,038 typed ranges/17 blank occurrences, 696 reading
+rows and 154 code/data/dump rows validate. Ten original figures retain the memory
+diagram's 21 labels, a nine-row/four-column table and seven console rows. Figure 4
+retains thirty displayed offset rows/480 hex candidates, separately read ASCII,
+nine scoped opaque runs, four annotations and an unknown dotted omission. No unseen
+bytes, missing-row count or decoded program is inferred. Example 1 preserves its
+3/1/3 rows; Example 2 preserves thirteen fields/descriptions and punctuation candidates.
+Eight function descriptions, eight usage options/sixteen cells, four examples/eight
+cells and thirteen prose continuations remain source-linked.
+
+All 102 complete drafts read before one literal source pass; 26 eng/76 kor+eng,
+zero retries or within-pass crop changes. Sixty-two distinct pre-OCR crop repairs
+in seventy events, initial map schema failure and within-pass punctuation refinement
+remain preserved. Printed defalut, absent final function brace, colon-shaped C
+punctuation, two dot-pair :: candidate/|| alternative, physical wraps and shell
+placeholder-count differences stay literal. Editorial material, attributed quotation,
+historical warning and prose-closing mark remain separate. Exact glyphs/spaces/bytes,
+source claims, original programs and execution remain unverified.
+
+Three native exports match; all PNG decodes/ZIP CRCs and twenty-eight private invalid
+cases pass: twenty-two rehashed native edits plus six group edits rejected. These
+are frozen source-specific checks, not generic custom-schema validation. A metadata-only
+revision fixes the final label 076→76, preserving 659 copied execution inputs and
+article/listing bytes. A verifier runtime-base error is retained with its repaired
+helper. All 36,400 prior December files, 6,840 former selected files, ten former
+classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins
+remain exact. Unchanged 213-test baseline reused; no core or reader changes.
+
+Next: restore final utility pages 367–371 and actually assemble all eleven pages
+361–371 from immutable natives. Reuse retained whole views, review every exact crop
+before mapped Tesseract, and read every complete raw before one literal source pass.
+Keep printed listing labels/blanks, physical wraps, punctuation/graphic candidates
+and source defects; no inferred valid C. No prose join is required across 366→367.
+Preserve/project every original custom range and scoped ASCII marker at assembly.
+Within two tasks/six mapped/twenty outside pages. Thirteen readable/sample-reviewed
+articles, two partials, three non-owning groups, three section references and 24
+unresolved identities remain. Fifteen selected roots contain 7,267 files; eleven
+classification files are separate. UNIX locations, feature 0019 continuation/ending
+and children 0020/0021, other bodies/assemblies, full 446-page accounting, cover,
+standalone issue export/rebuild and closeout remain required. Full December goal active.
 No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

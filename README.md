@@ -14,19 +14,17 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: thirteen readable/sample-reviewed articles,
-one partial, two non-owning group headings, three section references and 26 unresolved
-identities. Batch 34 completes the nineteen-page vaccine-toolkit assembly on PDF
-307–325: 999 files reproduce independently and in a fresh process from four regenerated
-natives. Five printed listings, source caption/banner conflicts, unknown omissions
-and fourteen scoped graphic markers retain their original contexts.
-Fourteen selected roots contain 6,840 files; ten classification files are separate.
-Batch 35 adds twenty advertisement observations and a reproducible non-owning index
-for physical pages 280–339. Both UNIX openings remain unlocated; no source-wide absence
-is inferred. Next: verify the utility article 0026 opening/extent and group 0025 before
-restoration/classification. Year-in-review feature 0019's continuation remains
-unlocated. Other bodies, full issue accounting, cover, export/rebuild and closeout
-remain pending. See the [December record](docs/progress/9212.md).
-No reader rebuild.
+two partials, three non-owning group headings, three section references and 24 unresolved
+identities. Batch 36 preserves utility article 0026 opening PDF 361–366 in a 427-file
+partial package, independently and fresh-process exact. Tables, diagrams, printed dump,
+code defects and nine unresolved ASCII runs retain source links. Group 활용 0025 is
+non-owning; child 0027 remains unresolved. Fifteen selected roots contain 7,267 files;
+eleven classification files are separate. All prior packages and reference/core files
+remain exact; twenty-eight private altered-data cases are rejected.
+Next: restore final utility pages 367–371 and assemble its complete eleven-page body.
+Both UNIX openings and the year-in-review continuation remain unlocated. Other bodies,
+full issue accounting, cover, export/rebuild and closeout remain pending.
+See the [December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
