@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Eleven readable/sample-reviewed articles, one partial, two non-owning group headings,
+Twelve readable/sample-reviewed articles, no partials, two non-owning group headings,
 three section references and 28 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -217,18 +217,34 @@ pre-OCR label-margin repair. Source is_sts, missing example return type and alig
 annotation wraps remain literal. Fifteen altered-data cases rejected; failed preparation
 and two verifier revisions retained without source/package changes.
 
-Next: restore final Tetris 278–279, then actually assemble all eight pages 272–279
-from two independently regenerated natives. Prose closes 276, but the final listing
-ends 279; Listing 3 row 19 continues as numbered row 20 on 278 without a logical
-code-line merge. Preserve every printed row, blank, source defect, diagram/lettering,
-example/member/claim/reference/file context and unresolved tail in native/current ranges.
-Current totals: eleven readable articles, one partial, two group headings, three
-section references and 28 unresolved identities. Twelve selected roots contain 5,758
-files; ten classification files remain separate. Use all eight private adapters,
-including batch-26/fractint_adapter_r02, when checking prior assemblies.
+Batch 28 preserves final Tetris 278–279 as a 41-file native, then actually assembles
+all eight pages 272–279: 379 independently/fresh-process exact files from two
+regenerated natives with 370 files. All 91 source crops, 87 settings, 6,527 projected
+ranges, 13,252 current ranges/820 empty occurrences, 13,165 source links, thirteen
+private ranges and 87 source-local pins validate. Five complete listings retain
+506 labels, 100 numbered blanks and 567 physical code rows. Nine member descriptions,
+six examples, 22 function definitions/three inline definitions, three diagrams with
+searchable lettering and the closing M remain. Code bytes equal native concatenation;
+Listing 3 rows 19/20 span the native boundary without a logical code-line merge.
+Four border-obscured tails remain explicit, including the new program tail U+E103.
+Original blank-string widths, glyphs/spaces/encoded bytes and execution are unverified.
+All eight final raws read before one literal source pass; six eng/two kor+eng, zero
+retries/crop repairs. Failed helper/import and pin-path verifier checks retained;
+fresh revisions pass without source/OCR changes. Twenty invalid cases rejected,
+including thirteen consistently rehashed roots. Earlier files and core remain exact.
+
+Next: verify year-in-review feature 0019's actual extent, folios and ownership from
+independent opening 299/printed 289, then restore at most six opening pages,
+provisionally 299–304. Its actual ending remains unverified. Preserve canonical and
+source title forms; children 0020/0021 need complete body/assembly/final anchors before
+final classification. Do not infer extent from the next TOC reference or a global
+folio offset. Twelve readable articles, no partials, two group headings, three section
+references and 28 unresolved identities remain. Twelve selected roots contain 5,808
+files; ten classification files are separate. Install the new private batch-28/tetris_adapter
+with the eight prior adapters when checking all roots.
 Remaining bodies/assemblies, full 446-page accounting, cover, standalone issue export,
 independent rebuilds and closeout remain required. Human acceptance/full proofreading,
-original bytes/glyphs/spaces, technical truth and execution remain unverified.
+original encoded bytes/exact glyphs/spaces, technical truth and execution are unverified.
 No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

@@ -2399,7 +2399,7 @@
       "parent_id": "maso-1992-12-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent272/printed262 opening has section 구현,source title 텍스트 모드에서 살아 있는 테트리스 게임을 andcredit 글. 임광섭 (서강대학교 전자계산학과). Canonical identity/title/byline/order/parent0010/reference262 unchanged. Actual eight-page body272–279 directly reviewed,prose ending276 andlisting ending279 distinct;271/280–282 book ads. Later bounded ads andindependent feature299 observed without advancing its canonical state.",
@@ -2407,15 +2407,21 @@
         "All21 whole views and83 original exact crops reviewed before recognition. One diagram3 column-label right-margin refinement re-reviewed andretained. All79 complete raws read before one literal source pass;12 eng code/67 kor+eng other text,zero retries/within-pass crop repairs. Original preparation import failure retained;fresh helper completed. First audit rule incorrectly treated current Listing2 reference as deferred;fresh r02 corrected it. Its ownership fixture omitted packages argument/used wrong count key;fresh r03 corrected fixture. Source/package bytes unchanged by verifier revisions.",
         "Nine descriptive member entries,six explanatory examples,annotated three-step loop,three original diagrams/independent searchable lettering andclosing M retained. Listing1 labels01–98 andListing2 labels01–74 complete;Listing3 labels01–19 partial. All191 printed labels/38 numbered blanks and252 physical code rows retained separately. Three panel-border tails andtwo blank-string widths remain explicit source uncertainties.",
         "Literal is_sts prose,Example6 missing return type,aligned Korean annotation continuations,source claims/addresses/bit fields/timing/filename/case andsource example1 for-loop reference wording retained. Exact example1 subpanel intent remains unconfirmed rather than conflating its class panel andseparate annotated loop. Prose closing276 is not full article ending;following initializer278 andfinallisting279 remain required.",
-        "Fifteen altered-data cases rejected with outer hashes bypassed;private source metadata audit,not generic enforcement of every custom field. All27253 prior December files,5429 earlier selected files,ten classification files,9332 September reference files andthirty core modules remain exact with source/runtime/TOC/queue. Unchanged213-test baseline reused with complete current source/pixel/range/code/structure/provenance/ownership audits. Bounded two-entry fixture is not full45-entry issue accounting."
+        "Fifteen altered-data cases rejected with outer hashes bypassed;private source metadata audit,not generic enforcement of every custom field. All27253 prior December files,5429 earlier selected files,ten classification files,9332 September reference files andthirty core modules remain exact with source/runtime/TOC/queue. Unchanged213-test baseline reused with complete current source/pixel/range/code/structure/provenance/ownership audits. Bounded two-entry fixture is not full45-entry issue accounting.",
+        "Batch 28 final native 278–279 preserves 41 independently exact files, eight crops/outcomes, five blocks, 315 printed labels, 62 numbered blanks, 315 physical code rows and 22 function definitions. All eight complete raws were read before one literal source pass: six eng/two kor+eng, zero retries or crop repairs. Original panel border obscures Listing 3 row 56 program tail; U+E103 retains an unknown-length placeholder without bracket/semicolon completion.",
+        "The complete readable eight-page assembly 272–279 contains 379 independently/fresh-process exact files from two regenerated natives with 370 files. All 91 source crops, 87 settings, 6,527 projected metadata ranges, 13,252 current typed occurrences/820 empty occurrences, 13,165 native-source links, thirteen private ranges and 87 source-local transcript pins validate. All 567 physical code rows equal native concatenation; no cross-native text merge.",
+        "Five complete printed listings retain 98/74/89/126/119 labels: 506 labels and 100 numbered blanks. Nine member descriptions link to three inline header definitions and six out-of-class definitions; 22 final function definitions remain distinct source occurrences. Six explanatory examples, the annotated loop, three original diagrams/searchable lettering and original closing M remain. Prose closes 276; final listing closes 279.",
+        "Four original border-obscured tails remain U+E100–E103: three earlier comments and one program tail, with unknown lengths and unconfirmed candidate endings. Two blank-string widths, exact glyphs/spaces/encoded bytes and punctuation-run counts remain unverified. Source is_sts, omitted example return type, aligned annotation rows, untill, scoF prose/scorF listing and source title spacing remain literal. Example 1 for-loop reference wording has unconfirmed subpanel intent. Current Listing 5 target is resolved; native-a pending target stays historical.",
+        "Initial final-native helper omitted deepcopy import and stopped before export. Fresh helper/destination tetris-b-r02 adds the import; map/raw/TSV/settings/transcript bytes remain exact. First full verifier compared complete pin objects for byte-identical maps at different paths; fresh r02 compares bytes and passes. Original failures remain retained; no source/package change from verifier revision.",
+        "Twenty invalid cases rejected: seven frozen native/recipe guards and thirteen consistently rehashed roots covering rows, blanks, captions, tails, widths, members, diagrams, references, spelling, ending, recovery, physical-row merging and historical projection. All 28,386 prior December files, 5,758 earlier selected files, ten classification files, 9,332 September reference files and thirty core modules/source/runtime/TOC/queue remain exact. Unchanged 213-test baseline reused with complete current native/root/source/range/pixel/provenance/ownership audits. Bounded fixture is not full 45-entry accounting. Human acceptance/full proofreading, original encoded files, technical truth and execution remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-27-r01/tetris-a",
+        "directory": "archive/pdf/1992-12/packages/tetris-r01",
         "article_id": "scan-maso-1992-12-toc-0017",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-27-r01/tetris-a/manifest.json",
-          "sha256": "f6aeb5e3808faa174dc87b0c0a0759f11b9e1e5a79d95e16c2482e78c186edb4",
-          "bytes": 57867
+          "path": "archive/pdf/1992-12/packages/tetris-r01/manifest.json",
+          "sha256": "92c140225626c84031c3501ef9e0ccc4d505b202a47164d71575b60a72575c6c",
+          "bytes": 70224
         },
         "coverage": {
           "pdf_pages": [
@@ -2424,7 +2430,9 @@
             274,
             275,
             276,
-            277
+            277,
+            278,
+            279
           ],
           "printed_pages": [
             "262",
@@ -2432,20 +2440,19 @@
             "264",
             "265",
             "266",
-            "267"
+            "267",
+            "268",
+            "269"
           ],
-          "regions": 83,
-          "blocks": 69,
+          "regions": 91,
+          "blocks": 74,
           "figures": 4,
-          "deferred_pdf_pages": [
-            278,
-            279
-          ],
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 272,
         "actual_end_pdf_page": 279,
         "actual_ending_observed": true,
@@ -2455,38 +2462,37 @@
           274,
           275,
           276,
-          277
-        ],
-        "remaining_pdf_pages": [
+          277,
           278,
           279
         ],
+        "remaining_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-27/validation.json",
-          "sha256": "62fc57d0958abca46c2b9499606dca4fd7b512ac01caf617e9ffe2a43dd3fd5c",
-          "bytes": 3009
+          "path": "archive/pdf/1992-12/restoration/batch-28/validation.json",
+          "sha256": "b975f1af6882961bb9319bf86a3feb2827bd1845e92587ef2cf53380f08f1967",
+          "bytes": 3308
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-27/reproduction.json",
-          "sha256": "19dd58806d018c070d3d806245e990eaf1c96b84cae54fad96dec8b6914cf421",
-          "bytes": 58524
+          "path": "archive/pdf/1992-12/restoration/batch-28/assembly-reproduction.json",
+          "sha256": "5227324dc89781ea16fc7c6e07025791ca6509bf4b4044676f2ddbf8518a8bdc",
+          "bytes": 71638
         },
         "fresh_process_reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-27/fresh-process-reproduction.json",
-          "sha256": "c37b9a78e8e33c6866c4227504010e49c9b6bc231a4725eb2e3ec9cf3497a255",
-          "bytes": 57969
+          "path": "archive/pdf/1992-12/restoration/batch-28/fresh-process-reproduction.json",
+          "sha256": "362c9cafbed3e55ad3310af75ca0e3c1865c6d592270f155cb74812efc7e90ca",
+          "bytes": 70430
         },
         "boundary_evidence": {
-          "path": "archive/pdf/1992-12/restoration/batch-27/source-ending-and-boundaries.json",
-          "sha256": "1cc7069fc5133e36d41ee3c65a7d3e175c770f1ae852d100008d805e43095908",
-          "bytes": 9295
+          "path": "archive/pdf/1992-12/restoration/batch-28/final-boundaries.json",
+          "sha256": "65addc092335d2dcbf15698b8a1ca0033986cde5ac1857573916275b189a9615",
+          "bytes": 8919
         },
         "negative_checks": {
-          "path": "archive/pdf/1992-12/restoration/batch-27/negative-checks.json",
-          "sha256": "dbf91f4b2395085bc7b4cf823ffb8f7e2bd035e2fb6e13e18da4846d159a874c",
-          "bytes": 1378
+          "path": "archive/pdf/1992-12/restoration/batch-28/negative-checks.json",
+          "sha256": "247cd4d4bfffe5f4975e6d155f1f93f7016d1b81ee13306ebbf61b3b18e540af",
+          "bytes": 4224
         },
-        "checkpoint": "batch-27",
+        "checkpoint": "batch-28",
         "native_segments": [
           {
             "name": "a",
@@ -2504,20 +2510,28 @@
               276,
               277
             ],
-            "validation": {
-              "path": "archive/pdf/1992-12/restoration/batch-27/validation.json",
-              "sha256": "62fc57d0958abca46c2b9499606dca4fd7b512ac01caf617e9ffe2a43dd3fd5c",
-              "bytes": 3009
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-27/tetris-a-r02/package-recipe.json",
+              "sha256": "da57718cf48a3b1cd7677a4dcc313ce5481cec5ef64fb7c2c1929df20848ff1c",
+              "bytes": 11176
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-28-r01/tetris-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-28-r01/tetris-b/manifest.json",
+              "sha256": "a3685f9a3a9df297cb132b902768acaff07edc2775a59db481a05b7a5e124961",
+              "bytes": 7030
             },
-            "reproduction": {
-              "path": "archive/pdf/1992-12/restoration/batch-27/reproduction.json",
-              "sha256": "19dd58806d018c070d3d806245e990eaf1c96b84cae54fad96dec8b6914cf421",
-              "bytes": 58524
-            },
-            "boundary_evidence": {
-              "path": "archive/pdf/1992-12/restoration/batch-27/source-ending-and-boundaries.json",
-              "sha256": "1cc7069fc5133e36d41ee3c65a7d3e175c770f1ae852d100008d805e43095908",
-              "bytes": 9295
+            "pdf_pages": [
+              278,
+              279
+            ],
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-28/tetris-b-r02/package-recipe.json",
+              "sha256": "8704f08cf6baf0d4eb87bf814e384eadb9034b2e796e0db13e004d84dc3d4d6d",
+              "bytes": 2734
             }
           }
         ],
@@ -2543,15 +2557,18 @@
             "269"
           ],
           "uninspected_interior_pdf_pages": [],
-          "note": "All eight whole body pages272–279 directly reviewed for ownership/continuity;folios262–269 locally read. Prose closes276/M mark;five listings continue through279 Listing5 row119 closing brace.271 preceding book ad;280–282 following book ads. Current native272–277 only. No ending inferred from next contents reference/global offset."
+          "note": "Complete eight-page body272–279 actually assembled fromtwo independently regenerated natives. Folios262–269 locally read;prose closes276/M mark,printed Listing5 label119 closes279;271 and280–282 independent advertisements. Listing3 277label19/278label20 continues same initializer as separate physical rows,no cross-native text merge. No globaloffset inferred."
         },
         "source_fragment_limits": [
-          "Final278–279 andactual eight-page assembly required. Listing3 opens01–19 andcontinues278 label20 within same initializer;separate physical/printed rows,no logical code-line merge. Listings4/5 remain deferred.",
-          "Three original panel-border-obscured Listing1 comment tails at81/82/92 retain explicit U+E100–E102 placeholders,unconfirmed terminal candidates y/화/수 andunknown tail lengths. Original complete panel pixels retained;no semantic completion.",
-          "BLK/EMP blank-looking string interiors retain two/one searchable space candidates without certifying counts or encoded bytes. Repeated punctuation/dash-run counts,original glyphs/spaces andtechnical truth/execution unverified.",
-          "Source title 살아 있는 spacing remains separate from canonical 살아있는. Prose is_sts differs from is_sta;Example6 omits explicit return type. Aligned Korean annotations/pseudocode remain physical rows,without inserted comment syntax or valid-program repair.",
-          "Original program/header/score-file bytes unrecovered. Three complete original diagrams andseparately mapped lettering retained without claiming all geometry or glyph identities encoded. Human acceptance/full proofreading remain unverified."
-        ]
+          "Four original border-obscured tails remain:three Listing1 comments U+E100–E102 andone Listing3 program tail U+E103. Unknown tail lengths andcandidate endings remain explicit;no bracket/semicolon/semantic completion.",
+          "Two blank-looking BLK/EMP string interiors andpunctuation/dash-run counts remain candidates;exact glyphs/spaces/encoded bytes unverified. Original program/header/score-file files unrecovered;technical truth/execution/human acceptance/full proofreading unverified.",
+          "Source title spacing,is_sts versusis_sta,Example6 omitted return type,aligned Korean annotation wraps,untill andscoF/scorF differences remain literal. Example1 for-loop reference wording retained withunconfirmed exact subpanel intent."
+        ],
+        "native_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-28/native-reproduction.json",
+          "sha256": "1281fed3fae5e57bb05ea6f9ecbbb4ddd6718b145c51bb41b9fbe9199d12a919",
+          "bytes": 74008
+        }
       }
     },
     {
@@ -4076,12 +4093,67 @@
         "sha256": "dbf91f4b2395085bc7b4cf823ffb8f7e2bd035e2fb6e13e18da4846d159a874c",
         "bytes": 1378
       }
+    },
+    {
+      "name": "1992-12-batch-28",
+      "status": "complete",
+      "completed_at": "2026-10-31T19:14:46.523183+00:00",
+      "goal": "Restore final Tetris listing pages andactually assemble complete eight-page article fromtwo independently regenerated natives.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0017"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        278,
+        279
+      ],
+      "outside_lookup_pages": 10,
+      "outside_lookup_pdf_pages": [
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        280,
+        281,
+        282
+      ],
+      "recognition_invocations": 8,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 0,
+      "within_pass_crop_repairs": 0,
+      "assembly_new_ocr": 0,
+      "assembly_new_source_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-28/validation.json",
+        "sha256": "b975f1af6882961bb9319bf86a3feb2827bd1845e92587ef2cf53380f08f1967",
+        "bytes": 3308
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-28/assembly-reproduction.json",
+        "sha256": "5227324dc89781ea16fc7c6e07025791ca6509bf4b4044676f2ddbf8518a8bdc",
+        "bytes": 71638
+      },
+      "native_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-28/native-reproduction.json",
+        "sha256": "1281fed3fae5e57bb05ea6f9ecbbb4ddd6718b145c51bb41b9fbe9199d12a919",
+        "bytes": 74008
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-28/negative-checks.json",
+        "sha256": "247cd4d4bfffe5f4975e6d155f1f93f7016d1b81ee13306ebbf61b3b18e540af",
+        "bytes": 4224
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 11,
-    "partial": 1,
+    "readable": 12,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 28
@@ -4092,33 +4164,56 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-28",
-    "goal": "Restore final Tetris278–279 as immutable native b,then actually assemble andindependently reproduce complete eight-page article272–279 fromtwo regenerated natives.",
+    "name": "1992-12-batch-29",
+    "goal": "Verify year-in-review feature 0019 actual extent, folios and ownership from independent opening 299/printed 289, then restore at most six opening pages, provisionally 299–304.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0017"
-    ],
-    "mapping_targets": [
-      278,
-      279
+      "maso-1992-12-toc-0019"
     ],
     "candidate_mapping_targets": [
-      278,
-      279
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "mapping_targets": [
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
     ],
     "initial_lookup_candidates": [
-      272,
-      276,
-      277,
-      280,
-      281,
-      282
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
     ],
+    "canonical_article_reference": 289,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Actual complete eight-page extent272–279 directly reviewed. Current277 Listing3 row19 incomplete initializer continues278 row20. Preserve each physical/printed row without logical merge;no cross-native prose join required. Source Listing3 ends278 label89;Listing4 starts278001 andends279126;Listing5 starts279001 andends119 closing brace. Exact rows/blank/wrap/defects require crop review andliteral transcription. Read all eng drafts before one source pass. Actual assembly must consume independently regenerated a/b andproject every native/current typed range,printed label/blank,example/member/diagram lettering andclaim/source-reference/file/uncertainty context. Preserve three panel-border tail placeholders,blank-string candidates,is_sts/missing-return-type/aligned annotation defects andoriginal-title spacing. Selected roots now12/5758files,including11readable andonepartial;ten classification files separate. Install eight prior private adapters inclbatch26/fractint_adapter_r02 for full-root checks. Other28 unresolved identities,446-page accounting,cover,standalone export/rebuild andcloseout remain;full December goal active."
+    "note": "Canonical parent 0019, 기획: 92년을 기록한 사건들, has domestic/overseas children 0020/0021. Batch 27 outside view 299 independently shows opening, outline and credit 편집부; unmapped source is not restored. Actual ending/intervening continuity remains unverified; do not infer it from next TOC reference 306 or a global offset. Review full pages/crops and eligible prose/panels/tables/captions before mapped Tesseract. Route eng code/kor+eng other text and read all raws before one literal source pass. Preserve canonical/source title forms separately. Children remain unresolved pending complete body/actual assembly/final anchors, unless final source evidence supports a narrow classification within the bounded task limit. Twelve readable roots contain 5,808 files; ten classification files remain separate. Install nine private adapters, including batch-28/tetris_adapter, for all-root checks. Remaining 28 unresolved identities, full 446-page accounting, cover, standalone export/rebuild and closeout remain required. Full December goal active."
   },
   "final_issue_classification_evidence_required": [
     {

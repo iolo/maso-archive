@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: eleven readable/sample-reviewed articles,
-one partial, two non-owning group headings, three section references and 28 unresolved
-identities. Batch 27 preserves Tetris opening PDF 272–277 as 329 independently and
-fresh-process exact files: 83 crops, 79 OCR outcomes, three original diagrams, six
-examples and 191 printed listing rows. Three obscured comment tails remain explicit.
-The actual eight-page body ends on 279. Next: restore 278–279 and assemble all eight
-pages. Twelve selected roots contain 5,758 files; ten classification files are separate.
+December 1992 restoration is in progress: twelve readable/sample-reviewed articles,
+no partials, two non-owning group headings, three section references and 28 unresolved
+identities. Batch 28 completes Tetris PDF 272–279: all 379 files reproduce from two
+regenerated natives. Five complete listings retain 506 labels and 100 numbered blanks;
+three original diagrams, six examples and four unresolved border tails remain intact.
+Twelve selected roots contain 5,808 files; ten classification files are separate.
+Next: verify year-in-review feature 0019's extent from PDF 299 and restore its opening.
 Remaining bodies, full issue accounting, cover, export/rebuild and closeout remain
 pending. See the [December record](docs/progress/9212.md). No reader rebuild.
 
