@@ -397,22 +397,41 @@ All 1,067 current ranges/eleven blank occurrences, two private boundary ranges, 
 transcript pins, 453 reading rows and six code rows validate. Eighteen rehashed invalid
 cases are rejected; earlier packages/evidence/source/reference/core remain exact.
 
-Next: restore continuation 313–318 as native b, including nineteen detailed procedure
-entries, input/output registers, result codes, byte-layout diagrams and beginning
-practical examples. Verify incoming 312 프 / 313 로시져는 in both native download/scan
-contexts; the direct source spelling supersedes the prospective 저 note. Final 319–325
-and actual nineteen-page assembly remain required. Prose M on 321 is not the ending;
-printed listings continue through 325, Listing 5 label 131 END Start in a lower-right
-inset. Keep later caption/program-banner conflicts literal. Preserve every native-a
-tree/outline/list/diagram/graphic-key index when assembling. Review exact crops before
-mapped Tesseract; eng code/kor+eng other text, all complete raws before one source pass.
+Batch 32 preserves continuation PDF 313–318/individually read printed 338–343
+as native b: 328 independently/fresh-process exact files, 88 exact crops, 77 blocks
+and eleven original images. All 77 complete drafts were read before one source pass;
+seven eng/seventy kor+eng, zero retries or within-pass crop repairs. Eleven distinct
+pre-OCR edge repairs/twelve events and inherited map-note correction are retained.
+
+Nineteen detailed procedure descriptions retain 308 physical parts, eighteen procedure
+continuations and one main-prose continuation across intervening diagrams. Fifteen
+result rows/thirty cells, eight byte-layout diagrams/64 fields, an opaque wavy omission
+and sixteen printed dump offsets/256 hex-token candidates remain source-linked.
+All 2,235 current typed ranges/seven blank occurrences, 532 reading rows and 26 physical
+code/data/dump rows validate. Incoming 312 프 / 313 로시져는 retains both native contexts.
+Both FFFFh values have four F letters. Source 92h prose/diagram agree on four registers
+with CS/SS adjusted by 10h; earlier prospective conflict wording is superseded.
+PPSur remains the u-shaped identifier candidate with PPStr alternative. Source wording,
+register/error omissions, 주 000 and physical wraps stay literal; no byte recovery claim.
+Initial helper compilation failure and a metadata-only export revision are retained;
+509 copied execution inputs and article/listing bytes remain exact. Twenty-one rehashed
+semantic mutations are rejected. Earlier packages/evidence/core/reference remain exact.
+
+Next: restore 319–324 as native c within the six-page limit, then final 325 and actual
+nineteen-page assembly. Current 318 ends a complete explanatory sentence introducing
+following 319 data; retain the association without a prose/code midword join. Prose M
+on 321 is not the ending: listings continue through 325, final Listing 5 label 131
+END Start in a lower-right inset after 120. Preserve all caption/program-banner
+conflicts, numbered rows, physical wraps and both natives' custom indexes at assembly.
+Review whole pages/exact crops before mapped Tesseract, eng code/kor+eng other text,
+and read every complete raw before one literal source pass. All nine private adapters
+remain required for earlier assembled-root checks.
 Twelve readable articles, two partials, two group headings, three section references
-and 26 unresolved identities remain. Fourteen selected roots contain 6,143 files;
-ten classification files are separate. Keep all nine private adapters for all-root checks.
-Feature 0019 continuation and children 0020/0021 remain pending. Other bodies/assemblies,
-full 446-page accounting, cover, standalone issue export, independent rebuilds and
-closeout remain required. Human acceptance/full proofreading, original encoded bytes/
-exact glyphs/spaces, historical/technical truth and execution remain unverified.
+and 26 unresolved identities remain. Fifteen selected roots contain 6,471 files;
+ten classification files are separate. Feature 0019 continuation and children 0020/0021
+remain pending. Other bodies/assemblies, full 446-page accounting, cover, standalone
+issue export/rebuild and closeout remain required. Human acceptance/full proofreading,
+exact glyphs/spaces/original encoded bytes, technical truth and execution unverified.
 No reader rebuild. See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
