@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: two readable/sample-reviewed
-articles, one non-owning section reference, no partial articles and 42 unresolved
+articles, three non-owning section references, no partial articles and 40 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -73,8 +73,13 @@ current typed occurrences, 403 exact crops, 356 settings and three cross-native 
 validate. Code bytes and all custom indexes remain intact. First metadata-order
 revision and failed helpers retained; stable revision02 passes fresh-process checks.
 All 213 tests and nine negative mutations pass. No new OCR/source correction.
-Next: children 0003/0004 final anchors in one two-task classification checkpoint.
-No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
+Batch 08 finalizes children 0003/0004 as non-owning references at source168/176,
+printed158/166. All three child anchors are now final. Five sidecars reproduce in
+fresh processes; ten parent-relative ranges and nine invalid cases validate. All
+parent bytes remain exact; historical pending-child notes have an external current
+disposition. Canonical/source title variants and every source-fidelity limit remain.
+No new OCR/source correction. Next: 읽을거리 group0006 and PC-election article0007.
+No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

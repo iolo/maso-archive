@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Two readable/sample-reviewed articles, one non-owning section reference and 42 unresolved
+Two readable/sample-reviewed articles, three non-owning section references and 40 unresolved
 identities account for 45 canonical entries; no partial articles remain. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -51,7 +51,11 @@ natives; 4,746 metadata ranges, 9,156 current occurrences, 403 exact crops, 356 
 and three cross-native joins validate. Stable revision02 passes fresh-process checks;
 prior metadata-order revision/helpers retained, article/listing/map bytes unchanged.
 All 213 PDF tests and nine negative checks pass. No new OCR/source correction.
-Next: final non-owning anchors for children 0003/0004.
+Batch 08 finalizes both remaining child anchors, preserving canonical/outline/body
+title variants. Five sidecars reproduce exactly in fresh processes; ten parent-relative
+ranges and nine invalid cases validate. The frozen parent pending-child notes have an
+external current disposition; all parent bytes and source-fidelity limits remain unchanged.
+Next: classify 읽을거리 group0006 and locate/restore PC-election article0007.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

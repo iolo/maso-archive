@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07 now
 assembles that complete 28-page feature. Current outcomes: two readable/sample-
-reviewed articles, one non-owning section reference, no partial articles and
-42 unresolved identities.
+reviewed articles, three non-owning section references, no partial articles and
+40 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -104,9 +104,17 @@ the first metadata-order revision and failed helpers remain preserved, with unch
 article/listing/map bytes. All 213 PDF tests pass; nine rehashed assembly/child
 mutations are rejected. No new OCR or source correction; thirty core modules unchanged.
 
-Next: resolve children 0003/0004 as non-owning references with final assembled-parent
-anchors, preserving canonical/source third-title wording separately. No new OCR or
-source correction expected; no global folio offset.
+Batch 08 resolves children 0003/0004 at final anchors on PDF 168/176, printed 158/166.
+All three child references are final and own no duplicate bodies. Canonical, contents,
+opening-outline and body title forms remain separate; the third title's OOP/conjunction
+variants are preserved. Five classification sidecars reproduce exactly in fresh processes;
+ten parent-relative ranges and nine invalid ownership/anchor cases validate. The parent's
+frozen pending-child notes are resolved by an external current disposition, with all
+1,524 parent files and source-fidelity limits unchanged. No new OCR/source correction.
+
+Next: classify the canonical 읽을거리 group 0006 and locate/restore article 0007,
+이영식의 PC 이야기 : 미국 대통령 선거와 컴퓨터, within one bounded checkpoint.
+Contents reference 138 is a locator cue; verify actual source pages without a global offset.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

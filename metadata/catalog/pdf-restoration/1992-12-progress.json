@@ -38,7 +38,8 @@
         "Batch04 preserves168–173/printed158–163 as immutable native c. Part2 starts168 without incoming prose join;173→174 continues mid-word 속+성. All86 crops/77 initial OCR outcomes,14 code fragments/61 rows,46 colon candidates,three ellipsis rows,seven caption associations and five column joins validate. One source pass and no recognition retry; interrupted pre-recognition render retained. Whole-feature174–183/actual assembly/child anchors pending.",
         "Batch05 preserves174–179/printed164–169 as immutable native d. Part2 body is complete across c/d through175;176 starts part3 independently. Incoming173→174 and outgoing179→180 preserve 속+성 and Ma-+chine boundaries. All116 crops/106 initial OCR outcomes,4 complete tables/34 rows/285 cells,14 criteria,four code fragments/34 rows,28 colon candidates and8 internal joins validate. One source pass/no recognition retry;four pre-OCR crop repairs and a failed preflight helper retained. Remaining180–183/actual assembly/child anchors pending.",
         "Batch06 preserves final180–183/printed170–173 as immutable native e. All28 feature body pages156–183 and three intrinsic section bodies now preserved across a–e; actual whole-feature assembly/final child anchors remain pending. All55 exact crops/45 initial OCR outcomes,11 step entries/four references,six caption associations and8 internal boundaries validate. Both original incoming179→180 contexts retained;183 summary/M ornament/four references/photo end feature and184–185 are full advertisements. One source pass/no recognition retry/no crop revision.",
-        "Batch07 actually assembles all28 feature pages156–183 into readable/sample-reviewed parent0001 from five exact natives,with403 regions/281 coherent blocks/47 original images/356 raw outcomes. Three source-proved cross-native paragraphs join with physical newlines;section boundaries remain independent. All4746 metadata ranges project with native contexts;all9156 root typed occurrences and8852 source occurrences validate. All1524 files reproduce from independently regenerated natives;deterministic revision02 passes fresh-process checks. First metadata-order revision and failed preflight retained;article/listing/map bytes unchanged. No new OCR/source correction;child0003/0004 remain pending."
+        "Batch07 actually assembles all28 feature pages156–183 into readable/sample-reviewed parent0001 from five exact natives,with403 regions/281 coherent blocks/47 original images/356 raw outcomes. Three source-proved cross-native paragraphs join with physical newlines;section boundaries remain independent. All4746 metadata ranges project with native contexts;all9156 root typed occurrences and8852 source occurrences validate. All1524 files reproduce from independently regenerated natives;deterministic revision02 passes fresh-process checks. First metadata-order revision and failed preflight retained;article/listing/map bytes unchanged. No new OCR/source correction;child0003/0004 remain pending.",
+        "Batch08 resolves children0003/0004 as non-owning final assembled-parent references at c-p168-section-title and d-p176-section-title. Allthree child anchors are final. Frozen parent export pending-child notes are historical snapshot statements,with current resolution recorded in external parent-status-dispositions.json;all source-fidelity/glyph/human-review limits remain. Parent bytes unchanged."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/feature-oop-r02",
@@ -420,6 +421,17 @@
           "path": "archive/pdf/1992-12/restoration/batch-07/rebuild-instructions.json",
           "sha256": "284d31ea6d5b2f4b95e46e83ef1e8a173c3db253f27a8be7647d987103405307",
           "bytes": 1748
+        },
+        "all_child_anchors_final": true,
+        "child_anchor_dispositions": {
+          "path": "archive/pdf/1992-12/evidence/child-anchors-r01/parent-status-dispositions.json",
+          "sha256": "90b637fcd8065c6705d2f8d1bc43e554740c639e6ae90a50b9dd648bbc4b9811",
+          "bytes": 4410
+        },
+        "feature_family_evidence": {
+          "path": "archive/pdf/1992-12/evidence/child-anchors-r01/feature-family.json",
+          "sha256": "422157137218ea4115fe14350e9fc4089476c8a55dd272ffa3c7847270decc67",
+          "bytes": 1140
         }
       }
     },
@@ -474,23 +486,97 @@
       "toc_entry_id": "maso-1992-12-toc-0003",
       "title": "2. 객체지향 프로그래밍 언어",
       "parent_id": "maso-1992-12-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Matching numbered contents/outline/body position and actual assembled section boundary establish a non-owning child of parent0001. Canonical title,order,parent and null page reference stay unchanged;no duplicate child body/package.",
+        "Final assembled title anchor c-p168-section-title resolves to source168/printed158 with exact root article bytes/scan. Intrinsic body pages168–175 preserved;human acceptance/full proofreading/original glyph bytes unverified.",
+        "Canonical,contents,opening-outline and body title variants remain separately indexed. The third title uses different OOP/analysis-conjunction wording in those source contexts;none is overwritten."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1992-12-toc-0001",
+      "section": {
+        "anchor": "c-p168-section-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 168
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1992-12-toc-0001",
+        "directory": "archive/pdf/1992-12/packages/feature-oop-r02",
+        "anchor": "c-p168-section-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 168,
+        "source_heading_printed_page": "158",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1992-12/packages/feature-oop-r02/manifest.json",
+          "sha256": "70465fd434e71dc40c02be1389e4d6bd5d9f85b461d3fae58190b78dc7c3564c",
+          "bytes": 278153
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1992-12/evidence/child-anchors-r01/0003-anchor.json",
+          "sha256": "127e9719418499a30994c835914792fe0eee5195c9ad1ece80c397fd6289873d",
+          "bytes": 7226
+        },
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-08/validation.json",
+          "sha256": "dda2e07fa86705e73f05ab5d8568fd489bbe0b65d496ae74404921055137ee23",
+          "bytes": 2740
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0004",
       "title": "3. 진정한 OOP의 기반, 객체지향 분석과 설계",
       "parent_id": "maso-1992-12-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Matching numbered contents/outline/body position and actual assembled section boundary establish a non-owning child of parent0001. Canonical title,order,parent and null page reference stay unchanged;no duplicate child body/package.",
+        "Final assembled title anchor d-p176-section-title resolves to source176/printed166 with exact root article bytes/scan. Intrinsic body pages176–183 preserved;human acceptance/full proofreading/original glyph bytes unverified.",
+        "Canonical,contents,opening-outline and body title variants remain separately indexed. The third title uses different OOP/analysis-conjunction wording in those source contexts;none is overwritten."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1992-12-toc-0001",
+      "section": {
+        "anchor": "d-p176-section-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 176
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1992-12-toc-0001",
+        "directory": "archive/pdf/1992-12/packages/feature-oop-r02",
+        "anchor": "d-p176-section-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 176,
+        "source_heading_printed_page": "166",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1992-12/packages/feature-oop-r02/manifest.json",
+          "sha256": "70465fd434e71dc40c02be1389e4d6bd5d9f85b461d3fae58190b78dc7c3564c",
+          "bytes": 278153
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1992-12/evidence/child-anchors-r01/0004-anchor.json",
+          "sha256": "a877e8ef7ccb63dfde4e3cd05d37ee65f932d77f18c984b388482c696077e6ce",
+          "bytes": 7411
+        },
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-08/validation.json",
+          "sha256": "dda2e07fa86705e73f05ab5d8568fd489bbe0b65d496ae74404921055137ee23",
+          "bytes": 2740
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0005",
@@ -1214,6 +1300,33 @@
         "sha256": "0f59763726db094320a3949354fda0ff912b39aa291e61fe4eb2fcd1c6e4510b",
         "bytes": 279810
       }
+    },
+    {
+      "name": "1992-12-batch-08",
+      "status": "complete",
+      "completed_at": "2026-10-31T10:01:23.891842+00:00",
+      "goal": "Final non-owning anchors for child0003/0004 with separate source title forms and external frozen-status disposition.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0003",
+        "maso-1992-12-toc-0004"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-08/validation.json",
+        "sha256": "dda2e07fa86705e73f05ab5d8568fd489bbe0b65d496ae74404921055137ee23",
+        "bytes": 2740
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-08/reproduction.json",
+        "sha256": "78d7bee91112973aabd335349edb1af1307a70d09217696148109a805bfc2af1",
+        "bytes": 1864
+      }
     }
   ],
   "totals": {
@@ -1221,8 +1334,8 @@
     "readable": 2,
     "partial": 0,
     "group_headings": 0,
-    "section_references": 1,
-    "unresolved": 42
+    "section_references": 3,
+    "unresolved": 40
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -1230,26 +1343,58 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-08",
-    "goal": "Resolve children0003/0004 as non-owning intrinsic section references with final assembled-parent anchors;preserve canonical/source third-title wording difference.",
+    "name": "1992-12-batch-09",
+    "goal": "Classify canonical 읽을거리 group0006 from original contents and locate/restore article0007 이영식의 PC 이야기 : 미국 대통령 선거와 컴퓨터 in a bounded native.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0003",
-      "maso-1992-12-toc-0004"
+      "maso-1992-12-toc-0006",
+      "maso-1992-12-toc-0007"
     ],
     "mapping_targets": [],
-    "planned_outside_lookup_pdf_pages": [
-      4,
-      156,
-      168,
-      175,
-      176,
-      183
+    "initial_lookup_candidates": [
+      148,
+      147,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      146
     ],
+    "canonical_article_reference": 138,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Complete parent is feature-oop-r02;no new OCR/source correction or duplicate child bodies. Verify both exact heading ranges/scans and actual section extents;canonical titles/parents/null references remain unchanged."
-  }
+    "note": "Contents4 already retained. Candidate pages are location probes only,no global folio offset. Confirm actual title/byline,start/end/adjacent pages before selecting at most six mapped pages. Preserve complete feature and all three final child anchors."
+  },
+  "final_issue_classification_evidence_required": [
+    {
+      "path": "archive/pdf/1992-12/evidence/child-anchors-r01/0003-anchor.json",
+      "sha256": "127e9719418499a30994c835914792fe0eee5195c9ad1ece80c397fd6289873d",
+      "bytes": 7226
+    },
+    {
+      "path": "archive/pdf/1992-12/evidence/child-anchors-r01/0004-anchor.json",
+      "sha256": "a877e8ef7ccb63dfde4e3cd05d37ee65f932d77f18c984b388482c696077e6ce",
+      "bytes": 7411
+    },
+    {
+      "path": "archive/pdf/1992-12/evidence/child-anchors-r01/feature-family.json",
+      "sha256": "422157137218ea4115fe14350e9fc4089476c8a55dd272ffa3c7847270decc67",
+      "bytes": 1140
+    },
+    {
+      "path": "archive/pdf/1992-12/evidence/child-anchors-r01/parent-status-dispositions.json",
+      "sha256": "90b637fcd8065c6705d2f8d1bc43e554740c639e6ae90a50b9dd648bbc4b9811",
+      "bytes": 4410
+    },
+    {
+      "path": "archive/pdf/1992-12/evidence/child-anchors-r01/title-variants.json",
+      "sha256": "d48c61c0247d05ebb54607c1b2a700d38022d7231b83966c2c6f6949aa4de40d",
+      "bytes": 6701
+    }
+  ]
 }
