@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Five readable/sample-reviewed articles, one partial, two non-owning group headings,
+Six readable/sample-reviewed articles, no partials, two non-owning group headings,
 three section references and 34 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -105,8 +105,16 @@ ten conditions and four listing captions validate. One source pass; 60 initial p
 one changed-crop recognition, 59 exact raw/TSV outcomes reused with original execution
 pins, zero unchanged-input retries. Pre-OCR repairs, a within-pass code-margin repair
 and failed export helper retained; source bugs/fragments and printed 99 stay literal.
-Next: restore final 214/204 and actually assemble the seven-page article 208–214.
-The prose mark on 212 precedes Listing 4's final 194–331 on 214; no mid-line join at 213→214.
+Batch 16 adds final 214/204 as an 18-file native, then actually assembles all seven
+pages 208–214: 280 exact independent/fresh-process files from two regenerated natives/
+271 files. All 3,633 projected ranges, 8,156 current occurrences, 67 crops, 62 outcomes
+and three ZIPs validate. The assembly retains 727 physical code rows/466 numbered
+rows, 33 numbered blanks/13 wraps and five original images. No cross-native text merge;
+listing bytes equal native concatenation. Abbreviated 212/full 214 functions retain
+distinct contexts; Listing 2 remains the printed fragment. Two eng recognitions/one
+source pass for final 214, no retry/crop repair; no new assembly OCR/pass. Ten invalid
+native/recipe/rehashed-root cases rejected. Next: source-verify child 0012 extent from
+216/206, then restore at most six pages with table/stroke/code/image coverage review.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

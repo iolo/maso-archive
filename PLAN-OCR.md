@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: five readable/sample-reviewed
-articles, one partial, two non-owning group headings, three section references and 34 unresolved
+December 1992 is in progress at the owner's request: six readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 34 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -128,10 +128,17 @@ while paused, changed raw read before resuming. Sixty initial plus one changed-c
 recognition, 59 exact raw/TSV outcomes reused with original execution pins, zero
 unchanged-input retries. Three pre-OCR crop repairs, one added heading and failed
 export helper retained; source code defects/fragments stay literal.
-Next: final 214/204 and actual seven-page 208–214 assembly. Prose closing mark on 212
-does not end Listing 4; labels 194–331 and cartoon on 214 remain deferred. No mid-line
-join at 213→214. Review full page/crops, use eng code/kor+eng other text, read all new
-raws before one source pass, and regenerate both natives for actual assembly.
+Batch 16 adds final 214: 18 exact files, 138 labels/147 physical rows, 13 numbered
+blanks, nine wraps and original cartoon. Both eng raws read before one source pass;
+two initial recognitions, no retry/crop repair. Actual readable assembly 208–214 has
+280 exact files from two regenerated natives/271 files, 3,633 projected ranges,
+8,156 current occurrences and 67 exact crops. All 727 code rows/466 numbered rows,
+33 numbered blanks/13 wraps validate; native-a original execution pins remain intact.
+No cross-native text merge or new assembly OCR/pass. Ten invalid cases rejected;
+Listing 2's printed fragment and distinct abbreviated/full function forms remain explicit.
+Next: verify child 0012 extent from 216/206 and map at most six pages after full
+page/crop/table/stroke-diagram/code review. Use eng code/kor+eng other text and read
+all raws before one literal source pass; longer bodies need natives and assembly.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

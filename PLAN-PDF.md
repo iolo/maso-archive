@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: five readable/sample-reviewed articles,
-one partial, two group headings, three section references and 34 unresolved identities.
+Current totals: six readable/sample-reviewed articles,
+no partials, two group headings, three section references and 34 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -179,10 +179,22 @@ changed-crop recognition, 59 exact raw/TSV outcomes reused with original executi
 provenance, zero unchanged-input retries. Three pre-OCR crop repairs, one added panel
 heading, one within-pass margin repair and a failed export helper remain preserved.
 
-Next: restore final 214/printed 204, then actually assemble article 0011 from independently
-regenerated natives. The seven-page extent 208–214 is directly reviewed: prose closes
-212 but Listing 4 continues through 331 on 214, with original closing artwork.
-The 213→214 boundary needs sequential listing coverage without a prose/code-line join.
+Batch 16 preserves final 214/printed 204 as an 18-file native: 138 labels, 147 physical
+rows, 13 numbered blanks, nine unnumbered wraps and complete original cartoon. Both
+raw eng drafts read before one source pass; two initial recognitions, no retries or
+crop repairs. The actual complete seven-page assembly contains 280 independently/
+fresh-process exact files from two regenerated natives/271 files. All 3,633 projected
+ranges, 8,156 current occurrences, 67 crops, 62 selected outcomes and three ZIPs validate.
+All 727 physical code rows, 466 numbered rows, 33 numbered blanks and 13 unnumbered
+wraps remain explicit. Listing 4 spans 001–331 without a cross-native text merge;
+listing bytes equal native concatenation. The abbreviated 212/full 214 functions are
+linked as distinct source occurrences. Listing 2 remains its printed fragment.
+Ten invalid native/recipe/rehashed-root cases are rejected. No assembly OCR/source pass.
+
+Next: verify actual extent of child 0012, 필기 알파벳 대문자 인식, from independent
+opening 216/printed 206, then restore at most six pages. Review all tables, stroke/
+character diagrams, code and associations before recognition; do not infer its ending
+from the next contents reference. Longer bodies require immutable natives and assembly.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
