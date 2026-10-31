@@ -295,10 +295,27 @@ this bounded review. Its continuation, intrinsic section bodies and ending remai
 unlocated. No 299–304 extent, missing-page count or source-wide absence is inferred.
 Children 0020/0021 remain unresolved; the opening outline is not a final body anchor.
 
-Next: bounded continuation-location search for feature 0019, initially outside pages
-290–297 and 318–329 (twenty pages, no new mapping/OCR). Save page-level source evidence
-and locally read folios/material/ownership. Reuse prior review evidence to choose any
-later search range. A discovered continuation needs its own bounded mapping checkpoint.
+Batch 30 reviews twenty additional outside pages, 290–297 and 318–329: twelve
+full advertisements and eight vaccine-toolkit pages with locally read folios 343–350.
+No feature 0019 continuation was found in that bounded range. The combined forty-page
+source index for 290–329 and external pending disposition reproduce as three exact
+files independently and in a fresh process. Forty source images/pins, all current
+observation/layout pins and eight invalid disposition cases validate. No mapping,
+OCR, source pass, article-package change or other canonical classification is added.
+The immutable opening and original gap metadata remain exact. Its body location,
+ending and children 0020/0021 are still pending; no missing-page count, source-wide
+absence or complete feature recovery is inferred.
+
+Next: restore canonical 0024's vaccine-toolkit opening on PDF 307–312, at most six
+mapped pages. Direct review across Batches 29/30 locates its prospective nineteen-page
+body on 307–325/printed 332–350; verify ownership/continuity in its own article task.
+The prose closing M is on 321, but printed listings continue through 325, ending at
+Listing 5 label 131 END Start in a lower-right inset. Ads follow 326–329. Preserve
+literal caption/program-banner conflicts and physical reading order. All exact crops
+must be reviewed before mapped Tesseract; eng code/kor+eng other text, all complete
+raws read before one literal source pass. Remaining natives and actual assembly follow.
+Keep feature 0019's location gap pending and continue displaced-content review alongside
+other article restoration and the required full 446-page accounting.
 Twelve readable articles, one partial, two group headings, three section references
 and 27 unresolved identities remain. Thirteen selected roots contain 5,841 files;
 ten classification files are separate. Keep all nine private adapters for all-root checks.

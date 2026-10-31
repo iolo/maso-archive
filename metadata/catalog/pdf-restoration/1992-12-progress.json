@@ -1129,7 +1129,10 @@
         "A 33-file partial opening package matches independent and fresh-process builds. Seven exact crops, six pinned kor+eng OCR settings, six text blocks, one full-page composition, eighteen physical reading rows including one blank paragraph separator, 48 current typed ranges and two private boundary ranges validate. All six complete raw drafts read before one literal source pass; zero retries or crop repairs. Garbled angled drafts and empty domestic outline draft retained.",
         "Bounded review includes one mapped page and nineteen outside pages, twenty whole views in all. Physical 300–305 print 325–330 and contain unrelated shell listings; 306 is an advertisement; 307 independently opens the vaccine-toolkit article, continuing through 317/342. Opening 299 is the only confirmed feature content in this review. No 299–304 extent, missing-page count or source-wide absence claimed.",
         "Children 0020/0021 remain unresolved. Their opening outline references are not intrinsic body anchors and advance no child classification. The complete body location, actual ending and any final assembly remain pending bounded systematic search.",
-        "Twelve consistently rehashed roots pass generic export checks and fail private semantic audits for false child ownership, folio/extent/completion, missing-page/absence/recovery claims, collage transcription coverage, paragraph loss and credit glyph certification. All 29,042 prior December files, 5,808 prior selected files, ten classification files, 9,332 September reference files and thirty core modules/source/runtime/TOC/queue remain exact. Unchanged 213-test baseline reused with complete current opening audits. Human acceptance/full proofreading and source glyph/spacing/byte identity remain unverified."
+        "Twelve consistently rehashed roots pass generic export checks and fail private semantic audits for false child ownership, folio/extent/completion, missing-page/absence/recovery claims, collage transcription coverage, paragraph loss and credit glyph certification. All 29,042 prior December files, 5,808 prior selected files, ten classification files, 9,332 September reference files and thirty core modules/source/runtime/TOC/queue remain exact. Unchanged 213-test baseline reused with complete current opening audits. Human acceptance/full proofreading and source glyph/spacing/byte identity remain unverified.",
+        "Batch 30 directly reviews twenty further whole views: 290–297 and 318–329. Twelve pages are full advertisements; eight are vaccine-toolkit body/listing pages with locally read folios 343–350. No feature 0019 continuation found in this bounded range. Combined Batches 29/30 index the contiguous forty-page window 290–329, comprising opener 299 and thirty-nine outside pages.",
+        "Three search-index/disposition files reproduce independently and in a fresh process. All forty indexed source images/pins and twenty current observation/layout pins validate. Eight altered private search/disposition fixtures rejected. No new mapping, OCR, source pass, package change or canonical ownership/classification advance. Existing partial package and original gap metadata remain exact; the current search disposition is external.",
+        "Feature 0019 body location, actual ending and children 0020/0021 remain unresolved. No missing-page count or issue-wide absence inferred. Independent vaccine article opening 307/332 and final listing 325/350 are directly observed across Batches 29/30, with prose closing M on 321 and listings continuing through 325; advertisements follow 326–329. That outside observation supplies the next restoration target without classifying 0024 in this search checkpoint. Continue remaining body work and revisit unreviewed source during full 446-page accounting."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/batch-29-r01/year-review-a",
@@ -1271,6 +1274,81 @@
           "Opening composition and six text regions are restored; full feature body and child anchors remain unresolved.",
           "Embedded small collage lettering is retained as pixels without an all-lettering transcription claim.",
           "Box/dot/quote/Roman numeral forms and spacing are candidates; original encoded bytes/exact glyphs/spaces and historical accuracy unverified."
+        ],
+        "continuation_location_searches": [
+          {
+            "checkpoint": "batch-30",
+            "status": "pending-bounded-search",
+            "disposition": {
+              "path": "archive/pdf/1992-12/restoration/batch-30/search-r01/disposition.json",
+              "sha256": "27c14a69c9d169b29969aefe4bf380cc2d8b1800ef3f03e35864f7486221a8b2",
+              "bytes": 2882
+            },
+            "page_index": {
+              "path": "archive/pdf/1992-12/restoration/batch-30/search-r01/page-index.json",
+              "sha256": "7df25d6bbe6fb8e3f56748c4d2822aa15dc77a6a0847e977f367ee0ee082ee00",
+              "bytes": 28102
+            },
+            "source_review": {
+              "path": "archive/pdf/1992-12/restoration/batch-30/source-reviewed.json",
+              "sha256": "34f624109cfc3e6f6979c97f1adca0ccd45e1ec75d9cd58074e91f61984aadb1",
+              "bytes": 15762
+            },
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-30/validation.json",
+              "sha256": "bf7ddd308f9354e9086ed02fdc0dc72c4b235b9e62a5fa644690e5794948c30f",
+              "bytes": 1620
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-30/reproduction.json",
+              "sha256": "ee8f42b9e40f1190970d08abd8cea020d9abd0da65a535d058ae0935752c6ec5",
+              "bytes": 971
+            },
+            "cumulative_reviewed_pdf_pages": [
+              290,
+              291,
+              292,
+              293,
+              294,
+              295,
+              296,
+              297,
+              298,
+              299,
+              300,
+              301,
+              302,
+              303,
+              304,
+              305,
+              306,
+              307,
+              308,
+              309,
+              310,
+              311,
+              312,
+              313,
+              314,
+              315,
+              316,
+              317,
+              318,
+              319,
+              320,
+              321,
+              322,
+              323,
+              324,
+              325,
+              326,
+              327,
+              328,
+              329
+            ],
+            "source_wide_absence_asserted": false,
+            "missing_page_count": null
+          }
         ]
       }
     },
@@ -4350,6 +4428,59 @@
         "sha256": "0f3b7f48d74b1db50e312b23447500ffaa1d7a3903de1f39cca525722a326e8f",
         "bytes": 2571
       }
+    },
+    {
+      "name": "1992-12-batch-30",
+      "status": "complete",
+      "completed_at": "2026-10-31T19:45:40.776326+00:00",
+      "goal": "Search twenty additional source pages for feature 0019 continuation and retain explicit bounded page-level observations with the location gap still pending.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0019"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-30/validation.json",
+        "sha256": "bf7ddd308f9354e9086ed02fdc0dc72c4b235b9e62a5fa644690e5794948c30f",
+        "bytes": 1620
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-30/reproduction.json",
+        "sha256": "ee8f42b9e40f1190970d08abd8cea020d9abd0da65a535d058ae0935752c6ec5",
+        "bytes": 971
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-30/negative-checks.json",
+        "sha256": "f3a8a53bc0947f3d3f3ec432b66b6bf11012c174859135e06cbf6f3e19012e5d",
+        "bytes": 865
+      }
     }
   ],
   "totals": {
@@ -4366,22 +4497,34 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-30",
-    "goal": "Search for feature 0019 continuation in a bounded additional source range; preserve explicit page-level evidence and update the unresolved location gap.",
+    "name": "1992-12-batch-31",
+    "goal": "Restore the six-page opening of canonical 0024 vaccine-toolkit article on PDF 307–312, preserving its original text, diagrams, tables, code and source labels.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0019"
+      "maso-1992-12-toc-0024"
     ],
-    "mapping_targets": [],
-    "candidate_mapping_targets": [],
+    "candidate_mapping_targets": [
+      307,
+      308,
+      309,
+      310,
+      311,
+      312
+    ],
+    "mapping_targets": [
+      307,
+      308,
+      309,
+      310,
+      311,
+      312
+    ],
     "initial_lookup_candidates": [
-      290,
-      291,
-      292,
-      293,
-      294,
-      295,
-      296,
-      297,
+      306,
+      313,
+      314,
+      315,
+      316,
+      317,
       318,
       319,
       320,
@@ -4395,13 +4538,13 @@
       328,
       329
     ],
-    "canonical_article_reference": 289,
+    "canonical_article_reference": 332,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Discovery checkpoint: inspect at most twenty outside pages 290–297 and 318–329, saving whole views and directly read folios/material/ownership. Reuse retained prior review evidence when selecting further ranges; do not repeat completed OCR. Follow a confirmed continuation if found only in a new bounded mapping checkpoint. Do not infer source-wide absence, missing-page counts, extent, child classification or completion from a label jump or failed bounded search. Opening 299 has no visible folio; 289 is canonical reference. Children 0020/0021 remain unresolved. Thirteen selected roots contain 5,841 files; ten classification files separate. All other bodies/assemblies, full 446-page accounting, cover, standalone export/rebuild and closeout remain required. No reader rebuild; full December goal active."
+    "note": "Independent source opening 307/printed 332 has series/title/subtitle/안철수 credit and portrait. All nineteen prospective body pages 307–325/332–350 were directly viewed across Batches 29/30; verify ownership/continuity and final boundary in this article task. Prose closes with M on 321; printed assembly listings continue through 325, Listing 5 label 131 END Start in lower-right inset. Full ads follow 326–329; 306 is a full ad. Preserve caption/program-banner mismatches literally rather than repairing from technical expectations. Review each exact map crop before mapped Tesseract; eng code and kor+eng other text, all complete raws read before one literal source pass. Opening native is partial until remaining pages and actual assembly. Feature 0019 continuation and children 0020/0021 stay pending; its immutable opening/gap and forty-page external search index are preserved. Continue displaced-content review alongside remaining articles and complete 446-page accounting; no source-wide absence or missing-page count inferred. Twelve readable roots plus one partial root contain 5,841 files; ten classification files separate. Full December goal active; remaining bodies/assemblies, cover, standalone issue export/rebuild and closeout required. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

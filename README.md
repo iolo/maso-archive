@@ -16,10 +16,11 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 December 1992 restoration is in progress: twelve readable/sample-reviewed articles,
 one partial, two non-owning group headings, three section references and 27 unresolved
 identities. Batch 29 preserves year-in-review feature 0019's opening on PDF 299:
-33 files reproduce independently and in a fresh process. Its continuation and ending
-remain unlocated; following pages contain unrelated material. Page 299 has no visible
-folio; 289 is its contents reference. Thirteen selected roots contain 5,841 files;
-ten classification files are separate. Next: bounded continuation-location search.
+33 files reproduce independently and in a fresh process. Batch 30 adds a bounded
+forty-page source index; its continuation and ending remain unlocated. Page 299 has
+no visible folio; 289 is its contents reference. Thirteen selected roots contain
+5,841 files; ten classification files are separate. Next: vaccine-toolkit article
+0024 opening on PDF 307–312, within its directly observed body 307–325.
 Remaining bodies, full issue accounting, cover, export/rebuild and closeout remain
 pending. See the [December record](docs/progress/9212.md). No reader rebuild.
 
