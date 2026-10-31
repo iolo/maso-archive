@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Three readable/sample-reviewed articles, two partial articles, one non-owning group heading,
+Four readable/sample-reviewed articles, one partial article, one non-owning group heading,
 three section references and 36 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -83,8 +83,15 @@ are preserved across a/b/c; actual assembly pending. Article 0009 opening 200–
 printed 190–194 adds 266 exact files, 66 crops, 64 outcomes, 571 rows, 890 ranges and
 two original images. Actual ending 205/195 observed; final 205 deferred. All 68 raws
 read before one source pass; zero retries. Fifty-five pre-OCR crop repairs and two schema
-failures retained. Next: actual look-and-feel assembly and final 205 within the two-task
-limit, then actual article 0009 assembly. Source spelling/citations/claims remain literal.
+failures retained. Source spelling/citations/claims remain literal.
+Batch 13 completes actual readable look-and-feel assembly 186–198:679 independently
+exact files from three regenerated natives/671 files. All 2, 897 projected ranges/92 blank
+anchors, 5, 632 current ranges, 167 exact crops, 160 outcomes and two joins validate.
+All table/claim/figure indexes and native-a original execution provenance remain intact;
+nine invalid cases rejected. Final205 ofarticle 0009 adds 49 exact files, 11 crops, ten
+outcomes, 116 rows and 167 ranges; one source pass, zero retries/crop repairs. All six
+article 0009 body pages preserved; actual assembly pending. Next: that assembly and
+bounded group 0010 classification iforiginal contents/208 evidence supports it.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

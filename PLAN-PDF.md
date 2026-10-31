@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: three readable/sample-reviewed articles,
-two partial articles, one group heading, three section references and 36 unresolved identities.
+Current totals: four readable/sample-reviewed articles,
+one partial article, one group heading, three section references and 36 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -150,10 +150,19 @@ ending 205/195 is observed; final 205 remains deferred. All 68 raws read before 
 source pass, zero retries; 55 law crops repaired before OCR, two schema preflight
 failures retained. Canonical title/byline/parent and literal source variants stay intact.
 
-Next: actually assemble complete look-and-feel article 0008 from three independently
-regenerated natives, preserving every custom index/range and native-a original
-execution provenance. The same two-task checkpoint may restore article 0009 final 205;
-its actual complete assembly remains required afterward.
+Batch 13 delivers the complete readable look-and-feel assembly on 186–198:
+679 exact files from three independently regenerated natives/671 files. All 2, 897
+projected metadata ranges, including 92 blank anchors, and 5, 632 current typed
+occurrences validate. Both cross-native joins, all table/claim/figure indexes and
+native-a original execution provenance remain explicit. Nine invalid cases are
+rejected, including a rehashed root blank-anchor edit. No new assembly OCR/source pass.
+The same batch preserves final 205 of article 0009:49 exact files, 11 crops, ten initial
+outcomes, 116 rows and 167 ranges. All six body pages 200–205 now preserved across a/b;
+actual assembly remains required. One source pass, zero retries/crop repairs.
+
+Next: actually assemble article 0009 from its two independently regenerated natives.
+The second canonical task may classify group 0010 from the original contents and
+observed 208 section/title, if supported; child 0011 restoration stays a later task.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
