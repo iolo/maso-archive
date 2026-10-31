@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Eleven readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 29 unresolved identities account for 45 canonical entries. All 94 independent
+Eleven readable/sample-reviewed articles, one partial, two non-owning group headings,
+three section references and 28 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -203,11 +203,33 @@ references are final bounded label mismatches with unconfirmed semantic candidat
 All 29 final raws read before one source pass; zero retries, three pre-OCR repairs.
 First metadata aliasing failure retained; stable r02 passes full audits and twenty
 rejection checks, thirteen rehashed roots. Article/listing/native bytes unchanged.
-Next: verify Tetris 0017's actual extent from opening 272/262 and restore at most six
-opening pages, provisionally 272–277. Fractint is now readable. Eleven selected roots
-contain 5,429 files; ten classification files remain separate.
-Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
-and closeout remain pending. No global offset inferred and no reader rebuild.
+Batch 27 verifies Tetris article 0017's actual eight-page body 272–279/printed
+262–269 and preserves opening 272–277 as a six-page partial: 329 independently and
+fresh-process exact files, 83 exact crops, 69 blocks, four original images and 79 OCR
+outcomes. Nine member descriptions, six examples, three diagrams with searchable
+lettering and the closing M remain. Complete Listings 1/2 and partial Listing 3 retain
+191 printed labels, 38 numbered blanks and 252 physical code rows. Three panel-border
+comment tails and two string blank-width candidates remain explicitly uncertain.
+All 3,064 typed ranges/162 empty occurrences, six private ranges and 79 source-local
+pins validate; nine joins/ten boundaries retain 23 intervening source contexts.
+All raws read before one literal source pass; 12 eng/67 kor+eng, zero retries, one
+pre-OCR label-margin repair. Source is_sts, missing example return type and aligned
+annotation wraps remain literal. Fifteen altered-data cases rejected; failed preparation
+and two verifier revisions retained without source/package changes.
+
+Next: restore final Tetris 278–279, then actually assemble all eight pages 272–279
+from two independently regenerated natives. Prose closes 276, but the final listing
+ends 279; Listing 3 row 19 continues as numbered row 20 on 278 without a logical
+code-line merge. Preserve every printed row, blank, source defect, diagram/lettering,
+example/member/claim/reference/file context and unresolved tail in native/current ranges.
+Current totals: eleven readable articles, one partial, two group headings, three
+section references and 28 unresolved identities. Twelve selected roots contain 5,758
+files; ten classification files remain separate. Use all eight private adapters,
+including batch-26/fractint_adapter_r02, when checking prior assemblies.
+Remaining bodies/assemblies, full 446-page accounting, cover, standalone issue export,
+independent rebuilds and closeout remain required. Human acceptance/full proofreading,
+original bytes/glyphs/spaces, technical truth and execution remain unverified.
+No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

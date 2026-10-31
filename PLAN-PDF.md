@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: eleven readable/sample-reviewed articles,
-no partials, two group headings, three section references and 29 unresolved identities.
+one partial, two group headings, three section references and 28 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -320,19 +320,32 @@ repairs. First assembly metadata aliasing failure retained; fresh r02 changes on
 three JSON files, with article/listing/native bytes unchanged. Twenty invalid cases
 rejected, including thirteen rehashed roots. All prior source/core/evidence exact.
 
-Next: verify Tetris article 0017's actual extent, folios and ownership from its
-independent opening 272/printed 262 by 임광섭, then restore at most six opening
-pages, provisionally 272–277. Its actual ending remains unverified. Preserve source
-C++ listings, printed labels, wraps, blanks, diagrams/screens and eligible prose;
-read all drafts before one literal source pass. Do not infer completion from the
-next TOC reference or apply a global folio offset. Current totals are eleven
-readable articles, no partials and 29 unresolved identities. Eleven selected roots
-contain 5,429 files; ten classification files are separate. Install the new private
-batch-26/fractint_adapter_r02 with the seven prior adapters when checking all roots.
-No global folio offset inferred.
-Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
-issue export, independent rebuilds and closeout remain required. Human acceptance,
-full proofreading and original bytes/glyph identities remain unverified.
+Batch 27 verifies Tetris article 0017's actual eight-page body 272–279/printed
+262–269 and preserves opening 272–277 as a six-page partial: 329 independently and
+fresh-process exact files, 83 exact crops, 69 blocks, four original images and 79 OCR
+outcomes. Nine member descriptions, six examples, three diagrams with searchable
+lettering and the closing M remain. Complete Listings 1/2 and partial Listing 3 retain
+191 printed labels, 38 numbered blanks and 252 physical code rows. Three panel-border
+comment tails and two string blank-width candidates remain explicitly uncertain.
+All 3,064 typed ranges/162 empty occurrences, six private ranges and 79 source-local
+pins validate; nine joins/ten boundaries retain 23 intervening source contexts.
+All raws read before one literal source pass; 12 eng/67 kor+eng, zero retries, one
+pre-OCR label-margin repair. Source is_sts, missing example return type and aligned
+annotation wraps remain literal. Fifteen altered-data cases rejected; failed preparation
+and two verifier revisions retained without source/package changes.
+
+Next: restore final Tetris 278–279, then actually assemble all eight pages 272–279
+from two independently regenerated natives. Prose closes 276, but the final listing
+ends 279; Listing 3 row 19 continues as numbered row 20 on 278 without a logical
+code-line merge. Preserve every printed row, blank, source defect, diagram/lettering,
+example/member/claim/reference/file context and unresolved tail in native/current ranges.
+Current totals: eleven readable articles, one partial, two group headings, three
+section references and 28 unresolved identities. Twelve selected roots contain 5,758
+files; ten classification files remain separate. Use all eight private adapters,
+including batch-26/fractint_adapter_r02, when checking prior assemblies.
+Remaining bodies/assemblies, full 446-page accounting, cover, standalone issue export,
+independent rebuilds and closeout remain required. Human acceptance/full proofreading,
+original bytes/glyphs/spaces, technical truth and execution remain unverified.
 No reader rebuild. See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

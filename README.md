@@ -14,15 +14,14 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: eleven readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 29 unresolved
-identities. Batch 26 completes Fractint on PDF 254–267: all 731 files reproduce from
-three regenerated natives, with 185 exact crops, 170 OCR outcomes and 4,372 current
-ranges. Original images, menus, parable, options, annotated examples and closing mark
-remain intact; printed reference mismatches and code-glyph uncertainty stay explicit.
-Next: verify the Tetris article's extent and restore its opening from PDF 272.
-Remaining bodies, full issue accounting, cover, export/rebuild
-and closeout remain pending. See the [December record](docs/progress/9212.md).
-No reader rebuild.
+one partial, two non-owning group headings, three section references and 28 unresolved
+identities. Batch 27 preserves Tetris opening PDF 272–277 as 329 independently and
+fresh-process exact files: 83 crops, 79 OCR outcomes, three original diagrams, six
+examples and 191 printed listing rows. Three obscured comment tails remain explicit.
+The actual eight-page body ends on 279. Next: restore 278–279 and assemble all eight
+pages. Twelve selected roots contain 5,758 files; ten classification files are separate.
+Remaining bodies, full issue accounting, cover, export/rebuild and closeout remain
+pending. See the [December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
