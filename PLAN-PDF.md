@@ -131,9 +131,21 @@ recognition, 73 unchanged raw/TSV results reused, zero unchanged-input retries.
 Fourteen row crops were repaired before OCR. A failed statistics preflight is retained;
 source text/cells were unchanged. Source title/credits, amounts and citations stay literal.
 
-Next: review/restore continuation 192–197 as native b, within six mapped pages.
-The actual ending on 198 is observed above an advertisement; remaining body ownership,
-continuity and final assembly still need verification. No global folio offset inferred.
+Batch 11 preserves continuation 192–197/printed 182–187 as immutable native b:
+340 independently exact files, 86 exact crops, 82 OCR outcomes, 559 reading rows
+and 970 typed ranges. Four original panels retain ten window diagrams and a separate
+case chart; eleven captions, sixteen claim occurrences and thirteen prose boundaries
+validate. Two right-column advertisements are excluded. All raws were read before
+one source pass; no retries. Two pre-OCR map revisions repaired ten distinct crops
+in eleven events. Repeated B1 labels and source spelling variants remain literal.
+All source body pages 186–198 now have direct ownership/continuity review;
+186–197 are preserved across natives a/b. Availability stays partial.
+
+Next: restore final PDF 198 above its lower advertisement. Within the same two-task,
+six-page limit, verify article 0009's opening on 200 and restore up to five pages
+if appropriate; establish its actual extent first. Then assemble the complete
+look-and-feel article from immutable natives in a separate checkpoint.
+No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

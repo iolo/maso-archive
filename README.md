@@ -18,7 +18,9 @@ one partial article, one group heading, three section references and 37 unresolv
 completes the PC-election story on PDF 148–152 and classifies its non-owning group;
 170 article files and one classification file reproduce exactly. Batch 10 preserves
 the look-and-feel opening on PDF 186–191 as partial: 306 files reproduce exactly,
-including a 29-row table. Next is continuation 192–197 within the bounded workflow.
+including a 29-row table. Batch 11 adds continuation192–197: 340 exact files,
+four original panels and ten window diagrams. Next is final198, followed by actual
+article assembly; bounded article0009 opening work may share the final-page batch.
 Full issue accounting/export/closeout remain
 pending. See the [December record](docs/progress/9212.md). No reader rebuild.
 

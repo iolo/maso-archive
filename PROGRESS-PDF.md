@@ -69,8 +69,16 @@ five-entry lists and fifteen boundaries remain. Fourteen row crops were repaired
 before OCR; one prose crop widened during the same paused source pass. Seventy-five
 actual recognitions, 73 exact reused raw/TSV outcomes with original execution
 provenance, zero unchanged-input retries. Failed statistics preflight retained;
-source text/cells unchanged. Next: bounded continuation 192–197; remaining body,
-final native and actual assembly pending.
+source text/cells unchanged.
+Batch 11 preserves continuation 192–197/printed 182–187 as native b: 340 files
+reproduce independently and in a fresh process. All 86 exact crops, 82 outcomes,
+559 reading rows and 970 typed ranges validate. Four original panels retain ten
+window diagrams and a separate case chart; eleven captions, sixteen claim occurrences
+and two advertisement exclusions remain explicit. One source pass, zero retries;
+two pre-OCR revisions repair ten distinct crops in eleven events. All source body
+pages186–198 directly reviewed;186–197 preserved across a/b, article still partial.
+Next: final198 above its lower advertisement, optionally with up to five verified
+opening pages of article0009 within the checkpoint limit; actual assembly follows.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

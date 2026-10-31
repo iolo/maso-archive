@@ -723,7 +723,10 @@
         "Contents4 identity/reference176 match actual opening186/176 after advertisement185. Source body title adds 침해 and credits 전석진 and Daniel Ko;canonical title/order/byline/parent remain unchanged. Onlyopening186–191 preserved;191 구성될 수 continues192 있다고 결정하였으므로.198/188 actual ending/M mark above lower advertisement observed;199 full advertisement and200 independent computer-law title. Interior193–197 continuity/eligibility unreviewed.",
         "All306 selected native files reproduce independently and in fresh processes.76 exact crops,74 selected outcomes,1845 current typed occurrences including92 zero-length blank-slot anchors,640 prose/list rows and38 table-layout rows validate.29-row table retains203 data cells/seven headers,46 empty slots,98 circle candidates,one partial-circle marker andtwo faint name spans. Two five-entry lists,seven join groups and15 internal boundaries validate.",
         "One paused/resumed source pass.14 row crops repaired before recognition;74 initial drafts read before pass. One prose crop widened during pass,recognized once after crop review,andnew raw read before resumption;73 raw/TSV results reused exactly with explicit original map/settings provenance.75 actual recognitions,one changed-input repair,zero unchanged-input retries. Empty genre/title omission/table garbling corrected directly against complete source. Failed export statistics preflight retained;source text/cells unchanged.",
-        "Original50억불/55억불 amounts,Junor Editor,1970/1970년 chronology,full down menu,Scens a faire,자못 안개질은,metaphore,citation punctuation andXDesktor candidate retained without historical/legal/technical/name/grammar repair. Original spaces/glyph identities/encoded bytes andhuman acceptance/full proofreading unverified."
+        "Original50억불/55억불 amounts,Junor Editor,1970/1970년 chronology,full down menu,Scens a faire,자못 안개질은,metaphore,citation punctuation andXDesktor candidate retained without historical/legal/technical/name/grammar repair. Original spaces/glyph identities/encoded bytes andhuman acceptance/full proofreading unverified.",
+        "Batch11 directly reviews continuation192–197/printed182–187 and both adjacent source pages191/198. All intervening source ownership and continuity now verified. Incoming 구성될 수 + 있다고 결정하였으므로 and outgoing 넓다는 것에 + 주목해야 한다 retain explicit native/source contexts. Final198 body restoration and actual article assembly remain pending.",
+        "Native b preserves340 independently and fresh-process exact files,86 exact crops,82 pinned OCR outcomes,69 blocks,559 reading rows and970 typed ranges. Four complete gray panels retain ten window diagrams and a separate case-position chart;eleven captions,16 claim occurrences,15 headings,nine prose groups/thirteen boundaries and20 opaque source variants validate. Two independent right-column advertisements on195/197 are explicitly excluded.",
+        "All82 initial raws read before one source correction pass;82 recognitions andzero retries. Two pre-OCR map revisions repair ten distinct regions in eleven events;all original and repaired crops reviewed before recognition and retained. Repeated leading B1 claim labels,마이프로소프트사,열여진,당기 쉬운,비례적인/미례적인 and별정을 하기 remain literal. Source glyphs/bytes/spaces,claims andhuman acceptance/full proofreading remain unverified."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/batch-10-r01/lookfeel-a",
@@ -754,15 +757,9 @@
           "blocks": 30,
           "figures": 2,
           "deferred_pdf_pages": [
-            192,
-            193,
-            194,
-            195,
-            196,
-            197,
             198
           ],
-          "remaining_extent_unverified": true
+          "remaining_extent_unverified": false
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -771,16 +768,16 @@
         "actual_end_pdf_page": 198,
         "actual_ending_observed": true,
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-10/validation.json",
-          "sha256": "0059ef33b5c0e4e0bb3ef36f0ebb09b4b4a3f5b3e9b2e54632111fc09825f086",
-          "bytes": 3107
+          "path": "archive/pdf/1992-12/restoration/batch-11/validation.json",
+          "sha256": "d7bd46d90e1ee95046d3787c60ca9776f023ac5019fa307aeefc68351fef7a37",
+          "bytes": 2913
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-10/reproduction.json",
-          "sha256": "6f1cf8319c05254b9022f9604f3b493ad52b84e62a7d3ad085e9801bed64a9f7",
-          "bytes": 53987
+          "path": "archive/pdf/1992-12/restoration/batch-11/reproduction.json",
+          "sha256": "c29c431da839365c19a5c187f0fe89bd81f42719b011bb71c8308d49c4fb8b98",
+          "bytes": 59443
         },
-        "checkpoint": "batch-10",
+        "checkpoint": "batch-11",
         "native_segments": [
           {
             "name": "a",
@@ -818,6 +815,38 @@
               "sha256": "000462b86340c263068db4966ed0a3e997806632925f9091bc4755725f7c5154",
               "bytes": 97239
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-11-r01/lookfeel-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-11-r01/lookfeel-b/manifest.json",
+              "sha256": "9d6e130e8255f42509cd8caaded3057cb77d03f99f3f45048fdfaeb1b587a581",
+              "bytes": 57958
+            },
+            "pdf_pages": [
+              192,
+              193,
+              194,
+              195,
+              196,
+              197
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-11/validation.json",
+              "sha256": "d7bd46d90e1ee95046d3787c60ca9776f023ac5019fa307aeefc68351fef7a37",
+              "bytes": 2913
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-11/reproduction.json",
+              "sha256": "c29c431da839365c19a5c187f0fe89bd81f42719b011bb71c8308d49c4fb8b98",
+              "bytes": 59443
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-11/adjacent-boundaries.json",
+              "sha256": "e59b882742acaa59c325eca07400ef5ec798717f668b2d7a7c89f6a840195695",
+              "bytes": 3546
+            }
           }
         ],
         "preserved_pdf_pages_across_natives": [
@@ -826,29 +855,24 @@
           188,
           189,
           190,
-          191
-        ],
-        "remaining_pdf_pages": [
+          191,
           192,
           193,
           194,
           195,
           196,
-          197,
+          197
+        ],
+        "remaining_pdf_pages": [
           198
         ],
         "full_source_extent": {
           "start_pdf_page": 186,
           "end_pdf_page": 198,
-          "uninspected_interior_pdf_pages": [
-            193,
-            194,
-            195,
-            196,
-            197
-          ],
-          "note": "Opening186–191 preserved.192 continuation and198 ending observed;193–197 continuity/eligibility not yet directly reviewed. Deferred192–198 are candidate body pages to verify,not a claim of continuous complete coverage.198 lower independent advertisement remains outside body."
-        }
+          "uninspected_interior_pdf_pages": [],
+          "note": "All source body pages 186–198 directly reviewed for ownership and continuity. Immutable natives a/b preserve 186–197; final198 remains to restore above its lower independent advertisement. Complete article assembly remains required."
+        },
+        "full_source_extent_directly_reviewed": true
       }
     },
     {
@@ -1592,6 +1616,47 @@
         "sha256": "6f1cf8319c05254b9022f9604f3b493ad52b84e62a7d3ad085e9801bed64a9f7",
         "bytes": 53987
       }
+    },
+    {
+      "name": "1992-12-batch-11",
+      "status": "complete",
+      "completed_at": "2026-10-31T11:15:10.751305+00:00",
+      "goal": "Preserve six-page look-and-feel continuation as immutable native b with original diagrams and source claim labels.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0008"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 82,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_revisions": 2,
+      "pre_ocr_distinct_repaired_regions": 10,
+      "pre_ocr_repair_events": 11,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-11/validation.json",
+        "sha256": "d7bd46d90e1ee95046d3787c60ca9776f023ac5019fa307aeefc68351fef7a37",
+        "bytes": 2913
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-11/reproduction.json",
+        "sha256": "c29c431da839365c19a5c187f0fe89bd81f42719b011bb71c8308d49c4fb8b98",
+        "bytes": 59443
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-11/adjacent-boundaries.json",
+        "sha256": "e59b882742acaa59c325eca07400ef5ec798717f668b2d7a7c89f6a840195695",
+        "bytes": 3546
+      }
     }
   ],
   "totals": {
@@ -1608,36 +1673,31 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-11",
-    "goal": "Review and restore article0008 continuation as immutable native b,at most six source pages;preserve actual ending for later bounded final native/assembly.",
+    "name": "1992-12-batch-12",
+    "goal": "Restore final article0008 page198 as immutable native c; use remaining bounded capacity for source-verified article0009 opening if appropriate. Actual look-and-feel assembly follows separately.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0008"
+      "maso-1992-12-toc-0008",
+      "maso-1992-12-toc-0009"
     ],
     "mapping_targets": [
-      192,
-      193,
-      194,
-      195,
-      196,
-      197
-    ],
-    "initial_lookup_candidates": [
-      191,
-      192,
-      193,
-      194,
-      195,
-      196,
-      197,
       198
     ],
-    "remaining_candidate_pdf_pages": [
-      192,
-      193,
-      194,
-      195,
-      196,
+    "conditional_second_article_mapping_max_pages": 5,
+    "initial_lookup_candidates": [
       197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ],
+    "remaining_candidate_pdf_pages": [
       198
     ],
     "limits": {
@@ -1645,7 +1705,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "192 and198 ending renders retained;193–197 unreviewed. Confirm each page ownership/continuity/folio before mapping192–197.191 tail is 구성될 수;192 starts 있다고 결정하였으므로. Preserve both native contexts in incoming sidecar;no global offset.198 includes lower advertisement andwill need explicit exclusion when mapped. Actual whole-article assembly remains required."
+    "note": "Final198 requires explicit lower-advertisement exclusion and outgoing197 native context. Article0009 컴퓨터와 법(5) : 표현과 아이디어 opens200; verify actual extent, folios and page ownership before selecting up to five additional mapped pages. Do not infer its ending from TOC or assume200–204 completes it. Preserve native-a original execution provenance and all custom native metadata during later actual assembly."
   },
   "final_issue_classification_evidence_required": [
     {

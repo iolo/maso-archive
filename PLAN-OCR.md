@@ -95,8 +95,16 @@ All 74 initial raws read before the pass; changed raw read before resuming that 
 pass. Seventy-five actual recognitions, 73 unchanged raw/TSV outcomes reused with
 original execution-map/settings provenance, zero unchanged-input retries. Failed
 statistics preflight retained; source text/cells unchanged. Source title/credits,
-amounts, citations and spelling stay literal. Next: review/restore continuation
-192–197; ending198 observed, remaining body/final native/actual assembly pending.
+amounts, citations and spelling stay literal.
+Batch 11 preserves continuation 192–197/printed 182–187: 340 independently exact
+files, 86 exact crops, 82 outcomes, 559 rows and 970 ranges. Four original panels,
+ten window diagrams, eleven captions, sixteen claim occurrences and two explicit
+advertisement exclusions validate. All raws read before one source pass; no retries.
+Two pre-OCR revisions repaired ten distinct crops in eleven events. All source
+body pages 186–198 now directly reviewed; 186–197 preserved across natives a/b.
+Next: final198 above its lower advertisement; optionally use up to five remaining
+mapped pages for source-verified article0009 opening200 within two/six/twenty.
+Actual complete look-and-feel assembly remains a separate required checkpoint.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
