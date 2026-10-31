@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: twelve readable/sample-reviewed
-articles, two partials, two non-owning group headings, three section references and 26 unresolved
+December 1992 is in progress at the owner's request: thirteen readable/sample-reviewed
+articles, one partial, two non-owning group headings, three section references and 26 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -363,26 +363,45 @@ A fresh metadata-only revision fixes numbered-row flags while preserving 505 ori
 execution inputs and all article/listing bytes. Twenty-four rehashed invalid cases are
 rejected. All prior packages/evidence/core/source/reference remain exact.
 
-Next: restore final 325 as native d, then actually assemble all nineteen pages 307–325
-from four independently regenerated natives. Current blank printed label 103 continues
-at 325 label 104, without a physical code-line join. Listing 5 ends at label 131
-END Start in the lower-right inset after 120. Preserve inset order and all source
-caption/banner conflicts. Prose M on 321 is not the body ending. Project all native
-custom indexes and source byte ranges, including a hierarchy/lists/graphic keys,
-b procedures/result table/byte layouts/dump and c printed labels/blanks/dumps/notice/
-opaque graphics. Overlapping PUA code points in different natives represent different
-source occurrences; retain scoped meanings and immutable native bytes. Verify original
-execution-map/settings provenance in copied-input revisions; source-only details add
-no OCR. Review final whole page/exact crops before recognition, eng code/kor+eng other
-text, all complete raws before one literal source pass. The nine existing private
-adapters remain required for earlier assembled-root checks.
-Twelve readable articles, two partials, two group headings, three section references
-and 26 unresolved identities remain. Sixteen selected roots contain 6,795 files;
-ten classification files are separate. Vaccine natives a/b/c contain 954 files and
-preserve eighteen pages 307–324. Feature 0019 continuation and children 0020/0021 remain
-pending. Other bodies/assemblies, full 446-page accounting, cover, standalone issue
-export/rebuild and closeout remain required. Human acceptance/full proofreading,
-exact glyphs/spaces/original encoded bytes, technical truth and execution unverified.
+Batch 34 preserves final 325/printed 350 as a 36-file native, then actually assembles
+all nineteen vaccine-toolkit pages 307–325: 999 independently/fresh-process exact files
+from four regenerated natives/990 files. All 270 exact source crops, 228 OCR settings,
+206 blocks, 42 original images and five ZIP CRCs validate. Final six complete raws read
+before one literal source pass; five eng/one kor+eng, zero retries. Two pre-OCR crops
+repaired in four retained events. No assembly OCR/source pass or core changes.
+
+All 10,109 projected native metadata ranges, 22,641 current ranges/1,640 empty
+occurrences and 22,387 native source links validate. Eleven literal prose joins retain
+source wraps; code bytes equal native concatenation. Five complete printed listings
+retain 571 labels/88 numbered blanks, plus unnumbered Listing 1/nineteen EXTRN
+declarations. Final inset labels 121–131 follow main 120; blank 103→104 remains
+separate physical rows. Four caption/banner conflicts, unknown dump/layout omissions,
+partial dump rows, identifier/star candidates and independent historical notice remain
+explicit. Four return-key and ten banner markers retain fourteen scoped meanings,
+including overlapping PUA code points in a/c. Original native bytes are unchanged.
+
+Original a/b/c execution-map/crop/raw/TSV/settings inputs revalidate through 494/509/505
+copied files. One audit helper import failure is retained; fresh audit_r02 fixes helper
+lookup only. Twenty-nine invalid cases are rejected, including twenty-two consistently
+rehashed roots through guarded assembly checks. All 35,119 prior December files,
+6,795 prior selected files, ten classification files, 9,332 September reference files
+and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline
+reused with complete current audits; no generic custom-metadata validation claim.
+
+Next: bounded location/extent review for unresolved UNIX articles 0022/0023, canonical
+references 306/314. Review physical 280–289 and 330–339 around the retained 290–329
+index, reusing exact existing views where available; these are search candidates,
+not confirmed body locations. Restore at most six eligible pages only after direct
+opening/ownership review, within two canonical tasks/six mapped/twenty outside pages.
+Do not infer a global folio offset, missing-page count or source-wide absence.
+Keep all ten private adapters, including batch-34/vaccine_adapter, for selected-root
+checks. Thirteen readable/sample-reviewed articles, one partial, two group headings,
+three section references and 26 unresolved identities remain. Fourteen selected roots
+contain 6,840 files; ten classification files are separate. Feature 0019 continuation,
+ending and children 0020/0021 remain pending. Other bodies/assemblies, full 446-page
+accounting, cover, standalone issue export/rebuild and closeout remain required.
+Human acceptance/full proofreading, exact glyphs/spaces/original encoded bytes,
+technical/historical truth and execution remain unverified. Full December goal active.
 No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

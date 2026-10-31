@@ -13,16 +13,16 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: twelve readable/sample-reviewed articles,
-two partials, two non-owning group headings, three section references and 26 unresolved
-identities. Batch 33 preserves vaccine-toolkit continuation PDF 319–324 as 324 files
-that reproduce independently and in a fresh process. Practical examples, printed dumps,
-user notice and numbered listings retain source context and caption/banner conflicts.
-Natives a/b/c preserve eighteen pages 307–324; the article remains partial.
-Sixteen selected roots contain 6,795 files; ten classification files are separate.
-Next: final 325, then actual nineteen-page assembly. Year-in-review feature 0019's
-continuation remains unlocated. Other bodies, full issue accounting, cover,
-export/rebuild and closeout remain pending. See the [December record](docs/progress/9212.md).
+December 1992 restoration is in progress: thirteen readable/sample-reviewed articles,
+one partial, two non-owning group headings, three section references and 26 unresolved
+identities. Batch 34 completes the nineteen-page vaccine-toolkit assembly on PDF
+307–325: 999 files reproduce independently and in a fresh process from four regenerated
+natives. Five printed listings, source caption/banner conflicts, unknown omissions
+and fourteen scoped graphic markers retain their original contexts.
+Fourteen selected roots contain 6,840 files; ten classification files are separate.
+Next: bounded location/extent review for UNIX articles 0022/0023. Year-in-review
+feature 0019's continuation remains unlocated. Other bodies, full issue accounting,
+cover, export/rebuild and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
