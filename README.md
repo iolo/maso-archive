@@ -15,11 +15,11 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: ten readable/sample-reviewed articles,
 one partial, two non-owning group headings, three section references and 29 unresolved
-identities. Batch 24 preserves Fractint article 0016 opening 254–259: all 250 files
-reproduce independently, with 67 exact crops, nine original images, 58 OCR outcomes
-and 794 typed ranges. The confirmed full body spans 254–267; original source claims,
-parable, image captions and printed superscript erratum remain literal.
-Next: restore 260–265, then final 266–267 and the actual fourteen-page assembly.
+identities. Batch 25 adds Fractint continuation 260–265: all 346 files reproduce
+independently, with 88 exact crops, five original menus, 83 OCR outcomes and 1,033
+current typed ranges. Twelve body pages 254–265 are preserved across two immutable
+natives; literal source spelling, options, exponents and continuation contexts remain.
+Next: restore final 266–267 and actually assemble the complete fourteen-page article.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.

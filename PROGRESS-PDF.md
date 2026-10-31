@@ -184,8 +184,18 @@ All 58 initial raws read; one widened margin recognized/read before one source p
 57 unchanged outcomes reused with original execution pins; 59 actual calls, zero
 unchanged-input retries. Ten altered-data cases rejected; no original program/config/
 image bytes or technical truth/execution certified.
-Next: restore 260–265 with incoming FPU continuation and both source contexts; final
-266–267 and actual fourteen-page assembly will remain required.
+Batch 25 preserves continuation 260–265 as a 346-file native: 88 exact crops,
+74 blocks, five original menus and 83 initial OCR outcomes. All 1,033 current/seven
+adjacent-native ranges and 83 transcript pins validate. Twelve assignment headers,
+two command rows, four resolution entries, nine hotkey/five drawing-option descriptions,
+two exponents and nine boundaries/eight intervening contexts retain literal source
+forms. All raws read before one pass; zero retries, two pre-OCR edge refinements,
+fourteen rejection cases. Direct incoming 옵션을 / 써 줄 필요가 없다. supersedes the
+prior prospective 쓸 reading; old native/evidence unchanged. Opening execution/reuse
+pins revalidated. Twelve body pages 254–265 are now preserved across natives a/b.
+Next: restore final 266–267, then actually assemble all fourteen pages from three
+regenerated natives; retain all custom indexes/source contexts and resolve printed
+figure references against complete source. Availability remains partial.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

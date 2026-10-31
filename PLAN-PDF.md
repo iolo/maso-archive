@@ -289,12 +289,28 @@ zero unchanged-input retries. Thirteen pre-OCR crop events/twelve distinct repai
 one split addition and one post-OCR/pre-pass margin repair remain archived. Ten
 altered-data cases rejected; eleven boundaries retain sixteen intervening contexts.
 
-Next: restore continuation 260–265, preserving incoming FPU description 259 옵션을 /
-260 쓸 필요가 없다. and both native source contexts. Final 266–267 and actual
-fourteen-page assembly will still be required. Review exact menus/options/code/images/
-captions/claims and physical wraps; use eng code/kor+eng other text, read all raws
-before one literal source pass. Verify opening OCR reuse against its original execution
-pins. Later figure-reference correspondence remains deferred; do not invent panels.
+Batch 25 preserves Fractint continuation 260–265/printed 250–255 as native b:
+346 independent/fresh-process exact files, 88 exact crops, 74 blocks, five original
+menu screens and 83 OCR outcomes. All 1,033 current ranges, seven adjacent-native
+ranges and 83 source-local transcript pins validate. Twelve assignment headers,
+two command rows, four printer-resolution entries/five physical rows, nine hotkey
+and five drawing-option descriptions, two exponent partitions and nine boundaries
+with eight intervening contexts remain source-linked. Printed Mamimum, Retrive,
+maxi/teer, expen-/ded memory, filename/model/case variants and numeric claims stay
+literal. All raws read before one source pass; 14 eng/69 kor+eng, zero retries,
+two pre-OCR edge refinements. Fourteen altered-data cases rejected. Opening 58 original
+execution records/57 reused outcomes revalidated; prior files/core/source exact.
+Direct incoming reading is 259 옵션을 / 260 써 줄 필요가 없다.; this supersedes the
+earlier prospective 쓸 handoff without rewriting native-a bytes or historical evidence.
+Natives a/b preserve twelve pages 254–265; availability remains partial.
+
+Next: restore final 266–267, then actually assemble all fourteen pages 254–267 from
+three independently regenerated natives. Preserve L-system/testpt/formula annotations,
+color-map/help/conclusion text and closing M mark. Page 265 ends a complete sound
+paragraph; 266 starts separate concluding prose, with no midword join. Project all
+custom indexes, ranges, exponent partitions and intervening contexts; retain opening
+OCR execution provenance. Resolve printed figure-reference correspondence against
+the complete source without inventing panels or claiming issue-wide absence.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
