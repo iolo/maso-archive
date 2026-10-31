@@ -1,6 +1,6 @@
 # PDF restoration progress
 
-Updated 2026-10-31. This file is the status index; detailed records live under
+Updated 2026-11-01. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Eight readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 32 unresolved identities account for 45 canonical entries. All 94 independent
+Eight readable/sample-reviewed articles, one partial, two non-owning group headings,
+three section references and 31 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -140,8 +140,18 @@ rows and original formula/diagram/catalogue metadata remain. Code bytes equal na
 concatenation without cross-native text merge. Twelve raws read before one source
 pass, no retries; four pre-OCR edge repairs retained. No new assembly OCR/pass.
 Eleven invalid native/recipe/rehashed-root cases rejected; original encoded program/
-header/picture recovery and execution unverified. Next: verify Turbo C article 0014
-extent from independent opening 232/222, then restore at most six source pages.
+header/picture recovery and execution unverified.
+Batch 20 preserves Turbo C article 0014 opening 232–237/222–227 as a 330-file partial
+native: 81 exact crops, 71 blocks and original five-episode series panel. Five process
+stages, eighteen checklist entries, eleven headings and three code regions/53 physical
+rows retain source contexts. Printed Listing 1 fragment lacks a closing brace; second
+read example lacks a semicolon. Ten escaped sequences retain differing n/r order.
+All 1,113 current ranges, four private ranges, eighty settings and ten invalid cases
+pass. All eighty raws read before one source pass; zero retries. Eight pre-OCR repairs
+and import-only export failure retained. Actual ten-page extent 232–241 directly reviewed.
+Next: restore final 238–241 and actually assemble all ten pages from regenerated natives.
+Preserve mid-word closing join 237→238, references/contact/closing mark, Listing 2's
+numbering discontinuities/restarts and independent lower 241 PCSHELL tip exclusion.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

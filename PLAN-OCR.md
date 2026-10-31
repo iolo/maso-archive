@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-31. Read this before future PDF restoration. This is the current
+Updated 2026-11-01. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: eight readable/sample-reviewed
-articles, no partials, two non-owning group headings, three section references and 32 unresolved
+articles, one partial, two non-owning group headings, three section references and 31 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -163,9 +163,21 @@ three ZIPs validate. Five printed listings retain 349 numbered rows/57 blanks/ni
 wraps; all formula/catalogue metadata and source defects remain. No cross-native
 text merge or new assembly OCR/pass. Eleven invalid native/recipe/rehashed-root cases
 rejected. Complete printed source does not establish original encoded-file recovery.
-Next: verify Turbo C article 0014 extent from 232/222 and restore at most six pages
-after full page/crop/code/caption review. Use eng code/kor+eng other text; read all
-new raws before one literal source pass. Longer bodies require natives and assembly.
+Batch 20 preserves Turbo C opening 232–237/222–227 as a 330-file partial native:
+81 exact crops, 71 blocks, original five-episode series panel, five process stages,
+eleven compiler/linker items and seven hidden-bug items. Three code regions retain
+53 physical rows. Full printed Listing 1 fragment lacks a closing function brace;
+second read example lacks a semicolon. Ten escaped sequences retain differing n/r
+order. All 1,113 current ranges, four private ranges, eighty settings and ten invalid
+custom-data cases pass. All eighty raws (77 kor+eng/three eng) read before one source
+pass; zero retries. Eight pre-OCR edge repairs and import-only export failure retained.
+Actual body 232–241 directly reviewed; final four pages and actual assembly pending.
+Next: restore 238–241 and independently regenerate both natives before actual ten-page
+assembly. Closing prose joins 237→238 at 컴퓨터 언 / 어는. Preserve references/contact/
+closing mark, Listing 2's irregular printed labels/restarts on 240/241, all blanks/wraps
+and the independent lower 241 PCSHELL tip exclusion. Keep numbered start_screen distinct
+from the 233 printed fragment. Read all new raws before one literal source pass;
+eng code/kor+eng other text. Retain/project every current/native metadata context.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

@@ -29,7 +29,7 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## December 1992 in progress, 2026-10-31
+## December 1992 in progress, 2026-11-01
 
 The owner requested the complete December 1992 issue under this plan and
 `PLAN-OCR.md`. The source PDF has 446 physical pages and 45 canonical TOC
@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: eight readable/sample-reviewed articles,
-no partials, two group headings, three section references and 32 unresolved identities.
+one partial, two group headings, three section references and 31 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -225,10 +225,22 @@ program/header/picture recovery and execution remain unverified. Eleven invalid
 native/recipe/rehashed-root cases rejected. Twelve raws read before one source pass,
 zero retries; four pre-OCR edge repairs retained. No new assembly OCR/source pass.
 
-Next: verify article 0014's actual extent from independent opening PDF 232/printed 222,
-터보 C 120% 활용작전(마지막회) : 벌레없는 프로그램, by 박종천; restore at most
-six pages after whole-page/crop/code/caption review. Do not infer its ending from
-the next contents reference. Longer bodies require immutable natives and assembly.
+Batch 20 preserves Turbo C article 0014 opening 232–237/printed 222–227:
+330 independent/fresh-process exact files, 81 exact crops, 71 blocks and the original
+five-episode series panel. Five process stages, eleven compiler/linker items, seven
+hidden-bug items and eleven headings retain source contexts. Three code regions
+retain 53 physical rows; Listing 1 remains its complete printed fragment without
+a closing brace, and the second read example lacks a semicolon. Ten escaped-sequence
+occurrences retain differing n/r order. All 1,113 current ranges, four private ranges,
+80 settings and ten rejection cases pass. All eighty raws read before one literal
+source pass; zero retries. Eight pre-OCR edge repairs and an import-only export
+failure retained. Actual ten-page extent 232–241 directly reviewed; availability partial.
+
+Next: restore final 238–241, then assemble all ten pages from independently regenerated
+natives. Join closing prose across 237→238 (컴퓨터 언 / 어는), preserve contact/closing
+mark/references and complete Listing 2. Retain printed numbering discontinuities/restarts
+on 240/241 and exclude the independent lower PCSHELL tip on 241. Keep its numbered
+start_screen occurrence distinct from the unnumbered printed fragment on 233.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

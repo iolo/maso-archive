@@ -14,12 +14,13 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: eight readable/sample-reviewed articles,
-no partials, two non-owning group headings, three section references and 32 unresolved
-identities. Batch 19 completes D-projection article 0013 on PDF 222–230: all 304
-assembly files reproduce from independently regenerated natives. Five printed
-listings, original diagrams/formulas and interface catalogues retain source contexts
-and defects; original encoded files and execution remain unverified.
-Next: verify Turbo C article 0014's extent from PDF 232 and restore at most six pages.
+one partial, two non-owning group headings, three section references and 31 unresolved
+identities. Batch 20 preserves Turbo C article 0014 opening PDF 232–237 as a 330-file
+partial native. All 81 crops, 80 settings, 1,113 typed ranges and independent rebuilds
+validate. Original series panel, checklists and printed code defects remain intact;
+original encoded files and execution remain unverified.
+Next: restore final 238–241, preserving irregular printed listing numbers, then assemble
+the complete ten-page article from independently regenerated natives.
 Remaining bodies, full issue accounting, cover, export/rebuild
 and closeout remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.

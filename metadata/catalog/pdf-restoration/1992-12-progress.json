@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1992-12",
   "status": "in-progress",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "source": {
     "id": "pdf-maso-9212",
     "path": "maso-pdf/maso-9212.pdf",
@@ -1661,12 +1661,152 @@
       "toc_entry_id": "maso-1992-12-toc-0014",
       "title": "터보 C 120% 활용작전(마지막회) : 벌레없는 프로그램",
       "parent_id": "maso-1992-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent opening 232/222 has series 터보 C 120% 활용 작전(마지막회), title 벌레없는 프로그램 and credit 글. 박종천 (연세대 YCC 학술부). Canonical title, byline, order, parent 0010 and reference 222 remain unchanged. Actual body 232–241/222–231 directly reviewed; final 238–241 and actual ten-page assembly remain required.",
+        "Opening native 232–237 contains 330 independently/fresh-process exact files, 81 exact crops, 71 blocks, one original series panel, 80 pinned OCR outcomes, 490 reading rows, 1113 current typed occurrences including two empty anchors, and four private source ranges. All 80 raws read before one literal source pass; 77 kor+eng/three eng initial recognitions, zero retries. Eight pre-OCR edge repairs and original maps/crops retained. An import-only export failure is preserved; corrected PYTHONPATH invocation changed no source or OCR input.",
+        "Five process stages, eleven compiler/linker checklist entries, seven hidden-bug entries, eleven section headings and five series episodes/current fifth episode retain exact source contexts. Seven prose groups retain nine column/page boundaries. Closing 237 ends 컴퓨터 언; deferred 238 starts 어는 우리의 손발이라고. Prose closing is not the article ending.",
+        "Three code regions retain 53 physical rows, including one blank and one unnumbered wrapped credit line. Complete printed Listing 1 panel lacks a closing function brace; two independent two-row comparisons retain literal braces and the second read call without a semicolon. Inline comma/semicolon examples remain separate, including the original physical wrap and unverified printed line-96 claim. Ten escaped-sequence occurrences retain the differing n/r order. Sixteen glyph/operator/keyboard/word-wrap candidates remain source-linked; original TOOL.C bytes and execution unverified.",
+        "Ten altered custom-data cases are rejected with outer hashes bypassed, including normalization, wrong valid source occurrence, invented original recovery/brace and premature completion. This is a private current-data audit, not generic core enforcement of every custom field. All 18050 prior December files, 3615 previous selected files, ten classification files, 9332 September reference files and thirty core modules remain exact, with source/runtime/TOC/queue. Unchanged 213-test baseline reused with current full native and supplemental source-local evidence audits. Human acceptance/full proofreading, original glyphs/bytes/exact spaces, technical accuracy and execution unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-20-r01/turbo-a",
+        "article_id": "scan-maso-1992-12-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-20-r01/turbo-a/manifest.json",
+          "sha256": "8b9299f89754076a115a40eb7fe0ff173a93897d853a87be0ff7e09f3f903fb2",
+          "bytes": 57267
+        },
+        "coverage": {
+          "pdf_pages": [
+            232,
+            233,
+            234,
+            235,
+            236,
+            237
+          ],
+          "printed_pages": [
+            "222",
+            "223",
+            "224",
+            "225",
+            "226",
+            "227"
+          ],
+          "regions": 81,
+          "blocks": 71,
+          "figures": 1,
+          "deferred_pdf_pages": [
+            238,
+            239,
+            240,
+            241
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 232,
+        "actual_end_pdf_page": 241,
+        "actual_ending_observed": true,
+        "preserved_pdf_pages_across_natives": [
+          232,
+          233,
+          234,
+          235,
+          236,
+          237
+        ],
+        "remaining_pdf_pages": [
+          238,
+          239,
+          240,
+          241
+        ],
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-20/validation.json",
+          "sha256": "8a5703a401da16c5cbf26435ae53f993e53c7ea653478b7295711f999d7a8cef",
+          "bytes": 3491
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-20/reproduction.json",
+          "sha256": "1a1ebafe1624ed4837dac88af7030d1c47daceb9b4d561c587c27aaaa6a1488c",
+          "bytes": 58316
+        },
+        "checkpoint": "batch-20",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1992-12/packages/batch-20-r01/turbo-a",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-20-r01/turbo-a/manifest.json",
+              "sha256": "8b9299f89754076a115a40eb7fe0ff173a93897d853a87be0ff7e09f3f903fb2",
+              "bytes": 57267
+            },
+            "pdf_pages": [
+              232,
+              233,
+              234,
+              235,
+              236,
+              237
+            ],
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-20/validation.json",
+              "sha256": "8a5703a401da16c5cbf26435ae53f993e53c7ea653478b7295711f999d7a8cef",
+              "bytes": 3491
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-20/reproduction.json",
+              "sha256": "1a1ebafe1624ed4837dac88af7030d1c47daceb9b4d561c587c27aaaa6a1488c",
+              "bytes": 58316
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-20/source-ending-and-boundaries.json",
+              "sha256": "ee2188c17e649b9f25fcefa724f991432ab143efdeb5618cf4b4f038cb6f8eca",
+              "bytes": 6026
+            }
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241
+          ],
+          "printed_pages": [
+            "222",
+            "223",
+            "224",
+            "225",
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231"
+          ],
+          "uninspected_interior_pdf_pages": [],
+          "note": "All ten body views directly reviewed for ownership/continuity. Closing prose continues mid-word from 237 to 238 and ends with contact, closing mark and references. Listing 2 starts 238 and ends 241 above a separate lower PCSHELL tip; printed numbers restart/discontinue on 240/241. 231 full advertisement; independent C++ article opens 242 and continues 243. Current native preserves only 232–237. No global folio offset inferred."
+        },
+        "source_fragment_limits": [
+          "Listing 1 is a complete printed fragment on 233 without a closing function brace; no brace invented. A separate numbered start_screen occurrence in deferred Listing 2 must remain distinct.",
+          "Second read example on 237 lacks a semicolon. Original TOOL.C/encoded program files remain unrecovered; July issue reference is not a recovery claim.",
+          "Literal escaped n/r order, comma/semicolon comparison, NULL word wrap, source pair-separator candidates and technical claims are preserved without correction."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0015",
@@ -2746,15 +2886,68 @@
         "sha256": "83771b09397a1bfbaacbddcd932495c7d92dcb5e8d2d8761739d2961293b04cf",
         "bytes": 2375
       }
+    },
+    {
+      "name": "1992-12-batch-20",
+      "status": "complete",
+      "completed_at": "2026-10-31T15:07:18.576040+00:00",
+      "goal": "Verify actual full extent and preserve the six-page Turbo C opening with literal prose/checklists/code and original series panel.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0014"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "outside_lookup_pages": 7,
+      "outside_lookup_pdf_pages": [
+        231,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243
+      ],
+      "recognition_invocations": 80,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_repairs": 8,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-20/validation.json",
+        "sha256": "8a5703a401da16c5cbf26435ae53f993e53c7ea653478b7295711f999d7a8cef",
+        "bytes": 3491
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-20/reproduction.json",
+        "sha256": "1a1ebafe1624ed4837dac88af7030d1c47daceb9b4d561c587c27aaaa6a1488c",
+        "bytes": 58316
+      },
+      "supplemental_validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-20/supplemental-validation.json",
+        "sha256": "43eff86aa938ada9457d7d202a38b9d3e50fda5ab8a675acdb896ce0c2c10bb4",
+        "bytes": 801
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-20/negative-checks.json",
+        "sha256": "48258f2b044b83038cdf41e5476935ff4b4de986acb6cef7073b35b7c4e73e4d",
+        "bytes": 1683
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
     "readable": 8,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 2,
     "section_references": 3,
-    "unresolved": 32
+    "unresolved": 31
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -2762,30 +2955,29 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-20",
-    "goal": "Verify actual extent of Turbo C final installment 0014 from its independent opening and restore at most six source pages.",
+    "name": "1992-12-batch-21",
+    "goal": "Restore final Turbo C pages 238–241, then create the actual readable ten-page assembly from independently regenerated immutable natives.",
     "toc_entry_ids": [
       "maso-1992-12-toc-0014"
     ],
-    "mapping_targets": [],
+    "mapping_targets": [
+      238,
+      239,
+      240,
+      241
+    ],
     "candidate_mapping_targets": [
-      232,
-      233,
-      234,
-      235,
-      236,
-      237
+      238,
+      239,
+      240,
+      241
     ],
     "initial_lookup_candidates": [
-      231,
       232,
       233,
-      234,
-      235,
-      236,
       237,
-      238,
-      239
+      242,
+      243
     ],
     "canonical_article_reference": 222,
     "limits": {
@@ -2793,7 +2985,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Independent opening 232/printed 222 has series 터보 C 120% 활용 작전(마지막회), title 벌레없는 프로그램 and credit 박종천 (연세대 YCC 학술부). Canonical title/order/byline/parent/reference stay unchanged. Actual ending is unverified; do not infer it from next contents reference or a global folio offset. Review every whole page/crop, series panel, code row, caption and association before mapped Tesseract; eng code, kor+eng other text. Read all raws before one literal source pass. Longer bodies require immutable natives and actual assembly. Full December objective remains active."
+    "note": "Closing prose begins 238 with 어는 after current 237 컴퓨터 언. Retain contact/closing mark/references and complete numbered Listing 2 through 241 above independent lower PCSHELL에서 화면 수평나누기 tip. Printed line numbering restarts/discontinues on 240/241; record literal margins, blanks and physical wraps without normalization or inferred count from final 116. Keep numbered start_screen separate from 233 unnumbered printed fragment lacking a brace; preserve source code defects and unrecovered TOOL.C status. Read all new raws before one literal source pass. Regenerate both immutable natives independently before actual assembly, retaining source-local metadata and projecting current checklist/code/series/escape/variant indexes into exact root/native contexts. Full December objective remains active."
   },
   "final_issue_classification_evidence_required": [
     {
