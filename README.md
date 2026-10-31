@@ -13,18 +13,14 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: four readable/sample-reviewed articles,
-one partial article, one group heading, three section references and 36 unresolved identities. Batch 09
-completes the PC-election story on PDF 148–152 and classifies its non-owning group;
-170 article files and one classification file reproduce exactly. Batch 10 preserves
-the look-and-feel opening on PDF 186–191 as partial: 306 files reproduce exactly,
-including a 29-row table. Batch 11 adds continuation192–197: 340 exact files,
-four original panels and ten window diagrams. Batch 12 preserves final 198 and
-article 0009 opening 200–204: 291 exact files. Batch 13 completes the readable
-look-and-feel assembly (679 exact files) and preserves final 205 ofarticle 0009
-(49 files). Next is article 0009's actual assembly and bounded group classification.
-Full issue accounting/export/closeout remain
-pending. See the [December record](docs/progress/9212.md). No reader rebuild.
+December 1992 restoration is in progress: five readable/sample-reviewed articles,
+two non-owning group headings, three section references and 35 unresolved identities;
+no partials. Batch 14 completes article 0009 on PDF 200–205 as a 323-file exact assembly
+and classifies section 0010 as non-owning with four reproducible evidence files.
+Next is source extent review and bounded restoration of GUI-library child 0011,
+opening on PDF 208. Remaining bodies, full issue accounting, cover, export/rebuild
+and closeout remain pending. See the [December record](docs/progress/9212.md).
+No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

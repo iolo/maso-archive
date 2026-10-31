@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Four readable/sample-reviewed articles, one partial article, one non-owning group heading,
-three section references and 36 unresolved identities account for 45 canonical entries. All 94 independent
+Five readable/sample-reviewed articles, no partials, two non-owning group headings,
+three section references and 35 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -85,13 +85,20 @@ two original images. Actual ending 205/195 observed; final 205 deferred. All 68 
 read before one source pass; zero retries. Fifty-five pre-OCR crop repairs and two schema
 failures retained. Source spelling/citations/claims remain literal.
 Batch 13 completes actual readable look-and-feel assembly 186–198:679 independently
-exact files from three regenerated natives/671 files. All 2, 897 projected ranges/92 blank
-anchors, 5, 632 current ranges, 167 exact crops, 160 outcomes and two joins validate.
+exact files from three regenerated natives/671 files. All 2,897 projected ranges/92 blank
+anchors, 5,632 current ranges, 167 exact crops, 160 outcomes and two joins validate.
 All table/claim/figure indexes and native-a original execution provenance remain intact;
 nine invalid cases rejected. Final205 ofarticle 0009 adds 49 exact files, 11 crops, ten
 outcomes, 116 rows and 167 ranges; one source pass, zero retries/crop repairs. All six
-article 0009 body pages preserved; actual assembly pending. Next: that assembly and
-bounded group 0010 classification iforiginal contents/208 evidence supports it.
+article 0009 body pages preserved; actual assembly pending at that checkpoint.
+Batch 14 completes its readable 200–205 assembly: 323 exact files from two regenerated
+natives/315 files. All 1,057 projected ranges, 2,045 current ranges, 77 crops and 74
+outcomes validate; two independent quotations and one cross-native join preserve source
+contexts. Group 0010 is non-owning, with four reproducible classification files based
+on contents 4/5 and 208. All ten child identities/parents/body states stay unchanged.
+Twelve invalid cases rejected; no new OCR/source pass. Next: verify GUI-library child
+0011's actual extent from 208 and restore up to six opening pages, with literal code
+and image/caption review and later native/assembly segmentation as needed.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

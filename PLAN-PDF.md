@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: four readable/sample-reviewed articles,
-one partial article, one group heading, three section references and 36 unresolved identities.
+Current totals: five readable/sample-reviewed articles,
+no partials, two group headings, three section references and 35 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -151,8 +151,8 @@ source pass, zero retries; 55 law crops repaired before OCR, two schema prefligh
 failures retained. Canonical title/byline/parent and literal source variants stay intact.
 
 Batch 13 delivers the complete readable look-and-feel assembly on 186–198:
-679 exact files from three independently regenerated natives/671 files. All 2, 897
-projected metadata ranges, including 92 blank anchors, and 5, 632 current typed
+679 exact files from three independently regenerated natives/671 files. All 2,897
+projected metadata ranges, including 92 blank anchors, and 5,632 current typed
 occurrences validate. Both cross-native joins, all table/claim/figure indexes and
 native-a original execution provenance remain explicit. Nine invalid cases are
 rejected, including a rehashed root blank-anchor edit. No new assembly OCR/source pass.
@@ -160,9 +160,19 @@ The same batch preserves final 205 of article 0009:49 exact files, 11 crops, ten
 outcomes, 116 rows and 167 ranges. All six body pages 200–205 now preserved across a/b;
 actual assembly remains required. One source pass, zero retries/crop repairs.
 
-Next: actually assemble article 0009 from its two independently regenerated natives.
-The second canonical task may classify group 0010 from the original contents and
-observed 208 section/title, if supported; child 0011 restoration stays a later task.
+Batch 14 completes the actual readable article 0009 assembly on PDF 200–205:
+323 exact files from two regenerated natives/315 files. All 1,057 projected metadata
+ranges, 2,045 current ranges, 77 crops and 74 outcomes validate. Its cross-native
+join, two independent quotations, source title forms and original images remain
+explicit. Group 0010 is non-owning: original contents 4/5 and the repeated section
+label above child 0011 on 208 support the decision. Four classification files
+reproduce exactly; all ten child identities/parents/body states remain unchanged.
+Twelve invalid source/recipe/root/ownership cases are rejected. No new OCR/source pass.
+
+Next: verify the actual extent of GUI-library child 0011, opening 208/printed 198,
+then restore at most six opening pages, candidate 208–213. Inspect complete pages,
+code rows and image/caption coverage first; do not infer its ending from the next
+contents reference. Longer coverage requires later immutable natives and assembly.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

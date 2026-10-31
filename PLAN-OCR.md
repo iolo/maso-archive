@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: four readable/sample-reviewed
-articles, one partial article, one non-owning group heading, three section references and 36 unresolved
+December 1992 is in progress at the owner's request: five readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 35 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -109,13 +109,20 @@ actual assembly is pending. Article 0009 opening 200–204 adds 266 exact files,
 final 205 deferred. All 68 raws read before one source pass; zero retries. Fifty-five
 law crops repaired before recognition; two schema preflight failures retained.
 Batch 13 completes the actual readable look-and-feel assembly: 679 exact files from
-three regenerated natives/671 files, 2, 897 projected ranges/92 blank anchors and 5, 632
+three regenerated natives/671 files, 2,897 projected ranges/92 blank anchors and 5,632
 current ranges. Two joins, all custom indexes and native-a original execution provenance
 validate; nine invalid cases rejected. No new assembly OCR/source pass. Final 205 of
 article 0009 adds 49 exact files, 11 crops, ten outcomes, 116 rows/167 ranges; one source
 pass, zero retries/crop repairs. All six body pages 200–205 now preserved; assembly pending.
-Next: actual article 0009 assembly from two regenerated natives; bounded group 0010
-classification may use the second task after original contents/208 source review.
+Batch 14 completes actual readable article 0009 assembly 200–205: 323 exact files
+from two regenerated natives/315 files, 1,057 projected ranges, 2,045 current ranges,
+77 exact crops and 74 outcomes. Both independent quotations, one cross-native join
+and all source title/image/variant contexts remain. Group 0010 is non-owning from
+contents 4/5 and 208; four exact classification files preserve all ten canonical
+children without restoring their bodies. Twelve invalid cases rejected. No new OCR/pass.
+Next: source-verify GUI-library child 0011's extent from opening 208, then restore up
+to six opening pages. Review all whole pages/crops/code/image associations first;
+eng for code, kor+eng other text. Read all raws before one literal source pass.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
