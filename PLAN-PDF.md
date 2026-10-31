@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: five readable/sample-reviewed articles,
-no partials, two group headings, three section references and 35 unresolved identities.
+one partial, two group headings, three section references and 34 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -169,10 +169,20 @@ label above child 0011 on 208 support the decision. Four classification files
 reproduce exactly; all ten child identities/parents/body states remain unchanged.
 Twelve invalid source/recipe/root/ownership cases are rejected. No new OCR/source pass.
 
-Next: verify the actual extent of GUI-library child 0011, opening 208/printed 198,
-then restore at most six opening pages, candidate 208–213. Inspect complete pages,
-code rows and image/caption coverage first; do not infer its ending from the next
-contents reference. Longer coverage requires later immutable natives and assembly.
+Batch 15 preserves GUI-library child 0011 opening 208–213/printed 198–203:
+253 independently/fresh-process exact files, 64 exact crops, 48 blocks, four original
+images, 60 selected OCR outcomes and 2,907 typed ranges. All 580 physical code rows,
+328 printed numbered rows, 20 numbered blanks, four unnumbered wraps and ten numbered
+conditions validate. Printed labels remain separate from C text; source defects and
+incomplete/abbreviated fragments stay literal. One source pass; 60 initial plus one
+changed-crop recognition, 59 exact raw/TSV outcomes reused with original execution
+provenance, zero unchanged-input retries. Three pre-OCR crop repairs, one added panel
+heading, one within-pass margin repair and a failed export helper remain preserved.
+
+Next: restore final 214/printed 204, then actually assemble article 0011 from independently
+regenerated natives. The seven-page extent 208–214 is directly reviewed: prose closes
+212 but Listing 4 continues through 331 on 214, with original closing artwork.
+The 213→214 boundary needs sequential listing coverage without a prose/code-line join.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

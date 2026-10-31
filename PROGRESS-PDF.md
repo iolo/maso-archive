@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Five readable/sample-reviewed articles, no partials, two non-owning group headings,
-three section references and 35 unresolved identities account for 45 canonical entries. All 94 independent
+Five readable/sample-reviewed articles, one partial, two non-owning group headings,
+three section references and 34 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -96,9 +96,17 @@ natives/315 files. All 1,057 projected ranges, 2,045 current ranges, 77 crops an
 outcomes validate; two independent quotations and one cross-native join preserve source
 contexts. Group 0010 is non-owning, with four reproducible classification files based
 on contents 4/5 and 208. All ten child identities/parents/body states stay unchanged.
-Twelve invalid cases rejected; no new OCR/source pass. Next: verify GUI-library child
-0011's actual extent from 208 and restore up to six opening pages, with literal code
-and image/caption review and later native/assembly segmentation as needed.
+Twelve invalid cases rejected; no new OCR/source pass.
+Batch 15 preserves GUI-library child 0011 opening 208–213/198–203 as partial:
+253 exact independent/fresh-process files, 64 crops, 60 selected outcomes, 48 blocks,
+four original images, 718 reading rows and 2,907 typed ranges. Its 580 physical code
+rows preserve 328 printed labels, 20 numbered blanks and four unnumbered wraps;
+ten conditions and four listing captions validate. One source pass; 60 initial plus
+one changed-crop recognition, 59 exact raw/TSV outcomes reused with original execution
+pins, zero unchanged-input retries. Pre-OCR repairs, a within-pass code-margin repair
+and failed export helper retained; source bugs/fragments and printed 99 stay literal.
+Next: restore final 214/204 and actually assemble the seven-page article 208–214.
+The prose mark on 212 precedes Listing 4's final 194–331 on 214; no mid-line join at 213→214.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
