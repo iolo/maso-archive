@@ -2804,8 +2804,130 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification_evidence": [
+        "Batch 35 directly reviews twenty complete source views 280–289 and 330–339: all full advertisements, with no confirmed visible magazine folios. No independent opening for this canonical UNIX article is observed in these twenty pages. Book page counts, prices and promotional newspaper dates are not magazine folios. No mapping, OCR, source pass, ownership or classification advance.",
+        "Combined non-owning source index covers sixty physical pages 280–339 and retains all original prior observations/limits. Three index/disposition files reproduce independently and in a fresh process. All sixty source images/pins, twenty current layout/source observations and sixteen altered private disposition fixtures validate. These frozen private checks do not claim generic schema coverage or complete-source absence.",
+        "Canonical contents references 306/314 remain references, not physical page assignments. Prior shell-listing continuation views 300–305 do not establish either independent opening or complete article extent. Location remains pending during restoration of the next eligible article and full 446-page accounting. No missing-page count, final unavailable outcome, full recovery or source-wide absence inferred. All earlier article packages, feature 0019 partial/children and classification outcomes remain exact."
+      ],
+      "restoration": null,
+      "location_searches": [
+        {
+          "checkpoint": "batch-35",
+          "status": "pending-bounded-location-search",
+          "disposition": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/search-r01/disposition.json",
+            "sha256": "946f2e8ce0758437afe7e1b865f558fbdaa8d5b902bf7470229651309d100674",
+            "bytes": 5986
+          },
+          "page_index": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/search-r01/page-index.json",
+            "sha256": "9f5a5709852133e0ed719175a49d2ca06e44a3620390ab864c4536884c33d6ef",
+            "bytes": 43988
+          },
+          "source_review": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/source-reviewed.json",
+            "sha256": "cb03b66c4d4b893c5c3dcdc9cc1e5fff013d89abc1d849f68853d94926de85cb",
+            "bytes": 15158
+          },
+          "validation": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/validation.json",
+            "sha256": "66241053f8c1bc09f3aeb4b406c1cc399ac00b5980dc90bc1b116cb5f975b88c",
+            "bytes": 1598
+          },
+          "reproduction": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/reproduction.json",
+            "sha256": "102a55f56b4b41bbf2f40aaafcfa51eb1e79337209944dbcdfc6fa7b6fb972da",
+            "bytes": 971
+          },
+          "current_outside_pdf_pages": [
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339
+          ],
+          "cumulative_source_index_pdf_pages": [
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339
+          ],
+          "independent_opening_pdf_page": null,
+          "source_wide_absence_asserted": false,
+          "missing_page_count": null
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0023",
@@ -2815,8 +2937,130 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification_evidence": [
+        "Batch 35 directly reviews twenty complete source views 280–289 and 330–339: all full advertisements, with no confirmed visible magazine folios. No independent opening for this canonical UNIX article is observed in these twenty pages. Book page counts, prices and promotional newspaper dates are not magazine folios. No mapping, OCR, source pass, ownership or classification advance.",
+        "Combined non-owning source index covers sixty physical pages 280–339 and retains all original prior observations/limits. Three index/disposition files reproduce independently and in a fresh process. All sixty source images/pins, twenty current layout/source observations and sixteen altered private disposition fixtures validate. These frozen private checks do not claim generic schema coverage or complete-source absence.",
+        "Canonical contents references 306/314 remain references, not physical page assignments. Prior shell-listing continuation views 300–305 do not establish either independent opening or complete article extent. Location remains pending during restoration of the next eligible article and full 446-page accounting. No missing-page count, final unavailable outcome, full recovery or source-wide absence inferred. All earlier article packages, feature 0019 partial/children and classification outcomes remain exact."
+      ],
+      "restoration": null,
+      "location_searches": [
+        {
+          "checkpoint": "batch-35",
+          "status": "pending-bounded-location-search",
+          "disposition": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/search-r01/disposition.json",
+            "sha256": "946f2e8ce0758437afe7e1b865f558fbdaa8d5b902bf7470229651309d100674",
+            "bytes": 5986
+          },
+          "page_index": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/search-r01/page-index.json",
+            "sha256": "9f5a5709852133e0ed719175a49d2ca06e44a3620390ab864c4536884c33d6ef",
+            "bytes": 43988
+          },
+          "source_review": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/source-reviewed.json",
+            "sha256": "cb03b66c4d4b893c5c3dcdc9cc1e5fff013d89abc1d849f68853d94926de85cb",
+            "bytes": 15158
+          },
+          "validation": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/validation.json",
+            "sha256": "66241053f8c1bc09f3aeb4b406c1cc399ac00b5980dc90bc1b116cb5f975b88c",
+            "bytes": 1598
+          },
+          "reproduction": {
+            "path": "archive/pdf/1992-12/restoration/batch-35/reproduction.json",
+            "sha256": "102a55f56b4b41bbf2f40aaafcfa51eb1e79337209944dbcdfc6fa7b6fb972da",
+            "bytes": 971
+          },
+          "current_outside_pdf_pages": [
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339
+          ],
+          "cumulative_source_index_pdf_pages": [
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339
+          ],
+          "independent_opening_pdf_page": null,
+          "source_wide_absence_asserted": false,
+          "missing_page_count": null
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0024",
@@ -5063,6 +5307,60 @@
         "sha256": "8f7b7258250986868cd6fce3ecab354f8f115bb7df9542f99793403d44b3472f",
         "bytes": 8675
       }
+    },
+    {
+      "name": "1992-12-batch-35",
+      "status": "complete",
+      "completed_at": "2026-10-31T22:04:30.832472+00:00",
+      "goal": "Review twenty bounded source pages for UNIX article openings and preserve a sixty-page non-owning index with both locations pending.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0022",
+        "maso-1992-12-toc-0023"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-35/validation.json",
+        "sha256": "66241053f8c1bc09f3aeb4b406c1cc399ac00b5980dc90bc1b116cb5f975b88c",
+        "bytes": 1598
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-35/reproduction.json",
+        "sha256": "102a55f56b4b41bbf2f40aaafcfa51eb1e79337209944dbcdfc6fa7b6fb972da",
+        "bytes": 971
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-35/negative-checks.json",
+        "sha256": "d84308df1b768e55e6ebd3d61372efb6bfb8a59e8bb0e3d042d7382175710281",
+        "bytes": 3329
+      }
     }
   ],
   "totals": {
@@ -5079,46 +5377,42 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-35",
-    "goal": "Locate actual openings/extents of unresolved UNIX articles 0022/0023 through bounded source review, then restore at most six confirmed eligible pages if source ownership is established.",
+    "name": "1992-12-batch-36",
+    "goal": "Verify utility article 0026 independent opening, actual extent and source folios, then restore at most six confirmed opening pages; resolve non-owning group 0025 only if original contents/body anchors support it.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0022",
-      "maso-1992-12-toc-0023"
+      "maso-1992-12-toc-0025",
+      "maso-1992-12-toc-0026"
+    ],
+    "candidate_mapping_targets": [
+      361,
+      362,
+      363,
+      364,
+      365,
+      366
     ],
     "mapping_targets": [],
-    "candidate_mapping_targets": [],
     "initial_lookup_candidates": [
-      280,
-      281,
-      282,
-      283,
-      284,
-      285,
-      286,
-      287,
-      288,
-      289,
-      330,
-      331,
-      332,
-      333,
-      334,
-      335,
-      336,
-      337,
-      338,
-      339
+      4,
+      5,
+      360,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375
     ],
-    "canonical_article_references": [
-      306,
-      314
-    ],
+    "canonical_article_reference": 386,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "References 306/314 are canonical contents references, not verified physical locations. Review the two flanks of retained 290–329 index, reusing exact existing views where available. Do not infer a global printed/PDF offset, complete article ownership, missing-page count or source-wide absence. Physical 300–305 contain unrelated shell listing continuation but do not establish the shell opening or complete extent. If target openings remain unlocated, retain bounded source observations and pending dispositions; advance no body completion or child classification. Feature 0019 continuation/ending and children 0020/0021 remain pending. Preserve all source text/caption/listing conflicts, unknown gaps, graphic scopes and original execution provenance. Ten private adapters including batch34/vaccine_adapter required for selected-root checks. Fourteen selected roots contain 6,840 files; ten classification files separate. Other bodies/assemblies, all 446-page accounting, cover, standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
+    "note": "Physical 361–366 are unverified locator candidates, not established article ownership or a global printed/PDF offset. Begin with direct opening/credit/folio review and adapt from source; do not recognize a presumed map. Canonical title 유틸리티 : 환경 변수를 이용해 경로 설정을 자유자재로, byline candidate 정희태, contents reference 386. Check actual neighboring material, ending and intervening continuity before extent claims. Original contents 4/5 and actual child section label may support non-owning 활용 group 0025, but no classification before evidence. If opening/extent differs, preserve observations and adjust only within 2/6/20. Review whole pages/exact crops before mapped Tesseract, eng code/kor+eng other text; all complete raws before one literal source pass. Keep printed code defects/whitespace/labels and source title/byline/claim variants. UNIX 0022/0023 openings/extents and feature 0019 continuation/ending/children 0020/0021 remain pending; sixty-page 280–339 non-owning source index is not absence proof. Thirteen readable roots plus one partial contain 6,840 selected files, ten classification files separate; all ten private adapters required for root checks. Remaining bodies/assemblies, all 446-page accounting, cover, standalone issue export/rebuild and closeout required. Full December goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

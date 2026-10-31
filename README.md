@@ -20,9 +20,12 @@ identities. Batch 34 completes the nineteen-page vaccine-toolkit assembly on PDF
 natives. Five printed listings, source caption/banner conflicts, unknown omissions
 and fourteen scoped graphic markers retain their original contexts.
 Fourteen selected roots contain 6,840 files; ten classification files are separate.
-Next: bounded location/extent review for UNIX articles 0022/0023. Year-in-review
-feature 0019's continuation remains unlocated. Other bodies, full issue accounting,
-cover, export/rebuild and closeout remain pending. See the [December record](docs/progress/9212.md).
+Batch 35 adds twenty advertisement observations and a reproducible non-owning index
+for physical pages 280–339. Both UNIX openings remain unlocated; no source-wide absence
+is inferred. Next: verify the utility article 0026 opening/extent and group 0025 before
+restoration/classification. Year-in-review feature 0019's continuation remains
+unlocated. Other bodies, full issue accounting, cover, export/rebuild and closeout
+remain pending. See the [December record](docs/progress/9212.md).
 No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed

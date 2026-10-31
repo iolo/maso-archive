@@ -460,12 +460,33 @@ rehashed roots through guarded assembly checks. All 35,119 prior December files,
 and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline
 reused with complete current audits; no generic custom-metadata validation claim.
 
-Next: bounded location/extent review for unresolved UNIX articles 0022/0023, canonical
-references 306/314. Review physical 280–289 and 330–339 around the retained 290–329
-index, reusing exact existing views where available; these are search candidates,
-not confirmed body locations. Restore at most six eligible pages only after direct
-opening/ownership review, within two canonical tasks/six mapped/twenty outside pages.
-Do not infer a global folio offset, missing-page count or source-wide absence.
+Batch 35 reviews twenty further complete views, physical 280–289 and 330–339:
+all full advertisements, with no confirmed visible magazine folios. Neither UNIX
+opening appears in these twenty pages. Ten exact source views reused and ten new
+3000px renders retained; no mapping, OCR, source pass or package change. Promotional
+newspaper clipping on 339 remains part of an advertisement, not a magazine article.
+
+The combined non-owning source index now covers sixty physical pages 280–339.
+Three index/disposition files reproduce independently and in a fresh process; all
+sixty source images/pins, twenty current source/layout observations and sixteen
+private altered-data cases validate. UNIX 0022/0023 retain unresolved classification,
+null ownership/restoration and pending opening/extent locations. The prior shell
+continuation on 300–305 does not establish either independent opening or complete
+extent. No missing-page count, final unavailable outcome or source-wide absence
+inferred. All earlier packages, feature 0019 partial/children, classification outcomes,
+6,840 selected files, ten classifications, 9,332 September reference files and thirty
+core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused;
+private search checks do not claim generic schema or full-source coverage.
+
+Next: verify utility article 0026's independent opening, source folios and actual
+extent, then restore at most six confirmed opening pages. Canonical contents reference
+386 and physical 361–366 are locator candidates only; no global offset or ownership
+is established. Begin with direct title/credit/folio review and adapt from source.
+Check neighboring material and actual ending before extent claims. Non-owning 활용
+group 0025 may be resolved only with original contents/body anchors, within two
+canonical tasks/six mapped/twenty outside pages. Review every whole page/exact crop
+before mapped Tesseract, eng code/kor+eng other text; all complete raws before one
+literal source pass. Preserve code defects/whitespace/labels and source variants.
 Keep all ten private adapters, including batch-34/vaccine_adapter, for selected-root
 checks. Thirteen readable/sample-reviewed articles, one partial, two group headings,
 three section references and 26 unresolved identities remain. Fourteen selected roots
