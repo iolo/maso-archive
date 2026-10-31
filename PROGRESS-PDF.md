@@ -8,7 +8,7 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Eight readable/sample-reviewed articles, one partial, two non-owning group headings,
+Nine readable/sample-reviewed articles, no partials, two non-owning group headings,
 three section references and 31 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
@@ -149,9 +149,17 @@ read example lacks a semicolon. Ten escaped sequences retain differing n/r order
 All 1,113 current ranges, four private ranges, eighty settings and ten invalid cases
 pass. All eighty raws read before one source pass; zero retries. Eight pre-OCR repairs
 and import-only export failure retained. Actual ten-page extent 232–241 directly reviewed.
-Next: restore final 238–241 and actually assemble all ten pages from regenerated natives.
-Preserve mid-word closing join 237→238, references/contact/closing mark, Listing 2's
-numbering discontinuities/restarts and independent lower 241 PCSHELL tip exclusion.
+Batch 21 adds final 238–241 as an 87-file native and completes the actual readable
+ten-page assembly: 426 independent/fresh-process exact files from two regenerated
+natives/417 files. All 5,648 projected ranges, 12,477 current occurrences, 102 crops,
+99 settings and three ZIPs pass. One closing-prose join; code bytes equal native
+concatenation. Listing 2 retains 616 numbered occurrences, fifteen numbered blanks,
+23 wraps and original 399→300/500→101 restarts. Seven printed reference rows, distinct
+start_screen occurrences, printed fragment/read defects and escaped n/r order retained.
+Nineteen raws read before one pass, no retries/crop repairs; schema failure retained.
+Fourteen invalid native/recipe/rehashed-root cases rejected; no new assembly OCR/pass.
+Next: verify C++ graphics article 0015's extent from independent opening 242/232 and
+restore at most six source pages after complete source/crop review. Ending unverified.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and

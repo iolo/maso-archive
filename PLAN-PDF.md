@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: eight readable/sample-reviewed articles,
-one partial, two group headings, three section references and 31 unresolved identities.
+Current totals: nine readable/sample-reviewed articles,
+no partials, two group headings, three section references and 31 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -236,11 +236,23 @@ occurrences retain differing n/r order. All 1,113 current ranges, four private r
 source pass; zero retries. Eight pre-OCR edge repairs and an import-only export
 failure retained. Actual ten-page extent 232–241 directly reviewed; availability partial.
 
-Next: restore final 238–241, then assemble all ten pages from independently regenerated
-natives. Join closing prose across 237→238 (컴퓨터 언 / 어는), preserve contact/closing
-mark/references and complete Listing 2. Retain printed numbering discontinuities/restarts
-on 240/241 and exclude the independent lower PCSHELL tip on 241. Keep its numbered
-start_screen occurrence distinct from the unnumbered printed fragment on 233.
+Batch 21 preserves final 238–241 as an 87-file native, then actually assembles all ten
+pages 232–241: 426 independent/fresh-process exact files from two regenerated natives/
+417 files. All 5,648 projected ranges, 12,477 current typed occurrences, 102 exact crops,
+99 settings and three ZIPs validate. One closing-prose join retains 컴퓨터 언 / 어는;
+code bytes equal native concatenation. Complete Listing 2 retains 616 printed row
+occurrences, fifteen numbered blanks and 23 physical wraps, including literal 399→300
+and 500→101 restarts. Both start_screen occurrences stay distinct; printed fragment
+brace/read semicolon defects and escaped n/r order remain. Seven printed reference
+rows and original closing mark/panel retained; lower 241 PCSHELL tip excluded.
+Nineteen raws read before one source pass, zero retries/crop repairs; schema failure
+retained. Fourteen invalid native/recipe/rehashed-root cases rejected. No new assembly OCR/pass.
+
+Next: verify article 0015's actual extent from independent opening PDF 242/printed 232,
+C++로 작성한 3차원 그래픽 라이브러리(4) : 빛과 조명, by 박재홍; restore at most
+six pages after full page/crop/table/image/formula/code/caption review. Actual ending
+is unverified; do not infer it from the next contents reference. Longer bodies require
+immutable natives and actual assembly.
 No global folio offset inferred.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,

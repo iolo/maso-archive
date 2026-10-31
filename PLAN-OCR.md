@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: eight readable/sample-reviewed
-articles, one partial, two non-owning group headings, three section references and 31 unresolved
+December 1992 is in progress at the owner's request: nine readable/sample-reviewed
+articles, no partials, two non-owning group headings, three section references and 31 unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -172,12 +172,20 @@ order. All 1,113 current ranges, four private ranges, eighty settings and ten in
 custom-data cases pass. All eighty raws (77 kor+eng/three eng) read before one source
 pass; zero retries. Eight pre-OCR edge repairs and import-only export failure retained.
 Actual body 232–241 directly reviewed; final four pages and actual assembly pending.
-Next: restore 238–241 and independently regenerate both natives before actual ten-page
-assembly. Closing prose joins 237→238 at 컴퓨터 언 / 어는. Preserve references/contact/
-closing mark, Listing 2's irregular printed labels/restarts on 240/241, all blanks/wraps
-and the independent lower 241 PCSHELL tip exclusion. Keep numbered start_screen distinct
-from the 233 printed fragment. Read all new raws before one literal source pass;
-eng code/kor+eng other text. Retain/project every current/native metadata context.
+Batch 21 completes final 238–241 as an 87-file native, then actually assembles all ten
+pages: 426 exact files from two regenerated natives/417 files and a fresh-process rebuild.
+All 5,648 projected ranges, 12,477 current occurrences, 102 crops, 99 settings and three
+ZIPs pass. One closing-prose join retains 컴퓨터 언 / 어는; code bytes equal native
+concatenation. Listing 2 retains 616 numbered occurrences, fifteen numbered blanks,
+23 wraps and literal 399→300/500→101 restarts. Both start_screen occurrences, printed
+fragment/read defects, ten escaped sequences and seven printed reference rows remain.
+All nineteen raws (eight eng/eleven kor+eng) read before one source pass; zero retries/
+crop repairs. Schema failure retained; fourteen invalid cases rejected, including seven
+rehashed roots. No new assembly OCR/pass. Independent lower 241 PCSHELL tip excluded.
+Next: verify C++ graphics article 0015 extent from opening 242/232 and restore at most
+six pages after full page/crop/table/image/formula/code/caption review. Actual ending
+is unverified; no inference from next contents reference. Use eng code/kor+eng other
+text, read all raws before one literal source pass; longer bodies need natives/assembly.
 No global folio offset inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
