@@ -75,9 +75,18 @@ interruption before recognition is retained. The feature now spans eighteen
 preserved pages across a/b/c. PDF 168 starts a new section without an incoming
 prose join; 173→174 continues mid-word 속+성. No child classification is advanced.
 
-Next: source review and restoration of continuation PDF 174–179, within the same
-two/six/twenty ceilings. Verify both adjacent boundaries and intrinsic section
-transitions. No global PDF/folio offset is inferred.
+Batch 05 adds PDF 174–179/printed 164–169 as native d: 443 independently exact
+files, 116 exact crops and 106 OCR outcomes. Four complete tables retain 34 rows
+and 285 cells, including the twelve-method/fourteen-criterion matrix; eight internal
+joins, four code fragments/34 rows and all 1,880 current typed ranges validate.
+Both native contexts of the incoming 속+성 join remain explicit. Part 2 ends 175;
+part 3 starts 176 independently. One source pass, no recognition retry; four pre-OCR
+crop repairs and a failed preflight helper retained. Coverage is now 156–179 across
+a/b/c/d; the first two intrinsic section bodies are preserved, with no child
+classification or completed assembly claim.
+
+Next: review and restore final feature PDF 180–183, then assemble the whole feature
+and resolve final child anchors in a separate checkpoint. No global folio offset.
 Remaining article bodies/assemblies, full 446-page accounting, cover, standalone
 issue export, independent rebuilds and closeout remain required. Human acceptance,
 full proofreading and original bytes/glyph identities remain unverified.

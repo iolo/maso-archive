@@ -51,7 +51,15 @@ A stopped render before any recognition is retained separately. Fourteen code
 fragments/61 rows, 46 colon candidates, three ellipsis rows, seven captions and five
 column joins validate. Source wording and code defects remain literal. Natives a/b/c
 now preserve 156–173. No prose join across 167→168; 173→174 continues 속+성.
-Next is bounded continuation 174–179, including adjacent-boundary/section review.
+Batch 05 adds continuation 174–179/printed 164–169 as native d: 443 independently
+exact files, 116 exact crops and 106 initial OCR outcomes (102 kor+eng/four eng).
+Four original tables retain 34 rows/285 cells; seven empty raw row drafts and
+garbled narrow prose were source-corrected in the one pass, with no OCR retry.
+Four pre-OCR crop repairs and a failed helper remain retained. All 1,880 current
+typed ranges, four private adjacent-native/source ranges, eight joins and four
+code fragments/34 rows validate. Part 2 ends175; part3 starts176 independently.
+Coverage156–179 is preserved across a/b/c/d. Next: final feature180–183, then a
+separate actual assembly/child-anchor checkpoint.
 No global folio offset or child ownership inferred. Whole-issue bodies/assemblies,
 446-page accounting, cover, export and closeout remain pending. No reader rebuild.
 See [December progress](docs/progress/9212.md) and

@@ -33,7 +33,12 @@ fragments/61 rows, seven captions and five column joins validate. One source pas
 zero recognition retries; interrupted pre-recognition render retained. All 956 current
 typed ranges and two private boundary ranges validate. Feature coverage is now
 156–173 across a/b/c; whole feature and child anchors remain pending.
-Next: bounded continuation 174–179, including the incoming 속+성 boundary.
+Batch 05 adds174–179/printed164–169 as native d: 443 independently exact files,
+116 exact crops, 106 OCR outcomes, four tables/34 rows/285 cells and four code
+fragments/34 rows. All1,880 current ranges and four private boundary ranges validate.
+One source pass/no recognition retry; four crop repairs and failed helper retained.
+Coverage156–179 now spans a/b/c/d, completing the first two section bodies.
+Next: final feature180–183, then separate actual assembly and child anchors.
 Remaining bodies/assemblies, full 446-page accounting, cover, issue export/rebuilds
 and closeout remain pending. No global offset inferred and no reader rebuild.
 See [December progress](docs/progress/9212.md) and
