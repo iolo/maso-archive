@@ -6,6 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+March 1993 is in progress: one readable/sample-reviewed article and 51 unresolved
+identities among 52 canonical entries. Batch 01 restores column 0005 on PDF
+100–101/printed 98–99 into 82 independently exact files. All twenty crops,
+eighteen selected OCR outcomes and 275 ranges validate; fresh 213 tests pass.
+Next: verify feature 0001 at canonical printed 154 and restore a bounded opening
+segment. Full 433-page accounting and issue closeout remain pending. See
+[March progress](docs/progress/9303.md) and its
+[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.
 The 13,097-file standalone collection reproduces exactly from 59 natives and fourteen
 actual assemblies; fresh 213 PDF tests pass. All 45 identities and 446 pages are

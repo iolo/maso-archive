@@ -29,6 +29,29 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## March 1993 restoration, 2026-11-01
+
+The full March 1993 issue goal is active. Batch 01 initializes all 52 canonical
+TOC identities and verifies the 433-page source and pinned Tesseract runtime.
+Column 0005, 컬럼 마소쉘 : 정보산업은 기간산업이다, is readable/sample-reviewed
+on PDF 100–101, individually observed printed 98–99. Its 82 JSON/assets files
+match two exports and a fresh-process rebuild. All twenty source crops, eighteen
+selected OCR outcomes, 275 typed ranges and 173 reading rows validate. Four section
+headings, original portrait/series artwork, independent pull quotation, separate
+closing paragraph, four contributor rows and four continuation boundaries remain.
+One paused/resumed source correction pass used eighteen initial recognitions plus
+four changed-crop recognitions; fourteen unchanged raw/TSV results were reused,
+with original execution provenance and zero unchanged-input retries. All crop/map
+revisions and a copied declaration-year clarification are retained. Fresh 213 PDF
+tests pass; all 13,097 December reference files and thirty core modules are exact.
+
+There are 51 unresolved identities. Batch 02 next verifies feature 0001, listed at
+printed 154, and restores a source-reviewed opening segment within the 2-task,
+6-mapped-page and 20-outside-page limits. No global offset or ending is inferred.
+Child anchors, remaining bodies/assemblies, full-page accounting, cover and issue
+closeout remain required. See [March progress](docs/progress/9303.md) and the
+[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+
 ## December 1992 closeout, 2026-11-01
 
 The canonical TOC JSON/assets pass is complete with explicit coverage gaps. All 45

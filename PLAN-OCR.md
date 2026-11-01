@@ -23,6 +23,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+March 1993 is active. Batch 01 delivers complete column 0005 on PDF 100–101/
+printed 98–99: 82 independently exact JSON/assets files, twenty exact source crops,
+eighteen selected outcomes, 275 valid typed ranges and 173 reading rows. Eighteen
+initial plus four changed-crop recognitions, fourteen exact raw/TSV outcomes reused
+with original execution provenance, one paused/resumed source correction pass and
+zero unchanged-input retries. All revisions remain retained. Fresh 213 tests pass;
+13,097 prior December reference files and thirty core modules remain exact.
+One readable/sample-reviewed article and 51 unresolved identities account for all
+52 canonical entries. The 433-page source is pinned; issue-wide page accounting is
+pending. Next: feature 0001 opening, listed at printed 154, within 2/6/20 limits.
+See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
+
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
 thirty readable/sample-reviewed articles, two partials, seven non-owning groups,
 three section references and three unresolved identities among 45. All 446 pages are
