@@ -358,18 +358,41 @@ exact; earlier fresh 213-test evidence retained. Final 247 closes above excluded
 book advertising; 248–249 are advertisements and 250 opens the distinct Unix article.
 Final 244–247 and actual ten-page assembly remain required.
 
-Current totals: ten readable/sample-reviewed articles, one partial, two non-owning
+Batch 22 preserves final Turbo C PDF 244–247 as a 196-file native, then actually
+assembles the complete ten-page article 238–247/printed 236–245. All 532 files match
+an export consuming two independently regenerated natives/523 files and a fresh-process
+rebuild. All 151 exact crops, 118 outcomes, 4,916 metadata projections, 9,738 current
+range occurrences/9,598 source occurrences and 763 reading rows validate. Thirty-three
+original images retain six memory diagrams, twenty-two code panels, three tables,
+category art and ending ornament; nine captions are literal text and 24 are null.
+Three tables retain 93 cells/twelve headers; 93 diagram labels, the independent
+sidebar's formula/four points and thirteen prose boundaries retain source contexts.
+Twenty-one independent code contexts preserve 145 physical rows, 1,063 tokens,
+twenty comment/header rows, six quoted literals, 29 indexed instruction rows,
+ten commands, thirteen registers, eight flags and 128 explicit dump-byte occurrences.
+PSP structure retains seven fields; two C listings preserve their printed forms.
+No cross-native prose merge, source repair or code execution. Final native adds
+43 initial recognitions, eleven English and 32 Korean/English, after all drafts
+were read before one source pass. Zero retries or within/post-pass changes; pre-OCR
+map/crop revisions and two helper failures remain retained. Printed 52/512,
+setargv/serargv, wording, addresses and opcode differences stay literal. Twelve
+rehashed root, six native and two ownership cases reject. All 20,987 prior files
+and thirty core modules remain exact; earlier fresh 213-test evidence retained.
+Final 247 closes above excluded book advertising; 250 is the distinct Unix opener.
+Original native partial scopes remain historical.
+
+Current totals: eleven readable/sample-reviewed articles, no partials, two non-owning
 groups, three section references and 36 unresolved identities among 52. Eleven
-current body-owner packages contain 3,681 exact files; eight final classification
+current body-owner packages contain 3,886 exact files; eight final classification
 evidence files remain separate. Original natives and superseded revisions remain
 unchanged.
 
-Next: Batch 22 restores final Turbo C pages 244–247, then actually assembles
-the ten-page article 238–247 from independently regenerated immutable natives.
-Preserve the EXE-header table, relocation examples, PSP structure, memory diagram,
-two C listings, commands and printed defects. Exclude lower 247 book advertising;
-248–249 are independent advertisements and 250 is the distinct Unix opener.
-No code repair, execution or reader rebuild.
+Next: Batch 23 verifies the actual extent and ending of canonical 0017,
+유닉스 프로그래밍의 세계로(마지막회) : 고급 프로세스간 통신(유닉스 편), by 최승욱,
+then restores up to six confirmed opening pages. PDF 250/printed 248 is observed;
+provisional targets are 250–255. Following article 0018's canonical reference 258
+is a location lead, not evidence of the Unix ending or a global folio offset.
+Confirm ownership before mapping. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
