@@ -1075,17 +1075,70 @@ readable/sample-reviewed articles, two partials, seven groups, three section ref
 and ten unresolved identities. Twenty-five selected roots contain 10,178 files; sixteen
 classification files are separate, including the new group record and divider image.
 
-Next: source-review and restore compound 0046 domestic-news continuation 117–122 as
-immutable native b. Reuse retained 117/120–124 and review unseen 118–119 plus outgoing
-123 and overseas opening 124 before mapping. Preserve news-item boundaries, contacts,
-captions, credits, original graphics and literal claims without new canonical children.
-A new native needs its own frozen eligibility guard, installed outside the prior radar-a
-guard with unchanged-map delegation. Fifteen prior adapters plus the radar-a guard remain
-required for relevant builds. At most two canonical tasks/six mapped/twenty outside pages.
+Batch 51 preserves compound information-radar entry 0046 continuation PDF 117–122,
+individually read folios 107–112, as immutable native b. Canonical compound title,
+parent 0045, null reference and other identities remain unchanged. Prior 116 ends a
+complete item; 117 starts independent Hitel news, with no incoming prose join.
+
+Eleven intrinsic news items retain ten complete items and the opening of the floptical
+item, which continues on 123. Site-license, Geulbak/integrated software, Windows workgroup,
+notebook, optical disk, multimedia, NAL and sound/video items retain their separate flows.
+The video-interface item ends on 122, correcting an early progress note that suggested
+two outgoing items. Only the floptical item continues; its final sentence on 122 precedes
+a new paragraph on 123. No physical word merge is inferred at this native boundary.
+
+Three selected 312-file exports match, including a fresh process. All 82 source crops,
+74 outcomes, 43 blocks, eight original images, 760 reading rows and 1,227 typed ranges/
+26 empty anchors validate. Eleven prose groups retain 31 column/page boundaries and
+their intervening material. Eight captions, one rotated photographer credit, eight
+historical contact blocks, fifteen variants, 182 literal numeric occurrences and two
+file references retain source contexts. Original image lettering is not exhaustively
+transcribed. Prior native a's 208 files regenerate exactly through the new guard's
+unchanged-map delegation.
+
+All 74 complete raw drafts were read in one untruncated output before one literal source
+pass, all kor+eng. All 83 initial crops on 23 sheets and seven changed selected crops on
+two sheets were directly reviewed before recognition. Eight pre-OCR revision events
+include seven changed crops and one removed fragment that cut through a paragraph;
+75 unchanged crops remain exact. Six enlarged/rotated source-only details were viewed.
+Zero retries or within-pass map changes. The initial map's nine/eight-complete item-count
+note is superseded by the explicit eleven/ten-complete enumeration.
+
+Title 틀미름이/body 틀마름이, old-araea ᄒᆞᆫ글 approximation, source spelling/particles,
+Greek-mu typography, identifier/model wraps and MIDI module price 2만9천원 remain literal.
+Historical political/legal claims, product details, comparisons, prices, forecasts and
+contacts are source occurrences; their truth and current applicability are unverified.
+No original encoded glyph/spacing, file recovery, execution, human acceptance or full
+proofreading claim.
+
+The first helper stopped because a variant lookup omitted a physical word wrap. A fresh
+helper reused the unchanged map/raws/corrected text. Audit then found that the filename
+index omitted .ntx because a Korean particle followed it. A metadata-only correction/
+recipe/export revision adds its exact source range. Article bytes, all crops/raws/TSVs/
+settings/runtime/map/ZIP and 308 of 312 files remain exact; four metadata files differ.
+Both failed attempts and the initial export remain retained. No new OCR or source pass.
+Twenty-one consistently rehashed metadata edits pass generic exports and fail the private
+frozen source audit; six altered eligibility cases are rejected. The core and legacy
+inventory stay unchanged. The unchanged 213-test baseline is reused.
+
+All 55,557 prior December files, 10,178 former selected files/25 roots, sixteen
+classification files, 9,332 September files and thirty core/source/runtime/TOC/queue pins
+remain exact. Current totals stay twenty-three readable/sample-reviewed articles, two
+partials, seven groups, three section references and ten unresolved identities. Twenty-six
+selected roots contain 10,490 files; sixteen classification files remain separate.
+Compound natives a/b preserve eleven pages 112–122 and 520 files; availability stays partial.
+
+Next: review and restore compound continuation 123–128 as immutable native c. Verify the
+floptical continuation on 123, remaining domestic items and December-events panel ownership,
+then overseas opening 124 and unviewed 125–128 with outgoing 129. Reuse contents 4/5,
+divider 111, native tail 122 and overseas/software anchors 133/134 as needed. Preserve
+each intrinsic item, image, caption, credit, contact and literal claim without new canonical
+children. A new native needs its own frozen eligibility guard outside prior a/b guards,
+with unchanged-map delegation. Sixteen prior adapters plus the native-b guard apply to
+relevant builds. At most two canonical tasks/six mapped/twenty outside pages.
 Remaining compound branches and actual full assembly, year-feature/UNIX locations, other
 bodies/assemblies, all 446-page accounting, cover, standalone export/rebuild and closeout
-remain required. Human acceptance/full proofreading and original bytes remain unverified.
-Full December goal active. No reader rebuild.
+remain required. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

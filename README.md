@@ -15,13 +15,13 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: twenty-three readable/sample-reviewed articles,
 two partials, seven non-owning group headings, three section references and ten unresolved
-identities. Batch 50 preserves compound information-radar entry 0046 opening PDF 112–116
-and classifies heading 0045 with its original divider artwork/catalogue. Three 208-file
-native exports match; all 56 body crops and 1,039 text ranges validate. Five conflicting
-divider references remain unrepaired. Twenty-five roots contain 10,178 selected files;
-sixteen classification files remain separate. Next: domestic-news continuation 117–122.
+identities. Batch 51 preserves information-radar continuation PDF 117–122. Three selected
+312-file exports match; all 82 crops and 1,227 text ranges validate. Earlier native a
+regenerates exactly. Both natives preserve eleven pages 112–122 and 520 files; the compound
+entry remains partial. Twenty-six roots contain 10,490 selected files; sixteen classification
+files remain separate. Next: domestic ending and overseas continuation 123–128.
 Remaining bodies/assemblies, issue accounting, cover, standalone export/rebuild and closeout
-remain pending. Original bytes and technical claims remain unverified. See the
+remain pending. Original bytes and historical/technical claims remain unverified. See the
 [December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
