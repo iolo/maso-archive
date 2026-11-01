@@ -1919,6 +1919,65 @@ Evidence: `archive/pdf/1992-12/restoration/batch-66/validation.json`,
 `prospective-timings.json` and `completion-audit.json`. Session evidence:
 `archive/pdf/1992-12/evidence/session-2026-11-01-47/`.
 
+Batch 67 directly reviews seven physical pages: contents 4–5, existing year-feature
+opener 299, shell-fragment boundaries 300/305, advertisement 306 and final pending
+page 446. The latter is a narrow cover-wrap fragment: the spine, part of the front
+panel and part of an advertising panel. December 1992 is visible, while front-panel
+text is clipped at the scan edge. It is retained as `cover-wraparound-fragment`,
+not certified as a complete usable cover asset. No visible magazine folio on 446.
+
+The contents references remain 289 for the year feature and 306/314 for the two
+UNIX articles. They are references, not physical-page assignments. Existing year
+opener 299 retains its selected ownership, domestic/overseas outline, introduction
+and credit; no continuation, intrinsic child-body anchor or ending is established.
+Shell page 300/printed 325 starts mid-program at label 0221; 305/330 ends the visible
+listing at 1064/blank 1065 above an office-relocation advertisement. No independent
+UNIX opening is established. Physical 306 is a removable-HDD advertisement. No new
+target body, mapping, OCR, retry, source correction or canonical entry advance.
+
+The four-file sidecar at
+`archive/pdf/1992-12/restoration/batch-67/accounting-r01/` classifies all 446 physical
+pages, with none pending. Only final row 446 changes; all prior 445 rows, owners,
+folios and recorded mixed components remain unchanged. Six rechecks are recorded
+separately and do not add six new primary classifications. Three exports match byte
+for byte, including a fresh process. All fourteen current source/layout images
+decode, and a fresh PDF render of 446 matches the retained native pixels exactly.
+The source-audit chain is reexecuted through original pinned review/render/ownership
+inputs, retaining twenty-two explicit review/render bridges. The ledger still
+contains 238 selected body pages/31 maps and 31 map-local exclusion records across
+fourteen selected-body pages. Primary classification is complete; complete mixed-
+component/ownership accounting and source-wide target dispositions remain pending.
+
+Twenty consistently rehashed private accounting mutations are rejected, including
+cover/date misclassification, altered existing ownership and counting rechecks as
+new pages. An inline verifier-adaptation parse failure before any verifier write is
+retained with its exact failed-line extract; the exports and source review were
+unaffected. All 72,322 prior December files, 13,001 selected article
+files/31 roots, sixteen classifications, 9,332 September files and thirty core/source/
+runtime/TOC/queue pins remain exact. The unchanged 213-test baseline is reused.
+Accounting files do not increase the selected article-file count. Prospective stage
+walls include preservation/rendering/orchestration, not isolated manual throughput.
+
+All 45 canonical entries remain unchanged: thirty readable/sample-reviewed, one
+partial, seven groups, three section references and four unresolved. Next checkpoint
+68 directly audits seventeen mixed contexts for the same two tasks 0019/0022:
+selected-body pages 195, 197, 198, 221, 230, 241, 252, 371, 396, 402, 411, 413,
+414 and 416, plus shell/ad 305, afterword/advertisement-index 439 and cover fragment
+446. Zero newly primary-classified pages are expected; existing article bytes and
+owners must remain intact. This remains within 2/6/20 limits, with no preassigned
+mapped pages. Children 0020/0021 and UNIX 0023 are outside this two-task scope.
+Complete primary classification alone proves neither source-wide absence nor a
+missing-page count. Remaining year/UNIX bodies/assemblies or evidence-backed source
+gaps, final mixed-component/ownership accounting, cover verification, standalone
+JSON/assets issue export/rebuild and closeout remain required. Full December
+objective active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-67/validation.json`,
+`source-reviewed.json`, `source-audit.json`, `negative-checks.json`,
+`reproduction.json`, `fresh-process-reproduction.json`, `source-boundaries.json`,
+`prospective-timings.json`, `helper-failure-r01.json` and `completion-audit.json`.
+Session evidence: `archive/pdf/1992-12/evidence/session-2026-11-01-48/`.
+
 ## September 1991 closeout, 2026-10-31
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
