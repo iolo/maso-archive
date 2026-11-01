@@ -6,26 +6,23 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: four readable/sample-reviewed articles, one non-owning
-group, three final section references and 44 unresolved identities among 52.
-The complete Macworld report on PDF 174–181 has 282 exact r02 files, reproduced
-from both independently regenerated natives/274 files and in a fresh process.
-All 75 crops, 61 outcomes, 1,542 projected metadata ranges, 3,028 current ranges
-and 710 physical rows validate. Fourteen images, seven captions/twelve associations,
-six covers, three presenters, 21 courses and six contacts/27 rows remain explicit.
-One 179→180 prose join retains both original contexts and nine intervening graphic
-items; main conclusion and related education sidebar remain separate.
-Final native b adds 25 initial calls, one source pass and zero retries/post-pass
-changes after one fax crop repair. R02 resolves twelve figure-caption display
-fields from literal source ranges; the original native fields contained block IDs.
-Only six root JSON files change; article/native/asset/raw-ZIP bytes are unchanged.
-Nine rehashed assembly and two ownership mutations are rejected; all 15,167 prior
-files and thirty core modules remain exact. The prior fresh 213-test result is
-retained. Four current body-owner packages contain 1,281 files. Next: verify and
-restore the Nintendo article, canonical 0009. Remaining bodies, 433-page accounting,
-cover and issue closeout remain required. See [March progress](docs/progress/9303.md)
-and its [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
-No reader rebuild.
+March 1993 is in progress: five readable/sample-reviewed articles, one partial,
+one non-owning group, three final section references and 42 unresolved identities
+among 52. Nintendo PDF 182–184 is complete as a 142-file native; health opening
+188–190 is a 117-file partial. Both reproduce independently and in fresh processes.
+All 63 source crops, sixty outcomes, 957 ranges and 557 physical rows validate.
+Two independent quotations, fourteen illustration-contour rows, two three-point
+arguments, nine headings and original artwork remain explicit. The health package
+has a verified compound extent 188–196: authored main 188–193, then an uncredited
+editorial stretching guide 194–196. Final six pages and actual assembly remain next.
+All sixty drafts were read before one source pass; zero retries or within-pass/
+post-pass changes. Thirteen pre-OCR events repair twelve original regions. Nine
+rehashed native semantic cases and two ownership cases are rejected. All 15,840
+prior files and thirty core modules remain exact; prior fresh 213-test result
+retained. Six current body-owner packages contain 1,540 files. Remaining bodies,
+433-page accounting, cover and issue closeout remain required. See
+[March progress](docs/progress/9303.md) and its
+[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.
 The 13,097-file standalone collection reproduces exactly from 59 natives and fourteen

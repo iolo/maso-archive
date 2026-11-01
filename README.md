@@ -13,15 +13,15 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: four readable/sample-reviewed articles, one
-non-owning group, three final section references and 44 unresolved identities
-among 52. The complete Macworld report on PDF 174–181 has 282 independently/
-fresh-process exact files. Its source images, captions, course list and historical
-contact records remain preserved. Four current body-owner packages contain 1,281
-files; original natives, classification evidence and superseded revisions remain
-retained. Next is source verification and bounded restoration of the Nintendo
-article, canonical 0009. Remaining bodies, 433-page accounting, cover and issue
-closeout are pending. See [March progress](docs/progress/9303.md). No reader rebuild.
+March 1993 restoration is active: five readable/sample-reviewed articles, one
+partial, one non-owning group, three final section references and 42 unresolved
+identities among 52. Nintendo PDF 182–184 is complete; the health opening 188–190
+is preserved as partial. Their 259 JSON/assets files reproduce independently and
+in fresh processes. Six current body-owner packages contain 1,540 files. Next:
+restore health final 191–196 and assemble all nine pages, keeping its authored main
+text and uncredited editorial stretching guide distinct. Remaining bodies,
+433-page accounting, cover and issue closeout are pending. See
+[March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

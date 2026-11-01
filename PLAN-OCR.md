@@ -120,11 +120,28 @@ in figure.caption text fields; r02 resolves twelve current captions from verifie
 literal ranges. Only six root JSON files change; all native, article-text, asset
 and raw-ZIP bytes remain exact. Nine rehashed assembly/two ownership mutations
 are rejected; all 15,167 prior files and thirty core modules remain unchanged.
-Current totals: four readable articles, one non-owning group, three final section
-references and 44 unresolved identities. Next: verify the extent and ending of
-canonical Nintendo article 0009; opening 182/printed 180 is already observed.
-Restore up to six verified body pages with literal historical medical wording,
-original images and source context. Full issue goal active; no reader rebuild.
+Batch 11 completes Nintendo article 0009 on PDF 182–184/printed 180–182:
+142 independently/fresh-process exact files, 35 exact crops, 33 OCR outcomes,
+521 typed ranges and 268 physical rows. Two headings, two three-point arguments,
+fourteen contour-following reading rows, original illustration/category artwork,
+independent pull quotation and closing acknowledgment remain explicit. Lower 184
+book-year campaign is excluded. The same checkpoint preserves health article 0010
+opening 188–190/printed 186–188 as a 117-file partial: 28 exact crops, 27 outcomes,
+436 ranges, 289 rows and seven headings. Its full compound extent is 188–196:
+main 188–193 by 오형태, then uncredited editorial stretching guide 194–196,
+잠깐! 10분만 쉽시다. The opening editorial deck promises that guide; no author is
+invented for it. Both independent quotations stay outside main prose joins.
+All sixty drafts were read before one source pass; sixty initial calls, zero
+retries or within-pass/post-pass changes. Thirteen pre-OCR events repair twelve
+original regions. Nine rehashed native cases and two ownership cases are rejected;
+all 15,840 prior files and thirty core modules remain exact. Prior fresh 213-test
+result retained. Final health 191–196 and actual nine-page assembly remain next.
+Current totals: five readable/sample-reviewed articles, one partial, one non-owning
+group, three final section references and 42 unresolved identities. Next: final
+health 191–196 and actual nine-page assembly. Reuse retained source views; preserve
+numbered exercise instructions, original pose photographs and uncredited companion
+attribution. No incoming 190→191 prose merge: 190 ends a treatment section and 191
+starts 손목의 통증. Full issue goal active; no reader rebuild.
 See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
