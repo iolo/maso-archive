@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: twenty-two readable/sample-reviewed articles,
-one partial, six group headings, three section references and thirteen unresolved identities.
+Current totals: twenty-three readable/sample-reviewed articles,
+one partial, six group headings, three section references and twelve unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -970,19 +970,68 @@ All 54,278 prior December files, 9,852 former selected files/twenty-two roots, f
 classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
 exact. Unchanged 213-test baseline reused; only 0036 advances.
 
-Next: verify and restore independent printer-eject article 0044 from observed shared PDF
-416/441, credited 박상희. Reuse retained 416, contents 4/5 and adjacent 415/417; confirm
-actual title, extent and ending/M before mapping. Exclude completed Clipper listing 3/prose
-and the lower Excel tip. Preserve the literal DEBUG script, hex bytes, filenames, commands,
-physical rows and historical claims without executing or repairing them. Other identities
-stay unchanged. Thirteen assembly adapters and the scoped Batch 47 monitor eligibility
-adapter remain required for relevant prior builds. Current totals: twenty-two readable/
-sample-reviewed articles, one partial, six groups, three section references and thirteen
-unresolved identities. Twenty-three roots contain 9,928 selected files; fourteen
-classifications are separate. UNIX/year-feature locations, other bodies/assemblies,
-all 446-page accounting, cover, standalone export/rebuild and closeout remain required.
-Original glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full
-proofreading remain unverified. Full December goal active. No reader rebuild.
+Batch 49 completes independent printer-eject article 0044 on PDF 416/individually read
+folio 441, credited 박상희. Source title, canonical parent 0031, null reference and order
+remain unchanged. The original closing M follows the final commands above the separate
+Excel tip. Completed Clipper listing 3/prose are excluded; 415 is Clipper and 417 a full
+advertisement. No other body state advances.
+
+Three 42-file exports match, including a fresh-process build. All nine source crops,
+eight outcomes, eight blocks, one original closing ornament, 48 reading rows and 177 typed
+ranges/six empty-anchor occurrences validate. Every eligible region is disjoint from its
+exclusions. All nine PNG decodes and one ZIP CRC pass. Independent paragraphs stay separate;
+no prose join is invented between columns.
+
+Two code fragments retain ten printed text rows and two layout-gap anchors, twelve row
+contexts total. Nine logical command units cover the printed rows exactly; RCX and its
+following 000B remain separate physical rows. Both E 0100 addresses and all eleven printed
+two-digit hex tokens stay literal. The source's 11-byte claim is not proof of resulting
+file size or executable bytes. No address repair, assembly, execution or output program
+creation. The composite listing is not an original script/batch/program file, and original
+encoded blank-line count and vertical leading remain unknown.
+
+Five filename occurrences, seven port occurrences, two physical word/filename wraps and
+eight variants remain source-linked. DEBUG〈FOF.SCR uses U+3008 as a source-angle candidate,
+with ASCII< recorded separately. Printed 쉽/십, 짜증스럽지 않다, 000B/0008 and 1/I/0/O
+candidates remain explicit. The original M stays graphic pixels, without an encoded-character
+claim. Historical printer/MODE behavior and source glyphs remain unverified.
+
+The first export was rejected because the shared inventory lacks canonical 0044. Direct
+inspection now proves that inventory uses an older TOC snapshot: 42 issue entries versus
+the issue queue's 45, with different source hashes; 0043–0046 are absent from the legacy
+snapshot. This supersedes Batch 47's unproven explanation that uncertain kind caused the
+monitor omission. Monitor 0043 gets only a current provenance-disposition pointer; its body,
+availability, package and adapter bytes stay exact. The scope amendment records this as
+the second canonical task, with no new source page or OCR.
+
+A narrowly scoped guard validates only frozen canonical 0044/source/TOC/geometry/map and
+the current issue queue. Six altered identity/source/map cases are rejected. The generic
+core and legacy inventory remain unchanged; the failed export remains archived. Thirteen
+assembly adapters and the separate monitor/printer eligibility guards are needed for the
+relevant builds. Twenty-two consistently rehashed custom-metadata edits pass generic
+exports and fail the frozen private audit; no generic custom-schema claim.
+
+All eight complete raw drafts read in one untruncated output before one literal source
+pass: two eng/six kor+eng. Nine exact initial crops reviewed on three sheets; three enlarged
+source-only details viewed. Zero repairs, retries or within-pass crop changes. All
+54,582 prior December files, 9,928 former selected files/twenty-three roots, fourteen
+classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
+exact. Unchanged 213-test baseline reused. Current totals: twenty-three readable/sample-
+reviewed articles, one partial, six groups, three section references and twelve unresolved
+identities. Twenty-four roots contain 9,970 selected files; fourteen classifications are separate.
+
+Next: verify news/radar heading 0045 and compound child 0046 from the retained news divider
+on PDF 111 and domestic-news body on 112/printed 102, also observed on 120/printed 110.
+Review the divider's local contents, original contents 4/5 and adjacent column ending 110.
+Verify hierarchy, body ownership, actual section extents and neighboring titles before
+mapping at most six confirmed first-native pages; 112–117 are candidates only. Keep the
+compound canonical title and parent intact, without inventing canonical children or treating
+unreviewed branches as complete. Preflight eligibility against the current issue queue,
+since the legacy inventory also lacks 0045/0046. At most two canonical tasks/six mapped/
+twenty outside pages. UNIX/year-feature locations, other bodies/assemblies, all 446-page
+accounting, cover, standalone export/rebuild and closeout remain required. Original glyphs/
+spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading remain
+unverified. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

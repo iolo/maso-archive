@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: twenty-two readable/sample-reviewed articles,
-one partial, six non-owning group headings, three section references and thirteen unresolved
-identities. Batch 48 completes the two-page Clipper/ACHOICE article on PDF 415–416. Three
-76-file exports match; all nineteen crops, three printed listings/128 code rows and 861
-text ranges validate. Literal source defects, list-reference mismatches and opaque marks
-remain explicit. Twenty-three roots contain 9,928 selected files; fourteen classifications
-remain separate. Next: verify and restore printer-eject article 0044 on shared PDF 416.
+December 1992 restoration is in progress: twenty-three readable/sample-reviewed articles,
+one partial, six non-owning group headings, three section references and twelve unresolved
+identities. Batch 49 completes printer-eject article 0044 on shared PDF 416. Three 42-file
+exports match; all nine crops, ten printed code rows/two layout gaps and 177 text ranges
+validate. Legacy-inventory provenance is clarified without changing prior package bytes.
+Twenty-four roots contain 9,970 selected files; fourteen classifications remain separate.
+Next: verify news/radar heading 0045 and compound child 0046 from retained PDF 111/112.
 UNIX/year-feature locations, other bodies, full issue accounting, cover, standalone export/
 rebuild and closeout remain pending. Original-file recovery, source glyphs and historical
 claims remain unverified. See the [December record](docs/progress/9212.md). No reader rebuild.

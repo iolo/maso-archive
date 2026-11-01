@@ -4714,7 +4714,12 @@
           "sha256": "183c91cd46a7843639cc4af71cb1acabe39457a69e33c9e81c4acd209fbfcf04",
           "bytes": 934
         },
-        "legacy_inventory_disposition": "Shared inventory omitted uncertain-kind0043. Narrow frozen canonical0043 adapter validates exact issue queue/source/TOC/geometry/map anddirect source-backed independent-body decision;core andshared inventory remain unchanged."
+        "legacy_inventory_disposition": "Shared inventory omitted uncertain-kind0043. Narrow frozen canonical0043 adapter validates exact issue queue/source/TOC/geometry/map anddirect source-backed independent-body decision;core andshared inventory remain unchanged.",
+        "legacy_inventory_disposition_current": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/legacy-inventory-disposition.json",
+          "sha256": "ad88a9b975ac1513bcb080e29c7db063e513c8da8ba69dceb3ca2455585799a6",
+          "bytes": 1592
+        }
       }
     },
     {
@@ -4800,12 +4805,97 @@
       "toc_entry_id": "maso-1992-12-toc-0044",
       "title": "프린터가 이젝트를 하지 못할 때",
       "parent_id": "maso-1992-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 49 completes independent printer-eject article0044 on PDF416/individually read folio441. Source title and credit박상희, canonical parent0031/nullreference/order remain unchanged. Prose spans middle/right columns with a DEBUG script and three final command lines; original closing M ends the body above the separate Excel tip. Completed Clipper listing3/prose are excluded;415 is Clipper and417 a full advertisement.",
+        "Three42-file exports match, including a fresh process. All nine source crops,eight outcomes(twoeng/sixkor+eng),eight blocks,one original M graphic,48 reading rows and177 typed ranges/six empty-anchor occurrences validate. Every eligible region is disjoint from exclusions; all nine PNG decodes andone ZIP CRC pass. No cross-column prose join is invented between independent paragraphs.",
+        "Two code fragments retain ten printed text rows andtwo layout-gap anchors,twelve row contexts total. Nine logical command units cover the printed rows exactly; RCX andfollowing000B retain separate physical rows. Both E0100 addresses andall eleven printed two-digit hex tokens remain literal. The source11-byte claim is not proof of a resulting file size or executable bytes; no address repair,assembly,execution oroutput program creation.",
+        "Five file-reference occurrences,seven port occurrences,two physical word/filename wraps andeight source variants remain explicit. Source DEBUG〈FOF.SCR uses U+3008 glyph candidate withASCII< alternative;쉽/십,짜증스럽지 않다,000B/0008 and1/I/0/O candidates stay source-linked. Original encoded blank-line count,spacing,commands andclosingM character are unverified. Composite listing is not an original script/batch/program file; technical behavior claims remain literal.",
+        "All eight complete raw drafts read inone untruncated output beforeone literal source pass. All nine exact initial crops reviewed onthree sheets;three source-only enlarged details viewed. No crop repairs,retries orwithin-pass changes. Initial export eligibility rejection retained; frozen canonical0044/source/TOC/geometry/map guard resolves it without generic core orlegacy inventory edits. Six altered identity/source/map cases fail the scoped guard.",
+        "Twenty-two consistently rehashed custom-metadata edits pass generic exports andfail frozen private audit;no generic custom-schema claim. Direct legacy/current inventory evidence clarifies monitor0043 provenance without altering its body oravailability. All54582 prior December files,9928 former selected files/twenty-three roots,fourteen classifications,9332 September files andthirty core/source/runtime/TOC/queue pins remain exact. Unchanged213-test baseline reused. Assistant sample review only; human acceptance/full proofreading andoriginal glyphs/spaces/encoded bytes remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-49-r01/printer-eject",
+        "article_id": "scan-maso-1992-12-toc-0044",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-49-r01/printer-eject/manifest.json",
+          "sha256": "cc1f0377fa646a21083b4acb2102f6e8d7434e1ce234c96272b08056358d4a94",
+          "bytes": 7060
+        },
+        "coverage": {
+          "pdf_pages": [
+            416
+          ],
+          "printed_pages": [
+            "441"
+          ],
+          "regions": 9,
+          "blocks": 8,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 416,
+        "actual_end_pdf_page": 416,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/validation.json",
+          "sha256": "6d422b7d9e4e948d251feeafbc8b7185150273fbbb0af063c4673ee48fa14edd",
+          "bytes": 2999
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/reproduction.json",
+          "sha256": "9495fd170880d3b8821e8045bc3eff88a3b85aeb9caaba5ce908780667b63d64",
+          "bytes": 7991
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/fresh-process-reproduction.json",
+          "sha256": "039b870ac5a8191913b1300b68f04752e33764836f5c88ee1b5d84a4c040c893",
+          "bytes": 7649
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/negative-checks.json",
+          "sha256": "0ee6927ba97529892afda1fb698ec922a22bc6040298212913470673ba2c97c3",
+          "bytes": 3931
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/source-boundaries.json",
+          "sha256": "a308246f3f910a2bbbb6a5b52c0a412522893cb667446077de002d4e8b1cb135",
+          "bytes": 2439
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/printer-eject/package-recipe.json",
+          "sha256": "c60889609796b45939e1c9ebe51110551b48b19c922e2d6ceb26d45230d2b5c2",
+          "bytes": 2408
+        },
+        "eligibility_adapter": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/printer_adapter.py",
+          "sha256": "96f3e367abfa9eacbf4551a299bd3d54a7668027d19a9f1f6db03a56699ab963",
+          "bytes": 2721
+        },
+        "eligibility_inputs": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/eligibility-inputs.json",
+          "sha256": "ed70a9f5392fc6a415f4aacf09199db894e7f2ccb24c8c206af0e9e2b8d73451",
+          "bytes": 2173
+        },
+        "eligibility_validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/eligibility-validation.json",
+          "sha256": "facbd07ab4b8f45f78b254a88dde0e8bb965b63461e21271e55d4a463b8b162f",
+          "bytes": 1032
+        },
+        "legacy_inventory_disposition": {
+          "path": "archive/pdf/1992-12/restoration/batch-49/legacy-inventory-disposition.json",
+          "sha256": "ad88a9b975ac1513bcb080e29c7db063e513c8da8ba69dceb3ca2455585799a6",
+          "bytes": 1592
+        },
+        "checkpoint": "batch-49"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0045",
@@ -7289,15 +7379,79 @@
         "sha256": "9c0f9831968fc5e4dec6412fa55b9dfdf471971499455b32b604ab5bde74d7df",
         "bytes": 4732
       }
+    },
+    {
+      "name": "1992-12-batch-49",
+      "status": "complete",
+      "completed_at": "2026-11-01T04:57:02.947143+00:00",
+      "goal": "Restore printer-eject article0044 and clarify earlier monitor0043 legacy-inventory provenance without changing its body.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0044",
+        "maso-1992-12-toc-0043"
+      ],
+      "canonical_tasks": 2,
+      "body_tasks": 1,
+      "provenance_only_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        416
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        415,
+        417
+      ],
+      "recognition_invocations": 8,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 0,
+      "within_pass_crop_repairs": 0,
+      "scope_amendment": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/scope-amendment.json",
+        "sha256": "e8e2829409f8dff96327fd9932772ab95854e14cefdb8f69db1b8ee863a76a5a",
+        "bytes": 680
+      },
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/validation.json",
+        "sha256": "6d422b7d9e4e948d251feeafbc8b7185150273fbbb0af063c4673ee48fa14edd",
+        "bytes": 2999
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/reproduction.json",
+        "sha256": "9495fd170880d3b8821e8045bc3eff88a3b85aeb9caaba5ce908780667b63d64",
+        "bytes": 7991
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/source-boundaries.json",
+        "sha256": "a308246f3f910a2bbbb6a5b52c0a412522893cb667446077de002d4e8b1cb135",
+        "bytes": 2439
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/negative-checks.json",
+        "sha256": "0ee6927ba97529892afda1fb698ec922a22bc6040298212913470673ba2c97c3",
+        "bytes": 3931
+      },
+      "eligibility_validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/eligibility-validation.json",
+        "sha256": "facbd07ab4b8f45f78b254a88dde0e8bb965b63461e21271e55d4a463b8b162f",
+        "bytes": 1032
+      },
+      "legacy_disposition": {
+        "path": "archive/pdf/1992-12/restoration/batch-49/legacy-inventory-disposition.json",
+        "sha256": "ad88a9b975ac1513bcb080e29c7db063e513c8da8ba69dceb3ca2455585799a6",
+        "bytes": 1592
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 22,
+    "readable": 23,
     "partial": 1,
     "group_headings": 6,
     "section_references": 3,
-    "unresolved": 13
+    "unresolved": 12
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -7305,27 +7459,35 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-49",
-    "goal": "Verify and restore independent printer-eject article0044 from observed shared page416/441.",
+    "name": "1992-12-batch-50",
+    "goal": "Verify news/radar heading0045 andlocate compound0046 body fromretained divider111/domestic-news112 beforebounded restoration.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0044"
+      "maso-1992-12-toc-0045",
+      "maso-1992-12-toc-0046"
     ],
     "candidate_mapping_targets": [
-      416
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
       4,
       5,
-      415,
-      417
+      110,
+      111,
+      118,
+      120
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained whole416 andcontents4/5,adjacent415/417. Verify actual title/credit박상희,body ending/M andany continuation beforemapping. Exclude completedClipper listing3/prose andlowerindependentExcelgraytip. Preserve literal DEBUG script,hexbytes,commandspacing,printedfilename/bodyclaims andglyphcandidates without executing code or certifying original encoded files/technical truth. Canonicalparent0031/nullreference/order unchanged;other identities stay unchanged. Thirteen assembly adapters andBatch47 scopedmonitor eligibility adapter remain required for relevant prior builds. Current22readable/onepartial/sixgroups/threereferences/13unresolved;23selectedroots/9928files and14classificationsseparate. UNIX/year-featurelocations,other bodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeout remain required. Full December goal active;no reader rebuild."
+    "note": "Reuse Batch01 source-reviewed.json andretained111 newsdivider/localcontents,112 domesticnews/printed102 and120 domesticnews/printed110. Original contents4/5 andpriorcolumn110 provide context. Verify actual heading/hierarchy,compound childownership,first/last section extents andadjacent pages before mapping atmostsixconfirmed first-native pages; allother branches remain pending until directly reviewed. Preserve canonical0045/0046 identities,parentrelationship andnullreferences;do not split compoundtitle into invented canonicalchildren. Legacy sharedinventory lacks0045/0046;preflight eligibility against frozen issuequeue/source evidence before export anduse scopedadapter if bodyownership confirmed. Do not reuse Batch47 uncertain-kind causal explanation;Batch49 current legacy disposition proves olderTOC snapshot instead. Thirteenassemblyadapters plus scopedmonitor/printer eligibility adapters apply to relevant prior builds. Current23readable/onepartial/sixgroups/threereferences/12unresolved;24selectedroots/9970files and14classificationsseparate. UNIX/year-featurelocations,otherbodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeout remain required. Full December goal active;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
