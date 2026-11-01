@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: fifteen readable/sample-reviewed articles,
-two partials, four group headings, three section references and 21 unresolved identities.
+Current totals: sixteen readable/sample-reviewed articles,
+one partial, four group headings, three section references and 21 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -675,22 +675,57 @@ All 46,032 prior December files, 8,484 former selected files, twelve classificat
 9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain
 exact. Unchanged 213-test baseline reused; no core changes.
 
-Next: restore final 395–396 as immutable native d and actually assemble all twenty pages
-377–396 from independently regenerated a/b/c/d. Review prior 377–394 plus following 397
-as nineteen outside pages; two newly mapped pages keep the checkpoint within 2/6/20.
-Preserve C669–823 and ASM001–118 through END on 396, refining the independent lower
-subscription-notice exclusion. Keep C668/C669 separate numbered physical rows; retain
-all native custom indexes and actual prose joins 382→383 and 388→389. Preserve historical
-natives and their scope notes with an explicit current complete-assembly disposition.
-All eleven prior adapters remain required; add a private frame-grabber guard/adapter
-if necessary. Promote 0029 only after verified actual assembly. Hardware 0028 is final;
-0030 remains unresolved. Totals stay fifteen readable/sample-reviewed articles, two
-partials, four groups, three section references and 21 unresolved identities. Nineteen
-selected roots contain 8,738 files; twelve classification files are separate. UNIX
-locations, feature 0019 continuation/ending/children, other bodies/assemblies, all
-446-page accounting, cover, standalone export/rebuild and closeout remain required.
-Original glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full
-proofreading remain unverified. Full December goal active. No reader rebuild.
+Batch 42 restores final PDF 395–396/individually read folios 420–421 as a 53-file
+immutable native d, then actually assembles the complete twenty-page frame-grabber
+article 377–396/402–421. Article 0029 is now readable/sample-reviewed. Three complete
+1,137-file exports match, consuming all 1,128 independently regenerated native files.
+Historical natives and their scope notes remain unchanged, with an explicit current
+complete-assembly disposition. Canonical identity/title/parent/reference remain exact.
+
+All 292 original source crops, 267 OCR outcomes/settings, 243 blocks, 25 figures and
+2,761 reading rows validate. All 14,753 projected native ranges and 29,916 current typed
+ranges pass; 1,956 repeated empty-anchor occurrences are separate from printed blanks.
+Two actual prose joins 382→383 and 388→389 retain physical wraps and intervening panels.
+C668/C669 remain separate numbered physical rows. All 292 PNGs and five ZIP CRCs pass.
+
+Three printed listings retain 985 labels/physical rows: header 44, C 823 and ASM 118,
+ending END above the independent lower-396 subscription notice. All 129 numbered blanks,
+zero unnumbered wraps and 32 fragment continuations remain. Earlier 29 inline code rows
+and six marginal flow labels stay separate. Fifteen C function candidates include the
+complete cross-native col_6 body; two ASM PROC/ENDP pairs remain. VERT_SYNC2 is a comment
+reference; no unprinted routine or valid-code repair is supplied.
+
+Complete custom projection retains 21 table panels/757 cells including headers, 138
+pinout pairs, 62 slot entries, circuit/passive/flow candidates, 123 graphic markers,
+24 opaque runs with unknown original counts/bytes, 536 punctuation candidates, fifteen
+inline terminal candidates and seventy source variants. Seven priced entries and the
+retained eight-to-seven assistant-note disposition, seven construction steps, six tips,
+five improvements, six references and contact remain separate. Printed defects and
+glyph/filename/claim differences remain literal; original files and execution unverified.
+
+All eleven final complete raws read before one literal pass: ten eng/one kor+eng,
+zero retries or within-pass crop changes. One pre-OCR lower-margin repair retains the
+initial map/crops and ten exact crop copies. Four 3x original-pixel details reviewed
+without recognition. Native d preserves 273 labels/36 numbered blanks, five opaque runs
+and 113 punctuation candidates. OCR-omitted directives/blank labels restored from scans.
+
+Twenty-five consistently rehashed root/recipe/native edits fail the frozen private
+projection/check_assembly; no generic custom-schema claim. All 47,685 prior December
+files, 8,738 former selected files, twelve classifications, 9,332 September reference
+files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test
+baseline reused; no core changes or new assembly OCR/source pass.
+
+Next: verify and restore laser-printer article 0030 from its observed independent opening
+397. Establish its actual extent before mapping at most six pages; do not infer a global
+folio offset or ending from TOC references. Canonical 편집부 and source 김현숙 기자 credits
+remain separate. Hardware 0028 is final. Install all twelve prior adapters, including
+batch-42/framegrabber_adapter, for selected-root checks. Totals are sixteen readable/
+sample-reviewed articles, one partial, four groups, three section references and 21
+unresolved identities. Seventeen selected roots contain 8,800 files; twelve classification
+files are separate. UNIX locations, year-feature 0019 continuation/ending/children, other
+bodies/assemblies, all 446-page accounting, cover, standalone export/rebuild and closeout
+remain required. Original glyphs/spaces/encoded bytes, technical truth, execution, human
+acceptance/full proofreading remain unverified. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

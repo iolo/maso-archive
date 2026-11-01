@@ -13,16 +13,15 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: fifteen readable/sample-reviewed articles,
-two partials, four non-owning group headings, three section references and 21 unresolved
-identities. Batch 41 preserves frame-grabber continuation PDF 389–394 as a 254-file
-immutable native. Three independent/fresh-process exports match; all 65 source crops,
-712 printed code labels/93 blank rows, complete construction inset and twenty altered-data
-checks validate. Eighteen of twenty article pages are preserved across natives a/b/c;
-final 395–396 and actual assembly remain required. Nineteen selected roots contain
-8,738 files; twelve classification files remain separate.
-Next: restore 395–396 and actually assemble the complete twenty-page article. UNIX
-openings and the year-in-review continuation remain unlocated. Other bodies, full issue
+December 1992 restoration is in progress: sixteen readable/sample-reviewed articles,
+one partial, four non-owning group headings, three section references and 21 unresolved
+identities. Batch 42 completes the twenty-page frame-grabber article on PDF 377–396.
+Three 1,137-file exports match from four regenerated natives; all 292 source crops,
+985 printed listing labels/129 blank rows, complete custom indexes and 25 altered-data
+checks validate. Seventeen selected roots contain 8,800 files; twelve classification
+files remain separate. Historical native evidence and source uncertainties are retained.
+Next: verify and restore the laser-printer article from its observed opening on 397.
+UNIX openings and year-in-review continuation remain unlocated. Other bodies, full issue
 accounting, cover, export/rebuild and closeout remain pending. See the
 [December record](docs/progress/9212.md). No reader rebuild.
 
