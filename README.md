@@ -15,14 +15,15 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: twenty-three readable/sample-reviewed articles,
 two partials, seven non-owning group headings, three section references and ten unresolved
-identities. Batch 51 preserves information-radar continuation PDF 117–122. Three selected
-312-file exports match; all 82 crops and 1,227 text ranges validate. Earlier native a
-regenerates exactly. Both natives preserve eleven pages 112–122 and 520 files; the compound
-entry remains partial. Twenty-six roots contain 10,490 selected files; sixteen classification
-files remain separate. Next: domestic ending and overseas continuation 123–128.
-Remaining bodies/assemblies, issue accounting, cover, standalone export/rebuild and closeout
-remain pending. Original bytes and historical/technical claims remain unverified. See the
-[December record](docs/progress/9212.md). No reader rebuild.
+identities. Batch 52 preserves information-radar continuation PDF 123–128, including the
+domestic ending, separate December-events notice and overseas news. Three 323-file exports
+match; all 84 crops and 1,304 text ranges validate. Earlier natives a/b regenerate exactly.
+Three natives preserve seventeen pages 112–128 and 843 files; the compound remains partial.
+Twenty-seven roots contain 10,813 selected files; sixteen classification files are separate.
+Next: compound continuation 129–134. Remaining bodies/assemblies, issue accounting, cover,
+standalone export/rebuild and closeout remain pending. Original bytes and historical/
+technical claims remain unverified. See the [December record](docs/progress/9212.md).
+No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

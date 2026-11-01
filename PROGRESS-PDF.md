@@ -1011,17 +1011,66 @@ partials, seven groups, three section references and ten unresolved identities. 
 selected roots contain 10,490 files; sixteen classification files remain separate.
 Compound natives a/b preserve eleven pages 112–122 and 520 files; availability stays partial.
 
-Next: review and restore compound continuation 123–128 as immutable native c. Verify the
-floptical continuation on 123, remaining domestic items and December-events panel ownership,
-then overseas opening 124 and unviewed 125–128 with outgoing 129. Reuse contents 4/5,
-divider 111, native tail 122 and overseas/software anchors 133/134 as needed. Preserve
-each intrinsic item, image, caption, credit, contact and literal claim without new canonical
-children. A new native needs its own frozen eligibility guard outside prior a/b guards,
-with unchanged-map delegation. Sixteen prior adapters plus the native-b guard apply to
-relevant builds. At most two canonical tasks/six mapped/twenty outside pages.
-Remaining compound branches and actual full assembly, year-feature/UNIX locations, other
-bodies/assemblies, all 446-page accounting, cover, standalone export/rebuild and closeout
-remain required. Full December goal active. No reader rebuild.
+Batch 52 preserves compound information-radar entry 0046 continuation PDF 123–128,
+individually read folios 113–118, as immutable native c. Domestic news ends on 123;
+the explicit overseas-network heading starts on 124. Thirteen main news flows retain
+eleven complete items wholly within this native, the incoming floptical tail and the
+outgoing printer opening. Canonical compound title, parent 0045, null reference and
+all other identities remain unchanged.
+
+The December-events panel on 123 belongs to the domestic-news branch as an ancillary
+sidebar. Its embedded placement before the overseas heading supports that decision.
+The closing M separates the product-news flow; the notice remains distinct from HDD
+prose. Preserve the complete original panel and searchable heading, bullet, body,
+dates and historical organizer contacts. No new canonical child or current invitation.
+
+Three 323-file exports match, including a fresh process. All 84 source crops, 77 OCR
+outcomes, 44 blocks, seven original images, 775 reading rows and 1,304 typed ranges/
+34 empty anchors validate. Thirteen prose groups retain 33 column/page boundaries
+and their intervening material. Five captions, three reporter credits, five historical
+contact blocks, three embedded vendor-contact contexts, seventeen variants and 239
+literal numeric occurrences remain source-linked. Earlier natives a/b regenerate
+exactly through the new guard's delegation: 208 and 312 files respectively.
+
+All 84 initial crops on 25 sheets and seven repaired crops on two sheets were directly
+reviewed before recognition; 77 unchanged crops remain exact. All 77 complete raw
+drafts were read in one untruncated output before one literal source pass, all kor+eng.
+Seven pre-OCR edge repairs are retained in a fresh map revision. Zero OCR retries or
+within-pass crop changes. The unchanged 213-test baseline is reused.
+
+Literal 1.44KB, the wrapped 19/.2GB claim, model I/1 candidates, spelling differences,
+prices, release forecasts and physical identifier wraps remain source occurrences.
+Their technical or historical truth, current applicability and original encoded bytes
+are unverified. Tiny embedded image lettering and screenshot BASIC code are not
+exhaustively transcribed. No original file recovery, execution, human acceptance or
+full proofreading claim.
+
+The incoming 122→123 continuation starts a new paragraph after a complete sentence;
+no physical word merge is inferred. Outgoing 128 ends 애플 and 129 begins 토크,
+continuing one word. Both fragments and source contexts remain explicit; actual
+cross-native assembly is still required. Twenty-five consistently rehashed metadata
+edits pass generic exports and fail the frozen private source audit; six altered
+eligibility cases are rejected. No generic custom-schema enforcement claim.
+
+All 56,952 prior December files, 10,490 former selected files/26 roots, sixteen
+classification files, 9,332 September files and thirty core/source/runtime/TOC/queue
+pins remain exact. Totals stay twenty-three readable/sample-reviewed articles, two
+partials, seven groups, three section references and ten unresolved identities.
+Twenty-seven selected roots contain 10,813 files; sixteen classification files remain
+separate. Natives a/b/c preserve seventeen pages 112–128 and 843 files; the compound
+entry stays partial.
+
+Next: review and restore compound continuation 129–134 as immutable native d. Verify
+the printer ending on 129, unseen overseas pages 130–132, the endpoint on 133, and
+the software-review opening on 134 with outgoing 135. Reuse contents 4/5, divider
+111, native tail 128 and later compound anchors 141/142 as needed. Preserve each
+intrinsic item, original image, caption, credit, contact and literal claim without new
+canonical children. A new native needs a frozen eligibility guard outside prior a/b/c
+guards with unchanged-map delegation. Seventeen prior adapters plus the native-c
+guard apply to relevant builds. At most two canonical tasks/six mapped/twenty outside
+pages. Remaining compound branches and actual full assembly, year-feature/UNIX
+locations, other bodies/assemblies, all 446-page accounting, cover, standalone export/
+rebuild and closeout remain required. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
