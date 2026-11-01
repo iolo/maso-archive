@@ -133,15 +133,28 @@ regions remain in three maps. Printed software/grammar/bit-depth/age/price claim
 stay literal. Nine invalid custom-data cases are rejected; all 15,002 prior files
 and thirty core modules remain exact. Final 180–181 and actual assembly pending.
 
-Current totals: three readable articles, one partial, one non-owning group, three
-section references and 44 unresolved identities among 52. Four current body-owner
-packages contain 1,164 exact files; original feature/copyright natives remain
-unchanged. Batch 10 preserves final Macworld pages 180–181 and actually assembles
-the complete eight-page article with both original incoming contexts and every
-custom image/caption/presenter/claim index. Remaining bodies, 433-page accounting,
-cover and issue closeout remain required. See [March progress](docs/progress/9303.md)
-and the [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
-No reader rebuild.
+Batch 10 preserves final Macworld 180–181 and actually assembles all eight pages:
+282 exact r02 files from two independently regenerated natives/274 files and a
+fresh-process rebuild. All 75 crops, 61 outcomes, 1,542 metadata projections, 3,028
+current ranges and 710 physical rows validate. One 179→180 prose join retains both
+original contexts and nine intervening graphic items. Fourteen images, seven
+caption blocks/twelve associations, six covers, three presenters, 21 courses,
+six contacts/27 rows and four phone/fax occurrences retain source contexts.
+Final native b adds 25 initial calls after one pre-OCR fax repair, one source pass
+and zero retries/post-pass changes. R01's semantic audit caught caption block IDs
+in figure.caption text fields; r02 resolves twelve current captions from verified
+literal ranges. Only six root JSON files change; all native, article-text, asset
+and raw-ZIP bytes remain exact. Nine rehashed assembly/two ownership mutations
+are rejected; all 15,167 prior files and thirty core modules remain unchanged.
+
+Current totals: four readable articles, one non-owning group, three section
+references and 44 unresolved identities among 52; no partial remains at this
+checkpoint. Four current body-owner packages contain 1,281 exact files; original
+natives, classification evidence and the superseded Macworld assembly remain
+retained. Batch 11 verifies the Nintendo article's source extent, then restores
+up to six verified body pages. Remaining bodies, 433-page accounting, cover and
+issue closeout remain required. See [March progress](docs/progress/9303.md) and the
+[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01
 

@@ -107,12 +107,24 @@ zero retries or post-pass changes. Eleven pre-OCR events across nine original
 regions remain in three maps. Printed software/grammar/bit-depth/age/price claims
 stay literal. Nine invalid custom-data cases are rejected; all 15,002 prior files
 and thirty core modules remain exact. Final 180–181 and actual assembly pending.
-Current totals: three readable articles, one partial, one non-owning group, three
-final section references and 44 unresolved identities. Next: preserve final Macworld
-180–181, including its storage/software prose, Sony photograph and related education
-sidebar, then actually assemble all eight pages. Validate both original 179→180
-contexts and retain literal course/address/contact rows without treating them as
-current recommendations. Full issue goal active; no reader rebuild.
+Batch 10 preserves final Macworld 180–181 and actually assembles all eight pages:
+282 exact r02 files from two independently regenerated natives/274 files and a
+fresh-process rebuild. All 75 crops, 61 outcomes, 1,542 metadata projections, 3,028
+current ranges and 710 physical rows validate. One 179→180 prose join retains both
+original contexts and nine intervening graphic items. Fourteen images, seven
+caption blocks/twelve associations, six covers, three presenters, 21 courses,
+six contacts/27 rows and four phone/fax occurrences retain source contexts.
+Final native b adds 25 initial calls after one pre-OCR fax repair, one source pass
+and zero retries/post-pass changes. R01's semantic audit caught caption block IDs
+in figure.caption text fields; r02 resolves twelve current captions from verified
+literal ranges. Only six root JSON files change; all native, article-text, asset
+and raw-ZIP bytes remain exact. Nine rehashed assembly/two ownership mutations
+are rejected; all 15,167 prior files and thirty core modules remain unchanged.
+Current totals: four readable articles, one non-owning group, three final section
+references and 44 unresolved identities. Next: verify the extent and ending of
+canonical Nintendo article 0009; opening 182/printed 180 is already observed.
+Restore up to six verified body pages with literal historical medical wording,
+original images and source context. Full issue goal active; no reader rebuild.
 See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
@@ -2980,6 +2992,9 @@ ceilings of three articles/twelve pages do not expand the operating limits.
    associations separately. Check code rows, table cells, identifiers, literals,
    physical wraps and continuation boundaries explicitly. Successful OCR can omit
    content; model agreement or plausible code does not establish fidelity.
+   A figure's `caption` field is display text. Keep block/region references in
+   explicit caption-association indexes, and verify both the literal caption text
+   and its source ranges; a block ID string is not a display caption.
 4. Correct the selected draft once against scans. Preserve historical spelling,
    printed mistakes and uncertain glyphs. Do not repair a program using expected
    syntax, opcode semantics or execution. Keep source-linked uncertainty records;

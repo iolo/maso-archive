@@ -6,22 +6,26 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: three readable/sample-reviewed articles, one partial,
-one non-owning group, three final section references and 44 unresolved identities
-among 52. Macworld article 0008's actual body is PDF 174–181; opening 174–179 is
-preserved as a 165-file partial native. Two exports and a fresh-process rebuild
-match; all 49 crops, thirteen images, 36 outcomes, 922 ranges and 496 reading rows
-validate. Six captions/eleven image associations, six cover panels, three presenters,
-four headings and seventeen reading boundaries retain source contexts.
-All drafts were read before one source pass; no retries or post-pass changes.
-Eleven pre-OCR events/nine original regions remain in three maps. Printed spelling,
-grammar, bit-depth, age and price claims stay literal. Nine invalid custom-data cases
-are rejected; all 15,002 prior files and thirty core modules remain exact. The prior
-fresh 213-test result is retained. Four current body-owner packages contain 1,164
-files. Next: final Macworld pages 180–181 and actual eight-page assembly. Remaining
-bodies, 433-page accounting, cover and issue closeout remain required.
-See [March progress](docs/progress/9303.md) and its
-[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+March 1993 is in progress: four readable/sample-reviewed articles, one non-owning
+group, three final section references and 44 unresolved identities among 52.
+The complete Macworld report on PDF 174–181 has 282 exact r02 files, reproduced
+from both independently regenerated natives/274 files and in a fresh process.
+All 75 crops, 61 outcomes, 1,542 projected metadata ranges, 3,028 current ranges
+and 710 physical rows validate. Fourteen images, seven captions/twelve associations,
+six covers, three presenters, 21 courses and six contacts/27 rows remain explicit.
+One 179→180 prose join retains both original contexts and nine intervening graphic
+items; main conclusion and related education sidebar remain separate.
+Final native b adds 25 initial calls, one source pass and zero retries/post-pass
+changes after one fax crop repair. R02 resolves twelve figure-caption display
+fields from literal source ranges; the original native fields contained block IDs.
+Only six root JSON files change; article/native/asset/raw-ZIP bytes are unchanged.
+Nine rehashed assembly and two ownership mutations are rejected; all 15,167 prior
+files and thirty core modules remain exact. The prior fresh 213-test result is
+retained. Four current body-owner packages contain 1,281 files. Next: verify and
+restore the Nintendo article, canonical 0009. Remaining bodies, 433-page accounting,
+cover and issue closeout remain required. See [March progress](docs/progress/9303.md)
+and its [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
+No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.
 The 13,097-file standalone collection reproduces exactly from 59 natives and fourteen
