@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: twenty-seven readable/sample-reviewed articles,
-one partial, seven group headings, three section references and seven unresolved identities.
+Current totals: twenty-eight readable/sample-reviewed articles,
+one partial, seven group headings, three section references and six unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -1515,6 +1515,60 @@ verified extent; segment any longer body and assemble separately. Keep at most t
 canonical tasks and twenty outside lookup pages. Year-feature continuation/child
 references, UNIX locations, remaining reader bodies, all 446-page accounting, cover,
 standalone issue export/rebuild and closeout remain required. No reader rebuild.
+
+Batch 59 completes canonical reader voices 0038, 독자의소리, on PDF 425–426,
+individually read printed 450–451. Twelve whole views establish the independent Q&A
+ending on 424, both body pages and following advertisements 427–432. Publisher price
+notice 433 is independent and does not classify the canonical bulletin. Source title
+독자의 소리 and canonical spelling remain separate; null parent/reference 450 unchanged.
+Four intrinsic signed letters create no canonical children or article byline.
+
+Three 93-file JSON/assets exports match byte for byte, including a fresh process.
+All 22 source-exact crops, 21 OCR outcomes, fourteen blocks, one original photograph
+and 482 typed ranges validate. Four letters retain headings, complete bodies and
+four historical name/locality credits. The 322 nonempty physical rows remain distinct
+from twenty reading-notation paragraph separators/empty anchors. Four prose groups
+retain seven continuation boundaries, one across pages, without merging physical rows.
+Closing M remains separate graphic notation; the photograph has no invented caption.
+
+Eight source variants, 25 numeric occurrences, ten historical claim occurrences and
+four company-name candidates retain their original contexts. Printed 드라이버, 네트웍,
+범이산업, 한솔, 구자록, versions 3.3/5.0/6.0, memory values 640/736, October 15 and
+current 23/next 24 exhibition references remain literal. Enlarged 김지원 supersedes
+the prospective whole-page 김지현 note; identities remain unverified. Quotation glyphs
+are Unicode candidates. Compatibility, royalties, capacity and future-release claims
+remain historical reader opinions, without technical or historical certification.
+
+Eight pre-OCR edge changes affect seven distinct crops; fifteen selected crops still
+equal initial crops. All 22 initial crops on eleven sheets and every changed full crop
+were reviewed before recognition. All 21 complete raw drafts were read in one untruncated
+output before one literal source pass. Four source-only enlargements were viewed
+without OCR. Zero retries or within-pass changes. A pending layout view was completed
+after polling the original render process. The first audit helper wrongly expected
+a code listing; revised audit verifies its absence. Earlier helper/evidence retained,
+with source/export bytes unchanged. Prospective wall times include tool/orchestration
+latency and do not measure isolated manual throughput.
+
+Twenty-four consistently rehashed custom-metadata edits pass generic integrity and
+fail frozen private source/index audits; no generic custom-schema claim. All 70,692
+prior December files, 12,710 former selected files across 28 roots, sixteen classifications,
+9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact.
+The unchanged 213-test baseline is reused. Original glyphs/spacing/encoded bytes,
+software/files, execution, technical/historical truth, identities, human acceptance
+and full proofreading remain unverified.
+
+Only 0038 advances. Totals: twenty-eight readable/sample-reviewed articles, one partial,
+seven group headings, three section references and six unresolved identities among 45.
+Twenty-nine selected roots contain 12,803 files; sixteen classifications remain separate.
+The full December objective remains active.
+
+Next checkpoint 60 locates and verifies bulletin 0041 and Ctrl-Break 0042. References
+462/463 and candidate PDF 437/438 do not establish locations or a global folio offset.
+Confirm actual titles, folios, extent, endings and ownership before mapping at most six
+pages/two canonical tasks. Outside lookup limit remains twenty pages. Year-feature
+continuation/child references, UNIX locations, remaining reader bodies, all 446-page
+accounting, cover, standalone issue export/rebuild and closeout remain required.
+No reader rebuild.
 
 ## September 1991 closeout, 2026-10-31
 

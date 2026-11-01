@@ -13,16 +13,16 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: twenty-seven readable/sample-reviewed articles,
-one partial, seven non-owning group headings, three section references and seven unresolved
-identities. Batch 58 completes reader Q&A on PDF 419–424/printed 444–449. Three exports
-match across 387 files, 99 source-exact crops and 1,107 validated ranges. Fourteen exchanges,
-three editorial notices, original figures, commands and physical wraps remain source-linked.
-Twenty-eight roots contain 12,710 selected files; sixteen classification files are separate.
-Next: verify and restore reader voices from its confirmed PDF 425/printed 450 opening.
-Remaining bodies, issue accounting, cover, standalone export/rebuild and closeout are pending.
-Source glyph candidates and historical/technical claims remain unverified. See the
-[December record](docs/progress/9212.md). No reader rebuild.
+December 1992 restoration is in progress: twenty-eight readable/sample-reviewed articles,
+one partial, seven non-owning group headings, three section references and six unresolved
+identities. Batch 59 completes reader voices on PDF 425–426/printed 450–451. Three exports
+match across 93 files, 22 source-exact crops and 482 validated ranges. Four complete signed
+letters, the original photograph, physical wraps and historical claims remain source-linked.
+Twenty-nine roots contain 12,803 selected files; sixteen classification files are separate.
+Next: locate and verify the bulletin and Ctrl-Break bodies. Remaining bodies, issue accounting,
+cover, standalone export/rebuild and closeout are pending. Source glyph candidates, identities
+and historical/technical truth remain unverified. See the [December record](docs/progress/9212.md).
+No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
