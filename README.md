@@ -14,17 +14,17 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
-one partial, seven non-owning group headings, three section references and four unresolved
-identities. All 446 physical pages have primary classes; seventeen mixed contexts are
-reconciled. Batch 69 finalizes the two dependent year-feature child-reference gaps. Four
-tasks are final for this PDF pass: two original-content location gaps and two related
-reference gaps, without claiming four missing independent articles or original source
-omission. Three four-file exports match, including a fresh process. Canonical states and
-13,001 selected article files/31 roots remain unchanged; sixteen classifications separate.
-Next: determine shell 0023 attribution/recovery from the unassigned fragment on 300–305.
-Final integrated ownership/gap accounting, usable cover verification, standalone JSON/assets
-issue export/rebuild and closeout remain pending. See the [December record](docs/progress/9212.md).
-Full objective active. No reader rebuild.
+two partials, seven non-owning group headings, three section references and three unresolved
+identities. Batch 70 attributes and restores the six-page surviving human-shell listing
+as partial; its opening and complete original extent remain unlocated. All 63 files
+reproduce exactly, eighteen crops match source pixels and twenty semantic checks pass.
+All 446 pages have integrated material/ownership outcomes: 244 selected body pages,
+32 maps and 32 exclusions across fifteen mixed body pages. Five final PDF-pass gap tasks
+comprise three original-content gaps plus two related references; full original recovery
+and original source omission remain unverified. Selected bodies total 13,064 files across
+32 roots, with sixteen classification files separate. Next: usable cover verification,
+final integration, standalone JSON/assets issue export/rebuild and closeout.
+See the [December record](docs/progress/9212.md). Full objective active. No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

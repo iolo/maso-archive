@@ -2933,16 +2933,190 @@
       "toc_entry_id": "maso-1992-12-toc-0023",
       "title": "유닉스 쉘을 만들자(마지막회) : 휴먼쉘의 고급 기능",
       "parent_id": "maso-1992-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
       "classification_evidence": [
         "Batch 35 directly reviews twenty complete source views 280–289 and 330–339: all full advertisements, with no confirmed visible magazine folios. No independent opening for this canonical UNIX article is observed in these twenty pages. Book page counts, prices and promotional newspaper dates are not magazine folios. No mapping, OCR, source pass, ownership or classification advance.",
         "Combined non-owning source index covers sixty physical pages 280–339 and retains all original prior observations/limits. Three index/disposition files reproduce independently and in a fresh process. All sixty source images/pins, twenty current layout/source observations and sixteen altered private disposition fixtures validate. These frozen private checks do not claim generic schema coverage or complete-source absence.",
-        "Canonical contents references 306/314 remain references, not physical page assignments. Prior shell-listing continuation views 300–305 do not establish either independent opening or complete article extent. Location remains pending during restoration of the next eligible article and full 446-page accounting. No missing-page count, final unavailable outcome, full recovery or source-wide absence inferred. All earlier article packages, feature 0019 partial/children and classification outcomes remain exact."
+        "Canonical contents references 306/314 remain references, not physical page assignments. Prior shell-listing continuation views 300–305 do not establish either independent opening or complete article extent. Location remains pending during restoration of the next eligible article and full 446-page accounting. No missing-page count, final unavailable outcome, full recovery or source-wide absence inferred. All earlier article packages, feature 0019 partial/children and classification outcomes remain exact.",
+        "Batch70 attributes the continuous surviving shell listing on physical300–305/individually read printed325–330 to canonical0023. Named local CD1 reference9212314 and six declaration matches on bounded source pages300/305 support identity; all six fragment pages directly reviewed for continuity. Canonical title/byline/parent/order/reference314 remain unchanged. No independent PDF opening/title/byline or complete original article extent recovered; CD text was not substituted for missing PDF text.",
+        "One partial native covers all six surviving fragment pages:63 independently/fresh-process exact files,18 exact crops including six complete original listing panels,12 initial eng OCR outcomes,12 searchable columns,845 printed labels0221–1065,852 physical rows,142 numbered blanks,seven unnumbered wraps/carries,39 visible signatures and11 boundaries. All complete raw drafts read before one literal source correction pass; zero OCR retries or within-pass crop changes. Printed numbers remain separate from code; defects/glyph/spacing candidates retained without source repair or execution.",
+        "Current source audit supersedes earlier1065 blank reading:1065 is a closing brace. Source signature0577 candidate is GolBaengLee_Command, superseding prospective GolBeangLee observation. Original raw/maps, failed helpers and prior observations retained. Twenty consistently rehashed private semantic mutations rejected after generic export structure passed. All72,502 prior December files,13,001 prior selected files,16 classifications,9,332 September files,30 core modules and15 local CD reference files remain exact.",
+        "Fragment starts mid-program at0221 and ends above excluded lower305 relocation advertisement;306 is an advertisement. Original opening/prose/listing start and complete original extent remain unlocated; no missing-page count or original omission inferred. Native fragment is complete within its surviving six pages, while canonical availability remains partial. Its final current-PDF gap outcome is external; original program files/bytes, compilation/execution, full proofreading and human acceptance remain unverified."
       ],
-      "restoration": null,
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-70-r01/human-shell",
+        "article_id": "scan-maso-1992-12-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-70-r01/human-shell/manifest.json",
+          "sha256": "82fc8703cd40139056e314c487b0e6e44d125cb13c67c606fe1a778472cc668f",
+          "bytes": 10840
+        },
+        "coverage": {
+          "pdf_pages": [
+            300,
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "printed_pages": [
+            "325",
+            "326",
+            "327",
+            "328",
+            "329",
+            "330"
+          ],
+          "regions": 18,
+          "blocks": 12,
+          "figures": 6,
+          "ocr_outcomes": 12,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": true,
+          "deferred_page_locations_known": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": null,
+        "actual_end_pdf_page": null,
+        "actual_ending_observed": false,
+        "preserved_pdf_pages_across_natives": [
+          300,
+          301,
+          302,
+          303,
+          304,
+          305
+        ],
+        "remaining_pdf_pages": [],
+        "remaining_page_locations_known": false,
+        "current_single_native_fragment_complete": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/validation.json",
+          "sha256": "b24976d43fe2e2e1a477eabb693eb70b5384abe12ec87902d5bd1070da9c71bd",
+          "bytes": 1683
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/reproduction.json",
+          "sha256": "b351ff36631d796657b189a935bf2c2edf9708f843d1d54a531d87e688893388",
+          "bytes": 11351
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/fresh-process-reproduction.json",
+          "sha256": "1363dd95beabc1dfee914d0e38ced04a58fb5c77748c943128eb4f9ec5789aef",
+          "bytes": 11046
+        },
+        "source_audit": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/source-audit.json",
+          "sha256": "dbc528f5758d291cfc83a384612fe4d20a6c8e8189dcdeb18996cb363df7ed8d",
+          "bytes": 716
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/source-boundaries.json",
+          "sha256": "6f830977b5164bb1a714a78fa73559c06c5277a0952b5f31a5b95e28e28187c8",
+          "bytes": 1145
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/negative-checks.json",
+          "sha256": "fad9f2a5ab58749c60361482f66def854e8fc0be2ab4d5e190e8fdfce5ae0360",
+          "bytes": 4428
+        },
+        "checkpoint": "batch-70",
+        "source_fragment_limits": [
+          "Original article opening, explanatory prose, listing title/start and any other unavailable parts remain unlocated. This native is partial despite complete coverage of the surviving six-page fragment.",
+          "845 visible numbered rows are not a count of original missing lines/pages. No original source omission or missing-page count inferred.",
+          "A bounded named-CD association supports identity but supplies no unseen PDF content; CD reference print-verification status remains pending outside the limited comparison."
+        ],
+        "segment_scope": {
+          "current_pdf_pages": [
+            300,
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "current_printed_pages": [
+            "325",
+            "326",
+            "327",
+            "328",
+            "329",
+            "330"
+          ],
+          "surviving_fragment_pages_complete": true,
+          "fragment_first_pdf_page": 300,
+          "fragment_last_pdf_page": 305,
+          "fragment_first_printed_label": "0221",
+          "fragment_last_printed_label": "1065",
+          "last_printed_label_candidate": "}",
+          "actual_start_pdf_page": null,
+          "actual_end_pdf_page": null,
+          "independent_original_article_opening_observed": false,
+          "actual_original_article_ending_certified": false,
+          "body_pages_complete": false,
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": true,
+          "remaining_page_locations_known": false,
+          "deferred_pdf_pages": [],
+          "current_single_native_fragment_complete": true,
+          "availability": "partial",
+          "limit": "Complete surviving continuous six-page listing fragment only. Original independent opening, prose and listing beginning remain unlocated; source omission/missing-page count and original article extent unverified. No CD text substituted for absent PDF source."
+        },
+        "final_gap_disposition": {
+          "context": {
+            "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/final-gap-dispositions.json",
+            "sha256": "70288032a54dc7566d5830668e1889d5ffa980d702958245ad659786ea84f9b5",
+            "bytes": 27163
+          },
+          "pointer": "/targets/4"
+        },
+        "native_segments": [
+          {
+            "name": "surviving-fragment",
+            "directory": "archive/pdf/1992-12/packages/batch-70-r01/human-shell",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-70-r01/human-shell/manifest.json",
+              "sha256": "82fc8703cd40139056e314c487b0e6e44d125cb13c67c606fe1a778472cc668f",
+              "bytes": 10840
+            },
+            "pdf_pages": [
+              300,
+              301,
+              302,
+              303,
+              304,
+              305
+            ],
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-70/human-shell-r02/package-recipe.json",
+              "sha256": "22c2c2995162cb9ef13631f7064bd5801547ebe8db7158c1520e121437a416b7",
+              "bytes": 6179
+            },
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-70/validation.json",
+              "sha256": "b24976d43fe2e2e1a477eabb693eb70b5384abe12ec87902d5bd1070da9c71bd",
+              "bytes": 1683
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-70/reproduction.json",
+              "sha256": "b351ff36631d796657b189a935bf2c2edf9708f843d1d54a531d87e688893388",
+              "bytes": 11351
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-70/source-boundaries.json",
+              "sha256": "6f830977b5164bb1a714a78fa73559c06c5277a0952b5f31a5b95e28e28187c8",
+              "bytes": 1145
+            }
+          }
+        ]
+      },
       "location_searches": [
         {
           "checkpoint": "batch-35",
@@ -10261,15 +10435,165 @@
         "sha256": "2f208c0b454507c0e33149c8f25de03dafd37be361c0234dcbefa9719e2e1fe3",
         "bytes": 362
       }
+    },
+    {
+      "name": "1992-12-batch-70",
+      "status": "complete",
+      "completed_at": "2026-11-01T12:37:15.811414+00:00",
+      "goal": "Attribute and restore the surviving human-shell listing fragment; finalize cumulative supplied-PDF gap and page/ownership accounting.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0023"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        300,
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        5,
+        306
+      ],
+      "whole_views": 8,
+      "recognition_invocations": 12,
+      "eng": 12,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "canonical_entries_advanced": 1,
+      "availability": "partial",
+      "native_files": 63,
+      "regions": 18,
+      "original_panels": 6,
+      "printed_labels": 845,
+      "physical_rows": 852,
+      "numbered_blank_rows": 142,
+      "unnumbered_wraps_or_carries": 7,
+      "visible_signatures": 39,
+      "continuation_boundaries": 11,
+      "bounded_cd_comparison": {
+        "canonical_articles": 1,
+        "physical_pdf_pages": [
+          300,
+          305
+        ],
+        "declarations": 6,
+        "whole_cd_print_verification": false,
+        "unseen_cd_text_inserted": false
+      },
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/validation.json",
+        "sha256": "b24976d43fe2e2e1a477eabb693eb70b5384abe12ec87902d5bd1070da9c71bd",
+        "bytes": 1683
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/reproduction.json",
+        "sha256": "b351ff36631d796657b189a935bf2c2edf9708f843d1d54a531d87e688893388",
+        "bytes": 11351
+      },
+      "fresh_process_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/fresh-process-reproduction.json",
+        "sha256": "1363dd95beabc1dfee914d0e38ced04a58fb5c77748c943128eb4f9ec5789aef",
+        "bytes": 11046
+      },
+      "source_audit": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/source-audit.json",
+        "sha256": "dbc528f5758d291cfc83a384612fe4d20a6c8e8189dcdeb18996cb363df7ed8d",
+        "bytes": 716
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/source-boundaries.json",
+        "sha256": "6f830977b5164bb1a714a78fa73559c06c5277a0952b5f31a5b95e28e28187c8",
+        "bytes": 1145
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/negative-checks.json",
+        "sha256": "fad9f2a5ab58749c60361482f66def854e8fc0be2ab4d5e190e8fdfce5ae0360",
+        "bytes": 4428
+      },
+      "timings": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/prospective-timings.json",
+        "sha256": "4eddea2ea8af5db7757fae3be9fa74fc2cf145f15ca79c42b2c1a45271a6b42d",
+        "bytes": 473
+      },
+      "source_accounting": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-audit.json",
+        "sha256": "db19cc76bfd7bee88243049774c48046c9a3d54b826fc1c86ff8aa16399f372d",
+        "bytes": 585
+      },
+      "gap_dispositions": {
+        "status": "final-for-current-pdf-pass",
+        "checkpoint": "batch-70",
+        "dispositions": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/final-gap-dispositions.json",
+          "sha256": "70288032a54dc7566d5830668e1889d5ffa980d702958245ad659786ea84f9b5",
+          "bytes": 27163
+        },
+        "previous_dispositions": {
+          "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/final-gap-dispositions.json",
+          "sha256": "86b4bbd0f6bf0f0d5e907dcc39db4ab9448f11b94d6c3e2170632241d4790e7a",
+          "bytes": 23193
+        },
+        "location_evidence_index": {
+          "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/mixed-contexts.json",
+          "sha256": "f2afc1a236cabba298a2a24be0a6b5517a5f6d22c415694fbeae00769db854a1",
+          "bytes": 867183
+        },
+        "current_page_ledger": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/page-ledger.json",
+          "sha256": "aedc322d42634e509ece56a97d08a62a1d7d5fbb4b6f300e555f431f02e64c7a",
+          "bytes": 874412
+        },
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/validation.json",
+          "sha256": "b24976d43fe2e2e1a477eabb693eb70b5384abe12ec87902d5bd1070da9c71bd",
+          "bytes": 1683
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-reproduction.json",
+          "sha256": "e03e89a1e3da4d9d07d0eabfdd52972b4db6c8baf1a694d49d910f2c83300390",
+          "bytes": 1483
+        },
+        "finalized_toc_entry_ids": [
+          "maso-1992-12-toc-0019",
+          "maso-1992-12-toc-0020",
+          "maso-1992-12-toc-0021",
+          "maso-1992-12-toc-0022",
+          "maso-1992-12-toc-0023"
+        ],
+        "pending_toc_entry_ids": [],
+        "all_issue_gap_dispositions_final": true,
+        "original_content_gap_tasks_finalized": 3,
+        "related_reference_gap_tasks_finalized": 2,
+        "complete_original_article_recovery_verified": false,
+        "issue_wide_absence_verified": false,
+        "prior_gap_records_unchanged": true,
+        "note": "Final current-PDF outcomes:0019 partial opener with continuation/ending unlocated;0022 unidentified body;0023 attributed partial six-page listing with original opening/prose/listing start unlocated. Children0020/0021 remain dependent outline/reference gaps, not independent missing articles. No original omission, full original extent, source-wide absence, missing-page count, original program bytes or execution certification."
+      },
+      "retained_failures": [
+        "export.py",
+        "audit.py",
+        "audit-r02.py",
+        "verify.py"
+      ],
+      "pre_ocr_map_metadata_revision": {
+        "path": "archive/pdf/1992-12/restoration/batch-70/pre-ocr-map-metadata-revision-r02.json",
+        "sha256": "1319f675dcb3f066987e519ee662ccef6aa979263e51963df8bf4163d55be9c9",
+        "bytes": 4252
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
     "readable": 30,
-    "partial": 1,
+    "partial": 2,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 4
+    "unresolved": 3
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -10277,29 +10601,20 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-70",
-    "goal": "Determine source-supported attribution and recovery outcome for canonical human-shell 0023 and the unassigned shell-listing fragment 300–305; directly recheck contents 5, all six fragment pages and advertisement boundary 306.",
-    "toc_entry_ids": [
-      "maso-1992-12-toc-0023"
-    ],
-    "candidate_mapping_targets": [],
+    "name": "1992-12-batch-71",
+    "goal": "Verify usable December1992 cover and final issue integration, then produce/reproduce standalone JSON/assets collection with all partial/unresolved outcomes explicit.",
+    "toc_entry_ids": [],
     "mapping_targets": [],
     "initial_lookup_candidates": [
-      5,
-      300,
-      301,
-      302,
-      303,
-      304,
-      305,
-      306
+      1,
+      446
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "One canonical task with eight proposed outside whole-page views. Contents reference 314 is not a physical-page assignment or an independent body anchor. Fragment 300–305 has printed folios 325–330, starts mid-program and ends above a separate advertisement; no independent opening has been established. Inspect complete code/text/identity evidence and confirm attribution and usable fragment scope before mapping at most six eligible pages. Retain incomplete source, title/byline, source-byte/execution and original-extent uncertainty. Do not promote a code-fragment ending to a complete article/program claim. Four earlier gap/reference tasks are final for the current PDF pass and their original bytes remain unchanged. Complete the shell attribution/recovery outcome and any supported native/assembly or explicit final gap, then integrate final page/ownership accounting, verify usable cover, reproduce standalone JSON/assets issue export and close out. Full December objective active; no reader rebuild."
+    "note": "No new canonical body/OCR work preassigned. Recheck source cover1 and narrow wraparound fragment446 plus existing cover metadata/assets. Preserve two partial articles, three unresolved identities and all five final gap/reference outcomes. Validate standalone export, source/ownership/mixed contexts, classifications, corrections/assets, cover, deterministic rebuild and documentation before issue closeout. Full December goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -10384,10 +10699,15 @@
     }
   ],
   "source_page_accounting": {
-    "status": "primary-and-recorded-mixed-contexts-accounted",
-    "checkpoint": "batch-68",
-    "directory": "archive/pdf/1992-12/restoration/batch-68/accounting-r01",
+    "status": "final-material-ownership-and-gap-accounting",
+    "checkpoint": "batch-70",
+    "directory": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01",
     "page_ledger": {
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/page-ledger.json",
+      "sha256": "aedc322d42634e509ece56a97d08a62a1d7d5fbb4b6f300e555f431f02e64c7a",
+      "bytes": 874412
+    },
+    "prior_page_ledger": {
       "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/page-ledger.json",
       "sha256": "d649e0583c726cef1547b88c56b8bcd775ee77800859e25055ec4faf20f689d4",
       "bytes": 867271
@@ -10398,107 +10718,102 @@
       "bytes": 867183
     },
     "manifest": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/manifest.json",
-      "sha256": "94db70cde96e4dc076ecb0232061b8e005e74cad6a371b2a380507de233572b6",
-      "bytes": 800
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/manifest.json",
+      "sha256": "2d5fb74ed25eba7e4c4616b4fbf83eb0526023170337f3e30bb1c850e18502c0",
+      "bytes": 805
     },
     "recipe": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/accounting-recipe.json",
-      "sha256": "467f378cd4120849d708d2c88235ae0602903983aa3b09c9aec95ea660b941c1",
-      "bytes": 2948
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-recipe.json",
+      "sha256": "2b4276899be5c8ecf9445f01fe7475d5bc92c5b7d6e3d3708f1905375079bb06",
+      "bytes": 2733
     },
     "reproduction": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/reproduction.json",
-      "sha256": "7a53d4ec5f74db2e63e410a015579142dbeff5ea10bedbab8e7b139371fd1bec",
-      "bytes": 1230
-    },
-    "fresh_process_reproduction": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/fresh-process-reproduction.json",
-      "sha256": "0ac1ca4155a74b86259ce9f9c268f5f2fcdd1b4d3895e4efdd7b4d08e30343d5",
-      "bytes": 848
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-reproduction.json",
+      "sha256": "e03e89a1e3da4d9d07d0eabfdd52972b4db6c8baf1a694d49d910f2c83300390",
+      "bytes": 1483
     },
     "source_audit": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/source-audit.json",
-      "sha256": "058fd374369a0ca4c44e5c7bf5e0480e242019bac78bb13247be98f8610a7abd",
-      "bytes": 823
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-audit.json",
+      "sha256": "db19cc76bfd7bee88243049774c48046c9a3d54b826fc1c86ff8aa16399f372d",
+      "bytes": 585
+    },
+    "native_source_audit": {
+      "path": "archive/pdf/1992-12/restoration/batch-70/source-audit.json",
+      "sha256": "dbc528f5758d291cfc83a384612fe4d20a6c8e8189dcdeb18996cb363df7ed8d",
+      "bytes": 716
     },
     "validation": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/validation.json",
-      "sha256": "3bb0fd24bcb11b8d841d78d8278d8d493322c9c7449d92e9ad5c03a0e7678268",
-      "bytes": 1870
+      "path": "archive/pdf/1992-12/restoration/batch-70/validation.json",
+      "sha256": "b24976d43fe2e2e1a477eabb693eb70b5384abe12ec87902d5bd1070da9c71bd",
+      "bytes": 1683
     },
     "physical_page_slots": 446,
     "primary_classified": 446,
     "pending": 0,
-    "prior_classified_whole_pages": 446,
-    "current_whole_views": 17,
-    "newly_classified_pages": 0,
-    "rechecked_prior_pages": 17,
-    "semantic_components": 37,
-    "selected_body_pages": 238,
-    "selected_maps": 31,
-    "map_local_mixed_exclusion_records": 31,
-    "mixed_body_pages": 14,
+    "selected_body_pages": 244,
+    "selected_maps": 32,
+    "map_local_mixed_exclusion_records": 32,
+    "mixed_body_pages": 15,
     "primary_page_classification_complete": true,
     "recorded_mixed_context_inventory_complete": true,
     "source_page_location_evidence_reconciled": true,
-    "page_accounting_complete": false,
+    "page_accounting_complete": true,
     "source_wide_absence_asserted": false,
-    "note": "All 446 primary rows are unchanged. Seventeen directly reviewed mixed pages contain 37 semantic components and retain 31 owner-relative exclusion records across fourteen selected-body pages. Complete primary source/review/ownership evidence indexed and revalidated. Target 0019 continuation-location and 0022 body-identification gaps are final for this supplied PDF pass; no original omission, missing-page count or universal absence proven. Unassigned-shell outcome, final integrated issue ownership/gap audit, usable cover verification, standalone export/rebuild and closeout remain pending. The copied primary ledger retains its historical Batch 67 pending-final-audit flag; current mixed/gap evidence is external. Child-reference outcomes are finalized externally in Batch 69; the current cumulative disposition supplies explicit JSON contexts for prior location-index pointers.",
+    "complete_original_article_recovery_verified": false,
     "final_gap_dispositions": {
-      "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/final-gap-dispositions.json",
-      "sha256": "86b4bbd0f6bf0f0d5e907dcc39db4ab9448f11b94d6c3e2170632241d4790e7a",
-      "bytes": 23193
-    }
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/final-gap-dispositions.json",
+      "sha256": "70288032a54dc7566d5830668e1889d5ffa980d702958245ad659786ea84f9b5",
+      "bytes": 27163
+    },
+    "note": "All446 primary pages and recorded mixed contexts reconciled. Six previously unassigned listing pages attributed to0023 and restored as partial;440 other primary rows exact. Prior31 owner-relative exclusions plus lower305 exclusion total32 across15 selected-body pages. All five PDF-pass gap/reference outcomes final: three original-content gaps plus two related references. Historical Batch68 location index remains pinned; current rows300–305 supersede its unassigned ownership. Accounting completion does not prove full original article recovery, source omission, cover usability, standalone issue export or human acceptance."
   },
   "coverage_gap_dispositions": {
-    "status": "partially-final-for-current-pdf-pass",
-    "checkpoint": "batch-69",
+    "status": "final-for-current-pdf-pass",
+    "checkpoint": "batch-70",
     "dispositions": {
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/final-gap-dispositions.json",
+      "sha256": "70288032a54dc7566d5830668e1889d5ffa980d702958245ad659786ea84f9b5",
+      "bytes": 27163
+    },
+    "previous_dispositions": {
       "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/final-gap-dispositions.json",
       "sha256": "86b4bbd0f6bf0f0d5e907dcc39db4ab9448f11b94d6c3e2170632241d4790e7a",
       "bytes": 23193
-    },
-    "child_reference_evidence": {
-      "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/child-reference-evidence.json",
-      "sha256": "cbe9ff6071acb666f5a37a89a709f1939bdcde38a23c18e8b3bf843298cb4898",
-      "bytes": 6354
-    },
-    "previous_dispositions": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/disposition.json",
-      "sha256": "c5cf98a1a9975dd74577e385fb09373c2c9721389540a63903a0588c0bf5ccd5",
-      "bytes": 18114
     },
     "location_evidence_index": {
       "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/mixed-contexts.json",
       "sha256": "f2afc1a236cabba298a2a24be0a6b5517a5f6d22c415694fbeae00769db854a1",
       "bytes": 867183
     },
+    "current_page_ledger": {
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/page-ledger.json",
+      "sha256": "aedc322d42634e509ece56a97d08a62a1d7d5fbb4b6f300e555f431f02e64c7a",
+      "bytes": 874412
+    },
     "validation": {
-      "path": "archive/pdf/1992-12/restoration/batch-69/validation.json",
-      "sha256": "c57953efe1791f380c099f50ce935612ffab6f6c9ae91a16b0c27a1b6d1e7c80",
-      "bytes": 1843
+      "path": "archive/pdf/1992-12/restoration/batch-70/validation.json",
+      "sha256": "b24976d43fe2e2e1a477eabb693eb70b5384abe12ec87902d5bd1070da9c71bd",
+      "bytes": 1683
     },
     "reproduction": {
-      "path": "archive/pdf/1992-12/restoration/batch-69/reproduction.json",
-      "sha256": "7a08b0109cf7c08c741c0de80ea2ca08479d4a50bdb316b207d01d64eaba73a6",
-      "bytes": 1238
+      "path": "archive/pdf/1992-12/restoration/batch-70/shell-outcome-reproduction.json",
+      "sha256": "e03e89a1e3da4d9d07d0eabfdd52972b4db6c8baf1a694d49d910f2c83300390",
+      "bytes": 1483
     },
     "finalized_toc_entry_ids": [
       "maso-1992-12-toc-0019",
       "maso-1992-12-toc-0020",
       "maso-1992-12-toc-0021",
-      "maso-1992-12-toc-0022"
-    ],
-    "pending_toc_entry_ids": [
+      "maso-1992-12-toc-0022",
       "maso-1992-12-toc-0023"
     ],
-    "all_issue_gap_dispositions_final": false,
-    "original_content_gap_tasks_finalized": 2,
+    "pending_toc_entry_ids": [],
+    "all_issue_gap_dispositions_final": true,
+    "original_content_gap_tasks_finalized": 3,
     "related_reference_gap_tasks_finalized": 2,
     "complete_original_article_recovery_verified": false,
     "issue_wide_absence_verified": false,
-    "original_ledger_and_package_gap_records_unchanged": true,
-    "note": "Two original-content location gaps remain final: partial year-feature 0019 continuation/ending unlocated and terminal-control 0022 body unidentified. Children 0020/0021 now have final dependent-reference outcomes: only contents/opener outlines, no intrinsic body anchors recovered. These are two related reference gaps, not two additional independent missing articles. Canonical entries and parent partial package unchanged. Original identity/extent/omission, unassigned shell attribution and missing-page count remain unverified; no source-wide absence claim. Canonical 0023 remains pending its own attribution/recovery outcome."
+    "prior_gap_records_unchanged": true,
+    "note": "Final current-PDF outcomes:0019 partial opener with continuation/ending unlocated;0022 unidentified body;0023 attributed partial six-page listing with original opening/prose/listing start unlocated. Children0020/0021 remain dependent outline/reference gaps, not independent missing articles. No original omission, full original extent, source-wide absence, missing-page count, original program bytes or execution certification."
   }
 }

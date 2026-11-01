@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: thirty readable/sample-reviewed
-articles, one partial, seven non-owning group headings, three section references and four unresolved
+articles, two partials, seven non-owning group headings, three section references and three unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -2019,6 +2019,73 @@ Evidence: `archive/pdf/1992-12/restoration/batch-69/validation.json`,
 `reproduction.json`, `fresh-process-reproduction.json`, `source-boundaries.json`,
 `prospective-timings.json` and `completion-audit.json`. Session evidence:
 `archive/pdf/1992-12/evidence/session-2026-11-01-50/`.
+
+Batch 70 attributes and restores the surviving human-shell listing on physical
+300–305, individually read printed 325–330, as a partial native for canonical 0023,
+유닉스 쉘을 만들자(마지막회) : 휴먼쉘의 고급 기능. Contents 5 and advertisement
+boundary 306 are the two outside views. Named local CD1 reference 9212314 and six
+matching declaration occurrences on bounded pages 300/305 support attribution;
+all six pages are reviewed for continuity. This comparison covers one article and
+two physical pages, without inserting unseen CD text or certifying the whole CD
+reference against print. Canonical title, parent, credit, order and reference remain
+unchanged; independent PDF opening/title/byline and complete original extent remain
+unlocated.
+
+The selected native is
+`archive/pdf/1992-12/packages/batch-70-r01/human-shell/`: 63 exact files across selected,
+independent and fresh-process exports. All eighteen crops match source pixels,
+including six complete original listing panels beside twelve searchable columns.
+Twelve initial eng drafts were read completely before one literal source correction
+pass; no OCR retry or within-pass crop change. The native preserves 845 printed labels
+0221–1065, 852 physical rows, 142 numbered blanks, seven unnumbered wraps/carries,
+39 visible signature occurrences, eleven column/page boundaries and 3,656 local
+byte ranges. Printed margin numbers remain separate from code. Source defects,
+identifier/operator/glyph/spacing candidates and physically split strings stay literal;
+original source files/bytes, compilation and execution are unverified.
+
+A metadata-only map revision before OCR corrects the final-label observation without
+changing crop pixels: 1065 is a closing brace, superseding the earlier blank reading.
+The source-pass candidate at 0577 is GolBaengLee_Command, superseding the prospective
+GolBeangLee observation. Original maps, raw drafts, source observations, failed export,
+audit and verification helpers remain preserved. Twenty semantic mutations with
+consistently rehashed article/manifest pins pass generic structural checks and fail
+the private source audit, including false full-body, original-byte, execution and CD
+verification claims. All 72,502 prior December files, 13,001 prior selected files,
+sixteen classification files, 9,332 September files, thirty core modules and fifteen
+local CD reference files remain exact. The unchanged 213-test baseline is reused.
+Prospective stage walls include preparation, draft reading, source review and retained
+helper failures; no isolated manual-throughput claim.
+
+Three four-file cumulative accounting exports also match, including a fresh process:
+`archive/pdf/1992-12/restoration/batch-70/shell-outcome-r01/`. All 446 source pages now
+have integrated material/ownership outcomes: 244 selected body pages across 32 maps,
+32 map-local exclusions across fifteen mixed selected-body pages, and no pending
+primary page. Only six previously unassigned listing rows gain ownership; the other
+440 primary rows and all four prior gap target values remain exact. Historical
+location indexes stay pinned, with explicit supersession for shell pages 300–305.
+All five PDF-pass gap tasks are final: three original-content gaps (partial year
+feature 0019, unidentified terminal-control 0022 and partial shell 0023) plus two
+related child-reference gaps 0020/0021. These are not five missing independent
+articles. No source-wide absence, original omission or missing-page count inferred.
+
+Current totals are thirty readable/sample-reviewed articles, two partials, seven
+non-owning groups, three section references and three unresolved identities among
+45. Thirty-two selected roots contain 13,064 files; sixteen classifications remain
+separate. The shell fragment is complete within its surviving six pages, but starts
+mid-program and supplies no independent article opening or proof of complete original
+ending. Canonical availability remains partial. Source material/ownership accounting
+is complete; complete original article recovery is not verified. Next checkpoint 71
+verifies usable cover evidence and final issue integration, then produces and reproduces
+the standalone JSON/assets collection before closeout. Candidate source cover views
+are 1 and 446; the latter is only a narrow wraparound fragment. Full December goal
+active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-70/validation.json`,
+`source-reviewed-r02.json`, `source-reading-decisions.json`, `source-audit.json`,
+`negative-checks.json`, `reproduction.json`, `fresh-process-reproduction.json`,
+`shell-outcome-reproduction.json`, `shell-outcome-audit.json`, `source-boundaries.json`,
+`prospective-timings.json` and `completion-audit.json`. Session evidence:
+`archive/pdf/1992-12/evidence/session-2026-11-01-51/`.
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
