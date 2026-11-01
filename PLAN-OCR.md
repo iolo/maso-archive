@@ -50,7 +50,16 @@ of openings 164/168. All twelve pages 156–167 are preserved across a/b; actual
 assembly and child anchors remain pending. All 13,399 prior files/thirty core
 modules are exact; nine invalid custom-data cases rejected. The existing 213-test
 result is retained with unchanged core modules.
-Next: source-review final section 168–172 within 2/6/20 limits, then assembly.
+Batch 04 preserves final section 168–172 as native c: 201 independent/fresh-process
+exact files, 54 exact crops, 46 selected outcomes, 912 ranges, eight original panels,
+three charts/24 values, eighteen specification fields and two literal DOS fragments/
+ten nonempty rows. One paused/resumed source pass; 46 initial plus three changed
+recognitions, 43 exact reused raw/TSV outcomes, zero unchanged-input retries.
+All seventeen body pages 156–172 are preserved across a/b/c; actual parent assembly
+and final child anchors remain required. Printed chart 4.183 versus prose 4183,
+chip/time-unit/ratio/cache claims and wording stay literal. Nine invalid custom-data
+cases rejected; all 13,595 prior files and thirty core modules remain exact.
+Next: assemble all three natives and finalize child 0002; no new OCR planned.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:

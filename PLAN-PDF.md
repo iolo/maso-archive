@@ -70,11 +70,22 @@ preserved across a/b. One source pass, 46 initial plus three changed-crop calls,
 custom-data cases are rejected; all 13,399 prior files and thirty core modules
 remain exact. First two intrinsic section bodies are preserved; assembly is pending.
 
+Batch 04 preserves final section 168–172 as native c: 201 independent/fresh-process
+exact files, 54 exact crops, 46 selected outcomes, 912 ranges, eight original panels,
+three charts/24 values, eighteen specification fields and two literal DOS fragments/
+ten nonempty rows. One paused/resumed source pass; 46 initial plus three changed
+recognitions, 43 exact reused raw/TSV outcomes, zero unchanged-input retries.
+All seventeen body pages 156–172 are preserved across a/b/c; actual parent assembly
+and final child anchors remain required. Printed chart 4.183 versus prose 4183,
+chip/time-unit/ratio/cache claims and wording stay literal. Nine invalid custom-data
+cases rejected; all 13,595 prior files and thirty core modules remain exact.
+
 Current totals: one readable article, one partial feature and fifty unresolved
-identities. Batch 04 next reviews final section 168–172 within the 2-task,
-6-mapped-page and 20-outside-page limits. No global offset or continuity is inferred.
-Child anchors, remaining bodies/assemblies, full-page accounting, cover and issue
-closeout remain required. See [March progress](docs/progress/9303.md) and the
+identities; 699 selected files, 183 crops, 161 outcomes and 2,599 typed ranges.
+Batch 05 next actually assembles the parent and finalizes child 0002 within the
+2-task ceiling. No new OCR is planned. Child 0003/0004 anchors follow in a separate
+checkpoint. Full-page accounting, remaining bodies, cover and issue closeout remain
+required. See [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01

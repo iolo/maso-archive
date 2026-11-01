@@ -14,13 +14,13 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 March 1993 restoration is active. The complete column on PDF 100–101/printed 98–99
-and partial feature natives 156–167 have 498 independently exact JSON/assets files;
-all 129 source crops and 1,687 typed ranges validate. The 213 PDF tests passed;
-core modules remain unchanged.
+and partial feature natives 156–172 have 699 independently exact JSON/assets files;
+all 183 source crops and 2,599 typed ranges validate. The 213 PDF tests passed;
+core modules remain unchanged. All seventeen feature pages are preserved across
+three immutable natives; actual assembly and child anchors are next.
 One readable article, one partial and fifty unresolved identities account for the
-52-entry queue. Next is final feature section 168–172. Remaining restoration,
-433-page accounting, cover and issue closeout are pending. See
-[March progress](docs/progress/9303.md). No reader rebuild.
+52-entry queue. Remaining restoration, 433-page accounting, cover and issue closeout
+are pending. See [March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

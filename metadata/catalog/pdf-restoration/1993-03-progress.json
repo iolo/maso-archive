@@ -34,7 +34,8 @@
         "Six source pages156–161 retained as immutable partial native;final172 observedafter later evaluation context170/171,butunreviewed interior continuity remains unverified.",
         "Independent PCI sidebar161 interrupts main160→162. Original whole opener,eight images,two tables/twenty data cells/six header fragments andeight internal continuations retained.",
         "One source pass;51 initial recognitions plusone changed-heading recognitionbeforecorrection. Fifty unchanged raw/TSV results reused with original execution provenance;zero unchanged-input retries. All failed/narrow crop revisions retained.",
-        "Batch03 preserves162–167 as native b:196 independently exact files,50 exact crops,46 selected outcomes,three diagrams,three-row/nine-cell table,eleven headings andeight continuations. Firsttwo intrinsic section bodies now preserved across a/b. Both original incoming160→162 download/scan contexts validate;lower163 recruitment notice excluded;no prose joins163→164 or167→168.49 recognitions,43 unchanged raw/TSV outcomes reused,one source pass,zero unchanged-input retries. Canonical child title remains unchanged;source164 adds 내부. Remaining168–172 andactual assembly required."
+        "Batch03 preserves162–167 as native b:196 independently exact files,50 exact crops,46 selected outcomes,three diagrams,three-row/nine-cell table,eleven headings andeight continuations. Firsttwo intrinsic section bodies now preserved across a/b. Both original incoming160→162 download/scan contexts validate;lower163 recruitment notice excluded;no prose joins163→164 or167→168.49 recognitions,43 unchanged raw/TSV outcomes reused,one source pass,zero unchanged-input retries. Canonical child title remains unchanged;source164 adds 내부. Remaining168–172 andactual assembly required.",
+        "Batch04 preserves final168–172 as native c:201 independently/fresh-process exact files,54 exact crops,46 selected outcomes,912 valid ranges,eight original panels,three charts/24 values,two specification catalogues/18 fields,two literal DOS fragments/10 nonempty rows andsix prose boundaries. All17 body pages156–172 now preserved across a/b/c;actual assembly andfinal child anchors pending.49 actual recognitions,43 exact reused raw/TSV outcomes,one paused/resumed source pass,zero unchanged-input retries. Printed4.183 chart separator,prose4183,카 andchip/time-unit/ratio/cache claims retained without technical repair. Final172 closes before173 advertisement and174 independent PC column."
       ],
       "restoration": {
         "directory": "archive/pdf/1993-03/packages/batch-02-r01/localbus-a",
@@ -57,7 +58,12 @@
             164,
             165,
             166,
-            167
+            167,
+            168,
+            169,
+            170,
+            171,
+            172
           ],
           "printed_pages": [
             null,
@@ -71,25 +77,24 @@
             "162",
             "163",
             "164",
-            "165"
+            "165",
+            "166",
+            "167",
+            "168",
+            "169",
+            "170"
           ],
-          "regions": 109,
-          "blocks": 80,
-          "figures": 12,
-          "deferred_pdf_pages": [
-            168,
-            169,
-            170,
-            171,
-            172
-          ],
-          "remaining_extent_unverified": true
+          "regions": 163,
+          "blocks": 119,
+          "figures": 20,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "actual_end_pdf_page": 172,
-        "endpoint_observation_only": true,
+        "endpoint_observation_only": false,
         "validation": {
           "path": "archive/pdf/1993-03/restoration/batch-02/validation.json",
           "sha256": "0f8d77a87c98397356b29bbd86c68213aa644a43b70f06c34a5ace765ce0fcd6",
@@ -207,6 +212,50 @@
               "bytes": 34173
             },
             "checkpoint": "batch-03"
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1993-03/packages/batch-04-r01/localbus-c",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-04-r01/localbus-c/manifest.json",
+              "sha256": "f9c877ef2ecb3ac934646de97b1c87dd811abf62c8b7210471691bdecc720396",
+              "bytes": 33988
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-04/localbus-c-r03/package-recipe.json",
+              "sha256": "2b1cf2ab1baa92be48734083b58968db8ca9f80f641c5b115de9d8b7d542f2c1",
+              "bytes": 8149
+            },
+            "coverage": {
+              "pdf_pages": [
+                168,
+                169,
+                170,
+                171,
+                172
+              ],
+              "printed_pages": [
+                "166",
+                "167",
+                "168",
+                "169",
+                "170"
+              ],
+              "regions": 54,
+              "blocks": 39,
+              "figures": 8
+            },
+            "validation": {
+              "path": "archive/pdf/1993-03/restoration/batch-04/validation.json",
+              "sha256": "c392710f324c4db312ac5107e9b510831d62bc77715db32b74c18ee02509b0d4",
+              "bytes": 2102
+            },
+            "reproduction": {
+              "path": "archive/pdf/1993-03/restoration/batch-04/reproduction.json",
+              "sha256": "81df295c81e0e9e6ba267bc093a8ff6d205a5d3c82188289b4ca04a97d552efc",
+              "bytes": 35053
+            },
+            "checkpoint": "batch-04"
           }
         ],
         "incoming_boundary": {
@@ -214,10 +263,11 @@
           "sha256": "206f83c592a12062e023596aedddf80c83555ef91298af90c51cf9b873397ef1",
           "bytes": 1482
         },
-        "latest_native": "b",
+        "latest_native": "c",
         "notes": [
-          "directory/manifest still identify immutable native a,not an assembled twelve-page body. Current cumulative coverage is across native_segments a/b;actual whole-feature assembly remains pending."
-        ]
+          "directory/manifest still identify immutable native a,not an assembled seventeen-page body. body_pages_complete andcoverage are cumulative across native_segments a/b/c;availability stays partial until actual whole-feature assembly."
+        ],
+        "all_body_pages_preserved_across_natives": true
       }
     },
     {
@@ -919,6 +969,38 @@
         "sha256": "6037a5811ed9fcbea1d1283fa4b6816e9a4157fe2da25173811bc526862444a0",
         "bytes": 34173
       }
+    },
+    {
+      "name": "1993-03-batch-04",
+      "status": "complete",
+      "completed_at": "2026-11-01T15:47:05.835633+00:00",
+      "goal": "Preserve final feature section168–172 as native c with literal configuration,benchmark andsplit specification contexts.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 49,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-04/validation.json",
+        "sha256": "c392710f324c4db312ac5107e9b510831d62bc77715db32b74c18ee02509b0d4",
+        "bytes": 2102
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-04/reproduction.json",
+        "sha256": "81df295c81e0e9e6ba267bc093a8ff6d205a5d3c82188289b4ca04a97d552efc",
+        "bytes": 35053
+      }
     }
   ],
   "totals": {
@@ -934,23 +1016,18 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-04",
-    "goal": "Review and preserve final feature section168–172 as native c;verify actual ending and adjoining173 advertisement. Then assemble all three natives separately.",
+    "name": "1993-03-batch-05",
+    "goal": "Actually assemble parent0001 from three independently regenerated immutable natives andfinalize child0002 as a non-owning section anchor.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0001"
+      "maso-1993-03-toc-0001",
+      "maso-1993-03-toc-0002"
     ],
-    "planned_mapping_candidates": [
-      168,
-      169,
-      170,
-      171,
-      172
-    ],
+    "planned_mapping_candidates": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Third section opens independently168;no incoming prose join from167. Review complete prose,code/table panels,hardware images andevaluation charts without technical repair. All child dispositions await actual assembled-parent anchors."
+    "note": "No new OCR planned. Preserve main160→162 join across independent sidebar161;no prose joins163→164 or167→168. All native/correction/chart/specification/code contexts andbytes must remain explicit after projection. Remaining child0003/0004 classifications require subsequent bounded checkpoint."
   }
 }
