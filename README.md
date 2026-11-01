@@ -13,16 +13,16 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: sixteen readable/sample-reviewed articles,
-one partial, four non-owning group headings, three section references and 21 unresolved
-identities. Batch 42 completes the twenty-page frame-grabber article on PDF 377–396.
-Three 1,137-file exports match from four regenerated natives; all 292 source crops,
-985 printed listing labels/129 blank rows, complete custom indexes and 25 altered-data
-checks validate. Seventeen selected roots contain 8,800 files; twelve classification
-files remain separate. Historical native evidence and source uncertainties are retained.
-Next: verify and restore the laser-printer article from its observed opening on 397.
-UNIX openings and year-in-review continuation remain unlocated. Other bodies, full issue
-accounting, cover, export/rebuild and closeout remain pending. See the
+December 1992 restoration is in progress: seventeen readable/sample-reviewed articles,
+one partial, four non-owning group headings, three section references and twenty unresolved
+identities. Batch 43 completes the six-page laser-printer article on PDF 397–402.
+Three 423-file exports match; all 106 source crops, 32 message entries, thirteen symptom
+sections, five bullets and twenty altered-data checks validate. Source/canonical credits
+remain separate. Eighteen roots contain 9,223 selected files; twelve classifications are
+separate. Historical source wording, claims and glyph candidates remain explicit.
+Next: verify information-sharing heading 0031 and restore the timetable article opening
+from observed 403 within the batch limits. UNIX/year-feature locations, other bodies,
+full issue accounting, cover, export/rebuild and closeout remain pending. See the
 [December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed

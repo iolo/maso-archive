@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Sixteen readable/sample-reviewed articles, one partial, four non-owning group headings,
-three section references and 21 unresolved identities account for 45 canonical entries. All 94 independent
+Seventeen readable/sample-reviewed articles, one partial, four non-owning group headings,
+three section references and twenty unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -598,17 +598,55 @@ files, 8,738 former selected files, twelve classifications, 9,332 September refe
 files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test
 baseline reused; no core changes or new assembly OCR/source pass.
 
-Next: verify and restore laser-printer article 0030 from its observed independent opening
-397. Establish its actual extent before mapping at most six pages; do not infer a global
-folio offset or ending from TOC references. Canonical 편집부 and source 김현숙 기자 credits
-remain separate. Hardware 0028 is final. Install all twelve prior adapters, including
-batch-42/framegrabber_adapter, for selected-root checks. Totals are sixteen readable/
-sample-reviewed articles, one partial, four groups, three section references and 21
-unresolved identities. Seventeen selected roots contain 8,800 files; twelve classification
-files are separate. UNIX locations, year-feature 0019 continuation/ending/children, other
-bodies/assemblies, all 446-page accounting, cover, standalone export/rebuild and closeout
-remain required. Original glyphs/spaces/encoded bytes, technical truth, execution, human
-acceptance/full proofreading remain unverified. Full December goal active. No reader rebuild.
+Batch 43 completes laser-printer article 0030 on PDF 397–402/individually read folios
+422–427. The source byline 글. 김현숙 기자 remains separate from canonical credit 편집부;
+title/kicker differences also remain explicit. The upper-402 conclusion/M ends the body,
+above an independent lower advertisement. Previous 396 ends the frame-grabber; following
+403 opens the timetable article, continued 404–405. Other identities remain unchanged.
+
+Three 423-file exports match, including a fresh-process rebuild. All 106 exact source
+crops, 103 pinned kor+eng outcomes, 88 blocks, three figures, 498 reading rows and 1,104
+typed ranges validate. Eleven empty-anchor occurrences retain blank separator contexts.
+Thirteen joined groups retain fifteen fragment boundaries: fourteen prose and one list
+continuation. Main prose 399→401 passes around all nineteen independent sidebar regions
+on 400. All 106 PNG decodes and one ZIP CRC pass; no source code or original-file recovery.
+
+Thirty-two status/error-message entries retain 36 physical rows and seventeen description
+groups. Four wrapped messages, PF/PE headings, OVERFLAW, Q/O candidate in QVERFLAW,
+MALFUCTION and REMENBER remain literal. Thirteen uncoded symptom sections and five blank-
+output bullets retain their printed claims. Missing codes or technically valid descriptions
+are not supplied. Old araea, Selt/Self, 흔적/혼적 and button glyphs remain source candidates.
+
+Complete original Figure 1 retains four photographic components and an optical diagram,
+with eleven indexed external labels. Printed mirorr/lense remain distinct from body mirror.
+The rotated drum detail retains unknown glyph identities/counts/bytes, without invented
+readable words. Tiny photographic product-label writing is not exhaustively transcribed.
+The independent principle sidebar retains its 동진전산(kts146) 끝. credit; the main electrical
+precaution remains historical source text with no present technical or safety certification.
+
+All 103 complete raws read in three untruncated outputs before one literal source pass;
+zero retries or within-pass crop changes. All 106 initial crops reviewed on 29 sheets.
+Thirty-six pre-OCR events in 35 distinct regions were reviewed on nine repair sheets plus
+one final crop. Seventy-one initial and 105 preceding crops remain exact. Four enlarged
+source-only details were reviewed without recognition. All maps, crops, raws and corrections
+remain archived. Technical claims and source spelling/physical wraps remain unrepaired.
+
+Twenty consistently rehashed custom-data edits pass generic exports but fail the frozen
+private audit; no generic custom-schema claim. All 49,105 prior December files, 8,800
+former selected files, twelve classifications, 9,332 September files and thirty core/source/
+runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused; no core changes.
+
+Next: verify information-sharing heading 0031 and restore at most six confirmed opening
+pages of timetable article 0032 from observed 403. Review canonical contents and repeated
+section labels before deciding non-ownership; verify actual article extent/ending before
+mapping. Reuse 403–405 views. Longer bodies require immutable segments and actual assembly.
+Keep other child identities unchanged. Current totals: seventeen readable/sample-reviewed
+articles, one partial, four groups, three section references and twenty unresolved identities.
+Eighteen selected roots contain 9,223 files; twelve classifications are separate. Twelve
+prior adapters remain required. UNIX/year-feature locations, other bodies/assemblies, all
+446-page accounting, cover, standalone export/rebuild and closeout remain required. Original
+glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading
+remain unverified. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
