@@ -15,15 +15,14 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
 one partial, seven non-owning group headings, three section references and four unresolved
-identities. Batch 60 completes the bulletin and Ctrl-Break on PDF 437/438, printed 462/463.
-Three exports per package match across 198 files, 52 source-exact crops and 437 validated
-ranges. Disk contents, erratum, fee table/map, poem, cartoons and humorous program remain
-source-linked. Thirty-one roots contain 13,001 selected files; sixteen classifications are
-separate. All reader-section canonical bodies are readable. Next: systematic page accounting
-and year-review/UNIX location research. Remaining bodies or explicit source gaps, full page
-accounting, cover, standalone export/rebuild and closeout are pending. Source glyphs, bytes,
-identities and historical/technical truth remain unverified. See the [December record](docs/progress/9212.md).
-No reader rebuild.
+identities. Batch 61 directly reviews physical pages 1–20 and creates a reproducible
+provisional ledger: 345 of 446 pages classified, 101 pending. Three four-file accounting
+exports match, including a fresh process. All article statuses remain unchanged;
+31 roots contain 13,001 selected files and sixteen classifications remain separate.
+Next: review pages 21–40 for year-review/UNIX location research and page accounting.
+Remaining bodies or explicit source gaps, full page accounting, cover verification,
+standalone JSON/assets issue export/rebuild and closeout are pending. See the
+[December record](docs/progress/9212.md). Full objective active. No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

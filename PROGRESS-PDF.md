@@ -1515,6 +1515,54 @@ opening/ownership/extent. Keep at most twenty outside pages and six mapped pages
 Remaining bodies/assemblies or explicit source gaps, all 446-page accounting, cover,
 standalone issue export/rebuild and closeout remain required. No reader rebuild.
 
+Batch 61 begins systematic source-page accounting and bounded location research for
+year-feature 0019 and UNIX terminal-control 0022. Twenty whole pages, physical 1–20,
+were directly reviewed: one cover, two contents pages and seventeen advertisements.
+Cover promotion and contents references do not establish target body locations.
+No mapped pages, recognition calls, retries or source correction passes occurred.
+All 45 canonical entries remain unchanged: thirty readable/sample-reviewed, one
+partial, seven group headings, three section references and four unresolved.
+
+The provisional four-file accounting sidecar is
+`archive/pdf/1992-12/restoration/batch-61/accounting-r01/`. All 446 physical slots are
+represented: 345 have a primary classification and 101 remain explicitly pending.
+Three exports match byte for byte, including a fresh process. Sixty retained review
+records pair 328 prior whole-page reviews with pinned source renders; twenty-two
+explicit review/render/archive bridges preserve the evidence where original review
+records did not themselves contain image pins. Eighty-seven prior nonbody decisions
+retain their original source-evidence pointers. The current twenty views include
+three rechecks and add seventeen newly classified pages. Source audit decodes all
+forty current native/layout images and validates every prior evidence pointer.
+
+The ledger retains 238 selected body pages across 31 maps, with 31 map-local excluded
+region records across fourteen mixed body pages. These are contextual records, not
+31 unique advertisements. The unassigned shell-listing fragment on 300–305 retains
+its uncertain ownership. Pending pages are 21–79, 81–89, 91–93, 95–97, 105–106,
+340–359 and 442–446. No folio offset, missing-page count, full accounting, source-wide
+absence, new canonical ownership or verified cover-asset replacement is inferred.
+
+Twenty consistently rehashed private accounting mutations are rejected by the private
+audit; this does not assert generic article-schema enforcement. All 71,822 prior
+December files, 13,001 selected article files/31 roots, sixteen classifications,
+9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain
+exact. The unchanged 213-test baseline is reused. Four accounting sidecar files do
+not increase the selected article-file count. Stage wall times include preservation,
+rendering, reconciliation and orchestration; they are not manual-review throughput.
+
+Next checkpoint 62 reviews physical pages 21–40 for the same two location tasks,
+within the 2 canonical task/6 mapped page/20 outside page limits. Year-feature 0019
+remains partial at opener 299; its ending and child references 0020/0021 remain
+unresolved. UNIX 0022/0023 remain unresolved; this checkpoint does not advance 0023.
+Remaining bodies/assemblies or explicit source gaps, all 446-page accounting, cover
+verification, standalone JSON/assets issue export/rebuild and closeout are required.
+Full December objective remains active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-61/validation.json`,
+`source-audit.json`, `negative-checks.json`, `reproduction.json`,
+`fresh-process-reproduction.json`, `prior-review-index-r02.json`,
+`prior-classification-decisions.json`, `source-boundaries.json` and
+`prospective-timings.json`; the canonical ledger records checkpoint 62.
+
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
 headings and two non-owning section references, with no partial or unresolved entries.
