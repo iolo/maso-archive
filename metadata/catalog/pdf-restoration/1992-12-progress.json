@@ -4457,23 +4457,99 @@
       "toc_entry_id": "maso-1992-12-toc-0033",
       "title": "테크니컬마당",
       "parent_id": "maso-1992-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents4/5 andtechnical introduction413 support non-owning heading0033. Canonical integer reference438,parent0031,title/order remain unchanged. Five canonical technical tips remain siblings under0031;0033 has no canonical children. Independent bodies414/415 remain distinct. Five source anchors retained.",
+        "Three one-file classification exports match including fresh process;nine ownership/reference/reparenting/preface edits fail frozen private guard. Original heading/logo/editorial panel,heading andeight-line invitation retained as private classification context withtwo OCR outcomes,nine physical rows/nine typed context ranges andthree exact crops. No duplicate body,article package or download. Historical invitation/honorarium language remains source text.",
+        "Assistant sample review only. Original glyphs/encoded bytes,human acceptance/full proofreading andfull issue accounting unverified;no issue-wide absence claim."
+      ],
+      "restoration": null,
+      "group_classification": {
+        "path": "archive/pdf/1992-12/evidence/group-0033-r01/0033-group.json",
+        "sha256": "fc8c196fa5ce5925058030f1b532e759896611ffa57b3992d3d7d2b5f4d43d8d",
+        "bytes": 12196
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0034",
       "title": "@Get...Read입력을 메뉴로 하자",
       "parent_id": "maso-1992-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch46 completes article0034 on PDF413–414/individually read folios438–439. Independent source title/byline 최익성 remain separate from technical heading0033/editorial introduction. Canonical null page reference, title, parent0031 and order remain unchanged; heading reference438 is not transferred. Upper-middle414 ends 장점이 있다. before independent MODECON and monitor-tip bodies. Next415 is independent Clipper/ACHOICE article; no invented M closing mark.",
+        "Three58-file exports match including a fresh process. All13 source pixels,12 OCR outcomes(twoeng/tenkor+eng),nine blocks,one original table panel,108 physical reading rows,251 typed ranges/five empty anchors andthree prose joins/boundaries validate. Two inline examples retain17 physical code rows without printed line numbers or blank code rows. The annotated assignment remains three physical rows; two colon-shaped omission marks remain unexpanded.",
+        "Code/name table retains two headers,five pairs/twelve readable cells andtwo opaque lower vertical-dot-run contexts. U+E601/U+E602 preserve unknown original glyph counts/encoded bytes; original image remains authoritative. Presentation tabs and scan-based code spacing are not original encoded bytes. Eleven source variants retain spaced ! =/& &,CHRwithoutdollar,Korean placeholders,arrows,실지 못하지만,READ을 and punctuation candidates without valid-code repair.",
+        "Original source says full program source list is not printed and refers source/executable to this month disk. Both printed inline examples are preserved; referenced full program/source/data/disk remain unrecovered. No missing-page,issue-wide absence,valid-code,execution or technical-truth inference. Technical heading0033 andindependent0035/0043 bodies excluded.",
+        "All14 complete article/heading raws read inone untruncated output beforeone literal source pass;zero retries/within-pass crop changes. All16 initial exact crops reviewed onfive sheets;one pre-OCR table-margin repair directly reviewed and15 initial crops reused exactly. Three source-only enlargements reviewed without recognition. One classification-helper type-assertion failure retained and fixed before any classification export; canonical integer438 preserved. Immutable execution map template wording is explicitly corrected in article metadata without changing recognition provenance.",
+        "Twenty-two consistently rehashed custom-metadata edits pass generic exports andfail frozen private audit;no generic custom-schema claim. All53718 prior December files,9708 former selected files/nineteen roots,thirteen classifications,9332 September files andthirty core/source/runtime/TOC/queue pins exact. Unchanged213-test baseline reused. Assistant sample review only;human acceptance/full proofreading andoriginal glyphs/spaces/encoded bytes remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-46-r01/getread",
+        "article_id": "scan-maso-1992-12-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-46-r01/getread/manifest.json",
+          "sha256": "5a05570fa6eaad1618a23a3346319bc632ede168ac7e612c2b0ade9a041d6545",
+          "bytes": 9882
+        },
+        "coverage": {
+          "pdf_pages": [
+            413,
+            414
+          ],
+          "printed_pages": [
+            "438",
+            "439"
+          ],
+          "regions": 13,
+          "blocks": 9,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 413,
+        "actual_end_pdf_page": 414,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-46/validation.json",
+          "sha256": "a68a4ee6ddc01c63f2171e0aeb8a98dc5a33bbc094df3b4a519718b6573bd2f9",
+          "bytes": 2894
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-46/reproduction.json",
+          "sha256": "d5391d3e6d89cc520ed64f5da2d37b08389a8d43555ba6c5c53b619da1aa1451",
+          "bytes": 10379
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-46/fresh-process-reproduction.json",
+          "sha256": "b23af6737754aee76ae4899adf91ec991557e5827ce8f5668b4416fa1835ca75",
+          "bytes": 10455
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-46/negative-checks.json",
+          "sha256": "bde06ce759cd465b4b2e757b14561fcfe20cd48e804fb976a330abaa339c69c7",
+          "bytes": 3890
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-46/source-boundaries.json",
+          "sha256": "da05976e15d1645134c7f1f6e646901a55322fb937d12f7e76d9d18be17f16f4",
+          "bytes": 3211
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-46/getread-r02/package-recipe.json",
+          "sha256": "d18d1b89986072fb1b90a59a1a290c0a6521c4404fbbdc9b5199edbb2134789e",
+          "bytes": 3218
+        },
+        "checkpoint": "batch-46"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0035",
@@ -6846,15 +6922,70 @@
         "sha256": "053a761e87dd5003224fadcee76d0c4064339d566dc35870d9980a7fa9d1a182",
         "bytes": 5198
       }
+    },
+    {
+      "name": "1992-12-batch-46",
+      "status": "complete",
+      "completed_at": "2026-11-01T04:09:38.347696+00:00",
+      "goal": "Complete two-page Get/READ article0034 and classify technical heading0033 as non-owning with separate editorial context.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0033",
+        "maso-1992-12-toc-0034"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        413,
+        414
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        411,
+        412,
+        415
+      ],
+      "recognition_invocations": 14,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 1,
+      "pre_ocr_distinct_changed_regions": 1,
+      "within_pass_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-46/validation.json",
+        "sha256": "a68a4ee6ddc01c63f2171e0aeb8a98dc5a33bbc094df3b4a519718b6573bd2f9",
+        "bytes": 2894
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-46/reproduction.json",
+        "sha256": "d5391d3e6d89cc520ed64f5da2d37b08389a8d43555ba6c5c53b619da1aa1451",
+        "bytes": 10379
+      },
+      "group_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-46/group-reproduction.json",
+        "sha256": "50a8208ce8790a0c598ab11fa7817a96328fae167da14b75da17b5273ab33be4",
+        "bytes": 631
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-46/source-boundaries.json",
+        "sha256": "da05976e15d1645134c7f1f6e646901a55322fb937d12f7e76d9d18be17f16f4",
+        "bytes": 3211
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-46/negative-checks.json",
+        "sha256": "bde06ce759cd465b4b2e757b14561fcfe20cd48e804fb976a330abaa339c69c7",
+        "bytes": 3890
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 18,
+    "readable": 19,
     "partial": 1,
-    "group_headings": 5,
+    "group_headings": 6,
     "section_references": 3,
-    "unresolved": 18
+    "unresolved": 16
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -6862,36 +6993,28 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-46",
-    "goal": "Verify technical heading0033 andrestore confirmed @Get...Read article0034 from independently observed opening413 within bounded review.",
+    "name": "1992-12-batch-47",
+    "goal": "Verify and restore independent MODECON article0035 andmonitor-performance tip0043 from observed shared page414.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0033",
-      "maso-1992-12-toc-0034"
+      "maso-1992-12-toc-0035",
+      "maso-1992-12-toc-0043"
     ],
     "candidate_mapping_targets": [
-      413,
-      414,
-      415,
-      416,
-      417,
-      418
+      414
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
       4,
       5,
-      411,
-      412,
-      419,
-      420,
-      421
+      413,
+      415
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Two canonical tasks maximum. Verify whether technical heading0033 is non-owning using original contents and body introduction413;preserve all seven canonical information-sharing children andtheir existing parents without invented hierarchy. Independently titled @Get...READ opening413/438 sourcecredit최익성 observed. Verify actual article extent/ending and adjacent titles before mapping at mostsix confirmed bodypages. Separate same-page tips/advertisements fromeligible body;do not advance other child states. Reuse retained413/411/412 views. Preserve literal code/comments/physicalwraps/glyphcandidates without valid-code ororiginal-disk/file/execution inference. Thirteen prior adapters now required,including Batch45 timetable adapter. Eighteen readable/one partial/five groups/three section references/eighteen unresolved identities;19selectedroots/9708files,13classificationsseparate. UNIX/year-feature locations,otherbodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeoutremainrequired. FullDecembergoalactive;noreaderrebuild."
+    "note": "Two canonical tasks maximum. Reuse retained whole414 andadjacent413/415/contents4/5. Confirm both independent bodies,source title/credit/actual ending andany continuation before mapping;0043 uncertain canonical kind requires source-backed decision. Preserve shared-page ownership:completed0034 upper414 is excluded;MODECONtitle/byline원치호 andbody/rightcolumn are separate fromlowergraymonitor tip. Preserve literal command/code claims,physicalwraps andglyph candidates;no valid-code/original-file/execution inference. Keep original sibling parents0031/nullreferences/order;do not invent technical-heading children. Other identities including0036/0044 stay unchanged. Thirteen prior adapters required. Current19readable/onepartial/sixgroups/three sectionreferences/16unresolved;20selectedroots/9766files and14classificationsseparate. UNIX/year-featurelocations,other bodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeout remainrequired. FullDecembergoalactive;noreaderrebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -6958,6 +7081,11 @@
       "path": "archive/pdf/1992-12/evidence/group-0031-r01/0031-group.json",
       "sha256": "8943aa0b0a1d6d22aee7ba615d4e087d83928bea124c78271fd50102de67e3ee",
       "bytes": 7442
+    },
+    {
+      "path": "archive/pdf/1992-12/evidence/group-0033-r01/0033-group.json",
+      "sha256": "fc8c196fa5ce5925058030f1b532e759896611ffa57b3992d3d7d2b5f4d43d8d",
+      "bytes": 12196
     }
   ]
 }

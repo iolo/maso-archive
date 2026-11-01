@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: eighteen readable/sample-reviewed articles,
-one partial, five non-owning group headings, three section references and eighteen unresolved
-identities. Batch 45 completes the nine-page timetable article on PDF 403–411. Three
-485-file assemblies match from two independently regenerated natives; all 120 source crops,
-67 code/blank rows, source tables/catalogues and twenty-five altered-data checks validate.
-Nineteen roots contain 9,708 selected files; thirteen classifications remain separate.
-Next: verify technical heading 0033 and restore the @Get...Read article from observed 413.
+December 1992 restoration is in progress: nineteen readable/sample-reviewed articles,
+one partial, six non-owning group headings, three section references and sixteen unresolved
+identities. Batch 46 completes the two-page @Get...Read article on PDF 413–414 and classifies
+technical heading 0033 as non-owning. Three 58-file article exports and three one-file heading
+records match; all sixteen crops, seventeen code rows and article/context ranges validate.
+Twenty roots contain 9,766 selected files; fourteen classifications remain separate.
+Next: verify and restore MODECON article 0035 and monitor-performance tip 0043 on shared 414.
 UNIX/year-feature locations, other bodies, full issue accounting, cover, standalone export/
 rebuild and closeout remain pending. Original-file recovery, source glyphs and historical
 claims remain unverified. See the [December record](docs/progress/9212.md). No reader rebuild.

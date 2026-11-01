@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Eighteen readable/sample-reviewed articles, one partial, five non-owning group headings,
-three section references and eighteen unresolved identities account for 45 canonical entries. All 94 independent
+Nineteen readable/sample-reviewed articles, one partial, six non-owning group headings,
+three section references and sixteen unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -717,14 +717,61 @@ files, 9,527 former selected files/nineteen roots, thirteen classifications, 9,3
 files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline
 reused; only 0032 advances. Information-sharing heading 0031 and other child states stay intact.
 
-Next: verify technical heading 0033 and restore the confirmed @Get...Read article 0034
-from observed opening 413/438. Review original contents and the section introduction before
-deciding non-ownership; preserve existing canonical parents without invented hierarchy.
-Verify actual body extent, ending and adjacent titles before mapping at most six confirmed
-pages. Separate same-page tips and advertisements; keep other child states unchanged.
-Thirteen prior adapters now include the Batch 45 timetable adapter. Current totals: eighteen
-readable/sample-reviewed articles, one partial, five groups, three section references and
-eighteen unresolved identities. Nineteen roots contain 9,708 selected files; thirteen
+Batch 46 completes article 0034, @Get...Read입력을 메뉴로 하자, on PDF 413–414/
+individually read folios 438–439, and classifies technical heading 0033 as non-owning.
+The source title/byline 최익성 stay separate from the heading/editorial invitation.
+Heading reference 438, article null reference, both canonical parents 0031 and all
+identities/order remain unchanged. Five technical tips remain canonical siblings;
+no children are invented under 0033 and no duplicate body/package/download is assigned.
+
+Three 58-file article exports match, including a fresh-process build. All thirteen
+exact article crops, twelve outcomes, nine blocks, one original table panel, 108 reading
+rows and 251 typed ranges/five empty anchors validate. Three prose joins preserve physical
+rows, including the 413→414 disk-notice continuation. Upper-middle 414 ends 장점이 있다.
+before independent MODECON and monitor-tip bodies; 415 opens an independent Clipper article.
+No closing M mark is invented. Two inline code examples retain seventeen physical rows,
+including a three-row annotated assignment and two colon-shaped omission marks. Printed
+! =, & &, CHR without dollar sign, Korean placeholders, arrows and physical wraps remain
+literal. No valid-code repair or unprinted implementation is supplied.
+
+The code/name table retains two headers, five pairs/twelve readable cells and two opaque
+lower vertical-dot-run contexts. U+E601/U+E602 each represents an unknown original glyph
+count/encoding; original table pixels remain authoritative. Presentation tabs and code
+spacing are scan-based approximations. Eleven source variants include 실지 못하지만,
+READ을, operator/arrow and punctuation candidates. The source explicitly says the full
+program listing is not printed and refers source/executable to this month's disk. Those
+files and disk remain unrecovered; both printed inline examples are retained. No missing-
+page, issue-wide absence, original encoded-file, execution or technical-truth claim.
+
+Three one-file heading classifications match, including a fresh process. Five source
+anchors, original heading/logo/editorial panel, two context transcriptions, nine physical
+context rows/ranges and three exact crops validate. The eight-line historical editorial
+invitation remains private classification context, separate from article 0034's body.
+Nine ownership/reference/reparenting/preface edits fail the frozen private guard.
+
+All fourteen complete raw drafts read in one untruncated output before one literal source
+pass: two eng/twelve kor+eng, zero retries or within-pass changes. Sixteen initial exact
+crops reviewed on five sheets; one pre-OCR table-margin repair directly reviewed and fifteen
+initial crops reused exactly. Three enlarged source-only details reviewed without OCR.
+A classification-helper type-assertion failure is retained and fixed before any classification
+export; canonical integer 438 is unchanged. Inherited execution-map timetable/screen template
+wording is explicitly corrected in article metadata; recognition provenance remains exact.
+
+Twenty-two consistently rehashed article-metadata edits pass generic exports and fail the
+frozen private audit; no generic custom-schema claim. All 53,718 prior December files,
+9,708 former selected files/nineteen roots, thirteen former classifications, 9,332 September
+files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline
+reused. Only 0033/0034 advance; all other child states remain unchanged.
+
+Next: verify and restore independent MODECON article 0035 and monitor-performance tip 0043
+on observed shared PDF 414/439. Reuse whole 414, adjacent 413/415 and original contents 4/5;
+confirm each body's actual extent, ending, title and credit before mapping. Source-backed
+classification is required for uncertain-kind 0043. Exclude completed 0034's upper-page body,
+keep the two new bodies separate and preserve canonical sibling parents/null references.
+At most two canonical tasks, six mapped pages and twenty outside lookup pages. Other child
+states remain unchanged. Thirteen prior adapters remain required. Current totals: nineteen
+readable/sample-reviewed articles, one partial, six groups, three section references and
+sixteen unresolved identities. Twenty roots contain 9,766 selected files; fourteen
 classifications are separate. UNIX/year-feature locations, other bodies/assemblies, all
 446-page accounting, cover, standalone export/rebuild and closeout remain required. Original
 glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading
