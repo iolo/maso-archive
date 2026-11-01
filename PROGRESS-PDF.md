@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Twenty-one readable/sample-reviewed articles, one partial, six non-owning group headings,
-three section references and fourteen unresolved identities account for 45 canonical entries. All 94 independent
+Twenty-two readable/sample-reviewed articles, one partial, six non-owning group headings,
+three section references and thirteen unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -809,18 +809,63 @@ All 53,984 prior December files, 9,766 former selected files/twenty roots, fourt
 classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
 exact. Unchanged 213-test baseline reused; only 0035/0043 advance.
 
-Next: verify actual extent and restore Clipper/ACHOICE article 0036 from observed independent
-opening PDF 415/440, credited 신준현. Reuse retained 415 and adjacent 414; inspect following
-pages adaptively to confirm the ending and next independent title before mapping at most
-six confirmed body pages. Segment if longer. Preserve both printed listings, literal code,
-comments, physical/logical rows, glyph candidates and original-file limits. Other identities,
-including printer 0044, stay unchanged. Current totals: twenty-one readable/sample-reviewed
-articles, one partial, six groups, three section references and fourteen unresolved identities.
-Twenty-two roots contain 9,852 selected files; fourteen classifications are separate.
-UNIX/year-feature locations, other bodies/assemblies, all 446-page accounting, cover,
-standalone export/rebuild and closeout remain required. Original glyphs/spaces/encoded bytes,
-technical truth, execution, human acceptance/full proofreading remain unverified.
-Full December goal active. No reader rebuild.
+Batch 48 completes Clipper/ACHOICE article 0036 on PDF 415–416/individually read
+folios 440–441. Source title and credit 신준현, canonical parent 0031, null reference and
+order remain unchanged. The final prose ends upper-middle/right 416 with 기사에서 인용한
+것이다. Independent printer 0044 title/byline/body/M and the lower Excel gray tip are
+excluded; 417 is a full advertisement. No closing M is inferred for Clipper.
+
+Three 76-file exports match, including a fresh-process build. All nineteen exact source
+crops, sixteen outcomes, eleven blocks, three original listing panels, 177 reading rows and
+861 typed ranges/56 empty-anchor occurrences validate. Two joined prose groups retain five
+boundaries. The 415→416 continuation passes around all nine intervening listing regions;
+physical source order and wraps remain explicit. Eligible regions are disjoint from every
+exclusion. Original panels intentionally overlap only their own searchable labels/code.
+All nineteen PNG decodes and one ZIP CRC pass.
+
+The three printed listings retain EASYPUT.PRG, function PUTDATA and function JBOX:
+44/45/39 physical code rows, 128 total, eleven blank contexts and no printed line numbers.
+All 125 logical row contexts cover these rows exactly. Two aligned comment groups retain
+three/two physical rows without merging; eleven comment rows remain explicit. Twelve array
+values, three printed calls and six CHR value pairs retain source ranges. The composite
+listing download has three separately indexed fragments; it does not certify a combined
+executable program or recover original encoded files.
+
+Printed colon-separated assignments, USEARRARY comment spelling, SELLE, sdata2/z case,
+SET COLOR TO /W, bare RETURN rows and all CHR(212) values remain unrepaired. Twelve variants
+retain byline and 1/I/l/HO/H0 candidates. Six decorative dash-run markers and one prose
+omission-dot marker have unknown original glyph counts/encoded bytes. Two whitespace ink
+contexts in listing 1 have unknown glyph identity/count/code membership; original pixels
+remain authoritative. Indentation, alignment, quotes and typography are scan approximations.
+Four prose list references retain two apparent panel-number mismatches without repairing
+the printed numbers. The final JBOX prior-article attribution stays literal; the cited article
+and unprinted implementation are not identified or recovered. No syntax, logic or technical
+repair, original program/data/disk recovery or execution is inferred.
+
+All sixteen complete raw drafts read in one untruncated output before one literal source
+pass: three eng/thirteen kor+eng, zero retries or within-pass changes. Nineteen initial
+crops reviewed on six sheets; one pre-OCR clipped left prose margin widened and directly
+reviewed, eighteen initial crops exact. All three code crops also viewed at original
+resolution. Seven enlarged source-only details reviewed without recognition. No export/
+helper failures in this checkpoint. Twenty-seven consistently rehashed custom-metadata
+edits pass generic exports and fail the frozen private audit; no generic custom-schema claim.
+All 54,278 prior December files, 9,852 former selected files/twenty-two roots, fourteen
+classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
+exact. Unchanged 213-test baseline reused; only 0036 advances.
+
+Next: verify and restore independent printer-eject article 0044 from observed shared PDF
+416/441, credited 박상희. Reuse retained 416, contents 4/5 and adjacent 415/417; confirm
+actual title, extent and ending/M before mapping. Exclude completed Clipper listing 3/prose
+and the lower Excel tip. Preserve the literal DEBUG script, hex bytes, filenames, commands,
+physical rows and historical claims without executing or repairing them. Other identities
+stay unchanged. Thirteen assembly adapters and the scoped Batch 47 monitor eligibility
+adapter remain required for relevant prior builds. Current totals: twenty-two readable/
+sample-reviewed articles, one partial, six groups, three section references and thirteen
+unresolved identities. Twenty-three roots contain 9,928 selected files; fourteen
+classifications are separate. UNIX/year-feature locations, other bodies/assemblies,
+all 446-page accounting, cover, standalone export/rebuild and closeout remain required.
+Original glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full
+proofreading remain unverified. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

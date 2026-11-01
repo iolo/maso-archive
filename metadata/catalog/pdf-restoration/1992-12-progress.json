@@ -4721,12 +4721,80 @@
       "toc_entry_id": "maso-1992-12-toc-0036",
       "title": "클리퍼에서 ACHOICE() 함수를 이용한 손쉬운 자료 입력",
       "parent_id": "maso-1992-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 48 completes Clipper/ACHOICE article 0036 on PDF 415–416/individually read folios 440–441. Source title and credit 신준현, canonical parent 0031, null reference and order remain unchanged. Final prose ends upper-middle/right 416 with 기사에서 인용한 것이다. Independent printer 0044 title/byline/body/M and lower Excel gray tip are excluded; 417 is a full advertisement. No closing M is inferred for Clipper.",
+        "Three 76-file exports match, including a fresh-process build. All 19 source crops, 16 outcomes (three eng/thirteen kor+eng), eleven blocks, three original listing panels, 177 reading rows and 861 typed ranges/56 empty-anchor occurrences validate. Two joined prose groups retain five boundaries, including the 415→416 continuation around all nine intervening listing regions. Every eligible region is disjoint from exclusions; panels intentionally overlap only their own searchable labels/code. All nineteen PNG decodes and one ZIP CRC pass.",
+        "Three separately indexed printed listings retain EASYPUT.PRG, function PUTDATA and function JBOX: 44/45/39 physical code rows, 128 total, eleven blank contexts and no printed line numbers. All 125 logical row contexts cover those rows exactly; two aligned comment groups retain three/two physical rows without merging. Eleven comment rows, twelve array values, three printed calls and six CHR value pairs remain source-linked. The composite listing download does not certify a combined executable program or original encoded file.",
+        "Literal colon-separated assignments, USEARRARY comment spelling, SELLE, sdata2/z case, SET COLOR TO /W, bare RETURN rows and all CHR(212) values remain unrepaired. Twelve variants retain byline and 1/I/l/HO/H0 candidates. Six decorative dash-run markers and one prose omission-dot marker have unknown original glyph counts/encoded bytes. Two whitespace ink contexts in listing1 have unknown glyph identity/count/code membership; original pixels remain authoritative.",
+        "Four printed list-reference occurrences retain two apparent panel-number mismatches without repairing source numbers. The final JBOX prior-article attribution stays literal; the cited article and unprinted implementation are not identified or recovered. Indentation, alignment, quotes and typography are scan-based approximations. Original program/data/disk files, encoded commands, execution and technical truth remain unverified.",
+        "All sixteen complete raw drafts were read in one untruncated output before one literal source pass. Nineteen initial exact crops reviewed on six sheets; one pre-OCR left prose margin repair directly viewed, eighteen initial crops exact. All three code crops also viewed at original resolution. Seven source-only enlarged details reviewed without recognition. Zero retries or within-pass crop changes; no export/helper failures in this checkpoint.",
+        "Twenty-seven consistently rehashed custom-metadata edits pass generic exports and fail the frozen private audit; no generic custom-schema claim. All 54278 prior December files, 9852 former selected files/twenty-two roots, fourteen classifications, 9332 September files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused. Assistant sample review only; human acceptance/full proofreading and original glyphs/spaces/encoded bytes remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-48-r01/clipper",
+        "article_id": "scan-maso-1992-12-toc-0036",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-48-r01/clipper/manifest.json",
+          "sha256": "32505a36210bbe61d823430182b3b4cb975d85afd3b93d635d8e80b22a752a51",
+          "bytes": 13046
+        },
+        "coverage": {
+          "pdf_pages": [
+            415,
+            416
+          ],
+          "printed_pages": [
+            "440",
+            "441"
+          ],
+          "regions": 19,
+          "blocks": 11,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 415,
+        "actual_end_pdf_page": 416,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-48/validation.json",
+          "sha256": "c90d4925749f3596db846aba0e46fe995ae3e6f11ae1df36c3aa53d88afdc546",
+          "bytes": 2710
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-48/reproduction.json",
+          "sha256": "1c2a4f60c3af80218b44ebcc889edd89814436e631b284eff61a83e5dba87dec",
+          "bytes": 13544
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-48/fresh-process-reproduction.json",
+          "sha256": "10c3b035d87fd9d85855f80fce21f44305b1812474b95f0bd732928fc8b7503a",
+          "bytes": 13620
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-48/negative-checks.json",
+          "sha256": "9c0f9831968fc5e4dec6412fa55b9dfdf471971499455b32b604ab5bde74d7df",
+          "bytes": 4732
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-48/source-boundaries.json",
+          "sha256": "069d8bd9a7b10fbc0e1ad5112ccd301bd574239d3def59682632d56d09fb3f81",
+          "bytes": 2613
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-48/clipper-r02/package-recipe.json",
+          "sha256": "182b2383e73afbf633727c02913236fa35f8a9a2bc7eece87bcfb778e135f7ec",
+          "bytes": 3819
+        },
+        "checkpoint": "batch-48"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0044",
@@ -7173,15 +7241,63 @@
         "sha256": "183c91cd46a7843639cc4af71cb1acabe39457a69e33c9e81c4acd209fbfcf04",
         "bytes": 934
       }
+    },
+    {
+      "name": "1992-12-batch-48",
+      "status": "complete",
+      "completed_at": "2026-11-01T04:39:18.903294+00:00",
+      "goal": "Restore complete Clipper/ACHOICE article 0036 on PDF415–416 with all three printed listings.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0036"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        415,
+        416
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        414,
+        417
+      ],
+      "recognition_invocations": 16,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 1,
+      "pre_ocr_distinct_changed_regions": 1,
+      "within_pass_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-48/validation.json",
+        "sha256": "c90d4925749f3596db846aba0e46fe995ae3e6f11ae1df36c3aa53d88afdc546",
+        "bytes": 2710
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-48/reproduction.json",
+        "sha256": "1c2a4f60c3af80218b44ebcc889edd89814436e631b284eff61a83e5dba87dec",
+        "bytes": 13544
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-48/source-boundaries.json",
+        "sha256": "069d8bd9a7b10fbc0e1ad5112ccd301bd574239d3def59682632d56d09fb3f81",
+        "bytes": 2613
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-48/negative-checks.json",
+        "sha256": "9c0f9831968fc5e4dec6412fa55b9dfdf471971499455b32b604ab5bde74d7df",
+        "bytes": 4732
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 21,
+    "readable": 22,
     "partial": 1,
     "group_headings": 6,
     "section_references": 3,
-    "unresolved": 14
+    "unresolved": 13
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -7189,31 +7305,27 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-48",
-    "goal": "Verify actual extent andrestore Clipper/ACHOICE article0036 fromobserved independentopening415 withinbounded source-first workflow.",
+    "name": "1992-12-batch-49",
+    "goal": "Verify and restore independent printer-eject article0044 from observed shared page416/441.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0036"
+      "maso-1992-12-toc-0044"
     ],
     "candidate_mapping_targets": [
-      415,
-      416,
-      417,
-      418,
-      419,
-      420
+      416
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
       4,
       5,
-      414
+      415,
+      417
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Startwithretained415/440 andadjacent414. Verify actualending/continuation andnextindependenttitle adaptively beforemapping atmostsixconfirmed bodypages;segment iflonger. Sourcecredit신준현 andtwo listingsobserved415. Preserve literal Clippercode/placeholders,physical/logicalrows,comments,arrows,printedmistakes andsourceglyph candidates withoutvalid-code/original-program/disk/execution inference. Canonicalparent0031/nullreference/order unchanged. Otheridentities,includingprinter0044,stayunchanged. Thirteenassemblyadapters remain required;newnarrowBatch47monitor0043eligibilityadapter is additionally neededwhenrebuildingthatnative. Current21readable/onepartial/sixgroups/threereferences/14unresolved;22selectedroots/9852files and14classificationsseparate. UNIX/year-featurelocations,otherbodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeoutremainrequired. FullDecembergoalactive;noreaderrebuild."
+    "note": "Reuse retained whole416 andcontents4/5,adjacent415/417. Verify actual title/credit박상희,body ending/M andany continuation beforemapping. Exclude completedClipper listing3/prose andlowerindependentExcelgraytip. Preserve literal DEBUG script,hexbytes,commandspacing,printedfilename/bodyclaims andglyphcandidates without executing code or certifying original encoded files/technical truth. Canonicalparent0031/nullreference/order unchanged;other identities stay unchanged. Thirteen assembly adapters andBatch47 scopedmonitor eligibility adapter remain required for relevant prior builds. Current22readable/onepartial/sixgroups/threereferences/13unresolved;23selectedroots/9928files and14classificationsseparate. UNIX/year-featurelocations,other bodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeout remain required. Full December goal active;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

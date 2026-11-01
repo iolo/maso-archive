@@ -13,14 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: twenty-one readable/sample-reviewed articles,
-one partial, six non-owning group headings, three section references and fourteen unresolved
-identities. Batch 47 completes independent MODECON and monitor-performance bodies on PDF 414.
-Three 41-file and three 45-file exports match; all eighteen crops, seventeen OCR outcomes,
-six monitor items and 172 text ranges validate. A frozen private adapter handles monitor
-0043's uncertain-kind inventory omission without core or canonical metadata changes.
-Twenty-two roots contain 9,852 selected files; fourteen classifications remain separate.
-Next: verify the extent and restore Clipper/ACHOICE article 0036 from observed PDF 415.
+December 1992 restoration is in progress: twenty-two readable/sample-reviewed articles,
+one partial, six non-owning group headings, three section references and thirteen unresolved
+identities. Batch 48 completes the two-page Clipper/ACHOICE article on PDF 415–416. Three
+76-file exports match; all nineteen crops, three printed listings/128 code rows and 861
+text ranges validate. Literal source defects, list-reference mismatches and opaque marks
+remain explicit. Twenty-three roots contain 9,928 selected files; fourteen classifications
+remain separate. Next: verify and restore printer-eject article 0044 on shared PDF 416.
 UNIX/year-feature locations, other bodies, full issue accounting, cover, standalone export/
 rebuild and closeout remain pending. Original-file recovery, source glyphs and historical
 claims remain unverified. See the [December record](docs/progress/9212.md). No reader rebuild.
