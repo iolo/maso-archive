@@ -86,8 +86,22 @@ refined afterward with saved text unchanged. Total 63 calls, 55 exact final reus
 outcomes with actual execution origins, zero unchanged-input retries. Nine invalid
 custom-data cases rejected; all 14,427 prior files and thirty core modules exact.
 Actual seven-page extent 140–146 observed; final 146 and actual assembly pending.
-Next: preserve final copyright page 146 and actually assemble all seven pages;
-validate the incoming 145→146 source/download contexts and retain every custom index.
+Batch 08 preserves final 146 as native b and actually assembles copyright article
+0007 on 140–146/138–144: 291 exact files from two independently regenerated natives/
+283 files and a fresh-process rebuild. All 69 crops, 66 outcomes, 1,218 projected
+metadata ranges, 2,364 current typed occurrences and 775 rows validate. One direct
+145→146 prose join retains both original contexts. Three independent quotations
+stay separate; quotation 145 and main prose 146 retain differing wording. Eighteen
+headings, three party rows, eleven citations/command tokens, eight circled markers
+and nineteen internal continuations remain indexed. Final-page native b adds nine
+initial calls, one source pass and zero retries after four pre-OCR crop changes.
+Nine rehashed assembly and two ownership mutations are rejected; all 14,667 prior
+files and thirty core modules remain exact. Prior fresh 213-test result retained.
+Current totals: three readable articles, one non-owning group, three final section
+references and 45 unresolved identities. Next: verify article 0008's source location
+and extent, then restore up to six verified body pages. Printed reference 172 and
+PDF probe 174 are leads; inspect actual title, byline, folios, ownership and ending
+before mapping. No global offset or unreviewed extent is inferred.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:

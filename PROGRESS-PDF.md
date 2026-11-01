@@ -6,21 +6,24 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: two readable/sample-reviewed articles, one partial,
-one non-owning group, three final section references and 45 unresolved identities
-among 52. The complete feature and all child anchors remain unchanged. Copyright
-article 0007 opening PDF 140–145 has 239 independently/fresh-process exact files,
-sixty exact crops, 57 outcomes, 653 rows and 1,037 native/group ranges. Three original
-images/independent quotations, fifteen headings, three party rows, eleven citations,
-eleven command tokens and seventeen continuations retain source contexts.
-One source pass; 63 actual calls include two post-pass title crop refinements with
-saved text unchanged. Fifty-five final outcomes reused with actual execution origins;
-zero unchanged-input retries. Group 0006 is non-owning; one exact classification
-sidecar and nine invalid custom-data cases validate. Prior 14,427 files and thirty
-core modules unchanged; prior fresh 213-test result retained. Next: final page 146
-and actual seven-page copyright assembly. Remaining bodies, 433-page accounting,
-cover and issue closeout are pending. See [March progress](docs/progress/9303.md)
-and its [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+March 1993 is in progress: three readable/sample-reviewed articles, one non-owning
+group, three final section references and 45 unresolved identities among 52.
+Copyright article 0007 is now actually assembled on PDF 140–146/printed 138–144:
+291 independently/fresh-process exact files from two regenerated natives/283 files.
+All 69 crops, 66 OCR outcomes, 1,218 projected metadata ranges, 2,364 current ranges
+and 775 reading rows validate. Three original images and independent quotations,
+eighteen headings, three party rows, eleven citations, eleven command tokens and
+eight circled markers retain source contexts. The direct 145→146 prose continuation
+joins once; quotation 145 and main prose 146 keep their differing wording.
+Final-page native b adds nine OCR calls after four pre-OCR crop changes, one source
+pass and zero retries. Native a's chronology and original execution origins remain
+unchanged. Nine rehashed assembly and two ownership mutations are rejected.
+All 14,667 prior files and thirty core modules remain exact; the prior fresh 213-test
+result is retained. Three current body-owner packages contain 999 files.
+Next: locate and verify article 0008, the Macworld exhibition report, then restore
+up to six verified body pages. Remaining bodies, 433-page accounting, cover and
+issue closeout remain required. See [March progress](docs/progress/9303.md) and its
+[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.
 The 13,097-file standalone collection reproduces exactly from 59 natives and fourteen

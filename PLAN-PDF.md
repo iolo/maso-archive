@@ -110,12 +110,25 @@ outcomes with actual execution origins, zero unchanged-input retries. Nine inval
 custom-data cases rejected; all 14,427 prior files and thirty core modules exact.
 Actual seven-page extent 140–146 observed; final 146 and actual assembly pending.
 
-Current totals: two readable articles, one partial, one non-owning group, three
-section references and 45 unresolved identities among 52. Three current body-owner
-packages contain 947 exact files; original feature natives remain unchanged.
-Batch 08 preserves final 146 and actually assembles the complete copyright article.
-Remaining bodies, 433-page accounting, cover and issue closeout remain required.
-See [March progress](docs/progress/9303.md) and the
+Batch 08 preserves final 146 as native b and actually assembles copyright article
+0007 on 140–146/138–144: 291 exact files from two independently regenerated natives/
+283 files and a fresh-process rebuild. All 69 crops, 66 outcomes, 1,218 projected
+metadata ranges, 2,364 current typed occurrences and 775 rows validate. One direct
+145→146 prose join retains both original contexts. Three independent quotations
+stay separate; quotation 145 and main prose 146 retain differing wording. Eighteen
+headings, three party rows, eleven citations/command tokens, eight circled markers
+and nineteen internal continuations remain indexed. Final-page native b adds nine
+initial calls, one source pass and zero retries after four pre-OCR crop changes.
+Nine rehashed assembly and two ownership mutations are rejected; all 14,667 prior
+files and thirty core modules remain exact. Prior fresh 213-test result retained.
+
+Current totals: three readable articles, one non-owning group, three section
+references and 45 unresolved identities among 52; no partial article remains at
+this checkpoint. Three current body-owner packages contain 999 exact files;
+original feature/copyright natives remain unchanged. Batch 09 verifies the source
+location and extent of article 0008, the Macworld exhibition report, then restores
+up to six verified body pages. Remaining bodies, 433-page accounting, cover and
+issue closeout remain required. See [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01
