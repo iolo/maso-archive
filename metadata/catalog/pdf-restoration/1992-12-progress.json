@@ -5809,23 +5809,154 @@
       "toc_entry_id": "maso-1992-12-toc-0041",
       "title": "게시판",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 60 directly reviews ten whole source pages: contents 4/5, advertisements 434–436, complete bulletin 437/individually read 462, independent Ctrl-Break 438/463, independent afterword/advertisement index 439/464 and landscape reader-card sides 440/441. Canonical title, null parent and page reference remain unchanged. Complete endings observed; no body continuation or invented canonical children.",
+        "Three 136-file exports match byte for byte, including a fresh process. All 35 exact source crops, 31 selected OCR outcomes, 31 blocks, four original figures, 47 physical rows and 222 typed ranges validate. Five disk groups advertise seven diskettes and nine program entries. Eight printed program tokens and seven separator candidates retain original case, wording and glyph uncertainty; no software, disks or original file bytes recovered.",
+        "Separate JPEG erratum retains six literal LENA.OUT/LENA_F.CON occurrences and both correction directions, including printed CON without extension repair. November reference and image claims remain historical; no prior images verified or modified. The lower purchase notice, disk icon, eight nonempty fee-table cells/one blank cell across nine positions, phone and original map remain explicit. Blank source image anchor infers no encoded whitespace or zero. Thirteen map-label candidates retain image context; exit-number glyph unresolved, current location/contact unverified. Incidental fee-table pixels in the map are not transcribed twice.",
+        "All 52 initial crops on eighteen sheets and one enlarged title-margin revision were directly reviewed before recognition; 51 selected crops remain initial-exact. One terminal Poppler interruption occurred before any Ctrl-Break recognition. All 31 completed bulletin outcomes reused unchanged; twelve Ctrl-Break outcomes recognized once in a fresh destination. All 43 complete raw drafts read in one untruncated output before one literal source pass. Eight source-only details viewed without OCR. One empty fee-cell draft and angled-panel omission corrected without retry. Zero recognition retries or within-pass crop changes. Prospective stage wall times retain interruption/orchestration limits; isolated engine time is separate.",
+        "Thirty-two consistently rehashed custom-metadata edits pass generic integrity and fail frozen private source/index audits; no generic custom-schema claim. An audit-helper assumption about an extra listing terminal newline failed and was corrected with source/export bytes unchanged; original helper/log retained. All 71,118 prior December files, 12,803 former selected files across 29 roots, sixteen classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused. Original glyphs/spacing/encoded bytes, technical/historical truth, identities/contacts, source files/disks, execution, human acceptance and full proofreading remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-60-r01/bulletin",
+        "article_id": "scan-maso-1992-12-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-60-r01/bulletin/manifest.json",
+          "sha256": "71bf481023dfb841c242c6338f789c94fd3193184f2025f0f205799a5b6c77d8",
+          "bytes": 23435
+        },
+        "coverage": {
+          "pdf_pages": [
+            437
+          ],
+          "printed_pages": [
+            "462"
+          ],
+          "regions": 35,
+          "blocks": 31,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "note": "Complete one-page body with independent title, actual folio and ending. Adjacent body is independent; no remaining body or assembly required."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 437,
+        "actual_end_pdf_page": 437,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/validation.json",
+          "sha256": "75e8852191a00545e9c1e22b8a8ec82e9f513408027e7d690c1c7468918e9118",
+          "bytes": 2612
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/reproduction.json",
+          "sha256": "7fcae69c9163452d9ac389679e203ae91ec7a18fc37a37a445712e61cfaeb88b",
+          "bytes": 39023
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/fresh-process-reproduction.json",
+          "sha256": "9e8d287f549fbd29dff33fc2ef4003e8847a6344370acb89a30318574fe446c6",
+          "bytes": 38363
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/negative-checks.json",
+          "sha256": "55cb5bcac2ec62833e9c00578450299246db296dbcc2e1b2c73b29ef58140b01",
+          "bytes": 6760
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/source-boundaries.json",
+          "sha256": "3fbce6f1007b9821f3db2608adff00f8c34e4385167e4a1599e949b41ef4a7e9",
+          "bytes": 645
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/bulletin-r02/package-recipe.json",
+          "sha256": "a4e8b41d7f1ef928b2234b21a5039819121ad12bd9eadbc2478d91b220b0b4b5",
+          "bytes": 5333
+        },
+        "checkpoint": "batch-60"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0042",
       "title": "<Ctrl-Break>",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 60 directly reviews ten whole source pages: contents 4/5, advertisements 434–436, complete bulletin 437/individually read 462, independent Ctrl-Break 438/463, independent afterword/advertisement index 439/464 and landscape reader-card sides 440/441. Canonical title, null parent and page reference remain unchanged. Complete endings observed; no body continuation or invented canonical children.",
+        "Three 62-file exports match byte for byte, including a fresh process. All seventeen exact source crops, twelve selected OCR outcomes, twelve blocks, five original figures, 64 physical rows and 215 typed ranges validate. Four intrinsic satire items and separate contribution invitation retain original art/text associations. Communications cartoon keeps ten club candidates and handwritten caption; doctor/computer joke retains its arrow, embedded signs and Dr. 안 수술 중 caption.",
+        "Poem 삶의 회로도 retains all 27 physical rows, separate 나는 컴퓨터 시인이로소이다 attribution and 이경일/ikilee credit. The credit applies only to the poem; no whole-page byline or verified identity inferred. Printed 컴바이러스 and 혓바닥 remain literal. Humorous War Game program retains seventeen physical rows, five numbered prose rules and three physical rule wraps in article and listing contexts. Uppercase DO, Korean include/prose, approximate indentation and missing C punctuation remain without repair or execution. The listing ends at the printed closing brace without an added terminal newline.",
+        "The angled invitation retains seven physical rows and literal final Ctrl-break case. Original panel and source-only rotated display preserve its glyph context. Draft contains only running-footer text; actual panel text corrected from source without retry. Incidental running footer is excluded from prose. Historical invitation/gift claims remain unverified and no submission sent.",
+        "All 52 initial crops on eighteen sheets and one enlarged title-margin revision were directly reviewed before recognition; 51 selected crops remain initial-exact. One terminal Poppler interruption occurred before any Ctrl-Break recognition. All 31 completed bulletin outcomes reused unchanged; twelve Ctrl-Break outcomes recognized once in a fresh destination. All 43 complete raw drafts read in one untruncated output before one literal source pass. Eight source-only details viewed without OCR. One empty fee-cell draft and angled-panel omission corrected without retry. Zero recognition retries or within-pass crop changes. Prospective stage wall times retain interruption/orchestration limits; isolated engine time is separate.",
+        "Thirty-two consistently rehashed custom-metadata edits pass generic integrity and fail frozen private source/index audits; no generic custom-schema claim. An audit-helper assumption about an extra listing terminal newline failed and was corrected with source/export bytes unchanged; original helper/log retained. All 71,118 prior December files, 12,803 former selected files across 29 roots, sixteen classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused. Original glyphs/spacing/encoded bytes, technical/historical truth, identities/contacts, source files/disks, execution, human acceptance and full proofreading remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-60-r01/ctrl-break",
+        "article_id": "scan-maso-1992-12-toc-0042",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-60-r01/ctrl-break/manifest.json",
+          "sha256": "ff5c355fb23f12d4cd92d9b4063cacf7677dfff436f48e05af921a34807d825b",
+          "bytes": 10546
+        },
+        "coverage": {
+          "pdf_pages": [
+            438
+          ],
+          "printed_pages": [
+            "463"
+          ],
+          "regions": 17,
+          "blocks": 12,
+          "figures": 5,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "note": "Complete one-page body with independent title, actual folio and ending. Adjacent body is independent; no remaining body or assembly required."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 438,
+        "actual_end_pdf_page": 438,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/validation.json",
+          "sha256": "75e8852191a00545e9c1e22b8a8ec82e9f513408027e7d690c1c7468918e9118",
+          "bytes": 2612
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/reproduction.json",
+          "sha256": "7fcae69c9163452d9ac389679e203ae91ec7a18fc37a37a445712e61cfaeb88b",
+          "bytes": 39023
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/fresh-process-reproduction.json",
+          "sha256": "9e8d287f549fbd29dff33fc2ef4003e8847a6344370acb89a30318574fe446c6",
+          "bytes": 38363
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/negative-checks.json",
+          "sha256": "55cb5bcac2ec62833e9c00578450299246db296dbcc2e1b2c73b29ef58140b01",
+          "bytes": 6760
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/source-boundaries.json",
+          "sha256": "3fbce6f1007b9821f3db2608adff00f8c34e4385167e4a1599e949b41ef4a7e9",
+          "bytes": 645
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-60/ctrl-break-r02/package-recipe.json",
+          "sha256": "de85a7eb796d25d74483ac216979dca6e1755d410b6efd8fe2a6960a5bdb0cc0",
+          "bytes": 3918
+        },
+        "checkpoint": "batch-60"
+      }
     }
   ],
   "checkpoints": [
@@ -8935,15 +9066,81 @@
         "sha256": "980ccceebc12e6de22975899629d6e159cd3f94228bde4aa63adfcec66053d95",
         "bytes": 441
       }
+    },
+    {
+      "name": "1992-12-batch-60",
+      "status": "complete",
+      "completed_at": "2026-11-01T09:59:09.582388+00:00",
+      "goal": "Restore complete bulletin 0041 and Ctrl-Break 0042 on PDF 437/438 after independent source-boundary verification.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0041",
+        "maso-1992-12-toc-0042"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        437,
+        438
+      ],
+      "outside_lookup_pages": 8,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        434,
+        435,
+        436,
+        439,
+        440,
+        441
+      ],
+      "recognition_invocations": 43,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 1,
+      "pre_ocr_distinct_changed_crops": 1,
+      "within_pass_crop_repairs": 0,
+      "source_only_details": 8,
+      "terminal_render_interruptions": 1,
+      "reused_completed_outcomes": 31,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-60/validation.json",
+        "sha256": "75e8852191a00545e9c1e22b8a8ec82e9f513408027e7d690c1c7468918e9118",
+        "bytes": 2612
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-60/reproduction.json",
+        "sha256": "7fcae69c9163452d9ac389679e203ae91ec7a18fc37a37a445712e61cfaeb88b",
+        "bytes": 39023
+      },
+      "fresh_process_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-60/fresh-process-reproduction.json",
+        "sha256": "9e8d287f549fbd29dff33fc2ef4003e8847a6344370acb89a30318574fe446c6",
+        "bytes": 38363
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-60/source-boundaries.json",
+        "sha256": "3fbce6f1007b9821f3db2608adff00f8c34e4385167e4a1599e949b41ef4a7e9",
+        "bytes": 645
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-60/negative-checks.json",
+        "sha256": "55cb5bcac2ec62833e9c00578450299246db296dbcc2e1b2c73b29ef58140b01",
+        "bytes": 6760
+      },
+      "timings": {
+        "path": "archive/pdf/1992-12/restoration/batch-60/prospective-timings.json",
+        "sha256": "003f584b71e90cbf3daf84e3ad402ffa1116902279809642c8a2a9705b8b9bef",
+        "bytes": 581
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 28,
+    "readable": 30,
     "partial": 1,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 6
+    "unresolved": 4
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -8951,33 +9148,42 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-60",
-    "goal": "Locate and verify bulletin 0041 and Ctrl-Break 0042 openings, folios, extents and endings before bounded restoration.",
+    "name": "1992-12-batch-61",
+    "goal": "Begin systematic source-page accounting and bounded location search for year-feature continuation 0019 and UNIX terminal-control 0022; review physical pages 1–20.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0041",
-      "maso-1992-12-toc-0042"
+      "maso-1992-12-toc-0019",
+      "maso-1992-12-toc-0022"
     ],
-    "candidate_mapping_targets": [
-      437,
-      438
-    ],
+    "candidate_mapping_targets": [],
     "mapping_targets": [],
     "initial_lookup_candidates": [
+      1,
+      2,
+      3,
       4,
       5,
-      434,
-      435,
-      436,
-      439,
-      440,
-      441
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Canonical references 462/463 are starting clues only. Physical pages 437/438 are candidates, not confirmed locations or a global folio offset. Inspect actual titles, folios and adjacent pages before mapping at most six total pages/two canonical bodies. Independent publisher notice 433 is not classified as the canonical bulletin. Preserve notices, credits, art, contacts, literal historical wording and uncertainty. Segment longer bodies and assemble separately. Totals: 28 readable, one partial, seven groups, three references and six unresolved identities; 29 selected roots/12,803 files and sixteen classifications separate. Year-feature continuation/child references, UNIX locations, remaining reader bodies, all 446-page accounting, cover, standalone issue export/rebuild and closeout remain required. Full December objective active; no reader rebuild."
+    "note": "All reader-section canonical bodies are now readable/sample-reviewed. Begin accounting for all 446 physical source pages with direct review of 1–20 and a pinned page index. Reuse original retained views where exact; distinguish cover, contents, advertisements, unlisted material and any actual target body. Reconcile prior reviewed body/search observations from their pins without treating render existence as direct review. Keep full-source absence unproven until complete accounting. Year-feature 0019 remains partial; children 0020/0021 and UNIX 0022/0023 remain unresolved. Known shell-listing fragments 300–305 do not alone prove independent opening or full ownership/extent. Do not advance unassigned children or 0023 in this two-task checkpoint. At most twenty outside pages; map at most six confirmed eligible pages only if found. Totals: thirty readable, one partial, seven groups, three references and four unresolved identities; 31 selected roots/13,001 files and sixteen classifications separate. Remaining bodies/assemblies or explicit source gaps, all 446-page accounting, cover verification, standalone issue export/rebuild and closeout remain required. Full December objective active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Twenty-eight readable/sample-reviewed articles, one partial, seven non-owning group headings,
-three section references and six unresolved identities account for 45 canonical entries. All 94 independent
+Thirty readable/sample-reviewed articles, one partial, seven non-owning group headings,
+three section references and four unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -1452,6 +1452,68 @@ pages/two canonical tasks. Outside lookup limit remains twenty pages. Year-featu
 continuation/child references, UNIX locations, remaining reader bodies, all 446-page
 accounting, cover, standalone issue export/rebuild and closeout remain required.
 No reader rebuild.
+
+Batch 60 completes bulletin 0041, 게시판, on PDF 437/individually read printed 462,
+and Ctrl-Break 0042 on PDF 438/463. Ten whole views establish both independent bodies,
+prior subscription advertising 436, following afterword/advertisement index 439/464
+and landscape reader-card sides 440/441. Canonical identities, null parents and references
+remain unchanged. Intrinsic notices/satire create no canonical children or page bylines.
+
+Three exports per package match byte for byte, including a fresh process: 136 bulletin
+files and 62 Ctrl-Break files. All 52 source-exact crops, 43 selected OCR outcomes/blocks,
+nine original figures, 111 physical rows and 437 typed ranges validate. The bulletin
+retains five disk groups/nine entries advertising seven diskettes, eight literal program
+tokens and seven separator candidates. No disks, original programs or file bytes recovered.
+Its fee table has nine positions/eight nonempty cells/one visually blank image anchor,
+with original table, purchase text, disk icon, historical phone and street map intact.
+Thirteen embedded map-label candidates remain qualified; exit-number glyph unresolved.
+The JPEG erratum retains six LENA.OUT/LENA_F.CON occurrences and both correction
+directions, including printed CON. Prior November images are not verified or modified.
+
+Ctrl-Break retains four satire items and a separate seven-row contribution invitation.
+The communications cartoon keeps ten club candidates and its handwritten caption.
+The poem has 27 physical rows, separate source attribution and 이경일/ikilee credit;
+this is not a page byline or verified identity. Printed 컴바이러스 and 혓바닥 stay literal.
+The humorous program preserves seventeen rows, five prose rules and three physical
+wraps in article/listing contexts. Uppercase DO, Korean include/prose, approximate
+indentation and missing C punctuation remain without repair or execution. Its listing
+ends at the closing brace without an added newline. Original doctor/computer joke,
+arrow, poem art and angled invitation remain intact, including final Ctrl-break case.
+
+All 52 initial crops on eighteen sheets and one changed full title crop were reviewed
+before recognition; 51 selected crops remain initial-exact. A terminal Poppler interruption
+occurred before any Ctrl-Break recognition. All 31 completed bulletin outcomes were
+reused unchanged; twelve Ctrl-Break outcomes were recognized once in a fresh destination.
+All 43 complete raw drafts were read in one untruncated output before one source pass.
+Eight source-only enlarged/rotated details were viewed without OCR. One empty fee-cell
+draft and the invitation's running-footer-only draft were corrected directly from scans.
+Zero recognition retries or within-pass crop changes. An audit-helper assumption about
+an extra listing newline was corrected; source/export bytes stayed unchanged. Earlier
+helper, interrupted render and logs remain retained. Prospective stage walls include
+interruption/orchestration latency; successful engine time is separate, not manual throughput.
+
+Thirty-two consistently rehashed custom-metadata edits pass generic integrity and fail
+frozen private source/index audits; no generic custom-schema claim. All 71,118 prior
+December files, 12,803 former selected files across 29 roots, sixteen classifications,
+9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact.
+The unchanged 213-test baseline is reused. Original glyphs/spacing/encoded bytes,
+technical/historical truth, names/contacts, source disks/files, execution, human acceptance
+and full proofreading remain unverified.
+
+Only 0041/0042 advance. Totals: thirty readable/sample-reviewed articles, one partial,
+seven group headings, three section references and four unresolved identities among 45.
+Thirty-one selected roots contain 13,001 files; sixteen classifications remain separate.
+All reader-section canonical bodies are now readable. The full December objective remains active.
+
+Next checkpoint 61 begins systematic 446-page accounting with direct review of physical
+pages 1–20 and bounded location research for year-feature 0019 and UNIX terminal-control
+0022. Preserve source kinds and actual folios in a pinned index; reconcile prior reviewed
+body/search evidence without treating render existence as visual review. No full-source
+absence claim before complete accounting. Children 0020/0021 and UNIX 0023 do not advance
+in this two-task checkpoint. Known shell-listing fragments 300–305 alone do not establish
+opening/ownership/extent. Keep at most twenty outside pages and six mapped pages.
+Remaining bodies/assemblies or explicit source gaps, all 446-page accounting, cover,
+standalone issue export/rebuild and closeout remain required. No reader rebuild.
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
