@@ -23,8 +23,8 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-December 1992 is in progress at the owner's request: twenty-four readable/sample-reviewed
-articles, one partial, seven non-owning group headings, three section references and ten unresolved
+December 1992 is in progress at the owner's request: twenty-six readable/sample-reviewed
+articles, one partial, seven non-owning group headings, three section references and eight unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -1332,6 +1332,67 @@ two canonical tasks, six mapped pages and twenty outside lookup pages. Year-feat
 continuation/child references, UNIX locations, remaining reader-section bodies,
 all 446-page accounting, cover, standalone issue export/rebuild and closeout remain
 required. Full December goal active. No reader rebuild.
+
+Batch 57 completes reader quiz 0039 on PDF 142–143/individually read 132–133 and
+January contents notice 0040 on PDF 144–145/134–135. Original contents 4/5, prior
+radar ending 141, all four body pages and following independent C-book advertisement
+146 were directly reviewed. Canonical identities, titles, order, parents and references
+132/134 remain unchanged. Neither body has an observed byline.
+
+Three 214-file quiz exports and three 171-file notice exports match byte for byte,
+including a fresh process. All 108 source-exact crops, 87 selected OCR outcomes,
+86 blocks, 21 original figures, 290 physical reading rows and 1,036 typed ranges
+validate, including one blank paragraph anchor. All images decode; both ZIP CRCs pass.
+
+The quiz retains its invitation, cartoon/title, sixteen prize captions and original
+art, current question, previous JPEG answer, four entry sections, sixteen winner
+groups and closing submission notice. All 87 advertised prize counts and 87 physical
+historical name/locality rows are separately indexed. Two outlined graphic blanks
+remain two Unicode squares; no current answer is supplied. JPEG belongs only to the
+previous month. The monthly deadline is printed as 20. Names, addresses and contacts
+remain historical source candidates, with no identity/current-location verification.
+
+Caption/winner-heading variants, old-araea ᄒᆞᆫ글 with 훈글/흔글/한글 alternatives,
+printed 컴퓨러/셈틀책꽂이 and faint name candidates remain source-linked. Literal
+소울 is retained without geographic repair. Tiny lettering in prize artwork remains
+in original images without encoded transcription certification. No prizes or software
+are recovered, contacts verified or submissions sent.
+
+The notice retains twelve editorial previews and two independent promotional notices.
+Source title 1월호 주요 목차 and canonical ending 안내 remain separate. The IPC
+paragraph crosses 144→145 with literal physical 본/것을 rows and an intervening
+independent library-bank panel. Printed Inter Process Communicaion remains without
+English spelling repair. Boxed series 1/5, 150, 512×512, 256, 1MB, version strings,
+library-bank notice and 마소지기 2.0 special-gift panel remain source-linked. No new
+canonical children, actual January publication, award history or software recovery inferred.
+
+All 108 initial crops on 29 sheets were reviewed before recognition. Eighteen pre-OCR
+edge-change events affect fourteen distinct crops; all changed crops on five sheets
+were reviewed, and 95 selected crops still equal initial crops. All 87 complete raw
+drafts were read in one untruncated output before one literal source pass. Seven empty
+colored-heading drafts were corrected from scans without retry. Eight enlarged
+source-only details were viewed without OCR. Zero retries or within-pass map changes.
+
+Twenty-six consistently rehashed custom-metadata edits pass generic export integrity
+and fail frozen private source/index audits; no generic custom-schema claim. All
+67,948 prior December files, 11,938 former selected files/25 roots, sixteen classification
+files, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact.
+The unchanged 213-test baseline is reused. Source glyphs/spacing/encoded bytes,
+technical/historical truth, original files, execution, human acceptance and full
+proofreading remain unverified.
+
+Only 0039/0040 advance. Totals are twenty-six readable/sample-reviewed articles, one
+partial, seven group headings, three section references and eight unresolved identities
+among 45. Twenty-seven selected roots contain 12,323 files; sixteen classification
+files remain separate. The full December goal remains active.
+
+Next: locate and verify reader Q&A 0037 using source folios, adjacent titles, opening,
+extent and ending before mapping at most six confirmed body pages. PDF 419 is a
+candidate from the canonical reference 444, not a verified location or global offset.
+Segment any longer body and assemble separately. Reader voices and other unresolved
+identities do not advance from proximity alone. Year-feature continuation/child references,
+UNIX locations, remaining reader bodies, all 446-page accounting, cover, standalone
+issue export/rebuild and closeout remain required. No reader rebuild.
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
