@@ -4227,22 +4227,27 @@
       "parent_id": "maso-1992-12-toc-0031",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent timetable opening403/folio428 has source kicker/title/byline 글. 정보문 (장항고등학교 교사), editorial deck and separate organizational introduction. All nine body pages403–411/428–436 directly reviewed; conclusion,Listing1GLOBAL.BAS,contact and disk notice411 above unrelated lower advertisement.412 full advertisement;413 independent technical opening. Canonical identity/title/credit/parent unchanged.",
         "Immutable opening403–408 contains304 files matching independent and fresh-process builds. All77 source crops,73 pinned kor+eng outcomes,58 blocks,four original screens,655 reading rows and1159 typed ranges validate;29 empty anchors retain blank separator contexts. Twelve joined groups/fifteen boundaries preserve physical wraps and explicit intervening screens/headings. Final409–411 and actual assembly remain required.",
         "Two control tables retain32 rows/64 cells with presentation tabs and no original encoded-spacing claim. Two independent four-physical-row numerical examples retain18 label/value pairs/36 cells without arithmetic repair. Four original screens and separate captions retained;tiny embedded lettering not exhaustively transcribed. Independent Visual Basic sidebar,61 button occurrences,eight printed-file reference occurrences and ten variant contexts remain explicit; file-reference index is not an original-file inventory.",
         "All73 complete raws read in three untruncated outputs before one literal pass;zero retries/within-pass crop changes. All77 initial crops reviewed on22 sheets;eleven pre-OCR repairs reviewed on three sheets,66 initial crops reused exact. Five source-only3x details reviewed without recognition. Two initial schema failures and two export-helper failures retained; map/recognition/transcript bytes reused exact in selected revision. No separate source-pass-start timestamp was saved; method and raw-reading/end timestamps retained.",
-        "Eighteen consistently rehashed custom-data edits pass generic exports but fail frozen private audit;no generic custom-schema claim. All50620 prior December files,9223 former selected files/eighteen roots,twelve classifications,9332 September files and thirty core/source/runtime/TOC/queue pins exact. Unchanged213-test baseline reused. Old araea,PR/PRJ,붙히고,identifier wraps and other glyph/word candidates retained. No original program/source/forms/data/disk recovery,execution,technical truth,human acceptance or full proofreading claim."
+        "Eighteen consistently rehashed custom-data edits pass generic exports but fail frozen private audit;no generic custom-schema claim. All50620 prior December files,9223 former selected files/eighteen roots,twelve classifications,9332 September files and thirty core/source/runtime/TOC/queue pins exact. Unchanged213-test baseline reused. Old araea,PR/PRJ,붙히고,identifier wraps and other glyph/word candidates retained. No original program/source/forms/data/disk recovery,execution,technical truth,human acceptance or full proofreading claim.",
+        "Batch45 preserves final409–411 as172 exact files matching independent and fresh-process builds. All43 source crops,40 outcomes(twoeng/38kor+eng),33 blocks,three original panels,357 reading rows and769 typed ranges validate. All40 complete raws read before one literal pass;four pre-OCR repairs after43 initial crops/12sheets,39 initial crops reused exactly. Five source-only enlargements reviewed;zero retries/within-pass changes. Audit-helper archive-count preflight failure retained and corrected without delivery-byte changes.",
+        "Actual complete timetable403–411 assembly has485 files matching independent and fresh-process assemblies from two independently regenerated immutable natives/476 files. All120 source crops,113 outcomes,90 blocks,seven original panels,1012 reading rows,1928 projected native ranges,3861 current typed ranges/138 empty anchors and3769 current/native projection pairs validate. One408→409 literal prose join preserves source contexts and physical wraps. Original native metadata andscope notes remain unchanged with current complete-assembly disposition.",
+        "Complete printed GLOBAL.BAS listing retains67 physical code/blank rows,nine blank contexts,26 printed declaration rows and no printed line numbers or unnumbered wraps. Code bytes equal final native. Two control tables/32rows/64cells,two numerical examples/18pairs/36cells,worked example4rows/12cells,four file catalogues/19entries,independent Visual Basic sidebar,four screens and twenty source variants remain explicit. File entries and disk notice do not prove original file recovery. Screens retain tiny embedded-lettering limit;listing/notice original panels intentionally overlap searchable text.",
+        "Printed techer/TECHER spellings,unuseable,1/l candidates,nl/t123/week1,small 덤/멤 comment candidate,DIVISISU/DIVSISU/DIMSISU filename candidates and physical wraps remain unrepaired. Conclusion,contact,disk notice and unrelated lower411 advertisement retain distinct ownership. No valid-code,complete original implementation,encoded files,execution,current contact or technical truth certification.",
+        "Twenty-five consistently rehashed root/recipe/native edits fail frozen private projection/check_assembly;no generic custom-schema claim. All52609 prior December files,9527 former selected files/nineteen roots,thirteen classifications,9332 September files and thirty core/source/runtime/TOC/queue pins exact. Unchanged213-test baseline reused. No new assembly OCR/source pass;only0032 advances. Human acceptance/full proofreading and original glyphs/spaces/encoded bytes remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1992-12/packages/batch-44-r01/timetable-a",
+        "directory": "archive/pdf/1992-12/packages/timetable-r01",
         "article_id": "scan-maso-1992-12-toc-0032",
         "manifest": {
-          "path": "archive/pdf/1992-12/packages/batch-44-r01/timetable-a/manifest.json",
-          "sha256": "f85dadb94c27a4cf58e1c3df9963210cf25ff814ce0583bcfae25b8059649702",
-          "bytes": 52293
+          "path": "archive/pdf/1992-12/packages/timetable-r01/manifest.json",
+          "sha256": "88cf67d2786f31979f54409b887ae22fb092d7ac4213944171c24eb8995dbfd2",
+          "bytes": 88315
         },
         "coverage": {
           "pdf_pages": [
@@ -4251,7 +4256,10 @@
             405,
             406,
             407,
-            408
+            408,
+            409,
+            410,
+            411
           ],
           "printed_pages": [
             "428",
@@ -4259,18 +4267,17 @@
             "430",
             "431",
             "432",
-            "433"
+            "433",
+            "434",
+            "435",
+            "436"
           ],
-          "regions": 77,
-          "blocks": 58,
-          "figures": 4,
-          "deferred_pdf_pages": [
-            409,
-            410,
-            411
-          ],
+          "regions": 120,
+          "blocks": 90,
+          "figures": 7,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false,
-          "note": "Immutable opening native a403–408. Final409–411 and actual nine-page assembly required."
+          "note": "Complete nine-page article assembled from two independently regenerated immutable natives. Earlier native scope notes remain historical."
         },
         "native_segments": [
           {
@@ -4309,11 +4316,50 @@
               "sha256": "b0f545ea55d18a77cb276c1f3c10612bcc7cc068614552992ce8dbd99bc4f51d",
               "bytes": 5609
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-45-r01/timetable-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-45-r01/timetable-b/manifest.json",
+              "sha256": "71bf1e0ac3319c056385888e5e224116fc07950578449165b43010e38675e3bb",
+              "bytes": 29532
+            },
+            "pdf_pages": [
+              409,
+              410,
+              411
+            ],
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-45/timetable-b-r02/package-recipe.json",
+              "sha256": "6200b8c87027051830a9ebb15894b76adc6b79ef039b173fe5451e00374c5fde",
+              "bytes": 5855
+            },
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-45/native-validation.json",
+              "sha256": "9169b0ef532c7fae3708fb492ba72f46260943b1dadd2c31856e995fa7b99722",
+              "bytes": 585
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-45/native-reproduction.json",
+              "sha256": "cb875946e7a944069917b396280b264a94fec2b11e097069047202920a98fbb9",
+              "bytes": 30044
+            },
+            "fresh_process_reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-45/fresh-native-reproduction.json",
+              "sha256": "4e9a374e22f01a5ff0f4f052992c2c064cdb9aa8dd20142ee8fd1d54a8b473b9",
+              "bytes": 29973
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-45/source-boundaries.json",
+              "sha256": "3a94485a9c91a2cb899f1ac6cb6e0e621a5078ce3a056463f699f03ef3a105b6",
+              "bytes": 3977
+            }
           }
         ],
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 403,
         "actual_end_pdf_page": 411,
         "actual_ending_observed": true,
@@ -4323,13 +4369,12 @@
           405,
           406,
           407,
-          408
-        ],
-        "remaining_pdf_pages": [
+          408,
           409,
           410,
           411
         ],
+        "remaining_pdf_pages": [],
         "full_source_extent": {
           "pdf_pages": [
             403,
@@ -4358,17 +4403,17 @@
             "sha256": "642b9aaae9114d34a7a77075c9741b806c4048633d47ce16a46b038e117e2e1f",
             "bytes": 11290
           },
-          "note": "All nine whole body pages directly reviewed. Conclusion/Listing1/contact/disk notice411 above independent lower advertisement;412 full advertisement,413 independent technical opening. Final409–411 not yet preserved."
+          "note": "All nine body pages403–411/individually read428–436 preserved and actually assembled. Final411 includes printed GLOBAL.BAS listing,conclusion/M,contact and disk notice above unrelated lower advertisement;412 full advertisement,413 independent technical opening. Earlier native scope/deferred notes remain historical;all source-fidelity andoriginal-file limits retained."
         },
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-44/validation.json",
-          "sha256": "234d986921d5461c84fe145f52948470ab81d840b72d1c666929a682b0ba3707",
-          "bytes": 2539
+          "path": "archive/pdf/1992-12/restoration/batch-45/validation.json",
+          "sha256": "f519b6f367c0e68e0cbe7eacf422812711ca50106133907e97a765873585dc94",
+          "bytes": 4341
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-44/reproduction.json",
-          "sha256": "2411e62b736b21933aadde72a5d340a677a23a4eb01c3985d3b0dcf175071608",
-          "bytes": 52805
+          "path": "archive/pdf/1992-12/restoration/batch-45/assembly-reproduction.json",
+          "sha256": "84e42baa3b745d9d342863dd7bc9db94887d33879ec6f63eb8a1fbdc74922c92",
+          "bytes": 89484
         },
         "fresh_process_reproduction": {
           "path": "archive/pdf/1992-12/restoration/batch-44/fresh-process-reproduction.json",
@@ -4376,21 +4421,36 @@
           "bytes": 52880
         },
         "negative_checks": {
-          "path": "archive/pdf/1992-12/restoration/batch-44/negative-checks.json",
-          "sha256": "868bccd5c05b47e43651e068d9007b5cedf281a8adf41feee6b7798c5e1d4cc2",
-          "bytes": 3236
+          "path": "archive/pdf/1992-12/restoration/batch-45/negative-checks.json",
+          "sha256": "053a761e87dd5003224fadcee76d0c4064339d566dc35870d9980a7fa9d1a182",
+          "bytes": 5198
         },
         "boundary_evidence": {
-          "path": "archive/pdf/1992-12/restoration/batch-44/source-boundaries.json",
-          "sha256": "b0f545ea55d18a77cb276c1f3c10612bcc7cc068614552992ce8dbd99bc4f51d",
-          "bytes": 5609
+          "path": "archive/pdf/1992-12/restoration/batch-45/source-boundaries.json",
+          "sha256": "3a94485a9c91a2cb899f1ac6cb6e0e621a5078ce3a056463f699f03ef3a105b6",
+          "bytes": 3977
         },
         "recipe": {
-          "path": "archive/pdf/1992-12/restoration/batch-44/timetable-a-r06/package-recipe.json",
-          "sha256": "744ab360013a5887d4fce9ec4445fbaaee900b78775d7143a6b86c26d2226ff6",
-          "bytes": 9369
+          "path": "archive/pdf/1992-12/restoration/batch-45/assembly-recipe.json",
+          "sha256": "c3fe1d4212f62997850eeb4d6916389562fd39966860eee313e0634329127bbd",
+          "bytes": 2374
         },
-        "checkpoint": "batch-44"
+        "checkpoint": "batch-45",
+        "all_native_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-45/all-native-reproduction.json",
+          "sha256": "baa5866d60e7044ac87fa4a1701b50baaf5cad2d991e1dbd65c8042aefa76f9e",
+          "bytes": 93087
+        },
+        "adapter": {
+          "path": "archive/pdf/1992-12/restoration/batch-45/timetable_adapter.py",
+          "sha256": "5ebd73b697d6236cf14801f0436179374487b48d1321ebded8142433ae57510d",
+          "bytes": 14533
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1992-12/restoration/batch-45/adapter-inputs.json",
+          "sha256": "e91e58ee3d7326cc71e8bf41658548664af0793426066d6c06055cd8806ef750",
+          "bytes": 9026
+        }
       }
     },
     {
@@ -6733,12 +6793,65 @@
         "sha256": "8943aa0b0a1d6d22aee7ba615d4e087d83928bea124c78271fd50102de67e3ee",
         "bytes": 7442
       }
+    },
+    {
+      "name": "1992-12-batch-45",
+      "status": "complete",
+      "completed_at": "2026-11-01T03:48:18.534855+00:00",
+      "goal": "Preserve timetable final409–411 andactually assemble complete nine-page article403–411.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0032"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        409,
+        410,
+        411
+      ],
+      "outside_lookup_pages": 8,
+      "outside_lookup_pdf_pages": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        412,
+        413
+      ],
+      "recognition_invocations": 40,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 4,
+      "pre_ocr_distinct_changed_regions": 4,
+      "within_pass_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-45/validation.json",
+        "sha256": "f519b6f367c0e68e0cbe7eacf422812711ca50106133907e97a765873585dc94",
+        "bytes": 4341
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-45/assembly-reproduction.json",
+        "sha256": "84e42baa3b745d9d342863dd7bc9db94887d33879ec6f63eb8a1fbdc74922c92",
+        "bytes": 89484
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-45/source-boundaries.json",
+        "sha256": "3a94485a9c91a2cb899f1ac6cb6e0e621a5078ce3a056463f699f03ef3a105b6",
+        "bytes": 3977
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-45/negative-checks.json",
+        "sha256": "053a761e87dd5003224fadcee76d0c4064339d566dc35870d9980a7fa9d1a182",
+        "bytes": 5198
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 17,
-    "partial": 2,
+    "readable": 18,
+    "partial": 1,
     "group_headings": 5,
     "section_references": 3,
     "unresolved": 18
@@ -6749,33 +6862,36 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-45",
-    "goal": "Restore final timetable409–411 as immutable native b,then actually assemble all nine pages403–411 from independently regenerated natives.",
+    "name": "1992-12-batch-46",
+    "goal": "Verify technical heading0033 andrestore confirmed @Get...Read article0034 from independently observed opening413 within bounded review.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0032"
+      "maso-1992-12-toc-0033",
+      "maso-1992-12-toc-0034"
     ],
     "candidate_mapping_targets": [
-      409,
-      410,
-      411
+      413,
+      414,
+      415,
+      416,
+      417,
+      418
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
-      403,
-      404,
-      405,
-      406,
-      407,
-      408,
+      4,
+      5,
+      411,
       412,
-      413
+      419,
+      420,
+      421
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "One canonical task/three newly mapped/eight outside views within2/6/20;reuse exact Batch44 views. Nativea403–408 has304 files/77 regions/73 outcomes. Outgoing408 ends 서 클릭해 주면 그 시간은 노란색으로;409 begins 변한다. Preserve both contexts and actual assembly join. Final pages include example409,file catalogues410,two-column Listing1GLOBAL.BAS411,conclusionM/contact/disk notice above unrelated lower advertisement411;412 full advertisement,413 independent technical opening. Use eng for code,kor+eng otherwise. Preserve labels,comments,physical wraps,source errors/glyph candidates and original panels without inferring valid Visual Basic or original files/execution. Project all native custom ranges/table cells/examples/buttons/file references/sidebar/variants/screens/rows/joins with current/native contexts. Preserve immutable opening and its historical scope. Promote0032 readable only after actual assembly/source/reproduction/preservation checks. Information-sharing0031 final;other children unchanged. Twelve prior adapters required. Current17 readable,2 partial,5 groups,3 section references,18 unresolved;19 roots/9527 files,13 classifications separate. UNIX/year-feature locations,other bodies/assemblies,446-page accounting,cover,standalone export/rebuild/closeout remain required. Full December goal active;no reader rebuild."
+    "note": "Two canonical tasks maximum. Verify whether technical heading0033 is non-owning using original contents and body introduction413;preserve all seven canonical information-sharing children andtheir existing parents without invented hierarchy. Independently titled @Get...READ opening413/438 sourcecredit최익성 observed. Verify actual article extent/ending and adjacent titles before mapping at mostsix confirmed bodypages. Separate same-page tips/advertisements fromeligible body;do not advance other child states. Reuse retained413/411/412 views. Preserve literal code/comments/physicalwraps/glyphcandidates without valid-code ororiginal-disk/file/execution inference. Thirteen prior adapters now required,including Batch45 timetable adapter. Eighteen readable/one partial/five groups/three section references/eighteen unresolved identities;19selectedroots/9708files,13classificationsseparate. UNIX/year-feature locations,otherbodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeoutremainrequired. FullDecembergoalactive;noreaderrebuild."
   },
   "final_issue_classification_evidence_required": [
     {

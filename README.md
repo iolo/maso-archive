@@ -13,17 +13,16 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: seventeen readable/sample-reviewed articles,
-two partial, five non-owning group headings, three section references and eighteen unresolved
-identities. Batch 44 verifies information-sharing heading 0031 and preserves the six-page
-timetable opening on PDF 403–408. Three 304-file exports match; all 77 source crops,
-32 control rows, eighteen numerical pairs and fifteen continuation boundaries validate.
-Nineteen roots contain 9,527 selected files; thirteen classifications are separate.
-Next: preserve final timetable pages 409–411 and actually assemble its complete nine-page
-body. UNIX/year-feature locations, other bodies, full issue accounting, cover, standalone
-export/rebuild and closeout remain pending. Source spelling, claims, glyph candidates and
-original-file recovery limits remain explicit. See the [December record](docs/progress/9212.md).
-No reader rebuild.
+December 1992 restoration is in progress: eighteen readable/sample-reviewed articles,
+one partial, five non-owning group headings, three section references and eighteen unresolved
+identities. Batch 45 completes the nine-page timetable article on PDF 403–411. Three
+485-file assemblies match from two independently regenerated natives; all 120 source crops,
+67 code/blank rows, source tables/catalogues and twenty-five altered-data checks validate.
+Nineteen roots contain 9,708 selected files; thirteen classifications remain separate.
+Next: verify technical heading 0033 and restore the @Get...Read article from observed 413.
+UNIX/year-feature locations, other bodies, full issue accounting, cover, standalone export/
+rebuild and closeout remain pending. Original-file recovery, source glyphs and historical
+claims remain unverified. See the [December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

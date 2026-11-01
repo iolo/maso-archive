@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: seventeen readable/sample-reviewed articles,
-two partial, five group headings, three section references and eighteen unresolved identities.
+Current totals: eighteen readable/sample-reviewed articles,
+one partial, five group headings, three section references and eighteen unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -793,16 +793,56 @@ frozen private audit; no generic custom-schema claim. All 50,620 prior December 
 9,223 former selected files/eighteen roots, twelve classifications, 9,332 September files
 and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused.
 
-Next: restore final timetable pages 409–411 as immutable native b, then actually assemble
-all nine pages 403–411 from independently regenerated natives. Reuse retained whole views;
-three newly mapped/eight outside pages fit 2/6/20. Preserve outgoing 408 노란색으로 / 409 변한다.
-contexts, printed listing, file catalogues, original panels, final notices and lower-411
-advertisement exclusion. Project all custom ranges/indexes into current/native contexts;
-preserve immutable opening and its historical scope. Promote 0032 only after actual assembly.
-Other child states remain unchanged. Current totals: seventeen readable/sample-reviewed
-articles, two partial, five groups, three section references and eighteen unresolved identities.
-Nineteen selected roots contain 9,527 files; thirteen classifications are separate. Twelve
-prior adapters remain required. UNIX/year-feature locations, other bodies/assemblies, all
+Batch 45 preserves final timetable pages 409–411/printed 434–436 as a 172-file native,
+then actually assembles complete article 0032 on PDF 403–411/individually read 428–436.
+Three 485-file assemblies match, including a fresh-process build, from two independently
+regenerated immutable natives/476 files. Both native metadata and bytes remain exact;
+earlier partial-scope notes now have an explicit complete-assembly disposition.
+
+All 120 source crops, 113 OCR outcomes, 90 blocks, seven original panels, 1,012 reading
+rows, 1,928 projected native ranges and 3,861 current typed ranges validate. There are
+138 repeated empty-anchor occurrences and 3,769 current/native projection pairs. One
+literal 408→409 prose join retains 노란색으로 / 변한다. with both original source contexts.
+All physical wraps, eighteen internal groups and 22 fragment boundaries remain explicit.
+All 120 PNG decodes and three ZIP CRCs pass; no new assembly OCR or source correction.
+
+The complete two-column printed GLOBAL.BAS listing retains 67 physical code/blank rows,
+nine blank contexts and 26 printed declaration rows, without printed line numbers or
+unnumbered wraps. Code bytes equal the final native. Printed techer/TECHER spellings,
+unuseable, nl/t123/week1 and other 1/l candidates remain literal. The small 덤/멤 comment
+and DIVISISU/DIVSISU/DIMSISU form-filename alternatives remain unresolved source candidates.
+No valid-code repair, unprinted implementation or original encoded file recovery is inferred.
+
+Two control tables retain 32 rows/64 cells; two numerical examples retain eighteen pairs/
+36 cells. The worked example has four rows/twelve cells; four file catalogues retain
+nineteen entries. The independent Visual Basic sidebar, four screens, command contexts,
+twenty source variants, conclusion/M, historical contact and disk-availability notice remain
+separate. Listing and notice original panels intentionally overlap searchable text. Tiny
+screen lettering is not exhaustively transcribed. The independent lower-411 advertisement
+is excluded; 412 is a full advertisement and 413 opens the technical section.
+
+All forty final-segment complete raws read in two untruncated outputs before one literal
+source pass: two eng code/38 kor+eng other regions, zero retries or within-pass crop changes.
+All 43 initial crops reviewed on twelve sheets; four pre-OCR repairs reviewed on one sheet,
+39 initial crops reused exactly. Five source-only enlarged details reviewed without OCR.
+An audit-helper archive-count preflight failure is retained and corrected; no delivery bytes
+changed. The native also matches a separate fresh-process build.
+
+Twenty-five consistently rehashed root/recipe/native edits fail the frozen private
+projection/check_assembly; no generic custom-schema claim. All 52,609 prior December
+files, 9,527 former selected files/nineteen roots, thirteen classifications, 9,332 September
+files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline
+reused; only 0032 advances. Information-sharing heading 0031 and other child states stay intact.
+
+Next: verify technical heading 0033 and restore the confirmed @Get...Read article 0034
+from observed opening 413/438. Review original contents and the section introduction before
+deciding non-ownership; preserve existing canonical parents without invented hierarchy.
+Verify actual body extent, ending and adjacent titles before mapping at most six confirmed
+pages. Separate same-page tips and advertisements; keep other child states unchanged.
+Thirteen prior adapters now include the Batch 45 timetable adapter. Current totals: eighteen
+readable/sample-reviewed articles, one partial, five groups, three section references and
+eighteen unresolved identities. Nineteen roots contain 9,708 selected files; thirteen
+classifications are separate. UNIX/year-feature locations, other bodies/assemblies, all
 446-page accounting, cover, standalone export/rebuild and closeout remain required. Original
 glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading
 remain unverified. Full December goal active. No reader rebuild.
