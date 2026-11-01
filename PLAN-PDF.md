@@ -237,18 +237,35 @@ ZIP bytes remain exact. Twelve rehashed assembly, six native and two ownership c
 are rejected. All 17,926 prior files and thirty core modules remain exact; earlier
 fresh 213-test result retained. Both immutable natives retain historical partial scopes.
 
-Current totals: eight readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 39 unresolved identities among 52. Eight
-current body-owner packages contain 2,505 exact files; eight final classification
-evidence files remain separate. Original natives and superseded assemblies remain
-unchanged.
+Batch 16 verifies popup-window article 0014's actual eleven-page extent, PDF
+210–220, and preserves opening 210–215/printed 208–213 as a 385-file partial native.
+Independent and fresh-process exports match. All 103 crops, 91 outcomes, 6,079 typed
+range occurrences and 604 nonempty reading rows validate. Twelve original images
+retain table 1, three boxed examples, stack/heap fragments, an ending ornament and
+three listing panels. Five captions use literal display text; other captions are
+null. Ten table rows/twenty cells, nine style entries, eight field groups, eleven
+API signatures and three illustrative fragments retain their source occurrences.
+Six independent code contexts contain 326 physical rows. Listing 1's opening has
+211 numbered rows, 26 blank numbered rows and six unnumbered wraps; duplicate 67
+and absent 68 remain literal. Five prose boundaries and the heap comment 213→214
+retain source contexts. All 91 drafts read before one source pass; nine English
+code regions and 82 Korean/English text regions, one pre-OCR crop repair and zero
+retries or within-pass/post-pass changes. Thirteen rehashed native and two ownership
+cases are rejected. All 18,642 prior files and thirty core modules remain exact;
+earlier fresh 213-test evidence retained. Later 216–220 and actual assembly pending.
 
-Next: Batch 16 verifies the actual extent and ending of canonical 0014, 클래스를
-이용한 팝업 윈도우 제작, by 이상철, then restores up to six confirmed body pages.
-Opening PDF 210/printed 208 is observed; provisional targets are 210–215. The next
-puzzle article's reference 220, with PDF 222 as a location lead, does not prove an
-ending on 221 or a global folio offset. Confirm source ownership before mapping.
-No reader rebuild.
+Current totals: eight readable/sample-reviewed articles, one partial, two
+non-owning groups, three section references and 38 unresolved identities among 52.
+Nine current body-owner packages contain 2,890 exact files; eight final
+classification evidence files remain separate. Original natives and superseded
+assemblies remain unchanged.
+
+Next: Batch 17 restores popup-window article 0014's final PDF 216–220, then
+actually assembles all eleven pages, 210–220. Main prose ends on 214; listing 1
+ends on 216, listing 2 on 219 and listing 3 on 220 above a separate publisher
+notice. No folio is inferred for 220. Page 221 is an advertisement; 222 opens the
+puzzle article. Preserve independent examples/listings, printed number columns,
+source defects and physical wraps. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).

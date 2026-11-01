@@ -6,38 +6,34 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: eight readable/sample-reviewed articles, no partials,
-two non-owning groups, three final section references and 39 unresolved identities
+March 1993 is in progress: eight readable/sample-reviewed articles, one partial,
+two non-owning groups, three final section references and 38 unresolved identities
 among 52.
 
-Batch 15 preserves final Huffman PDF 204–208 as a 125-file native and actually
-assembles the complete eleven-page article 198–208/printed 196–206. All 466 files
-match an export consuming both independently regenerated natives/457 files and a
-fresh-process rebuild. All 134 crops, 102 outcomes, 14,285 projected metadata ranges,
-28,476 current range occurrences and 1,036 indexed source rows/fragments validate.
-One 203→204 prose merge crosses diagrams 8–10 and preserves both original contexts.
-Nine internal prose boundaries, independent table page 202 and the Modified Huffman
-sidebar remain explicit. Thirty-two original images retain fourteen diagrams,
-four printed tables, worked examples, a source photograph and seven code panels.
-Twenty printed-caption associations contain literal display text; 1,189 table cells
-and 64 matrix cells retain their exact source occurrences. Listing 1 preserves all
-379 numbered rows, 53 blank numbered rows, 1,968 tokens, twelve functions, twenty
-array declarations, four string literals and twelve comment rows, including eight
-Korean rows. Printed number/colon columns and source defects remain; no code repair
-or execution is claimed. Final native adds 26 initial recognitions, one source pass,
-four pre-OCR margin events across two columns and zero retries or within/post-pass
-changes. Metadata-only native r02 fixes one explanatory note; transcript/assets/raw
-ZIP bytes remain exact. Twelve rehashed assembly, six native and two ownership cases
-are rejected. All 17,926 prior files and thirty core modules remain exact; earlier
-fresh 213-test result retained. Both immutable natives retain historical partial scopes.
-Eight current body-owner packages contain 2,505 files.
+Batch 16 verifies popup-window article 0014's actual eleven-page extent, PDF
+210–220, and preserves opening 210–215/printed 208–213 as a 385-file partial native.
+Independent and fresh-process exports match. All 103 crops, 91 outcomes, 6,079 typed
+range occurrences and 604 nonempty reading rows validate. Twelve original images
+retain table 1, three boxed examples, stack/heap fragments, an ending ornament and
+three listing panels. Five captions use literal display text; other captions are
+null. Ten table rows/twenty cells, nine style entries, eight field groups, eleven
+API signatures and three illustrative fragments retain their source occurrences.
+Six independent code contexts contain 326 physical rows. Listing 1's opening has
+211 numbered rows, 26 blank numbered rows and six unnumbered wraps; duplicate 67
+and absent 68 remain literal. Five prose boundaries and the heap comment 213→214
+retain source contexts. All 91 drafts read before one source pass; nine English
+code regions and 82 Korean/English text regions, one pre-OCR crop repair and zero
+retries or within-pass/post-pass changes. Thirteen rehashed native and two ownership
+cases are rejected. All 18,642 prior files and thirty core modules remain exact;
+earlier fresh 213-test evidence retained. Later 216–220 and actual assembly pending.
+Nine current body-owner packages contain 2,890 files.
 
-Next: Batch 16 verifies the actual extent and ending of canonical 0014, 클래스를
-이용한 팝업 윈도우 제작, by 이상철, then restores up to six confirmed body pages.
-Opening PDF 210/printed 208 is observed; provisional targets are 210–215. The next
-puzzle article's reference 220, with PDF 222 as a location lead, does not prove an
-ending on 221 or a global folio offset. Confirm source ownership before mapping.
-No reader rebuild.
+Next: Batch 17 restores popup-window article 0014's final PDF 216–220, then
+actually assembles all eleven pages, 210–220. Main prose ends on 214; listing 1
+ends on 216, listing 2 on 219 and listing 3 on 220 above a separate publisher
+notice. No folio is inferred for 220. Page 221 is an advertisement; 222 opens the
+puzzle article. Preserve independent examples/listings, printed number columns,
+source defects and physical wraps. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
