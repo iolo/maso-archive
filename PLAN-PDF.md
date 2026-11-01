@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: fifteen readable/sample-reviewed articles,
-one partial, three group headings, three section references and 23 unresolved identities.
+two partials, four group headings, three section references and 21 unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -575,20 +575,49 @@ schema claim. All 40,530 prior December files, 7,461 former selected files, elev
 classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
 exact. Unchanged 213-test baseline reused; no core or reader changes.
 
-Next: verify frame-grabber article 0029's actual extent and continuity from independent
-377/402 opener, credit 김태형; 378–380 continue at locally read 403–405. Restore at most
-six confirmed body pages. Candidates 377–382 do not establish ownership/ending; do not
-infer twenty pages from the next TOC reference or a global offset. Classify hardware group
-0028 only with direct contents/body evidence within the same two-task/six-page/twenty-outside
-checkpoint. Reuse retained views; inspect all exact crops before OCR and every complete
-raw before one literal pass. All eleven prior private adapters remain required for checks.
-Fifteen readable/sample-reviewed articles, one partial, three groups, three section
-references and 23 unresolved identities remain. Sixteen selected roots contain 7,663 files;
-eleven classification files are separate. UNIX locations, feature 0019 continuation/ending/
-children, other bodies/assemblies, all 446-page accounting, cover, standalone issue export/
-rebuild and closeout remain required. Human acceptance/full proofreading, original glyph/
-space/byte identities, technical/historical truth and execution remain unverified.
-Full December goal active. No reader rebuild.
+Batch 39 preserves frame-grabber article 0029 opening PDF 377–382/locally read
+402–407 as a 361-file immutable partial native and classifies hardware group 0028
+as non-owning. All twenty body pages 377–396/402–421 are directly reviewed: prose
+closes 390, but three listings continue through END 118 on 396 above a separate
+subscription notice. Independent laser-printer article opens 397; its source credit
+김현숙 기자 stays separate from canonical 편집부, with child 0030 still unresolved.
+Remaining fourteen frame-grabber pages and actual twenty-page assembly are required.
+
+Three native exports and three one-file group exports match, including fresh processes.
+All 95 exact source crops, 86 kor+eng settings, 78 blocks, nine original images,
+874 reading/search rows and 3,150 typed ranges/14 empty occurrences validate.
+Nine tables retain 346 data cells/43 headers: five printed blank parts cells and two
+separate editorial blank slots within a dotted-omission row. Seven pinouts retain
+110 printed label/number pairs; twelve circuit component blocks plus four gate
+reference forms, six main headings, six prose groups/eight joins and thirteen source
+variants remain explicit. Ninety-three editorial graphic markers do not assign original
+glyph counts, missing rows, valid logic, a netlist or a numeric timing series.
+
+All 86 complete raws read before one source pass; zero retries or within-pass crop
+changes. Twenty-six pre-OCR crop repairs/two added details retain initial 93 crops;
+67 initial crops and 94 final-revision copies are exact. Nine source-only enlarged
+circuit details support literal candidates. Failed padded-filename pin comparison,
+first copy, all maps/crops/raws and in-pass typing/layout refinements remain retained.
+Twenty private altered-data cases pass their rejection checks: fourteen consistently
+rehashed natives pass generic export checks but fail frozen source audit; six group
+edits fail classification checks. All 41,739 prior December files, 7,663 former selected
+files, eleven earlier classifications, 9,332 September files and thirty core/source/
+runtime/TOC/queue pins stay exact. Unchanged 213-test baseline reused; no core changes.
+
+Next: restore continuation 383–388 as immutable native b, reusing Batch 39 source views.
+Verify incoming 이런 경우 / 동기분리 전용소자를 이용하면 in both native source contexts.
+Retain original memory/8255/sync/slot/flow diagrams, table cells, pin/overbar candidates,
+inline code, literal technical claims and physical wraps. Do not infer corrected
+circuits, netlists, omitted implementations or original program bytes. Then restore
+389–394 and 395–396, followed by actual twenty-page assembly. Hardware group 0028 is
+already final; child 0030 remains unresolved. All eleven prior private adapters remain
+required for selected-root checks. Fifteen readable/sample-reviewed articles, two partials,
+four groups, three section references and 21 unresolved identities remain. Seventeen
+selected roots contain 8,024 files; twelve classification files are separate. UNIX
+locations, feature 0019 continuation/ending/children, other bodies/assemblies, all
+446-page accounting, cover, standalone issue export/rebuild and closeout remain required.
+Original glyph/space/byte identities, technical truth, execution, human acceptance/full
+proofreading remain unverified. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
