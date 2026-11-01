@@ -1165,25 +1165,26 @@
       "parent_id": "maso-1993-03-toc-0012",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical title, 홍창완 credit and parent 원리구현 identify the article opening198/printed196. Eleven source pages198–208 observed; current six folios196–201 individually read. Canonical identities, title/byline, contents reference196 and parent remain unchanged.",
-        "332 independently and fresh-process exact files preserve opening198–203 as a partial native. All96 crops,76 outcomes,5600 typed ranges and536 region-local source rows/fragments validate. Final204–208 and actual assembly remain pending.",
-        "Twenty original images,ten diagrams,four printed tables/twelve table-array indexes,1189 table cells,64 matrix cells,43 explicit AC rows/nine blank cells/fifteen dot separators andnine array occurrences retain source contexts. No implied rows or zeros expanded.",
-        "Four series entries,three codebook rows,two zero-run annotations,seven prose boundaries andindependent ModifiedHuffman sidebar remain explicit. Main201→203 crosses separate numeric-table page202. Differing bit strings and printed array labels/counts remain literal.",
-        "All76 drafts read before one source pass. Six pre-OCR margin changes,zero recognition retries,one within-pass saved-caption refinement andzero post-pass changes. Twelve rehashed native andtwo ownership cases rejected;valid actual canonical fixture passes.",
-        "All17594 prior files,thirty core modules andsource/TOC/queue/runtime pins remain exact. Prior fresh213-test log retained. Full proofreading,human acceptance,exact glyph/space/encoded-byte recovery andalgorithm/code execution unverified."
+        "Canonical identity/title/byline 홍창완/parent 원리구현/reference196 unchanged. Actual body198–208 with individually observed printed196–206. Prose ending205,listing ending208,andunrelated209/nextarticle210 boundaries observed.",
+        "Actual466-file readable/sample-reviewed assembly reproduces fromboth independently regenerated natives/457files andin a fresh process. All134crops,102outcomes,14285projected metadata ranges,28476current range occurrences and1036indexed source rows/fragments validate.",
+        "Thirty-two originalimages retain14diagrams,fourprintedtables/12table-array indexes,1189tablecells,64matrixcells,workedexamples,sourcephotograph andseven completecodepanels. Twentyprintedcaption associations retainliteraldisplaytext;othercaptions null.",
+        "All379 numberedlistingrows,53blank numberedrows,1968codetokens,12functions,20arraydeclarations,fourstringliterals and12commentrows(includingeightKoreanrows) retainprecise row/region/scan/downloadcontexts. Missingcommentprefix029,diagramHUFFSEZE/SHUFSI,proseBIT[],arraylabel/counts anddifferentbitstreams areliteral sourceforms,not repairedimplementations.",
+        "One203→204cross-native prosemerge andnineinternal boundaries validate. Source201→203 maincontinuation crossesindependent table202;ModifiedHuffman sidebar remainsseparate. Every customregion/figure/table/array/code-panel reference is namespaced;originalnative text/metadata files remainexact.",
+        "Finalnative adds26initialrecognitions(7eng/19kor+eng),one sourcepass,fourpreOCRmargin events across tworegions,andzero retries/within-pass/post-pass changes. Twelverehashedassembly,sixnative andtwoownership mutations rejected;actualcanonicalfixturepasses.",
+        "All17926priorfiles,thirtycoremodules andsource/TOC/queue/runtime pins remainexact. Earlierfresh213-test log retained. Fullproofreading,humanacceptance,exact sourceglyphspacebytes,algorithmcorrectness andcodeexecution unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-14-r02/huffman-a",
+        "directory": "archive/pdf/1993-03/packages/huffman-r01",
         "article_id": "scan-maso-1993-03-toc-0013",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-14-r02/huffman-a/manifest.json",
-          "sha256": "29d6ee8f37549a7c040bf30b63c9666ad2f75c88fc15150cd34cd30af7bd6b3d",
-          "bytes": 56410
+          "path": "archive/pdf/1993-03/packages/huffman-r01/manifest.json",
+          "sha256": "a122a772f8ee7231e4d48249a079e1bfad189e155ff1ce21983c62c1d61a188e",
+          "bytes": 83818
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -1192,7 +1193,12 @@
             200,
             201,
             202,
-            203
+            203,
+            204,
+            205,
+            206,
+            207,
+            208
           ],
           "printed_pages": [
             "196",
@@ -1200,52 +1206,89 @@
             "198",
             "199",
             "200",
-            "201"
+            "201",
+            "202",
+            "203",
+            "204",
+            "205",
+            "206"
           ],
-          "regions": 96,
-          "blocks": 76,
-          "figures": 20,
-          "deferred_pdf_pages": [
-            204,
-            205,
-            206,
-            207,
-            208
-          ],
+          "regions": 134,
+          "blocks": 101,
+          "figures": 32,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 208,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-14/validation-complete.json",
-          "sha256": "da919bcde2603373459087687dce35e5603b51e60cfa9115e0a31502716b1906",
-          "bytes": 2430
+          "path": "archive/pdf/1993-03/restoration/batch-15/validation-complete.json",
+          "sha256": "cf036e6d7d9dc3322259eb3333c48c9320baaefdd8ef8f71b7b0ff3c9dc47f09",
+          "bytes": 4008
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-14/reproduction.json",
-          "sha256": "5f6774e15b145345642b0989b1cd18f7d139d87ab1e4106beb220583494cdd6e",
-          "bytes": 57138
+          "path": "archive/pdf/1993-03/restoration/batch-15/reproduction.json",
+          "sha256": "8a0b2f4f6dc7d8ed9cc882ffd72a003f5d440b00e1431b0fadaa8f036b97ea01",
+          "bytes": 85283
         },
-        "checkpoint": "batch-14",
+        "checkpoint": "batch-15",
         "full_source_extent": {
           "start_pdf_page": 198,
           "end_pdf_page": 208,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
-            "path": "archive/pdf/1993-03/restoration/batch-14/source-reviewed.json",
-            "sha256": "a0e5bc68f77e2973437d7d66af2ec3a664aff64ea2cac6a288e3c1a85aeb5eee",
-            "bytes": 5432
+            "path": "archive/pdf/1993-03/restoration/batch-15/source-reviewed.json",
+            "sha256": "042987565494959e25c33087ce63b440fa52bf2f96e794d9ab31772326ada188",
+            "bytes": 3693
           },
-          "note": "All eleven source pages directly observed. Prose closes205; listing1 starts205 rows001–032 and ends208 rows309–379 including blank379/closing brace378. Lower208 walkie-talkie advertisement excluded.209 library advertisement;210 popup article. No global folio offset inferred."
+          "note": "Actual eleven-page body: main prose closes205; listing1 starts205 and ends208 withbrace378/blank379. Lower208 unrelatedadvertisement excluded;209 unrelatedlibraryad;210 popuparticle. Folios196–206 individually observed;no globaloffset inferred."
+        },
+        "native_inputs": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-14-r02/huffman-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-14-r02/huffman-a/manifest.json",
+              "sha256": "29d6ee8f37549a7c040bf30b63c9666ad2f75c88fc15150cd34cd30af7bd6b3d",
+              "bytes": 56410
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-14/huffman-a-r03/package-recipe-r02.json",
+              "sha256": "80b3ebff0b0f084d4f05fc3af37ec40d64aa55efc60680664e557bbe1ef89a2b",
+              "bytes": 14786
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-15-r02/huffman-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-15-r02/huffman-b/manifest.json",
+              "sha256": "ad14cc9089148fb4a40f4cd7d09e01e6398128c08266b321238d09438e53b4ae",
+              "bytes": 21126
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-15/huffman-b-r03/package-recipe-r02.json",
+              "sha256": "962530e0b6006e401817f072add33af8135d46450aba2028a53caa0128969c2d",
+              "bytes": 8028
+            }
+          }
+        ],
+        "source_listing_scope": {
+          "printed_numbered_rows": 379,
+          "blank_numbered_rows": 53,
+          "printed_number_colon_columns_retained": true,
+          "source_program_execution_verified": false
         },
         "notes": [
-          "Six-page native only. Final204–208 and actual eleven-page assembly remain required; observed extent is not restored coverage.",
-          "Tables retain every explicit numeric value, blank and ellipsis. Array size labels are not used to infer or repair counts. Diagram geometry, annotations, worked examples and independent sidebar remain original images.",
-          "Source series says 입출력의 조절 and 전용칩 소개. Differing hypothesis/displayed bit strings and source caption/formula candidates remain literal; no algorithm or code repair.",
-          "Assistant sample review; original glyphs/spaces/encoded bytes, human acceptance, full proofreading and execution remain unverified."
+          "Current466-file package is the actual complete eleven-page assembly from two independently regenerated immutable natives/457 files. Original native partial scopes remain historical;only currentroot iscomplete.",
+          "One203→204 prose merge across diagrams8–10 preserves both originalsource contexts. Main201→203 across table202 and independent ModifiedHuffman sidebar remain explicit. Every custom region/figure/table/array/code-panel reference is namespaced.",
+          "Seven original codepanels retain all379 numberedrows,53blank numberedrows,eight Koreancommentrows andsourceprogram/diagramvariants. Listingdownload includesprintednumber/colon columns;not claimedcompilablecode.",
+          "Nativeb r02 fixes one explanatory-note typo;fourJSONfiles differ fromretainedr01. Allarticle/listing text,rawZIP,assets andrawOCR remainexact. No new sourcecorrection orrecognition.",
+          "Use batch-15/rebuild.py withfrozen huffman_adapter.py; currentaudit is audit_r02.py --retained-only. No coremodule orreader change.",
+          "Assistant sample review;fullproofreading,humanacceptance,exact originalglyphspacebytes,algorithmcorrectness andcodeexecution remainunverified."
         ]
       }
     },
@@ -2157,12 +2200,49 @@
         "sha256": "5f6774e15b145345642b0989b1cd18f7d139d87ab1e4106beb220583494cdd6e",
         "bytes": 57138
       }
+    },
+    {
+      "name": "1993-03-batch-15",
+      "status": "complete",
+      "completed_at": "2026-11-01T20:27:48.350416+00:00",
+      "goal": "Preserve finalHuffman204–208 and actually assemble complete eleven-pagearticle198–208 withliteral379-row listing andfully namespaced source metadata.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0013"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        204,
+        205,
+        206,
+        207,
+        208
+      ],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 26,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 4,
+      "distinct_original_regions_repaired": 2,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "native_metadata_revision": "r02;one explanatory-note typo only;all transcript/assets/rawZIP exact",
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-15/validation-complete.json",
+        "sha256": "cf036e6d7d9dc3322259eb3333c48c9320baaefdd8ef8f71b7b0ff3c9dc47f09",
+        "bytes": 4008
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-15/reproduction.json",
+        "sha256": "8a0b2f4f6dc7d8ed9cc882ffd72a003f5d440b00e1431b0fadaa8f036b97ea01",
+        "bytes": 85283
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 7,
-    "partial": 1,
+    "readable": 8,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 39
@@ -2173,43 +2253,38 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-15",
-    "goal": "Restore final Huffman pages204–208 as immutable native b, then actually assemble the complete eleven-page article198–208 from independently regenerated natives.",
+    "name": "1993-03-batch-16",
+    "goal": "Verify actualextent/ending ofcanonicalpopup-window article0014,then restore itsfirst up tosix confirmedbodypages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0013"
+      "maso-1993-03-toc-0014"
     ],
-    "mapping_targets": [
-      204,
-      205,
-      206,
-      207,
-      208
+    "canonical_page_reference": 208,
+    "initial_source_probe_pdf_page": 210,
+    "provisional_mapping_targets": [
+      210,
+      211,
+      212,
+      213,
+      214,
+      215
     ],
     "planned_outside_lookup_pdf_pages": [
-      198,
-      203,
       209,
-      210
-    ],
-    "actual_source_extent_pdf_pages": [
-      198,
-      199,
-      200,
-      201,
-      202,
-      203,
-      204,
-      205,
-      206,
-      207,
-      208
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Final five body pages observed. Preserve diagrams11–14, Lena source image, prose ending205 and literal listing1 rows001–379 including blank rows, Korean comments, line-number columns and source defects. Lower208 walkie-talkie ad excluded;209 library ad;210 popup article. Verify both original203→204 contexts and namespace every custom region/figure/table/reference during assembly. No reader rebuild."
+    "note": "Opening210/printed208,titleandcredit이상철directly observed. Confirm allintervening ownership andactualending beforemapping. Nextpuzzlearticle reference220 withPDF222aslocationlead isnotproofofending221 oraglobalfoliooffset. Preserve originalsourcecode,illustrations andcaption/figure contexts;no readerrebuild."
   },
   "final_issue_classification_evidence_required": [
     {

@@ -185,16 +185,35 @@ pass; six pre-OCR margin changes, zero retries, one within-pass saved-caption
 refinement and zero post-pass changes. Twelve rehashed native and two ownership
 cases are rejected. All 17,594 prior files and thirty core modules remain exact;
 prior fresh 213-test result retained. Final 204–208 and actual assembly remain pending.
-Current totals: seven readable/sample-reviewed articles, one partial, two non-owning
+Batch 15 preserves final Huffman PDF 204–208 as a 125-file native and actually
+assembles the complete eleven-page article 198–208/printed 196–206. All 466 files
+match an export consuming both independently regenerated natives/457 files and a
+fresh-process rebuild. All 134 crops, 102 outcomes, 14,285 projected metadata ranges,
+28,476 current range occurrences and 1,036 indexed source rows/fragments validate.
+One 203→204 prose merge crosses diagrams 8–10 and preserves both original contexts.
+Nine internal prose boundaries, independent table page 202 and the Modified Huffman
+sidebar remain explicit. Thirty-two original images retain fourteen diagrams,
+four printed tables, worked examples, a source photograph and seven code panels.
+Twenty printed-caption associations contain literal display text; 1,189 table cells
+and 64 matrix cells retain their exact source occurrences. Listing 1 preserves all
+379 numbered rows, 53 blank numbered rows, 1,968 tokens, twelve functions, twenty
+array declarations, four string literals and twelve comment rows, including eight
+Korean rows. Printed number/colon columns and source defects remain; no code repair
+or execution is claimed. Final native adds 26 initial recognitions, one source pass,
+four pre-OCR margin events across two columns and zero retries or within/post-pass
+changes. Metadata-only native r02 fixes one explanatory note; transcript/assets/raw
+ZIP bytes remain exact. Twelve rehashed assembly, six native and two ownership cases
+are rejected. All 17,926 prior files and thirty core modules remain exact; earlier
+fresh 213-test result retained. Both immutable natives retain historical partial scopes.
+Current totals: eight readable/sample-reviewed articles, no partials, two non-owning
 groups, three final section references and 39 unresolved identities.
 
-Next: Batch 15 restores final Huffman PDF 204–208, then actually assembles the
-complete eleven-page article from independently regenerated natives. Preserve
-original diagrams 11–14, the source image, prose ending on 205 and literal listing 1
-rows 001–379, including blank rows, Korean comments, source line numbers and defects.
-Lower 208 walkie-talkie advertising is excluded; 209 is a separate advertisement,
-and 210 opens the popup-window article. Verify both original 203→204 contexts and
-all namespaced custom references. No reader rebuild.
+Next: Batch 16 verifies the actual extent and ending of canonical 0014, 클래스를
+이용한 팝업 윈도우 제작, by 이상철, then restores up to six confirmed body pages.
+Opening PDF 210/printed 208 is observed; provisional targets are 210–215. The next
+puzzle article's reference 220, with PDF 222 as a location lead, does not prove an
+ending on 221 or a global folio offset. Confirm source ownership before mapping.
+No reader rebuild.
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:

@@ -13,14 +13,14 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: seven readable/sample-reviewed articles, one
-partial, two non-owning groups, three final section references and 39 unresolved
-identities among 52. The Huffman opening on PDF 198–203 has 332 independently and
-fresh-process exact files; its full source extent is 198–208. Eight current
-body-owner packages contain 2,371 files. Next: restore final Huffman 204–208 and
-actually assemble all eleven pages. Remaining bodies, 433-page accounting, cover
-and issue closeout are pending. See [March progress](docs/progress/9303.md).
-No reader rebuild.
+March 1993 restoration is active: eight readable/sample-reviewed articles, two
+non-owning groups, three final section references and 39 unresolved identities
+among 52; no partial remains at this checkpoint. The complete Huffman article on
+PDF 198–208 has 466 independently/fresh-process exact files, including all 379
+numbered listing rows. Eight current body-owner packages contain 2,505 files.
+Next: verify the popup-window article's extent from PDF 210/printed 208 and restore
+a bounded opening segment. Remaining bodies, 433-page accounting, cover and issue
+closeout are pending. See [March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section
