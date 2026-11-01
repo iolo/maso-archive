@@ -200,15 +200,38 @@ repairs, zero retries or within-pass/post-pass changes. Nine rehashed notice,
 three group and two ownership mutations are rejected. All 17,477 prior files and
 thirty core modules remain exact; prior fresh 213-test result retained.
 
-Current totals: seven readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 40 unresolved identities among 52. Seven
-current body-owner packages contain 2,039 exact files; eight final classification
-evidence files are retained separately. Original natives and superseded assemblies
-remain unchanged. Batch 14 verifies Huffman article 0013's actual extent from
-opening PDF 198/printed 196, then restores up to six verified body pages. Remaining
-bodies, 433-page accounting, cover and issue closeout remain required. See
-[March progress](docs/progress/9303.md) and the
-[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+Batch 14 verifies Huffman article 0013's full eleven-page extent, PDF 198–208,
+and preserves opening 198–203/printed 196–201 as a 332-file partial native.
+Independent and fresh-process exports match. All 96 crops, 76 OCR outcomes,
+5,600 typed ranges and 536 indexed source rows/fragments validate. Twenty original
+images retain ten diagrams, four printed tables, worked examples and an independent
+Modified Huffman sidebar. Twelve table/array indexes preserve 1,189 cells; the
+worked matrix adds 64 cells. Nine array occurrences keep explicit values, circled
+annotations and ellipses; no omitted values are expanded. The AC table retains
+43 printed rows, nine blank cells and fifteen dot separators. Seven prose boundaries
+include main 201→203 across table page 202. Source bit-string, caption, formula and
+array-label/count differences remain literal. All 76 drafts read before one source
+pass; six pre-OCR margin changes, zero retries, one within-pass saved-caption
+refinement and zero post-pass changes. Twelve rehashed native and two ownership
+cases are rejected. All 17,594 prior files and thirty core modules remain exact;
+prior fresh 213-test result retained. Final 204–208 and actual assembly remain pending.
+
+Current totals: seven readable/sample-reviewed articles, one partial, two non-owning
+groups, three section references and 39 unresolved identities among 52. Eight
+current body-owner packages contain 2,371 exact files; eight final classification
+evidence files remain separate. Original natives and superseded assemblies remain
+unchanged.
+
+Next: Batch 15 restores final Huffman PDF 204–208, then actually assembles the
+complete eleven-page article from independently regenerated natives. Preserve
+original diagrams 11–14, the source image, prose ending on 205 and literal listing 1
+rows 001–379, including blank rows, Korean comments, source line numbers and defects.
+Lower 208 walkie-talkie advertising is excluded; 209 is a separate advertisement,
+and 210 opens the popup-window article. Verify both original 203→204 contexts and
+all namespaced custom references. No reader rebuild.
+
+Remaining bodies, 433-page accounting, cover and issue closeout are required. See [March progress](docs/progress/9303.md) and the
+[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
 
 ## December 1992 closeout, 2026-11-01
 
