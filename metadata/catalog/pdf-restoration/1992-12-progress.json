@@ -3774,7 +3774,14 @@
         "Seven pinoutpanels retain110literalpin-label/numberpairs in55displayrows. Twelve circuitcomponentblocks plusfourgatereferenceforms retainlabels/numeralcandidatesfromnine3xsource-onlydetails.93editorialgraphicmarkeroccurrences retainoverbars,bubbles,ground/terminal/switch/waveform/dottedregions withoutencodedglyphcounts,netlist,wiring,timingdataset ortechnicalvalidityinference. Repeatedwaveform0/1annotationsremainoriginalpixels,not exhaustivenumerictranscription.",
         "Sixmainheadings,twoasides,two-episodeseriespanel,sixprose groups/eightboundaryjoins andpending382→383 continuation remainexplicit. LiteralShottky,oscila-/tor,Transciever,MUl-/tipleXer,74XXxxx,64값,3.58/3.57MHz,참고으로 andcircuitCCLKEN/RCLK versuspinoutCCKEN/RCK remain separate candidates. No expectedtechnicalwording,unprintedpowerpins,sourceprogram/circuitbytes orvalidlogicinferred.",
         "All86complete rawdrafts read beforeone literalpass;zeroOCRretries/within-passcropchanges.26pre-OCRrepairs/twoadded details retainallinitial93crops/26sheets,sevenrepairsheets anddedicatedclockcrop;67initialcrops and94last-revisioncrops exact. Firstviewhelperfailedbecausepadded004/current4pinpaths differalthoughbytes/hashmatch;freshviewdestinationretainsfailure/firstcopy. Per-pagetranscripts/in-passtyping/layoutrefinements retained;no extrarecognition.",
-        "Twentyprivatealtered-datacases rejected:14consistentlyrehashednativeedits passgenericexportsbutfailfrozen sourceaudit;sixgroupeditsfailclassificationaudit. All41739priorDecemberfiles,7663formerselectedfiles/sixteenroots,elevenformerclassifications,9332Septemberfiles andthirtycore/source/runtime/TOC/queuepins exact. Unchanged213-testbaseline reused. Humanacceptance/fullproofreading,originalglyph/spaces/bytes,technicaltruth/electronicvalidity andexecutionunverified."
+        "Twentyprivatealtered-datacases rejected:14consistentlyrehashednativeedits passgenericexportsbutfailfrozen sourceaudit;sixgroupeditsfailclassificationaudit. All41739priorDecemberfiles,7663formerselectedfiles/sixteenroots,elevenformerclassifications,9332Septemberfiles andthirtycore/source/runtime/TOC/queuepins exact. Unchanged213-testbaseline reused. Humanacceptance/fullproofreading,originalglyph/spaces/bytes,technicaltruth/electronicvalidity andexecutionunverified.",
+        "Batch 40 preserves continuation PDF 383–388, individually read folios 408–413, as 460 files matching independent and fresh-process exports. All 121 source crops, 110 settings, 101 blocks, eleven original panels, 664 reading/search rows, 2,509 current typed ranges (36 empty occurrences) and three private adjacent-native ranges validate. Natives a/b preserve 377–388; final 389–396 and actual twenty-page assembly remain required.",
+        "Twelve regional table panels retain 324 data cells and 44 headers, including eighteen unfilled device/merged-address-bit layout slots. Memory pinout retains 28 label/number pairs; PC-slot tables retain 62 pin/name/use-mark entries. O/X are glyph candidates with unverified O/zero encoded identity. Two comparator blocks and eight passive candidates retain LM219, R?, 0.1uF and stacked 1/1 source forms; no validated pin-11 assignment or netlist is inferred.",
+        "Fourteen code/example regions retain 29 physical example rows and six separately indexed marginal flow-step labels, with fifteen colon-shaped terminal candidates. Six flow steps, thirty editorial graphic markers, fifteen main headings, two independent asides, 21 source variants and nine prose joins/boundaries remain explicit. Printed 32×124, SD?, Comparater, ClocK/CLeaR, OWS, IRQ9, out_.data, midline-dash identifiers, read_data1() and ②와 ③ remain literal candidates.",
+        "Incoming 382 이런 경우 / 383 동기분리 전용소자를 이용하면 validates both original native downloads/scans; assembly join remains pending. Internal 상/태, 선/택, 카운/터 and VERT/_SYNC2 wraps remain. Outgoing 388 몇 가지 / 389 영상처리를 해보는 일만이 남아 있다. is a future join with the lower flow drawing retained separately. No physical code-line merge is made.",
+        "All 110 complete raw drafts were read before one literal source pass: fourteen eng and 96 kor+eng, zero retries or within-pass crop changes. Initial 118 crops/32 sheets remain; 25 pre-OCR repair events across 22 distinct crops and three added details were reviewed on seven repair sheets. The final revisions reuse 96 initial and 117 preceding crops exactly. Nine 3x nearest original-pixel details were directly reviewed without recognition.",
+        "The first 460-file export remains preserved. A fresh metadata revision separates marginal flow labels from physical code rows; all 708 execution inputs and article/listing bytes remain exact, with only four exported JSON files differing. Eighteen consistently rehashed custom-data edits pass generic exports but fail the frozen private source audit; no generic custom-schema enforcement is claimed.",
+        "All 43,097 prior December files, 8,024 former selected files across seventeen roots, twelve classifications, 9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain exact. The unchanged 213-test baseline is reused. Hardware group 0028 and all other canonical states remain unchanged. Exact glyphs/spaces/subscripts/bars/bytes, technical truth, circuit validity, execution, human acceptance and full proofreading remain unverified."
       ],
       "restoration": {
         "directory": "archive/pdf/1992-12/packages/batch-39-r01/framegrabber-a",
@@ -3805,12 +3812,6 @@
           "blocks": 78,
           "figures": 9,
           "deferred_pdf_pages": [
-            383,
-            384,
-            385,
-            386,
-            387,
-            388,
             389,
             390,
             391,
@@ -3821,7 +3822,8 @@
             396
           ],
           "remaining_extent_unverified": false,
-          "deferred_page_locations_known": true
+          "deferred_page_locations_known": true,
+          "note": "Root directory/manifest/coverage pages describe immutable opening native a377–382. Native b383–388 is separately selected in native_segments; combined preserved coverage377–388. Remaining389–396 and actual twenty-page assembly required."
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -3835,15 +3837,15 @@
           379,
           380,
           381,
-          382
-        ],
-        "remaining_pdf_pages": [
+          382,
           383,
           384,
           385,
           386,
           387,
-          388,
+          388
+        ],
+        "remaining_pdf_pages": [
           389,
           390,
           391,
@@ -3855,31 +3857,31 @@
         ],
         "remaining_page_locations_known": true,
         "validation": {
-          "path": "archive/pdf/1992-12/restoration/batch-39/validation.json",
-          "sha256": "4b7bd4abeae20f125b55021732b21ba3fef66d6d6a16403de704892cbbb03a44",
-          "bytes": 1930
+          "path": "archive/pdf/1992-12/restoration/batch-40/validation.json",
+          "sha256": "335b5a2bf00160deae58254a7bd424846641656fe18cf6806ee58a2251fb8a97",
+          "bytes": 2323
         },
         "reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-39/reproduction.json",
-          "sha256": "3a69a054ce96149922fd1ad15b02690c5210ab16b7fc2571b973f2451f45c545",
-          "bytes": 63334
+          "path": "archive/pdf/1992-12/restoration/batch-40/reproduction-r02.json",
+          "sha256": "ef0ed848cdaf7a618017318acc3d06b7f1cdb374cf1f32737dcb81c33bd8d89b",
+          "bytes": 80965
         },
         "fresh_process_reproduction": {
-          "path": "archive/pdf/1992-12/restoration/batch-39/fresh-process-reproduction.json",
-          "sha256": "1d446901561ce5935d259527c4efbf4ce648532d26c4385c3154d18b4d6ad3a7",
-          "bytes": 446
+          "path": "archive/pdf/1992-12/restoration/batch-40/fresh-process-reproduction.json",
+          "sha256": "685761a8fd283e73de7326e2ce31cbd345dc93cb64092eb71dfdd08c206458fc",
+          "bytes": 625
         },
         "boundary_evidence": {
-          "path": "archive/pdf/1992-12/restoration/batch-39/extent-source-review.json",
-          "sha256": "28bc45b6e4b07dd021c9599abda44b8fc23a9002030d4168ad83e36afce0a386",
-          "bytes": 11898
+          "path": "archive/pdf/1992-12/restoration/batch-40/adjacent-boundaries.json",
+          "sha256": "5a8f1a4f26bf37db1b401d6e3603ce7f66ca0f89d4f96b18afd83ecef01f4bf8",
+          "bytes": 4531
         },
         "negative_checks": {
-          "path": "archive/pdf/1992-12/restoration/batch-39/negative-checks.json",
-          "sha256": "3e9a9ef8c7082b9cc89509218e7a4a05e2ee9b560448cb08bc01c9c90b6e1244",
-          "bytes": 3664
+          "path": "archive/pdf/1992-12/restoration/batch-40/negative-checks.json",
+          "sha256": "b23adf77dac455c726d666063e98f90925e7dbb586d031e1964901fea97df758",
+          "bytes": 3685
         },
-        "checkpoint": "batch-39",
+        "checkpoint": "batch-40",
         "native_segments": [
           {
             "name": "a",
@@ -3917,6 +3919,43 @@
               "sha256": "28bc45b6e4b07dd021c9599abda44b8fc23a9002030d4168ad83e36afce0a386",
               "bytes": 11898
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1992-12/packages/batch-40-r02/framegrabber-b",
+            "manifest": {
+              "path": "archive/pdf/1992-12/packages/batch-40-r02/framegrabber-b/manifest.json",
+              "sha256": "fac32617e9d11834069e3871563a324c8e779fe6cba66e1d59cfa97e84af4703",
+              "bytes": 79827
+            },
+            "pdf_pages": [
+              383,
+              384,
+              385,
+              386,
+              387,
+              388
+            ],
+            "recipe": {
+              "path": "archive/pdf/1992-12/restoration/batch-40/framegrabber-b-r04/package-recipe.json",
+              "sha256": "dcd9212512e72c0c0a587b9da420d469f09d8d132e21232bffb95cc21a266163",
+              "bytes": 15207
+            },
+            "validation": {
+              "path": "archive/pdf/1992-12/restoration/batch-40/validation.json",
+              "sha256": "335b5a2bf00160deae58254a7bd424846641656fe18cf6806ee58a2251fb8a97",
+              "bytes": 2323
+            },
+            "reproduction": {
+              "path": "archive/pdf/1992-12/restoration/batch-40/reproduction-r02.json",
+              "sha256": "ef0ed848cdaf7a618017318acc3d06b7f1cdb374cf1f32737dcb81c33bd8d89b",
+              "bytes": 80965
+            },
+            "boundary_evidence": {
+              "path": "archive/pdf/1992-12/restoration/batch-40/adjacent-boundaries.json",
+              "sha256": "5a8f1a4f26bf37db1b401d6e3603ce7f66ca0f89d4f96b18afd83ecef01f4bf8",
+              "bytes": 4531
+            }
           }
         ],
         "full_source_extent": {
@@ -3952,7 +3991,7 @@
             "sha256": "28bc45b6e4b07dd021c9599abda44b8fc23a9002030d4168ad83e36afce0a386",
             "bytes": 11898
           },
-          "note": "All20wholepages reviewed;onlysixpages currentlyrestored. Lastpagelowersubscriptionnoticeindependent;futurefinalmapmustrefineexclusionboundary."
+          "note": "All twenty whole body pages377–396 directly reviewed in Batch39;immutable natives a/b now preserve377–388. Remaining389–396 and actual assembly required. Prose concludes390;three listings continue391–396 ending118:END above independent lower subscription notice. Original native-a scope remains historical."
         }
       }
     },
@@ -6046,6 +6085,60 @@
         "sha256": "3e9a9ef8c7082b9cc89509218e7a4a05e2ee9b560448cb08bc01c9c90b6e1244",
         "bytes": 3664
       }
+    },
+    {
+      "name": "1992-12-batch-40",
+      "status": "complete",
+      "completed_at": "2026-11-01T01:26:23.369477+00:00",
+      "goal": "Preserve frame-grabber continuation 383–388 with original drawings, literal tables/pins/code/flow and both incoming native contexts.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0029"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        383,
+        384,
+        385,
+        386,
+        387,
+        388
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        382,
+        389,
+        390,
+        396,
+        397
+      ],
+      "recognition_invocations": 110,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 25,
+      "pre_ocr_distinct_changed_regions": 22,
+      "added_pre_ocr_details": 3,
+      "within_pass_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-40/validation.json",
+        "sha256": "335b5a2bf00160deae58254a7bd424846641656fe18cf6806ee58a2251fb8a97",
+        "bytes": 2323
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-40/reproduction-r02.json",
+        "sha256": "ef0ed848cdaf7a618017318acc3d06b7f1cdb374cf1f32737dcb81c33bd8d89b",
+        "bytes": 80965
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-40/adjacent-boundaries.json",
+        "sha256": "5a8f1a4f26bf37db1b401d6e3603ce7f66ca0f89d4f96b18afd83ecef01f4bf8",
+        "bytes": 4531
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-40/negative-checks.json",
+        "sha256": "b23adf77dac455c726d666063e98f90925e7dbb586d031e1964901fea97df758",
+        "bytes": 3685
+      }
     }
   ],
   "totals": {
@@ -6062,24 +6155,23 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-40",
-    "goal": "Restore frame-grabber continuation383–388 asimmutable nativeb,retaining firstnativea andsource diagram/table/code distinctions.",
+    "name": "1992-12-batch-41",
+    "goal": "Restore frame-grabber continuation 389–394 as immutable native c, retaining prose, construction inset, references and printed listings.",
     "toc_entry_ids": [
       "maso-1992-12-toc-0029"
     ],
     "candidate_mapping_targets": [
-      383,
-      384,
-      385,
-      386,
-      387,
-      388
+      389,
+      390,
+      391,
+      392,
+      393,
+      394
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
-      382,
-      389,
-      390,
+      388,
+      395,
       396,
       397
     ],
@@ -6088,7 +6180,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Actualtwenty-pagebody377–396locally402–421alreadydirectlyreviewed. Firstsix377–382 preservedas361-filepartial;remaining383–396andactualassemblyrequired. ReuseB39source-review-r02views. Incoming382ends이런 경우;383starts동기분리 전용소자를 이용하면. Verifybothsourcecontexts beforejoining. Preserveoriginalmemory/8255/sync/slot/flow diagrams,tablecells/pinlabels,overbar/graphicmarkers,inlinecodeandphysicalwraps. No corrected electronics/technicalclaims,netlist/unprintedpins/programbytes or executioninference. Group0028alreadyfinalnon-owning;child0030unresolvedwithcanonicalcredit편집부 andobservedsource김현숙기자 keptseparate. Nextafterb:389–394,then395–396andactual20-pageassembly. Seventeen selectedroots8024files,twelveclassifications. Installall11prioradaptersforcurrentrootchecks. UNIXlocations,feature0019continuation/ending/children0020/21,other bodies/assemblies,all446-pageaccounting,cover,standaloneissueexport/rebuild/closeoutremainrequired. FullDecembergoalactive;no readerrebuild."
+    "note": "The actual twenty-page body 377–396, locally read folios 402–421, is established. Natives a/b preserve twelve pages 377–388; 8,484 selected files across eighteen roots and twelve separate classifications are selected. Reuse Batch 39 source views. Incoming 388 ends 몇 가지; 389 begins 영상처리를 해보는 일만이 남아 있다. Preserve both native contexts and the intervening lower flow drawing. Prose/construction inset closes 390 with M, references and contact; three listings continue 391–396. List 1 MY-DIZ.H and List 2 MY-DIZ.C begin 391; List 2 ends at 823 on 395, where List 3 DIZ111.ASM begins; it ends at 118: END on 396 above an independent subscription notice. Preserve all labels, blank rows, physical wraps, filename variants and colon/dash/underscore/dot/1/l candidates without code repair, inferred implementation or original-file/execution claims. Then restore 395–396 and actually assemble all twenty pages with every native custom index and cross-native join. Hardware group 0028 is final; 0030 remains unresolved, canonical 편집부 and observed 김현숙 기자 credits separate. Install all eleven prior adapters for selected-root checks. UNIX locations, feature 0019 continuation/ending/children 0020/21, other bodies/assemblies, full 446-page accounting, cover, standalone export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

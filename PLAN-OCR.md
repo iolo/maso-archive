@@ -532,20 +532,56 @@ edits fail classification checks. All 41,739 prior December files, 7,663 former 
 files, eleven earlier classifications, 9,332 September files and thirty core/source/
 runtime/TOC/queue pins stay exact. Unchanged 213-test baseline reused; no core changes.
 
-Next: restore continuation 383–388 as immutable native b, reusing Batch 39 source views.
-Verify incoming 이런 경우 / 동기분리 전용소자를 이용하면 in both native source contexts.
-Retain original memory/8255/sync/slot/flow diagrams, table cells, pin/overbar candidates,
-inline code, literal technical claims and physical wraps. Do not infer corrected
-circuits, netlists, omitted implementations or original program bytes. Then restore
-389–394 and 395–396, followed by actual twenty-page assembly. Hardware group 0028 is
-already final; child 0030 remains unresolved. All eleven prior private adapters remain
-required for selected-root checks. Fifteen readable/sample-reviewed articles, two partials,
-four groups, three section references and 21 unresolved identities remain. Seventeen
-selected roots contain 8,024 files; twelve classification files are separate. UNIX
-locations, feature 0019 continuation/ending/children, other bodies/assemblies, all
-446-page accounting, cover, standalone issue export/rebuild and closeout remain required.
-Original glyph/space/byte identities, technical truth, execution, human acceptance/full
-proofreading remain unverified. Full December goal active. No reader rebuild.
+Batch 40 preserves frame-grabber continuation PDF 383–388/individually read folios
+408–413 as a 460-file immutable native b. Three independent/fresh-process exports
+match. All 121 exact source crops, 110 settings (14 eng/96 kor+eng), 101 blocks,
+eleven original panels, 664 reading/search rows and 2,509 typed ranges/36 empty
+occurrences validate, including three private adjacent-native ranges. Natives a/b
+now preserve twelve pages 377–388; remaining 389–396 and actual assembly are required.
+
+Twelve regional table panels retain 324 data cells and 44 headers, including eighteen
+unfilled device/merged-bit layout slots without carried-forward values. The memory
+pinout retains 28 label/number pairs; slot tables retain 62 pin/name/use-mark entries.
+O/X remain glyph candidates with unverified O/zero encoded identity. Two comparator
+blocks and eight passive candidates retain LM219, R?, 0.1uF and stacked 1/1 forms.
+The complete original circuit remains authoritative; no pin-11 assignment or netlist
+is validated. Six flow steps, thirty editorial graphic markers, fifteen main headings,
+two independent asides, 21 source variants and nine prose joins remain explicit.
+
+Fourteen code/example regions retain 29 physical example rows plus six separately
+indexed marginal flow-step labels and fifteen colon-shaped terminal candidates.
+Literal 32×124, SD?, Comparater, ClocK/CLeaR, OWS, IRQ9, out_.data, midline-dash
+identifiers, read_data1() and printed ②와 ③ remain candidates. Source code, arithmetic,
+models and references are not repaired. Original electronic/software files, encoded
+glyph/space identities, technical validity and execution remain unverified.
+
+All 110 complete raws read before one literal source pass; zero retries or within-pass
+crop changes. Twenty-five pre-OCR repair events across 22 distinct crops/three added
+details retain the initial map/crops and reuse 96 initial/117 preceding crops exactly.
+Nine 3x original-pixel details were directly reviewed without recognition. First export
+retained; a fresh metadata revision separates flow labels from physical code rows.
+All 708 execution inputs and article/listing bytes remain exact; four exported JSON
+files change. Eighteen consistently rehashed custom-data edits pass generic exports
+but fail the frozen private audit; no generic custom-schema enforcement claim.
+All 43,097 prior December files, 8,024 former selected files, twelve classifications,
+9,332 September reference files and thirty core/source/runtime/TOC/queue pins remain
+exact. Unchanged 213-test baseline reused; no core changes.
+
+Next: restore 389–394 as immutable native c, reusing retained source views. Preserve
+incoming 388 몇 가지 / 389 영상처리를 해보는 일만이 남아 있다. in both native contexts,
+with the lower 388 flow drawing separate. Preserve the improvement list, construction
+inset, references/contact and prose M on 390, then printed listings on 391–394. Prose
+ending is not the article ending: List 2 ends 823 on 395; List 3 ends 118: END on 396
+above an independent subscription notice. Then restore 395–396 and actually assemble
+all twenty pages, retaining every native table/pin/flow/variant/code/graphic index.
+Hardware group 0028 is final; child 0030 remains unresolved. All eleven prior adapters
+remain required for selected-root checks. Totals stay fifteen readable/sample-reviewed
+articles, two partials, four groups, three section references and 21 unresolved identities.
+Eighteen selected roots contain 8,484 files; twelve classification files are separate.
+UNIX locations, feature 0019 continuation/ending/children, other bodies/assemblies,
+all 446-page accounting, cover, standalone issue export/rebuild and closeout remain
+required. Original glyph/space/byte identities, technical truth, execution, human
+acceptance/full proofreading remain unverified. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

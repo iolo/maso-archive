@@ -15,16 +15,16 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: fifteen readable/sample-reviewed articles,
 two partials, four non-owning group headings, three section references and 21 unresolved
-identities. Batch 39 preserves the frame-grabber article's first six pages, PDF 377–382,
-as a 361-file partial native and classifies the hardware heading as non-owning. Three
-independent/fresh-process exports match. Nine original graphics, nine tables, 110 printed
-pin-label pairs and literal source defects remain explicit. All source pixels/ranges/assets
-and 20 private altered-data checks pass. Seventeen selected roots contain 8,024 files;
+identities. Batch 40 preserves frame-grabber continuation PDF 383–388 as a 460-file
+immutable native. Three independent/fresh-process exports match; 121 exact crops,
+eleven original panels, literal tables/pins/code/flow and eighteen altered-data checks
+validate. Twelve of twenty article pages are preserved across natives a/b; remaining
+389–396 and actual assembly are required. Eighteen selected roots contain 8,484 files;
 twelve classification files remain separate.
-Next: restore continuation 383–388, then 389–394 and 395–396, and assemble the complete
-twenty-page article. UNIX openings and the year-in-review continuation remain unlocated.
-Other bodies, full issue accounting, cover, export/rebuild and closeout remain pending.
-See the [December record](docs/progress/9212.md). No reader rebuild.
+Next: restore 389–394, then 395–396, and assemble the complete twenty-page article.
+UNIX openings and the year-in-review continuation remain unlocated. Other bodies,
+full issue accounting, cover, export/rebuild and closeout remain pending. See the
+[December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
