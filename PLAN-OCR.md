@@ -1906,6 +1906,64 @@ Evidence: `archive/pdf/1992-12/restoration/batch-67/validation.json`,
 `prospective-timings.json`, `helper-failure-r01.json` and `completion-audit.json`.
 Session evidence: `archive/pdf/1992-12/evidence/session-2026-11-01-48/`.
 
+Batch 68 directly reviews seventeen mixed whole pages for the two existing tasks
+0019/0022: 195, 197, 198, 221, 230, 241, 252, 305, 371, 396, 402, 411, 413,
+414, 416, 439 and 446. Their 37 semantic component occurrences retain selected
+article bodies, independent advertisements/promotions/notices, unlisted PCSHELL
+and Excel tips, non-owning technical preface 0033, separately owned technical tips,
+the unassigned shell listing, afterword/advertisement index and cover-wrap panels.
+All 31 map-local exclusion records across fourteen selected-body pages remain exact.
+They are owner-relative contexts with overlaps, not thirty-one independent ads.
+No new year-feature continuation/ending or attributable terminal-control body is
+identified. No mapped pages, recognition, retry or source correction occurs.
+
+The four-file sidecar at
+`archive/pdf/1992-12/restoration/batch-68/accounting-r01/` retains all 446 primary
+page rows unchanged and adds the semantic mixed-context inventory, a complete
+source-page location-evidence index and two final PDF-pass location dispositions.
+Three exports match byte for byte, including a fresh process. All 446 source-image
+pins and classification-evidence pointers are rechecked, together with 31 selected
+maps; the prior source-audit chain executes through the original review/render/
+ownership evidence. All thirty-four current native/layout images decode.
+Current whole views are seventeen rechecks, not seventeen new primary pages.
+
+Year-feature 0019 remains its existing partial opening on 299; the continuation,
+actual ending and intrinsic child-body anchors remain unlocated. Terminal-control
+0022 remains an unidentified body. These two location searches are final for the
+supplied PDF pass, with external dispositions superseding active search instructions
+in frozen historical records. The existing partial package and canonical entries
+are unchanged. Resume these searches only with new source, independent attribution
+evidence or a specifically contradicted classification. Unassigned shell fragment
+300–305 is retained without certifying its canonical attribution. The result does
+not prove original source omission, a missing-page count or universal source-wide
+absence, and does not turn an unresolved identity into a recovered article.
+
+Twenty consistently rehashed private mutations are rejected, including lost source
+rows, altered ownership/exclusions, PCSHELL misattribution, false original omission
+and advancing children outside scope. All 72,380 prior December files,
+13,001 selected article files/31 roots, sixteen classification files, 9,332 September
+files and thirty core/source/runtime/TOC/queue pins remain exact. The unchanged
+213-test baseline is reused. Four sidecar files do not increase selected article
+file counts. Prospective stage walls include preservation, render reuse and evidence
+reconciliation/orchestration; no isolated manual-throughput claim.
+
+All 45 canonical entries remain unchanged: thirty readable/sample-reviewed, one
+partial, seven groups, three section references and four unresolved. The two current
+location gaps are finalized; children 0020/0021 and shell 0023 remain pending their
+own outcomes. Next checkpoint 69 handles only the two child-reference dispositions,
+with direct contents 5/opener 299 rechecks and no preassigned mapped pages, within
+2/6/20 limits. Complete recorded mixed-context inventory and reconciled source-page
+evidence do not certify final shell ownership, full original-issue recovery or issue
+closeout. Remaining child/shell outcomes, integrated final ownership/gap accounting,
+usable cover verification, standalone JSON/assets issue export/rebuild and closeout
+remain required. Full December objective active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-68/validation.json`,
+`source-reviewed.json`, `source-audit.json`, `negative-checks.json`,
+`reproduction.json`, `fresh-process-reproduction.json`, `source-boundaries.json`,
+`prospective-timings.json` and `completion-audit.json`. Session evidence:
+`archive/pdf/1992-12/evidence/session-2026-11-01-49/`.
+
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
 headings and two non-owning section references, with no partial or unresolved entries.
