@@ -1169,15 +1169,66 @@ three section references and ten unresolved identities. Twenty-nine selected roo
 contain 11,651 files; sixteen classification files remain separate. Five compound natives
 preserve twenty-nine pages 112–140 and 1,681 files. The compound remains partial.
 
-Next: restore final price-chart page 141 as immutable native f, retaining all three original
-charts and their searchable labels, scales, points and legends. Use contents 4/5, divider
-111, native-e tail 140 and following independent quiz 142 as needed. A new frozen guard
-must wrap native e and delegate unchanged a/b/c/d/e; nineteen prior adapters plus the
-native-e guard apply to relevant builds. Actual thirty-page compound assembly 112–141
-follows as a separate checkpoint. At most two canonical tasks/six mapped/twenty outside
-pages. Remaining bodies/assemblies, year-feature/UNIX locations, all 446-page accounting,
-cover, standalone export/rebuild and closeout remain required. Full December goal active.
-No reader rebuild.
+Batch 55 restores final compound information-radar page PDF 141, individually read
+folio 131, as immutable native f. Three original charts retain all headings, units, axes,
+dates, series labels and parenthesized point labels. Page 140's prose ends completely;
+141 continues the price branch without a physical prose join. The independent reader
+quiz on 142/printed 132 establishes the compound ending at 141. Canonical title,
+parent 0045, null reference and other identities remain unchanged.
+
+Three 279-file exports match, including a fresh process. All seventy exact source crops,
+67 OCR outcomes/blocks, three original figures, 96 reading rows and 630 typed ranges
+validate. Fifteen ranges explicitly use immutable native-e download/scan contexts.
+Thirteen series retain 32 vertical-axis ticks, nine date labels, 36 physical point labels
+and 37 printed observations. Two February observations are explicitly absent. The single
+mouse-chart July “4.5” label supports both sensor-mouse and trackball observations;
+both refer to the same physical source occurrence, without duplicating the label.
+
+The 120MB and 60MB disk series start in July without February points. Missing data is
+neither zero-filled nor interpolated. Thirteen November endpoint values agree with
+page 140's central quotes after explicit unit conversion; literal quotes and qualifiers
+remain intact. Page 140's 240MB quote has no corresponding series in the chart, and
+none is invented. Source prices and drawn line/point positions remain unmodified.
+
+All seventy initial crops on eighteen sheets and thirteen changed crops on four sheets
+were directly reviewed before recognition; 57 initial crops remain exact. All 67 complete
+kor+eng drafts were read in one untruncated output before one literal source pass.
+Four enlarged source-only details were reviewed without OCR. Thirteen pre-OCR repairs,
+zero OCR retries and zero within-pass map changes. Literal decimals 7.5, 5.5, 9.5, 4.5
+and 1.2 remain explicit. A tiny ink stroke above the modem chart's July “18” remains in
+the original crop without certification as encoded punctuation or numeric data.
+
+Axis tick strokes are graphical marks, not minus signs. Unicode bullets, parentheses
+and spacing approximate print; no year is printed on the chart date labels. Source price
+accuracy, plot geometry accuracy, historical/current market truth, original encoded
+glyphs/bytes, program recovery, execution, human acceptance and full proofreading remain
+unverified. The unchanged 213-test baseline is reused.
+
+Thirty-two consistently rehashed custom-metadata edits pass generic exports and fail
+the frozen private audit; six altered eligibility cases are rejected. No generic custom-
+schema enforcement claim. The new guard delegates unchanged natives a/b/c/d/e, whose
+208, 312, 323, 369 and 469 files regenerate exactly. All 61,023 prior December files,
+11,651 former selected files/29 roots, sixteen classification files, 9,332 September
+files and thirty core/source/runtime/TOC/queue pins remain exact.
+
+All thirty compound body pages 112–141 are now preserved across six immutable natives,
+totalling 1,960 files. Actual assembly remains required, so availability stays partial.
+Issue totals remain twenty-three readable/sample-reviewed articles, two partials, seven
+groups, three section references and ten unresolved identities. Thirty selected roots
+contain 11,930 files; sixteen classification files remain separate.
+
+Next: actually assemble compound 0046 on 112–141 from the six independently regenerated
+native recipes. Resolve only source-backed cross-native prose joins and figure contexts;
+carry every original asset, literal claim, physical wrap, glyph candidate and custom index.
+Native e has two D-relative ranges; native f has fifteen E-relative ranges. Preserve these
+named contexts when projecting all root/native ranges. Ring's page-134 anticipatory
+figure belongs to its page-135 review; Baram continues across 134→135. Prices 140→141
+require no prose join. Verify coherent reading order and a fresh standalone compound
+rebuild before advancing availability. No new mapping or OCR is needed. Twenty prior
+adapters plus the native-f guard apply to relevant builds. Keep at most two canonical
+tasks/six mapped/twenty outside pages. Other bodies/assemblies, year-feature/UNIX locations,
+all 446-page accounting, cover, standalone issue export/rebuild and closeout remain
+required. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
