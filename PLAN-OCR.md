@@ -97,12 +97,23 @@ and nineteen internal continuations remain indexed. Final-page native b adds nin
 initial calls, one source pass and zero retries after four pre-OCR crop changes.
 Nine rehashed assembly and two ownership mutations are rejected; all 14,667 prior
 files and thirty core modules remain exact. Prior fresh 213-test result retained.
-Current totals: three readable articles, one non-owning group, three final section
-references and 45 unresolved identities. Next: verify article 0008's source location
-and extent, then restore up to six verified body pages. Printed reference 172 and
-PDF probe 174 are leads; inspect actual title, byline, folios, ownership and ending
-before mapping. No global offset or unreviewed extent is inferred.
-See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
+Batch 09 verifies Macworld article 0008's actual eight-page body 174–181 and
+preserves opening 174–179/printed 172–177 as a partial native: 165 independently/
+fresh-process exact files, 49 exact crops, thirteen original images, 36 outcomes,
+922 ranges and 496 physical rows. Six captions/eleven figure associations, six
+CD-ROM cover panels, three presenters, four headings and seventeen reading
+boundaries retain source contexts. All 36 drafts were read before one source pass;
+zero retries or post-pass changes. Eleven pre-OCR events across nine original
+regions remain in three maps. Printed software/grammar/bit-depth/age/price claims
+stay literal. Nine invalid custom-data cases are rejected; all 15,002 prior files
+and thirty core modules remain exact. Final 180–181 and actual assembly pending.
+Current totals: three readable articles, one partial, one non-owning group, three
+final section references and 44 unresolved identities. Next: preserve final Macworld
+180–181, including its storage/software prose, Sony photograph and related education
+sidebar, then actually assemble all eight pages. Validate both original 179→180
+contexts and retain literal course/address/contact rows without treating them as
+current recommendations. Full issue goal active; no reader rebuild.
+See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
 thirty readable/sample-reviewed articles, two partials, seven non-owning groups,

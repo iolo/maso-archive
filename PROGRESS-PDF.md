@@ -6,23 +6,21 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: three readable/sample-reviewed articles, one non-owning
-group, three final section references and 45 unresolved identities among 52.
-Copyright article 0007 is now actually assembled on PDF 140–146/printed 138–144:
-291 independently/fresh-process exact files from two regenerated natives/283 files.
-All 69 crops, 66 OCR outcomes, 1,218 projected metadata ranges, 2,364 current ranges
-and 775 reading rows validate. Three original images and independent quotations,
-eighteen headings, three party rows, eleven citations, eleven command tokens and
-eight circled markers retain source contexts. The direct 145→146 prose continuation
-joins once; quotation 145 and main prose 146 keep their differing wording.
-Final-page native b adds nine OCR calls after four pre-OCR crop changes, one source
-pass and zero retries. Native a's chronology and original execution origins remain
-unchanged. Nine rehashed assembly and two ownership mutations are rejected.
-All 14,667 prior files and thirty core modules remain exact; the prior fresh 213-test
-result is retained. Three current body-owner packages contain 999 files.
-Next: locate and verify article 0008, the Macworld exhibition report, then restore
-up to six verified body pages. Remaining bodies, 433-page accounting, cover and
-issue closeout remain required. See [March progress](docs/progress/9303.md) and its
+March 1993 is in progress: three readable/sample-reviewed articles, one partial,
+one non-owning group, three final section references and 44 unresolved identities
+among 52. Macworld article 0008's actual body is PDF 174–181; opening 174–179 is
+preserved as a 165-file partial native. Two exports and a fresh-process rebuild
+match; all 49 crops, thirteen images, 36 outcomes, 922 ranges and 496 reading rows
+validate. Six captions/eleven image associations, six cover panels, three presenters,
+four headings and seventeen reading boundaries retain source contexts.
+All drafts were read before one source pass; no retries or post-pass changes.
+Eleven pre-OCR events/nine original regions remain in three maps. Printed spelling,
+grammar, bit-depth, age and price claims stay literal. Nine invalid custom-data cases
+are rejected; all 15,002 prior files and thirty core modules remain exact. The prior
+fresh 213-test result is retained. Four current body-owner packages contain 1,164
+files. Next: final Macworld pages 180–181 and actual eight-page assembly. Remaining
+bodies, 433-page accounting, cover and issue closeout remain required.
+See [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.

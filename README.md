@@ -14,14 +14,13 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 March 1993 restoration is active: three readable/sample-reviewed articles, one
-non-owning group, three final section references and 45 unresolved identities
-among 52. The copyright article is now actually assembled on PDF 140–146:
-291 files match independent and fresh-process rebuilds from both regenerated
-natives. The three current body-owner packages contain 999 files; original natives
-and classification evidence remain retained. Next is source verification and a
-bounded restoration of article 0008, the Macworld exhibition report. Remaining
-bodies, 433-page accounting, cover and issue closeout are pending.
-See [March progress](docs/progress/9303.md). No reader rebuild.
+partial, one non-owning group, three final section references and 44 unresolved
+identities among 52. The Macworld report's opening PDF 174–179 has 165 independently/
+fresh-process exact files; its final 180–181 and actual eight-page assembly are
+next. Four current body-owner packages contain 1,164 files; all original natives
+and classification evidence remain retained. Remaining bodies, 433-page accounting,
+cover and issue closeout are pending. See [March progress](docs/progress/9303.md).
+No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

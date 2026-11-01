@@ -718,12 +718,81 @@
       "toc_entry_id": "maso-1993-03-toc-0008",
       "title": "이영식의 PC 이야기 : 맥월드 전시회를 다녀와서",
       "parent_id": "maso-1993-03-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source174/printed172 opensseries 이영식의 PC이야기,title 맥월드 전시회를 다녀와서,credit 이영식(미국 로렌스 버클리 연구소),portrait and읽을거리 banner. Prior173 Hanjincomputer ad;final181/179 endswithMS/relatededucation sidebar;182 startsdifferentNintendoarticle. All eight source pages individually observed;no globalfoliooffset inferred.",
+        "Opening174–179 native a has165 independently/fresh-process exactfiles,49 exactcrops,19 readingblocks,13 originalimages,36 OCR outcomes,922 typedranges and496 physicalrows. Sixcaptionblocks have11 figureassociations;oneexplicitsharedcaption relatesallsix CD-ROM coverpanels. Threepanelpresenters,fourheadings,147 Latin and53 numericoccurrences remain source-local.",
+        "All36 initialdrafts readbeforeonesourcepass;zero recognitionretries orpost-pass changes. Eleven pre-OCR events acrossnine originalregions inthree retainedmaps repairtextedges,splitlowerprose besideart andcompletecoverframes.",
+        "Printed 소프프웨어,Vedeo Toaster,Mecromedia,만다는,P693,8비트 수퍼닌텐도,age/price/capacity/chronology claims remainliteral. Exactglyphs/spaces/encodedbytes,historical/technical claims,execution/fullproofreading/humanacceptance unverified.",
+        "Nine source-pinned custom-data in-memory mutations rejected;actualcanonicalgroup/currentpartialchildfixture passes. All158 ZIPmembers safe/CRC/exact;35 ordinarytextedge diagnostics pass. All15002 priorfiles and30 coremodules unchanged;priorfresh213-test result retained. Final180–181 andactualassembly pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-09-r01/macworld-a",
+        "article_id": "scan-maso-1993-03-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-09-r01/macworld-a/manifest.json",
+          "sha256": "90583dbde60aab11880a73dd2a67bf2ec79638ef872cf59dbd0db1699a94c0a2",
+          "bytes": 27802
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ],
+          "printed_pages": [
+            "172",
+            "173",
+            "174",
+            "175",
+            "176",
+            "177"
+          ],
+          "regions": 49,
+          "blocks": 19,
+          "figures": 13,
+          "deferred_pdf_pages": [
+            180,
+            181
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 181,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-09/validation.json",
+          "sha256": "b21f2ffbc8a42aa84df08d019188b3b0e6b6ed2dc0461668a22386b6e60dc20f",
+          "bytes": 2261
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-09/reproduction.json",
+          "sha256": "923586072417c845e287c1c624f35c23b77c2f6c15654d4c4f68cb3ccf1f137d",
+          "bytes": 28484
+        },
+        "checkpoint": "batch-09",
+        "full_source_extent": {
+          "start_pdf_page": 174,
+          "end_pdf_page": 181,
+          "uninspected_interior_pdf_pages": [],
+          "note": "All eight body pages have observed ownership/continuity. Opening six174–179 preserved; final180–181 includes closing MS andrelated education sidebar andrequires finalnative/actualassembly."
+        },
+        "notes": [
+          "Selected directory/manifest identify immutable opening native a,not a complete eight-page assembly. Canonicaltitle/byline/parent/reference172 unchanged;source series/title/credit/category contexts remainseparate.",
+          "Seventeen indexed reading boundaries include the new third-speaker paragraph;source metadata states that paragraph transition explicitly. Original figures/captions have independentpage/scan contexts.",
+          "Final179→180 mainprose continues 물론 모든 게임기는 작은 컴퓨터라고 / 할 수 있다.; both originalnative/download/scan contexts mustvalidate later. Sixcoverpanels/sharedcaption remainindependent graphiccontexts."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0009",
@@ -1461,15 +1530,50 @@
         "sha256": "bca257639aa9ca2598a1f1efa13d28e4f821681c49178184fde57eda0caeb374",
         "bytes": 52988
       }
+    },
+    {
+      "name": "1993-03-batch-09",
+      "status": "complete",
+      "completed_at": "2026-11-01T17:26:03.342883+00:00",
+      "goal": "Locate actualMacworld eight-page body andpreserve opening174–179 asimmutable partialnative.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0008"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 36,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_events": 11,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-09/validation.json",
+        "sha256": "b21f2ffbc8a42aa84df08d019188b3b0e6b6ed2dc0461668a22386b6e60dc20f",
+        "bytes": 2261
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-09/reproduction.json",
+        "sha256": "923586072417c845e287c1c624f35c23b77c2f6c15654d4c4f68cb3ccf1f137d",
+        "bytes": 28484
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 3,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 1,
     "section_references": 3,
-    "unresolved": 45
+    "unresolved": 44
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -1477,25 +1581,17 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-09",
-    "goal": "Verify source location and extent for article0008, 이영식의 PC 이야기 : 맥월드 전시회를 다녀와서, then restore up to six verified body pages as a bounded native.",
+    "name": "1993-03-batch-10",
+    "goal": "Preserve finalMacworld pages180–181 asimmutable nativeb,then actuallyassemble complete eight-page article174–181 fromindependently regenerated nativeswithall custom sourcecontexts.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0008"
     ],
-    "canonical_page_reference": 172,
-    "initial_source_probe_pdf_page": 174,
-    "provisional_mapping_targets": [
-      174,
-      175,
-      176,
-      177,
-      178,
-      179
+    "mapping_targets": [
+      180,
+      181
     ],
     "planned_outside_lookup_pdf_pages": [
-      173,
-      180,
-      181,
+      179,
       182
     ],
     "limits": {
@@ -1503,7 +1599,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Probe174 is a location lead, not a global printed/PDF offset or established full extent. Inspect original title, byline, folios, all selected pages and article ending/neighbor before committing the map. Adjust targets to observed ownership; advertisements and unrelated bodies remain excluded. Preserve raw drafts, all revisions and one source-correction chronology. No reader rebuild."
+    "note": "Final180–181 already sourceobserved. Preserve Sonyworkmanphoto/caption,storage/adultsoftwarereport,closingMS andrelatededucation sidebarwithliteralcourse/address/contact rows. No currentcontact orproductrecommendations. Validate bothoriginalincoming179→180 contexts andall13 openingimages/sixsharedcovercaptions/threepresenters/token/claimindexes beforemarkingreadable. Canonicalgroup non-owning;no duplicatebody orreaderrebuild."
   },
   "final_issue_classification_evidence_required": [
     {

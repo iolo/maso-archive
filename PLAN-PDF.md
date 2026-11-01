@@ -122,14 +122,26 @@ initial calls, one source pass and zero retries after four pre-OCR crop changes.
 Nine rehashed assembly and two ownership mutations are rejected; all 14,667 prior
 files and thirty core modules remain exact. Prior fresh 213-test result retained.
 
-Current totals: three readable articles, one non-owning group, three section
-references and 45 unresolved identities among 52; no partial article remains at
-this checkpoint. Three current body-owner packages contain 999 exact files;
-original feature/copyright natives remain unchanged. Batch 09 verifies the source
-location and extent of article 0008, the Macworld exhibition report, then restores
-up to six verified body pages. Remaining bodies, 433-page accounting, cover and
-issue closeout remain required. See [March progress](docs/progress/9303.md) and the
-[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+Batch 09 verifies Macworld article 0008's actual eight-page body 174–181 and
+preserves opening 174–179/printed 172–177 as a partial native: 165 independently/
+fresh-process exact files, 49 exact crops, thirteen original images, 36 outcomes,
+922 ranges and 496 physical rows. Six captions/eleven figure associations, six
+CD-ROM cover panels, three presenters, four headings and seventeen reading
+boundaries retain source contexts. All 36 drafts were read before one source pass;
+zero retries or post-pass changes. Eleven pre-OCR events across nine original
+regions remain in three maps. Printed software/grammar/bit-depth/age/price claims
+stay literal. Nine invalid custom-data cases are rejected; all 15,002 prior files
+and thirty core modules remain exact. Final 180–181 and actual assembly pending.
+
+Current totals: three readable articles, one partial, one non-owning group, three
+section references and 44 unresolved identities among 52. Four current body-owner
+packages contain 1,164 exact files; original feature/copyright natives remain
+unchanged. Batch 10 preserves final Macworld pages 180–181 and actually assembles
+the complete eight-page article with both original incoming contexts and every
+custom image/caption/presenter/claim index. Remaining bodies, 433-page accounting,
+cover and issue closeout remain required. See [March progress](docs/progress/9303.md)
+and the [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
+No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01
 
