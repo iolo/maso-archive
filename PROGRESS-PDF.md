@@ -1,17 +1,18 @@
 # PDF restoration progress
 
-Updated 2026-11-01. This file is the status index; detailed records live under
+Updated 2026-11-02. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
 March 1993 is in progress: one readable/sample-reviewed column, one partial feature
-and fifty unresolved identities among 52 entries. Batches 01–02 preserve PDF
-100–101 and 156–161 into 302 independently exact JSON/assets files. All 79 crops,
-69 selected OCR outcomes and 930 typed ranges validate; fresh 213 tests pass.
-The feature's PCI sidebar 161 interrupts main prose 160→162. Next: source-review
-and restore continuation 162–167 within 2/6/20 limits. Remaining bodies, actual
+and fifty unresolved identities among 52 entries. Batches 01–03 preserve PDF
+100–101 and 156–167 into 498 independently exact JSON/assets files. All 129 crops,
+115 selected OCR outcomes and 1,687 typed ranges validate; the 213-test result is
+retained with unchanged core modules. The first two feature sections are preserved;
+both original 160→162 contexts validate across independent sidebar 161. Next:
+source-review final section 168–172 within 2/6/20 limits. Remaining bodies, actual
 assemblies, full 433-page accounting, cover and issue closeout are pending. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.

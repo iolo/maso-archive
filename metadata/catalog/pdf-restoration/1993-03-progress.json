@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1993-03",
   "status": "in-progress",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "source": {
     "id": "pdf-maso-9303",
     "path": "maso-pdf/maso-9303.pdf",
@@ -33,7 +33,8 @@
         "Contents4/shared introduction156 establish parent0001. First intrinsic section157 title/reporter observed;children0002–0004 remain unresolved until final anchors/classification.",
         "Six source pages156–161 retained as immutable partial native;final172 observedafter later evaluation context170/171,butunreviewed interior continuity remains unverified.",
         "Independent PCI sidebar161 interrupts main160→162. Original whole opener,eight images,two tables/twenty data cells/six header fragments andeight internal continuations retained.",
-        "One source pass;51 initial recognitions plusone changed-heading recognitionbeforecorrection. Fifty unchanged raw/TSV results reused with original execution provenance;zero unchanged-input retries. All failed/narrow crop revisions retained."
+        "One source pass;51 initial recognitions plusone changed-heading recognitionbeforecorrection. Fifty unchanged raw/TSV results reused with original execution provenance;zero unchanged-input retries. All failed/narrow crop revisions retained.",
+        "Batch03 preserves162–167 as native b:196 independently exact files,50 exact crops,46 selected outcomes,three diagrams,three-row/nine-cell table,eleven headings andeight continuations. Firsttwo intrinsic section bodies now preserved across a/b. Both original incoming160→162 download/scan contexts validate;lower163 recruitment notice excluded;no prose joins163→164 or167→168.49 recognitions,43 unchanged raw/TSV outcomes reused,one source pass,zero unchanged-input retries. Canonical child title remains unchanged;source164 adds 내부. Remaining168–172 andactual assembly required."
       ],
       "restoration": {
         "directory": "archive/pdf/1993-03/packages/batch-02-r01/localbus-a",
@@ -50,7 +51,13 @@
             158,
             159,
             160,
-            161
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167
           ],
           "printed_pages": [
             null,
@@ -58,18 +65,18 @@
             "156",
             "157",
             "158",
-            "159"
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165"
           ],
-          "regions": 59,
-          "blocks": 43,
-          "figures": 8,
+          "regions": 109,
+          "blocks": 80,
+          "figures": 12,
           "deferred_pdf_pages": [
-            162,
-            163,
-            164,
-            165,
-            166,
-            167,
             168,
             169,
             170,
@@ -93,7 +100,124 @@
           "sha256": "d5572aee1d1f549101cf34024e38d72bef86e890fe0d34be67b7af1e98576eaf",
           "bytes": 39050
         },
-        "checkpoint": "batch-02"
+        "checkpoint": "batch-02",
+        "native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-02-r01/localbus-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-02-r01/localbus-a/manifest.json",
+              "sha256": "3a727434a0984f9b2937ee8b3260889d12c05b302d7a1a1cdd6a25fe01389057",
+              "bytes": 37985
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-02/localbus-a-r04/package-recipe.json",
+              "sha256": "cda1336ba2d5040b0feb97110e91786874ab31c02033df8aa13b974d98448993",
+              "bytes": 9304
+            },
+            "coverage": {
+              "pdf_pages": [
+                156,
+                157,
+                158,
+                159,
+                160,
+                161
+              ],
+              "printed_pages": [
+                null,
+                "155",
+                "156",
+                "157",
+                "158",
+                "159"
+              ],
+              "regions": 59,
+              "blocks": 43,
+              "figures": 8,
+              "deferred_pdf_pages": [
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172
+              ],
+              "remaining_extent_unverified": true
+            },
+            "validation": {
+              "path": "archive/pdf/1993-03/restoration/batch-02/validation.json",
+              "sha256": "0f8d77a87c98397356b29bbd86c68213aa644a43b70f06c34a5ace765ce0fcd6",
+              "bytes": 2001
+            },
+            "reproduction": {
+              "path": "archive/pdf/1993-03/restoration/batch-02/reproduction.json",
+              "sha256": "d5572aee1d1f549101cf34024e38d72bef86e890fe0d34be67b7af1e98576eaf",
+              "bytes": 39050
+            },
+            "checkpoint": "batch-02"
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-03-r01/localbus-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-03-r01/localbus-b/manifest.json",
+              "sha256": "318bb329708a10d8fe0e44d79824e7867fe5aab24568984859a2822149748c6b",
+              "bytes": 33108
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-03/localbus-b-r04/package-recipe.json",
+              "sha256": "d85bacef66d7ee27433435e883c46c1a056dcb657d2ea9ed1299e80e00eea277",
+              "bytes": 7279
+            },
+            "coverage": {
+              "pdf_pages": [
+                162,
+                163,
+                164,
+                165,
+                166,
+                167
+              ],
+              "printed_pages": [
+                "160",
+                "161",
+                "162",
+                "163",
+                "164",
+                "165"
+              ],
+              "regions": 50,
+              "blocks": 37,
+              "figures": 4
+            },
+            "validation": {
+              "path": "archive/pdf/1993-03/restoration/batch-03/validation.json",
+              "sha256": "89f6a732f4d7a4ebbb191fbd9d1b47d4d11fd540892ce18acbbee5aafd32beda",
+              "bytes": 2124
+            },
+            "reproduction": {
+              "path": "archive/pdf/1993-03/restoration/batch-03/reproduction.json",
+              "sha256": "6037a5811ed9fcbea1d1283fa4b6816e9a4157fe2da25173811bc526862444a0",
+              "bytes": 34173
+            },
+            "checkpoint": "batch-03"
+          }
+        ],
+        "incoming_boundary": {
+          "path": "archive/pdf/1993-03/restoration/batch-03/incoming-boundary.json",
+          "sha256": "206f83c592a12062e023596aedddf80c83555ef91298af90c51cf9b873397ef1",
+          "bytes": 1482
+        },
+        "latest_native": "b",
+        "notes": [
+          "directory/manifest still identify immutable native a,not an assembled twelve-page body. Current cumulative coverage is across native_segments a/b;actual whole-feature assembly remains pending."
+        ]
       }
     },
     {
@@ -762,6 +886,39 @@
         "sha256": "d5572aee1d1f549101cf34024e38d72bef86e890fe0d34be67b7af1e98576eaf",
         "bytes": 39050
       }
+    },
+    {
+      "name": "1993-03-batch-03",
+      "status": "complete",
+      "completed_at": "2026-11-01T15:25:13.728519+00:00",
+      "goal": "Preserve feature continuation162–167 as native b,with both original incoming contexts and first/second section boundaries.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0001"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 49,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-03/validation.json",
+        "sha256": "89f6a732f4d7a4ebbb191fbd9d1b47d4d11fd540892ce18acbbee5aafd32beda",
+        "bytes": 2124
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-03/reproduction.json",
+        "sha256": "6037a5811ed9fcbea1d1283fa4b6816e9a4157fe2da25173811bc526862444a0",
+        "bytes": 34173
+      }
     }
   ],
   "totals": {
@@ -777,24 +934,23 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-03",
-    "goal": "Review actual feature0001 continuation162–167 andpreserve a bounded next native,including main160→162 continuation across independent sidebar161.",
+    "name": "1993-03-batch-04",
+    "goal": "Review and preserve final feature section168–172 as native c;verify actual ending and adjoining173 advertisement. Then assemble all three natives separately.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0001"
     ],
     "planned_mapping_candidates": [
-      162,
-      163,
-      164,
-      165,
-      166,
-      167
+      168,
+      169,
+      170,
+      171,
+      172
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Map only after full-page andcrop review. Verify section transitions andoutgoing168 context directly. Final172 observed,butinterveningbody continuity andactual assembly remain required. Childclassifications pending."
+    "note": "Third section opens independently168;no incoming prose join from167. Review complete prose,code/table panels,hardware images andevaluation charts without technical repair. All child dispositions await actual assembled-parent anchors."
   }
 }

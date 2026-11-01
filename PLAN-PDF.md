@@ -29,7 +29,7 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## March 1993 restoration, 2026-11-01
+## March 1993 restoration, 2026-11-02
 
 The full March 1993 issue goal is active. Batch 01 initializes all 52 canonical
 TOC identities and verifies the 433-page source and pinned Tesseract runtime.
@@ -57,8 +57,21 @@ before correction; fifty exact raw/TSV results retain original execution provena
 with zero unchanged-input retries. All revisions remain retained; nine custom-data
 mutations are rejected. All 13,179 earlier reference/package files remain exact.
 
+Batch 03 preserves continuation 162–167 as native b: 196 independent/fresh-process
+exact files, fifty exact crops, 46 selected outcomes, 757 valid ranges and 431
+indexed text rows. Eleven headings, three complete diagrams, nine table cells/
+three headers, 67 diagram-label rows, four numeric labels and eight continuation
+boundaries retain source contexts. Both original incoming 160→162 native contexts
+validate across sidebar 161. Lower 163 recruitment notice is excluded; first/second
+sections end 163/167 with no prose joins into 164/168. Source title 164 adds 내부
+without changing child 0003's canonical title. All twelve pages 156–167 are now
+preserved across a/b. One source pass, 46 initial plus three changed-crop calls,
+43 exact reused raw/TSV outcomes and zero unchanged-input retries. Nine invalid
+custom-data cases are rejected; all 13,399 prior files and thirty core modules
+remain exact. First two intrinsic section bodies are preserved; assembly is pending.
+
 Current totals: one readable article, one partial feature and fifty unresolved
-identities. Batch 03 next reviews actual continuation 162–167 within the 2-task,
+identities. Batch 04 next reviews final section 168–172 within the 2-task,
 6-mapped-page and 20-outside-page limits. No global offset or continuity is inferred.
 Child anchors, remaining bodies/assemblies, full-page accounting, cover and issue
 closeout remain required. See [March progress](docs/progress/9303.md) and the

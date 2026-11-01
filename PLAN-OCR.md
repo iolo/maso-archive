@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-11-01. Read this before future PDF restoration. This is the current
+Updated 2026-11-02. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -40,7 +40,17 @@ observed; unreviewed interior continuity is not claimed. Nine invalid custom-dat
 cases are rejected; all 13,179 prior files and thirty core modules remain exact.
 One readable article, one partial and fifty unresolved identities account for all
 52 entries. The 433-page source is pinned; issue-wide accounting is pending.
-Next: source-review continuation 162–167 within 2/6/20 limits, then later assembly.
+Batch 03 adds 162–167 as native b: 196 independently exact files, fifty exact
+crops, 46 selected outcomes, 757 ranges, three original diagrams and nine table
+cells. One source pass after 46 initial plus three changed-crop recognitions;
+43 unchanged raw/TSV results reused with original execution provenance, zero
+unchanged-input retries. Both original 160→162 native contexts validate across
+sidebar 161. Recruitment notice 163 excluded; sections end 163/167 independently
+of openings 164/168. All twelve pages 156–167 are preserved across a/b; actual
+assembly and child anchors remain pending. All 13,399 prior files/thirty core
+modules are exact; nine invalid custom-data cases rejected. The existing 213-test
+result is retained with unchanged core modules.
+Next: source-review final section 168–172 within 2/6/20 limits, then assembly.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
