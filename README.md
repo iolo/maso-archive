@@ -13,13 +13,14 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: nine readable/sample-reviewed articles, one
-partial, two non-owning groups, three final section references and 37 unresolved
-identities among 52. The puzzle article is preserved on PDF 222–233 across two
-immutable natives/330 files; final 234–236 and actual fifteen-page assembly are
-next. Eleven selected native/assembly packages across ten body owners contain
-3,306 files. Remaining bodies, 433-page accounting, cover and issue closeout are
-pending. See [March progress](docs/progress/9303.md). No reader rebuild.
+March 1993 restoration is active: ten readable/sample-reviewed articles, two
+non-owning groups, three final section references and 37 unresolved identities
+among 52; no partial remains at this checkpoint. The complete fifteen-page puzzle
+article on PDF 222–236 has 378 independently/fresh-process exact files, including
+all 1,415 numbered listing rows. Ten current body-owner packages contain 3,354 files.
+Next: verify the Turbo C article's extent from PDF 238/printed 236 and restore a
+bounded opening. Remaining bodies, 433-page accounting, cover and issue closeout
+are pending. See [March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

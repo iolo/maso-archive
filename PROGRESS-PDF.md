@@ -6,35 +6,39 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: nine readable/sample-reviewed articles, one partial,
+March 1993 is in progress: ten readable/sample-reviewed articles, no partials,
 two non-owning groups, three final section references and 37 unresolved identities
 among 52.
 
-Batch 19 preserves puzzle-game listing 1 on PDF 228–233/printed 226–231 as a
-69-file middle native. Independent and fresh-process exports match. All 24 exact
-crops, twelve outcomes, 17,555 typed range occurrences and 913 physical rows
-validate. All 883 numbered rows 0188–1070 retain their four-digit number/colon
-columns, 21 blank numbered rows and thirty unnumbered physical continuations.
-Twelve original panels have null captions. Forty-one function headers, table[4]
-and KJS[8]'s twelve explicit values, two union fields, eight case labels and 31
-macro-glyph occurrences retain their own source contexts. The wrapped string 0287,
-blank payloads 1017/1031 followed by getimage wraps, numbered 0620/0621 fragments,
-PLT/PUT and X/N candidates, RED::BLUE, divisior and message variants stay literal;
-no code repair or execution. Both original native contexts at 0187→0188 validate
-without claiming an actual assembly. All twelve initial English drafts read before
-one source pass; two pre-OCR margin events on one region and zero retries or
-within/post-pass source changes. Fifteen rehashed native and two ownership cases
-are rejected. All 20,174 prior files and thirty core modules remain exact; earlier
-fresh 213-test evidence retained. Opening and middle now preserve 222–233 across
-two natives/330 files; actual fifteen-page assembly and final 234–236 remain pending.
-Eleven selected native/assembly packages across ten body owners contain 3,306 files.
+Batch 20 preserves final puzzle-game PDF 234–236 as a 39-file native, then
+actually assembles the full fifteen-page article, 222–236. The 378-file assembly
+reproduces from three independently regenerated natives/369 files and in a fresh
+process. All 114 exact crops, 76 outcomes, 29,757 metadata projections, 60,940 current
+range occurrences/60,832 source occurrences and 1,816 reading rows validate.
+Nine code contexts retain eight illustrative fragments and listing 1. All 1,415
+numbered rows preserve four-digit number/colon columns, 37 blank numbered rows and
+43 physical wraps; original 0187→0188 and 1070→1071 contexts remain without prose
+merges. Thirty-eight original images retain three diagrams, 32 code panels,
+category/series artwork and ending ornament; four captions are literal text,
+34 are null. Twelve grid cells, 42 diagram labels, 49 explicit pairs/98 cells and
+twelve table/KJS values remain indexed. All 59 function occurrences, 16 key cases,
+eight sound cases and source variants retain their contexts. Two wrapped strings
+and 115 complete quoted occurrences remain literal; no code repair or execution.
+Final native adds six initial English calls, one source pass and zero crop changes,
+retries or within/post-pass changes. Twelve rehashed root, six native and two
+ownership cases reject. All 20,243 prior files and thirty core modules remain
+exact; earlier fresh 213-test evidence retained. Main prose ends 226; listing ends
+236 at 1415 above an excluded book advertisement. Folios 220–234 are individually
+observed across the article; 237 is advertising and 238 opens the distinct Turbo C
+article. Original native partial/deferred scopes remain historical.
+Ten current body-owner packages contain 3,354 files.
 
-Next: Batch 20 restores final puzzle-game listing pages 234–236, then actually
-assembles the complete fifteen-page article 222–236 from independently regenerated
-opening, middle and final natives. Current 233 ends at 1070; final listing ends
-236 at 1415 before independent advertising. Preserve all separate example contexts,
-printed number/colon columns, blank rows, physical wraps and source candidates.
-No code repair, execution or reader rebuild.
+Next: Batch 21 verifies the actual extent and ending of canonical 0016, 터보 C2.0의
+스타트 코드 활용(1) : 터보 C와 메모리 구조, by 이정환, then restores up to six
+confirmed opening pages. PDF 238/printed 236 is observed; provisional targets are
+238–243. The following Unix article's canonical reference 248 is a location lead;
+it does not establish the Turbo C ending or a global folio offset. Confirm ownership
+before mapping. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).

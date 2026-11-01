@@ -1442,26 +1442,25 @@
       "parent_id": "maso-1993-03-toc-0012",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical title, 김정석 byline, parent0012 and contents reference220 remain unchanged. Actual15page extent222–236 observed; mainends226 andlisting1ends236at1415 beforeindependentadvertising. Currentfolios220–231 individually observed across two natives;no globaloffset inferred.",
-        "Current cumulative222–233 coverage is preserved in separate immutable natives a/b,261+69=330files. Opening directory/manifest identifies a only; actualarticleassembly remains pending. Final234–236 deferred; availability remains partial.",
-        "Opening a retains78crops/58outcomes,20images/nine independentcodecontexts,187numberedrows andone physicalwrap. Middle b adds24crops/12outcomes,12originalpanels,883numberedrows and30wraps. Currentmainlisting0001–1070 preserves28blanknumberedrows and31wraps across both natives.",
-        "Middle69files reproduce independently/freshprocess;24crops exactsourcepixels;17555typedranges,913physicalrows,7672codetokens,47commentrows,69completequotedoccurrences andonewrappedstring validate. All12continuationpanel captions null.",
-        "Middle41functionheaders,table4/KJS8explicitvalues,uniontwofields,eightcase labels and31macro-glyphoccurrences retain sourcecontexts. PLT/PUT,X/N,RED::BLUE,divisior,message variants andsource defects remain literal candidates;no code repair/execution.",
-        "Twelve initialEnglishdrafts allread before one sourcepass. Two preOCRmargin events onone region;zero retries orwithin/postpasssourcechanges.15rehashednative and2ownershipcases rejected;actualcanonicalfixture passes.",
-        "All20174priorfiles/30core/source/TOC/queue/runtime pins exact;priorfresh213testlog retained. Both originalnative187→188 sourcecontexts validate without claimingactualassembly. No readerwork."
+        "Canonical title,김정석 byline,parent0012 andcontentsreference220 unchanged. Actualbody222–236 nowassembled,folios220–234 individuallyobserved. Mainends226;listingends236at1415 aboveexcludedbookad;237ad and238distinctTurboCopener.",
+        "378exactfiles fromthree independently regenerated natives/369files andfresh-process rebuild.114exactsourcecrops,76outcomes,29757metadata projections,60940currenttypedrangeoccurrences/60832sourceoccurrences and1816readingrows validate.",
+        "Ninecodecontexts retainallocation,time,algorithm,PCXheader,boarddefinition/attributes/reset/shuffle examples andmainlisting1.1586physicalcoderows;1415numberedmainrows include37blanknumberedrows/43unnumberedwraps.187→188 and1070→1071 boundaries exact;no prosemerge.",
+        "38originalimages,4literalcaptions/34null,32codepanels,12diagramcells/42labels and49explicitpairs/98cells plus12table/KJSvalues retain sourcecontexts.115completequotedoccurrences andtwo wrappedstrings retain originalphysicalfragments.",
+        "Final6Englishinitialdrafts readbeforeone sourcepass;zero cropchanges orrecognitionretries/within/postpasssourcechanges. Allnativebytes/metadata remainimmutable;currentroot explicitlyresolves historicalpartialcoverage.",
+        "12root/6native/2ownership cases reject;actualcanonicalfixture passes.20243priorfiles/30core/source/TOC/queue/runtime exact;priorfresh213testlog retained. Originalglyph/space/encodedbyte/humanacceptance/execution limits remain."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-18-r02/puzzle-a",
+        "directory": "archive/pdf/1993-03/packages/puzzle-r01",
         "article_id": "scan-maso-1993-03-toc-0015",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-18-r02/puzzle-a/manifest.json",
-          "sha256": "53457adf3df919a32f58e18da14479a8a4891583e675342983c0b63579431782",
-          "bytes": 44558
+          "path": "archive/pdf/1993-03/packages/puzzle-r01/manifest.json",
+          "sha256": "ed97f2a9ba20d4888ed4831c6eb7d992922259ae45017f71d531cc101df15229",
+          "bytes": 68533
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -1476,7 +1475,10 @@
             230,
             231,
             232,
-            233
+            233,
+            234,
+            235,
+            236
           ],
           "printed_pages": [
             "220",
@@ -1490,69 +1492,34 @@
             "228",
             "229",
             "230",
-            "231"
+            "231",
+            "232",
+            "233",
+            "234"
           ],
-          "regions": 102,
-          "blocks": 70,
-          "figures": 32,
-          "deferred_pdf_pages": [
-            234,
-            235,
-            236
-          ],
+          "regions": 114,
+          "blocks": 76,
+          "figures": 38,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 236,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-18/validation-complete.json",
-          "sha256": "5704d694d59950b72a85fa9f2016b9fad0b8432b4a410548bab405c007bb35be",
-          "bytes": 2052
+          "path": "archive/pdf/1993-03/restoration/batch-20/validation-complete.json",
+          "sha256": "6b666bad933e1deadce384571be214bc4f7b50876860efeb58a6154ab4bd30d7",
+          "bytes": 2610
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-18/native-reproduction-r02.json",
-          "sha256": "ba79bbec7d4cf965eb44cb023e1a1ff7827c5383cd07e7d8c7a28a24464a7f31",
-          "bytes": 45060
+          "path": "archive/pdf/1993-03/restoration/batch-20/reproduction.json",
+          "sha256": "20df10f5e4ed7cdd696ed1c5ab32024eaef02cf0738e46b609dd1dc1e99ac103",
+          "bytes": 69996
         },
-        "checkpoint": "batch-18",
-        "full_source_extent": {
-          "start_pdf_page": 222,
-          "end_pdf_page": 236,
-          "uninspected_interior_pdf_pages": [],
-          "source_observations": {
-            "path": "archive/pdf/1993-03/restoration/batch-18/source-reviewed.json",
-            "sha256": "24e1df892961b857949691a206d2d91b35c9b30d9869d4f8f6ba7de771381c4d",
-            "bytes": 2702
-          },
-          "note": "All15 bodypages observed. Mainprose closes226;listing1 starts226 andends236row1415 above separatebookadvertisement.237independentad;238distinctTurboC openerprinted236.221independentcomicadvertisement.239prepared butnotreviewed. No globalfoliooffset inferred."
-        },
-        "source_listing_scope": {
-          "current_numbered_rows": 1070,
-          "current_physical_rows": 1101,
-          "blank_numbered_rows": 28,
-          "unnumbered_wraps": 31,
-          "first_printed_number": "0001",
-          "last_printed_number": "1070",
-          "actual_final_printed_number": "1415",
-          "printed_number_columns_retained": true,
-          "source_program_execution_verified": false
-        },
-        "notes": [
-          "Selected261-file r02opening222–227 reproduces independently and in a freshprocess. Remaining228–236 andactual15pageassembly required.",
-          "Twenty originalimages retaincategory/seriesart,threediagrams,endingornament and14codepanels. Fourcaptionassociations have literaltext;other16null. Twelvegridcells,42diagramlabels,49explicitinitializerpairs/98cells preserve exactsourcecontexts.",
-          "Nine independentcodecontexts contain316physicalrows. Mainlisting1 has187fourdigitnumber/colonrows,sevenblanknumberedrows andone unnumberedstringwrap175. No sourceprogramrepair/execution.",
-          "Nine structcontexts/47fieldgroups,10definitioncandidates/oneprototype,fourclosingcontributors andoneHitelcontact retain exactranges. PCXexample/listingcase,typedef,scanerfieldlayout,temp/unused54 differences remainliteral.",
-          "All58drafts read before one sourcepass. SevenpreOCRmargin events acrossfiveregions;58initialcalls14eng/44kor+eng,zero retries orwithin/postpasschanges.",
-          "Metadata r02 removesKoreanidentifierGAME초기화 fromcommentindex andadds explicitcallcandidate/contributor/contactindexes. OnlyfourJSONfiles differfromretainedr01;transcript/assets/rawZIP exact.",
-          "Source syntax defects,attribute2 proseversusdiagram1,타켓/쉽상/스몰 모드,missingpicdeclarationcommas andsourceglyph/case/punctuationcandidates retained. Originalencodedbytes/fullproofreading/humanacceptance unverified.",
-          "Batch19 adds middle228–233 as a69-file immutable native. Cumulative coverage222–233 is across native_segments a/b,330files,not an actual assembled12page article. directory/manifest and original validation/reproduction still identify openingnative a.",
-          "Middle has24exactcrops,12outcomes,17555typedrangeoccurrences,913physicalrows/883numberedrows,21blanknumberedrows and30physicalwraps. Both incoming187→188 sourcecontexts verified without actualassembly. Final234–236 andactual15pageassembly remain.",
-          "All12drafts read before one sourcepass. Two preOCRmargin events on233right;12initialEnglishcalls,zero retries orwithin/postpasssourcechanges. 15rehashednative and2ownership cases reject;20174priorfiles/30coremodules remainexact."
-        ],
-        "native_segments": [
+        "checkpoint": "batch-20",
+        "source_native_segments": [
           {
             "name": "a",
             "directory": "archive/pdf/1993-03/packages/batch-18-r02/puzzle-a",
@@ -1565,51 +1532,7 @@
               "path": "archive/pdf/1993-03/restoration/batch-18/puzzle-a-r03/package-recipe-r02.json",
               "sha256": "3bd7e037311389d2fff75afc9cd6c5c1086491d8466616cae2dc394353f77a76",
               "bytes": 14163
-            },
-            "coverage": {
-              "pdf_pages": [
-                222,
-                223,
-                224,
-                225,
-                226,
-                227
-              ],
-              "printed_pages": [
-                "220",
-                "221",
-                "222",
-                "223",
-                "224",
-                "225"
-              ],
-              "regions": 78,
-              "blocks": 58,
-              "figures": 20,
-              "deferred_pdf_pages": [
-                228,
-                229,
-                230,
-                231,
-                232,
-                233,
-                234,
-                235,
-                236
-              ],
-              "remaining_extent_unverified": false
-            },
-            "validation": {
-              "path": "archive/pdf/1993-03/restoration/batch-18/validation-complete.json",
-              "sha256": "5704d694d59950b72a85fa9f2016b9fad0b8432b4a410548bab405c007bb35be",
-              "bytes": 2052
-            },
-            "reproduction": {
-              "path": "archive/pdf/1993-03/restoration/batch-18/native-reproduction-r02.json",
-              "sha256": "ba79bbec7d4cf965eb44cb023e1a1ff7827c5383cd07e7d8c7a28a24464a7f31",
-              "bytes": 45060
-            },
-            "checkpoint": "batch-18"
+            }
           },
           {
             "name": "b",
@@ -1623,59 +1546,53 @@
               "path": "archive/pdf/1993-03/restoration/batch-19/puzzle-b-r03/package-recipe.json",
               "sha256": "57ddef3dc1b7e009be4f4c02b21788279a0759d4976b339d1f8e9bcf51b4ef51",
               "bytes": 7749
+            }
+          },
+          {
+            "name": "c",
+            "directory": "archive/pdf/1993-03/packages/batch-20-r01/puzzle-c",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-20-r01/puzzle-c/manifest.json",
+              "sha256": "ff186e4fe4a2bfc7d572aca1b6548d0d9a6b28f95b1d7c06f64132211fe19891",
+              "bytes": 6684
             },
-            "coverage": {
-              "pdf_pages": [
-                228,
-                229,
-                230,
-                231,
-                232,
-                233
-              ],
-              "printed_pages": [
-                "226",
-                "227",
-                "228",
-                "229",
-                "230",
-                "231"
-              ],
-              "regions": 24,
-              "blocks": 12,
-              "figures": 12,
-              "deferred_pdf_pages": [
-                234,
-                235,
-                236
-              ],
-              "remaining_extent_unverified": false
-            },
-            "validation": {
-              "path": "archive/pdf/1993-03/restoration/batch-19/validation-complete.json",
-              "sha256": "c0bbdfcac427968853db15c195e36de714c7e260c67576a4e9e2c63c34edab4c",
-              "bytes": 2285
-            },
-            "reproduction": {
-              "path": "archive/pdf/1993-03/restoration/batch-19/native-reproduction.json",
-              "sha256": "504d41431b6aee4a053c04139662167403a514aec8d1194a6ac459f2a574eb96",
-              "bytes": 12505
-            },
-            "checkpoint": "batch-19"
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-20/puzzle-c/package-recipe.json",
+              "sha256": "13d94ff22a190ec96827cb555c8662227b2647ebde1e29f1be310fbe75277693",
+              "bytes": 4519
+            }
           }
         ],
-        "incoming_boundary": {
-          "path": "archive/pdf/1993-03/restoration/batch-19/incoming-boundary.json",
-          "sha256": "a8476321e11f307327008228bbce23a22b026bcf27028631f961c8b87460df85",
-          "bytes": 3121
+        "full_source_extent": {
+          "start_pdf_page": 222,
+          "end_pdf_page": 236,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-20/source-reviewed.json",
+            "sha256": "99fb1bb1e5d12e1c8507dc6f6b23f0f1514b4ba35b6cc6ff4c20ace09beb3733",
+            "bytes": 1778
+          },
+          "note": "All15bodypages actuallyassembled fromindependently regenerated a/b/c. Proseends226;listing1ends236at1415 beforeindependentbookad. Folios220–234 individuallyobserved acrosssourcecheckpoints;237ad and238TurboCopener confirmboundary. No globaloffset inferred."
         },
-        "latest_native": "b",
-        "latest_native_validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-19/validation-complete.json",
-          "sha256": "c0bbdfcac427968853db15c195e36de714c7e260c67576a4e9e2c63c34edab4c",
-          "bytes": 2285
+        "source_listing_scope": {
+          "numbered_rows": 1415,
+          "physical_rows": 1458,
+          "blank_numbered_rows": 37,
+          "unnumbered_wraps": 43,
+          "first_printed_number": "0001",
+          "last_printed_number": "1415",
+          "printed_number_columns_retained": true,
+          "source_program_execution_verified": false
         },
-        "current_native_files": 330
+        "notes": [
+          "378-file actual15pageassembly consumes three independently regenerated natives/369files and reproduces in a freshprocess. All76 originalblocks,114crops andnative text/assets/metadata remainexact. Originalnativepartial scopes arehistorical.",
+          "Nine independentcodecontexts contain1586physicalrows:128illustrativeexample rows and1458mainlistingrows. Mainlisting1415numberedrows includes37blanknumberedrows and43physicalwraps;crossnative187→188/1070→1071 preserve exactbytes withoutprosemerges.",
+          "38originalimages retainthree diagrams,32codepanels,category/seriesart andendingornament.4literalprintedcaptions;34null.12gridcells,42diagramlabels,49explicitpairs/98cells plus12table/KJSvalues remainexplicit.",
+          "29757metadata projections,60940currentrangeoccurrences/60832explicit sourceoccurrences and1816readingrows validate.699safeexact ZIPmembers acrossroot/three natives;all20243priorfiles/30core modules/source/TOC/queue/runtime exact.",
+          "Finalnative39files/12crops/6outcomes adds345numberedrows/357physicalrows,9blanknumberedrows and12wraps. SixinitialEnglishdrafts readbeforeone sourcepass;zero cropchanges,retries orwithin/postpasssourcechanges.",
+          "59functionoccurrences retain10openingdefinitioncandidates/oneprototype and48middle/finaldefinitionheaders.16keycases,eightsoundcases,ninestructcontexts andtwo unionfields retain sourcecontexts. SourcePLT/PUT,X/N,1/l,UP/Up,RED::BLUE,divisior,messagevariants andprogramdefects stayliteral.",
+          "12rehashedroot,6native and2ownershipcases reject. Priorfresh213testlog retained withunchangedcore. Fullproofreading,humanacceptance,originalglyphs/spaces/encodedbytes andcodeexecution remainunverified. Use batch20/puzzle_adapter.py withfrozenadapter-inputs.json;retainedaudit audit.py --retained-only."
+        ]
       }
     },
     {
@@ -2750,12 +2667,45 @@
         "sha256": "504d41431b6aee4a053c04139662167403a514aec8d1194a6ac459f2a574eb96",
         "bytes": 12505
       }
+    },
+    {
+      "name": "1993-03-batch-20",
+      "status": "complete",
+      "completed_at": "2026-11-01T22:50:19.088978+00:00",
+      "goal": "Preserve final puzzle234–236 andactually assemblecomplete15pagearticle222–236 from three independently regenerated immutable natives.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0015"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        234,
+        235,
+        236
+      ],
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 6,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 0,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-20/validation-complete.json",
+        "sha256": "6b666bad933e1deadce384571be214bc4f7b50876860efeb58a6154ab4bd30d7",
+        "bytes": 2610
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-20/reproduction.json",
+        "sha256": "20df10f5e4ed7cdd696ed1c5ab32024eaef02cf0738e46b609dd1dc1e99ac103",
+        "bytes": 69996
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 9,
-    "partial": 1,
+    "readable": 10,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 37
@@ -2766,31 +2716,41 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-20",
-    "goal": "Restore final puzzle-game listing1 on234–236 and actually assemble complete15page article222–236 from independently regenerated immutable natives.",
+    "name": "1993-03-batch-21",
+    "goal": "Verify actualTurboC article0016 extent/ending fromobserved opener238/printed236,then restore up tosix confirmed openingbodypages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0015"
+      "maso-1993-03-toc-0016"
     ],
-    "canonical_page_reference": 220,
-    "mapping_targets": [
-      234,
-      235,
-      236
+    "canonical_page_reference": 236,
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      238,
+      239,
+      240,
+      241,
+      242,
+      243
     ],
     "planned_outside_lookup_pdf_pages": [
-      222,
-      226,
-      227,
-      233,
       237,
-      238
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Opening a222–227 andmiddle b228–233 are preserved independently;do not replace a withb orclaimcumulativecoverage asactualassembly. Currentlastrow1070 on233;234 starts1071. Final236 ends1415 beforeindependentbookadvertisement;237ad and238TurboC opener. Preserve alloriginalcode/examplecontexts,4digitnumber/coloncolumns,blankrows,wraps,glyphcandidates andexplicitvalues. Actualassembly mustconsume independentlyregenerated a/b/c with correctsource/current metadata andno code repair orreaderrebuild."
+    "note": "Canonicaltitle 터보 C2.0의 스타트 코드 활용(1) : 터보 C와 메모리 구조,by이정환. Source238opener/folio236 directlyobserved. FollowingUnix canonicalreference248 isonlya locationlead;neitherit norPDF250 establishesTurboC ending orglobaloffset. Confirmactualownership beforemapping. Preserve originalillustrations/code andsourcecandidates;no readerrebuild."
   },
   "final_issue_classification_evidence_required": [
     {
