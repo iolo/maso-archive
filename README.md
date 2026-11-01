@@ -13,17 +13,16 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: twenty-six readable/sample-reviewed articles,
-one partial, seven non-owning group headings, three section references and eight unresolved
-identities. Batch 57 completes the reader quiz on PDF 142–143 and January contents notice
-on 144–145. Three exports match for each package: 385 files, 108 exact crops and 1,036
-validated ranges. Sixteen prize captions, 87 historical winner rows, twelve editorial
-previews, two promotional notices and the page-crossing prose join remain source-linked.
-Twenty-seven roots contain 12,323 selected files; sixteen classification files are separate.
-Next: locate and verify the reader Q&A body. Remaining bodies, issue accounting, cover,
-standalone issue export/rebuild and closeout are pending. Source glyph candidates and
-historical/technical claims remain unverified. See the [December record](docs/progress/9212.md).
-No reader rebuild.
+December 1992 restoration is in progress: twenty-seven readable/sample-reviewed articles,
+one partial, seven non-owning group headings, three section references and seven unresolved
+identities. Batch 58 completes reader Q&A on PDF 419–424/printed 444–449. Three exports
+match across 387 files, 99 source-exact crops and 1,107 validated ranges. Fourteen exchanges,
+three editorial notices, original figures, commands and physical wraps remain source-linked.
+Twenty-eight roots contain 12,710 selected files; sixteen classification files are separate.
+Next: verify and restore reader voices from its confirmed PDF 425/printed 450 opening.
+Remaining bodies, issue accounting, cover, standalone export/rebuild and closeout are pending.
+Source glyph candidates and historical/technical claims remain unverified. See the
+[December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

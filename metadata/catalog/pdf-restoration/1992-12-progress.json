@@ -5484,12 +5484,89 @@
       "toc_entry_id": "maso-1992-12-toc-0037",
       "title": "물어보세요",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 58 directly reviews twelve whole source pages: contents 4/5, prior technical page 416/441, independent advertisements 417/418, all Q&A body pages 419–424 with individually read folios 444–449, and independent reader voices 425/450. Q&A ends on 424 with a closing M and final editorial panel. Canonical title, null parent and reference 444 remain unchanged. The two intrinsic section headings and technical running headers do not create canonical children. Fourteen reader credits are contributors; no article byline is inferred.",
+        "Three 387-file exports match byte for byte, including a fresh process. All 99 source-exact crops, 93 selected OCR outcomes, 77 blocks, six original figures, 613 physical reading rows and 1,107 typed ranges validate. Two intrinsic sections contain six and eight exchanges. All fourteen questions, reader credits and answers are explicitly associated. Large Q/A initials remain graphic markers outside prose rows. The extended WIPE question crop includes incidental credit ink; the credit is transcribed separately once.",
+        "Thirteen prose joins retain sixteen boundaries, four across pages. Physical me-/mbrane, membr-/ane, Com/mand, Pap/er, Inter/ace, CON/FIG, CO/NFIG, WI/PEDISK, WIP/EINFO, FD/D, MIPS/율, DW/G, Piza/zz, Scre/en and H/iJaak wraps remain literal. Physical order and coherent per-exchange order are separately indexed, including the intervening FDD panel. Original keyboard pair/caption, opening art, command legend, configuration image and both shaded editorial panels remain intact.",
+        "Four MNP entries retain AT%C1, AT\\J0, AT\\N3 and AT\\Q1 candidates with Korean explanations; each relevant candidate has one ASCII backslash. Configuration retains exactly two physical rows: [386 Enh] and EMMEXCLUDE=A000-CFFF. Two slanted separators retain independent grave-accent/backslash candidates and alternatives, without inferred encoded delimiter or executable syntax. Tiny leading B4-credit ink remains uncertain punctuation. Seventeen source variants and 86 opaque numeric occurrences remain indexed.",
+        "Printed 닮아버리면, Interace/non-Interace, 스케쥴링, MIPS율, 워스테이션, 깨끗히 and SYSTEM. INI remain literal. Keyboard history, interlace timing/resolution, CD capacity, Windows percentages, CMOS procedures, wipe recovery claims, MIPS values and FDD hardware claims remain historical text with unverified technical truth. Three ancillary notices retain unresolved FDD installation problems, a future format announcement and a reader contribution invitation; installation and future publication are not verified.",
+        "All 99 initial crops on 27 sheets were reviewed before recognition. Fourteen pre-OCR edge changes affect eleven distinct crops; all changed full crops were reviewed individually, and 88 initial crops remain exact. Clipped contact-sheet display tiles are retained and superseded by complete individual crop review. All 93 complete raw drafts were read in two untruncated outputs before one literal source pass. Eight enlarged source-only details were viewed without OCR. Zero retries and zero within-pass map changes. Prospective stage wall times include orchestration and latency; they do not measure isolated manual throughput.",
+        "All 69,294 prior December files, 12,323 former selected files across 27 roots, sixteen classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact. Twenty-six consistently rehashed custom-metadata edits pass generic integrity and fail frozen private audits; no generic custom-schema claim. The unchanged 213-test baseline is reused. Original glyphs/spacing/encoded bytes, original software/file recovery, execution, historical/technical truth, human acceptance and full proofreading remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-58-r01/qa",
+        "article_id": "scan-maso-1992-12-toc-0037",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-58-r01/qa/manifest.json",
+          "sha256": "967b2bea92ff989f2dd6b2e7f4c6b1eb22c62d22658b8efbe7ed70a56496ee16",
+          "bytes": 67209
+        },
+        "coverage": {
+          "pdf_pages": [
+            419,
+            420,
+            421,
+            422,
+            423,
+            424
+          ],
+          "printed_pages": [
+            "444",
+            "445",
+            "446",
+            "447",
+            "448",
+            "449"
+          ],
+          "regions": 99,
+          "blocks": 77,
+          "figures": 6,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "note": "Complete six-page Q&A with two intrinsic sections, fourteen exchanges and three ancillary editorial notices. Independent reader voices starts on 425/450; no remaining Q&A body or assembly is required."
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 419,
+        "actual_end_pdf_page": 424,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-58/validation.json",
+          "sha256": "bf87903a3c5c4362df9e8a172396e50edbad8eb1a4e02a202cd4bf84c768f851",
+          "bytes": 1899
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-58/reproduction.json",
+          "sha256": "3d4de65c20faa76881c5768bb1b87a2a88d1fea3f2fe98f6125681eb4becbee7",
+          "bytes": 67665
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-58/fresh-process-reproduction.json",
+          "sha256": "7e2a029646c3862527f7550ce5c1021d48c3f4099c83c559f65eb6e78e962ccc",
+          "bytes": 67406
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-58/negative-checks.json",
+          "sha256": "d9cca9fa6ede0266a3a41f5207e91c5eef20dc9bc4dc00892255545af98f0620",
+          "bytes": 4795
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-58/source-boundaries.json",
+          "sha256": "37eff4b8de4df40f75d4da0640ef6d6887f781454608666dc67ec74c4b82f4b2",
+          "bytes": 663
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-58/qa-r03/package-recipe.json",
+          "sha256": "0afdd9a8a898aa9b896609343408aedd718db702ea87165ceba808a963a3f82b",
+          "bytes": 11777
+        },
+        "checkpoint": "batch-58"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0038",
@@ -8660,15 +8737,80 @@
         "sha256": "3be5c2f1b8a4791e3ac3b702ce867e08e5e88afdcef82fcea3b64abfd2f10dfd",
         "bytes": 5481
       }
+    },
+    {
+      "name": "1992-12-batch-58",
+      "status": "complete",
+      "completed_at": "2026-11-01T09:14:27.744824+00:00",
+      "goal": "Restore complete Q&A 0037 on PDF 419–424 after verifying its extent and ownership.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0037"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424
+      ],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        416,
+        417,
+        418,
+        425
+      ],
+      "recognition_invocations": 93,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 14,
+      "pre_ocr_distinct_changed_crops": 11,
+      "within_pass_crop_repairs": 0,
+      "source_only_details": 8,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-58/validation.json",
+        "sha256": "bf87903a3c5c4362df9e8a172396e50edbad8eb1a4e02a202cd4bf84c768f851",
+        "bytes": 1899
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-58/reproduction.json",
+        "sha256": "3d4de65c20faa76881c5768bb1b87a2a88d1fea3f2fe98f6125681eb4becbee7",
+        "bytes": 67665
+      },
+      "fresh_process_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-58/fresh-process-reproduction.json",
+        "sha256": "7e2a029646c3862527f7550ce5c1021d48c3f4099c83c559f65eb6e78e962ccc",
+        "bytes": 67406
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-58/source-boundaries.json",
+        "sha256": "37eff4b8de4df40f75d4da0640ef6d6887f781454608666dc67ec74c4b82f4b2",
+        "bytes": 663
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-58/negative-checks.json",
+        "sha256": "d9cca9fa6ede0266a3a41f5207e91c5eef20dc9bc4dc00892255545af98f0620",
+        "bytes": 4795
+      },
+      "timings": {
+        "path": "archive/pdf/1992-12/restoration/batch-58/prospective-timings.json",
+        "sha256": "1851b9bb20507e6e60833297a6b65985317e1fcad7d75ba6e6d26a5a68964c55",
+        "bytes": 441
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 26,
+    "readable": 27,
     "partial": 1,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 8
+    "unresolved": 7
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -8676,35 +8818,34 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-58",
-    "goal": "Locate and verify reader Q&A 0037 opening, extent, folios and ending; restore at most six confirmed body pages.",
+    "name": "1992-12-batch-59",
+    "goal": "Verify and restore reader voices 0038 from its observed opening on PDF 425/printed 450; confirm extent and ending before mapping.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0037"
+      "maso-1992-12-toc-0038"
     ],
     "candidate_mapping_targets": [
-      419,
-      420,
-      421,
-      422,
-      423,
-      424
+      425,
+      426,
+      427,
+      428,
+      429,
+      430
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
       4,
       5,
-      416,
-      417,
-      418,
-      425,
-      426
+      424,
+      431,
+      432,
+      433
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Canonical Q&A reference 444 is only a starting clue; PDF 419 is a candidate, not a verified location or global offset. Independently read source folios and adjacent titles before mapping. Confirm whether ads or other bodies intervene after printer-eject page 416/441; reuse exact retained whole views where available. Preserve every question/answer, diagram, listing, command, physical wrap and literal historical technical claim with source uncertainty. Segment any body longer than six pages and assemble later; do not advance reader voices 0038 or other identities without source ownership evidence. Totals: 26 readable, one partial, seven groups, three references and eight unresolved identities; 27 selected roots/12323 files and sixteen classification files separate. Year-feature continuation/child references, UNIX locations, remaining reader bodies, all 446-page accounting, cover, standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
+    "note": "Reader voices opens on PDF 425/individually read printed 450 with an independent title, original photo and multiple credited letters. Only the opening is confirmed. Verify adjacent titles, all letter continuations, signatures and advertisement boundaries before mapping at most six pages. Segment any longer body and assemble separately. Preserve historical opinions, product claims, names/localities, physical wraps and glyph candidates without inferring current identity or technical truth. Totals: 27 readable, one partial, seven groups, three references and seven unresolved identities; 28 selected roots/12,710 files and sixteen classifications separate. Year-feature continuation/child references, UNIX locations, remaining reader bodies, all 446-page accounting, cover, standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Twenty-six readable/sample-reviewed articles, one partial, seven non-owning group headings,
-three section references and eight unresolved identities account for 45 canonical entries. All 94 independent
+Twenty-seven readable/sample-reviewed articles, one partial, seven non-owning group headings,
+three section references and seven unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -1348,6 +1348,56 @@ Segment any longer body and assemble separately. Reader voices and other unresol
 identities do not advance from proximity alone. Year-feature continuation/child references,
 UNIX locations, remaining reader bodies, all 446-page accounting, cover, standalone
 issue export/rebuild and closeout remain required. No reader rebuild.
+
+Batch 58 completes canonical Q&A 0037, 물어보세요, on PDF 419–424 with individually
+read printed folios 444–449. Twelve whole pages establish the body, prior advertisements,
+contents identity and independent reader-voices opening on 425/450. Canonical identity,
+null parent and reference 444 stay unchanged; reader credits are contributors, not an
+invented article byline. No assembly remains for this six-page body.
+
+Three 387-file JSON/assets exports match byte for byte, including a fresh process.
+All 99 source-exact crops, 93 selected OCR outcomes, 77 blocks, six original figures,
+613 physical reading rows and 1,107 typed ranges validate. Two intrinsic sections retain
+fourteen question/answer exchanges and their fourteen credits. Twenty-eight graphic Q/A
+markers stay outside prose rows. Three ancillary editorial notices remain distinct.
+Thirteen prose joins preserve sixteen boundaries, four across pages, with physical
+wraps, intervening FDD panel and coherent per-exchange order explicitly indexed.
+
+Four MNP command entries retain their literal candidates, each relevant token with one
+ASCII backslash. The configuration fragment has exactly two rows, [386 Enh] and
+EMMEXCLUDE=A000-CFFF. Two slanted separator occurrences retain independent glyph
+candidates and alternatives. Seventeen source variants and 86 numeric occurrences remain
+source-linked. Printed Interace, SYSTEM. INI, spelling variants and technical claims
+are preserved without repair, original encoded-byte certification or execution.
+
+Fourteen pre-OCR edge-change events affect eleven distinct crops; 88 selected crops
+still equal initial crops. All 99 initial crops and every changed full crop were viewed
+before recognition. Clipped contact-sheet display tiles remain retained and were
+superseded by individual full-crop review. All 93 complete raw drafts were read before
+one literal source pass. Eight source-only enlargements were viewed without OCR.
+Zero retries or within-pass map changes. Prospective stage wall times include tool
+latency and orchestration; they do not measure isolated manual throughput.
+
+Twenty-six consistently rehashed custom-metadata edits pass generic integrity and fail
+frozen private source/index audits; no generic custom-schema claim. All 69,294 prior
+December files, 12,323 former selected files across 27 roots, sixteen classifications,
+9,332 September files and thirty core/source/runtime/TOC/queue pins remain exact.
+The unchanged 213-test baseline is reused. Original files, encoded glyphs/spacing,
+technical/historical truth, execution, human acceptance and full proofreading remain
+unverified.
+
+Only 0037 advances. Totals: twenty-seven readable/sample-reviewed articles, one partial,
+seven group headings, three section references and seven unresolved identities among 45.
+Twenty-eight selected roots contain 12,710 files; sixteen classifications remain separate.
+The full December objective remains active.
+
+Next checkpoint 59 verifies reader voices 0038 from its observed PDF 425/printed 450
+opening. Confirm actual ending, letter continuations, signatures, adjacent titles and
+advertisement boundaries before mapping at most six pages. Candidate 425–430 is not a
+verified extent; segment any longer body and assemble separately. Keep at most two
+canonical tasks and twenty outside lookup pages. Year-feature continuation/child
+references, UNIX locations, remaining reader bodies, all 446-page accounting, cover,
+standalone issue export/rebuild and closeout remain required. No reader rebuild.
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
