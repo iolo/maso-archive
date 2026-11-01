@@ -243,18 +243,39 @@ prior files and thirty core modules remain exact; earlier fresh 213-test log ret
 Original native partial scopes remain historical. Main prose ends 214, listings end
 216/219/220; lower 220 publisher notice is excluded and folio 220 remains null.
 
-Current totals: nine readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 38 unresolved identities among 52. Nine
-current body-owner packages contain 2,976 exact files; eight final classification
-evidence files remain separate. Original natives and superseded assemblies remain
+Batch 18 verifies puzzle-game article 0015's actual fifteen-page extent, PDF
+222–236, and preserves opening 222–227/printed 220–225 as a 261-file partial native.
+Independent and fresh-process exports match. All 78 exact crops, 58 outcomes,
+5,768 typed range occurrences and 546 nonempty reading rows validate. Twenty
+original images retain three diagrams, fourteen code panels, category/series art
+and ending ornament. Four printed captions use literal text; sixteen are null.
+Twelve grid cells, 42 diagram labels, 49 explicit initializer pairs/98 cells,
+nine struct contexts/47 field groups and eleven function occurrences retain their
+own source ranges. Nine independent code contexts contain 316 physical rows;
+listing 1 preserves 187 four-digit number/colon rows, seven blank numbered rows
+and one physical string wrap at 175. Printed defects and PCX example/listing
+variants remain literal; no code repair or execution. All 58 drafts read before
+one source pass; fourteen English code regions, 44 Korean/English regions,
+seven pre-OCR margin events across five regions and zero retries or within/post-pass
+source changes. Metadata r02 removes a Korean identifier from the comment index;
+four JSON files differ, all transcript/assets/raw-ZIP bytes exact. Fifteen rehashed
+native and two ownership cases are rejected. All 19,652 prior files and thirty
+core modules remain exact; earlier fresh 213-test evidence retained. Main prose
+ends 226; listing 1 ends 236 at 1415 before independent advertising. Pages 237/238
+confirm the boundary; prepared 239 was not reviewed. Later 228–236 and actual
+fifteen-page assembly remain required.
+
+Current totals: nine readable/sample-reviewed articles, one partial, two non-owning
+groups, three section references and 37 unresolved identities among 52. Ten
+current body-owner packages contain 3,237 exact files; eight final classification
+evidence files remain separate. Original natives and superseded revisions remain
 unchanged.
 
-Next: Batch 18 verifies the actual extent and ending of canonical 0015, 게임 제작으로
-알아보는 비디오 제어 기법 : 내 손으로 만들어 보는 퍼즐 게임, by 김정석, then
-restores up to six confirmed opening pages. PDF 222/printed 220 is observed;
-provisional targets are 222–227. The following Turbo C article's reference 236,
-with PDF 238 as a location lead, does not establish an ending or a global folio
-offset. Confirm source ownership before mapping. No reader rebuild.
+Next: Batch 19 restores puzzle-game listing 1 on PDF 228–233, continuing after
+opening 227 row 0187. Those six pages run from 0188 through 1070. Final 234–236 and
+actual assembly of all fifteen pages follow. Preserve printed number/colon columns,
+blank numbered rows, physical wraps, Korean comments, explicit values and source
+defects. No code repair, execution or reader rebuild.
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:

@@ -1440,12 +1440,109 @@
       "toc_entry_id": "maso-1993-03-toc-0015",
       "title": "게임 제작으로 알아보는 비디오 제어 기법 : 내 손으로 만들어 보는 퍼즐 게임",
       "parent_id": "maso-1993-03-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonicaltitle/byline김정석,parent0012 andcontentsreference220 unchanged. Actualbody222–236 observed;openingfolios220–225 individuallyread. Mainends226;listingends236at1415 beforeindependentad. No globaloffset inferred.",
+        "Opening222–227 has261independently/fresh-process exactfiles,78exactcrops,58outcomes,5768typedrangeoccurrences and546nonemptyreadingrows. Availabilitypartialuntil228–236 andactualassembly.",
+        "20originalimages retainthree independentdiagrams,14codepanels,category/seriesart andendingornament.4literalprintedcaptions;16null.12diagramcells,42labels,49initializerpairs/98cells and47structfieldgroups remainexplicit.",
+        "Nine codecontexts316physicalrows preserve independentexamples andmainlisting.187numberedlistingrows0001–0187 include7blanknumberedrows;onephysicalstringwrap175 remainsliteral.2048codetokens,25commentrows,12completequotedoccurrences pluswrappedstringsegments validate.",
+        "58initialrecognitions14eng/44kor+eng;all58drafts readbefore one sourcepass.7preOCRmargin events across5regions;0recognitionretries orwithin/postpasssourcechanges. Metadataonlyr02fixesidentifierrole withoutchangingtranscript/images/rawZIP.",
+        "15rehashednative and2ownershipcases rejected;actualcanonicalfixturepasses. All19652priorfiles/30coremodules/source/TOC/queue/runtimeexact. Earlierfresh213-testevidence retained;no readerwork."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-18-r02/puzzle-a",
+        "article_id": "scan-maso-1993-03-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-18-r02/puzzle-a/manifest.json",
+          "sha256": "53457adf3df919a32f58e18da14479a8a4891583e675342983c0b63579431782",
+          "bytes": 44558
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ],
+          "printed_pages": [
+            "220",
+            "221",
+            "222",
+            "223",
+            "224",
+            "225"
+          ],
+          "regions": 78,
+          "blocks": 58,
+          "figures": 20,
+          "deferred_pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 236,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-18/validation-complete.json",
+          "sha256": "5704d694d59950b72a85fa9f2016b9fad0b8432b4a410548bab405c007bb35be",
+          "bytes": 2052
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-18/native-reproduction-r02.json",
+          "sha256": "ba79bbec7d4cf965eb44cb023e1a1ff7827c5383cd07e7d8c7a28a24464a7f31",
+          "bytes": 45060
+        },
+        "checkpoint": "batch-18",
+        "full_source_extent": {
+          "start_pdf_page": 222,
+          "end_pdf_page": 236,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-18/source-reviewed.json",
+            "sha256": "24e1df892961b857949691a206d2d91b35c9b30d9869d4f8f6ba7de771381c4d",
+            "bytes": 2702
+          },
+          "note": "All15 bodypages observed. Mainprose closes226;listing1 starts226 andends236row1415 above separatebookadvertisement.237independentad;238distinctTurboC openerprinted236.221independentcomicadvertisement.239prepared butnotreviewed. No globalfoliooffset inferred."
+        },
+        "source_listing_scope": {
+          "current_numbered_rows": 187,
+          "current_physical_rows": 188,
+          "blank_numbered_rows": 7,
+          "unnumbered_wraps": 1,
+          "first_printed_number": "0001",
+          "last_printed_number": "0187",
+          "actual_final_printed_number": "1415",
+          "printed_number_columns_retained": true,
+          "source_program_execution_verified": false
+        },
+        "notes": [
+          "Selected261-file r02opening222–227 reproduces independently and in a freshprocess. Remaining228–236 andactual15pageassembly required.",
+          "Twenty originalimages retaincategory/seriesart,threediagrams,endingornament and14codepanels. Fourcaptionassociations have literaltext;other16null. Twelvegridcells,42diagramlabels,49explicitinitializerpairs/98cells preserve exactsourcecontexts.",
+          "Nine independentcodecontexts contain316physicalrows. Mainlisting1 has187fourdigitnumber/colonrows,sevenblanknumberedrows andone unnumberedstringwrap175. No sourceprogramrepair/execution.",
+          "Nine structcontexts/47fieldgroups,10definitioncandidates/oneprototype,fourclosingcontributors andoneHitelcontact retain exactranges. PCXexample/listingcase,typedef,scanerfieldlayout,temp/unused54 differences remainliteral.",
+          "All58drafts read before one sourcepass. SevenpreOCRmargin events acrossfiveregions;58initialcalls14eng/44kor+eng,zero retries orwithin/postpasschanges.",
+          "Metadata r02 removesKoreanidentifierGAME초기화 fromcommentindex andadds explicitcallcandidate/contributor/contactindexes. OnlyfourJSONfiles differfromretainedr01;transcript/assets/rawZIP exact.",
+          "Source syntax defects,attribute2 proseversusdiagram1,타켓/쉽상/스몰 모드,missingpicdeclarationcommas andsourceglyph/case/punctuationcandidates retained. Originalencodedbytes/fullproofreading/humanacceptance unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0016",
@@ -2445,15 +2542,52 @@
         "sha256": "94a9a00f1042403cdf2d1a7417cde6fdc03bfc7c0585e168bed3fc52ecc6559c",
         "bytes": 87672
       }
+    },
+    {
+      "name": "1993-03-batch-18",
+      "status": "complete",
+      "completed_at": "2026-11-01T22:08:37.473235+00:00",
+      "goal": "Preserve puzzle-game article0015 opening222–227 aspartialnative withliteral independentexamples,diagramcells andnumberedlisting1;verify completeextent222–236.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0015"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "outside_lookup_pages": 12,
+      "recognition_invocations": 58,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 7,
+      "distinct_pre_ocr_changed_regions": 5,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-18/validation-complete.json",
+        "sha256": "5704d694d59950b72a85fa9f2016b9fad0b8432b4a410548bab405c007bb35be",
+        "bytes": 2052
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-18/native-reproduction-r02.json",
+        "sha256": "ba79bbec7d4cf965eb44cb023e1a1ff7827c5383cd07e7d8c7a28a24464a7f31",
+        "bytes": 45060
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 9,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 2,
     "section_references": 3,
-    "unresolved": 38
+    "unresolved": 37
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -2461,42 +2595,36 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-18",
-    "goal": "Verify puzzle-game article0015 actual extent/ending from observed opener222,then restore up tosix confirmed openingbodypages.",
+    "name": "1993-03-batch-19",
+    "goal": "Restore puzzle-game listing1 continuationPDF228–233 asimmutable partialnative;then later234–236 andactual15pageassembly.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0015"
     ],
     "canonical_page_reference": 220,
-    "initial_source_probe_pdf_page": 222,
-    "provisional_mapping_targets": [
-      222,
-      223,
-      224,
-      225,
-      226,
-      227
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      221,
+    "mapping_targets": [
       228,
       229,
       230,
       231,
       232,
-      233,
+      233
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      222,
+      226,
+      227,
       234,
       235,
       236,
       237,
-      238,
-      239
+      238
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Opener222/printed220,title and김정석 credit directly observed. FollowingturboC2.0article0016reference236/PDF238 islocationlead only;do not inferend237 orglobalfoliooffset. Confirm current sourceownership andactualendingbeforemapping;preserve sourcegraphics,code/table contexts andphysicalwraps. No readerrebuild."
+    "note": "All15bodypages222–236 directlyobserved;mainproseends226. Currentnativeends227printed0187;228starts0188. Sixnextpages228–233 continue through1070. Final234–236 andactualassembly requiredafterward. Preserve4digitnumber/coloncolumns,blanknumberedrows,physicalwraps,Koreancomments,explicitvalues andsource defects. Do notexecute orrepaircode. Keepindependentexample contextsfromopening;no readerrebuild."
   },
   "final_issue_classification_evidence_required": [
     {
