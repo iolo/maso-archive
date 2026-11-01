@@ -2087,6 +2087,50 @@ Evidence: `archive/pdf/1992-12/restoration/batch-70/validation.json`,
 `prospective-timings.json` and `completion-audit.json`. Session evidence:
 `archive/pdf/1992-12/evidence/session-2026-11-01-51/`.
 
+Batch 71 verifies the usable December 1992 cover and reconciles final delivery
+inputs. The donated original `covers/9212.jpg` has a full upright front composition,
+visible 92/12/December and the 1992년12월1일 imprint. Its red masthead and Christmas-tree
+artwork match complete PDF front cover 1. Physical 446 is a narrow outer-wrap scan
+with spine, partial front and cropped advertising; its clipped right edge makes it
+unsuitable as a complete front-cover asset. Both whole PDF views and the donated
+cover/thumbnail were directly inspected. Zero canonical tasks, zero mapped pages,
+two outside PDF pages, no OCR or source correction.
+
+Donated-first priority selects the original photograph without modifying it or the
+global cover derivative set. The three-file cover package at
+`archive/pdf/1992-12/restoration/batch-71/cover-r01/` contains a 466 × 640 RGB JPEG,
+private provenance and manifest. Selected, independent and fresh-process exports
+match byte for byte. The proportional, never-upscaled thumbnail follows the existing
+480 × 640 bounds, EXIF orientation, quality-80/LANCZOS and metadata-stripping policy.
+Only the bounded derivative is intended for issue delivery; the original stays private.
+Eight consistently rehashed private checks reject source-priority, date, orientation,
+composition, wrap-fragment and thumbnail-dimension errors. The first integration
+helper's underscore-versus-hyphen classification mismatch is retained; the corrected
+helper uses the existing canonical values, with no data/schema change.
+
+All 72,827 prior December files, 13,064 selected article files across 32 roots,
+sixteen classification files, 9,332 September reference files, thirty core modules,
+source/runtime/TOC/queue pins, donated original and prior global cover artifacts remain
+exact. The unchanged 213-test baseline is reused. The delivery-input report reconciles
+all 45 canonical identities, thirty readable articles, two partials, seven groups,
+three section references and three unresolved identities. All 446 source pages and
+five final PDF-pass gap outcomes remain accounted: three original-content gaps plus
+two related references. No body ownership or canonical outcome changes. Current cover
+provenance supersedes historical pending-cover flags without mutating those records.
+Complete original article recovery remains unverified.
+
+Next checkpoint 72 produces the portable standalone JSON/assets issue collection,
+independently regenerates selected natives/assemblies, checks local asset/correction
+references, runs fresh focused regressions and audits every issue-closeout requirement.
+The issue is not closed yet. Human acceptance/full proofreading, original program bytes
+and execution remain unverified. Full December goal active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-71/validation.json`,
+`source-reviewed.json`, `source-audit.json`, `negative-checks-r02.json`,
+`reproduction.json`, `cover-recipe.json`, `issue-integration.json`,
+`prospective-timings.json` and `completion-audit.json`. Session evidence:
+`archive/pdf/1992-12/evidence/session-2026-11-01-52/`.
+
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
 headings and two non-owning section references, with no partial or unresolved entries.

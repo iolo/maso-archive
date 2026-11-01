@@ -22,8 +22,10 @@ All 446 pages have integrated material/ownership outcomes: 244 selected body pag
 32 maps and 32 exclusions across fifteen mixed body pages. Five final PDF-pass gap tasks
 comprise three original-content gaps plus two related references; full original recovery
 and original source omission remain unverified. Selected bodies total 13,064 files across
-32 roots, with sixteen classification files separate. Next: usable cover verification,
-final integration, standalone JSON/assets issue export/rebuild and closeout.
+32 roots, with sixteen classification files separate. Batch 71 verifies the dated donated
+cover and three exact thumbnail/provenance exports; originals and global cover assets
+remain unchanged. Next: portable standalone JSON/assets issue export, full independent
+regeneration, reference checks, fresh regressions and issue closeout.
 See the [December record](docs/progress/9212.md). Full objective active. No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
