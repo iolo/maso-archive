@@ -254,18 +254,39 @@ retries or within-pass/post-pass changes. Thirteen rehashed native and two owner
 cases are rejected. All 18,642 prior files and thirty core modules remain exact;
 earlier fresh 213-test evidence retained. Later 216–220 and actual assembly pending.
 
-Current totals: eight readable/sample-reviewed articles, one partial, two
-non-owning groups, three section references and 38 unresolved identities among 52.
-Nine current body-owner packages contain 2,890 exact files; eight final
-classification evidence files remain separate. Original natives and superseded
-assemblies remain unchanged.
+Batch 17 preserves final popup-window PDF 216–220 as a 77-file native, then
+actually assembles all eleven pages, 210–220. The 471-file assembly reproduces
+from two independently regenerated natives/462 files and in a fresh process.
+All 129 crops, 105 outcomes, 19,420 projected metadata ranges, 39,772 current range
+occurrences and 1,400 nonempty reading rows validate. Eight code contexts retain
+three boxed examples, stack/heap fragments and three numbered listings. All 974
+numbered rows (345/431/198), 119 blank numbered rows and 37 physical wraps remain;
+listing 1 retains duplicate 67 and absent 68. Twenty-four original images, fifteen
+code panels, seven literal captions and twenty table cells retain their contexts.
+Twenty explicit MVcur initializer values remain separate from MENUMAX 32; no
+values are expanded. Listing 1's 211→212 boundary preserves native bytes without
+a prose merge. Final native adds fourteen initial plus one within-pass changed-crop
+recognition; thirteen exact raw/TSV outcomes retain original execution provenance.
+One source pass, five pre-OCR margin repairs, one within-pass initializer repair,
+zero unchanged-input retries or post-pass changes. Native r02 fixes seven function
+occurrence roles; four JSON files change, all transcript/assets/raw-ZIP bytes exact.
+Twelve rehashed root, six native and two ownership cases are rejected. All 19,027
+prior files and thirty core modules remain exact; earlier fresh 213-test log retained.
+Original native partial scopes remain historical. Main prose ends 214, listings end
+216/219/220; lower 220 publisher notice is excluded and folio 220 remains null.
 
-Next: Batch 17 restores popup-window article 0014's final PDF 216–220, then
-actually assembles all eleven pages, 210–220. Main prose ends on 214; listing 1
-ends on 216, listing 2 on 219 and listing 3 on 220 above a separate publisher
-notice. No folio is inferred for 220. Page 221 is an advertisement; 222 opens the
-puzzle article. Preserve independent examples/listings, printed number columns,
-source defects and physical wraps. No reader rebuild.
+Current totals: nine readable/sample-reviewed articles, no partials, two non-owning
+groups, three section references and 38 unresolved identities among 52. Nine
+current body-owner packages contain 2,976 exact files; eight final classification
+evidence files remain separate. Original natives and superseded assemblies remain
+unchanged.
+
+Next: Batch 18 verifies the actual extent and ending of canonical 0015, 게임 제작으로
+알아보는 비디오 제어 기법 : 내 손으로 만들어 보는 퍼즐 게임, by 김정석, then
+restores up to six confirmed opening pages. PDF 222/printed 220 is observed;
+provisional targets are 222–227. The following Turbo C article's reference 236,
+with PDF 238 as a location lead, does not establish an ending or a global folio
+offset. Confirm source ownership before mapping. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
