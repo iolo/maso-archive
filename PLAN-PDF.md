@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: twenty-three readable/sample-reviewed articles,
-two partials, seven group headings, three section references and ten unresolved identities.
+Current totals: twenty-four readable/sample-reviewed articles,
+one partial, seven group headings, three section references and ten unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -1348,6 +1348,62 @@ all 446-page accounting, cover, standalone issue export/rebuild and closeout rem
 required. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
+
+Batch 56 completes the actual compound information-radar assembly on PDF 112–141,
+individually verified printed 102–131. Three 1,968-file assemblies match byte for byte,
+including a fresh process, from six independently regenerated immutable natives with
+1,960 unchanged files. No new mapping, recognition or source correction. Seventeen
+outside whole pages and six exact boundary crops were directly reviewed.
+
+All 523 source-exact crops, 463 selected OCR outcomes, 297 assembled blocks from 300
+source blocks, sixty original figures and 3,628 physical reading rows validate. All
+6,705 projected metadata ranges, seventeen foreign-context ranges, 13,555 current
+typed occurrences, 278 repeated empty-anchor occurrences and 13,258 current/native
+projection pairs validate. Original metadata stays in its native context; projected
+prior-native D/E ranges use the actual source downloads and scans.
+
+Three source-backed prose joins preserve the new paragraph at 122→123, physical
+애플/토크 rows at 128→129 and Baram at 134→135, including intervening captions and
+figures. The 116→117 items remain independent; prices 140→141 need no prose join.
+Five complete branches and 56 complete main intrinsic items retain source fragments.
+The independent interview and ancillary events notice remain separate. No canonical
+children are invented. Ring's page-134 anticipatory illustration belongs to its
+page-135 review; 반질고리 remains a candidate with 반짇고리/반지고리 alternatives.
+
+Seven book notices, six shelf rows/eighteen cells/three headers, five software-file
+records, twelve ring modules, fourteen price quotes and all original art, captions,
+credits, historical contacts, literal claims and glyph candidates remain preserved.
+Three charts retain thirteen series, 36 physical point labels and 37 observations.
+Two February observations stay missing; one July 4.5 mouse label supports two
+observations. No interpolation, zero filling or invented 240MB series.
+
+The first assembly differed only in JSON key order from an unordered metadata
+dictionary. Both complete first exports remain retained; deterministic adapter r02
+changes metadata ordering only. An interrupted slow audit and a corrected helper
+field-name failure are preserved, without changes to source or native delivery bytes.
+Twenty-six consistently rehashed root/recipe/native edits and six altered eligibility
+maps are rejected by frozen private guards; no generic custom-schema claim. All six
+unchanged native maps delegate to their existing guards.
+
+All 61,949 prior December files, 11,930 former selected files/thirty roots, sixteen
+classification files, 9,332 September files and thirty core/source/runtime/TOC/queue
+pins remain exact. The unchanged 213-test baseline is reused. Source encoded bytes,
+original program/file recovery, execution, technical/historical truth, human acceptance
+and full proofreading remain unverified.
+
+Only compound 0046 advances to readable/sample-reviewed. Totals are twenty-four
+readable, one partial, seven group headings, three section references and ten unresolved
+identities among 45. Twenty-five selected roots contain 11,938 files; sixteen
+classification files remain separate. All six immutable natives remain retained.
+
+Next: verify and restore reader quiz 0039 and next-issue contents notice 0040. Quiz
+opening 142/printed 132 is observed; confirm its full extent and all panels. PDF 144
+is only a candidate for the contents notice, not a verified global offset. Review
+actual folios, endings, adjacent titles and ownership before mapping. Keep at most
+two canonical tasks, six mapped pages and twenty outside lookup pages. Year-feature
+continuation/child references, UNIX locations, remaining reader-section bodies,
+all 446-page accounting, cover, standalone issue export/rebuild and closeout remain
+required. Full December goal active. No reader rebuild.
 
 ## September 1991 closeout, 2026-10-31
 

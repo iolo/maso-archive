@@ -13,17 +13,17 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: twenty-three readable/sample-reviewed articles,
-two partials, seven non-owning group headings, three section references and ten unresolved
-identities. Batch 55 restores final information-radar page 141 with three original price
-charts, thirteen series and explicit shared/missing observations. Three 279-file exports
-match; all seventy crops and 630 typed ranges validate. Earlier natives a/b/c/d/e
-regenerate exactly. All thirty compound pages 112–141 are preserved across six natives
-and 1,960 files; actual assembly remains required. Thirty roots contain 11,930 selected
-files; sixteen classification files are separate. Next: complete compound assembly.
-Remaining bodies/assemblies, issue accounting, cover, standalone issue export/rebuild
-and closeout are pending. Source glyph candidates and historical/technical claims remain
-unverified. See the [December record](docs/progress/9212.md). No reader rebuild.
+December 1992 restoration is in progress: twenty-four readable/sample-reviewed articles,
+one partial, seven non-owning group headings, three section references and ten unresolved
+identities. Batch 56 completes the thirty-page information-radar assembly on PDF 112–141.
+Three 1,968-file exports match from six independently regenerated natives; all 523 crops,
+6,705 projected metadata ranges and 13,555 current typed occurrences validate. Three
+prose joins, ring-illustration ownership and all shared/missing chart observations retain
+source contexts. Twenty-five roots contain 11,938 selected files; sixteen classification
+files remain separate. Next: verify the reader quiz and next-issue contents notice.
+Remaining bodies, issue accounting, cover, standalone issue export/rebuild and closeout
+are pending. Source glyph candidates and historical/technical claims remain unverified.
+See the [December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
