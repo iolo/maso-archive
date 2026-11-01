@@ -1680,6 +1680,52 @@ Evidence: `archive/pdf/1992-12/restoration/batch-61/validation.json`,
 `prior-classification-decisions.json`, `source-boundaries.json` and
 `prospective-timings.json`; the canonical ledger records checkpoint 62.
 
+Batch 62 directly reviews physical pages 21–40 for year-feature continuation 0019
+and UNIX terminal-control 0022. All twenty pages are full advertisements: graphics
+cards, printers, computers, processors, floppy disks, video/audio cards and software.
+UNIX, GUI, DOS SHELL and image-grabber product mentions remain advertising context;
+neither target body is observed. No magazine folio is visible on these pages;
+specifications, prices, certification numbers and screenshot dates are not folios.
+No mapping, recognition, retry or source correction pass occurs.
+
+The fresh four-file sidecar at
+`archive/pdf/1992-12/restoration/batch-62/accounting-r01/` represents all 446 slots:
+365 classified and 81 explicitly pending. Three exports match byte for byte,
+including a fresh process. The twenty additions replace only prior pending rows;
+all other 426 page rows remain unchanged. The prior source-accounting audit is
+reexecuted against original pinned review, render and ownership inputs, retaining
+its twenty-two explicit review/render bridges. All forty current native/layout
+images decode. Coverage still includes 238 selected body pages/31 maps and 31
+map-local exclusion records across fourteen mixed body pages. The unassigned
+shell-listing fragment on 300–305 remains unassigned. Pending pages are 41–79,
+81–89, 91–93, 95–97, 105–106, 340–359 and 442–446.
+
+Twenty consistently rehashed private accounting mutations are rejected by the
+private source audit; no generic article-schema claim. All 71,910 prior December
+files, 13,001 selected article files/31 roots, sixteen classifications, 9,332 September
+files and thirty core/source/runtime/TOC/queue pins remain exact. The unchanged
+213-test baseline is reused. An inherited narrative count in the first completion
+report is corrected in `completion-audit-r02.json`; the original report is retained.
+Source ledger, validation and canonical entries were correct and remain unchanged.
+Prospective stage wall times include preservation, rendering and orchestration;
+they do not measure isolated manual review or restoration throughput.
+
+All 45 canonical entries remain unchanged: thirty readable/sample-reviewed, one
+partial, seven groups, three section references and four unresolved. Next checkpoint
+63 reviews physical pages 41–60 for the same two location tasks, within 2/6/20 limits.
+Year-feature 0019 remains partial at opener 299; its ending and child references
+0020/0021 remain unresolved. UNIX 0022/0023 remain unresolved. No full-source absence,
+missing-page count, new ownership, full accounting or cover-asset verification is
+claimed. Remaining bodies/assemblies or explicit source gaps, all 446-page accounting,
+cover verification, standalone JSON/assets issue export/rebuild and closeout remain
+required. Full December objective active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-62/validation.json`,
+`source-reviewed.json`, `source-audit.json`, `negative-checks.json`,
+`reproduction.json`, `fresh-process-reproduction.json`, `source-boundaries.json`,
+`prospective-timings.json` and `completion-audit-r02.json`. Session evidence:
+`archive/pdf/1992-12/evidence/session-2026-11-01-43/`.
+
 ## September 1991 closeout, 2026-10-31
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:

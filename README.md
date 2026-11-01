@@ -15,11 +15,11 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
 one partial, seven non-owning group headings, three section references and four unresolved
-identities. Batch 61 directly reviews physical pages 1–20 and creates a reproducible
-provisional ledger: 345 of 446 pages classified, 101 pending. Three four-file accounting
-exports match, including a fresh process. All article statuses remain unchanged;
+identities. Batch 62 reviews twenty advertising pages on physical 21–40. The reproducible
+provisional ledger now classifies 365 of 446 pages, with 81 pending. Three four-file
+accounting exports match, including a fresh process. All article statuses remain unchanged;
 31 roots contain 13,001 selected files and sixteen classifications remain separate.
-Next: review pages 21–40 for year-review/UNIX location research and page accounting.
+Next: review pages 41–60 for year-review/UNIX location research and page accounting.
 Remaining bodies or explicit source gaps, full page accounting, cover verification,
 standalone JSON/assets issue export/rebuild and closeout are pending. See the
 [December record](docs/progress/9212.md). Full objective active. No reader rebuild.
