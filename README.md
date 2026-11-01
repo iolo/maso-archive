@@ -15,14 +15,15 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
 one partial, seven non-owning group headings, three section references and four unresolved
-identities. Batch 65 classifies nineteen advertising pages and an unlisted editor's note
-on physical 105/printed 95. The provisional ledger classifies 425 of 446 pages; 21 remain
-pending. Three four-file accounting exports match, including a fresh process. All canonical
+identities. Batch 66 classifies eighteen advertising pages and two subscription/remittance
+form sides. The provisional ledger classifies 445 of 446 pages; only physical 446 remains
+pending. Three four-file accounting exports match, including a fresh process. Canonical
 statuses and 13,001 selected article files/31 roots remain unchanged; sixteen classifications
-are separate. Next: review pages 344–359 and 442–445; physical 446 remains pending afterward.
-Remaining bodies or explicit source gaps, full page accounting, cover verification,
-standalone JSON/assets issue export/rebuild and closeout are pending. See the
-[December record](docs/progress/9212.md). Full objective active. No reader rebuild.
+are separate. Next: review 446 and recheck contents/target boundaries on 4–5, 299–300 and
+305–306. Remaining bodies or explicit source gaps, final mixed-component/ownership
+accounting, cover verification, standalone JSON/assets issue export/rebuild and closeout
+are pending. See the [December record](docs/progress/9212.md). Full objective active.
+No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

@@ -1869,6 +1869,56 @@ Evidence: `archive/pdf/1992-12/restoration/batch-65/validation.json`,
 `prospective-timings.json` and `completion-audit.json`. Session evidence:
 `archive/pdf/1992-12/evidence/session-2026-11-01-46/`.
 
+Batch 66 directly reviews physical 344–359 and 442–445 for existing location
+tasks year-feature continuation 0019 and UNIX terminal-control 0022. Eighteen pages
+are full advertisements. Landscape 442–443 are the two sides of a subscription/
+remittance form, retained as their own class, separate from reader cards 440–441.
+Blank fields and historical payment/subscription information remain original image
+context. Product-history years on 347, the UNIX course panel on 353 and software/
+music demonstrations on 355–358 are advertising; neither target body is observed.
+No mapping, OCR, retry, source correction or canonical entry advance occurs.
+
+The four-file sidecar at
+`archive/pdf/1992-12/restoration/batch-66/accounting-r01/` represents all 446 slots:
+445 classified and only physical 446 pending. Three exports match byte for byte,
+including a fresh process. Only twenty prior pending rows change; all other 426
+page rows remain unchanged. The prior accounting source-audit chain is reexecuted
+through original pinned review/render/ownership inputs, including twenty-two explicit
+review/render bridges. All forty current native/layout images decode. The ledger
+contains 189 full advertising pages and two subscription/remittance-form sides.
+Its 238 selected body pages/31 maps and 31 map-local exclusion records across fourteen
+mixed body pages are unchanged, as are editorial 105/95 and the unassigned shell
+listing fragment on 300–305. Form/giro identifiers and advertising years are not
+magazine folios; no visible magazine folio is observed on these twenty pages.
+
+Twenty consistently rehashed private accounting mutations are rejected, including
+substitution of a form identifier for a magazine folio. All
+72,240 prior December files, 13,001 selected article files/31 roots,
+sixteen classifications, 9,332 September files and thirty core/source/runtime/TOC/queue
+pins remain exact. The unchanged 213-test baseline is reused. The four accounting
+files do not increase the selected article-file count. Prospective stage wall times
+include preservation, rendering and orchestration; they do not measure isolated
+manual-review or restoration throughput.
+
+All 45 canonical entries remain unchanged: thirty readable/sample-reviewed, one
+partial, seven groups, three section references and four unresolved. Next checkpoint
+67 reviews the final pending page 446 and rechecks contents 4–5, year-feature opener
+299, shell-fragment boundaries 300/305 and advertisement 306 for the same two tasks:
+seven outside pages within 2/6/20 limits, with no preassigned mapped pages. Six views
+are rechecks, not six newly classified pages. Existing owners and mixed contexts
+must remain intact. Children 0020/0021 and UNIX 0023 are not advanced in this scope.
+Full primary classification alone will not prove source-wide absence, a missing-page
+count or complete mixed-component/ownership accounting. Remaining year/UNIX bodies/
+assemblies or explicit source gaps, final accounting, cover verification, standalone
+JSON/assets issue export/rebuild and closeout remain required. Full December
+objective active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-66/validation.json`,
+`source-reviewed.json`, `source-audit.json`, `negative-checks.json`,
+`reproduction.json`, `fresh-process-reproduction.json`, `source-boundaries.json`,
+`prospective-timings.json` and `completion-audit.json`. Session evidence:
+`archive/pdf/1992-12/evidence/session-2026-11-01-47/`.
+
 ## September 1991 closeout, 2026-10-31
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
