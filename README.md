@@ -14,15 +14,15 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 December 1992 restoration is in progress: twenty-three readable/sample-reviewed articles,
-one partial, six non-owning group headings, three section references and twelve unresolved
-identities. Batch 49 completes printer-eject article 0044 on shared PDF 416. Three 42-file
-exports match; all nine crops, ten printed code rows/two layout gaps and 177 text ranges
-validate. Legacy-inventory provenance is clarified without changing prior package bytes.
-Twenty-four roots contain 9,970 selected files; fourteen classifications remain separate.
-Next: verify news/radar heading 0045 and compound child 0046 from retained PDF 111/112.
-UNIX/year-feature locations, other bodies, full issue accounting, cover, standalone export/
-rebuild and closeout remain pending. Original-file recovery, source glyphs and historical
-claims remain unverified. See the [December record](docs/progress/9212.md). No reader rebuild.
+two partials, seven non-owning group headings, three section references and ten unresolved
+identities. Batch 50 preserves compound information-radar entry 0046 opening PDF 112–116
+and classifies heading 0045 with its original divider artwork/catalogue. Three 208-file
+native exports match; all 56 body crops and 1,039 text ranges validate. Five conflicting
+divider references remain unrepaired. Twenty-five roots contain 10,178 selected files;
+sixteen classification files remain separate. Next: domestic-news continuation 117–122.
+Remaining bodies/assemblies, issue accounting, cover, standalone export/rebuild and closeout
+remain pending. Original bytes and technical claims remain unverified. See the
+[December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

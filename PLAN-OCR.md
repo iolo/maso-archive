@@ -24,7 +24,7 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 December 1992 is in progress at the owner's request: twenty-three readable/sample-reviewed
-articles, one partial, six non-owning group headings, three section references and twelve unresolved
+articles, two partials, seven non-owning group headings, three section references and ten unresolved
 identities among 45. Batch 01 completes
 column 0005 on PDF 108–110/printed 98–100. All 94 independent export files and 23 native
 crops are exact;21 mapped Tesseract invocations, one source correction pass and
@@ -948,18 +948,72 @@ exact. Unchanged 213-test baseline reused. Current totals: twenty-three readable
 reviewed articles, one partial, six groups, three section references and twelve unresolved
 identities. Twenty-four roots contain 9,970 selected files; fourteen classifications are separate.
 
-Next: verify news/radar heading 0045 and compound child 0046 from the retained news divider
-on PDF 111 and domestic-news body on 112/printed 102, also observed on 120/printed 110.
-Review the divider's local contents, original contents 4/5 and adjacent column ending 110.
-Verify hierarchy, body ownership, actual section extents and neighboring titles before
-mapping at most six confirmed first-native pages; 112–117 are candidates only. Keep the
-compound canonical title and parent intact, without inventing canonical children or treating
-unreviewed branches as complete. Preflight eligibility against the current issue queue,
-since the legacy inventory also lacks 0045/0046. At most two canonical tasks/six mapped/
-twenty outside pages. UNIX/year-feature locations, other bodies/assemblies, all 446-page
-accounting, cover, standalone export/rebuild and closeout remain required. Original glyphs/
-spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading remain
-unverified. Full December goal active. No reader rebuild.
+Batch 50 classifies information-radar heading 0045 as non-owning and preserves compound
+child 0046 opening PDF 112–116/individually read folios 102–106 as immutable partial native a.
+The original unfoliated divider on 111 is separate classification context: its full artwork,
+title and local catalogue are retained. Canonical compound title, parent 0045, null page
+references and order remain unchanged; intrinsic news and branch labels are not new
+canonical children.
+
+Observed anchors are domestic news 112–123, overseas opening 124/final 133, software
+134–137, books 138–139 and prices 140–141, followed by independent quiz 142. Intervening
+continuity beyond the first native remains unverified. The December-events sidebar on
+123 requires later ownership review. All five divider references conflict with observed
+opening folios: printed 128/130/102/114/124 versus observed 102/114/124/128/130. Both sets
+remain explicit and unrepaired. The books running label 정보나눔터 is a source variant;
+it does not change the canonical hierarchy.
+
+Three 208-file native exports match, including a fresh process. All 56 body source crops,
+48 outcomes, 22 blocks, eight original panels/photographs, 695 reading rows and 1,039 typed
+ranges/33 empty anchors validate. Three complete main news items and an independent
+two-page interview remain distinct. Six interview questions include one spanning columns;
+four prose groups retain 26 continuation boundaries and their intervening material. Six
+captions, two rotated photo-credit candidates, eleven source variants and 155 literal
+numeric occurrences retain source contexts. The native ends a complete workstation item;
+117 starts new news, without an inferred incoming prose join.
+
+One group classification record and its original divider PNG, two files total, reproduce
+independently and in a fresh process. Two searchable context regions/seven rows retain
+the local catalogue and five conflicts. The heading owns no duplicate article body,
+article package or text download. All three divider source crops match original pixels.
+
+All fifty complete raw drafts were read in one untruncated output before one literal
+source pass: two divider texts and 48 body texts, all kor+eng. All 59 initial crops on
+17 sheets and sixteen changed crops on four sheets were directly reviewed before OCR;
+43 initial crops remain exact. Five enlarged source-only details were reviewed without
+recognition. Zero retries or within-pass map changes. Printed Ristricted, 워스테이션,
+높히고, 메임 프레임 and 선워스테이션 remain literal. SPECfp92 uses baseline fp as a
+typography approximation; original pixels remain authoritative. Reporter/photo credits,
+product claims, prices and predictions are source occurrences, with no technical-truth,
+original-file, execution or original encoded-glyph/spacing claim.
+
+Eligibility was checked before the first export against the current issue queue and a
+guard scoped to the frozen first-native map. The core and legacy inventory stay exact.
+Six altered identity/source/map cases and six actual group-audit cases are rejected.
+Twenty consistently rehashed custom-metadata edits pass generic exports and fail the
+private frozen source audit; no generic custom-schema enforcement claim. One failed
+validation helper used an unchanged page index in its negative case; a fresh helper
+uses an actual changed index. Failure and completed evidence are retained, without
+new OCR or source correction.
+
+All 54,760 prior December files, 9,970 former selected files/24 roots, fourteen
+classification files, 9,332 September files and thirty core/source/runtime/TOC/queue pins
+remain exact. The unchanged 213-test baseline is reused. Current totals: twenty-three
+readable/sample-reviewed articles, two partials, seven groups, three section references
+and ten unresolved identities. Twenty-five selected roots contain 10,178 files; sixteen
+classification files are separate, including the new group record and divider image.
+
+Next: source-review and restore compound 0046 domestic-news continuation 117–122 as
+immutable native b. Reuse retained 117/120–124 and review unseen 118–119 plus outgoing
+123 and overseas opening 124 before mapping. Preserve news-item boundaries, contacts,
+captions, credits, original graphics and literal claims without new canonical children.
+A new native needs its own frozen eligibility guard, installed outside the prior radar-a
+guard with unchanged-map delegation. Fifteen prior adapters plus the radar-a guard remain
+required for relevant builds. At most two canonical tasks/six mapped/twenty outside pages.
+Remaining compound branches and actual full assembly, year-feature/UNIX locations, other
+bodies/assemblies, all 446-page accounting, cover, standalone export/rebuild and closeout
+remain required. Human acceptance/full proofreading and original bytes remain unverified.
+Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
