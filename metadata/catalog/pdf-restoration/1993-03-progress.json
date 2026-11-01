@@ -1599,12 +1599,96 @@
       "toc_entry_id": "maso-1993-03-toc-0016",
       "title": "터보 C2.0의 스타트 코드 활용(1) : 터보 C와 메모리 구조",
       "parent_id": "maso-1993-03-toc-0012",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical title,byline 이정환,parent0012 andcontents reference236 unchanged. Actual ten-page article238–247 directly observed; current openingfolios236–241 individually seen. Ending247 confirmed above unrelated advertising;250 is distinct Unix article.",
+        "327 exact files independently reproduced and rebuilt in a fresh process;93 exact crops,75 outcomes,3062 typed range occurrences,492 reading rows and319 safe/exact ZIP members validate.",
+        "Five diagrams,84 labels,45 linker-map cells/five headers andten independent code contexts retain original source contexts. Eighteen original images havefive literal printed captions andthirteen null captions.",
+        "Single source pass after reading all75 drafts;75 initial recognitions,zero retries. Fifteen rehashed native cases andtwo ownership cases reject. All prior20660 files andthirty core modules unchanged."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-21-r01/turbo-a",
+        "article_id": "scan-maso-1993-03-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-21-r01/turbo-a/manifest.json",
+          "sha256": "8f0801fe4de0f9158f530e6df4b92358d3d679c451b2444ce6142fff8e7f88f5",
+          "bytes": 55478
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243
+          ],
+          "printed_pages": [
+            "236",
+            "237",
+            "238",
+            "239",
+            "240",
+            "241"
+          ],
+          "regions": 93,
+          "blocks": 75,
+          "figures": 18,
+          "deferred_pdf_pages": [
+            244,
+            245,
+            246,
+            247
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 247,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-21/validation-complete.json",
+          "sha256": "fcd0a1c939d0923ce5ccab6ac64559b400e552da9e30253f6b5f1e21fb2ef7ae",
+          "bytes": 1946
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-21/native-reproduction.json",
+          "sha256": "0be50b1bfc219d0b334fe47be9509d7bbbf0759371ad685404a17601e25bb6e0",
+          "bytes": 55970
+        },
+        "checkpoint": "batch-21",
+        "full_source_extent": {
+          "start_pdf_page": 238,
+          "end_pdf_page": 247,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-21/source-reviewed.json",
+            "sha256": "109750a3c64bc4345037874bc639b9dd599793a1604fc1a1ca5e9fafcfcbba15",
+            "bytes": 4131
+          },
+          "final_map_review": {
+            "path": "archive/pdf/1993-03/restoration/batch-21/crop-review-completed.json",
+            "sha256": "e61a43cfab92125717d4b78a73211da3f624a2eabb4806abce8f3e9b1c518ff4",
+            "bytes": 4073
+          },
+          "note": "All ten body pages directly observed. Folios236–245 individually seen. Final247 closes above independent book advertising;248–249 advertisements;250 distinct Unix opener printed248.237 advertisement. No global folio offset inferred."
+        },
+        "notes": [
+          "Six-page opening238–243 has327 independently and fresh-process exact JSON/assets files. Final244–247 and actual ten-page assembly required.",
+          "All93 exact source crops,75 OCR outcomes,3062 recursively checked typed ranges and492 nonempty reading rows validate. Eighteen images preserve five diagrams,eleven code panels,linker table and category art. Five literal captions;thirteen null.",
+          "Ten independent code contexts retain58 physical rows,559 tokens,eight commands,eighteen instruction rows,thirteen registers,eight flags and128 explicit dump-byte occurrences. Loaded DEBUG242→243 remains separate from copied-file DEBUG243. No program repair or execution.",
+          "Linker table hasnine rows/45 explicit cells andfive headers;84 diagram-label fragments preserve individual source occurrences. Nine prose boundaries andone code boundary retain independent regions. Sidebar formula,four points and stack-paragraph column continuation remain separate from main prose.",
+          "All75 drafts read before one source pass. Eleven English code regions,64 Korean/English regions,zero recognition retries or within/post-pass recognition/source changes. Initial schema error and pre-OCR map/crop revisions retained.",
+          "Historical claims and source spelling/address/segment differences remain literal,including Invaild,살살히,같는,갖으,prose2FE8/diagram2FF8 and0ED0:0303 among0E9D rows. Original glyph/space/encoded bytes,full proofreading and human acceptance remain unverified.",
+          "Fifteen rehashed native andtwo ownership mutations reject. All20660 prior files,thirty core modules andsource/TOC/queue/runtime pins exact. Prior fresh213-test evidence retained;no reader work."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0017",
@@ -2700,15 +2784,51 @@
         "sha256": "20df10f5e4ed7cdd696ed1c5ab32024eaef02cf0738e46b609dd1dc1e99ac103",
         "bytes": 69996
       }
+    },
+    {
+      "name": "1993-03-batch-21",
+      "status": "complete",
+      "completed_at": "2026-11-01T23:17:56.007271+00:00",
+      "goal": "Verify ten-page Turbo C extent238–247 and preserve opening238–243 as an immutable partial native.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0016"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243
+      ],
+      "outside_lookup_pages": 8,
+      "recognition_invocations": 75,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 93,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-21/validation-complete.json",
+        "sha256": "fcd0a1c939d0923ce5ccab6ac64559b400e552da9e30253f6b5f1e21fb2ef7ae",
+        "bytes": 1946
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-21/native-reproduction.json",
+        "sha256": "0be50b1bfc219d0b334fe47be9509d7bbbf0759371ad685404a17601e25bb6e0",
+        "bytes": 55970
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 10,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 2,
     "section_references": 3,
-    "unresolved": 37
+    "unresolved": 36
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -2716,41 +2836,29 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-21",
-    "goal": "Verify actualTurboC article0016 extent/ending fromobserved opener238/printed236,then restore up tosix confirmed openingbodypages.",
+    "name": "1993-03-batch-22",
+    "goal": "Restore final Turbo C article0016 pages244–247,then actually assemble all ten pages238–247 from independently regenerated immutable natives.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0016"
     ],
-    "canonical_page_reference": 236,
-    "mapping_targets": [],
-    "provisional_mapping_targets": [
-      238,
-      239,
-      240,
-      241,
-      242,
-      243
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      237,
+    "mapping_targets": [
       244,
       245,
       246,
-      247,
+      247
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      243,
       248,
       249,
-      250,
-      251,
-      252,
-      253,
-      254
+      250
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Canonicaltitle 터보 C2.0의 스타트 코드 활용(1) : 터보 C와 메모리 구조,by이정환. Source238opener/folio236 directlyobserved. FollowingUnix canonicalreference248 isonlya locationlead;neitherit norPDF250 establishesTurboC ending orglobaloffset. Confirmactualownership beforemapping. Preserve originalillustrations/code andsourcecandidates;no readerrebuild."
+    "note": "Ending247 already observed above independent MS-DOS5.0 book advertising. Exclude that ad;248–249 independent advertisements;250 distinct Unix opener. Preserve EXE-header table,relocation examples,PSP structure,memory diagram,two C listings,commands and source defects. No code repair,execution or reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

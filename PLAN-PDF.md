@@ -337,18 +337,39 @@ exact; earlier fresh 213-test evidence retained. Main prose ends 226; listing en
 observed across the article; 237 is advertising and 238 opens the distinct Turbo C
 article. Original native partial/deferred scopes remain historical.
 
-Current totals: ten readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 37 unresolved identities among 52. Ten
-current body-owner packages contain 3,354 exact files; eight final classification
+Batch 21 verifies Turbo C article 0016's actual ten-page extent, PDF 238–247,
+and preserves opening 238–243/printed 236–241 as a 327-file partial native.
+Independent and fresh-process exports match. All 93 exact crops, 75 OCR outcomes,
+3,062 typed range occurrences and 492 nonempty reading rows validate. Eighteen
+original images retain five memory diagrams, eleven code panels, the linker table
+and category artwork; five captions are literal text and thirteen are null.
+The linker map retains nine rows/45 cells/five headers; 84 diagram labels retain
+individual occurrences. Ten independent code contexts preserve 58 physical rows,
+559 tokens, eight commands, eighteen instruction rows, thirteen registers, eight
+flags and 128 explicit dump-byte occurrences. Loaded DEBUG 242→243 remains separate
+from copied-file DEBUG 243. Nine prose boundaries, one code boundary and the separate
+sidebar's formula/four points retain source contexts. All 75 drafts were read before
+one source pass: eleven English code regions, 64 Korean/English regions, zero retries
+or within/post-pass source changes. Initial schema error and pre-OCR margin/map
+revisions remain retained. Source wording, historical claims, addresses and segment
+differences stay literal; no code repair or execution. Fifteen rehashed native and
+two ownership cases reject. All 20,660 prior files and thirty core modules remain
+exact; earlier fresh 213-test evidence retained. Final 247 closes above excluded
+book advertising; 248–249 are advertisements and 250 opens the distinct Unix article.
+Final 244–247 and actual ten-page assembly remain required.
+
+Current totals: ten readable/sample-reviewed articles, one partial, two non-owning
+groups, three section references and 36 unresolved identities among 52. Eleven
+current body-owner packages contain 3,681 exact files; eight final classification
 evidence files remain separate. Original natives and superseded revisions remain
 unchanged.
 
-Next: Batch 21 verifies the actual extent and ending of canonical 0016, 터보 C2.0의
-스타트 코드 활용(1) : 터보 C와 메모리 구조, by 이정환, then restores up to six
-confirmed opening pages. PDF 238/printed 236 is observed; provisional targets are
-238–243. The following Unix article's canonical reference 248 is a location lead;
-it does not establish the Turbo C ending or a global folio offset. Confirm ownership
-before mapping. No reader rebuild.
+Next: Batch 22 restores final Turbo C pages 244–247, then actually assembles
+the ten-page article 238–247 from independently regenerated immutable natives.
+Preserve the EXE-header table, relocation examples, PSP structure, memory diagram,
+two C listings, commands and printed defects. Exclude lower 247 book advertising;
+248–249 are independent advertisements and 250 is the distinct Unix opener.
+No code repair, execution or reader rebuild.
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
