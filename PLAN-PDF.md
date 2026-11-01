@@ -45,9 +45,21 @@ with original execution provenance and zero unchanged-input retries. All crop/ma
 revisions and a copied declaration-year clarification are retained. Fresh 213 PDF
 tests pass; all 13,097 December reference files and thirty core modules are exact.
 
-There are 51 unresolved identities. Batch 02 next verifies feature 0001, listed at
-printed 154, and restores a source-reviewed opening segment within the 2-task,
-6-mapped-page and 20-outside-page limits. No global offset or ending is inferred.
+Batch 02 preserves feature 0001 opening PDF 156–161 as an immutable partial native:
+220 independently/fresh-process exact files, 59 exact crops, 51 selected outcomes,
+655 valid typed ranges and 339 reading rows. Eight original images, two complete
+tables/twenty data cells/six header fragments, 24 diagram-label rows, six caption
+associations and eight internal continuations remain explicit. Source ending 172
+is observed, without claiming unreviewed intervening continuity. Independent PCI
+sidebar 161 interrupts main prose 160→162; their contexts remain separate. One
+source pass used 51 initial recognitions plus one changed-heading recognition
+before correction; fifty exact raw/TSV results retain original execution provenance,
+with zero unchanged-input retries. All revisions remain retained; nine custom-data
+mutations are rejected. All 13,179 earlier reference/package files remain exact.
+
+Current totals: one readable article, one partial feature and fifty unresolved
+identities. Batch 03 next reviews actual continuation 162–167 within the 2-task,
+6-mapped-page and 20-outside-page limits. No global offset or continuity is inferred.
 Child anchors, remaining bodies/assemblies, full-page accounting, cover and issue
 closeout remain required. See [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.

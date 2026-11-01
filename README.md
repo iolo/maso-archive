@@ -13,10 +13,11 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active. Its first complete column on PDF 100–101/
-printed 98–99 has 82 independently exact JSON/assets files; all twenty source crops
-and 275 typed ranges validate, and fresh 213 PDF tests pass. One readable article
-and 51 unresolved identities account for the 52-entry queue. Remaining restoration,
+March 1993 restoration is active. The complete column on PDF 100–101/printed 98–99
+and partial feature opening 156–161 have 302 independently exact JSON/assets files;
+all 79 source crops and 930 typed ranges validate, and fresh 213 PDF tests pass.
+One readable article, one partial and fifty unresolved identities account for the
+52-entry queue. Next is feature continuation 162–167. Remaining restoration,
 433-page accounting, cover and issue closeout are pending. See
 [March progress](docs/progress/9303.md). No reader rebuild.
 

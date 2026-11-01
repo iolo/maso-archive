@@ -30,9 +30,17 @@ initial plus four changed-crop recognitions, fourteen exact raw/TSV outcomes reu
 with original execution provenance, one paused/resumed source correction pass and
 zero unchanged-input retries. All revisions remain retained. Fresh 213 tests pass;
 13,097 prior December reference files and thirty core modules remain exact.
-One readable/sample-reviewed article and 51 unresolved identities account for all
-52 canonical entries. The 433-page source is pinned; issue-wide page accounting is
-pending. Next: feature 0001 opening, listed at printed 154, within 2/6/20 limits.
+Batch 02 adds feature 0001 opening 156–161 as a partial native: 220 independently/
+fresh-process exact files, 59 exact crops, 51 selected outcomes, 655 valid ranges,
+eight original images and two complete tables/twenty data cells. One source pass;
+51 initial plus one changed-heading recognition before correction, fifty exact
+raw/TSV results reused with original execution provenance, zero unchanged-input
+retries. Main prose 160→162 crosses independent PCI sidebar 161. Final 172 is
+observed; unreviewed interior continuity is not claimed. Nine invalid custom-data
+cases are rejected; all 13,179 prior files and thirty core modules remain exact.
+One readable article, one partial and fifty unresolved identities account for all
+52 entries. The 433-page source is pinned; issue-wide accounting is pending.
+Next: source-review continuation 162–167 within 2/6/20 limits, then later assembly.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
