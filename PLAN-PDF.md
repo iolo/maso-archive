@@ -1228,17 +1228,73 @@ seven groups, three section references and ten unresolved identities. Twenty-eig
 roots contain 11,182 files; sixteen classification files remain separate. Natives a/b/c/d
 preserve twenty-three pages 112–134 and 1,212 files; the compound entry stays partial.
 
-Next: review and restore compound continuation 135–140 as immutable native e. Confirm
-the Baram ending and following software review on 135, then trace unseen 136–140 through
-the software, books and price branches without assuming their boundaries. Reuse contents
-4/5, divider 111, native tail 134, chart endpoint 141 and following quiz 142 as needed.
-Keep the page-134 anticipatory figure association and uncertain title candidates explicit.
-Final 141 and actual compound assembly remain for later checkpoint(s). A new native needs
-a frozen eligibility guard outside a/b/c/d with unchanged-map delegation; eighteen prior
-adapters plus the native-d guard apply to relevant builds. At most two canonical tasks/
-six mapped/twenty outside pages. Remaining compound bodies/assembly, year-feature/UNIX
-locations, other bodies/assemblies, all 446-page accounting, cover, standalone export/
-rebuild and closeout remain required. Full December goal active. No reader rebuild.
+Batch 54 preserves compound information-radar entry 0046 continuation PDF 135–140,
+individually read folios 125–130, as immutable native e. The sixteen main items include
+fourteen complete current bodies, the incoming Han-geul Baram ending and the outgoing
+price branch. Five public-software reviews, seven descriptive book notices and a separate
+six-entry book-shelf table retain their own titles, prose, images and records. These are
+intrinsic items within the unchanged canonical compound, not new canonical children.
+
+Three 469-file exports match, including a fresh process. All 131 exact source crops,
+110 OCR outcomes, 62 blocks, 21 original figures, 588 reading rows and 1,201 typed ranges/
+seventeen empty anchors validate. Two ranges explicitly use immutable native-d download
+and scan contexts. Fifteen prose groups preserve 31 column/page boundaries. Six captions,
+two historical contacts, seven book covers/bibliographies, eighteen shelf cells/three
+headers, fourteen price quotes, five printed file/upload records, twelve ring-review
+modules, 24 variants and 132 literal numeric occurrences remain source-linked.
+
+All 131 initial crops on 36 sheets, 32 changed crops on eight sheets and fifteen further
+pre-OCR refinements on four sheets were directly reviewed before recognition. The 47
+revision events affect 32 distinct crops; 99 initial crops remain exact. All 110 complete
+kor+eng raw drafts were read in one untruncated output before one literal source pass.
+Seven enlarged source-only details were reviewed without OCR. Zero OCR retries or
+within-pass map changes. The initial audit helper expected an incorrect numeric count;
+its failed log is retained and the helper now checks the actual 132 occurrences. Package
+bytes are unchanged. The unchanged 213-test baseline is reused.
+
+Baram's 134→135 prose continuation and the ring review's anticipatory page-134 screenshot
+retain explicit prior-native contexts. The latter is not duplicated in native e.
+Blue Pencil's 136→137 word split remains 윈도/우. Software ends on 137; the books branch
+on 138–139 is independent. Page 140 ends with a complete sentence; page 141 continues
+the price branch with charts, without a physical prose join. Actual assembly is pending.
+
+The selected 반질고리 title/body/caption candidate remains uncertain, with 반짇고리/
+반지고리 alternatives. Old Hangul ᄒᆞᆫ글 is a Unicode approximation with explicit
+alternatives; the book-author candidate 김현수 retains 김헌수 as an alternative.
+Literal 열러, the repeated 결과를, 부문, publisher spelling 영중 and the six-month/July
+wording remain unrepaired. Table pipes approximate printed rules. Original panels,
+the shelf table and the public-software bubble intentionally overlap searchable text.
+Embedded image lettering is not exhaustively transcribed. Prices, health/fortune and
+technical claims, original encoded glyphs/bytes/spacing, program recovery, execution,
+human acceptance and full proofreading remain unverified.
+
+The enlarged page-140 source clearly reads 210MB at 42만원 ±1만원, matching the
+page-141 chart's 42. The initial “24” reading and conflict note were preliminary visual
+errors; they remain retained and are explicitly superseded before OCR. No source price
+conflict is established. The five filename/size/upload records are historical metadata;
+their program archives have not been recovered.
+
+Thirty-two consistently rehashed custom-metadata edits pass generic exports and fail the
+frozen private audit; six altered eligibility cases are rejected. No generic custom-schema
+enforcement claim. The new guard delegates unchanged natives a/b/c/d, whose 208, 312,
+323 and 369 files regenerate exactly. All 59,309 prior December files, 11,182 former
+selected files/28 roots, sixteen classification files, 9,332 September files and thirty
+core/source/runtime/TOC/queue pins remain exact.
+
+Totals stay twenty-three readable/sample-reviewed articles, two partials, seven groups,
+three section references and ten unresolved identities. Twenty-nine selected roots now
+contain 11,651 files; sixteen classification files remain separate. Five compound natives
+preserve twenty-nine pages 112–140 and 1,681 files. The compound remains partial.
+
+Next: restore final price-chart page 141 as immutable native f, retaining all three original
+charts and their searchable labels, scales, points and legends. Use contents 4/5, divider
+111, native-e tail 140 and following independent quiz 142 as needed. A new frozen guard
+must wrap native e and delegate unchanged a/b/c/d/e; nineteen prior adapters plus the
+native-e guard apply to relevant builds. Actual thirty-page compound assembly 112–141
+follows as a separate checkpoint. At most two canonical tasks/six mapped/twenty outside
+pages. Remaining bodies/assemblies, year-feature/UNIX locations, all 446-page accounting,
+cover, standalone export/rebuild and closeout remain required. Full December goal active.
+No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 
