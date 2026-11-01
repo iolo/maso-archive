@@ -38,7 +38,7 @@ as a complete three-page article: PDF 108–110, individually verified printed 9
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
 Current totals: seventeen readable/sample-reviewed articles,
-one partial, four group headings, three section references and twenty unresolved identities.
+two partial, five group headings, three section references and eighteen unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -753,13 +753,55 @@ private audit; no generic custom-schema claim. All 49,105 prior December files, 
 former selected files, twelve classifications, 9,332 September files and thirty core/source/
 runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused; no core changes.
 
-Next: verify information-sharing heading 0031 and restore at most six confirmed opening
-pages of timetable article 0032 from observed 403. Review canonical contents and repeated
-section labels before deciding non-ownership; verify actual article extent/ending before
-mapping. Reuse 403–405 views. Longer bodies require immutable segments and actual assembly.
-Keep other child identities unchanged. Current totals: seventeen readable/sample-reviewed
-articles, one partial, four groups, three section references and twenty unresolved identities.
-Eighteen selected roots contain 9,223 files; twelve classifications are separate. Twelve
+Batch 44 classifies information-sharing heading 0031, 정보나눔터, as non-owning,
+and preserves timetable article 0032 opening PDF 403–408/printed 428–433. Fourteen whole
+views verify the actual nine-page body 403–411/428–436. Final Listing 1 GLOBAL.BAS,
+conclusion/M, contact and disk notice occur on 411 above an independent advertisement;
+412 is a full advertisement and 413 opens the technical section. Final 409–411 and
+actual assembly remain required. Canonical identity, credit 정보문 and parent stay intact;
+source affiliation 장항고등학교 교사, editorial deck and section introduction stay separate.
+
+Three 304-file opening exports match, including a fresh-process rebuild. All 77 source
+crops, 73 pinned kor+eng outcomes, 58 blocks, four original screens, 655 reading rows and
+1,159 typed ranges validate. Twenty-nine empty anchors retain blank separator contexts.
+Twelve joined groups/fifteen boundaries retain physical wraps and explicit intervening
+screen/heading contexts. Two control tables retain 32 rows/64 cells; two four-row numerical
+examples retain eighteen label/value pairs/36 cells without arithmetic repair. Table tabs
+are presentation separators, with no original encoded-spacing claim.
+
+Four original screens and separate captions remain intact; tiny embedded lettering is
+not exhaustively transcribed. The independent Visual Basic sidebar, 61 button occurrences,
+eight printed-file reference occurrences and ten source variants retain explicit contexts.
+The file-reference index is not an original-file inventory. Old araea, PR/PRJ, 붙히고,
+identifier wraps and word/glyph candidates remain source-linked; no valid program or
+original executable/source/forms/data/disk recovery or execution is inferred.
+
+All 73 complete raw drafts read in three untruncated outputs before one literal source
+pass, zero retries or within-pass crop changes. All 77 initial crops reviewed on 22 sheets;
+eleven pre-OCR repairs reviewed on three sheets, with 66 initial crops reused exactly.
+Five source-only enlarged details reviewed without recognition. Two initial schema
+preflight failures and two export-helper failures remain archived; all recognition and
+reviewed-text bytes remain exact across export revisions. No separate source-pass-start
+timestamp was saved; the method and raw-reading/end timestamps are retained.
+
+Original contents 5, repeated information-sharing headers and independent opening 403
+support group 0031. Eight source anchors and all seven canonical children/order/parents
+remain explicit. Three one-file classification exports match; seven invalid edits fail
+the private guard. No duplicate body, divider, package, download or nested hierarchy added.
+Eighteen consistently rehashed native-metadata edits pass generic exports and fail the
+frozen private audit; no generic custom-schema claim. All 50,620 prior December files,
+9,223 former selected files/eighteen roots, twelve classifications, 9,332 September files
+and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline reused.
+
+Next: restore final timetable pages 409–411 as immutable native b, then actually assemble
+all nine pages 403–411 from independently regenerated natives. Reuse retained whole views;
+three newly mapped/eight outside pages fit 2/6/20. Preserve outgoing 408 노란색으로 / 409 변한다.
+contexts, printed listing, file catalogues, original panels, final notices and lower-411
+advertisement exclusion. Project all custom ranges/indexes into current/native contexts;
+preserve immutable opening and its historical scope. Promote 0032 only after actual assembly.
+Other child states remain unchanged. Current totals: seventeen readable/sample-reviewed
+articles, two partial, five groups, three section references and eighteen unresolved identities.
+Nineteen selected roots contain 9,527 files; thirteen classifications are separate. Twelve
 prior adapters remain required. UNIX/year-feature locations, other bodies/assemblies, all
 446-page accounting, cover, standalone export/rebuild and closeout remain required. Original
 glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading
