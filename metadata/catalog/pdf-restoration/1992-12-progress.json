@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1992-12",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-11-01",
   "source": {
     "id": "pdf-maso-9212",
@@ -10643,6 +10643,49 @@
         "sha256": "87dbaed0a3438a1b515831620324bc327b19e4d9288f05ff5e05c623a8d12f89",
         "bytes": 646
       }
+    },
+    {
+      "name": "1992-12-batch-72",
+      "status": "complete",
+      "completed_at": "2026-11-01T13:34:35.142587+00:00",
+      "goal": "Complete standalone JSON/assets issue export,all native/actual assembly regeneration,source/range/resource/asset/history/preservation/regression validation and supplied-PDF closeout.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "native_packages_regenerated": 59,
+      "actual_assemblies_regenerated": 14,
+      "standalone_files": 13097,
+      "selected_article_files": 13064,
+      "all_export_files_independently_exact": true,
+      "validation": {
+        "path": "archive/pdf/1992-12/evidence/issue-closeout-01/report-r02.json",
+        "sha256": "983147bcf035f4a056fce10f991a9140b4d7575a0369bc2406f1a959731d5ffe",
+        "bytes": 4694
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/issue-closeout-01/reproduction.json",
+        "sha256": "1b6617f76779d7886a88f4db90581948650c87f3212fecb2b85cefba5df07031",
+        "bytes": 2844349
+      },
+      "requirements_content_audit": {
+        "path": "archive/pdf/1992-12/restoration/issue-closeout-01/requirements-content-audit-r02.json",
+        "sha256": "9eb79a2065b9b62055a915a0744b193164f282f003212866dec7c77bdea12312",
+        "bytes": 19576
+      },
+      "handoff": {
+        "path": "archive/pdf/1992-12/restoration/issue-closeout-01/handoff-r02.json",
+        "sha256": "ece0cef7bd9e195846ad43e709a885ad9811114d9eead2228783f21555e9b97a",
+        "bytes": 7967
+      },
+      "complete_original_article_recovery_verified": false,
+      "reader_rebuilt": false
     }
   ],
   "totals": {
@@ -10656,21 +10699,11 @@
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
     "No global printed/PDF offset or article ownership inferred.",
-    "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
+    "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending.",
+    "Batch72 completes the canonical December1992 supplied-PDF JSON/assets pass:all45identities and446source pages accounted;30readable/2partial/7groups/3section references/3unresolved.",
+    "All13097standalone files match an independent export from59regenerated natives and14actual assemblies;all partial/unresolved/glyph/source/human limits remain explicit. No original omission,source-wide absence,missing-page count or full original article recovery claimed."
   ],
-  "next_checkpoint": {
-    "name": "1992-12-batch-72",
-    "goal": "Produce and independently regenerate the complete standalone December JSON/assets issue collection, validate portable references/assets and focused regressions, then perform requirement-by-requirement issue closeout.",
-    "toc_entry_ids": [],
-    "mapping_targets": [],
-    "initial_lookup_candidates": [],
-    "limits": {
-      "canonical_tasks": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    },
-    "note": "Aggregation/reproduction/validation only; no new body OCR, source search or reader work preassigned. Use authoritative45-entry canonical queue,32 selected roots/13064files,16 classification files, final446-page accounting and all five final gap outcomes. Preserve30readable/2partial/7groups/3references/3unresolved. Include donated-cover thumbnail/provenance, corrections and available original assets with resolvable local paths. Reconcile historical private/external companion references and original recipe/assembly provenance before calling the collection portable or closing the issue. Full original recovery,human acceptance/full proofreading and execution remain unverified; no reader rebuild."
-  },
+  "next_checkpoint": null,
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1992-12/evidence/child-anchors-r01/0003-anchor.json",
@@ -10820,7 +10853,7 @@
       "sha256": "70288032a54dc7566d5830668e1889d5ffa980d702958245ad659786ea84f9b5",
       "bytes": 27163
     },
-    "note": "All446 primary pages and recorded mixed contexts reconciled. Six previously unassigned listing pages attributed to0023 and restored as partial;440 other primary rows exact. Prior31 owner-relative exclusions plus lower305 exclusion total32 across15 selected-body pages. All five PDF-pass gap/reference outcomes final: three original-content gaps plus two related references. Historical Batch68 location index remains pinned; current rows300–305 supersede its unassigned ownership. Accounting completion does not prove full original article recovery, source omission, cover usability, standalone issue export or human acceptance.",
+    "note": "All446 physical source pages and recorded mixed contexts have final material/ownership outcomes:244selected body pages/247owner assignments across32maps;32map-local exclusions across15mixed body pages. Current donated cover and standalone13097-file collection validated externally;historical ledger/source records remain exact. Accounting completion does not certify unavailable original article recovery,original omission,missing-page count or human acceptance.",
     "usable_cover_verified": true,
     "current_cover_provenance": {
       "path": "archive/pdf/1992-12/restoration/batch-71/cover-r01/cover.json",
@@ -10941,17 +10974,160 @@
     "note": "Donated cover takes priority. Full front composition and date92/12/December with1992년12월1일 imprint visually reviewed. Source1 is a complete PDF front reference;446 is a clipped wraparound fragment. Bounded RGB thumbnail only; original not bundled and global cover artifacts unchanged. Historical page-accounting usable-cover flag is superseded by this current cover record."
   },
   "issue_integration": {
-    "status": "inputs-reconciled-export-pending",
-    "report": {
+    "status": "complete-data-integration",
+    "prior_report": {
       "path": "archive/pdf/1992-12/restoration/batch-71/issue-integration.json",
       "sha256": "643253cbf87ca6567c352c6b2f4fd8e86ab5eef036adfce2ce3e35e566613993",
       "bytes": 4731
+    },
+    "report": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/final-integration.json",
+      "sha256": "11e7fd0cd057e6224e7b269c344a70cf7b39c4984f59270404b64ed1db92f6a3",
+      "bytes": 1619
     },
     "usable_cover_verified": true,
     "all_primary_pages_accounted": true,
     "all_pdf_pass_gap_outcomes_final": true,
     "complete_original_article_recovery_verified": false,
-    "standalone_issue_export_verified": false,
-    "issue_closeout_complete": false
+    "standalone_issue_export_verified": true,
+    "issue_closeout_complete": true
+  },
+  "completed_at": "2026-11-01T13:34:35.142587+00:00",
+  "restoration_pass_complete": true,
+  "complete_original_article_recovery_verified": false,
+  "remaining_work": [
+    "Human acceptance/full proofreading and volunteer glyph/bitmap work remain deferred.",
+    "Original encoded source/program files,exact spaces/glyph identities/counts,technical/historical truth and compilation/execution remain unverified.",
+    "Three original-content gaps and two related-reference gaps remain explicit final outcomes for this supplied PDF;reopen only on new source or specific contradictory evidence.",
+    "Other issues,collection-wide aggregation,reading-room delivery and deployment are separate tasks."
+  ],
+  "issue_closeout": {
+    "name": "1992-12-batch-72",
+    "completed_at": "2026-11-01T13:34:35.142587+00:00",
+    "scope": "Complete canonical supplied-PDF JSON/assets pass with two partial bodies,three unresolved identities and all five final gap/reference outcomes explicit;not complete original content recovery.",
+    "directory": "archive/pdf/1992-12/restoration/issue-closeout-01",
+    "standalone_directory": "archive/pdf/1992-12/reference",
+    "manifest": {
+      "path": "archive/pdf/1992-12/reference/manifest.json",
+      "sha256": "d63ca4b6c299d16b8f5050546c7fe52fe8b64721f28cf23f79c773eecb11366e",
+      "bytes": 2844125
+    },
+    "accounting": {
+      "path": "archive/pdf/1992-12/reference/accounting.json",
+      "sha256": "5c3e379af4e0f00f02096798c674d8b5fad2cf8ffdd77ffa97c955d87487d7c0",
+      "bytes": 23305
+    },
+    "body_assignments": {
+      "path": "archive/pdf/1992-12/reference/body-assignment-index.json",
+      "sha256": "9db6058e473e94cfcad28b726c2adecd21b1dba1741a896a507f2c87152fe11c",
+      "bytes": 413466
+    },
+    "resource_contexts": {
+      "path": "archive/pdf/1992-12/reference/resource-contexts.json",
+      "sha256": "0b48dee41478994881ca9c4b0fb928a9785d63461689c41b291e60329382f237",
+      "bytes": 12034835
+    },
+    "reading_indexes": {
+      "path": "archive/pdf/1992-12/reference/reading-indexes.json",
+      "sha256": "e5cd4877151b7a117206cb91718274791909a02eb590a0cd362610d93aceab1f",
+      "bytes": 61850
+    },
+    "cover_provenance": {
+      "path": "archive/pdf/1992-12/reference/cover-provenance.json",
+      "sha256": "2c7f8856dd7de554363694ecf69fcce84978e6ffdee0c1850b6336770ed52e96",
+      "bytes": 3423
+    },
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1992-12/reference/final-gap-dispositions.json",
+      "sha256": "70288032a54dc7566d5830668e1889d5ffa980d702958245ad659786ea84f9b5",
+      "bytes": 27163
+    },
+    "coverage_gaps": {
+      "path": "archive/pdf/1992-12/reference/coverage-gaps.json",
+      "sha256": "bac6a3bb54648ab337c4d504488eaa18c520a2288d27272071223fb9415b7334",
+      "bytes": 5371
+    },
+    "reproduction": {
+      "path": "archive/pdf/1992-12/restoration/issue-closeout-01/reproduction.json",
+      "sha256": "1b6617f76779d7886a88f4db90581948650c87f3212fecb2b85cefba5df07031",
+      "bytes": 2844349
+    },
+    "validation": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/report-r02.json",
+      "sha256": "983147bcf035f4a056fce10f991a9140b4d7575a0369bc2406f1a959731d5ffe",
+      "bytes": 4694
+    },
+    "requirements_content_audit": {
+      "path": "archive/pdf/1992-12/restoration/issue-closeout-01/requirements-content-audit-r02.json",
+      "sha256": "9eb79a2065b9b62055a915a0744b193164f282f003212866dec7c77bdea12312",
+      "bytes": 19576
+    },
+    "handoff": {
+      "path": "archive/pdf/1992-12/restoration/issue-closeout-01/handoff-r02.json",
+      "sha256": "ece0cef7bd9e195846ad43e709a885ad9811114d9eead2228783f21555e9b97a",
+      "bytes": 7967
+    },
+    "package_rebuild": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/package-rebuild.json",
+      "sha256": "2ed5dbaa341ca450ed2db9039556f1241d363b96928de1f4a1add9056f2ccd00",
+      "bytes": 138883
+    },
+    "source_crops_and_OCR": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/source-crop-and-OCR-audit.json",
+      "sha256": "51d37be1497ad86b9f26f12d9311b9be8553e72247941bda5009a56f063d69f9",
+      "bytes": 4959156
+    },
+    "ranges": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/range-audit.json",
+      "sha256": "ed116654e0bb0b0fdb457ece500f1d7603dc98c11b08d958787dee3ee1d1eda6",
+      "bytes": 63724
+    },
+    "portable_references": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/portable-reference-audit.json",
+      "sha256": "1739d2c3f21974f5339f9eb8765516fa3e26bf49185daf7d6561d9999004f301",
+      "bytes": 1721
+    },
+    "assets": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/published-asset-audit.json",
+      "sha256": "c58243d32cc81d3630d9b5304db5fd526d22ed91c71b9222a542e5ee353a1690",
+      "bytes": 4680409
+    },
+    "negative_checks": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/negative-audit-r02.json",
+      "sha256": "39aca691e92c48b71eb227cfd260a1ca01d249648105620d9c6d6f1e655deec7",
+      "bytes": 17245
+    },
+    "history": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/history-audit.json",
+      "sha256": "47208e1a763f5c9d48e45b6167ffd4a135902f82bba2b7f1514c50658d49eb91",
+      "bytes": 91435
+    },
+    "fresh_tests": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/test-pdf-result.json",
+      "sha256": "26d08b8a448a6eab41bff2353cfa1ca5721e998de6eda3c2cfaf4d43468f19f4",
+      "bytes": 588
+    },
+    "preservation": {
+      "path": "archive/pdf/1992-12/evidence/issue-closeout-01/preservation-audit.json",
+      "sha256": "9bab37757f472d22d273bd477174ea0e5b39e04a4f9ba4a7b1a439cf017301a6",
+      "bytes": 1039
+    },
+    "standalone_files": 13097,
+    "selected_article_files": 13064,
+    "native_packages_regenerated": 59,
+    "actual_assemblies_regenerated": 14,
+    "selected_roots": 32,
+    "classification_files": 16,
+    "fresh_tests_passed": 213,
+    "complete_original_article_recovery_verified": false,
+    "full_proofreading_or_human_acceptance_claimed": false,
+    "final_saved_state_path": "archive/pdf/1992-12/evidence/issue-closeout-01/verified-after-cleanup.json",
+    "final_requirement_audit_path": "archive/pdf/1992-12/evidence/issue-closeout-01/completion-audit.json",
+    "reader_rebuilt": false
+  },
+  "latest_preservation_inventory": {
+    "path": "archive/pdf/1992-12/evidence/issue-closeout-01/preservation-audit.json",
+    "sha256": "9bab37757f472d22d273bd477174ea0e5b39e04a4f9ba4a7b1a439cf017301a6",
+    "bytes": 1039
   }
 }

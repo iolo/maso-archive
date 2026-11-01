@@ -6,7 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1992 is in progress at the owner's request. Batch 01 completes canonical
+December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.
+The 13,097-file standalone collection reproduces exactly from 59 natives and fourteen
+actual assemblies; fresh 213 PDF tests pass. All 45 identities and 446 pages are
+accounted; full original recovery and human acceptance remain unverified. See Batch 72
+and the December record. Historical checkpoint notes follow; no reader rebuild.
+
+Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
 Thirty readable/sample-reviewed articles, two partials, seven non-owning group headings,
 three section references and three unresolved identities account for 45 canonical entries. All 94 independent
@@ -2085,6 +2091,78 @@ Evidence: `archive/pdf/1992-12/restoration/batch-71/validation.json`,
 `reproduction.json`, `cover-recipe.json`, `issue-integration.json`,
 `prospective-timings.json` and `completion-audit.json`. Session evidence:
 `archive/pdf/1992-12/evidence/session-2026-11-01-52/`.
+
+Batch 72 completes the December 1992 canonical TOC JSON/assets restoration pass
+under steps 8, 9, 11, 12 and the single-issue handoff checks of step 14. All 45
+identities have explicit outcomes: thirty readable/sample-reviewed articles, two
+partial articles, seven non-owning group headings, three anchored section references
+and three unresolved identities. Canonical titles, order, bylines, parents and original
+contents references remain exact. All 446 physical pages have material/ownership
+accounting. The 247 selected owner assignments cover 244 distinct body pages across
+32 maps; 32 map-local exclusions cover fifteen mixed selected-body pages. Shared
+pages 414 and 416 retain separate region ownership.
+
+The standalone collection is `archive/pdf/1992-12/reference/`: 13,097 files, including
+all 13,064 immutable selected article files, the 45-row TOC/accounting, sixteen exact
+classification files, donated-cover thumbnail/provenance, page/mixed/gap/ownership
+reports, active reading-field indexes and resource-context bindings. It requires no
+renderer or browser. All 59 single-map natives regenerate exactly from frozen recipes;
+all fourteen actual assemblies consume regenerated natives through the unchanged
+private adapters. A separate fresh-process issue export consumes those regenerated
+bodies and independently rebuilt cover/accounting/gap/delivery evidence. Every one
+of the 13,097 files matches byte for byte.
+
+All 3,365 native source crops match retained render pixels; 3,023 selected body OCR
+settings retain their exact original execution maps, including unchanged-result reuse.
+All 333,116 typed UTF-8 range occurrences validate in 73 current/native contexts,
+including 14,070 empty anchors and 160,291 native projection pairs. Joined prose is
+independently reconstructed from native texts; assembled listings equal native listing
+concatenation. Every published block correction fragment, three final child anchors,
+two dependent outline references and 247 current owner-map pointers resolve locally.
+The collection includes 32 active reading-index entries with 772 field pointers and
+23,479 original-repository-to-bundled aliases. Exact historical child-evidence bytes
+are co-located with their cumulative gap report. Retained private PDF/donor/TOC/runtime/
+recipe/review/helper/CD fingerprints are explicitly distinguished from consumer paths.
+
+All 3,356 distinct published images fully decode. Every one of 22,692 members in
+73 distinct ZIPs has a safe relative path, valid CRC and exact bundled-file bytes.
+No HTML/frontend artifact, original PDF or donated original is bundled. The verified
+466 × 640 cover follows donated-first priority; source 446 remains only a clipped
+wraparound fragment. Fresh 213 PDF tests pass. Sixteen fresh canonical-accounting
+model fixtures have consistent input manifests and reject invalid identity/ownership/
+anchor/partial/gap claims; the twenty shell and eight cover rehashed semantic checks
+remain preserved. The actual validation scopes are separate and recorded.
+
+All 71 earlier checkpoints satisfy the 2-task/6-mapped-page/20-outside-page ceilings.
+Historical records reconcile 3,030 recognition calls: 3,023 selected body outcomes,
+four non-owning heading-context outcomes and three changed-crop calls. There are
+55 recorded source correction passes and zero unchanged-input recognition retries.
+These are retained assistant workflow attestations, not independent observation of
+mental reading, manual throughput or human proofreading. All 72,872 prior December
+files, 13,064 selected article files, sixteen classifications, 9,332 September reference
+files, thirty core modules, sixteen private adapters, fifteen touched CD reference
+files, donated/global cover inputs and source/runtime/TOC/queue pins remain exact.
+Failed and unique helper/source revisions remain archived.
+
+Five PDF-pass gap outcomes remain explicit: original-content gaps for partial year
+feature 0019, unidentified terminal-control 0022 and partial human-shell 0023, plus
+related child-reference gaps 0020/0021. Year feature 0019 has only its opener on 299;
+shell 0023 preserves the continuous listing fragment on 300–305 without an independent
+opening, prose/listing start or certified complete original extent. The two children
+have outline references without intrinsic body anchors. These are not five independent
+missing articles. No source-wide absence, original omission or missing-page count is
+inferred. Complete original article recovery, original program files/bytes, exact
+source glyphs/spaces, historical/technical truth and execution remain unverified.
+Human acceptance/full proofreading and volunteer glyph/bitmap work remain deferred.
+Other issues and collection-wide aggregation are separate work. No reader rebuild.
+
+Validation and reproduction evidence is retained in
+`archive/pdf/1992-12/restoration/issue-closeout-01/` and
+`archive/pdf/1992-12/evidence/issue-closeout-01/`. `handoff-r02.json` documents private
+inputs, fresh output/resume/build/export/check commands and limits. Use a fresh
+output for every revision; retain originals and unique evidence. The final save,
+cleanup and commit checks are recorded in `verified-after-cleanup.json` and
+`completion-audit.json` in the evidence directory.
 
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group

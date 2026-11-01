@@ -13,20 +13,17 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
-two partials, seven non-owning group headings, three section references and three unresolved
-identities. Batch 70 attributes and restores the six-page surviving human-shell listing
-as partial; its opening and complete original extent remain unlocated. All 63 files
-reproduce exactly, eighteen crops match source pixels and twenty semantic checks pass.
-All 446 pages have integrated material/ownership outcomes: 244 selected body pages,
-32 maps and 32 exclusions across fifteen mixed body pages. Five final PDF-pass gap tasks
-comprise three original-content gaps plus two related references; full original recovery
-and original source omission remain unverified. Selected bodies total 13,064 files across
-32 roots, with sixteen classification files separate. Batch 71 verifies the dated donated
-cover and three exact thumbnail/provenance exports; originals and global cover assets
-remain unchanged. Next: portable standalone JSON/assets issue export, full independent
-regeneration, reference checks, fresh regressions and issue closeout.
-See the [December record](docs/progress/9212.md). Full objective active. No reader rebuild.
+December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
+gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section
+references and three unresolved identities account for all 45 entries. All 446 pages are
+accounted. The **13,097-file standalone collection** at `archive/pdf/1992-12/reference/`
+matches an independent export from 59 regenerated natives and fourteen actual assemblies.
+Fresh 213 PDF tests and complete source-crop, range, local-reference, image/ZIP and scoped
+preservation checks pass. The verified donated-cover thumbnail and provenance are included.
+Three original-content gaps plus two related-reference gaps remain explicit; complete
+original recovery, full proofreading and human acceptance are not claimed. No reader rebuild.
+See the [December record](docs/progress/9212.md) and private
+`archive/pdf/1992-12/restoration/issue-closeout-01/handoff-r02.json` for reproduction and limits.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
