@@ -59,7 +59,16 @@ All seventeen body pages 156–172 are preserved across a/b/c; actual parent ass
 and final child anchors remain required. Printed chart 4.183 versus prose 4183,
 chip/time-unit/ratio/cache claims and wording stay literal. Nine invalid custom-data
 cases rejected; all 13,595 prior files and thirty core modules remain exact.
-Next: assemble all three natives and finalize child 0002; no new OCR planned.
+Batch 05 actually assembles the readable parent on 156–172: 626 exact files from
+three independently regenerated natives/617 files and a fresh-process rebuild.
+All 163 crops, 118 reading blocks, twenty original images, 143 outcomes, 2,324
+projected metadata ranges and 4,484 current typed occurrences validate. Main 160→162
+joins across independent PCI sidebar 161; two section boundaries and all source
+blocks/listing bytes remain intact. Child 0002 is a final non-owning anchor 157/155.
+Nine rehashed assembly/child cases rejected; no new OCR/source correction. All
+13,796 prior files and thirty core modules remain exact; 213-test result retained.
+Next: finalize children 0003/0004 against the complete assembled parent, then
+continue remaining March bodies. No new OCR for the anchor checkpoint.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:

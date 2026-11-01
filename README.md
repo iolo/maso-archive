@@ -13,14 +13,15 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active. The complete column on PDF 100–101/printed 98–99
-and partial feature natives 156–172 have 699 independently exact JSON/assets files;
-all 183 source crops and 2,599 typed ranges validate. The 213 PDF tests passed;
-core modules remain unchanged. All seventeen feature pages are preserved across
-three immutable natives; actual assembly and child anchors are next.
-One readable article, one partial and fifty unresolved identities account for the
-52-entry queue. Remaining restoration, 433-page accounting, cover and issue closeout
-are pending. See [March progress](docs/progress/9303.md). No reader rebuild.
+March 1993 restoration is active. Two readable/sample-reviewed articles and one
+non-owning section reference are complete; 49 of 52 identities remain unresolved.
+The complete local-bus feature on PDF 156–172 contains 626 independently exact files
+from three regenerated natives and a fresh-process rebuild. All 163 source crops
+and 2,324 projected metadata ranges validate; source listing bytes and independent
+sidebar remain intact. The two current body-owner packages contain 708 files;
+all 617 original feature-native files are also retained. Next are final anchors for
+children 0003/0004, then remaining bodies, 433-page accounting, cover and issue closeout.
+See [March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

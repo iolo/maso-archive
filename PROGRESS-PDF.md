@@ -6,17 +6,19 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: one readable/sample-reviewed column, one partial feature
-and fifty unresolved identities among 52 entries. Batches 01–04 preserve PDF
-100–101 and 156–172 into 699 independently exact JSON/assets files. All 183 crops,
-161 selected OCR outcomes and 2,599 typed ranges validate; the 213-test result is
-retained with unchanged core modules. All seventeen feature pages are preserved
-across three immutable natives. Next: actually assemble the parent and finalize
-child 0002, then the other child anchors. Final section retains three charts/24
-values, eighteen specification fields and two literal DOS fragments/ten rows.
-Remaining bodies, full 433-page accounting, cover and issue closeout are pending.
-See [March progress](docs/progress/9303.md) and its
-[ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
+March 1993 is in progress: two readable/sample-reviewed articles, one non-owning
+section reference and 49 unresolved identities among 52. The complete feature on
+PDF 156–172 is actually assembled: 626 exact files from three regenerated natives/
+617 files and a fresh-process rebuild. All 163 crops, 118 blocks, twenty images,
+143 OCR outcomes, 2,324 projected metadata ranges and 4,484 current typed occurrences
+validate. The main 160→162 join crosses independent sidebar 161; all source blocks,
+configuration listing bytes and two intrinsic section boundaries remain intact.
+Child 0002 has a final non-owning anchor 157/155; children 0003/0004 are next.
+Two current body-owner packages contain 708 exact files; all 617 original feature
+native files remain unchanged. No new assembly OCR/source correction; prior 213-test
+result retained with thirty unchanged core modules. Remaining bodies, 433-page
+accounting, cover and issue closeout are pending. See [March progress](docs/progress/9303.md)
+and its [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.
 The 13,097-file standalone collection reproduces exactly from 59 natives and fourteen

@@ -80,12 +80,21 @@ and final child anchors remain required. Printed chart 4.183 versus prose 4183,
 chip/time-unit/ratio/cache claims and wording stay literal. Nine invalid custom-data
 cases rejected; all 13,595 prior files and thirty core modules remain exact.
 
-Current totals: one readable article, one partial feature and fifty unresolved
-identities; 699 selected files, 183 crops, 161 outcomes and 2,599 typed ranges.
-Batch 05 next actually assembles the parent and finalizes child 0002 within the
-2-task ceiling. No new OCR is planned. Child 0003/0004 anchors follow in a separate
-checkpoint. Full-page accounting, remaining bodies, cover and issue closeout remain
-required. See [March progress](docs/progress/9303.md) and the
+Batch 05 actually assembles the readable parent on 156–172: 626 exact files from
+three independently regenerated natives/617 files and a fresh-process rebuild.
+All 163 crops, 118 reading blocks, twenty original images, 143 outcomes, 2,324
+projected metadata ranges and 4,484 current typed occurrences validate. Main 160→162
+joins across independent PCI sidebar 161; two section boundaries and all source
+blocks/listing bytes remain intact. Child 0002 is a final non-owning anchor 157/155.
+Nine rehashed assembly/child cases rejected; no new OCR/source correction. All
+13,796 prior files and thirty core modules remain exact; 213-test result retained.
+
+Current totals: two readable articles, one non-owning section reference and 49
+unresolved identities among 52. Two current body-owner packages contain 708 exact
+files; all 617 original feature-native files remain unchanged. Batch06 finalizes
+children 0003/0004, preserving canonical/source title variants; no new OCR planned.
+Remaining bodies, 433-page accounting, cover and issue closeout remain required.
+See [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01
