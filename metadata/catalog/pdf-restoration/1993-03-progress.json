@@ -1048,23 +1048,116 @@
       "toc_entry_id": "maso-1993-03-toc-0011",
       "title": "(주)정보시대 창립 10주년 기념 : 소프트웨어 공모대전 안내",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents4 explicitly lists canonical publisher ten-year software competition notice0011 at132. Source134–135 split title,anniversary10,issuer,WINDOWS/MS-DOS competition labels andrules identify this exact canonicalbody. Vertical社告 remains literal. This does not authorize unrelated advertising extraction.",
+        "Neither source134 nor135 has visible printed magazine folio. Canonical132 stays separate from actualfolio metadata,which remains null. Prior133 reader/quiz material andfollowing136/137 April previews confirm actual ending135 without globaloffset inference.",
+        "Complete115-file native reproduces independently andin a fresh process.29 exact source crops,26 outcomes,16 blocks,248 typed ranges and39 region-local source rows/fragments validate. Two full original compositions andaward panel preserveWindows/DOS art,issuer logo andlayout.",
+        "Nine numbered sections,four ranked award rows/eight cells andone merged common-award span,counts1/2/4/4,two competition labels,three contact rows andtwo phone/fax occurrences retain source contexts. No invented tableheaders,fifth rank,author orsourcefolio.",
+        "All26 raw drafts read before one source pass. Ten pre-OCR crop repairs;zero retries,within-pass orpost-pass changes. Nine rehashed notice,three group andtwo ownership mutations rejected;valid actual canonicalfixture passes.17477 priorfiles/30 core modules exact;prior fresh213-test log retained.",
+        "Historical wording,criteria,dates,prizes andcontact values literal;original glyphs/spaces/encodedbytes,current validity,human acceptance andfull proofreading remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-13-r01/competition-notice",
+        "article_id": "scan-maso-1993-03-toc-0011",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-13-r01/competition-notice/manifest.json",
+          "sha256": "a06fbf5fec715caa10165dbf8bb6f424a3eb1193b96fc1c5fe223a673063fd42",
+          "bytes": 19547
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            134,
+            135
+          ],
+          "printed_pages": [
+            null,
+            null
+          ],
+          "regions": 29,
+          "blocks": 16,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 135,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-13/validation-complete.json",
+          "sha256": "274501ed00afc0c462117efe7e8cd9020ada4283e43befaa41d10c4fdf791836",
+          "bytes": 3255
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-13/reproduction.json",
+          "sha256": "cd4adfd152a13eeb645e0580fa3d3f5f524efc08bec11fdd941b505154b1a304",
+          "bytes": 20047
+        },
+        "checkpoint": "batch-13",
+        "full_source_extent": {
+          "start_pdf_page": 134,
+          "end_pdf_page": 135,
+          "uninspected_interior_pdf_pages": [],
+          "note": "Complete canonical two-page publisher announcement,not unrelated product advertising. Original contents4 explicitly lists reference132;neither current page shows visible printed folio. Reader/quiz133 has131;separate April previews136/137 have134/135. No inferred current folios orglobal offset."
+        },
+        "source_document_type": "publisher-announcement",
+        "canonical_page_reference": 132,
+        "source_visible_printed_folios": [
+          null,
+          null
+        ],
+        "notes": [
+          "Single complete two-page native;no separate assembly required. Full original compositions andaward-grid asset retain graphic source design alongside searchable text.",
+          "Canonical title says 소프트웨어 공모대전 안내;source title says 프로그램 공모대전. Exactcanonicaltitle andall printed forms,includingWINDOWS/MS-DOS labels,remain separate.",
+          "Nine numbered sections,four prize rows/eight cells,separate common award andthree contact rows retain source indexes. Issuer isnot invented asauthor;canonical byline null.",
+          "Assistant sample review;exact original glyphs/spaces/encoded bytes,full proofreading,human acceptance andhistorical rule/prize/contact validity unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0012",
       "title": "원리구현",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents4 lists pageless 원리구현 above distinctly titled/bylined technical children. Source198 repeats same category banner above canonicalHuffman0013;printed196 ischildcontext,not groupfolio.",
+        "Deterministic two-file classification evidence reproduces independently andin a fresh process;categorycrop matchesoriginalsourcepixels. Allseven canonicalchild IDs remain unchanged;no standalone groupbody,author orpage reference invented andno child restoration advances."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1993-03/classifications/batch-13-r01/group-0012.json",
+          "sha256": "ffac8dfaaadafdbe950baa537e079d944014546917eebea37235829342c82642",
+          "bytes": 2218
+        },
+        "source_category_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-13-r01/category.png",
+          "sha256": "273b38c8c80a87bd50b67ef4fcc1ab405d3c4c769aa94a3f0b8e7a318870026d",
+          "bytes": 70975
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-13/validation-complete.json",
+          "sha256": "274501ed00afc0c462117efe7e8cd9020ada4283e43befaa41d10c4fdf791836",
+          "bytes": 3255
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-13/group-reproduction.json",
+          "sha256": "889f31f0625be9aa6c3b792ada20346388c98c6b65a59153d8a9fb6ae76ecf29",
+          "bytes": 815
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0013",
@@ -1901,15 +1994,63 @@
         "sha256": "171af81590bea39f9ca9aab6c90d342f343e2b5dad806e78b9b5b0cd58ed7aa8",
         "bytes": 91422
       }
+    },
+    {
+      "name": "1993-03-batch-13",
+      "status": "complete",
+      "completed_at": "2026-11-01T19:21:29.018832+00:00",
+      "goal": "Restore complete canonical publisher competition notice134–135 andclassify pageless 원리구현0012 asnon-owning fromoriginal contents/category evidence.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0011",
+        "maso-1993-03-toc-0012"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        134,
+        135,
+        198
+      ],
+      "mapped_roles": {
+        "article_body": [
+          134,
+          135
+        ],
+        "nonowning_category_evidence": [
+          198
+        ]
+      },
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 26,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 10,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-13/validation-complete.json",
+        "sha256": "274501ed00afc0c462117efe7e8cd9020ada4283e43befaa41d10c4fdf791836",
+        "bytes": 3255
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-13/reproduction.json",
+        "sha256": "cd4adfd152a13eeb645e0580fa3d3f5f524efc08bec11fdd941b505154b1a304",
+        "bytes": 20047
+      },
+      "group_reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-13/group-reproduction.json",
+        "sha256": "889f31f0625be9aa6c3b792ada20346388c98c6b65a59153d8a9fb6ae76ecf29",
+        "bytes": 815
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
-    "group_headings": 1,
+    "group_headings": 2,
     "section_references": 3,
-    "unresolved": 42
+    "unresolved": 40
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -1917,24 +2058,38 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-13",
-    "goal": "Verify source location,eligibility andactual extent ofcanonical0011 competition notice,then restore up tosix verified eligible bodypages orretain explicit eligibility/location gap.",
+    "name": "1993-03-batch-14",
+    "goal": "Verify actual extent andending ofcanonicalHuffman article0013,then restore upto six verified body pages withoriginal diagrams,formulas,tables andliteral code.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0011"
+      "maso-1993-03-toc-0013"
     ],
-    "canonical_page_reference": 132,
-    "provisional_source_probe_pdf_pages": [
-      133,
-      134,
-      135
+    "canonical_page_reference": 196,
+    "initial_source_probe_pdf_page": 198,
+    "provisional_mapping_targets": [
+      198,
+      199,
+      200,
+      201,
+      202,
+      203
     ],
-    "mapping_targets": [],
+    "planned_outside_lookup_pdf_pages": [
+      197,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Canonical queue returns to reference132 after health186. PDF134 is a location lead only;observe actual folio/title andadjacent ownership beforemapping. Do not infer global PDF/folio offset or treat an unrelated advertisement as body. Group0012/Huffman0013 remain pending beyond this identity. No reader rebuild."
+    "note": "Opening198/printed196,category/title/byline홍창완 already directly observed. Group0012 owns no body. Confirm intervening ownership andactualending beforemapping;next popuparticle reference208 is a location lead only,not proof ofend209 orglobalfoliooffset. Retain sourceformula/code defects andexplicit uncertainglyphs;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -1966,6 +2121,16 @@
       "path": "archive/pdf/1993-03/classifications/batch-07-r01/group-0006.json",
       "sha256": "1a5365a45bae3777e3eb355df1aa5c2d00ba23f6a30d82dc6d8948cd9bc68708",
       "bytes": 2434
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-13-r01/category.png",
+      "sha256": "273b38c8c80a87bd50b67ef4fcc1ab405d3c4c769aa94a3f0b8e7a318870026d",
+      "bytes": 70975
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-13-r01/group-0012.json",
+      "sha256": "ffac8dfaaadafdbe950baa537e079d944014546917eebea37235829342c82642",
+      "bytes": 2218
     }
   ]
 }

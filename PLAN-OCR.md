@@ -153,12 +153,30 @@ references. R02 fixes twenty guide and four boundary references; only six root J
 files differ. Article text, raw ZIP, all 493 native files and assets remain exact.
 Nine rehashed root cases and two ownership cases are rejected. All 16,099 prior
 files and thirty core modules remain unchanged; prior fresh 213-test log retained.
-Current totals: six readable/sample-reviewed articles, no partials, one non-owning
-group, three final section references and 42 unresolved identities. Next: verify
-canonical 0011, (주)정보시대 창립 10주년 기념 : 소프트웨어 공모대전 안내, reference 132.
-Probe source location/eligibility/extent before mapping; PDF 134 is a lead, not a
-verified page or global folio offset. Preserve explicit gaps if unresolved. Full
-issue goal active; no reader rebuild. See [March progress](docs/progress/9303.md).
+Batch 13 completes canonical competition notice 0011 on PDF 134–135 as a
+115-file native, reproduced independently and in a fresh process. Both source
+folios remain null; original contents reference 132 is retained separately.
+All 29 exact crops, 26 outcomes, 248 typed ranges and 39 source rows/fragments
+validate. Two original full-page compositions and the award panel preserve the
+graphic design; nine numbered sections, four ranked award rows/eight cells,
+a separate common-award span, counts 1/2/4/4 and three contact rows remain indexed.
+Issuer is not an invented byline. Canonical and printed spread-title forms differ
+and remain separate. This explicitly TOC-listed publisher announcement is eligible;
+it does not authorize unrelated advertising extraction.
+Pageless category 0012, 원리구현, is now non-owning from contents 4 and the repeated
+banner on 198. Its two evidence files reproduce independently/fresh-process; the
+category crop is exact. All seven child links remain; no group body/folio or child
+restoration is invented. All 26 drafts read before one source pass; ten pre-OCR
+repairs, zero retries or within-pass/post-pass changes. Nine rehashed notice,
+three group and two ownership mutations are rejected. All 17,477 prior files and
+thirty core modules remain exact; prior fresh 213-test result retained.
+Current totals: seven readable/sample-reviewed articles, no partials, two non-owning
+groups, three final section references and 40 unresolved identities. Next: verify
+actual extent/ending of Huffman article 0013, 정지영상 압축 기술의 응용(1) : 허프만
+테이블의 구현, by 홍창완. Opening 198/printed 196 is observed; later ownership and
+ending require direct review before mapping up to six body pages. Preserve original
+diagrams, formulas, tables and literal code. Full issue goal active; no reader
+rebuild. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
 thirty readable/sample-reviewed articles, two partials, seven non-owning groups,

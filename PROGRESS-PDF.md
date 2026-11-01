@@ -6,24 +6,23 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: six readable/sample-reviewed articles, no partials,
-one non-owning group, three final section references and 42 unresolved identities
-among 52. The complete health package on PDF 188–196 has 501 exact r02 files,
-reproduced from both regenerated natives/493 files and in a fresh process. All
-135 crops, 114 outcomes, 1,503 metadata projections, 2,892 current ranges and 750
-rows validate. Main 188–193 and uncredited editorial guide 194–196 remain distinct.
-Four independent quotations, 36 headings, 27 numbered entries in ten guide groups,
-twenty guide images and final posture panel preserve source contexts.
-Final native adds 87 initial plus three changed-input calls before one source pass;
-84 unchanged outcomes retain original execution provenance. Zero unchanged-input
-retries or within-pass/post-pass changes. R02 fixes figure-region and boundary
-namespace references caught in r01's semantic audit. Only six root JSON files
-change; all native, article-text, asset and raw-ZIP bytes remain exact. Nine rehashed
-root cases and two ownership cases are rejected. All 16,099 prior files and thirty
-core modules are exact; prior fresh 213-test log retained. Six current body-owner
-packages contain 1,924 files. Next: source verification for competition notice 0011,
-reference 132. Remaining bodies, 433-page accounting, cover and closeout remain
-required. See [March progress](docs/progress/9303.md) and its
+March 1993 is in progress: seven readable/sample-reviewed articles, no partials,
+two non-owning groups, three final section references and 40 unresolved identities
+among 52. The competition notice on PDF 134–135 is a complete 115-file native,
+reproduced independently and in a fresh process. Its source folios remain null;
+canonical contents reference 132 is separate. All 29 crops, 26 outcomes, 248 ranges
+and 39 source rows/fragments validate. Nine numbered sections, four award rows/
+eight cells, a separate common-award span, repeated winner counts and contact rows
+retain source contexts. Original full-page compositions and award grid remain.
+Category 0012, 원리구현, is non-owning from contents/category evidence; its exact
+two-file export preserves all seven child links and creates no child body. All
+26 drafts read before one source pass; ten pre-OCR repairs, zero retries or
+within-pass/post-pass changes. Fourteen altered-data cases are rejected. All
+17,477 prior files and thirty core modules remain exact; prior fresh 213-test log
+retained. Seven current body-owner packages contain 2,039 files. Next: verify the
+Huffman article's actual extent from opener 198/196, then restore up to six verified
+pages. Remaining bodies, 433-page accounting, cover and closeout remain required.
+See [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.

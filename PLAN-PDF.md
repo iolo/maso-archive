@@ -182,13 +182,32 @@ files differ. Article text, raw ZIP, all 493 native files and assets remain exac
 Nine rehashed root cases and two ownership cases are rejected. All 16,099 prior
 files and thirty core modules remain unchanged; prior fresh 213-test log retained.
 
-Current totals: six readable/sample-reviewed articles, no partials, one non-owning
-group, three section references and 42 unresolved identities among 52. Six current
-body-owner packages contain 1,924 exact files. Original natives, classification
-sidecars and superseded assemblies remain retained. Batch 13 verifies canonical
-0011's competition notice, reference 132, before mapping any eligible body. PDF 134
-is a source-location lead only. Remaining bodies, 433-page accounting, cover and
-issue closeout remain required. See [March progress](docs/progress/9303.md) and the
+Batch 13 completes canonical competition notice 0011 on PDF 134–135 as a
+115-file native, reproduced independently and in a fresh process. Both source
+folios remain null; original contents reference 132 is retained separately.
+All 29 exact crops, 26 outcomes, 248 typed ranges and 39 source rows/fragments
+validate. Two original full-page compositions and the award panel preserve the
+graphic design; nine numbered sections, four ranked award rows/eight cells,
+a separate common-award span, counts 1/2/4/4 and three contact rows remain indexed.
+Issuer is not an invented byline. Canonical and printed spread-title forms differ
+and remain separate. This explicitly TOC-listed publisher announcement is eligible;
+it does not authorize unrelated advertising extraction.
+Pageless category 0012, 원리구현, is now non-owning from contents 4 and the repeated
+banner on 198. Its two evidence files reproduce independently/fresh-process; the
+category crop is exact. All seven child links remain; no group body/folio or child
+restoration is invented. All 26 drafts read before one source pass; ten pre-OCR
+repairs, zero retries or within-pass/post-pass changes. Nine rehashed notice,
+three group and two ownership mutations are rejected. All 17,477 prior files and
+thirty core modules remain exact; prior fresh 213-test result retained.
+
+Current totals: seven readable/sample-reviewed articles, no partials, two non-owning
+groups, three section references and 40 unresolved identities among 52. Seven
+current body-owner packages contain 2,039 exact files; eight final classification
+evidence files are retained separately. Original natives and superseded assemblies
+remain unchanged. Batch 14 verifies Huffman article 0013's actual extent from
+opening PDF 198/printed 196, then restores up to six verified body pages. Remaining
+bodies, 433-page accounting, cover and issue closeout remain required. See
+[March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01
