@@ -37,8 +37,8 @@ identities. Batch 01 restores canonical 0005, 컬럼마소쉘 : 한글 소프트
 as a complete three-page article: PDF 108–110, individually verified printed 98–100.
 Batch 02 adds the six-page opening of feature 0001 on PDF 156–161. Batch 07
 assembles that complete 28-page feature. Batch 09 completes the PC-election story.
-Current totals: nineteen readable/sample-reviewed articles,
-one partial, six group headings, three section references and sixteen unresolved identities.
+Current totals: twenty-one readable/sample-reviewed articles,
+one partial, six group headings, three section references and fourteen unresolved identities.
 
 The two independent JSON/assets exports contain 94 exact files. All 23 native
 crops match source render pixels; all 21 mapped Tesseract drafts were read and
@@ -880,19 +880,64 @@ frozen private audit; no generic custom-schema claim. All 53,718 prior December 
 files and thirty core/source/runtime/TOC/queue pins remain exact. Unchanged 213-test baseline
 reused. Only 0033/0034 advance; all other child states remain unchanged.
 
-Next: verify and restore independent MODECON article 0035 and monitor-performance tip 0043
-on observed shared PDF 414/439. Reuse whole 414, adjacent 413/415 and original contents 4/5;
-confirm each body's actual extent, ending, title and credit before mapping. Source-backed
-classification is required for uncertain-kind 0043. Exclude completed 0034's upper-page body,
-keep the two new bodies separate and preserve canonical sibling parents/null references.
-At most two canonical tasks, six mapped pages and twenty outside lookup pages. Other child
-states remain unchanged. Thirteen prior adapters remain required. Current totals: nineteen
-readable/sample-reviewed articles, one partial, six groups, three section references and
-sixteen unresolved identities. Twenty roots contain 9,766 selected files; fourteen
-classifications are separate. UNIX/year-feature locations, other bodies/assemblies, all
-446-page accounting, cover, standalone export/rebuild and closeout remain required. Original
-glyphs/spaces/encoded bytes, technical truth, execution, human acceptance/full proofreading
-remain unverified. Full December goal active. No reader rebuild.
+Batch 47 completes independent MODECON article 0035 and monitor-performance tip 0043
+on shared PDF 414/individually read folio 439. Three 41-file MODECON exports and three
+45-file monitor exports match, including fresh-process builds. The eight/ten source crops,
+eight/nine OCR outcomes, six/eight blocks, 25/47 reading rows and 67/105 typed ranges
+validate. All eighteen PNG decodes and two ZIP CRCs pass. Eighty cross-body crop pairs
+are disjoint, and every eligible region is disjoint from its exclusions. Completed upper-
+page Get/READ article 0034 remains separate; 413 and 415 are independent neighboring bodies.
+
+MODECON source title MODE CON을 이용한 쾌적한 도스 화면보기 differs from the canonical
+MODE CON으로 쾌적한 도스 화면보기. Both remain explicit; credit 원치호, parent 0031,
+null reference and order stay unchanged. One opening group retains three column fragments
+and two boundaries. The single unnumbered command row retains MODE CON: LINES=50.
+Forward slashes, typographic spaces and the physical SYS wrap in DEVICE = C : /DOS/ANSI.
+SYS stay literal. Four file occurrences, four values (50, 40, 50, 42), five variants and
+the directory/text-size claims remain source-linked. No valid DOS syntax repair, original
+encoded commands/files, execution or technical-truth certification.
+
+Uncertain-kind 0043 resolves to an independent article body from its own contents title,
+gray panel, bullet-title, introduction, six numbered items and actual ending. No byline is
+observed or supplied; parent 0031/null reference/order stay intact. It is not nested under
+MODECON or heading 0033. The complete original panel intentionally overlaps only its own
+searchable text. All six two-row numbered headings and six paragraph-gap anchors remain.
+Step 4's middle-to-right continuation preserves selected / 하는 것이 좋다. contexts without
+merging physical rows. Printed 추위서, fliker, 낀듯, the circular bullet approximation and
+fragmentary 얘기./모니터. endings remain literal. Four variants and historical display,
+selection and eye-health claims retain their uncertainty; no current advice certification.
+
+The original shared inventory omitted uncertain-kind 0043, so its first export was rejected.
+A narrowly scoped private eligibility adapter now accepts only that frozen canonical
+identity/source/TOC/geometry/map and the issue queue's source-backed independent-body
+decision. Six altered identity/source/map cases are rejected. The generic core and shared
+inventory remain unchanged. Successful MODECON output was reused exactly. The failed export
+and a dependent audit launched before checking its success remain archived; the latter
+failed on the missing monitor output and passes after export completion. No new OCR or
+source correction was used for either repair. Thirteen assembly adapters remain required;
+the Batch 47 eligibility adapter is additionally needed when rebuilding monitor 0043.
+
+All seventeen complete raw drafts read in one untruncated output before one literal source
+pass: one eng/sixteen kor+eng, zero retries or crop changes. All eighteen exact initial
+crops reviewed on five sheets; no pre-OCR repairs. Three enlarged source-only details
+reviewed without recognition. Thirty consistently rehashed custom-metadata edits pass
+generic exports and fail the frozen private audit; no generic custom-schema claim.
+All 53,984 prior December files, 9,766 former selected files/twenty roots, fourteen
+classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
+exact. Unchanged 213-test baseline reused; only 0035/0043 advance.
+
+Next: verify actual extent and restore Clipper/ACHOICE article 0036 from observed independent
+opening PDF 415/440, credited 신준현. Reuse retained 415 and adjacent 414; inspect following
+pages adaptively to confirm the ending and next independent title before mapping at most
+six confirmed body pages. Segment if longer. Preserve both printed listings, literal code,
+comments, physical/logical rows, glyph candidates and original-file limits. Other identities,
+including printer 0044, stay unchanged. Current totals: twenty-one readable/sample-reviewed
+articles, one partial, six groups, three section references and fourteen unresolved identities.
+Twenty-two roots contain 9,852 selected files; fourteen classifications are separate.
+UNIX/year-feature locations, other bodies/assemblies, all 446-page accounting, cover,
+standalone export/rebuild and closeout remain required. Original glyphs/spaces/encoded bytes,
+technical truth, execution, human acceptance/full proofreading remain unverified.
+Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).
 

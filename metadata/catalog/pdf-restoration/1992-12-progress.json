@@ -4555,23 +4555,167 @@
       "toc_entry_id": "maso-1992-12-toc-0035",
       "title": "MODE CON으로 쾌적한 도스 화면보기",
       "parent_id": "maso-1992-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent MODECON article0035 complete onPDF414/printed439. Source title MODE CON을 이용한 쾌적한 도스 화면보기 differs fromcanonical MODE CON으로 쾌적한 도스 화면보기;both retained. Source/canonical credit원치호 andparent0031/nullreference/order unchanged. Two opening fragments belowtitle continueupperright;final EGA paragraph endsbefore independentgraymonitor tip. Adjacent413/GetREAD and415/Clipper aredifferent bodies;no closingM inferred.",
+        "Three41-file exports match includingfreshprocess. All8 sourcecrops,8 OCRoutcomes,6blocks,25readingrows and67typedranges/0emptyanchors validate. Shared-page audit checks80cross-body crop pairs disjoint andalleligible regions disjoint fromexclusions. Monitor completeoriginalpanel intentionally overlaps onlyitsown searchabletext.",
+        "One unnumbered commandrow retains literal MODE CON: LINES=50. DEVICE = C : /DOS/ANSI. / SYS physicalwrap,forwardslashes andtypographicspacing retained withoutvalidDOS repair. Fourprintedfile occurrences,four numericalvalues(50,40,50,42),five sourcevariants anddirectory/text-size claims retain sourcecontexts. Oneintrogroup/twoboundaries preserves allthreecolumnfragments. Original encodedcommands/files,execution andtechnicaltruth unverified.",
+        "All17complete rawdrafts read inone untruncatedoutput beforeone literalsourcepass;oneeng/sixteenkor+eng,zero retries,pre-OCR repairs orwithin-pass changes. All18exact initialcrops directlyreviewed onfive sheets;threesource-only enlargements viewedwithoutrecognition. Initialmonitor eligibility rejection andpremature dependentmissing-output audit retained;successfulMODECON bytes reused,monitor rebuilt onlyafter narroweligibilityadapter. No new sourcecorrection orrecognition.",
+        "Thirty consistentlyrehashed custommetadata edits passgenericexports andfailfrozenprivateaudit; sixaltered0043identity/source/map casesfail scopedeligibilityguard. Nogenericcustom-schema claim. All53984 priorDecember files,9766former selectedfiles/twentyroots,fourteenclassifications,9332Septemberfiles andthirtycore/source/runtime/TOC/queuepins exact. Unchanged213-test baseline reused. Assistantsamplereview only;originalglyphs/spaces/encodedbytes,humanacceptance/fullproofreading unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-47-r01/modecon",
+        "article_id": "scan-maso-1992-12-toc-0035",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-47-r01/modecon/manifest.json",
+          "sha256": "4d70a51f4fbcc7a4e676dd9e890b35456400eea2fb9a4dc20b50cb602c6ac985",
+          "bytes": 7062
+        },
+        "coverage": {
+          "pdf_pages": [
+            414
+          ],
+          "printed_pages": [
+            "439"
+          ],
+          "regions": 8,
+          "blocks": 6,
+          "figures": 0,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 414,
+        "actual_end_pdf_page": 414,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/validation.json",
+          "sha256": "44d8b563483c0b67e14e4c172f814ff564d1a130a83c90b5dd7b63b34d7f02e3",
+          "bytes": 3387
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/reproduction.json",
+          "sha256": "dbd68f8a46e9ff975116af1ce7267475f6b173ea04f23fb2118e9cce75f2896e",
+          "bytes": 17995
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/fresh-process-reproduction.json",
+          "sha256": "f791606f84fe0e90773c029991b608379bedf1ed583a79a433d3db4bf9a9fe57",
+          "bytes": 17702
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/negative-checks.json",
+          "sha256": "61659416a9782284d515bb5fa70559e704991cf6de1e6e8d48b6a0f91969851a",
+          "bytes": 6063
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/source-boundaries.json",
+          "sha256": "575d61c14eece26c7bb336d0f8431d1bffa0341d1f7005f995bc4fd40468c1af",
+          "bytes": 513
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/modecon/package-recipe.json",
+          "sha256": "e69543341099be6f5bb8e9dc388ffa191504d6660febfbafd9608991f534ae6e",
+          "bytes": 2006
+        },
+        "checkpoint": "batch-47"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0043",
       "title": "모니터의 성능을 확인하려면",
       "parent_id": "maso-1992-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0043 uncertain subtopic resolves toindependent articlebody fromowncontents title,graypanel/bullet-title,introduction,six numbereditems andactualfinalending onPDF414/printed439. No source/canonical byline observed orsupplied. Parent0031/nullreference/order unchanged;not childofMODECON orheading0033. CompletedGetREAD andMODECON bodies excluded;415 independent.",
+        "Three45-file exports match includingfreshprocess. All10 sourcecrops,9 OCRoutcomes,8blocks,47readingrows and105typedranges/6emptyanchors validate. Shared-page audit checks80cross-body crop pairs disjoint andalleligible regions disjoint fromexclusions. Monitor completeoriginalpanel intentionally overlaps onlyitsown searchabletext.",
+        "Six numbereditems retain six two-row headingwraps,bodycontexts andsix paragraph-gap anchors. Step4 middle-to-right continuation selected / 하는 것이 좋다. retainsboth sourcefragments withoutphysicalrowmerge. Printed 추위서/fliker,낀듯,Unicodebullet andfragmentary 얘기./모니터. endings retained;four sourcevariants explicit. Historicalselection/display/eye-health claims remainliteral andunverified.",
+        "All17complete rawdrafts read inone untruncatedoutput beforeone literalsourcepass;oneeng/sixteenkor+eng,zero retries,pre-OCR repairs orwithin-pass changes. All18exact initialcrops directlyreviewed onfive sheets;threesource-only enlargements viewedwithoutrecognition. Initialmonitor eligibility rejection andpremature dependentmissing-output audit retained;successfulMODECON bytes reused,monitor rebuilt onlyafter narroweligibilityadapter. No new sourcecorrection orrecognition.",
+        "Thirty consistentlyrehashed custommetadata edits passgenericexports andfailfrozenprivateaudit; sixaltered0043identity/source/map casesfail scopedeligibilityguard. Nogenericcustom-schema claim. All53984 priorDecember files,9766former selectedfiles/twentyroots,fourteenclassifications,9332Septemberfiles andthirtycore/source/runtime/TOC/queuepins exact. Unchanged213-test baseline reused. Assistantsamplereview only;originalglyphs/spaces/encodedbytes,humanacceptance/fullproofreading unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-47-r01/monitor",
+        "article_id": "scan-maso-1992-12-toc-0043",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-47-r01/monitor/manifest.json",
+          "sha256": "10f0edf5970a57a02bd214446eea6dfabf9c574aed07240e1f14e0bea74b92ce",
+          "bytes": 7776
+        },
+        "coverage": {
+          "pdf_pages": [
+            414
+          ],
+          "printed_pages": [
+            "439"
+          ],
+          "regions": 10,
+          "blocks": 8,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 414,
+        "actual_end_pdf_page": 414,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/validation.json",
+          "sha256": "44d8b563483c0b67e14e4c172f814ff564d1a130a83c90b5dd7b63b34d7f02e3",
+          "bytes": 3387
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/reproduction.json",
+          "sha256": "dbd68f8a46e9ff975116af1ce7267475f6b173ea04f23fb2118e9cce75f2896e",
+          "bytes": 17995
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/fresh-process-reproduction.json",
+          "sha256": "f791606f84fe0e90773c029991b608379bedf1ed583a79a433d3db4bf9a9fe57",
+          "bytes": 17702
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/negative-checks.json",
+          "sha256": "61659416a9782284d515bb5fa70559e704991cf6de1e6e8d48b6a0f91969851a",
+          "bytes": 6063
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/source-boundaries.json",
+          "sha256": "575d61c14eece26c7bb336d0f8431d1bffa0341d1f7005f995bc4fd40468c1af",
+          "bytes": 513
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/monitor/package-recipe.json",
+          "sha256": "8c94fd55f15d7b24ee945eb9ae9e2446ecbd3341d97b09fc0f16ce6da9e952e8",
+          "bytes": 2428
+        },
+        "checkpoint": "batch-47",
+        "eligibility_adapter": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/monitor_adapter.py",
+          "sha256": "41d48f2f668801c48820b18a7bd8528aa2cd3afdd1213b4a656ea692a849f736",
+          "bytes": 2681
+        },
+        "eligibility_inputs": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/eligibility-inputs.json",
+          "sha256": "5cc29ce366844ee334262c2f4d08f19953fa4964c76ffff022b44895d7f610cb",
+          "bytes": 1946
+        },
+        "eligibility_validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-47/eligibility-validation.json",
+          "sha256": "183c91cd46a7843639cc4af71cb1acabe39457a69e33c9e81c4acd209fbfcf04",
+          "bytes": 934
+        },
+        "legacy_inventory_disposition": "Shared inventory omitted uncertain-kind0043. Narrow frozen canonical0043 adapter validates exact issue queue/source/TOC/geometry/map anddirect source-backed independent-body decision;core andshared inventory remain unchanged."
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0036",
@@ -6977,15 +7121,67 @@
         "sha256": "bde06ce759cd465b4b2e757b14561fcfe20cd48e804fb976a330abaa339c69c7",
         "bytes": 3890
       }
+    },
+    {
+      "name": "1992-12-batch-47",
+      "status": "complete",
+      "completed_at": "2026-11-01T04:21:41.778695+00:00",
+      "goal": "Restore independent MODECON article0035 andmonitor-performance tip0043 onshared414 withsource-backed0043eligibility.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0035",
+        "maso-1992-12-toc-0043"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        414
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        413,
+        415
+      ],
+      "recognition_invocations": 17,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_change_events": 0,
+      "within_pass_crop_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-47/validation.json",
+        "sha256": "44d8b563483c0b67e14e4c172f814ff564d1a130a83c90b5dd7b63b34d7f02e3",
+        "bytes": 3387
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-47/reproduction.json",
+        "sha256": "dbd68f8a46e9ff975116af1ce7267475f6b173ea04f23fb2118e9cce75f2896e",
+        "bytes": 17995
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-47/source-boundaries.json",
+        "sha256": "575d61c14eece26c7bb336d0f8431d1bffa0341d1f7005f995bc4fd40468c1af",
+        "bytes": 513
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-47/negative-checks.json",
+        "sha256": "61659416a9782284d515bb5fa70559e704991cf6de1e6e8d48b6a0f91969851a",
+        "bytes": 6063
+      },
+      "eligibility_validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-47/eligibility-validation.json",
+        "sha256": "183c91cd46a7843639cc4af71cb1acabe39457a69e33c9e81c4acd209fbfcf04",
+        "bytes": 934
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 19,
+    "readable": 21,
     "partial": 1,
     "group_headings": 6,
     "section_references": 3,
-    "unresolved": 16
+    "unresolved": 14
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -6993,28 +7189,31 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-47",
-    "goal": "Verify and restore independent MODECON article0035 andmonitor-performance tip0043 from observed shared page414.",
+    "name": "1992-12-batch-48",
+    "goal": "Verify actual extent andrestore Clipper/ACHOICE article0036 fromobserved independentopening415 withinbounded source-first workflow.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0035",
-      "maso-1992-12-toc-0043"
+      "maso-1992-12-toc-0036"
     ],
     "candidate_mapping_targets": [
-      414
+      415,
+      416,
+      417,
+      418,
+      419,
+      420
     ],
     "mapping_targets": [],
     "initial_lookup_candidates": [
       4,
       5,
-      413,
-      415
+      414
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Two canonical tasks maximum. Reuse retained whole414 andadjacent413/415/contents4/5. Confirm both independent bodies,source title/credit/actual ending andany continuation before mapping;0043 uncertain canonical kind requires source-backed decision. Preserve shared-page ownership:completed0034 upper414 is excluded;MODECONtitle/byline원치호 andbody/rightcolumn are separate fromlowergraymonitor tip. Preserve literal command/code claims,physicalwraps andglyph candidates;no valid-code/original-file/execution inference. Keep original sibling parents0031/nullreferences/order;do not invent technical-heading children. Other identities including0036/0044 stay unchanged. Thirteen prior adapters required. Current19readable/onepartial/sixgroups/three sectionreferences/16unresolved;20selectedroots/9766files and14classificationsseparate. UNIX/year-featurelocations,other bodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeout remainrequired. FullDecembergoalactive;noreaderrebuild."
+    "note": "Startwithretained415/440 andadjacent414. Verify actualending/continuation andnextindependenttitle adaptively beforemapping atmostsixconfirmed bodypages;segment iflonger. Sourcecredit신준현 andtwo listingsobserved415. Preserve literal Clippercode/placeholders,physical/logicalrows,comments,arrows,printedmistakes andsourceglyph candidates withoutvalid-code/original-program/disk/execution inference. Canonicalparent0031/nullreference/order unchanged. Otheridentities,includingprinter0044,stayunchanged. Thirteenassemblyadapters remain required;newnarrowBatch47monitor0043eligibilityadapter is additionally neededwhenrebuildingthatnative. Current21readable/onepartial/sixgroups/threereferences/14unresolved;22selectedroots/9852files and14classificationsseparate. UNIX/year-featurelocations,otherbodies/assemblies,446-pageaccounting,cover,standaloneexport/rebuild/closeoutremainrequired. FullDecembergoalactive;noreaderrebuild."
   },
   "final_issue_classification_evidence_required": [
     {
