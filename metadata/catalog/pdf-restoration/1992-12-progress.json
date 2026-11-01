@@ -3661,12 +3661,83 @@
       "toc_entry_id": "maso-1992-12-toc-0027",
       "title": "윈도우즈가 달라진다 : 윈도우즈용 노턴데스크탑 2.0",
       "parent_id": "maso-1992-12-toc-0025",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent opening373/individually read398 carries Norton title/kicker and source credit탁연상(본지 편집 고문). Complete four-page body373–376 has locally read398–401. Conclusion/M and Figures4/5 end376;preceding372 is a full FORNER advertisement,377 independently opens 김태형 frame-grabber article and378–380 continue it. Canonical title/byline/parent0025 unchanged;no global printed-page offset inferred.",
+        "All202 selected files reproduce independently and in a fresh process. All53 exact source crops,47 pinned kor+eng OCR outcomes,34 blocks,351 reading rows and654 current typed ranges validate. Five complete screenshots plus separate M ornament,seven section headings,eight prose groups and13 continuation boundaries remain explicit. No source code or original software/file recovery.",
+        "Five external Figure1 annotations,selective Figure5 window/chart titles,four category labels and two legend candidates are searchable alongside complete original images. Tiny UI/file names,chart numerals/axis/summary values and units are not exhaustively transcribed;no machine chart dataset,bar-height interpretation,byte/count inference or full screenshot text claim. Original pixels remain authoritative.",
+        "Fifteen utility catalogue entries preserve descriptions,including SmartErase split완/벽하게;calculator family retains three named subtypes. Four printed group improvements,Quick Access note,three unrecovered prose filename references,seven historical claims and twelve source variants remain source-linked. Windo-/ws,Screen Sa/ver,Nor/ton Utility,SmartEr/ase,네트워/네트웍,source spelling/spacing/product forms andhistorical security/password/price/requirement claims stay literal.",
+        "All47 complete raw drafts read before one literal source pass;zero OCR retries/within-pass crop changes. Eleven pre-OCR repairs retain initial53 crops/fourteen sheets andfour repair sheets,with42 unchanged crops exact. Empty/failed tiny chart-label drafts are preserved without retry. Fresh metadata-only revision corrects repeated-word continuation-tail source pointers;258 execution inputs andarticle bytes exact,first export/helper retained.",
+        "Seventeen consistently rehashed altered-data cases pass generic export checks but fail frozen private source fidelity audit. No generic custom-metadata schema claim. All40530 prior December files,7461 former selected files/fifteen roots,eleven classification files,9332 September files and thirty core/source/runtime/TOC/queue pins exact. Unchanged213-test baseline reused with current source/preservation audits. Human acceptance/full proofreading,original glyph/space/byte identities,technical/historical truth andexecution unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1992-12/packages/batch-38-r02/norton",
+        "article_id": "scan-maso-1992-12-toc-0027",
+        "manifest": {
+          "path": "archive/pdf/1992-12/packages/batch-38-r02/norton/manifest.json",
+          "sha256": "0220827149e279aabc8afc6c4ff82f59f52489d8abd120bec2984580fe760d9c",
+          "bytes": 34855
+        },
+        "coverage": {
+          "pdf_pages": [
+            373,
+            374,
+            375,
+            376
+          ],
+          "printed_pages": [
+            "398",
+            "399",
+            "400",
+            "401"
+          ],
+          "regions": 53,
+          "blocks": 34,
+          "figures": 6,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 373,
+        "actual_end_pdf_page": 376,
+        "actual_ending_observed": true,
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-38/validation.json",
+          "sha256": "2c2b5f0796dca1baf79634bc3f3f38e7a4aa1601320e639e3d68ebcd2740167b",
+          "bytes": 1689
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-38/reproduction-r02.json",
+          "sha256": "29d9413b32bdfe7226f39e1285362b9426912d1f453bab345cb30b0289668e99",
+          "bytes": 35760
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-38/fresh-process-reproduction.json",
+          "sha256": "0b31eb538a92e5c69fc1544811b30bbe56a6ab7d7d53ec35e1aba11e8ff86aa2",
+          "bytes": 631
+        },
+        "negative_checks": {
+          "path": "archive/pdf/1992-12/restoration/batch-38/negative-checks.json",
+          "sha256": "de644858b4493db26549c96b67631acfc64d433d1b803c930734ad57d00fd8fa",
+          "bytes": 3066
+        },
+        "boundary_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-38/source-boundaries.json",
+          "sha256": "045321275f64d1278a39260b0d4292a2adf5fd1779bd32a4d6dd77892ac5803a",
+          "bytes": 6061
+        },
+        "metadata_revision": {
+          "path": "archive/pdf/1992-12/restoration/batch-38/metadata-revision.json",
+          "sha256": "13a68ea3bc942b4a6686cb218c351030e1db00e6ecd29210ddc9c7bc8887f77a",
+          "bytes": 45298
+        },
+        "checkpoint": "batch-38"
+      }
     },
     {
       "toc_entry_id": "maso-1992-12-toc-0028",
@@ -5672,15 +5743,58 @@
         "sha256": "1e3238958cbbbe7f282f1e833bac19c960433f7d1198ed3ebdaffe35f5239c4f",
         "bytes": 6459
       }
+    },
+    {
+      "name": "1992-12-batch-38",
+      "status": "complete",
+      "completed_at": "2026-11-01T00:01:28.758818+00:00",
+      "goal": "Restore complete four-page Norton Desktop article with original screenshots and literal source claims.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0027"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        373,
+        374,
+        375,
+        376
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        372,
+        377,
+        378,
+        379,
+        380
+      ],
+      "recognition_invocations": 47,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-38/validation.json",
+        "sha256": "2c2b5f0796dca1baf79634bc3f3f38e7a4aa1601320e639e3d68ebcd2740167b",
+        "bytes": 1689
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-38/reproduction-r02.json",
+        "sha256": "29d9413b32bdfe7226f39e1285362b9426912d1f453bab345cb30b0289668e99",
+        "bytes": 35760
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-38/negative-checks.json",
+        "sha256": "de644858b4493db26549c96b67631acfc64d433d1b803c930734ad57d00fd8fa",
+        "bytes": 3066
+      }
     }
   ],
   "totals": {
     "canonical_entries": 45,
-    "readable": 14,
+    "readable": 15,
     "partial": 1,
     "group_headings": 3,
     "section_references": 3,
-    "unresolved": 24
+    "unresolved": 23
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -5688,34 +5802,48 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-38",
-    "goal": "Verify Norton article0027 actual ending/continuity and restore at most six confirmed body pages from its independent373 opening.",
+    "name": "1992-12-batch-39",
+    "goal": "Verify frame-grabber article0029 actual extent/continuity;restore at most six confirmed pages from377 opener. Resolve hardware group0028 only with direct contents/body evidence within same bounded checkpoint.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0027"
+      "maso-1992-12-toc-0028",
+      "maso-1992-12-toc-0029"
     ],
     "candidate_mapping_targets": [
-      373,
-      374,
-      375,
-      376,
-      377,
-      378
-    ],
-    "mapping_targets": [],
-    "initial_lookup_candidates": [
-      372,
-      376,
       377,
       378,
       379,
-      380
+      380,
+      381,
+      382
+    ],
+    "mapping_targets": [],
+    "initial_lookup_candidates": [
+      4,
+      5,
+      376,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Independent opening373/locally read398 and credit탁연상 were directly observed;374/399 and375/400 continue. Actual ending and complete extent remain unverified. Candidate373–378 is not six-page ownership or global-offset proof. Review full pages/neighbors and adapt from actual source; map at most six confirmed body pages. Reuse exact retained whole views where available, review every exact crop before mapped Tesseract and all complete raws before one literal correction pass. Preserve original screenshots/captions/options/claims/source variants; no current software advice or execution verification. Group0025 already final non-owning; do not reclassify it. Fourteen readable articles/one partial/three groups/three section references/24 unresolved; fifteen selected roots7461files,eleven classification files separate. Install all eleven private adapters, including batch-37/autopath_adapter, for current selected-root checks. UNIX0022/0023 locations, feature0019 continuation/ending/children0020/0021, other eligible bodies/assemblies,446-page accounting,cover,standalone issue export/rebuild and closeout remain required. Full December goal active; no reader rebuild."
+    "note": "Independent377 opener locally402/source title 실전! 프레임 그래버 제작 andsourcecredit김태형;378–380 continue403–405. No known actual ending/complete ownership:377–382 are candidates,not established six-page scope. Use remaining outside budget adaptively for extent/next independent opener;do not infer20pages fromnext TOC reference422 or global offset. Reuse exact retained whole views;review every whole/crop before mapped Tesseract and all complete raws before one literal source pass. Preserve diagrams,circuit/table/code labels,graphic glyphs,source errors andphysical wraps;no valid-circuit/program/execution inference. Only0027 advanced this checkpoint;0028/0029/0030 unchanged. Sixteen selected roots7663files,eleven classification files. Install all eleven prior private adapters for selected-root checks. UNIX0022/23 locations,feature0019 continuation/ending/children0020/21,other eligible bodies/assemblies,all446-page accounting,cover,standalone issue export/rebuild/closeout remain required. Full December goal active;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

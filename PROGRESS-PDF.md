@@ -8,8 +8,8 @@ by the calendar month in which restoration work happened.
 
 December 1992 is in progress at the owner's request. Batch 01 completes canonical
 column 0005, 컬럼마소쉘 : 한글 소프트웨어를 살리자, on PDF 108–110/printed 98–100.
-Fourteen readable/sample-reviewed articles, one partial, three non-owning group headings,
-three section references and 24 unresolved identities account for 45 canonical entries. All 94 independent
+Fifteen readable/sample-reviewed articles, one partial, three non-owning group headings,
+three section references and 23 unresolved identities account for 45 canonical entries. All 94 independent
 column JSON/assets export files are exact;23 native
 crops match retained renders. All 21 raw mapped Tesseract drafts were read, then
 corrected once against scans, with zero OCR retries. Four section headings, two
@@ -432,18 +432,45 @@ remain exact. Unchanged 213-test baseline reused. No new assembly OCR/source pas
 core/reader changes; exact glyphs/spaces/encoded files, technical/historical truth,
 execution, human acceptance and full proofreading remain unverified.
 
-Next: verify Norton article 0027's actual ending, neighboring material and complete
-continuity, then restore at most six confirmed pages from independent opener 373/398.
-Source credit is 탁연상; 374/399 and 375/400 continue, but the ending is unverified.
-Physical 373–378 are locator candidates, not six-page ownership or global-offset proof.
-Review all whole pages/exact crops before mapped Tesseract and every complete raw
-before one literal source pass. Keep within two tasks/six mapped/twenty outside pages.
-Install all eleven private adapters, including batch-37/autopath_adapter, for selected
-root checks. Fourteen readable/sample-reviewed articles, one partial, three non-owning
-groups, three section references and 24 unresolved identities remain. Fifteen selected
-roots contain 7,461 files; eleven classification files remain separate. UNIX locations,
-feature 0019 continuation/ending/children 0020/0021, other bodies/assemblies, all 446-page
-accounting, cover, standalone issue export/rebuild and closeout remain required.
+Batch 38 completes Norton Desktop article 0027 on PDF 373–376/individually read
+398–401, credit 탁연상. All 202 selected JSON/assets files reproduce independently
+and in a fresh process. All 53 exact crops, 47 kor+eng OCR settings, 34 blocks,
+351 reading rows and 654 typed ranges validate. Five complete screenshots and the
+separate closing M remain; seven headings, eight prose groups and thirteen continuation
+boundaries preserve physical wraps. Full advertisement 372 and independent frame-grabber
+opening 377 bound the four-page body, including the final two figures below the conclusion.
+
+Five external Figure 1 annotations and selected Figure 5 chart labels retain direct
+source contexts: two titles, four categories and two legend candidates. Tiny UI/file
+names, chart numerals/axis/summary values and units are not exhaustively transcribed;
+original pixels remain authoritative. Fifteen utility catalogue entries, three calculator
+subtypes, four numbered group improvements, Quick Access note, three unrecovered prose
+filename references, seven historical claims and twelve source variants remain explicit.
+No original software/data/file recovery, chart dataset or current security advice claimed.
+
+All 47 complete raws read before one literal source pass; zero OCR retries or within-pass
+crop changes. Eleven pre-OCR crop repairs retain the initial map/crops and reuse 42 crops
+exactly. Empty/failed tiny-label drafts remain preserved. A fresh metadata revision fixes
+repeated-word continuation-tail pointers; all 258 execution input files and article bytes
+remain exact. First export/helper retained. Seventeen consistently rehashed custom-data
+edits pass generic exports but fail the frozen private source audit; no generic custom
+schema claim. All 40,530 prior December files, 7,461 former selected files, eleven
+classifications, 9,332 September files and thirty core/source/runtime/TOC/queue pins remain
+exact. Unchanged 213-test baseline reused; no core or reader changes.
+
+Next: verify frame-grabber article 0029's actual extent and continuity from independent
+377/402 opener, credit 김태형; 378–380 continue at locally read 403–405. Restore at most
+six confirmed body pages. Candidates 377–382 do not establish ownership/ending; do not
+infer twenty pages from the next TOC reference or a global offset. Classify hardware group
+0028 only with direct contents/body evidence within the same two-task/six-page/twenty-outside
+checkpoint. Reuse retained views; inspect all exact crops before OCR and every complete
+raw before one literal pass. All eleven prior private adapters remain required for checks.
+Fifteen readable/sample-reviewed articles, one partial, three groups, three section
+references and 23 unresolved identities remain. Sixteen selected roots contain 7,663 files;
+eleven classification files are separate. UNIX locations, feature 0019 continuation/ending/
+children, other bodies/assemblies, all 446-page accounting, cover, standalone issue export/
+rebuild and closeout remain required. Human acceptance/full proofreading, original glyph/
+space/byte identities, technical/historical truth and execution remain unverified.
 Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
 [ledger](metadata/catalog/pdf-restoration/1992-12-progress.json).

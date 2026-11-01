@@ -13,18 +13,20 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-December 1992 restoration is in progress: fourteen readable/sample-reviewed articles,
-one partial, three non-owning group headings, three section references and 24 unresolved
-identities. Batch 37 completes the eleven-page utility article on PDF 361–371:
-621 files reproduce independently and in a fresh process from two regenerated natives.
-Four printed listings retain 708 labels, 29 blanks and seven physical wraps. Twenty-nine
-scoped graphic/ASCII markers and literal source defects remain explicit. All source
-pixels, ranges, assets and 31 guarded altered-data checks pass. Fifteen selected roots
-contain 7,461 files; eleven classification files remain separate.
-Next: verify the Norton article's actual ending and restore its confirmed body from
-independent opening 373/398. UNIX openings and the year-in-review continuation remain
-unlocated. Other bodies, full issue accounting, cover, export/rebuild and closeout
-remain pending. See the [December record](docs/progress/9212.md). No reader rebuild.
+December 1992 restoration is in progress: fifteen readable/sample-reviewed articles,
+one partial, three non-owning group headings, three section references and 23 unresolved
+identities. Batch 38 completes the four-page Norton Desktop article on PDF 373–376:
+202 files reproduce independently and in a fresh process. Five complete screenshots,
+15 utility catalogue entries, four group improvements and 13 continuation boundaries
+remain source-linked. Tiny screenshot text and chart values are not exhaustively
+transcribed; original pixels remain authoritative. All source pixels/ranges/assets and
+17 private altered-data checks pass. Sixteen selected roots contain 7,663 files;
+eleven classification files remain separate.
+Next: verify the frame-grabber article's actual extent from independent opening 377/402,
+then restore at most six confirmed pages; classify hardware group 0028 with direct evidence.
+UNIX openings and the year-in-review continuation remain unlocated. Other bodies, full
+issue accounting, cover, export/rebuild and closeout remain pending. See the
+[December record](docs/progress/9212.md). No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.
