@@ -9501,6 +9501,129 @@
         "sha256": "b8dbc562ecaa7a3c1282ecfcfcfa67ce267d79c37ad02c08ac764b9303827ee3",
         "bytes": 428
       }
+    },
+    {
+      "name": "1992-12-batch-64",
+      "status": "complete",
+      "completed_at": "2026-11-01T10:54:30.176287+00:00",
+      "goal": "Continue source-page accounting and bounded location research for year-feature continuation 0019 and UNIX terminal-control 0022 on physical pages 61–79 and 81.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0019",
+        "maso-1992-12-toc-0022"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        81
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "accounting": {
+        "status": "partial",
+        "checkpoint": "batch-64",
+        "directory": "archive/pdf/1992-12/restoration/batch-64/accounting-r01",
+        "page_ledger": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/accounting-r01/page-ledger.json",
+          "sha256": "e4c58b3267f75b19db9083b0ba8a55a1b6635282126b4f029c9da37f8e5fee3c",
+          "bytes": 830027
+        },
+        "manifest": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/accounting-r01/manifest.json",
+          "sha256": "96a1f337028d4cc8048f717d84febba05b6793479653e93f53a0c349ce04e190",
+          "bytes": 802
+        },
+        "recipe": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/accounting-recipe.json",
+          "sha256": "1ae805fd10e4ef8cf1d1ed04e6ef4d8eedc1294de262188aaaf7524aa873a189",
+          "bytes": 2769
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/reproduction.json",
+          "sha256": "c1711fc97c9f191746b68ba0b168243e14f610377bb100cc31d32a22509dcb0e",
+          "bytes": 1232
+        },
+        "fresh_process_reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/fresh-process-reproduction.json",
+          "sha256": "67926ec7eb774f6af8addf871a7b8c83f71188c67267964b238bbc2cfe4e9af9",
+          "bytes": 850
+        },
+        "source_audit": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/source-audit.json",
+          "sha256": "f889e37c276acc6b6029b3bdf825735697f737bd3ec3f54e73856ee4ac820eba",
+          "bytes": 1084
+        },
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-64/validation.json",
+          "sha256": "2407d2847f765f274e29b57fffc0cdcaf9a0f5abc625996f0896cac1b4aabef2",
+          "bytes": 2067
+        },
+        "physical_page_slots": 446,
+        "primary_classified": 405,
+        "pending": 41,
+        "prior_classified_whole_pages": 385,
+        "current_whole_views": 20,
+        "newly_classified_pages": 20,
+        "selected_body_pages": 238,
+        "selected_maps": 31,
+        "map_local_mixed_exclusion_records": 31,
+        "mixed_body_pages": 14,
+        "page_accounting_complete": false,
+        "source_wide_absence_asserted": false,
+        "note": "All 446 slots represented; 41 explicitly pending. Current pages 61–79 and 81 contain twenty advertisements, including two landscape promotions and a four-page software catalogue. All other 426 prior page rows remain unchanged, including 238 selected body pages, their mixed contexts and the unassigned shell-listing fragment. Prior source-accounting audits reexecuted through original pinned review/ownership inputs. UNIX, Multiuser DOS, networking, compiler and JPEG-compression marketing mentions establish no canonical body. Prices, performance counters, model/specification numbers and dealer addresses establish no folio. Canonical entries and article packages unchanged. Full page accounting, cover verification and issue closeout remain pending."
+      },
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-64/validation.json",
+        "sha256": "2407d2847f765f274e29b57fffc0cdcaf9a0f5abc625996f0896cac1b4aabef2",
+        "bytes": 2067
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-64/reproduction.json",
+        "sha256": "c1711fc97c9f191746b68ba0b168243e14f610377bb100cc31d32a22509dcb0e",
+        "bytes": 1232
+      },
+      "fresh_process_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-64/fresh-process-reproduction.json",
+        "sha256": "67926ec7eb774f6af8addf871a7b8c83f71188c67267964b238bbc2cfe4e9af9",
+        "bytes": 850
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-64/source-boundaries.json",
+        "sha256": "41b7dc33cb9c3478e0648d69b02268145490773e8d73da885154580fd324fca5",
+        "bytes": 1030
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-64/negative-checks.json",
+        "sha256": "316392226f805a58051c991e89683def200d60bb00b74c8658665d81386ce7a0",
+        "bytes": 4022
+      },
+      "timings": {
+        "path": "archive/pdf/1992-12/restoration/batch-64/prospective-timings.json",
+        "sha256": "e87f07030f3ef376c473ab49499dc0610a8bd57b10a010678f5300f2ed99a549",
+        "bytes": 428
+      }
     }
   ],
   "totals": {
@@ -9517,8 +9640,8 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-64",
-    "goal": "Continue source-page accounting and bounded location search for year-feature continuation 0019 and UNIX terminal-control 0022; directly review pending physical pages 61–79 and 81.",
+    "name": "1992-12-batch-65",
+    "goal": "Continue source-page accounting and bounded location search for year-feature continuation 0019 and UNIX terminal-control 0022; directly review pending physical pages 82–89, 91–93, 95–97, 105–106 and 340–343.",
     "toc_entry_ids": [
       "maso-1992-12-toc-0019",
       "maso-1992-12-toc-0022"
@@ -9526,33 +9649,33 @@
     "candidate_mapping_targets": [],
     "mapping_targets": [],
     "initial_lookup_candidates": [
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      81
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      91,
+      92,
+      93,
+      95,
+      96,
+      97,
+      105,
+      106,
+      340,
+      341,
+      342,
+      343
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Provisional accounting classifies 385/446 physical pages; 61 remain pending. Review the next twenty pending pages, skipping already classified 80, and produce a fresh reproducible accounting revision. Confirm actual body identity before mapping. Year-feature 0019 remains partial at opener 299; children 0020/0021 and UNIX 0022/0023 remain unresolved. Shell-listing fragment 300–305 proves no independent opening or complete ownership. Do not advance children or 0023 in this two-task checkpoint; no source-wide absence or missing-page count inferred. Thirty readable, one partial, seven groups, three references and four unresolved; 13,001 selected article files/31 roots and sixteen classifications unchanged. Remaining bodies/assemblies or explicit source gaps, all 446-page accounting, cover verification, standalone JSON/assets issue export/rebuild and closeout remain required. Full December objective active; no reader rebuild."
+    "note": "Provisional accounting classifies 405/446 physical pages; 41 remain pending. Review the next twenty pending pages and produce a fresh reproducible accounting revision. Confirm actual body identity before mapping at most six eligible pages. Year-feature 0019 remains partial at opener 299; children 0020/0021 and UNIX 0022/0023 remain unresolved. Shell-listing fragment 300–305 proves no independent opening or complete ownership. Do not advance children or 0023 in this two-task checkpoint; no source-wide absence or missing-page count inferred. Thirty readable, one partial, seven groups, three references and four unresolved; 13,001 selected article files/31 roots and sixteen classifications unchanged. Remaining bodies/assemblies or explicit source gaps, all 446-page accounting, cover verification, standalone JSON/assets issue export/rebuild and closeout remain required. Full December objective active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -9638,47 +9761,47 @@
   ],
   "source_page_accounting": {
     "status": "partial",
-    "checkpoint": "batch-63",
-    "directory": "archive/pdf/1992-12/restoration/batch-63/accounting-r01",
+    "checkpoint": "batch-64",
+    "directory": "archive/pdf/1992-12/restoration/batch-64/accounting-r01",
     "page_ledger": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/accounting-r01/page-ledger.json",
-      "sha256": "33e83b05b6f7db5f4c18d8d4d1bbc928cd7cd02728e77d4ef40f04878a0c0259",
-      "bytes": 815724
+      "path": "archive/pdf/1992-12/restoration/batch-64/accounting-r01/page-ledger.json",
+      "sha256": "e4c58b3267f75b19db9083b0ba8a55a1b6635282126b4f029c9da37f8e5fee3c",
+      "bytes": 830027
     },
     "manifest": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/accounting-r01/manifest.json",
-      "sha256": "db393f26c1a8bb4fb4a503b5a26958f4265f69498e1b8f8c5caecdcad754b787",
+      "path": "archive/pdf/1992-12/restoration/batch-64/accounting-r01/manifest.json",
+      "sha256": "96a1f337028d4cc8048f717d84febba05b6793479653e93f53a0c349ce04e190",
       "bytes": 802
     },
     "recipe": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/accounting-recipe.json",
-      "sha256": "190fb7867ead230f8f559e157743460ff2547986a1a47a657d5561716d7d68c2",
-      "bytes": 2763
+      "path": "archive/pdf/1992-12/restoration/batch-64/accounting-recipe.json",
+      "sha256": "1ae805fd10e4ef8cf1d1ed04e6ef4d8eedc1294de262188aaaf7524aa873a189",
+      "bytes": 2769
     },
     "reproduction": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/reproduction.json",
-      "sha256": "cedf9d126b01fe0e8dcb12fac44b2a3aa6fe44bcc1ca4c1e6ac38d44ec22d8c2",
+      "path": "archive/pdf/1992-12/restoration/batch-64/reproduction.json",
+      "sha256": "c1711fc97c9f191746b68ba0b168243e14f610377bb100cc31d32a22509dcb0e",
       "bytes": 1232
     },
     "fresh_process_reproduction": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/fresh-process-reproduction.json",
-      "sha256": "0ddfa169b9b95ffb61c8eab67c4f8ab12e575fb5203052a0260abbe77f45c889",
+      "path": "archive/pdf/1992-12/restoration/batch-64/fresh-process-reproduction.json",
+      "sha256": "67926ec7eb774f6af8addf871a7b8c83f71188c67267964b238bbc2cfe4e9af9",
       "bytes": 850
     },
     "source_audit": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/source-audit.json",
-      "sha256": "b3e383f13d9d0e42a592f97e13240100880eb2afde190df685ed14ca3650ad90",
+      "path": "archive/pdf/1992-12/restoration/batch-64/source-audit.json",
+      "sha256": "f889e37c276acc6b6029b3bdf825735697f737bd3ec3f54e73856ee4ac820eba",
       "bytes": 1084
     },
     "validation": {
-      "path": "archive/pdf/1992-12/restoration/batch-63/validation.json",
-      "sha256": "7dbe7f12e3ce8f14c8bf2beb12b3288f38b9a1cf39ad12af64f45b0c80837253",
+      "path": "archive/pdf/1992-12/restoration/batch-64/validation.json",
+      "sha256": "2407d2847f765f274e29b57fffc0cdcaf9a0f5abc625996f0896cac1b4aabef2",
       "bytes": 2067
     },
     "physical_page_slots": 446,
-    "primary_classified": 385,
-    "pending": 61,
-    "prior_classified_whole_pages": 365,
+    "primary_classified": 405,
+    "pending": 41,
+    "prior_classified_whole_pages": 385,
     "current_whole_views": 20,
     "newly_classified_pages": 20,
     "selected_body_pages": 238,
@@ -9687,6 +9810,6 @@
     "mixed_body_pages": 14,
     "page_accounting_complete": false,
     "source_wide_absence_asserted": false,
-    "note": "All 446 slots represented; 61 explicitly pending. Current pages 41–60 contain twenty advertisements, including customer-event promotion. All other 426 prior page rows remain unchanged, including 238 selected body pages, their mixed contexts and the unassigned shell-listing fragment. Prior source-accounting audits reexecuted through original pinned review/ownership inputs. UNIX, GUI, Look & Feel and VAX/terminal-server marketing mentions establish no canonical body; price 289 and event dates establish no folio. Canonical entries and article packages unchanged. Full page accounting, cover verification and issue closeout remain pending."
+    "note": "All 446 slots represented; 41 explicitly pending. Current pages 61–79 and 81 contain twenty advertisements, including two landscape promotions and a four-page software catalogue. All other 426 prior page rows remain unchanged, including 238 selected body pages, their mixed contexts and the unassigned shell-listing fragment. Prior source-accounting audits reexecuted through original pinned review/ownership inputs. UNIX, Multiuser DOS, networking, compiler and JPEG-compression marketing mentions establish no canonical body. Prices, performance counters, model/specification numbers and dealer addresses establish no folio. Canonical entries and article packages unchanged. Full page accounting, cover verification and issue closeout remain pending."
   }
 }
