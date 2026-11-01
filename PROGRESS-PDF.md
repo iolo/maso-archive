@@ -6,18 +6,20 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: two readable/sample-reviewed articles, three non-owning
-section references and 47 unresolved identities among 52. The complete feature on
-PDF 156–172 contains 626 independently exact files from three regenerated natives
-and a fresh-process rebuild. All three child anchors are final at PDF 157/164/168;
-canonical/source title variants remain separate. Five classification files reproduce
-exactly; ten source-linked ranges and nine invalid ownership/anchor cases validate.
-Frozen parent pending-child notes resolve externally; all parent/native bytes and
-source-fidelity limits remain. Two current body-owner packages contain 708 files;
-all 617 original feature-native files remain retained. No new anchor OCR/correction;
-prior fresh 213-test result retained with thirty unchanged core modules. Next:
-verify group 0006 and locate article 0007 within 2/6/20 limits. Remaining bodies,
-433-page accounting, cover and issue closeout are pending. See [March progress](docs/progress/9303.md)
+March 1993 is in progress: two readable/sample-reviewed articles, one partial,
+one non-owning group, three final section references and 45 unresolved identities
+among 52. The complete feature and all child anchors remain unchanged. Copyright
+article 0007 opening PDF 140–145 has 239 independently/fresh-process exact files,
+sixty exact crops, 57 outcomes, 653 rows and 1,037 native/group ranges. Three original
+images/independent quotations, fifteen headings, three party rows, eleven citations,
+eleven command tokens and seventeen continuations retain source contexts.
+One source pass; 63 actual calls include two post-pass title crop refinements with
+saved text unchanged. Fifty-five final outcomes reused with actual execution origins;
+zero unchanged-input retries. Group 0006 is non-owning; one exact classification
+sidecar and nine invalid custom-data cases validate. Prior 14,427 files and thirty
+core modules unchanged; prior fresh 213-test result retained. Next: final page 146
+and actual seven-page copyright assembly. Remaining bodies, 433-page accounting,
+cover and issue closeout are pending. See [March progress](docs/progress/9303.md)
 and its [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.

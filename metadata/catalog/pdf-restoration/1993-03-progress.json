@@ -581,23 +581,105 @@
       "toc_entry_id": "maso-1993-03-toc-0006",
       "title": "읽을거리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents4 lists pageless 읽을거리 above severaldistinctly titled/bylined canonical children. Source140 repeats vertical category artwork above copyrightarticle0007. Thisis a non-owning group;no independent article/dividerbody invented.",
+        "Canonical title,parent,null page reference andall child links remain unchanged. Deterministic classification sidecar reproduces independently andin freshprocess;source category span/artwork matchcurrentnative."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1993-03/classifications/batch-07-r01/group-0006.json",
+          "sha256": "1a5365a45bae3777e3eb355df1aa5c2d00ba23f6a30d82dc6d8948cd9bc68708",
+          "bytes": 2434
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-07/validation.json",
+          "sha256": "4b4f09f7b20a12ed9514231247a3af1a36130f9ff309e2823ce487d6249a5fd7",
+          "bytes": 2685
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0007",
       "title": "컴퓨터와 법(8) : 유저 인터페이스의 저작권 보호 범위",
       "parent_id": "maso-1993-03-toc-0006",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source140/printed138 opensseries 컴퓨터와 법8,유저 인터페이스의 저작권 보호 범위,subtitle 디지털 커뮤니케이션 대 소프트크론 사건 판결,credit 김문환(국민대학교 법과대학 교수). Prior139 fulladvertisement;ending146/144 closeswithMS before147/148 ads. Allseven sourcepages directly observed;no globalfoliooffset inferred.",
+        "Opening140–145 nativea retains239 independently/fresh-process exactfiles,60 exactcrops,40 blocks,three originalimages,three independentpullquotes,15 headings,three partyrows/six labelspans,11 citations,11 case-sensitivecommandtokens,eight circledmarkers and17 prosecontinuations.1037 typedoccurrences acrossnative/group validate.",
+        "One paused/resumed sourcepass after60 drafts plusone widened141 draft duringpass. Two titlecrops refinedafterpass anddraftsreadwithsavedtext unchanged.63 actualrecognitions,57 selectedoutcomes,55 exactreused outcomeswithactualexecution origins;zero unchanged-input retries. Allmaps/raws/settings retained.",
+        "Printed Enginering,E.D. Ca.,Softklone/SoftKlone,Seldon,chronological/legislative claims,commandtoken case,comparison wording andduplicate물품 retained literally. Historical transcription is notcontemporary legalverification. Final146 andactualwholearticle assembly pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-07-r01/copyright-a",
+        "article_id": "scan-maso-1993-03-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-07-r01/copyright-a/manifest.json",
+          "sha256": "4b7b8682cbad8065fb82291764ef46a036362db1e569d19b70a4a5b2dd203792",
+          "bytes": 40050
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            140,
+            141,
+            142,
+            143,
+            144,
+            145
+          ],
+          "printed_pages": [
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143"
+          ],
+          "regions": 60,
+          "blocks": 40,
+          "figures": 3,
+          "deferred_pdf_pages": [
+            146
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 146,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-07/validation.json",
+          "sha256": "4b4f09f7b20a12ed9514231247a3af1a36130f9ff309e2823ce487d6249a5fd7",
+          "bytes": 2685
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-07/reproduction.json",
+          "sha256": "9aa60af5bbb07af540387aa9936bb8fb902c7964e29da614bbbb9d4f05aed17a",
+          "bytes": 41119
+        },
+        "checkpoint": "batch-07",
+        "full_source_extent": {
+          "start_pdf_page": 140,
+          "end_pdf_page": 146,
+          "uninspected_interior_pdf_pages": [],
+          "note": "Allseven sourcepages ownership/continuity observed;onlyopening sixpages140–145 preserved. Final146 andactualassembly required."
+        },
+        "notes": [
+          "Selected directory/manifest identify immutable opening nativea,not an assembled seven-page article. Canonicaltitle/byline/parent/reference unchanged;source title/series/subtitle/credit remain separatelyindexed."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0008",
@@ -1276,15 +1358,56 @@
         "sha256": "e6ade8b13903c0e48ddeb672296542fabb2fb93ee761e8942619ad5b4d0e68b5",
         "bytes": 1666
       }
+    },
+    {
+      "name": "1993-03-batch-07",
+      "status": "complete",
+      "completed_at": "2026-11-01T16:44:16.466531+00:00",
+      "goal": "Classify non-owning group0006 andpreserve copyrightarticle0007 opening140–145 aspartialnativea.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0006",
+        "maso-1993-03-toc-0007"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "outside_lookup_pages": 7,
+      "recognition_invocations": 63,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "post_pass_crop_only_refinements": 2,
+      "post_pass_saved_text_unchanged": true,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-07/validation.json",
+        "sha256": "4b4f09f7b20a12ed9514231247a3af1a36130f9ff309e2823ce487d6249a5fd7",
+        "bytes": 2685
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-07/reproduction.json",
+        "sha256": "9aa60af5bbb07af540387aa9936bb8fb902c7964e29da614bbbb9d4f05aed17a",
+        "bytes": 41119
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-07/group-reproduction.json",
+        "sha256": "16a6701db93d790c818406fefc1072ce373b676258c6440c5d368f2b62172557",
+        "bytes": 656
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 2,
-    "partial": 0,
-    "group_headings": 0,
+    "partial": 1,
+    "group_headings": 1,
     "section_references": 3,
-    "unresolved": 47
+    "unresolved": 45
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -1292,38 +1415,24 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-07",
-    "goal": "Classify canonical 읽을거리 group0006 andlocate/restore article0007 컴퓨터와 법(8) : 유저 인터페이스의 저작권 보호 범위 in a bounded native.",
+    "name": "1993-03-batch-08",
+    "goal": "Preserve finalcopyrightpage146 asimmutable nativeb,then actuallyassemble allseven pages140–146 withoriginalincoming145→146 contexts andall customcitation/quote/party/command metadata.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0006",
       "maso-1993-03-toc-0007"
     ],
-    "mapping_targets": [],
-    "initial_lookup_candidates": [
-      140,
-      139,
-      141,
-      142,
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      152,
-      153,
-      154
+    "mapping_targets": [
+      146
     ],
-    "canonical_article_reference": 138,
+    "planned_outside_lookup_pdf_pages": [
+      145,
+      147
+    ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Location probes only;no inferred global folio offset. Confirm actual source title/byline/extent/adjacent pages before selecting at most6 mapped pages. Preserve complete feature andall finalchild anchors;no new reader work."
+    "note": "Final146 sourceview alreadyretained;newrecognition onlyonreviewed finalpage crops. Preserve literalwording/claims,primary/source citationvariants andindependentpullquotes;validate actual assemblybeforemarking readable. Group0006/finalfeaturechildanchors complete;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -1350,6 +1459,11 @@
       "path": "archive/pdf/1993-03/classifications/feature-sections-r01/title-variants.json",
       "sha256": "4f0a5074dde275d6ca58b4cbcc0aaafa0b6036a34c322bbd7af2614cf3d4344a",
       "bytes": 5857
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-07-r01/group-0006.json",
+      "sha256": "1a5365a45bae3777e3eb355df1aa5c2d00ba23f6a30d82dc6d8948cd9bc68708",
+      "bytes": 2434
     }
   ]
 }

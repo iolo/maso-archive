@@ -75,8 +75,19 @@ Source 164 adds 내부 beyond the canonical contents title; both forms remain.
 The frozen parent pending-child notes have an external current disposition;
 all 626 parent files and source-fidelity limits remain unchanged. No new OCR or
 source correction; all 14,422 prior files and thirty core modules remain exact.
-Next: verify group 0006 and locate article 0007 from canonical reference 138;
-confirm actual source extent before choosing at most six mapped pages.
+Batch 07 classifies group 0006 as non-owning and preserves copyright article 0007
+opening 140–145/138–143 as a partial native: 239 independently/fresh-process exact
+files, sixty exact crops, 57 outcomes, 1,037 native/group ranges and 653 reading rows.
+Three original images, three independent pull quotations, fifteen headings, three
+party rows/six labels, eleven citations, eleven command tokens, eight circled markers
+and seventeen continuations remain explicit. One source pass used 57 initial plus
+three pre-correction and one within-pass changed recognition; two title crops were
+refined afterward with saved text unchanged. Total 63 calls, 55 exact final reused
+outcomes with actual execution origins, zero unchanged-input retries. Nine invalid
+custom-data cases rejected; all 14,427 prior files and thirty core modules exact.
+Actual seven-page extent 140–146 observed; final 146 and actual assembly pending.
+Next: preserve final copyright page 146 and actually assemble all seven pages;
+validate the incoming 145→146 source/download contexts and retain every custom index.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
