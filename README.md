@@ -15,12 +15,11 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 March 1993 restoration is active: nine readable/sample-reviewed articles, one
 partial, two non-owning groups, three final section references and 37 unresolved
-identities among 52. The puzzle-game opening on PDF 222–227 has 261 independently/
-fresh-process exact files; its actual fifteen-page extent is 222–236. Ten current
-body-owner packages contain 3,237 files. Next: restore listing continuation 228–233,
-then final 234–236 and actual assembly. Remaining bodies, 433-page accounting,
-cover and issue closeout are pending. See [March progress](docs/progress/9303.md).
-No reader rebuild.
+identities among 52. The puzzle article is preserved on PDF 222–233 across two
+immutable natives/330 files; final 234–236 and actual fifteen-page assembly are
+next. Eleven selected native/assembly packages across ten body owners contain
+3,306 files. Remaining bodies, 433-page accounting, cover and issue closeout are
+pending. See [March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

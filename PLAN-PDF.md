@@ -297,17 +297,37 @@ ends 226; listing 1 ends 236 at 1415 before independent advertising. Pages 237/2
 confirm the boundary; prepared 239 was not reviewed. Later 228–236 and actual
 fifteen-page assembly remain required.
 
-Current totals: nine readable/sample-reviewed articles, one partial, two non-owning
-groups, three section references and 37 unresolved identities among 52. Ten
-current body-owner packages contain 3,237 exact files; eight final classification
-evidence files remain separate. Original natives and superseded revisions remain
-unchanged.
+Batch 19 preserves puzzle-game listing 1 on PDF 228–233/printed 226–231 as a
+69-file middle native. Independent and fresh-process exports match. All 24 exact
+crops, twelve outcomes, 17,555 typed range occurrences and 913 physical rows
+validate. All 883 numbered rows 0188–1070 retain their four-digit number/colon
+columns, 21 blank numbered rows and thirty unnumbered physical continuations.
+Twelve original panels have null captions. Forty-one function headers, table[4]
+and KJS[8]'s twelve explicit values, two union fields, eight case labels and 31
+macro-glyph occurrences retain their own source contexts. The wrapped string 0287,
+blank payloads 1017/1031 followed by getimage wraps, numbered 0620/0621 fragments,
+PLT/PUT and X/N candidates, RED::BLUE, divisior and message variants stay literal;
+no code repair or execution. Both original native contexts at 0187→0188 validate
+without claiming an actual assembly. All twelve initial English drafts read before
+one source pass; two pre-OCR margin events on one region and zero retries or
+within/post-pass source changes. Fifteen rehashed native and two ownership cases
+are rejected. All 20,174 prior files and thirty core modules remain exact; earlier
+fresh 213-test evidence retained. Opening and middle now preserve 222–233 across
+two natives/330 files; actual fifteen-page assembly and final 234–236 remain pending.
 
-Next: Batch 19 restores puzzle-game listing 1 on PDF 228–233, continuing after
-opening 227 row 0187. Those six pages run from 0188 through 1070. Final 234–236 and
-actual assembly of all fifteen pages follow. Preserve printed number/colon columns,
-blank numbered rows, physical wraps, Korean comments, explicit values and source
-defects. No code repair, execution or reader rebuild.
+Current totals: nine readable/sample-reviewed articles, one partial, two non-owning
+groups, three section references and 37 unresolved identities among 52. Eleven
+selected native/assembly packages across ten body owners contain 3,306 exact files;
+eight final classification evidence files remain separate. Original natives and
+superseded revisions remain unchanged. Puzzle directory/manifest still identify
+opening native a; cumulative twelve-page coverage is explicitly across a/b.
+
+Next: Batch 20 restores final puzzle-game listing pages 234–236, then actually
+assembles the complete fifteen-page article 222–236 from independently regenerated
+opening, middle and final natives. Current 233 ends at 1070; final listing ends
+236 at 1415 before independent advertising. Preserve all separate example contexts,
+printed number/colon columns, blank rows, physical wraps and source candidates.
+No code repair, execution or reader rebuild.
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).

@@ -10,34 +10,31 @@ March 1993 is in progress: nine readable/sample-reviewed articles, one partial,
 two non-owning groups, three final section references and 37 unresolved identities
 among 52.
 
-Batch 18 verifies puzzle-game article 0015's actual fifteen-page extent, PDF
-222–236, and preserves opening 222–227/printed 220–225 as a 261-file partial native.
-Independent and fresh-process exports match. All 78 exact crops, 58 outcomes,
-5,768 typed range occurrences and 546 nonempty reading rows validate. Twenty
-original images retain three diagrams, fourteen code panels, category/series art
-and ending ornament. Four printed captions use literal text; sixteen are null.
-Twelve grid cells, 42 diagram labels, 49 explicit initializer pairs/98 cells,
-nine struct contexts/47 field groups and eleven function occurrences retain their
-own source ranges. Nine independent code contexts contain 316 physical rows;
-listing 1 preserves 187 four-digit number/colon rows, seven blank numbered rows
-and one physical string wrap at 175. Printed defects and PCX example/listing
-variants remain literal; no code repair or execution. All 58 drafts read before
-one source pass; fourteen English code regions, 44 Korean/English regions,
-seven pre-OCR margin events across five regions and zero retries or within/post-pass
-source changes. Metadata r02 removes a Korean identifier from the comment index;
-four JSON files differ, all transcript/assets/raw-ZIP bytes exact. Fifteen rehashed
-native and two ownership cases are rejected. All 19,652 prior files and thirty
-core modules remain exact; earlier fresh 213-test evidence retained. Main prose
-ends 226; listing 1 ends 236 at 1415 before independent advertising. Pages 237/238
-confirm the boundary; prepared 239 was not reviewed. Later 228–236 and actual
-fifteen-page assembly remain required.
-Ten current body-owner packages contain 3,237 files.
+Batch 19 preserves puzzle-game listing 1 on PDF 228–233/printed 226–231 as a
+69-file middle native. Independent and fresh-process exports match. All 24 exact
+crops, twelve outcomes, 17,555 typed range occurrences and 913 physical rows
+validate. All 883 numbered rows 0188–1070 retain their four-digit number/colon
+columns, 21 blank numbered rows and thirty unnumbered physical continuations.
+Twelve original panels have null captions. Forty-one function headers, table[4]
+and KJS[8]'s twelve explicit values, two union fields, eight case labels and 31
+macro-glyph occurrences retain their own source contexts. The wrapped string 0287,
+blank payloads 1017/1031 followed by getimage wraps, numbered 0620/0621 fragments,
+PLT/PUT and X/N candidates, RED::BLUE, divisior and message variants stay literal;
+no code repair or execution. Both original native contexts at 0187→0188 validate
+without claiming an actual assembly. All twelve initial English drafts read before
+one source pass; two pre-OCR margin events on one region and zero retries or
+within/post-pass source changes. Fifteen rehashed native and two ownership cases
+are rejected. All 20,174 prior files and thirty core modules remain exact; earlier
+fresh 213-test evidence retained. Opening and middle now preserve 222–233 across
+two natives/330 files; actual fifteen-page assembly and final 234–236 remain pending.
+Eleven selected native/assembly packages across ten body owners contain 3,306 files.
 
-Next: Batch 19 restores puzzle-game listing 1 on PDF 228–233, continuing after
-opening 227 row 0187. Those six pages run from 0188 through 1070. Final 234–236 and
-actual assembly of all fifteen pages follow. Preserve printed number/colon columns,
-blank numbered rows, physical wraps, Korean comments, explicit values and source
-defects. No code repair, execution or reader rebuild.
+Next: Batch 20 restores final puzzle-game listing pages 234–236, then actually
+assembles the complete fifteen-page article 222–236 from independently regenerated
+opening, middle and final natives. Current 233 ends at 1070; final listing ends
+236 at 1415 before independent advertising. Preserve all separate example contexts,
+printed number/colon columns, blank rows, physical wraps and source candidates.
+No code repair, execution or reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
