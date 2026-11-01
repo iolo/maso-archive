@@ -6,22 +6,24 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: five readable/sample-reviewed articles, one partial,
+March 1993 is in progress: six readable/sample-reviewed articles, no partials,
 one non-owning group, three final section references and 42 unresolved identities
-among 52. Nintendo PDF 182–184 is complete as a 142-file native; health opening
-188–190 is a 117-file partial. Both reproduce independently and in fresh processes.
-All 63 source crops, sixty outcomes, 957 ranges and 557 physical rows validate.
-Two independent quotations, fourteen illustration-contour rows, two three-point
-arguments, nine headings and original artwork remain explicit. The health package
-has a verified compound extent 188–196: authored main 188–193, then an uncredited
-editorial stretching guide 194–196. Final six pages and actual assembly remain next.
-All sixty drafts were read before one source pass; zero retries or within-pass/
-post-pass changes. Thirteen pre-OCR events repair twelve original regions. Nine
-rehashed native semantic cases and two ownership cases are rejected. All 15,840
-prior files and thirty core modules remain exact; prior fresh 213-test result
-retained. Six current body-owner packages contain 1,540 files. Remaining bodies,
-433-page accounting, cover and issue closeout remain required. See
-[March progress](docs/progress/9303.md) and its
+among 52. The complete health package on PDF 188–196 has 501 exact r02 files,
+reproduced from both regenerated natives/493 files and in a fresh process. All
+135 crops, 114 outcomes, 1,503 metadata projections, 2,892 current ranges and 750
+rows validate. Main 188–193 and uncredited editorial guide 194–196 remain distinct.
+Four independent quotations, 36 headings, 27 numbered entries in ten guide groups,
+twenty guide images and final posture panel preserve source contexts.
+Final native adds 87 initial plus three changed-input calls before one source pass;
+84 unchanged outcomes retain original execution provenance. Zero unchanged-input
+retries or within-pass/post-pass changes. R02 fixes figure-region and boundary
+namespace references caught in r01's semantic audit. Only six root JSON files
+change; all native, article-text, asset and raw-ZIP bytes remain exact. Nine rehashed
+root cases and two ownership cases are rejected. All 16,099 prior files and thirty
+core modules are exact; prior fresh 213-test log retained. Six current body-owner
+packages contain 1,924 files. Next: source verification for competition notice 0011,
+reference 132. Remaining bodies, 433-page accounting, cover and closeout remain
+required. See [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.

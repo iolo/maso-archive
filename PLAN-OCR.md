@@ -136,13 +136,29 @@ retries or within-pass/post-pass changes. Thirteen pre-OCR events repair twelve
 original regions. Nine rehashed native cases and two ownership cases are rejected;
 all 15,840 prior files and thirty core modules remain exact. Prior fresh 213-test
 result retained. Final health 191–196 and actual nine-page assembly remain next.
-Current totals: five readable/sample-reviewed articles, one partial, one non-owning
-group, three final section references and 42 unresolved identities. Next: final
-health 191–196 and actual nine-page assembly. Reuse retained source views; preserve
-numbered exercise instructions, original pose photographs and uncredited companion
-attribution. No incoming 190→191 prose merge: 190 ends a treatment section and 191
-starts 손목의 통증. Full issue goal active; no reader rebuild.
-See [March progress](docs/progress/9303.md).
+Batch 12 preserves final health PDF 191–196 as a 376-file native, then actually
+assembles all nine pages 188–196/printed 186–194. The 501-file r02 assembly reproduces
+from both independently regenerated natives/493 files and in a fresh process.
+All 135 exact crops, 114 outcomes, 1,503 metadata projections, 2,892 current ranges/
+2,792 native occurrences and 750 physical rows validate. Authored main 188–193 and
+uncredited editorial guide 194–196 remain distinct; no 190→191 cross-native prose
+merge. Four independent quotations, 36 headings, 27 numbered entries in ten guide
+groups, twenty guide images and the final posture panel retain source contexts.
+Final native adds 87 initial plus three pre-correction changed-input recognitions;
+84 exact raw/TSV results retain original execution provenance. All ninety drafts
+read before one source pass; zero unchanged-input retries or within-pass/post-pass
+changes. Twenty-four pre-OCR repairs and three faint bottom-row extensions remain.
+R01's semantic audit caught native IDs in figure-region and intervening-item
+references. R02 fixes twenty guide and four boundary references; only six root JSON
+files differ. Article text, raw ZIP, all 493 native files and assets remain exact.
+Nine rehashed root cases and two ownership cases are rejected. All 16,099 prior
+files and thirty core modules remain unchanged; prior fresh 213-test log retained.
+Current totals: six readable/sample-reviewed articles, no partials, one non-owning
+group, three final section references and 42 unresolved identities. Next: verify
+canonical 0011, (주)정보시대 창립 10주년 기념 : 소프트웨어 공모대전 안내, reference 132.
+Probe source location/eligibility/extent before mapping; PDF 134 is a lead, not a
+verified page or global folio offset. Preserve explicit gaps if unresolved. Full
+issue goal active; no reader rebuild. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:
 thirty readable/sample-reviewed articles, two partials, seven non-owning groups,

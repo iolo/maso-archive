@@ -908,41 +908,33 @@
       "parent_id": "maso-1993-03-toc-0006",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical identity, title/byline, parent group0006 and individually observed printed folios match the source; canonical queue unchanged.",
-        "Health compound extent PDF188–196/printed186–194: main188–193 by오형태, then uncredited editorial companion194–196 titled 잠깐! 10분만 쉽시다. Opening editorial deck promises stretching and companion introduction references preceding health article. No invented author or new canonical identity.197 independent computer advertisement;198 different Huffman article.",
-        "117 independently/fresh-process exact files; 28 exact source crops, 27 OCR outcomes, 436 typed ranges and 289 physical reading rows validate. Availability partial; verification sample-reviewed.",
-        "All sixty batch drafts read before one source correction pass. Sixty initial calls, zero retries, thirteen pre-OCR events across twelve original regions; no within-pass/post-pass crop or text changes.",
-        "Nine rehashed native semantic mutations and two ownership cases rejected. Valid actual group/article fixture passes; this is not full52-entry reconciliation. All15,840 prior files and30 core modules unchanged; prior fresh213-test log retained.",
-        "Source wording and historical medical/social claims transcribed literally without current clinical advice, factual normalization or encoded-byte recovery claims."
+        "Canonical health article0010 spans PDF188–196/individually observed printed186–194. Source opening title uses 건강상식 while canonical title has 건강 상식; canonical title/byline/parent/reference186 unchanged.",
+        "Authored main188–193 by오형태 ends withMS. Distinct uncredited guide194–196 titled 잠깐! 10분만 쉽시다 fulfills188 editorial deck promise and explicitly references preceding article;no invented guide author or new canonical body.",
+        "Actual r02 assembly has501 independently/fresh-process exact files from493 independently regenerated nativefiles.135 exact source crops,114 outcomes,100 blocks,21 images,1503 projected metadata ranges,2892 current typed ranges and2792 native source occurrences validate.",
+        "750 physical rows,36 headings,four independent pull quotations,18 reading boundaries,27 numbered entries in ten groups,20 guide image associations andseven entries without separate illustrations remain explicit. No190→191 cross-native merge;193→194 component boundary separate.",
+        "Final native adds87 initial plus three changed-input calls before correction;84 exact raw/TSV outcomes reused with actual r02 execution pins. All90 drafts read before one source pass;zero unchanged-input retries,within-pass orpost-pass changes.24 pre-OCR repairs andthree faint bottom-row extensions retained.",
+        "R01 semantic audit caught native IDs in projected figure_region_id andintervening_item_ids fields. R02 changes onlysix rootJSONfiles;all native/text/asset/rawZIPbytes unchanged.20 guide regionrefs andfour boundary refs corrected;original r01 retained.",
+        "Nine rehashed assembly mutations andtwo ownership cases rejected;valid actual group/readable child fixture passes,notfull52-entry reconciliation. All16099 prior files and30 core modules exact;prior fresh213-test log retained.",
+        "Historical medical/environmental/exercise claims and printed wordforms stay literal. Human acceptance,full proofreading,exact source glyphs/spaces/encodedbytes andcurrent clinical validation unproven."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-11-r01/health",
+        "directory": "archive/pdf/1993-03/packages/health-r02",
         "article_id": "scan-maso-1993-03-toc-0010",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-11-r01/health/manifest.json",
-          "sha256": "3a5aac7d6c7da3561e8c58e7ba5ceff0017fe319dac77c348cb2e1bf785991ce",
-          "bytes": 19481
+          "path": "archive/pdf/1993-03/packages/health-r02/manifest.json",
+          "sha256": "0e137b6d9cfec7ca29c130ca0a9144677db35fc6c877bd17ee51db3c7bf54f25",
+          "bytes": 89940
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
             188,
             189,
-            190
-          ],
-          "printed_pages": [
-            "186",
-            "187",
-            "188"
-          ],
-          "regions": 28,
-          "blocks": 21,
-          "figures": 1,
-          "deferred_pdf_pages": [
+            190,
             191,
             192,
             193,
@@ -950,37 +942,105 @@
             195,
             196
           ],
+          "printed_pages": [
+            "186",
+            "187",
+            "188",
+            "189",
+            "190",
+            "191",
+            "192",
+            "193",
+            "194"
+          ],
+          "regions": 135,
+          "blocks": 100,
+          "figures": 21,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 196,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-11/validation-complete.json",
-          "sha256": "082c1a4c51eb8d0466f7e66af2d87f1a1c9f67d7303a46bcf9851fe2724f6bbe",
-          "bytes": 3024
+          "path": "archive/pdf/1993-03/restoration/batch-12/validation.json",
+          "sha256": "3f77b0a8052fa5cad1bd43af1180521c1cbc7d116bd0de4ff06c9c348615b0c9",
+          "bytes": 3568
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-11/reproduction.json",
-          "sha256": "2b25d0d8715805200f54637dca543668f231a1e1cfae56e1a5184a4a805095ad",
-          "bytes": 51714
+          "path": "archive/pdf/1993-03/restoration/batch-12/reproduction-r02.json",
+          "sha256": "171af81590bea39f9ca9aab6c90d342f343e2b5dad806e78b9b5b0cd58ed7aa8",
+          "bytes": 91422
         },
-        "checkpoint": "batch-11",
+        "checkpoint": "batch-12",
         "full_source_extent": {
           "start_pdf_page": 188,
           "end_pdf_page": 196,
           "uninspected_interior_pdf_pages": [],
-          "source_observations": {
-            "path": "archive/pdf/1993-03/restoration/batch-11/extent-observations-r03.json",
-            "sha256": "ec037eb92005ffc7e96282fdc82ca289d5dc1a42ace12e17def6fb97aae7e554",
-            "bytes": 3464
-          }
+          "note": "Authored main188–193 by오형태;related uncredited editorial stretching guide194–196, promised by opening editorial deck and referencing preceding article.197 independent computer advertisement;198 different Huffman article."
         },
+        "native_inputs": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-11-r01/health",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-11-r01/health/manifest.json",
+              "sha256": "3a5aac7d6c7da3561e8c58e7ba5ceff0017fe319dac77c348cb2e1bf785991ce",
+              "bytes": 19481
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-11/health-a-r02/package-recipe.json",
+              "sha256": "75ec2602d87662058f320322497658a9dc48009ecc3f7c5c251885c6e5fc9b0d",
+              "bytes": 4047
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-12-r01/health-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-12-r01/health-b/manifest.json",
+              "sha256": "10c67849a1d6ca366583da87332201320cc728dd25185643f2b15505df1d97fc",
+              "bytes": 63930
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-12/health-b-r03/package-recipe.json",
+              "sha256": "db442454ccac33b20f846b17c9d937282dc9f8ca1b312fdbfac463ad700d1254",
+              "bytes": 14641
+            }
+          }
+        ],
+        "source_components": [
+          {
+            "component_id": "authored-main",
+            "pdf_pages": [
+              188,
+              189,
+              190,
+              191,
+              192,
+              193
+            ],
+            "byline": "오형태"
+          },
+          {
+            "component_id": "editorial-stretching-companion",
+            "pdf_pages": [
+              194,
+              195,
+              196
+            ],
+            "title": "잠깐! 10분만 쉽시다",
+            "byline": null
+          }
+        ],
         "notes": [
-          "Opening three-page partial only. Authored main188–193 and distinct uncredited editorial stretching guide194–196 require final native and actual nine-page assembly. Main author must not be inherited by companion.",
-          "Original source wording, claims, title spacing and image contexts remain literal. Assistant sample review, not human acceptance, full proofreading or exact glyph/space/encoded-byte recovery."
+          "Selected health-r02 is the actual nine-page assembly. Both original natives/493 files and superseded r01/501 files remain unchanged. Original partial/native scopes are historical, with current root completion explicit.",
+          "R02 fixes figure_region_id and intervening_item_ids namespace references. Only six rootJSON files change;article.txt,raw ZIP,all493 native files andassets exact.",
+          "No cross-native prose merge at190→191. Main193/MS and uncredited guide194 remain distinct; guide does not inherit main author or create duplicate canonical identity.",
+          "Four independent quotations,27 numbered entries in ten guide groups,20 guide images and final posture panel remain source-indexed.",
+          "Use batch-12/rebuild-r02.py and frozen health_adapter_r02.py; audit-r03.py checks current root/source semantics. No core module or reader changes."
         ]
       }
     },
@@ -1801,12 +1861,52 @@
         "sha256": "2b25d0d8715805200f54637dca543668f231a1e1cfae56e1a5184a4a805095ad",
         "bytes": 51714
       }
+    },
+    {
+      "name": "1993-03-batch-12",
+      "status": "complete",
+      "completed_at": "2026-11-01T18:54:18.509758+00:00",
+      "goal": "Preserve final health191–196 and actually assemble188–196 with distinct main/uncredited editorial guide and correct root reference namespaces.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0010"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
+      ],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 90,
+      "initial_recognitions": 87,
+      "pre_correction_changed_input_recognitions": 3,
+      "selected_unchanged_outcomes_reused": 84,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 24,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "assembly_metadata_revision": "r02;no native/article-text/asset/raw-ZIP changes",
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-12/validation.json",
+        "sha256": "3f77b0a8052fa5cad1bd43af1180521c1cbc7d116bd0de4ff06c9c348615b0c9",
+        "bytes": 3568
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-12/reproduction-r02.json",
+        "sha256": "171af81590bea39f9ca9aab6c90d342f343e2b5dad806e78b9b5b0cd58ed7aa8",
+        "bytes": 91422
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 5,
-    "partial": 1,
+    "readable": 6,
+    "partial": 0,
     "group_headings": 1,
     "section_references": 3,
     "unresolved": 42
@@ -1817,32 +1917,24 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-12",
-    "goal": "Restore final health191–196 and actually assemble compound article188–196 from immutable natives, preserving authored main and uncredited editorial stretching guide as distinct components.",
+    "name": "1993-03-batch-13",
+    "goal": "Verify source location,eligibility andactual extent ofcanonical0011 competition notice,then restore up tosix verified eligible bodypages orretain explicit eligibility/location gap.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0010"
+      "maso-1993-03-toc-0011"
     ],
-    "canonical_page_reference": 186,
-    "mapping_targets": [
-      191,
-      192,
-      193,
-      194,
-      195,
-      196
+    "canonical_page_reference": 132,
+    "provisional_source_probe_pdf_pages": [
+      133,
+      134,
+      135
     ],
-    "planned_outside_lookup_pdf_pages": [
-      188,
-      190,
-      197,
-      198
-    ],
+    "mapping_targets": [],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "All nine source pages and ending directly observed; reuse retained source views. Main193 ends withMS. Guide194–196 titled 잠깐! 10분만 쉽시다 has no stated author. No incoming190→191 prose merge: current treatment ends a complete sentence;191 starts 손목의 통증. Preserve numbered instructions and original pose photos. No reader rebuild."
+    "note": "Canonical queue returns to reference132 after health186. PDF134 is a location lead only;observe actual folio/title andadjacent ownership beforemapping. Do not infer global PDF/folio offset or treat an unrelated advertisement as body. Group0012/Huffman0013 remain pending beyond this identity. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

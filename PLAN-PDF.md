@@ -164,13 +164,31 @@ original regions. Nine rehashed native cases and two ownership cases are rejecte
 all 15,840 prior files and thirty core modules remain exact. Prior fresh 213-test
 result retained. Final health 191–196 and actual nine-page assembly remain next.
 
-Current totals: five readable/sample-reviewed articles, one partial, one non-owning
+Batch 12 preserves final health PDF 191–196 as a 376-file native, then actually
+assembles all nine pages 188–196/printed 186–194. The 501-file r02 assembly reproduces
+from both independently regenerated natives/493 files and in a fresh process.
+All 135 exact crops, 114 outcomes, 1,503 metadata projections, 2,892 current ranges/
+2,792 native occurrences and 750 physical rows validate. Authored main 188–193 and
+uncredited editorial guide 194–196 remain distinct; no 190→191 cross-native prose
+merge. Four independent quotations, 36 headings, 27 numbered entries in ten guide
+groups, twenty guide images and the final posture panel retain source contexts.
+Final native adds 87 initial plus three pre-correction changed-input recognitions;
+84 exact raw/TSV results retain original execution provenance. All ninety drafts
+read before one source pass; zero unchanged-input retries or within-pass/post-pass
+changes. Twenty-four pre-OCR repairs and three faint bottom-row extensions remain.
+R01's semantic audit caught native IDs in figure-region and intervening-item
+references. R02 fixes twenty guide and four boundary references; only six root JSON
+files differ. Article text, raw ZIP, all 493 native files and assets remain exact.
+Nine rehashed root cases and two ownership cases are rejected. All 16,099 prior
+files and thirty core modules remain unchanged; prior fresh 213-test log retained.
+
+Current totals: six readable/sample-reviewed articles, no partials, one non-owning
 group, three section references and 42 unresolved identities among 52. Six current
-body-owner packages contain 1,540 exact files. Original natives, classification
-sidecars and superseded revisions remain retained. Batch 12 restores health final
-191–196 and actually assembles 188–196 with distinct main/editorial components.
-Remaining bodies, 433-page accounting, cover and issue closeout remain required.
-See [March progress](docs/progress/9303.md) and the
+body-owner packages contain 1,924 exact files. Original natives, classification
+sidecars and superseded assemblies remain retained. Batch 13 verifies canonical
+0011's competition notice, reference 132, before mapping any eligible body. PDF 134
+is a source-location lead only. Remaining bodies, 433-page accounting, cover and
+issue closeout remain required. See [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 ## December 1992 closeout, 2026-11-01
