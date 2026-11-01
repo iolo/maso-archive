@@ -15,15 +15,16 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
 one partial, seven non-owning group headings, three section references and four unresolved
-identities. All 446 physical pages have primary classes. Batch 68 reconciles seventeen
-mixed contexts/37 semantic components and finalizes the year-feature continuation and
-terminal-control location gaps for this PDF pass. Original omission, missing-page counts
-and unassigned shell attribution remain unverified. Three four-file exports match, including
-a fresh process. Canonical states and 13,001 selected article files/31 roots remain unchanged;
-sixteen classifications are separate. Next: finalize the two year-feature child-reference
-outcomes, then handle the shell fragment and integrated final accounting. Usable cover
-verification, standalone JSON/assets issue export/rebuild and closeout remain pending.
-See the [December record](docs/progress/9212.md). Full objective active. No reader rebuild.
+identities. All 446 physical pages have primary classes; seventeen mixed contexts are
+reconciled. Batch 69 finalizes the two dependent year-feature child-reference gaps. Four
+tasks are final for this PDF pass: two original-content location gaps and two related
+reference gaps, without claiming four missing independent articles or original source
+omission. Three four-file exports match, including a fresh process. Canonical states and
+13,001 selected article files/31 roots remain unchanged; sixteen classifications separate.
+Next: determine shell 0023 attribution/recovery from the unassigned fragment on 300–305.
+Final integrated ownership/gap accounting, usable cover verification, standalone JSON/assets
+issue export/rebuild and closeout remain pending. See the [December record](docs/progress/9212.md).
+Full objective active. No reader rebuild.
 
 August 1991 is complete as a data-only restoration pass: 28 readable/sample-reviewed
 articles, five non-owning headings and two section references account for all35 identities.

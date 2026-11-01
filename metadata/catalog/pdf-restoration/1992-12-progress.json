@@ -10152,6 +10152,115 @@
         "sha256": "98ab436a6a83f3c6303c9477b7f2030518799f7ad1dc963d94340ee4921dc29a",
         "bytes": 399
       }
+    },
+    {
+      "name": "1992-12-batch-69",
+      "status": "complete",
+      "completed_at": "2026-11-01T11:56:03.491219+00:00",
+      "goal": "Finalize child-reference PDF-pass outcomes 0020/0021 using contents 5, opener 299, preserved parent outline ranges and the final parent continuation-location gap.",
+      "toc_entry_ids": [
+        "maso-1992-12-toc-0020",
+        "maso-1992-12-toc-0021"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        5,
+        299
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "child_reference_gap_tasks_finalized": 2,
+      "cumulative_final_gap_tasks": 4,
+      "gap_dispositions": {
+        "status": "partially-final-for-current-pdf-pass",
+        "checkpoint": "batch-69",
+        "dispositions": {
+          "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/final-gap-dispositions.json",
+          "sha256": "86b4bbd0f6bf0f0d5e907dcc39db4ab9448f11b94d6c3e2170632241d4790e7a",
+          "bytes": 23193
+        },
+        "child_reference_evidence": {
+          "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/child-reference-evidence.json",
+          "sha256": "cbe9ff6071acb666f5a37a89a709f1939bdcde38a23c18e8b3bf843298cb4898",
+          "bytes": 6354
+        },
+        "previous_dispositions": {
+          "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/disposition.json",
+          "sha256": "c5cf98a1a9975dd74577e385fb09373c2c9721389540a63903a0588c0bf5ccd5",
+          "bytes": 18114
+        },
+        "location_evidence_index": {
+          "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/mixed-contexts.json",
+          "sha256": "f2afc1a236cabba298a2a24be0a6b5517a5f6d22c415694fbeae00769db854a1",
+          "bytes": 867183
+        },
+        "validation": {
+          "path": "archive/pdf/1992-12/restoration/batch-69/validation.json",
+          "sha256": "c57953efe1791f380c099f50ce935612ffab6f6c9ae91a16b0c27a1b6d1e7c80",
+          "bytes": 1843
+        },
+        "reproduction": {
+          "path": "archive/pdf/1992-12/restoration/batch-69/reproduction.json",
+          "sha256": "7a08b0109cf7c08c741c0de80ea2ca08479d4a50bdb316b207d01d64eaba73a6",
+          "bytes": 1238
+        },
+        "finalized_toc_entry_ids": [
+          "maso-1992-12-toc-0019",
+          "maso-1992-12-toc-0020",
+          "maso-1992-12-toc-0021",
+          "maso-1992-12-toc-0022"
+        ],
+        "pending_toc_entry_ids": [
+          "maso-1992-12-toc-0023"
+        ],
+        "all_issue_gap_dispositions_final": false,
+        "original_content_gap_tasks_finalized": 2,
+        "related_reference_gap_tasks_finalized": 2,
+        "complete_original_article_recovery_verified": false,
+        "issue_wide_absence_verified": false,
+        "original_ledger_and_package_gap_records_unchanged": true,
+        "note": "Two original-content location gaps remain final: partial year-feature 0019 continuation/ending unlocated and terminal-control 0022 body unidentified. Children 0020/0021 now have final dependent-reference outcomes: only contents/opener outlines, no intrinsic body anchors recovered. These are two related reference gaps, not two additional independent missing articles. Canonical entries and parent partial package unchanged. Original identity/extent/omission, unassigned shell attribution and missing-page count remain unverified; no source-wide absence claim. Canonical 0023 remains pending its own attribution/recovery outcome."
+      },
+      "validation": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/validation.json",
+        "sha256": "c57953efe1791f380c099f50ce935612ffab6f6c9ae91a16b0c27a1b6d1e7c80",
+        "bytes": 1843
+      },
+      "reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/reproduction.json",
+        "sha256": "7a08b0109cf7c08c741c0de80ea2ca08479d4a50bdb316b207d01d64eaba73a6",
+        "bytes": 1238
+      },
+      "fresh_process_reproduction": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/fresh-process-reproduction.json",
+        "sha256": "73dc44baae0942db7a0e135d40a1b928398ce385eb3c85bf270c39bee48101f9",
+        "bytes": 870
+      },
+      "source_audit": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/source-audit.json",
+        "sha256": "a141a2993788cb96264a376fdd2eb81a4a3aa92666189396d837cf1fc0884371",
+        "bytes": 820
+      },
+      "boundary_evidence": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/source-boundaries.json",
+        "sha256": "40a1d0b582870bd8290bf3691d023392445d466803a1de81b2d5466462639f51",
+        "bytes": 1108
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/negative-checks.json",
+        "sha256": "850949528e77b5616675861e1032212431d346405a6cbefefcf079aff4a9c3b9",
+        "bytes": 4366
+      },
+      "timings": {
+        "path": "archive/pdf/1992-12/restoration/batch-69/prospective-timings.json",
+        "sha256": "2f208c0b454507c0e33149c8f25de03dafd37be361c0234dcbefa9719e2e1fe3",
+        "bytes": 362
+      }
     }
   ],
   "totals": {
@@ -10168,24 +10277,29 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1992-12-batch-69",
-    "goal": "Finalize child-reference dispositions 0020/0021 using the parent year-feature PDF-pass source gap and direct rechecks of contents 5 and opener 299. The two outline items are not intrinsic body anchors.",
+    "name": "1992-12-batch-70",
+    "goal": "Determine source-supported attribution and recovery outcome for canonical human-shell 0023 and the unassigned shell-listing fragment 300–305; directly recheck contents 5, all six fragment pages and advertisement boundary 306.",
     "toc_entry_ids": [
-      "maso-1992-12-toc-0020",
-      "maso-1992-12-toc-0021"
+      "maso-1992-12-toc-0023"
     ],
     "candidate_mapping_targets": [],
     "mapping_targets": [],
     "initial_lookup_candidates": [
       5,
-      299
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "All 446 primary pages and seventeen recorded mixed contexts have evidence. Parent continuation-location gap 0019 and terminal-control body-identification gap 0022 are final for this PDF pass, with original identity/extent/omission and missing-page count unverified. Resolve only children 0020/0021 in this checkpoint; do not assign duplicate bodies or promote outline/contents references to intrinsic anchors. Two outside whole-page rechecks and zero mapped pages are proposed. Preserve parent package and all canonical identities/availability states unless a supported classification changes. The unassigned shell fragment 300–305 and canonical 0023 require a separate task; do not advance it here. Finish remaining gap outcomes, final integrated ownership/accounting audit, usable cover verification, standalone JSON/assets issue export/rebuild and closeout. Full December objective active; no reader rebuild."
+    "note": "One canonical task with eight proposed outside whole-page views. Contents reference 314 is not a physical-page assignment or an independent body anchor. Fragment 300–305 has printed folios 325–330, starts mid-program and ends above a separate advertisement; no independent opening has been established. Inspect complete code/text/identity evidence and confirm attribution and usable fragment scope before mapping at most six eligible pages. Retain incomplete source, title/byline, source-byte/execution and original-extent uncertainty. Do not promote a code-fragment ending to a complete article/program claim. Four earlier gap/reference tasks are final for the current PDF pass and their original bytes remain unchanged. Complete the shell attribution/recovery outcome and any supported native/assembly or explicit final gap, then integrate final page/ownership accounting, verify usable cover, reproduce standalone JSON/assets issue export and close out. Full December objective active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -10330,12 +10444,27 @@
     "source_page_location_evidence_reconciled": true,
     "page_accounting_complete": false,
     "source_wide_absence_asserted": false,
-    "note": "All 446 primary rows are unchanged. Seventeen directly reviewed mixed pages contain 37 semantic components and retain 31 owner-relative exclusion records across fourteen selected-body pages. Complete primary source/review/ownership evidence indexed and revalidated. Target 0019 continuation-location and 0022 body-identification gaps are final for this supplied PDF pass; no original omission, missing-page count or universal absence proven. Child-reference and unassigned-shell outcomes, final integrated issue ownership/gap audit, usable cover verification, standalone export/rebuild and closeout remain pending. The copied primary ledger retains its historical Batch 67 pending-final-audit flag; current mixed/gap evidence is external."
+    "note": "All 446 primary rows are unchanged. Seventeen directly reviewed mixed pages contain 37 semantic components and retain 31 owner-relative exclusion records across fourteen selected-body pages. Complete primary source/review/ownership evidence indexed and revalidated. Target 0019 continuation-location and 0022 body-identification gaps are final for this supplied PDF pass; no original omission, missing-page count or universal absence proven. Unassigned-shell outcome, final integrated issue ownership/gap audit, usable cover verification, standalone export/rebuild and closeout remain pending. The copied primary ledger retains its historical Batch 67 pending-final-audit flag; current mixed/gap evidence is external. Child-reference outcomes are finalized externally in Batch 69; the current cumulative disposition supplies explicit JSON contexts for prior location-index pointers.",
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/final-gap-dispositions.json",
+      "sha256": "86b4bbd0f6bf0f0d5e907dcc39db4ab9448f11b94d6c3e2170632241d4790e7a",
+      "bytes": 23193
+    }
   },
   "coverage_gap_dispositions": {
     "status": "partially-final-for-current-pdf-pass",
-    "checkpoint": "batch-68",
+    "checkpoint": "batch-69",
     "dispositions": {
+      "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/final-gap-dispositions.json",
+      "sha256": "86b4bbd0f6bf0f0d5e907dcc39db4ab9448f11b94d6c3e2170632241d4790e7a",
+      "bytes": 23193
+    },
+    "child_reference_evidence": {
+      "path": "archive/pdf/1992-12/restoration/batch-69/gap-r01/child-reference-evidence.json",
+      "sha256": "cbe9ff6071acb666f5a37a89a709f1939bdcde38a23c18e8b3bf843298cb4898",
+      "bytes": 6354
+    },
+    "previous_dispositions": {
       "path": "archive/pdf/1992-12/restoration/batch-68/accounting-r01/disposition.json",
       "sha256": "c5cf98a1a9975dd74577e385fb09373c2c9721389540a63903a0588c0bf5ccd5",
       "bytes": 18114
@@ -10346,29 +10475,30 @@
       "bytes": 867183
     },
     "validation": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/validation.json",
-      "sha256": "3bb0fd24bcb11b8d841d78d8278d8d493322c9c7449d92e9ad5c03a0e7678268",
-      "bytes": 1870
+      "path": "archive/pdf/1992-12/restoration/batch-69/validation.json",
+      "sha256": "c57953efe1791f380c099f50ce935612ffab6f6c9ae91a16b0c27a1b6d1e7c80",
+      "bytes": 1843
     },
     "reproduction": {
-      "path": "archive/pdf/1992-12/restoration/batch-68/reproduction.json",
-      "sha256": "7a53d4ec5f74db2e63e410a015579142dbeff5ea10bedbab8e7b139371fd1bec",
-      "bytes": 1230
+      "path": "archive/pdf/1992-12/restoration/batch-69/reproduction.json",
+      "sha256": "7a08b0109cf7c08c741c0de80ea2ca08479d4a50bdb316b207d01d64eaba73a6",
+      "bytes": 1238
     },
     "finalized_toc_entry_ids": [
       "maso-1992-12-toc-0019",
+      "maso-1992-12-toc-0020",
+      "maso-1992-12-toc-0021",
       "maso-1992-12-toc-0022"
     ],
     "pending_toc_entry_ids": [
-      "maso-1992-12-toc-0020",
-      "maso-1992-12-toc-0021",
       "maso-1992-12-toc-0023"
     ],
     "all_issue_gap_dispositions_final": false,
     "original_content_gap_tasks_finalized": 2,
+    "related_reference_gap_tasks_finalized": 2,
     "complete_original_article_recovery_verified": false,
     "issue_wide_absence_verified": false,
     "original_ledger_and_package_gap_records_unchanged": true,
-    "note": "Year-feature 0019 has its existing readable opening only; continuation/ending unlocated. Terminal-control 0022 has no independently identified body. These location searches are final for the supplied PDF pass. Resume only with new source or independent attribution evidence, or a specifically contradicted classification. Existing canonical availability and partial-package metadata remain historical and exact; no complete article, missing-page count or original source omission is certified. Children 0020/0021 and shell 0023 remain pending their own dispositions."
+    "note": "Two original-content location gaps remain final: partial year-feature 0019 continuation/ending unlocated and terminal-control 0022 body unidentified. Children 0020/0021 now have final dependent-reference outcomes: only contents/opener outlines, no intrinsic body anchors recovered. These are two related reference gaps, not two additional independent missing articles. Canonical entries and parent partial package unchanged. Original identity/extent/omission, unassigned shell attribution and missing-page count remain unverified; no source-wide absence claim. Canonical 0023 remains pending its own attribution/recovery outcome."
   }
 }
