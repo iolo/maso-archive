@@ -1701,6 +1701,57 @@ Evidence: `archive/pdf/1992-12/restoration/batch-64/validation.json`,
 `prospective-timings.json` and `completion-audit.json`. Session evidence:
 `archive/pdf/1992-12/evidence/session-2026-11-01-45/`.
 
+Batch 65 directly reviews twenty pending pages: 82–89, 91–93, 95–97, 105–106
+and 340–343, for year-feature continuation 0019 and UNIX terminal-control 0022.
+Nineteen are full advertisements. Physical 105 is an independent unlisted
+편집자 노트, 응용 소프트웨어 개발로 승부를 걸자, with actual visible magazine folio 95.
+Its original whole-page image and classification remain outside the forty-five
+canonical identities; editorial body transcription is outside this checkpoint.
+No new identity or canonical ownership is inferred. The printer advertisement on
+89 includes a writer's portrait/quotation; newspaper clippings on 340 remain inside
+a program-development-tool advertisement. The Sora1.5 graphical DOS-shell promotion
+on 341 is advertising, not the human-shell or terminal-control article. Neither
+target body is observed. No mapping, recognition, retry or source correction occurs.
+
+The four-file sidecar at
+`archive/pdf/1992-12/restoration/batch-65/accounting-r01/` represents all 446 slots:
+425 classified and 21 explicitly pending. Three exports match byte for byte,
+including a fresh process. Only twenty prior pending rows change; all other 426
+page rows remain unchanged. Prior accounting audits are reexecuted through original
+pinned review/render/ownership inputs, retaining twenty-two explicit review/render
+bridges. All forty current native/layout images decode. Current source classes
+include 171 full advertising pages and one unlisted editorial; 238 selected body
+pages/31 maps and 31 map-local exclusion records across fourteen mixed body pages
+remain unchanged. The shell-listing fragment on 300–305 remains unassigned.
+Pending pages are 344–359 and 442–446. Actual folio 95 is read directly; no global
+offset, newspaper date or promotional number is substituted for a magazine folio.
+
+Twenty consistently rehashed private accounting mutations are rejected by the
+private source audit, including loss of the editorial's actual folio. No generic
+article-schema claim. All 72,158 prior December files, 13,001 selected
+article files/31 roots, sixteen classifications, 9,332 September files and thirty
+core/source/runtime/TOC/queue pins remain exact. The unchanged 213-test baseline
+is reused. Four accounting files do not increase the selected article-file count.
+Stage wall times include preservation, rendering, evidence checks and orchestration;
+they do not measure isolated manual-review or restoration throughput.
+
+All 45 canonical entries remain unchanged: thirty readable/sample-reviewed, one
+partial, seven groups, three section references and four unresolved. Next checkpoint
+66 reviews physical 344–359 and 442–445 for the same two location tasks within 2/6/20
+limits. Physical 446 remains pending beyond that twenty-page checkpoint. Year-feature
+0019 remains partial at opener 299, with ending/children 0020/0021 unresolved;
+UNIX 0022/0023 remain unresolved. No source-wide absence, missing-page count, new
+ownership, complete accounting or cover verification is claimed. Remaining bodies/
+assemblies or explicit source gaps, all 446-page accounting, cover verification,
+standalone JSON/assets issue export/rebuild and closeout remain required.
+Full December objective active. No reader rebuild.
+
+Evidence: `archive/pdf/1992-12/restoration/batch-65/validation.json`,
+`source-reviewed.json`, `source-audit.json`, `negative-checks.json`,
+`reproduction.json`, `fresh-process-reproduction.json`, `source-boundaries.json`,
+`prospective-timings.json` and `completion-audit.json`. Session evidence:
+`archive/pdf/1992-12/evidence/session-2026-11-01-46/`.
+
 September 1991 is complete as a canonical TOC JSON/assets restoration pass:
 29 identities account for 23 readable/sample-reviewed articles, four non-owning group
 headings and two non-owning section references, with no partial or unresolved entries.

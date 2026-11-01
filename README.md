@@ -15,11 +15,11 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 December 1992 restoration is in progress: thirty readable/sample-reviewed articles,
 one partial, seven non-owning group headings, three section references and four unresolved
-identities. Batch 64 reviews twenty advertising pages on physical 61–79 and 81. The
-reproducible provisional ledger classifies 405 of 446 pages, with 41 pending. Three
-four-file accounting exports match, including a fresh process. All article statuses remain
-unchanged; 31 roots contain 13,001 selected files and sixteen classifications are separate.
-Next: review pages 82–89, 91–93, 95–97, 105–106 and 340–343 for location research/accounting.
+identities. Batch 65 classifies nineteen advertising pages and an unlisted editor's note
+on physical 105/printed 95. The provisional ledger classifies 425 of 446 pages; 21 remain
+pending. Three four-file accounting exports match, including a fresh process. All canonical
+statuses and 13,001 selected article files/31 roots remain unchanged; sixteen classifications
+are separate. Next: review pages 344–359 and 442–445; physical 446 remains pending afterward.
 Remaining bodies or explicit source gaps, full page accounting, cover verification,
 standalone JSON/assets issue export/rebuild and closeout are pending. See the
 [December record](docs/progress/9212.md). Full objective active. No reader rebuild.
