@@ -36,7 +36,8 @@
         "One source pass;51 initial recognitions plusone changed-heading recognitionbeforecorrection. Fifty unchanged raw/TSV results reused with original execution provenance;zero unchanged-input retries. All failed/narrow crop revisions retained.",
         "Batch03 preserves162–167 as native b:196 independently exact files,50 exact crops,46 selected outcomes,three diagrams,three-row/nine-cell table,eleven headings andeight continuations. Firsttwo intrinsic section bodies now preserved across a/b. Both original incoming160→162 download/scan contexts validate;lower163 recruitment notice excluded;no prose joins163→164 or167→168.49 recognitions,43 unchanged raw/TSV outcomes reused,one source pass,zero unchanged-input retries. Canonical child title remains unchanged;source164 adds 내부. Remaining168–172 andactual assembly required.",
         "Batch04 preserves final168–172 as native c:201 independently/fresh-process exact files,54 exact crops,46 selected outcomes,912 valid ranges,eight original panels,three charts/24 values,two specification catalogues/18 fields,two literal DOS fragments/10 nonempty rows andsix prose boundaries. All17 body pages156–172 now preserved across a/b/c;actual assembly andfinal child anchors pending.49 actual recognitions,43 exact reused raw/TSV outcomes,one paused/resumed source pass,zero unchanged-input retries. Printed4.183 chart separator,prose4183,카 andchip/time-unit/ratio/cache claims retained without technical repair. Final172 closes before173 advertisement and174 independent PC column.",
-        "Batch05 actually assembles all17 feature pages156–172 into readable/sample-reviewed parent0001:163 regions,118 coherent blocks,20 original images and143 selected OCR outcomes. Main160→162 joins across independent PCI sidebar161 with one physical newline;all source blocks/listing bytes andintervening order retained. All2324 metadata ranges project;4484 current typed occurrences and4364 native-source occurrences validate.626 files reproduce from three independently regenerated natives/617 files andfresh-process rebuild. No new OCR/source correction;canonical title/byline/parents unchanged;remainingchild0003/0004 anchors pending."
+        "Batch05 actually assembles all17 feature pages156–172 into readable/sample-reviewed parent0001:163 regions,118 coherent blocks,20 original images and143 selected OCR outcomes. Main160→162 joins across independent PCI sidebar161 with one physical newline;all source blocks/listing bytes andintervening order retained. All2324 metadata ranges project;4484 current typed occurrences and4364 native-source occurrences validate.626 files reproduce from three independently regenerated natives/617 files andfresh-process rebuild. No new OCR/source correction;canonical title/byline/parents unchanged;remainingchild0003/0004 anchors pending.",
+        "Batch06 finalizes child0003/0004 non-owning references at b-p164-part-title andc-p168-part-title. Allthree child anchors final;source164 adds 내부,canonical/contents title unchanged. Frozen parent/native pending notes resolved byexternal disposition without changing626 parent files orsource-fidelity limits."
       ],
       "restoration": {
         "directory": "archive/pdf/1993-03/packages/feature-localbus-r01",
@@ -366,6 +367,17 @@
           "end_pdf_page": 172,
           "uninspected_interior_pdf_pages": [],
           "note": "All17 body pages actually assembled. One cross-native prose join160→162 crosses independent sidebar161;section openings164/168 independent;ending172 verified. Child0002 final anchor resolved;children0003/0004 pending separate bounded checkpoint."
+        },
+        "all_child_anchors_final": true,
+        "child_anchor_dispositions": {
+          "path": "archive/pdf/1993-03/classifications/feature-sections-r01/parent-status-dispositions.json",
+          "sha256": "1fdc8db28fff0fdff3498c53166886429afc95b116adc5e1a38655e849550ddc",
+          "bytes": 4244
+        },
+        "feature_family_evidence": {
+          "path": "archive/pdf/1993-03/classifications/feature-sections-r01/feature-family.json",
+          "sha256": "57e2ca277a27b854de447fea6ec33aff59676ce3d17d299839e2de1dd7777ae1",
+          "bytes": 1094
         }
       }
     },
@@ -420,23 +432,97 @@
       "toc_entry_id": "maso-1993-03-toc-0003",
       "title": "2. VL 버스 동작과 구성",
       "parent_id": "maso-1993-03-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4,shared opener156,source heading andcomplete assembled section boundaries establish a non-owning child ofparent0001. Canonical ordinal,title,parent,order andnull reference remain unchanged;no duplicate body.",
+        "Final assembled heading b-p164-part-title resolves to source164/printed162 with exact article-relative text/scan;complete intrinsic body164–167 retained.",
+        "Source second title adds 내부 beyondcanonical/contents wording. Source reporter remains separate fromparent canonicalbyline. All title forms andfidelity limits retained."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1993-03-toc-0001",
+      "section": {
+        "anchor": "b-p164-part-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 164
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1993-03-toc-0001",
+        "directory": "archive/pdf/1993-03/packages/feature-localbus-r01",
+        "anchor": "b-p164-part-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 164,
+        "source_heading_printed_page": "162",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1993-03/packages/feature-localbus-r01/manifest.json",
+          "sha256": "be320171372111e1ac88ce3be553132062c0349db632bfcae5a6f6442538c2dd",
+          "bytes": 113085
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1993-03/classifications/feature-sections-r01/0003-anchor.json",
+          "sha256": "abe0b2c8f7e434aec1e644eddb3cd100f7749bc5151ad181cdaf5756a2ca6813",
+          "bytes": 4644
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-06/validation.json",
+          "sha256": "72455c1b7d19485ba4c32e4e68b115653c47a6961df23045597d76430a88f99e",
+          "bytes": 2927
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0004",
       "title": "3. VL 버스 시스템 평가",
       "parent_id": "maso-1993-03-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4,shared opener156,source heading andcomplete assembled section boundaries establish a non-owning child ofparent0001. Canonical ordinal,title,parent,order andnull reference remain unchanged;no duplicate body.",
+        "Final assembled heading c-p168-part-title resolves to source168/printed166 with exact article-relative text/scan;complete intrinsic body168–172 retained.",
+        "Source second title adds 내부 beyondcanonical/contents wording. Source reporter remains separate fromparent canonicalbyline. All title forms andfidelity limits retained."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1993-03-toc-0001",
+      "section": {
+        "anchor": "c-p168-part-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 168
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1993-03-toc-0001",
+        "directory": "archive/pdf/1993-03/packages/feature-localbus-r01",
+        "anchor": "c-p168-part-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 168,
+        "source_heading_printed_page": "166",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1993-03/packages/feature-localbus-r01/manifest.json",
+          "sha256": "be320171372111e1ac88ce3be553132062c0349db632bfcae5a6f6442538c2dd",
+          "bytes": 113085
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1993-03/classifications/feature-sections-r01/0004-anchor.json",
+          "sha256": "71f432a702ca273d7f6930f44735759081211aef9392c88b1eb585f7aaa6f5e7",
+          "bytes": 4877
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-06/validation.json",
+          "sha256": "72455c1b7d19485ba4c32e4e68b115653c47a6961df23045597d76430a88f99e",
+          "bytes": 2927
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0005",
@@ -1163,6 +1249,33 @@
         "sha256": "1ec6d4efc8ae82f4c03b0c9c285a9a86bb3d67eed8af328cec34b26e11dbf6c6",
         "bytes": 114736
       }
+    },
+    {
+      "name": "1993-03-batch-06",
+      "status": "complete",
+      "completed_at": "2026-11-01T16:08:09.220770+00:00",
+      "goal": "Final non-owning anchors forchild0003/0004 with canonical/source title variants andexternal frozen-status disposition.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0003",
+        "maso-1993-03-toc-0004"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 8,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-06/validation.json",
+        "sha256": "72455c1b7d19485ba4c32e4e68b115653c47a6961df23045597d76430a88f99e",
+        "bytes": 2927
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-06/reproduction.json",
+        "sha256": "e6ade8b13903c0e48ddeb672296542fabb2fb93ee761e8942619ad5b4d0e68b5",
+        "bytes": 1666
+      }
     }
   ],
   "totals": {
@@ -1170,8 +1283,8 @@
     "readable": 2,
     "partial": 0,
     "group_headings": 0,
-    "section_references": 1,
-    "unresolved": 49
+    "section_references": 3,
+    "unresolved": 47
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -1179,28 +1292,64 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-06",
-    "goal": "Resolve children0003/0004 as non-owning section references with final assembled-parent anchors;preserve canonical/source title variants.",
+    "name": "1993-03-batch-07",
+    "goal": "Classify canonical 읽을거리 group0006 andlocate/restore article0007 컴퓨터와 법(8) : 유저 인터페이스의 저작권 보호 범위 in a bounded native.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0003",
-      "maso-1993-03-toc-0004"
+      "maso-1993-03-toc-0006",
+      "maso-1993-03-toc-0007"
     ],
     "mapping_targets": [],
-    "planned_outside_lookup_pdf_pages": [
-      4,
-      156,
-      163,
-      164,
-      167,
-      168,
-      172,
-      173
+    "initial_lookup_candidates": [
+      140,
+      139,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
     ],
+    "canonical_article_reference": 138,
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Complete parent is feature-localbus-r01. No new OCR/source correction orduplicate child bodies. Verify exact heading ranges/scans andsection extents;source164 adds 내부 beyondcanonical child0003 title. Preserve canonical parents/null references."
-  }
+    "note": "Location probes only;no inferred global folio offset. Confirm actual source title/byline/extent/adjacent pages before selecting at most6 mapped pages. Preserve complete feature andall finalchild anchors;no new reader work."
+  },
+  "final_issue_classification_evidence_required": [
+    {
+      "path": "archive/pdf/1993-03/classifications/feature-sections-r01/0003-anchor.json",
+      "sha256": "abe0b2c8f7e434aec1e644eddb3cd100f7749bc5151ad181cdaf5756a2ca6813",
+      "bytes": 4644
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/feature-sections-r01/0004-anchor.json",
+      "sha256": "71f432a702ca273d7f6930f44735759081211aef9392c88b1eb585f7aaa6f5e7",
+      "bytes": 4877
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/feature-sections-r01/feature-family.json",
+      "sha256": "57e2ca277a27b854de447fea6ec33aff59676ce3d17d299839e2de1dd7777ae1",
+      "bytes": 1094
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/feature-sections-r01/parent-status-dispositions.json",
+      "sha256": "1fdc8db28fff0fdff3498c53166886429afc95b116adc5e1a38655e849550ddc",
+      "bytes": 4244
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/feature-sections-r01/title-variants.json",
+      "sha256": "4f0a5074dde275d6ca58b4cbcc0aaafa0b6036a34c322bbd7af2614cf3d4344a",
+      "bytes": 5857
+    }
+  ]
 }

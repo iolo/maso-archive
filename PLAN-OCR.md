@@ -67,8 +67,16 @@ joins across independent PCI sidebar 161; two section boundaries and all source
 blocks/listing bytes remain intact. Child 0002 is a final non-owning anchor 157/155.
 Nine rehashed assembly/child cases rejected; no new OCR/source correction. All
 13,796 prior files and thirty core modules remain exact; 213-test result retained.
-Next: finalize children 0003/0004 against the complete assembled parent, then
-continue remaining March bodies. No new OCR for the anchor checkpoint.
+Batch 06 finalizes children 0003/0004 as non-owning references at assembled
+headings 164/168, printed 162/166. All three feature child anchors are final.
+Five classification files reproduce exactly in independent/fresh-process exports;
+ten parent-relative ranges and nine invalid ownership/anchor cases validate.
+Source 164 adds 내부 beyond the canonical contents title; both forms remain.
+The frozen parent pending-child notes have an external current disposition;
+all 626 parent files and source-fidelity limits remain unchanged. No new OCR or
+source correction; all 14,422 prior files and thirty core modules remain exact.
+Next: verify group 0006 and locate article 0007 from canonical reference 138;
+confirm actual source extent before choosing at most six mapped pages.
 See [March progress](docs/progress/9303.md). Full issue goal active; no reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps:

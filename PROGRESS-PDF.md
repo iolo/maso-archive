@@ -6,18 +6,18 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: two readable/sample-reviewed articles, one non-owning
-section reference and 49 unresolved identities among 52. The complete feature on
-PDF 156–172 is actually assembled: 626 exact files from three regenerated natives/
-617 files and a fresh-process rebuild. All 163 crops, 118 blocks, twenty images,
-143 OCR outcomes, 2,324 projected metadata ranges and 4,484 current typed occurrences
-validate. The main 160→162 join crosses independent sidebar 161; all source blocks,
-configuration listing bytes and two intrinsic section boundaries remain intact.
-Child 0002 has a final non-owning anchor 157/155; children 0003/0004 are next.
-Two current body-owner packages contain 708 exact files; all 617 original feature
-native files remain unchanged. No new assembly OCR/source correction; prior 213-test
-result retained with thirty unchanged core modules. Remaining bodies, 433-page
-accounting, cover and issue closeout are pending. See [March progress](docs/progress/9303.md)
+March 1993 is in progress: two readable/sample-reviewed articles, three non-owning
+section references and 47 unresolved identities among 52. The complete feature on
+PDF 156–172 contains 626 independently exact files from three regenerated natives
+and a fresh-process rebuild. All three child anchors are final at PDF 157/164/168;
+canonical/source title variants remain separate. Five classification files reproduce
+exactly; ten source-linked ranges and nine invalid ownership/anchor cases validate.
+Frozen parent pending-child notes resolve externally; all parent/native bytes and
+source-fidelity limits remain. Two current body-owner packages contain 708 files;
+all 617 original feature-native files remain retained. No new anchor OCR/correction;
+prior fresh 213-test result retained with thirty unchanged core modules. Next:
+verify group 0006 and locate article 0007 within 2/6/20 limits. Remaining bodies,
+433-page accounting, cover and issue closeout are pending. See [March progress](docs/progress/9303.md)
 and its [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets pass with explicit gaps.

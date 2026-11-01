@@ -89,10 +89,19 @@ blocks/listing bytes remain intact. Child 0002 is a final non-owning anchor 157/
 Nine rehashed assembly/child cases rejected; no new OCR/source correction. All
 13,796 prior files and thirty core modules remain exact; 213-test result retained.
 
-Current totals: two readable articles, one non-owning section reference and 49
+Batch 06 finalizes children 0003/0004 as non-owning references at assembled
+headings 164/168, printed 162/166. All three feature child anchors are final.
+Five classification files reproduce exactly in independent/fresh-process exports;
+ten parent-relative ranges and nine invalid ownership/anchor cases validate.
+Source 164 adds 내부 beyond the canonical contents title; both forms remain.
+The frozen parent pending-child notes have an external current disposition;
+all 626 parent files and source-fidelity limits remain unchanged. No new OCR or
+source correction; all 14,422 prior files and thirty core modules remain exact.
+
+Current totals: two readable articles, three non-owning section references and 47
 unresolved identities among 52. Two current body-owner packages contain 708 exact
-files; all 617 original feature-native files remain unchanged. Batch06 finalizes
-children 0003/0004, preserving canonical/source title variants; no new OCR planned.
+files; all 617 original feature-native files remain unchanged. Batch 07 verifies
+읽을거리 group 0006 and locates/restores article 0007 within 2/6/20 limits.
 Remaining bodies, 433-page accounting, cover and issue closeout remain required.
 See [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json). No reader rebuild.
