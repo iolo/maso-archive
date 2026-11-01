@@ -1060,15 +1060,66 @@ Twenty-seven selected roots contain 10,813 files; sixteen classification files r
 separate. Natives a/b/c preserve seventeen pages 112–128 and 843 files; the compound
 entry stays partial.
 
-Next: review and restore compound continuation 129–134 as immutable native d. Verify
-the printer ending on 129, unseen overseas pages 130–132, the endpoint on 133, and
-the software-review opening on 134 with outgoing 135. Reuse contents 4/5, divider
-111, native tail 128 and later compound anchors 141/142 as needed. Preserve each
-intrinsic item, original image, caption, credit, contact and literal claim without new
-canonical children. A new native needs a frozen eligibility guard outside prior a/b/c
-guards with unchanged-map delegation. Seventeen prior adapters plus the native-c
-guard apply to relevant builds. At most two canonical tasks/six mapped/twenty outside
-pages. Remaining compound branches and actual full assembly, year-feature/UNIX
+Batch 53 preserves compound information-radar entry 0046 continuation PDF 129–134,
+individually read folios 119–124, as immutable native d. Sixteen main text items retain
+fourteen complete items wholly within this native, the incoming printer tail and the
+outgoing Han-geul Baram opening. Overseas-network continuity on 124–133 is now directly
+source-reviewed across current and prior checkpoints; actual assembly remains pending.
+Canonical compound title, parent 0045, null reference and other identities are unchanged.
+
+Page 133 closes the overseas branch with an editorial roundup of six products. The full
+original tinted panel, two separately cropped screenshots, captions and closing ornament
+remain intact. Page 134 opens software reviews. Three screenshots belong to Han-geul
+Baram; the fourth anticipates the independent review on 135. Its selected 반질고리
+title/caption candidate remains uncertain, with 반짇고리/반지고리 alternatives linked to
+enlarged source views. Initial shorthand is retained in the first ownership/review records;
+a fresh revision supersedes the candidate wording without changing figure ownership.
+No new canonical child or restored page-135 body is inferred.
+
+Three 369-file exports match, including a fresh process. All 100 source crops, 87 OCR
+outcomes, 62 blocks, thirteen original images, 714 reading rows and 1,304 typed ranges/
+29 empty anchors validate. Twelve prose groups retain 25 column/page boundaries and
+their intervening material. Eleven captions, fifteen historical contact blocks across
+sixteen regions, one contact split across columns, twenty variants, 269 literal numeric
+occurrences and two printed file-format references remain source-linked. Earlier natives
+a/b/c regenerate exactly through the new guard: 208, 312 and 323 files respectively.
+
+All 100 initial crops on 28 sheets and seventeen repaired crops on five sheets were
+directly reviewed before recognition; 83 unchanged crops remain exact. All 87 complete
+raw drafts were read in one untruncated output before one literal source pass, all kor+eng.
+Four enlarged source-only details were viewed without further OCR. Seventeen pre-OCR
+edge repairs are retained in a fresh map revision. Zero OCR retries or within-pass map
+changes. The unchanged 213-test baseline is reused.
+
+Literal Canon price 295 dollars, magenda, mata, fliker, the wrapped 167/000,000-colour
+claim, 280∼1400시간, 88bit, 4MB/26KB and Microsoft QEMM386 attribution remain source
+occurrences. Physical model/unit/identifier wraps and Latin/Roman I/1 candidates remain
+explicit. Technical or historical truth, current applicability, original encoded glyphs/
+bytes/spacing and file recovery remain unverified. Embedded menus and image lettering
+are not exhaustively transcribed. No execution, human acceptance or full proofreading claim.
+
+Incoming 128 ends 애플 and 129 begins 토크, continuing one word with both native
+contexts validated. Outgoing 134 ends 규격을 and 135 begins 지원하여 in the same
+Baram prose. Actual cross-native assembly remains required. Twenty-eight consistently
+rehashed metadata edits pass generic exports and fail the frozen private source audit;
+six altered eligibility cases are rejected. No generic custom-schema enforcement claim.
+
+All 58,045 prior December files, 10,813 former selected files/27 roots, sixteen
+classification files, 9,332 September files and thirty core/source/runtime/TOC/queue pins
+remain exact. Totals stay twenty-three readable/sample-reviewed articles, two partials,
+seven groups, three section references and ten unresolved identities. Twenty-eight selected
+roots contain 11,182 files; sixteen classification files remain separate. Natives a/b/c/d
+preserve twenty-three pages 112–134 and 1,212 files; the compound entry stays partial.
+
+Next: review and restore compound continuation 135–140 as immutable native e. Confirm
+the Baram ending and following software review on 135, then trace unseen 136–140 through
+the software, books and price branches without assuming their boundaries. Reuse contents
+4/5, divider 111, native tail 134, chart endpoint 141 and following quiz 142 as needed.
+Keep the page-134 anticipatory figure association and uncertain title candidates explicit.
+Final 141 and actual compound assembly remain for later checkpoint(s). A new native needs
+a frozen eligibility guard outside a/b/c/d with unchanged-map delegation; eighteen prior
+adapters plus the native-d guard apply to relevant builds. At most two canonical tasks/
+six mapped/twenty outside pages. Remaining compound bodies/assembly, year-feature/UNIX
 locations, other bodies/assemblies, all 446-page accounting, cover, standalone export/
 rebuild and closeout remain required. Full December goal active. No reader rebuild.
 See [December progress](docs/progress/9212.md) and
