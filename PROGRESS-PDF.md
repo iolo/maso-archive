@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: twenty-three readable/sample-reviewed articles, no partials,
-four non-owning groups, three final section references and 22 unresolved identities
+March 1993 is in progress: twenty-three readable/sample-reviewed articles, one partial,
+four non-owning groups, three final section references and 21 unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -362,20 +362,63 @@ core modules remain exact; prior fresh 213-test evidence retained. Full proofrea
 human acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and
 original software/database recovery or execution remain unverified. No reader rebuild.
 
-Current totals: twenty-three readable/sample-reviewed articles, no partials, four
-non-owning groups, three section references and 22 unresolved identities among 52.
-The 23 current body-owner packages contain 11,711 exact files; thirteen classification
+Batch 47 verifies hardware article 0031's actual eight-page extent, PDF 408–415/
+individually observed printed 406–413, and preserves opening 408–413 as a 475-file
+partial. Selected r02 reproduces independently and in a fresh process. All 127 exact
+crops, 113 OCR outcomes, 2,020 typed ranges and 540 nonempty source rows validate.
+Canonical byline 최봉렬 stays unchanged; printed 최봉열 and affiliation 대우전자 VCR
+연구소 1팀 remain separate. Initial 영 is folded once into 영상을. Editorial deck
+and independent two-episode 연재 panel retain separate contexts.
+
+Fourteen original panels have nine literal caption associations/eight unique caption
+regions and five null captions. Four circuit schematics retain 33 selected searchable
+label regions and 27 part-label occurrences, including six independent KM681000L
+candidates. Miniature pins, netlist, exact label punctuation, electrical behavior and
+original hardware/software recovery remain unverified. Figure 1 retains both timing
+subdiagrams, all field/sampling labels and occurrence-specific ticks. In 512×480,
+1/525 are full-frame endpoints; no per-field tick values are invented. Figure 2 retains
+53.0μs/63.5μs/t and its original waveform. Figure 3 keeps four endpoint labels, two
+ferrite labels, four capacitor labels and two plus marks beside C2. Open-circle
+connectors are graphic symbols, not numeric zeros.
+
+Two formula contexts, four printed control-state vectors and sixteen prose boundaries
+remain source-linked. Printed 9.6603MHz, 6진값/1FF H, 1024×798 versus 1024×768,
+514×480 versus 512×480, front/back poch and One Short stay literal. Listing 1 begins
+with numbered rows 001–013, including blanks 004/009, 60 tokens, three includes and
+eight defines. Identifier/glyph/spacing candidates remain; no code repair or execution.
+Prose ends 413 with a separate MS ornament. Listing ends 415 at 168 above independent
+정보시대 advertising; final 414–415 is not restored yet. Ten pages 407–416 received
+direct extent/layout review, including four outside lookups. Prepared 417–419 remain
+unused/unreviewed.
+
+All 113 drafts were read before one continuing source pass: two eng and 111 kor+eng
+initial calls, zero retries or within/post-pass changes. Three maps retain 48 pre-OCR
+crop events. Text crops are disjoint; 22 remaining threshold-130 crossings are directly
+reviewed schematic/waveform rules, wires, arrows or symbols. Three empty raw labels
+were restored from unchanged source crops. All 79 source-local candidates remain.
+Thirty rehashed native faults, retained r01's incorrect timing-tick ownership and two
+canonical ownership faults reject. R02 fixes only metadata; article/listing text,
+images and raw ZIP remain exact. Four root JSON files change, including honest
+correction-file provenance. Failed r01, candidate-span helper attempts and a provenance
+comparison assertion remain retained. All 38,448 prior files and thirty core modules
+remain exact; earlier fresh 213-test evidence retained. Full proofreading, human
+acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and original
+circuit/software recovery or execution remain unverified. No reader rebuild.
+
+Current totals: twenty-three readable/sample-reviewed articles, one partial, four
+non-owning groups, three section references and 21 unresolved identities among 52.
+The 24 current body-owner packages contain 12,186 exact files; thirteen classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 47 verifies hardware article 0031, 하드웨어 : 풀컬러 512×480 프레임 그래버
-제작(마지막회) : 풀컬러 프레임 그래버 구동, by 최봉렬, from canonical printed reference
-406. PDF 408 is provisional until direct opener/folio review. Establish actual start,
-all continuity and ending, then map at most six confirmed opening pages, provisionally
-408–413. Do not infer the extent from a global offset or another contents reference.
-Preserve original hardware diagrams/tables/screens/captions and literal code/data with
-source uncertainties; do not repair, compile or execute historical programs. CmcPro 0030
-is final. The ceilings remain two canonical tasks, six mapped pages and twenty outside
-lookups. No reader rebuild.
+Next: Batch 48 restores final frame-grabber listing pages PDF 414–415/printed 412–413,
+then actually assembles the complete eight-page article 408–415 from independently
+regenerated natives. Reuse retained renders and verified extent observations. Preserve
+numbered rows 014–168, physical wraps/comments, numbered blanks and source defects;
+exclude lower independent 정보시대 advertising on 415. Keep canonical/printed bylines,
+original circuits, explicit miniature/netlist limits and corrected full-frame 1/525
+tick ownership. No opening OCR/source correction, code repair, compilation, execution
+or reader rebuild. Ceilings remain two canonical tasks, six mapped pages and twenty
+outside lookups.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
