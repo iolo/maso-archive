@@ -6,47 +6,47 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: fifteen readable/sample-reviewed articles, no partials,
-three non-owning groups, three final section references and 31 unresolved identities
+March 1993 is in progress: fifteen readable/sample-reviewed articles, one partial,
+three non-owning groups, three final section references and 30 unresolved identities
 among 52.
 
-Batch 32 preserves menu-library final PDF 304 as a nineteen-file native and
-actually assembles the complete thirteen-page article, 292–304/printed 290–302.
-All 612 assembly files match an export consuming three independently regenerated
-natives totaling 603 files and a fresh-process rebuild. All 165 exact crops,
-137 outcomes, 17,039 native metadata projections, 35,799 current range occurrences/
-35,645 source occurrences and 1,399 reading rows validate. Every projected field
-retains its native context; original text, metadata and assets remain exact. One
-297→298 prose merge joins 문자 and 열; listing 4's 34→35 boundary completes main
-through row 108 without changing code bytes. Main prose ends 300, separate from
-two screenshots and four numbered listings. Ten code contexts preserve 843
-physical/logical rows, including 608 numbered rows across listings 124/24/352/108
-and 51 numbered blanks. All 5,311 tokens, 327 comment rows and 125 string/character
-literals remain indexed. Fifteen printed function contexts include eleven complete
-numbered-listing functions and four example functions with source defects retained.
-Six array contexts keep 96 explicit string literals and 36 numeric values; item2's
-complete initializer retains both original fragments. Example 4 remains its printed
-fragment. Twenty-eight original images have 22 literal caption associations and six
-null captions. Seven errata relationships, two independent sidebars, chronology,
-references and source claims remain separate. Seventy-nine graphic/rule spans plus
-twelve independent header-rule counts stay unresolved. Final native adds two initial
-English recognitions, both drafts read before one source pass, zero retries or crop/
-within/post-pass changes. Sixteen rehashed assembly, twelve native, two ownership
-and three adapter-guard cases reject. All 26,679 prior files and thirty core modules
-remain exact; the earlier fresh 213-test evidence is retained. No code repair,
-compilation, execution or reader rebuild.
+Batch 33 verifies Class(Y) article 0022's actual eleven-page extent, PDF 318–328,
+and preserves opening 318–323/printed 316–321 as a 367-file partial native.
+Independent and fresh-process exports match. All 100 exact crops, 86 OCR outcomes,
+2,496 typed range occurrences and 458 nonempty source rows validate. Fourteen
+original images preserve category artwork, code panels and two diagrams; two
+captions contain literal source text and twelve remain null. Eight separate code
+contexts retain 117 physical/114 logical rows, eighteen blanks, three wraps,
+642 tokens, five comments, six string literals, three includes, two class declarations
+and thirteen printed function bodies. Repeated constructor/inheritance examples
+retain their own source occurrences. Figure 1 has eight menu labels; Figure 2 has
+five class compartments, ten instance variables, 24 methods, fifteen field headings,
+two explicitly empty instance fields, two stars and four directed connectors.
+All 62 diagram labels, three menu definitions, ten prose boundaries and three code
+boundaries remain indexed. Canonical Class(Y) and printed Class(y) remain separate;
+byline 임지열, parent 0020 and contents reference 316 are unchanged. Main prose ends
+325; six numbered listings end at MENUDEMO.PRG row 66 on 328 above book advertising.
+All 86 initial drafts were read before one continuing source pass: eleven pre-OCR
+crop repairs, one notation-kind clarification, zero retries or within/post-pass
+changes. Printed filename differences, wording, technical claims and unresolved
+constructor punctuation remain literal. Twenty-two rehashed native and two ownership
+mutations reject. All 27,310 prior files and thirty core modules remain exact;
+the earlier fresh 213-test evidence is retained. Final 324–328 and actual assembly
+remain required. No code repair, compilation, execution or reader rebuild.
 
-Current totals: fifteen readable/sample-reviewed articles, no partials, three non-owning
-groups, three section references and 31 unresolved identities among 52. Fifteen
-current body-owner packages contain 6,226 exact files; ten classification evidence
+Current totals: fifteen readable/sample-reviewed articles, one partial, three non-owning
+groups, three section references and 30 unresolved identities among 52. Sixteen
+current body-owner packages contain 6,593 exact files; ten classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 33 verifies Class(Y) article 0022 from the observed PDF 318/printed 316
-opener, establishes its actual extent and ending, then restores up to six confirmed
-opening pages, provisionally 318–323. Preserve canonical title 클리퍼 객체지향 라이브러리, Class(Y),
-byline 임지열, parent 0020 and reference 316. This opener is distinct from the OOP
-article on 306. Do not infer its ending from the next contents reference; keep any
-uninspected interior continuity explicit. No reader rebuild.
+Next: Batch 34 restores final Class(Y) pages 324–328 as immutable native b, then
+actually assembles the complete eleven-page article 318–328 from independently
+regenerated natives. Verify both original Pu→llDnMenu contexts across 323–324.
+Preserve main ending 325, all six numbered Clipper listings through final row 66
+on 328, Korean comments, number columns, blank rows and source defects. Lower 328
+book advertising is excluded; 329 is a full-page book advertisement and 330 is a
+distinct Halla Pro opener. Namespace every custom source context during assembly.
+No reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
