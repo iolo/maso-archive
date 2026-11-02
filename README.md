@@ -13,11 +13,12 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: eleven readable/sample-reviewed articles, one
-partial, two non-owning groups, three final section references and 35 unresolved
-identities among 52. The Unix opening on PDF 250–255 has 421 independently/
-fresh-process exact files; its actual nine-page body is 250–258. Twelve current
-body-owner packages contain 4,307 files. Next: final 256–258 and actual assembly.
+March 1993 restoration is active: twelve readable/sample-reviewed articles, two
+non-owning groups, three final section references and 35 unresolved identities
+among 52; no partial remains at this checkpoint. The complete nine-page Unix article
+on PDF 250–258 has 611 independently/fresh-process exact files. Twelve current
+body-owner packages contain 4,497 files. Next: verify DOS article 0018's extent from
+observed opener 260/printed 258, then restore a bounded opening.
 Remaining bodies, 433-page accounting, cover and issue closeout are pending.
 See [March progress](docs/progress/9303.md). No reader rebuild.
 

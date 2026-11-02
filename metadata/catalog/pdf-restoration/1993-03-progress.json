@@ -1729,23 +1729,23 @@
       "parent_id": "maso-1993-03-toc-0012",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical title,byline 최승욱,parent0012 andcontents reference248 unchanged. Actual nine-page body250–258 directly observed;opening folios248–253 individually seen. Source credit says 서울대학교 대학원 전자공학과.",
-        "421 files reproduce independently andin a fresh process.130 exact crops,94 outcomes,3189 typed ranges,454 reading rows and413 safe/exact ZIP members validate.",
-        "Two tables/37 cells/eight headers,50 diagram labels,38 structure fields and28 independent code contexts retain source occurrences.43 numbered listing rows includecommands/output andthree blank rows. Incomplete union remains deferred256.",
-        "One source pass afterall94 drafts;zero retries.17 rehashed native andtwo ownership cases reject. All21715 prior files and30 core modules unchanged."
+        "Canonical title,byline 최승욱,parent0012 andreference248 unchanged. Actual250–258 assembled;folios248–256 individually observed. Final258 series conclusion/ornament above excluded publisher ad.259 advertisement;260 distinct DOS opener.",
+        "611 exact files consume two independently regenerated natives/602 files andmatch a fresh-process rebuild.185 crops,133 outcomes,5421 metadata projections,10759 current ranges/10583 source occurrences and658 reading rows validate.",
+        "Two tables/37 cells/eight headers,55 diagram labels,40 independent code contexts and151 numbered listing rows retain source contexts. Complete three-field union explicitly links255→256;main256→258 crosses listing257. No source repair/execution.",
+        "Final39 drafts read before one source pass;zero retries.12 root/eight native/two ownership cases reject. All22557 prior files and30 core modules/source/TOC/queue/runtime exact;source-fidelity limits remain."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-23-r02/unix-a",
+        "directory": "archive/pdf/1993-03/packages/unix-r01",
         "article_id": "scan-maso-1993-03-toc-0017",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-23-r02/unix-a/manifest.json",
-          "sha256": "6baee22bd4365b06d866457dae2127b8f2f4b648980ba27f341b3234b6b10bdf",
-          "bytes": 71971
+          "path": "archive/pdf/1993-03/packages/unix-r01/manifest.json",
+          "sha256": "8983cf598657e1a521ff1a2a8d94c5fac12eae5db132f85d00d626defcdc5dbc",
+          "bytes": 110577
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -1754,7 +1754,10 @@
             252,
             253,
             254,
-            255
+            255,
+            256,
+            257,
+            258
           ],
           "printed_pages": [
             "248",
@@ -1762,59 +1765,88 @@
             "250",
             "251",
             "252",
-            "253"
+            "253",
+            "254",
+            "255",
+            "256"
           ],
-          "regions": 130,
-          "blocks": 94,
-          "figures": 36,
-          "deferred_pdf_pages": [
-            256,
-            257,
-            258
-          ],
+          "regions": 185,
+          "blocks": 133,
+          "figures": 52,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 258,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-23/validation-complete.json",
-          "sha256": "5ea8ffbf4bfc9d9ab40e1ace5efd5df1ddff44c42b6e7623e926964eee9ba7f1",
-          "bytes": 2049
+          "path": "archive/pdf/1993-03/restoration/batch-24/validation-complete.json",
+          "sha256": "c88e833713f344ac0ce51910dd66be06b8275357ce20bea21bda60db3603cda6",
+          "bytes": 2524
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-23/native-reproduction-r02.json",
-          "sha256": "b6067be2b1b2f78708d4eeb44cd1076ce377a0d7a838532089a9979b4f8c70c0",
-          "bytes": 72467
+          "path": "archive/pdf/1993-03/restoration/batch-24/reproduction.json",
+          "sha256": "3e246fc757fbd4c01c88666d3dc7675717a359fd02904c18db1afd711195691c",
+          "bytes": 112035
         },
-        "checkpoint": "batch-23",
+        "checkpoint": "batch-24",
+        "source_native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-23-r02/unix-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-23-r02/unix-a/manifest.json",
+              "sha256": "6baee22bd4365b06d866457dae2127b8f2f4b648980ba27f341b3234b6b10bdf",
+              "bytes": 71971
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-23/unix-a-r03/package-recipe-r02.json",
+              "sha256": "a501f8410072e682d6f4550681b07d7a96967c99da26f6b2e84c3c4ccd23ca26",
+              "bytes": 22229
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-24-r01/unix-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-24-r01/unix-b/manifest.json",
+              "sha256": "e36933bd4aa35873520e0d01cf41b2a3318b5d577815597d4437deac8baf5465",
+              "bytes": 30731
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-24/unix-b-r03/package-recipe.json",
+              "sha256": "12841c394487958e09cde115d25db9706fea129ef3732044b036a17ada7ad15a",
+              "bytes": 10387
+            }
+          }
+        ],
         "full_source_extent": {
           "start_pdf_page": 250,
           "end_pdf_page": 258,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-24/source-review-completed.json",
+            "sha256": "023787867c23af0fd264a6979cea2616146482641805ec96f65dee67a79e1333",
+            "bytes": 3759
+          },
+          "opening_source_observations": {
             "path": "archive/pdf/1993-03/restoration/batch-23/source-reviewed.json",
             "sha256": "25975325167126e0369a15fc53e91c36be9b21404178a1d994593f1efe6aa698",
             "bytes": 4132
           },
-          "final_map_review": {
-            "path": "archive/pdf/1993-03/restoration/batch-23/crop-review-completed.json",
-            "sha256": "0c60d19d40016f365fb6d627abde1c9b2039871c67c11845b464d430b44c459a",
-            "bytes": 5617
-          },
-          "note": "All nine body pages directly observed; folios248–256 individually seen. Final258 closes above excluded publisher advertising.249/259 are advertisements;260 is distinct DOS opener at printed258. Main256 continues258 across independent listing2 on257. No global offset inferred."
+          "note": "All nine pages actually assembled from independently regenerated a/b natives. Folios248–256 individually observed. Final258 closes above excluded publisher advertising;259 advertisement,260 distinct DOS opener. Prior boundary review reused; no global folio offset inferred."
         },
         "notes": [
-          "Six-page opening250–255 has421 independently and fresh-process exact JSON/assets files. Final256–258 and actual nine-page assembly remain required.",
-          "All130 crops,94 OCR outcomes,3189 recursive typed range occurrences and454 nonempty reading rows validate.36 original images retain29 code panels,two tables,three diagrams,key flow andcategory/series artwork. Six literal captions;30 null.",
-          "28 independent code contexts preserve148 physical rows,43 numbered listing1 rows,three blank numbered rows,957 tokens,36 comment rows,four quoted literals,four printed commands andten printed output pairs. No code repair or execution.",
-          "Two tables preserve37 explicit cells andeight header fragments;table2 hasfive fragments includingtwo diagonal-corner labels. Multiline operation cells retain their own ranges.50 diagram/flow labels,38 explicit structure field groups,nine prototypes,22 includes andnine conditions remain indexed.",
-          "ipc_perm spans two column fragments withseven fields. Union semun retains onlytwo current fields; array field/closing brace continue256. Five prose boundaries andone code boundary preserve original contexts. Listing2 on257 remains deferred.",
-          "All94 initial drafts read before one source pass:29 English and65 Korean/English regions.72 pre-OCR crop events;zero retries or within/post-pass source changes. Failed launch path was before recognition and remains retained.",
-          "Source descripter,그것은 사용,같은 필요는,세째,상당한다,semid_ds include sys/shm.h,double-pointer opsptr and differing filename candidates remain literal. Historical API/security claims,exact glyphs/spaces/encoded bytes,full proofreading andhuman acceptance remain unverified.",
-          "Metadata-only r02 clarifies the table2 header note;onlyfour JSON files differ. All source text,assets andraw ZIP remain exact to retained r01.17 rehashed native andtwo ownership mutations reject.21715 prior files,30 core modules andsource/TOC/queue/runtime pins exact;prior fresh213-test log retained."
+          "Actual nine-page assembly has611 exact files from two independently regenerated natives/602 files and a fresh-process rebuild. All133 original blocks,185 crops andnative text/metadata/assets remain exact. Native partial scopes remain historical.",
+          "Full metadata projection includes5421 typed ranges;10759 current range occurrences/10583 source occurrences and658 reading rows validate. All1178 ZIP members across root/two natives have safe paths,valid CRCs andexact bytes.",
+          "52 original images retain43 code-panel associations,two tables,four diagrams,key flow,category/series artwork andending ornament. Eight literal captions;44 null. Two tables/37 cells/eight header fragments and55 diagram/flow labels retain source occurrences.",
+          "40 independent code contexts preserve282 physical rows,151 numbered rows across Listings1/2,17 blank numbered rows,1734 tokens,51 comment rows,14 quoted literals,nine commands and12 printed output rows.13 API prototypes,31 includes,14 conditions andfive function-definition candidates remain. No code repair or execution.",
+          "Complete union semun metadata links two source fields on255 to array field/closing brace256;allthree fields retain original ranges. Main256→258 crosses independent108-row Listing2 on257. Seven prose boundaries andthree code boundaries preserve source contexts;no cross-native prose merge.",
+          "Final native adds39 initial recognitions:14 English code regions and25 Korean/English regions. All39 drafts read before one source pass;39 pre-OCR crop events;zero retries or within/post-pass source changes. Initial schema error,assembly-helper syntax failure andZIP-count audit correction remain retained.",
+          "Source IPC_GETALL/IPC_SETALL,shm_nattach/shm_cnattach,spaced comparison signs,broken vertical-bar candidates,adjacent Usage placeholders andprinted Hello,World output remain literal. Historical API/security/atomicity claims,exact glyphs/spaces/encoded bytes,full proofreading andhuman acceptance remain unverified.",
+          "Twelve rehashed assembly,eight native andtwo ownership mutations reject. All22557 prior files,30 core modules andsource/TOC/queue/runtime pins exact. Earlier fresh213-test evidence retained."
         ]
       }
     },
@@ -3012,12 +3044,50 @@
         "sha256": "b6067be2b1b2f78708d4eeb44cd1076ce377a0d7a838532089a9979b4f8c70c0",
         "bytes": 72467
       }
+    },
+    {
+      "name": "1993-03-batch-24",
+      "status": "complete",
+      "completed_at": "2026-11-02T00:44:42.032553+00:00",
+      "goal": "Preserve final Unix256–258 andactually assemble complete nine-page article250–258 from independently regenerated immutable natives.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0017"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        256,
+        257,
+        258
+      ],
+      "outside_lookup_pages": 0,
+      "prior_boundary_evidence": {
+        "path": "archive/pdf/1993-03/restoration/batch-23/source-reviewed.json",
+        "sha256": "25975325167126e0369a15fc53e91c36be9b21404178a1d994593f1efe6aa698",
+        "bytes": 4132
+      },
+      "recognition_invocations": 39,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 39,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-24/validation-complete.json",
+        "sha256": "c88e833713f344ac0ce51910dd66be06b8275357ce20bea21bda60db3603cda6",
+        "bytes": 2524
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-24/reproduction.json",
+        "sha256": "3e246fc757fbd4c01c88666d3dc7675717a359fd02904c18db1afd711195691c",
+        "bytes": 112035
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 11,
-    "partial": 1,
+    "readable": 12,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 35
@@ -3028,27 +3098,43 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-24",
-    "goal": "Restore final Unix article0017 pages256–258,then actually assemble all nine pages250–258 from independently regenerated immutable natives.",
+    "name": "1993-03-batch-25",
+    "goal": "Verify DOS article0018 actual extent/ending from observed opener260/printed258,then restore up to six confirmed opening pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0017"
+      "maso-1993-03-toc-0018"
     ],
-    "mapping_targets": [
-      256,
-      257,
-      258
+    "canonical_page_reference": 258,
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      260,
+      261,
+      262,
+      263,
+      264,
+      265
     ],
     "planned_outside_lookup_pdf_pages": [
-      255,
       259,
-      260
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Ending258 directly observed above independent publisher advertising;exclude that ad. Complete unionsemun on256;main256→258 crosses independent108-row listing2 on257. Preserve original tables,structures,API/command/output contexts andsource defects.259 advertisement;260 distinct DOS opener. No code repair,execution or reader rebuild."
+    "note": "Canonical title 안철수의 컴퓨터 노트 : 도스의 내부 정보 알아내기(2) : 안철수,parent0012,null canonical byline remain unchanged. Opener260/printed258 directly observed in Batch23;source credit 글/안철수 stays separate. Following0019 reference274 is only a location lead,not proof of DOS ending or global offset. Verify ownership before mapping. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
