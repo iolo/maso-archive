@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1993-03",
   "status": "in-progress",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "source": {
     "id": "pdf-maso-9303",
     "path": "maso-pdf/maso-9303.pdf",
@@ -3075,12 +3075,101 @@
       "toc_entry_id": "maso-1993-03-toc-0028",
       "title": "쓸만한 윈도우즈용 공개 소프트웨어 4가지",
       "parent_id": "maso-1993-03-toc-0025",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "The actual five-page public-software article on PDF358–362/individually observed printed356–360 is complete in396independently/fresh-process exact files. Canonical title쓸만한 윈도우즈용 공개 소프트웨어 4가지,byline편집부,parent활용0025/reference356 remain unchanged. Source title네 가지 andcredits김영숙,신동수기자 are separately indexed.",
+        "All106crops,94outcomes,1980typed ranges and567nonempty source rows validate. Four distinct application components cover길1.1,모든글,윈도우즈스캔100andWhoop It Up!;their body extents and floating screenshot/table associations remain explicit. Twelve original images have seven literal captions andfive null captions.",
+        "Two menu tables preserve18and42data rows,180cells,98nonblank cells,82blank merged-menu/shortcut cells,eleven main-menu groups andeight printed unsupported-menu asterisks. Every repeated shortcut retains its own source offset. Blank cells have source null plus original-image/column/group context;leading dashes,Casecadeandthe diagonal mark beforeSaveAsremain literal.",
+        "The original special-character chart preserves13numeric row labels,ten numeric column labels and130opaque graphic positions. Each position links to its original image/slot andaxis sources with unicode_transcription andencoded_byte_value null. No glyph assignment,blank/ink interpretation,axis-derived code-byte arithmetic or font reconstruction is claimed.",
+        "Thirty-two rehashed native faults pass generic integrity and reject in independent source-semantic audit;two canonical ownership faults reject. All35272prior files,thirty core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims,original software/configuration recovery andexecution remain unverified. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-42-r01/public-software",
+        "article_id": "scan-maso-1993-03-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-42-r01/public-software/manifest.json",
+          "sha256": "b1b33b2d6200b50d1aa23ffdef4f78b7e4206028f24f5fa9bf31d6e8b61a32bc",
+          "bytes": 67134
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            358,
+            359,
+            360,
+            361,
+            362
+          ],
+          "printed_pages": [
+            "356",
+            "357",
+            "358",
+            "359",
+            "360"
+          ],
+          "regions": 106,
+          "blocks": 94,
+          "figures": 12,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 362,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-42/validation-complete.json",
+          "sha256": "f94b3dabede85b278e1e3d9d7cbc69998ae94167607153d19d459d7aec6565fc",
+          "bytes": 2843
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-42/native-reproduction.json",
+          "sha256": "611a1cc85146278eebc229201d05912eb189cd6141247f976c2de95ce86ef34f",
+          "bytes": 68285
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-42/public-software-r04/package-recipe.json",
+          "sha256": "6735330207d8169990846ad40d389c0902c3106643e5e5a64d9f28afdd96b71a",
+          "bytes": 14248
+        },
+        "checkpoint": "batch-42",
+        "full_source_extent": {
+          "start_pdf_page": 358,
+          "end_pdf_page": 362,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-42/source-review-completed.json",
+            "sha256": "fc7c165550c288fbc86b5a5ab4d167f6832f9ae3bf4d96ad915a1e68d8f424da",
+            "bytes": 4604
+          },
+          "note": "All five pages restored as printed. Final362endswith archive filenames/MSornament;363advertisement and364distinct debugger opener confirm ending. No global PDF/folio offset inferred."
+        },
+        "source_special_character_scope": {
+          "original_graphic_preserved": true,
+          "numeric_row_labels": 13,
+          "numeric_column_labels": 10,
+          "opaque_graphic_positions": 130,
+          "unicode_glyphs_recovered": false,
+          "code_page_bytes_recovered": false,
+          "axis_arithmetic_used_to_infer_bytes": false
+        },
+        "notes": [
+          "The actual five-page public-software article on PDF358–362/individually observed printed356–360 is complete in396independently/fresh-process exact files. Canonical title쓸만한 윈도우즈용 공개 소프트웨어 4가지,byline편집부,parent활용0025/reference356 remain unchanged. Source title네 가지 andcredits김영숙,신동수기자 are separately indexed.",
+          "All106crops,94outcomes,1980typed ranges and567nonempty source rows validate. Four distinct application components cover길1.1,모든글,윈도우즈스캔100andWhoop It Up!;their body extents and floating screenshot/table associations remain explicit. Twelve original images have seven literal captions andfive null captions.",
+          "Two menu tables preserve18and42data rows,180cells,98nonblank cells,82blank merged-menu/shortcut cells,eleven main-menu groups andeight printed unsupported-menu asterisks. Every repeated shortcut retains its own source offset. Blank cells have source null plus original-image/column/group context;leading dashes,Casecadeandthe diagonal mark beforeSaveAsremain literal.",
+          "The original special-character chart preserves13numeric row labels,ten numeric column labels and130opaque graphic positions. Each position links to its original image/slot andaxis sources with unicode_transcription andencoded_byte_value null. No glyph assignment,blank/ink interpretation,axis-derived code-byte arithmetic or font reconstruction is claimed.",
+          "Four screenshots retain selected searchable labels with explicit miniature console/menu/list/document/configuration/control limits. Two OCR omissions are restored directly from unchanged source crops:large scan100heading andminiature menu row. Source heading/caption93andbody100remain independent;all15scan-name occurrences andeight version occurrences retain their contexts.",
+          "Five numbered speaker setup steps,25filename occurrences,twelve prose continuation boundaries,two historical contact occurrences and57source-local candidates remain explicit. Printed$m,unusual font filenames,8×4×4,1088KB,Dirver,직업and동우회remain literal. Cross-regionSPEAK./EXEandphysical menu/filename/hotkey wraps retain source contexts. No source or program repair/execution.",
+          "All94drafts fully read before one continuing source pass;94initialrecognitions andzero unchanged-input retries. Four maps retain40pre-OCR crop events. Direct color review repaired left-column omissions,final table row,menu ascenders andleading dashes. Ten remaining threshold130crossings are documented non-text table/control/background/frame ink;all94text crops are disjoint.",
+          "One within-pass saved-text correction changes the initial font-menu reading to source하얀글. Both saved readings,additional source detail andprovenance remain retained. No within-pass crop/OCR change or post-pass change. Final362endswith archive filenames/MSornament;363is independent advertising and364opens distinct0029. No global folio offset inferred.",
+          "Thirty-two rehashed native faults pass generic integrity and reject in independent source-semantic audit;two canonical ownership faults reject. All35272prior files,thirty core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims,original software/configuration recovery andexecution remain unverified. No reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0029",
@@ -4934,15 +5023,61 @@
         "sha256": "e209a1afe1a6fc415b82684f68fdf4b0edcef6098788cc3f8f3752c064d0a129",
         "bytes": 100136
       }
+    },
+    {
+      "name": "1993-03-batch-42",
+      "status": "complete",
+      "completed_at": "2026-11-02T14:59:56.534712+00:00",
+      "goal": "Verify and restore the complete public-software article0028on358–362.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0028"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        358,
+        359,
+        360,
+        361,
+        362
+      ],
+      "outside_lookup_pages": 7,
+      "outside_lookup_pdf_pages": [
+        357,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368
+      ],
+      "recognition_invocations": 94,
+      "initial_recognitions": 94,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 40,
+      "within_pass_saved_text_refinements": 1,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-42/validation-complete.json",
+        "sha256": "f94b3dabede85b278e1e3d9d7cbc69998ae94167607153d19d459d7aec6565fc",
+        "bytes": 2843
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-42/native-reproduction.json",
+        "sha256": "611a1cc85146278eebc229201d05912eb189cd6141247f976c2de95ce86ef34f",
+        "bytes": 68285
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 20,
+    "readable": 21,
     "partial": 0,
     "group_headings": 4,
     "section_references": 3,
-    "unresolved": 25
+    "unresolved": 24
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -4950,35 +5085,35 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-42",
-    "goal": "Verify public-software article0028 from known PDF358opener and establish actual continuity/ending;restore up to six confirmed pages.",
+    "name": "1993-03-batch-43",
+    "goal": "Verify debugger/disassembler article0029fromknownPDF364opener andestablish actual extent;restore up to six confirmed opening pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0028"
+      "maso-1993-03-toc-0029"
     ],
-    "canonical_page_reference": 356,
+    "canonical_page_reference": 362,
     "mapping_targets": [],
     "provisional_mapping_targets": [
-      358,
-      359,
-      360,
-      361,
-      362,
-      363
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      357,
       364,
       365,
       366,
       367,
-      368
+      368,
+      369
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      363,
+      370,
+      371,
+      372,
+      373,
+      374
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve canonical쓸만한 윈도우즈용 공개 소프트웨어 4가지,byline편집부,parent활용0025/reference356. Opener358 reads쓸만한 윈도우즈용 공개 소프트웨어 네 가지 and credits김영숙,신동수기자;retain source forms separately,without rewriting canonical identity. Verify actual ending directly,not from next reference362. Reuse retained358–360renders where available. Preserve original screenshots/tables with literal captions and searchable selected labels,plus honest miniature text/data limits. Group활용 and Windows-tools0027 are final;debugger0029remains separate. No reader rebuild."
+    "note": "Preserve canonical이런 디버거와 디스어셈블러를 사용해 보자,byline장근재,parent활용0025/reference362. Source364opener credits장근재(순천향대병원). Reuse retained364–368renders;five pages have context/layout review only,not restoration. Establish ending directly rather than infer from next contents reference. Preserve debugger command table,printed command/code fragments,original figures andsource claims without repairing syntax,bytes,addresses or execution. Public-software0028andWindows-tools0027arefinal. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

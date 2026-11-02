@@ -29,7 +29,7 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## March 1993 restoration, 2026-11-02
+## March 1993 restoration, 2026-11-03
 
 The full March 1993 issue goal is active. Batch 01 initializes all 52 canonical
 TOC identities and verifies the 433-page source and pinned Tesseract runtime.
@@ -901,21 +901,56 @@ encoded bytes, historical claims, software/configuration recovery and execution 
 unverified. Selected GUI labels do not certify complete miniature data recovery.
 No reader rebuild.
 
-Current totals: twenty readable/sample-reviewed articles, no partials, four non-owning
-groups, three section references and 25 unresolved identities among 52. Twenty
-current body-owner packages contain 9,986 exact files; thirteen classification evidence
+Batch 42 verifies and restores complete public-software article 0028 on PDF
+358–362/individually observed printed 356–360. All 396 files reproduce independently
+and in a fresh process. The canonical title uses 4가지 and byline 편집부; source title
+네 가지 and credits 김영숙, 신동수 기자 remain separately indexed. All 106 exact crops,
+94 outcomes, 1,980 typed ranges and 567 nonempty source rows validate. Four distinct
+components cover 길 1.1, 모든글, 윈도우즈 스캔 100 and Whoop It Up!, with explicit
+body extents and floating figure associations. Twelve original images have seven
+literal captions and five null captions. Two menu tables retain eighteen and 42
+data rows, 180 cells, 98 nonblank cells, 82 blank merged-menu/shortcut cells, eleven
+main-menu groups and eight printed unsupported-menu asterisks. Repeated F8 shortcuts
+retain independent source offsets. Leading dashes, Casecade and the diagonal mark
+before Save As remain literal. The original special-character chart preserves thirteen
+numeric row labels, ten numeric column labels and 130 opaque graphic positions.
+Each position retains its original image/slot and axis sources; Unicode transcription
+and encoded byte value remain null. No glyph assignment, blank/ink interpretation,
+axis-derived code arithmetic or font reconstruction is claimed. Four screenshots
+retain selected searchable labels with explicit miniature console/menu/list/document/
+configuration/control limits. Two OCR omissions, the large scan-100 heading and a
+miniature menu row, are restored directly from unchanged source crops. Printed
+heading/caption 93 and body 100 remain separate. Five speaker setup steps, 25 filename
+occurrences, fifteen scan-name occurrences, eight version occurrences, twelve prose
+boundaries, two historical contacts and 57 source-local candidates remain indexed.
+Printed `$m`, unusual font filenames, 8×4×4, 1088KB, Dirver, 직업 and 동우회 stay
+literal. All 94 drafts read before one continuing source pass; 94 initial recognitions,
+zero retries or within-pass crop/OCR changes. Four maps retain forty pre-OCR crop
+events. Direct color review repairs clipped prose, final table row, menu ascenders
+and leading dashes; ten remaining threshold-130 crossings are non-text table/control/
+background/frame ink. All text crops are disjoint. One within-pass saved-text correction
+refines the initial font-menu reading to 하얀글; both readings and detail evidence remain.
+No post-pass change. Final 362 ends with archive filenames/MS ornament; 363 is advertising
+and 364 opens distinct debugger article 0029. Thirty-two rehashed native faults and
+two ownership faults reject. All 35,272 prior files and thirty core modules remain
+exact; earlier fresh 213-test evidence retained. Full proofreading, human acceptance,
+exact glyphs/spacing/encoded bytes, historical claims, original software/configuration
+recovery and execution remain unverified. No reader rebuild.
+
+Current totals: twenty-one readable/sample-reviewed articles, no partials, four non-owning
+groups, three section references and 24 unresolved identities among 52. Twenty-one
+current body-owner packages contain 10,382 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 42 verifies public-software article 0028 from its known PDF 358 opener/
-reference 356. Establish actual continuity and ending before mapping up to six
-confirmed pages, provisionally 358–363. Reuse retained 358–360 renders where available.
-Preserve canonical title 쓸만한 윈도우즈용 공개 소프트웨어 4가지 and byline 편집부;
-source title 네 가지 and credits 김영숙, 신동수 기자 remain separate source forms.
-Do not infer the ending from the next contents reference. Preserve original screens/
-tables, literal captions and searchable selected labels with honest miniature text/
-data limits. Windows-tools 0027 is final; debugger article 0029 remains separate.
-The ceilings remain two canonical tasks, six mapped pages and twenty outside lookups.
-No reader rebuild.
+Next: Batch 43 verifies debugger/disassembler article 0029 from its known PDF 364
+opener/reference 362. Establish actual continuity and ending, then map up to six
+confirmed opening pages, provisionally 364–369. Reuse retained 364–368 renders; their
+context/layout review does not claim restoration. Preserve canonical title/byline
+장근재 and the source affiliation 순천향대 병원 separately. Keep debugger command
+tables, printed command/code fragments, original figures and historical claims literal;
+do not repair or execute source syntax, bytes or addresses. Public-software 0028 is
+final. The ceilings remain two canonical tasks, six mapped pages and twenty outside
+lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
