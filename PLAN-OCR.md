@@ -423,19 +423,45 @@ prose ends 268; Listing 5 ends at 516 END Entry on 272 before independent book-y
 filler. Pages 273–275 are advertisements, 276 the distinct vector-font opener.
 Final 266–272 and actual thirteen-page assembly remain required.
 
+Batch 26 preserves DOS continuation PDF 266–271/printed 264–269 as a
+199-file immutable native. Independent and fresh-process exports match. All 61
+crops, 43 outcomes, 8,707 typed range occurrences and 659 reading rows validate.
+Eighteen original images retain three structure tables, the STACKS formula,
+screenshot, build commands, ending ornament and code panels. Six captions contain
+literal display text; twelve are null. Tables preserve 54 explicit cells/nine
+headers and eleven enumeration labels, including within-cell wraps. Printed
+9×128=1,052 remains literal. Independent Listing 4 preserves 81 numbered rows and
+nine unnumbered comment wraps; Listing 5 DOSINFO.ASM preserves rows 001–410.
+Four commands form two separate contexts. The current 504 physical code/command
+rows include 100 blank numbered rows, 1,876 tokens, 228 comment rows, 293
+instructions, 271 register occurrences, 102 immediates, 23 memory operands and
+72 branch/call occurrences. Seven decorative rule counts remain explicit unresolved
+markers linked to original images. Colon-shaped MASM punctuation, boxed return-key
+candidates, MODEL without a visible leading dot and source spelling remain;
+no code repair or execution. Five prose boundaries retain the 267→268 continuation
+across independent Listing 4 and screenshot; prose ends 268 with a separate tail
+and ornament. Eight code-panel boundaries retain the two independent listings.
+All 43 drafts were read before one source pass: twelve English and 31 Korean/English
+regions, thirty pre-OCR crop events and zero retries or within/post-pass changes.
+Seventeen rehashed native and two ownership cases reject. An initial audit lookup
+matched the S enumeration inside IFS; its validator was corrected without package
+changes. All 23,963 prior files and thirty core modules remain exact; earlier fresh
+213-test evidence is retained. DOS coverage now spans 260–271 in separate natives
+a/b, 307+199=506 files. The primary directory/manifest still identifies opening a.
+Final 272 and actual thirteen-page assembly remain required.
+
 Current totals: twelve readable/sample-reviewed articles, one partial, two non-owning
 groups, three section references and 34 unresolved identities among 52. Thirteen
-current body-owner packages contain 4,804 exact files; eight final classification
-evidence files remain separate. Original natives and superseded revisions remain
-unchanged.
+canonical body owners have fourteen current native/assembly packages containing
+5,003 exact files; eight final classification evidence files remain separate.
+Original natives and superseded revisions remain unchanged.
 
-Next: Batch 26 restores DOS continuation 266–271 as an immutable native.
-Preserve the STACKS formula/three structure tables, independent 81-row Listing 4,
-screenshot/commands/prose ending on 268, and Listing 5 DOSINFO.ASM rows 001–410
-across 268–271. Keep main prose 267→268 separate from the intervening screenshot.
-Final 272 rows 411–516 and actual thirteen-page assembly remain follow-up work.
-Exclude lower 272 book-year filler and 273–275 advertisements. No code repair,
-execution or reader rebuild.
+Next: Batch 27 restores final DOS page 272, Listing 5 rows 411–516, then
+actually assembles the complete thirteen-page article on 260–272 from independently
+regenerated natives a/b/c. Join the Listing 5 context across b/c with source/current
+row provenance while retaining all seven independent code contexts. Exclude lower
+272 book-year filler. Preserve glyph candidates and unresolved dash counts.
+No code repair, execution or reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

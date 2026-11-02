@@ -15,11 +15,11 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 March 1993 restoration is active: twelve readable/sample-reviewed articles, one
 partial, two non-owning groups, three final section references and 34 unresolved
-identities among 52. The DOS opening on PDF 260–265 has 307 independently/
-fresh-process exact files; its actual thirteen-page body is 260–272. Thirteen current
-body-owner packages contain 4,804 files. Next: continuation 266–271, then final 272
-and actual assembly. Remaining bodies, 433-page accounting, cover and issue closeout
-are pending. See [March progress](docs/progress/9303.md). No reader rebuild.
+identities among 52. The DOS article is preserved on PDF 260–271 in two immutable
+natives totaling 506 exact files; final 272 and actual thirteen-page assembly are
+next. Thirteen canonical body owners have fourteen current packages containing
+5,003 files. Remaining bodies, 433-page accounting, cover and issue closeout are
+pending. See [March progress](docs/progress/9303.md). No reader rebuild.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section
