@@ -4531,23 +4531,173 @@
       "toc_entry_id": "maso-1993-03-toc-0044",
       "title": "소프트웨어 열람실",
       "parent_id": "maso-1993-03-toc-0041",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete software0044 spans124–127/printed122–125 in251 selected files:72 crops,57 outcomes,1157 typed ranges,528 nonempty rows,15 original images,nine literal captions,six null captions and47 candidates. Internal126 MS ends only review03;monthly public-software127 remains within the rubric.",
+        "Seven independent contexts preserve three paid reviews andfour public-software notices. Each paid product has six literal labeled fields;each public notice has filename,size,download host. All30 fields retain source occurrences,physical rows,historical prices/units/contact strings. Ten supplementary rows retain30 cells/three headers,including repeated upload hosts. No unprinted currency or inferred file contents.",
+        "All414 selected files reproduce independently and in a fresh process.37 negative checks reject35 rehashed semantic faults with generic integrity passing andfrozen-equality guard disabled,plus2 ownership faults. All43295 prior files,30 core modules andsource/TOC/queue/runtime pins exact; unchanged213-test baseline retained.",
+        "Full proofreading,human acceptance,exact glyphs/spaces/encoded bytes,historical/technical truth andoriginal hardware/software behavior remain unverified. Screenshot code/UI andminiature cover contents remain original-image-dependent. No program download,recovery,execution or reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-58-r02/software",
+        "article_id": "scan-maso-1993-03-toc-0044",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-58-r02/software/manifest.json",
+          "sha256": "907284c8d0308c7268c9ca4cd5af6c5a61f0b51057092137725d867ff464df8f",
+          "bytes": 43890
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            124,
+            125,
+            126,
+            127
+          ],
+          "printed_pages": [
+            "122",
+            "123",
+            "124",
+            "125"
+          ],
+          "regions": 72,
+          "blocks": 57,
+          "figures": 15,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 127,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-58/validation-complete.json",
+          "sha256": "732a572d2e60d533bfa70cfd11a75cab2a12026e3959a91bb679948d44d3449c",
+          "bytes": 3611
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-58/native-reproduction.json",
+          "sha256": "1d8e92b165668e9dcf1d422ec95dc19a03a739643e52d30377225439a44f5d85",
+          "bytes": 82744
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-58/software-r03/package-recipe-r02.json",
+          "sha256": "0d8932c9473d4358aff769bd7f5b9c5ffca1386b92ed0a0d4abb12879b9d3b20",
+          "bytes": 12720
+        },
+        "checkpoint": "batch-58",
+        "full_source_extent": {
+          "start_pdf_page": 124,
+          "end_pdf_page": 127,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-58/source-review-completed.json",
+            "sha256": "4476ed8e988075fc3f27a95fa3d94bf1504467637ae48b0163df00a35e40b31b",
+            "bytes": 4712
+          },
+          "note": "Complete independently verified body,own ending andadjacent independent rubric observed."
+        },
+        "notes": [
+          "Complete software0044 spans124–127/printed122–125 in251 selected files:72 crops,57 outcomes,1157 typed ranges,528 nonempty rows,15 original images,nine literal captions,six null captions and47 candidates. Internal126 MS ends only review03;monthly public-software127 remains within the rubric.",
+          "Seven independent contexts preserve three paid reviews andfour public-software notices. Each paid product has six literal labeled fields;each public notice has filename,size,download host. All30 fields retain source occurrences,physical rows,historical prices/units/contact strings. Ten supplementary rows retain30 cells/three headers,including repeated upload hosts. No unprinted currency or inferred file contents.",
+          "Eleven internal prose boundaries preserve complete source contexts. Filenames DBTC.ARC,MDSPROU.EXE,SEE04.LZH,DICTIN22.LZH andtable names remain source-local readings/candidates. C++ screenshot is an original image;presenter David Intersimone is not an article byline. Original photos/screens/product sheets/table/radar/MS retain literal caption associations.",
+          "Both complete radar rubrics were source-corrected in one continuing pass after all93 full raw drafts were read.93 initial kor+eng calls,16 pre-OCR crop events,zero retries andzero within/post-pass map/OCR/saved-text changes. All119 crops,93 outcomes,1683 typed ranges,675 physical nonempty reading rows,26 original images and72 candidates validate.",
+          "Eight physical source pages123–130 directly reviewed: six mapped124–129 and two outside123/130. All folios individually observed; no global offset inferred. Text crops are disjoint. Two supplementary threshold130 crossings are directly verified nontext frame/rule fragments; pale DBTC left glyphs were repaired before recognition.",
+          "Software-r01 remains retained. A metadata-only r02 corrects three empty separators at124 컴/파일,125 등/록 and126 따/로. Four root JSON files differ; article.txt,raw-ocr.zip,map,runtime andall crop/raw bytes remain exact. Initial helper incorrectly included an already-correct 기능/도 boundary; second helper expected outdated root JSON names. Both failures and successful exports retained without OCR/rebuild retries.",
+          "All414 selected files reproduce independently and in a fresh process.37 negative checks reject35 rehashed semantic faults with generic integrity passing andfrozen-equality guard disabled,plus2 ownership faults. All43295 prior files,30 core modules andsource/TOC/queue/runtime pins exact; unchanged213-test baseline retained.",
+          "Only0044/0045 advance. Other50 canonical outcomes andall39 classification files unchanged,including unlocated0037 andseparate public-software0028 on358–362. Canonical titles,null bylines/references andparent0041 unchanged;local source authors are separate.",
+          "Full proofreading,human acceptance,exact glyphs/spaces/encoded bytes,historical/technical truth andoriginal hardware/software behavior remain unverified. Screenshot code/UI andminiature cover contents remain original-image-dependent. No program download,recovery,execution or reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0045",
       "title": "새로 나온 책",
       "parent_id": "maso-1993-03-toc-0041",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete books0045 spans128–129/printed126–127 in163 files:47 crops,36 outcomes,526 typed ranges,147 nonempty rows,11 original images,all null captions,and25 candidates. Final graphics-book notice/MS precedes price rubric130.",
+        "Seven independent extended book notices retain original covers andseparate title/bibliography/prose contexts. Seven bibliographic records preserve12 local author occurrences/roles,page counts,prices andpublishers. Covers have explicit title/bibliography associations,not invented captions or article bylines.",
+        "All414 selected files reproduce independently and in a fresh process.37 negative checks reject35 rehashed semantic faults with generic integrity passing andfrozen-equality guard disabled,plus2 ownership faults. All43295 prior files,30 core modules andsource/TOC/queue/runtime pins exact; unchanged213-test baseline retained.",
+        "Full proofreading,human acceptance,exact glyphs/spaces/encoded bytes,historical/technical truth andoriginal hardware/software behavior remain unverified. Screenshot code/UI andminiature cover contents remain original-image-dependent. No program download,recovery,execution or reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-58-r01/books",
+        "article_id": "scan-maso-1993-03-toc-0045",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-58-r01/books/manifest.json",
+          "sha256": "b9e408d1c8a7ee40115d2700531c1f77774600db57e4e10a6f1a5fe3354a9224",
+          "bytes": 28230
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            128,
+            129
+          ],
+          "printed_pages": [
+            "126",
+            "127"
+          ],
+          "regions": 47,
+          "blocks": 36,
+          "figures": 11,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 129,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-58/validation-complete.json",
+          "sha256": "732a572d2e60d533bfa70cfd11a75cab2a12026e3959a91bb679948d44d3449c",
+          "bytes": 3611
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-58/native-reproduction.json",
+          "sha256": "1d8e92b165668e9dcf1d422ec95dc19a03a739643e52d30377225439a44f5d85",
+          "bytes": 82744
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-58/books-r03/package-recipe.json",
+          "sha256": "c527bd17186fe36e8404cd0e89db2d2b96ca4a116b698b5d2b8b9a200793107c",
+          "bytes": 8421
+        },
+        "checkpoint": "batch-58",
+        "full_source_extent": {
+          "start_pdf_page": 128,
+          "end_pdf_page": 129,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-58/source-review-completed.json",
+            "sha256": "4476ed8e988075fc3f27a95fa3d94bf1504467637ae48b0163df00a35e40b31b",
+            "bytes": 4712
+          },
+          "note": "Complete independently verified body,own ending andadjacent independent rubric observed."
+        },
+        "notes": [
+          "Complete books0045 spans128–129/printed126–127 in163 files:47 crops,36 outcomes,526 typed ranges,147 nonempty rows,11 original images,all null captions,and25 candidates. Final graphics-book notice/MS precedes price rubric130.",
+          "Seven independent extended book notices retain original covers andseparate title/bibliography/prose contexts. Seven bibliographic records preserve12 local author occurrences/roles,page counts,prices andpublishers. Covers have explicit title/bibliography associations,not invented captions or article bylines.",
+          "Six-row shelf retains18 source cells/three headers andthe original colored table/reading ornament. Repeated publishers stay occurrence-local;source MSAM is not repaired toMASM. Below-a glyphs are explicit Unicode approximations,with name/price punctuation candidates. Seven same-page prose boundaries retainphysical 언/제라도 and시/스템을 fragments.",
+          "Both complete radar rubrics were source-corrected in one continuing pass after all93 full raw drafts were read.93 initial kor+eng calls,16 pre-OCR crop events,zero retries andzero within/post-pass map/OCR/saved-text changes. All119 crops,93 outcomes,1683 typed ranges,675 physical nonempty reading rows,26 original images and72 candidates validate.",
+          "Eight physical source pages123–130 directly reviewed: six mapped124–129 and two outside123/130. All folios individually observed; no global offset inferred. Text crops are disjoint. Two supplementary threshold130 crossings are directly verified nontext frame/rule fragments; pale DBTC left glyphs were repaired before recognition.",
+          "Software-r01 remains retained. A metadata-only r02 corrects three empty separators at124 컴/파일,125 등/록 and126 따/로. Four root JSON files differ; article.txt,raw-ocr.zip,map,runtime andall crop/raw bytes remain exact. Initial helper incorrectly included an already-correct 기능/도 boundary; second helper expected outdated root JSON names. Both failures and successful exports retained without OCR/rebuild retries.",
+          "All414 selected files reproduce independently and in a fresh process.37 negative checks reject35 rehashed semantic faults with generic integrity passing andfrozen-equality guard disabled,plus2 ownership faults. All43295 prior files,30 core modules andsource/TOC/queue/runtime pins exact; unchanged213-test baseline retained.",
+          "Only0044/0045 advance. Other50 canonical outcomes andall39 classification files unchanged,including unlocated0037 andseparate public-software0028 on358–362. Canonical titles,null bylines/references andparent0041 unchanged;local source authors are separate.",
+          "Full proofreading,human acceptance,exact glyphs/spaces/encoded bytes,historical/technical truth andoriginal hardware/software behavior remain unverified. Screenshot code/UI andminiature cover contents remain original-image-dependent. No program download,recovery,execution or reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0046",
@@ -6991,15 +7141,61 @@
         "sha256": "8384e56ebb9463728c12d06bdf52d09b479fd6b730b3dab590141a36bf4c339e",
         "bytes": 115382
       }
+    },
+    {
+      "name": "1993-03-batch-58",
+      "status": "complete",
+      "completed_at": "2026-11-02T23:50:59.184072+00:00",
+      "goal": "Restore complete software reviews0044 andnew books0045.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0044",
+        "maso-1993-03-toc-0045"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        123,
+        130
+      ],
+      "recognition_invocations": 93,
+      "initial_recognitions": 93,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 93,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 16,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "metadata_only_revisions": 1,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-58/validation-complete.json",
+        "sha256": "732a572d2e60d533bfa70cfd11a75cab2a12026e3959a91bb679948d44d3449c",
+        "bytes": 3611
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-58/native-reproduction.json",
+        "sha256": "1d8e92b165668e9dcf1d422ec95dc19a03a739643e52d30377225439a44f5d85",
+        "bytes": 82744
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 32,
+    "readable": 34,
     "partial": 0,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 10
+    "unresolved": 8
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -7007,30 +7203,29 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-58",
-    "goal": "Verify and restore software reviews 0044 and new-books 0045 within the six-page ceiling.",
+    "name": "1993-03-batch-59",
+    "goal": "Verify andrestore price rubric0046 fromobserved130 opener within six-page ceiling.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0044",
-      "maso-1993-03-toc-0045"
+      "maso-1993-03-toc-0046"
     ],
-    "mapping_targets": [
-      124,
-      125,
-      126,
-      127,
-      128,
-      129
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      130,
+      131,
+      132,
+      133
     ],
     "planned_outside_lookup_pdf_pages": [
-      123,
-      130
+      129,
+      134,
+      135
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Software-review opening 124/printed 122 directly observed; new-books opening 128/126 and price-rubric opening 130/128 previously observed in Batch 53 classification. Candidate software extent 124–127 and books 128–129 require direct ending and interior-continuity review before certification. Map only confirmed bodies within six distinct pages; segment/defer if actual scope exceeds the ceiling. Preserve separate reviews/book notices, printed authors/credits and bibliographic/product fields, original covers/screens/photos, literal captions/labels, prices, contact data and source errors. Canonical titles 소프트웨어 열람실 and 새로 나온 책, parent 0041 and null canonical bylines/references remain unchanged; local source authors are separate. Do not execute or recover historical products/programs. Other children and unresolved 0037 unchanged. No reader rebuild."
+    "note": "Price rubric0046 이 달엔 얼맙니까? opens130/printed128;actual ending/interior continuity unknown. Candidate130–133 is provisional only;134–135 competition notice0011 is already an independent owner. Directly review consecutive source pages until actual ending/next independent body before mapping. Restore atmostsix confirmed pages;segment if longer. Preserve tables,units,prices,source credits,captions,original product images anduncertainty without current-price lookup,technical repair or arithmetic inference. Canonical title,parent0041,null byline/reference unchanged. Other children andunlocated0037 unchanged. No execution or reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

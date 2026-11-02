@@ -1572,22 +1572,70 @@ baseline is retained. Full proofreading, human acceptance, exact glyphs/spaces/
 encoded bytes and historical/hardware/software behavior remain unverified. Item
 0037 stays unresolved with bounded location evidence. No reader rebuild.
 
-Current totals: thirty-two readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and ten unresolved identities among 52.
-The 32 current body-owner packages contain 14,379 exact files; 39 classification
+Batch 58 completes software reviews 0044 on PDF 124–127/individually observed
+printed 122–125 and new books 0045 on 128–129/126–127. The selected 251-file software
+r02 and 163-file books native reproduce independently and in a fresh process.
+All 119 exact crops, 93 outcomes, 1,683 typed ranges, 675 nonempty physical rows,
+26 original images and 72 source-local candidates validate. Canonical titles,
+null bylines/references and parent 0041 remain unchanged; local authors and the
+C++ presenter are separate from article authorship.
+
+Seven independent software contexts retain three paid reviews and four public
+notices. Thirty labeled fields preserve prices, environments, contacts, filenames,
+sizes and download hosts. The supplementary ten-row file table retains thirty
+cells and three headers, including occurrence-local repeated hosts. Internal 126
+MS ends only the individual review; monthly public software on 127 remains within
+0044, distinct from canonical public-software article 0028 on 358–362. Fifteen
+original images have nine literal captions and six null captions. C++ screenshot
+code and GUI interiors remain original-image-dependent.
+
+Seven extended book notices retain original covers and separate title, bibliography
+and prose contexts. Seven bibliographic records preserve twelve local author
+occurrences, roles, page counts, prices and publishers. Covers have explicit
+associations and null figure captions. The separate six-row shelf retains eighteen
+cells and three headers, original table/reading ornament and source MSAM without
+repair to MASM. All eleven book figures have null captions. Below-a glyphs, author
+names, filename letter/digit forms and price punctuation remain literal or uncertain
+Unicode approximations, without original encoded-byte claims.
+
+Eighteen same-page prose boundaries retain physical contexts, including 컴/파일,
+등/록, 따/로, 언/제라도 and 시/스템을. The first software export is retained;
+metadata-only r02 fixes three empty separators. Only article.json, corrections.json,
+manifest.json and provenance.json differ. Article text, raw ZIP, maps, runtime and
+all image/raw bytes remain exact. Two revision-helper assertions are retained:
+one included an already-correct 기능/도 boundary; the other expected older export
+filenames after both successful builds. Completed exports were reused; no OCR or
+source-reading retry occurred.
+
+All 93 full raw drafts were read before one continuing source correction pass:
+93 initial kor+eng calls, sixteen pre-OCR crop events, zero retries and zero
+within/post-pass map/OCR/saved-text changes. All eight pages 123–130 were directly
+reviewed: six mapped and two outside lookups. Text crops are disjoint. Two threshold
+crossings are directly verified nontext frame/rule fragments; pale DBTC glyphs
+were repaired before recognition. Every original figure and caption crop was
+visually checked; historical claims and source errors remain unrepaired.
+
+Thirty-seven negative checks reject 35 rehashed semantic faults after generic
+integrity passes with the frozen-equality guard disabled, plus two ownership faults.
+All 43,295 prior files, thirty core modules and source/TOC/queue/runtime pins remain
+exact; the unchanged fresh 213-test baseline is retained. Full proofreading, human
+acceptance, exact glyphs/spaces/encoded bytes, historical truth and product behavior
+remain unverified. Other fifty canonical outcomes, including unlocated 0037, stay
+unchanged. No product download, execution, recovery or reader rebuild.
+
+Current totals: thirty-four readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and eight unresolved identities among 52.
+The 34 current body-owner packages contain 14,793 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 58 verifies and restores software reviews 0044 and new books 0045.
-Software reviews independently open on PDF 124/printed 122; books 128/126 and the
-price rubric 130/128 were previously observed. Candidate extents 124–127 and
-128–129 require direct ending and interior-continuity checks before certification.
-Map only confirmed bodies within six distinct pages; segment or defer if actual
-scope exceeds that ceiling. Preserve separate reviews/book notices, local printed
-authors/credits and bibliographic/product fields, original covers/screens/photos,
-literal captions/labels, prices, contacts and source errors. Canonical titles
-소프트웨어 열람실 and 새로 나온 책, parent 0041 and null bylines/references stay
-unchanged; source authors remain separate. Two canonical tasks and twenty outside
-lookups remain ceilings. Other children and unresolved 0037 stay unchanged.
+Next: Batch 59 verifies and restores price rubric 0046 from its PDF 130 opener.
+Candidate 130–133 is provisional; verify every interior page, the actual ending
+and adjacent independent context before mapping. Competition notice 0011 already
+owns 134–135. Restore at most six confirmed pages, segmenting if necessary; two
+canonical tasks and twenty outside lookups remain ceilings. Preserve source tables,
+units, prices, credits, captions, original images and uncertainty without arithmetic
+or technical repair. Canonical 이 달엔 얼맙니까?, null byline/reference and parent
+0041 stay unchanged. Other children and unlocated 0037 remain unchanged.
 No historical product execution/recovery or reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
