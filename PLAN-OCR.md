@@ -1179,21 +1179,71 @@ fresh 213-test evidence retained. Full proofreading, human acceptance, exact gly
 spacing/encoded bytes, historical/technical claims, original software recovery and
 execution remain unverified. Full 433-page accounting is pending. No reader rebuild.
 
-Current totals: twenty-four readable/sample-reviewed articles, no partials, six
-non-owning groups, three section references and 19 unresolved identities among 52.
-The 24 current body-owner packages contain 12,224 exact files; 27 classification
+Batch 50 completes independent partition-recovery article 0034 on PDF 392–393/
+individually observed printed 390–391 and batch-formatting article 0035 on upper
+PDF 394/printed 392. The two JSON/assets packages contain 245 and 39 files, exact
+in independent exports and a fresh-process rebuild. All 74 source-exact crops,
+64 outcomes, 2,385 typed ranges and 255 nonempty reading rows validate. Printed
+closing credits 박명신 and 민승재 remain source-linked. Both canonical child page
+references stay null, with parent 0033 unchanged; contents reference 390 is not
+inherited. Only these two bodies advance; all other fifty outcomes stay unchanged.
+
+Ten original images retain category/title artwork, the spatial partition diagram,
+two tables, three DE screenshots and the batch example. Five captions are literal
+display text; five are null. Table 1 is one structure row/five cells. Table 2 has
+eight offset rows 0/1/2/4/5/6/8/12, three headers and 24 cells; two content slots
+are empty/null-source merged continuations of the preceding cells. No invented
+offset 3/7 rows or duplicate merged descriptions are added.
+
+The disk-editor dump retains 21 rows, 336 separately indexed glyph groups and
+21 address candidates. Four GUI rows retain forty separately indexed display
+cells. These remain opaque candidates, without decoded bytes, reconstructed ASCII,
+partition arithmetic or recovered disk metadata. Seventeen selected screen regions
+preserve readable labels/fields; background directory rows and opaque ASCII bands
+stay image-dependent. Highlighted final dump cells and zero-like glyphs remain
+uncertain. Dialog ellipses explicitly abbreviate unresolved dot padding, with the
+legal maximum 205,080/205,088 retained as a candidate.
+
+Four numbered recovery steps, six unnumbered batch commands and five prose
+boundaries retain their source contexts. Cross-page NDD나→PC Tools, 다→음,
+3번→면 and 그→리고 remain explicit. Source 애기가, EB 99/55 AA claims,
+physical Recalcula-/te, prose ans without an inserted redirection operator,
+FRT.BAT/FRT A: and prompt-count claims stay literal or explicitly uncertain.
+The 54 source-local candidates do not certify original encoded bytes or exact
+glyphs/spacing. No historical command or repair procedure was executed.
+
+All 64 raw drafts were fully read before one continuing source pass: two eng
+and 62 kor+eng initial recognitions, zero retries or within/post-pass changes.
+Fourteen pre-OCR crop events remain across immutable revisions. Final text crops
+are disjoint; twenty threshold-130 crossings were directly reviewed as frame,
+grid, highlight or footer-background ink. Six pages 5/391–395 were directly reviewed
+from byte-exact retained renders. The independent reader invitation on 392 and
+lower scanning contribution on 394 are excluded.
+
+Twenty-eight negative checks reject 26 rehashed native faults and two ownership
+faults. These include invented merged-cell text, repeated-value source borrowing,
+false encoded-byte claims and altered captions. All 39,954 prior files, thirty
+core modules and source/TOC/queue/runtime pins remain exact; earlier fresh 213-test
+evidence is retained. The first audit-helper attempt lacked the block-only range
+fallback; its log remains, and the corrected auditor passes without export changes.
+Full proofreading, human acceptance, exact source bytes, historical/technical claims,
+original software/disk recovery and execution remain unverified. No reader rebuild.
+
+Current totals: twenty-six readable/sample-reviewed articles, no partials, six
+non-owning groups, three section references and 17 unresolved identities among 52.
+The 26 current body-owner packages contain 12,508 exact files; 27 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 50 restores independent partition-recovery article 0034 on PDF 392–393/
-printed 390–391 and batch-formatting article 0035 on upper PDF 394/printed 392.
-Reuse retained renders and verify article regions and closing credits. Preserve both
-null canonical child page references and parent 0033; do not inherit reference 390
-as a new canonical value. Exclude the separate lower-394 scanning contribution.
-Keep original tables, DE screenshots, captions, commands, physical wraps and source
-uncertainties; no technical correction, partition repair, formatting-command execution
-or software recovery. Both groups 0032/0033 are final non-owning headings. Child 0037
-remains unlocated in the bounded review. Two canonical tasks, six mapped pages and
-twenty outside lookups remain ceilings. No reader rebuild.
+Next: Batch 51 restores SYSEDIT article 0036 on lower PDF 395 and scanning-tips
+article 0038 on lower PDF 394. Verify titles, reading order, endings and captions
+against retained renders before mapping. Keep SYSEDIT's printed 박은주 credit;
+scanning's source byline stays null, separate from canonical 편집부. Exclude upper
+394's now-final batch-formatting body, upper 395's unlisted DOS-shell tip and the
+independent right system-status box. Preserve canonical order, parents and null
+child references without inheriting group reference 390. String-replacement 0037
+remains unlocated in the bounded 392–395 review; do not substitute unlisted tips
+or claim source-wide absence. Two tasks, six mapped pages and twenty outside
+lookups remain ceilings. No software execution or reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
