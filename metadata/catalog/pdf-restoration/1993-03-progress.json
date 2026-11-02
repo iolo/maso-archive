@@ -4415,12 +4415,99 @@
       "toc_entry_id": "maso-1993-03-toc-0043",
       "title": "해외네트워크",
       "parent_id": "maso-1993-03-toc-0041",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Overseas-network 0043 spans PDF 114–123, individually observed printed 112–121. All ten body pages directly viewed for extent/continuity; 113 ends domestic news and 124 opens independent software reviews. Final 123 ends Library Systems notice/contact/MS ornament. Canonical title 해외네트워크, null byline/reference and parent 0041 remain unchanged.",
+        "Opening 114–119 is an immutable 307-file partial, independent/fresh-process exact. All 83 exact crops, 72 outcomes, 1763 typed ranges, 755 nonempty source rows and 107 source-local candidates validate. Final 120–123 and actual ten-page assembly remain required.",
+        "Ten independent story contexts preserve nine complete news items and opening terminal-server story 10. Intrinsic 동향 contains 01–06; 신제품 starts story 07 and continues after this native. Organization labels are distinct from article authorship; no reporter/photo credits, invented byline or canonical child are assigned.",
+        "Twelve source pages directly reviewed: six mapped 114–119 and six outside lookups 113/120–124. Thirty negative checks reject 28 rehashed native faults after generic integrity passes and two ownership faults. All 42061 prior files, thirty core modules, source/TOC/queue/runtime exact; earlier fresh 213-test baseline retained. Full proofreading, human acceptance, exact glyphs/spaces/encoded bytes and historical/hardware/software behavior remain unverified. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-56-r01/overseas-a",
+        "article_id": "scan-maso-1993-03-toc-0043",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-56-r01/overseas-a/manifest.json",
+          "sha256": "bccc2176a090b6270b628d05e1092ad8f8692df474de7202fd5bbce740ecf73d",
+          "bytes": 53059
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "printed_pages": [
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117"
+          ],
+          "regions": 83,
+          "blocks": 72,
+          "figures": 11,
+          "deferred_pdf_pages": [
+            120,
+            121,
+            122,
+            123
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 123,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-56/validation-complete.json",
+          "sha256": "ab6f930299ea2d41ddafdc442733a3bb2207f75f1f921b1af3088fee56f8b97a",
+          "bytes": 2337
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-56/native-reproduction.json",
+          "sha256": "b1901c8841190ae178f020a062fcac6bda292c7c898996c8c45b374040b47c5f",
+          "bytes": 60416
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-56/overseas-a-r03/package-recipe.json",
+          "sha256": "6d5bb0af5a4479eabbe0194e3178aeea1c0eddf60a20ffc5329393489f303a07",
+          "bytes": 12919
+        },
+        "checkpoint": "batch-56",
+        "full_source_extent": {
+          "start_pdf_page": 114,
+          "end_pdf_page": 123,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-56/source-review-completed.json",
+            "sha256": "b52241261b4eed7c51017c79084c9e473e469c478147c12c7dda620d390bf8ea",
+            "bytes": 5323
+          },
+          "note": "All ten pages have extent/layout review. Only opening 114–119 restored; final 120–123 and actual assembly required."
+        },
+        "notes": [
+          "Overseas-network 0043 spans PDF 114–123, individually observed printed 112–121. All ten body pages directly viewed for extent/continuity; 113 ends domestic news and 124 opens independent software reviews. Final 123 ends Library Systems notice/contact/MS ornament. Canonical title 해외네트워크, null byline/reference and parent 0041 remain unchanged.",
+          "Opening 114–119 is an immutable 307-file partial, independent/fresh-process exact. All 83 exact crops, 72 outcomes, 1763 typed ranges, 755 nonempty source rows and 107 source-local candidates validate. Final 120–123 and actual ten-page assembly remain required.",
+          "Ten independent story contexts preserve nine complete news items and opening terminal-server story 10. Intrinsic 동향 contains 01–06; 신제품 starts story 07 and continues after this native. Organization labels are distinct from article authorship; no reporter/photo credits, invented byline or canonical child are assigned.",
+          "Eleven original images preserve two charts, two screenshots, two photographs, two blue section banners and three radar marks. Six literal caption associations and five null captions validate. Screenshot interiors remain original-image-dependent; no product recovery or execution.",
+          "Two charts preserve their printed labels/source credits. Pie 114 has only 11%, 6%, 14%; prose less-than-6% claim remains distinct. Bar 116 has 300/200/100 and years 1991/1995. No unprinted remainder, units, bar values, sum or geometry inferred.",
+          "Twenty-eight prose boundaries, four cross-page, retain original source contexts and intervening graphics. Physical 마/찰, 노/트북, 컨/텍트 and 포트/를 boundaries remain. Final source fragment 보 continues 120 안; it is not article ending. No native source-prose merge performed.",
+          "Printed Math32/Math8 versus earlier Mach 8, 65000, 하이브라이드, 안전, seven templates/six listed categories, WS903C1-ZS, 150K, 512K, Digital Tones Multiple Frequences, CenteR, Sun organization heading without 시 versus full body name, and SunNet Manaeger stay literal or source-local candidates. No spelling, grammar, arithmetic, technical, missing-category or unit repair.",
+          "All 72 full raw drafts read before one continuing source correction pass. 72 initial kor+eng calls, twelve pre-OCR crop events, zero retries or within/post-pass map/OCR/saved-text changes. Final text crops are disjoint; one threshold-130 crossing region is blue banner background only, directly reviewed in native color with complete white glyphs. All revisions/raws/helpers retained.",
+          "One 115 candidate helper and two 117 substring helpers failed before page-reading serialization because source/raw physical row splits were not included. Original failed helpers and failure records remain; exact row-local fixes did not change saved text or add recognition/source passes.",
+          "Twelve source pages directly reviewed: six mapped 114–119 and six outside lookups 113/120–124. Thirty negative checks reject 28 rehashed native faults after generic integrity passes and two ownership faults. All 42061 prior files, thirty core modules, source/TOC/queue/runtime exact; earlier fresh 213-test baseline retained. Full proofreading, human acceptance, exact glyphs/spaces/encoded bytes and historical/hardware/software behavior remain unverified. No reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0044",
@@ -6796,15 +6883,63 @@
         "sha256": "9480db7f24733f4b042a10e8f97d04f5b5ed897d595dbb502bf6fe4327980d3c",
         "bytes": 53142
       }
+    },
+    {
+      "name": "1993-03-batch-56",
+      "status": "complete",
+      "completed_at": "2026-11-02T22:37:55.405118+00:00",
+      "goal": "Verify ten-page overseas-news extent and preserve opening 114–119 as immutable partial.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0043"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        113,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "recognition_invocations": 72,
+      "initial_recognitions": 72,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 72,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 12,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-56/validation-complete.json",
+        "sha256": "ab6f930299ea2d41ddafdc442733a3bb2207f75f1f921b1af3088fee56f8b97a",
+        "bytes": 2337
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-56/native-reproduction.json",
+        "sha256": "b1901c8841190ae178f020a062fcac6bda292c7c898996c8c45b374040b47c5f",
+        "bytes": 60416
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 31,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 11
+    "unresolved": 10
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -6812,25 +6947,19 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-56",
-    "goal": "Verifyoverseas-network0043 extentfromobserved114/printed112;preserveopening114–119 within sixpageceiling.",
+    "name": "1993-03-batch-57",
+    "goal": "Restore final overseas-network 120–123 and actually assemble complete 114–123 from independently regenerated immutable natives.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0043"
     ],
     "mapping_targets": [
-      114,
-      115,
-      116,
-      117,
-      118,
-      119
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      113,
       120,
       121,
       122,
-      123,
+      123
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      119,
       124
     ],
     "limits": {
@@ -6838,7 +6967,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Overseasopening114/printed112 independentlyobserved. Radar sourceindex listssoftware reviews122,and124/printed122 independentlyopenssoftware reviews fromearlierclassificationevidence. Candidatefull extent114–123 requiresdirectending/interiorcontinuity checks,notglobaloffset. Preserveindependentnewsitems,intrinsicsections,charts/diagrams/tables/originalphotos,literalcaptions andsourceerrors. Opening sixpages only;laterpages andactualassembly separate. Canonical해외네트워크,parent0041,nullbyline/reference remain. Otherchildrenandnon-owningradar unchanged.0037 unresolvedwithboundedlocationevidence. No readerrebuild orproductexecution/recovery."
+    "note": "Reuse retained 3000-long-edge renders and verified ten-page extent. Final native starts with terminal-server continuation 119 보→120 안 across 119 caption/original photo and 120 repeated heading. Preserve independent printer, Survey First, Image Assistant, tinted new-products 122–123 and notebook/accessories contexts, original charts/screens/photos and literal captions/labels/contacts/prices/errors. Final 123 Library Systems pocket disk notice/contact/MS ornament precedes 124 software reviews. No product execution/recovery. Actually assemble from independently regenerated 307-file opening and new final native. Keep opening ten story contexts, six literal captions, two charts/printed labels, 28 boundaries and 107 candidates; do not infer pie remainder, bar values, missing seventh template category or rate units. Resolve historical native partial notes externally without rewriting it. Canonical title, parent 0041, null byline/reference and all other children unchanged. Four mapped pages, two tasks and twenty outside lookup ceilings. Item 0037 remains unresolved; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

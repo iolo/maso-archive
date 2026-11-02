@@ -1473,21 +1473,70 @@ runtime pins remain exact; the earlier fresh 213-test baseline is retained. Full
 proofreading, human acceptance, exact glyphs/spaces/encoded bytes, historical/technical
 truth and original hardware/software behavior remain unverified. No reader rebuild.
 
-Current totals: thirty-one readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and 11 unresolved identities among 52.
-The 31 current body-owner packages contain 13,758 exact files; 39 classification
+Batch 56 verifies overseas-network article 0043 on PDF 114–123, individually
+observed printed 112–121, and preserves opening 114–119 as an immutable 307-file
+partial. Independent and fresh-process exports match. All 83 exact crops, 72 outcomes,
+1,763 typed ranges, 755 nonempty source rows and 107 source-local candidates validate.
+Domestic news ends 113; independent software reviews open 124. Final 123 ends the
+Library Systems pocket-disk notice/contact/MS ornament. All ten overseas pages
+received extent/layout review. Final 120–123 and actual assembly remain required.
+Canonical 해외네트워크, null byline/reference and parent 0041 stay unchanged.
+
+Ten independent story contexts retain nine complete items and the opening terminal-
+server item. Intrinsic 동향 contains stories 01–06; 신제품 starts story 07 and
+continues beyond this native. Organization labels remain distinct from article
+authorship; no reporter/photo credit, invented byline or canonical child is assigned.
+Eleven original images retain two charts, two screenshots, two photographs, two blue
+section banners and three radar marks. Six literal captions and five null captions
+validate. Screenshot interiors remain original-image-dependent.
+
+The pie chart retains only printed 11%, 6%, 14% and its source credit; the prose
+less-than-6% claim remains separate. The bar chart retains 300/200/100, 1991/1995
+and its source credit. No pie remainder, bar value, unprinted unit or geometry is
+inferred. Twenty-eight prose boundaries, four across pages, retain original contexts
+and intervening graphics. Physical 마/찰, 노/트북, 컨/텍트 and 포트/를 splits remain.
+Final native fragment 보 continues with 안 on 120 and is not the article ending.
+
+Printed Math32/Math8 versus earlier Mach 8, 65000, 하이브라이드, 안전, seven templates
+with six listed categories, WS903C1-ZS, 150K, 512K, Digital Tones Multiple Frequences,
+CenteR, the shorter Sun organization heading versus the full body name, and SunNet
+Manaeger remain literal or source-local candidates. No spelling, grammar, arithmetic,
+technical, missing-category or rate-unit repair is supplied.
+
+All 72 full drafts were read before one continuing correction pass: 72 initial
+kor+eng calls, twelve pre-OCR crop events, zero retries or within/post-pass map/OCR/
+saved-text changes. Final text crops are disjoint. The only threshold-130 crossing
+region contains blue banner background; direct native color review confirms complete
+white glyphs. One candidate helper and two substring helpers failed before saving
+page readings because physical row splits were omitted. Their original scripts and
+failure records remain; exact row-local fixes added no recognition or source pass.
+
+Twelve source pages were directly reviewed: six mapped 114–119 and six outside
+lookups 113/120–124. Thirty negative checks reject 28 rehashed native faults after
+generic integrity passes and two ownership faults. All 42,061 prior files, thirty
+core modules and source/TOC/queue/runtime pins remain exact; the earlier fresh
+213-test baseline is retained. Full proofreading, human acceptance, exact glyphs/
+spaces/encoded bytes and historical/hardware/software behavior remain unverified.
+Item 0037 stays unresolved with bounded location evidence. No reader rebuild.
+
+Current totals: thirty-one readable/sample-reviewed articles, one partial, seven
+non-owning groups, three section references and ten unresolved identities among 52.
+The 32 current body-owner packages contain 14,065 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 56 verifies overseas-network article 0043 from its independently
-observed opening PDF 114/printed 112 and preserves opening 114–119. Directly review
-120–123 and following software-review opening 124/122 to establish ending and
-interior continuity. Candidate full extent 114–123 is not yet certified. Preserve
-independent news stories, intrinsic sections, original charts/diagrams/tables/photos,
-literal captions and source errors. Later pages and actual assembly are separate
-checkpoints. Canonical title 해외네트워크, parent 0041 and null byline/reference
-stay unchanged; other radar children remain unresolved. Six mapped pages, two tasks
-and twenty outside lookups remain ceilings. Item 0037 stays unresolved with bounded
-location evidence. No product execution/recovery or reader rebuild.
+Next: Batch 57 restores final overseas-network pages 120–123 and actually assembles
+all ten pages 114–123 from independently regenerated immutable natives. Reuse the
+retained renders and verified extent. Preserve the incoming 119 보→120 안 terminal-
+server continuation across the original caption/photo and repeated heading, then
+independent printer, Survey First, Image Assistant, tinted new-product notices and
+notebook/accessory contexts. Final 123's Library Systems notice/contact/MS ornament
+precedes independent software reviews on 124. Retain opening story, section, caption,
+chart, boundary and uncertainty indexes without inferred chart values, missing
+seventh template category or rate units. Resolve historical partial notes externally
+without rewriting the 307-file opening native. Canonical null byline/reference and
+parent 0041 stay exact; other radar children remain unresolved. Four mapped pages
+fit the six-page ceiling; two tasks and twenty outside lookups remain ceilings.
+Item 0037 remains unresolved. No product execution/recovery or reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
