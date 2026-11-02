@@ -13,14 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: twenty-two readable/sample-reviewed articles, no
-partials, four non-owning groups, three final section references and 23 unresolved
-identities among 52. Debugger/disassembler PDF 364–369 is complete in 599 reproducible
-files, with original tables/transcript panels and explicit glyph/control-byte limits.
-Twenty-two current body-owner packages contain 10,981 files. Next: verify CmcPro
-article 0030 from PDF 370 and establish its actual extent. Remaining bodies,
-433-page accounting, cover and issue closeout are pending. No reader rebuild.
-See [March progress](docs/progress/9303.md).
+March 1993 restoration is active: twenty-two readable/sample-reviewed articles, one
+partial, four non-owning groups, three final section references and 22 unresolved
+identities among 52. CmcPro's opening PDF 370–375 is preserved in 465 reproducible
+files; its verified full extent is 370–382. Twenty-three current body-owner packages
+contain 11,446 files. Next: restore CmcPro 376–381, then final 382 and assemble all
+thirteen pages. Remaining bodies, 433-page accounting, cover and issue closeout are
+pending. No reader rebuild. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

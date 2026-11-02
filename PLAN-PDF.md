@@ -974,19 +974,59 @@ remain exact; earlier fresh 213-test evidence retained. Full proofreading, human
 acceptance, exact glyphs/spacing/encoded/control bytes, historical/technical claims,
 bibliographic facts, software recovery and execution remain unverified. No reader rebuild.
 
-Current totals: twenty-two readable/sample-reviewed articles, no partials, four non-owning
-groups, three section references and 23 unresolved identities among 52. Twenty-two
-current body-owner packages contain 10,981 exact files; thirteen classification evidence
+Batch 44 verifies CmcPro article 0030's actual thirteen-page extent, PDF 370–382/
+individually observed printed 368–380, and preserves opening 370–375 as a 465-file
+immutable partial. Independent and fresh-process exports match. All 127 exact crops,
+110 outcomes, 1,866 typed ranges and 605 nonempty source rows validate. Canonical
+title, author 지만진, parent 활용 0025 and reference 368 remain unchanged; source
+subtitle/title spacing and 한국 폭스 유저그룹 affiliation stay separate. Seventeen
+original panels retain ten screenshots, the database field table, the menu forest,
+three category banners, title artwork and 최 dropcap. Twelve captions are literal;
+five are null. Initial 최 is folded once into 최근에. Ten screenshots have sixteen
+selected label regions and explicit miniature data/form/control-state/software limits.
+The field table preserves 23 rows and 115 logical cells: 95 nonblank and twenty empty
+merged-filename continuation slots. Three file groups cover CUST.DBF rows 1–10,
+RENT.DBF 11–15 and TAPE.DBF 16–23. Printed filenames are vertically centered;
+logical first-row anchors do not claim printed vertical positions. Blank text/source
+stay empty/null with explicit owner/group/column/original-image context. The menu
+forest preserves forty label nodes, four separate roots and 36 printed parent/child
+edges, including five children under 작업 환경. Twenty-two menu descriptions retain
+both contexts for game/delete continuations; final 선택 리스트 continues on 376.
+Prose 계산기/tree 달력, GUI 최종/tree 마지막 and source spacing variants remain
+independent. Twenty-seven filename occurrences, sixteen prose boundaries and 69
+source-local candidates preserve literal spelling, case, wraps, punctuation and key
+notation. Five empty raw GUI drafts and two missing tree labels are restored directly
+from unchanged crops. All 110 drafts read before one continuing source pass; 110
+initial kor+eng recognitions, zero retries or within-pass/post-pass changes. Six maps
+retain 39 pre-OCR coverage events. All text crops are disjoint; 26 remaining threshold-
+130 crossings are directly reviewed table/window/control/background/tree-rule ink.
+Fifteen pages 369–383 received extent/layout review, including nine outside lookups;
+prepared 384–386 remain unused/unreviewed. Prose concludes 377 with source contact,
+MS ornament and an independent distribution notice; listing 1, SCAFFOLD.PRG, starts
+on 377 at 001–010 and continues through 382 at 499–544, with EOF at 543. Lower 382's
+diskette purchase/subscription promotion and 383 publisher advertising are excluded.
+Thirty rehashed native faults and two ownership faults reject. All 36,267 prior files
+and thirty core modules remain exact; earlier fresh 213-test evidence retained. Full
+proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical/technical
+claims, original software/database recovery and execution remain unverified. Final
+376–382 and actual thirteen-page assembly remain required. No reader rebuild.
+
+Current totals: twenty-two readable/sample-reviewed articles, one partial, four non-owning
+groups, three section references and 22 unresolved identities among 52. Twenty-three
+current body-owner packages contain 11,446 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 44 verifies CmcPro article 0030, 프로그램을 만드는 프로그램 : CmcPro 2.5를
-만나봅시다, by 지만진, from its known PDF 370 opener/printed 368. Establish actual
-continuity and ending, then map up to six confirmed opening pages, provisionally
-370–375. Reuse retained 370–374 renders; 370 has opener/layout review only and 371–374
-remain unreviewed. Do not infer the ending from the next contents reference. Preserve
-original GUI panels, captions, commands and any code/data literally. Debugger 0029
-and public-software 0028 are final. The ceilings remain two canonical tasks, six mapped
-pages and twenty outside lookups. No reader rebuild.
+Next: Batch 45 restores CmcPro continuation PDF 376–381 as a second immutable native.
+Reuse retained renders. Incoming 375 표시 + 376 된다. needs an empty separator when
+assembled, with both contexts and intervening menu tree retained. Preserve final prose,
+source contact/MS ornament, distribution notice and original GUI panels on 376–377.
+Listing 1 starts at 001–010 on 377 and continues through 498 on 381. Keep printed
+number columns, blank rows, Korean comments, arrays, strings and defects literal;
+do not repair, compile or execute the source. Final 382 at 499–544/EOF 543 and actual
+thirteen-page assembly remain for a later checkpoint. Preserve all opening table,
+forest, GUI, description, filename and candidate indexes; namespace their identifiers
+and project every source range during eventual assembly. The ceilings remain two
+canonical tasks, six mapped pages and twenty outside lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the

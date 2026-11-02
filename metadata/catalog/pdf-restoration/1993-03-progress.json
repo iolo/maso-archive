@@ -3277,12 +3277,101 @@
       "toc_entry_id": "maso-1993-03-toc-0030",
       "title": "프로그램을 만드는 프로그램 : CmcPro 2.5를 만나봅시다",
       "parent_id": "maso-1993-03-toc-0025",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "CmcPro article0030 actual thirteen-page extent is PDF370–382, individually observed printed368–380. Opening370–375 is preserved as a465-file immutable partial, independently andfresh-process exact. All127 exact crops,110 outcomes,1866 typed range occurrences and605 nonempty reading rows validate. Canonical 프로그램을 만드는 프로그램 : CmcPro 2.5를 만나봅시다,byline지만진,parent활용0025/reference368 remain unchanged. Source subtitle/title spacing and한국폭스유저그룹 affiliation remain separate.",
+        "Seventeen original panels retain ten screenshots,the field table,the menu forest,three category banners,title artwork and최 dropcap. Twelve captions contain literal source display text;five are null. Initial최 is folded once into최근에 with original artwork retained. Ten screenshot records retain16 selected label regions and explicit miniature data/form/control-state/software-recovery limits.",
+        "Database table1 preserves23 field rows/115 logical cells:95 nonblank cells and20 empty merged-filename continuation slots. Three filegroups spanCUST.DBF1–10,RENT.DBF11–15,TAPE.DBF16–23. Printed filenames are vertically centered in merged cells;logical first-row anchors do not claim source vertical positions. Blank continuation text/source stay empty/null with owner/group/column/original-image context. All repeated field names/types/lengths bind to their own source occurrences.",
+        "Menu forest table2 preserves40 label nodes,four separate roots and36 printed parent-child edges. The source 작업 환경 branch under환경 retains its five children. No invented global root. Twenty-two menu descriptions remain indexed,including two-context game/delete descriptions. Final선택리스트 description is incomplete andcontinues376. Prose계산기/tree달력,GUI최종/tree마지막 andsource spacing variants stay separate.",
+        "Thirty rehashed native mutations pass generic integrity then reject independent source audit;two canonical ownership mutations reject separately. All36267 prior files,thirty core modules andsource/TOC/queue/runtime exact;earlier fresh213-test evidence retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical/technical claims,original software/database recovery andexecution remain unverified. Final376–382 andactual thirteen-page assembly remain required. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-44-r01/cmcpro-a",
+        "article_id": "scan-maso-1993-03-toc-0030",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-44-r01/cmcpro-a/manifest.json",
+          "sha256": "d3df472ab6f1f2ac2133795c28e7cf85d89f0d6231fedef134dfd421534e0b92",
+          "bytes": 79733
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            370,
+            371,
+            372,
+            373,
+            374,
+            375
+          ],
+          "printed_pages": [
+            "368",
+            "369",
+            "370",
+            "371",
+            "372",
+            "373"
+          ],
+          "regions": 127,
+          "blocks": 110,
+          "figures": 17,
+          "deferred_pdf_pages": [
+            376,
+            377,
+            378,
+            379,
+            380,
+            381,
+            382
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 382,
+        "endpoint_observation_only": true,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-44/validation-complete.json",
+          "sha256": "40ace0a2f73babd0f1ce155792ee4b0ce8a197046034d6dcb6d3367423c7ecb6",
+          "bytes": 2675
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-44/native-reproduction.json",
+          "sha256": "d83f2eda860e64c6ec6d4077275bebda90d2aaf6278b75fb03e034d0b62621fa",
+          "bytes": 80894
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-44/cmcpro-a-r06/package-recipe.json",
+          "sha256": "e7ceef175d8e5d0294ce696cdbc6c3a32c80dc2803d343580b900a56e841becf",
+          "bytes": 18201
+        },
+        "checkpoint": "batch-44",
+        "full_source_extent": {
+          "start_pdf_page": 370,
+          "end_pdf_page": 382,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-44/source-review-completed.json",
+            "sha256": "6ed5019bb941b4768f91309b4c3df8665b01041d8b1f825c40c51ca44defb5da",
+            "bytes": 6083
+          },
+          "note": "All thirteen pages layout-reviewed;only370–375 source-corrected. Prose concludes377 butlisting continues through382line544/EOF543. Lower382 promotion/383 publisher advertising excluded."
+        },
+        "notes": [
+          "CmcPro article0030 actual thirteen-page extent is PDF370–382, individually observed printed368–380. Opening370–375 is preserved as a465-file immutable partial, independently andfresh-process exact. All127 exact crops,110 outcomes,1866 typed range occurrences and605 nonempty reading rows validate. Canonical 프로그램을 만드는 프로그램 : CmcPro 2.5를 만나봅시다,byline지만진,parent활용0025/reference368 remain unchanged. Source subtitle/title spacing and한국폭스유저그룹 affiliation remain separate.",
+          "Seventeen original panels retain ten screenshots,the field table,the menu forest,three category banners,title artwork and최 dropcap. Twelve captions contain literal source display text;five are null. Initial최 is folded once into최근에 with original artwork retained. Ten screenshot records retain16 selected label regions and explicit miniature data/form/control-state/software-recovery limits.",
+          "Database table1 preserves23 field rows/115 logical cells:95 nonblank cells and20 empty merged-filename continuation slots. Three filegroups spanCUST.DBF1–10,RENT.DBF11–15,TAPE.DBF16–23. Printed filenames are vertically centered in merged cells;logical first-row anchors do not claim source vertical positions. Blank continuation text/source stay empty/null with owner/group/column/original-image context. All repeated field names/types/lengths bind to their own source occurrences.",
+          "Menu forest table2 preserves40 label nodes,four separate roots and36 printed parent-child edges. The source 작업 환경 branch under환경 retains its five children. No invented global root. Twenty-two menu descriptions remain indexed,including two-context game/delete descriptions. Final선택리스트 description is incomplete andcontinues376. Prose계산기/tree달력,GUI최종/tree마지막 andsource spacing variants stay separate.",
+          "Twenty-seven filename occurrences,including cross-regionCUST./DBF,16 prose boundaries and69 source-local candidates preserve source spelling,case,wraps,punctuation,uncertain glyphs andkey notation. Five empty raw GUI drafts andtwo missing tree labels are restored directly from unchanged crops. No OCR retry or source/program repair. HistoricalDO VIDEO.APP,Pack andSet Filter To are descriptive source prose,not executed commands.",
+          "All110drafts fully read before one continuing source pass;110initial kor+eng recognitions,zero retries or within-pass/post-pass changes. Six maps retain39pre-OCR coverage events. All110text crops are disjoint;26 remaining threshold130 crossings are directly reviewed table/window/control/background/tree-rule ink. Enlarged extra-conditions context led to one combined parent/child title crop before OCR.",
+          "Fifteen pages369–383 directly extent/layout reviewed;nine outside lookups. Prepared384–386 remain unused/unreviewed. Prose concludes377 with source contact/MS ending andindependent distribution notice;listing1 SCAFFOLD.PRG starts377lines001–010 andends382lines499–544,with EOF at543. All13bodypages are layout-reviewed,not fully restored. Lower382 diskette purchase/subscription promotion and383 publisher advertising are excluded. No contents-derived ending or global folio offset.",
+          "Thirty rehashed native mutations pass generic integrity then reject independent source audit;two canonical ownership mutations reject separately. All36267 prior files,thirty core modules andsource/TOC/queue/runtime exact;earlier fresh213-test evidence retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical/technical claims,original software/database recovery andexecution remain unverified. Final376–382 andactual thirteen-page assembly remain required. No reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0031",
@@ -5210,15 +5299,69 @@
         "sha256": "df1a6d78014d93f5b5cd676d1106492c86435d306e2562f8fa641d92a817f3b7",
         "bytes": 103448
       }
+    },
+    {
+      "name": "1993-03-batch-44",
+      "status": "complete",
+      "completed_at": "2026-11-02T16:36:07.533440+00:00",
+      "goal": "Verify thirteen-page CmcPro extent370–382 andrestore opening370–375asimmutablepartial.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0030"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        370,
+        371,
+        372,
+        373,
+        374,
+        375
+      ],
+      "outside_lookup_pages": 9,
+      "outside_lookup_pdf_pages": [
+        369,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383
+      ],
+      "prepared_but_unused_lookup_pdf_pages": [
+        384,
+        385,
+        386
+      ],
+      "recognition_invocations": 110,
+      "initial_recognitions": 110,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 39,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-44/validation-complete.json",
+        "sha256": "40ace0a2f73babd0f1ce155792ee4b0ce8a197046034d6dcb6d3367423c7ecb6",
+        "bytes": 2675
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-44/native-reproduction.json",
+        "sha256": "d83f2eda860e64c6ec6d4077275bebda90d2aaf6278b75fb03e034d0b62621fa",
+        "bytes": 80894
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 22,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 4,
     "section_references": 3,
-    "unresolved": 23
+    "unresolved": 22
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -5226,35 +5369,30 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-44",
-    "goal": "Verify CmcPro article0030fromknownPDF370opener and establish actual extent;restore up to six confirmed opening pages.",
+    "name": "1993-03-batch-45",
+    "goal": "Restore CmcPro continuation376–381as a second immutable native;retain final382andactualthirteen-pageassemblypending.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0030"
     ],
-    "canonical_page_reference": 368,
-    "mapping_targets": [],
-    "provisional_mapping_targets": [
-      370,
-      371,
-      372,
-      373,
-      374,
-      375
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      369,
+    "mapping_targets": [
       376,
       377,
       378,
       379,
-      380
+      380,
+      381
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      375,
+      382,
+      383
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve canonical 프로그램을 만드는 프로그램 : CmcPro 2.5를 만나봅시다, byline지만진,parent활용0025/reference368. Source370 opener and printed368 directly observed. Reuse retained370–374 renders;370has opener/layout review only and371–374 remain unreviewed. Establish continuity/ending directly, not from next contents reference406. Preserve original GUI panels, captions, commands and any code/data literally; no software recovery or execution. Debugger0029 and public-software0028 are final. No reader rebuild."
+    "note": "Reuse retained376–381renders. Incoming375표시+376된다. requires empty separator when assembled;retain both original contexts andinterposed tree2. Preserve final prose/source-contact/MSornament,independent 알림 distribution notice andGUI originals on376–377. Listing1 SCAFFOLD.PRG starts377001–010 andcontinues378–381through498;keep printed numbercolumns,blank rows,Korean comments,arrays,strings andsource defects without repair/compilation/execution. Final382499–544/EOF543 andactualassemblyremainnextcheckpoint. Preserve opening465files/110outcomes/fieldtable115cells/forest40nodes36edges/GUIlimits/candidates. Futureassemblymustnamespace table/cell/filegroup/tree/node/edge/screen/description/context IDs andproject every current source range. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
