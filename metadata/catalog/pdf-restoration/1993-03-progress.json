@@ -2473,12 +2473,98 @@
       "toc_entry_id": "maso-1993-03-toc-0023",
       "title": "한글 구이의 터보 해결사, 한라 프로(2) : 한라 프로의 초기화와 문자 입출력 함수",
       "parent_id": "maso-1993-03-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical title and 임인건 credit identify the Halla Pro(2) opener330/328 under library group0020. Actual twelve-page extent330–341 is directly observed, not inferred from contents references.",
+        "Verified790-file partial covers330–335 only; final336–341 and actual assembly remain pending. Tables, original figures, annotated example, source defects and all continuation contexts remain source-linked.",
+        "All190 initial drafts precede one literal source pass.32 altered-data/ownership cases reject;28405 prior files and thirty core modules remain exact. Full original recovery and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-35-r01/halla-a",
+        "article_id": "scan-maso-1993-03-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-35-r01/halla-a/manifest.json",
+          "sha256": "55c1e20cc12bffd4f32434af05fdf98478bb1129e4e5f7bf926ec4298355c3be",
+          "bytes": 133606
+        },
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            330,
+            331,
+            332,
+            333,
+            334,
+            335
+          ],
+          "printed_pages": [
+            "328",
+            "329",
+            "330",
+            "331",
+            "332",
+            "333"
+          ],
+          "regions": 211,
+          "blocks": 190,
+          "figures": 21,
+          "deferred_pdf_pages": [
+            336,
+            337,
+            338,
+            339,
+            340,
+            341
+          ],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_end_pdf_page": 341,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-35/validation-complete.json",
+          "sha256": "3967496c6f4c36711e7c315fca827256867678de67dab21064b143f2bde79cbe",
+          "bytes": 2607
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-35/native-reproduction.json",
+          "sha256": "92cddc3529e2ced5648225ff3f6e8eb644e2dcb53050df2815a5fbc09940dce9",
+          "bytes": 134097
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-35/halla-a-r03/package-recipe.json",
+          "sha256": "6fb093d1d0c05042446f5931b6be7535d79a704847f032ee6087212beba57ecc",
+          "bytes": 25370
+        },
+        "checkpoint": "batch-35",
+        "full_source_extent": {
+          "start_pdf_page": 330,
+          "end_pdf_page": 341,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-35/source-review-completed.json",
+            "sha256": "561700e27371137e5ed025083276c5e8af1e68309364c4acb0af1ea2fb0306d4",
+            "bytes": 4969
+          },
+          "note": "All twelve body pages received direct layout/extent review. Current six folios328–333 individually observed. Final341/339 closes with next-month paragraph/MS ornament above publisher advertising.342–343 are printer advertisements and344/342 is the distinct CMDLN opener. Prepared345 remains unreviewed. Extent evidence does not claim restoration/proofreading of deferred336–341 or a global PDF offset."
+        },
+        "notes": [
+          "The790-file opening native330–335 reproduces independently and in a fresh process. Final336–341 and actual twelve-page assembly remain required. All211 crops,190 outcomes,2544 typed range occurrences and484 source reading rows validate.",
+          "Four tables retain49 data cells, two unprinted cells, eleven headers and four literal captions. Table2 keeps five multiline logical groups without invented rows. Table3 retains eight nodes/five arrows in three occurrence-specific chains. Table4 caption/header read 내정 자형.",
+          "The annotated HELLOHAN.C example has thirteen physical rows, four blanks, nine nonempty source regions and four separate callouts/connectors. DOS output has ten physical rows/two blanks. Both contexts retain23 physical/logical rows,153 tokens, one comment and two quoted literals. Four colon-like code endings remain explicit colon/semicolon uncertainties; no syntax repair or execution.",
+          "Twenty-one original images have four literal captions and seventeen null captions. Two directory-tree parts, ten-library link-order graph and four-library monthly fragment retain49 searchable labels and fourteen library/description pairs. Twelve header filenames, seven command occurrences and33 procedure entries in seven groups remain indexed.",
+          "Canonical title/byline임인건/parent0020/reference328 stay unchanged. Source boxed installment2, independent editorial deck/〈편집자〉, affiliation and seven series entries remain separate. Six prose boundaries and two procedure boundaries retain all intervening items. Outgoing335→336 crosses tables2–4 and is not assembled prematurely.",
+          "All190 initial drafts precede one continuing source pass: ten English and180 Korean/English calls. Fifteen pre-OCR crop repair/repartition events across three maps; zero retries or within/post-pass changes. Failed r02 overlap preflight and first audit helper remain retained; package/source/OCR unchanged by the audit repair.",
+          "Printed 아다시피, damaged 노/토 candidate, han→meqx.lib versus hanmeq.lib, model placeholders, dot counts and graphic/control-byte candidates remain literal or explicitly uncertain. Full proofreading, human acceptance, exact glyphs/spacing/encoded bytes and technical claims remain unverified.",
+          "Thirty rehashed native cases and two ownership cases reject. All28405 prior files, thirty core modules and source/TOC/queue/runtime pins remain exact. Earlier fresh213-test evidence retained; no reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0024",
@@ -4063,15 +4149,63 @@
         "sha256": "fd380ef1a87ca5ec5394c5915cac9ae58ef1fc4f6efe3ae1e535437a63b8b8bd",
         "bytes": 100754
       }
+    },
+    {
+      "name": "1993-03-batch-35",
+      "status": "complete",
+      "completed_at": "2026-11-02T08:24:49.910069+00:00",
+      "goal": "Verify Halla Pro(2) actual extent330–341 and preserve opening330–335 as an immutable partial native.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0023"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "outside_lookup_pages": 10,
+      "outside_lookup_pdf_pages": [
+        329,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
+      ],
+      "recognition_invocations": 190,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 15,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-35/validation-complete.json",
+        "sha256": "3967496c6f4c36711e7c315fca827256867678de67dab21064b143f2bde79cbe",
+        "bytes": 2607
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-35/native-reproduction.json",
+        "sha256": "92cddc3529e2ced5648225ff3f6e8eb644e2dcb53050df2815a5fbc09940dce9",
+        "bytes": 134097
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 16,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 3,
     "section_references": 3,
-    "unresolved": 30
+    "unresolved": 29
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -4079,40 +4213,46 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-35",
-    "goal": "Verify Halla Pro(2) article0023 from observed PDF330/printed328 opener, establish its actual ending and preserve up to six confirmed opening pages.",
+    "name": "1993-03-batch-36",
+    "goal": "Restore Halla Pro(2) final336–341 as immutable native b, then actually assemble the complete twelve-page article330–341 from independently regenerated natives.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0023"
     ],
-    "canonical_page_reference": 328,
-    "mapping_targets": [],
-    "provisional_mapping_targets": [
-      330,
-      331,
-      332,
-      333,
-      334,
-      335
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      329,
+    "mapping_targets": [
       336,
       337,
       338,
       339,
       340,
-      341,
+      341
+    ],
+    "actual_source_extent_pdf_pages": [
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      330,
+      335,
       342,
       343,
-      344,
-      345
+      344
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve canonical title 한글 구이의 터보 해결사, 한라 프로(2) : 한라 프로의 초기화와 문자 입출력 함수, byline임인건, parent0020/reference328. Opener330 is directly observed; verify actual ending without inferring from CMDLN reference342 or a global PDF offset. Keep any unreviewed interior continuity explicit. No code repair/execution or reader rebuild."
+    "note": "Reuse retained renders. Verify original335 지정할 필요가 없을→336 때에는 contexts and retain all intervening tables2–4 captions/images/headers/cells in the cross-native join. Preserve initialization examples1–4, tables5–10, screens1–5, character I/O and coordinate notation through final341 next-month paragraph/MS ornament. Exclude lower341 publisher advertising;342–343 printer advertisements and344 CMDLN are distinct. Namespace every custom table/cell/diagram/procedure/context/figure/source range, including plural figure_ids/source_regions and all references. Preserve four opening colon/semicolon uncertainties, printed defects, blanks and source claims without repair/execution. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

@@ -689,17 +689,45 @@ ownership cases reject. All 27,677 prior files and thirty core modules remain ex
 the earlier fresh 213-test evidence is retained. No code repair, compilation,
 execution or reader rebuild.
 
-Current totals: sixteen readable/sample-reviewed articles, no partials, three non-owning
-groups, three section references and 30 unresolved identities among 52. Sixteen
-current body-owner packages contain 6,778 exact files; ten classification evidence
+Batch 35 verifies Halla Pro(2) article 0023's actual twelve-page extent, PDF
+330–341, and preserves opening 330–335/printed 328–333 as a 790-file partial native.
+Independent and fresh-process exports match. All 211 exact crops, 190 OCR outcomes,
+2,544 typed range occurrences and 484 nonempty source reading rows validate. Four
+original tables retain 49 data cells, two blank cells, eleven headers and four
+literal captions. Table 2 keeps five multiline groups; table 3 keeps eight nodes
+and five arrows in three separate priority chains. Table 4 reads 내정 자형.
+Twenty-one original images have four literal captions and seventeen null captions.
+Directory-tree parts and project diagrams retain 49 searchable labels and fourteen
+library/description pairs. Seven procedure groups preserve 33 entries; seven command
+occurrences and twelve header filenames remain indexed. The annotated HELLOHAN.C
+example has thirteen physical rows/four blanks and four separate callouts. DOS
+output adds ten rows/two blanks: 23 total rows, 153 tokens, one comment and two
+quoted literals. Four colon-like statement endings remain explicit colon/semicolon
+uncertainties without syntax repair. Six prose and two procedure boundaries retain
+their original contexts; outgoing 335→336 remains deferred across tables 2–4.
+All 190 initial drafts were fully read before one continuing source pass. Fifteen
+pre-OCR crop repair/repartition events across three retained maps; zero retries or
+within/post-pass changes. Printed wording, filename differences, damaged glyphs,
+dot counts and control-byte candidates remain literal or explicitly uncertain.
+Thirty rehashed native cases and two ownership cases reject. All 28,405 prior files
+and thirty core modules remain exact; earlier fresh 213-test evidence is retained.
+Final 336–341 and actual twelve-page assembly remain required. No code repair,
+compilation, execution or reader rebuild.
+
+Current totals: sixteen readable/sample-reviewed articles, one partial, three non-owning
+groups, three section references and 29 unresolved identities among 52. Seventeen
+current body-owner packages contain 7,568 exact files; ten classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 35 verifies Halla Pro(2) article 0023 from the observed PDF 330/printed
-328 opener, establishes its actual ending and restores up to six confirmed opening
-pages, provisionally 330–335. Preserve canonical title 한글 구이의 터보 해결사, 한라 프로(2) :
-한라 프로의 초기화와 문자 입출력 함수, byline 임인건, parent 0020 and reference 328.
-Do not infer its ending from CMDLN's contents reference 342 or a global PDF offset;
-keep any uninspected interior continuity explicit. No reader rebuild.
+Next: Batch 36 restores final Halla Pro(2) pages 336–341 as immutable native b,
+then actually assembles the complete twelve-page article 330–341 from independently
+regenerated natives. Verify original 335 phrase “지정할 필요가 없을”→336 “때에는”
+contexts and retain every intervening table 2–4 caption/image/header/cell item.
+Preserve initialization examples 1–4, tables 5–10, screens 1–5 and final 341's
+next-month paragraph/MS ornament. Exclude its lower publisher advertisement;
+342–343 are printer advertisements and 344 is the distinct CMDLN opener. Namespace
+all custom table, diagram, procedure, code and source references during assembly.
+No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
