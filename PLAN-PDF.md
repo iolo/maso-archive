@@ -482,18 +482,47 @@ changes. All 23,963 prior files and thirty core modules remain exact; earlier fr
 a/b, 307+199=506 files. The primary directory/manifest still identifies opening a.
 Final 272 and actual thirteen-page assembly remain required.
 
-Current totals: twelve readable/sample-reviewed articles, one partial, two non-owning
-groups, three section references and 34 unresolved identities among 52. Thirteen
-canonical body owners have fourteen current native/assembly packages containing
-5,003 exact files; eight final classification evidence files remain separate.
-Original natives and superseded revisions remain unchanged.
+Batch 27 preserves final DOS page 272 as a 19-file native and actually
+assembles the complete thirteen-page article on PDF 260–272/printed 258–270.
+All 534 assembly files match an export consuming three independently regenerated
+natives totaling 525 files and a fresh-process rebuild. All 147 exact crops,
+117 outcomes, 13,673 metadata projections, 27,998 current range occurrences/
+27,864 source occurrences and 1,260 reading rows validate. All original native
+blocks, text, metadata and assets remain unchanged. Thirty original images retain
+seventeen code/command panels, five table/interface compositions, four formulas,
+portrait/category artwork, screenshot and ending ornament. Eleven captions contain
+literal text; nineteen are null. Four regular tables retain 68 explicit cells and
+twelve headers; the separate call interface retains two inputs and one output.
+Seven independent code contexts preserve 741 physical rows: 716 numbered rows
+across five listings, 21 unnumbered comment wraps and four build commands. There
+are 148 blank numbered rows, 2,708 tokens, 340 comment rows, 443 instructions,
+434 register occurrences, 149 immediates, 42 memory operands, 103 branch/call
+occurrences and 25 quoted occurrences. Listing 5 DOSINFO.ASM is complete as printed
+at 001–516. Root metadata links b410→c411, preserves native row IDs/ordinals and
+adds cumulative current ordinals; GetStacks 390–470 is complete while both native
+partial/tail records remain historical. Independent Listing 4 GetStacks stays separate.
+Seventeen prose boundaries, nine within-native code boundaries and one cross-native
+Listing 5 boundary retain source contexts. Main prose ends 268; final 516 END Entry
+on 272 precedes excluded book-year filler. No prose merges or code repair/execution.
+Final native adds two initial English drafts, both read before one source pass;
+zero crop changes, retries or within/post-pass changes. Two new decorative rule
+markers bring the unresolved dash-count total to nine. Printed wording, arithmetic,
+MASM punctuation and glyph/space/byte candidates remain. Twelve rehashed assembly,
+eight native, two ownership and three adapter-guard cases reject. All 24,162 prior
+files and thirty core modules remain exact; earlier fresh 213-test evidence retained.
 
-Next: Batch 27 restores final DOS page 272, Listing 5 rows 411–516, then
-actually assembles the complete thirteen-page article on 260–272 from independently
-regenerated natives a/b/c. Join the Listing 5 context across b/c with source/current
-row provenance while retaining all seven independent code contexts. Exclude lower
-272 book-year filler. Preserve glyph candidates and unresolved dash counts.
-No code repair, execution or reader rebuild.
+Current totals: thirteen readable/sample-reviewed articles, no partials, two non-owning
+groups, three section references and 34 unresolved identities among 52. Thirteen
+current body-owner packages contain 5,031 exact files; eight final classification
+evidence files remain separate. Original natives and superseded revisions remain
+unchanged.
+
+Next: Batch 28 verifies vector-font article 0019's actual extent and ending
+from the observed opener on PDF 276/printed 274, then restores up to six confirmed
+opening pages. Provisional targets are 276–281. Canonical title, byline 황기태 외 4인,
+parent 0012 and reference 274 remain unchanged; the five-name source credit stays
+separate. Later reference 290 is a location lead, not verified article extent.
+Preserve diagrams, code, strings and glyph candidates. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
