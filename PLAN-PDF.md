@@ -741,18 +741,50 @@ ownership cases reject. All 29,195 prior files and thirty core modules remain ex
 the earlier fresh 213-test evidence is retained. Both natives remain immutable with
 historical partial scopes. No code repair, compilation, execution or reader rebuild.
 
-Current totals: seventeen readable/sample-reviewed articles, no partials, three non-owning
-groups, three section references and 29 unresolved identities among 52. Seventeen
-current body-owner packages contain 8,526 exact files; ten classification evidence
+Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
+342–346. All 379 selected r02 files match independent and fresh-process exports.
+All 103 exact crops, 89 outcomes, 6,020 typed ranges and 434 indexed nonempty reading
+rows/fragments validate. Twenty-one code/output contexts retain 260 physical rows,
+225 nonblank physical rows, 217 logical source rows, 35 display-gap blanks and six
+physical wraps. Both listings retain their literal printed number columns, 0–70
+and 1–85: 156 numbered rows. Listing downloads preserve those columns; original
+program-file recovery is unverified. All 2,104 tokens, 58 quoted C/C++ literals,
+four comments, three includes, seven printed function bodies, eight API signatures,
+ten explicit command/usage occurrences and 32 filename references retain source
+contexts. Four independent printed-output contexts and two separate Korean callouts
+remain; the first option result continues lower-left to upper-right on 348. Fourteen
+original images have four literal captions and ten null captions. Five prose
+boundaries retain source blocks; final 348's closing paragraph/MS ornament precedes
+independent book advertisement 349 and the distinct Windows-tools opener 350.
+All 89 initial drafts were read before one continuing source pass. Thirty-five
+pre-OCR crop events across three maps, zero retries or within/post-pass changes.
+Direct pale-color review repaired annotation ascenders missed by threshold-130
+checks. All 87 source-local candidates remain explicit, including colon/semicolon
+readings, missing connective wording, `*option`/`*options` differences, besure, an extra
+percent-like command mark and the figure's BORLANDC path candidate. No syntax repair,
+compilation or execution. R01's broad command matcher is retained; metadata-only r02
+selects ten explicit occurrences and logical wrap groups. Only four root metadata
+files differ; all article/listing/raw-ZIP/asset/OCR bytes remain exact. Thirty-two
+rehashed native cases pass generic integrity and fail the independent source audit;
+two canonical ownership cases also reject. All 31,892 prior files and thirty core
+modules remain exact; earlier fresh 213-test evidence retained. Full proofreading,
+human acceptance, exact glyphs/spacing/encoded bytes, historical claims and software
+behavior remain unverified. No reader rebuild.
+
+Current totals: eighteen readable/sample-reviewed articles, no partials, three non-owning
+groups, three section references and 28 unresolved identities among 52. Eighteen
+current body-owner packages contain 8,905 exact files; ten classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 37 verifies CMDLN article 0024 from the observed PDF 344/printed
-342 opener, establishes its actual ending and restores up to six confirmed pages,
-provisionally 344–349. Preserve canonical title C++ 클래스를 이용한 커맨드 라인 분석기, CMDLN,
-byline 서병우, parent 0020 and reference 342. Do not infer its ending from the
-Windows-tool reference 348 or a global PDF offset. Group 0025 활용 and OOP article
-0026/reference 304 remain separate unresolved tasks. Preserve source code, physical
-wraps/blanks, literal strings and defects without repair or execution. No reader rebuild.
+Next: Batch 38 resolves pageless group 0025 활용 ownership and verifies OOP article
+0026, 클리퍼에 밀려오는 OOP 물결, by 임지열, from the known PDF 306 opener/reference
+304. Establish its actual ending and map up to six confirmed opening pages,
+provisionally 306–311. Earlier review observed listing/omission material on 317;
+recheck its identity, continuity and endpoint directly, without inferring from the
+Class(y) opener on 318. Preserve any printed omission and source defects without
+invented rows, repair or execution. Windows-tools 0027 remains a separate task.
+The checkpoint ceilings remain two canonical tasks, six mapped pages and twenty
+outside lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the

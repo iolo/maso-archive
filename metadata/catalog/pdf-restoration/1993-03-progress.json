@@ -2629,12 +2629,100 @@
       "toc_entry_id": "maso-1993-03-toc-0024",
       "title": "C++ 클래스를 이용한 커맨드 라인 분석기, CMDLN",
       "parent_id": "maso-1993-03-toc-0020",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical CMDLN title and서병우 credit,parent0020/reference342 match directly reviewed opener344. Actual five-page body ends348/346 with final paragraph/MS ornament;349 is independent advertising.",
+        "379 selected files reproduce independently and in a fresh process. All103 crops,89 outcomes,6020 source-local typed ranges,260 physical rows and156 numbered rows validate. Source code numbering,defects,strings,commands,outputs and87 candidates remain literal.",
+        "Thirty-four negative cases reject;31892 prior files/thirty core modules exact. Metadata-only revision retained with source/asset/OCR bytes unchanged. Human acceptance,source bytes and software execution unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-37-r02/cmdln",
+        "article_id": "scan-maso-1993-03-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-37-r02/cmdln/manifest.json",
+          "sha256": "f4321644496ee0f6e5e1510154166268f962e7ae8b83c4b4a9820660dbe4e13b",
+          "bytes": 65014
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            344,
+            345,
+            346,
+            347,
+            348
+          ],
+          "printed_pages": [
+            "342",
+            "343",
+            "344",
+            "345",
+            "346"
+          ],
+          "regions": 103,
+          "blocks": 89,
+          "figures": 14,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 348,
+        "actual_prose_end_pdf_page": 348,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-37/validation-complete.json",
+          "sha256": "83aecf2eaf106978353a41032b439ad77a1edbbf706d76583d610e832c907048",
+          "bytes": 2977
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-37/native-reproduction.json",
+          "sha256": "84cfe76a2001ec09887288f6901ac1f31c39cb92fcc58fcb85ff811ad1e04edd",
+          "bytes": 66067
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-37/cmdln-export-r02/package-recipe.json",
+          "sha256": "9e06a6da946b9ccef21919ecfa212f6bc2f4e07a7ee970caf904ae42988c5fc8",
+          "bytes": 14818
+        },
+        "checkpoint": "batch-37",
+        "retained_previous_revision": {
+          "directory": "archive/pdf/1993-03/packages/batch-37-r01/cmdln",
+          "manifest": {
+            "path": "archive/pdf/1993-03/packages/batch-37-r01/cmdln/manifest.json",
+            "sha256": "910774cf9b33d22609df814f8872253ce6281fdd57356a8a536402d09552386f",
+            "bytes": 65014
+          },
+          "disposition": "Retained immutable native;overbroad command metadata superseded by r02,with all source text/assets/OCR unchanged."
+        },
+        "full_source_extent": {
+          "start_pdf_page": 344,
+          "end_pdf_page": 348,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-37/source-review-completed.json",
+            "sha256": "0c99949ad2d2dbac460fb0d932b7b152a1915487bca22a5becb097eec07e3459",
+            "bytes": 3774
+          },
+          "note": "All five body pages restored;349 advertisement and350 distinct opener observed directly. Printed342–346 individually observed; no global offset inferred."
+        },
+        "notes": [
+          "Complete five-page CMDLN body344–348/individually observed printed342–346; canonical서병우/parent0020/reference342 unchanged. Main closes348 with separate MS ornament;349 is a book advertisement and350 opens another article. No global PDF/folio offset inferred.",
+          "Selected r02 native has379 files,independently/fresh-process exact. All103 crops,89 raw outcomes,6020 typed ranges and434 nonempty reading rows/fragments validate. Four captions are literal text;fourteen original images retain title/category/dropcap,all source code/output panels and closing ornament.",
+          "Twenty-one code/output contexts retain260 physical rows,225 nonblank physical rows,217 logical source rows,35 display-gap blank rows and six recorded physical wraps. Both listings retain literal printed number columns0–70 and1–85,156 numbered rows. Number columns remain in listing.txt; this is not recovered compilable source.",
+          "All2104 code/output tokens,58 quoted C/C++ literals,four comments,three includes,seven printed function bodies,eight API signatures,ten explicit command/usage occurrences and32 indexed filename references retain source occurrences. No code repair,compilation or execution.",
+          "Four independent output contexts retain the two option-result examples and two figures. First result continues lower-left→upper-right348;two Korean figure2 callouts are separate from program output. Five prose boundaries retain original source blocks without silent merges.",
+          "All89 initial drafts read before one continuing source pass;35 pre-OCR crop events across three maps,zero retries or within/post-pass changes. Pale annotation ascenders required direct-color review despite zero threshold130 crossings. All87 source-local candidates remain explicit.",
+          "Source spelling besure,prose *option versus declaration *options,missing connective wording,colon/semicolon candidates,extra percent-like Listing2 command mark and figure2 BORLANDC path candidate remain literal. Exact glyphs,encoded bytes,spacing,technical claims and original software behavior remain unverified.",
+          "R01 broad command matcher retained25 records including prose mentions. Metadata-only r02 narrows ten explicit source occurrences and adds logical wrap groups. Only four root metadata files differ;all article/listing/raw-ZIP/asset/OCR bytes remain exact. Both revisions and helper/diagnostic repairs retained.",
+          "Thirty-two rehashed native faults pass generic integrity and are rejected by the independent source audit;two ownership faults reject separately. All31892 prior files,thirty core modules,source/TOC/queue/runtime and earlier fresh213-test evidence remain exact. Full proofreading and human acceptance remain unverified; no reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0025",
@@ -4300,15 +4388,61 @@
         "sha256": "5b06ddb7addb6c43d9c58021b08dea481629122fdb28e387dc95ffe45733e129",
         "bytes": 316202
       }
+    },
+    {
+      "name": "1993-03-batch-37",
+      "status": "complete",
+      "completed_at": "2026-11-02T10:57:08.483279+00:00",
+      "goal": "Restore complete CMDLN344–348 from the source-reviewed map and retain literal code/output contexts.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0024"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        343,
+        349,
+        350
+      ],
+      "prepared_but_unreviewed_pdf_pages": [
+        351,
+        352
+      ],
+      "recognition_invocations": 89,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 35,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "metadata_only_revision": true,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-37/validation-complete.json",
+        "sha256": "83aecf2eaf106978353a41032b439ad77a1edbbf706d76583d610e832c907048",
+        "bytes": 2977
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-37/native-reproduction.json",
+        "sha256": "84cfe76a2001ec09887288f6901ac1f31c39cb92fcc58fcb85ff811ad1e04edd",
+        "bytes": 66067
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 17,
+    "readable": 18,
     "partial": 0,
     "group_headings": 3,
     "section_references": 3,
-    "unresolved": 29
+    "unresolved": 28
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -4316,33 +4450,41 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-37",
-    "goal": "Verify CMDLN article0024 from observed344/printed342 opener, establish its actual ending and restore up to six confirmed pages.",
+    "name": "1993-03-batch-38",
+    "goal": "Resolve pageless 활용 group0025 ownership and verify OOP article0026 from known306 opener;establish actual extent and restore up to six confirmed opening pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0024"
+      "maso-1993-03-toc-0025",
+      "maso-1993-03-toc-0026"
     ],
-    "canonical_page_reference": 342,
+    "canonical_page_reference": 304,
     "mapping_targets": [],
     "provisional_mapping_targets": [
-      344,
-      345,
-      346,
-      347,
-      348,
-      349
+      306,
+      307,
+      308,
+      309,
+      310,
+      311
     ],
     "planned_outside_lookup_pdf_pages": [
-      343,
-      350,
-      351,
-      352
+      4,
+      5,
+      305,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      350
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve canonical title C++ 클래스를 이용한 커맨드 라인 분석기, CMDLN,byline서병우,parent0020/reference342. Opener344 is directly observed. Establish actual ending without inferring from windows-tool reference348 or global PDF offset. Group0025활용 and OOP0026 reference304 remain separate unresolved canonical tasks; do not substitute Class(Y) or CMDLN. Preserve code rows/literals/blank/wrapped lines and printed defects without repair/execution. No reader rebuild."
+    "note": "Preserve canonical 클리퍼에 밀려오는 OOP 물결,byline임지열,parent0025/reference304. Group활용 is pageless and unresolved until source/TOC ownership evidence is verified. Earlier batch33 observed306 as distinct OOP opener and317 as previous-article listing/printed omission beside publisher notice;directly recheck identity,continuity and ending rather than infer from Class(y)318. Preserve any source omission without invented program rows. Windows-tools0027 opener350 is only observed; do not restore a third task. No source code repair,execution or reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
