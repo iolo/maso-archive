@@ -1179,21 +1179,53 @@ earlier fresh 213-test evidence retained. Full proofreading, human acceptance, s
 glyphs/spacing/encoded bytes, historical/technical claims and original circuit/software
 recovery or execution remain unverified. No reader rebuild.
 
-Current totals: twenty-four readable/sample-reviewed articles, no partials, four
-non-owning groups, three section references and 21 unresolved identities among 52.
-The 24 current body-owner packages contain 12,224 exact files; thirteen classification
+Batch 49 classifies information-sharing heading 0032, 정보나눔터, and technical rubric
+0033, 테크니컬 마당, as non-owning groups. Fourteen classification evidence files
+reproduce independently and in a fresh process; all eleven original crops match source
+pixels. Contents 5 shows three direct information-sharing rubrics and five distinctly
+titled/bylined technical contributions. Source 392 repeats both category labels in a
+diamond; source 398 repeats 정보나눔터 above Q&A. The reader-contribution invitation
+on 392 and distinct titles/closing credits support organizational ownership.
+
+Canonical titles, parents and all eight direct-child links across the groups stay
+exact. Technical reference 390 remains a contents locator; no group body, author,
+owned page range or group folio is assigned. Printed 테크니컬마당 remains separate
+from canonical 테크니컬 마당. Only the two heading outcomes advance; all fifty other
+outcomes and all 24 readable owner packages remain unchanged.
+
+Four independent contribution contexts are observed: partition recovery on 392–393
+with 박명신, batch-formatting on upper 394 with 민승재, SYSEDIT on lower 395 with
+박은주, and scanning tips on lower 394. The scanning source byline stays null;
+canonical 편집부 is not invented as a printed credit. Physical order differs from
+canonical order, which stays unchanged. String-replacement child 0037 was not located
+in this bounded review and remains unresolved. No source-wide absence, missing-page
+count or substitution by either unlisted tip on 395 is claimed.
+
+Ten pages 4/5/391–398 were directly reviewed, with zero article maps, OCR calls,
+source correction passes or child restorations. Physical 391/396/397 are independent
+advertising; 398 begins distinct Q&A. Eleven crops retain contents, two diamonds,
+the invitation, four titles and three credits. Twenty-five negative checks reject
+22 consistent metadata faults, one consistently re-pinned altered pixel and two
+ownership faults. All 39,940 prior files and thirty core modules remain exact; earlier
+fresh 213-test evidence retained. Full proofreading, human acceptance, exact glyphs/
+spacing/encoded bytes, historical/technical claims, original software recovery and
+execution remain unverified. Full 433-page accounting is pending. No reader rebuild.
+
+Current totals: twenty-four readable/sample-reviewed articles, no partials, six
+non-owning groups, three section references and 19 unresolved identities among 52.
+The 24 current body-owner packages contain 12,224 exact files; 27 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 49 verifies pageless information-sharing heading 0032, 정보나눔터, and
-ownership/extent of child 0033, 테크니컬 마당, at canonical printed reference 390.
-Preserve every descendant identity, byline and parent; do not assume either heading
-owns a body. Review contents, source folios, actual headings, authorship and boundaries
-before classification or mapping. PDF 392 is only a provisional location. If 0033 owns
-a compound body, restore at most six confirmed opening pages and defer descendant
-dispositions. If it is organizational, classify it non-owning with direct evidence and
-queue child bodies separately. Do not restore a third canonical task in this checkpoint.
-The ceilings remain two canonical tasks, six mapped pages and twenty outside lookups.
-Frame-grabber 0031 is final. No reader rebuild.
+Next: Batch 50 restores independent partition-recovery article 0034 on PDF 392–393/
+printed 390–391 and batch-formatting article 0035 on upper PDF 394/printed 392.
+Reuse retained renders and verify article regions and closing credits. Preserve both
+null canonical child page references and parent 0033; do not inherit reference 390
+as a new canonical value. Exclude the separate lower-394 scanning contribution.
+Keep original tables, DE screenshots, captions, commands, physical wraps and source
+uncertainties; no technical correction, partition repair, formatting-command execution
+or software recovery. Both groups 0032/0033 are final non-owning headings. Child 0037
+remains unlocated in the bounded review. Two canonical tasks, six mapped pages and
+twenty outside lookups remain ceilings. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the

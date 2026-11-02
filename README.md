@@ -14,11 +14,11 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 March 1993 restoration is active: twenty-four readable/sample-reviewed articles, no
-partials, four non-owning groups, three final section references and 21 unresolved
-identities among 52. The frame-grabber article is complete on PDF 408–415 in a
-reproducible 513-file assembly from two immutable natives. The 24 current body-owner
-packages contain 12,224 files. Next: verify information-sharing/technical-forum ownership
-at canonical reference 390. Remaining bodies, 433-page accounting, cover and issue
+partials, six non-owning groups, three final section references and 19 unresolved
+identities among 52. Information-sharing and technical-forum headings are now verified
+non-owning groups; all child outcomes remain unchanged. The 24 current body-owner
+packages contain 12,224 files. Next: restore partition recovery on PDF 392–393 and
+batch-formatting on upper 394. Remaining bodies, 433-page accounting, cover and issue
 closeout are pending. No reader rebuild. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit

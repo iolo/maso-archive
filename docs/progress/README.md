@@ -26,7 +26,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | August 1991 | [9108.md](9108.md) — restoration pass complete; 28 readable articles, five non-owning headings, two section references; all383 pages accounted, 9,272 JSON/assets files independently exact, 213 fresh tests |
 | September 1991 | [9109.md](9109.md) — restoration pass complete; 23 readable articles, four non-owning headings, two anchored section references; 9,332 JSON/assets files independently exact; all 406 pages accounted; two original-content gaps and one related-form reference final unrecovered; donated cover reproduced; 213 fresh tests pass; human proofreading/volunteer glyph work unverified; no reader rebuild |
 | December 1992 | [9212.md](9212.md) — restoration pass complete with explicit gaps; thirty readable articles, two partials, seven groups, three section references and three unresolved identities; all 446 pages accounted; 13,097 standalone JSON/assets files independently exact; 213 tests pass |
-| March 1993 | [9303.md](9303.md) — in progress; twenty-four readable articles, no partials, four groups, three final section references, 21 unresolved identities; frame-grabber 408–415 assembled; verify information-sharing/technical-forum ownership next |
+| March 1993 | [9303.md](9303.md) — in progress; twenty-four readable articles, no partials, six groups, three final section references, 19 unresolved identities; information-sharing/technical-forum headings non-owning; partition recovery 392–393 and upper-394 batch-formatting next |
 
 | Shared scope | Records |
 | --- | --- |

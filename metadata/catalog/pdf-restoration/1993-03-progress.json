@@ -3594,23 +3594,111 @@
       "toc_entry_id": "maso-1993-03-toc-0032",
       "title": "정보나눔터",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Original contents 5 places pageless 정보나눔터 over three distinct direct rubrics: 테크니컬 마당/390, 물어보세요/396 and 컴퓨터 사전/402. Source 392 combines the information-sharing category with technical rubric; source 398 repeats it with Q&A. This is a non-owning organizational heading, with no independent or duplicate body, author, group folio or owned page range assigned.",
+        "Canonical direct-child identities 0033/0039/0040, null parent and null reference remain exact. Fourteen classification evidence files reproduce independently and in a fresh process, with eleven source-exact crops shared across both new classifications. No child article is restored or advanced.",
+        "Ten pages 4/5/391–398 directly reviewed; zero article maps, OCR or source correction passes. Prior 24 readable owner packages/12224 files remain unchanged. Full issue accounting, remaining bodies, human acceptance, exact glyphs/spacing/encoded bytes and original software recovery/execution remain unverified. No reader rebuild."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/group-0032.json",
+          "sha256": "68b09fc3d0b4c606f2f5146e8f876019f6e3ad2640a429885cfca8e141d118b2",
+          "bytes": 2482
+        },
+        "source_contents_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/contents.png",
+          "sha256": "b537dd51d1c48384c448dd533205fff4408e07d45e96c6c8873dbf42ad59f5fc",
+          "bytes": 370490
+        },
+        "source_category_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/technical-diamond.png",
+          "sha256": "b43962be984aedb51db0f61b9b35faf19251646514fd9959241333e6e1174563",
+          "bytes": 199272
+        },
+        "source_context_index": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/observed-contexts.json",
+          "sha256": "c209b87fe4c3ea8a817bcc6177988c0668dfac2ea924f826713a7bbc59f0f152",
+          "bytes": 21056
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-49/validation-complete.json",
+          "sha256": "9c6cf1c81b7f16c7138c4af3c47d889cf97512933288dbb57c97d6adfb84c92e",
+          "bytes": 1973
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-49/reproduction.json",
+          "sha256": "fe2beea810f85f4f4bbacebe4190fb1f51ccb56f0083607f143ec86690b54f1a",
+          "bytes": 3313
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false,
+        "source_related_category_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/qa-diamond.png",
+          "sha256": "99dc452add4e83b871c9f9a1b7afe02d10ec1b014f64c7e81edeb4c9b73c8706",
+          "bytes": 206887
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0033",
       "title": "테크니컬 마당",
       "parent_id": "maso-1993-03-toc-0032",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents 5 lists five distinctly titled/bylined contributions beneath 테크니컬 마당 at reference 390. Source 392/printed 390 shows the unspaced category label 테크니컬마당 above independent partition-recovery content and an editorial invitation for reader ideas, techniques and useful tips. Sources 393/394/395 retain separate closing credits and contribution titles. The rubric is a non-owning group, not an additional parent article body.",
+        "Canonical title 테크니컬 마당, parent 정보나눔터0032, reference390 and all five direct children0034–0038 remain exact. The source unspaced label is separate. Reference390 remains a contents locator, not an owned group folio or page range. Child body observations support classification only and do not advance any descendant outcome.",
+        "Observed independent contexts are partition recovery392–393 with printed 박명신, batch-formatting upper394 with 민승재, SYSEDIT lower395 with 박은주 and scanning tips lower394. Canonical scanning byline 편집부 is not invented as a printed source credit. Physical source order differs from canonical bullet order, which stays unchanged.",
+        "String-replacement child0037 was not located in the bounded technical contexts392–395. Its outcome remains unresolved; no source-wide absence, missing-source count or substitute identity is inferred. Two unlisted tips on395 are not restored or assigned to0037. Physical391/396/397 are unrelated advertisements;398 opens distinct Q&A.",
+        "Eleven original classification crops retain contents, two diamonds, editorial invitation, four titles and three credits. All14 evidence files reproduce independently/fresh-process;25 negative checks reject22 consistent metadata faults, one re-pinned altered pixel and two ownership faults. All39940 prior files/thirty core/source/TOC/queue/runtime remain exact; earlier fresh213-test evidence retained. No new article mapping/OCR/source correction, child restoration, execution or reader rebuild."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/group-0033.json",
+          "sha256": "8d68ba3bec6e3813cad41dee790a9adbe635f7e385f4425e500eb4835b907b3c",
+          "bytes": 3166
+        },
+        "source_contents_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/contents.png",
+          "sha256": "b537dd51d1c48384c448dd533205fff4408e07d45e96c6c8873dbf42ad59f5fc",
+          "bytes": 370490
+        },
+        "source_category_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/technical-diamond.png",
+          "sha256": "b43962be984aedb51db0f61b9b35faf19251646514fd9959241333e6e1174563",
+          "bytes": 199272
+        },
+        "source_context_index": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/observed-contexts.json",
+          "sha256": "c209b87fe4c3ea8a817bcc6177988c0668dfac2ea924f826713a7bbc59f0f152",
+          "bytes": 21056
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-49/validation-complete.json",
+          "sha256": "9c6cf1c81b7f16c7138c4af3c47d889cf97512933288dbb57c97d6adfb84c92e",
+          "bytes": 1973
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-49/reproduction.json",
+          "sha256": "fe2beea810f85f4f4bbacebe4190fb1f51ccb56f0083607f143ec86690b54f1a",
+          "bytes": 3313
+        },
+        "canonical_page_reference": 390,
+        "owns_standalone_body": false,
+        "source_editorial_invitation_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-49-r01/technical-introduction.png",
+          "sha256": "c64ed17fccb6f5f6d3fd868b60fe806630b27b0fd88f4bc1d655156070839c53",
+          "bytes": 521414
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0034",
@@ -5731,15 +5819,64 @@
         "sha256": "b1fdf9ea5ea109ddc399077f6dd5c86e28b6e150da040bb2b30651e606f3c0e7",
         "bytes": 94709
       }
+    },
+    {
+      "name": "1993-03-batch-49",
+      "status": "complete",
+      "completed_at": "2026-11-02T19:04:57.914549+00:00",
+      "goal": "Verify and classify information-sharing0032 and technical rubric0033 without advancing child bodies.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0032",
+        "maso-1993-03-toc-0033"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "classification_crop_source_pages": [
+        5,
+        392,
+        393,
+        394,
+        395,
+        398
+      ],
+      "outside_lookup_pages": 10,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "classification_evidence_files": 14,
+      "children_advanced": [],
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-49/validation-complete.json",
+        "sha256": "9c6cf1c81b7f16c7138c4af3c47d889cf97512933288dbb57c97d6adfb84c92e",
+        "bytes": 1973
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-49/reproduction.json",
+        "sha256": "fe2beea810f85f4f4bbacebe4190fb1f51ccb56f0083607f143ec86690b54f1a",
+        "bytes": 3313
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
     "readable": 24,
     "partial": 0,
-    "group_headings": 4,
+    "group_headings": 6,
     "section_references": 3,
-    "unresolved": 21
+    "unresolved": 19
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -5747,39 +5884,28 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-49",
-    "goal": "Verify pageless information-sharing heading 0032 and ownership/extent of technical forum 0033 at canonical reference 390.",
+    "name": "1993-03-batch-50",
+    "goal": "Restore independent partition-recovery0034 and batch-formatting0035 contributions within their observed source regions.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0032",
-      "maso-1993-03-toc-0033"
+      "maso-1993-03-toc-0034",
+      "maso-1993-03-toc-0035"
     ],
-    "mapping_targets": [],
-    "provisional_mapping_targets": [
+    "mapping_targets": [
       392,
       393,
-      394,
-      395,
-      396,
-      397
+      394
     ],
     "planned_outside_lookup_pdf_pages": [
-      4,
       5,
-      390,
       391,
-      398,
-      399,
-      400,
-      401,
-      402,
-      403
+      395
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve canonical 정보나눔터 0032 and child 테크니컬 마당 0033/reference390, with all descendant identities/bylines/parents unchanged. Do not assume either owns a body. Verify TOC, source folios, actual headings, content authorship and boundaries before classification/mapping. PDF392 is only a provisional location, not a global offset. If 0033 owns a compound body, restore at most six confirmed opening pages and defer descendant dispositions; if it is organizational, classify it non-owning with direct evidence and queue child bodies separately. Do not restore a third canonical task in this checkpoint. Hardware0031 is final. No reader rebuild."
+    "note": "Reuse retained 3000-long-edge renders. Source0034 opens392/printed390 and ends393/printed391 at 박명신 credit. Source0035 occupies upper394/printed392 and ends at 민승재 credit; independent lower scanning tips0038 must be excluded. Preserve both null canonical child page references and parent0033, without inheriting390 as a new canonical value. Keep original tables/DE screenshots/captions, commands, physical wraps and glyph/source uncertainties; no technical correction, partition repair, formatting-command execution or original software recovery. Both groups0032/0033 are final non-owning headings. Child0037 remains unlocated in the bounded review; do not substitute unlisted395 tips. No third canonical task or reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -5846,6 +5972,76 @@
       "path": "archive/pdf/1993-03/classifications/batch-38-r01/group-0025.json",
       "sha256": "9183a2f006b01e4a72f69d6af93c518b6f6fb2adf823abcd31ce307bf0139b10",
       "bytes": 3121
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/contents.png",
+      "sha256": "b537dd51d1c48384c448dd533205fff4408e07d45e96c6c8873dbf42ad59f5fc",
+      "bytes": 370490
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/format-credit.png",
+      "sha256": "b598e3125418211fc2fef751315facd3d978813b06a70213768433ee9b271243",
+      "bytes": 70061
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/format-title.png",
+      "sha256": "7b833edd3e044d5521f9fbd045fc314cb0a477ba55cb3fa6d3103c188bd9475c",
+      "bytes": 120490
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/group-0032.json",
+      "sha256": "68b09fc3d0b4c606f2f5146e8f876019f6e3ad2640a429885cfca8e141d118b2",
+      "bytes": 2482
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/group-0033.json",
+      "sha256": "8d68ba3bec6e3813cad41dee790a9adbe635f7e385f4425e500eb4835b907b3c",
+      "bytes": 3166
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/observed-contexts.json",
+      "sha256": "c209b87fe4c3ea8a817bcc6177988c0668dfac2ea924f826713a7bbc59f0f152",
+      "bytes": 21056
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/partition-credit.png",
+      "sha256": "933af031c5125636a40f56bc22b945e02f6764ed3e21cfa7c2f94dd914c93dbf",
+      "bytes": 52131
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/partition-title.png",
+      "sha256": "cae86acea15cd2662619c5a44ff6c6fb3d44983d59c38db1f895f4055bfe029e",
+      "bytes": 148084
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/qa-diamond.png",
+      "sha256": "99dc452add4e83b871c9f9a1b7afe02d10ec1b014f64c7e81edeb4c9b73c8706",
+      "bytes": 206887
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/scan-title.png",
+      "sha256": "c3c07ad8bed30947c109d0262964ad93f1e760afa57e97db04c9d3829e80ac19",
+      "bytes": 121292
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/sysedit-credit.png",
+      "sha256": "427a2c0368d58dd3ef4d62397eeda72a33070164158869afc9e363e3eeaf98fd",
+      "bytes": 82944
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/sysedit-title.png",
+      "sha256": "74ef275800e1a4b635ae997988a3c8db12348f12240f984bb07f89baa430e892",
+      "bytes": 166482
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/technical-diamond.png",
+      "sha256": "b43962be984aedb51db0f61b9b35faf19251646514fd9959241333e6e1174563",
+      "bytes": 199272
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-49-r01/technical-introduction.png",
+      "sha256": "c64ed17fccb6f5f6d3fd868b60fe806630b27b0fd88f4bc1d655156070839c53",
+      "bytes": 521414
     }
   ]
 }
