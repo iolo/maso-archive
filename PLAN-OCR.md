@@ -533,18 +533,43 @@ rehashed assembly, twelve native, two ownership and three adapter-guard cases
 reject. All 25,061 prior files and thirty core modules remain exact; earlier fresh
 213-test evidence retained.
 
-Current totals: fourteen readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 33 unresolved identities among 52. Fourteen
-current body-owner packages contain 5,614 exact files; eight classification evidence
+Batch 30 classifies pageless library heading 0020 as non-owning and preserves
+menu-library article 0021 opening PDF 292–297/printed 290–295 as a 363-file partial.
+Independent and fresh-process exports match. All 96 exact crops, 86 selected OCR
+outcomes, 2,498 typed ranges and 490 nonempty reading rows validate. Ten original
+images retain category/chronology artwork, two box screens, two header panels,
+the annotated C example and three menu illustrations; eight captions contain
+literal source text and two are null. Three code contexts preserve 130 physical
+rows, 573 tokens, 45 comment rows, two string/character literals, fourteen defines,
+ten prototypes, nine FILE members, four printed example functions, twelve unresolved
+decorative rule counts and four omission-dot rows. Two independent sidebars, three
+reference contexts, nine chronology entries/eleven rows, seven printed errata
+relationships, nineteen lexical diagram labels and four formula relationships
+remain source-local. Ten prose boundaries retain their independent contexts.
+All 86 initial drafts plus one changed-crop draft were read before one source pass.
+Forty-nine pre-OCR crop events and one pre-correction paragraph extension remain
+retained: 87 actual recognitions, 85 exact raw/TSV reuses with original execution
+provenance, zero unchanged-input retries or within/post-pass changes. Source code
+and wording defects stay literal; no repair, compilation or execution. Twenty
+rehashed native, three group and two ownership mutations reject. The two group
+files reproduce independently/fresh-process with all four canonical child links.
+All 25,872 prior files and thirty core modules remain exact; the earlier fresh
+213-test evidence is retained. Actual article extent 292–304 is individually
+reviewed: main prose ends 300 and four numbered listings end at XmTEST.C row 108
+on 304, before excluded book advertising. Final 298–304 and actual assembly remain.
+
+Current totals: fourteen readable/sample-reviewed articles, one partial, three non-owning
+groups, three section references and 31 unresolved identities among 52. Fifteen
+current body-owner packages contain 5,977 exact files; ten classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 30 classifies pageless library heading 0020 from canonical/source
-evidence and verifies menu-library article 0021 from observed PDF 292/printed 290,
-then restores up to six confirmed opening pages, provisionally 292–297. Preserve
-canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게, byline 박종천,
-parent 0020 and reference 290. Later Class(Y) reference 316 is a location lead,
-not proof of extent. Keep uninspected interior continuity explicit if a long body
-exceeds the source-review limit. No reader rebuild.
+Next: Batch 31 restores menu-library article 0021 continuation PDF 298–303.
+All thirteen body pages 292–304 have been directly reviewed. Preserve incoming
+297 문자→298 열, main-prose ending 300, two screenshots and the independent numbered
+listings. Batch 32 then restores final 304 and actually assembles all thirteen pages.
+Canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게, byline 박종천,
+parent 0020 and reference 290 remain unchanged. Class(y) reference 316 is a separate
+article location, not the menu-library ending. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
