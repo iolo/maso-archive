@@ -13,14 +13,14 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: thirty readable/sample-reviewed articles, no
-partials, seven non-owning groups, three final section references and 12 unresolved
-identities among 52. The complete PCMCIA dictionary on PDF 404–405 preserves its
-original photograph, caption, seven benefits and literal technical claims.
-Information radar is a non-owning group; its five child outcomes remain unchanged.
-The 30 body-owner packages contain 13,189 files. Next: verify domestic news and
-restore its opening six pages. Remaining bodies, 433-page accounting, cover and
-issue closeout are pending. No reader rebuild. See [March progress](docs/progress/9303.md).
+March 1993 restoration is active: thirty readable/sample-reviewed articles, one
+partial, seven non-owning groups, three final section references and 11 unresolved
+identities among 52. Domestic news has a verified ten-page extent, PDF 104–113;
+opening 104–109 is preserved in 290 exact files with separate stories, credits,
+original images and literal source claims. The 31 body-owner packages contain
+13,479 files. Next: restore final 110–113 and assemble domestic news. Remaining
+bodies, 433-page accounting, cover and issue closeout are pending. No reader rebuild.
+See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

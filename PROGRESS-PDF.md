@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: thirty readable/sample-reviewed articles, no partials,
-seven non-owning groups, three final section references and 12 unresolved identities
+March 1993 is in progress: thirty readable/sample-reviewed articles, one partial,
+seven non-owning groups, three final section references and 11 unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -681,21 +681,66 @@ spaces and encoded bytes, historical/technical truth and original hardware/softw
 behavior remain unverified. Item 0037 stays unresolved with bounded location evidence.
 No reader rebuild.
 
-Current totals: thirty readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and 12 unresolved identities among 52.
-The 30 current body-owner packages contain 13,189 exact files; 39 classification
+Batch 54 verifies domestic-network article 0042's actual ten-page extent, PDF
+104–113/individually observed printed 102–111, and preserves opening 104–109 as an
+immutable 290-file partial. Independent and fresh-process exports match. All 78
+source-exact crops, 68 outcomes, 1,610 typed ranges and 739 nonempty reading rows
+validate. Page 104 opens domestic news; 113 ends the final dictionary-software
+notice/contact and 114 independently opens overseas news. All ten body pages
+received extent/layout review. Final 110–113 and actual assembly remain required.
+Canonical title 국내네트워크, null byline/reference and parent 0041 stay unchanged.
+
+Ten separate story contexts retain nine complete news items and the opening VGA
+item. Seven reporter credits remain local, including two independent 박은숙 credits;
+three vertical photo credits are separately transcribed from upright source views.
+Organization labels and reporter/photo credits are distinct from article authorship.
+Intrinsic 동향 contains stories 01–07; 신제품 starts story 08 and continues beyond
+this native. No new canonical children or duplicate radar body are created.
+
+Ten original images preserve five photographs/cover/printer panels, three radar
+marks and two section banners. Five literal captions and five null captions validate.
+Twenty-eight prose boundaries, four across pages, retain source order, both original
+contexts and intervening graphics. Physical 소프트/웨어, 시/장, 아이디/어, 프/린터,
+WYSIW/YG, phone 587-/3884 and 180장까/지 splits remain explicit. The ambiguous
+517/3ms boundary has no inferred separator or numeric value; the fragments remain
+separate. Final native fragment 특징이 continues on 110 and is not an article ending.
+
+Ninety-four source-local candidates preserve uncertain names and historical glyphs,
+254KB, two DARM occurrences, 상무부은, 상부부, 컬리, EPS versus ESP, 7MPP (Minute
+Per Page), 65,000 colors and historical prices/claims without spelling, grammar,
+arithmetic or technical repair. The historical HWP glyph is a Unicode approximation;
+original glyphs and encoded bytes are not certified. All 68 complete drafts were
+read before one source correction pass: 68 initial kor+eng calls, four pre-OCR crop
+events, zero retries or correction-stage/post-pass changes. Final text crops are
+disjoint with zero threshold-130 crossings after direct color review, including a
+pale first row missed by the threshold. All source views, raw drafts, maps, failed
+initial schema preparation and saved readings remain.
+
+Thirteen source pages were directly reviewed: six mapped and seven outside lookups
+5/103/110–114. Twenty-four negative checks reject 22 rehashed native faults and two
+canonical ownership faults. All 40,931 prior files, thirty core modules and source/
+TOC/queue/runtime pins remain exact; the earlier fresh 213-test baseline is retained.
+Full proofreading, human acceptance, exact spaces/glyphs/encoded bytes, historical/
+technical truth and original hardware/software behavior remain unverified. Item 0037
+stays unresolved with bounded location evidence. No reader rebuild.
+
+Current totals: thirty readable/sample-reviewed articles, one partial, seven
+non-owning groups, three section references and 11 unresolved identities among 52.
+The 31 current body-owner packages contain 13,479 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 54 verifies domestic-network article 0042 from its independently
-observed opening PDF 104/printed 102 and preserves only opening 104–109. Directly
-review 110–113 and the following overseas opening 114/112 to establish ending and
-interior continuity. Candidate full extent 104–113 is not yet certified. Preserve
-independent news stories, intrinsic 동향/신제품 sections, story credits, original
-photos/captions and source errors. Later pages and actual assembly are separate
-checkpoints. Canonical title 국내네트워크, parent 0041 and null byline/reference
-stay unchanged. Do not advance another radar child from source observations.
-Two tasks, six total mapped pages and twenty outside lookups remain ceilings.
-Item 0037 stays unresolved. No execution or reader rebuild.
+Next: Batch 55 restores final domestic-news pages 110–113 and actually assembles
+all ten pages 104–113 from independently regenerated immutable natives. Reuse the
+retained renders and verified extent. Preserve the incoming VGA continuation
+109 특징이→110 다, subsequent independent product notices, original photographs/
+screens/captions, contacts, prices, historical claims and source errors. Final 113's
+dictionary-software notice/contact precedes independent overseas news on 114.
+Retain the opening native's story, credit, caption, section, boundary and uncertainty
+indexes, including separate 517/3ms fragments. Resolve its historical partial notes
+externally without rewriting the native. Canonical null byline/reference and parent
+0041 remain exact; other radar children stay unchanged. Four mapped pages fit the
+six-page ceiling; two tasks and twenty outside lookups remain ceilings. No product
+execution/recovery or reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
