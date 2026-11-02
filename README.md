@@ -13,11 +13,11 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: fifteen readable/sample-reviewed articles, one
-partial, three non-owning groups, three final section references and 30 unresolved
-identities among 52. Class(Y) opening PDF 318–323 has 367 verified files; the actual
-article ends on 328. Sixteen current body-owner packages contain 6,593 files.
-Next: restore final Class(Y) pages 324–328 and assemble the complete article.
+March 1993 restoration is active: sixteen readable/sample-reviewed articles, no
+partials, three non-owning groups, three final section references and 30 unresolved
+identities among 52. The complete Class(Y) article on PDF 318–328 has 552 verified
+files, assembled from two independently regenerated natives. Sixteen current
+body-owner packages contain 6,778 files. Next: verify Halla Pro(2) from PDF 330.
 Remaining bodies, 433-page accounting, cover and issue closeout are pending.
 See [March progress](docs/progress/9303.md).
 

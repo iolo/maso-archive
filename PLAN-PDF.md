@@ -664,19 +664,42 @@ mutations reject. All 27,310 prior files and thirty core modules remain exact;
 the earlier fresh 213-test evidence is retained. Final 324–328 and actual assembly
 remain required. No code repair, compilation, execution or reader rebuild.
 
-Current totals: fifteen readable/sample-reviewed articles, one partial, three non-owning
+Batch 34 preserves Class(Y) final PDF 324–328 as a 176-file native and actually
+assembles the complete eleven-page article, 318–328/printed 316–326. All 552 assembly
+files match an export consuming two independently regenerated natives totaling
+543 files and a fresh-process rebuild. All 150 exact crops, 125 outcomes, 9,806
+native metadata projections, 19,507 current typed ranges/19,362 source occurrences
+and 949 source reading rows validate. Every projected field retains its native
+context; original text, code, metadata and assets remain exact. One 323 Pu→324
+llDnMenu prose join retains both original regions. Main ends 325 with a separate
+ornament; six numbered listings end at MENUDEMO.PRG row 66 on 328 above excluded
+book advertising. Fourteen code contexts preserve 463 physical/460 logical rows,
+including 346 visible numbered rows, 72 numbered blanks, eighteen unnumbered blanks
+and twelve wrap groups. Listing 6 jumps from printed 41 to 43; no row 42 or missing
+content is invented. All 2,272 tokens, 62 comment rows, 33 string literals, 52 printed
+function contexts and seven class declarations remain indexed. Two damaged keyword
+glyphs remain explicitly unresolved. Five menu initializers retain fourteen labels
+and their callback/submenu occurrences. Twenty-five original images have eight
+literal captions and seventeen null captions. All 62 diagram labels, three menu
+definitions, thirteen internal prose/seven code boundaries and source claims remain
+separate. Final native adds 39 initial recognitions, all drafts fully read before
+one continuing source pass. Four pre-OCR crop repairs; zero retries or within/post-pass
+changes. Seventeen rehashed native, sixteen rehashed assembly, three adapter and two
+ownership cases reject. All 27,677 prior files and thirty core modules remain exact;
+the earlier fresh 213-test evidence is retained. No code repair, compilation,
+execution or reader rebuild.
+
+Current totals: sixteen readable/sample-reviewed articles, no partials, three non-owning
 groups, three section references and 30 unresolved identities among 52. Sixteen
-current body-owner packages contain 6,593 exact files; ten classification evidence
+current body-owner packages contain 6,778 exact files; ten classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 34 restores final Class(Y) pages 324–328 as immutable native b, then
-actually assembles the complete eleven-page article 318–328 from independently
-regenerated natives. Verify both original Pu→llDnMenu contexts across 323–324.
-Preserve main ending 325, all six numbered Clipper listings through final row 66
-on 328, Korean comments, number columns, blank rows and source defects. Lower 328
-book advertising is excluded; 329 is a full-page book advertisement and 330 is a
-distinct Halla Pro opener. Namespace every custom source context during assembly.
-No reader rebuild.
+Next: Batch 35 verifies Halla Pro(2) article 0023 from the observed PDF 330/printed
+328 opener, establishes its actual ending and restores up to six confirmed opening
+pages, provisionally 330–335. Preserve canonical title 한글 구이의 터보 해결사, 한라 프로(2) :
+한라 프로의 초기화와 문자 입출력 함수, byline 임인건, parent 0020 and reference 328.
+Do not infer its ending from CMDLN's contents reference 342 or a global PDF offset;
+keep any uninspected interior continuity explicit. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the

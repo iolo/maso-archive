@@ -2340,23 +2340,24 @@
       "parent_id": "maso-1993-03-toc-0020",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical title and 임지열 credit identify Class(y) opening PDF 318/printed 316 under library group 0020. The distinct OOP article on 306 is not substituted. The actual ending is observed on 328, not inferred from contents reference 328 for another article.",
-        "Opening 318–323 is a verified 367-file partial native: 100 exact crops, 86 OCR outcomes, 2496 typed range occurrences, 458 reading rows and fourteen original images. Final 324–328 and actual eleven-page assembly remain pending.",
-        "Eight independent code contexts, thirteen printed function bodies, repeated constructor/declaration snippets, three physical wraps, sixty-two diagram labels and ten prose boundaries retain occurrence-specific ranges. Original defects and unresolved glyph candidates are not repaired.",
-        "All 86 initial drafts precede one source pass. Twenty-four altered-data/ownership cases reject. All 27310 prior files and thirty core modules are exact; full original recovery and human acceptance remain unverified."
+        "Canonical Class(Y), 임지열 credit, parent0020 and reference316 identify the article on318–328. Printed title uses Class(y). The OOP article on306 is canonical0026 and is not substituted for this body.",
+        "Actual complete eleven-page assembly552 files consumes two independently regenerated natives543 files and matches a fresh process. Main ends325; six numbered listings end328 at66 above excluded book advertising. All11 source folios316–326 are individually observed.",
+        "All150 crops,125 outcomes,9806 projections,19507 current ranges/19362 source occurrences and949 reading rows validate. One exact Pu→llDnMenu join retains both original source contexts. All native assets, text and metadata remain unchanged.",
+        "Fourteen code contexts,463 physical/460 logical rows,346 visible numbered rows,2272 tokens,62 comment rows,33 literals,52 printed function contexts,7 class declarations and5 menu initializers/14 labels remain indexed. Missing printed row42 and2 damaged keyword glyphs stay unresolved; no inferred content or code repair.",
+        "Twenty-five originals/eight literal captions,62 diagram labels,three definitions and source claims remain separate. Final39 drafts precede one source pass;zero retries.38 invalid-data/ownership/adapter cases reject;27677 prior files and30 core modules remain exact."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-33-r01/classy-a",
+        "directory": "archive/pdf/1993-03/packages/classy-r01",
         "article_id": "scan-maso-1993-03-toc-0022",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-33-r01/classy-a/manifest.json",
-          "sha256": "37154850f29be4fdeee48446472d7724663d010e7a69be88eaaf2f98d2d00fe0",
-          "bytes": 62316
+          "path": "archive/pdf/1993-03/packages/classy-r01/manifest.json",
+          "sha256": "543f27c3eec662819cccfe0a84d631de07ae2a1aca9893165d15fd14b4aab210",
+          "bytes": 99287
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -2365,7 +2366,12 @@
             320,
             321,
             322,
-            323
+            323,
+            324,
+            325,
+            326,
+            327,
+            328
           ],
           "printed_pages": [
             "316",
@@ -2373,63 +2379,93 @@
             "318",
             "319",
             "320",
-            "321"
+            "321",
+            "322",
+            "323",
+            "324",
+            "325",
+            "326"
           ],
-          "regions": 100,
-          "blocks": 86,
-          "figures": 14,
-          "deferred_pdf_pages": [
-            324,
-            325,
-            326,
-            327,
-            328
-          ],
+          "regions": 150,
+          "blocks": 124,
+          "figures": 25,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 328,
         "actual_prose_end_pdf_page": 325,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-33/validation-complete.json",
-          "sha256": "53769af8a04f48bbfe3cb968216799c8fc38a1785fc7ad3a45c1013927e0a033",
-          "bytes": 2159
+          "path": "archive/pdf/1993-03/restoration/batch-34/validation-complete.json",
+          "sha256": "88a2d415c82615545816a0e9c5fb2d3ac7c1b18a4407ebd958fe3be33beffd81",
+          "bytes": 2927
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-33/native-reproduction.json",
-          "sha256": "b419e4280231135497d6276395e40611fc2ea3d84cfd529513935e4b50406452",
-          "bytes": 62808
+          "path": "archive/pdf/1993-03/restoration/batch-34/reproduction.json",
+          "sha256": "fd380ef1a87ca5ec5394c5915cac9ae58ef1fc4f6efe3ae1e535437a63b8b8bd",
+          "bytes": 100754
         },
-        "recipe": {
-          "path": "archive/pdf/1993-03/restoration/batch-33/classy-a-r02/package-recipe.json",
-          "sha256": "fcc6b5cda4094b2edf86c820c00769c84efb9b2affaab44e0a7b5ac6f5b767d3",
-          "bytes": 14448
-        },
-        "checkpoint": "batch-33",
+        "checkpoint": "batch-34",
+        "source_native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-33-r01/classy-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-33-r01/classy-a/manifest.json",
+              "sha256": "37154850f29be4fdeee48446472d7724663d010e7a69be88eaaf2f98d2d00fe0",
+              "bytes": 62316
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-33/classy-a-r02/package-recipe.json",
+              "sha256": "fcc6b5cda4094b2edf86c820c00769c84efb9b2affaab44e0a7b5ac6f5b767d3",
+              "bytes": 14448
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-34-r01/classy-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-34-r01/classy-b/manifest.json",
+              "sha256": "ce5a8140394dcc958d42c52bbf54095412a86fcb81cd8b868ea7a01713fabf21",
+              "bytes": 29744
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-34/classy-b-r02/package-recipe.json",
+              "sha256": "89ebbb4639e245a1834b4798f47b74e31817fb823e89f57990c8f1a9f8d8ee95",
+              "bytes": 9299
+            }
+          }
+        ],
         "full_source_extent": {
           "start_pdf_page": 318,
           "end_pdf_page": 328,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-34/source-review-completed.json",
+            "sha256": "fef9f6a8c69cf9633d72f1843314a9c5ff19f7dab020ce0f0050ca351f6629bf",
+            "bytes": 4084
+          },
+          "opening_source_observations": {
             "path": "archive/pdf/1993-03/restoration/batch-33/source-review-completed.json",
             "sha256": "da76024d276f0af0db070cef97d5f711cf4aee6c98348887068f45dcf44421cf",
             "bytes": 4605
           },
-          "note": "All eleven body pages received direct layout/extent review. Current six folios 316–321 individually observed. Main ends with the ornament on 325; six numbered listings end with MENUDEMO.PRG row 66 on 328, above excluded book advertising. 329 is a full-page book advertisement; 330 is the distinct Halla Pro opener. This is extent evidence, not restoration of deferred 324–328 or full proofreading. No global folio offset inferred."
+          "note": "All eleven body pages are actually assembled from independently regenerated natives. Folios316–326 are individually observed across both checkpoints. Main ends325 with a separate ornament; all six numbered listing contexts end328 at MENUDEMO.PRG row66 above excluded book advertising. Printed listing6 row42 is absent between41 and43; no missing content is inferred. 329 is book advertising;330 is the distinct Halla Pro opener. No global PDF/folio offset is inferred."
         },
         "notes": [
-          "The 367-file opening native covers only 318–323. Final 324–328 and actual eleven-page assembly remain required. Two independent exports and a fresh-process rebuild match exactly.",
-          "All 100 crops, 86 outcomes, 2496 typed range occurrences and 458 nonempty reading rows validate. Fourteen original images include twelve code/category panels without invented captions and two diagrams with literal display captions.",
-          "Eight code contexts preserve 117 physical/114 logical rows, eighteen blank rows, three wraps, 642 tokens, five comments, six literals, three include rows, two class declarations and thirteen printed function bodies. Repeated syntax examples retain separate occurrences; code bytes are not repaired or executed.",
-          "Figure 1 has eight menu labels. Figure 2 has five class compartments, ten instance variables, twenty-four methods, fifteen field headings, two explicitly empty instance fields, two stars and four directed connectors. The item-reference connector remains distinct from three inheritance connectors. Sixty-two diagram labels remain source-local.",
-          "Three menu terminology entries, ten prose boundaries and three code boundaries remain explicit. Main 322 세 가→지 crosses the independent Figure 1; 323 동→작 crosses Figure 2. Outgoing Pu→llDnMenu on 324 remains deferred.",
-          "Canonical Class(Y), byline 임지열, parent 0020 and reference 316 remain unchanged; source Class(y) title and independent editorial deck remain separate. The earlier OOP article on 306 is a distinct canonical body.",
-          "All 86 initial drafts were fully read before one continuing literal source pass. Eleven pre-OCR crop repairs and one notation kind clarification are retained. Eleven English and 75 Korean/English recognitions; zero retries or within/post-pass changes.",
-          "Printed rectangle.prg/rectangl.prg/rectangl differences, nextCol는, class/self claims and code/prose wording remain. Constructor ),: punctuation has unresolved alternatives in two separate occurrences; unmarked physical wrap is not repaired. Glyphs, exact spaces/encoded bytes, full proofreading, human acceptance and execution remain unverified.",
-          "Twenty-two rehashed native cases and two ownership cases reject. All 27310 prior files, thirty core modules and source/TOC/queue/runtime pins remain exact. The earlier fresh 213-test result is retained; no reader work."
+          "Actual eleven-page assembly552 files reproduces from two independently regenerated natives543 files and a fresh-process rebuild. All125 native text blocks retain exact bytes; one Pu→llDnMenu prose join yields124 current blocks. Original native partial scopes remain historical.",
+          "All150 crops,125 outcomes,9806 native projected ranges,19507 current typed range occurrences/19362 source occurrences and949 source reading rows validate. Every native metadata field retains its source context; all1060 root/native ZIP members are safe, CRC-valid and byte-exact.",
+          "Fourteen independent code contexts retain463 physical/460 logical rows:117 opening unnumbered rows and346 visible numbered rows across six listings with final labels48/76/44/68/45/66. Seventy-two numbered blanks, eighteen unnumbered blanks and twelve wrap groups remain explicit. Listing6 printed42 is absent, not an inferred blank or recovered code row.",
+          "All2272 tokens,62 printed comment rows,33 string literals,52 printed function contexts and seven class declarations retain source occurrences. Two damaged final keyword glyphs have explicit unresolved markers. Code comments and other source defects, including a missing visible star in the listing5 closing comment delimiter, remain literal. No repair, compilation or execution.",
+          "Five menu initializers keep fourteen explicit labels and their callback/submenu source references. Repeated labels and constructor examples remain tied to their own physical occurrences. Source strings retain candidate spacing without an exact whitespace or byte claim.",
+          "Twenty-five original images preserve category artwork, code panels, two diagrams and closing ornament. Eight captions contain literal display text; seventeen are null. Sixty-two diagram labels, five class compartments, two empty instance fields, two stars, four connectors, three menu definitions, thirteen internal prose/seven code boundaries and one cross-native prose join retain source contexts.",
+          "Canonical Class(Y), byline 임지열, parent0020/reference316 remain unchanged. Source Class(y), independent editorial deck, standalone message notation, filename/wording variants, old-araea glyph candidate and class/self/instance-variable claims remain separate and uncorrected.",
+          "Final native adds39 initial recognitions, all drafts fully read before one continuing source pass. Four pre-OCR crop repairs; zero retries, changed-input recognition or within/post-pass changes. Opening native is not recognized or corrected again.",
+          "The first build helper referenced an old adapter filename while recording reproduction after both assemblies and regenerated natives were complete. Fresh report helper reuses exact completed outputs. Initial audit variable shadow is corrected in a fresh retained audit helper. No package, source reading or OCR changes were made for either helper repair.",
+          "Seventeen rehashed native, sixteen rehashed assembly, three adapter and two ownership cases reject. All27677 prior files, thirty core modules and source/TOC/queue/runtime pins are exact. The earlier fresh213-test evidence is retained. Full proofreading, human acceptance, glyph/spacing/encoded bytes, historical accuracy and execution remain unverified."
         ]
       }
     },
@@ -3986,12 +4022,53 @@
         "sha256": "b419e4280231135497d6276395e40611fc2ea3d84cfd529513935e4b50406452",
         "bytes": 62808
       }
+    },
+    {
+      "name": "1993-03-batch-34",
+      "status": "complete",
+      "completed_at": "2026-11-02T07:24:50.736784+00:00",
+      "goal": "Restore final Class(y)324–328 and actually assemble the complete eleven-page article318–328 from independently regenerated natives.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0022"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        324,
+        325,
+        326,
+        327,
+        328
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        318,
+        323,
+        329,
+        330
+      ],
+      "recognition_invocations": 39,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 4,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-34/validation-complete.json",
+        "sha256": "88a2d415c82615545816a0e9c5fb2d3ac7c1b18a4407ebd958fe3be33beffd81",
+        "bytes": 2927
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-34/reproduction.json",
+        "sha256": "fd380ef1a87ca5ec5394c5915cac9ae58ef1fc4f6efe3ae1e535437a63b8b8bd",
+        "bytes": 100754
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 15,
-    "partial": 1,
+    "readable": 16,
+    "partial": 0,
     "group_headings": 3,
     "section_references": 3,
     "unresolved": 30
@@ -4002,43 +4079,40 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-34",
-    "goal": "Restore final Class(y) pages 324–328 as immutable native b, then actually assemble the complete eleven-page article 318–328 from independently regenerated natives.",
+    "name": "1993-03-batch-35",
+    "goal": "Verify Halla Pro(2) article0023 from observed PDF330/printed328 opener, establish its actual ending and preserve up to six confirmed opening pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0022"
+      "maso-1993-03-toc-0023"
     ],
-    "mapping_targets": [
-      324,
-      325,
-      326,
-      327,
-      328
-    ],
-    "actual_source_extent_pdf_pages": [
-      318,
-      319,
-      320,
-      321,
-      322,
-      323,
-      324,
-      325,
-      326,
-      327,
-      328
+    "canonical_page_reference": 328,
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      330,
+      331,
+      332,
+      333,
+      334,
+      335
     ],
     "planned_outside_lookup_pdf_pages": [
-      318,
-      323,
       329,
-      330
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Verify both original Pu→llDnMenu contexts across 323–324. Main closes on 325; preserve all six numbered Clipper listings through MENUDEMO.PRG row 66 on 328, above excluded advertising. Preserve number columns, blank rows, Korean comments, code defects and unresolved punctuation; no execution. Namespace every custom field/range/class/function/diagram/figure/caption/line reference and retain source occurrence contexts during actual assembly. 329 is book advertising and 330 is a separate Halla opener. No reader rebuild."
+    "note": "Preserve canonical title 한글 구이의 터보 해결사, 한라 프로(2) : 한라 프로의 초기화와 문자 입출력 함수, byline임인건, parent0020/reference328. Opener330 is directly observed; verify actual ending without inferring from CMDLN reference342 or a global PDF offset. Keep any unreviewed interior continuity explicit. No code repair/execution or reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
