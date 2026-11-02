@@ -800,19 +800,55 @@ all five child identities remain unchanged. No group body/byline/folio or Window
 restoration is invented. Full proofreading and human acceptance remain pending.
 No reader rebuild.
 
-Current totals: eighteen readable/sample-reviewed articles, one partial, four non-owning
+Batch 39 restores final OOP PDF 312–317 and actually assembles all twelve pages
+306–317/individually observed printed 304–315. The 537-file root reproduces from both
+independently regenerated natives/528 files and in a fresh process. All 150 crops,
+120 outcomes, 12,846 metadata projections, 25,588 current typed ranges/25,452 source
+occurrences and 1,366 indexed source rows validate. One 311→312 prose join retains
+two intervening category items and both original contexts. Main prose ends 313
+with a separate MS ornament; four numbered listings continue through 317.
+All 505 numbered rows remain: OBJECT.CH 1–26, OOPDEMO.PRG 1–96, OBJECT.PRG 1–117
+and PICKLIST.PRG 1–266. Listing downloads preserve number columns and 86 numbered
+blanks. Nine code contexts retain 524 physical rows, 435 nonblank rows and three
+unnumbered display gaps. The final native records 374 logical listing groups and
+47 wraps; the opening examples retain fourteen nonblank rows separately. All 4,573
+code tokens, 88 quoted-literal candidates, 130 comments including seventeen Korean
+rows, seven includes, 23 macros and eleven printed function bodies retain source
+occurrences. Deonstration/Pseduo spelling, identifier case, unquoted color tokens,
+string-continuation defect, missing-semicolon candidates and PickList2 remain literal.
+Five descriptive templates retain twenty rows, fourteen parameter placeholders,
+four private/exported occurrences and their split-constructor boundary. Thirty
+original images have four literal captions and 26 null captions. Twenty internal
+prose boundaries, eight code continuations, quoted anecdote/bibliography, monthly-disk
+unavailability notice, OCR-missed heading row, eleven resolved listing references
+and all 257 source-local candidates remain explicit. Final listing 4 row 266 `중략`
+is a printed omission after EOF 264 and blank 265. No omitted program content is
+reconstructed; article completeness as printed does not certify software recovery.
+Final native adds 44 initial plus one pre-correction changed-crop recognition;
+43 raw/TSV outcomes are reused exactly with their actual execution origins. All
+45 drafts read before one continuing source pass; six pre-OCR crop events, zero
+unchanged-input retries or within/post-pass changes. Direct review found whole
+letters beyond a zero-crossing crop; one widening restores comment 176's final
+word string. The initial map-helper schema error remains retained. Twenty rehashed
+native faults, twenty assembly faults, three self-consistent projection faults and
+two ownership faults reject. All 32,978 prior files and thirty core modules remain
+exact; earlier fresh 213-test evidence retained. Full proofreading, human acceptance,
+exact glyphs/spacing/encoded bytes, historical claims, original software recovery
+and execution remain unverified. No reader rebuild.
+
+Current totals: nineteen readable/sample-reviewed articles, no partials, four non-owning
 groups, three section references and 26 unresolved identities among 52. Nineteen
-current body-owner packages contain 9,230 exact files; thirteen classification evidence
+current body-owner packages contain 9,442 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 39 restores final OOP article 0026 pages PDF 312–317, then actually
-assembles all twelve pages 306–317 from independently regenerated immutable natives.
-Reuse the retained renders. Verify incoming prose from 311 and preserve all four
-numbered listings, including the printed final `중략` omission without invented rows,
-repairs or execution. Namespace every template/code/reference/candidate context;
-opening native partial notes remain historical. Group 0025 is final; Windows-tools
-0027 remains separate. The ceilings remain two canonical tasks, six mapped pages
-and twenty outside lookups. No reader rebuild.
+Next: Batch 40 verifies article 0027, 잘 알려지지 않은 유용한 윈도우즈 툴, by 김강훈,
+from its known PDF 350 opener/reference 348. Establish actual continuity and ending,
+then map up to six confirmed opening pages, provisionally 350–355. Reuse retained
+350–352 renders where available. Do not infer the ending from the next contents
+reference. Preserve original screenshots, literal captions and searchable labels
+with honest miniature-text/data limits. Group 활용 is final; public-software 0028
+remains separate. The ceilings remain two canonical tasks, six mapped pages and
+twenty outside lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the

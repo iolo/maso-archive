@@ -2773,24 +2773,24 @@
       "parent_id": "maso-1993-03-toc-0025",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical title클리퍼에 밀려오는 OOP 물결,byline임지열,parent0025/reference304 unchanged. Actual twelve-page body306–317/individually observed printed304–315;main prose ends313 and four numbered listings continue through317. Final printed line266중략 is an omission,not recoverable invented content.",
-        "Only opening306–311 restored as immutable325-file native,independently/fresh-process exact. All88 crops,76 outcomes,1613 typed ranges and691 nonempty source rows validate. Final312–317 had extent/layout review only;actual twelve-page assembly remains required.",
-        "Twelve originals have null captions. Three code contexts retain16 physical rows,14 nonblank/logical rows,two display-gap blanks,127 tokens,six source result comments,seven calls and one printed MakeBlock function. Original2x,block:x(2),Makeblock case and final unanswered?block1:eval remain literal. No repair,compilation or execution.",
-        "Five descriptive templates across six prose regions retain20 rows,14 parameter placeholders and four private/exported member occurrences. Inherited constructor continues left→right across its original panel. Templates are not executable programs.",
-        "Thirty-six rehashed native faults pass generic integrity and reject in independent source audit;six group and two ownership faults also reject. All32650 prior files,thirty core modules,source/TOC/queue/runtime and earlier fresh213-test evidence exact. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims and software behavior unverified. No reader rebuild."
+        "Actual complete twelve-page OOP article306–317/individually observed printed304–315,assembled from two independently regenerated immutable natives/528files. Canonical title,byline임지열,parent0025/reference304 unchanged. Current537-file root independently/fresh-process exact;both native partial scopes remain historical.",
+        "All150 crops,120 outcomes,12846 metadata projections,25588 current typed ranges/25452 source occurrences and1366 source rows validate. One311→312prose join retains original contexts,two intervening category artwork/text items and one declared display space. Main prose ends313with separateMSornament;four numbered listings continue through317.",
+        "All505numbered rows acrossOBJECT.CH1–26,OOPDEMO.PRG1–96,OBJECT.PRG1–117 andPICKLIST.PRG1–266 remain. Printed number columns and86numbered blanks are retained inlisting.txt. Nine code contexts have524physical rows,435nonblank physical rows andthree unnumbered display gaps. Final-native listing logical index retains374groups/47wraps;opening examples retain their own14nonblank rows. No code execution or source-file recovery.",
+        "Quoted anecdote/bibliography,monthly-disk unavailability notice,source heading row missed byOCR,eleven resolved listing mentions andall257source-local candidates remain. Final listing4row266중략 is an explicit printed omission after264EOF/265blank. No omitted program code is reconstructed;article completeness as printed is separate from original software recovery.",
+        "Twenty rehashed native faults pass generic integrity and reject in independent source audit;twenty assembly faults,three self-consistent projection namespace faults andtwo canonical ownership faults also reject. All32978prior files,thirty core modules andsource/TOC/queue/runtime exact;earlier fresh213-test evidence retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims,original software recovery and execution remain unverified. No reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-38-r01/oop-a",
+        "directory": "archive/pdf/1993-03/packages/oop-r01",
         "article_id": "scan-maso-1993-03-toc-0026",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-38-r01/oop-a/manifest.json",
-          "sha256": "ae613ff32dcf1e97bb8a0811208341e43db61b320aa00217e5b246afe2330735",
-          "bytes": 54736
+          "path": "archive/pdf/1993-03/packages/oop-r01/manifest.json",
+          "sha256": "f293ddb3930ea3178e53bad74a6ec2fe076c9602f69de036de845a3a00e17753",
+          "bytes": 96455
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -2799,20 +2799,7 @@
             308,
             309,
             310,
-            311
-          ],
-          "printed_pages": [
-            "304",
-            "305",
-            "306",
-            "307",
-            "308",
-            "309"
-          ],
-          "regions": 88,
-          "blocks": 76,
-          "figures": 12,
-          "deferred_pdf_pages": [
+            311,
             312,
             313,
             314,
@@ -2820,61 +2807,127 @@
             316,
             317
           ],
+          "printed_pages": [
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315"
+          ],
+          "regions": 150,
+          "blocks": 119,
+          "figures": 30,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 317,
         "actual_prose_end_pdf_page": 313,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-38/validation-complete.json",
-          "sha256": "2ce69468ba3fe622254d8c2ec92e523c95917c473baa543510d48036ca4596d0",
-          "bytes": 2861
+          "path": "archive/pdf/1993-03/restoration/batch-39/validation-complete.json",
+          "sha256": "ed9d2ed077168bbdf4d6134e678e645da8215c9c7fd24ae4da0a4fc873a4e86e",
+          "bytes": 4693
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-38/native-reproduction.json",
-          "sha256": "e227834e3e3f416b5fccc19902da2e1403a8d00169df945d1066557a1ea9a2e4",
-          "bytes": 55915
+          "path": "archive/pdf/1993-03/restoration/batch-39/reproduction.json",
+          "sha256": "c5775ad41a2b0f5445c888fd1255320c0e50b2563081405ead05e1553116a934",
+          "bytes": 97909
         },
         "recipe": {
-          "path": "archive/pdf/1993-03/restoration/batch-38/oop-a-r03/package-recipe.json",
-          "sha256": "da809e9064ad82f18008ce6be9344ebf555779fd6762e7ffeeb1520295f3bcff",
-          "bytes": 12996
+          "path": "archive/pdf/1993-03/restoration/batch-39/assembly-recipe.json",
+          "sha256": "f38151b67f888b1ae225e289d57a9f6a1eb4df3ac3bc4df080008ab3158b1086",
+          "bytes": 4533
         },
-        "checkpoint": "batch-38",
+        "adapter": {
+          "path": "archive/pdf/1993-03/restoration/batch-39/oop_adapter.py",
+          "sha256": "89be36e0cfea271b7ec8775635e1c45a229f831f74e319d6e279ef282aa4b409",
+          "bytes": 18147
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1993-03/restoration/batch-39/adapter-inputs.json",
+          "sha256": "bef8e3992e136145a57c75b54c95a2f1f881418c2488120c8d2cee25c0596d4d",
+          "bytes": 9430
+        },
+        "checkpoint": "batch-39",
+        "native_inputs": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-38-r01/oop-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-38-r01/oop-a/manifest.json",
+              "sha256": "ae613ff32dcf1e97bb8a0811208341e43db61b320aa00217e5b246afe2330735",
+              "bytes": 54736
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-38/oop-a-r03/package-recipe.json",
+              "sha256": "da809e9064ad82f18008ce6be9344ebf555779fd6762e7ffeeb1520295f3bcff",
+              "bytes": 12996
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-39-r01/oop-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-39-r01/oop-b/manifest.json",
+              "sha256": "6d2bfbf76659ceee42224d8f8c17f0ced046709d1b98f11a8cf73b749eb24ca6",
+              "bytes": 34655
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-39/oop-b-r04/package-recipe.json",
+              "sha256": "4a0325e456ee4369e761926d8306df2d14281b958633f16d32527029cae7abeb",
+              "bytes": 12340
+            }
+          }
+        ],
         "full_source_extent": {
           "start_pdf_page": 306,
           "end_pdf_page": 317,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-39/source-review-completed.json",
+            "sha256": "85132987dfff1bdbe7a214ac0aff15c91205292126a50d6f2d463519ad0c8687",
+            "bytes": 4709
+          },
+          "opening_source_observations": {
             "path": "archive/pdf/1993-03/restoration/batch-38/source-review-completed.json",
             "sha256": "65e9eee59ed29fb616461511f5b567388b7ed65d91e2c4b0d18e1d5935e44a51",
             "bytes": 5480
           },
-          "note": "All12 pages extent/layout-reviewed;only306–311 source-corrected.312–317 and actual assembly required. Main ends313;listing4 ends317 with printed중략 before publisher advertising;Class(y)318 is distinct."
+          "note": "All twelve pages restored as printed;main prose closes313 andfour numbered listings continue through317. Final printed중략 omission is retained,lower317publisher advertisement excluded,and318Class(y)isdistinct. No global PDF/folio offset inferred."
         },
         "source_listing_scope": {
-          "current_example_contexts": 3,
-          "numbered_listing_bodies_deferred": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "printed_omission_observed_pdf_page": 317,
+          "numbered_listings": 4,
+          "printed_numbered_rows": 505,
+          "blank_numbered_rows": 86,
+          "printed_number_columns_retained": true,
+          "physical_code_rows": 524,
+          "nonblank_code_rows": 435,
+          "blank_unnumbered_rows": 3,
+          "printed_omission_pdf_page": 317,
+          "printed_omission_line": 266,
           "omitted_program_content_recovered": false,
+          "original_program_files_recovered": false,
           "source_program_execution_verified": false
         },
         "notes": [
-          "Canonical title클리퍼에 밀려오는 OOP 물결,byline임지열,parent0025/reference304 unchanged. Actual twelve-page body306–317/individually observed printed304–315;main prose ends313 and four numbered listings continue through317. Final printed line266중략 is an omission,not recoverable invented content.",
-          "Only opening306–311 restored as immutable325-file native,independently/fresh-process exact. All88 crops,76 outcomes,1613 typed ranges and691 nonempty source rows validate. Final312–317 had extent/layout review only;actual twelve-page assembly remains required.",
-          "Twelve originals have null captions. Three code contexts retain16 physical rows,14 nonblank/logical rows,two display-gap blanks,127 tokens,six source result comments,seven calls and one printed MakeBlock function. Original2x,block:x(2),Makeblock case and final unanswered?block1:eval remain literal. No repair,compilation or execution.",
-          "Five descriptive templates across six prose regions retain20 rows,14 parameter placeholders and four private/exported member occurrences. Inherited constructor continues left→right across its original panel. Templates are not executable programs.",
-          "Fourteen prose boundaries and outgoing311→312 retain original contexts. Quoted anecdote and physically hyphenated bibliography remain separate from canonical credit. Monthly-disk notice says the example is not supplied;eleven listing mentions do not claim recovered bodies. Two filenames,two Class(y) references and17 version occurrences remain literal.",
-          "All76 initial drafts fully read before one continuing source pass;27 pre-OCR crop events across three maps,zero retries or within/post-pass changes. OCR-omitted second heading row309 restored from unchanged scan without new recognition. All36 source-local candidates retained.",
-          "Thirty-six rehashed native faults pass generic integrity and reject in independent source audit;six group and two ownership faults also reject. All32650 prior files,thirty core modules,source/TOC/queue/runtime and earlier fresh213-test evidence exact. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims and software behavior unverified. No reader rebuild."
+          "Actual complete twelve-page OOP article306–317/individually observed printed304–315,assembled from two independently regenerated immutable natives/528files. Canonical title,byline임지열,parent0025/reference304 unchanged. Current537-file root independently/fresh-process exact;both native partial scopes remain historical.",
+          "All150 crops,120 outcomes,12846 metadata projections,25588 current typed ranges/25452 source occurrences and1366 source rows validate. One311→312prose join retains original contexts,two intervening category artwork/text items and one declared display space. Main prose ends313with separateMSornament;four numbered listings continue through317.",
+          "All505numbered rows acrossOBJECT.CH1–26,OOPDEMO.PRG1–96,OBJECT.PRG1–117 andPICKLIST.PRG1–266 remain. Printed number columns and86numbered blanks are retained inlisting.txt. Nine code contexts have524physical rows,435nonblank physical rows andthree unnumbered display gaps. Final-native listing logical index retains374groups/47wraps;opening examples retain their own14nonblank rows. No code execution or source-file recovery.",
+          "All4573code tokens,88quoted-literal candidates,130comment rows including17Korean rows,seven includes,23macros andeleven printed function bodies retain source contexts. Deonstration/Pseduo spelling,identifier case,unquoted color tokens,string-continuation defect,missing-semicolon candidates andPickList2 call remain literal. Unicode menu/BOX candidates do not recover original code-page bytes.",
+          "Five descriptive templates across six opening prose regions retain20rows,14parameter placeholders,four private/exported occurrences and one split-constructor boundary. Thirty original images contain four literal captions;26captions null. Twenty internal prose boundaries,eight code continuations and one actual cross-native prose join remain explicit.",
+          "Quoted anecdote/bibliography,monthly-disk unavailability notice,source heading row missed byOCR,eleven resolved listing mentions andall257source-local candidates remain. Final listing4row266중략 is an explicit printed omission after264EOF/265blank. No omitted program code is reconstructed;article completeness as printed is separate from original software recovery.",
+          "Final native adds44initial+one pre-correction changed-crop recognition,43exact raw/TSV outcomes reused with actual execution origins. All45drafts fully read before one continuing source pass;six pre-OCR crop events,zero unchanged-input retries or within/post-pass changes. Direct draft/source review caught whole letters outside a zero-crossing crop;316right widened once to retainfull comment176endingstring. Initial helper schema error retained and repaired before recognition.",
+          "Twenty rehashed native faults pass generic integrity and reject in independent source audit;twenty assembly faults,three self-consistent projection namespace faults andtwo canonical ownership faults also reject. All32978prior files,thirty core modules andsource/TOC/queue/runtime exact;earlier fresh213-test evidence retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims,original software recovery and execution remain unverified. No reader rebuild."
         ]
       }
     },
@@ -4622,12 +4675,57 @@
         "sha256": "df3efd25a6695031609e89f2f85a1a188324f2427b8c3e151a5b4e71d1090bd9",
         "bytes": 1161
       }
+    },
+    {
+      "name": "1993-03-batch-39",
+      "status": "complete",
+      "completed_at": "2026-11-02T12:46:09.604922+00:00",
+      "goal": "Restore OOP final312–317 and actually assemble all twelve pages306–317 with explicit printed software omission.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0026"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        317
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        306,
+        311,
+        318
+      ],
+      "recognition_invocations": 45,
+      "initial_recognitions": 44,
+      "pre_correction_changed_crop_recognitions": 1,
+      "reused_outcomes": 43,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 6,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-39/validation-complete.json",
+        "sha256": "ed9d2ed077168bbdf4d6134e678e645da8215c9c7fd24ae4da0a4fc873a4e86e",
+        "bytes": 4693
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-39/reproduction.json",
+        "sha256": "c5775ad41a2b0f5445c888fd1255320c0e50b2563081405ead05e1553116a934",
+        "bytes": 97909
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 18,
-    "partial": 1,
+    "readable": 19,
+    "partial": 0,
     "group_headings": 4,
     "section_references": 3,
     "unresolved": 26
@@ -4638,30 +4736,35 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-39",
-    "goal": "Restore final OOP312–317 then actually assemble all twelve pages306–317 from independently regenerated immutable natives.",
+    "name": "1993-03-batch-40",
+    "goal": "Verify Windows-tools article0027 from known350 opener and establish its actual extent;restore up to six confirmed opening pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0026"
+      "maso-1993-03-toc-0027"
     ],
-    "mapping_targets": [
-      312,
-      313,
-      314,
-      315,
-      316,
-      317
+    "canonical_page_reference": 348,
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      350,
+      351,
+      352,
+      353,
+      354,
+      355
     ],
     "planned_outside_lookup_pdf_pages": [
-      306,
-      311,
-      318
+      349,
+      356,
+      357,
+      358,
+      359,
+      360
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse all retained batch38 source renders. Main ends313;four numbered listings313–317 include printed line266중략 at end of listing4. Preserve omission and all source defects,never infer missing rows or program functionality. Incoming311ends인스턴스 변수는;verify312join directly. Source-correct312–317,then actual assembly with all code/template/reference/uncertainty contexts namespaced and source bytes exact. Native opening partial scope stays historical. Group0025 already final;Windows-tools0027 remains separate. No reader rebuild."
+    "note": "Preserve canonical잘 알려지지 않은 유용한 윈도우즈 툴,byline김강훈,parent0025/reference348. Opener350 observed in earlier checkpoints;verify all actual continuity/ending directly rather than infer from next canonical reference356. Reuse retained350–352 renders where available. Screens preserve original images with searchable captions/selected labels and honest miniature-text/data limits. Group활용 is already final;0028public-software body remains separate. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
