@@ -979,22 +979,61 @@ proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical/t
 claims, original software/database recovery and execution remain unverified. Final
 376–382 and actual thirteen-page assembly remain required. No reader rebuild.
 
+Batch 45 preserves CmcPro continuation PDF 376–381/printed 374–379 as a second
+immutable native with 232 independently/fresh-process exact files. All seventy exact
+crops, 51 outcomes, 9,622 typed ranges and 684 nonempty reading rows validate.
+Nineteen original panels retain four screenshots, ten listing panels, three category
+banners, the MS ornament and independent distribution notice. Six literal caption
+associations use five unique source caption regions; thirteen captions are null.
+Nine selected GUI label regions retain explicit miniature data/control-state limits.
+Eleven menu descriptions, 27 filenames, five prose boundaries and the pinned incoming
+375 표시→376 된다. boundary remain explicit, with both native contexts and intervening
+tree retained for eventual assembly.
+
+Listing 1, SCAFFOLD.PRG, preserves all 498 numbered rows 001–498, including 28 numbered
+blanks, 3,831 tokens, 284 strings, 39 comments/27 Korean comments, three procedure
+headers and 232 DBFLIST assignments. Ninety-four paired-quote assignments retain
+blank-width uncertainty. Literal ALLTRIM punctuation, APPEND BLANK/Korean-comment
+discrepancy, colon-shaped continuation marks, decorative rule/star counts and miniature
+quote/angle/selection marks retain 201 source-local candidates. No program repair,
+compilation or execution. Enlarged source correction gives 376 환경 메뉴 and 377
+FoxPro나 트리콤 (587-3884), superseding earlier preliminary layout paraphrases without
+changing retained historical evidence. FOXAPP.APP remains distinct from opening
+FOXAPP.PRG. Two empty raw GUI drafts and the omitted 알림 heading are restored directly
+from unchanged crops.
+
+All 51 drafts read before one continuing source pass; 51 initial recognitions, ten eng
+and 41 kor+eng, zero retries or within-pass/post-pass changes. Three maps retain ten
+pre-OCR coverage events. All text crops are disjoint; six remaining threshold-130
+crossings are directly reviewed GUI rule/background ink. Nine pages 375–383 directly
+reviewed, including three outside lookups. Thirty rehashed native faults and two
+ownership faults reject. All 36,732 prior files and thirty core modules remain exact;
+earlier fresh 213-test evidence retained. Full proofreading, human acceptance, exact
+glyphs/spacing/encoded bytes, historical/technical claims and original software/database
+recovery remain unverified. No reader rebuild.
+
+CmcPro 370–381 is now preserved across two separate immutable natives, a/465 files and
+b/232 files. The selected body owner remains opening native a on 370–375 until an
+actual assembly exists; there is no assembled twelve-page package. Final 382 and
+actual thirteen-page assembly remain required. Lower 382 diskette promotion and
+383 book advertising remain excluded.
+
 Current totals: twenty-two readable/sample-reviewed articles, one partial, four non-owning
 groups, three section references and 22 unresolved identities among 52. Twenty-three
-current body-owner packages contain 11,446 exact files; thirteen classification evidence
-files remain separate. Original natives and superseded revisions remain unchanged.
+current body-owner packages contain 11,446 files; the second unassembled CmcPro native
+adds 232 separately preserved files. Thirteen classification evidence files remain
+separate. All canonical outcomes and original packages remain unchanged.
 
-Next: Batch 45 restores CmcPro continuation PDF 376–381 as a second immutable native.
-Reuse retained renders. Incoming 375 표시 + 376 된다. needs an empty separator when
-assembled, with both contexts and intervening menu tree retained. Preserve final prose,
-source contact/MS ornament, distribution notice and original GUI panels on 376–377.
-Listing 1 starts at 001–010 on 377 and continues through 498 on 381. Keep printed
-number columns, blank rows, Korean comments, arrays, strings and defects literal;
-do not repair, compile or execute the source. Final 382 at 499–544/EOF 543 and actual
-thirteen-page assembly remain for a later checkpoint. Preserve all opening table,
-forest, GUI, description, filename and candidate indexes; namespace their identifiers
-and project every source range during eventual assembly. The ceilings remain two
-canonical tasks, six mapped pages and twenty outside lookups. No reader rebuild.
+Next: Batch 46 restores final CmcPro PDF 382 as native c, then actually assembles
+all thirteen pages 370–382 from three independently regenerated natives. Reuse the
+retained render; preserve listing rows 499–544/EOF 543 and exclude the lower independent
+diskette promotion. Preserve every opening field-table/menu-forest/GUI/description/
+filename/candidate index and every continuation listing/string/comment/array index.
+Namespace identifiers and project all source ranges into the correct article/listing
+downloads. Join 375 표시 + 376 된다. with an empty separator, retaining both source
+contexts and intervening tree. Keep code defects, punctuation and uncertainty literal;
+do not repair, compile or execute the source. The ceilings remain two canonical tasks,
+six mapped pages and twenty outside lookups. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

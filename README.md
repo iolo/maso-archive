@@ -15,11 +15,12 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 March 1993 restoration is active: twenty-two readable/sample-reviewed articles, one
 partial, four non-owning groups, three final section references and 22 unresolved
-identities among 52. CmcPro's opening PDF 370–375 is preserved in 465 reproducible
-files; its verified full extent is 370–382. Twenty-three current body-owner packages
-contain 11,446 files. Next: restore CmcPro 376–381, then final 382 and assemble all
-thirteen pages. Remaining bodies, 433-page accounting, cover and issue closeout are
-pending. No reader rebuild. See [March progress](docs/progress/9303.md).
+identities among 52. CmcPro PDF 370–381 is preserved across separate immutable natives
+of 465 and 232 files. Twenty-three current body-owner packages contain 11,446 files;
+the second CmcPro native remains separately preserved until assembly. Next: restore
+final 382 and actually assemble all thirteen pages 370–382. Remaining bodies, 433-page
+accounting, cover and issue closeout are pending. No reader rebuild. See
+[March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section
