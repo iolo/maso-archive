@@ -381,18 +381,42 @@ and thirty core modules remain exact; earlier fresh 213-test evidence retained.
 Final 247 closes above excluded book advertising; 250 is the distinct Unix opener.
 Original native partial scopes remain historical.
 
-Current totals: eleven readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 36 unresolved identities among 52. Eleven
-current body-owner packages contain 3,886 exact files; eight final classification
+Batch 23 verifies Unix article 0017's actual nine-page body, PDF 250–258,
+and preserves opening 250–255/printed 248–253 as a 421-file partial native.
+Independent and fresh-process exports match. All 130 exact crops, 94 OCR outcomes,
+3,189 typed range occurrences and 454 nonempty reading rows validate. Thirty-six
+original images retain 29 code panels, two tables, three diagrams, key flow and
+category/series artwork; six captions are literal text and thirty are null.
+Two tables preserve 37 explicit cells/eight header fragments; fifty diagram labels
+retain separate occurrences. Twenty-eight independent code contexts preserve
+148 physical rows, 43 numbered Listing 1 rows, three blank numbered rows, 957 tokens,
+36 comment rows, four quoted literals, four commands and ten printed output pairs.
+Eight structures retain 38 field groups; nine API prototypes, 22 includes and nine
+conditions remain literal. Split ipc_perm keeps seven fields; union semun retains
+only two current fields and continues on 256. Five prose boundaries and one code
+boundary retain source contexts. All 94 drafts were read before one source pass:
+29 English and 65 Korean/English regions, zero retries or within/post-pass changes.
+Seventy-two pre-OCR crop events and the failed pre-recognition launch remain retained.
+Metadata r02 clarifies the table-2 header note; only four JSON files differ from
+retained r01. All source text, images and raw ZIP bytes remain exact. Source spelling,
+header/pointer differences and filename candidates remain; no code repair or execution.
+Seventeen rehashed native and two ownership mutations reject. All 21,715 prior files
+and thirty core modules remain exact; prior fresh 213-test evidence is retained.
+Final 258 closes above excluded publisher advertising; 259 is an advertisement,
+260 the distinct DOS opener. Final 256–258 and actual nine-page assembly remain required.
+
+Current totals: eleven readable/sample-reviewed articles, one partial, two non-owning
+groups, three section references and 35 unresolved identities among 52. Twelve
+current body-owner packages contain 4,307 exact files; eight final classification
 evidence files remain separate. Original natives and superseded revisions remain
 unchanged.
 
-Next: Batch 23 verifies the actual extent and ending of canonical 0017,
-유닉스 프로그래밍의 세계로(마지막회) : 고급 프로세스간 통신(유닉스 편), by 최승욱,
-then restores up to six confirmed opening pages. PDF 250/printed 248 is observed;
-provisional targets are 250–255. Following article 0018's canonical reference 258
-is a location lead, not evidence of the Unix ending or a global folio offset.
-Confirm ownership before mapping. No reader rebuild.
+Next: Batch 24 restores final Unix pages 256–258, then actually assembles
+all nine pages 250–258 from independently regenerated immutable natives. Complete
+union semun on 256; preserve main prose 256→258 across the independent 108-row
+Listing 2 on 257. Exclude lower 258 publisher advertising. Page 259 is an independent
+advertisement; 260 opens the distinct DOS article. Preserve printed code and defects.
+No code repair, execution or reader rebuild.
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
