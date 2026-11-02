@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: eighteen readable/sample-reviewed articles, no partials,
-three non-owning groups, three final section references and 28 unresolved identities
+March 1993 is in progress: eighteen readable/sample-reviewed articles, one partial,
+four non-owning groups, three final section references and 26 unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -40,20 +40,48 @@ modules remain exact; earlier fresh 213-test evidence retained. Full proofreadin
 human acceptance, exact glyphs/spacing/encoded bytes, historical claims and software
 behavior remain unverified. No reader rebuild.
 
-Current totals: eighteen readable/sample-reviewed articles, no partials, three non-owning
-groups, three section references and 28 unresolved identities among 52. Eighteen
-current body-owner packages contain 8,905 exact files; ten classification evidence
+Batch 38 classifies pageless group 0025 활용 as non-owning and preserves OOP article
+0026 opening PDF 306–311/printed 304–309 as a partial native. Its 325 files and three
+classification files reproduce independently and in fresh processes. All 88 crops,
+76 OCR outcomes, 1,613 typed ranges and 691 nonempty source rows validate. Twelve
+original images have null captions. Three code examples retain sixteen physical
+rows, fourteen nonblank rows, two blank gaps, 127 tokens, six printed result comments,
+seven calls and one MakeBlock function. Literal `2x`, `block:x(2)`, Makeblock case and
+the final unanswered `? block1:eval` remain unchanged. Five descriptive templates
+across six prose regions retain twenty rows, fourteen parameter placeholders and
+four independent private/exported member occurrences. Templates are not executable
+programs. Fourteen prose boundaries, one constructor-template boundary and outgoing
+311→312 retain their source contexts. Quoted anecdote/bibliography, monthly-disk
+unavailability notice, eleven listing mentions, two filenames and seventeen version
+occurrences remain literal. OCR missed the second heading row on 309; it was restored
+from the unchanged scan without another recognition. All 76 drafts were read before
+one continuing source pass; 27 pre-OCR crop events, zero retries or within/post-pass
+changes. All 36 source-local candidates remain explicit. Thirty-six rehashed native,
+six group and two canonical ownership faults reject. All 32,650 prior files and
+thirty core modules remain exact; earlier fresh 213-test evidence retained.
+The actual twelve-page extent is 306–317/printed 304–315; main prose ends 313 and
+four numbered listings continue through 317. Final printed line 266 `중략` is preserved
+as an observed omission. Final 312–317 had extent/layout review only; their source
+correction and actual twelve-page assembly remain required. No omitted program
+content, source encoded bytes, software functionality or execution is inferred.
+Group evidence retains contents 5 and category 306 crops plus repeated banner 350;
+all five child identities remain unchanged. No group body/byline/folio or Windows-tools
+restoration is invented. Full proofreading and human acceptance remain pending.
+No reader rebuild.
+
+Current totals: eighteen readable/sample-reviewed articles, one partial, four non-owning
+groups, three section references and 26 unresolved identities among 52. Nineteen
+current body-owner packages contain 9,230 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 38 resolves pageless group 0025 활용 ownership and verifies OOP article
-0026, 클리퍼에 밀려오는 OOP 물결, by 임지열, from the known PDF 306 opener/reference
-304. Establish its actual ending and map up to six confirmed opening pages,
-provisionally 306–311. Earlier review observed listing/omission material on 317;
-recheck its identity, continuity and endpoint directly, without inferring from the
-Class(y) opener on 318. Preserve any printed omission and source defects without
-invented rows, repair or execution. Windows-tools 0027 remains a separate task.
-The checkpoint ceilings remain two canonical tasks, six mapped pages and twenty
-outside lookups. No reader rebuild.
+Next: Batch 39 restores final OOP article 0026 pages PDF 312–317, then actually
+assembles all twelve pages 306–317 from independently regenerated immutable natives.
+Reuse the retained renders. Verify incoming prose from 311 and preserve all four
+numbered listings, including the printed final `중략` omission without invented rows,
+repairs or execution. Namespace every template/code/reference/candidate context;
+opening native partial notes remain historical. Group 0025 is final; Windows-tools
+0027 remains separate. The ceilings remain two canonical tasks, six mapped pages
+and twenty outside lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its

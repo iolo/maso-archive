@@ -13,12 +13,12 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: eighteen readable/sample-reviewed articles, no
-partials, three non-owning groups, three final section references and 28 unresolved
-identities among 52. Complete CMDLN on PDF 344–348 has 379 verified files; source
-number columns, code defects and output variants remain literal. Eighteen current
-body-owner packages contain 8,905 files. Halla Pro's miniature GUI text/data remains
-source-image dependent. Next: classify 활용 and verify OOP from PDF 306.
+March 1993 restoration is active: eighteen readable/sample-reviewed articles, one
+partial, four non-owning groups, three final section references and 26 unresolved
+identities among 52. OOP opening PDF 306–311 has 325 verified files; 활용 is a
+non-owning group. Nineteen current body-owner packages contain 9,230 files.
+Next: restore final OOP 312–317 and assemble all twelve pages, preserving the
+printed omission. Halla Pro's miniature GUI text/data remains source-image dependent.
 Remaining bodies, 433-page accounting, cover and issue closeout are pending.
 See [March progress](docs/progress/9303.md).
 
