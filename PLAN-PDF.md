@@ -1050,22 +1050,63 @@ actual assembly exists; there is no assembled twelve-page package. Final 382 and
 actual thirteen-page assembly remain required. Lower 382 diskette promotion and
 383 book advertising remain excluded.
 
-Current totals: twenty-two readable/sample-reviewed articles, one partial, four non-owning
-groups, three section references and 22 unresolved identities among 52. Twenty-three
-current body-owner packages contain 11,446 files; the second unassembled CmcPro native
-adds 232 separately preserved files. Thirteen classification evidence files remain
-separate. All canonical outcomes and original packages remain unchanged.
+Batch 46 restores final CmcPro PDF 382/printed 380 as a 24-file native and actually
+assembles all thirteen pages 370–382/printed 368–380. The selected 730-file r02 package
+reproduces from three independently regenerated immutable natives/721 files and in a
+fresh process. All 203 exact crops, 164 outcomes, 12,596 metadata projections, 25,121
+current typed ranges/24,946 source occurrences and 1,336 nonempty source rows validate.
+One 375→376 prose join forms 표시된다. with an empty separator across ten original
+menu-tree/category items and preserves both source contexts. Original native partial
+notes retain explicit current dispositions.
 
-Next: Batch 46 restores final CmcPro PDF 382 as native c, then actually assembles
-all thirteen pages 370–382 from three independently regenerated natives. Reuse the
-retained render; preserve listing rows 499–544/EOF 543 and exclude the lower independent
-diskette promotion. Preserve every opening field-table/menu-forest/GUI/description/
-filename/candidate index and every continuation listing/string/comment/array index.
-Namespace identifiers and project all source ranges into the correct article/listing
-downloads. Join 375 표시 + 376 된다. with an empty separator, retaining both source
-contexts and intervening tree. Keep code defects, punctuation and uncertainty literal;
-do not repair, compile or execute the source. The ceilings remain two canonical tasks,
-six mapped pages and twenty outside lookups. No reader rebuild.
+The database table preserves 23 rows/115 cells, including twenty empty merged-filename
+continuations and three file groups. Centered filename labels retain logical first-row
+anchors without invented vertical positions. The menu forest preserves forty nodes,
+four separate roots and 36 edges. All table/cell/file-group/tree/node/edge/GUI/description/
+context identifiers and references are namespaced. Thirty-nine original panels retain
+eighteen literal caption associations/seventeen unique source caption regions and
+21 null captions. Fourteen screenshots retain 25 selected label regions with explicit
+miniature data/control-state limits. The independent distribution notice remains.
+
+Listing 1, SCAFFOLD.PRG, preserves every numbered row 001–544, including 28 numbered
+blanks, 4,341 tokens, 327 strings, 41 comments/27 Korean comments, three procedure
+headers and 275 DBFLIST assignments. There are 126 paired-quote assignments with
+blank-width uncertainty. Final 539 DBFLIST[25.9] retains its dot-shaped separator and
+comma candidate; EOF 543 and rule 544 remain literal. ALLTRIM punctuation, APPEND BLANK/
+comment discrepancy, decorative rule/star counts and quote/angle/selection marks remain
+source-linked candidates. Thirty-three menu descriptions, 54 filename occurrences,
+21 internal prose boundaries and all 309 candidates retain their contexts. Source
+376 환경 메뉴 and 377 FoxPro나 트리콤 supersede preliminary layout paraphrases;
+FOXAPP.APP remains distinct from opening FOXAPP.PRG. Prose ends 377; listing ends
+382 above the excluded independent diskette promotion. Page 383 is book advertising.
+
+Final native c adds three initial recognitions/two eng and one kor+eng after one
+reviewed map with zero crop changes. All drafts read before one source pass; zero
+retries or within/post-pass changes. Six exact crops retain three disjoint text regions,
+three originals and one promotion exclusion, with zero threshold-130 crossings.
+Fourteen rehashed native faults, eighteen assembly faults, six self-consistent projection
+faults and two ownership faults reject. The independent audit caught an unprefixed
+exclusion reference in r01; r02 changes only article.json, corrections.json and manifest.json.
+All 721 native files, article/listing text, source assets and raw ZIP bytes remain exact.
+Failed r01 and audit-helper attempts remain retained. All 36,964 prior files and thirty
+core modules remain exact; prior fresh 213-test evidence retained. Full proofreading,
+human acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and
+original software/database recovery or execution remain unverified. No reader rebuild.
+
+Current totals: twenty-three readable/sample-reviewed articles, no partials, four
+non-owning groups, three section references and 22 unresolved identities among 52.
+The 23 current body-owner packages contain 11,711 exact files; thirteen classification
+evidence files remain separate. All immutable natives and failed revisions remain.
+
+Next: Batch 47 verifies hardware article 0031, 하드웨어 : 풀컬러 512×480 프레임 그래버
+제작(마지막회) : 풀컬러 프레임 그래버 구동, by 최봉렬, from canonical printed reference
+406. PDF 408 is provisional until direct opener/folio review. Establish actual start,
+all continuity and ending, then map at most six confirmed opening pages, provisionally
+408–413. Do not infer the extent from a global offset or another contents reference.
+Preserve original hardware diagrams/tables/screens/captions and literal code/data with
+source uncertainties; do not repair, compile or execute historical programs. CmcPro 0030
+is final. The ceilings remain two canonical tasks, six mapped pages and twenty outside
+lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
