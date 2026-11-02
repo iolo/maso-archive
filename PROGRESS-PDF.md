@@ -6,42 +6,43 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: twelve readable/sample-reviewed articles, no partials,
-two non-owning groups, three final section references and 35 unresolved identities
+March 1993 is in progress: twelve readable/sample-reviewed articles, one partial,
+two non-owning groups, three final section references and 34 unresolved identities
 among 52.
 
-Batch 24 preserves final Unix PDF 256–258 as a 181-file native, then actually
-assembles the complete nine-page article 250–258/printed 248–256. All 611 files match
-an export consuming two independently regenerated natives/602 files and a fresh-process
-rebuild. All 185 exact crops, 133 outcomes, 5,421 metadata projections, 10,759 current
-range occurrences/10,583 source occurrences and 658 reading rows validate. Fifty-two
-original images retain 43 code-panel associations, two tables, four diagrams, key flow,
-category/series artwork and ending ornament; eight captions are literal text and 44 null.
-Two tables preserve 37 cells/eight headers, and 55 diagram/flow labels retain separate
-occurrences. Forty independent code contexts preserve 282 physical rows, 151 numbered
-rows across Listings 1/2, seventeen blank numbered rows, 1,734 tokens, 51 comment rows,
-fourteen quoted literals, nine commands and twelve printed output rows. Thirteen API
-prototypes, 31 includes, fourteen conditions and five function-definition candidates
-remain literal. Complete union semun metadata links two fields on 255 to the array
-field/closing brace on 256. Main prose 256→258 crosses independent Listing 2 on 257;
-seven prose and three code boundaries retain source contexts. No cross-native prose
-merge, source repair or execution. Final native adds 39 initial recognitions, fourteen
-English and 25 Korean/English, after all drafts were read before one source pass.
-Zero retries or within/post-pass changes; 39 pre-OCR crop events and helper/audit failures
-remain retained. IPC_GETALL/IPC_SETALL, shm_nattach/shm_cnattach, spaced operators,
-broken-bar candidates and printed Hello,World output stay literal. Twelve rehashed
-root, eight native and two ownership mutations reject. All 22,557 prior files and
-thirty core modules remain exact; prior fresh 213-test evidence retained. Final 258
-closes above excluded publisher advertising; 259 is an advertisement, 260 the distinct
-DOS opener. Original native partial scopes remain historical.
-Twelve current body-owner packages contain 4,497 files.
+Batch 25 verifies DOS article 0018's actual thirteen-page body, PDF 260–272,
+and preserves opening 260–265/printed 258–263 as a 307-file partial native.
+Independent and fresh-process exports match. All 82 exact crops, 72 OCR outcomes,
+3,201 typed range occurrences and 495 nonempty reading rows validate. Ten original
+images retain portrait/category artwork, three listing panels, two tables and three
+formulas; five captions are literal text and five null. Three independent assembly
+procedures preserve 131 physical rows, 119 numbered rows, 28 blank numbered rows,
+twelve unnumbered comment wraps, 438 tokens, 64 comment rows, 76 instruction rows,
+84 register occurrences, 21 immediate occurrences, nine memory operands and eighteen
+branches/calls. Table 1 retains fourteen explicit cells/three headers and four blank
+positions; table 2 retains two input and one output register assignment. Three formulas,
+eight version-value pairs, four printed calculations and twelve prose boundaries
+retain source contexts. Canonical title and null byline stay unchanged; source credit
+is separate. All 72 drafts were read before one source pass: three English and 69
+Korean/English regions, zero retries or within/post-pass source changes. Eighty-three
+pre-OCR crop events remain retained. Metadata r02 records intervening table/listing
+panels on 261→262 and 264→265; only four JSON files differ from retained r01. All
+source text, assets and raw ZIP bytes remain exact. Source spelling, offset/version
+claims, comment differences and glyph candidates remain; no code repair or execution.
+Seventeen rehashed native and two ownership mutations reject. All 23,349 prior files
+and thirty core modules remain exact; prior fresh 213-test evidence retained. Main
+prose ends 268; Listing 5 ends at 516 END Entry on 272 before independent book-year
+filler. Pages 273–275 are advertisements, 276 the distinct vector-font opener.
+Final 266–272 and actual thirteen-page assembly remain required.
+Thirteen current body-owner packages contain 4,804 files.
 
-Next: Batch 25 verifies the actual extent and ending of canonical 0018,
-안철수의 컴퓨터 노트 : 도스의 내부 정보 알아내기(2) : 안철수, then restores up to
-six confirmed opening pages. PDF 260/printed 258 is observed; provisional targets
-are 260–265. Preserve the canonical title and null byline; source 글/안철수 stays
-separate. Following article 0019's reference 274 is a location lead, not proof of the
-DOS ending or a global folio offset. Confirm ownership before mapping. No reader rebuild.
+Next: Batch 26 restores DOS continuation 266–271 as an immutable native.
+Preserve the STACKS formula/three structure tables, independent 81-row Listing 4,
+screenshot/commands/prose ending on 268, and Listing 5 DOSINFO.ASM rows 001–410
+across 268–271. Keep main prose 267→268 separate from the intervening screenshot.
+Final 272 rows 411–516 and actual thirteen-page assembly remain follow-up work.
+Exclude lower 272 book-year filler and 273–275 advertisements. No code repair,
+execution or reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
