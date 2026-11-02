@@ -836,19 +836,52 @@ Final 356's lower independent book advertisement is outside the article. Full
 proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical claims,
 software/configuration recovery and execution remain unverified. No reader rebuild.
 
-Current totals: nineteen readable/sample-reviewed articles, one partial, four non-owning
+Batch 41 restores final Windows-tools PDF 356 and actually assembles all seven pages
+350–356/individually observed printed 348–354. The 544-file root reproduces from
+both independently regenerated immutable natives/536 files and in a fresh process.
+All 145 crops, 125 outcomes, 2,118 metadata projections, 4,108 current typed ranges/
+3,984 source occurrences and 706 nonempty source rows validate. One 355→356 prose
+join forms 동적으로 with no added space, retaining ten intervening table/category
+items and both original contexts. Twenty original images have eight literal captions
+and twelve null captions. Six screenshots preserve selected searchable labels with
+explicit miniature configuration/list/body/control limits; five application icons
+and their headings remain. Table 1 retains 39 rows, 117 cells, 95 nonblank cells,
+22 blank merged-resource cells, three headers and seventeen resource groups. Repeated
+DeleteObject cells retain distinct source occurrences. Diagram 1 preserves twelve
+label regions/thirteen physical rows, six nodes and five directed arrows; its final
+node reads 클라이언트 프로그램. All table/cell/group/screen/application/diagram/node/
+edge/option/hotkey/procedure identifiers and references are namespaced. Four recovery
+steps, six option entries, three physical hotkey occurrences, sixteen internal prose
+boundaries and 46 source-local candidates remain. Printed Executer, RepaintScreen,
+CreateCommpatibleDC, SetWindowHook, GlobalFreeAtom and UnhookWindowsHook are literal.
+The editorial attribution is separate from 김강훈's byline; the opening drop cap is
+folded once. Final 356 ends the stress.ini paragraph with a separate MS ornament;
+the lower independent book advertisement is excluded. Final native adds thirteen
+initial recognitions after two pre-OCR margin events. All thirteen drafts read before
+one source pass; zero retries or within/post-pass changes. Direct color review and
+exact crop checks pass. Opening natives, both 474-file revisions, all maps and original
+OCR/corrections remain unchanged. Fifteen rehashed native faults, eighteen assembly
+faults, five self-consistent projection namespace/occurrence faults and two ownership
+faults reject. Failed audit-helper assumptions remain retained; source content was
+unchanged. All 34,666 prior files and thirty core modules remain exact; earlier fresh
+213-test evidence retained. Full proofreading, human acceptance, exact glyphs/spacing/
+encoded bytes, historical claims, software/configuration recovery and execution remain
+unverified. Selected GUI labels do not certify complete miniature data recovery.
+No reader rebuild.
+
+Current totals: twenty readable/sample-reviewed articles, no partials, four non-owning
 groups, three section references and 25 unresolved identities among 52. Twenty
-current body-owner packages contain 9,916 exact files; thirteen classification evidence
+current body-owner packages contain 9,986 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 41 restores final Windows-tools article 0027 page PDF 356, then actually
-assembles all seven pages 350–356 from independently regenerated immutable natives.
-Reuse the retained render, exclude the lower independent publisher advertisement,
-and preserve the final stress.ini paragraph/MS ornament. Verify incoming 동/적으로
-with an empty join separator across table 1 and retain both original contexts.
-Project all table cells/groups, selected GUI labels, diagram nodes/arrows, recovery
-steps, literal captions and source candidates with complete identifier namespaces.
-Opening partial notes remain historical; public-software 0028 remains separate.
+Next: Batch 42 verifies public-software article 0028 from its known PDF 358 opener/
+reference 356. Establish actual continuity and ending before mapping up to six
+confirmed pages, provisionally 358–363. Reuse retained 358–360 renders where available.
+Preserve canonical title 쓸만한 윈도우즈용 공개 소프트웨어 4가지 and byline 편집부;
+source title 네 가지 and credits 김영숙, 신동수 기자 remain separate source forms.
+Do not infer the ending from the next contents reference. Preserve original screens/
+tables, literal captions and searchable selected labels with honest miniature text/
+data limits. Windows-tools 0027 is final; debugger article 0029 remains separate.
 The ceilings remain two canonical tasks, six mapped pages and twenty outside lookups.
 No reader rebuild.
 

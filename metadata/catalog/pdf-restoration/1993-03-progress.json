@@ -2937,24 +2937,24 @@
       "parent_id": "maso-1993-03-toc-0025",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Actual seven-page Windows-tools article350–356/individually observed printed348–354. Canonical title/byline김강훈,parent활용0025/reference348 unchanged. Current six opening pages350–355 produce474independently/fresh-process exact files;final356andactualseven-pageassemblyremain required.",
-        "All130crops,112outcomes,1957typed ranges and660nonempty source rows validate. Eighteen original images have eight literal captions andten null captions. Five application heading/icon pairs andsix screens retain searchable selected labels;miniature configuration/list/body/control data are not fully transcribed or recovered.",
-        "Table1 retains39physical rows,117cells,95nonblankcells,22blankmergedresourcecells,three headers and17resourcegroups. Every repeated DeleteObject occurrence has its own source offset. Blank cells have source null plus original-image/column-bbox/group associations,not duplicate labels or zero-length text ranges.",
-        "Editorial deck attribution〈편집자〉is separate from canonical김강훈byline. Opening dropcap윈is folded once. Source restore directory,filename/menu physical wraps,prose default.pif versus screenshot_default.pif and all historical claims remain literal. Outgoing355ends동;356begins적으로,withtable1intervening andfuturejoinseparator empty.",
-        "Thirty rehashed native faults passgenericintegritythenreject independent source-semantic audit;two canonicalownershipfaults reject. All33718prior files andthirtycoremodules/source/TOC/queue/runtime exact;earlier fresh213-test evidence retained. Full proofreading,humanacceptance,exactglyphs/spacing/encodedbytes,historicalclaims,originalsoftware/configurationrecoveryandexecutionremainunverified. No reader rebuild."
+        "The actual seven-page Windows-tools article on PDF350–356/individually observed printed348–354 is complete. Canonical title,byline김강훈,parent활용0025 and reference348 remain unchanged. The 544-file assembly reproduces from both independently regenerated immutable natives/536files and in a fresh process.",
+        "All145crops,125outcomes,2118metadata projections,4108current typed ranges/3984source occurrences and706nonempty source rows validate. One355→356prose join forms동적으로 with an empty separator and retains ten intervening table/category items plus both original source contexts.",
+        "Table1 retains39rows,117cells,95nonblank cells,22blank merged-resource cells,three headers and17resource groups. Repeated DeleteObject cells retain distinct source offsets. Diagram1 retains12label regions/13physical rows,six nodes andfive directed arrows;its final node reads클라이언트 프로그램. All table/cell/group/screen/application/diagram/node/edge identities and references are namespaced.",
+        "Editorial attribution〈편집자〉remains separate from canonical김강훈 byline. Opening dropcap윈is folded once. Prose default.pif and screenshot_default.pif remain independent source forms. Final356endsstress.ini paragraph맞추어 준다.with a separateMSornament;the lower independent book advertisement is excluded.357is advertising;358opens separate0028.",
+        "Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims,original software/configuration recovery and execution remain unverified. Selected GUI labels do not certify complete miniature data recovery. No reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-40-r02/windows-a",
+        "directory": "archive/pdf/1993-03/packages/windows-r01",
         "article_id": "scan-maso-1993-03-toc-0027",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-40-r02/windows-a/manifest.json",
-          "sha256": "cf65653b89fe6f682aa30a387e071b85f132080464883d31532b729d9fe617b7",
-          "bytes": 81181
+          "path": "archive/pdf/1993-03/packages/windows-r01/manifest.json",
+          "sha256": "256a3974e0e8102aaf46597cec668c2d20c2ae368d0bef049307c67659c8eeeb",
+          "bytes": 98670
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -2963,7 +2963,8 @@
             352,
             353,
             354,
-            355
+            355,
+            356
           ],
           "printed_pages": [
             "348",
@@ -2971,58 +2972,102 @@
             "350",
             "351",
             "352",
-            "353"
+            "353",
+            "354"
           ],
-          "regions": 130,
-          "blocks": 112,
-          "figures": 18,
-          "deferred_pdf_pages": [
-            356
-          ],
+          "regions": 145,
+          "blocks": 124,
+          "figures": 20,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 356,
-        "endpoint_observation_only": true,
+        "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-40/validation-complete.json",
-          "sha256": "6920a090c641a8d8acf13ae8056ff4be7b0be8cd52d3513da69127af1c8fe3ee",
-          "bytes": 2692
+          "path": "archive/pdf/1993-03/restoration/batch-41/validation-complete.json",
+          "sha256": "87808fc1c7246d743f582ba1b464ef6a858315fb47e40d568b30e5cfe41c4c9d",
+          "bytes": 3716
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-40/native-reproduction-r02.json",
-          "sha256": "262335d90bce3c5ec970db15f0917ce99797beb5498ad3f6f5d3f563ae1add9c",
-          "bytes": 82259
+          "path": "archive/pdf/1993-03/restoration/batch-41/reproduction.json",
+          "sha256": "e209a1afe1a6fc415b82684f68fdf4b0edcef6098788cc3f8f3752c064d0a129",
+          "bytes": 100136
         },
         "recipe": {
-          "path": "archive/pdf/1993-03/restoration/batch-40/windows-a-r04/package-recipe-r02.json",
-          "sha256": "e8ecf0e1932cd6661a622922b6832b86a3ab4d5ebd260b0d43e25f4795d55ac4",
-          "bytes": 18398
+          "path": "archive/pdf/1993-03/restoration/batch-41/assembly-recipe.json",
+          "sha256": "157e49d54bf0546fbb651a32244605809b6a8dcabf8b164b52fb35cc3b5bdc5b",
+          "bytes": 4006
         },
-        "checkpoint": "batch-40",
+        "adapter": {
+          "path": "archive/pdf/1993-03/restoration/batch-41/windows_adapter.py",
+          "sha256": "d5599998f13c74b5e42778ce9d0cf808f9643e977bc8daa8b201555fd6851f8c",
+          "bytes": 16606
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1993-03/restoration/batch-41/adapter-inputs.json",
+          "sha256": "a382bb0e0f15b6b51a2c0942aaca1c5366bf8c3ff2c58945f3ac18cab9d9ecc9",
+          "bytes": 9812
+        },
+        "checkpoint": "batch-41",
+        "native_inputs": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-40-r02/windows-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-40-r02/windows-a/manifest.json",
+              "sha256": "cf65653b89fe6f682aa30a387e071b85f132080464883d31532b729d9fe617b7",
+              "bytes": 81181
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-40/windows-a-r04/package-recipe-r02.json",
+              "sha256": "e8ecf0e1932cd6661a622922b6832b86a3ab4d5ebd260b0d43e25f4795d55ac4",
+              "bytes": 18398
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-41-r01/windows-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-41-r01/windows-b/manifest.json",
+              "sha256": "9f5ac0c0f393af7de056c2f282c4d6ea0ff52300ea733bc31f96a166e1922a03",
+              "bytes": 10487
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-41/windows-b-r02/package-recipe.json",
+              "sha256": "61a9ec7f0e1e5558554ae4f1e3460a8053aedadb42f9ebe5cfb7abb5ff7d2e9a",
+              "bytes": 3206
+            }
+          }
+        ],
         "full_source_extent": {
           "start_pdf_page": 350,
           "end_pdf_page": 356,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-41/source-review-completed.json",
+            "sha256": "370faeae3f1b5e35d124d88f8740efccb54ed915d3befdd482cbb12dc3c94f98",
+            "bytes": 3731
+          },
+          "opening_source_observations": {
             "path": "archive/pdf/1993-03/restoration/batch-40/source-review-completed.json",
             "sha256": "d0b71752910a35af10b5c3c44617c5e4aa611134a769cbc2c58bae424cc6a766",
             "bytes": 6340
           },
-          "note": "Allsevenpagesdirectlyextent/layoutreviewed. Onlyopening350–355source-corrected;final356andactualassemblypending. Final356endsstress.ini paragraph/MSornamentaboveseparatebookad.357fullad;358distinct0028opener. No global PDF/folio offset inferred."
+          "note": "All seven pages restored as printed. Final356 closes above independent publisher book advertisement.357 is advertising;358 starts distinct0028. No global PDF/folio offset inferred."
         },
         "notes": [
-          "Actual seven-page Windows-tools article350–356/individually observed printed348–354. Canonical title/byline김강훈,parent활용0025/reference348 unchanged. Current six opening pages350–355 produce474independently/fresh-process exact files;final356andactualseven-pageassemblyremain required.",
-          "All130crops,112outcomes,1957typed ranges and660nonempty source rows validate. Eighteen original images have eight literal captions andten null captions. Five application heading/icon pairs andsix screens retain searchable selected labels;miniature configuration/list/body/control data are not fully transcribed or recovered.",
-          "Diagram1 retains12labelregions/13physicaltextrows,six nodes andfive directed arrows with source-local labels. Bottom-right node literally reads클라이언트프로그램,despite historical crop IDfinal-packager;no program behavior inferred.",
-          "Table1 retains39physical rows,117cells,95nonblankcells,22blankmergedresourcecells,three headers and17resourcegroups. Every repeated DeleteObject occurrence has its own source offset. Blank cells have source null plus original-image/column-bbox/group associations,not duplicate labels or zero-length text ranges.",
-          "Printed CreateCommpatibleDC,SetWindowHook,GlobalFreeAtom,UnhookWindowsHook andExecuter remain literal. Four numbered registration-recovery steps,38filename references,60menu references,seven version occurrences,14prose boundaries and36source-local candidates retain original contexts. Descriptive API text is prose;no executable code/listing download or API validation is claimed.",
-          "Editorial deck attribution〈편집자〉is separate from canonical김강훈byline. Opening dropcap윈is folded once. Source restore directory,filename/menu physical wraps,prose default.pif versus screenshot_default.pif and all historical claims remain literal. Outgoing355ends동;356begins적으로,withtable1intervening andfuturejoinseparator empty.",
-          "All112drafts fully read before one continuing sourcepass;112initialrecognitions,zero retries or within/post-pass crop/OCR/text changes. Four maps retain69pre-OCR crop events. Zero nonfigure overlaps;13threshold130crossings are directly color-reviewed non-text backgrounds/frames/arrows/grid,not unexplained text clipping.",
-          "Initial export-helper duplicate-order assertion retained and corrected before first export. R01 metadata review caughtthree proposed future-join spaces inside words;selectedr02changesfourrootmetadatafilesonly. Article text,images,rawOCR/settings andZIP bytes remain exact;both474-file revisionsretained. No new OCR or sourcepass.",
-          "Thirty rehashed native faults passgenericintegritythenreject independent source-semantic audit;two canonicalownershipfaults reject. All33718prior files andthirtycoremodules/source/TOC/queue/runtime exact;earlier fresh213-test evidence retained. Full proofreading,humanacceptance,exactglyphs/spacing/encodedbytes,historicalclaims,originalsoftware/configurationrecoveryandexecutionremainunverified. No reader rebuild."
+          "The actual seven-page Windows-tools article on PDF350–356/individually observed printed348–354 is complete. Canonical title,byline김강훈,parent활용0025 and reference348 remain unchanged. The 544-file assembly reproduces from both independently regenerated immutable natives/536files and in a fresh process.",
+          "All145crops,125outcomes,2118metadata projections,4108current typed ranges/3984source occurrences and706nonempty source rows validate. One355→356prose join forms동적으로 with an empty separator and retains ten intervening table/category items plus both original source contexts.",
+          "Twenty original images retain eight literal captions and twelve null captions. Six screens retain selected searchable labels with explicit miniature configuration/list/body/control limits. Five application heading/icon pairs remain. No original software or configuration file is recovered.",
+          "Table1 retains39rows,117cells,95nonblank cells,22blank merged-resource cells,three headers and17resource groups. Repeated DeleteObject cells retain distinct source offsets. Diagram1 retains12label regions/13physical rows,six nodes andfive directed arrows;its final node reads클라이언트 프로그램. All table/cell/group/screen/application/diagram/node/edge identities and references are namespaced.",
+          "Four recovery steps,six option entries,three physical hotkey occurrences,sixteen internal prose boundaries and46source-local candidates retain their original contexts. Option namesExecuter/RepaintScreen,table spellingsCreateCommpatibleDC/SetWindowHook/GlobalFreeAtom/UnhookWindowsHook,directoryrestore,physical filename/menu/hotkey wraps and all historical claims remain literal.",
+          "Editorial attribution〈편집자〉remains separate from canonical김강훈 byline. Opening dropcap윈is folded once. Prose default.pif and screenshot_default.pif remain independent source forms. Final356endsstress.ini paragraph맞추어 준다.with a separateMSornament;the lower independent book advertisement is excluded.357is advertising;358opens separate0028.",
+          "Final native adds13initialrecognitions aftertwo pre-OCR margin events. All13drafts fully read before one continuing source pass;zero retries or within/post-pass changes. Fifteen final-page crops are exact,with thirteen disjoint text regions andzero threshold130crossings after direct color review. Original opening maps/OCR/corrections and both474-file opening revisions remain unchanged.",
+          "Fifteen rehashed native faults pass generic integrity then reject in independent source audit;eighteen assembly faults,five self-consistent projection namespace/occurrence faults andtwo ownership faults reject. Failed audit-helper path/root-author assumptions are retained and corrected without changing native/assembly content. All34666prior files,thirty core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained.",
+          "Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical claims,original software/configuration recovery and execution remain unverified. Selected GUI labels do not certify complete miniature data recovery. No reader rebuild."
         ]
       }
     },
@@ -4850,12 +4895,51 @@
         "sha256": "262335d90bce3c5ec970db15f0917ce99797beb5498ad3f6f5d3f563ae1add9c",
         "bytes": 82259
       }
+    },
+    {
+      "name": "1993-03-batch-41",
+      "status": "complete",
+      "completed_at": "2026-11-02T14:01:55.242105+00:00",
+      "goal": "Restore final Windows-tools356 and actually assemble all seven pages350–356.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0027"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        356
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        350,
+        355,
+        357,
+        358
+      ],
+      "recognition_invocations": 13,
+      "initial_recognitions": 13,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 2,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-41/validation-complete.json",
+        "sha256": "87808fc1c7246d743f582ba1b464ef6a858315fb47e40d568b30e5cfe41c4c9d",
+        "bytes": 3716
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-41/reproduction.json",
+        "sha256": "e209a1afe1a6fc415b82684f68fdf4b0edcef6098788cc3f8f3752c064d0a129",
+        "bytes": 100136
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 19,
-    "partial": 1,
+    "readable": 20,
+    "partial": 0,
     "group_headings": 4,
     "section_references": 3,
     "unresolved": 25
@@ -4866,26 +4950,35 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-41",
-    "goal": "Restore final Windows-tools356 andactuallyassembleallsevenpages350–356fromindependentlyregeneratedimmutablenatives.",
+    "name": "1993-03-batch-42",
+    "goal": "Verify public-software article0028 from known PDF358opener and establish actual continuity/ending;restore up to six confirmed pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0027"
+      "maso-1993-03-toc-0028"
     ],
-    "mapping_targets": [
-      356
+    "canonical_page_reference": 356,
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      358,
+      359,
+      360,
+      361,
+      362,
+      363
     ],
     "planned_outside_lookup_pdf_pages": [
-      350,
-      355,
       357,
-      358
+      364,
+      365,
+      366,
+      367,
+      368
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained356render;excludeindependentlowerpublisherbookad. Keepfinalstress.ini paragraph/MSornament andallsource resource claims literal. Incoming355동+356적으로 requires emptyseparatoracrossinterveningtable1;retainbothfullsourcecontexts. Opening130crops/112outcomes,eightsourcecaptions,GUIselectedlimits,diagram/table/blank/repeated-celloccurrencesandcandidatesmustprojectexactly. Namespacealltable/cell/group/screen/application/diagram/node/edge/procedure/contextidentifiers. Originalopeningpartialnotesremainhistorical. No reader rebuild."
+    "note": "Preserve canonical쓸만한 윈도우즈용 공개 소프트웨어 4가지,byline편집부,parent활용0025/reference356. Opener358 reads쓸만한 윈도우즈용 공개 소프트웨어 네 가지 and credits김영숙,신동수기자;retain source forms separately,without rewriting canonical identity. Verify actual ending directly,not from next reference362. Reuse retained358–360renders where available. Preserve original screenshots/tables with literal captions and searchable selected labels,plus honest miniature text/data limits. Group활용 and Windows-tools0027 are final;debugger0029remains separate. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
