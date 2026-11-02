@@ -6,49 +6,50 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: sixteen readable/sample-reviewed articles, one partial,
+March 1993 is in progress: seventeen readable/sample-reviewed articles, no partials,
 three non-owning groups, three final section references and 29 unresolved identities
 among 52.
 
-Batch 35 verifies Halla Pro(2) article 0023's actual twelve-page extent, PDF
-330–341, and preserves opening 330–335/printed 328–333 as a 790-file partial native.
-Independent and fresh-process exports match. All 211 exact crops, 190 OCR outcomes,
-2,544 typed range occurrences and 484 nonempty source reading rows validate. Four
-original tables retain 49 data cells, two blank cells, eleven headers and four
-literal captions. Table 2 keeps five multiline groups; table 3 keeps eight nodes
-and five arrows in three separate priority chains. Table 4 reads 내정 자형.
-Twenty-one original images have four literal captions and seventeen null captions.
-Directory-tree parts and project diagrams retain 49 searchable labels and fourteen
-library/description pairs. Seven procedure groups preserve 33 entries; seven command
-occurrences and twelve header filenames remain indexed. The annotated HELLOHAN.C
-example has thirteen physical rows/four blanks and four separate callouts. DOS
-output adds ten rows/two blanks: 23 total rows, 153 tokens, one comment and two
-quoted literals. Four colon-like statement endings remain explicit colon/semicolon
-uncertainties without syntax repair. Six prose and two procedure boundaries retain
-their original contexts; outgoing 335→336 remains deferred across tables 2–4.
-All 190 initial drafts were fully read before one continuing source pass. Fifteen
-pre-OCR crop repair/repartition events across three retained maps; zero retries or
-within/post-pass changes. Printed wording, filename differences, damaged glyphs,
-dot counts and control-byte candidates remain literal or explicitly uncertain.
-Thirty rehashed native cases and two ownership cases reject. All 28,405 prior files
-and thirty core modules remain exact; earlier fresh 213-test evidence is retained.
-Final 336–341 and actual twelve-page assembly remain required. No code repair,
-compilation, execution or reader rebuild.
+Batch 36 preserves Halla Pro(2) final PDF 336–341 as a 949-file native and actually
+assembles the complete twelve-page article, 330–341/printed 328–339. All 1,748 files
+match an export consuming two independently regenerated natives totaling 1,739 files
+and a fresh-process rebuild. All 464 exact crops, 419 outcomes, 5,562 native metadata
+projections, 10,732 current typed ranges/10,286 source occurrences and 1,001 indexed
+reading rows/fragments validate. One 335→336 prose join retains both original source
+contexts and all 38 intervening table 2–4 caption/image/header/cell items, with one
+declared display space. Ten tables retain 133 data cells, two blank cells, 29 printed
+headers and one blank header. Thirteen code/output contexts retain 63 physical/
+59 logical rows, thirteen blanks, four wraps, 454 tokens, one comment, eighteen
+quoted literals and seven include rows. Four opening callouts and nine final
+code annotations remain separate from code bytes. Forty-five original images have
+nineteen literal captions and 26 null captions. Five complete screen images retain
+64 selected GUI label candidates and five source creator/ID associations. Miniature
+GUI text/data remains source-image dependent; no complete GUI transcription,
+numerical dataset or original software behavior is claimed. Fifteen internal prose
+and two procedure boundaries remain; final 341's next-month paragraph/MS ornament
+stays above excluded publisher advertising. Final native adds 229 initial calls,
+all drafts fully read before one continuing source pass. Seventy-eight pre-OCR crop
+events, one saved punctuation refinement during the pass, zero retries or within/
+post-pass crop/OCR changes. Printed FIXRESMDOE, wording, filename/coordinate
+differences and colon/semicolon candidates remain literal or explicitly uncertain.
+Twenty native, fourteen assembly, three self-consistent adapter faults and two
+ownership cases reject. All 29,195 prior files and thirty core modules remain exact;
+the earlier fresh 213-test evidence is retained. Both natives remain immutable with
+historical partial scopes. No code repair, compilation, execution or reader rebuild.
 
-Current totals: sixteen readable/sample-reviewed articles, one partial, three non-owning
+Current totals: seventeen readable/sample-reviewed articles, no partials, three non-owning
 groups, three section references and 29 unresolved identities among 52. Seventeen
-current body-owner packages contain 7,568 exact files; ten classification evidence
+current body-owner packages contain 8,526 exact files; ten classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 36 restores final Halla Pro(2) pages 336–341 as immutable native b,
-then actually assembles the complete twelve-page article 330–341 from independently
-regenerated natives. Verify original 335 phrase “지정할 필요가 없을”→336 “때에는”
-contexts and retain every intervening table 2–4 caption/image/header/cell item.
-Preserve initialization examples 1–4, tables 5–10, screens 1–5 and final 341's
-next-month paragraph/MS ornament. Exclude its lower publisher advertisement;
-342–343 are printer advertisements and 344 is the distinct CMDLN opener. Namespace
-all custom table, diagram, procedure, code and source references during assembly.
-No reader rebuild.
+Next: Batch 37 verifies CMDLN article 0024 from the observed PDF 344/printed
+342 opener, establishes its actual ending and restores up to six confirmed pages,
+provisionally 344–349. Preserve canonical title C++ 클래스를 이용한 커맨드 라인 분석기, CMDLN,
+byline 서병우, parent 0020 and reference 342. Do not infer its ending from the
+Windows-tool reference 348 or a global PDF offset. Group 0025 활용 and OOP article
+0026/reference 304 remain separate unresolved tasks. Preserve source code, physical
+wraps/blanks, literal strings and defects without repair or execution. No reader rebuild.
+
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
