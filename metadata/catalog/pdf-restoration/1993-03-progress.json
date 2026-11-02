@@ -4175,23 +4175,131 @@
       "toc_entry_id": "maso-1993-03-toc-0040",
       "title": "컴퓨터 사전",
       "parent_id": "maso-1993-03-toc-0032",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete dictionary0040 on PDF404–405,individually observed printed402–403,ends with MS ornament.403 finishes separate Q&A;406/407 are independent advertising. Source title 컴퓨터사전 andtopic PCMCIA stay separate from canonical 컴퓨터 사전,null byline,parent0032 andreference402. No global offset inferred.",
+        "The116-file native matches independent andfresh-process exports.30 exact source crops,26 selected outcomes,455 typed ranges,82 nonempty physical rows and34 source-local candidates validate. Four original images retain two framed compositions,photograph andMS ending. One literal caption belongs to photograph;other captions are null.",
+        "Twenty-eight negative checks reject18 rehashed native faults,eight classification faults andtwo ownership faults. All40803 prior files,30 core modules andsource/TOC/queue/runtime pins remain exact;earlier fresh213-test baseline retained. Fullproofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical truth andoriginal hardware/software behavior remain unverified. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-53-r01/dictionary",
+        "article_id": "scan-maso-1993-03-toc-0040",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-53-r01/dictionary/manifest.json",
+          "sha256": "1bd7769f01f63467c7ba3ffa57ad2aa7fc08a06be29f4020328be3573c9417f4",
+          "bytes": 19455
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            404,
+            405
+          ],
+          "printed_pages": [
+            "402",
+            "403"
+          ],
+          "regions": 30,
+          "blocks": 26,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 405,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-53/validation-complete.json",
+          "sha256": "a9c22f5c26c1e26040acaf22ad5b4212dd341670b9095ee919e2130cb85fee87",
+          "bytes": 2462
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-53/native-reproduction.json",
+          "sha256": "fef8c61f647f8f7ad043d29d63b905788f3016642a6a09b54a9d60893ff161a3",
+          "bytes": 22752
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-53/dictionary-r03/package-recipe.json",
+          "sha256": "c2b091b0baa76b18b7e7cb748edc427dc79daecee25a3e7e7c24b41dba644c78",
+          "bytes": 4981
+        },
+        "checkpoint": "batch-53",
+        "full_source_extent": {
+          "start_pdf_page": 404,
+          "end_pdf_page": 405,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-53/source-review-completed.json",
+            "sha256": "0ae10abf38175e1da76d461b20be7f0944e02806b6cfba3f2db90aba3b8a67a1",
+            "bytes": 5023
+          },
+          "note": "Complete two-page dictionary with closing MS ornament;following two pages independent advertising."
+        },
+        "notes": [
+          "Complete dictionary0040 on PDF404–405,individually observed printed402–403,ends with MS ornament.403 finishes separate Q&A;406/407 are independent advertising. Source title 컴퓨터사전 andtopic PCMCIA stay separate from canonical 컴퓨터 사전,null byline,parent0032 andreference402. No global offset inferred.",
+          "The116-file native matches independent andfresh-process exports.30 exact source crops,26 selected outcomes,455 typed ranges,82 nonempty physical rows and34 source-local candidates validate. Four original images retain two framed compositions,photograph andMS ending. One literal caption belongs to photograph;other captions are null.",
+          "Seven numbered benefits,22 literal claims,seven terminology entries andthree prose boundaries retain source contexts. Unusual3.5(넓이)×69.2(길이)×51.46(두께)mm,Microsof,일일,85ns/19ms/200배,voltage/capacity/speed claims stay literal. No arithmetic,grammar or technical repair.",
+          "All26 complete raw drafts read before one source correction pass.26 initial kor+eng recognitions,three pre-OCR crop events,zero unchanged-input retries or correction-stage/post-pass changes. R01 schema failure andallpreflight/map revisions remain.",
+          "Non-owning radar0041 verified from canonical contents bubble,full103 divider andfive independent component openings104/102,114/112,124/122,128/126 and130/128. Source locators stay separate from null canonical child references. No parent-authored body,duplicate ownership,group folio orownedpage range assigned. Allfive child outcomes stay unchanged.",
+          "Twenty-one source pages directly reviewed:two mapped andnineteen outside lookups. Twelve classification files,includingten original images,reproduce independently/fresh-process. Unreviewed component interiors andwholechild extents remain unverified.",
+          "Twenty-eight negative checks reject18 rehashed native faults,eight classification faults andtwo ownership faults. All40803 prior files,30 core modules andsource/TOC/queue/runtime pins remain exact;earlier fresh213-test baseline retained. Fullproofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical truth andoriginal hardware/software behavior remain unverified. No reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0041",
       "title": "정보레이다",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Non-owning radar0041 verified from canonical contents bubble,full103 divider andfive independent component openings104/102,114/112,124/122,128/126 and130/128. Source locators stay separate from null canonical child references. No parent-authored body,duplicate ownership,group folio orownedpage range assigned. Allfive child outcomes stay unchanged.",
+        "Twenty-one source pages directly reviewed:two mapped andnineteen outside lookups. Twelve classification files,includingten original images,reproduce independently/fresh-process. Unreviewed component interiors andwholechild extents remain unverified.",
+        "Twenty-eight negative checks reject18 rehashed native faults,eight classification faults andtwo ownership faults. All40803 prior files,30 core modules andsource/TOC/queue/runtime pins remain exact;earlier fresh213-test baseline retained. Fullproofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical truth andoriginal hardware/software behavior remain unverified. No reader rebuild."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1993-03/classifications/batch-53-r01/group-0041.json",
+          "sha256": "c797b2a912cf13dfea236cd0577ad445e84a2e3b039bea84b3f42daa2e829677",
+          "bytes": 2262
+        },
+        "source_contents_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-53-r01/contents.png",
+          "sha256": "6f816316575a5b58325e05e200d538a4f5d378a2ef8a9ef96031f166bd16f81a",
+          "bytes": 142517
+        },
+        "source_category_asset": {
+          "path": "archive/pdf/1993-03/classifications/batch-53-r01/divider-original.png",
+          "sha256": "dc4e80ad75e8b735384813064cb744ef39aae4dfcd154bfeebe3e231f4d75eed",
+          "bytes": 7257501
+        },
+        "source_context_index": {
+          "path": "archive/pdf/1993-03/classifications/batch-53-r01/observed-contexts.json",
+          "sha256": "6f616198f4ae2562328e865d31b02e9eef70e3cc184559596478750f2cf953c9",
+          "bytes": 14396
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-53/validation-complete.json",
+          "sha256": "a9c22f5c26c1e26040acaf22ad5b4212dd341670b9095ee919e2130cb85fee87",
+          "bytes": 2462
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-53/group-reproduction.json",
+          "sha256": "875c8ec8525f2eb798d0971787553d50d9b90170be5d97a05792f68ebe792313",
+          "bytes": 2060
+        },
+        "canonical_page_reference": 101,
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0042",
@@ -6425,15 +6533,80 @@
         "sha256": "797986b65a51745db0db9a54344e7fff90d266b8e2a8c5d6987f57b928faaa4f",
         "bytes": 4287
       }
+    },
+    {
+      "name": "1993-03-batch-53",
+      "status": "complete",
+      "completed_at": "2026-11-02T21:05:26.215702+00:00",
+      "goal": "Restore complete dictionary0040 and classify non-owning radar0041 without advancing child bodies.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0040",
+        "maso-1993-03-toc-0041"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        404,
+        405
+      ],
+      "outside_lookup_pages": 19,
+      "outside_lookup_pdf_pages": [
+        4,
+        5,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        114,
+        124,
+        128,
+        130,
+        131,
+        132,
+        403,
+        406,
+        407
+      ],
+      "recognition_invocations": 26,
+      "initial_recognitions": 26,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 26,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 3,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "classification_evidence_files": 12,
+      "children_advanced": [],
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-53/validation-complete.json",
+        "sha256": "a9c22f5c26c1e26040acaf22ad5b4212dd341670b9095ee919e2130cb85fee87",
+        "bytes": 2462
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-53/native-reproduction.json",
+        "sha256": "fef8c61f647f8f7ad043d29d63b905788f3016642a6a09b54a9d60893ff161a3",
+        "bytes": 22752
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-53/group-reproduction.json",
+        "sha256": "875c8ec8525f2eb798d0971787553d50d9b90170be5d97a05792f68ebe792313",
+        "bytes": 2060
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 29,
+    "readable": 30,
     "partial": 0,
-    "group_headings": 6,
+    "group_headings": 7,
     "section_references": 3,
-    "unresolved": 14
+    "unresolved": 12
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -6441,19 +6614,12 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-53",
-    "goal": "Restore dictionary0040 on observed404–405 and verify ownership/extent of information-radar0041 from contents reference101 and bounded source probes.",
+    "name": "1993-03-batch-54",
+    "goal": "Verify full domestic-network0042 extent from observed opening104/printed102 and preserve opening104–109 within the six-page ceiling.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0040",
-      "maso-1993-03-toc-0041"
+      "maso-1993-03-toc-0042"
     ],
     "mapping_targets": [
-      404,
-      405
-    ],
-    "provisional_information_radar_probe_pdf_pages": [
-      102,
-      103,
       104,
       105,
       106,
@@ -6462,26 +6628,20 @@
       109
     ],
     "planned_outside_lookup_pdf_pages": [
-      4,
       5,
-      102,
       103,
-      104,
-      105,
-      106,
-      107,
-      108,
-      109,
-      403,
-      406,
-      407
+      110,
+      111,
+      112,
+      113,
+      114
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Dictionary source404/printed402 opens PCMCIA and405/403 ends with MS ornament. Reuse retained renders;verify following406/407 boundary before mapping. Preserve canonical title 컴퓨터 사전,null byline,parent0032/reference402 and original photograph/caption,numbered benefits,terms,numeric/technical claims without repair. Information-radar0041 정보레이다 has canonical null parent/reference101 andfive direct children0042–0046. Determine whether it is a non-owning heading or an actual compound owner from source hierarchy,component starts/ends,credits andseparators;do not preclassify or assign duplicate child bodies. Candidate102–109 probes are not verified locations or a global offset. Keep child identities/order/null references unchanged anddo not advance a third task.0037 stays unresolved with bounded location evidence;no source-wide absence conclusion. Segment any longer owned body within six total mapped pages;no reader rebuild or software execution."
+    "note": "Domestic opening104/printed102 is independently observed. Radar divider lists next overseas component112,and114/printed112 opens overseas;104–113 is a candidate extent requiring direct ending/interior continuity checks,not a globally inferred offset. Preserve independent news stories,intrinsic 동향/신제품 sections,story credits,original photos,captions andsource errors. First six pages only104–109;later110–113 andactual assembly separate if full extent verified. Canonical0042 title 국내네트워크,parent0041,null byline/reference stay exact. Allother child identities/order/null references andnon-owning group remain.0037 stays unresolved with bounded location evidence. No reader rebuild or execution."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -6618,6 +6778,66 @@
       "path": "archive/pdf/1993-03/classifications/batch-49-r01/technical-introduction.png",
       "sha256": "c64ed17fccb6f5f6d3fd868b60fe806630b27b0fd88f4bc1d655156070839c53",
       "bytes": 521414
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/books-opening.png",
+      "sha256": "5eabb8f312f2ba171f57309b6c2354c128a04bd14b6cf9338f0ee4ead831de34",
+      "bytes": 3983640
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/contents.png",
+      "sha256": "6f816316575a5b58325e05e200d538a4f5d378a2ef8a9ef96031f166bd16f81a",
+      "bytes": 142517
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/divider-index.png",
+      "sha256": "d30edb7ab5d3ce9db01c3cb66289162ee79ad04d94e790ad95d5db430f26739b",
+      "bytes": 848349
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/divider-original.png",
+      "sha256": "dc4e80ad75e8b735384813064cb744ef39aae4dfcd154bfeebe3e231f4d75eed",
+      "bytes": 7257501
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/domestic-opening.png",
+      "sha256": "66ac9c2925bf782322a5f0a586bd2e5c68323034e0c3f89e2b76ff773c03d3d8",
+      "bytes": 4387416
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/following-quiz-context.png",
+      "sha256": "585be834648afb3d3d0f43063b972b4dddd33b1c402cf7eb9442e3233229ad1e",
+      "bytes": 4590408
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/group-0041.json",
+      "sha256": "c797b2a912cf13dfea236cd0577ad445e84a2e3b039bea84b3f42daa2e829677",
+      "bytes": 2262
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/observed-contexts.json",
+      "sha256": "6f616198f4ae2562328e865d31b02e9eef70e3cc184559596478750f2cf953c9",
+      "bytes": 14396
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/overseas-opening.png",
+      "sha256": "47c24d0427e85556c28c22b21e5a3f1dc2fc9d3f08c3ff510d74d0b3229f1376",
+      "bytes": 3685888
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/prices-ending-context.png",
+      "sha256": "056b34dd7f28b9b04f38947fc782ad536af923ef282f3ed91e19fa7465b9f462",
+      "bytes": 3268436
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/prices-opening.png",
+      "sha256": "e7fe3513918deabd7a5150a52caed4b809eb2792828e3b7b360ec7d8ee85b193",
+      "bytes": 2754076
+    },
+    {
+      "path": "archive/pdf/1993-03/classifications/batch-53-r01/software-opening.png",
+      "sha256": "87de43a8a6ef15877c16413784f27b75662f162ce76d9fb5a687c83fbaf94a80",
+      "bytes": 4212888
     }
   ]
 }

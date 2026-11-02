@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: twenty-nine readable/sample-reviewed articles, no partials,
-six non-owning groups, three final section references and 14 unresolved identities
+March 1993 is in progress: thirty readable/sample-reviewed articles, no partials,
+seven non-owning groups, three final section references and 12 unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -636,22 +636,66 @@ evidence is retained. Human acceptance, full proofreading, exact source glyphs/s
 encoded bytes, historical/technical truth, original software/hardware recovery and
 execution remain unverified. No reader rebuild.
 
-Current totals: twenty-nine readable/sample-reviewed articles, no partials, six
-non-owning groups, three section references and 14 unresolved identities among 52.
-The 29 current body-owner packages contain 13,073 exact files; 27 classification
+Batch 53 completes dictionary article 0040 on PDF 404–405/individually observed
+printed 402–403. Its 116 JSON/assets files reproduce independently and in a fresh
+process. All thirty source-exact crops, 26 outcomes, 455 typed ranges and 82
+nonempty physical rows validate. The PCMCIA article ends with the MS ornament;
+403 finishes separate Q&A and 406–407 are independent advertising. Source title
+컴퓨터사전 remains separate from canonical 컴퓨터 사전. Null byline, parent 0032
+and reference 402 stay unchanged; no assembly remains for this complete native.
+
+Four original images preserve both framed page compositions, the photograph and
+ending ornament. The photograph has one literal caption with its left triangle;
+three other captions are null. Seven numbered benefits, 22 literal claims, seven
+terminology entries and three prose continuations retain their own source contexts.
+The unusual printed dimensions 3.5(넓이)×69.2(길이)×51.46(두께)mm, Microsof, 일일,
+85ns/19ms/200배, voltage, capacity and modem-speed claims remain literal. Thirty-four
+source-local candidates document uncertainty without arithmetic, grammar or
+technical repair. Physical wraps around the photograph and across pages remain.
+
+All 26 complete drafts were read before one source correction pass: 26 initial
+kor+eng calls, zero unchanged-input retries and no correction-stage or post-pass
+changes. Three pre-OCR crop events remove neighboring ink, expand an initial row
+and split the final paragraph around the ending ornament. Final text crops are
+disjoint, with zero threshold-130 crossings after direct color review. The failed
+initial schema preparation, all preflight/map revisions and failed helper audits
+remain; helper fixes change no saved reading, OCR, source or selected export.
+
+Information-radar entry 0041, 정보레이다, is now a non-owning group. Contents 5's
+bubble and full divider/index 103 organize five independently headed components:
+104/printed 102 domestic news, 114/112 overseas news, 124/122 software reviews,
+128/126 new books and 130/128 prices. Page 131/129 contains the price charts and
+132/130 opens the independent reader quiz. Twelve classification files, including
+ten original images, reproduce independently and in a fresh process. Source index
+locators remain separate from null canonical child references. No parent-authored
+body, duplicate child ownership, group folio or owned range is assigned. All five
+children retain their original outcomes, identities, order, parents and references;
+unreviewed component interiors and complete child extents are not certified.
+
+Twenty-one pages were directly reviewed: two mapped and nineteen outside lookups.
+Twenty-eight negative checks reject eighteen rehashed native faults, eight group
+classification faults and two ownership faults. All 40,803 prior files, thirty
+core modules and source/TOC/queue/runtime pins remain exact; the earlier fresh
+213-test baseline is retained. Full proofreading, human acceptance, exact glyphs,
+spaces and encoded bytes, historical/technical truth and original hardware/software
+behavior remain unverified. Item 0037 stays unresolved with bounded location evidence.
+No reader rebuild.
+
+Current totals: thirty readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and 12 unresolved identities among 52.
+The 30 current body-owner packages contain 13,189 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 53 restores dictionary article 0040 on observed PDF 404–405 and
-verifies information-radar heading/body 0041 from its canonical reference 101.
-Check dictionary's following 406/407 boundary before mapping; preserve its original
-PCMCIA photograph/caption, numbered benefits, terminology and numeric claims.
-For information radar, use contents hierarchy and bounded source probes 102–109
-to determine non-owning versus compound ownership before assigning any body.
-Those probes are candidates, not verified locations or a global offset. Keep
-all five child identities, canonical order and null references unchanged; do not
-advance a third task. Item 0037 remains unresolved with bounded location evidence.
+Next: Batch 54 verifies domestic-network article 0042 from its independently
+observed opening PDF 104/printed 102 and preserves only opening 104–109. Directly
+review 110–113 and the following overseas opening 114/112 to establish ending and
+interior continuity. Candidate full extent 104–113 is not yet certified. Preserve
+independent news stories, intrinsic 동향/신제품 sections, story credits, original
+photos/captions and source errors. Later pages and actual assembly are separate
+checkpoints. Canonical title 국내네트워크, parent 0041 and null byline/reference
+stay unchanged. Do not advance another radar child from source observations.
 Two tasks, six total mapped pages and twenty outside lookups remain ceilings.
-Segment a longer owned body and assemble separately. No execution or reader rebuild.
+Item 0037 stays unresolved. No execution or reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
