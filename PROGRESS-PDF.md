@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: twenty-eight readable/sample-reviewed articles, no partials,
-six non-owning groups, three final section references and 15 unresolved identities
+March 1993 is in progress: twenty-nine readable/sample-reviewed articles, no partials,
+six non-owning groups, three final section references and 14 unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -578,21 +578,80 @@ changing exports. Full proofreading, human acceptance, exact glyphs/spacing/enco
 bytes, technical/historical claims, original software/scan settings and execution
 remain unverified. No reader rebuild.
 
-Current totals: twenty-eight readable/sample-reviewed articles, no partials, six
-non-owning groups, three section references and 15 unresolved identities among 52.
-The 28 current body-owner packages contain 12,620 exact files; 27 classification
+Batch 52 completes Q&A article 0039 on PDF 398–403/individually observed printed
+396–401. Its 453-file JSON/assets native matches independent and fresh-process
+exports. All 141 source-exact crops, 101 outcomes, 1,888 typed ranges and 585
+nonempty reading rows validate. The final WAVE answer, MS ornament and separate
+editorial notice end on 403; the dictionary opens independently on 404 and ends
+405. Canonical title, null byline, parent 0032 and reference 396 stay unchanged.
+Only Q&A advances to readable; no assembly remains for its complete six-page native.
+
+Two intrinsic sections retain four software and twelve hardware exchanges, each
+with its own heading, complete question/answer and historical reader credit.
+Sixteen reader name/locality credits are distinct from article authorship. Thirty-two
+original graphic Q/A markers remain outside prose letters. Forty original images
+also retain the category diamond, three code panels, interleave diagram, two
+editorial notice panels and ending ornament. All forty captions stay null because
+no separate printed captions are present. Right-column advertisements on 401/403
+are excluded. No new canonical section children or duplicate group body is created.
+
+Three independent code contexts retain one expression row, 31 Pascal display rows
+(27 nonempty) and four C rows: 36 display rows, 32 nonempty rows, 157 lexical tokens,
+two typographic string occurrences and three printed procedure definitions. Four
+Pascal gaps are display separators, without a certified source-file blank-line count.
+Program-terminal colon/semicolon candidates, typographic quotes, one C pointer
+asterisk, ++1 and alloc remain without syntax repair, compilation or execution.
+
+Ten diagram-label regions preserve fourteen numeric occurrences. Both sector grids
+visibly print 1/2/3/4; the first reading row has four digits and the second only 1/2.
+No unprinted 3/4, expected interleave permutation or reconstructed original data is
+supplied. The independently printed second 섹터 label has its own source range.
+Eleven prose/question boundaries retain original contexts, including three across
+pages, split 다시/멀티스캔 and question 12's separate cross-column credit. Seventy-eight
+source-local candidates preserve ambiguous names, punctuation, historical HWP glyphs,
+garalloc, 메트로늄, 메시시, units and numeric/source claims without normalization.
+
+All 100 initial drafts were fully read before one continuing source pass. The pass
+paused after saved 398/399 when direct comparison found the unmapped second sector
+label on 400. Its full crop was viewed, recognized once, and complete draft read
+before resuming 400. All 100 earlier raw/TSV results are byte-exact reuses, with their
+actual R02 execution settings pinned in derived R03 compatibility metadata. Total
+101 calls: three eng and 98 kor+eng; zero unchanged-input retries. Six pre-OCR crop
+repairs and one within-pass new region remain in immutable maps. No existing crop or saved reading changed during correction, and there were no
+post-pass text changes. Final text crops are disjoint; five remaining
+threshold-130 crossings are directly reviewed diamond/grid/Q-panel frame ink.
+
+Twenty-three source pages 5/384–405 were directly reviewed: six mapped and seventeen
+outside lookups. String-replacement child 0037 remains unlocated in bounded 5/384–397.
+That review finds the separate HWP article credited to 곽동수 on 384–389, book
+advertising on 390–391, the four located technical contributions on 392–395 and
+advertising on 396–397. Canonical 문자열 교체를 간편하게/김범석, null child reference
+and parent 0033 remain exact. No other title/credit is substituted, no body created,
+and no source-wide absence or missing-page count inferred. Its outcome stays unresolved.
+
+Thirty-six negative checks reject thirty rehashed native faults, four unwarranted
+bounded-search outcomes and two ownership faults. All 40,350 prior files, thirty
+core modules and source/TOC/queue/runtime pins remain exact; earlier fresh 213-test
+evidence is retained. Human acceptance, full proofreading, exact source glyphs/spaces/
+encoded bytes, historical/technical truth, original software/hardware recovery and
+execution remain unverified. No reader rebuild.
+
+Current totals: twenty-nine readable/sample-reviewed articles, no partials, six
+non-owning groups, three section references and 14 unresolved identities among 52.
+The 29 current body-owner packages contain 13,073 exact files; 27 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 52 performs a bounded source-location review for string-replacement
-child 0037 and verifies Q&A article 0039 from its observed PDF 398/printed 396 opener.
-Review nearby source contexts 384–397 for 0037 without substituting unlisted 395 tips,
-borrowing another credit or claiming source-wide absence. Verify Q&A's continuity,
-actual ending and following dictionary before mapping. Provisional PDF 398–403 is
-not a verified extent; segment if longer and actually assemble separately. Keep
-canonical titles/bylines/parents/references unchanged. Reuse retained renders and
-preserve original illustrations, captions, reader credits, code/data and uncertainty.
-Two tasks, six mapped pages and twenty outside lookups remain ceilings. No software
-execution or reader rebuild.
+Next: Batch 53 restores dictionary article 0040 on observed PDF 404–405 and
+verifies information-radar heading/body 0041 from its canonical reference 101.
+Check dictionary's following 406/407 boundary before mapping; preserve its original
+PCMCIA photograph/caption, numbered benefits, terminology and numeric claims.
+For information radar, use contents hierarchy and bounded source probes 102–109
+to determine non-owning versus compound ownership before assigning any body.
+Those probes are candidates, not verified locations or a global offset. Keep
+all five child identities, canonical order and null references unchanged; do not
+advance a third task. Item 0037 remains unresolved with bounded location evidence.
+Two tasks, six total mapped pages and twenty outside lookups remain ceilings.
+Segment a longer owned body and assemble separately. No execution or reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its

@@ -3959,7 +3959,42 @@
       "availability": "unresolved",
       "verification": "unreviewed",
       "classification_evidence": [],
-      "restoration": null
+      "restoration": null,
+      "bounded_location_review": {
+        "checkpoint": "batch-52",
+        "evidence": {
+          "path": "archive/pdf/1993-03/restoration/batch-52/string-replacement-location-review.json",
+          "sha256": "797986b65a51745db0db9a54344e7fff90d266b8e2a8c5d6987f57b928faaa4f",
+          "bytes": 4287
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-52/validation-complete.json",
+          "sha256": "19f0e02f96bb70fc986be3f8b21a26d3af3362e2c9573c9a53eff73aca45f907",
+          "bytes": 2929
+        },
+        "source_pdf_pages": [
+          5,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397
+        ],
+        "result": "Unlocated in this bounded review; canonical outcome remains unresolved.",
+        "final_eligibility_decision": false,
+        "source_wide_absence_claimed": false,
+        "missing_page_count": null,
+        "restored_body_created": false
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0038",
@@ -4047,12 +4082,94 @@
       "toc_entry_id": "maso-1993-03-toc-0039",
       "title": "물어보세요",
       "parent_id": "maso-1993-03-toc-0032",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete Q&A 0039 spans PDF398–403, individually observed printed396–401, ending at the final WAVE answer/MS ornament and separate editorial notice. The independent dictionary opens404 and continues/ends405;397 is advertising. Canonical title 물어보세요, null byline, parent 정보나눔터0032 and reference396 remain unchanged. No global PDF/folio offset or contents-derived ending is inferred.",
+        "The453-file JSON/assets native matches independent and fresh-process rebuilds. All141 source-exact crops,101 selected outcomes,1888 typed ranges,585 nonempty reading rows and78 source-local candidates validate. No assembly remains for this complete six-page native.",
+        "Two intrinsic software/hardware sections preserve four and twelve exchanges, respectively. All sixteen questions, answers, question headings and historical reader name/locality credits retain their own source contexts. Reader credits are not an article author; no new canonical section children are invented. Thirty-two original graphic Q/A markers remain outside prose letters.",
+        "Thirty-six negative checks reject30 rehashed native faults,four unwarranted bounded-search outcomes andtwo canonical ownership faults. All40350 prior files,30 core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence is retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical/technical truth,original software/hardware recovery andexecution remain unverified. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-52-r01/qa",
+        "article_id": "scan-maso-1993-03-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-52-r01/qa/manifest.json",
+          "sha256": "f29ec2a4487bcff731078c8343c613edddabecebdda960e4c5825c49802f2c5a",
+          "bytes": 78785
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            398,
+            399,
+            400,
+            401,
+            402,
+            403
+          ],
+          "printed_pages": [
+            "396",
+            "397",
+            "398",
+            "399",
+            "400",
+            "401"
+          ],
+          "regions": 141,
+          "blocks": 101,
+          "figures": 40,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 403,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-52/validation-complete.json",
+          "sha256": "19f0e02f96bb70fc986be3f8b21a26d3af3362e2c9573c9a53eff73aca45f907",
+          "bytes": 2929
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-52/native-reproduction.json",
+          "sha256": "c18979a717c7eb8eb29258bbbef43763451e25f97e20e095fe255f3968195da8",
+          "bytes": 79853
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-52/qa-r03/package-recipe.json",
+          "sha256": "98ae739923556e92a08235e79b40a987d8ca574a03e2104027703e1b5e8c2962",
+          "bytes": 23301
+        },
+        "checkpoint": "batch-52",
+        "full_source_extent": {
+          "start_pdf_page": 398,
+          "end_pdf_page": 403,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-52/source-review-completed.json",
+            "sha256": "5db502af08c8e23542a8a8c0e77dbb4cac1b1ea3344354c4add68e1a355b457b",
+            "bytes": 4953
+          },
+          "note": "Complete six-page Q&A with final answer,MS ornament andeditorial notice.404 opens independent dictionary;397 is advertising. No canonical child or global offset invented."
+        },
+        "notes": [
+          "Complete Q&A 0039 spans PDF398–403, individually observed printed396–401, ending at the final WAVE answer/MS ornament and separate editorial notice. The independent dictionary opens404 and continues/ends405;397 is advertising. Canonical title 물어보세요, null byline, parent 정보나눔터0032 and reference396 remain unchanged. No global PDF/folio offset or contents-derived ending is inferred.",
+          "The453-file JSON/assets native matches independent and fresh-process rebuilds. All141 source-exact crops,101 selected outcomes,1888 typed ranges,585 nonempty reading rows and78 source-local candidates validate. No assembly remains for this complete six-page native.",
+          "Two intrinsic software/hardware sections preserve four and twelve exchanges, respectively. All sixteen questions, answers, question headings and historical reader name/locality credits retain their own source contexts. Reader credits are not an article author; no new canonical section children are invented. Thirty-two original graphic Q/A markers remain outside prose letters.",
+          "Forty original images retain the category diamond,32 Q/A markers,three code panels,interleave diagram,two editorial notice panels and final MS ornament. All forty captions are null because no separate printed captions are present. Right401 Asung library andright403 Glow/Clipper advertising are excluded.",
+          "Three independent code contexts retain one expression row,31 Pascal display rows/27 nonempty rows andfour C rows:36 physical display rows,32 nonempty rows,157 lexical tokens,two typographic string occurrences andthree printed procedure definitions. Four Pascal gaps are display separators rather than certified source-file blank-line counts. Program-terminal colon/semicolon glyphs,curved quotes,one C pointer asterisk,++1 and alloc remain literal/candidate forms,without syntax repair,compilation or execution.",
+          "Ten diagram-label regions preserve14 numeric occurrences:both sector grids visibly print1/2/3/4;first reading row has four digits andsecond reading row only1/2. No unprinted3/4,expected interleave permutation,technical correction or decoded original data is supplied. Independent second 섹터 label binds to its own source region,not the first identical occurrence.",
+          "Eleven prose/question continuations preserve original contexts,including three cross-page boundaries,split 다시,멀티스캔,398→399 않습/니다 and403 SYSINFO question. Question12 credit crosses columns separately from its question. Source garalloc,메트로늄,메시시,historical HWP glyph,hardware units/numeric claims and ambiguous reader names remain literal or explicitly uncertain. All78 candidates remain source-local andunverified.",
+          "All100 initial raw drafts were fully read before one continuing source pass. The pass paused after saved398/399 to add the missing independently printed second sector label on400;its full crop was viewed,recognized once andcomplete draft read before resuming400. All100 existing raw/TSV results are byte-exact reuses with actual R02 execution settings pinned in derived R03 compatibility metadata. Total101 calls:three eng and98 kor+eng. Zero unchanged-input retries or saved-text refinements/post-pass changes. Six pre-OCR repairs plusone within-pass new region remain immutable.",
+          "Twenty-three source pages5/384–405 were directly reviewed; six mapped pages and17 outside lookups remain within bounds. Bounded review for0037 finds an independent HWP article credited 곽동수 on384–389,book advertising390/391,the four located technical contributions392–395 andadvertising396/397. Canonical 문자열 교체를 간편하게/김범석 remains unlocated andunresolved. No other tip/credit is substituted,no source-wide absence or missing-page count is claimed,andno new body is created.",
+          "Thirty-six negative checks reject30 rehashed native faults,four unwarranted bounded-search outcomes andtwo canonical ownership faults. All40350 prior files,30 core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence is retained. Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,historical/technical truth,original software/hardware recovery andexecution remain unverified. No reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0040",
@@ -6241,15 +6358,82 @@
         "sha256": "9411c300a4376c039912c67adf9c2f6d5e0285378139ad9dab88fb6a6eb15d96",
         "bytes": 22949
       }
+    },
+    {
+      "name": "1993-03-batch-52",
+      "status": "complete",
+      "completed_at": "2026-11-02T20:39:07.127573+00:00",
+      "goal": "Restore complete Q&A0039 and retain bounded unlocated0037 review without changing its outcome.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0037",
+        "maso-1993-03-toc-0039"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        398,
+        399,
+        400,
+        401,
+        402,
+        403
+      ],
+      "outside_lookup_pages": 17,
+      "outside_lookup_pdf_pages": [
+        5,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        404,
+        405
+      ],
+      "recognition_invocations": 101,
+      "initial_recognitions": 100,
+      "eng_recognitions": 3,
+      "kor_eng_recognitions": 98,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 6,
+      "within_pass_new_region_additions": 1,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 1,
+      "post_pass_changes": 0,
+      "reused_raw_tsv_outcomes": 100,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-52/validation-complete.json",
+        "sha256": "19f0e02f96bb70fc986be3f8b21a26d3af3362e2c9573c9a53eff73aca45f907",
+        "bytes": 2929
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-52/native-reproduction.json",
+        "sha256": "c18979a717c7eb8eb29258bbbef43763451e25f97e20e095fe255f3968195da8",
+        "bytes": 79853
+      },
+      "bounded_location_review": {
+        "path": "archive/pdf/1993-03/restoration/batch-52/string-replacement-location-review.json",
+        "sha256": "797986b65a51745db0db9a54344e7fff90d266b8e2a8c5d6987f57b928faaa4f",
+        "bytes": 4287
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 28,
+    "readable": 29,
     "partial": 0,
     "group_headings": 6,
     "section_references": 3,
-    "unresolved": 15
+    "unresolved": 14
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -6257,46 +6441,47 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-52",
-    "goal": "Bounded source-location review forstring replacement0037 andverify Q&A0039 actual extent fromobserved398 opener;restore upto six confirmed Q&A pages.",
+    "name": "1993-03-batch-53",
+    "goal": "Restore dictionary0040 on observed404–405 and verify ownership/extent of information-radar0041 from contents reference101 and bounded source probes.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0037",
-      "maso-1993-03-toc-0039"
+      "maso-1993-03-toc-0040",
+      "maso-1993-03-toc-0041"
     ],
-    "mapping_targets": [],
-    "provisional_mapping_targets": [
-      398,
-      399,
-      400,
-      401,
-      402,
-      403
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      5,
-      384,
-      385,
-      386,
-      387,
-      388,
-      389,
-      390,
-      391,
-      392,
-      393,
-      394,
-      395,
-      396,
-      397,
+    "mapping_targets": [
       404,
       405
+    ],
+    "provisional_information_radar_probe_pdf_pages": [
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      4,
+      5,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      403,
+      406,
+      407
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Canonical0037 문자열 교체를 간편하게/김범석,parent0033/null reference,remains unlocated in bounded392–395 review. Review nearby source contexts384–397 without substituting unlisted395 tips,borrowing other credits,claiming a source-wide absence or inventing a missing-page count. Q&A0039 물어보세요 has observed398 opener/printed396 andcanonical reference396;verify continuity andactual ending/next independent dictionary before mapping. Provisional398–403 is not a verified extent or global offset. Keep at mosttwo canonical tasks,six mapped pages,twenty outside lookups. Segment if longer andactually assemble separately. Reuse retained renders. All four restoredtechnical children0034/0035/0036/0038 are final independent owners. Preserve reader credits,original illustrations,captions,code/data andsource uncertainty;no execution or reader rebuild."
+    "note": "Dictionary source404/printed402 opens PCMCIA and405/403 ends with MS ornament. Reuse retained renders;verify following406/407 boundary before mapping. Preserve canonical title 컴퓨터 사전,null byline,parent0032/reference402 and original photograph/caption,numbered benefits,terms,numeric/technical claims without repair. Information-radar0041 정보레이다 has canonical null parent/reference101 andfive direct children0042–0046. Determine whether it is a non-owning heading or an actual compound owner from source hierarchy,component starts/ends,credits andseparators;do not preclassify or assign duplicate child bodies. Candidate102–109 probes are not verified locations or a global offset. Keep child identities/order/null references unchanged anddo not advance a third task.0037 stays unresolved with bounded location evidence;no source-wide absence conclusion. Segment any longer owned body within six total mapped pages;no reader rebuild or software execution."
   },
   "final_issue_classification_evidence_required": [
     {
