@@ -804,19 +804,53 @@ exact; earlier fresh 213-test evidence retained. Full proofreading, human accept
 exact glyphs/spacing/encoded bytes, historical claims, original software recovery
 and execution remain unverified. No reader rebuild.
 
-Current totals: nineteen readable/sample-reviewed articles, no partials, four non-owning
-groups, three section references and 26 unresolved identities among 52. Nineteen
-current body-owner packages contain 9,442 exact files; thirteen classification evidence
+Batch 40 verifies Windows-tools article 0027's actual seven-page extent, PDF
+350–356/individually observed printed 348–354, and preserves opening 350–355 as a
+474-file partial native. Selected r02 reproduces independently and in a fresh process.
+All 130 exact crops, 112 outcomes, 1,957 typed ranges and 660 nonempty source rows
+validate. Eighteen original images have eight literal captions and ten null captions.
+Five application heading/icon pairs and six screenshots retain searchable selected
+labels; miniature configuration, list, body and control data are not fully recovered.
+Diagram 1 retains twelve label regions/thirteen physical text rows, six nodes and
+five directed arrows. Its bottom-right node reads 클라이언트 프로그램 despite the
+historical crop ID final-packager. Table 1 retains 39 rows, 117 cells, 95 nonblank
+cells, 22 blank merged-resource cells, three headers and seventeen resource groups.
+Repeated DeleteObject cells link to distinct source occurrences; blanks remain empty
+with explicit image, column and group associations. Printed CreateCommpatibleDC,
+SetWindowHook, GlobalFreeAtom, UnhookWindowsHook and Executer stay literal.
+Four numbered recovery steps, 38 filename references, sixty menu references, seven
+version occurrences, fourteen prose boundaries and 36 source-local candidates retain
+their contexts. The editorial attribution is separate from 김강훈's byline; the opening
+drop cap is folded once. All 112 drafts were read before one continuing source pass;
+112 initial recognitions, zero retries or within/post-pass changes. Four maps retain
+69 pre-OCR crop events. Zero nonfigure overlaps; thirteen threshold-130 crossings are
+directly color-reviewed non-text backgrounds, frames, arrows or grid. An initial
+duplicate-order helper assertion is retained. Metadata-only r02 fixes three proposed
+future joins inside words; four root metadata files change, while article text,
+images, raw OCR/settings and ZIP bytes remain exact. Both 474-file revisions remain.
+Thirty rehashed native faults and two ownership faults reject. All 33,718 prior files
+and thirty core modules remain exact; earlier fresh 213-test evidence is retained.
+Final 356 and actual seven-page assembly remain required. Outgoing 355 ends 동 and
+356 begins 적으로 across the intervening table; the future join has no added space.
+Final 356's lower independent book advertisement is outside the article. Full
+proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical claims,
+software/configuration recovery and execution remain unverified. No reader rebuild.
+
+Current totals: nineteen readable/sample-reviewed articles, one partial, four non-owning
+groups, three section references and 25 unresolved identities among 52. Twenty
+current body-owner packages contain 9,916 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 40 verifies article 0027, 잘 알려지지 않은 유용한 윈도우즈 툴, by 김강훈,
-from its known PDF 350 opener/reference 348. Establish actual continuity and ending,
-then map up to six confirmed opening pages, provisionally 350–355. Reuse retained
-350–352 renders where available. Do not infer the ending from the next contents
-reference. Preserve original screenshots, literal captions and searchable labels
-with honest miniature-text/data limits. Group 활용 is final; public-software 0028
-remains separate. The ceilings remain two canonical tasks, six mapped pages and
-twenty outside lookups. No reader rebuild.
+Next: Batch 41 restores final Windows-tools article 0027 page PDF 356, then actually
+assembles all seven pages 350–356 from independently regenerated immutable natives.
+Reuse the retained render, exclude the lower independent publisher advertisement,
+and preserve the final stress.ini paragraph/MS ornament. Verify incoming 동/적으로
+with an empty join separator across table 1 and retain both original contexts.
+Project all table cells/groups, selected GUI labels, diagram nodes/arrows, recovery
+steps, literal captions and source candidates with complete identifier namespaces.
+Opening partial notes remain historical; public-software 0028 remains separate.
+The ceilings remain two canonical tasks, six mapped pages and twenty outside lookups.
+No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
