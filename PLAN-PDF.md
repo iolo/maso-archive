@@ -511,18 +511,42 @@ MASM punctuation and glyph/space/byte candidates remain. Twelve rehashed assembl
 eight native, two ownership and three adapter-guard cases reject. All 24,162 prior
 files and thirty core modules remain exact; earlier fresh 213-test evidence retained.
 
-Current totals: thirteen readable/sample-reviewed articles, no partials, two non-owning
-groups, three section references and 34 unresolved identities among 52. Thirteen
-current body-owner packages contain 5,031 exact files; eight final classification
-evidence files remain separate. Original natives and superseded revisions remain
-unchanged.
+Batch 28 verifies vector-font article 0019's eleven-page body, PDF 276–286/
+printed 274–284, and preserves opening 276–281 as a 346-file partial native.
+Independent and fresh-process exports match. All 94 exact crops, 81 OCR outcomes,
+2,073 typed range occurrences and 430 nonempty reading rows validate. Thirteen
+original images retain category/group/series artwork, two tables and figures 1–8;
+ten captions contain literal text and three are null. Table 1 has thirteen rows/
+39 cells/three headers; table 2 has fourteen rows/28 cells/two headers. Physical
+cell wraps remain explicit, including INSERT/CURVE in one menu cell. Cases 7/8
+have distinct straight/curve wording; final source readings supersede the earlier
+preliminary duplicate-case observation. Figure 3's matrix retains thirty displayed
+rows 0–25/96–99, 294 explicit data cells, ten headers, six blank x4/y4 cells in rows
+10/19/22 and two dotted separators. Omitted 26–95 values are never expanded.
+Three independent code contexts retain ten physical rows, 93 tokens, four comments,
+eight struct members in four field groups, two 100-element arrays and four
+assignments. Seventy-eight diagram labels retain figure/phase contexts. Nine prose
+boundaries, independent editorial/series contexts and outgoing 281→282 remain.
+All 81 initial drafts were read before one paused/resumed source pass. Sixty-five
+pre-OCR crop events and one within-pass figure-only table-frame extension remain;
+all 81 raw/TSV outcomes are exact with actual r04 execution origins. Zero text-crop
+changes, new recognitions, retries or post-pass changes. Source 고정난, 에니메이션,
+drawploy, 곡선와, repeated wording and missing counter parenthesis remain literal.
+Pcx/Pex, glyphs, spacing, encoded bytes and exact dot counts remain unverified.
+Twenty rehashed native and two ownership mutations reject. All 24,715 prior files
+and thirty core modules remain exact; earlier fresh 213-test evidence retained.
 
-Next: Batch 28 verifies vector-font article 0019's actual extent and ending
-from the observed opener on PDF 276/printed 274, then restores up to six confirmed
-opening pages. Provisional targets are 276–281. Canonical title, byline 황기태 외 4인,
-parent 0012 and reference 274 remain unchanged; the five-name source credit stays
-separate. Later reference 290 is a location lead, not verified article extent.
-Preserve diagrams, code, strings and glyph candidates. No reader rebuild.
+Current totals: thirteen readable/sample-reviewed articles, one partial, two non-owning
+groups, three section references and 33 unresolved identities among 52. Fourteen
+current body-owner packages contain 5,377 exact files; eight classification evidence
+files remain separate. Original natives and superseded revisions remain unchanged.
+
+Next: Batch 29 restores vector-font final PDF 282–286, then actually assembles
+all eleven pages 276–286 from independently regenerated natives. Main prose ends
+283; seven independent printed listings continue through listing 7 row 21 on 286.
+Preserve diagrams 9/10, incoming 281 있어→282 야 한다는 점이다. and the intervening
+table/figure contexts. Lower 286 book advertising is excluded. Canonical title,
+byline 황기태 외 4인, parent 0012 and reference 274 remain unchanged.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
