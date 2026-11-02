@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: twenty-one readable/sample-reviewed articles, no partials,
-four non-owning groups, three final section references and 24 unresolved identities
+March 1993 is in progress: twenty-two readable/sample-reviewed articles, no partials,
+four non-owning groups, three final section references and 23 unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -206,20 +206,56 @@ exact; earlier fresh 213-test evidence retained. Full proofreading, human accept
 exact glyphs/spacing/encoded bytes, historical claims, original software/configuration
 recovery and execution remain unverified. No reader rebuild.
 
-Current totals: twenty-one readable/sample-reviewed articles, no partials, four non-owning
-groups, three section references and 24 unresolved identities among 52. Twenty-one
-current body-owner packages contain 10,382 exact files; thirteen classification evidence
+Batch 43 verifies and restores complete debugger/disassembler article 0029 on PDF
+364–369/individually observed printed 362–367. All 599 files reproduce independently
+and in a fresh process. Canonical title, author 장근재, parent 활용 0025 and reference
+362 remain unchanged; source affiliation 순천향대 병원 and editorial attribution
+편집자 remain separate. All 155 exact crops, 145 outcomes, 2,904 typed ranges and
+752 nonempty source rows validate. Ten original panels retain both printed tables,
+both transcript panels, category/title/dropcap artwork and the MS ending ornament.
+Two captions contain literal display text; eight are null. Large PC is folded once
+into searchable PC가 while its original artwork remains. Table 1 retains eighteen
+command groups, 28 ordered example/function pairs and 72 nonblank logical group cells.
+Table 2 retains 26 numbered books and 78 cells: 77 nonblank and one blank author at
+row 14. Blank text/source stay empty/null with explicit row/column/original-image
+association. Repeated author names, multiple authors and publisher wraps bind to
+their own occurrences. The unnumbered debugger transcript spans middle-bottom and
+right-top 365, with thirteen display rows, twelve nonempty rows, 45 listing tokens
+and ten boxed-return display candidates. Original panels remain authority; Unicode
+⏎ does not certify control bytes. One empty display separator represents a printed
+vertical gap without claiming an original blank-line count. Printed commands,
+placeholder addresses, int 21/int 20 and trace. com remain literal. Twenty-one
+component headings, nine Multiscope/CodeView descriptions, nineteen historical
+vendor/contact rows and sixteen prose boundaries remain indexed. Professional and
+AFD continuations retain their printed hyphens and both source contexts across the
+interposed table. One hundred source-local candidates preserve vecter, aseembler,
+Archtec-ture, REMOTE DEBGGERS, Progamer’s, TDN/MI, source names, ambiguous FFOO/FF00
+round glyphs and graphic/spacing limits. Direct correction gives Asmtool and REMOTE
+DEBGGERS; preliminary layout-observation words do not override corrected source text.
+All 145 drafts read before one continuing source pass; 145 initial recognitions,
+two eng and 143 kor+eng, zero retries or within-pass/post-pass changes. Three maps
+retain 41 pre-OCR coverage events. All text crops are disjoint; eleven remaining
+threshold-130 crossings are directly reviewed table-rule ink. Adjacent 363 is bookshop
+advertising; 370 opens distinct CmcPro article 0030. Eight pages 363–370 directly
+reviewed; prepared 371–374 remain unused/unreviewed context. Thirty rehashed native
+faults and two ownership faults reject. All 35,668 prior files and thirty core modules
+remain exact; earlier fresh 213-test evidence retained. Full proofreading, human
+acceptance, exact glyphs/spacing/encoded/control bytes, historical/technical claims,
+bibliographic facts, software recovery and execution remain unverified. No reader rebuild.
+
+Current totals: twenty-two readable/sample-reviewed articles, no partials, four non-owning
+groups, three section references and 23 unresolved identities among 52. Twenty-two
+current body-owner packages contain 10,981 exact files; thirteen classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 43 verifies debugger/disassembler article 0029 from its known PDF 364
-opener/reference 362. Establish actual continuity and ending, then map up to six
-confirmed opening pages, provisionally 364–369. Reuse retained 364–368 renders; their
-context/layout review does not claim restoration. Preserve canonical title/byline
-장근재 and the source affiliation 순천향대 병원 separately. Keep debugger command
-tables, printed command/code fragments, original figures and historical claims literal;
-do not repair or execute source syntax, bytes or addresses. Public-software 0028 is
-final. The ceilings remain two canonical tasks, six mapped pages and twenty outside
-lookups. No reader rebuild.
+Next: Batch 44 verifies CmcPro article 0030, 프로그램을 만드는 프로그램 : CmcPro 2.5를
+만나봅시다, by 지만진, from its known PDF 370 opener/printed 368. Establish actual
+continuity and ending, then map up to six confirmed opening pages, provisionally
+370–375. Reuse retained 370–374 renders; 370 has opener/layout review only and 371–374
+remain unreviewed. Do not infer the ending from the next contents reference. Preserve
+original GUI panels, captions, commands and any code/data literally. Debugger 0029
+and public-software 0028 are final. The ceilings remain two canonical tasks, six mapped
+pages and twenty outside lookups. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its

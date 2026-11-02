@@ -3175,12 +3175,103 @@
       "toc_entry_id": "maso-1993-03-toc-0029",
       "title": "이런 디버거와 디스어셈블러를 사용해 보자",
       "parent_id": "maso-1993-03-toc-0025",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete debugger/disassembler article0029 spans PDF364–369, individually observed printed362–367.599 independently and fresh-process exact JSON/asset files preserve all155 source crops,145 OCR outcomes,2904 typed range occurrences and752 nonempty reading rows. Canonical title 이런 디버거와 디스어셈블러를 사용해 보자, byline 장근재, parent 활용0025/reference362 remain unchanged. Source affiliation 순천향대 병원 and editorial deck attribution 편집자 remain separate.",
+        "Ten original panels preserve category/title/dropcap artwork, both debugger transcript panels, both printed tables and the MS ending ornament. Two figure captions are literal display text; eight captions are null. Large PC is folded once into PC가 while original dropcap artwork remains.",
+        "Table1 retains eighteen command groups and28 ordered example/function pairs. All72 logical group cells are nonblank, including multiple example rows in the same command cell. Table2 retains26 numbered books/78 cells, with77 nonblank cells and one truly blank author cell at14. Blank text/source stay empty/null with explicit row/column/original-image association. Repeated Peter Norton and other values bind to their own occurrences; multiple authors and publisher wraps remain source-local.",
+        "One unnumbered historical debugger transcript spans middle-bottom/right-top365:13 display rows/12 nonempty rows,45 listing tokens and ten boxed-return display candidates. Original panels remain authority; Unicode⏎ does not certify encoded/control bytes. One empty display separator represents a large printed gap without claiming an original blank-line count. Commands, placeholder addresses, int21/int20 and trace. com remain literal; no code repair, compilation or execution.",
+        "Thirty rehashed native mutations pass generic integrity then reject in the independent source audit;two canonical ownership mutations reject separately. All35668 prior files,thirty core modules andsource/TOC/queue/runtime remain exact. Prior fresh213-test evidence retained with unchanged core modules. Full proofreading,human acceptance,exact glyphs/spacing/encoded/control bytes,technical/historical claims,software recovery andexecution remain unverified. No reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-43-r01/debuggers",
+        "article_id": "scan-maso-1993-03-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-43-r01/debuggers/manifest.json",
+          "sha256": "52f809b975926b9e01763304be4e3ac0e0531a03b739f6f9aaee553733d81e6d",
+          "bytes": 102353
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ],
+          "printed_pages": [
+            "362",
+            "363",
+            "364",
+            "365",
+            "366",
+            "367"
+          ],
+          "regions": 155,
+          "blocks": 145,
+          "figures": 10,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 369,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-43/validation-complete.json",
+          "sha256": "0bc32fbd22d8ae8b0e95835bd928ed0307aa67ef11f0fdd9d5dad5a697cf9c90",
+          "bytes": 2588
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-43/native-reproduction.json",
+          "sha256": "df1a6d78014d93f5b5cd676d1106492c86435d306e2562f8fa641d92a817f3b7",
+          "bytes": 103448
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-43/debuggers-r03/package-recipe.json",
+          "sha256": "a6a24ed95a6a6f68fa19264f63fd9f97093962ec265f92195d5251b4c3650b0d",
+          "bytes": 18642
+        },
+        "checkpoint": "batch-43",
+        "full_source_extent": {
+          "start_pdf_page": 364,
+          "end_pdf_page": 369,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-43/source-review-completed.json",
+            "sha256": "64a2c0082674e8af8d4fa4fb8b62afdc2660cac0dd1469e7898e7ad4f33f8d65",
+            "bytes": 5357
+          },
+          "note": "All six body pages restored. Final369 has Sourcer ending/MS ornament and bibliography;363advertising/370CmcPro opener directly bound source. No contents-derived ending."
+        },
+        "source_transcript_scope": {
+          "original_panels_preserved": true,
+          "display_rows": 13,
+          "nonempty_rows": 12,
+          "boxed_return_candidates": 10,
+          "encoded_control_bytes_recovered": false,
+          "source_blank_line_count_verified": false,
+          "executed": false
+        },
+        "notes": [
+          "Complete debugger/disassembler article0029 spans PDF364–369, individually observed printed362–367.599 independently and fresh-process exact JSON/asset files preserve all155 source crops,145 OCR outcomes,2904 typed range occurrences and752 nonempty reading rows. Canonical title 이런 디버거와 디스어셈블러를 사용해 보자, byline 장근재, parent 활용0025/reference362 remain unchanged. Source affiliation 순천향대 병원 and editorial deck attribution 편집자 remain separate.",
+          "Ten original panels preserve category/title/dropcap artwork, both debugger transcript panels, both printed tables and the MS ending ornament. Two figure captions are literal display text; eight captions are null. Large PC is folded once into PC가 while original dropcap artwork remains.",
+          "Table1 retains eighteen command groups and28 ordered example/function pairs. All72 logical group cells are nonblank, including multiple example rows in the same command cell. Table2 retains26 numbered books/78 cells, with77 nonblank cells and one truly blank author cell at14. Blank text/source stay empty/null with explicit row/column/original-image association. Repeated Peter Norton and other values bind to their own occurrences; multiple authors and publisher wraps remain source-local.",
+          "One unnumbered historical debugger transcript spans middle-bottom/right-top365:13 display rows/12 nonempty rows,45 listing tokens and ten boxed-return display candidates. Original panels remain authority; Unicode⏎ does not certify encoded/control bytes. One empty display separator represents a large printed gap without claiming an original blank-line count. Commands, placeholder addresses, int21/int20 and trace. com remain literal; no code repair, compilation or execution.",
+          "Twenty-one component headings, nine Multiscope/CodeView feature descriptions,19 historical vendor/contact rows and16 prose boundaries remain indexed. Professional and AFD broken words retain their printed hyphens and original contexts across the interposed command table. Periscope, MasterKey, Unpack, NMI and Sourcer continuations retain each original context. Source name Asmtool and spelling REMOTE DEBGGERS supersede preliminary layout-observation words without changing stable region IDs.",
+          "One hundred source-local candidates retain vecter,aseembler,Archtec-ture,Progamer’s,TDN/MI,source author/publisher spellings,printed command/address variants,uncertain FFOO/FF00 round glyphs,boxed key notation and Unicode punctuation/spacing limits. Bibliographic names and technical/historical claims are not repaired or externally verified.",
+          "All145 raw drafts were fully read before one continuing source correction pass.145 initial recognitions:two eng transcript crops and143 kor+eng prose/title/caption/table crops. Zero retries, within-pass crop/OCR/saved-text refinements or post-pass changes. Three immutable maps retain41 pre-OCR coverage events. All145 text crops are disjoint. Eleven remaining threshold130 crossings were directly reviewed as table-rule ink; zero unexplained glyph clipping.",
+          "Adjacent363 is bookshop advertising;370 opens distinct CmcPro article0030. Final369 includes Sourcer closing/MS ornament and bibliography. Eight pages363–370 directly reviewed; prepared371–374 remain unused/unreviewed context. No contents-derived ending or global folio offset inferred.",
+          "Thirty rehashed native mutations pass generic integrity then reject in the independent source audit;two canonical ownership mutations reject separately. All35668 prior files,thirty core modules andsource/TOC/queue/runtime remain exact. Prior fresh213-test evidence retained with unchanged core modules. Full proofreading,human acceptance,exact glyphs/spacing/encoded/control bytes,technical/historical claims,software recovery andexecution remain unverified. No reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0030",
@@ -5069,15 +5160,65 @@
         "sha256": "611a1cc85146278eebc229201d05912eb189cd6141247f976c2de95ce86ef34f",
         "bytes": 68285
       }
+    },
+    {
+      "name": "1993-03-batch-43",
+      "status": "complete",
+      "completed_at": "2026-11-02T15:44:24.436349+00:00",
+      "goal": "Verify and restore complete debugger/disassembler article0029on364–369.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0029"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        364,
+        365,
+        366,
+        367,
+        368,
+        369
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        363,
+        370
+      ],
+      "prepared_but_unused_lookup_pdf_pages": [
+        371,
+        372,
+        373,
+        374
+      ],
+      "recognition_invocations": 145,
+      "initial_recognitions": 145,
+      "eng_recognitions": 2,
+      "kor_eng_recognitions": 143,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 41,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-43/validation-complete.json",
+        "sha256": "0bc32fbd22d8ae8b0e95835bd928ed0307aa67ef11f0fdd9d5dad5a697cf9c90",
+        "bytes": 2588
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-43/native-reproduction.json",
+        "sha256": "df1a6d78014d93f5b5cd676d1106492c86435d306e2562f8fa641d92a817f3b7",
+        "bytes": 103448
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 21,
+    "readable": 22,
     "partial": 0,
     "group_headings": 4,
     "section_references": 3,
-    "unresolved": 24
+    "unresolved": 23
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -5085,35 +5226,35 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-43",
-    "goal": "Verify debugger/disassembler article0029fromknownPDF364opener andestablish actual extent;restore up to six confirmed opening pages.",
+    "name": "1993-03-batch-44",
+    "goal": "Verify CmcPro article0030fromknownPDF370opener and establish actual extent;restore up to six confirmed opening pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0029"
+      "maso-1993-03-toc-0030"
     ],
-    "canonical_page_reference": 362,
+    "canonical_page_reference": 368,
     "mapping_targets": [],
     "provisional_mapping_targets": [
-      364,
-      365,
-      366,
-      367,
-      368,
-      369
-    ],
-    "planned_outside_lookup_pdf_pages": [
-      363,
       370,
       371,
       372,
       373,
-      374
+      374,
+      375
+    ],
+    "planned_outside_lookup_pdf_pages": [
+      369,
+      376,
+      377,
+      378,
+      379,
+      380
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Preserve canonical이런 디버거와 디스어셈블러를 사용해 보자,byline장근재,parent활용0025/reference362. Source364opener credits장근재(순천향대병원). Reuse retained364–368renders;five pages have context/layout review only,not restoration. Establish ending directly rather than infer from next contents reference. Preserve debugger command table,printed command/code fragments,original figures andsource claims without repairing syntax,bytes,addresses or execution. Public-software0028andWindows-tools0027arefinal. No reader rebuild."
+    "note": "Preserve canonical 프로그램을 만드는 프로그램 : CmcPro 2.5를 만나봅시다, byline지만진,parent활용0025/reference368. Source370 opener and printed368 directly observed. Reuse retained370–374 renders;370has opener/layout review only and371–374 remain unreviewed. Establish continuity/ending directly, not from next contents reference406. Preserve original GUI panels, captions, commands and any code/data literally; no software recovery or execution. Debugger0029 and public-software0028 are final. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

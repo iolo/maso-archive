@@ -13,12 +13,12 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: twenty-one readable/sample-reviewed articles, no
-partials, four non-owning groups, three final section references and 24 unresolved
-identities among 52. Public-software PDF 358–362 is complete in 396 reproducible files,
-with canonical/source credit variants, menu tables and explicit graphic/miniature-data
-limits. Twenty-one current body-owner packages contain 10,382 files. Next: verify
-debugger article 0029 from PDF 364 and establish its actual extent. Remaining bodies,
+March 1993 restoration is active: twenty-two readable/sample-reviewed articles, no
+partials, four non-owning groups, three final section references and 23 unresolved
+identities among 52. Debugger/disassembler PDF 364–369 is complete in 599 reproducible
+files, with original tables/transcript panels and explicit glyph/control-byte limits.
+Twenty-two current body-owner packages contain 10,981 files. Next: verify CmcPro
+article 0030 from PDF 370 and establish its actual extent. Remaining bodies,
 433-page accounting, cover and issue closeout are pending. No reader rebuild.
 See [March progress](docs/progress/9303.md).
 
