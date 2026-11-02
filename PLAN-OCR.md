@@ -1423,23 +1423,71 @@ Full proofreading, human acceptance, exact spaces/glyphs/encoded bytes, historic
 technical truth and original hardware/software behavior remain unverified. Item 0037
 stays unresolved with bounded location evidence. No reader rebuild.
 
-Current totals: thirty readable/sample-reviewed articles, one partial, seven
+Batch 55 restores final domestic-news pages 110–113 and actually assembles all
+ten pages 104–113/individually observed printed 102–111. Its 569 files match an
+independent export consuming both regenerated natives/561 files and a fresh-process
+rebuild. All 149 exact crops, 132 outcomes, 2,945 projected metadata ranges, 5,976
+current typed ranges and 1,181 nonempty source rows validate. The original 290-file
+opening and 271-file final native remain immutable historical partials. Canonical
+국내네트워크, null byline/reference and parent 0041 stay unchanged. Final 113 ends
+with the dictionary-software notice/contact before independent overseas news on 114.
+
+Nineteen complete independent news items retain two intrinsic sections: 동향 stories
+01–07 and 신제품 stories 08–19. Seven reporter credits and three vertical photo
+credits remain local; two 박은숙 credits bind to their distinct source occurrences.
+Seventeen original images preserve ten literal caption associations and seven null
+captions. Five selected screenshot regions preserve its title, three field columns
+and product word; twelve field rows retain source label/value ranges. Remaining
+miniature state, icons and branding remain image-dependent. No software execution,
+recovery, article-author invention or new canonical children are claimed.
+
+Fifty-two internal prose boundaries and one cross-native boundary retain both
+original contexts. One empty-separator 109→110 특징이+다 join crosses the repeated
+heading, original VGA photograph and literal caption. All other source blocks remain
+separate. Every source region/block/figure/story/GUI identity and typed occurrence
+projects consistently. Historical native scope, story 10 and product-section deferrals
+have external current dispositions; original metadata and files remain unchanged.
+All 150 source-local candidates remain, including 254KB, DARM, 상무부은, 상부부,
+컬리, EPS/ESP, 7MPP, TIF, Ami386, Film Superwist Ne-/matc, 1750 B, prices, units
+and HWP-glyph approximation. Separate 517 and 3ms fragments have no inferred numeric
+value. No spelling, grammar, arithmetic or technical repair is supplied.
+
+The final native used 64 initial kor+eng calls after six pre-OCR crop events. All
+64 full drafts were read before one source pass. Native-scale review found two
+clipped lower-column margins on 113 after saved 110/111; the pass paused, both
+widened crops were reviewed and recognized once, and both new drafts were read
+before resuming. All 62 unchanged raw/TSV results are byte-exact reuses with their
+actual R03 execution settings pinned in derived R04 compatibility metadata. Total
+66 calls, zero unchanged-input retries, no saved-text refinements or post-pass changes.
+The first changed recognition completed before its helper failed to pin an unwritten
+settings file. Its exact config was recovered from retained helper arguments and
+serialized afterward; the result was not rerun. Its elapsed time is unavailable,
+not invented. The second changed input was recognized once after settings serialization.
+All failed helpers/logs, raw results, maps and settings-recovery evidence remain.
+
+Six source pages 109–114 were directly reviewed: four mapped and two outside lookups.
+Thirty-nine negative checks reject sixteen rehashed native faults, fourteen assembly
+faults, four self-consistent projection faults, two ownership faults and three frozen
+adapter guard faults. All 41,221 prior files, thirty core modules and source/TOC/queue/
+runtime pins remain exact; the earlier fresh 213-test baseline is retained. Full
+proofreading, human acceptance, exact glyphs/spaces/encoded bytes, historical/technical
+truth and original hardware/software behavior remain unverified. No reader rebuild.
+
+Current totals: thirty-one readable/sample-reviewed articles, no partials, seven
 non-owning groups, three section references and 11 unresolved identities among 52.
-The 31 current body-owner packages contain 13,479 exact files; 39 classification
+The 31 current body-owner packages contain 13,758 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 55 restores final domestic-news pages 110–113 and actually assembles
-all ten pages 104–113 from independently regenerated immutable natives. Reuse the
-retained renders and verified extent. Preserve the incoming VGA continuation
-109 특징이→110 다, subsequent independent product notices, original photographs/
-screens/captions, contacts, prices, historical claims and source errors. Final 113's
-dictionary-software notice/contact precedes independent overseas news on 114.
-Retain the opening native's story, credit, caption, section, boundary and uncertainty
-indexes, including separate 517/3ms fragments. Resolve its historical partial notes
-externally without rewriting the native. Canonical null byline/reference and parent
-0041 remain exact; other radar children stay unchanged. Four mapped pages fit the
-six-page ceiling; two tasks and twenty outside lookups remain ceilings. No product
-execution/recovery or reader rebuild.
+Next: Batch 56 verifies overseas-network article 0043 from its independently
+observed opening PDF 114/printed 112 and preserves opening 114–119. Directly review
+120–123 and following software-review opening 124/122 to establish ending and
+interior continuity. Candidate full extent 114–123 is not yet certified. Preserve
+independent news stories, intrinsic sections, original charts/diagrams/tables/photos,
+literal captions and source errors. Later pages and actual assembly are separate
+checkpoints. Canonical title 해외네트워크, parent 0041 and null byline/reference
+stay unchanged; other radar children remain unresolved. Six mapped pages, two tasks
+and twenty outside lookups remain ceilings. Item 0037 stays unresolved with bounded
+location evidence. No product execution/recovery or reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 
