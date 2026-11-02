@@ -558,18 +558,43 @@ All 25,872 prior files and thirty core modules remain exact; the earlier fresh
 reviewed: main prose ends 300 and four numbered listings end at XmTEST.C row 108
 on 304, before excluded book advertising. Final 298–304 and actual assembly remain.
 
+Batch 31 preserves menu-library continuation PDF 298–303/printed 296–301 as a
+221-file immutable native. Independent and fresh-process exports match. All 65 exact
+crops, 49 selected outcomes, 12,932 typed ranges and 835 nonempty reading rows validate.
+Sixteen original images preserve three array examples, a menu diagram, two screenshots,
+the closing ornament and all numbered listing panels. Fourteen caption associations
+use literal text; two are null. Seven code contexts retain 639 physical rows: 105
+unnumbered example rows and 534 numbered rows across listings 1–4, with lengths
+124/24/352/34. Forty-four numbered blanks, eight omission-dot rows, 4,193 tokens,
+261 comment rows, 92 literals and ten complete printed functions remain indexed.
+Seventy-six unresolved graphic/rule spans retain original panels; no box-drawing
+bytes or decorative counts are inferred. Five arrays retain 69 explicit literals.
+Four prose and five code boundaries retain source contexts. Main prose ends 300;
+listing 4 continues from row 34 on 303 to final rows 35–108 on 304. All 49 initial
+and one changed-crop drafts were read before one source pass: 33 pre-OCR events,
+one pre-correction number-column extension, fifty actual recognitions, 48 exact
+raw/TSV reuses with original execution provenance and zero unchanged-input retries
+or within/post-pass changes. Metadata r02 restores fourteen cross-crop comment rows;
+only four root JSON files differ, with transcript/assets/raw ZIP bytes exact.
+Twenty rehashed native and two ownership mutations reject. All 26,237 prior files
+and thirty core modules remain exact; the earlier fresh 213-test evidence is retained.
+Opening a and continuation b preserve twelve pages in 363+221=584 files. Final 304
+and actual thirteen-page assembly remain required; the primary manifest still
+identifies opening a. Historical code and claims are not repaired or executed.
+
 Current totals: fourteen readable/sample-reviewed articles, one partial, three non-owning
 groups, three section references and 31 unresolved identities among 52. Fifteen
-current body-owner packages contain 5,977 exact files; ten classification evidence
-files remain separate. Original natives and superseded revisions remain unchanged.
+body owners have sixteen current native-or-assembly packages containing 6,198 files;
+ten classification evidence files remain separate. Original and superseded revisions
+remain unchanged.
 
-Next: Batch 31 restores menu-library article 0021 continuation PDF 298–303.
-All thirteen body pages 292–304 have been directly reviewed. Preserve incoming
-297 문자→298 열, main-prose ending 300, two screenshots and the independent numbered
-listings. Batch 32 then restores final 304 and actually assembles all thirteen pages.
-Canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게, byline 박종천,
-parent 0020 and reference 290 remain unchanged. Class(y) reference 316 is a separate
-article location, not the menu-library ending. No reader rebuild.
+Next: Batch 32 restores menu-library final PDF 304 and actually assembles all
+thirteen pages 292–304 from independently regenerated immutable natives a/b/c.
+Preserve listing 4 rows 35–108 and exclude the publisher book advertisement below.
+Join incoming main prose 297 문자→298 열 with both source contexts and all intervening
+items retained. Main prose ends 300; three unnumbered array examples and all numbered
+listings remain independent. Canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게,
+byline 박종천, parent 0020 and reference 290 remain unchanged. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

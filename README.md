@@ -15,9 +15,9 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 March 1993 restoration is active: fourteen readable/sample-reviewed articles, one
 partial, three non-owning groups, three final section references and 31 unresolved
-identities among 52. The menu-library opening on PDF 292–297 has 363 verified files;
-its actual extent is 292–304. Fifteen current body-owner packages contain 5,977 files.
-Next: restore continuation 298–303, then final 304 and assemble the article.
+identities among 52. Menu-library pages 292–303 are preserved across two immutable
+natives totaling 584 files. Final 304 and actual thirteen-page assembly are next.
+Fifteen body owners have sixteen current packages containing 6,198 files.
 Remaining bodies, 433-page accounting, cover and issue closeout are pending.
 See [March progress](docs/progress/9303.md).
 
