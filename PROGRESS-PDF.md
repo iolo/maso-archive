@@ -6,47 +6,47 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: fourteen readable/sample-reviewed articles, one partial,
+March 1993 is in progress: fifteen readable/sample-reviewed articles, no partials,
 three non-owning groups, three final section references and 31 unresolved identities
 among 52.
 
-Batch 31 preserves menu-library continuation PDF 298–303/printed 296–301 as a
-221-file immutable native. Independent and fresh-process exports match. All 65 exact
-crops, 49 selected outcomes, 12,932 typed ranges and 835 nonempty reading rows validate.
-Sixteen original images preserve three array examples, a menu diagram, two screenshots,
-the closing ornament and all numbered listing panels. Fourteen caption associations
-use literal text; two are null. Seven code contexts retain 639 physical rows: 105
-unnumbered example rows and 534 numbered rows across listings 1–4, with lengths
-124/24/352/34. Forty-four numbered blanks, eight omission-dot rows, 4,193 tokens,
-261 comment rows, 92 literals and ten complete printed functions remain indexed.
-Seventy-six unresolved graphic/rule spans retain original panels; no box-drawing
-bytes or decorative counts are inferred. Five arrays retain 69 explicit literals.
-Four prose and five code boundaries retain source contexts. Main prose ends 300;
-listing 4 continues from row 34 on 303 to final rows 35–108 on 304. All 49 initial
-and one changed-crop drafts were read before one source pass: 33 pre-OCR events,
-one pre-correction number-column extension, fifty actual recognitions, 48 exact
-raw/TSV reuses with original execution provenance and zero unchanged-input retries
-or within/post-pass changes. Metadata r02 restores fourteen cross-crop comment rows;
-only four root JSON files differ, with transcript/assets/raw ZIP bytes exact.
-Twenty rehashed native and two ownership mutations reject. All 26,237 prior files
-and thirty core modules remain exact; the earlier fresh 213-test evidence is retained.
-Opening a and continuation b preserve twelve pages in 363+221=584 files. Final 304
-and actual thirteen-page assembly remain required; the primary manifest still
-identifies opening a. Historical code and claims are not repaired or executed.
+Batch 32 preserves menu-library final PDF 304 as a nineteen-file native and
+actually assembles the complete thirteen-page article, 292–304/printed 290–302.
+All 612 assembly files match an export consuming three independently regenerated
+natives totaling 603 files and a fresh-process rebuild. All 165 exact crops,
+137 outcomes, 17,039 native metadata projections, 35,799 current range occurrences/
+35,645 source occurrences and 1,399 reading rows validate. Every projected field
+retains its native context; original text, metadata and assets remain exact. One
+297→298 prose merge joins 문자 and 열; listing 4's 34→35 boundary completes main
+through row 108 without changing code bytes. Main prose ends 300, separate from
+two screenshots and four numbered listings. Ten code contexts preserve 843
+physical/logical rows, including 608 numbered rows across listings 124/24/352/108
+and 51 numbered blanks. All 5,311 tokens, 327 comment rows and 125 string/character
+literals remain indexed. Fifteen printed function contexts include eleven complete
+numbered-listing functions and four example functions with source defects retained.
+Six array contexts keep 96 explicit string literals and 36 numeric values; item2's
+complete initializer retains both original fragments. Example 4 remains its printed
+fragment. Twenty-eight original images have 22 literal caption associations and six
+null captions. Seven errata relationships, two independent sidebars, chronology,
+references and source claims remain separate. Seventy-nine graphic/rule spans plus
+twelve independent header-rule counts stay unresolved. Final native adds two initial
+English recognitions, both drafts read before one source pass, zero retries or crop/
+within/post-pass changes. Sixteen rehashed assembly, twelve native, two ownership
+and three adapter-guard cases reject. All 26,679 prior files and thirty core modules
+remain exact; the earlier fresh 213-test evidence is retained. No code repair,
+compilation, execution or reader rebuild.
 
-Current totals: fourteen readable/sample-reviewed articles, one partial, three non-owning
+Current totals: fifteen readable/sample-reviewed articles, no partials, three non-owning
 groups, three section references and 31 unresolved identities among 52. Fifteen
-body owners have sixteen current native-or-assembly packages containing 6,198 files;
-ten classification evidence files remain separate. Original and superseded revisions
-remain unchanged.
+current body-owner packages contain 6,226 exact files; ten classification evidence
+files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 32 restores menu-library final PDF 304 and actually assembles all
-thirteen pages 292–304 from independently regenerated immutable natives a/b/c.
-Preserve listing 4 rows 35–108 and exclude the publisher book advertisement below.
-Join incoming main prose 297 문자→298 열 with both source contexts and all intervening
-items retained. Main prose ends 300; three unnumbered array examples and all numbered
-listings remain independent. Canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게,
-byline 박종천, parent 0020 and reference 290 remain unchanged. No reader rebuild.
+Next: Batch 33 verifies Class(Y) article 0022 from the observed PDF 318/printed 316
+opener, establishes its actual extent and ending, then restores up to six confirmed
+opening pages, provisionally 318–323. Preserve canonical title 클리퍼 객체지향 라이브러리, Class(Y),
+byline 임지열, parent 0020 and reference 316. This opener is distinct from the OOP
+article on 306. Do not infer its ending from the next contents reference; keep any
+uninspected interior continuity explicit. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
