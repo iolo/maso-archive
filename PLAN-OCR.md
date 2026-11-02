@@ -1104,20 +1104,64 @@ remain exact; earlier fresh 213-test evidence retained. Full proofreading, human
 acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and original
 circuit/software recovery or execution remain unverified. No reader rebuild.
 
-Current totals: twenty-three readable/sample-reviewed articles, one partial, four
+Batch 48 restores final frame-grabber PDF 414–415/printed 412–413 as a 29-file native
+and actually assembles all eight pages 408–415/printed 406–413. The 513-file assembly
+reproduces from both independently regenerated immutable natives/504 files and in a
+fresh process. All 135 exact crops, 117 outcomes, 4,465 metadata projections, 8,859
+current typed ranges/8,736 source occurrences and 698 nonempty source rows validate.
+No prose merge is needed: prose ends 413. Sixteen internal prose boundaries, four
+within-native code boundaries and the explicit 013→014 cross-native listing boundary
+retain both source contexts. Canonical 최봉렬 and printed 최봉열 remain separate.
+
+Eighteen original panels retain nine literal caption associations/eight unique caption
+regions and nine null captions. Four schematics preserve 33 selected searchable label
+regions and 27 part-label occurrences. All region/figure/schematic/label/diagram/field/
+endpoint/group/formula/claim/context/function/definition/line identities and references
+are namespaced. The 512×480 timing ticks 1/525 remain full-frame endpoints. Both timing
+subdiagrams, NTSC waveform, all declared EMI labels and original circuit geometry stay
+intact. Miniature pin/netlist, exact label glyphs and electrical behavior remain unverified.
+
+Listing 1 preserves every numbered row 001–168, including 35 numbered blanks and three
+unnumbered physical rows after 043/051/057: 171 physical rows total. All 1,029 tokens,
+26 strings/character literals, six comments, three includes, sixteen defines, two
+prototypes, three complete printed function contexts and 96 lexical call-like names
+remain indexed. Thirty assembled hex literals are retained without evaluation. The
+original 413 caption anchors the complete six-panel listing context. Printed sucessor,
+outut, pointer declarations, 070 brace-tail dot/comma and 152 <-/<= candidates remain
+without syntax repair. All 105 source-local candidates survive. Exact source spaces,
+tabs, punctuation glyphs, encoded bytes, original software and execution are unverified.
+
+Final native adds four initial eng recognitions after one reviewed map with no crop
+repairs. All four drafts read before one source pass; zero retries or within/post-pass
+changes. Eight crops preserve four code regions/four originals, disjoint text regions,
+zero threshold-130 crossings and one explicit lower-415 advertising exclusion. Final
+168 is a closing brace above independent 정보시대 advertising; 416 is unrelated book
+advertising. Four retained renders were reused exactly; no opening OCR/source correction.
+
+Sixteen rehashed native faults, fourteen assembly faults, four self-consistent projection
+faults, two ownership faults and three frozen-adapter guard faults reject. The consistent
+faults cover label namespace, full-frame tick ownership, repeated ferrite-source borrowing
+and an unprefixed exclusion reference. All 504 embedded native files and original source
+contexts remain exact. All 39,398 prior files and thirty core modules remain unchanged;
+earlier fresh 213-test evidence retained. Full proofreading, human acceptance, source
+glyphs/spacing/encoded bytes, historical/technical claims and original circuit/software
+recovery or execution remain unverified. No reader rebuild.
+
+Current totals: twenty-four readable/sample-reviewed articles, no partials, four
 non-owning groups, three section references and 21 unresolved identities among 52.
-The 24 current body-owner packages contain 12,186 exact files; thirteen classification
+The 24 current body-owner packages contain 12,224 exact files; thirteen classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 48 restores final frame-grabber listing pages PDF 414–415/printed 412–413,
-then actually assembles the complete eight-page article 408–415 from independently
-regenerated natives. Reuse retained renders and verified extent observations. Preserve
-numbered rows 014–168, physical wraps/comments, numbered blanks and source defects;
-exclude lower independent 정보시대 advertising on 415. Keep canonical/printed bylines,
-original circuits, explicit miniature/netlist limits and corrected full-frame 1/525
-tick ownership. No opening OCR/source correction, code repair, compilation, execution
-or reader rebuild. Ceilings remain two canonical tasks, six mapped pages and twenty
-outside lookups.
+Next: Batch 49 verifies pageless information-sharing heading 0032, 정보나눔터, and
+ownership/extent of child 0033, 테크니컬 마당, at canonical printed reference 390.
+Preserve every descendant identity, byline and parent; do not assume either heading
+owns a body. Review contents, source folios, actual headings, authorship and boundaries
+before classification or mapping. PDF 392 is only a provisional location. If 0033 owns
+a compound body, restore at most six confirmed opening pages and defer descendant
+dispositions. If it is organizational, classify it non-owning with direct evidence and
+queue child bodies separately. Do not restore a third canonical task in this checkpoint.
+The ceilings remain two canonical tasks, six mapped pages and twenty outside lookups.
+Frame-grabber 0031 is final. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

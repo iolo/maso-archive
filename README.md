@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: twenty-three readable/sample-reviewed articles, one
-partial, four non-owning groups, three final section references and 21 unresolved
-identities among 52. The frame-grabber article spans PDF 408–415; opening 408–413 is
-preserved in a reproducible 475-file partial. The 24 current body-owner packages contain
-12,186 files. Next: restore final listing pages 414–415 and assemble all eight pages.
-Remaining bodies, 433-page accounting, cover and issue closeout are pending. No reader
-rebuild. See [March progress](docs/progress/9303.md).
+March 1993 restoration is active: twenty-four readable/sample-reviewed articles, no
+partials, four non-owning groups, three final section references and 21 unresolved
+identities among 52. The frame-grabber article is complete on PDF 408–415 in a
+reproducible 513-file assembly from two immutable natives. The 24 current body-owner
+packages contain 12,224 files. Next: verify information-sharing/technical-forum ownership
+at canonical reference 390. Remaining bodies, 433-page accounting, cover and issue
+closeout are pending. No reader rebuild. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

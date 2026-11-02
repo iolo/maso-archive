@@ -3451,25 +3451,25 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Frame-grabber article 0031 has actual body PDF 408–415, individually observed printed 406–413. Opening 408–413 is preserved as a 475-file partial, independently and fresh-process exact. Final listing pages 414–415 and actual eight-page assembly remain required. Canonical title, byline 최봉렬, no parent and reference 406 stay unchanged; printed byline 최봉열 and affiliation 대우전자 VCR 연구소 1팀 remain separate.",
-        "All 127 exact source crops, 113 OCR outcomes, 2,020 typed range occurrences and 540 nonempty source rows validate. Fourteen original panels retain nine literal caption associations/eight unique caption regions and five null captions. Original title/category/dropcap/series artwork, four circuit schematics, three numbered diagrams, two listing panels and MS ending remain. Initial 영 is folded once into 영상을; editorial deck and independent 연재 panel remain separate.",
-        "Four schematic indexes retain 33 selected searchable label regions and 27 part-label occurrences: six independent KM681000L candidates, repeated 74LS245/74LS04/74LS257/74LS161/8255 occurrences and other selected part/net/value labels. Miniature separators and glyphs retain uncertainty; no complete pin/netlist transcription, wiring reconstruction, circuit validation or original hardware recovery is claimed.",
-        "Figure 1 retains two timing subdiagrams, both dimension labels, frame/odd/even-field labels, independent repeated ticks and all sampling-start/end words. In 512×480, ticks 1/525 are full-frame endpoints, not per-field values. Figure 2 retains 53.0μs/63.5μs/t with original waveform. Figure 3 retains four analog/digital endpoint labels, two ferrite labels, four C1/C2 labels and two plus marks beside C2; open-circle connectors are not numeric zeros.",
-        "Listing 1 starts at 001–013 in two original panels, with numbered blanks 004/009, 60 lexical tokens, three include directives and eight define records. One code-panel boundary joins row 006 to 007 without modifying text. PORT1 versus PORTI and WORD/FORD glyph candidates remain explicit. No syntax repair, compilation, execution or source-byte recovery.",
-        "All 38,448 prior files, thirty core modules and source/TOC/queue/runtime remain exact. Earlier fresh 213-test evidence is retained with unchanged core modules. Full proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and original circuit/software recovery or execution remain unverified. No reader rebuild."
+        "Frame-grabber article 0031 is complete on PDF 408–415, individually observed printed 406–413. The selected 513-file assembly reproduces from both independently regenerated immutable natives/504 files and in a fresh process. Canonical title, byline 최봉렬, no parent and reference 406 stay unchanged; printed 최봉열, affiliation 대우전자 VCR 연구소 1팀 and editorial attribution remain separate.",
+        "All 135 exact crops, 117 OCR outcomes, 4,465 metadata projections, 8,859 current typed ranges/8,736 source occurrences and 698 nonempty source rows validate. No cross-native prose merge is needed: prose ends 413 with a separate MS ornament. Sixteen internal prose boundaries, four within-native code boundaries and the explicit row 013→014 cross-native boundary retain source contexts. All native partial/assembly notes retain current dispositions.",
+        "Eighteen original panels retain nine literal caption associations/eight unique caption regions and nine null captions. Four original schematics retain 33 selected searchable label regions and 27 part-label occurrences, including six independent KM681000L candidates. Region/figure/schematic/label/diagram/field/endpoint/group/formula/claim/context/function/definition/line identifiers and references are namespaced. Miniature pins/netlist, original wiring, exact glyphs and electrical behavior remain unverified.",
+        "Figure 1 retains both timing subdiagrams, all dimension/frame/field/sampling labels and repeated ticks. The 512×480 ticks 1/525 remain full-frame endpoints, never per-field values. Figure 2 retains 53.0μs/63.5μs/t with its original waveform; figure 3 preserves four endpoint labels, two ferrite labels, four C1/C2 labels and two plus marks beside C2. Open-circle connectors are graphic symbols, not numeric zeros. Two formulas and four printed control-state claims remain literal.",
+        "Listing 1 preserves all 168 numbered rows 001–168 in six original panels, including 35 numbered blanks and three unnumbered physical rows after 043/051/057: 171 physical code rows total. All 1,029 lexical tokens, 26 string/character literals, six comments, three includes, sixteen defines, two prototypes, three complete printed function contexts and 96 lexical call-like names retain source occurrences. Thirty assembled hex literals are indexed without evaluation. The shared printed caption remains at its original 413 occurrence and binds the complete listing context.",
+        "All 39,398 prior files, thirty core modules and source/TOC/queue/runtime remain exact. Earlier fresh 213-test evidence retained with unchanged core modules. Full proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and original circuit/software recovery or execution remain unverified. No reader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-47-r02/framegrabber-a",
+        "directory": "archive/pdf/1993-03/packages/framegrabber-r01",
         "article_id": "scan-maso-1993-03-toc-0031",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-47-r02/framegrabber-a/manifest.json",
-          "sha256": "7bbc1cb4a03d15319f5e642f8e4c6c24b1338c0b085fe8f45655426f899af1ae",
-          "bytes": 81526
+          "path": "archive/pdf/1993-03/packages/framegrabber-r01/manifest.json",
+          "sha256": "4f56a241337c3ab698165037da915ad16f981d549d39630c464cf1ac9f71658a",
+          "bytes": 93229
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -3478,7 +3478,9 @@
             410,
             411,
             412,
-            413
+            413,
+            414,
+            415
           ],
           "printed_pages": [
             "406",
@@ -3486,61 +3488,105 @@
             "408",
             "409",
             "410",
-            "411"
+            "411",
+            "412",
+            "413"
           ],
-          "regions": 127,
-          "blocks": 113,
-          "figures": 14,
-          "deferred_pdf_pages": [
-            414,
-            415
-          ],
+          "regions": 135,
+          "blocks": 117,
+          "figures": 18,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 415,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-47/validation-complete.json",
-          "sha256": "935a65ef28c9c56150f8471c0387f45c34ccafe1278545d29ed7994c8ee4f4a1",
-          "bytes": 2801
+          "path": "archive/pdf/1993-03/restoration/batch-48/validation-complete.json",
+          "sha256": "f363d58d13e04d0b5a37c9601bf63a19620266ced0a8b83b380f0459f9b81d89",
+          "bytes": 4403
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-47/native-reproduction.json",
-          "sha256": "d300d9f39bfedd1cbecfae2cf714cc6a8e53125d3e81b8adca07a5e33c3df2f0",
-          "bytes": 82764
+          "path": "archive/pdf/1993-03/restoration/batch-48/reproduction.json",
+          "sha256": "b1fdf9ea5ea109ddc399077f6dd5c86e28b6e150da040bb2b30651e606f3c0e7",
+          "bytes": 94709
         },
         "recipe": {
-          "path": "archive/pdf/1993-03/restoration/batch-47/framegrabber-a-r03/package-recipe-r02.json",
-          "sha256": "dbbd19f6a3814e1ac2da77d94de370f4460cd417b8156be6b146e6e90ece5bcf",
-          "bytes": 17569
+          "path": "archive/pdf/1993-03/restoration/batch-48/assembly-recipe.json",
+          "sha256": "0e0df17ac3cfc0d5de58d58faab48d0cf6d419157023fe03f28ad30dcbc79a01",
+          "bytes": 2597
         },
-        "checkpoint": "batch-47",
+        "adapter": {
+          "path": "archive/pdf/1993-03/restoration/batch-48/framegrabber_adapter.py",
+          "sha256": "5be1fdc0fee8d909d6426c61bb64a94300580b7a15295b856b2992922ff3c7d0",
+          "bytes": 15065
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1993-03/restoration/batch-48/adapter-inputs.json",
+          "sha256": "84db37dc5503964ed09ba5d93416b5edbe848ab6f1d29de7dd83dc76c59c330b",
+          "bytes": 8794
+        },
+        "checkpoint": "batch-48",
+        "native_inputs": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-47-r02/framegrabber-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-47-r02/framegrabber-a/manifest.json",
+              "sha256": "7bbc1cb4a03d15319f5e642f8e4c6c24b1338c0b085fe8f45655426f899af1ae",
+              "bytes": 81526
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-47/framegrabber-a-r03/package-recipe-r02.json",
+              "sha256": "dbbd19f6a3814e1ac2da77d94de370f4460cd417b8156be6b146e6e90ece5bcf",
+              "bytes": 17569
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-48-r01/framegrabber-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-48-r01/framegrabber-b/manifest.json",
+              "sha256": "4a08c53044bb17752297cd41dd984573fff933f0cd0805e5b504647f454593f8",
+              "bytes": 4905
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-48/framegrabber-b/package-recipe.json",
+              "sha256": "e59add43f485745d768e426b5b4dcd61b39e16f465649a8de22b872d3d80281d",
+              "bytes": 3382
+            }
+          }
+        ],
         "full_source_extent": {
           "start_pdf_page": 408,
           "end_pdf_page": 415,
           "prose_end_pdf_page": 413,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-48/source-review-completed.json",
+            "sha256": "4948525229603eb6fef05183181d608dca25fa0a7811811e67eeeb45ab217d91",
+            "bytes": 3469
+          },
+          "opening_source_observations": {
             "path": "archive/pdf/1993-03/restoration/batch-47/source-review-completed.json",
             "sha256": "ba5efad24664b4591d99bd354d8a81c71deb41c55495de390f45e212f95ea771",
             "bytes": 6093
           },
-          "note": "All eight pages have extent/layout review. Only 408–413 restored; final 414–415 and actual eight-page assembly required. Listing 168 ends above independent advertising on 415."
+          "note": "All eight pages restored and actually assembled. Prose ends 413; final listing row 168 ends above excluded independent advertising on 415. 416 unrelated advertising confirms ending."
         },
         "notes": [
-          "Frame-grabber article 0031 has actual body PDF 408–415, individually observed printed 406–413. Opening 408–413 is preserved as a 475-file partial, independently and fresh-process exact. Final listing pages 414–415 and actual eight-page assembly remain required. Canonical title, byline 최봉렬, no parent and reference 406 stay unchanged; printed byline 최봉열 and affiliation 대우전자 VCR 연구소 1팀 remain separate.",
-          "All 127 exact source crops, 113 OCR outcomes, 2,020 typed range occurrences and 540 nonempty source rows validate. Fourteen original panels retain nine literal caption associations/eight unique caption regions and five null captions. Original title/category/dropcap/series artwork, four circuit schematics, three numbered diagrams, two listing panels and MS ending remain. Initial 영 is folded once into 영상을; editorial deck and independent 연재 panel remain separate.",
-          "Four schematic indexes retain 33 selected searchable label regions and 27 part-label occurrences: six independent KM681000L candidates, repeated 74LS245/74LS04/74LS257/74LS161/8255 occurrences and other selected part/net/value labels. Miniature separators and glyphs retain uncertainty; no complete pin/netlist transcription, wiring reconstruction, circuit validation or original hardware recovery is claimed.",
-          "Figure 1 retains two timing subdiagrams, both dimension labels, frame/odd/even-field labels, independent repeated ticks and all sampling-start/end words. In 512×480, ticks 1/525 are full-frame endpoints, not per-field values. Figure 2 retains 53.0μs/63.5μs/t with original waveform. Figure 3 retains four analog/digital endpoint labels, two ferrite labels, four C1/C2 labels and two plus marks beside C2; open-circle connectors are not numeric zeros.",
-          "Two source formula contexts and four printed 8255 control-state vectors remain literal. Sampling example 9.6603MHz, 6진값/1FF H, 1024×798 versus 1024×768, 514×480 versus 512×480, front/back poch, One Short and physical English/Korean wraps remain without technical or grammatical repair. Sixteen prose continuation boundaries retain both source contexts and exact join-separator decisions.",
-          "Listing 1 starts at 001–013 in two original panels, with numbered blanks 004/009, 60 lexical tokens, three include directives and eight define records. One code-panel boundary joins row 006 to 007 without modifying text. PORT1 versus PORTI and WORD/FORD glyph candidates remain explicit. No syntax repair, compilation, execution or source-byte recovery.",
-          "All 113 drafts fully read before one continuing source correction pass: two eng and 111 kor+eng initial recognitions, zero retries or within-pass/post-pass crop/OCR/text revisions. Three immutable maps retain 48 pre-OCR crop events. All text crops disjoint; 22 remaining threshold-130 crossings directly reviewed as schematic/waveform rules, wires, arrows or symbols. Three empty raw labels restored directly from unchanged source crops.",
-          "Ten pages 407–416 directly reviewed, including four outside lookups 407/414/415/416. Prepared 417–419 remain unused/unreviewed. Prose ends 413 with separate MS ornament; listing ends 415 at 168 before independent 정보시대 advertising. Page 407 computer advertising and 416 book advertising bound actual extent without a global folio assumption.",
-          "Thirty rehashed native faults pass generic integrity then reject independent source audit; retained r01 rejects for incorrect full-frame tick ownership; two canonical ownership faults reject. Selected r02 corrects tick scope; only article.json/corrections.json/manifest.json/provenance.json differ. All transcript, image and raw-ZIP bytes remain exact. Failed r01, two candidate-span helper attempts and the provenance-comparison helper assertion remain retained.",
-          "All 38,448 prior files, thirty core modules and source/TOC/queue/runtime remain exact. Earlier fresh 213-test evidence is retained with unchanged core modules. Full proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and original circuit/software recovery or execution remain unverified. No reader rebuild."
+          "Frame-grabber article 0031 is complete on PDF 408–415, individually observed printed 406–413. The selected 513-file assembly reproduces from both independently regenerated immutable natives/504 files and in a fresh process. Canonical title, byline 최봉렬, no parent and reference 406 stay unchanged; printed 최봉열, affiliation 대우전자 VCR 연구소 1팀 and editorial attribution remain separate.",
+          "All 135 exact crops, 117 OCR outcomes, 4,465 metadata projections, 8,859 current typed ranges/8,736 source occurrences and 698 nonempty source rows validate. No cross-native prose merge is needed: prose ends 413 with a separate MS ornament. Sixteen internal prose boundaries, four within-native code boundaries and the explicit row 013→014 cross-native boundary retain source contexts. All native partial/assembly notes retain current dispositions.",
+          "Eighteen original panels retain nine literal caption associations/eight unique caption regions and nine null captions. Four original schematics retain 33 selected searchable label regions and 27 part-label occurrences, including six independent KM681000L candidates. Region/figure/schematic/label/diagram/field/endpoint/group/formula/claim/context/function/definition/line identifiers and references are namespaced. Miniature pins/netlist, original wiring, exact glyphs and electrical behavior remain unverified.",
+          "Figure 1 retains both timing subdiagrams, all dimension/frame/field/sampling labels and repeated ticks. The 512×480 ticks 1/525 remain full-frame endpoints, never per-field values. Figure 2 retains 53.0μs/63.5μs/t with its original waveform; figure 3 preserves four endpoint labels, two ferrite labels, four C1/C2 labels and two plus marks beside C2. Open-circle connectors are graphic symbols, not numeric zeros. Two formulas and four printed control-state claims remain literal.",
+          "Listing 1 preserves all 168 numbered rows 001–168 in six original panels, including 35 numbered blanks and three unnumbered physical rows after 043/051/057: 171 physical code rows total. All 1,029 lexical tokens, 26 string/character literals, six comments, three includes, sixteen defines, two prototypes, three complete printed function contexts and 96 lexical call-like names retain source occurrences. Thirty assembled hex literals are indexed without evaluation. The shared printed caption remains at its original 413 occurrence and binds the complete listing context.",
+          "Printed sucessor/outut, char *filename[15], unallocated pointer declarations, the 070 brace-tail dot/comma candidate and 152 <-/<= operator candidate remain without C repair. PORT1/PORTI, pathname1/pathnamel, WORD/FORD, punctuation, source spaces/tabs and encoded bytes remain uncertain. Earlier 9.6603MHz, 6진값, 1024×798/1024×768, 514×480/512×480, front/back poch and One Short stay literal. All 105 native source candidates remain preserved.",
+          "Final native 414–415 adds four initial eng recognitions after one directly reviewed map with zero crop changes. All four drafts were read before one source correction pass; zero retries or within-pass/post-pass changes. Eight exact crops include four code regions/four originals, disjoint text crops, zero threshold-130 crossings and an explicit lower-415 advertising exclusion. All 155 final numbered rows 014–168, three unnumbered physical rows and 33 numbered blanks validate.",
+          "Final 168 is a closing brace above independent 정보시대 book advertising, which remains excluded. Outside pages 413 and 416 confirm the prior listing/prose ending and unrelated 한국실리콘 advertising. Four retained 3000-long-edge renders reused exactly; no new renders or opening OCR/source correction. Full actual extent is observed without a global folio or contents-derived ending.",
+          "Sixteen rehashed native faults pass generic export then reject source audit; fourteen assembly faults, four self-consistent projection faults, two canonical ownership faults and three frozen-adapter guard faults reject. The four consistent faults cover schematic-label namespace, full-frame timing ownership, repeated ferrite-source borrowing and unprefixed exclusion references. Both original natives and all 504 embedded native files remain exact; no assembly OCR or source text edits.",
+          "All 39,398 prior files, thirty core modules and source/TOC/queue/runtime remain exact. Earlier fresh 213-test evidence retained with unchanged core modules. Full proofreading, human acceptance, exact glyphs/spacing/encoded bytes, historical/technical claims and original circuit/software recovery or execution remain unverified. No reader rebuild."
         ]
       }
     },
@@ -5645,12 +5691,52 @@
         "sha256": "d300d9f39bfedd1cbecfae2cf714cc6a8e53125d3e81b8adca07a5e33c3df2f0",
         "bytes": 82764
       }
+    },
+    {
+      "name": "1993-03-batch-48",
+      "status": "complete",
+      "completed_at": "2026-11-02T18:44:55.659067+00:00",
+      "goal": "Restore final frame-grabber pages 414–415 and actually assemble all eight pages 408–415.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0031"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        414,
+        415
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        413,
+        416
+      ],
+      "recognition_invocations": 4,
+      "initial_recognitions": 4,
+      "eng_recognitions": 4,
+      "kor_eng_recognitions": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 0,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-48/validation-complete.json",
+        "sha256": "f363d58d13e04d0b5a37c9601bf63a19620266ced0a8b83b380f0459f9b81d89",
+        "bytes": 4403
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-48/reproduction.json",
+        "sha256": "b1fdf9ea5ea109ddc399077f6dd5c86e28b6e150da040bb2b30651e606f3c0e7",
+        "bytes": 94709
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 23,
-    "partial": 1,
+    "readable": 24,
+    "partial": 0,
     "group_headings": 4,
     "section_references": 3,
     "unresolved": 21
@@ -5661,25 +5747,39 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-48",
-    "goal": "Restore final frame-grabber listing pages 414–415 and actually assemble all eight pages 408–415.",
+    "name": "1993-03-batch-49",
+    "goal": "Verify pageless information-sharing heading 0032 and ownership/extent of technical forum 0033 at canonical reference 390.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0031"
+      "maso-1993-03-toc-0032",
+      "maso-1993-03-toc-0033"
     ],
-    "mapping_targets": [
-      414,
-      415
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      392,
+      393,
+      394,
+      395,
+      396,
+      397
     ],
     "planned_outside_lookup_pdf_pages": [
-      413,
-      416
+      4,
+      5,
+      390,
+      391,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained 3000-long-edge renders and actual extent observations. Preserve numbered rows 014–168, unnumbered physical wraps/comments and printed blanks/source defects literally; exclude lower independent 정보시대 advertising on 415. No code repair, compilation or execution. Assemble from independently regenerated opening r02 and final native; retain 16 opening prose boundaries, canonical/printed byline discrepancy, circuit limits and corrected full-frame 1/525 tick ownership. No new opening OCR/source correction or reader rebuild."
+    "note": "Preserve canonical 정보나눔터 0032 and child 테크니컬 마당 0033/reference390, with all descendant identities/bylines/parents unchanged. Do not assume either owns a body. Verify TOC, source folios, actual headings, content authorship and boundaries before classification/mapping. PDF392 is only a provisional location, not a global offset. If 0033 owns a compound body, restore at most six confirmed opening pages and defer descendant dispositions; if it is organizational, classify it non-owning with direct evidence and queue child bodies separately. Do not restore a third canonical task in this checkpoint. Hardware0031 is final. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
