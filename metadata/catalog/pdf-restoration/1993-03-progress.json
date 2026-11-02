@@ -3872,12 +3872,83 @@
       "toc_entry_id": "maso-1993-03-toc-0036",
       "title": "윈도우즈의 알려지지 않은 텍스트 에디터, SYSEDIT",
       "parent_id": "maso-1993-03-toc-0033",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete SYSEDIT0036 occupies lowerPDF395/individually observed printed393,ending at printed 박은주 credit.58 exact JSON/assets files retain14 crops,12 outcomes,174 typed ranges,32 nonempty reading rows and8 candidates. Original two-line title andscreen remain separate from upperDOS-shell tip andright system-status box.",
+        "Six selected GUI label regions retain Norton Desktop title,outer/inner menus andthree readable overlapping file-title labels. Eleven individual menu-name occurrences are separately indexed,including repeated File/Window. Tiny SYSTEM.INI title is corrected from source after zero-byte raw recognition. No fourth filename inferred from prose;front configuration commands,icons andremaining miniature screen state stay original-image dependent.",
+        "All112 new selected files reproduce independently and in a fresh process.22 negative checks reject20 rehashed native faults and2 ownership faults. All40238 prior files,30 core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained. No new code/engine comparison or reader rebuild.",
+        "Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical claims,original software/configuration/scan settings,recovery andexecution remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-51-r01/sysedit",
+        "article_id": "scan-maso-1993-03-toc-0036",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-51-r01/sysedit/manifest.json",
+          "sha256": "6ca6a56ddb09950077893999d57b38adac13212b42fbda4cea2f365bad84e97e",
+          "bytes": 9907
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            395
+          ],
+          "printed_pages": [
+            "393"
+          ],
+          "regions": 14,
+          "blocks": 12,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "partial_page": true
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 395,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-51/validation-complete.json",
+          "sha256": "46a674ee85e62ccbb7e75f28a1140da9ce80ceb7cad50a00a7927e0be2ec5419",
+          "bytes": 3123
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-51/native-reproduction.json",
+          "sha256": "9411c300a4376c039912c67adf9c2f6d5e0285378139ad9dab88fb6a6eb15d96",
+          "bytes": 22949
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-51/sysedit-r02/package-recipe.json",
+          "sha256": "5c8f651e4459b32ca6990bf6d33ac1d518a8bfca7be53b62d6bd39e83c5a939c",
+          "bytes": 3163
+        },
+        "checkpoint": "batch-51",
+        "full_source_extent": {
+          "start_pdf_page": 395,
+          "end_pdf_page": 395,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-51/source-review-completed.json",
+            "sha256": "244f88aef8512bfdfa597f430372a61bc8dcf3d41db14105b8cd4d5d2fdb2690",
+            "bytes": 4135
+          },
+          "note": "Complete independent lower-page contribution;own ending andadjacent independent contexts directly observed."
+        },
+        "notes": [
+          "Complete SYSEDIT0036 occupies lowerPDF395/individually observed printed393,ending at printed 박은주 credit.58 exact JSON/assets files retain14 crops,12 outcomes,174 typed ranges,32 nonempty reading rows and8 candidates. Original two-line title andscreen remain separate from upperDOS-shell tip andright system-status box.",
+          "Six selected GUI label regions retain Norton Desktop title,outer/inner menus andthree readable overlapping file-title labels. Eleven individual menu-name occurrences are separately indexed,including repeated File/Window. Tiny SYSTEM.INI title is corrected from source after zero-byte raw recognition. No fourth filename inferred from prose;front configuration commands,icons andremaining miniature screen state stay original-image dependent.",
+          "Source prose CONFIC./SYS remains distinct from earlier CONFIG.SYS andscreen C:\\CONFIG.SYS. SETUP/SYSEDIT.E/XE identity claim is preserved without technical correction. The physical 윈도우→내에서 continuation retains empty separator; literal backslashes andwrapped filenames stay source-linked. No configuration or original program recovered.",
+          "Both complete independent lower-page contributions were source-corrected together after all23 complete raw drafts were fully read, including one zero-byte miniature GUI title result.23 initial kor+eng recognitions,zero retries andzero within/post-pass map/OCR/saved-text changes. One pre-OCR crop repair gives the right SYSEDIT continuation left margin; all final text crops are disjoint.",
+          "Five source pages5/393–396 directly reviewed using retained byte-exact3000-long-edge renders.27 exact crops,23 outcomes,318 typed ranges,79 nonempty reading rows,4 original images and15 source-local candidates validate. Two captions are literal display text andtwo are null. Three remaining threshold130 crossings are directly reviewed GUI frame/menu-rule ink.",
+          "Both canonical child page references remain null and parent0033 remains exact,without inheriting group390. Only0036/0038 advance; all other50 outcomes,canonical order/titles/bylines/parents/references and27 classification files remain unchanged. Unlocated0037 stays unresolved,without a source-wide absence claim or substitution by an unlisted395 tip.",
+          "All112 new selected files reproduce independently and in a fresh process.22 negative checks reject20 rehashed native faults and2 ownership faults. All40238 prior files,30 core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained. No new code/engine comparison or reader rebuild.",
+          "Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical claims,original software/configuration/scan settings,recovery andexecution remain unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0037",
@@ -3894,12 +3965,83 @@
       "toc_entry_id": "maso-1993-03-toc-0038",
       "title": "완벽한 스캐닝을 위한 7가지 요령",
       "parent_id": "maso-1993-03-toc-0033",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete scanning0038 occupies lowerPDF394/individually observed printed392,ending after numbered tip7.54 exact JSON/assets files retain13 crops,11 outcomes,144 typed ranges,47 nonempty reading rows and7 candidates. Source byline/credit remain null;canonical 편집부 stays separate andunchanged.",
+        "All seven printed tips retain ordered source ranges. Tip2 crossesleft-bottom→middle-top at0.→75×0.75,with empty logical separator andno inferred numeric value;tip4 crossesmiddle-bottom→right-top at즉→완성된,with a space. Physical dither-/ing,source 아미지,원하지 않은,color/LED/resolution claims andproduct warning remain literal without modernization or technical verification.",
+        "All112 new selected files reproduce independently and in a fresh process.22 negative checks reject20 rehashed native faults and2 ownership faults. All40238 prior files,30 core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained. No new code/engine comparison or reader rebuild.",
+        "Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical claims,original software/configuration/scan settings,recovery andexecution remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-51-r01/scanning",
+        "article_id": "scan-maso-1993-03-toc-0038",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-51-r01/scanning/manifest.json",
+          "sha256": "78ccb0e5d63045adc073dc3d1bf6ea9a8bfa871694134c4dedcccd3ad3db0ff0",
+          "bytes": 8939
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            394
+          ],
+          "printed_pages": [
+            "392"
+          ],
+          "regions": 13,
+          "blocks": 11,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false,
+          "partial_page": true
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 394,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-51/validation-complete.json",
+          "sha256": "46a674ee85e62ccbb7e75f28a1140da9ce80ceb7cad50a00a7927e0be2ec5419",
+          "bytes": 3123
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-51/native-reproduction.json",
+          "sha256": "9411c300a4376c039912c67adf9c2f6d5e0285378139ad9dab88fb6a6eb15d96",
+          "bytes": 22949
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-51/scanning/package-recipe.json",
+          "sha256": "3d45a3c2aee0ea0278e738517becbc353516dae604340931e6aed288e712681d",
+          "bytes": 2900
+        },
+        "checkpoint": "batch-51",
+        "full_source_extent": {
+          "start_pdf_page": 394,
+          "end_pdf_page": 394,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-51/source-review-completed.json",
+            "sha256": "244f88aef8512bfdfa597f430372a61bc8dcf3d41db14105b8cd4d5d2fdb2690",
+            "bytes": 4135
+          },
+          "note": "Complete independent lower-page contribution;own ending andadjacent independent contexts directly observed."
+        },
+        "notes": [
+          "Complete scanning0038 occupies lowerPDF394/individually observed printed392,ending after numbered tip7.54 exact JSON/assets files retain13 crops,11 outcomes,144 typed ranges,47 nonempty reading rows and7 candidates. Source byline/credit remain null;canonical 편집부 stays separate andunchanged.",
+          "All seven printed tips retain ordered source ranges. Tip2 crossesleft-bottom→middle-top at0.→75×0.75,with empty logical separator andno inferred numeric value;tip4 crossesmiddle-bottom→right-top at즉→완성된,with a space. Physical dither-/ing,source 아미지,원하지 않은,color/LED/resolution claims andproduct warning remain literal without modernization or technical verification.",
+          "One original bordered composite preserves three cabin examples andliteral caption〈그림4〉라인 아트 스캐닝 방식. Three positional subpanel extents have null separate captions,algorithm assignments andscan settings;no per-panel technique/resolution invented. Upper394 batch-formatting0035 is excluded andunchanged.",
+          "Both complete independent lower-page contributions were source-corrected together after all23 complete raw drafts were fully read, including one zero-byte miniature GUI title result.23 initial kor+eng recognitions,zero retries andzero within/post-pass map/OCR/saved-text changes. One pre-OCR crop repair gives the right SYSEDIT continuation left margin; all final text crops are disjoint.",
+          "Five source pages5/393–396 directly reviewed using retained byte-exact3000-long-edge renders.27 exact crops,23 outcomes,318 typed ranges,79 nonempty reading rows,4 original images and15 source-local candidates validate. Two captions are literal display text andtwo are null. Three remaining threshold130 crossings are directly reviewed GUI frame/menu-rule ink.",
+          "Both canonical child page references remain null and parent0033 remains exact,without inheriting group390. Only0036/0038 advance; all other50 outcomes,canonical order/titles/bylines/parents/references and27 classification files remain unchanged. Unlocated0037 stays unresolved,without a source-wide absence claim or substitution by an unlisted395 tip.",
+          "All112 new selected files reproduce independently and in a fresh process.22 negative checks reject20 rehashed native faults and2 ownership faults. All40238 prior files,30 core modules andsource/TOC/queue/runtime remain exact;earlier fresh213-test evidence retained. No new code/engine comparison or reader rebuild.",
+          "Full proofreading,human acceptance,exact glyphs/spacing/encoded bytes,technical/historical claims,original software/configuration/scan settings,recovery andexecution remain unverified."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0039",
@@ -6057,15 +6199,57 @@
         "sha256": "72d13252dfe82efc4307eac39a4b75ce0920ff67e2763c9a37441c62a57b0183",
         "bytes": 56544
       }
+    },
+    {
+      "name": "1993-03-batch-51",
+      "status": "complete",
+      "completed_at": "2026-11-02T19:57:05.305812+00:00",
+      "goal": "Restore complete independent lower-page SYSEDIT0036 andscanning0038.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0036",
+        "maso-1993-03-toc-0038"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        394,
+        395
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        393,
+        396
+      ],
+      "recognition_invocations": 23,
+      "initial_recognitions": 23,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 23,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 1,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-51/validation-complete.json",
+        "sha256": "46a674ee85e62ccbb7e75f28a1140da9ce80ceb7cad50a00a7927e0be2ec5419",
+        "bytes": 3123
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-51/native-reproduction.json",
+        "sha256": "9411c300a4376c039912c67adf9c2f6d5e0285378139ad9dab88fb6a6eb15d96",
+        "bytes": 22949
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 26,
+    "readable": 28,
     "partial": 0,
     "group_headings": 6,
     "section_references": 3,
-    "unresolved": 17
+    "unresolved": 15
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -6073,27 +6257,46 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-51",
-    "goal": "Restore independent SYSEDIT0036 on lower395 and scanning-tips0038 on lower394 within their observed source regions.",
+    "name": "1993-03-batch-52",
+    "goal": "Bounded source-location review forstring replacement0037 andverify Q&A0039 actual extent fromobserved398 opener;restore upto six confirmed Q&A pages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0036",
-      "maso-1993-03-toc-0038"
+      "maso-1993-03-toc-0037",
+      "maso-1993-03-toc-0039"
     ],
-    "mapping_targets": [
-      394,
-      395
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      398,
+      399,
+      400,
+      401,
+      402,
+      403
     ],
     "planned_outside_lookup_pdf_pages": [
       5,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
       393,
-      396
+      394,
+      395,
+      396,
+      397,
+      404,
+      405
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Reuse retained3000-long-edge renders and verify source titles, reading order, endings and credits before mapping. SYSEDIT source395 ends at 박은주 credit; exclude unlisted upper DOS-shell tip and independent right boxed system-status tip. Scanning0038 occupies lower394 and ends at seventh tip; source byline is null, while canonical 편집부 stays separate. Keep canonical order/parents/null child page references unchanged; do not inherit group390. Partition0034 and batch-formatting0035 are final independent readable owners; exclude upper394 batch-formatting from0038. Preserve original screen/line-art/halftone panels and captions literally. String-replacement0037 remains unresolved and unlocated in the bounded392–395 review; do not substitute either unlisted395 tip or claim source-wide absence. No third task, software execution or reader rebuild."
+    "note": "Canonical0037 문자열 교체를 간편하게/김범석,parent0033/null reference,remains unlocated in bounded392–395 review. Review nearby source contexts384–397 without substituting unlisted395 tips,borrowing other credits,claiming a source-wide absence or inventing a missing-page count. Q&A0039 물어보세요 has observed398 opener/printed396 andcanonical reference396;verify continuity andactual ending/next independent dictionary before mapping. Provisional398–403 is not a verified extent or global offset. Keep at mosttwo canonical tasks,six mapped pages,twenty outside lookups. Segment if longer andactually assemble separately. Reuse retained renders. All four restoredtechnical children0034/0035/0036/0038 are final independent owners. Preserve reader credits,original illustrations,captions,code/data andsource uncertainty;no execution or reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

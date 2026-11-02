@@ -1261,21 +1261,69 @@ fallback; its log remains, and the corrected auditor passes without export chang
 Full proofreading, human acceptance, exact source bytes, historical/technical claims,
 original software/disk recovery and execution remain unverified. No reader rebuild.
 
-Current totals: twenty-six readable/sample-reviewed articles, no partials, six
-non-owning groups, three section references and 17 unresolved identities among 52.
-The 26 current body-owner packages contain 12,508 exact files; 27 classification
+Batch 51 completes SYSEDIT article 0036 on lower PDF 395/individually observed
+printed 393 and scanning-tips article 0038 on lower PDF 394/printed 392. Their
+58-file and 54-file JSON/assets natives match independent exports and fresh-process
+rebuilds. All 27 source-exact crops, 23 outcomes, 318 typed ranges and 79 nonempty
+reading rows validate. SYSEDIT's printed 박은주 credit is preserved. Scanning's
+source byline and credit remain null, separate from canonical 편집부. Both canonical
+child references stay null, with parent 0033 unchanged; no inherited group 390.
+Only these two bodies advance; all fifty other outcomes remain unchanged.
+
+Four original images retain both titles, SYSEDIT's screen and the bordered scan
+composite. Two captions contain literal source text; two stay null. Six selected
+GUI labels retain the outer title/menu, inner menu and three readable file-title
+labels. Eleven individual menu-name occurrences bind to their own source ranges.
+Tiny SYSTEM.INI is corrected directly from the unchanged image after zero-byte raw
+recognition. No fourth filename is inferred from the prose claim; front configuration
+commands, icons and remaining miniature state stay original-image dependent.
+
+All seven numbered tips retain their ordered source regions. Tip 2 crosses columns
+at 0.→75×0.75 with an empty logical separator and no inferred numeric value. Tip 4
+crosses at 즉→완성된 with a space. SYSEDIT's 윈도우→내에서 continuation keeps an
+empty separator. Three positional cabin-example extents have null individual captions,
+algorithm assignments and scan settings. The complete original composite and printed
+caption 〈그림 4〉 라인 아트 스캐닝 방식 remain intact; no panel settings are invented.
+
+Fifteen source-local candidates retain damaged path glyphs, inconsistent CONFIC./SYS
+versus CONFIG.SYS, the printed SETUP/SYSEDIT identity claim, 아미지, 원하지 않은,
+physical dither-/ing, literal backslash paths and Unicode punctuation limits. Scanner
+color/LED/resolution and product-warning claims remain literal, without technical
+correction, original software/configuration recovery or execution.
+
+All 23 complete drafts were read before one continuing source pass: 23 initial
+kor+eng recognitions, zero retries or within/post-pass changes. One pre-OCR repair
+widens the right SYSEDIT continuation's left margin. Final text crops are disjoint;
+three threshold-130 crossings are directly reviewed GUI frame/menu-rule ink. Five
+pages 5/393–396 were directly reviewed from retained byte-exact renders. Upper 394's
+final batch-formatting article, upper 395's unlisted DOS-shell tip and the independent
+right system-status box are excluded. Unlocated 0037 remains unresolved.
+
+Twenty-two negative checks reject twenty rehashed native faults and two canonical
+ownership faults. These cover invented scanning attribution, repeated-menu source
+borrowing, lost tip rows, false exhaustive GUI coverage and invented panel settings.
+All 40,238 prior files, thirty core modules and source/TOC/queue/runtime pins remain
+exact; earlier fresh 213-test evidence is retained. A finalization-helper syntax error
+occurred before execution; its log remains, and the corrected helper completed without
+changing exports. Full proofreading, human acceptance, exact glyphs/spacing/encoded
+bytes, technical/historical claims, original software/scan settings and execution
+remain unverified. No reader rebuild.
+
+Current totals: twenty-eight readable/sample-reviewed articles, no partials, six
+non-owning groups, three section references and 15 unresolved identities among 52.
+The 28 current body-owner packages contain 12,620 exact files; 27 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 51 restores SYSEDIT article 0036 on lower PDF 395 and scanning-tips
-article 0038 on lower PDF 394. Verify titles, reading order, endings and captions
-against retained renders before mapping. Keep SYSEDIT's printed 박은주 credit;
-scanning's source byline stays null, separate from canonical 편집부. Exclude upper
-394's now-final batch-formatting body, upper 395's unlisted DOS-shell tip and the
-independent right system-status box. Preserve canonical order, parents and null
-child references without inheriting group reference 390. String-replacement 0037
-remains unlocated in the bounded 392–395 review; do not substitute unlisted tips
-or claim source-wide absence. Two tasks, six mapped pages and twenty outside
-lookups remain ceilings. No software execution or reader rebuild.
+Next: Batch 52 performs a bounded source-location review for string-replacement
+child 0037 and verifies Q&A article 0039 from its observed PDF 398/printed 396 opener.
+Review nearby source contexts 384–397 for 0037 without substituting unlisted 395 tips,
+borrowing another credit or claiming source-wide absence. Verify Q&A's continuity,
+actual ending and following dictionary before mapping. Provisional PDF 398–403 is
+not a verified extent; segment if longer and actually assemble separately. Keep
+canonical titles/bylines/parents/references unchanged. Reuse retained renders and
+preserve original illustrations, captions, reader credits, code/data and uncertainty.
+Two tasks, six mapped pages and twenty outside lookups remain ceilings. No software
+execution or reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
