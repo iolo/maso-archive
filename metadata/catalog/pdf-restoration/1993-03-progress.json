@@ -2012,23 +2012,23 @@
       "parent_id": "maso-1993-03-toc-0012",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Canonical identity unchanged;five-name source credit separate. All276–286 individually reviewed;main ends283,Listing7row21 ends286 before independent book advertisement.",
-        "346 files reproduce independently/fresh-process.94 exact crops,81 outcomes,2073 ranges,430 reading rows and338 safe/exact ZIP members validate.",
-        "Two tables retain67 data cells/five headers;Figure3 matrix294 cells/ten headers/six blanks/two dotted separators. Three code contexts10 rows,eight members/two arrays/four assignments retain source occurrences.",
-        "81 initial drafts before one source pass;one figure-only crop repair withall81 raw/TSV results exactly reused fromr04. Zero retries.20 native/two ownership mutations reject;24715 priorfiles/30 core unchanged."
+        "Canonical title,byline 황기태 외 4인,parent0012 andreference274 unchanged;sourcecredit five names separate. Actual276–286 assembled,folios274–284 individually observed. Main ends283;Listing7row21 ends286 before excluded book advertisement.",
+        "583files consume two independently regenerated natives/574files andmatchfresh-process rebuild.163crops,131outcomes,11953 projected ranges,23790 current occurrences and940readingrows validate. Every projected typedrange retains exact nativeorigin.",
+        "Seven printed listings/375numberedrows,sixblanks,sevenmissingrow13colons,eightunresolvedrules andthreeindependentopeningfragments/10rows retained. One281→282 prosemerge preserves seven Table2/Figure8 items;all source code bytes exact.",
+        "Thirty-two original images,22literalcaptions,83tablecells/fiveheaders,294matrixcells/tenheaders/sixblanks and108diagramlabels retain sourcecontexts. Finalnative50drafts beforeonepass,zero retries;33negativecases reject;25061priorfiles/30core exact."
       ],
       "restoration": {
-        "directory": "archive/pdf/1993-03/packages/batch-28-r01/vector-a",
+        "directory": "archive/pdf/1993-03/packages/vector-r01",
         "article_id": "scan-maso-1993-03-toc-0019",
         "manifest": {
-          "path": "archive/pdf/1993-03/packages/batch-28-r01/vector-a/manifest.json",
-          "sha256": "9562c995bd64cbdbcf3615f4900619f5f62976edff5322ff44d8d94b14d1609e",
-          "bytes": 58840
+          "path": "archive/pdf/1993-03/packages/vector-r01/manifest.json",
+          "sha256": "d469ad6c956a2977e5fd45e6175c4273b04452bdb51301d67272ddef863f65eb",
+          "bytes": 105335
         },
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "coverage": {
           "pdf_pages": [
@@ -2037,7 +2037,12 @@
             278,
             279,
             280,
-            281
+            281,
+            282,
+            283,
+            284,
+            285,
+            286
           ],
           "printed_pages": [
             "274",
@@ -2045,68 +2050,92 @@
             "276",
             "277",
             "278",
-            "279"
+            "279",
+            "280",
+            "281",
+            "282",
+            "283",
+            "284"
           ],
-          "regions": 94,
-          "blocks": 81,
-          "figures": 13,
-          "deferred_pdf_pages": [
-            282,
-            283,
-            284,
-            285,
-            286
-          ],
+          "regions": 163,
+          "blocks": 130,
+          "figures": 32,
+          "deferred_pdf_pages": [],
           "remaining_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_end_pdf_page": 286,
         "actual_prose_end_pdf_page": 283,
         "endpoint_observation_only": false,
         "validation": {
-          "path": "archive/pdf/1993-03/restoration/batch-28/validation-complete.json",
-          "sha256": "391ad8a9c589f5df2a571b8409890f13dd850a927f045935c5e1d0e667035d1d",
-          "bytes": 2141
+          "path": "archive/pdf/1993-03/restoration/batch-29/validation-complete.json",
+          "sha256": "379f304faecd427862dd691875ce269d25b0244d246d823fb2fd29089f73448c",
+          "bytes": 3538
         },
         "reproduction": {
-          "path": "archive/pdf/1993-03/restoration/batch-28/native-reproduction.json",
-          "sha256": "12c23602bc2eedfae2f68e355f226b75460006f2997a36d74130190e6072b4d3",
-          "bytes": 59334
+          "path": "archive/pdf/1993-03/restoration/batch-29/reproduction.json",
+          "sha256": "3cbc4162f45429d95d60222377b1b0fe06aeae0b7ccac0aaa9525368b2bfcc41",
+          "bytes": 106799
         },
-        "checkpoint": "batch-28",
+        "checkpoint": "batch-29",
+        "source_native_segments": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1993-03/packages/batch-28-r01/vector-a",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-28-r01/vector-a/manifest.json",
+              "sha256": "9562c995bd64cbdbcf3615f4900619f5f62976edff5322ff44d8d94b14d1609e",
+              "bytes": 58840
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-28/vector-a-r05/package-recipe.json",
+              "sha256": "13aaeab8f706b7bdb7f743654548951151c050fb0b6158013342087139fcfdd6",
+              "bytes": 13684
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1993-03/packages/batch-29-r01/vector-b",
+            "manifest": {
+              "path": "archive/pdf/1993-03/packages/batch-29-r01/vector-b/manifest.json",
+              "sha256": "605fb5d5116fffe96828eb5f42e9625a50e2a385bc147146e8ba4a032144c252",
+              "bytes": 38925
+            },
+            "recipe": {
+              "path": "archive/pdf/1993-03/restoration/batch-29/vector-b-r03/package-recipe.json",
+              "sha256": "b86f43098fb65206981f114a76d34175e311705f15d1c805409659627244af6f",
+              "bytes": 12961
+            }
+          }
+        ],
         "full_source_extent": {
           "start_pdf_page": 276,
           "end_pdf_page": 286,
           "uninspected_interior_pdf_pages": [],
           "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-29/source-review-completed.json",
+            "sha256": "4176e7eba44f3150ae97f8db5e472ed4c66843a8a0d1919f014c4776bbc98e48",
+            "bytes": 4662
+          },
+          "opening_source_observations": {
             "path": "archive/pdf/1993-03/restoration/batch-28/source-review-completed.json",
             "sha256": "264f5e1855430920b6d045c2cfd47a1474d9dd784e744ad5a7358124a00cbed9",
             "bytes": 7321
           },
-          "final_map_review": {
-            "path": "archive/pdf/1993-03/restoration/batch-28/crop-review-completed.json",
-            "sha256": "8ed0791b04f619dbd91c1a18acc8a330aeb8587d1bdbd2810797b1f7fd32e62b",
-            "bytes": 6397
-          },
-          "within_pass_figure_refinement": {
-            "path": "archive/pdf/1993-03/restoration/batch-28/within-pass-figure-refinement-reviewed.json",
-            "sha256": "e55f715417c9010a6fc9eeb1ac6bee2cf45a9f1b59fbe78cec42ec9752461891",
-            "bytes": 412
-          },
-          "note": "All eleven body pages directly reviewed;folios274–284 individually observed. Main prose ends283 with ornament;seven independent printed listings continue throughListing7row21 on286. Lower286 book advertisement excluded fromfuture mapping;275 and287–291 advertisements,292 distinct library/menu opener. No global offset inferred."
+          "note": "All eleven pages actually assembled from independently regenerated a/b natives. Folios274–284 individually observed. Main prose ends283;seven listings end286 atListing7row21 closing brace before independent book advertisement. Following287 isadvertisement;292 distinct library/menu opener. No global folio offset inferred."
         },
         "notes": [
-          "Six-page opening276–281 has346 independent/fresh-process exact JSON/assets files. Final282–286 andactual eleven-page assembly required. Canonical title,byline 황기태 외 4인,parent0012 andreference274 unchanged;source five-name credit separate.",
-          "All94 exact crops,81 outcomes,2073 typed range occurrences and430 nonempty reading rows validate. Thirteen original images preserve category/group/series art andFigures1–8/two tables. Ten literal captions andthree null captions.",
-          "Table1 thirteen rows/39 cells/three headers andTable2 fourteen rows/28 cells/two headers preserve physical cell wraps. INSERT/CURVE isone wrapped menu cell. Cases7/8 distinguish 직선/곡선;case2 곡선와 retained. Final readings supersede preliminary duplicate-case observation.",
-          "Figure3 coordinate matrix preserves thirty displayed rows0–25/96–99,294 explicit cells,ten headers,six blank x4/y4 cells in10/19/22 andtwo dotted separator rows. Omitted26–95 never expanded;exact dot counts unverified.",
-          "Three independent code contexts preserve10 physical rows/93 tokens/four comments,eight struct members infour field groups,two100-element arrays andfour assignments. Seventy-eight diagram label occurrences keep figure/phase contexts;no code repair,compilation or execution.",
-          "Nine prose boundaries andoutgoing281 있어→282 야 한다는 점이다. retain source contexts. Editorial deck,series chronology andgroup photograph stay independent;no names-to-faces invented. Source 정/강 figures remain distinct.",
-          "All81 initial drafts read before one paused/resumed source pass;three eng and78 kor+eng regions,65 pre-OCR crop events. One within-pass figure-only Table1 frame extension;all81 raw/TSV outcomes reused withactualr04 execution origins. Zero textcrop changes,new recognitions,retries orpost-pass changes.",
-          "Source 고정난,에니메이션,곤욕,drawploy,곡선와,repeated 위 방향으로 모양으로 andmissing counter parenthesis retained. ToolbarPcx/Pex,glyph/space/encoded bytes,historical accuracy,full proofreading andhuman acceptance remain unverified.",
-          "Twenty rehashed native andtwo ownership mutations reject. All24715 prior files,thirty core modules andsource/TOC/queue/runtime pins remain exact;prior fresh213-test evidence retained."
+          "The actual eleven-page assembly has583 exact files fromtwo independently regenerated natives totaling574 files anda fresh-process rebuild. All131 original text blocks retain exact bytes;one281→282 prose merge yields130 current blocks. Native metadata/assets remain exact;partial scopes arehistorical.",
+          "Complete metadata projection contains11953 typed ranges. All23790 current range occurrences and23644 source occurrences validate,including path-by-path native-origin andscalar/reference checks. All940 reading rows retain source contexts. Root/two-native ZIPs contain1122 safe,CRC-valid,exact members.",
+          "Thirty-two original images preserve category/group/series art,Figures1–11,four tables,thirteen numbered listing panels,three opening code fragments andending ornament. Twenty-two captions contain literal display text;ten are null. Four tables have83 explicit cells/five headers;Figure3 matrix separately retains294 cells/ten headers/six blanks/two dotted separators. No missing values inferred.",
+          "Ten independent code contexts retain385 physical/logical source rows:ten opening fragment rows plus375 numbered rows across seven listings69/80/69/37/40/59/21. Six numbered blanks,seven missing row13colons,eight unresolved wavy rules,3899 tokens,67 comment rows,130 lexical API names,29 control names,217 member accesses and33 numbered wrap groups remain. Three printed functions arecomplete;no compilation or execution.",
+          "One281 있어→282 야 한다는 점이다. prose merge preserves allseven intervening Table2/Figure8 items. Thirteen within-native prose boundaries andsix code-panel boundaries retain source contexts. Mainprose closes283 witha separate narrow tail andornament;no prose join into numbered listings.",
+          "One hundred eight diagram/screenshot label occurrences preserve repeated SP/EP/node/phase contexts. Figures3/4retain differing 정/강;Table2cases7/8 distinguish straight/curve;sourcecase2 곡선와 retained. Five-name sourcecredit remains separate fromcanonical 황기태 외 4인 byline;no names-to-faces assigned.",
+          "Final native282–286 adds50 initial recognitions:13 eng code/37 kor+eng regions. All50 drafts read beforeonepaused/resumed sourcepass;20 pre-OCR crop events. Initial map schema error preceded anyrecognition andwas corrected inretained validrevision. Zero retries orwithin/post-pass changes.",
+          "Printed 고정난,에니메이션,drawploy,곡선와,커브의 라인으로 versusprose 곡선과 직선으로,Listing7duplicate mouse_off()07/08,pro!=1 andincompletecounterparenthesis remain literal. curvetol final l/1,c1/cl,1/l,0/O,verticaloperators,Pcx/Pex,bitmapV/U,spacing/encodedbytes andrule/dotcounts remainunverified. Humanacceptance/fullproofreading/technicalaccuracy/execution unverified.",
+          "Sixteen rehashed assembly,twelve final-native,two ownership andthree frozen-adapter guard cases reject. All25061 priorfiles,thirty coremodules andsource/TOC/queue/runtime pins remain exact. Earlier fresh213-test evidence retained."
         ]
       }
     },
@@ -3466,12 +3495,47 @@
         "sha256": "12c23602bc2eedfae2f68e355f226b75460006f2997a36d74130190e6072b4d3",
         "bytes": 59334
       }
+    },
+    {
+      "name": "1993-03-batch-29",
+      "status": "complete",
+      "completed_at": "2026-11-02T04:11:19.974112+00:00",
+      "goal": "Preserve vector-font final282–286 andactually assemble complete eleven-page article276–286 fromtwo independently regenerated natives.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0019"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        282,
+        283,
+        284,
+        285,
+        286
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 50,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 20,
+      "within_pass_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-29/validation-complete.json",
+        "sha256": "379f304faecd427862dd691875ce269d25b0244d246d823fb2fd29089f73448c",
+        "bytes": 3538
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-29/reproduction.json",
+        "sha256": "3cbc4162f45429d95d60222377b1b0fe06aeae0b7ccac0aaa9525368b2bfcc41",
+        "bytes": 106799
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 13,
-    "partial": 1,
+    "readable": 14,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 33
@@ -3482,29 +3546,43 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-29",
-    "goal": "Restore vector-font article0019 final282–286 asan immutable native,thenactually assemble all eleven pages276–286 fromindependently regenerated natives.",
+    "name": "1993-03-batch-30",
+    "goal": "Classify pageless library heading0020 fromcanonical/source evidence,verify menu-library article0021 extent/ending fromobserved opener292/printed290,andrestore up to six confirmed openingpages.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0019"
+      "maso-1993-03-toc-0020",
+      "maso-1993-03-toc-0021"
     ],
-    "mapping_targets": [
-      282,
-      283,
-      284,
-      285,
-      286
+    "canonical_page_reference": 290,
+    "mapping_targets": [],
+    "provisional_mapping_targets": [
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
     ],
     "planned_outside_lookup_pdf_pages": [
-      281,
-      287,
-      292
+      4,
+      291,
+      298,
+      299,
+      300,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Full276–286 already directly reviewed. Mainprose ends283;preserve diagrams9/10 andseven independent printed Listings1–7 throughListing7row21 closing brace on286. Lower286 independent book advertisement excluded. Join incoming281 있어→282 야 한다는 점이다. withallintervening Table2/Figure8 items retained. Canonical fields unchanged. No source repair,execution orreader rebuild."
+    "note": "Canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게,byline 박종천,parent0020 andreference290 unchanged. Opener292/banner 라이브러리은행 directly observed. Verifyactual ending/ownership withoutinferring extentfromlater Class(Y) reference316 or globaloffset. Record uninspected interiorcontinuity honestly iflongbody exceedsreviewlimit. Source menus,tables,code,strings andglyphcandidates literal;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

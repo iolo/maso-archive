@@ -6,46 +6,51 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: thirteen readable/sample-reviewed articles, one partial,
+March 1993 is in progress: fourteen readable/sample-reviewed articles, no partials,
 two non-owning groups, three final section references and 33 unresolved identities
 among 52.
 
-Batch 28 verifies vector-font article 0019's eleven-page body, PDF 276–286/
-printed 274–284, and preserves opening 276–281 as a 346-file partial native.
-Independent and fresh-process exports match. All 94 exact crops, 81 OCR outcomes,
-2,073 typed range occurrences and 430 nonempty reading rows validate. Thirteen
-original images retain category/group/series artwork, two tables and figures 1–8;
-ten captions contain literal text and three are null. Table 1 has thirteen rows/
-39 cells/three headers; table 2 has fourteen rows/28 cells/two headers. Physical
-cell wraps remain explicit, including INSERT/CURVE in one menu cell. Cases 7/8
-have distinct straight/curve wording; final source readings supersede the earlier
-preliminary duplicate-case observation. Figure 3's matrix retains thirty displayed
-rows 0–25/96–99, 294 explicit data cells, ten headers, six blank x4/y4 cells in rows
-10/19/22 and two dotted separators. Omitted 26–95 values are never expanded.
-Three independent code contexts retain ten physical rows, 93 tokens, four comments,
-eight struct members in four field groups, two 100-element arrays and four
-assignments. Seventy-eight diagram labels retain figure/phase contexts. Nine prose
-boundaries, independent editorial/series contexts and outgoing 281→282 remain.
-All 81 initial drafts were read before one paused/resumed source pass. Sixty-five
-pre-OCR crop events and one within-pass figure-only table-frame extension remain;
-all 81 raw/TSV outcomes are exact with actual r04 execution origins. Zero text-crop
-changes, new recognitions, retries or post-pass changes. Source 고정난, 에니메이션,
-drawploy, 곡선와, repeated wording and missing counter parenthesis remain literal.
-Pcx/Pex, glyphs, spacing, encoded bytes and exact dot counts remain unverified.
-Twenty rehashed native and two ownership mutations reject. All 24,715 prior files
-and thirty core modules remain exact; earlier fresh 213-test evidence retained.
+Batch 29 preserves vector-font final PDF 282–286 as a 228-file native and
+actually assembles the complete eleven-page article, 276–286/printed 274–284.
+All 583 assembly files match an export consuming two independently regenerated
+natives totaling 574 files and a fresh-process rebuild. All 163 exact crops,
+131 outcomes, 11,953 native metadata projections, 23,790 current range occurrences/
+23,644 source occurrences and 940 reading rows validate. Every projected source
+field retains its native context; original metadata/assets stay exact. One
+281→282 prose merge joins 있어야 while retaining all seven intervening Table 2/
+Figure 8 items. Thirteen internal prose boundaries and six code-panel boundaries
+remain. Main prose ends 283; seven independent listings end at listing 7 row 21
+on 286, before excluded book advertising. Ten code contexts preserve 385 physical
+rows: ten opening fragment rows and 375 numbered rows across seven listings
+69/80/69/37/40/59/21. Six numbered blanks, seven missing row-13 colons and eight
+unresolved wavy rules remain. All 3,899 tokens, 67 comments, 130 lexical API names,
+29 control names, 217 member accesses and 33 numbered wrap groups retain source
+occurrences. Three printed functions are complete; no code repair or execution.
+Thirty-two original images have 22 literal captions and ten null captions. Four
+tables retain 83 cells/five headers; Figure 3's separate matrix keeps 294 cells/
+ten headers/six blanks/two dotted separators. All 108 diagram-label occurrences
+retain figure/phase contexts. Final native adds fifty initial recognitions, all
+drafts read before one paused/resumed source pass. Twenty pre-OCR crop events;
+zero retries or within/post-pass changes. The initial map schema rejection occurred
+before recognition; the diagnostic and corrected revisions remain retained.
+Source caption/prose differences, duplicate mouse_off() calls, pro!=1, spelling,
+operator/glyph candidates and unresolved rule/dot counts stay literal. Sixteen
+rehashed assembly, twelve native, two ownership and three adapter-guard cases
+reject. All 25,061 prior files and thirty core modules remain exact; earlier fresh
+213-test evidence retained.
 
-Current totals: thirteen readable/sample-reviewed articles, one partial, two non-owning
+Current totals: fourteen readable/sample-reviewed articles, no partials, two non-owning
 groups, three section references and 33 unresolved identities among 52. Fourteen
-current body-owner packages contain 5,377 exact files; eight classification evidence
+current body-owner packages contain 5,614 exact files; eight classification evidence
 files remain separate. Original natives and superseded revisions remain unchanged.
 
-Next: Batch 29 restores vector-font final PDF 282–286, then actually assembles
-all eleven pages 276–286 from independently regenerated natives. Main prose ends
-283; seven independent printed listings continue through listing 7 row 21 on 286.
-Preserve diagrams 9/10, incoming 281 있어→282 야 한다는 점이다. and the intervening
-table/figure contexts. Lower 286 book advertising is excluded. Canonical title,
-byline 황기태 외 4인, parent 0012 and reference 274 remain unchanged.
+Next: Batch 30 classifies pageless library heading 0020 from canonical/source
+evidence and verifies menu-library article 0021 from observed PDF 292/printed 290,
+then restores up to six confirmed opening pages, provisionally 292–297. Preserve
+canonical title 라이브러리는 이렇게 만든다(2) : 메뉴 작성을 손쉽게, byline 박종천,
+parent 0020 and reference 290. Later Class(Y) reference 316 is a location lead,
+not proof of extent. Keep uninspected interior continuity explicit if a long body
+exceeds the source-review limit. No reader rebuild.
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
