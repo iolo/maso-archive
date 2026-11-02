@@ -1519,24 +1519,76 @@ core modules and source/TOC/queue/runtime pins remain exact; the earlier fresh
 spaces/encoded bytes and historical/hardware/software behavior remain unverified.
 Item 0037 stays unresolved with bounded location evidence. No reader rebuild.
 
-Current totals: thirty-one readable/sample-reviewed articles, one partial, seven
+Batch 57 restores final overseas-news pages 120–123 and actually assembles all
+ten pages 114–123/individually observed printed 112–121. Its 621 files match an
+independent export consuming both regenerated natives/613 files and a fresh-process
+rebuild. All 168 exact crops, 143 outcomes, 3,078 projected metadata ranges, 6,204
+current typed ranges, 6,062 source-occurrence records and 1,205 nonempty source rows
+validate. The original 307-file opening and 306-file final native remain immutable
+historical partials. Canonical 해외네트워크, null byline/reference and parent 0041
+stay unchanged. Final 123 ends with the Library Systems notice/contact/MS ornament
+before independent software reviews on 124.
+
+Twenty-three complete independent news items retain intrinsic 동향 stories 01–06
+and 신제품 stories 07–23. Monthly new products on 122–123 contain stories 14–23;
+the nested notebook/accessories subsection contains 20–23. Its three introductory
+fragments stay separate from those notices. Four inline organization labels are
+preserved without invented standalone titles. No article author, reporter/photo
+credit or new canonical child is assigned. Twenty-five original images retain
+fifteen literal captions and ten null captions; sixteen contacts retain source
+occurrences. Screenshot/statistics/graph/UI interiors remain image-dependent.
+
+Forty-five internal prose boundaries and one cross-native boundary retain original
+contexts. The sole empty-separator 119→120 보+안 join crosses the terminal-server
+caption, original photograph and repeated heading. All other blocks stay separate.
+Every source region/block/figure/story/subsection identity and typed range projects
+consistently. Historical native scope, story 10 and product-section deferrals have
+external current dispositions; original metadata remains unchanged. Both original
+charts and their labels/source credits remain, with no inferred pie remainder,
+bar value, unit, geometry or missing seventh template category.
+
+All 198 source-local candidates remain, including opening Math32/Math8, WS903C1-ZS,
+Frequences and Manaeger; final form facter, iBM, proprint, 능동/passive matrix
+contradiction, Inspaire, SmartForcasts, SQL를, address/phone punctuation, historical
+prices/units, a stray leading mark before 내놓았다 and the notebook noun in a disk
+notice. No spelling, grammar, arithmetic, unit or technical repair is supplied.
+Native 121 reads 조할, clarifying the earlier extent-only 조합 note. That historical
+note stays frozen with an external clarification; earlier restored text is exact.
+
+Final-native OCR used 71 initial kor+eng calls after 32 pre-OCR crop events. All
+71 full drafts were read before one continuing source pass; zero retries or
+within/post-pass map/OCR/saved-text changes. Direct color review caught pale row
+clipping missed by threshold 130. Final text crops are disjoint with zero threshold
+crossings. All source views, maps, raw results, saved readings and clarification
+remain. An inline preparation import failed before any file write; its failure
+record remains, with no recognition or source-pass effect.
+
+Six source pages 119–124 were directly reviewed: four mapped and two outside lookups.
+Forty-three negative checks reject sixteen rehashed native faults, eighteen assembly
+faults, four self-consistent projection faults that pass generic export, two ownership
+faults and three frozen-adapter guard faults. All 42,368 prior files, thirty core
+modules and source/TOC/queue/runtime pins remain exact; the earlier fresh 213-test
+baseline is retained. Full proofreading, human acceptance, exact glyphs/spaces/
+encoded bytes and historical/hardware/software behavior remain unverified. Item
+0037 stays unresolved with bounded location evidence. No reader rebuild.
+
+Current totals: thirty-two readable/sample-reviewed articles, no partials, seven
 non-owning groups, three section references and ten unresolved identities among 52.
-The 32 current body-owner packages contain 14,065 exact files; 39 classification
+The 32 current body-owner packages contain 14,379 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 57 restores final overseas-network pages 120–123 and actually assembles
-all ten pages 114–123 from independently regenerated immutable natives. Reuse the
-retained renders and verified extent. Preserve the incoming 119 보→120 안 terminal-
-server continuation across the original caption/photo and repeated heading, then
-independent printer, Survey First, Image Assistant, tinted new-product notices and
-notebook/accessory contexts. Final 123's Library Systems notice/contact/MS ornament
-precedes independent software reviews on 124. Retain opening story, section, caption,
-chart, boundary and uncertainty indexes without inferred chart values, missing
-seventh template category or rate units. Resolve historical partial notes externally
-without rewriting the 307-file opening native. Canonical null byline/reference and
-parent 0041 stay exact; other radar children remain unresolved. Four mapped pages
-fit the six-page ceiling; two tasks and twenty outside lookups remain ceilings.
-Item 0037 remains unresolved. No product execution/recovery or reader rebuild.
+Next: Batch 58 verifies and restores software reviews 0044 and new books 0045.
+Software reviews independently open on PDF 124/printed 122; books 128/126 and the
+price rubric 130/128 were previously observed. Candidate extents 124–127 and
+128–129 require direct ending and interior-continuity checks before certification.
+Map only confirmed bodies within six distinct pages; segment or defer if actual
+scope exceeds that ceiling. Preserve separate reviews/book notices, local printed
+authors/credits and bibliographic/product fields, original covers/screens/photos,
+literal captions/labels, prices, contacts and source errors. Canonical titles
+소프트웨어 열람실 and 새로 나온 책, parent 0041 and null bylines/references stay
+unchanged; source authors remain separate. Two canonical tasks and twenty outside
+lookups remain ceilings. Other children and unresolved 0037 stay unchanged.
+No historical product execution/recovery or reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

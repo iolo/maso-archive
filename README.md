@@ -13,13 +13,13 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: thirty-one readable/sample-reviewed articles, one
-partial, seven non-owning groups, three final section references and ten unresolved
-identities among 52. Overseas news has a verified ten-page extent, PDF 114–123;
-opening 114–119 is preserved in 307 exact files with separate news stories, original
-charts/images and literal source claims. The 32 body-owner packages contain 14,065
-files. Next: restore final 120–123 and assemble overseas news. Remaining bodies,
-433-page accounting, cover and issue closeout are pending. No reader rebuild.
+March 1993 restoration is active: thirty-two readable/sample-reviewed articles, no
+partials, seven non-owning groups, three final section references and ten unresolved
+identities among 52. Complete overseas news on PDF 114–123 is assembled in 621
+exact files, preserving 23 news items, original charts/images, local subsections and
+literal source claims. The 32 body-owner packages contain 14,379 files. Next:
+verify and restore software reviews and new books within six pages. Remaining
+bodies, 433-page accounting, cover and issue closeout are pending. No reader rebuild.
 See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
