@@ -1923,7 +1923,31 @@ classification evidence files are unchanged. No mapping, OCR or source correctio
 occurred. Article 0037 stays unresolved; no source-wide absence or missing-page count
 is inferred. Full issue goal remains active.
 
-Next: Batch 66 directly reviews physical pages 41–60 for continued page accounting
+Batch 66 directly reviews physical pages 41–60: nineteen advertisements and one
+independent Expo ’93 computer-music competition notice on 42. The notice was also
+inspected at whole-page display scale. It is distinct from canonical software
+competition notice 0011 and creates no new canonical child or body owner. Commercial
+MICROSCOPE 3 material spans physical 52–53; its diagram and feature lists remain
+advertising. No body for string-replacement article 0037 was found in this scope.
+
+The provisional inventory now classifies 382 of 433 physical pages and leaves
+51 pending. All 413 rows outside the current twenty pages remain exact, including
+original geometry, source references, unlisted material and mixed-page exclusions.
+Selected ownership still covers 272 physical pages in 41 maps. Twenty-five map-local
+exclusion records across 23 mixed body pages remain separate; complete mixed-portion
+accounting is pending.
+
+All four accounting files match independent and fresh-process exports. Twenty-five
+consistently rehashed semantic faults are rejected without selected-artifact equality,
+including misclassifying the Expo notice as advertising. All 45,787 prior preservation
+files, thirty core modules and source/TOC/queue/runtime pins remain exact. All 52
+canonical entries, 41 owners/16,429 files and 39 classification evidence files are
+unchanged. No mapping, OCR or source correction occurred. Direct-review elapsed wall
+time was recorded prospectively; it is not a historical throughput estimate. Article
+0037 stays unresolved; no source-wide absence or missing-page count is inferred.
+Full issue goal remains active.
+
+Next: Batch 67 directly reviews physical pages 61–80 for continued page accounting
 and bounded location research for 0037. Produce a fresh reproducible accounting
 revision. Require the actual target title/opening/ending before assigning a body;
 contents and bulletin references do not establish its location. Any newly found body
