@@ -1827,20 +1827,68 @@ human acceptance, exact glyphs/spaces/encoded bytes, historical truth and origin
 product behavior remain unverified. No present purchase/contact/submission action,
 program recovery, execution or reader rebuild.
 
-Current totals: forty readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and two unresolved identities among 52.
-The 40 current body-owner packages contain 16,087 exact files; 39 classification
+Batch 63 completes subscription notice 0052 as four source portions: upper
+PDF 426, whole foldouts 427–428 and the lower subscription strip on 429. Only 426
+has observed printed folio 424; other folios stay null. Source title 정기구독 신청 안내
+and canonical 정기구독 안내 remain distinct. Clockwise rotations 180/180/90 preserve
+original PDF geometry and raw render bytes. Lower 426's advertiser index and upper
+429's reader-response card remain independent non-owning exclusions. No quiz 0047
+ownership or canonical child is invented. Four mapped and four outside pages fit
+the 1/6/20 limits; no cross-page prose merge is inferred.
+
+All 342 selected JSON/assets files match independent and fresh-process exports.
+All 94 exact oriented crops, 80 outcomes, 1,327 typed ranges, 169 nonempty
+transcription rows, fourteen original figures, three literal/eleven null captions
+and seventy source-local candidates validate. Three main price tables retain twenty
+price cells; six leaflet and two strip prices remain independent occurrences.
+Fifty-four distributor contacts in fourteen source groups retain historical store
+names, districts, phones and physical wraps without modernizing or verifying them.
+
+Eight invoice fields, reader-message blank, three giro panels, three unmarked
+subscription choices, six-square postal blank and unfilled subscriber/stamp/amount
+fields remain original. Seven filled publication-list bullets are separate from
+subscription choices. Five payment-identifier, two postal-account and three approval
+occurrences retain their own ranges. Publisher context preserves two purpose items,
+five business items and twelve shareholder names without inventing authorship or
+current corporate identities. MICR machine-font print remains an undecoded original;
+its printed label and two pale human-readable footer labels are separately indexed.
+
+Seventy-eight full initial drafts were read before one actual continuing source
+pass. Eighty kor+eng calls comprise 78 initial and two new footer-label recognitions;
+78 exact raw/TSV outcomes retain actual R03 execution pins. Zero unchanged-input
+retries, 33 pre-OCR crop events, two within-pass new regions and two new-label crop
+refinements remain. Existing 92 regions and all prior saved text stay exact; no
+post-pass source change. A premature metadata-only draft gate was superseded before
+correction. Full-form review found the omitted footer labels; both new drafts were
+read before correction. One reporter path-serialization failure remains retained;
+no map, crop or recognition was repeated because of it.
+
+Fifty-six negative checks reject 54 rehashed semantic faults after generic integrity
+passes with frozen equality disabled, plus two ownership faults. All 45,445 prior
+files, thirty core modules and source/TOC/queue/runtime pins remain exact; unchanged
+fresh 213-test baseline retained. Only 0052 advances; other 51 outcomes and 39
+classification files stay unchanged, including unlocated 0037. Full proofreading,
+human acceptance, exact glyphs/spaces/encoded bytes, historical truth and original
+product behavior remain unverified. No purchase, payment, subscription/contact
+action or reader rebuild.
+
+Current totals: forty-one readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and one unresolved identity among 52.
+The 41 current body-owner packages contain 16,429 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 63 verifies and restores subscription notice 0052. Probe original
-contents 5 and PDF 425–428 to verify its actual extent and page portion. Observed
-426 opens subscription material with a lower advertiser index; do not infer a
-continuation or absorb that independent index into subscription prose. Preserve
-terms, forms, tables, contacts and uncertain glyphs; classify the advertiser index
-explicitly without creating a canonical child. Other 51 outcomes, including
-unlocated 0037, remain unchanged. One canonical task, six mapped pages and twenty
-outside lookups remain ceilings. No global folio offset, source-wide absence or
-missing-page count is inferred. No reader rebuild.
+Next: Batch 64 initializes all 433 physical source-page slots and begins
+bounded page accounting/location research for unlocated string-replacement 0037.
+Directly review physical pages 1–20. Reconcile prior full-page/crop evidence and
+current body-owner coverage only where source pins and review context prove it;
+do not infer unknown page portions. Preserve 0037's identity and require its actual
+title/opening/ending before assigning a body. The bulletin TECH reference is not
+body-location proof. Any newly found body must fit six mapped pages or be segmented.
+No other canonical outcome advances. One task, six mapped pages and twenty outside
+lookups remain ceilings. No source-wide absence or missing-page count follows from
+this bounded review; final disposition waits for sufficient issue-wide evidence.
+Page accounting, cover, standalone collection/index/report/reproduction and closeout
+remain required. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
