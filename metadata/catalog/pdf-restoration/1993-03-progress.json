@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1993-03",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-11-03",
   "source": {
     "id": "pdf-maso-9303",
@@ -8977,6 +8977,54 @@
         "sha256": "765723dd548129689d097bd261173685c634b59bca06dc0416c63e42a992681d",
         "bytes": 695
       }
+    },
+    {
+      "name": "1993-03-batch-72",
+      "status": "complete",
+      "completed_at": "2026-11-03T05:03:11.088729+00:00",
+      "goal": "Complete standalone JSON/assets issue export,all native/assembly regeneration,source/range/resource/asset/history/preservation/regression validation and supplied-PDF closeout.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "native_packages_regenerated": 66,
+      "actual_assemblies_regenerated": 20,
+      "standalone_files": 16487,
+      "selected_article_files": 16429,
+      "all_export_files_independently_exact": true,
+      "validation": {
+        "path": "archive/pdf/1993-03/evidence/issue-closeout-01/report.json",
+        "sha256": "2e54c05835cf8e8da0df6f196abfac4b8b0f42e89cde6577d33736e4944271d5",
+        "bytes": 5324
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/issue-closeout-01/reproduction.json",
+        "sha256": "033db2c46ab7ee2298514548ad07d32562ac174e4f40c5b6f85caeb86fd86118",
+        "bytes": 3532839
+      },
+      "full_fresh_reproduction": {
+        "path": "archive/pdf/1993-03/evidence/issue-closeout-01/full-fresh-reproduction.json",
+        "sha256": "96c513ec6354f2ccbc313cc3b2cbe5cb5db16f584dd03f796cb8e3460fc1e083",
+        "bytes": 3534925
+      },
+      "requirements_content_audit": {
+        "path": "archive/pdf/1993-03/restoration/issue-closeout-01/requirements-content-audit.json",
+        "sha256": "7b0fd7e89f0fd204444d7314053fc2cf39fab74f12809c5a4f0f62edfe5d2461",
+        "bytes": 22454
+      },
+      "handoff": {
+        "path": "archive/pdf/1993-03/restoration/issue-closeout-01/handoff.json",
+        "sha256": "db3b1bc7a1fc5cc3c8feff14e40eed1d9a43f7848842f09758377466e95907f5",
+        "bytes": 4463
+      },
+      "complete_original_article_recovery_verified": false,
+      "reader_rebuilt": false
     }
   ],
   "totals": {
@@ -8990,21 +9038,11 @@
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
     "No global printed/PDF offset or article ownership inferred.",
-    "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
+    "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending.",
+    "Batch72completes the canonical March1993 supplied-PDF JSON/assets pass:52identities,433source pages,25mixed exclusions;41readable/7groups/3section references/1eligible bodyunlocated.",
+    "All16487standalone files match independent andfullfresh exports from66regenerated natives/20assemblies. No original omission,source-wide absolute absence,missing count,full original recovery,human acceptance or full proofreading claimed."
   ],
-  "next_checkpoint": {
-    "name": "1993-03-batch-72",
-    "goal": "Build and independently/fresh-process reproduce the portable standalone March1993JSON/assets issue collection,validate all52canonical outcomes,cover,ownership,corrections,source/gap accounting and required evidence,and complete issue closeout.",
-    "toc_entry_ids": [],
-    "mapping_targets": [],
-    "planned_outside_lookup_pdf_pages": [],
-    "limits": {
-      "canonical_tasks": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    },
-    "note": "No new source search orOCRpreassigned. Use41readable owners/16429files,7non-owning groups,3section references,one final eligible-but-unlocated0037outcome,all433page/25exclusion accounting,41required classification evidence files and verified3filedonated-cover package. Preserve original packages,natives,raws,corrections,review evidence,cover and source pins. Run focused regressions and requirement-by-requirement completion audit. Do not mark complete before standalone index/report/rebuild/handoff are verified. No reader rebuild."
-  },
+  "next_checkpoint": null,
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1993-03/classifications/feature-sections-r01/0003-anchor.json",
@@ -9293,7 +9331,7 @@
     "explicit_review_render_bridges": 150,
     "page_accounting_complete": true,
     "source_wide_absence_asserted": false,
-    "note": "All433primary rows and25original exclusion records unchanged fromBatch70. Historical source audits64–70revalidated with433source/classification bindings;19direct source views recheckTECHneighborhood,locators and cover candidates. One final current-PDF gap outcome:0037eligible but bodyunlocated. No source-wide absolute absence,original omission or missing-page count proved. Verified donated cover selected separately. Standalone collection/index/report/reproduction and closeout remain pending.",
+    "note": "All433physical source pages and25original map-local exclusions across23mixed pages retain final source/material/ownership outcomes.272selected bodypages/273assignments across41maps;the one shared page394retains0035/0038owners. Verified donated cover and16487filestandalone export are integrated externally. Original ledger/source records remain exact;accounting completion does not certify unavailable original body recovery,original omission,missing count or human acceptance.",
     "prior_page_ledger": {
       "path": "archive/pdf/1993-03/restoration/batch-70/accounting-r01/page-ledger.json",
       "sha256": "54130932039d69cf0ab11e1b9e1b78e631f40a768910060fb22efaaa6be99ef2",
@@ -9388,5 +9426,169 @@
     },
     "source_assets_modified": false,
     "global_derivatives_modified": false
+  },
+  "completed_at": "2026-11-03T05:03:11.088729+00:00",
+  "restoration_pass_complete": true,
+  "complete_original_article_recovery_verified": false,
+  "remaining_work": [
+    "Human acceptance,full proofreading and manual glyph/bitmap correction remain deferred.",
+    "Original encoded source/program/diskette files,exact spaces/glyph identities,historical/technical truth and compilation/execution remain unverified.",
+    "0037is eligible but its body remains unlocated in this supplied-PDF pass;reopen on new identifying or specifically contradictory source evidence. No original omission,source-wide absolute absence or missing-page count proved.",
+    "Other issues,collection-wide aggregation,reading-room delivery and deployment are separate tasks."
+  ],
+  "issue_integration": {
+    "status": "complete-data-integration",
+    "report": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/final-integration.json",
+      "sha256": "9c21cd4c712785805f5635ea34ccef11501fd4d0dde2af436aca5e82628bd466",
+      "bytes": 1694
+    },
+    "usable_cover_verified": true,
+    "all_primary_pages_accounted": true,
+    "all_current_pdf_gap_outcomes_final": true,
+    "complete_original_article_recovery_verified": false,
+    "standalone_issue_export_verified": true,
+    "issue_closeout_complete": true
+  },
+  "issue_closeout": {
+    "name": "1993-03-batch-72",
+    "completed_at": "2026-11-03T05:03:11.088729+00:00",
+    "scope": "Complete canonical supplied-PDF JSON/assets pass with one eligible canonical leaf whose body remains unlocated;not complete original content recovery.",
+    "directory": "archive/pdf/1993-03/restoration/issue-closeout-01",
+    "standalone_directory": "archive/pdf/1993-03/reference",
+    "manifest": {
+      "path": "archive/pdf/1993-03/reference/manifest.json",
+      "sha256": "7207893c0714d16974301047ca38c22ab6df017fed3eb82bba77d0762fcb5b44",
+      "bytes": 3532651
+    },
+    "accounting": {
+      "path": "archive/pdf/1993-03/reference/accounting.json",
+      "sha256": "e5d87255420e6cd5db492f8864a955312280cdc5615b1d4f36bbdf773a21fc9a",
+      "bytes": 23810
+    },
+    "body_assignments": {
+      "path": "archive/pdf/1993-03/reference/body-assignment-index.json",
+      "sha256": "c8099dc4170428c26e03d7eb51a86ca79f13ffa1317fdd2b4ee6500d6ee84561",
+      "bytes": 462585
+    },
+    "resource_contexts": {
+      "path": "archive/pdf/1993-03/reference/resource-contexts.json",
+      "sha256": "c072feee759067e351d7b96d44430144ddcf3ee4bbc3ff73182b3428e5ee31bd",
+      "bytes": 14608664
+    },
+    "reading_indexes": {
+      "path": "archive/pdf/1993-03/reference/reading-indexes.json",
+      "sha256": "0022674883018ef94c9cf3526a906fdefb98c83e3b9a0c76beb57d4cabb68338",
+      "bytes": 101674
+    },
+    "cover_provenance": {
+      "path": "archive/pdf/1993-03/reference/cover-provenance.json",
+      "sha256": "32be5444a39b82f7e217ab7b9e7dc430bff679601bde45d717392c7a576bd391",
+      "bytes": 3446
+    },
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1993-03/reference/final-gap-dispositions.json",
+      "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+      "bytes": 4342
+    },
+    "coverage_gaps": {
+      "path": "archive/pdf/1993-03/reference/coverage-gaps.json",
+      "sha256": "9d90d90d5524ebab2854bea0cecc416a0618dde681319e60a9478af7bea9cf33",
+      "bytes": 2061
+    },
+    "reproduction": {
+      "path": "archive/pdf/1993-03/restoration/issue-closeout-01/reproduction.json",
+      "sha256": "033db2c46ab7ee2298514548ad07d32562ac174e4f40c5b6f85caeb86fd86118",
+      "bytes": 3532839
+    },
+    "full_fresh_reproduction": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/full-fresh-reproduction.json",
+      "sha256": "96c513ec6354f2ccbc313cc3b2cbe5cb5db16f584dd03f796cb8e3460fc1e083",
+      "bytes": 3534925
+    },
+    "validation": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/report.json",
+      "sha256": "2e54c05835cf8e8da0df6f196abfac4b8b0f42e89cde6577d33736e4944271d5",
+      "bytes": 5324
+    },
+    "requirements_content_audit": {
+      "path": "archive/pdf/1993-03/restoration/issue-closeout-01/requirements-content-audit.json",
+      "sha256": "7b0fd7e89f0fd204444d7314053fc2cf39fab74f12809c5a4f0f62edfe5d2461",
+      "bytes": 22454
+    },
+    "handoff": {
+      "path": "archive/pdf/1993-03/restoration/issue-closeout-01/handoff.json",
+      "sha256": "db3b1bc7a1fc5cc3c8feff14e40eed1d9a43f7848842f09758377466e95907f5",
+      "bytes": 4463
+    },
+    "package_rebuild": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/package-rebuild.json",
+      "sha256": "02502d8636f9971648c8c7fb449629d8f8888bc91d1a2b3e91c933f1b3de0d7f",
+      "bytes": 162703
+    },
+    "source_crops_and_OCR": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/source-crop-and-OCR-audit.json",
+      "sha256": "2bf23b42c90c18cdbcaa1c6c98a12100464f91f6c08e7e6c8f800af53a590b25",
+      "bytes": 6178784
+    },
+    "ranges": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/range-audit.json",
+      "sha256": "81138f6d694c138d4861f00a45caaa234b27939dea503d21b7d1fb6a811d0515",
+      "bytes": 56100
+    },
+    "content_structure": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/content-structure-audit.json",
+      "sha256": "f28db62c9a59bfdd1af5b465c73ab707e8d6b858f188a8bd452687398c709bc2",
+      "bytes": 22002
+    },
+    "portable_references": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/portable-reference-audit.json",
+      "sha256": "8cd8ae004fc1a2ef7f9cc0ed11deda124948ff52a58ed65294780ad2fd141655",
+      "bytes": 1519
+    },
+    "assets": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/published-asset-audit.json",
+      "sha256": "0141447b5e16a467202a87bb3e73db68cba4a15092f94aca90b465316dfe3c5a",
+      "bytes": 5695975
+    },
+    "negative_checks": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/negative-audit.json",
+      "sha256": "57c4d5f64a07a541578199a82475b5286052f44037aa1a02ffefc9a5a6a4cf00",
+      "bytes": 19056
+    },
+    "history": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/history-audit.json",
+      "sha256": "4340877e1baa3799eb252ee330e4611f4223ede9876ec5e16effdbe890ca4dd5",
+      "bytes": 95150
+    },
+    "fresh_tests": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/test-pdf-result.json",
+      "sha256": "241f1caf999d291cb72a50f78864763b0a0ad876988ac2ec5e78eaed9bd7396b",
+      "bytes": 588
+    },
+    "preservation": {
+      "path": "archive/pdf/1993-03/evidence/issue-closeout-01/preservation-audit.json",
+      "sha256": "9f0c5f0f64f316289831fd9f41df6f9f7e0a24be3a28c4593fe51860522f4978",
+      "bytes": 443
+    },
+    "standalone_files": 16487,
+    "selected_article_files": 16429,
+    "native_packages_regenerated": 66,
+    "actual_assemblies_regenerated": 20,
+    "selected_roots": 41,
+    "classification_files": 41,
+    "fresh_tests_passed": 213,
+    "unresolved_eligibility_decisions": 0,
+    "eligible_leaves_with_body_unlocated": 1,
+    "complete_original_article_recovery_verified": false,
+    "full_proofreading_or_human_acceptance_claimed": false,
+    "final_saved_state_path": "archive/pdf/1993-03/evidence/issue-closeout-01/verified-after-cleanup.json",
+    "final_requirement_audit_path": "archive/pdf/1993-03/evidence/issue-closeout-01/completion-audit.json",
+    "reader_rebuilt": false
+  },
+  "latest_preservation_inventory": {
+    "path": "archive/pdf/1993-03/evidence/issue-closeout-01/preservation-audit.json",
+    "sha256": "9f0c5f0f64f316289831fd9f41df6f9f7e0a24be3a28c4593fe51860522f4978",
+    "bytes": 443
   }
 }

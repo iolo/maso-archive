@@ -13,15 +13,17 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: forty-one readable/sample-reviewed articles,
-no partials, seven non-owning groups, three section references and one unlocated body
-among 52 identities. All 433 physical pages and all 25 original exclusions on 23 mixed
-pages are source-accounted. The string-replacement article has a final current-PDF
-gap outcome; its eligibility is established while body availability remains unresolved.
-The donated March 1993 cover is verified and independently reproducible. The 41 article
-packages retain 16,429 files. Next: standalone JSON/assets collection, issue index/report,
-independent rebuild and closeout. No reader rebuild.
-See [March progress](docs/progress/9303.md).
+March 1993 is complete as a canonical TOC JSON/assets restoration pass with an explicit
+gap: 41 readable/sample-reviewed articles, seven groups, three section references and
+one eligible leaf with its body unlocated account for all 52 identities. All 433 pages
+and 25 original mixed-page exclusions are accounted. The **16,487-file standalone
+collection** at `archive/pdf/1993-03/reference/` includes the verified donated cover and
+matches independent/fresh-process exports from 66 regenerated natives and twenty
+assemblies. All source-crop, range, local-resource, image/ZIP and preservation checks
+pass, along with fresh 213 PDF tests. Full original recovery, full proofreading and
+human acceptance remain unverified. No reader rebuild.
+See [March progress](docs/progress/9303.md) and private
+`archive/pdf/1993-03/restoration/issue-closeout-01/handoff.json` for reproduction and limits.
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

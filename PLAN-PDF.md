@@ -29,9 +29,9 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## March 1993 restoration, 2026-11-03
+## March 1993 closeout, 2026-11-03
 
-The full March 1993 issue goal is active. Batch 01 initializes all 52 canonical
+The March 1993 supplied-PDF restoration pass is complete with one explicit unlocated-body outcome. Batch 01 initializes all 52 canonical
 TOC identities and verifies the 433-page source and pinned Tesseract runtime.
 Column 0005, 컬럼 마소쉘 : 정보산업은 기간산업이다, is readable/sample-reviewed
 on PDF 100–101, individually observed printed 98–99. Its 82 JSON/assets files
@@ -2091,15 +2091,59 @@ are 41 readable, no partials, seven groups, three section references and one unl
 body among 52 identities. The 39 prior classification files remain, with two final
 evidence files added. No mapping, OCR or source correction occurred. Full goal active.
 
-Next: Batch 72 builds the portable standalone March 1993 JSON/assets issue
-collection and index, independently reproduces it and rebuilds it in a fresh process.
-Validate all 52 canonical outcomes, 41 article packages, correction/source evidence,
-non-owning references, final 0037 gap, all-page/mixed accounting and the donated cover.
-Deliver the issue report and reproduction/handoff records, run focused regressions,
-and audit every closeout requirement before declaring completion. No new source search
-or OCR is preassigned. No reader rebuild.
+Batch 72 completes the March 1993 canonical TOC JSON/assets restoration pass.
+All 52 identities have outcomes: 41 readable/sample-reviewed articles, no partials,
+seven non-owning groups, three final section references and one eligible canonical
+leaf with its body unlocated. Article 0037, 문자열 교체를 간편하게, retains its title,
+김범석 credit and parent; its final supplied-PDF gap does not prove original omission,
+source-wide absolute absence or a missing-page count. No unrelated HWP or Windows tip
+is substituted. Full original article recovery is not claimed.
 
-Standalone collection, report, reproduction and issue closeout are required. See
+The standalone collection is `archive/pdf/1993-03/reference/`: 16,487 files, including
+all 41 body-owner packages/16,429 files, canonical accounting, the verified donated-cover
+thumbnail, 41 classification/evidence files, source and gap reports, ownership and
+reading indexes, and explicit local/native resource contexts. Every consumer resource,
+6,388 correction fragments, three child anchors, 273 owner-map pointers and 28,003
+repository-to-bundled aliases resolve locally. Private source PDF, donor original,
+recipes, runtime and review fingerprints remain provenance rather than download URLs.
+
+All 66 natives and twenty actual assemblies regenerate from frozen recipes through
+twenty unchanged adapters. The independent export and a full fresh-process run of the
+handoff command reproduce every standalone file exactly. All 433 physical source pages,
+272 body pages, 25 original exclusions across 23 mixed pages and the shared-page owner
+contexts reconcile. The complete donated March cover takes priority; PDF 433 remains
+an originally clipped wrap fragment. Source cover assets and global derivatives stay exact.
+
+Validation covers all 4,473 source crops pixel for pixel, 3,740 selected OCR settings,
+732,608 typed range occurrences and 353,318 projected source pairs across 86 contexts. Original
+native boundaries and prior-article references keep their explicit source contexts.
+Code listing spans derive from exact block bytes where older natives lack a separate
+listing index; a retained terminal LF is treated as a row delimiter. No text is repaired.
+All 733 figures retain 256 literal display captions and 477 nulls. The 4,456 distinct
+published images decode; 86 distinct ZIPs/27,077 members are safe, CRC-valid and equal
+to their bundled raw files. Eighteen fresh rehashed accounting-model faults and 77
+retained source/gap/cover faults are rejected. Fresh 213 focused PDF tests pass.
+
+All 85,354 prior March files, 16,429 selected article files, 41 classification files,
+13,097 December reference files, thirty core modules, twenty adapters and source/TOC/
+queue/runtime/cover pins remain exact. All 71 prior checkpoints obey their bounds;
+recorded history has 3,767 recognition invocations, sixty source passes and zero
+unchanged-input retries. Four older passes lack separate start timestamps; no timing
+is invented. These are assistant workflow attestations, not human review measurements.
+No new OCR, source correction or reader rebuild occurred during closeout.
+
+Human acceptance, full proofreading and manual glyph/bitmap correction remain deferred.
+Exact original glyphs, spaces, encoded program/diskette bytes, historical/technical truth
+and compilation/execution remain unverified. Original scans, uncertainty records, raw OCR,
+corrections, failed revisions and native recipes remain retained. No further March checkpoint
+is scheduled. Other issues, collection-wide aggregation and reader delivery are separate work.
+
+Validation: `archive/pdf/1993-03/evidence/issue-closeout-01/report.json`.
+Reproduction: `archive/pdf/1993-03/restoration/issue-closeout-01/reproduction.json`.
+Handoff: `archive/pdf/1993-03/restoration/issue-closeout-01/handoff.json`.
+The final committed-state completion audit and cleanup verification accompany those records.
+
+The standalone collection and closeout evidence are verified. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
 
