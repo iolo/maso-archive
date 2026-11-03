@@ -1965,17 +1965,48 @@ correction occurred. Direct-review elapsed wall time was recorded prospectively.
 Article 0037 stays unresolved; no source-wide absence or missing-page count is inferred.
 Full issue goal remains active.
 
-Next: Batch 69 reviews eleven remaining primary gaps (152, 329, 342–343, 349, 357,
-363, 417–418 and 432–433) plus nine mixed body pages (163, 184, 208, 220, 236, 247,
-258, 272 and 286). These twenty physical pages fit the outside-lookup ceiling. Retain
-article ownership and original exclusions while directly accounting for independent
-notices, advertising or unknown portions. Fourteen further mixed pages remain for a
-later checkpoint. Continue bounded location research for 0037; require its actual
-title/opening/ending before assigning a body, and segment any body beyond six mapped
-pages. No source-wide absence or missing-page count is inferred now. Full page/mixed-
-portion accounting and final 0037 disposition wait for sufficient issue-wide evidence.
-Cover, standalone collection/index/report/reproduction and closeout remain required.
-No reader rebuild.
+Batch 69 completes primary material classification for all 433 physical pages.
+The eleven remaining gaps contain ten advertisements and the partial cover-wrap
+scan on 433. That narrow 414.0 by 841.92 point source preserves a back-advertisement
+fragment, spine dated 1993.03 and clipped front-cover portion. Original geometry and
+visible ink remain; no unseen cover text or complete second cover asset is invented.
+The main back-cover advertisement on 432 remains a separate physical source page.
+
+Nine mixed body pages (163, 184, 208, 220, 236, 247, 258, 272 and 286) now have
+direct whole-page and native-crop accounting for their original excluded material.
+Writer recruitment, contribution invitation, reading-campaign graphics, walkie-talkie
+advertising and publisher book/magazine promotions remain separate from article
+prose and code. The promotional graphic below DOSINFO's final 516 END Entry on 272
+remains outside the code despite sharing its printed frame. Repeated book promotions
+retain their own source occurrences. All original maps and ownership stay unchanged.
+
+Primary accounting is complete; full page accounting is still partial. Fourteen
+mixed pages and sixteen original map-local exclusion records remain pending. The
+twenty-five exclusion records across 23 mixed pages are contexts, not unique
+advertisement counts. All 422 prior primary classifications and all 413 rows outside
+the current twenty-page scope remain exact. Selected ownership still covers 272
+physical pages in 41 maps.
+
+All four accounting files match independent and fresh-process exports. Thirty-five
+consistently rehashed semantic faults are rejected without selected-artifact equality,
+including invented cover completeness, damaged exclusion/owner associations, campaign
+graphics treated as code and premature full-accounting claims. All 45,787 prior
+preservation files, thirty core modules and source/TOC/queue/runtime pins remain exact.
+All 52 canonical entries, 41 owners/16,429 files and 39 classification evidence files
+are unchanged. No mapping, OCR or source correction occurred. Direct-review elapsed
+wall time was recorded prospectively. Article 0037 remains unresolved; a source-wide
+absence or missing-page count is not inferred from this checkpoint. Full goal active.
+
+Next: Batch 70 reviews the fourteen remaining mixed body pages: 304, 317, 328,
+341, 356, 382, 392, 394–395, 401, 403, 415, 426 and 429. Recheck original contents 5
+and bulletin 424 for 0037: sixteen named physical pages fit the twenty-page outside
+ceiling. Preserve article maps, primary classifications and canonical ownership;
+reconcile overlapping local exclusions as contexts. Review unlisted upper-395 tips,
+notices, advertising, response-card portions and unknown areas explicitly. Require
+the actual 0037 title/opening/ending before assigning any body; segment beyond six
+mapped pages. Final 0037 disposition needs sufficient issue-wide evidence and must
+not invent a missing-page count or substitute identity. Cover, standalone
+collection/index/report/reproduction and issue closeout remain required. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

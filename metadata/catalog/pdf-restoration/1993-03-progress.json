@@ -8474,6 +8474,172 @@
         "sha256": "db55210abc0671a3794a76c6e69d6b9d33a9f042fe7fabdbea0147d30bbcd598",
         "bytes": 847
       }
+    },
+    {
+      "name": "1993-03-batch-69",
+      "status": "complete",
+      "completed_at": "2026-11-03T04:10:42.360692+00:00",
+      "goal": "Finish eleven primary page classifications and begin direct accounting of nine mixed body pages; continue bounded0037 location research.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0037"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        152,
+        163,
+        184,
+        208,
+        220,
+        236,
+        247,
+        258,
+        272,
+        286,
+        329,
+        342,
+        343,
+        349,
+        357,
+        363,
+        417,
+        418,
+        432,
+        433
+      ],
+      "new_primary_classification_pdf_pages": [
+        152,
+        329,
+        342,
+        343,
+        349,
+        357,
+        363,
+        417,
+        418,
+        432,
+        433
+      ],
+      "mixed_portion_review_pdf_pages": [
+        163,
+        184,
+        208,
+        220,
+        236,
+        247,
+        258,
+        272,
+        286
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "accounting": {
+        "status": "partial-mixed-portion-review",
+        "checkpoint": "batch-69",
+        "directory": "archive/pdf/1993-03/restoration/batch-69/accounting-r01",
+        "page_ledger": {
+          "path": "archive/pdf/1993-03/restoration/batch-69/accounting-r01/page-ledger.json",
+          "sha256": "2d35d73d1b290c442a48949c6bd5025dac3fe81a4469cf15351353757b7ba12e",
+          "bytes": 1084483
+        },
+        "manifest": {
+          "path": "archive/pdf/1993-03/restoration/batch-69/accounting-r01/manifest.json",
+          "sha256": "e3a3fbb606bc9139357865aba559e3a1124620954834859ec0f748f47d191134",
+          "bytes": 804
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-69/accounting-recipe.json",
+          "sha256": "f19584c33992e140c9a4a6729ea721b3aa5959c634671a562989e1fea41909c3",
+          "bytes": 2258
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-69/reproduction.json",
+          "sha256": "9aa591c5884ea19894a730e0a9874c8a17e019eba3881466980403b4c0997a4e",
+          "bytes": 1195
+        },
+        "source_audit": {
+          "path": "archive/pdf/1993-03/restoration/batch-69/source-audit.json",
+          "sha256": "98715dc870f3b98b0b696b63b2b2d4f6c1ebba11da569bac18105c9edcb2021a",
+          "bytes": 1267
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-69/validation.json",
+          "sha256": "45804e7b4eb9f1828c036c39d80c6966507db4a7e356a6a5191ac8190e432403",
+          "bytes": 2193
+        },
+        "physical_page_slots": 433,
+        "primary_classified": 433,
+        "pending": 0,
+        "primary_accounting_complete": true,
+        "prior_classified_whole_pages": 422,
+        "current_whole_views": 20,
+        "new_pages_in_reconciled_review_set": 11,
+        "retained_prior_rows_unchanged": 413,
+        "retained_prior_primary_classifications": 422,
+        "selected_body_pages": 272,
+        "selected_maps": 41,
+        "map_local_mixed_exclusion_records": 25,
+        "mixed_body_pages": 23,
+        "mixed_pages_reviewed": 9,
+        "mixed_pages_pending": 14,
+        "mixed_portion_reviewed_pdf_pages": [
+          163,
+          184,
+          208,
+          220,
+          236,
+          247,
+          258,
+          272,
+          286
+        ],
+        "mixed_portion_pending_pdf_pages": [
+          304,
+          317,
+          328,
+          341,
+          356,
+          382,
+          392,
+          394,
+          395,
+          401,
+          403,
+          415,
+          426,
+          429
+        ],
+        "map_local_exclusion_records_reviewed": 9,
+        "map_local_exclusion_records_pending": 16,
+        "explicit_review_render_bridges": 150,
+        "page_accounting_complete": false,
+        "source_wide_absence_asserted": false,
+        "note": "All 433 physical slots now have primary material classes. The eleven new classes comprise ten advertisements and partial cover-wrap scan433, with original 414.0 by841.92 point geometry, spine and clipped front/back cover portions. No complete second cover asset or unseen text is invented. Nine selected-body pages additionally have source-linked accounting for their original excluded material; fourteen mixed pages/sixteen map-local records remain pending. All 422 prior primary classifications and all article ownership remain exact. Twenty-five map-local exclusion records are not unique advertisement counts. All52 canonical outcomes,41 owners/16429 files and39 classification files are unchanged. Final0037 disposition,complete mixed accounting,cover,standalone collection/index/report/reproduction and issue closeout remain required."
+      },
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-69/validation.json",
+        "sha256": "45804e7b4eb9f1828c036c39d80c6966507db4a7e356a6a5191ac8190e432403",
+        "bytes": 2193
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-69/reproduction.json",
+        "sha256": "9aa591c5884ea19894a730e0a9874c8a17e019eba3881466980403b4c0997a4e",
+        "bytes": 1195
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1993-03/restoration/batch-69/negative-checks.json",
+        "sha256": "21ab8969c564a606dc0dfa1fdd99bbe2e2f5d90e4b5a4c78e0569d89f0f5e364",
+        "bytes": 6746
+      },
+      "timings": {
+        "path": "archive/pdf/1993-03/restoration/batch-69/prospective-timings.json",
+        "sha256": "ce895ee5170748c23b86a13d8782ddde5cd7683fb12fe17c1169964812e1e75b",
+        "bytes": 877
+      }
     }
   ],
   "totals": {
@@ -8490,64 +8656,56 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-69",
-    "goal": "Finish the eleven pending primary page classifications and begin direct mixed-portion accounting on nine already selected-body pages;continue bounded location research for0037.",
+    "name": "1993-03-batch-70",
+    "goal": "Review the fourteen remaining mixed body pages and recheck original contents5/bulletin424 references for0037. Reconcile all433 primary classes and all25 map-local exclusion records before assessing final eligibility.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0037"
     ],
     "mapping_targets": [],
     "planned_outside_lookup_pdf_pages": [
-      152,
-      163,
-      184,
-      208,
-      220,
-      236,
-      247,
-      258,
-      272,
-      286,
-      329,
-      342,
-      343,
-      349,
-      357,
-      363,
-      417,
-      418,
-      432,
-      433
-    ],
-    "planned_pending_classification_pdf_pages": [
-      152,
-      329,
-      342,
-      343,
-      349,
-      357,
-      363,
-      417,
-      418,
-      432,
-      433
+      5,
+      304,
+      317,
+      328,
+      341,
+      356,
+      382,
+      392,
+      394,
+      395,
+      401,
+      403,
+      415,
+      424,
+      426,
+      429
     ],
     "planned_mixed_portion_review_pdf_pages": [
-      163,
-      184,
-      208,
-      220,
-      236,
-      247,
-      258,
-      272,
-      286
+      304,
+      317,
+      328,
+      341,
+      356,
+      382,
+      392,
+      394,
+      395,
+      401,
+      403,
+      415,
+      426,
+      429
+    ],
+    "planned_locator_reference_pdf_pages": [
+      5,
+      424
     ],
     "limits": {
       "canonical_tasks": 1,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "422/433 primary classes established;11 pending. Review all20 named physical pages:eleven primary gaps plus nine mixed selected-body pages. Preserve current article ownership and original map-local exclusions while directly classifying independent notices/advertisements or unknown portions. Do not count local exclusion records as unique ads. Fourteen further mixed pages remain for a later checkpoint. Actual0037 title/opening/ending required before assigning a body;newly found body must fit6 mapped pages or be segmented. No source-wide absence or missing-page count inferred now. Full page/mixed-portion accounting and final0037 disposition wait for sufficient issue-wide evidence. Cover,standalone collection/index/report/reproduction and closeout remain required;full goal active;no reader rebuild."
+    "note": "All433 primary classes exist, but full page accounting remains partial: fourteen mixed pages/sixteen original local exclusion records still need direct source review. Sixteen named physical pages comprise those fourteen plus contents5 and bulletin424. Preserve all original article maps, primary classifications and canonical ownership; reconcile overlapping map exclusions as contexts, not unique advertisements. Review unlisted upper395 tips, publisher notices, advertisements, response-card portions and any unknown areas explicitly. Source433 remains a partial cover-wrap scan, not a complete cover delivery. Actual0037 title/opening/ending required before assigning a body; segment any body beyond6 mapped pages. Final0037 disposition needs sufficient issue-wide evidence and must not invent a missing-page count or substitute identity. Cover,standalone collection/index/report/reproduction and closeout remain required. Full goal active; no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -8747,53 +8905,86 @@
     }
   ],
   "source_page_accounting": {
-    "status": "partial",
-    "checkpoint": "batch-68",
-    "directory": "archive/pdf/1993-03/restoration/batch-68/accounting-r01",
+    "status": "partial-mixed-portion-review",
+    "checkpoint": "batch-69",
+    "directory": "archive/pdf/1993-03/restoration/batch-69/accounting-r01",
     "page_ledger": {
-      "path": "archive/pdf/1993-03/restoration/batch-68/accounting-r01/page-ledger.json",
-      "sha256": "df3fec03f4de13b18c013291f2e0b3e3de964c9d743a8eae4a0c01706e008525",
-      "bytes": 1040201
+      "path": "archive/pdf/1993-03/restoration/batch-69/accounting-r01/page-ledger.json",
+      "sha256": "2d35d73d1b290c442a48949c6bd5025dac3fe81a4469cf15351353757b7ba12e",
+      "bytes": 1084483
     },
     "manifest": {
-      "path": "archive/pdf/1993-03/restoration/batch-68/accounting-r01/manifest.json",
-      "sha256": "5d755fb08c41a5987379a51cb3e1bb9830bb120f2af33a564e85af7b7f2b870d",
+      "path": "archive/pdf/1993-03/restoration/batch-69/accounting-r01/manifest.json",
+      "sha256": "e3a3fbb606bc9139357865aba559e3a1124620954834859ec0f748f47d191134",
       "bytes": 804
     },
     "recipe": {
-      "path": "archive/pdf/1993-03/restoration/batch-68/accounting-recipe.json",
-      "sha256": "255dfd76d8ff79d0ca9037af19057474321f692b35f62c06f1a20f96189cea42",
+      "path": "archive/pdf/1993-03/restoration/batch-69/accounting-recipe.json",
+      "sha256": "f19584c33992e140c9a4a6729ea721b3aa5959c634671a562989e1fea41909c3",
       "bytes": 2258
     },
     "reproduction": {
-      "path": "archive/pdf/1993-03/restoration/batch-68/reproduction.json",
-      "sha256": "21c48b51163e176236928169149c210626caf6f92b28f352c7e127078a51f95e",
+      "path": "archive/pdf/1993-03/restoration/batch-69/reproduction.json",
+      "sha256": "9aa591c5884ea19894a730e0a9874c8a17e019eba3881466980403b4c0997a4e",
       "bytes": 1195
     },
     "source_audit": {
-      "path": "archive/pdf/1993-03/restoration/batch-68/source-audit.json",
-      "sha256": "487aa1110fcfaca96bdb994276ee7d20f815dd6445d81c98c72f172352c4be72",
-      "bytes": 938
+      "path": "archive/pdf/1993-03/restoration/batch-69/source-audit.json",
+      "sha256": "98715dc870f3b98b0b696b63b2b2d4f6c1ebba11da569bac18105c9edcb2021a",
+      "bytes": 1267
     },
     "validation": {
-      "path": "archive/pdf/1993-03/restoration/batch-68/validation.json",
-      "sha256": "eaff0dc05985028c36f0bec62efa93405bd0933410591c32edf070c8552ec785",
-      "bytes": 1875
+      "path": "archive/pdf/1993-03/restoration/batch-69/validation.json",
+      "sha256": "45804e7b4eb9f1828c036c39d80c6966507db4a7e356a6a5191ac8190e432403",
+      "bytes": 2193
     },
     "physical_page_slots": 433,
-    "primary_classified": 422,
-    "pending": 11,
-    "prior_classified_whole_pages": 402,
+    "primary_classified": 433,
+    "pending": 0,
+    "primary_accounting_complete": true,
+    "prior_classified_whole_pages": 422,
     "current_whole_views": 20,
-    "new_pages_in_reconciled_review_set": 20,
+    "new_pages_in_reconciled_review_set": 11,
     "retained_prior_rows_unchanged": 413,
+    "retained_prior_primary_classifications": 422,
     "selected_body_pages": 272,
     "selected_maps": 41,
     "map_local_mixed_exclusion_records": 25,
     "mixed_body_pages": 23,
+    "mixed_pages_reviewed": 9,
+    "mixed_pages_pending": 14,
+    "mixed_portion_reviewed_pdf_pages": [
+      163,
+      184,
+      208,
+      220,
+      236,
+      247,
+      258,
+      272,
+      286
+    ],
+    "mixed_portion_pending_pdf_pages": [
+      304,
+      317,
+      328,
+      341,
+      356,
+      382,
+      392,
+      394,
+      395,
+      401,
+      403,
+      415,
+      426,
+      429
+    ],
+    "map_local_exclusion_records_reviewed": 9,
+    "map_local_exclusion_records_pending": 16,
     "explicit_review_render_bridges": 150,
     "page_accounting_complete": false,
     "source_wide_absence_asserted": false,
-    "note": "All 433 physical slots retain original source geometry. Direct review of81–97 and149–151 finds19 advertisements and an independent unlisted editorial97/explicit printed95. Its own source title and 김현숙 credit are retained;native source crop confirms the credit. It is not assigned to any canonical body. No0037 body found in this bounded scope.422 primary classes/11 pending;all413 outside-scope rows exact,including mixed/unlisted contexts.25 map-local exclusions across23 mixed pages remain separate. All52 canonical outcomes,41 owners/16429 files and39 classification files unchanged. Complete page/mixed-portion accounting,cover,standalone collection/index/report/reproduction and issue closeout remain required."
+    "note": "All 433 physical slots now have primary material classes. The eleven new classes comprise ten advertisements and partial cover-wrap scan433, with original 414.0 by841.92 point geometry, spine and clipped front/back cover portions. No complete second cover asset or unseen text is invented. Nine selected-body pages additionally have source-linked accounting for their original excluded material; fourteen mixed pages/sixteen map-local records remain pending. All 422 prior primary classifications and all article ownership remain exact. Twenty-five map-local exclusion records are not unique advertisement counts. All52 canonical outcomes,41 owners/16429 files and39 classification files are unchanged. Final0037 disposition,complete mixed accounting,cover,standalone collection/index/report/reproduction and issue closeout remain required."
   }
 }
