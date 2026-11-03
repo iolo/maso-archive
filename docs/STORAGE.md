@@ -238,27 +238,29 @@ no permanent preservation. `work/` remains for temporary processing and caches.
 Keep canonical source material, restoration packages, metadata, corrections,
 required assets, recipes and validation evidence in their preserved locations.
 
-The owner deleted the former `archive/releases/` copies; local reader outputs
-are also absent.
+On October 28, the owner had deleted the former `archive/releases/` copies and
+local reader outputs were absent. The November 3 rebuild below creates the
+current volunteer output directly from preserved inputs.
 The empty old directory was removed when the release location changed. No release
 payloads were moved or regenerated. Historical catalogs, receipts and frozen
 reproduction records retain their original paths and hashes as evidence; an old
 release path in those records does not imply that the generated files still exist.
 
-### Current build limitation
+### Rebuild from preserved inputs
 
-The current volunteer exporter is incremental: its default base is
-`dist/releases/reading-room-2026-10-22-before-all-restorations/data`, to which it
-adds December 1984 and February 1985. That base is currently absent. Changing its
-location does not implement a full rebuild. Rebuilding the complete reader from
-preserved CD/PDF packages and metadata without any previous release remains to
-be implemented and verified. The dependency on generated snapshots is a build
-limitation, not an archival retention requirement. Restoration can continue
-without any reading-room build or release snapshot.
+The November 3 volunteer exporter rebuilds directly from the preserved CD
+references, PDF closeouts, current TOC metadata, covers and TOC images. Its
+selected-input record is `metadata/catalog/reading-room-volunteer.json`.
+No previous generated reader or release snapshot is required. The historical
+incremental exporter remains available for older workflows.
 
-The last assembled volunteer reader (2026-10-22) contained 11 completed PDF
-restorations and all three CDs. Later restoration closeouts remain separate
-until explicitly integrated. See [the reader guide](READING-ROOM.md).
+The current local reader contains all 19 completed PDF restoration passes and
+all three CDs: 680 PDF plus 3,386 CD records. Data takes about 47 GB / 44 GiB,
+before filesystem overhead. Staging checks free space before copying. Final
+validation can resume a completely copied stage, and publication into `dist/`
+uses a same-filesystem move rather than another complete copy. Keep the stage
+until validation succeeds; a partial issue copy requires a fresh stage.
+See [the reader guide](READING-ROOM.md) for exact commands and known limits.
 
 ### Optional deployment snapshots
 

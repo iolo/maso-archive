@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "updated": "2026-11-03T09:14:48.992820+00:00",
+  "scope": "Local volunteer reader integration; no new restoration, OCR, source correction, human acceptance or deployment.",
+  "output": "dist/reading-room-volunteer",
+  "data_manifest": {
+    "path": "dist/reading-room-volunteer/data/manifest.json",
+    "sha256": "e61aec0e2d7b9e21a52a65d8f73de2826873ae0e70cc40452c28fec2a04779cc",
+    "bytes": 44037117
+  },
+  "input_selection": {
+    "path": "metadata/catalog/reading-room-volunteer.json",
+    "sha256": "cff55b92e3dc88bc5cc54e3fee7458bccb80269e9d0d514578ae312db4a3f620",
+    "bytes": 61050
+  },
+  "counts": {
+    "issues": 152,
+    "tocEntries": 5299,
+    "articles": 4066,
+    "texts": 4058,
+    "listings": 3627,
+    "mediaRecords": 17889,
+    "covers": 149,
+    "coverAssets": 145
+  },
+  "pdf_issues": 19,
+  "pdf_articles": 680,
+  "readable_pdf_articles": 677,
+  "partial_pdf_articles": 3,
+  "cd_articles": 3386,
+  "pdf_toc_entries": 828,
+  "pdf_group_headings": 125,
+  "pdf_section_references": 17,
+  "unresolved_pdf_eligibility": 5,
+  "eligible_pdf_body_unlocated": 1,
+  "data_files": 232146,
+  "data_bytes": 47090589785,
+  "whole_reader_data_integrity_and_projection_check": "pass",
+  "frozen_source_and_package_hashes": "pass",
+  "original_input_manifest_pins_unchanged": true,
+  "independent_cd_baseline_rebuilt_and_preserved": true,
+  "second_complete_reader_copy_created": false,
+  "tests": {
+    "python_run": 80,
+    "python_skipped": 3,
+    "python_failures": 0,
+    "frontend_passed": 26,
+    "typescript": "pass",
+    "production_build": "pass"
+  },
+  "known_limits": [
+    "Readable/sample-reviewed is not human acceptance or complete proofreading.",
+    "Original source gaps and partial outcomes remain unchanged.",
+    "Reader consumes frozen verified closeouts; it does not re-execute private restoration/assembly adapters.",
+    "Collection-wide PLAN-PDF steps 13–14 delivery remains separate."
+  ],
+  "preview": "http://127.0.0.1:4189/#/review",
+  "rebuild_commands": [
+    "make export-volunteer-reading-room PYTHON=.venv/bin/python",
+    "make build-volunteer-reading-room",
+    "make check-volunteer-reading-room PYTHON=.venv/bin/python"
+  ],
+  "validation_report": {
+    "path": "archive/pdf/shared/evidence/reader-integration-2026-11-03/validation.json",
+    "sha256": "a9889d0a4a79792c7a5512115985e4b44da89bb04a15d5e6b7b63c823448b468",
+    "bytes": 9201
+  }
+}

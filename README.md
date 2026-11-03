@@ -66,8 +66,8 @@ and private `archive/pdf/1988-01/restoration/issue-closeout-01/reproduction.json
 Keep original PDFs, ISOs, extracted source files, donated covers and TOCs too.
 A completed article does **not** make its restoration evidence disposable.
 Reading-room releases are deployment outputs, not restoration archive material.
-The current incremental reader exporter still needs a prior generated base;
-a complete rebuild without release snapshots remains to be implemented and verified.
+The volunteer reader rebuilds directly from the preserved CD/PDF packages and
+metadata; previous reader snapshots are optional.
 `data`, `private`, `build` and `output` are compatibility links for older recipes.
 Use the canonical directories above for new work. See [storage and recovery](docs/STORAGE.md)
 for the issue layout, retention rules and reader restore command.
@@ -79,14 +79,10 @@ and cache cleanup is documented in [session cleanup](docs/STORAGE.md#session-cle
 
 ## Read the archive
 
-The owner deleted the release copies; local reader outputs are also absent. The commands below
-require regenerated output or an available optional snapshot; they do not describe
-files currently present. See [reader build limits](docs/STORAGE.md#reading-room-deployment-outputs).
-
-The unified volunteer reader’s 2026-10-22 snapshot includes **11 completed PDF restorations**
-(November 1983; February, March, May–October and December 1984; February 1985)
-and **all three CDs**: 407 PDF article records plus 3,386 CD records, 3,793 total.
-Known partial and unavailable states remain visible.
+The current volunteer reader includes **all 19 completed PDF restoration passes**
+and **all three CDs**: 680 PDF article records plus 3,386 CD records, **4,066 total**.
+Known partial and unresolved outcomes remain visible. Its reproducible static
+data occupies about 47 GB; no previous release snapshot is required.
 
 ```sh
 python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room-volunteer
@@ -99,12 +95,12 @@ OCR. **검토 메모** autosaves feedback locally; download the JSON and pass it
 the coordinator. Nothing is submitted automatically or marked officially accepted.
 Browser data is specific to the host/port and should be exported before clearing it.
 
-The prepared static app is `dist/reading-room/`. It uses relative
+The prepared static app is `dist/reading-room-volunteer/`. It uses relative
 asset and data URLs and works with ordinary static servers, including Python's
-`http.server` and `npx serve dist/reading-room -l 4189`; Vite is only
+`http.server` and `npx serve dist/reading-room-volunteer -l 4189`; Vite is only
 needed to build it. Rebuild the UI with
 `make build-volunteer-reading-room`; validate its data with
-`make check-volunteer-reading-room`. Reproduction, the pinned August adapters,
+`make check-volunteer-reading-room PYTHON=.venv/bin/python`. Reproduction, frozen inputs,
 and private static hosting are described in the [reading-room guide](docs/READING-ROOM.md).
 The [Cloudflare deployment guide](docs/DEPLOY-READING-ROOM.md) includes a resumable
 uploader and a Worker for sharing the collection through an unlisted URL.

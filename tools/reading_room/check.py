@@ -37,6 +37,16 @@ def check(root, require_thumbnails=False):
     memberships = Counter()
     counts = Counter()
     accounted_issues = set()
+    frozen_issues = manifest.get('frozenIssues', [])
+    frozen_ids = {r['issueId'] for r in frozen_issues}
+    if len(frozen_ids) != len(frozen_issues):
+        raise ValueError('Duplicate frozen issue identity')
+    frozen_reports = {}
+    if frozen_issues:
+        from .frozen import check_inputs
+        frozen_reports = check_inputs(root, manifest)
+    frozen_inputs = {r['articleId']: r for r in manifest.get('scanInputs', [])}
+    frozen_packages = {}
     for issue_id, summary in issues.items():
         date = issue_id.removeprefix('maso-')
         issue = read(root / f'issues/{date}.json')
@@ -108,7 +118,15 @@ def check(root, require_thumbnails=False):
             entries = [t for t in issue_doc['toc'] if t['id'] == summary['tocEntryId'] and article_id in t['articleIds']]
             if len(entries) != 1:
                 raise ValueError('Scan TOC identity/link differs')
-            validate_scan(root, doc, entries[0])
+            package = None
+            if summary['issue_id'] in frozen_ids:
+                from .frozen import check_package
+                source = frozen_inputs.get(article_id)
+                if source is None or source['packagePath'] != summary['referencePath']:
+                    raise ValueError('Frozen scan input missing or inconsistent')
+                package = check_package(safe(root / 'source', source['packagePath']).parent, source['manifestSha256'])
+                frozen_packages[summary['tocEntryId']] = package
+            validate_scan(root, doc, entries[0], package=package)
         if summary['text']:
             text = safe(root / 'source', summary['text'])
             if digest(text) != summary['text_sha256'] or text_for(doc['blocks']).encode() != text.read_bytes():
@@ -150,12 +168,27 @@ def check(root, require_thumbnails=False):
         if digest(path) != source['sha256'] or source['issueId'] not in issues:
             raise ValueError('Scan issue accounting pin differs')
         issue_doc = read(root / f'issues/{source["issueId"].removeprefix("maso-")}.json')
-        validate_issue(root, issue_doc, read(path))
+        if source['issueId'] in frozen_ids:
+            from .frozen import expected_report, validate_report
+            record = next(r for r in frozen_issues if r['issueId'] == source['issueId'])
+            if record['accountingSha256'] != source['sha256']:
+                raise ValueError('Frozen accounting input differs')
+            selected = {k: p for k, p in frozen_packages.items() if p['issue_id'] == source['issueId']}
+            if read(path) != expected_report(frozen_reports[source['issueId']], issue_doc, selected, record['canonicalTitleChanges']):
+                raise ValueError('Frozen outcomes differ from original selected closeout')
+            validate_report(issue_doc, read(path), selected)
+        else:
+            validate_issue(root, issue_doc, read(path))
+    if not frozen_ids <= accounted_issues:
+        raise ValueError('Frozen issue has no accounting report')
     search = read(root / 'search.json')['items']
     for source in scan_issues:
         for row in read(safe(root, source['path']))['entries']:
             matches = [s for s in search if s['kind'] == 'toc' and s['id'] == row['id']]
             links = [row['articleId']] if row.get('articleId') else []
+            if source['issueId'] in frozen_ids:
+                issue_doc = read(root / f'issues/{source["issueId"].removeprefix("maso-")}.json')
+                links = next(t['articleIds'] for t in issue_doc['toc'] if t['id'] == row['id'])
             if (len(matches) != 1 or matches[0].get('articleIds') != links or
                     matches[0]['issueId'] != source['issueId'] or
                     matches[0]['status'] != ('linked' if links else row['classification'])):

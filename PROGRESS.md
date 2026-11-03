@@ -1,5 +1,30 @@
 # Progress
 
+## 2026-11-03 — Rebuild the complete volunteer reading room
+
+- Built `dist/reading-room-volunteer/` directly from preserved inputs: all 19
+  completed PDF passes/680 articles and all three CDs/3,386 records, 4,066 total.
+  The 828 eligible PDF TOC identities retain 680 body owners, 125 groups,
+  17 section references, five unresolved eligibility outcomes and one eligible
+  unlocated body. The owned bodies include 677 readable articles and three partials.
+- Added a pinned full rebuild command with staging-space checks and finalization
+  resume. No prior reader snapshot is required. Approximately 47 GB of generated
+  data is staged once, then moved into `dist/` after validation. The owner paused
+  the first build for disk space; the resumed build reused all copied issue data.
+- Verified every frozen file/package inventory, schema, resource, projection,
+  download, accounting report and section anchor. A receipt from an independently
+  reconstructed CD baseline checks original CD files and TOC associations.
+  PDF/CD versions coexist; original package bytes and outcome notes remain.
+  Two explicit September title mappings preserve current TOC and source forms.
+- Reading-room Python tests pass: 80 run, three existing skips. All 26 frontend
+  tests and TypeScript/production compilation pass. Browser checks cover queues,
+  the unlocated-body notice, source/reading comparison, section links, partials,
+  exact downloaded text/listing bytes, local note export, 360px mobile layout,
+  all three CD routes, metadata search and nested static hosting/refresh.
+- Evidence: `archive/pdf/shared/evidence/reader-integration-2026-11-03/`.
+  Local review: `http://127.0.0.1:4189/#/review`. No OCR, source correction,
+  human acceptance or deployment. PLAN-PDF collection delivery remains separate.
+
 ## 2026-10-22 — Build the volunteer reader with all restorations
 
 - Built `dist/reading-room-volunteer/`: all11 completed PDF issues/407 scan articles

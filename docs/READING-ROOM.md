@@ -2,17 +2,85 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## Deployment output location and availability — October 28, 2026
+## Volunteer reader — November 3, 2026
+
+The current local reader is `dist/reading-room-volunteer/`: **4,066 records**,
+comprising **680 PDF articles across all 19 completed issues** and **3,386 CD
+records**. It retains 152 navigation groups, 5,299 canonical TOC entries, 4,058
+text downloads and 3,627 listing downloads. The PDF records include 677 readable
+articles and three partials; unresolved TOC outcomes stay visible separately.
+Readable and sample-reviewed do not mean human accepted or fully proofread.
+
+```sh
+python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room-volunteer
+```
+
+Open <http://127.0.0.1:4189/#/review>. March 1993's queue is
+<http://127.0.0.1:4189/#/review?issue=maso-1993-03>. PDF and CD versions coexist
+on their issue pages; existing CD associations remain, with restored scans first.
+The issue page and TOC detail distinguish an eligible PDF leaf whose body remains
+unlocated. Volunteer notes remain local to the browser and exact host/port;
+export them before changing origins or clearing browser storage.
+
+### Rebuild without a previous reader snapshot
+
+```sh
+make export-volunteer-reading-room PYTHON=.venv/bin/python
+make build-volunteer-reading-room
+make check-volunteer-reading-room PYTHON=.venv/bin/python
+```
+
+The exporter consumes the pinned selections in
+`metadata/catalog/reading-room-volunteer.json`, preserved CD references, the
+current TOC import, donated/verified covers, TOC images and original PDF closeouts.
+It needs the private archive; it does not depend on a previous reader or release.
+The static data occupies about **47 GB / 44 GiB**, before filesystem overhead.
+The exporter checks free staging space before a new copy. Use a fresh output
+and stage for another build:
+
+```sh
+make export-volunteer-reading-room PYTHON=.venv/bin/python \
+  VOLUNTEER_OUTPUT=dist/volunteer-repeat \
+  VOLUNTEER_STAGES=work/reading-room/volunteer-repeat
+```
+
+The default stage is `work/reading-room/volunteer-full/data`. A fully copied
+stage can resume final validation with the same command; success moves it to
+the selected output without another full copy. An interruption during an issue
+copy requires a fresh stage. Existing outputs are refused. An existing CD-only
+stage is checked before use. A pinned CD baseline receipt verifies original
+records, files and TOC associations in the combined export.
+
+All original standalone issue files retain their relative layout under
+`data/source/pdf-issues/YYYY-MM/`. Four earlier issues use their pinned selected
+packages under `data/source/pdf/` and bundled ledgers. Reader validation checks
+complete snapshot inventories, package schemas/resources, original accounting,
+section anchors, projections and downloads. It consumes the verified closeouts;
+it does not rerun OCR or private restoration/assembly adapters. Two explicit
+September 1984 title mappings retain original source titles alongside the current
+canonical TOC titles. Restoration packages are unchanged.
+
+Evidence and logs: `archive/pdf/shared/evidence/reader-integration-2026-11-03/`.
+The dated build receipt is
+[`metadata/catalog/reading-room-volunteer-2026-11-03.json`](../metadata/catalog/reading-room-volunteer-2026-11-03.json).
+Python checks report 77 passed and three existing skips (80 run); all 26 frontend
+tests, TypeScript and production compilation pass. Browser checks cover exact text/listing downloads,
+review-note export, partial/unlocated outcomes, all three CD routes, metadata
+search, 360px mobile layout and nested static hosting.
+The output is a local static build; deployment is separate. Release snapshots
+are optional and disposable. The dated sections below preserve earlier builds.
+
+## Historical deployment availability — October 28, 2026
 
 Reading-room releases are disposable web deployment outputs, not restoration
 archive material. Named snapshots now belong in `dist/releases/`. The owner
 has deleted the former release copies; local reader outputs are also absent. The release and
 serving commands below require available generated files.
 
-The current exporter still adds issues to an existing reader base. A complete
-rebuild directly from preserved CD/PDF packages and metadata remains to be
-implemented and verified. Moving release paths does not resolve that dependency.
-See [storage and build limits](STORAGE.md#reading-room-deployment-outputs).
+At this date, the exporter still added issues to an existing reader base. A complete
+rebuild directly from preserved CD/PDF packages and metadata was still unimplemented.
+The November 3 rebuild above
+resolves this dependency. See [storage](STORAGE.md#reading-room-deployment-outputs).
 The dated sections below describe previous builds, not current file availability.
 
 For session wrap-up, `make clean-session` previews temporary outputs and

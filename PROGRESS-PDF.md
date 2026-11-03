@@ -14,6 +14,13 @@ and 16,487-file standalone collection reproduce independently and in fresh proce
 Full proofreading, human acceptance and complete original recovery are not claimed.
 See [March progress](docs/progress/9303.md) and its private closeout handoff.
 
+The owner's November 3 reader request subsequently integrates all 19 completed
+PDF passes and all three CDs in `dist/reading-room-volunteer/`: 680 PDF and 3,386
+CD records, 4,066 total. All 828 eligible PDF TOC identities retain their original
+outcomes. No new OCR, source correction or human acceptance; restoration packages
+remain unchanged. See [the reader guide](docs/READING-ROOM.md). Collection-wide
+JSON/assets delivery under PLAN-PDF steps 13–14 remains separate.
+
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
 342–346. All 379 selected r02 files match independent and fresh-process exports.
 All 103 exact crops, 89 outcomes, 6,020 typed ranges and 434 indexed nonempty reading

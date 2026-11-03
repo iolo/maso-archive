@@ -123,6 +123,7 @@ function IssueOverview({ issue }: { issue: IssueDoc }) {
     <TocImages key={issue.issue.id} pages={issue.tocImages} label={issue.issue.label} />
     {issue.scanRestoration && <section aria-label="호 복원 및 검토 상태"><h2>호 복원 기록</h2>
       <p>본문 {issue.scanRestoration.counts.classified_articles}편 · 묶음 제목 {issue.scanRestoration.counts.group_headings} · 절 참조 {issue.scanRestoration.counts.section_references} · 분류 미해결 {issue.scanRestoration.counts.unresolved_eligibility}</p>
+      {!!issue.scanRestoration.counts.unresolved_body_locations && <p>본문 위치 미확인 {issue.scanRestoration.counts.unresolved_body_locations}편</p>}
       <p>복원: {Object.entries(issue.scanRestoration.counts.restoration_availability).map(([state, count]) => `${availabilityLabel(state as Parameters<typeof availabilityLabel>[0])} ${count}`).join(' · ')}</p>
       <p>검토: {Object.entries(issue.scanRestoration.counts.verification).map(([state, count]) => `${verificationLabel(state as Parameters<typeof verificationLabel>[0])} ${count}`).join(' · ')}</p>
       <p>판독 불확실성과 수동 비트맵 교정 대기는 각 글의 교정 기록에 남아 있습니다.</p>
@@ -136,6 +137,7 @@ export function TocDetail({ issue, id }: { issue: IssueDoc; id: string }) {
   const entry = issue.toc.find(e => e.id === id)
   if (!entry) return <NotFound />
   return <div className="page-content"><p className="eyebrow">{issue.issue.label} · 차례 항목</p><h1>{entry.title}</h1><p className="metadata">{entry.page !== null && `${entry.page}쪽`}{entry.byline && ` · ${entry.byline}`}</p>
+    {entry.restorationKind === 'unresolved' && <p className="notice">{entry.restorationEligibility === 'eligible-canonical-toc-leaf' ? 'PDF 복원 대상이지만 본문 위치를 확인하지 못했습니다.' : 'PDF 복원의 분류 또는 본문 위치가 미해결입니다.'}</p>}
     {entry.sectionRef ? <><p>이 항목은 아래 글 안의 절입니다.</p><Link to={sectionPath(entry.sectionRef.articleId, entry.sectionRef.blockId)}>{entry.title} 본문으로 <ArrowRight size={16} /></Link></> : entry.restorationKind === 'group-heading' ? <><p>여러 글을 묶는 차례 제목입니다.</p><ul>{issue.toc.filter(t => t.parentId === entry.id).map(t => <li key={t.id}><Link to={tocPath(issue.issue.id, t.id)}>{t.title}</Link></li>)}</ul></> : entry.articleIds.length ? <><h2>연결된 읽기 자료</h2><ul>{entry.articleIds.map(id => { const article = issue.articles.find(a => a.article_id === id); return article && <li key={id}><Link to={articlePath(id)}>{article.title} <ArrowRight size={16} /></Link></li> })}</ul></> : <p className="notice">이 차례 항목에 확인된 읽기 자료 연결이 없습니다. 차례만으로 원문 부재를 단정할 수 없습니다.</p>}
     <p className="source-note">자료마다 출처와 검토 범위가 다릅니다. 연결된 글에서 확인 상태를 확인하세요.</p></div>
 }

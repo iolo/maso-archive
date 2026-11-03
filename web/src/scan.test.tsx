@@ -36,6 +36,17 @@ describe('scan reading and evidence states', () => {
     expect(group).toContain('Parent')
     expect(group).not.toContain('읽기 자료 연결이 없습니다')
   })
+  it('shows an eligible unlocated PDF leaf while keeping a linked CD version', () => {
+    const article = scanFixture('readable').article
+    const issue: IssueDoc = { schemaVersion: 3,
+      issue: { id: article.issue_id, year: 1900, month: 1, label: 'Synthetic', articleCount: 1, textCount: 1, tocCount: 1, cover: null },
+      articles: [article], toc: [{ id: 'unlocated', parentId: null, depth: 0, title: 'Unlocated PDF body', byline: null,
+        page: null, kind: 'article', articleIds: [article.article_id], restorationKind: 'unresolved', restorationEligibility: 'eligible-canonical-toc-leaf' }] }
+    const html = renderToStaticMarkup(<MemoryRouter><TocDetail issue={issue} id="unlocated" /></MemoryRouter>)
+    expect(html).toContain('PDF 복원 대상이지만 본문 위치를 확인하지 못했습니다.')
+    expect(html).toContain('연결된 읽기 자료')
+    expect(html).toContain(article.title)
+  })
   it('shows the printed byline even when the TOC author omits its role', () => {
     vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
     const doc = scanFixture('readable')

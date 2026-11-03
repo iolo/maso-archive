@@ -1,4 +1,4 @@
-# Successor handoff — 2026-10-30
+# Successor handoff — 2026-11-03
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
@@ -16,20 +16,33 @@ keeping redundant full rebuild copies.
 
 ## Current human-review reader
 
-The owner's 2026-10-22 request integrates all completed restorations into
-`dist/reading-room-volunteer/`: 11 PDF issues/407 articles plus all three CDs/3,386
-records, 3,793 total. When regenerated, open `http://127.0.0.1:4189/#/review`;
-export local review notes before changing browser origin. The owner has since
-deleted the release copies; local reader outputs are also absent. Optional
-deployment snapshots now belong in `dist/releases/`; they are disposable and
-are not restoration archive material. The incremental exporter still needs a
-generated base; a full rebuild without prior snapshots remains to be implemented
-and verified.
+The owner's November 3 request integrates all 19 completed PDF restoration passes
+and all three CDs into `dist/reading-room-volunteer/`: 680 PDF plus 3,386 CD
+records, 4,066 total. Open `http://127.0.0.1:4189/#/review`; export local review
+notes before changing browser origin. All 828 eligible PDF TOC identities retain
+680 owned bodies, 125 groups, 17 section references, five unresolved eligibility
+outcomes and one eligible-but-unlocated body. Three owned bodies remain partial.
+These counts distinguish available records from complete original recovery.
+
+`make export-volunteer-reading-room PYTHON=.venv/bin/python` now rebuilds directly
+from preserved packages and `metadata/catalog/reading-room-volunteer.json`.
+No reader snapshot is required. The 47 GB data tree is staged once, validated,
+then moved into `dist/`; a fully copied stage can resume finalization. Free-space
+checks precede fresh copying. Optional release snapshots remain disposable.
 See [the reader guide](READING-ROOM.md) and
-`archive/pdf/shared/evidence/reader-integration-2026-10-22/validation.json`.
-This local build adds no human acceptance and performs no deployment. March and October 1985 are later data-only closeouts and are not included in this 11-issue reader snapshot.
+`archive/pdf/shared/evidence/reader-integration-2026-11-03/`.
+No new OCR, source correction, human acceptance or deployment is claimed.
 
 ## Latest restoration closeout
+
+March 1993 is the latest completed supplied-PDF pass. All 19 eligible issues
+have final pass outcomes; collection-wide JSON/assets delivery under PLAN-PDF
+steps 13–14 remains separate from this reader integration. March's 41 readable
+bodies, seven groups, three section references and one eligible unlocated leaf
+account for all 52 identities and all 433 source pages. See
+[March progress](progress/9303.md) and its private closeout handoff.
+
+### Historical August 1991 closeout
 
 August 1991 is complete as a canonical TOC JSON/assets restoration pass:
 35 identities account for 28 readable/sample-reviewed articles, five non-owning

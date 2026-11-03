@@ -1,0 +1,1513 @@
+{
+  "schemaVersion": 1,
+  "scope": "All 19 completed supplied-PDF passes and all three CD references; local volunteer reader.",
+  "toc": {
+    "path": "archive/toc/current/manifest.json",
+    "sha256": "70c3dd2483f542b54f7791cd04ae78db6f5c93ebf74bcd5e6c7f5da8ff46192f",
+    "bytes": 1237
+  },
+  "discs": {
+    "cd1": {
+      "path": "archive/cd1/reference/manifest.json",
+      "sha256": "f0c60ec00065a744922f42beaad83386b7eb1bf7fb5edc934e423ae6e1e533c6",
+      "bytes": 4816963
+    },
+    "cd2": {
+      "path": "archive/cd2/reference/manifest.json",
+      "sha256": "dbe1dbfbb787fed2e9ae0df5519a673e4defe062552f221c12747c7c406f5e5c",
+      "bytes": 109091
+    },
+    "cd3": {
+      "path": "archive/cd3/reference/manifest.json",
+      "sha256": "dcda5d327727d932b16ba5fd3555443d643853f67e0f32da7c59fb9ce7393dc5",
+      "bytes": 1921887
+    }
+  },
+  "canonicalTitleChanges": {
+    "maso-1984-09-toc-0008": {
+      "before": "바라케이드",
+      "after": "바리케이드"
+    },
+    "maso-1984-09-toc-0038": {
+      "before": "리뷰 살롱",
+      "after": "신간 안내"
+    }
+  },
+  "issues": [
+    {
+      "issueId": "maso-1983-11",
+      "ledger": {
+        "path": "archive/pdf/1983-11/restoration/11-november/issue-progress.json",
+        "sha256": "abb896ed6bde00c0ae563e990fa5eee27d1d365500b3fcab096c8e5e89a597c5",
+        "bytes": 100631
+      },
+      "packages": [
+        {
+          "tocEntryId": "maso-1983-11-toc-0001",
+          "articleId": "scan-maso-1983-11-toc-0001",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-01/editorial/manifest.json",
+            "sha256": "0f3dae8a097932aa03698af8d3bcf3d411611d32b84c5616ebf27e042439fd86",
+            "bytes": 4845
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0002",
+          "articleId": "scan-maso-1983-11-toc-0002",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-01/interview/manifest.json",
+            "sha256": "9ab62421c34630cf1cf4ad6b574451e264428abad4e26e7b3dd4e11c9ae26ef8",
+            "bytes": 10755
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0003",
+          "articleId": "scan-maso-1983-11-toc-0003",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-feature-assemble/feature/manifest.json",
+            "sha256": "b8cf3cec8021660926c88eaa3ab830a4f40863f021b4d6ba0d205ccee3309760",
+            "bytes": 59967
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0012",
+          "articleId": "scan-maso-1983-11-toc-0012",
+          "manifest": {
+            "path": "archive/pdf/shared/packages/pilot/manifest.json",
+            "sha256": "0a36aa40d941f439f1d75cd162c8b4f634e1f51daaae4f2cef6497732f2f3aa9",
+            "bytes": 6905
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0013",
+          "articleId": "scan-maso-1983-11-toc-0013",
+          "manifest": {
+            "path": "archive/pdf/shared/packages/6a-matchsticks/manifest.json",
+            "sha256": "d423b370869738ac61cc81d6966246538adf5d6ef2ebafa050516419f9b3591f",
+            "bytes": 19931
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0014",
+          "articleId": "scan-maso-1983-11-toc-0014",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-02/enemy/manifest.json",
+            "sha256": "cde67ba39b9029cdacec1d0e5e719b7eb4df25c5a9295173de26288f90b20383",
+            "bytes": 6899
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0015",
+          "articleId": "scan-maso-1983-11-toc-0015",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-02/reverse/manifest.json",
+            "sha256": "06799f3260998f97969f5c917c4a2d32a5c7c1fd63e22c429dd88758cc63ed42",
+            "bytes": 12157
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0016",
+          "articleId": "scan-maso-1983-11-toc-0016",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-03/circle/manifest.json",
+            "sha256": "515866cda6505c26c57312f30888ce60a536ee0dce4b221cf70e939226e58cc9",
+            "bytes": 15814
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0017",
+          "articleId": "scan-maso-1983-11-toc-0017",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-submarine-assemble/submarine/manifest.json",
+            "sha256": "10f55ea65d106412952b16ebecb13185b04427504beb0ebe94773e8ec0edbb8f",
+            "bytes": 28804
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0018",
+          "articleId": "scan-maso-1983-11-toc-0018",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-06/checkers/manifest.json",
+            "sha256": "e33753d93dcd2ca8956c37b075d08cf471536c700b9a06b31c38b5b6bdd87765",
+            "bytes": 9599
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0019",
+          "articleId": "scan-maso-1983-11-toc-0019",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-07/awari/manifest.json",
+            "sha256": "189af7fb4a4db5ecf12ad678dc1b8aa135ae39ac63c4c3fd25f3e399a6d5964a",
+            "bytes": 9601
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0020",
+          "articleId": "scan-maso-1983-11-toc-0020",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-08/heart/manifest.json",
+            "sha256": "4eaf88cc3cc5adef2e32d02356b9a64902721c25e8de166508f5b943793c9c92",
+            "bytes": 10747
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0021",
+          "articleId": "scan-maso-1983-11-toc-0021",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-library-assemble/library/manifest.json",
+            "sha256": "161a26ed5fff1d7f4f5577024853c6c132a764a5351473d7b374fc52fe6f6233",
+            "bytes": 98904
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0022",
+          "articleId": "scan-maso-1983-11-toc-0022",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-14/gun-man/manifest.json",
+            "sha256": "19b3f2c115af80ac15bac6d497dae7f5a8c87acc8d23573821aae953783c73fe",
+            "bytes": 7539
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0024",
+          "articleId": "scan-maso-1983-11-toc-0024",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-15/mark/manifest.json",
+            "sha256": "979b40243f8242740bb4ae033ff7a3a72c2be6d8fe059b374cc7d0a4566cbd7e",
+            "bytes": 10738
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0025",
+          "articleId": "scan-maso-1983-11-toc-0025",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-16/digits18/manifest.json",
+            "sha256": "40b10026fe671ee35c33f130ad6a312783e049905ccf7aa449028c8166b3e665",
+            "bytes": 10411
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0026",
+          "articleId": "scan-maso-1983-11-toc-0026",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-17/equation/manifest.json",
+            "sha256": "f3821aa01509229d938590062168683e2db855b71de69d83d5f1b226dfe7764c",
+            "bytes": 18632
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0027",
+          "articleId": "scan-maso-1983-11-toc-0027",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-18/micro-system/manifest.json",
+            "sha256": "c55e5b2c58164fb9a71bf68c5d60b963b7a45ed091b13081401f2443564ea237",
+            "bytes": 13679
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0028",
+          "articleId": "scan-maso-1983-11-toc-0028",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-19/english/manifest.json",
+            "sha256": "59ea0f4484ce7bcb967a075aaf11f7fe868b14eec589b7924137d02107599606",
+            "bytes": 14813
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0029",
+          "articleId": "scan-maso-1983-11-toc-0029",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-20/pascal/manifest.json",
+            "sha256": "b9ed3d794de50a7a96a002936cde1db3764949fbd72d313243a424dca9f36e77",
+            "bytes": 51296
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0030",
+          "articleId": "scan-maso-1983-11-toc-0030",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-editor-assemble/editor/manifest.json",
+            "sha256": "d0a3d0f304c9e5470e4f2f484d410b35cfb6ee28856aaf59e0641739ee115d49",
+            "bytes": 38568
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0031",
+          "articleId": "scan-maso-1983-11-toc-0031",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-graphic-assemble/graphic/manifest.json",
+            "sha256": "2b043f9eaa42e41c2d7cc6b9aeded71a1f85e53724e6819575b428cd3a361189",
+            "bytes": 49784
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0032",
+          "articleId": "scan-maso-1983-11-toc-0032",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-radar-assemble/radar/manifest.json",
+            "sha256": "8e14a0ca83027a692cf1c3e982a43ba4b8566854394893caa549bdda29c4d1e1",
+            "bytes": 28284
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0034",
+          "articleId": "scan-maso-1983-11-toc-0034",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-27/visicalc/manifest.json",
+            "sha256": "82d0d2f8fa22f7fdbe580e6f3f3ec8690f2d1f84b2ae39c0b51a2f5a56e8be1b",
+            "bytes": 20683
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0035",
+          "articleId": "scan-maso-1983-11-toc-0035",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-mailing-assemble/mailing/manifest.json",
+            "sha256": "079800d4c55c60c0b079b5b81621353654bf0fd5cb13a29c04d8b3187f6b165f",
+            "bytes": 14163
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0036",
+          "articleId": "scan-maso-1983-11-toc-0036",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-unix-assemble/unix/manifest.json",
+            "sha256": "7c261be5eef4d1d5c863d2c00f57a32447988dae1826377ae8c633a5d073e53b",
+            "bytes": 33637
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0037",
+          "articleId": "scan-maso-1983-11-toc-0037",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-32/sorting/manifest.json",
+            "sha256": "5e3f4907a292bb30de1e70a1174377aa1fe03693c2e10886edcc4e11ff7a591b",
+            "bytes": 12876
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0038",
+          "articleId": "scan-maso-1983-11-toc-0038",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-generator-assemble/generator/manifest.json",
+            "sha256": "070eba1d173a23fd9567acdbc52e12798e2a02fa71f6657f6b66a382c0c1941f",
+            "bytes": 40096
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0040",
+          "articleId": "scan-maso-1983-11-toc-0040",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-35/disassembler/manifest.json",
+            "sha256": "b23a9901ef1b21dd545da403e36a67762d47b58dc501212d0ef5657a6dae930e",
+            "bytes": 16070
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0041",
+          "articleId": "scan-maso-1983-11-toc-0041",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-robot-assemble/robot/manifest.json",
+            "sha256": "98011309d780bbb11d218980584fd16e731a3808bd8653e932067f1138840dc0",
+            "bytes": 44222
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0042",
+          "articleId": "scan-maso-1983-11-toc-0042",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-38/monitor/manifest.json",
+            "sha256": "a8bb76b510e94d2c2788f0b4f4b9c4772597f6cd4088fa725e63d524325ef223",
+            "bytes": 26649
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0043",
+          "articleId": "scan-maso-1983-11-toc-0043",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-ieee488-assemble/ieee488/manifest.json",
+            "sha256": "856ab5aed5d515f7f0eea480e9009762b21c07eaeda0a69848c40fc072bf4d09",
+            "bytes": 50359
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0045",
+          "articleId": "scan-maso-1983-11-toc-0045",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-41/backup/manifest.json",
+            "sha256": "8c91ec0100bf88a8c145bd0db9556e897ebe1a8006ee2a6ad5c0b7e802d41a76",
+            "bytes": 21069
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0046",
+          "articleId": "scan-maso-1983-11-toc-0046",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-42/reviews/manifest.json",
+            "sha256": "b43fc1a35fd86b3138e20515ae42c1454b0fc8f5585c49430703d497b380f4ae",
+            "bytes": 8245
+          }
+        },
+        {
+          "tocEntryId": "maso-1983-11-toc-0047",
+          "articleId": "scan-maso-1983-11-toc-0047",
+          "manifest": {
+            "path": "archive/pdf/1983-11/packages/11-batch-43/qa/manifest.json",
+            "sha256": "0f49c9a24af0f82416cc996bf85b8c60da8daa7213caa974af20092fb04672a1",
+            "bytes": 14024
+          }
+        }
+      ]
+    },
+    {
+      "issueId": "maso-1984-02",
+      "ledger": {
+        "path": "archive/pdf/1984-02/restoration/12-1984-02-closeout/issue-progress-after.json",
+        "sha256": "1ec97678153c4ec243d0c13b77072834702ed182186064e22059f9df5d0c1649",
+        "bytes": 130278
+      },
+      "packages": [
+        {
+          "tocEntryId": "maso-1984-02-toc-0001",
+          "articleId": "scan-maso-1984-02-toc-0001",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-feature-assemble/feature/manifest.json",
+            "sha256": "6baf66b6ff5fd3af2f18c927f4c84846d1f04b0aca6cc9e0197b3d71f98772bb",
+            "bytes": 79415
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0003",
+          "articleId": "scan-maso-1984-02-toc-0003",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-04/space-war/manifest.json",
+            "sha256": "1804b530e5034bdeb79afa712983ccd143ee21e974a5530e8cb48d3cb8ba5282",
+            "bytes": 6917
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0004",
+          "articleId": "scan-maso-1984-02-toc-0004",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-05/flip-it/manifest.json",
+            "sha256": "d7ee255e3089999e6d0188d4c4c41157741947dcee5e777d6a0639a53ed5962e",
+            "bytes": 11400
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0005",
+          "articleId": "scan-maso-1984-02-toc-0005",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-06/marbles/manifest.json",
+            "sha256": "52581574142176dace95d7e633774fbc86c43c070cae29056968bbd4b8764239",
+            "bytes": 7073
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0006",
+          "articleId": "scan-maso-1984-02-toc-0006",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-microtext-assemble/microtext/manifest.json",
+            "sha256": "6e5f41e129d7f5b24769334fef6e8e670fb88be4f68af20441e2dc0f7e88d121",
+            "bytes": 27744
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0007",
+          "articleId": "scan-maso-1984-02-toc-0007",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-09/maze/manifest.json",
+            "sha256": "9b0b9fc0da131a9f46c37d099b07ada86dedd957f3a9a9d5112e947305cb4304",
+            "bytes": 7706
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0008",
+          "articleId": "scan-maso-1984-02-toc-0008",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-09/dragon/manifest.json",
+            "sha256": "bd95607394348f46ddd1a671354f5cb641916f85bec95347700007d0a4f539a7",
+            "bytes": 7769
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0009",
+          "articleId": "scan-maso-1984-02-toc-0009",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-10/bomber/manifest.json",
+            "sha256": "473e71ace713cd5c36809a9471e26c329fa3f9961bba1d771ba925f21a6f54e7",
+            "bytes": 8987
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0010",
+          "articleId": "scan-maso-1984-02-toc-0010",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-10/jaegong/manifest.json",
+            "sha256": "c5651edf25e76b11d5273c9637d253e521476fe4b0da5a1a19ae95c4ce157b0d",
+            "bytes": 5626
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0011",
+          "articleId": "scan-maso-1984-02-toc-0011",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-11/cube/manifest.json",
+            "sha256": "bf78c727e9e6a2c8fba57f6e8a6f79150a5c396f1d9e4614b38b7afbbb92fc24",
+            "bytes": 17867
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0013",
+          "articleId": "scan-maso-1984-02-toc-0013",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-12/dokdo/manifest.json",
+            "sha256": "827f0540583a04a35dc8cd22c31dc3fbfcf53ce9116e0cbc53bd00117fc75448",
+            "bytes": 11421
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0014",
+          "articleId": "scan-maso-1984-02-toc-0014",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-13/manual/manifest.json",
+            "sha256": "7737cce09869b6bd05b7d1844158c8b549147b6929a45e2f87288c46052d940b",
+            "bytes": 7897
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0015",
+          "articleId": "scan-maso-1984-02-toc-0015",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-13/apa/manifest.json",
+            "sha256": "6d9d2025036bc5f2965af268729fb779178ae79c5d6bd82a9e3e6b413d495112",
+            "bytes": 27443
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0016",
+          "articleId": "scan-maso-1984-02-toc-0016",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-14/pascal/manifest.json",
+            "sha256": "42126e304e661e48cc96b2eb1b893158053f2236b9f00a215a09f0c4c1332ceb",
+            "bytes": 31927
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0017",
+          "articleId": "scan-maso-1984-02-toc-0017",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-systems-assemble/systems/manifest.json",
+            "sha256": "6c4e1d8e64d3264d94f21cbfc3ef943ec96aaa1a4030cd894c21fd7a30f1a40a",
+            "bytes": 62874
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0018",
+          "articleId": "scan-maso-1984-02-toc-0018",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-17/time-machine/manifest.json",
+            "sha256": "9a90c74418287dbff6dc3991b601efe429ff12cfa7eb1961f5163b66d802d705",
+            "bytes": 26241
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0019",
+          "articleId": "scan-maso-1984-02-toc-0019",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-18/graphs/manifest.json",
+            "sha256": "aea811e3ae512743457de75090195d9fe5508af63c75a379a90394569fd3470c",
+            "bytes": 8055
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0021",
+          "articleId": "scan-maso-1984-02-toc-0021",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-22/spc500/manifest.json",
+            "sha256": "8025b3ae57252271b047f949aa1742a099349456d4d5392303e8b5893a25d12b",
+            "bytes": 13490
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0022",
+          "articleId": "scan-maso-1984-02-toc-0022",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-accounting-assemble/accounting/manifest.json",
+            "sha256": "5862158ff6ad27a0a5e5522ae1fa54fd13197b0a7092867ed9cf84c800321c46",
+            "bytes": 86649
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0023",
+          "articleId": "scan-maso-1984-02-toc-0023",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-unix-assemble/unix/manifest.json",
+            "sha256": "0858930a8796fee2fc40d27d4f4e41080b01a223df95f00b939528d934e6369d",
+            "bytes": 43814
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0024",
+          "articleId": "scan-maso-1984-02-toc-0024",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-27/visicalc/manifest.json",
+            "sha256": "89cdf5956c6b5ddebc0cd6a929b416c39d9de729153bcb613ca33192be9792c1",
+            "bytes": 19930
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0025",
+          "articleId": "scan-maso-1984-02-toc-0025",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-28/programmer/manifest.json",
+            "sha256": "2a8a720d91f178716445c6b43f6db545e87a5479979b77c36bce4c124dc4bc00",
+            "bytes": 33845
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0026",
+          "articleId": "scan-maso-1984-02-toc-0026",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-29/dbase/manifest.json",
+            "sha256": "e2f3ae56973290f44e90064ed0869aff5447969ed29e29f78af47afd6b45c3ba",
+            "bytes": 25053
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0028",
+          "articleId": "scan-maso-1984-02-toc-0028",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-loader-assemble/loader/manifest.json",
+            "sha256": "a38801d5dad93d7488402d4853e66a2a3d128b7a673c33a17c2cb8cea7218342",
+            "bytes": 54811
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0029",
+          "articleId": "scan-maso-1984-02-toc-0029",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-32/monitor/manifest.json",
+            "sha256": "6e784972f314ccf861cb02aeed9d977dd34bd97ccd2b5c93eafc52682ed4b987",
+            "bytes": 17366
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0030",
+          "articleId": "scan-maso-1984-02-toc-0030",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-33/technique/manifest.json",
+            "sha256": "385272c56ee98e172e5e2891149fa468f1a3009bbead2ddfcda2dad58744881b",
+            "bytes": 27563
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0031",
+          "articleId": "scan-maso-1984-02-toc-0031",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-hangul-assemble/hangul/manifest.json",
+            "sha256": "2146b592599b0ec9df533531ef9a4b1ff6a907fe0e06b0fdaa4c1524cc7757e6",
+            "bytes": 75378
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0032",
+          "articleId": "scan-maso-1984-02-toc-0032",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-converter-assemble/converter/manifest.json",
+            "sha256": "24974c87d79affc46b4eac03ada7f36054c2dda6b922de3fefd26dfbc20d2672",
+            "bytes": 41926
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0034",
+          "articleId": "scan-maso-1984-02-toc-0034",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-40/snaky/manifest.json",
+            "sha256": "8639e98557c12296d6dc23d409db9923eaaa1199ab45ba28bcdde15c34849bb8",
+            "bytes": 33642
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0035",
+          "articleId": "scan-maso-1984-02-toc-0035",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-41/monster/manifest.json",
+            "sha256": "012ab7cc21bd243a246fe796e9f98fde01fbb335db0890744cca6be3abfc8bde",
+            "bytes": 22826
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0036",
+          "articleId": "scan-maso-1984-02-toc-0036",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-dictionary-assemble/dictionary/manifest.json",
+            "sha256": "9d56149010da602d2e5a3338f1f0e66dd8a53fa293a7316fa6a5c5f7af42c53d",
+            "bytes": 210078
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0038",
+          "articleId": "scan-maso-1984-02-toc-0038",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-01/editorial/manifest.json",
+            "sha256": "da98decd8ec9a88fb1ae0999dc641b0850caf8174f60224cec6ce9bd73bf554f",
+            "bytes": 6760
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0039",
+          "articleId": "scan-maso-1984-02-toc-0039",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-19/qa/manifest.json",
+            "sha256": "1c9b5ebd4cc19da29544806c7b2233a147517d2af190f25e2083675eeefe25cb",
+            "bytes": 20801
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0040",
+          "articleId": "scan-maso-1984-02-toc-0040",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-19/debugging/manifest.json",
+            "sha256": "9efad8f53afa725f0ebb5ab922a9bd19a8f7948a898ad8a0bcd301413a53bd11",
+            "bytes": 11134
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0041",
+          "articleId": "scan-maso-1984-02-toc-0041",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-news-assemble/news/manifest.json",
+            "sha256": "a326b994d50266b50858a79eea669971619f4b935079138c274b405caff988be",
+            "bytes": 53429
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0042",
+          "articleId": "scan-maso-1984-02-toc-0042",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-39/notice/manifest.json",
+            "sha256": "86a817802f5a3511ab3e066a2627b34f196ed420cec02f868f2742221b953af5",
+            "bytes": 11914
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-02-toc-0043",
+          "articleId": "scan-maso-1984-02-toc-0043",
+          "manifest": {
+            "path": "archive/pdf/1984-02/packages/12-1984-02-batch-39/review/manifest.json",
+            "sha256": "5d5ff364cea933c019fbf9d94af254b76aaf9db7eac23c2c3760b385d9abe4df",
+            "bytes": 11131
+          }
+        }
+      ]
+    },
+    {
+      "issueId": "maso-1984-03",
+      "manifest": {
+        "path": "archive/pdf/1984-03/reference/manifest.json",
+        "sha256": "750c0869cdcae8bdc1c4bec085c53ba6679c3ce92dc088f7f78379f8ca3f812e",
+        "bytes": 1210238
+      }
+    },
+    {
+      "issueId": "maso-1984-05",
+      "manifest": {
+        "path": "archive/pdf/1984-05/reference/manifest.json",
+        "sha256": "d70938b003c3f2c69a33c92c5c782674a65dc2efb06e8465e5dbfc39e45a3167",
+        "bytes": 1275078
+      }
+    },
+    {
+      "issueId": "maso-1984-06",
+      "ledger": {
+        "path": "archive/pdf/1984-06/restoration/12-1984-06-qwen/whole-issue-ledger.json",
+        "sha256": "7208d16df645e59032f85e46b8f3e0e7b3efad15b66d6bb90dc630a93a62d5f9",
+        "bytes": 32930
+      },
+      "packages": [
+        {
+          "tocEntryId": "maso-1984-06-toc-0001",
+          "articleId": "scan-maso-1984-06-toc-0001",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-01/overview/manifest.json",
+            "sha256": "f1ceeb527d7be1172d6fc3c0a010a90dfa4a9dc6e7b2f8ec6bcf1b6185d8c694",
+            "bytes": 8352
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0002",
+          "articleId": "scan-maso-1984-06-toc-0002",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-speech-complete/manifest.json",
+            "sha256": "a36939529fb9c7d14af4cd26b9fe76c04fe26b57196d13c4bc3a84b4922830ae",
+            "bytes": 54484
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0003",
+          "articleId": "scan-maso-1984-06-toc-0003",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-phoneme-complete/manifest.json",
+            "sha256": "925706d978aff7456f9abfaae5e5fc81a1af84cdafe7131dab1ebd4ac0742b73",
+            "bytes": 63395
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0005",
+          "articleId": "scan-maso-1984-06-toc-0005",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-07/clock-study-indexed/manifest.json",
+            "sha256": "9633ae82c9a62e545b1295ce6357f116bcdc89547fcc6e0eb80b3654ba909c10",
+            "bytes": 16858
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0006",
+          "articleId": "scan-maso-1984-06-toc-0006",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-08/maze-game-indexed/manifest.json",
+            "sha256": "d586189801139fe16c8dd57b96a11b806876d59928c28de7949d805f3a0a5cc2",
+            "bytes": 14708
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0007",
+          "articleId": "scan-maso-1984-06-toc-0007",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-09/space-animation/manifest.json",
+            "sha256": "0c18aa4fbc8e6f4a8d9962e45fd83630245350b1896f381cb6f4b4fdf018c012",
+            "bytes": 19963
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0008",
+          "articleId": "scan-maso-1984-06-toc-0008",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-10/orchard/manifest.json",
+            "sha256": "de1decf3bcaca2846515ead4829b39723d06f3b9bcaa06075e10da7c692a9c7b",
+            "bytes": 8450
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0009",
+          "articleId": "scan-maso-1984-06-toc-0009",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-11/spc-auto-tape/manifest.json",
+            "sha256": "6c50c959fbdf74eafd0db735f90500419767a583c287c7e4e127a3a5520660a8",
+            "bytes": 33644
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0010",
+          "articleId": "scan-maso-1984-06-toc-0010",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-12/apple-auto-tape-source-checked/manifest.json",
+            "sha256": "77cfa78898cf18c5dec201d7adeb147fbc4fc815e6ae5fa852e12f13419cec59",
+            "bytes": 48294
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0011",
+          "articleId": "scan-maso-1984-06-toc-0011",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-13/numbers-game/manifest.json",
+            "sha256": "4548000521aa01f54dac2eb85b293fe8f9b3416fa7d41c35f5efab817e368324",
+            "bytes": 14874
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0012",
+          "articleId": "scan-maso-1984-06-toc-0012",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-14/car-race/manifest.json",
+            "sha256": "5e48f21c21471eeca1b948c6495a6cc96f161dcea94144106cf7ce221d91bac5",
+            "bytes": 36111
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0013",
+          "articleId": "scan-maso-1984-06-toc-0013",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-15/address-book/manifest.json",
+            "sha256": "b55a08bd24c4286742eeb2d42ef489ef898d8018b89562d2c1a80834183f6383",
+            "bytes": 63119
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0014",
+          "articleId": "scan-maso-1984-06-toc-0014",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-16/not-fun-game/manifest.json",
+            "sha256": "c6b49b139fa2191b2d352761fa4cd3d807a619c33acde5cd2ce2048424d68c8e",
+            "bytes": 25774
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0016",
+          "articleId": "scan-maso-1984-06-toc-0016",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-17/z80-tutorial/manifest.json",
+            "sha256": "6918e8c1c1b0d110e7cebe39745c0cd8ec15e74354d958a6d423ed9e53ed0df6",
+            "bytes": 70911
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0017",
+          "articleId": "scan-maso-1984-06-toc-0017",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-18/logo-tutorial/manifest.json",
+            "sha256": "fc7c8a9cba21d32723e96ad1d7b5cdcd95b31afb5d46b44fedcada7e720447ba",
+            "bytes": 53218
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0018",
+          "articleId": "scan-maso-1984-06-toc-0018",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-19/graphics-animation/manifest.json",
+            "sha256": "79936e3717bbfd035bccc3568b2f25899404431ad0cf5a07e95e3e2484b04df9",
+            "bytes": 32101
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0019",
+          "articleId": "scan-maso-1984-06-toc-0019",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-20/computer-graphics/manifest.json",
+            "sha256": "4bc31b8fd83898a0708f832b3971c76f9419bc99187a0f1dd2726b6234e09666",
+            "bytes": 56641
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0020",
+          "articleId": "scan-maso-1984-06-toc-0020",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-21/basic-speed/manifest.json",
+            "sha256": "2ced9bafea7bc2d7e9f13703b28454a35fecbc36addf352bc246ce795fba8964",
+            "bytes": 28391
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0021",
+          "articleId": "scan-maso-1984-06-toc-0021",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-22/heat-and-work/manifest.json",
+            "sha256": "a0595a2a7709f8869268d12ac06736670902bb24a6ef30d1bc7f30bb82890f9c",
+            "bytes": 38933
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0023",
+          "articleId": "scan-maso-1984-06-toc-0023",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-24/unix/manifest.json",
+            "sha256": "ddb59b0d15979aa6b8a000b86d4078eaa87c60e499fd2bcca60f70061066d814",
+            "bytes": 82656
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0024",
+          "articleId": "scan-maso-1984-06-toc-0024",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-25/visisum/manifest.json",
+            "sha256": "43e0bbf914b67aef9c20ba2fe1dc2921c377297460a89e72b2f66eedd5403cf4",
+            "bytes": 51388
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0025",
+          "articleId": "scan-maso-1984-06-toc-0025",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-26/medical-insurance/manifest.json",
+            "sha256": "a9cac68d89b0609c0d52f1d40a7434241c94f9157eb1d980b38b527a73488ab9",
+            "bytes": 80565
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0026",
+          "articleId": "scan-maso-1984-06-toc-0026",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-27/visicalc/manifest.json",
+            "sha256": "cfe58fdde7695a2828c125aa6499ab21b35d0cde74994136c9d1f77f5927f395",
+            "bytes": 88758
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0028",
+          "articleId": "scan-maso-1984-06-toc-0028",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-28/computer-design/manifest.json",
+            "sha256": "71fe7650599bbb49c10731b2d4fe3811c621fe1b6c1a303893b63331ebf3653d",
+            "bytes": 79962
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0029",
+          "articleId": "scan-maso-1984-06-toc-0029",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-29/relocator/manifest.json",
+            "sha256": "bebfdd802e2e6a1bb104020a298e501325184e2a28acaa3c3f73616dcd49cc13",
+            "bytes": 37789
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0031",
+          "articleId": "scan-maso-1984-06-toc-0031",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-32/graphic-editor/manifest.json",
+            "sha256": "7301c84e9f126200a4e92dbbf930b6951d02b8049e72748bd94f33a3234728b3",
+            "bytes": 110869
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0032",
+          "articleId": "scan-maso-1984-06-toc-0032",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-33/hangul-sort/manifest.json",
+            "sha256": "dd6b616059e42b2198ad0c484e3cc961fc5be713ef333540ef9dd8f246725e77",
+            "bytes": 68952
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0033",
+          "articleId": "scan-maso-1984-06-toc-0033",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-34/computer-rebellion/manifest.json",
+            "sha256": "c477fd3d6f97ce4027e0f68dd18a3a6e7682108a2c6113dfbffcc156f521e2d9",
+            "bytes": 74124
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0034",
+          "articleId": "scan-maso-1984-06-toc-0034",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-35/horse-blocking/manifest.json",
+            "sha256": "4346c25169ff0db664bf60c145d90ec713152485682446f1dce1f036c3780627",
+            "bytes": 63308
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0035",
+          "articleId": "scan-maso-1984-06-toc-0035",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-history-complete/manifest.json",
+            "sha256": "ee29dd065650ca3fa7660daa07bb34279448279bc986a0a972aa93d27956f5e9",
+            "bytes": 245519
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0036",
+          "articleId": "scan-maso-1984-06-toc-0036",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-40/contest-appendix/manifest.json",
+            "sha256": "6f40a1c2b06c13bc32d6a0127b88ae3dcaeaaa63f265a9f34362771616acab97",
+            "bytes": 85953
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0038",
+          "articleId": "scan-maso-1984-06-toc-0038",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-01/editorial/manifest.json",
+            "sha256": "54b57c6f0864dd715553f8def6254e70d293702c7517bc41c868c38d6884a496",
+            "bytes": 3820
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0039",
+          "articleId": "scan-maso-1984-06-toc-0039",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-23/information-radar/manifest.json",
+            "sha256": "cdb16f65a9d4a3ccbe65100417648f5652bc38be733e8f1a131d9d6c79acd9c7",
+            "bytes": 116172
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0040",
+          "articleId": "scan-maso-1984-06-toc-0040",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-30/classifieds/manifest.json",
+            "sha256": "2ebb4006b89ae6ee678ada8e69391caa60a85a6f4752f94e21c5c34b4aa71023",
+            "bytes": 19916
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0041",
+          "articleId": "scan-maso-1984-06-toc-0041",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-31/contest-review/manifest.json",
+            "sha256": "3393dc2b57baf2afad4243352b7ef8ac5dbe96b0493d1174c3cb50137a4be224",
+            "bytes": 27955
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0042",
+          "articleId": "scan-maso-1984-06-toc-0042",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-36/letters/manifest.json",
+            "sha256": "5ebaf13ee3c69ba5e49ca40bfd2f7ea71dd7134c3cab7a1d03fb8b34d74e428d",
+            "bytes": 37603
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0043",
+          "articleId": "scan-maso-1984-06-toc-0043",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-37/questions-answers/manifest.json",
+            "sha256": "360bc1f3e4a89bfca5749a66c409de3584b14f479d4b4654fb002311bb67415e",
+            "bytes": 42281
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-06-toc-0044",
+          "articleId": "scan-maso-1984-06-toc-0044",
+          "manifest": {
+            "path": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-41/advertisement-index/manifest.json",
+            "sha256": "fb64842ceaa63d95249d25b02184ff0545ca189d3d52fb3f6581907fa6082822",
+            "bytes": 4052
+          }
+        }
+      ]
+    },
+    {
+      "issueId": "maso-1984-07",
+      "ledger": {
+        "path": "archive/pdf/1984-07/restoration/12-1984-07-comparison/whole-issue-ledger.json",
+        "sha256": "c2d1458c615055d5e8ac3afc01b7f30084262d7f530a7ed058d6f66642c466ba",
+        "bytes": 29333
+      },
+      "packages": [
+        {
+          "tocEntryId": "maso-1984-07-toc-0001",
+          "articleId": "scan-maso-1984-07-toc-0001",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/z80/manifest.json",
+            "sha256": "b97102cbada05a521401024951eb64ecbfe978257f6fd2b543caacfb2550c2a9",
+            "bytes": 163558
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0003",
+          "articleId": "scan-maso-1984-07-toc-0003",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/apple-sound/manifest.json",
+            "sha256": "6fa8264b3437a35e79a864d29b3f38562cf31284730fdb9716827b8b98114dd9",
+            "bytes": 85700
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0004",
+          "articleId": "scan-maso-1984-07-toc-0004",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-05/spc1000-music/manifest.json",
+            "sha256": "d522f8d17e714a6e5255620c90f9328a05be6023d3879dfc10130c58265d7701",
+            "bytes": 56325
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0005",
+          "articleId": "scan-maso-1984-07-toc-0005",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-14/rebellion-fc100/manifest.json",
+            "sha256": "0aa9244ad930a7172add3a45238cc6c48bd5c7ce9b1e90faa9edc06bc90fd408",
+            "bytes": 33879
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0006",
+          "articleId": "scan-maso-1984-07-toc-0006",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-15/sixth-sense-fc100/manifest.json",
+            "sha256": "54c2e6be84ddc715639093c6430fd408b3178ee0f3d7291b5d0bf8eb33bcf5b8",
+            "bytes": 21058
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0007",
+          "articleId": "scan-maso-1984-07-toc-0007",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-16/dodgem-fc100/manifest.json",
+            "sha256": "22a550ad94a2be56e1b34756f20c057629a550db9ab1fbb93b9310e36ced0a87",
+            "bytes": 27079
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0008",
+          "articleId": "scan-maso-1984-07-toc-0008",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-04/sum15/manifest.json",
+            "sha256": "534c8fb64e7456719e9b6e14fbc1fcb824058dbf44bc9850c38b56cf76b27da4",
+            "bytes": 12594
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0009",
+          "articleId": "scan-maso-1984-07-toc-0009",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-17/hostage-apple/manifest.json",
+            "sha256": "48fcf8cf65ab5dd153d1d321713d9fbb8579f0aec749f95a415e1c7ba5d16168",
+            "bytes": 30535
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0010",
+          "articleId": "scan-maso-1984-07-toc-0010",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-18/digger-apple/manifest.json",
+            "sha256": "13bc3db7697d788e01341f6cac2bc3284f414771d08d032459520810d7972270",
+            "bytes": 39115
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0011",
+          "articleId": "scan-maso-1984-07-toc-0011",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-19/boat-exploration-spc1000/manifest.json",
+            "sha256": "f26215aa5e3fff22f708b90903b5f319ee5fc60a75563d4cceae21a19b80badd",
+            "bytes": 29067
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0012",
+          "articleId": "scan-maso-1984-07-toc-0012",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-20/kangaroo-spc1000/manifest.json",
+            "sha256": "968a97d5d69826b35b5b502a38b1da2884bdd7d988179600bde3a675e6ff4808",
+            "bytes": 53028
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0013",
+          "articleId": "scan-maso-1984-07-toc-0013",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-02/driving/manifest.json",
+            "sha256": "ea7f4294c3d878ca3e12808a7767028bcdc740313105ec5067123b827f152560",
+            "bytes": 6710
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0014",
+          "articleId": "scan-maso-1984-07-toc-0014",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-21/spc1000-autorun-tape/manifest.json",
+            "sha256": "24c15829470706297cd2e76008938d9128b3cd97dcb1eed941165060b66c6047",
+            "bytes": 67252
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0016",
+          "articleId": "scan-maso-1984-07-toc-0016",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-22/logo-workspace-files-debugging/manifest.json",
+            "sha256": "b44606282a75108a832e140df521eb7222a5d7fdb94b97c7ddc0e82567df9bc5",
+            "bytes": 52570
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0017",
+          "articleId": "scan-maso-1984-07-toc-0017",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-23/charles-law/manifest.json",
+            "sha256": "c1eb433f71f08878214655569047349a94f9342704509ee175d65c4f9eea6f21",
+            "bytes": 32307
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0018",
+          "articleId": "scan-maso-1984-07-toc-0018",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/cpm-introduction/manifest.json",
+            "sha256": "41ab952dee01bf6ecbf753a1e310fba26b340d36382544e7ede4640f251310f2",
+            "bytes": 256410
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0019",
+          "articleId": "scan-maso-1984-07-toc-0019",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/z80-lesson/manifest.json",
+            "sha256": "c0989d5f6569be0dbfe2563cbb94d31d4be1750a329993d34c016ceeb7420281",
+            "bytes": 167868
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0020",
+          "articleId": "scan-maso-1984-07-toc-0020",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-28/computer-graphics/manifest.json",
+            "sha256": "e81dd58c904bb163c35e8f46ce1100f9d5b1691438b5127bb7ffc3444c9d4645",
+            "bytes": 108204
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0021",
+          "articleId": "scan-maso-1984-07-toc-0021",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-29/apple-fortran/manifest.json",
+            "sha256": "c83d7337a311a5cb6092f14d12f849fd1e85fefb549e4324d9691b2b9fde1fa2",
+            "bytes": 76201
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0023",
+          "articleId": "scan-maso-1984-07-toc-0023",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-33/visicalc-visiplot/manifest.json",
+            "sha256": "6327825c9e0e3a001eb1fddf9f549d61ee81589d663528b827d58f5a57bf6edf",
+            "bytes": 84515
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0024",
+          "articleId": "scan-maso-1984-07-toc-0024",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-34/data-structures/manifest.json",
+            "sha256": "2e7a4806ddbab45a2b61af80acf86bcebadcd80d7894554e7417dfd4b4b76eb9",
+            "bytes": 103245
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0025",
+          "articleId": "scan-maso-1984-07-toc-0025",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-35/unix/manifest.json",
+            "sha256": "7d84acc8f443185fb9514170dc6a3bf57c3527aa8a859cd1a958584b59346ba4",
+            "bytes": 120482
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0027",
+          "articleId": "scan-maso-1984-07-toc-0027",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/music-card/manifest.json",
+            "sha256": "68e8f41b7a0745d0dae7dfcc016cd47d835b54bab4caece88284abd56cf2b847",
+            "bytes": 142907
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0028",
+          "articleId": "scan-maso-1984-07-toc-0028",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/hardware-design/manifest.json",
+            "sha256": "287829daf3b7a56a0cd8ff78d47eee9ea66ec0d4b411835cc4b4dc9bbadb294f",
+            "bytes": 267942
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0030",
+          "articleId": "scan-maso-1984-07-toc-0030",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/yut/manifest.json",
+            "sha256": "11c977f24183607adf2ba527e367f5dfebbd8d58676f17956970059718d29cbe",
+            "bytes": 149603
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0031",
+          "articleId": "scan-maso-1984-07-toc-0031",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/apple-thief/manifest.json",
+            "sha256": "68d89429e5b006736ab5abd9d56655a83bee9c0c6ffa4106c4d8d22200fcd7cf",
+            "bytes": 233587
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0032",
+          "articleId": "scan-maso-1984-07-toc-0032",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-44/table-tennis/manifest.json",
+            "sha256": "925785f01a826eb09b8088c80b94015a5bf766050cc5688f874953162a727aaf",
+            "bytes": 64828
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0033",
+          "articleId": "scan-maso-1984-07-toc-0033",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/cashbook/manifest.json",
+            "sha256": "a9f9959fcb8b577ed222da7e3304cf78d546b00f1436e22239ae2bfe3a39175d",
+            "bytes": 191869
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0034",
+          "articleId": "scan-maso-1984-07-toc-0034",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/industry-history/manifest.json",
+            "sha256": "042f19d12fa22dc0381a289456493ae19cb4c6a36eabf18b94fadeb84131b404",
+            "bytes": 338401
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0036",
+          "articleId": "scan-maso-1984-07-toc-0036",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-01/editorial/manifest.json",
+            "sha256": "9d6eb9f979c5afe53c1ebbafa42b9d07b9955f2ccaabdedabd4c785cd267370d",
+            "bytes": 7326
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0037",
+          "articleId": "scan-maso-1984-07-toc-0037",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison/information-radar/manifest.json",
+            "sha256": "2b66d85e12d1f9bb664cc3d9aaa92a89b099e1248043e5a8ed33a1cc90f61771",
+            "bytes": 320837
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0038",
+          "articleId": "scan-maso-1984-07-toc-0038",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-03/review-salon/manifest.json",
+            "sha256": "ee19d25ebff819c39ab53a7716555d17c03cc7fc459d4a32a1c91f16fcb0c14b",
+            "bytes": 25149
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0039",
+          "articleId": "scan-maso-1984-07-toc-0039",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-38/contest-commentary/manifest.json",
+            "sha256": "893685b0858ac51ab2d2fde2be152469b4d632e4e2e46d9816079a9d00f747ff",
+            "bytes": 24921
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0040",
+          "articleId": "scan-maso-1984-07-toc-0040",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-47/classified/manifest.json",
+            "sha256": "5e266554cc39a7bcbceae443c2d2050b8f4cc9fdfcf10fa9f0f9ce77b844a666",
+            "bytes": 34727
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0041",
+          "articleId": "scan-maso-1984-07-toc-0041",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-48/qa/manifest.json",
+            "sha256": "4c9fea560ceb4aeb2046fc68379f457829023d2b1db452132ed0042a756b0afc",
+            "bytes": 48754
+          }
+        },
+        {
+          "tocEntryId": "maso-1984-07-toc-0042",
+          "articleId": "scan-maso-1984-07-toc-0042",
+          "manifest": {
+            "path": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-54/advertising-index/manifest.json",
+            "sha256": "c8ee398dee8bcfc8f36e13d115c14a6337373844c768567ba5075d7c7a4b4b41",
+            "bytes": 18869
+          }
+        }
+      ]
+    },
+    {
+      "issueId": "maso-1984-08",
+      "manifest": {
+        "path": "archive/pdf/1984-08/reference/manifest.json",
+        "sha256": "c6d3d43dae7f05427329c8c2dfb0cbb8bc196a1ea645ac386f852972e8a619b8",
+        "bytes": 2840787
+      }
+    },
+    {
+      "issueId": "maso-1984-09",
+      "manifest": {
+        "path": "archive/pdf/1984-09/reference/manifest.json",
+        "sha256": "831a5a3bca989864a342f8e5bd96181ab00ea2ccb01ad5bd4636a06e569d2721",
+        "bytes": 841726
+      }
+    },
+    {
+      "issueId": "maso-1984-10",
+      "manifest": {
+        "path": "archive/pdf/1984-10/reference/manifest.json",
+        "sha256": "e608d5d98882f3e5d8b26d3976ad01b3486fb118a4a4973a8aa04dfb589d0539",
+        "bytes": 961190
+      }
+    },
+    {
+      "issueId": "maso-1984-12",
+      "manifest": {
+        "path": "archive/pdf/1984-12/reference/manifest.json",
+        "sha256": "7f7ef22cdadb942ca7a1c66626412ac47b362ea23b3288af98b7b0c417b73343",
+        "bytes": 1200373
+      }
+    },
+    {
+      "issueId": "maso-1985-02",
+      "manifest": {
+        "path": "archive/pdf/1985-02/reference/manifest.json",
+        "sha256": "f22b42972ca04ec3cff6559189bdf44807da3087d531f395daf1fb40a933ec88",
+        "bytes": 1858300
+      }
+    },
+    {
+      "issueId": "maso-1985-03",
+      "manifest": {
+        "path": "archive/pdf/1985-03/reference/manifest.json",
+        "sha256": "cf502d2c2a0fbef3a34ec42b6211171081cb0f247bf3c0c3f295333661e9117d",
+        "bytes": 1697685
+      }
+    },
+    {
+      "issueId": "maso-1985-10",
+      "manifest": {
+        "path": "archive/pdf/1985-10/reference/manifest.json",
+        "sha256": "844e69e259ecf633d2bb2d0fdb5b33b5aecdb492ec5a3484c5313c5ac1b3b16a",
+        "bytes": 1600713
+      }
+    },
+    {
+      "issueId": "maso-1985-11",
+      "manifest": {
+        "path": "archive/pdf/1985-11/reference/manifest.json",
+        "sha256": "1f8972dc3d0bee08c094eb710b7f0507f8bcdf0464ddc1371b764b3f907b131f",
+        "bytes": 1696487
+      }
+    },
+    {
+      "issueId": "maso-1988-01",
+      "manifest": {
+        "path": "archive/pdf/1988-01/reference/manifest.json",
+        "sha256": "229dacd1d8ec4d2c66c80ad6374d21aa6104c6a6bcc062b5559ad1db17fa7e59",
+        "bytes": 1759393
+      }
+    },
+    {
+      "issueId": "maso-1991-08",
+      "manifest": {
+        "path": "archive/pdf/1991-08/reference/manifest.json",
+        "sha256": "5810ed188423b2cbb4ee416fbe8db2191abf7c32f30510a948ea62fada0f5975",
+        "bytes": 2032306
+      }
+    },
+    {
+      "issueId": "maso-1991-09",
+      "manifest": {
+        "path": "archive/pdf/1991-09/reference/manifest.json",
+        "sha256": "83f25fb6b6112ba0b098ea06f4fdd65d9f33f3ca871bb3739e78089f60956aa6",
+        "bytes": 2032071
+      }
+    },
+    {
+      "issueId": "maso-1992-12",
+      "manifest": {
+        "path": "archive/pdf/1992-12/reference/manifest.json",
+        "sha256": "d63ca4b6c299d16b8f5050546c7fe52fe8b64721f28cf23f79c773eecb11366e",
+        "bytes": 2844125
+      }
+    },
+    {
+      "issueId": "maso-1993-03",
+      "manifest": {
+        "path": "archive/pdf/1993-03/reference/manifest.json",
+        "sha256": "7207893c0714d16974301047ca38c22ab6df017fed3eb82bba77d0762fcb5b44",
+        "bytes": 3532651
+      }
+    }
+  ],
+  "validationScope": "Frozen closeout inventories, schemas, ownership and reader projections. Original assembly reconstruction remains evidenced by issue closeouts; this build does not rerun restoration or certify human proofreading."
+}

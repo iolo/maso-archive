@@ -10,14 +10,14 @@ from .export import digest, read, safe, text_for, write
 from tools.pdf_restore.build import check_export
 
 
-def project(package, toc):
+def project(package, toc, *, prefix=None):
     """Pure reader projection, also used to verify every scan field against its package."""
     id = package['id']
     if toc['id'] != package['toc_entry_id']:
         raise ValueError('Scan package does not match the canonical TOC entry')
     if package['relationships']:
         raise ValueError('Version relationships need a reviewed comparison adapter; cannot infer or copy unchecked links')
-    prefix = f'pdf/{id}'
+    prefix = prefix or f'pdf/{id}'
     path_pin = lambda pin: {**pin, 'path': f'{prefix}/{pin["path"]}'}
     figures = {f['id']: f for f in package['figures']}
     source_blocks = {b['id']: b for b in package['blocks']}
@@ -83,10 +83,12 @@ def project(package, toc):
     return doc, paragraphs
 
 
-def validate_scan(root, doc, toc):
+def validate_scan(root, doc, toc, *, package=None):
     path = safe(root / 'source', doc['scan']['packagePath'])
-    package = check_export(path.parent)
-    expected, paragraphs = project(package, toc)
+    prefix = str(Path(doc['scan']['packagePath']).parent) if package is not None else None
+    if package is None:
+        package = check_export(path.parent)
+    expected, paragraphs = project(package, toc, prefix=prefix)
     expected['scan']['packageSha256'] = digest(path)
     if expected != doc:
         raise ValueError('Scan reader projection differs from its pinned package')

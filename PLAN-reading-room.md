@@ -6,14 +6,19 @@ restoration/integration evidence under `archive/`. Reader builds and optional
 release snapshots in `dist/releases/` are disposable deployment outputs.
 Intermediate reader stages belong in `work/reading-room/`; the default session
 cleanup removes those stages, with `--include-dist` adding generated readers and
-releases. See [session cleanup](docs/STORAGE.md#session-cleanup). Previous local
-readers/releases are absent, and a complete rebuild without a prior snapshot
-remains to be implemented and verified; this is a build limitation, not a
-preservation requirement.
+releases. See [session cleanup](docs/STORAGE.md#session-cleanup). The November 3
+rebuild consumes preserved CD/PDF packages directly; no prior reader snapshot
+is required.
 The completed implementation below is historical; follow [STORAGE.md](docs/STORAGE.md)
 and the current [reading-room guide](docs/READING-ROOM.md) for operations.
 
-**2026-10-22 all-restorations review build:** the owner requested the volunteer
+**2026-11-03 all-issue volunteer build:** the owner requested and resumed a full
+local rebuild. The reader contains all 19 completed PDF issues/680 article records
+and all three CDs/3,386 records, 4,066 total. Frozen source inventories, outcomes,
+CD associations and reader projections are validated without new restoration.
+See [the current guide](docs/READING-ROOM.md) for reproduction and resume commands.
+
+**Historical 2026-10-22 all-restorations review build:** the owner requested the volunteer
 reader with all completed restorations. The selected local build contains 11 PDF
 issues (407 records) and all three CDs (3,386 records), 3,793 total. December 1984
 and February 1985 add 78 articles while preserving the nine-issue baseline. See

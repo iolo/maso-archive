@@ -312,19 +312,18 @@ check-cd3-reference:
 VOLUNTEER_OUTPUT ?= dist/reading-room-volunteer
 VOLUNTEER_BASE ?= ./
 VOLUNTEER_PORT ?= 4189
-VOLUNTEER_INPUT ?= dist/releases/reading-room-2026-10-22-before-all-restorations/data
-VOLUNTEER_LEDGERS ?= archive/pdf/1984-12/reference-r01/ledger.json archive/pdf/1985-02/reference/ledger.json
-VOLUNTEER_STAGES ?= work/reading-room/volunteer-stages
+VOLUNTEER_INPUTS ?= metadata/catalog/reading-room-volunteer.json
+VOLUNTEER_STAGES ?= work/reading-room/volunteer-full
 VOLUNTEER_RELEASE ?= reading-room-2026-10-22-all-restorations
 .PHONY: export-volunteer-reading-room build-volunteer-reading-room check-volunteer-reading-room preview-volunteer-reading-room
 export-volunteer-reading-room:
-	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer export --base $(VOLUNTEER_INPUT) $(foreach ledger,$(VOLUNTEER_LEDGERS),--ledger $(ledger)) --stages $(VOLUNTEER_STAGES) --data $(VOLUNTEER_OUTPUT)/data
+	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.rebuild export --inputs $(VOLUNTEER_INPUTS) --stages $(VOLUNTEER_STAGES) --data $(VOLUNTEER_OUTPUT)/data
 
 build-volunteer-reading-room:
 	cd web && READING_ROOM_OUTPUT=$(VOLUNTEER_OUTPUT) READING_ROOM_BASE=$(VOLUNTEER_BASE) npm run build
 
 check-volunteer-reading-room:
-	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer check --data $(VOLUNTEER_OUTPUT)/data
+	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.rebuild check --data $(VOLUNTEER_OUTPUT)/data
 
 preview-volunteer-reading-room:
 	cd web && READING_ROOM_OUTPUT=$(VOLUNTEER_OUTPUT) READING_ROOM_BASE=$(VOLUNTEER_BASE) npm run preview -- --port $(VOLUNTEER_PORT) --strictPort
