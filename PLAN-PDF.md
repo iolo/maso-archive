@@ -2029,18 +2029,46 @@ are unchanged. No mapping, OCR or source correction occurred. Direct-review elap
 wall time was recorded prospectively. Article 0037 remains unresolved; a source-wide
 absence or missing-page count is not inferred from this checkpoint. Full goal active.
 
-Next: Batch 70 reviews the fourteen remaining mixed body pages: 304, 317, 328,
-341, 356, 382, 392, 394–395, 401, 403, 415, 426 and 429. Recheck original contents 5
-and bulletin 424 for 0037: sixteen named physical pages fit the twenty-page outside
-ceiling. Preserve article maps, primary classifications and canonical ownership;
-reconcile overlapping local exclusions as contexts. Review unlisted upper-395 tips,
-notices, advertising, response-card portions and unknown areas explicitly. Require
-the actual 0037 title/opening/ending before assigning any body; segment beyond six
-mapped pages. Final 0037 disposition needs sufficient issue-wide evidence and must
-not invent a missing-page count or substitute identity. Cover, standalone
-collection/index/report/reproduction and issue closeout remain required. No reader rebuild.
+Batch 70 completes source accounting for all 433 physical pages and all 25 original
+map-local exclusions across 23 mixed body pages. Fourteen remaining mixed pages
+were reviewed with whole-page context and sixteen exact native diagnostic crops.
+The reader card on raw sideways 429 uses the selected map's 90-degree clockwise
+orientation before cropping; original PDF geometry and raw renders stay intact.
 
-Remaining bodies, 433-page accounting, cover and issue closeout are required. See
+The two overlapping exclusions on 394 refer to the already restored batch-format
+0035 and scanning 0038 bodies. They remain separate map contexts with their existing
+owners. The upper DOS-shell tip on 395 is credited 정명식; the independent system-status
+box has no observed byline. Neither substitutes for 0037. Publisher promotions,
+contribution invitations, software advertisements, the advertiser index and blank
+reader-response card remain outside their neighboring canonical article bodies.
+No quiz answers, article code, missing text or new ownership are invented.
+
+Contents 5 names 문자열 교체를 간편하게 with credit 김범석, without an individual page
+reference; 390 belongs to the parent TECH rubric. Bulletin 424 references TECH source
+and executable files on diskette 1, without an actual filename or recovered diskette
+bytes. Those references do not prove a printed body location. Article 0037 remains
+unresolved pending its final issue-wide eligibility/source-gap assessment; no source-wide
+absence or missing-page count is claimed by this accounting checkpoint.
+
+All four accounting files match independent and fresh-process exports. Forty-nine
+consistently rehashed semantic faults are rejected, including swapped cross-article
+owners, invented tip credits, ignored card orientation and references treated as body
+locations. All 417 outside-scope rows, all 433 primary classifications, all 45,787
+preserved files, thirty core modules and source/TOC/queue/runtime pins remain exact.
+All 52 canonical outcomes, 41 owners/16,429 files and 39 classification evidence files
+are unchanged. No mapping, OCR or source correction occurred. Review elapsed wall
+time includes interruptions and is not active labor. Full issue goal remains active.
+
+Next: Batch 71 audits the issue-wide source evidence and rechecks 0037's TECH
+neighborhood and references before a final eligibility or source-gap disposition.
+Directly review PDF 1, 5, 384–397, 424, 432 and 433: nineteen physical pages within
+the twenty-page outside limit. Require the actual title/opening/ending before assigning
+a body; preserve identity and leave missing-page count unknown if unsupported.
+Verify the complete front cover on 1, back advertisement on 432 and partial cover-wrap
+on 433 separately. Standalone collection/index/report/reproduction and issue closeout
+remain required. No reader rebuild.
+
+Final0037 eligibility, cover, standalone collection and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
 [ledger](metadata/catalog/pdf-restoration/1993-03-progress.json).
 

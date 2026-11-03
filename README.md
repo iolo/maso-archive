@@ -15,13 +15,12 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 March 1993 restoration is active: forty-one readable/sample-reviewed articles,
 no partials, seven non-owning groups, three final section references and one unresolved
-identity among 52. All 433 physical pages have primary material classifications.
-Mixed accounting has nine pages reviewed and fourteen pending; full source accounting
-is still partial. The 41 body-owner packages contain 16,429 files; four accounting
-files reproduce independently and in a fresh process. Next: review the remaining
-mixed pages and recheck the string-replacement references. Final body disposition,
-cover, standalone collection and issue closeout remain pending. No reader rebuild.
-See [March progress](docs/progress/9303.md).
+identity among 52. All 433 physical pages and all 25 original exclusions on 23 mixed
+pages are source-accounted. The 41 body-owner packages contain 16,429 files; four
+accounting files reproduce independently and in a fresh process. Next: final eligibility
+or source-gap assessment for the string-replacement article and cover verification.
+Standalone collection/index/report/reproduction and issue closeout remain pending.
+No reader rebuild. See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section
