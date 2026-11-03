@@ -4789,12 +4789,86 @@
       "toc_entry_id": "maso-1993-03-toc-0047",
       "title": "애독자 퀴즈",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete reader quiz0047 occupies PDF132–133, individually observed printed130–131. Its293JSON/assets files match independent andfresh-process exports. All87exact crops,66outcomes,856typed ranges,139physical nonempty rows,21original figures and37source-local candidates validate. Following134opens independent competitionnotice0011;outside131/134–135excluded.",
+        "Fifteen independent prize panels retain fifteen literal captions,source counts,sponsors andcontact strings. Two complete page compositions preserve full design andshaped overlapping objects/cords/captions;individual prize rectangles are contextual. Miniature cover/package/UI interiors remain original-image dependent. Sixother figure captions are null.",
+        "Fifteen winner groups retain45physical recipient rows,each with separate name,slash,address andwhole-row source occurrences. Printed name/address variants andold jurisdictions remain literal oruncertain. Prize links preserve distinct caption/winner forms,including텔런트/탤런트 andWindow/윈도우즈. Source sponsors/recipients are not article bylines ornew canonical children.",
+        "33negative checks reject31rehashed semantic faults after generic integrity passes withfrozen equality disabled,plus2ownership faults. All44412prior files,30core modules andsource/TOC/queue/runtime pins exact;unchanged fresh213-test baseline retained. Only0047advances;other51canonical outcomes and39classification files unchanged,including unlocated0037.",
+        "Canonical 애독자 퀴즈,nullbyline/reference andnullparent unchanged. Fullproofreading,human acceptance,exactglyphs/spaces/encodedbytes,historical truth andoriginalhardware/software behavior remain unverified. No present mailing,purchase,contact,program recovery,execution orreader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-60-r01/quiz",
+        "article_id": "scan-maso-1993-03-toc-0047",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-60-r01/quiz/manifest.json",
+          "sha256": "0a9d0b62a04e1d3f651d94e59aa7bc1146981bea0bc3cef9f4af266f9b1fa160",
+          "bytes": 51043
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            132,
+            133
+          ],
+          "printed_pages": [
+            "130",
+            "131"
+          ],
+          "regions": 87,
+          "blocks": 66,
+          "figures": 21,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 133,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-60/validation-complete.json",
+          "sha256": "3b9fb82b7e148c14cafef1a670f37c2d3355a6203f4fb2c5831e03e8325242a2",
+          "bytes": 2156
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-60/native-reproduction.json",
+          "sha256": "208208e3a0a3e0dd1e879ec89a8659e02c54fd205d7d74afacaa23f91a411141",
+          "bytes": 58039
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-60/quiz-r03/package-recipe.json",
+          "sha256": "43a8b59532f2d875b732be0c42c78857c9e966d6a15087a61a0704c96b51f5b0",
+          "bytes": 15082
+        },
+        "checkpoint": "batch-60",
+        "full_source_extent": {
+          "start_pdf_page": 132,
+          "end_pdf_page": 133,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-60/source-review-completed.json",
+            "sha256": "c4970e68e29ceb0f15a68a15a875d2c0361128c885c6ba9189df0dc2a120084b",
+            "bytes": 5575
+          },
+          "note": "Complete independent TOC-listed quiz ending after finaldeadline on133 beforecompetitionnotice134."
+        },
+        "notes": [
+          "Complete reader quiz0047 occupies PDF132–133, individually observed printed130–131. Its293JSON/assets files match independent andfresh-process exports. All87exact crops,66outcomes,856typed ranges,139physical nonempty rows,21original figures and37source-local candidates validate. Following134opens independent competitionnotice0011;outside131/134–135excluded.",
+          "Fifteen independent prize panels retain fifteen literal captions,source counts,sponsors andcontact strings. Two complete page compositions preserve full design andshaped overlapping objects/cords/captions;individual prize rectangles are contextual. Miniature cover/package/UI interiors remain original-image dependent. Sixother figure captions are null.",
+          "Fifteen winner groups retain45physical recipient rows,each with separate name,slash,address andwhole-row source occurrences. Printed name/address variants andold jurisdictions remain literal oruncertain. Prize links preserve distinct caption/winner forms,including텔런트/탤런트 andWindow/윈도우즈. Source sponsors/recipients are not article bylines ornew canonical children.",
+          "Four entry topics preserve survey andreader-voices column continuations,with independent introductory directions andQ&A/quiz-answer instructions. Topic labels do not advance canonical reader-voices0049 orQ&A0039ownership. Currentquestion/four outlined boxes are separate fromprevious MNPanswer. Original question,blank,answer medallion andwinner panel retained;no current answer inferred.",
+          "Printed Electronies/Asseciation,source동봉구/인덕면,phone suffix420-2071(3),하바드 andold Hangul sponsor glyph remain literal orcandidate forms. Final two-line deadline/entry notice and매월20일retain source occurrences. No spelling,geography,product-title,phone-expansion ortechnical repair.",
+          "All66full raw drafts read before one continuing correction pass.66initial kor+eng calls,33pre-OCR crop events,zero retries andzero within/post-pass map/OCR/saved-text changes. Allfive source pages131–135 directly reviewed,two mapped andthreeoutside. Native color review repaired pale clipped name/title glyphs missed bythreshold130;final text crops disjoint withzero threshold crossings.",
+          "One candidate explanation changed toEnglish inimmutable metadata-only revision;allsource text andother fields unchanged. Original metadata reading retained. Padded QA context andnative edge columns prove final내glyph complete insideexistingcrop;no crop change orrecognition required. All21original figures andliteralcaption/nativewinner crops directly viewed.",
+          "33negative checks reject31rehashed semantic faults after generic integrity passes withfrozen equality disabled,plus2ownership faults. All44412prior files,30core modules andsource/TOC/queue/runtime pins exact;unchanged fresh213-test baseline retained. Only0047advances;other51canonical outcomes and39classification files unchanged,including unlocated0037.",
+          "Canonical 애독자 퀴즈,nullbyline/reference andnullparent unchanged. Fullproofreading,human acceptance,exactglyphs/spaces/encodedbytes,historical truth andoriginalhardware/software behavior remain unverified. No present mailing,purchase,contact,program recovery,execution orreader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0048",
@@ -7305,15 +7379,57 @@
         "sha256": "4ce06e52e5d2aa6ead4144c8f61653f58e59d42329c951833b4bd8fa80afee66",
         "bytes": 91171
       }
+    },
+    {
+      "name": "1993-03-batch-60",
+      "status": "complete",
+      "completed_at": "2026-11-03T00:43:09.479659+00:00",
+      "goal": "Restore complete readerquiz0047 on132–133.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0047"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        132,
+        133
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        131,
+        134,
+        135
+      ],
+      "recognition_invocations": 66,
+      "initial_recognitions": 66,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 66,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 33,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "candidate_label_metadata_revisions": 1,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-60/validation-complete.json",
+        "sha256": "3b9fb82b7e148c14cafef1a670f37c2d3355a6203f4fb2c5831e03e8325242a2",
+        "bytes": 2156
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-60/native-reproduction.json",
+        "sha256": "208208e3a0a3e0dd1e879ec89a8659e02c54fd205d7d74afacaa23f91a411141",
+        "bytes": 58039
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 35,
+    "readable": 36,
     "partial": 0,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 7
+    "unresolved": 6
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -7321,26 +7437,41 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-60",
-    "goal": "Verify andrestore reader quiz0047 onobserved132–133 within bounded source scope.",
+    "name": "1993-03-batch-61",
+    "goal": "Locate andverify next-issue preview0048 andreader voices0049;restore only confirmed eligible bodies within bounded limits.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0047"
+      "maso-1993-03-toc-0048",
+      "maso-1993-03-toc-0049"
     ],
-    "mapping_targets": [
-      132,
-      133
-    ],
+    "mapping_targets": [],
     "planned_outside_lookup_pdf_pages": [
-      131,
-      134,
-      135
+      4,
+      5,
+      98,
+      99,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431
     ],
     "limits": {
       "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Quiz0047 애독자 퀴즈 directly observed opening132/printed130 andcontinuing133/131,end before independent competitionnotice134. Reuse retained source views andverify complete body/own ending before mapping. Preserve introductory reader message,prize photos,product/sponsor/contact captions,card-entry instructions,current/previous question-answer contexts,number-of-winner labels andevery printed recipient credit/address as separate source occurrences. Local sponsor/recipient names are not canonical article bylines. Keep original images anduncertain glyphs;no product execution orprogram recovery. Canonical title,nullbyline/reference andnullparent unchanged. Otherchildren,unlocated0037 andnotice0011 unchanged. No reader rebuild."
+    "note": "Canonical0048 4월호 주요 기사 안내 and0049 독자의 소리 remainunlocated withnullreferences. Review original contents4–5,retained adjacent98–99 publisher context,andbounded end matter416–431,atmost20outsidepages. These arelocation probes,not inferredextents. Do not apply global foliooffsets orassign nearby unlisted notices. Verify actual titles,own openings/endings andinterior continuity before mapping. Restore only confirmed bodies within sixdistinctpages;segment/defer iflonger. Preserve independent letters/editorial responses,local credits,notice layouts,images/captions andsource uncertainty. Canonical titles,bylines,parents/references unchanged;other50outcomes,including unlocated0037,unchanged. No source-wide absence ormissing-page count inferred fromboundedlookup. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

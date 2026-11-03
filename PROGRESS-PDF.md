@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: thirty-five readable/sample-reviewed articles, no partials,
-seven non-owning groups, three final section references and seven unresolved identities
+March 1993 is in progress: thirty-six readable/sample-reviewed articles, no partials,
+seven non-owning groups, three final section references and six unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -968,21 +968,64 @@ unchanged. Full proofreading, human acceptance, exact glyphs/spaces/encoded byte
 historical truth and original hardware/software behavior remain unverified.
 No product recovery, execution or reader rebuild.
 
-Current totals: thirty-five readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and seven unresolved identities among 52.
-The 35 current body-owner packages contain 15,245 exact files; 39 classification
+Batch 60 completes reader quiz 0047 on PDF 132–133/individually observed
+printed 130–131. Its 293 JSON/assets files reproduce independently and in a fresh
+process. All 87 exact crops, 66 outcomes, 856 typed ranges, 139 nonempty physical
+rows, 21 original figures and 37 source-local candidates validate. Canonical
+애독자 퀴즈, null byline/reference and null parent remain unchanged. Price 131 and
+competition notice 134–135 remain independent owners.
+
+Fifteen prize contexts retain fifteen literal captions, printed counts, sponsors
+and contacts. Two complete page compositions preserve full design and shaped
+objects, cords and overlapping captions; individual prize rectangles are contextual.
+Six other figure captions are null. Fifteen winner groups retain 45 physical rows,
+with separate whole-row, name, slash and address occurrences. Printed name/address
+forms and old jurisdictions remain literal or uncertain; sponsors and recipients
+are not invented article authors or canonical children.
+
+Four entry topics preserve the survey and reader-voices column continuations.
+Their independent introductory directions and Q&A/quiz-answer instructions remain
+separate and do not advance other canonical bodies. The current question with four
+outlined answer boxes is separate from the previous answer MNP. Original question,
+blank, answer medallion and winner panel remain; no current answer is inferred.
+Printed Electronies/Asseciation, Window versus 윈도우즈, 텔런트/탤런트, 동봉구/인덕면,
+하바드 and phone suffix 420-2071(3) stay literal or source-local candidates. The
+final two-line notice/deadline and 매월 20일 retain exact source occurrences.
+
+All 66 full drafts were read before one continuing correction pass: 66 initial
+kor+eng calls, 33 pre-OCR crop events, zero retries and zero within/post-pass map/
+OCR/saved-text changes. All five pages 131–135 were directly reviewed: two mapped
+and three outside lookups. Native color review caught pale clipping missed by
+threshold 130; final text crops are disjoint with zero crossings. Every original
+figure and literal caption/winner crop was directly reviewed. One uncertainty
+explanation changed to English in an immutable metadata-only revision; all source
+text stays exact. A padded QA context and native edge columns confirm its final
+내 glyph is complete; no crop change or recognition was needed.
+
+Thirty-three negative checks reject 31 rehashed semantic faults after generic
+integrity passes with frozen equality disabled, plus two ownership faults. All
+44,412 prior files, thirty core modules and source/TOC/queue/runtime pins remain
+exact; the unchanged fresh 213-test baseline is retained. Only 0047 advances;
+all other 51 canonical outcomes and 39 classification files remain unchanged,
+including unlocated 0037. Full proofreading, human acceptance, exact glyphs/spaces/
+encoded bytes, historical truth and original product behavior remain unverified.
+No present mailing/contact action, product recovery, execution or reader rebuild.
+
+Current totals: thirty-six readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and six unresolved identities among 52.
+The 36 current body-owner packages contain 15,538 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 60 verifies and restores reader quiz 0047 on observed PDF 132–133.
-The quiz opens 132/printed 130 and ends 133/131 before competition notice 134;
-reuse retained renders and verify the complete body before mapping. Preserve the
-reader message, prize photographs, sponsor/product/contact captions, entry rules,
-current and previous question/answer contexts, prize counts and every printed
-recipient credit/address as separate source occurrences. Local names are not
-article bylines. Canonical 애독자 퀴즈, null byline/reference/parent and all other
-outcomes remain unchanged. Two tasks, six mapped pages and twenty outside lookups
-remain ceilings. Keep uncertain glyphs and original images; no software recovery,
-execution or reader rebuild. Unlocated 0037 remains unresolved.
+Next: Batch 61 locates and verifies next-issue preview 0048 and reader voices 0049.
+Use a bounded twenty-page probe: original contents 4–5, retained adjacent 98–99
+publisher context and end matter 416–431. These are location probes, not verified
+extents. Confirm actual titles, openings/endings and interior continuity before
+mapping at most six eligible pages; segment or defer longer bodies. Preserve
+independent letters/responses, local credits, original notice layouts, captions and
+uncertain glyphs. Do not substitute unlisted notices or infer source-wide absence
+or missing-page counts from this bounded review. Canonical identities and other
+fifty outcomes, including unlocated 0037, remain unchanged. Two canonical tasks,
+six mapped pages and twenty outside lookups remain ceilings. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
