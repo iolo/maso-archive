@@ -1742,21 +1742,66 @@ including unlocated 0037. Full proofreading, human acceptance, exact glyphs/spac
 encoded bytes, historical truth and original product behavior remain unverified.
 No present mailing/contact action, product recovery, execution or reader rebuild.
 
-Current totals: thirty-six readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and six unresolved identities among 52.
-The 36 current body-owner packages contain 15,538 exact files; 39 classification
+Batch 61 completes next-issue preview 0048 on PDF 136–137/printed 134–135
+and reader voices 0049 on PDF 420–421/printed 418–419. Original contents locators
+134/418 led to directly verified openings, endings and adjacent independent pages;
+canonical null references remain null. Four mapped and six outside lookup pages
+stay within 2/6/20 limits. Fourteen unused probe renders are not claimed reviewed.
+
+The preview has 191 selected r02 files; reader voices has 88. All 279 files match
+independent and fresh-process exports. All 74 exact crops, 63 outcomes, 983 typed
+ranges, 429 nonempty physical rows, eleven original figures with null captions and
+49 source-local candidates validate. Original heading associations are separate
+source ranges. Complete source compositions preserve layout and graphic furniture.
+
+Twelve preview notices retain three outline groups/fourteen bullet rows, eight
+intrinsic series labels, four blue categories and the C power programming heading.
+CDATK continues from left-bottom 최초의 to right-top 라이브러리로 with a space.
+Source APIs, versions, wording and historical prices remain literal. Preview r02
+removes unsupported broad category memberships, retaining literal headings and
+nearest following notices only. Four root JSON files change; article text, assets
+and raw ZIP stay exact. The original 191-file revision remains retained.
+
+Four independent letters retain four local credits, names, slashes and historical
+addresses. No editorial reply, canonical byline or child is invented. Six column
+boundaries preserve four empty word joins, one space and one paragraph boundary.
+Letter02 page 420 없 plus 421 고, joins empty; physical DR/AM wrap remains.
+Source reader names, product spellings, percentages and small punctuation marks
+remain literal or candidate readings. Final MS remains an original figure.
+
+All 63 full initial drafts were read before one continuing source correction pass:
+63 initial kor+eng calls plus one changed-crop call, zero unchanged-input retries.
+Eighteen unchanged voice raw/TSV outcomes retain original execution pins. Twenty-seven
+pre-OCR crop events and one within-pass repair remain. Native review rejected a
+threshold-clean trim that clipped pale right strokes; the wider final crop preserves
+them and includes identified source-frame crossings. Failed trim/map/OCR evidence
+and the fully read changed draft remain. No post-pass source change.
+
+Thirty-eight negative checks reject 36 rehashed semantic faults after generic
+integrity passes with frozen equality disabled, plus two ownership faults. All
+44,705 prior files, thirty core modules and source/TOC/queue/runtime pins remain
+exact; the unchanged fresh 213-test baseline is retained. Only 0048/0049 advance;
+other fifty canonical outcomes and 39 classification files stay unchanged,
+including unlocated 0037. Full proofreading, human acceptance, exact glyphs/spaces/
+encoded bytes, historical truth and original product behavior remain unverified.
+No present contact action, product recovery, execution or reader rebuild.
+
+Current totals: thirty-eight readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and four unresolved identities among 52.
+The 38 current body-owner packages contain 15,817 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 61 locates and verifies next-issue preview 0048 and reader voices 0049.
+Next: Batch 62 locates and verifies bulletin 0050 and `<Ctrl-Break>` 0051.
 Use a bounded twenty-page probe: original contents 4–5, retained adjacent 98–99
-publisher context and end matter 416–431. These are location probes, not verified
-extents. Confirm actual titles, openings/endings and interior continuity before
-mapping at most six eligible pages; segment or defer longer bodies. Preserve
-independent letters/responses, local credits, original notice layouts, captions and
-uncertain glyphs. Do not substitute unlisted notices or infer source-wide absence
-or missing-page counts from this bounded review. Canonical identities and other
-fifty outcomes, including unlocated 0037, remain unchanged. Two canonical tasks,
-six mapped pages and twenty outside lookups remain ceilings. No reader rebuild.
+publisher context and end matter 416–431. Reuse existing renders, counting only
+direct visual reviews. These are location probes, not verified extents. Confirm
+titles, openings/endings, adjacent content and continuity before mapping at most
+six eligible pages; segment or defer longer bodies. Preserve independent bulletin
+items, credits, cartoons/captions and uncertain glyphs. Do not substitute unlisted
+notices or infer source-wide absence or missing-page counts from bounded review.
+Canonical identities and other fifty outcomes, including unlocated 0037 and
+subscription 0052, remain unchanged. Two canonical tasks, six mapped pages and
+twenty outside lookups remain ceilings. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the
