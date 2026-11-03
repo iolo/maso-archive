@@ -1970,14 +1970,44 @@ occurred. Direct-review elapsed wall time was recorded prospectively; it is not 
 historical throughput estimate. Article 0037 stays unresolved; no source-wide absence
 or missing-page count is inferred. Full issue goal remains active.
 
-Next: Batch 68 directly reviews the next twenty pending physical pages: 81–97 and
-149–151. Continue page accounting and bounded location research for 0037, producing a
-fresh reproducible accounting revision. Require the actual target title/opening/ending
-before assigning a body; contents and bulletin references do not establish its
-location. Any newly found body must fit six mapped pages or be segmented. One
-canonical task, six mapped pages and twenty outside lookups remain ceilings. Preserve
-mixed/unlisted portions; remaining 433-page accounting, cover, standalone
-collection/index/report/reproduction and issue closeout are required. No reader rebuild.
+Batch 68 directly reviews physical pages 81–97 and 149–151. Nineteen are
+advertisements. Page 97 is an independent 편집자노트 titled 로컬 버스 기술이 가져온
+새로운 PC 환경, credited 김현숙 (취재부 차장), with explicitly observed printed
+folio 95. Its complete framed composition opens and ends on that page. Whole-page
+review and a native original-credit crop establish this context without assigning
+it to canonical local-bus feature 0001, column 0005 or string-replacement 0037.
+The unlisted source prose remains image dependent. No body for 0037 was found in
+the current twenty pages.
+
+The provisional inventory now classifies 422 of 433 physical pages and leaves
+11 pending. All 413 rows outside the current twenty pages remain exact, including
+original geometry, source references, unlisted material and mixed-page exclusions.
+The editorial's source title, credit, role, folio and one-page extent remain explicit
+non-owning metadata. Selected ownership still covers 272 physical pages in 41 maps.
+Twenty-five map-local exclusion records across 23 mixed body pages remain separate;
+complete mixed-portion accounting is pending.
+
+All four accounting files match independent and fresh-process exports. Twenty-nine
+consistently rehashed semantic faults are rejected without selected-artifact equality,
+including editorial misclassification, erased folio, rewritten credit and invented
+canonical ownership. All 45,787 prior preservation files, thirty core modules and
+source/TOC/queue/runtime pins remain exact. All 52 canonical entries, 41 owners/16,429
+files and 39 classification evidence files are unchanged. No mapping, OCR or source
+correction occurred. Direct-review elapsed wall time was recorded prospectively.
+Article 0037 stays unresolved; no source-wide absence or missing-page count is inferred.
+Full issue goal remains active.
+
+Next: Batch 69 reviews eleven remaining primary gaps (152, 329, 342–343, 349, 357,
+363, 417–418 and 432–433) plus nine mixed body pages (163, 184, 208, 220, 236, 247,
+258, 272 and 286). These twenty physical pages fit the outside-lookup ceiling. Retain
+article ownership and original exclusions while directly accounting for independent
+notices, advertising or unknown portions. Fourteen further mixed pages remain for a
+later checkpoint. Continue bounded location research for 0037; require its actual
+title/opening/ending before assigning a body, and segment any body beyond six mapped
+pages. No source-wide absence or missing-page count is inferred now. Full page/mixed-
+portion accounting and final 0037 disposition wait for sufficient issue-wide evidence.
+Cover, standalone collection/index/report/reproduction and closeout remain required.
+No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and issue closeout are required. See
 [March progress](docs/progress/9303.md) and the

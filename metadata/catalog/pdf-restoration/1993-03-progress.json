@@ -8365,6 +8365,115 @@
         "sha256": "5d95e356b05ad29001a43dd714ce0d1aeabd42de3eee4357e3536407e11af51d",
         "bytes": 715
       }
+    },
+    {
+      "name": "1993-03-batch-68",
+      "status": "complete",
+      "completed_at": "2026-11-03T03:53:20.664052+00:00",
+      "goal": "Continue page accounting and bounded location research for0037;directly review physical81–97 and149–151.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0037"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        149,
+        150,
+        151
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "accounting": {
+        "status": "partial",
+        "checkpoint": "batch-68",
+        "directory": "archive/pdf/1993-03/restoration/batch-68/accounting-r01",
+        "page_ledger": {
+          "path": "archive/pdf/1993-03/restoration/batch-68/accounting-r01/page-ledger.json",
+          "sha256": "df3fec03f4de13b18c013291f2e0b3e3de964c9d743a8eae4a0c01706e008525",
+          "bytes": 1040201
+        },
+        "manifest": {
+          "path": "archive/pdf/1993-03/restoration/batch-68/accounting-r01/manifest.json",
+          "sha256": "5d755fb08c41a5987379a51cb3e1bb9830bb120f2af33a564e85af7b7f2b870d",
+          "bytes": 804
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-68/accounting-recipe.json",
+          "sha256": "255dfd76d8ff79d0ca9037af19057474321f692b35f62c06f1a20f96189cea42",
+          "bytes": 2258
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-68/reproduction.json",
+          "sha256": "21c48b51163e176236928169149c210626caf6f92b28f352c7e127078a51f95e",
+          "bytes": 1195
+        },
+        "source_audit": {
+          "path": "archive/pdf/1993-03/restoration/batch-68/source-audit.json",
+          "sha256": "487aa1110fcfaca96bdb994276ee7d20f815dd6445d81c98c72f172352c4be72",
+          "bytes": 938
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-68/validation.json",
+          "sha256": "eaff0dc05985028c36f0bec62efa93405bd0933410591c32edf070c8552ec785",
+          "bytes": 1875
+        },
+        "physical_page_slots": 433,
+        "primary_classified": 422,
+        "pending": 11,
+        "prior_classified_whole_pages": 402,
+        "current_whole_views": 20,
+        "new_pages_in_reconciled_review_set": 20,
+        "retained_prior_rows_unchanged": 413,
+        "selected_body_pages": 272,
+        "selected_maps": 41,
+        "map_local_mixed_exclusion_records": 25,
+        "mixed_body_pages": 23,
+        "explicit_review_render_bridges": 150,
+        "page_accounting_complete": false,
+        "source_wide_absence_asserted": false,
+        "note": "All 433 physical slots retain original source geometry. Direct review of81–97 and149–151 finds19 advertisements and an independent unlisted editorial97/explicit printed95. Its own source title and 김현숙 credit are retained;native source crop confirms the credit. It is not assigned to any canonical body. No0037 body found in this bounded scope.422 primary classes/11 pending;all413 outside-scope rows exact,including mixed/unlisted contexts.25 map-local exclusions across23 mixed pages remain separate. All52 canonical outcomes,41 owners/16429 files and39 classification files unchanged. Complete page/mixed-portion accounting,cover,standalone collection/index/report/reproduction and issue closeout remain required."
+      },
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-68/validation.json",
+        "sha256": "eaff0dc05985028c36f0bec62efa93405bd0933410591c32edf070c8552ec785",
+        "bytes": 1875
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-68/reproduction.json",
+        "sha256": "21c48b51163e176236928169149c210626caf6f92b28f352c7e127078a51f95e",
+        "bytes": 1195
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1993-03/restoration/batch-68/negative-checks.json",
+        "sha256": "95781fb18c1455241ee6198931f0880a133ce20a7359a2a4df25de10ed41be80",
+        "bytes": 5535
+      },
+      "timings": {
+        "path": "archive/pdf/1993-03/restoration/batch-68/prospective-timings.json",
+        "sha256": "db55210abc0671a3794a76c6e69d6b9d33a9f042fe7fabdbea0147d30bbcd598",
+        "bytes": 847
+      }
     }
   ],
   "totals": {
@@ -8381,40 +8490,64 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-68",
-    "goal": "Continue source-page accounting and bounded location research for0037;directly review physical pages81–97 and149–151.",
+    "name": "1993-03-batch-69",
+    "goal": "Finish the eleven pending primary page classifications and begin direct mixed-portion accounting on nine already selected-body pages;continue bounded location research for0037.",
     "toc_entry_ids": [
       "maso-1993-03-toc-0037"
     ],
     "mapping_targets": [],
     "planned_outside_lookup_pdf_pages": [
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      149,
-      150,
-      151
+      152,
+      163,
+      184,
+      208,
+      220,
+      236,
+      247,
+      258,
+      272,
+      286,
+      329,
+      342,
+      343,
+      349,
+      357,
+      363,
+      417,
+      418,
+      432,
+      433
+    ],
+    "planned_pending_classification_pdf_pages": [
+      152,
+      329,
+      342,
+      343,
+      349,
+      357,
+      363,
+      417,
+      418,
+      432,
+      433
+    ],
+    "planned_mixed_portion_review_pdf_pages": [
+      163,
+      184,
+      208,
+      220,
+      236,
+      247,
+      258,
+      272,
+      286
     ],
     "limits": {
       "canonical_tasks": 1,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "402/433primary classes are evidenced;31 pages pending. Review81–97 and149–151 and produce a fresh reproducible accounting revision. Actual target title/opening/ending required before assigning0037;contents/bulletin references,advertising feature text and unrelated HWP384–389 do not establish its body. Newly located body must fit6mapped pages or be segmented. Preserve all52canonical outcomes unless0037is directly established. No source-wide absence or missing-page count follows from bounded review. Mixed/unlisted portions,all433-page accounting,cover,standalone collection/index/report/reproduction and closeout remain required;full goal active;no reader rebuild."
+    "note": "422/433 primary classes established;11 pending. Review all20 named physical pages:eleven primary gaps plus nine mixed selected-body pages. Preserve current article ownership and original map-local exclusions while directly classifying independent notices/advertisements or unknown portions. Do not count local exclusion records as unique ads. Fourteen further mixed pages remain for a later checkpoint. Actual0037 title/opening/ending required before assigning a body;newly found body must fit6 mapped pages or be segmented. No source-wide absence or missing-page count inferred now. Full page/mixed-portion accounting and final0037 disposition wait for sufficient issue-wide evidence. Cover,standalone collection/index/report/reproduction and closeout remain required;full goal active;no reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -8615,42 +8748,42 @@
   ],
   "source_page_accounting": {
     "status": "partial",
-    "checkpoint": "batch-67",
-    "directory": "archive/pdf/1993-03/restoration/batch-67/accounting-r01",
+    "checkpoint": "batch-68",
+    "directory": "archive/pdf/1993-03/restoration/batch-68/accounting-r01",
     "page_ledger": {
-      "path": "archive/pdf/1993-03/restoration/batch-67/accounting-r01/page-ledger.json",
-      "sha256": "7c76d12337e39eb790f12fa25090b1acd0ff3ea33600217c4ff5827051bf3f4b",
-      "bytes": 1026131
+      "path": "archive/pdf/1993-03/restoration/batch-68/accounting-r01/page-ledger.json",
+      "sha256": "df3fec03f4de13b18c013291f2e0b3e3de964c9d743a8eae4a0c01706e008525",
+      "bytes": 1040201
     },
     "manifest": {
-      "path": "archive/pdf/1993-03/restoration/batch-67/accounting-r01/manifest.json",
-      "sha256": "34e2aab483eaa7796718a416555e9ae50219c3fb0da2e6b9bfd495868140cb3a",
+      "path": "archive/pdf/1993-03/restoration/batch-68/accounting-r01/manifest.json",
+      "sha256": "5d755fb08c41a5987379a51cb3e1bb9830bb120f2af33a564e85af7b7f2b870d",
       "bytes": 804
     },
     "recipe": {
-      "path": "archive/pdf/1993-03/restoration/batch-67/accounting-recipe.json",
-      "sha256": "01a26753efff51d51811de20815019cd51f9d2d1c6068f9f83bd1814108dff87",
+      "path": "archive/pdf/1993-03/restoration/batch-68/accounting-recipe.json",
+      "sha256": "255dfd76d8ff79d0ca9037af19057474321f692b35f62c06f1a20f96189cea42",
       "bytes": 2258
     },
     "reproduction": {
-      "path": "archive/pdf/1993-03/restoration/batch-67/reproduction.json",
-      "sha256": "7769c05f29c255c681c22c35042f9340055b71e7c20aeaac5eb15873f90a1e61",
+      "path": "archive/pdf/1993-03/restoration/batch-68/reproduction.json",
+      "sha256": "21c48b51163e176236928169149c210626caf6f92b28f352c7e127078a51f95e",
       "bytes": 1195
     },
     "source_audit": {
-      "path": "archive/pdf/1993-03/restoration/batch-67/source-audit.json",
-      "sha256": "d71030fb1b07ae9a9b169f35ce29d9ee95294bce2528d5468bea1be802bff8ea",
+      "path": "archive/pdf/1993-03/restoration/batch-68/source-audit.json",
+      "sha256": "487aa1110fcfaca96bdb994276ee7d20f815dd6445d81c98c72f172352c4be72",
       "bytes": 938
     },
     "validation": {
-      "path": "archive/pdf/1993-03/restoration/batch-67/validation.json",
-      "sha256": "1bf8f6bcd439218c468159ad97c34fbb59b1ff64e79d710c74ff14413014e0fd",
+      "path": "archive/pdf/1993-03/restoration/batch-68/validation.json",
+      "sha256": "eaff0dc05985028c36f0bec62efa93405bd0933410591c32edf070c8552ec785",
       "bytes": 1875
     },
     "physical_page_slots": 433,
-    "primary_classified": 402,
-    "pending": 31,
-    "prior_classified_whole_pages": 382,
+    "primary_classified": 422,
+    "pending": 11,
+    "prior_classified_whole_pages": 402,
     "current_whole_views": 20,
     "new_pages_in_reconciled_review_set": 20,
     "retained_prior_rows_unchanged": 413,
@@ -8661,6 +8794,6 @@
     "explicit_review_render_bridges": 150,
     "page_accounting_complete": false,
     "source_wide_absence_asserted": false,
-    "note": "All 433 physical slots retain original source geometry. Direct review of61–80 finds20 advertisements, including commercial dealer lists, promotions and software/hardware feature copy. Dense65/75 additionally inspected as whole pages. No0037 body found in this bounded scope.402 primary classes/31 pending;all413 outside-scope rows exact,including mixed/unlisted contexts.25 map-local exclusions across23 mixed pages are not unique-advertisement counts. All52 canonical outcomes,41 owners/16429 files and39 classification files unchanged. Complete page/mixed-portion accounting,cover,standalone collection/index/report/reproduction and issue closeout remain required."
+    "note": "All 433 physical slots retain original source geometry. Direct review of81–97 and149–151 finds19 advertisements and an independent unlisted editorial97/explicit printed95. Its own source title and 김현숙 credit are retained;native source crop confirms the credit. It is not assigned to any canonical body. No0037 body found in this bounded scope.422 primary classes/11 pending;all413 outside-scope rows exact,including mixed/unlisted contexts.25 map-local exclusions across23 mixed pages remain separate. All52 canonical outcomes,41 owners/16429 files and39 classification files unchanged. Complete page/mixed-portion accounting,cover,standalone collection/index/report/reproduction and issue closeout remain required."
   }
 }
