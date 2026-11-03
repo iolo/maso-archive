@@ -13,14 +13,14 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
-March 1993 restoration is active: thirty-eight readable/sample-reviewed articles,
-no partials, seven non-owning groups, three final section references and four unresolved
-identities among 52. The next-issue preview on PDF 136–137 and reader voices on
-420–421 are complete in 279 independently reproducible JSON/assets files, retaining
-twelve notices, fourteen outline bullets and four independent letters/local credits.
-The 38 body-owner packages contain 15,817 files. Next: locate the bulletin and
-`<Ctrl-Break>`. Remaining bodies, 433-page accounting, cover and issue closeout are
-pending. No reader rebuild. See [March progress](docs/progress/9303.md).
+March 1993 restoration is active: forty readable/sample-reviewed articles, no
+partials, seven non-owning groups, three final section references and two unresolved
+identities among 52. Bulletin PDF 424 and Ctrl-Break 425 are complete in 270
+independently reproducible JSON/assets files, retaining disk references, a fee table,
+original map, handwritten story, cartoon and nine-item humor list. The 40 body-owner
+packages contain 16,087 files. Next: subscription notice 0052. Remaining bodies,
+433-page accounting, cover and issue closeout are pending. No reader rebuild.
+See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

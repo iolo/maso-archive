@@ -1754,22 +1754,61 @@ including unlocated 0037. Full proofreading, human acceptance, exact glyphs/spac
 encoded bytes, historical truth and original product behavior remain unverified.
 No present contact action, product recovery, execution or reader rebuild.
 
-Current totals: thirty-eight readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and four unresolved identities among 52.
-The 38 current body-owner packages contain 15,817 exact files; 39 classification
+Batch 62 completes bulletin 0050 on PDF 424/printed 422 and `<Ctrl-Break>` 0051
+on PDF 425/printed 423. Original contents locators and both openings/endings are
+verified; adjacent book advertising and subscription material remain independent.
+Two mapped pages and three outside lookups stay within 2/6/20 limits. Fifteen
+unused probe renders are not claimed visually reviewed.
+
+The bulletin's 165 files and Ctrl-Break's 105 files match independent and fresh-
+process exports. All 71 exact crops, 61 outcomes, 659 typed ranges, 152 nonempty
+physical rows, ten original figures, two literal/eight null captions and 51 source-
+local candidates validate. Literal captions and source associations remain distinct.
+
+Four disk groups retain nine program/article references and printed 1/1/2/1 disk
+counts. The puzzle reference continues lower-left to upper-right before the separate
+CmcPro reference. Paths and source CMC/slash forms remain literal. The TECH reference
+names 0037 but does not establish its body location. Independent closed announcement,
+purchase instructions, fee/shipping table with four data cells and original publisher
+map/eight labels remain. Historical prices, contacts and directions are unverified.
+
+Ctrl-Break retains its original header/rest invitation, independent handwritten
+love story/local narrative credit, cartoon/literal caption/speech balloon, nine-item
+virus humor/local credit and separate submission solicitation. Opening 2093 and
+closing 2393 stay different. Native handwriting corrects the earlier thumbnail
+observation 1993 in immutable metadata; all earlier evidence remains. Source spelling,
+uncertain handwriting, case variants and literal humor remain without action.
+
+All 61 full drafts were read before one continuing source correction pass: 61 initial
+kor+eng calls, twenty pre-OCR crop events, zero retries and zero within/post-pass
+crop/OCR/saved-text changes. R04 revises observation metadata only; all 61 unchanged
+raw/TSV outcomes retain actual R03 execution pins. Twelve threshold crossings are
+reviewed source roads, frame, balloon outline or dark backgrounds; glyphs remain
+complete and text rectangles disjoint. All original images are retained and reviewed.
+
+Forty-five negative checks reject 43 rehashed semantic faults after generic integrity
+passes with frozen equality disabled, plus two ownership faults. All 45,175 prior
+files, thirty core modules and source/TOC/queue/runtime pins remain exact; the unchanged
+fresh 213-test baseline is retained. Only 0050/0051 advance; other fifty outcomes and
+39 classification files stay unchanged, including unlocated 0037. Full proofreading,
+human acceptance, exact glyphs/spaces/encoded bytes, historical truth and original
+product behavior remain unverified. No present purchase/contact/submission action,
+program recovery, execution or reader rebuild.
+
+Current totals: forty readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and two unresolved identities among 52.
+The 40 current body-owner packages contain 16,087 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 62 locates and verifies bulletin 0050 and `<Ctrl-Break>` 0051.
-Use a bounded twenty-page probe: original contents 4–5, retained adjacent 98–99
-publisher context and end matter 416–431. Reuse existing renders, counting only
-direct visual reviews. These are location probes, not verified extents. Confirm
-titles, openings/endings, adjacent content and continuity before mapping at most
-six eligible pages; segment or defer longer bodies. Preserve independent bulletin
-items, credits, cartoons/captions and uncertain glyphs. Do not substitute unlisted
-notices or infer source-wide absence or missing-page counts from bounded review.
-Canonical identities and other fifty outcomes, including unlocated 0037 and
-subscription 0052, remain unchanged. Two canonical tasks, six mapped pages and
-twenty outside lookups remain ceilings. No reader rebuild.
+Next: Batch 63 verifies and restores subscription notice 0052. Probe original
+contents 5 and PDF 425–428 to verify its actual extent and page portion. Observed
+426 opens subscription material with a lower advertiser index; do not infer a
+continuation or absorb that independent index into subscription prose. Preserve
+terms, forms, tables, contacts and uncertain glyphs; classify the advertiser index
+explicitly without creating a canonical child. Other 51 outcomes, including
+unlocated 0037, remain unchanged. One canonical task, six mapped pages and twenty
+outside lookups remain ceilings. No global folio offset, source-wide absence or
+missing-page count is inferred. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

@@ -5042,23 +5042,165 @@
       "toc_entry_id": "maso-1993-03-toc-0050",
       "title": "게시판",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete bulletin0050 occupies PDF424, individually observed printed422. Its165 files reproduce exactly. Prior423 is independent book advertising;following425 is independent Ctrl-Break0051.",
+        "Four disk groups retain nine program/article references and printed1/1/2/1disk counts. Puzzle reference continues lower-left→upper-right before independent CmcPro reference. Literal paths and CMC/versusbackslash forms remain;TECH reference names0037but does not prove its body location or recovery.",
+        "Forty-five negative cases reject43 rehashed semantic faults after generic integrity passes with frozen equality disabled,plus2ownership faults. All45175 prior files,30 core modules and source/TOC/queue/runtime pins remain exact;unchanged fresh213-test baseline retained.",
+        "Only0050/0051 advance;other50 outcomes,39 classification evidence files and all canonical titles/bylines/parents/references remain unchanged,including unlocated0037 and subscription0052. Fullproofreading,humanacceptance,exactglyphs/spaces/encodedbytes,historical truth and original product behavior remain unverified. No present purchase/contact/submission action,program recovery,execution or reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-62-r01/bulletin",
+        "article_id": "scan-maso-1993-03-toc-0050",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-62-r01/bulletin/manifest.json",
+          "sha256": "764fc447da44899d354430b5878e11c49767e4ab6a9d650cc2c5e05e38494df8",
+          "bytes": 28594
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            424
+          ],
+          "printed_pages": [
+            "422"
+          ],
+          "regions": 43,
+          "blocks": 38,
+          "figures": 5,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 424,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-62/validation-complete.json",
+          "sha256": "93b901983a384390cedb7c9752dc45727ff4a0ee5cb9134b0ae1c2c17e83ab0f",
+          "bytes": 2577
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-62/native-reproduction.json",
+          "sha256": "9dbdc3f29a3778bd081266fa10e4e4198b249507cff54e6b342f8e8aed845924",
+          "bytes": 54143
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-62/bulletin-r04/package-recipe.json",
+          "sha256": "8db574efe4ce4ac9dccfc5c51806176d56b50b01ae95875e1dbcf4eecf3070f2",
+          "bytes": 6540
+        },
+        "checkpoint": "batch-62",
+        "full_source_extent": {
+          "start_pdf_page": 424,
+          "end_pdf_page": 424,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-62/source-review-completed.json",
+            "sha256": "2c187d45d963f339b6cde506e2dc1f74fbca68fb12fee23a2bb285969232ef29",
+            "bytes": 6654
+          },
+          "note": "Complete body with directly verified title,opening/ending and adjacent independent content."
+        },
+        "notes": [
+          "Complete bulletin0050 occupies PDF424, individually observed printed422. Its165 files reproduce exactly. Prior423 is independent book advertising;following425 is independent Ctrl-Break0051.",
+          "Four disk groups retain nine program/article references and printed1/1/2/1disk counts. Puzzle reference continues lower-left→upper-right before independent CmcPro reference. Literal paths and CMC/versusbackslash forms remain;TECH reference names0037but does not prove its body location or recovery.",
+          "Independent closed 마소지기2.0announcement,purchase directions,fee/shipping table with2column headings/2row labels/4data cells and original publisher map/eight labels remain. Table prices are not replaced by prose prices. Literal map caption/phone and rotated labels retain source uncertainty;no current directions or map reconstruction.",
+          "Both complete bodies have independently verified source openings/endings. Original contents locators422/423 supplement canonical null references without rewriting them. Two mapped pages424/425 and three outside lookups5/423/426 satisfy2/6/20 limits. Fifteen unused prepared renders are not claimed visually reviewed.",
+          "All61 full drafts read before one continuing source correction pass.61 initial kor+eng calls,20 pre-OCR crop events,zero retries and zero within/post-pass crop/OCR/saved-text changes. Twelve threshold crossings are directly reviewed road lines,frame,balloon outline or dark backgrounds;complete glyphs retained and final text crops disjoint.",
+          "Native handwriting clarifies opening2093 rather than initial thumbnail1993. Selected R04 maps correct observation metadata only;all61 unchanged raw/TSV outcomes retain actual R03 execution evidence and no recognition is repeated. Earlier observation/maps/settings remain.",
+          "All270 selected files reproduce independently and in a fresh process.71 exact crops,61 outcomes,659 typed ranges,152 nonempty physical rows,10 original figures with2literal/8null captions and51 source-local candidates validate. Literal captions and explicit source associations remain separate.",
+          "Forty-five negative cases reject43 rehashed semantic faults after generic integrity passes with frozen equality disabled,plus2ownership faults. All45175 prior files,30 core modules and source/TOC/queue/runtime pins remain exact;unchanged fresh213-test baseline retained.",
+          "Only0050/0051 advance;other50 outcomes,39 classification evidence files and all canonical titles/bylines/parents/references remain unchanged,including unlocated0037 and subscription0052. Fullproofreading,humanacceptance,exactglyphs/spaces/encodedbytes,historical truth and original product behavior remain unverified. No present purchase/contact/submission action,program recovery,execution or reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0051",
       "title": "<Ctrl-Break>",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete Ctrl-Break0051 occupies PDF425, individually observed printed423. Its105 files reproduce exactly. Previous424 is bulletin;following426 is independent subscription0052/advertiser index outside this body.",
+        "Original hand-lettered header/rest invitation,independent handwritten love story/local narrative credit,cartoon/literal caption/speech balloon,nine-item virus humor/local contributor credit and separate submission solicitation retained. Two story paragraph boundaries preserve physical source fragments. No canonical author or child invented.",
+        "Forty-five negative cases reject43 rehashed semantic faults after generic integrity passes with frozen equality disabled,plus2ownership faults. All45175 prior files,30 core modules and source/TOC/queue/runtime pins remain exact;unchanged fresh213-test baseline retained.",
+        "Only0050/0051 advance;other50 outcomes,39 classification evidence files and all canonical titles/bylines/parents/references remain unchanged,including unlocated0037 and subscription0052. Fullproofreading,humanacceptance,exactglyphs/spaces/encodedbytes,historical truth and original product behavior remain unverified. No present purchase/contact/submission action,program recovery,execution or reader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-62-r01/ctrlbreak",
+        "article_id": "scan-maso-1993-03-toc-0051",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-62-r01/ctrlbreak/manifest.json",
+          "sha256": "302978b353585cb21685b9a125d28a61d22de83b95017f2e74010d3092183850",
+          "bytes": 17935
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            425
+          ],
+          "printed_pages": [
+            "423"
+          ],
+          "regions": 28,
+          "blocks": 23,
+          "figures": 5,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 425,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-62/validation-complete.json",
+          "sha256": "93b901983a384390cedb7c9752dc45727ff4a0ee5cb9134b0ae1c2c17e83ab0f",
+          "bytes": 2577
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-62/native-reproduction.json",
+          "sha256": "9dbdc3f29a3778bd081266fa10e4e4198b249507cff54e6b342f8e8aed845924",
+          "bytes": 54143
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-62/ctrlbreak-r04/package-recipe.json",
+          "sha256": "15a8c8f359c8e8e015d1724b3096ee2e94cda24392900f83915601302177a8ef",
+          "bytes": 5041
+        },
+        "checkpoint": "batch-62",
+        "full_source_extent": {
+          "start_pdf_page": 425,
+          "end_pdf_page": 425,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-62/source-review-completed.json",
+            "sha256": "2c187d45d963f339b6cde506e2dc1f74fbca68fb12fee23a2bb285969232ef29",
+            "bytes": 6654
+          },
+          "note": "Complete body with directly verified title,opening/ending and adjacent independent content."
+        },
+        "notes": [
+          "Complete Ctrl-Break0051 occupies PDF425, individually observed printed423. Its105 files reproduce exactly. Previous424 is bulletin;following426 is independent subscription0052/advertiser index outside this body.",
+          "Original hand-lettered header/rest invitation,independent handwritten love story/local narrative credit,cartoon/literal caption/speech balloon,nine-item virus humor/local contributor credit and separate submission solicitation retained. Two story paragraph boundaries preserve physical source fragments. No canonical author or child invented.",
+          "Opening2093 and closing2393 remain different;handwriting,퇴자/찬밥/colloquial dialogue/sound-effect vowels and local credit 이바구가remain source-local candidates. Humor100000볼트/꺼 and source Ctrl-Break/case variants remain literal. No joke action or submission performed.",
+          "Both complete bodies have independently verified source openings/endings. Original contents locators422/423 supplement canonical null references without rewriting them. Two mapped pages424/425 and three outside lookups5/423/426 satisfy2/6/20 limits. Fifteen unused prepared renders are not claimed visually reviewed.",
+          "All61 full drafts read before one continuing source correction pass.61 initial kor+eng calls,20 pre-OCR crop events,zero retries and zero within/post-pass crop/OCR/saved-text changes. Twelve threshold crossings are directly reviewed road lines,frame,balloon outline or dark backgrounds;complete glyphs retained and final text crops disjoint.",
+          "Native handwriting clarifies opening2093 rather than initial thumbnail1993. Selected R04 maps correct observation metadata only;all61 unchanged raw/TSV outcomes retain actual R03 execution evidence and no recognition is repeated. Earlier observation/maps/settings remain.",
+          "All270 selected files reproduce independently and in a fresh process.71 exact crops,61 outcomes,659 typed ranges,152 nonempty physical rows,10 original figures with2literal/8null captions and51 source-local candidates validate. Literal captions and explicit source associations remain separate.",
+          "Forty-five negative cases reject43 rehashed semantic faults after generic integrity passes with frozen equality disabled,plus2ownership faults. All45175 prior files,30 core modules and source/TOC/queue/runtime pins remain exact;unchanged fresh213-test baseline retained.",
+          "Only0050/0051 advance;other50 outcomes,39 classification evidence files and all canonical titles/bylines/parents/references remain unchanged,including unlocated0037 and subscription0052. Fullproofreading,humanacceptance,exactglyphs/spaces/encodedbytes,historical truth and original product behavior remain unverified. No present purchase/contact/submission action,program recovery,execution or reader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0052",
@@ -7617,15 +7759,60 @@
         "sha256": "93422b22cb253d5a185d5b24ea386d266f49016908876a982f94350e8a4d846c",
         "bytes": 55819
       }
+    },
+    {
+      "name": "1993-03-batch-62",
+      "status": "complete",
+      "completed_at": "2026-11-03T01:40:56.091476+00:00",
+      "goal": "Restore complete bulletin0050 and Ctrl-Break0051.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0050",
+        "maso-1993-03-toc-0051"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        424,
+        425
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        423,
+        426
+      ],
+      "recognition_invocations": 61,
+      "initial_recognitions": 61,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 61,
+      "changed_input_recognitions": 0,
+      "selected_unchanged_outcomes_reused": 61,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 20,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "observation_metadata_revisions": 1,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-62/validation-complete.json",
+        "sha256": "93b901983a384390cedb7c9752dc45727ff4a0ee5cb9134b0ae1c2c17e83ab0f",
+        "bytes": 2577
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-62/native-reproduction.json",
+        "sha256": "9dbdc3f29a3778bd081266fa10e4e4198b249507cff54e6b342f8e8aed845924",
+        "bytes": 54143
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 38,
+    "readable": 40,
     "partial": 0,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 4
+    "unresolved": 2
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -7633,41 +7820,25 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-62",
-    "goal": "Locate and verify bulletin0050 and Ctrl-Break0051; restore only confirmed eligible bodies within bounded limits.",
+    "name": "1993-03-batch-63",
+    "goal": "Verify and restore subscription notice0052, preserving its actual page portion and independent advertiser index.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0050",
-      "maso-1993-03-toc-0051"
+      "maso-1993-03-toc-0052"
     ],
     "mapping_targets": [],
     "planned_outside_lookup_pdf_pages": [
-      4,
       5,
-      98,
-      99,
-      416,
-      417,
-      418,
-      419,
-      420,
-      421,
-      422,
-      423,
-      424,
       425,
       426,
       427,
-      428,
-      429,
-      430,
-      431
+      428
     ],
     "limits": {
-      "canonical_tasks": 2,
+      "canonical_tasks": 1,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Review original contents and bounded publisher/end-matter probes. Reuse existing renders but count only direct visual reviews; do not claim unused Batch61 renders reviewed. These are location probes,not inferred extents. Verify actual titles,openings/endings,adjacent content and continuity before mapping at most six pages. Retain independent bulletin items,credits,cartoons/captions and source uncertainty. No global folio offset,nearby unlisted substitution,source-wide absence or missing-page count inferred. Other50 outcomes,including unlocated0037 and subscription0052,unchanged. No reader rebuild."
+    "note": "Observed426 opens subscription notice0052 with a lower advertiser index. Treat5/425–428as bounded extent probes,not a verified body. Confirm own title,opening/ending,actual page portion and any continuation before mapping. Preserve terms,forms,tables,contacts and uncertain glyphs without current purchase/contact action. Classify the independent lower advertiser index explicitly;do not absorb it into subscription prose or create a canonical child. Other51 outcomes,including unlocated0037,unchanged. No global folio offset,source-wide absence or missing-page count inferred. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
