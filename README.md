@@ -15,10 +15,10 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 March 1993 restoration is active: forty-one readable/sample-reviewed articles,
 no partials, seven non-owning groups, three final section references and one unresolved
-identity among 52. All 433 physical page slots are represented: 342 have evidenced
-primary classifications and 91 remain pending. The 41 body-owner packages contain
+identity among 52. All 433 physical page slots are represented: 362 have evidenced
+primary classifications and 71 remain pending. The 41 body-owner packages contain
 16,429 files; four accounting files reproduce independently and in a fresh process.
-Next: review physical pages 21–40 and continue locating the string-replacement
+Next: review physical pages 41–60 and continue locating the string-replacement
 article. Complete mixed-page accounting, cover, standalone collection and issue
 closeout remain pending. No reader rebuild. See [March progress](docs/progress/9303.md).
 
