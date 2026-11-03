@@ -14,13 +14,14 @@ code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 March 1993 restoration is active: forty-one readable/sample-reviewed articles,
-no partials, seven non-owning groups, three final section references and one unresolved
-identity among 52. All 433 physical pages and all 25 original exclusions on 23 mixed
-pages are source-accounted. The 41 body-owner packages contain 16,429 files; four
-accounting files reproduce independently and in a fresh process. Next: final eligibility
-or source-gap assessment for the string-replacement article and cover verification.
-Standalone collection/index/report/reproduction and issue closeout remain pending.
-No reader rebuild. See [March progress](docs/progress/9303.md).
+no partials, seven non-owning groups, three section references and one unlocated body
+among 52 identities. All 433 physical pages and all 25 original exclusions on 23 mixed
+pages are source-accounted. The string-replacement article has a final current-PDF
+gap outcome; its eligibility is established while body availability remains unresolved.
+The donated March 1993 cover is verified and independently reproducible. The 41 article
+packages retain 16,429 files. Next: standalone JSON/assets collection, issue index/report,
+independent rebuild and closeout. No reader rebuild.
+See [March progress](docs/progress/9303.md).
 
 December 1992 is complete as a canonical TOC JSON/assets restoration pass with explicit
 gaps: thirty readable/sample-reviewed articles, two partials, seven groups, three section

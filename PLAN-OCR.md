@@ -2027,14 +2027,45 @@ All 52 canonical outcomes, 41 owners/16,429 files and 39 classification evidence
 are unchanged. No mapping, OCR or source correction occurred. Review elapsed wall
 time includes interruptions and is not active labor. Full issue goal remains active.
 
-Next: Batch 71 audits the issue-wide source evidence and rechecks 0037's TECH
-neighborhood and references before a final eligibility or source-gap disposition.
-Directly review PDF 1, 5, 384–397, 424, 432 and 433: nineteen physical pages within
-the twenty-page outside limit. Require the actual title/opening/ending before assigning
-a body; preserve identity and leave missing-page count unknown if unsupported.
-Verify the complete front cover on 1, back advertisement on 432 and partial cover-wrap
-on 433 separately. Standalone collection/index/report/reproduction and issue closeout
-remain required. No reader rebuild.
+Batch 71 finalizes the supplied-PDF outcome for 0037, 문자열 교체를 간편하게.
+It is an eligible canonical TOC leaf, referenced in contents 5 with credit 김범석
+and in bulletin 424 as TECH source/executable files on diskette 1. Its printed body
+remains unlocated. Availability and classification remain unresolved; the eligibility
+assessment and current-PDF search disposition are final. No title/credit substitute,
+original print omission, source-wide absolute absence, missing-page count or recovered
+diskette/program bytes are claimed. New identifying source evidence can reopen the gap.
+
+Historical source audits 64–70 pass again, including every one of the 433 source and
+classification bindings and all 25 original exclusions on 23 mixed pages. Nineteen
+direct source views recheck covers, references and the TECH neighborhood. The distinct
+HWP2.0 article on 384–389 is credited 곽동수; other restored TECH contributions retain
+their own owners. The upper DOS-shell tip on 395 is credited 정명식, and its separate
+system-status box has no observed byline. None establishes the canonical 0037 body.
+All 433 primary rows and all article maps and package bytes remain unchanged.
+
+The donated covers/9303.jpg is verified as the complete upright March 1993 front
+cover, with visible date block 3/1993 and original wear retained. Its 466 by 640
+thumbnail is visually checked; the three-file cover/provenance package reproduces
+independently and in a fresh process. PDF 1 also shows the complete front composition;
+432 is the back advertisement, and narrow wrap scan 433 is clipped at its original
+right edge. Donated-source priority is retained; no unseen cover is reconstructed
+and no source cover or global derivative is modified.
+
+The four-file final outcome/evidence/page-ledger package also matches independent
+and fresh-process exports. Twenty-eight consistently rehashed semantic faults are
+rejected. All 45,787 preserved files, thirty core modules and source/TOC/queue/runtime
+pins remain exact. All 41 owners/16,429 files and canonical identities remain. Totals
+are 41 readable, no partials, seven groups, three section references and one unlocated
+body among 52 identities. The 39 prior classification files remain, with two final
+evidence files added. No mapping, OCR or source correction occurred. Full goal active.
+
+Next: Batch 72 builds the portable standalone March 1993 JSON/assets issue
+collection and index, independently reproduces it and rebuilds it in a fresh process.
+Validate all 52 canonical outcomes, 41 article packages, correction/source evidence,
+non-owning references, final 0037 gap, all-page/mixed accounting and the donated cover.
+Deliver the issue report and reproduction/handoff records, run focused regressions,
+and audit every closeout requirement before declaring completion. No new source search
+or OCR is preassigned. No reader rebuild.
 
 Full issue goal active. See [March progress](docs/progress/9303.md).
 

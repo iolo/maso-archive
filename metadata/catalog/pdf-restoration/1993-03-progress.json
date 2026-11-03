@@ -3958,7 +3958,17 @@
       "body_owner": null,
       "availability": "unresolved",
       "verification": "unreviewed",
-      "classification_evidence": [],
+      "classification_evidence": [
+        {
+          "context": {
+            "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/final-gap-dispositions.json",
+            "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+            "bytes": 4342
+          },
+          "pointer": "/targets/0",
+          "scope": "Final eligible canonical leaf with unlocated body in suppliedPDF pass;availability/classification remain unresolved."
+        }
+      ],
       "restoration": null,
       "bounded_location_review": {
         "checkpoint": "batch-52",
@@ -3994,6 +4004,29 @@
         "source_wide_absence_claimed": false,
         "missing_page_count": null,
         "restored_body_created": false
+      },
+      "final_source_gap": {
+        "status": "final-for-current-pdf-pass",
+        "checkpoint": "batch-71",
+        "disposition": {
+          "context": {
+            "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/final-gap-dispositions.json",
+            "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+            "bytes": 4342
+          },
+          "pointer": "/targets/0"
+        },
+        "eligibility": "eligible-canonical-toc-leaf",
+        "final_eligibility_decision": true,
+        "body_location": "unlocated",
+        "source_wide_absence_verified": false,
+        "missing_page_count": null,
+        "body_created": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+          "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+          "bytes": 3067
+        }
       }
     },
     {
@@ -8799,6 +8832,151 @@
         "sha256": "99a36b73112f9cb5a6e1fb41d0131a619c78556af35348c2f3e4e542367ea76d",
         "bytes": 783
       }
+    },
+    {
+      "name": "1993-03-batch-71",
+      "status": "complete",
+      "completed_at": "2026-11-03T04:38:53.754742+00:00",
+      "goal": "Finalize current-PDF0037eligibility/source-gap outcome and verify donated cover.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0037"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 19,
+      "outside_lookup_pdf_pages": [
+        1,
+        5,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        424,
+        432,
+        433
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_bodies_advanced": 0,
+      "final_gap_tasks": 1,
+      "pending_gap_tasks": 0,
+      "cover_files": 3,
+      "outcome_files": 4,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+        "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+        "bytes": 3067
+      },
+      "source_audit": {
+        "path": "archive/pdf/1993-03/restoration/batch-71/source-audit.json",
+        "sha256": "c9af73e27aa9e17d3e17e69e0d648c7917e4e9640ab2c4c3fbfd2455284067f9",
+        "bytes": 756
+      },
+      "issue_evidence_audit": {
+        "path": "archive/pdf/1993-03/restoration/batch-71/issue-evidence-audit.json",
+        "sha256": "4e1ae2b3126ab5793fe779feb4bbb6a3e226086e763f5a38eccd38ba02ed045b",
+        "bytes": 336796
+      },
+      "gap_dispositions": {
+        "status": "final-for-current-pdf-pass",
+        "checkpoint": "batch-71",
+        "dispositions": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/final-gap-dispositions.json",
+          "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+          "bytes": 4342
+        },
+        "location_evidence_index": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/evidence-index.json",
+          "sha256": "4e1ae2b3126ab5793fe779feb4bbb6a3e226086e763f5a38eccd38ba02ed045b",
+          "bytes": 336796
+        },
+        "current_page_ledger": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/page-ledger.json",
+          "sha256": "54130932039d69cf0ab11e1b9e1b78e631f40a768910060fb22efaaa6be99ef2",
+          "bytes": 1150450
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+          "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+          "bytes": 3067
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/outcome-reproduction.json",
+          "sha256": "1ec793731556b0433de64261bd3266a76f696b6c2fd7806dd9953016b4baa0d6",
+          "bytes": 1268
+        },
+        "finalized_toc_entry_ids": [
+          "maso-1993-03-toc-0037"
+        ],
+        "pending_toc_entry_ids": [],
+        "all_issue_gap_dispositions_final": true,
+        "eligibility_decisions_complete": true,
+        "unlocated_body_outcomes": 1,
+        "complete_original_article_recovery_verified": false,
+        "source_wide_absence_verified": false,
+        "missing_page_count": null,
+        "note": "0037is an eligible canonical TOC leaf referenced in contents5and bulletin424,but its body remains unlocated after full source accounting and direct TECH recheck. Canonical identity and unresolved availability remain;no substitute,print omission,missing count or recovered diskette/programbytes claimed."
+      },
+      "cover": {
+        "status": "verified",
+        "checkpoint": "batch-71",
+        "source_kind": "donated",
+        "directory": "archive/pdf/1993-03/restoration/batch-71/cover-r01",
+        "metadata": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/cover-r01/cover.json",
+          "sha256": "32be5444a39b82f7e217ab7b9e7dc430bff679601bde45d717392c7a576bd391",
+          "bytes": 3446
+        },
+        "manifest": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/cover-r01/manifest.json",
+          "sha256": "3e900d5540125241cb5d28152e3fd53d892254a94dec5e18e2142d5df5bdfdcf",
+          "bytes": 625
+        },
+        "thumbnail": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/cover-r01/cover.jpg",
+          "sha256": "cd8acbb2265f81d0f5ff2569eeceb743ead3d1f9ea8d67be26d301557e91ba31",
+          "bytes": 64140
+        },
+        "original": {
+          "path": "covers/9303.jpg",
+          "sha256": "cd810246c825e73107158150c11b2c6af094ae7577647044bc5bdb4f465f6475",
+          "bytes": 8338127
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/reproduction.json",
+          "sha256": "79d777fe1930bef864a8749073794ef2242b0638e3405ddeee424874b88a3724",
+          "bytes": 1041
+        },
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+          "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+          "bytes": 3067
+        },
+        "source_assets_modified": false,
+        "global_derivatives_modified": false
+      },
+      "negative_checks": {
+        "path": "archive/pdf/1993-03/restoration/batch-71/negative-checks.json",
+        "sha256": "32e492ad807fbff6e7324fac4deb5f764748d717e03cea890329a811b39a46eb",
+        "bytes": 5884
+      },
+      "timings": {
+        "path": "archive/pdf/1993-03/restoration/batch-71/prospective-timings.json",
+        "sha256": "765723dd548129689d097bd261173685c634b59bca06dc0416c63e42a992681d",
+        "bytes": 695
+      }
     }
   ],
   "totals": {
@@ -8815,39 +8993,17 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-71",
-    "goal": "Audit issue-wide accounting evidence and directly recheck TECH neighborhood/reference pages for final0037 eligibility or source-gap disposition; verify a usable source cover and retain the clipped wrap separately.",
-    "toc_entry_ids": [
-      "maso-1993-03-toc-0037"
-    ],
+    "name": "1993-03-batch-72",
+    "goal": "Build and independently/fresh-process reproduce the portable standalone March1993JSON/assets issue collection,validate all52canonical outcomes,cover,ownership,corrections,source/gap accounting and required evidence,and complete issue closeout.",
+    "toc_entry_ids": [],
     "mapping_targets": [],
-    "planned_outside_lookup_pdf_pages": [
-      1,
-      5,
-      384,
-      385,
-      386,
-      387,
-      388,
-      389,
-      390,
-      391,
-      392,
-      393,
-      394,
-      395,
-      396,
-      397,
-      424,
-      432,
-      433
-    ],
+    "planned_outside_lookup_pdf_pages": [],
     "limits": {
-      "canonical_tasks": 1,
+      "canonical_tasks": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Nineteen physical source pages. All433 primary classes and25 original exclusions are accounted, but this alone is not a final target-absence claim. Audit original evidence bindings issue-wide, archived0037 search and title/credit mismatches; directly recheck source neighborhood and references. Require actual title/opening/ending before assigning a body. Otherwise make an evidence-backed final source-gap disposition without inventing missing-page counts or replacing the canonical identity with unlisted material. Verify full front cover1,back advertisement432 and partial cover-wrap433 separately. No unseen cover reconstruction. Standalone collection/index/report/reproduction and closeout remain required;no reader rebuild."
+    "note": "No new source search orOCRpreassigned. Use41readable owners/16429files,7non-owning groups,3section references,one final eligible-but-unlocated0037outcome,all433page/25exclusion accounting,41required classification evidence files and verified3filedonated-cover package. Preserve original packages,natives,raws,corrections,review evidence,cover and source pins. Run focused regressions and requirement-by-requirement completion audit. Do not mark complete before standalone index/report/rebuild/handoff are verified. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {
@@ -9044,41 +9200,51 @@
       "path": "archive/pdf/1993-03/classifications/batch-53-r01/software-opening.png",
       "sha256": "87de43a8a6ef15877c16413784f27b75662f162ce76d9fb5a687c83fbaf94a80",
       "bytes": 4212888
+    },
+    {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/final-gap-dispositions.json",
+      "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+      "bytes": 4342
+    },
+    {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/evidence-index.json",
+      "sha256": "4e1ae2b3126ab5793fe779feb4bbb6a3e226086e763f5a38eccd38ba02ed045b",
+      "bytes": 336796
     }
   ],
   "source_page_accounting": {
-    "status": "complete-primary-and-mixed-accounting",
-    "checkpoint": "batch-70",
-    "directory": "archive/pdf/1993-03/restoration/batch-70/accounting-r01",
+    "status": "final-material-ownership-and-gap-accounting",
+    "checkpoint": "batch-71",
+    "directory": "archive/pdf/1993-03/restoration/batch-71/outcome-r01",
     "page_ledger": {
-      "path": "archive/pdf/1993-03/restoration/batch-70/accounting-r01/page-ledger.json",
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/page-ledger.json",
       "sha256": "54130932039d69cf0ab11e1b9e1b78e631f40a768910060fb22efaaa6be99ef2",
       "bytes": 1150450
     },
     "manifest": {
-      "path": "archive/pdf/1993-03/restoration/batch-70/accounting-r01/manifest.json",
-      "sha256": "39303b1e13226dc0c96515841b8b2ca06b3a6a23cc8ab689e2afb939e5b322f2",
-      "bytes": 804
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/manifest.json",
+      "sha256": "18f4aa04426b27c7a000680a43b6661908341cced149fa8d4b7a4166e81d8a8f",
+      "bytes": 816
     },
     "recipe": {
-      "path": "archive/pdf/1993-03/restoration/batch-70/accounting-recipe.json",
-      "sha256": "939e9c9e6c1f61ef1d6e2145111aae742dc550a4fd6fcab85a584dc683c24bb1",
-      "bytes": 2259
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-recipe.json",
+      "sha256": "ec4b31347640f293ce5b70f69deec3312bc3157ffe0026456d42e76b6debd1f8",
+      "bytes": 1619
     },
     "reproduction": {
-      "path": "archive/pdf/1993-03/restoration/batch-70/reproduction.json",
-      "sha256": "db017e0c3cfcf84e78d9e70bb4ebeb8e8cca4fcabebe87dadc44cae03fa55c58",
-      "bytes": 1195
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-reproduction.json",
+      "sha256": "1ec793731556b0433de64261bd3266a76f696b6c2fd7806dd9953016b4baa0d6",
+      "bytes": 1268
     },
     "source_audit": {
-      "path": "archive/pdf/1993-03/restoration/batch-70/source-audit.json",
-      "sha256": "d28fad187ba1bfaee5ec6105b6dae115995b9c14cc45748be924644c8fc73ae0",
-      "bytes": 1351
+      "path": "archive/pdf/1993-03/restoration/batch-71/source-audit.json",
+      "sha256": "c9af73e27aa9e17d3e17e69e0d648c7917e4e9640ab2c4c3fbfd2455284067f9",
+      "bytes": 756
     },
     "validation": {
-      "path": "archive/pdf/1993-03/restoration/batch-70/validation.json",
-      "sha256": "a33e479ca09823e650ec707c34672eab9e557a472eb496eaa9989083fe303d1c",
-      "bytes": 2843
+      "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+      "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+      "bytes": 3067
     },
     "physical_page_slots": 433,
     "primary_classified": 433,
@@ -9127,6 +9293,100 @@
     "explicit_review_render_bridges": 150,
     "page_accounting_complete": true,
     "source_wide_absence_asserted": false,
-    "note": "All433 primary classes and all25 original map-local exclusions on23 mixed pages are source-accounted. Fourteen remaining mixed pages/sixteen records reviewed with full-page context and exact orientation-aware crops. Overlapping394 contexts refer to separately restored0035/0038 bodies, not duplicate ownership or advertisements. Independent395 Windows tips differ from0037;DOS-shell tip credited 정명식,system-status box uncredited. Contents5 names0037/김범석;bulletin424 references TECH source/executable files without proving a printed body location. No0037 body assigned and no source-wide absence or missing-page count asserted. All52 canonical outcomes,41 owners/16429files,39 classification files and433 primary classes unchanged. Final0037 eligibility,cover,standalone collection/index/report/reproduction and closeout remain required."
+    "note": "All433primary rows and25original exclusion records unchanged fromBatch70. Historical source audits64–70revalidated with433source/classification bindings;19direct source views recheckTECHneighborhood,locators and cover candidates. One final current-PDF gap outcome:0037eligible but bodyunlocated. No source-wide absolute absence,original omission or missing-page count proved. Verified donated cover selected separately. Standalone collection/index/report/reproduction and closeout remain pending.",
+    "prior_page_ledger": {
+      "path": "archive/pdf/1993-03/restoration/batch-70/accounting-r01/page-ledger.json",
+      "sha256": "54130932039d69cf0ab11e1b9e1b78e631f40a768910060fb22efaaa6be99ef2",
+      "bytes": 1150450
+    },
+    "issue_evidence_audit": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/issue-evidence-audit.json",
+      "sha256": "4e1ae2b3126ab5793fe779feb4bbb6a3e226086e763f5a38eccd38ba02ed045b",
+      "bytes": 336796
+    },
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/final-gap-dispositions.json",
+      "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+      "bytes": 4342
+    },
+    "final_eligibility_assessment_complete": true
+  },
+  "coverage_gap_dispositions": {
+    "status": "final-for-current-pdf-pass",
+    "checkpoint": "batch-71",
+    "dispositions": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/final-gap-dispositions.json",
+      "sha256": "7f6246b707fe0dcfc9915a62301772d0a3b0f8c1bc812685233c63755f4eb633",
+      "bytes": 4342
+    },
+    "location_evidence_index": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/evidence-index.json",
+      "sha256": "4e1ae2b3126ab5793fe779feb4bbb6a3e226086e763f5a38eccd38ba02ed045b",
+      "bytes": 336796
+    },
+    "current_page_ledger": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-r01/page-ledger.json",
+      "sha256": "54130932039d69cf0ab11e1b9e1b78e631f40a768910060fb22efaaa6be99ef2",
+      "bytes": 1150450
+    },
+    "validation": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+      "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+      "bytes": 3067
+    },
+    "reproduction": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/outcome-reproduction.json",
+      "sha256": "1ec793731556b0433de64261bd3266a76f696b6c2fd7806dd9953016b4baa0d6",
+      "bytes": 1268
+    },
+    "finalized_toc_entry_ids": [
+      "maso-1993-03-toc-0037"
+    ],
+    "pending_toc_entry_ids": [],
+    "all_issue_gap_dispositions_final": true,
+    "eligibility_decisions_complete": true,
+    "unlocated_body_outcomes": 1,
+    "complete_original_article_recovery_verified": false,
+    "source_wide_absence_verified": false,
+    "missing_page_count": null,
+    "note": "0037is an eligible canonical TOC leaf referenced in contents5and bulletin424,but its body remains unlocated after full source accounting and direct TECH recheck. Canonical identity and unresolved availability remain;no substitute,print omission,missing count or recovered diskette/programbytes claimed."
+  },
+  "cover": {
+    "status": "verified",
+    "checkpoint": "batch-71",
+    "source_kind": "donated",
+    "directory": "archive/pdf/1993-03/restoration/batch-71/cover-r01",
+    "metadata": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/cover-r01/cover.json",
+      "sha256": "32be5444a39b82f7e217ab7b9e7dc430bff679601bde45d717392c7a576bd391",
+      "bytes": 3446
+    },
+    "manifest": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/cover-r01/manifest.json",
+      "sha256": "3e900d5540125241cb5d28152e3fd53d892254a94dec5e18e2142d5df5bdfdcf",
+      "bytes": 625
+    },
+    "thumbnail": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/cover-r01/cover.jpg",
+      "sha256": "cd8acbb2265f81d0f5ff2569eeceb743ead3d1f9ea8d67be26d301557e91ba31",
+      "bytes": 64140
+    },
+    "original": {
+      "path": "covers/9303.jpg",
+      "sha256": "cd810246c825e73107158150c11b2c6af094ae7577647044bc5bdb4f465f6475",
+      "bytes": 8338127
+    },
+    "reproduction": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/reproduction.json",
+      "sha256": "79d777fe1930bef864a8749073794ef2242b0638e3405ddeee424874b88a3724",
+      "bytes": 1041
+    },
+    "validation": {
+      "path": "archive/pdf/1993-03/restoration/batch-71/validation.json",
+      "sha256": "84fa11c90a58afadb81c679329d3cfa3da2f838ebb98a92e310a1ecca172f7bd",
+      "bytes": 3067
+    },
+    "source_assets_modified": false,
+    "global_derivatives_modified": false
   }
 }
