@@ -4703,12 +4703,87 @@
       "toc_entry_id": "maso-1993-03-toc-0046",
       "title": "이 달엔 얼맙니까?",
       "parent_id": "maso-1993-03-toc-0041",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete price rubric 0046 occupies PDF130–131, individually observed printed128–129. Its452JSON/assets files match independent andfresh-process exports. All114exact crops,110outcomes,1026typed ranges,159physical nonempty rows,four original figures and38source-local candidates validate. Following132opens independent reader quiz0047;outside129/132–135excluded.",
+        "Eight separate price groups preserve16product rows andone multi-I/O qualifier. Product names,units,prices,ranges,plus/minus marks andsource claims retain exact source occurrences. No current-price lookup,arithmetic conversion,inferred interval orhardware behavior verification.",
+        "Three original charts preserve15bars,37distinct printed value labels,25axis ticks,eight trend series and23point associations across22distinct trend labels. One October(3.5) source occurrence is explicitly shared bymemory andkeyboard series. No duplicated crop/text ormissingMay486point is invented. Allfour figures have null captions;chart headings remain separate source associations.",
+        "All43960prior files,30core modules andsource/TOC/queue/runtime pins exact;unchanged fresh213-test baseline retained. Only0046advances;allother51canonical outcomes and39classification files unchanged,including unresolved0037 andquiz0047. Canonical title,nullbyline/reference andparent0041 unchanged.",
+        "Full proofreading,human acceptance,exactglyphs/spaces/encoded bytes,historical/technical truth andoriginalhardware/software behavior remain unverified. No current-price recommendation,program recovery,execution orreader rebuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1993-03/packages/batch-59-r01/price",
+        "article_id": "scan-maso-1993-03-toc-0046",
+        "manifest": {
+          "path": "archive/pdf/1993-03/packages/batch-59-r01/price/manifest.json",
+          "sha256": "d820ad8dc8eba7118695188dfb598d1a86dda52220d9f2b459fb427a2d14630a",
+          "bytes": 80920
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "coverage": {
+          "pdf_pages": [
+            130,
+            131
+          ],
+          "printed_pages": [
+            "128",
+            "129"
+          ],
+          "regions": 114,
+          "blocks": 110,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "remaining_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 131,
+        "endpoint_observation_only": false,
+        "validation": {
+          "path": "archive/pdf/1993-03/restoration/batch-59/validation-complete.json",
+          "sha256": "2d9484029ee72433835996da041ac2139be378ad39c94e746b863c9bedd9b257",
+          "bytes": 2224
+        },
+        "reproduction": {
+          "path": "archive/pdf/1993-03/restoration/batch-59/native-reproduction.json",
+          "sha256": "4ce06e52e5d2aa6ead4144c8f61653f58e59d42329c951833b4bd8fa80afee66",
+          "bytes": 91171
+        },
+        "recipe": {
+          "path": "archive/pdf/1993-03/restoration/batch-59/price-r03/package-recipe.json",
+          "sha256": "6fd046207622de8765bcc87bf8fb33132afa28fb75db04f2ae6a83f70565c19d",
+          "bytes": 14687
+        },
+        "checkpoint": "batch-59",
+        "full_source_extent": {
+          "start_pdf_page": 130,
+          "end_pdf_page": 131,
+          "uninspected_interior_pdf_pages": [],
+          "source_observations": {
+            "path": "archive/pdf/1993-03/restoration/batch-59/source-review-completed.json",
+            "sha256": "3f60adb700b7dad8c630d511407bffca4a90bffbe027e68ffed616d970d8853c",
+            "bytes": 5113
+          },
+          "note": "Complete independent price rubric ending atchart page131 before quiz132."
+        },
+        "notes": [
+          "Complete price rubric 0046 occupies PDF130–131, individually observed printed128–129. Its452JSON/assets files match independent andfresh-process exports. All114exact crops,110outcomes,1026typed ranges,159physical nonempty rows,four original figures and38source-local candidates validate. Following132opens independent reader quiz0047;outside129/132–135excluded.",
+          "Eight separate price groups preserve16product rows andone multi-I/O qualifier. Product names,units,prices,ranges,plus/minus marks andsource claims retain exact source occurrences. No current-price lookup,arithmetic conversion,inferred interval orhardware behavior verification.",
+          "Three original charts preserve15bars,37distinct printed value labels,25axis ticks,eight trend series and23point associations across22distinct trend labels. One October(3.5) source occurrence is explicitly shared bymemory andkeyboard series. No duplicated crop/text ormissingMay486point is invented. Allfour figures have null captions;chart headings remain separate source associations.",
+          "Source chronology92년2월현재 remains despite1993issue. Prose andcomponent chart387DX differ fromprice note80387DX;mainboard bar486DX50MHz differs fromnote486DX2. No harmonization,corrected date,bar-height inference,interpolation,scale reconstruction orunprinted units. Broken axis andseries paths remain original-image dependent.",
+          "All110full raw drafts read before one continuing correction pass,including an empty axis-digit result.110initial kor+eng calls,34pre-OCR crop events,zero retries andzero within/post-pass map/OCR/saved-text changes. Pale glyphs andadjacent category/legend clipping repaired before recognition;five neighboring category labels share one physical source-row crop withseparate text occurrences. Final text crops disjoint.",
+          "Allseven source pages129–135 directly reviewed:two mapped andfive outside. Twenty threshold130crossings are directly reviewed nontext colored bar-fill/shadow ortick-rule fragments. Fourteen opening text crops,allchart text crops andallfour original figures directly reviewed in color. Threshold diagnostics are supplementary.",
+          "Two immutable extent-only notes are clarified externally:preliminary23trend/38total counts double-counted the sharedOctoberlabel;correct distinctcounts22/37. An extent description incorrectly grouped prose with80387DX;source prose reads387DX. Original observations remain frozen,no saved source reading changed.",
+          "36negative checks reject34rehashed semantic faults after generic integrity passes withfrozen equality disabled,plus2canonical ownership faults. One test-helper run stopped atmissing qualifier withTypeError;an explicit range-object shape assertion now rejects it. Failed helper,mutation andfailure record retained;no source/OCR/package change.",
+          "All43960prior files,30core modules andsource/TOC/queue/runtime pins exact;unchanged fresh213-test baseline retained. Only0046advances;allother51canonical outcomes and39classification files unchanged,including unresolved0037 andquiz0047. Canonical title,nullbyline/reference andparent0041 unchanged.",
+          "Full proofreading,human acceptance,exactglyphs/spaces/encoded bytes,historical/technical truth andoriginalhardware/software behavior remain unverified. No current-price recommendation,program recovery,execution orreader rebuild."
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1993-03-toc-0047",
@@ -7187,15 +7262,58 @@
         "sha256": "1d8e92b165668e9dcf1d422ec95dc19a03a739643e52d30377225439a44f5d85",
         "bytes": 82744
       }
+    },
+    {
+      "name": "1993-03-batch-59",
+      "status": "complete",
+      "completed_at": "2026-11-03T00:14:48.326561+00:00",
+      "goal": "Restore complete price rubric0046 on130–131.",
+      "toc_entry_ids": [
+        "maso-1993-03-toc-0046"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        130,
+        131
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        129,
+        132,
+        133,
+        134,
+        135
+      ],
+      "recognition_invocations": 110,
+      "initial_recognitions": 110,
+      "eng_recognitions": 0,
+      "kor_eng_recognitions": 110,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "pre_ocr_crop_events": 34,
+      "within_pass_saved_text_refinements": 0,
+      "within_pass_crop_or_ocr_changes": 0,
+      "post_pass_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1993-03/restoration/batch-59/validation-complete.json",
+        "sha256": "2d9484029ee72433835996da041ac2139be378ad39c94e746b863c9bedd9b257",
+        "bytes": 2224
+      },
+      "reproduction": {
+        "path": "archive/pdf/1993-03/restoration/batch-59/native-reproduction.json",
+        "sha256": "4ce06e52e5d2aa6ead4144c8f61653f58e59d42329c951833b4bd8fa80afee66",
+        "bytes": 91171
+      }
     }
   ],
   "totals": {
     "canonical_entries": 52,
-    "readable": 34,
+    "readable": 35,
     "partial": 0,
     "group_headings": 7,
     "section_references": 3,
-    "unresolved": 8
+    "unresolved": 7
   },
   "notes": [
     "Canonical identities, titles, order and parents remain unchanged.",
@@ -7203,20 +7321,17 @@
     "Mapped Tesseract default; data-only restoration. Human acceptance/full proofreading remain pending."
   ],
   "next_checkpoint": {
-    "name": "1993-03-batch-59",
-    "goal": "Verify andrestore price rubric0046 fromobserved130 opener within six-page ceiling.",
+    "name": "1993-03-batch-60",
+    "goal": "Verify andrestore reader quiz0047 onobserved132–133 within bounded source scope.",
     "toc_entry_ids": [
-      "maso-1993-03-toc-0046"
+      "maso-1993-03-toc-0047"
     ],
-    "mapping_targets": [],
-    "provisional_mapping_targets": [
-      130,
-      131,
+    "mapping_targets": [
       132,
       133
     ],
     "planned_outside_lookup_pdf_pages": [
-      129,
+      131,
       134,
       135
     ],
@@ -7225,7 +7340,7 @@
       "mapped_pages": 6,
       "outside_lookup_pages": 20
     },
-    "note": "Price rubric0046 이 달엔 얼맙니까? opens130/printed128;actual ending/interior continuity unknown. Candidate130–133 is provisional only;134–135 competition notice0011 is already an independent owner. Directly review consecutive source pages until actual ending/next independent body before mapping. Restore atmostsix confirmed pages;segment if longer. Preserve tables,units,prices,source credits,captions,original product images anduncertainty without current-price lookup,technical repair or arithmetic inference. Canonical title,parent0041,null byline/reference unchanged. Other children andunlocated0037 unchanged. No execution or reader rebuild."
+    "note": "Quiz0047 애독자 퀴즈 directly observed opening132/printed130 andcontinuing133/131,end before independent competitionnotice134. Reuse retained source views andverify complete body/own ending before mapping. Preserve introductory reader message,prize photos,product/sponsor/contact captions,card-entry instructions,current/previous question-answer contexts,number-of-winner labels andevery printed recipient credit/address as separate source occurrences. Local sponsor/recipient names are not canonical article bylines. Keep original images anduncertain glyphs;no product execution orprogram recovery. Canonical title,nullbyline/reference andnullparent unchanged. Otherchildren,unlocated0037 andnotice0011 unchanged. No reader rebuild."
   },
   "final_issue_classification_evidence_required": [
     {

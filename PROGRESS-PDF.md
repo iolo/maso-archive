@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1993 is in progress: thirty-four readable/sample-reviewed articles, no partials,
-seven non-owning groups, three final section references and ten unresolved identities
+March 1993 is in progress: thirty-five readable/sample-reviewed articles, no partials,
+seven non-owning groups, three final section references and seven unresolved identities
 among 52.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
@@ -924,20 +924,65 @@ acceptance, exact glyphs/spaces/encoded bytes, historical truth and product beha
 remain unverified. Other fifty canonical outcomes, including unlocated 0037, stay
 unchanged. No product download, execution, recovery or reader rebuild.
 
-Current totals: thirty-four readable/sample-reviewed articles, no partials, seven
-non-owning groups, three section references and eight unresolved identities among 52.
-The 34 current body-owner packages contain 14,793 exact files; 39 classification
+Batch 59 completes price rubric 0046 on PDF 130–131/individually observed
+printed 128–129. Its 452 JSON/assets files reproduce independently and in a fresh
+process. All 114 exact crops, 110 outcomes, 1,026 typed ranges, 159 nonempty physical
+rows, four original figures and 38 source-local candidates validate. Canonical
+이 달엔 얼맙니까?, null byline/reference and parent 0041 remain unchanged. Following
+132 independently opens reader quiz 0047; outside 129/132–135 are not owned.
+
+Eight separate price groups retain sixteen product rows and one multi-I/O qualifier.
+Printed product names, units, ranges, plus/minus marks and prices remain literal,
+without current-price lookup, arithmetic conversion or inferred interval. Three
+original charts preserve fifteen bars, 37 distinct printed value labels, 25 axis
+labels, eight trend series and 23 point associations across 22 distinct trend labels.
+One October (3.5) occurrence serves both memory and keyboard series. All four figures
+have null captions; chart titles are explicit source associations. No missing May
+486 point, duplicated source label, bar height, scale or unprinted unit is inferred.
+
+Printed 92년 2월 현재 remains despite the 1993 issue. Prose and chart 387DX remain
+distinct from note 80387DX; chart 486DX—50MHz remains distinct from note 486DX2.
+Broken-axis geometry and series paths stay original-image-dependent. Two external
+clarifications resolve preliminary extent-only count and wording errors: the shared
+October label was counted twice, and prose was incorrectly grouped with 80387DX.
+Historical observations and saved source readings remain unchanged.
+
+All 110 full drafts were read before one continuing source correction pass,
+including one empty axis-digit result. There were 110 initial kor+eng calls,
+34 pre-OCR crop events and zero retries or within/post-pass map/OCR/saved-text
+changes. Native color review repaired pale glyph and adjacent category/legend
+clipping missed by threshold diagnostics. Five category labels share one physical
+row crop, with separate source-local occurrences. Final text crops are disjoint.
+Twenty threshold crossings are directly reviewed colored bar-fill/shadow or tick-rule
+fragments. All seven pages 129–135, all selected text crops and four original figures
+were directly reviewed; two pages are mapped and five are outside lookups.
+
+Thirty-six negative checks reject 34 rehashed semantic faults after generic integrity
+passes with frozen equality disabled, plus two ownership faults. A first test-helper
+run stopped on a missing qualifier with TypeError; an explicit source-range shape
+assertion now rejects it. Failed helper, mutation and failure record remain, with
+no package or source change. All 43,960 prior files, thirty core modules and source/
+TOC/queue/runtime pins remain exact; the unchanged fresh 213-test baseline is retained.
+Only 0046 advances; all other 51 canonical outcomes and 39 classification files stay
+unchanged. Full proofreading, human acceptance, exact glyphs/spaces/encoded bytes,
+historical truth and original hardware/software behavior remain unverified.
+No product recovery, execution or reader rebuild.
+
+Current totals: thirty-five readable/sample-reviewed articles, no partials, seven
+non-owning groups, three section references and seven unresolved identities among 52.
+The 35 current body-owner packages contain 15,245 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 59 verifies and restores price rubric 0046 from its PDF 130 opener.
-Candidate 130–133 is provisional; verify every interior page, the actual ending
-and adjacent independent context before mapping. Competition notice 0011 already
-owns 134–135. Restore at most six confirmed pages, segmenting if necessary; two
-canonical tasks and twenty outside lookups remain ceilings. Preserve source tables,
-units, prices, credits, captions, original images and uncertainty without arithmetic
-or technical repair. Canonical 이 달엔 얼맙니까?, null byline/reference and parent
-0041 stay unchanged. Other children and unlocated 0037 remain unchanged.
-No historical product execution/recovery or reader rebuild.
+Next: Batch 60 verifies and restores reader quiz 0047 on observed PDF 132–133.
+The quiz opens 132/printed 130 and ends 133/131 before competition notice 134;
+reuse retained renders and verify the complete body before mapping. Preserve the
+reader message, prize photographs, sponsor/product/contact captions, entry rules,
+current and previous question/answer contexts, prize counts and every printed
+recipient credit/address as separate source occurrences. Local names are not
+article bylines. Canonical 애독자 퀴즈, null byline/reference/parent and all other
+outcomes remain unchanged. Two tasks, six mapped pages and twenty outside lookups
+remain ceilings. Keep uncertain glyphs and original images; no software recovery,
+execution or reader rebuild. Unlocated 0037 remains unresolved.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
