@@ -9,6 +9,8 @@ by the calendar month in which restoration work happened.
 March 1993 is in progress: forty-one readable/sample-reviewed articles, no partials,
 seven non-owning groups, three final section references and one unresolved identity
 among 52.
+Page accounting now represents all 433 slots: 342 primary classifications and 91
+pending pages. Physical pages 21–40 are next.
 
 Batch 37 completes CMDLN article 0024 on PDF 344–348/individually observed printed
 342–346. All 379 selected r02 files match independent and fresh-process exports.
@@ -1146,18 +1148,39 @@ non-owning groups, three section references and one unresolved identity among 52
 The 41 current body-owner packages contain 16,429 exact files; 39 classification
 evidence files remain separate. All immutable natives and failed revisions remain.
 
-Next: Batch 64 initializes all 433 physical source-page slots and begins
-bounded page accounting/location research for unlocated string-replacement 0037.
-Directly review physical pages 1–20. Reconcile prior full-page/crop evidence and
-current body-owner coverage only where source pins and review context prove it;
-do not infer unknown page portions. Preserve 0037's identity and require its actual
-title/opening/ending before assigning a body. The bulletin TECH reference is not
-body-location proof. Any newly found body must fit six mapped pages or be segmented.
-No other canonical outcome advances. One task, six mapped pages and twenty outside
-lookups remain ceilings. No source-wide absence or missing-page count follows from
-this bounded review; final disposition waits for sufficient issue-wide evidence.
-Page accounting, cover, standalone collection/index/report/reproduction and closeout
-remain required. No reader rebuild.
+Batch 64 initializes all 433 physical source-page slots with original geometry and
+pinned source-metadata pointers. Direct review of physical 1–20 finds one cover,
+contents/colophon 4, contents continuation 5 and seventeen advertisements. Contents
+5 lists 문자열 교체를 간편하게 by 김범석; this is a reference, not its body. No body
+for 0037 was located in the current twenty pages. Its canonical outcome is unchanged.
+
+The reproducible provisional inventory classifies 342 pages and explicitly leaves
+91 pending. Prior review records and original pinned renders support 325 previously
+reviewed pages, including 150 explicit review/render bindings. Selected ownership
+covers 272 distinct physical pages in 41 maps; fifty other prior page classifications
+retain their original observation contexts. Twenty-five map-local exclusions across
+23 mixed body pages remain separate; these are not unique advertisement counts or
+proof that all unlisted portions have been accounted. Unlisted HWP material on
+384–389 is retained as source context without assigning it to 0037.
+
+All four accounting files match independent and fresh-process exports. Twenty-four
+consistently rehashed semantic faults are rejected without selected-artifact equality.
+All 45,787 prior preservation files, thirty core modules and source/TOC/queue/runtime
+pins remain exact. No new mapping, OCR or source correction occurred. All 52
+canonical entries, 41 owners/16,429 files and 39 classification evidence files remain
+unchanged. Two private validation-helper failures are preserved and corrected;
+neither changed source material or repeated recognition. Full issue goal remains
+active; complete page accounting, cover, collection and closeout remain pending.
+
+Next: Batch 65 directly reviews physical pages 21–40 for continued page accounting
+and bounded location research for 0037. Produce a fresh reproducible accounting
+revision. Require the actual target title/opening/ending before assigning a body;
+contents and bulletin references do not establish its location. Any newly found body
+must fit six mapped pages or be segmented. One canonical task, six mapped pages and
+twenty outside lookups remain ceilings. No source-wide absence or missing-page count
+is inferred from a bounded review. Preserve mixed/unlisted portions; remaining
+433-page accounting, cover, standalone collection/index/report/reproduction and issue
+closeout are required. No reader rebuild.
 
 Remaining bodies, 433-page accounting, cover and closeout remain required. See
 [March progress](docs/progress/9303.md) and its
