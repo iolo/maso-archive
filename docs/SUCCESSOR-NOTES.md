@@ -31,7 +31,12 @@ then moved into `dist/`; a fully copied stage can resume finalization. Free-spac
 checks precede fresh copying. Optional release snapshots remain disposable.
 See [the reader guide](READING-ROOM.md) and
 `archive/pdf/shared/evidence/reader-integration-2026-11-03/`.
-No new OCR, source correction, human acceptance or deployment is claimed.
+No new OCR, source correction or human acceptance is claimed. The owner
+subsequently requested Cloudflare deployment with a new random share token.
+That deployment is live; old links are revoked. Retrieve the current private URL
+with `.venv/bin/python tools/reading_room/deploy_cloudflare.py --show-link`.
+The deployment record is under
+`archive/operations/reading-room-deploy/deployment-2026-11-03/`.
 
 ## Latest restoration closeout
 

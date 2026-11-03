@@ -14,6 +14,11 @@ The app remains static. The Worker checks the URL token and streams exported fil
 from R2, including JSON, images, text, and ZIP downloads. Review notes still live
 in each volunteer's browser and are exported manually as JSON.
 
+The November 3, 2026 deployment contains all 19 completed PDF passes and all
+three CDs: 4,066 records. The share token was rotated and the previous URL is
+revoked. The token itself remains outside Git. Deployment and hosted verification
+evidence lives under `archive/operations/reading-room-deploy/deployment-2026-11-03/`.
+
 ## One-time preparation
 
 Use Python 3.10+ for deployment. Node.js is only needed to rebuild the frontend
@@ -96,7 +101,7 @@ python3 tools/reading_room/deploy_cloudflare.py
 It validates every file against `data/manifest.json`, verifies that the entry
 page uses relative asset URLs, and prints the size and file count. It makes no
 network requests, uploads nothing, and creates no secret. The current release
-has about **119,311 files / 15.36 GB**. Expect the full local hash pass to take
+has **232,149 files / 47.09 GB**, including 680 PDF and 3,386 CD records. Expect the full local hash pass to take
 some time.
 
 Then publish:
@@ -104,6 +109,17 @@ Then publish:
 ```sh
 .venv/bin/python tools/reading_room/deploy_cloudflare.py --apply
 ```
+
+To deploy the full current reader and replace the share URL in one operation:
+
+```sh
+.venv/bin/python tools/reading_room/deploy_cloudflare.py \
+  --output dist/reading-room-volunteer --apply --rotate-link --jobs 128
+```
+
+Token rotation takes effect after upload when the Worker is published. Existing
+share links then stop working. Ordinary deployment logs omit the token; obtain
+the new link with `--show-link` after live checks pass.
 
 This command:
 
@@ -122,6 +138,12 @@ This command:
 
 The initial upload may take a while because the collection has many small files.
 The default is eight upload threads; use `--jobs 4` for a slower connection.
+Large updates can use up to 128 concurrent threads while retaining the same
+per-file hash, MD5, metadata and post-upload checks. Progress includes transferred
+bytes and prints at approximately 30-second intervals between completed batches.
+Lower `--jobs` if the connection or service becomes overloaded; SDK retries remain
+enabled. See [R2 limits](https://developers.cloudflare.com/r2/platform/limits/) and
+[capacity troubleshooting](https://developers.cloudflare.com/r2/platform/troubleshooting/).
 Do not rebuild the export or run a second deployment while it is uploading.
 
 The script intentionally owns this dedicated Worker's code and bindings. Any
@@ -208,12 +230,10 @@ There is no shared CDN cache that could continue serving files after link
 rotation. Link recipients can still copy or forward the link. Robots directives
 discourage indexing; they are not access controls.
 
-Use **R2 Standard**, which includes 10 GB-month, one million Class A operations,
-and ten million Class B operations per month. For this roughly 15.36 GB
-collection, storage is approximately **US$0.09/month**, assuming the free tier
-is otherwise unused. Each upload run checks remote metadata; new objects add
-write and verification requests. Downloads have no R2 egress charge. Current
-rates are in [R2 pricing](https://developers.cloudflare.com/r2/pricing/).
+Storage and request charges depend on the stored collection, retained older
+objects and usage. Each upload run checks remote metadata; new objects add
+write and verification requests. Check current limits and rates in
+[R2 pricing](https://developers.cloudflare.com/r2/pricing/).
 
 The Workers free plan allows 100,000 requests per day. Each asset/data fetch
 counts, not just each visitor; exceeding the daily free limit can interrupt
@@ -232,6 +252,8 @@ Tests exercise resumable uploads, failed-upload ordering, credential handling,
 path restrictions, MIME types, Unicode paths, conditional requests, ranges,
 token checks, and storage failures. They use local fakes; they do not deploy or
 require an account. Live verification runs automatically after `--apply`.
+Live checks send an explicit deployment-client User-Agent and retry transient
+transfer timeouts; they do not expose the secret URL in normal logs.
 
 Implementation references:
 [R2 with boto3](https://developers.cloudflare.com/r2/examples/aws/boto3/),

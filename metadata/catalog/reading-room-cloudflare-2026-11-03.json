@@ -1,0 +1,54 @@
+{
+  "status": "deployed-and-verified",
+  "completed_at": "2026-11-03T10:28:05.204025+00:00",
+  "origin": "https://maso-archive-reading-room-volunteer.iolo.workers.dev",
+  "bucket": "maso-archive-reading-room-volunteer",
+  "worker": "maso-archive-reading-room-volunteer",
+  "output": "dist/reading-room-volunteer",
+  "files": 232149,
+  "bytes": 47090969756,
+  "final_pass_uploaded": 129365,
+  "final_pass_unchanged": 102784,
+  "reader_manifest": {
+    "path": "dist/reading-room-volunteer/data/manifest.json",
+    "sha256": "e61aec0e2d7b9e21a52a65d8f73de2826873ae0e70cc40452c28fec2a04779cc",
+    "bytes": 44037117
+  },
+  "counts": {
+    "issues": 152,
+    "tocEntries": 5299,
+    "articles": 4066,
+    "texts": 4058,
+    "listings": 3627,
+    "mediaRecords": 17889,
+    "covers": 149,
+    "coverAssets": 145
+  },
+  "new_random_token": true,
+  "previous_link_status": 404,
+  "missing_and_incorrect_tokens_status": 404,
+  "secret_url_recorded": false,
+  "credentials_recorded": false,
+  "token_permissions": "0600",
+  "objects_deleted": false,
+  "restoration_changes": false,
+  "hosted_resource_hashes_verified": 14,
+  "head_and_range": "pass",
+  "hosted_browser_queue_and_outcomes": "pass",
+  "hosted_original_scan_and_corrected_text": "pass",
+  "verification_note": "Initial client verification returned 403 and later encountered slow transfers. Explicit client identity and bounded transient retries passed; no additional Worker publication or token rotation was needed.",
+  "tests": {
+    "uploader": 14,
+    "worker": 9
+  },
+  "private_verification": {
+    "path": "archive/operations/reading-room-deploy/deployment-2026-11-03/live-verification.json",
+    "sha256": "5fae93308e315802da332540e1f59bb94bb718b3893cea812008ca9d7bf4de2c",
+    "bytes": 3608
+  },
+  "worker_source": {
+    "path": "tools/reading_room/cloudflare-worker.mjs",
+    "sha256": "c2a8f7396007eef736a93cc14a837617a57be0640e6e3a4a818bed434a74cfef",
+    "bytes": 4660
+  }
+}

@@ -1,5 +1,5 @@
 import base64
-from contextlib import redirect_stdout
+from contextlib import contextmanager, redirect_stdout
 import hashlib
 import io
 import json
@@ -8,6 +8,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+from urllib.error import HTTPError
 
 from tools.reading_room import deploy_cloudflare as deploy
 
@@ -36,6 +37,38 @@ class FakeS3:
 
 
 class DeployTest(unittest.TestCase):
+    def test_live_verification_identifies_client_and_checks_private_routes(self):
+        token = 'a' * 43
+        with self.temp_root_for_live_check() as root:
+            files = [deploy.inspect_file(root, name) for name in ('index.html', 'data/catalog.json')]
+            calls = []
+            @contextmanager
+            def open_request(request, timeout):
+                self.assertEqual(request.get_header('User-agent'), deploy.USER_AGENT)
+                calls.append(request.full_url)
+                if len(calls) == 1:
+                    raise TimeoutError('synthetic transient transfer timeout')
+                prefix = deploy.ORIGIN + '/' + token + '/'
+                if not request.full_url.startswith(prefix):
+                    raise HTTPError(request.full_url, 404, 'Not found', {}, None)
+                path = root / request.full_url.removeprefix(prefix)
+                class Response:
+                    headers = {'X-Robots-Tag': 'noindex, nofollow, noarchive'}
+                    def read(self, size): return path.read_bytes()[:size]
+                yield Response()
+            output = io.StringIO()
+            with patch.object(deploy, 'urlopen', side_effect=open_request), \
+                    patch.object(deploy.time, 'sleep') as sleep, redirect_stdout(output):
+                deploy.verify_site(token, files)
+            self.assertEqual(len(calls), 4)
+            sleep.assert_called_once_with(3)
+            self.assertNotIn(token, output.getvalue())
+
+    @contextmanager
+    def temp_root_for_live_check(self):
+        # Reuse the existing synthetic export; no real archive or network access.
+        yield self.root
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -146,7 +179,7 @@ class DeployTest(unittest.TestCase):
                 self.assertTrue(path.with_suffix('.pending').exists())
         output = io.StringIO()
         with patch.object(deploy, 'TOKEN_FILE', path), patch.object(deploy, 'credentials', return_value={}), patch.object(deploy, 's3_client', return_value=client), patch.object(deploy, 'cloudflare', side_effect=api), patch.object(deploy, 'verify_site') as verify, redirect_stdout(output):
-            deploy.main(['--output', str(self.root), '--apply'])
+            deploy.main(['--output', str(self.root), '--apply', '--jobs', '128'])
             token = deploy.read_token()
             self.assertEqual(len(token), 43)
             self.assertNotIn(token, output.getvalue())

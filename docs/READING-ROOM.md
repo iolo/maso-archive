@@ -67,7 +67,10 @@ Python checks report 77 passed and three existing skips (80 run); all 26 fronten
 tests, TypeScript and production compilation pass. Browser checks cover exact text/listing downloads,
 review-note export, partial/unlocated outcomes, all three CD routes, metadata
 search, 360px mobile layout and nested static hosting.
-The output is a local static build; deployment is separate. Release snapshots
+The same verified export was subsequently deployed to the dedicated Cloudflare
+Worker at the owner's request, with a new random share token. The previous link
+is revoked; the current link remains private. Use the deployment guide's
+`--show-link` command to retrieve it locally. Release snapshots
 are optional and disposable. The dated sections below preserve earlier builds.
 
 ## Historical deployment availability — October 28, 2026

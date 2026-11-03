@@ -1,5 +1,29 @@
 # Progress
 
+## 2026-11-03 — Deploy the complete volunteer reader with a new share token
+
+- Published the verified 4,066-record reader to the existing dedicated Cloudflare
+  Worker and R2 bucket. The final upload pass verified 232,149 files: 129,365
+  uploaded and 102,784 unchanged. Earlier verified uploads were reused; no remote
+  objects were deleted and no restoration data was rebuilt or edited.
+- Rotated the random share token after all uploads completed. The new link is
+  stored privately; the prior token, missing token and incorrect token return
+  404. The public Git record contains no access token or credential values.
+- Verified fourteen hosted resource hashes, including the frontend, catalog,
+  March data, original scan, cover, literal text/listing downloads and all three
+  CD sources. HEAD and ranged downloads pass. Hosted review counts/outcomes and
+  the complete original-scan/corrected-text comparison load in a real browser.
+  Some transfers were slow or timed out during verification; retries completed.
+- Updated the deploy default to `dist/reading-room-volunteer`, added a tested
+  128-connection limit and byte progress, and identified live-check requests
+  explicitly. The original HTTP client received 403; the identified client
+  passed. Transient transfer timeouts now retry. All fourteen uploader tests
+  and nine unchanged Worker tests pass.
+- Private deployment evidence is under
+  `archive/operations/reading-room-deploy/deployment-2026-11-03/`.
+  Retrieve the current private URL with
+  `.venv/bin/python tools/reading_room/deploy_cloudflare.py --show-link`.
+
 ## 2026-11-03 — Rebuild the complete volunteer reading room
 
 - Built `dist/reading-room-volunteer/` directly from preserved inputs: all 19

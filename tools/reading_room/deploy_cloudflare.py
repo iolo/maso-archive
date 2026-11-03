@@ -25,6 +25,7 @@ ORIGIN = f'https://{NAME}.iolo.workers.dev'
 TOKEN_FILE = ROOT / 'archive/operations/reading-room-deploy/share-token'
 WORKER_FILE = Path(__file__).with_name('cloudflare-worker.mjs')
 CACHE = 'private, no-store'
+USER_AGENT = 'maso-archive-deploy/1.0'
 
 
 @dataclass(frozen=True)
@@ -174,15 +175,18 @@ def upload_one(client, bucket, file):
 
 
 def upload_files(client, bucket, files, jobs):
-    uploaded = skipped = 0
+    uploaded = skipped = uploaded_bytes = 0
+    last_progress = time.monotonic()
     with ThreadPoolExecutor(max_workers=jobs) as pool:
         # Bound the queue so a failure does not leave 119,000 uploads pending.
         for offset in range(0, len(files) - 2, jobs * 4):
             batch = files[offset:min(offset + jobs * 4, len(files) - 2)]
-            for changed in pool.map(lambda f: upload_one(client, bucket, f), batch):
+            for file, changed in zip(batch, pool.map(lambda f: upload_one(client, bucket, f), batch), strict=True):
                 uploaded += changed; skipped += not changed
-            if (offset // (jobs * 4)) % 32 == 0:
-                print(f'Uploaded {uploaded:,}; unchanged {skipped:,}', flush=True)
+                uploaded_bytes += file.size if changed else 0
+            if offset == 0 or time.monotonic() - last_progress >= 30:
+                print(f'Uploaded {uploaded:,}; unchanged {skipped:,}; transferred {uploaded_bytes / 10**9:.2f} GB', flush=True)
+                last_progress = time.monotonic()
     for file in files[-2:]:
         changed = upload_one(client, bucket, file)
         uploaded += changed; skipped += not changed
@@ -256,21 +260,23 @@ def verify_site(token, files):
     for attempt in range(6):
         try:
             for relative in ('index.html', 'data/catalog.json'):
-                with urlopen(ORIGIN + '/' + token + '/' + relative, timeout=60) as response:
-                    digest = hashlib.sha256(response.read()).hexdigest()
+                request = Request(ORIGIN + '/' + token + '/' + relative, headers={'User-Agent': USER_AGENT})
+                with urlopen(request, timeout=60) as response:
+                    digest = hashlib.sha256(response.read(by_key['site/' + relative].size)).hexdigest()
                     if digest != by_key['site/' + relative].sha256:
                         raise ValueError('Hosted file checksum mismatch')
                     if response.headers.get('X-Robots-Tag') != 'noindex, nofollow, noarchive':
                         raise ValueError('Expected Worker headers missing')
             try:
-                with urlopen(ORIGIN + '/data/catalog.json', timeout=30):
+                request = Request(ORIGIN + '/data/catalog.json', headers={'User-Agent': USER_AGENT})
+                with urlopen(request, timeout=30):
                     raise ValueError('Unlisted path unexpectedly accessible')
             except HTTPError as error:
                 if error.code != 404:
                     raise ValueError('Expected 404 for unlisted path') from None
             print('Live checks passed: index/catalog checksums, response headers, and missing-token 404.')
             return
-        except (URLError, ValueError):
+        except (URLError, ValueError, TimeoutError, ConnectionError):
             if attempt == 5:
                 raise ValueError('Worker was published, but live checks did not pass. Check its bindings and retry; the share token is saved locally.') from None
             time.sleep(3)
@@ -278,7 +284,7 @@ def verify_site(token, files):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=ROOT / 'dist/reading-room')
+    parser.add_argument('--output', type=Path, default=ROOT / 'dist/reading-room-volunteer')
     parser.add_argument('--apply', action='store_true', help='upload and publish; otherwise validate locally only')
     parser.add_argument('--worker-only', action='store_true', help='publish Worker only; require matching remote index and manifest')
     parser.add_argument('--rotate-link', action='store_true', help='generate a new share token; requires --apply')
@@ -293,8 +299,8 @@ def main(argv=None):
         return
     if args.rotate_link and not args.apply:
         raise ValueError('--rotate-link requires --apply')
-    if not 1 <= args.jobs <= 32:
-        raise ValueError('--jobs must be between 1 and 32')
+    if not 1 <= args.jobs <= 128:
+        raise ValueError('--jobs must be between 1 and 128')
     creds = credentials() if args.apply else None
     print('Checking local export and every manifest-pinned SHA-256...', flush=True)
     files = inventory(args.output)

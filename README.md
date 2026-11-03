@@ -95,6 +95,10 @@ OCR. **검토 메모** autosaves feedback locally; download the JSON and pass it
 the coordinator. Nothing is submitted automatically or marked officially accepted.
 Browser data is specific to the host/port and should be exported before clearing it.
 
+The November 3 export is also deployed to the dedicated Cloudflare Worker with
+a rotated share token. Retrieve its private URL with
+`.venv/bin/python tools/reading_room/deploy_cloudflare.py --show-link`.
+
 The prepared static app is `dist/reading-room-volunteer/`. It uses relative
 asset and data URLs and works with ordinary static servers, including Python's
 `http.server` and `npx serve dist/reading-room-volunteer -l 4189`; Vite is only
