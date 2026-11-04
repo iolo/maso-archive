@@ -19,36 +19,38 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 18 finalizes Q&A tip children 0020/0021 as non-owning references into
-complete parent0017. Backup anchors at246/238 and owns no duplicate body; its
-complete source scope includes two-column prose, the sixteen-row batch example,
-literal caption and original screenshot. Soundex anchors at248/240 and includes
-its complete248–249/240–241 tip, with prose and five distinct code contexts through
-printed main row090. The Q&A above both boxes and its MS mark remain outside
-the tip scopes. No separate author is invented. Canonical titles, parents and
-null page references stay unchanged. The Soundex body omits the comma after
-알고리즘 found in the contents; both literal title forms remain.
-Four selected, independent and fresh-process files match. All47 typed ranges,
-22 parent-owned regions (eight backup/fourteen Soundex) and eighteen invalid
-range/ownership/title/status cases validate. There are no new maps, OCR calls,
-source corrections or parent revisions. Seven outside source contexts were
-reviewed:4/245–250. The two-task/six-page/twenty-lookup bounds remain satisfied.
-All396 parent files,11,859 earlier March files and thirty core modules remain
-exact; the unchanged214-test baseline is reused. Code glyph/spacing/byte and
-technical-claim uncertainty, full proofreading and human acceptance limits remain.
-External `archive/pdf/1995-03/classifications/batch-18-r01/parent-status-dispositions.json`
-resolves only0020/0021 pending flags in the frozen parent and batch17 sidecar.
-Creation-checkpoint flags remain historical. Ten final-issue evidence files are
-now required. Three Q&A children are final:0018/0020/0021. Child0019 remains
-unlocated in the observed bundle;0022/0023 still await their bounded checkpoint.
-References/title/status: `archive/pdf/1995-03/classifications/batch-18-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-18/`.
-Totals: eleven readable, zero partial, three non-owning headings, six references
-and 70 unresolved. Next finalize children0022/0023:CD formats on247/239 and
-ftp/binary-ascii across247–249/239–241. Preserve the source title omitting the
-canonical ftp에서 prefix, reader credits, nine CD bullets and independent tip
-boundaries. Keep FLC0019 unresolved for bounded lookup/issue accounting.
-About0024 opens250 and still needs actual extent review. No automatic CD links.
+Batch 19 finalizes Q&A children0022/0023 as non-owning references. CD formats
+anchor on247/239, with reader 한진수 and nine printed bullet entries. FTP anchors
+on247/239, with reader 김동현 and its full answer across248–249/240–241. The
+answer crosses three upper columns on248 and ends249 before the EPP exchange;
+the Soundex box below remains independent. Reader credits are not article authors.
+Canonical titles, parents and null page references stay unchanged. The source FTP
+title omits the canonical ftp에서 prefix; both literal forms remain.
+Five reference/title/status/family files match independent and fresh-process
+exports. All42 typed ranges, fifteen current source regions, four continuations
+and twenty invalid range/ownership/title/status cases validate. Six outside source
+contexts were reviewed:4/246–250. No new mapping, OCR, source correction or parent
+revision. All396 parent files,11,905 earlier March files and thirty core modules
+remain exact; the unchanged214-test baseline is reused.
+Five located children0018/0020–0023 are now final. Their43 disjoint source regions
+plus56 parent-only regions cover all99 parent regions once. Unlisted questions,
+the Word tip, invitation and artwork remain in the owning parent. This proves
+parent region ownership, not whole-issue accounting or a located FLC body.
+Child0019 remains unresolved/unlocated in the observed six-page Q&A bundle.
+External `archive/pdf/1995-03/classifications/batch-19-r01/parent-status-dispositions.json`
+resolves current0022/0023 pending flags and updates the earlier pending lists;
+original parent and both prior sidecars remain unchanged. The adjacent
+`qa-family.json` records five final references and one unresolved identity.
+Twelve final-issue evidence files are now required, including these two records.
+References/title/status/family: `archive/pdf/1995-03/classifications/batch-19-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-19/`.
+Totals: eleven readable, zero partial, three non-owning headings, eight references
+and 68 unresolved. Next restore About0024 (canonical242, 이준희; opening250).
+Verify actual extent, source credits, question/answer roles, code/tables and
+adjacent ownership before mapping; split into immutable natives if longer than
+six pages. Then review programming-forum groups0025/0026/0027 from source evidence.
+Keep FLC0019 unresolved for bounded lookup/issue accounting. Preserve the ordinary
+two-task/six-page/twenty-lookup bounds and source fidelity limits. No automatic CD links.
 See [March progress](progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.
@@ -60,7 +62,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-18/reproduction.json`.
+`archive/pdf/1995-03/restoration/batch-19/reproduction.json`.
 
 ## Session wrap-up
 

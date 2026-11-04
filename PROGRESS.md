@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-04 — Finalize March CD/FTP references
+
+- Batch 19 finalizes0022/0023 into complete Q&A0017. CD247/239 retains nine bullets;
+  FTP247–249 retains allanswer fragments around the independent Soundex tip.
+  Reader credits andthe source/canonical FTP title variant remain distinct.
+- Five exact files,42 typed ranges,fifteen current source regions andtwenty invalid
+  cases validate. Five located children partition43 regions plus56 parent-only regions,
+  covering all99 once. All396 parent files,11,905 prior files/thirty core modules stay.
+  No new OCR/source correction;the214-test baseline is reused.
+- Totals: eleven readable,zero partial,three groups,eight references,68 unresolved.
+  FLC0019 remains unresolved. Next restore About0024,observed opening250,after
+  extent/ownership review. Full March goal remains active through remaining bodies,
+  545-page accounting,cover andseparate closeout. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Finalize March backup and Soundex references
 
 - Batch 18 finalizes0020/0021 into complete Q&A0017. Backup246/238 includes its

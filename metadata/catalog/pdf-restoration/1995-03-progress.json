@@ -1589,23 +1589,97 @@
       "toc_entry_id": "maso-1995-03-toc-0022",
       "title": "현재까지 발표된 CD 규격",
       "parent_id": "maso-1995-03-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 andcompleteQ&A parent establish this non-owning child. Canonical title,parent andnull page reference unchanged;reader contributor is not a source author.",
+        "CD247/239 retains nine bullet entries;FTP question247/239 andanswer248–249/240–241 retain four source answer fragments across independent Soundex. Following SHARE.EXE/EPP exchanges remain separate.",
+        "Five exact selected/independent/fresh files;42 typed ranges,15 current source regions and20 invalid cases validate. Canonical FTP title includes ftp에서 absent fromsource;both forms retained. Five known child scopes partition43 regions plus56 parent-only regions,covering all99 once. FLC0019 unresolved. No new OCR/source correction orparent revision."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-03-toc-0017",
+      "section": {
+        "anchor": "q08-heading",
+        "anchor_scope": "complete-owning-parent",
+        "heading_pdf_page": 247
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-03-toc-0017",
+        "directory": "archive/pdf/1995-03/packages/batch-17-r01/qa",
+        "anchor": "q08-heading",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 247,
+        "source_heading_printed_page": "239",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-owning-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-17-r01/qa/manifest.json",
+          "sha256": "640d776063ab8a1a02b5f788bc159f3a2fd384c0fa8b03e4eb3b52622a4c097f",
+          "bytes": 67686
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-03/classifications/batch-19-r01/0022-anchor.json",
+          "sha256": "3c7da249aaf49f9bf6a45e762596a3460ac60acb6ce666d05f35d785fc33c576",
+          "bytes": 15782
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-19/validation.json",
+          "sha256": "5d6e50dfde5938559d84872f12f84f3e12c11aa69472fe2ef3c4f9f788b63951",
+          "bytes": 2126
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0023",
       "title": "ftp에서 binary와 ascii 명령의 차이",
       "parent_id": "maso-1995-03-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 andcompleteQ&A parent establish this non-owning child. Canonical title,parent andnull page reference unchanged;reader contributor is not a source author.",
+        "CD247/239 retains nine bullet entries;FTP question247/239 andanswer248–249/240–241 retain four source answer fragments across independent Soundex. Following SHARE.EXE/EPP exchanges remain separate.",
+        "Five exact selected/independent/fresh files;42 typed ranges,15 current source regions and20 invalid cases validate. Canonical FTP title includes ftp에서 absent fromsource;both forms retained. Five known child scopes partition43 regions plus56 parent-only regions,covering all99 once. FLC0019 unresolved. No new OCR/source correction orparent revision."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-03-toc-0017",
+      "section": {
+        "anchor": "q10-heading",
+        "anchor_scope": "complete-owning-parent",
+        "heading_pdf_page": 247
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-03-toc-0017",
+        "directory": "archive/pdf/1995-03/packages/batch-17-r01/qa",
+        "anchor": "q10-heading",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 247,
+        "source_heading_printed_page": "239",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-owning-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-17-r01/qa/manifest.json",
+          "sha256": "640d776063ab8a1a02b5f788bc159f3a2fd384c0fa8b03e4eb3b52622a4c097f",
+          "bytes": 67686
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-03/classifications/batch-19-r01/0023-anchor.json",
+          "sha256": "09fe000a21a527767ee5c18ee07aa73ed003b46f836b3f77ff16439b526c1c0d",
+          "bytes": 12240
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-19/validation.json",
+          "sha256": "5d6e50dfde5938559d84872f12f84f3e12c11aa69472fe2ef3c4f9f788b63951",
+          "bytes": 2126
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0024",
@@ -2928,6 +3002,33 @@
         "sha256": "99f707db14b3a7afc3b6d962bceadb965440bacfc7dd727c5459e0ecee925a6b",
         "bytes": 1562
       }
+    },
+    {
+      "name": "1995-03-batch-19",
+      "status": "complete",
+      "completed_at": "2026-11-04T13:59:50.806235+00:00",
+      "goal": "Finalize complete CD/FTP children0022/0023 andfive-located-child family evidence.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0022",
+        "maso-1995-03-toc-0023"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-19/validation.json",
+        "sha256": "5d6e50dfde5938559d84872f12f84f3e12c11aa69472fe2ef3c4f9f788b63951",
+        "bytes": 2126
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-19/reproduction.json",
+        "sha256": "65575951248f9f01bede40a35f327aa0b7746ff004849ddaa7dc1dc16d92a298",
+        "bytes": 1711
+      }
     }
   ],
   "totals": {
@@ -2935,15 +3036,15 @@
     "readable": 11,
     "partial": 0,
     "group_headings": 3,
-    "section_references": 6,
-    "unresolved": 70
+    "section_references": 8,
+    "unresolved": 68
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Finalize non-owning Q&A children0022/0023 against complete parent0017:CD heading247/239 andftp/binary-ascii heading247/239 withanswer through249. Preserve source title omitting canonical ftp에서 prefix,reader credits,nine CD bullets andindependent Soundex tip boundaries. Child0019 FLC remains unresolved/unlocated in observed244–249;reserve boundedlookup/whole-issue accounting. Preserve ten required historical-status evidence files andall parent/source bytes. Then About0024 opens250;verify actualextent. Two canonicaltasks/six mappedpages/twenty outsidelookups remain. Continue remainingMarch restoration,545-page accounting,cover andseparate issue closeout beforeJuly.",
+  "next_checkpoint": "Restore About0024,canonical242/byline이준희,observedopening250. Verify actualextent,sourcecredits,question/answer roles,code/tables andadjacent ownership before mapping;split iflonger thansix pages. Preserve parent0017 andfive final childreferences with twelve required final-issue evidence files. FLC0019 remains unresolved/unlocated inobserved244–249;boundedlookup/whole-issue accounting stillrequired. Two canonicaltasks/six mappedpages/twenty outsidelookups percheckpoint. AfterAbout,review nested programming-forum groups0025/0026/0027 andtheir children fromsourceevidence. Continue remainingMarch restoration,545-page accounting,cover andseparate issue closeout beforeJuly.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -2994,6 +3095,16 @@
       "path": "archive/pdf/1995-03/classifications/batch-18-r01/parent-status-dispositions.json",
       "sha256": "01de8b6a64b6c11b0a574c590492ddb881161db482de8ac74bc92b5eaf3c8ea8",
       "bytes": 5182
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-19-r01/parent-status-dispositions.json",
+      "sha256": "feeed4080054e79722706874b055498406698ddececd4bffa7d1505b08d34aa4",
+      "bytes": 6024
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-19-r01/qa-family.json",
+      "sha256": "2383eefb2a3dcca0fbf1d8183e0a470b60d0573d384a487eae8d3b995ecf3907",
+      "bytes": 5860
     }
   ]
 }
