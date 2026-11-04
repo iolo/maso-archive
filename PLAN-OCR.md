@@ -37,41 +37,37 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 19 finalizes Q&A children0022/0023 as non-owning references. CD formats
-anchor on247/239, with reader 한진수 and nine printed bullet entries. FTP anchors
-on247/239, with reader 김동현 and its full answer across248–249/240–241. The
-answer crosses three upper columns on248 and ends249 before the EPP exchange;
-the Soundex box below remains independent. Reader credits are not article authors.
-Canonical titles, parents and null page references stay unchanged. The source FTP
-title omits the canonical ftp에서 prefix; both literal forms remain.
-Five reference/title/status/family files match independent and fresh-process
-exports. All42 typed ranges, fifteen current source regions, four continuations
-and twenty invalid range/ownership/title/status cases validate. Six outside source
-contexts were reviewed:4/246–250. No new mapping, OCR, source correction or parent
-revision. All396 parent files,11,905 earlier March files and thirty core modules
-remain exact; the unchanged214-test baseline is reused.
-Five located children0018/0020–0023 are now final. Their43 disjoint source regions
-plus56 parent-only regions cover all99 parent regions once. Unlisted questions,
-the Word tip, invitation and artwork remain in the owning parent. This proves
-parent region ownership, not whole-issue accounting or a located FLC body.
-Child0019 remains unresolved/unlocated in the observed six-page Q&A bundle.
-External `archive/pdf/1995-03/classifications/batch-19-r01/parent-status-dispositions.json`
-resolves current0022/0023 pending flags and updates the earlier pending lists;
-original parent and both prior sidecars remain unchanged. The adjacent
-`qa-family.json` records five final references and one unresolved identity.
-Twelve final-issue evidence files are now required, including these two records.
-References/title/status/family: `archive/pdf/1995-03/classifications/batch-19-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-19/`.
-Totals: eleven readable, zero partial, three non-owning headings, eight references
-and 68 unresolved. Next restore About0024 (canonical242, 이준희; opening250).
-Verify actual extent, source credits, question/answer roles, code/tables and
-adjacent ownership before mapping; split into immutable natives if longer than
-six pages. Then review programming-forum groups0025/0026/0027 from source evidence.
-Keep FLC0019 unresolved for bounded lookup/issue accounting. Preserve the ordinary
-two-task/six-page/twenty-lookup bounds and source fidelity limits. No automatic CD links.
-See [March progress](docs/progress/9503.md). The full March goal remains active
-through remaining bodies/classifications, 545-page accounting, cover and separate
-issue closeout before July. No reader rebuild or deployment.
+Batch 20 restores About0024, 파워 컨설턴트 이준희의 About..., on PDF250–251/
+printed242–243. Five reader exchanges retain separate headings, credits and
+repeated About... answer labels. The masthead author credit and invitation remain
+independent. One four-row code example stays between its answer prose fragments;
+its printed ellipsis, glyph candidates and historical technical claims remain.
+Four physical continuations retain LF. The ending MS mark has no printed caption;
+PDF252 is an independent publication advertisement.
+All146 package files and one external status file match independent and fresh-process
+exports. The35 crops,34 OCR outcomes,433 typed ranges,30 blocks,164 reading rows
+and138 ZIP members validate. Seven range,nineteen context and seven status faults
+reject. All34 initial drafts were read before one source pass;zero retries or
+within/post-pass text changes. Three pre-OCR maps/fourteen margin repairs remain.
+All11,950 prior March files and thirty core modules are exact;the unchanged214-test
+baseline is reused. Exact glyphs,code bytes,claims,full proofreading and human
+acceptance remain unverified.
+External `archive/pdf/1995-03/classifications/batch-20-r01/source-creation-dispositions.json`
+resolves historical0024 opening-only/pending statements without changing old files.
+All four direct children0015/0016/0017/0024 of group0014 now have independent readable
+packages. The group remains non-owning;FLC0019 remains unresolved. Thirteen final-issue
+evidence files are required. This is not whole-issue accounting or final closeout.
+Package: `archive/pdf/1995-03/packages/batch-20-r01/about/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-20/`.
+Totals: twelve readable,zero partial,three non-owning headings,eight references
+and 67 unresolved. Next review programming-forum groups0025/0026 from original
+contents and descendant banners;then nested group0027 and articles0028 onward.
+Verify actual article locations and ownership;do not inherit folios from groups.
+Keep the two-task/six-page/twenty-lookup checkpoint limits. FLC0019 awaits bounded
+lookup/issue accounting. See [March progress](docs/progress/9503.md).
+The full March goal remains active through remaining bodies/classifications,
+545-page accounting,cover and separate issue closeout before July.
+No reader rebuild or deployment.
 
 The historical 1995 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
 and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader

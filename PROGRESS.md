@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-04 — Restore March About column
+
+- Batch 20 completes0024 on PDF250–251/242–243:five reader exchanges,independent
+  invitation and masthead credit,and one four-row code example. Physical wraps,
+  source ellipsis,glyph candidates and historical claims remain.
+- 146 package files plus one external status file reproduce independently and
+  in a fresh process. All35 crops,34 OCR outcomes,433 typed ranges and164 rows
+  validate;33 invalid cases reject. All11,950 prior files/thirty core modules stay.
+  One source pass,zero retries;the unchanged214-test baseline is reused.
+- Totals: twelve readable,zero partial,three groups,eight references,67 unresolved.
+  Next review groups0025/0026,then0027 and subsequent programming articles.
+  FLC0019 and whole-issue accounting remain open. Full March goal remains active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Finalize March CD/FTP references
 
 - Batch 19 finalizes0022/0023 into complete Q&A0017. CD247/239 retains nine bullets;
