@@ -1,5 +1,25 @@
 # Progress
 
+## 2026-11-04 — Complete March multimedia-industry article
+
+- Restored final 218 as a 29-file native, then actually assembled complete 212–218:
+  227 selected/independent/fresh files match, consuming 219 regenerated native files.
+  Preserve 53 exact crops, 50 original outcomes, three images, 39 original blocks and
+  453 reading rows. One culture-prose join gives 38 current reading blocks.
+- All 844 native typed occurrences, 1,678 current ranges and 8,661 scalar values
+  verify. Biography, pullquote, similar final body, four lists/24 items and ending/credit
+  remain distinct. Five new recognitions, one source pass, zero retries/crop changes
+  or within/post-pass repairs. All 8,231 earlier files/core/private MUD adapter exact.
+- Fourteen rehashed root, four native, four recipe and four source-status faults
+  reject. ZIP audit count 205→211 repair retains the original failure and changes no
+  package bytes. One reproducible status sidecar resolves frozen creation-time
+  pending statements while retaining source evidence and all fidelity limits.
+- Totals: seven readable, zero partial, two groups, three references, 78 unresolved.
+  Next patent/legal 0013, observed opening 220/212; verify its actual extent before
+  mapping. Full March goal remains active through bodies/classifications, page
+  accounting, cover and separate closeout before July. See
+  [March progress](docs/progress/9503.md). No reader build/deployment.
+
 ## 2026-11-04 — Preserve March multimedia-industry opening
 
 - Article 0012's six-page native a covers 212–217 of verified extent 212–218:

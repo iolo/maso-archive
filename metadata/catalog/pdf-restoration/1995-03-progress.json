@@ -952,26 +952,37 @@
       "parent_id": "maso-1995-03-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Actual full extent212–218 individually reviewed; current six-page native covers212–217/printed204–209. Final218/210 remains deferred;lower218 is a separate book advertisement,219 independent computer advertising,220 next patent/legal article.",
         "190 selected files independently/fresh-process exact;47 pixel-exact crops,45 selected outcomes,404 rows,35 blocks,two original portraits/null captions. Independent author biography/pullquote andfour printed lists/24 items retain separate source roles.",
         "Ten physical joins retain LF. Main217→218 continues 작용되어야→한다.;final page andactual complete assembly pending. Canonical title/byline 이순무/parent unchanged.",
-        "All45 drafts read before one source pass;zero retries. Three pre-OCR maps retain24 margin events/23 regions. One within-pass vowel repair from enlarged source,zero post-pass changes. Six range/twenty source-context faults reject. Printed40대/product spellings/wording defects andhistorical claims remain unrepaired."
+        "All45 drafts read before one source pass;zero retries. Three pre-OCR maps retain24 margin events/23 regions. One within-pass vowel repair from enlarged source,zero post-pass changes. Six range/twenty source-context faults reject. Printed40대/product spellings/wording defects andhistorical claims remain unrepaired.",
+        "Batch13 restores final218 above independent book advertisement as29-file native b:five new OCR outcomes,one source pass,zero retries/crop changes/within-post-pass repairs. Actual complete212–218 assembly has227 files,consuming219 exact regenerated native files. All53 crops/50 outcomes/three originals/39 native block intervals/453 rows/four lists24 items validate. One217→218 prose join preserves physicalLF.844 native typed occurrences,1678 current ranges and8661 scalar values verify. Fourteen rehashed root,four native,four recipe andfour status faults reject. One source-creation disposition resolves retained historical native/group-child pending statements without changing originals,fidelity limits,group membership orother sibling outcomes. ZIP audit count clarified205→211 for six additionally retained metadata files;package/source bytes unchanged. Human acceptance/full proofreading/encoded-byte/source-claim limits remain active."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-12-r01/multimedia-a",
+        "directory": "archive/pdf/1995-03/packages/article-multimedia-r01",
         "article_id": "scan-maso-1995-03-toc-0012",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-12-r01/multimedia-a/manifest.json",
-          "sha256": "5552ff07e38f22395ba3e496b6e81963110b507642ef2129fc8f893508813987",
-          "bytes": 32349
+          "path": "archive/pdf/1995-03/packages/article-multimedia-r01/manifest.json",
+          "sha256": "8e7ba66407d6b7655566e30d04f94bf492d8e4c75428086d30101fbbe0b19485",
+          "bytes": 40644
         },
-        "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-12/multimedia-a-r03/package-recipe.json",
-          "sha256": "2bade8ffb971e35e645d9f6a4fb69aa681be4c4c7fd0a9ab616fe24117adec9d",
-          "bytes": 7250
+        "assembly_recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-13/assembly-recipe.json",
+          "sha256": "1c1aadf70818f8f73fdd9fa14065db7693b6a229ec7bb16adbdcc29149c9a137",
+          "bytes": 3743
+        },
+        "private_adapter": {
+          "path": "archive/pdf/1995-03/restoration/batch-13/multimedia_adapter.py",
+          "sha256": "9431e1f1586d00b5e3d150d06d3d7e2517aeecc1c8e3447f4df8a79a640217c0",
+          "bytes": 11264
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1995-03/restoration/batch-13/adapter-inputs.json",
+          "sha256": "dec160b6ca5053ed76297ddbf9e34e0e0ceccedb80b0540cb9e9ea5f45f3210f",
+          "bytes": 9019
         },
         "coverage": {
           "pdf_pages": [
@@ -980,7 +991,8 @@
             214,
             215,
             216,
-            217
+            217,
+            218
           ],
           "printed_pages": [
             "204",
@@ -988,30 +1000,22 @@
             "206",
             "207",
             "208",
-            "209"
+            "209",
+            "210"
           ],
-          "regions": 47,
-          "blocks": 35,
-          "figures": 2,
-          "deferred_pdf_pages": [
-            218
-          ],
+          "regions": 53,
+          "blocks": 38,
+          "original_source_blocks": 39,
+          "figures": 3,
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "all_source_body_pages_preserved": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 212,
         "actual_end_pdf_page": 218,
-        "full_pdf_pages": [
-          212,
-          213,
-          214,
-          215,
-          216,
-          217,
-          218
-        ],
         "immutable_partial_natives": [
           {
             "name": "a",
@@ -1044,24 +1048,63 @@
               "sha256": "1e9fe8ec116c38c72a2069a00599fef923355ec3bd3166552320e531f492c316",
               "bytes": 37573
             }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1995-03/packages/batch-13-r01/multimedia-b",
+            "pdf_pages": [
+              218
+            ],
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-13-r01/multimedia-b/manifest.json",
+              "sha256": "f0f20b1fc276c0e6b69b4afbd39f20cf44ffeccdf9471b26c98b4755a3dd92d2",
+              "bytes": 4777
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-13/multimedia-b-r01/package-recipe.json",
+              "sha256": "81f5874b12add16daea8ef91d024a12db89cdc86754fb36ef3e397c71f595140",
+              "bytes": 2714
+            },
+            "validation": {
+              "path": "archive/pdf/1995-03/restoration/batch-13/validation.json",
+              "sha256": "342a55a867b48ab3408cd2673ab4d5311d51e88165a661685e5c32e0195fe171",
+              "bytes": 2865
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-03/restoration/batch-13/native-reproduction.json",
+              "sha256": "5c7d7fb55172ade8f0bf12f412e585692450636711a9e07d74f9fa6b984dda37",
+              "bytes": 6523
+            },
+            "coverage": {
+              "pdf_pages": [
+                218
+              ],
+              "printed_pages": [
+                "210"
+              ],
+              "regions": 6,
+              "blocks": 4,
+              "figures": 1
+            },
+            "checkpoint": "batch-13"
           }
         ],
-        "outgoing_main_boundary": {
-          "path": "archive/pdf/1995-03/packages/batch-12-r01/multimedia-a/corrections.json",
-          "sha256": "cc81bc537eb137325b9f8df4f8d243e2790a6b38f9261819468589d680971151",
-          "bytes": 565151
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-13-r01/source-creation-dispositions.json",
+          "sha256": "1dc22ad08f4c0ffad4b811136d769272401f53e1f564863b2bd4983c4df25290",
+          "bytes": 6306
         },
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-12/validation.json",
-          "sha256": "9cdd5476186aefe714b09e427c9c7c3079d29530e2afd2f79acf0787b999b66f",
-          "bytes": 1927
+          "path": "archive/pdf/1995-03/restoration/batch-13/validation.json",
+          "sha256": "342a55a867b48ab3408cd2673ab4d5311d51e88165a661685e5c32e0195fe171",
+          "bytes": 2865
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-12/reproduction.json",
-          "sha256": "1e9fe8ec116c38c72a2069a00599fef923355ec3bd3166552320e531f492c316",
-          "bytes": 37573
+          "path": "archive/pdf/1995-03/restoration/batch-13/reproduction-complete.json",
+          "sha256": "b3db56f659f09c43bea89fe5aa2e148987907c1f8d1114a4ddcfc3e32ad9a2ec",
+          "bytes": 44271
         },
-        "checkpoint": "batch-12"
+        "checkpoint": "batch-13"
       }
     },
     {
@@ -2306,12 +2349,42 @@
         "sha256": "1e9fe8ec116c38c72a2069a00599fef923355ec3bd3166552320e531f492c316",
         "bytes": 37573
       }
+    },
+    {
+      "name": "1995-03-batch-13",
+      "status": "complete-final-native-and-assembly",
+      "completed_at": "2026-11-04T11:42:26.889373+00:00",
+      "goal": "Restore final218 andactually assemble complete multimedia-industry0012 on212–218 with all original source metadata retained.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0012"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        218
+      ],
+      "outside_lookup_pages": 9,
+      "recognition_invocations": 5,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-13/validation.json",
+        "sha256": "342a55a867b48ab3408cd2673ab4d5311d51e88165a661685e5c32e0195fe171",
+        "bytes": 2865
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-13/reproduction-complete.json",
+        "sha256": "b3db56f659f09c43bea89fe5aa2e148987907c1f8d1114a4ddcfc3e32ad9a2ec",
+        "bytes": 44271
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 6,
-    "partial": 1,
+    "readable": 7,
+    "partial": 0,
     "group_headings": 2,
     "section_references": 3,
     "unresolved": 78
@@ -2321,7 +2394,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore final multimedia-industry0012 page218/210 as a fresh bounded native,excluding independent lower-page Windows3.1 book advertisement. Preserve original main217→218 continuation 작용되어야→한다.,final prose,MS andeditorial credit separately. Then actually assemble complete212–218 body from immutable natives with all source metadata/typed ranges/photos/pullquote/biography/four printed lists preserved. Canonical0012 stays partial until verified complete assembly. Then locate/restore patent/legal0013 opening220/212 under ordinary bounds. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly.",
+  "next_checkpoint": "Locate andrestore patent/legal article0013,canonical reference212 andbyline 이윤민,opening individually observed220/212. Verify actual title/byline/full extent/adjacent pages before bounded mapping;do not infer ending from next TOC reference. Preserve complete multimedia0012 andits historical-status disposition,complete MUD family andboth groups. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -2347,6 +2420,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-10/title-variants.json",
       "sha256": "268a022c1942d459ee6d3105e3cb9abd0d247b423d5ddc11e64099480e45876c",
       "bytes": 3648
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-13-r01/source-creation-dispositions.json",
+      "sha256": "1dc22ad08f4c0ffad4b811136d769272401f53e1f564863b2bd4983c4df25290",
+      "bytes": 6306
     }
   ]
 }
