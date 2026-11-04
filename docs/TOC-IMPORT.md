@@ -1,13 +1,35 @@
 # TOC importer
 
-Donated scan comparison follows [TOC restoration](TOC-RESTORATION.md). That workflow
-leaves this authoritative source and its imported identities unchanged; mismatches
-are reported for the owner to correct manually. Image preparation never reimports
-the catalog or bypasses pinned historical dependencies.
+Donated scan comparison follows [TOC restoration](TOC-RESTORATION.md). Image
+preparation and OCR report discrepancies without editing the source or importing
+catalog changes. Explicitly authorized correction tasks can update `TOC.md` with
+recorded evidence. Catalog migration remains separate from source correction.
 
 The importer preserves every source bullet, proposes metadata fields, and
 reports uncertainty. Its outputs are **unreviewed local working data**, not an
 approved public catalog. It does not modify `TOC.md` or read extracted CD bodies.
+
+## Source priority
+
+The owner's source priority, clarified November 4, 2026, applies to the canonical
+issue TOC:
+
+1. **Donated printed TOC images and the National Library transcription in
+   `TOC.md` are the primary sources.** Legible printed TOC images resolve
+   discrepancies in titles, contributors, printed pages, and section structure.
+   `TOC.md` is the maintained transcription and the catalog import input.
+2. **Where a donated image is missing, incomplete, or unreadable, retain the
+   National Library transcription with that verification limitation.** Do not
+   infer a reading from OCR confidence, filename dates, or expected sequences.
+3. **Restored CDs and PDF articles supply content and corroborating evidence.**
+   Preserve their native titles, dates, identities, and variants separately.
+   They do not automatically replace the canonical TOC or establish article links.
+
+Transcribe printed peculiarities faithfully; distinguish transcription errors
+from errors or variants already present in print. Record evidence and exact
+before/after text for corrections. Unresolved conflicts remain explicit for
+review. Importing the full TOC establishes issue metadata coverage; restored
+article coverage and reviewed TOC-to-article associations are separate results.
 
 ## Run
 

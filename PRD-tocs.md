@@ -3,12 +3,19 @@
 Storage and retention follow [STORAGE.md](docs/STORAGE.md); dated implementation
 paths and cleanup milestones are interpreted through the current plan.
 
+Canonical TOC source priority follows the owner's November 4, 2026
+[clarification](docs/TOC-IMPORT.md#source-priority): donated printed TOC images
+and the National Library transcription are primary; restored CDs and PDF articles
+provide content and corroborating evidence.
+
 ## INPUT
 - new high quality cover images in `tocs` directory
 
 ## OUTPUT
 - rename all files in `tocs` into `YYMM-NN.jpg`(NN might be page or sequence number for multi-page TOCs)
-- OCR the TOC and compare with the existing TOC.md and update the TOC.md if there are any differences
+- OCR the donated TOCs and compare with `TOC.md`; report differences with visual
+  evidence. Source corrections require an owner edit or an explicitly authorized
+  correction task. Image preparation does not edit or reimport the catalog.
 - generate reduced(size/quality) images and apply to reading-room webapp.
 
 ## IMPORTANT NOTES

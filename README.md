@@ -163,6 +163,9 @@ See [adding covers and retiring legacy JPEGs](docs/READING-ROOM.md#add-or-replac
 | Combined | 152 | 3,386 | 3,378 | 3,212 |
 
 The archive target is November 1983–December 1995 (146 monthly issues).
+The canonical TOC uses donated printed TOC images and the National Library
+transcription as its [primary sources](docs/TOC-IMPORT.md#source-priority).
+CD and PDF article records retain their own source metadata and reviewed links.
 `TOC.md` now covers all 146 issues through December 1995, with 7,110 entries,
 including the additional National Library TOCs for 1994–1995. The pinned reader
 catalog still covers 122 issues through December 1993, with 5,299 entries after

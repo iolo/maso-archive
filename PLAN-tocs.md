@@ -17,20 +17,25 @@ Git and every served directory. OCR and visual review may read originals locally
 the PRD's restriction on direct use is interpreted as prohibiting their delivery
 to the webapp.
 
-## Source authority and manual corrections
+## Source authority and corrections
 
-`TOC.md` was manually created from Korean National Library records and is the
-authoritative catalog. It takes priority over OCR text from the donated images.
-It is shared across restoration tasks and must remain byte-for-byte unchanged
-by this workflow. This user clarification supersedes the PRD instruction to
-update `TOC.md` when differences are found.
+The owner's November 4, 2026 clarification establishes donated printed TOC images
+and the National Library transcription in `TOC.md` as the primary sources for
+the canonical issue TOC. Legible print resolves transcription discrepancies;
+`TOC.md` remains the maintained import input. Missing or unreadable scans leave
+the National Library reading in place with its verification limitation. CDs and
+PDF articles provide content and corroboration while retaining their own metadata.
+See [source priority](docs/TOC-IMPORT.md#source-priority).
 
-Report mismatches to the user with the existing text, OCR text, visual evidence,
-and precise locations. The user will decide and make corrections manually.
-Even a visually confirmed difference does not authorize an automated edit,
-addition, deletion, or reordering in `TOC.md`. Do not substitute OCR text into
-generated catalog records, search metadata, or article associations either.
-Image preparation and mismatch reporting can finish without waiting for edits.
+Image preparation and OCR remain comparison-only operations. Report mismatches
+with the existing text, candidate reading, visual evidence, and precise locations.
+The owner may edit `TOC.md` or explicitly authorize a correction task, as in the
+[1994–1995 review](docs/TOC-SOURCE-REVIEW-1994-1995.md). Record evidence for changes;
+never substitute raw OCR into catalog records or infer article associations.
+Source corrections and reviewed catalog migrations are separate tasks.
+
+This clarification supersedes the earlier manual-only source-correction rule;
+it does not change the source-preserving behavior of image-preparation tools.
 
 ## Inspected starting point
 

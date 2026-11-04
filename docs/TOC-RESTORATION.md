@@ -1,10 +1,17 @@
 # Donated TOC images
 
-This workflow keeps `TOC.md` authoritative and read-only. OCR produces comparison
-evidence, never catalog edits, IDs, search entries, or article associations. The
-owner reviews reported differences and edits the source manually. A later source
-edit may invalidate pinned catalog dependencies; migrating those dependencies is
-separate work, not a side effect of preparing images.
+The donated printed TOC images and National Library transcription in `TOC.md`
+are the primary sources for the canonical issue TOC. Legible print resolves
+transcription discrepancies; `TOC.md` remains the maintained import input. See
+[source priority](TOC-IMPORT.md#source-priority) for missing scans and CD/PDF
+variants.
+
+Image preparation and OCR keep `TOC.md` read-only and produce comparison
+evidence, never catalog edits, IDs, search entries, or article associations.
+The owner can correct the source or explicitly authorize an evidence-backed
+correction task. A later source edit may invalidate pinned catalog dependencies;
+migrating those dependencies is separate work, not a side effect of preparing
+images.
 
 ## Private inputs and evidence
 
