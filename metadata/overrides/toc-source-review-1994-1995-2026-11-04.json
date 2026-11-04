@@ -1,0 +1,1561 @@
+{
+  "format_version": 1,
+  "date": "2026-11-04",
+  "scope": "1994-01 through 1995-12 source transcription corrections",
+  "authorization": "Owner requested correction against restored CDs and scanned TOCs; scope confirmed as 1994–1995.",
+  "method": "Direct visual reading of donated TOC scans; restored CD2/CD3 text corroborates selected readings. No fuzzy match is treated as an approved correction.",
+  "catalog_migrated": false,
+  "files": [
+    {
+      "path": "TOC.md",
+      "before_sha256": "856c67249a79efd2e317ec3de5e4148fab07fb56096a52ee23ee7a0759bbcf7f",
+      "after_sha256": "7e5b4ac4a32e412f936a07919206b45091dfd6a79e19f26182d43292de6739e6"
+    },
+    {
+      "path": "TOC-1994.md",
+      "before_sha256": "3aa4ff92c3c99f8432021f79e397dfdc10294c89d0831e566b0e90ded06a19c0",
+      "after_sha256": "e316ca91a17c616b51a158f2cfb845fd8d5a85a8a2e2b8270b03fee84b52dc72"
+    },
+    {
+      "path": "TOC-1995.md",
+      "before_sha256": "37594431b265db1b3cccde2024e209453c4d0bdcb5ba98cc778b4ddfc653b2d2",
+      "after_sha256": "f054cea072b75f77c335ef3ad6428f5cd98b73a036052bd8f997525e517a2425"
+    }
+  ],
+  "correction_count": 46,
+  "corrections": [
+    {
+      "id": "toc-source-review-9401-001",
+      "issue": "1994-01",
+      "before": "- ○ : ○편집기의 대명사, TeX : TeX과 한글이 만나다 / 류성준 = 152",
+      "after": "- 특집 : 수식 편집기의 대명사, TeX : TeX과 한글이 만나다 / 류성준 = 152",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5792
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 3
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9401-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "6642dd4d1a0e900ba0f62abedcfae74ab2f743d079f18c756bf500af81b4971a"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9401-002",
+      "issue": "1994-01",
+      "before": "- 애프릴케이션 : 윈도우즈 도스 세션 내것 만들기 : 도스 바 1.1과 EDOS 3.65 / 박유신 = 386",
+      "after": "- 애플리케이션 : 윈도우즈 도스 세션 내것 만들기 : 도스 바 1.1과 EDOS 3.65 / 박유신 = 386",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5816
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 27
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9401-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "94cfc4c72cfa56c2309a31787ab204b46e1ce8e1f42ce4c7fc293572df48d4e6"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9411-003",
+      "issue": "1994-11",
+      "before": "    - 도스 : 키능키 정의하기",
+      "after": "    - 도스 : 기능키 정의하기",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6435
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 646
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9411-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "493868e46d97c77a0f72add546fdcf906ba3a90955de4f9503f447650e99b742"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9504-004",
+      "issue": "1995-04",
+      "before": "    - 해외 인기 툴을 만나다[1] : 비주얼 디벨롭퍼스 슈트 ELF / 박진성 = 442",
+      "after": "    - 해외 인기 툴을 만나다[1] : 비주얼 디벨롭퍼스 슈트 딜 / 박진성 = 442",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6825
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 298
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9504-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "3d47a2752c873447ac0e6abf5ce832d74d17701273f517ad6a837f3827f51145"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9504/articles/topic-0175/article.txt",
+          "kind": "restored CD article",
+          "sha256": "a882a29282aba836d9eca47e50be9e900c2bf90fee5781c10d3fbbfab001799e"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9505-005",
+      "issue": "1995-05",
+      "before": "- 특집 : 차세대 프로그래밍 비주얼이 도전한다 = 289",
+      "after": "- 특집 : 차세대 프로그래밍 비주얼이 주도한다 = 289",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6890
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 363
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9505-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7752401e770da843c46b93778878c67342441ab55f61daa1021867ecbc4908ab"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9506-006",
+      "issue": "1995-06",
+      "before": "    - 해외 인기 툴을 만나다[3] : 바우즈 체커 / 박진성 = 460",
+      "after": "    - 해외 인기 툴을 만나다[3] : 바운즈 체커 / 박진성 = 460",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7033
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 506
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9506-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "529b7229c0d074dede0df4768043a55154da6650f8f5e8ee22378da0bc9f60a5"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9506/articles/topic-0177/article.txt",
+          "kind": "restored CD article",
+          "sha256": "545ba7e682642824e331c33716d3994dbda3f1ef15d77629ed4b039f8625ca26"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9506-007",
+      "issue": "1995-06",
+      "before": "    - MX 테스트 3.0 / 임종빈 = 472",
+      "after": "    - MS 테스트 3.0 / 임종빈 = 472",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7035
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 508
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9506-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "529b7229c0d074dede0df4768043a55154da6650f8f5e8ee22378da0bc9f60a5"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9506/articles/topic-0192/article.txt",
+          "kind": "restored CD article",
+          "sha256": "2750bf79c84a6bca23ed75ae4f84247e386f63452cc02a5916919a73604716fc"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9507-008",
+      "issue": "1995-07",
+      "before": "  - 2부 : GUN를 빛내는 개발도구 / 서영진",
+      "after": "  - 2부 : GNU를 빛내는 개발도구 / 서영진",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7103
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 576
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9507-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7a33f4cfe6ff67f46f40ff1247cafcbaf641e31975b3edcb21185ea070057590"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9507/articles/topic-0195/article.txt",
+          "kind": "restored CD article",
+          "sha256": "e788a780369a59e927c8d13e0240db30dbeed3fafcf349fba7b68d8b2b73b63d"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9507-009",
+      "issue": "1995-07",
+      "before": "  - 3부 : GUN C++, gcc / 정세희",
+      "after": "  - 3부 : GNU C++, gcc / 정세희",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7104
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 577
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9507-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7a33f4cfe6ff67f46f40ff1247cafcbaf641e31975b3edcb21185ea070057590"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9507/articles/topic-0196/article.txt",
+          "kind": "restored CD article",
+          "sha256": "a4a8affcefc681d88400cbfa475d67cb82e7a82f088647bc43cc4436e192fff5"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9508-010",
+      "issue": "1995-08",
+      "before": "    - 차세대 표준을 노린다, PpenGL",
+      "after": "    - 차세대 표준을 노린다, OpenGL",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7207
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 680
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9508-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "8905981a56da2132dbb1915982395a5d1830ee436a2be894d2ac2d39fc12ac5e"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9509-011",
+      "issue": "1995-09",
+      "before": "- 편집자 노트 : 한글 윈도우 95의 통합형 우리것 다운가 = 143",
+      "after": "- 편집자 노트 : 한글 윈도우 95의 통합형 코드 우리것 다운가 = 143",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7311
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 784
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9509-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7c05b4c04a4fff8efe8535cb0eb7549a8dc48955bda333941e5307b1c44db7b3"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9509-012",
+      "issue": "1995-09",
+      "before": "  - CD-RD의 환상과 그 전모 / 장석원 = 204",
+      "after": "  - CD-R의 환상과 그 전모 / 장석원 = 204",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7318
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 791
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9509-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7c05b4c04a4fff8efe8535cb0eb7549a8dc48955bda333941e5307b1c44db7b3"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9509/articles/topic-0482/article.txt",
+          "kind": "restored CD article",
+          "sha256": "d578fb98ae2034479173f80cc94e6abb5f744d252ff04bec106d3fc8c4bce2a6"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9509-013",
+      "issue": "1995-09",
+      "before": "    - The Way Thing Wo가",
+      "after": "    - The Way Thing Work",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7372
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 845
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9509-03.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "0e12ad39b5f9ae5f8f253fc546a76832858c6b1e2c36c70967245da4a2e4b861"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9509/articles/topic-0328/article.txt",
+          "kind": "restored CD article",
+          "sha256": "6796d3189b1116986f8d89f660e979b8145023df3c7bc05c3c97ac9df7a840c1"
+        }
+      ],
+      "note": "The scan reads The Way Thing Work. The CD uses The Way Things Work; retain the printed TOC wording."
+    },
+    {
+      "id": "toc-source-review-9510-014",
+      "issue": "1995-10",
+      "before": "  - 이달의 마소인 : 윈도우즈 95를 만든 사람들 : 와세프 @하룬@, 크리스 @쿠치@, 앤디 @니콜슨@, 대니 @밀러@, 롭 @윌리엄@ / 편집부 = 226",
+      "after": "  - 이달의 마소인 : 윈도우즈 95를 만든 사람들 : 와세프 하룬, 크리스 쿠치, 앤디 니콜슨, 대니 밀러, 롭 윌리엄 / 편집부 = 226",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7417
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 890
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9510-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7bf9ec3fce5322a70a680f246ad8079fbed7e758b3cd0e9bf928194b09a380e2"
+        }
+      ],
+      "note": "The printed names have no @ delimiters; remove library transcription markup."
+    },
+    {
+      "id": "toc-source-review-9511-015",
+      "issue": "1995-11",
+      "before": "  - GUI와 객체지향 개념의 창시자, 알랜 @케이@",
+      "after": "  - GUI와 객체지향 개념의 창시자, 알랜 케이",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7493
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 966
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9511-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "bcf25c89030c01e72dc0bd98da0e8ecb77cc8e92b18f011631c79456ce2a8df1"
+        }
+      ],
+      "note": "The printed name has no @ delimiters; remove library transcription markup."
+    },
+    {
+      "id": "toc-source-review-9511-016",
+      "issue": "1995-11",
+      "before": "- 기획 캠페인 : 프로그래머로크논문 : 마소지기++ 차기버전을 잡아라! = 539",
+      "after": "- 기획 캠페인 : 프로그래머로 크는 문 : 마소지기++ 차기버전을 잡아라! = 539",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7588
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 1061
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9511-03.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "baf12ee95ce504ab6f9ef825f57333c1bf10d42ffe59ad3ec3900dae96691902"
+        }
+      ],
+      "note": "The campaign label is printed with centered dots between syllables: 프·로·그·래·머·로·크·는·문."
+    },
+    {
+      "id": "toc-source-review-9403-017",
+      "issue": "1994-03",
+      "before": "- 특집 : '정보화도로'를 타는 지름길 : 인터네트로 들어가자 = 167",
+      "after": "- 특집 : '정보고속도로'를 타는 지름길 : 인터네트로 들어가자 = 167",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5900
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 111
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9403-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "c7e26c6083bc9ad468ce9a23ddeda8eaa252da8d45d085b12096ae9082bdd676"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9403-018",
+      "issue": "1994-03",
+      "before": "- 특집 : '정보고속도로'를 타는 지름길 : 인터네트로 들어가자 = 167",
+      "after": "- 특집 : '정보고속도로'를 타는 지름길 : 인터네트로 들어가자 = 162",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5900
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 111
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9403-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "c7e26c6083bc9ad468ce9a23ddeda8eaa252da8d45d085b12096ae9082bdd676"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9403-019",
+      "issue": "1994-03",
+      "before": "  - 사용자 메시지 : 한글 맞춤법 검사기의 현재와 장래 = 100",
+      "after": "  - 사용자 메시지 : 한글 맞춤법 검사기의 현재와 장래 / 전석진 = 100",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5906
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 117
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9403-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "c7e26c6083bc9ad468ce9a23ddeda8eaa252da8d45d085b12096ae9082bdd676"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9403-020",
+      "issue": "1994-03",
+      "before": "- 윈도우즈 : 프로그램 개발 환경, 윈도우즈가 바뀐다(3) : OLE 마인드가 윈도우즈 프로그래밍 기법을 바꾼다 / 강민석 = 224",
+      "after": "- 윈도우즈 : 프로그램 개발 환경, 윈도우즈가 바꾼다(3) : OLE 마인드가 윈도우즈 프로그래밍 기법을 바꾼다 / 강민석 = 224",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5911
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 122
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9403-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "c7e26c6083bc9ad468ce9a23ddeda8eaa252da8d45d085b12096ae9082bdd676"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9403-021",
+      "issue": "1994-03",
+      "before": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 C 프로그래밍(3) : 함수와 프로그램 구조(1) / 이준희 = 402",
+      "after": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 실전 C 프로그래밍(3) : 함수와 프로그램 구조(1) / 이준희 = 402",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5923
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 134
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9403-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7a64e20233bccc7677de1f234c031882727cdb56ffb5c275db238a568d158254"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9404-022",
+      "issue": "1994-04",
+      "before": "- 특집 : LAN, 더 이상 미룰 수 없다 / 곽동수 ; 오재철 = 189",
+      "after": "- 특집 : LAN, 더 이상 미룰 수 없다 / 곽동수 ; 오재철 = 170",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5954
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 165
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9404-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "65c83c85e4cf5ace95d3281f425594ca0515dc5c590adf2fc2ff5d97902aa81d"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9404-023",
+      "issue": "1994-04",
+      "before": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 C 프로그래밍(4) : 함수와 프로그램 구조(2) / 이준희 = 378",
+      "after": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 실전 C 프로그래밍(4) : 함수와 프로그램 구조(2) / 이준희 = 378",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5986
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 197
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9404-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "9d5a339b55cc769de033beb422550fcfac6b140323f2bb9dc2e0930887350e90"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9405-024",
+      "issue": "1994-05",
+      "before": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 C 프로그래밍(5) : C의 장벽, 포인터를 뛰어넘자(1) / 이준희 = 408",
+      "after": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 실전 C 프로그래밍(5) : C의 장벽, 포인터를 뛰어넘자(1) / 이준희 = 408",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6046
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 257
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9405-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "b8624910dae6f6e1d7eec408e221a1bca212311d88a3a45da25434721b27cc01"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9405-025",
+      "issue": "1994-05",
+      "before": "  - 커스텀 컨트롤을 만들자(2) : 조용주 = 366",
+      "after": "  - 커스텀 컨트롤을 만들자(2) / 조용주 = 366",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6041
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 252
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9405-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "b8624910dae6f6e1d7eec408e221a1bca212311d88a3a45da25434721b27cc01"
+        }
+      ],
+      "note": "The scan identifies 조용주 as the author, not a subtitle."
+    },
+    {
+      "id": "toc-source-review-9407-026",
+      "issue": "1994-07",
+      "before": "- 특집 : 보호 모드 프로그래밍, 그 이론과 실제 / 라영호 ; 성기철 = 178",
+      "after": "- 특집 : 보호 모드 프로그래밍, 그 이론과 실제 / 라영호 ; 성기철 = 176",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6141
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 352
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9407-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "9d3b57fc9d4369e9c5ac7fa00fa400691a597f73a8b751d7b48b75e22c3c832e"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9406-027",
+      "issue": "1994-06",
+      "before": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 C 프로그래밍(6) : C의 장벽, 포인터를 뛰어넘자(2) / 이준희 = 410",
+      "after": "  - 전문가로 큰다-이준희 코너 : 중급자를 위한 실전 C 프로그래밍(6) : C의 장벽, 포인터를 뛰어넘자(2) / 이준희 = 410",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6104
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 315
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9406-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "b16f6d93a91d49fb57d3299df6983064c8671001946ecb75f4fc219a13f1edd7"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9407-028",
+      "issue": "1994-07",
+      "before": "  - 멀티미디어, 그 한계에 도전한다(3) : AVI 캡처 및 다중 오디어 스트림 재생 프로그램 / 홍영민 = 332",
+      "after": "  - 멀티미디어, 그 한계에 도전한다(3) : AVI 캡처 및 다중 오디오 스트림 재생 프로그램 / 홍영민 = 332",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6160
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 371
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9407-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "dfc3c3d17120ba6fd301fe7c6cc0954be998265742f42d60908f3de885eb4451"
+        },
+        {
+          "path": "archive/cd2/reference/issues/9407/articles/940733200/article.txt",
+          "kind": "restored CD article",
+          "sha256": "b215fe9ad316cf234a88d37c8376d83a0cad89093b59714ec1dc057e8953f61b"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9408-029",
+      "issue": "1994-08",
+      "before": "- 특집 : 윈도우즈 프로그래밍의 새 변수, OLE = 178",
+      "after": "- 특집 : 윈도우즈 프로그래밍의 새 변수, OLE = 176",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6199
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 410
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9408-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "99372b93178c7495b93f141a7e7e9224187c4b35df108659c16848c1336e62c6"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9502-030",
+      "issue": "1995-02",
+      "before": "      - OLE 2 프로그래밍을 쉽게 배우자[마지막회] : 간단한 OLE 서버 만들기 / 강민석 = 400",
+      "after": "      - OLE 2 프로그래밍을 쉽게 배우자[마지막회] : 간단한 OLE 서버 만들기 / 윈테크 그룹 = 400",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6642
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 115
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9502-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "88f565403040184e7b32a0a562b4d24639b94bc5f9a9792cd3700e67cf6193d0"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9503-031",
+      "issue": "1995-03",
+      "before": "      - 매크로 언어로 애프릴케이션에 힘을(1) / 고원용 = 344",
+      "after": "      - 매크로 언어로 애플리케이션에 힘을(1) / 고원용 = 344",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6724
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 197
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9503-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "8cf54c1f85c41ff82c87a537facd781cebade12f634a4225146ac699ba01c906"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9504-032",
+      "issue": "1995-04",
+      "before": "  - 인터뷰 : 나는 이렇게 생각한다 : 소프트웨어 사용자 자원, 무엇이 부족한가 / 편집부 = 198",
+      "after": "  - 인터뷰 : 나는 이렇게 생각한다 : 소프트웨어 사용자 지원, 무엇이 부족한가 / 편집부 = 198",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6796
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 269
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9504-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "5290769ab38c409ca9314e2ec5e1dbed3b3bf7b63f6a7eafa22efb1768ccd19c"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9504/articles/topic-0521/article.txt",
+          "kind": "restored CD article",
+          "sha256": "891a8d5528f3e49141958eb4dfba0f3c166479d2feee00fd3d7f7d1228e14d45"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9504-033",
+      "issue": "1995-04",
+      "before": "      - 곡선 프로그래밍 : 베이지 곡선 완전 해부 / 임채성 = 300",
+      "after": "      - 곡선 프로그래밍 : 베지어 곡선 완전 해부 / 임채성 = 300",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6810
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 283
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9504-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "5290769ab38c409ca9314e2ec5e1dbed3b3bf7b63f6a7eafa22efb1768ccd19c"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9504/articles/topic-0107/article.txt",
+          "kind": "restored CD article",
+          "sha256": "b83bf82cea1f0c5bbb6fa9ed68caabd772dd1279b74292609ae3c11a5dd1bc08"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9504-034",
+      "issue": "1995-04",
+      "before": "  - 장석원 컬럼 : 전문가로 뛴다 : 비주얼 베이직 하나 더하기 하나 / 장석원 = 210",
+      "after": "  - 장석원 컬럼 : 전문가로 큰다 : 비주얼 베이직 하나 더하기 하나 / 장석원 = 210",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6800
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 273
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9504-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "5290769ab38c409ca9314e2ec5e1dbed3b3bf7b63f6a7eafa22efb1768ccd19c"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9505-035",
+      "issue": "1995-05",
+      "before": "- 별책부록 : 발빠른 시장 정보지 P&R : 시네마 천국행 특급 열차, MPEG 재생보드",
+      "after": "- 별책부록 : 발빠른 시장 정보지 P&P : 시네마 천국행 특급 열차, MPEG 재생보드",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 6978
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 451
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9505-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "ceee1ec5bb2284853ed47a91e09d00d6ae57d2a8acf1e97014a066c67329b6a7"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9506-036",
+      "issue": "1995-06",
+      "before": "  - 5. 프로그래밍 강좌 : 비주얼 베이직",
+      "after": "  - 6. 프로그래밍 강좌 : 비주얼 베이직",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7025
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 498
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9506-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "d0c4a68d59b2b82ba08922ccb902cfbf19e48df257221abc2638451127861e13"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9508-037",
+      "issue": "1995-08",
+      "before": "      - 윈도우즈용 워드프로세서 제작[4] : 서식과 그래프 / 최권택 = 448",
+      "after": "      - 윈도우즈용 워드프로세서 제작[4] : 서식과 그래픽 / 최권택 = 448",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7250
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 723
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9508-03.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "4919b15417395817ba437b7855fccc5ee4265cface27d51b5e2cd4b4b38b39bd"
+        },
+        {
+          "path": "archive/cd3/reference/groups/9508/articles/topic-0120/article.txt",
+          "kind": "restored CD article",
+          "sha256": "32b8f64e53de758fedc71efcae894f42d4a5ce3b82ca906aabbb373bd0247470"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9506-038",
+      "issue": "1995-06",
+      "before": "    - 이준희의 About",
+      "after": "    - 이준희의 C About",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7002
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 475
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9506-01.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "d0c4a68d59b2b82ba08922ccb902cfbf19e48df257221abc2638451127861e13"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9508-039",
+      "issue": "1995-08",
+      "before": "    - 이준희의 About",
+      "after": "    - 이준희의 C About",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7234
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 707
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9508-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "f99a9d631bbc35e2967329ad18fdeeb0306b0115ecc3c835903a35ef626dd655"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9509-040",
+      "issue": "1995-09",
+      "before": "    - 이준희의 About",
+      "after": "    - 이준희의 C About",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7333
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 806
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9509-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7c05b4c04a4fff8efe8535cb0eb7549a8dc48955bda333941e5307b1c44db7b3"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9510-041",
+      "issue": "1995-10",
+      "before": "    - 이준희의 About",
+      "after": "    - 이준희의 C About",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7429
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 902
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9510-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "7bf9ec3fce5322a70a680f246ad8079fbed7e758b3cd0e9bf928194b09a380e2"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9401-042",
+      "issue": "1994-01",
+      "before": "- 원도우즈",
+      "after": "- 윈도우즈",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 5813
+        },
+        {
+          "path": "TOC-1994.md",
+          "line": 24
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9401-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "94cfc4c72cfa56c2309a31787ab204b46e1ce8e1f42ce4c7fc293572df48d4e6"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9511-043",
+      "issue": "1995-11",
+      "before": "    - 이준희의 About",
+      "after": "    - 이준희의 C About",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7528
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 1001
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9511-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "1b516c7934a02229e93e47991d4442555af157869dff05cca39ead1e6e9cc0ab"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9511-044",
+      "issue": "1995-11",
+      "before": "  - 테크닉 : 델파이 슈퍼팁 4선 = 244",
+      "after": "  - 테크닉 : 델파이 슈퍼팁 4선 / 김규만 = 244",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7524
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 997
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9511-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "1b516c7934a02229e93e47991d4442555af157869dff05cca39ead1e6e9cc0ab"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9512-045",
+      "issue": "1995-12",
+      "before": "    - 이준희의 About",
+      "after": "    - 이준희의 C About",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7634
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 1107
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9512-02.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "d9db3a9e6162809e0dc5b4befa4f91a5ec2cd20503a75a682064840f364b40b7"
+        }
+      ],
+      "note": "Printed TOC confirms the corrected reading."
+    },
+    {
+      "id": "toc-source-review-9512-046",
+      "issue": "1995-12",
+      "before": "- 기획 캠페인[1] : 프로그래머로크논문 : 마소지기++ 차기버전을 잡아라! = 201",
+      "after": "- 기획 캠페인[1] : 프로그래머로 크는 문 : 마소지기++ 차기버전을 잡아라! = 201",
+      "locations": [
+        {
+          "path": "TOC.md",
+          "line": 7693
+        },
+        {
+          "path": "TOC-1995.md",
+          "line": 1166
+        }
+      ],
+      "evidence": [
+        {
+          "path": "tocs/9512-03.jpg",
+          "kind": "visually inspected TOC scan",
+          "sha256": "0ef19e47d1c4aa91c95d92719887e2d38d2ec8de910e93aa0e101e11c2a065ee"
+        }
+      ],
+      "note": "The campaign label is printed with centered dots between syllables: 프·로·그·래·머·로·크·는·문."
+    }
+  ],
+  "scope_limits": [
+    "Targeted transcription and suspicious-character review; no complete reconciliation of missing entries, hierarchy, or supplements.",
+    "Earlier issues through December 1993 and all historical catalog, CD, scan, and reader outputs are unchanged."
+  ],
+  "scan_inspection": [
+    {
+      "path": "tocs/9401-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "6642dd4d1a0e900ba0f62abedcfae74ab2f743d079f18c756bf500af81b4971a"
+    },
+    {
+      "path": "tocs/9401-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "94cfc4c72cfa56c2309a31787ab204b46e1ce8e1f42ce4c7fc293572df48d4e6"
+    },
+    {
+      "path": "tocs/9402-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "80081d1aa5c8486f65f2ec213735ee9b7f2e32eb21cd7f2333ed2115d51462c9"
+    },
+    {
+      "path": "tocs/9402-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "078fcf659a63684de6be8fba20c93717b5c3c5a74e49863fd26a798e5172e76d"
+    },
+    {
+      "path": "tocs/9403-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "c7e26c6083bc9ad468ce9a23ddeda8eaa252da8d45d085b12096ae9082bdd676"
+    },
+    {
+      "path": "tocs/9403-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "7a64e20233bccc7677de1f234c031882727cdb56ffb5c275db238a568d158254"
+    },
+    {
+      "path": "tocs/9404-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "65c83c85e4cf5ace95d3281f425594ca0515dc5c590adf2fc2ff5d97902aa81d"
+    },
+    {
+      "path": "tocs/9404-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "9d5a339b55cc769de033beb422550fcfac6b140323f2bb9dc2e0930887350e90"
+    },
+    {
+      "path": "tocs/9405-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "7aae1a7fec2be315ad46bab63f94a2786a3c41b27e3074c3b21711da176b8356"
+    },
+    {
+      "path": "tocs/9405-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "b8624910dae6f6e1d7eec408e221a1bca212311d88a3a45da25434721b27cc01"
+    },
+    {
+      "path": "tocs/9406-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "932617e1db36991cfd14fbd8dd38a548e9170a31671bb3f68d496f45571df055"
+    },
+    {
+      "path": "tocs/9406-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "b16f6d93a91d49fb57d3299df6983064c8671001946ecb75f4fc219a13f1edd7"
+    },
+    {
+      "path": "tocs/9407-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "9d3b57fc9d4369e9c5ac7fa00fa400691a597f73a8b751d7b48b75e22c3c832e"
+    },
+    {
+      "path": "tocs/9407-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "dfc3c3d17120ba6fd301fe7c6cc0954be998265742f42d60908f3de885eb4451"
+    },
+    {
+      "path": "tocs/9408-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "99372b93178c7495b93f141a7e7e9224187c4b35df108659c16848c1336e62c6"
+    },
+    {
+      "path": "tocs/9408-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "86a04e86d2c4e777c97153ac8005fc586e26afe7b30d27e0aa4fed80b240be83"
+    },
+    {
+      "path": "tocs/9409-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "8db46db09fc3fa764a4f7c836656c6665d670bd2282511809844352182da6d56"
+    },
+    {
+      "path": "tocs/9409-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "290311bb9a52985c8c2301981606d7fdb01e656123e973c8d5b95f22b9f3e6ed"
+    },
+    {
+      "path": "tocs/9410-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "eb2c4f5d34a0053cd4eeb10b267f3c13d4d6ffffd74c20b63382850b1bb72c74"
+    },
+    {
+      "path": "tocs/9410-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "d09043b2de6d1a15cd30234e6e12c772ce209a2734cce32de42b361911b7f959"
+    },
+    {
+      "path": "tocs/9411-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "07ed892de3ba7fe2ccc1745e2bdb300ee21ea10c26e3f9542f000f3915dacbf1"
+    },
+    {
+      "path": "tocs/9411-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "493868e46d97c77a0f72add546fdcf906ba3a90955de4f9503f447650e99b742"
+    },
+    {
+      "path": "tocs/9412-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "23f239e16bbc98cbf12ac1b3c3f7e2151d9931c015fd69699547c38d2db774c4"
+    },
+    {
+      "path": "tocs/9412-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "9d09f8e32ecc60f69ff2e5ff612999da488a7036d24e353a20a17087d18f0aaa"
+    },
+    {
+      "path": "tocs/9501-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "84e1de01f06724e8b37488c020ceb7c18c361878a68c3c22d6b5871920394558"
+    },
+    {
+      "path": "tocs/9501-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "b192e4e0f7ed56e5691813af365a63f20096e6feec82572c11fad4a847ee311a"
+    },
+    {
+      "path": "tocs/9502-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "9ee2ab0e907f5afd7b07d45730375b31c79e18a82856f5403d56f8381504ac94"
+    },
+    {
+      "path": "tocs/9502-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "88f565403040184e7b32a0a562b4d24639b94bc5f9a9792cd3700e67cf6193d0"
+    },
+    {
+      "path": "tocs/9503-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "8cf54c1f85c41ff82c87a537facd781cebade12f634a4225146ac699ba01c906"
+    },
+    {
+      "path": "tocs/9503-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "0d4fe6db443f01f58a2fbaaf7c5896400883c77b2d0a914134db0c634fba501e"
+    },
+    {
+      "path": "tocs/9504-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "5290769ab38c409ca9314e2ec5e1dbed3b3bf7b63f6a7eafa22efb1768ccd19c"
+    },
+    {
+      "path": "tocs/9504-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "3d47a2752c873447ac0e6abf5ce832d74d17701273f517ad6a837f3827f51145"
+    },
+    {
+      "path": "tocs/9505-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "7752401e770da843c46b93778878c67342441ab55f61daa1021867ecbc4908ab"
+    },
+    {
+      "path": "tocs/9505-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "ceee1ec5bb2284853ed47a91e09d00d6ae57d2a8acf1e97014a066c67329b6a7"
+    },
+    {
+      "path": "tocs/9506-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "d0c4a68d59b2b82ba08922ccb902cfbf19e48df257221abc2638451127861e13"
+    },
+    {
+      "path": "tocs/9506-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "529b7229c0d074dede0df4768043a55154da6650f8f5e8ee22378da0bc9f60a5"
+    },
+    {
+      "path": "tocs/9507-01.jpg",
+      "kind": "advertisement excluded from TOC evidence",
+      "sha256": "686b57f170c304d503fa0bf68f4300849574632c5ac2636fa874c50b6a8dd6b7"
+    },
+    {
+      "path": "tocs/9507-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "7a33f4cfe6ff67f46f40ff1247cafcbaf641e31975b3edcb21185ea070057590"
+    },
+    {
+      "path": "tocs/9508-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "8905981a56da2132dbb1915982395a5d1830ee436a2be894d2ac2d39fc12ac5e"
+    },
+    {
+      "path": "tocs/9508-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "f99a9d631bbc35e2967329ad18fdeeb0306b0115ecc3c835903a35ef626dd655"
+    },
+    {
+      "path": "tocs/9508-03.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "4919b15417395817ba437b7855fccc5ee4265cface27d51b5e2cd4b4b38b39bd"
+    },
+    {
+      "path": "tocs/9509-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "8d84a5ffcc17b5206a49528ae333542494e690b72b1b9952d2b262460d8b99a1"
+    },
+    {
+      "path": "tocs/9509-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "7c05b4c04a4fff8efe8535cb0eb7549a8dc48955bda333941e5307b1c44db7b3"
+    },
+    {
+      "path": "tocs/9509-03.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "0e12ad39b5f9ae5f8f253fc546a76832858c6b1e2c36c70967245da4a2e4b861"
+    },
+    {
+      "path": "tocs/9510-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "44e9abd24f8b55783cb510692b8f24519e0beee03b993c27e58b70bccbdb2124"
+    },
+    {
+      "path": "tocs/9510-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "7bf9ec3fce5322a70a680f246ad8079fbed7e758b3cd0e9bf928194b09a380e2"
+    },
+    {
+      "path": "tocs/9510-03.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "775f0dec141584c74ab1b93c58eb23f3ed32803a7fde8655c09ec5e327e4092c"
+    },
+    {
+      "path": "tocs/9511-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "bcf25c89030c01e72dc0bd98da0e8ecb77cc8e92b18f011631c79456ce2a8df1"
+    },
+    {
+      "path": "tocs/9511-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "1b516c7934a02229e93e47991d4442555af157869dff05cca39ead1e6e9cc0ab"
+    },
+    {
+      "path": "tocs/9511-03.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "baf12ee95ce504ab6f9ef825f57333c1bf10d42ffe59ad3ec3900dae96691902"
+    },
+    {
+      "path": "tocs/9512-01.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "33bc9417383b9618e1f61aefc0ae612169407c413db55fb94a92c2b40239896c"
+    },
+    {
+      "path": "tocs/9512-02.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "d9db3a9e6162809e0dc5b4befa4f91a5ec2cd20503a75a682064840f364b40b7"
+    },
+    {
+      "path": "tocs/9512-03.jpg",
+      "kind": "visually inspected TOC scan",
+      "sha256": "0ef19e47d1c4aa91c95d92719887e2d38d2ec8de910e93aa0e101e11c2a065ee"
+    }
+  ],
+  "retained_readings": [
+    {
+      "issue": "1994-02",
+      "text": "도스 상에서 DLL을 구현하자(1)",
+      "evidence": {
+        "path": "tocs/9402-02.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "078fcf659a63684de6be8fba20c93717b5c3c5a74e49863fd26a798e5172e76d"
+      },
+      "note": "The repeated installment number (1) is printed; do not infer (2) from the series sequence."
+    },
+    {
+      "issue": "1994-04",
+      "text": "박제홍",
+      "evidence": {
+        "path": "tocs/9404-02.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "9d5a339b55cc769de033beb422550fcfac6b140323f2bb9dc2e0930887350e90"
+      },
+      "note": "This installment prints 박제홍; other installments use 박재홍. Do not homogenize the author."
+    },
+    {
+      "issue": "1994-09",
+      "text": "좋은 인터페이스 vs. 더 좋은 인터페이스(2)",
+      "evidence": {
+        "path": "tocs/9409-02.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "290311bb9a52985c8c2301981606d7fdb01e656123e973c8d5b95f22b9f3e6ed"
+      },
+      "note": "The repeated installment number (2) is printed."
+    },
+    {
+      "issue": "1994-11",
+      "text": "컴퓨터 인텔리전트-인공지능의 자연적 치매",
+      "evidence": {
+        "path": "tocs/9411-01.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "07ed892de3ba7fe2ccc1745e2bdb300ee21ea10c26e3f9542f000f3915dacbf1"
+      },
+      "note": "The CD title differs; the scraped reading follows the printed TOC."
+    },
+    {
+      "issue": "1995-02",
+      "text": "이충환",
+      "evidence": {
+        "path": "tocs/9502-02.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "88f565403040184e7b32a0a562b4d24639b94bc5f9a9792cd3700e67cf6193d0"
+      },
+      "note": "This issue prints 이충환; do not normalize it to 이충완 from other issues."
+    },
+    {
+      "issue": "1995-03",
+      "text": "Win32를 뛰어 넘자[2]",
+      "evidence": {
+        "path": "tocs/9503-02.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "0d4fe6db443f01f58a2fbaaf7c5896400883c77b2d0a914134db0c634fba501e"
+      },
+      "note": "The repeated installment number [2] is printed."
+    },
+    {
+      "issue": "1995-05",
+      "text": "핸드 오피스",
+      "evidence": {
+        "path": "tocs/9505-01.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "7752401e770da843c46b93778878c67342441ab55f61daa1021867ecbc4908ab"
+      },
+      "note": "The TOC prints 핸드; the CD uses 핸디. Preserve the printed TOC wording."
+    },
+    {
+      "issue": "1995-09",
+      "text": "The Way Thing Work",
+      "evidence": {
+        "path": "tocs/9509-03.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "0e12ad39b5f9ae5f8f253fc546a76832858c6b1e2c36c70967245da4a2e4b861"
+      },
+      "note": "The printed TOC has singular Thing; the restored CD has Things. Only the garbled suffix Wo가 is corrected."
+    },
+    {
+      "issue": "1995-10",
+      "text": "리즈툴즈",
+      "evidence": {
+        "path": "tocs/9510-03.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "775f0dec141584c74ab1b93c58eb23f3ed32803a7fde8655c09ec5e327e4092c"
+      },
+      "note": "The TOC prints 리즈툴즈; the CD uses 리드툴즈. Preserve the printed TOC wording."
+    },
+    {
+      "issue": "1995-12",
+      "text": "메모리들 모여라 / 정용주 = 580",
+      "evidence": {
+        "path": "tocs/9512-03.jpg",
+        "kind": "visually inspected TOC scan",
+        "sha256": "0ef19e47d1c4aa91c95d92719887e2d38d2ec8de910e93aa0e101e11c2a065ee"
+      },
+      "note": "The surprising page number 580 is visible in print; do not replace it from an expected page sequence."
+    }
+  ],
+  "coverage_note": "The 53 donated images for 1994–1995 were visually inspected: 52 TOC images and one July 1995 advertisement. July has only one donated TOC page; its other entries cannot all be checked against these images."
+}

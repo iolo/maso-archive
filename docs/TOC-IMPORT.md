@@ -37,10 +37,12 @@ PYTHONPATH=src python3 -m maso_archive import-toc \
   --identities data/identities/toc.json
 ```
 
-The default expected **source** period is November 1983–December 1993, matching
-the expanded `TOC.md`. The archive target ends in December 1995; this does not
-create TOC records for the additional 24 months. Import their metadata only when
-supported by additional source material and reviewed identity decisions.
+The default import period remains November 1983–December 1993, matching the
+pinned catalog. `TOC.md` now extends through December 1995; importing the expanded
+source requires `--end 1995-12`. The source merge alone does not migrate the
+identity registry, catalog pins, or reader metadata. Validate in a separate output
+directory with a temporary copy of the identity registry before preparing that
+migration.
 For a separate test collection use `--start YYYY-MM --end YYYY-MM`, and separate
 output and identity paths. The importer interprets two-digit issue years as
 1900–1999. Missing,
@@ -148,6 +150,28 @@ correct line and list the new entry's line in `new_lines`. Ordinary unique new
 entries do not require decisions. Decisions for another source hash are rejected.
 Commit the correction/decision file, updated identity map, and progress entry
 together. Subsequent unchanged imports do not need the decisions file.
+
+## 1994–1995 source merge
+
+The additional National Library scrapes in `TOC-1994.md` and `TOC-1995.md` are
+cleaned and appended to `TOC.md`: 690 entries for 1994 and 1,121 for 1995. The
+combined source contains 146 monthly issues and 7,110 entries. Existing source
+bytes through December 1993 are unchanged.
+
+Cleanup uses the existing `## YY.MM` headings and nested Markdown bullets,
+normalizes fullwidth slashes, converts broken TeX/subscript markup to plain
+text, and changes the August 1995 CD-ROM entry's trailing `/ 410` to `= 410`.
+All supplied entries remain in their original order and indentation. The initial
+cleanup retained uncertain wording for source review. The subsequent
+[1994–1995 correction pass](TOC-SOURCE-REVIEW-1994-1995.md) resolves the January
+1994 `○` placeholders and other confirmed transcription errors against scans and
+restored CD text. Questionable nesting remains; missing information is added only
+when explicitly visible in the source.
+
+An isolated import with `--end 1995-12` and a temporary copy of the identity
+registry validates all 146 issues without errors and preserves all 5,299 existing
+identity records, their allocators, and retired IDs. Its outputs are temporary;
+the pinned catalog and reader still use the earlier imported source.
 
 ## Earlier expansion and historical snapshots
 

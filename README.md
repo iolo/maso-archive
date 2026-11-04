@@ -163,8 +163,11 @@ See [adding covers and retiring legacy JPEGs](docs/READING-ROOM.md#add-or-replac
 | Combined | 152 | 3,386 | 3,378 | 3,212 |
 
 The archive target is November 1983–December 1995 (146 monthly issues).
-The supplied library TOCs cover 122 issues through December 1993, with 5,299
-entries after the owner’s manual corrections. The 152 navigation groups are
+`TOC.md` now covers all 146 issues through December 1995, with 7,110 entries,
+including the additional National Library TOCs for 1994–1995. The pinned reader
+catalog still covers 122 issues through December 1993, with 5,299 entries after
+the owner’s manual corrections; the new source entries await a separate catalog
+migration. The 152 navigation groups are
 **not 152 distinct verified printed issues**: CD2/CD3 keep their own identities,
 overlapping dates and CD3's
 anomalous 1994/1996 labels and undated group. No later TOC associations were
