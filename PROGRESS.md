@@ -1,5 +1,24 @@
 # Progress
 
+## 2026-11-04 — Preserve March MUD equipment and scenario continuation
+
+- Restored PDF 274–279 as immutable native c: 255 exact selected files, 64 exact
+  crops, 61 OCR outcomes, 1,669 typed ranges and 487 reading rows. Preserve 94 table
+  cells/ten headers, three original charts/65 printed labels, two English examples
+  and the original map-photo. No curve values or photo-interior text are invented.
+- Twelve continuations include one source paragraph break. One source pass, zero
+  retries, 28 pre-OCR repairs, one within-pass layout correction and zero post-pass
+  text changes. A retained caption-record revision changes four administrative
+  JSON files while text/assets/raws remain exact. All 2,770 earlier March files
+  and thirty core pins stay unchanged; the 214-test baseline is reused.
+- Six range and fourteen source-context faults are rejected. Natives a/b/c now
+  preserve 262–279 of the 28-page source extent. Next 280–285, final 286–289,
+  complete assembly and final child anchors. Totals remain four readable articles,
+  one partial, one heading and 84 unresolved identities.
+- Full March goal remains active through remaining bodies/classifications, page
+  accounting, cover and standalone closeout. No reader build or deployment.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Preserve March MUD continuation and establish its extent
 
 - Restored PDF 268–273 as immutable native b: 246 exact files, 66 exact crops,

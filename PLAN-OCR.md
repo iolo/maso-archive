@@ -37,23 +37,22 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 05 preserves feature 0003 continuation PDF 268–273 as immutable partial
-native b: 246 independent/fresh-process exact files, 66 exact crops, 57 outcomes,
-3,606 typed ranges and 418 reading rows, including thirteen explicit printed
-omission/rule markers. The directory retains 97 rows/388 cells/six blank IP cells;
-terminal examples retain thirty race cells, thirteen user rows/85 cells and twenty
-arrow annotations. Two literal captions, nine original assets and four internal
-continuations remain. Both original 267→268 native contexts validate separately.
-One source pass, zero retries/within/post-pass source changes; a serializer path
-failure is retained and repaired without changing source text or OCR.
-Part 1 main prose ends on 270, with examples through 272. Part 2 opens 273/265;
-Part 3 opens 283/275. Layout review identifies the complete 262–289 source extent,
-ending 289/281 with a disk-file table before advertisement 290. Later pages are
-layout/extent-reviewed, not restored. Natives a/b preserve 262–273; next restore
-274–279, followed by 280–289, actual parent assembly and final child anchors.
+Batch 06 preserves feature 0003 pages 274–279 as immutable partial native c:
+255 independent/fresh-process exact files, 64 exact crops, 61 outcomes, 1,669 typed
+ranges and 487 reading rows. Two table grids retain 94 data cells/ten headers;
+three original charts retain 53 printed axis ticks/twelve legend words. Two English
+examples, three map-bullet contexts and original map-photo remain separate.
+Twelve internal continuations preserve one new paragraph with double LF. The
+incoming 273→274 boundary starts a subsection; outgoing 279→280 continues `다`→`운`.
+One source pass, zero retries, two pre-OCR maps/28 repairs, one within-pass paragraph
+separator correction and zero post-pass text changes. A fresh retained export
+revision clarifies caption-review wording; source text, assets and raw OCR are exact.
+Natives a/b/c now preserve 262–279 of the reviewed 28-page extent 262–289.
+Next preserve 280–285, completing Part 2 through 282 and starting Part 3 on 283,
+then final 286–289, actual complete assembly and final child anchors.
 Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
-All 1,870 earlier March files/thirty core pins remain exact; the unchanged
-214-test baseline is reused. See [March progress](docs/progress/9503.md).
+All 2,770 earlier March files/thirty core pins remain exact; the unchanged 214-test
+baseline is reused. See [March progress](docs/progress/9503.md).
 The full March goal remains active; no reader rebuild or deployment.
 
 The historical 1995 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
