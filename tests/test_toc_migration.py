@@ -94,19 +94,24 @@ class TocMigrationTests(unittest.TestCase):
                 dest=stage/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(root/name,dest)
             for directory in ['data/catalog/toc-migrations','data/catalog/toc-snapshots','data/overrides']:
                 shutil.copytree(root/directory,stage/directory)
+            # Both logical data/ paths and canonical metadata/ pins occur in history.
+            (stage/'metadata').symlink_to('data', target_is_directory=True)
             source_sha = old['source']['sha256']
             from tools.toc_snapshot import Snapshot
             snapshot=Snapshot(root,'data/catalog/toc-snapshots/'+source_sha+'.json')
             snapshot.restore()
             shutil.copytree(snapshot.directory,stage/'work/cache/toc-snapshots'/source_sha)
-            run_import(stage/'TOC.md',stage/'build/toc',stage/'data/identities/toc.json')
+            run_import(stage/'TOC.md',stage/'build/toc',stage/'data/identities/toc.json', end='1995-12')
             record, _ = load_migration(stage/'build/toc',reference,stage)
             old_entries=snapshot.artifact('toc-entries.jsonl')
             new_entries=[json.loads(l) for l in (stage/'build/toc/toc-entries.jsonl').read_text().splitlines()]
             for issue in ['maso-1983-11','maso-1984-02']:
                 strip=lambda rows:[{k:v for k,v in e.items() if k!='source'} for e in rows if e['issue_id']==issue]
                 self.assertEqual(strip(old_entries),strip(new_entries))
-            self.assertEqual(record['counts'],dict(previous_entries=5497,current_entries=5299,preserved_ids=5032,new_ids=267,retired_ids=465))
+            self.assertEqual(record['counts'],dict(previous_entries=5497,current_entries=7110,preserved_ids=5032,new_ids=2078,retired_ids=465))
+            self.assertEqual(record['incremental_counts']['preserved_ids'], 5299)
+            self.assertEqual(record['incremental_counts']['new_ids'], 1811)
+            self.assertEqual(record['incremental_counts']['retired_ids'], 0)
 
 
 if __name__ == '__main__':

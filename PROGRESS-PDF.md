@@ -1,10 +1,21 @@
 # PDF restoration progress
 
-Updated 2026-11-03. This file is the status index; detailed records live under
+Updated 2026-11-04. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
+
+The expanded canonical catalog includes all 146 issues through December 1995.
+The November 4 migration preserves all 5,299 previous identities and allocators
+and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
+1,021 identities and 781 provisional article candidates. The nineteen completed
+issue passes retain all 828 original outcomes exactly. March 1995's ninety
+identities and July 1995's 103 are newly queued and unresolved. March is next;
+July follows before PLAN-PDF steps 13–14 aggregation and handoff. Existing CD3
+content is corroboration, without automatic canonical article links.
+See [campaign progress](docs/progress/campaign.md) and the
+[migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
 March 1993 is complete as a supplied-PDF JSON/assets restoration pass: 41 readable/
 sample-reviewed articles, no partials, seven groups, three final section references
@@ -4255,6 +4266,10 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
 | 1985-02 | Classification in progress | 22 readable; 0 partial; 2 headings; 32 unresolved | [8502](docs/progress/8502.md) |
+
+The table above is a historical partial index; use the current
+[issue directory](docs/progress/README.md) for completed later passes and the
+1995 continuation.
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

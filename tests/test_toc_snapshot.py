@@ -90,6 +90,30 @@ class SnapshotTests(unittest.TestCase):
             self.assertEqual(before, {p.name: p.read_bytes() for p in output.iterdir()})
             self.assertEqual(before_ids, identities.read_bytes())
 
+    def test_1995_expansion_preserves_the_corrected_catalog_and_allocators(self):
+        source_sha = '725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56'
+        snapshot = Snapshot(ROOT, f'data/catalog/toc-snapshots/{source_sha}.json')
+        snapshot.restore()
+        old_registry = json.loads(snapshot.read('data/identities/toc.json'))
+        old_entries = snapshot.artifact('toc-entries.jsonl')
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            identities = root / 'identities.json'
+            identities.write_bytes(snapshot.read('data/identities/toc.json'))
+            run_import(ROOT / 'TOC.md', root / 'output', identities, end='1995-12')
+            registry = json.loads(identities.read_bytes())
+            entries = [json.loads(line) for line in (root / 'output/toc-entries.jsonl').read_bytes().splitlines()]
+            self.assertEqual(registry['entries'][:5299], old_registry['entries'])
+            self.assertEqual(registry['retired_ids'], old_registry['retired_ids'])
+            for issue, serial in old_registry['next_serial'].items():
+                self.assertEqual(registry['next_serial'][issue], serial)
+            self.assertEqual(len(entries), 7110)
+            for old, new in zip(old_entries, entries):
+                new['source']['id'] = old['source']['id']
+                self.assertEqual(old, new)
+            self.assertEqual(len([r for r in entries if r['issue_id'] == 'maso-1995-03']), 90)
+            self.assertEqual(len([r for r in entries if r['issue_id'] == 'maso-1995-07']), 103)
+
 
 if __name__ == "__main__":
     unittest.main()

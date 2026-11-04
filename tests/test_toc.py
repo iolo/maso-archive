@@ -188,13 +188,13 @@ class ImportTests(unittest.TestCase):
 
     def test_actual_toc_complete_and_traceable(self):
         source = ROOT / "TOC.md"
-        report = run_import(source, self.output, self.ids)
-        self.assertEqual(report["counts"]["issues"], 122)
-        self.assertEqual(report["counts"]["entries"], 5299)
+        report = run_import(source, self.output, self.ids, end="1995-12")
+        self.assertEqual(report["counts"]["issues"], 146)
+        self.assertEqual(report["counts"]["entries"], 7110)
         self.assertEqual(report["errors"], [])
         lines = source.read_text(encoding="utf-8").splitlines()
         entries = self.entries()
-        self.assertEqual(len({entry["id"] for entry in entries}), 5299)
+        self.assertEqual(len({entry["id"] for entry in entries}), 7110)
         self.assertEqual(
             {entry["source"]["line_start"] for entry in entries},
             {i for i, line in enumerate(lines, 1) if line.lstrip().startswith("- ")},

@@ -1,6 +1,21 @@
-# Successor handoff — 2026-11-03
+# Successor handoff — 2026-11-04
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
+
+## Active PDF continuation
+
+The owner authorized the expanded catalog migration and restoration of the two
+remaining supplied PDFs on November 4. The current catalog contains 146 issues,
+7,110 entries and 5,196 provisional article candidates; all 5,299 previous IDs
+and allocators remain unchanged. The PDF queue at
+`archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl` contains 1,021
+identities across all 21 supplied issues and preserves all 828 earlier outcomes.
+March 1995 is next (ninety identities), followed by July (103); the older
+cover-only exclusion is superseded. See [PLAN-PDF](../PLAN-PDF.md) and the
+[migration receipt](../metadata/catalog/toc-imports/2026-11-04.json).
+Existing reader outputs, CD data, completed restoration packages and historical
+fingerprints remain unchanged. The reader's November 3 input selection retains
+the old catalog pin; prepare a new selection only when reader delivery is requested.
 
 ## Session wrap-up
 

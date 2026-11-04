@@ -144,8 +144,11 @@ The default output is `private/pdf-restoration/inventory/`:
 - `evidence/`: raw Poppler page metadata and existing text layers. Text-layer
   presence says nothing about legibility or OCR success.
 - `report.json`: reconciled source totals and counts by issue, hashed output
-  references and explicit limits. The two 1995 sources have cover-only scope
-  and no invented canonical TOC issue identity.
+  references and explicit limits. Since the November 4 catalog expansion, both
+  1995 sources have canonical TOC entries and article-and-cover scope. The current
+  inventory is `archive/pdf/shared/restoration/inventory-2026-11-04/`; the queue
+  retaining all nineteen completed outcomes is
+  `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`.
 
 Inventory validates the full source set, expected plan totals, current TOC hash,
 identity ledger, schema and all structured snapshot artifacts before publishing.

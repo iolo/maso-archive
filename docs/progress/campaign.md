@@ -8,6 +8,42 @@ These are historical records; current policy and next issue are in the index.
 
 ## Checkpoint records
 
+### 2026-11-04 — Expanded catalog and remaining PDF queue complete
+
+- Imported the owner-expanded/source-reviewed TOC through December 1995: 146
+  issues, 7,110 entries and 5,196 provisional article candidates. All 5,299
+  existing identities, fields, hierarchy, source lines, allocators and retired
+  IDs remain unchanged; 1,811 new IDs are allocated. The earlier current catalog
+  is retained privately and as a reproducible Git-backed snapshot.
+- Repeated import and cumulative replay from the historical CD1 allocator are
+  byte-identical. The cumulative migration retains the earlier owner-correction
+  decisions and explicit successors. No new TOC-to-CD associations are inferred.
+- Inventoried all 21 original PDFs again: 6,615 pages and 2,664,455,314 bytes.
+  Every source hash, page-metadata row and raw metadata/text-layer evidence file
+  matches the original inventory. Both 1995 PDFs now have article-and-cover scope.
+- The current queue is
+  `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`: 1,021 entries and
+  781 provisional candidates. All 828 outcomes from nineteen completed passes
+  survive exactly, including gaps, partials and two previously recorded September
+  title variants. March 1995 adds ninety unresolved identities; July adds 103.
+  Two independently generated queue packages match byte for byte.
+- All 22 TOC tests and 213 PDF tests pass. An initial isolated TOC test fixture
+  lacked the repository's data/metadata alias; the fixture was corrected and the
+  failed log retained. The default CLI import now includes December 1995; the
+  Python API's historical default remains explicit in the guide.
+- Existing CD reference manifest pins remain exact. The historical deployed
+  reader receipt does not establish a current local build: its local data manifest
+  is absent. An initial finalizer assumed it existed; that failed check is retained
+  and the revised audit records its absence. No article restoration, OCR, source correction, reader
+  rebuild or deployment occurred in this checkpoint. The old reader selection
+  retains its original catalog pin; a future reader rebuild needs a new selection.
+- Receipt: [2026-11-04](../../metadata/catalog/toc-imports/2026-11-04.json).
+  Preparation, independent exports, replay, validation and failed evidence remain
+  under `archive/toc/restoration/expansion-1995-2026-11-04/`.
+- Next: March 1995 source/contents verification and the first bounded article,
+  followed by the remaining issue pass and separate closeout, then July 1995.
+  Collection aggregation and final handoff follow both issues.
+
 ### Current handoff — 2026-10-14
 
 August JSON/assets restoration is complete: 37 readable, assistant sample-reviewed

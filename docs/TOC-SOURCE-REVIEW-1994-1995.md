@@ -40,8 +40,10 @@ The log also records deliberately retained printed readings, including February
 the printed TOC: September's scan reads `The Way Thing Work`, while CD3 reads
 `The Way Things Work`. The transcription follows the scan.
 
-The merged source still contains 146 issues and 7,110 entries. Validation uses
-an isolated import through December 1995 and a temporary copy of the identity
-registry. The versioned identity registry, catalog pins, historical reviews,
-restored articles, original images, and reader outputs are unchanged; catalog
-migration remains separate work.
+At source-review closeout, the merged source contained 146 issues and 7,110
+entries. An isolated import with a temporary registry validated that source;
+the versioned registry, catalog pins, historical reviews, restored articles,
+original images and reader outputs remained unchanged. The subsequently
+authorized November 4 catalog migration is recorded in
+[TOC import](TOC-IMPORT.md#1994–1995-source-merge). It preserves every previous
+identity and historical restoration package. Reader delivery remains separate.

@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-04 — Import expanded TOCs and queue the remaining PDFs
+
+- Imported the source-reviewed 1994–1995 addition: 146 issues/7,110 entries,
+  preserving all 5,299 existing identities and allocators and adding 1,811 IDs.
+  Repeated import and historical CD1 replay are byte-identical; historical
+  catalogs and explicit association decisions remain preserved.
+- Expanded PDF scope to all 21 supplied sources/1,021 TOC identities. All 828
+  outcomes from nineteen completed issue passes remain exact. March 1995 adds
+  ninety unresolved identities and July 1995 adds 103; restoration continues in
+  that order before collection aggregation. All source bytes and page evidence
+  remain unchanged. See [PDF plan](PLAN-PDF.md).
+- All 22 TOC and 213 PDF tests pass. Existing CD packages and reader outputs
+  remain unchanged; no reader rebuild or deployment. See the
+  [migration receipt](metadata/catalog/toc-imports/2026-11-04.json) and
+  [campaign record](docs/progress/campaign.md).
+
 ## 2026-11-03 — Deploy the complete volunteer reader with a new share token
 
 - Published the verified 4,066-record reader to the existing dedicated Cloudflare

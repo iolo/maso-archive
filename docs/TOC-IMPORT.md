@@ -59,12 +59,13 @@ PYTHONPATH=src python3 -m maso_archive import-toc \
   --identities data/identities/toc.json
 ```
 
-The default import period remains November 1983–December 1993, matching the
-pinned catalog. `TOC.md` now extends through December 1995; importing the expanded
-source requires `--end 1995-12`. The source merge alone does not migrate the
-identity registry, catalog pins, or reader metadata. Validate in a separate output
-directory with a temporary copy of the identity registry before preparing that
-migration.
+The CLI's default import period is November 1983–December 1995. The November 4
+catalog migration imports the expanded source while preserving every previous
+identity and allocator. The Python `run_import` API retains its historical
+December 1993 default; pass the recorded period explicitly for replay. Historical
+catalogs and reader outputs retain their original fingerprints. A future source
+change must first validate in a separate output directory with a temporary copy
+of the identity registry before preparing a reviewed migration.
 For a separate test collection use `--start YYYY-MM --end YYYY-MM`, and separate
 output and identity paths. The importer interprets two-digit issue years as
 1900–1999. Missing,
@@ -190,10 +191,16 @@ cleanup retained uncertain wording for source review. The subsequent
 restored CD text. Questionable nesting remains; missing information is added only
 when explicitly visible in the source.
 
-An isolated import with `--end 1995-12` and a temporary copy of the identity
-registry validates all 146 issues without errors and preserves all 5,299 existing
-identity records, their allocators, and retired IDs. Its outputs are temporary;
-the pinned catalog and reader still use the earlier imported source.
+The November 4 migration imports all 146 issues, 7,110 entries and 5,196
+provisional article candidates without errors. It preserves all 5,299 existing
+identity records, their allocators and retired IDs, and allocates 1,811 new IDs.
+The old current catalog is retained as a Git-backed snapshot and in the private
+migration evidence. Independent import and cumulative replay from the historical
+CD1 allocator reproduce the expanded catalog exactly. The cumulative migration
+retains the prior owner-correction decisions and explicit successors; no new CD
+article associations are inferred. See
+[`2026-11-04.json`](../metadata/catalog/toc-imports/2026-11-04.json).
+The existing reader remains unchanged; delivery of expanded metadata is separate.
 
 ## Earlier expansion and historical snapshots
 

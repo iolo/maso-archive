@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ISSUES = ('8311 8402 8403 8405 8406 8407 8408 8409 8410 8412 '
           '8502 8503 8510 8511 8801 9108 9109 9212 9303 9503 9507').split()
 EXPECTED = dict(sources=21, pages=6615, bytes=2664455314,
-                toc_issues=19, toc_entries=828, article_candidates=686)
+                toc_issues=21, toc_entries=1021, article_candidates=781)
 
 
 def digest(path):
@@ -153,9 +153,9 @@ def inventory(root=ROOT, output=None):
             sources.append(dict(id=identifier, **before, filename_issue_label=label,
                                 provisional_issue_id=issue_id if issue_id in issue_ids else None,
                                 identity_status='filename-only-unverified',
-                                identity_conflicts=[] if issue_id in issue_ids or label in ('9503', '9507')
+                                identity_conflicts=[] if issue_id in issue_ids
                                 else ['filename-has-no-toc-issue'],
-                                scope='cover-only' if label in ('9503', '9507') else 'toc-entries-and-cover',
+                                scope='toc-entries-and-cover' if issue_id in issue_ids else 'cover-only',
                                 page_count=count, pages=pages,
                                 text_layer_status='some-extractable-text' if any(t['extractable_text'] for t in text)
                                 else 'no-extractable-text',

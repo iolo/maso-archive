@@ -17,7 +17,7 @@ def main():
     toc.add_argument("--identities", type=Path, default=Path("metadata/identities/toc.json"))
     toc.add_argument("--decisions", type=Path, help="Explicit ID reuse/deletion decisions")
     toc.add_argument("--start", default="1983-11")
-    toc.add_argument("--end", default="1993-12")
+    toc.add_argument("--end", default="1995-12")
     index = commands.add_parser("import-cd1-index", help="Import the three extracted CD1 indexes")
     index.add_argument("--source-dir", type=Path, default=Path("archive/cd1/extraction/raw"))
     index.add_argument("--manifest", type=Path, default=Path("archive/cd1/extraction/manifest.json"))

@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-11-03. Read this before future PDF restoration. This is the current
+Updated 2026-11-04. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -22,6 +22,15 @@ experiments, not production defaults. Ordinary restoration does not require
 paired OCR or a new engine comparison.
 
 ## Current restoration state
+
+The November 4 canonical catalog migration adds the 1994–1995 TOCs without
+changing any previous identity or restored package. The current PDF queue is
+`archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`: 1,021 identities
+across 21 supplied PDFs, including all 828 unchanged prior outcomes. March 1995
+(ninety identities) is next, followed by July 1995 (103). The historical 1995
+cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
+and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader
+rebuild is included. Earlier detailed checkpoints below are historical records.
 
 March 1993 is complete as a supplied-PDF JSON/assets restoration pass with an explicit eligible-but-unlocated body outcome. Batch 01 delivers complete column 0005 on PDF 100–101/
 printed 98–99: 82 independently exact JSON/assets files, twenty exact source crops,

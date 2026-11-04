@@ -1,5 +1,34 @@
 # Step-by-step PDF restoration plan
 
+## Current continuation — 2026-11-04
+
+The owner authorized continuing with the remaining supplied PDFs after the
+1994–1995 TOC addition and source review. The canonical catalog now contains
+146 issues and 7,110 entries through December 1995. All 5,299 previous identities,
+their allocators, hierarchy and retired IDs remain unchanged. The reviewed
+catalog migration preserves historical CD/PDF inputs and does not rebuild the reader.
+
+The current PDF queue is
+`archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`: **1,021 identities
+and 781 provisional article candidates across all 21 supplied PDFs**. All 828
+outcomes from the nineteen completed issue passes remain copied exactly, including
+partials, unresolved eligibility and unlocated bodies. March 1995 adds ninety
+identities; July 1995 adds 103. Candidate counts are provisional, not final body totals.
+
+**March 1995 is next, followed by July 1995**, with the same bounded mapping,
+mapped-Tesseract, source-review, immutable-package and separate-closeout workflow.
+The old 1995 cover-only restriction is superseded. Existing TOC entries are the
+queue; no new transcription or automatic CD3 association is required. Preserve
+native CD3 metadata and establish any comparison links from evidence. July's
+incomplete donated TOC scans remain an explicit verification limit.
+
+Complete both issue passes before collection aggregation and handoff in steps
+13–14. No new reader build or deployment is authorized by this restoration work.
+Migration evidence is retained under
+`archive/toc/restoration/expansion-1995-2026-11-04/` and indexed by
+`metadata/catalog/toc-imports/2026-11-04.json`. Older dated next-step statements
+and campaign totals below describe their historical checkpoints.
+
 Storage update, 2026-10-16: follow the [successive-issue workflow](docs/STORAGE.md#successive-restoration)
 for new work. Keep unfinished batches, raw OCR, corrections, recipes and review
 evidence under `archive/pdf/YYYY-MM/`; preserve them after issue closeout too.
@@ -6147,14 +6176,13 @@ under [PLAN-reading-room.md](PLAN-reading-room.md), when requested.
   existing reduced-image assets and viewer/gallery work without modifying them.
   TOC presentation is outside this plan. Completed scan comparison reports remain
   pinned historical evidence; a new catalog hash does not silently reapprove them.
-- The corrected import contains 5,299 entries across 122 issues. The PDF queue
-  now contains **828 entries and 686 provisional article candidates** across the
-  same 19 eligible PDFs. These replace the original 839/684 sizing totals below.
-  November's 47 entries and February's 43 entries are unchanged.
-- Current PDF queue: `private/pdf-restoration/inventory-2026-10-01/queue.jsonl`.
-  Its report pins the original source inventory and November completion ledger;
-  `completed_outcome` preserves finished classifications and restoration states.
-  Original inventory and step 11 closeout records remain historical artifacts.
+- The current import contains 7,110 entries across 146 issues. The PDF queue
+  contains **1,021 entries and 781 provisional article candidates** across all
+  21 supplied PDFs. November's 47 entries and February's 43 remain unchanged.
+- Current PDF queue: `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`.
+  Its report pins the refreshed source inventory and nineteen completed ledgers;
+  `completed_outcome` preserves all 828 finished classifications and restoration
+  states exactly. Original inventories and closeouts remain historical artifacts.
 
 ## Inspected starting point
 
@@ -6244,7 +6272,7 @@ no article-boundary investigation.
   classifications. Preserve page-less and ambiguous entries for later review.
   Resolve article versus heading decisions during local mapping, separately
   from the historical snapshot.
-- Record the two 1995 PDFs as cover-only. Flag any source/TOC identity conflict
+- Include both 1995 PDFs using the expanded canonical TOC. Flag any source/TOC identity conflict
   for visual verification rather than inventing an association.
 
 **Artifact/check:** a source manifest and provisional queue reconcile to 21 PDFs,
@@ -6837,14 +6865,14 @@ they do not impose rendering or reader acceptance on remaining issues.
 
 - Reconcile each issue, produce its JSON index/report, and validate its article
   packages and extracted assets before starting the next issue.
-- Keep advertisements, unlisted material, and 1995 article bodies outside the
+- Keep advertisements and unlisted material outside the
   extraction queue. Keep unresolved classification and source-label conflicts
   visible rather than inflating restoration totals.
 
 **Artifact/check per batch and issue:** the same outputs/checks as step 11, with
-an issue progress entry. **Milestone check:** all 828 current TOC entries are accounted
-for (839 in the initial snapshot; corrected by the owner after step 11); each eligible
-article has an outcome and the two 1995 sources remain cover-only. Report actual
+an issue progress entry. **Milestone check:** all 1,021 current PDF TOC entries are accounted
+for (828 before the 1994–1995 catalog expansion); each eligible
+article has an outcome, including both supplied 1995 issues. Report actual
 usable coverage separately from complete queue accounting.
 
 ## 13. Reconcile the complete JSON and asset collection
@@ -6854,12 +6882,12 @@ usable coverage separately from complete queue accounting.
 CD references; aggregation only, with no new restoration or UI features.
 
 - Reconcile manifests, source hashes, identities, TOC membership, outcome totals,
-  review coverage, covers, and links across the 19 eligible issues.
+  review coverage, covers, and links across all 21 supplied issues.
 - Build an aggregate JSON index and file/hash manifest referencing completed
   issue indexes, article packages, corrections, and assets. Preserve existing
   packages and CD data; do not install or replace reading-room data.
-- Confirm no 1995 article records were added. Account for available 1995 cover
-  assets without inventing canonical TOC or CD issue associations.
+- Include both 1995 issue outcomes and available covers. Preserve canonical TOC
+  identities and require evidence for CD article associations.
 
 **Artifact/check:** a validated JSON/asset collection and coverage report
 distinguishing usable results, unresolved eligibility, and restoration gaps.
