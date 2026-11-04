@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-04 — Finalize March backup and Soundex references
+
+- Batch 18 finalizes0020/0021 into complete Q&A0017. Backup246/238 includes its
+  batch example andscreenshot;Soundex248–249/240–241 includes allfive code contexts.
+  Source/canonical comma variant remains;main Q&A bodies stay separate.
+- Four reference/title/status files reproduce exactly;47 ranges,22 parent-owned
+  regions and18 invalid cases validate. All396 parent files,11,859 earlier files
+  andthirty core modules remain exact. No new OCR orsource correction.
+- Totals: eleven readable,zero partial,three groups,six references,70 unresolved.
+  Next0022/0023 CD/ftp references. FLC0019 remains unlocated in the observed bundle.
+  Full March goal remains active through remaining restoration,545-page accounting,
+  cover andseparate closeout before July. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Complete March Q&A bundle and first child
 
 - Batch 17 completes parent0017 on PDF244–249/printed236–241 and child0018's
