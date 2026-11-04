@@ -27,7 +27,10 @@ The November 4 canonical catalog migration adds the 1994–1995 TOCs without
 changing any previous identity or restored package. The current PDF queue is
 `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`: 1,021 identities
 across 21 supplied PDFs, including all 828 unchanged prior outcomes. March 1995
-(ninety identities) is next, followed by July 1995 (103). The historical 1995
+(ninety identities) is active, followed by July 1995 (103). Batch 01 completes
+editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
+recognitions, one source correction pass, zero retries/crop changes. One readable
+article/89 unresolved; next reader voices0002 on PDF152–153/144–145. The historical 1995
 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
 and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader
 rebuild is included. Earlier detailed checkpoints below are historical records.

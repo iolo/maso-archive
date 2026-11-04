@@ -10,12 +10,22 @@ remaining supplied PDFs on November 4. The current catalog contains 146 issues,
 and allocators remain unchanged. The PDF queue at
 `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl` contains 1,021
 identities across all 21 supplied issues and preserves all 828 earlier outcomes.
-March 1995 is next (ninety identities), followed by July (103); the older
+March 1995 is active (ninety identities), followed by July (103); the older
 cover-only exclusion is superseded. See [PLAN-PDF](../PLAN-PDF.md) and the
 [migration receipt](../metadata/catalog/toc-imports/2026-11-04.json).
 Existing reader outputs, CD data, completed restoration packages and historical
 fingerprints remain unchanged. The reader's November 3 input selection retains
 the old catalog pin; prepare a new selection only when reader delivery is requested.
+The historical reader receipt does not establish a current local build; its
+local data manifest is absent in this session.
+
+March batch 01 completes editorial0001 on PDF151/printed143: one readable article,
+89 unresolved identities. Its 25-file package reproduces independently/in a fresh
+process; five exact crops, four raw outcomes, 64 typed ranges/seven paragraphs and
+one source pass with zero retries validate. All 214 PDF tests pass. Next verify and
+restore reader voices0002 on PDF152–153/printed144–145. See
+[March progress](progress/9503.md) and
+`archive/pdf/1995-03/restoration/batch-01/reproduction.json`.
 
 ## Session wrap-up
 

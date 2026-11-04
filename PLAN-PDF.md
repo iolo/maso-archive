@@ -15,12 +15,20 @@ outcomes from the nineteen completed issue passes remain copied exactly, includi
 partials, unresolved eligibility and unlocated bodies. March 1995 adds ninety
 identities; July 1995 adds 103. Candidate counts are provisional, not final body totals.
 
-**March 1995 is next, followed by July 1995**, with the same bounded mapping,
+**March 1995 is in progress, followed by July 1995**, with the same bounded mapping,
 mapped-Tesseract, source-review, immutable-package and separate-closeout workflow.
 The old 1995 cover-only restriction is superseded. Existing TOC entries are the
 queue; no new transcription or automatic CD3 association is required. Preserve
 native CD3 metadata and establish any comparison links from evidence. July's
 incomplete donated TOC scans remain an explicit verification limit.
+
+March batch 01 completes editorial0001 on PDF151/observed printed143: 25
+independent/fresh-process exact files, five pixel-exact crops, four OCR outcomes,
+64 typed ranges and seven paragraphs/thirty body rows. Printed title and editor
+credit remain separate from canonical metadata. One source correction pass and
+zero retries/crop changes; 214 PDF tests pass. One readable article and 89
+unresolved identities remain. Next verify/restore reader voices0002 on observed
+PDF152–153/printed144–145. See [March progress](docs/progress/9503.md).
 
 Complete both issue passes before collection aggregation and handoff in steps
 13–14. No new reader build or deployment is authorized by this restoration work.

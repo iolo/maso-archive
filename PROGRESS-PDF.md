@@ -11,11 +11,20 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities and July 1995's 103 are newly queued and unresolved. March is next;
-July follows before PLAN-PDF steps 13–14 aggregation and handoff. Existing CD3
+identities now have one readable editorial and 89 unresolved outcomes; July
+1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
+steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
+
+March 1995 batch 01 restores the complete editorial on PDF151/printed143:
+25 independently/fresh-process exact files, five pixel-exact crops, four raw
+outcomes, 64 typed ranges and seven paragraphs/thirty body rows. Source title
+`소프트웨어의 세계화` and editor credit remain separate from canonical metadata.
+One source correction pass, zero retries/crop changes; all 214 PDF tests pass.
+Next verify/restore reader voices0002 on observed PDF152–153/printed144–145.
+See [March 1995 progress](docs/progress/9503.md).
 
 March 1993 is complete as a supplied-PDF JSON/assets restoration pass: 41 readable/
 sample-reviewed articles, no partials, seven groups, three final section references

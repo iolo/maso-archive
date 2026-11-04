@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-04 — Restore the first March 1995 article
+
+- Initialized all ninety canonical identities and verified the 545-page source
+  and pinned OCR runtime. Editorial0001 is complete on PDF151/printed143; source
+  title and editor credit remain separate from the canonical TOC label/null byline.
+- The 25-file JSON/assets package matches independent/fresh-process exports.
+  Five crops, four OCR outcomes, 64 typed range occurrences and seven paragraphs/
+  thirty body rows validate; six semantic range faults are rejected. One source
+  pass, zero retries/crop changes. All 214 PDF tests pass. Existing issue ledgers,
+  selected input manifests and CD reference manifests remain exact.
+- March remains active: one readable article and 89 unresolved identities. Next
+  verify/restore reader voices0002 on PDF152–153/printed144–145. No reader rebuild
+  or deployment. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Bind new PDF recipes to their expanded inventory
 
 - Added an optional pair of pinned source/queue inventory files to the article
