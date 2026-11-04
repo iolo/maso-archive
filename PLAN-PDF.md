@@ -44,11 +44,22 @@ physical rows. Four headings, independent quotation/question, biography and thre
 boundaries retain original contexts; the paragraph break before page 157 remains.
 One source pass, zero retries or within/post-pass changes. Group 0007 is non-owning
 from contents/repeated banners; three exact evidence files and nine ownership
-faults validate. All earlier files/thirty core pins remain unchanged. Current
-totals: four readable, one heading, 85 unresolved. Next feature 0003's actual
-opening/ending/three section starts and at most six opening body pages; final
-children 0004–0006 anchors follow actual parent assembly. See
-[March progress](docs/progress/9503.md). The full March restoration goal remains active.
+faults validate. All earlier files/thirty core pins remain unchanged. Batch 04
+continues its feature next step below; full extent verification remains pending.
+
+Batch 04 preserves feature 0003's opening PDF 262–267 as an immutable partial
+native: 174 independent/fresh-process exact files, 46 exact crops, forty outcomes,
+686 typed ranges and 385 rows. Three independent sidebars, six original assets,
+ten internal joins and the outgoing continuation to 268 retain their contexts.
+One source pass and zero retries/within/post-pass source changes. Four pre-OCR maps
+remain; one administrative report-count correction changes no package. Current
+totals: four readable, one partial, one non-owning heading, 84 unresolved.
+The twenty outside-page limit leaves actual Part 2 opening and final page unverified;
+Part 1 opens 263/255 and Part 3 opens 283/275. Next preserve 268–273 and inspect
+289 against advertisement 290 under fresh bounds. Complete parent assembly and
+final children 0004–0006 anchors remain pending. All earlier files/thirty core pins
+remain exact; the unchanged 214-test baseline is reused. See
+[March progress](docs/progress/9503.md). The full March goal remains active.
 
 Complete both issue passes before collection aggregation and handoff in steps
 13–14. No new reader build or deployment is authorized by this restoration work.

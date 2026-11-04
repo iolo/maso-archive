@@ -35,11 +35,23 @@ completes reader voices0002 and user column0008 on PDF152–155:219 exact files,
 post-pass transcription artifact repair. One damaged source extent stays marked.
 Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
-pass and zero retries/within/post-pass changes. Current totals: four readable,
-one heading/85 unresolved. Next feature 0003's verified extent and bounded opening;
-final child anchors follow actual parent assembly. All thirty core modules
-unchanged; 214-test baseline retained. The historical 1995
-cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
+pass and zero retries/within/post-pass changes.
+
+Batch 04 preserves feature 0003's opening PDF 262–267 as an immutable partial
+native: 174 independent/fresh-process exact files, 46 exact crops, forty outcomes,
+686 typed ranges and 385 rows. Three independent sidebars, six original assets,
+ten internal joins and the outgoing continuation to 268 retain their contexts.
+One source pass and zero retries/within/post-pass source changes. Four pre-OCR maps
+remain; one administrative report-count correction changes no package. Current
+totals: four readable, one partial, one non-owning heading, 84 unresolved.
+The twenty outside-page limit leaves actual Part 2 opening and final page unverified;
+Part 1 opens 263/255 and Part 3 opens 283/275. Next preserve 268–273 and inspect
+289 against advertisement 290 under fresh bounds. Complete parent assembly and
+final children 0004–0006 anchors remain pending. All earlier files/thirty core pins
+remain exact; the unchanged 214-test baseline is reused. See
+[March progress](docs/progress/9503.md). The full March goal remains active.
+
+The historical 1995 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
 and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader
 rebuild is included. Earlier detailed checkpoints below are historical records.
 

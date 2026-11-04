@@ -11,22 +11,27 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have four readable articles, one non-owning heading and 85 unresolved outcomes; July
+identities now have four readable articles, one partial feature, one non-owning
+heading and 84 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-March 1995 batch 03 completes developer column 0009 on PDF 156–157/printed 148–149
-and classifies column group 0007 as non-owning. All 80 native/three classification
-files reproduce independently/in fresh processes; 21 exact crops, seventeen
-outcomes, 238 typed ranges and 137 rows validate. Four headings, independent
-quotation/question, biography and three explicit boundaries remain. One source
-pass, zero retries or within/post-pass changes. All earlier files/thirty core
-modules remain exact; 214-test baseline reused. Next verify feature 0003's actual
-extent and preserve its bounded opening; final child anchors follow parent assembly.
-See [March 1995 progress](docs/progress/9503.md).
+Batch 04 preserves feature 0003's opening PDF 262–267 as an immutable partial
+native: 174 independent/fresh-process exact files, 46 exact crops, forty outcomes,
+686 typed ranges and 385 rows. Three independent sidebars, six original assets,
+ten internal joins and the outgoing continuation to 268 retain their contexts.
+One source pass and zero retries/within/post-pass source changes. Four pre-OCR maps
+remain; one administrative report-count correction changes no package. Current
+totals: four readable, one partial, one non-owning heading, 84 unresolved.
+The twenty outside-page limit leaves actual Part 2 opening and final page unverified;
+Part 1 opens 263/255 and Part 3 opens 283/275. Next preserve 268–273 and inspect
+289 against advertisement 290 under fresh bounds. Complete parent assembly and
+final children 0004–0006 anchors remain pending. All earlier files/thirty core pins
+remain exact; the unchanged 214-test baseline is reused. See
+[March progress](docs/progress/9503.md). The full March goal remains active.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
 and user column 0008 on 154–155/146–147: 219 independent/fresh-process exact files,

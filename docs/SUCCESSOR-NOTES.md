@@ -19,15 +19,19 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-March batches 01–03 complete editorial 0001, reader voices 0002 and columns 0008/0009:
-four readable articles, one non-owning heading and 85 unresolved identities.
-Batch 03's 80 native/three classification files reproduce independently/in fresh
-processes; 21 exact crops, seventeen outcomes, 238 ranges and 137 rows validate.
-Four headings, independent quotation/question, biography and explicit source
-boundaries remain. One source pass, zero retries/within/post-pass changes. Group
-0007 does not own either child body. Next feature 0003's actual extent and at most
-six opening pages; children 0004–0006 finalize only after parent assembly.
-All thirty core pins unchanged; 214-test baseline retained.
+Batch 04 preserves feature 0003's opening PDF 262–267 as an immutable partial
+native: 174 independent/fresh-process exact files, 46 exact crops, forty outcomes,
+686 typed ranges and 385 rows. Three independent sidebars, six original assets,
+ten internal joins and the outgoing continuation to 268 retain their contexts.
+One source pass and zero retries/within/post-pass source changes. Four pre-OCR maps
+remain; one administrative report-count correction changes no package. Current
+totals: four readable, one partial, one non-owning heading, 84 unresolved.
+The twenty outside-page limit leaves actual Part 2 opening and final page unverified;
+Part 1 opens 263/255 and Part 3 opens 283/275. Next preserve 268–273 and inspect
+289 against advertisement 290 under fresh bounds. Complete parent assembly and
+final children 0004–0006 anchors remain pending. All earlier files/thirty core pins
+remain exact; the unchanged 214-test baseline is reused. See
+[March progress](progress/9503.md). The full March goal remains active.
 
 Batch 02's219 files reproduce
 independently/in fresh processes;56 exact crops,49 outcomes,586 ranges and327 rows
@@ -36,7 +40,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-03/reproduction.json`.
+`archive/pdf/1995-03/restoration/batch-04/reproduction.json`.
 
 ## Session wrap-up
 

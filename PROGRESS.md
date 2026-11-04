@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-04 — Preserve the partial March MUD opening
+
+- Restored feature 0003 opening PDF 262–267 as immutable native a: 174 exact
+  independent/fresh-process files, 46 exact crops, forty OCR outcomes, 686 typed
+  ranges and 385 physical rows. Three independent sidebars, six original assets,
+  ten joins and outgoing continuation to 268 remain. The opening poster is unpaginated.
+- One source pass, zero retries or within/post-pass source changes. Four pre-OCR
+  map revisions and one administrative report-count correction remain documented.
+  All 1,135 earlier March files/thirty core pins stay exact; 214-test baseline reused.
+- The twenty outside-page limit leaves Part 2's opening and the actual final page
+  unverified. Part 1 opens 263/255; Part 3 opens 283/275. Next native 268–273 plus
+  boundary review of 289 against advertisement 290. Children 0004–0006 await full
+  parent assembly. Six range and six invented-extent faults are rejected.
+- Full March goal remains active: four readable, one partial, one heading and
+  84 unresolved identities. Remaining bodies/classifications, full page accounting,
+  cover and standalone closeout remain required. No reader build or deployment.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Complete March developer column and classify its series heading
 
 - Restored developer message 0009 on PDF 156–157/printed 148–149: 80 exact
