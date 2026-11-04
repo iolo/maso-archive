@@ -1,4 +1,4 @@
-# Successor handoff — 2026-11-04
+# Successor handoff — 2026-11-05
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
@@ -19,34 +19,46 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 21 classifies forum0025 (프로그래밍 포럼) and implementation0026
-(원리구현) as non-owning group headings. Contents4–5 places implementation,
-serial and tool review under the forum;Windows/DOS subgroups remain under
-implementation. Separate article openings298/310/338 repeat 원리구현;
-400 has 연재강좌 and440 has 툴리뷰. The source 연재강좌 versus contents 연재
-variant remains literal. Pages296/297 immediately before the first opening are
-independent printer advertisements. No group inherits a folio or descendant body.
-Only0025/0026 are finalized. Their descendants remain unresolved;observed openings
-are location/category evidence,not restored bodies or verified article extents.
-Eleven selected evidence files match independent and fresh-process exports.
-Seven crops are pixel-exact;twenty hierarchy nodes and24 invalid ownership,
-hierarchy,scope and source-context cases validate. Nine outside pages were
-inspected;zero mapped pages,OCR or source correction. The initial crop revision
-remains;selected r02 widens the contents margin to retain complete printed folios.
-All12,482 earlier March files/thirty core modules are unchanged;the214-test
-baseline is reused. Human acceptance,exact glyphs and full proofreading remain
-unverified. All thirteen required final-status evidence files remain retained.
-Evidence: `archive/pdf/1995-03/classifications/batch-21-r02/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-21/`.
-Totals: twelve readable,zero partial,five non-owning headings,eight references
-and 65 unresolved. Next review Windows subgroup0027 and restore article0028,
-whose opening is verified atPDF298/printed290. Verify its actual extent and
-adjacent ownership toward the next opening310;use immutable natives if longer
-than six mapped pages. Preserve source code,figures,credits and continuations.
-Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint.
-FLC0019 awaits bounded lookup/issue accounting. See [March progress](progress/9503.md).
-The full March goal remains active through all remaining outcomes,545-page
-accounting,cover and separate issue closeout before July.
+Batch 22 classifies Windows-programming group 0027 as a non-owning heading
+and preserves Visual C++ article 0028 on PDF 298–303 / printed 290–295 as
+immutable partial native a. The full source extent is 298–308: prose ends on
+306 and the numbered listing ends at row 141 on 308. Final pages 304–308 and
+actual complete-article assembly remain pending. Page 309 is an independent
+advertisement; 310 starts the next article. Group 0027 keeps four children and
+no inherited folio or body. Child 0031's opening says 연재강좌 despite its
+contents position under implementation/Windows; both observations remain.
+
+The 254 native files and eight group/status files match independent and
+fresh-process exports. All 65 mapped crops match the declared exclusion masks;
+five group crops match source pixels. Validation covers 60 OCR outcomes,
+1,227 typed ranges, 390 reading rows, seven code contexts / 70 code rows,
+four diagrams and their literal captions, a four-item outline, ten WNDCLASS
+fields, four class cards / twenty fields, fourteen continuations and 246 ZIP
+members. Seven range, 24 context and ten status faults are rejected.
+Source CEidt, COLOR_BTFACE, bracket-shaped delimiters, ellipses and technical
+claims remain literal, with explicit glyph/byte uncertainties. All initial
+drafts were read before one correction pass; zero retries or later text repairs.
+Two valid pre-OCR maps, one failed constructor and sixty margin refinements
+remain. A retained validation-harness revision applies the existing exclusion
+mask to a one-pixel header boundary on 301; no source or package changes.
+All 12,539 prior March files and thirty core modules remain exact; the unchanged
+214-test baseline is reused. Human acceptance and full proofreading are pending.
+
+Six frozen status fields in both batch 21 revisions are resolved externally.
+All fourteen required final-status evidence files remain available.
+Native: `archive/pdf/1995-03/packages/batch-22-r01/visual-a/`.
+Group/status: `archive/pdf/1995-03/classifications/batch-22-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-22/`.
+Totals: twelve readable, one partial, six non-owning headings, eight references
+and 63 unresolved. Next restore 0028's final 304–308 as native b, then assemble
+298–308. Preserve screenshots, captions, editor credit, numbered listing rows
+and source code defects. Exclude the independent publisher recruitment at the
+bottom of 308 and advertisement 309. The 303→304 boundary is a section break,
+not a prose join. Resolve frozen partial statuses through new external evidence.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](progress/9503.md).
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 Batch 02's219 files reproduce
@@ -56,7 +68,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-21/reproduction-r02.json`.
+`archive/pdf/1995-03/restoration/batch-22/reproduction.json`.
 
 ## Session wrap-up
 

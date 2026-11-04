@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1995-03",
   "status": "in-progress",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "source": {
     "id": "pdf-maso-9503",
     "path": "maso-pdf/maso-9503.pdf",
@@ -1839,23 +1839,129 @@
       "toc_entry_id": "maso-1995-03-toc-0027",
       "title": "윈도우즈 프로그래밍",
       "parent_id": "maso-1995-03-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 places pageless Windows-programming heading under implementation above four distinct titled articles. Openings298/310/318/326 each have their own title,author andfolio;no standalone umbrella body or inherited folio.0031 opening says 연재강좌 despite its contents position;preserve both without reparenting.",
+        "Eight group/status evidence files reproduce independently and in a fresh process;five crops exactly match source pixels. Four children keep their original parent and folio.0028 has a partial native;0029–0031 remain unresolved.",
+        "0031 opening326 says 연재강좌 although contents places it under implementation/Windows;both observations retained without reparenting.",
+        "Six frozen0027/0028 classification fields in both batch21 revisions are resolved by an external current-status document. Historical evidence remains unchanged."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1995-03/classifications/batch-22-r01/group-0027.json",
+          "sha256": "2487a35731e5540fc9100daeb3669192d4decb0e9131814fb04350cbcd54432b",
+          "bytes": 3791
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-22/validation.json",
+          "sha256": "fe4f71f3d72203b09f9a140fb1e67bcf6f1420e7dbfd83372b48f587191958e0",
+          "bytes": 2443
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-22-r01/source-creation-dispositions.json",
+          "sha256": "57bcc6500ecd568241659bb7e21e4ad4a2e9230859ab7bf4b28bea3656c721f2",
+          "bytes": 6021
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-22/classification-reproduction.json",
+          "sha256": "9f13b145b16b9d37ff2c536dd1f4e0af003796242dc03b0078feb64f46f41d0c",
+          "bytes": 1638
+        },
+        "checkpoint": "batch-22"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0028",
       "title": "비주얼 C++로 비주얼 파워 심기 : C와 비주얼 C++의 윈도우즈 프로그래밍",
       "parent_id": "maso-1995-03-toc-0027",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Opening six pages PDF298–303/printed290–295 restored as immutable native a. Full source extent298–308 verified;prose ends306 and numbered listing ends308. Final304–308 and actual article assembly remain pending.309 is an independent advertisement;310 opens the next article.",
+        "254 selected/independent/fresh-process files match;65 mapped crops match declared exclusion masks,60 OCR outcomes,1227 typed ranges,46 blocks,390 reading rows,five original images and246 exact ZIP members.",
+        "Seven separate code contexts preserve70 nonempty rows and source ellipses,Class capitalization,bracket-shaped delimiters and missing semicolons. Four-item series outline,ten WNDCLASS fields,four class cards/twenty fields,four literal diagram captions and separate author credit remain.",
+        "Source CEidt,COLOR_BTFACE,아다시피,알아 뒤야,diagram label candidates and literal technical claims retained without repair. Exact glyphs,spaces,punctuation,encoded code bytes and execution remain unverified.",
+        "Fourteen internal continuations preserve physical LF;303 ends a complete paragraph before304 new section,so no outgoing prose join. Final editor credit is deferred with306.",
+        "All60 initial drafts read before one source pass;zero retries or within/post-pass changes. Two valid pre-OCR maps,one failed constructor and sixty margin refinements retained. Seven range,24 context and ten status faults reject.",
+        "Validation harness revision applies the existing exclusion-mask contract after an initial one-pixel boundary mismatch on301. Both scripts/logs and explanation retained;source,OCR,map,transcription and package unchanged. All12539 prior files/thirty core pins unchanged;214-test baseline reused."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-22-r01/visual-a",
+        "article_id": "scan-maso-1995-03-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-22-r01/visual-a/manifest.json",
+          "sha256": "2a08d73a573eda622a13fe812e5ffc4e2acef1a9b46708b483350ac07af21283",
+          "bytes": 43438
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-22/visual-a-r03/package-recipe.json",
+          "sha256": "b76cca03a97f49d0ee904e08df208a316ea35add28be95c337f633f1156c3737",
+          "bytes": 9004
+        },
+        "coverage": {
+          "pdf_pages": [
+            298,
+            299,
+            300,
+            301,
+            302,
+            303
+          ],
+          "printed_pages": [
+            "290",
+            "291",
+            "292",
+            "293",
+            "294",
+            "295"
+          ],
+          "regions": 65,
+          "blocks": 46,
+          "figures": 5,
+          "deferred_pdf_pages": [
+            304,
+            305,
+            306,
+            307,
+            308
+          ],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 298,
+        "actual_end_pdf_page": 308,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-22-r01/source-creation-dispositions.json",
+          "sha256": "57bcc6500ecd568241659bb7e21e4ad4a2e9230859ab7bf4b28bea3656c721f2",
+          "bytes": 6021
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-22/validation.json",
+          "sha256": "fe4f71f3d72203b09f9a140fb1e67bcf6f1420e7dbfd83372b48f587191958e0",
+          "bytes": 2443
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-22/reproduction.json",
+          "sha256": "dd159071f64240c06430710c2aa8e389251f6bb50600aa70ee86da1a4f70ffef",
+          "bytes": 49811
+        },
+        "classification_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-22/classification-reproduction.json",
+          "sha256": "9f13b145b16b9d37ff2c536dd1f4e0af003796242dc03b0078feb64f46f41d0c",
+          "bytes": 1638
+        },
+        "checkpoint": "batch-22"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0029",
@@ -3213,22 +3319,63 @@
         "sha256": "a92631e84b25628eff02e8ce2be78970dfe8aad9c8ea2897cdb5bda91234ddfa",
         "bytes": 2073
       }
+    },
+    {
+      "name": "1995-03-batch-22",
+      "status": "complete",
+      "completed_at": "2026-11-04T15:04:42.803060+00:00",
+      "goal": "Classify non-owning Windows0027 and restore first six pages of Visual C++0028.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0027",
+        "maso-1995-03-toc-0028"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        298,
+        299,
+        300,
+        301,
+        302,
+        303
+      ],
+      "outside_lookup_pages": 11,
+      "recognition_invocations": 60,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-22/validation.json",
+        "sha256": "fe4f71f3d72203b09f9a140fb1e67bcf6f1420e7dbfd83372b48f587191958e0",
+        "bytes": 2443
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-22/reproduction.json",
+        "sha256": "dd159071f64240c06430710c2aa8e389251f6bb50600aa70ee86da1a4f70ffef",
+        "bytes": 49811
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-22/classification-reproduction.json",
+        "sha256": "9f13b145b16b9d37ff2c536dd1f4e0af003796242dc03b0078feb64f46f41d0c",
+        "bytes": 1638
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
     "readable": 12,
-    "partial": 0,
-    "group_headings": 5,
+    "partial": 1,
+    "group_headings": 6,
     "section_references": 8,
-    "unresolved": 65
+    "unresolved": 63
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Review Windows-programming subgroup0027 and restore article0028,whose opening is verified atPDF298/printed290. Verify full extent/adjacent ownership toward the next independent opening310;map at most six pages into an immutable native if longer. Preserve code,figures,series outline,source credits and all physical continuations. Review other Windows descendant openings only as needed within twenty outside lookups. Resolve affected frozen group status externally without editing earlier evidence. KeepFLC0019 unresolved pending bounded lookup/whole-issue accounting. Continue allremaining March outcomes,545-page accounting,cover and separate closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Restore Visual C++0028 final PDF304–308/printed296–300 as an immutable native b,then assemble actual full article298–308 within the two-task/six-mapped-page/twenty-outside-lookup bounds.304 starts EditClass functionality;306 ends prose with editor credit;307–308 contains numbered listing1 ending at141. Exclude independent publisher recruitment at308 bottom and KIT advertisement309. Preserve screenshots,figure captions,source code mistakes/ellipsis,listing numbering and joins;303→304 is a section break,not a prose join. Resolve affected frozen partial statuses externally without changing earlier evidence. Then continue0029 onward;FLC0019 remains unresolved pending bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover and separate issue closeout before July;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -3294,6 +3441,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-20-r01/source-creation-dispositions.json",
       "sha256": "08d4c5764d1721e2bfd3138c11a8be7320857531b4088779a784f19c9804c501",
       "bytes": 8145
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-22-r01/source-creation-dispositions.json",
+      "sha256": "57bcc6500ecd568241659bb7e21e4ad4a2e9230859ab7bf4b28bea3656c721f2",
+      "bytes": 6021
     }
   ]
 }

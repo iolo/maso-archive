@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — Restore first March Visual C++ segment
+
+- Batch 22 classifies Windows group 0027 and preserves article 0028's opening
+  six pages, PDF 298–303, as a partial native. Final 304–308 and assembly remain.
+- The 254 native and eight group/status files reproduce independently and in
+  a fresh process. Validation checks 65 mapped crops with declared exclusions,
+  five group crops, 1,227 ranges, seven code contexts / 70 rows and 41 negative
+  cases. All 12,539 prior files and thirty core modules remain exact.
+- Printed spelling/code defects and the 0031 banner discrepancy are retained.
+  One correction pass, zero retries; the 214-test baseline is reused. An initial
+  pixel-check failure is explained by the tool's one-pixel exclusion boundary;
+  the revised checker passes without changing source, OCR or packages.
+- Totals: twelve readable, one partial, six groups, eight references, 63 unresolved.
+  Next restore 304–308 and assemble 0028. FLC0019 and issue accounting remain
+  open; the full March goal stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Classify March programming-forum headings
 
 - Batch 21 finalizes0025/0026 as non-owning groups from original contents and
