@@ -19,24 +19,26 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 09 actually assembles complete feature 0003 on PDF 262–289 from five
-independently regenerated natives: 1,019 exact native files and 1,028 exact parent
-files across selected, independent and fresh-process exports. All 264 source
-regions, 238 original OCR outcomes, 26 original images/six literal captions,
-197 original block intervals and 2,068 reading rows remain. Three prose joins
-retain physical LF and independent essays. Complete custom metadata preserves
-7,526 native typed occurrences, 15,607 current ranges and 32,089 scalar values;
-literal directory/terminal download bytes remain unchanged. No new mapping,
-OCR or source correction. All 214 PDF tests pass; sixteen rehashed root, six
-native, four recipe and four ownership/anchor mutations reject.
-Part 1 child 0004 is now a final non-owning reference to the assembled parent.
-Its main ends on 270, while annotated examples continue through 272 before Part 2
-opens on 273. The poster on 262 remains unpaginated and belongs to the parent.
-Totals are five readable, zero partial, one non-owning heading, one section
-reference and 83 unresolved. Next resolve children 0005/0006 in their own bounded
-checkpoint; the parent body/assembly is complete. Source-fidelity limits remain.
+Batch 10 finalizes Part 2/3 children 0005/0006 as non-owning references into the
+complete MUD parent. Final anchors `b-part2-title` and `d-part3-title` resolve to
+273/265 and 283/275. Complete source scopes 273–282 and 283–289 include their own
+opening art; all 93/65 regions remain. Canonical ordinals/titles/parents/order and
+null page references stay unchanged. No new byline or duplicate body is created.
+Five sidecars match independent and fresh-process exports; eight typed occurrences
+and sixteen ownership/anchor/status faults validate. The four-entry family fixture
+proves one owning parent and three non-owning children, with a disjoint 264-region
+partition: five parent-intro regions plus 101/93/65 section regions. This is not
+whole-issue accounting. All 1,028 parent files, natives, thirty core modules and the
+private assembly adapter remain exact; the unchanged 214-test baseline is reused.
+External `archive/pdf/1995-03/classifications/batch-10/parent-status-dispositions.json`
+resolves the frozen assembly-creation pending-child statements while retaining all
+source-fidelity limits. Include all five batch-10 sidecars in final issue evidence.
+All three MUD children are final. Totals: five readable, zero partial, one non-owning
+heading, three section references and 81 unresolved. Next classify 나눔터 group 0010
+and locate/restore interview 0011, canonical reference 200. Page 208 is a location
+probe; verify source title/byline/extent/adjacent pages before mapping.
 Use `PYTHONPATH=.:src python3 archive/pdf/1995-03/restoration/batch-09/check-parent.py`
-to check the frozen private projection; original core modules/natives are unchanged.
+for the frozen parent, together with the current external child dispositions.
 See [March progress](progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.
@@ -48,7 +50,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-09/reproduction.json`.
+`archive/pdf/1995-03/restoration/batch-10/reproduction.json`.
 
 ## Session wrap-up
 

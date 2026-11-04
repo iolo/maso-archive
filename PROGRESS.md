@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-04 — Finalize March MUD child references
+
+- Part 2/3 children 0005/0006 now reference final assembled headings on 273/265
+  and 283/275 without duplicate bodies. Their complete 93/65-region scopes include
+  their own opening art; canonical title/parent/order/null page references remain.
+- Five sidecars match independent/fresh exports; eight typed occurrences and
+  sixteen negative cases validate. Family accounting has one complete parent and
+  three non-owning children. All 1,028 parent files/natives/core/adapter stay exact.
+  Frozen pending-child notes resolve externally, with all fidelity limits retained.
+- Totals: five readable, zero partial, one heading, three section references and
+  81 unresolved. Next 나눔터 group 0010 and computer-advertising interview 0011,
+  canonical reference 200. Source page 208 is a location probe, not an inferred map.
+- Full March restoration remains active through bodies/classifications, page
+  accounting, cover and standalone closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build or deployment.
+
 ## 2026-11-04 — Assemble complete March MUD feature
 
 - Actually assembled all 28 source pages 262–289: 1,028 selected/independent/fresh
