@@ -1279,12 +1279,78 @@
       "toc_entry_id": "maso-1995-03-toc-0016",
       "title": "테크닉 : 실행 파일에 암호를 걸자",
       "parent_id": "maso-1995-03-toc-0014",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete extent238–242/printed230–234 individually observed. Prose ends240;199-row listing ends242 above independent book advertisement. Adjacent237/243 advertisements and244 unrelated Q&A verified;no TOC-derived ending/global offset.",
+        "217 selected/independent/fresh-process files match;55 pixel-exact crops,51 OCR outcomes,2391 typed ranges,37 blocks,404 reading rows andfour images. Four inline examples remain separate from numbered listing;246 code rows and25 unresolved decorative rules retained.",
+        "Two tables preserve27 physical rows/84 cells/three blanks;diagram preserves seven labels andarrow. Fourteen continuations preserve LF. Literal single <12,duplicate fwrite,EXIT apostrophe-like ink,CLD dot-like ink andauthor technical limitations remain unrepaired/unexecuted.",
+        "Opening andlisting row007 read 김창훈;original contents andcanonical byline read 김창호. Canonical identity unchanged;editorial 정리 : 홍동선 distinct. No automatic disk/CD association.",
+        "All51 initial drafts read before one source pass;zero retries orwithin/post-pass transcription changes. Three pre-OCR maps retain53 crop adjustments. Seven range,25 context andfour historical-status faults reject. Second export repairs only filename-cell metadata anchor;original export/transcription retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-16-r02/password",
+        "article_id": "scan-maso-1995-03-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-16-r02/password/manifest.json",
+          "sha256": "35f2d218559e838ffb7a98d2583aaac784ef7bc4772535bb5c83e4ec2adbeb02",
+          "bytes": 37171
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-16/password-r03/package-recipe-r02.json",
+          "sha256": "208e9bcc601f98a3ca056c50240321d30226b5a4d60b847cd581bc70f12eff3d",
+          "bytes": 7884
+        },
+        "coverage": {
+          "pdf_pages": [
+            238,
+            239,
+            240,
+            241,
+            242
+          ],
+          "printed_pages": [
+            "230",
+            "231",
+            "232",
+            "233",
+            "234"
+          ],
+          "regions": 55,
+          "blocks": 37,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 238,
+        "actual_end_pdf_page": 242,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-16-r01/source-creation-dispositions.json",
+          "sha256": "33f899991155ce5b07ad95bfd65b0646399405c4874ef69b072f8476291d3078",
+          "bytes": 2306
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-16/validation.json",
+          "sha256": "988554896d4c06e25b19d68b1d73bac1a52b3269e78148e59caf26e9aee63bef",
+          "bytes": 2201
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-16/reproduction-r02.json",
+          "sha256": "b96a1aaa5a307059c6166c36e1419cbc91084613d91bf45d811f4d847f702259",
+          "bytes": 42787
+        },
+        "disposition_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-16/disposition-reproduction.json",
+          "sha256": "34482ee6170abc9336525a96e7fb9e75b3bf75cb3222105ca82739b38a44e4a5",
+          "bytes": 338
+        },
+        "checkpoint": "batch-16"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0017",
@@ -2582,22 +2648,56 @@
         "sha256": "d82fb5757039c4e6413e08cb56448572f1e99e80c5f6d0f0317661c43d2b15d6",
         "bytes": 35919
       }
+    },
+    {
+      "name": "1995-03-batch-16",
+      "status": "complete",
+      "completed_at": "2026-11-04T13:11:23.620415+00:00",
+      "goal": "Restore complete execution-file protection article0016,including199 numbered listing rows andsource/canonical byline conflict.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0016"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        238,
+        239,
+        240,
+        241,
+        242
+      ],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 51,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-16/validation.json",
+        "sha256": "988554896d4c06e25b19d68b1d73bac1a52b3269e78148e59caf26e9aee63bef",
+        "bytes": 2201
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-16/reproduction-r02.json",
+        "sha256": "b96a1aaa5a307059c6166c36e1419cbc91084613d91bf45d811f4d847f702259",
+        "bytes": 42787
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 9,
+    "readable": 10,
     "partial": 0,
     "group_headings": 3,
     "section_references": 3,
-    "unresolved": 75
+    "unresolved": 74
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Locate and restore article0016 실행파일에 암호를 걸자,canonical reference230/byline 김창호,observed opening PDF238. Verify source byline variant 김창훈 against canonical/contents 김창호 and determine actual full extent/adjacent ownership before mapping. No TOC-derived ending or global offset. Keep two-task/six-mapped-page/twenty-outside-page bounds;split longer bodies into immutable natives. Group0017 Q&A ownership and its nested children require their own later review. Preserve all prior packages/group evidence and seven final-issue status sidecars. Continue remaining March bodies/classifications,545-page accounting,cover and standalone issue closeout before July.",
+  "next_checkpoint": "Review Q&A/물어보세요·팁팁팁 parent0017 (canonical236,편집부;observed opening244) and nested0018–0023. Verify actual full extent,source title/credits and ownership before mapping;do not assume a pageless group or duplicate child bodies. Declare at most two canonical tasks,six mapped pages,twenty outside-page inspections;split longer bodies into immutable natives anddefer final child anchors until parent ownership is proved. Preserve all prior packages/group evidence andeight final-issue status sidecars,including article0016 name conflict. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -2633,6 +2733,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-14-r01/source-creation-dispositions.json",
       "sha256": "52e017c273e8d006a1f35bf03164ab8bf4d9478183acf5d251157d0a868902c0",
       "bytes": 2149
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-16-r01/source-creation-dispositions.json",
+      "sha256": "33f899991155ce5b07ad95bfd65b0646399405c4874ef69b072f8476291d3078",
+      "bytes": 2306
     }
   ]
 }

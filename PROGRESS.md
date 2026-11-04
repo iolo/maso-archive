@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-04 — Complete March execution-file protection article
+
+- Batch 16 completes article0016 on PDF238–242/printed230–234:217 exact files,
+  55 crops,51 OCR outcomes,2,391 typed ranges and404 reading rows. All199 numbered
+  listing rows, four inline examples, two tables/84 cells and diagram contexts remain.
+  Twenty-five dashed rules retain explicit uncertainty; printed code defects stay literal.
+- Source 김창훈 versus canonical/contents 김창호 remains visible without identity
+  rewrite. One external status sidecar resolves older opening-only status; originals stay.
+  Seven range/25 context/four status faults reject. All9,634 prior files and30 core
+  modules remain exact;214-test baseline reused. One source pass andzero OCR retries.
+- Totals: ten readable,zero partial,three groups,three references,74 unresolved.
+  Next review parent0017/nested0018–0023,starting with actual extent and ownership
+  around observed opening244. Full March goal remains active through remaining
+  restoration,545-page accounting,cover and separate closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build/deployment.
+
 ## 2026-11-04 — Complete March optimization article and group
 
 - Batch 15 completes article0015 on PDF232–236/printed224–228 and non-owning
