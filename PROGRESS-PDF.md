@@ -11,33 +11,32 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have four readable articles, one partial feature, one non-owning
-heading and 84 unresolved outcomes; July
+identities now have five readable articles, zero partials, one non-owning heading,
+one section reference and 83 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 08 preserves feature 0003's final source pages 286–289 as immutable native e:
-151 independent/fresh-process exact files, 38 exact crops, 35 outcomes, 709 typed
-ranges and 325 reading rows. The five-row disk-file table retains ten body cells,
-two headers and five filename occurrences. The boxed conditions essay remains
-independent of main script prose across 287→288. Twelve inline examples and thirteen
-technical terms retain source contexts. Three original image regions have one
-literal caption; the final main ending/mark and adjacent table keep separate roles.
-Seven internal continuations retain LF. Incoming 285→286 continues `위해`→`서는`;
-main prose ends on 289, before independent advertising on 290.
-One source pass, zero retries, two maps/five pre-OCR crop repairs, two within-pass
-spacing repairs and zero post-pass changes. A retained export constructor repair
-uses an existing physical wrap in a metadata lookup; source/raw bytes remain exact.
-All 4,669 earlier March files/thirty core pins remain unchanged; the 214-test baseline
-is reused. Six range faults and fifteen source-context faults are rejected.
-All 28 source pages 262–289 are now preserved across immutable natives a/b/c/d/e.
-Next perform actual complete parent assembly from independently regenerated natives,
-retain all custom metadata/source contexts and assign final children 0004–0006
-anchors only after assembly validation. No new OCR is expected for that step.
-Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
+Batch 09 actually assembles complete feature 0003 on PDF 262–289 from five
+independently regenerated natives: 1,019 exact native files and 1,028 exact parent
+files across selected, independent and fresh-process exports. All 264 source
+regions, 238 original OCR outcomes, 26 original images/six literal captions,
+197 original block intervals and 2,068 reading rows remain. Three prose joins
+retain physical LF and independent essays. Complete custom metadata preserves
+7,526 native typed occurrences, 15,607 current ranges and 32,089 scalar values;
+literal directory/terminal download bytes remain unchanged. No new mapping,
+OCR or source correction. All 214 PDF tests pass; sixteen rehashed root, six
+native, four recipe and four ownership/anchor mutations reject.
+Part 1 child 0004 is now a final non-owning reference to the assembled parent.
+Its main ends on 270, while annotated examples continue through 272 before Part 2
+opens on 273. The poster on 262 remains unpaginated and belongs to the parent.
+Totals are five readable, zero partial, one non-owning heading, one section
+reference and 83 unresolved. Next resolve children 0005/0006 in their own bounded
+checkpoint; the parent body/assembly is complete. Source-fidelity limits remain.
+Use `PYTHONPATH=.:src python3 archive/pdf/1995-03/restoration/batch-09/check-parent.py`
+to check the frozen private projection; original core modules/natives are unchanged.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.

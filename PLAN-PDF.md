@@ -112,10 +112,27 @@ uses an existing physical wrap in a metadata lookup; source/raw bytes remain exa
 All 4,669 earlier March files/thirty core pins remain unchanged; the 214-test baseline
 is reused. Six range faults and fifteen source-context faults are rejected.
 All 28 source pages 262–289 are now preserved across immutable natives a/b/c/d/e.
-Next perform actual complete parent assembly from independently regenerated natives,
-retain all custom metadata/source contexts and assign final children 0004–0006
-anchors only after assembly validation. No new OCR is expected for that step.
-Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
+Actual parent assembly and first child classification are completed by batch 09
+below. Detailed native-stage evidence remains in the March progress record.
+
+Batch 09 actually assembles complete feature 0003 on PDF 262–289 from five
+independently regenerated natives: 1,019 exact native files and 1,028 exact parent
+files across selected, independent and fresh-process exports. All 264 source
+regions, 238 original OCR outcomes, 26 original images/six literal captions,
+197 original block intervals and 2,068 reading rows remain. Three prose joins
+retain physical LF and independent essays. Complete custom metadata preserves
+7,526 native typed occurrences, 15,607 current ranges and 32,089 scalar values;
+literal directory/terminal download bytes remain unchanged. No new mapping,
+OCR or source correction. All 214 PDF tests pass; sixteen rehashed root, six
+native, four recipe and four ownership/anchor mutations reject.
+Part 1 child 0004 is now a final non-owning reference to the assembled parent.
+Its main ends on 270, while annotated examples continue through 272 before Part 2
+opens on 273. The poster on 262 remains unpaginated and belongs to the parent.
+Totals are five readable, zero partial, one non-owning heading, one section
+reference and 83 unresolved. Next resolve children 0005/0006 in their own bounded
+checkpoint; the parent body/assembly is complete. Source-fidelity limits remain.
+Use `PYTHONPATH=.:src python3 archive/pdf/1995-03/restoration/batch-09/check-parent.py`
+to check the frozen private projection; original core modules/natives are unchanged.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.

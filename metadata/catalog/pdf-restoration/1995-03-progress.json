@@ -130,7 +130,7 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Contents4 lists parent0003 at255 with장석원 andthree pageless children. Unpaginated poster262 andPart1 opener263/255 identify opening. Part3 opener283/275 is lookup-only;Part2 opening/final body boundary remain unverified after20outside pages.",
@@ -139,15 +139,16 @@
         "Batch 05 preserves continuation 268–273 as native b: 246 exact independent/fresh-process files, 66 exact crops, 57 outcomes and 418 reading rows, including thirteen printed-omission/rule markers. The 97 directory rows/388 cells/six blank IPs, thirty race cells, thirteen user rows/85 cells, twenty arrow annotations and two literal captions validate. Both original 267→268 native contexts await assembly. Part 1 main ends 270, appendices end 272, and Part 2 opens 273/265. Source layout spans 262–289, ending 289/281 before advertisement 290. Later 274–289, assembly and final child anchors remain pending.",
         "Batch 06 preserves 274–279 as native c: 255 exact independent/fresh-process files, 64 exact crops, 61 outcomes, 487 reading rows, 94 table cells/ten headers and three charts with 53 printed ticks/twelve legend words. Two English examples and three map-bullet contexts remain separate. Twelve internal joins include one new paragraph. Incoming 273→274 starts a subsection; outgoing 279→280 continues 다→운. One source pass, zero retries, one within-pass paragraph-separator correction, zero post-pass text changes. Caption-review wording is clarified in a fresh retained revision. Later 280–289, actual parent assembly and final child anchors remain pending.",
         "Batch07 preserves280–285 as immutable native d:193 independent/fresh-process exact files,50 exact crops,45 OCR outcomes,453 serialized reading rows;15-cell parser matrix,ten MOB behavior cells/two headers/two wrapped cells andindependent boxed essay. Eight internal joins retain one new paragraph;source Part2 closes282 andPart3 opens283 without prose join. Incoming279→280 continues다→운;outgoing285→286 continues위해→서는. One source pass,zero retries,three map versions/eleven pre-OCR repairs,three within-pass text repairs,zero post-pass changes. Example1 references stay unresolved. Final286–289 andactual parent assembly/final child anchors remain pending.",
-        "Batch08 preserves final286–289 as immutable native e:151 independently/fresh-process exact files,38 exact crops,35 outcomes,325 reading rows;five-row disk-file table/ten cells/two headers,five filename occurrences,independent boxed essay andtwelve inline prose examples. Seven internal joins retainLF;main287→288 skips independent conditions essay. Main ending289 andadjacent table stay separate;290 is independent advertising. Incoming285→286 continues위해→서는. One source pass,zero retries,two maps/five pre-OCR repairs,two within-pass spacing repairs,zero post-pass text changes. One retained export constructor fix uses the existing physical wrap in a metadata search needle;source/raw bytes unchanged. All28 source pages now preserved across a/b/c/d/e;actual complete parent assembly/final child anchors remain pending."
+        "Batch08 preserves final286–289 as immutable native e:151 independently/fresh-process exact files,38 exact crops,35 outcomes,325 reading rows;five-row disk-file table/ten cells/two headers,five filename occurrences,independent boxed essay andtwelve inline prose examples. Seven internal joins retainLF;main287→288 skips independent conditions essay. Main ending289 andadjacent table stay separate;290 is independent advertising. Incoming285→286 continues위해→서는. One source pass,zero retries,two maps/five pre-OCR repairs,two within-pass spacing repairs,zero post-pass text changes. One retained export constructor fix uses the existing physical wrap in a metadata search needle;source/raw bytes unchanged. All28 source pages now preserved across a/b/c/d/e;actual complete parent assembly/final child anchors remain pending.",
+        "Batch09 actually assembles all28 source pages262–289 from five independently regenerated natives,total1019 native/1028 assembled files. Three physicalLF prose joins retain independent essays;all264 regions,238 outcomes,26 original images/six captions,197 original block intervals,2068 reading rows,7526 source projections and15607 current typed ranges validate. All custom metadata/scalars remain source-linked;literal directory/terminal download bytes unchanged. Part1 main ends270 with continued examples270–272,beforePart2 opens273. Final ending289 andadjacent disk table remain separate. Parent is readable/assistant sample-reviewed;Part1 child0004 is a final non-owning reference. Other child classifications await a separate checkpoint. No new mappings,OCR,source correction,CD association orreader rebuild."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-04-r01/mud-a",
+        "directory": "archive/pdf/1995-03/packages/feature-mud-r01",
         "article_id": "scan-maso-1995-03-toc-0003",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-04-r01/mud-a/manifest.json",
-          "sha256": "ab495c4ce8bdcd91c4dd974a0bc53093eceea42be6e46ec231236fccfad2688e",
-          "bytes": 29224
+          "path": "archive/pdf/1995-03/packages/feature-mud-r01/manifest.json",
+          "sha256": "738c301850852e48a434063dd4487aa60e065f83278c32845ab747757de950d2",
+          "bytes": 184684
         },
         "coverage": {
           "pdf_pages": [
@@ -211,14 +212,16 @@
             "281"
           ],
           "regions": 264,
-          "blocks": 197,
+          "blocks": 194,
+          "original_native_blocks": 197,
           "figures": 26,
+          "ocr_outcomes": 238,
           "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 262,
         "actual_end_pdf_page": 289,
         "immutable_partial_natives": [
@@ -456,26 +459,26 @@
           "bytes": 3430
         },
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-04/validation-r02.json",
-          "sha256": "533f8bef7e738cee1a91cebe4e343f6c5cd06cc25cfcefe4b3c255c1f384db84",
-          "bytes": 2112
+          "path": "archive/pdf/1995-03/restoration/batch-09/validation.json",
+          "sha256": "35181be41ce18e1136d7e5f8a42aa44e6985ca0d17488dc9818427a14e2d80f5",
+          "bytes": 4236
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-04/reproduction.json",
-          "sha256": "15182e6c0069a06593ed82bfef11b56a1742b1c2ea321cc7939bec1443b75432",
-          "bytes": 34157
+          "path": "archive/pdf/1995-03/restoration/batch-09/reproduction.json",
+          "sha256": "6edd7a7bb2b5cb89d0825f28be3eafbdd91361df565d52ed300fe68d7b36079c",
+          "bytes": 187069
         },
-        "checkpoint": "batch-04",
+        "checkpoint": "batch-09",
         "latest_native": "e",
         "latest_validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-08/validation.json",
-          "sha256": "76f0c1074026e59126e1ec2bea2eed353d034a0580d198220643a441ba8c2327",
-          "bytes": 2111
+          "path": "archive/pdf/1995-03/restoration/batch-09/validation.json",
+          "sha256": "35181be41ce18e1136d7e5f8a42aa44e6985ca0d17488dc9818427a14e2d80f5",
+          "bytes": 4236
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-08/reproduction.json",
-          "sha256": "13257a5f5531a6e71f1433521f1f170ba56e92847b1d0ac062eae646018e08fa",
-          "bytes": 29833
+          "path": "archive/pdf/1995-03/restoration/batch-09/reproduction.json",
+          "sha256": "6edd7a7bb2b5cb89d0825f28be3eafbdd91361df565d52ed300fe68d7b36079c",
+          "bytes": 187069
         },
         "full_body_pdf_pages": [
           262,
@@ -507,33 +510,113 @@
           288,
           289
         ],
-        "incoming_boundary": {
-          "path": "archive/pdf/1995-03/restoration/batch-05/incoming-boundary.json",
-          "sha256": "6b46335d0036e709ca99c24a05b86303d9890f3e8df72fd2015d8c4a76bdfb4c",
-          "bytes": 1756
-        },
         "notes": [
-          "directory/manifest still identify immutable native a, not an assembled28-page body. All source pages262–289 are now preserved across a/b/c/d/e; actual complete assembly remains pending.",
-          "Final main text closes289 before MS and adjacent disk-file table;290 is independent advertising. Source page coverage does not establish a readable assembled parent or final child anchors."
+          "directory/manifest now identify the actual complete28-page assembled parent. All five immutable native objects/files remain unchanged; their original flags/receipts are explicitly historical.",
+          "Three cross-native prose joins preserve physical LF andall original intervals. Source Part1 main ends270 with examples through272;Part2 is273–282;Part3 is283–289,with adjacent disk-file table separate from ending prose.",
+          "Part1 child0004 is a final non-owning assembled-parent reference. Children0005/0006 final classifications follow in a separate bounded checkpoint. Exact source fidelity andhuman acceptance remain unverified."
         ],
-        "latest_incoming_boundary": {
-          "path": "archive/pdf/1995-03/restoration/batch-08/incoming-boundary.json",
-          "sha256": "815fef4f3e16315d47b7362b887629c741e891d7f2559385761f8933b92bdd91",
-          "bytes": 2016
+        "all_source_body_pages_preserved": true,
+        "historical_native_receipts": {
+          "directory": "archive/pdf/1995-03/packages/batch-04-r01/mud-a",
+          "manifest": {
+            "path": "archive/pdf/1995-03/packages/batch-04-r01/mud-a/manifest.json",
+            "sha256": "ab495c4ce8bdcd91c4dd974a0bc53093eceea42be6e46ec231236fccfad2688e",
+            "bytes": 29224
+          },
+          "validation": {
+            "path": "archive/pdf/1995-03/restoration/batch-04/validation-r02.json",
+            "sha256": "533f8bef7e738cee1a91cebe4e343f6c5cd06cc25cfcefe4b3c255c1f384db84",
+            "bytes": 2112
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-03/restoration/batch-04/reproduction.json",
+            "sha256": "15182e6c0069a06593ed82bfef11b56a1742b1c2ea321cc7939bec1443b75432",
+            "bytes": 34157
+          },
+          "checkpoint": "batch-04",
+          "incoming_boundary": {
+            "path": "archive/pdf/1995-03/restoration/batch-05/incoming-boundary.json",
+            "sha256": "6b46335d0036e709ca99c24a05b86303d9890f3e8df72fd2015d8c4a76bdfb4c",
+            "bytes": 1756
+          },
+          "latest_incoming_boundary": {
+            "path": "archive/pdf/1995-03/restoration/batch-08/incoming-boundary.json",
+            "sha256": "815fef4f3e16315d47b7362b887629c741e891d7f2559385761f8933b92bdd91",
+            "bytes": 2016
+          },
+          "latest_validation": {
+            "path": "archive/pdf/1995-03/restoration/batch-08/validation.json",
+            "sha256": "76f0c1074026e59126e1ec2bea2eed353d034a0580d198220643a441ba8c2327",
+            "bytes": 2111
+          },
+          "latest_reproduction": {
+            "path": "archive/pdf/1995-03/restoration/batch-08/reproduction.json",
+            "sha256": "13257a5f5531a6e71f1433521f1f170ba56e92847b1d0ac062eae646018e08fa",
+            "bytes": 29833
+          }
         },
-        "all_source_body_pages_preserved": true
+        "assembly_recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-09/assembly-recipe.json",
+          "sha256": "ffa102af2627e2038194e9891bc97040c266275d56893f9dd5fdd096b8e96ade",
+          "bytes": 7751
+        },
+        "assembly_adapter": {
+          "path": "archive/pdf/1995-03/restoration/batch-09/mud_adapter.py",
+          "sha256": "88fd2dc9dc23982a95219b38bd0105bff1e6ac910b44eeb2b567291d45778453",
+          "bytes": 14670
+        },
+        "pending_child_classifications": [
+          "maso-1995-03-toc-0005",
+          "maso-1995-03-toc-0006"
+        ]
       }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0004",
       "title": "1부 : 머드 속 훔쳐 보기",
       "parent_id": "maso-1995-03-toc-0003",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents4 andmatching source Part1 title263 establish this intrinsic child ofparent0003. Canonical ordinal,title,parent/order andnull page reference unchanged. Poster262 belongs toparent;Part1 body263–272 includes annotated examples after main closes270,thenPart2 opens273. No independent orduplicate body.",
+        "Final anchor a-part1-title resolves into the actual complete28-page assembled parent,with exact article-relative source bytes/scan andseparate source author/affiliation. Human acceptance/full proofreading andexact source glyphs/spaces/encodedbytes remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-03-toc-0003",
+      "section": {
+        "anchor": "a-part1-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 263
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-03-toc-0003",
+        "directory": "archive/pdf/1995-03/packages/feature-mud-r01",
+        "anchor": "a-part1-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 263,
+        "source_heading_printed_page": "255",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-03/packages/feature-mud-r01/manifest.json",
+          "sha256": "738c301850852e48a434063dd4487aa60e065f83278c32845ab747757de950d2",
+          "bytes": 184684
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-03/classifications/batch-09/child-0004-anchor.json",
+          "sha256": "5007f8f987e52514185c32879b670723a5506da0c9d83788ee8bcedea2564557",
+          "bytes": 4967
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-09/validation.json",
+          "sha256": "35181be41ce18e1136d7e5f8a42aa44e6985ca0d17488dc9818427a14e2d80f5",
+          "bytes": 4236
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0005",
@@ -1841,20 +1924,46 @@
         "sha256": "13257a5f5531a6e71f1433521f1f170ba56e92847b1d0ac062eae646018e08fa",
         "bytes": 29833
       }
+    },
+    {
+      "name": "1995-03-batch-09",
+      "status": "assembly-and-section-reference-complete",
+      "completed_at": "2026-11-04T09:32:13.171497+00:00",
+      "goal": "Actual complete28-page feature0003 assembly andfinal non-owning Part1 child0004 anchor.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0003",
+        "maso-1995-03-toc-0004"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 18,
+      "new_ocr_invocations": 0,
+      "new_source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-09/validation.json",
+        "sha256": "35181be41ce18e1136d7e5f8a42aa44e6985ca0d17488dc9818427a14e2d80f5",
+        "bytes": 4236
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-09/reproduction.json",
+        "sha256": "6edd7a7bb2b5cb89d0825f28be3eafbdd91361df565d52ed300fe68d7b36079c",
+        "bytes": 187069
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 4,
-    "partial": 1,
+    "readable": 5,
+    "partial": 0,
     "group_headings": 1,
-    "section_references": 0,
-    "unresolved": 84
+    "section_references": 1,
+    "unresolved": 83
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Perform actual complete28-page feature0003 parent assembly on262–289 from immutable natives a/b/c/d/e. Independently regenerate each native;preserve original source metadata/assets/raws andall custom typed ranges,independent sidebars,tables,charts andexamples. Verify original cross-native contexts andsource part boundaries;assign final children0004–0006 anchors only in the verified assembly. No new OCR is expected. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone closeout beforeJuly."
+  "next_checkpoint": "Resolve remaining children0005/0006 as final non-owning section references into the verified complete feature0003 parent. Check273/265 Part2 title through282 ending and283/275 Part3 title through289 ending;retain null canonical page references andavoid duplicate bodies. Use batch09/mud_adapter.py install() beforechecking the parent;no new OCR/source correction expected. Then continue remaining March canonical bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly."
 }

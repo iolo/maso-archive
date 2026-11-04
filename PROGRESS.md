@@ -1,5 +1,22 @@
 # Progress
 
+## 2026-11-04 — Assemble complete March MUD feature
+
+- Actually assembled all 28 source pages 262–289: 1,028 selected/independent/fresh
+  files match, consuming five regenerated natives/1,019 unchanged files. Preserve
+  264 regions, 238 outcomes, 26 originals/six captions and 2,068 reading rows.
+- Three prose joins preserve physical LF and independent essays. All 7,526 native
+  typed occurrences, 15,607 current ranges, 32,089 scalar values and literal
+  directory/terminal download bytes validate. No new mapping, OCR or correction.
+- All 214 PDF tests pass; sixteen rehashed root, six native, four recipe and four
+  child ownership/anchor faults reject. Every original native/core file is exact.
+- Parent 0003 is readable/assistant sample-reviewed. Child 0004 is a final non-owning
+  Part 1 reference, including examples through 272 after main closes 270. Children
+  0005/0006 classifications are next. Totals: five readable, zero partial, one heading,
+  one section reference and 83 unresolved. Full March work remains active through
+  bodies/classifications, page accounting, cover and separate closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build or deployment.
+
 ## 2026-11-04 — Preserve final March MUD source pages
 
 - Restored PDF 286–289 as immutable native e: 151 independently/fresh-process exact
