@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-04 — Preserve final March MUD source pages
+
+- Restored PDF 286–289 as immutable native e: 151 independently/fresh-process exact
+  files, 38 exact crops, 35 outcomes, 709 typed ranges and 325 reading rows.
+  Preserve the independent conditions essay, twelve inline prose examples, final
+  main ending and separate five-row disk-file table. No software association added.
+- Seven continuations retain physical LF. One source pass, zero retries, five
+  pre-OCR crop repairs, two within-pass spacing repairs and zero post-pass changes.
+  A retained export constructor repair changes a wrapped metadata lookup while
+  source/raw bytes remain exact. Six range and fifteen source-context faults reject.
+  All 4,669 earlier March files/thirty core pins remain exact; the unchanged
+  214-test baseline is reused.
+- All 28 source pages 262–289 are preserved across a/b/c/d/e. Next actual complete
+  parent assembly and final child anchors. Four readable, one partial, one heading
+  and 84 unresolved remain. Full March work continues through remaining bodies,
+  classifications, page accounting, cover and standalone closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build or deployment.
+
 ## 2026-11-04 — Preserve March parser guidance and Part 3 opening
 
 - Restored PDF 280–285 as immutable native d: 193 independently/fresh-process exact

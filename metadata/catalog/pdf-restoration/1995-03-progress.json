@@ -138,7 +138,8 @@
         "All174 files reproduce independently/in fresh process;46 exact crops,40 provenance outcomes,385 physical rows andtyped source ranges validate. Null opening folio andpending whole extent prevent false complete coverage.",
         "Batch 05 preserves continuation 268–273 as native b: 246 exact independent/fresh-process files, 66 exact crops, 57 outcomes and 418 reading rows, including thirteen printed-omission/rule markers. The 97 directory rows/388 cells/six blank IPs, thirty race cells, thirteen user rows/85 cells, twenty arrow annotations and two literal captions validate. Both original 267→268 native contexts await assembly. Part 1 main ends 270, appendices end 272, and Part 2 opens 273/265. Source layout spans 262–289, ending 289/281 before advertisement 290. Later 274–289, assembly and final child anchors remain pending.",
         "Batch 06 preserves 274–279 as native c: 255 exact independent/fresh-process files, 64 exact crops, 61 outcomes, 487 reading rows, 94 table cells/ten headers and three charts with 53 printed ticks/twelve legend words. Two English examples and three map-bullet contexts remain separate. Twelve internal joins include one new paragraph. Incoming 273→274 starts a subsection; outgoing 279→280 continues 다→운. One source pass, zero retries, one within-pass paragraph-separator correction, zero post-pass text changes. Caption-review wording is clarified in a fresh retained revision. Later 280–289, actual parent assembly and final child anchors remain pending.",
-        "Batch07 preserves280–285 as immutable native d:193 independent/fresh-process exact files,50 exact crops,45 OCR outcomes,453 serialized reading rows;15-cell parser matrix,ten MOB behavior cells/two headers/two wrapped cells andindependent boxed essay. Eight internal joins retain one new paragraph;source Part2 closes282 andPart3 opens283 without prose join. Incoming279→280 continues다→운;outgoing285→286 continues위해→서는. One source pass,zero retries,three map versions/eleven pre-OCR repairs,three within-pass text repairs,zero post-pass changes. Example1 references stay unresolved. Final286–289 andactual parent assembly/final child anchors remain pending."
+        "Batch07 preserves280–285 as immutable native d:193 independent/fresh-process exact files,50 exact crops,45 OCR outcomes,453 serialized reading rows;15-cell parser matrix,ten MOB behavior cells/two headers/two wrapped cells andindependent boxed essay. Eight internal joins retain one new paragraph;source Part2 closes282 andPart3 opens283 without prose join. Incoming279→280 continues다→운;outgoing285→286 continues위해→서는. One source pass,zero retries,three map versions/eleven pre-OCR repairs,three within-pass text repairs,zero post-pass changes. Example1 references stay unresolved. Final286–289 andactual parent assembly/final child anchors remain pending.",
+        "Batch08 preserves final286–289 as immutable native e:151 independently/fresh-process exact files,38 exact crops,35 outcomes,325 reading rows;five-row disk-file table/ten cells/two headers,five filename occurrences,independent boxed essay andtwelve inline prose examples. Seven internal joins retainLF;main287→288 skips independent conditions essay. Main ending289 andadjacent table stay separate;290 is independent advertising. Incoming285→286 continues위해→서는. One source pass,zero retries,two maps/five pre-OCR repairs,two within-pass spacing repairs,zero post-pass text changes. One retained export constructor fix uses the existing physical wrap in a metadata search needle;source/raw bytes unchanged. All28 source pages now preserved across a/b/c/d/e;actual complete parent assembly/final child anchors remain pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1995-03/packages/batch-04-r01/mud-a",
@@ -173,7 +174,11 @@
             282,
             283,
             284,
-            285
+            285,
+            286,
+            287,
+            288,
+            289
           ],
           "printed_pages": [
             null,
@@ -199,17 +204,16 @@
             "274",
             "275",
             "276",
-            "277"
+            "277",
+            "278",
+            "279",
+            "280",
+            "281"
           ],
-          "regions": 226,
-          "blocks": 169,
-          "figures": 23,
-          "deferred_pdf_pages": [
-            286,
-            287,
-            288,
-            289
-          ],
+          "regions": 264,
+          "blocks": 197,
+          "figures": 26,
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
         "body_pages_complete": false,
@@ -396,6 +400,54 @@
               "figures": 5
             },
             "checkpoint": "batch-07"
+          },
+          {
+            "name": "e",
+            "directory": "archive/pdf/1995-03/packages/batch-08-r01/mud-e",
+            "pdf_pages": [
+              286,
+              287,
+              288,
+              289
+            ],
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-08-r01/mud-e/manifest.json",
+              "sha256": "064c537d1ceba170b5a7748ba1f11140b05bf9633822c6d8526a12dd97defeda",
+              "bytes": 25465
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-08/mud-e-r02/package-recipe-r02.json",
+              "sha256": "2a51f9715626269d64893ebb75b4b3b81de88fe6aab933db7986a593ff7e9a09",
+              "bytes": 6366
+            },
+            "validation": {
+              "path": "archive/pdf/1995-03/restoration/batch-08/validation.json",
+              "sha256": "76f0c1074026e59126e1ec2bea2eed353d034a0580d198220643a441ba8c2327",
+              "bytes": 2111
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-03/restoration/batch-08/reproduction.json",
+              "sha256": "13257a5f5531a6e71f1433521f1f170ba56e92847b1d0ac062eae646018e08fa",
+              "bytes": 29833
+            },
+            "coverage": {
+              "pdf_pages": [
+                286,
+                287,
+                288,
+                289
+              ],
+              "printed_pages": [
+                "278",
+                "279",
+                "280",
+                "281"
+              ],
+              "regions": 38,
+              "blocks": 28,
+              "figures": 3
+            },
+            "checkpoint": "batch-08"
           }
         ],
         "extent_review": {
@@ -414,16 +466,16 @@
           "bytes": 34157
         },
         "checkpoint": "batch-04",
-        "latest_native": "d",
+        "latest_native": "e",
         "latest_validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-07/validation.json",
-          "sha256": "dfec9f5707dd4ba570d15a60b841cbe190c0449e560614f69bf86798c8707617",
-          "bytes": 1992
+          "path": "archive/pdf/1995-03/restoration/batch-08/validation.json",
+          "sha256": "76f0c1074026e59126e1ec2bea2eed353d034a0580d198220643a441ba8c2327",
+          "bytes": 2111
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-07/reproduction.json",
-          "sha256": "635525677fa96ebbd5805bafef28bd74fdcade2e87af8c406506433a41a0761b",
-          "bytes": 37999
+          "path": "archive/pdf/1995-03/restoration/batch-08/reproduction.json",
+          "sha256": "13257a5f5531a6e71f1433521f1f170ba56e92847b1d0ac062eae646018e08fa",
+          "bytes": 29833
         },
         "full_body_pdf_pages": [
           262,
@@ -461,14 +513,15 @@
           "bytes": 1756
         },
         "notes": [
-          "directory/manifest still identify immutable native a, not an assembled twenty-four-page body. Cumulative coverage is across a/b/c/d.",
-          "Extent262–289 is layout-reviewed. Final286–289, actual complete parent assembly and final child anchors remain pending. Part2 source closing282/Part3 opening283 do not by themselves establish assembled section bodies."
+          "directory/manifest still identify immutable native a, not an assembled28-page body. All source pages262–289 are now preserved across a/b/c/d/e; actual complete assembly remains pending.",
+          "Final main text closes289 before MS and adjacent disk-file table;290 is independent advertising. Source page coverage does not establish a readable assembled parent or final child anchors."
         ],
         "latest_incoming_boundary": {
-          "path": "archive/pdf/1995-03/restoration/batch-07/incoming-boundary.json",
-          "sha256": "77035849a91a59e698fb29d317431725b5f92c8ba630f5f76cc1e8c9162a0efb",
-          "bytes": 1875
-        }
+          "path": "archive/pdf/1995-03/restoration/batch-08/incoming-boundary.json",
+          "sha256": "815fef4f3e16315d47b7362b887629c741e891d7f2559385761f8933b92bdd91",
+          "bytes": 2016
+        },
+        "all_source_body_pages_preserved": true
       }
     },
     {
@@ -1755,6 +1808,39 @@
         "sha256": "635525677fa96ebbd5805bafef28bd74fdcade2e87af8c406506433a41a0761b",
         "bytes": 37999
       }
+    },
+    {
+      "name": "1995-03-batch-08",
+      "status": "partial-native-complete",
+      "completed_at": "2026-11-04T08:49:00.116654+00:00",
+      "goal": "Preserve final feature0003 source pages286–289 as native e,with ending,adjacent disk table andindependent boxed essay.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0003"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        286,
+        287,
+        288,
+        289
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 35,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 2,
+      "post_pass_transcription_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-08/validation.json",
+        "sha256": "76f0c1074026e59126e1ec2bea2eed353d034a0580d198220643a441ba8c2327",
+        "bytes": 2111
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-08/reproduction.json",
+        "sha256": "13257a5f5531a6e71f1433521f1f170ba56e92847b1d0ac062eae646018e08fa",
+        "bytes": 29833
+      }
     }
   ],
   "totals": {
@@ -1770,5 +1856,5 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore feature0003 final native286–289 under the six-page ceiling, retaining a/b/c/d262–285 unchanged. Follow main-body incoming위해→서는 independently of the boxed essay. Preserve Part3 ending289/281 and adjacent five-row disk-file table. Then perform actual complete28-page parent assembly and final children0004–0006 anchors. Complete remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly."
+  "next_checkpoint": "Perform actual complete28-page feature0003 parent assembly on262–289 from immutable natives a/b/c/d/e. Independently regenerate each native;preserve original source metadata/assets/raws andall custom typed ranges,independent sidebars,tables,charts andexamples. Verify original cross-native contexts andsource part boundaries;assign final children0004–0006 anchors only in the verified assembly. No new OCR is expected. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone closeout beforeJuly."
 }

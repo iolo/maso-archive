@@ -94,8 +94,27 @@ One source pass, zero retries, three map versions/eleven pre-OCR repairs, three
 within-pass text repairs and zero post-pass changes. All 3,952 earlier March files
 and thirty core pins remain exact; the unchanged 214-test baseline is reused.
 Natives a/b/c/d preserve 262–285 of the reviewed 28-page extent 262–289.
-Next preserve final 286–289, including the ending and adjacent disk-file table,
-then perform actual complete parent assembly and final child anchors.
+Its final source segment is preserved by batch 08 below. Detailed prior evidence
+remains in the March progress record.
+
+Batch 08 preserves feature 0003's final source pages 286–289 as immutable native e:
+151 independent/fresh-process exact files, 38 exact crops, 35 outcomes, 709 typed
+ranges and 325 reading rows. The five-row disk-file table retains ten body cells,
+two headers and five filename occurrences. The boxed conditions essay remains
+independent of main script prose across 287→288. Twelve inline examples and thirteen
+technical terms retain source contexts. Three original image regions have one
+literal caption; the final main ending/mark and adjacent table keep separate roles.
+Seven internal continuations retain LF. Incoming 285→286 continues `위해`→`서는`;
+main prose ends on 289, before independent advertising on 290.
+One source pass, zero retries, two maps/five pre-OCR crop repairs, two within-pass
+spacing repairs and zero post-pass changes. A retained export constructor repair
+uses an existing physical wrap in a metadata lookup; source/raw bytes remain exact.
+All 4,669 earlier March files/thirty core pins remain unchanged; the 214-test baseline
+is reused. Six range faults and fifteen source-context faults are rejected.
+All 28 source pages 262–289 are now preserved across immutable natives a/b/c/d/e.
+Next perform actual complete parent assembly from independently regenerated natives,
+retain all custom metadata/source contexts and assign final children 0004–0006
+anchors only after assembly validation. No new OCR is expected for that step.
 Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate

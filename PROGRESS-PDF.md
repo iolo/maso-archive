@@ -19,21 +19,24 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 07 preserves feature 0003 pages 280–285 as immutable partial native d:
-193 independent/fresh-process exact files, 50 exact crops, 45 outcomes, 856 typed
-ranges and 453 serialized reading rows. The grammar matrix retains fifteen cells;
-the MOB behavior table retains ten body cells/two headers and two source-wrapped
-cells. The boxed essay remains independent. Five original image regions and one
-literal caption retain their source contexts. Eight internal continuations include
-one new paragraph; Part 2 closes on 282 and Part 3 opens on 283 without a prose join.
-Incoming 279→280 continues `다`→`운`; outgoing 285→286 continues `위해`→`서는`.
-Both `<예제 1>` references remain unresolved; no program listing is synthesized.
-One source pass, zero retries, three map versions/eleven pre-OCR repairs, three
-within-pass text repairs and zero post-pass changes. All 3,952 earlier March files
-and thirty core pins remain exact; the unchanged 214-test baseline is reused.
-Natives a/b/c/d preserve 262–285 of the reviewed 28-page extent 262–289.
-Next preserve final 286–289, including the ending and adjacent disk-file table,
-then perform actual complete parent assembly and final child anchors.
+Batch 08 preserves feature 0003's final source pages 286–289 as immutable native e:
+151 independent/fresh-process exact files, 38 exact crops, 35 outcomes, 709 typed
+ranges and 325 reading rows. The five-row disk-file table retains ten body cells,
+two headers and five filename occurrences. The boxed conditions essay remains
+independent of main script prose across 287→288. Twelve inline examples and thirteen
+technical terms retain source contexts. Three original image regions have one
+literal caption; the final main ending/mark and adjacent table keep separate roles.
+Seven internal continuations retain LF. Incoming 285→286 continues `위해`→`서는`;
+main prose ends on 289, before independent advertising on 290.
+One source pass, zero retries, two maps/five pre-OCR crop repairs, two within-pass
+spacing repairs and zero post-pass changes. A retained export constructor repair
+uses an existing physical wrap in a metadata lookup; source/raw bytes remain exact.
+All 4,669 earlier March files/thirty core pins remain unchanged; the 214-test baseline
+is reused. Six range faults and fifteen source-context faults are rejected.
+All 28 source pages 262–289 are now preserved across immutable natives a/b/c/d/e.
+Next perform actual complete parent assembly from independently regenerated natives,
+retain all custom metadata/source contexts and assign final children 0004–0006
+anchors only after assembly validation. No new OCR is expected for that step.
 Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
