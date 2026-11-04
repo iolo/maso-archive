@@ -11,21 +11,31 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have three readable articles and 87 unresolved outcomes; July
+identities now have four readable articles, one non-owning heading and 85 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-March 1995 batch 02 completes reader voices 0002 on PDF 152–153/printed 144–145
+March 1995 batch 03 completes developer column 0009 on PDF 156–157/printed 148–149
+and classifies column group 0007 as non-owning. All 80 native/three classification
+files reproduce independently/in fresh processes; 21 exact crops, seventeen
+outcomes, 238 typed ranges and 137 rows validate. Four headings, independent
+quotation/question, biography and three explicit boundaries remain. One source
+pass, zero retries or within/post-pass changes. All earlier files/thirty core
+modules remain exact; 214-test baseline reused. Next verify feature 0003's actual
+extent and preserve its bounded opening; final child anchors follow parent assembly.
+See [March 1995 progress](docs/progress/9503.md).
+
+Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
 and user column 0008 on 154–155/146–147: 219 independent/fresh-process exact files,
 56 exact crops, 49 outcomes, 586 typed ranges and 327 physical rows. Six letters,
 separate invitation/editorial reply, original layouts/cover crop, independent column
 quotation/biography and twelve boundaries retain their contexts. One damaged source
 extent remains explicitly marked. One source pass, zero retries and one recorded
 post-pass duplicated-word artifact repair. All earlier files/core pins remain exact;
-214-test baseline retained. Next developer 0009 and non-owning column group 0007.
+214-test baseline retained. Its developer/group next step is completed by batch 03.
 See [March 1995 progress](docs/progress/9503.md).
 
 Batch 01 restored the complete editorial on PDF151/printed143:

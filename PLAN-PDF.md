@@ -36,8 +36,18 @@ separate invitation/editorial reply and source layouts remain, with one explicit
 damaged-source placeholder. The user column retains four section headings,
 independent quotation and author biography. One source pass,zero retries and one
 post-pass duplicated-word artifact repair; all earlier files/thirty core modules
-remain exact. Current totals: three readable, 87 unresolved. Next verify/restore
-developer 0009 from 156/148 and classify non-owning column group 0007. See
+remain exact. Its developer/group next step is completed by batch 03 below.
+
+Batch 03 completes developer 0009 on PDF 156–157/148–149: 80 independently/fresh-process
+exact native files, 21 exact crops, seventeen outcomes, 238 typed ranges and 137
+physical rows. Four headings, independent quotation/question, biography and three
+boundaries retain original contexts; the paragraph break before page 157 remains.
+One source pass, zero retries or within/post-pass changes. Group 0007 is non-owning
+from contents/repeated banners; three exact evidence files and nine ownership
+faults validate. All earlier files/thirty core pins remain unchanged. Current
+totals: four readable, one heading, 85 unresolved. Next feature 0003's actual
+opening/ending/three section starts and at most six opening body pages; final
+children 0004–0006 anchors follow actual parent assembly. See
 [March progress](docs/progress/9503.md). The full March restoration goal remains active.
 
 Complete both issue passes before collection aggregation and handoff in steps

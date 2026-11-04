@@ -1,5 +1,22 @@
 # Progress
 
+## 2026-11-04 — Complete March developer column and classify its series heading
+
+- Restored developer message 0009 on PDF 156–157/printed 148–149: 80 exact
+  independent/fresh-process files, 21 exact crops, seventeen OCR outcomes,
+  238 typed ranges and 137 physical rows. Independent quotation/question,
+  biography, four section headings and three source boundaries remain literal.
+- Classified pageless parent 0007 as non-owning from original contents and repeated
+  banners; three evidence files reproduce exactly. Both child bodies remain
+  separate. Six range faults and nine ownership faults are rejected.
+- Seven pre-OCR margin repairs, one source pass, zero retries/within/post-pass
+  changes. All 845 earlier March files/thirty core pins remain exact; unchanged
+  214-test baseline reused. No reader rebuild or deployment.
+- Full March goal remains active: four readable articles, one heading and 85
+  unresolved identities. Next verify feature 0003's actual extent and preserve
+  its bounded opening, followed by remaining natives/assembly and final child anchors.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Complete March 1995 reader voices and user column
 
 - Restored canonical 0002 on PDF 152–153/144–145 and 0008 on 154–155/146–147.

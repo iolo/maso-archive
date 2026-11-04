@@ -19,15 +19,24 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-March batches 01–02 complete editorial0001,reader voices0002 and user column0008:
-three readable articles/87 unresolved identities. Batch 02's219 files reproduce
+March batches 01–03 complete editorial 0001, reader voices 0002 and columns 0008/0009:
+four readable articles, one non-owning heading and 85 unresolved identities.
+Batch 03's 80 native/three classification files reproduce independently/in fresh
+processes; 21 exact crops, seventeen outcomes, 238 ranges and 137 rows validate.
+Four headings, independent quotation/question, biography and explicit source
+boundaries remain. One source pass, zero retries/within/post-pass changes. Group
+0007 does not own either child body. Next feature 0003's actual extent and at most
+six opening pages; children 0004–0006 finalize only after parent assembly.
+All thirty core pins unchanged; 214-test baseline retained.
+
+Batch 02's219 files reproduce
 independently/in fresh processes;56 exact crops,49 outcomes,586 ranges and327 rows
 validate. Six letters and separate editorial reply remain distinct; one damaged
 source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
-baseline retained. Next developer0009 fromPDF156/148 and column group0007. See
+baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-02/reproduction.json`.
+`archive/pdf/1995-03/restoration/batch-03/reproduction.json`.
 
 ## Session wrap-up
 

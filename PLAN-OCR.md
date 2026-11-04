@@ -33,8 +33,12 @@ recognitions, one source correction pass, zero retries/crop changes. Batch 02
 completes reader voices0002 and user column0008 on PDF152–155:219 exact files,
 56 crops,49 initial calls,one source pass,zero retries and one explicitly retained
 post-pass transcription artifact repair. One damaged source extent stays marked.
-Current totals: three readable/87 unresolved; next developer0009 and column
-group0007. All thirty core modules unchanged;214-test baseline retained. The historical 1995
+Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
+classification files exact, 21 exact crops, seventeen initial calls, one source
+pass and zero retries/within/post-pass changes. Current totals: four readable,
+one heading/85 unresolved. Next feature 0003's verified extent and bounded opening;
+final child anchors follow actual parent assembly. All thirty core modules
+unchanged; 214-test baseline retained. The historical 1995
 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
 and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader
 rebuild is included. Earlier detailed checkpoints below are historical records.
