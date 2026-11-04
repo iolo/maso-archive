@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-04 — Complete March optimization article and group
+
+- Batch 15 completes article0015 on PDF232–236/printed224–228 and non-owning
+  group0014. Article exports match across178 files,44 crops,42 OCR outcomes,
+  1,084 typed ranges and378 rows. Eleven sections, six comparison rows, independent
+  pullquote and source credits remain distinct. Printed examples and typos stay literal.
+- One source pass, zero retries or within/post-pass transcription changes; two
+  pre-OCR maps retain42 margin adjustments. Six range/seventeen context/five group
+  faults reject. All9,019 prior files and30 core modules remain exact;214-test baseline reused.
+- Totals: nine readable, zero partial, three groups, three references,75 unresolved.
+  Next article0016 opens onPDF238; verify 김창훈 source variant against canonical
+  김창호 and actual extent before mapping. Full March goal remains active through
+  remaining restoration,545-page accounting,cover and separate closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build/deployment.
+
 ## 2026-11-04 — Complete March patent/legal article
 
 - Article0013 is complete on PDF220–223/printed212–215: 110 selected/independent/

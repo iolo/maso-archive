@@ -11,46 +11,48 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have eight readable articles, zero partials, two non-owning headings,
-three section references and 77 unresolved outcomes; July
+identities now have nine readable articles, zero partials, three non-owning headings,
+three section references and 75 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 14 completes patent/legal article 0013 on PDF 220–223/individually observed
-printed 212–215. The 110 selected, independent and fresh-process files match:
-27 pixel-exact crops, 25 OCR outcomes, 646 typed occurrences, fifteen blocks and
-378 reading rows. Three independent pull quotations, author biography, three
-section headings, original portrait/MS images with null captions and editorial
-`정리 : 박은숙` retain distinct roles; canonical author 이윤민 stays unchanged.
-Ten continuations preserve nine LF joins and one paragraph break. The dropcap
-folds once. Five patent-number occurrences and printed legal, historical, technical,
-numeric and product claims remain literal, including original wording errors.
-Previous 219 and following 224 are independent advertisements; the lower 223 book
-advertisement is excluded. No global PDF/folio offset or TOC-based ending inferred.
-All 25 initial drafts were read before one source pass; zero retries or within/post-pass
-text repairs. Two pre-OCR maps preserve seven left-margin adjustments. Six range,
-eighteen source-context and four historical-status faults reject. All 8,621 earlier
-March files and thirty core modules stay exact; the unchanged 214-test baseline
-from batch 09 is reused. No new core code or private assembly adapter is required.
-One reproducible status sidecar resolves only older group evidence's child0013
-unresolved descriptor and the corresponding batch-13 creation-time sibling-status
-statement. Originals, group ownership/membership, other outcomes and fidelity limits
-remain unchanged. Preserve all seven final-issue evidence files: five MUD sidecars
-from batch 10 and the article0012/article0013 status sidecars from batches 13/14.
-Selected package: `archive/pdf/1995-03/packages/batch-14-r01/patent/`.
-Source status: `archive/pdf/1995-03/classifications/batch-14-r01/source-creation-dispositions.json`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-14/`.
-Totals: eight readable, zero partial, two non-owning headings, three section
-references and 77 unresolved. Next review 종합클리닉 group 0014 and locate/restore
-first child 0015, `시스템 최적화 : 뽀빠이 유저가 되는 11가지 방법`, canonical reference
-224/byline 류한석. Verify actual title/byline, extent and adjacent ownership before
-mapping; no source PDF page or ending is inferred from the TOC. Use ordinary
-2-task/6-mapped-page/20-outside-page bounds and split longer bodies.
-Exact glyphs/spaces/quotes/dot identities/encoded bytes, source legal/historical/
-technical claims, full proofreading and human acceptance remain unverified.
+Batch 15 completes optimization article 0015 on PDF 232–236/individually observed
+printed 224–228 and classifies pageless 종합클리닉 0014 as a non-owning group.
+The 178 selected, independent and fresh-process article files match: 44 pixel-exact
+crops, 42 OCR outcomes, 1,084 typed ranges, 31 blocks and 378 physical reading rows.
+Eleven sections, six literal CPU-comparison rows, one independent pullquote,
+author credit/portrait, closing MS and editorial `정리 : 임진선` retain distinct roles.
+Both image captions are null. Eleven continuations retain ten LF joins and one
+paragraph break; dropcap 파 folds once. Inline commands/configuration prompts and
+historical hardware/performance claims remain literal prose, with printed typos
+and explicit glyph/punctuation candidates. Canonical author 류한석 is unchanged.
+Adjacent 231/237 are independent book advertisements. Two canonical tasks, five
+mapped pages and six outside-page inspections remain within checkpoint limits.
+All 42 initial drafts were read before one source pass; zero recognition retries
+or within/post-pass transcription changes. Two pre-OCR maps retain 42 margin
+adjustments. Six range, seventeen source-context and five group faults reject.
+All 9,019 earlier March files and thirty core modules stay exact; the unchanged
+214-test baseline from batch 09 is reused. One failed replacement-key assertion
+was fixed before the first reviewed-text save; the attempt remains retained.
+Three group evidence files reproduce independently and in a fresh process.
+Contents 4 lists direct children 0015/0016/0017/0024; opening banners 232/238/244
+corroborate membership. Opening 250 matches the fourth entry without repeating
+the banner. Nested children of 0017 stay nested; other bodies remain unresolved.
+Preserve all seven final-issue evidence files from batches 10/13/14 unchanged.
+Selected article: `archive/pdf/1995-03/packages/batch-15-r01/optimization/`.
+Group evidence: `archive/pdf/1995-03/classifications/batch-15-r01/group-0014.json`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-15/`.
+Totals: nine readable, zero partial, three non-owning headings, three section
+references and 75 unresolved. Next restore article 0016, `실행파일에 암호를 걸자`,
+canonical reference 230/byline 김창호, with observed opening PDF 238. Verify the
+opening's best-visible 김창훈 against canonical/contents 김창호, actual full extent
+and adjacent ownership before mapping. No TOC-derived ending or global offset.
+Keep ordinary 2-task/6-mapped-page/20-outside-page bounds and split longer bodies.
+Exact glyphs/spaces/punctuation/encoded bytes, historical technical claims,
+full proofreading and human acceptance remain unverified.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.
