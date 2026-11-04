@@ -171,14 +171,36 @@ and in a fresh process. Contents 4 and repeated banners on 208/212/220 establish
 its three children; siblings 0012/0013 remain unresolved. No group body or folio
 is inherited. Totals: six readable, zero partial, two non-owning headings, three
 section references and 79 unresolved.
-Next restore multimedia-industry article 0012, canonical reference 204, whose
-opening is individually observed on 212/204. Then restore patent/legal article
-0013, reference 212, opening observed on 220/212. Verify each actual extent,
-title/byline and adjacent pages before mapping; use separate checkpoints if their
-combined extent exceeds six mapped pages. Preserve both groups, complete MUD
-parent and three final child references. Frozen MUD creation-time pending-child
-notes resolve through the five batch-10 external sidecars, still required at
-final issue closeout; use the batch-09 `check-parent.py` wrapper.
+Its multimedia-industry next step starts in batch 12 below. Full interview/group
+evidence remains in the March progress record.
+
+Batch 12 preserves multimedia-industry article 0012 on PDF 212–217/individually
+observed printed 204–209 as immutable partial native a. Full extent is 212–218;
+final 218/210 remains deferred. The 190 selected files match independent and
+fresh-process exports: 47 pixel-exact crops, 45 selected OCR outcomes, 760 typed
+occurrences, 35 blocks and 404 reading rows. Independent author biography and
+pull quote, two original portraits/null captions and four printed lists retain
+their contexts. All 24 list items preserve source markers and wraps. Ten internal
+joins retain physical LF; the dropcap folds into the first word once.
+All 45 initial drafts were read before one source pass; zero retries. Three
+pre-OCR maps retain 24 margin events across 23 regions. One within-pass vowel
+repair follows enlarged source review; zero post-pass changes. Literal source
+40대, product spellings, wording defects and historical/technical/cultural claims
+remain unrepaired. Exact glyphs, spaces, quotes/dot/marker identities, encoded
+bytes, full proofreading and human acceptance remain unverified. Six range and
+twenty source-context faults reject. All 7,527 earlier March files, thirty core
+modules and the private MUD adapter remain exact; the unchanged 214-test baseline
+from batch 09 is reused.
+Main 217→218 continues `작용되어야`→`한다.`. Final 218 has article prose, ending
+MS and editorial credit above an independent Windows 3.1 book advertisement.
+Page 219 is a separate computer advertisement; patent/legal 0013 opens on 220/212.
+Next restore only eligible final-page 218 content as a fresh native, then actually
+assemble complete 212–218 from immutable natives with all custom source metadata,
+ranges, photos, biography, pull quote and lists preserved. Article 0012 stays
+partial until that complete assembly validates. Then continue patent/legal 0013.
+Totals: six readable, one partial, two non-owning headings, three section references
+and 78 unresolved. Preserve complete MUD parent/three final children and both
+groups; its five batch-10 external sidecars remain required at final closeout.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.

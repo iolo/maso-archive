@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-04 — Preserve March multimedia-industry opening
+
+- Article 0012's six-page native a covers 212–217 of verified extent 212–218:
+  190 selected, independent and fresh-process files match. All 47 exact crops,
+  45 outcomes, 760 typed occurrences and 404 reading rows validate. Biography,
+  pull quote, two original portraits and four lists/24 items retain source roles.
+- Ten joins retain LF; the dropcap folds once. One source pass, zero retries,
+  three pre-OCR maps/24 margin events/23 regions, one within-pass vowel repair
+  and zero post-pass changes. Six range/twenty context faults reject. Printed
+  figures, product spellings and claims remain literal. All 7,527 earlier files,
+  core modules and the private adapter remain exact.
+- Totals: six readable, one partial, two groups, three references, 78 unresolved.
+  Next restore final 218/210 above the independent book advertisement, then
+  actually assemble 212–218 with all original metadata/ranges. Patent/legal 0013
+  follows. Full March work remains active through bodies/classifications, page
+  accounting, cover and standalone closeout before July. Fidelity/human acceptance
+  limits remain. See [March progress](docs/progress/9503.md). No reader build/deployment.
+
 ## 2026-11-04 — Restore March computer-advertising interview
 
 - Interview 0011 is complete on PDF 208–211/printed 200–203: 220 independently/

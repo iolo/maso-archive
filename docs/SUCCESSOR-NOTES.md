@@ -19,37 +19,33 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 11 restores interview 0011, `컴퓨터 광고, 제 역할 하고 있는가`, on
-PDF 208–211/individually observed printed 200–203. Its 220 native files match
-independent and fresh-process exports: 56 pixel-exact crops, 52 selected outcomes,
-713 typed occurrences, forty blocks and 366 physical reading rows. Two source
-speakers retain seven and six separate Q&A pairs, independent pull quotes,
-portraits, names/affiliations and two editorial/photo credits. Canonical byline
-편집부 stays unchanged. Twelve physical joins include two question continuations;
-questions, answers and speakers never merge. Four original image regions have
-null captions; decorative dots remain image-dependent and uncounted.
-Three pre-OCR crop repairs and three materially widened pre-correction crops
-remain: 52 initial plus three changed-input recognitions, 49 exact raw/TSV results
-reused, zero unchanged-input retries, one source pass and zero within/post-pass
-text repairs. Printed defects and historical/technical claims remain literal.
-A failed metadata constructor is retained; its revision uses the existing
-canonical page-reference field without source/OCR changes. Six range, eighteen
-source-context and eight group-ownership faults reject. All 6,401 earlier March
-files, thirty core modules and the private MUD adapter remain exact; the unchanged
-214-test baseline from batch 09 is reused.
-Group 0010, 나눔터, is non-owning: three evidence files reproduce independently
-and in a fresh process. Contents 4 and repeated banners on 208/212/220 establish
-its three children; siblings 0012/0013 remain unresolved. No group body or folio
-is inherited. Totals: six readable, zero partial, two non-owning headings, three
-section references and 79 unresolved.
-Next restore multimedia-industry article 0012, canonical reference 204, whose
-opening is individually observed on 212/204. Then restore patent/legal article
-0013, reference 212, opening observed on 220/212. Verify each actual extent,
-title/byline and adjacent pages before mapping; use separate checkpoints if their
-combined extent exceeds six mapped pages. Preserve both groups, complete MUD
-parent and three final child references. Frozen MUD creation-time pending-child
-notes resolve through the five batch-10 external sidecars, still required at
-final issue closeout; use the batch-09 `check-parent.py` wrapper.
+Batch 12 preserves multimedia-industry article 0012 on PDF 212–217/individually
+observed printed 204–209 as immutable partial native a. Full extent is 212–218;
+final 218/210 remains deferred. The 190 selected files match independent and
+fresh-process exports: 47 pixel-exact crops, 45 selected OCR outcomes, 760 typed
+occurrences, 35 blocks and 404 reading rows. Independent author biography and
+pull quote, two original portraits/null captions and four printed lists retain
+their contexts. All 24 list items preserve source markers and wraps. Ten internal
+joins retain physical LF; the dropcap folds into the first word once.
+All 45 initial drafts were read before one source pass; zero retries. Three
+pre-OCR maps retain 24 margin events across 23 regions. One within-pass vowel
+repair follows enlarged source review; zero post-pass changes. Literal source
+40대, product spellings, wording defects and historical/technical/cultural claims
+remain unrepaired. Exact glyphs, spaces, quotes/dot/marker identities, encoded
+bytes, full proofreading and human acceptance remain unverified. Six range and
+twenty source-context faults reject. All 7,527 earlier March files, thirty core
+modules and the private MUD adapter remain exact; the unchanged 214-test baseline
+from batch 09 is reused.
+Main 217→218 continues `작용되어야`→`한다.`. Final 218 has article prose, ending
+MS and editorial credit above an independent Windows 3.1 book advertisement.
+Page 219 is a separate computer advertisement; patent/legal 0013 opens on 220/212.
+Next restore only eligible final-page 218 content as a fresh native, then actually
+assemble complete 212–218 from immutable natives with all custom source metadata,
+ranges, photos, biography, pull quote and lists preserved. Article 0012 stays
+partial until that complete assembly validates. Then continue patent/legal 0013.
+Totals: six readable, one partial, two non-owning headings, three section references
+and 78 unresolved. Preserve complete MUD parent/three final children and both
+groups; its five batch-10 external sidecars remain required at final closeout.
 See [March progress](progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.
@@ -61,7 +57,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-11/reproduction-with-group.json`.
+`archive/pdf/1995-03/restoration/batch-12/reproduction.json`.
 
 ## Session wrap-up
 
