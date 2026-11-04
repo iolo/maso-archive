@@ -1,5 +1,15 @@
 # Progress
 
+## 2026-11-04 — Bind new PDF recipes to their expanded inventory
+
+- Added an optional pair of pinned source/queue inventory files to the article
+  builder. New 1995 recipes can use the expanded inventory while old recipes
+  retain their original cover-only exclusions and provenance. Both file pins,
+  shared inventory directory and canonical membership are checked.
+- All 214 PDF tests pass, including a synthetic case that rejects legacy
+  cover-only scope, accepts the explicitly expanded inventory, and rejects stale
+  or consistently rehashed missing-membership inputs. No existing package was rebuilt.
+
 ## 2026-11-04 — Import expanded TOCs and queue the remaining PDFs
 
 - Imported the source-reviewed 1994–1995 addition: 146 issues/7,110 entries,

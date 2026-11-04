@@ -108,12 +108,24 @@ def check_preview(output, package):
             raise ValueError('Preview silently omits a reading block')
 
 
-def validate_source(package, root=ROOT):
+def validate_source(package, root=ROOT, *, inventory_pins=None):
     """Check source identity, inventory geometry and TOC eligibility without OCR."""
     checked(root, {key: package['source'][key] for key in ('path', 'sha256', 'bytes')})
     checked(root, package['toc_pin'])
-    inventory = preserved_input(root, 'archive/pdf/shared/restoration/inventory',
-                                'private/pdf-restoration/inventory')
+    if inventory_pins is None:
+        inventory = preserved_input(root, 'archive/pdf/shared/restoration/inventory',
+                                    'private/pdf-restoration/inventory')
+    else:
+        if set(inventory_pins) != {'sources', 'queue'}:
+            raise ValueError('Explicit inventory requires sources and queue pins')
+        sources_path = safe_path(root, inventory_pins['sources']['path'])
+        queue_path = safe_path(root, inventory_pins['queue']['path'])
+        if (sources_path.name != 'sources.json' or queue_path.name != 'queue.jsonl' or
+                sources_path.parent != queue_path.parent):
+            raise ValueError('Explicit inventory sources and queue must share one directory')
+        checked(root, inventory_pins['sources'])
+        checked(root, inventory_pins['queue'])
+        inventory = sources_path.parent
     sources = json.loads((inventory / 'sources.json').read_bytes())
     source = next((s for s in sources['sources'] if s['id'] == package['source']['id']), None)
     if source is None or source['scope'] != 'toc-entries-and-cover':
@@ -140,7 +152,7 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
     base = recipe_path.parent
     recipe = json.loads(recipe_path.read_bytes())
     package = validate_package(json.loads(checked(base, recipe['map'])))
-    inventory = validate_source(package, root)
+    inventory = validate_source(package, root, inventory_pins=recipe.get('inventory'))
     corrections = json.loads(checked(base, recipe['corrections']))
     if corrections['article_id'] != package['id'] or corrections['map'] != recipe['map']:
         raise ValueError('Corrections belong to a different article or region map')

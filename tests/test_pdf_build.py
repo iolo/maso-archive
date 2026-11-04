@@ -103,6 +103,35 @@ class PDFBuildTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'Unsafe artifact path'):
                 build(recipe_path, root / 'build/unsafe', root)
 
+    def test_expanded_inventory_is_explicit_and_does_not_change_legacy_scope(self):
+        import shutil
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            recipe_path = self.fixture(root)
+            recipe = json.loads(recipe_path.read_bytes())
+            legacy = root / 'private/pdf-restoration/inventory'
+            expanded = root / 'archive/pdf/shared/restoration/expanded'
+            shutil.copytree(legacy, expanded)
+            sources = json.loads((legacy / 'sources.json').read_bytes())
+            sources['sources'][0]['scope'] = 'cover-only'
+            write_json(legacy / 'sources.json', sources)
+            with self.assertRaisesRegex(ValueError, 'not eligible'):
+                build(recipe_path, root / 'work/legacy-rejected', root)
+            recipe['inventory'] = {k: pin(root, f'archive/pdf/shared/restoration/expanded/{n}')
+                                   for k, n in [('sources','sources.json'), ('queue','queue.jsonl')]}
+            write_json(recipe_path, recipe)
+            package = build(recipe_path, root / 'work/expanded', root)
+            self.assertEqual(check_export(root / 'work/expanded'), package)
+            provenance = json.loads((root / 'work/expanded/provenance.json').read_bytes())
+            self.assertEqual(provenance['inventory'], pin(expanded, 'sources.json'))
+            (expanded / 'queue.jsonl').write_text('')
+            with self.assertRaisesRegex(ValueError, 'hash/size differs'):
+                build(recipe_path, root / 'work/stale-rejected', root)
+            recipe['inventory']['queue'] = pin(root, 'archive/pdf/shared/restoration/expanded/queue.jsonl')
+            write_json(recipe_path, recipe)
+            with self.assertRaisesRegex(ValueError, 'existing eligible TOC'):
+                build(recipe_path, root / 'work/rehashed-rejected', root)
+
     def test_data_export_does_not_call_renderer_and_still_checks_assets(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

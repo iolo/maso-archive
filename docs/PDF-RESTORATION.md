@@ -158,6 +158,14 @@ review and document any evidenced input correction before changing the pinned
 expectations. Existing outputs are never silently replaced. All source labels
 remain unverified until visual inspection; step 1 does not map articles.
 
+New article build recipes can select a later inventory explicitly with an
+`inventory` object containing repository-relative `sources` and `queue` file
+pins. The files must be named `sources.json` and `queue.jsonl` in the same
+directory; both hashes and membership are checked before export. Recipes without
+this field retain the original inventory and its original eligibility rules.
+Use the November 4 inventory for both 1995 issues; do not mutate the historical
+cover-only source records to enable their restoration.
+
 Ordinary tests use synthetic metadata and TOC records. Real scans, extracted
 text, generated manifests and review images remain ignored under `private/`
 or `build/`. Cover assets also remain in the existing ignored `covers/` folder.
