@@ -1,5 +1,24 @@
 # Progress
 
+## 2026-11-04 — Restore March computer-advertising interview
+
+- Interview 0011 is complete on PDF 208–211/printed 200–203: 220 independently/
+  fresh-process exact files, 56 exact crops, 52 selected outcomes, 713 typed
+  occurrences and 366 reading rows. Two speakers retain thirteen independent
+  Q&A pairs, two pull quotes, portraits/labels and editorial/photo credits.
+- Three materially widened post-draft crops add three recognitions; 49 exact
+  raw/TSV outcomes are reused. One source pass, zero unchanged-input retries or
+  within/post-pass text repairs. Original attempts, three maps and a repaired
+  metadata constructor remain. Six range/eighteen context/eight group faults reject.
+- 나눔터 group 0010 is non-owning with three reproducible evidence files; siblings
+  0012/0013 remain unresolved. All 6,401 earlier March files/core/adapter stay exact.
+  Totals: six readable, zero partial, two groups, three references, 79 unresolved.
+- Next multimedia-industry 0012, observed opening 212/204, then patent/legal 0013,
+  observed 220/212; verify extents and split checkpoints to respect six mapped pages.
+  Full March work remains active through bodies/classifications, page accounting,
+  cover and separate closeout before July. Source fidelity/human acceptance limits
+  remain. See [March progress](docs/progress/9503.md). No reader build or deployment.
+
 ## 2026-11-04 — Finalize March MUD child references
 
 - Part 2/3 children 0005/0006 now reference final assembled headings on 273/265

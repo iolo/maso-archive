@@ -37,26 +37,37 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 10 finalizes Part 2/3 children 0005/0006 as non-owning references into the
-complete MUD parent. Final anchors `b-part2-title` and `d-part3-title` resolve to
-273/265 and 283/275. Complete source scopes 273–282 and 283–289 include their own
-opening art; all 93/65 regions remain. Canonical ordinals/titles/parents/order and
-null page references stay unchanged. No new byline or duplicate body is created.
-Five sidecars match independent and fresh-process exports; eight typed occurrences
-and sixteen ownership/anchor/status faults validate. The four-entry family fixture
-proves one owning parent and three non-owning children, with a disjoint 264-region
-partition: five parent-intro regions plus 101/93/65 section regions. This is not
-whole-issue accounting. All 1,028 parent files, natives, thirty core modules and the
-private assembly adapter remain exact; the unchanged 214-test baseline is reused.
-External `archive/pdf/1995-03/classifications/batch-10/parent-status-dispositions.json`
-resolves the frozen assembly-creation pending-child statements while retaining all
-source-fidelity limits. Include all five batch-10 sidecars in final issue evidence.
-All three MUD children are final. Totals: five readable, zero partial, one non-owning
-heading, three section references and 81 unresolved. Next classify 나눔터 group 0010
-and locate/restore interview 0011, canonical reference 200. Page 208 is a location
-probe; verify source title/byline/extent/adjacent pages before mapping.
-Use `PYTHONPATH=.:src python3 archive/pdf/1995-03/restoration/batch-09/check-parent.py`
-for the frozen parent, together with the current external child dispositions.
+Batch 11 restores interview 0011, `컴퓨터 광고, 제 역할 하고 있는가`, on
+PDF 208–211/individually observed printed 200–203. Its 220 native files match
+independent and fresh-process exports: 56 pixel-exact crops, 52 selected outcomes,
+713 typed occurrences, forty blocks and 366 physical reading rows. Two source
+speakers retain seven and six separate Q&A pairs, independent pull quotes,
+portraits, names/affiliations and two editorial/photo credits. Canonical byline
+편집부 stays unchanged. Twelve physical joins include two question continuations;
+questions, answers and speakers never merge. Four original image regions have
+null captions; decorative dots remain image-dependent and uncounted.
+Three pre-OCR crop repairs and three materially widened pre-correction crops
+remain: 52 initial plus three changed-input recognitions, 49 exact raw/TSV results
+reused, zero unchanged-input retries, one source pass and zero within/post-pass
+text repairs. Printed defects and historical/technical claims remain literal.
+A failed metadata constructor is retained; its revision uses the existing
+canonical page-reference field without source/OCR changes. Six range, eighteen
+source-context and eight group-ownership faults reject. All 6,401 earlier March
+files, thirty core modules and the private MUD adapter remain exact; the unchanged
+214-test baseline from batch 09 is reused.
+Group 0010, 나눔터, is non-owning: three evidence files reproduce independently
+and in a fresh process. Contents 4 and repeated banners on 208/212/220 establish
+its three children; siblings 0012/0013 remain unresolved. No group body or folio
+is inherited. Totals: six readable, zero partial, two non-owning headings, three
+section references and 79 unresolved.
+Next restore multimedia-industry article 0012, canonical reference 204, whose
+opening is individually observed on 212/204. Then restore patent/legal article
+0013, reference 212, opening observed on 220/212. Verify each actual extent,
+title/byline and adjacent pages before mapping; use separate checkpoints if their
+combined extent exceeds six mapped pages. Preserve both groups, complete MUD
+parent and three final child references. Frozen MUD creation-time pending-child
+notes resolve through the five batch-10 external sidecars, still required at
+final issue closeout; use the batch-09 `check-parent.py` wrapper.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through remaining bodies/classifications, 545-page accounting, cover and separate
 issue closeout before July. No reader rebuild or deployment.
