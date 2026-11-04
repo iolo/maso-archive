@@ -78,12 +78,28 @@ One source pass, zero retries, two pre-OCR maps/28 repairs, one within-pass para
 separator correction and zero post-pass text changes. A fresh retained export
 revision clarifies caption-review wording; source text, assets and raw OCR are exact.
 Natives a/b/c now preserve 262–279 of the reviewed 28-page extent 262–289.
-Next preserve 280–285, completing Part 2 through 282 and starting Part 3 on 283,
-then final 286–289, actual complete assembly and final child anchors.
+Its next segment is preserved by batch 07 below. Detailed earlier evidence remains
+in the March progress record.
+
+Batch 07 preserves feature 0003 pages 280–285 as immutable partial native d:
+193 independent/fresh-process exact files, 50 exact crops, 45 outcomes, 856 typed
+ranges and 453 serialized reading rows. The grammar matrix retains fifteen cells;
+the MOB behavior table retains ten body cells/two headers and two source-wrapped
+cells. The boxed essay remains independent. Five original image regions and one
+literal caption retain their source contexts. Eight internal continuations include
+one new paragraph; Part 2 closes on 282 and Part 3 opens on 283 without a prose join.
+Incoming 279→280 continues `다`→`운`; outgoing 285→286 continues `위해`→`서는`.
+Both `<예제 1>` references remain unresolved; no program listing is synthesized.
+One source pass, zero retries, three map versions/eleven pre-OCR repairs, three
+within-pass text repairs and zero post-pass changes. All 3,952 earlier March files
+and thirty core pins remain exact; the unchanged 214-test baseline is reused.
+Natives a/b/c/d preserve 262–285 of the reviewed 28-page extent 262–289.
+Next preserve final 286–289, including the ending and adjacent disk-file table,
+then perform actual complete parent assembly and final child anchors.
 Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
-All 2,770 earlier March files/thirty core pins remain exact; the unchanged 214-test
-baseline is reused. See [March progress](docs/progress/9503.md).
-The full March goal remains active; no reader rebuild or deployment.
+See [March progress](docs/progress/9503.md). The full March goal remains active
+through remaining bodies/classifications, 545-page accounting, cover and separate
+issue closeout before July. No reader rebuild or deployment.
 
 Complete both issue passes before collection aggregation and handoff in steps
 13–14. No new reader build or deployment is authorized by this restoration work.

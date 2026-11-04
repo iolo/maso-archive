@@ -1,5 +1,22 @@
 # Progress
 
+## 2026-11-04 — Preserve March parser guidance and Part 3 opening
+
+- Restored PDF 280–285 as immutable native d: 193 independently/fresh-process exact
+  files, 50 exact crops, 45 outcomes, 856 typed ranges and 453 serialized reading
+  rows. Preserve the grammar matrix, MOB behavior table and independent boxed essay.
+- Part 2 closes on 282 and Part 3 opens on 283 without a prose join. Eight internal
+  continuations retain one new paragraph. Example 1 references remain unresolved.
+  One source pass, zero retries, eleven pre-OCR repairs, three within-pass text
+  repairs and zero post-pass changes. All 3,952 earlier March files/thirty core pins
+  remain exact; the unchanged 214-test baseline is reused.
+- Six range and fifteen source-context faults are rejected. Natives a/b/c/d now
+  preserve 262–285. Next final 286–289, actual parent assembly and final child
+  anchors. Four readable, one partial, one heading and 84 unresolved remain.
+- The full March goal remains active through remaining bodies/classifications,
+  545-page accounting, cover and standalone closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build or deployment.
+
 ## 2026-11-04 — Preserve March MUD equipment and scenario continuation
 
 - Restored PDF 274–279 as immutable native c: 255 exact selected files, 64 exact
