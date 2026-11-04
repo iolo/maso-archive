@@ -19,19 +19,24 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 04 preserves feature 0003's opening PDF 262–267 as an immutable partial
-native: 174 independent/fresh-process exact files, 46 exact crops, forty outcomes,
-686 typed ranges and 385 rows. Three independent sidebars, six original assets,
-ten internal joins and the outgoing continuation to 268 retain their contexts.
-One source pass and zero retries/within/post-pass source changes. Four pre-OCR maps
-remain; one administrative report-count correction changes no package. Current
-totals: four readable, one partial, one non-owning heading, 84 unresolved.
-The twenty outside-page limit leaves actual Part 2 opening and final page unverified;
-Part 1 opens 263/255 and Part 3 opens 283/275. Next preserve 268–273 and inspect
-289 against advertisement 290 under fresh bounds. Complete parent assembly and
-final children 0004–0006 anchors remain pending. All earlier files/thirty core pins
-remain exact; the unchanged 214-test baseline is reused. See
-[March progress](docs/progress/9503.md). The full March goal remains active.
+Batch 05 preserves feature 0003 continuation PDF 268–273 as immutable partial
+native b: 246 independent/fresh-process exact files, 66 exact crops, 57 outcomes,
+3,606 typed ranges and 418 reading rows, including thirteen explicit printed
+omission/rule markers. The directory retains 97 rows/388 cells/six blank IP cells;
+terminal examples retain thirty race cells, thirteen user rows/85 cells and twenty
+arrow annotations. Two literal captions, nine original assets and four internal
+continuations remain. Both original 267→268 native contexts validate separately.
+One source pass, zero retries/within/post-pass source changes; a serializer path
+failure is retained and repaired without changing source text or OCR.
+Part 1 main prose ends on 270, with examples through 272. Part 2 opens 273/265;
+Part 3 opens 283/275. Layout review identifies the complete 262–289 source extent,
+ending 289/281 with a disk-file table before advertisement 290. Later pages are
+layout/extent-reviewed, not restored. Natives a/b preserve 262–273; next restore
+274–279, followed by 280–289, actual parent assembly and final child anchors.
+Totals remain four readable, one partial, one non-owning heading, 84 unresolved.
+All 1,870 earlier March files/thirty core pins remain exact; the unchanged
+214-test baseline is reused. See [March progress](docs/progress/9503.md).
+The full March goal remains active; no reader rebuild or deployment.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
 and user column 0008 on 154–155/146–147: 219 independent/fresh-process exact files,

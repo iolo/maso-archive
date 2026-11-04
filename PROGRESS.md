@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-04 — Preserve March MUD continuation and establish its extent
+
+- Restored PDF 268–273 as immutable native b: 246 exact files, 66 exact crops,
+  57 OCR outcomes and 3,606 typed ranges. The 418 reading rows include thirteen
+  explicit printed-omission/rule markers. Preserve 97 directory rows/388 cells,
+  thirty race cells, thirteen user rows/85 cells and twenty arrow annotations.
+- Part 2 starts 273/265. Full source layout spans 262–289, with actual ending
+  289/281 before advertisement 290. Two natives now preserve 262–273; later
+  274–289 and full assembly remain required. Final child anchors stay pending.
+- One source pass, zero retries/within/post-pass source changes. Two pre-OCR maps,
+  twenty crop/coverage repairs and a serializer path failure/repair remain retained.
+  All 1,870 earlier March files/thirty core pins remain exact; 214-test baseline reused.
+  Six range faults and twelve source-context faults are rejected.
+- Four readable articles, one partial, one non-owning heading and 84 unresolved
+  identities. Next native 274–279; full March goal remains active through all bodies,
+  page accounting, cover and standalone closeout. No reader build or deployment.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Preserve the partial March MUD opening
 
 - Restored feature 0003 opening PDF 262–267 as immutable native a: 174 exact
