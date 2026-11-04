@@ -29,8 +29,12 @@ changing any previous identity or restored package. The current PDF queue is
 across 21 supplied PDFs, including all 828 unchanged prior outcomes. March 1995
 (ninety identities) is active, followed by July 1995 (103). Batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
-recognitions, one source correction pass, zero retries/crop changes. One readable
-article/89 unresolved; next reader voices0002 on PDF152–153/144–145. The historical 1995
+recognitions, one source correction pass, zero retries/crop changes. Batch 02
+completes reader voices0002 and user column0008 on PDF152–155:219 exact files,
+56 crops,49 initial calls,one source pass,zero retries and one explicitly retained
+post-pass transcription artifact repair. One damaged source extent stays marked.
+Current totals: three readable/87 unresolved; next developer0009 and column
+group0007. All thirty core modules unchanged;214-test baseline retained. The historical 1995
 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
 and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader
 rebuild is included. Earlier detailed checkpoints below are historical records.

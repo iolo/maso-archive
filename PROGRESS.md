@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-04 — Complete March 1995 reader voices and user column
+
+- Restored canonical 0002 on PDF 152–153/144–145 and 0008 on 154–155/146–147.
+  All 219 files match independent/fresh-process exports; 56 crops, 49 OCR outcomes,
+  586 typed ranges and 327 physical text rows validate. Six letters, independent
+  notice/reply, original layouts/cover crop, separate quotation and biography remain.
+- One damaged source extent stays explicitly marked. Seven pre-OCR margin repairs,
+  one source pass, zero retries and one post-pass duplicated-word artifact repair
+  remain documented. A no-op negative fixture was corrected without package changes;
+  original attempts retained. All earlier files/thirty core modules remain exact;
+  unchanged 214-test baseline reused. No reader rebuild or deployment.
+- Full March goal remains active: three readable articles/87 unresolved identities.
+  Next developer message 0009 and column group 0007, then remaining bodies, complete
+  page accounting, cover and standalone issue closeout. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Restore the first March 1995 article
 
 - Initialized all ninety canonical identities and verified the 545-page source

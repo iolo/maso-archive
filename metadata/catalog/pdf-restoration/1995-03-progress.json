@@ -76,12 +76,53 @@
       "toc_entry_id": "maso-1995-03-toc-0002",
       "title": "독자의 소리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical identity and source opening/ending/adjacent pages verified; all original contexts and source title/credit variants retained.",
+        "All35 source crops exact;32 initial outcomes;345 typed ranges and181 rows validate.",
+        "Two complete articles/four pages,three outside lookups. One batch source pass,49 initial calls,zero retries;one deterministic duplicated-word artifact repair retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-02-r01/reader-voices",
+        "article_id": "scan-maso-1995-03-toc-0002",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-02-r01/reader-voices/manifest.json",
+          "sha256": "891436e078ee36b8f8fcc2fd973af328c49690d2e913141a085719721dfcf722",
+          "bytes": 23015
+        },
+        "coverage": {
+          "pdf_pages": [
+            152,
+            153
+          ],
+          "printed_pages": [
+            "144",
+            "145"
+          ],
+          "regions": 35,
+          "blocks": 25,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 153,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-02/validation.json",
+          "sha256": "b4890ea39ad6c9fff47a682f5a66f4136240b4aff6f8c978cc82a3141228816b",
+          "bytes": 2965
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-02/reproduction.json",
+          "sha256": "2dcd15a6e06b7407f91ca34fbe1be8da2bc569287ab54dd7c2d992866421f098",
+          "bytes": 42777
+        },
+        "checkpoint": "batch-02"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0003",
@@ -142,12 +183,53 @@
       "toc_entry_id": "maso-1995-03-toc-0008",
       "title": "사용자 메시지 : 치우침 없는 균형적인 발전을 바라며",
       "parent_id": "maso-1995-03-toc-0007",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical identity and source opening/ending/adjacent pages verified; all original contexts and source title/credit variants retained.",
+        "All21 source crops exact;17 initial outcomes;241 typed ranges and146 rows validate.",
+        "Two complete articles/four pages,three outside lookups. One batch source pass,49 initial calls,zero retries;one deterministic duplicated-word artifact repair retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-02-r01/user-column",
+        "article_id": "scan-maso-1995-03-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-02-r01/user-column/manifest.json",
+          "sha256": "851974e503be84117bf871634a2155d2d5c9cf9bbe6cab5cca52a0022106711a",
+          "bytes": 13285
+        },
+        "coverage": {
+          "pdf_pages": [
+            154,
+            155
+          ],
+          "printed_pages": [
+            "146",
+            "147"
+          ],
+          "regions": 21,
+          "blocks": 12,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 155,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-02/validation.json",
+          "sha256": "b4890ea39ad6c9fff47a682f5a66f4136240b4aff6f8c978cc82a3141228816b",
+          "bytes": 2965
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-02/reproduction.json",
+          "sha256": "2dcd15a6e06b7407f91ca34fbe1be8da2bc569287ab54dd7c2d992866421f098",
+          "bytes": 42777
+        },
+        "checkpoint": "batch-02"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0009",
@@ -1080,20 +1162,53 @@
         "sha256": "3ea262c3fc9dd811b38b1e3b4d580b4bd4f8998f066dd9a8b8cf63c87ddf29a1",
         "bytes": 5119
       }
+    },
+    {
+      "name": "1995-03-batch-02",
+      "status": "complete",
+      "completed_at": "2026-11-04T05:28:30.613536+00:00",
+      "goal": "Restore complete reader voices0002 and user column0008.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0002",
+        "maso-1995-03-toc-0008"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        152,
+        153,
+        154,
+        155
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 49,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "post_pass_transcription_artifact_repairs": 1,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-02/validation.json",
+        "sha256": "b4890ea39ad6c9fff47a682f5a66f4136240b4aff6f8c978cc82a3141228816b",
+        "bytes": 2965
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-02/reproduction.json",
+        "sha256": "2dcd15a6e06b7407f91ca34fbe1be8da2bc569287ab54dd7c2d992866421f098",
+        "bytes": 42777
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 1,
+    "readable": 3,
     "partial": 0,
     "group_headings": 0,
     "section_references": 0,
-    "unresolved": 89
+    "unresolved": 87
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify and restore reader voices0002 on observedPDF152–153/printed144–145; review complete source, independent letters and editorial reply before mapping. Then continue bounded March bodies/classifications,545-page accounting,cover and standalone closeout before July1995."
+  "next_checkpoint": "Verify/restore developer message0009 from observed156/printed148, with actual ending/adjacency inspection. Classify non-owning column group0007 from original contents and repeated source banners as the second task. Continue all remaining March bodies,545-page accounting,cover and standalone closeout; issue goal active."
 }

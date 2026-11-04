@@ -27,8 +27,18 @@ independent/fresh-process exact files, five pixel-exact crops, four OCR outcomes
 64 typed ranges and seven paragraphs/thirty body rows. Printed title and editor
 credit remain separate from canonical metadata. One source correction pass and
 zero retries/crop changes; 214 PDF tests pass. One readable article and 89
-unresolved identities remain. Next verify/restore reader voices0002 on observed
-PDF152–153/printed144–145. See [March progress](docs/progress/9503.md).
+unresolved identities remained at that checkpoint.
+
+Batch 02 completes reader voices 0002 on PDF 152–153/144–145 and user column 0008
+on 154–155/146–147: 219 independent/fresh-process exact files, 56 exact crops,
+49 outcomes, 586 typed ranges and 327 physical rows. Six independent letters,
+separate invitation/editorial reply and source layouts remain, with one explicit
+damaged-source placeholder. The user column retains four section headings,
+independent quotation and author biography. One source pass,zero retries and one
+post-pass duplicated-word artifact repair; all earlier files/thirty core modules
+remain exact. Current totals: three readable, 87 unresolved. Next verify/restore
+developer 0009 from 156/148 and classify non-owning column group 0007. See
+[March progress](docs/progress/9503.md). The full March restoration goal remains active.
 
 Complete both issue passes before collection aggregation and handoff in steps
 13–14. No new reader build or deployment is authorized by this restoration work.
