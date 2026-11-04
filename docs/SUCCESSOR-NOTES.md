@@ -19,36 +19,34 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 20 restores About0024, 파워 컨설턴트 이준희의 About..., on PDF250–251/
-printed242–243. Five reader exchanges retain separate headings, credits and
-repeated About... answer labels. The masthead author credit and invitation remain
-independent. One four-row code example stays between its answer prose fragments;
-its printed ellipsis, glyph candidates and historical technical claims remain.
-Four physical continuations retain LF. The ending MS mark has no printed caption;
-PDF252 is an independent publication advertisement.
-All146 package files and one external status file match independent and fresh-process
-exports. The35 crops,34 OCR outcomes,433 typed ranges,30 blocks,164 reading rows
-and138 ZIP members validate. Seven range,nineteen context and seven status faults
-reject. All34 initial drafts were read before one source pass;zero retries or
-within/post-pass text changes. Three pre-OCR maps/fourteen margin repairs remain.
-All11,950 prior March files and thirty core modules are exact;the unchanged214-test
-baseline is reused. Exact glyphs,code bytes,claims,full proofreading and human
-acceptance remain unverified.
-External `archive/pdf/1995-03/classifications/batch-20-r01/source-creation-dispositions.json`
-resolves historical0024 opening-only/pending statements without changing old files.
-All four direct children0015/0016/0017/0024 of group0014 now have independent readable
-packages. The group remains non-owning;FLC0019 remains unresolved. Thirteen final-issue
-evidence files are required. This is not whole-issue accounting or final closeout.
-Package: `archive/pdf/1995-03/packages/batch-20-r01/about/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-20/`.
-Totals: twelve readable,zero partial,three non-owning headings,eight references
-and 67 unresolved. Next review programming-forum groups0025/0026 from original
-contents and descendant banners;then nested group0027 and articles0028 onward.
-Verify actual article locations and ownership;do not inherit folios from groups.
-Keep the two-task/six-page/twenty-lookup checkpoint limits. FLC0019 awaits bounded
-lookup/issue accounting. See [March progress](progress/9503.md).
-The full March goal remains active through remaining bodies/classifications,
-545-page accounting,cover and separate issue closeout before July.
+Batch 21 classifies forum0025 (프로그래밍 포럼) and implementation0026
+(원리구현) as non-owning group headings. Contents4–5 places implementation,
+serial and tool review under the forum;Windows/DOS subgroups remain under
+implementation. Separate article openings298/310/338 repeat 원리구현;
+400 has 연재강좌 and440 has 툴리뷰. The source 연재강좌 versus contents 연재
+variant remains literal. Pages296/297 immediately before the first opening are
+independent printer advertisements. No group inherits a folio or descendant body.
+Only0025/0026 are finalized. Their descendants remain unresolved;observed openings
+are location/category evidence,not restored bodies or verified article extents.
+Eleven selected evidence files match independent and fresh-process exports.
+Seven crops are pixel-exact;twenty hierarchy nodes and24 invalid ownership,
+hierarchy,scope and source-context cases validate. Nine outside pages were
+inspected;zero mapped pages,OCR or source correction. The initial crop revision
+remains;selected r02 widens the contents margin to retain complete printed folios.
+All12,482 earlier March files/thirty core modules are unchanged;the214-test
+baseline is reused. Human acceptance,exact glyphs and full proofreading remain
+unverified. All thirteen required final-status evidence files remain retained.
+Evidence: `archive/pdf/1995-03/classifications/batch-21-r02/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-21/`.
+Totals: twelve readable,zero partial,five non-owning headings,eight references
+and 65 unresolved. Next review Windows subgroup0027 and restore article0028,
+whose opening is verified atPDF298/printed290. Verify its actual extent and
+adjacent ownership toward the next opening310;use immutable natives if longer
+than six mapped pages. Preserve source code,figures,credits and continuations.
+Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint.
+FLC0019 awaits bounded lookup/issue accounting. See [March progress](progress/9503.md).
+The full March goal remains active through all remaining outcomes,545-page
+accounting,cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 Batch 02's219 files reproduce
@@ -58,7 +56,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-20/reproduction.json`.
+`archive/pdf/1995-03/restoration/batch-21/reproduction-r02.json`.
 
 ## Session wrap-up
 

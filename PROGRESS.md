@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-04 — Classify March programming-forum headings
+
+- Batch 21 finalizes0025/0026 as non-owning groups from original contents and
+  repeated article banners. Direct child hierarchy and null folios remain;
+  descendant openings do not imply restored bodies or article extents.
+- Eleven exact evidence files,seven pixel-exact crops,twenty hierarchy nodes
+  and24 rejected invalid cases validate. Nine source pages inspected;no OCR.
+  All12,482 prior files/thirty core modules remain exact;214-test baseline reused.
+- Totals: twelve readable,zero partial,five groups,eight references,65 unresolved.
+  Next review subgroup0027 and restore0028,verified opening298/290,after extent
+  review. FLC0019 and whole-issue accounting remain open;full March goal active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Restore March About column
 
 - Batch 20 completes0024 on PDF250–251/242–243:five reader exchanges,independent
