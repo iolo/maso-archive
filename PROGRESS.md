@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-04 — Complete March Q&A bundle and first child
+
+- Batch 17 completes parent0017 on PDF244–249/printed236–241 and child0018's
+  non-owning anchor across244–245. Eleven Q&A exchanges, eleven reader credits,
+  three tips and six code contexts retain their source roles and printed defects.
+- All396 package/two classification files reproduce exactly:99 crops,96 OCR
+  outcomes,2,120 native ranges,six child ranges and581 reading rows. Seven range,
+  21 context andsix child/status faults reject. All10,699 prior files/thirty core
+  modules remain exact;214-test baseline reused. One source pass,zero OCR retries.
+- Totals: eleven readable,zero partial,three groups,four references,72 unresolved.
+  Next finalize tip children0020/0021,then0022/0023. Contents-only FLC child0019
+  remains unresolved;it was not found in the observed parent bundle. Full March
+  goal remains active through remaining restoration,545-page accounting,cover
+  and separate closeout before July. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-04 — Complete March execution-file protection article
 
 - Batch 16 completes article0016 on PDF238–242/printed230–234:217 exact files,

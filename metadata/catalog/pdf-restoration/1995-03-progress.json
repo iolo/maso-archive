@@ -1356,23 +1356,127 @@
       "toc_entry_id": "maso-1995-03-toc-0017",
       "title": "물어보세요·팁팁팁",
       "parent_id": "maso-1995-03-toc-0014",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete observed bundle244–249/printed236–241,with independent243 advertisement and250 About opening. Eleven Q&A exchanges andthree boxed tips belong to parent0017;not a non-owning group.",
+        "396 selected/independent/fresh-process files match;99 exact crops,96 OCR outcomes,2120 native typed ranges,81 blocks,581 reading rows andthree images. Questions,answers,eleven reader contributors andthree independent tips retain distinct roles.",
+        "Six code contexts/126 rows retain89 numbered main rows,9 header rows,missing016,repeated004,absent header semicolon,bracket-like glyph candidates andphysical multiline string. TMP prose/TEMP command andprinted Word key directions remain unrepaired. Nine CD bullet items retain original claims.",
+        "All96 initial drafts read before one source pass;zero OCR retries orwithin/post-pass changes. Seven range,21 source-context andsix child/status faults reject. Thirty core modules and10699 prior files remain exact;214-test baseline reused.",
+        "Canonical/contents 편집부 is not invented as source end byline. Contents-only FLC child0019 is not found in observed bundle andremains unresolved. Child0018 has final non-owning anchor;other child classifications remain pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-17-r01/qa",
+        "article_id": "scan-maso-1995-03-toc-0017",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-17-r01/qa/manifest.json",
+          "sha256": "640d776063ab8a1a02b5f788bc159f3a2fd384c0fa8b03e4eb3b52622a4c097f",
+          "bytes": 67686
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-17/qa-r01/package-recipe.json",
+          "sha256": "66ca7c50d544b9776743349bc911688e8fd2b4cebd2354da02b15b18ba67a423",
+          "bytes": 11898
+        },
+        "coverage": {
+          "pdf_pages": [
+            244,
+            245,
+            246,
+            247,
+            248,
+            249
+          ],
+          "printed_pages": [
+            "236",
+            "237",
+            "238",
+            "239",
+            "240",
+            "241"
+          ],
+          "regions": 99,
+          "blocks": 81,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 244,
+        "actual_end_pdf_page": 249,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-17-r01/source-creation-dispositions.json",
+          "sha256": "20b5eacf3eb66e676b9bf4d03e42a787e0256ebd22c66b9bf1b45e326ced068b",
+          "bytes": 3505
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-17/validation.json",
+          "sha256": "a7e716dd31300858253ca79317333490a281a127e7a7cb8b7503867170304ae1",
+          "bytes": 2369
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-17/reproduction.json",
+          "sha256": "a391bd72c57ffc98a1c77c34d4ecc19adca91e35a5299a3ada97db0dd12b72ca",
+          "bytes": 76875
+        },
+        "classification_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-17/classification-reproduction.json",
+          "sha256": "b7c609dae309dfa431a4e85513bbb069d75e8651d805fa035aee0301389cc944",
+          "bytes": 492
+        },
+        "checkpoint": "batch-17"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0018",
       "title": "뻥튀기한 하드 디스크 속도 향상",
       "parent_id": "maso-1995-03-toc-0017",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents child0018 matches parent q02 heading on244/236. Complete question,reader credit,answer heading andanswer span244–245;next question begins245.",
+        "Six parent-relative typed source ranges andcomplete source region ownership validate. No duplicate body ornew author;canonical title,parent andnull page reference unchanged."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-03-toc-0017",
+      "section": {
+        "anchor": "q02-heading",
+        "anchor_scope": "complete-owning-parent",
+        "heading_pdf_page": 244
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-03-toc-0017",
+        "directory": "archive/pdf/1995-03/packages/batch-17-r01/qa",
+        "anchor": "q02-heading",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 244,
+        "source_heading_printed_page": "236",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-owning-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-17-r01/qa/manifest.json",
+          "sha256": "640d776063ab8a1a02b5f788bc159f3a2fd384c0fa8b03e4eb3b52622a4c097f",
+          "bytes": 67686
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-03/classifications/batch-17-r01/0018-anchor.json",
+          "sha256": "1bfa939a3c6568db942da3c9dd11be7d921a564ae11b510c875a98d2e5970337",
+          "bytes": 5683
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-17/validation.json",
+          "sha256": "a7e716dd31300858253ca79317333490a281a127e7a7cb8b7503867170304ae1",
+          "bytes": 2369
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0019",
@@ -2682,22 +2786,63 @@
         "sha256": "b96a1aaa5a307059c6166c36e1419cbc91084613d91bf45d811f4d847f702259",
         "bytes": 42787
       }
+    },
+    {
+      "name": "1995-03-batch-17",
+      "status": "complete",
+      "completed_at": "2026-11-04T13:38:11.734245+00:00",
+      "goal": "Restore complete observed Q&A bundle0017 andfirst non-owning child0018 reference.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0017",
+        "maso-1995-03-toc-0018"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 96,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-17/validation.json",
+        "sha256": "a7e716dd31300858253ca79317333490a281a127e7a7cb8b7503867170304ae1",
+        "bytes": 2369
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-17/reproduction.json",
+        "sha256": "a391bd72c57ffc98a1c77c34d4ecc19adca91e35a5299a3ada97db0dd12b72ca",
+        "bytes": 76875
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-17/classification-reproduction.json",
+        "sha256": "b7c609dae309dfa431a4e85513bbb069d75e8651d805fa035aee0301389cc944",
+        "bytes": 492
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 10,
+    "readable": 11,
     "partial": 0,
     "group_headings": 3,
-    "section_references": 3,
-    "unresolved": 74
+    "section_references": 4,
+    "unresolved": 72
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Review Q&A/물어보세요·팁팁팁 parent0017 (canonical236,편집부;observed opening244) and nested0018–0023. Verify actual full extent,source title/credits and ownership before mapping;do not assume a pageless group or duplicate child bodies. Declare at most two canonical tasks,six mapped pages,twenty outside-page inspections;split longer bodies into immutable natives anddefer final child anchors until parent ownership is proved. Preserve all prior packages/group evidence andeight final-issue status sidecars,including article0016 name conflict. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly.",
+  "next_checkpoint": "Finalize non-owning Q&A tip children0020/0021 against complete parent0017:backup heading246/238 andSoundex248/240,full listing through249. Preserve source/canonical title punctuation variants andindependent tip ownership. Then0022/0023 references. Contents-only FLC child0019 is absent from observed244–249;keep unresolved pending bounded lookup/whole-issue accounting,without inventing a body. Two-task/six-mapped-page/twenty-outside-lookup bounds remain. Preserve nine required historical-status sidecars andall prior packages. Then About0024 observed opening250;verify actualextent. Continue remaining March bodies/classifications,545-page accounting,cover andseparate issue closeout beforeJuly.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -2738,6 +2883,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-16-r01/source-creation-dispositions.json",
       "sha256": "33f899991155ce5b07ad95bfd65b0646399405c4874ef69b072f8476291d3078",
       "bytes": 2306
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-17-r01/source-creation-dispositions.json",
+      "sha256": "20b5eacf3eb66e676b9bf4d03e42a787e0256ebd22c66b9bf1b45e326ced068b",
+      "bytes": 3505
     }
   ]
 }
