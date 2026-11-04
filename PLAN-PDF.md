@@ -197,44 +197,48 @@ Page 219 is a separate computer advertisement; patent/legal 0013 opens on 220/21
 Its final-page and actual-assembly next step is completed by batch 13 below.
 Detailed native-stage evidence remains in the March progress record.
 
-Batch 13 completes multimedia-industry article 0012 on PDF 212–218/individually
-observed printed 204–210. Final 218 is a 29-file native b: six exact crops, five
-new outcomes, four blocks and 49 reading rows. One source pass, zero retries,
-crop changes or within/post-pass text repairs. Its closing MS and editorial credit
-remain separate; the lower book advertisement is excluded.
-Actual complete assembly has 227 exact selected/independent/fresh-process files,
-consuming two regenerated natives/219 unchanged files. All 53 crops, fifty original
-outcomes, three original images/null captions, 39 original block intervals and
-453 reading rows remain. One 217→218 culture join retains physical LF and gives
-38 current blocks. Independent author biography, opening pull quote, similar final
-body passage, four printed lists/24 items and ending/credit keep their roles.
-Complete recursive metadata preserves 844 native typed occurrences, 1,678 current
-range occurrences and verifies 8,661 scalar values. Fifty recipe-relative private
-provenance pins gain explicit repository context; original native files stay exact.
-Fourteen hash-consistent outer mutations, four frozen-native, four recipe and four
-source-status mutations reject. The first audit omitted six additional preserved
-map/provenance/correction files from its ZIP estimate; R02 verifies the exact
-211-member set and bytes. Original failed audit/log/clarification remain; source,
-package and OCR bytes are unchanged. All 8,231 earlier March files, thirty core
-modules and the private MUD adapter stay exact; the unchanged 214-test baseline
-from batch 09 is reused.
-One reproducible status sidecar resolves creation-time partial/pending declarations,
-including the old group evidence's then-unresolved child0012 and retained quote
-comparison deferral fields. Originals remain unchanged. Group ownership/membership,
-sibling0013 unresolved status and all fidelity limits remain. Include
-`archive/pdf/1995-03/classifications/batch-13-r01/source-creation-dispositions.json`
-with final issue evidence, alongside the five MUD sidecars from batch 10.
-Check the frozen complete package with batch-13 `check-parent.py` and retain that
-status disposition. Exact glyphs/spaces/quote/dot/marker identities/encoded bytes,
-source historical/technical/market/cultural claims, full proofreading and human
-acceptance remain unverified. Totals: seven readable, zero partial, two non-owning
-headings, three section references and 78 unresolved.
-Next locate/restore patent/legal article 0013, canonical reference 212/byline 이윤민,
-whose opening is individually observed on 220/212. Verify actual extent, source
-title/byline and adjacent pages before bounded mapping; do not infer its ending
-from the next TOC reference. See [March progress](docs/progress/9503.md). The full
-March goal remains active through remaining bodies/classifications, 545-page
-accounting, cover and separate issue closeout before July. No reader rebuild or deployment.
+Batch 13 completed multimedia-industry article 0012 on all seven pages 212–218:
+227 reproducible parent files, 219 exact regenerated native files, 53 crops,
+50 outcomes, 844 original typed occurrences, 1,678 current ranges and 8,661 scalar
+values. Its one external status disposition and all original evidence remain.
+Full details are retained in the March progress record. Its legal-article next step
+is completed by batch 14 below.
+
+Batch 14 completes patent/legal article 0013 on PDF 220–223/individually observed
+printed 212–215. The 110 selected, independent and fresh-process files match:
+27 pixel-exact crops, 25 OCR outcomes, 646 typed occurrences, fifteen blocks and
+378 reading rows. Three independent pull quotations, author biography, three
+section headings, original portrait/MS images with null captions and editorial
+`정리 : 박은숙` retain distinct roles; canonical author 이윤민 stays unchanged.
+Ten continuations preserve nine LF joins and one paragraph break. The dropcap
+folds once. Five patent-number occurrences and printed legal, historical, technical,
+numeric and product claims remain literal, including original wording errors.
+Previous 219 and following 224 are independent advertisements; the lower 223 book
+advertisement is excluded. No global PDF/folio offset or TOC-based ending inferred.
+All 25 initial drafts were read before one source pass; zero retries or within/post-pass
+text repairs. Two pre-OCR maps preserve seven left-margin adjustments. Six range,
+eighteen source-context and four historical-status faults reject. All 8,621 earlier
+March files and thirty core modules stay exact; the unchanged 214-test baseline
+from batch 09 is reused. No new core code or private assembly adapter is required.
+One reproducible status sidecar resolves only older group evidence's child0013
+unresolved descriptor and the corresponding batch-13 creation-time sibling-status
+statement. Originals, group ownership/membership, other outcomes and fidelity limits
+remain unchanged. Preserve all seven final-issue evidence files: five MUD sidecars
+from batch 10 and the article0012/article0013 status sidecars from batches 13/14.
+Selected package: `archive/pdf/1995-03/packages/batch-14-r01/patent/`.
+Source status: `archive/pdf/1995-03/classifications/batch-14-r01/source-creation-dispositions.json`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-14/`.
+Totals: eight readable, zero partial, two non-owning headings, three section
+references and 77 unresolved. Next review 종합클리닉 group 0014 and locate/restore
+first child 0015, `시스템 최적화 : 뽀빠이 유저가 되는 11가지 방법`, canonical reference
+224/byline 류한석. Verify actual title/byline, extent and adjacent ownership before
+mapping; no source PDF page or ending is inferred from the TOC. Use ordinary
+2-task/6-mapped-page/20-outside-page bounds and split longer bodies.
+Exact glyphs/spaces/quotes/dot identities/encoded bytes, source legal/historical/
+technical claims, full proofreading and human acceptance remain unverified.
+See [March progress](docs/progress/9503.md). The full March goal remains active
+through remaining bodies/classifications, 545-page accounting, cover and separate
+issue closeout before July. No reader rebuild or deployment.
 
 Complete both issue passes before collection aggregation and handoff in steps
 13–14. No new reader build or deployment is authorized by this restoration work.

@@ -1111,12 +1111,75 @@
       "toc_entry_id": "maso-1995-03-toc-0013",
       "title": "변리사 이윤민의 컴퓨터 법률상식 : 마이크로소프트 vs 스택 압축특허 침해 소송",
       "parent_id": "maso-1995-03-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Actual complete extent220–223 individually observed with printed212–215. Previous219 andfollowing224 independent advertisements;lower223 book advertisement excluded. No global folio offset ornext-TOC ending inference.",
+        "110 selected/independent/fresh-process files match;27 pixel-exact crops,25 OCR outcomes,646 typed occurrences,15 blocks and378 physical rows. Three independent pull quotations,author biography,three headings,original portrait/MS andeditorial preparation credit retain distinct roles.",
+        "Ten physical column/page joins preserve nine LF andone paragraph-break double LF. Dropcap 직 folded once. Five patent-number occurrences andliteral legal/technical/historical/numeric/product claims retained,including original spelling/person errors. Canonical author 이윤민 unchanged.",
+        "All25 initial drafts read before one source pass;zero retries orwithin/post-pass repairs. Two pre-OCR maps retain seven left-margin adjustments. Six range,eighteen source-context andfour historical-status faults reject. Original group evidence andbatch13 disposition retained withnew external child0013 status clarification."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-14-r01/patent",
+        "article_id": "scan-maso-1995-03-toc-0013",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-14-r01/patent/manifest.json",
+          "sha256": "8d4b9e0e3a351ae02b4724e3d49418e4e066fecf897d75e7db37479a4366644d",
+          "bytes": 18824
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-14/patent-r02/package-recipe.json",
+          "sha256": "1c36e02ae21ff461b2d53aa2450a79f1405400f146402e6aef94352f30295482",
+          "bytes": 4808
+        },
+        "coverage": {
+          "pdf_pages": [
+            220,
+            221,
+            222,
+            223
+          ],
+          "printed_pages": [
+            "212",
+            "213",
+            "214",
+            "215"
+          ],
+          "regions": 27,
+          "blocks": 15,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 220,
+        "actual_end_pdf_page": 223,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-14-r01/source-creation-dispositions.json",
+          "sha256": "52e017c273e8d006a1f35bf03164ab8bf4d9478183acf5d251157d0a868902c0",
+          "bytes": 2149
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-14/validation.json",
+          "sha256": "ebf081c0e9f385785d647a172bd01cffd55a287d4ae98fe856b2e014f33a7816",
+          "bytes": 2029
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-14/reproduction.json",
+          "sha256": "4e8cc87463ab0fd584e497f17d57da81029f70e97f6ca13ac6927792a10c3810",
+          "bytes": 22252
+        },
+        "disposition_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-14/disposition-reproduction.json",
+          "sha256": "64ea3420aa5cb38f63f9aad2a463fc18ef139fe707b6488b89dd3d710ced7e9a",
+          "bytes": 338
+        },
+        "checkpoint": "batch-14"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0014",
@@ -2379,22 +2442,55 @@
         "sha256": "b3db56f659f09c43bea89fe5aa2e148987907c1f8d1114a4ddcfc3e32ad9a2ec",
         "bytes": 44271
       }
+    },
+    {
+      "name": "1995-03-batch-14",
+      "status": "complete",
+      "completed_at": "2026-11-04T12:09:39.839562+00:00",
+      "goal": "Restore complete patent/legal article0013 on220–223,with literal source claims andindependent quotations/biography/credits preserved.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0013"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        220,
+        221,
+        222,
+        223
+      ],
+      "outside_lookup_pages": 2,
+      "recognition_invocations": 25,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-14/validation.json",
+        "sha256": "ebf081c0e9f385785d647a172bd01cffd55a287d4ae98fe856b2e014f33a7816",
+        "bytes": 2029
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-14/reproduction.json",
+        "sha256": "4e8cc87463ab0fd584e497f17d57da81029f70e97f6ca13ac6927792a10c3810",
+        "bytes": 22252
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 7,
+    "readable": 8,
     "partial": 0,
     "group_headings": 2,
     "section_references": 3,
-    "unresolved": 78
+    "unresolved": 77
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Locate andrestore patent/legal article0013,canonical reference212 andbyline 이윤민,opening individually observed220/212. Verify actual title/byline/full extent/adjacent pages before bounded mapping;do not infer ending from next TOC reference. Preserve complete multimedia0012 andits historical-status disposition,complete MUD family andboth groups. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly.",
+  "next_checkpoint": "Review 종합클리닉 group0014 andlocate/restore its first child0015 시스템 최적화 : 뽀빠이 유저가 되는 11가지 방법,canonical reference224/byline 류한석. Verify source title/byline/actual extent/adjacent ownership before mapping;no PDF-page offset orending inferred from TOC. Keep two-task/six-mapped-page/twenty-outside-page bounds andsplit longer bodies into immutable natives. Preserve complete legal0013 andall seven final-issue source-status sidecars. Continue remaining March bodies/classifications,545-page accounting,cover andstandalone issue closeout beforeJuly.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -2425,6 +2521,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-13-r01/source-creation-dispositions.json",
       "sha256": "1dc22ad08f4c0ffad4b811136d769272401f53e1f564863b2bd4983c4df25290",
       "bytes": 6306
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-14-r01/source-creation-dispositions.json",
+      "sha256": "52e017c273e8d006a1f35bf03164ab8bf4d9478183acf5d251157d0a868902c0",
+      "bytes": 2149
     }
   ]
 }

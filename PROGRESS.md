@@ -1,5 +1,22 @@
 # Progress
 
+## 2026-11-04 — Complete March patent/legal article
+
+- Article0013 is complete on PDF220–223/printed212–215: 110 selected/independent/
+  fresh-process files match, with 27 exact crops, 25 OCR outcomes, 646 typed ranges
+  and 378 reading rows. Three quotations, author biography, headings, portrait/MS
+  and editorial credit remain separate. Five patent-number occurrences stay literal.
+- One source pass, zero retries or within/post-pass repairs; two pre-OCR maps retain
+  seven margin adjustments. Six range/eighteen context/four status faults reject.
+  All 8,621 earlier files and thirty core modules remain exact; 214-test baseline reused.
+- One reproducible status sidecar resolves older child0013 unresolved statements
+  while preserving originals, group membership/ownership and all fidelity limits.
+  Totals: eight readable, zero partial, two groups, three references, 77 unresolved.
+- Next review group0014 and locate/restore first child0015 (canonical224, 류한석),
+  verifying actual extent before mapping. Full March work remains active through
+  bodies/classifications, page accounting, cover and separate closeout before July.
+  See [March progress](docs/progress/9503.md). No reader build/deployment.
+
 ## 2026-11-04 — Complete March multimedia-industry article
 
 - Restored final 218 as a 29-file native, then actually assembled complete 212–218:
