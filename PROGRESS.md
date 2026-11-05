@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March NT administration continuation preserved
+
+- Batch 51 preserves NT0046 PDF470–475, extending retained pages to459–475.
+  All384 native files reproduce;103 crops,91 OCR outcomes,1007 text ranges
+  and377 ZIP members validate. The service table,driver andmonitor modes,
+  eleven screenshots andprinted reference discrepancy retain their contexts.
+- All30 invalid cases reject;45008 earlier March files and30 core modules
+  remain exact. Three frozen scope statements are updated in external status.
+- Totals remain25 readable,1partial,11groups,8references and45 unresolved.
+  Next restore476–481,then482–484 andassemble the full article.
+  FLC0019,545-page accounting,cover andseparate closeout remain pending.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March NT continuation preserved
 
 - Batch 50 preserves NT0046 PDF464–469, extending retained pages to459–469.
