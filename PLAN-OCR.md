@@ -37,41 +37,46 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 58 restores Netscape 0050 continuation PDF 494–499 / individually
-observed printed 486–491 as immutable native b. Natives a/b now preserve 492–499
-of the reviewed nine-page extent 492–500. Final 500 and actual assembly remain
-pending. The incoming 493→494 join continues the sample license email;
-the outgoing 499→500 prose continues `Subject`→`Catalog,`.
+Batch 59 completes Netscape 0050 across PDF 492–500 / individually observed
+printed 484–492. Final page 500 is restored as native c; the complete article is
+actually assembled from immutable natives a/b/c. Four final screenshots and
+captions, the closing prose, original MS emblem and separate editor credit
+`정리:정인성` remain. Page 501 is an independent recruitment advertisement.
 
-All 266 native files reproduce independently and in a fresh process. The 74 crops,
-61 OCR outcomes, 54 blocks, 353 physical rows, 1,173 typed ranges and 258 ZIP members
-validate. Five literal code contexts retain 38 nonempty rows, eleven FTP sites and
-two news servers. Five news-list actions and nine article-view actions, six command
-occurrences, eight key actions, seven physical joins and thirteen screenshots with
-literal captions retain their separate contexts.
+All 426 assembly files and 417 native files reproduce independently and in a fresh
+process. The 112 exact crops, 93 original OCR outcomes, 81 source block intervals,
+79 current blocks, 503 physical rows, 1,753 projected metadata occurrences,
+3,515 current ranges, 17,883 scalar values and 403 ZIP members validate.
+The 493→494 sample email join reuses its existing LF; the 499→500 Net Directory
+prose join inserts one LF. Screen 1 and the final screenshots retain independent
+ownership. Literal listing download bytes concatenate unchanged. All eighteen
+numbered screenshots and captions, nine code contexts, FTP/news records, menu
+actions, printed discrepancies and glyph candidates remain.
 
-The news action's printed figure 15 mismatch, menu singular/plural and case,
-example address differences, opaque TIACODE and prose defects remain unrepaired.
-Screenshot interface text remains image-dependent. One source correction pass,
-one map and zero retries or later text changes. Thirty-one invalid cases reject.
-All 52,258 earlier March files and thirty core modules remain unchanged; the
-unchanged 214-test baseline is reused. Exact glyphs, encoded bytes, execution,
-historical claims, full proofreading and human acceptance remain unverified.
+One source correction pass for final 500, ten initial recognitions and zero retries
+or later source changes. Retained administrative revisions fix the rendering-helper
+page range, export evidence path and intervening screenshot join specification.
+No source text or raw OCR changed during those repairs. Five native, 36 assembly
+and fourteen ownership/status faults reject. Forty-one frozen group/native status
+pointers resolve externally; group 0049 stays non-owning and HTML 0051 unresolved.
+All 53,080 prior March files and thirty core modules remain exact. The unchanged
+214-test baseline is reused. Exact glyphs, encoded bytes, historical claims,
+execution, full proofreading and human acceptance remain unverified.
 
-Selected continuation: `archive/pdf/1995-03/packages/batch-58-r01/netscape-b/`.
-Opening retained: `archive/pdf/1995-03/packages/batch-57-r01/netscape-a/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-58/`.
-Totals remain twenty-seven readable, one partial, thirteen non-owning headings,
-eight references and 41 unresolved. Frozen batch 56 group labels describe their
-creation time; resolve them externally after body completion without rewriting
-the original evidence.
+Complete article: `archive/pdf/1995-03/packages/article-netscape-r02/`.
+Current status: `archive/pdf/1995-03/classifications/batch-59-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-59/`.
+Use the retained `netscape_adapter_r02.py` installer when checking or rebuilding
+the assembled package. Natives and original group evidence remain immutable.
+Totals: twenty-eight readable, zero partial, thirteen non-owning headings,
+eight references and 41 unresolved.
 
-Next restore final 500 / 492 as native c, then assemble the complete 492–500 article.
-Preserve the email join, Net Directory prose join and all native source metadata.
-Page 501 is an independent recruitment advertisement; HTML 0051 opens 502 / 494.
-Keep HTML's source `[마지막회]` versus canonical `[2]` and hardware 0054's earlier
-physical position 394 / 386 unchanged. FLC0019 awaits bounded lookup or issue
-accounting. See [March progress](docs/progress/9503.md).
+Next locate HTML 0051's full extent from opening 502 / 494, then restore at most
+502–507 in the next bounded checkpoint. Reuse the retained opening and inspect
+both boundaries. Preserve source `[마지막회]` versus canonical `[2]`, author
+`김현석`, literal HTML and screenshots. NeXTSTEP 0052 opens 510 / 502; LaTeX 0053
+opens 518 / 510. Hardware 0054 remains earlier on 394 / 386. FLC0019 awaits bounded
+lookup or issue accounting. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.

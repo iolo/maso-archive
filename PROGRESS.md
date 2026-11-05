@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — March Netscape article assembled
+
+- Batch 59 restores final page 500 and assembles complete Netscape 0050 on 492–500.
+  All 426 assembly files and 417 native files reproduce independently and in a
+  fresh process. The 112 crops, 503 rows and 1,753 metadata occurrences validate.
+- Both cross-page joins preserve original text and listing bytes. Eighteen numbered
+  screenshots/captions, examples, menus, source discrepancies, ending emblem and
+  editor credit remain distinct. Fifty-five invalid cases reject; 41 frozen status
+  pointers resolve externally. All 53,080 prior files and thirty core modules remain exact.
+- Totals: 28 readable, zero partial, 13 groups, eight references and 41 unresolved.
+  Next locate HTML 0051's extent from 502 / 494 and restore at most 502–507.
+  FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Netscape continuation restored
 
 - Batch 58 preserves Netscape 0050 continuation 494–499 as immutable native b.

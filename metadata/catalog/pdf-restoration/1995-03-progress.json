@@ -3776,7 +3776,7 @@
       "parent_id": "maso-1995-03-toc-0049",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Batch57 establishes full Netscape0050 extent PDF492–500 / individually observed484–492. Both boundaries and all nine article pages reviewed;491 computer advertisement and501 recruitment advertisement are independent;HTML0051 opens502/494.",
@@ -3787,20 +3787,35 @@
         "Batch58 preserves continuation494–499 / individually observed486–491 as immutable native b. Together a/b retain492–499 of full492–500;final500 andactual assembly remain pending.",
         "All266 files match independent and fresh-process exports;74 exact crops,61 OCR outcomes,54 blocks,353 physical rows,1173 typed ranges and258 ZIP members validate. Thirty-one invalid cases reject.",
         "Five literal code contexts retain38 nonempty rows,eleven FTP sites andtwo news servers. Five news-list andnine article-view actions,six command occurrences,eight key actions,seven physical joins andthirteen screenshots/captions retain source contexts. Incoming493→494 is sample email;outgoing499→500 continues Subject→Catalog,.",
-        "Printed news figure15 mismatch,menu number/case variations,example IP differences,source prose defects andopaque TIACODE remain unrepaired. One correction pass,one map,zero retries orwithin/post-pass changes. All52258 prior files andthirty core modules remain exact;214-test baseline reused. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified."
+        "Printed news figure15 mismatch,menu number/case variations,example IP differences,source prose defects andopaque TIACODE remain unrepaired. One correction pass,one map,zero retries orwithin/post-pass changes. All52258 prior files andthirty core modules remain exact;214-test baseline reused. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified.",
+        "Batch 59 completes the nine-page Netscape0050 article, PDF492–500 / individually observed printed484–492, from immutable natives a/b/c. Final500 preserves four screenshots with captions, closing prose, MS ending emblem and separate editor credit 정리:정인성;501 is an independent recruitment advertisement.",
+        "All426 assembled files and417 original native files reproduce independently and in a fresh process. All112 crops,93 OCR outcomes,81 source block intervals,79 current blocks,503 physical rows,1753 projected metadata occurrences,3515 current ranges,17883 scalar values and403 ZIP members validate.",
+        "The493→494 email join reuses its existing LF;499→500 Net Directory prose adds one LF. Screen1 and final screenshots remain independently owned. Literal listing.txt bytes concatenate unchanged. All18 screenshot captions,nine code contexts,FTP/news records,menu actions,source discrepancies andglyph candidates remain.",
+        "One source correction pass for final500,ten initial recognitions,zero retries or later source changes. Retained administrative revisions fix a rendering-helper page range,export evidence path andintervening screenshot join specification;source text andraw OCR remain unchanged. Thirty-six assembly,five native andfourteen ownership/status faults reject.",
+        "Forty-one frozen group/native status pointers resolve externally inbatch59;group0049 remains non-owning andHTML0051 unresolved. All53080 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Exact glyphs,encoded bytes,historical claims,execution,full proofreading andhuman acceptance remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-58-r01/netscape-b",
+        "directory": "archive/pdf/1995-03/packages/article-netscape-r02",
         "article_id": "scan-maso-1995-03-toc-0050",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-58-r01/netscape-b/manifest.json",
-          "sha256": "97d8c0b5f23982972099ab8f0918dd8861fba13156b18043b43c1fc778a7d2d1",
-          "bytes": 45228
+          "path": "archive/pdf/1995-03/packages/article-netscape-r02/manifest.json",
+          "sha256": "4e3f8901c9ee83c54a1bca810ea1368d8858895da999a0ae84245498c87094f5",
+          "bytes": 76307
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-58/netscape-b-r01/package-recipe.json",
-          "sha256": "793a6c67c04fd6e7a2adca550974655f88353d6f41d78b7320e732c5860ccab8",
-          "bytes": 12039
+          "path": "archive/pdf/1995-03/restoration/batch-59/assembly-recipe.json",
+          "sha256": "72efafe9fdf93e31ee8ab3d6c314e5fe4ee26f29d64718b6e71bfa8e6c4ab126",
+          "bytes": 2560
+        },
+        "adapter": {
+          "path": "archive/pdf/1995-03/restoration/batch-59/netscape_adapter_r02.py",
+          "sha256": "9bec2f16740d14fe40ed4fba806a07d4e362ea9421e6a7038fd2ffa4ccdad4d1",
+          "bytes": 16660
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1995-03/restoration/batch-59/adapter-inputs-r02.json",
+          "sha256": "9ee9b840e945bd9a7ec925a21544d33415b0c25549bd0e20e85240109dc47651",
+          "bytes": 12842
         },
         "coverage": {
           "pdf_pages": [
@@ -3811,7 +3826,8 @@
             496,
             497,
             498,
-            499
+            499,
+            500
           ],
           "printed_pages": [
             "484",
@@ -3821,105 +3837,81 @@
             "488",
             "489",
             "490",
-            "491"
+            "491",
+            "492"
           ],
-          "regions": 97,
-          "blocks": 73,
-          "figures": 14,
-          "current_native_pdf_pages": [
-            494,
-            495,
-            496,
-            497,
-            498,
-            499
-          ],
-          "current_native_regions": 74,
-          "current_native_blocks": 54,
-          "current_native_figures": 13,
-          "deferred_pdf_pages": [
-            500
-          ],
+          "regions": 112,
+          "blocks": 79,
+          "figures": 19,
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "interior_continuity_fully_reviewed": true,
         "actual_start_pdf_page": 492,
         "observed_ending_pdf_page": 500,
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-58/validation.json",
-          "sha256": "9a4733dffa12294e0b760571ee2315e03f4d718688f44a4eb8a9eb74149330c7",
-          "bytes": 1654
+          "path": "archive/pdf/1995-03/restoration/batch-59/validation.json",
+          "sha256": "825b92841316ac2c46df2e52e251e8d0d6dcb6d31b17f290d3d8016c86a03e68",
+          "bytes": 2259
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-58/reproduction.json",
-          "sha256": "53e59989a97ad121bbdb5134fc1198a9db3ecee875a3d4cee76f8cc8e7d41775",
-          "bytes": 51851
+          "path": "archive/pdf/1995-03/restoration/batch-59/assembly-reproduction-r02.json",
+          "sha256": "93df42a3d0856b73906dbb8202b5192aa563a2e7b2e52c99311facf8af4a6e87",
+          "bytes": 78727
         },
-        "checkpoint": "batch-58",
-        "directory_is_current_native_not_assembled_article": true,
-        "prior_native": {
-          "directory": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a",
-          "article_id": "scan-maso-1995-03-toc-0050",
-          "manifest": {
-            "path": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a/manifest.json",
-            "sha256": "f92bf4415e40c67a039700f79870e68dbd297657b82e9bfbddd55a97d1b0c448",
-            "bytes": 16408
+        "checkpoint": "batch-59",
+        "natives": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a/manifest.json",
+              "sha256": "f92bf4415e40c67a039700f79870e68dbd297657b82e9bfbddd55a97d1b0c448",
+              "bytes": 16408
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-57/netscape-a-r01/package-recipe.json",
+              "sha256": "68ea071f00c24eaaff7dbef4cc87b2392a45ce6801f63f128b4b8c60ab5d4f5f",
+              "bytes": 4597
+            }
           },
-          "recipe": {
-            "path": "archive/pdf/1995-03/restoration/batch-57/netscape-a-r01/package-recipe.json",
-            "sha256": "68ea071f00c24eaaff7dbef4cc87b2392a45ce6801f63f128b4b8c60ab5d4f5f",
-            "bytes": 4597
+          {
+            "name": "b",
+            "directory": "archive/pdf/1995-03/packages/batch-58-r01/netscape-b",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-58-r01/netscape-b/manifest.json",
+              "sha256": "97d8c0b5f23982972099ab8f0918dd8861fba13156b18043b43c1fc778a7d2d1",
+              "bytes": 45228
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-58/netscape-b-r01/package-recipe.json",
+              "sha256": "793a6c67c04fd6e7a2adca550974655f88353d6f41d78b7320e732c5860ccab8",
+              "bytes": 12039
+            }
           },
-          "coverage": {
-            "pdf_pages": [
-              492,
-              493
-            ],
-            "printed_pages": [
-              "484",
-              "485"
-            ],
-            "regions": 23,
-            "blocks": 19,
-            "figures": 1,
-            "deferred_pdf_pages": [
-              494,
-              495,
-              496,
-              497,
-              498,
-              499,
-              500
-            ],
-            "full_extent_unverified": false
-          },
-          "body_pages_complete": false,
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "interior_continuity_fully_reviewed": true,
-          "actual_start_pdf_page": 492,
-          "observed_ending_pdf_page": 500,
-          "validation": {
-            "path": "archive/pdf/1995-03/restoration/batch-57/validation.json",
-            "sha256": "f74ca10d794bc471fc9fbadf1311b0dc4c55dbac9a108354a211622af3f39105",
-            "bytes": 1578
-          },
-          "reproduction": {
-            "path": "archive/pdf/1995-03/restoration/batch-57/reproduction.json",
-            "sha256": "8f3e3cae922bf0b0c298a2bb7561c0cd23038561fa56cd9aa6f05ed5be790cb8",
-            "bytes": 19556
-          },
-          "checkpoint": "batch-57",
-          "directory_is_current_native_not_assembled_article": true
-        },
-        "native_directories": [
-          "archive/pdf/1995-03/packages/batch-57-r01/netscape-a",
-          "archive/pdf/1995-03/packages/batch-58-r01/netscape-b"
+          {
+            "name": "c",
+            "directory": "archive/pdf/1995-03/packages/batch-59-r01/netscape-c",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-59-r01/netscape-c/manifest.json",
+              "sha256": "6b0404142986514695d17c0114a213ecf19353125af4a1b8bc020bec76c7b3b5",
+              "bytes": 8867
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-59/netscape-c-r01/package-recipe.json",
+              "sha256": "71f94ec0d609457f161d01f3a79621802684dcb5200cd884bd1315300399dc9a",
+              "bytes": 4189
+            }
+          }
         ],
-        "coverage_totals_are_disjoint_unassembled_natives": true
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-59-r01/source-creation-dispositions.json",
+          "sha256": "526bfcc4748d96e9f38840b96354742ec1d20a58ff2c7f32bc7b4921960aac58",
+          "bytes": 27082
+        }
       }
     },
     {
@@ -6528,12 +6520,49 @@
         "sha256": "53e59989a97ad121bbdb5134fc1198a9db3ecee875a3d4cee76f8cc8e7d41775",
         "bytes": 51851
       }
+    },
+    {
+      "name": "1995-03-batch-59",
+      "status": "complete",
+      "completed_at": "2026-11-05T12:05:17.770245+00:00",
+      "goal": "Restore final500 and assemble complete Netscape0050 on492–500; resolve frozen status externally.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0050"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        500
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        499,
+        501
+      ],
+      "recognition_invocations": 10,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 2,
+      "crop_layout_versions": 1,
+      "pre_ocr_refinement_events": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-59/validation.json",
+        "sha256": "825b92841316ac2c46df2e52e251e8d0d6dcb6d31b17f290d3d8016c86a03e68",
+        "bytes": 2259
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-59/assembly-reproduction-r02.json",
+        "sha256": "93df42a3d0856b73906dbb8202b5192aa563a2e7b2e52c99311facf8af4a6e87",
+        "bytes": 78727
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 27,
-    "partial": 1,
+    "readable": 28,
+    "partial": 0,
     "group_headings": 13,
     "section_references": 8,
     "unresolved": 41
@@ -6543,7 +6572,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore Netscape0050 final PDF500/492 as immutable native c,then actual492–500 assembly from natives a/b/c. Reuse retained source renders and inspect499/501 boundaries. Preserve Subject→Catalog, prose join and493→494 sample-email join;retain allnative text,code,metadata,screenshots/captions andsource discrepancies. Resolve frozenbatch56 group status externally afterbodycompletion. HTML0051 opens502/494;source[마지막회] differs fromcanonical[2]. Hardware0054 remains earlier394/386. Keep FLC0019 unresolved pending boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Locate the complete extent of HTML0051 starting PDF502 / printed494, then restore at most502–507 as the next bounded native. Reuse retained opening502 and inspect both article boundaries; do not infer ending fromcanonical page references. Preserve source [마지막회] versus canonical [2], author김현석, literal HTML/code/markup and source screenshots. NeXTSTEP0052 opens510/502 andLaTeX0053 opens518/510;hardware0054 remains earlier394/386. Keep FLC0019 unresolved pending boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -6794,6 +6823,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-55-r01/source-creation-dispositions.json",
       "sha256": "3c9e5e03682b2e5e7f2dbc65c201afa07e9507d4f787e8f11d956cf75518e7a4",
       "bytes": 8921
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-59-r01/source-creation-dispositions.json",
+      "sha256": "526bfcc4748d96e9f38840b96354742ec1d20a58ff2c7f32bc7b4921960aac58",
+      "bytes": 27082
     }
   ]
 }
