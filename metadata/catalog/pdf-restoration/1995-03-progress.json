@@ -2364,29 +2364,29 @@
       "parent_id": "maso-1995-03-toc-0032",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Opening macro-language0034 PDF352–357 / printed344–349 restored as immutable native a. Full source extent352–363 /344–355 reviewed.363 closes with editor credit and separate lower advertisement;351 is advertising and364 opens0035. Remaining358–363 and full assembly pending.",
-        "378 selected/independent/fresh-process files match;93 pixel-exact mapped crops,92 OCR outcomes,1980 typed ranges,81 blocks,549 reading rows,one original uncaptioned emblem and370 exact ZIP members validated.",
-        "Nine unnumbered code contexts preserve101 nonempty physical rows,six blank rows andsix original addition arrows. Bracket-shaped delimiters,single less-than operators,physical string wrapping,Korean commands andHFORTH.HLP versus HTURTLE.HLP remain literal. No code repair,execution or source-byte certification.",
-        "Table1 preserves47 four-column rows,188 cells including15 empty cells,eight repeated header cells,259 cell reading rows and66 explanation/example continuation rows. Source labels,stack effects,operators andapparent spelling/math mistakes remain literal;empty cells have no invented text or range. All table rows retain their scan ownership.",
-        "Eleven internal boundaries preserve the opening dropcap andphysical rows,including an explicit paragraph break between init-after columns. Prose355 ending55 continues358 와 11이 보이고, around table pages356–357; this assembly join remains deferred. The firsttwo of six numbered language principles are in this native.",
-        "All92 initial drafts read before one source pass;zero retries or within/post-pass regional text changes. Three valid maps and54 pre-OCR refinements retained.51 invalid range/context/status cases rejected. All24205 prior March files and30 core pins unchanged; unchanged214-test baseline reused.",
-        "Twelve frozen status pointers resolve externally. DOS0032 stays non-owning with0033 readable,0034 partial and0035 unresolved. Canonical hierarchy andsource banner remain separate. Exact glyphs,spaces,encoded bytes,claims,full proofreading andhuman acceptance unverified;no automatic CD association."
+        "Complete macro-language0034 PDF352–363 / printed344–355 assembled from immutable352–357 and358–363 natives. Prose,editor,closing mark and13-file diskette2 table end363 above independent lower advertisement;351 advertising;364 next article0035.",
+        "885 selected/independent/fresh-process parent files match,including876 nested native files.216 exact crops,214 OCR outcomes,3782 projected metadata ranges,7592 current ranges and866 ZIP members validated. All197 original source blocks remain exact intervals in196 current blocks.",
+        "Prose355→358 joins with one LF aroundTable1 pages356–357. All50 intervening table blocks retain relative order andsource ownership. Native b also preserves prose358→360 aroundTable2 andconstructor code362→363. listing.txt equals exact native concatenation;no cross-native code join.",
+        "28 unnumbered code examples retain216 nonempty physical rows,nine blank rows andsix original addition arrows. Allsix language principles,1044 reading rows,source opening emblem andclosing mark retained. Table1/Table2/diskette table preserve108 rows,358 cells including15 empty cells,13 header cells,430 cell reading rows andthree Table2 sections. Six table references resolve to actual assembled tables.",
+        "Printed code delimiters/operators,helper prefixes,stack effects,wording andtable/filename discrepancies remain literal with39 localized candidates. Diskette descriptions saying TURTLE.CPP remain separate from HTURTLE.CPP filename. No technical repair,execution verification orautomatic CD association.",
+        "All122 final-page drafts read before one source pass;three valid maps/13 pre-OCR refinements,zero retries orregional text repairs.76 invalid range/context/status cases rejected;all25577 prior March files and30 core pins unchanged. Unchanged214-test baseline reused. Exact glyphs,spacing,encoded bytes,claims,full proofreading andhuman acceptance unverified.",
+        "35 frozen partial/status pointers resolve externally;earlier files andnative evidence unchanged. Non-owning DOS0032 has0033/0034 readable and0035 unresolved. Canonical hierarchy andsource banner remain separate."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-33-r01/macro-a",
+        "directory": "archive/pdf/1995-03/packages/article-macro-r01",
         "article_id": "scan-maso-1995-03-toc-0034",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-33-r01/macro-a/manifest.json",
-          "sha256": "c01ede123e0a908a7abdca48afb6fbefe106b2ce064851c7291b7e0a3360ed0b",
-          "bytes": 64637
+          "path": "archive/pdf/1995-03/packages/article-macro-r01/manifest.json",
+          "sha256": "ab18d7d4c525f538f961b6fed7d4680783505cd4d4aefabcc6facd1abff3f3a8",
+          "bytes": 160125
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-33/macro-a-r03/package-recipe.json",
-          "sha256": "6c7b175bda5bcb6a1206f05eaad27dfc892bb9343acdc8f8bfbfae7df9fcdb41",
-          "bytes": 11355
+          "path": "archive/pdf/1995-03/restoration/batch-34/assembly-recipe.json",
+          "sha256": "ac4573acefb27976b88626780f927635ecd8b37baa570fe85d405b06de027c2b",
+          "bytes": 2052
         },
         "coverage": {
           "pdf_pages": [
@@ -2395,20 +2395,7 @@
             354,
             355,
             356,
-            357
-          ],
-          "printed_pages": [
-            "344",
-            "345",
-            "346",
-            "347",
-            "348",
-            "349"
-          ],
-          "regions": 93,
-          "blocks": 81,
-          "figures": 1,
-          "deferred_pdf_pages": [
+            357,
             358,
             359,
             360,
@@ -2416,34 +2403,52 @@
             362,
             363
           ],
+          "printed_pages": [
+            "344",
+            "345",
+            "346",
+            "347",
+            "348",
+            "349",
+            "350",
+            "351",
+            "352",
+            "353",
+            "354",
+            "355"
+          ],
+          "regions": 216,
+          "blocks": 196,
+          "figures": 2,
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 352,
         "actual_end_pdf_page": 363,
         "source_creation_dispositions": {
-          "path": "archive/pdf/1995-03/classifications/batch-33-r01/source-creation-dispositions.json",
-          "sha256": "fbff5310e16e11e4c6ff21c51ac262a187c06345f19ec6ae79ae5a8296d684ed",
-          "bytes": 9465
+          "path": "archive/pdf/1995-03/classifications/batch-34-r01/source-creation-dispositions.json",
+          "sha256": "8c67a2469aa327d769740abbeca53d7cfb472f82e94c4daa524c1d780ee68d21",
+          "bytes": 23879
         },
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-33/validation.json",
-          "sha256": "f93d9482c7cf36736185c8b439aaab6fd96f2107e15c8596327812d7205105c8",
-          "bytes": 2230
+          "path": "archive/pdf/1995-03/restoration/batch-34/validation.json",
+          "sha256": "c96ee3317f362a86e7a2a59bf19f5443fab6e154bffd3c990a6969d0dde7f75d",
+          "bytes": 2554
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-33/reproduction.json",
-          "sha256": "b57cd2a45294aabea25bffee2bda285476dcac5dad8f903b87e8c6dc6856034e",
-          "bytes": 73519
+          "path": "archive/pdf/1995-03/restoration/batch-34/assembly-reproduction.json",
+          "sha256": "1c3bcc6939e0ec0b21d5e080dcc5f8c615b621223b8ba11500311073411f0a3b",
+          "bytes": 162518
         },
         "classification_reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-33/classification-reproduction.json",
-          "sha256": "31697483505e9bc1d7f38f26b880beeb9d7a388fca39fd675794084c7bce53ea",
-          "bytes": 571
+          "path": "archive/pdf/1995-03/restoration/batch-34/classification-reproduction.json",
+          "sha256": "4d230ee47bdf8e318a393dc0e5f6d9baf6c5f40a359bef7212d18cb3aead1711",
+          "bytes": 572
         },
-        "checkpoint": "batch-33"
+        "checkpoint": "batch-34"
       }
     },
     {
@@ -4219,12 +4224,54 @@
         "sha256": "31697483505e9bc1d7f38f26b880beeb9d7a388fca39fd675794084c7bce53ea",
         "bytes": 571
       }
+    },
+    {
+      "name": "1995-03-batch-34",
+      "status": "complete",
+      "completed_at": "2026-11-05T03:48:28.788531+00:00",
+      "goal": "Restore0034 remaining358–363,validate native b,then assemble complete352–363 / printed344–355 article.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0034"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        358,
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 122,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "pre_ocr_refinement_events": 13,
+      "valid_pre_ocr_maps": 3,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-34/validation.json",
+        "sha256": "c96ee3317f362a86e7a2a59bf19f5443fab6e154bffd3c990a6969d0dde7f75d",
+        "bytes": 2554
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-34/assembly-reproduction.json",
+        "sha256": "1c3bcc6939e0ec0b21d5e080dcc5f8c615b621223b8ba11500311073411f0a3b",
+        "bytes": 162518
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-34/classification-reproduction.json",
+        "sha256": "4d230ee47bdf8e318a393dc0e5f6d9baf6c5f40a359bef7212d18cb3aead1711",
+        "bytes": 572
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 17,
-    "partial": 1,
+    "readable": 18,
+    "partial": 0,
     "group_headings": 7,
     "section_references": 8,
     "unresolved": 57
@@ -4234,7 +4281,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore macro-language0034 remainingPDF358–363 / printed350–355 as immutable native b,then assemble actual352–363. Preserve incoming prose355→358 around intervening table356–357: +를 치면 ‘더미 깊이: 2’아래에 55 / 와 11이 보이고, with LF; no outgoing code continuation from native a. Preserve remaining principles3–6,Table2 on359,code/prose360–363,editor credit anddiskette2 file table;exclude independent lower advertisement363. Resolve frozen partial states externally. Then verify0035 from364;FLC0019 awaits bounded lookup/issue accounting. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. Complete all March outcomes,545-page accounting,cover andseparate closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Verify protected-mode article0035 from observedPDF364 / printed356. Establish actual source extent before mapping at most six pages as its first native segment. Preserve canonical title 보호 모드의 초석을 튼튼히 separately from printed subtitle/headline 80386과 보호 모드 프로그래밍의 기초,author 박창진,source banner andfour-part outline. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover andseparate issue closeout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -4360,6 +4407,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-33-r01/source-creation-dispositions.json",
       "sha256": "fbff5310e16e11e4c6ff21c51ac262a187c06345f19ec6ae79ae5a8296d684ed",
       "bytes": 9465
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-34-r01/source-creation-dispositions.json",
+      "sha256": "8c67a2469aa327d769740abbeca53d7cfb472f82e94c4daa524c1d780ee68d21",
+      "bytes": 23879
     }
   ]
 }

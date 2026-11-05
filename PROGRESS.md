@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Complete March macro-language article
+
+- Batch 34 restores final pages 358–363 and assembles article 0034 across 352–363.
+  All 885 assembly files reproduce independently and in a fresh process.
+- The prose join across Table 1 preserves all 197 original text blocks as exact
+  intervals. Validation covers 216 crops, 7,592 current text ranges, 28 code
+  examples, three tables with 108 rows, and 76 invalid range/context/status cases.
+- All 25,577 prior files remain exact. Thirty-five frozen status pointers resolve
+  externally. Source code and table mistakes remain literal; exact source bytes,
+  technical claims and human acceptance remain unverified.
+- Totals: eighteen readable, zero partial, seven groups, eight references and
+  57 unresolved. Next verify article 0035 from PDF 364 and restore its first
+  bounded segment. FLC0019 and full-issue accounting remain open; the March goal
+  stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March macro-language opening and command table
 
 - Batch 33 restores article 0034 on PDF 352–357. The complete observed extent

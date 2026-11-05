@@ -267,46 +267,50 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 33 preserves macro-language article 0034 on PDF 352–357 / printed
-344–349 as immutable native a. Source review establishes the complete extent
-352–363 / 344–355. Page 363 closes with an editor credit and has a separate lower
-advertisement; 351 is advertising and 364 opens article 0035. Remaining pages
-358–363 and complete article assembly are pending.
+Batch 34 completes macro-language article 0034 across PDF 352–363 / printed
+344–355, assembling both immutable natives. The final six pages include the
+remaining language principles, Table 2, turtle-command examples, closing prose,
+editor credit, closing mark and a thirteen-file diskette 2 table. The lower
+advertisement on 363 is excluded; 351 is advertising and 364 opens article 0035.
 
-All 378 native files reproduce independently and in a fresh process. Validation
-covers 93 pixel-exact crops, 92 OCR outcomes, 1,980 typed text ranges, 81 blocks,
-549 reading rows, one uncaptioned source emblem and 370 exact ZIP members.
-Nine unnumbered code examples retain 101 nonempty physical rows, six blank rows
-and six printed addition arrows. Original delimiters, operators, Korean commands,
-physical string wraps and differing help filenames remain literal.
+All 885 assembly files, including 876 nested native files, reproduce independently
+and in a fresh process. The new final native has 498 exact files. Validation covers
+216 pixel-exact crops, 214 OCR outcomes, 3,782 projected metadata ranges, 7,592
+current typed ranges and 866 exact ZIP members. All 197 original text blocks remain
+exact intervals in 196 current blocks. The 355→358 prose join inserts one LF around
+Table 1, preserving all fifty intervening table blocks and their source ownership.
+Native b also preserves the 358→360 prose continuation around Table 2 and the
+362→363 constructor-code continuation. The listing download equals the exact
+concatenation of both native downloads.
 
-Table 1 preserves 47 rows and 188 cells, including fifteen empty cells, eight
-repeated header cells, 259 cell reading rows and 66 explanation/example continuation
-rows. Empty cells have no invented text or source range. Apparent spelling and
-mathematical errors remain unchanged. Eleven internal boundaries preserve the
-opening dropcap and a paragraph break between the initialization prose columns.
-Principles 1–2 of six are transcribed; the remaining principles begin on 358.
-Prose on 355 ending `55` continues on 358 with `와 11이 보이고,` around the two-page
-table. That prose join is explicitly deferred; no code join crosses this boundary.
+The article retains 1,044 reading rows and all six language principles. Its 28
+unnumbered code examples preserve 216 nonempty physical rows, nine blank rows
+and six printed addition arrows. Three tables preserve 108 rows, 358 cells
+including fifteen empty cells, thirteen header cells and 430 cell reading rows.
+Table 2 retains its three sections; six table references resolve to the assembled
+tables. Original delimiters, helper prefixes, stack effects, table mistakes and
+filename discrepancies remain literal, with 39 localized candidates. The diskette
+descriptions saying `TURTLE.CPP` remain separate from the `HTURTLE.CPP` filename.
+Exact glyphs, spacing, encoded bytes, claims, full proofreading and human acceptance
+remain unverified; no automatic CD association is created.
 
-All 92 initial drafts were read before one source correction pass; zero retries
-or within/post-pass regional text changes. Three valid maps and 54 pre-OCR crop
-refinements remain. All 51 invalid range/context/status cases reject. All 24,205
+All 122 final-segment drafts were read before one source correction pass; zero
+retries or regional text repairs. Three valid maps and thirteen pre-OCR crop
+refinements remain. All 76 invalid range/context/status cases reject. All 25,577
 prior March files and thirty core modules remain exact; the unchanged 214-test
-baseline is reused. Twelve historical status pointers resolve externally without
-changing original evidence. Twenty-five final-classification evidence records remain
-required. Exact glyphs, spacing, encoded bytes, claims, full proofreading and human
-acceptance remain unverified; no automatic CD association is created.
+baseline is reused. Thirty-five frozen status pointers resolve externally without
+changing original evidence. Twenty-six final-classification evidence records remain
+required.
 
-Partial native: `archive/pdf/1995-03/packages/batch-33-r01/macro-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-33-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-33/`.
-Totals: seventeen readable, one partial, seven non-owning headings, eight references
-and 57 unresolved. DOS group 0032 remains non-owning: 0033 is readable, 0034 partial
-and 0035 unresolved. Next restore 358–363 as native b, then assemble full 352–363,
-preserving the 355→358 prose continuation around Table 1. Include the remaining
-principles, Table 2, code, closing prose/editor and diskette file table; exclude
-the independent lower advertisement on 363. Resolve frozen partial states externally.
+Complete article: `archive/pdf/1995-03/packages/article-macro-r01/`.
+Final native: `archive/pdf/1995-03/packages/batch-34-r01/macro-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-34-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-34/`.
+Totals: eighteen readable, zero partial, seven non-owning headings, eight references
+and 57 unresolved. DOS group 0032 remains non-owning: 0033/0034 are readable and
+0035 unresolved. Next verify protected-mode article 0035 from PDF 364 / printed 356,
+establish its actual extent and restore at most six mapped pages. Keep its canonical
+title separate from the printed subtitle/headline, author and four-part outline.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
