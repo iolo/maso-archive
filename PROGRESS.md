@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Final March NT pages preserved
+
+- Batch 53 preserves NT0046 PDF 482–484. All 26 source pages, 459–484, are now
+  retained across five natives; actual assembly remains pending. All 273 final
+  native files reproduce; 70 crops, 65 OCR outcomes, 715 ranges and 266 ZIP
+  members validate. Beta statement, portrait, three known issues and registration
+  coupon remain separate from the main article ending.
+- Source reference and caption/image discrepancies remain explicit. All 27 invalid
+  cases reject; 47,394 earlier files and 30 core modules remain exact. Three frozen
+  scope pointers are updated externally. One assistant transcription error was
+  repaired with the earlier correction retained.
+- Totals remain 25 readable, one partial, 11 groups, eight references and 45 unresolved.
+  Next assemble the full NT article. FLC0019, 545-page accounting, cover and separate
+  closeout remain pending. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March NT beta review and resource-kit continuation preserved
 
 - Batch 52 preserves NT0046 PDF 476–481, extending retained pages to 459–481.

@@ -37,53 +37,55 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 52 preserves NT article 0046 continuation PDF 476–481 / individually
-observed printed 468–473 as immutable native d. Natives a/b/c/d now preserve
-459–481. Remaining 482–484 and actual full article assembly stay pending;
-interior continuity has been reviewed through boundary page 482.
+Batch 53 preserves NT article 0046 final PDF 482–484 as immutable native e.
+Printed pages 474 and 475 are individually observed; final page 484 has no
+visible folio. All 26 source pages, 459–484, are now reviewed and preserved
+across five natives. Actual full article assembly remains pending.
 
-All 338 native files reproduce independently and in a fresh process. Validation
-covers 87 pixel-exact crops, 81 original OCR outcomes, 1,224 typed ranges,
-70 blocks, 393 physical reading rows and 331 exact ZIP members. Seven resource-guide
-categories retain 71 utilities; Access has seven separately indexed files.
-SMBTRACE retains its second physical row. The directory tree retains five nodes
-and original connector geometry. Three event categories remain separate.
-Five screenshots 16–20 and the directory tree retain original pixels.
+All 273 native files reproduce independently and in a fresh process. Validation
+covers 70 pixel-exact crops, 65 original OCR outcomes, 715 typed ranges,
+58 blocks, 201 physical reading rows and 266 exact ZIP members. Ten Access
+functions, 32 knowledge categories and three performance directories remain
+indexed. Two screenshots, the ending emblem, the beta portrait and the rotated
+registration coupon retain original pixels.
 
-Nine groups preserve eleven boundaries: eight LF, one double LF for the toolbar
-paragraph on 477→478, and two dropcap folds. Incoming 475→476 is `이용`→`하고 싶은`;
-outgoing 481→482 is `수행시키면`→`자동으로 설치된다.`. Both need LF during assembly.
-Part 2 closes on 476, Part 3 starts on 477 and the resource-kit section starts
-on 479, with no prose joins across those sections.
+Five groups preserve seven boundaries: six LF and one double LF at a beta
+statement paragraph. Incoming 481→482 is `수행시키면`→`자동으로 설치된다.`.
+The main ending and editorial credit stay separate from the beta statement,
+its named author/affiliation, three numbered issues and disclaimer. Three
+historical contacts, registration instructions, address, deadline and coupon
+text remain source-linked. No prose joins the next article on 485 / 477.
 
-Two reference discrepancies (15/16 and 16/17), three caption/image mismatches
-(18–20), four unresolved local references (1/1/2/3), and a heading saying two
-issues while its paragraph says three remain explicit. Printed Diagnotics,
-Adminstrator, KNOWLEGE, ACCES S, 가사, 아다시피 and other source candidates remain
-literal. No historical or technical claims are verified.
+Two reference discrepancies (21/19 and 22/20) and two caption/image mismatches
+remain explicit. Source 플레너/플레이너, KNOWLDGE, the domain installation path,
+and the MouseKeys £-like glyph candidate remain literal. No historical or
+technical claims are verified.
 
-All 81 initial drafts were read before one source correction pass. Two maps
-retain 32 pre-OCR refinements; zero retries or within/post-pass text changes.
-Thirty-four invalid range/context cases reject. All 46,274 earlier March files
-and thirty core modules remain exact; the unchanged 214-test baseline is reused.
-One reproducible external status file updates three frozen scope pointers without
-rewriting older evidence. Forty-seven classification/status evidence records are
-required at closeout. Exact glyphs, spacing, encoded bytes, execution, full
-proofreading and human acceptance remain unverified.
+All 65 initial drafts were read before one source correction pass. Two maps
+retain thirteen pre-OCR refinements; zero retries and zero within-pass changes.
+One retained post-pass repair restores source 최소한 after an assistant-introduced
+최소화 substitution. Twenty-seven invalid range/context cases reject. All 47,394
+earlier March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. One reproducible external status file updates three frozen
+scope pointers without rewriting older evidence. Forty-eight classification/status
+evidence records are required at closeout. Exact glyphs, spacing, encoded bytes,
+execution, full proofreading and human acceptance remain unverified.
 
-Partial NT native: `archive/pdf/1995-03/packages/batch-52-r01/nt-d/`.
-Earlier natives: batch-49 `nt-a`, batch-50 `nt-b`, batch-51 `nt-c`.
-External status: `archive/pdf/1995-03/classifications/batch-52-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-52/`.
+Final partial native: `archive/pdf/1995-03/packages/batch-53-r01/nt-e/`.
+Earlier natives: batches 49–52, `nt-a` through `nt-d`.
+External status: `archive/pdf/1995-03/classifications/batch-53-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-53/`.
 Totals remain twenty-five readable, one partial, eleven non-owning headings,
 eight references and 45 unresolved. Group 0045 and divider 458 remain unchanged.
-NT ending 484 has no visible folio and includes separate beta-release and
-registration context. PC DOCS OPEN starts on 485 / 477 and remains unresolved.
+PC DOCS OPEN starts on 485 / 477 and remains unresolved.
 
-Next restore NT0046 final continuation PDF 482–484, reviewing boundaries 481 and
-485, then actually assemble 459–484. Preserve Access options, Domain Planner,
-Knowledge Base, performance tools and final-page independent contexts. On 482,
-caption 21 names Domain Planner but the image shows the resource-kit program group.
+Next actually assemble full NT0046, 459–484, from all five natives. Four LF joins
+cross native boundaries: 463→464, 469→470, 475→476 and 481→482. Preserve the
+screen 4 caption/image between the second pair and all independent source contexts.
+Project every native typed range and custom field, retain printed discrepancies,
+and resolve frozen deferrals through external status. Final 484 has no visible
+folio; do not invent 476. Validate independent/fresh-process exact assembly before
+changing availability to readable.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
