@@ -11,7 +11,7 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have twenty-two readable articles, one partial, nine non-owning headings,
+identities now have twenty-three readable articles, zero partial, nine non-owning headings,
 eight section references and 50 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
@@ -19,48 +19,47 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 44 preserves Win32 article 0041 opening PDF 426–431 / printed 418–423
-as immutable native a. Its full extent is PDF 426–434 / printed 418–426.
-Main prose ends on 432; the numbered listing ends on 434 above independent
-book advertising. Pages 435–439 are advertisements; Delphi 0043 opens on 440
-under tool-review heading 0042. Final 432–434 and complete assembly remain pending.
+Batch 45 completes Win32 article 0041 across PDF 426–434 / printed 418–426.
+The final three pages are preserved in native b and assembled with the immutable
+opening native. Prose ends on 432 with editor credit `정리 : 박은숙`, the ending
+emblem and a separate five-row disk-file table. The numbered listing ends on 434
+above independent advertising. Delphi article 0043 opens on 440 / printed 432.
 
-All 255 package files reproduce independently and in a fresh process. Validation
-covers 63 pixel-exact crops, 61 OCR outcomes, 1,415 typed ranges, 53 blocks,
-432 nonempty reading rows and 247 exact ZIP members. Two original images retain
-the opening category emblem and captioned screenshot. Six joins preserve eight
-physical LF boundaries. Main 431→432 continues `오기`→`도 한다.` with LF;
-there is no external code join.
+All 386 parent files reproduce independently and in a fresh process, including
+377 exact nested native files. The new native has 122 files. Validation covers
+92 pixel-exact crops, 89 OCR outcomes, 3,409 projected metadata occurrences,
+6,826 current text ranges, 33,981 scalar values and 367 exact ZIP members.
+All 74 original blocks retain exact text intervals in 73 reading blocks. The
+431→432 prose continuation joins `오기` to `도 한다.` with LF; no external code
+join is needed. Fifteen internal continuation boundaries retain physical LF.
 
-Eight code contexts retain 68 nonempty and one blank row, eleven omission dots
-and 37 quote/pipe/backslash candidates. Three printed example captions remain,
-including the Bitblt caption on drawing code. The six-part outline highlights
-installment 3 while the printed title says [2]. The standfirst, independent
-memory tip, five DC steps, nine BitBlt parameter definitions and three WM_COMMAND
-meanings retain separate contexts. Twenty localized candidates preserve archaic
-Hangul byline glyphs, PICTURE1/YURO disagreement, Fuction/OPARQUE/DeletObject
-spellings, missing MENU keyword and identifiers, and an unfinished POPUP.
-No source code is reconstructed or executed. Exact glyphs, spaces, encoded bytes,
-technical claims, full proofreading and human acceptance remain unverified.
+Ten code contexts retain 262 nonempty rows, one actual blank row, eleven omission
+dots and 74 glyph candidates. Listing 1 retains 192 numbered rows, including
+31 number-only rows. The scan jumps from 035 to 037: line 036 is absent and no
+declaration continuation is reconstructed. Printed Subfuctions, gloval and Fuction
+remain literal. The screenshot, independent memory tip, six-part outline, nine
+parameter definitions and title/outline numbering conflict retain their contexts.
+Thirty localized candidates preserve printed anomalies and glyph uncertainties,
+including the archaic Hangul byline and a tiny uncertain ink mark on line 062.
+Exact glyphs, spaces, encoded bytes, technical claims, execution, full proofreading
+and human acceptance remain unverified.
 
-All 61 drafts were read before one source correction pass; zero retries or
-within/post-pass text repairs. Two valid maps and 21 pre-OCR refinements remain.
-The initial audit expected 33 glyph candidates; a retained audit revision corrects
-that assertion to 37 without changing source, OCR or package bytes.
-All 46 invalid range/context/status cases reject. All 36,526 prior March files
-and thirty core modules remain exact; the unchanged 214-test baseline is reused.
-Eighteen frozen status pointers resolve externally. Thirty-six classification
+All 28 new drafts were read before one source correction pass, with zero retries
+or within/post-pass text repairs. Two valid maps and two pre-OCR crop refinements
+remain. All 67 invalid range/context/status cases reject. All 37,409 prior March
+files and thirty core modules remain exact; the unchanged 214-test baseline is
+reused. Forty frozen status pointers resolve externally. Thirty-seven classification
 evidence records are required for final closeout.
 
-Partial native: `archive/pdf/1995-03/packages/batch-44-r01/win32-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-44-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-44/`.
-Totals: twenty-two readable, one partial, nine non-owning headings, eight references
-and 50 unresolved. Windows group 0037 remains non-owning: 0038–0040 are readable;
-0041 is partial. Next restore final 432–434, preserving the closing prose, editor,
-ending emblem, disk-file table and numbered listing, then assemble all nine pages.
-Verify the possible 035→037 listing-number gap against the scans without inferring
-missing code. Keep the lower 434 advertisement outside the article.
+Complete article: `archive/pdf/1995-03/packages/article-win32-r01/`.
+Final native: `archive/pdf/1995-03/packages/batch-45-r01/win32-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-45-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-45/`.
+Totals: twenty-three readable, zero partial, nine non-owning headings, eight
+references and 50 unresolved. Windows group 0037 remains non-owning; all four
+direct children 0038–0041 are readable. Next verify tool-review group 0042 and
+Delphi article 0043 from PDF 440 / printed 432, establish its full extent and
+restore it in bounded segments.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md). The full March goal remains active

@@ -2884,28 +2884,28 @@
       "parent_id": "maso-1995-03-toc-0037",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Win320041 opening PDF426–431 / printed418–423 restored as immutable native a. Full426–434 /418–426 extent verified from individual folios.425 ends exception handling;prose ends432 and numbered listing ends434 above independent book advertising.435–439 advertising excluded;Delphi0043 under tool-review0042 opens440. Final432–434 and complete assembly pending.",
-        "255 selected,independent and fresh-process files match;63 pixel-exact crops,61 OCR outcomes,1415 typed ranges,53 blocks,432 nonempty reading rows,two original images and247 exact ZIP members validate.",
-        "One captioned screenshot,opening category emblem,six-part series outline,current highlighted installment3 versus title[2],standfirst,independent memory tip,five DC steps,nine BitBlt parameter definitions andthree WM_COMMAND meanings retain source contexts. Canonical and printed title/byline remain distinct.",
-        "Eight code contexts preserve68 nonempty andone blank row,eleven literal omission dots and37 quote/pipe/backslash candidates. Three actual example captions remain. Bitblt caption versus drawing code,PICTURE1/YURO names,Fuction/OPARQUE/DeletObject spellings,absent MENU keyword/identifiers,unfinished POPUP andother source discrepancies remain literal. Twenty localized source candidates include archaic Hangul byline glyphs. No code reconstructed or executed.",
-        "Six joins/eight boundaries retain physical LF;drawing prose passes independent examples,andnested menu crosses columns. Main431→432 continues 오기→도 한다. withLF;no external code join. All61 drafts read before one source pass;zero retries or within/post-pass text repairs. Two maps and21 pre-OCR crop refinements remain. Initial audit expected33 glyph candidates;retained audit revision corrects count to37 without changing source/OCR/package bytes.",
-        "46 invalid range,context,status cases rejected. All36526 prior March files and30 core pins unchanged;unchanged214-test baseline reused.18 frozen status pointers resolve externally. Windows0037 stays non-owning:0038–0040 readable,0041 partial. Exact glyphs,spaces,encoded bytes,claims,execution,full proofreading andhuman acceptance unverified;no automatic CD association."
+        "Complete Win32 article0041 PDF426–434 / printed418–426 assembled from immutable426–431 and432–434 natives. Prose ends432 with editor and ending emblem; listing ends434 above independent advertising. Delphi0043 opens440.",
+        "386 selected,independent and fresh-process parent files match,including377 nested native files. All92 crops,89 OCR outcomes,3409 projected metadata occurrences,6826 current ranges and367 ZIP members validate. All74 original blocks remain exact intervals in73 reading blocks.",
+        "One external prose join431→432 preserves physical LF; no external code join. Fifteen internal boundaries retain separate source contexts. Screenshot,memory sidebar,six-part outline,nine parameter definitions andfive-row disk-file table remain.",
+        "Ten code contexts retain262 nonempty rows,one actual blank row,eleven omission dots and74 glyph candidates. Listing1 retains192 numbered rows including31 number-only rows. Line036 is absent in the source and is not reconstructed. Thirty localized source candidates preserve printed errors,source title/outline conflict andarchaic Hangul candidate.",
+        "All28 final-page drafts read before one source correction pass;two maps,two pre-OCR crop refinements,zero retries or within/post-pass repairs. All67 invalid range,context andstatus cases reject. All37409 prior files and30 core pins unchanged;unchanged214-test baseline reused.",
+        "Forty frozen status pointers resolve externally. Windows0037 remains non-owning;all four direct children0038–0041 are readable. Exact glyphs,spacing,encoded bytes,claims,execution,full proofreading andhuman acceptance remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-44-r01/win32-a",
+        "directory": "archive/pdf/1995-03/packages/article-win32-r01",
         "article_id": "scan-maso-1995-03-toc-0041",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-44-r01/win32-a/manifest.json",
-          "sha256": "bd57c4dbafab65e7b64fe18a5328d9f5895314606232aa128aa7a5f18c1ab0c3",
-          "bytes": 42893
+          "path": "archive/pdf/1995-03/packages/article-win32-r01/manifest.json",
+          "sha256": "8ef2392c2d0d81f51017dedd872a3456d1d4e3b8cf8b94c522c939b95f8d4b06",
+          "bytes": 68701
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-44/win32-a-r02/package-recipe.json",
-          "sha256": "c28ee088f39dbb0b1a78af2c1ca60a9b57ad3e489179a55821d40192ad12b465",
-          "bytes": 8866
+          "path": "archive/pdf/1995-03/restoration/batch-45/assembly-recipe.json",
+          "sha256": "cecee49e58a379c0aea1c8c69a4ee134718ffb5e4b9715a04c7d1e8464ab60c0",
+          "bytes": 1876
         },
         "coverage": {
           "pdf_pages": [
@@ -2914,7 +2914,10 @@
             428,
             429,
             430,
-            431
+            431,
+            432,
+            433,
+            434
           ],
           "printed_pages": [
             "418",
@@ -2922,44 +2925,43 @@
             "420",
             "421",
             "422",
-            "423"
+            "423",
+            "424",
+            "425",
+            "426"
           ],
-          "regions": 63,
-          "blocks": 53,
-          "figures": 2,
-          "deferred_pdf_pages": [
-            432,
-            433,
-            434
-          ],
+          "regions": 92,
+          "blocks": 73,
+          "figures": 3,
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 426,
         "actual_end_pdf_page": 434,
         "source_creation_dispositions": {
-          "path": "archive/pdf/1995-03/classifications/batch-44-r01/source-creation-dispositions.json",
-          "sha256": "91155ddcc2317dfba98b580586a4e8d0664090d29ad797d6b44884e521f0d9f8",
-          "bytes": 13033
+          "path": "archive/pdf/1995-03/classifications/batch-45-r01/source-creation-dispositions.json",
+          "sha256": "5cd3704b5b96113958a49750b16a0071320274816e87023819b5490d4202b745",
+          "bytes": 27184
         },
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-44/validation.json",
-          "sha256": "5163383ad100e048433047f89b0f5a376717a1c4c5c0536161dd1a5d66dab6cd",
-          "bytes": 2215
+          "path": "archive/pdf/1995-03/restoration/batch-45/validation.json",
+          "sha256": "060526b3ba780b860c9e5f2c25a6bcf8de73ffd27a1c88826b1d6c9b494530ac",
+          "bytes": 2549
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-44/reproduction.json",
-          "sha256": "8e64db2b096fcb124339b5d6bec4db3d47292072a687758297d20904e387fac4",
-          "bytes": 49341
+          "path": "archive/pdf/1995-03/restoration/batch-45/assembly-reproduction.json",
+          "sha256": "7f0340cf651d74e455acfaf013b7ca6fa683935768eb8ef7d176078d1da1a9d8",
+          "bytes": 71091
         },
         "classification_reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-44/classification-reproduction.json",
-          "sha256": "b275799564e82418afb90ed6557819fcd3ae42cf8d438f119edf97c25d7d0425",
+          "path": "archive/pdf/1995-03/restoration/batch-45/classification-reproduction.json",
+          "sha256": "af9ceac595c9d8a17ab7473a8787250060c5ef29ed12aa97fec8a82b712433d3",
           "bytes": 572
         },
-        "checkpoint": "batch-44"
+        "checkpoint": "batch-45"
       }
     },
     {
@@ -5093,12 +5095,51 @@
         "sha256": "b275799564e82418afb90ed6557819fcd3ae42cf8d438f119edf97c25d7d0425",
         "bytes": 572
       }
+    },
+    {
+      "name": "1995-03-batch-45",
+      "status": "complete",
+      "completed_at": "2026-11-05T07:11:35.485125+00:00",
+      "goal": "Restore0041 remaining432–434,validate native b,then assemble complete426–434 / printed418–426 article.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0041"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        432,
+        433,
+        434
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 28,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "pre_ocr_refinement_events": 2,
+      "valid_pre_ocr_maps": 2,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-45/validation.json",
+        "sha256": "060526b3ba780b860c9e5f2c25a6bcf8de73ffd27a1c88826b1d6c9b494530ac",
+        "bytes": 2549
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-45/assembly-reproduction.json",
+        "sha256": "7f0340cf651d74e455acfaf013b7ca6fa683935768eb8ef7d176078d1da1a9d8",
+        "bytes": 71091
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-45/classification-reproduction.json",
+        "sha256": "af9ceac595c9d8a17ab7473a8787250060c5ef29ed12aa97fec8a82b712433d3",
+        "bytes": 572
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 22,
-    "partial": 1,
+    "readable": 23,
+    "partial": 0,
     "group_headings": 9,
     "section_references": 8,
     "unresolved": 50
@@ -5108,7 +5149,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore Win320041 finalPDF432–434 / printed424–426 as immutable native b,then assemble full426–434. Main431→432 continues 오기→도 한다. withLF;no external code join. Preserve ending prose/editor/emblem,disk-file table andnumbered listing including potential035→037 numbering gap;verify against scans rather than infer missing code. Exclude434lower book ad and435–439 independent ads. Resolve frozen partial states externally. Then classify tool-review0042/verify Delphi0043 from440/432 in a later bounded checkpoint. FLC0019 awaits bounded lookup/issue accounting. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. Complete allMarch outcomes,545-page accounting,cover andseparate closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Verify tool-review group0042 and Delphi article0043 from observed PDF440 / printed432. Establish complete article extent and restore in bounded native segments. Preserve canonical hierarchy and independent source contexts. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover and separate issue closeout before July;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -5289,6 +5330,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-44-r01/source-creation-dispositions.json",
       "sha256": "91155ddcc2317dfba98b580586a4e8d0664090d29ad797d6b44884e521f0d9f8",
       "bytes": 13033
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-45-r01/source-creation-dispositions.json",
+      "sha256": "5cd3704b5b96113958a49750b16a0071320274816e87023819b5490d4202b745",
+      "bytes": 27184
     }
   ]
 }

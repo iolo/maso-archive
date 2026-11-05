@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March Win32 article completed
+
+- Batch 45 completes article 0041 across PDF 426–434. Ten code contexts, the
+  memory tip, outline, parameter definitions and disk-file table retain their
+  source relationships. The listing's missing line 036 remains unreconstructed.
+- All 386 parent files reproduce independently and in a fresh process. Validation
+  covers 92 exact crops and 6,826 current text ranges; all 67 invalid cases reject.
+  All 37,409 prior March files remain unchanged. Forty status pointers resolve.
+- Totals: twenty-three readable, zero partial, nine groups, eight references and
+  50 unresolved. Next verify tool-review group 0042 and Delphi article 0043 from
+  PDF 440 / printed 432. FLC0019, full-issue accounting, cover and closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Win32 opening native preserved
 
 - Batch 44 preserves article 0041 on PDF 426–431 of its verified 426–434 extent.
