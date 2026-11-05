@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — March protected-mode opening and register diagrams
+
+- Batch 35 restores article 0035 on PDF 364–369. The complete observed extent
+  is 364–373; remaining 370–373 and article assembly are pending.
+- All 330 native files reproduce independently and in a fresh process.
+  Validation covers 87 source crops, 1,517 text ranges, eight captioned diagrams
+  with 173 label rows, and 50 invalid range/context/status cases.
+- All 28,300 prior files remain exact. Sixteen historical status pointers resolve
+  externally. Source title variants, missing operands and diagram anomalies remain
+  literal; exact source bytes, technical claims and human acceptance are unverified.
+- Totals: eighteen readable, one partial, seven groups, eight references and
+  56 unresolved. Next restore 370–373 and assemble full 364–373, preserving the
+  closing prose and listing rows 001–317. No external prose/code join is needed.
+  FLC0019 and full-issue accounting remain open; the March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March macro-language article
 
 - Batch 34 restores final pages 358–363 and assembles article 0034 across 352–363.

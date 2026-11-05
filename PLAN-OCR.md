@@ -37,50 +37,50 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 34 completes macro-language article 0034 across PDF 352–363 / printed
-344–355, assembling both immutable natives. The final six pages include the
-remaining language principles, Table 2, turtle-command examples, closing prose,
-editor credit, closing mark and a thirteen-file diskette 2 table. The lower
-advertisement on 363 is excluded; 351 is advertising and 364 opens article 0035.
+Batch 35 preserves protected-mode article 0035 on PDF 364–369 / printed
+356–361 as immutable native a. Source review establishes the complete extent
+364–373 / 356–365. Prose, editor credit and reference box end on 370; the
+`PROTECT.ASM` listing continues through 373, ending at numbered row 317.
+Pages 374–379 are independent advertising. Remaining pages 370–373 and complete
+article assembly are pending.
 
-All 885 assembly files, including 876 nested native files, reproduce independently
-and in a fresh process. The new final native has 498 exact files. Validation covers
-216 pixel-exact crops, 214 OCR outcomes, 3,782 projected metadata ranges, 7,592
-current typed ranges and 866 exact ZIP members. All 197 original text blocks remain
-exact intervals in 196 current blocks. The 355→358 prose join inserts one LF around
-Table 1, preserving all fifty intervening table blocks and their source ownership.
-Native b also preserves the 358→360 prose continuation around Table 2 and the
-362→363 constructor-code continuation. The listing download equals the exact
-concatenation of both native downloads.
+All 330 native files reproduce independently and in a fresh process. Validation
+covers 87 pixel-exact crops, 78 OCR outcomes, 1,517 typed text ranges, 61 blocks,
+505 reading rows, nine original images and 322 exact ZIP members. Eight numbered
+diagrams retain their printed captions and 173 searchable label rows. All eight
+prose references resolve, including two physically wrapped references. Blank bit
+and descriptor fields remain unfilled; a gray swatch has an explicit graphic
+placeholder. Diagram wiring and the RPL divider remain image-authoritative.
+Printed labels, values and apparent technical errors remain literal.
 
-The article retains 1,044 reading rows and all six language principles. Its 28
-unnumbered code examples preserve 216 nonempty physical rows, nine blank rows
-and six printed addition arrows. Three tables preserve 108 rows, 358 cells
-including fifteen empty cells, thirteen header cells and 430 cell reading rows.
-Table 2 retains its three sections; six table references resolve to the assembled
-tables. Original delimiters, helper prefixes, stack effects, table mistakes and
-filename discrepancies remain literal, with 39 localized candidates. The diskette
-descriptions saying `TURTLE.CPP` remain separate from the `HTURTLE.CPP` filename.
+The canonical title stays separate from the printed subtitle/headline and author
+affiliation. The four-part outline identifies the first installment. An independent
+boxed usage essay, three usage bullets, three preparation steps and ten register
+explanations retain their roles. Seventeen internal boundaries preserve physical
+rows and two explicit paragraph breaks. One unnumbered assembly example retains
+eight rows with missing operands; none are synthesized. Sixteen localized source
+candidates and four diagram exceptions remain explicit. Page 369 closes its own
+subsection; no prose or code join crosses into the next native.
+
+All 78 initial drafts were read before one source correction pass; zero retries
+or within/post-pass text repairs. Three valid maps and 38 pre-OCR refinements
+remain. All 50 invalid range/context/status cases reject. All 28,300 prior March
+files and thirty core modules remain exact; the unchanged 214-test baseline is
+reused. Sixteen frozen status pointers resolve externally without changing original
+evidence. Twenty-seven final-classification evidence records remain required.
 Exact glyphs, spacing, encoded bytes, claims, full proofreading and human acceptance
 remain unverified; no automatic CD association is created.
 
-All 122 final-segment drafts were read before one source correction pass; zero
-retries or regional text repairs. Three valid maps and thirteen pre-OCR crop
-refinements remain. All 76 invalid range/context/status cases reject. All 25,577
-prior March files and thirty core modules remain exact; the unchanged 214-test
-baseline is reused. Thirty-five frozen status pointers resolve externally without
-changing original evidence. Twenty-six final-classification evidence records remain
-required.
-
-Complete article: `archive/pdf/1995-03/packages/article-macro-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-34-r01/macro-b/`.
-Current status: `archive/pdf/1995-03/classifications/batch-34-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-34/`.
-Totals: eighteen readable, zero partial, seven non-owning headings, eight references
-and 57 unresolved. DOS group 0032 remains non-owning: 0033/0034 are readable and
-0035 unresolved. Next verify protected-mode article 0035 from PDF 364 / printed 356,
-establish its actual extent and restore at most six mapped pages. Keep its canonical
-title separate from the printed subtitle/headline, author and four-part outline.
+Partial native: `archive/pdf/1995-03/packages/batch-35-r01/protected-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-35-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-35/`.
+Totals: eighteen readable, one partial, seven non-owning headings, eight references
+and 56 unresolved. DOS group 0032 remains non-owning: 0033/0034 are readable and
+0035 partial. Next restore 370–373 as native b, then assemble full 364–373 without
+an external prose/code join. Preserve closing prose, contact block, reference box,
+editor/ending mark and listing rows 001–317, including comments and blank numbered
+rows. Resolve frozen partial states externally. Then review pageless groups
+0036/0037 and article 0038 from PDF 400 / printed 392 in a later bounded checkpoint.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
