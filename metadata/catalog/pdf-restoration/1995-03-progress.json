@@ -4286,12 +4286,74 @@
       "toc_entry_id": "maso-1995-03-toc-0054",
       "title": "하드웨어 : 탈출! 컴퓨터 증후군",
       "parent_id": "maso-1995-03-toc-0048",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch66 completes hardware0054 across PDF394–398 / individually observed printed386–390. Author 정용주, affiliation 가야시스템, editor 임진선, original MS ending mark and all six section headings retain their contexts. Prior393 and next399 are independent advertisements; lower398 book advertisement is excluded.",
+        "All229 package files reproduce independently and in a fresh process. All56 crops,55 original OCR outcomes,44 blocks,343 serialized physical rows,344 regional row fragments,1546 typed ranges and222 ZIP members validate. The opening dropcap is folded once; eleven boundaries across ten groups preserve physical wraps.",
+        "Thirty-three body paragraphs and historical claim contexts,35 numerical occurrences,97 technical token occurrences andtwo differently wrapped display resolutions retain source text. Four source discrepancy records andseven localized candidate contexts remain explicit. Printed 아다시피, Micorwave and grammatical defects are retained; medical, radiation and display claims are unverified.",
+        "Fifty-five initial recognitions,zero retries,one source correction pass andzero within/post-pass changes. Two pre-OCR maps preserve eight margin repairs. Twenty-eight native andsixteen ownership/status faults reject. Twelve frozen group status pointers resolve externally; group0048 and subgroup0049 remain non-owning with all five owning descendants readable.",
+        "All59313 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Canonical hierarchy,page-order-decrease flag,title and byline remain unchanged. Exact glyphs,encoded bytes,full proofreading andhuman acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-66-r01/hardware",
+        "article_id": "scan-maso-1995-03-toc-0054",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-66-r01/hardware/manifest.json",
+          "sha256": "dbffba8db92c5c6db61a53dc449e77fe450e68756488ae0641a98f1ee1b75810",
+          "bytes": 38370
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-66/hardware-r02/package-recipe.json",
+          "sha256": "2ecf8fa33e9e541363a54cad9b38bf13a40653fb65a3d1ef5e074b7636bd35b9",
+          "bytes": 7233
+        },
+        "coverage": {
+          "pdf_pages": [
+            394,
+            395,
+            396,
+            397,
+            398
+          ],
+          "printed_pages": [
+            "386",
+            "387",
+            "388",
+            "389",
+            "390"
+          ],
+          "regions": 56,
+          "blocks": 44,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 394,
+        "observed_ending_pdf_page": 398,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-66/final-validation.json",
+          "sha256": "a490558d7916e04fe4f5f16277548c90c315d2310e2b81d91167f76c8397ce2d",
+          "bytes": 2100
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-66/reproduction.json",
+          "sha256": "e40d430ec165a51b1c3d01551e99da5cbcb568cec249e28a054861d884fea86a",
+          "bytes": 44251
+        },
+        "checkpoint": "batch-66",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-66-r01/source-creation-dispositions.json",
+          "sha256": "693a0d52fb7947b5bef24eaa3a76fba5e67cf5baa145aa6e116d65dc27d046b4",
+          "bytes": 12492
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0055",
@@ -7132,22 +7194,63 @@
         "sha256": "31a4eb341f3027b290e0ee1a4f4207b666da9d2f4cd48d5bafd1f606410fa48a",
         "bytes": 101513
       }
+    },
+    {
+      "name": "1995-03-batch-66",
+      "status": "complete",
+      "completed_at": "2026-11-05T14:16:12.821350+00:00",
+      "goal": "Restore complete hardware0054 on394–398 and resolve forum0048 completion externally.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0054"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        394,
+        395,
+        396,
+        397,
+        398
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        393,
+        399
+      ],
+      "recognition_invocations": 55,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 2,
+      "crop_layout_versions": 2,
+      "pre_ocr_refinement_events": 8,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-66/final-validation.json",
+        "sha256": "a490558d7916e04fe4f5f16277548c90c315d2310e2b81d91167f76c8397ce2d",
+        "bytes": 2100
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-66/reproduction.json",
+        "sha256": "e40d430ec165a51b1c3d01551e99da5cbcb568cec249e28a054861d884fea86a",
+        "bytes": 44251
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 31,
+    "readable": 32,
     "partial": 0,
     "group_headings": 13,
     "section_references": 8,
-    "unresolved": 38
+    "unresolved": 37
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Locate full hardware0054 extent from PDF394 / canonical printed386, then restore at most six mapped pages. Review actual opening, ending and adjacent pages; verify printed folios individually. Preserve source title, author, independent sidebars, diagrams, captions and literal historical claims. Resolve affected frozen group0048 status externally after body completion. Keep FLC0019 unresolved pending bounded lookup/accounting. Complete all March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Review information-radar0055 and domestic-network0056 ownership against contents and the source beginning at canonical printed152, candidate PDF160. Establish actual boundaries, individually observe folios and preserve news-item hierarchy before mapping at most six pages. Keep FLC0019 unresolved pending bounded lookup/accounting. Complete all March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -7418,6 +7521,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-65-r01/source-creation-dispositions.json",
       "sha256": "da5c01542cd8bb1a8a5cf476e6260bd2829318636a1cc8737cba490ae6791237",
       "bytes": 17730
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-66-r01/source-creation-dispositions.json",
+      "sha256": "693a0d52fb7947b5bef24eaa3a76fba5e67cf5baa145aa6e116d65dc27d046b4",
+      "bytes": 12492
     }
   ]
 }

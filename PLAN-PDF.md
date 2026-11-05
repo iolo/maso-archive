@@ -267,45 +267,43 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 65 completes LaTeX 0053 across PDF 518–524 / individually observed printed
-510–516, using immutable opening and final-page natives. Final 524 retains the
-multicolumn and column-separator input/output examples, table-environment syntax,
-closing prose, MS emblem and editor credit. The prior “makebox” next-step wording
-was mistaken; direct source review establishes the examples above.
+Batch 66 completes hardware 0054, `하드웨어 : 탈출! 컴퓨터 증후군`, across
+PDF 394–398 / individually observed printed 386–390. Author 정용주, affiliation
+가야시스템, editor 임진선, six section headings and the original MS ending mark
+retain their source contexts. Prior 393 and following 399 are advertisements;
+the independent book advertisement at the bottom of 398 is excluded.
 
-All 548 assembly files and 539 native files reproduce independently and in a fresh
-process. Validation covers 146 pixel-exact crops, 125 original OCR outcomes, 115
-source/current text blocks, 472 physical rows, 1,938 projected metadata occurrences,
-3,898 current ranges, 19,869 scalar values and 529 ZIP members. Twelve worked
-examples, three reference tables with 75 logical cells and two physical blank cells,
-two independent sidebars, seven historical addresses and 21 original images retain
-their contexts. Twenty-two code blocks produce 2,417 literal listing bytes.
-Ten internal joins preserve physical LF. No cross-native join is needed: the
-introduction ends on 523 and a new example starts on 524. Three omission-dot rows
-remain literal.
+All 229 package files reproduce independently and in a fresh process. Validation
+covers 56 pixel-exact crops, 55 original OCR outcomes, 44 blocks, 343 serialized
+physical rows, 344 regional row fragments, 1,546 typed ranges and 222 ZIP members.
+The opening dropcap is folded once. Eleven boundaries across ten continuation
+groups retain physical wraps. Thirty-three body paragraphs and historical claim
+contexts, 35 numerical occurrences, 97 technical token occurrences and two
+differently wrapped display resolutions remain indexed.
 
-Final 524 used seventeen initial recognitions, one source correction pass, one
-reviewed map and zero retries or later source changes. Sixty-nine invalid cases
-reject. Twenty-five frozen status pointers resolve externally. Group0048 remains
-non-owning; hardware0054 remains unresolved. All 58,480 prior March files and thirty
-core modules remain exact; the unchanged 214-test baseline is reused. Fifteen source
-discrepancies and seventeen localized glyph contexts remain explicit. Square/curly
-delimiters, broken vertical bars, spelling and value mismatches remain unrepaired.
-Exact glyphs, encoded bytes, historical claims, execution, full proofreading and
-human acceptance remain unverified.
+Fifty-five initial recognitions used one source correction pass, zero retries and
+zero within-pass or post-pass changes. Two pre-OCR maps preserve eight margin
+repairs. Forty-four invalid cases reject. Twelve frozen status pointers resolve
+externally: group0048 and subgroup0049 remain non-owning, with all five owning
+descendants readable. All 59,313 earlier March files and thirty core modules remain
+exact; the unchanged 214-test baseline is reused. Four source discrepancy records
+and seven localized glyph contexts remain explicit. Printed wording and historical
+health, radiation and display claims are preserved without factual correction.
+Exact glyphs, encoded bytes, claim accuracy, full proofreading and human acceptance
+remain unverified.
 
-Complete LaTeX: `archive/pdf/1995-03/packages/article-latex-r01/`.
-Reproduction, private adapter and validation: `archive/pdf/1995-03/restoration/batch-65/`.
-Current group/native status: `archive/pdf/1995-03/classifications/batch-65-r01/`.
-Retain both original natives and all previous frozen classifications.
-Totals: thirty-one readable, zero partial, thirteen non-owning headings,
-eight references and 38 unresolved.
+Complete hardware: `archive/pdf/1995-03/packages/batch-66-r01/hardware/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-66/`.
+Current forum status: `archive/pdf/1995-03/classifications/batch-66-r01/`.
+Retain all earlier packages and frozen classifications.
+Totals: thirty-two readable, zero partial, thirteen non-owning headings,
+eight references and 37 unresolved.
 
-Next locate hardware0054's full extent from PDF 394 / canonical printed 386, then
-restore at most six mapped pages. Review actual opening, ending and adjacent pages;
-verify folios individually. Preserve the source title, author, independent sidebars,
-diagrams, captions and literal historical claims. FLC0019 awaits bounded lookup or
-issue accounting. See [March progress](docs/progress/9503.md).
+Next review information-radar0055 and domestic-network0056 ownership against the
+contents and source beginning at canonical printed152, candidate PDF160. Establish
+actual boundaries, observe folios individually and preserve the news-item hierarchy
+before mapping at most six pages. FLC0019 awaits bounded lookup or issue accounting.
+See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.

@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March hardware article and forum complete
+
+- Batch 66 completes hardware0054 across 394–398. All 229 package files reproduce
+  independently and in a fresh process; 56 crops, 55 OCR outcomes, 343 physical
+  rows and 1,546 typed ranges validate. The final-page advertisement is excluded.
+- Source wording, credits, six headings and historical claims remain preserved.
+  Forty-four invalid cases reject; twelve frozen status pointers resolve externally.
+  Forum0048 remains non-owning with all five owning descendants readable.
+- Totals: 32 readable, zero partial, 13 groups, eight references and 37 unresolved.
+  Next review information-radar0055 and domestic-network0056 from candidate PDF160.
+  FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  Full March goal active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March LaTeX article complete
 
 - Batch 65 completes LaTeX0053 across 518–524. All 548 assembly files and 539
