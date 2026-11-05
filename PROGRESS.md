@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March Netscape opening restored
+
+- Batch 57 establishes Netscape0050's full nine-page extent492–500 and preserves
+  opening492–493 as immutable native a. Remaining494–500 and assembly are pending;
+  the sample license email continues on494 independently of main prose.
+- All98 package files reproduce independently and in a fresh process. Twenty-three
+  crops,107 physical rows,446 typed ranges and four literal code contexts validate;
+  24 invalid cases reject. Printed address and spelling discrepancies remain.
+  All51,933 earlier files and thirty core modules remain unchanged.
+- Totals:27 readable,one partial,13 groups,eight references and41 unresolved.
+  Next restore494–499,then final500 and assembly. FLC0019,545-page accounting,
+  cover and separate closeout remain pending. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March OS/application and communications headings finalized
 
 - Batch 56 classifies 0048/0049 as non-owning headings from contents and five

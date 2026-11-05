@@ -267,37 +267,40 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 56 finalizes OS/application forum 0048 and communications 0049 as
-non-owning headings. Contents page 5 and five distinct article openings establish
-the hierarchy: communications contains Netscape 0050 and HTML 0051; NeXTSTEP,
-LaTeX and hardware are direct children of the broader forum. Canonical titles,
-parent links, ordering and null group page references remain unchanged.
+Batch 57 establishes Netscape 0050's nine-page extent, PDF 492–500 /
+individually observed printed 484–492, and restores opening 492–493 as immutable
+native a. All nine article pages and both boundaries were reviewed. Page 491 is
+an independent computer advertisement; 501 is a recruitment advertisement;
+HTML 0051 opens on 502 / 494. Remaining 494–500 and final assembly are pending.
 
-Nine full source pages were reviewed. The five openings are PDF 492 / printed 484,
-502 / 494, 510 / 502, 518 / 510 and 394 / 386, with individually observed folios.
-Hardware 0054 is physically earlier but remains last in its canonical category.
-The HTML opening prints `[마지막회]`; canonical metadata retains `[2]`.
-These observations establish context, not restored bodies or complete extents.
-Pages 490–491 before Netscape are independent advertisements.
+The 98 native files reproduce independently and in a fresh process. All 23 crops,
+22 OCR outcomes, 19 blocks, 107 physical rows, 446 typed ranges and 90 ZIP members
+validate. Four literal code contexts retain seven platform rows, ten terminal
+output rows, three command rows and three sample email headers. Two inline
+commands, three prose joins and one screenshot with its literal caption remain.
+The sample email continues on 494 with `Errors-To`, independently of prose.
 
-All eleven classification files reproduce independently and in a fresh process.
-Seven pixel-exact crops, seven canonical hierarchy nodes and five opening
-observations validate; 28 invalid ownership, hierarchy and source-context cases
-reject. All 51,886 earlier March files and thirty core modules remain unchanged;
-the unchanged 214-test baseline is reused. No new OCR or source correction.
-Exact glyphs, full proofreading and human acceptance remain unverified.
+Printed `makerketplace.com` versus `marketplace.com`, `Adaptor` versus `Adapter`,
+`SunOs` versus `SunOS`, `/usr/4lib` and `호스트에서.실행` remain unrepaired.
+Screenshot interface text remains image-dependent. One source correction pass,
+one map and zero retries or later text changes. Twenty-four invalid cases reject.
+All 51,933 earlier March files and thirty core modules remain unchanged; the
+unchanged 214-test baseline is reused. Exact glyphs, encoded bytes, execution,
+historical claims, full proofreading and human acceptance remain unverified.
 
-Group evidence: `archive/pdf/1995-03/classifications/batch-56-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-56/`.
-Totals: twenty-seven readable, zero partial, thirteen non-owning headings,
-eight references and 42 unresolved. Earlier article packages remain unchanged.
+Selected native: `archive/pdf/1995-03/packages/batch-57-r01/netscape-a/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-57/`.
+Totals: twenty-seven readable, one partial, thirteen non-owning headings,
+eight references and 41 unresolved. Frozen batch 56 labels describe its creation
+time; the current ledger records 0050 as a partial owning article. Resolve those
+group labels externally after body completion, preserving the original evidence.
 
-Next establish Netscape 0050's full extent beginning on 492 / 484, reviewing
-both boundaries toward HTML's independent opening on 502 / 494. Restore at most
-six pages as an immutable native if the article is longer; preserve screenshots,
-captions, commands, author and physical continuations. Resolve frozen group
-status externally after body completion. FLC0019 awaits bounded lookup or issue
-accounting. See [March progress](docs/progress/9503.md).
+Next restore Netscape 0050 on 494–499 as native b, reusing retained source renders
+and inspecting boundary 500. Preserve the incoming email continuation, literal
+configuration values, commands, menu records, captions and physical wraps.
+Final 500 and actual 492–500 assembly follow. Keep HTML's source `[마지막회]`
+versus canonical `[2]` and hardware's earlier physical position unchanged.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
