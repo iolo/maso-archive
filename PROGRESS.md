@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Complete March communications article
+
+- Batch 25 restores final page 316 and assembles article 0029 across PDF 310–316.
+  All 879 parent files reproduce independently and in a fresh process.
+- Validation covers 217 crops, 4,501 current ranges, six tables / 129 cells,
+  twelve code contexts / 143 code rows and 46 negative cases. All 17,701 prior
+  files remain exact. One cross-page prose join preserves 71 independent items.
+- One correction pass, zero OCR retries or later text changes. Printed defects
+  and the missing example 6 reference remain explicit; 24 earlier status
+  pointers are resolved externally without rewriting their source evidence.
+- Totals: fourteen readable, zero partials, six groups, eight references,
+  62 unresolved. Next verify curves0030 from PDF 318 and restore its first
+  bounded segment. FLC0019 and issue accounting remain open; March stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Restore March communications opening segment
 
 - Batch 24 preserves article 0029's first six pages, PDF 310–315. Its final

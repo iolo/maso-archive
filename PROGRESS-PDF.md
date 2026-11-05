@@ -11,7 +11,7 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have thirteen readable articles, one partial, six non-owning headings,
+identities now have fourteen readable articles, zero partials, six non-owning headings,
 eight section references and 62 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
@@ -19,42 +19,40 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 24 preserves communications article 0029 on PDF 310–315 / printed
-302–307 as immutable partial native a. The full source extent is 310–316;
-316 ends the prose with editor credit and a two-row diskette table above an
-independent book advertisement. Page 317 is an advertisement; 318 opens 0030.
-Final page 316 and actual complete-article assembly remain pending.
+Batch 25 completes communications article 0029 across PDF 310–316 / printed
+302–308. Final page 316 preserves the closing prose, editor credit, closing mark
+and two-row diskette table above an independent book advertisement. Its 69-file
+native is validated before separate assembly with the immutable opening native.
 
-All 801 native files match independent and fresh-process exports. Validation
-covers 201 pixel-exact crops, 197 OCR outcomes, 2,147 typed ranges, 182 blocks,
-511 reading rows and 793 ZIP members. Five reference tables retain 49 data rows,
-125 cells (including two printed blanks) and thirteen headers. The opening
-four-part outline, four-stage flowchart, category art and original blank-cell
-images remain distinct. Ten separately captioned examples (1–5 and 7–11), plus
-two inline code contexts, preserve 143 nonempty physical rows. The prose refers
-to example 6, but none was observed; no replacement code is synthesized.
+All 879 parent files match independent and fresh-process exports, including all
+870 nested native files. Validation covers 217 pixel-exact crops, 212 OCR
+outcomes, 2,245 projected metadata ranges, 4,501 current ranges and 861 ZIP members.
+All 195 original blocks remain exact text intervals in 194 current blocks.
+The sentence across 315–316 is joined with LF; 71 intervening independent
+code/table items retain their relative order. The article preserves 539 reading
+rows, twelve code contexts / 143 nonempty code rows, ten numbered examples,
+five images and six tables with 51 data rows / 129 cells, including two blanks.
+The prose reference to example 6 remains unresolved; no replacement is invented.
 
-Printed unusual baud constants, OpenCom(), Recevier, split comment slashes,
-bracket-shaped delimiters and vertical ellipses remain literal. Exact glyphs,
-spacing, dot-leader count, source code bytes and technical claims are unverified.
-All 197 initial drafts were read before one source correction pass; zero retries
-or later text repairs. Three pre-OCR maps and 204 crop refinements are retained.
-Seven range, 21 context and twelve status faults are rejected. All 14,993 earlier
-March files and thirty core modules remain exact; the unchanged 214-test baseline
-is reused. Full proofreading and human acceptance remain pending.
+The fifteen final-page drafts were read before one source correction pass;
+zero OCR retries or later text changes. Two maps and two pre-OCR refinements
+are retained. All 46 invalid range/context/status cases are rejected. All 17,701
+earlier March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. Printed defects, uncertain glyphs, spacing and dot counts
+remain explicit. Exact source bytes, technical claims, full proofreading and
+human acceptance are unverified.
 
-Ten frozen 0029 ownership/status pointers are resolved externally. All sixteen
-required final-status evidence files remain available. Group 0027 remains
-non-owning: 0028 is readable, 0029 partial, and 0030/0031 unresolved. The 0031
-opening-banner discrepancy remains unchanged.
-Native: `archive/pdf/1995-03/packages/batch-24-r01/comm-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-24-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-24/`.
-Totals: thirteen readable, one partial, six non-owning headings, eight references
-and 62 unresolved. Next restore 316, preserving the incoming sentence from
-315, the closing prose, editor credit and diskette table; exclude the lower
-advertisement. Then separately assemble 310–316 and resolve frozen partial
-statuses externally. Continue 0030 from observed PDF 318 after extent review.
+Twenty-four frozen partial/ownership pointers are resolved externally. All
+seventeen required final-status evidence files remain available. Group 0027 is
+non-owning: 0028/0029 are readable; 0030/0031 remain unresolved. The source-banner
+discrepancy for 0031 is retained.
+Complete article: `archive/pdf/1995-03/packages/article-communications-r01/`.
+Final native: `archive/pdf/1995-03/packages/batch-25-r01/comm-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-25-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-25/`.
+Totals: fourteen readable, zero partials, six non-owning headings, eight references
+and 62 unresolved. Next verify the extent of curves article 0030 from observed
+PDF 318 / printed 310, then restore at most six pages as its first native segment.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
