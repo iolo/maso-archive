@@ -19,41 +19,42 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 67 classifies Information Radar 0055 as a non-owning heading and preserves
-Domestic Network 0056's opening PDF 160–165 / individually observed printed
-152–157 as partial native a. Full domestic extent is 160–171/152–163: Trends
-ends on 165; New Products starts on 166, with no prose join. Contents5 and the
-separate domestic, overseas and library openings corroborate the hierarchy.
-Unpaginated159 is a section opener with local contents and artwork, not an
-advertisement; its complete original image remains in classification evidence.
+Batch 68 preserves Domestic Network 0056's final New Products subsection on
+PDF 166–171 / individually observed printed 158–163 as immutable native b.
+Together natives a/b preserve all twelve source pages 160–171. Actual whole-bundle
+assembly remains pending. Trends ends on165 and New Products starts on166 without
+a prose join; final171 closes with MS/contact before Overseas Network starts172.
 
-All 377 native files reproduce independently and in a fresh process. Validation
-covers 96 pixel-exact crops, 91 original OCR outcomes, 82 blocks, 515 physical
-rows, 2,339 typed ranges and 370 ZIP members. Twenty independent news items,
-four interview Q&A pairs, six literal captions, five original image regions and
-nine contacts retain their contexts. The five-photo collage remains one composite.
-Nine continuation groups retain physical LF. Fifty-six prose paragraph contexts,
-118 numerical occurrences and 120 technical token occurrences remain indexed.
+All 401 native files reproduce independently and in a fresh process. Validation
+covers 108 pixel-exact crops, 95 original OCR outcomes, 82 blocks, 475 physical
+rows, 2,381 typed ranges and 394 ZIP members. Twenty-two independent product
+announcements, twelve captioned original images, one ending emblem and 22 contacts
+retain their contexts. Thirteen continuations preserve two new paragraphs and
+eleven physical LF joins. Eleven explicit token-wrap contexts retain prices,
+resolutions and names. Sixty-three prose paragraph contexts, 192 numerical
+occurrences and 151 technical token occurrences remain indexed.
 
-All 91 initial drafts were read before one source correction pass. Zero retries;
-four pre-OCR maps, 124 existing-region adjustment events and one added final-row
-region. Two within-pass repairs and zero post-pass changes. Eight classification
-files reproduce exactly; 41 invalid native/ownership cases reject. All 60,107
-previous March files and thirty core modules remain exact; the unchanged 214-test
-baseline is reused. Three discrepancy records and eight localized candidate
-contexts retain printed wording and uncertainty. Exact glyphs, source bytes,
-historical claims, full proofreading and human acceptance remain unverified.
+All 95 initial drafts were read before one source correction pass; zero retries
+and zero within/post-pass changes. Three pre-OCR maps retain 35 margin adjustments.
+Twenty-six invalid range/context cases reject. All 61,653 prior March files and
+thirty core modules remain exact; the unchanged 214-test baseline is reused.
+Four discrepancy records and seven localized candidates preserve printed variants
+and uncertainty. Exact glyphs, source bytes, historical claims, full proofreading
+and human acceptance remain unverified.
 
-Partial domestic native: `archive/pdf/1995-03/packages/batch-67-r01/domestic-a/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-67/`.
-Group and ownership evidence: `archive/pdf/1995-03/classifications/batch-67-r01/`.
-Retain all earlier packages and frozen classifications.
-Totals: thirty-two readable, one partial, fourteen non-owning headings,
+Final domestic native: `archive/pdf/1995-03/packages/batch-68-r01/domestic-b/`.
+Opening native: `archive/pdf/1995-03/packages/batch-67-r01/domestic-a/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-68/`.
+Keep group/ownership evidence at `archive/pdf/1995-03/classifications/batch-67-r01/`.
+Information Radar0055 remains non-owning; opener159 is a section opener, not an ad.
+Totals remain thirty-two readable, one partial, fourteen non-owning headings,
 eight references and 35 unresolved.
 
-Next restore domestic0056 New Products on PDF166–171/printed158–163 as native b.
-Then actually assemble the full160–171 bundle and classify prospective children
-0057–0061 within bounded checkpoints; none is finalized by this partial package.
+Next actually assemble domestic0056 across160–171 from both immutable natives.
+Retain all42 independent news items, four Q&A pairs, 18 original image regions,
+18 captions, 31 contacts, 990 physical rows and all metadata. Then finalize
+prospective children0057–0061 within bounded checkpoints using assembled anchors.
+No child is finalized by this native. Resolve frozen pending-state notes externally.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.

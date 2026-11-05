@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-06 — March domestic product news final native
+
+- Batch 68 preserves domestic0056 New Products166–171 as immutable native b.
+  Both natives now preserve all160–171 source pages; actual assembly remains pending.
+- All401 files reproduce independently and in a fresh process;108 crops,95 OCR
+  outcomes,475 physical rows and2,381 typed ranges validate. Twenty-two product
+  announcements,12 captioned images andthe ending emblem retain source contexts.
+  Twenty-six invalid cases reject. One source pass;zero retries. Fidelity limits remain.
+- Totals unchanged:32 readable,one partial,14 groups,eight references and35 unresolved.
+  Next assemble domestic0056,then finalize its five prospective child references.
+  FLC0019,545-page accounting,cover andseparate closeout remain pending.
+  Full March goal active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-06 — March domestic news opening and Information Radar group
 
 - Batch 67 preserves domestic0056 Trends160–165 as partial native a and classifies

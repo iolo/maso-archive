@@ -4383,20 +4383,25 @@
         "Opening160–165 preserved as partial native a:377 independent/fresh-process exact files,96 pixel-exact crops,91 original OCR outcomes,82 blocks,515 physical rows,2339 typed ranges and370 ZIP members. Twenty independent news items, four Q&A pairs, six captions, five original image regions and nine contacts retain contexts. The five-photo collage remains one composite.",
         "Nine physical continuation groups retain LF. Fifty-six prose paragraph contexts,118 numeric occurrences and120 technical token occurrences remain indexed. Three discrepancy records andeight localized candidate contexts preserve printed wording and uncertain glyphs. Historical claims unverified.",
         "All91 initial drafts read before one source correction pass; zero retries. Four pre-OCR maps preserve124 existing-region adjustments andone added short-row region. Two within-pass repairs,zero post-pass changes. Forty-one invalid native/ownership cases reject.",
-        "All60107 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Six remaining166–171 pages and actual whole-bundle assembly pending. Children0057–0061 are only prospective references; final classification deferred. Exact glyphs,source bytes,full proofreading andhuman acceptance unverified."
+        "All60107 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Six remaining166–171 pages and actual whole-bundle assembly pending. Children0057–0061 are only prospective references; final classification deferred. Exact glyphs,source bytes,full proofreading andhuman acceptance unverified.",
+        "Batch68 preserves final New Products166–171 / individually observed printed158–163 as immutable native b. Together a/b preserve all twelve source pages160–171; actual whole-bundle assembly remains pending. Boundary165→166 is a subsection transition without prose join; final171 closes with MS/contact, before overseas172.",
+        "All401 native files reproduce independently and in a fresh process:108 pixel-exact crops,95 original OCR outcomes,82 blocks,475 physical rows,2381 typed ranges and394 ZIP members. Twenty-two independent product news items,12 captioned original images,one closing emblem and22 contacts retain source contexts.",
+        "Thirteen internal continuation groups preserve two new paragraphs andeleven physical LF joins. Eleven explicit token-wrap contexts retain prices,resolutions,model andcompany names. Sixty-three prose paragraph contexts,192 numeric and151 technical occurrences remain indexed. Four discrepancy records andseven localized candidate contexts retain literal printed variants,wording anduncertainty.",
+        "All95 initial drafts read before one source correction pass;zero retries andzero within/post-pass repairs. Three pre-OCR maps preserve35 margin-adjustment events. Twenty-six invalid range/context cases reject. All61653 earlier March files andthirty core modules unchanged;214-test baseline reused.",
+        "No source pages remain unread for domestic0056; availability stays partial until actual assembly. Children0057–0061 remain prospective non-owning references pending assembled anchors. Group0055 andall earlier classification evidence unchanged. Exact glyphs,source bytes,historical claims,full proofreading andhuman acceptance unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+        "directory": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b",
         "article_id": "scan-maso-1995-03-toc-0056",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a/manifest.json",
-          "sha256": "144e98070c47cb4c4afe7d4e426927ff9b42ceaf3f6afab610937a9b39f36aa0",
-          "bytes": 63060
+          "path": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b/manifest.json",
+          "sha256": "0b1639772374c18fc6558b57f2e58ee70825c127dad39a2b68eb4b1a56000bc1",
+          "bytes": 67158
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-67/domestic-a-r04/package-recipe.json",
-          "sha256": "b465c5430243897ff998958c75196ba4ffe7a856b3d0692747605bb2856aab23",
-          "bytes": 12108
+          "path": "archive/pdf/1995-03/restoration/batch-68/domestic-b-r03/package-recipe.json",
+          "sha256": "78e0f5b53e55eaaf36274f01419497092a4fc8937a17fa3bb518c80d0b3feebe",
+          "bytes": 14505
         },
         "coverage": {
           "pdf_pages": [
@@ -4405,7 +4410,13 @@
             162,
             163,
             164,
-            165
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171
           ],
           "printed_pages": [
             "152",
@@ -4413,11 +4424,28 @@
             "154",
             "155",
             "156",
-            "157"
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163"
           ],
-          "regions": 96,
-          "blocks": 82,
-          "figures": 5,
+          "regions": 204,
+          "blocks": 164,
+          "figures": 18,
+          "current_native_pdf_pages": [
+            166,
+            167,
+            168,
+            169,
+            170,
+            171
+          ],
+          "current_native_regions": 108,
+          "current_native_blocks": 82,
+          "current_native_figures": 13,
           "full_pdf_pages": [
             160,
             161,
@@ -4432,33 +4460,113 @@
             170,
             171
           ],
-          "deferred_pdf_pages": [
-            166,
-            167,
-            168,
-            169,
-            170,
-            171
-          ],
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
         "body_pages_complete": false,
+        "all_source_pages_preserved_across_natives": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "interior_continuity_fully_reviewed": true,
         "actual_start_pdf_page": 160,
         "observed_ending_pdf_page": 171,
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-67/final-validation.json",
-          "sha256": "7cce05ee7fa5db128b74b039bb0cb2c563e6671160ab98f2daa1d363661501e9",
-          "bytes": 2400
+          "path": "archive/pdf/1995-03/restoration/batch-68/validation.json",
+          "sha256": "1a04b4596b007299abe6bba2416fc139719d2b68a82f60247afeb1110f2c4436",
+          "bytes": 1800
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-67/reproduction.json",
-          "sha256": "916f6f8c9b4af8497ebfc6ce59b0db893e173cf01ef9b54761b49d60e2cd71e9",
-          "bytes": 71939
+          "path": "archive/pdf/1995-03/restoration/batch-68/reproduction.json",
+          "sha256": "4369b31a2629ed2ab8157692528aa1620dd5d836b103eb19c9ac205a24a28bff",
+          "bytes": 76517
         },
-        "checkpoint": "batch-67",
+        "checkpoint": "batch-68",
+        "directory_is_current_native_not_assembled_article": true,
+        "prior_native": {
+          "directory": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+          "article_id": "scan-maso-1995-03-toc-0056",
+          "manifest": {
+            "path": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a/manifest.json",
+            "sha256": "144e98070c47cb4c4afe7d4e426927ff9b42ceaf3f6afab610937a9b39f36aa0",
+            "bytes": 63060
+          },
+          "recipe": {
+            "path": "archive/pdf/1995-03/restoration/batch-67/domestic-a-r04/package-recipe.json",
+            "sha256": "b465c5430243897ff998958c75196ba4ffe7a856b3d0692747605bb2856aab23",
+            "bytes": 12108
+          },
+          "coverage": {
+            "pdf_pages": [
+              160,
+              161,
+              162,
+              163,
+              164,
+              165
+            ],
+            "printed_pages": [
+              "152",
+              "153",
+              "154",
+              "155",
+              "156",
+              "157"
+            ],
+            "regions": 96,
+            "blocks": 82,
+            "figures": 5,
+            "full_pdf_pages": [
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171
+            ],
+            "deferred_pdf_pages": [
+              166,
+              167,
+              168,
+              169,
+              170,
+              171
+            ],
+            "full_extent_unverified": false
+          },
+          "body_pages_complete": false,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "interior_continuity_fully_reviewed": true,
+          "actual_start_pdf_page": 160,
+          "observed_ending_pdf_page": 171,
+          "validation": {
+            "path": "archive/pdf/1995-03/restoration/batch-67/final-validation.json",
+            "sha256": "7cce05ee7fa5db128b74b039bb0cb2c563e6671160ab98f2daa1d363661501e9",
+            "bytes": 2400
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-03/restoration/batch-67/reproduction.json",
+            "sha256": "916f6f8c9b4af8497ebfc6ce59b0db893e173cf01ef9b54761b49d60e2cd71e9",
+            "bytes": 71939
+          },
+          "checkpoint": "batch-67",
+          "ownership_evidence": {
+            "path": "archive/pdf/1995-03/classifications/batch-67-r01/domestic-ownership.json",
+            "sha256": "a594768da9a216bd77420f9953ed12148b1560d07d690c6bfdbaee019a3074ea",
+            "bytes": 3168
+          }
+        },
+        "native_directories": [
+          "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+          "archive/pdf/1995-03/packages/batch-68-r01/domestic-b"
+        ],
+        "coverage_totals_are_disjoint_unassembled_natives": true,
         "ownership_evidence": {
           "path": "archive/pdf/1995-03/classifications/batch-67-r01/domestic-ownership.json",
           "sha256": "a594768da9a216bd77420f9953ed12148b1560d07d690c6bfdbaee019a3074ea",
@@ -7377,6 +7485,47 @@
         "sha256": "916f6f8c9b4af8497ebfc6ce59b0db893e173cf01ef9b54761b49d60e2cd71e9",
         "bytes": 71939
       }
+    },
+    {
+      "name": "1995-03-batch-68",
+      "status": "complete",
+      "completed_at": "2026-11-05T23:35:04.543353+00:00",
+      "goal": "Preserve domestic0056 final New Products166–171 as immutable native b; actual assembly remains pending.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0056"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        165,
+        172
+      ],
+      "recognition_invocations": 95,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 3,
+      "pre_ocr_existing_region_refinement_events": 35,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-68/validation.json",
+        "sha256": "1a04b4596b007299abe6bba2416fc139719d2b68a82f60247afeb1110f2c4436",
+        "bytes": 1800
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-68/reproduction.json",
+        "sha256": "4369b31a2629ed2ab8157692528aa1620dd5d836b103eb19c9ac205a24a28bff",
+        "bytes": 76517
+      }
     }
   ],
   "totals": {
@@ -7392,7 +7541,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore domestic0056 New Products on PDF166–171 / individually observed printed158–163 as native b, preserving all news items. Boundary165→166 starts a new subsection with no prose join. Then actually assemble the full160–171 bundle and classify prospective children0057–0061 within bounded checkpoints. Keep group0055 non-owning and FLC0019 unresolved pending bounded lookup/accounting. Complete all March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Actually assemble domestic0056 across all160–171 from immutable natives a/b; preserve all42 independent news items,four Q&A pairs,18 original image regions,18 captions,31 contacts,990 physical rows andall metadata. No prose join across165→166. Then finalize prospective children0057–0061 in bounded checkpoints using assembled anchors; first0057 opens160,0058 opens162,0059 opens166,and0060/0061 open169. Resolve frozen parent/group pending-state statements with external dispositions. Keep group0055 non-owning andFLC0019 unresolved pending bounded lookup/accounting. Complete allMarch outcomes,545-page accounting,cover andseparate closeout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
