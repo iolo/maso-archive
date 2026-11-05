@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — March Visual FoxPro complete
+
+- Batch 39 completes article 0038 on PDF 400–407 from two preserved segments.
+  All 317 assembly files reproduce independently and in a fresh process.
+- Validation covers 81 source crops, 2,131 current text ranges, eight captioned
+  screenshots, the grouped table, biography, two boxes and three code contexts.
+  All 62 invalid cases reject; all 31,424 prior files remain exact.
+- Twenty-five frozen status pointers resolve externally. Source errors and code
+  discrepancies remain literal; exact bytes, execution and human acceptance
+  remain unverified.
+- Totals: twenty readable, zero partial, nine groups, eight references and
+  53 unresolved. Next verify DOC/VIEW0039 from PDF 408. FLC0019, 545-page accounting,
+  cover and separate issue closeout remain open. No reader rebuild or deployment.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Visual FoxPro opening and project-file table
 
 - Batch 38 restores article 0038 on PDF 400–405. The complete observed extent
