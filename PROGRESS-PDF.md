@@ -11,59 +11,58 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have sixteen readable articles, zero partials, six non-owning headings,
-eight section references and 60 unresolved outcomes; July
+identities now have sixteen readable articles, one partial, seven non-owning headings,
+eight section references and 58 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 29 completes GUI coordinator article 0031 across PDF 326–333 / printed
-318–325. The immutable opening native remains intact; final native b adds three
-separate numbered listings on 332–333: object.hrc, BMBWFRM.HPP and bmbwfrm.cpp.
-Prose, contact handle, editor credit and closing mark end on 331. Pages 334–337
-are advertising; 338 opens game-engine article 0033. The source banner 연재강좌
-and canonical Windows hierarchy remain separate evidence, without reparenting.
+Batch 30 classifies DOS programming 0032 as a non-owning heading and restores
+article 0033, 게임 제작의 모든 것 : 게임의 심장, 엔진을 만들자(2), by 최상호,
+across PDF 338–343 / printed 330–335. The full observed article spans 338–350.
+Prose ends on 349 with editor credit and a diskette table; listing 2 ends on 350.
+Pages 337 and 351 are independent advertisements; 352 opens article 0034.
+The DOS heading has three separate child articles, 0033–0035. The latter two
+remain unresolved; their openings were sampled only to establish group structure.
 
-All 349 parent files match independent and fresh-process exports, including
-340 exact nested native files. Validation covers 88 pixel-exact crops, 78 OCR
-outcomes, 1,985 projected metadata occurrences, 3,983 current text ranges,
-63 unchanged source blocks, 516 reading rows and 330 ZIP members. Thirteen code
-contexts preserve 16 opening physical rows / 15 logical items plus 165 final
-numbered rows: 74 / 80 / 11 across the three listings. Numbered blank rows remain.
-There is no cross-native prose or code join. The HPP 021→022 page boundary is
-one of four joins inside native b. The listing download is the exact
-concatenation of both native downloads.
+All 200 native files and seven group/status files match independent and
+fresh-process exports. Validation covers 50 pixel-exact native crops, four group
+crops, 47 OCR outcomes, 1,287 typed text ranges, 31 blocks, 441 reading rows,
+three original images and 192 exact ZIP members. Listing 1 preserves all 90
+numbered assembly rows, including blank row 90. The seven-part series outline
+highlights installment 3. Sixteen internal boundaries retain physical wraps.
 
-Four screenshots, four diagrams, opening category art and closing mark retain
-original images. Three definitions, the five-part outline, direct and rejected
-alternative class hierarchies, and source-linked glyph candidates remain.
-Printed rightBottomWidht, bracket-shaped delimiters, physical macro wraps and
-missing semicolons are preserved. No macro backslashes or technical repairs
-are invented. Exact glyphs, spacing, encoded bytes, technical claims, full
-proofreading and human acceptance remain unverified.
+The two diagrams retain their printed captions despite an apparent image/caption
+exchange. Caption/prose references and visible diagram labels document this
+without swapping images. PutSprite / _PutBlSprite names, @@nonomalize labels,
+printed 짤리는 and 나뉘 wording, the split 320 expression and technical claims
+remain literal. Exact glyphs, spacing, punctuation, encoded code bytes, claims,
+full proofreading and human acceptance remain unverified.
 
-All ten final-segment drafts were read before one source correction pass;
-zero retries or later text changes. Two maps and six pre-OCR crop refinements
-remain retained. All 55 invalid range/context/status cases reject. All 21,369
-prior March files and thirty core modules remain exact; the unchanged 214-test
-baseline is reused. Twenty-eight frozen partial/status pointers resolve
-externally, with all twenty-one required final-status evidence files retained.
-Non-owning group 0027 now has all four children 0028–0031 readable.
+All 47 initial drafts were read before one source correction pass; zero retries
+or later regional text changes. Three valid maps and 23 pre-OCR refinements
+remain retained. Two separately recorded pre-export paragraph separator decisions
+preserve indentation at column boundaries; regional text and OCR are unchanged.
+All 40 invalid range/context/status cases reject. All 21,941 prior March files
+and thirty core modules remain exact; the unchanged 214-test baseline is reused.
+Six frozen classification pointers resolve externally. All twenty-two required
+final-status evidence files remain pinned, including the previous Windows chain.
 
-Complete article: `archive/pdf/1995-03/packages/article-gui-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-29-r01/gui-b/`.
-Current status: `archive/pdf/1995-03/classifications/batch-29-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-29/`.
-Totals: sixteen readable, zero partials, six non-owning headings, eight references
-and 60 unresolved. Next verify DOS group 0032 and game-engine article 0033 from
-observed PDF 338, establish its source extent, and restore at most six pages.
-Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
-The full March goal remains active through all remaining outcomes, 545-page
-accounting, cover and separate issue closeout before July.
-No reader rebuild or deployment.
+Partial native: `archive/pdf/1995-03/packages/batch-30-r01/game-a/`.
+DOS group/current status: `archive/pdf/1995-03/classifications/batch-30-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-30/`.
+Totals: sixteen readable, one partial, seven non-owning headings, eight references
+and 58 unresolved. Next restore 344–349, then 350 and full 338–350 assembly.
+Preserve the 343→344 prose continuation destruct 함수 / 를 서로 다르게 with LF.
+Later listing 2 spans 349–350; retain the printed listing order, EMS/XMS tables,
+editor credit and diskette table. The assembly adapter must explicitly project
+listing-reference target_block_id. Keep two canonical tasks / six mapped pages /
+twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or issue
+accounting. See [March progress](docs/progress/9503.md). The full March goal remains
+active through all remaining outcomes, 545-page accounting, cover and separate
+issue closeout before July. No reader rebuild or deployment.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
 and user column 0008 on 154–155/146–147: 219 independent/fresh-process exact files,

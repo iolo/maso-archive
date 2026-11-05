@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — March DOS heading and partial game-engine article
+
+- Batch 30 classifies non-owning DOS heading 0032 and restores article 0033
+  across PDF 338–343. Remaining pages 344–350 and full assembly are pending.
+- All 200 native and seven group/status files reproduce independently and in
+  a fresh process. Validation covers 50 native crops, four group crops,
+  1,287 text ranges, all 90 numbered listing rows and 40 negative cases.
+  All 21,941 prior files remain exact; six frozen pointers resolve externally.
+- One source pass, zero retries or regional text changes; two recorded paragraph
+  separator decisions. Printed caption/image mismatch and code spelling remain.
+- Totals: sixteen readable, one partial, seven groups, eight references and
+  58 unresolved. Next restore 344–349, then 350 and full assembly.
+  FLC0019 and issue accounting remain open; the full March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March GUI coordinator article
 
 - Batch 29 assembles article 0031 across PDF 326–333, adding three final
