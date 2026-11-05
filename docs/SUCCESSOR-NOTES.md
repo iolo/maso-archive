@@ -19,45 +19,43 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 23 completes Visual C++ article 0028 on PDF 298–308 / printed 290–300.
-Its final native b preserves 304–308; the actual eleven-page parent now combines
-both immutable natives. Prose ends on 306 with the editor credit, and the listing
-ends at numbered row 141 on 308. Independent recruitment below the listing and
-advertisement 309 remain excluded. The 303→304 section break needs no text join.
+Batch 24 preserves communications article 0029 on PDF 310–315 / printed
+302–307 as immutable partial native a. The full source extent is 310–316;
+316 ends the prose with editor credit and a two-row diskette table above an
+independent book advertisement. Page 317 is an advertisement; 318 opens 0030.
+Final page 316 and actual complete-article assembly remain pending.
 
-All 485 parent files match independent and fresh-process exports; the independent
-assembly consumes 476 byte-identical regenerated native files. The selected
-222-file final native also reproduces exactly. Its retained first export differs
-only in metadata separating an assistant icon description from printed labels.
-Validation covers 122 pixel-exact crops after declared exclusions, 112 OCR
-outcomes, 90 blocks, ten original images, 719 reading rows, fourteen code contexts
-with 283 rows, and 466 raw ZIP members. All 3,072 native typed occurrences and
-custom metadata survive projection; 6,158 current-root ranges are checked.
-The final native preserves 141 numbered rows, eight table rows, five literal
-captions and the editor credit. Printed errors and ambiguous delimiters remain;
-six slash-rule lengths and I/l/1 readings are explicit candidates.
+All 801 native files match independent and fresh-process exports. Validation
+covers 201 pixel-exact crops, 197 OCR outcomes, 2,147 typed ranges, 182 blocks,
+511 reading rows and 793 ZIP members. Five reference tables retain 49 data rows,
+125 cells (including two printed blanks) and thirteen headers. The opening
+four-part outline, four-stage flowchart, category art and original blank-cell
+images remain distinct. Ten separately captioned examples (1–5 and 7–11), plus
+two inline code contexts, preserve 143 nonempty physical rows. The prose refers
+to example 6, but none was observed; no replacement code is synthesized.
 
-All 52 new initial drafts were read before one correction pass; zero retries or
-later text repairs. Three pre-OCR maps and 53 refinements remain available.
-Thirty native, nineteen assembly and twelve status faults are rejected.
-All 13,402 prior March files and thirty core modules remain exact; the unchanged
-214-test baseline is reused. Exact glyphs/code bytes, technical claims, full
-proofreading and human acceptance remain unverified.
+Printed unusual baud constants, OpenCom(), Recevier, split comment slashes,
+bracket-shaped delimiters and vertical ellipses remain literal. Exact glyphs,
+spacing, dot-leader count, source code bytes and technical claims are unverified.
+All 197 initial drafts were read before one source correction pass; zero retries
+or later text repairs. Three pre-OCR maps and 204 crop refinements are retained.
+Seven range, 21 context and twelve status faults are rejected. All 14,993 earlier
+March files and thirty core modules remain exact; the unchanged 214-test baseline
+is reused. Full proofreading and human acceptance remain pending.
 
-Sixteen frozen partial-status pointers are resolved externally. All fifteen
-required final-status evidence files remain available. Group 0027 retains its
-four children without owning their text; 0029–0031 remain unresolved. Child 0031's
-opening says 연재강좌 despite its contents position under implementation/Windows;
-both observations remain without reparenting.
-Complete article: `archive/pdf/1995-03/packages/article-visual-cpp-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-23-r02/visual-b/`.
-Current status: `archive/pdf/1995-03/classifications/batch-23-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-23/`.
-Totals: thirteen readable, zero partials, six non-owning headings, eight references
-and 63 unresolved. Next review 0029 from observed PDF 310 / printed 302 and verify
-its full extent toward the next article opening on 318 before mapping at most
-six pages. Keep two canonical tasks / six mapped pages / twenty outside lookups
-per checkpoint; preserve immutable segments and assemble separately if needed.
+Ten frozen 0029 ownership/status pointers are resolved externally. All sixteen
+required final-status evidence files remain available. Group 0027 remains
+non-owning: 0028 is readable, 0029 partial, and 0030/0031 unresolved. The 0031
+opening-banner discrepancy remains unchanged.
+Native: `archive/pdf/1995-03/packages/batch-24-r01/comm-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-24-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-24/`.
+Totals: thirteen readable, one partial, six non-owning headings, eight references
+and 62 unresolved. Next restore 316, preserving the incoming sentence from
+315, the closing prose, editor credit and diskette table; exclude the lower
+advertisement. Then separately assemble 310–316 and resolve frozen partial
+statuses externally. Continue 0030 from observed PDF 318 after extent review.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
@@ -70,7 +68,7 @@ source extent is explicitly marked. One source pass,zero retries,one post-pass
 duplicated-word artifact repair retained. All thirty core pins unchanged;214-test
 baseline retained. Its next developer/group checkpoint is complete. See
 [March progress](progress/9503.md) and
-`archive/pdf/1995-03/restoration/batch-23/reproduction.json`.
+`archive/pdf/1995-03/restoration/batch-24/reproduction.json`.
 
 ## Session wrap-up
 

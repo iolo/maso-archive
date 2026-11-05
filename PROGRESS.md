@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Restore March communications opening segment
+
+- Batch 24 preserves article 0029's first six pages, PDF 310–315. Its final
+  page 316 and full-article assembly remain pending.
+- All 801 native files reproduce independently and in a fresh process.
+  Validation covers 201 crops, 2,147 ranges, 49 table rows / 125 cells,
+  143 code rows and 40 negative cases. All 14,993 prior files remain exact.
+- One source correction pass, zero retries or later text repairs. Printed
+  errors and the missing example 6 reference remain explicit; ten earlier
+  status pointers are resolved externally without rewriting their evidence.
+- Totals: thirteen readable, one partial, six groups, eight references,
+  62 unresolved. Next restore 316 and assemble 0029. FLC0019 and issue
+  accounting remain open; the full March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March Visual C++ article
 
 - Batch 23 preserves final PDF 304–308 and assembles article 0028 across all
