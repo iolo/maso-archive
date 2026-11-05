@@ -19,39 +19,43 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 46 completes Delphi article 0043 across PDF 440–444 / printed 432–436
-and classifies tool-review group 0042 as non-owning under Programming Forum 0025.
-Contents 4–5 and opening banners on 440/446 establish its two direct children.
-Borland C++ 4.5 article 0044 remains unresolved; its observed opening is 446 / 438.
+Batch 47 preserves Borland C++ 4.5 article 0044's opening PDF 446–451 /
+printed 438–443 as an immutable partial native. The complete article extent is
+446–456 / 438–448, ending with editorial credit and a disk-file table. Pages
+452–456 and actual article assembly remain pending. The next special feature
+opens on 458, followed by its NT article on 459; neither is classified here.
 
-The 260 article files reproduce independently and in a fresh process. Validation
-covers 69 pixel-exact crops, 61 OCR outcomes, 716 text ranges, 49 reading blocks,
-265 physical rows and 253 exact ZIP members. Six screenshots retain their printed
-captions and original pixels; captions 3 and 4 disagree with the pictured windows.
-Two pull quotes remain independent. Four lists preserve six development steps,
-seven component categories, four advantages and five system requirements.
-Twelve continuation boundaries retain eleven physical LF joins and one dropcap
-fold. Author and editorial credits remain separate. The source eyebrow differs
-from the canonical title; both are preserved. Printed Power Bulider, 디에비스,
-델파 95 and WinSpectator remain literal. No executable listing is generated.
+All 254 native files reproduce independently and in a fresh process. Validation
+covers 65 pixel-exact crops, 60 OCR outcomes, 952 text ranges, 46 reading blocks,
+375 physical rows and 246 exact ZIP members. Two full-page sidebars retain their
+installation and linker contexts. Main prose crosses 447→449 and 449→451 around
+those sidebars. Fourteen joins retain twelve LF, one paragraph break and one
+dropcap fold. The outgoing OLE discussion starts a new paragraph on 452.
 
-All 61 initial drafts were read before one source correction pass, with zero
-retries or within/post-pass transcription changes. Four maps retain 24 pre-OCR
-crop refinements. All 33 invalid range, source-context and group/status cases
-reject. All 38,251 prior March files and thirty core modules remain exact; the
-unchanged 214-test baseline is reused. Four selected classification files reproduce
-exactly. Ten frozen status pointers resolve both retained earlier hierarchy
-revisions; the first status export and its successful audit remain retained.
-Forty classification evidence records are required for final closeout.
-Exact glyphs, spacing, encoded bytes, historical claims, full proofreading and
-human acceptance remain unverified.
+Two diagrams preserve twelve labels and eleven connections, including six sibling
+directory branches and five undirected OCF connections. Five original images,
+three literal captions, an independent pull quote, product facts and twenty-one
+list items retain their source roles. One SYSTEM.INI configuration line remains
+literal and unexecuted. Printed OLEDLS, arithmetic inconsistencies, unusual
+spacing and the 4.0 product photo beside the 4.5 title remain source-linked.
 
-Complete Delphi article: `archive/pdf/1995-03/packages/batch-46-r01/delphi/`.
-Current group/status: `archive/pdf/1995-03/classifications/batch-46-r02/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-46/`.
-Totals: twenty-four readable, zero partial, ten non-owning headings, eight
-references and 48 unresolved. Next establish the full extent of Borland C++ 4.5
-article 0044 from PDF 446 / printed 438, then restore it in bounded segments.
+All sixty initial drafts were read before one source correction pass. Three maps
+retain 36 pre-OCR refinements; there were no OCR retries or within/post-pass text
+changes. Two correction-script constructor failures remain recorded; both occurred
+before reviewed text was emitted. All 42 invalid range, context and status cases
+reject. All 39,298 prior March files and thirty core modules remain exact; the
+unchanged 214-test baseline is reused. Seven frozen status pointers resolve
+externally, preserving earlier evidence. Forty-one classification evidence records
+are required for final closeout. Exact glyphs, spacing, encoded bytes, claims,
+execution, full proofreading and human acceptance remain unverified.
+
+Partial native: `archive/pdf/1995-03/packages/batch-47-r01/borland-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-47-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-47/`.
+Totals: twenty-four readable, one partial, ten non-owning headings, eight references
+and 47 unresolved. Next restore final pages 452–456, preserving screenshots 2–4,
+the numbered listing and disk-file table, then assemble the complete article.
+Exclude the lower-page naming notice on 456 and advertisement on 457.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](progress/9503.md). The full March goal remains active

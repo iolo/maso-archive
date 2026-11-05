@@ -1,5 +1,17 @@
 # Progress
 
+## 2026-11-05 — March Borland C++ opening restored
+
+- Batch 47 preserves article 0044 on PDF 446–451 as a partial native. Its complete
+  extent is 446–456; final five pages and assembly remain pending.
+- All 254 files reproduce exactly. Validation covers 65 crops and 952 text ranges;
+  all 42 invalid cases reject. All 39,298 prior March files remain unchanged.
+  Two sidebars, two diagrams and a configuration line retain their source contexts.
+- Totals: twenty-four readable, one partial, ten groups, eight references and
+  47 unresolved. Next restore pages 452–456 and assemble the article.
+  FLC0019, 545-page accounting, cover and separate closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Delphi article and tool-review group completed
 
 - Batch 46 completes Delphi 0043 on PDF 440–444 and classifies non-owning group
