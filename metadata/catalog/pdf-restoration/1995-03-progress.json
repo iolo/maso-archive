@@ -4376,7 +4376,7 @@
       "parent_id": "maso-1995-03-toc-0055",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Batch67 establishes domestic0056 as owning news bundle across PDF160–171 / individually observed printed152–163. Trends160–165 ends with MS; New Products166–171 is separate, with no prose join at165→166. Overseas starts172.",
@@ -4388,20 +4388,35 @@
         "All401 native files reproduce independently and in a fresh process:108 pixel-exact crops,95 original OCR outcomes,82 blocks,475 physical rows,2381 typed ranges and394 ZIP members. Twenty-two independent product news items,12 captioned original images,one closing emblem and22 contacts retain source contexts.",
         "Thirteen internal continuation groups preserve two new paragraphs andeleven physical LF joins. Eleven explicit token-wrap contexts retain prices,resolutions,model andcompany names. Sixty-three prose paragraph contexts,192 numeric and151 technical occurrences remain indexed. Four discrepancy records andseven localized candidate contexts retain literal printed variants,wording anduncertainty.",
         "All95 initial drafts read before one source correction pass;zero retries andzero within/post-pass repairs. Three pre-OCR maps preserve35 margin-adjustment events. Twenty-six invalid range/context cases reject. All61653 earlier March files andthirty core modules unchanged;214-test baseline reused.",
-        "No source pages remain unread for domestic0056; availability stays partial until actual assembly. Children0057–0061 remain prospective non-owning references pending assembled anchors. Group0055 andall earlier classification evidence unchanged. Exact glyphs,source bytes,historical claims,full proofreading andhuman acceptance unverified."
+        "No source pages remain unread for domestic0056; availability stays partial until actual assembly. Children0057–0061 remain prospective non-owning references pending assembled anchors. Group0055 andall earlier classification evidence unchanged. Exact glyphs,source bytes,historical claims,full proofreading andhuman acceptance unverified.",
+        "Batch 69 actually assembles complete Domestic Network0056, PDF160–171 / individually observed printed152–163, from unchanged native segments a/b. Trends ends165; New Products begins166 without a prose join. Final171 closes with MS/contact before overseas172.",
+        "All786 assembled files reproduce independently and in a fresh process; all778 native files remain byte-identical. Validation covers204 pixel-exact crops,186 original OCR outcomes,164 blocks,990 physical rows,4720 projected metadata occurrences,9436 current typed ranges and770 ZIP members.",
+        "All42 independent news items, four interview Q&A pairs,18 figure regions,18 captions and31 contacts survive assembly. Seven discrepancy records,15 localized candidate contexts,11 physical token-wrap contexts and22 internal continuations remain explicit. No new OCR or source correction.",
+        "Child0057 is finalized as a non-owning reference wholly on160, including reporter credit and the five-photo/four-caption collage. The separate interview on161 is excluded. Children0058–0061 await bounded anchor classification. External dispositions resolve frozen native/group creation statuses without rewriting earlier evidence.",
+        "Thirty-six assembly and17 classification invalid cases reject. All63146 earlier March files and30 core modules remain exact; unchanged214-test baseline reused. Exact glyphs,source bytes,historical claims,full proofreading andhuman acceptance remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b",
+        "directory": "archive/pdf/1995-03/packages/article-domestic-r01",
         "article_id": "scan-maso-1995-03-toc-0056",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b/manifest.json",
-          "sha256": "0b1639772374c18fc6558b57f2e58ee70825c127dad39a2b68eb4b1a56000bc1",
-          "bytes": 67158
+          "path": "archive/pdf/1995-03/packages/article-domestic-r01/manifest.json",
+          "sha256": "874c57b165481ea18dabab3b42c6d20d29104cd350b4c84cd37ab35585e86161",
+          "bytes": 139883
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-68/domestic-b-r03/package-recipe.json",
-          "sha256": "78e0f5b53e55eaaf36274f01419497092a4fc8937a17fa3bb518c80d0b3feebe",
-          "bytes": 14505
+          "path": "archive/pdf/1995-03/restoration/batch-69/assembly-recipe.json",
+          "sha256": "eaadcacd6af1fb786cd44800912d583eb4fd27b395877c2b7d072f8a5fc0e743",
+          "bytes": 1926
+        },
+        "adapter": {
+          "path": "archive/pdf/1995-03/restoration/batch-69/domestic_adapter.py",
+          "sha256": "3d66e5b1eeb40567adde0fc0189b8b836dd88eb922210c7ee7cbd44ff0cb2d08",
+          "bytes": 16934
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1995-03/restoration/batch-69/adapter-inputs.json",
+          "sha256": "dbf3a879942010dc55c4b8f305d5190fb5f3bcda3315a0f61a487b7055d6abba",
+          "bytes": 9289
         },
         "coverage": {
           "pdf_pages": [
@@ -4435,65 +4450,68 @@
           "regions": 204,
           "blocks": 164,
           "figures": 18,
-          "current_native_pdf_pages": [
-            166,
-            167,
-            168,
-            169,
-            170,
-            171
-          ],
-          "current_native_regions": 108,
-          "current_native_blocks": 82,
-          "current_native_figures": 13,
-          "full_pdf_pages": [
-            160,
-            161,
-            162,
-            163,
-            164,
-            165,
-            166,
-            167,
-            168,
-            169,
-            170,
-            171
-          ],
           "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "all_source_pages_preserved_across_natives": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "interior_continuity_fully_reviewed": true,
         "actual_start_pdf_page": 160,
         "observed_ending_pdf_page": 171,
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-68/validation.json",
-          "sha256": "1a04b4596b007299abe6bba2416fc139719d2b68a82f60247afeb1110f2c4436",
-          "bytes": 1800
+          "path": "archive/pdf/1995-03/restoration/batch-69/final-validation.json",
+          "sha256": "68794de35760eed0a491217b3bf2b400d3b797e1d58ae516b81230120cf9a30a",
+          "bytes": 2722
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-68/reproduction.json",
-          "sha256": "4369b31a2629ed2ab8157692528aa1620dd5d836b103eb19c9ac205a24a28bff",
-          "bytes": 76517
+          "path": "archive/pdf/1995-03/restoration/batch-69/assembly-reproduction.json",
+          "sha256": "ccee5a9f3cb206a22318ee7bbbec348f3c517d448836246118d1b0db17453832",
+          "bytes": 142284
         },
-        "checkpoint": "batch-68",
-        "directory_is_current_native_not_assembled_article": true,
-        "prior_native": {
-          "directory": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+        "checkpoint": "batch-69",
+        "natives": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a/manifest.json",
+              "sha256": "144e98070c47cb4c4afe7d4e426927ff9b42ceaf3f6afab610937a9b39f36aa0",
+              "bytes": 63060
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-67/domestic-a-r04/package-recipe.json",
+              "sha256": "b465c5430243897ff998958c75196ba4ffe7a856b3d0692747605bb2856aab23",
+              "bytes": 12108
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b/manifest.json",
+              "sha256": "0b1639772374c18fc6558b57f2e58ee70825c127dad39a2b68eb4b1a56000bc1",
+              "bytes": 67158
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-68/domestic-b-r03/package-recipe.json",
+              "sha256": "78e0f5b53e55eaaf36274f01419497092a4fc8937a17fa3bb518c80d0b3feebe",
+              "bytes": 14505
+            }
+          }
+        ],
+        "prior_restoration": {
+          "directory": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b",
           "article_id": "scan-maso-1995-03-toc-0056",
           "manifest": {
-            "path": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a/manifest.json",
-            "sha256": "144e98070c47cb4c4afe7d4e426927ff9b42ceaf3f6afab610937a9b39f36aa0",
-            "bytes": 63060
+            "path": "archive/pdf/1995-03/packages/batch-68-r01/domestic-b/manifest.json",
+            "sha256": "0b1639772374c18fc6558b57f2e58ee70825c127dad39a2b68eb4b1a56000bc1",
+            "bytes": 67158
           },
           "recipe": {
-            "path": "archive/pdf/1995-03/restoration/batch-67/domestic-a-r04/package-recipe.json",
-            "sha256": "b465c5430243897ff998958c75196ba4ffe7a856b3d0692747605bb2856aab23",
-            "bytes": 12108
+            "path": "archive/pdf/1995-03/restoration/batch-68/domestic-b-r03/package-recipe.json",
+            "sha256": "78e0f5b53e55eaaf36274f01419497092a4fc8937a17fa3bb518c80d0b3feebe",
+            "bytes": 14505
           },
           "coverage": {
             "pdf_pages": [
@@ -4502,7 +4520,13 @@
               162,
               163,
               164,
-              165
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171
             ],
             "printed_pages": [
               "152",
@@ -4510,11 +4534,28 @@
               "154",
               "155",
               "156",
-              "157"
+              "157",
+              "158",
+              "159",
+              "160",
+              "161",
+              "162",
+              "163"
             ],
-            "regions": 96,
-            "blocks": 82,
-            "figures": 5,
+            "regions": 204,
+            "blocks": 164,
+            "figures": 18,
+            "current_native_pdf_pages": [
+              166,
+              167,
+              168,
+              169,
+              170,
+              171
+            ],
+            "current_native_regions": 108,
+            "current_native_blocks": 82,
+            "current_native_figures": 13,
             "full_pdf_pages": [
               160,
               161,
@@ -4529,61 +4570,180 @@
               170,
               171
             ],
-            "deferred_pdf_pages": [
-              166,
-              167,
-              168,
-              169,
-              170,
-              171
-            ],
+            "deferred_pdf_pages": [],
             "full_extent_unverified": false
           },
           "body_pages_complete": false,
+          "all_source_pages_preserved_across_natives": true,
           "assembly_required": true,
           "complete_article_assembly_pending": true,
           "interior_continuity_fully_reviewed": true,
           "actual_start_pdf_page": 160,
           "observed_ending_pdf_page": 171,
           "validation": {
-            "path": "archive/pdf/1995-03/restoration/batch-67/final-validation.json",
-            "sha256": "7cce05ee7fa5db128b74b039bb0cb2c563e6671160ab98f2daa1d363661501e9",
-            "bytes": 2400
+            "path": "archive/pdf/1995-03/restoration/batch-68/validation.json",
+            "sha256": "1a04b4596b007299abe6bba2416fc139719d2b68a82f60247afeb1110f2c4436",
+            "bytes": 1800
           },
           "reproduction": {
-            "path": "archive/pdf/1995-03/restoration/batch-67/reproduction.json",
-            "sha256": "916f6f8c9b4af8497ebfc6ce59b0db893e173cf01ef9b54761b49d60e2cd71e9",
-            "bytes": 71939
+            "path": "archive/pdf/1995-03/restoration/batch-68/reproduction.json",
+            "sha256": "4369b31a2629ed2ab8157692528aa1620dd5d836b103eb19c9ac205a24a28bff",
+            "bytes": 76517
           },
-          "checkpoint": "batch-67",
+          "checkpoint": "batch-68",
+          "directory_is_current_native_not_assembled_article": true,
+          "prior_native": {
+            "directory": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+            "article_id": "scan-maso-1995-03-toc-0056",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-67-r01/domestic-a/manifest.json",
+              "sha256": "144e98070c47cb4c4afe7d4e426927ff9b42ceaf3f6afab610937a9b39f36aa0",
+              "bytes": 63060
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-67/domestic-a-r04/package-recipe.json",
+              "sha256": "b465c5430243897ff998958c75196ba4ffe7a856b3d0692747605bb2856aab23",
+              "bytes": 12108
+            },
+            "coverage": {
+              "pdf_pages": [
+                160,
+                161,
+                162,
+                163,
+                164,
+                165
+              ],
+              "printed_pages": [
+                "152",
+                "153",
+                "154",
+                "155",
+                "156",
+                "157"
+              ],
+              "regions": 96,
+              "blocks": 82,
+              "figures": 5,
+              "full_pdf_pages": [
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171
+              ],
+              "deferred_pdf_pages": [
+                166,
+                167,
+                168,
+                169,
+                170,
+                171
+              ],
+              "full_extent_unverified": false
+            },
+            "body_pages_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "interior_continuity_fully_reviewed": true,
+            "actual_start_pdf_page": 160,
+            "observed_ending_pdf_page": 171,
+            "validation": {
+              "path": "archive/pdf/1995-03/restoration/batch-67/final-validation.json",
+              "sha256": "7cce05ee7fa5db128b74b039bb0cb2c563e6671160ab98f2daa1d363661501e9",
+              "bytes": 2400
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-03/restoration/batch-67/reproduction.json",
+              "sha256": "916f6f8c9b4af8497ebfc6ce59b0db893e173cf01ef9b54761b49d60e2cd71e9",
+              "bytes": 71939
+            },
+            "checkpoint": "batch-67",
+            "ownership_evidence": {
+              "path": "archive/pdf/1995-03/classifications/batch-67-r01/domestic-ownership.json",
+              "sha256": "a594768da9a216bd77420f9953ed12148b1560d07d690c6bfdbaee019a3074ea",
+              "bytes": 3168
+            }
+          },
+          "native_directories": [
+            "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
+            "archive/pdf/1995-03/packages/batch-68-r01/domestic-b"
+          ],
+          "coverage_totals_are_disjoint_unassembled_natives": true,
           "ownership_evidence": {
             "path": "archive/pdf/1995-03/classifications/batch-67-r01/domestic-ownership.json",
             "sha256": "a594768da9a216bd77420f9953ed12148b1560d07d690c6bfdbaee019a3074ea",
             "bytes": 3168
           }
         },
-        "native_directories": [
-          "archive/pdf/1995-03/packages/batch-67-r01/domestic-a",
-          "archive/pdf/1995-03/packages/batch-68-r01/domestic-b"
-        ],
-        "coverage_totals_are_disjoint_unassembled_natives": true,
-        "ownership_evidence": {
-          "path": "archive/pdf/1995-03/classifications/batch-67-r01/domestic-ownership.json",
-          "sha256": "a594768da9a216bd77420f9953ed12148b1560d07d690c6bfdbaee019a3074ea",
-          "bytes": 3168
-        }
+        "source_creation_dispositions": [
+          {
+            "path": "archive/pdf/1995-03/classifications/batch-69-r01/parent-status-dispositions.json",
+            "sha256": "2424303eea81dd9a88f661c29409fda8088acd2e6a68e9cf2199e9d34c89e353",
+            "bytes": 2228
+          },
+          {
+            "path": "archive/pdf/1995-03/classifications/batch-69-r01/group-status-dispositions.json",
+            "sha256": "4873bb4a5305bb69658844da78568f602f21ec8f3c5a89b53fc0d67fa23fa2a5",
+            "bytes": 1925
+          }
+        ]
       }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0057",
       "title": "'95 뉴미디어 월드",
       "parent_id": "maso-1995-03-toc-0056",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 and source160 establish the first non-owning child of complete Domestic Network0056. Canonical title, parent, missing page reference and byline remain unchanged.",
+        "The complete story is wholly PDF160 / printed152, ending with reporter credit. Its five-photo composite and four captions belong to this scope; the independent Ahn interview on161 is excluded.",
+        "Four classification files reproduce independently and in a fresh process. Nineteen child typed ranges,14 source regions,11 text blocks and17 negative cases validate. No duplicate body, new OCR or source correction. External dispositions preserve all earlier immutable records."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-03-toc-0056",
+      "section": {
+        "anchor": "a-newmedia-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 160
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-03-toc-0056",
+        "directory": "archive/pdf/1995-03/packages/article-domestic-r01",
+        "anchor": "a-newmedia-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 160,
+        "source_heading_printed_page": "152",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-03/packages/article-domestic-r01/manifest.json",
+          "sha256": "874c57b165481ea18dabab3b42c6d20d29104cd350b4c84cd37ab35585e86161",
+          "bytes": 139883
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-03/classifications/batch-69-r01/child-0057-anchor.json",
+          "sha256": "d5c58139b57ee8c1b47b6ffc2cbc0594442e9129f8c22d17e07e648c67cffc67",
+          "bytes": 27307
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-69/final-validation.json",
+          "sha256": "68794de35760eed0a491217b3bf2b400d3b797e1d58ae516b81230120cf9a30a",
+          "bytes": 2722
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0058",
@@ -7526,22 +7686,64 @@
         "sha256": "4369b31a2629ed2ab8157692528aa1620dd5d836b103eb19c9ac205a24a28bff",
         "bytes": 76517
       }
+    },
+    {
+      "name": "1995-03-batch-69",
+      "status": "complete",
+      "completed_at": "2026-11-05T23:47:14.025352+00:00",
+      "goal": "Assemble complete Domestic Network0056 and finalize first child0057 as a non-owning reference.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0056",
+        "maso-1995-03-toc-0057"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 8,
+      "outside_lookup_pdf_pages": [
+        5,
+        159,
+        160,
+        161,
+        165,
+        166,
+        171,
+        172
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-69/final-validation.json",
+        "sha256": "68794de35760eed0a491217b3bf2b400d3b797e1d58ae516b81230120cf9a30a",
+        "bytes": 2722
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-69/assembly-reproduction.json",
+        "sha256": "ccee5a9f3cb206a22318ee7bbbec348f3c517d448836246118d1b0db17453832",
+        "bytes": 142284
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-69/classification-reproduction.json",
+        "sha256": "0ab658c98ba75d7eef93c54dac7a4ad3f74124d3e24e0e1f796b0ba195e1e061",
+        "bytes": 1152
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 32,
-    "partial": 1,
+    "readable": 33,
+    "partial": 0,
     "group_headings": 14,
-    "section_references": 8,
-    "unresolved": 35
+    "section_references": 9,
+    "unresolved": 34
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Actually assemble domestic0056 across all160–171 from immutable natives a/b; preserve all42 independent news items,four Q&A pairs,18 original image regions,18 captions,31 contacts,990 physical rows andall metadata. No prose join across165→166. Then finalize prospective children0057–0061 in bounded checkpoints using assembled anchors; first0057 opens160,0058 opens162,0059 opens166,and0060/0061 open169. Resolve frozen parent/group pending-state statements with external dispositions. Keep group0055 non-owning andFLC0019 unresolved pending bounded lookup/accounting. Complete allMarch outcomes,545-page accounting,cover andseparate closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Finalize domestic children0058/0059 as non-owning references using complete assembled parent0056: openings162/154 and166/158. Verify complete item extents and preserve original titles, contacts and image contexts; then handle0060/0061, both opening169/161. No duplicate bodies or new OCR needed. Resolve pending creation-time notes externally. Keep group0055 non-owning and FLC0019 unresolved pending bounded lookup/accounting. Then locate overseas0062 from172/164. Complete all March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -7827,6 +8029,21 @@
       "path": "archive/pdf/1995-03/classifications/batch-67-r01/domestic-ownership.json",
       "sha256": "a594768da9a216bd77420f9953ed12148b1560d07d690c6bfdbaee019a3074ea",
       "bytes": 3168
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-69-r01/child-0057-anchor.json",
+      "sha256": "d5c58139b57ee8c1b47b6ffc2cbc0594442e9129f8c22d17e07e648c67cffc67",
+      "bytes": 27307
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-69-r01/parent-status-dispositions.json",
+      "sha256": "2424303eea81dd9a88f661c29409fda8088acd2e6a68e9cf2199e9d34c89e353",
+      "bytes": 2228
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-69-r01/group-status-dispositions.json",
+      "sha256": "4873bb4a5305bb69658844da78568f602f21ec8f3c5a89b53fc0d67fa23fa2a5",
+      "bytes": 1925
     }
   ]
 }

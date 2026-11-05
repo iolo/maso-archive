@@ -11,50 +11,54 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have thirty-two readable articles, one partial, fourteen non-owning headings,
-eight section references and 35 unresolved outcomes; July
+identities now have thirty-three readable articles, zero partial, fourteen non-owning headings,
+nine section references and 34 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 68 preserves Domestic Network 0056's final New Products subsection on
-PDF 166–171 / individually observed printed 158–163 as immutable native b.
-Together natives a/b preserve all twelve source pages 160–171. Actual whole-bundle
-assembly remains pending. Trends ends on165 and New Products starts on166 without
-a prose join; final171 closes with MS/contact before Overseas Network starts172.
+Batch 69 completes Domestic Network 0056 across PDF 160–171 / individually
+observed printed 152–163, assembling both immutable natives. All 42 news items,
+four interview Q&A pairs, 18 figure regions, 18 captions and 31 contacts remain
+separate. Trends ends on 165; New Products starts on 166 without a prose join.
+Final 171 closes with MS/contact before Overseas Network starts on 172.
 
-All 401 native files reproduce independently and in a fresh process. Validation
-covers 108 pixel-exact crops, 95 original OCR outcomes, 82 blocks, 475 physical
-rows, 2,381 typed ranges and 394 ZIP members. Twenty-two independent product
-announcements, twelve captioned original images, one ending emblem and 22 contacts
-retain their contexts. Thirteen continuations preserve two new paragraphs and
-eleven physical LF joins. Eleven explicit token-wrap contexts retain prices,
-resolutions and names. Sixty-three prose paragraph contexts, 192 numerical
-occurrences and 151 technical token occurrences remain indexed.
+All 786 assembled files reproduce independently and in a fresh process, retaining
+all 778 native files byte for byte. Validation covers 204 pixel-exact crops,
+186 original OCR outcomes, 164 blocks, 990 physical rows, 4,720 projected metadata
+occurrences, 9,436 current typed ranges and 770 ZIP members. Seven discrepancy
+records, fifteen localized candidate contexts, eleven physical token-wrap contexts
+and 22 internal continuations retain their source contexts.
 
-All 95 initial drafts were read before one source correction pass; zero retries
-and zero within/post-pass changes. Three pre-OCR maps retain 35 margin adjustments.
-Twenty-six invalid range/context cases reject. All 61,653 prior March files and
-thirty core modules remain exact; the unchanged 214-test baseline is reused.
-Four discrepancy records and seven localized candidates preserve printed variants
-and uncertainty. Exact glyphs, source bytes, historical claims, full proofreading
-and human acceptance remain unverified.
+Child 0057, `'95 뉴미디어 월드`, is a final non-owning reference wholly on
+PDF 160 / printed 152. Its reporter credit, five-photo composite and four captions
+belong to that story; the independent interview on 161 is excluded. Four exact
+classification files preserve nineteen typed child ranges, fourteen source regions
+and eleven text blocks. External dispositions update the parent and group status
+without rewriting earlier evidence. Canonical titles, missing folios and bylines
+remain unchanged; children 0058–0061 still await final reference classification.
 
-Final domestic native: `archive/pdf/1995-03/packages/batch-68-r01/domestic-b/`.
-Opening native: `archive/pdf/1995-03/packages/batch-67-r01/domestic-a/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-68/`.
-Keep group/ownership evidence at `archive/pdf/1995-03/classifications/batch-67-r01/`.
-Information Radar0055 remains non-owning; opener159 is a section opener, not an ad.
-Totals remain thirty-two readable, one partial, fourteen non-owning headings,
-eight references and 35 unresolved.
+This checkpoint uses two canonical tasks, zero new mapped pages, eight outside
+lookups and no new OCR or source correction. Thirty-six assembly and seventeen
+classification invalid cases reject. All 63,146 earlier March files and thirty
+core modules remain exact; the unchanged 214-test baseline is reused. Exact glyphs,
+source bytes, historical claims, full proofreading and human acceptance remain
+unverified.
 
-Next actually assemble domestic0056 across160–171 from both immutable natives.
-Retain all42 independent news items, four Q&A pairs, 18 original image regions,
-18 captions, 31 contacts, 990 physical rows and all metadata. Then finalize
-prospective children0057–0061 within bounded checkpoints using assembled anchors.
-No child is finalized by this native. Resolve frozen pending-state notes externally.
+Complete domestic article: `archive/pdf/1995-03/packages/article-domestic-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-69/`.
+Child and current status: `archive/pdf/1995-03/classifications/batch-69-r01/`.
+Both native packages and batch 67 group/ownership evidence remain immutable.
+Information Radar 0055 remains non-owning; 159 remains a section opener.
+Totals are thirty-three readable, zero partial, fourteen non-owning headings,
+nine references and 34 unresolved.
+
+Next finalize domestic children 0058/0059, opening on 162/154 and 166/158,
+then 0060/0061, both opening on 169/161, against the complete assembled parent.
+Verify each complete item scope and preserve its title, contacts and image contexts.
+No duplicate body or new OCR is needed. Then locate overseas 0062 from 172/164.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.

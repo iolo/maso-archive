@@ -1,5 +1,19 @@
 # Progress
 
+
+## 2026-11-06 — March domestic assembly and first child
+
+- Batch 69 completes Domestic Network0056 across160–171 and finalizes0057 as a
+  non-owning reference to the New Media World story wholly on160.
+- All786 assembled files and778 native files reproduce exactly;204 crops,990 rows,
+  42 news items,18 figure regions and9436 current typed ranges validate.
+- Four exact classification files retain19 child ranges;53 combined invalid cases
+  reject. No new OCR or source correction;63146 prior files and30 core modules exact.
+- Totals:33 readable,zero partial,14 groups,nine references and34 unresolved.
+  Next classify0058/0059,then0060/0061 against complete domestic0056.
+- FLC0019,545-page accounting,cover and separate issue closeout remain pending.
+  Full March goal stays active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March domestic product news final native
 
 - Batch 68 preserves domestic0056 New Products166–171 as immutable native b.
