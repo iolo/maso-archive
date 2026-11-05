@@ -267,46 +267,39 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 69 completes Domestic Network 0056 across PDF 160–171 / individually
-observed printed 152–163, assembling both immutable natives. All 42 news items,
-four interview Q&A pairs, 18 figure regions, 18 captions and 31 contacts remain
-separate. Trends ends on 165; New Products starts on 166 without a prose join.
-Final 171 closes with MS/contact before Overseas Network starts on 172.
+Batch 70 finalizes domestic children 0058/0059 as non-owning references into
+complete Domestic Network 0056. The internet report is wholly PDF 162 / printed
+154, retaining its title, three-line deck, eight prose paragraphs, column
+continuation and reporter credit. The Moonbangsau 3.0 announcement is wholly
+166/158, retaining its expanded printed title, prose, contact, screenshot and
+caption. Its column transition starts a new paragraph; the physical price wrap
+remains literal. Adjacent interview, industry briefs and product news are excluded.
 
-All 786 assembled files reproduce independently and in a fresh process, retaining
-all 778 native files byte for byte. Validation covers 204 pixel-exact crops,
-186 original OCR outcomes, 164 blocks, 990 physical rows, 4,720 projected metadata
-occurrences, 9,436 current typed ranges and 770 ZIP members. Seven discrepancy
-records, fifteen localized candidate contexts, eleven physical token-wrap contexts
-and 22 internal continuations retain their source contexts.
+Four classification files reproduce independently and in a fresh process.
+Validation covers 26 typed ranges, seventeen source regions, fourteen text blocks,
+two continuation boundaries and one physical token-wrap context; nineteen invalid
+cases reject. Seven outside source pages were reviewed, with no new mapping, OCR
+or source correction. All 786 parent files, 63,983 prior March files and thirty
+core modules remain exact; the unchanged 214-test baseline is reused.
 
-Child 0057, `'95 뉴미디어 월드`, is a final non-owning reference wholly on
-PDF 160 / printed 152. Its reporter credit, five-photo composite and four captions
-belong to that story; the independent interview on 161 is excluded. Four exact
-classification files preserve nineteen typed child ranges, fourteen source regions
-and eleven text blocks. External dispositions update the parent and group status
-without rewriting earlier evidence. Canonical titles, missing folios and bylines
-remain unchanged; children 0058–0061 still await final reference classification.
-
-This checkpoint uses two canonical tasks, zero new mapped pages, eight outside
-lookups and no new OCR or source correction. Thirty-six assembly and seventeen
-classification invalid cases reject. All 63,146 earlier March files and thirty
-core modules remain exact; the unchanged 214-test baseline is reused. Exact glyphs,
-source bytes, historical claims, full proofreading and human acceptance remain
-unverified.
+The parent remains complete across 160–171, preserving all 42 news items, four
+interview Q&A pairs, eighteen figure regions, eighteen captions and 31 contacts.
+Current status resolves children 0057–0059 while leaving 0060/0061 pending.
+Canonical titles, missing folios and bylines remain unchanged. Original source
+uncertainty and historical claims remain; full proofreading and human acceptance
+are unverified.
 
 Complete domestic article: `archive/pdf/1995-03/packages/article-domestic-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-69/`.
-Child and current status: `archive/pdf/1995-03/classifications/batch-69-r01/`.
-Both native packages and batch 67 group/ownership evidence remain immutable.
-Information Radar 0055 remains non-owning; 159 remains a section opener.
+Child references and current status: `archive/pdf/1995-03/classifications/batch-70-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-70/`.
+Earlier packages, classifications and group 0055 remain unchanged.
 Totals are thirty-three readable, zero partial, fourteen non-owning headings,
-nine references and 34 unresolved.
+eleven references and 32 unresolved.
 
-Next finalize domestic children 0058/0059, opening on 162/154 and 166/158,
-then 0060/0061, both opening on 169/161, against the complete assembled parent.
-Verify each complete item scope and preserve its title, contacts and image contexts.
-No duplicate body or new OCR is needed. Then locate overseas 0062 from 172/164.
+Next finalize domestic children 0060/0061: DataView 9.5 and PageJet P3, both
+opening on PDF 169 / printed 161. Verify their complete scopes, expanded source
+titles, vendor label, contacts and image/caption contexts against the assembled
+parent. Then locate overseas 0062 from 172/164.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.

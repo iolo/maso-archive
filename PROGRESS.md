@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-06 — March domestic internet and Moonbangsau references
+
+- Batch 70 finalizes children 0058/0059 against complete domestic parent 0056.
+  Their complete source scopes are PDF 162/154 and 166/158 respectively.
+- Four exact classification files retain 26 typed ranges, seventeen source regions,
+  fourteen blocks, reporter credit, contact, screenshot/caption and two continuations.
+  Nineteen invalid cases reject; no new OCR or source correction.
+- All 63,983 prior March files and thirty core modules remain unchanged.
+- Totals: 33 readable, zero partial, fourteen groups, eleven references and 32 unresolved.
+  Next finalize 0060/0061 on 169/161, then locate overseas 0062 from 172/164.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  The full March goal stays active; July follows closeout. No reader rebuild/deployment.
+
 
 ## 2026-11-06 — March domestic assembly and first child
 
