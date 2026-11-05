@@ -240,43 +240,49 @@ Batch 21 finalized forum0025 and implementation0026 as non-owning groups:
 eleven reproducible evidence files, seven exact crops and twenty hierarchy nodes.
 Its Windows subgroup and first article progress in batch 22 below.
 
-Batch 22 classifies Windows-programming group 0027 as a non-owning heading
-and preserves Visual C++ article 0028 on PDF 298–303 / printed 290–295 as
-immutable partial native a. The full source extent is 298–308: prose ends on
-306 and the numbered listing ends at row 141 on 308. Final pages 304–308 and
-actual complete-article assembly remain pending. Page 309 is an independent
-advertisement; 310 starts the next article. Group 0027 keeps four children and
-no inherited folio or body. Child 0031's opening says 연재강좌 despite its
-contents position under implementation/Windows; both observations remain.
+Batch 22 classified Windows group 0027 and preserved the opening native of 0028:
+254 reproducible native files and eight group/status files. Its final five pages
+and full assembly are completed by batch 23 below.
 
-The 254 native files and eight group/status files match independent and
-fresh-process exports. All 65 mapped crops match the declared exclusion masks;
-five group crops match source pixels. Validation covers 60 OCR outcomes,
-1,227 typed ranges, 390 reading rows, seven code contexts / 70 code rows,
-four diagrams and their literal captions, a four-item outline, ten WNDCLASS
-fields, four class cards / twenty fields, fourteen continuations and 246 ZIP
-members. Seven range, 24 context and ten status faults are rejected.
-Source CEidt, COLOR_BTFACE, bracket-shaped delimiters, ellipses and technical
-claims remain literal, with explicit glyph/byte uncertainties. All initial
-drafts were read before one correction pass; zero retries or later text repairs.
-Two valid pre-OCR maps, one failed constructor and sixty margin refinements
-remain. A retained validation-harness revision applies the existing exclusion
-mask to a one-pixel header boundary on 301; no source or package changes.
-All 12,539 prior March files and thirty core modules remain exact; the unchanged
-214-test baseline is reused. Human acceptance and full proofreading are pending.
+Batch 23 completes Visual C++ article 0028 on PDF 298–308 / printed 290–300.
+Its final native b preserves 304–308; the actual eleven-page parent now combines
+both immutable natives. Prose ends on 306 with the editor credit, and the listing
+ends at numbered row 141 on 308. Independent recruitment below the listing and
+advertisement 309 remain excluded. The 303→304 section break needs no text join.
 
-Six frozen status fields in both batch 21 revisions are resolved externally.
-All fourteen required final-status evidence files remain available.
-Native: `archive/pdf/1995-03/packages/batch-22-r01/visual-a/`.
-Group/status: `archive/pdf/1995-03/classifications/batch-22-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-22/`.
-Totals: twelve readable, one partial, six non-owning headings, eight references
-and 63 unresolved. Next restore 0028's final 304–308 as native b, then assemble
-298–308. Preserve screenshots, captions, editor credit, numbered listing rows
-and source code defects. Exclude the independent publisher recruitment at the
-bottom of 308 and advertisement 309. The 303→304 boundary is a section break,
-not a prose join. Resolve frozen partial statuses through new external evidence.
-Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+All 485 parent files match independent and fresh-process exports; the independent
+assembly consumes 476 byte-identical regenerated native files. The selected
+222-file final native also reproduces exactly. Its retained first export differs
+only in metadata separating an assistant icon description from printed labels.
+Validation covers 122 pixel-exact crops after declared exclusions, 112 OCR
+outcomes, 90 blocks, ten original images, 719 reading rows, fourteen code contexts
+with 283 rows, and 466 raw ZIP members. All 3,072 native typed occurrences and
+custom metadata survive projection; 6,158 current-root ranges are checked.
+The final native preserves 141 numbered rows, eight table rows, five literal
+captions and the editor credit. Printed errors and ambiguous delimiters remain;
+six slash-rule lengths and I/l/1 readings are explicit candidates.
+
+All 52 new initial drafts were read before one correction pass; zero retries or
+later text repairs. Three pre-OCR maps and 53 refinements remain available.
+Thirty native, nineteen assembly and twelve status faults are rejected.
+All 13,402 prior March files and thirty core modules remain exact; the unchanged
+214-test baseline is reused. Exact glyphs/code bytes, technical claims, full
+proofreading and human acceptance remain unverified.
+
+Sixteen frozen partial-status pointers are resolved externally. All fifteen
+required final-status evidence files remain available. Group 0027 retains its
+four children without owning their text; 0029–0031 remain unresolved. Child 0031's
+opening says 연재강좌 despite its contents position under implementation/Windows;
+both observations remain without reparenting.
+Complete article: `archive/pdf/1995-03/packages/article-visual-cpp-r01/`.
+Final native: `archive/pdf/1995-03/packages/batch-23-r02/visual-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-23-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-23/`.
+Totals: thirteen readable, zero partials, six non-owning headings, eight references
+and 63 unresolved. Next review 0029 from observed PDF 310 / printed 302 and verify
+its full extent toward the next article opening on 318 before mapping at most
+six pages. Keep two canonical tasks / six mapped pages / twenty outside lookups
+per checkpoint; preserve immutable segments and assemble separately if needed.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.

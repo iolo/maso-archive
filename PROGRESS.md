@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — Complete March Visual C++ article
+
+- Batch 23 preserves final PDF 304–308 and assembles article 0028 across all
+  eleven pages, 298–308. The 485 parent files and 222 selected native files
+  reproduce independently and in a fresh process.
+- Validation checks 122 source crops, 3,072 projected native occurrences,
+  fourteen code contexts / 283 rows, all 141 numbered listing rows, and 61
+  negative cases. All 13,402 earlier files and thirty core modules remain exact.
+- One source correction pass, zero retries or later text repairs. Printed code
+  defects and glyph uncertainties remain explicit; human acceptance is pending.
+  Sixteen frozen partial statuses are resolved externally without rewriting them.
+- Totals: thirteen readable, zero partials, six groups, eight references,
+  63 unresolved. Next verify article 0029 from PDF 310 before mapping its first
+  bounded segment. FLC0019 and issue accounting remain open; the full March
+  goal stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Restore first March Visual C++ segment
 
 - Batch 22 classifies Windows group 0027 and preserves article 0028's opening
