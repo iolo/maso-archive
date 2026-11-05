@@ -267,47 +267,47 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 41 completes DOC/VIEW article 0039 across PDF 408–415 / printed 400–407.
-The final 414–415 native preserves six code contexts, closing prose, editor credit,
-ending mark and the diskette-file table. Exception-handling article 0040 opens 416.
-The complete article assembles immutable natives from batches 40 and 41.
+Batch 42 preserves exception-handling article 0040 on PDF 416–421 / printed
+408–413 as a partial native. Its complete extent is PDF 416–425 / printed 408–417,
+verified from individual folios and neighboring article boundaries. DOC/VIEW ends
+415; Win32 article 0041 begins 426. Pages 422–425 and complete assembly remain.
 
-All 371 parent files reproduce independently and in a fresh process, including
-362 unchanged nested native files. Validation covers 89 pixel-exact crops,
-85 OCR outcomes, 2,483 projected metadata occurrences, 4,978 current text ranges,
-524 nonempty reading rows and 352 exact ZIP members. All 73 original blocks
-remain exact source intervals in 72 current blocks. One OK-button prose join
-`BN_CLICKED를`→`선택한다.` retains physical LF across the independent manual
-sidebar. All code bytes concatenate unchanged; no external code join is needed.
-Twelve internal boundaries preserve physical prose and code rows.
+All 369 native files reproduce independently and in a fresh process. Validation
+covers 93 pixel-exact crops, 89 OCR outcomes, 1,726 text ranges, 75 blocks,
+427 nonempty reading rows and 361 exact ZIP members. Three numbered diagrams
+retain their captions, sixteen separately mapped labels and six arrows; the
+circle/cross symbols remain image-authoritative. Three prose references resolve.
+The opening emblem has no caption. The three-part series outline, final
+installment marker, standfirst and template sidebar remain distinct.
 
-Thirteen unnumbered code contexts retain 206 nonempty and 56 blank rows.
-Fifty-three printed slash-rule rows carry explicit count-unverified markers.
-Seven snippets lack closing braces in print; none are supplied. Printed variable,
-macro, constructor, punctuation and repeated-comment discrepancies remain literal,
-with 25 localized source candidates. Two property tables and the diskette table
-retain three header rows, nine data rows and 34 cells. The diskette filename
-EXAM2.EXE remains a printed reference without an automatic CD association.
-Two screenshots retain actual captions; the opening and ending emblems have none.
-The series outline, standfirst, manual sidebar and 31 list items remain distinct.
+Fourteen unnumbered code contexts retain 132 nonempty and five blank rows.
+Twenty-two printed omission markers remain literal. Fifteen localized candidates
+and 98 brace/quote glyph occurrences record uncertainty. Missing semicolons,
+return types and inheritance, multiline strings, printed `/n`, Korean pseudocode,
+and the lower-case-o/zero and won/backslash candidates are not silently repaired.
+Twelve joins preserve fourteen boundaries, including two code page continuations
+and one code column continuation. The range example passes the independent
+sidebar and third diagram. The page 421 rethrow example ends before page 422's
+explanation; no external prose or code join is required.
 
-All 22 final-page drafts were read before one source correction pass; zero retries
-or within/post-pass text repairs. Two valid maps and twelve pre-OCR refinements
-retain the original attempts. All 66 invalid range/context/status cases reject.
-All 33,108 prior March files and thirty core modules remain exact; the unchanged
-214-test baseline is reused. Twenty-four frozen status pointers resolve externally.
-Thirty-three classification evidence records are required for final closeout.
-Exact glyphs, spaces, encoded bytes, slash counts, technical claims, execution,
-full proofreading and human acceptance remain unverified.
+All 89 initial drafts were read before one source correction pass, with zero
+retries or within/post-pass text repairs. Two valid maps and 39 pre-OCR crop
+refinements are retained. All 46 invalid range/context/status cases reject.
+All 33,856 prior March files and thirty core modules remain exact; the unchanged
+214-test baseline is reused. Fourteen frozen status pointers resolve externally.
+Thirty-four classification evidence records are required for final closeout.
+Exact glyphs, spaces, encoded bytes, technical claims, execution, full proofreading
+and human acceptance remain unverified.
 
-Complete article: `archive/pdf/1995-03/packages/article-docview-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-41-r01/docview-b/`.
-Current status: `archive/pdf/1995-03/classifications/batch-41-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-41/`.
-Totals: twenty-one readable, zero partial, nine non-owning headings, eight references
-and 52 unresolved. Windows group 0037 remains non-owning: 0038 and 0039 are readable;
-0040–0041 remain unresolved. Next verify exception-handling0040 from PDF 416 /
-printed 408, establish its complete extent and restore bounded native segments.
+Partial native: `archive/pdf/1995-03/packages/batch-42-r01/exception-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-42-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-42/`.
+Totals: twenty-one readable, one partial, nine non-owning headings, eight references
+and 51 unresolved. Windows group 0037 remains non-owning: 0038 and 0039 are readable,
+0040 is partial and 0041 remains unresolved. Next restore 422–425 and assemble
+416–425, preserving the independent unexpected()/terminate() sidebar on 424 and
+the final prose, editor credit and ending mark. Then verify Win32 article 0041
+from PDF 426 / printed 418 in a later bounded checkpoint.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md). The full March goal remains active

@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March exception-handling opening pages restored
+
+- Batch 42 preserves article 0040 on PDF 416–421 of its verified 416–425 extent.
+  Three diagrams, sixteen labels, fourteen code contexts and the template sidebar
+  retain their source relationships and literal anomalies.
+- All 369 files reproduce independently and in a fresh process. Validation covers
+  93 exact crops and 1,726 text ranges; all 46 invalid cases reject. All 33,856
+  prior March files remain unchanged. Fourteen historical status pointers resolve.
+- Totals: twenty-one readable, one partial, nine groups, eight references and
+  51 unresolved. Next restore 422–425 and assemble the complete 416–425 article.
+  No external prose/code join is required. FLC0019, full-issue accounting, cover
+  and closeout remain open. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March DOC/VIEW article completed
 
 - Batch 41 completes article 0039 on PDF 408–415, preserving thirteen code
