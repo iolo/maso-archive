@@ -2710,12 +2710,85 @@
       "toc_entry_id": "maso-1995-03-toc-0039",
       "title": "비주얼 프로그래밍의 매력 제안, 비주얼 C++2.0[2] : DOC 클래스와 VIEW 클래스",
       "parent_id": "maso-1995-03-toc-0037",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "DOC/VIEW0039 PDF408–413 / printed400–405 restored as immutable native a. Full408–415 /400–407 extent verified.407 ends prior FoxPro;416 opens exception-handling0040.415 ends main prose with editor credit,ending mark anddiskette table. Remaining414–415 and actual full assembly pending.",
+        "264 selected, independent and fresh-process files match;66 pixel-exact crops,63 OCR outcomes,1681 typed ranges,54 blocks,392 nonempty reading rows,three original images and256 exact ZIP members validate.",
+        "Two screenshots retain actual captions;four source references resolve. Opening category emblem has null caption. Six-part series outline,current installment2,independent standfirst andmanual-purchase sidebar retain source contexts. Canonical title and printed series title/headline/byline remain distinct.",
+        "Two property tables retain two header rows,eight data rows,three columns and30 literal cells. Printed caption value 없음 is text rather than an invented blank. Six source list contexts preserve31 items,including seven project steps,four MFC roles,six requirements,five printed behavior bullets andthree historical prices. Unbulleted OK explanation remains in its source context.",
+        "Seven unnumbered code contexts preserve127 nonempty and35 blank rows;29 slash-rule rows use explicit source-linked count-unverified markers. Three snippets lack source closing braces;none supplied. Printed CECLARE_DYNCREATE,GetDucument,CEX2Dlg::CMyDlg,mPos/nPos,Lable/Lebel/LabelContents anddot separator anomalies remain literal.17 localized source candidates remain.",
+        "Nine internal boundaries preserve physical rows and one code-column continuation. Main413–414 continues BN_CLICKED를 to선택한다.;manual sidebar remains independent. No outgoing code join. All63 drafts read before one source pass;zero recognition retries or within/post-pass text repairs. Two valid maps and11 pre-OCR refinements retained.",
+        "44 invalid range,context,status cases rejected. All32194 prior March files and30 core pins unchanged;unchanged214-test baseline reused. Ten frozen status pointers resolve externally. Windows0037 remains non-owning:0038 readable,0039 partial,0040–0041 unresolved. Exact glyphs,spaces,encoded bytes,rule counts,claims,execution,full proofreading andhuman acceptance unverified;no automatic CD association."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-40-r01/docview-a",
+        "article_id": "scan-maso-1995-03-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-40-r01/docview-a/manifest.json",
+          "sha256": "a448aac4f7252f41d8621d7dcb0d14f919ccef6fb7654252ce39fba1d2fad44d",
+          "bytes": 44351
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-40/docview-a-r02/package-recipe.json",
+          "sha256": "65ec9d4e2fc0f8365e8a46396f3f251acfac23bfa33522f789d7b0d9379bdfd3",
+          "bytes": 9049
+        },
+        "coverage": {
+          "pdf_pages": [
+            408,
+            409,
+            410,
+            411,
+            412,
+            413
+          ],
+          "printed_pages": [
+            "400",
+            "401",
+            "402",
+            "403",
+            "404",
+            "405"
+          ],
+          "regions": 66,
+          "blocks": 54,
+          "figures": 3,
+          "deferred_pdf_pages": [
+            414,
+            415
+          ],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 408,
+        "actual_end_pdf_page": 415,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-40-r01/source-creation-dispositions.json",
+          "sha256": "f09681e08d2c91e648ac0881aab916cd0a609a4fbea54f87298f18a562b4a0c1",
+          "bytes": 8433
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-40/validation.json",
+          "sha256": "bdc17db9b49b8531aa27f575d9a5187bfa0c1139bf78cc26310131df408118af",
+          "bytes": 2265
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-40/reproduction.json",
+          "sha256": "5d94aff3b32a2e0e4f88f79e6d32bcd967fd8ed0d69d605d550acc7833f6ec25",
+          "bytes": 50989
+        },
+        "classification_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-40/classification-reproduction.json",
+          "sha256": "daf9e4cd35b8c28c91503c1e0e5bfa916e9f411e6f38113e9c84d878a3bdb241",
+          "bytes": 571
+        },
+        "checkpoint": "batch-40"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0040",
@@ -4666,22 +4739,64 @@
         "sha256": "8d985809890a0148b5cb65e3bee2b58d635a9d2be75b9863c0f9bf9cb1e65baa",
         "bytes": 572
       }
+    },
+    {
+      "name": "1995-03-batch-40",
+      "status": "complete",
+      "completed_at": "2026-11-05T05:39:34.903039+00:00",
+      "goal": "Restore first six pages408–413 ofDOC/VIEW0039 after establishing full408–415 extent.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0039"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        408,
+        409,
+        410,
+        411,
+        412,
+        413
+      ],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 63,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "pre_ocr_refinement_events": 11,
+      "valid_pre_ocr_maps": 2,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-40/validation.json",
+        "sha256": "bdc17db9b49b8531aa27f575d9a5187bfa0c1139bf78cc26310131df408118af",
+        "bytes": 2265
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-40/reproduction.json",
+        "sha256": "5d94aff3b32a2e0e4f88f79e6d32bcd967fd8ed0d69d605d550acc7833f6ec25",
+        "bytes": 50989
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-40/classification-reproduction.json",
+        "sha256": "daf9e4cd35b8c28c91503c1e0e5bfa916e9f411e6f38113e9c84d878a3bdb241",
+        "bytes": 571
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
     "readable": 20,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 9,
     "section_references": 8,
-    "unresolved": 53
+    "unresolved": 52
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify DOC/VIEW article0039 from PDF408 / printed400, establish its complete extent and restore in bounded native segments. Preserve canonical hierarchy and independent source contexts. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover and separate issue closeout before July;no reader rebuild/deployment.",
+  "next_checkpoint": "Restore DOC/VIEW0039 remaining PDF414–415 / printed406–407 as immutable native b,then assemble full408–415. Preserve incoming OK-button instruction continuation BN_CLICKED를→선택한다. with physical LF,distinct code excerpts,final prose/editor/endingmark anddiskette table. Resolve frozen partial states externally. Then verify exception-handling0040 fromPDF416/printed408 in a later bounded checkpoint. FLC0019 awaits bounded lookup/issue accounting. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. Complete allMarch outcomes,545-page accounting,cover andseparate closeout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -4837,6 +4952,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-39-r01/source-creation-dispositions.json",
       "sha256": "1f5430101d0bf071e46d7d4b6b90714dc6addfe0195fe6228685e389ce3d949a",
       "bytes": 18388
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-40-r01/source-creation-dispositions.json",
+      "sha256": "f09681e08d2c91e648ac0881aab916cd0a609a4fbea54f87298f18a562b4a0c1",
+      "bytes": 8433
     }
   ]
 }

@@ -1,5 +1,22 @@
 # Progress
 
+## 2026-11-05 — March DOC/VIEW opening and code examples
+
+- Batch 40 restores article 0039 on PDF 408–413. The complete observed extent
+  is 408–415; remaining 414–415 and full assembly are pending.
+- All 264 native files reproduce independently and in a fresh process.
+  Validation covers 66 crops, 1,681 text ranges, two captioned screenshots,
+  thirty table cells, 31 list items and seven code contexts. All 44 invalid
+  cases reject; all 32,194 prior files remain exact.
+- Printed code discrepancies, incomplete fragments and 29 count-unverified
+  slash-rule rows remain explicit. Ten historical status pointers resolve
+  externally; exact source bytes, execution and human acceptance are unverified.
+- Totals: twenty readable, one partial, nine groups, eight references and
+  52 unresolved. Next restore 414–415 and assemble full 408–415, retaining the
+  incoming prose continuation and distinct code, editor and diskette contexts.
+  FLC0019 and full-issue accounting remain open; the March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Visual FoxPro complete
 
 - Batch 39 completes article 0038 on PDF 400–407 from two preserved segments.
