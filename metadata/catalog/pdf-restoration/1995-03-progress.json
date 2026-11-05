@@ -2064,29 +2064,28 @@
       "parent_id": "maso-1995-03-toc-0027",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Curves0030 first six pages PDF318–323/printed310–315 restored as immutable partial native. Full extent318–324 verified: prose ends322 with editor credit and three references; code listings continue through324 above an independent advertisement.325 advertising;326 next article.",
-        "315 selected/independent/fresh-process files match;87 exact mapped crops,73 OCR outcomes,1790 typed ranges,57 blocks,376 reading rows and307 ZIP members. Fourteen images comprise six diagram panels,six displayed equations,opening category art andclosing mark.",
-        "Five-part series outline,three mathematical expression forms,four comparison rows/eight cells andthree bibliography entries retain distinct contexts. Equation and diagram label candidates are linked to original images; mathematical and bibliographic claims remain unverified.",
-        "CURVE.H retains135 numbered rows andone continuing code context. Printed square-bracket-shaped delimiters,underscore/prime glyph candidates andreference spelling pratice are not repaired. Full source323 ends135;324 begins137. Unobserved136 is not synthesized.",
-        "Sixteen internal continuations retain physical LF. Final324 andactual complete article assembly remain required. Prose closes322;the continuing listing must not be confused with a prose boundary.",
-        "All73 initial drafts read before one source pass;zero retries or within/post-pass text repairs. Two valid pre-OCR maps and29 crop refinements retained. Six range,twenty context andtwelve status faults rejected. All18852 prior files andthirty core pins unchanged;214-test baseline reused. Exact glyphs,spacing,source bytes,claims,full proofreading andhuman acceptance unverified.",
-        "Fourteen frozen0030 classification/ownership pointers resolved externally;non-owning group0027 has0028/0029 readable,0030 partial and0031 unresolved. Earlier evidence and0031 source-banner discrepancy retained."
+        "Complete curves0030 PDF318–324/printed310–316 assembled from immutable opening318–323 and final324 natives. Prose ends322 with editor credit, closing mark and three references; listings end324 above independent book advertisement.325 advertising;326 next article.",
+        "353 selected/independent/fresh-process parent files match, including344 nested native files.92 crops,78 OCR outcomes,2249 projected metadata ranges,4499 current ranges and334 ZIP members validated.60 original source blocks remain exact intervals in59 current blocks.",
+        "CURVE.H joins across323–324 using existing terminal LF; listing.txt equals exact concatenation of native listings. Two current code contexts preserve139 CURVE.H rows and56 CURVE.CPP rows. Printed136 and055 are unobserved; final closing delimiter after closegraph(); is unobserved. No source code invented.",
+        "437 reading rows,four table rows/eight cells/two headers,five-part outline,three expression forms,three references,six equation images andsix diagram panels retained. Source equations remain authoritative images; candidates and technical claims unverified. Printed brackets,underscore/prime candidates and pratice spelling retained.",
+        "Five final-page drafts read before one source correction pass; one map,zero retries/refinements/later text changes.52 invalid range/context/status cases rejected; all19894 prior March files and30 core pins unchanged. Unchanged214-test baseline reused. Exact glyphs,spaces,code bytes,mathematical/technical claims,full proofreading andhuman acceptance unverified.",
+        "Thirty frozen partial/status pointers resolved externally; earlier files and native evidence unchanged. Non-owning group0027 has0028/0029/0030 readable and0031 unresolved. Canonical hierarchy and0031 source-banner discrepancy retained."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-26-r01/curves-a",
+        "directory": "archive/pdf/1995-03/packages/article-curves-r01",
         "article_id": "scan-maso-1995-03-toc-0030",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-26-r01/curves-a/manifest.json",
-          "sha256": "60317206fa32e21caed9c403b7f097b3808445f5a5615cf6ec1b46c3b925cb91",
-          "bytes": 53392
+          "path": "archive/pdf/1995-03/packages/article-curves-r01/manifest.json",
+          "sha256": "7eb28e5fb935b875bf043e8cf92680e1f271bbc995c8c982bf5b8e1491188c34",
+          "bytes": 63243
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-26/curves-a-r02/package-recipe.json",
-          "sha256": "77c9a54a435002d1ddc4eda2368f85deb89035074846c915d8aa98f47a33eca5",
-          "bytes": 12177
+          "path": "archive/pdf/1995-03/restoration/batch-27/assembly-recipe.json",
+          "sha256": "3103475246af7ac773328798f9425d9e1bb641045899cc46063216a1d7f33e64",
+          "bytes": 2078
         },
         "coverage": {
           "pdf_pages": [
@@ -2095,7 +2094,8 @@
             320,
             321,
             322,
-            323
+            323,
+            324
           ],
           "printed_pages": [
             "310",
@@ -2103,42 +2103,41 @@
             "312",
             "313",
             "314",
-            "315"
+            "315",
+            "316"
           ],
-          "regions": 87,
-          "blocks": 57,
+          "regions": 92,
+          "blocks": 59,
           "figures": 14,
-          "deferred_pdf_pages": [
-            324
-          ],
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 318,
         "actual_end_pdf_page": 324,
         "source_creation_dispositions": {
-          "path": "archive/pdf/1995-03/classifications/batch-26-r01/source-creation-dispositions.json",
-          "sha256": "e01ab9fb678467638cb19518eb701e29d96055a3e05e97af29ecad18e38a4660",
-          "bytes": 10536
+          "path": "archive/pdf/1995-03/classifications/batch-27-r01/source-creation-dispositions.json",
+          "sha256": "4a358cec99a9ec3c3ec7d8fe45e00714cec30836cd3b88dfc14ced434a6271ec",
+          "bytes": 20171
         },
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-26/validation.json",
-          "sha256": "dac2ec7a7bd84b7677c98fc3f11304e531126faebb4a274a1e7145832beda728",
-          "bytes": 2151
+          "path": "archive/pdf/1995-03/restoration/batch-27/validation.json",
+          "sha256": "9365c086a70e995ff9398aba905b08a8b3dbec43f1b2aefe3c3d798bbdabb306",
+          "bytes": 2316
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-26/reproduction.json",
-          "sha256": "de480483eecfaf3dba465c7e233299048c9deb5bb8c0d1c1de0e7087a41a99e4",
-          "bytes": 61019
+          "path": "archive/pdf/1995-03/restoration/batch-27/assembly-reproduction.json",
+          "sha256": "3960b7f7894d6a31b8d24cf593f52d3d44fd2b8f296c047ed6610c07a02d1996",
+          "bytes": 65636
         },
         "classification_reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-26/classification-reproduction.json",
-          "sha256": "4bb30bcb7906f79b0741db41f4577e24902eb71bb1fa6fd45031abac90027397",
+          "path": "archive/pdf/1995-03/restoration/batch-27/classification-reproduction.json",
+          "sha256": "66b13150c918815e2b1cc3af676a66a4fe58a92de35f6e49d4619dc0d632c288",
           "bytes": 572
         },
-        "checkpoint": "batch-26"
+        "checkpoint": "batch-27"
       }
     },
     {
@@ -3679,12 +3678,49 @@
         "sha256": "4bb30bcb7906f79b0741db41f4577e24902eb71bb1fa6fd45031abac90027397",
         "bytes": 572
       }
+    },
+    {
+      "name": "1995-03-batch-27",
+      "status": "complete",
+      "completed_at": "2026-11-05T01:19:55.039961+00:00",
+      "goal": "Restore curves0030 final324, validate native b, then separately assemble actual full318–324 article.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0030"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        324
+      ],
+      "outside_lookup_pages": 3,
+      "recognition_invocations": 5,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "pre_ocr_refinement_events": 0,
+      "valid_pre_ocr_maps": 1,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-27/validation.json",
+        "sha256": "9365c086a70e995ff9398aba905b08a8b3dbec43f1b2aefe3c3d798bbdabb306",
+        "bytes": 2316
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-27/assembly-reproduction.json",
+        "sha256": "3960b7f7894d6a31b8d24cf593f52d3d44fd2b8f296c047ed6610c07a02d1996",
+        "bytes": 65636
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-27/classification-reproduction.json",
+        "sha256": "66b13150c918815e2b1cc3af676a66a4fe58a92de35f6e49d4619dc0d632c288",
+        "bytes": 572
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 14,
-    "partial": 1,
+    "readable": 15,
+    "partial": 0,
     "group_headings": 6,
     "section_references": 8,
     "unresolved": 61
@@ -3694,7 +3730,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore curves0030 finalPDF324/printed316: CURVE.H closing rows137–140 andCURVE.CPP listing, preserving source numbering gaps136/055 andany ending defect rather than inventing code. Exclude lower independent book advertisement. Then separately assemble actual full318–324 article andresolve frozen partial statuses externally. Continue0031 at observed326, retaining sourcebanner 연재강좌 versus canonical hierarchy. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover andseparate issue closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Verify0031 article extent from observedPDF326, retaining sourcebanner 연재강좌 versus canonical Windows hierarchy. Restore at most six mapped pages as its first native segment; inspect actual ending/continuations rather than assume next TOC page. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover andseparate issue closeout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -3785,6 +3821,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-26-r01/source-creation-dispositions.json",
       "sha256": "e01ab9fb678467638cb19518eb701e29d96055a3e05e97af29ecad18e38a4660",
       "bytes": 10536
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-27-r01/source-creation-dispositions.json",
+      "sha256": "4a358cec99a9ec3c3ec7d8fe45e00714cec30836cd3b88dfc14ced434a6271ec",
+      "bytes": 20171
     }
   ]
 }

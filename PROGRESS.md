@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — Complete March curves article
+
+- Batch 27 restores final PDF 324 and assembles the complete 318–324 article.
+  All 353 parent files reproduce independently and in a fresh process,
+  including both immutable natives (344 files).
+- Validation covers 92 crops, 4,499 current ranges, two code contexts with
+  195 numbered rows and 52 negative cases. All 19,894 prior files stay exact.
+  Printed numbering gaps and missing final code delimiter remain explicit.
+- Thirty historical status pointers resolve externally. Totals: fifteen
+  readable, zero partials, six groups, eight references and 61 unresolved.
+  Next verify 0031 from PDF 326. FLC0019 and whole-issue accounting remain open;
+  the full March goal stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Restore March curves opening segment
 
 - Batch 26 preserves article 0030 on PDF 318–323. Final page 324 and actual

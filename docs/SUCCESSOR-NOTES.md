@@ -19,45 +19,43 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 26 preserves curves article 0030 on PDF 318–323 / printed 310–315 as
-an immutable partial native. The full observed extent is 318–324. Prose ends
-on 322 with editor credit and three references; two code listings extend through
-324 above an independent book advertisement. Page 325 is advertising; 326
-opens 0031. Final page 324 and actual complete-article assembly remain pending.
+Batch 27 completes curves article 0030 across PDF 318–324 / printed 310–316.
+The final-page native adds 60 numbered rows; the complete assembly joins the
+CURVE.H continuation using its existing terminal LF and retains CURVE.CPP as a
+separate captioned code context. All 60 source blocks remain exact intervals
+in 59 assembled blocks. Prose, editor credit, closing mark and three references
+end on 322; listings end on 324 above an independent book advertisement.
 
-All 315 native files match independent and fresh-process exports. Validation
-covers 87 pixel-exact crops, 73 OCR outcomes, 1,790 typed ranges, 57 blocks,
-376 reading rows and 307 ZIP members. Fourteen images preserve six diagram
-panels, six displayed equations, opening category art and the closing mark.
-The five-part outline, three mathematical expression forms, four comparison
-rows / eight cells and three bibliography entries retain distinct contexts.
-Equation and diagram candidates remain linked to authoritative source images.
+All 353 parent files match independent and fresh-process exports, including
+344 unchanged nested native files. Checks cover 92 exact crops, 78 OCR outcomes,
+2,249 projected metadata ranges, 4,499 current ranges, 437 reading rows and
+334 ZIP members. Two code contexts contain 195 numbered rows. The four-row,
+eight-cell comparison table, six equation images and six diagram panels remain
+source-linked. Equation candidates do not certify mathematical correctness.
 
-CURVE.H preserves 135 numbered rows as one continuing code context. The full
-source ends page 323 at row 135 and begins 324 at 137; row 136 is not invented.
-Printed bracket-shaped delimiters, underscore/prime glyph candidates and
-reference spelling pratice remain literal. Sixteen internal joins preserve LF.
-All 73 initial drafts were read before one correction pass; zero retries or
-later text changes. Two pre-OCR maps and 29 crop refinements remain available.
-All 38 invalid range/context/status cases are rejected. All 18,852 prior March
-files and thirty core modules remain exact; the unchanged 214-test baseline is
-reused. Exact glyphs, source bytes, mathematical/technical claims, full proofreading
-and human acceptance remain unverified.
+Printed CURVE.H row 136 and CURVE.CPP row 055 are unobserved, as is the final
+closing delimiter after closegraph(); no code is invented. Bracket-shaped
+delimiters, underscore/prime candidates and reference spelling pratice remain.
+The five final-page drafts were read before one correction pass; one map,
+zero retries, refinements or later text changes. All 52 invalid range/context/status
+cases are rejected. All 19,894 prior March files and thirty core modules stay exact;
+the unchanged 214-test baseline is reused. Exact glyphs, spacing, encoded bytes,
+mathematical/technical claims, full proofreading and human acceptance are unverified.
 
-Fourteen frozen 0030 classification/ownership pointers are resolved externally;
-all eighteen required final-status evidence files are retained. Group 0027 remains
-non-owning: 0028/0029 are readable, 0030 partial and 0031 unresolved. The 0031
-source-banner discrepancy is unchanged.
-Native: `archive/pdf/1995-03/packages/batch-26-r01/curves-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-26-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-26/`.
-Totals: fourteen readable, one partial, six non-owning headings, eight references
-and 61 unresolved. Next restore final 324: CURVE.H rows 137–140 and CURVE.CPP,
-preserving printed numbering gaps and ending defects without invented code.
-Exclude the lower advertisement, then separately assemble 318–324 and resolve
-frozen partial statuses externally. Continue 0031 from observed 326 afterward.
-Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-FLC0019 awaits bounded lookup or issue accounting. See [March progress](progress/9503.md).
+Thirty frozen partial-status pointers are resolved externally. All nineteen
+required final-status evidence files remain retained. Group 0027 is non-owning:
+0028/0029/0030 are readable and 0031 unresolved. Canonical hierarchy and the 0031
+source-banner discrepancy remain unchanged.
+Complete article: `archive/pdf/1995-03/packages/article-curves-r01/`.
+Final native: `archive/pdf/1995-03/packages/batch-27-r01/curves-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-27-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-27/`.
+Totals: fifteen readable, zero partials, six non-owning headings, eight references
+and 61 unresolved. Next verify 0031 from observed PDF 326, preserving its
+연재강좌 source banner versus canonical Windows hierarchy; restore its first
+bounded segment after checking the actual extent. Keep two canonical tasks /
+six mapped pages / twenty outside lookups per checkpoint. FLC0019 awaits bounded
+lookup or issue accounting. See [March progress](progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
