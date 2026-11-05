@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March NT beta review and resource-kit continuation preserved
+
+- Batch 52 preserves NT0046 PDF 476–481, extending retained pages to 459–481.
+  All 338 native files reproduce; 87 crops, 81 OCR outcomes, 1,224 text ranges
+  and 331 ZIP members validate. Seven guide categories retain 71 utilities;
+  Access retains seven files. Five screenshots and a directory tree retain pixels.
+- Source reference, caption/image and heading-count discrepancies remain explicit.
+  All 34 invalid cases reject; 46,274 earlier files and 30 core modules remain exact.
+  Three frozen scope pointers are updated in external status.
+- Totals remain 25 readable, one partial, 11 groups, eight references and 45 unresolved.
+  Next restore 482–484 and assemble the full article. FLC0019, 545-page accounting,
+  cover and separate closeout remain pending. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March NT administration continuation preserved
 
 - Batch 51 preserves NT0046 PDF470–475, extending retained pages to459–475.

@@ -19,47 +19,53 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 51 preserves NT article 0046 continuation PDF 470–475 / individually
-observed printed 462–467 as immutable native c. Natives a/b/c now preserve
-459–475. Remaining 476–484 and actual full article assembly stay pending;
-interior continuity has been reviewed through boundary page 476.
+Batch 52 preserves NT article 0046 continuation PDF 476–481 / individually
+observed printed 468–473 as immutable native d. Natives a/b/c/d now preserve
+459–481. Remaining 482–484 and actual full article assembly stay pending;
+interior continuity has been reviewed through boundary page 482.
 
-All 384 native files reproduce independently and in a fresh process. Validation
-covers 103 pixel-exact crops, 91 original OCR outcomes, 1,007 typed ranges,
-82 blocks, 391 physical reading rows and 377 exact ZIP members. Service table 2
-retains thirteen rows, 26 cells, two headers and three new-function asterisks.
-Five driver startup modes and four numbered monitor modes retain physical wraps.
-Eleven screenshots 5–15 retain literal captions. The backup prose names screen 13,
-while its observed window is in screen 14; that discrepancy remains explicit.
+All 338 native files reproduce independently and in a fresh process. Validation
+covers 87 pixel-exact crops, 81 original OCR outcomes, 1,224 typed ranges,
+70 blocks, 393 physical reading rows and 331 exact ZIP members. Seven resource-guide
+categories retain 71 utilities; Access has seven separately indexed files.
+SMBTRACE retains its second physical row. The directory tree retains five nodes
+and original connector geometry. Three event categories remain separate.
+Five screenshots 16–20 and the directory tree retain original pixels.
 
-Nine text groups preserve nine boundaries: eight LF and one double LF for the
-chat paragraph on 470→471. Incoming 469→470 is `이`→`렇게 되면`; outgoing
-475→476 is `이용`→`하고 싶은`. Both require LF during eventual assembly.
-Printed Workstaion, operaring, 다바이스, 관리될, 미쳐 and other wording and
-glyph candidates remain literal. No historical or technical claims are verified.
+Nine groups preserve eleven boundaries: eight LF, one double LF for the toolbar
+paragraph on 477→478, and two dropcap folds. Incoming 475→476 is `이용`→`하고 싶은`;
+outgoing 481→482 is `수행시키면`→`자동으로 설치된다.`. Both need LF during assembly.
+Part 2 closes on 476, Part 3 starts on 477 and the resource-kit section starts
+on 479, with no prose joins across those sections.
 
-All 91 initial drafts were read before one source correction pass. Two maps
-retain nineteen pre-OCR refinements; zero retries or within/post-pass text changes.
-Thirty invalid range/context cases reject. All 45,008 earlier March files and
-thirty core modules remain exact; the unchanged 214-test baseline is reused.
-One reproducible external status sidecar updates three frozen scope statements
-without rewriting prior natives or group evidence. Forty-six classification/status
-evidence records are required at final closeout. Exact glyphs, spacing, encoded
-bytes, execution, full proofreading and human acceptance remain unverified.
+Two reference discrepancies (15/16 and 16/17), three caption/image mismatches
+(18–20), four unresolved local references (1/1/2/3), and a heading saying two
+issues while its paragraph says three remain explicit. Printed Diagnotics,
+Adminstrator, KNOWLEGE, ACCES S, 가사, 아다시피 and other source candidates remain
+literal. No historical or technical claims are verified.
 
-Partial NT native: `archive/pdf/1995-03/packages/batch-51-r01/nt-c/`.
-Earlier natives: `archive/pdf/1995-03/packages/batch-49-r01/nt-a/` and
-`archive/pdf/1995-03/packages/batch-50-r01/nt-b/`.
-External status: `archive/pdf/1995-03/classifications/batch-51-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-51/`.
+All 81 initial drafts were read before one source correction pass. Two maps
+retain 32 pre-OCR refinements; zero retries or within/post-pass text changes.
+Thirty-four invalid range/context cases reject. All 46,274 earlier March files
+and thirty core modules remain exact; the unchanged 214-test baseline is reused.
+One reproducible external status file updates three frozen scope pointers without
+rewriting older evidence. Forty-seven classification/status evidence records are
+required at closeout. Exact glyphs, spacing, encoded bytes, execution, full
+proofreading and human acceptance remain unverified.
+
+Partial NT native: `archive/pdf/1995-03/packages/batch-52-r01/nt-d/`.
+Earlier natives: batch-49 `nt-a`, batch-50 `nt-b`, batch-51 `nt-c`.
+External status: `archive/pdf/1995-03/classifications/batch-52-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-52/`.
 Totals remain twenty-five readable, one partial, eleven non-owning headings,
 eight references and 45 unresolved. Group 0045 and divider 458 remain unchanged.
 NT ending 484 has no visible folio and includes separate beta-release and
 registration context. PC DOCS OPEN starts on 485 / 477 and remains unresolved.
 
-Next restore NT0046 continuation PDF 476–481, reviewing boundary 482, then
-482–484 and actually assemble the complete article. Check the Part 2/3 boundary
-and retain the diagnostics screen 15/16 reference discrepancy observed on 476.
+Next restore NT0046 final continuation PDF 482–484, reviewing boundaries 481 and
+485, then actually assemble 459–484. Preserve Access options, Domain Planner,
+Knowledge Base, performance tools and final-page independent contexts. On 482,
+caption 21 names Domain Planner but the image shows the resource-kit program group.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or accounting. See [March progress](progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
