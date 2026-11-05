@@ -19,44 +19,48 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 43 completes exception-handling article 0040 across PDF 416–425 / printed
-408–417. The final four pages are preserved in native b and assembled with the
-immutable opening native. Page 425 retains the ending prose, editor credit
-`정리 : 전선용` and original ending emblem. Win32 article 0041 begins on 426.
+Batch 44 preserves Win32 article 0041 opening PDF 426–431 / printed 418–423
+as immutable native a. Its full extent is PDF 426–434 / printed 418–426.
+Main prose ends on 432; the numbered listing ends on 434 above independent
+book advertising. Pages 435–439 are advertisements; Delphi 0043 opens on 440
+under tool-review heading 0042. Final 432–434 and complete assembly remain pending.
 
-All 620 parent files reproduce independently and in a fresh process, including
-611 exact nested native files. The new native has 242 files. Validation covers
-152 pixel-exact crops, 147 OCR outcomes, 3,022 projected metadata occurrences,
-6,073 current text ranges, 30,729 scalar values and 601 exact ZIP members.
-All 128 original blocks retain their text bytes. No external prose or code join
-is needed; nineteen internal continuation boundaries retain physical LF.
+All 255 package files reproduce independently and in a fresh process. Validation
+covers 63 pixel-exact crops, 61 OCR outcomes, 1,415 typed ranges, 53 blocks,
+432 nonempty reading rows and 247 exact ZIP members. Two original images retain
+the opening category emblem and captioned screenshot. Six joins preserve eight
+physical LF boundaries. Main 431→432 continues `오기`→`도 한다.` with LF;
+there is no external code join.
 
-Thirty unnumbered code contexts retain 258 nonempty and fourteen blank rows,
-29 literal omission markers and 178 brace/quote candidates. Three captioned
-diagrams retain sixteen mapped labels, six arrows and three prose references.
-The template and unexpected()/terminate() sidebars, series outline, standfirst
-and five error-handling choices remain separate. Twenty-eight localized source
-candidates preserve printed anomalies, including the fp/p mismatch, destructor
-dash, absent loop condition, missing syntax and repeated wording. One explicit
-source-gap marker between 발표 and 면 in the closing paragraph supplies no
-inferred glyph. Exact glyphs, spaces, encoded bytes, technical claims, execution,
-full proofreading and human acceptance remain unverified.
+Eight code contexts retain 68 nonempty and one blank row, eleven omission dots
+and 37 quote/pipe/backslash candidates. Three printed example captions remain,
+including the Bitblt caption on drawing code. The six-part outline highlights
+installment 3 while the printed title says [2]. The standfirst, independent
+memory tip, five DC steps, nine BitBlt parameter definitions and three WM_COMMAND
+meanings retain separate contexts. Twenty localized candidates preserve archaic
+Hangul byline glyphs, PICTURE1/YURO disagreement, Fuction/OPARQUE/DeletObject
+spellings, missing MENU keyword and identifiers, and an unfinished POPUP.
+No source code is reconstructed or executed. Exact glyphs, spaces, encoded bytes,
+technical claims, full proofreading and human acceptance remain unverified.
 
-All 58 new drafts were read before one source correction pass, with zero retries
-or within/post-pass text repairs. Two valid maps and 27 pre-OCR refinements remain.
-All 68 invalid range/context/status cases reject. All 35,079 prior March files
+All 61 drafts were read before one source correction pass; zero retries or
+within/post-pass text repairs. Two valid maps and 21 pre-OCR refinements remain.
+The initial audit expected 33 glyph candidates; a retained audit revision corrects
+that assertion to 37 without changing source, OCR or package bytes.
+All 46 invalid range/context/status cases reject. All 36,526 prior March files
 and thirty core modules remain exact; the unchanged 214-test baseline is reused.
-Twenty-nine frozen status pointers resolve externally. Thirty-five classification
+Eighteen frozen status pointers resolve externally. Thirty-six classification
 evidence records are required for final closeout.
 
-Complete article: `archive/pdf/1995-03/packages/article-exception-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-43-r01/exception-b/`.
-Current status: `archive/pdf/1995-03/classifications/batch-43-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-43/`.
-Totals: twenty-two readable, zero partial, nine non-owning headings, eight references
-and 51 unresolved. Windows group 0037 remains non-owning: 0038–0040 are readable;
-0041 remains unresolved. Next verify Win32 article 0041 from PDF 426 / printed 418,
-establish its full extent and restore it in bounded segments.
+Partial native: `archive/pdf/1995-03/packages/batch-44-r01/win32-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-44-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-44/`.
+Totals: twenty-two readable, one partial, nine non-owning headings, eight references
+and 50 unresolved. Windows group 0037 remains non-owning: 0038–0040 are readable;
+0041 is partial. Next restore final 432–434, preserving the closing prose, editor,
+ending emblem, disk-file table and numbered listing, then assemble all nine pages.
+Verify the possible 035→037 listing-number gap against the scans without inferring
+missing code. Keep the lower 434 advertisement outside the article.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](progress/9503.md). The full March goal remains active

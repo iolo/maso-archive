@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March Win32 opening native preserved
+
+- Batch 44 preserves article 0041 on PDF 426–431 of its verified 426–434 extent.
+  Eight code contexts, the screenshot, memory tip, outline and parameter definitions
+  retain printed discrepancies and explicit glyph uncertainties.
+- All 255 package files reproduce independently and in a fresh process. Validation
+  covers 63 exact crops and 1,415 typed ranges; all 46 invalid cases reject.
+  All 36,526 prior March files remain unchanged. Eighteen status pointers resolve.
+- Totals: twenty-two readable, one partial, nine groups, eight references and
+  50 unresolved. Next restore final 432–434 and assemble the nine-page article.
+  FLC0019, full-issue accounting, cover and closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March exception-handling article completed
 
 - Batch 43 completes article 0040 across PDF 416–425. Thirty code contexts,
