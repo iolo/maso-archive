@@ -19,47 +19,48 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 28 preserves GUI coordinator article 0031 on PDF 326–331 / printed
-318–323 as an immutable partial native. Its full observed extent is 326–333.
-Prose, contact handle, editor credit and closing mark end on 331; three numbered
-listings occupy 332–333. Pages 334–337 are advertising, and 338 opens 0033.
-The source banner 연재강좌 and canonical Windows hierarchy remain separate
-pieces of evidence; no reparenting is performed.
+Batch 29 completes GUI coordinator article 0031 across PDF 326–333 / printed
+318–325. The immutable opening native remains intact; final native b adds three
+separate numbered listings on 332–333: object.hrc, BMBWFRM.HPP and bmbwfrm.cpp.
+Prose, contact handle, editor credit and closing mark end on 331. Pages 334–337
+are advertising; 338 opens game-engine article 0033. The source banner 연재강좌
+and canonical Windows hierarchy remain separate evidence, without reparenting.
 
-All 291 native files match independent and fresh-process exports. Checks cover
-78 exact crops, 68 OCR outcomes, 869 typed ranges, 57 blocks, 348 reading rows
-and 283 ZIP members. Ten original images preserve four screenshots, four diagrams,
-opening category art and closing mark. The five-part outline and three explicit
-Base Image / View Image / Window definitions retain distinct contexts. The two
-class diagrams preserve the direct and rejected alternative hierarchies.
+All 349 parent files match independent and fresh-process exports, including
+340 exact nested native files. Validation covers 88 pixel-exact crops, 78 OCR
+outcomes, 1,985 projected metadata occurrences, 3,983 current text ranges,
+63 unchanged source blocks, 516 reading rows and 330 ZIP members. Thirteen code
+contexts preserve 16 opening physical rows / 15 logical items plus 165 final
+numbered rows: 74 / 80 / 11 across the three listings. Numbered blank rows remain.
+There is no cross-native prose or code join. The HPP 021→022 page boundary is
+one of four joins inside native b. The listing download is the exact
+concatenation of both native downloads.
 
-Ten independent code/command contexts retain 16 physical rows and 15 logical
-items, including a constructor wrapped across two rows. Printed punctuation,
-missing semicolons, identifier spacing and the diagram label rightBottomWidht
-remain unchanged. Eleven internal prose continuations preserve LF and paragraph
-boundaries. There is no outgoing prose or code join from this native.
+Four screenshots, four diagrams, opening category art and closing mark retain
+original images. Three definitions, the five-part outline, direct and rejected
+alternative class hierarchies, and source-linked glyph candidates remain.
+Printed rightBottomWidht, bracket-shaped delimiters, physical macro wraps and
+missing semicolons are preserved. No macro backslashes or technical repairs
+are invented. Exact glyphs, spacing, encoded bytes, technical claims, full
+proofreading and human acceptance remain unverified.
 
-All 68 initial drafts were read before one correction pass; zero retries or
-later text changes. Two valid maps and 51 pre-OCR refinements remain available;
-a schema-kind constructor failure was retained before any map/OCR output.
-All 38 invalid range/context/status cases are rejected. All 20,393 prior March
-files and thirty core modules stay exact; the unchanged 214-test baseline is
-reused. Exact glyphs, spacing, source bytes, technical claims, full proofreading
-and human acceptance remain unverified.
+All ten final-segment drafts were read before one source correction pass;
+zero retries or later text changes. Two maps and six pre-OCR crop refinements
+remain retained. All 55 invalid range/context/status cases reject. All 21,369
+prior March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. Twenty-eight frozen partial/status pointers resolve
+externally, with all twenty-one required final-status evidence files retained.
+Non-owning group 0027 now has all four children 0028–0031 readable.
 
-Eighteen frozen 0031 ownership/classification pointers resolve externally;
-all twenty required final-status evidence files remain retained. Group 0027
-remains non-owning: 0028–0030 are readable and 0031 partial.
-Native: `archive/pdf/1995-03/packages/batch-28-r01/gui-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-28-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-28/`.
-Totals: fifteen readable, one partial, six non-owning headings, eight references
-and 60 unresolved. Next restore 332–333: object.hrc, BMBWFRM.HPP and bmbwfrm.cpp,
-preserving numbered rows and source defects. Then separately assemble the full
-326–333 article and resolve frozen partial statuses. Afterward verify DOS group
-0032 and game article 0033 from observed PDF 338. Keep two canonical tasks /
-six mapped pages / twenty outside lookups per checkpoint. FLC0019 awaits bounded
-lookup or issue accounting. See [March progress](progress/9503.md).
+Complete article: `archive/pdf/1995-03/packages/article-gui-r01/`.
+Final native: `archive/pdf/1995-03/packages/batch-29-r01/gui-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-29-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-29/`.
+Totals: sixteen readable, zero partials, six non-owning headings, eight references
+and 60 unresolved. Next verify DOS group 0032 and game-engine article 0033 from
+observed PDF 338, establish its source extent, and restore at most six pages.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.

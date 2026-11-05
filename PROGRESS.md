@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — Complete March GUI coordinator article
+
+- Batch 29 assembles article 0031 across PDF 326–333, adding three final
+  numbered listings with all 165 source rows and their numbered blank rows.
+- All 349 parent files reproduce independently and in a fresh process.
+  Validation covers 88 crops, 3,983 current text ranges, thirteen code contexts,
+  four screenshots, four diagrams and 55 negative cases. All 21,369 prior files
+  remain exact; twenty-eight frozen status pointers resolve externally.
+- One source pass, zero retries or later text changes. Native text stays exact,
+  with no cross-native join. Source banner, canonical hierarchy and printed
+  spelling/code exceptions remain distinct and unrepaired.
+- Totals: sixteen readable, zero partials, six groups, eight references and
+  60 unresolved. Next verify DOS group0032 and game article0033 from PDF338.
+  FLC0019 and issue accounting remain open; the full March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Restore March GUI coordinator opening segment
 
 - Batch 28 preserves article 0031 on PDF 326–331. Final numbered listings on
