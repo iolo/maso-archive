@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Complete March game-engine article
+
+- Batch 32 restores final page 350 and assembles article 0033 across 338–350.
+  All 472 assembly files reproduce independently and in a fresh process.
+- The prose and code joins preserve all 80 native text blocks as exact intervals.
+  Seven listings retain all 315 numbered rows. Validation covers 112 crops,
+  7,787 current text ranges, 448 ZIP members and 60 negative cases.
+- All 23,614 prior files remain exact. Fifty-eight historical status pointers
+  resolve externally. Source caption discrepancies and code mistakes remain literal;
+  exact source bytes, technical claims and human acceptance remain unverified.
+- Totals: seventeen readable, zero partial, seven groups, eight references and
+  58 unresolved. Next verify article 0034 from PDF 352 and restore its first
+  bounded segment. FLC0019 and full-issue accounting remain open; the March goal
+  stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March game-engine continuation and closing prose
 
 - Batch 31 adds article 0033 pages 344–349. Twelve pages 338–349 are now
