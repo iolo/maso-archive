@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — March macro-language opening and command table
+
+- Batch 33 restores article 0034 on PDF 352–357. The complete observed extent
+  is 352–363; remaining 358–363 and article assembly are pending.
+- All 378 native files reproduce independently and in a fresh process.
+  Validation covers 93 crops, 1,980 text ranges, nine code examples, a 47-row
+  table with 188 cells, and 51 invalid range/context/status cases.
+- All 24,205 prior files remain exact. Twelve historical status pointers resolve
+  externally. Original code and table mistakes remain literal; exact source
+  bytes, technical claims and human acceptance remain unverified.
+- Totals: seventeen readable, one partial, seven groups, eight references and
+  57 unresolved. Next restore 358–363 and assemble full 352–363, preserving the
+  prose continuation around Table 1. FLC0019 and full-issue accounting remain
+  open; the March goal stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March game-engine article
 
 - Batch 32 restores final page 350 and assembles article 0033 across 338–350.

@@ -267,47 +267,50 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 32 completes game-engine article 0033 across PDF 338–350 / printed
-330–342. The final page preserves listing 2 rows 014–110, ending with
-`_MoveImage endp`. The complete article assembles all three immutable natives.
-Prose closes on 349 with the editor credit and original closing mark; 337/351
-are independent advertisements, and 352 opens macro-language article 0034.
+Batch 33 preserves macro-language article 0034 on PDF 352–357 / printed
+344–349 as immutable native a. Source review establishes the complete extent
+352–363 / 344–355. Page 363 closes with an editor credit and has a separate lower
+advertisement; 351 is advertising and 364 opens article 0035. Remaining pages
+358–363 and complete article assembly are pending.
 
-All 472 assembly files, including 463 nested native files, reproduce independently
-and in a fresh process. The new final-page native has 17 exact files. Validation
-covers 112 pixel-exact crops, 108 OCR outcomes, 3,892 projected metadata ranges,
-7,787 current typed ranges and 448 exact ZIP members. All 80 original source
-blocks remain exact text intervals in 78 current blocks. The 343→344 prose join
-inserts one LF; the 349→350 code join reuses the existing terminal LF. The listing
-download equals the exact concatenation of the three native listing downloads.
+All 378 native files reproduce independently and in a fresh process. Validation
+covers 93 pixel-exact crops, 92 OCR outcomes, 1,980 typed text ranges, 81 blocks,
+549 reading rows, one uncaptioned source emblem and 370 exact ZIP members.
+Nine unnumbered code examples retain 101 nonempty physical rows, six blank rows
+and six printed addition arrows. Original delimiters, operators, Korean commands,
+physical string wraps and differing help filenames remain literal.
 
-Seven listings preserve all 315 numbered physical rows, including numbered blanks,
-in printed order 1/3/4/5/6/7/2. The article retains 1,056 reading rows, a seven-part
-outline, two diagrams, three tables with 39 rows/78 cells/six headers/three footnotes,
-three numbered-step lists and nine diskette filenames. Listing and table references
-resolve to the assembled targets. Original figure-caption discrepancies, code
-operators/delimiters, spelling and physical wraps remain unchanged. Exact glyphs,
-spacing, encoded bytes, technical claims, full proofreading and human acceptance
-remain unverified; no automatic CD association is created.
+Table 1 preserves 47 rows and 188 cells, including fifteen empty cells, eight
+repeated header cells, 259 cell reading rows and 66 explanation/example continuation
+rows. Empty cells have no invented text or source range. Apparent spelling and
+mathematical errors remain unchanged. Eleven internal boundaries preserve the
+opening dropcap and a paragraph break between the initialization prose columns.
+Principles 1–2 of six are transcribed; the remaining principles begin on 358.
+Prose on 355 ending `55` continues on 358 with `와 11이 보이고,` around the two-page
+table. That prose join is explicitly deferred; no code join crosses this boundary.
 
-Two initial drafts were read before one source correction pass; zero retries or
-regional text repairs. Two valid maps and one pre-OCR crop refinement are retained.
-All 60 invalid range/context/status cases reject. All 23,614 prior March files and
-thirty core modules remain exact; the unchanged 214-test baseline is reused.
-Fifty-eight historical status pointers resolve externally, with original evidence
-unchanged. Twenty-four final-classification evidence records remain required.
+All 92 initial drafts were read before one source correction pass; zero retries
+or within/post-pass regional text changes. Three valid maps and 54 pre-OCR crop
+refinements remain. All 51 invalid range/context/status cases reject. All 24,205
+prior March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. Twelve historical status pointers resolve externally without
+changing original evidence. Twenty-five final-classification evidence records remain
+required. Exact glyphs, spacing, encoded bytes, claims, full proofreading and human
+acceptance remain unverified; no automatic CD association is created.
 
-Complete article: `archive/pdf/1995-03/packages/article-game-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-32-r01/game-c/`.
-Current status: `archive/pdf/1995-03/classifications/batch-32-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-32/`.
-Totals: seventeen readable, zero partial, seven non-owning headings, eight references
-and 58 unresolved. DOS group 0032 remains non-owning; children 0034/0035 are unresolved.
-Next verify article 0034 from PDF 352 / printed 344, establish its source extent,
-and restore at most six mapped pages. Keep two canonical tasks / six mapped pages /
-twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or issue accounting.
-See [March progress](docs/progress/9503.md). The full March goal remains active through
-all remaining outcomes, 545-page accounting, cover and separate issue closeout before July.
+Partial native: `archive/pdf/1995-03/packages/batch-33-r01/macro-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-33-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-33/`.
+Totals: seventeen readable, one partial, seven non-owning headings, eight references
+and 57 unresolved. DOS group 0032 remains non-owning: 0033 is readable, 0034 partial
+and 0035 unresolved. Next restore 358–363 as native b, then assemble full 352–363,
+preserving the 355→358 prose continuation around Table 1. Include the remaining
+principles, Table 2, code, closing prose/editor and diskette file table; exclude
+the independent lower advertisement on 363. Resolve frozen partial states externally.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 Complete both issue passes before collection aggregation and handoff in steps
