@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — March DOC/VIEW article completed
+
+- Batch 41 completes article 0039 on PDF 408–415, preserving thirteen code
+  contexts, three tables, two screenshots and the independent manual sidebar.
+- All 371 assembled files reproduce independently and in a fresh process.
+  Validation covers 89 exact crops and 4,978 text ranges; all 66 invalid cases
+  reject. All 33,108 prior files remain unchanged.
+- One prose continuation retains physical LF. Printed code errors, seven absent
+  closing braces and 53 count-unverified slash rules remain explicit.
+  Twenty-four historical status pointers resolve externally.
+- Totals: twenty-one readable, zero partial, nine groups, eight references and
+  52 unresolved. Next verify exception-handling0040 from PDF 416 / printed 408.
+  FLC0019, full-issue accounting, cover and closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March DOC/VIEW opening and code examples
 
 - Batch 40 restores article 0039 on PDF 408–413. The complete observed extent
