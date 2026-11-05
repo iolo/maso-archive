@@ -19,54 +19,52 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 49 classifies special-feature heading 0045 as non-owning and preserves
-NT article 0046's opening PDF 459–463 / printed 451–455 as immutable native a.
-The divider on 458 / 450 is preserved separately as editorial classification
-context, including its introduction, three screenshots, captions and directory.
-Canonical parent reference 450 and both children's null references stay unchanged.
+Batch 50 preserves NT article 0046 continuation PDF 464–469 / individually
+observed printed 456–461 as immutable native b. Together with native a, pages
+459–469 are preserved. Remaining 470–484 and actual full article assembly stay
+pending; interior continuity has only been reviewed through boundary page 470.
 
-All 226 native files and 128 classification/context files reproduce independently
-and in a fresh process. Validation covers 91 pixel-exact crops, 84 original OCR
-outcomes, 853 article ranges, 78 context ranges, 42 article blocks, 351 article
-rows and 42 context rows. All 219 native ZIP members remain exact. Seven text
-groups preserve twelve boundaries: ten LF, one double LF and one dropcap fold.
-The outgoing 463→464 continuation is `제`→`공하고 있다.` and requires LF.
+All 609 native files reproduce independently and in a fresh process. Validation
+covers 154 pixel-exact crops, 149 original OCR outcomes, 1,654 typed ranges,
+141 blocks, 479 physical reading rows and 602 exact ZIP members. Comparison
+table 1 retains eighteen rows, 72 cells, three headers and its blank corner.
+Two installation procedures retain fourteen numbered steps, four option rows,
+five requirements and eight inline command/path occurrences. Four screenshots
+retain literal captions; the login-key sidebar remains independent.
 
-The independent history sidebar on 461 remains separate from the main power
-section continuing on 462. The architecture diagram preserves fourteen labels,
-thirteen arrows and its executive container. Its leftmost lower arrow starts at
-the container edge; no separately labelled kernel arrow is invented. The divider
-directory preserves twenty-three labels and twenty-one branches under two roots.
-Printed DEGUG and KNOWLDGE, the Share As caption/Display Settings image mismatch,
-Culter, Hard Abstraction Laye and other wording/glyph candidates remain literal.
-Historical, technical and security claims are transcribed without verification.
+Six text groups preserve eight boundaries: seven LF and one dropcap fold.
+Incoming 463→464 is `제`→`공하고 있다.`; outgoing 469→470 is `이`→`렇게 되면`.
+Both require LF during eventual assembly. No prose join crosses the Part 1/2
+boundary on 465→466. Printed telent, TCI/IP, 비선점, Compatability, Admistrative,
+command capitalization and O/0/I/1 candidates remain literal and unverified.
 
-All 84 initial drafts were read before one source correction pass. Two map
-versions per context retain twenty-four pre-OCR refinements. Zero OCR retries or
-within/post-pass text changes. A retained negative-test fixture was corrected to
-substitute a genuinely different asset; no source or package changed. All 36
-invalid range, context and ownership cases reject. All 41,914 earlier March files
+All 149 initial drafts were read before one source correction pass. Two maps
+retain 36 pre-OCR refinements; zero retries or within/post-pass source changes.
+Thirty-one invalid range/context cases reject. All 43,069 earlier March files
 and thirty core modules remain exact; the unchanged 214-test baseline is reused.
-Forty-four classification evidence records are required at final issue closeout.
-Exact glyphs, spacing, encoded bytes, execution, full proofreading and human
-acceptance remain unverified.
+Three correction-script preflight errors were resolved before successful output.
+One reproducible external status sidecar resolves three creation-time scope
+statements while preserving both natives and the non-owning group context.
+Forty-five classification/status evidence records are required at final closeout.
+Exact glyphs, spacing, encoded bytes, claims, execution, full proofreading and
+human acceptance remain unverified.
 
-Partial NT native: `archive/pdf/1995-03/packages/batch-49-r01/nt-a/`.
-Group/context: `archive/pdf/1995-03/classifications/batch-49-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-49/`.
-Totals: twenty-five readable, one partial, eleven non-owning headings, eight
-references and 45 unresolved. NT opens on 459 and ends on observed page 484;
-interior continuity through the deferred pages remains only partly reviewed.
-Page 484 has no visible folio and includes separate beta-release and registration
-context. PC DOCS OPEN starts on 485 / 477 and remains unresolved.
+Partial NT native: `archive/pdf/1995-03/packages/batch-50-r01/nt-b/`.
+Earlier native: `archive/pdf/1995-03/packages/batch-49-r01/nt-a/`.
+External status: `archive/pdf/1995-03/classifications/batch-50-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-50/`.
+Totals remain twenty-five readable, one partial, eleven non-owning headings,
+eight references and 45 unresolved. Group 0045 and divider 458 remain unchanged.
+NT ending 484 has no visible folio and includes separate beta-release and
+registration context. PC DOCS OPEN starts on 485 / 477 and remains unresolved.
 
-Next restore NT0046 continuation PDF 464–469, with boundary 470 reviewed, then
-continue through 484 and actually assemble the complete article. Resolve frozen
-partial/child statements externally. Keep two canonical tasks / six mapped pages /
-twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or accounting.
-See [March progress](docs/progress/9503.md). The full March goal remains active
-through all remaining outcomes, 545-page accounting, cover and separate issue
-closeout before July. No reader rebuild or deployment.
+Next restore NT0046 continuation PDF 470–475, reviewing boundary 476, then
+continue through 484 and actually assemble the complete article. Keep two
+canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+FLC0019 awaits bounded lookup or accounting. See [March progress](docs/progress/9503.md).
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
+No reader rebuild or deployment.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
 and user column 0008 on 154–155/146–147: 219 independent/fresh-process exact files,
