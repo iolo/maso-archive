@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March Delphi article and tool-review group completed
+
+- Batch 46 completes Delphi 0043 on PDF 440–444 and classifies non-owning group
+  0042. Six screenshots, two independent quotes and four lists retain their source
+  relationships, including printed caption/image discrepancies.
+- All 260 article files and four selected classification files reproduce exactly.
+  Validation covers 69 exact crops and 716 text ranges; all 33 invalid cases reject.
+  All 38,251 prior March files remain unchanged. Ten frozen status pointers resolve.
+- Totals: twenty-four readable, zero partial, ten groups, eight references and
+  48 unresolved. Next establish Borland C++ 4.5 article 0044's extent from PDF 446.
+  FLC0019, 545-page accounting, cover and separate closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Win32 article completed
 
 - Batch 45 completes article 0041 across PDF 426–434. Ten code contexts, the
