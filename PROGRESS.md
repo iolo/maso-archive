@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — Complete March HTML article
+
+- Batch 61 completes HTML0051 across 502–508. All 381 assembly files and 372
+  native files reproduce exactly; 94 crops, 473 rows and 2,671 projected metadata
+  ranges validate. Seventy-two invalid cases reject; 28 frozen status pointers resolve.
+- Six screenshots, fifteen code contexts/192 rows, four listings, CGI outputs,
+  table/math examples and the diskette table remain distinct. Printed errors and
+  source uncertainties remain. All 54,760 prior files and thirty core modules are exact.
+- Totals: 29 readable, zero partial, 13 groups, eight references and 40 unresolved.
+  Next locate NeXTSTEP0052 from510 and restore at most510–515. FLC0019, 545-page
+  accounting, cover and separate closeout remain pending. Full March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March HTML opening native
 
 - Batch 60 establishes HTML0051's full 502–508 extent and restores 502–507.
