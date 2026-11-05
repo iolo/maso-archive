@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — March OS/application and communications headings finalized
+
+- Batch 56 classifies 0048/0049 as non-owning headings from contents and five
+  independent article openings. Canonical hierarchy, order and null group folios
+  remain unchanged; hardware's earlier physical position and HTML's differing
+  series label remain explicit. No article body is inferred from an opening.
+- Eleven evidence files reproduce independently and in a fresh process. Seven
+  exact crops and seven hierarchy nodes validate; 28 invalid cases reject.
+  All 51,886 earlier files and thirty core modules remain unchanged. No new OCR.
+- Totals: 27 readable, zero partial, 13 groups, eight references and 42 unresolved.
+  Next establish and restore Netscape0050 beginning on PDF 492 / printed 484.
+  FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March PC DOCS OPEN restored
 
 - Batch 55 completes PC DOCS OPEN0047 on PDF 485–489. All 494 package files

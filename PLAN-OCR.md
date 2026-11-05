@@ -37,52 +37,38 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 55 restores complete PC DOCS OPEN article 0047 on PDF 485–489.
-Folios 477–480 are individually observed; final 489 has no visible folio and
-none is invented. The original title, kicker, author affiliation and editor
-credit remain distinct from canonical metadata. NT ends on 484; independent
-advertisements occupy 490–491, and Netscape 0050 opens on 492 / 484.
+Batch 56 finalizes OS/application forum 0048 and communications 0049 as
+non-owning headings. Contents page 5 and five distinct article openings establish
+the hierarchy: communications contains Netscape 0050 and HTML 0051; NeXTSTEP,
+LaTeX and hardware are direct children of the broader forum. Canonical titles,
+parent links, ordering and null group page references remain unchanged.
 
-All 494 package files match independent and fresh-process exports. Validation
-covers 129 pixel-exact crops, 119 original OCR outcomes, 1,197 typed ranges,
-106 blocks, 346 physical reading rows and 487 exact ZIP members. Ten original
-images retain eight literal captions. Thirteen internal boundaries preserve
-twelve physical LF joins and one opening dropcap fold.
+Nine full source pages were reviewed. The five openings are PDF 492 / printed 484,
+502 / 494, 510 / 502, 518 / 510 and 394 / 386, with individually observed folios.
+Hardware 0054 is physically earlier but remains last in its canonical category.
+The HTML opening prints `[마지막회]`; canonical metadata retains `[2]`.
+These observations establish context, not restored bodies or complete extents.
+Pages 490–491 before Netscape are independent advertisements.
 
-The independent LAN sidebar retains its own prose and column continuation.
-Two tables preserve twenty body cells, six headers and one source-wrapped cell.
-The installation tree preserves six nodes and five printed connections; the
-procedure retains seventeen records in four steps. Eight library options,
-six reader questions and four document-search routes remain source-linked.
-Historical contacts and the rotated training coupon retain separate contexts.
+All eleven classification files reproduce independently and in a fresh process.
+Seven pixel-exact crops, seven canonical hierarchy nodes and five opening
+observations validate; 28 invalid ownership, hierarchy and source-context cases
+reject. All 51,886 earlier March files and thirty core modules remain unchanged;
+the unchanged 214-test baseline is reused. No new OCR or source correction.
+Exact glyphs, full proofreading and human acceptance remain unverified.
 
-All 119 drafts were read before one source correction pass; zero OCR retries.
-The failed first map is retained, followed by two successful maps and 42
-pre-OCR refinements. Two explicit post-pass repairs correct assistant-introduced
-wording to printed `OPEN의` and `푸어`. Eighteen source candidates preserve
-printed anomalies including `ODBA`, `사용자의의`, `중의하기`, and damage at
-the closing paragraph's right edge. A failed metadata lookup across a physical
-line wrap is retained; the repaired export changes no source text or raw OCR.
-Exact glyphs, spacing, encoded bytes, claims, execution, full proofreading and
-human acceptance remain unverified.
+Group evidence: `archive/pdf/1995-03/classifications/batch-56-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-56/`.
+Totals: twenty-seven readable, zero partial, thirteen non-owning headings,
+eight references and 42 unresolved. Earlier article packages remain unchanged.
 
-Thirty-nine invalid range, context and status cases reject. All 50,171 earlier
-March files and thirty core modules remain exact; the unchanged 214-test
-baseline is reused. Ten frozen status pointers resolve externally. Both direct
-children of group 0045 are readable; the non-owning group and divider 458 remain
-unchanged. Fifty classification/status evidence records are required at closeout.
-
-Complete article: `archive/pdf/1995-03/packages/batch-55-r01/pcdocs/`.
-External status: `archive/pdf/1995-03/classifications/batch-55-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-55/`.
-Totals: twenty-seven readable, zero partial, eleven non-owning headings,
-eight references and 44 unresolved.
-
-Next classify OS/application 0048 and communications 0049 from contents and
-repeated source banners, then restore Netscape 0050 beginning on 492 / 484 in
-a subsequent body checkpoint. Keep two canonical tasks / six mapped pages /
-twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or issue
+Next establish Netscape 0050's full extent beginning on 492 / 484, reviewing
+both boundaries toward HTML's independent opening on 502 / 494. Restore at most
+six pages as an immutable native if the article is longer; preserve screenshots,
+captions, commands, author and physical continuations. Resolve frozen group
+status externally after body completion. FLC0019 awaits bounded lookup or issue
 accounting. See [March progress](docs/progress/9503.md).
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
