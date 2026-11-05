@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Restore March GUI coordinator opening segment
+
+- Batch 28 preserves article 0031 on PDF 326–331. Final numbered listings on
+  332–333 and the complete article assembly remain pending.
+- All 291 native files reproduce independently and in a fresh process.
+  Validation covers 78 crops, 869 ranges, four screenshots, four diagrams,
+  ten code contexts and 38 negative cases. All 20,393 prior files stay exact.
+- One source pass, zero retries or later text changes. Source banner and
+  canonical hierarchy remain separate; eighteen status pointers resolve
+  externally. Printed identifier wraps and rightBottomWidht are retained.
+- Totals: fifteen readable, one partial, six groups, eight references and
+  60 unresolved. Next restore 332–333 and assemble 0031. FLC0019 and issue
+  accounting remain open; the full March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March curves article
 
 - Batch 27 restores final PDF 324 and assembles the complete 318–324 article.
