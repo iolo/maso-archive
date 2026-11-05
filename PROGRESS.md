@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March NeXTSTEP article complete
+
+- Batch 63 completes NeXTSTEP0052 across 510–516. All 309 assembly files and 301
+  native files reproduce independently and in a fresh process; 78 crops, 366 rows,
+  1,045 projected metadata occurrences and 2,091 current ranges validate.
+- The 515→516 prose join retains LF; eight screenshots, configuration contexts,
+  original spellings and figure-reference mismatches remain distinct. Seventy-two
+  invalid cases reject. All 56,328 prior files and thirty core modules remain exact.
+- Totals: 30 readable, zero partial, 13 groups, eight references and 39 unresolved.
+  Next locate LaTeX0053 from518 and restore at most518–523. FLC0019, 545-page
+  accounting, cover and separate closeout remain pending. Full March goal active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March NeXTSTEP opening native
 
 - Batch 62 establishes NeXTSTEP0052's full 510–516 extent and restores 510–515.

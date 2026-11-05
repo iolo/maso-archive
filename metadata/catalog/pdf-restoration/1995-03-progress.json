@@ -4042,27 +4042,42 @@
       "parent_id": "maso-1995-03-toc-0048",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Batch62 establishes complete NeXTSTEP0052 extent PDF510–516 / individually observed502–508. All seven article pages and boundaries509/517 reviewed; advertisements are independent. Final516 lower book advertisement excluded; LaTeX0053 opens518/510.",
         "Immutable opening native510–515 preserves69 exact crops,62 mapped OCR outcomes,54 blocks,347 physical rows and978 typed ranges. All263 files match independent and fresh-process exports;256 ZIP members exact;26 invalid cases reject.",
         "Nine configuration option contexts,seven LAN adapter rows,five named management-program occurrences,sixteen menu actions,one key action,seventeen path occurrences andtwenty-six program-name occurrences retain source ranges. Eight internal joins preserve physical LF andone paragraph break;seven screenshots retain literal captions. Outgoing515→516 continues 워크스→페이스 withLF;assembly not yet performed.",
         "Printed Applicaion,Startet,newworked,pssword,derectory,User/Users/users variants,NFSMana ger andother program spacing,clone phrase andwording remain literal. Figure7 export/import mismatch andtwo figure8 contexts remain unresolved;references are not retargeted. One source pass,zero retries,two pre-OCR maps/twelve crop repairs;one within-pass correction restores printed newworked fromthe normalized draft;zero post-pass changes.",
-        "All55416 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Frozen group0048 creation-time status remains immutable;resolve affected status externally afterbodycompletion. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified."
+        "All55416 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Frozen group0048 creation-time status remains immutable;resolve affected status externally afterbodycompletion. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified.",
+        "Batch 63 completes the seven-page NeXTSTEP0052 article, PDF510–516 / individually observed printed502–508, from immutable natives a/b. Final516 preserves screenshot8/caption,closing prose,MS emblem andeditor credit above an independent book advertisement;517 is a separate Hanmesoft advertisement.",
+        "All309 assembled files and301 original native files reproduce independently andin a fresh process. All78 crops,69 OCR outcomes,59 original blocks in58 current blocks,366 physical rows,1045 projected metadata occurrences,2091 current ranges,10605 scalar values and293 ZIP members validate.",
+        "One cross-native prose join retains physical LF at515→516, 워크스→페이스. Screenshot8 andcaption remain independent. Eight screenshots,nine configuration contexts,seven LAN adapter rows,five management-program occurrences,eighteen menu actions,one key action,one command mention,seventeen paths andtwenty-eight program names retain source contexts. Figure7 export/import mismatch andtwo figure8 contexts remain unrepaired;source spelling/spacing candidates stay literal.",
+        "Final516 uses seven initial recognitions,one source correction pass,zero retries andzero later source changes. One reviewed map separates ending prose fromthe MS emblem andlower advertisement. Twenty-two native,thirty-six assembly andfourteen ownership/status faults reject.",
+        "Frozen group0048/native creation statuses resolve through27 external pointers. LaTeX0053 andhardware0054 remain unresolved;group0048 owns no body. All56328 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Exact glyphs,encoded bytes,historical claims,execution,full proofreading andhuman acceptance remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-62-r01/nextstep-a",
+        "directory": "archive/pdf/1995-03/packages/article-nextstep-r01",
         "article_id": "scan-maso-1995-03-toc-0052",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-62-r01/nextstep-a/manifest.json",
-          "sha256": "2aad5925567672465fbba8c098b9ee595f8d40c46ff1f446e5fb5dc1fa0e8198",
-          "bytes": 44306
+          "path": "archive/pdf/1995-03/packages/article-nextstep-r01/manifest.json",
+          "sha256": "eb4a3a4b61062a279b98df3dc957da0001e0c93e7db2079028480563820e0efa",
+          "bytes": 55013
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-62/nextstep-a-r02/package-recipe.json",
-          "sha256": "a80f5b54b7d1936f058822761385c1462ef515788577dfd10f70ded2458bbfe5",
-          "bytes": 10430
+          "path": "archive/pdf/1995-03/restoration/batch-63/assembly-recipe.json",
+          "sha256": "31852c197c67b168bd066dc06c870bcf69b7fe3fd716574c2421ab0bdf594227",
+          "bytes": 1923
+        },
+        "adapter": {
+          "path": "archive/pdf/1995-03/restoration/batch-63/nextstep_adapter.py",
+          "sha256": "c16a2b7d33bc8080f28b86a57731caf7daa3bcf77a3c155ffee8583f69dc524e",
+          "bytes": 16813
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1995-03/restoration/batch-63/adapter-inputs.json",
+          "sha256": "1bb9f87430b5cea2d6614b8e5be7bac0c7e5311b2d071da1113fc52b210ab72e",
+          "bytes": 9497
         },
         "coverage": {
           "pdf_pages": [
@@ -4071,7 +4086,8 @@
             512,
             513,
             514,
-            515
+            515,
+            516
           ],
           "printed_pages": [
             "502",
@@ -4079,34 +4095,67 @@
             "504",
             "505",
             "506",
-            "507"
+            "507",
+            "508"
           ],
-          "regions": 69,
-          "blocks": 54,
-          "figures": 7,
-          "deferred_pdf_pages": [
-            516
-          ],
+          "regions": 78,
+          "blocks": 58,
+          "figures": 9,
+          "deferred_pdf_pages": [],
           "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "interior_continuity_fully_reviewed": true,
         "actual_start_pdf_page": 510,
         "observed_ending_pdf_page": 516,
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-62/validation.json",
-          "sha256": "32cc5614de9384bbe1149606c55039864670cb4cb002dde7f15b21ea359569c0",
-          "bytes": 1678
+          "path": "archive/pdf/1995-03/restoration/batch-63/final-validation.json",
+          "sha256": "4ebc692525b81982aef5c2ed668f4403df683281ff75336dd7aa76462619b928",
+          "bytes": 2372
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-62/reproduction.json",
-          "sha256": "f26e8b6c87235199ad89fc7f628bd5f998d611b533f05c7d101b4e4cd0131ab0",
-          "bytes": 50868
+          "path": "archive/pdf/1995-03/restoration/batch-63/assembly-reproduction.json",
+          "sha256": "4ac50e50749fc796882667549e648a2de3e02fd96b32a7d732aac7f8ae6fe1b6",
+          "bytes": 57412
         },
-        "checkpoint": "batch-62",
-        "directory_is_current_native_not_assembled_article": true
+        "checkpoint": "batch-63",
+        "natives": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1995-03/packages/batch-62-r01/nextstep-a",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-62-r01/nextstep-a/manifest.json",
+              "sha256": "2aad5925567672465fbba8c098b9ee595f8d40c46ff1f446e5fb5dc1fa0e8198",
+              "bytes": 44306
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-62/nextstep-a-r02/package-recipe.json",
+              "sha256": "a80f5b54b7d1936f058822761385c1462ef515788577dfd10f70ded2458bbfe5",
+              "bytes": 10430
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1995-03/packages/batch-63-r01/nextstep-b",
+            "manifest": {
+              "path": "archive/pdf/1995-03/packages/batch-63-r01/nextstep-b/manifest.json",
+              "sha256": "0eef7d3b0e3410b36a48c0e74fe15e867097ff06f43d325ac7b8ec24a5cdaecf",
+              "bytes": 6287
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-03/restoration/batch-63/nextstep-b-r01/package-recipe.json",
+              "sha256": "1bc3cdd54be897285a9333d4d369e5a0c56c9670e3524cd4e28bbfb02fb8347c",
+              "bytes": 3244
+            }
+          }
+        ],
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-63-r01/source-creation-dispositions.json",
+          "sha256": "572d39f9eb313cf625702bd9a123c77ea274ee49402a4b628e805c47a8962429",
+          "bytes": 18985
+        }
       }
     },
     {
@@ -6853,12 +6902,49 @@
         "sha256": "f26e8b6c87235199ad89fc7f628bd5f998d611b533f05c7d101b4e4cd0131ab0",
         "bytes": 50868
       }
+    },
+    {
+      "name": "1995-03-batch-63",
+      "status": "complete",
+      "completed_at": "2026-11-05T13:15:58.726135+00:00",
+      "goal": "Restore final516 and assemble complete NeXTSTEP0052 on510–516; resolve frozen status externally.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0052"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        516
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        515,
+        517
+      ],
+      "recognition_invocations": 7,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 1,
+      "crop_layout_versions": 1,
+      "pre_ocr_refinement_events": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-63/final-validation.json",
+        "sha256": "4ebc692525b81982aef5c2ed668f4403df683281ff75336dd7aa76462619b928",
+        "bytes": 2372
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-63/assembly-reproduction.json",
+        "sha256": "4ac50e50749fc796882667549e648a2de3e02fd96b32a7d732aac7f8ae6fe1b6",
+        "bytes": 57412
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 29,
-    "partial": 1,
+    "readable": 30,
+    "partial": 0,
     "group_headings": 13,
     "section_references": 8,
     "unresolved": 39
@@ -6868,7 +6954,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore NeXTSTEP0052 final PDF516/printed508 as immutable native b,then assemble full510–516 article. Reuse retained516 andinspect515/517 boundaries. Preserve final screenshot8/caption,prose,ending mark andeditor credit;exclude lowerpublisherbookadvertisement. Outgoing515→516 continues 워크스→페이스 withphysicalLF aroundindependent screenshot8. Retain all69openingregions,978typedranges,347rows,nineconfigurationcontexts,sevenLANadapterrows,allnative metadata andsource spellings/references. Figure7 export/import mismatch andtwo figure8 contexts remain unrepaired. Resolve affected frozen group0048 status externally afterbodycompletion. LaTeX0053 opens518/510;hardware0054 earlier394/386. FLC0019 awaits boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Locate the complete extent of LaTeX0053 starting PDF518 / observed printed510,then restore at most518–523 as the next bounded native. Reuse retained opening518 andinspect both boundaries;do not infer ending fromcanonical page references. Preserve Korean LaTEX title/installment,author,literal commands/math examples andsource screenshots. Hardware0054 remains earlier394/386. Keep FLC0019 unresolved pending boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -7129,6 +7215,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-61-r01/source-creation-dispositions.json",
       "sha256": "a201c72b5eeecc9a9a5dd9ef01ece7e5e4bb0a1b38561e2e5b969463f47fa31f",
       "bytes": 19207
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-63-r01/source-creation-dispositions.json",
+      "sha256": "572d39f9eb313cf625702bd9a123c77ea274ee49402a4b628e805c47a8962429",
+      "bytes": 18985
     }
   ]
 }
