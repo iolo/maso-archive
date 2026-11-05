@@ -3918,12 +3918,74 @@
       "toc_entry_id": "maso-1995-03-toc-0051",
       "title": "HTML을 이용해 WWW 서버만들기[2] : 고수준 HTML 문서를 만들자",
       "parent_id": "maso-1995-03-toc-0049",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch60 establishes complete HTML0051 extent PDF502–508 / individually observed494–500. All seven article pages and boundaries501/509 reviewed; advertisements are independent; NeXTSTEP0052 opens510/502.",
+        "Immutable opening native502–507 preserves77 exact crops,73 mapped OCR outcomes,60 blocks,419 physical rows and2521 typed ranges. All305 files match independent and fresh-process exports;297 ZIP members exact;32 invalid cases reject.",
+        "Fifteen literal code contexts retain192 nonempty rows,including four numbered listings. Forty listing2 options,six input types,eleven environment variables,two CGI output examples,two table andtwo math markup contexts remain distinct. Thirteen internal joins preserve physical wraps,one paragraph boundary andexplicit output blank line;four screenshots/captions remain original.",
+        "Source[마지막회] versuscanonical[2],BALELINE,screen4 reference tolist5,USR_REG.C context mismatch,missing angle brackets,misordered tags andsource wording defects remain unrepaired. Omission counts,quote identities andspacing remain uncertain. One source pass,zero retries,two pre-OCR maps/sixteen crop repairs;zero within/post-pass changes.",
+        "All53727 prior March files andthirty core modules remain exact;unchanged214-test baseline reused. Frozen batch56 unresolved group labels describe creation time;current0051 ispartial here. Resolve affected group status externally afterbodycompletion. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-60-r01/html-a",
+        "article_id": "scan-maso-1995-03-toc-0051",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-60-r01/html-a/manifest.json",
+          "sha256": "1d457454ab91adc897de5b6763395fafa5aa71a79aecd26cbe67c1d0831e27de",
+          "bytes": 51306
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-60/html-a-r02/package-recipe.json",
+          "sha256": "481ad577a1882e669e8b2401d73d7a13898e7462dfaf9b495ed2a7cc0d60bdbf",
+          "bytes": 10133
+        },
+        "coverage": {
+          "pdf_pages": [
+            502,
+            503,
+            504,
+            505,
+            506,
+            507
+          ],
+          "printed_pages": [
+            "494",
+            "495",
+            "496",
+            "497",
+            "498",
+            "499"
+          ],
+          "regions": 77,
+          "blocks": 60,
+          "figures": 4,
+          "deferred_pdf_pages": [
+            508
+          ],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 502,
+        "observed_ending_pdf_page": 508,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-60/validation.json",
+          "sha256": "ffb6a83a7a11159074324b4ea221e27d3630eca6cecb882acdf3b2bf116b5903",
+          "bytes": 1692
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-60/reproduction.json",
+          "sha256": "d42e7d52adb8b80918f0ddf4af93791282f4890ee1e743903a6a960a7b4bd2c0",
+          "bytes": 58692
+        },
+        "checkpoint": "batch-60",
+        "directory_is_current_native_not_assembled_article": true
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0052",
@@ -6557,22 +6619,65 @@
         "sha256": "93df42a3d0856b73906dbb8202b5192aa563a2e7b2e52c99311facf8af4a6e87",
         "bytes": 78727
       }
+    },
+    {
+      "name": "1995-03-batch-60",
+      "status": "complete",
+      "completed_at": "2026-11-05T12:25:11.526181+00:00",
+      "goal": "Establish seven-page HTML0051 extent and preserve opening502–507 as immutable native a.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0051"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        502,
+        503,
+        504,
+        505,
+        506,
+        507
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        501,
+        508,
+        509,
+        510
+      ],
+      "recognition_invocations": 73,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 2,
+      "pre_ocr_refinement_events": 16,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-60/validation.json",
+        "sha256": "ffb6a83a7a11159074324b4ea221e27d3630eca6cecb882acdf3b2bf116b5903",
+        "bytes": 1692
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-60/reproduction.json",
+        "sha256": "d42e7d52adb8b80918f0ddf4af93791282f4890ee1e743903a6a960a7b4bd2c0",
+        "bytes": 58692
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
     "readable": 28,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 13,
     "section_references": 8,
-    "unresolved": 41
+    "unresolved": 40
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Locate the complete extent of HTML0051 starting PDF502 / printed494, then restore at most502–507 as the next bounded native. Reuse retained opening502 and inspect both article boundaries; do not infer ending fromcanonical page references. Preserve source [마지막회] versus canonical [2], author김현석, literal HTML/code/markup and source screenshots. NeXTSTEP0052 opens510/502 andLaTeX0053 opens518/510;hardware0054 remains earlier394/386. Keep FLC0019 unresolved pending boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Restore HTML0051 final PDF508/printed500 as immutable native b,then assemble full502–508 article. Reuse retained508 andinspect507/509 boundaries. New subsection HTML+의 미래 begins508;no507→508 prose/code join required. Preserve two final screenshots/captions,ending mark,editor credit anddiskette table USR_REG.C. Retain all77openingregions,192code rows,typedmetadata,unknown omission counts,malformedmarkup andsource/canonical discrepancies. Resolve affected frozenbatch56 group status externally afterbodycompletion. NeXTSTEP0052 opens510/502;LaTeX0053 opens518/510;hardware0054 earlier394/386. FLC0019 awaits boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",

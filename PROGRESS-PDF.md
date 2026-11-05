@@ -11,54 +11,54 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have twenty-eight readable articles, zero partial, thirteen non-owning headings,
-eight section references and 41 unresolved outcomes; July
+identities now have twenty-eight readable articles, one partial, thirteen non-owning headings,
+eight section references and 40 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 59 completes Netscape 0050 across PDF 492–500 / individually observed
-printed 484–492. Final page 500 is restored as native c; the complete article is
-actually assembled from immutable natives a/b/c. Four final screenshots and
-captions, the closing prose, original MS emblem and separate editor credit
-`정리:정인성` remain. Page 501 is an independent recruitment advertisement.
+Batch 60 establishes HTML 0051's complete seven-page extent, PDF 502–508 /
+individually observed printed 494–500, and restores opening 502–507 as immutable
+native a. Pages 501 and 509 are independent advertisements. Final 508 retains
+closing prose, two screenshots, the MS emblem, editor credit and diskette table;
+its transcription and the complete article assembly remain pending.
 
-All 426 assembly files and 417 native files reproduce independently and in a fresh
-process. The 112 exact crops, 93 original OCR outcomes, 81 source block intervals,
-79 current blocks, 503 physical rows, 1,753 projected metadata occurrences,
-3,515 current ranges, 17,883 scalar values and 403 ZIP members validate.
-The 493→494 sample email join reuses its existing LF; the 499→500 Net Directory
-prose join inserts one LF. Screen 1 and the final screenshots retain independent
-ownership. Literal listing download bytes concatenate unchanged. All eighteen
-numbered screenshots and captions, nine code contexts, FTP/news records, menu
-actions, printed discrepancies and glyph candidates remain.
+All 305 native files reproduce independently and in a fresh process. The 77 exact
+crops, 73 original OCR outcomes, 60 blocks, 419 physical rows, 2,521 typed ranges
+and 297 ZIP members validate. Fifteen code contexts retain 192 nonempty rows,
+including four numbered listings. Forty listing2 options, six input types, eleven
+environment variables, two CGI output examples, two table examples and two math
+markup contexts remain distinct. Thirteen internal joins preserve physical LF,
+a paragraph boundary and the explicit blank line in output1. Its arrow annotation
+stays outside the code. Four original screenshots retain literal captions.
 
-One source correction pass for final 500, ten initial recognitions and zero retries
-or later source changes. Retained administrative revisions fix the rendering-helper
-page range, export evidence path and intervening screenshot join specification.
-No source text or raw OCR changed during those repairs. Five native, 36 assembly
-and fourteen ownership/status faults reject. Forty-one frozen group/native status
-pointers resolve externally; group 0049 stays non-owning and HTML 0051 unresolved.
-All 53,080 prior March files and thirty core modules remain exact. The unchanged
-214-test baseline is reused. Exact glyphs, encoded bytes, historical claims,
-execution, full proofreading and human acceptance remain unverified.
+Source `[마지막회]` versus canonical `[2]`, `BALELINE`, screen4's reference to
+list5, the `USR_REG.C` context mismatch, missing angle brackets, misordered tags
+and printed wording defects remain unrepaired. Omission counts, quote identities
+and spacing remain uncertain. One source correction pass, zero retries, two
+pre-OCR maps and sixteen crop repairs; no within-pass or post-pass text changes.
+Thirty-two invalid cases reject. All 53,727 prior March files and thirty core
+modules remain exact; the unchanged 214-test baseline is reused. Exact glyphs,
+encoded bytes, historical claims, execution, full proofreading and human acceptance
+remain unverified.
 
-Complete article: `archive/pdf/1995-03/packages/article-netscape-r02/`.
-Current status: `archive/pdf/1995-03/classifications/batch-59-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-59/`.
-Use the retained `netscape_adapter_r02.py` installer when checking or rebuilding
-the assembled package. Natives and original group evidence remain immutable.
-Totals: twenty-eight readable, zero partial, thirteen non-owning headings,
-eight references and 41 unresolved.
+Opening HTML native: `archive/pdf/1995-03/packages/batch-60-r01/html-a/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-60/`.
+The frozen group evidence remains immutable; resolve affected creation-time status
+externally after HTML completion. Netscape remains complete at
+`archive/pdf/1995-03/packages/article-netscape-r02/` using its retained batch59
+adapter. Totals: twenty-eight readable, one partial, thirteen non-owning headings,
+eight references and 40 unresolved.
 
-Next locate HTML 0051's full extent from opening 502 / 494, then restore at most
-502–507 in the next bounded checkpoint. Reuse the retained opening and inspect
-both boundaries. Preserve source `[마지막회]` versus canonical `[2]`, author
-`김현석`, literal HTML and screenshots. NeXTSTEP 0052 opens 510 / 502; LaTeX 0053
-opens 518 / 510. Hardware 0054 remains earlier on 394 / 386. FLC0019 awaits bounded
-lookup or issue accounting. See [March progress](docs/progress/9503.md).
+Next restore HTML 0051's final PDF 508 / 500 and assemble the full 502–508 article.
+Reuse retained renders and inspect 507/509 boundaries. Page 508 starts a new
+subsection, so no prose or code join is required at 507→508. Preserve all native
+metadata, literal listings, screenshots/captions and source discrepancies.
+NeXTSTEP 0052 opens 510 / 502; LaTeX 0053 opens 518 / 510. Hardware 0054 remains
+earlier on 394 / 386. FLC0019 awaits bounded lookup or issue accounting.
+See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.

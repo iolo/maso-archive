@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — March HTML opening native
+
+- Batch 60 establishes HTML0051's full 502–508 extent and restores 502–507.
+  All 305 native files reproduce independently and in a fresh process; 77 crops,
+  419 rows and 2,521 typed ranges validate. Thirty-two invalid cases reject.
+- Four listings and other examples retain 192 code rows; malformed markup, printed
+  references, source installment discrepancy and uncertain omission counts remain.
+  Four screenshots/captions, CGI examples and thirteen physical joins stay distinct.
+  All 53,727 prior files and thirty core modules remain exact.
+- Totals: 28 readable, one partial, 13 groups, eight references and 40 unresolved.
+  Next restore final508 and assemble HTML502–508. FLC0019, 545-page accounting,
+  cover and separate closeout remain pending. Full March restoration remains active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Netscape article assembled
 
 - Batch 59 restores final page 500 and assembles complete Netscape 0050 on 492–500.
