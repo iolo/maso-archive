@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March Borland C++ article completed
+
+- Batch 48 restores final PDF pages 452–456 and assembles article 0044 across
+  its complete 446–456 extent. All 465 assembly files reproduce exactly;
+  117 crops, 4,643 text ranges and all 76 numbered listing rows validate.
+- Two blank disk-table cells, code bracket shapes and caption/image discrepancies
+  remain source-linked. A retained assembly revision fixes four figure-target IDs.
+  All 72 invalid cases reject; all 40,256 prior March files remain unchanged.
+- Totals: twenty-five readable, zero partial, ten groups, eight references and
+  47 unresolved. Next classify feature 0045 on 458 and establish NT0046's extent
+  beginning on 459, then restore a bounded opening. FLC0019, 545-page accounting,
+  cover and separate closeout remain open. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Borland C++ opening restored
 
 - Batch 47 preserves article 0044 on PDF 446–451 as a partial native. Its complete

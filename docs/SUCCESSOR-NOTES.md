@@ -19,45 +19,50 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 47 preserves Borland C++ 4.5 article 0044's opening PDF 446–451 /
-printed 438–443 as an immutable partial native. The complete article extent is
-446–456 / 438–448, ending with editorial credit and a disk-file table. Pages
-452–456 and actual article assembly remain pending. The next special feature
-opens on 458, followed by its NT article on 459; neither is classified here.
+Batch 48 completes Borland C++ 4.5 article 0044 across PDF 446–456 /
+printed 438–448. Its final five pages are restored as immutable native b, and
+both natives are assembled into a complete, readable/sample-reviewed article.
+The lower-page naming notice on 456 and advertisement on 457 remain excluded.
 
-All 254 native files reproduce independently and in a fresh process. Validation
-covers 65 pixel-exact crops, 60 OCR outcomes, 952 text ranges, 46 reading blocks,
-375 physical rows and 246 exact ZIP members. Two full-page sidebars retain their
-installation and linker contexts. Main prose crosses 447→449 and 449→451 around
-those sidebars. Fourteen joins retain twelve LF, one paragraph break and one
-dropcap fold. The outgoing OLE discussion starts a new paragraph on 452.
+All 465 assembly files reproduce independently and in a fresh process, consuming
+456 exact regenerated native files. Validation covers 117 pixel-exact crops,
+107 original OCR outcomes, 2,321 projected native metadata occurrences, 4,643
+current text ranges, 23,324 scalar values, 83 reading blocks and 695 physical rows.
+All original text intervals and 446 ZIP members remain exact. No cross-native
+join is required at 451→452; all 24 internal boundaries retain their separators.
 
-Two diagrams preserve twelve labels and eleven connections, including six sibling
-directory branches and five undirected OCF connections. Five original images,
-three literal captions, an independent pull quote, product facts and twenty-one
-list items retain their source roles. One SYSTEM.INI configuration line remains
-literal and unexecuted. Printed OLEDLS, arithmetic inconsistencies, unusual
-spacing and the 4.0 product photo beside the 4.5 title remain source-linked.
+Two full-page sidebars, two diagrams with twelve labels/eleven connections,
+product facts, an independent pull quote and twenty-one list items retain their
+contexts. Ten original images retain six literal captions and seven figure
+references. The final prose crosses the independent listing on 455. Both code
+contexts preserve the configuration line and all 76 numbered listing rows,
+including fifteen number-only rows. The disk-file table retains eight rows,
+fourteen nonblank cells, two headers, two blank descriptions and its footnote.
+Square-like code brackets, ClassExpert caption/AppExpert image, photo 4.0/title
+4.5, OLEDLS, ATM wording and filename/glyph uncertainties remain source-linked.
 
-All sixty initial drafts were read before one source correction pass. Three maps
-retain 36 pre-OCR refinements; there were no OCR retries or within/post-pass text
-changes. Two correction-script constructor failures remain recorded; both occurred
-before reviewed text was emitted. All 42 invalid range, context and status cases
-reject. All 39,298 prior March files and thirty core modules remain exact; the
-unchanged 214-test baseline is reused. Seven frozen status pointers resolve
-externally, preserving earlier evidence. Forty-one classification evidence records
-are required for final closeout. Exact glyphs, spacing, encoded bytes, claims,
-execution, full proofreading and human acceptance remain unverified.
+All 47 new OCR drafts were read before one source correction pass. Two maps
+retain three pre-OCR refinements; zero OCR retries or within/post-pass text
+changes. The first assembly audit exposed four unprojected figure-target IDs;
+r02 repairs their identity mapping, with r01 and all native/source bytes retained.
+All 72 invalid range, context and status cases reject. All 40,256 prior March
+files and thirty core modules remain exact; the unchanged 214-test baseline is
+reused. Thirty-six frozen status pointers resolve externally. Forty-two
+classification evidence records are required for final closeout. Exact glyphs,
+spacing, encoded bytes, claims, execution, full proofreading and human acceptance
+remain unverified.
 
-Partial native: `archive/pdf/1995-03/packages/batch-47-r01/borland-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-47-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-47/`.
-Totals: twenty-four readable, one partial, ten non-owning headings, eight references
-and 47 unresolved. Next restore final pages 452–456, preserving screenshots 2–4,
-the numbered listing and disk-file table, then assemble the complete article.
-Exclude the lower-page naming notice on 456 and advertisement on 457.
-Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-FLC0019 awaits bounded lookup or issue accounting.
+Complete article: `archive/pdf/1995-03/packages/article-borland-r02/`.
+Final native: `archive/pdf/1995-03/packages/batch-48-r01/borland-b/`.
+Current status: `archive/pdf/1995-03/classifications/batch-48-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-48/`.
+Totals: twenty-five readable, zero partial, ten non-owning headings, eight
+references and 47 unresolved. Both direct children of tool-review group 0042
+are readable. Next establish special-feature 0045's classification from PDF 458
+and NT article 0046's extent beginning on 459, then restore its bounded opening.
+Count heading 458 within the six mapped pages if mapped; allow at most five
+article pages in that checkpoint. Keep two canonical tasks / six mapped pages /
+twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or accounting.
 See [March progress](progress/9503.md). The full March goal remains active
 through all remaining outcomes, 545-page accounting, cover and separate issue
 closeout before July. No reader rebuild or deployment.
