@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — March protected-mode article completed
+
+- Batch 36 restores final pages 370–373 and assembles the complete 364–373 article.
+  Listing 1 preserves all 317 numbered rows, including 63 blank numbered rows.
+- All 509 parent files reproduce independently and in a fresh process. Validation
+  covers 134 source crops, 8,376 current text ranges, both distinct code contexts,
+  eight diagrams with 173 label rows, and 76 invalid range/context/status cases.
+- All 29,442 prior files remain exact. Thirty-eight historical status pointers
+  resolve externally. Two damaged values and four dashed-rule placeholders remain
+  explicit; source errors, glyph candidates and all fidelity limits remain.
+- Totals: nineteen readable, zero partial, seven groups, eight references and
+  56 unresolved. All DOS-group child articles are readable. Next review groups
+  0036/0037, then article 0038 from PDF 400 in a later bounded checkpoint.
+  FLC0019 and full-issue accounting remain open; the March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March protected-mode opening and register diagrams
 
 - Batch 35 restores article 0035 on PDF 364–369. The complete observed extent
