@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — March game-engine continuation and closing prose
+
+- Batch 31 adds article 0033 pages 344–349. Twelve pages 338–349 are now
+  preserved across two natives; final 350 and full assembly remain pending.
+- All 246 native files and one cumulative-status file reproduce independently
+  and in a fresh process. Validation covers 60 crops, 1,918 text ranges,
+  128 numbered code rows, 39 table rows and 43 negative cases. All 22,708 prior
+  files remain exact; four frozen coverage pointers resolve externally.
+- One source pass, zero retries or regional text changes. Source code mistakes,
+  table wording and technical claims remain literal. An external clarification
+  corrects the preflight receipt's name for the crop review surfaces used.
+- Totals remain sixteen readable, one partial, seven groups, eight references
+  and 58 unresolved. Next restore 350 and assemble complete 338–350, preserving
+  the incoming prose and final code joins. FLC0019 and issue accounting remain
+  open; the full March goal stays active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March DOS heading and partial game-engine article
 
 - Batch 30 classifies non-owning DOS heading 0032 and restores article 0033

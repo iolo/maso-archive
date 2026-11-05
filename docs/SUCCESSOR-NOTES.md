@@ -19,50 +19,54 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 30 classifies DOS programming 0032 as a non-owning heading and restores
-article 0033, 게임 제작의 모든 것 : 게임의 심장, 엔진을 만들자(2), by 최상호,
-across PDF 338–343 / printed 330–335. The full observed article spans 338–350.
-Prose ends on 349 with editor credit and a diskette table; listing 2 ends on 350.
-Pages 337 and 351 are independent advertisements; 352 opens article 0034.
-The DOS heading has three separate child articles, 0033–0035. The latter two
-remain unresolved; their openings were sampled only to establish group structure.
+Batch 31 adds game-engine article 0033 continuation PDF 344–349 / printed
+336–341 as immutable native b. Together with native a, twelve pages 338–349 are
+preserved. The final listing page 350 and complete 338–350 assembly remain pending.
+Prose ends on 349 with editor credit 홍동선 and the original closing mark. The
+nine-file diskette table remains a source transcription without automatic CD links.
 
-All 200 native files and seven group/status files match independent and
-fresh-process exports. Validation covers 50 pixel-exact native crops, four group
-crops, 47 OCR outcomes, 1,287 typed text ranges, 31 blocks, 441 reading rows,
-three original images and 192 exact ZIP members. Listing 1 preserves all 90
-numbered assembly rows, including blank row 90. The seven-part series outline
-highlights installment 3. Sixteen internal boundaries retain physical wraps.
+All 246 native files and one cumulative-status file match independent and
+fresh-process exports. Validation covers 60 pixel-exact crops, 59 OCR outcomes,
+1,918 typed text ranges, 48 blocks, 518 reading rows and 238 exact ZIP members.
+Six code contexts retain 128 numbered physical rows: listings 3/4/5/6/7 contain
+16/35/17/23/24 rows, followed by listing 2 rows 001–013. Numbered blank rows remain.
+Three tables retain 39 rows, 78 data cells, six headers and three XMS footnotes.
+Ten numbered method/step items include one EMS item spanning two columns.
 
-The two diagrams retain their printed captions despite an apparent image/caption
-exchange. Caption/prose references and visible diagram labels document this
-without swapping images. PutSprite / _PutBlSprite names, @@nonomalize labels,
-printed 짤리는 and 나뉘 wording, the split 320 expression and technical claims
-remain literal. Exact glyphs, spacing, punctuation, encoded code bytes, claims,
-full proofreading and human acceptance remain unverified.
+Eleven internal boundaries preserve physical wraps. Both original contexts for
+343→344 match; their prose join awaits assembly. Listing 2 continues 349→350
+from row 013 push di to row 014 push es. There is no outgoing prose continuation.
+Bracket-shaped C delimiters, the single-less-than/broken-bar macro candidate,
+MKFP spelling, General/Character and MAX_SPRITE differences remain unrepaired.
+Source fucntion, table headers/40/HEMM, prose 67H/21H and the earlier caption/image
+mismatch remain literal. Exact glyphs, spacing, punctuation, encoded bytes,
+technical claims, full proofreading and human acceptance remain unverified.
 
-All 47 initial drafts were read before one source correction pass; zero retries
-or later regional text changes. Three valid maps and 23 pre-OCR refinements
-remain retained. Two separately recorded pre-export paragraph separator decisions
-preserve indentation at column boundaries; regional text and OCR are unchanged.
-All 40 invalid range/context/status cases reject. All 21,941 prior March files
+All 59 initial drafts were read before one source correction pass; zero retries
+or within/post-pass regional text changes. Three valid maps and ten pre-OCR
+refinements remain retained. An external clarification corrects an inherited
+preflight receipt label: review used r01 overlays, all r02 crop sheets and two
+changed r03 caption crops. Source, maps, OCR and transcription are unchanged.
+All 43 invalid range/context/status cases reject. All 22,708 prior March files
 and thirty core modules remain exact; the unchanged 214-test baseline is reused.
-Six frozen classification pointers resolve externally. All twenty-two required
-final-status evidence files remain pinned, including the previous Windows chain.
+Four frozen coverage pointers resolve externally. All twenty-three required
+final-status records remain pinned. Cumulative coverage is 110 regions, 79 blocks
+and four original images across two natives, with full assembly still required.
 
-Partial native: `archive/pdf/1995-03/packages/batch-30-r01/game-a/`.
-DOS group/current status: `archive/pdf/1995-03/classifications/batch-30-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-30/`.
-Totals: sixteen readable, one partial, seven non-owning headings, eight references
-and 58 unresolved. Next restore 344–349, then 350 and full 338–350 assembly.
-Preserve the 343→344 prose continuation destruct 함수 / 를 서로 다르게 with LF.
-Later listing 2 spans 349–350; retain the printed listing order, EMS/XMS tables,
-editor credit and diskette table. The assembly adapter must explicitly project
-listing-reference target_block_id. Keep two canonical tasks / six mapped pages /
-twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or issue
-accounting. See [March progress](progress/9503.md). The full March goal remains
-active through all remaining outcomes, 545-page accounting, cover and separate
-issue closeout before July. No reader rebuild or deployment.
+Continuation native: `archive/pdf/1995-03/packages/batch-31-r01/game-b/`.
+Opening native: `archive/pdf/1995-03/packages/batch-30-r01/game-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-31-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-31/`.
+Totals remain sixteen readable, one partial, seven non-owning headings, eight
+references and 58 unresolved. Next restore final 350, then assemble 338–350.
+Preserve listing order 1/3/4/5/6/7/2 and the two required boundary joins.
+The assembly adapter must project listing-reference target_block_id and
+table-reference target_table_id, and reconcile listing 2 across natives b/c.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](progress/9503.md).
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
+No reader rebuild or deployment.
 
 Batch 02's219 files reproduce
 independently/in fresh processes;56 exact crops,49 outcomes,586 ranges and327 rows
