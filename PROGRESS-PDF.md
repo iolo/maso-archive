@@ -12,47 +12,47 @@ and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
 identities now have thirty-three readable articles, zero partial, fourteen non-owning headings,
-eleven section references and 32 unresolved outcomes; July
+thirteen section references and 30 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 70 finalizes domestic children 0058/0059 as non-owning references into
-complete Domestic Network 0056. The internet report is wholly PDF 162 / printed
-154, retaining its title, three-line deck, eight prose paragraphs, column
-continuation and reporter credit. The Moonbangsau 3.0 announcement is wholly
-166/158, retaining its expanded printed title, prose, contact, screenshot and
-caption. Its column transition starts a new paragraph; the physical price wrap
-remains literal. Adjacent interview, industry briefs and product news are excluded.
+Batch 71 finalizes domestic children 0060/0061, completing all five child
+references 0057–0061 into the assembled Domestic Network 0056. DataView 9.5 and
+PageJet P3 are separate complete boxes wholly on PDF 169 / printed 161. Their
+expanded source titles and contacts remain. PageJet retains its separate Hot
+Product label, two prose paragraphs, printer image and caption. Adjacent Opera,
+Blaster and following Apache news are excluded. The RIT wording and unresolved
+source spelling context remain literal.
 
 Four classification files reproduce independently and in a fresh process.
-Validation covers 26 typed ranges, seventeen source regions, fourteen text blocks,
-two continuation boundaries and one physical token-wrap context; nineteen invalid
-cases reject. Seven outside source pages were reviewed, with no new mapping, OCR
-or source correction. All 786 parent files, 63,983 prior March files and thirty
-core modules remain exact; the unchanged 214-test baseline is reused.
+Validation covers thirteen typed ranges, nine source regions, eight text blocks,
+two contacts and one captioned image; nineteen invalid cases reject. Four outside
+source pages were reviewed, with no new mapping, OCR or source correction.
+All 786 parent files, 64,018 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused. The cumulative status retains earlier
+child reference pins and leaves no domestic child pending.
 
-The parent remains complete across 160–171, preserving all 42 news items, four
-interview Q&A pairs, eighteen figure regions, eighteen captions and 31 contacts.
-Current status resolves children 0057–0059 while leaving 0060/0061 pending.
+The complete domestic parent spans 160–171 and preserves all 42 news items,
+four interview Q&A pairs, eighteen figure regions, eighteen captions and 31 contacts.
 Canonical titles, missing folios and bylines remain unchanged. Original source
 uncertainty and historical claims remain; full proofreading and human acceptance
 are unverified.
 
 Complete domestic article: `archive/pdf/1995-03/packages/article-domestic-r01/`.
-Child references and current status: `archive/pdf/1995-03/classifications/batch-70-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-70/`.
+Final child references and family status: `archive/pdf/1995-03/classifications/batch-71-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-71/`.
 Earlier packages, classifications and group 0055 remain unchanged.
 Totals are thirty-three readable, zero partial, fourteen non-owning headings,
-eleven references and 32 unresolved.
+thirteen references and 30 unresolved.
 
-Next finalize domestic children 0060/0061: DataView 9.5 and PageJet P3, both
-opening on PDF 169 / printed 161. Verify their complete scopes, expanded source
-titles, vendor label, contacts and image/caption contexts against the assembled
-parent. Then locate overseas 0062 from 172/164.
-FLC0019 awaits bounded lookup or issue accounting.
+Next locate overseas 0062's complete source extent, beginning on PDF 172 /
+observed printed 164, then restore at most 172–177 as the next bounded native.
+Inspect the actual ending and boundaries before deciding the full extent.
+Preserve separate news items, source images, captions, contacts and prospective
+children 0063–0066. FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page

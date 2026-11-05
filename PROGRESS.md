@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-06 — March domestic family complete
+
+- Batch 71 finalizes DataView0060 and PageJet0061, both wholly on169/161.
+  Domestic0056 and all five child references0057–0061 are now complete.
+- Four exact classification files retain thirteen typed ranges, nine source regions,
+  eight blocks, two contacts and the printer image/caption. Nineteen invalid cases
+  reject; source wording, expanded titles and the Hot Product label remain intact.
+- No new OCR or source correction. All 64,018 prior March files and thirty core
+  modules remain unchanged; the unchanged 214-test baseline is reused.
+- Totals: 33 readable, zero partial, fourteen groups, thirteen references and 30 unresolved.
+  Next establish overseas0062's extent from172/164 and restore at most172–177.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  The full March goal stays active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March domestic internet and Moonbangsau references
 
 - Batch 70 finalizes children 0058/0059 against complete domestic parent 0056.
