@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Restore March curves opening segment
+
+- Batch 26 preserves article 0030 on PDF 318–323. Final page 324 and actual
+  complete-article assembly remain pending.
+- All 315 native files reproduce independently and in a fresh process.
+  Validation covers 87 crops, 1,790 ranges, six equation images, six diagrams,
+  135 numbered code rows and 38 negative cases. All 18,852 prior files stay exact.
+- One source correction pass, zero retries or later text changes. Printed
+  defects and the unobserved row 136 remain explicit; fourteen earlier status
+  pointers are resolved externally without rewriting frozen evidence.
+- Totals: fourteen readable, one partial, six groups, eight references,
+  61 unresolved. Next restore 324 and assemble 0030. FLC0019 and issue
+  accounting remain open; the full March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March communications article
 
 - Batch 25 restores final page 316 and assembles article 0029 across PDF 310–316.

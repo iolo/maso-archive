@@ -2062,12 +2062,84 @@
       "toc_entry_id": "maso-1995-03-toc-0030",
       "title": "곡선 프로그래밍 : 고감도 그래픽 첫발, 곡선의 재발견",
       "parent_id": "maso-1995-03-toc-0027",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Curves0030 first six pages PDF318–323/printed310–315 restored as immutable partial native. Full extent318–324 verified: prose ends322 with editor credit and three references; code listings continue through324 above an independent advertisement.325 advertising;326 next article.",
+        "315 selected/independent/fresh-process files match;87 exact mapped crops,73 OCR outcomes,1790 typed ranges,57 blocks,376 reading rows and307 ZIP members. Fourteen images comprise six diagram panels,six displayed equations,opening category art andclosing mark.",
+        "Five-part series outline,three mathematical expression forms,four comparison rows/eight cells andthree bibliography entries retain distinct contexts. Equation and diagram label candidates are linked to original images; mathematical and bibliographic claims remain unverified.",
+        "CURVE.H retains135 numbered rows andone continuing code context. Printed square-bracket-shaped delimiters,underscore/prime glyph candidates andreference spelling pratice are not repaired. Full source323 ends135;324 begins137. Unobserved136 is not synthesized.",
+        "Sixteen internal continuations retain physical LF. Final324 andactual complete article assembly remain required. Prose closes322;the continuing listing must not be confused with a prose boundary.",
+        "All73 initial drafts read before one source pass;zero retries or within/post-pass text repairs. Two valid pre-OCR maps and29 crop refinements retained. Six range,twenty context andtwelve status faults rejected. All18852 prior files andthirty core pins unchanged;214-test baseline reused. Exact glyphs,spacing,source bytes,claims,full proofreading andhuman acceptance unverified.",
+        "Fourteen frozen0030 classification/ownership pointers resolved externally;non-owning group0027 has0028/0029 readable,0030 partial and0031 unresolved. Earlier evidence and0031 source-banner discrepancy retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-26-r01/curves-a",
+        "article_id": "scan-maso-1995-03-toc-0030",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-26-r01/curves-a/manifest.json",
+          "sha256": "60317206fa32e21caed9c403b7f097b3808445f5a5615cf6ec1b46c3b925cb91",
+          "bytes": 53392
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-26/curves-a-r02/package-recipe.json",
+          "sha256": "77c9a54a435002d1ddc4eda2368f85deb89035074846c915d8aa98f47a33eca5",
+          "bytes": 12177
+        },
+        "coverage": {
+          "pdf_pages": [
+            318,
+            319,
+            320,
+            321,
+            322,
+            323
+          ],
+          "printed_pages": [
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315"
+          ],
+          "regions": 87,
+          "blocks": 57,
+          "figures": 14,
+          "deferred_pdf_pages": [
+            324
+          ],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 318,
+        "actual_end_pdf_page": 324,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-26-r01/source-creation-dispositions.json",
+          "sha256": "e01ab9fb678467638cb19518eb701e29d96055a3e05e97af29ecad18e38a4660",
+          "bytes": 10536
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-26/validation.json",
+          "sha256": "dac2ec7a7bd84b7677c98fc3f11304e531126faebb4a274a1e7145832beda728",
+          "bytes": 2151
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-26/reproduction.json",
+          "sha256": "de480483eecfaf3dba465c7e233299048c9deb5bb8c0d1c1de0e7087a41a99e4",
+          "bytes": 61019
+        },
+        "classification_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-26/classification-reproduction.json",
+          "sha256": "4bb30bcb7906f79b0741db41f4577e24902eb71bb1fa6fd45031abac90027397",
+          "bytes": 572
+        },
+        "checkpoint": "batch-26"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0031",
@@ -3565,22 +3637,64 @@
         "sha256": "292f38f552111d6a58182e68cc75f761603c2c28df6493c9183dd844465f0a87",
         "bytes": 572
       }
+    },
+    {
+      "name": "1995-03-batch-26",
+      "status": "complete",
+      "completed_at": "2026-11-05T01:06:05.857477+00:00",
+      "goal": "Restore curves0030 opening six pages as immutable native a after verifying full seven-page extent.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0030"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        318,
+        319,
+        320,
+        321,
+        322,
+        323
+      ],
+      "outside_lookup_pages": 4,
+      "recognition_invocations": 73,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "pre_ocr_refinement_events": 29,
+      "valid_pre_ocr_maps": 2,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-26/validation.json",
+        "sha256": "dac2ec7a7bd84b7677c98fc3f11304e531126faebb4a274a1e7145832beda728",
+        "bytes": 2151
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-26/reproduction.json",
+        "sha256": "de480483eecfaf3dba465c7e233299048c9deb5bb8c0d1c1de0e7087a41a99e4",
+        "bytes": 61019
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-26/classification-reproduction.json",
+        "sha256": "4bb30bcb7906f79b0741db41f4577e24902eb71bb1fa6fd45031abac90027397",
+        "bytes": 572
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
     "readable": 14,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 6,
     "section_references": 8,
-    "unresolved": 62
+    "unresolved": 61
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify0030 curves article from observedPDF318/printed310, then restore at most six mapped pages as the first native segment; inspect actual ending/continuations rather than assume next TOC page. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting;0031 source-banner discrepancy retained. Complete all March outcomes,545-page accounting,cover andseparate issue closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Restore curves0030 finalPDF324/printed316: CURVE.H closing rows137–140 andCURVE.CPP listing, preserving source numbering gaps136/055 andany ending defect rather than inventing code. Exclude lower independent book advertisement. Then separately assemble actual full318–324 article andresolve frozen partial statuses externally. Continue0031 at observed326, retaining sourcebanner 연재강좌 versus canonical hierarchy. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup/issue accounting. Complete all March outcomes,545-page accounting,cover andseparate issue closeout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -3666,6 +3780,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-25-r01/source-creation-dispositions.json",
       "sha256": "7a11262829409c4bb2802ccd016b06a450cd5780f1232f3f90ff85e94a8927ad",
       "bytes": 16793
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-26-r01/source-creation-dispositions.json",
+      "sha256": "e01ab9fb678467638cb19518eb701e29d96055a3e05e97af29ecad18e38a4660",
+      "bytes": 10536
     }
   ]
 }
