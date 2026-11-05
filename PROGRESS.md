@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March serial groups classified
+
+- Batch 37 records headings 0036/0037 as non-owning from contents and four distinct
+  child openings. Canonical hierarchy, titles and null group folios remain unchanged.
+- Twelve files reproduce in three exports; seven crops, six hierarchy nodes and
+  ten external status dispositions validate. Thirty invalid cases reject.
+  All 30,606 prior files and thirty core modules remain exact. No new OCR.
+- Totals: nineteen readable, zero partial, nine groups, eight references and
+  54 unresolved. Next verify article 0038 from PDF 400 / printed 392, establish
+  its extent, then restore at most six mapped pages per checkpoint.
+  FLC0019 and full-issue accounting remain open; the March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March protected-mode article completed
 
 - Batch 36 restores final pages 370–373 and assembles the complete 364–373 article.

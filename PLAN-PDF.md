@@ -267,50 +267,33 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 36 completes protected-mode article 0035 on PDF 364–373 / printed
-356–365. Closing prose, contacts, editor/ending mark and the independent reference
-box end on 370; listing 1, `PROTECT.ASM`, ends on 373 at numbered row 317.
-Pages 374–379 are independent advertising. Both immutable natives are included
-in the actual complete article assembly.
+Batch 37 classifies pageless headings 0036 `연재` and 0037
+`윈도우즈 프로그래밍` as non-owning groups. Contents on PDF 4–5 and four
+independent openings at PDF 400/408/416/426 support the preserved hierarchy:
+0036 → 0037 → articles 0038–0041. The openings have distinct titles, credits and
+printed folios 392/400/408/418 and repeat the `연재강좌` banner. The neighboring
+Delphi opening at PDF 440 / printed 432 has the separate `툴리뷰` banner.
+Canonical titles, bylines, order, parent edges and null group folios remain unchanged.
+The source title variant `예외 처리 기능` on 416 stays separate from canonical
+`예외처리 기법`. Opening observations establish neither complete article extents
+nor restored child bodies.
 
-All 509 parent files reproduce independently and in a fresh process, including
-500 unchanged nested native files. Validation covers 134 pixel-exact crops,
-116 OCR outcomes, 4,187 projected metadata occurrences, 8,376 current text ranges,
-85 original text blocks, 868 reading rows, eighteen original images and 490 exact
-ZIP members. No external prose or code join is required: 369 closes a subsection,
-and 370 opens segment management. All native text and code bytes remain exact.
+Twelve evidence files reproduce independently and in a fresh process. All seven
+source crops are pixel-exact; six hierarchy nodes and ten external historical
+status dispositions validate. All thirty invalid ownership, hierarchy, scope and
+status cases reject. Seven source pages were inspected; zero mapped pages, OCR
+calls or source correction passes. All 30,606 prior March files and thirty core
+modules remain exact; the unchanged 214-test baseline is reused. Twenty-nine
+classification evidence records are required for final issue closeout. Source
+sample review does not establish exact glyphs, full proofreading or human acceptance.
 
-The opening native retains eight captioned diagrams with 173 label rows, eight
-resolved figure references, the four-part outline, independent usage essay, ten
-register explanations and an eight-row incomplete assembly example. Source title
-and credit variants remain separate from the canonical record. Blank diagram
-fields, the gray-swatch placeholder, RPL divider and technical anomalies remain
-explicit. The final native preserves 317 numbered listing rows, including 63
-blank numbered rows, and eight original code-column images. Three contacts,
-five segment items, three requirements and three reference books retain their
-source roles. Two damaged descriptor spans and four dashed rules use explicit
-placeholders. Thirty-five localized source candidates remain across both natives;
-source errors are not repaired and no missing code values are reconstructed.
-
-All 38 final-page drafts were read before one source correction pass; zero retries
-or within/post-pass text repairs. Two valid maps and eight pre-OCR refinements
-remain. All 76 invalid range/context/status cases reject. All 29,442 prior March
-files and thirty core modules remain exact; the unchanged 214-test baseline is
-reused. Thirty-eight frozen status pointers resolve externally without modifying
-original evidence. Twenty-eight final-classification evidence records remain
-required. Exact glyphs, spacing, encoded bytes, technical claims, full proofreading
-and human acceptance remain unverified; no automatic CD association is created.
-
-Complete article: `archive/pdf/1995-03/packages/article-protected-r01/`.
-Final native: `archive/pdf/1995-03/packages/batch-36-r01/protected-b/`.
-Opening native: `archive/pdf/1995-03/packages/batch-35-r01/protected-a/`.
-Current status: `archive/pdf/1995-03/classifications/batch-36-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-36/`.
-Totals: nineteen readable, zero partial, seven non-owning headings, eight references
-and 56 unresolved. DOS group 0032 remains non-owning; all three children 0033–0035
-are readable. Next review pageless groups 0036/0037 as two canonical tasks, using
-contents and distinct child openings. Preserve hierarchy and null folios. Then
-verify article 0038 from PDF 400 / printed 392 in a later bounded checkpoint.
+Groups and current status: `archive/pdf/1995-03/classifications/batch-37-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-37/`.
+Totals: nineteen readable, zero partial, nine non-owning headings, eight references
+and 54 unresolved. Next verify and restore article 0038, Visual FoxPro 3.0, from
+PDF 400 / printed 392. Establish its full extent and adjacent ownership before
+mapping at most six pages; article 0039 opens independently at PDF 408 / printed 400.
+Preserve the portrait/biography, screens, captions and source title variants.
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
