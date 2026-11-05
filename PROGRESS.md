@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — March LaTeX article complete
+
+- Batch 65 completes LaTeX0053 across 518–524. All 548 assembly files and 539
+  native files reproduce independently and in a fresh process; 146 crops, 472 rows,
+  1,938 projected metadata occurrences and 3,898 current ranges validate.
+- Twelve worked examples, three reference tables, two sidebars and all original
+  typography and source uncertainties remain. No cross-native join is needed.
+  Sixty-nine invalid cases reject; twenty-five frozen status pointers resolve
+  externally. All 58,480 prior files and thirty core modules remain exact.
+- Totals: 31 readable, zero partial, 13 groups, eight references and 38 unresolved.
+  Next locate hardware0054 from PDF394 / canonical printed386 and restore at most
+  six mapped pages. FLC0019, 545-page accounting, cover and separate closeout remain
+  pending. Full March goal active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March LaTeX opening restored
 
 - Batch 64 preserves LaTeX0053 opening 518–523 of the reviewed 518–524 extent.
