@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — March LaTeX opening restored
+
+- Batch 64 preserves LaTeX0053 opening 518–523 of the reviewed 518–524 extent.
+  All 459 files reproduce independently and in a fresh process; 126 exact crops,
+  424 physical rows, 1,726 typed ranges and 451 ZIP members validate.
+- Ten worked examples, three reference tables, two sidebars and eighteen images
+  retain their source contexts. Eight physical joins preserve the two code examples
+  spanning page boundaries. Printed anomalies and delimiter uncertainties remain.
+- Thirty-four invalid cases reject. All 56,803 prior files and thirty core modules
+  remain exact. Totals: 30 readable, one partial, 13 groups, eight references and
+  38 unresolved. Next restore final524 and assemble the article. FLC0019, 545-page
+  accounting, cover and separate closeout remain pending. Full March goal active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March NeXTSTEP article complete
 
 - Batch 63 completes NeXTSTEP0052 across 510–516. All 309 assembly files and 301

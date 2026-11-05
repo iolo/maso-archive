@@ -267,46 +267,55 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 63 completes NeXTSTEP 0052 across PDF 510–516 / individually observed
-printed 502–508, using immutable opening and final-page natives. Final 516
-preserves screenshot8 and its caption, closing prose, the MS emblem and editor
-credit above an independent book advertisement. Page 517 is a separate Hanmesoft
-advertisement.
+Batch 64 establishes LaTeX 0053's complete extent on PDF 518–524 / individually
+observed printed 510–516, and preserves opening 518–523 as an immutable partial
+native. The source title, third installment and author 이충완 remain literal.
+Final 524 ends with the MS mark and editor credit; 517, 525 and 526 are independent
+advertisements.
 
-All 309 assembled files and 301 native files reproduce independently and in a
-fresh process. The 78 pixel-exact crops, 69 original OCR outcomes, 59 original
-blocks in 58 current blocks, 366 physical rows, 1,045 projected metadata occurrences,
-2,091 current ranges, 10,605 scalar values and 293 ZIP members validate.
-One cross-native prose join retains physical LF at `워크스`→`페이스` on 515→516;
-screenshot8 and its caption remain independent. Eight screenshots, nine configuration
-contexts, seven LAN adapter rows, five management-program occurrences, eighteen
-menu actions, one key action, one command mention, seventeen paths and twenty-eight
-program-name occurrences retain their source contexts.
+All 459 package files reproduce independently and in a fresh process. Validation
+covers 126 pixel-exact crops, 108 original OCR outcomes, 100 text blocks, 424 physical
+rows, 1,726 typed ranges and 451 ZIP members. Eighteen visual assets preserve fonts,
+output layouts and the list-parameter diagram. Ten worked examples retain their
+input/output contexts; eighteen code blocks produce 2,027 listing bytes. Three
+reference tables contain 75 logical data cells, including two physical blank cells
+(one spans three rows). The historical site table keeps seven addresses in four
+country groups. Two sidebars, thirteen page parameters, ten font-size commands,
+five Korean font inputs and 165 command occurrences remain indexed.
 
-Printed spelling and spacing remain literal. Figure7's export/import mismatch and
-both figure8 references keep their original contexts; the latter now have separate
-current pointers to the available screenshot without reconciling the mismatch.
-Final 516 used seven initial recognitions, one source correction pass, one reviewed
-map and zero retries or later source changes. Seventy-two invalid cases reject.
-Twenty-seven frozen status pointers resolve externally. Non-owning group0048 still
-has unresolved LaTeX0053 and hardware0054 children. All 56,328 prior March files and
-thirty core modules remain exact; the unchanged 214-test baseline is reused. Exact
-glyphs, encoded bytes, historical claims, execution, full proofreading and human
-acceptance remain unverified.
+Eight internal joins retain physical LF. The custom enumeration example continues
+520→521 across the input/include sidebar; the counter example continues 521→522
+across table2. Font prose continues 518→519. The final 523 sentence ends before a
+new multicolumn example on 524, so no outgoing prose join is required.
+Printed `Computer Morden`, `\normal size`, `\length_commnad`, `\fooskip`,
+`\oddsidemarge`, inconsistent inch values, slash anomalies and historical addresses
+remain unrepaired. Square-looking delimiters, split vertical bars and other glyphs
+remain candidates; original images govern typography and geometry.
 
-Complete NeXTSTEP: `archive/pdf/1995-03/packages/article-nextstep-r01/`.
-Reproduction, private adapter and validation: `archive/pdf/1995-03/restoration/batch-63/`.
-Current group/native status: `archive/pdf/1995-03/classifications/batch-63-r01/`.
-Retain both original natives and all previous frozen classifications. Complete HTML
-remains at `archive/pdf/1995-03/packages/article-html-r01/`.
-Totals: thirty readable, zero partial, thirteen non-owning headings,
-eight references and 39 unresolved.
+All 108 drafts were read before one source correction pass. Three maps and 28
+pre-OCR crop refinements are retained; no retries or later source-text changes
+occurred. Thirty-four invalid cases reject. An incorrect listing-separator audit
+assumption and a missing defensive check in a negative test were corrected without
+changing source text, packages or core code. All 56,803 prior March files and thirty
+core modules remain exact; the unchanged 214-test baseline is reused.
+Exact glyphs, encoded bytes, technical/historical claims, execution, full proofreading
+and human acceptance remain unverified.
 
-Next locate LaTeX0053's full extent from PDF 518 / printed 510, then restore at most
-518–523. Reuse the retained opening and inspect both boundaries; preserve the
-source title/installment, author, literal commands, math examples and screenshots.
-Hardware0054 remains earlier on 394 / 386. FLC0019 awaits bounded lookup or issue
-accounting. See [March progress](docs/progress/9503.md).
+Opening native: `archive/pdf/1995-03/packages/batch-64-r01/latex-a/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-64/`.
+Selected recipe: `batch-64/latex-a-r03/package-recipe.json` under restoration.
+Complete NeXTSTEP remains at `archive/pdf/1995-03/packages/article-nextstep-r01/`.
+Retain all previous natives and frozen classifications. Group0048's pending child
+status will receive an external disposition after LaTeX body completion.
+Totals: thirty readable, one partial, thirteen non-owning headings,
+eight references and 38 unresolved.
+
+Next restore final LaTeX0053 page 524 / printed 516, then assemble full 518–524.
+Reuse the retained page and inspect 523/525 boundaries; preserve the multicolumn
+and makebox examples, input/output differences, closing prose, mark and editor credit.
+Keep every native source range and uncertainty. Hardware0054 remains earlier on
+394 / 386. FLC0019 awaits bounded lookup or issue accounting.
+See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
