@@ -3611,12 +3611,80 @@
       "toc_entry_id": "maso-1995-03-toc-0047",
       "title": "통합 문서관리 소프트웨어 : PC DOCS OPEN",
       "parent_id": "maso-1995-03-toc-0045",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch55 restores complete PC DOCS OPEN0047 on PDF485–489. Folios477–480 individually observed;final489 has no visible folio andnone is invented. Original title/kicker,author Kim Isuk affiliation andeditor credit remain separate fromcanonicaltitle. Incoming484 ends NT;following490–491 are advertisements;Netscape0050 opens492/484 andisnotclassified here.",
+        "494 selected,independent andfresh-process native files match.129 pixel-exact crops,119 original OCR outcomes,1197 typed ranges,106 blocks,346 physical reading rows,10 original figures/eight literal captions and487 ZIPmembers validate.",
+        "Independent LANsidebar,20 table bodycells/six headers,one source-wrapped cell,six tree nodes/five printedconnections,17 installation records/four steps,eight library options,six reader questions andfour document routes retain typedsource contexts. Thirteen internalboundaries retain12LF andone dropcap fold. Historicalcontacts/coupon areindependent finalcontexts.",
+        "All119 drafts readbefore one source correction pass;zero retries. Failedfirstpreflight validation retained;two successfulmaps and42 pre-OCRrefinements. Two explicitpost-pass assistantwording repairs restoreprinted OPEN의 and푸어.18 sourcecandidates retain ODBA,사용자의의,중의 andclosingright-edge damage. A failed metadata tokenlookup splitacross physicalrows isretained;fresh exportrevision changes no source/rawbytes.",
+        "39 invalid range/context/status cases reject. All50171 earlier March files and30 coremodules unchanged;214-testbaseline reused.10 frozenstatuspointers resolve externally;both group0045 childbodies readable,group/dividerunchanged. Exactglyphs/spacing/bytes,claims,execution,full proofreading andhumanacceptance remainunverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-55-r01/pcdocs",
+        "article_id": "scan-maso-1995-03-toc-0047",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-55-r01/pcdocs/manifest.json",
+          "sha256": "3c004b2be6be405e0d7fc91e7d99a0444448655bd80cd233ae0053fd013b9505",
+          "bytes": 83626
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-55/pcdocs-r03/package-recipe.json",
+          "sha256": "cc43574a43219a1e5676e3c18d3a61cd8836bbe6169f0964fdfab9e62b168e44",
+          "bytes": 15573
+        },
+        "coverage": {
+          "pdf_pages": [
+            485,
+            486,
+            487,
+            488,
+            489
+          ],
+          "printed_pages": [
+            "477",
+            "478",
+            "479",
+            "480",
+            null
+          ],
+          "regions": 129,
+          "blocks": 106,
+          "figures": 10,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 485,
+        "actual_end_pdf_page": 489,
+        "source_creation_dispositions": {
+          "path": "archive/pdf/1995-03/classifications/batch-55-r01/source-creation-dispositions.json",
+          "sha256": "3c9e5e03682b2e5e7f2dbc65c201afa07e9507d4f787e8f11d956cf75518e7a4",
+          "bytes": 8921
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-55/validation.json",
+          "sha256": "a613f2d64360cd4f5a51ae63f8509587eb26b5c28e07d41a8e379b78ea0183a7",
+          "bytes": 2146
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-55/reproduction.json",
+          "sha256": "c1776be19ef239255deeb4642d86f37ad022a14dd89a5089dad753d8715c397a",
+          "bytes": 94767
+        },
+        "classification_reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-55/classification-reproduction.json",
+          "sha256": "870af052317b64a7dbd9317a91d32f830087eff86735bf9db5a317fd9ae5c8bf",
+          "bytes": 571
+        },
+        "checkpoint": "batch-55",
+        "directory_is_current_native_not_assembled_article": false
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0048",
@@ -6088,22 +6156,67 @@
         "sha256": "49e0fc85560ed4ceb813c59d608bb8091a74887fa99d64b532c97ac590768132",
         "bytes": 580
       }
+    },
+    {
+      "name": "1995-03-batch-55",
+      "status": "complete",
+      "completed_at": "2026-11-05T10:59:18.459225+00:00",
+      "goal": "Restore complete PC DOCS OPEN0047 PDF485–489 andresolve itsgroupchild status.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0047"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        485,
+        486,
+        487,
+        488,
+        489
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        484,
+        490,
+        491,
+        492
+      ],
+      "recognition_invocations": 119,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 2,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-55/validation.json",
+        "sha256": "a613f2d64360cd4f5a51ae63f8509587eb26b5c28e07d41a8e379b78ea0183a7",
+        "bytes": 2146
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-55/reproduction.json",
+        "sha256": "c1776be19ef239255deeb4642d86f37ad022a14dd89a5089dad753d8715c397a",
+        "bytes": 94767
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-55/classification-reproduction.json",
+        "sha256": "870af052317b64a7dbd9317a91d32f830087eff86735bf9db5a317fd9ae5c8bf",
+        "bytes": 571
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 26,
+    "readable": 27,
     "partial": 0,
     "group_headings": 11,
     "section_references": 8,
-    "unresolved": 45
+    "unresolved": 44
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Establish PC DOCS OPEN0047 extent beginning PDF485/observed477,then restore a bounded opening orcomplete body ifit fits sixmappedpages. Review incoming484 andfollowingboundary;do notjoin completed NT0046 orinherit its author/folio. Preserve screenshots,procedures,installation context andsource discrepancies;resolve group0045 childstatus afterbody completion. NT0046 complete459–484 assembly is immutable;final484 hasno visible folio. FLC0019 awaits bounded lookup/issue accounting. Keep two canonical tasks/six mapped pages/twenty outside lookups per checkpoint. Complete allMarch outcomes,545-page accounting,cover andseparate closeout before July;no reader rebuild/deployment.",
+  "next_checkpoint": "Classify OS/application0048 andcommunications0049 hierarchy fromcontents/repeated sourcebanners within two canonical tasks/sixmappedpages/twentyoutsidelookups;then restore Netscape0050 beginningPDF492/observed484 in a subsequent boundedbody checkpoint. PC DOCS0047 complete485–489 andNT0046 complete459–484 remainimmutable;final489/484 havenovisiblefolios. Preservegroup0045/divider458. FLC0019 awaits boundedlookup/issueaccounting. Complete allMarchoutcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no readerrebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -6349,6 +6462,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-54-r02/source-creation-dispositions.json",
       "sha256": "e4f91429b5a834f2c4842880a89f3982c996dcd29d0dfc740abf52291b4d1fdd",
       "bytes": 80441
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-55-r01/source-creation-dispositions.json",
+      "sha256": "3c9e5e03682b2e5e7f2dbc65c201afa07e9507d4f787e8f11d956cf75518e7a4",
+      "bytes": 8921
     }
   ]
 }

@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-05 — Complete March PC DOCS OPEN restored
+
+- Batch 55 completes PC DOCS OPEN0047 on PDF 485–489. All 494 package files
+  match independent and fresh-process exports: 129 exact crops, 119 OCR outcomes,
+  1,197 typed ranges, 346 reading rows and ten original images/eight captions.
+- The LAN sidebar, two tables, installation tree/procedure, library options,
+  search routes and historical contacts/coupon retain their own source contexts.
+  One source pass, zero retries and two retained post-pass wording repairs.
+  Thirty-nine invalid cases reject; 50,171 earlier files and thirty core modules
+  remain unchanged. Both special-feature child bodies are now readable.
+- Totals: 27 readable, zero partial, 11 groups, eight references and 44 unresolved.
+  Next classify OS/application0048 and communications0049, then restore Netscape0050.
+  FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March NT article assembled
 
 - Batch 54 completes NT0046 on PDF 459–484 from five immutable natives. All 1,838

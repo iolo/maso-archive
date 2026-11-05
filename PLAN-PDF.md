@@ -267,58 +267,52 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 54 completes NT article 0046 on all 26 PDF pages, 459–484, by actually
-assembling five immutable natives. Folios 451–475 are individually observed;
-final 484 has no visible folio and none is invented. NT is now readable and
-assistant sample-reviewed. PC DOCS OPEN on 485 / 477 remains separate and unresolved.
+Batch 55 restores complete PC DOCS OPEN article 0047 on PDF 485–489.
+Folios 477–480 are individually observed; final 489 has no visible folio and
+none is invented. The original title, kicker, author affiliation and editor
+credit remain distinct from canonical metadata. NT ends on 484; independent
+advertisements occupy 490–491, and Netscape 0050 opens on 492 / 484.
 
-All 1,838 assembly files match independent and fresh-process exports, consuming
-1,830 independently regenerated native files. Validation covers 470 pixel-exact
-crops, 440 original OCR outcomes, 5,453 projected native metadata occurrences,
-10,901 current text ranges and 54,550 source scalar values. All 393 original
-blocks remain exact intervals within 389 assembled blocks; 1,815 physical reading
-rows, thirty original images and 1,810 exact ZIP members remain.
+All 494 package files match independent and fresh-process exports. Validation
+covers 129 pixel-exact crops, 119 original OCR outcomes, 1,197 typed ranges,
+106 blocks, 346 physical reading rows and 487 exact ZIP members. Ten original
+images retain eight literal captions. Thirteen internal boundaries preserve
+twelve physical LF joins and one opening dropcap fold.
 
-Four cross-native prose joins insert one physical LF: 463→464 `제`→`공하고 있다.`,
-469→470 `이`→`렇게 되면`, 475→476 `이용`→`하고 싶은`, and
-481→482 `수행시키면`→`자동으로 설치된다.`. The intervening screen 4 caption/image
-keeps independent ownership after the joined NTFS prose. Forty-seven original
-internal boundaries remain. Separate parts and the resource-kit section retain
-their boundaries; no prose joins the following article.
+The independent LAN sidebar retains its own prose and column continuation.
+Two tables preserve twenty body cells, six headers and one source-wrapped cell.
+The installation tree preserves six nodes and five printed connections; the
+procedure retains seventeen records in four steps. Eight library options,
+six reader questions and four document-search routes remain source-linked.
+Historical contacts and the rotated training coupon retain separate contexts.
 
-Every custom native field is preserved and projected. Three independent history,
-login and beta contexts, fourteen diagram labels, ten diagram links, three
-hardware links, 31 table rows/98 body cells/one blank corner and two installation
-procedures remain. Seven resource-guide categories retain 71 utilities; Access
-has seven files and ten functions. Thirty-two knowledge categories, three beta
-issues, historical contacts and the registration coupon remain source-linked.
-Five printed reference discrepancies, five caption/image discrepancies, four
-unresolved local references and 57 glyph/wording candidates remain literal.
-Two earlier-native figure references now have explicit assembly context without
-changing the printed references.
+All 119 drafts were read before one source correction pass; zero OCR retries.
+The failed first map is retained, followed by two successful maps and 42
+pre-OCR refinements. Two explicit post-pass repairs correct assistant-introduced
+wording to printed `OPEN의` and `푸어`. Eighteen source candidates preserve
+printed anomalies including `ODBA`, `사용자의의`, `중의하기`, and damage at
+the closing paragraph's right edge. A failed metadata lookup across a physical
+line wrap is retained; the repaired export changes no source text or raw OCR.
+Exact glyphs, spacing, encoded bytes, claims, execution, full proofreading and
+human acceptance remain unverified.
 
-No new mapping, OCR or source correction was needed. Sixty-five invalid range,
-context, frozen-input and status cases reject. All 48,290 earlier March files and
-thirty core modules remain exact; the unchanged 214-test baseline is reused.
-External status resolves 122 frozen pointers without rewriting creation evidence.
-The first sidecar used an incorrect availability label for unresolved sibling 0047;
-retained revision r02 corrects only that metadata. Forty-nine classification/status
-evidence records are required at closeout. Exact glyphs, spacing, encoded bytes,
-claims, execution, full proofreading and human acceptance remain unverified.
+Thirty-nine invalid range, context and status cases reject. All 50,171 earlier
+March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. Ten frozen status pointers resolve externally. Both direct
+children of group 0045 are readable; the non-owning group and divider 458 remain
+unchanged. Fifty classification/status evidence records are required at closeout.
 
-Complete article: `archive/pdf/1995-03/packages/article-nt-r01/`.
-Immutable natives: batches 49–53, `nt-a` through `nt-e`.
-External status: `archive/pdf/1995-03/classifications/batch-54-r02/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-54/`.
-Totals: twenty-six readable, zero partial, eleven non-owning headings,
-eight references and 45 unresolved. Group 0045 and divider 458 remain unchanged.
+Complete article: `archive/pdf/1995-03/packages/batch-55-r01/pcdocs/`.
+External status: `archive/pdf/1995-03/classifications/batch-55-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-55/`.
+Totals: twenty-seven readable, zero partial, eleven non-owning headings,
+eight references and 44 unresolved.
 
-Next establish PC DOCS OPEN0047's full extent beginning 485 / 477 and restore
-its bounded opening, or complete body if it fits six mapped pages. Review both
-boundaries and retain its own title, author, screenshots and installation context.
-Resolve the group child status after body completion. Keep two canonical tasks /
-six mapped pages / twenty outside lookups per checkpoint. FLC0019 awaits bounded
-lookup or accounting. See [March progress](docs/progress/9503.md).
+Next classify OS/application 0048 and communications 0049 from contents and
+repeated source banners, then restore Netscape 0050 beginning on 492 / 484 in
+a subsequent body checkpoint. Keep two canonical tasks / six mapped pages /
+twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or issue
+accounting. See [March progress](docs/progress/9503.md).
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
