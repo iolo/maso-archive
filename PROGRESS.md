@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-06 — March domestic news opening and Information Radar group
+
+- Batch 67 preserves domestic0056 Trends160–165 as partial native a and classifies
+  Information Radar0055 as non-owning. Opener159 is a section opener, not an ad.
+- All 377 files reproduce independently and in a fresh process; 96 crops, 91 OCR
+  outcomes, 515 physical rows and 2,339 typed ranges validate. Twenty news items,
+  four Q&A pairs, six captions and five original image regions retain their contexts.
+  Eight classification files match; 41 invalid cases reject. Source fidelity limits remain.
+- Totals: 32 readable, one partial, 14 groups, eight references and 35 unresolved.
+  Next restore166–171, then assemble domestic0056 and classify its selected children.
+  FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  Full March goal active. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March hardware article and forum complete
 
 - Batch 66 completes hardware0054 across 394–398. All 229 package files reproduce

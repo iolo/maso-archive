@@ -1,6 +1,6 @@
 # PDF restoration progress
 
-Updated 2026-11-05. This file is the status index; detailed records live under
+Updated 2026-11-06. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
@@ -11,50 +11,50 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have thirty-two readable articles, zero partial, thirteen non-owning headings,
-eight section references and 37 unresolved outcomes; July
+identities now have thirty-two readable articles, one partial, fourteen non-owning headings,
+eight section references and 35 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 66 completes hardware 0054, `하드웨어 : 탈출! 컴퓨터 증후군`, across
-PDF 394–398 / individually observed printed 386–390. Author 정용주, affiliation
-가야시스템, editor 임진선, six section headings and the original MS ending mark
-retain their source contexts. Prior 393 and following 399 are advertisements;
-the independent book advertisement at the bottom of 398 is excluded.
+Batch 67 classifies Information Radar 0055 as a non-owning heading and preserves
+Domestic Network 0056's opening PDF 160–165 / individually observed printed
+152–157 as partial native a. Full domestic extent is 160–171/152–163: Trends
+ends on 165; New Products starts on 166, with no prose join. Contents5 and the
+separate domestic, overseas and library openings corroborate the hierarchy.
+Unpaginated159 is a section opener with local contents and artwork, not an
+advertisement; its complete original image remains in classification evidence.
 
-All 229 package files reproduce independently and in a fresh process. Validation
-covers 56 pixel-exact crops, 55 original OCR outcomes, 44 blocks, 343 serialized
-physical rows, 344 regional row fragments, 1,546 typed ranges and 222 ZIP members.
-The opening dropcap is folded once. Eleven boundaries across ten continuation
-groups retain physical wraps. Thirty-three body paragraphs and historical claim
-contexts, 35 numerical occurrences, 97 technical token occurrences and two
-differently wrapped display resolutions remain indexed.
+All 377 native files reproduce independently and in a fresh process. Validation
+covers 96 pixel-exact crops, 91 original OCR outcomes, 82 blocks, 515 physical
+rows, 2,339 typed ranges and 370 ZIP members. Twenty independent news items,
+four interview Q&A pairs, six literal captions, five original image regions and
+nine contacts retain their contexts. The five-photo collage remains one composite.
+Nine continuation groups retain physical LF. Fifty-six prose paragraph contexts,
+118 numerical occurrences and 120 technical token occurrences remain indexed.
 
-Fifty-five initial recognitions used one source correction pass, zero retries and
-zero within-pass or post-pass changes. Two pre-OCR maps preserve eight margin
-repairs. Forty-four invalid cases reject. Twelve frozen status pointers resolve
-externally: group0048 and subgroup0049 remain non-owning, with all five owning
-descendants readable. All 59,313 earlier March files and thirty core modules remain
-exact; the unchanged 214-test baseline is reused. Four source discrepancy records
-and seven localized glyph contexts remain explicit. Printed wording and historical
-health, radiation and display claims are preserved without factual correction.
-Exact glyphs, encoded bytes, claim accuracy, full proofreading and human acceptance
-remain unverified.
+All 91 initial drafts were read before one source correction pass. Zero retries;
+four pre-OCR maps, 124 existing-region adjustment events and one added final-row
+region. Two within-pass repairs and zero post-pass changes. Eight classification
+files reproduce exactly; 41 invalid native/ownership cases reject. All 60,107
+previous March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. Three discrepancy records and eight localized candidate
+contexts retain printed wording and uncertainty. Exact glyphs, source bytes,
+historical claims, full proofreading and human acceptance remain unverified.
 
-Complete hardware: `archive/pdf/1995-03/packages/batch-66-r01/hardware/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-66/`.
-Current forum status: `archive/pdf/1995-03/classifications/batch-66-r01/`.
+Partial domestic native: `archive/pdf/1995-03/packages/batch-67-r01/domestic-a/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-67/`.
+Group and ownership evidence: `archive/pdf/1995-03/classifications/batch-67-r01/`.
 Retain all earlier packages and frozen classifications.
-Totals: thirty-two readable, zero partial, thirteen non-owning headings,
-eight references and 37 unresolved.
+Totals: thirty-two readable, one partial, fourteen non-owning headings,
+eight references and 35 unresolved.
 
-Next review information-radar0055 and domestic-network0056 ownership against the
-contents and source beginning at canonical printed152, candidate PDF160. Establish
-actual boundaries, observe folios individually and preserve the news-item hierarchy
-before mapping at most six pages. FLC0019 awaits bounded lookup or issue accounting.
+Next restore domestic0056 New Products on PDF166–171/printed158–163 as native b.
+Then actually assemble the full160–171 bundle and classify prospective children
+0057–0061 within bounded checkpoints; none is finalized by this partial package.
+FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
