@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March special-feature context and NT opening preserved
+
+- Batch 49 classifies heading 0045 and restores NT0046's opening PDF 459–463.
+  Divider 458 remains separate editorial context. All 226 native and 128 context
+  files reproduce exactly; 91 crops, 853 article ranges and 78 context ranges validate.
+- The history sidebar, architecture diagram, directory tree and caption/image
+  discrepancy retain their source relationships. All 36 invalid cases reject;
+  all 41,914 earlier March files and thirty core modules remain unchanged.
+- Totals: twenty-five readable, one partial, eleven groups, eight references and
+  45 unresolved. Next restore NT pages 464–469; full 459–484 assembly remains
+  pending. FLC0019, 545-page accounting, cover and separate closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Borland C++ article completed
 
 - Batch 48 restores final PDF pages 452–456 and assembles article 0044 across

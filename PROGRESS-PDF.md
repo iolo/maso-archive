@@ -11,57 +11,58 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have twenty-five readable articles, zero partial, ten non-owning headings,
-eight section references and 47 unresolved outcomes; July
+identities now have twenty-five readable articles, one partial, eleven non-owning headings,
+eight section references and 45 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 48 completes Borland C++ 4.5 article 0044 across PDF 446–456 /
-printed 438–448. Its final five pages are restored as immutable native b, and
-both natives are assembled into a complete, readable/sample-reviewed article.
-The lower-page naming notice on 456 and advertisement on 457 remain excluded.
+Batch 49 classifies special-feature heading 0045 as non-owning and preserves
+NT article 0046's opening PDF 459–463 / printed 451–455 as immutable native a.
+The divider on 458 / 450 is preserved separately as editorial classification
+context, including its introduction, three screenshots, captions and directory.
+Canonical parent reference 450 and both children's null references stay unchanged.
 
-All 465 assembly files reproduce independently and in a fresh process, consuming
-456 exact regenerated native files. Validation covers 117 pixel-exact crops,
-107 original OCR outcomes, 2,321 projected native metadata occurrences, 4,643
-current text ranges, 23,324 scalar values, 83 reading blocks and 695 physical rows.
-All original text intervals and 446 ZIP members remain exact. No cross-native
-join is required at 451→452; all 24 internal boundaries retain their separators.
+All 226 native files and 128 classification/context files reproduce independently
+and in a fresh process. Validation covers 91 pixel-exact crops, 84 original OCR
+outcomes, 853 article ranges, 78 context ranges, 42 article blocks, 351 article
+rows and 42 context rows. All 219 native ZIP members remain exact. Seven text
+groups preserve twelve boundaries: ten LF, one double LF and one dropcap fold.
+The outgoing 463→464 continuation is `제`→`공하고 있다.` and requires LF.
 
-Two full-page sidebars, two diagrams with twelve labels/eleven connections,
-product facts, an independent pull quote and twenty-one list items retain their
-contexts. Ten original images retain six literal captions and seven figure
-references. The final prose crosses the independent listing on 455. Both code
-contexts preserve the configuration line and all 76 numbered listing rows,
-including fifteen number-only rows. The disk-file table retains eight rows,
-fourteen nonblank cells, two headers, two blank descriptions and its footnote.
-Square-like code brackets, ClassExpert caption/AppExpert image, photo 4.0/title
-4.5, OLEDLS, ATM wording and filename/glyph uncertainties remain source-linked.
+The independent history sidebar on 461 remains separate from the main power
+section continuing on 462. The architecture diagram preserves fourteen labels,
+thirteen arrows and its executive container. Its leftmost lower arrow starts at
+the container edge; no separately labelled kernel arrow is invented. The divider
+directory preserves twenty-three labels and twenty-one branches under two roots.
+Printed DEGUG and KNOWLDGE, the Share As caption/Display Settings image mismatch,
+Culter, Hard Abstraction Laye and other wording/glyph candidates remain literal.
+Historical, technical and security claims are transcribed without verification.
 
-All 47 new OCR drafts were read before one source correction pass. Two maps
-retain three pre-OCR refinements; zero OCR retries or within/post-pass text
-changes. The first assembly audit exposed four unprojected figure-target IDs;
-r02 repairs their identity mapping, with r01 and all native/source bytes retained.
-All 72 invalid range, context and status cases reject. All 40,256 prior March
-files and thirty core modules remain exact; the unchanged 214-test baseline is
-reused. Thirty-six frozen status pointers resolve externally. Forty-two
-classification evidence records are required for final closeout. Exact glyphs,
-spacing, encoded bytes, claims, execution, full proofreading and human acceptance
-remain unverified.
+All 84 initial drafts were read before one source correction pass. Two map
+versions per context retain twenty-four pre-OCR refinements. Zero OCR retries or
+within/post-pass text changes. A retained negative-test fixture was corrected to
+substitute a genuinely different asset; no source or package changed. All 36
+invalid range, context and ownership cases reject. All 41,914 earlier March files
+and thirty core modules remain exact; the unchanged 214-test baseline is reused.
+Forty-four classification evidence records are required at final issue closeout.
+Exact glyphs, spacing, encoded bytes, execution, full proofreading and human
+acceptance remain unverified.
 
-Complete article: `archive/pdf/1995-03/packages/article-borland-r02/`.
-Final native: `archive/pdf/1995-03/packages/batch-48-r01/borland-b/`.
-Current status: `archive/pdf/1995-03/classifications/batch-48-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-48/`.
-Totals: twenty-five readable, zero partial, ten non-owning headings, eight
-references and 47 unresolved. Both direct children of tool-review group 0042
-are readable. Next establish special-feature 0045's classification from PDF 458
-and NT article 0046's extent beginning on 459, then restore its bounded opening.
-Count heading 458 within the six mapped pages if mapped; allow at most five
-article pages in that checkpoint. Keep two canonical tasks / six mapped pages /
+Partial NT native: `archive/pdf/1995-03/packages/batch-49-r01/nt-a/`.
+Group/context: `archive/pdf/1995-03/classifications/batch-49-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-49/`.
+Totals: twenty-five readable, one partial, eleven non-owning headings, eight
+references and 45 unresolved. NT opens on 459 and ends on observed page 484;
+interior continuity through the deferred pages remains only partly reviewed.
+Page 484 has no visible folio and includes separate beta-release and registration
+context. PC DOCS OPEN starts on 485 / 477 and remains unresolved.
+
+Next restore NT0046 continuation PDF 464–469, with boundary 470 reviewed, then
+continue through 484 and actually assemble the complete article. Resolve frozen
+partial/child statements externally. Keep two canonical tasks / six mapped pages /
 twenty outside lookups per checkpoint. FLC0019 awaits bounded lookup or accounting.
 See [March progress](docs/progress/9503.md). The full March goal remains active
 through all remaining outcomes, 545-page accounting, cover and separate issue
