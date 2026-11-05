@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — March NeXTSTEP opening native
+
+- Batch 62 establishes NeXTSTEP0052's full 510–516 extent and restores 510–515.
+  All 263 native files reproduce independently and in a fresh process; 69 crops,
+  347 rows and 978 typed ranges validate. Twenty-six invalid cases reject.
+- Nine configuration contexts, seven LAN adapter rows, eight physical joins and
+  seven screenshots/captions stay distinct. Printed spelling, path variants and
+  figure-reference discrepancies remain. All 55,416 prior files and thirty core
+  modules remain exact; the unchanged 214-test baseline is reused.
+- Totals: 29 readable, one partial, 13 groups, eight references and 39 unresolved.
+  Next restore final516 and assemble NeXTSTEP510–516. FLC0019, 545-page accounting,
+  cover and separate closeout remain pending. Full March restoration remains active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Complete March HTML article
 
 - Batch 61 completes HTML0051 across 502–508. All 381 assembly files and 372

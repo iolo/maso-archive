@@ -11,53 +11,53 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have twenty-nine readable articles, zero partial, thirteen non-owning headings,
-eight section references and 40 unresolved outcomes; July
+identities now have twenty-nine readable articles, one partial, thirteen non-owning headings,
+eight section references and 39 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 61 completes HTML 0051 across PDF 502–508 / individually observed printed
-494–500, using immutable opening and final-page natives. Final 508 preserves two
-screenshots with captions, closing prose, the MS emblem, editor credit and a
-one-row diskette table. Page 509 is an independent publisher advertisement.
+Batch 62 establishes NeXTSTEP 0052's complete seven-page extent, PDF 510–516 /
+individually observed printed 502–508, and restores opening 510–515 as immutable
+native a. Pages 509 and 517 are independent advertisements. Final 516 retains
+screenshot8, closing prose, the MS emblem and editor credit above an independent
+book advertisement; its transcription and the complete assembly remain pending.
 
-All 381 assembled files and 372 native files reproduce independently and in a
-fresh process. The 94 pixel-exact crops, 87 original OCR outcomes, 72 original
-and current blocks, 473 physical rows, 2,671 projected metadata occurrences,
-5,358 current ranges, 27,712 scalar values and 363 ZIP members validate.
-No text join is required at 507→508. All original metadata and literal listing
-bytes remain unchanged. Six screenshots, fifteen code contexts/192 code rows,
-four numbered listings, forty listing2 options, six input types, eleven environment
-variables, two CGI outputs, two table examples and two math contexts stay distinct.
+All 263 native files reproduce independently and in a fresh process. The 69 exact
+crops, 62 original OCR outcomes, 54 blocks, 347 physical rows, 978 typed ranges
+and 256 ZIP members validate. Nine configuration option contexts, seven LAN adapter
+rows, five management-program occurrences, sixteen menu actions, one key action,
+seventeen path occurrences and twenty-six program-name occurrences remain indexed.
+Eight internal joins preserve physical LF and one paragraph break. Seven original
+screenshots retain literal captions. The outgoing 515→516 continuation is
+`워크스`→`페이스`, requiring LF around the independent final screenshot.
 
-Source `[마지막회]` versus canonical `[2]`, `BALELINE`, screen4's list5 reference,
-the `USR_REG.C` context mismatch, malformed markup and printed wording remain
-unrepaired. Omission counts, quote identities and spacing remain uncertain.
-Final 508 used fourteen initial recognitions, one source correction pass and zero
-retries or later text changes. Two pre-OCR maps retain one crop split separating
-the final prose row from the ending emblem. Seventy-two invalid cases reject.
-Twenty-eight frozen status pointers resolve externally; both direct children of
-non-owning group0049 are now readable. All 54,760 prior March files and thirty
-core modules remain exact; the unchanged 214-test baseline is reused. Exact glyphs,
+Printed `Applicaion`, `Startet`, `newworked`, `pssword`, `derectory`, path case,
+program spacing, clone phrase and wording defects remain unrepaired. Figure7's
+export/import mismatch and both figure8 references retain their original contexts.
+One source correction pass, zero retries, two pre-OCR maps/twelve crop repairs,
+one within-pass correction to retain printed `newworked`, and zero post-pass changes.
+Twenty-six invalid cases reject. All 55,416 prior March files and thirty core
+modules remain exact; the unchanged 214-test baseline is reused. Exact glyphs,
 encoded bytes, historical claims, execution, full proofreading and human acceptance
 remain unverified.
 
-Complete HTML: `archive/pdf/1995-03/packages/article-html-r01/`.
-Reproduction, private adapter and validation: `archive/pdf/1995-03/restoration/batch-61/`.
-Current group/native status: `archive/pdf/1995-03/classifications/batch-61-r01/`.
-Retain both original natives and all previous frozen classifications. Netscape
-remains complete at `archive/pdf/1995-03/packages/article-netscape-r02/`.
-Totals: twenty-nine readable, zero partial, thirteen non-owning headings,
-eight references and 40 unresolved.
+Opening NeXTSTEP native: `archive/pdf/1995-03/packages/batch-62-r01/nextstep-a/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-62/`.
+Complete HTML remains at `archive/pdf/1995-03/packages/article-html-r01/`, with
+current group/native status in `archive/pdf/1995-03/classifications/batch-61-r01/`.
+Frozen group0048 evidence remains immutable; resolve affected creation-time status
+externally after NeXTSTEP completion. Totals: twenty-nine readable, one partial,
+thirteen non-owning headings, eight references and 39 unresolved.
 
-Next locate NeXTSTEP 0052's complete extent from PDF 510 / printed 502, then restore
-at most 510–515. Reuse the retained opening and inspect both boundaries; preserve
-author 노호선, technical examples and screenshots. LaTeX0053 opens 518 / 510;
-hardware0054 remains earlier on 394 / 386. FLC0019 awaits bounded lookup or issue
-accounting. See [March progress](docs/progress/9503.md).
+Next restore NeXTSTEP 0052's final PDF 516 / 508 and assemble the full 510–516
+article. Reuse retained renders and inspect 515/517 boundaries. Preserve the final
+screenshot/caption, prose, ending mark and editor credit; exclude the lower book
+advertisement. Retain all opening metadata, source spellings and figure-reference
+mismatches. LaTeX0053 opens 518 / 510; hardware0054 remains earlier on 394 / 386.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July.
