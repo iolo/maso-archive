@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March exception-handling article completed
+
+- Batch 43 completes article 0040 across PDF 416–425. Thirty code contexts,
+  three labeled diagrams, two sidebars and the closing source gap retain their
+  source relationships and explicit uncertainties.
+- All 620 parent files reproduce independently and in a fresh process. Validation
+  covers 152 exact crops and 6,073 current text ranges; all 68 invalid cases reject.
+  All 35,079 prior March files remain unchanged. Twenty-nine status pointers resolve.
+- Totals: twenty-two readable, zero partial, nine groups, eight references and
+  51 unresolved. Next verify Win32 article 0041 from PDF 426 / printed 418.
+  FLC0019, full-issue accounting, cover and closeout remain open.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March exception-handling opening pages restored
 
 - Batch 42 preserves article 0040 on PDF 416–421 of its verified 416–425 extent.
