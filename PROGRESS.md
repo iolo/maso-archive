@@ -1,5 +1,18 @@
 # Progress
 
+## 2026-11-05 — March Netscape continuation restored
+
+- Batch 58 preserves Netscape 0050 continuation 494–499 as immutable native b.
+  Natives a/b cover 492–499; final 500 and complete article assembly remain pending.
+- All 266 package files reproduce independently and in a fresh process. The 74
+  crops, 353 physical rows, 1,173 typed ranges, five literal code contexts and
+  thirteen screenshots/captions validate; 31 invalid cases reject. Source figure,
+  menu and example-address discrepancies remain. All 52,258 prior files and thirty
+  core modules are unchanged. One source pass, zero retries or later text changes.
+- Totals remain 27 readable, one partial, 13 groups, eight references and 41 unresolved.
+  Next restore final 500, then assemble 492–500. FLC0019, 545-page accounting,
+  cover and separate closeout remain pending. See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March Netscape opening restored
 
 - Batch 57 establishes Netscape0050's full nine-page extent492–500 and preserves

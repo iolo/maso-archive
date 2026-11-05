@@ -3783,40 +3783,61 @@
         "Immutable opening native492–493 preserves23 exact source crops,22 mapped OCR outcomes,19 blocks,107 physical rows and446 typed ranges. All98 files match independent and fresh-process exports;90 ZIP members exact;24 invalid range/context cases reject.",
         "Four literal code contexts retain seven platform rows,ten terminal output rows,three command rows andthree sample email headers. Two inline shell commands,three prose joins,one original screenshot and its three-line caption remain distinct. Email continues494 with Errors-To;full body andassembly pending.",
         "Printed makerketplace.com/marketplace.com,Adaptor/Adapter,SunOs/SunOS,/usr/4lib and호스트에서.실행 remain unrepaired. Source glyph candidates andscreenshot embedded text remain explicit. One source pass,zero retries,map revisions orwithin/post-pass changes.",
-        "All51933 earlier March files andthirty core modules remain exact;unchanged214-test baseline reused. Frozen batch56 unresolved labels describe classification-creation time;current0050 ispartial here. Resolve frozen group status externally afterbodycompletion. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified."
+        "All51933 earlier March files andthirty core modules remain exact;unchanged214-test baseline reused. Frozen batch56 unresolved labels describe classification-creation time;current0050 ispartial here. Resolve frozen group status externally afterbodycompletion. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified.",
+        "Batch58 preserves continuation494–499 / individually observed486–491 as immutable native b. Together a/b retain492–499 of full492–500;final500 andactual assembly remain pending.",
+        "All266 files match independent and fresh-process exports;74 exact crops,61 OCR outcomes,54 blocks,353 physical rows,1173 typed ranges and258 ZIP members validate. Thirty-one invalid cases reject.",
+        "Five literal code contexts retain38 nonempty rows,eleven FTP sites andtwo news servers. Five news-list andnine article-view actions,six command occurrences,eight key actions,seven physical joins andthirteen screenshots/captions retain source contexts. Incoming493→494 is sample email;outgoing499→500 continues Subject→Catalog,.",
+        "Printed news figure15 mismatch,menu number/case variations,example IP differences,source prose defects andopaque TIACODE remain unrepaired. One correction pass,one map,zero retries orwithin/post-pass changes. All52258 prior files andthirty core modules remain exact;214-test baseline reused. Exact glyphs/bytes,claims,execution,full proofreading andhuman acceptance unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a",
+        "directory": "archive/pdf/1995-03/packages/batch-58-r01/netscape-b",
         "article_id": "scan-maso-1995-03-toc-0050",
         "manifest": {
-          "path": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a/manifest.json",
-          "sha256": "f92bf4415e40c67a039700f79870e68dbd297657b82e9bfbddd55a97d1b0c448",
-          "bytes": 16408
+          "path": "archive/pdf/1995-03/packages/batch-58-r01/netscape-b/manifest.json",
+          "sha256": "97d8c0b5f23982972099ab8f0918dd8861fba13156b18043b43c1fc778a7d2d1",
+          "bytes": 45228
         },
         "recipe": {
-          "path": "archive/pdf/1995-03/restoration/batch-57/netscape-a-r01/package-recipe.json",
-          "sha256": "68ea071f00c24eaaff7dbef4cc87b2392a45ce6801f63f128b4b8c60ab5d4f5f",
-          "bytes": 4597
+          "path": "archive/pdf/1995-03/restoration/batch-58/netscape-b-r01/package-recipe.json",
+          "sha256": "793a6c67c04fd6e7a2adca550974655f88353d6f41d78b7320e732c5860ccab8",
+          "bytes": 12039
         },
         "coverage": {
           "pdf_pages": [
             492,
-            493
-          ],
-          "printed_pages": [
-            "484",
-            "485"
-          ],
-          "regions": 23,
-          "blocks": 19,
-          "figures": 1,
-          "deferred_pdf_pages": [
+            493,
             494,
             495,
             496,
             497,
             498,
-            499,
+            499
+          ],
+          "printed_pages": [
+            "484",
+            "485",
+            "486",
+            "487",
+            "488",
+            "489",
+            "490",
+            "491"
+          ],
+          "regions": 97,
+          "blocks": 73,
+          "figures": 14,
+          "current_native_pdf_pages": [
+            494,
+            495,
+            496,
+            497,
+            498,
+            499
+          ],
+          "current_native_regions": 74,
+          "current_native_blocks": 54,
+          "current_native_figures": 13,
+          "deferred_pdf_pages": [
             500
           ],
           "full_extent_unverified": false
@@ -3828,17 +3849,77 @@
         "actual_start_pdf_page": 492,
         "observed_ending_pdf_page": 500,
         "validation": {
-          "path": "archive/pdf/1995-03/restoration/batch-57/validation.json",
-          "sha256": "f74ca10d794bc471fc9fbadf1311b0dc4c55dbac9a108354a211622af3f39105",
-          "bytes": 1578
+          "path": "archive/pdf/1995-03/restoration/batch-58/validation.json",
+          "sha256": "9a4733dffa12294e0b760571ee2315e03f4d718688f44a4eb8a9eb74149330c7",
+          "bytes": 1654
         },
         "reproduction": {
-          "path": "archive/pdf/1995-03/restoration/batch-57/reproduction.json",
-          "sha256": "8f3e3cae922bf0b0c298a2bb7561c0cd23038561fa56cd9aa6f05ed5be790cb8",
-          "bytes": 19556
+          "path": "archive/pdf/1995-03/restoration/batch-58/reproduction.json",
+          "sha256": "53e59989a97ad121bbdb5134fc1198a9db3ecee875a3d4cee76f8cc8e7d41775",
+          "bytes": 51851
         },
-        "checkpoint": "batch-57",
-        "directory_is_current_native_not_assembled_article": true
+        "checkpoint": "batch-58",
+        "directory_is_current_native_not_assembled_article": true,
+        "prior_native": {
+          "directory": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a",
+          "article_id": "scan-maso-1995-03-toc-0050",
+          "manifest": {
+            "path": "archive/pdf/1995-03/packages/batch-57-r01/netscape-a/manifest.json",
+            "sha256": "f92bf4415e40c67a039700f79870e68dbd297657b82e9bfbddd55a97d1b0c448",
+            "bytes": 16408
+          },
+          "recipe": {
+            "path": "archive/pdf/1995-03/restoration/batch-57/netscape-a-r01/package-recipe.json",
+            "sha256": "68ea071f00c24eaaff7dbef4cc87b2392a45ce6801f63f128b4b8c60ab5d4f5f",
+            "bytes": 4597
+          },
+          "coverage": {
+            "pdf_pages": [
+              492,
+              493
+            ],
+            "printed_pages": [
+              "484",
+              "485"
+            ],
+            "regions": 23,
+            "blocks": 19,
+            "figures": 1,
+            "deferred_pdf_pages": [
+              494,
+              495,
+              496,
+              497,
+              498,
+              499,
+              500
+            ],
+            "full_extent_unverified": false
+          },
+          "body_pages_complete": false,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "interior_continuity_fully_reviewed": true,
+          "actual_start_pdf_page": 492,
+          "observed_ending_pdf_page": 500,
+          "validation": {
+            "path": "archive/pdf/1995-03/restoration/batch-57/validation.json",
+            "sha256": "f74ca10d794bc471fc9fbadf1311b0dc4c55dbac9a108354a211622af3f39105",
+            "bytes": 1578
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-03/restoration/batch-57/reproduction.json",
+            "sha256": "8f3e3cae922bf0b0c298a2bb7561c0cd23038561fa56cd9aa6f05ed5be790cb8",
+            "bytes": 19556
+          },
+          "checkpoint": "batch-57",
+          "directory_is_current_native_not_assembled_article": true
+        },
+        "native_directories": [
+          "archive/pdf/1995-03/packages/batch-57-r01/netscape-a",
+          "archive/pdf/1995-03/packages/batch-58-r01/netscape-b"
+        ],
+        "coverage_totals_are_disjoint_unassembled_natives": true
       }
     },
     {
@@ -6406,6 +6487,47 @@
         "sha256": "8f3e3cae922bf0b0c298a2bb7561c0cd23038561fa56cd9aa6f05ed5be790cb8",
         "bytes": 19556
       }
+    },
+    {
+      "name": "1995-03-batch-58",
+      "status": "complete",
+      "completed_at": "2026-11-05T11:45:37.573181+00:00",
+      "goal": "Preserve Netscape0050 continuation494–499 as immutable native b.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0050"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        494,
+        495,
+        496,
+        497,
+        498,
+        499
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        493,
+        500
+      ],
+      "recognition_invocations": 61,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 1,
+      "pre_ocr_refinement_events": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-58/validation.json",
+        "sha256": "9a4733dffa12294e0b760571ee2315e03f4d718688f44a4eb8a9eb74149330c7",
+        "bytes": 1654
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-58/reproduction.json",
+        "sha256": "53e59989a97ad121bbdb5134fc1198a9db3ecee875a3d4cee76f8cc8e7d41775",
+        "bytes": 51851
+      }
     }
   ],
   "totals": {
@@ -6421,7 +6543,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore Netscape0050 continuation PDF494–499 as immutable native b;reuse retained source renders and inspect boundary500. Incoming493→494 continues sample license email from Reply-To to Errors-To,not prose. Preserve literal code,configuration values,commands,physical wraps,screenshot captions andmenu records. Final500/492 andactual492–500 assembly follow;501 isindependent recruitment advertisement. Retain native a492–493 andallbatch56 group evidence. Resolve affected frozen group status externally afterbodycompletion. HTML0051 source[마지막회] differs fromcanonical[2];hardware0054 remains earlier394/386. Keep FLC0019 unresolved pending boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Restore Netscape0050 final PDF500/492 as immutable native c,then actual492–500 assembly from natives a/b/c. Reuse retained source renders and inspect499/501 boundaries. Preserve Subject→Catalog, prose join and493→494 sample-email join;retain allnative text,code,metadata,screenshots/captions andsource discrepancies. Resolve frozenbatch56 group status externally afterbodycompletion. HTML0051 opens502/494;source[마지막회] differs fromcanonical[2]. Hardware0054 remains earlier394/386. Keep FLC0019 unresolved pending boundedlookup/accounting. Complete allMarch outcomes,545-pageaccounting,cover andseparatecloseout beforeJuly;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
