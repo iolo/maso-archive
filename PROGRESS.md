@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-05 — Complete March NT article assembled
+
+- Batch 54 completes NT0046 on PDF 459–484 from five immutable natives. All 1,838
+  assembly files match independent and fresh-process exports; 1,830 native files
+  regenerate exactly. Four LF joins preserve all 393 original text intervals.
+- Validation covers 470 crops, 440 OCR outcomes, 5,453 projected occurrences,
+  10,901 current text ranges, 1,815 reading rows and thirty original images.
+  All custom metadata and source discrepancies remain. Sixty-five invalid cases
+  reject; 48,290 earlier files and thirty core modules remain unchanged.
+- Totals: 26 readable, zero partial, 11 groups, eight references and 45 unresolved.
+  Next establish and restore PC DOCS OPEN0047, starting on 485 / 477. FLC0019,
+  545-page accounting, cover and separate closeout remain pending.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — Final March NT pages preserved
 
 - Batch 53 preserves NT0046 PDF 482–484. All 26 source pages, 459–484, are now
