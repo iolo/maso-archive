@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-05 — March Visual FoxPro opening and project-file table
+
+- Batch 38 restores article 0038 on PDF 400–405. The complete observed extent
+  is 400–407; remaining 406–407 and article assembly are pending.
+- All 217 native files reproduce independently and in a fresh process.
+  Validation covers 59 source crops, 726 text ranges, seven captioned screenshots,
+  a thirteen-row grouped table with preserved blanks, and 47 invalid cases.
+- All 30,650 prior files remain exact. Six historical status pointers resolve
+  externally. Biography, boxed essay, source wording and inline expression remain
+  distinct; exact source bytes, technical claims and human acceptance are unverified.
+- Totals: nineteen readable, one partial, nine groups, eight references and
+  53 unresolved. Next restore 406–407 and assemble full 400–407, preserving the
+  code contexts, screen 8, editor credit and Hitel box. No external join is needed.
+  FLC0019 and full-issue accounting remain open; the March goal stays active.
+  See [March progress](docs/progress/9503.md).
+
 ## 2026-11-05 — March serial groups classified
 
 - Batch 37 records headings 0036/0037 as non-owning from contents and four distinct

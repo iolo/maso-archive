@@ -11,46 +11,63 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have nineteen readable articles, zero partial, nine non-owning headings,
-eight section references and 54 unresolved outcomes; July
+identities now have nineteen readable articles, one partial, nine non-owning headings,
+eight section references and 53 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 37 classifies pageless headings 0036 `연재` and 0037
-`윈도우즈 프로그래밍` as non-owning groups. Contents on PDF 4–5 and four
-independent openings at PDF 400/408/416/426 support the preserved hierarchy:
-0036 → 0037 → articles 0038–0041. The openings have distinct titles, credits and
-printed folios 392/400/408/418 and repeat the `연재강좌` banner. The neighboring
-Delphi opening at PDF 440 / printed 432 has the separate `툴리뷰` banner.
-Canonical titles, bylines, order, parent edges and null group folios remain unchanged.
-The source title variant `예외 처리 기능` on 416 stays separate from canonical
-`예외처리 기법`. Opening observations establish neither complete article extents
-nor restored child bodies.
+Batch 38 preserves Visual FoxPro article 0038 on PDF 400–405 / printed
+392–397 as immutable native a. Source review establishes the complete extent
+400–407 / 392–399. Page 399 is independent computer advertising, and 408 opens
+DOC/VIEW article 0039. Page 407 closes the main text with an editor credit and
+ending mark, followed by an independent Hitel box. Remaining pages 406–407 and
+complete article assembly are pending.
 
-Twelve evidence files reproduce independently and in a fresh process. All seven
-source crops are pixel-exact; six hierarchy nodes and ten external historical
-status dispositions validate. All thirty invalid ownership, hierarchy, scope and
-status cases reject. Seven source pages were inspected; zero mapped pages, OCR
-calls or source correction passes. All 30,606 prior March files and thirty core
-modules remain exact; the unchanged 214-test baseline is reused. Twenty-nine
-classification evidence records are required for final issue closeout. Source
-sample review does not establish exact glyphs, full proofreading or human acceptance.
+All 217 native files reproduce independently and in a fresh process. Validation
+covers 59 pixel-exact crops, 50 OCR outcomes, 726 typed text ranges, 38 blocks,
+382 reading rows, nine original images and 210 exact ZIP members. Seven screenshots
+retain their actual captions, and all ten main-text screen references resolve.
+The opening emblem and author portrait have null captions. The author biography
+and boxed opening essay remain separate from the main prose. Canonical identity
+and printed series title, subtitle and headline remain distinct.
 
-Groups and current status: `archive/pdf/1995-03/classifications/batch-37-r01/`.
-Validation/reproduction: `archive/pdf/1995-03/restoration/batch-37/`.
-Totals: nineteen readable, zero partial, nine non-owning headings, eight references
-and 54 unresolved. Next verify and restore article 0038, Visual FoxPro 3.0, from
-PDF 400 / printed 392. Establish its full extent and adjacent ownership before
-mapping at most six pages; article 0039 opens independently at PDF 408 / printed 400.
-Preserve the portrait/biography, screens, captions and source title variants.
-Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
-The full March goal remains active through all remaining outcomes, 545-page
-accounting, cover and separate issue closeout before July.
-No reader rebuild or deployment.
+Table 1 preserves five category groups, thirteen item rows and three logical
+columns. Its 24 text values and fifteen empty serialized positions retain eight
+merged category continuations and seven blank descriptions. The source grid and
+merged blank description areas remain image-authoritative; no missing values are
+supplied. Twelve internal boundaries preserve physical rows, the opening word
+space and a paragraph break. Page 405 closes its subsection, so no external prose
+or code join is required. The inline EOF expression remains prose with literal
+quote/spacing candidates. Twelve localized candidates retain apparent source errors.
+
+All fifty initial drafts were read before one source correction pass; zero OCR
+retries or within/post-pass text repairs. Two valid maps and twelve pre-OCR crop
+refinements remain. The initial unsupported table-kind map and a pre-output
+replacement-order assertion are recorded; no successful transcription artifact
+was overwritten. All 47 invalid range/context/status cases reject. All 30,650
+prior March files and thirty core modules remain exact; the unchanged 214-test
+baseline is reused. Six historical status pointers resolve externally. Thirty
+classification evidence records are required for final closeout. Exact glyphs,
+spacing, encoded bytes, technical claims, full proofreading and human acceptance
+remain unverified; no automatic CD association is created.
+
+Partial native: `archive/pdf/1995-03/packages/batch-38-r01/foxpro-a/`.
+Current status: `archive/pdf/1995-03/classifications/batch-38-r01/`.
+Validation/reproduction: `archive/pdf/1995-03/restoration/batch-38/`.
+Totals: nineteen readable, one partial, nine non-owning headings, eight references
+and 53 unresolved. Serial group 0036 and Windows group 0037 remain non-owning.
+Next restore 406–407 as native b and assemble full 400–407 without an external
+prose/code join. Preserve the three code contexts on 406, screen 8, closing prose,
+editor/ending mark and independent Hitel box on 407. Resolve frozen partial states
+externally, then verify DOC/VIEW article 0039 from PDF 408 / printed 400 in a later
+bounded checkpoint. Keep two canonical tasks / six mapped pages / twenty outside
+lookups per checkpoint. FLC0019 awaits bounded lookup or issue accounting.
+See [March progress](docs/progress/9503.md). The full March goal remains active
+through all remaining outcomes, 545-page accounting, cover and separate issue
+closeout before July. No reader rebuild or deployment.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
 and user column 0008 on 154–155/146–147: 219 independent/fresh-process exact files,
