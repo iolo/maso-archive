@@ -1,5 +1,29 @@
 # Progress
 
+## 2026-11-06 — July GNU libraries, utility box and Part 2 ending preserved
+
+July batch 17 preserves GNU continuation PDF 321–326/printed 310–315 as a
+fifth immutable native. All 495 selected/independent/fresh-process files match:
+126 exact crops, 120 OCR outcomes, 115 blocks, 319 reading rows and 1,595 current
+text ranges, plus one original earlier-native boundary range. Twenty-four main
+sections, three categories, thirteen boxed tools, thirty list items, nineteen code
+rows and ten diagram labels retain their source roles. Six originals have two
+literal captions. Three download rows retain six host/path cells; five local joins,
+91 prose paragraphs and twenty-two fields validate. All 60 invalid cases reject.
+One pre-OCR map, one timed source pass, zero retries, two retained within-pass
+refinements and zero post-pass changes. Printed texiinfo and lowercase www remain;
+repeated boxed less/main perl prose stays in both original contexts. All 9,434
+earlier July files, thirty core modules and six frozen adapter files remain exact;
+the unchanged 214-test batch 08 baseline is reused. Totals remain two readable,
+one partial, fourteen references and 86 unresolved.
+Next: final GNU 327–330, beginning Part 3 GNU C++, gcc, without a prose/code join
+from the Part 2 ending on 326. Then actual 297–330 assembly and children 0018–0020.
+Natives now preserve 297–326. Directory 305–310 assembly and earlier gzip 302→304
+across GPL 303/fontutils 304→310 across the directory remain pending. Whole July
+560-page accounting, cover and standalone closeout also remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-17/handoff.json`.
+
 ## 2026-11-06 — July GNU development tools continuation preserved
 
 July batch 16 preserves GNU continuation PDF 315–320/printed 304–309 as a
