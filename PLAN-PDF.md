@@ -37,13 +37,22 @@ July batch 02 preserves final domestic 171–176 as a second immutable native:
 eight literal captions and 35 product fields. Three pre-OCR maps, zero retries,
 one timed source pass, one within-pass refinement and zero post-pass changes.
 All 871 earlier July files/thirty core modules remain exact; the 214-test baseline
-is reused. Both natives now preserve 165–176; actual assembly remains pending.
-Totals stay one partial, 102 unresolved. Next: separate actual parent assembly,
-then bounded classification of children 0002–0006. See the
-[July record](docs/progress/9507.md) and
-`metadata/catalog/pdf-restoration/1995-07-progress.json`. July's full issue goal,
-560-page accounting, cover and standalone closeout remain pending. Older July
-“next” statements below describe historical checkpoints.
+is reused. Its separate parent assembly is completed by batch 03 below.
+
+July batch 03 actually assembles domestic 0001 across PDF 165–176: 765 exact parent
+files contain all 757 independently regenerated native files. All 204 crops,
+179 OCR outcomes, 144 original blocks, 927 rows, 4,413 native typed occurrences,
+8,826 current ranges and 39,181 scalar values validate. Thirty-seven item contexts,
+two interviews, 25 images, 21 captions and 30 contacts retain their source roles.
+No cross-native prose join, new mapping, OCR or source correction. All 214 fresh
+PDF tests pass; all 2,492 earlier July files and thirty core modules remain exact.
+SEK child 0002 is final at `a-sek-title`, retaining the photo continuation through 166.
+Three sidecars, 25 child ranges and 51 combined invalid cases validate. External
+status dispositions preserve immutable creation-time flags. Totals: one readable,
+zero partials, one reference and 101 unresolved. Next: children 0003/0004, then 0005/0006
+and overseas 0007. See [July progress](docs/progress/9507.md) and its ledger.
+The full July goal, 560-page accounting, cover and standalone closeout remain pending.
+Older July “next” statements below describe historical checkpoints.
 
 March batch 01 completes editorial0001 on PDF151/observed printed143: 25
 independent/fresh-process exact files, five pixel-exact crops, four OCR outcomes,

@@ -35,8 +35,15 @@ post-pass changes. Batch02 now preserves final domestic 171–176:473 exact file
 123 crops, 114 outcomes, 591 rows and 2,898 ranges. Three pre-OCR maps, zero retries,
 one timed source pass, one within-pass refinement and zero post-pass changes.
 All 871 earlier July files/thirty core modules remain exact; 214-test baseline reused.
-Next: actual domestic 165–176 assembly, then bounded child classification.
-See [July progress](docs/progress/9507.md);one partial and 102 unresolved remain.
+Batch 03 now completes actual domestic 165–176 assembly and SEK child 0002:
+765 exact parent files contain all 757 regenerated native files. All 204 crops,
+179 outcomes, 144 source blocks, 927 rows and 4,413 native occurrences retain
+source contexts; 8,826 current ranges and 39,181 scalar values validate. Three
+classification sidecars and 25 child ranges reproduce; 51 invalid cases reject.
+No new OCR/source correction; all 214 fresh PDF tests pass and 2,492 earlier July
+files/thirty core modules remain exact. Next: children 0003/0004, then 0005/0006
+and overseas 0007. See [July progress](docs/progress/9507.md). Totals: one readable,
+zero partials, one reference and 101 unresolved; whole issue remains in progress.
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02

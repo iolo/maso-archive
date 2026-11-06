@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-06 — July domestic assembly and SEK reference complete
+
+Batch 03 completes domestic 0001 across PDF 165–176 from two immutable natives.
+The 765-file parent reproduces independently and in a fresh process, retaining
+all 757 native files, 204 exact crops, 179 OCR outcomes, 144 source blocks, 927 rows
+and 4,413 projected occurrences. Complete custom metadata, 37 item contexts,
+two interviews, 25 images, 21 captions and 30 contacts remain. All 214 fresh PDF
+tests pass; all 2,492 earlier July files and thirty core modules remain exact.
+
+SEK child 0002 is a final non-owning reference covering 165–166, including its
+ten-photo/ten-caption spread. Three classification sidecars reproduce; 25 child
+ranges and 51 combined faults validate. External status dispositions preserve
+frozen native/assembly records. Totals: one readable, zero partials, one reference
+and 101 unresolved. Next: classify children 0003/0004, then 0005/0006 and continue
+overseas 0007. July 560-page accounting, cover and standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-03/handoff.json`. No reader rebuild.
+
 ## 2026-11-06 — July domestic source extent preserved
 
 July batch 02 preserves PDF 171–176 as a second immutable native for domestic 0001.
