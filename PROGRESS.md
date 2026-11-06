@@ -1,5 +1,61 @@
 # Progress
 
+## 2026-11-06 — March CD-ROM introduction and forum ownership
+
+Batch 85 completes CD-ROM introduction0082 on PDF 458 / observed printed450
+and classifies forum0083 as non-owning. Cover1, contents5 and independent
+boundaries457/459 establish the introduction's identity. Its missing canonical
+folio, byline and root parent remain unchanged. Special-feature0045 remains
+non-owning; its original editorial context is preserved as evidence. The existing
+NT0046 and PC DOCS0047 bodies remain unchanged.
+
+All35 batch49 crops,30 OCR outcomes and30 corrected texts are reused unchanged.
+The original map/settings retain0045 execution identity; a private adapter binds
+only the new owning package to0082, preserves original execution documents and
+passes explicit field-change checks. There is no new mapping, OCR, correction
+pass, crop change or transcription change. The137 native files and four external
+classification/evidence files reproduce independently and in fresh processes.
+All35 crops are pixel-exact;42 physical rows and182 typed ranges validate.
+
+The introduction retains one six-line paragraph, three screenshots/captions,
+an original whole-page reference image and a directory diagram with23 labels,
+two roots and21 branches. Printed DEGUG, KNOWLDGE and I386 glyph candidates,
+eight local uncertainties and the Share As / Display Settings caption-image
+discrepancy remain. No verified disc contents or automatic CD association is claimed.
+Thirty-four invalid identity, range, source-context and ownership cases reject.
+A failed verifier path-base comparison is retained and corrected; no package
+or source data changed. All71,601 prior March files and thirty core modules remain
+exact; the unchanged214-test baseline is reused. Exact glyphs,bytes,historical
+claims,full proofreading and human acceptance remain unverified.
+
+Forum0083 organizes six independent child bodies, with no shared article body
+or contiguous physical section. Located candidates are April preview258–259,
+bulletin532, reader-card/winners528–529 plus detachable card537, subscriptions533,
+advertising index534–535 and humor536. Reverse538 and the full noncontiguous card
+extent remain unverified. Missing observed folios are not inferred. All six child
+outcomes remain unresolved; canonical order and parentage stay unchanged.
+Independent prize notice0090 is located on257, outside the forum group.
+
+Package: `archive/pdf/1995-03/packages/batch-85-r01/cd-introduction/`.
+Ownership/forum/accounting evidence: `archive/pdf/1995-03/classifications/batch-85-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-85/`.
+Ninety-four final classification/accounting evidence pins are retained. Totals:
+46 readable, zero partial, nineteen non-owning headings, seventeen references and
+8 unresolved:0019 and0084–0090.
+
+Next restore April preview0084 on258–259 and prize notice0090 on257, then the
+remaining forum children. Inspect card537/538 before finalizing0086's extent.
+FLC0019 awaits bounded lookup/accounting. Library0067 remains complete for all
+fourteen canonical descendants; its physical extent is180–207. Keep publisher
+advertisements202–203, unlisted CD194–195, public-software186–189 and game-room190–191
+in final page accounting. All eighteen unlisted reviews and two advertisement
+regions remain outside restored canonical bodies.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one reused mapped page and nineteen outside lookups.
+The full March goal remains active through remaining outcomes,545-page accounting,
+cover and separate issue closeout before July.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March price guide and library extent
 
 Batch 84 completes price-guide0081 on PDF 204–207 / printed 196–199.

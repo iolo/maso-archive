@@ -6322,23 +6322,105 @@
       "toc_entry_id": "maso-1995-03-toc-0082",
       "title": "CD-ROM 특별부록 : 한글 윈도우즈 NT 3.5",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch85 assigns complete CD-ROM introduction PDF458 / observed printed450 to canonical0082. Cover1, contents5 and independent boundaries457/459 establish this body. Missing canonical folio, byline and root parent remain unchanged.",
+        "All35 batch49 mapped crops,30 original OCR outcomes and30 corrected texts are reused byte-for-byte. One six-line introduction, three literal screenshot captions, whole-page reference image and printed directory remain. No new OCR, correction pass, crop changes or transcription changes.",
+        "Original map/settings retain0045 execution identity. A bounded private adapter assigns only the new selected package to0082, retains original execution documents and passes explicit field-change checks. Group0045 remains non-owning; its old editorial context remains immutable evidence. NT0046 and PC DOCS0047 bodies remain unchanged.",
+        "137 native files and four classification/evidence files reproduce independently and in fresh processes.35 pixel-exact crops,42 physical rows,182 typed ranges,23 directory labels,two roots and21 printed branches validate.34 invalid range,identity,source-context and ownership cases reject.",
+        "Printed DEGUG, KNOWLDGE and I386 candidates remain; eight local uncertainties are retained. Share As caption and Control Panel/Display Settings image discrepancy is preserved. Directory labels do not verify disc contents, filesystem paths or automatic CD associations.",
+        "The first verifier compared a repository-relative manifest pin with a package-relative pin; its failed script/log are retained and the path-base comparison is corrected. No package or source data changed.",
+        "All 71601 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Exact glyphs,bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-85-r01/cd-introduction",
+        "article_id": "scan-maso-1995-03-toc-0082",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-85-r01/cd-introduction/manifest.json",
+          "sha256": "b1dd89e14fad3568f7300f4b3e659f05ee4ec37fb5c041b2a089d5a496377d94",
+          "bytes": 22843
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-85/introduction-reuse/package-recipe.json",
+          "sha256": "c28b24e5887f4d7769ec18b1746a481cfa6739e7c3728c41b9219edfde23bee1",
+          "bytes": 5999
+        },
+        "identity_assignment": {
+          "path": "archive/pdf/1995-03/packages/batch-85-r01/cd-introduction/identity-assignment.json",
+          "sha256": "b207f883343feaa1b8dd1e0a3901acfb624d32154c496b20a0c6f6a4c386f775",
+          "bytes": 3591
+        },
+        "coverage": {
+          "pdf_pages": [
+            458
+          ],
+          "printed_pages": [
+            "450"
+          ],
+          "regions": 35,
+          "blocks": 30,
+          "figures": 5,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 458,
+        "observed_ending_pdf_page": 458,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-85/final-validation.json",
+          "sha256": "65c5874d7247f966831b99a4af565cb9ef04dc07089d7ac2d9ac91d6da6439e9",
+          "bytes": 2094
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-85/reproduction.json",
+          "sha256": "6c84f9488d92e9b19efcddaafd70690ae791c6daaf6ee2a14bc061e728c54e3e",
+          "bytes": 26961
+        },
+        "checkpoint": "batch-85",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-85-r01/source-creation-dispositions.json",
+          "sha256": "0bb45c91cac7231b4b2083155f3af59bd69d49dc3f9979cc893bd11e78ce411f",
+          "bytes": 4249
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0083",
       "title": "애독자 포럼·게시판",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 groups six independently titled forum children0084–0089. Their bodies are scattered across258–259 and528–537; intervening technical articles and advertisements are not part of a contiguous forum body.",
+        "No independent forum introduction, shared narrative or standalone body was found. The heading is non-owning; canonical null folio, root parent and child order remain unchanged. Bulletin524 remains before card520 in canonical order.",
+        "April preview258–259, bulletin532, subscriptions533, advertising index534–535 and humor536 have independent source extents. Reader-card/winners528–529 has a separate detachable card candidate537; reverse538 and complete noncontiguous extent remain pending.",
+        "All six child outcomes remain unresolved. Observed missing folios on subscription/index/card are not inferred from canonical references. Independent prize notice0090 on257 remains outside this group and unresolved.",
+        "Four classification/evidence files reproduce independently and in fresh processes. Source lookup is bounded to nineteen outside pages plus one reused mapped page. Final545-page accounting and human acceptance remain pending."
+      ],
+      "restoration": null,
+      "classification_artifact": {
+        "path": "archive/pdf/1995-03/classifications/batch-85-r01/group-0083.json",
+        "sha256": "768b48266e6b8313d9bc279133decbf28f53d1f4d997216f4996fecbe84c640b",
+        "bytes": 6424
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-85/classification-reproduction.json",
+        "sha256": "6618b2cd903b346fb056ffa00a87eadcf0076603bd72595159e0eea03d0391b3",
+        "bytes": 1145
+      },
+      "classification_validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-85/final-validation.json",
+        "sha256": "65c5874d7247f966831b99a4af565cb9ef04dc07089d7ac2d9ac91d6da6439e9",
+        "bytes": 2094
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0084",
@@ -9628,22 +9710,77 @@
         "sha256": "10f6f6c33f2281ed8940c3496b467b26ffd7dfbbde15a5ed41cff0763040620b",
         "bytes": 94639
       }
+    },
+    {
+      "name": "1995-03-batch-85",
+      "status": "complete",
+      "completed_at": "2026-11-06T03:07:23.347168+00:00",
+      "goal": "Assign preserved CD-ROM introduction458 to0082 and classify scattered forum0083 as non-owning.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0082",
+        "maso-1995-03-toc-0083"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        458
+      ],
+      "reused_mapped_pages": 1,
+      "newly_mapped_pages": 0,
+      "outside_lookup_pages": 19,
+      "outside_lookup_pdf_pages": [
+        1,
+        5,
+        257,
+        258,
+        259,
+        260,
+        457,
+        459,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "reused_ocr_outcomes": 30,
+      "source_correction_passes": 0,
+      "transcription_changes": 0,
+      "crop_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-85/final-validation.json",
+        "sha256": "65c5874d7247f966831b99a4af565cb9ef04dc07089d7ac2d9ac91d6da6439e9",
+        "bytes": 2094
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-85/reproduction.json",
+        "sha256": "6c84f9488d92e9b19efcddaafd70690ae791c6daaf6ee2a14bc061e728c54e3e",
+        "bytes": 26961
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 45,
+    "readable": 46,
     "partial": 0,
-    "group_headings": 18,
+    "group_headings": 19,
     "section_references": 17,
-    "unresolved": 10
+    "unresolved": 8
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Inspect source ownership for nonfolio CD-ROM special0082 and forum heading0083 with contents and bounded physical lookups before classification. Preserve canonical missing folios and parentage; do not assume downloadable CD contents or owning section prose. Then restore forum children0084–0089 and resolve nonfolio prize notice0090. Keep at most two canonical tasks,six mapped pages and twenty outside lookups. Library0067 extent180–207 and14 canonical descendant outcomes are complete; publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 remain pending final page accounting. FLC0019 awaits bounded lookup/accounting. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Restore April preview0084 on PDF258–259 and independent prize notice0090 on257. Then restore forum children0085–0089; inspect detachable card537/538 before finalizing0086 extent. Preserve non-owning forum0083 and special-feature0045;0082 alone owns introduction458. FLC0019 awaits bounded lookup/accounting. Carry publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 into final545-page accounting. Keep two canonical tasks,six mapped pages and twenty outside lookups. Complete March outcomes,cover and separate issue closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -10099,6 +10236,21 @@
       "path": "archive/pdf/1995-03/classifications/batch-84-r01/source-creation-dispositions.json",
       "sha256": "ae0d1d171614f151700bd689c3e851b325b49abdf9a323d78f7af4453fa7b397",
       "bytes": 19925
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-85-r01/group-0083.json",
+      "sha256": "768b48266e6b8313d9bc279133decbf28f53d1f4d997216f4996fecbe84c640b",
+      "bytes": 6424
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-85-r01/source-creation-dispositions.json",
+      "sha256": "0bb45c91cac7231b4b2083155f3af59bd69d49dc3f9979cc893bd11e78ce411f",
+      "bytes": 4249
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-85-r01/source-accounting-followups.json",
+      "sha256": "114767638d39e129be870f4e303dc3405c427340276327f34d987066f9081ea3",
+      "bytes": 5759
     }
   ]
 }

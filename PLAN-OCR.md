@@ -37,58 +37,59 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 84 completes price-guide0081 on PDF 204–207 / printed 196–199.
-Canonical title, parent, folio196 and absent article byline remain unchanged.
-Library0067 remains non-owning. All fourteen canonical descendant outcomes are
-complete: eleven readable articles and three subordinate groups. Its full physical
-extent is now confirmed as PDF 180–207, closing before independent interview on 208.
-This does not mean all physical library text has been restored.
+Batch 85 completes CD-ROM introduction0082 on PDF 458 / observed printed450
+and classifies forum0083 as non-owning. Cover1, contents5 and independent
+boundaries457/459 establish the introduction's identity. Its missing canonical
+folio, byline and root parent remain unchanged. Special-feature0045 remains
+non-owning; its original editorial context is preserved as evidence. The existing
+NT0046 and PC DOCS0047 bodies remain unchanged.
 
-All 501 native files and two external evidence/status files reproduce independently
-and in fresh processes. All 130 crops are pixel-exact; 121 OCR outcomes, 121 blocks,
-179 serialized reading rows, eight main paragraphs, nine original image assets,
-five captions and 1,563 typed ranges validate. No prose joins are needed; the disk
-product table continues on 206–207 with its repeated header. Chart-value reading rows
-are not claims of shared physical baselines.
+All35 batch49 crops,30 OCR outcomes and30 corrected texts are reused unchanged.
+The original map/settings retain0045 execution identity; a private adapter binds
+only the new owning package to0082, preserves original execution documents and
+passes explicit field-change checks. There is no new mapping, OCR, correction
+pass, crop change or transcription change. The137 native files and four external
+classification/evidence files reproduce independently and in fresh processes.
+All35 crops are pixel-exact;42 physical rows and182 typed ranges validate.
 
-Eleven summary rows retain units, tolerances and controller exclusions. Forty
-product rows preserve 164 printed body cells, including four merged storage
-categories, and 17 header cells. Three charts preserve 27 visible values, 19 category
-labels, nine ticks and three year labels. Missing historical values, axis units and
-date assignments are not invented. Two modem photos retain their source captions.
-Printed 12,400BPS/2,400BPS,4만원±5천원/4.5,560MB/540MB,HW-P144VF/HW-144VF
-and GTM1496PC2/GTM-1496PC2 remain distinct. Five tax/price contexts preserve
-recommended tax-inclusive prices, an unqualified market price and tax-exclusive
-table values. Three small glyph candidates retain image-dependent uncertainty.
+The introduction retains one six-line paragraph, three screenshots/captions,
+an original whole-page reference image and a directory diagram with23 labels,
+two roots and21 branches. Printed DEGUG, KNOWLDGE and I386 glyph candidates,
+eight local uncertainties and the Share As / Display Settings caption-image
+discrepancy remain. No verified disc contents or automatic CD association is claimed.
+Thirty-four invalid identity, range, source-context and ownership cases reject.
+A failed verifier path-base comparison is retained and corrected; no package
+or source data changed. All71,601 prior March files and thirty core modules remain
+exact; the unchanged214-test baseline is reused. Exact glyphs,bytes,historical
+claims,full proofreading and human acceptance remain unverified.
 
-There were 121 initial recognitions, zero retries, one correction pass, two valid maps
-and 42 pre-OCR crop refinements, with zero within/post-pass text repairs. An
-unsupported table-kind constructor failure is retained before map export; the
-fixed map preserves original grids and uses supported row regions. Thirty-four
-native and sixteen status faults reject; seventeen frozen status fields resolve
-externally. All 70,081 prior March files and thirty core modules remain exact;
-the unchanged 214-test baseline is reused. Exact glyphs, bytes, historical claims,
-full proofreading and human acceptance remain unverified.
+Forum0083 organizes six independent child bodies, with no shared article body
+or contiguous physical section. Located candidates are April preview258–259,
+bulletin532, reader-card/winners528–529 plus detachable card537, subscriptions533,
+advertising index534–535 and humor536. Reverse538 and the full noncontiguous card
+extent remain unverified. Missing observed folios are not inferred. All six child
+outcomes remain unresolved; canonical order and parentage stay unchanged.
+Independent prize notice0090 is located on257, outside the forum group.
 
-Packages: `archive/pdf/1995-03/packages/batch-84-r01/`.
-Current library completion/extent: `archive/pdf/1995-03/classifications/batch-84-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-84/`.
-Ninety-one final classification/accounting evidence pins are retained. Totals:
-45 readable, zero partial, eighteen non-owning headings, seventeen references and
-10 unresolved.
+Package: `archive/pdf/1995-03/packages/batch-85-r01/cd-introduction/`.
+Ownership/forum/accounting evidence: `archive/pdf/1995-03/classifications/batch-85-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-85/`.
+Ninety-four final classification/accounting evidence pins are retained. Totals:
+46 readable, zero partial, nineteen non-owning headings, seventeen references and
+8 unresolved:0019 and0084–0090.
 
-Next inspect source ownership for nonfolio CD-ROM special0082 and forum heading0083
-using contents and bounded physical lookups. Preserve missing canonical folios and
-parentage; do not assume downloadable CD contents or owning section prose. Then
-restore forum children0084–0089 and resolve nonfolio prize notice0090.
-Keep publisher advertisements202–203, unlisted CD194–195, public-software186–189
-and game-room190–191 in final page accounting. FLC0019 awaits bounded lookup or
-accounting. All eighteen unlisted reviews and two advertisement regions remain
-outside restored canonical bodies.
+Next restore April preview0084 on258–259 and prize notice0090 on257, then the
+remaining forum children. Inspect card537/538 before finalizing0086's extent.
+FLC0019 awaits bounded lookup/accounting. Library0067 remains complete for all
+fourteen canonical descendants; its physical extent is180–207. Keep publisher
+advertisements202–203, unlisted CD194–195, public-software186–189 and game-room190–191
+in final page accounting. All eighteen unlisted reviews and two advertisement
+regions remain outside restored canonical bodies.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-The full March goal remains active through all remaining outcomes, 545-page
-accounting, cover and separate issue closeout before July.
+This checkpoint uses one reused mapped page and nineteen outside lookups.
+The full March goal remains active through remaining outcomes,545-page accounting,
+cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 The historical 1995 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
