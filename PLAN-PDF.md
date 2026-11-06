@@ -669,10 +669,44 @@ ten frozen adapters and 49 classification pins remain exact; the unchanged
 lookups. Original Q&A group and clinic evidence remain immutable; their historical
 pending-child flags require later external reconciliation.
 Totals: seventeen readable articles, zero partials, five groups, seventeen references
-and 64 unresolved identities. Next: locate Xbase child 0040 and verify Paradise
-hardware child 0041 from PDF 268/printed 257; 269 continues Paradise. Source order
-differs from canonical TOC order, so Xbase's location or absence is not inferred.
-Verify full endings and adjacent boundaries before mapping within the 2/6/20 limits.
+and 64 unresolved identities at that checkpoint. Xbase 0040 and Paradise 0041
+are completed by batch 36 below, preserving the observed reversed source order.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical technical behavior remain explicit limits.
+
+July batch 36 completes Paradise hardware 0041 on PDF 268–270/printed 257–259
+and Xbase 0040 on PDF 271–273/printed 260–262. Their observed order reverses the
+canonical sibling order; both identities remain unchanged. Paradise retains nine
+Q&As and nine asker credits; Xbase retains five Q&As and four credits, with no
+invented credit for its final printer question. Each has an independent technical
+sidebar and submission invitation. Paradise's four-field settings panel belongs
+to step 3 of its five-step virtual-memory answer.
+Paradise's 297 and Xbase's 394 selected files match independent and fresh-process
+exports. All 175 source crops, 166 OCR outcomes, 152 blocks, 511 reading rows and
+2,790 typed ranges validate. Nine original images have no invented captions.
+Two Xbase tables retain 40 nonempty cells, including ten headers, and twelve
+explicit blank cells. Eight code groups retain sixty physical rows, including
+four blanks. The 53-row TBrowse listing crosses pages and columns, preserving
+square bracket outlines and distinct omission rows without syntax repair.
+Ten joins preserve fourteen boundaries; 123 prose paragraphs and 459 source
+fields validate. Printed 386SPART.PAR, schema widths 8/30/30/70/100/100, filename
+spacing and historical technical claims remain literal. Quoted scl3001 retains
+sc13001 as a glyph candidate.
+All 166 drafts were read before one prospective source pass. Two pre-OCR maps
+per article retain 74 crop refinements. Two pre-correction paragraph-separator
+adjustments and one declaration typo correction preserve their original evidence.
+Zero retries, within-pass text refinements, post-pass changes or post-OCR crop changes.
+All 107 invalid cases reject. All 28,309 earlier July files, thirty core modules,
+ten frozen adapters and 49 classification pins remain exact; the unchanged
+214-test batch-31 baseline is reused. Two tasks, six mapped pages, four outside
+lookups. Original Q&A group and clinic evidence remain immutable; their historical
+pending-child flags require later external reconciliation.
+Totals: nineteen readable articles, zero partials, five groups, seventeen references
+and 62 unresolved identities. Next: verify and restore network child 0042 from
+observed PDF 274–276/printed 263–265, including the adjacent 277 boundary. Use a
+second task for external Q&A group 0036 completion status if its children are final;
+keep the larger clinic reconciliation separate and preserve original evidence.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical technical behavior remain explicit limits.

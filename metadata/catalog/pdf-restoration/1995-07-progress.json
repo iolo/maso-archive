@@ -4441,23 +4441,119 @@
       "toc_entry_id": "maso-1995-07-toc-0040",
       "title": "임지열의 Xbase About",
       "parent_id": "maso-1995-07-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch36 verifies complete Paradise hardware0041 on PDF268–270/printed257–259 and Xbase0040 on PDF271–273/printed260–262. Source order reverses their canonical sibling order;both identities are preserved. Previous267 ends Lee Junhui;following274 opens network0042.",
+        "394 selected,independent and fresh-process files match. 100 exact crops,95 OCR outcomes,89 blocks,275 reading rows and1532 typed ranges validate. 5 original images have no invented captions;5 Q&A contexts retain4 observed asker credits. No article author inferred.",
+        "4 joins preserve6 boundaries;76 prose paragraphs and209 source fields validate. One independent technical sidebar and one historical submission invitation retain separate ownership. 58 physical code rows include4 blank rows.",
+        "Paradise retains nine questions and nine About labels without dots. The SCSI answer continues268→269,the parity answer crosses269 columns,the modem question269 is answered270,and the CPU answer crosses270 columns. Its five-step virtual-memory answer owns the four-field settings panel at step3. Printed386SPART.PAR and historical oscillator/CPU-voltage claims remain literal.",
+        "Xbase retains five questions and only four observed asker credits;question5 has none. Its question3 data table and answer schema retain40 nonempty cells,including10 headers,and12 explicit blank cells. The schema widths8,30,30,70,100,100 remain literal. The TBrowse listing spans272→273 and crosses273 columns;53 physical rows retain four blanks and distinct omission rows. Printed square bracket outlines are not repaired into Clipper braces. Quoted handle scl3001 retains sc13001 as a glyph candidate.",
+        "All166 drafts read before one prospective source pass. Two pre-OCR maps per article retain74 crop refinements. Two pre-correction layout separator changes retain original layouts;the source declaration typo correction retains original receipts. Ten code regions use English and156 other text regions Korean plus English,pinned Tesseract OEM1/PSM6,one thread,3000-pixel long edge. Zero retries,within-pass text refinements,post-pass source changes or post-OCR crop changes.",
+        "All107 invalid cases reject. All28309 earlier July files,thirty core modules,ten frozen adapters and49 classification pins remain unchanged. Unchanged214-test batch31 baseline reused. Two canonical tasks,six mapped pages,four outside lookups.",
+        "Only0040 and0041 article outcomes advance. Original group0036 and clinic0029 evidence remain immutable;later external child-status reconciliation is required. Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical behavior remain explicit limits."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-36-r01/xbase",
+        "article_id": "scan-maso-1995-07-toc-0040",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-36-r01/xbase/manifest.json",
+          "sha256": "e372950c66508893b3998a25acc45f83bfd00fa4dd6bd8bc874ce9db541a6fd1",
+          "bytes": 65705
+        },
+        "coverage": {
+          "pdf_pages": [
+            271,
+            272,
+            273
+          ],
+          "printed_pages": [
+            "260",
+            "261",
+            "262"
+          ],
+          "regions": 100,
+          "blocks": 89,
+          "figures": 5,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 273,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-36/validation.json",
+          "sha256": "98c2629fa49c1768e67767f44c1590d00c04539da5ab07e04818f22e67d14401",
+          "bytes": 3303
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-36/reproduction.json",
+          "sha256": "79002fa8364961df8c466211396ed1654b5b2a2da41d962ba94f600a18c3c3c9",
+          "bytes": 130799
+        },
+        "checkpoint": "batch-36"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0041",
       "title": "파라다이스의 하드웨어 About",
       "parent_id": "maso-1995-07-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch36 verifies complete Paradise hardware0041 on PDF268–270/printed257–259 and Xbase0040 on PDF271–273/printed260–262. Source order reverses their canonical sibling order;both identities are preserved. Previous267 ends Lee Junhui;following274 opens network0042.",
+        "297 selected,independent and fresh-process files match. 75 exact crops,71 OCR outcomes,63 blocks,236 reading rows and1258 typed ranges validate. 4 original images have no invented captions;9 Q&A contexts retain9 observed asker credits. No article author inferred.",
+        "6 joins preserve8 boundaries;47 prose paragraphs and250 source fields validate. One independent technical sidebar and one historical submission invitation retain separate ownership. 2 physical code rows include0 blank rows.",
+        "Paradise retains nine questions and nine About labels without dots. The SCSI answer continues268→269,the parity answer crosses269 columns,the modem question269 is answered270,and the CPU answer crosses270 columns. Its five-step virtual-memory answer owns the four-field settings panel at step3. Printed386SPART.PAR and historical oscillator/CPU-voltage claims remain literal.",
+        "Xbase retains five questions and only four observed asker credits;question5 has none. Its question3 data table and answer schema retain40 nonempty cells,including10 headers,and12 explicit blank cells. The schema widths8,30,30,70,100,100 remain literal. The TBrowse listing spans272→273 and crosses273 columns;53 physical rows retain four blanks and distinct omission rows. Printed square bracket outlines are not repaired into Clipper braces. Quoted handle scl3001 retains sc13001 as a glyph candidate.",
+        "All166 drafts read before one prospective source pass. Two pre-OCR maps per article retain74 crop refinements. Two pre-correction layout separator changes retain original layouts;the source declaration typo correction retains original receipts. Ten code regions use English and156 other text regions Korean plus English,pinned Tesseract OEM1/PSM6,one thread,3000-pixel long edge. Zero retries,within-pass text refinements,post-pass source changes or post-OCR crop changes.",
+        "All107 invalid cases reject. All28309 earlier July files,thirty core modules,ten frozen adapters and49 classification pins remain unchanged. Unchanged214-test batch31 baseline reused. Two canonical tasks,six mapped pages,four outside lookups.",
+        "Only0040 and0041 article outcomes advance. Original group0036 and clinic0029 evidence remain immutable;later external child-status reconciliation is required. Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical behavior remain explicit limits."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-36-r01/paradise",
+        "article_id": "scan-maso-1995-07-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-36-r01/paradise/manifest.json",
+          "sha256": "73de55bcdffa099ece4fbe2a6365a4c4c30d6f5c5aeeafe5fccf058a8e3036ae",
+          "bytes": 49302
+        },
+        "coverage": {
+          "pdf_pages": [
+            268,
+            269,
+            270
+          ],
+          "printed_pages": [
+            "257",
+            "258",
+            "259"
+          ],
+          "regions": 75,
+          "blocks": 63,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 270,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-36/validation.json",
+          "sha256": "98c2629fa49c1768e67767f44c1590d00c04539da5ab07e04818f22e67d14401",
+          "bytes": 3303
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-36/reproduction.json",
+          "sha256": "79002fa8364961df8c466211396ed1654b5b2a2da41d962ba94f600a18c3c3c9",
+          "bytes": 130799
+        },
+        "checkpoint": "batch-36"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0042",
@@ -6586,22 +6682,62 @@
         "sha256": "27b0957fe7ee19eee1dbf5427c6677aa4215c87d8ceba058dfe8ee3653650462",
         "bytes": 75616
       }
+    },
+    {
+      "name": "1995-07-batch-36",
+      "status": "complete",
+      "completed_at": "2026-11-06T21:09:52.462764+00:00",
+      "goal": "Restore complete Paradise0041 and Xbase0040 Q&A articles.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0041",
+        "maso-1995-07-toc-0040"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        267,
+        274,
+        275,
+        276
+      ],
+      "recognition_invocations": 166,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-36/validation.json",
+        "sha256": "98c2629fa49c1768e67767f44c1590d00c04539da5ab07e04818f22e67d14401",
+        "bytes": 3303
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-36/reproduction.json",
+        "sha256": "79002fa8364961df8c466211396ed1654b5b2a2da41d962ba94f600a18c3c3c9",
+        "bytes": 130799
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 17,
+    "readable": 19,
     "partial": 0,
     "group_headings": 5,
     "section_references": 17,
-    "unresolved": 64
+    "unresolved": 62
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Locate Xbase child0040 and verify complete extent of Paradise hardware child0041 from observed PDF268/printed257;269/258 continues Paradise. Canonical TOC order does not match the observed following title,so do not infer Xbase absence or location. Inspect ending and adjacent boundaries before mapping at most six pages;two canonical tasks and twenty outside lookups maximum. Segment longer articles and assemble separately. Preserve all49 classification pins and immutable group0036/clinic0029 evidence;their historical pending-child flags require later external reconciliation. Continue all remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Verify and restore network child0042 from observed PDF274–276/printed263–265,checking the ending and adjacent277 boundary before mapping. Use a second canonical task for external Q&A group0036 child-status reconciliation if complete;preserve original classification bytes and all49 pins. Broader clinic0029 reconciliation remains separate. Continue remaining July identities within two tasks,six mapped pages and twenty outside lookups;then560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
