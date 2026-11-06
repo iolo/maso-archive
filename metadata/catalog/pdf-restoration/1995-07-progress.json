@@ -3374,12 +3374,56 @@
       "toc_entry_id": "maso-1995-07-toc-0025",
       "title": "개똥철학",
       "parent_id": "maso-1995-07-toc-0023",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch24 source review establishes complete 개똥철학 on PDF159–160/printed148–149. Prior158 closes home-computer0024;161 is independent book advertising. Source title and author 김재훈 match canonical candidates; hierarchy/byline/folios remain unchanged.",
+        "Drop-cap 초 appears once. Three section headings,fifteen main-body paragraphs,six proverbs across three physical rows,independent five-row pull quote and eight-row biography retain source roles. Six local groups preserve seven boundaries,including government prose159→160. Four original images have null captions.",
+        "132 selected/independent/fresh-process files match;34 exact crops,30 OCR outcomes,23 blocks,146 rows and611 typed occurrences validate. Thirty-five invalid cases reject. Eighteen source fields preserve printed names,brands,technical terms and source anomalies;쇄/쇠 and repeated-dot uncertainty remain localized.",
+        "All30 initial drafts read before one timed source correction pass. One pre-OCR map,zero retries,zero within/post-pass text revisions and no crop changes. Printed proverb wording,grammatical anomalies and Macintosh/WhirlPool spellings are not modernized.",
+        "Two reproducible external status files resolve batch23 child0025 pending/null-manifest fields while preserving original group evidence. Both child bodies are complete and disjoint,157–158 and159–160;the group remains non-owning. Four child-local title/author ranges and nineteen ownership/status fault cases validate.",
+        "All16,874 earlier July files,thirty core modules and nine frozen adapters remain exact. The unchanged214-test batch19 baseline is reused. One canonical task,two mapped pages,two outside lookups;whole July accounting,cover and standalone closeout remain pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-24-r01/philosophy",
+        "article_id": "scan-maso-1995-07-toc-0025",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-24-r01/philosophy/manifest.json",
+          "sha256": "fae7872ff84d262aee5237844d7c8766b9d77ff6d5136f0dd07982c5769a2b08",
+          "bytes": 22053
+        },
+        "coverage": {
+          "pdf_pages": [
+            159,
+            160
+          ],
+          "printed_pages": [
+            "148",
+            "149"
+          ],
+          "regions": 34,
+          "blocks": 23,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 160,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-24/validation.json",
+          "sha256": "7d9d712a48d912cca24675dc451f9f8116fd5ee36075b0f25d2916fd748a7797",
+          "bytes": 1862
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-24/reproduction.json",
+          "sha256": "e12d99392e9ba2c2a4417dc564049575a28b1fffae818262afbb8532a8369488",
+          "bytes": 25896
+        },
+        "checkpoint": "batch-24"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0026",
@@ -5109,22 +5153,70 @@
         "sha256": "a91e23117bda4f073d916488b7c3be78aa5e4af1c8346519dcdc4c3e23b9a7d9",
         "bytes": 1275
       }
+    },
+    {
+      "name": "1995-07-batch-24",
+      "status": "complete",
+      "completed_at": "2026-11-06T16:12:57.521365+00:00",
+      "goal": "Restore second column0025 and externally resolve group0023 historical pending-child status.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0025"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        159,
+        160
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        158,
+        161
+      ],
+      "recognition_invocations": 30,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-24/validation.json",
+        "sha256": "7d9d712a48d912cca24675dc451f9f8116fd5ee36075b0f25d2916fd748a7797",
+        "bytes": 1862
+      },
+      "status_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-24/status-validation.json",
+        "sha256": "3e3f3418edf7ad41375b520c171e6be77caa138298abac2fcd4fbef6b6eaa2b7",
+        "bytes": 1009
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-24/reproduction.json",
+        "sha256": "e12d99392e9ba2c2a4417dc564049575a28b1fffae818262afbb8532a8369488",
+        "bytes": 25896
+      },
+      "status_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-24/status-reproduction.json",
+        "sha256": "e92862695d7f338b558b4dcf579d9c8602b228f245119c5d306c82df500652eb",
+        "bytes": 845
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-24-r01/group-status-dispositions.json",
+        "sha256": "38e263776872af68861df981487bec125deb5f30a5e2949622d3add88e3169ec",
+        "bytes": 2091
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
     "group_headings": 1,
     "section_references": 17,
-    "unresolved": 79
+    "unresolved": 78
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify and restore next child0025 개똥철학 from canonical printed148 and saved opening PDF159. Inspect its full extent,author credit and following boundary before mapping; do not infer a global folio offset. Its parent0023 is now a final non-owning group; preserve original group evidence noting child0025 pending at creation and resolve status externally when restored. Continue remaining canonical entries within two-task/six-mapped/twenty-lookup limits,then whole July560-page accounting,cover and separate standalone JSON/assets closeout. Preserve earlier natives and31 classification evidence pins; no reader rebuild/deployment.",
+  "next_checkpoint": "Verify pageless group0026 나눔터 and locate child0027 인터뷰 : 나는 이렇게 생각한다 : 한글코드, 최선책은 무엇인가 from canonical printed200. Its other child0028 유니코드와 한글 통합형 코드 starts canonical204; use actual source banners,credits and boundaries to establish ownership and extent without inventing a standalone group body or global folio offset. At most two canonical tasks,six mapped pages,twenty outside lookups. Both column-group0023 children are complete;use batch24 external status while preserving batch23 creation-time evidence. Continue all remaining July entries,560-page accounting,cover and separate standalone JSON/assets closeout. Preserve all prior natives and33 classification evidence pins;no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -5280,6 +5372,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-23-r01/evidence.json",
       "sha256": "022da410230d3edf4fd4f223102110118f40f097ace804f9ad51386b7591c3a0",
       "bytes": 7768
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-24-r01/group-status-dispositions.json",
+      "sha256": "38e263776872af68861df981487bec125deb5f30a5e2949622d3add88e3169ec",
+      "bytes": 2091
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-24-r01/family-ownership.json",
+      "sha256": "a96fccba25fcae077b60fc8aec49f61408c24b44e238906cbaf184225c20b99d",
+      "bytes": 6377
     }
   ]
 }

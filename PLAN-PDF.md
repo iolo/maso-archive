@@ -347,10 +347,27 @@ All 45 invalid cases reject. All 16,494 earlier July files, thirty core modules
 and nine frozen adapters remain exact; the unchanged 214-test batch-19 baseline
 is reused. Totals: six readable articles, one group, seventeen references and
 79 unresolved identities, with zero partials.
-Next: verify and restore child 0025 개똥철학 from saved PDF 159/printed 148,
-including its full extent, credit and following boundary. Preserve the group’s
-creation-time pending-child evidence; resolve that status externally when restored.
+Its second-column restoration and external group completion finish in batch 24 below.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+
+July batch 24 completes child 0025 개똥철학 on PDF 159–160/printed 148–149.
+Its 132 selected/independent/fresh-process files match: 34 exact crops, 30 OCR
+outcomes, 23 blocks, 146 rows and 611 typed occurrences validate. Three headings,
+fifteen main-body paragraphs, six proverbs, an independent pull quote and author
+biography retain source contexts. Four original images have null captions;
+six local groups preserve seven boundaries, including the page continuation.
+One pre-OCR map, one timed source pass, zero retries or crop changes and zero
+within/post-pass text revisions. Thirty-five invalid article cases reject.
+Two exact external status files resolve column group 0023’s historical pending
+child without changing original evidence. Both children are complete and distinct;
+four child-local title/author ranges and nineteen status/ownership faults validate.
+All 16,874 earlier July files, thirty core modules and nine frozen adapters remain
+exact; the unchanged 214-test batch-19 baseline is reused.
+Totals: seven readable articles, one group, seventeen references and 78 unresolved
+identities, with zero partials. Next: verify group 0026 나눔터 and locate interview
+child 0027 from canonical printed 200 within the two-task/six-mapped/twenty-lookup
+limits. Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOC scans remain an explicit limit.
 
 See [July progress](docs/progress/9507.md) and its ledger.
