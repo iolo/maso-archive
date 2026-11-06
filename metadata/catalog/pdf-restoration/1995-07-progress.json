@@ -4683,7 +4683,7 @@
       "parent_id": "maso-1995-07-toc-0044",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Game-programming0045 is verified across PDF333–340/printed322–329. This native preserves opening333–338/322–327. Page332 is an advertisement;340 contains ending prose,emblem,editor and file directory;341 opens a separately credited socket article. Final339–340 and actual article assembly remain required.",
@@ -4698,40 +4698,24 @@
         "Two original visuals retain null captions. Separate editor 홍동선,disk#2 notice,go MASO,README.TXT and15 directory rows with32 cells retain source roles. Printed AA6.C,awkward wording,IMS spacing and double closing brackets remain literal. PutBlSprite/PutB1Sprite and broken-bar candidates remain source-linked;no syntax repair or historical availability claim.",
         "All48 drafts read before one prospective source pass;two pre-OCR maps with48 adjustments,zero retries,text refinements,post-pass changes or post-OCR crop changes. Three eng code regions and45 kor+eng text regions use OEM1/PSM6,one thread,3000-pixel long edge.",
         "All54 invalid native/group cases reject;31946 earlier July files,30 core modules,10 adapters and57 earlier classification pins remain exact. Unchanged214-test baseline reused. Two tasks,five mapped pages,six outside lookups.",
-        "Whole July560-page accounting,cover and standalone closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical execution remain explicit limits."
+        "Whole July560-page accounting,cover and standalone closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical execution remain explicit limits.",
+        "Batch41 actually assembles game0045 across PDF333–340/printed322–329. All449 selected,independent and fresh-process files match,including440 regenerated native files. Only DisplaySprite joins across338→339 using the existing serialization LF;no source text,OCR or corrections changed.",
+        "All110 crops,104 original OCR outcomes,90 source blocks in89 assembled blocks,six figures,one literal caption and603 reading rows validate. All5641 native typed occurrences,including four earlier-native ranges,project correctly;11293 current ranges and52747 scalar values validate.",
+        "Eleven code blocks preserve299 physical rows,15 blanks,seven Korean comments and six omission rows. Twelve join groups retain15 boundaries. Seven series entries,five diagram labels,32 directory cells,source author 김경만 and editor 홍동선 retain their distinct contexts. Printed anomalies,PutBlSprite/PutB1Sprite and broken-bar candidates remain literal.",
+        "All47 assembly and22 status invalid cases reject;214 fresh PDF tests pass. All32628 earlier July files,30 core modules,10 frozen prior adapters and59 old classification pins remain exact. A new private assembly adapter handles complete metadata and blank-code-row ranges without modifying core modules.",
+        "Two external parent0044 status files resolve11 original fields and one historical copied gap note. Existing subgroup0046 classification is linked;all three child articles0047–0049 remain pending. Original group evidence and native partial flags remain historical. The first status export matched an active limit as well as the historical note;its partial output/script are retained,with the selected revision narrowing only that metadata selector.",
+        "Two canonical tasks,zero mapped pages,six reused source lookups,no new OCR or source correction. Whole July560-page accounting,cover and standalone closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical execution remain explicit limits."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-40-r01/game-b",
+        "directory": "archive/pdf/1995-07/packages/article-game-r01",
         "article_id": "scan-maso-1995-07-toc-0045",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-40-r01/game-b/manifest.json",
-          "sha256": "976e655b5fd9d98dcc2d9f4610c66dc4e4ff3e9a6e10cc0e64c4618db6937b75",
-          "bytes": 33969
+          "path": "archive/pdf/1995-07/packages/article-game-r01/manifest.json",
+          "sha256": "ec617da37f37136f7c8f1ee9bb3da579f0c366f3ba4cf9e32175822387618075",
+          "bytes": 79768
         },
         "coverage": {
           "pdf_pages": [
-            339,
-            340
-          ],
-          "printed_pages": [
-            "328",
-            "329"
-          ],
-          "regions": 50,
-          "blocks": 45,
-          "figures": 2,
-          "deferred_pdf_pages": []
-        },
-        "body_pages_complete": false,
-        "prose_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "actual_start_pdf_page": 333,
-        "actual_end_pdf_page": 340,
-        "full_extent_verified": true,
-        "remaining_source_pages": [],
-        "segment_scope": {
-          "full_pdf_pages": [
             333,
             334,
             335,
@@ -4741,50 +4725,38 @@
             339,
             340
           ],
-          "current_pdf_pages": [
-            339,
-            340
-          ],
-          "current_printed_pages": [
+          "printed_pages": [
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327",
             "328",
             "329"
           ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": false,
-          "actual_start_pdf_page": 333,
-          "observed_ending_pdf_page": 340,
-          "remaining_source_pages": [],
-          "earlier_native_pages": [
-            333,
-            334,
-            335,
-            336,
-            337,
-            338
-          ],
-          "current_native_reaches_end": true,
-          "opening_in_current_native": false,
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "remaining_extent_unverified": false,
-          "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-40/source-reviewed.json",
-            "sha256": "b20fd81832cfd7c751c6a905908535db63071e659f8bb715412a5352c078a3b2",
-            "bytes": 3831
-          }
+          "regions": 110,
+          "blocks": 89,
+          "figures": 6,
+          "deferred_pdf_pages": []
         },
-        "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-40/validation.json",
-          "sha256": "c6acca4eaceff115819307057ad66ecc49d224492b9a6f04bae0f1136440052f",
-          "bytes": 2173
-        },
-        "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-40/reproduction.json",
-          "sha256": "c10b7a1c59adcb827266b0843a6771b053bc47f1960a4b6977cd0f1410b243b4",
-          "bytes": 39281
-        },
-        "checkpoint": "batch-40",
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 333,
+        "actual_end_pdf_page": 340,
+        "full_pdf_pages": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340
+        ],
+        "remaining_source_pages": [],
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-39-r01/game-a",
@@ -4933,7 +4905,18 @@
           339,
           340
         ],
-        "source_extent_preserved_across_natives": true
+        "source_extent_preserved_across_natives": true,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-41/assembly-audit.json",
+          "sha256": "9c0047ce58368a95b7695e52b67edfe96fe32ab8293f8b6bd8e8cc52b373eef3",
+          "bytes": 1377
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-41/reproduction.json",
+          "sha256": "92fa162201771b9163edecd4de15753f90a8d0764248f51a53b15487f5ac05b7",
+          "bytes": 82155
+        },
+        "checkpoint": "batch-41"
       }
     },
     {
@@ -7264,12 +7247,62 @@
         "sha256": "3ad87f120a679c4ba41d02087c1669ef58316c2ac09af962b31e60ce05cdc270",
         "bytes": 2127
       }
+    },
+    {
+      "name": "1995-07-batch-41",
+      "status": "complete",
+      "completed_at": "2026-11-06T22:27:20.976500+00:00",
+      "goal": "Actually assemble complete game0045 and externally reconcile parent0044 without completing pending descendants.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0045",
+        "maso-1995-07-toc-0044"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        332,
+        333,
+        338,
+        339,
+        340,
+        341
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-41/assembly-audit.json",
+        "sha256": "9c0047ce58368a95b7695e52b67edfe96fe32ab8293f8b6bd8e8cc52b373eef3",
+        "bytes": 1377
+      },
+      "status_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-41/status-validation.json",
+        "sha256": "b1af77c4520b8110c08f24a5708b568abb0dda26c1c257f4401e9b94f9881d35",
+        "bytes": 1052
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-41/reproduction.json",
+        "sha256": "92fa162201771b9163edecd4de15753f90a8d0764248f51a53b15487f5ac05b7",
+        "bytes": 82155
+      },
+      "status_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-41/status-reproduction.json",
+        "sha256": "fd00037047bd31405ee77b8cfda505a89e8b8e0255df6e7ac18328ab94594e04",
+        "bytes": 792
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-41-r02/group-status-dispositions.json",
+        "sha256": "10a431f90113068a19caff0b53d42ef3bb246ca2685dc02b66a2decde92eb112",
+        "bytes": 9475
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 20,
-    "partial": 1,
+    "readable": 21,
+    "partial": 0,
     "group_headings": 8,
     "section_references": 17,
     "unresolved": 57
@@ -7279,7 +7312,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Actually assemble game0045 across PDF333–340/printed322–329 from independently regenerated immutable game-a(batch39-r01) and game-b(batch40-r01). Join only DisplaySprite display-code-a→display-code-b with one physical LF,handling the earlier serialization suffix without creating a blank row. Preserve other code examples,physical blanks,omissions,source anomalies,candidates,series/diagram/author/editor contexts and15-row directory. No new OCR/source correction required. Then resolve only evidenced game completion externally;groups0044/0046 still have pending children0047–0049. Preserve59 classification pins. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout;no automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Verify socket article0047 from observed PDF341/printed330,source title 윈도우즈 소켓 API 수양쌓기 and author 박경호. Inspect opening,interior continuity,final client listing observed352 and following WinG opening353 before establishing full extent;TOC starts alone are insufficient. Restore at most six opening pages341–346 after source verification,then preserve any remaining pages and assemble separately. At most two canonical tasks,six mapped pages,twenty outside lookups. Parent0044 and subgroup0046 retain pending children0047–0049. Preserve61 classification pins and add batch41 game_adapter.py to the ten frozen prior adapter pins. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout;no automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -7575,6 +7608,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-40-r01/evidence.json",
       "sha256": "63a56c324c1c5774a270a5911efada99984a517f3b503060b3df56f94fee4ee3",
       "bytes": 21208
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-41-r02/group-status-dispositions.json",
+      "sha256": "10a431f90113068a19caff0b53d42ef3bb246ca2685dc02b66a2decde92eb112",
+      "bytes": 9475
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-41-r02/family-ownership.json",
+      "sha256": "bb3607f0ce2da5f7f3b1fcc9c6604391d355818f3d1715ee26dee7af793b8d83",
+      "bytes": 18653
     }
   ]
 }

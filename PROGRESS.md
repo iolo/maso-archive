@@ -1,5 +1,43 @@
 # Progress
 
+## 2026-11-07 — July complete game assembly and parent status
+
+July batch 41 actually assembles game0045 across PDF 333–340/printed 322–329.
+All 449 selected files match independent and fresh-process exports, including
+440 independently regenerated native files. Both immutable natives remain exact.
+Only DisplaySprite joins across 338→339, using the existing serialization LF
+without inserting a blank row. No new mapping, OCR or source correction occurred.
+All 110 crops, 104 original OCR outcomes, 90 original blocks in 89 assembled blocks,
+six figures, one literal caption and 603 reading rows validate. All 5,641 native
+metadata occurrences project, including four earlier-native title/author/boundary
+ranges. The audit checks 11,293 current ranges and 52,747 scalar values.
+Eleven code blocks preserve 299 physical rows, fifteen blanks, seven Korean comments
+and six omissions. Twelve join groups retain fifteen boundaries. Seven series
+entries, five diagram labels and the 15-row directory with 32 cells retain their
+contexts. Source author 김경만 and editor 홍동선 remain distinct. Printed anomalies,
+PutBlSprite/PutB1Sprite and broken-bar candidates remain explicit; no syntax repair.
+All 47 assembly and 22 status invalid cases reject; all 214 fresh PDF tests pass.
+All 32,628 earlier July files, thirty core modules, ten frozen prior adapters and
+59 earlier classification pins remain exact. A new frozen game adapter projects
+custom metadata and blank-code-row ranges without changing the core modules.
+Two external parent0044 status files reproduce exactly, resolving eleven original
+fields and one historical copied gap note. Subgroup0046 remains non-owning; its
+three children0047–0049 remain pending. The first status export matched an active
+family limit as well as the historical note. Its script and partial output remain;
+the selected metadata revision narrows the selector. No article or source changed.
+Two new pins bring classification evidence to 61. Two canonical tasks, zero mapped
+pages and six reused source lookups remain within checkpoint limits.
+Totals: twenty-one readable articles, zero partials, eight groups, seventeen
+references and 57 unresolved identities. Next: verify socket article0047 from
+PDF 341/printed 330, including its interior continuity and final listing observed
+on 352 before the separate WinG opening on 353. Restore at most six opening pages
+in the next bounded native; remaining pages and assembly require later checkpoints.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical execution remain explicit limits.
+
+See [July progress](docs/progress/9507.md) and its ledger.
+
 ## 2026-11-07 — July game final pages and Windows subgroup
 
 July batch 40 preserves game0045 final PDF339–340/printed328–329 as a second
