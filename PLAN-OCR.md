@@ -174,9 +174,26 @@ reading refinement and zero post-pass changes. All 33 invalid cases reject;
 214-test batch-08 baseline is reused. Observed part starts are 297/313/327 and
 the ending is 330; remaining interior continuity is not yet fully reviewed.
 Totals: two readable, one partial, fourteen references and 86 unresolved.
-Next: GNU 303–308, preserving independent GPL preamble 303 and gzip continuation
-302→304 across it. Later segments, actual assembly and children 0018–0020 remain
-pending. Whole July 560-page accounting, cover and standalone closeout remain pending.
+Its GNU continuation completes in batch 14 below; original opening evidence remains unchanged.
+
+July batch 14 preserves GNU continuation PDF 303–308/printed 292–297 as a
+second immutable native. All 253 selected/independent/fresh-process files match:
+64 exact crops, 60 OCR outcomes, 58 blocks, 781 reading rows and 4,559 current
+text ranges, plus one original earlier-native boundary context. The independent
+GPL preamble, eight utility contexts and two local joins remain. Four original
+directory panels retain 638 rows, 1,276 data cells, 32 header cells and twelve
+repeated program names as separate occurrences. All 43 invalid cases reject.
+Two pre-OCR maps, one timed source pass, zero retries or within/post-pass source
+changes. A retained first export's language-provenance note was corrected in a
+metadata revision: sixteen English directory regions and 44 Korean-plus-English
+regions; source/OCR/text unchanged. All 6,064 earlier July files and thirty core
+modules remain exact; the unchanged 214-test batch-08 baseline is reused.
+Totals remain two readable, one partial, fourteen references and 86 unresolved.
+Next: GNU 309–314, completing directory 309–310 and preserving fontutils prose
+304→310 below its final panel, then inspecting the Part1/Part2 transition.
+Incoming gzip 302→304 across GPL303 remains pending actual assembly. Natives now
+preserve 297–308; remaining 309–330, full assembly, children 0018–0020 and whole
+July 560-page accounting, cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
