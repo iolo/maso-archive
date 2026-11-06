@@ -1,5 +1,55 @@
 # Progress
 
+## 2026-11-06 — March page accounting advances to 465 pages
+
+Batch 94 completes accounting for 465 of 545 physical pages: one hundred directly
+reviewed front pages, 308 restored-body pages with preserved review bindings and
+57 pages classified from explicit earlier observations. All ninety canonical
+outcomes remain unchanged: 53 readable, zero partial, nineteen non-owning headings,
+seventeen references and 1 unresolved, FLC 0019. Humor 0089 and all six forum children
+remain complete. No article package or canonical identity changes.
+
+Direct review of PDF 81–100 finds twenty full-page advertisements: FaxMan, Samsung
+computers and monitors, Smart modems, IBM dealer promotions, PowerView, Visual C++,
+CA-Visual Objects, Video-CDs, CTL computers and motherboards, JAPAN9, a CD-ROM drive
+and PowerPC/486. The Samsung monitor advertising sequence on 84–88 retains each
+supplied panel separately. Similar images on 85/86 have different visible text;
+no deduplication, missing-text reconstruction or assumed original panel order is
+introduced. Samsung82/83 and IBM90/91 retain descriptive spread relationships.
+No printed folios are inferred and no FLC body is found in this range. The review
+start was recorded prospectively; elapsed wall time includes analysis and evidence
+reconciliation. No OCR or source correction was performed.
+
+All 445 previously completed page rows remain exactly unchanged. The 308 body-review
+bindings, 57 earlier nonbody classifications and all 530 resolved original map
+exclusions remain preserved. The exclusions still comprise 515 furniture regions,
+twelve advertisements, one publisher naming notice and two other-owner areas.
+Shared 538 retains the original reader-card/subscription boundaries and rotations.
+Giro front 539/reverse 540, unlisted public-software 186–189, game-room 190–191 and
+CD reviews 194–195 remain accounted. Rendered-only 225/226 and postcard reverse542
+remain pending; earlier observations are not expanded by inference.
+
+Five accounting files reproduce independently and in a fresh process. Seventeen
+semantic faults reject. All 76,602 earlier March files and thirty core modules
+remain exact; the unchanged 214-test baseline is reused. Current source images and
+geometry validate, and all ninety canonical outcomes and article packages remain
+unchanged. The selected prior-classification evidence is copied exactly.
+
+Current accounting: `archive/pdf/1995-03/restoration/batch-94/accounting-r01/`.
+Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-94/`.
+One hundred four final classification/accounting pins are retained. There are
+80 primary pages still unclassified; no original map-exclusion disposition remains
+pending. Earlier accounting artifacts remain immutable historical snapshots.
+
+Next inspect PDF 101–120, then finish the remaining primary-page accounting. Final
+FLC eligibility/gap disposition, cover preservation, original-adapter assembly
+revalidation and standalone JSON/assets export/rebuild with separate issue closeout
+remain required before July. No whole-PDF FLC absence, exact-glyph recovery, full
+proofreading or human acceptance is claimed.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
+The full March goal remains active. No reader rebuild or deployment.
+
 ## 2026-11-06 — March page accounting advances to 445 pages
 
 Batch 93 completes accounting for 445 of 545 physical pages: eighty directly
