@@ -1,5 +1,31 @@
 # Progress
 
+## 2026-11-07 — July hooking article and clinic group completed
+
+July batch 27 completes Windows hooking article 0030 on PDF 219–222/printed
+208–211 and classifies parent 0029 종합클리닉 as a non-owning group. Its 133 native
+files reproduce independently and in a fresh process: 35 exact crops, 30 OCR
+outcomes, 24 blocks, 224 physical rows and 989 typed occurrences validate. Eight
+sections retain four prose methods; the two-row title, author portrait, two independent
+quotations, conclusion and editorial credit keep their contexts. Five original images
+have null captions. Six local groups preserve six continuation boundaries; 156
+technical/numeric occurrences and five wrapped terms retain source positions.
+Three pre-OCR maps retain two title repairs; one source pass, zero retries and zero
+within/post-pass text changes. Printed API aliases and source anomalies remain literal.
+Five group files reproduce exactly, preserving three source crops, five direct
+children and thirteen descendants. Only child 0030 is restored; other children remain
+pending. All 59 invalid native/group cases reject. All 18,879 earlier July files,
+thirty core modules and nine frozen adapters remain exact; the unchanged 214-test
+batch-19 baseline is reused.
+Totals: ten readable articles, three groups, seventeen references and 73 unresolved
+identities, with zero partials. Next: verify and restore child 0031 윈도우즈를
+애인처럼 from saved PDF 223/printed 212, source author 권태호. Establish its actual
+extent and adjacent boundary; segment into natives if longer than six mapped pages.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-27/handoff.json`.
+
 ## 2026-11-07 — July Unicode article and forum-group completion
 
 July batch 26 completes Unicode article 0028 on PDF 215–217/printed 204–206,
