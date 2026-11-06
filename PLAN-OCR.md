@@ -37,59 +37,55 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 99 finalizes the FLC 0019 supplied-PDF gap disposition and verifies the
-preferred donated March cover. The canonical title, parent, absent individual folio
-and absent byline remain unchanged. FLC 0019 is an eligible canonical TOC leaf whose
-body remains unlocated in this supplied-PDF review. Its classification and
-availability remain unresolved, with no body owner, restored body, inferred extent
-or missing-page count. All ninety outcomes remain: 53 readable, zero partial,
-nineteen non-owning headings, seventeen references and 1 unresolved body location.
-Humor 0089 and all six forum children remain complete.
+Closeout stage 01 has rebuilt all 53 selected March article packages exactly.
+The 82 native packages reproduce from their frozen recipes, including CD-ROM
+0082 through its unchanged batch85 ownership-assignment exporter. All 21 assembled
+articles consume regenerated native inputs through their original private adapters.
+Every one of the 17,779 selected files is byte-identical to the retained originals.
+No new OCR, source correction, PDF inspection or reader work was performed.
 
-This final current-PDF outcome uses the complete 545-page accounting, all 530
-original map exclusions and 100 retained source-review records, plus batch89's
-contents/Q&A neighborhood review. Encoder flicker245, CDEG256-color247 and BMP
-palettes250–251 remain rejected substitutions. No further blind FLC search is
-queued; new identifying source evidence can reopen the gap. Structural coverage
-does not prove absolute source-wide absence or original printed omission. Earlier
-bounded dispositions and accounting artifacts remain immutable historical records.
-Reader-card/subscription boundaries on538 and giro front539/reverse 540 remain
-unchanged. Unlisted public-software186–189, game-room 190–191 and CD194–195 remain
-outside canonical article ownership.
+Source validation confirms 4,510 pixel-exact crops across 309 native page assignments,
+4,131 original OCR settings and 4,497 distinct decoded package images. The content
+order and original native metadata validate for all 53 bodies, with 379 figures
+and 277 literal display captions. One collage caption intentionally combines four
+source captions; its ordered source blocks, scans and text ranges validate exactly.
+The range audit checks 278,217 typed occurrences in 104 current/native/execution
+contexts and 124,650 projected-to-native source pairs, including explicit native
+boundary switches and all reconstructed prose/code joins. Fresh focused PDF
+regressions pass all 214 tests.
 
-The donated `covers/9503.jpg` is visually verified as the full front cover, with
-1995.3 explicitly visible. Its 472×640 RGB JPEG thumbnail uses the unchanged shared
-cover policy and exactly matches the existing global derivative. Masthead, date,
-main composition, barcode and price remain visible; source wear and the thin spine
-edge are preserved. Prior PDF1 full-cover and PDF545 clipped-wrap observations are
-reused explicitly, not counted as new page inspections. The donated original,
-global cover inventory, derivatives and evidence remain unchanged. No cover
-retouching or PDF fallback replacement is performed.
+The closeout helpers now handle this issue's recorded formats explicitly: five
+Q&A references address a complete native parent; nine domestic/overseas references
+use section-label headings. Original adapters are activated individually because
+they were written for isolated use. CD-ROM0082 retains the separate original0045
+execution context and final ownership assignment. Failed helper attempts and repair
+receipts remain preserved. No shared pipeline module or historical package changed.
 
-Six final gap/cover files reproduce independently and in a fresh process. Thirty
-rehashed invalid semantic cases are rejected. All76,921 earlier March files,
-thirty core PDF modules and336 global cover files remain exact. The unchanged
-214-test baseline is reused here; fresh focused tests are required at issue closeout.
-This checkpoint has one canonical task and one cover task, zero mapped pages,
-zero newly inspected PDF pages, zero OCR and zero source corrections.
+All 76,957 pre-closeout March files, 17,779 selected files, 336 global cover files,
+thirty core modules and twenty-one original assembly adapters remain exact.
+Ninety canonical outcomes remain: 53 readable, zero partial, nineteen non-owning
+headings, seventeen references and one eligible leaf, FLC0019, with its body
+unlocated. The final supplied-PDF gap disposition and verified donated472×640
+cover remain unchanged. All545 supplied pages and530 original exclusions are
+accounted; this does not prove original printed omission, absolute absence,
+missing extent, character-perfect recovery, full proofreading or human acceptance.
 
-Current gap/cover artifact:
-`archive/pdf/1995-03/restoration/batch-99/outcome-r01/`.
-Review, recipe, reproduction, validation and preservation:
-`archive/pdf/1995-03/restoration/batch-99/`.
-Current complete source accounting remains:
-`archive/pdf/1995-03/restoration/batch-98/accounting-r01/`.
-One hundred ten final classification/accounting evidence pins are retained.
+Closeout recipes, requirement declaration and stage evidence:
+`archive/pdf/1995-03/restoration/issue-closeout-01/`.
+Retained regenerated packages and source/range/test audit reports:
+`archive/pdf/1995-03/evidence/issue-closeout-01/`.
+Stage validation: `archive/pdf/1995-03/restoration/issue-closeout-01/stage01-validation.json`.
+Final gap/cover: `archive/pdf/1995-03/restoration/batch-99/outcome-r01/`.
+Complete source accounting: `archive/pdf/1995-03/restoration/batch-98/accounting-r01/`.
 
-Next resolve every selected native recipe and original private assembly adapter,
-rebuild the selected packages, and export/reproduce the standalone JSON/assets
-issue collection. Validate all consumer resources, source crops, raw OCR provenance,
-typed byte ranges, ownership and final gap/cover evidence. Run fresh focused PDF
-regressions and a separate requirement-by-requirement closeout audit, then update
-the handoff before July 1995. March remains in progress until these checks pass.
-No complete original recovery, exact-glyph recovery, full proofreading or human
-acceptance is claimed. See [March progress](docs/progress/9503.md).
-Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+March remains in progress. Next build and independently/fresh-process reproduce
+the portable standalone JSON/assets issue collection and evidence companions.
+Reconcile all110 classification pins, seventeen parent anchors, source accounting
+and historical statuses; validate every consumer resource and ZIP archive. Run
+semantic negative checks, then assess all twenty declared closeout requirements
+and finish the README, commands, English handoff, committed preservation and cleanup.
+July follows that separate closeout. No issue collection has yet been declared
+complete. See [March progress](docs/progress/9503.md).
 The full March goal remains active. No reader rebuild or deployment.
 
 The historical 1995 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
