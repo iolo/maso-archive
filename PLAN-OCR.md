@@ -305,10 +305,26 @@ All 1,827 parent files, 15,658 earlier July files, thirty core modules and nine
 frozen adapter files remain exact; the unchanged 214-test batch-19 baseline is
 reused. No new mapping, OCR or source correction. Totals: three readable parents,
 zero partials, seventeen references and 83 unresolved.
-Next: locate and verify editorial 0021 from canonical printed 143, then continue
-the remaining July entries within the two-task/six-mapped/twenty-lookup limits.
+Its editorial and reader-letter continuation completes in batch 22 below.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOC scans remain explicit.
+
+July batch 22 completes editorial 0021 on PDF 154/printed 143 and reader letters
+0022 on PDF 155–156/printed 144–145. Their 223 selected/independent/fresh-process
+files match: 60 exact crops, 49 OCR outcomes, 38 blocks, 218 physical rows and 897
+current typed ranges. Eleven original images have no invented captions.
+Seven editorial paragraphs, seven independent letters and credits, the invitation
+and four-paragraph editorial reply retain their contexts. Eight local groups
+preserve eleven boundaries, including the fourth letter's 155→156 continuation.
+Three retained pre-OCR maps/eleven adjustments, one timed source pass, zero retries,
+zero within/post-pass text revisions and zero post-OCR crop changes.
+All 48 invalid cases reject;15,691 earlier July files, thirty core modules and nine
+frozen adapters remain exact. The unchanged 214-test batch 19 baseline is reused.
+Totals: five readable articles, zero partials, seventeen references and 81 unresolved.
+Next: verify pageless group 0023 컬럼 마소쉘 and child 0024 가정용 컴퓨터,
+structurally located on PDF 157–158, within the two-task/six-mapped/twenty-lookup limits.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs remain explicit; probe 4 was advertising, not TOC evidence.
 
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial

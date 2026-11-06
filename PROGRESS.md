@@ -1,5 +1,26 @@
 # Progress
 
+## 2026-11-07 — July editorial and reader letters restored
+
+July batch 22 completes editorial 0021 on PDF 154/printed 143 and reader letters
+0022 on PDF 155–156/printed 144–145. Their 223 selected/independent/fresh-process
+files match: 60 exact crops, 49 OCR outcomes, 38 blocks, 218 physical rows and 897
+current typed ranges. Eleven original images have no invented captions.
+Seven editorial paragraphs, seven independent letters and credits, the invitation
+and four-paragraph editorial reply retain their contexts. Eight local groups
+preserve eleven boundaries, including the fourth letter's 155→156 continuation.
+Three retained pre-OCR maps/eleven adjustments, one timed source pass, zero retries,
+zero within/post-pass text revisions and zero post-OCR crop changes.
+All 48 invalid cases reject;15,691 earlier July files, thirty core modules and nine
+frozen adapters remain exact. The unchanged 214-test batch 19 baseline is reused.
+Totals: five readable articles, zero partials, seventeen references and 81 unresolved.
+Next: verify pageless group 0023 컬럼 마소쉘 and child 0024 가정용 컴퓨터,
+structurally located on PDF 157–158, within the two-task/six-mapped/twenty-lookup limits.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs remain explicit; probe 4 was advertising, not TOC evidence.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-22/handoff.json`.
+
 ## 2026-11-07 — All July GNU section references finalized
 
 July batch 21 finalizes GNU Part 3 child 0020 on PDF 327–330/printed 316–319

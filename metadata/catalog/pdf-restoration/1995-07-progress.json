@@ -3185,23 +3185,107 @@
       "toc_entry_id": "maso-1995-07-toc-0021",
       "title": "편집자 노트",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch22 source review locates complete editorial on PDF154/printed143 and complete reader letters on PDF155–156/printed144–145. Prior153 is scanner advertising;157 starts independent 가정용 컴퓨터. No cross-article join or inferred global folio offset.",
+        "Source editorial title 정보는 전인류의 쉐어웨어 and credit 박은숙 (편집장) remain separate from canonical title and null byline; seven paragraphs and original vertical artwork retained.",
+        "45 files reproduce independently and in a fresh process; 10 pixel-exact crops, 9 OCR outcomes, 169 typed ranges and 41 rows validate. 20 invalid cases reject.",
+        "All49 initial drafts read before one timed source correction pass; three retained pre-OCR maps/eleven adjustments, zero retries, zero within/post-pass text revisions and no post-OCR crop changes. Printed anomalies and uncertain punctuation remain source-linked.",
+        "All15,691 earlier July files, thirty core modules and nine frozen adapters unchanged; unchanged214-test batch19 baseline reused. Two canonical tasks, three mapped pages and four outside lookups. Probe4 is advertising and gives no TOC verification. Incomplete donated TOCs remain a limit."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-22-r01/editorial",
+        "article_id": "scan-maso-1995-07-toc-0021",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-22-r01/editorial/manifest.json",
+          "sha256": "2c8e21e9db3b42b540b4b335494ed9038b2411c1ead4eee694019b8e8e214f4c",
+          "bytes": 7199
+        },
+        "coverage": {
+          "pdf_pages": [
+            154
+          ],
+          "printed_pages": [
+            "143"
+          ],
+          "regions": 10,
+          "blocks": 9,
+          "figures": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 154,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-22/validation.json",
+          "sha256": "4374f7faef45bfb48029710e2dff03663f45d77193923b3a0a3d0a4d37a7c1fd",
+          "bytes": 2651
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-22/reproduction.json",
+          "sha256": "25f1a52d1dbab50c41b1ec7b25ad6b882c7a1728d683c4f3bfb0d1b312ff04a4",
+          "bytes": 42576
+        },
+        "checkpoint": "batch-22"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0022",
       "title": "독자의 소리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch22 source review locates complete editorial on PDF154/printed143 and complete reader letters on PDF155–156/printed144–145. Prior153 is scanner advertising;157 starts independent 가정용 컴퓨터. No cross-article join or inferred global folio offset.",
+        "Seven independent reader letters retain headings, separate author/address credits and original markers. Fourth letter continues155→156; invitation155 and four-paragraph editorial reply156 remain independent, with original June cover and ending emblem. Eight local groups preserve eleven boundaries.",
+        "178 files reproduce independently and in a fresh process; 50 pixel-exact crops, 40 OCR outcomes, 728 typed ranges and 177 rows validate. 28 invalid cases reject.",
+        "All49 initial drafts read before one timed source correction pass; three retained pre-OCR maps/eleven adjustments, zero retries, zero within/post-pass text revisions and no post-OCR crop changes. Printed anomalies and uncertain punctuation remain source-linked.",
+        "All15,691 earlier July files, thirty core modules and nine frozen adapters unchanged; unchanged214-test batch19 baseline reused. Two canonical tasks, three mapped pages and four outside lookups. Probe4 is advertising and gives no TOC verification. Incomplete donated TOCs remain a limit."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-22-r01/letters",
+        "article_id": "scan-maso-1995-07-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-22-r01/letters/manifest.json",
+          "sha256": "97a18f9c8f3c212d69c2b45e4fa39034f0db3b162c4d8545351ba586be070aa9",
+          "bytes": 29022
+        },
+        "coverage": {
+          "pdf_pages": [
+            155,
+            156
+          ],
+          "printed_pages": [
+            "144",
+            "145"
+          ],
+          "regions": 50,
+          "blocks": 29,
+          "figures": 10,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 156,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-22/validation.json",
+          "sha256": "4374f7faef45bfb48029710e2dff03663f45d77193923b3a0a3d0a4d37a7c1fd",
+          "bytes": 2651
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-22/reproduction.json",
+          "sha256": "25f1a52d1dbab50c41b1ec7b25ad6b882c7a1728d683c4f3bfb0d1b312ff04a4",
+          "bytes": 42576
+        },
+        "checkpoint": "batch-22"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0023",
@@ -4882,22 +4966,59 @@
         "sha256": "c375b76808c05b6214e689fd5b0d1a8ac3e8ac5c844098a852fd8403816a2709",
         "bytes": 1311
       }
+    },
+    {
+      "name": "1995-07-batch-22",
+      "status": "complete",
+      "completed_at": "2026-11-06T15:41:17.928244+00:00",
+      "goal": "Restore complete editorial0021 and reader letters0022 while preserving independent source contexts.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0021",
+        "maso-1995-07-toc-0022"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        154,
+        155,
+        156
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        4,
+        153,
+        157,
+        158
+      ],
+      "recognition_invocations": 49,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-22/validation.json",
+        "sha256": "4374f7faef45bfb48029710e2dff03663f45d77193923b3a0a3d0a4d37a7c1fd",
+        "bytes": 2651
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-22/reproduction.json",
+        "sha256": "25f1a52d1dbab50c41b1ec7b25ad6b882c7a1728d683c4f3bfb0d1b312ff04a4",
+        "bytes": 42576
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 3,
+    "readable": 5,
     "partial": 0,
     "group_headings": 0,
     "section_references": 17,
-    "unresolved": 83
+    "unresolved": 81
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Locate and verify editorial 0021 from canonical printed143, including actual PDF start/end, source title/credit and adjacent pages. Then inspect the next canonical entry within the two-task/six-mapped/twenty-lookup limits; do not infer a global folio offset. Restore eligible bodies through mapped Tesseract and one source correction pass. All three GNU children 0018–0020 are final references into complete parent0017; retain batch20/batch21 sidecars and complete family partition. Continue all remaining July entries,560-page accounting,cover and separate standalone JSON/assets closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Verify pageless group0023 컬럼 마소쉘 and child0024 가정용 컴퓨터 from canonical printed146. Saved structural evidence locates the child on PDF157–158/printed146–147; verify both full pages and following boundary before mapping. Resolve the group from canonical hierarchy and source banners/available TOC evidence without inventing a standalone page or duplicate body. At most two canonical tasks,six mapped pages,twenty outside lookups. Preserve all earlier immutable packages and29 classification pins. Continue remaining July entries,560-page accounting,cover and separate standalone JSON/assets closeout; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
