@@ -1,5 +1,24 @@
 # Progress
 
+## 2026-11-06 — July VRML and Windows NT references complete
+
+July batch 09 finalizes VRML 0009 and boxed Windows NT 0010 as non-owning
+references into complete overseas 0007. Both are complete on PDF 178/printed 167.
+VRML retains five prose regions, four boundaries, two screenshots and one shared
+caption; NT retains its separate title and two body paragraphs without an image.
+Two historical web addresses keep their physical wrapping, and the printed name
+`Marc Andressen` remains unchanged. Parent banners and neighboring items are excluded.
+Four classification files reproduce independently and in a fresh process. All 30
+typed ranges, 12 regions and six blocks validate; all 29 invalid cases reject.
+All 5,332 earlier July files, 451 parent files and thirty core modules remain exact;
+the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction.
+External dispositions retain final overseas children 0008–0010 and six pending
+children. Totals: two readable, zero partials, eight references and 93 unresolved.
+Next: children 0011/0012 (expanded IDE and Novell Nest on PDF 179), then 0013–0016.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-09/handoff.json`.
+
 ## 2026-11-06 — July overseas parent and MSN reference complete
 
 July batch 08 actually assembles complete overseas 0007 across PDF 177–184:

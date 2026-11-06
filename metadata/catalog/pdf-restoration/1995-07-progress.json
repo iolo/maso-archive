@@ -1025,23 +1025,97 @@
       "toc_entry_id": "maso-1995-07-toc-0009",
       "title": "인터넷에 3D 바람 분다",
       "parent_id": "maso-1995-07-toc-0007",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 09 verifies contents page 5 and complete PDF 178/printed 167 scopes as non-owning references into assembled Overseas Network 0007. Canonical titles, parent, null folios and bylines remain unchanged; no duplicate child bodies.",
+        "VRML 0009 retains its title, deck, five prose regions, four boundaries, two screenshots and one shared caption. The two historical addresses retain physical wrapping. Windows NT 0010 remains a separate pink box with title and two body paragraphs, no image or caption. Repeated banners, MSN 177 and IDE 179 are excluded. The source spelling Marc Andressen and historical claims remain literal and unverified.",
+        "Four selected/independent/fresh-process classification files match. All 30 typed ranges, 12 regions, six blocks, four continuations, two historical addresses, two screenshots and one shared caption validate; 29 invalid cases reject. All 5,332 earlier July files, 451 parent files and 30 core modules remain unchanged; the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction. Cumulative disposition retains final 0008–0010; six overseas children remain pending."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0007",
+      "section": {
+        "anchor": "a-vrml-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 178
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0007",
+        "directory": "archive/pdf/1995-07/packages/article-overseas-r01",
+        "anchor": "a-vrml-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 178,
+        "source_heading_printed_page": "167",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-overseas-r01/manifest.json",
+          "sha256": "a7d81cabc03d6b2426cccaba564bd2f12f56d1d8fa86bfea951a25f8e115d143",
+          "bytes": 79734
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-09-r01/child-0009-anchor.json",
+          "sha256": "c4b03bf3904af84b2f88d318c1f8f12dde7725d02ccae5c07b7fc4038fed25d1",
+          "bytes": 32430
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-09/validation.json",
+          "sha256": "7b798eb60963b224cf33ffc29a52f33914e4dce75a12b537543e76d8a1597441",
+          "bytes": 1607
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0010",
       "title": "윈도우즈 NT, 인터넷 플랫폼으로 등장 예고",
       "parent_id": "maso-1995-07-toc-0007",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 09 verifies contents page 5 and complete PDF 178/printed 167 scopes as non-owning references into assembled Overseas Network 0007. Canonical titles, parent, null folios and bylines remain unchanged; no duplicate child bodies.",
+        "VRML 0009 retains its title, deck, five prose regions, four boundaries, two screenshots and one shared caption. The two historical addresses retain physical wrapping. Windows NT 0010 remains a separate pink box with title and two body paragraphs, no image or caption. Repeated banners, MSN 177 and IDE 179 are excluded. The source spelling Marc Andressen and historical claims remain literal and unverified.",
+        "Four selected/independent/fresh-process classification files match. All 30 typed ranges, 12 regions, six blocks, four continuations, two historical addresses, two screenshots and one shared caption validate; 29 invalid cases reject. All 5,332 earlier July files, 451 parent files and 30 core modules remain unchanged; the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction. Cumulative disposition retains final 0008–0010; six overseas children remain pending."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0007",
+      "section": {
+        "anchor": "a-nt-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 178
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0007",
+        "directory": "archive/pdf/1995-07/packages/article-overseas-r01",
+        "anchor": "a-nt-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 178,
+        "source_heading_printed_page": "167",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-overseas-r01/manifest.json",
+          "sha256": "a7d81cabc03d6b2426cccaba564bd2f12f56d1d8fa86bfea951a25f8e115d143",
+          "bytes": 79734
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-09-r01/child-0010-anchor.json",
+          "sha256": "9adec4c8234fdf0b0f290c81ca0f0eb92ba2e6604709c7f3f16c453c56f98d50",
+          "bytes": 12932
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-09/validation.json",
+          "sha256": "7b798eb60963b224cf33ffc29a52f33914e4dce75a12b537543e76d8a1597441",
+          "bytes": 1607
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0011",
@@ -2360,6 +2434,39 @@
         "sha256": "d8604adba893a20c8cc154333dcf55f2cc1fa51f0ea9e8e430086ece2d2c2975",
         "bytes": 987
       }
+    },
+    {
+      "name": "1995-07-batch-09",
+      "status": "complete",
+      "completed_at": "2026-11-06T11:48:06.241285+00:00",
+      "goal": "Finalize VRML 0009 and Windows NT 0010 as non-owning references.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0009",
+        "maso-1995-07-toc-0010"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        5,
+        177,
+        178,
+        179
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-09/validation.json",
+        "sha256": "7b798eb60963b224cf33ffc29a52f33914e4dce75a12b537543e76d8a1597441",
+        "bytes": 1607
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-09/reproduction.json",
+        "sha256": "6d29dc513c609e368fcff0fdecb285a29990f660f59ea8486518c043ea075605",
+        "bytes": 1115
+      }
     }
   ],
   "totals": {
@@ -2367,15 +2474,15 @@
     "readable": 2,
     "partial": 0,
     "group_headings": 0,
-    "section_references": 6,
-    "unresolved": 95
+    "section_references": 8,
+    "unresolved": 93
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Finalize overseas children 0009/0010 as non-owning references into complete parent 0007: VRML and boxed Windows NT on PDF 178. Preserve their separate scopes, shared VRML caption and canonical metadata; no duplicate bodies or new OCR expected. Then classify children 0011–0016 within two-task/six-mapped/twenty-lookup limits. Continue all remaining July identities, 560-page accounting, cover and separate standalone closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Finalize overseas children 0011/0012 (expanded IDE and Novell Nest on PDF 179/printed 168) as non-owning references into complete parent 0007, preserving separate prose/image scopes and source title variants. Then classify 0013–0016. No duplicate bodies or new OCR expected for these references. Keep two-task/six-mapped/twenty-lookup limits and immutable native/parent packages. Continue all remaining July outcomes, 560-page accounting, cover and separate standalone closeout; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -2426,6 +2533,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-08-r01/parent-status-dispositions.json",
       "sha256": "e12d65e5270abb0a0f9fe78ec0cb9d22a267fe53c4b90fb1bd860e2a00149720",
       "bytes": 2011
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-09-r01/child-0009-anchor.json",
+      "sha256": "c4b03bf3904af84b2f88d318c1f8f12dde7725d02ccae5c07b7fc4038fed25d1",
+      "bytes": 32430
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-09-r01/child-0010-anchor.json",
+      "sha256": "9adec4c8234fdf0b0f290c81ca0f0eb92ba2e6604709c7f3f16c453c56f98d50",
+      "bytes": 12932
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-09-r01/parent-status-dispositions.json",
+      "sha256": "50addbd467c673392cf9a72e097625f8b3a7f2e9966de24f362d11d91a784b6a",
+      "bytes": 3056
     }
   ]
 }

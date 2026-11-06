@@ -112,10 +112,24 @@ two screenshots sharing one literal caption. Parent banners and following VRML
 are excluded; the source title discrepancy and canonical metadata remain unchanged.
 Three sidecars, 26 child typed ranges and 57 combined invalid cases validate.
 External status dispositions preserve immutable creation-time flags. Totals:
-two readable, zero partials, six references and 95 unresolved. Next: finalize
-children 0009/0010 (VRML and boxed Windows NT on PDF 178), then 0011–0016 within
-the two-task limit. Whole July 560-page accounting, cover and standalone closeout
-remain pending. Incomplete donated TOC scans remain an explicit verification limit.
+two readable, zero partials, six references and 95 unresolved at that checkpoint.
+Its next child pair completes in batch 09 below. Incomplete donated TOC scans
+remain an explicit verification limit.
+
+July batch 09 finalizes VRML 0009 and boxed Windows NT 0010 as non-owning
+references into complete overseas 0007. Both are complete on PDF 178/printed 167.
+VRML retains five prose regions, four boundaries, two screenshots and one shared
+caption; NT retains its separate title and two body paragraphs without an image.
+Two historical web addresses keep their physical wrapping, and the printed name
+`Marc Andressen` remains unchanged. Parent banners and neighboring items are excluded.
+Four classification files reproduce independently and in a fresh process. All 30
+typed ranges, 12 regions and six blocks validate; all 29 invalid cases reject.
+All 5,332 earlier July files, 451 parent files and thirty core modules remain exact;
+the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction.
+External dispositions retain final overseas children 0008–0010 and six pending
+children. Totals: two readable, zero partials, eight references and 93 unresolved.
+Next: children 0011/0012 (expanded IDE and Novell Nest on PDF 179), then 0013–0016.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
