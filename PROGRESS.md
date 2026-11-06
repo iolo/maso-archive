@@ -1,5 +1,47 @@
 # Progress
 
+## 2026-11-06 — March WordPerfect and Word reviews
+
+Batch 78 completes WordPerfect0069 on PDF180–181 / printed172–173 and
+Word0070 on PDF182–183 / printed174–175. Both canonical titles, parent links,
+null child folios and absent bylines remain unchanged. Groups0067/0068 stay
+non-owning;0071/0072 remain unresolved.
+
+All296 native files and three external status/evidence files reproduce
+independently and in fresh processes.76 pixel-exact crops,68 OCR outcomes,
+63 blocks,339 physical text rows,21 main paragraphs,eight figures/eight captions,
+eight headings,five LF joins and1,164 typed ranges validate. Eight news briefs
+remain separate from review prose: C++ news spans181/183, followed by distinct
+upgrade news on183. External links preserve context without duplicating text.
+The Word calendar screenshot/caption composite retains original pixels.
+
+There were68 initial recognitions,zero retries,one correction pass and33 pre-OCR
+refinements across five maps;no within/post-pass text repairs.42 native and14
+status/ownership faults reject. One verification-harness scope error was repaired
+in a retained new script without changing exports. All66,276 prior March files
+and thirty core modules remain exact;the unchanged214-test baseline is reused.
+Literal disk-space discrepancies,source wording and historic Hangul-brand
+approximation remain explicit. Exact glyphs,encoded bytes,historical claims,
+full proofreading and human acceptance remain unverified.
+
+Packages: `archive/pdf/1995-03/packages/batch-78-r01/`.
+Current status/sidebar links: `archive/pdf/1995-03/classifications/batch-78-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-78/`.
+Eighty-two final classification/accounting evidence pins are retained. Totals are
+36 readable,zero partial,sixteen non-owning headings,seventeen references and
+21 unresolved.
+
+Next inspect185 and verify source-title 쏘스통2.0 / canonical 소스통0071 on184
+and Morph0072 on185 against public-software186,then restore both if complete.
+Keep public-software186–189 and game-room190–191 outside extraction,with final
+page accounting retained. CD-title0073/hardware0076 ownership and book/price
+extents remain pending;additional briefs195 are not automatically excluded.
+FLC0019 awaits bounded lookup or issue accounting.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+The full March goal remains active through all remaining outcomes,545-page
+accounting,cover and separate issue closeout before July.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March library and commercial headings
 
 Batch 77 classifies library0067 and commercial0068 as non-owning headings.

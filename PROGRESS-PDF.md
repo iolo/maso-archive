@@ -11,48 +11,53 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have thirty-four readable articles, zero partial, sixteen non-owning headings,
-seventeen section references and 23 unresolved outcomes; July
+identities now have thirty-six readable articles, zero partial, sixteen non-owning headings,
+seventeen section references and 21 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 77 classifies library0067 and commercial0068 as non-owning headings.
-Contents and repeated source banners organize distinct product reviews; neither
-heading owns a duplicate body. The canonical library folio remains null and
-commercial remains172. All descendant outcomes, titles and hierarchy are preserved.
+Batch 78 completes WordPerfect0069 on PDF180–181 / printed172–173 and
+Word0070 on PDF182–183 / printed174–175. Both canonical titles, parent links,
+null child folios and absent bylines remain unchanged. Groups0067/0068 stay
+non-owning;0071/0072 remain unresolved.
 
-Twenty complete source pages were inspected without mapping, OCR or corrections.
-Five evidence/classification files reproduce independently and in a fresh process;
-twelve ownership and accounting faults reject. All 66,226 prior March files and
-thirty core modules remain exact; the unchanged 214-test baseline is reused.
-The external group0055 disposition now records library0067 as a group while
-preserving domestic0056 and overseas0062 as readable. Original records remain exact.
+All296 native files and three external status/evidence files reproduce
+independently and in fresh processes.76 pixel-exact crops,68 OCR outcomes,
+63 blocks,339 physical text rows,21 main paragraphs,eight figures/eight captions,
+eight headings,five LF joins and1,164 typed ranges validate. Eight news briefs
+remain separate from review prose: C++ news spans181/183, followed by distinct
+upgrade news on183. External links preserve context without duplicating text.
+The Word calendar screenshot/caption composite retains original pixels.
 
-Public-software186–189 contains eight unlisted reviews; game-room190–191 contains
-five. Keep these outside the canonical extraction queue and retain their evidence
-for final page accounting. Additional CD-title briefs195 await0073 ownership review.
-The Word upgrade-news sidebar183 and bottom advertisement202 remain distinct.
-Library banners continue through206; its final extent is not yet established.
+There were68 initial recognitions,zero retries,one correction pass and33 pre-OCR
+refinements across five maps;no within/post-pass text repairs.42 native and14
+status/ownership faults reject. One verification-harness scope error was repaired
+in a retained new script without changing exports. All66,276 prior March files
+and thirty core modules remain exact;the unchanged214-test baseline is reused.
+Literal disk-space discrepancies,source wording and historic Hangul-brand
+approximation remain explicit. Exact glyphs,encoded bytes,historical claims,
+full proofreading and human acceptance remain unverified.
 
-Current classifications: `archive/pdf/1995-03/classifications/batch-77-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-77/`.
-Eighty final classification/accounting evidence pins are retained. Totals are
-34 readable, zero partial, sixteen non-owning headings, seventeen references and
-23 unresolved. No new article body is counted in this classification checkpoint.
+Packages: `archive/pdf/1995-03/packages/batch-78-r01/`.
+Current status/sidebar links: `archive/pdf/1995-03/classifications/batch-78-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-78/`.
+Eighty-two final classification/accounting evidence pins are retained. Totals are
+36 readable,zero partial,sixteen non-owning headings,seventeen references and
+21 unresolved.
 
-Next inspect missing181 and verify WordPerfect0069 from180 before Word0070 on
-182–183, then restore both within the two-task/six-page bounds if complete.
-Preserve the separate upgrade sidebar and source title variants.185 remains
-unreviewed for Morph0072; title0073, hardware0076 and book/price extents remain pending.
+Next inspect185 and verify source-title 쏘스통2.0 / canonical 소스통0071 on184
+and Morph0072 on185 against public-software186,then restore both if complete.
+Keep public-software186–189 and game-room190–191 outside extraction,with final
+page accounting retained. CD-title0073/hardware0076 ownership and book/price
+extents remain pending;additional briefs195 are not automatically excluded.
 FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-The full March goal remains active through all remaining outcomes, 545-page
-accounting, cover and separate issue closeout before July. Exact glyphs, source
-bytes, historical claims, full proofreading and human acceptance remain unverified.
+The full March goal remains active through all remaining outcomes,545-page
+accounting,cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
