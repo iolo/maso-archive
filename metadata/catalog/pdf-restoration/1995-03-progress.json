@@ -5429,23 +5429,73 @@
       "toc_entry_id": "maso-1995-03-toc-0067",
       "title": "마소 열람실",
       "parent_id": "maso-1995-03-toc-0055",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 groups six canonical subsections. Repeated library banner on commercial, public-software, game-room, CD-title, hardware, book and price pages organizes distinct bodies. No separate library prose or standalone divider is present at the opening180. The library heading owns neither a duplicate bundle nor descendant text. Full physical section extent remains unconfirmed.",
+        "Batch77 inspects twenty source pages and finalizes only0067/0068. Canonical titles, hierarchy, null library folio and commercial172 remain unchanged; descendants retain unresolved outcomes.",
+        "Eight public-software briefs on186–189 and five game-room reviews on190–191 are unlisted and outside the extraction queue. Retain their source evidence for final page accounting. Additional CD-title briefs on195 remain pending section ownership; Word upgrade sidebar183 and advertisement202 remain distinct.",
+        "Five files reproduce independently and in a fresh process; twelve ownership/accounting faults reject. No mapping, OCR or source corrections. All 66226 prior files and thirty core modules remain exact;214-test baseline reused."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1995-03/classifications/batch-77-r01/group-0067.json",
+          "sha256": "419856accff566a0982bc8d526d7bd86b8b8d0120bcf204ba1e0e1586d2545ff",
+          "bytes": 3849
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-77/validation.json",
+          "sha256": "bd37ed4063bc744ac3273906561739112a1ca34d5d33019bc9e06b9adee42bb4",
+          "bytes": 1614
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false,
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-77/reproduction.json",
+          "sha256": "e6cf652557c6cb3e2e3481149e5f8f9539e5de95b755bdcd16d01789ab5765e2",
+          "bytes": 1266
+        },
+        "checkpoint": "batch-77"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0068",
       "title": "상용 소프트웨어",
       "parent_id": "maso-1995-03-toc-0067",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents5 lists four product reviews below commercial172. Repeated commercial banner on180,182–184 is followed by independent review titles, decks, prose, images and product metadata. Public-software banner186 starts a distinct unlisted subsection. Commercial is a non-owning heading; individual canonical reviews remain unresolved until complete source mapping and restoration.",
+        "Batch77 inspects twenty source pages and finalizes only0067/0068. Canonical titles, hierarchy, null library folio and commercial172 remain unchanged; descendants retain unresolved outcomes.",
+        "Eight public-software briefs on186–189 and five game-room reviews on190–191 are unlisted and outside the extraction queue. Retain their source evidence for final page accounting. Additional CD-title briefs on195 remain pending section ownership; Word upgrade sidebar183 and advertisement202 remain distinct.",
+        "Five files reproduce independently and in a fresh process; twelve ownership/accounting faults reject. No mapping, OCR or source corrections. All 66226 prior files and thirty core modules remain exact;214-test baseline reused."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1995-03/classifications/batch-77-r01/group-0068.json",
+          "sha256": "cd222bd01e6f8a1df91ce7d8d83099fa976772768a290c948325e41849f24cd9",
+          "bytes": 3306
+        },
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-77/validation.json",
+          "sha256": "bd37ed4063bc744ac3273906561739112a1ca34d5d33019bc9e06b9adee42bb4",
+          "bytes": 1614
+        },
+        "canonical_page_reference": "172",
+        "owns_standalone_body": false,
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-77/reproduction.json",
+          "sha256": "e6cf652557c6cb3e2e3481149e5f8f9539e5de95b755bdcd16d01789ab5765e2",
+          "bytes": 1266
+        },
+        "checkpoint": "batch-77"
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0069",
@@ -8567,22 +8617,71 @@
         "sha256": "069d1d49d8e901ab348f2d911f2cb019c3fe4484c866344e7fd89106b85d83c7",
         "bytes": 957
       }
+    },
+    {
+      "name": "1995-03-batch-77",
+      "status": "complete",
+      "completed_at": "2026-11-06T01:01:51.500443+00:00",
+      "goal": "Finalize library0067 and commercial0068 as non-owning groups with source accounting followups.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0067",
+        "maso-1995-03-toc-0068"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        5,
+        179,
+        180,
+        182,
+        183,
+        184,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        195,
+        196,
+        199,
+        200,
+        202,
+        204,
+        206
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-77/validation.json",
+        "sha256": "bd37ed4063bc744ac3273906561739112a1ca34d5d33019bc9e06b9adee42bb4",
+        "bytes": 1614
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-77/reproduction.json",
+        "sha256": "e6cf652557c6cb3e2e3481149e5f8f9539e5de95b755bdcd16d01789ab5765e2",
+        "bytes": 1266
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
     "readable": 34,
     "partial": 0,
-    "group_headings": 14,
+    "group_headings": 16,
     "section_references": 17,
-    "unresolved": 25
+    "unresolved": 23
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Establish library0067 andits commercial0068,title0073 andhardware0076 section ownership fromPDF180/printed172 in bounded checkpoints. Inspect actual boundaries andwhole source extents before mapping;preserve distinct reviews,images,captions,contacts andsource titles. Retain completed overseas0062/all0063–0066 references andnon-owning group0055 unchanged. Keep FLC0019 unresolved pending bounded lookup/accounting. Complete allMarch outcomes,545-page accounting,cover andseparate closeout beforeJuly;no reader rebuild/deployment.",
+  "next_checkpoint": "Inspect missing181 and verify WordPerfect0069 extent from180 before independent Word0070 on182–183; then restore both within two-task/six-page bounds if complete. Preserve Word upgrade-news sidebar183 separately and source title variants; do not inherit group folios.185 remains unreviewed for Morph0072. Title0073 and hardware0076 ownership and all book/price extents remain pending. Library banners continue through206, with no confirmed final extent. Keep public-software186–189 and game-room190–191 outside the canonical extraction queue and retain final page-accounting exclusions. Keep FLC0019 unresolved pending bounded lookup. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -8963,6 +9062,26 @@
       "path": "archive/pdf/1995-03/classifications/batch-76-r01/parent-status-dispositions.json",
       "sha256": "40fd1563b32af047786c0bb5440e656eccdc1ebae5af4efa390da49078a4e296",
       "bytes": 2878
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-77-r01/group-0067.json",
+      "sha256": "419856accff566a0982bc8d526d7bd86b8b8d0120bcf204ba1e0e1586d2545ff",
+      "bytes": 3849
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-77-r01/group-0068.json",
+      "sha256": "cd222bd01e6f8a1df91ce7d8d83099fa976772768a290c948325e41849f24cd9",
+      "bytes": 3306
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-77-r01/group-status-dispositions.json",
+      "sha256": "bc1da58ed5e5e2b4cc70487e69de853e909d3b7c6e2a3b8b60cbc192f602e23d",
+      "bytes": 2346
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-77-r01/source-accounting-followups.json",
+      "sha256": "4ef237bba576a853dd49553e3cc416f82d0463ee9839159310d963aae521777c",
+      "bytes": 1943
     }
   ]
 }

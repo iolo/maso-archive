@@ -37,33 +37,35 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 76 finalizes UnixWare0066, completing all four overseas child references
-0063–0066 into assembled parent0062. The UnixWare story is wholly PDF175 /
-printed167: headline, four prose paragraphs and contact. Three physical token
-wraps retain `Unix\nWare`, `Opera\ntion` and `2.\n5%`. On Technology above and
-other products on176 remain excluded. No image, caption or byline is invented.
+Batch 77 classifies library0067 and commercial0068 as non-owning headings.
+Contents and repeated source banners organize distinct product reviews; neither
+heading owns a duplicate body. The canonical library folio remains null and
+commercial remains172. All descendant outcomes, titles and hierarchy are preserved.
 
-Three classification files match independent and fresh-process exports. Eight
-typed ranges, three source regions and three blocks validate; eighteen invalid
-cases reject. The three lookup pages reuse visually reviewed source images with
-exact byte verification. No new mapping, OCR or source correction.
-All 436 parent files, 66,197 prior March files and thirty core modules remain exact;
-the unchanged 214-test baseline is reused. Canonical titles, missing folios and
-bylines remain unchanged. Cumulative status preserves the earlier IBM, AMD and
-On Technology reference pins and leaves no overseas child pending.
+Twenty complete source pages were inspected without mapping, OCR or corrections.
+Five evidence/classification files reproduce independently and in a fresh process;
+twelve ownership and accounting faults reject. All 66,226 prior March files and
+thirty core modules remain exact; the unchanged 214-test baseline is reused.
+The external group0055 disposition now records library0067 as a group while
+preserving domestic0056 and overseas0062 as readable. Original records remain exact.
 
-Complete overseas article: `archive/pdf/1995-03/packages/article-overseas-r01/`.
-Final child/family status: `archive/pdf/1995-03/classifications/batch-76-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-76/`.
-Earlier packages, classifications and group0055 remain unchanged; 76 final
-classification evidence pins are retained. Totals are thirty-four readable,
-zero partial, fourteen non-owning headings, seventeen references and 25 unresolved.
+Public-software186–189 contains eight unlisted reviews; game-room190–191 contains
+five. Keep these outside the canonical extraction queue and retain their evidence
+for final page accounting. Additional CD-title briefs195 await0073 ownership review.
+The Word upgrade-news sidebar183 and bottom advertisement202 remain distinct.
+Library banners continue through206; its final extent is not yet established.
 
-Next establish library0067 and its commercial0068, title0073 and hardware0076
-section ownership from PDF180 / printed172 in bounded checkpoints. Inspect actual
-boundaries and source extents before mapping; preserve individual review titles,
-prose, images, captions and contacts. Library book and price columns0079–0081 also
-remain queued. FLC0019 awaits bounded lookup or issue accounting.
+Current classifications: `archive/pdf/1995-03/classifications/batch-77-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-77/`.
+Eighty final classification/accounting evidence pins are retained. Totals are
+34 readable, zero partial, sixteen non-owning headings, seventeen references and
+23 unresolved. No new article body is counted in this classification checkpoint.
+
+Next inspect missing181 and verify WordPerfect0069 from180 before Word0070 on
+182–183, then restore both within the two-task/six-page bounds if complete.
+Preserve the separate upgrade sidebar and source title variants.185 remains
+unreviewed for Morph0072; title0073, hardware0076 and book/price extents remain pending.
+FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page

@@ -1,5 +1,42 @@
 # Progress
 
+## 2026-11-06 — March library and commercial headings
+
+Batch 77 classifies library0067 and commercial0068 as non-owning headings.
+Contents and repeated source banners organize distinct product reviews; neither
+heading owns a duplicate body. The canonical library folio remains null and
+commercial remains172. All descendant outcomes, titles and hierarchy are preserved.
+
+Twenty complete source pages were inspected without mapping, OCR or corrections.
+Five evidence/classification files reproduce independently and in a fresh process;
+twelve ownership and accounting faults reject. All 66,226 prior March files and
+thirty core modules remain exact; the unchanged 214-test baseline is reused.
+The external group0055 disposition now records library0067 as a group while
+preserving domestic0056 and overseas0062 as readable. Original records remain exact.
+
+Public-software186–189 contains eight unlisted reviews; game-room190–191 contains
+five. Keep these outside the canonical extraction queue and retain their evidence
+for final page accounting. Additional CD-title briefs195 await0073 ownership review.
+The Word upgrade-news sidebar183 and bottom advertisement202 remain distinct.
+Library banners continue through206; its final extent is not yet established.
+
+Current classifications: `archive/pdf/1995-03/classifications/batch-77-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-77/`.
+Eighty final classification/accounting evidence pins are retained. Totals are
+34 readable, zero partial, sixteen non-owning headings, seventeen references and
+23 unresolved. No new article body is counted in this classification checkpoint.
+
+Next inspect missing181 and verify WordPerfect0069 from180 before Word0070 on
+182–183, then restore both within the two-task/six-page bounds if complete.
+Preserve the separate upgrade sidebar and source title variants.185 remains
+unreviewed for Morph0072; title0073, hardware0076 and book/price extents remain pending.
+FLC0019 awaits bounded lookup or issue accounting.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July. Exact glyphs, source
+bytes, historical claims, full proofreading and human acceptance remain unverified.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March overseas family complete
 
 - Batch 76 finalizes UnixWare0066 wholly175/167, completing all four overseas
