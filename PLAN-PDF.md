@@ -763,12 +763,42 @@ All 31,097 earlier July files, thirty core modules, ten frozen adapters
 and 51 earlier classification pins remain exact. The unchanged 214-test baseline
 is reused; four new pins bring the classification evidence list to 55.
 Totals: twenty readable articles, zero partials, six groups, seventeen references
-and 60 unresolved identities. Next: verify game-programming 0045's complete extent,
-restore its opening within six mapped pages, and classify parent 원리구현 0044 as
-the second task. Longer coverage requires separate natives and actual assembly.
+and 60 unresolved identities at that checkpoint. Its game opening and parent
+classification are completed by batch 39 below; final pages and assembly remain separate.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical technical behavior remain explicit limits.
+
+July batch 39 preserves game-programming 0045 opening PDF 333–338/printed
+322–327 as an immutable partial native. Its full extent is verified as 333–340;
+final 339–340 and separate actual assembly remain required. The title
+게임다운 게임 프로그래밍, series 게임 제작의 모든 것 and source author
+김경만(Ablex 3팀 게임 기획 담당) retain their distinct source roles.
+All 237 selected files match independent and fresh-process exports: sixty exact
+crops, 56 OCR outcomes, 45 blocks, 426 reading rows and 4,022 typed ranges validate.
+Four original visuals retain one literal caption. Seven series rows, five diagram
+labels and eight sections retain context. Nine code blocks preserve twelve physical
+regions, 225 rows, thirteen blank rows, seven Korean comments and five omission rows.
+Nine internal joins retain eleven boundaries. DisplaySprite ends mid-expression
+at 338→339; no continuation or executable syntax is invented. Printed bracket
+shapes, comma-separated case labels, DIsplay_FLI, a dot before an opening bracket,
+0x80 and differing identifier cases remain literal.
+All 56 drafts were read before one prospective source pass. Two pre-OCR maps retain
+56 margin adjustments; the opening paragraph separator preserves its earlier layout.
+Zero retries, within-pass text refinements, post-pass changes or post-OCR crop changes.
+Parent 원리구현 0044 is classified as non-owning, with two direct children and five
+descendants. Four classification files reproduce independently and in a fresh process;
+two exact banner crops reuse the mapped pages. Its null folio and original hierarchy
+remain unchanged. Family 0046–0049 remains unresolved. All 49 invalid cases reject.
+All 31,144 earlier July files, thirty core modules, ten frozen adapters
+and 55 earlier classification pins remain exact. The unchanged 214-test baseline
+is reused; two new pins bring the classification evidence list to 57.
+Totals: twenty readable articles, one partial, seven groups, seventeen references
+and 58 unresolved identities. Next: restore final game pages 339–340 as a separate
+native and verify/classify nested heading 0046 as the second task. Actual game
+assembly follows separately. Whole July 560-page accounting, cover and standalone
+closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance,
+exact source bytes and historical technical behavior remain explicit limits.
 
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
