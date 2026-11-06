@@ -5814,23 +5814,131 @@
       "toc_entry_id": "maso-1995-03-toc-0074",
       "title": "마이크로소프트 개발자 네트워크(MSDN)",
       "parent_id": "maso-1995-03-toc-0073",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 81 completes msdn on PDF 192 / individually observed printed 184. Canonical title, parent, null child folio and absent byline remain unchanged; group folio is not inherited.",
+        "All 66 native files reproduce independently and in a fresh process. Both reviews retain 36 exact crops,33 original OCR outcomes,23 blocks,193 physical rows,11 main paragraphs,three original assets containing five screenshots,four captions and ten LF continuation boundaries;715 typed ranges validate.",
+        "Seorak composite preserves three overlapping windows and printed captions without reconstructing occluded pixels. Three component captions are searchable separate blocks. MSDN lower screenshot has no invented caption. Eight product fields,three price contexts,two contacts and twelve specification occurrences retain source claims; six localized candidates remain explicit.",
+        "Thirty-three initial recognitions,zero retries,one source correction pass,two maps and zero crop/within/post-pass repairs. Forty-three native and fourteen status/ownership faults reject. Both canonical CD reviews are readable on192/193. The section continues with five independent unlisted reviews194/195,excluded from extraction but retained for final accounting.",
+        "All 67917 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Eleven frozen status fields resolve externally. Library0067 and CD-title0073 remain non-owning. Exact glyphs,encoded bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-81-r01/msdn",
+        "article_id": "scan-maso-1995-03-toc-0074",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-81-r01/msdn/manifest.json",
+          "sha256": "f21aea56319c1924a1a2fee30b9c811944a21040fe88c10065d906c2987fc71b",
+          "bytes": 10760
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-81/msdn-r01/package-recipe.json",
+          "sha256": "f2d1bf9118a21169a172b19c26254ae40deb7c0498c4491f9b362decdba826d9",
+          "bytes": 3473
+        },
+        "coverage": {
+          "pdf_pages": [
+            192
+          ],
+          "printed_pages": [
+            "184"
+          ],
+          "regions": 16,
+          "blocks": 11,
+          "figures": 2,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 192,
+        "observed_ending_pdf_page": 192,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-81/final-validation.json",
+          "sha256": "ec6e5128658f1d616946f06ede5913ac25dd1ea82b2176b9c0bd95059c4493fb",
+          "bytes": 3470
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-81/reproduction.json",
+          "sha256": "446929ed85157b9c985dbff2e5424626c27cd628d01ad67d4d0ae4d9e2adb8af",
+          "bytes": 29444
+        },
+        "checkpoint": "batch-81",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-81-r01/source-creation-dispositions.json",
+          "sha256": "c11173bd6474a7d692a0ac4fd19df3d23f3492b68aa0a1fcda78055f1960db20",
+          "bytes": 7495
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0075",
       "title": "비주얼 투어 설악 내셔널 파크",
       "parent_id": "maso-1995-03-toc-0073",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 81 completes seorak on PDF 193 / individually observed printed 185. Canonical title, parent, null child folio and absent byline remain unchanged; group folio is not inherited.",
+        "All 85 native files reproduce independently and in a fresh process. Both reviews retain 36 exact crops,33 original OCR outcomes,23 blocks,193 physical rows,11 main paragraphs,three original assets containing five screenshots,four captions and ten LF continuation boundaries;715 typed ranges validate.",
+        "Seorak composite preserves three overlapping windows and printed captions without reconstructing occluded pixels. Three component captions are searchable separate blocks. MSDN lower screenshot has no invented caption. Eight product fields,three price contexts,two contacts and twelve specification occurrences retain source claims; six localized candidates remain explicit.",
+        "Thirty-three initial recognitions,zero retries,one source correction pass,two maps and zero crop/within/post-pass repairs. Forty-three native and fourteen status/ownership faults reject. Both canonical CD reviews are readable on192/193. The section continues with five independent unlisted reviews194/195,excluded from extraction but retained for final accounting.",
+        "All 67917 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Eleven frozen status fields resolve externally. Library0067 and CD-title0073 remain non-owning. Exact glyphs,encoded bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-81-r01/seorak",
+        "article_id": "scan-maso-1995-03-toc-0075",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-81-r01/seorak/manifest.json",
+          "sha256": "829190e175071173518b1b8dc6e603bf497e8e82ac094764cb8e41a793aae5ed",
+          "bytes": 13832
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-81/seorak-r01/package-recipe.json",
+          "sha256": "1df7e829dc645923ba284ae8777a01786471b78dd8a29eebbf38c55ca91b6bdc",
+          "bytes": 3357
+        },
+        "coverage": {
+          "pdf_pages": [
+            193
+          ],
+          "printed_pages": [
+            "185"
+          ],
+          "regions": 20,
+          "blocks": 12,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 193,
+        "observed_ending_pdf_page": 193,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-81/final-validation.json",
+          "sha256": "ec6e5128658f1d616946f06ede5913ac25dd1ea82b2176b9c0bd95059c4493fb",
+          "bytes": 3470
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-81/reproduction.json",
+          "sha256": "446929ed85157b9c985dbff2e5424626c27cd628d01ad67d4d0ae4d9e2adb8af",
+          "bytes": 29444
+        },
+        "checkpoint": "batch-81",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-81-r01/source-creation-dispositions.json",
+          "sha256": "c11173bd6474a7d692a0ac4fd19df3d23f3492b68aa0a1fcda78055f1960db20",
+          "bytes": 7495
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0076",
@@ -9071,22 +9179,61 @@
         "sha256": "798b8ae38c9423ae1e5410ab644610480cc216bb8031027fb5f671856b226dfe",
         "bytes": 1266
       }
+    },
+    {
+      "name": "1995-03-batch-81",
+      "status": "complete",
+      "completed_at": "2026-11-06T01:55:47.818854+00:00",
+      "goal": "Restore complete MSDN0074 and Seorak0075; record canonical CD-title child completion externally with five unlisted exclusions.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0074",
+        "maso-1995-03-toc-0075"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        192,
+        193
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        191,
+        194
+      ],
+      "recognition_invocations": 33,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 2,
+      "pre_ocr_refinement_events": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-81/final-validation.json",
+        "sha256": "ec6e5128658f1d616946f06ede5913ac25dd1ea82b2176b9c0bd95059c4493fb",
+        "bytes": 3470
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-81/reproduction.json",
+        "sha256": "446929ed85157b9c985dbff2e5424626c27cd628d01ad67d4d0ae4d9e2adb8af",
+        "bytes": 29444
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 38,
+    "readable": 40,
     "partial": 0,
     "group_headings": 18,
     "section_references": 17,
-    "unresolved": 17
+    "unresolved": 15
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore independent MSDN0074 on PDF192 / printed184 and Seorak-tour0075 on PDF193 / printed185 within two tasks/six pages. Preserve source title/deck variants, product metadata, two MSDN screenshots and three overlapping Seorak screenshots with captions and shaped reading order; do not inherit parent folios or bylines. Then restore ShareVision0077 on196–197 and Courier0078 on198–199. Keep five unlisted CD reviews194–195 plus public-software186–189/game-room190–191 outside extraction with final page accounting. Book/price extents and FLC0019 remain pending. Complete all remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Restore ShareVision0077 on PDF196–197 / printed188–189 and Courier0078 on198–199 /190–191. Preserve hardware photos,captions,product metadata and each source continuation. Use contents5 and boundaries195/200 within two tasks/six mapped pages/twenty outside lookups. Keep unlisted CD194–195,public-software186–189 and game-room190–191 outside extraction with final page accounting. Book/price extents remain pending; FLC0019 awaits bounded lookup/accounting. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -9522,6 +9669,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-80-r01/source-accounting-followups.json",
       "sha256": "781509568281d6a748b7efd9d7988bdce07cfcb6e5e98b819a28bc08cc09820e",
       "bytes": 4013
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-81-r01/source-creation-dispositions.json",
+      "sha256": "c11173bd6474a7d692a0ac4fd19df3d23f3492b68aa0a1fcda78055f1960db20",
+      "bytes": 7495
     }
   ]
 }

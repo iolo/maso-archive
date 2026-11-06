@@ -267,45 +267,52 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 80 classifies CD-title0073 and hardware0076 as non-owning headings.
-Their repeated source banners organize independently titled reviews; neither
-heading owns a separate introduction, shared narrative or duplicate body.
-Canonical titles, parent links and folios184/188 remain unchanged. Source banners
-CD 타이틀 광장 and 하드웨어 are retained separately from canonical labels.
+Batch 81 completes MSDN0074 on PDF 192 / printed 184 and Seorak0075 on
+PDF 193 / printed 185. Canonical titles, parent links, null child folios and absent
+bylines remain unchanged. CD-title0073 stays non-owning; both canonical child
+bodies are now readable. Its physical section continues through 195, with five
+independent unlisted reviews on 194–195 excluded from canonical extraction and
+retained for final page accounting. Full physical-section transcription is not claimed.
 
-All eleven source pages (contents5 and191–200) were inspected. MSDN0074 is complete
-on192 / printed184; Seorak-tour0075 on193 / printed185. ShareVision0077 spans196–197
-/ printed188–189, and Courier0078 spans198–199 / printed190–191. These four children
-remain unresolved until mapping/restoration; no child folios or bylines are inferred.
-Five independent unlisted CD reviews occupy194–195: Computer Select, Gyeongju
-Museum, Man Enough, Thumbelina and Izeum first album. Their own titles, bodies,
-images, product metadata and separators establish independence. Keep both pages
-outside canonical extraction and retain their evidence for final page accounting.
+All 151 native files and two external evidence/status files reproduce independently
+and in fresh processes. All 36 crops are pixel-exact; 33 OCR outcomes, 23 blocks,
+193 physical rows, 11 main paragraphs, three image assets, four captions and
+715 typed ranges validate. The assets contain five screenshots: two MSDN windows
+and one original composite preserving the three overlapping Seorak windows.
+The composite retains original caption pixels and triangles; three separate
+caption blocks provide searchable text once. No occluded pixels are reconstructed,
+and the lower MSDN screenshot has no invented caption. Ten continuation boundaries
+across seven groups retain LF, including Seorak's shaped narrow columns.
 
-Five classification/evidence files reproduce independently and in a fresh process.
-Twenty ownership/accounting faults reject; six library status fields resolve
-externally. All 67,876 prior March files and thirty core modules remain exact;
-the unchanged 214-test baseline is reused. No mapping, OCR or corrections occurred.
-Library0067 and commercial0068 remain non-owning; the four commercial reviews
-remain readable. Full library extent and book/price boundaries remain pending.
+Eight product fields, three price contexts, two contacts and twelve specification
+occurrences retain source claims. Printed 정도, 천해, 에니메이티드 and the
+아틀라스/아트라스 variant are not normalized. MSDN's printed level 1 price of
+50만원 and level 2 price of 20만원 remain in that order, both excluding tax;
+Seorak's price remains 미정. Six localized candidates retain source uncertainty.
+There were 33 initial recognitions, zero retries, one correction pass, two maps
+and no crop or within/post-pass repairs. Forty-three native and fourteen status
+faults reject; eleven frozen status fields resolve externally. All 67,917 prior
+March files and thirty core modules remain exact; the unchanged 214-test baseline
+is reused. Exact glyphs, bytes, historical claims, full proofreading and human
+acceptance remain unverified.
 
-Current classifications: `archive/pdf/1995-03/classifications/batch-80-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-80/`.
-Eighty-seven final classification/accounting evidence pins are retained. Totals:
-38 readable, zero partial, eighteen non-owning headings, seventeen references and
-17 unresolved. This checkpoint adds no restored article body.
+Packages: `archive/pdf/1995-03/packages/batch-81-r01/`.
+Current CD-title status: `archive/pdf/1995-03/classifications/batch-81-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-81/`.
+Eighty-eight final classification/accounting evidence pins are retained. Totals:
+40 readable, zero partial, eighteen non-owning headings, seventeen references and
+15 unresolved.
 
-Next restore MSDN0074 on192 and Seorak-tour0075 on193. Preserve title/deck variants,
-product information, both MSDN screenshots and three overlapping Seorak screenshots
-with their captions and shaped reading order. Then restore ShareVision196–197 and
-Courier198–199. Keep unlisted CD194–195, public-software186–189 and game-room190–191
-outside extraction with final page accounting. FLC0019 awaits bounded lookup or
-issue accounting; book/price extents remain pending.
+Next restore ShareVision0077 on PDF 196–197 / printed 188–189 and Courier0078 on
+198–199 / 190–191. Preserve photos, screenshots, captions, product metadata and
+source continuations. Use contents 5 and boundaries 195/200. Keep unlisted CD194–195,
+public-software186–189 and game-room190–191 outside extraction with final page
+accounting. Book/price extents remain pending; FLC0019 awaits bounded lookup or
+issue accounting. Library0067's full extent remains unconfirmed.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
-accounting, cover and separate issue closeout before July. Exact glyphs, source
-bytes, historical claims, full proofreading and human acceptance remain unverified.
+accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 Complete both issue passes before collection aggregation and handoff in steps
