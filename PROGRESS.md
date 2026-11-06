@@ -1,5 +1,54 @@
 # Progress
 
+## 2026-11-06 — March page accounting advances to 485 pages
+
+Batch 95 completes accounting for 485 of 545 physical pages: one hundred twenty directly
+reviewed front pages, 308 restored-body pages with preserved review bindings and
+57 pages classified from explicit earlier observations. All ninety canonical
+outcomes remain unchanged: 53 readable, zero partial, nineteen non-owning headings,
+seventeen references and 1 unresolved, FLC 0019. Humor 0089 and all six forum children
+remain complete. No article package or canonical identity changes.
+
+Direct review of PDF 101–120 finds twenty full-page advertisements: PowerPC/486,
+Windows NT training, scanners, MPEG boards, color printers, controller cards,
+monitor filters, BIT training, Microsoft Home Mouse, Xter computers, HP cartridges,
+graphics hardware, PVCS, Borland tools, Q+E/DataDirect and carrying cases. Descriptive
+spread relationships remain for 100–101, 108–109, 112–113 and 114–115. The sideways
+hardware advertisement on 116 retains its supplied orientation; no article body is
+created from advertising copy. No printed folios are inferred and no FLC body is
+found in this range. The review start was recorded prospectively; elapsed wall time
+includes analysis and evidence reconciliation. No OCR or source correction occurred.
+
+All 465 previously completed page rows remain exactly unchanged. The 308 body-review
+bindings, 57 earlier nonbody classifications and all 530 resolved original map
+exclusions remain preserved. The exclusions still comprise 515 furniture regions,
+twelve advertisements, one publisher naming notice and two other-owner areas.
+Shared 538 retains the original reader-card/subscription boundaries and rotations.
+Giro front 539/reverse 540, unlisted public-software 186–189, game-room 190–191 and
+CD reviews 194–195 remain accounted. Rendered-only 225/226 and postcard reverse542
+remain pending; earlier observations are not expanded by inference.
+
+Five accounting files reproduce independently and in a fresh process. Seventeen
+semantic faults reject. All 76,665 earlier March files and thirty core modules
+remain exact; the unchanged 214-test baseline is reused. Current source images and
+geometry validate, and all ninety canonical outcomes and article packages remain
+unchanged. The selected prior-classification evidence is copied exactly.
+
+Current accounting: `archive/pdf/1995-03/restoration/batch-95/accounting-r01/`.
+Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-95/`.
+One hundred five final classification/accounting pins are retained. There are
+60 primary pages still unclassified; no original map-exclusion disposition remains
+pending. Earlier accounting artifacts remain immutable historical snapshots.
+
+Next inspect PDF 121–140, then finish the remaining primary-page accounting. Final
+FLC eligibility/gap disposition, cover preservation, original-adapter assembly
+revalidation and standalone JSON/assets export/rebuild with separate issue closeout
+remain required before July. No whole-PDF FLC absence, exact-glyph recovery, full
+proofreading or human acceptance is claimed.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
+The full March goal remains active. No reader rebuild or deployment.
+
 ## 2026-11-06 — March page accounting advances to 465 pages
 
 Batch 94 completes accounting for 465 of 545 physical pages: one hundred directly
