@@ -1,5 +1,26 @@
 # Progress
 
+## 2026-11-06 — July overseas child references complete
+
+July batch 12 finalizes HSC 0015 and KPT Convolver 0016 as two non-owning
+references to one printed notice in complete overseas 0007. Both canonical identities
+remain; exact heading components distinguish the HSC description from the KPT line.
+Their shared complete scope is PDF 181–182/printed 170–171: prose/contact on 181 and
+original Convolver screenshot/caption on 182. HP, Painter and Spry remain excluded.
+Four classification files reproduce independently and in a fresh process. All 32
+reference typed occurrences validate, sixteen per child. Unique source scope is six
+regions, four blocks, one continuation, two product fields, one contact and one
+screenshot/caption. All 33 invalid cases reject. All 5,432 earlier July files,
+451 parent files and thirty core modules remain exact; the unchanged 214-test
+batch-08 baseline is reused. No new OCR or source correction.
+All nine overseas children 0008–0016 are final, with eight distinct source anchors
+and no duplicate bodies. Totals: two readable, zero partials, fourteen references
+and 87 unresolved. Next: locate and verify GNU feature 0017 from canonical printed
+286 before mapping its first bounded segment. Whole July 560-page accounting,
+cover and standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-12/handoff.json`.
+
 ## 2026-11-06 — July privacy and Norton references complete
 
 July batch 11 finalizes privacy 0013 and Norton 0014 as non-owning references

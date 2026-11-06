@@ -144,10 +144,25 @@ typed ranges, nine regions, seven blocks, one continuation, two product fields,
 one contact and one screenshot/caption validate; 28 invalid cases reject.
 All 5,397 earlier July files, 451 parent files and thirty core modules remain exact;
 the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction.
-Totals: two readable, zero partials, twelve references and 89 unresolved. Next:
-resolve HSC/KPT children 0015/0016 from their shared heading on PDF 181 and image
-continuation on 182. Whole July 560-page accounting, cover and standalone closeout
-remain pending.
+At that checkpoint: two readable, zero partials, twelve references and 89 unresolved.
+The final HSC/KPT pair and complete overseas child dispositions finish in batch 12 below.
+
+July batch 12 finalizes HSC 0015 and KPT Convolver 0016 as two non-owning
+references to one printed notice in complete overseas 0007. Both canonical identities
+remain; exact heading components distinguish the HSC description from the KPT line.
+Their shared complete scope is PDF 181–182/printed 170–171: prose/contact on 181 and
+original Convolver screenshot/caption on 182. HP, Painter and Spry remain excluded.
+Four classification files reproduce independently and in a fresh process. All 32
+reference typed occurrences validate, sixteen per child. Unique source scope is six
+regions, four blocks, one continuation, two product fields, one contact and one
+screenshot/caption. All 33 invalid cases reject. All 5,432 earlier July files,
+451 parent files and thirty core modules remain exact; the unchanged 214-test
+batch-08 baseline is reused. No new OCR or source correction.
+All nine overseas children 0008–0016 are final, with eight distinct source anchors
+and no duplicate bodies. Totals: two readable, zero partials, fourteen references
+and 87 unresolved. Next: locate and verify GNU feature 0017 from canonical printed
+286 before mapping its first bounded segment. Whole July 560-page accounting,
+cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
