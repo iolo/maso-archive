@@ -321,10 +321,30 @@ zero within/post-pass text revisions and zero post-OCR crop changes.
 All 48 invalid cases reject;15,691 earlier July files, thirty core modules and nine
 frozen adapters remain exact. The unchanged 214-test batch 19 baseline is reused.
 Totals: five readable articles, zero partials, seventeen references and 81 unresolved.
-Next: verify pageless group 0023 컬럼 마소쉘 and child 0024 가정용 컴퓨터,
-structurally located on PDF 157–158, within the two-task/six-mapped/twenty-lookup limits.
+Its column-group and home-computer continuation completes in batch 23 below.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs remain explicit; probe 4 was advertising, not TOC evidence.
+
+July batch 23 completes home-computer child 0024 on PDF 157–158/printed 146–147
+and classifies parent 0023 컬럼 마소쉘 as a non-owning group. The 104-file native
+reproduces independently and in a fresh process: 27 exact crops, 23 OCR outcomes,
+17 blocks, 148 rows and 575 typed occurrences validate. Two section headings,
+eleven main-body paragraphs, an independent pull quote and author biography
+retain their contexts. Four original images have null captions; five local groups
+preserve six boundaries. Two pre-OCR maps/four margin adjustments, one timed
+source pass, zero retries and zero within/post-pass text revisions.
+Five group files reproduce exactly, including three source crops. Matching body
+banners and canonical hierarchy establish the group; contents 5 supplies no
+corroboration. Child 0025 is located at its opening only and remains pending.
+All 45 invalid cases reject. All 16,494 earlier July files, thirty core modules
+and nine frozen adapters remain exact; the unchanged 214-test batch-19 baseline
+is reused. Totals: six readable articles, one group, seventeen references and
+79 unresolved identities, with zero partials.
+Next: verify and restore child 0025 개똥철학 from saved PDF 159/printed 148,
+including its full extent, credit and following boundary. Preserve the group’s
+creation-time pending-child evidence; resolve that status externally when restored.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
 
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial

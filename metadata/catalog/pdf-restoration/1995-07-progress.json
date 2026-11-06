@@ -3291,23 +3291,84 @@
       "toc_entry_id": "maso-1995-07-toc-0023",
       "title": "컬럼 마소쉘",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical pageless 컬럼 마소쉘 groups two distinct articles:가정용 컴퓨터0024 and 개똥철학0025. Matching original 마소쉘 banners appear on157/146 and159/148. The first article occupies157–158,following reader letters156; no standalone group page or body is observed.",
+        "Five classification files reproduce independently and in a fresh process; three pixel-exact source crops and fourteen ownership/evidence faults validate. Canonical null page,title,parent and both child links remain unchanged. No duplicate child body or invented group folio.",
+        "Contents5 supplies no corroboration for this group; incomplete donated TOC scans remain explicit. Child0024 is restored; child0025 has only its opening,title and banner located. Its byline,extent and body restoration remain pending."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1995-07/classifications/batch-23-r01/group-0023.json",
+          "sha256": "6caf178f726d11d2015a780a9ccf6d859312d04f1ba3f9d0fab35de38ad29546",
+          "bytes": 807
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-23/group-validation.json",
+          "sha256": "c2c281120f41f018477f222b731ed9ef74361d39f5d5fe9cc2eaf675e606aa0b",
+          "bytes": 928
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0024",
       "title": "가정용 컴퓨터",
       "parent_id": "maso-1995-07-toc-0023",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch23 source review establishes complete 가정용 컴퓨터 on PDF157–158/printed146–147. Prior156 ends reader letters;159 opens independent 개똥철학. Source title and author 이영식 match canonical candidates; canonical hierarchy/byline/folios remain unchanged.",
+        "Two section headings,eleven main-body paragraphs,independent four-row pull quote and six-row biography retain distinct source roles. Drop-cap 컴 folds once. Five internal groups retain six boundaries across columns and around the independent quote/portrait. Two banners,portrait and ending emblem retain original pixels with null captions.",
+        "104 selected/independent/fresh-process files match;27 exact crops,23 OCR outcomes,17 blocks,148 rows and575 typed occurrences validate. All31 invalid cases reject. Eighteen source fields and localized glyph candidates preserve historical wording,prices,product names and source discrepancies.",
+        "All23 initial drafts read before one timed source correction pass. Two pre-OCR maps retain four margin adjustments;zero retries,zero within/post-pass text revisions and no post-OCR crop changes.",
+        "All16,494 earlier July files,thirty core modules and nine frozen adapters remain exact. The unchanged214-test batch19 baseline is reused. Two canonical tasks,two mapped pages and three outside lookups. Full issue accounting,cover and standalone closeout remain pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-23-r01/home",
+        "article_id": "scan-maso-1995-07-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-23-r01/home/manifest.json",
+          "sha256": "3256f42d830e4284fa0f4aef241e7ffd941b5a6aba3cf603ae80f0a652d804c5",
+          "bytes": 17258
+        },
+        "coverage": {
+          "pdf_pages": [
+            157,
+            158
+          ],
+          "printed_pages": [
+            "146",
+            "147"
+          ],
+          "regions": 27,
+          "blocks": 17,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 158,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-23/validation.json",
+          "sha256": "7185e6c4d9d0a28581410f5c4a6efbc0fd27678a3aca56edf18830d295ac7b0b",
+          "bytes": 1843
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-23/reproduction.json",
+          "sha256": "0d691599964c76605c8015c9641056f5770b251ea30f2a22df996c0a6abf8066",
+          "bytes": 20517
+        },
+        "checkpoint": "batch-23"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0025",
@@ -5003,22 +5064,67 @@
         "sha256": "25f1a52d1dbab50c41b1ec7b25ad6b882c7a1728d683c4f3bfb0d1b312ff04a4",
         "bytes": 42576
       }
+    },
+    {
+      "name": "1995-07-batch-23",
+      "status": "complete",
+      "completed_at": "2026-11-06T15:57:04.500222+00:00",
+      "goal": "Classify non-owning column group0023 and restore complete home-computer child0024.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0023",
+        "maso-1995-07-toc-0024"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        157,
+        158
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        156,
+        159
+      ],
+      "recognition_invocations": 23,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-23/validation.json",
+        "sha256": "7185e6c4d9d0a28581410f5c4a6efbc0fd27678a3aca56edf18830d295ac7b0b",
+        "bytes": 1843
+      },
+      "group_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-23/group-validation.json",
+        "sha256": "c2c281120f41f018477f222b731ed9ef74361d39f5d5fe9cc2eaf675e606aa0b",
+        "bytes": 928
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-23/reproduction.json",
+        "sha256": "0d691599964c76605c8015c9641056f5770b251ea30f2a22df996c0a6abf8066",
+        "bytes": 20517
+      },
+      "group_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-23/group-reproduction.json",
+        "sha256": "a91e23117bda4f073d916488b7c3be78aa5e4af1c8346519dcdc4c3e23b9a7d9",
+        "bytes": 1275
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 5,
+    "readable": 6,
     "partial": 0,
-    "group_headings": 0,
+    "group_headings": 1,
     "section_references": 17,
-    "unresolved": 81
+    "unresolved": 79
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify pageless group0023 컬럼 마소쉘 and child0024 가정용 컴퓨터 from canonical printed146. Saved structural evidence locates the child on PDF157–158/printed146–147; verify both full pages and following boundary before mapping. Resolve the group from canonical hierarchy and source banners/available TOC evidence without inventing a standalone page or duplicate body. At most two canonical tasks,six mapped pages,twenty outside lookups. Preserve all earlier immutable packages and29 classification pins. Continue remaining July entries,560-page accounting,cover and separate standalone JSON/assets closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Verify and restore next child0025 개똥철학 from canonical printed148 and saved opening PDF159. Inspect its full extent,author credit and following boundary before mapping; do not infer a global folio offset. Its parent0023 is now a final non-owning group; preserve original group evidence noting child0025 pending at creation and resolve status externally when restored. Continue remaining canonical entries within two-task/six-mapped/twenty-lookup limits,then whole July560-page accounting,cover and separate standalone JSON/assets closeout. Preserve earlier natives and31 classification evidence pins; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -5164,6 +5270,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-21-r01/family-ownership.json",
       "sha256": "5569da7d076fbcf7dfd231ac00429ed1d4b0d6aadc916e53fe388b673bf2ad4e",
       "bytes": 26756
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-23-r01/group-0023.json",
+      "sha256": "6caf178f726d11d2015a780a9ccf6d859312d04f1ba3f9d0fab35de38ad29546",
+      "bytes": 807
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-23-r01/evidence.json",
+      "sha256": "022da410230d3edf4fd4f223102110118f40f097ace804f9ad51386b7591c3a0",
+      "bytes": 7768
     }
   ]
 }
