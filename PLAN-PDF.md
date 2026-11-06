@@ -267,44 +267,39 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 72 establishes Overseas Network 0062 across PDF 172–179 / observed
-printed 164–171 and preserves opening 172–177 as immutable native a. Domestic
-news closes on 171; overseas closes on 179 before the library opening on 180.
-Trends occupies 172–174 and New Products continues through 179.
+Batch 73 preserves overseas 0062's final PDF 178–179 / observed printed
+170–171 as immutable native b. Both natives now preserve the full 172–179 extent;
+actual whole-section assembly remains pending.
 
-The opening retains eleven independent stories, a separate five-bullet AMD–Intel
-sidebar, six captioned images and six contacts. Ten continuation groups preserve
-twenty physical boundaries, including new paragraphs and split words. Thirteen
-token-wrap contexts, five source discrepancies and eleven localized candidates
-retain printed wording without technical or grammatical repair.
+The final pages retain nine independent product briefs, five captioned images,
+nine contacts and the closing MS emblem. CleanSweep's body on 178 links to its
+image on 179; ColorKey's body on 179 links to its image on 178. Five physical LF
+continuations preserve split words and the closing price. Six source discrepancies,
+eight localized candidates and three token-wrap contexts retain printed wording.
 
-All 262 package files match independent and fresh-process exports. Validation
-covers 68 pixel-exact crops, 62 original OCR outcomes, 42 blocks, 550 physical
-rows, 2,545 typed ranges and 255 exact ZIP members. Two selected ownership/status
-files reproduce exactly; thirty native and twelve ownership faults reject.
-All 64,050 prior March files and thirty core modules remain unchanged; the
-unchanged 214-test baseline is reused.
+All 166 package files match independent and fresh-process exports. Validation
+covers 44 pixel-exact crops, 38 original OCR outcomes, 33 blocks, 212 physical
+rows, 1,042 typed ranges and 159 exact ZIP members. Thirty invalid context/range
+cases reject. All 65,099 prior March files and thirty core modules remain unchanged;
+the unchanged 214-test baseline is reused.
 
-All 62 initial drafts were read before one source correction pass, with no retries
-or within/post-pass repairs. Four mapping attempts retain one pre-write validation
-failure, three completed maps and 73 pre-OCR refinement events. A Python syntax
-failure wrote no transcription. The initial ownership export's stale note and
-relative evidence path were corrected in retained revision r02; no source text changed.
+All 38 drafts were read before one source correction pass, with zero retries or
+within/post-pass repairs. Two pre-OCR maps retain one refinement event separating
+the closing price row from the MS emblem. All previous packages and classifications
+remain immutable; 68 final classification evidence pins remain unchanged.
 
-Opening overseas native: `archive/pdf/1995-03/packages/batch-72-r01/overseas-a/`.
-Selected ownership/status: `archive/pdf/1995-03/classifications/batch-72-r02/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-72/`.
-Group 0055 and all previous packages/classifications remain unchanged.
-Totals are thirty-three readable, one partial, fourteen non-owning headings,
+Final overseas native: `archive/pdf/1995-03/packages/batch-73-r01/overseas-b/`.
+Opening native: `archive/pdf/1995-03/packages/batch-72-r01/overseas-a/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-73/`.
+Totals remain thirty-three readable, one partial, fourteen non-owning headings,
 thirteen references and 29 unresolved.
 
-Next restore overseas 0062's final PDF 178–179 / observed printed 170–171 as
-native b. Preserve independent briefs and the cross-page image associations:
-ColorKey's body on 179/photo on 178 and CleanSweep's body on 178/photo on 179.
-No prose joins across 177→178. Then assemble the complete 172–179 bundle and
-finalize prospective children 0063–0066 using assembled parent anchors in bounded
-checkpoints. FLC0019 awaits bounded lookup or issue accounting.
-See [March progress](docs/progress/9503.md).
+Next assemble overseas 0062 across 172–179, retaining all twenty stories, the
+five-bullet AMD–Intel sidebar, twelve image regions, eleven captions, fifteen
+contacts and 762 physical rows. Preserve both cross-page photo associations;
+there is no prose join across 177→178. Then finalize children 0063–0066 with
+assembled anchors in bounded checkpoints. FLC0019 awaits bounded lookup or
+issue accounting. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July. Exact glyphs, source

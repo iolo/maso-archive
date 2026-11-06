@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-06 — March overseas news final pages
+
+- Batch 73 preserves final overseas0062 pages 178–179. Nine briefs, five captioned
+  images, nine contacts and the closing emblem retain their source contexts.
+  Both ColorKey/CleanSweep cross-page image associations are explicit.
+- All 166 files reproduce independently and in a fresh process: 44 exact crops,
+  38 OCR outcomes, 33 blocks, 212 physical rows and 1,042 typed ranges.
+  Thirty invalid context/range cases reject.
+- One source correction pass, zero OCR retries or within/post-pass repairs.
+  All 65,099 prior March files and thirty core modules remain unchanged;
+  the unchanged 214-test baseline is reused.
+- Totals: 33 readable, one partial, fourteen groups, thirteen references and 29 unresolved.
+  Next assemble the complete overseas0062 section, then classify children0063–0066.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  The full March goal stays active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March overseas news opening
 
 - Batch 72 establishes overseas0062 across 172–179 and preserves opening 172–177.
