@@ -160,9 +160,23 @@ screenshot/caption. All 33 invalid cases reject. All 5,432 earlier July files,
 batch-08 baseline is reused. No new OCR or source correction.
 All nine overseas children 0008–0016 are final, with eight distinct source anchors
 and no duplicate bodies. Totals: two readable, zero partials, fourteen references
-and 87 unresolved. Next: locate and verify GNU feature 0017 from canonical printed
-286 before mapping its first bounded segment. Whole July 560-page accounting,
-cover and standalone closeout remain pending.
+and 87 unresolved at that checkpoint. Its GNU next step is progressed by batch 13 below.
+
+July batch 13 preserves GNU feature 0017 opening PDF 297–302/printed 286–291
+as an immutable partial native. Its 181 selected/independent/fresh-process files
+match: 44 pixel-exact crops, 43 OCR outcomes, 34 blocks, 350 reading rows and
+1,499 typed occurrences. Original artwork and overlapping searchable headings,
+three independent pull quotes, a boxed FSF essay, source credit and nine prose
+joins retain their contexts. Nine source fields and 45 paragraph ranges validate.
+One pre-OCR map, zero retries, one timed source pass, one retained within-pass
+reading refinement and zero post-pass changes. All 33 invalid cases reject;
+5,465 earlier July files and thirty core modules remain exact. The unchanged
+214-test batch-08 baseline is reused. Observed part starts are 297/313/327 and
+the ending is 330; remaining interior continuity is not yet fully reviewed.
+Totals: two readable, one partial, fourteen references and 86 unresolved.
+Next: GNU 303–308, preserving independent GPL preamble 303 and gzip continuation
+302→304 across it. Later segments, actual assembly and children 0018–0020 remain
+pending. Whole July 560-page accounting, cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
