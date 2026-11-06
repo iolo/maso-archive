@@ -1,5 +1,24 @@
 # Progress
 
+## 2026-11-06 — July privacy and Norton references complete
+
+July batch 11 finalizes privacy 0013 and Norton 0014 as non-owning references
+into complete overseas 0007. The privacy box is complete on PDF 179/printed 168;
+Norton's box is complete on PDF 180/printed 169. Privacy retains three paragraphs;
+Norton retains its deck, two prose regions with a paragraph break, screenshot,
+four-line caption, contact and literal price. Both independent box contexts remain.
+Four classification files reproduce independently and in a fresh process. All 26
+typed ranges, nine regions, seven blocks, one continuation, two product fields,
+one contact and one screenshot/caption validate; 28 invalid cases reject.
+All 5,397 earlier July files, 451 parent files and thirty core modules remain exact;
+the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction.
+Totals: two readable, zero partials, twelve references and 89 unresolved. Next:
+resolve HSC/KPT children 0015/0016 from their shared heading on PDF 181 and image
+continuation on 182. Whole July 560-page accounting, cover and standalone closeout
+remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-11/handoff.json`.
+
 ## 2026-11-06 — July IDE and Novell Nest references complete
 
 July batch 10 finalizes IDE 0011 and Novell Nest 0012 as non-owning references

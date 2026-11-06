@@ -140,10 +140,23 @@ and in a fresh process. All 21 typed ranges, eight regions, five blocks, two
 continuations, three product fields and one logo/caption validate; 28 invalid cases
 reject. All 5,364 earlier July files, 451 parent files and thirty core modules
 remain exact; the unchanged 214-test batch-08 baseline is reused. No new OCR or
-source correction. Totals: two readable, zero partials, ten references and
-91 unresolved. Next: children 0013/0014 (boxed privacy and Norton notices on PDF
-179/180), then 0015/0016. Whole July 560-page accounting, cover and standalone
-closeout remain pending.
+source correction. At that checkpoint: two readable, zero partials, ten references
+and 91 unresolved. Its next boxed-notice pair completes in batch 11 below.
+
+July batch 11 finalizes privacy 0013 and Norton 0014 as non-owning references
+into complete overseas 0007. The privacy box is complete on PDF 179/printed 168;
+Norton's box is complete on PDF 180/printed 169. Privacy retains three paragraphs;
+Norton retains its deck, two prose regions with a paragraph break, screenshot,
+four-line caption, contact and literal price. Both independent box contexts remain.
+Four classification files reproduce independently and in a fresh process. All 26
+typed ranges, nine regions, seven blocks, one continuation, two product fields,
+one contact and one screenshot/caption validate; 28 invalid cases reject.
+All 5,397 earlier July files, 451 parent files and thirty core modules remain exact;
+the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction.
+Totals: two readable, zero partials, twelve references and 89 unresolved. Next:
+resolve HSC/KPT children 0015/0016 from their shared heading on PDF 181 and image
+continuation on 182. Whole July 560-page accounting, cover and standalone closeout
+remain pending.
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
