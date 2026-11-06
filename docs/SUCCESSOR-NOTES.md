@@ -19,44 +19,48 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 71 finalizes domestic children 0060/0061, completing all five child
-references 0057–0061 into the assembled Domestic Network 0056. DataView 9.5 and
-PageJet P3 are separate complete boxes wholly on PDF 169 / printed 161. Their
-expanded source titles and contacts remain. PageJet retains its separate Hot
-Product label, two prose paragraphs, printer image and caption. Adjacent Opera,
-Blaster and following Apache news are excluded. The RIT wording and unresolved
-source spelling context remain literal.
+Batch 72 establishes Overseas Network 0062 across PDF 172–179 / observed
+printed 164–171 and preserves opening 172–177 as immutable native a. Domestic
+news closes on 171; overseas closes on 179 before the library opening on 180.
+Trends occupies 172–174 and New Products continues through 179.
 
-Four classification files reproduce independently and in a fresh process.
-Validation covers thirteen typed ranges, nine source regions, eight text blocks,
-two contacts and one captioned image; nineteen invalid cases reject. Four outside
-source pages were reviewed, with no new mapping, OCR or source correction.
-All 786 parent files, 64,018 prior March files and thirty core modules remain exact;
-the unchanged 214-test baseline is reused. The cumulative status retains earlier
-child reference pins and leaves no domestic child pending.
+The opening retains eleven independent stories, a separate five-bullet AMD–Intel
+sidebar, six captioned images and six contacts. Ten continuation groups preserve
+twenty physical boundaries, including new paragraphs and split words. Thirteen
+token-wrap contexts, five source discrepancies and eleven localized candidates
+retain printed wording without technical or grammatical repair.
 
-The complete domestic parent spans 160–171 and preserves all 42 news items,
-four interview Q&A pairs, eighteen figure regions, eighteen captions and 31 contacts.
-Canonical titles, missing folios and bylines remain unchanged. Original source
-uncertainty and historical claims remain; full proofreading and human acceptance
-are unverified.
+All 262 package files match independent and fresh-process exports. Validation
+covers 68 pixel-exact crops, 62 original OCR outcomes, 42 blocks, 550 physical
+rows, 2,545 typed ranges and 255 exact ZIP members. Two selected ownership/status
+files reproduce exactly; thirty native and twelve ownership faults reject.
+All 64,050 prior March files and thirty core modules remain unchanged; the
+unchanged 214-test baseline is reused.
 
-Complete domestic article: `archive/pdf/1995-03/packages/article-domestic-r01/`.
-Final child references and family status: `archive/pdf/1995-03/classifications/batch-71-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-71/`.
-Earlier packages, classifications and group 0055 remain unchanged.
-Totals are thirty-three readable, zero partial, fourteen non-owning headings,
-thirteen references and 30 unresolved.
+All 62 initial drafts were read before one source correction pass, with no retries
+or within/post-pass repairs. Four mapping attempts retain one pre-write validation
+failure, three completed maps and 73 pre-OCR refinement events. A Python syntax
+failure wrote no transcription. The initial ownership export's stale note and
+relative evidence path were corrected in retained revision r02; no source text changed.
 
-Next locate overseas 0062's complete source extent, beginning on PDF 172 /
-observed printed 164, then restore at most 172–177 as the next bounded native.
-Inspect the actual ending and boundaries before deciding the full extent.
-Preserve separate news items, source images, captions, contacts and prospective
-children 0063–0066. FLC0019 awaits bounded lookup or issue accounting.
+Opening overseas native: `archive/pdf/1995-03/packages/batch-72-r01/overseas-a/`.
+Selected ownership/status: `archive/pdf/1995-03/classifications/batch-72-r02/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-72/`.
+Group 0055 and all previous packages/classifications remain unchanged.
+Totals are thirty-three readable, one partial, fourteen non-owning headings,
+thirteen references and 29 unresolved.
+
+Next restore overseas 0062's final PDF 178–179 / observed printed 170–171 as
+native b. Preserve independent briefs and the cross-page image associations:
+ColorKey's body on 179/photo on 178 and CleanSweep's body on 178/photo on 179.
+No prose joins across 177→178. Then assemble the complete 172–179 bundle and
+finalize prospective children 0063–0066 using assembled parent anchors in bounded
+checkpoints. FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
-accounting, cover and separate issue closeout before July.
+accounting, cover and separate issue closeout before July. Exact glyphs, source
+bytes, historical claims, full proofreading and human acceptance remain unverified.
 No reader rebuild or deployment.
 
 Batch 02's219 files reproduce

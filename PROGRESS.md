@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-06 — March overseas news opening
+
+- Batch 72 establishes overseas0062 across 172–179 and preserves opening 172–177.
+  Eleven news items, the five-bullet AMD–Intel sidebar, six captioned images and
+  six contacts retain separate source contexts.
+- All 262 files reproduce independently and in a fresh process: 68 exact crops,
+  62 OCR outcomes, 42 blocks, 550 rows and 2,545 typed ranges. Two ownership/status
+  files also reproduce exactly; 42 combined invalid cases reject.
+- One source correction pass, zero OCR retries. All 64,050 prior March files and
+  thirty core modules remain unchanged; the unchanged 214-test baseline is reused.
+- Totals: 33 readable, one partial, fourteen groups, thirteen references and 29 unresolved.
+  Next restore final 178–179, preserving the cross-page ColorKey/CleanSweep image
+  associations, then assemble overseas0062 and classify children0063–0066.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  The full March goal stays active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March domestic family complete
 
 - Batch 71 finalizes DataView0060 and PageJet0061, both wholly on169/161.
