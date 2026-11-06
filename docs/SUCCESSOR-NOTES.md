@@ -19,64 +19,62 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 87 completes bulletin 0085 on PDF 532 / printed 524 and reader-card 0086
-on noncontiguous PDF 528–529 / printed 520–521 plus detached card 537–538, with
-no folios on the card. Only the reader-form portion of shared page 538 belongs
-to 0086. Canonical titles, parents, folios and absent bylines remain unchanged.
-Forum 0083 remains non-owning, with three readable children 0084–0086 and three
-unresolved children 0087–0089.
+Batch 88 completes subscriptions 0087 on noncontiguous PDF 533/538–540 and
+advertising index 0088 on PDF 534–535. Canonical titles, parent 0083 and folio
+references 525/526 remain unchanged; no observed body folios or bylines are
+invented. Forum 0083 remains non-owning, with five readable children 0084–0088
+and only humor 0089 pending.
 
-All 410 native files and two external status files reproduce independently and
-in fresh processes. The 115 crops are pixel-exact; 93 OCR outcomes, 92 blocks,
-207 physical rows, seven body paragraphs, 22 original images and 1,186 typed ranges
-validate. There were 93 initial recognitions, zero retries, one source correction
-pass, two maps and zero crop refinements or within/post-pass transcription changes.
-Forty-two native and thirteen status faults reject; 53 frozen fields resolve
-externally. All 72,797 prior March files and thirty core modules remain exact;
-the unchanged 214-test baseline is reused.
+All 608 native files and two external status files reproduce independently and
+in fresh processes. The 157 crops are pixel-exact; 145 OCR outcomes, 145 blocks,
+933 nonblank physical reading rows, twelve original figures and 3,379 typed ranges
+validate. There were 145 initial recognitions, zero retries, one source correction
+pass, four retained maps, twelve pre-OCR crop refinements and zero within/post-pass
+text repairs. Forty native and thirteen status faults reject; 77 frozen fields
+resolve externally. All 74,027 earlier March files and thirty core modules remain
+exact; the unchanged 214-test baseline is reused.
 
-The bulletin preserves eleven disk-content records in three groups of 1/8/2,
-including printed article folios and literal paths. The HTML description crosses
-columns with one LF join. No disk-content verification or automatic download/CD
-link is inferred. Four price cells and four headers accompany the original grid.
-Purchasing instructions and historical contact/payment numbers remain literal;
-unbalanced postage parentheses and printed DCC remain unrepaired source context.
+Subscriptions preserve twenty rate cells, fifteen CD-retailer city groups and
+57 national distributor entries with eleven merged province labels. The final
+overseas region cell retains its two physical lines. Historical names, phone
+numbers, prices and geographic groupings remain literal. Giro front 539 and
+reverse 540 use clockwise 90° and 270° corrections respectively. Twenty-five
+response-field groups remain blank, including six postcode boxes and three
+publication choices. Three reverse rate groups remain separate. MICR signs are
+Unicode visual approximations, without machine verification.
 
-The reader pages retain three blank current-quiz boxes and the separate prior
-answer 색인어. Fifteen product-photo/caption groups name sixteen current gifts.
-The current PC-DIC quantity is missing in print; no numeral is inferred.
-VOCABURARY remains as printed despite different product-box spelling. Fifteen
-prior prize groups contain nineteen winners with source-linked names, printed
-addresses and rows. Current and prior gift counts are not reconciled across periods.
+Shared page 538 ownership is final: reader-card 0086 owns raw x=0–0.721;
+subscriptions 0087 owns raw x=0.721–1. Subscription 538 keeps its original
+orientation and excludes the reader form. The earlier reader package stays
+immutable; its creation-time pending ownership is resolved externally. The giro
+reverse includes ancillary publisher purposes, five business items and thirteen
+shareholder readings. Faint names and the heading at the source edge remain
+localized candidates. PDF 541 begins a separate Microsoft postcard; its reverse
+542 remains outside this checkpoint.
 
-Original card images preserve eleven blank response-field groups, six sender
-postcode boxes and the printed recipient 137-073. Historical postage dates remain
-unverified. Reverse 538 has an explicit clockwise 90° correction; page 537 retains
-its original orientation and separately transcribed rotated brand. No form is
-filled. The subscription panel on raw page 538 x=0.721–1 / upright y=0.721–1 is excluded
-pending 0087 ownership. Separate giro 539 is inspected; reverse 540 is uninspected.
-Earlier notice 533 observations no longer establish complete subscription scope.
+The advertising index preserves four panels with 36/36/36/32 rows: 140 records,
+560 body cells, 558 nonblank cells, two explicit source blanks and sixteen headers.
+The telephone and product cells for 금성테크노피아 remain empty. Printed references
+such as 표4, 표3, 내지1 and 80-1~4, literal USRovotics and unusual telephone groupings
+are retained. Advertisement targets and current contact validity remain unverified;
+no automatic advertisement links are created.
 
-Packages: `archive/pdf/1995-03/packages/batch-87-r01/`.
-Current forum/card status: `archive/pdf/1995-03/classifications/batch-87-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-87/`.
-Ninety-six final classification/accounting pins are retained. Totals: 50 readable,
+Packages: `archive/pdf/1995-03/packages/batch-88-r01/`.
+Current forum/shared-page status: `archive/pdf/1995-03/classifications/batch-88-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-88/`.
+Ninety-seven final classification/accounting pins are retained. Totals: 52 readable,
 zero partial, nineteen non-owning headings, seventeen references and
-4 unresolved: 0019 and 0087–0089. Exact glyphs, encoded bytes, full proofreading
+2 unresolved: FLC 0019 and humor 0089. Exact glyphs, encoded bytes, full proofreading
 and human acceptance remain unverified.
 
-Next restore subscriptions 0087 and advertising index 0088. Confirm the complete
-subscription extent from 533, panel 538, giro 539 and uninspected reverse 540 with
-independent boundaries before mapping. Index 0088 is observed on 534–535. Split
-if the extent exceeds the checkpoint bounds. Then restore humor 0089 and perform
-bounded FLC 0019 lookup/accounting. Introduction 0082 owns 458; special-feature 0045
-and forum 0083 remain non-owning. Library 0067 is complete for all fourteen
-canonical descendants across its observed physical extent 180–207.
+Next restore humor 0089 on PDF 536 and perform bounded FLC 0019 lookup/accounting.
+Introduction 0082 owns 458; special-feature 0045 and forum 0083 remain non-owning.
+Library 0067 is complete for all fourteen canonical descendants across 180–207.
 Keep publisher advertisements 202–203 and unlisted CD 194–195, public-software 186–189
 and game-room 190–191 in final page accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-This checkpoint uses five mapped pages and seven outside lookups.
+This checkpoint uses six mapped pages and five outside lookups.
 The full March goal remains active through remaining outcomes, 545-page accounting,
 cover and separate issue closeout before July.
 No reader rebuild or deployment.
