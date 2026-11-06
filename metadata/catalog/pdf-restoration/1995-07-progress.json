@@ -3726,7 +3726,7 @@
       "parent_id": "maso-1995-07-toc-0029",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Batch29 verifies child0032 source title 버튼과 다이얼로그 박스 조립하기 and author 장석원 in238 portrait banner/biography. Full source extent237–247/printed226–236;236 is advertising,248 is advertising,and249 opens the next technical article. Prose ends242,but four program listings continue through247.",
@@ -3741,18 +3741,30 @@
         "Two pre-OCR maps retain seven left-margin repairs for slanted columns. All27 raw drafts read before one timed source pass;zero retries,within-pass refinements or post-pass changes. Korean comments,literals,lowercase identifiers,printed anomalies and digit1/l,broken-bar and dot/ink candidates remain explicit;no syntax repair or execution.",
         "One pre-OCR review metadata field prematurely claimed no unpreserved pages. Original receipt retained;selected receipt correctly records243–247 pending at that earlier stage. Source text,map,OCR and timing unchanged.",
         "All54 invalid cases reject. All22282 earlier July files,thirty core modules,nine frozen adapters and41 classification pins remain exact;unchanged214-test batch19 baseline reused. One canonical task,five mapped pages,two outside lookups.",
-        "All source pages237–247 are now preserved across two immutable natives. Actual article assembly and external clinic-group0029 child0032 completion remain pending. Whole July560-page accounting,cover,standalone closeout and incomplete donated TOCs remain explicit;no automatic CD3 association."
+        "All source pages237–247 are now preserved across two immutable natives. Actual article assembly and external clinic-group0029 child0032 completion remain pending. Whole July560-page accounting,cover,standalone closeout and incomplete donated TOCs remain explicit;no automatic CD3 association.",
+        "Batch31 actually assembles complete237–247/printed226–236 from two independently regenerated immutable natives. All630 selected,independent and fresh-process files match,including621 native files. One literal calculator join joins033→034 using the opening native serialization newline;no inserted text,OCR or source correction.",
+        "All168 crops,145 OCR outcomes,111 original blocks in110 current blocks,23 original figures,13 literal captions and984 reading rows validate. All10057 native typed occurrences project;20128 current typed ranges and97853 scalar values validate independently. Four earlier-native title/author/caption/incoming-row ranges retain the opening namespace.",
+        "Four numbered programs retain335/47/149/55 rows,586 total,including24 blank-numbered rows. Six short examples and the filter template remain separate. All598 code-download projections,38 table/directory cells,seven screenshots,source author 장석원 and editor 박은숙 retain their roles. Sixteen join groups retain35 boundaries. Printed source anomalies and candidates remain literal.",
+        "47 assembly invalid cases and31 external status faults reject;all214 fresh PDF tests pass. All22745 earlier July files,thirty core modules,nine frozen adapters and41 prior classification pins remain unchanged. The audit script count was corrected from six short-code contexts to seven,which includes the filter template;failed audit log retained and no article changed.",
+        "Two exact external clinic status files retain inherited0031 resolutions and resolve0032 status,manifest and extent plus two copied assembly-pending notes. Original group evidence and native partial flags remain historical. Seven child-local title/credit ranges validate across three complete children;0033/0036 and their nested descendants remain pending.",
+        "Two canonical tasks,zero mapped pages,eight reused outside lookups,no new OCR or source correction. Whole July560-page accounting,cover and standalone closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact original bytes and execution remain explicit limits."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-30-r01/buttons-b",
+        "directory": "archive/pdf/1995-07/packages/article-buttons-r01",
         "article_id": "scan-maso-1995-07-toc-0032",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-30-r01/buttons-b/manifest.json",
-          "sha256": "c96afb81d74a24fc3e9cc0c3b7a620e8877000953e0b68305f8cd228fd440fd0",
-          "bytes": 20855
+          "path": "archive/pdf/1995-07/packages/article-buttons-r01/manifest.json",
+          "sha256": "42aa1001a7b3c2c1e1a59242ca25082ee03c4c00a1fb136c3e140b5f217134c4",
+          "bytes": 112112
         },
         "coverage": {
           "pdf_pages": [
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
             243,
             244,
             245,
@@ -3760,23 +3772,29 @@
             247
           ],
           "printed_pages": [
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231",
             "232",
             "233",
             "234",
             "235",
             "236"
           ],
-          "regions": 35,
-          "blocks": 7,
-          "figures": 8,
+          "regions": 168,
+          "blocks": 110,
+          "figures": 23,
           "deferred_pdf_pages": []
         },
-        "body_pages_complete": false,
+        "body_pages_complete": true,
         "prose_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 237,
-        "observed_ending_pdf_page": 247,
+        "actual_end_pdf_page": 247,
         "full_pdf_pages": [
           237,
           238,
@@ -3790,72 +3808,7 @@
           246,
           247
         ],
-        "remaining_extent_unverified": false,
         "remaining_source_pages": [],
-        "segment_scope": {
-          "full_pdf_pages": [
-            237,
-            238,
-            239,
-            240,
-            241,
-            242,
-            243,
-            244,
-            245,
-            246,
-            247
-          ],
-          "current_pdf_pages": [
-            243,
-            244,
-            245,
-            246,
-            247
-          ],
-          "current_printed_pages": [
-            "232",
-            "233",
-            "234",
-            "235",
-            "236"
-          ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": true,
-          "actual_start_pdf_page": 237,
-          "observed_ending_pdf_page": 247,
-          "earlier_native_pdf_pages": [
-            237,
-            238,
-            239,
-            240,
-            241,
-            242
-          ],
-          "remaining_source_pages": [],
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "remaining_extent_unverified": false,
-          "final_native_segment": true,
-          "source_extent_preserved_across_natives": true,
-          "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-30/source-reviewed.json",
-            "sha256": "61934022c82cd76c97a6c8ea8f2ef69d2e279a0cbdc57b5d5e9d93f19a03e41c",
-            "bytes": 2212
-          }
-        },
-        "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-30/validation.json",
-          "sha256": "65255f8bce47972efbaa22999ecfda3eb46d5d4a82f684354e76d6da3e66e4fe",
-          "bytes": 2078
-        },
-        "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-30/reproduction.json",
-          "sha256": "26cb5aecf2693273b31c834b01c8f65099fe12bc0e24c29779c1ad5eab06f390",
-          "bytes": 24609
-        },
-        "checkpoint": "batch-30",
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-29-r02/buttons-a",
@@ -4111,7 +4064,18 @@
           246,
           247
         ],
-        "source_extent_preserved_across_natives": true
+        "source_extent_preserved_across_natives": true,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-31/assembly-audit.json",
+          "sha256": "fdb923dabd4802ff57a08f0805349352dc186024698c67cca370f5c89e390b00",
+          "bytes": 1395
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-31/reproduction.json",
+          "sha256": "4255d2f9c0a4c8a5bfdacdf9dc63d7cec322ea457941f646584ef23ab2be78af",
+          "bytes": 114510
+        },
+        "checkpoint": "batch-31"
       }
     },
     {
@@ -6101,12 +6065,64 @@
         "sha256": "26cb5aecf2693273b31c834b01c8f65099fe12bc0e24c29779c1ad5eab06f390",
         "bytes": 24609
       }
+    },
+    {
+      "name": "1995-07-batch-31",
+      "status": "complete",
+      "completed_at": "2026-11-06T19:05:35.452453+00:00",
+      "goal": "Actually assemble complete buttons/dialog0032 and externally resolve clinic0029 child completion.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0032",
+        "maso-1995-07-toc-0029"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 8,
+      "outside_lookup_pdf_pages": [
+        236,
+        237,
+        242,
+        243,
+        245,
+        246,
+        247,
+        248
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-31/assembly-audit.json",
+        "sha256": "fdb923dabd4802ff57a08f0805349352dc186024698c67cca370f5c89e390b00",
+        "bytes": 1395
+      },
+      "status_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-31/status-validation.json",
+        "sha256": "b6b57c3a31140ea33bd101066f373573689c5e4eb7996d6e0ddc205297cda23e",
+        "bytes": 1148
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-31/reproduction.json",
+        "sha256": "4255d2f9c0a4c8a5bfdacdf9dc63d7cec322ea457941f646584ef23ab2be78af",
+        "bytes": 114510
+      },
+      "status_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-31/status-reproduction.json",
+        "sha256": "56fb810d8aed19bfa60fa27907d33183b18a19d9212b3c41e75acb7ff3496a0a",
+        "bytes": 846
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-31-r01/group-status-dispositions.json",
+        "sha256": "2342259b457c6dc8b6a9e5b35aac4ee565430851386f2af87f41818ca6d55cf5",
+        "bytes": 5880
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 11,
-    "partial": 1,
+    "readable": 12,
+    "partial": 0,
     "group_headings": 3,
     "section_references": 17,
     "unresolved": 71
@@ -6116,7 +6132,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Actually assemble child0032 across PDF237–247/printed226–236 from independently regenerated immutable buttons-a(batch29-r02) and buttons-b(batch30-r01). Join only calculator listing1 row033→034 across natives; preserve seven short/example code blocks separately from four numbered listings. Validate complete335/47/149/55 numbered-row contexts,all source/caption/table/author/discrepancy/candidate contexts and original assets. Then externally resolve clinic group0029 child0032 completion while retaining earlier pending evidence. No new OCR/source correction is required. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve all prior natives and41 classification pins;no automatic CD3 association or reader rebuild/deployment.",
+  "next_checkpoint": "Verify technique group0033 테크닉 and first child0034 홈페이지 코디네이터가 돼보자 from observed PDF249/printed238,canonical author 임지호. Establish exact source title,byline,ending and adjacent boundaries before mapping;the next canonical child0035 starts printed242 but does not alone prove the prior ending. At most two canonical tasks,six mapped pages,twenty outside lookups;segment longer bodies and assemble separately. Use batch31 external clinic status for complete0030/0031/0032 while preserving earlier evidence. Continue all remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve prior natives and43 classification pins;no automatic CD3 association or reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -6322,6 +6338,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-28-r01/family-ownership.json",
       "sha256": "89a0515ff246db5942d6ae40156733a926c869eed5703a7c8e527b1f251100de",
       "bytes": 35991
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-31-r01/group-status-dispositions.json",
+      "sha256": "2342259b457c6dc8b6a9e5b35aac4ee565430851386f2af87f41818ca6d55cf5",
+      "bytes": 5880
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-31-r01/family-ownership.json",
+      "sha256": "3a402af3a49928ace86c5a6d2beac2e325b96728a4f56cab04abd96da6daeb80",
+      "bytes": 39200
     }
   ]
 }

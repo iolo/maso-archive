@@ -1,5 +1,40 @@
 # Progress
 
+## 2026-11-07 — July buttons/dialog article assembled
+
+July batch 31 actually assembles child 0032 버튼과 다이얼로그 박스 조립하기
+across PDF 237–247/printed 226–236. All 630 selected, independent and fresh-process
+files match, including all 621 independently regenerated native files. The sole
+cross-native join connects calculator rows 033→034 using the existing newline;
+the code download equals the exact concatenation of both native downloads.
+All 168 pixel-exact crops, 145 original OCR outcomes, 111 source blocks in 110
+combined blocks, 23 images, thirteen literal captions and 984 reading rows validate.
+All 10,057 native typed occurrences, 20,128 current ranges and 97,853 scalar values
+retain source context, including four references into the earlier native.
+Four numbered listings preserve 335/47/149/55 rows and all 24 blank-numbered rows.
+Six short examples and the filter template remain separate. All 598 code-offset
+projections, 38 table/directory cells, seven screenshots, author 장석원 and editor
+박은숙 retain their roles. Sixteen join groups preserve 35 boundaries.
+Two external clinic status files reproduce exactly, retain inherited child 0031
+resolutions and finalize child 0032. Seven child-local title/credit ranges validate;
+direct children 0033/0036 and nested descendants remain pending. Original group
+evidence and native partial flags remain historical; two copied assembly-pending
+notes are resolved externally. All 78 combined invalid cases reject and all 214
+fresh PDF tests pass. All 22,745 earlier July files, thirty core modules, nine
+prior adapters and 41 prior classification pins remain unchanged; 43 classification
+pins are now required. An audit expectation was corrected to count the filter
+template alongside six examples; the original failure log is retained, with no
+source, OCR, adapter or article change. Two canonical tasks, zero mapped pages,
+eight reused outside lookups, no new OCR and no source correction.
+Totals: twelve readable articles, zero partials, three groups, seventeen references
+and 71 unresolved identities. Next: verify technique group 0033 and homepage
+coordinator child 0034 from observed PDF 249/printed 238 before mapping its body.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and program execution remain explicit limits.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-31/handoff.json`.
+
 ## 2026-11-07 — July buttons/dialog final listings preserved
 
 July batch 30 preserves child 0032 final listing pages 243–247/printed 232–236
