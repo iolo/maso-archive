@@ -4323,23 +4323,119 @@
       "toc_entry_id": "maso-1995-07-toc-0038",
       "title": "한메의 윈도우즈 프로그래밍 About",
       "parent_id": "maso-1995-07-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch35 verifies complete Hanme Windows programming0038 on PDF262–264/printed251–253 and Lee Junhui0039 on PDF265–267/printed254–256. Previous261 ends OSC;following268 opens Paradise hardware0041. Xbase0040 location remains unknown;canonical order is not assumed to be source order. Lee source title includes C while canonical title omits it;both preserved.",
+        "213 selected,independent and fresh-process files match for this article. 54 exact crops,50 OCR outcomes,44 blocks,260 reading rows and1420 typed ranges validate. Four original images have no invented captions;four Q&A contexts retain separate questions,asker credits and answer labels. No separate article author inferred.",
+        "4 joins preserve6 continuation boundaries;24 prose paragraphs and310 technical/numeric fields retain source positions. Two independent technical boxes and one historical submission invitation remain separate from Q&A answers. 110 physical code rows include one visible blank row;all code punctuation,omission dots and Korean comments remain literal.",
+        "Hanme preserves the list-box deletion continuation262→263,dialog-icon conclusion263→264 and background-brush code across264 columns. Its logo-screen and ExtTextOut reference boxes remain independent. Printed GetDlgItemMessage,single greater-than operators,UNIT cdString and the original background-color comment remain unchanged. Ten parameter/comment rows retain alignment context.",
+        "Lee preserves title-wrapped question/answer,interrupt answer265→266,bitmap answer266→267,graphic-file answer across267 columns and independent palette-box continuation. Printed WM_CHR,WM_EYDOWN,single less-than operators,movax,spaced lpsz TemplateName/My FileOpen and SetDIBitToDevice remain. Handle jaksal1 retains jaksall as a candidate;asker identities are not inferred.",
+        "All92 drafts read before one timed source correction pass. Two pre-OCR maps per article retain19 crop refinements;all original maps/crops remain. Eighteen code regions use English and74 other text regions use Korean plus English with pinned Tesseract OEM1/PSM6,one thread,3000-pixel long edge. Zero retries,within-pass text refinements,post-pass changes or post-OCR crop changes.",
+        "All87 native invalid cases reject. All27052 earlier July files,thirty core modules,ten frozen adapters and49 classification pins remain unchanged. The unchanged214-test batch31 baseline is reused. Two canonical tasks,six mapped pages and three outside lookups remain within limits.",
+        "Original group0036 creation-time child status remains immutable;only these two article ledger outcomes advance. Later external group/clinic reconciliation remains required. Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical technical behavior remain explicit limits."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-35-r01/hanme",
+        "article_id": "scan-maso-1995-07-toc-0038",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-35-r01/hanme/manifest.json",
+          "sha256": "9628e4b49e47504074fd7349323c37fa71ad5bfc87d14a4f6787f0a0fb373db8",
+          "bytes": 35560
+        },
+        "coverage": {
+          "pdf_pages": [
+            262,
+            263,
+            264
+          ],
+          "printed_pages": [
+            "251",
+            "252",
+            "253"
+          ],
+          "regions": 54,
+          "blocks": 44,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 264,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-35/validation.json",
+          "sha256": "a8e26bf88ea7ff5f24c18813871074d92d7fa19ec7129ccdda66ecb658a39ef5",
+          "bytes": 3070
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-35/reproduction.json",
+          "sha256": "27b0957fe7ee19eee1dbf5427c6677aa4215c87d8ceba058dfe8ee3653650462",
+          "bytes": 75616
+        },
+        "checkpoint": "batch-35"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0039",
       "title": "이준희의 About",
       "parent_id": "maso-1995-07-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch35 verifies complete Hanme Windows programming0038 on PDF262–264/printed251–253 and Lee Junhui0039 on PDF265–267/printed254–256. Previous261 ends OSC;following268 opens Paradise hardware0041. Xbase0040 location remains unknown;canonical order is not assumed to be source order. Lee source title includes C while canonical title omits it;both preserved.",
+        "181 selected,independent and fresh-process files match for this article. 46 exact crops,42 OCR outcomes,32 blocks,245 reading rows and1226 typed ranges validate. Four original images have no invented captions;four Q&A contexts retain separate questions,asker credits and answer labels. No separate article author inferred.",
+        "7 joins preserve10 continuation boundaries;26 prose paragraphs and268 technical/numeric fields retain source positions. Two independent technical boxes and one historical submission invitation remain separate from Q&A answers. 31 physical code rows include one visible blank row;all code punctuation,omission dots and Korean comments remain literal.",
+        "Hanme preserves the list-box deletion continuation262→263,dialog-icon conclusion263→264 and background-brush code across264 columns. Its logo-screen and ExtTextOut reference boxes remain independent. Printed GetDlgItemMessage,single greater-than operators,UNIT cdString and the original background-color comment remain unchanged. Ten parameter/comment rows retain alignment context.",
+        "Lee preserves title-wrapped question/answer,interrupt answer265→266,bitmap answer266→267,graphic-file answer across267 columns and independent palette-box continuation. Printed WM_CHR,WM_EYDOWN,single less-than operators,movax,spaced lpsz TemplateName/My FileOpen and SetDIBitToDevice remain. Handle jaksal1 retains jaksall as a candidate;asker identities are not inferred.",
+        "All92 drafts read before one timed source correction pass. Two pre-OCR maps per article retain19 crop refinements;all original maps/crops remain. Eighteen code regions use English and74 other text regions use Korean plus English with pinned Tesseract OEM1/PSM6,one thread,3000-pixel long edge. Zero retries,within-pass text refinements,post-pass changes or post-OCR crop changes.",
+        "All87 native invalid cases reject. All27052 earlier July files,thirty core modules,ten frozen adapters and49 classification pins remain unchanged. The unchanged214-test batch31 baseline is reused. Two canonical tasks,six mapped pages and three outside lookups remain within limits.",
+        "Original group0036 creation-time child status remains immutable;only these two article ledger outcomes advance. Later external group/clinic reconciliation remains required. Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical technical behavior remain explicit limits."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-35-r01/lee",
+        "article_id": "scan-maso-1995-07-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-35-r01/lee/manifest.json",
+          "sha256": "5b5cbf4e8a298cb91c6db23ec965f9d8ea7d259b5e94bea40e5deee5934d1190",
+          "bytes": 30224
+        },
+        "coverage": {
+          "pdf_pages": [
+            265,
+            266,
+            267
+          ],
+          "printed_pages": [
+            "254",
+            "255",
+            "256"
+          ],
+          "regions": 46,
+          "blocks": 32,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 267,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-35/validation.json",
+          "sha256": "a8e26bf88ea7ff5f24c18813871074d92d7fa19ec7129ccdda66ecb658a39ef5",
+          "bytes": 3070
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-35/reproduction.json",
+          "sha256": "27b0957fe7ee19eee1dbf5427c6677aa4215c87d8ceba058dfe8ee3653650462",
+          "bytes": 75616
+        },
+        "checkpoint": "batch-35"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0040",
@@ -6451,22 +6547,61 @@
         "sha256": "561a9ac95ba344163bc6f85cb0ea995a2c270e4fc2643404664575f2431489aa",
         "bytes": 1291
       }
+    },
+    {
+      "name": "1995-07-batch-35",
+      "status": "complete",
+      "completed_at": "2026-11-06T20:43:27.564255+00:00",
+      "goal": "Restore complete Hanme0038 and Lee Junhui0039 Q&A articles.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0038",
+        "maso-1995-07-toc-0039"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        262,
+        263,
+        264,
+        265,
+        266,
+        267
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        261,
+        268,
+        269
+      ],
+      "recognition_invocations": 92,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-35/validation.json",
+        "sha256": "a8e26bf88ea7ff5f24c18813871074d92d7fa19ec7129ccdda66ecb658a39ef5",
+        "bytes": 3070
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-35/reproduction.json",
+        "sha256": "27b0957fe7ee19eee1dbf5427c6677aa4215c87d8ceba058dfe8ee3653650462",
+        "bytes": 75616
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 15,
+    "readable": 17,
     "partial": 0,
     "group_headings": 5,
     "section_references": 17,
-    "unresolved": 66
+    "unresolved": 64
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify and restore Q&A child0038 한메의 윈도우즈 프로그래밍 About from PDF262/printed251 and child0039 이준희의 About from observed PDF265/printed254,source title 이준희의 C About.... Saved262–264 show Hanme;265 opens Lee Junhui. Establish full endings/adjacent boundaries before mapping,at most two canonical tasks,six mapped pages,twenty outside lookups;segment longer bodies and assemble separately. Preserve original batch34-r02 non-owning group with five pending children and all49 classification pins. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No reader rebuild/deployment or automatic CD3 association.",
+  "next_checkpoint": "Locate Xbase child0040 and verify complete extent of Paradise hardware child0041 from observed PDF268/printed257;269/258 continues Paradise. Canonical TOC order does not match the observed following title,so do not infer Xbase absence or location. Inspect ending and adjacent boundaries before mapping at most six pages;two canonical tasks and twenty outside lookups maximum. Segment longer articles and assemble separately. Preserve all49 classification pins and immutable group0036/clinic0029 evidence;their historical pending-child flags require later external reconciliation. Continue all remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

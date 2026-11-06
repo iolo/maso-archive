@@ -640,9 +640,39 @@ exact; the unchanged 214-test batch-31 baseline is reused. The classification
 inventory now requires 49 pins. Two canonical tasks, three mapped pages and five
 outside lookups stay within the operating limits.
 Totals: fifteen readable articles, zero partials, five groups, seventeen references
-and 66 unresolved identities. Next: verify and restore Hanme child 0038 from
-PDF 262/printed 251 and Lee Junhui child 0039 from PDF 265/printed 254, establishing
-full endings and adjacent boundaries before mapping within the six-page ceiling.
+and 66 unresolved identities at that checkpoint. Hanme 0038 and Lee Junhui 0039
+are completed by batch 35 below.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical technical behavior remain explicit limits.
+
+July batch 35 completes Hanme child 0038 on PDF 262–264/printed 251–253 and
+Lee Junhui child 0039 on PDF 265–267/printed 254–256. Both three-page articles
+retain four Q&A contexts, separate asker credits, an independent submission
+invitation and two technical sidebars. Lee's printed title includes C; its canonical
+title remains unchanged. No standalone article author is inferred.
+Hanme's 213 and Lee's 181 selected files match independent and fresh-process exports.
+All 100 source crops, 92 OCR outcomes, 76 blocks, 505 reading rows and 2,646 typed
+ranges validate. Eight original images have no invented captions. Sixteen code
+blocks retain 141 physical rows, including two blank rows; ten ExtTextOut parameter
+and comment rows retain their alignment context. Eleven joins preserve sixteen
+continuation boundaries; fifty prose paragraphs and 578 source fields validate.
+Printed GetDlgItemMessage, UNIT cdString, WM_CHR, WM_EYDOWN, movax and
+SetDIBitToDevice remain literal. Single greater-than and less-than operators are
+not repaired into shifts. One asker handle retains jaksal1/jaksall candidates.
+All 92 drafts were read before one timed source pass. Two pre-OCR maps per article
+retain nineteen crop refinements; original maps and crops remain. Zero retries,
+within-pass text refinements, post-pass text changes or post-OCR crop changes.
+All 87 invalid cases reject. All 27,052 earlier July files, thirty core modules,
+ten frozen adapters and 49 classification pins remain exact; the unchanged
+214-test batch-31 baseline is reused. Two tasks, six mapped pages, three outside
+lookups. Original Q&A group and clinic evidence remain immutable; their historical
+pending-child flags require later external reconciliation.
+Totals: seventeen readable articles, zero partials, five groups, seventeen references
+and 64 unresolved identities. Next: locate Xbase child 0040 and verify Paradise
+hardware child 0041 from PDF 268/printed 257; 269 continues Paradise. Source order
+differs from canonical TOC order, so Xbase's location or absence is not inferred.
+Verify full endings and adjacent boundaries before mapping within the 2/6/20 limits.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical technical behavior remain explicit limits.
