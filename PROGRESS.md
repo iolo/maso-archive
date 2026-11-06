@@ -1,5 +1,27 @@
 # Progress
 
+## 2026-11-07 — All July GNU section references finalized
+
+July batch 21 finalizes GNU Part 3 child 0020 on PDF 327–330/printed 316–319
+as a non-owning reference into complete parent 0017. All 71 regions, 64 blocks,
+three original images and two captions retain the author/editor credits, compiler
+options, annotated examples and literal makefile. Four classification files
+reproduce independently and in a fresh process. All 631 typed occurrences
+(74 direct, 557 linked) validate; all 33 invalid cases reject.
+All three GNU children are now final. Their complete family partition accounts
+for 460 regions, 401 blocks and 25 figures, with one body owner and three shared
+opening regions outside the child scopes. Historical native flags remain unchanged.
+All 1,827 parent files, 15,658 earlier July files, thirty core modules and nine
+frozen adapter files remain exact; the unchanged 214-test batch-19 baseline is
+reused. No new mapping, OCR or source correction. Totals: three readable parents,
+zero partials, seventeen references and 83 unresolved.
+Next: locate and verify editorial 0021 from canonical printed 143, then continue
+the remaining July entries within the two-task/six-mapped/twenty-lookup limits.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain explicit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-21/handoff.json`.
+
 ## 2026-11-07 — July GNU Parts 1 and 2 references finalized
 
 July batch 20 finalizes GNU Parts 1/2 children 0018/0019 as non-owning
