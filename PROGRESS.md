@@ -1,5 +1,42 @@
 # Progress
 
+## 2026-11-07 — July socket final segment
+
+July batch 43 preserves socket0047 final PDF 347–352/printed 336–341 as a
+second immutable native. All twelve source pages 341–352 are now preserved;
+the opening native remains unchanged and actual article assembly is still required.
+All 260 selected files match independent and fresh-process exports. All 65 crops,
+62 OCR outcomes, 52 blocks, 522 nonblank reading rows and 7,224 current typed
+ranges validate, alongside six original earlier-native title/author/boundary ranges.
+Three original visuals retain diagram 5, its small unresolved mark and the ending
+emblem. Three captions, thirteen diagram-label regions, four macro rows and
+separate editor 홍동선 retain source roles. Prose ends on 349; listings continue to 352.
+Eleven code blocks retain seventeen regions, 375 physical rows, 25 blank payload
+rows, 57 comment-start rows and one six-dot omission. Server listing 1 has 141
+numbered rows; client listing 2 has 143 physical rows. Its physical row 69 repeats
+printed 067; both occurrences remain under distinct physical ordinals. Twenty
+numbered blank payload rows retain their prefixes. Ordinary window initialization
+is explicitly omitted; no complete executable or execution is claimed.
+Six join groups preserve ten LF boundaries. Printed If, lingerInfo.i_onoff,
+argument-free closesocket(), cldsesocket(), PSOCKADDR, missing struct, wrapped
+string, case differences and the 켓 comment remain literal. Eight occurrence-specific
+l/1 candidates and broken-bar alternatives remain source-linked. The won-sign-like
+mark near connect remains image-only, with no inferred encoded byte.
+All 62 drafts were read before one prospective source pass. Two pre-OCR maps
+retain 63 events: sixty text-margin changes, one conclusion split and two visual-margin
+changes. Zero retries, within-pass refinements, post-pass changes or post-OCR crop
+changes. All 48 invalid cases reject. All 34,487 earlier July files, thirty core
+modules, eleven frozen adapters and 61 classification pins remain exact. The
+unchanged 214-test batch-41 baseline is reused. One canonical task, six mapped
+pages and three outside lookups remain within limits.
+Totals: twenty-one readable articles, one partial, eight groups, seventeen
+references and 56 unresolved identities. Next: actually assemble socket 341–352,
+joining only datagram-code-a to datagram-code-b at 346→347 with one physical LF.
+Preserve the independent sidebar, prototypes, listings, original natives and all
+source contexts. Whole July 560-page accounting, cover and standalone closeout
+remain pending. Incomplete donated TOCs, full proofreading, human acceptance,
+exact source bytes and historical execution remain explicit limits.
+
 ## 2026-11-07 — July socket opening
 
 July batch 42 preserves socket0047 opening PDF 341–346/printed 330–335 as
