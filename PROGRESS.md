@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-06 — March overseas family complete
+
+- Batch 76 finalizes UnixWare0066 wholly175/167, completing all four overseas
+  child references0063–0066. Headline, four paragraphs, contact and three literal
+  token wraps remain; adjacent stories are excluded.
+- Three classification files reproduce independently and in a fresh process.
+  Eight typed ranges, three regions and three blocks validate; eighteen invalid
+  cases reject. No new OCR or source correction.
+- All 436 parent files, 66,197 prior March files and thirty core modules remain
+  unchanged; the unchanged 214-test baseline is reused.
+- Totals: 34 readable, zero partial, fourteen groups, seventeen references and 25 unresolved.
+  Next establish library0067 and its review sections from180/172.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  Full March goal active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March AMD and On Technology references
 
 - Batch 75 finalizes AMD0064 across172–173, including its separate five-bullet

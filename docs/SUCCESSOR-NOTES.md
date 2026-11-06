@@ -19,33 +19,34 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 75 finalizes overseas children0064/0065 against the complete assembled
-parent0062. AMD spans PDF172–173 / printed164–165 and retains its separate
-five-bullet patent sidebar on173. On Technology is wholly175/167, retaining its
-headline, two-line deck, three prose regions, contact, screenshot and caption.
-Adjacent IBM, MS/UuNET and UnixWare stories are excluded from these references.
+Batch 76 finalizes UnixWare0066, completing all four overseas child references
+0063–0066 into assembled parent0062. The UnixWare story is wholly PDF175 /
+printed167: headline, four prose paragraphs and contact. Three physical token
+wraps retain `Unix\nWare`, `Opera\ntion` and `2.\n5%`. On Technology above and
+other products on176 remain excluded. No image, caption or byline is invented.
 
-Four classification files match independent and fresh-process exports. Validation
-covers forty typed ranges, seventeen source regions, ten blocks, six continuation
-boundaries and three physical token wraps; twenty-five invalid cases reject.
-Six outside source pages were reviewed, with no new mapping, OCR or correction.
-All 436 parent files, 66,164 prior March files and thirty core modules remain exact;
+Three classification files match independent and fresh-process exports. Eight
+typed ranges, three source regions and three blocks validate; eighteen invalid
+cases reject. The three lookup pages reuse visually reviewed source images with
+exact byte verification. No new mapping, OCR or source correction.
+All 436 parent files, 66,197 prior March files and thirty core modules remain exact;
 the unchanged 214-test baseline is reused. Canonical titles, missing folios and
-bylines remain unchanged. The AMD sidebar stays separate from main prose.
+bylines remain unchanged. Cumulative status preserves the earlier IBM, AMD and
+On Technology reference pins and leaves no overseas child pending.
 
 Complete overseas article: `archive/pdf/1995-03/packages/article-overseas-r01/`.
-Current child/status evidence: `archive/pdf/1995-03/classifications/batch-75-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-75/`.
-The cumulative status retains IBM0063 and finalizes AMD0064/On0065, leaving only
-UnixWare0066 pending. Earlier packages, classifications and group0055 remain
-unchanged; 74 final classification evidence pins are retained.
-Totals are thirty-four readable, zero partial, fourteen non-owning headings,
-sixteen references and 26 unresolved.
+Final child/family status: `archive/pdf/1995-03/classifications/batch-76-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-76/`.
+Earlier packages, classifications and group0055 remain unchanged; 76 final
+classification evidence pins are retained. Totals are thirty-four readable,
+zero partial, fourteen non-owning headings, seventeen references and 25 unresolved.
 
-Next finalize UnixWare0066 wholly on175/167, preserving its headline, four prose
-paragraphs, contact and physical token wraps. Then establish library0067 and its
-commercial, title and hardware sections from180/172 in bounded checkpoints.
-FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
+Next establish library0067 and its commercial0068, title0073 and hardware0076
+section ownership from PDF180 / printed172 in bounded checkpoints. Inspect actual
+boundaries and source extents before mapping; preserve individual review titles,
+prose, images, captions and contacts. Library book and price columns0079–0081 also
+remain queued. FLC0019 awaits bounded lookup or issue accounting.
+See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July. Exact glyphs, source
