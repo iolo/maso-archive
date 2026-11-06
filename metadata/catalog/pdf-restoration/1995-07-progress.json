@@ -3735,43 +3735,41 @@
         "Three pre-OCR maps retain139 coverage/separation events. All118 drafts read before one timed source pass;one retained within-pass sound-glyph refinement,zero retries or post-OCR crop changes. Printed name/spelling/numeric anomalies and1/l,x/×,broken-bar and sound-vowel candidates remain explicit. No syntax repair or program execution.",
         "The first496-file export remains unchanged. The selected metadata revision clarifies that0032 is a child of group0029;article.txt,listing.txt and corrections.json remain byte-identical. An absolute original-execution review-receipt pointer was also retained and revised to a repository-relative pointer before export;source text/timing unchanged.",
         "All52 invalid cases reject. All20032 earlier July files,thirty core modules and nine frozen adapters remain exact;the unchanged214-test batch19 baseline is reused. One canonical task,six mapped pages,eight outside lookups. All41 existing classification evidence pins and clinic-group completion status remain unchanged.",
-        "Remaining243–247 listings and actual article assembly are pending. Whole July560-page accounting,cover and standalone closeout remain incomplete. Donated TOCs remain an explicit verification limit;no automatic CD3 associations."
+        "Remaining243–247 listings and actual article assembly are pending. Whole July560-page accounting,cover and standalone closeout remain incomplete. Donated TOCs remain an explicit verification limit;no automatic CD3 associations.",
+        "Batch30 preserves final243–247/printed232–236 as immutable partial native buttons-b. All125 selected,independent and fresh-process files match:35 exact crops,27 OCR outcomes,seven blocks,556 physical reading rows,7644 current typed ranges and four earlier-native contexts validate.",
+        "Calculator listing1 continues034–335; independent listings2/3/4 preserve01–47,001–149 and01–55. All553 numbered rows include24 blank-numbered rows. Three literal captions and eight original bordered panels retain their roles. Four code groups preserve twenty continuation boundaries; six physical-wrap contexts and1751 technical/numeric occurrences remain source-linked.",
+        "Two pre-OCR maps retain seven left-margin repairs for slanted columns. All27 raw drafts read before one timed source pass;zero retries,within-pass refinements or post-pass changes. Korean comments,literals,lowercase identifiers,printed anomalies and digit1/l,broken-bar and dot/ink candidates remain explicit;no syntax repair or execution.",
+        "One pre-OCR review metadata field prematurely claimed no unpreserved pages. Original receipt retained;selected receipt correctly records243–247 pending at that earlier stage. Source text,map,OCR and timing unchanged.",
+        "All54 invalid cases reject. All22282 earlier July files,thirty core modules,nine frozen adapters and41 classification pins remain exact;unchanged214-test batch19 baseline reused. One canonical task,five mapped pages,two outside lookups.",
+        "All source pages237–247 are now preserved across two immutable natives. Actual article assembly and external clinic-group0029 child0032 completion remain pending. Whole July560-page accounting,cover,standalone closeout and incomplete donated TOCs remain explicit;no automatic CD3 association."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-29-r02/buttons-a",
+        "directory": "archive/pdf/1995-07/packages/batch-30-r01/buttons-b",
         "article_id": "scan-maso-1995-07-toc-0032",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-29-r02/buttons-a/manifest.json",
-          "sha256": "7bdcf2491e994b76653638682be7802ab1638d93aee79ecd38c65b0e1ef84858",
-          "bytes": 83172
+          "path": "archive/pdf/1995-07/packages/batch-30-r01/buttons-b/manifest.json",
+          "sha256": "c96afb81d74a24fc3e9cc0c3b7a620e8877000953e0b68305f8cd228fd440fd0",
+          "bytes": 20855
         },
         "coverage": {
           "pdf_pages": [
-            237,
-            238,
-            239,
-            240,
-            241,
-            242
-          ],
-          "printed_pages": [
-            "226",
-            "227",
-            "228",
-            "229",
-            "230",
-            "231"
-          ],
-          "regions": 133,
-          "blocks": 104,
-          "figures": 15,
-          "deferred_pdf_pages": [
             243,
             244,
             245,
             246,
             247
-          ]
+          ],
+          "printed_pages": [
+            "232",
+            "233",
+            "234",
+            "235",
+            "236"
+          ],
+          "regions": 35,
+          "blocks": 7,
+          "figures": 8,
+          "deferred_pdf_pages": []
         },
         "body_pages_complete": false,
         "prose_complete": true,
@@ -3793,13 +3791,7 @@
           247
         ],
         "remaining_extent_unverified": false,
-        "remaining_source_pages": [
-          243,
-          244,
-          245,
-          246,
-          247
-        ],
+        "remaining_source_pages": [],
         "segment_scope": {
           "full_pdf_pages": [
             237,
@@ -3815,6 +3807,25 @@
             247
           ],
           "current_pdf_pages": [
+            243,
+            244,
+            245,
+            246,
+            247
+          ],
+          "current_printed_pages": [
+            "232",
+            "233",
+            "234",
+            "235",
+            "236"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": false,
+          "prose_complete": true,
+          "actual_start_pdf_page": 237,
+          "observed_ending_pdf_page": 247,
+          "earlier_native_pdf_pages": [
             237,
             238,
             239,
@@ -3822,46 +3833,29 @@
             241,
             242
           ],
-          "current_printed_pages": [
-            "226",
-            "227",
-            "228",
-            "229",
-            "230",
-            "231"
-          ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": true,
-          "actual_start_pdf_page": 237,
-          "observed_ending_pdf_page": 247,
-          "remaining_source_pages": [
-            243,
-            244,
-            245,
-            246,
-            247
-          ],
+          "remaining_source_pages": [],
           "assembly_required": true,
           "complete_article_assembly_pending": true,
           "remaining_extent_unverified": false,
+          "final_native_segment": true,
+          "source_extent_preserved_across_natives": true,
           "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-29/source-reviewed.json",
-            "sha256": "44088c1717b56b1f7cba6dd868fa9e3823bf6f16d19a473ecb9ab33ba9fe014c",
-            "bytes": 2454
+            "path": "archive/pdf/1995-07/restoration/batch-30/source-reviewed.json",
+            "sha256": "61934022c82cd76c97a6c8ea8f2ef69d2e279a0cbdc57b5d5e9d93f19a03e41c",
+            "bytes": 2212
           }
         },
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-29/validation.json",
-          "sha256": "8f02ac50dd7defc1f775e9e659f91148f5d08f023fd9d195c105d4a16b14d3f7",
-          "bytes": 2012
+          "path": "archive/pdf/1995-07/restoration/batch-30/validation.json",
+          "sha256": "65255f8bce47972efbaa22999ecfda3eb46d5d4a82f684354e76d6da3e66e4fe",
+          "bytes": 2078
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-29/reproduction.json",
-          "sha256": "5c51fcf05752a1bc3038be8758cdcc38a8d6843c0e638558a78e2741ced1ac04",
-          "bytes": 94410
+          "path": "archive/pdf/1995-07/restoration/batch-30/reproduction.json",
+          "sha256": "26cb5aecf2693273b31c834b01c8f65099fe12bc0e24c29779c1ad5eab06f390",
+          "bytes": 24609
         },
-        "checkpoint": "batch-29",
+        "checkpoint": "batch-30",
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-29-r02/buttons-a",
@@ -3988,6 +3982,120 @@
               "bytes": 94410
             },
             "checkpoint": "batch-29"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-30-r01/buttons-b",
+            "article_id": "scan-maso-1995-07-toc-0032",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-30-r01/buttons-b/manifest.json",
+              "sha256": "c96afb81d74a24fc3e9cc0c3b7a620e8877000953e0b68305f8cd228fd440fd0",
+              "bytes": 20855
+            },
+            "coverage": {
+              "pdf_pages": [
+                243,
+                244,
+                245,
+                246,
+                247
+              ],
+              "printed_pages": [
+                "232",
+                "233",
+                "234",
+                "235",
+                "236"
+              ],
+              "regions": 35,
+              "blocks": 7,
+              "figures": 8,
+              "deferred_pdf_pages": []
+            },
+            "body_pages_complete": false,
+            "prose_complete": true,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 237,
+            "observed_ending_pdf_page": 247,
+            "full_pdf_pages": [
+              237,
+              238,
+              239,
+              240,
+              241,
+              242,
+              243,
+              244,
+              245,
+              246,
+              247
+            ],
+            "remaining_extent_unverified": false,
+            "remaining_source_pages": [],
+            "segment_scope": {
+              "full_pdf_pages": [
+                237,
+                238,
+                239,
+                240,
+                241,
+                242,
+                243,
+                244,
+                245,
+                246,
+                247
+              ],
+              "current_pdf_pages": [
+                243,
+                244,
+                245,
+                246,
+                247
+              ],
+              "current_printed_pages": [
+                "232",
+                "233",
+                "234",
+                "235",
+                "236"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": true,
+              "actual_start_pdf_page": 237,
+              "observed_ending_pdf_page": 247,
+              "earlier_native_pdf_pages": [
+                237,
+                238,
+                239,
+                240,
+                241,
+                242
+              ],
+              "remaining_source_pages": [],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "final_native_segment": true,
+              "source_extent_preserved_across_natives": true,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-30/source-reviewed.json",
+                "sha256": "61934022c82cd76c97a6c8ea8f2ef69d2e279a0cbdc57b5d5e9d93f19a03e41c",
+                "bytes": 2212
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-30/validation.json",
+              "sha256": "65255f8bce47972efbaa22999ecfda3eb46d5d4a82f684354e76d6da3e66e4fe",
+              "bytes": 2078
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-30/reproduction.json",
+              "sha256": "26cb5aecf2693273b31c834b01c8f65099fe12bc0e24c29779c1ad5eab06f390",
+              "bytes": 24609
+            },
+            "checkpoint": "batch-30"
           }
         ],
         "all_native_pdf_pages": [
@@ -3996,9 +4104,14 @@
           239,
           240,
           241,
-          242
+          242,
+          243,
+          244,
+          245,
+          246,
+          247
         ],
-        "source_extent_preserved_across_natives": false
+        "source_extent_preserved_across_natives": true
       }
     },
     {
@@ -5952,6 +6065,42 @@
         "sha256": "5c51fcf05752a1bc3038be8758cdcc38a8d6843c0e638558a78e2741ced1ac04",
         "bytes": 94410
       }
+    },
+    {
+      "name": "1995-07-batch-30",
+      "status": "complete",
+      "completed_at": "2026-11-06T18:48:07.664665+00:00",
+      "goal": "Preserve final child0032 listing pages243–247 as second immutable native;actual assembly separate.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0032"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        243,
+        244,
+        245,
+        246,
+        247
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        242,
+        248
+      ],
+      "recognition_invocations": 27,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-30/validation.json",
+        "sha256": "65255f8bce47972efbaa22999ecfda3eb46d5d4a82f684354e76d6da3e66e4fe",
+        "bytes": 2078
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-30/reproduction.json",
+        "sha256": "26cb5aecf2693273b31c834b01c8f65099fe12bc0e24c29779c1ad5eab06f390",
+        "bytes": 24609
+      }
     }
   ],
   "totals": {
@@ -5967,7 +6116,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore final child0032 listing pages243–247/printed232–236 as a second immutable native. Continue listing1 calculator at034 through335; preserve listing2 rows01–47 across245–246,listing3 rows001–149 across246–247,and listing4 rows01–55 on247. Verify every numbered row,column order,Korean strings/comments,indentation and glyph candidates without syntax repair. Then actually assemble237–247 and externally resolve clinic group0029 child0032 completion while preserving prior pending evidence. No new prose OCR is needed. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Keep two-task/six-mapped/twenty-lookup limits,all prior natives and41 classification pins;no automatic CD3 associations or reader rebuild/deployment.",
+  "next_checkpoint": "Actually assemble child0032 across PDF237–247/printed226–236 from independently regenerated immutable buttons-a(batch29-r02) and buttons-b(batch30-r01). Join only calculator listing1 row033→034 across natives; preserve seven short/example code blocks separately from four numbered listings. Validate complete335/47/149/55 numbered-row contexts,all source/caption/table/author/discrepancy/candidate contexts and original assets. Then externally resolve clinic group0029 child0032 completion while retaining earlier pending evidence. No new OCR/source correction is required. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve all prior natives and41 classification pins;no automatic CD3 association or reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

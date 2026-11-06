@@ -476,8 +476,32 @@ and nine frozen adapters remain exact; the unchanged 214-test batch-19 baseline
 is reused. Existing clinic status and all 41 classification evidence pins remain
 unchanged. No automatic CD3 association or program execution is claimed.
 Totals: eleven readable articles, one partial, three groups, seventeen references
-and 71 unresolved identities. Next: restore final listing pages 243–247, then
-actually assemble 237–247 and resolve clinic group 0029 child 0032 externally.
+and 71 unresolved identities at that checkpoint. Final listing pages are preserved
+by batch 30 below; actual article assembly remains separate.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+
+July batch 30 preserves child 0032 final listing pages 243–247/printed 232–236
+as a second immutable native. All 125 selected/independent/fresh-process files
+match: 35 exact crops, 27 OCR outcomes, seven blocks, 556 physical reading rows,
+7,644 current typed ranges and four earlier-native contexts validate. Calculator
+listing 1 continues 034–335; listings 2, 3 and 4 preserve 01–47, 001–149 and 01–55.
+All 553 numbered rows include 24 blank-numbered rows. Three literal captions and
+eight original bordered panels keep distinct roles. Four code groups retain twenty
+continuation boundaries, six physical-wrap contexts and 1,751 technical fields.
+Two pre-OCR maps retain seven left-margin repairs. One timed source pass, zero
+retries, zero text refinements and zero post-pass changes. Korean comments,
+case-sensitive source spellings, printed anomalies and digit1/l, broken-bar and
+dot/ink candidates remain explicit. No syntax repair or execution is claimed.
+A premature coverage field in the pre-OCR review receipt was corrected with the
+original retained; source text, maps, OCR and correction timing are unchanged.
+All 54 invalid cases reject. All 22,282 earlier July files, thirty core modules,
+nine frozen adapters and 41 classification pins remain exact; the unchanged
+214-test batch-19 baseline is reused. Clinic child completion remains pending.
+Totals remain eleven readable articles, one partial, three groups, seventeen
+references and 71 unresolved identities. All source pages 237–247 are preserved
+across two natives. Next: actually assemble 237–247, joining only calculator
+033→034 across natives, then resolve clinic group 0029 child 0032 externally.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOC scans remain an explicit limit.
 
