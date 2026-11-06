@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-06 — July domestic child references complete
+
+July batch 05 finalizes Daewoo 0005 and Newtec 0006 as non-owning references into
+complete domestic 0001. Daewoo is complete on PDF 172/printed 161; Newtec is complete
+on PDF 174/printed 163. Four classification files reproduce independently and in a
+fresh process. All 26 typed ranges, 11 regions, seven blocks, two contacts, three
+product fields, three continuations and one photo/caption validate; all 25 invalid
+cases reject. The 765-file parent, 3,333 earlier July files and thirty core modules
+remain unchanged; the 214-test baseline is reused. No new OCR or source correction.
+All five domestic children 0002–0006 are final. Totals: one readable, zero partials,
+five references and 97 unresolved. Next: locate and restore overseas 0007 from
+PDF 177/printed 166 in bounded segments. Whole July 560-page accounting, cover
+verification and separate standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-05/handoff.json`.
+
 ## 2026-11-06 — July IBM/Lotus and GUI references complete
 
 July batch 04 finalizes IBM/Lotus 0003 and GUI 0004 as non-owning references into

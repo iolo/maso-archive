@@ -463,23 +463,97 @@
       "toc_entry_id": "maso-1995-07-toc-0005",
       "title": "대우통신, 펜티엄 장착 멀티미디어 PC",
       "parent_id": "maso-1995-07-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 05 verifies contents page 5 and complete notices as non-owning references into assembled Domestic Network 0001. Canonical titles, parent, null folios and bylines remain unchanged; no duplicate child bodies.",
+        "Daewoo 0005 is complete on PDF 172/printed 161: expanded 75MHz title, model with preserved physical line wrap, three prose regions, two boundaries, price and contact. The nearby Humax photo/caption and Linux continuation are excluded. Newtec 0006 is complete on PDF 174/printed 163: expanded multimedia-notebook title, two prose regions, price range, contact and own photo/caption. Preceding Jakarta and adjacent product notices are excluded. Historical product claims remain unverified.",
+        "Four selected/independent/fresh-process classification files match. All 26 typed ranges, 11 regions, seven blocks, two contacts, three product fields, three continuations and one photo/caption validate; 25 invalid cases reject. All 3,333 earlier July files, 765 parent files and 30 core modules remain unchanged; the 214-test baseline is reused. No new OCR or source correction. External disposition retains final 0002–0006 with no pending domestic children."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+      "section": {
+        "anchor": "b-daewoo-head",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 172
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+        "directory": "archive/pdf/1995-07/packages/article-domestic-r01",
+        "anchor": "b-daewoo-head",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 172,
+        "source_heading_printed_page": "161",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-domestic-r01/manifest.json",
+          "sha256": "b357f33e1a1a2b6fff52d7d0c28a5dc2b0bc101a118d7ec004435ac60d761378",
+          "bytes": 135313
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-05-r01/child-0005-anchor.json",
+          "sha256": "e8b79c8524047ac1049d85c82d00b0fdf32887afefc91ae0ac2bc873c04c97d7",
+          "bytes": 19560
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-05/validation.json",
+          "sha256": "339181fb7383302a2cf1e9522c22468733f749185cd7a2fbdd58db3501d13ca9",
+          "bytes": 1515
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0006",
       "title": "뉴텍, CD-ROM 드라이브 장착한 노트북",
       "parent_id": "maso-1995-07-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 05 verifies contents page 5 and complete notices as non-owning references into assembled Domestic Network 0001. Canonical titles, parent, null folios and bylines remain unchanged; no duplicate child bodies.",
+        "Daewoo 0005 is complete on PDF 172/printed 161: expanded 75MHz title, model with preserved physical line wrap, three prose regions, two boundaries, price and contact. The nearby Humax photo/caption and Linux continuation are excluded. Newtec 0006 is complete on PDF 174/printed 163: expanded multimedia-notebook title, two prose regions, price range, contact and own photo/caption. Preceding Jakarta and adjacent product notices are excluded. Historical product claims remain unverified.",
+        "Four selected/independent/fresh-process classification files match. All 26 typed ranges, 11 regions, seven blocks, two contacts, three product fields, three continuations and one photo/caption validate; 25 invalid cases reject. All 3,333 earlier July files, 765 parent files and 30 core modules remain unchanged; the 214-test baseline is reused. No new OCR or source correction. External disposition retains final 0002–0006 with no pending domestic children."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+      "section": {
+        "anchor": "b-newtec-head",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 174
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+        "directory": "archive/pdf/1995-07/packages/article-domestic-r01",
+        "anchor": "b-newtec-head",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 174,
+        "source_heading_printed_page": "163",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-domestic-r01/manifest.json",
+          "sha256": "b357f33e1a1a2b6fff52d7d0c28a5dc2b0bc101a118d7ec004435ac60d761378",
+          "bytes": 135313
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-05-r01/child-0006-anchor.json",
+          "sha256": "d94db3966be8e6998552267daac1c4d88e4ac1cc7a662c3e7630e220e1319ea1",
+          "bytes": 17706
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-05/validation.json",
+          "sha256": "339181fb7383302a2cf1e9522c22468733f749185cd7a2fbdd58db3501d13ca9",
+          "bytes": 1515
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0007",
@@ -1693,6 +1767,41 @@
         "sha256": "8c1bb2489c53b04890f49f91cc9d751999aff396a985db40281a3f3c4caf69c7",
         "bytes": 1115
       }
+    },
+    {
+      "name": "1995-07-batch-05",
+      "status": "complete",
+      "completed_at": "2026-11-06T10:51:41.321625+00:00",
+      "goal": "Finalize Daewoo0005 and Newtec0006 as non-owning references.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0005",
+        "maso-1995-07-toc-0006"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        5,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-05/validation.json",
+        "sha256": "339181fb7383302a2cf1e9522c22468733f749185cd7a2fbdd58db3501d13ca9",
+        "bytes": 1515
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-05/reproduction.json",
+        "sha256": "5bc3822975941e2a78070fe53939412c3131ddb7218295212dcb2eca1278ac8c",
+        "bytes": 1115
+      }
     }
   ],
   "totals": {
@@ -1700,15 +1809,15 @@
     "readable": 1,
     "partial": 0,
     "group_headings": 0,
-    "section_references": 3,
-    "unresolved": 99
+    "section_references": 5,
+    "unresolved": 97
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Finalize domestic children0005/0006 against complete assembled0001: Daewoo multimedia PC at PDF172/printed161 and Newtec CD-ROM notebook at PDF174/printed163. Verify full source scopes, vendor labels, contacts and figures/captions; preserve canonical titles and missing folios/bylines. Resolve frozen pending notes externally, retaining final0002–0004 references. Then continue overseas0007 from177/166. Complete remaining July outcomes,560-page accounting,cover and separate standalone closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Locate and restore overseas network0007 from PDF177/printed166. Verify opening, ending and continuations against source pages before mapping its first segment, with at most two canonical tasks, six mapped pages and twenty outside lookups. Preserve its child notices separately and defer final child references until actual complete parent assembly. All five domestic children0002–0006 are final; keep their immutable packages and cumulative external disposition. Complete remaining July outcomes,560-page accounting,cover and separate standalone closeout; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -1734,6 +1843,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-04-r01/parent-status-dispositions.json",
       "sha256": "52371bdcb4c11c02ab1057ace1d6d42a83f7dddefb072d74af1a1c504cc51973",
       "bytes": 2977
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-05-r01/child-0005-anchor.json",
+      "sha256": "e8b79c8524047ac1049d85c82d00b0fdf32887afefc91ae0ac2bc873c04c97d7",
+      "bytes": 19560
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-05-r01/child-0006-anchor.json",
+      "sha256": "d94db3966be8e6998552267daac1c4d88e4ac1cc7a662c3e7630e220e1319ea1",
+      "bytes": 17706
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-05-r01/parent-status-dispositions.json",
+      "sha256": "4427704d965cbaf0641663e5d9bf71dab910ec8f6fca3acd4b21075789ffe9c2",
+      "bytes": 3749
     }
   ]
 }
