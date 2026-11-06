@@ -193,7 +193,7 @@ Its continuation completes in batch 15 below; the earlier native remains unchang
 
 July batch 15 preserves GNU continuation PDF 309–314/printed 298–303 as a
 third immutable native. All 229 selected/independent/fresh-process files match:
-58 exact crops, 54 OCR outcomes, 49 blocks, 505 reading rows and 2, 622 current
+58 exact crops, 54 OCR outcomes, 49 blocks, 505 reading rows and 2,622 current
 text ranges, plus six original earlier-native context ranges. Final directory
 panels retain 266 rows, 532 data cells, sixteen headers and fourteen repeated
 program names. Part 1 ends 312 and Part 2 opens 313 with its title/author/drop-cap;
@@ -201,7 +201,7 @@ eight Emacs modes and the deliberately erroneous five-line C example remain.
 Five local joins, twelve section contexts, three Runeberg conditions and twenty
 source fields validate. Four original images retain null captions. All 53 invalid
 cases reject. Two pre-OCR maps, one timed source pass, zero retries or within/post-pass
-source changes. All 7, 169 earlier July files, thirty core modules and six frozen
+source changes. All 7,169 earlier July files, thirty core modules and six frozen
 adapter files remain exact; the unchanged 214-test batch 08 baseline is reused.
 Totals remain two readable, one partial, fourteen references and 86 unresolved.
 Next: GNU 315–320, beginning Step 2 compilation on 315, without a prose/code join
