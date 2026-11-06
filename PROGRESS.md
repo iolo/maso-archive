@@ -1,5 +1,47 @@
 # Progress
 
+## 2026-11-06 — March CD-title and hardware headings
+
+Batch 80 classifies CD-title0073 and hardware0076 as non-owning headings.
+Their repeated source banners organize independently titled reviews; neither
+heading owns a separate introduction, shared narrative or duplicate body.
+Canonical titles, parent links and folios184/188 remain unchanged. Source banners
+CD 타이틀 광장 and 하드웨어 are retained separately from canonical labels.
+
+All eleven source pages (contents5 and191–200) were inspected. MSDN0074 is complete
+on192 / printed184; Seorak-tour0075 on193 / printed185. ShareVision0077 spans196–197
+/ printed188–189, and Courier0078 spans198–199 / printed190–191. These four children
+remain unresolved until mapping/restoration; no child folios or bylines are inferred.
+Five independent unlisted CD reviews occupy194–195: Computer Select, Gyeongju
+Museum, Man Enough, Thumbelina and Izeum first album. Their own titles, bodies,
+images, product metadata and separators establish independence. Keep both pages
+outside canonical extraction and retain their evidence for final page accounting.
+
+Five classification/evidence files reproduce independently and in a fresh process.
+Twenty ownership/accounting faults reject; six library status fields resolve
+externally. All 67,876 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused. No mapping, OCR or corrections occurred.
+Library0067 and commercial0068 remain non-owning; the four commercial reviews
+remain readable. Full library extent and book/price boundaries remain pending.
+
+Current classifications: `archive/pdf/1995-03/classifications/batch-80-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-80/`.
+Eighty-seven final classification/accounting evidence pins are retained. Totals:
+38 readable, zero partial, eighteen non-owning headings, seventeen references and
+17 unresolved. This checkpoint adds no restored article body.
+
+Next restore MSDN0074 on192 and Seorak-tour0075 on193. Preserve title/deck variants,
+product information, both MSDN screenshots and three overlapping Seorak screenshots
+with their captions and shaped reading order. Then restore ShareVision196–197 and
+Courier198–199. Keep unlisted CD194–195, public-software186–189 and game-room190–191
+outside extraction with final page accounting. FLC0019 awaits bounded lookup or
+issue accounting; book/price extents remain pending.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July. Exact glyphs, source
+bytes, historical claims, full proofreading and human acceptance remain unverified.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March SourceTong and Morph Studio reviews
 
 Batch 79 completes SourceTong0071 on PDF184 / printed176 and Morph0072 on
