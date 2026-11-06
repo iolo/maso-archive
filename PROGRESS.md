@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-06 — July IBM/Lotus and GUI references complete
+
+July batch 04 finalizes IBM/Lotus 0003 and GUI 0004 as non-owning references into
+complete domestic 0001. IBM spans PDF 168–169/printed 157–158; GUI is complete on PDF 167/printed 156.
+The separate Kim and MUD interviews remain parent-owned, with Kim's related GUI
+topic explicit. Four classification files reproduce independently and in a fresh
+process; 38 typed ranges, 17 regions, eight blocks, two photos/captions and seven
+continuation boundaries validate. All 24 invalid cases reject. All 3,301 earlier
+July files, 765 parent files and 30 core modules remain exact; the 214-test baseline is reused.
+No new OCR or source correction. Totals: one readable, zero partials, three references
+and 99 unresolved. Next: children 0005/0006, then overseas 0007. Whole July 560-page
+accounting, cover verification and separate standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-04/handoff.json`. No reader rebuild.
+
 ## 2026-11-06 — July domestic assembly and SEK reference complete
 
 Batch 03 completes domestic 0001 across PDF 165–176 from two immutable natives.

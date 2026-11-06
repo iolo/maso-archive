@@ -49,9 +49,20 @@ PDF tests pass; all 2,492 earlier July files and thirty core modules remain exac
 SEK child 0002 is final at `a-sek-title`, retaining the photo continuation through 166.
 Three sidecars, 25 child ranges and 51 combined invalid cases validate. External
 status dispositions preserve immutable creation-time flags. Totals: one readable,
-zero partials, one reference and 101 unresolved. Next: children 0003/0004, then 0005/0006
-and overseas 0007. See [July progress](docs/progress/9507.md) and its ledger.
-The full July goal, 560-page accounting, cover and standalone closeout remain pending.
+zero partials, one reference and 101 unresolved at that checkpoint. Children 0003/0004
+are now finalized by batch 04 below; its immutable evidence remains unchanged.
+
+July batch 04 finalizes IBM/Lotus 0003 and GUI 0004 as non-owning references into
+complete domestic 0001. IBM spans PDF 168–169/printed 157–158; GUI is complete on PDF 167/printed 156.
+The separate Kim and MUD interviews remain parent-owned, with Kim's related GUI
+topic explicit. Four classification files reproduce independently and in a fresh
+process; 38 typed ranges, 17 regions, eight blocks, two photos/captions and seven
+continuation boundaries validate. All 24 invalid cases reject. All 3,301 earlier
+July files, 765 parent files and 30 core modules remain exact; the 214-test baseline is reused.
+No new OCR or source correction. Totals: one readable, zero partials, three references
+and 99 unresolved. Next: children 0005/0006, then overseas 0007. Whole July 560-page
+accounting, cover verification and separate standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
 March batch 01 completes editorial0001 on PDF151/observed printed143: 25

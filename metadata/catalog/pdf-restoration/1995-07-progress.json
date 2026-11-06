@@ -367,23 +367,97 @@
       "toc_entry_id": "maso-1995-07-toc-0003",
       "title": "IBM의 로터스 합병, 마이크로소프트의 독과점은 이제 끝",
       "parent_id": "maso-1995-07-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 04 verifies contents5 and complete source scopes as non-owning references into assembled Domestic Network0001. Canonical order, titles, parent, null folios and bylines remain unchanged; no duplicate child bodies.",
+        "IBM0003 spans168–169/157–158, retaining its six prose columns, two-line deck, reporter, five continuation boundaries and differing printed acquisition amounts. Kim168 and MUD169 interview boxes remain independently addressable parent contexts. GUI0004 is complete167/156, including title/deck, three prose columns, two photos/captions and wrapped reporter. Related Kim interview is not a main-prose continuation.",
+        "Four selected/independent/fresh-process classification files match. All38 typed ranges,17 regions,eight blocks,two captions andseven continuations validate;24 invalid cases reject. All3301 prior July files,765 parent files and30 core modules unchanged;214-test baseline reused. No new OCR or source correction. External disposition retains SEK0002 and leaves0005/0006 pending."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+      "section": {
+        "anchor": "a-ibm-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 168
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+        "directory": "archive/pdf/1995-07/packages/article-domestic-r01",
+        "anchor": "a-ibm-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 168,
+        "source_heading_printed_page": "157",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-domestic-r01/manifest.json",
+          "sha256": "b357f33e1a1a2b6fff52d7d0c28a5dc2b0bc101a118d7ec004435ac60d761378",
+          "bytes": 135313
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-04-r01/child-0003-anchor.json",
+          "sha256": "71cc7ae0f8269e87f7eabca0e304bee89557e8ac53d722d0a94c04ea390cbabf",
+          "bytes": 31688
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-04/validation.json",
+          "sha256": "a16681e6ffc4bae26e6df82e66df458a1bac18a7df0b3fe7bb52ee9f8450dd7f",
+          "bytes": 1548
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0004",
       "title": "GUI, 시각 장애자에게 또 다른 '장애' 아니다",
       "parent_id": "maso-1995-07-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 04 verifies contents5 and complete source scopes as non-owning references into assembled Domestic Network0001. Canonical order, titles, parent, null folios and bylines remain unchanged; no duplicate child bodies.",
+        "IBM0003 spans168–169/157–158, retaining its six prose columns, two-line deck, reporter, five continuation boundaries and differing printed acquisition amounts. Kim168 and MUD169 interview boxes remain independently addressable parent contexts. GUI0004 is complete167/156, including title/deck, three prose columns, two photos/captions and wrapped reporter. Related Kim interview is not a main-prose continuation.",
+        "Four selected/independent/fresh-process classification files match. All38 typed ranges,17 regions,eight blocks,two captions andseven continuations validate;24 invalid cases reject. All3301 prior July files,765 parent files and30 core modules unchanged;214-test baseline reused. No new OCR or source correction. External disposition retains SEK0002 and leaves0005/0006 pending."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+      "section": {
+        "anchor": "a-gui-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 167
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0001",
+        "directory": "archive/pdf/1995-07/packages/article-domestic-r01",
+        "anchor": "a-gui-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 167,
+        "source_heading_printed_page": "156",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-domestic-r01/manifest.json",
+          "sha256": "b357f33e1a1a2b6fff52d7d0c28a5dc2b0bc101a118d7ec004435ac60d761378",
+          "bytes": 135313
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-04-r01/child-0004-anchor.json",
+          "sha256": "bf6412b65866cecfef290602b04e28213365bc21fc9f50ffc82bfcc5fe686a20",
+          "bytes": 25345
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-04/validation.json",
+          "sha256": "a16681e6ffc4bae26e6df82e66df458a1bac18a7df0b3fe7bb52ee9f8450dd7f",
+          "bytes": 1548
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0005",
@@ -1584,6 +1658,41 @@
         "sha256": "268a6deac116d823356073cade61a9a5cf2aae057c7760f563f43e142f7fbdbc",
         "bytes": 987
       }
+    },
+    {
+      "name": "1995-07-batch-04",
+      "status": "complete",
+      "completed_at": "2026-11-06T10:42:16.435820+00:00",
+      "goal": "Finalize IBM/Lotus0003 and GUI0004 as non-owning references.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0003",
+        "maso-1995-07-toc-0004"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        5,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-04/validation.json",
+        "sha256": "a16681e6ffc4bae26e6df82e66df458a1bac18a7df0b3fe7bb52ee9f8450dd7f",
+        "bytes": 1548
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-04/reproduction.json",
+        "sha256": "8c1bb2489c53b04890f49f91cc9d751999aff396a985db40281a3f3c4caf69c7",
+        "bytes": 1115
+      }
     }
   ],
   "totals": {
@@ -1591,15 +1700,15 @@
     "readable": 1,
     "partial": 0,
     "group_headings": 0,
-    "section_references": 1,
-    "unresolved": 101
+    "section_references": 3,
+    "unresolved": 99
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Finalize domestic children0003/0004 as non-owning references into complete parent0001: IBM/Lotus168–169 and GUI167, with source-based decisions for related independent Kim/MUD interview scopes. Preserve original ordering,title variants,credits and image contexts. Then classify Daewoo0005 on172 and Newtec0006 on174. No duplicate bodies or new OCR expected. Keep two-task/six-mapped/twenty-lookup limits. Continue overseas0007 from177/166 and all remaining July identities,560-page accounting,cover and separate standalone closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Finalize domestic children0005/0006 against complete assembled0001: Daewoo multimedia PC at PDF172/printed161 and Newtec CD-ROM notebook at PDF174/printed163. Verify full source scopes, vendor labels, contacts and figures/captions; preserve canonical titles and missing folios/bylines. Resolve frozen pending notes externally, retaining final0002–0004 references. Then continue overseas0007 from177/166. Complete remaining July outcomes,560-page accounting,cover and separate standalone closeout; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -1610,6 +1719,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/parent-status-dispositions.json",
       "sha256": "11f8517d2093918b36d46d995bc372d2ee51e943fd50225560e2fcabb4dc4d5f",
       "bytes": 1932
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-04-r01/child-0003-anchor.json",
+      "sha256": "71cc7ae0f8269e87f7eabca0e304bee89557e8ac53d722d0a94c04ea390cbabf",
+      "bytes": 31688
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-04-r01/child-0004-anchor.json",
+      "sha256": "bf6412b65866cecfef290602b04e28213365bc21fc9f50ffc82bfcc5fe686a20",
+      "bytes": 25345
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-04-r01/parent-status-dispositions.json",
+      "sha256": "52371bdcb4c11c02ab1057ace1d6d42a83f7dddefb072d74af1a1c504cc51973",
+      "bytes": 2977
     }
   ]
 }

@@ -41,9 +41,19 @@ Batch 03 now completes actual domestic 165–176 assembly and SEK child 0002:
 source contexts; 8,826 current ranges and 39,181 scalar values validate. Three
 classification sidecars and 25 child ranges reproduce; 51 invalid cases reject.
 No new OCR/source correction; all 214 fresh PDF tests pass and 2,492 earlier July
-files/thirty core modules remain exact. Next: children 0003/0004, then 0005/0006
-and overseas 0007. See [July progress](docs/progress/9507.md). Totals: one readable,
-zero partials, one reference and 101 unresolved; whole issue remains in progress.
+files/thirty core modules remain exact. Its next child pair completes below.
+
+July batch 04 finalizes IBM/Lotus 0003 and GUI 0004 as non-owning references into
+complete domestic 0001. IBM spans PDF 168–169/printed 157–158; GUI is complete on PDF 167/printed 156.
+The separate Kim and MUD interviews remain parent-owned, with Kim's related GUI
+topic explicit. Four classification files reproduce independently and in a fresh
+process; 38 typed ranges, 17 regions, eight blocks, two photos/captions and seven
+continuation boundaries validate. All 24 invalid cases reject. All 3,301 earlier
+July files, 765 parent files and 30 core modules remain exact; the 214-test baseline is reused.
+No new OCR or source correction. Totals: one readable, zero partials, three references
+and 99 unresolved. Next: children 0005/0006, then overseas 0007. Whole July 560-page
+accounting, cover verification and separate standalone closeout remain pending.
+See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
