@@ -5981,23 +5981,135 @@
       "toc_entry_id": "maso-1995-03-toc-0077",
       "title": "화상회의 시스템 셰어비젼",
       "parent_id": "maso-1995-03-toc-0076",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 82 completes sharevision on PDF [196, 197] / individually observed printed ['188', '189']. Canonical title, parent, null child folio and absent byline remain unchanged; group folio is not inherited.",
+        "All 148 native files reproduce independently and in a fresh process. Both hardware reviews retain 75 exact crops,68 original OCR outcomes,54 blocks,372 physical rows,28 main paragraphs,seven image assets,six captions,twelve section headings and fourteen LF continuation boundaries;1,373 typed ranges validate.",
+        "ShareVision retains four original photos/screenshots and their small printed overlaps without reconstructing occluded pixels or counting overlaps as additional figures. Courier retains two photos and the original MS ending mark. Fifteen product fields,four price contexts,two contacts and twenty-one specification occurrences retain source claims. Name variants and printed terbo remain literal.",
+        "Sixty-eight initial recognitions,zero retries,one source correction pass,three maps and four pre-OCR margin refinements;zero within/post-pass repairs. Forty-five native and fourteen status/ownership faults reject. Both canonical hardware reviews are readable across the complete four-page section196–199; its heading0076 remains non-owning.",
+        "All 68395 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Eleven frozen status fields resolve externally. Library0067 remains non-owning with full extent pending. Exact glyphs,encoded bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-82-r01/sharevision",
+        "article_id": "scan-maso-1995-03-toc-0077",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-82-r01/sharevision/manifest.json",
+          "sha256": "f7bfff4abab3d3fc4d171efb6619f0ed31d00e30d7f3a4644cb41fe88ddb29ac",
+          "bytes": 24278
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-82/sharevision-r01/package-recipe.json",
+          "sha256": "8c2b65cee31781b7ece35ed23604c70d5e968e626b523302818909e7ed2922b8",
+          "bytes": 5638
+        },
+        "coverage": {
+          "pdf_pages": [
+            196,
+            197
+          ],
+          "printed_pages": [
+            "188",
+            "189"
+          ],
+          "regions": 38,
+          "blocks": 27,
+          "figures": 4,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 196,
+        "observed_ending_pdf_page": 197,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-82/final-validation.json",
+          "sha256": "670dff98b15d792e27fab2cb0b136f7206faa043aa859243453a2fdc8e0753c2",
+          "bytes": 3510
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-82/reproduction.json",
+          "sha256": "6fe73bec1b5a87e6b97d33cf42d3e0d19add92a54f5f73c0204387305d6c76fe",
+          "bytes": 56273
+        },
+        "checkpoint": "batch-82",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-82-r01/source-creation-dispositions.json",
+          "sha256": "7b0b1db9831de906598d654f520a60d80dcd6906b54f7bf605319d5b2e600f71",
+          "bytes": 7779
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0078",
       "title": "US로보틱스 쿠리어",
       "parent_id": "maso-1995-03-toc-0076",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 82 completes courier on PDF [198, 199] / individually observed printed ['190', '191']. Canonical title, parent, null child folio and absent byline remain unchanged; group folio is not inherited.",
+        "All 147 native files reproduce independently and in a fresh process. Both hardware reviews retain 75 exact crops,68 original OCR outcomes,54 blocks,372 physical rows,28 main paragraphs,seven image assets,six captions,twelve section headings and fourteen LF continuation boundaries;1,373 typed ranges validate.",
+        "ShareVision retains four original photos/screenshots and their small printed overlaps without reconstructing occluded pixels or counting overlaps as additional figures. Courier retains two photos and the original MS ending mark. Fifteen product fields,four price contexts,two contacts and twenty-one specification occurrences retain source claims. Name variants and printed terbo remain literal.",
+        "Sixty-eight initial recognitions,zero retries,one source correction pass,three maps and four pre-OCR margin refinements;zero within/post-pass repairs. Forty-five native and fourteen status/ownership faults reject. Both canonical hardware reviews are readable across the complete four-page section196–199; its heading0076 remains non-owning.",
+        "All 68395 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Eleven frozen status fields resolve externally. Library0067 remains non-owning with full extent pending. Exact glyphs,encoded bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-82-r01/courier",
+        "article_id": "scan-maso-1995-03-toc-0078",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-82-r01/courier/manifest.json",
+          "sha256": "c6b4a52bc897fa35ffc40f30492afc29eecf03a966372ff138b1aeac49e94bd5",
+          "bytes": 24169
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-82/courier-r02/package-recipe.json",
+          "sha256": "8f48ebeb7b239f87eefe345ce55b83f5b5f5aff3d74095bbf96691511b0382dd",
+          "bytes": 5347
+        },
+        "coverage": {
+          "pdf_pages": [
+            198,
+            199
+          ],
+          "printed_pages": [
+            "190",
+            "191"
+          ],
+          "regions": 37,
+          "blocks": 27,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 198,
+        "observed_ending_pdf_page": 199,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-82/final-validation.json",
+          "sha256": "670dff98b15d792e27fab2cb0b136f7206faa043aa859243453a2fdc8e0753c2",
+          "bytes": 3510
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-82/reproduction.json",
+          "sha256": "6fe73bec1b5a87e6b97d33cf42d3e0d19add92a54f5f73c0204387305d6c76fe",
+          "bytes": 56273
+        },
+        "checkpoint": "batch-82",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-82-r01/source-creation-dispositions.json",
+          "sha256": "7b0b1db9831de906598d654f520a60d80dcd6906b54f7bf605319d5b2e600f71",
+          "bytes": 7779
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0079",
@@ -9218,22 +9330,63 @@
         "sha256": "446929ed85157b9c985dbff2e5424626c27cd628d01ad67d4d0ae4d9e2adb8af",
         "bytes": 29444
       }
+    },
+    {
+      "name": "1995-03-batch-82",
+      "status": "complete",
+      "completed_at": "2026-11-06T02:12:56.623958+00:00",
+      "goal": "Restore complete ShareVision0077 and Courier0078; record canonical hardware child and full physical-section completion externally.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0077",
+        "maso-1995-03-toc-0078"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        195,
+        200
+      ],
+      "recognition_invocations": 68,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 3,
+      "pre_ocr_refinement_events": 4,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-82/final-validation.json",
+        "sha256": "670dff98b15d792e27fab2cb0b136f7206faa043aa859243453a2fdc8e0753c2",
+        "bytes": 3510
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-82/reproduction.json",
+        "sha256": "6fe73bec1b5a87e6b97d33cf42d3e0d19add92a54f5f73c0204387305d6c76fe",
+        "bytes": 56273
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 40,
+    "readable": 42,
     "partial": 0,
     "group_headings": 18,
     "section_references": 17,
-    "unresolved": 15
+    "unresolved": 13
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore ShareVision0077 on PDF196–197 / printed188–189 and Courier0078 on198–199 /190–191. Preserve hardware photos,captions,product metadata and each source continuation. Use contents5 and boundaries195/200 within two tasks/six mapped pages/twenty outside lookups. Keep unlisted CD194–195,public-software186–189 and game-room190–191 outside extraction with final page accounting. Book/price extents remain pending; FLC0019 awaits bounded lookup/accounting. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Review book entries0079/0080 using PDF200 onward and contents5; establish exact body extents, independent reviews, ownership and book/price boundaries before mapping. Use at most two canonical tasks,six mapped pages and twenty outside lookups. Keep unlisted CD194–195,public-software186–189 and game-room190–191 outside extraction with final page accounting. Price0081 and full library extent remain pending; FLC0019 awaits bounded lookup/accounting. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -9674,6 +9827,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-81-r01/source-creation-dispositions.json",
       "sha256": "c11173bd6474a7d692a0ac4fd19df3d23f3492b68aa0a1fcda78055f1960db20",
       "bytes": 7495
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-82-r01/source-creation-dispositions.json",
+      "sha256": "7b0b1db9831de906598d654f520a60d80dcd6906b54f7bf605319d5b2e600f71",
+      "bytes": 7779
     }
   ]
 }

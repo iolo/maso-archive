@@ -11,56 +11,54 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have forty readable articles, zero partial, eighteen non-owning headings,
-seventeen section references and 15 unresolved outcomes; July
+identities now have forty-two readable articles, zero partial, eighteen non-owning headings,
+seventeen section references and 13 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 81 completes MSDN0074 on PDF 192 / printed 184 and Seorak0075 on
-PDF 193 / printed 185. Canonical titles, parent links, null child folios and absent
-bylines remain unchanged. CD-title0073 stays non-owning; both canonical child
-bodies are now readable. Its physical section continues through 195, with five
-independent unlisted reviews on 194–195 excluded from canonical extraction and
-retained for final page accounting. Full physical-section transcription is not claimed.
+Batch 82 completes ShareVision0077 on PDF 196–197 / printed 188–189 and
+Courier0078 on PDF 198–199 / printed 190–191. Canonical titles, parent links,
+null child folios and absent bylines remain unchanged. Hardware0076 stays
+non-owning; both canonical child bodies and its complete four-page physical
+section are now restored. The next independent new-books section starts on 200.
 
-All 151 native files and two external evidence/status files reproduce independently
-and in fresh processes. All 36 crops are pixel-exact; 33 OCR outcomes, 23 blocks,
-193 physical rows, 11 main paragraphs, three image assets, four captions and
-715 typed ranges validate. The assets contain five screenshots: two MSDN windows
-and one original composite preserving the three overlapping Seorak windows.
-The composite retains original caption pixels and triangles; three separate
-caption blocks provide searchable text once. No occluded pixels are reconstructed,
-and the lower MSDN screenshot has no invented caption. Ten continuation boundaries
-across seven groups retain LF, including Seorak's shaped narrow columns.
+All 295 native files and two external evidence/status files reproduce independently
+and in fresh processes. All 75 crops are pixel-exact; 68 OCR outcomes, 54 blocks,
+372 physical rows, 28 main paragraphs, seven original image assets, six captions,
+twelve section headings and 1,373 typed ranges validate. Fourteen continuation
+boundaries across thirteen groups retain LF, including both cross-page joins.
+ShareVision's four photos/screenshots retain small original overlaps without
+reconstructing occluded pixels or counting overlaps as additional figures.
+Courier retains two photographs and its original uncaptioned MS ending mark.
 
-Eight product fields, three price contexts, two contacts and twelve specification
-occurrences retain source claims. Printed 정도, 천해, 에니메이티드 and the
-아틀라스/아트라스 variant are not normalized. MSDN's printed level 1 price of
-50만원 and level 2 price of 20만원 remain in that order, both excluding tax;
-Seorak's price remains 미정. Six localized candidates retain source uncertainty.
-There were 33 initial recognitions, zero retries, one correction pass, two maps
-and no crop or within/post-pass repairs. Forty-three native and fourteen status
-faults reject; eleven frozen status fields resolve externally. All 67,917 prior
-March files and thirty core modules remain exact; the unchanged 214-test baseline
-is reused. Exact glyphs, bytes, historical claims, full proofreading and human
+Fifteen product fields, four price contexts, two contacts and twenty-one
+specification occurrences retain historical source claims. ShareVision's
+셰어비젼/쉐어비전 variants and Courier's printed terbo remain literal.
+Prices remain 198만원 for ShareVision and 72만원 for Courier, excluding tax;
+Courier's comparison prices retain their separate qualifications. Four localized
+candidates remain explicit. There were 68 initial recognitions, zero retries,
+one correction pass, three maps and four pre-OCR margin refinements, with zero
+within/post-pass text repairs. Forty-five native and fourteen status faults
+reject; eleven frozen status fields resolve externally. All 68,395 prior March
+files and thirty core modules remain exact; the unchanged 214-test baseline is
+reused. Exact glyphs, bytes, historical claims, full proofreading and human
 acceptance remain unverified.
 
-Packages: `archive/pdf/1995-03/packages/batch-81-r01/`.
-Current CD-title status: `archive/pdf/1995-03/classifications/batch-81-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-81/`.
-Eighty-eight final classification/accounting evidence pins are retained. Totals:
-40 readable, zero partial, eighteen non-owning headings, seventeen references and
-15 unresolved.
+Packages: `archive/pdf/1995-03/packages/batch-82-r01/`.
+Current hardware status: `archive/pdf/1995-03/classifications/batch-82-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-82/`.
+Eighty-nine final classification/accounting evidence pins are retained. Totals:
+42 readable, zero partial, eighteen non-owning headings, seventeen references and
+13 unresolved.
 
-Next restore ShareVision0077 on PDF 196–197 / printed 188–189 and Courier0078 on
-198–199 / 190–191. Preserve photos, screenshots, captions, product metadata and
-source continuations. Use contents 5 and boundaries 195/200. Keep unlisted CD194–195,
-public-software186–189 and game-room190–191 outside extraction with final page
-accounting. Book/price extents remain pending; FLC0019 awaits bounded lookup or
-issue accounting. Library0067's full extent remains unconfirmed.
+Next review book entries0079/0080 using PDF 200 onward and contents 5. Establish
+exact body extents, independent reviews, ownership and book/price boundaries
+before mapping. Price0081 and Library0067's full extent remain pending.
+Keep unlisted CD194–195, public-software186–189 and game-room190–191 outside
+extraction with final page accounting. FLC0019 awaits bounded lookup or accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page

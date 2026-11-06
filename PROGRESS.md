@@ -1,5 +1,52 @@
 # Progress
 
+## 2026-11-06 — March ShareVision and Courier hardware reviews
+
+Batch 82 completes ShareVision0077 on PDF 196–197 / printed 188–189 and
+Courier0078 on PDF 198–199 / printed 190–191. Canonical titles, parent links,
+null child folios and absent bylines remain unchanged. Hardware0076 stays
+non-owning; both canonical child bodies and its complete four-page physical
+section are now restored. The next independent new-books section starts on 200.
+
+All 295 native files and two external evidence/status files reproduce independently
+and in fresh processes. All 75 crops are pixel-exact; 68 OCR outcomes, 54 blocks,
+372 physical rows, 28 main paragraphs, seven original image assets, six captions,
+twelve section headings and 1,373 typed ranges validate. Fourteen continuation
+boundaries across thirteen groups retain LF, including both cross-page joins.
+ShareVision's four photos/screenshots retain small original overlaps without
+reconstructing occluded pixels or counting overlaps as additional figures.
+Courier retains two photographs and its original uncaptioned MS ending mark.
+
+Fifteen product fields, four price contexts, two contacts and twenty-one
+specification occurrences retain historical source claims. ShareVision's
+셰어비젼/쉐어비전 variants and Courier's printed terbo remain literal.
+Prices remain 198만원 for ShareVision and 72만원 for Courier, excluding tax;
+Courier's comparison prices retain their separate qualifications. Four localized
+candidates remain explicit. There were 68 initial recognitions, zero retries,
+one correction pass, three maps and four pre-OCR margin refinements, with zero
+within/post-pass text repairs. Forty-five native and fourteen status faults
+reject; eleven frozen status fields resolve externally. All 68,395 prior March
+files and thirty core modules remain exact; the unchanged 214-test baseline is
+reused. Exact glyphs, bytes, historical claims, full proofreading and human
+acceptance remain unverified.
+
+Packages: `archive/pdf/1995-03/packages/batch-82-r01/`.
+Current hardware status: `archive/pdf/1995-03/classifications/batch-82-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-82/`.
+Eighty-nine final classification/accounting evidence pins are retained. Totals:
+42 readable, zero partial, eighteen non-owning headings, seventeen references and
+13 unresolved.
+
+Next review book entries0079/0080 using PDF 200 onward and contents 5. Establish
+exact body extents, independent reviews, ownership and book/price boundaries
+before mapping. Price0081 and Library0067's full extent remain pending.
+Keep unlisted CD194–195, public-software186–189 and game-room190–191 outside
+extraction with final page accounting. FLC0019 awaits bounded lookup or accounting.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March MSDN and Seorak tour reviews
 
 Batch 81 completes MSDN0074 on PDF 192 / printed 184 and Seorak0075 on
