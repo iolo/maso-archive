@@ -13,6 +13,18 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
+March 1995 is complete as a canonical TOC JSON/assets restoration pass: **53
+readable/sample-reviewed articles**, nineteen groups, seventeen references and one
+eligible leaf with its body unlocated account for all ninety identities. All 545
+pages and 530 original exclusions are accounted. The **17,909-file collection** at
+`archive/pdf/1995-03/reference/` includes the verified donated cover and matches
+independent/fresh-process exports from 82 natives and 21 assemblies. All 214 fresh
+PDF tests pass. Full proofreading and human acceptance remain deferred; the FLC gap
+does not prove original omission or missing extent. July 1995 is next. The reader
+still uses its November 3 selection of nineteen earlier issue passes.
+See [March 1995 progress](docs/progress/9503.md) and private
+`archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json` for reproduction.
+
 March 1993 is complete as a canonical TOC JSON/assets restoration pass with an explicit
 gap: 41 readable/sample-reviewed articles, seven groups, three section references and
 one eligible leaf with its body unlocated account for all 52 identities. All 433 pages
@@ -79,7 +91,7 @@ and cache cleanup is documented in [session cleanup](docs/STORAGE.md#session-cle
 
 ## Read the archive
 
-The current volunteer reader includes **all 19 completed PDF restoration passes**
+The current volunteer reader includes **the 19 PDF restoration passes completed by November 3**
 and **all three CDs**: 680 PDF article records plus 3,386 CD records, **4,066 total**.
 Known partial and unresolved outcomes remain visible. Its reproducible static
 data occupies about 47 GB; no previous release snapshot is required.

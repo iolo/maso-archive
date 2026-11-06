@@ -1,5 +1,53 @@
 # Progress
 
+## 2026-11-06 — March 1995 restoration complete
+
+Batch 100 completes the March 1995 canonical TOC JSON/assets restoration pass.
+All ninety identities have explicit outcomes: 53 readable/sample-reviewed articles,
+zero partials, nineteen non-owning headings, seventeen section references and one
+eligible leaf, FLC0019, whose body remains unlocated. All 545 supplied pages and
+530 original exclusions on 297 pages are accounted; 309 owner/page assignments
+cover 308 body pages, including the shared reader-card/subscriptions page538.
+The verified donated cover supplies a reproducible 472×640 thumbnail.
+
+The **17,909-file standalone collection** at `archive/pdf/1995-03/reference/`
+matches both independent and fresh-process exports. All 82 native packages and
+21 assemblies regenerate all 17,779 selected article files through the unchanged
+original adapters. All 110 classification files and seventeen parent anchors resolve.
+Five Q&A anchors address the complete native parent; nine domestic/overseas anchors
+retain section-label headings. CD-ROM0082 preserves its original0045 execution
+context and explicit final ownership assignment.
+
+Validation covers 4,510 pixel-exact source crops, 4,131 selected OCR settings,
+278,217 typed range occurrences and 124,650 source projection pairs in 104 contexts.
+All 60,190 consumer-resource occurrences resolve locally. All 4,498 distinct images
+decode; 103 ZIPs and 28,642 members pass path, CRC and raw-byte checks. Twenty-one
+new semantic accounting models are rejected, alongside 51 retained source/gap/cover
+cases. Fresh focused PDF regressions pass all **214 tests**.
+
+Preservation checks cover 76,957 earlier March files, all selected packages, thirty
+core modules, twenty-one assembly adapters, 336 global cover files, nineteen earlier
+issue ledgers and 38,805 existing CD reference files. Historical evidence retains
+23 source passes without separate start timestamps and two retrospective draft-reading
+attestations; no missing chronology is invented. Readability remains assistant sample
+review. Full proofreading, human acceptance, exact original glyph/encoded-byte recovery
+and program execution remain unverified. FLC0019 does not establish original printed
+omission, absolute absence or a missing-page count; reopen it on new identifying evidence.
+
+Reproduction, resume/check commands, private prerequisites and limits:
+`archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json`.
+Content and reproduction reports:
+`archive/pdf/1995-03/evidence/issue-closeout-01/report.json` and
+`archive/pdf/1995-03/restoration/issue-closeout-01/reproduction.json`.
+The final saved-state, cleanup and committed requirement audit is recorded in
+`archive/pdf/1995-03/evidence/issue-closeout-01/completion-audit.json`.
+
+No further March checkpoint is required for this supplied-PDF pass. July 1995's
+103 canonical identities are next, followed by collection aggregation and handoff
+in PLAN-PDF steps 13–14. The frozen November 4 queue retains its original snapshot;
+current issue ledgers now account for 918 identities across twenty completed passes.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March package reconstruction and source audits
 
 Closeout stage 01 has rebuilt all 53 selected March article packages exactly.
@@ -52,6 +100,7 @@ and finish the README, commands, English handoff, committed preservation and cle
 July follows that separate closeout. No issue collection has yet been declared
 complete.
 The full March goal remains active. No reader rebuild or deployment.
+
 
 ## 2026-11-06 — Final March source gap and donated cover
 

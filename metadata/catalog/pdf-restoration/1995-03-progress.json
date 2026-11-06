@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1995-03",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-11-06",
   "source": {
     "id": "pdf-maso-9503",
@@ -10955,6 +10955,54 @@
         "sha256": "c199347437bf33d5467587e0370cafc032914d3f8603a16a76d6d157ebf785d2",
         "bytes": 1171
       }
+    },
+    {
+      "name": "1995-03-batch-100",
+      "status": "complete",
+      "completed_at": "2026-11-06T06:41:28.017666+00:00",
+      "goal": "Complete standalone JSON/assets issue export,all native/assembly regeneration,source/range/resource/asset/history/preservation/regression validation and supplied-PDF closeout.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "canonical_entries_advanced": 0,
+      "native_packages_regenerated": 82,
+      "actual_assemblies_regenerated": 21,
+      "standalone_files": 17909,
+      "selected_article_files": 17779,
+      "all_export_files_independently_exact": true,
+      "validation": {
+        "path": "archive/pdf/1995-03/evidence/issue-closeout-01/report.json",
+        "sha256": "6e2a2a7956ab9d5532c4d758f3eeef8d68cf839c69bdda201ce89d71281a223b",
+        "bytes": 5527
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/issue-closeout-01/reproduction.json",
+        "sha256": "57112ca85a8e7e5e441b42a1c5f4bdcc611b9e3b7c67e77cec4c438fa18e5223",
+        "bytes": 3787234
+      },
+      "full_fresh_reproduction": {
+        "path": "archive/pdf/1995-03/evidence/issue-closeout-01/fresh-reproduction-records/reproduction-result.json",
+        "sha256": "8a9842da32d70be4e015e812c0308b9f8ad9c8882fefc716516b5458cbef6e43",
+        "bytes": 3788373
+      },
+      "requirements_content_audit": {
+        "path": "archive/pdf/1995-03/restoration/issue-closeout-01/requirements-content-audit.json",
+        "sha256": "634d067f7147a52c3a5a5eba9d678a74965401f8e98e33d4354d57c9702004e4",
+        "bytes": 22147
+      },
+      "handoff": {
+        "path": "archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json",
+        "sha256": "20bf799f5ad58bb4c2bc7d95c8126036d032b2dc6708686513e6ed8550a67087",
+        "bytes": 8498
+      },
+      "complete_original_article_recovery_verified": false,
+      "reader_rebuilt": false
     }
   ],
   "totals": {
@@ -10968,9 +11016,12 @@
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
-    "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
+    "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending.",
+    "Batch100completes the canonical March1995 supplied-PDF JSON/assets pass:90identities,545source pages,530mixed exclusions;53readable/19groups/17section references/1eligible bodyunlocated.",
+    "All17909standalone files match independent andfullfresh exports from82regenerated natives/21assemblies. No original omission,source-wide absolute absence,missing count,full original recovery,human acceptance or full proofreading claimed.",
+    "The initial eligibility-provisional note above is historical. All eligibility decisions are final for this supplied-PDF pass; only FLC0019 body availability remains unresolved."
   ],
-  "next_checkpoint": "March closeout stage01 verified:82 native packages and21 original-adapter assemblies regenerate all53 selected roots/17779files exactly;4510source crops,4131OCR settings,278217typed ranges/124650source pairs validate;214fresh PDFtests pass. Next build/reproduce portable standalone JSON/assets and evidence companions,validate110classification pins/17anchors/all545pages/530exclusions/local resources and ZIPs,run semantic negative checks,then full20-requirement audit and README/handoff/commit/cleanup. Preserve final FLC0019 eligible/unlocated gap,verified donated cover,and all originals. March remains in-progress; no reader rebuild.",
+  "next_checkpoint": null,
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -11658,21 +11709,175 @@
     "global_derivatives_modified": false
   },
   "closeout_progress": {
-    "status": "in-progress",
+    "status": "complete",
     "checkpoint": "1995-03-batch-100",
     "directory": "archive/pdf/1995-03/restoration/issue-closeout-01",
-    "requirements": {
-      "path": "archive/pdf/1995-03/restoration/issue-closeout-01/requirements.json",
-      "sha256": "5e544f23cb50cd9885024c360e6c24cd59b851aa834445c2474d3c3c62b22d85",
-      "bytes": 5874
+    "standalone_issue_export_complete": true,
+    "content_requirements_verified": 19,
+    "final_saved_state_audit_path": "archive/pdf/1995-03/evidence/issue-closeout-01/completion-audit.json"
+  },
+  "completed_at": "2026-11-06T06:41:28.017666+00:00",
+  "restoration_pass_complete": true,
+  "complete_original_article_recovery_verified": false,
+  "remaining_work": [
+    "Human acceptance,full proofreading and manual glyph/bitmap correction remain deferred.",
+    "Original encoded source/program/diskette files,exact spaces/glyph identities,historical/technical truth and compilation/execution remain unverified.",
+    "0019is eligible but its body remains unlocated in this supplied-PDF pass;reopen on new identifying or specifically contradictory source evidence. No original omission,source-wide absolute absence or missing-page count proved.",
+    "Other issues,collection-wide aggregation,reading-room delivery and deployment are separate tasks."
+  ],
+  "issue_integration": {
+    "status": "complete-data-integration",
+    "report": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/final-integration.json",
+      "sha256": "a326fb6a877aaa2b336ea80aaed0892b17e889c25442b847ac6f5467713e5e82",
+      "bytes": 1698
     },
-    "stage": "native-assembly-rebuild-and-source-range-audits-complete",
+    "usable_cover_verified": true,
+    "all_primary_pages_accounted": true,
+    "all_current_pdf_gap_outcomes_final": true,
+    "complete_original_article_recovery_verified": false,
+    "standalone_issue_export_verified": true,
+    "issue_closeout_complete": true
+  },
+  "issue_closeout": {
+    "name": "1995-03-batch-100",
+    "completed_at": "2026-11-06T06:41:28.017666+00:00",
+    "scope": "Complete canonical supplied-PDF JSON/assets pass with one eligible canonical leaf whose body remains unlocated;not complete original content recovery.",
+    "directory": "archive/pdf/1995-03/restoration/issue-closeout-01",
+    "standalone_directory": "archive/pdf/1995-03/reference",
+    "manifest": {
+      "path": "archive/pdf/1995-03/reference/manifest.json",
+      "sha256": "26af497d3ef9089e092233cdb7c918741a660ef1d1c7fe6fc2fb856c1e9763bc",
+      "bytes": 3786442
+    },
+    "accounting": {
+      "path": "archive/pdf/1995-03/reference/accounting.json",
+      "sha256": "c4c4ab5ba9983973fd9f625057373848bcee1a259fab19872ac3153231401a23",
+      "bytes": 43178
+    },
+    "body_assignments": {
+      "path": "archive/pdf/1995-03/reference/body-assignment-index.json",
+      "sha256": "c7c677a015a4da57e719d2593b794d14aaededcf4235a5dd31e727002c5795af",
+      "bytes": 3349435
+    },
+    "resource_contexts": {
+      "path": "archive/pdf/1995-03/reference/resource-contexts.json",
+      "sha256": "5c683cc1af3d8e31af98c6acabbc0f0d44054d4d3b7e893c0f0c6f7983857041",
+      "bytes": 15507913
+    },
+    "reading_indexes": {
+      "path": "archive/pdf/1995-03/reference/reading-indexes.json",
+      "sha256": "89f6338a4f1c7d44a99d4ee23d0dee15f1402465f56a06189575bcfec6d3b37c",
+      "bytes": 103211
+    },
+    "cover_provenance": {
+      "path": "archive/pdf/1995-03/reference/cover-provenance.json",
+      "sha256": "679e728dfb4e4feb9aa17b967abb6d058a7d9fed8f613f156b7451e89040f347",
+      "bytes": 5295
+    },
+    "final_gap_dispositions": {
+      "path": "archive/pdf/1995-03/reference/final-gap-dispositions.json",
+      "sha256": "3c76ca2cf511523e727c680158bcfc828abb9d0ce986e5527c848b0e9885f5e1",
+      "bytes": 3430
+    },
+    "coverage_gaps": {
+      "path": "archive/pdf/1995-03/reference/coverage-gaps.json",
+      "sha256": "33ab5a31846cf5118e1f2f17270591f751e6f6fc54c6f3305be174f1c260660f",
+      "bytes": 2067
+    },
+    "reproduction": {
+      "path": "archive/pdf/1995-03/restoration/issue-closeout-01/reproduction.json",
+      "sha256": "57112ca85a8e7e5e441b42a1c5f4bdcc611b9e3b7c67e77cec4c438fa18e5223",
+      "bytes": 3787234
+    },
+    "full_fresh_reproduction": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/fresh-reproduction-records/reproduction-result.json",
+      "sha256": "8a9842da32d70be4e015e812c0308b9f8ad9c8882fefc716516b5458cbef6e43",
+      "bytes": 3788373
+    },
     "validation": {
-      "path": "archive/pdf/1995-03/restoration/issue-closeout-01/stage01-validation.json",
-      "sha256": "1315f09228c8846ebc4db9665f1414fae2c028f4d97291784bfe7cdae2ed2e2f",
-      "bytes": 58028
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/report.json",
+      "sha256": "6e2a2a7956ab9d5532c4d758f3eeef8d68cf839c69bdda201ce89d71281a223b",
+      "bytes": 5527
     },
-    "standalone_issue_export_complete": false,
-    "requirements_audit_complete": false
+    "requirements_content_audit": {
+      "path": "archive/pdf/1995-03/restoration/issue-closeout-01/requirements-content-audit.json",
+      "sha256": "634d067f7147a52c3a5a5eba9d678a74965401f8e98e33d4354d57c9702004e4",
+      "bytes": 22147
+    },
+    "handoff": {
+      "path": "archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json",
+      "sha256": "20bf799f5ad58bb4c2bc7d95c8126036d032b2dc6708686513e6ed8550a67087",
+      "bytes": 8498
+    },
+    "package_rebuild": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/package-rebuild.json",
+      "sha256": "d4b4f74546ff6fa13d4495cd2ddcaf23eef896bfddf8f9b645fc3dead66b8258",
+      "bytes": 207386
+    },
+    "source_crops_and_OCR": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/source-crop-and-OCR-audit.json",
+      "sha256": "34a61c05de3a0fa9fe31f1cb40704b6a11024c52f4ee956a97820b67da50a46f",
+      "bytes": 6653285
+    },
+    "ranges": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/range-audit.json",
+      "sha256": "926feaf0141aec0834f8b94621a1ea375230fefbe17a1eba1a976a1f007148fe",
+      "bytes": 66469
+    },
+    "content_structure": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/content-structure-audit.json",
+      "sha256": "c9c23a597aafcde0d2f4c553d752574e51a53e4545336833d74fb7c2b51d564b",
+      "bytes": 28443
+    },
+    "portable_references": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/portable-reference-audit.json",
+      "sha256": "bb5a017846f87adfc4e14574fb1dc90563d26aeb79572b9b467722277256183d",
+      "bytes": 1651
+    },
+    "assets": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/published-asset-audit.json",
+      "sha256": "54c38745421206ad9a9278c2fa0aef66d46cb9dd9e46ba5a65ca337aafcc41d6",
+      "bytes": 5860141
+    },
+    "negative_checks": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/negative-audit.json",
+      "sha256": "17e3ee0fdd2832bdd39b71452cd9409ece9919c3e513911a0d3e4e1957e2fe59",
+      "bytes": 20312
+    },
+    "history": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/history-audit.json",
+      "sha256": "90171effe72723d21e1a7d93861839d4cabda9ccf3981fd4effc70aab0b8e4da",
+      "bytes": 153517
+    },
+    "fresh_tests": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/test-pdf-result.json",
+      "sha256": "5b82493cf62d9eff9c08cc6f4268ab7707c62ee0a9d647846e5fcc493cad9c13",
+      "bytes": 587
+    },
+    "preservation": {
+      "path": "archive/pdf/1995-03/evidence/issue-closeout-01/preservation-audit.json",
+      "sha256": "cf54e9d96f413d52f7aed41241933b73d8ed4c08a3b6cf701e84a0f4b0896d19",
+      "bytes": 1465
+    },
+    "standalone_files": 17909,
+    "selected_article_files": 17779,
+    "native_packages_regenerated": 82,
+    "actual_assemblies_regenerated": 21,
+    "selected_roots": 53,
+    "classification_files": 110,
+    "fresh_tests_passed": 214,
+    "unresolved_eligibility_decisions": 0,
+    "eligible_leaves_with_body_unlocated": 1,
+    "complete_original_article_recovery_verified": false,
+    "full_proofreading_or_human_acceptance_claimed": false,
+    "final_saved_state_path": "archive/pdf/1995-03/evidence/issue-closeout-01/verified-after-cleanup.json",
+    "final_requirement_audit_path": "archive/pdf/1995-03/evidence/issue-closeout-01/completion-audit.json",
+    "reader_rebuilt": false
+  },
+  "latest_preservation_inventory": {
+    "path": "archive/pdf/1995-03/evidence/issue-closeout-01/preservation-audit.json",
+    "sha256": "cf54e9d96f413d52f7aed41241933b73d8ed4c08a3b6cf701e84a0f4b0896d19",
+    "bytes": 1465
   }
 }

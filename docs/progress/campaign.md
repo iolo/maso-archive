@@ -8,6 +8,17 @@ These are historical records; current policy and next issue are in the index.
 
 ## Checkpoint records
 
+### 2026-11-06 — March 1995 complete; July next
+
+March's ninety canonical outcomes are final for the supplied-PDF pass: 53 readable,
+19 groups, 17 references and one eligible leaf with its body unlocated. All 545 pages
+and 530 original exclusions are accounted. The 17,909-file standalone collection
+matches independent/fresh-process reconstruction; 214 fresh PDF tests pass.
+Twenty completed passes now account for 918 identities. The frozen November 4 queue
+remains unchanged; July's 103 identities are next, before collection reconciliation
+and handoff. No reader rebuild. See [March progress](9503.md).
+
+
 ### 2026-11-04 — Expanded catalog and remaining PDF queue complete
 
 - Imported the owner-expanded/source-reviewed TOC through December 1995: 146

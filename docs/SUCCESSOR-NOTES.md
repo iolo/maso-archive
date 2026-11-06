@@ -10,7 +10,7 @@ remaining supplied PDFs on November 4. The current catalog contains 146 issues,
 and allocators remain unchanged. The PDF queue at
 `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl` contains 1,021
 identities across all 21 supplied issues and preserves all 828 earlier outcomes.
-March 1995 is active (ninety identities), followed by July (103); the older
+March 1995 is complete (ninety identities); July (103) is next; the older
 cover-only exclusion is superseded. See [PLAN-PDF](../PLAN-PDF.md) and the
 [migration receipt](../metadata/catalog/toc-imports/2026-11-04.json).
 Existing reader outputs, CD data, completed restoration packages and historical
@@ -19,56 +19,51 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Closeout stage 01 has rebuilt all 53 selected March article packages exactly.
-The 82 native packages reproduce from their frozen recipes, including CD-ROM
-0082 through its unchanged batch85 ownership-assignment exporter. All 21 assembled
-articles consume regenerated native inputs through their original private adapters.
-Every one of the 17,779 selected files is byte-identical to the retained originals.
-No new OCR, source correction, PDF inspection or reader work was performed.
+Batch 100 completes the March 1995 canonical TOC JSON/assets restoration pass.
+All ninety identities have explicit outcomes: 53 readable/sample-reviewed articles,
+zero partials, nineteen non-owning headings, seventeen section references and one
+eligible leaf, FLC0019, whose body remains unlocated. All 545 supplied pages and
+530 original exclusions on 297 pages are accounted; 309 owner/page assignments
+cover 308 body pages, including the shared reader-card/subscriptions page538.
+The verified donated cover supplies a reproducible 472×640 thumbnail.
 
-Source validation confirms 4,510 pixel-exact crops across 309 native page assignments,
-4,131 original OCR settings and 4,497 distinct decoded package images. The content
-order and original native metadata validate for all 53 bodies, with 379 figures
-and 277 literal display captions. One collage caption intentionally combines four
-source captions; its ordered source blocks, scans and text ranges validate exactly.
-The range audit checks 278,217 typed occurrences in 104 current/native/execution
-contexts and 124,650 projected-to-native source pairs, including explicit native
-boundary switches and all reconstructed prose/code joins. Fresh focused PDF
-regressions pass all 214 tests.
+The **17,909-file standalone collection** at `archive/pdf/1995-03/reference/`
+matches both independent and fresh-process exports. All 82 native packages and
+21 assemblies regenerate all 17,779 selected article files through the unchanged
+original adapters. All 110 classification files and seventeen parent anchors resolve.
+Five Q&A anchors address the complete native parent; nine domestic/overseas anchors
+retain section-label headings. CD-ROM0082 preserves its original0045 execution
+context and explicit final ownership assignment.
 
-The closeout helpers now handle this issue's recorded formats explicitly: five
-Q&A references address a complete native parent; nine domestic/overseas references
-use section-label headings. Original adapters are activated individually because
-they were written for isolated use. CD-ROM0082 retains the separate original0045
-execution context and final ownership assignment. Failed helper attempts and repair
-receipts remain preserved. No shared pipeline module or historical package changed.
+Validation covers 4,510 pixel-exact source crops, 4,131 selected OCR settings,
+278,217 typed range occurrences and 124,650 source projection pairs in 104 contexts.
+All 60,190 consumer-resource occurrences resolve locally. All 4,498 distinct images
+decode; 103 ZIPs and 28,642 members pass path, CRC and raw-byte checks. Twenty-one
+new semantic accounting models are rejected, alongside 51 retained source/gap/cover
+cases. Fresh focused PDF regressions pass all **214 tests**.
 
-All 76,957 pre-closeout March files, 17,779 selected files, 336 global cover files,
-thirty core modules and twenty-one original assembly adapters remain exact.
-Ninety canonical outcomes remain: 53 readable, zero partial, nineteen non-owning
-headings, seventeen references and one eligible leaf, FLC0019, with its body
-unlocated. The final supplied-PDF gap disposition and verified donated472×640
-cover remain unchanged. All545 supplied pages and530 original exclusions are
-accounted; this does not prove original printed omission, absolute absence,
-missing extent, character-perfect recovery, full proofreading or human acceptance.
+Preservation checks cover 76,957 earlier March files, all selected packages, thirty
+core modules, twenty-one assembly adapters, 336 global cover files, nineteen earlier
+issue ledgers and 38,805 existing CD reference files. Historical evidence retains
+23 source passes without separate start timestamps and two retrospective draft-reading
+attestations; no missing chronology is invented. Readability remains assistant sample
+review. Full proofreading, human acceptance, exact original glyph/encoded-byte recovery
+and program execution remain unverified. FLC0019 does not establish original printed
+omission, absolute absence or a missing-page count; reopen it on new identifying evidence.
 
-Closeout recipes, requirement declaration and stage evidence:
-`archive/pdf/1995-03/restoration/issue-closeout-01/`.
-Retained regenerated packages and source/range/test audit reports:
-`archive/pdf/1995-03/evidence/issue-closeout-01/`.
-Stage validation: `archive/pdf/1995-03/restoration/issue-closeout-01/stage01-validation.json`.
-Final gap/cover: `archive/pdf/1995-03/restoration/batch-99/outcome-r01/`.
-Complete source accounting: `archive/pdf/1995-03/restoration/batch-98/accounting-r01/`.
+Reproduction, resume/check commands, private prerequisites and limits:
+`archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json`.
+Content and reproduction reports:
+`archive/pdf/1995-03/evidence/issue-closeout-01/report.json` and
+`archive/pdf/1995-03/restoration/issue-closeout-01/reproduction.json`.
+The final saved-state, cleanup and committed requirement audit is recorded in
+`archive/pdf/1995-03/evidence/issue-closeout-01/completion-audit.json`.
 
-March remains in progress. Next build and independently/fresh-process reproduce
-the portable standalone JSON/assets issue collection and evidence companions.
-Reconcile all110 classification pins, seventeen parent anchors, source accounting
-and historical statuses; validate every consumer resource and ZIP archive. Run
-semantic negative checks, then assess all twenty declared closeout requirements
-and finish the README, commands, English handoff, committed preservation and cleanup.
-July follows that separate closeout. No issue collection has yet been declared
-complete. See [March progress](docs/progress/9503.md).
-The full March goal remains active. No reader rebuild or deployment.
+No further March checkpoint is required for this supplied-PDF pass. July 1995's
+103 canonical identities are next, followed by collection aggregation and handoff
+in PLAN-PDF steps 13–14. The frozen November 4 queue retains its original snapshot;
+current issue ledgers now account for 918 identities across twenty completed passes.
+No reader rebuild or deployment.
 
 Batch 02's219 files reproduce
 independently/in fresh processes;56 exact crops,49 outcomes,586 ranges and327 rows
