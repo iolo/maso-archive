@@ -19,39 +19,39 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 73 preserves overseas 0062's final PDF 178–179 / observed printed
-170–171 as immutable native b. Both natives now preserve the full 172–179 extent;
-actual whole-section assembly remains pending.
+Batch 74 completes overseas 0062 across PDF 172–179 / observed printed
+164–171 and finalizes IBM child0063 as a non-owning reference wholly on 172.
+The assembled section preserves twenty news items, the separate five-bullet
+AMD–Intel sidebar, twelve original image regions, eleven captions and fifteen
+contacts. Both ColorKey/CleanSweep cross-page image associations remain explicit.
 
-The final pages retain nine independent product briefs, five captioned images,
-nine contacts and the closing MS emblem. CleanSweep's body on 178 links to its
-image on 179; ColorKey's body on 179 links to its image on 178. Five physical LF
-continuations preserve split words and the closing price. Six source discrepancies,
-eight localized candidates and three token-wrap contexts retain printed wording.
+All 436 assembly files match independent and fresh-process exports; all 428
+native files remain unchanged. Validation covers 112 pixel-exact crops, 100
+original OCR outcomes, 75 blocks, 762 physical rows, 3,587 projected metadata
+occurrences, 7,174 current typed ranges and 420 exact ZIP members. Eleven source
+discrepancies, nineteen localized candidates, sixteen physical token wraps and
+25 internal boundaries remain preserved. No new OCR or source correction.
 
-All 166 package files match independent and fresh-process exports. Validation
-covers 44 pixel-exact crops, 38 original OCR outcomes, 33 blocks, 212 physical
-rows, 1,042 typed ranges and 159 exact ZIP members. Thirty invalid context/range
-cases reject. All 65,099 prior March files and thirty core modules remain unchanged;
-the unchanged 214-test baseline is reused.
+IBM0063 links to its headline, deck and three body columns, excluding the separate
+AMD story below the dotted rule. Four classification files reproduce exactly;
+six child ranges validate. Thirty-seven assembly and seventeen classification
+faults reject. All 65,676 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused. An administrative prior-file count
+was corrected by one; its earlier completion record remains retained.
 
-All 38 drafts were read before one source correction pass, with zero retries or
-within/post-pass repairs. Two pre-OCR maps retain one refinement event separating
-the closing price row from the MS emblem. All previous packages and classifications
-remain immutable; 68 final classification evidence pins remain unchanged.
+Complete overseas article: `archive/pdf/1995-03/packages/article-overseas-r01/`.
+Child/status evidence: `archive/pdf/1995-03/classifications/batch-74-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-74/`.
+External dispositions resolve frozen native/group pending statements while
+preserving earlier evidence. Seventy-one final classification pins are retained.
+Totals are thirty-four readable, zero partial, fourteen non-owning headings,
+fourteen references and 28 unresolved.
 
-Final overseas native: `archive/pdf/1995-03/packages/batch-73-r01/overseas-b/`.
-Opening native: `archive/pdf/1995-03/packages/batch-72-r01/overseas-a/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-73/`.
-Totals remain thirty-three readable, one partial, fourteen non-owning headings,
-thirteen references and 29 unresolved.
-
-Next assemble overseas 0062 across 172–179, retaining all twenty stories, the
-five-bullet AMD–Intel sidebar, twelve image regions, eleven captions, fifteen
-contacts and 762 physical rows. Preserve both cross-page photo associations;
-there is no prose join across 177→178. Then finalize children 0063–0066 with
-assembled anchors in bounded checkpoints. FLC0019 awaits bounded lookup or
-issue accounting. See [March progress](docs/progress/9503.md).
+Next finalize overseas children0064/0065: AMD172–173, including the separate
+AMD–Intel sidebar on 173, and On Technology175. Then finalize UnixWare0066 on175.
+Use assembled anchors and preserve canonical missing folios; no duplicate bodies
+or new OCR are needed. Library0067 begins on180/172 and follows these references.
+FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
 accounting, cover and separate issue closeout before July. Exact glyphs, source

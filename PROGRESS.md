@@ -1,5 +1,21 @@
 # Progress
 
+## 2026-11-06 — March overseas assembly and IBM reference
+
+- Batch 74 completes overseas0062 across172–179 and finalizes IBM0063 as a
+  non-owning reference to its complete story on172. The section preserves twenty
+  stories, the AMD–Intel sidebar, twelve images, eleven captions and fifteen contacts.
+- All 436 assembly files and four classification files reproduce independently
+  and in a fresh process. All 428 native files remain exact. Validation covers
+  112 crops, 100 original OCR outcomes, 762 rows, 3,587 projected occurrences,
+  7,174 current ranges and six child ranges; 54 invalid cases reject.
+- No new OCR or source correction. All 65,676 prior March files and thirty core
+  modules remain unchanged; the unchanged 214-test baseline is reused.
+- Totals: 34 readable, zero partial, fourteen groups, fourteen references and 28 unresolved.
+  Next finalize children0064/0065, then0066, before library0067 on180/172.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  Full March goal active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March overseas news final pages
 
 - Batch 73 preserves final overseas0062 pages 178–179. Nine briefs, five captioned
