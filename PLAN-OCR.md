@@ -61,9 +61,22 @@ product fields, three continuations and one photo/caption validate; all 25 inval
 cases reject. The 765-file parent, 3,333 earlier July files and thirty core modules
 remain unchanged; the 214-test baseline is reused. No new OCR or source correction.
 All five domestic children 0002–0006 are final. Totals: one readable, zero partials,
-five references and 97 unresolved. Next: locate and restore overseas 0007 from
-PDF 177/printed 166 in bounded segments. Whole July 560-page accounting, cover
-verification and separate standalone closeout remain pending.
+five references and 97 unresolved at that checkpoint. Its overseas next step
+is progressed by batch 06 below.
+
+July batch 06 preserves overseas 0007 opening PDF 177–182/printed 166–171 as
+an immutable partial native. Full extent is 177–184; final 183–184 remains deferred.
+All 273 selected/independent/fresh-process files match: 73 pixel-exact crops,
+64 OCR outcomes, 42 blocks, 513 rows and 2,424 typed ranges. Twelve independent
+notices retain three boxed items, nine images, seven unique captions, six contacts
+and 23 product fields. HP and Painter prose continuations and HSC's later photo
+retain their contexts; two image pairs share their respective literal captions.
+Two pre-OCR maps, zero retries, one timed source pass, one within-pass refinement
+and zero post-pass changes. All 27 invalid cases reject; 3,365 earlier July files
+and thirty core modules remain exact. The unchanged 214-test batch-03 baseline
+is reused. Totals: one readable, one partial, five references and 96 unresolved.
+Next: final overseas 183–184, then actual assembly and child classifications.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial

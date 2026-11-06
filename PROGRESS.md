@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-06 — July overseas opening preserved
+
+July batch 06 preserves overseas 0007 opening PDF 177–182/printed 166–171 as
+an immutable partial native. Full extent is 177–184; final 183–184 remains deferred.
+All 273 selected/independent/fresh-process files match: 73 pixel-exact crops,
+64 OCR outcomes, 42 blocks, 513 rows and 2,424 typed ranges. Twelve independent
+notices retain three boxed items, nine images, seven unique captions, six contacts
+and 23 product fields. HP and Painter prose continuations and HSC's later photo
+retain their contexts; two image pairs share their respective literal captions.
+Two pre-OCR maps, zero retries, one timed source pass, one within-pass refinement
+and zero post-pass changes. All 27 invalid cases reject; 3,365 earlier July files
+and thirty core modules remain exact. The unchanged 214-test batch-03 baseline
+is reused. Totals: one readable, one partial, five references and 96 unresolved.
+Next: final overseas 183–184, then actual assembly and child classifications.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-06/handoff.json`.
+
 ## 2026-11-06 — July domestic child references complete
 
 July batch 05 finalizes Daewoo 0005 and Newtec 0006 as non-owning references into
