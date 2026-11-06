@@ -37,57 +37,60 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 89 completes humor 0089 on PDF 536/observed printed 528 and records a
-bounded lookup for FLC 0019. Canonical title, parent 0083 and folio 528 remain
-unchanged. All six forum children 0084–0089 are now readable; their parent stays
-non-owning and the physical bodies remain scattered. No byline or artist is inferred.
+Batch 90 initializes all 545 physical source-page records and begins final page
+accounting with direct review of PDF 1–20. All ninety canonical outcomes remain
+unchanged: 53 readable, zero partial, nineteen non-owning headings, seventeen
+references and 1 unresolved, FLC 0019. Humor 0089 and all six forum children remain
+complete; no article body or canonical identity is added or rewritten.
 
-The humor page preserves two jokes, nine story paragraphs including a separately
-set italic punchline, and an independent invitation with two paragraphs. Original
-banner/cartoon images supplement four separately serialized hand-drawn labels.
-The cartoon retains incidental invitation-edge fragments; invitation text is
-serialized once. Small lettering and italic wordplay remain localized candidates.
-Printed `있는데.` and `안되여` are retained without punctuation or grammar repair.
+The selected ownership index binds 53 packages to 308 physical pages and 309
+owner/page records; page 538 has two existing owners. There are 530 original map
+exclusions on 297 pages, including ordinary headers/footers, advertisements and
+shared areas. These are inventoried exactly and await explicit reconciliation;
+the count does not represent 530 missing bodies. The discovery index retains
+222 prior review/preflight/mapping records and renders for 384 page identities.
+Render existence alone is not accepted as evidence of review.
 
-All 58 native files and three status files reproduce independently and in fresh
-processes. Fourteen crops are pixel-exact; twelve OCR outcomes, twelve text blocks,
-31 physical reading rows, two figures and 145 typed ranges validate. Twelve initial
-recognitions, zero retries, one source correction pass, two retained maps and two
-pre-OCR margin refinements were used, with zero within/post-pass text repairs.
-Twenty-one native and thirteen status faults reject. One structural verifier
-assertion omitted the expected figure count; the failed script and fixture repair
-remain preserved, with no source/OCR/text/package change. Fifty-one frozen status
-fields resolve externally. All 76,074 earlier March files and thirty core modules
-remain exact; the unchanged 214-test baseline is reused.
+Twenty complete supplied pages were inspected: front cover 1, contents 4,
+contents/colophon 5, fifteen full-page advertisements, advertising insert 19 and
+blank scan 20. Sparse teaser 12 is advertising, not blank. Page 16 has sideways
+advertising; original PDF rotation metadata stays unchanged. Insert 19 and blank
+20 retain their smaller landscape dimensions, 427.44×251.76pt and 426×257.52pt.
+No normal-page geometry, missing-page count or historical omission is inferred.
+The cover visibly identifies March 1995; cover installation remains separate.
+FLC is listed in contents 4, but its body is not on these twenty pages. The bounded
+lookup remains unresolved without a whole-PDF absence claim or final eligibility decision.
 
-FLC 0019 is explicitly listed in contents 4 but remains unlocated after review of
-the complete Q&A bundle 244–249 and neighboring 238–243/250–252. Video-encoder
-flicker, CDEG 256-color still images and About BMP palettes are different topics.
-No synthetic body or anchor is created, no missing-page count is inferred, and no
-whole-PDF absence is claimed. Final eligibility/gap disposition remains pending.
+Primary material is known for 328 pages: 308 selected-body pages and twenty current
+whole-page reviews. Another 217 primary classifications remain pending. Only the
+current twenty pages have complete accounting records in this initial ledger;
+the 525 remaining records need prior-evidence reconciliation or direct review.
+Restored article portions do not automatically classify excluded or unmapped areas.
+All 530 exclusions remain explicitly pending in this initial accounting artifact.
 
-Packages: `archive/pdf/1995-03/packages/batch-89-r01/`.
-Current forum and bounded FLC status: `archive/pdf/1995-03/classifications/batch-89-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-89/`.
-Ninety-nine final classification/accounting pins are retained. Totals: 53 readable,
-zero partial, nineteen non-owning headings, seventeen references and
-1 unresolved: FLC 0019. Exact glyphs, encoded bytes, full proofreading and human
-acceptance remain unverified.
+Five accounting files reproduce independently and in a fresh process. All 545
+slots, original geometry, ownership links and pending states validate; twenty
+semantic faults reject. All 76,333 earlier March files and thirty core modules
+remain exact, and the unchanged 214-test baseline is reused. No new OCR or source
+correction was performed. An initial collector invoked the generic legacy assembly
+checker, which cannot project the custom MUD listing index. That failed script is
+retained. The collector now checks schemas, complete inventories and all file pins,
+and binds the prior specialized validation/reproduction. Original assembly adapters
+must be used again at issue closeout; no package or core code was changed.
 
-Next prepare complete 545-page accounting using preserved evidence and bounded
-review of unaccounted pages. Shared 538 ownership remains reader 0086 left and
-subscriptions 0087 right; giro front 539/reverse 540 belongs to 0087. Microsoft
-postcard 541/reverse 542 and remaining tail 543–545 need accounting. Introduction
-0082 owns 458; special-feature 0045 and forum 0083 remain non-owning. Library 0067
-has all fourteen canonical descendants complete. Keep publisher advertisements
-202–203 and unlisted CD 194–195, public-software 186–189 and game-room 190–191 in
-final page accounting. Resolve the remaining FLC gap explicitly, preserve the cover,
-and build/rebuild the separate standalone issue export before closeout and July.
+Accounting artifact: `archive/pdf/1995-03/restoration/batch-90/accounting-r01/`.
+Reproduction, source review and validation: `archive/pdf/1995-03/restoration/batch-90/`.
+One hundred final classification/accounting pins are retained.
+Next reconcile prior review evidence and inspect PDF 21–40, then continue bounded
+accounting. Preserve shared 538 ownership, giro front 539/reverse 540, publisher
+advertisements 202–203 and unlisted CD 194–195, public-software 186–189 and
+game-room 190–191. Final FLC disposition, cover preservation, standalone JSON/assets
+export/rebuild and separate closeout remain required before July.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-This checkpoint uses one mapped page and nineteen outside lookups.
-The full March goal remains active through final accounting, cover and separate closeout.
-No reader rebuild or deployment.
+This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
+The full March goal remains active. Exact glyphs, full proofreading and human acceptance
+remain unverified. No reader rebuild or deployment.
 
 The historical 1995 cover-only exclusion is superseded. Use the same 2-article/6-page/20-lookup bounds
 and mapped-Tesseract policy. CD3 comparisons need explicit evidence; no reader

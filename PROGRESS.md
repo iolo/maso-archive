@@ -1,5 +1,61 @@
 # Progress
 
+## 2026-11-06 — March source accounting initialized
+
+Batch 90 initializes all 545 physical source-page records and begins final page
+accounting with direct review of PDF 1–20. All ninety canonical outcomes remain
+unchanged: 53 readable, zero partial, nineteen non-owning headings, seventeen
+references and 1 unresolved, FLC 0019. Humor 0089 and all six forum children remain
+complete; no article body or canonical identity is added or rewritten.
+
+The selected ownership index binds 53 packages to 308 physical pages and 309
+owner/page records; page 538 has two existing owners. There are 530 original map
+exclusions on 297 pages, including ordinary headers/footers, advertisements and
+shared areas. These are inventoried exactly and await explicit reconciliation;
+the count does not represent 530 missing bodies. The discovery index retains
+222 prior review/preflight/mapping records and renders for 384 page identities.
+Render existence alone is not accepted as evidence of review.
+
+Twenty complete supplied pages were inspected: front cover 1, contents 4,
+contents/colophon 5, fifteen full-page advertisements, advertising insert 19 and
+blank scan 20. Sparse teaser 12 is advertising, not blank. Page 16 has sideways
+advertising; original PDF rotation metadata stays unchanged. Insert 19 and blank
+20 retain their smaller landscape dimensions, 427.44×251.76pt and 426×257.52pt.
+No normal-page geometry, missing-page count or historical omission is inferred.
+The cover visibly identifies March 1995; cover installation remains separate.
+FLC is listed in contents 4, but its body is not on these twenty pages. The bounded
+lookup remains unresolved without a whole-PDF absence claim or final eligibility decision.
+
+Primary material is known for 328 pages: 308 selected-body pages and twenty current
+whole-page reviews. Another 217 primary classifications remain pending. Only the
+current twenty pages have complete accounting records in this initial ledger;
+the 525 remaining records need prior-evidence reconciliation or direct review.
+Restored article portions do not automatically classify excluded or unmapped areas.
+All 530 exclusions remain explicitly pending in this initial accounting artifact.
+
+Five accounting files reproduce independently and in a fresh process. All 545
+slots, original geometry, ownership links and pending states validate; twenty
+semantic faults reject. All 76,333 earlier March files and thirty core modules
+remain exact, and the unchanged 214-test baseline is reused. No new OCR or source
+correction was performed. An initial collector invoked the generic legacy assembly
+checker, which cannot project the custom MUD listing index. That failed script is
+retained. The collector now checks schemas, complete inventories and all file pins,
+and binds the prior specialized validation/reproduction. Original assembly adapters
+must be used again at issue closeout; no package or core code was changed.
+
+Accounting artifact: `archive/pdf/1995-03/restoration/batch-90/accounting-r01/`.
+Reproduction, source review and validation: `archive/pdf/1995-03/restoration/batch-90/`.
+One hundred final classification/accounting pins are retained.
+Next reconcile prior review evidence and inspect PDF 21–40, then continue bounded
+accounting. Preserve shared 538 ownership, giro front 539/reverse 540, publisher
+advertisements 202–203 and unlisted CD 194–195, public-software 186–189 and
+game-room 190–191. Final FLC disposition, cover preservation, standalone JSON/assets
+export/rebuild and separate closeout remain required before July.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
+The full March goal remains active. Exact glyphs, full proofreading and human acceptance
+remain unverified. No reader rebuild or deployment.
+
 ## 2026-11-06 — March humor and bounded FLC lookup
 
 Batch 89 completes humor 0089 on PDF 536/observed printed 528 and records a
