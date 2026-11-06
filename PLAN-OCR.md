@@ -86,10 +86,27 @@ caption on 184. The Panasonic contact remains one block across two mapped region
 Two pre-OCR maps, zero retries, one timed source pass and zero within/post-pass
 revisions. All 27 invalid cases reject; 4,278 earlier July files and thirty core
 modules remain exact. The unchanged 214-test batch-03 baseline is reused.
-All eight overseas source pages 177–184 are now preserved across two natives;
-actual assembly remains required. Totals: one readable, one partial, five references
-and 96 unresolved. Next: assemble overseas 0007, then finalize its nine children.
-Whole July 560-page accounting, cover and standalone closeout remain pending.
+All eight overseas source pages 177–184 are preserved across two natives.
+At that checkpoint: one readable, one partial, five references and 96 unresolved.
+Its actual parent assembly and first child classification complete in batch 08 below.
+
+July batch 08 actually assembles complete overseas 0007 across PDF 177–184:
+451 exact parent files contain all 443 independently regenerated native files.
+All 118 crops, 103 original OCR outcomes, 75 blocks, 723 rows, 3,432 native typed
+occurrences, 6,864 current ranges and 30,643 scalar values validate. Twenty-one
+notices, three boxed items, 15 image regions, 12 unique captions, 15 contacts and
+45 product fields retain their source contexts. No cross-native prose join,
+new mapping, OCR or source correction. All 214 fresh PDF tests pass; all 4,835
+earlier July files and thirty core modules remain exact.
+MSN child 0008 is final at `a-msn-title`, complete on PDF 177/printed 166, with
+two screenshots sharing one literal caption. Parent banners and following VRML
+are excluded; the source title discrepancy and canonical metadata remain unchanged.
+Three sidecars, 26 child typed ranges and 57 combined invalid cases validate.
+External status dispositions preserve immutable creation-time flags. Totals:
+two readable, zero partials, six references and 95 unresolved. Next: finalize
+children 0009/0010 (VRML and boxed Windows NT on PDF 178), then 0011–0016 within
+the two-task limit. Whole July 560-page accounting, cover and standalone closeout
+remain pending. Incomplete donated TOC scans remain an explicit verification limit.
 See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial

@@ -1,5 +1,27 @@
 # Progress
 
+## 2026-11-06 — July overseas parent and MSN reference complete
+
+July batch 08 actually assembles complete overseas 0007 across PDF 177–184:
+451 exact parent files contain all 443 independently regenerated native files.
+All 118 crops, 103 original OCR outcomes, 75 blocks, 723 rows, 3,432 native typed
+occurrences, 6,864 current ranges and 30,643 scalar values validate. Twenty-one
+notices, three boxed items, 15 image regions, 12 unique captions, 15 contacts and
+45 product fields retain their source contexts. No cross-native prose join,
+new mapping, OCR or source correction. All 214 fresh PDF tests pass; all 4,835
+earlier July files and thirty core modules remain exact.
+MSN child 0008 is final at `a-msn-title`, complete on PDF 177/printed 166, with
+two screenshots sharing one literal caption. Parent banners and following VRML
+are excluded; the source title discrepancy and canonical metadata remain unchanged.
+Three sidecars, 26 child typed ranges and 57 combined invalid cases validate.
+External status dispositions preserve immutable creation-time flags. Totals:
+two readable, zero partials, six references and 95 unresolved. Next: finalize
+children 0009/0010 (VRML and boxed Windows NT on PDF 178), then 0011–0016 within
+the two-task limit. Whole July 560-page accounting, cover and standalone closeout
+remain pending. Incomplete donated TOC scans remain an explicit verification limit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-08/handoff.json`.
+
 ## 2026-11-06 — July overseas source segments preserved
 
 July batch 07 preserves final overseas 0007 pages 183–184/printed 172–173 as a

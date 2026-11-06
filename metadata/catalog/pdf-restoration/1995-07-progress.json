@@ -561,40 +561,75 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Overseas Network0007 owns the PDF177–184/printed166–173 news bundle. Domestic ends176; distinct software review begins185. Canonical identities and all nine child classifications remain unchanged/pending.",
         "Opening177–182 preserved as immutable native: twelve independent notices, three boxed notices, nine original images, seven unique literal captions, six contacts and23 product fields. HP and Painter prose cross pages; HSC body181 and image/caption182 retain one item context. Two pairs of images each share a caption.",
         "All273 files reproduce independently and in a fresh process;73 crops,64 OCR outcomes,42 blocks,513 rows and2,424 typed occurrences validate.27 invalid cases reject. Two pre-OCR maps,zero retries,one timed source pass,one within-pass refinement,zero post-pass changes. Final183–184 and actual assembly remain pending.",
-        "Batch 07 preserves final PDF 183–184/printed 172–173 as a separate immutable native: nine notices, nine contacts, five captioned photos/screenshots and a separate ending emblem. ScreenCam prose on 183 retains its image/caption on 184. All 170 files, 45 crops, 39 OCR outcomes, 33 blocks, 210 rows and 1,008 typed ranges reproduce independently and in a fresh process; 27 invalid cases reject. Two pre-OCR maps, zero retries, one timed source pass and no within/post-pass revisions. All eight source pages now retained across two natives; actual assembly and nine child classifications remain pending."
+        "Batch 07 preserves final PDF 183–184/printed 172–173 as a separate immutable native: nine notices, nine contacts, five captioned photos/screenshots and a separate ending emblem. ScreenCam prose on 183 retains its image/caption on 184. All 170 files, 45 crops, 39 OCR outcomes, 33 blocks, 210 rows and 1,008 typed ranges reproduce independently and in a fresh process; 27 invalid cases reject. Two pre-OCR maps, zero retries, one timed source pass and no within/post-pass revisions. All eight source pages now retained across two natives; actual assembly and nine child classifications remain pending.",
+        "Batch 08 actually assembles complete Overseas Network 0007, PDF 177–184 / observed printed 166–173, from unchanged natives a/b. Separate notices on 182/183 require no prose join. Motorola closes on 184 before the separate review on 185.",
+        "All 451 assembled files reproduce independently and in a fresh process, including all 443 regenerated native files. Validation covers 118 pixel-exact crops, 103 original OCR outcomes, 75 blocks, 723 reading rows, 3,432 native typed occurrences, 6,864 current ranges and 30,643 scalar values.",
+        "All 21 notices, three boxed items, 15 image regions, 12 unique captions, 15 contacts and 45 product fields retain source contexts. HP and Painter prose, HSC and ScreenCam image continuations, shared captions and the split Panasonic contact remain explicit. No new OCR or source correction.",
+        "MSN child 0008 is a non-owning reference complete on PDF 177, including two screenshots and one shared caption. Parent banners and following VRML are excluded. Children 0009–0016 remain unresolved pending bounded classification. External dispositions resolve creation-time statuses without rewriting originals.",
+        "All 37 assembly and 20 classification faults reject. All 4,835 earlier July files and 30 core modules remain exact; all 214 fresh PDF tests pass. Exact glyphs/source bytes, historical claims, full proofreading and human acceptance remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b",
+        "directory": "archive/pdf/1995-07/packages/article-overseas-r01",
         "article_id": "scan-maso-1995-07-toc-0007",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b/manifest.json",
-          "sha256": "3c2465bcef5704df7bfc31a1347614249ba39d7b4129fec3b528d2fa004ab7f5",
-          "bytes": 28618
+          "path": "archive/pdf/1995-07/packages/article-overseas-r01/manifest.json",
+          "sha256": "a7d81cabc03d6b2426cccaba564bd2f12f56d1d8fa86bfea951a25f8e115d143",
+          "bytes": 79734
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-07/restoration/batch-08/assembly-recipe.json",
+          "sha256": "8627eab3297c3239095a3e4a29203ed6cd97f16bf9dbcf9442f52c7d3f01199b",
+          "bytes": 1973
+        },
+        "adapter": {
+          "path": "archive/pdf/1995-07/restoration/batch-08/overseas_adapter.py",
+          "sha256": "2a767ea71e27348a27ab0af250b062e29cdca3ce4197ccb508a753b5ea892650",
+          "bytes": 10836
+        },
+        "adapter_inputs": {
+          "path": "archive/pdf/1995-07/restoration/batch-08/adapter-inputs.json",
+          "sha256": "304ed91574f6cfe2dbfd69d41bf673a4be2c9d1a688a319110caa6c8d28e197b",
+          "bytes": 9206
         },
         "coverage": {
           "pdf_pages": [
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
             183,
             184
           ],
           "printed_pages": [
+            "166",
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
             "172",
             "173"
           ],
-          "regions": 45,
-          "blocks": 33,
-          "figures": 6
+          "regions": 118,
+          "blocks": 75,
+          "figures": 15,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
         },
-        "body_pages_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "actual_start_pdf_page": 177,
         "actual_end_pdf_page": 184,
+        "observed_ending_pdf_page": 184,
         "full_pdf_pages": [
           177,
           178,
@@ -607,16 +642,46 @@
         ],
         "remaining_source_pages": [],
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-07/validation.json",
-          "sha256": "96c10313b1810c5a11169d0324373eea1ef072c9b1cf355b571526120346c3ce",
-          "bytes": 1758
+          "path": "archive/pdf/1995-07/restoration/batch-08/final-validation.json",
+          "sha256": "fe1f3b65d3afc74f08b175de6402c592dfa7a96fe0c9915eb710859dc2602d4f",
+          "bytes": 2401
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-07/reproduction.json",
-          "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
-          "bytes": 29641
+          "path": "archive/pdf/1995-07/restoration/batch-08/reproduction.json",
+          "sha256": "3075285a1115f966cd0ac881cdb02873f5461d60a83ef752c2cc97ddb37142fd",
+          "bytes": 82133
         },
-        "checkpoint": "batch-07",
+        "checkpoint": "batch-08",
+        "natives": [
+          {
+            "name": "a",
+            "directory": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a/manifest.json",
+              "sha256": "b41a4bcf1e327d46cbb02b283fbeb90c6fb50a03b5028d8fc09fb5aacf1fef09",
+              "bytes": 45134
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-07/restoration/batch-06/overseas-a-r02/package-recipe.json",
+              "sha256": "9296ab6e07f57fe254c97d32a6c60ebde95a8f2ca31f58f5214045af2b975e07",
+              "bytes": 9948
+            }
+          },
+          {
+            "name": "b",
+            "directory": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b/manifest.json",
+              "sha256": "3c2465bcef5704df7bfc31a1347614249ba39d7b4129fec3b528d2fa004ab7f5",
+              "bytes": 28618
+            },
+            "recipe": {
+              "path": "archive/pdf/1995-07/restoration/batch-07/overseas-b-r02/package-recipe.json",
+              "sha256": "ab0115b16b8007d145fefcc5a988a27230ebc336cb47331f42be205b34845c05",
+              "bytes": 7391
+            }
+          }
+        ],
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a",
@@ -728,29 +793,233 @@
             "checkpoint": "batch-07"
           }
         ],
-        "all_native_pdf_pages": [
-          177,
-          178,
-          179,
-          180,
-          181,
-          182,
-          183,
-          184
-        ],
-        "source_extent_preserved_across_natives": true
+        "prior_restoration": {
+          "directory": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b",
+          "article_id": "scan-maso-1995-07-toc-0007",
+          "manifest": {
+            "path": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b/manifest.json",
+            "sha256": "3c2465bcef5704df7bfc31a1347614249ba39d7b4129fec3b528d2fa004ab7f5",
+            "bytes": 28618
+          },
+          "coverage": {
+            "pdf_pages": [
+              183,
+              184
+            ],
+            "printed_pages": [
+              "172",
+              "173"
+            ],
+            "regions": 45,
+            "blocks": 33,
+            "figures": 6
+          },
+          "body_pages_complete": false,
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "actual_start_pdf_page": 177,
+          "actual_end_pdf_page": 184,
+          "full_pdf_pages": [
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184
+          ],
+          "remaining_source_pages": [],
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-07/validation.json",
+            "sha256": "96c10313b1810c5a11169d0324373eea1ef072c9b1cf355b571526120346c3ce",
+            "bytes": 1758
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-07/reproduction.json",
+            "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
+            "bytes": 29641
+          },
+          "checkpoint": "batch-07",
+          "immutable_native_segments": [
+            {
+              "directory": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a",
+              "article_id": "scan-maso-1995-07-toc-0007",
+              "manifest": {
+                "path": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a/manifest.json",
+                "sha256": "b41a4bcf1e327d46cbb02b283fbeb90c6fb50a03b5028d8fc09fb5aacf1fef09",
+                "bytes": 45134
+              },
+              "coverage": {
+                "pdf_pages": [
+                  177,
+                  178,
+                  179,
+                  180,
+                  181,
+                  182
+                ],
+                "printed_pages": [
+                  "166",
+                  "167",
+                  "168",
+                  "169",
+                  "170",
+                  "171"
+                ],
+                "regions": 73,
+                "blocks": 42,
+                "figures": 9
+              },
+              "body_pages_complete": false,
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "actual_start_pdf_page": 177,
+              "actual_end_pdf_page": 184,
+              "full_pdf_pages": [
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184
+              ],
+              "remaining_source_pages": [
+                183,
+                184
+              ],
+              "validation": {
+                "path": "archive/pdf/1995-07/restoration/batch-06/validation.json",
+                "sha256": "f563f99e64d8a4e41a679c4df921f283e5262ab6f14aa8226cafbbfcd51cfce8",
+                "bytes": 1730
+              },
+              "reproduction": {
+                "path": "archive/pdf/1995-07/restoration/batch-06/reproduction.json",
+                "sha256": "7ac7dd98f64d2e91b676680f768934657a44ef7effbc404010f63685d83429bc",
+                "bytes": 46237
+              },
+              "checkpoint": "batch-06"
+            },
+            {
+              "directory": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b",
+              "article_id": "scan-maso-1995-07-toc-0007",
+              "manifest": {
+                "path": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b/manifest.json",
+                "sha256": "3c2465bcef5704df7bfc31a1347614249ba39d7b4129fec3b528d2fa004ab7f5",
+                "bytes": 28618
+              },
+              "coverage": {
+                "pdf_pages": [
+                  183,
+                  184
+                ],
+                "printed_pages": [
+                  "172",
+                  "173"
+                ],
+                "regions": 45,
+                "blocks": 33,
+                "figures": 6
+              },
+              "body_pages_complete": false,
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "actual_start_pdf_page": 177,
+              "actual_end_pdf_page": 184,
+              "full_pdf_pages": [
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184
+              ],
+              "remaining_source_pages": [],
+              "validation": {
+                "path": "archive/pdf/1995-07/restoration/batch-07/validation.json",
+                "sha256": "96c10313b1810c5a11169d0324373eea1ef072c9b1cf355b571526120346c3ce",
+                "bytes": 1758
+              },
+              "reproduction": {
+                "path": "archive/pdf/1995-07/restoration/batch-07/reproduction.json",
+                "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
+                "bytes": 29641
+              },
+              "checkpoint": "batch-07"
+            }
+          ],
+          "all_native_pdf_pages": [
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184
+          ],
+          "source_extent_preserved_across_natives": true
+        },
+        "source_creation_dispositions": [
+          {
+            "path": "archive/pdf/1995-07/classifications/batch-08-r01/parent-status-dispositions.json",
+            "sha256": "e12d65e5270abb0a0f9fe78ec0cb9d22a267fe53c4b90fb1bd860e2a00149720",
+            "bytes": 2011
+          }
+        ]
       }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0008",
       "title": "MS, 온라인 퍼블리싱 기반의 MSN 구축 분주",
       "parent_id": "maso-1995-07-toc-0007",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Contents 5 and source 177 establish MSN as the first non-owning overseas child. Canonical title, parent, null page reference and byline remain unchanged; the expanded printed title repeats 기반 and is retained as a source discrepancy.",
+        "Complete PDF 177 / printed 166 scope includes seven prose regions, two screenshots and one shared caption. Parent Overseas/Trends headers and following VRML 178 are excluded. No source author credit is printed.",
+        "Three sidecars reproduce independently and in a fresh process. All 26 typed occurrences, 12 regions, four blocks and six continuation boundaries validate; 20 invalid cases reject. No duplicate body or new source correction."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0007",
+      "section": {
+        "anchor": "a-msn-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 177
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0007",
+        "directory": "archive/pdf/1995-07/packages/article-overseas-r01",
+        "anchor": "a-msn-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 177,
+        "source_heading_printed_page": "166",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-overseas-r01/manifest.json",
+          "sha256": "a7d81cabc03d6b2426cccaba564bd2f12f56d1d8fa86bfea951a25f8e115d143",
+          "bytes": 79734
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-08-r01/child-0008-anchor.json",
+          "sha256": "7dc952369cf76994f1a31d464e574a170fe4b5ed1c957f8bb34ee92cc6c7d8fa",
+          "bytes": 36843
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-08/final-validation.json",
+          "sha256": "fe1f3b65d3afc74f08b175de6402c592dfa7a96fe0c9915eb710859dc2602d4f",
+          "bytes": 2401
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0009",
@@ -2050,22 +2319,63 @@
         "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
         "bytes": 29641
       }
+    },
+    {
+      "name": "1995-07-batch-08",
+      "status": "complete",
+      "completed_at": "2026-11-06T11:42:38.577115+00:00",
+      "goal": "Assemble complete overseas 0007 and finalize MSN child 0008.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0007",
+        "maso-1995-07-toc-0008"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 7,
+      "outside_lookup_pdf_pages": [
+        5,
+        176,
+        177,
+        182,
+        183,
+        184,
+        185
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-08/final-validation.json",
+        "sha256": "fe1f3b65d3afc74f08b175de6402c592dfa7a96fe0c9915eb710859dc2602d4f",
+        "bytes": 2401
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-08/reproduction.json",
+        "sha256": "3075285a1115f966cd0ac881cdb02873f5461d60a83ef752c2cc97ddb37142fd",
+        "bytes": 82133
+      },
+      "classification_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-08/classification-reproduction.json",
+        "sha256": "d8604adba893a20c8cc154333dcf55f2cc1fa51f0ea9e8e430086ece2d2c2975",
+        "bytes": 987
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 1,
-    "partial": 1,
+    "readable": 2,
+    "partial": 0,
     "group_headings": 0,
-    "section_references": 5,
-    "unresolved": 96
+    "section_references": 6,
+    "unresolved": 95
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Actually assemble complete overseas 0007 on PDF 177–184 from independently regenerated natives a/b, with no 182→183 prose join. Preserve all custom metadata, original ranges, 21 notices, 15 image regions, 12 unique captions, 15 contacts and ScreenCam/HSC image continuations. Then finalize children 0008–0016 within the two-task limit; 0015/0016 share a source title candidate requiring evidence. Complete all remaining July outcomes, 560-page accounting, cover and standalone closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Finalize overseas children 0009/0010 as non-owning references into complete parent 0007: VRML and boxed Windows NT on PDF 178. Preserve their separate scopes, shared VRML caption and canonical metadata; no duplicate bodies or new OCR expected. Then classify children 0011–0016 within two-task/six-mapped/twenty-lookup limits. Continue all remaining July identities, 560-page accounting, cover and separate standalone closeout; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -2106,6 +2416,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-05-r01/parent-status-dispositions.json",
       "sha256": "4427704d965cbaf0641663e5d9bf71dab910ec8f6fca3acd4b21075789ffe9c2",
       "bytes": 3749
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-08-r01/child-0008-anchor.json",
+      "sha256": "7dc952369cf76994f1a31d464e574a170fe4b5ed1c957f8bb34ee92cc6c7d8fa",
+      "bytes": 36843
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-08-r01/parent-status-dispositions.json",
+      "sha256": "e12d65e5270abb0a0f9fe78ec0cb9d22a267fe53c4b90fb1bd860e2a00149720",
+      "bytes": 2011
     }
   ]
 }
