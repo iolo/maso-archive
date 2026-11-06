@@ -1,5 +1,32 @@
 # Progress
 
+## 2026-11-07 — July parallel interviews and forum group completed
+
+July batch 25 completes interview 0027 on PDF 211–214/printed 200–203 and
+classifies parent 0026 나눔터 as a non-owning group. Its 224 native files reproduce
+independently and in a fresh process: 57 exact crops, 53 OCR outcomes, 37 blocks,
+365 physical rows and 1,394 typed occurrences validate. The two parallel interviews
+remain distinct: six question/answer pairs for 김덕중 and seven for 장세환. Four
+original images, two literal portrait captions, two pull quotes and separate
+reporting/photo credits retain their source contexts. Fourteen local groups preserve
+sixteen continuation boundaries. Two pre-OCR maps retain two coverage/separation
+repairs; one source pass, zero retries and zero within/post-pass text revisions.
+A failed timing-receipt write left six crop inspections before the corrected start
+receipt; no corrected text was written before it. This exception remains recorded.
+Five group files reproduce exactly, with three source crops and both child links;
+second child 0028 remains pending. All 52 invalid native/group cases reject.
+All 17,292 earlier July files, thirty core modules and nine frozen adapters remain
+exact; the unchanged 214-test batch-19 baseline is reused.
+Totals: eight readable articles, two groups, seventeen references and 76 unresolved
+identities, with zero partials. Next: verify and restore child 0028 유니코드와 한글
+통합형 코드 from saved PDF 215/printed 204, source author 양왕성. Establish its
+full extent and following boundary within the two-task/six-mapped/twenty-lookup
+limits; preserve group creation-time evidence and resolve its pending status later.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-25/handoff.json`.
+
 ## 2026-11-07 — July column family completed
 
 July batch 24 completes child 0025 개똥철학 on PDF 159–160/printed 148–149.
