@@ -865,6 +865,40 @@ Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical execution remain explicit limits.
 
+July batch 42 preserves socket0047 opening PDF 341–346/printed 330–335 as
+an immutable partial native. Full extent 341–352 is verified: prose ends 349,
+server/client listings continue through 352, and WinG opens separately on 353.
+All 425 selected files match independent and fresh-process exports. All 110 crops,
+102 OCR outcomes, 90 blocks, 433 nonblank reading rows and 3,928 typed ranges
+validate. Eight originals retain four literal captions; source author 박경호,
+three installment rows and 35 diagram-label regions retain their source roles.
+Twelve code blocks preserve fifteen physical regions, 152 rows, three blanks and
+36 Korean comment rows. The independent byte-order sidebar on 344 retains
+34 API prototypes in 48 physical rows; getpeername spans columns. Main prose
+continues 343→345 across the sidebar. Ten joins retain twelve boundaries,
+including server code 345→346 and client code across the columns of 346.
+Printed readfrom(), cldsesocket(), missing structure semicolons, macro semicolons,
+missing prototype pointer marks and connect's client-address variable remain
+literal. Square bracket shapes are preserved without historical syntax repair.
+All 102 drafts were read before one prospective source pass. Two pre-OCR maps
+retain 100 events: two region splits and 98 margin adjustments. Zero retries,
+within-pass refinements, post-pass changes or post-OCR crop changes. The start
+receipt undercounted diagram labels as 34; all 35 were already mapped and
+recognized. The completion receipt records this count correction explicitly.
+All 43 invalid cases reject. All 33,127 earlier July files, thirty core modules,
+eleven frozen adapters and 61 classification pins remain exact. The unchanged
+214-test batch-41 baseline is reused. One canonical task, six mapped pages and
+eight outside lookups remain within limits. Parent0046 stays non-owning;
+its original pending-child evidence remains unchanged.
+Totals: twenty-one readable articles, one partial, eight groups, seventeen
+references and 56 unresolved identities. Next: restore final socket pages 347–352,
+including incoming datagram code, remaining API explanations, diagram5, ending
+and editor on 349, server listing1 rows001–141 on 350–351, and client listing2
+rows001–143 on 351–352. Then actually assemble 341–352 separately.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical execution remain explicit limits.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
