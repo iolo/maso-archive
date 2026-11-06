@@ -84,7 +84,20 @@ Two pre-OCR maps, zero retries, one timed source pass, one within-pass refinemen
 and zero post-pass changes. All 27 invalid cases reject; 3,365 earlier July files
 and thirty core modules remain exact. The unchanged 214-test batch-03 baseline
 is reused. Totals: one readable, one partial, five references and 96 unresolved.
-Next: final overseas 183–184, then actual assembly and child classifications.
+Its final overseas pages are preserved by batch 07 below.
+
+July batch 07 preserves final overseas 0007 pages 183–184/printed 172–173 as a
+second immutable native. Its 170 selected/independent/fresh-process files match:
+45 pixel-exact crops, 39 OCR outcomes, 33 blocks, 210 rows and 1,008 typed ranges.
+Nine product notices retain nine contacts, five captioned images, a separate ending
+emblem and 22 product fields. ScreenCam prose on 183 retains its screenshot and
+caption on 184. The Panasonic contact remains one block across two mapped regions.
+Two pre-OCR maps, zero retries, one timed source pass and zero within/post-pass
+revisions. All 27 invalid cases reject; 4,278 earlier July files and thirty core
+modules remain exact. The unchanged 214-test batch-03 baseline is reused.
+All eight overseas source pages 177–184 are now preserved across two natives;
+actual assembly remains required. Totals: one readable, one partial, five references
+and 96 unresolved. Next: assemble overseas 0007, then finalize its nine children.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.

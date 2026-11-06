@@ -1,5 +1,23 @@
 # Progress
 
+## 2026-11-06 — July overseas source segments preserved
+
+July batch 07 preserves final overseas 0007 pages 183–184/printed 172–173 as a
+second immutable native. Its 170 selected/independent/fresh-process files match:
+45 pixel-exact crops, 39 OCR outcomes, 33 blocks, 210 rows and 1,008 typed ranges.
+Nine product notices retain nine contacts, five captioned images, a separate ending
+emblem and 22 product fields. ScreenCam prose on 183 retains its screenshot and
+caption on 184. The Panasonic contact remains one block across two mapped regions.
+Two pre-OCR maps, zero retries, one timed source pass and zero within/post-pass
+revisions. All 27 invalid cases reject; 4,278 earlier July files and thirty core
+modules remain exact. The unchanged 214-test batch-03 baseline is reused.
+All eight overseas source pages 177–184 are now preserved across two natives;
+actual assembly remains required. Totals: one readable, one partial, five references
+and 96 unresolved. Next: assemble overseas 0007, then finalize its nine children.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-07/handoff.json`.
+
 ## 2026-11-06 — July overseas opening preserved
 
 July batch 06 preserves overseas 0007 opening PDF 177–182/printed 166–171 as

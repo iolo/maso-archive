@@ -566,36 +566,29 @@
       "classification_evidence": [
         "Overseas Network0007 owns the PDF177–184/printed166–173 news bundle. Domestic ends176; distinct software review begins185. Canonical identities and all nine child classifications remain unchanged/pending.",
         "Opening177–182 preserved as immutable native: twelve independent notices, three boxed notices, nine original images, seven unique literal captions, six contacts and23 product fields. HP and Painter prose cross pages; HSC body181 and image/caption182 retain one item context. Two pairs of images each share a caption.",
-        "All273 files reproduce independently and in a fresh process;73 crops,64 OCR outcomes,42 blocks,513 rows and2,424 typed occurrences validate.27 invalid cases reject. Two pre-OCR maps,zero retries,one timed source pass,one within-pass refinement,zero post-pass changes. Final183–184 and actual assembly remain pending."
+        "All273 files reproduce independently and in a fresh process;73 crops,64 OCR outcomes,42 blocks,513 rows and2,424 typed occurrences validate.27 invalid cases reject. Two pre-OCR maps,zero retries,one timed source pass,one within-pass refinement,zero post-pass changes. Final183–184 and actual assembly remain pending.",
+        "Batch 07 preserves final PDF 183–184/printed 172–173 as a separate immutable native: nine notices, nine contacts, five captioned photos/screenshots and a separate ending emblem. ScreenCam prose on 183 retains its image/caption on 184. All 170 files, 45 crops, 39 OCR outcomes, 33 blocks, 210 rows and 1,008 typed ranges reproduce independently and in a fresh process; 27 invalid cases reject. Two pre-OCR maps, zero retries, one timed source pass and no within/post-pass revisions. All eight source pages now retained across two natives; actual assembly and nine child classifications remain pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a",
+        "directory": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b",
         "article_id": "scan-maso-1995-07-toc-0007",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a/manifest.json",
-          "sha256": "b41a4bcf1e327d46cbb02b283fbeb90c6fb50a03b5028d8fc09fb5aacf1fef09",
-          "bytes": 45134
+          "path": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b/manifest.json",
+          "sha256": "3c2465bcef5704df7bfc31a1347614249ba39d7b4129fec3b528d2fa004ab7f5",
+          "bytes": 28618
         },
         "coverage": {
           "pdf_pages": [
-            177,
-            178,
-            179,
-            180,
-            181,
-            182
+            183,
+            184
           ],
           "printed_pages": [
-            "166",
-            "167",
-            "168",
-            "169",
-            "170",
-            "171"
+            "172",
+            "173"
           ],
-          "regions": 73,
-          "blocks": 42,
-          "figures": 9
+          "regions": 45,
+          "blocks": 33,
+          "figures": 6
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -612,21 +605,140 @@
           183,
           184
         ],
-        "remaining_source_pages": [
+        "remaining_source_pages": [],
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-07/validation.json",
+          "sha256": "96c10313b1810c5a11169d0324373eea1ef072c9b1cf355b571526120346c3ce",
+          "bytes": 1758
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-07/reproduction.json",
+          "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
+          "bytes": 29641
+        },
+        "checkpoint": "batch-07",
+        "immutable_native_segments": [
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a",
+            "article_id": "scan-maso-1995-07-toc-0007",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-06-r01/overseas-a/manifest.json",
+              "sha256": "b41a4bcf1e327d46cbb02b283fbeb90c6fb50a03b5028d8fc09fb5aacf1fef09",
+              "bytes": 45134
+            },
+            "coverage": {
+              "pdf_pages": [
+                177,
+                178,
+                179,
+                180,
+                181,
+                182
+              ],
+              "printed_pages": [
+                "166",
+                "167",
+                "168",
+                "169",
+                "170",
+                "171"
+              ],
+              "regions": 73,
+              "blocks": 42,
+              "figures": 9
+            },
+            "body_pages_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 177,
+            "actual_end_pdf_page": 184,
+            "full_pdf_pages": [
+              177,
+              178,
+              179,
+              180,
+              181,
+              182,
+              183,
+              184
+            ],
+            "remaining_source_pages": [
+              183,
+              184
+            ],
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-06/validation.json",
+              "sha256": "f563f99e64d8a4e41a679c4df921f283e5262ab6f14aa8226cafbbfcd51cfce8",
+              "bytes": 1730
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-06/reproduction.json",
+              "sha256": "7ac7dd98f64d2e91b676680f768934657a44ef7effbc404010f63685d83429bc",
+              "bytes": 46237
+            },
+            "checkpoint": "batch-06"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b",
+            "article_id": "scan-maso-1995-07-toc-0007",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-07-r01/overseas-b/manifest.json",
+              "sha256": "3c2465bcef5704df7bfc31a1347614249ba39d7b4129fec3b528d2fa004ab7f5",
+              "bytes": 28618
+            },
+            "coverage": {
+              "pdf_pages": [
+                183,
+                184
+              ],
+              "printed_pages": [
+                "172",
+                "173"
+              ],
+              "regions": 45,
+              "blocks": 33,
+              "figures": 6
+            },
+            "body_pages_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 177,
+            "actual_end_pdf_page": 184,
+            "full_pdf_pages": [
+              177,
+              178,
+              179,
+              180,
+              181,
+              182,
+              183,
+              184
+            ],
+            "remaining_source_pages": [],
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-07/validation.json",
+              "sha256": "96c10313b1810c5a11169d0324373eea1ef072c9b1cf355b571526120346c3ce",
+              "bytes": 1758
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-07/reproduction.json",
+              "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
+              "bytes": 29641
+            },
+            "checkpoint": "batch-07"
+          }
+        ],
+        "all_native_pdf_pages": [
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
           183,
           184
         ],
-        "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-06/validation.json",
-          "sha256": "f563f99e64d8a4e41a679c4df921f283e5262ab6f14aa8226cafbbfcd51cfce8",
-          "bytes": 1730
-        },
-        "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-06/reproduction.json",
-          "sha256": "7ac7dd98f64d2e91b676680f768934657a44ef7effbc404010f63685d83429bc",
-          "bytes": 46237
-        },
-        "checkpoint": "batch-06"
+        "source_extent_preserved_across_natives": true
       }
     },
     {
@@ -1905,6 +2017,39 @@
         "sha256": "7ac7dd98f64d2e91b676680f768934657a44ef7effbc404010f63685d83429bc",
         "bytes": 46237
       }
+    },
+    {
+      "name": "1995-07-batch-07",
+      "status": "complete",
+      "completed_at": "2026-11-06T11:28:45.590378+00:00",
+      "goal": "Preserve overseas 0007 final PDF 183–184 as immutable native b.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0007"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        183,
+        184
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        182,
+        185
+      ],
+      "recognition_invocations": 39,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-07/validation.json",
+        "sha256": "96c10313b1810c5a11169d0324373eea1ef072c9b1cf355b571526120346c3ce",
+        "bytes": 1758
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-07/reproduction.json",
+        "sha256": "e973b843f562b044be2d5ba34b97f8b5493aa1435a15512fc338324c808fbe0e",
+        "bytes": 29641
+      }
     }
   ],
   "totals": {
@@ -1920,7 +2065,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore overseas0007 final PDF183–184/printed172–173 as a separate immutable native within the two-task/six-page/twenty-lookup limits, reusing saved source views and boundary evidence. Then actually assemble177–184 with no182→183 prose join, preserving all native custom metadata, and separately finalize children0008–0016. Complete remaining July identities,560-page accounting,cover and standalone closeout; no reader rebuild/deployment.",
+  "next_checkpoint": "Actually assemble complete overseas 0007 on PDF 177–184 from independently regenerated natives a/b, with no 182→183 prose join. Preserve all custom metadata, original ranges, 21 notices, 15 image regions, 12 unique captions, 15 contacts and ScreenCam/HSC image continuations. Then finalize children 0008–0016 within the two-task limit; 0015/0016 share a source title candidate requiring evidence. Complete all remaining July outcomes, 560-page accounting, cover and standalone closeout; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
