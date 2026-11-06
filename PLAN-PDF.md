@@ -28,12 +28,22 @@ independently and in a fresh process; 81 source crops, 65 OCR outcomes, 1,515 ty
 ranges, sixteen original images and thirteen literal captions validate. All214
 fresh PDF tests pass. One source pass, zero retries/crop changes, three retained
 within-pass refinements and zero post-pass changes. Eight independent item contexts
-include two separate interviews. Totals: one partial,102 unresolved. Next: final
-domestic171–176, then separate parent assembly and child classification. See the
+include two separate interviews. Its final domestic pages are now preserved by
+batch02 below; the opening native remains unchanged.
+
+July batch 02 preserves final domestic 171–176 as a second immutable native:
+473 independent/fresh-process exact files, 123 crops, 114 OCR outcomes, 94 blocks,
+591 rows and 2,898 typed ranges. Twenty-nine notices retain 27 contacts, nine images,
+eight literal captions and 35 product fields. Three pre-OCR maps, zero retries,
+one timed source pass, one within-pass refinement and zero post-pass changes.
+All 871 earlier July files/thirty core modules remain exact; the 214-test baseline
+is reused. Both natives now preserve 165–176; actual assembly remains pending.
+Totals stay one partial, 102 unresolved. Next: separate actual parent assembly,
+then bounded classification of children 0002–0006. See the
 [July record](docs/progress/9507.md) and
 `metadata/catalog/pdf-restoration/1995-07-progress.json`. July's full issue goal,
 560-page accounting, cover and standalone closeout remain pending. Older July
-“next” statements below describe the March closeout checkpoint.
+“next” statements below describe historical checkpoints.
 
 March batch 01 completes editorial0001 on PDF151/observed printed143: 25
 independent/fresh-process exact files, five pixel-exact crops, four OCR outcomes,

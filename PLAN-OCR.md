@@ -31,9 +31,13 @@ across 21 supplied PDFs, including all 828 unchanged prior outcomes. March 1995
 preserves domestic0001 opening165–170 as a partial native:284 reproducible files,
 81 exact crops,65 outcomes,1,515 typed ranges and214 fresh passing PDF tests.
 One source pass,zero retries/crop changes,three within-pass refinements andzero
-post-pass changes. Next: final domestic171–176, then separate assembly and child
-classifications. See [July progress](docs/progress/9507.md);102 other identities
-remain unresolved. The March checkpoint history follows. March batch 01 completes
+post-pass changes. Batch02 now preserves final domestic 171–176:473 exact files,
+123 crops, 114 outcomes, 591 rows and 2,898 ranges. Three pre-OCR maps, zero retries,
+one timed source pass, one within-pass refinement and zero post-pass changes.
+All 871 earlier July files/thirty core modules remain exact; 214-test baseline reused.
+Next: actual domestic 165–176 assembly, then bounded child classification.
+See [July progress](docs/progress/9507.md);one partial and 102 unresolved remain.
+The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
 completes reader voices0002 and user column0008 on PDF152–155:219 exact files,

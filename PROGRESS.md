@@ -1,5 +1,20 @@
 # Progress
 
+## 2026-11-06 — July domestic source extent preserved
+
+July batch 02 preserves PDF 171–176 as a second immutable native for domestic 0001.
+Both natives now cover 165–176; actual parent assembly and five child classifications
+remain pending. The 473 final-native files reproduce independently and in a fresh
+process:123 exact crops, 114 OCR outcomes, 591 rows and 2,898 typed ranges validate.
+Twenty-nine notices retain 27 contacts, nine original images and eight literal captions.
+One timed source pass, zero retries, one retained within-pass refinement; all871
+earlier July files/thirty core modules remain exact. The214-test baseline is reused.
+
+July totals remain one partial and 102 unresolved. Next: separate actual domestic
+assembly, then bounded child classification. Remaining entries, 560-page accounting,
+cover and standalone closeout are still required. See [July progress](docs/progress/9507.md)
+and `archive/pdf/1995-07/restoration/batch-02/handoff.json`. No reader rebuild.
+
 ## 2026-11-06 — March 1995 restoration complete
 
 Batch 100 completes the March 1995 canonical TOC JSON/assets restoration pass.
