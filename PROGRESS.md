@@ -1,5 +1,29 @@
 # Progress
 
+## 2026-11-06 — Complete July GNU feature assembled
+
+July batch 19 actually assembles complete GNU 0017 across PDF 297–330/printed
+286–319 from six immutable natives. All 1,827 selected/independent/fresh-process
+files match, including all 1,818 separately regenerated native files. All 460 crops,
+435 original OCR outcomes, 403 source blocks in 401 combined blocks, 2,590 reading
+rows, 13,428 projected native occurrences, 26,732 current ranges and 128,208 scalar
+values validate. Two interrupted prose joins resolve gzip 302→304 across GPL 303
+and fontutils 304→310 across the directory. The directory preserves 904 rows,
+1,808 cells, 48 headers and 24 panels. All three parts, 25 original images, eight
+literal captions, code, diagrams, utility box and repeated prose retain source
+contexts. No new OCR or source correction. All 45 invalid cases reject and all
+214 fresh PDF tests pass; 11,898 prior July files, thirty core modules and six
+frozen prior adapter files remain exact.
+Selected article-gnu-r02 resolves six obsolete coverage notes from the retained
+first assembly. Text/listing/raw ZIP and native files are unchanged; external
+status dispositions resolve seven copied native completion flags. Totals are
+three readable parents, zero partials, fourteen references and 86 unresolved.
+Next: finalize GNU child references 0018/0019, then 0020, preserving exact part
+ownership without duplicate bodies. Whole July 560-page accounting, cover and
+standalone closeout remain pending. Incomplete donated TOC scans remain explicit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-19/handoff.json`.
+
 ## 2026-11-06 — July GNU final native preserved; assembly next
 
 July batch 18 preserves final GNU PDF 327–330/printed 316–319 as the sixth
