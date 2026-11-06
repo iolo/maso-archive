@@ -267,38 +267,32 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 74 completes overseas 0062 across PDF 172–179 / observed printed
-164–171 and finalizes IBM child0063 as a non-owning reference wholly on 172.
-The assembled section preserves twenty news items, the separate five-bullet
-AMD–Intel sidebar, twelve original image regions, eleven captions and fifteen
-contacts. Both ColorKey/CleanSweep cross-page image associations remain explicit.
+Batch 75 finalizes overseas children0064/0065 against the complete assembled
+parent0062. AMD spans PDF172–173 / printed164–165 and retains its separate
+five-bullet patent sidebar on173. On Technology is wholly175/167, retaining its
+headline, two-line deck, three prose regions, contact, screenshot and caption.
+Adjacent IBM, MS/UuNET and UnixWare stories are excluded from these references.
 
-All 436 assembly files match independent and fresh-process exports; all 428
-native files remain unchanged. Validation covers 112 pixel-exact crops, 100
-original OCR outcomes, 75 blocks, 762 physical rows, 3,587 projected metadata
-occurrences, 7,174 current typed ranges and 420 exact ZIP members. Eleven source
-discrepancies, nineteen localized candidates, sixteen physical token wraps and
-25 internal boundaries remain preserved. No new OCR or source correction.
-
-IBM0063 links to its headline, deck and three body columns, excluding the separate
-AMD story below the dotted rule. Four classification files reproduce exactly;
-six child ranges validate. Thirty-seven assembly and seventeen classification
-faults reject. All 65,676 prior March files and thirty core modules remain exact;
-the unchanged 214-test baseline is reused. An administrative prior-file count
-was corrected by one; its earlier completion record remains retained.
+Four classification files match independent and fresh-process exports. Validation
+covers forty typed ranges, seventeen source regions, ten blocks, six continuation
+boundaries and three physical token wraps; twenty-five invalid cases reject.
+Six outside source pages were reviewed, with no new mapping, OCR or correction.
+All 436 parent files, 66,164 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused. Canonical titles, missing folios and
+bylines remain unchanged. The AMD sidebar stays separate from main prose.
 
 Complete overseas article: `archive/pdf/1995-03/packages/article-overseas-r01/`.
-Child/status evidence: `archive/pdf/1995-03/classifications/batch-74-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-74/`.
-External dispositions resolve frozen native/group pending statements while
-preserving earlier evidence. Seventy-one final classification pins are retained.
+Current child/status evidence: `archive/pdf/1995-03/classifications/batch-75-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-75/`.
+The cumulative status retains IBM0063 and finalizes AMD0064/On0065, leaving only
+UnixWare0066 pending. Earlier packages, classifications and group0055 remain
+unchanged; 74 final classification evidence pins are retained.
 Totals are thirty-four readable, zero partial, fourteen non-owning headings,
-fourteen references and 28 unresolved.
+sixteen references and 26 unresolved.
 
-Next finalize overseas children0064/0065: AMD172–173, including the separate
-AMD–Intel sidebar on 173, and On Technology175. Then finalize UnixWare0066 on175.
-Use assembled anchors and preserve canonical missing folios; no duplicate bodies
-or new OCR are needed. Library0067 begins on180/172 and follows these references.
+Next finalize UnixWare0066 wholly on175/167, preserving its headline, four prose
+paragraphs, contact and physical token wraps. Then establish library0067 and its
+commercial, title and hardware sections from180/172 in bounded checkpoints.
 FLC0019 awaits bounded lookup or issue accounting. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page

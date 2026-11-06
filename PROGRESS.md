@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-11-06 — March AMD and On Technology references
+
+- Batch 75 finalizes AMD0064 across172–173, including its separate five-bullet
+  sidebar, and On0065 wholly175 with its screenshot, caption and contact.
+- Four classification files reproduce independently and in a fresh process.
+  Forty typed ranges, seventeen regions, ten blocks and six boundaries validate;
+  twenty-five invalid cases reject. No new OCR or source correction.
+- All 436 parent files, 66,164 prior March files and thirty core modules remain
+  unchanged; the unchanged 214-test baseline is reused.
+- Totals: 34 readable, zero partial, fourteen groups, sixteen references and 26 unresolved.
+  Next finalize UnixWare0066, then establish library0067 from180/172.
+- FLC0019, 545-page accounting, cover and separate closeout remain pending.
+  Full March goal active; July follows closeout. No reader rebuild/deployment.
+
 ## 2026-11-06 — March overseas assembly and IBM reference
 
 - Batch 74 completes overseas0062 across172–179 and finalizes IBM0063 as a
