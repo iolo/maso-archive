@@ -1,5 +1,65 @@
 # Progress
 
+## 2026-11-06 — March page accounting advances to 425 pages
+
+Batch 92 completes accounting for 425 of 545 physical pages: sixty directly
+reviewed front pages, 308 restored-body pages with preserved review bindings and
+57 additional pages classified from explicit earlier observations. All ninety
+canonical outcomes remain unchanged: 53 readable, zero partial, nineteen non-owning
+headings, seventeen references and 1 unresolved, FLC 0019. Humor 0089 and all six
+forum children remain complete. No article package or canonical identity changes.
+
+The 57 reused classifications are bound to 25 actual review records, their exact
+source PNGs, original checkpoint source identities and matching source geometry:
+47 full-page advertisements, eight unlisted editorial pages, the non-owning
+Information Radar divider on 159 and the independent Microsoft commercial postcard
+on 541. Public-software pages 186–189, game-room 190–191 and CD reviews 194–195 are
+accounted as unlisted editorial material; no new canonical body is created. The
+later batch80 finding for 194–195 supersedes earlier pending ownership notes.
+
+The initial 55-binding discovery result remains intact. Explicit source-page lists
+in batches24/26 supply the two remaining review declarations for advertisements
+317/325, producing the selected 57-binding revision. A failed pre-export collector
+attempt and repair receipt remain: when a prior batch has no local source-metadata
+copy, its preserved source identity is checked against original batch01 metadata.
+Printed folios are taken only from matching per-page observations, never inherited
+from the preceding article's ending record. Rendered-only 225/226 and unreviewed
+postcard reverse 542 remain pending. No prior image was newly inspected here.
+
+Direct review of PDF 41–60 finds twenty full-page advertisements, including NEWTEC,
+Sindo Ricoh, Adtec, Compaq, Intel, LEO notebooks, communications products, training,
+AutoCAD and Windows NT equipment. No printed folio is inferred and no FLC body is
+found in this range. Review start was prospective; elapsed wall time includes
+analysis and evidence reconciliation. No OCR or source correction was performed.
+
+All 348 earlier completed page rows remain exactly unchanged, including the 308
+body-review bindings and 530 reconciled map exclusions on 297 pages: 515 furniture
+regions, twelve independent advertisements, one publisher naming notice and two
+other-owner areas. Shared 538 still preserves reader-card 0086 on raw x=0–0.721
+and subscriptions 0087 on x=0.721–1, with original rotations and independent bodies.
+Giro front 539/reverse 540 remain preserved. Publisher advertisements 202–203 remain
+excluded from the book-review bodies and fully accounted.
+
+Five accounting files reproduce independently and in a fresh process; seventeen
+semantic faults reject. All 76,469 earlier March files and thirty core modules
+remain exact; the unchanged 214-test baseline is reused. Source images, metadata,
+review pointers and actual page declarations validate for every reused classification.
+
+Current accounting: `archive/pdf/1995-03/restoration/batch-92/accounting-r01/`.
+Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-92/`.
+One hundred two final classification/accounting pins are retained. There are
+120 primary pages still unclassified; no original map-exclusion disposition remains
+pending. Earlier accounting artifacts remain immutable historical snapshots.
+
+Next inspect PDF 61–80 and continue the remaining primary-page accounting. Final
+FLC eligibility/gap disposition, cover preservation, original-adapter assembly
+revalidation and standalone JSON/assets export/rebuild with separate issue closeout
+remain required before July. No whole-PDF FLC absence, exact-glyph recovery, full
+proofreading or human acceptance is claimed.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
+The full March goal remains active. No reader rebuild or deployment.
+
 ## 2026-11-06 — March review and exclusion evidence reconciled
 
 Batch 91 completes accounting for 348 of 545 physical pages: forty directly

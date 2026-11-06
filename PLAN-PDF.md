@@ -267,53 +267,57 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 91 completes accounting for 348 of 545 physical pages: forty directly
-reviewed front pages and 308 restored-body pages linked to preserved source review.
-All ninety canonical outcomes remain unchanged: 53 readable, zero partial, nineteen
-non-owning headings, seventeen references and 1 unresolved, FLC 0019. Humor 0089
-and all six forum children remain complete. No source body or identity is rewritten.
+Batch 92 completes accounting for 425 of 545 physical pages: sixty directly
+reviewed front pages, 308 restored-body pages with preserved review bindings and
+57 additional pages classified from explicit earlier observations. All ninety
+canonical outcomes remain unchanged: 53 readable, zero partial, nineteen non-owning
+headings, seventeen references and 1 unresolved, FLC 0019. Humor 0089 and all six
+forum children remain complete. No article package or canonical identity changes.
 
-All 308 restored pages now have explicit review/render bindings, backed by 73
-actual review records, their source metadata and exact retained full-page images.
-Three documented retained-render links resolve pages 152/153/156; a scalar review
-declaration resolves 218. The initial 304-binding discovery result remains intact.
-No prior page image was newly inspected in this checkpoint; existing review is reused.
-Image geometry and original source identity validate. Render existence alone still
-does not establish review, and planned extents are not substituted for actual records.
+The 57 reused classifications are bound to 25 actual review records, their exact
+source PNGs, original checkpoint source identities and matching source geometry:
+47 full-page advertisements, eight unlisted editorial pages, the non-owning
+Information Radar divider on 159 and the independent Microsoft commercial postcard
+on 541. Public-software pages 186–189, game-room 190–191 and CD reviews 194–195 are
+accounted as unlisted editorial material; no new canonical body is created. The
+later batch80 finding for 194–195 supersedes earlier pending ownership notes.
 
-All 530 original map exclusions on 297 pages are reconciled from their exact
-rectangles, 91 distinct source notes and saved source reviews: 515 pieces of page
-furniture, twelve independent advertisements, one publisher naming notice and two
-areas belonging to another canonical owner. Original maps stay immutable. Shared
-538 remains reader-card 0086 on raw x=0–0.721 and subscriptions 0087 on x=0.721–1;
-reader rotation is 90° and subscription rotation is 0°. Existing final batch88
-ownership evidence resolves both exclusions without duplicated bodies or coordinate
-rewrites. Publisher advertisements 202–203 remain excluded from book-review bodies.
+The initial 55-binding discovery result remains intact. Explicit source-page lists
+in batches24/26 supply the two remaining review declarations for advertisements
+317/325, producing the selected 57-binding revision. A failed pre-export collector
+attempt and repair receipt remain: when a prior batch has no local source-metadata
+copy, its preserved source identity is checked against original batch01 metadata.
+Printed folios are taken only from matching per-page observations, never inherited
+from the preceding article's ending record. Rendered-only 225/226 and unreviewed
+postcard reverse 542 remain pending. No prior image was newly inspected here.
 
-Direct review of PDF 21–40 finds twenty full-page advertisements, including continued
-spreads for YU&I, Ilsacheonri, Acer and Garnet. The DOCS OPEN advertisement on 30
-is distinct from canonical review 0047. No printed folios are inferred and no FLC
-body is found in this range. Review start and elapsed wall time were recorded
-prospectively; that interval includes analysis and evidence reconciliation, not
-pure manual-review time. No OCR or source correction was performed.
+Direct review of PDF 41–60 finds twenty full-page advertisements, including NEWTEC,
+Sindo Ricoh, Adtec, Compaq, Intel, LEO notebooks, communications products, training,
+AutoCAD and Windows NT equipment. No printed folio is inferred and no FLC body is
+found in this range. Review start was prospective; elapsed wall time includes
+analysis and evidence reconciliation. No OCR or source correction was performed.
 
-Five accounting files reproduce independently and in a fresh process. All slots,
-source geometry, review links, exclusion dispositions and shared ownership validate;
-22 semantic faults reject. All 76,399 earlier March files and thirty core modules
-remain exact; the unchanged 214-test baseline is reused. All ninety canonical
-outcomes and all native/assembled article packages remain unchanged.
+All 348 earlier completed page rows remain exactly unchanged, including the 308
+body-review bindings and 530 reconciled map exclusions on 297 pages: 515 furniture
+regions, twelve independent advertisements, one publisher naming notice and two
+other-owner areas. Shared 538 still preserves reader-card 0086 on raw x=0–0.721
+and subscriptions 0087 on x=0.721–1, with original rotations and independent bodies.
+Giro front 539/reverse 540 remain preserved. Publisher advertisements 202–203 remain
+excluded from the book-review bodies and fully accounted.
 
-Accounting artifact: `archive/pdf/1995-03/restoration/batch-91/accounting-r01/`.
-Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-91/`.
-One hundred one final classification/accounting pins are retained. There are
-197 primary pages still unclassified; no original map-exclusion disposition remains
-pending. Earlier provisional accounting files are immutable historical snapshots;
-the issue ledger points to the current accounting artifact.
+Five accounting files reproduce independently and in a fresh process; seventeen
+semantic faults reject. All 76,469 earlier March files and thirty core modules
+remain exact; the unchanged 214-test baseline is reused. Source images, metadata,
+review pointers and actual page declarations validate for every reused classification.
 
-Next classify remaining primary pages using explicit prior observations or bounded
-direct review; inspect PDF 41–60 next. Preserve giro front 539/reverse 540 and unlisted
-CD 194–195, public-software 186–189 and game-room 190–191 in final accounting.
-Final FLC eligibility/gap disposition, cover preservation, original-adapter assembly
+Current accounting: `archive/pdf/1995-03/restoration/batch-92/accounting-r01/`.
+Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-92/`.
+One hundred two final classification/accounting pins are retained. There are
+120 primary pages still unclassified; no original map-exclusion disposition remains
+pending. Earlier accounting artifacts remain immutable historical snapshots.
+
+Next inspect PDF 61–80 and continue the remaining primary-page accounting. Final
+FLC eligibility/gap disposition, cover preservation, original-adapter assembly
 revalidation and standalone JSON/assets export/rebuild with separate issue closeout
 remain required before July. No whole-PDF FLC absence, exact-glyph recovery, full
 proofreading or human acceptance is claimed.
