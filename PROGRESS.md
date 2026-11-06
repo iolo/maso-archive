@@ -1,5 +1,46 @@
 # Progress
 
+## 2026-11-07 — July socket assembly
+
+July batch 44 actually assembles socket0047 across PDF 341–352/printed 330–341.
+All 694 selected, independent and fresh-process files match, including all 685
+independently regenerated native files. Only the datagram server example joins
+across 346→347, using the opening native's existing serialization LF once. Both
+original natives, their source transcriptions, raw OCR and metadata remain unchanged.
+All 175 crops, 164 OCR outcomes, 142 original blocks in 141 assembled blocks,
+eleven figures and 955 reading rows validate. Five figure captions and two listing
+captions retain their separate associations. All 11,158 native typed occurrences,
+including six references into the opening native, project correctly. The complete
+package validates 22,338 current ranges and 106,348 scalar values.
+Twenty-two code blocks retain 527 physical rows, 28 blank payload rows, 93
+comment-start rows and one omission. Seventeen join groups preserve 23 boundaries.
+The independent byte-order sidebar on 344 retains 34 prototypes; the main database
+paragraph still continues 343→345 across it. Three series rows, 48 diagram-label
+regions, four macro rows, source author 박경호 and separate editor 홍동선 retain
+source roles. Prose ends on 349; server/client listings continue through 352.
+The numbered listings retain 141/143 physical rows, including duplicate printed 067
+at client physical row 69 and twenty numbered blank payload rows. Printed anomalies,
+l/1 candidates, broken bars and the image-only won-sign-like mark remain. Omitted
+window initialization stays explicit; no complete executable or execution is claimed.
+All 55 assembly and 26 status invalid cases reject; all 214 fresh PDF tests pass.
+All 35,340 earlier July files, thirty core modules, eleven frozen prior adapters
+and 61 earlier classification pins remain exact. A new private assembly adapter
+preserves complete metadata, the combined title and code offsets without core edits.
+Two external subgroup 0046 status files resolve five original fields, three
+historical notes and one copied article gap note. Only socket 0047 is complete; children 0048–0049 remain pending.
+Original subgroup and ancestor evidence remains unchanged. The first status
+export is retained; the selected revision adds only the inherited partial-note
+resolution. The assembled package and all source text remain unchanged. The classification
+inventory now requires 63 pins. Two canonical tasks, zero mapped pages, eight
+reused source lookups and no new OCR or source correction stay within limits.
+Totals: twenty-two readable articles, zero partials, eight groups, seventeen
+references and 56 unresolved identities. Next: verify WinG 0048 from PDF 353,
+including interior continuity and ending before advertisement 366 and curves 367, then
+restore at most six opening pages 353–358. Preserve the printed [마지막회] suffix
+versus canonical [2]. Whole July 560-page accounting, cover and standalone closeout
+remain pending. Incomplete donated TOCs, full proofreading, human acceptance,
+exact source bytes and historical execution remain explicit limits.
+
 ## 2026-11-07 — July socket final segment
 
 July batch 43 preserves socket0047 final PDF 347–352/printed 336–341 as a
