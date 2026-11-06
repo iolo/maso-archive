@@ -386,10 +386,33 @@ second child 0028 remains pending. All 52 invalid native/group cases reject.
 All 17,292 earlier July files, thirty core modules and nine frozen adapters remain
 exact; the unchanged 214-test batch-19 baseline is reused.
 Totals: eight readable articles, two groups, seventeen references and 76 unresolved
-identities, with zero partials. Next: verify and restore child 0028 유니코드와 한글
-통합형 코드 from saved PDF 215/printed 204, source author 양왕성. Establish its
-full extent and following boundary within the two-task/six-mapped/twenty-lookup
-limits; preserve group creation-time evidence and resolve its pending status later.
+identities, with zero partials at that checkpoint. Unicode child 0028 and the
+external forum-group completion status are completed by batch 26 below.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+
+July batch 26 completes Unicode article 0028 on PDF 215–217/printed 204–206,
+with source author 양왕성. Its 222 native files reproduce independently and in a
+fresh process: 57 exact crops, 52 OCR outcomes, 45 blocks, 284 physical rows and
+2,036 typed occurrences validate. Five sections, vertical title/author, independent
+deck, editorial credit and five original images retain their contexts. Two literal
+captions accompany the diagram and listing. The diagram preserves thirty visible
+hexadecimal/glyph cells and three axes without interpolating omitted cells. All 85
+numbered code rows, including twenty blank-numbered rows and two wrapped printf
+statements, remain literal. Five local groups preserve seven continuation boundaries.
+Three pre-OCR maps retain four repairs; one source pass, zero retries and zero
+within/post-pass text changes. Tiny glyph candidates, printed code anomalies and
+approximate rule lengths remain explicit; no syntax repair or execution is claimed.
+Failed map-kind construction and export-kind validation attempts remain archived.
+Two exact external status files resolve group 0026's pending child while preserving
+original evidence. Four child-local title/credit ranges and 65 combined invalid
+native/status cases validate. Interview production credits remain distinct from
+the Unicode author's byline. All 18,040 earlier July files, thirty core modules and
+nine frozen adapters remain exact; the unchanged 214-test batch-19 baseline is reused.
+Totals: nine readable articles, two groups, seventeen references and 75 unresolved
+identities, with zero partials. Next: verify group 0029 종합클리닉 and restore
+child 0030 from saved PDF 219/printed 208, source author 이창원. Establish its full
+extent and group ownership within the two-task/six-mapped/twenty-lookup limits.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOC scans remain an explicit limit.
 
