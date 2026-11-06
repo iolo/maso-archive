@@ -1,5 +1,68 @@
 # Progress
 
+## 2026-11-06 — March bulletin and reader card
+
+Batch 87 completes bulletin 0085 on PDF 532 / printed 524 and reader-card 0086
+on noncontiguous PDF 528–529 / printed 520–521 plus detached card 537–538, with
+no folios on the card. Only the reader-form portion of shared page 538 belongs
+to 0086. Canonical titles, parents, folios and absent bylines remain unchanged.
+Forum 0083 remains non-owning, with three readable children 0084–0086 and three
+unresolved children 0087–0089.
+
+All 410 native files and two external status files reproduce independently and
+in fresh processes. The 115 crops are pixel-exact; 93 OCR outcomes, 92 blocks,
+207 physical rows, seven body paragraphs, 22 original images and 1,186 typed ranges
+validate. There were 93 initial recognitions, zero retries, one source correction
+pass, two maps and zero crop refinements or within/post-pass transcription changes.
+Forty-two native and thirteen status faults reject; 53 frozen fields resolve
+externally. All 72,797 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused.
+
+The bulletin preserves eleven disk-content records in three groups of 1/8/2,
+including printed article folios and literal paths. The HTML description crosses
+columns with one LF join. No disk-content verification or automatic download/CD
+link is inferred. Four price cells and four headers accompany the original grid.
+Purchasing instructions and historical contact/payment numbers remain literal;
+unbalanced postage parentheses and printed DCC remain unrepaired source context.
+
+The reader pages retain three blank current-quiz boxes and the separate prior
+answer 색인어. Fifteen product-photo/caption groups name sixteen current gifts.
+The current PC-DIC quantity is missing in print; no numeral is inferred.
+VOCABURARY remains as printed despite different product-box spelling. Fifteen
+prior prize groups contain nineteen winners with source-linked names, printed
+addresses and rows. Current and prior gift counts are not reconciled across periods.
+
+Original card images preserve eleven blank response-field groups, six sender
+postcode boxes and the printed recipient 137-073. Historical postage dates remain
+unverified. Reverse 538 has an explicit clockwise 90° correction; page 537 retains
+its original orientation and separately transcribed rotated brand. No form is
+filled. The subscription panel on raw page 538 x=0.721–1 / upright y=0.721–1 is excluded
+pending 0087 ownership. Separate giro 539 is inspected; reverse 540 is uninspected.
+Earlier notice 533 observations no longer establish complete subscription scope.
+
+Packages: `archive/pdf/1995-03/packages/batch-87-r01/`.
+Current forum/card status: `archive/pdf/1995-03/classifications/batch-87-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-87/`.
+Ninety-six final classification/accounting pins are retained. Totals: 50 readable,
+zero partial, nineteen non-owning headings, seventeen references and
+4 unresolved: 0019 and 0087–0089. Exact glyphs, encoded bytes, full proofreading
+and human acceptance remain unverified.
+
+Next restore subscriptions 0087 and advertising index 0088. Confirm the complete
+subscription extent from 533, panel 538, giro 539 and uninspected reverse 540 with
+independent boundaries before mapping. Index 0088 is observed on 534–535. Split
+if the extent exceeds the checkpoint bounds. Then restore humor 0089 and perform
+bounded FLC 0019 lookup/accounting. Introduction 0082 owns 458; special-feature 0045
+and forum 0083 remain non-owning. Library 0067 is complete for all fourteen
+canonical descendants across its observed physical extent 180–207.
+Keep publisher advertisements 202–203 and unlisted CD 194–195, public-software 186–189
+and game-room 190–191 in final page accounting.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses five mapped pages and seven outside lookups.
+The full March goal remains active through remaining outcomes, 545-page accounting,
+cover and separate issue closeout before July.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March April-preview and prize notice
 
 Batch 86 completes April preview0084 on PDF 258–259 / printed250–251 and

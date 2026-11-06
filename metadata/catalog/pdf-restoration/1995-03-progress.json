@@ -6496,23 +6496,143 @@
       "toc_entry_id": "maso-1995-03-toc-0085",
       "title": "게시판",
       "parent_id": "maso-1995-03-toc-0083",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 87 completes bulletin with 125 native files reproducing independently and in a fresh process.",
+        "Bulletin0085 owns PDF532 / printed524, between independent IYAGI advertisement531 and subscription533. Canonical title,parent0083,folio and absent byline remain unchanged.",
+        "Eleven disk-content records retain printed article folios and literal paths across three disk groups of1/8/2 entries. HTML description continues from left column bottom to right column top; one LF join preserves physical rows. Printed DCC and disk naming remain source candidates without expected-value repair, disk-content verification or automatic download/CD links.",
+        "Purchasing instructions,1.2MB2HD medium, historical giro/postal-transfer numbers and telephone remain source-linked. Four price cells and four header labels accompany the original grid. Unbalanced postage parentheses are preserved without repair. Current prices/payment validity and source claims are unverified.",
+        "Both outcomes retain115 pixel-exact crops,93 OCR outcomes,92 blocks,207 physical rows,seven body paragraphs and22 original images. All1,186 typed ranges validate.93 initial recognitions,zero retries,one source correction pass,two maps and zero crop refinements or within/post-pass transcription changes.",
+        "Forty-two native and thirteen status faults reject. Fifty-three frozen status fields resolve externally while original records remain immutable. Forum has three readable children0084–0086 and three unresolved children0087–0089. Subscription extent requires review of notice533 plus panel538 and payment forms539/540.",
+        "All 72797 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Exact glyphs,encoded bytes,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-87-r01/bulletin",
+        "article_id": "scan-maso-1995-03-toc-0085",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-87-r01/bulletin/manifest.json",
+          "sha256": "207715eec458462bda52398119d7eb592c9377286bec2a794c0073a2159da30e",
+          "bytes": 20536
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-87/bulletin-r01/package-recipe.json",
+          "sha256": "d5b69d1fe35c37b8dc149c06e25a33792fb8e9a4629e1843659c66d884bd82d9",
+          "bytes": 4494
+        },
+        "coverage": {
+          "pdf_pages": [
+            532
+          ],
+          "printed_pages": [
+            "524"
+          ],
+          "regions": 30,
+          "blocks": 28,
+          "figures": 1,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 532,
+        "observed_ending_pdf_page": 532,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-87/final-validation.json",
+          "sha256": "550b6112be0398b7181f71e5885c0aab4fc515baa9fc3b521f86734ad91ad9b5",
+          "bytes": 3135
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-87/reproduction.json",
+          "sha256": "9793cc83488a7a07c2e050a9efbff32051210d26b358cf8973cf300668b57aeb",
+          "bytes": 79000
+        },
+        "checkpoint": "batch-87",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-87-r01/source-creation-dispositions.json",
+          "sha256": "96f167d57240c2c5c60b5e2772f33b5ed0760d38ae0e7573b1ad90b428fe5718",
+          "bytes": 32114
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0086",
       "title": "애독자 카드/당첨자 명단",
       "parent_id": "maso-1995-03-toc-0083",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 87 completes reader-card with 285 native files reproducing independently and in a fresh process.",
+        "Reader-card0086 owns noncontiguous PDF528–529/printed520–521 and detached card537 plus reader-form portion538, both without folios. Canonical title,parent0083,folio520 and absent article byline remain unchanged. Independent boundaries527/530/536/539 were inspected.",
+        "Current quiz keeps three empty squares and no inferred answer. Fifteen product photos/captions name sixteen gifts, including the paired Han-sol products. PC-DIC current caption has no numeral before 명; no count is inferred. VOCABURARY is retained as printed despite different product-box spelling.",
+        "The previous answer 색인어 stays separate from the current quiz. Fifteen prior prize groups retain nineteen winners, each source-linked to its name, printed address and physical row. Current gift counts are not forced to match the prior winners. Names/localities remain source candidates without historical identity or address verification.",
+        "Original card front and back preserve eleven blank response-field groups, including six sender-postcode boxes. Recipient137-073 and historical postage validity1995.2.1–1997.1.31 remain printed context. No response fields are filled and no interactive form is created.",
+        "PDF538 has an explicit clockwise90 correction; only its reader-response form belongs to0086. The separate subscription panel at rawx0.721–1/uprighty0.721–1 is excluded pending0087. Giro539 is separate;540 remains uninspected. Page537 stays in original orientation, with its rotated brand approximated in source-linked text.",
+        "Both outcomes retain115 pixel-exact crops,93 OCR outcomes,92 blocks,207 physical rows,seven body paragraphs and22 original images. All1,186 typed ranges validate.93 initial recognitions,zero retries,one source correction pass,two maps and zero crop refinements or within/post-pass transcription changes.",
+        "Forty-two native and thirteen status faults reject. Fifty-three frozen status fields resolve externally while original records remain immutable. Forum has three readable children0084–0086 and three unresolved children0087–0089. Subscription extent requires review of notice533 plus panel538 and payment forms539/540.",
+        "All 72797 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Exact glyphs,encoded bytes,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-87-r01/reader-card",
+        "article_id": "scan-maso-1995-03-toc-0086",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-87-r01/reader-card/manifest.json",
+          "sha256": "30fab566edc7bee116f9a6701950486ea607cff2ce0dafd90af14abcc139045b",
+          "bytes": 48310
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-87/reader-card-r01/package-recipe.json",
+          "sha256": "f39f4d9935d66e780b054cbf1247f13b4cbe326804bf2fd69967908b1399bb73",
+          "bytes": 14204
+        },
+        "coverage": {
+          "pdf_pages": [
+            528,
+            529,
+            537,
+            538
+          ],
+          "printed_pages": [
+            "520",
+            "521",
+            null,
+            null
+          ],
+          "regions": 85,
+          "blocks": 64,
+          "figures": 21,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 528,
+        "observed_ending_pdf_page": 538,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-87/final-validation.json",
+          "sha256": "550b6112be0398b7181f71e5885c0aab4fc515baa9fc3b521f86734ad91ad9b5",
+          "bytes": 3135
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-87/reproduction.json",
+          "sha256": "9793cc83488a7a07c2e050a9efbff32051210d26b358cf8973cf300668b57aeb",
+          "bytes": 79000
+        },
+        "checkpoint": "batch-87",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-87-r01/source-creation-dispositions.json",
+          "sha256": "96f167d57240c2c5c60b5e2772f33b5ed0760d38ae0e7573b1ad90b428fe5718",
+          "bytes": 32114
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0087",
@@ -9922,22 +10042,69 @@
         "sha256": "e39f7baa862ef9d104672bb575287f8d192f7ee0607206ca4c3f5b2c524e4c2b",
         "bytes": 53657
       }
+    },
+    {
+      "name": "1995-03-batch-87",
+      "status": "complete",
+      "completed_at": "2026-11-06T03:47:19.278465+00:00",
+      "goal": "Restore complete bulletin0085 and reader-card0086; preserve catalog records, quiz periods, blank forms and shared-page boundary.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0085",
+        "maso-1995-03-toc-0086"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        528,
+        529,
+        532,
+        537,
+        538
+      ],
+      "outside_lookup_pages": 7,
+      "outside_lookup_pdf_pages": [
+        5,
+        527,
+        530,
+        531,
+        533,
+        536,
+        539
+      ],
+      "recognition_invocations": 93,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 2,
+      "pre_ocr_refinement_events": 0,
+      "pre_ocr_layout_refinements": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-87/final-validation.json",
+        "sha256": "550b6112be0398b7181f71e5885c0aab4fc515baa9fc3b521f86734ad91ad9b5",
+        "bytes": 3135
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-87/reproduction.json",
+        "sha256": "9793cc83488a7a07c2e050a9efbff32051210d26b358cf8973cf300668b57aeb",
+        "bytes": 79000
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 48,
+    "readable": 50,
     "partial": 0,
     "group_headings": 19,
     "section_references": 17,
-    "unresolved": 6
+    "unresolved": 4
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore bulletin0085 on532 and reader-card/winners0086 from528–529 and detached card537; inspect reverse538 and independent boundaries before selecting the complete noncontiguous map. Keep at most two canonical tasks,six mapped pages and twenty outside lookups. Then restore subscriptions0087,index0088 and humor0089. FLC0019 awaits bounded lookup/accounting. Preserve non-owning forum0083 and introduction0082 ownership. Carry publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 into final545-page accounting. Complete March outcomes,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Restore subscriptions0087 and index0088. Inspect complete subscription extent: notice533, excluded panel538, giro539 and uninspected reverse540, plus independent boundaries. Index0088 is observed on534–535. Keep at most two canonical tasks,six mapped pages,twenty outside lookups; split if scope expands. Then humor0089 and bounded FLC0019 lookup/accounting. Preserve reader-card shared-page538 boundary, non-owning forum0083 and introduction0082 ownership. Carry publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 into final545-page accounting. Complete March outcomes,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -10413,6 +10580,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-86-r01/source-creation-dispositions.json",
       "sha256": "3bbf02eef17a311085d5d8ab0ba3f36d75b83cc9744f7b1c2e3195e218a8bf8a",
       "bytes": 12927
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-87-r01/source-creation-dispositions.json",
+      "sha256": "96f167d57240c2c5c60b5e2772f33b5ed0760d38ae0e7573b1ad90b428fe5718",
+      "bytes": 32114
     }
   ]
 }
