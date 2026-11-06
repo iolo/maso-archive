@@ -1,5 +1,58 @@
 # Progress
 
+## 2026-11-06 — March humor and bounded FLC lookup
+
+Batch 89 completes humor 0089 on PDF 536/observed printed 528 and records a
+bounded lookup for FLC 0019. Canonical title, parent 0083 and folio 528 remain
+unchanged. All six forum children 0084–0089 are now readable; their parent stays
+non-owning and the physical bodies remain scattered. No byline or artist is inferred.
+
+The humor page preserves two jokes, nine story paragraphs including a separately
+set italic punchline, and an independent invitation with two paragraphs. Original
+banner/cartoon images supplement four separately serialized hand-drawn labels.
+The cartoon retains incidental invitation-edge fragments; invitation text is
+serialized once. Small lettering and italic wordplay remain localized candidates.
+Printed `있는데.` and `안되여` are retained without punctuation or grammar repair.
+
+All 58 native files and three status files reproduce independently and in fresh
+processes. Fourteen crops are pixel-exact; twelve OCR outcomes, twelve text blocks,
+31 physical reading rows, two figures and 145 typed ranges validate. Twelve initial
+recognitions, zero retries, one source correction pass, two retained maps and two
+pre-OCR margin refinements were used, with zero within/post-pass text repairs.
+Twenty-one native and thirteen status faults reject. One structural verifier
+assertion omitted the expected figure count; the failed script and fixture repair
+remain preserved, with no source/OCR/text/package change. Fifty-one frozen status
+fields resolve externally. All 76,074 earlier March files and thirty core modules
+remain exact; the unchanged 214-test baseline is reused.
+
+FLC 0019 is explicitly listed in contents 4 but remains unlocated after review of
+the complete Q&A bundle 244–249 and neighboring 238–243/250–252. Video-encoder
+flicker, CDEG 256-color still images and About BMP palettes are different topics.
+No synthetic body or anchor is created, no missing-page count is inferred, and no
+whole-PDF absence is claimed. Final eligibility/gap disposition remains pending.
+
+Packages: `archive/pdf/1995-03/packages/batch-89-r01/`.
+Current forum and bounded FLC status: `archive/pdf/1995-03/classifications/batch-89-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-89/`.
+Ninety-nine final classification/accounting pins are retained. Totals: 53 readable,
+zero partial, nineteen non-owning headings, seventeen references and
+1 unresolved: FLC 0019. Exact glyphs, encoded bytes, full proofreading and human
+acceptance remain unverified.
+
+Next prepare complete 545-page accounting using preserved evidence and bounded
+review of unaccounted pages. Shared 538 ownership remains reader 0086 left and
+subscriptions 0087 right; giro front 539/reverse 540 belongs to 0087. Microsoft
+postcard 541/reverse 542 and remaining tail 543–545 need accounting. Introduction
+0082 owns 458; special-feature 0045 and forum 0083 remain non-owning. Library 0067
+has all fourteen canonical descendants complete. Keep publisher advertisements
+202–203 and unlisted CD 194–195, public-software 186–189 and game-room 190–191 in
+final page accounting. Resolve the remaining FLC gap explicitly, preserve the cover,
+and build/rebuild the separate standalone issue export before closeout and July.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one mapped page and nineteen outside lookups.
+The full March goal remains active through final accounting, cover and separate closeout.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March subscriptions and advertising index
 
 Batch 88 completes subscriptions 0087 on noncontiguous PDF 533/538–540 and
