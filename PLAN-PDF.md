@@ -605,12 +605,47 @@ classification pins remain exact; the unchanged 214-test batch-31 baseline is re
 The classification inventory now requires 47 pins. Two canonical tasks, six mapped
 pages and two outside lookups stay within the operating limits.
 Totals: fourteen readable articles, zero partials, four groups, seventeen references
-and 68 unresolved identities. Next: verify ownership for 물어보세요 0036 and
-restore its first child 0037 OSC의 운영체제 About from PDF 259/printed 248,
-establishing its ending and adjacent title boundaries before mapping.
+and 68 unresolved identities at that checkpoint. Q&A group 0036 and its first
+child 0037 are finished by batch 34 below.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and program execution remain explicit limits.
+
+July batch 34 completes OSC의 운영체제 About child 0037 on PDF 259–261/
+printed 248–250 and classifies 물어보세요 0036 as a non-owning group. Its canonical
+page 248, clinic parent and six children remain unchanged. Only OSC is restored;
+five other child restorations remain pending. Hanme opens 262/251 and Lee Junhui
+opens 265/254; no body location is inferred for the remaining three children.
+All 269 selected, independent and fresh-process native files match: 68 exact crops,
+64 OCR outcomes, 61 blocks, 233 reading rows and 1,161 typed ranges validate.
+Four original images have no invented captions. Nine Q&A items retain headings,
+questions, asker credits and answer labels; askers are not article authors.
+Seven circled checks, a nine-row error trace and two independent shaded tips retain
+source contexts. Three joins preserve three continuation boundaries; 40 prose
+paragraphs and 190 technical/numeric fields remain source-linked. Two inline
+DoubleSpace commands retain their separate occurrences without execution claims.
+Two ambiguous handles retain candidates. Printed Istrunction, extra 램과들과,
+question 8's About without ellipsis, and the physical 1/newline/2MB split remain
+literal. No decimal point or corrected numeric value is inferred.
+All 64 drafts were read before one timed source pass. One pre-OCR map, zero retries,
+source-text refinements, post-pass text changes or post-OCR crop changes. One
+assembly separator preserves an indented paragraph across question 6's column
+boundary; regional text and original layout remain unchanged and retained.
+Five selected r02 group files reproduce exactly. Three source crops and 24 group
+faults validate. The r01 export remains; direct crop review found the top of the
+large C clipped in the following-child title, and r02 extends that crop upward.
+All 66 combined native/group invalid cases reject. All 26,225 earlier July files,
+thirty core modules, ten frozen adapters and 47 prior classification pins remain
+exact; the unchanged 214-test batch-31 baseline is reused. The classification
+inventory now requires 49 pins. Two canonical tasks, three mapped pages and five
+outside lookups stay within the operating limits.
+Totals: fifteen readable articles, zero partials, five groups, seventeen references
+and 66 unresolved identities. Next: verify and restore Hanme child 0038 from
+PDF 262/printed 251 and Lee Junhui child 0039 from PDF 265/printed 254, establishing
+full endings and adjacent boundaries before mapping within the six-page ceiling.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical technical behavior remain explicit limits.
 
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.

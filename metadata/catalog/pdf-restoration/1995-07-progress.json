@@ -4236,23 +4236,88 @@
       "toc_entry_id": "maso-1995-07-toc-0036",
       "title": "물어보세요",
       "parent_id": "maso-1995-07-toc-0029",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 물어보세요 retains printed248,six direct children0037–0042 and parent clinic0029. Opening banner259/248 introduces OSC;distinct Hanme and Lee Junhui titles open262/251 and265/254. No standalone parent body is observed.",
+        "Five selectedr02 files reproduce independently and in a fresh process. Three exact source crops and24 ownership/hierarchy faults validate. The originalr01 is retained;the265 title crop was extended upward after direct visual review found its large C clipped. Article/OCR/text unchanged.",
+        "Only OSC0037 is restored259–261. Openings of0038 and0039 are observed;their complete extent/restoration are not finalized in this checkpoint. No source locations assigned to0040–0042. Canonical0039 lacks the C printed in its source title;both retained. Original clinic evidence remains immutable and incomplete donated TOCs explicit."
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1995-07/classifications/batch-34-r02/group-0036.json",
+          "sha256": "e949b6bb7e6ab1300ce8e966a7c6b7e5ab35eb58fd12a6b5048caac86ac7649b",
+          "bytes": 1193
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-34/group-validation.json",
+          "sha256": "bd3214077556a94c9285677951a08db4a54d31eb9617811b579722f63d18a698",
+          "bytes": 1056
+        },
+        "canonical_page_reference": 248,
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0037",
       "title": "OSC의 운영체제 About",
       "parent_id": "maso-1995-07-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch34 verifies complete OSC의 운영체제 About259–261/printed248–250. Previous258 closes the grid article;following262 opens Hanme Windows programming. No article author observed;all nine asker credits remain distinct from authorship.",
+        "All269 selected/independent/fresh-process files match:68 exact crops,64 OCR outcomes,61 blocks,233 reading rows,1161 typed ranges and four original images validate. Nine Q&A contexts,seven circled checks,nine error-trace rows and two independent shaded boxes retain source ownership. Three local joins preserve three boundaries;40 prose paragraphs and190 technical/numeric fields remain source-local.",
+        "Question2 answer wraps around the title,question3 check6 crosses259→260,question6 answer crosses260 columns,and question8 answer is upper-right261. RAM Doubler and Paintbrush boxes are independent. Two inline DoubleSpace commands retain distinct occurrence ranges. No automatic CD3 association or historical command execution.",
+        "Two asker handles retain explicit glyph candidates. Printed Istrunction,extra particle 램과들과,the unpunctuated question8 About label and physical1/newline2MB split remain literal. No decimal point or repaired numeric value is inferred.",
+        "All64 drafts read before one timed source pass;one pre-OCR map,zero retries,crop changes,within-pass text refinements or post-pass text changes. One documented assembly separator preserves an indented paragraph across question6 column boundary;regional text and original layout retained.",
+        "All42 native and24 group invalid cases reject. All26225 earlier July files,thirty core modules,ten frozen adapters and47 prior classification pins unchanged;unchanged214-test batch31 baseline reused. Two canonical tasks,three mapped pages,five outside lookups.",
+        "Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,human acceptance,exact source glyphs/bytes and historical technical claims remain explicit limits."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-34-r01/osc",
+        "article_id": "scan-maso-1995-07-toc-0037",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-34-r01/osc/manifest.json",
+          "sha256": "7e511bf60685792c428d89189720bfd6a4f531c5e4eb974536edfe304fd06178",
+          "bytes": 44526
+        },
+        "coverage": {
+          "pdf_pages": [
+            259,
+            260,
+            261
+          ],
+          "printed_pages": [
+            "248",
+            "249",
+            "250"
+          ],
+          "regions": 68,
+          "blocks": 61,
+          "figures": 4,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 261,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-34/validation.json",
+          "sha256": "cc5cf255a35a6bb453159c6a376b6db10443b87f371a5f0245603eeb0b1fe51d",
+          "bytes": 2091
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-34/reproduction.json",
+          "sha256": "b160ab9c331d14349b7e595c1e451274234ca59be6735ef4593e008744b1ed3a",
+          "bytes": 51109
+        },
+        "checkpoint": "batch-34"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0038",
@@ -6338,22 +6403,70 @@
         "sha256": "31ec9a311768ac7422cb61eb71b40abb4d8d5306c5385cd9783a9c7fea9c294d",
         "bytes": 2713
       }
+    },
+    {
+      "name": "1995-07-batch-34",
+      "status": "complete",
+      "completed_at": "2026-11-06T20:15:13.260920+00:00",
+      "goal": "Classify non-owning Q&A group0036 and restore OSC0037.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0036",
+        "maso-1995-07-toc-0037"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        259,
+        260,
+        261
+      ],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        258,
+        262,
+        263,
+        264,
+        265
+      ],
+      "recognition_invocations": 64,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-34/validation.json",
+        "sha256": "cc5cf255a35a6bb453159c6a376b6db10443b87f371a5f0245603eeb0b1fe51d",
+        "bytes": 2091
+      },
+      "group_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-34/group-validation.json",
+        "sha256": "bd3214077556a94c9285677951a08db4a54d31eb9617811b579722f63d18a698",
+        "bytes": 1056
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-34/reproduction.json",
+        "sha256": "b160ab9c331d14349b7e595c1e451274234ca59be6735ef4593e008744b1ed3a",
+        "bytes": 51109
+      },
+      "group_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-34/group-reproduction.json",
+        "sha256": "561a9ac95ba344163bc6f85cb0ea995a2c270e4fc2643404664575f2431489aa",
+        "bytes": 1291
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 14,
+    "readable": 15,
     "partial": 0,
-    "group_headings": 4,
+    "group_headings": 5,
     "section_references": 17,
-    "unresolved": 68
+    "unresolved": 66
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify ownership/eligibility for 물어보세요0036 and restore its first child0037 OSC의 운영체제 About from observed PDF259/printed248. Source opening shows clinic/Q&A banner and OSC title;no full extent or separate author is inferred. Inspect following titles and ending before mapping. At most two canonical tasks,six mapped pages,twenty outside lookups;segment longer bodies and assemble separately. Technique0033 children0034/0035 are complete under batch33 external status;original group and batch31 clinic evidence remain immutable. Clinic0036 and its six children0037–0042 remain pending;later clinic status must reconcile technique completion without duplicating bodies. Continue all remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve all prior packages and47 classification pins;no automatic CD3 association or reader rebuild/deployment.",
+  "next_checkpoint": "Verify and restore Q&A child0038 한메의 윈도우즈 프로그래밍 About from PDF262/printed251 and child0039 이준희의 About from observed PDF265/printed254,source title 이준희의 C About.... Saved262–264 show Hanme;265 opens Lee Junhui. Establish full endings/adjacent boundaries before mapping,at most two canonical tasks,six mapped pages,twenty outside lookups;segment longer bodies and assemble separately. Preserve original batch34-r02 non-owning group with five pending children and all49 classification pins. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No reader rebuild/deployment or automatic CD3 association.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -6589,6 +6702,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-33-r01/family-ownership.json",
       "sha256": "e58d3ec1e60773ab58f3dcb9fb765efb6132a875db7f9cfef60e79495fc9e7e2",
       "bytes": 13242
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-34-r02/group-0036.json",
+      "sha256": "e949b6bb7e6ab1300ce8e966a7c6b7e5ab35eb58fd12a6b5048caac86ac7649b",
+      "bytes": 1193
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-34-r02/evidence.json",
+      "sha256": "a93baca691ec23714ca21fa4a245943dcea74b5ffd340f346aa9edfd12016fbc",
+      "bytes": 21203
     }
   ]
 }
