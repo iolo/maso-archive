@@ -1,5 +1,61 @@
 # Progress
 
+## 2026-11-06 — All545 March source pages accounted
+
+Batch 98 completes structural accounting for all 545 supplied PDF pages and
+all 530 original map exclusions. There are no unclassified pages or unresolved
+exclusion dispositions. Evidence comprises 180 direct accounting reviews, 308
+restored-body review bindings and 57 classifications from preserved nonbody reviews.
+All ninety canonical outcomes remain unchanged: 53 readable, zero partial, nineteen
+non-owning headings, seventeen references and 1 unresolved, FLC 0019. Humor 0089 and
+all six forum children remain complete. Full page accounting does not complete
+article recovery or the separate issue closeout.
+
+Direct review of the final twenty pages covers 254, 255, 261, 380–392 and 542–545.
+Seventeen are independent advertisements. Page542 is the reverse of Microsoft's
+promotional postcard541, with product-interest/software survey fields; it is not
+assigned to the magazine reader-card or subscription bodies. Page544 is an HP
+DeskJet back-cover advertisement. Page545 is a clipped wrap showing part of that
+advertisement, the spine dated1995.3 and a cropped front-cover portion. The supplied
+clipping remains explicit; no full cover, missing text or missing-page count is
+reconstructed. No FLC body is found in this range. No OCR or source correction.
+
+The full audit resolves every page's source image/hash, original geometry and
+classification evidence, backed by 100 actual review records. All 545 PNGs pass
+integrity/geometry checks. All53 selected package maps, 308 body pages, 309 owner/page
+records and three retained-render bridges resolve. Every original included map
+region and all530 excluded rectangles resolve without changing their source maps.
+The exclusions comprise 515 furniture regions, twelve advertisements, one publisher
+naming notice and two other-owner areas across297 pages. Shared538 retains original
+reader-card/subscription boundaries and rotations; giro front539/reverse 540 remains
+preserved. Unlisted public-software186–189, game-room 190–191 and CD194–195 remain
+accounted without creating canonical articles. All525 previously completed rows
+remain unchanged. Historical reviews are reused, not claimed as new inspections.
+
+A failed audit attempt used the wrong source field name for native maps. The
+attempt and repair receipt remain; the checker now reads the existing map.source
+schema. No source evidence or article package changed. The corrected complete
+source audit passes. Five accounting files reproduce independently and in a fresh
+process;21 semantic faults reject. All 76,854 earlier March files and thirty core
+modules remain exact; the unchanged214-test baseline is reused.
+
+Current accounting: `archive/pdf/1995-03/restoration/batch-98/accounting-r01/`.
+Full audit: `archive/pdf/1995-03/restoration/batch-98/whole-source-audit.json`.
+Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-98/`.
+One hundred eight final classification/accounting pins are retained. Earlier
+accounting artifacts remain immutable historical snapshots.
+
+Next finalize the FLC0019 eligible/unlocated supplied-PDF gap disposition from the
+completed structural accounting and retained contents/Q&A evidence. Verify the
+preferred donated cover and its provenance; `covers/9503.jpg` and an existing
+thumbnail are present but final cover verification remains pending. Then revalidate
+original-adapter assemblies and export/rebuild standalone JSON/assets with separate
+issue closeout before July. No absolute source-wide FLC absence, original print
+omission, exact-glyph recovery, full proofreading or human acceptance is claimed.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
+The full March goal remains active. No reader rebuild or deployment.
+
 ## 2026-11-06 — March page accounting advances to 525 pages
 
 Batch 97 completes accounting for 525 of 545 physical pages: 160 directly
