@@ -1,5 +1,59 @@
 # Progress
 
+## 2026-11-06 — March new books and reader recommendations
+
+Batch 83 completes new-books0079 on PDF 200–201 / printed 192–193 and
+chosen-books0080 on PDF 202–203 / printed 194–195. Canonical titles, parents,
+folios and absent article bylines remain unchanged. Each canonical identity owns
+its complete two-page bundle: seven independent new-book notices and two reader
+recommendations. Library0067 stays non-owning; price0081 and the full library
+extent remain pending. The independent price guide starts on 204.
+
+All 252 native files and two external evidence/status files reproduce independently
+and in fresh processes. All 68 crops are pixel-exact; 56 OCR outcomes, 47 blocks,
+243 physical rows, 21 main paragraphs, twelve original image assets and 1,036
+typed ranges validate. Nine continuation boundaries across eight groups retain LF.
+OWL's two complete paragraphs remain separate; the Internet and AI recommendations
+do not join across pages. Thirty-six bibliography fields and nine price contexts
+preserve book authors, translators, publishers, page counts and prices as distinct
+roles. No article byline is inferred from book credits or recommender identities.
+
+Seven notice covers, an original five-cover collage, two portraits and two MS
+ending marks retain their source pixels without invented captions. The collage
+has no accompanying review text; no extra reviews or canonical IDs are created.
+Each recommender's name, affiliation, portrait and independent pull quote remains
+associated with the correct book. Two publisher advertisement regions beneath
+202–203 are excluded from article text and retained for final page accounting.
+Printed grammar, 높혔다, and the quote/body 곁들어져/곁들여져 distinction remain
+literal. Four localized candidates retain source uncertainty.
+
+There were 56 initial recognitions, zero retries, one correction pass, four maps,
+two pre-OCR crop-margin refinements and one paragraph-layout refinement, with
+zero within/post-pass text repairs. One map-constructor variable-shadowing failure
+is retained with its repair; no OCR or source transcription was repeated.
+Fifty-six native and sixteen status faults reject; twelve frozen status fields
+resolve externally. All 69,297 prior March files and thirty core modules remain
+exact; the unchanged 214-test baseline is reused. Exact glyphs, bytes, historical
+claims, full proofreading and human acceptance remain unverified.
+
+Packages: `archive/pdf/1995-03/packages/batch-83-r01/`.
+Current book/library status: `archive/pdf/1995-03/classifications/batch-83-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-83/`.
+Ninety final classification/accounting evidence pins are retained. Totals:
+44 readable, zero partial, eighteen non-owning headings, seventeen references and
+11 unresolved.
+
+Next establish price-guide0081's complete extent from PDF 204 onward, using
+contents 5 and boundaries 203/208. Review tables, charts, units, qualifiers and
+printed discrepancies before mapping; finalize Library0067's extent only from
+closing-boundary evidence. Keep publisher advertisements202–203, unlisted
+CD194–195, public-software186–189 and game-room190–191 in final page accounting.
+FLC0019 awaits bounded lookup or accounting.
+Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
+No reader rebuild or deployment.
+
 ## 2026-11-06 — March ShareVision and Courier hardware reviews
 
 Batch 82 completes ShareVision0077 on PDF 196–197 / printed 188–189 and

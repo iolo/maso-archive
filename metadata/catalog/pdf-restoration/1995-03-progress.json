@@ -6115,23 +6115,135 @@
       "toc_entry_id": "maso-1995-03-toc-0079",
       "title": "새로 나온 책",
       "parent_id": "maso-1995-03-toc-0067",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 83 completes newbooks on PDF [200, 201] / individually observed printed ['192', '193']. Canonical title,parent,folio and absent article byline remain unchanged. Each canonical identity owns its full two-page book bundle.",
+        "All 133 native files reproduce independently and in a fresh process. Both bundles retain 68 exact crops,56 original OCR outcomes,47 blocks,243 physical rows,21 main paragraphs,twelve original image assets and nine LF continuation boundaries;1,036 typed ranges validate.",
+        "Seven new-book notices and two reader recommendations have disjoint source scopes. Thirty-six bibliography fields and nine price contexts retain author,translator,publisher,page-count and price roles without inventing article bylines. Two portraits,identities,affiliations and independent pull quotes remain associated. Seven notice covers,five-cover collage and two MS marks retain original pixels;no captions or extra collage reviews invented.",
+        "Two publisher advertisement regions below recommendations202–203 remain outside article bodies and explicitly pending final page accounting. OWL notice retains two independent paragraphs;Internet and AI recommendation pages do not join. Fifty-six initial recognitions,zero retries,one correction pass,four maps,two pre-OCR crop margins and one paragraph-layout refinement;zero within/post-pass changes. One pre-export map constructor variable-shadowing failure is retained with its repair.",
+        "Fifty-six native and sixteen status faults reject;twelve frozen status fields resolve externally. All 69297 prior March files and thirty core modules remain exact;unchanged214-test baseline reused. Library0067 remains non-owning;price0081 and full library extent remain pending. Exact glyphs,encoded bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-83-r01/newbooks",
+        "article_id": "scan-maso-1995-03-toc-0079",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-83-r01/newbooks/manifest.json",
+          "sha256": "0e50a55dfca43d4bf2023ea6fcb934bb604358b7683c64457d456279e9a70dc5",
+          "bytes": 22148
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-83/newbooks-r02/package-recipe.json",
+          "sha256": "82ee8815df4d3fc1bd40b91cf7d09eedf340c2f0938b016277544ae7775566a5",
+          "bytes": 6688
+        },
+        "coverage": {
+          "pdf_pages": [
+            200,
+            201
+          ],
+          "printed_pages": [
+            "192",
+            "193"
+          ],
+          "regions": 38,
+          "blocks": 23,
+          "figures": 9,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 200,
+        "observed_ending_pdf_page": 201,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-83/final-validation.json",
+          "sha256": "cf560986dce394d65fe539a7710708dfb7e6ea775a4a2e413853ff9a9483bbed",
+          "bytes": 3624
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-83/reproduction.json",
+          "sha256": "6209f7ea7962e0373a203e519d8c5d88b41687824020b7de674a22c229b4ba9c",
+          "bytes": 48935
+        },
+        "checkpoint": "batch-83",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-83-r01/source-creation-dispositions.json",
+          "sha256": "1f463ea84aabb6eeb863d644a238d6384e35f26d68ce5f832fe896fa8d60d393",
+          "bytes": 10673
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0080",
       "title": "내가 선택한 책",
       "parent_id": "maso-1995-03-toc-0067",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 83 completes chosenbooks on PDF [202, 203] / individually observed printed ['194', '195']. Canonical title,parent,folio and absent article byline remain unchanged. Each canonical identity owns its full two-page book bundle.",
+        "All 119 native files reproduce independently and in a fresh process. Both bundles retain 68 exact crops,56 original OCR outcomes,47 blocks,243 physical rows,21 main paragraphs,twelve original image assets and nine LF continuation boundaries;1,036 typed ranges validate.",
+        "Seven new-book notices and two reader recommendations have disjoint source scopes. Thirty-six bibliography fields and nine price contexts retain author,translator,publisher,page-count and price roles without inventing article bylines. Two portraits,identities,affiliations and independent pull quotes remain associated. Seven notice covers,five-cover collage and two MS marks retain original pixels;no captions or extra collage reviews invented.",
+        "Two publisher advertisement regions below recommendations202–203 remain outside article bodies and explicitly pending final page accounting. OWL notice retains two independent paragraphs;Internet and AI recommendation pages do not join. Fifty-six initial recognitions,zero retries,one correction pass,four maps,two pre-OCR crop margins and one paragraph-layout refinement;zero within/post-pass changes. One pre-export map constructor variable-shadowing failure is retained with its repair.",
+        "Fifty-six native and sixteen status faults reject;twelve frozen status fields resolve externally. All 69297 prior March files and thirty core modules remain exact;unchanged214-test baseline reused. Library0067 remains non-owning;price0081 and full library extent remain pending. Exact glyphs,encoded bytes,historical claims,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-83-r01/chosenbooks",
+        "article_id": "scan-maso-1995-03-toc-0080",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-83-r01/chosenbooks/manifest.json",
+          "sha256": "9397fc5709202f626e20a9511db0855ef4fc6c396a00636ff6e331c38b8101de",
+          "bytes": 19818
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-83/chosenbooks-r02/package-recipe.json",
+          "sha256": "4ff581e46d40224559ffd3a81dfa3073cdeac8d0e40852f3e30bf77f92caa142",
+          "bytes": 5149
+        },
+        "coverage": {
+          "pdf_pages": [
+            202,
+            203
+          ],
+          "printed_pages": [
+            "194",
+            "195"
+          ],
+          "regions": 30,
+          "blocks": 24,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 202,
+        "observed_ending_pdf_page": 203,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-83/final-validation.json",
+          "sha256": "cf560986dce394d65fe539a7710708dfb7e6ea775a4a2e413853ff9a9483bbed",
+          "bytes": 3624
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-83/reproduction.json",
+          "sha256": "6209f7ea7962e0373a203e519d8c5d88b41687824020b7de674a22c229b4ba9c",
+          "bytes": 48935
+        },
+        "checkpoint": "batch-83",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-83-r01/source-creation-dispositions.json",
+          "sha256": "1f463ea84aabb6eeb863d644a238d6384e35f26d68ce5f832fe896fa8d60d393",
+          "bytes": 10673
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0081",
@@ -9371,22 +9483,64 @@
         "sha256": "6fe73bec1b5a87e6b97d33cf42d3e0d19add92a54f5f73c0204387305d6c76fe",
         "bytes": 56273
       }
+    },
+    {
+      "name": "1995-03-batch-83",
+      "status": "complete",
+      "completed_at": "2026-11-06T02:27:37.035312+00:00",
+      "goal": "Restore complete new-books0079 and chosen-books0080; record library child completion and mixed-page advertising exclusions externally.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0079",
+        "maso-1995-03-toc-0080"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        200,
+        201,
+        202,
+        203
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        199,
+        204
+      ],
+      "recognition_invocations": 56,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 4,
+      "pre_ocr_refinement_events": 2,
+      "pre_ocr_layout_refinements": 1,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-83/final-validation.json",
+        "sha256": "cf560986dce394d65fe539a7710708dfb7e6ea775a4a2e413853ff9a9483bbed",
+        "bytes": 3624
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-83/reproduction.json",
+        "sha256": "6209f7ea7962e0373a203e519d8c5d88b41687824020b7de674a22c229b4ba9c",
+        "bytes": 48935
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 42,
+    "readable": 44,
     "partial": 0,
     "group_headings": 18,
     "section_references": 17,
-    "unresolved": 13
+    "unresolved": 11
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Review book entries0079/0080 using PDF200 onward and contents5; establish exact body extents, independent reviews, ownership and book/price boundaries before mapping. Use at most two canonical tasks,six mapped pages and twenty outside lookups. Keep unlisted CD194–195,public-software186–189 and game-room190–191 outside extraction with final page accounting. Price0081 and full library extent remain pending; FLC0019 awaits bounded lookup/accounting. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Establish price-guide0081 extent from PDF204 onward using contents5 and neighboring boundaries203/208; review complete source tables and charts before bounded mapping. Preserve printed historical prices,units,qualifiers,chart labels and source discrepancies. Use at most two canonical tasks,six mapped pages and twenty outside lookups. Finalize Library0067 extent only from closing-boundary evidence. Keep publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 in final page accounting. FLC0019 awaits bounded lookup/accounting. Complete remaining March outcomes,545-page accounting,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -9832,6 +9986,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-82-r01/source-creation-dispositions.json",
       "sha256": "7b0b1db9831de906598d654f520a60d80dcd6906b54f7bf605319d5b2e600f71",
       "bytes": 7779
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-83-r01/source-creation-dispositions.json",
+      "sha256": "1f463ea84aabb6eeb863d644a238d6384e35f26d68ce5f832fe896fa8d60d393",
+      "bytes": 10673
     }
   ]
 }

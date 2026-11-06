@@ -37,46 +37,53 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 82 completes ShareVision0077 on PDF 196–197 / printed 188–189 and
-Courier0078 on PDF 198–199 / printed 190–191. Canonical titles, parent links,
-null child folios and absent bylines remain unchanged. Hardware0076 stays
-non-owning; both canonical child bodies and its complete four-page physical
-section are now restored. The next independent new-books section starts on 200.
+Batch 83 completes new-books0079 on PDF 200–201 / printed 192–193 and
+chosen-books0080 on PDF 202–203 / printed 194–195. Canonical titles, parents,
+folios and absent article bylines remain unchanged. Each canonical identity owns
+its complete two-page bundle: seven independent new-book notices and two reader
+recommendations. Library0067 stays non-owning; price0081 and the full library
+extent remain pending. The independent price guide starts on 204.
 
-All 295 native files and two external evidence/status files reproduce independently
-and in fresh processes. All 75 crops are pixel-exact; 68 OCR outcomes, 54 blocks,
-372 physical rows, 28 main paragraphs, seven original image assets, six captions,
-twelve section headings and 1,373 typed ranges validate. Fourteen continuation
-boundaries across thirteen groups retain LF, including both cross-page joins.
-ShareVision's four photos/screenshots retain small original overlaps without
-reconstructing occluded pixels or counting overlaps as additional figures.
-Courier retains two photographs and its original uncaptioned MS ending mark.
+All 252 native files and two external evidence/status files reproduce independently
+and in fresh processes. All 68 crops are pixel-exact; 56 OCR outcomes, 47 blocks,
+243 physical rows, 21 main paragraphs, twelve original image assets and 1,036
+typed ranges validate. Nine continuation boundaries across eight groups retain LF.
+OWL's two complete paragraphs remain separate; the Internet and AI recommendations
+do not join across pages. Thirty-six bibliography fields and nine price contexts
+preserve book authors, translators, publishers, page counts and prices as distinct
+roles. No article byline is inferred from book credits or recommender identities.
 
-Fifteen product fields, four price contexts, two contacts and twenty-one
-specification occurrences retain historical source claims. ShareVision's
-셰어비젼/쉐어비전 variants and Courier's printed terbo remain literal.
-Prices remain 198만원 for ShareVision and 72만원 for Courier, excluding tax;
-Courier's comparison prices retain their separate qualifications. Four localized
-candidates remain explicit. There were 68 initial recognitions, zero retries,
-one correction pass, three maps and four pre-OCR margin refinements, with zero
-within/post-pass text repairs. Forty-five native and fourteen status faults
-reject; eleven frozen status fields resolve externally. All 68,395 prior March
-files and thirty core modules remain exact; the unchanged 214-test baseline is
-reused. Exact glyphs, bytes, historical claims, full proofreading and human
-acceptance remain unverified.
+Seven notice covers, an original five-cover collage, two portraits and two MS
+ending marks retain their source pixels without invented captions. The collage
+has no accompanying review text; no extra reviews or canonical IDs are created.
+Each recommender's name, affiliation, portrait and independent pull quote remains
+associated with the correct book. Two publisher advertisement regions beneath
+202–203 are excluded from article text and retained for final page accounting.
+Printed grammar, 높혔다, and the quote/body 곁들어져/곁들여져 distinction remain
+literal. Four localized candidates retain source uncertainty.
 
-Packages: `archive/pdf/1995-03/packages/batch-82-r01/`.
-Current hardware status: `archive/pdf/1995-03/classifications/batch-82-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-82/`.
-Eighty-nine final classification/accounting evidence pins are retained. Totals:
-42 readable, zero partial, eighteen non-owning headings, seventeen references and
-13 unresolved.
+There were 56 initial recognitions, zero retries, one correction pass, four maps,
+two pre-OCR crop-margin refinements and one paragraph-layout refinement, with
+zero within/post-pass text repairs. One map-constructor variable-shadowing failure
+is retained with its repair; no OCR or source transcription was repeated.
+Fifty-six native and sixteen status faults reject; twelve frozen status fields
+resolve externally. All 69,297 prior March files and thirty core modules remain
+exact; the unchanged 214-test baseline is reused. Exact glyphs, bytes, historical
+claims, full proofreading and human acceptance remain unverified.
 
-Next review book entries0079/0080 using PDF 200 onward and contents 5. Establish
-exact body extents, independent reviews, ownership and book/price boundaries
-before mapping. Price0081 and Library0067's full extent remain pending.
-Keep unlisted CD194–195, public-software186–189 and game-room190–191 outside
-extraction with final page accounting. FLC0019 awaits bounded lookup or accounting.
+Packages: `archive/pdf/1995-03/packages/batch-83-r01/`.
+Current book/library status: `archive/pdf/1995-03/classifications/batch-83-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-83/`.
+Ninety final classification/accounting evidence pins are retained. Totals:
+44 readable, zero partial, eighteen non-owning headings, seventeen references and
+11 unresolved.
+
+Next establish price-guide0081's complete extent from PDF 204 onward, using
+contents 5 and boundaries 203/208. Review tables, charts, units, qualifiers and
+printed discrepancies before mapping; finalize Library0067's extent only from
+closing-boundary evidence. Keep publisher advertisements202–203, unlisted
+CD194–195, public-software186–189 and game-room190–191 in final page accounting.
+FLC0019 awaits bounded lookup or accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
