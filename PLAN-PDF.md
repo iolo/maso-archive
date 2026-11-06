@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-## Current continuation — 2026-11-06
+## Current continuation — 2026-11-07
 
 The owner authorized continuing with the remaining supplied PDFs after the
 1994–1995 TOC addition and source review. The canonical catalog now contains
@@ -278,9 +278,28 @@ Selected article-gnu-r02 resolves six obsolete coverage notes from the retained
 first assembly. Text/listing/raw ZIP and native files are unchanged; external
 status dispositions resolve seven copied native completion flags. Totals are
 three readable parents, zero partials, fourteen references and 86 unresolved.
-Next: finalize GNU child references 0018/0019, then 0020, preserving exact part
-ownership without duplicate bodies. Whole July 560-page accounting, cover and
+Parts 1/2 references are finalized by batch 20 below; Part 3 remains pending.
+Whole July 560-page accounting, cover and
 standalone closeout remain pending. Incomplete donated TOC scans remain explicit.
+July batch 20 finalizes GNU Parts 1/2 children 0018/0019 as non-owning
+references into complete parent 0017. Part 1 spans PDF 297–312/printed 286–301;
+Part 2 spans PDF 313–326/printed 302–315. Their 145/241 regions, 122/213 blocks
+and seven/fourteen images retain original credits and independent source contexts.
+Shared artwork/title/deck remain parent-owned; the advertisement on 312 is excluded.
+The complete directory, GPL essay, interrupted prose joins, utility box and repeated
+less/perl prose remain. No cross-part prose join, new OCR or source correction.
+Four classification files reproduce independently and in a fresh process. All
+6,857 direct/linked typed occurrences validate; all 36 invalid cases reject.
+All 460 parent regions partition into 145/241/71 part regions plus three shared
+regions. All 1,827 parent files, 15,621 earlier July files, thirty core modules and
+nine frozen adapter files remain exact; the unchanged 214-test batch-19 baseline
+is reused. Explicit namespace resolutions retain native-local ending/ad IDs;
+external status dispositions preserve seven historical completion flags.
+Totals: three readable parents, zero partials, sixteen references and 84 unresolved.
+Next: finalize Part 3 child 0020 on PDF 327–330, then inspect editorial 0021 from
+canonical printed 143. Whole July 560-page accounting, cover and standalone
+closeout remain pending. Incomplete donated TOC scans remain explicit.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
