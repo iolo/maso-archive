@@ -1,5 +1,29 @@
 # Progress
 
+## 2026-11-06 — July GNU directory ending and Part 2 opening preserved
+
+July batch 15 preserves GNU continuation PDF 309–314/printed 298–303 as a
+third immutable native. All 229 selected/independent/fresh-process files match:
+58 exact crops, 54 OCR outcomes, 49 blocks, 505 reading rows and 2, 622 current
+text ranges, plus six original earlier-native context ranges. Final directory
+panels retain 266 rows, 532 data cells, sixteen headers and fourteen repeated
+program names. Part 1 ends 312 and Part 2 opens 313 with its title/author/drop-cap;
+eight Emacs modes and the deliberately erroneous five-line C example remain.
+Five local joins, twelve section contexts, three Runeberg conditions and twenty
+source fields validate. Four original images retain null captions. All 53 invalid
+cases reject. Two pre-OCR maps, one timed source pass, zero retries or within/post-pass
+source changes. All 7, 169 earlier July files, thirty core modules and six frozen
+adapter files remain exact; the unchanged 214-test batch 08 baseline is reused.
+Totals remain two readable, one partial, fourteen references and 86 unresolved.
+Next: GNU 315–320, beginning Step 2 compilation on 315, without a prose/code join
+from 314. Then 321–326 and 327–330, actual 297–330 assembly and children 0018–0020.
+Natives now preserve 297–314; directory 305–310 is covered across two natives but
+not assembled. Earlier gzip 302→304 across GPL 303 and fontutils 304→310 across the
+directory require explicit assembly joins. Whole July 560-page accounting, cover
+and standalone closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-15/handoff.json`.
+
 ## 2026-11-06 — July GNU GPL and directory continuation preserved
 
 July batch 14 preserves GNU continuation PDF 303–308/printed 292–297 as a
