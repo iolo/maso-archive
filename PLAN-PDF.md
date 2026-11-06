@@ -537,8 +537,42 @@ template alongside six examples; the original failure log is retained, with no
 source, OCR, adapter or article change. Two canonical tasks, zero mapped pages,
 eight reused outside lookups, no new OCR and no source correction.
 Totals: twelve readable articles, zero partials, three groups, seventeen references
-and 71 unresolved identities. Next: verify technique group 0033 and homepage
-coordinator child 0034 from observed PDF 249/printed 238 before mapping its body.
+and 71 unresolved identities at that checkpoint. Technique group 0033 and
+homepage child 0034 are completed by batch 32 below.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and program execution remain explicit limits.
+
+July batch 32 completes 홈페이지 코디네이터가 돼보자 child 0034 on
+PDF 249–252/printed 238–241 and classifies parent 0033 테크닉 as a non-owning
+group under clinic 0029. Source author 임지호 and editor 정인성 retain separate
+roles. Its 316 native files reproduce independently and in a fresh process:
+82 pixel-exact crops, 75 OCR outcomes, 68 blocks, 262 physical rows and 1,531
+text-range occurrences validate. Seven original images retain two literal captions.
+Three main steps, twelve main headings, a four-row deck and an independent
+four-topic tips box retain their contexts. Fourteen code groups preserve 44 rows;
+ten color rows preserve twenty cells. Five HR options, five MapEdit steps,
+twelve historical link/file contexts and three contact identifiers remain indexed.
+Six local joins preserve seven boundaries; 46 prose paragraphs and 304 technical
+fields retain their source positions. Twelve source discrepancies and six glyph
+candidates preserve printed missing quotes/angles, BR>, IMS and uncertain marks.
+No syntax repair, execution or historical link verification is claimed.
+Two pre-OCR maps retain 75 margin adjustments; all 75 drafts were read before one
+timed source pass. Zero retries, within-pass text refinements or post-pass changes.
+The final prose row, omitted by OCR, is recovered from its complete mapped crop.
+Five selected r02 group files reproduce exactly. Three source crops and 21 group
+faults validate; child 0035 remains pending. The first group export is retained;
+one crop bottom was extended to include the following article's full byline.
+An unsupported map-kind attempt and a verifier started before its fresh export
+finished are retained; neither changed source text or recognition evidence.
+All 75 combined native/group invalid cases reject. All 23,427 earlier July files,
+thirty core modules, ten frozen adapters and 43 prior classification pins remain
+exact; the unchanged 214-test batch-31 baseline is reused. The classification
+inventory now requires 45 pins. Two canonical tasks, four mapped pages and three
+outside lookups stay within the operating limits.
+Totals: thirteen readable articles, zero partials, four groups, seventeen references
+and 69 unresolved identities. Next: verify and restore child 0035 그리드 셀에서
+직접 입력하자 from PDF 253/printed 242, establishing its ending before mapping.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and program execution remain explicit limits.
