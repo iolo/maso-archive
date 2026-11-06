@@ -1,5 +1,34 @@
 # Progress
 
+## 2026-11-07 — July Windows optimization article completed
+
+July batch 28 completes Windows optimization child 0031 윈도우즈를 애인처럼
+on PDF 223–227/printed 212–216, source author 권태호. Its 177 native files reproduce
+independently and in a fresh process: 46 exact crops, 41 OCR outcomes, 26 blocks,
+344 physical rows and 1,354 typed occurrences validate. Nine headings retain six
+numbered recommendations; opening portrait-wrap prose, independent three-row deck,
+closing greeting and editor 정주향 keep their contexts. Five original images have
+null captions. Ten local groups preserve fifteen continuation boundaries; 97
+technical/numeric occurrences and ten configuration contexts retain source positions.
+The inline XCOPY command preserves its two physical rows. Printed 64KB and source
+spelling remain literal; a localized 청개구리띠/청개구리때 candidate remains explicit.
+Two pre-OCR maps retain 41 text-margin adjustments and two paragraph-join repairs;
+one source pass, zero retries and zero within/post-pass source-text changes.
+Two external status files resolve only clinic child 0031's historical pending status,
+null manifest and incomplete extent. Five child-local ranges validate; other direct
+children 0032/0033/0036 and nested descendants remain pending. Original group evidence
+is unchanged. All 65 invalid native/status cases reject. All 19,400 earlier July files,
+thirty core modules and nine frozen adapters remain exact; the unchanged 214-test
+batch-19 baseline is reused.
+Totals: eleven readable articles, three groups, seventeen references and 72 unresolved
+identities, with zero partials. Next: verify and restore child 0032 버튼과 다이얼로그
+박스 조립하기 from saved PDF 237/printed 226. Verify canonical author 장석원 against
+the source and establish actual extent before mapping at most six pages per native.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-28/handoff.json`.
+
 ## 2026-11-07 — July hooking article and clinic group completed
 
 July batch 27 completes Windows hooking article 0030 on PDF 219–222/printed
