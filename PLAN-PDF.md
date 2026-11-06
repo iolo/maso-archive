@@ -267,45 +267,46 @@ Batch 29 completed its final listings and full assembly; the current checkpoint 
 
 Batch 30 classified non-owning DOS heading0032 and preserved opening338–343.
 
-Batch 78 completes WordPerfect0069 on PDF180–181 / printed172–173 and
-Word0070 on PDF182–183 / printed174–175. Both canonical titles, parent links,
-null child folios and absent bylines remain unchanged. Groups0067/0068 stay
-non-owning;0071/0072 remain unresolved.
+Batch 79 completes SourceTong0071 on PDF184 / printed176 and Morph0072 on
+PDF185 / printed177. Canonical titles, parent links, null child folios and absent
+bylines remain unchanged. Commercial0068 now has all four independent reviews
+readable across PDF180–185; public-software186 starts a separate unlisted section.
+Library0067 and commercial0068 remain non-owning headings.
 
-All296 native files and three external status/evidence files reproduce
-independently and in fresh processes.76 pixel-exact crops,68 OCR outcomes,
-63 blocks,339 physical text rows,21 main paragraphs,eight figures/eight captions,
-eight headings,five LF joins and1,164 typed ranges validate. Eight news briefs
-remain separate from review prose: C++ news spans181/183, followed by distinct
-upgrade news on183. External links preserve context without duplicating text.
-The Word calendar screenshot/caption composite retains original pixels.
+All 149 native files and two external status/evidence files reproduce independently
+and in fresh processes. All 37 crops are pixel-exact; 32 OCR outcomes, 29 blocks,
+168 physical rows, 11 main paragraphs, four screenshots/four captions, the original
+MS ending mark, six headings, three LF joins and 596 typed ranges validate.
+Printed 소스통/쏘스통 and 모프스튜디오/몰프 variants remain source-linked.
+Eight product fields, four prices with distinct tax qualifications, two contacts
+and nine specification occurrences preserve the historical source. Five localized
+glyph/scan candidates remain explicit. The ending mark is not serialized as prose.
 
-There were68 initial recognitions,zero retries,one correction pass and33 pre-OCR
-refinements across five maps;no within/post-pass text repairs.42 native and14
-status/ownership faults reject. One verification-harness scope error was repaired
-in a retained new script without changing exports. All66,276 prior March files
-and thirty core modules remain exact;the unchanged214-test baseline is reused.
-Literal disk-space discrepancies,source wording and historic Hangul-brand
-approximation remain explicit. Exact glyphs,encoded bytes,historical claims,
-full proofreading and human acceptance remain unverified.
+There were 32 initial recognitions, zero retries and one correction pass. Two
+screenshot margins were widened before OCR; all three maps are retained. No
+within/post-pass repairs occurred. Forty-three native and twelve status/ownership
+faults reject; twenty-one frozen status fields resolve externally. All 67,376 prior
+March files and thirty core modules remain exact; the unchanged 214-test baseline
+is reused. Exact glyphs, encoded bytes, historical claims, full proofreading and
+human acceptance remain unverified.
 
-Packages: `archive/pdf/1995-03/packages/batch-78-r01/`.
-Current status/sidebar links: `archive/pdf/1995-03/classifications/batch-78-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-78/`.
-Eighty-two final classification/accounting evidence pins are retained. Totals are
-36 readable,zero partial,sixteen non-owning headings,seventeen references and
-21 unresolved.
+Packages: `archive/pdf/1995-03/packages/batch-79-r01/`.
+Current commercial status: `archive/pdf/1995-03/classifications/batch-79-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-79/`.
+Eighty-three final classification/accounting evidence pins are retained. Totals:
+38 readable, zero partial, sixteen non-owning headings, seventeen references and
+19 unresolved.
 
-Next inspect185 and verify source-title 쏘스통2.0 / canonical 소스통0071 on184
-and Morph0072 on185 against public-software186,then restore both if complete.
-Keep public-software186–189 and game-room190–191 outside extraction,with final
-page accounting retained. CD-title0073/hardware0076 ownership and book/price
-extents remain pending;additional briefs195 are not automatically excluded.
-FLC0019 awaits bounded lookup or issue accounting.
+Next review CD-title0073 and hardware0076 ownership against contents5 and PDF191–200.
+Inspect missing193/194/197/198 and all section/article boundaries before deciding
+owning bundles versus non-owning groups. Preserve their canonical children; the
+additional CD briefs195 are not automatically excluded. Keep public-software186–189
+and game-room190–191 outside extraction with final page accounting. Book/price
+extents remain pending. FLC0019 awaits bounded lookup or issue accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-The full March goal remains active through all remaining outcomes,545-page
-accounting,cover and separate issue closeout before July.
+The full March goal remains active through all remaining outcomes, 545-page
+accounting, cover and separate issue closeout before July.
 No reader rebuild or deployment.
 
 Complete both issue passes before collection aggregation and handoff in steps
