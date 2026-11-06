@@ -794,11 +794,44 @@ All 31,144 earlier July files, thirty core modules, ten frozen adapters
 and 55 earlier classification pins remain exact. The unchanged 214-test baseline
 is reused; two new pins bring the classification evidence list to 57.
 Totals: twenty readable articles, one partial, seven groups, seventeen references
-and 58 unresolved identities. Next: restore final game pages 339–340 as a separate
-native and verify/classify nested heading 0046 as the second task. Actual game
-assembly follows separately. Whole July 560-page accounting, cover and standalone
+and 58 unresolved identities at that checkpoint. Final game pages and nested
+heading0046 classification complete in batch40 below;actual assembly remains separate. Whole July 560-page accounting, cover and standalone
 closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance,
 exact source bytes and historical technical behavior remain explicit limits.
+
+July batch 40 preserves game0045 final PDF339–340/printed328–329 as a second
+immutable partial native. All eight pages333–340 now exist across two natives;
+actual assembly and the incoming DisplaySprite join remain required. All203
+selected files match independent and fresh-process exports:50 exact crops,
+48 OCR outcomes,45 blocks,177 nonblank reading rows and1,615 current typed ranges.
+Four original earlier-native title/author/boundary ranges validate separately.
+Three code regions preserve74 physical rows,two blanks and one omission. Two
+prose joins retain three boundaries. Two original visuals have null captions;
+editor 홍동선 remains separate from the opening author. The independent disk#2
+notice retains go MASO,README.TXT and15 directory rows with32 source-linked cells.
+Printed brackets,AA6.C,awkward wording and IMS spacing remain literal. Localized
+PutBlSprite/PutB1Sprite and broken-bar candidates remain visible;no syntax repair,
+source-byte reconstruction or historical download-availability claim.
+All48 drafts were read before one prospective source pass. Two pre-OCR maps retain
+48 adjustments;zero retries,within-pass refinements,post-pass changes or post-OCR
+crop changes. All54 invalid native/group cases reject. All31,946 earlier July
+files,30 core modules,10 frozen adapters and57 earlier classification pins remain
+exact;the unchanged214-test baseline is reused.
+Nested heading 윈도우즈0046 is now non-owning with three pending children0047–0049.
+Eleven classification files reproduce independently and in a fresh process. Nine
+exact crops on341/353/367 retain titles,credits,folios330/342/356 and the observed
+parent banner 원리구현. No standalone 윈도우즈 banner or inherited folio is claimed.
+WinG's printed [마지막회] remains distinct from canonical [2]. Selected boundary
+observations do not establish complete child extents. Two new classification pins
+bring the retained total to59. Two canonical tasks,five mapped pages,six outside
+lookups remain within the checkpoint limits.
+Totals: twenty readable articles,one partial,eight groups,seventeen references
+and57 unresolved identities. Next: actually assemble game0045 across333–340,
+joining only DisplaySprite across338→339 with one physical LF and preserving
+other examples,blank rows,omissions,candidates and source contexts. No new OCR
+or source correction is required. Whole July560-page accounting,cover and
+standalone closeout remain pending. Incomplete donated TOCs,full proofreading,
+human acceptance,exact source bytes and historical execution remain explicit limits.
 
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
