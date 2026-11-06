@@ -11,65 +11,67 @@ The November 4 migration preserves all 5,299 previous identities and allocators
 and adds 1,811 entries. All 21 supplied PDFs now have TOC-based article scope:
 1,021 identities and 781 provisional article candidates. The nineteen completed
 issue passes retain all 828 original outcomes exactly. March 1995's ninety
-identities now have forty-six readable articles, zero partial, nineteen non-owning headings,
-seventeen section references and 8 unresolved outcomes; July
+identities now have forty-eight readable articles, zero partial, nineteen non-owning headings,
+seventeen section references and 6 unresolved outcomes; July
 1995's 103 remain queued. July follows March's issue closeout before PLAN-PDF
 steps 13–14 aggregation and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 85 completes CD-ROM introduction0082 on PDF 458 / observed printed450
-and classifies forum0083 as non-owning. Cover1, contents5 and independent
-boundaries457/459 establish the introduction's identity. Its missing canonical
-folio, byline and root parent remain unchanged. Special-feature0045 remains
-non-owning; its original editorial context is preserved as evidence. The existing
-NT0046 and PC DOCS0047 bodies remain unchanged.
+Batch 86 completes April preview0084 on PDF 258–259 / printed250–251 and
+independent prize notice0090 on PDF257, with no visible folio. Canonical titles,
+parents, folios and absent article bylines remain unchanged. Forum0083 remains
+non-owning; prize0090 remains a root entry outside that group. Independent
+advertisements256/260 establish the outer boundaries.
 
-All35 batch49 crops,30 OCR outcomes and30 corrected texts are reused unchanged.
-The original map/settings retain0045 execution identity; a private adapter binds
-only the new owning package to0082, preserves original execution documents and
-passes explicit field-change checks. There is no new mapping, OCR, correction
-pass, crop change or transcription change. The137 native files and four external
-classification/evidence files reproduce independently and in fresh processes.
-All35 crops are pixel-exact;42 physical rows and182 typed ranges validate.
+All 278 native files and two external status files reproduce independently and
+in fresh processes. The 70 crops are pixel-exact; 64 OCR outcomes, 62 blocks,
+225 physical rows, 20 body paragraphs, six original images and 1,253 typed ranges
+validate. There were 64 initial recognitions, zero retries, one source correction
+pass, two maps and zero crop refinements or within/post-pass transcription changes.
+Forty native and twelve status faults reject; twelve frozen fields resolve
+externally. All 71,960 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused.
 
-The introduction retains one six-line paragraph, three screenshots/captions,
-an original whole-page reference image and a directory diagram with23 labels,
-two roots and21 branches. Printed DEGUG, KNOWLDGE and I386 glyph candidates,
-eight local uncertainties and the Share As / Display Settings caption-image
-discrepancy remain. No verified disc contents or automatic CD association is claimed.
-Thirty-four invalid identity, range, source-context and ownership cases reject.
-A failed verifier path-base comparison is retained and corrected; no package
-or source data changed. All71,601 prior March files and thirty core modules remain
-exact; the unchanged214-test baseline is reused. Exact glyphs,bytes,historical
-claims,full proofreading and human acceptance remain unverified.
+The prize notice preserves 60 winner records across 65 physical list rows:
+MSDN July10, MSDN April20 and TechNet30. Five addresses wrap. The line
+대우통신(주) 연구지원실 continues 이갑상 rather than adding a winner; the preliminary
+count concern is resolved and all printed totals match. Six columns read downward
+independently. Each record retains its name, printed address, physical rows and
+prize heading. The product photo and two original grids have no invented captions.
+Approximate application wording and small locality/name glyph candidates remain;
+no address normalization or historical identity verification is claimed.
 
-Forum0083 organizes six independent child bodies, with no shared article body
-or contiguous physical section. Located candidates are April preview258–259,
-bulletin532, reader-card/winners528–529 plus detachable card537, subscriptions533,
-advertising index534–535 and humor536. Reverse538 and the full noncontiguous card
-extent remain unverified. Missing observed folios are not inferred. All six child
-outcomes remain unresolved; canonical order and parentage stay unchanged.
-Independent prize notice0090 is located on257, outside the forum group.
+The April preview preserves sixteen independent notices and nineteen body
+paragraphs, four Internet-feature parts, a separate slogan and three colored
+panels. P&P and About are preview material. Two within-page image-wrap joins
+retain LF; no prose joins independent notices or pages. The printed39-digit
+number keeps its21/18-digit physical wrap, checked against source pixels after
+OCR omitted one zero. COMM.DRV, WM_COMMNOTIFICATION, Shell Account, ODBC,
+67자모 and P&P remain literal. The araea logo is a Unicode approximation.
+Consultant 이준희 belongs to the announced About column, not the article byline.
+Future publication/broadcast and historical technical claims remain unverified.
 
-Package: `archive/pdf/1995-03/packages/batch-85-r01/cd-introduction/`.
-Ownership/forum/accounting evidence: `archive/pdf/1995-03/classifications/batch-85-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-85/`.
-Ninety-four final classification/accounting evidence pins are retained. Totals:
-46 readable, zero partial, nineteen non-owning headings, seventeen references and
-8 unresolved:0019 and0084–0090.
+Packages: `archive/pdf/1995-03/packages/batch-86-r01/`.
+Current forum/prize status: `archive/pdf/1995-03/classifications/batch-86-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-86/`.
+Ninety-five final classification/accounting pins are retained. Totals:48 readable,
+zero partial, nineteen non-owning headings, seventeen references and
+6 unresolved:0019 and0085–0089. Exact glyphs, encoded bytes, full proofreading
+and human acceptance remain unverified.
 
-Next restore April preview0084 on258–259 and prize notice0090 on257, then the
-remaining forum children. Inspect card537/538 before finalizing0086's extent.
-FLC0019 awaits bounded lookup/accounting. Library0067 remains complete for all
-fourteen canonical descendants; its physical extent is180–207. Keep publisher
-advertisements202–203, unlisted CD194–195, public-software186–189 and game-room190–191
-in final page accounting. All eighteen unlisted reviews and two advertisement
-regions remain outside restored canonical bodies.
+Next restore bulletin0085 on532 and reader-card/winners0086 from528–529 and
+detached card537. Inspect reverse538 and independent boundaries before mapping
+its complete noncontiguous extent. Then restore subscriptions0087,index0088 and
+humor0089. FLC0019 awaits bounded lookup/accounting. Introduction0082 owns458;
+special-feature0045 and forum0083 remain non-owning. Library0067 is complete for
+all fourteen canonical descendants across its observed physical extent180–207.
+Keep publisher advertisements202–203 and unlisted CD194–195,public-software186–189
+and game-room190–191 in final page accounting.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-This checkpoint uses one reused mapped page and nineteen outside lookups.
+This checkpoint uses three mapped pages and three outside lookups.
 The full March goal remains active through remaining outcomes,545-page accounting,
 cover and separate issue closeout before July.
 No reader rebuild or deployment.

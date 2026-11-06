@@ -6426,12 +6426,71 @@
       "toc_entry_id": "maso-1995-03-toc-0084",
       "title": "4월호 주요 기사 안내",
       "parent_id": "maso-1995-03-toc-0083",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 86 completes preview with 207 native files reproducing independently and in a fresh process.",
+        "April preview0084 occupies PDF258–259 / individually observed printed250–251, between independent prize257 and3M advertisement260. Canonical title,parent0083,folio250 and absent article byline remain unchanged. Forum0083 remains non-owning.",
+        "Sixteen independent preview notices retain19 body paragraphs, including four Internet-feature parts, programming/tool/OS teasers, the P&P supplement preview and About announcement. A separate five-line promotional slogan remains. Three original colored panels have no invented captions and are preview context rather than unrelated advertisements.",
+        "Two within-page image-wrap joins retain LF: game graphics 스튜디→오 and the OS/2 closing sentence. No prose joins independent notices or pages. The printed39-digit number retains21 digits then18 across its physical wrap; source pixels were checked after OCR omitted one zero. COMM.DRV,WM_COMMNOTIFICATION,Shell Account,ODBC,67자모 and P&P remain literal.",
+        "The araea word-processing logo uses an explicit Unicode approximation, and printed 악투(?) and ellipsis remain source-linked candidates. Consultant 이준희 belongs to the announced About column and is not inferred as the article author. Future publication/broadcast and historical technical claims are not verified; no canonical children or automatic CD links are created.",
+        "Both outcomes retain70 pixel-exact crops,64 OCR outcomes,62 blocks,225 physical rows,20 body paragraphs and six original images. All1,253 typed ranges validate.64 initial recognitions,zero retries,one source correction pass,two maps and zero crop refinements or within/post-pass transcription changes.",
+        "Forty native and twelve status faults reject. Twelve frozen status fields resolve externally while all original records remain immutable. Forum has one readable child0084 and five unresolved children0085–0089; card reverse538 and its complete noncontiguous extent remain pending.",
+        "All 71960 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Exact glyphs,encoded bytes,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-86-r01/preview",
+        "article_id": "scan-maso-1995-03-toc-0084",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-86-r01/preview/manifest.json",
+          "sha256": "a5dbda3f51bb4391bfb67060f948dda4d9a87de7b911fdacd4623dcf7e0f277f",
+          "bytes": 34597
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-86/preview-r01/package-recipe.json",
+          "sha256": "30200670b8f5f87a0dd36e59dfe6a77a7f3033356b0c962ea6b4cb00661af600",
+          "bytes": 6910
+        },
+        "coverage": {
+          "pdf_pages": [
+            258,
+            259
+          ],
+          "printed_pages": [
+            "250",
+            "251"
+          ],
+          "regions": 52,
+          "blocks": 47,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 258,
+        "observed_ending_pdf_page": 259,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-86/final-validation.json",
+          "sha256": "424af67d28ad7be49a9926c329e70b89bd30b85ba3b2cfc24a1061abd9d4cc16",
+          "bytes": 3036
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-86/reproduction.json",
+          "sha256": "e39f7baa862ef9d104672bb575287f8d192f7ee0607206ca4c3f5b2c524e4c2b",
+          "bytes": 53657
+        },
+        "checkpoint": "batch-86",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-86-r01/source-creation-dispositions.json",
+          "sha256": "3bbf02eef17a311085d5d8ab0ba3f36d75b83cc9744f7b1c2e3195e218a8bf8a",
+          "bytes": 12927
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-03-toc-0085",
@@ -6492,12 +6551,69 @@
       "toc_entry_id": "maso-1995-03-toc-0090",
       "title": "축하합니다 : 'MSDN과 테크넷' 당첨자 명단",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch 86 completes prizes with 71 native files reproducing independently and in a fresh process.",
+        "Independent prize notice0090 occupies PDF257, between Asung advertisement256 and April preview258. No printed folio is visible. Canonical null folio, root parent, title and absent article byline remain unchanged; this is not a forum child.",
+        "Sixty winner records occupy65 physical list rows: MSDN July10, MSDN April20 and TechNet30. Five addresses wrap across rows. In particular, 대우통신(주) 연구지원실 continues 이갑상 rather than adding a winner. The preliminary row-count concern is resolved; all printed totals match.",
+        "Six list columns read downward independently. Every record has source-linked name, printed address, physical rows and prize-group heading. Printed10장,CD9장 andCD2장 remain distinct. Application wording2천여통 is approximate. Original product photo and two list grids have no invented captions.",
+        "Five local glyph candidates preserve small names/localities and the clipped slanted heading. The heading crop includes a neighboring event-label fragment; that event is serialized only in its own region. Names,addresses and historical distribution claims are not externally verified or normalized.",
+        "Both outcomes retain70 pixel-exact crops,64 OCR outcomes,62 blocks,225 physical rows,20 body paragraphs and six original images. All1,253 typed ranges validate.64 initial recognitions,zero retries,one source correction pass,two maps and zero crop refinements or within/post-pass transcription changes.",
+        "Forty native and twelve status faults reject. Twelve frozen status fields resolve externally while all original records remain immutable. Forum has one readable child0084 and five unresolved children0085–0089; card reverse538 and its complete noncontiguous extent remain pending.",
+        "All 71960 prior March files and thirty core modules remain exact; unchanged214-test baseline reused. Exact glyphs,encoded bytes,full proofreading and human acceptance remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-03/packages/batch-86-r01/prizes",
+        "article_id": "scan-maso-1995-03-toc-0090",
+        "manifest": {
+          "path": "archive/pdf/1995-03/packages/batch-86-r01/prizes/manifest.json",
+          "sha256": "938f9bed648b5369bd7a74782a33b709bfd024b2d9a6aaf72274cf5e08afe280",
+          "bytes": 11627
+        },
+        "recipe": {
+          "path": "archive/pdf/1995-03/restoration/batch-86/prizes-r01/package-recipe.json",
+          "sha256": "0a6c98de34eb1e09ccbe9f79d25bf7c2d5a25490388f97f02ab630e22479185f",
+          "bytes": 3857
+        },
+        "coverage": {
+          "pdf_pages": [
+            257
+          ],
+          "printed_pages": [
+            null
+          ],
+          "regions": 18,
+          "blocks": 15,
+          "figures": 3,
+          "deferred_pdf_pages": [],
+          "full_extent_unverified": false
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "interior_continuity_fully_reviewed": true,
+        "actual_start_pdf_page": 257,
+        "observed_ending_pdf_page": 257,
+        "validation": {
+          "path": "archive/pdf/1995-03/restoration/batch-86/final-validation.json",
+          "sha256": "424af67d28ad7be49a9926c329e70b89bd30b85ba3b2cfc24a1061abd9d4cc16",
+          "bytes": 3036
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-03/restoration/batch-86/reproduction.json",
+          "sha256": "e39f7baa862ef9d104672bb575287f8d192f7ee0607206ca4c3f5b2c524e4c2b",
+          "bytes": 53657
+        },
+        "checkpoint": "batch-86",
+        "source_creation_disposition": {
+          "path": "archive/pdf/1995-03/classifications/batch-86-r01/source-creation-dispositions.json",
+          "sha256": "3bbf02eef17a311085d5d8ab0ba3f36d75b83cc9744f7b1c2e3195e218a8bf8a",
+          "bytes": 12927
+        }
+      }
     }
   ],
   "checkpoints": [
@@ -9765,22 +9881,63 @@
         "sha256": "6c84f9488d92e9b19efcddaafd70690ae791c6daaf6ee2a14bc061e728c54e3e",
         "bytes": 26961
       }
+    },
+    {
+      "name": "1995-03-batch-86",
+      "status": "complete",
+      "completed_at": "2026-11-06T03:25:41.282114+00:00",
+      "goal": "Restore complete April preview0084 and independent prize notice0090; preserve wrapped winner records and non-owning forum status.",
+      "toc_entry_ids": [
+        "maso-1995-03-toc-0090",
+        "maso-1995-03-toc-0084"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        257,
+        258,
+        259
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        5,
+        256,
+        260
+      ],
+      "recognition_invocations": 64,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "within_pass_text_repairs": 0,
+      "post_pass_transcription_changes": 0,
+      "map_versions": 2,
+      "pre_ocr_refinement_events": 0,
+      "pre_ocr_layout_refinements": 0,
+      "validation": {
+        "path": "archive/pdf/1995-03/restoration/batch-86/final-validation.json",
+        "sha256": "424af67d28ad7be49a9926c329e70b89bd30b85ba3b2cfc24a1061abd9d4cc16",
+        "bytes": 3036
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-03/restoration/batch-86/reproduction.json",
+        "sha256": "e39f7baa862ef9d104672bb575287f8d192f7ee0607206ca4c3f5b2c524e4c2b",
+        "bytes": 53657
+      }
     }
   ],
   "totals": {
     "canonical_entries": 90,
-    "readable": 46,
+    "readable": 48,
     "partial": 0,
     "group_headings": 19,
     "section_references": 17,
-    "unresolved": 8
+    "unresolved": 6
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Restore April preview0084 on PDF258–259 and independent prize notice0090 on257. Then restore forum children0085–0089; inspect detachable card537/538 before finalizing0086 extent. Preserve non-owning forum0083 and special-feature0045;0082 alone owns introduction458. FLC0019 awaits bounded lookup/accounting. Carry publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 into final545-page accounting. Keep two canonical tasks,six mapped pages and twenty outside lookups. Complete March outcomes,cover and separate issue closeout before July; no reader rebuild/deployment.",
+  "next_checkpoint": "Restore bulletin0085 on532 and reader-card/winners0086 from528–529 and detached card537; inspect reverse538 and independent boundaries before selecting the complete noncontiguous map. Keep at most two canonical tasks,six mapped pages and twenty outside lookups. Then restore subscriptions0087,index0088 and humor0089. FLC0019 awaits bounded lookup/accounting. Preserve non-owning forum0083 and introduction0082 ownership. Carry publisher advertisements202–203 and unlisted CD194–195,public-software186–189 and game-room190–191 into final545-page accounting. Complete March outcomes,cover and separate closeout before July; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-03/classifications/batch-10/0005-anchor.json",
@@ -10251,6 +10408,11 @@
       "path": "archive/pdf/1995-03/classifications/batch-85-r01/source-accounting-followups.json",
       "sha256": "114767638d39e129be870f4e303dc3405c427340276327f34d987066f9081ea3",
       "bytes": 5759
+    },
+    {
+      "path": "archive/pdf/1995-03/classifications/batch-86-r01/source-creation-dispositions.json",
+      "sha256": "3bbf02eef17a311085d5d8ab0ba3f36d75b83cc9744f7b1c2e3195e218a8bf8a",
+      "bytes": 12927
     }
   ]
 }
