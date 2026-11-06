@@ -973,6 +973,41 @@ versus canonical [2]. Whole July 560-page accounting, cover and standalone close
 remain pending. Incomplete donated TOCs, full proofreading, human acceptance,
 exact source bytes and historical execution remain explicit limits.
 
+July batch 45 preserves WinG0048 opening PDF 353–358/printed 342–347 as an
+immutable partial native. Full extent 353–365 is directly verified: the conclusion
+continues 358→361 across independent API reference pages 359–360, and the two
+listings continue through 365. Advertisement 366 and separately credited curves
+opening 367 are excluded. Source author 남민우 and affiliation remain literal;
+printed [마지막회] stays distinct from canonical [2].
+All 504 selected, independent and fresh-process files match. All 132 exact crops,
+121 OCR outcomes, 111 blocks, 437 nonblank reading rows and 3,036 typed ranges
+validate. Eleven original visuals retain six literal captions and 27 diagram or
+screenshot labels. Four file tables preserve 34 cells, including eight headers
+and thirteen data rows. The original halftone formula retains its stacked fractions;
+its searchable linearization adds no floor operators or mathematical repairs.
+Four code blocks retain five source regions, 69 physical rows, nine blank rows,
+sixteen comment rows and three explicit omissions. PAINT continues 354→355;
+eight local joins preserve ten boundaries. The conclusion remains incomplete.
+Duplicate figure1 captions, WinGStretchcBlt(), SelectBimap, WinGBibBlt(), differing
+SAMPLE/SAMPLES paths, z/a versus z/x keys, HIGH SPEED versus screenshot TOP SPEED!!,
+and repeated CODE3.LZH footnotes remain literal. Five occurrence-specific glyph
+candidates retain uncertainty. The source explicitly omits WinG car movement;
+no code completion, historical performance or execution is certified.
+All 121 drafts were read before one timed source pass. Two pre-OCR maps retain
+122 crop adjustments. A reading-order assertion failed before map export; its
+script and receipt are retained. Zero OCR retries, within-pass refinements,
+post-pass changes or post-OCR crop changes. All 52 invalid cases reject.
+All 36,092 earlier July files, thirty core modules, twelve frozen adapters and
+63 classification pins remain exact; the unchanged 214-test batch-44 baseline is
+reused. One canonical task, six mapped pages and ten outside lookups stay within limits.
+Totals: twenty-two readable articles, one partial, eight groups, seventeen
+references and 55 unresolved identities. Next: restore WinG continuation 359–364,
+then final 365 and actual assembly. Keep the API sidebar independent of the
+conclusion, preserve both numbered listings and verify repeated 184/185 on 365.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical execution remain explicit limits.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
