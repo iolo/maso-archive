@@ -236,11 +236,27 @@ repeated boxed less/main perl prose stays in both original contexts. All 9,434
 earlier July files, thirty core modules and six frozen adapter files remain exact;
 the unchanged 214-test batch 08 baseline is reused. Totals remain two readable,
 one partial, fourteen references and 86 unresolved.
-Next: final GNU 327–330, beginning Part 3 GNU C++, gcc, without a prose/code join
-from the Part 2 ending on 326. Then actual 297–330 assembly and children 0018–0020.
-Natives now preserve 297–326. Directory 305–310 assembly and earlier gzip 302→304
-across GPL 303/fontutils 304→310 across the directory remain pending. Whole July
-560-page accounting, cover and standalone closeout also remain pending.
+Its final native completes in batch 18 below; the earlier native remains unchanged.
+
+July batch 18 preserves final GNU PDF 327–330/printed 316–319 as the sixth
+immutable native. All 284 selected/independent/fresh-process files match:
+71 exact crops, 68 OCR outcomes, 64 blocks, 251 reading rows and 1,247 current
+text ranges, plus one earlier-native boundary context. Eight sections retain
+52 prose paragraphs, nine option rows/eighteen cells/two headers, seven annotated
+examples and 35 literal code rows. The makefile retains fifteen ink rows, seven
+groups, five rules and two assignments. Three originals have two literal captions;
+four local joins and twenty-two source fields validate. All 57 invalid cases reject.
+One pre-OCR map, one timed source pass, zero retries, one retained within-pass
+particle refinement and zero post-pass changes. All 10,988 earlier July files,
+thirty core modules and six frozen adapter files remain exact; the unchanged
+214-test batch 08 baseline is reused. Totals remain two readable, one partial,
+fourteen references and 86 unresolved.
+All 34 GNU pages 297–330 now have coverage across six immutable natives.
+Next: actual complete feature assembly, then child references 0018–0020.
+Directory 305–310 and gzip 302→304 across GPL 303/fontutils 304→310 across the
+directory require explicit assembly contexts and joins. Preserve the independent
+utility box, repeated prose, literal code and every native source range.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
 See [July progress](docs/progress/9507.md).
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
