@@ -4171,12 +4171,66 @@
       "toc_entry_id": "maso-1995-07-toc-0035",
       "title": "그리드 셀에서 직접 입력하자",
       "parent_id": "maso-1995-07-toc-0033",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch33 verifies complete 그리드 셀에서 직접 입력하자 on PDF253–258/printed242–247,source author 한병희(현대정보기술). Previous252 ends homepage0034;following259 opens separate 물어보세요/OSC의 운영체제 About. Final258 retains code,conclusion,editor 홍동선 and four-row disk directory;lower advertisement is independent.",
+        "506 selected/independent/fresh-process files match.131 exact crops,122 OCR outcomes,112 blocks,401 nonblank reading rows and2551 typed ranges validate. Nine original images retain five literal captions:three screenshots and two tables. Nine local joins preserve ten boundaries;66 prose paragraphs and619 technical fields retain source positions.",
+        "Nineteen code groups preserve147 physical rows including8 blank rows. Lostfocus crosses columns256;get_grid_val continues256→257. Two wrapped signatures retain physical rows without invented continuation markers. Explicit 이하 생략 and the call to unprinted g_text_keypress remain;no executable or complete original-disk program claim.",
+        "Two tables retain26 cells including4 headers,with7 property rows and4 filenames. Three circled formulas,two size labels,five assignments,five activation steps,eight movement keys and four test-program steps preserve context. Step2 activation crosses columns;test step4 continues257→258. Three screenshots retain literal captions and source associations.",
+        "Printed EDITGRID,BAS differs from directory EDITGRID.BAS;both retained. Double period 된다.. remains. Fourteen occurrence-specific digit1/l and I/l/1 candidates remain source-linked. Original screenshot1 labels remain image evidence. Proportional spacing,indentation,quote interiors and encoded bytes are not certified.",
+        "All122 drafts were read before one timed source pass. Three pre-OCR maps retain17 coverage/separation events;zero retries,within-pass source-text refinements or post-pass changes. Full-page views and revised crops were checked before recognition. All52 native invalid cases reject.",
+        "Two external status files reproduce independently and in a fresh process. Four child-local title/credit ranges and25 status faults validate. Only original technique0033 child0035 status,manifest and complete-extent fields are resolved;child0034 remains unchanged. Both technique children are complete;original group evidence stays immutable and non-owning. Larger clinic completion is not claimed.",
+        "All24469 earlier July files,thirty core modules,ten frozen adapters and45 prior classification pins remain exact. Unchanged214-test batch31 baseline reused. Two canonical tasks,six mapped pages,two outside lookups. Whole July560-page accounting,cover and standalone closeout remain pending;incomplete donated TOCs stay explicit."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-33-r01/grid",
+        "article_id": "scan-maso-1995-07-toc-0035",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-33-r01/grid/manifest.json",
+          "sha256": "cc964d8ababc4011b3d9274e7c5d2aa521d1c7f50f87c1529f6309e16944cbbf",
+          "bytes": 85382
+        },
+        "coverage": {
+          "pdf_pages": [
+            253,
+            254,
+            255,
+            256,
+            257,
+            258
+          ],
+          "printed_pages": [
+            "242",
+            "243",
+            "244",
+            "245",
+            "246",
+            "247"
+          ],
+          "regions": 131,
+          "blocks": 112,
+          "figures": 9,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 258,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-33/validation.json",
+          "sha256": "0f398b896172f517fc3b4b1230a479791b12d54be1f9d16cd0e181e6f977b1ae",
+          "bytes": 2131
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-33/reproduction.json",
+          "sha256": "7418a690c20f10280a4f940bf4c3f158582ee4d5b284ec59ca146349add0797c",
+          "bytes": 96794
+        },
+        "checkpoint": "batch-33"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0036",
@@ -6231,22 +6285,75 @@
         "sha256": "372a50b5d96b2d1bea5221ba5d8da2925bd9a25e245bc166854bfe8fabf000a4",
         "bytes": 1292
       }
+    },
+    {
+      "name": "1995-07-batch-33",
+      "status": "complete",
+      "completed_at": "2026-11-06T19:51:15.065592+00:00",
+      "goal": "Restore grid-cell child0035 and externally complete technique0033 child status.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0035",
+        "maso-1995-07-toc-0033"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        252,
+        259
+      ],
+      "recognition_invocations": 122,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-33/validation.json",
+        "sha256": "0f398b896172f517fc3b4b1230a479791b12d54be1f9d16cd0e181e6f977b1ae",
+        "bytes": 2131
+      },
+      "status_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-33/status-validation.json",
+        "sha256": "6b66bb8f44e8f33c7293025b535362a5f6f2a5fd8f2eaca2c3c67978a6a6f146",
+        "bytes": 1100
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-33/reproduction.json",
+        "sha256": "7418a690c20f10280a4f940bf4c3f158582ee4d5b284ec59ca146349add0797c",
+        "bytes": 96794
+      },
+      "status_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-33/status-reproduction.json",
+        "sha256": "7afb8cb46c5172decaff7e9ab6bd1f634759170f47dd1659484ef6d3444f12ad",
+        "bytes": 846
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-33-r01/group-status-dispositions.json",
+        "sha256": "31ec9a311768ac7422cb61eb71b40abb4d8d5306c5385cd9783a9c7fea9c294d",
+        "bytes": 2713
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 13,
+    "readable": 14,
     "partial": 0,
     "group_headings": 4,
     "section_references": 17,
-    "unresolved": 69
+    "unresolved": 68
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify and restore technique child0035 그리드 셀에서 직접 입력하자 from observed PDF253/printed242,source byline 한병희(현대정보기술). Opening253 and continuation254 are saved;establish exact ending and adjacent boundary before mapping. Next canonical0036 starts printed248 but is only a lookup hint. At most two canonical tasks,six mapped pages,twenty outside lookups;segment and assemble longer bodies separately. Preserve selected technique-group batch32-r02 evidence and its pending child0035,then resolve completion externally when proved. Clinic0029 stays non-owning;preserve batch31 completed0030/0031/0032 status and pending0036. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve all prior packages and45 classification pins;no reader rebuild/deployment or automatic CD3 association.",
+  "next_checkpoint": "Verify ownership/eligibility for 물어보세요0036 and restore its first child0037 OSC의 운영체제 About from observed PDF259/printed248. Source opening shows clinic/Q&A banner and OSC title;no full extent or separate author is inferred. Inspect following titles and ending before mapping. At most two canonical tasks,six mapped pages,twenty outside lookups;segment longer bodies and assemble separately. Technique0033 children0034/0035 are complete under batch33 external status;original group and batch31 clinic evidence remain immutable. Clinic0036 and its six children0037–0042 remain pending;later clinic status must reconcile technique completion without duplicating bodies. Continue all remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve all prior packages and47 classification pins;no automatic CD3 association or reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -6472,6 +6579,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-32-r02/evidence.json",
       "sha256": "b796d58704387e183fa3b79c49de4aee30cf2ef1c86f2349d18500fb4a68fb23",
       "bytes": 10587
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-33-r01/group-status-dispositions.json",
+      "sha256": "31ec9a311768ac7422cb61eb71b40abb4d8d5306c5385cd9783a9c7fea9c294d",
+      "bytes": 2713
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-33-r01/family-ownership.json",
+      "sha256": "e58d3ec1e60773ab58f3dcb9fb765efb6132a875db7f9cfef60e79495fc9e7e2",
+      "bytes": 13242
     }
   ]
 }

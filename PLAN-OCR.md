@@ -564,8 +564,43 @@ exact; the unchanged 214-test batch-31 baseline is reused. The classification
 inventory now requires 45 pins. Two canonical tasks, four mapped pages and three
 outside lookups stay within the operating limits.
 Totals: thirteen readable articles, zero partials, four groups, seventeen references
-and 69 unresolved identities. Next: verify and restore child 0035 그리드 셀에서
-직접 입력하자 from PDF 253/printed 242, establishing its ending before mapping.
+and 69 unresolved identities at that checkpoint. Grid-cell child 0035 and external
+technique completion are finished by batch 33 below.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and program execution remain explicit limits.
+
+July batch 33 completes 그리드 셀에서 직접 입력하자 child 0035 on
+PDF 253–258/printed 242–247, source author 한병희(현대정보기술), with separate
+editor 홍동선. All 506 selected, independent and fresh-process files match:
+131 exact crops, 122 OCR outcomes, 112 blocks, 401 nonblank reading rows and
+2,551 typed ranges validate. Nine original images retain five literal captions.
+Nineteen code groups preserve 147 rows, including eight blank rows. Lostfocus
+continues across columns on 256; get_grid_val continues from 256 to 257. Two
+wrapped signatures, the explicit 이하 생략 omission and the call to an unprinted
+implementation remain literal. No complete original program or execution is claimed.
+Two tables preserve 26 cells including four headers: seven property rows and four
+filenames. Three formulas, two size labels, five assignments, five activation
+steps, eight movement keys and four test-program steps retain source contexts.
+Three screenshots retain their captions and associations. Nine local joins preserve
+ten boundaries; 66 prose paragraphs and 619 technical fields remain source-linked.
+The printed EDITGRID,BAS comma and concluding double period remain unchanged.
+Fourteen occurrence-specific glyph candidates preserve digit1/l and I/l/1 ambiguity.
+Three pre-OCR maps retain seventeen coverage/separation events. All 122 drafts
+were read before one timed source pass; zero retries, source-text refinements or
+post-pass changes. The lower advertisement on 258 is excluded from article ownership.
+Two external status files reproduce exactly. Four child-local title/credit ranges
+and 25 ownership/status faults validate; both technique children 0034/0035 are now
+complete. Original group evidence remains immutable and non-owning. Larger clinic
+completion is not claimed. All 77 combined native/status invalid cases reject.
+All 24,469 earlier July files, thirty core modules, ten frozen adapters and 45 prior
+classification pins remain exact; the unchanged 214-test batch-31 baseline is reused.
+The classification inventory now requires 47 pins. Two canonical tasks, six mapped
+pages and two outside lookups stay within the operating limits.
+Totals: fourteen readable articles, zero partials, four groups, seventeen references
+and 68 unresolved identities. Next: verify ownership for 물어보세요 0036 and
+restore its first child 0037 OSC의 운영체제 About from PDF 259/printed 248,
+establishing its ending and adjacent title boundaries before mapping.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and program execution remain explicit limits.
