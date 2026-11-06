@@ -37,50 +37,51 @@ Batch 03 completes developer 0009 and non-owning group 0007: 80 native/three
 classification files exact, 21 exact crops, seventeen initial calls, one source
 pass and zero retries/within/post-pass changes.
 
-Batch 96 completes accounting for 505 of 545 physical pages: one hundred forty directly
-reviewed front pages, 308 restored-body pages with preserved review bindings and
+Batch 97 completes accounting for 525 of 545 physical pages: 160 directly
+reviewed source pages, 308 restored-body pages with preserved review bindings and
 57 pages classified from explicit earlier observations. All ninety canonical
 outcomes remain unchanged: 53 readable, zero partial, nineteen non-owning headings,
 seventeen references and 1 unresolved, FLC 0019. Humor 0089 and all six forum children
 remain complete. No article package or canonical identity changes.
 
-Direct review of PDF 121–140 finds twenty full-page advertisements: FaxMessenger,
-요술바람, LG computers, storage/video equipment, COBOL, English-learning software,
-a CD-ROM encyclopedia, Word, UPS equipment, networking, printers, video compression,
-OCR, CD-ROM drives, dictionary software, business software and a multimedia notebook.
-Descriptive spread relationships remain for 122–123 and 124–125. The advertising
-folios광고110 on PDF122 and광고120 on PDF139 are preserved as observed labels;
-they do not establish editorial page numbers or offsets. No FLC body is found in
-this range. The review start was recorded prospectively; elapsed wall time includes
-analysis and evidence reconciliation. No OCR or source correction occurred.
+Direct review covers PDF 141–150, 158, 225–231, 237 and 253. All twenty pages are
+advertisements: notebooks, monitors, Oksori hardware/media, motherboards, Video-CDs,
+remote-control products, books, storage/network equipment and technical journals.
+The newspaper-style endorsements on 146 belong to Oksori's commercial promotion;
+no canonical editorial body is created. The Ahn book advertisement on 158 remains
+separate from the restored developer/editorial articles. Publisher catalogues on
+225, 230–231 and 237 and journal promotion on 253 remain outside article extraction.
 
-All 485 previously completed page rows remain exactly unchanged. The 308 body-review
+Pages 225/226, previously rendered without recorded inspection, are now directly
+reviewed and classified. The prior rendered-only records remain immutable; current
+page evidence points to this actual review. No printed folio is inferred and no FLC
+body is found in this bounded set. Review start was prospective, and elapsed wall
+time includes analysis and evidence reconciliation. No OCR or source correction.
+
+All 505 previously completed page rows remain exactly unchanged. The 308 body-review
 bindings, 57 earlier nonbody classifications and all 530 resolved original map
-exclusions remain preserved. The exclusions still comprise 515 furniture regions,
-twelve advertisements, one publisher naming notice and two other-owner areas.
-Shared 538 retains the original reader-card/subscription boundaries and rotations.
-Giro front 539/reverse 540, unlisted public-software 186–189, game-room 190–191 and
-CD reviews 194–195 remain accounted. Rendered-only 225/226 and postcard reverse542
-remain pending; earlier observations are not expanded by inference.
+exclusions remain preserved: 515 furniture regions, twelve advertisements, one
+publisher naming notice and two other-owner areas. Shared 538 retains its original
+reader-card/subscription boundaries and rotations. Giro front 539/reverse 540,
+unlisted public-software 186–189, game-room 190–191 and CD reviews 194–195 remain
+accounted. Advertising labels on 122/139 remain literal; postcard reverse542 is
+still pending and is not inferred from its already reviewed front.
 
 Five accounting files reproduce independently and in a fresh process. Nineteen
-semantic faults reject. All 76,728 earlier March files and thirty core modules
+semantic faults reject. All 76,791 earlier March files and thirty core modules
 remain exact; the unchanged 214-test baseline is reused. Current source images and
-geometry validate, and all ninety canonical outcomes and article packages remain
-unchanged. The selected prior-classification evidence is copied exactly.
+geometry validate. All ninety canonical outcomes and article packages are unchanged.
 
-Current accounting: `archive/pdf/1995-03/restoration/batch-96/accounting-r01/`.
-Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-96/`.
-One hundred six final classification/accounting pins are retained. There are
-40 primary pages still unclassified; no original map-exclusion disposition remains
-pending. Earlier accounting artifacts remain immutable historical snapshots.
+Current accounting: `archive/pdf/1995-03/restoration/batch-97/accounting-r01/`.
+Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-97/`.
+One hundred seven final classification/accounting pins are retained. Only twenty
+primary pages remain: 254, 255, 261, 380–392 and 542–545. No original map-exclusion
+disposition remains pending. Earlier accounting artifacts remain historical snapshots.
 
-Next inspect PDF 141–150, 158, 225–231, 237 and 253: twenty remaining supplied pages.
-Then finish the final twenty primary-page classifications. Final
-FLC eligibility/gap disposition, cover preservation, original-adapter assembly
-revalidation and standalone JSON/assets export/rebuild with separate issue closeout
-remain required before July. No whole-PDF FLC absence, exact-glyph recovery, full
-proofreading or human acceptance is claimed.
+Next directly review those final twenty pages. Final FLC eligibility/gap disposition,
+cover preservation, original-adapter assembly revalidation and standalone JSON/assets
+export/rebuild with separate issue closeout remain required before July. No whole-PDF
+FLC absence, exact-glyph recovery, full proofreading or human acceptance is claimed.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
