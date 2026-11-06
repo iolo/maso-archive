@@ -19,59 +19,59 @@ content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
 
-Batch 98 completes structural accounting for all 545 supplied PDF pages and
-all 530 original map exclusions. There are no unclassified pages or unresolved
-exclusion dispositions. Evidence comprises 180 direct accounting reviews, 308
-restored-body review bindings and 57 classifications from preserved nonbody reviews.
-All ninety canonical outcomes remain unchanged: 53 readable, zero partial, nineteen
-non-owning headings, seventeen references and 1 unresolved, FLC 0019. Humor 0089 and
-all six forum children remain complete. Full page accounting does not complete
-article recovery or the separate issue closeout.
+Batch 99 finalizes the FLC 0019 supplied-PDF gap disposition and verifies the
+preferred donated March cover. The canonical title, parent, absent individual folio
+and absent byline remain unchanged. FLC 0019 is an eligible canonical TOC leaf whose
+body remains unlocated in this supplied-PDF review. Its classification and
+availability remain unresolved, with no body owner, restored body, inferred extent
+or missing-page count. All ninety outcomes remain: 53 readable, zero partial,
+nineteen non-owning headings, seventeen references and 1 unresolved body location.
+Humor 0089 and all six forum children remain complete.
 
-Direct review of the final twenty pages covers 254, 255, 261, 380–392 and 542–545.
-Seventeen are independent advertisements. Page542 is the reverse of Microsoft's
-promotional postcard541, with product-interest/software survey fields; it is not
-assigned to the magazine reader-card or subscription bodies. Page544 is an HP
-DeskJet back-cover advertisement. Page545 is a clipped wrap showing part of that
-advertisement, the spine dated1995.3 and a cropped front-cover portion. The supplied
-clipping remains explicit; no full cover, missing text or missing-page count is
-reconstructed. No FLC body is found in this range. No OCR or source correction.
+This final current-PDF outcome uses the complete 545-page accounting, all 530
+original map exclusions and 100 retained source-review records, plus batch89's
+contents/Q&A neighborhood review. Encoder flicker245, CDEG256-color247 and BMP
+palettes250–251 remain rejected substitutions. No further blind FLC search is
+queued; new identifying source evidence can reopen the gap. Structural coverage
+does not prove absolute source-wide absence or original printed omission. Earlier
+bounded dispositions and accounting artifacts remain immutable historical records.
+Reader-card/subscription boundaries on538 and giro front539/reverse 540 remain
+unchanged. Unlisted public-software186–189, game-room 190–191 and CD194–195 remain
+outside canonical article ownership.
 
-The full audit resolves every page's source image/hash, original geometry and
-classification evidence, backed by 100 actual review records. All 545 PNGs pass
-integrity/geometry checks. All53 selected package maps, 308 body pages, 309 owner/page
-records and three retained-render bridges resolve. Every original included map
-region and all530 excluded rectangles resolve without changing their source maps.
-The exclusions comprise 515 furniture regions, twelve advertisements, one publisher
-naming notice and two other-owner areas across297 pages. Shared538 retains original
-reader-card/subscription boundaries and rotations; giro front539/reverse 540 remains
-preserved. Unlisted public-software186–189, game-room 190–191 and CD194–195 remain
-accounted without creating canonical articles. All525 previously completed rows
-remain unchanged. Historical reviews are reused, not claimed as new inspections.
+The donated `covers/9503.jpg` is visually verified as the full front cover, with
+1995.3 explicitly visible. Its 472×640 RGB JPEG thumbnail uses the unchanged shared
+cover policy and exactly matches the existing global derivative. Masthead, date,
+main composition, barcode and price remain visible; source wear and the thin spine
+edge are preserved. Prior PDF1 full-cover and PDF545 clipped-wrap observations are
+reused explicitly, not counted as new page inspections. The donated original,
+global cover inventory, derivatives and evidence remain unchanged. No cover
+retouching or PDF fallback replacement is performed.
 
-A failed audit attempt used the wrong source field name for native maps. The
-attempt and repair receipt remain; the checker now reads the existing map.source
-schema. No source evidence or article package changed. The corrected complete
-source audit passes. Five accounting files reproduce independently and in a fresh
-process;21 semantic faults reject. All 76,854 earlier March files and thirty core
-modules remain exact; the unchanged214-test baseline is reused.
+Six final gap/cover files reproduce independently and in a fresh process. Thirty
+rehashed invalid semantic cases are rejected. All76,921 earlier March files,
+thirty core PDF modules and336 global cover files remain exact. The unchanged
+214-test baseline is reused here; fresh focused tests are required at issue closeout.
+This checkpoint has one canonical task and one cover task, zero mapped pages,
+zero newly inspected PDF pages, zero OCR and zero source corrections.
 
-Current accounting: `archive/pdf/1995-03/restoration/batch-98/accounting-r01/`.
-Full audit: `archive/pdf/1995-03/restoration/batch-98/whole-source-audit.json`.
-Source audit, reproduction and validation: `archive/pdf/1995-03/restoration/batch-98/`.
-One hundred eight final classification/accounting pins are retained. Earlier
-accounting artifacts remain immutable historical snapshots.
+Current gap/cover artifact:
+`archive/pdf/1995-03/restoration/batch-99/outcome-r01/`.
+Review, recipe, reproduction, validation and preservation:
+`archive/pdf/1995-03/restoration/batch-99/`.
+Current complete source accounting remains:
+`archive/pdf/1995-03/restoration/batch-98/accounting-r01/`.
+One hundred ten final classification/accounting evidence pins are retained.
 
-Next finalize the FLC0019 eligible/unlocated supplied-PDF gap disposition from the
-completed structural accounting and retained contents/Q&A evidence. Verify the
-preferred donated cover and its provenance; `covers/9503.jpg` and an existing
-thumbnail are present but final cover verification remains pending. Then revalidate
-original-adapter assemblies and export/rebuild standalone JSON/assets with separate
-issue closeout before July. No absolute source-wide FLC absence, original print
-omission, exact-glyph recovery, full proofreading or human acceptance is claimed.
-See [March progress](docs/progress/9503.md).
+Next resolve every selected native recipe and original private assembly adapter,
+rebuild the selected packages, and export/reproduce the standalone JSON/assets
+issue collection. Validate all consumer resources, source crops, raw OCR provenance,
+typed byte ranges, ownership and final gap/cover evidence. Run fresh focused PDF
+regressions and a separate requirement-by-requirement closeout audit, then update
+the handoff before July 1995. March remains in progress until these checks pass.
+No complete original recovery, exact-glyph recovery, full proofreading or human
+acceptance is claimed. See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
-This checkpoint uses one canonical task, zero mapped pages and twenty outside lookups.
 The full March goal remains active. No reader rebuild or deployment.
 
 Batch 02 completed reader voices 0002 on PDF 152–153/printed 144–145
