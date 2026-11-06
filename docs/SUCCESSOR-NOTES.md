@@ -19,53 +19,54 @@ the old catalog pin; prepare a new selection only when reader delivery is reques
 The historical reader receipt does not establish a current local build; its
 local data manifest is absent in this session.
 
-Batch 83 completes new-books0079 on PDF 200–201 / printed 192–193 and
-chosen-books0080 on PDF 202–203 / printed 194–195. Canonical titles, parents,
-folios and absent article bylines remain unchanged. Each canonical identity owns
-its complete two-page bundle: seven independent new-book notices and two reader
-recommendations. Library0067 stays non-owning; price0081 and the full library
-extent remain pending. The independent price guide starts on 204.
+Batch 84 completes price-guide0081 on PDF 204–207 / printed 196–199.
+Canonical title, parent, folio196 and absent article byline remain unchanged.
+Library0067 remains non-owning. All fourteen canonical descendant outcomes are
+complete: eleven readable articles and three subordinate groups. Its full physical
+extent is now confirmed as PDF 180–207, closing before independent interview on 208.
+This does not mean all physical library text has been restored.
 
-All 252 native files and two external evidence/status files reproduce independently
-and in fresh processes. All 68 crops are pixel-exact; 56 OCR outcomes, 47 blocks,
-243 physical rows, 21 main paragraphs, twelve original image assets and 1,036
-typed ranges validate. Nine continuation boundaries across eight groups retain LF.
-OWL's two complete paragraphs remain separate; the Internet and AI recommendations
-do not join across pages. Thirty-six bibliography fields and nine price contexts
-preserve book authors, translators, publishers, page counts and prices as distinct
-roles. No article byline is inferred from book credits or recommender identities.
+All 501 native files and two external evidence/status files reproduce independently
+and in fresh processes. All 130 crops are pixel-exact; 121 OCR outcomes, 121 blocks,
+179 serialized reading rows, eight main paragraphs, nine original image assets,
+five captions and 1,563 typed ranges validate. No prose joins are needed; the disk
+product table continues on 206–207 with its repeated header. Chart-value reading rows
+are not claims of shared physical baselines.
 
-Seven notice covers, an original five-cover collage, two portraits and two MS
-ending marks retain their source pixels without invented captions. The collage
-has no accompanying review text; no extra reviews or canonical IDs are created.
-Each recommender's name, affiliation, portrait and independent pull quote remains
-associated with the correct book. Two publisher advertisement regions beneath
-202–203 are excluded from article text and retained for final page accounting.
-Printed grammar, 높혔다, and the quote/body 곁들어져/곁들여져 distinction remain
-literal. Four localized candidates retain source uncertainty.
+Eleven summary rows retain units, tolerances and controller exclusions. Forty
+product rows preserve 164 printed body cells, including four merged storage
+categories, and 17 header cells. Three charts preserve 27 visible values, 19 category
+labels, nine ticks and three year labels. Missing historical values, axis units and
+date assignments are not invented. Two modem photos retain their source captions.
+Printed 12,400BPS/2,400BPS,4만원±5천원/4.5,560MB/540MB,HW-P144VF/HW-144VF
+and GTM1496PC2/GTM-1496PC2 remain distinct. Five tax/price contexts preserve
+recommended tax-inclusive prices, an unqualified market price and tax-exclusive
+table values. Three small glyph candidates retain image-dependent uncertainty.
 
-There were 56 initial recognitions, zero retries, one correction pass, four maps,
-two pre-OCR crop-margin refinements and one paragraph-layout refinement, with
-zero within/post-pass text repairs. One map-constructor variable-shadowing failure
-is retained with its repair; no OCR or source transcription was repeated.
-Fifty-six native and sixteen status faults reject; twelve frozen status fields
-resolve externally. All 69,297 prior March files and thirty core modules remain
-exact; the unchanged 214-test baseline is reused. Exact glyphs, bytes, historical
-claims, full proofreading and human acceptance remain unverified.
+There were 121 initial recognitions, zero retries, one correction pass, two valid maps
+and 42 pre-OCR crop refinements, with zero within/post-pass text repairs. An
+unsupported table-kind constructor failure is retained before map export; the
+fixed map preserves original grids and uses supported row regions. Thirty-four
+native and sixteen status faults reject; seventeen frozen status fields resolve
+externally. All 70,081 prior March files and thirty core modules remain exact;
+the unchanged 214-test baseline is reused. Exact glyphs, bytes, historical claims,
+full proofreading and human acceptance remain unverified.
 
-Packages: `archive/pdf/1995-03/packages/batch-83-r01/`.
-Current book/library status: `archive/pdf/1995-03/classifications/batch-83-r01/`.
-Reproduction and validation: `archive/pdf/1995-03/restoration/batch-83/`.
-Ninety final classification/accounting evidence pins are retained. Totals:
-44 readable, zero partial, eighteen non-owning headings, seventeen references and
-11 unresolved.
+Packages: `archive/pdf/1995-03/packages/batch-84-r01/`.
+Current library completion/extent: `archive/pdf/1995-03/classifications/batch-84-r01/`.
+Reproduction and validation: `archive/pdf/1995-03/restoration/batch-84/`.
+Ninety-one final classification/accounting evidence pins are retained. Totals:
+45 readable, zero partial, eighteen non-owning headings, seventeen references and
+10 unresolved.
 
-Next establish price-guide0081's complete extent from PDF 204 onward, using
-contents 5 and boundaries 203/208. Review tables, charts, units, qualifiers and
-printed discrepancies before mapping; finalize Library0067's extent only from
-closing-boundary evidence. Keep publisher advertisements202–203, unlisted
-CD194–195, public-software186–189 and game-room190–191 in final page accounting.
-FLC0019 awaits bounded lookup or accounting.
+Next inspect source ownership for nonfolio CD-ROM special0082 and forum heading0083
+using contents and bounded physical lookups. Preserve missing canonical folios and
+parentage; do not assume downloadable CD contents or owning section prose. Then
+restore forum children0084–0089 and resolve nonfolio prize notice0090.
+Keep publisher advertisements202–203, unlisted CD194–195, public-software186–189
+and game-room190–191 in final page accounting. FLC0019 awaits bounded lookup or
+accounting. All eighteen unlisted reviews and two advertisement regions remain
+outside restored canonical bodies.
 See [March progress](docs/progress/9503.md).
 Keep two canonical tasks / six mapped pages / twenty outside lookups per checkpoint.
 The full March goal remains active through all remaining outcomes, 545-page
