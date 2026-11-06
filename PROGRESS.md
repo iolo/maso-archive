@@ -1,5 +1,37 @@
 # Progress
 
+## 2026-11-07 — July buttons/dialog article opening preserved
+
+July batch 29 preserves child 0032 버튼과 다이얼로그 박스 조립하기 opening
+PDF 237–242/printed 226–231 as an immutable partial native. Source author 장석원
+is verified in the portrait banner and biography. Full extent is 237–247/226–236:
+prose ends 242, but four numbered listings continue through 247; 248 is advertising.
+All 496 selected/independent/fresh-process files match: 133 exact crops, 118 OCR
+outcomes, 104 blocks, 428 physical rows and 2,409 typed occurrences validate.
+Seven screenshots retain seven literal captions. Two descriptive tables and a
+six-row file directory preserve 38 cells, including six headers. Six short code
+examples, a filter template and calculator listing rows 001–033 retain physical
+rows, Korean literals/comments and explicit glyph candidates. Thirteen local
+groups preserve fourteen boundaries; 49 prose paragraphs and 364 technical/numeric
+occurrences retain source positions. Original title artwork, independent deck,
+author biography and editor 박은숙 keep distinct roles.
+Three pre-OCR maps retain 139 coverage/separation events. One timed source pass,
+one retained sound-glyph refinement, zero retries and zero post-pass source changes.
+The first export is retained; selected revision r02 only clarifies child/group
+wording, with article, listing and corrections byte-identical. A review-receipt
+path correction also retains its original record without changing source text.
+All 52 invalid cases reject. All 20,032 earlier July files, thirty core modules
+and nine frozen adapters remain exact; the unchanged 214-test batch-19 baseline
+is reused. Existing clinic status and all 41 classification evidence pins remain
+unchanged. No automatic CD3 association or program execution is claimed.
+Totals: eleven readable articles, one partial, three groups, seventeen references
+and 71 unresolved identities. Next: restore final listing pages 243–247, then
+actually assemble 237–247 and resolve clinic group 0029 child 0032 externally.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOC scans remain an explicit limit.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-29/handoff.json`.
+
 ## 2026-11-07 — July Windows optimization article completed
 
 July batch 28 completes Windows optimization child 0031 윈도우즈를 애인처럼
