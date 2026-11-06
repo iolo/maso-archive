@@ -127,9 +127,23 @@ typed ranges, 12 regions and six blocks validate; all 29 invalid cases reject.
 All 5,332 earlier July files, 451 parent files and thirty core modules remain exact;
 the unchanged 214-test batch-08 baseline is reused. No new OCR or source correction.
 External dispositions retain final overseas children 0008–0010 and six pending
-children. Totals: two readable, zero partials, eight references and 93 unresolved.
-Next: children 0011/0012 (expanded IDE and Novell Nest on PDF 179), then 0013–0016.
-Whole July 560-page accounting, cover and standalone closeout remain pending.
+children. At that checkpoint: two readable, zero partials, eight references and
+93 unresolved. The next IDE/Nest pair completes in batch 10 below.
+
+July batch 10 finalizes IDE 0011 and Novell Nest 0012 as non-owning references
+into complete overseas 0007. Both are complete on PDF 179/printed 168. Each retains
+two prose regions and a column continuation; the original EIDE logo and caption
+belong only to IDE. Nest's printed `실현할` remains distinct from canonical `실현`.
+The adjacent privacy box is excluded. Printed capacity, speed and license claims
+remain literal and unverified. Four classification files reproduce independently
+and in a fresh process. All 21 typed ranges, eight regions, five blocks, two
+continuations, three product fields and one logo/caption validate; 28 invalid cases
+reject. All 5,364 earlier July files, 451 parent files and thirty core modules
+remain exact; the unchanged 214-test batch-08 baseline is reused. No new OCR or
+source correction. Totals: two readable, zero partials, ten references and
+91 unresolved. Next: children 0013/0014 (boxed privacy and Norton notices on PDF
+179/180), then 0015/0016. Whole July 560-page accounting, cover and standalone
+closeout remain pending.
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 

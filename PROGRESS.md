@@ -1,5 +1,24 @@
 # Progress
 
+## 2026-11-06 — July IDE and Novell Nest references complete
+
+July batch 10 finalizes IDE 0011 and Novell Nest 0012 as non-owning references
+into complete overseas 0007. Both are complete on PDF 179/printed 168. Each retains
+two prose regions and a column continuation; the original EIDE logo and caption
+belong only to IDE. Nest's printed `실현할` remains distinct from canonical `실현`.
+The adjacent privacy box is excluded. Printed capacity, speed and license claims
+remain literal and unverified. Four classification files reproduce independently
+and in a fresh process. All 21 typed ranges, eight regions, five blocks, two
+continuations, three product fields and one logo/caption validate; 28 invalid cases
+reject. All 5,364 earlier July files, 451 parent files and thirty core modules
+remain exact; the unchanged 214-test batch-08 baseline is reused. No new OCR or
+source correction. Totals: two readable, zero partials, ten references and
+91 unresolved. Next: children 0013/0014 (boxed privacy and Norton notices on PDF
+179/180), then 0015/0016. Whole July 560-page accounting, cover and standalone
+closeout remain pending.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/batch-10/handoff.json`.
+
 ## 2026-11-06 — July VRML and Windows NT references complete
 
 July batch 09 finalizes VRML 0009 and boxed Windows NT 0010 as non-owning
