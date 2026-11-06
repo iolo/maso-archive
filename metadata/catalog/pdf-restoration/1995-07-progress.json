@@ -4559,12 +4559,60 @@
       "toc_entry_id": "maso-1995-07-toc-0042",
       "title": "넷동의 네트워크 About",
       "parent_id": "maso-1995-07-toc-0036",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Batch37 verifies complete 넷동의 네트워크 About on PDF274–276/printed263–265. Previous273 ends Xbase;following277 begins Samsung advertisement. The final FTP answer and magazine ending emblem establish the complete ending;no author inferred from series or asker credits.",
+        "189 selected,independent and fresh-process files match.49 pixel-exact crops,44 OCR outcomes,36 blocks,245 reading rows and1202 typed ranges validate. Five original images retain null captions. Six Q&A contexts retain six credits,including two handle-only credits. Two independent technical boxes and one invitation remain separate.",
+        "Seven joins preserve eight continuation boundaries. Browser answer274→275,LAN question across275 columns,and printer answer275→276 retain ownership. Three printer conditions and two FTP methods are source-linked;24 inline command occurrences stay in prose.34 prose paragraphs and231 source fields validate. No standalone code listing or table is invented.",
+        "Seven occurrences of the printed araea software name use decomposed Old Hangul. Printed RFC1055 sentence,이전 가짜 SLIP류,100MBPS,WINVTP,IP쪽 and mget advice remain literal. Credit candidates ODH0I04/ODH0104 and DCQ01/DCQO1 retain uncertainty without inferred identities.",
+        "All44 drafts read before one prospective source pass. Two pre-OCR maps retain two refinements:printer-answer upper margin and final FTP row separated from emblem. One rejected pre-map attempt corrected a generic footer exclusion without changing article coordinates. Original maps,crops and failure evidence retained. Zero OCR retries,within-pass text refinements,post-pass changes or post-OCR crop changes.",
+        "Two external Q&A status files reproduce independently and in a fresh process. Six child-local title ranges,24 creation-time field resolutions and30 invalid ownership/status cases validate. All six children0037–0042 are complete in distinct extents259–276;canonical order remains unchanged despite Paradise preceding Xbase. Original OSC member and original group/classification files remain exact;no duplicate parent body.",
+        "All41 native invalid cases reject. All30463 earlier July files,thirty core modules,ten frozen adapters and49 prior classification pins remain exact;unchanged214-test batch31 baseline reused. Two tasks,three mapped pages,two outside lookups. Two new group-status pins join the final evidence list.",
+        "Original group0036 and clinic0029 records remain immutable. The external Q&A disposition resolves its pending-child fields;larger clinic reconciliation is still pending. Whole July560-page accounting,cover and standalone closeout remain unfinished. Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical behavior remain explicit limits."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-37-r01/network",
+        "article_id": "scan-maso-1995-07-toc-0042",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-37-r01/network/manifest.json",
+          "sha256": "f94315dab66fad7f68df51d84b0204af4335ee0e25947f97b0467ad7199072df",
+          "bytes": 31357
+        },
+        "coverage": {
+          "pdf_pages": [
+            274,
+            275,
+            276
+          ],
+          "printed_pages": [
+            "263",
+            "264",
+            "265"
+          ],
+          "regions": 49,
+          "blocks": 36,
+          "figures": 5,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_end_pdf_page": 276,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-37/validation.json",
+          "sha256": "dc9468e29a8f1f624738f75bc702edc70a92049523d8dc21aaf36805a81f751c",
+          "bytes": 2205
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-37/reproduction.json",
+          "sha256": "88986730dcb4e4a4db309647ade8e4b5ff68b3f0ba29a8390ace5e65c0c2d534",
+          "bytes": 36356
+        },
+        "checkpoint": "batch-37"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0043",
@@ -6722,22 +6770,72 @@
         "sha256": "79002fa8364961df8c466211396ed1654b5b2a2da41d962ba94f600a18c3c3c9",
         "bytes": 130799
       }
+    },
+    {
+      "name": "1995-07-batch-37",
+      "status": "complete",
+      "completed_at": "2026-11-06T21:26:36.008574+00:00",
+      "goal": "Restore network0042 and externally complete Q&A group0036 child status.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0042",
+        "maso-1995-07-toc-0036"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        274,
+        275,
+        276
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        273,
+        277
+      ],
+      "recognition_invocations": 44,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-37/validation.json",
+        "sha256": "dc9468e29a8f1f624738f75bc702edc70a92049523d8dc21aaf36805a81f751c",
+        "bytes": 2205
+      },
+      "status_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-37/status-validation.json",
+        "sha256": "0668422998ef92cdcd506d4cd3eefd559ed05f22651a16ad6a243a602d419650",
+        "bytes": 1250
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-37/reproduction.json",
+        "sha256": "88986730dcb4e4a4db309647ade8e4b5ff68b3f0ba29a8390ace5e65c0c2d534",
+        "bytes": 36356
+      },
+      "status_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-37/status-reproduction.json",
+        "sha256": "2274514aa16858fd80cd422639675d92c1adf64684059ccda0d4b2b0ee35bfc6",
+        "bytes": 847
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-37-r01/group-status-dispositions.json",
+        "sha256": "f82248eff2ce2e1455d820b1a27d8de2f90528505c9557af087e16bd49674d86",
+        "bytes": 12252
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 19,
+    "readable": 20,
     "partial": 0,
     "group_headings": 5,
     "section_references": 17,
-    "unresolved": 62
+    "unresolved": 61
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify and restore network child0042 from observed PDF274–276/printed263–265,checking the ending and adjacent277 boundary before mapping. Use a second canonical task for external Q&A group0036 child-status reconciliation if complete;preserve original classification bytes and all49 pins. Broader clinic0029 reconciliation remains separate. Continue remaining July identities within two tasks,six mapped pages and twenty outside lookups;then560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Externally reconcile clinic0029 with completed technique0033 and Q&A0036 families,retaining all original group/status evidence and child packages. Use the second canonical task to classify programming-forum0043 ownership/hierarchy from its existing descendants and bounded source evidence;its first body descendant0045 has canonical printed322 but no location is inferred from a fixed offset. At most two tasks,six mapped pages and twenty outside lookups. Then continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Preserve51 classification pins;no automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -6983,6 +7081,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-34-r02/evidence.json",
       "sha256": "a93baca691ec23714ca21fa4a245943dcea74b5ffd340f346aa9edfd12016fbc",
       "bytes": 21203
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-37-r01/group-status-dispositions.json",
+      "sha256": "f82248eff2ce2e1455d820b1a27d8de2f90528505c9557af087e16bd49674d86",
+      "bytes": 12252
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-37-r01/family-ownership.json",
+      "sha256": "02d752b64fdc8fa46926e1fb893cdb0c555e5357192d35af8c143bfbf7733d54",
+      "bytes": 33771
     }
   ]
 }

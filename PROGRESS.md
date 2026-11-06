@@ -1,5 +1,45 @@
 # Progress
 
+## 2026-11-07 — July network Q&A and group completion
+
+July batch 37 completes network child 0042 on PDF 274–276/printed 263–265.
+Six Q&As retain six asker credits, including two handle-only credits; no article
+author is inferred. The HWP LAN and Net2com modem-sharing sidebars remain
+independent, as does the submission invitation. The final FTP answer and ending
+emblem precede an advertisement on 277.
+All 189 selected files match independent and fresh-process exports. Forty-nine
+source crops, 44 OCR outcomes, 36 blocks, 245 reading rows and 1,202 typed ranges
+validate. Five original images have no invented captions. Seven joins preserve
+eight boundaries; 34 prose paragraphs and 231 source fields retain their contexts.
+Three printer conditions, two FTP methods and 24 inline command occurrences remain
+in prose. Seven occurrences of the araea software name use decomposed Old Hangul.
+Printed RFC1055 wording, 이전 가짜 SLIP류, 100MBPS, WINVTP, IP쪽 and mget advice
+remain literal. Two credit readings retain ODH0I04/ODH0104 and DCQ01/DCQO1 candidates.
+All 44 drafts were read before one prospective source pass. Two pre-OCR maps retain
+two refinements: an upper crop margin and the final FTP row separated from its
+ending emblem. One rejected pre-map attempt corrected a generic footer exclusion;
+its failure evidence remains. Zero retries, within-pass text refinements, post-pass
+changes or post-OCR crop changes.
+Two external Q&A status files reproduce independently and in a fresh process.
+Six child-local title ranges and 24 creation-time field resolutions validate;
+all six children 0037–0042 are complete in distinct extents across PDF 259–276.
+The original OSC member and all original group files remain unchanged. Canonical
+order is preserved despite Paradise preceding Xbase. The group owns no body.
+All 41 native and thirty status invalid cases reject. All 30,463 earlier July files,
+thirty core modules, ten frozen adapters and 49 prior classification pins remain
+exact; the unchanged 214-test batch-31 baseline is reused. Two tasks, three mapped
+pages, two outside lookups. The two new status files bring classification pins to 51.
+Totals: twenty readable articles, zero partials, five groups, seventeen references
+and 61 unresolved identities. Next: externally reconcile clinic 0029 with its
+completed technique and Q&A families, and classify programming-forum heading 0043
+as a second bounded task. Its first body descendant 0045 has canonical printed
+page 322; source location and ownership require direct verification.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical technical behavior remain explicit limits.
+
+See [July progress](docs/progress/9507.md) and its restoration ledger.
+
 ## 2026-11-07 — July Paradise and Xbase Q&A restored
 
 July batch 36 completes Paradise hardware 0041 on PDF 268–270/printed 257–259
