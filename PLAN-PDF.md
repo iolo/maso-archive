@@ -737,10 +737,35 @@ thirty core modules, ten frozen adapters and 49 prior classification pins remain
 exact; the unchanged 214-test batch-31 baseline is reused. Two tasks, three mapped
 pages, two outside lookups. The two new status files bring classification pins to 51.
 Totals: twenty readable articles, zero partials, five groups, seventeen references
-and 61 unresolved identities. Next: externally reconcile clinic 0029 with its
-completed technique and Q&A families, and classify programming-forum heading 0043
-as a second bounded task. Its first body descendant 0045 has canonical printed
-page 322; source location and ownership require direct verification.
+and 61 unresolved identities at that checkpoint. External clinic reconciliation
+and programming-forum heading classification are completed by batch 38 below.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical technical behavior remain explicit limits.
+
+July batch 38 completes external clinic 0029 reconciliation and classifies
+programming-forum heading 0043 as non-owning. The clinic retains five direct
+children and thirteen descendants: eleven complete leaf articles and two nested
+groups. All eleven leaf records, title/credit ranges and article packages remain
+unchanged. Nine external field resolutions finish the two nested-family statuses
+and the buttons article's previously unknown start/ownership fields.
+The leaf articles occupy 48 distinct pages; ten intervening pages remain unassigned
+for later whole-issue accounting. No clinic or nested heading owns duplicate text.
+Forum 0043 retains four direct children, fifteen descendants and its null canonical
+page. Its running banner appears on PDF 334/printed 323 within the game article
+opening 333/322 under 원리구현, after the two advertisements on 331–332. All fifteen
+forum descendants remain unresolved; the article's full extent is not yet verified.
+Nine classification files reproduce independently and in a fresh process. Five
+pixel-exact crops, seventeen leaf title/credit ranges and nine external resolutions
+validate; all 35 invalid hierarchy/ownership cases reject. Two tasks, two mapped
+evidence pages, three outside lookups, no OCR and no source-text correction.
+All 31,097 earlier July files, thirty core modules, ten frozen adapters
+and 51 earlier classification pins remain exact. The unchanged 214-test baseline
+is reused; four new pins bring the classification evidence list to 55.
+Totals: twenty readable articles, zero partials, six groups, seventeen references
+and 60 unresolved identities. Next: verify game-programming 0045's complete extent,
+restore its opening within six mapped pages, and classify parent 원리구현 0044 as
+the second task. Longer coverage requires separate natives and actual assembly.
 Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical technical behavior remain explicit limits.
