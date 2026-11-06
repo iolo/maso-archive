@@ -1510,36 +1510,37 @@
         "Opening297–302 is preserved as an immutable native: original artwork with overlapping searchable heading, source Part1 title/deck/credit, three independent pull quotes, boxed FSF essay and nine prose joins. Oversized initial 우 is folded once into the first reading row. Outgoing gzip prose continues302→304 across independent GPL preamble303; later assembly join pending.",
         "All181 files reproduce independently and in a fresh process;44 pixel-exact crops,43 OCR outcomes,34 blocks,350 reading rows,45 paragraph ranges and1,499 typed occurrences validate.33 invalid cases reject. One pre-OCR map,zero retries,one timed source pass,one within-pass reading refinement,zero post-pass changes. All5,465 earlier July files and30 core modules remain exact. Remaining303–330, actual assembly and three child references pending.",
         "Batch14 preserves GNU continuation303–308/292–297 as immutable native b: independent GPL preamble303, eight utility contexts304, four original directory panels305–308,638 rows/1276 data cells/32 headers and twelve repeated program names. Two local joins remain; incoming gzip302→304 across GPL303 and outgoing fontutils304→310 across directory305–310 require actual later assembly. All253 files reproduce independently and in a fresh process;64 crops,60 OCR outcomes,58 blocks,781 reading rows,4,559 current typed ranges and one earlier-native boundary context validate.43 invalid cases reject. Two pre-OCR maps,one source pass,zero retries/within-pass refinements/post-pass changes. Retained first export has incorrect all-kor+eng provenance wording; selected metadata revision correctly records16 eng/44 kor+eng outcomes, with source/OCR/text unchanged. Remaining309–330, actual feature assembly and three child dispositions pending.",
-        "Batch15 preserves GNU309–314/298–303 as immutable native c: final directory266 rows/532 cells/16 headers, fontutils ending310, Part1 conclusion312 and Part2 opening313, eight Emacs modes and deliberately erroneous five-line C example314. Five local joins, twelve section contexts, four original images, three Runeberg conditions and twenty fields retain source roles. All229 files reproduce independently and in a fresh process;58 crops,54 OCR outcomes,49 blocks,505 rows,2,622 current ranges plus six earlier-native context ranges validate.53 invalid cases reject. Two pre-OCR maps,one source pass,zero retries or within/post-pass changes. Incoming fontutils304→310 and prior gzip302→304 remain pending actual assembly; directory305–310 now covered across two natives but not assembled. Code brace shapes and spacing retain explicit uncertainty. Remaining315–330, actual feature assembly, three children and whole July closeout pending."
+        "Batch15 preserves GNU309–314/298–303 as immutable native c: final directory266 rows/532 cells/16 headers, fontutils ending310, Part1 conclusion312 and Part2 opening313, eight Emacs modes and deliberately erroneous five-line C example314. Five local joins, twelve section contexts, four original images, three Runeberg conditions and twenty fields retain source roles. All229 files reproduce independently and in a fresh process;58 crops,54 OCR outcomes,49 blocks,505 rows,2,622 current ranges plus six earlier-native context ranges validate.53 invalid cases reject. Two pre-OCR maps,one source pass,zero retries or within/post-pass changes. Incoming fontutils304→310 and prior gzip302→304 remain pending actual assembly; directory305–310 now covered across two natives but not assembled. Code brace shapes and spacing retain explicit uncertainty. Remaining315–330, actual feature assembly, three children and whole July closeout pending.",
+        "Batch 16 preserves GNU 315–320/304–309 as immutable native d. Steps 2–4, fifteen section contexts, seventeen option items, 106 code rows including 54 numbered calculator rows, seven originals/four captions and 21 diagram labels retain source roles. All 376 files reproduce independently and in a fresh process; 97 crops, 90 OCR outcomes, 83 blocks, 384 rows, 1,896 current ranges and one earlier-native context validate. All 57 invalid cases reject. One pre-OCR map, one source pass, zero retries, one within-pass list separator refinement and zero post-pass source changes. A retained metadata revision fixes the final calculator output 9 occurrence pointer; text/raw OCR unchanged. The current literal Step 2 heading supersedes an expanded earlier preview without changing its native. Remaining 321–330, actual feature assembly, three children and whole July closeout remain pending."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-15-r01/gnu-c",
+        "directory": "archive/pdf/1995-07/packages/batch-16-r02/gnu-d",
         "article_id": "scan-maso-1995-07-toc-0017",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-15-r01/gnu-c/manifest.json",
-          "sha256": "e313cb3e14ecac5c4e2786f6b982944d55f65a188a36c2922bd139a43cf5f8f5",
-          "bytes": 38471
+          "path": "archive/pdf/1995-07/packages/batch-16-r02/gnu-d/manifest.json",
+          "sha256": "b91c8160db638c277f92f3782b48c2d1b32b0c396811cd1997ad3e1faa0bb603",
+          "bytes": 63510
         },
         "coverage": {
           "pdf_pages": [
-            309,
-            310,
-            311,
-            312,
-            313,
-            314
+            315,
+            316,
+            317,
+            318,
+            319,
+            320
           ],
           "printed_pages": [
-            "298",
-            "299",
-            "300",
-            "301",
-            "302",
-            "303"
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309"
           ],
-          "regions": 58,
-          "blocks": 49,
-          "figures": 4
+          "regions": 97,
+          "blocks": 83,
+          "figures": 7
         },
         "body_pages_complete": false,
         "assembly_required": true,
@@ -1584,12 +1585,6 @@
         ],
         "remaining_extent_unverified": true,
         "remaining_source_pages": [
-          315,
-          316,
-          317,
-          318,
-          319,
-          320,
           321,
           322,
           323,
@@ -1640,20 +1635,20 @@
           ],
           "full_extent_basis": "Observed opening/ending/part starts and structural lookup views; not complete interior continuity review.",
           "current_pdf_pages": [
-            309,
-            310,
-            311,
-            312,
-            313,
-            314
+            315,
+            316,
+            317,
+            318,
+            319,
+            320
           ],
           "current_printed_pages": [
-            "298",
-            "299",
-            "300",
-            "301",
-            "302",
-            "303"
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309"
           ],
           "current_segment_pages_complete": true,
           "body_pages_complete": false,
@@ -1671,15 +1666,15 @@
             305,
             306,
             307,
-            308
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
           ],
           "remaining_source_pages": [
-            315,
-            316,
-            317,
-            318,
-            319,
-            320,
             321,
             322,
             323,
@@ -1695,22 +1690,22 @@
           "complete_article_assembly_pending": true,
           "remaining_extent_unverified": true,
           "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-15/source-reviewed.json",
-            "sha256": "0ff1a46b07cd840296d4b3fcd163e3c735fd7dabdf17853b18976c84025b381d",
-            "bytes": 2357
+            "path": "archive/pdf/1995-07/restoration/batch-16/source-reviewed.json",
+            "sha256": "e2c374e94fba92a040f7449f37b0e061f1fdb4210fc31c4dd91bc66a26e222e0",
+            "bytes": 2445
           }
         },
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-15/validation.json",
-          "sha256": "dd23ebad68465b11c421ea7db02b0cee2ad5b2fa03ba93627d9fc069a8e0e956",
-          "bytes": 2008
+          "path": "archive/pdf/1995-07/restoration/batch-16/validation.json",
+          "sha256": "4daef14a79df5edbad391c1691ca599c694676c8abcd9919c375bd0a334a550b",
+          "bytes": 2033
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-15/reproduction.json",
-          "sha256": "f1010720d3312662685e9f023ab8f9f494b611ab85114b3c5cd9a8a38a24e82c",
-          "bytes": 39563
+          "path": "archive/pdf/1995-07/restoration/batch-16/reproduction-r02.json",
+          "sha256": "93a79ab97c91ae539c2946e9fdbf717a982f885020b565119ca03d99cb1e2a6c",
+          "bytes": 64611
         },
-        "checkpoint": "batch-15",
+        "checkpoint": "batch-16",
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-13-r01/gnu-a",
@@ -2328,6 +2323,200 @@
               "bytes": 39563
             },
             "checkpoint": "batch-15"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-16-r02/gnu-d",
+            "article_id": "scan-maso-1995-07-toc-0017",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-16-r02/gnu-d/manifest.json",
+              "sha256": "b91c8160db638c277f92f3782b48c2d1b32b0c396811cd1997ad3e1faa0bb603",
+              "bytes": 63510
+            },
+            "coverage": {
+              "pdf_pages": [
+                315,
+                316,
+                317,
+                318,
+                319,
+                320
+              ],
+              "printed_pages": [
+                "304",
+                "305",
+                "306",
+                "307",
+                "308",
+                "309"
+              ],
+              "regions": 97,
+              "blocks": 83,
+              "figures": 7
+            },
+            "body_pages_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 297,
+            "observed_ending_pdf_page": 330,
+            "full_pdf_pages": [
+              297,
+              298,
+              299,
+              300,
+              301,
+              302,
+              303,
+              304,
+              305,
+              306,
+              307,
+              308,
+              309,
+              310,
+              311,
+              312,
+              313,
+              314,
+              315,
+              316,
+              317,
+              318,
+              319,
+              320,
+              321,
+              322,
+              323,
+              324,
+              325,
+              326,
+              327,
+              328,
+              329,
+              330
+            ],
+            "remaining_extent_unverified": true,
+            "remaining_source_pages": [
+              321,
+              322,
+              323,
+              324,
+              325,
+              326,
+              327,
+              328,
+              329,
+              330
+            ],
+            "segment_scope": {
+              "full_pdf_pages": [
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306,
+                307,
+                308,
+                309,
+                310,
+                311,
+                312,
+                313,
+                314,
+                315,
+                316,
+                317,
+                318,
+                319,
+                320,
+                321,
+                322,
+                323,
+                324,
+                325,
+                326,
+                327,
+                328,
+                329,
+                330
+              ],
+              "full_extent_basis": "Observed opening/ending/part starts and structural lookup views; not complete interior continuity review.",
+              "current_pdf_pages": [
+                315,
+                316,
+                317,
+                318,
+                319,
+                320
+              ],
+              "current_printed_pages": [
+                "304",
+                "305",
+                "306",
+                "307",
+                "308",
+                "309"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "actual_start_pdf_page": 297,
+              "observed_ending_pdf_page": 330,
+              "earlier_native_pdf_pages": [
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306,
+                307,
+                308,
+                309,
+                310,
+                311,
+                312,
+                313,
+                314
+              ],
+              "remaining_source_pages": [
+                321,
+                322,
+                323,
+                324,
+                325,
+                326,
+                327,
+                328,
+                329,
+                330
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": true,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-16/source-reviewed.json",
+                "sha256": "e2c374e94fba92a040f7449f37b0e061f1fdb4210fc31c4dd91bc66a26e222e0",
+                "bytes": 2445
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-16/validation.json",
+              "sha256": "4daef14a79df5edbad391c1691ca599c694676c8abcd9919c375bd0a334a550b",
+              "bytes": 2033
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-16/reproduction-r02.json",
+              "sha256": "93a79ab97c91ae539c2946e9fdbf717a982f885020b565119ca03d99cb1e2a6c",
+              "bytes": 64611
+            },
+            "checkpoint": "batch-16"
           }
         ],
         "all_native_pdf_pages": [
@@ -2348,7 +2537,13 @@
           311,
           312,
           313,
-          314
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320
         ],
         "source_extent_preserved_across_natives": false
       }
@@ -3857,6 +4052,43 @@
         "sha256": "f1010720d3312662685e9f023ab8f9f494b611ab85114b3c5cd9a8a38a24e82c",
         "bytes": 39563
       }
+    },
+    {
+      "name": "1995-07-batch-16",
+      "status": "complete",
+      "completed_at": "2026-11-06T13:51:46.143174+00:00",
+      "goal": "Preserve GNU 0017 continuation 315–320 as immutable native d.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0017"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        314,
+        321
+      ],
+      "recognition_invocations": 90,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-16/validation.json",
+        "sha256": "4daef14a79df5edbad391c1691ca599c694676c8abcd9919c375bd0a334a550b",
+        "bytes": 2033
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-16/reproduction-r02.json",
+        "sha256": "93a79ab97c91ae539c2946e9fdbf717a982f885020b565119ca03d99cb1e2a6c",
+        "bytes": 64611
+      }
     }
   ],
   "totals": {
@@ -3872,7 +4104,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Continue GNU0017 PDF315–320 as a separate immutable six-page native. Reuse saved315 source view and verify each page/folio and interior continuity. Page315 begins Step2 compilation; no prose/code join from314. Preserve subsequent tutorial steps, literal commands/code, screenshots/captions and uncertainty without syntax repair. Then restore321–326 and327–330, actually assemble297–330, preserving original native contexts and all table/cell/section/list/code/figure metadata, and separately resolve children0018–0020. Earlier gzip302→304 across GPL303 and fontutils304→310 across directory require explicit assembly joins. Continue remaining July identities,560-page accounting,cover and standalone closeout. Two-task/six-mapped/twenty-lookup limits; no reader rebuild/deployment.",
+  "next_checkpoint": "Continue GNU 0017 PDF 321–326 as a separate immutable six-page native. Reuse saved 321 source view, verify every folio, section, code example and interior continuity. Page 321 starts GNU 개발 라이브러리 with dld; no prose/code join from the closed tools overview on 320. Then restore 327–330 and actually assemble 297–330, preserving original native contexts and all table/cell/section/list/code/figure/diagram metadata; separately resolve children 0018–0020. Earlier gzip 302→304 across GPL 303 and fontutils 304→310 across the directory require explicit assembly joins. Continue remaining July identities, 560-page accounting, cover and standalone closeout. Two-task/six-mapped/twenty-lookup limits; no reader rebuild/deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

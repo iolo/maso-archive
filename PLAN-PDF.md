@@ -213,12 +213,27 @@ cases reject. Two pre-OCR maps, one timed source pass, zero retries or within/po
 source changes. All 7,169 earlier July files, thirty core modules and six frozen
 adapter files remain exact; the unchanged 214-test batch 08 baseline is reused.
 Totals remain two readable, one partial, fourteen references and 86 unresolved.
-Next: GNU 315–320, beginning Step 2 compilation on 315, without a prose/code join
-from 314. Then 321–326 and 327–330, actual 297–330 assembly and children 0018–0020.
-Natives now preserve 297–314; directory 305–310 is covered across two natives but
-not assembled. Earlier gzip 302→304 across GPL 303 and fontutils 304→310 across the
-directory require explicit assembly joins. Whole July 560-page accounting, cover
-and standalone closeout remain pending.
+Its continuation completes in batch 16 below; the earlier native remains unchanged.
+
+July batch 16 preserves GNU continuation PDF 315–320/printed 304–309 as a
+fourth immutable native. All 376 selected/independent/fresh-process files match:
+97 exact crops, 90 OCR outcomes, 83 blocks, 384 reading rows and 1,896 current
+text ranges, plus one original earlier-native boundary range. Steps 2–4, fifteen
+section contexts, seventeen option items, 106 code rows, 54 numbered calculator
+rows and 21 diagram labels retain their source roles. Seven original images have
+four literal captions. Seven local joins, 81 prose paragraphs and twenty source
+fields validate; all 57 invalid cases reject. One pre-OCR map, one timed source
+pass, zero retries, one within-pass list-separator refinement and zero post-pass
+source changes. A retained metadata revision corrects the final calculator output
+9 occurrence pointer; source text and OCR are unchanged. All 7,940 earlier July
+files, thirty core modules and six frozen adapter files remain exact; the unchanged
+214-test batch 08 baseline is reused. Totals remain two readable, one partial,
+fourteen references and 86 unresolved.
+Next: GNU 321–326, beginning GNU 개발 라이브러리 with dld on 321, without a prose/code
+join from 320. Then 327–330, actual 297–330 assembly and children 0018–0020.
+Natives now preserve 297–320. Directory 305–310 assembly and earlier gzip 302→304
+across GPL 303/fontutils 304→310 across the directory remain pending. Whole July
+560-page accounting, cover and standalone closeout also remain pending.
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
