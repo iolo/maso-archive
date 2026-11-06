@@ -15,12 +15,25 @@ outcomes from the nineteen completed issue passes remain copied exactly, includi
 partials, unresolved eligibility and unlocated bodies. March 1995 adds ninety
 identities; July 1995 adds 103. Candidate counts are provisional, not final body totals.
 
-**March 1995 is complete; July 1995 is next**, with the same bounded mapping,
+**March 1995 is complete; July 1995 is in progress**, with the same bounded mapping,
 mapped-Tesseract, source-review, immutable-package and separate-closeout workflow.
 The old 1995 cover-only restriction is superseded. Existing TOC entries are the
 queue; no new transcription or automatic CD3 association is required. Preserve
 native CD3 metadata and establish any comparison links from evidence. July's
 incomplete donated TOC scans remain an explicit verification limit.
+
+July batch 01 initializes all 103 identities and preserves domestic0001 opening
+PDF165–170/printed154–159 as an immutable partial native. Its 284 files reproduce
+independently and in a fresh process; 81 source crops, 65 OCR outcomes, 1,515 typed
+ranges, sixteen original images and thirteen literal captions validate. All214
+fresh PDF tests pass. One source pass, zero retries/crop changes, three retained
+within-pass refinements and zero post-pass changes. Eight independent item contexts
+include two separate interviews. Totals: one partial,102 unresolved. Next: final
+domestic171–176, then separate parent assembly and child classification. See the
+[July record](docs/progress/9507.md) and
+`metadata/catalog/pdf-restoration/1995-07-progress.json`. July's full issue goal,
+560-page accounting, cover and standalone closeout remain pending. Older July
+“next” statements below describe the March closeout checkpoint.
 
 March batch 01 completes editorial0001 on PDF151/observed printed143: 25
 independent/fresh-process exact files, five pixel-exact crops, four OCR outcomes,

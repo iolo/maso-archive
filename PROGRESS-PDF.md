@@ -14,11 +14,19 @@ issue passes retain all 828 original outcomes exactly. March is now the twentiet
 completed pass, bringing accounted identities to 918. March 1995's ninety
 identities now have fifty-three readable articles, zero partial, nineteen non-owning headings,
 seventeen section references and one eligible leaf with its body unlocated. July
-1995's 103 remain queued and are next, before PLAN-PDF steps 13–14 aggregation
+1995's 103 are initialized: one partial domestic native and 102 unresolved,
+before PLAN-PDF steps 13–14 aggregation
 and handoff. Existing CD3
 content is corroboration, without automatic canonical article links.
 See [campaign progress](docs/progress/campaign.md) and the
 [migration receipt](metadata/catalog/toc-imports/2026-11-04.json).
+
+July batch 01 preserves domestic0001 opening PDF165–170/printed154–159 in
+284 independently/fresh-process reproducible files. All81 source crops and65 OCR
+outcomes validate;214 fresh PDF tests pass. Next: final domestic171–176, then
+separate parent assembly and child classifications. Whole-issue accounting,
+cover and closeout remain pending. See [July progress](docs/progress/9507.md).
+The March-closeout “July is next” statements below are historical.
 
 Batch 100 completes the March 1995 canonical TOC JSON/assets restoration pass.
 All ninety identities have explicit outcomes: 53 readable/sample-reviewed articles,

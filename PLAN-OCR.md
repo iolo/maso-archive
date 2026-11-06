@@ -27,7 +27,13 @@ The November 4 canonical catalog migration adds the 1994–1995 TOCs without
 changing any previous identity or restored package. The current PDF queue is
 `archive/pdf/shared/restoration/queue-2026-11-04/queue.jsonl`: 1,021 identities
 across 21 supplied PDFs, including all 828 unchanged prior outcomes. March 1995
-(ninety identities) is complete; July 1995 (103) is next. Batch 01 completes
+(ninety identities) is complete; July 1995 (103) is in progress. July batch01
+preserves domestic0001 opening165–170 as a partial native:284 reproducible files,
+81 exact crops,65 outcomes,1,515 typed ranges and214 fresh passing PDF tests.
+One source pass,zero retries/crop changes,three within-pass refinements andzero
+post-pass changes. Next: final domestic171–176, then separate assembly and child
+classifications. See [July progress](docs/progress/9507.md);102 other identities
+remain unresolved. The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
 completes reader voices0002 and user column0008 on PDF152–155:219 exact files,
