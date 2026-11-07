@@ -5345,6 +5345,57 @@ local OCR adapters from batch87. Incomplete donated TOCs, full proofreading, hum
 acceptance and original encoded bytes remain explicit limits. No inferred CD3
 association, reader rebuild or deployment.
 
+July batch 126 preserves developer survey 0099 opening PDF 550–555 as an immutable
+partial native. Direct source review establishes the full extent as 550–557: an
+introduction/prize page, five questionnaire pages with independent folios 1–5,
+and the separate reply-form reverse/front on 556–557. Those final forms and actual
+article assembly remain pending. The earlier reader-card questions and next-issue
+teaser do not supply this survey's body. Canonical pageless title and hierarchy stay
+unchanged; the printed title is 개발도구 / 개발환경 선호도 조사.
+
+All 450 selected, independent and fresh-process files match. All 115 pixel-exact
+crops, 109 OCR outcomes, 109 blocks, 396 serialized rows and 4,541 typed ranges
+validate. Six original visuals retain the vertical title/sponsors and five complete
+questionnaire layouts; none has a printed caption. All 113 question positions have
+source-linked prompts and ordinals. Fifty-six option groups retain 296 alternatives;
+567 circled-number occurrences include 270 choices across thirty nine-point rating
+rows and one repeated branch-choice marker. Three reference panels retain 39 tools,
+six vendor criteria and ten product criteria. Twenty-six serialized tables preserve
+407 cells, including shared rank labels and sparse physical rows. No answers are inferred.
+
+The manufacturer subsection heading precedes question54. Eight shared-choice links,
+printed question cross-references, the72→78 branch, nine free-response prompts,
+three respondent gifts and six-volume manual-set detail retain their source roles.
+Prize children0100–0102 remain unclassified. Printed interval overlaps, missing
+opening parenthesis in tool37, combined21.22./31,32 labels, differing option counts
+and source녀 remain. A small stroke between20 and세트 in the first prize line is
+explicitly uncertain; no glyph identity or original character count is invented.
+Vertical title/sponsors serialize as two logical lines; original typography remains
+in the image. Full proofreading, human acceptance and original bytes remain unverified.
+
+Three pre-OCR maps retain108 crop adjustments and one ordering-only refinement.
+All109 drafts were read before one prospectively timed source pass; zero retries,
+within-pass revisions after serialization, post-pass changes or post-OCR crop changes.
+Two mapping-helper failures and one export-parser failure are retained. The export
+parser was adjusted to accept printed31,32 without a following period; source text,
+OCR and crop pixels were unchanged. All54 invalid cases reject. All99,489 earlier
+July files, thirty core modules,28 frozen assembly adapters, three local OCR adapters
+and130 classification pins remain exact. The fresh214-test batch124 baseline is reused.
+One canonical task, six mapped pages and ten outside lookup pages remain within limits.
+
+Totals are50 readable articles, one partial, sixteen groups,32 references and four
+unresolved identities across126 completed checkpoints. Whole July remains incomplete.
+
+Next: restore only survey0099 reply-form pages556–557 as a separate immutable native,
+then actually assemble550–557 while preserving every question/choice/reference range,
+original visual and source uncertainty. Reuse successful opening OCR and the closed
+source pass. Classify prize children0100–0102 in bounded reference checkpoints after
+assembly, then resolve video appendix0103. Whole560-page accounting, cover verification
+and standalone JSON/assets closeout remain required. Preserve130 classification pins,
+all28 frozen assembly adapters from batch124 and three local OCR adapters from batch87.
+Incomplete donated TOCs remain an explicit verification limit. No inferred CD3
+association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
