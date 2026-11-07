@@ -1312,6 +1312,47 @@ Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical execution remain explicit limits. No automatic CD3 association,
 reader rebuild or deployment.
 
+July batch 54 preserves MDB0050 continuation PDF 411–416/printed 400–405 as a
+second immutable partial native. Opening 405–410 remains unchanged. Twelve of
+the thirteen verified source pages are now preserved; final 417 and actual
+405–417 assembly remain required. Canonical parent forum0043 is unchanged despite
+alternating 원리구현 and 프로그래밍포럼 running headers.
+
+All 447 selected, independent and fresh-process files match: 111 pixel-exact crops,
+109 OCR outcomes, 101 blocks, 466 reading/regional rows and 4,419 current typed
+occurrences. Earlier title, title regions, authors, series and incoming heading
+remain linked to immutable opening-native ranges. Two original screenshots retain
+two literal captions and twenty separately mapped tab-order numbers. Their
+different orders, independent tip3/tip4 contexts and all eight joins remain.
+
+Twenty-seven code blocks retain 33 physical regions and 287 physical rows,
+including eighteen blank rows, 58 Korean comments, six English comments, twenty
+omission rows and seven unprefixed Korean explanatory rows. Abbreviated and expanded
+OnFilter examples remain separate. AVI signature415 does not join to the separate
+call416 across intervening prose. Printed swich, size(Buffer), pDec, Oder, missing
+semicolon and double period remain literal; no code repair or execution claim.
+Sixty-nine localized candidates retain bracket/brace and l/1 ambiguities.
+
+All 109 drafts were read before one prospective source pass. Two pre-OCR maps
+retain 111 adjustments. Zero OCR retries, within-pass refinements, post-pass
+changes or post-OCR crop changes. Thirty-three code regions use eng and 76 other
+text regions use kor+eng, OEM1/PSM6, one thread and a 3000-pixel long edge.
+All 56 invalid cases reject. All 44,234 earlier July files, thirty core modules,
+fourteen frozen adapters and 69 classification pins remain exact. The unchanged
+214-test batch51 baseline is reused. One canonical task, six mapped pages and two
+outside lookup pages remain within limits. Totals remain twenty-four readable
+articles, one partial, eight groups, seventeen references and 53 unresolved identities.
+
+Next: restore MDB final PDF 417/printed 406, then actually assemble 405–417.
+The PCX steps 1–3 on416 continue with step4 on417; preserve the list continuation
+with one LF, without a word or code-row join. Keep the final conclusion, editor
+and file directory separate from the lower advertisement. Preserve both existing
+natives, all source anomalies and occurrence-specific candidates. Whole July
+560-page accounting, cover and standalone JSON/assets closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact encoded bytes
+and historical execution remain explicit limits. No automatic CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
