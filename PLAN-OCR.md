@@ -2345,7 +2345,7 @@ zero partials, twelve groups, seventeen references and 43 unresolved identities.
 
 Next: verify article0061 CCC/Manager complete source extent from observed PDF481/printed472 opening and482/473 continuation. CodeView0062 opens489/480,but that alone does not establish0061 ending. Review the boundary and interior continuity,then restore an opening native of at most six newly mapped pages. Preserve source author 박진성,the literal 프로그래밍포럼 continuation banner and canonical OS·애플리케이션 포럼 hierarchy. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Groups0051/0052,forum0043 and the new0059/0060 families require separate reconciliation. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance and exact source bytes remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
-July batch 75 is in progress at a saved mapping/OCR stage for CCC/Manager0061,
+July batch 75 first saved a mapping/OCR stage, before opening-native completion below, for CCC/Manager0061,
 해외 인기 툴을 만난다[4] : PVCS와 겨루는 버전 컨트롤 시스템 CCC/Manager.
 Full extent PDF481–487 / printed472–478 is verified from ten reviewed source pages.
 Source author 박진성 remains distinct from ending editor 정인성. The conclusion ends
@@ -2387,6 +2387,54 @@ whole-issue560-page accounting,cover and standalone JSON/assets closeout remain 
 Incomplete donated TOCs,full proofreading,human acceptance,original encoded bytes and
 execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-75/ocr-stage-audit.json`.
+
+July batch 75 completes the opening partial native for CCC/Manager0061, 해외 인기 툴을 만난다[4] :
+PVCS와 겨루는 버전 컨트롤 시스템 CCC/Manager, across PDF481–486 / printed472–477. Full extent481–487 /
+printed472–478 is verified; final487 and actual assembly remain separate. Source author 박진성
+and affiliation 미국 에듀케이셔널 소프트웨어 대표 remain distinct from ending editor 정인성 on487. The literal
+프로그래밍포럼 continuation banner differs from canonical ancestor OS·애플리케이션 포럼; canonical identity
+and hierarchy remain unchanged.
+
+All391 selected, independent and fresh-process files match. The opening preserves100
+pixel-exact crops,94 original OCR outcomes,81 text blocks,369 reading rows,370 regional
+fragments,40 main-prose paragraphs and2,192 typed ranges. Six original screenshots retain
+five literal numbered captions and one uncaptioned opening screen. The independent four-line
+pullquote and five-field product box retain their contexts, including historical vendor,
+telephone, fax, address and495-dollar price.
+
+Nine workflow steps retain their circled markers and physical order. Step2 crosses columns,
+step8 crosses pages, and step7 retains two paragraphs. Five feature contexts, nine main
+sections and406 source fields validate. Ten local groups preserve thirteen boundaries,
+including a zero-separator dropcap. The three literal examples retain16 physical rows
+without blank rows. Eleven circled delta markers remain explanatory annotations separate
+from command payloads; twelve prose references and nine numbered sample rows link to their
+exact occurrences.
+
+Printed forward/reverse-delta terminology, mixed-case filenames and awkward operational
+wording remain unrepaired. Nine uncertainty occurrences retain ambiguous command glyphs,
+narrow spaces, quotation marks, a vowel and an extra dot; original scans remain
+authoritative. Three retained pre-OCR maps record112 adjustments. One prospectively timed
+source pass includes the interruption and status inquiry in elapsed wall time. Zero OCR
+retries, post-OCR crop changes, refinements after first text serialization or post-pass
+changes. The earlier failed map-refinement attempt remains unchanged.
+
+All54 invalid cases reject. All69,354 earlier July files,863 saved OCR-stage files,thirty
+core modules,twenty frozen assembly adapters,the batch72 local OCR adapter and75
+classification pins remain exact. The unchanged fresh214-test batch73 baseline is reused.
+Totals:31 readable articles, one partial, twelve groups, seventeen references and42
+unresolved identities. Groups0059/0060 remain incomplete.
+
+Next: restore CCC/Manager0061 final PDF487 / printed478 as a separate immutable native, then
+actually assemble481–487. Preserve opening batch75-r01/ccc-a and reuse verified full-extent
+evidence. Join the outgoing components-engine paragraph across486→487 with one LF and no
+word splice: current text ends 소스 and the next fragment starts 를 원하는 방향으로 변경시켰지만,. Preserve
+the conclusion, author disclosure, contact details, ending emblem and separate editor 정인성;
+exclude the lower-page recruitment advertisement and full-page advertisement488.
+CodeView0062 opens489/480. Retain75 classification pins,20 frozen assembly adapters and the
+batch72 local OCR adapter. Continue remaining July identities, family
+reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete
+donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution
+remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
