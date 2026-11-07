@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-## Current continuation — 2026-11-07
+## Current continuation — 2026-11-08
 
 The owner authorized continuing with the remaining supplied PDFs after the
 1994–1995 TOC addition and source review. The canonical catalog now contains
@@ -3593,6 +3593,46 @@ pending families under0059/0060,0051/0052 and forum0043 in bounded classificatio
 Preserve all original group evidence, canonical hierarchy and the 81 classification pins.
 Retain all 26 frozen assembly adapters in batch95/frozen-adapters-complete.json and three local
 OCR adapters in batch87/frozen-local-ocr-adapters-complete.json. Continue remaining July
+identities, 560-page accounting, cover verification and standalone JSON/assets closeout.
+Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain
+explicit limits. No automatic CD3 association, reader rebuild or deployment.
+
+July batch 96 reconciles hardware 0067 and tool-review 0060 as two complete non-owning
+families. PnP 0068 and CD-ROM 0069 own PDF 521–527 and 529–535; CCC/Manager 0061 and
+CodeView 0062 own PDF 481–487 and 489–494. The four complete article packages retain
+27 distinct source pages, 543 regions, 462 blocks, 25 original figures and 518 OCR
+outcomes. All 2,183 package files remain unchanged. Neither group receives an article
+body, source author, inherited folio or restoration package. PDF 488 and 528 remain
+outside these article extents; whole-issue page accounting is still separate.
+
+Four selected classification files reproduce independently and in a fresh process.
+Seventy package-local ranges preserve the titles, authors, opening, ending, editor
+and series contexts: 37 hardware and 33 tool-review occurrences. Sixty-two external
+status resolutions complete the two families while preserving original pending flags:
+33 hardware and 29 tool-review resolutions. The original classification crops remain
+pixel-exact, with 25 reused crops across the two evidence sets. Source authors 박현철,
+정용주, 박진성 and 이상훈 remain distinct from their editors. The tool articles' literal
+프로그래밍포럼 continuation banner does not rewrite their canonical OS·애플리케이션 포럼
+ancestry. Historical claims, glyph uncertainties and assistant-review limits remain.
+
+All 64 invalid ownership, hierarchy, source-range, completion and disposition cases
+reject. All 86,530 prior July files, thirty core modules, 26 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and 81 previous classification
+pins remain exact. The unchanged fresh 214-test batch 95 baseline is reused. Two canonical
+tasks, zero new mapped pages, zero outside source lookups, zero OCR and zero source
+correction passes stay within limits. Four new classification pins bring the required
+closeout inventory to 85. Only group entries 0060/0067 receive completion dispositions;
+all article outcomes and ancestor 0059 remain unchanged.
+
+Totals remain 38 readable articles, zero partials, fourteen groups, seventeen references
+and 34 unresolved identities. Forum 0059 still includes unresolved library family 0070–0092;
+this checkpoint does not complete that forum or the July issue.
+
+Next: reconcile Windows subgroup 0052 and its serials ancestor 0051 from the five complete
+articles 0053–0057, as two bounded classification tasks. Then reconcile programming forum 0043
+from its completed children and inspect the remaining library heading 0070 with source evidence
+before deciding bundle/subtopic ownership. Preserve 85 classification pins, 26 frozen assembly
+adapters from batch 95 and three local OCR adapters from batch 87. Continue remaining July
 identities, 560-page accounting, cover verification and standalone JSON/assets closeout.
 Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain
 explicit limits. No automatic CD3 association, reader rebuild or deployment.

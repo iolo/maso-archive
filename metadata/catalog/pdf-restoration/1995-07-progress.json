@@ -2,7 +2,7 @@
   "schema_version": 1,
   "issue_id": "maso-1995-07",
   "status": "in-progress",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "source": {
     "id": "pdf-maso-9507",
     "path": "maso-pdf/maso-9507.pdf",
@@ -8176,7 +8176,8 @@
       "availability": "not-applicable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "July batch 74 classifies OS·애플리케이션 포럼0059 and 툴리뷰0060 as non-owning\ncanonical groups. Heading0059 retains five direct children and 33 descendants;0060\nretains its two article children0061/0062. Neither heading receives a body, article\npackage, source author or inherited folio. The other 32 descendant outcomes under0059\nremain unresolved, including uncertain bundle/subtopic kinds. Classification does not\ncomplete either family, and all original canonical titles and parent links remain.\n\nThe directly reviewed CCC/Manager opening is PDF481/printed472, with source author\n박진성;CodeView opens489/480, with source author 이상훈. Both carry 툴리뷰. The CCC/Manager\ncontinuation482/473 instead carries 프로그래밍포럼. This printed banner differs from the\ncanonical OS·애플리케이션 포럼 label and remains literal without reparenting either article.\nNo standalone canonical OS banner was observed in these five reviewed pages;this is not\na whole-issue absence claim. Prior xBase ending479 and advertisement480 remain excluded.\nNeither article's full extent is established by the later opening.\n\nAll fifteen selected r02, independent and fresh-process classification files match.\nTwelve classification crops are pixel-exact across three mapped evidence pages;two\nadditional boundary pages are lookups. A retained pre-export map revision widens the\nCCC title's right margin and records bracket spacing after visual review. One retained\nmetadata revision clarifies that the two tool-review articles are included in the 32\nunresolved descendants, not additional to them. All source readings, pixels, structured\nhierarchy and group semantics remain unchanged between exports. Original r01 is retained.\nNo OCR, recognition retries, body transcription or source correction pass was required.\n\nAll 54 invalid cases reject. All 69,283 earlier July files, thirty core modules, twenty\nfrozen assembly adapters, the local batch72 OCR adapter and 72 earlier classification\npins remain exact. The unchanged fresh 214-test batch73 baseline is reused. Three new\nclassification pins bring the issue requirement to 75. Totals: 31 readable articles,\nzero partials, twelve groups, seventeen references and 43 unresolved identities.\n\nNext: verify article0061 CCC/Manager complete source extent from observed PDF481/printed472 opening and482/473 continuation. CodeView0062 opens489/480,but that alone does not establish0061 ending. Review the boundary and interior continuity,then restore an opening native of at most six newly mapped pages. Preserve source author 박진성,the literal 프로그래밍포럼 continuation banner and canonical OS·애플리케이션 포럼 hierarchy. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Groups0051/0052,forum0043 and the new0059/0060 families require separate reconciliation. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance and exact source bytes remain explicit limits. No automatic CD3 association,reader rebuild or deployment.\n"
+        "July batch 74 classifies OS·애플리케이션 포럼0059 and 툴리뷰0060 as non-owning\ncanonical groups. Heading0059 retains five direct children and 33 descendants;0060\nretains its two article children0061/0062. Neither heading receives a body, article\npackage, source author or inherited folio. The other 32 descendant outcomes under0059\nremain unresolved, including uncertain bundle/subtopic kinds. Classification does not\ncomplete either family, and all original canonical titles and parent links remain.\n\nThe directly reviewed CCC/Manager opening is PDF481/printed472, with source author\n박진성;CodeView opens489/480, with source author 이상훈. Both carry 툴리뷰. The CCC/Manager\ncontinuation482/473 instead carries 프로그래밍포럼. This printed banner differs from the\ncanonical OS·애플리케이션 포럼 label and remains literal without reparenting either article.\nNo standalone canonical OS banner was observed in these five reviewed pages;this is not\na whole-issue absence claim. Prior xBase ending479 and advertisement480 remain excluded.\nNeither article's full extent is established by the later opening.\n\nAll fifteen selected r02, independent and fresh-process classification files match.\nTwelve classification crops are pixel-exact across three mapped evidence pages;two\nadditional boundary pages are lookups. A retained pre-export map revision widens the\nCCC title's right margin and records bracket spacing after visual review. One retained\nmetadata revision clarifies that the two tool-review articles are included in the 32\nunresolved descendants, not additional to them. All source readings, pixels, structured\nhierarchy and group semantics remain unchanged between exports. Original r01 is retained.\nNo OCR, recognition retries, body transcription or source correction pass was required.\n\nAll 54 invalid cases reject. All 69,283 earlier July files, thirty core modules, twenty\nfrozen assembly adapters, the local batch72 OCR adapter and 72 earlier classification\npins remain exact. The unchanged fresh 214-test batch73 baseline is reused. Three new\nclassification pins bring the issue requirement to 75. Totals: 31 readable articles,\nzero partials, twelve groups, seventeen references and 43 unresolved identities.\n\nNext: verify article0061 CCC/Manager complete source extent from observed PDF481/printed472 opening and482/473 continuation. CodeView0062 opens489/480,but that alone does not establish0061 ending. Review the boundary and interior continuity,then restore an opening native of at most six newly mapped pages. Preserve source author 박진성,the literal 프로그래밍포럼 continuation banner and canonical OS·애플리케이션 포럼 hierarchy. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Groups0051/0052,forum0043 and the new0059/0060 families require separate reconciliation. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance and exact source bytes remain explicit limits. No automatic CD3 association,reader rebuild or deployment.\n",
+        "July batch 96 reconciles hardware 0067 and tool-review 0060 as two complete non-owning\nfamilies. PnP 0068 and CD-ROM 0069 own PDF 521–527 and 529–535; CCC/Manager 0061 and\nCodeView 0062 own PDF 481–487 and 489–494. The four complete article packages retain\n27 distinct source pages, 543 regions, 462 blocks, 25 original figures and 518 OCR\noutcomes. All 2,183 package files remain unchanged. Neither group receives an article\nbody, source author, inherited folio or restoration package. PDF 488 and 528 remain\noutside these article extents; whole-issue page accounting is still separate.\n\nFour selected classification files reproduce independently and in a fresh process.\nSeventy package-local ranges preserve the titles, authors, opening, ending, editor\nand series contexts: 37 hardware and 33 tool-review occurrences. Sixty-two external\nstatus resolutions complete the two families while preserving original pending flags:\n33 hardware and 29 tool-review resolutions. The original classification crops remain\npixel-exact, with 25 reused crops across the two evidence sets. Source authors 박현철,\n정용주, 박진성 and 이상훈 remain distinct from their editors. The tool articles' literal\n프로그래밍포럼 continuation banner does not rewrite their canonical OS·애플리케이션 포럼\nancestry. Historical claims, glyph uncertainties and assistant-review limits remain.\n\nAll 64 invalid ownership, hierarchy, source-range, completion and disposition cases\nreject. All 86,530 prior July files, thirty core modules, 26 frozen assembly adapters,\nthree local OCR adapters, the batch76 figure builder and 81 previous classification\npins remain exact. The unchanged fresh 214-test batch 95 baseline is reused. Two canonical\ntasks, zero new mapped pages, zero outside source lookups, zero OCR and zero source\ncorrection passes stay within limits. Four new classification pins bring the required\ncloseout inventory to 85. Only group entries 0060/0067 receive completion dispositions;\nall article outcomes and ancestor 0059 remain unchanged.\n\nTotals remain 38 readable articles, zero partials, fourteen groups, seventeen references\nand 34 unresolved identities. Forum 0059 still includes unresolved library family 0070–0092;\nthis checkpoint does not complete that forum or the July issue.\n\nNext: reconcile Windows subgroup 0052 and its serials ancestor 0051 from the five complete\narticles 0053–0057, as two bounded classification tasks. Then reconcile programming forum 0043\nfrom its completed children and inspect the remaining library heading 0070 with source evidence\nbefore deciding bundle/subtopic ownership. Preserve 85 classification pins, 26 frozen assembly\nadapters from batch 95 and three local OCR adapters from batch 87. Continue remaining July\nidentities, 560-page accounting, cover verification and standalone JSON/assets closeout.\nIncomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain\nexplicit limits. No automatic CD3 association, reader rebuild or deployment.\n"
       ],
       "restoration": null,
       "group_reference": {
@@ -8191,7 +8192,32 @@
           "bytes": 1426
         },
         "canonical_page_reference": null,
-        "owns_standalone_body": false
+        "owns_standalone_body": false,
+        "completion_disposition": {
+          "child_restorations_complete": true,
+          "descendant_outcomes_complete": true,
+          "status": {
+            "path": "archive/pdf/1995-07/classifications/batch-96-r01/status-0060.json",
+            "sha256": "7d8d46960d5393553b0794454d3121ab25378bc981a5193460581ad64815389b",
+            "bytes": 17188
+          },
+          "family_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-96-r01/family-0060.json",
+            "sha256": "b1132fc34fc93409f9da37fbc691ae3ae033e496d19439abf2ba354ad57bf7ce",
+            "bytes": 225351
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-96/validation.json",
+            "sha256": "923eeca5a17b342db6489168772266db32b7ddc27146581ab62a525431fed6fb",
+            "bytes": 1175
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-96/reproduction.json",
+            "sha256": "ccc332206932fdf495f16d40fa102cf77ae91be22d2a404556378a570c665d32",
+            "bytes": 1389
+          },
+          "checkpoint": "batch-96"
+        }
       }
     },
     {
@@ -9462,7 +9488,8 @@
       "availability": "not-applicable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "July batch 89 reconciles operating-system group 0064 and classifies hardware heading\n0067 as two bounded canonical tasks. Operating-system children Windows95 0065 and\nWindows NT 0066 are complete and readable across PDF 503–519 / printed 494–510.\nTheir 17 distinct pages retain 290 regions, 253 blocks, nine original figures and\n281 OCR outcomes. All 1,185 package files remain unchanged. Forty-two package-local\nsource ranges preserve the separate titles, credits, opening and ending contexts.\nSource 김효준 and 프로그램 개발 환경 remain distinct from canonical 김훈 and\n프로그래밍 환경; the NT authors and separate editors retain their original roles.\n\nA new family-ownership record and 38 external status resolutions complete group 0064's\ndescendant outcomes. Original batch82 classification and immutable article metadata\nretain their historical pending flags. The group still owns no body, folio or article\npackage. Forum 0059 and the other pending families are not completed by this decision.\n\nHardware 0067 is a non-owning, pageless group under 0059 with two pending children.\nPnP 0068 opens at PDF 521 / printed 512, source author 박현철(미국 와이즈 넷 연구원),\nand continues on 522 / 513 under 하드웨어. CD-ROM 0069 opens at 529 / 520, source author\n정용주(기아시스템), under the same hardware and forum headings. The later opening does\nnot establish the PnP ending or either article's full extent. NT's listing and cartoon\nend on 519; the full-page advertisement on 520 remains outside both families.\n\nAll 17 selected, independent and fresh-process classification files match. Thirteen\nclassification crops are pixel-exact across three mapped pages; four additional pages\nare source lookups. All 53 invalid cases reject. One map, no crop revisions, no OCR,\nno article-body transcription and no source correction. The unchanged fresh 214-test\nbatch88 baseline is reused. All 80,223 earlier July files, thirty core modules,\n24 assembly adapters, three local OCR adapters, the batch76 figure builder and 77\nprior classification pins remain exact. Four new classification pins bring the total\nto 81. Only group entries 0064 and 0067 change; all article outcomes remain unchanged.\nTotals: 36 readable articles, zero partials, fourteen groups, seventeen references and\n36 unresolved identities. Whole July restoration remains in progress.\n\nNext: verify PnP article 0068 from its observed PDF 521 / printed 512 opening and\n522 / 513 continuation. Establish its actual ending and interior continuity before\nmapping an opening native of at most six pages. CD-ROM 0069 opens at 529 / 520, but\nthis boundary alone does not prove the PnP extent. Preserve source author 박현철,\nthe PC 95[1] series and the canonical hardware/forum hierarchy. Reuse the seven saved\nclassification views and retain 81 classification pins, 24 frozen assembly adapters,\nthree local OCR adapters and the batch76 figure builder. Hardware 0067, forum 0059,\ntool-review 0060, groups 0051/0052 and forum 0043 still need their appropriate family\nreconciliation. Continue the remaining July identities, 560-page accounting, cover\nand standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading,\nhuman acceptance, exact original encoded bytes and execution remain explicit limits.\nNo automatic CD3 association, reader rebuild or deployment.\n"
+        "July batch 89 reconciles operating-system group 0064 and classifies hardware heading\n0067 as two bounded canonical tasks. Operating-system children Windows95 0065 and\nWindows NT 0066 are complete and readable across PDF 503–519 / printed 494–510.\nTheir 17 distinct pages retain 290 regions, 253 blocks, nine original figures and\n281 OCR outcomes. All 1,185 package files remain unchanged. Forty-two package-local\nsource ranges preserve the separate titles, credits, opening and ending contexts.\nSource 김효준 and 프로그램 개발 환경 remain distinct from canonical 김훈 and\n프로그래밍 환경; the NT authors and separate editors retain their original roles.\n\nA new family-ownership record and 38 external status resolutions complete group 0064's\ndescendant outcomes. Original batch82 classification and immutable article metadata\nretain their historical pending flags. The group still owns no body, folio or article\npackage. Forum 0059 and the other pending families are not completed by this decision.\n\nHardware 0067 is a non-owning, pageless group under 0059 with two pending children.\nPnP 0068 opens at PDF 521 / printed 512, source author 박현철(미국 와이즈 넷 연구원),\nand continues on 522 / 513 under 하드웨어. CD-ROM 0069 opens at 529 / 520, source author\n정용주(기아시스템), under the same hardware and forum headings. The later opening does\nnot establish the PnP ending or either article's full extent. NT's listing and cartoon\nend on 519; the full-page advertisement on 520 remains outside both families.\n\nAll 17 selected, independent and fresh-process classification files match. Thirteen\nclassification crops are pixel-exact across three mapped pages; four additional pages\nare source lookups. All 53 invalid cases reject. One map, no crop revisions, no OCR,\nno article-body transcription and no source correction. The unchanged fresh 214-test\nbatch88 baseline is reused. All 80,223 earlier July files, thirty core modules,\n24 assembly adapters, three local OCR adapters, the batch76 figure builder and 77\nprior classification pins remain exact. Four new classification pins bring the total\nto 81. Only group entries 0064 and 0067 change; all article outcomes remain unchanged.\nTotals: 36 readable articles, zero partials, fourteen groups, seventeen references and\n36 unresolved identities. Whole July restoration remains in progress.\n\nNext: verify PnP article 0068 from its observed PDF 521 / printed 512 opening and\n522 / 513 continuation. Establish its actual ending and interior continuity before\nmapping an opening native of at most six pages. CD-ROM 0069 opens at 529 / 520, but\nthis boundary alone does not prove the PnP extent. Preserve source author 박현철,\nthe PC 95[1] series and the canonical hardware/forum hierarchy. Reuse the seven saved\nclassification views and retain 81 classification pins, 24 frozen assembly adapters,\nthree local OCR adapters and the batch76 figure builder. Hardware 0067, forum 0059,\ntool-review 0060, groups 0051/0052 and forum 0043 still need their appropriate family\nreconciliation. Continue the remaining July identities, 560-page accounting, cover\nand standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading,\nhuman acceptance, exact original encoded bytes and execution remain explicit limits.\nNo automatic CD3 association, reader rebuild or deployment.\n",
+        "July batch 96 reconciles hardware 0067 and tool-review 0060 as two complete non-owning\nfamilies. PnP 0068 and CD-ROM 0069 own PDF 521–527 and 529–535; CCC/Manager 0061 and\nCodeView 0062 own PDF 481–487 and 489–494. The four complete article packages retain\n27 distinct source pages, 543 regions, 462 blocks, 25 original figures and 518 OCR\noutcomes. All 2,183 package files remain unchanged. Neither group receives an article\nbody, source author, inherited folio or restoration package. PDF 488 and 528 remain\noutside these article extents; whole-issue page accounting is still separate.\n\nFour selected classification files reproduce independently and in a fresh process.\nSeventy package-local ranges preserve the titles, authors, opening, ending, editor\nand series contexts: 37 hardware and 33 tool-review occurrences. Sixty-two external\nstatus resolutions complete the two families while preserving original pending flags:\n33 hardware and 29 tool-review resolutions. The original classification crops remain\npixel-exact, with 25 reused crops across the two evidence sets. Source authors 박현철,\n정용주, 박진성 and 이상훈 remain distinct from their editors. The tool articles' literal\n프로그래밍포럼 continuation banner does not rewrite their canonical OS·애플리케이션 포럼\nancestry. Historical claims, glyph uncertainties and assistant-review limits remain.\n\nAll 64 invalid ownership, hierarchy, source-range, completion and disposition cases\nreject. All 86,530 prior July files, thirty core modules, 26 frozen assembly adapters,\nthree local OCR adapters, the batch76 figure builder and 81 previous classification\npins remain exact. The unchanged fresh 214-test batch 95 baseline is reused. Two canonical\ntasks, zero new mapped pages, zero outside source lookups, zero OCR and zero source\ncorrection passes stay within limits. Four new classification pins bring the required\ncloseout inventory to 85. Only group entries 0060/0067 receive completion dispositions;\nall article outcomes and ancestor 0059 remain unchanged.\n\nTotals remain 38 readable articles, zero partials, fourteen groups, seventeen references\nand 34 unresolved identities. Forum 0059 still includes unresolved library family 0070–0092;\nthis checkpoint does not complete that forum or the July issue.\n\nNext: reconcile Windows subgroup 0052 and its serials ancestor 0051 from the five complete\narticles 0053–0057, as two bounded classification tasks. Then reconcile programming forum 0043\nfrom its completed children and inspect the remaining library heading 0070 with source evidence\nbefore deciding bundle/subtopic ownership. Preserve 85 classification pins, 26 frozen assembly\nadapters from batch 95 and three local OCR adapters from batch 87. Continue remaining July\nidentities, 560-page accounting, cover verification and standalone JSON/assets closeout.\nIncomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain\nexplicit limits. No automatic CD3 association, reader rebuild or deployment.\n"
       ],
       "restoration": null,
       "group_reference": {
@@ -9477,7 +9504,32 @@
           "bytes": 1398
         },
         "canonical_page_reference": null,
-        "owns_standalone_body": false
+        "owns_standalone_body": false,
+        "completion_disposition": {
+          "child_restorations_complete": true,
+          "descendant_outcomes_complete": true,
+          "status": {
+            "path": "archive/pdf/1995-07/classifications/batch-96-r01/status-0067.json",
+            "sha256": "e4bb6758bd46c3f4e9411429a611357a9c05fa07f002ba25b221339c812cc514",
+            "bytes": 19353
+          },
+          "family_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-96-r01/family-0067.json",
+            "sha256": "39507492d69992e788e57ed5bbfb43a607592440fc5201d632bc972082d28219",
+            "bytes": 369232
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-96/validation.json",
+            "sha256": "923eeca5a17b342db6489168772266db32b7ddc27146581ab62a525431fed6fb",
+            "bytes": 1175
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-96/reproduction.json",
+            "sha256": "ccc332206932fdf495f16d40fa102cf77ae91be22d2a404556378a570c665d32",
+            "bytes": 1389
+          },
+          "checkpoint": "batch-96"
+        }
       }
     },
     {
@@ -14189,6 +14241,34 @@
         "sha256": "13ed18c92dded31656c79ae871cd57a7c73303726ea8b456e77676f7dbda2965",
         "bytes": 116955
       }
+    },
+    {
+      "name": "1995-07-batch-96",
+      "status": "complete",
+      "completed_at": "2026-11-07T15:03:24.256080+00:00",
+      "goal": "Reconcile hardware0067 and tool-review0060 from four complete article owners, without changing original group evidence or completing ancestor0059.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0067",
+        "maso-1995-07-toc-0060"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-96/validation.json",
+        "sha256": "923eeca5a17b342db6489168772266db32b7ddc27146581ab62a525431fed6fb",
+        "bytes": 1175
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-96/reproduction.json",
+        "sha256": "ccc332206932fdf495f16d40fa102cf77ae91be22d2a404556378a570c665d32",
+        "bytes": 1389
+      }
     }
   ],
   "totals": {
@@ -14204,7 +14284,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: reconcile hardware group0067 from complete PnP0068 and CD-ROM0069, then the appropriate\npending families under0059/0060,0051/0052 and forum0043 in bounded classification checkpoints.\nPreserve all original group evidence, canonical hierarchy and the 81 classification pins.\nRetain all 26 frozen assembly adapters in batch95/frozen-adapters-complete.json and three local\nOCR adapters in batch87/frozen-local-ocr-adapters-complete.json. Continue remaining July\nidentities, 560-page accounting, cover verification and standalone JSON/assets closeout.\nIncomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain\nexplicit limits. No automatic CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: reconcile Windows subgroup 0052 and its serials ancestor 0051 from the five complete\narticles 0053–0057, as two bounded classification tasks. Then reconcile programming forum 0043\nfrom its completed children and inspect the remaining library heading 0070 with source evidence\nbefore deciding bundle/subtopic ownership. Preserve 85 classification pins, 26 frozen assembly\nadapters from batch 95 and three local OCR adapters from batch 87. Continue remaining July\nidentities, 560-page accounting, cover verification and standalone JSON/assets closeout.\nIncomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain\nexplicit limits. No automatic CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -14610,6 +14690,26 @@
       "path": "archive/pdf/1995-07/classifications/batch-89-r01/group-status-dispositions.json",
       "sha256": "efa693808a0ebd4e57ee6e7deb054e7632870eb23a9de445c0aacb917dd71817",
       "bytes": 21482
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-96-r01/family-0067.json",
+      "sha256": "39507492d69992e788e57ed5bbfb43a607592440fc5201d632bc972082d28219",
+      "bytes": 369232
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-96-r01/status-0067.json",
+      "sha256": "e4bb6758bd46c3f4e9411429a611357a9c05fa07f002ba25b221339c812cc514",
+      "bytes": 19353
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-96-r01/family-0060.json",
+      "sha256": "b1132fc34fc93409f9da37fbc691ae3ae033e496d19439abf2ba354ad57bf7ce",
+      "bytes": 225351
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-96-r01/status-0060.json",
+      "sha256": "7d8d46960d5393553b0794454d3121ab25378bc981a5193460581ad64815389b",
+      "bytes": 17188
     }
   ]
 }
