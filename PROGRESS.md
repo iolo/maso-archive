@@ -10664,3 +10664,48 @@ and standalone JSON/assets closeout remain required. Preserve all 122 classifica
 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87.
 Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes
 remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
+
+July batch 118 completes library 0070 (마소 열람실) reconciliation under forum 0059.
+Its seven direct article owners 0071,0077,0083,0084,0088,0091,0092 are readable across
+26 distinct PDF pages 185–210 / printed 174–199. All twenty-two descendants are final:
+seven articles and fifteen non-owning references. Library0070 remains a pageless heading
+with no separate body, inherited folio, byline or cross-article join. Forum0059 completion
+is not inferred from this subgroup checkpoint.
+
+Two classification files reproduce independently and in a fresh process. All 2,398 files
+in seven immutable article packages remain exact: 634 regions, 478 blocks, 70 figures and
+564 original OCR outcomes. The audit checks 34 leaf-context ranges and 3,516 reference
+range occurrences against the correct parent text, blocks, regional bounds and scans.
+Four completed article partitions account exhaustively for their regions, blocks and
+figures. Seven uncatalogued notices remain parent-owned within public software and CD
+articles; no additional canonical identities or duplicate bodies are created. Commercial
+source order 0072,0073,0076,0074,0075 and hardware source order 0090,0089 remain distinct
+from canonical child order. All fifteen anchors and parent manifests validate.
+
+Seventy-one external resolutions record current library completion while preserving every
+original pending flag, source value and package. Original group 0070's child outcomes and
+pending descendants, historical article gap notes, commercial native-status summaries and
+the four article families' library flags receive exact source-file/JSON-pointer dispositions.
+Forum0059 and whole July remain incomplete; original uncertainty and source/canonical
+wording distinctions remain active. Five original heading-evidence crops remain pixel exact.
+All 41 invalid cases reject, including duplicate bodies, wrong anchors or owner ranges,
+missing partitions, altered historical values and premature ancestor completion.
+
+One canonical task, zero new mapped pages, zero outside lookups, zero OCR and zero source
+correction passes. All 95,959 earlier July files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters, the batch 76 figure builder and 122 prior classification
+pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused. Two new
+required classification pins bring the total to 124. Totals remain 45 readable articles,
+zero partials, fifteen groups,32 references and eleven unresolved identities across 118
+completed checkpoints. Whole July restoration remains incomplete.
+
+Next: reconcile forum 0059 against its completed direct children, nested groups, article
+owners and final references in a bounded checkpoint,including library 0070's batch 118
+completion records. Preserve immutable packages and historical flags. Then continue
+unresolved reader-board 0093 and children 0094–0098, survey 0099 and children 0100–0102, and
+video appendix 0103. Verify source extent and eligibility independently. Whole 560-page
+accounting, cover verification and standalone JSON/assets closeout remain required.
+Preserve all 124 classification pins, 27 frozen assembly adapters from batch 101 and three
+local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human
+acceptance and original encoded bytes remain explicit limits. No inferred CD3 association,
+reader rebuild or deployment.

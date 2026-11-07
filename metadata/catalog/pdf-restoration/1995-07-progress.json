@@ -10146,7 +10146,8 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "July batch 99 completes the non-owning library heading 0070, 마소 열람실, and preserves commercial-software bundle 0071, 상용 소프트웨어, opening PDF 185–190 / printed 174–179 as an immutable partial native. The verified full bundle spans PDF 185–192 / printed 174–181. Final 191–192 and actual parent assembly remain separate checkpoints. The saved mapping/OCR-stage record above is historical; source correction and opening export are now complete.",
-        "Seven classification files reproduce independently and in a fresh process. Five already mapped source crops establish the library heading without adding source pages. Its seven direct children and 22 descendants retain their canonical identities; the heading owns no body or inherited folio, and family completion remains pending. Only entries 0070 and 0071 change. Totals are 38 readable articles, one partial, fifteen groups, seventeen references and 32 unresolved identities; 99 checkpoints are complete."
+        "Seven classification files reproduce independently and in a fresh process. Five already mapped source crops establish the library heading without adding source pages. Its seven direct children and 22 descendants retain their canonical identities; the heading owns no body or inherited folio, and family completion remains pending. Only entries 0070 and 0071 change. Totals are 38 readable articles, one partial, fifteen groups, seventeen references and 32 unresolved identities; 99 checkpoints are complete.",
+        "July batch 118 completes library 0070 (마소 열람실) reconciliation under forum 0059.\nIts seven direct article owners 0071,0077,0083,0084,0088,0091,0092 are readable across\n26 distinct PDF pages 185–210 / printed 174–199. All twenty-two descendants are final:\nseven articles and fifteen non-owning references. Library0070 remains a pageless heading\nwith no separate body, inherited folio, byline or cross-article join. Forum0059 completion\nis not inferred from this subgroup checkpoint.\n\nTwo classification files reproduce independently and in a fresh process. All 2,398 files\nin seven immutable article packages remain exact: 634 regions, 478 blocks, 70 figures and\n564 original OCR outcomes. The audit checks 34 leaf-context ranges and 3,516 reference\nrange occurrences against the correct parent text, blocks, regional bounds and scans.\nFour completed article partitions account exhaustively for their regions, blocks and\nfigures. Seven uncatalogued notices remain parent-owned within public software and CD\narticles; no additional canonical identities or duplicate bodies are created. Commercial\nsource order 0072,0073,0076,0074,0075 and hardware source order 0090,0089 remain distinct\nfrom canonical child order. All fifteen anchors and parent manifests validate.\n\nSeventy-one external resolutions record current library completion while preserving every\noriginal pending flag, source value and package. Original group 0070's child outcomes and\npending descendants, historical article gap notes, commercial native-status summaries and\nthe four article families' library flags receive exact source-file/JSON-pointer dispositions.\nForum0059 and whole July remain incomplete; original uncertainty and source/canonical\nwording distinctions remain active. Five original heading-evidence crops remain pixel exact.\nAll 41 invalid cases reject, including duplicate bodies, wrong anchors or owner ranges,\nmissing partitions, altered historical values and premature ancestor completion.\n\nOne canonical task, zero new mapped pages, zero outside lookups, zero OCR and zero source\ncorrection passes. All 95,959 earlier July files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters, the batch 76 figure builder and 122 prior classification\npins remain exact. The unchanged fresh 214-test batch 101 baseline is reused. Two new\nrequired classification pins bring the total to 124. Totals remain 45 readable articles,\nzero partials, fifteen groups,32 references and eleven unresolved identities across 118\ncompleted checkpoints. Whole July restoration remains incomplete.\n\nNext: reconcile forum 0059 against its completed direct children, nested groups, article\nowners and final references in a bounded checkpoint,including library 0070's batch 118\ncompletion records. Preserve immutable packages and historical flags. Then continue\nunresolved reader-board 0093 and children 0094–0098, survey 0099 and children 0100–0102, and\nvideo appendix 0103. Verify source extent and eligibility independently. Whole 560-page\naccounting, cover verification and standalone JSON/assets closeout remain required.\nPreserve all 124 classification pins, 27 frozen assembly adapters from batch 101 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.\n"
       ],
       "restoration": null,
       "group_reference": {
@@ -10161,7 +10162,32 @@
           "bytes": 4564
         },
         "canonical_page_reference": null,
-        "owns_standalone_body": false
+        "owns_standalone_body": false,
+        "completion_disposition": {
+          "child_restorations_complete": true,
+          "descendant_outcomes_complete": true,
+          "status": {
+            "path": "archive/pdf/1995-07/classifications/batch-118-r01/group-status-dispositions.json",
+            "sha256": "0454f48d3b7563ca8be75568465173b30c915760d89783749c39a42eca3a8188",
+            "bytes": 40061
+          },
+          "family_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-118-r01/family-ownership.json",
+            "sha256": "d5da35c59aa8d8384192a354293f7b749b1e895a65e2f3f3c8646772ce6e9aa5",
+            "bytes": 174057
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-118/validation.json",
+            "sha256": "84801d14575025f13557a12950dc35e94c36f4f79a5f264c0d490ee2b9f54e3d",
+            "bytes": 1332
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-118/reproduction.json",
+            "sha256": "8b347dea4a62f0711a5262bd29098761e42e84ee84956fed189574e2b201929e",
+            "bytes": 1108
+          },
+          "checkpoint": "batch-118"
+        }
       }
     },
     {
@@ -16568,6 +16594,33 @@
         "sha256": "7144f328aa0699c04bc529f41e8f049bca860f177023aa171b86d502da382ba0",
         "bytes": 29839
       }
+    },
+    {
+      "name": "1995-07-batch-118",
+      "status": "complete",
+      "completed_at": "2026-11-07T19:48:35.003953+00:00",
+      "goal": "Reconcile library0070 from seven direct article owners,fifteen final references and four completed article partitions. Forum0059 and whole July remain incomplete.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0070"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-118/validation.json",
+        "sha256": "84801d14575025f13557a12950dc35e94c36f4f79a5f264c0d490ee2b9f54e3d",
+        "bytes": 1332
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-118/reproduction.json",
+        "sha256": "8b347dea4a62f0711a5262bd29098761e42e84ee84956fed189574e2b201929e",
+        "bytes": 1108
+      }
     }
   ],
   "totals": {
@@ -16583,7 +16636,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: reconcile library 0070 against its seven complete direct article owners and final nested references, preserving all immutable packages and historical pending flags. Then reconcile forum 0059 in a bounded checkpoint. Continue unresolved reader-board 0093 and children 0094–0098, survey 0099 and children 0100–0102, and video appendix 0103. Verify each source extent and eligibility independently. Whole 560-page accounting, cover verification and standalone JSON/assets closeout remain required. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: reconcile forum 0059 against its completed direct children, nested groups, article\nowners and final references in a bounded checkpoint,including library 0070's batch 118\ncompletion records. Preserve immutable packages and historical flags. Then continue\nunresolved reader-board 0093 and children 0094–0098, survey 0099 and children 0100–0102, and\nvideo appendix 0103. Verify source extent and eligibility independently. Whole 560-page\naccounting, cover verification and standalone JSON/assets closeout remain required.\nPreserve all 124 classification pins, 27 frozen assembly adapters from batch 101 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -17194,6 +17247,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-115-r01/family-partition.json",
       "sha256": "fb9c429163df337d723fb6715bfd8b46ecb012ecc1a495c33031b41e4a4689c1",
       "bytes": 23375
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-118-r01/family-ownership.json",
+      "sha256": "d5da35c59aa8d8384192a354293f7b749b1e895a65e2f3f3c8646772ce6e9aa5",
+      "bytes": 174057
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-118-r01/group-status-dispositions.json",
+      "sha256": "0454f48d3b7563ca8be75568465173b30c915760d89783749c39a42eca3a8188",
+      "bytes": 40061
     }
   ]
 }
