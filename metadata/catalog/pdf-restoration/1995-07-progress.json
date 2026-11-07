@@ -4654,7 +4654,8 @@
       "classification_evidence": [
         "Canonical parent 원리구현0044 retains two direct children0045/0046 and five descendants0045–0049. Original banners333/335 accompany separately titled and credited article0045;whole-page341 lookup observes descendant0047 under the same banner. No standalone heading body or inherited descendant folio.",
         "Four classification files reproduce independently and in a fresh process. Two exact banner crops reuse the six mapped article pages;thirteen invalid hierarchy/ownership cases reject. Null canonical page and original hierarchy remain unchanged.",
-        "Game0045 is partial on333–338 with verified full extent333–340. Family0046–0049 remains unresolved;the classification does not complete the family. Incomplete donated TOCs and assistant-review limits remain explicit."
+        "Game0045 is partial on333–338 with verified full extent333–340. Family0046–0049 remains unresolved;the classification does not complete the family. Incomplete donated TOCs and assistant-review limits remain explicit.",
+        "July batch 52 completes external reconciliation of ancestor0044, 원리구현.\nIts two direct children and five descendants are complete: game0045 and non-owning\nsubgroup0046, whose socket0047, WinG0048 and curves0049 articles remain separate.\nFour unchanged article records own forty distinct PDF pages: 333–340, 341–352,\n353–365 and 367–373. PDF366 remains outside their bodies; its prior review records\nadvertising. This family reconciliation does not replace whole-issue page accounting.\nNeither heading receives an article body, inherited folio or duplicate text.\n\nTwo external classification files reproduce independently and in a fresh process.\nAll thirteen current title/credit ranges and thirteen original-native ranges validate.\nNine external field resolutions, eleven inherited resolutions, twenty historical\nnotes and eight article-gap notes preserve the original declarations unchanged.\nGroup extent completion explicitly means its descendant outcomes are complete.\nForum0043 remains incomplete, with its other direct children0050,0051 and0058 pending.\nAll 57 invalid cases reject. All 42,579 earlier July files, thirty core modules,\nfourteen frozen adapters and 67 previous classification pins remain exact. The\nunchanged 214-test batch51 baseline is reused. One canonical task, zero mapped or\nlookup pages, no new OCR or source correction. There are now 69 classification pins.\nTotals remain twenty-four readable articles, zero partials, eight groups, seventeen\nreferences and 54 unresolved identities.\n\nNext: locate and verify article0050, C 파워 프로그래밍 : ODBC 기반 멀티미디어 데이터베이스 MDB,\nwith canonical authors 배성은 and 이기환 and printed opening394. PDF405 is only a\nsearch hypothesis from earlier folios, not an assigned page. Confirm its opening,\ncredits, interior continuity and ending directly, then restore at most six mapped\npages in one checkpoint. Keep the two-task and twenty outside-lookup limits.\nWhole July560-page accounting, cover and standalone JSON/assets closeout remain\npending. Incomplete donated TOCs, full proofreading, human acceptance, exact original\nencoded bytes and historical execution remain explicit limits. No automatic CD3\nassociation, reader rebuild or deployment.\n"
       ],
       "restoration": null,
       "group_reference": {
@@ -4674,7 +4675,32 @@
           "bytes": 1032
         },
         "canonical_page_reference": null,
-        "owns_standalone_body": false
+        "owns_standalone_body": false,
+        "completion_disposition": {
+          "child_restorations_complete": true,
+          "descendant_outcomes_complete": true,
+          "status": {
+            "path": "archive/pdf/1995-07/classifications/batch-52-r01/group-status-dispositions.json",
+            "sha256": "cc153fb6bcf5aae288736cdc0d4e08a12ab5867e3e38474a85451855d3ec49b2",
+            "bytes": 56018
+          },
+          "family_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-52-r01/family-ownership.json",
+            "sha256": "8e09e4bf1e21b439e19defae48a36c93f3a5c8b0139361e33bec941b45d99f8a",
+            "bytes": 45640
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-52/validation.json",
+            "sha256": "f64e72b04ee96ab75ede58927979b9fe5eead4409c0ee3be2121dad6a7c16eac",
+            "bytes": 1147
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-52/reproduction.json",
+            "sha256": "2a97696b2b9d386551ec370168a8e82d9724247202f2ee4286d4acc4b2b6f9ba",
+            "bytes": 985
+          },
+          "checkpoint": "batch-52"
+        }
       }
     },
     {
@@ -8737,6 +8763,38 @@
         "sha256": "ff82a232fb3efa32c5207cda4ba4ab7f671bdfbbf8d798b34d257f147e1a4194",
         "bytes": 19133
       }
+    },
+    {
+      "name": "1995-07-batch-52",
+      "status": "complete",
+      "completed_at": "2026-11-07T01:46:56.909110+00:00",
+      "goal": "Externally complete ancestor0044 using complete game0045 and subgroup0046;retain four separate article owners and pending forum0043 descendants.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0044"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-52/validation.json",
+        "sha256": "f64e72b04ee96ab75ede58927979b9fe5eead4409c0ee3be2121dad6a7c16eac",
+        "bytes": 1147
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-52/reproduction.json",
+        "sha256": "2a97696b2b9d386551ec370168a8e82d9724247202f2ee4286d4acc4b2b6f9ba",
+        "bytes": 985
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-52-r01/group-status-dispositions.json",
+        "sha256": "cc153fb6bcf5aae288736cdc0d4e08a12ab5867e3e38474a85451855d3ec49b2",
+        "bytes": 56018
+      }
     }
   ],
   "totals": {
@@ -8752,7 +8810,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Reconcile ancestor0044 from its complete direct article0045 and complete subgroup0046 using immutable descendant evidence. Do not complete forum0043,which has other pending descendants,or invent a group body. Then continue canonical0050 and remaining July identities within two canonical tasks,six mapped pages,twenty outside lookups per checkpoint. Preserve67 classification pins and14 frozen adapters,including batch51 curves_adapter.py. Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending;no automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Locate and verify article0050, C 파워 프로그래밍 : ODBC 기반 멀티미디어 데이터베이스 MDB, canonical authors 배성은 and 이기환, printed opening394. PDF405 is a search hypothesis from earlier folios,not an assigned location. Confirm opening,credits,interior continuity and ending directly;restore at most six mapped opening pages,then any remaining natives and actual assembly separately. At most two canonical tasks and twenty outside lookup pages. Forum0043 remains incomplete. Preserve69 classification pins,14 frozen adapters and all previous packages. Continue July identities,560-page accounting,cover and standalone JSON/assets closeout;no automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -9088,6 +9146,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-51-r01/family-ownership.json",
       "sha256": "5093126af94337164e59bd4692c63f3fd7751daaf081b369f8304d90de1a68be",
       "bytes": 25928
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-52-r01/group-status-dispositions.json",
+      "sha256": "cc153fb6bcf5aae288736cdc0d4e08a12ab5867e3e38474a85451855d3ec49b2",
+      "bytes": 56018
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-52-r01/family-ownership.json",
+      "sha256": "8e09e4bf1e21b439e19defae48a36c93f3a5c8b0139361e33bec941b45d99f8a",
+      "bytes": 45640
     }
   ]
 }

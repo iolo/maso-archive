@@ -1,5 +1,38 @@
 # Progress
 
+## 2026-11-07 — July ancestor0044 reconciliation
+
+July batch 52 completes external reconciliation of ancestor0044, 원리구현.
+Its two direct children and five descendants are complete: game0045 and non-owning
+subgroup0046, whose socket0047, WinG0048 and curves0049 articles remain separate.
+Four unchanged article records own forty distinct PDF pages: 333–340, 341–352,
+353–365 and 367–373. PDF366 remains outside their bodies; its prior review records
+advertising. This family reconciliation does not replace whole-issue page accounting.
+Neither heading receives an article body, inherited folio or duplicate text.
+
+Two external classification files reproduce independently and in a fresh process.
+All thirteen current title/credit ranges and thirteen original-native ranges validate.
+Nine external field resolutions, eleven inherited resolutions, twenty historical
+notes and eight article-gap notes preserve the original declarations unchanged.
+Group extent completion explicitly means its descendant outcomes are complete.
+Forum0043 remains incomplete, with its other direct children0050,0051 and0058 pending.
+All 57 invalid cases reject. All 42,579 earlier July files, thirty core modules,
+fourteen frozen adapters and 67 previous classification pins remain exact. The
+unchanged 214-test batch51 baseline is reused. One canonical task, zero mapped or
+lookup pages, no new OCR or source correction. There are now 69 classification pins.
+Totals remain twenty-four readable articles, zero partials, eight groups, seventeen
+references and 54 unresolved identities.
+
+Next: locate and verify article0050, C 파워 프로그래밍 : ODBC 기반 멀티미디어 데이터베이스 MDB,
+with canonical authors 배성은 and 이기환 and printed opening394. PDF405 is only a
+search hypothesis from earlier folios, not an assigned page. Confirm its opening,
+credits, interior continuity and ending directly, then restore at most six mapped
+pages in one checkpoint. Keep the two-task and twenty outside-lookup limits.
+Whole July560-page accounting, cover and standalone JSON/assets closeout remain
+pending. Incomplete donated TOCs, full proofreading, human acceptance, exact original
+encoded bytes and historical execution remain explicit limits. No automatic CD3
+association, reader rebuild or deployment.
+
 ## 2026-11-07 — July curves assembly and subgroup completion
 
 July batch 51 completes actual curves0049 assembly across PDF 367–373/printed356–362.
