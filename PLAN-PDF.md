@@ -1046,6 +1046,38 @@ Whole July 560-page accounting, cover and standalone closeout remain pending.
 Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
 and historical execution remain explicit limits.
 
+July batch 47 preserves WinG0048 final PDF 365/printed 354 as a third immutable
+partial native. All thirteen pages 353–365 are now preserved across unchanged
+opening, continuation and final natives. Actual article assembly remains required.
+All 17 selected, independent and fresh-process files match. Two exact source crops,
+two OCR outcomes, one block, 101 reading/code rows and 2,356 current typed ranges
+validate; two earlier-native ranges retain their original namespace. The listing2
+caption remains in native b; no figure or caption is invented for this page.
+The final listing has 52 physical rows on the left and 49 on the right, including
+five numbered blank payloads. Printed 184 occurs at final-local rows 33/35 and
+full-listing rows 184/186; printed 185 occurs at local 34/36 and full 185/187.
+Earlier 151 plus final 101 gives 252 physical rows despite ending at printed 250.
+Physical ordinals and printed numbering remain separate. One local LF join links
+the columns; the incoming 364→365 join remains for actual assembly.
+Printed SretchDIBits, DIB-RGB-COLORS, (spCar[1]0,, lowercase Dibptr and OldPalette
+remain literal. Three occurrence-specific l/1 or O/0 candidates retain source
+links. Square block delimiters and spacing approximations remain explicit;
+no syntax repair, original-byte certification or executable claim is made.
+Both drafts were read before one timed source pass. One pre-OCR map, zero crop
+adjustments, OCR retries, within-pass refinements, post-pass changes or post-OCR
+crop changes. All 40 invalid cases reject. All 38,957 earlier July files, thirty
+core modules, twelve frozen adapters and 63 classification pins remain exact;
+the unchanged 214-test batch-44 baseline is reused. One task, one mapped page and
+two outside lookups stay within limits. Advertisement 366 remains excluded.
+Totals: twenty-two readable articles, one partial, eight groups, seventeen
+references and 55 unresolved identities. Next: actually assemble WinG 353–365
+from all 794 immutable native files. Join the conclusion across independent API
+pages 359–360 and join listing2 across 364–365 without duplicating its serialization
+newline. Preserve both earlier-native namespaces and all source contexts.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical execution remain explicit limits.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
