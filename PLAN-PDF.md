@@ -3726,6 +3726,53 @@ Continue remaining July identities, 560-page accounting, cover verification and 
 JSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance and original
 encoded bytes remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 99 is in progress at a saved mapping/OCR stage for library heading 0070,
+마소 열람실, and commercial-software bundle 0071, 상용 소프트웨어. Direct review of all
+eleven source views PDF 184–194 establishes commercial software at PDF 185–192 /
+printed 174–181. Overseas coverage ends on 184; public software opens on 193 and
+continues on 194. The repeated library banner is an umbrella heading. Its formal
+non-owning classification export remains pending; no completed outcome changes yet.
+
+The commercial bundle contains five independent reviews. Source order is Hangul
+185–186, Geulteo 187–188, PC/TCP 189–190, finance software 191 and WordChange 192.
+This differs from canonical child order 0072–0076; both orders and all identities remain.
+Current mapping covers only 185–190, three complete review contexts within an incomplete
+parent. Final 191–192 and actual parent assembly remain separate checkpoints. There is
+no outgoing paragraph join from 190 to 191. No byline was observed in the five reviews.
+
+All six initial overlays and all 99 revised text-crop edges were directly inspected.
+All twelve complete captions, titles, decks, descriptors, two banners and twelve logical
+product fields were inspected in full. Three retained maps record 101 pre-OCR margin
+adjustments, including a final descriptor crop that excludes neighboring title ink and
+a security-paragraph crop that preserves the drifting left edge. All 111 selected crops
+and both earlier crop versions are pixel-exact. Twelve original screenshots retain
+twelve explicit caption associations; fourteen local joins preserve paragraph boundaries.
+Three product-information boxes retain type, environment, price and contact fields.
+
+All 99 original Tesseract outputs and settings validate: kor+eng, OEM 1 / PSM 6,
+one thread and 3000-pixel rendering. Zero retries; the spelling-section heading
+`h-spelling-head` has an empty raw draft and requires direct scan transcription.
+No source correction or package export has started; raw OCR is not restored content.
+The historical Hangul product lettering, printed software identifiers, spelling, physical
+wraps and historical claims must remain source-linked without technical repair.
+
+All 86,627 earlier July files, thirty core modules, 26 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and 91 classification pins remain
+exact. The unchanged fresh 214-test batch95 baseline is reused. This saved stage leaves
+all 98 completed checkpoints and all completed outcomes unchanged. Totals remain
+38 readable articles, zero partials, fourteen groups, seventeen references and 34
+unresolved identities. Batch99 and the whole July restoration remain in progress.
+
+Next: read all 99 drafts, then start one prospective source correction pass, export and
+validate the opening partial native and finish the library0070 classification. Reuse the
+selected third map and successful OCR. Restore final191–192 separately, then actually
+assemble commercial0071 before resolving child references0072–0076. Remaining July
+identities, family reconciliation, 560-page accounting, cover verification and standalone
+JSON/assets closeout remain required. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-99/ocr-stage-audit.json`.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
