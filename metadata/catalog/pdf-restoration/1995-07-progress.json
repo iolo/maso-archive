@@ -8200,7 +8200,7 @@
       "parent_id": "maso-1995-07-toc-0060",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "July batch 75 completes the opening partial native for CCC/Manager0061, 해외 인기 툴을 만난다[4] : PVCS와 겨루는 버전 컨트롤 시스템 CCC/Manager, across PDF481–486 / printed472–477. Full extent481–487 / printed472–478 is verified; final487 and actual assembly remain separate. Source author 박진성 and affiliation 미국 에듀케이셔널 소프트웨어 대표 remain distinct from ending editor 정인성 on487. The literal 프로그래밍포럼 continuation banner differs from canonical ancestor OS·애플리케이션 포럼; canonical identity and hierarchy remain unchanged.",
@@ -8214,38 +8214,19 @@
         "An enlarged review found the ending emblem's left edge clipped. One figure-only crop repair\nduring the source pass expands its rectangle; the original crop,map and OCR evidence remain.\nAll ten text crops,raw text,TSV and original settings are byte-identical. A pinned local\nbuilder accepts the changed map only after proving the single figure change and unchanged\ntext-region/OCR evidence; it retains the original recognition-map hash in every setting and\nexports the original map,repair evidence and builder. Thirteen invalid map/provenance\nvariants reject. The thirty core modules remain unchanged.",
         "Two pre-OCR maps record eleven top-margin adjustments; one post-OCR map records the single\nfigure repair. One prospectively timed source pass, zero recognition retries, zero text-crop\nchanges, zero refinements after text serialization and zero post-pass changes. Printed\n소프툴사를/소프트툴사로 and 혼돈 remain unrepaired. Two export attempts failed on private metadata paths\nbefore publishing any package; both scripts and logs remain. The selected metadata revision\nchanges only raw-review references to the copied bundle. A retained negative-test fixture\ninitially used the wrong count-field name; correcting the fixture required no builder or\npackage change.",
         "All35 native semantic invalid cases and13 figure-repair invalid cases reject. All70,730\nearlier July files,thirty core modules,twenty frozen assembly adapters,the batch72 local OCR\nadapter and75 classification pins remain exact. The unchanged fresh214-test batch73 baseline\nis reused, with targeted verification of the new local builder. Totals:31 readable articles,\none partial, twelve groups, seventeen references and42 unresolved identities.\nGroups0059/0060 remain incomplete.",
-        "Next: actually assemble CCC/Manager0061 across PDF481–487 / printed472–478 from immutable\nccc-a(batch75-r01) and ccc-b(batch76-r01). Regenerate a with the core builder and b with the\npinned batch76 figure_repair_build.py using ccc-b/package-recipe-r02.json;preserve all443\nnative files and original OCR settings. Perform exactly one cross-native prose join from\na:components-engine-a to b:components-engine-b with LF and no word splice. Preserve111\ncrops,104 OCR outcomes,89 native text blocks,407 reading rows,408 regional fragments,2,404\nnative current typed ranges and seven earlier-native occurrences in b that belong to a.\nRetain six screenshots,five captions,ending emblem,four-line pullquote,product/contact\nbox,nine workflow steps,three examples with16 physical rows and eleven circled\nannotations,twelve prose annotation references,nine source candidates and eight source\nanomalies. Preserve the author disclosure,contact details and separate editor;validate every\nprojected range and the repaired figure's provenance before marking0061 readable. Retain75\nclassification pins,20 frozen assembly adapters,the batch72 OCR adapter and batch76\nfigure-repair builder. Continue remaining identities including CodeView0062 on489/480,family\nreconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete\ndonated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain\nexplicit limits. No automatic CD3 association,reader rebuild or deployment."
+        "Next: actually assemble CCC/Manager0061 across PDF481–487 / printed472–478 from immutable\nccc-a(batch75-r01) and ccc-b(batch76-r01). Regenerate a with the core builder and b with the\npinned batch76 figure_repair_build.py using ccc-b/package-recipe-r02.json;preserve all443\nnative files and original OCR settings. Perform exactly one cross-native prose join from\na:components-engine-a to b:components-engine-b with LF and no word splice. Preserve111\ncrops,104 OCR outcomes,89 native text blocks,407 reading rows,408 regional fragments,2,404\nnative current typed ranges and seven earlier-native occurrences in b that belong to a.\nRetain six screenshots,five captions,ending emblem,four-line pullquote,product/contact\nbox,nine workflow steps,three examples with16 physical rows and eleven circled\nannotations,twelve prose annotation references,nine source candidates and eight source\nanomalies. Preserve the author disclosure,contact details and separate editor;validate every\nprojected range and the repaired figure's provenance before marking0061 readable. Retain75\nclassification pins,20 frozen assembly adapters,the batch72 OCR adapter and batch76\nfigure-repair builder. Continue remaining identities including CodeView0062 on489/480,family\nreconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete\ndonated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain\nexplicit limits. No automatic CD3 association,reader rebuild or deployment.",
+        "July batch 77 actually assembles complete CCC/Manager0061, 해외 인기 툴을 만난다[4] :\nPVCS와 겨루는 버전 컨트롤 시스템 CCC/Manager, across PDF481–487 / printed472–478.\nAll452 selected, independent and fresh-process files match, including all443 files\nfrom the two independently regenerated immutable natives. Exactly one LF joins\ncomponents-engine prose across486–487, after 소스 and before 를 원하는 방향으로 변경시켰지만,.\nNo word or code-row splice occurs. Lower487 recruitment advertising,488 full-page\nadvertising and the distinct CodeView opening489/480 remain excluded.\n\nAll111 pixel-exact crops,104 original OCR outcomes,89 native blocks projected into88\nassembled blocks,407 reading rows and408 regional fragments validate. All2,411 native\nmetadata occurrences, including seven earlier-native ranges held in b but belonging\nto a, project into4,885 current ranges;21,950 scalar values are independently checked.\nForty-five prose paragraphs,ten complete sections and thirteen join groups retain\nsixteen boundaries. Original source text and immutable creation-time flags remain.\n\nSix original screenshots,five literal captions,the ending emblem,four-line independent\npullquote,product box,five feature contexts and two historical contact contexts retain\ntheir roles. Nine circled workflow steps preserve the step2 column continuation,\nstep8 page continuation and step7's two paragraphs. Three separate examples retain16\nphysical rows and zero blank rows. Eleven circled delta annotations remain explanatory,\nwith twelve prose-marker occurrences and nine numbered sample rows. Printed terminology,\ncase and syntax remain unrepaired; nine source candidates and eight anomalies remain.\nSource author 박진성 and affiliation remain distinct from editor 정인성. The author's\nformer role,departure,independence and endorsement qualification retain their ranges;\nthe historical contact details and30-day trial remain literal and unverified.\n\nThe final native's figure-only crop repair remains explicit. The first assembly attempt\nstopped before publication because the standard segment reader required the current map\nhash in original OCR settings. A frozen private reader retains all standard checks and\npermits only the pinned final-native manifest, after the original guarded builder proves\nthe single emblem change,unchanged text crops/recognitions and original settings. Both\nmaps,repair evidence and builder remain among the52 final-native files. The earlier\nthirteen invalid repair/provenance checks remain preserved. No core module was changed.\nThe second assembly export succeeds; its source adapter is required for reexport/check.\nThree retained audit failures corrected fixture assumptions about ancestor order and the\nsource-backed trial-days field; neither adapter,source nor selected package changed.\n\nAll64 assembly invalid cases reject. All70,992 earlier July files,thirty core modules,\ntwenty frozen prior assembly adapters,the batch72 OCR adapter,the batch76 figure-repair\nbuilder and75 classification pins remain exact. The new CCC adapter brings the assembly\nadapter requirement to21. All214 fresh PDF regression tests pass. One canonical task,\nzero newly mapped pages and five outside lookup pages remain within limits. No new OCR,\nsource correction or native metadata revision. Totals:32 readable articles,zero partials,\ntwelve groups,seventeen references and42 unresolved identities. Groups0059/0060 remain\nincomplete; the overall July restoration goal is active.\n\nNext: verify CodeView0062 from its observed PDF489/printed480 opening, source author\n이상훈. Establish its actual ending and intervening continuity before mapping at most\nsix pages. Preserve article-ccc-r01,both immutable natives and all adapters/provenance.\nGroups0059/0060,0051/0052 and forum0043 require separate family reconciliation. Continue\nremaining identities,560-page accounting,cover and standalone JSON/assets closeout.\nIncomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes\nand execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.\n"
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-76-r01/ccc-b",
+        "directory": "archive/pdf/1995-07/packages/article-ccc-r01",
         "article_id": "scan-maso-1995-07-toc-0061",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-76-r01/ccc-b/manifest.json",
-          "sha256": "a754edf24bbf6b70d4be51aa2c820df421e9b53c94ceb040af5dc52bb173a3c1",
-          "bytes": 9072
+          "path": "archive/pdf/1995-07/packages/article-ccc-r01/manifest.json",
+          "sha256": "339bc4045de3c3b28ddf3674bb6d29f4245feabef73150be2000006fc50593ec",
+          "bytes": 81058
         },
         "coverage": {
           "pdf_pages": [
-            487
-          ],
-          "printed_pages": [
-            "478"
-          ],
-          "regions": 11,
-          "blocks": 8,
-          "figures": 1,
-          "deferred_pdf_pages": []
-        },
-        "body_pages_complete": false,
-        "prose_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "actual_start_pdf_page": 481,
-        "actual_end_pdf_page": 487,
-        "full_extent_verified": true,
-        "remaining_source_pages": [],
-        "segment_scope": {
-          "full_pdf_pages": [
             481,
             482,
             483,
@@ -8254,38 +8235,36 @@
             486,
             487
           ],
-          "current_pdf_pages": [
-            487
-          ],
-          "current_printed_pages": [
+          "printed_pages": [
+            "472",
+            "473",
+            "474",
+            "475",
+            "476",
+            "477",
             "478"
           ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": true,
-          "actual_start_pdf_page": 481,
-          "observed_ending_pdf_page": 487,
-          "remaining_source_pages": [],
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "remaining_extent_unverified": false,
-          "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-76/source-reviewed.json",
-            "sha256": "f02d7b7d24958fcb32b7727d2471197917a192b221a572ad33622a0cfe99344c",
-            "bytes": 1802
-          }
+          "regions": 111,
+          "blocks": 88,
+          "figures": 7,
+          "deferred_pdf_pages": []
         },
-        "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-76/validation.json",
-          "sha256": "e6a1cede695739aa9867abeaff606db23893cc0bfe777dc11fe8fde99b7d0f2c",
-          "bytes": 2493
-        },
-        "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-76/reproduction.json",
-          "sha256": "5c4d21033fe0106467d568330f26b75aaa494d879fbad8a559f50ca27f730e87",
-          "bytes": 11329
-        },
-        "checkpoint": "batch-76",
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 481,
+        "actual_end_pdf_page": 487,
+        "full_pdf_pages": [
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487
+        ],
+        "remaining_source_pages": [],
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-75-r01/ccc-a",
@@ -8465,7 +8444,18 @@
           486,
           487
         ],
-        "source_extent_preserved_across_natives": true
+        "source_extent_preserved_across_natives": true,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-77/assembly-audit.json",
+          "sha256": "82bff2870b7c568dae77348a685f7f1b0a253014ca0a87d676c39c27d4375cc8",
+          "bytes": 1714
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-77/reproduction.json",
+          "sha256": "5eb81dfd5ec18bc518bd0db37aba778315aff76acab95ed5a292797c44280f44",
+          "bytes": 83450
+        },
+        "checkpoint": "batch-77"
       }
     },
     {
@@ -12042,12 +12032,45 @@
         "sha256": "5c4d21033fe0106467d568330f26b75aaa494d879fbad8a559f50ca27f730e87",
         "bytes": 11329
       }
+    },
+    {
+      "name": "1995-07-batch-77",
+      "status": "complete",
+      "completed_at": "2026-11-07T09:39:18.052367+00:00",
+      "goal": "Actually assemble complete CCC/Manager0061 from two immutable natives. Groups0059/0060 remain incomplete.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0061"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        481,
+        486,
+        487,
+        488,
+        489
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-77/assembly-audit.json",
+        "sha256": "82bff2870b7c568dae77348a685f7f1b0a253014ca0a87d676c39c27d4375cc8",
+        "bytes": 1714
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-77/reproduction.json",
+        "sha256": "5eb81dfd5ec18bc518bd0db37aba778315aff76acab95ed5a292797c44280f44",
+        "bytes": 83450
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 31,
-    "partial": 1,
+    "readable": 32,
+    "partial": 0,
     "group_headings": 12,
     "section_references": 17,
     "unresolved": 42
@@ -12057,7 +12080,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: actually assemble CCC/Manager0061 across PDF481–487 / printed472–478 from immutable ccc-a(batch75-r01) and ccc-b(batch76-r01). Regenerate a with the core builder and b with the pinned batch76 figure_repair_build.py using ccc-b/package-recipe-r02.json;preserve all443 native files and original OCR settings. Perform exactly one cross-native prose join from a:components-engine-a to b:components-engine-b with LF and no word splice. Preserve111 crops,104 OCR outcomes,89 native text blocks,407 reading rows,408 regional fragments,2,404 native current typed ranges and seven earlier-native occurrences in b that belong to a. Retain six screenshots,five captions,ending emblem,four-line pullquote,product/contact box,nine workflow steps,three examples with16 physical rows and eleven circled annotations,twelve prose annotation references,nine source candidates and eight source anomalies. Preserve the author disclosure,contact details and separate editor;validate every projected range and the repaired figure's provenance before marking0061 readable. Retain75 classification pins,20 frozen assembly adapters,the batch72 OCR adapter and batch76 figure-repair builder. Continue remaining identities including CodeView0062 on489/480,family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify CodeView0062 from its observed PDF489/printed480 opening, source author 이상훈. Establish the actual ending and intervening continuity before mapping at most six pages. Preserve complete CCC/Manager0061 article-ccc-r01 and both immutable natives. Groups0059/0060,0051/0052 and forum0043 remain incomplete pending separate family reconciliation. Retain75 classification pins,21 frozen assembly adapters,the batch72 local OCR adapter and batch76 figure-repair builder. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

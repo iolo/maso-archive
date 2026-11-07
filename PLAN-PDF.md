@@ -2500,6 +2500,60 @@ reconciliation,560-page accounting,cover and standalone JSON/assets closeout. In
 donated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain
 explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 77 actually assembles complete CCC/Manager0061, 해외 인기 툴을 만난다[4] :
+PVCS와 겨루는 버전 컨트롤 시스템 CCC/Manager, across PDF481–487 / printed472–478.
+All452 selected, independent and fresh-process files match, including all443 files
+from the two independently regenerated immutable natives. Exactly one LF joins
+components-engine prose across486–487, after 소스 and before 를 원하는 방향으로 변경시켰지만,.
+No word or code-row splice occurs. Lower487 recruitment advertising,488 full-page
+advertising and the distinct CodeView opening489/480 remain excluded.
+
+All111 pixel-exact crops,104 original OCR outcomes,89 native blocks projected into88
+assembled blocks,407 reading rows and408 regional fragments validate. All2,411 native
+metadata occurrences, including seven earlier-native ranges held in b but belonging
+to a, project into4,885 current ranges;21,950 scalar values are independently checked.
+Forty-five prose paragraphs,ten complete sections and thirteen join groups retain
+sixteen boundaries. Original source text and immutable creation-time flags remain.
+
+Six original screenshots,five literal captions,the ending emblem,four-line independent
+pullquote,product box,five feature contexts and two historical contact contexts retain
+their roles. Nine circled workflow steps preserve the step2 column continuation,
+step8 page continuation and step7's two paragraphs. Three separate examples retain16
+physical rows and zero blank rows. Eleven circled delta annotations remain explanatory,
+with twelve prose-marker occurrences and nine numbered sample rows. Printed terminology,
+case and syntax remain unrepaired; nine source candidates and eight anomalies remain.
+Source author 박진성 and affiliation remain distinct from editor 정인성. The author's
+former role,departure,independence and endorsement qualification retain their ranges;
+the historical contact details and30-day trial remain literal and unverified.
+
+The final native's figure-only crop repair remains explicit. The first assembly attempt
+stopped before publication because the standard segment reader required the current map
+hash in original OCR settings. A frozen private reader retains all standard checks and
+permits only the pinned final-native manifest, after the original guarded builder proves
+the single emblem change,unchanged text crops/recognitions and original settings. Both
+maps,repair evidence and builder remain among the52 final-native files. The earlier
+thirteen invalid repair/provenance checks remain preserved. No core module was changed.
+The second assembly export succeeds; its source adapter is required for reexport/check.
+Three retained audit failures corrected fixture assumptions about ancestor order and the
+source-backed trial-days field; neither adapter,source nor selected package changed.
+
+All64 assembly invalid cases reject. All70,992 earlier July files,thirty core modules,
+twenty frozen prior assembly adapters,the batch72 OCR adapter,the batch76 figure-repair
+builder and75 classification pins remain exact. The new CCC adapter brings the assembly
+adapter requirement to21. All214 fresh PDF regression tests pass. One canonical task,
+zero newly mapped pages and five outside lookup pages remain within limits. No new OCR,
+source correction or native metadata revision. Totals:32 readable articles,zero partials,
+twelve groups,seventeen references and42 unresolved identities. Groups0059/0060 remain
+incomplete; the overall July restoration goal is active.
+
+Next: verify CodeView0062 from its observed PDF489/printed480 opening, source author
+이상훈. Establish its actual ending and intervening continuity before mapping at most
+six pages. Preserve article-ccc-r01,both immutable natives and all adapters/provenance.
+Groups0059/0060,0051/0052 and forum0043 require separate family reconciliation. Continue
+remaining identities,560-page accounting,cover and standalone JSON/assets closeout.
+Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes
+and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
