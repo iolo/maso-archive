@@ -2857,6 +2857,63 @@ families separately, then complete remaining July identities and issue closeout.
 donated TOCs, full proofreading, human acceptance, exact encoded source bytes and execution
 remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 84 preserves Windows950065 final PDF509–510 / printed500–501 as a second
+immutable native. All eight source pages503–510 /494–501 now exist across two packages;
+actual assembly remains required. Opening batch-83-r01/win95-a is unchanged. Page509
+completes the previous Win32-standard paragraph, requiring one explicit LF join at assembly.
+Page511 opens the distinct Windows NT article0066.
+
+All129 selected, independent and fresh-process files match. The final native preserves31
+pixel-exact crops,30 original OCR outcomes,27 text blocks,157 physical reading/regional
+rows,19 main paragraphs,three sidebar paragraphs and754 current typed ranges, plus eight
+earlier-native occurrences. Source title, series, author, affiliation, forum/category labels
+and preceding paragraph retain their opening-package ownership. Source/canonical byline and
+series discrepancies remain unresolved.
+
+Three local LF joins retain the thread definition across509 columns, the synchronization
+paragraph across510 columns around the sidebar, and the final Hangul paragraph with its
+narrowly mapped last row. The whole shaded 태스크와 프로세스 box retains three paragraphs, including
+its closing next-installment remarks. It remains independent without a new canonical
+identity. The ending emblem and editor 박은숙 remain separate from prose and source author.
+
+Four main section contexts retain Win32/OS2 comparisons, preemption and thread examples,
+critical sections and synchronization, and the final Hangul-support opinion. Three
+wordprocessor tasks, four synchronization objects, six critical-section terms, five deferred
+topics and old/new API references resolve to exact occurrences. Printed MUTual EXclusion
+capitalization, PM(Pre/sentation Manager), GetCurr/entTask() and 이/야기 physical wraps remain
+literal. Five candidate records retain pause-dot,1/l,parentheses/zero and product-name vowel
+uncertainty; printed 끔직한 and 멀지 감치 remain unrepaired. Historical technical claims,standards
+and author predictions are not certified.
+
+One pre-OCR map required no adjustments. All30 drafts preceded one prospectively timed
+source pass;30 readings serialized once. Zero recognition retries,crop changes,refinements
+after serialization or post-pass changes. All43 invalid semantic cases reject. All76,171
+earlier July files,thirty core modules,twenty-two frozen assembly adapters,both local OCR
+adapters,batch76 figure builder and77 classification pins remain exact. The unchanged
+fresh214-test batch81 baseline is reused. No new local OCR adapter or pipeline change was
+required.
+
+One canonical task,two newly mapped pages and two outside lookup pages remain within limits.
+Totals remain34 readable articles,one partial,thirteen groups,seventeen references and38
+unresolved identities. Article0065 is still partial pending actual assembly;0066 and pending
+family reconciliations remain unchanged. Whole July560-page accounting,cover and standalone
+JSON/assets closeout remain required.
+
+Next: actually assemble Windows950065 across PDF503–510 / printed494–501 from immutable
+batch-83-r01/win95-a and batch-84-r01/win95-b. Regenerate both using the standard builder
+and their package-recipe.json files. Preserve all472 native files,116 crops,113 OCR
+outcomes,99 native blocks,593 reading rows,594 regional fragments and3,271 current native
+typed ranges. Eight inherited ranges in b belong to a and must not project as current b
+text. Join only a win32-standard-a to b win32-standard-b with LF;retain every other block
+boundary,three independent sidebars,three original visuals,one caption,three code blocks/42
+physical code rows,26 glyph candidates andnine source anomalies. Validate all projected
+source ownership before marking0065 readable. Retain both local OCR adapters andall22 frozen
+assembly adapters. Then verify0066 fromPDF511/printed502 and establish its actual extent.
+Continue pending families,remaining July identities,560-page accounting,cover and standalone
+JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact
+encoded source bytes andexecution remain explicit limits. No automatic CD3
+association,reader rebuild ordeployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
