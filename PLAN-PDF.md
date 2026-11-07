@@ -1360,6 +1360,48 @@ Incomplete donated TOCs, full proofreading, human acceptance, exact encoded byte
 and historical execution remain explicit limits. No automatic CD3 association,
 reader rebuild or deployment.
 
+July batch 55 preserves MDB0050 final PDF 417/printed 406 as a third immutable
+partial native. All thirteen source pages 405–417 are now preserved across three
+natives; actual article assembly remains required. Final PCX step4 follows steps1–3
+on416, without a word or code-row split. The conclusion, ending emblem, separate
+editor 박재곤 and two-panel file directory precede the excluded lower advertisement.
+Following418 is a full-page advertisement. Canonical parent forum0043 remains unchanged.
+
+All 59 selected, independent and fresh-process files match: fifteen pixel-exact
+crops, twelve OCR outcomes, twelve blocks, 92 reading/regional rows and 497 current
+typed occurrences. Earlier title, authors and series retain opening-native ranges;
+incoming PCX steps retain their continuation-native namespace. Three originals
+retain the ending emblem and both table panels; none has an invented caption.
+
+The directory retains 37 data rows: eleven in the left panel and 26 in the right.
+Seventy-four data cells and four physical header cells are nonblank. Repeated
+descriptions remain separate source occurrences. BMP, PCX and 3D suffixes remain
+in the printed filename column; RES MDB. retains its space and terminal period.
+The conclusion's sample-picture list still includes WAV and its icon extension
+remains ICM. One localized lview16/1view16 candidate remains source-linked.
+The monthly disk1 and online-service heading does not establish media availability
+or an automatic CD3 association. No new code or internal joins occur in this native.
+
+All twelve drafts were read before one prospective source pass. Two pre-OCR maps
+retain twelve margin adjustments. Zero retries, within-pass refinements, post-pass
+changes or post-OCR crop changes. All twelve text regions use kor+eng, OEM1/PSM6,
+one thread and a 3000-pixel long edge. All 47 invalid cases reject. All 45,655 earlier
+July files, thirty core modules, fourteen frozen adapters and 69 classification
+pins remain exact. The unchanged 214-test batch51 baseline is reused. One task,
+one mapped page and two outside lookups remain within limits. Totals remain
+twenty-four readable articles, one partial, eight groups, seventeen references
+and 53 unresolved identities.
+
+Next: actually assemble MDB PDF 405–417/printed 394–406 from the three immutable
+natives. Join pcx-steps-a in native b to pcx-step4 in native c with one LF. No
+opening-to-continuation join is required. Preserve all existing joins, tables,
+code rows, blank rows, omissions, comments, glyph candidates and earlier-native
+range namespaces. Retain the two distinct OnFilter examples and separate AVI
+signature/call. Whole July560-page accounting, cover and standalone JSON/assets
+closeout remain pending. Incomplete donated TOCs, full proofreading, human
+acceptance, exact encoded bytes and historical execution remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
