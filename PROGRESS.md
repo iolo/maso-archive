@@ -10881,3 +10881,69 @@ pins,27 frozen assembly adapters from batch101 and three local OCR adapters from
 batch87. Incomplete donated TOCs, full proofreading, human acceptance and original
 encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild
 or deployment.
+
+July batch 122 preserves reader-card/prize item 0097 on PDF541–544/printed532–535
+as an immutable partial native and completes diskette item 0098 on PDF545/printed536.
+The independently observed full reader-card extent is541–544 plus the detached
+lower postcard reverse/front on546–547. Those two form regions are deferred;
+the upper subscription applications and separate giro form on548 are outside
+this native. Seven combined source pages exceed the six-page checkpoint ceiling,
+so reader-card completion requires a later native and actual assembly.
+
+All347 selected, independent and fresh-process files match:234 reader files and
+113 diskette files. The natives retain103 pixel-exact crops,76 original OCR
+outcomes,76 blocks,238 physical reading rows,1,698 typed range occurrences,
+27 original images and24 literal captions. Nine main reader prose paragraphs
+and four diskette paragraphs retain explicit physical-row membership. No prose
+join, code, byline or original encoded bytes are inferred.
+
+Reader prizes retain24 photographed offers and35 printed recipient slots, with
+source-linked products, providers and telephones. The separate video-CD service
+offer retains three requested fields and its own image; it is not appendix0103.
+Previous winners retain25 product groups and37 names/localities across all62
+heading/member rows. Current and previous recipient counts remain independent.
+The current sound-card caption3.8III, photographed box2.8 and previous winner2.8
+remain distinct. Two archaic-vowel ᄒᆞᆫ글 occurrences retain explicit Unicode
+representation notes. Three quiz boxes stay empty; previous answer 포스피드백 is
+not applied to the new quiz. Printed 논산국 and other source wording remain.
+
+Diskette contents retain three disks and eleven entries across34 physical rows,
+including the wrapped WinG title. Every section, literal printed page reference,
+path and file-description field remains source-linked. No PDF destination,
+canonical child identity, software file recovery or CD3 association is inferred.
+Four purchase methods preserve seven rows and the literal postal account
+014167-31-1059715. The price table retains two logical rows/six data cells, three
+header cells and five physical rows/fifteen cells. One printed blank and three
+continuation-padding slots remain distinct; wrapped price/postage cells are not
+new records. The prose discount claim is not reconciled with the table. The
+postponement notice does not establish recovery of an August article.
+
+One prospectively timed source pass follows all76 raw drafts. Three reader maps
+and two diskette maps preserve282 original/intermediate/selected crops and15
+pre-OCR adjustments. No OCR retry, post-OCR crop change, within-pass source revision
+or post-pass source change occurred. One initial mapping helper failure and two
+validation helper failures are retained: validation initially selected earlier
+matching digits/provider names instead of their caption-field occurrences. The
+packages were correct; only the verifier changed. All98 invalid cases reject,
+including lost records, wrong source occurrences, filled quiz/table blanks,
+false destinations, normalized glyphs and premature card/family completion.
+
+All97,561 earlier July files, thirty core modules,27 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and128 classification pins
+remain exact. The unchanged fresh214-test batch101 baseline is reused. Two
+canonical tasks, five mapped pages and four outside lookups540/546/547/548 stay
+within limits. Totals are49 readable articles, one partial, sixteen groups,
+32 references and five unresolved identities across122 completed checkpoints.
+Reader-board0093's prior disposition remains historical and unchanged. Whole
+July restoration is incomplete.
+
+Next: restore only the lower reader-card reverse/front on PDF546–547 as the final
+0097 native, reusing the saved whole-page views and retaining the separate upper
+subscription forms as exclusions. Then actually assemble0097 across541–544 and
+546–547 and explicitly reconcile reader-board0093. Restore/classify survey0099
+and children0100–0102, then resolve video appendix0103. Whole560-page accounting,
+cover verification and standalone JSON/assets closeout remain required. Preserve
+all128 classification pins,27 frozen assembly adapters from batch101 and three
+local OCR adapters from batch87. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits. No inferred
+CD3 association, reader rebuild or deployment.

@@ -12214,23 +12214,181 @@
       "toc_entry_id": "maso-1995-07-toc-0097",
       "title": "마소카드/당첨자",
       "parent_id": "maso-1995-07-toc-0093",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 122 preserves reader-card/prize item 0097 on PDF541–544/printed532–535\nas an immutable partial native and completes diskette item 0098 on PDF545/printed536.\nThe independently observed full reader-card extent is541–544 plus the detached\nlower postcard reverse/front on546–547. Those two form regions are deferred;\nthe upper subscription applications and separate giro form on548 are outside\nthis native. Seven combined source pages exceed the six-page checkpoint ceiling,\nso reader-card completion requires a later native and actual assembly.\n\nAll347 selected, independent and fresh-process files match:234 reader files and\n113 diskette files. The natives retain103 pixel-exact crops,76 original OCR\noutcomes,76 blocks,238 physical reading rows,1,698 typed range occurrences,\n27 original images and24 literal captions. Nine main reader prose paragraphs\nand four diskette paragraphs retain explicit physical-row membership. No prose\njoin, code, byline or original encoded bytes are inferred.\n\nReader prizes retain24 photographed offers and35 printed recipient slots, with\nsource-linked products, providers and telephones. The separate video-CD service\noffer retains three requested fields and its own image; it is not appendix0103.\nPrevious winners retain25 product groups and37 names/localities across all62\nheading/member rows. Current and previous recipient counts remain independent.\nThe current sound-card caption3.8III, photographed box2.8 and previous winner2.8\nremain distinct. Two archaic-vowel ᄒᆞᆫ글 occurrences retain explicit Unicode\nrepresentation notes. Three quiz boxes stay empty; previous answer 포스피드백 is\nnot applied to the new quiz. Printed 논산국 and other source wording remain.\n\nDiskette contents retain three disks and eleven entries across34 physical rows,\nincluding the wrapped WinG title. Every section, literal printed page reference,\npath and file-description field remains source-linked. No PDF destination,\ncanonical child identity, software file recovery or CD3 association is inferred.\nFour purchase methods preserve seven rows and the literal postal account\n014167-31-1059715. The price table retains two logical rows/six data cells, three\nheader cells and five physical rows/fifteen cells. One printed blank and three\ncontinuation-padding slots remain distinct; wrapped price/postage cells are not\nnew records. The prose discount claim is not reconciled with the table. The\npostponement notice does not establish recovery of an August article.\n\nOne prospectively timed source pass follows all76 raw drafts. Three reader maps\nand two diskette maps preserve282 original/intermediate/selected crops and15\npre-OCR adjustments. No OCR retry, post-OCR crop change, within-pass source revision\nor post-pass source change occurred. One initial mapping helper failure and two\nvalidation helper failures are retained: validation initially selected earlier\nmatching digits/provider names instead of their caption-field occurrences. The\npackages were correct; only the verifier changed. All98 invalid cases reject,\nincluding lost records, wrong source occurrences, filled quiz/table blanks,\nfalse destinations, normalized glyphs and premature card/family completion.\n\nAll97,561 earlier July files, thirty core modules,27 frozen assembly adapters,\nthree local OCR adapters, the batch76 figure builder and128 classification pins\nremain exact. The unchanged fresh214-test batch101 baseline is reused. Two\ncanonical tasks, five mapped pages and four outside lookups540/546/547/548 stay\nwithin limits. Totals are49 readable articles, one partial, sixteen groups,\n32 references and five unresolved identities across122 completed checkpoints.\nReader-board0093's prior disposition remains historical and unchanged. Whole\nJuly restoration is incomplete.\n\nNext: restore only the lower reader-card reverse/front on PDF546–547 as the final\n0097 native, reusing the saved whole-page views and retaining the separate upper\nsubscription forms as exclusions. Then actually assemble0097 across541–544 and\n546–547 and explicitly reconcile reader-board0093. Restore/classify survey0099\nand children0100–0102, then resolve video appendix0103. Whole560-page accounting,\ncover verification and standalone JSON/assets closeout remain required. Preserve\nall128 classification pins,27 frozen assembly adapters from batch101 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred\nCD3 association, reader rebuild or deployment.\n"
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-122-r01/reader-a",
+        "article_id": "scan-maso-1995-07-toc-0097",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-122-r01/reader-a/manifest.json",
+          "sha256": "9a8453878f6ac4a5dbfc8bea9fbada5af2da6c1d232f009d640b0ec3f3a370fc",
+          "bytes": 39578
+        },
+        "coverage": {
+          "pdf_pages": [
+            541,
+            542,
+            543,
+            544
+          ],
+          "printed_pages": [
+            "532",
+            "533",
+            "534",
+            "535"
+          ],
+          "regions": 76,
+          "blocks": 50,
+          "figures": 26,
+          "deferred_pdf_pages": [
+            546,
+            547
+          ]
+        },
+        "body_pages_complete": false,
+        "prose_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 541,
+        "actual_end_pdf_page": 547,
+        "full_extent_verified": true,
+        "remaining_source_pages": [
+          546,
+          547
+        ],
+        "segment_scope": {
+          "full_pdf_pages": [
+            541,
+            542,
+            543,
+            544,
+            546,
+            547
+          ],
+          "current_pdf_pages": [
+            541,
+            542,
+            543,
+            544
+          ],
+          "current_printed_pages": [
+            "532",
+            "533",
+            "534",
+            "535"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": false,
+          "prose_complete": false,
+          "actual_start_pdf_page": 541,
+          "observed_ending_pdf_page": 547,
+          "remaining_source_pages": [
+            546,
+            547
+          ],
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-122/source-reviewed.json",
+            "sha256": "62677ffafa4250f45def2ef01c61ba84e222434a55211e4ad0ea8243449f9291",
+            "bytes": 2408
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-122/validation.json",
+          "sha256": "8166a140ccb1d08a576196c3935b6864ed73f37a45b58e9dbd51ab635355d4fd",
+          "bytes": 5679
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-122/reproduction.json",
+          "sha256": "9c481da9ebef73fba3e8471c737b8645686086c9849c6707e4b8a2012cd43faf",
+          "bytes": 68552
+        },
+        "checkpoint": "batch-122"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0098",
       "title": "이달의 디스켓",
       "parent_id": "maso-1995-07-toc-0093",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 122 preserves reader-card/prize item 0097 on PDF541–544/printed532–535\nas an immutable partial native and completes diskette item 0098 on PDF545/printed536.\nThe independently observed full reader-card extent is541–544 plus the detached\nlower postcard reverse/front on546–547. Those two form regions are deferred;\nthe upper subscription applications and separate giro form on548 are outside\nthis native. Seven combined source pages exceed the six-page checkpoint ceiling,\nso reader-card completion requires a later native and actual assembly.\n\nAll347 selected, independent and fresh-process files match:234 reader files and\n113 diskette files. The natives retain103 pixel-exact crops,76 original OCR\noutcomes,76 blocks,238 physical reading rows,1,698 typed range occurrences,\n27 original images and24 literal captions. Nine main reader prose paragraphs\nand four diskette paragraphs retain explicit physical-row membership. No prose\njoin, code, byline or original encoded bytes are inferred.\n\nReader prizes retain24 photographed offers and35 printed recipient slots, with\nsource-linked products, providers and telephones. The separate video-CD service\noffer retains three requested fields and its own image; it is not appendix0103.\nPrevious winners retain25 product groups and37 names/localities across all62\nheading/member rows. Current and previous recipient counts remain independent.\nThe current sound-card caption3.8III, photographed box2.8 and previous winner2.8\nremain distinct. Two archaic-vowel ᄒᆞᆫ글 occurrences retain explicit Unicode\nrepresentation notes. Three quiz boxes stay empty; previous answer 포스피드백 is\nnot applied to the new quiz. Printed 논산국 and other source wording remain.\n\nDiskette contents retain three disks and eleven entries across34 physical rows,\nincluding the wrapped WinG title. Every section, literal printed page reference,\npath and file-description field remains source-linked. No PDF destination,\ncanonical child identity, software file recovery or CD3 association is inferred.\nFour purchase methods preserve seven rows and the literal postal account\n014167-31-1059715. The price table retains two logical rows/six data cells, three\nheader cells and five physical rows/fifteen cells. One printed blank and three\ncontinuation-padding slots remain distinct; wrapped price/postage cells are not\nnew records. The prose discount claim is not reconciled with the table. The\npostponement notice does not establish recovery of an August article.\n\nOne prospectively timed source pass follows all76 raw drafts. Three reader maps\nand two diskette maps preserve282 original/intermediate/selected crops and15\npre-OCR adjustments. No OCR retry, post-OCR crop change, within-pass source revision\nor post-pass source change occurred. One initial mapping helper failure and two\nvalidation helper failures are retained: validation initially selected earlier\nmatching digits/provider names instead of their caption-field occurrences. The\npackages were correct; only the verifier changed. All98 invalid cases reject,\nincluding lost records, wrong source occurrences, filled quiz/table blanks,\nfalse destinations, normalized glyphs and premature card/family completion.\n\nAll97,561 earlier July files, thirty core modules,27 frozen assembly adapters,\nthree local OCR adapters, the batch76 figure builder and128 classification pins\nremain exact. The unchanged fresh214-test batch101 baseline is reused. Two\ncanonical tasks, five mapped pages and four outside lookups540/546/547/548 stay\nwithin limits. Totals are49 readable articles, one partial, sixteen groups,\n32 references and five unresolved identities across122 completed checkpoints.\nReader-board0093's prior disposition remains historical and unchanged. Whole\nJuly restoration is incomplete.\n\nNext: restore only the lower reader-card reverse/front on PDF546–547 as the final\n0097 native, reusing the saved whole-page views and retaining the separate upper\nsubscription forms as exclusions. Then actually assemble0097 across541–544 and\n546–547 and explicitly reconcile reader-board0093. Restore/classify survey0099\nand children0100–0102, then resolve video appendix0103. Whole560-page accounting,\ncover verification and standalone JSON/assets closeout remain required. Preserve\nall128 classification pins,27 frozen assembly adapters from batch101 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred\nCD3 association, reader rebuild or deployment.\n"
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-122-r01/diskette",
+        "article_id": "scan-maso-1995-07-toc-0098",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-122-r01/diskette/manifest.json",
+          "sha256": "0838b0b7ed99030ef6b06c5bef38d7632ca936b2c04f5b215203e9f781e4104b",
+          "bytes": 18992
+        },
+        "coverage": {
+          "pdf_pages": [
+            545
+          ],
+          "printed_pages": [
+            "536"
+          ],
+          "regions": 27,
+          "blocks": 26,
+          "figures": 1,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 545,
+        "actual_end_pdf_page": 545,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            545
+          ],
+          "current_pdf_pages": [
+            545
+          ],
+          "current_printed_pages": [
+            "536"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 545,
+          "observed_ending_pdf_page": 545,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-122/source-reviewed.json",
+            "sha256": "62677ffafa4250f45def2ef01c61ba84e222434a55211e4ad0ea8243449f9291",
+            "bytes": 2408
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-122/validation.json",
+          "sha256": "8166a140ccb1d08a576196c3935b6864ed73f37a45b58e9dbd51ab635355d4fd",
+          "bytes": 5679
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-122/reproduction.json",
+          "sha256": "9c481da9ebef73fba3e8471c737b8645686086c9849c6707e4b8a2012cd43faf",
+          "bytes": 68552
+        },
+        "checkpoint": "batch-122"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0099",
@@ -16994,22 +17152,68 @@
         "sha256": "0e0cbb3205f26bae3b9b43009185b6d3036e07c5f33ca67e56db67950e776e56",
         "bytes": 42505
       }
+    },
+    {
+      "name": "1995-07-batch-122",
+      "status": "complete",
+      "completed_at": "2026-11-07T21:12:35.768477+00:00",
+      "goal": "Preserve main reader-card/prizes0097 and complete diskette0098; detached card546–547 and actual assembly remain pending.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0097",
+        "maso-1995-07-toc-0098"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 5,
+      "mapped_pdf_pages": [
+        541,
+        542,
+        543,
+        544,
+        545
+      ],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        540,
+        546,
+        547,
+        548
+      ],
+      "recognition_invocations": 76,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 0,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 3,
+      "retained_source_helper_failures": 1,
+      "retained_mapping_helper_failures": 1,
+      "retained_validation_helper_failures": 2,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-122/validation.json",
+        "sha256": "8166a140ccb1d08a576196c3935b6864ed73f37a45b58e9dbd51ab635355d4fd",
+        "bytes": 5679
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-122/reproduction.json",
+        "sha256": "9c481da9ebef73fba3e8471c737b8645686086c9849c6707e4b8a2012cd43faf",
+        "bytes": 68552
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 48,
-    "partial": 0,
+    "readable": 49,
+    "partial": 1,
     "group_headings": 16,
     "section_references": 32,
-    "unresolved": 7
+    "unresolved": 5
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify reader-card/prize item0097 from the observed PDF541/printed532 and\nlocate diskette item0098, establishing their eligibility and complete extents\nindependently within the two-task/six-page/twenty-lookup limits. Then explicitly\nreconcile reader-board0093, restore/classify survey0099 and children0100–0102,\nand resolve video appendix0103. Whole560-page accounting, cover verification and\nstandalone JSON/assets closeout remain required. Preserve all128 classification\npins,27 frozen assembly adapters from batch101 and three local OCR adapters from\nbatch87. Incomplete donated TOCs, full proofreading, human acceptance and original\nencoded bytes remain explicit limits. No inferred CD3 association, reader rebuild\nor deployment.",
+  "next_checkpoint": "Next: restore only the lower reader-card reverse/front on PDF546–547 as the final\n0097 native, reusing the saved whole-page views and retaining the separate upper\nsubscription forms as exclusions. Then actually assemble0097 across541–544 and\n546–547 and explicitly reconcile reader-board0093. Restore/classify survey0099\nand children0100–0102, then resolve video appendix0103. Whole560-page accounting,\ncover verification and standalone JSON/assets closeout remain required. Preserve\nall128 classification pins,27 frozen assembly adapters from batch101 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred\nCD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
