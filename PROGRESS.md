@@ -9212,3 +9212,60 @@ batch92/frozen-adapters-complete.json andthree local OCR adapters in
 batch87/frozen-local-ocr-adapters-complete.json. Continue remaining July identities,560-page
 accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs remain an
 explicit verification limit. No automatic CD3 association,reader rebuild or deployment.
+
+## 2026-11-07 — July CD-ROM final native complete
+
+July batch 94 preserves CD-ROM article 0069 final PDF 535 / printed 526 as a second
+immutable native. All seven source pages 529–535 / printed 520–526 are now retained across
+two packages; actual assembly remains required. Opening batch-93-r01/cdrom-a is unchanged.
+The first paragraph is distinct from the preceding page, so no inter-native prose join is
+required. Two final capacity paragraphs and a new writable-CD conclusion end beside an
+original emblem and separate editor 박은숙. The lower modem advertisement and full-page
+advertisement on 536 remain excluded.
+
+All 37 selected, independent and fresh-process files match. The final package retains eight
+pixel-exact crops, seven original OCR outcomes, five text blocks, 28 reading/regional rows
+and 207 current typed range occurrences, plus eight earlier-native occurrences. Three main
+prose paragraphs retain one new section and explicit continuation of the earlier capacity
+section. One local join group preserves two boundaries in the conclusion, including its
+cross-column 소/식 wrap. The original emblem has no invented caption; no code, table or
+sidebar occurs on this final page.
+
+Eight exact earlier-native ranges retain source title, author 정용주, affiliation 기아시스템,
+group/category labels, previous paragraph and heading, and table-3 caption. The original
+table-3 image remains linked to its opening package. Both 15MB overhead occurrences and both
+775불 price occurrences retain their distinct source positions. Eight source anomaly notes
+preserve TOC(Table of Contentes), the 333,000 block count, printed availability/prices, WORM
+capitalization and physical wrapping, and 못차릴 spacing. Separate editor role 정리 and name 박은숙
+remain source-linked. Historical claims and original encoded bytes are unverified.
+
+All seven raw drafts preceded one prospectively timed source correction pass. One reviewed
+map, one serialization, zero crop changes, zero OCR retries and zero within-pass or
+post-pass source refinements. All 35 invalid semantic cases reject, including a substituted
+earlier table, missing caption context, invented incoming join, collapsed repeated price,
+merged emblem, editor-as-author and absorbed advertisement. All 85,675 earlier July files,
+thirty core modules, twenty-five frozen assembly adapters, three local OCR adapters, the
+batch76 figure builder and 81 classification pins remain exact. The unchanged fresh 214-test
+batch92 baseline is reused.
+
+One canonical task, one newly mapped page and two outside lookup pages remain within limits.
+Totals remain 37 readable articles, one partial, fourteen groups, seventeen references and
+34 unresolved identities. Only 0069 restoration evidence advances; availability stays
+partial pending assembly. Whole July restoration remains active, with full proofreading and
+human acceptance pending.
+
+Next: actually assemble CD-ROM 0069 across PDF 529–535 / printed 520–526 from immutable
+batch-93-r01/cdrom-a and batch-94-r01/cdrom-b. Independently regenerate both recipes and
+preserve all 642 native files, 161 crops, 155 original OCR outcomes, 141 text blocks, 489
+reading rows, 490 regional fragments and 3,160 current native typed occurrences. The eight
+inherited ranges in b belong to a and must project from that owner. No inter-native
+paragraph join is required. Preserve 58 main paragraphs, eight section contexts, twelve
+local join groups/fourteen boundaries, six original images, three literal captions, three
+searchable tables with 58 fields/26 physical rows, seven displayed calculations and all
+repeated MB variants, source author and separate editor, and 28 literal anomaly notes.
+Verify complete ownership before marking 0069 readable. Then reconcile hardware0067 and the
+appropriate pending families; preserve all 81 classification pins, 25 frozen assembly
+adapters from batch92 and three local OCR adapters from batch87. Continue remaining July
+identities, 560-page accounting, cover and standalone JSON/assets closeout. Incomplete
+donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit
+limits. No automatic CD3 association, reader rebuild or deployment.
