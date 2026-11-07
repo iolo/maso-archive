@@ -8249,3 +8249,50 @@ Groups0059/0060,0051/0052 and forum0043 require separate family reconciliation. 
 remaining identities,560-page accounting,cover and standalone JSON/assets closeout.
 Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes
 and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
+## 2026-11-07 — July CodeView complete native
+
+July batch 78 completes CodeView0062, 디버깅 툴 탐사[1] : 비주얼 C++가 선택한 디버거 코드뷰, across PDF489–494
+/ printed480–485. All six pages are preserved in one complete native; no article assembly
+remains. Source author 이상훈 and affiliation 휴먼컴퓨터 연구원 remain distinct from editor 박재곤. The
+literal even-page 프로그래밍포럼 banner differs from canonical ancestor OS·애플리케이션 포럼; canonical
+identity and hierarchy remain unchanged.
+
+All 346 selected, independent and fresh-process files match. The article preserves 88
+pixel-exact crops, 83 original OCR outcomes, 70 text blocks, 334 reading rows, 335 regional
+fragments, 36 main-prose paragraphs and 1,591 typed ranges. Four original screenshots retain
+four literal numbered captions. The ending emblem is a separate uncaptioned image. An
+independent six-line pullquote and eight-field product box retain their contexts, including
+five feature statements and historical vendor/telephone details.
+
+The three broad diagnostic categories remain separate from five detailed circled categories.
+Their markers and payloads retain exact occurrences, including four summary-marker
+references. Eight section contexts, seven debugger commands, two keyboard shortcuts,
+compiler options, window and run-mode descriptions retain their source roles. Ten local
+groups preserve thirteen boundaries, including the zero-separator opening dropcap. The
+literal C preprocessor/inline-assembly example retains three physical rows without blank
+rows, plus separate prose explanations. Optio/ns, Win/Main and /D/_DEBUG physical line
+breaks remain unchanged.
+
+Printed Restore and 코드가 실행된다. remain unrepaired. Two independent __asm occurrences retain
+underscore and spacing candidates; indentation and Unicode glyph representations do not
+certify original encoded bytes. Three retained pre-OCR maps record 86 adjustments. One
+prospectively timed source pass, zero OCR retries, post-OCR crop changes, refinements after
+first serialization or post-pass changes. The conclusion and separate editor end on494 above
+excluded advertising; PDF488 is advertising and495 opens a distinct VRML article.
+
+All 56 invalid cases reject. All 71,490 earlier July files, thirty core modules, twenty-one
+frozen assembly adapters, the batch72 local OCR adapter, batch76 figure-repair builder and
+75 classification pins remain exact. The unchanged fresh 214-test batch77 baseline is
+reused. One canonical task, six newly mapped pages and two outside lookup pages remain
+within limits. Totals: 33 readable articles, zero partials, twelve groups, seventeen
+references and 41 unresolved identities. Groups0059/0060,0051/0052 and forum0043 remain
+incomplete.
+
+Next: verify VRML0063 from its observed PDF495/printed486 opening, source author 최희창.
+Establish the actual ending and intervening continuity before mapping at most six pages.
+Preserve complete CodeView0062 batch-78-r01/codeview, CCC/Manager0061 article-ccc-r01 and
+all immutable natives/adapters. Reconcile pending group families separately. Continue
+remaining July identities,560-page accounting,cover and standalone JSON/assets closeout.
+Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and
+execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.

@@ -8462,12 +8462,108 @@
       "toc_entry_id": "maso-1995-07-toc-0062",
       "title": "디버깅 툴 탐사[1] : 비주얼 C++가 선택한 디버거, 코드뷰",
       "parent_id": "maso-1995-07-toc-0060",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 78 completes CodeView0062, 디버깅 툴 탐사[1] : 비주얼 C++가 선택한 디버거 코드뷰, across PDF489–494 / printed480–485. All six pages are preserved in one complete native; no article assembly remains. Source author 이상훈 and affiliation 휴먼컴퓨터 연구원 remain distinct from editor 박재곤. The literal even-page 프로그래밍포럼 banner differs from canonical ancestor OS·애플리케이션 포럼; canonical identity and hierarchy remain unchanged.",
+        "All 346 selected, independent and fresh-process files match. The article preserves 88 pixel-exact crops, 83 original OCR outcomes, 70 text blocks, 334 reading rows, 335 regional fragments, 36 main-prose paragraphs and 1,591 typed ranges. Four original screenshots retain four literal numbered captions. The ending emblem is a separate uncaptioned image. An independent six-line pullquote and eight-field product box retain their contexts, including five feature statements and historical vendor/telephone details.",
+        "The three broad diagnostic categories remain separate from five detailed circled categories. Their markers and payloads retain exact occurrences, including four summary-marker references. Eight section contexts, seven debugger commands, two keyboard shortcuts, compiler options, window and run-mode descriptions retain their source roles. Ten local groups preserve thirteen boundaries, including the zero-separator opening dropcap. The literal C preprocessor/inline-assembly example retains three physical rows without blank rows, plus separate prose explanations. Optio/ns, Win/Main and /D/_DEBUG physical line breaks remain unchanged.",
+        "Printed Restore and 코드가 실행된다. remain unrepaired. Two independent __asm occurrences retain underscore and spacing candidates; indentation and Unicode glyph representations do not certify original encoded bytes. Three retained pre-OCR maps record 86 adjustments. One prospectively timed source pass, zero OCR retries, post-OCR crop changes, refinements after first serialization or post-pass changes. The conclusion and separate editor end on494 above excluded advertising; PDF488 is advertising and495 opens a distinct VRML article.",
+        "All 56 invalid cases reject. All 71,490 earlier July files, thirty core modules, twenty-one frozen assembly adapters, the batch72 local OCR adapter, batch76 figure-repair builder and 75 classification pins remain exact. The unchanged fresh 214-test batch77 baseline is reused. One canonical task, six newly mapped pages and two outside lookup pages remain within limits. Totals: 33 readable articles, zero partials, twelve groups, seventeen references and 41 unresolved identities. Groups0059/0060,0051/0052 and forum0043 remain incomplete.",
+        "Next: verify VRML0063 from its observed PDF495/printed486 opening, source author 최희창. Establish the actual ending and intervening continuity before mapping at most six pages. Preserve complete CodeView0062 batch-78-r01/codeview, CCC/Manager0061 article-ccc-r01 and all immutable natives/adapters. Reconcile pending group families separately. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-78-r01/codeview",
+        "article_id": "scan-maso-1995-07-toc-0062",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-78-r01/codeview/manifest.json",
+          "sha256": "170be97f3b37cc345caac952a48d5215a9c0facf9c4b3f67a000bfd9d3c48682",
+          "bytes": 58178
+        },
+        "coverage": {
+          "pdf_pages": [
+            489,
+            490,
+            491,
+            492,
+            493,
+            494
+          ],
+          "printed_pages": [
+            "480",
+            "481",
+            "482",
+            "483",
+            "484",
+            "485"
+          ],
+          "regions": 88,
+          "blocks": 70,
+          "figures": 5,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 489,
+        "actual_end_pdf_page": 494,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            489,
+            490,
+            491,
+            492,
+            493,
+            494
+          ],
+          "current_pdf_pages": [
+            489,
+            490,
+            491,
+            492,
+            493,
+            494
+          ],
+          "current_printed_pages": [
+            "480",
+            "481",
+            "482",
+            "483",
+            "484",
+            "485"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 489,
+          "observed_ending_pdf_page": 494,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-78/source-reviewed.json",
+            "sha256": "d52a9097b97d69e765febf7027385c1e74e267a35d25a707c414865a000daeec",
+            "bytes": 1171
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-78/validation.json",
+          "sha256": "0a88da4c65da23cbad8018768d86b7ba63671c3f5de226656c48898719a21c44",
+          "bytes": 2346
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-78/reproduction.json",
+          "sha256": "b766a8cd24bfa191fc18bb81ed1213ac8813bac04aca771cdec6e4730aa346ad",
+          "bytes": 66469
+        },
+        "checkpoint": "batch-78"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0063",
@@ -12065,22 +12161,59 @@
         "sha256": "5eb81dfd5ec18bc518bd0db37aba778315aff76acab95ed5a292797c44280f44",
         "bytes": 83450
       }
+    },
+    {
+      "name": "1995-07-batch-78",
+      "status": "complete",
+      "completed_at": "2026-11-07T10:02:25.834991+00:00",
+      "goal": "Preserve complete CodeView0062 PDF489–494 as an immutable native.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0062"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        489,
+        490,
+        491,
+        492,
+        493,
+        494
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        488,
+        495
+      ],
+      "recognition_invocations": 83,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-78/validation.json",
+        "sha256": "0a88da4c65da23cbad8018768d86b7ba63671c3f5de226656c48898719a21c44",
+        "bytes": 2346
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-78/reproduction.json",
+        "sha256": "b766a8cd24bfa191fc18bb81ed1213ac8813bac04aca771cdec6e4730aa346ad",
+        "bytes": 66469
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 32,
+    "readable": 33,
     "partial": 0,
     "group_headings": 12,
     "section_references": 17,
-    "unresolved": 42
+    "unresolved": 41
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify CodeView0062 from its observed PDF489/printed480 opening, source author 이상훈. Establish the actual ending and intervening continuity before mapping at most six pages. Preserve complete CCC/Manager0061 article-ccc-r01 and both immutable natives. Groups0059/0060,0051/0052 and forum0043 remain incomplete pending separate family reconciliation. Retain75 classification pins,21 frozen assembly adapters,the batch72 local OCR adapter and batch76 figure-repair builder. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify VRML0063 from its observed PDF495/printed486 opening, source author 최희창. Establish the actual ending and intervening continuity before mapping at most six pages. Preserve complete CodeView0062 batch-78-r01/codeview, CCC/Manager0061 article-ccc-r01 and all immutable natives/adapters. Reconcile pending group families separately. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
