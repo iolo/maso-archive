@@ -2443,6 +2443,63 @@ reconciliation,560-page accounting,cover and standalone JSON/assets closeout. In
 donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution
 remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 76 preserves CCC/Manager0061 final PDF487 / printed478 as a second immutable
+native. Full481–487 extent is now preserved across two packages; actual assembly remains
+required. Opening batch75-r01/ccc-a remains unchanged. The incoming components-engine
+paragraph continues486→487 with one LF, without word splicing. The lower487 recruitment
+advertisement,488 full-page advertisement and489 CodeView opening remain excluded.
+
+All52 selected, independent and fresh-process files match. The final native retains eleven
+pixel-exact crops, ten original OCR outcomes, eight text blocks,38 reading/regional rows,
+six prose paragraphs and212 current typed ranges, plus seven earlier-native context
+occurrences. Two local groups preserve the conclusion's column continuation and the
+disclosure's separately cropped final email row. The source author's former development
+role, departure, independence and endorsement qualification retain their distinct ranges.
+Historical telephone,fax,email and30-day trial claims remain literal and unverified.
+Separate editor 정인성 remains distinct from source author 박진성 in the opening native.
+
+An enlarged review found the ending emblem's left edge clipped. One figure-only crop repair
+during the source pass expands its rectangle; the original crop,map and OCR evidence remain.
+All ten text crops,raw text,TSV and original settings are byte-identical. A pinned local
+builder accepts the changed map only after proving the single figure change and unchanged
+text-region/OCR evidence; it retains the original recognition-map hash in every setting and
+exports the original map,repair evidence and builder. Thirteen invalid map/provenance
+variants reject. The thirty core modules remain unchanged.
+
+Two pre-OCR maps record eleven top-margin adjustments; one post-OCR map records the single
+figure repair. One prospectively timed source pass, zero recognition retries, zero text-crop
+changes, zero refinements after text serialization and zero post-pass changes. Printed
+소프툴사를/소프트툴사로 and 혼돈 remain unrepaired. Two export attempts failed on private metadata paths
+before publishing any package; both scripts and logs remain. The selected metadata revision
+changes only raw-review references to the copied bundle. A retained negative-test fixture
+initially used the wrong count-field name; correcting the fixture required no builder or
+package change.
+
+All35 native semantic invalid cases and13 figure-repair invalid cases reject. All70,730
+earlier July files,thirty core modules,twenty frozen assembly adapters,the batch72 local OCR
+adapter and75 classification pins remain exact. The unchanged fresh214-test batch73 baseline
+is reused, with targeted verification of the new local builder. Totals:31 readable articles,
+one partial, twelve groups, seventeen references and42 unresolved identities.
+Groups0059/0060 remain incomplete.
+
+Next: actually assemble CCC/Manager0061 across PDF481–487 / printed472–478 from immutable
+ccc-a(batch75-r01) and ccc-b(batch76-r01). Regenerate a with the core builder and b with the
+pinned batch76 figure_repair_build.py using ccc-b/package-recipe-r02.json;preserve all443
+native files and original OCR settings. Perform exactly one cross-native prose join from
+a:components-engine-a to b:components-engine-b with LF and no word splice. Preserve111
+crops,104 OCR outcomes,89 native text blocks,407 reading rows,408 regional fragments,2,404
+native current typed ranges and seven earlier-native occurrences in b that belong to a.
+Retain six screenshots,five captions,ending emblem,four-line pullquote,product/contact
+box,nine workflow steps,three examples with16 physical rows and eleven circled
+annotations,twelve prose annotation references,nine source candidates and eight source
+anomalies. Preserve the author disclosure,contact details and separate editor;validate every
+projected range and the repaired figure's provenance before marking0061 readable. Retain75
+classification pins,20 frozen assembly adapters,the batch72 OCR adapter and batch76
+figure-repair builder. Continue remaining identities including CodeView0062 on489/480,family
+reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete
+donated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain
+explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 

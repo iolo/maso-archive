@@ -8208,50 +8208,42 @@
         "Nine workflow steps retain their circled markers and physical order. Step2 crosses columns, step8 crosses pages, and step7 retains two paragraphs. Five feature contexts, nine main sections and406 source fields validate. Ten local groups preserve thirteen boundaries, including a zero-separator dropcap. The three literal examples retain16 physical rows without blank rows. Eleven circled delta markers remain explanatory annotations separate from command payloads; twelve prose references and nine numbered sample rows link to their exact occurrences.",
         "Printed forward/reverse-delta terminology, mixed-case filenames and awkward operational wording remain unrepaired. Nine uncertainty occurrences retain ambiguous command glyphs, narrow spaces, quotation marks, a vowel and an extra dot; original scans remain authoritative. Three retained pre-OCR maps record112 adjustments. One prospectively timed source pass includes the interruption and status inquiry in elapsed wall time. Zero OCR retries, post-OCR crop changes, refinements after first text serialization or post-pass changes. The earlier failed map-refinement attempt remains unchanged.",
         "All54 invalid cases reject. All69,354 earlier July files,863 saved OCR-stage files,thirty core modules,twenty frozen assembly adapters,the batch72 local OCR adapter and75 classification pins remain exact. The unchanged fresh214-test batch73 baseline is reused. Totals:31 readable articles, one partial, twelve groups, seventeen references and42 unresolved identities. Groups0059/0060 remain incomplete.",
-        "Next: restore CCC/Manager0061 final PDF487 / printed478 as a separate immutable native, then actually assemble481–487. Preserve opening batch75-r01/ccc-a and reuse verified full-extent evidence. Join the outgoing components-engine paragraph across486→487 with one LF and no word splice: current text ends 소스 and the next fragment starts 를 원하는 방향으로 변경시켰지만,. Preserve the conclusion, author disclosure, contact details, ending emblem and separate editor 정인성; exclude the lower-page recruitment advertisement and full-page advertisement488. CodeView0062 opens489/480. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Continue remaining July identities, family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment."
+        "Next: restore CCC/Manager0061 final PDF487 / printed478 as a separate immutable native, then actually assemble481–487. Preserve opening batch75-r01/ccc-a and reuse verified full-extent evidence. Join the outgoing components-engine paragraph across486→487 with one LF and no word splice: current text ends 소스 and the next fragment starts 를 원하는 방향으로 변경시켰지만,. Preserve the conclusion, author disclosure, contact details, ending emblem and separate editor 정인성; exclude the lower-page recruitment advertisement and full-page advertisement488. CodeView0062 opens489/480. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Continue remaining July identities, family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
+        "July batch 76 preserves CCC/Manager0061 final PDF487 / printed478 as a second immutable\nnative. Full481–487 extent is now preserved across two packages; actual assembly remains\nrequired. Opening batch75-r01/ccc-a remains unchanged. The incoming components-engine\nparagraph continues486→487 with one LF, without word splicing. The lower487 recruitment\nadvertisement,488 full-page advertisement and489 CodeView opening remain excluded.",
+        "All52 selected, independent and fresh-process files match. The final native retains eleven\npixel-exact crops, ten original OCR outcomes, eight text blocks,38 reading/regional rows,\nsix prose paragraphs and212 current typed ranges, plus seven earlier-native context\noccurrences. Two local groups preserve the conclusion's column continuation and the\ndisclosure's separately cropped final email row. The source author's former development\nrole, departure, independence and endorsement qualification retain their distinct ranges.\nHistorical telephone,fax,email and30-day trial claims remain literal and unverified.\nSeparate editor 정인성 remains distinct from source author 박진성 in the opening native.",
+        "An enlarged review found the ending emblem's left edge clipped. One figure-only crop repair\nduring the source pass expands its rectangle; the original crop,map and OCR evidence remain.\nAll ten text crops,raw text,TSV and original settings are byte-identical. A pinned local\nbuilder accepts the changed map only after proving the single figure change and unchanged\ntext-region/OCR evidence; it retains the original recognition-map hash in every setting and\nexports the original map,repair evidence and builder. Thirteen invalid map/provenance\nvariants reject. The thirty core modules remain unchanged.",
+        "Two pre-OCR maps record eleven top-margin adjustments; one post-OCR map records the single\nfigure repair. One prospectively timed source pass, zero recognition retries, zero text-crop\nchanges, zero refinements after text serialization and zero post-pass changes. Printed\n소프툴사를/소프트툴사로 and 혼돈 remain unrepaired. Two export attempts failed on private metadata paths\nbefore publishing any package; both scripts and logs remain. The selected metadata revision\nchanges only raw-review references to the copied bundle. A retained negative-test fixture\ninitially used the wrong count-field name; correcting the fixture required no builder or\npackage change.",
+        "All35 native semantic invalid cases and13 figure-repair invalid cases reject. All70,730\nearlier July files,thirty core modules,twenty frozen assembly adapters,the batch72 local OCR\nadapter and75 classification pins remain exact. The unchanged fresh214-test batch73 baseline\nis reused, with targeted verification of the new local builder. Totals:31 readable articles,\none partial, twelve groups, seventeen references and42 unresolved identities.\nGroups0059/0060 remain incomplete.",
+        "Next: actually assemble CCC/Manager0061 across PDF481–487 / printed472–478 from immutable\nccc-a(batch75-r01) and ccc-b(batch76-r01). Regenerate a with the core builder and b with the\npinned batch76 figure_repair_build.py using ccc-b/package-recipe-r02.json;preserve all443\nnative files and original OCR settings. Perform exactly one cross-native prose join from\na:components-engine-a to b:components-engine-b with LF and no word splice. Preserve111\ncrops,104 OCR outcomes,89 native text blocks,407 reading rows,408 regional fragments,2,404\nnative current typed ranges and seven earlier-native occurrences in b that belong to a.\nRetain six screenshots,five captions,ending emblem,four-line pullquote,product/contact\nbox,nine workflow steps,three examples with16 physical rows and eleven circled\nannotations,twelve prose annotation references,nine source candidates and eight source\nanomalies. Preserve the author disclosure,contact details and separate editor;validate every\nprojected range and the repaired figure's provenance before marking0061 readable. Retain75\nclassification pins,20 frozen assembly adapters,the batch72 OCR adapter and batch76\nfigure-repair builder. Continue remaining identities including CodeView0062 on489/480,family\nreconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete\ndonated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain\nexplicit limits. No automatic CD3 association,reader rebuild or deployment."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-75-r01/ccc-a",
+        "directory": "archive/pdf/1995-07/packages/batch-76-r01/ccc-b",
         "article_id": "scan-maso-1995-07-toc-0061",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-75-r01/ccc-a/manifest.json",
-          "sha256": "4b080a5c3693f4caff96a7b67b94f181b1a8dc3e1bb9977fbc651d67de0baac7",
-          "bytes": 65863
+          "path": "archive/pdf/1995-07/packages/batch-76-r01/ccc-b/manifest.json",
+          "sha256": "a754edf24bbf6b70d4be51aa2c820df421e9b53c94ceb040af5dc52bb173a3c1",
+          "bytes": 9072
         },
         "coverage": {
           "pdf_pages": [
-            481,
-            482,
-            483,
-            484,
-            485,
-            486
+            487
           ],
           "printed_pages": [
-            "472",
-            "473",
-            "474",
-            "475",
-            "476",
-            "477"
+            "478"
           ],
-          "regions": 100,
-          "blocks": 81,
-          "figures": 6,
-          "deferred_pdf_pages": [
-            487
-          ]
+          "regions": 11,
+          "blocks": 8,
+          "figures": 1,
+          "deferred_pdf_pages": []
         },
         "body_pages_complete": false,
-        "prose_complete": false,
+        "prose_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "actual_start_pdf_page": 481,
         "actual_end_pdf_page": 487,
         "full_extent_verified": true,
-        "remaining_source_pages": [
-          487
-        ],
+        "remaining_source_pages": [],
         "segment_scope": {
           "full_pdf_pages": [
             481,
@@ -8263,49 +8255,217 @@
             487
           ],
           "current_pdf_pages": [
-            481,
-            482,
-            483,
-            484,
-            485,
-            486
+            487
           ],
           "current_printed_pages": [
-            "472",
-            "473",
-            "474",
-            "475",
-            "476",
-            "477"
+            "478"
           ],
           "current_segment_pages_complete": true,
           "body_pages_complete": false,
-          "prose_complete": false,
+          "prose_complete": true,
           "actual_start_pdf_page": 481,
           "observed_ending_pdf_page": 487,
-          "remaining_source_pages": [
-            487
-          ],
+          "remaining_source_pages": [],
           "assembly_required": true,
           "complete_article_assembly_pending": true,
           "remaining_extent_unverified": false,
           "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-75/source-reviewed.json",
-            "sha256": "24b8124d28f1aad1a0ad3844fe518194d5926c04e46d56054ee52dc19770e080",
-            "bytes": 6045
+            "path": "archive/pdf/1995-07/restoration/batch-76/source-reviewed.json",
+            "sha256": "f02d7b7d24958fcb32b7727d2471197917a192b221a572ad33622a0cfe99344c",
+            "bytes": 1802
           }
         },
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-75/validation.json",
-          "sha256": "e1b6114679906ef950b892807bfedbb2e238ef775d96eca5ec991399e60ea2e2",
-          "bytes": 2428
+          "path": "archive/pdf/1995-07/restoration/batch-76/validation.json",
+          "sha256": "e6a1cede695739aa9867abeaff606db23893cc0bfe777dc11fe8fde99b7d0f2c",
+          "bytes": 2493
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-75/reproduction.json",
-          "sha256": "95c1e8e921a0632977bc33afc31727a1b15bc35c99fdaa1e0928bb6ca98b036a",
-          "bytes": 75043
+          "path": "archive/pdf/1995-07/restoration/batch-76/reproduction.json",
+          "sha256": "5c4d21033fe0106467d568330f26b75aaa494d879fbad8a559f50ca27f730e87",
+          "bytes": 11329
         },
-        "checkpoint": "batch-75"
+        "checkpoint": "batch-76",
+        "immutable_native_segments": [
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-75-r01/ccc-a",
+            "article_id": "scan-maso-1995-07-toc-0061",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-75-r01/ccc-a/manifest.json",
+              "sha256": "4b080a5c3693f4caff96a7b67b94f181b1a8dc3e1bb9977fbc651d67de0baac7",
+              "bytes": 65863
+            },
+            "coverage": {
+              "pdf_pages": [
+                481,
+                482,
+                483,
+                484,
+                485,
+                486
+              ],
+              "printed_pages": [
+                "472",
+                "473",
+                "474",
+                "475",
+                "476",
+                "477"
+              ],
+              "regions": 100,
+              "blocks": 81,
+              "figures": 6,
+              "deferred_pdf_pages": [
+                487
+              ]
+            },
+            "body_pages_complete": false,
+            "prose_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 481,
+            "actual_end_pdf_page": 487,
+            "full_extent_verified": true,
+            "remaining_source_pages": [
+              487
+            ],
+            "segment_scope": {
+              "full_pdf_pages": [
+                481,
+                482,
+                483,
+                484,
+                485,
+                486,
+                487
+              ],
+              "current_pdf_pages": [
+                481,
+                482,
+                483,
+                484,
+                485,
+                486
+              ],
+              "current_printed_pages": [
+                "472",
+                "473",
+                "474",
+                "475",
+                "476",
+                "477"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": false,
+              "actual_start_pdf_page": 481,
+              "observed_ending_pdf_page": 487,
+              "remaining_source_pages": [
+                487
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-75/source-reviewed.json",
+                "sha256": "24b8124d28f1aad1a0ad3844fe518194d5926c04e46d56054ee52dc19770e080",
+                "bytes": 6045
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-75/validation.json",
+              "sha256": "e1b6114679906ef950b892807bfedbb2e238ef775d96eca5ec991399e60ea2e2",
+              "bytes": 2428
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-75/reproduction.json",
+              "sha256": "95c1e8e921a0632977bc33afc31727a1b15bc35c99fdaa1e0928bb6ca98b036a",
+              "bytes": 75043
+            },
+            "checkpoint": "batch-75"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-76-r01/ccc-b",
+            "article_id": "scan-maso-1995-07-toc-0061",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-76-r01/ccc-b/manifest.json",
+              "sha256": "a754edf24bbf6b70d4be51aa2c820df421e9b53c94ceb040af5dc52bb173a3c1",
+              "bytes": 9072
+            },
+            "coverage": {
+              "pdf_pages": [
+                487
+              ],
+              "printed_pages": [
+                "478"
+              ],
+              "regions": 11,
+              "blocks": 8,
+              "figures": 1,
+              "deferred_pdf_pages": []
+            },
+            "body_pages_complete": false,
+            "prose_complete": true,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 481,
+            "actual_end_pdf_page": 487,
+            "full_extent_verified": true,
+            "remaining_source_pages": [],
+            "segment_scope": {
+              "full_pdf_pages": [
+                481,
+                482,
+                483,
+                484,
+                485,
+                486,
+                487
+              ],
+              "current_pdf_pages": [
+                487
+              ],
+              "current_printed_pages": [
+                "478"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": true,
+              "actual_start_pdf_page": 481,
+              "observed_ending_pdf_page": 487,
+              "remaining_source_pages": [],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-76/source-reviewed.json",
+                "sha256": "f02d7b7d24958fcb32b7727d2471197917a192b221a572ad33622a0cfe99344c",
+                "bytes": 1802
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-76/validation.json",
+              "sha256": "e6a1cede695739aa9867abeaff606db23893cc0bfe777dc11fe8fde99b7d0f2c",
+              "bytes": 2493
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-76/reproduction.json",
+              "sha256": "5c4d21033fe0106467d568330f26b75aaa494d879fbad8a559f50ca27f730e87",
+              "bytes": 11329
+            },
+            "checkpoint": "batch-76"
+          }
+        ],
+        "all_native_pdf_pages": [
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487
+        ],
+        "source_extent_preserved_across_natives": true
       }
     },
     {
@@ -11846,6 +12006,42 @@
         "sha256": "5b0fbfb54a0c29c2a75215125fc65d45d493733f0cc3c0c74f6896e734575bf7",
         "bytes": 4128
       }
+    },
+    {
+      "name": "1995-07-batch-76",
+      "status": "complete",
+      "completed_at": "2026-11-07T09:26:03.176170+00:00",
+      "goal": "Preserve CCC/Manager0061 final487 as a second immutable partial native;actual assembly remains separate.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0061"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 1,
+      "mapped_pdf_pages": [
+        487
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        486,
+        488,
+        489
+      ],
+      "recognition_invocations": 10,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 1,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-76/validation.json",
+        "sha256": "e6a1cede695739aa9867abeaff606db23893cc0bfe777dc11fe8fde99b7d0f2c",
+        "bytes": 2493
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-76/reproduction.json",
+        "sha256": "5c4d21033fe0106467d568330f26b75aaa494d879fbad8a559f50ca27f730e87",
+        "bytes": 11329
+      }
     }
   ],
   "totals": {
@@ -11861,7 +12057,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: restore CCC/Manager0061 final PDF487 / printed478 as a separate immutable native, then actually assemble481–487. Preserve opening batch75-r01/ccc-a and reuse verified full-extent evidence. Join the outgoing components-engine paragraph across486→487 with one LF and no word splice: current text ends 소스 and the next fragment starts 를 원하는 방향으로 변경시켰지만,. Preserve the conclusion, author disclosure, contact details, ending emblem and separate editor 정인성; exclude the lower-page recruitment advertisement and full-page advertisement488. CodeView0062 opens489/480. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Continue remaining July identities, family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: actually assemble CCC/Manager0061 across PDF481–487 / printed472–478 from immutable ccc-a(batch75-r01) and ccc-b(batch76-r01). Regenerate a with the core builder and b with the pinned batch76 figure_repair_build.py using ccc-b/package-recipe-r02.json;preserve all443 native files and original OCR settings. Perform exactly one cross-native prose join from a:components-engine-a to b:components-engine-b with LF and no word splice. Preserve111 crops,104 OCR outcomes,89 native text blocks,407 reading rows,408 regional fragments,2,404 native current typed ranges and seven earlier-native occurrences in b that belong to a. Retain six screenshots,five captions,ending emblem,four-line pullquote,product/contact box,nine workflow steps,three examples with16 physical rows and eleven circled annotations,twelve prose annotation references,nine source candidates and eight source anomalies. Preserve the author disclosure,contact details and separate editor;validate every projected range and the repaired figure's provenance before marking0061 readable. Retain75 classification pins,20 frozen assembly adapters,the batch72 OCR adapter and batch76 figure-repair builder. Continue remaining identities including CodeView0062 on489/480,family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
