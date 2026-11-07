@@ -15591,7 +15591,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify game bundle 0083, 게임방, from its observed PDF 197 / printed 186 opening.\nEstablish the actual ending and interior continuity before mapping a native of at most six\npages. Preserve each distinct game notice, boxed context, title, prose, screenshot and\nliteral filename, size and download location; carry any true continuations across pages\nwithout merging independent games. Reuse saved PDF 196–198 boundary renders where\napplicable. Then continue CD 0084 and the remaining July identities, library0070/forum0059\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.\nPreserve all 111 classification pins, 27 frozen assembly adapters from batch101 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification\nlimit. No automatic CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Resume batch109 game bundle0083 from saved mapped OCR. Read all58 raw drafts before starting one prospectively timed source correction pass across PDF197–198/printed186–187. Reuse games/map.json (second map), layout.json and all successful OCR; both pages fit one complete native. Seven independent notices retain eight screenshots, one publication ending mark,21 literal filename/size/download fields and five paragraph continuations. Pinball alone crosses197 to198; Fire and Ice remains boxed. All seven notices are parent-owned contexts with no canonical child identities. Preserve physical wraps and printed spelling, identifiers and historical claims. Export and independently reproduce the complete native in a fresh process, validating every range/context. Retain111 classification pins,27 frozen assembly adapters from batch101,three local OCR adapters from batch87 and the batch76 figure builder. Then verify CD0084 from199, continue remaining July identities,library0070/forum0059 reconciliation,560-page accounting,cover verification and standalone JSON/assets closeout. Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16148,5 +16148,47 @@
       "sha256": "01c71cdb62f109661a2b7c7399a28557030f0d284ddaae7e6d7e438892e1abd4",
       "bytes": 30128
     }
-  ]
+  ],
+  "in_progress_checkpoint": {
+    "name": "1995-07-batch-109",
+    "status": "mapped-and-recognized;source-correction-not-started",
+    "toc_entry_ids": [
+      "maso-1995-07-toc-0083"
+    ],
+    "toc_entry_id": "maso-1995-07-toc-0083",
+    "full_pdf_pages": [
+      197,
+      198
+    ],
+    "mapped_pdf_pages": [
+      197,
+      198
+    ],
+    "remaining_pdf_pages": [],
+    "regions": 67,
+    "ocr_outcomes": 58,
+    "pre_ocr_map_versions": 2,
+    "ocr_retries": 0,
+    "availability_changed": false,
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-109/source-reviewed.json",
+      "sha256": "34a541371d2e2f1e15d0d70be0150d567697fba46458b335a30dac092a776b98",
+      "bytes": 6383
+    },
+    "map": {
+      "path": "archive/pdf/1995-07/restoration/batch-109/games/map.json",
+      "sha256": "9b7d8af29fffbcaf3e82531e0055cb092a6a7f35b29384d4a5ffdaa5392c10f0",
+      "bytes": 22177
+    },
+    "raw_drafts": {
+      "path": "archive/pdf/1995-07/restoration/batch-109/initial-drafts.json",
+      "sha256": "13ccf7edfbab6cd990fa8f12ae9444a6c9e8bdbe9af3fb9372e683f3a81916a3",
+      "bytes": 6968
+    },
+    "audit": {
+      "path": "archive/pdf/1995-07/restoration/batch-109/ocr-stage-audit.json",
+      "sha256": "096972d0ccb94633092e055f4ffcb0ef2e544e03b2cc86defa0115aaae0f28fa",
+      "bytes": 2165
+    }
+  }
 }

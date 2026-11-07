@@ -4322,6 +4322,47 @@ Preserve all 111 classification pins, 27 frozen assembly adapters from batch101 
 local OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification
 limit. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 109 is in progress at a saved mapping/OCR stage for game bundle
+0083, 게임방. Direct review of PDF 196–202 establishes its complete extent as PDF
+197–198 / printed 186–187. Public software ends on 196; CD-title reviews begin on
+199. Both game pages fit one complete native. Source correction and package export
+have not started.
+
+Seven independent notices remain separate: F1, 판타지 핀볼, boxed 파이어 앤 아이스,
+사일런트 3, 하이웨이 헌터, 브레이크 머신 and SH3. All are parent-owned contexts
+without separate canonical child identities. Eight original screenshots and one
+publication ending mark retain their source roles. No byline or printed screenshot
+captions were observed. Twenty-one filename, file-size and download fields retain
+separate notice owners. Five paragraph groups preserve five boundaries; Pinball's
+introduction alone crosses from 197 to 198. There is no incoming or outgoing prose join.
+
+Two retained maps document fifteen pre-OCR crop changes. The revised Fire and Ice
+crops separate the five-row companion paragraph, four-row key paragraph and final
+left-column gesture line. Other changes recover clipped field/paragraph edges and
+retain screenshot borders. All five revised crop sheets and two final overlays were
+directly reviewed; both sets of 67 crops are pixel-exact and remain preserved.
+
+All 58 original Tesseract outputs and settings validate: kor+eng, OEM 1 / PSM 6,
+one thread and 3000-pixel rendering. No empty drafts and zero retries. Raw OCR is
+not yet restored text. The next source pass must preserve literal spelling, file
+identifiers, sizes, download locations, physical wraps and historical claims.
+
+All 91,073 earlier July files, thirty core modules, 27 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and 111 classification pins
+remain exact. The unchanged fresh 214-test batch101 baseline is reused. All 108
+completed checkpoints and outcomes remain unchanged: 40 readable articles, zero
+partials, fifteen groups, twenty-seven references and 21 unresolved identities.
+Batch109 and the whole July restoration remain in progress.
+
+Next: read all 58 drafts, then start one prospective source correction pass, export
+and independently reproduce the complete game0083 native. Reuse the selected second
+map and successful OCR. Then verify CD0084 from PDF199 and continue remaining July
+identities, library0070/forum0059 reconciliation, 560-page accounting, cover verification
+and standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits. No automatic
+CD3 association, reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-109/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
