@@ -7413,3 +7413,41 @@ Later 449–452 and actual assembly remain separate. Whole-issue 560-page accoun
 and standalone JSON/assets closeout remain pending; incomplete donated TOCs, full
 proofreading, human acceptance, exact source bytes and execution remain explicit limits.
 Evidence: `archive/pdf/1995-07/restoration/batch-64/ocr-stage-audit.json`.
+
+## 2026-11-07 — July wordprocessor opening native complete
+
+July batch 64 preserves wordprocessor0055, 윈도우즈용 워드프로세서 제작[3] : 블록 설정과 편집 기능, opening PDF
+443–448 / printed 432–437 as an immutable partial native. Source author 최권택 and printed
+heading 블럭 설정과 편집 기능 remain distinct from canonical metadata. Full extent 443–452 is
+verified; final four pages and actual assembly remain separate.
+
+All 352 selected, independent and fresh-process files match: 88 pixel-exact crops, 85 raw
+OCR outcomes, 71 text blocks, 433 reading rows, 434 regional fragments and 2,678 typed
+ranges. Three original visuals retain no invented captions. Five series rows highlight
+installment three. Three clipboard rules, six tab steps and five deletion steps retain their
+numbered contexts. Twelve code examples retain thirteen regions, 82 physical rows and one
+blank. Twelve join groups preserve fourteen boundaries, including the dropcap and code
+continuation.
+
+Thirty source candidates and 35 printed anomalies remain explicit. The historical Hangul
+product glyph, square-like delimiters, broken bars, literal EV_TEGISTERED,
+END_RESOPONSE_TABLE, EK_NEXTOWRD, 0x4000000 and inconsistent identifiers are preserved
+without program repair. Three pre-OCR maps retain 67 margin adjustments. One paused/resumed
+prospectively timed source pass, zero OCR retries, zero post-OCR crop changes, zero
+within-pass refinements after first serialization and zero post-pass source changes. Two
+source-pass bookkeeping attempts and one verifier count correction are retained; no package
+bytes changed.
+
+All 40 invalid cases reject. All 54,341 earlier July files, thirty core modules, seventeen
+selected frozen adapters and 72 classification pins remain exact. The unchanged fresh
+214-test batch-63 baseline is reused. Totals: 27 readable articles, one partial, ten groups,
+seventeen references and 48 unresolved identities.
+
+Next: restore final wordprocessor pages 449–452 / printed 438–441 as a separate native,
+preserving the incoming PaintStatus = Draw / Caret처럼 physical wrap, remaining editing and
+block-selection sections, final prose, editor credit, ending emblem and
+WORD.HPP/WORD.CPP/WORD.RC directory. Then actually assemble 443–452. Exclude advertisement
+442 and distinct PowerBuilder opening 453. Groups 0051/0052 and ancestor 0043 remain
+incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets closeout
+remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact source
+bytes and execution remain explicit limits.
