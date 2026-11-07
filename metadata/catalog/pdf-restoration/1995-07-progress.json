@@ -10734,7 +10734,8 @@
         "All 425 selected, independent and fresh-process files match byte for byte. The complete native retains 114 pixel-exact crops, 101 original OCR outcomes, 78 text blocks, 337 physical reading rows and 1,823 typed range occurrences. Thirty-six main prose paragraphs and sixteen joins across 23 local boundaries validate. Six word wraps and eleven column wraps retain their source provenance. There are no incoming, outgoing or cross-page prose joins.",
         "All 101 raw drafts preceded one prospectively timed source correction pass. Twelve complete contact sheets and four additional full-size prose crops were reviewed. Three retained pre-OCR maps document 108 adjustments; zero OCR retries, post-OCR crop changes or source refinements after serialization. One transcription-helper failure occurred before any output, was retained and corrected without repeating OCR or restarting the source pass. Seventeen literal source notes and five glyph/mark records preserve spelling, identifiers, sizes, historical claims and the uncertain baseline dot in 사용할. 수도. Original scans remain authoritative; encoded bytes and technical claims are unverified.",
         "All 42 invalid semantic cases reject, including lost notice content, swapped fields, omitted download rows, invented captions, reconstructed screenshot pixels, lost physical-wrap provenance and premature child or family completion. All 89,442 earlier July files, 969 saved-stage files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch76 figure builder and 102 classification pins remain exact. The unchanged fresh 214-test batch101 baseline is reused.",
-        "One canonical task, four mapped pages and three outside lookup pages (192, 197 and 198) stay within checkpoint limits. Only 0077 advances to readable/sample-reviewed. Totals are 40 readable articles, zero partials, fifteen groups, twenty-two references and 26 unresolved identities across 105 completed checkpoints. The public-software child family, library0070, forum0059 and whole July restoration remain incomplete."
+        "One canonical task, four mapped pages and three outside lookup pages (192, 197 and 198) stay within checkpoint limits. Only 0077 advances to readable/sample-reviewed. Totals are 40 readable articles, zero partials, fifteen groups, twenty-two references and 26 unresolved identities across 105 completed checkpoints. The public-software child family, library0070, forum0059 and whole July restoration remain incomplete.",
+        "July batch 108 finalizes SHCopyStar 0082 as a non-owning reference into complete\npublic-software parent 0077 and reconciles that public family. Its complete source scope is\nPDF 196 / printed 185 at shcopy-title. Canonical identity, title, order, hierarchy, missing\nfolio and byline remain unchanged. No duplicate body is created. Earlier JAPY, QUICKPLAY,\nNEWTON and WinLabel references remain byte-identical and are carried forward in the final\nexternal status disposition.\n\nSHCopyStar retains eleven regions, ten text blocks, five main prose paragraphs, one\nuncaptained interface screenshot and three filename, size and download fields. All 45\nphysical rows and 112 typed range occurrences validate. Four source notes and one selected\nmark record retain the printed 1,722KB capacity, <F8>/<F9> language toggles and uncertain\nperiod in 사용할. 수도. Its 드/래그 physical word wrap remains explicit. No local, incoming or\noutgoing paragraph join is introduced. The game section opens independently on PDF 197 and\nis excluded.\n\nThe six canonical family members have one owning parent and five final non-owning\nreferences. Eight independent notice contexts form a disjoint partition: METZ, magazine\nmanagement and 4B remain parent-owned without invented canonical identities; JAPY,\nQuickPlay, Newton, WinLabel and SHCopyStar have final references. The two selected\nlibrary/public banners remain parent-only. All 114 regions, 78 text blocks, thirteen\noriginal screenshots with no captions, 24 file fields, 36 main paragraphs, 337 physical\nrows, sixteen local joins and 23 continuation boundaries are accounted for exactly once. All\n572 typed range occurrences across the five references and 57 ranges in the three\nparent-owned review contexts validate.\n\nFour classification/family files match independent and fresh-process exports. All 66 invalid\ncases reject, including lost or overlapping family content, invented unlisted\nidentities/references, duplicate owners, lost earlier references, altered file fields,\nomitted source uncertainties, invented image pixels and premature ancestor or whole-issue\ncompletion. Five full-page source reviews reuse PDF 193–197; earlier full source correction\nand child reviews remain pinned. No new mapping, OCR, source correction or verification\nrepair occurs.\n\nAll 91,043 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 108 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Three new required pins bring\nclassification evidence to 111. External status records all five public references and their\nfamily complete, while immutable native creation-time flags remain historical evidence.\nLibrary0070, forum0059 and whole July remain incomplete.\n\nTwo canonical tasks, zero mapped pages and five source lookup pages stay within limits.\nTotals are 40 readable articles, zero partials, fifteen groups, twenty-seven references and\n21 unresolved identities across 108 completed checkpoints. Full proofreading, human\nacceptance and original encoded bytes remain unverified.\n\nNext: verify game bundle 0083, 게임방, from its observed PDF 197 / printed 186 opening.\nEstablish the actual ending and interior continuity before mapping a native of at most six\npages. Preserve each distinct game notice, boxed context, title, prose, screenshot and\nliteral filename, size and download location; carry any true continuations across pages\nwithout merging independent games. Reuse saved PDF 196–198 boundary renders where\napplicable. Then continue CD 0084 and the remaining July identities, library0070/forum0059\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.\nPreserve all 111 classification pins, 27 frozen assembly adapters from batch101 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification\nlimit. No automatic CD3 association, reader rebuild or deployment."
       ],
       "restoration": {
         "directory": "archive/pdf/1995-07/packages/batch-105-r01/public",
@@ -10814,7 +10815,43 @@
           "sha256": "f9bb4a23a2d1a15156a2198e0fb06286fbf9dd4d6a84cd3994fdb860bf4a9f4d",
           "bytes": 80792
         },
-        "checkpoint": "batch-105"
+        "checkpoint": "batch-105",
+        "family_reconciliation": {
+          "status": "complete",
+          "child_references_final": true,
+          "child_toc_entry_ids": [
+            "maso-1995-07-toc-0078",
+            "maso-1995-07-toc-0079",
+            "maso-1995-07-toc-0080",
+            "maso-1995-07-toc-0081",
+            "maso-1995-07-toc-0082"
+          ],
+          "body_owner_count": 1,
+          "nonowning_references": 5,
+          "notice_contexts": 8,
+          "uncatalogued_parent_owned_notices": [
+            "metz",
+            "magazine",
+            "fourb"
+          ],
+          "partition": {
+            "path": "archive/pdf/1995-07/classifications/batch-108-r01/family-partition.json",
+            "sha256": "01c71cdb62f109661a2b7c7399a28557030f0d284ddaae7e6d7e438892e1abd4",
+            "bytes": 30128
+          },
+          "status_disposition": {
+            "path": "archive/pdf/1995-07/classifications/batch-108-r01/parent-status-dispositions.json",
+            "sha256": "cfa932801843b0934ff49bf9931e9a068e08cb325a81de964cf64c5760e4664b",
+            "bytes": 5021
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-108/validation.json",
+            "sha256": "c0602f9be2c0fffc6550414dd7cb023a8d994f6e691ea05a38e0ffddb3905a35",
+            "bytes": 2239
+          },
+          "ancestor_families_complete": false,
+          "whole_issue_complete": false
+        }
       }
     },
     {
@@ -11021,12 +11058,52 @@
       "toc_entry_id": "maso-1995-07-toc-0082",
       "title": "카피의 세계로 초대, SHCopyStar for 윈도우즈 3.01",
       "parent_id": "maso-1995-07-toc-0077",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 108 finalizes SHCopyStar 0082 as a non-owning reference into complete\npublic-software parent 0077 and reconciles that public family. Its complete source scope is\nPDF 196 / printed 185 at shcopy-title. Canonical identity, title, order, hierarchy, missing\nfolio and byline remain unchanged. No duplicate body is created. Earlier JAPY, QUICKPLAY,\nNEWTON and WinLabel references remain byte-identical and are carried forward in the final\nexternal status disposition.",
+        "SHCopyStar retains eleven regions, ten text blocks, five main prose paragraphs, one\nuncaptained interface screenshot and three filename, size and download fields. All 45\nphysical rows and 112 typed range occurrences validate. Four source notes and one selected\nmark record retain the printed 1,722KB capacity, <F8>/<F9> language toggles and uncertain\nperiod in 사용할. 수도. Its 드/래그 physical word wrap remains explicit. No local, incoming or\noutgoing paragraph join is introduced. The game section opens independently on PDF 197 and\nis excluded.",
+        "The six canonical family members have one owning parent and five final non-owning\nreferences. Eight independent notice contexts form a disjoint partition: METZ, magazine\nmanagement and 4B remain parent-owned without invented canonical identities; JAPY,\nQuickPlay, Newton, WinLabel and SHCopyStar have final references. The two selected\nlibrary/public banners remain parent-only. All 114 regions, 78 text blocks, thirteen\noriginal screenshots with no captions, 24 file fields, 36 main paragraphs, 337 physical\nrows, sixteen local joins and 23 continuation boundaries are accounted for exactly once. All\n572 typed range occurrences across the five references and 57 ranges in the three\nparent-owned review contexts validate.",
+        "Four classification/family files match independent and fresh-process exports. All 66 invalid\ncases reject, including lost or overlapping family content, invented unlisted\nidentities/references, duplicate owners, lost earlier references, altered file fields,\nomitted source uncertainties, invented image pixels and premature ancestor or whole-issue\ncompletion. Five full-page source reviews reuse PDF 193–197; earlier full source correction\nand child reviews remain pinned. No new mapping, OCR, source correction or verification\nrepair occurs.",
+        "All 91,043 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 108 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Three new required pins bring\nclassification evidence to 111. External status records all five public references and their\nfamily complete, while immutable native creation-time flags remain historical evidence.\nLibrary0070, forum0059 and whole July remain incomplete.",
+        "Two canonical tasks, zero mapped pages and five source lookup pages stay within limits.\nTotals are 40 readable articles, zero partials, fifteen groups, twenty-seven references and\n21 unresolved identities across 108 completed checkpoints. Full proofreading, human\nacceptance and original encoded bytes remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0077",
+      "section": {
+        "anchor": "shcopy-title",
+        "anchor_scope": "complete-native",
+        "heading_pdf_page": 196
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0077",
+        "directory": "archive/pdf/1995-07/packages/batch-105-r01/public",
+        "anchor": "shcopy-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 196,
+        "source_heading_printed_page": "185",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-native",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-105-r01/public/manifest.json",
+          "sha256": "ae0cbfe563d37e32173fb8d746e051ab57d85dbfdba0b194f8ed77b838369807",
+          "bytes": 70946
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-108-r01/child-0082-anchor.json",
+          "sha256": "2a70baa7489ae099f3632d5bead5ebb629f2861d28df3abdec09a0cce40e1160",
+          "bytes": 66663
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-108/validation.json",
+          "sha256": "c0602f9be2c0fffc6550414dd7cb023a8d994f6e691ea05a38e0ffddb3905a35",
+          "bytes": 2239
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0083",
@@ -15465,6 +15542,40 @@
         "sha256": "0e2fa0ecc404a0a9c3e899316f1416743b0918b5f2a62f7f7a2999eb531bc74e",
         "bytes": 1119
       }
+    },
+    {
+      "name": "1995-07-batch-108",
+      "status": "complete",
+      "completed_at": "2026-11-07T17:37:05.053858+00:00",
+      "goal": "Finalize SHCopyStar0082 and reconcile complete public0077 with all five final references.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0082",
+        "maso-1995-07-toc-0077"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-108/validation.json",
+        "sha256": "c0602f9be2c0fffc6550414dd7cb023a8d994f6e691ea05a38e0ffddb3905a35",
+        "bytes": 2239
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-108/reproduction.json",
+        "sha256": "390a27a2c8ca774ad0239dfadd851f388b3c287fb24e4cbee41a9a9721bcd8f1",
+        "bytes": 1118
+      }
     }
   ],
   "totals": {
@@ -15472,15 +15583,15 @@
     "readable": 40,
     "partial": 0,
     "group_headings": 15,
-    "section_references": 26,
-    "unresolved": 22
+    "section_references": 27,
+    "unresolved": 21
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: finalize SHCopyStar 0082 on PDF 196 / printed 185 at shcopy-title, then reconcile\npublic parent 0077 and its five final references as the second bounded canonical task. Prove\na disjoint partition of all 114 regions, 78 text blocks, thirteen screenshots, 24 file\nfields, 36 main paragraphs, 337 physical rows and sixteen joins across eight independent\nnotice contexts. Keep METZ, magazine management and 4B parent-owned without invented child\nidentities, and retain the two library/public banners as parent-only. Preserve all four\nearlier child sidecars and resolve frozen pending flags externally. Then verify game 0083\nfrom its observed PDF 197 opening before mapping its actual extent. Continue CD 0084 and the\nremaining July identities, library0070/forum0059 reconciliation, 560-page accounting, cover\nverification and standalone JSON/assets closeout. Preserve all 108 classification pins, 27\nfrozen assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete\ndonated TOCs remain an explicit verification limit. No automatic CD3 association, reader\nrebuild or deployment.",
+  "next_checkpoint": "Next: verify game bundle 0083, 게임방, from its observed PDF 197 / printed 186 opening.\nEstablish the actual ending and interior continuity before mapping a native of at most six\npages. Preserve each distinct game notice, boxed context, title, prose, screenshot and\nliteral filename, size and download location; carry any true continuations across pages\nwithout merging independent games. Reuse saved PDF 196–198 boundary renders where\napplicable. Then continue CD 0084 and the remaining July identities, library0070/forum0059\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.\nPreserve all 111 classification pins, 27 frozen assembly adapters from batch101 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification\nlimit. No automatic CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16021,6 +16132,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-107-r01/parent-status-dispositions.json",
       "sha256": "92911fe52d13494e08aa524dd5692fac1aa961fe3a733f74635be827eb089db6",
       "bytes": 4494
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-108-r01/child-0082-anchor.json",
+      "sha256": "2a70baa7489ae099f3632d5bead5ebb629f2861d28df3abdec09a0cce40e1160",
+      "bytes": 66663
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-108-r01/parent-status-dispositions.json",
+      "sha256": "cfa932801843b0934ff49bf9931e9a068e08cb325a81de964cf64c5760e4664b",
+      "bytes": 5021
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-108-r01/family-partition.json",
+      "sha256": "01c71cdb62f109661a2b7c7399a28557030f0d284ddaae7e6d7e438892e1abd4",
+      "bytes": 30128
     }
   ]
 }

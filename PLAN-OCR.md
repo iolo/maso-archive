@@ -4266,6 +4266,62 @@ frozen assembly adapters from batch101 and three local OCR adapters from batch87
 donated TOCs remain an explicit verification limit. No automatic CD3 association, reader
 rebuild or deployment.
 
+July batch 108 finalizes SHCopyStar 0082 as a non-owning reference into complete
+public-software parent 0077 and reconciles that public family. Its complete source scope is
+PDF 196 / printed 185 at shcopy-title. Canonical identity, title, order, hierarchy, missing
+folio and byline remain unchanged. No duplicate body is created. Earlier JAPY, QUICKPLAY,
+NEWTON and WinLabel references remain byte-identical and are carried forward in the final
+external status disposition.
+
+SHCopyStar retains eleven regions, ten text blocks, five main prose paragraphs, one
+uncaptained interface screenshot and three filename, size and download fields. All 45
+physical rows and 112 typed range occurrences validate. Four source notes and one selected
+mark record retain the printed 1,722KB capacity, <F8>/<F9> language toggles and uncertain
+period in 사용할. 수도. Its 드/래그 physical word wrap remains explicit. No local, incoming or
+outgoing paragraph join is introduced. The game section opens independently on PDF 197 and
+is excluded.
+
+The six canonical family members have one owning parent and five final non-owning
+references. Eight independent notice contexts form a disjoint partition: METZ, magazine
+management and 4B remain parent-owned without invented canonical identities; JAPY,
+QuickPlay, Newton, WinLabel and SHCopyStar have final references. The two selected
+library/public banners remain parent-only. All 114 regions, 78 text blocks, thirteen
+original screenshots with no captions, 24 file fields, 36 main paragraphs, 337 physical
+rows, sixteen local joins and 23 continuation boundaries are accounted for exactly once. All
+572 typed range occurrences across the five references and 57 ranges in the three
+parent-owned review contexts validate.
+
+Four classification/family files match independent and fresh-process exports. All 66 invalid
+cases reject, including lost or overlapping family content, invented unlisted
+identities/references, duplicate owners, lost earlier references, altered file fields,
+omitted source uncertainties, invented image pixels and premature ancestor or whole-issue
+completion. Five full-page source reviews reuse PDF 193–197; earlier full source correction
+and child reviews remain pinned. No new mapping, OCR, source correction or verification
+repair occurs.
+
+All 91,043 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters and 108 prior classification pins remain exact. The
+unchanged fresh 214-test batch101 baseline is reused. Three new required pins bring
+classification evidence to 111. External status records all five public references and their
+family complete, while immutable native creation-time flags remain historical evidence.
+Library0070, forum0059 and whole July remain incomplete.
+
+Two canonical tasks, zero mapped pages and five source lookup pages stay within limits.
+Totals are 40 readable articles, zero partials, fifteen groups, twenty-seven references and
+21 unresolved identities across 108 completed checkpoints. Full proofreading, human
+acceptance and original encoded bytes remain unverified.
+
+Next: verify game bundle 0083, 게임방, from its observed PDF 197 / printed 186 opening.
+Establish the actual ending and interior continuity before mapping a native of at most six
+pages. Preserve each distinct game notice, boxed context, title, prose, screenshot and
+literal filename, size and download location; carry any true continuations across pages
+without merging independent games. Reuse saved PDF 196–198 boundary renders where
+applicable. Then continue CD 0084 and the remaining July identities, library0070/forum0059
+reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.
+Preserve all 111 classification pins, 27 frozen assembly adapters from batch101 and three
+local OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification
+limit. No automatic CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
