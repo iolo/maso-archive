@@ -2273,6 +2273,46 @@ JSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptan
 encoded source bytes and execution remain explicit limits. No automatic CD3 association,
 reader rebuild or deployment.
 
+July batch 73 actually assembles complete xBase0058, 임지열의 xBase 랩 : 패러독스, 비주얼
+폭스프로, 비주얼 오브젝트 분석[2] : 폼과 테이블 처리, across PDF 471–479 / printed
+460–468. Source author 임지열, affiliation 임지열 Xbase 연구소 and separate editor 홍동선
+retain their roles. Both immutable natives remain unchanged. No cross-native join is
+required: PDF477 begins the CA-VO subsection. Following advertisement480 and distinct
+CCC/Manager opening481/printed472 remain excluded; pagination is verified locally.
+
+All 878 selected, independent and fresh-process files match, including all 869 files from
+two independently regenerated natives. All 224 pixel-exact crops, 209 raw OCR outcomes,
+194 original/current blocks, 615 reading rows, 616 regional fragments and 61 main-prose
+paragraphs validate. All 3,400 projected native metadata occurrences retain source owners,
+including eleven earlier-native context occurrences from the final native that refer to the
+opening native. All 6,878 current ranges and 30,887 scalar values validate. References from
+the final pages to earlier screenshots 4/5 resolve to their original opening-native captions.
+
+Fifteen original visuals retain twelve literal captions, ten numbered screenshots, title
+artwork, author portrait, two tables and the ending emblem. The biography and independent
+pullquote remain distinct. Two tables preserve 73 nonblank cells and one explicit blank,
+eight headers, fifteen data rows, 45 product values and six merged labels. Repeated circle
+and cross glyphs retain their individual cell occurrences. Seventeen product tasks and
+three integrity rules remain. Thirteen local join groups preserve fifteen boundaries.
+
+Eight code examples across nine physical regions retain 44 physical rows and two blank
+rows. The existing VFP continuation across477–478 retains one LF and five Korean identifier
+occurrences. The deliberately erroneous example, printed identifier mismatch, nine source
+candidates and nine anomalies remain literal. All fifteen assembled section contexts are
+complete; original native creation-time partial flags remain historical evidence.
+
+All 69 invalid cases reject and all 214 fresh PDF tests pass. All 68,368 earlier July files,
+thirty core modules, nineteen prior assembly adapters, the batch72 local OCR adapter and
+72 classification pins remain exact. The xBase assembly adapter is the twentieth frozen
+assembly adapter. One canonical task, zero newly mapped pages, six reused source lookups,
+zero new OCR, zero source correction passes and zero metadata revisions.
+
+Totals: 31 readable articles, zero partials, ten groups, seventeen references and 45
+unresolved identities. Parent forum0043 and groups0051/0052 remain incomplete; no family
+completion is inferred from this article assembly.
+
+Next: review canonical headings0059 OS·애플리케이션 포럼 and0060 툴리뷰 as two bounded classification tasks, retaining their canonical hierarchy and verifying source evidence before assigning ownership. Then verify0061 CCC/Manager from its observed PDF481/printed472 opening and establish its actual extent before mapping at most six pages. Preserve complete xBase0058 article-xbase-r01 and both immutable natives. Groups0051/0052 and forum0043 remain incomplete pending separate family reconciliation. Retain72 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
