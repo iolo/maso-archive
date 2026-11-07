@@ -9153,3 +9153,62 @@ Whole July's remaining identities, 560-page accounting, cover and standalone JSO
 closeout remain required. Incomplete donated TOCs, original encoded bytes, full proofreading
 and human acceptance remain explicit limits. No automatic CD3 association, reader rebuild
 or deployment. The whole July goal remains active.
+
+## 2026-11-07 — July CD-ROM opening native complete
+
+July batch 93 preserves CD-ROM article 0069 opening PDF 529–534 / printed 520–525 as an
+immutable partial native. The full source extent is verified as PDF 529–535 / printed
+520–526, with author 정용주 and affiliation 기아시스템. Final page 535, its ending emblem and
+separate editor 박은숙 remain for the next native, followed by actual article assembly. The
+opening native ends a complete paragraph; no outgoing 534→535 prose join is required.
+
+All 605 selected, independent and fresh-process files match. The package retains 153
+pixel-exact crops, 148 original OCR outcomes, 136 text blocks, 461 reading rows, 462
+regional row fragments and 2,953 typed range occurrences. Fifty-five main prose paragraphs
+retain seven section contexts. Eleven local join groups preserve twelve boundaries,
+including the zero-separator dropcap, narrow text beside both illustrations, and the
+rotation and dust paragraphs crossing source pages. Canonical identity and hierarchy remain
+unchanged.
+
+Three original tables retain 58 searchable fields: nine header fields and 49 data fields
+representing 39 logical data cells. Twenty-six physical table rows retain the header rows,
+four wrapped table-3 labels and all fifteen separately indexed MB variants. Seven displayed
+formulas/methods retain three ordered calculation contexts and their physical prose
+boundaries. Repeated values remain linked to their own source occurrence. Five original
+images include an illustration, a book/disc photograph and the three tables; all three
+literal captions have explicit associations. No code listing occurs.
+
+Twenty source anomaly notes preserve printed wording and discrepancies. Table 1 prints
+330,000 blocks while the formulas use 333,000; table 2 prints Video CD form 1 while table 3
+prints form 2. The prose prints 1MB = 1000바이트, the duplicate 있는 있는, CD-Recoder, 또아리 and the
+1983/10-year claim. These stay literal. Circled method markers, multiplication signs, wave
+dashes, quotes and physical wraps use documented Unicode representations; original encoded
+bytes and historical technical claims remain unverified.
+
+All 148 drafts were read before one prospective source correction pass. All selected
+readings were compared with source crops; one serialization, zero source refinements, zero
+OCR retries and zero post-OCR crop changes. Three retained pre-OCR maps contain 156
+adjustment events. All 42 invalid semantic cases reject, including lost wrapped labels,
+swapped repeated capacity values, reordered MB variants, detached formula context, invented
+captions and premature article completion. All 83,595 earlier July files, thirty core
+modules, twenty-five frozen assembly adapters, three local OCR adapters, the batch76 figure
+builder and 81 classification pins remain exact. The unchanged fresh 214-test batch92
+baseline is reused.
+
+One canonical task, six newly mapped pages and five outside lookup pages stay within limits.
+Only 0069 changes from unresolved to partial/sample-reviewed. Totals are 37 readable
+articles, one partial, fourteen groups, seventeen references and 34 unresolved identities.
+Whole July restoration remains in progress; full proofreading and human acceptance remain
+pending.
+
+Next: restore CD-ROM 0069 final PDF 535 / printed 526 as a separate immutable native,
+reusing its saved source view and verified extent. Preserve the final capacity discussion,
+conclusion, ending emblem and separate editor 박은숙; exclude the lower modem advertisement.
+Then actually assemble PDF 529–535 from immutable natives without an inter-native prose
+join. Reconcile hardware0067 only after0069 is complete; forum0059, tool-review0060,
+groups0051–0052 and forum0043 still need appropriate family reconciliation. Preserve all
+existing packages,81 classification pins,25 frozen assembly adapters in
+batch92/frozen-adapters-complete.json andthree local OCR adapters in
+batch87/frozen-local-ocr-adapters-complete.json. Continue remaining July identities,560-page
+accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs remain an
+explicit verification limit. No automatic CD3 association,reader rebuild or deployment.
