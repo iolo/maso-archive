@@ -3381,6 +3381,54 @@ article 0069 and reconcile appropriate pending families. Whole July’s remainin
 donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit
 limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 92 actually assembles complete PnP article 0068 across PDF 521–527 /
+printed 512–518. Both immutable batch90/91 natives reproduce independently and remain
+unchanged. The 735-file selected, independent and fresh-process assemblies match,
+including all 727 original native files. Only the expansion-card paragraph joins across
+526–527 with one LF; the following expansion-control paragraph stays separate.
+
+All 183 pixel-exact crops, 176 original OCR outcomes and 164 native text blocks survive
+in 163 current blocks. All 3,420 native metadata range occurrences project correctly,
+including eight earlier-native references held by b but owned by a. The independent
+audit verifies 7,057 current ranges, 30,563 scalar values, 534 reading rows and 535
+regional fragments. Fifty-seven main prose paragraphs retain thirteen section contexts
+and four final-page subsections. Twelve join groups cover thirteen boundaries, including
+the original drop cap and the single new cross-native paragraph join.
+
+Seven original images and six literal captions retain their source associations. Four
+searchable tables preserve 31 regions, 34 physical rows and 38 serialized fields. Two
+diagrams preserve 37 labels, thirty connector relationships, four containment relationships
+and the disconnected FDD. Four numbered requirements remain separate from the final page's
+four operating-system bullets. Source author 박현철 and editor 박은숙 retain distinct roles.
+Three identifier candidates and eighteen source anomaly notes remain unresolved and literal;
+no historical or technical claim is certified.
+
+All 58 invalid cases reject, including lost table cells, diagram edges, containment,
+requirements and OS bullets; an invented FDD connection; wrong earlier-native ownership;
+collapsed repeated PCMCIA occurrences; changed source text; and premature group completion.
+All 214 fresh PDF tests pass. All 82,813 earlier July files, thirty core modules,
+twenty-four prior assembly adapters, three local OCR adapters, the batch76 figure builder
+and 81 classification pins remain exact. The new private assembly adapter becomes the
+25th frozen adapter. One pre-export adapter repair distinguishes a Boolean emblem-presence
+flag from an image identifier; the failed script/log remain retained. No selected package
+revision, new OCR, source correction, mapping or core change occurred.
+
+Only 0068 advances from partial to readable/sample-reviewed. Totals are 37 readable,
+zero partials, fourteen groups, seventeen references and 35 unresolved identities. One
+canonical task, zero newly mapped pages and five outside lookup pages stay within limits.
+Human acceptance and full proofreading remain pending.
+
+Next: verify CD-ROM article 0069 from PDF 529 / printed 520, source author 정용주,
+and establish its full extent and adjacent boundaries before mapping at most six pages.
+Preserve all existing packages, raw OCR, corrections, adapters and classification evidence.
+Use batch92/frozen-adapters-complete.json (25 assembly adapters) and the unchanged batch87
+local OCR inventory (three adapters). Hardware0067 remains pending until 0069 is resolved;
+forum0059, tool-review0060, groups0051–0052 and forum0043 still need appropriate reconciliation.
+Whole July's remaining identities, 560-page accounting, cover and standalone JSON/assets
+closeout remain required. Incomplete donated TOCs, original encoded bytes, full proofreading
+and human acceptance remain explicit limits. No automatic CD3 association, reader rebuild
+or deployment. The whole July goal remains active.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
