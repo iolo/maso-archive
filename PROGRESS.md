@@ -11342,3 +11342,53 @@ classification pins, 29 frozen assembly adapter files from batch 128 and three
 local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,
 human acceptance and original encoded bytes remain explicit limits. No inferred
 CD3 association, reader rebuild or deployment.
+
+July batch 131 establishes bounded source evidence for video appendix 0103,
+7월 부록 : 윈도우즈 95 교육용 비디오 테이프. PDF 6's separate yellow contents
+panel explicitly names the educational videotape as the July appendix, with
+no page locator; PDF 1's Windows 95 videotape-gift badge corroborates it.
+The printed promotional lines remain historical source claims. Neither notice
+supplies the videotape contents or establishes a complete printed companion.
+
+Direct structural review covers fourteen PDF pages: 1, 4–15 and 541. The two
+donated TOC images match advertisement 4 and first contents page 5, leaving
+the relevant notice on 6 outside that donated pair. Eight later pages 8–15
+are Office, Hangul, printer and notebook advertisements. Page 541's existing
+reader-card offer converts personal-event tapes to video CDs; it remains
+separate from the Windows 95 educational videotape. Its 60-minute CD detail
+is not an appendix duration. The supplied PDF directory contains only its
+21 PDFs, and July's PDF reports zero embedded files. These bounded checks
+make no claim about media elsewhere or the absence of a scanned body.
+
+Seven classification-evidence files reproduce independently and in a fresh
+process. Two notice crops match their retained source pixels exactly; six
+current/native byte ranges verify three unchanged reader-offer fields.
+All eighteen unsupported-claim cases reject, including offer conflation,
+borrowed duration, invented VHS format, recovered media, a synthetic body,
+whole-PDF absence and premature final eligibility. All 104,152 earlier July
+files, thirty core modules, 29 frozen assembly adapter files, three local OCR
+adapters and 135 prior classification pins remain exact. The unchanged
+214-test batch 128 baseline is reused. One canonical task, zero mapped pages,
+fourteen PDF lookups plus two donated images stay within checkpoint limits.
+No OCR, article source correction or existing package modification occurred.
+Initial discovery views were not prospectively timed; subsequent contents and
+reader-page review has a recorded start, without invented earlier chronology.
+
+0103 retains unresolved classification/availability and no restored body;
+its announced videotape medium is now evidenced, while final printed-body
+eligibility awaits whole-page accounting. Totals remain 51 readable articles,
+zero partials, sixteen groups, 35 references and one unresolved identity across
+131 completed checkpoints. Two new required evidence pins bring the total to
+137. This completes the bounded investigation, not the July restoration pass.
+
+Next: initialize the complete 560-page accounting ledger from the 51 selected
+body owners, retained region-map exclusions and source-review records. Reuse
+these fourteen structural observations, then inspect unaccounted pages in
+batches of at most twenty. Finalize 0103's eligibility/media-gap outcome only
+from the resulting evidence; do not substitute the reader-card service or
+invent a printed body. Cover verification and standalone JSON/assets
+export, reproduction and issue closeout remain required. Preserve all 137
+classification pins, 29 frozen assembly adapter files from batch 128 and
+three local OCR adapters from batch 87. Incomplete donated TOCs, full
+proofreading, human acceptance and original encoded bytes remain explicit
+limits. No inferred CD3 association, reader rebuild or deployment.
