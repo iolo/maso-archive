@@ -7631,3 +7631,54 @@ accounting, cover and standalone JSON/assets closeout are pending. Incomplete
 donated TOCs, full proofreading, human acceptance, original encoded bytes and
 execution remain explicit limits. No automatic CD3 association or reader work.
 Evidence: `archive/pdf/1995-07/restoration/batch-68/ocr-stage-audit.json`.
+
+## 2026-11-07 — July coordinator opening native complete
+
+July batch 68 completes the opening partial native for coordinator0057, 코디네이터 '창사랑' 제작[4] :
+문서 이미지의 마무리, across PDF 459–464 / printed 448–453. Source author 박재홍 and affiliation 서강대학교
+전자계산학과 retain their printed roles. Full extent 459–469 is verified, but final 465–469 and
+actual assembly remain separate. Previous PowerBuilder458, the lower469 advertisement,
+full-page470 advertisement and next xBase471–472 are excluded from the selected article
+scope.
+
+All 548 selected, independent and fresh-process files match. The opening preserves 140
+pixel-exact crops, 133 original OCR outcomes, 122 text blocks, 405 reading rows, 406
+regional fragments, 51 prose paragraphs and 2,458 typed ranges. Seven original visuals
+retain title artwork, schedule, two class hierarchies, one screenshot and two numbered
+diagrams; three literal captions remain separate. Thirty-four diagram labels retain
+individual source occurrences, including repeated text fragments. Graphic dotted guide lines
+remain in the original diagrams.
+
+Twenty-three code regions retain 30 physical rows and zero blank rows, with individual
+declaration/prototype/structure/macro contexts and explanatory prose links. Five schedule
+rows highlight installment four. Eight regional groups preserve eleven boundaries, including
+the zero-separator introductory dropcap. TextImage's printed cursor-range examples,
+three-way text partition, two-column document, test-program scroll keys, source file
+references and proposed Hangul writer retain their contexts. The outgoing endCursorPosition
+paragraph remains incomplete at464 and awaits its465 continuation.
+
+Fourteen source candidates and ten anomalies remain explicit. Printed tapSize,
+ByteFrameTableImage, TEXIMAGE.HPP, the classTypeIs comma and the right/bottom versus
+width/height discrepancy remain literal. The three square-looking structure delimiter pairs
+retain bracket readings with explicit brace alternatives; expected C++ syntax does not
+resolve the scan. Source macro wrapping has no added continuation backslash. Three empty OCR
+drafts were transcribed directly from scan labels. Two retained pre-OCR maps record132
+margin adjustments. One prospectively timed source pass, zero OCR retries, zero post-OCR
+crop changes, zero text refinements after first serialization and zero post-pass changes.
+
+All 44 invalid cases reject. All 61,146 earlier July files, 1,030 saved OCR-stage files,
+thirty core modules, eighteen frozen adapters and72 classification pins remain exact. The
+unchanged fresh214-test batch66 baseline is reused. Totals:29 readable articles, one
+partial, ten groups, seventeen references and46 unresolved identities. Groups0051/0052 and
+ancestor0043 remain incomplete.
+
+Next: restore coordinator0057 final PDF465–469 / printed454–458 as a separate immutable
+native, then actually assemble459–469. Reuse verified full-extent evidence and preserve
+opening batch68-r01/coordinator-a. Retain the incoming464→465 prose boundary after
+endCursorPosition이 실제의 값 and before 과 항상 일치하는 것은 아니다.; join only during actual assembly with
+one LF. Final source includes the TextImage continuation, TextMap section, editor 박준상
+and15-row file directory; exclude the lower469 book advertisement. Preserve72 classification
+pins and18 frozen adapters. Then continue0058 and remaining July identities,560-page
+accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full
+proofreading,human acceptance,exact encoded source bytes and execution remain explicit
+limits. No automatic CD3 association,reader rebuild or deployment.

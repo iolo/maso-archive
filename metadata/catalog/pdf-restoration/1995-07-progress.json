@@ -7537,12 +7537,131 @@
       "toc_entry_id": "maso-1995-07-toc-0057",
       "title": "코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리",
       "parent_id": "maso-1995-07-toc-0052",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 68 completes the opening partial native for coordinator0057, 코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리, across PDF 459–464 / printed 448–453. Source author 박재홍 and affiliation 서강대학교 전자계산학과 retain their printed roles. Full extent 459–469 is verified, but final 465–469 and actual assembly remain separate. Previous PowerBuilder458, the lower469 advertisement, full-page470 advertisement and next xBase471–472 are excluded from the selected article scope.",
+        "All 548 selected, independent and fresh-process files match. The opening preserves 140 pixel-exact crops, 133 original OCR outcomes, 122 text blocks, 405 reading rows, 406 regional fragments, 51 prose paragraphs and 2,458 typed ranges. Seven original visuals retain title artwork, schedule, two class hierarchies, one screenshot and two numbered diagrams; three literal captions remain separate. Thirty-four diagram labels retain individual source occurrences, including repeated text fragments. Graphic dotted guide lines remain in the original diagrams.",
+        "Twenty-three code regions retain 30 physical rows and zero blank rows, with individual declaration/prototype/structure/macro contexts and explanatory prose links. Five schedule rows highlight installment four. Eight regional groups preserve eleven boundaries, including the zero-separator introductory dropcap. TextImage's printed cursor-range examples, three-way text partition, two-column document, test-program scroll keys, source file references and proposed Hangul writer retain their contexts. The outgoing endCursorPosition paragraph remains incomplete at464 and awaits its465 continuation.",
+        "Fourteen source candidates and ten anomalies remain explicit. Printed tapSize, ByteFrameTableImage, TEXIMAGE.HPP, the classTypeIs comma and the right/bottom versus width/height discrepancy remain literal. The three square-looking structure delimiter pairs retain bracket readings with explicit brace alternatives; expected C++ syntax does not resolve the scan. Source macro wrapping has no added continuation backslash. Three empty OCR drafts were transcribed directly from scan labels. Two retained pre-OCR maps record132 margin adjustments. One prospectively timed source pass, zero OCR retries, zero post-OCR crop changes, zero text refinements after first serialization and zero post-pass changes.",
+        "All 44 invalid cases reject. All 61,146 earlier July files, 1,030 saved OCR-stage files, thirty core modules, eighteen frozen adapters and72 classification pins remain exact. The unchanged fresh214-test batch66 baseline is reused. Totals:29 readable articles, one partial, ten groups, seventeen references and46 unresolved identities. Groups0051/0052 and ancestor0043 remain incomplete.",
+        "Next: restore coordinator0057 final PDF465–469 / printed454–458 as a separate immutable native, then actually assemble459–469. Reuse verified full-extent evidence and preserve opening batch68-r01/coordinator-a. Retain the incoming464→465 prose boundary after endCursorPosition이 실제의 값 and before 과 항상 일치하는 것은 아니다.; join only during actual assembly with one LF. Final source includes the TextImage continuation, TextMap section, editor 박준상 and15-row file directory; exclude the lower469 book advertisement. Preserve72 classification pins and18 frozen adapters. Then continue0058 and remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-68-r01/coordinator-a",
+        "article_id": "scan-maso-1995-07-toc-0057",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-68-r01/coordinator-a/manifest.json",
+          "sha256": "f8bea06510d1d66ed68b95152264824969b29022d0faaf644bbcf453ed6a9a75",
+          "bytes": 94247
+        },
+        "coverage": {
+          "pdf_pages": [
+            459,
+            460,
+            461,
+            462,
+            463,
+            464
+          ],
+          "printed_pages": [
+            "448",
+            "449",
+            "450",
+            "451",
+            "452",
+            "453"
+          ],
+          "regions": 140,
+          "blocks": 122,
+          "figures": 7,
+          "deferred_pdf_pages": [
+            465,
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        "body_pages_complete": false,
+        "prose_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 459,
+        "actual_end_pdf_page": 469,
+        "full_extent_verified": true,
+        "remaining_source_pages": [
+          465,
+          466,
+          467,
+          468,
+          469
+        ],
+        "segment_scope": {
+          "full_pdf_pages": [
+            459,
+            460,
+            461,
+            462,
+            463,
+            464,
+            465,
+            466,
+            467,
+            468,
+            469
+          ],
+          "current_pdf_pages": [
+            459,
+            460,
+            461,
+            462,
+            463,
+            464
+          ],
+          "current_printed_pages": [
+            "448",
+            "449",
+            "450",
+            "451",
+            "452",
+            "453"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": false,
+          "prose_complete": false,
+          "actual_start_pdf_page": 459,
+          "observed_ending_pdf_page": 469,
+          "remaining_source_pages": [
+            465,
+            466,
+            467,
+            468,
+            469
+          ],
+          "assembly_required": true,
+          "complete_article_assembly_pending": true,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-68/source-reviewed.json",
+            "sha256": "5f33ffb0fa51f99604e4b57221200a6f9aa1c659609a1457b524397676976e29",
+            "bytes": 1967
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-68/validation.json",
+          "sha256": "828b59ff008c99bcbb644f0e340500829320e4415f1cea7914e0d4864e84937c",
+          "bytes": 2247
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-68/reproduction.json",
+          "sha256": "29782a11cb1dca14d015916f5d93a166257af5bf9137fba2a0da6eab2dd605ee",
+          "bytes": 106600
+        },
+        "checkpoint": "batch-68"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0058",
@@ -10807,22 +10926,71 @@
         "sha256": "0eb721fd57306cfd0b05dfb727af24bbd90a8635a0d677db1ccfd1b836ef5b5d",
         "bytes": 3526
       }
+    },
+    {
+      "name": "1995-07-batch-68",
+      "status": "complete",
+      "completed_at": "2026-11-07T07:04:05.241542+00:00",
+      "goal": "Preserve coordinator0057 opening PDF459–464 as an immutable partial native;final465–469 and actual assembly remain.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0057"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        459,
+        460,
+        461,
+        462,
+        463,
+        464
+      ],
+      "outside_lookup_pages": 9,
+      "outside_lookup_pdf_pages": [
+        458,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472
+      ],
+      "recognition_invocations": 133,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-68/validation.json",
+        "sha256": "828b59ff008c99bcbb644f0e340500829320e4415f1cea7914e0d4864e84937c",
+        "bytes": 2247
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-68/reproduction.json",
+        "sha256": "29782a11cb1dca14d015916f5d93a166257af5bf9137fba2a0da6eab2dd605ee",
+        "bytes": 106600
+      },
+      "preceding_stage": {
+        "path": "archive/pdf/1995-07/restoration/batch-68/ocr-stage-handoff.json",
+        "sha256": "ab4263a318ac254d6694e0931b9d5dd6a3cc7b275875e430e3de4b492672af1a",
+        "bytes": 3476
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
     "readable": 29,
-    "partial": 0,
+    "partial": 1,
     "group_headings": 10,
     "section_references": 17,
-    "unresolved": 47
+    "unresolved": 46
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Resume batch 68 coordinator0057 opening from saved mapped OCR. Read all 133 raw drafts, then start one prospectively timed source correction pass for PDF459–464/printed448–453. Full extent459–469 is verified. All 140 crops and133 raw outcomes are verified; reuse successful recognition. Review every region,23 literal code regions,34 diagram labels,three captions,five schedule rows and eleven local join boundaries. Export immutable opening partial native; independently reproduce and validate it. Restore remaining465–469 separately,then actually assemble459–469. Preserve72 classification pins,18 frozen adapters and all prior packages. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: restore coordinator0057 final PDF465–469 / printed454–458 as a separate immutable native, then actually assemble459–469. Reuse verified full-extent evidence and preserve opening batch68-r01/coordinator-a. Retain the incoming464→465 prose boundary after endCursorPosition이 실제의 값 and before 과 항상 일치하는 것은 아니다.; join only during actual assembly with one LF. Final source includes the TextImage continuation, TextMap section, editor 박준상 and15-row file directory; exclude the lower469 book advertisement. Preserve72 classification pins and18 frozen adapters. Then continue0058 and remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment. Retain72 classification pins and18 selected frozen adapters. Reuse complete prior packages without OCR or source-correction reruns.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -11184,63 +11352,5 @@
       "sha256": "d740de1dc30320019eefdce7692704a1e014cdba7b6d6c69887d8ed4533fcaf0",
       "bytes": 20514
     }
-  ],
-  "in_progress_checkpoint": {
-    "name": "1995-07-batch-68",
-    "status": "mapped-and-recognized;source-correction-not-started",
-    "toc_entry_id": "maso-1995-07-toc-0057",
-    "full_pdf_pages": [
-      459,
-      460,
-      461,
-      462,
-      463,
-      464,
-      465,
-      466,
-      467,
-      468,
-      469
-    ],
-    "mapped_pdf_pages": [
-      459,
-      460,
-      461,
-      462,
-      463,
-      464
-    ],
-    "remaining_pdf_pages": [
-      465,
-      466,
-      467,
-      468,
-      469
-    ],
-    "regions": 140,
-    "ocr_outcomes": 133,
-    "pre_ocr_map_versions": 2,
-    "ocr_retries": 0,
-    "availability_changed": false,
-    "source_review": {
-      "path": "archive/pdf/1995-07/restoration/batch-68/source-reviewed.json",
-      "sha256": "5f33ffb0fa51f99604e4b57221200a6f9aa1c659609a1457b524397676976e29",
-      "bytes": 1967
-    },
-    "map": {
-      "path": "archive/pdf/1995-07/restoration/batch-68/coordinator-a/map.json",
-      "sha256": "d8c723f683fc368bf494ba3c17d86e3480d5a0c6907eb3b2be396259e6db44cf",
-      "bytes": 44091
-    },
-    "raw_drafts": {
-      "path": "archive/pdf/1995-07/restoration/batch-68/initial-drafts.json",
-      "sha256": "ff686e23396561feb99ac57457b5c5a74cf8c3e97047cfb5114512b8c24e67e0",
-      "bytes": 27541
-    },
-    "audit": {
-      "path": "archive/pdf/1995-07/restoration/batch-68/ocr-stage-audit.json",
-      "sha256": "a7e47a39740602b9491147d2b3128cbed51bdad639f74fd602cdca5a7862891a",
-      "bytes": 1622
-    }
-  }
+  ]
 }
