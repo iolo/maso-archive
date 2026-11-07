@@ -2124,6 +2124,47 @@ standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading, hum
 acceptance, exact original encoded bytes and execution remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
 
+July batch 71 is in progress at a saved mapping/OCR stage for xBase0058,
+임지열의 xBase 랩 : 패러독스, 비주얼 폭스프로, 비주얼 오브젝트 분석[2] : 폼과 테이블 처리.
+The source title is 폼과 테이블 처리; the source subtitle orders the products differently
+from the canonical title. Author 임지열 has a separate portrait and biography.
+All fifteen source views470–484 were directly reviewed. Full article extent471–479 /
+printed460–468 is verified, ending with separate editor 홍동선 and an ending emblem.
+Previous470 and following480 are advertisements. The distinct CCC/Manager article
+opensPDF481/printed472; the earlier PDF-minus11 offset must not be extrapolated.
+Current opening471–476 is six pages; final477–479 and actual assembly remain separate.
+Nine outside-map pages were inspected.
+
+All six original and revised overlays, both enlarged tables and both enlarged code
+crops were reviewed before OCR. Two retained maps record105 pre-OCR margin adjustments.
+All177 selected crops are pixel-exact;166 raw Tesseract outcomes and settings are pinned.
+Two code regions use eng;164 other regions use kor+eng, OEM1/PSM6, one thread and
+3000-pixel source rendering. Zero retries. Empty raw drafts: table2-label-01.
+Source correction and package export have not started; raw outcomes do not establish fidelity.
+
+Eleven original images retain title artwork, author portrait, seven screenshots and two
+comparison panels. Nine captions remain separate. The tables retain73 nonblank cell
+occurrences, including merged labels and eight headers, plus one explicit blank cell.
+Their physical row order is recorded without duplicating merged labels. Seventeen task
+items, three integrity rules and the independent pullquote retain their separate scopes.
+Nine planned prose groups retain eleven boundaries; the opening dropcap joins without
+an inserted separator. Two code examples require literal physical-row and blank-row
+review. Table2's printed UINQUE and code spacing must not be repaired from syntax.
+Page477 starts the CA-VO subsection; no prose join is required across476→477.
+
+All 65,599 earlier July files, thirty core modules, nineteen frozen
+adapters, source, canonical queue, runtime and original ledger pins remain exact.
+All72 classification pins remain unchanged; the fresh214-test batch70 baseline is reused.
+This is not a completed native or batch. Totals remain30 readable articles, zero partials,
+ten groups, seventeen references and46 unresolved identities.
+Next: read all 166 drafts, start one prospective source correction pass, export and
+validate the opening partial native, then finish batch71. Reuse saved OCR.
+Remaining477–479, actual assembly, remaining canonical work, whole-issue560-page accounting,
+cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,
+full proofreading, human acceptance, original encoded bytes and execution remain explicit
+limits. No automatic CD3 association, reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-71/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
