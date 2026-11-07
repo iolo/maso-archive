@@ -5255,6 +5255,50 @@ assembly adapters from batch101 and three local OCR adapters from batch87. Incom
 donated TOCs, full proofreading, human acceptance and original encoded bytes remain
 explicit limits. No inferred CD3 association, reader rebuild or deployment.
 
+July batch 124 actually assembles reader-card/prize article 0097 across PDF 541–544
+and 546–547. The separate diskette guide 0098 on PDF 545 remains excluded. All 312
+selected, independent and fresh-process files match, including all 304 files from
+both regenerated immutable natives. Original creation-time partial/deferred flags
+remain historical; current article coverage is complete, while reader-board 0093
+still requires its separate family reconciliation.
+
+All 93 pixel-exact crops, 65 original OCR outcomes, 65 text blocks, 200 physical rows,
+28 original images and 24 captions validate. Every custom native metadata field is
+projected: 1,380 native typed occurrences, including sixteen earlier-native ranges
+owned by reader-a, yield 2,741 current range occurrences and 13,466 checked scalar
+values. No cross-native prose join, new OCR, mapping or source correction is required.
+
+The assembly retains nine main prose paragraphs, 24 prize offers, 25 previous-winner
+groups and 37 winners with separate source roles. Current offers and earlier winner
+counts remain distinct. Both detached card sides retain blank sender fields, six
+empty sender-postcode slots and five empty response areas. The clipped left edges
+of ordinals 1/2/3 remain explicit source limitations. Page 547 retains its evidenced
+clockwise 90-degree orientation and all three subscription-region exclusions.
+Canonical metadata, historical wording, glyph candidates and original images remain
+unchanged; no answers, absent pixels or CD3 associations are inferred.
+
+All 52 invalid cases reject, and all 214 fresh PDF tests pass. The first validation
+helper attempt is retained: its rejection harness omitted StopIteration for a
+removed-block test. Only that harness was corrected; source, adapter and exported
+package files were unchanged. All 99,101 earlier July files, thirty core modules,
+27 previous assembly adapters, three local OCR adapters, the batch 76 figure builder
+and 128 classification pins remain exact. The new frozen adapter brings the required
+assembly-adapter inventory to 28. One canonical task, zero mapped pages and six
+outside lookups (541, 544, 545, 546, 547, 548) remain within checkpoint limits.
+
+Totals are 50 readable articles, zero partials, sixteen groups, 32 references and
+five unresolved identities across 124 completed checkpoints. Whole July restoration
+remains incomplete.
+
+Next: explicitly reconcile reader-board 0093 against its five completed children
+0094–0098, preserving its original group evidence and all native creation-time flags.
+Then restore/classify developer survey 0099 and children 0100–0102, and resolve video
+appendix 0103. Whole 560-page accounting, cover verification and standalone JSON/assets
+closeout remain required. Preserve 128 classification pins, all 28 frozen assembly
+adapters in batch124/frozen-adapters-complete.json and three local OCR adapters from
+batch87. Incomplete donated TOCs, full proofreading, human acceptance and original
+encoded bytes remain explicit limits. No reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
