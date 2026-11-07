@@ -1265,6 +1265,53 @@ pending. Incomplete donated TOCs, full proofreading, human acceptance, exact ori
 encoded bytes and historical execution remain explicit limits. No automatic CD3
 association, reader rebuild or deployment.
 
+July batch 53 preserves MDB0050 opening PDF 405–410/printed 394–399 as an
+immutable partial native. The complete article spans PDF 405–417/printed 394–406;
+remaining 411–417 and actual assembly require later checkpoints. Source title
+ODBC 기반 멀티미디어 데이터베이스 MDB, series C 파워 프로그래밍 and authors 배성은,
+이기환 retain their roles. Odd-page headers read 원리구현; even-page headers read
+프로그래밍포럼. Canonical parent forum0043 remains unchanged and incomplete.
+
+All 507 selected, independent and fresh-process files match: 135 pixel-exact crops,
+121 OCR outcomes, 107 blocks, 364 reading rows and 2,350 typed occurrences.
+Fourteen original visuals retain nine literal captions, eight screenshots and an
+unlabeled two-person portrait. Two title regions and the six-row deck remain separate;
+the intro dropcap joins once without a separator. Ten join groups retain fourteen
+boundaries, including prose around the independent JPEG sidebar. Two tables retain
+five blank cells: one runtime requirement and four schema lengths. The schema has
+thirteen field rows, four merged table names and 57 nonblank cells including headers.
+Its three repeated TCount descriptions remain separate source occurrences.
+
+Six code groups preserve 34 physical rows, sixteen Korean comments, one English
+header-guard comment and four omission rows. Printed jconfig.mc6-to-makefile,
+peg5 path, SERCHWORD table name, repeated filename descriptions, Objected Oriented
+Database and the closing brace without a semicolon remain literal. Twelve localized
+glyph candidates retain the broken-bar, underscore-count and l/1 uncertainties.
+Independent JPEG, installation and two tip contexts, five application categories,
+five wizard options, five recordset steps and four installation substeps validate.
+Screenshots retain incidental UI text as original images; complete UI transcription
+and historical execution are not claimed.
+
+All 121 drafts were read before one prospective source pass. Two pre-OCR maps
+retain 123 adjustments. Zero retries, within-pass refinements, post-pass changes
+or post-OCR crop changes. Six code regions use eng and 115 other text regions use
+kor+eng, OEM1/PSM6, one thread and a 3000-pixel long edge. All 53 invalid cases reject.
+All 42,610 earlier July files, thirty core modules, fourteen frozen adapters and
+69 classification pins remain exact. The unchanged 214-test batch51 baseline is
+reused. One canonical task, six mapped pages and nine outside lookup pages remain
+within limits; extra renders 419–423 are retained unreviewed and unused.
+Totals: twenty-four readable articles, one partial, eight groups, seventeen
+references and 53 unresolved identities.
+
+Next: restore MDB continuation PDF 411–416/printed 400–405, then final PDF 417 and
+actually assemble 405–417. The filter-dialog heading and member label on 410
+continue with declarations on 411; no word or code-row join is required there.
+Preserve original tables, printed anomalies and all immutable evidence. Whole July
+560-page accounting, cover and standalone JSON/assets closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical execution remain explicit limits. No automatic CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
