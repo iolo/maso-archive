@@ -5755,6 +5755,58 @@ adapters. Incomplete donated TOCs, full proofreading, human acceptance and origi
 encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild
 or deployment.
 
+July batch 134 resolves the three subscription-form scope questions through direct
+review of PDF 538, 546, 547 and 548. Subscription entry 0095 includes the upper
+postcard reverse on 546, the application and both instruction/benefit strips on
+547, and the complete three-panel publisher giro form on 548. The explicit
+subscription headings, matching six-month/annual prices and repeated giro number
+3000696 connect these portions to the preserved notice on 538. The multipurpose
+giro also lists other publications and purchase uses; those remain form options,
+not additional canonical articles. Reader0097's existing card portions stay separate.
+
+The selected 157-file subscription notice remains unchanged, but its current
+article availability is now partial: pages 546–548 require restoration and actual
+assembly with 538. All 312 reader assembly files remain unchanged. The dependent
+reader-board0093 completion disposition is reopened for subscription0095 only;
+its identity, hierarchy, other children and original batch125 evidence are preserved.
+No original package completion flags or prior source reviews are overwritten.
+
+Four scope evidence files reproduce byte for byte in three separate process
+exports. The clockwise547 review image is an exact pixel transpose of the retained
+source. All 22 invalid scope cases reject, including omitted forms, changed reader
+ownership, invented folios, altered exclusion rectangles, stale ancestor completion
+and premature restoration/accounting claims. All 104,327 earlier July files,
+thirty core modules, 29 assembly adapter files and three local OCR adapters remain
+exact. The unchanged 214-test batch128 baseline is reused. Three optional template
+reads returned missing-file errors; neither changed source or export processing.
+There were no OCR, mapping, transcription correction or export failures.
+
+This checkpoint uses two canonical scope tasks, four source lookups and zero
+mapped pages. The ancestor change is a derived dependency status, not a new group
+classification. Totals are 50 readable articles, one partial, sixteen groups,
+35 references and one unresolved video appendix, across 134 completed checkpoints.
+The required evidence inventory now has 140 pins. Batch133's accounting remains
+a frozen snapshot of 355 complete pages and 205 pending; the new scope disposition
+supersedes its three undecided form labels without pretending the forms have been
+restored. Selected ownership and page totals must be rebased after restoration.
+
+No printed folios are inferred for these four pages. Form blanks, photographs,
+printed payment options and the instruction strip's supplied-edge limit must be
+preserved. No absent text, historical account validity, exact fonts or encoded
+bytes are inferred. Structural scope review is not full transcription proofreading.
+
+Next: restore subscription0095 portions on PDF546–548 in a new bounded native,
+using reviewed maps and the default Tesseract pipeline. Preserve the original538
+notice and reader0097 assembly. Then actually assemble subscription538/546–548,
+reconcile dependent group0093 and rebase source-page/exclusion accounting. Continue
+qualifying retained non-body reviews and bounded outside-page review, with34–53
+the next untouched contiguous candidates. Final video0103 eligibility/media-gap
+disposition, cover verification and standalone JSON/assets export, reproduction
+and issue closeout remain required. Preserve140 evidence pins,29 assembly adapters
+and three local OCR adapters. Incomplete donated TOCs, full proofreading, human
+acceptance and original encoded bytes remain explicit limits. No inferred CD3
+association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
