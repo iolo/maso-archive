@@ -4663,6 +4663,60 @@ acceptance and original encoded bytes remain explicit limits. No automatic CD3
 association, reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-113/ocr-stage-audit.json`.
 
+July batch 113 completes hardware bundle 0088, 하드웨어 열람실, across PDF 203–206 / printed
+192–195 as one immutable native. This completed checkpoint supersedes the saved mapping/OCR
+stage above. All four pages are restored; no separate assembly is required. CD reviews end
+on 202, and books begin independently on 207.
+
+Two independent reviews retain their own prose and assets: RISC 기반 PC 파워스택 on 203–204 and HP
+스캔젯 3P on 205–206. Source child order 0090/0089 remains distinct from canonical order
+0089/0090. Both children await separate reference classification; the complete parent is the
+sole body owner. Five original hardware photos, one software screenshot and one publication
+ending mark retain six literal captions. Ten product/specification fields and six highlight
+rows retain their review owners. No byline was observed.
+
+All 375 selected, independent and fresh-process files match byte for byte. The complete
+native retains 97 pixel-exact crops, 90 original OCR outcomes, 77 text blocks, 392 physical
+reading rows and 2,006 typed range occurrences. Forty main prose paragraphs and twelve joins
+across thirteen boundaries validate. Two cross-page paragraphs, p-opengl and h-size, remain
+intact. Four within-region word/path wraps and nine word continuations across columns or
+pages retain physical source boundaries. The final warranty row stays in the accessories
+paragraph. No incoming, outgoing or inter-review join is required.
+
+All 90 raw drafts preceded one prospectively timed source correction pass. Eleven complete
+contact sheets and nine additional full-size text crops were reviewed. The pass elapsed time
+includes pauses and the intervening status turn. Three retained pre-OCR maps document 97
+crop adjustments. Zero OCR retries, post-OCR crop changes, helper failures or source
+refinements after serialization. Twelve source notes preserve printed technical claims and
+literal wording, including Rise, 네가티보, 당연의, 편이성 and an unmatched opening quotation mark.
+Three glyph records retain two multiplication signs and SCSI-II; original encoded forms
+remain unverified. The physical C: path wrap remains. Original scans remain authoritative.
+
+All 60 invalid semantic cases reject, including missing review content, swapped
+specifications, lost captions/highlights, premature child classification, changed
+source/canonical order, reconstructed image pixels, missing cross-page sources and a lost
+warranty continuation. All 93,396 earlier July files, 841 saved-stage files, thirty core
+modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder
+and 117 classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is
+reused.
+
+One canonical task, four mapped pages and two outside lookup pages (202 and 207) stay within
+checkpoint limits. Only 0088 advances to readable/sample-reviewed. Totals are 43 readable
+articles, zero partials, fifteen groups, thirty references and fifteen unresolved identities
+across 113 completed checkpoints. Hardware child classification, library 0070, forum 0059
+and whole July restoration remain incomplete.
+
+Next: classify hardware children 0089 and 0090 as two bounded reference tasks against
+complete batch-113-r01/hardware. Preserve source order PowerStack then ScanJet, both
+cross-page paragraphs, captions, product fields, highlights and the final warranty/ending
+mark. Then reconcile the hardware family in a separate checkpoint. Continue books 0091 from
+PDF 207, remaining July identities, library 0070/forum 0059 reconciliation, 560-page
+accounting, cover verification and standalone JSON/assets closeout. Preserve all 117
+classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters
+from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original
+encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or
+deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 

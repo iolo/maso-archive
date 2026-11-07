@@ -11479,12 +11479,98 @@
       "toc_entry_id": "maso-1995-07-toc-0088",
       "title": "하드웨어 열람실",
       "parent_id": "maso-1995-07-toc-0070",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 113 completes hardware bundle 0088, 하드웨어 열람실, across PDF 203–206 / printed 192–195 as one immutable native. This completed checkpoint supersedes the saved mapping/OCR stage above. All four pages are restored; no separate assembly is required. CD reviews end on 202, and books begin independently on 207.",
+        "Two independent reviews retain their own prose and assets: RISC 기반 PC 파워스택 on 203–204 and HP 스캔젯 3P on 205–206. Source child order 0090/0089 remains distinct from canonical order 0089/0090. Both children await separate reference classification; the complete parent is the sole body owner. Five original hardware photos, one software screenshot and one publication ending mark retain six literal captions. Ten product/specification fields and six highlight rows retain their review owners. No byline was observed.",
+        "All 375 selected, independent and fresh-process files match byte for byte. The complete native retains 97 pixel-exact crops, 90 original OCR outcomes, 77 text blocks, 392 physical reading rows and 2,006 typed range occurrences. Forty main prose paragraphs and twelve joins across thirteen boundaries validate. Two cross-page paragraphs, p-opengl and h-size, remain intact. Four within-region word/path wraps and nine word continuations across columns or pages retain physical source boundaries. The final warranty row stays in the accessories paragraph. No incoming, outgoing or inter-review join is required.",
+        "All 90 raw drafts preceded one prospectively timed source correction pass. Eleven complete contact sheets and nine additional full-size text crops were reviewed. The pass elapsed time includes pauses and the intervening status turn. Three retained pre-OCR maps document 97 crop adjustments. Zero OCR retries, post-OCR crop changes, helper failures or source refinements after serialization. Twelve source notes preserve printed technical claims and literal wording, including Rise, 네가티보, 당연의, 편이성 and an unmatched opening quotation mark. Three glyph records retain two multiplication signs and SCSI-II; original encoded forms remain unverified. The physical C: path wrap remains. Original scans remain authoritative.",
+        "All 60 invalid semantic cases reject, including missing review content, swapped specifications, lost captions/highlights, premature child classification, changed source/canonical order, reconstructed image pixels, missing cross-page sources and a lost warranty continuation. All 93,396 earlier July files, 841 saved-stage files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder and 117 classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.",
+        "One canonical task, four mapped pages and two outside lookup pages (202 and 207) stay within checkpoint limits. Only 0088 advances to readable/sample-reviewed. Totals are 43 readable articles, zero partials, fifteen groups, thirty references and fifteen unresolved identities across 113 completed checkpoints. Hardware child classification, library 0070, forum 0059 and whole July restoration remain incomplete."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-113-r01/hardware",
+        "article_id": "scan-maso-1995-07-toc-0088",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-113-r01/hardware/manifest.json",
+          "sha256": "bf8ecf7812537a8ce038800daec1b19f171210cda3412ab0679adb40cfb53a5c",
+          "bytes": 62887
+        },
+        "coverage": {
+          "pdf_pages": [
+            203,
+            204,
+            205,
+            206
+          ],
+          "printed_pages": [
+            "192",
+            "193",
+            "194",
+            "195"
+          ],
+          "regions": 97,
+          "blocks": 77,
+          "figures": 7,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 203,
+        "actual_end_pdf_page": 206,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            203,
+            204,
+            205,
+            206
+          ],
+          "current_pdf_pages": [
+            203,
+            204,
+            205,
+            206
+          ],
+          "current_printed_pages": [
+            "192",
+            "193",
+            "194",
+            "195"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 203,
+          "observed_ending_pdf_page": 206,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-113/source-reviewed.json",
+            "sha256": "014acae78213798f0e6d3af59412add4974f2d2bd57ca01936512a894009a932",
+            "bytes": 5480
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-113/validation.json",
+          "sha256": "dbedc1a40bbb2a3e2ca81b822885bc01bdbd975f47404708bc5ea389d312a7b4",
+          "bytes": 3632
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-113/reproduction.json",
+          "sha256": "3b793247fb91e38cbb40c09416a9cdd8f7863099dd65ff34371987ddff13f44d",
+          "bytes": 71741
+        },
+        "checkpoint": "batch-113"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0089",
@@ -16042,22 +16128,61 @@
         "sha256": "35687e18f0eb7d460e2b03f89205d4de43122b2bf78d48bb61660f58229d41a2",
         "bytes": 1118
       }
+    },
+    {
+      "name": "1995-07-batch-113",
+      "status": "complete",
+      "completed_at": "2026-11-07T18:54:35.503290+00:00",
+      "goal": "Complete hardware0088 across PDF203–206 as one immutable native; preserve two independent reviews and two pending canonical children.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0088"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        203,
+        204,
+        205,
+        206
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        202,
+        207
+      ],
+      "recognition_invocations": 90,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 0,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-113/validation.json",
+        "sha256": "dbedc1a40bbb2a3e2ca81b822885bc01bdbd975f47404708bc5ea389d312a7b4",
+        "bytes": 3632
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-113/reproduction.json",
+        "sha256": "3b793247fb91e38cbb40c09416a9cdd8f7863099dd65ff34371987ddff13f44d",
+        "bytes": 71741
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 42,
+    "readable": 43,
     "partial": 0,
     "group_headings": 15,
     "section_references": 30,
-    "unresolved": 16
+    "unresolved": 15
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Resume batch113 hardware0088 from saved mapped OCR. Read all90 drafts before one prospectively timed source correction pass across PDF203–206 / printed192–195. Reuse hardware/map.json (third map),layout.json and successful OCR. Two independent reviews retain six photos/screenshots,one ending mark,six captions,ten specification fields,six highlights and twelve paragraph groups across thirteen boundaries. Cross-page joins are p-opengl203→204 and h-size205→206; no inter-review join. Canonical child order0089/0090 is distinct from source order0090/0089. Preserve physical wraps,source spelling,system requirements,prices,contacts and historical claims. Export and independently reproduce the complete native in a fresh process,validating every range/context. Then classify children0089/0090 and reconcile hardware within bounded tasks;continue books0091 from207,remaining identities,library0070/forum0059 reconciliation,560-page accounting,cover verification and standalone JSON/assets closeout. Retain all117 classification pins,27 frozen assembly adapters from batch101,three local OCR adapters from batch87 and batch76 figure builder. Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: classify hardware children 0089 and 0090 as two bounded reference tasks against complete batch-113-r01/hardware. Preserve source order PowerStack then ScanJet, both cross-page paragraphs, captions, product fields, highlights and the final warranty/ending mark. Then reconcile the hardware family in a separate checkpoint. Continue books 0091 from PDF 207, remaining July identities, library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Preserve all 117 classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16644,51 +16769,5 @@
       "sha256": "49daba60ab0c73a5147b50079ae0f1f9dc4208131f11cd249b8e937604d62544",
       "bytes": 27944
     }
-  ],
-  "in_progress_checkpoint": {
-    "name": "1995-07-batch-113",
-    "status": "mapped-and-recognized;source-correction-not-started",
-    "toc_entry_ids": [
-      "maso-1995-07-toc-0088"
-    ],
-    "toc_entry_id": "maso-1995-07-toc-0088",
-    "full_pdf_pages": [
-      203,
-      204,
-      205,
-      206
-    ],
-    "mapped_pdf_pages": [
-      203,
-      204,
-      205,
-      206
-    ],
-    "remaining_pdf_pages": [],
-    "regions": 97,
-    "ocr_outcomes": 90,
-    "pre_ocr_map_versions": 3,
-    "ocr_retries": 0,
-    "availability_changed": false,
-    "source_review": {
-      "path": "archive/pdf/1995-07/restoration/batch-113/source-reviewed.json",
-      "sha256": "014acae78213798f0e6d3af59412add4974f2d2bd57ca01936512a894009a932",
-      "bytes": 5480
-    },
-    "map": {
-      "path": "archive/pdf/1995-07/restoration/batch-113/hardware/map.json",
-      "sha256": "22d6f1552b4e4351db9ae20cf66981f4cef4f66ca7acf08a06140a01644526bf",
-      "bytes": 33134
-    },
-    "raw_drafts": {
-      "path": "archive/pdf/1995-07/restoration/batch-113/initial-drafts.json",
-      "sha256": "fc9689fd08d00c169f60c342f4198e0d347a44f4e48c3dbae2cd047aa253e0dd",
-      "bytes": 19529
-    },
-    "audit": {
-      "path": "archive/pdf/1995-07/restoration/batch-113/ocr-stage-audit.json",
-      "sha256": "c0a06851b1930321e010837ab4d002db132c61afdbc5bbe46c3f96369e4ca411",
-      "bytes": 2338
-    }
-  }
+  ]
 }
