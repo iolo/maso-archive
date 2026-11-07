@@ -4223,6 +4223,56 @@ JSON/assets closeout. Preserve all 105 classification pins, 27 frozen assembly a
 batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain an
 explicit verification limit. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 107 finalizes NEWTON 0080 and WinLabel 0081 as non-owning references into
+complete public-software parent 0077. Their complete source scopes are PDF 195 / printed 184
+and PDF 196 / printed 185, anchored at newton-title and winlabel-title. Canonical
+identities, titles, order, hierarchy, missing folios and bylines remain unchanged. No
+duplicate article bodies are created. Final JAPY 0078 and QUICKPLAY 0079 sidecars remain
+unchanged and are carried forward in the external parent status disposition.
+
+The two references retain 30 regions, 19 text blocks, nine main prose paragraphs, three
+original uncaptained screenshots and six filename, size and download fields. All 88 physical
+rows and 243 typed range occurrences validate against the complete immutable native. Five
+local paragraph joins preserve eight boundaries. Two physical word wraps and five WinLabel
+column wraps retain their LF and source pieces. Four source notes and one selected glyph
+record retain Newton’s printed capacity and summation claims, WinLabel’s 액셀 and 변화 아이콘
+wording, and the selected 괘선 reading. Historical product claims and original encoded bytes
+remain unverified.
+
+Four classification files match independent and fresh-process exports. All 49 invalid cases
+reject, including wrong owners/anchors, missing prose or fields, swapped filenames, invented
+captions, reconstructed screenshot overlap pixels, lost physical-wrap provenance, altered
+earlier references and premature family completion. Full-page reviews of 195–196 confirm
+Newton below QuickPlay and WinLabel above SHCopyStar with complete endings and separate
+notice boundaries. No new mapping, OCR, source correction or verification repair occurs.
+
+All 91,013 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters and 105 prior classification pins remain exact. The
+unchanged fresh 214-test batch101 baseline is reused. Three new required pins bring
+classification evidence to 108. External status now finalizes 0078–0081 and keeps SHCopyStar
+0082 pending. The three parent-owned unlisted notices and two library/public banners remain
+unchanged. Frozen native creation-time flags remain historical evidence;
+public/library/forum family reconciliation remains incomplete.
+
+Two canonical tasks, zero mapped pages and two source lookup pages stay within limits.
+Totals are 40 readable articles, zero partials, fifteen groups, twenty-six references and 22
+unresolved identities across 107 completed checkpoints. Whole July restoration remains
+active; full proofreading, human acceptance and original encoded bytes remain unverified.
+
+Next: finalize SHCopyStar 0082 on PDF 196 / printed 185 at shcopy-title, then reconcile
+public parent 0077 and its five final references as the second bounded canonical task. Prove
+a disjoint partition of all 114 regions, 78 text blocks, thirteen screenshots, 24 file
+fields, 36 main paragraphs, 337 physical rows and sixteen joins across eight independent
+notice contexts. Keep METZ, magazine management and 4B parent-owned without invented child
+identities, and retain the two library/public banners as parent-only. Preserve all four
+earlier child sidecars and resolve frozen pending flags externally. Then verify game 0083
+from its observed PDF 197 opening before mapping its actual extent. Continue CD 0084 and the
+remaining July identities, library0070/forum0059 reconciliation, 560-page accounting, cover
+verification and standalone JSON/assets closeout. Preserve all 108 classification pins, 27
+frozen assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete
+donated TOCs remain an explicit verification limit. No automatic CD3 association, reader
+rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 

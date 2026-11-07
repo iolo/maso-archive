@@ -10921,23 +10921,101 @@
       "toc_entry_id": "maso-1995-07-toc-0080",
       "title": "윈도우즈용 계산기, NEWTON 1.5",
       "parent_id": "maso-1995-07-toc-0077",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 107 finalizes NEWTON 0080 and WinLabel 0081 as non-owning references into\ncomplete public-software parent 0077. Their complete source scopes are PDF 195 / printed 184\nand PDF 196 / printed 185, anchored at newton-title and winlabel-title. Canonical\nidentities, titles, order, hierarchy, missing folios and bylines remain unchanged. No\nduplicate article bodies are created. Final JAPY 0078 and QUICKPLAY 0079 sidecars remain\nunchanged and are carried forward in the external parent status disposition.",
+        "The two references retain 30 regions, 19 text blocks, nine main prose paragraphs, three\noriginal uncaptained screenshots and six filename, size and download fields. All 88 physical\nrows and 243 typed range occurrences validate against the complete immutable native. Five\nlocal paragraph joins preserve eight boundaries. Two physical word wraps and five WinLabel\ncolumn wraps retain their LF and source pieces. Four source notes and one selected glyph\nrecord retain Newton’s printed capacity and summation claims, WinLabel’s 액셀 and 변화 아이콘\nwording, and the selected 괘선 reading. Historical product claims and original encoded bytes\nremain unverified.",
+        "Four classification files match independent and fresh-process exports. All 49 invalid cases\nreject, including wrong owners/anchors, missing prose or fields, swapped filenames, invented\ncaptions, reconstructed screenshot overlap pixels, lost physical-wrap provenance, altered\nearlier references and premature family completion. Full-page reviews of 195–196 confirm\nNewton below QuickPlay and WinLabel above SHCopyStar with complete endings and separate\nnotice boundaries. No new mapping, OCR, source correction or verification repair occurs.",
+        "All 91,013 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 105 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Three new required pins bring\nclassification evidence to 108. External status now finalizes 0078–0081 and keeps SHCopyStar\n0082 pending. The three parent-owned unlisted notices and two library/public banners remain\nunchanged. Frozen native creation-time flags remain historical evidence;\npublic/library/forum family reconciliation remains incomplete.",
+        "Two canonical tasks, zero mapped pages and two source lookup pages stay within limits.\nTotals are 40 readable articles, zero partials, fifteen groups, twenty-six references and 22\nunresolved identities across 107 completed checkpoints. Whole July restoration remains\nactive; full proofreading, human acceptance and original encoded bytes remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0077",
+      "section": {
+        "anchor": "newton-title",
+        "anchor_scope": "complete-native",
+        "heading_pdf_page": 195
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0077",
+        "directory": "archive/pdf/1995-07/packages/batch-105-r01/public",
+        "anchor": "newton-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 195,
+        "source_heading_printed_page": "184",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-native",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-105-r01/public/manifest.json",
+          "sha256": "ae0cbfe563d37e32173fb8d746e051ab57d85dbfdba0b194f8ed77b838369807",
+          "bytes": 70946
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-107-r01/child-0080-anchor.json",
+          "sha256": "98a369ce587fee3d98d3ad1bd64204fe09803b9b43b1be4036627598ff836587",
+          "bytes": 65209
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-107/validation.json",
+          "sha256": "f8cec91bbfc964a62b2d3a55cca4bb32251fa370c28a4ccb3bc66b519a507aed",
+          "bytes": 1814
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0081",
       "title": "라벨 만들기, WinLabel 1.0",
       "parent_id": "maso-1995-07-toc-0077",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 107 finalizes NEWTON 0080 and WinLabel 0081 as non-owning references into\ncomplete public-software parent 0077. Their complete source scopes are PDF 195 / printed 184\nand PDF 196 / printed 185, anchored at newton-title and winlabel-title. Canonical\nidentities, titles, order, hierarchy, missing folios and bylines remain unchanged. No\nduplicate article bodies are created. Final JAPY 0078 and QUICKPLAY 0079 sidecars remain\nunchanged and are carried forward in the external parent status disposition.",
+        "The two references retain 30 regions, 19 text blocks, nine main prose paragraphs, three\noriginal uncaptained screenshots and six filename, size and download fields. All 88 physical\nrows and 243 typed range occurrences validate against the complete immutable native. Five\nlocal paragraph joins preserve eight boundaries. Two physical word wraps and five WinLabel\ncolumn wraps retain their LF and source pieces. Four source notes and one selected glyph\nrecord retain Newton’s printed capacity and summation claims, WinLabel’s 액셀 and 변화 아이콘\nwording, and the selected 괘선 reading. Historical product claims and original encoded bytes\nremain unverified.",
+        "Four classification files match independent and fresh-process exports. All 49 invalid cases\nreject, including wrong owners/anchors, missing prose or fields, swapped filenames, invented\ncaptions, reconstructed screenshot overlap pixels, lost physical-wrap provenance, altered\nearlier references and premature family completion. Full-page reviews of 195–196 confirm\nNewton below QuickPlay and WinLabel above SHCopyStar with complete endings and separate\nnotice boundaries. No new mapping, OCR, source correction or verification repair occurs.",
+        "All 91,013 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 105 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Three new required pins bring\nclassification evidence to 108. External status now finalizes 0078–0081 and keeps SHCopyStar\n0082 pending. The three parent-owned unlisted notices and two library/public banners remain\nunchanged. Frozen native creation-time flags remain historical evidence;\npublic/library/forum family reconciliation remains incomplete.",
+        "Two canonical tasks, zero mapped pages and two source lookup pages stay within limits.\nTotals are 40 readable articles, zero partials, fifteen groups, twenty-six references and 22\nunresolved identities across 107 completed checkpoints. Whole July restoration remains\nactive; full proofreading, human acceptance and original encoded bytes remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0077",
+      "section": {
+        "anchor": "winlabel-title",
+        "anchor_scope": "complete-native",
+        "heading_pdf_page": 196
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0077",
+        "directory": "archive/pdf/1995-07/packages/batch-105-r01/public",
+        "anchor": "winlabel-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 196,
+        "source_heading_printed_page": "185",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-native",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-105-r01/public/manifest.json",
+          "sha256": "ae0cbfe563d37e32173fb8d746e051ab57d85dbfdba0b194f8ed77b838369807",
+          "bytes": 70946
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-107-r01/child-0081-anchor.json",
+          "sha256": "b8ccf9d129075b9925bcc1ca012671695f421039a9fd8b8d69cc99a61a1fb538",
+          "bytes": 77147
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-107/validation.json",
+          "sha256": "f8cec91bbfc964a62b2d3a55cca4bb32251fa370c28a4ccb3bc66b519a507aed",
+          "bytes": 1814
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0082",
@@ -15356,6 +15434,37 @@
         "sha256": "70c0aaca3e6aa8b44a8d8adb65c54f457653e5157157da5f615e01f617d6fb7c",
         "bytes": 1119
       }
+    },
+    {
+      "name": "1995-07-batch-107",
+      "status": "complete",
+      "completed_at": "2026-11-07T17:30:17.587258+00:00",
+      "goal": "Finalize NEWTON0080 and WinLabel0081 as non-owning references into complete public0077.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0080",
+        "maso-1995-07-toc-0081"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        195,
+        196
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-107/validation.json",
+        "sha256": "f8cec91bbfc964a62b2d3a55cca4bb32251fa370c28a4ccb3bc66b519a507aed",
+        "bytes": 1814
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-107/reproduction.json",
+        "sha256": "0e2fa0ecc404a0a9c3e899316f1416743b0918b5f2a62f7f7a2999eb531bc74e",
+        "bytes": 1119
+      }
     }
   ],
   "totals": {
@@ -15363,15 +15472,15 @@
     "readable": 40,
     "partial": 0,
     "group_headings": 15,
-    "section_references": 24,
-    "unresolved": 24
+    "section_references": 26,
+    "unresolved": 22
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: finalize NEWTON 0080 on PDF 195 / printed 184 at newton-title and WinLabel 0081 on PDF\n196 / printed 185 at winlabel-title as non-owning references into public 0077. Preserve\ntheir independent prose, screenshots, file fields, literal claims and physical wraps. Then\nfinalize SHCopyStar 0082 and reconcile the public family as two bounded canonical tasks,\npreserving all eight notice contexts, three unlisted parent-owned notices and two umbrella\nbanners. Continue game 0083 from PDF 197, CD 0084 and the remaining July identities, library\n0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone\nJSON/assets closeout. Preserve all 105 classification pins, 27 frozen assembly adapters from\nbatch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain an\nexplicit verification limit. No automatic CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: finalize SHCopyStar 0082 on PDF 196 / printed 185 at shcopy-title, then reconcile\npublic parent 0077 and its five final references as the second bounded canonical task. Prove\na disjoint partition of all 114 regions, 78 text blocks, thirteen screenshots, 24 file\nfields, 36 main paragraphs, 337 physical rows and sixteen joins across eight independent\nnotice contexts. Keep METZ, magazine management and 4B parent-owned without invented child\nidentities, and retain the two library/public banners as parent-only. Preserve all four\nearlier child sidecars and resolve frozen pending flags externally. Then verify game 0083\nfrom its observed PDF 197 opening before mapping its actual extent. Continue CD 0084 and the\nremaining July identities, library0070/forum0059 reconciliation, 560-page accounting, cover\nverification and standalone JSON/assets closeout. Preserve all 108 classification pins, 27\nfrozen assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete\ndonated TOCs remain an explicit verification limit. No automatic CD3 association, reader\nrebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -15897,6 +16006,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-106-r01/parent-status-dispositions.json",
       "sha256": "133521edf604026148d95f0e48365beab9583433f43b147ece2c0929d3e5140d",
       "bytes": 3566
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-107-r01/child-0080-anchor.json",
+      "sha256": "98a369ce587fee3d98d3ad1bd64204fe09803b9b43b1be4036627598ff836587",
+      "bytes": 65209
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-107-r01/child-0081-anchor.json",
+      "sha256": "b8ccf9d129075b9925bcc1ca012671695f421039a9fd8b8d69cc99a61a1fb538",
+      "bytes": 77147
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-107-r01/parent-status-dispositions.json",
+      "sha256": "92911fe52d13494e08aa524dd5692fac1aa961fe3a733f74635be827eb089db6",
+      "bytes": 4494
     }
   ]
 }
