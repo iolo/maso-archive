@@ -1,5 +1,52 @@
 # Progress
 
+## 2026-11-07 — July serial and Windows headings
+
+July batch 57 classifies0051 연재 and0052 윈도우즈 as non-owning groups.
+Canonical0051 has one direct subgroup0052 and six descendants;0052 has five
+article children0053–0057. Original titles,parent links and null folios remain.
+Neither heading receives article text,pages,an inherited folio or a restoration
+package. Classification does not complete either family or ancestor forum0043.
+
+Source article0053 opens PDF419/printed408 with 비주얼 베이직과 윈도우즈[1],
+title 비주얼 베이직에서의 SDK 함수 호출 and author 전성욱. Its419/421 headers
+read 연재강좌;420/409 carries 프로그래밍포럼. Article0054 opens431/420 with
+Win32를 뛰어넘자[마지막회],title 컨트롤의 사용 and author 김종원. Canonical
+연재 is not rewritten as the printed 연재강좌. No standalone 윈도우즈 banner
+was observed on these reviewed pages;the subgroup follows the canonical hierarchy,
+without claiming its absence throughout the issue. Complete article extents remain
+unverified. Prior417 ends MDB;418 is advertising.
+
+All thirteen selected,independent and fresh-process classification files match.
+Ten pixel-exact crops retain banners,titles,credits and folios. Fifty invalid
+hierarchy,ownership,completion,source-reading and glyph-certainty cases reject.
+One retained metadata revision explicitly marks a historical Hangul product glyph
+in0054's affiliation as uncertain;the first export,readings and source pixels
+remain unchanged. This does not affect the unambiguous author name 김종원.
+All46,946 earlier July files,thirty core modules,fifteen frozen adapters and69
+previous classification pins remain exact. The unchanged214-test batch56 baseline
+is reused. Two canonical tasks,three mapped evidence pages419/420/431 and three
+outside lookups417/418/421 remain within limits. No new OCR or source correction.
+
+Totals: twenty-five readable articles,zero partials,ten groups,seventeen references
+and51 unresolved identities. Seventy-two classification pins are now required for
+issue closeout. All five leaf article restorations and forum reconciliation remain
+pending;classification does not inflate readable coverage.
+
+Next: verify article0053's complete source extent from observed419/408 opening and
+420–421 continuations. The next article opens431/420,but that does not establish
+0053's ending. Restore an opening native of at most six mapped pages after boundary
+review;defer any remaining pages and actual assembly to separate checkpoints.
+Whole July560-page accounting,cover and standalone JSON/assets closeout remain
+pending. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded
+bytes and historical execution remain explicit limits. No automatic CD3 association,
+reader rebuild or deployment.
+
+Evidence: `archive/pdf/1995-07/restoration/batch-57/validation.json`,
+`reproduction.json`, `source-reviewed.json` and `handoff.json`.
+Selected classification: `archive/pdf/1995-07/classifications/batch-57-r02/`;
+original `batch-57-r01/` remains retained.
+
 ## 2026-11-07 — July MDB assembly
 
 July batch 56 actually assembles MDB0050 across PDF 405–417/printed 394–406.
