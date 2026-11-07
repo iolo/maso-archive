@@ -11489,7 +11489,8 @@
         "All 375 selected, independent and fresh-process files match byte for byte. The complete native retains 97 pixel-exact crops, 90 original OCR outcomes, 77 text blocks, 392 physical reading rows and 2,006 typed range occurrences. Forty main prose paragraphs and twelve joins across thirteen boundaries validate. Two cross-page paragraphs, p-opengl and h-size, remain intact. Four within-region word/path wraps and nine word continuations across columns or pages retain physical source boundaries. The final warranty row stays in the accessories paragraph. No incoming, outgoing or inter-review join is required.",
         "All 90 raw drafts preceded one prospectively timed source correction pass. Eleven complete contact sheets and nine additional full-size text crops were reviewed. The pass elapsed time includes pauses and the intervening status turn. Three retained pre-OCR maps document 97 crop adjustments. Zero OCR retries, post-OCR crop changes, helper failures or source refinements after serialization. Twelve source notes preserve printed technical claims and literal wording, including Rise, 네가티보, 당연의, 편이성 and an unmatched opening quotation mark. Three glyph records retain two multiplication signs and SCSI-II; original encoded forms remain unverified. The physical C: path wrap remains. Original scans remain authoritative.",
         "All 60 invalid semantic cases reject, including missing review content, swapped specifications, lost captions/highlights, premature child classification, changed source/canonical order, reconstructed image pixels, missing cross-page sources and a lost warranty continuation. All 93,396 earlier July files, 841 saved-stage files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder and 117 classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.",
-        "One canonical task, four mapped pages and two outside lookup pages (202 and 207) stay within checkpoint limits. Only 0088 advances to readable/sample-reviewed. Totals are 43 readable articles, zero partials, fifteen groups, thirty references and fifteen unresolved identities across 113 completed checkpoints. Hardware child classification, library 0070, forum 0059 and whole July restoration remain incomplete."
+        "One canonical task, four mapped pages and two outside lookup pages (202 and 207) stay within checkpoint limits. Only 0088 advances to readable/sample-reviewed. Totals are 43 readable articles, zero partials, fifteen groups, thirty references and fifteen unresolved identities across 113 completed checkpoints. Hardware child classification, library 0070, forum 0059 and whole July restoration remain incomplete.",
+        "July batch 115 reconciles the complete hardware 0088 family across PDF 203–206 / printed\n192–195. The immutable batch-113-r01/hardware native remains the sole body owner, and final\nScanJet 0089 and PowerStack 0090 references remain unchanged. Direct review of the four\nsource pages confirms two distinct complete reviews. Source order 0090/0089 and canonical\norder 0089/0090 both remain explicit.\n\nThe disjoint partition accounts for all 97 regions, 77 blocks, seven original figures, six\ncaptions, forty main paragraphs, ten product fields, six highlights, 392 physical rows,\ntwelve paragraph groups, thirteen boundaries and two cross-page paragraphs. The references\ncover 95 regions and 75 blocks; the two library/hardware banners remain parent-only.\nPowerStack retains OpenGL/Viewfinder across 203–204. ScanJet retains its sizing paragraph\nacross 205–206 and its final warranty within the accessories paragraph. The publication\nending mark belongs to ScanJet. No unlisted review, duplicate body or inter-review join is\ninvented.\n\nThree family files reproduce independently and in a fresh process. All 993 existing child\ntyped ranges and one new title-discrepancy range validate. The printed PowerStack title\nincludes PC while canonical RISC 기반 파워스택 omits it; both remain unchanged. All 57 invalid\ncases reject, including omitted or overlapping regions, blocks, captions, fields,\nhighlights, rows, joins, boundaries or cross-page paragraphs; reordered children; lost\nwarranty/ending mark; duplicate ownership; and premature ancestor or issue completion.\n\nAll 94,778 earlier July files, 375 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 120 prior classification pins remain exact. The\nunchanged fresh 214-test batch 101 baseline is reused. Two new family pins bring required\nclassification evidence to 122. External status completes hardware 0088 while preserving\nnative and earlier disposition flags as immutable historical evidence. Library 0070 and\nforum 0059 remain incomplete. No new mapping, rendering, OCR or source correction was\nperformed.\n\nOne canonical family task, zero mapped pages and four source lookup pages stay within\ncheckpoint limits. Availability totals remain 43 readable articles, zero partials, fifteen\ngroups, 32 references and thirteen unresolved identities across 115 completed checkpoints.\nWhole July restoration remains in progress.\n\nNext: verify books 0091, 새로 나온 책, from the observed PDF 207 / printed 196 opening. Establish\nits complete source extent and separate book-notice contexts before mapping at most six\npages. Canonical next article 0092, 내가 선택한 책, starts at printed 198; confirm its actual\nsource boundary independently. Then continue remaining July identities, library 0070/forum\n0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets\ncloseout. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101\nand three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment."
       ],
       "restoration": {
         "directory": "archive/pdf/1995-07/packages/batch-113-r01/hardware",
@@ -11569,7 +11570,36 @@
           "sha256": "3b793247fb91e38cbb40c09416a9cdd8f7863099dd65ff34371987ddff13f44d",
           "bytes": 71741
         },
-        "checkpoint": "batch-113"
+        "checkpoint": "batch-113",
+        "family_reconciliation": {
+          "status": "complete",
+          "child_references_final": true,
+          "child_toc_entry_ids": [
+            "maso-1995-07-toc-0089",
+            "maso-1995-07-toc-0090"
+          ],
+          "body_owner_count": 1,
+          "nonowning_references": 2,
+          "notice_contexts": 2,
+          "uncatalogued_parent_owned_notices": [],
+          "partition": {
+            "path": "archive/pdf/1995-07/classifications/batch-115-r01/family-partition.json",
+            "sha256": "fb9c429163df337d723fb6715bfd8b46ecb012ecc1a495c33031b41e4a4689c1",
+            "bytes": 23375
+          },
+          "status_disposition": {
+            "path": "archive/pdf/1995-07/classifications/batch-115-r01/parent-status-dispositions.json",
+            "sha256": "59e950c1af899f58b9ee41ce77434fc58bd6d876ea8c61634ce865ef713877ac",
+            "bytes": 3479
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-115/validation.json",
+            "sha256": "626f3b964a8ce50db05b0aa5e5b5f3bf541b01ec9da837709bbdb99ef584b7da",
+            "bytes": 1644
+          },
+          "ancestor_families_complete": false,
+          "whole_issue_complete": false
+        }
       }
     },
     {
@@ -16280,6 +16310,38 @@
         "sha256": "1e951e8924c6df268fa3d2237ef501f5f58150fc39cf2ef5ec9938429b84de93",
         "bytes": 1121
       }
+    },
+    {
+      "name": "1995-07-batch-115",
+      "status": "complete",
+      "completed_at": "2026-11-07T19:07:00.294379+00:00",
+      "goal": "Reconcile complete hardware0088 with both final child references and all original contexts.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0088"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        203,
+        204,
+        205,
+        206
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-115/validation.json",
+        "sha256": "626f3b964a8ce50db05b0aa5e5b5f3bf541b01ec9da837709bbdb99ef584b7da",
+        "bytes": 1644
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-115/reproduction.json",
+        "sha256": "d27fc8bf1af8a935ff88cccae4d496b06ebbe33970844d9ae8552db006ef3cb8",
+        "bytes": 960
+      }
     }
   ],
   "totals": {
@@ -16295,7 +16357,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: reconcile the hardware 0088 family against both final child references and the\ncomplete immutable batch-113-r01/hardware native. Prove the disjoint review scopes,\nparent-only banners, both cross-page continuations and final warranty/ending mark. Then\nverify books 0091 from the observed PDF 207 / printed 196 opening before mapping its\ncomplete extent, followed by remaining July identities. Continue library 0070/forum 0059\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.\nPreserve all 120 classification pins, 27 frozen assembly adapters from batch 101 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.",
+  "next_checkpoint": "Next: verify books 0091, 새로 나온 책, from the observed PDF 207 / printed 196 opening. Establish\nits complete source extent and separate book-notice contexts before mapping at most six\npages. Canonical next article 0092, 내가 선택한 책, starts at printed 198; confirm its actual\nsource boundary independently. Then continue remaining July identities, library 0070/forum\n0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets\ncloseout. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101\nand three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16896,6 +16958,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-114-r01/parent-status-dispositions.json",
       "sha256": "a4a7a1416d8f2047ef3dc1d761c8dfb395d3f81779ef23644a8c51d495a5dbab",
       "bytes": 3115
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-115-r01/parent-status-dispositions.json",
+      "sha256": "59e950c1af899f58b9ee41ce77434fc58bd6d876ea8c61634ce865ef713877ac",
+      "bytes": 3479
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-115-r01/family-partition.json",
+      "sha256": "fb9c429163df337d723fb6715bfd8b46ecb012ecc1a495c33031b41e4a4689c1",
+      "bytes": 23375
     }
   ]
 }

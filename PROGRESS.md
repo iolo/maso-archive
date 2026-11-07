@@ -10507,3 +10507,48 @@ Preserve all 120 classification pins, 27 frozen assembly adapters from batch 101
 local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human
 acceptance and original encoded bytes remain explicit limits. No inferred CD3 association,
 reader rebuild or deployment.
+
+July batch 115 reconciles the complete hardware 0088 family across PDF 203–206 / printed
+192–195. The immutable batch-113-r01/hardware native remains the sole body owner, and final
+ScanJet 0089 and PowerStack 0090 references remain unchanged. Direct review of the four
+source pages confirms two distinct complete reviews. Source order 0090/0089 and canonical
+order 0089/0090 both remain explicit.
+
+The disjoint partition accounts for all 97 regions, 77 blocks, seven original figures, six
+captions, forty main paragraphs, ten product fields, six highlights, 392 physical rows,
+twelve paragraph groups, thirteen boundaries and two cross-page paragraphs. The references
+cover 95 regions and 75 blocks; the two library/hardware banners remain parent-only.
+PowerStack retains OpenGL/Viewfinder across 203–204. ScanJet retains its sizing paragraph
+across 205–206 and its final warranty within the accessories paragraph. The publication
+ending mark belongs to ScanJet. No unlisted review, duplicate body or inter-review join is
+invented.
+
+Three family files reproduce independently and in a fresh process. All 993 existing child
+typed ranges and one new title-discrepancy range validate. The printed PowerStack title
+includes PC while canonical RISC 기반 파워스택 omits it; both remain unchanged. All 57 invalid
+cases reject, including omitted or overlapping regions, blocks, captions, fields,
+highlights, rows, joins, boundaries or cross-page paragraphs; reordered children; lost
+warranty/ending mark; duplicate ownership; and premature ancestor or issue completion.
+
+All 94,778 earlier July files, 375 parent files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters and 120 prior classification pins remain exact. The
+unchanged fresh 214-test batch 101 baseline is reused. Two new family pins bring required
+classification evidence to 122. External status completes hardware 0088 while preserving
+native and earlier disposition flags as immutable historical evidence. Library 0070 and
+forum 0059 remain incomplete. No new mapping, rendering, OCR or source correction was
+performed.
+
+One canonical family task, zero mapped pages and four source lookup pages stay within
+checkpoint limits. Availability totals remain 43 readable articles, zero partials, fifteen
+groups, 32 references and thirteen unresolved identities across 115 completed checkpoints.
+Whole July restoration remains in progress.
+
+Next: verify books 0091, 새로 나온 책, from the observed PDF 207 / printed 196 opening. Establish
+its complete source extent and separate book-notice contexts before mapping at most six
+pages. Canonical next article 0092, 내가 선택한 책, starts at printed 198; confirm its actual
+source boundary independently. Then continue remaining July identities, library 0070/forum
+0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets
+closeout. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101
+and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits. No inferred CD3
+association, reader rebuild or deployment.
