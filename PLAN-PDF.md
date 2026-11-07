@@ -3185,6 +3185,51 @@ Incomplete donated TOCs,full proofreading,human acceptance,exact original encode
 andexecution remain explicit limits. No automatic CD3 association,reader rebuild or
 deployment.
 
+July batch 89 reconciles operating-system group 0064 and classifies hardware heading
+0067 as two bounded canonical tasks. Operating-system children Windows95 0065 and
+Windows NT 0066 are complete and readable across PDF 503–519 / printed 494–510.
+Their 17 distinct pages retain 290 regions, 253 blocks, nine original figures and
+281 OCR outcomes. All 1,185 package files remain unchanged. Forty-two package-local
+source ranges preserve the separate titles, credits, opening and ending contexts.
+Source 김효준 and 프로그램 개발 환경 remain distinct from canonical 김훈 and
+프로그래밍 환경; the NT authors and separate editors retain their original roles.
+
+A new family-ownership record and 38 external status resolutions complete group 0064's
+descendant outcomes. Original batch82 classification and immutable article metadata
+retain their historical pending flags. The group still owns no body, folio or article
+package. Forum 0059 and the other pending families are not completed by this decision.
+
+Hardware 0067 is a non-owning, pageless group under 0059 with two pending children.
+PnP 0068 opens at PDF 521 / printed 512, source author 박현철(미국 와이즈 넷 연구원),
+and continues on 522 / 513 under 하드웨어. CD-ROM 0069 opens at 529 / 520, source author
+정용주(기아시스템), under the same hardware and forum headings. The later opening does
+not establish the PnP ending or either article's full extent. NT's listing and cartoon
+end on 519; the full-page advertisement on 520 remains outside both families.
+
+All 17 selected, independent and fresh-process classification files match. Thirteen
+classification crops are pixel-exact across three mapped pages; four additional pages
+are source lookups. All 53 invalid cases reject. One map, no crop revisions, no OCR,
+no article-body transcription and no source correction. The unchanged fresh 214-test
+batch88 baseline is reused. All 80,223 earlier July files, thirty core modules,
+24 assembly adapters, three local OCR adapters, the batch76 figure builder and 77
+prior classification pins remain exact. Four new classification pins bring the total
+to 81. Only group entries 0064 and 0067 change; all article outcomes remain unchanged.
+Totals: 36 readable articles, zero partials, fourteen groups, seventeen references and
+36 unresolved identities. Whole July restoration remains in progress.
+
+Next: verify PnP article 0068 from its observed PDF 521 / printed 512 opening and
+522 / 513 continuation. Establish its actual ending and interior continuity before
+mapping an opening native of at most six pages. CD-ROM 0069 opens at 529 / 520, but
+this boundary alone does not prove the PnP extent. Preserve source author 박현철,
+the PC 95[1] series and the canonical hardware/forum hierarchy. Reuse the seven saved
+classification views and retain 81 classification pins, 24 frozen assembly adapters,
+three local OCR adapters and the batch76 figure builder. Hardware 0067, forum 0059,
+tool-review 0060, groups 0051/0052 and forum 0043 still need their appropriate family
+reconciliation. Continue the remaining July identities, 560-page accounting, cover
+and standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading,
+human acceptance, exact original encoded bytes and execution remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
