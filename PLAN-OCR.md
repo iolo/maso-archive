@@ -5444,6 +5444,65 @@ cover verification and standalone JSON/assets closeout remain required. Preserve
 OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification
 limit. No inferred CD3 association, reader rebuild or deployment.
 
+July batch 128 actually assembles developer survey 0099 across PDF 550–557 from
+its two immutable native packages. The complete survey is now readable and
+sample-reviewed. The opening introduction/prizes, five questionnaire pages and
+reply-form reverse/front remain in source order, with no cross-native prose join.
+Only the questionnaire has independent printed folios 1–5; no folio or global
+page offset is inferred for the other pages. Advertisement 558 remains outside
+the survey, and prize children 0100–0102 remain pending separate classifications.
+
+All 960 selected, independent and fresh-process assembly files match, including
+all 952 native files independently regenerated from their original recipes. All
+240 source crops, 232 original OCR outcomes, 232 unchanged text blocks, eight
+original visuals and 574 reading rows validate. There are no printed captions.
+All 6,773 native typed occurrences project correctly, including 227 earlier-native
+ranges held by the reply-form package. All 13,995 current ranges and 68,549
+metadata scalar values validate against original content and owning namespaces.
+Original corrections, scope flags and partial states remain unchanged inside the
+embedded natives; current dispositions resolve their completed source-pass,
+reply-form and assembly deferrals.
+
+All 113 questions pair with their 113 blank response fields through explicit
+source ranges. The assembly retains 56 option groups with 296 alternatives,
+567 circled-number occurrences, thirty nine-point rating rows, three reference
+panels, eight shared-choice associations, the 72→78 branch, nine free-response
+prompts and three respondent prizes. The 139 serialized tables retain 777 cells,
+including empty response cells. The form preserves its 23 physical grid rows,
+uneven cell widths, special headers and phone/FAX punctuation. No participant,
+answer, rank, rating or survey result is inferred.
+
+The postal reverse retains two introduction paragraphs, its historical permit,
+two blank sender lines, six empty sender postcode boxes and the distinct Microsoft
+recipient address with boxed 135-090. Four sideways text regions retain original
+unrotated OCR and source-only reading details. Both unresolved small marks remain
+explicit: the stroke in the first prize line and the raised mark after Microsoft.
+Source anomalies, original typography, blank-character uncertainty and historical
+claims remain unchanged; no original bytes or current postal validity are asserted.
+
+All 214 fresh PDF tests pass, and 57 invalid cases reject. All 103,077 earlier
+July files, thirty core modules, 28 prior frozen assembly adapters, three local
+OCR adapters and 130 classification pins remain exact. The new survey adapter
+brings the required frozen inventory to 29 files. One report-only amendment replaces
+an inherited native-file total of 304 with the verified 450+502=952; the initial
+report is retained and no exported content changed. No mapping, new rendering,
+OCR or source correction was needed. One canonical task and five reused source
+lookups remain within the checkpoint limits.
+
+Totals are 51 readable articles, zero partials, sixteen groups, 32 references and
+four unresolved identities across 128 completed checkpoints. Whole July remains
+incomplete.
+
+Next: classify prize children 0100 and 0101 as bounded source-linked references
+into the complete survey, then classify 0102. Preserve their canonical identities,
+source wording, quantities and the first prize's explicit uncertain mark. Resolve
+video appendix 0103 separately. Whole 560-page accounting, cover verification and
+standalone JSON/assets closeout remain required. Preserve all 130 classification
+pins, the 29 frozen assembly adapters from batch 128 and three local OCR adapters
+from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and
+original encoded bytes remain explicit limits. No inferred CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
