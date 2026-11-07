@@ -3063,6 +3063,71 @@ standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human
 acceptance,exact encoded bytes and execution remain explicit limits. No automatic CD3
 association,reader rebuild or deployment.
 
+July batch 87 preserves Windows NT article 0066 final PDF517–519 / printed508–510 as a
+second immutable native. All nine source pages 511–519 /502–510 now exist across two
+packages; actual assembly remains required. Opening batch-86-r01/nt-a is unchanged. Page517
+completes its incoming conclusion with a required LF join after 커맨드 라인. A separate final
+paragraph, ending emblem and editor 정인성 conclude the prose; the listing continues through
+519.
+
+All 160 selected, independent and fresh-process files match. The final package retains 40
+pixel-exact crops, 37 original OCR outcomes, 36 text blocks, 256 reading/regional rows and
+5,327 current typed range occurrences, plus ten earlier-native occurrences. Two main prose
+paragraphs remain separate from the disk table and reference box. One local LF join
+preserves the final paragraph around its narrowly mapped ending row; the emblem is excluded
+from prose.
+
+The four-file disk table retains its original image, literal caption, four data rows, eight
+data cells and two header cells. GLTEST.C, GLTEST.EXE, GLTEST.MAK and MAKEFILE retain their
+exact roles. Historical disk number 3, 천리안, 나우누리 and go MASO do not establish a CD3
+association or recovered file bytes. The independent 참고 자료 box retains eight books, two
+CD-ROM references, three newsgroups and two URLs in four categories. Printed Jeffery, Hellen
+and Osbourne McGrow-Hill remain literal. Historical addresses were not visited or certified.
+
+One OpenGL example spans six physical code columns with 218 numbered rows and 213 distinct
+printed numbers. Printed 136–140 occur twice across 518→519 and both occurrences remain.
+Twenty-nine numbered blank rows, six single-dot omission rows, the empty comment 192, Korean
+comments, source author 채윤호/Dr.Hare, printed date 95.6.4 and source filename gltest.c remain
+indexed. The lowercase filename differs from GLTEST.C in the disk table. Nineteen array
+declarations retain 61 literal values, including two negative-zero occurrences. Line 090
+retains its missing opening parenthesis; no syntax repair or omitted code reconstruction
+occurred. The final original cartoon has no invented caption.
+
+All 37 drafts preceded one prospectively timed source pass. All 37 readings were serialized
+once. Two pre-OCR maps retain one right-margin extension for code05 punctuation. Zero OCR
+retries, post-OCR crop changes, within-pass refinements after serialization or post-pass
+source changes. All 104 glyph candidates and eight literal anomaly occurrences remain
+source-linked. The new private OCR adapter changes only the six-column Korean-comment
+allowlist from the frozen batch83 adapter; all 37 executions use kor+eng, OEM1/PSM6, one
+thread and 3000-pixel rendering. There are now three immutable local OCR adapters.
+
+All 52 invalid semantic cases reject. All 78,939 earlier July files, thirty core modules,
+twenty-three frozen assembly adapters, both prior local OCR adapters, batch76 figure builder
+and 77 classification pins remain exact. The unchanged fresh 214-test batch85 baseline is
+reused. One canonical task, three mapped pages and three outside lookups remain within
+limits. Totals remain 35 readable articles, one partial, thirteen groups, seventeen
+references and 37 unresolved identities. Only 0066 restoration evidence advances;
+availability remains partial pending assembly.
+
+Next: actually assemble NT0066 across PDF511–519 / printed502–510 from immutable
+batch-86-r01/nt-a and batch-87-r01/nt-b. Independently regenerate both standard package
+recipes and preserve all 695 native files, 174 crops, 168 OCR outcomes, 156 native blocks,
+673 reading rows, 674 regional fragments and 8,130 current native typed occurrences. The ten
+inherited ranges in b belong to a and must not project as current b text. Join only a
+conclusion-a to b conclusion-b with LF; retain the separate final paragraph, all six
+originals, four figure captions and separate listing caption, three searchable tables,
+fifteen reference items, all 218 listing rows with duplicate 136–140, 29 numbered blanks and
+six omission dots, 19 arrays/61 values, 185 glyph candidates and 15 source anomalies.
+Preserve source/canonical credits and all source-local versus parent download offsets.
+Verify complete ownership before marking0066 readable. Retain 77 classification pins, 23
+frozen assembly adapters, three local OCR adapters and the batch76 figure builder. Then
+reconcile operating-system group 0064 from its two complete children, and review hardware
+heading 0067 against source evidence before article 0068. Continue pending families,
+remaining July identities, 560-page accounting, cover and standalone JSON/assets closeout.
+Incomplete donated TOCs, full proofreading, human acceptance, original encoded bytes and
+execution remain explicit limits. No automatic CD3 association, reader rebuild or
+deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
