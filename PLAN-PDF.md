@@ -3230,6 +3230,52 @@ and standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading,
 human acceptance, exact original encoded bytes and execution remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
 
+July batch 90 is in progress at a saved mapping/OCR stage for PnP article 0068,
+윈도우즈 하드웨어 시대를 예고하는 PC 95[1] : PnP 아키텍처 분석. Direct review of all eleven source
+views PDF 520–530 establishes the complete extent at PDF 521–527 / printed 512–518.
+Source author 박현철 and affiliation 미국 와이즈 넷 연구원 retain their printed roles. The
+article ends on 527 with an emblem and separate editor 박은숙. Pages 520 and 528 are
+advertisements; 529 opens the distinct CD-ROM article 0069, which continues on 530.
+Current mapping covers 521–526, with five outside-map lookups. Final 527 and actual
+assembly remain separate checkpoints.
+
+All six initial overlays and every initial and revised text-crop edge were directly
+inspected. The complete title, category, dropcap, narrow column, split paragraph,
+four tables and two diagrams were also reviewed. Three retained maps record 78
+pre-OCR adjustments, including a paragraph split where the column narrows beside
+diagram 1 and five final margin changes. The selected map has 156 regions, including
+six original figures and 150 text regions. All selected and earlier-version crops
+are pixel-exact. All 150 original Tesseract outputs and settings validate: kor+eng,
+OEM 1 / PSM 6, one thread and 3000-pixel rendering. Zero retries; the category-label draft is empty and requires direct scan transcription.
+No source correction or package export has started; recognition is not restoration.
+
+Four tables retain 31 searchable regions spanning 34 physical rows. Two diagrams
+retain 37 individually located labels, including repeated device, peripheral, bus
+and RAM labels. Their original connectors remain authoritative: diagram 2 shows
+FDD without a connecting line, while its ISA/SCSI branch connects to the local bus.
+Four numbered requirements retain their source numbering. Six literal captions
+have explicit figure associations. Ten planned local joins preserve eleven boundaries,
+including the zero-separator dropcap and the paragraph split beside diagram 1.
+Expansion-card prose continues from 526 to 527. There is no code listing in this article.
+
+All 80,280 earlier July files, thirty core modules, twenty-four frozen assembly
+adapters, three local OCR adapters, the batch76 figure builder and 81 classification
+pins remain exact. The unchanged fresh 214-test batch88 baseline is reused. This saved
+stage changes no completed outcome and does not close batch90. Totals remain 36 readable
+articles, zero partials, fourteen groups, seventeen references and 36 unresolved identities.
+
+Next: read all 150 drafts, then start one prospective source correction pass, export and
+validate the opening partial native and finish batch90. Reuse the selected third map
+and successful OCR. Preserve all table rows, diagram labels and printed connections,
+numbered requirements, captions, physical wraps and source credits. Restore final527
+separately, then actually assemble the complete article. Hardware0067, forum0059,
+tool-review0060, groups0051/0052 and forum0043 need their appropriate family reconciliation.
+Remaining identities, whole July 560-page accounting, cover and standalone JSON/assets
+closeout remain required. Incomplete donated TOCs, full proofreading, human acceptance,
+original encoded bytes and historical technical claims remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-90/ocr-stage-audit.json`.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 

@@ -13478,7 +13478,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify PnP article 0068 from its observed PDF 521 / printed 512 opening and\n522 / 513 continuation. Establish its actual ending and interior continuity before\nmapping an opening native of at most six pages. CD-ROM 0069 opens at 529 / 520, but\nthis boundary alone does not prove the PnP extent. Preserve source author 박현철,\nthe PC 95[1] series and the canonical hardware/forum hierarchy. Reuse the seven saved\nclassification views and retain 81 classification pins, 24 frozen assembly adapters,\nthree local OCR adapters and the batch76 figure builder. Hardware 0067, forum 0059,\ntool-review 0060, groups 0051/0052 and forum 0043 still need their appropriate family\nreconciliation. Continue the remaining July identities, 560-page accounting, cover\nand standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading,\nhuman acceptance, exact original encoded bytes and execution remain explicit limits.\nNo automatic CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Resume batch90 PnP0068 opening from saved mapped OCR. Read all150 raw drafts, then start one prospectively timed source correction pass for PDF521–526/printed512–517. Reuse pnp-a/map.json (third map), layout.json and all successful OCR. Full extent521–527 is verified; final527 and actual assembly remain separate. Preserve four original tables, two original diagrams, six literal captions,31 searchable table regions spanning34 physical rows,37 individually located diagram labels and four numbered requirements. Ten local groups preserve11 boundaries, including the zero-separator opening dropcap and the split paragraph beside diagram1. Retain diagram2 FDD as an unconnected box; its ISA/SCSI branch is connected to the local bus. Preserve printed identifiers, values, spelling, physical wraps and repeated labels without technical repair. Expansion-card prose continues526→527; final527 ends with emblem and editor 박은숙. Export the immutable opening partial native, independently reproduce it in a fresh process and validate all ranges and contexts. Retain81 classification pins,24 frozen assembly adapters,three local OCR adapters and the batch76 figure builder. Continue remaining July identities, pending family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -13885,5 +13885,55 @@
       "sha256": "efa693808a0ebd4e57ee6e7deb054e7632870eb23a9de445c0aacb917dd71817",
       "bytes": 21482
     }
-  ]
+  ],
+  "in_progress_checkpoint": {
+    "name": "1995-07-batch-90",
+    "status": "mapped-and-recognized;source-correction-not-started",
+    "toc_entry_id": "maso-1995-07-toc-0068",
+    "full_pdf_pages": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527
+    ],
+    "mapped_pdf_pages": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "remaining_pdf_pages": [
+      527
+    ],
+    "regions": 156,
+    "ocr_outcomes": 150,
+    "pre_ocr_map_versions": 3,
+    "ocr_retries": 0,
+    "availability_changed": false,
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-90/source-reviewed.json",
+      "sha256": "4c6728734787ce07f47e6e226717272b03144d8426b2dde952ea6717ae8e3f18",
+      "bytes": 2078
+    },
+    "map": {
+      "path": "archive/pdf/1995-07/restoration/batch-90/pnp-a/map.json",
+      "sha256": "d2f7af0ce92df8e1594a20c93734031a18a3dc14d5dadebe256765246388074d",
+      "bytes": 50505
+    },
+    "raw_drafts": {
+      "path": "archive/pdf/1995-07/restoration/batch-90/initial-drafts.json",
+      "sha256": "39c7d3e31991e21d22ab0baf5624c375142b59a3d5a3b13a1a8da19fcf7c53d9",
+      "bytes": 31631
+    },
+    "audit": {
+      "path": "archive/pdf/1995-07/restoration/batch-90/ocr-stage-audit.json",
+      "sha256": "fa716966f4e1d5fb197d8373d1429735442bd066cd453411963c042705b02cb7",
+      "bytes": 2077
+    }
+  }
 }
