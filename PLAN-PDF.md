@@ -5200,6 +5200,61 @@ local OCR adapters from batch87. Incomplete donated TOCs, full proofreading,
 human acceptance and original encoded bytes remain explicit limits. No inferred
 CD3 association, reader rebuild or deployment.
 
+July batch 123 preserves the final detached reader-card0097 reverse/front on
+PDF546–547 as reader-b. The lower reader-card regions are separate from the upper
+subscription application and adjacent subscription-instruction strip. Three
+explicit mixed-page exclusions retain that distinction. Neither page has a
+visible folio. Page547 uses an evidenced clockwise90 raster transpose without
+interpolation; PDF geometry and the original source remain unchanged.
+
+All70 selected, independent and fresh-process native files match. Seventeen
+pixel-exact crops retain15 original OCR outcomes,15 text blocks,26 physical rows,
+171 current typed range occurrences and two original card images without captions.
+Earlier title, instructions and quiz context remain exact in the original
+reader-a namespace. No cross-native prose join is required. All98,842 earlier July
+files, thirty core modules,27 frozen assembly adapters, three local OCR adapters,
+the batch76 figure builder and128 classification pins remain exact. The unchanged
+fresh214-test batch101 baseline is reused; all53 invalid cases reject.
+
+The reverse preserves sender/recipient labels, two distinct brand occurrences,
+the postal approval seal and boxed recipient postcode137-073. Printed validity
+1995.2.1–1997.1.31 and approval 제6호 remain historical, unverified claims. Four
+sender fields and six empty sender-postcode slots remain blank. The front retains
+마소 카드/1995.7, three survey prompts, an empty quiz oval and an empty reader-voice
+rectangle: five blank response areas, without inferred answers or personal data.
+Its survey does not classify the separate developer-survey0099 identity.
+
+The supplied front scan clips the left strokes of ordinals1/2/3. Those readable
+partial forms are represented with explicit source limitations; complete glyphs,
+missing margin width and absent pixels are not reconstructed. The isolated red
+mark near the postal approval is preserved in the image without assigning it a
+punctuation meaning. Box borders, graphic rules and response-space geometry stay
+in the original images; exact historical fonts, whitespace and bytes are unverified.
+
+All15 raw drafts were read before one prospectively timed source correction pass.
+Two complete sheets and five source details were checked. The empty red survey
+label draft and poorly recognized vertical branding/permit were corrected directly
+from scans. One map, zero pre/post-OCR crop changes, retries, within/post-pass source
+revisions or helper failures. One canonical task, two mapped pages and two outside
+lookups545/548 remain within limits; saved whole-page views were reused.
+
+Both immutable reader natives now preserve all available pages541–544 and546–547,
+with diskette0098 on545 remaining a separate body. Actual article assembly is still
+required. Totals remain49 readable articles, one partial, sixteen groups,32 references
+and five unresolved identities across123 completed checkpoints. Reader-board0093's
+historical pending disposition remains unchanged. Whole July restoration is incomplete.
+
+Next: actually assemble reader-card/prize0097 from immutable reader-a(batch122)
+and reader-b(batch123) across541–544 and546–547. Preserve all original metadata,
+card blanks, clipped source-edge limitations and earlier-native context ranges;
+no prose join or new OCR/source correction is required. Then explicitly reconcile
+reader-board0093, restore/classify survey0099 and children0100–0102, and resolve
+video appendix0103. Whole560-page accounting, cover verification and standalone
+JSON/assets closeout remain required. Preserve128 classification pins,27 frozen
+assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete
+donated TOCs, full proofreading, human acceptance and original encoded bytes remain
+explicit limits. No inferred CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
