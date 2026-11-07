@@ -1395,6 +1395,44 @@ closeout remain pending. Incomplete donated TOCs, full proofreading, human
 acceptance, exact encoded bytes and historical execution remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
 
+July batch 56 actually assembles MDB0050 across PDF 405–417/printed 394–406.
+All 1,022 selected, independent and fresh-process files match, including all
+1,013 independently regenerated native files. One LF joins PCX steps1–3 on416
+to step4 on417. No opening-to-continuation word or code-row join is introduced.
+The two printed OnFilter examples and separate AVI signature/call remain distinct.
+
+All 261 pixel-exact crops, 242 original OCR outcomes, 220 source blocks projected
+into 219 assembled blocks, nineteen images and eleven literal captions validate.
+The assembly retains 922 reading rows and 923 regional rows. All 7,283 native
+metadata occurrences, including seventeen earlier-native ranges, project into
+14,597 current ranges; 68,351 scalar values are independently checked. Native b
+references a; native c references a and its nested incoming context references b.
+All original metadata and creation-time partial declarations remain immutable.
+
+All 321 physical code rows, eighteen blank rows, 74 Korean comments, seven English
+comments, 24 printed omissions and seven unprefixed Korean explanatory rows remain.
+Nineteen join groups retain 23 boundaries, including the opening zero-separator
+drop-cap. Three table contexts retain five blank cells; the two-panel directory
+retains37 rows and78 nonblank cells. Twenty tab-order numbers, two source authors,
+unassigned portrait order, separate editor 박재곤 and82 glyph candidates remain.
+Filename-column suffixes, repeated cells and printed anomalies are unchanged.
+Canonical parent forum0043 remains unchanged and incomplete.
+
+All 63 invalid cases reject; all 214 fresh PDF tests pass. All 45,879 earlier July
+files, thirty core modules, fourteen prior frozen adapters and69 classification
+pins remain exact. The new MDB adapter is the fifteenth frozen adapter. One task,
+zero mapped pages, seven outside lookups, no new OCR or source correction.
+Totals: twenty-five readable articles, zero partials, eight groups, seventeen
+references and 53 unresolved identities.
+
+Next: review canonical headings0051 연재 and0052 윈도우즈 against source evidence
+and their existing child hierarchy, within the two-task limit. Do not invent group
+bodies or complete forum0043 while descendants remain pending. Then restore the
+remaining eligible July articles. Whole July560-page accounting, cover and standalone
+JSON/assets closeout remain pending. Incomplete donated TOCs, full proofreading,
+human acceptance, exact encoded bytes and historical execution remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
