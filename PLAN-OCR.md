@@ -4611,6 +4611,51 @@ closeout. Preserve all 117 classification pins, 27 frozen assembly adapters from
 batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain
 an explicit verification limit. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 113 is in progress at a saved mapping/OCR stage for hardware bundle
+0088, 하드웨어 열람실. Direct review of PDF 202–207 establishes its complete extent
+as PDF 203–206 / printed 192–195. CD reviews end on 202; books begin independently
+on 207. All four pages fit one complete native. Source correction and package
+export have not started.
+
+Two independent reviews remain separate: RISC 기반 PC 파워스택 on 203–204 and
+HP 스캔젯 3P on 205–206. Source order 0090/0089 differs from canonical child order
+0089/0090; both identities and their hierarchy remain unchanged. Child reference
+classification remains pending complete parent restoration. Six original photos
+and screenshots, one publication ending mark and six captions retain separate
+source roles. Ten product/specification fields and six highlight rows retain their
+review owners. Twelve paragraph groups preserve thirteen boundaries, including
+the two cross-page continuations p-opengl and h-size. No incoming, outgoing or
+inter-review prose join is required. No byline was observed.
+
+Three retained maps document 97 pre-OCR crop adjustments. Wider text margins
+recover edge glyphs; final trims exclude adjacent title/field fragments and recover
+the scanner editor paragraph's final right-edge glyph. The warranty line remains
+part of the final accessories paragraph. Ten original and eleven second-map crop
+sheets, seven final adjusted crops and four final overlays were directly reviewed.
+All three sets of 97 crops are pixel-exact and remain preserved.
+
+All 90 original Tesseract outputs and settings validate: kor+eng, OEM 1 / PSM 6,
+one thread and 3000-pixel rendering. No empty drafts and zero retries. Raw OCR is
+not yet restored text. The next source pass must preserve literal spelling,
+product specifications, physical wraps, caption associations and historical claims.
+
+All 93,396 earlier July files, thirty core modules, 27 frozen assembly adapters,
+three local OCR adapters, the batch 76 figure builder and 117 classification pins
+remain exact. The unchanged fresh 214-test batch 101 baseline is reused. All 112
+completed checkpoints and outcomes remain unchanged: 42 readable articles, zero
+partials, fifteen groups, thirty references and sixteen unresolved identities.
+Batch 113 and the whole July restoration remain in progress.
+
+Next: read all 90 drafts, then start one prospective source correction pass, export
+and independently reproduce the complete hardware 0088 native. Reuse the selected
+third map and successful OCR. Then classify children 0089/0090 and reconcile hardware
+in bounded checkpoints. Continue books 0091 from PDF 207, remaining July identities,
+library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and
+standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading, human
+acceptance and original encoded bytes remain explicit limits. No automatic CD3
+association, reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-113/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
