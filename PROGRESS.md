@@ -9756,3 +9756,54 @@ standalone JSON/assets closeout remain required. Preserve all 99 classification 
 27 frozen assembly adapters from batch101 and three local OCR adapters from batch87.
 Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,
 reader rebuild or deployment.
+
+July batch 104 finalizes PC/TCP 0076 as a non-owning reference and reconciles complete
+commercial-software parent 0071 with all five child references. PC/TCP spans PDF 189–190 /
+printed 178–179 at a-onnet-title, preserving its descriptor, title, deck, twelve main
+paragraphs, four section headings, five local joins, four screenshots/captions and four
+product fields. Its 36 regions, 27 text blocks, 179 physical rows and 414 typed ranges
+validate against the assembled parent and original native. Geulteo ends188 and finance
+software opens191 independently; neither is included in this child scope.
+
+Eight literal source notes and four physical word wraps preserve the printed VxD period,
+tftpm/rcp list, TN3277/3279 and VT340 IBM5150 identifiers, kdestory, split6./5MB, mixed-script
+price and caption spacing. These are retained source statements, not corrected technical
+claims. Canonical identity, title, hierarchy, order, missing folio and byline remain unchanged.
+No duplicate article body or new byline is created.
+
+The six-member family has one owning parent and five final non-owning references. Its
+validated disjoint partition accounts for all 154 regions, 122 text blocks, sixteen
+screenshots with sixteen captions, twenty product fields, 51 main paragraphs, eighteen
+section headings, 708 physical rows and sixteen local joins. The library/category headings
+remain two parent-only regions and text blocks. Source order 0072, 0073, 0076, 0074, 0075
+remains distinct from canonical order 0072–0076. All 1,410 typed ranges across the five
+references validate, and the four earlier child sidecars remain byte-identical.
+
+Four classification/family files match independent and fresh-process exports. All 56 invalid
+cases reject, including missing or overlapping family content, an extra body owner, changed
+identities/order, lost prior references, omitted native ranges and premature ancestor or
+whole-issue completion. Four direct source-page reviews reuse188–191; earlier complete
+reviews remain pinned. No new mapping, OCR, source correction or verification repair occurs.
+All 89,407 earlier July files, 592 parent files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters and 99 prior classification pins remain exact. The
+unchanged fresh 214-test batch101 baseline is reused.
+
+External status now records all five commercial references and their family complete with
+no pending children, while retaining immutable assembly-time flags as historical evidence.
+Library0070, forum0059 and whole July remain incomplete. Three new required pins bring the
+issue classification evidence total to 102. Two canonical tasks, zero mapped pages and four
+source lookup pages stay within limits. Totals are 39 readable articles, zero partials,
+fifteen groups, twenty-two references and 27 unresolved identities across 104 completed
+checkpoints. Full proofreading, human acceptance and original encoded bytes remain unverified.
+
+Next: verify public-software bundle 0077 from its observed PDF 193 / printed 182 opening.
+Establish the actual ending and interior continuity before mapping an opening native of at
+most six pages. Preserve distinct product notices, their titles, prose, screenshots, literal
+file names, file sizes and download locations; do not infer a CD3 association from a matching
+name. Keep canonical children and their source ordering separate, and defer final child
+references until complete parent restoration/assembly. Preserve the complete commercial
+family, all 102 classification pins, 27 frozen assembly adapters from batch101 and three
+local OCR adapters from batch87. Remaining library and July identities, library0070/forum0059
+reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout
+remain required. Incomplete donated TOCs remain an explicit verification limit. No reader
+rebuild or deployment.
