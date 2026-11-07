@@ -1,5 +1,54 @@
 # Progress
 
+## 2026-11-07 — July WinG assembly
+
+July batch 48 completes actual WinG0048 assembly across PDF 353–365/printed342–354.
+All 803 selected, independent and fresh-process files match, including all 794
+independently regenerated files from three immutable natives. Two literal joins
+connect conclusion358→361 across independent API359–360 and listing2 across364→365.
+The code join consumes the existing serialization LF without an invented blank row;
+no source text, OCR or corrections change. Original physical reading order remains.
+All 203 pixel-exact crops, 188 OCR outcomes, 165 source blocks in163 assembled blocks,
+15 figures, six figure/table captions, two listing captions and1,058 reading rows
+validate. All14,181 native typed occurrences project, including six native-b ranges
+in native-a context and two native-c ranges in native-b context. The assembled
+package validates28,378 current ranges and135,879 scalar values. All custom metadata
+and the two earlier-native namespaces retain exact original evidence.
+Four short code examples, eight API declarations and two numbered listings preserve
+557 physical code rows,54 blank payloads,16 comment-start rows and three omissions.
+Thirteen join groups retain25 boundaries. GDI listing1 has217 physical rows;WinG
+listing2 has252 despite ending at printed250. Printed184 occurs at physical184/186,
+and185 at185/187. Both captions and45 numbered blank payloads remain. Printed source
+anomalies, square delimiters, broken-bar representations and glyph candidates remain;
+no syntax repair, complete-executable or execution claim is made.
+The independent API reference retains nine headings, eight declarations and32 parameter
+rows, including repeated WinGGetDIBPointer headings and WinGStretchBlt under WinGBitBlt.
+Four tables retain34 cells;three diagrams retain27 labels. Original halftone formula
+geometry remains authoritative without inferred floor operators. Duplicate figure1
+captions, two series rows, printed [마지막회] versus canonical [2], author 남민우,
+editor 홍동선 and three references retain separate source contexts.
+Two external subgroup0046 status files resolve five original fields,eight historical
+notes,two previous pending arrays and one copied article gap note. Socket0047 completion
+stays exact;only WinG0048 is newly complete. Curves0049 remains pending. All original
+ancestor/group evidence and native partial flags remain historical. Classification
+inventory now requires65 pins. All59 assembly and30 status invalid cases reject;
+214 fresh PDF tests pass. All39,039 earlier July files,thirty core modules,twelve
+frozen prior adapters and63 previous classification pins remain exact. A new private
+adapter handles both joins and all metadata projections without changing core modules.
+One retained pre-export adapter check expected paragraph instead of the native prose
+kind;the corrected kind guard passed before any export. No source change or failed
+package resulted. Two canonical tasks,zero mapped pages,ten reused source lookups,
+no new OCR or source correction. Totals: twenty-three readable articles, zero partials,
+eight groups,seventeen references and55 unresolved identities.
+Next: verify curves0049 from PDF367/printed356, source title 곡선의 미래 기술 and author
+임채성. Establish full extent from source opening,continuities and ending;selected
+opening views alone do not prove it. Restore at most six opening pages in the next
+native,then any remaining pages and actual assembly in separate checkpoints.
+Whole July560-page accounting,cover and standalone closeout remain pending.
+Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and
+historical execution remain explicit limits. No automatic CD3 association or reader build.
+
+
 ## 2026-11-07 — July WinG final page
 
 July batch 47 preserves WinG0048 final PDF 365/printed 354 as a third immutable
