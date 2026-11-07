@@ -3005,6 +3005,64 @@ donated TOCs, full proofreading, human acceptance, original encoded bytes and ex
 remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-86/ocr-stage-audit.json`.
 
+July batch 86 now preserves Windows NT article0066 opening PDF511–516 / printed502–507 as an
+immutable partial native. The verified full extent remains511–519 /502–510. Final517–519 and
+actual article assembly are separate required checkpoints. The earlier saved mapping/OCR
+stage remains unchanged.
+
+All535 selected,independent and fresh-process files match. The package retains134
+pixel-exact crops,131 original OCR outcomes,120 text blocks,417 reading rows,418 regional
+row fragments and2,803 typed range occurrences. Fifty-one main prose paragraphs retain eight
+main sections and thirteen subsections. Ten local join groups preserve eleven
+boundaries,including the zero-separator opening dropcap. The conclusion remains explicitly
+unfinished at516→517.
+
+Two original table images retain34 searchable physical rows:32 data rows,116 data cells and
+seven header cells. Every cell has its own source range. Six ruled support groups,two
+footnote markers/bodies and current-table versus future-prose claims remain distinct.
+Printed O/X marks andlong double80/64 remain literal. Three numbered development tasks
+retain separate discussions;eleven control types and three NT adoption reasons resolve to
+exact occurrences. The original OpenGL screenshot retains its literal caption and searchable
+OpenGL 마소! title. All three figures have literal captions and explicit source associations.
+
+Source title,authors 이기활,이기황,채윤호 and affiliation 연세대학교 한국어사전편찬실 기술개발부 remain separate from
+unchanged canonical 이기활 외 2인. Forum/category labels and canonical0059/0064 hierarchy remain
+unchanged. Eighty-one source-local candidates preserve repeated O/X,1/l/I and zero/O
+occurrences. Seven literal anomaly notes retain printed particles,type sizes,product
+capitalization and historical compatibility/support claims. PIXELFORMATDES/CRIPTOR and other
+physical word wraps are not spliced. No historical claim,execution or original encoded bytes
+are certified.
+
+All131 drafts were read before one prospective source pass. Its wall interval spans an
+interruption/status turn and is not active-review effort. First87 regions preceded the
+interruption;remaining44 were appended after direct source review. All131 regional readings
+were serialized once. Three pre-OCR maps retain139 adjustments. Zero recognition
+retries,post-OCR crop changes,refinements after serialization or post-pass text changes.
+All44 invalid semantic cases reject. One checker-only repair excluded captions from the
+expected section heading/prose list;the failed script/log remain. Source text and package
+were unchanged.
+
+All77,087 earlier July files,1,154 saved mapping/OCR-stage files,thirty core
+modules,twenty-three frozen assembly adapters,both local OCR adapters,batch76 figure builder
+and 77 classification pins remain exact. The unchanged fresh214-test batch85 baseline is
+reused. One canonical task,six newly mapped pages and seven outside lookup pages remain
+within limits. Totals are35 readable articles,one partial,thirteen groups,seventeen
+references and 37 unresolved identities. Only0066 changes outcome;pending families remain
+incomplete.
+
+Next: restore NT0066 final PDF517–519 / printed508–510 as a separate immutable native. Reuse
+the saved whole-page source views and verified extent. Preserve the incoming conclusion with
+an LF after 커맨드 라인,its separate final prose paragraph,ending emblem/editor 정인성,reference
+box,disk-file table,OpenGL listing and original illustration. The listing repeats
+printed136–140 across518→519;retain every physical occurrence,omission marker and literal
+error without deduplication or syntax repair. Then actually assemble511–519 with the
+explicit516→517 paragraph join. Preserve opening batch-86-r01/nt-a,77 classification pins,23
+frozen assembly adapters,both local OCR adapters and the batch76 figure builder. Continue
+remaining July identities,pending family reconciliation,560-page accounting,cover and
+standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human
+acceptance,exact encoded bytes and execution remain explicit limits. No automatic CD3
+association,reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
