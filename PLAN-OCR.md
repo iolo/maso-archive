@@ -5548,6 +5548,46 @@ local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,
 human acceptance and original encoded bytes remain explicit limits. No inferred
 CD3 association, reader rebuild or deployment.
 
+July batch 130 finalizes survey prize child 0102 as a non-owning reference to
+anchor a-prize-3 in complete developer survey 0099. Its entire intrinsic scope is
+one printed offer line on PDF 550, without a folio. Printed 개발자용 레퍼런스
+CD-ROM (150개) retains its different word order and spacing from canonical
+개발자용 CD-ROM 레퍼런스(150개). The quantity remains 150, with unit 개. No CD-ROM
+contents, fulfillment, participant or CD3 association is inferred. The title,
+sponsors and invitation remain parent context, not an additional child body.
+
+All three survey prize children 0100–0102 are now final at three distinct anchors,
+with no duplicate bodies. The two earlier references remain unchanged, including
+the first offer's uncertain mark and the second offer's six-volume set detail.
+An external disposition supersedes batch 129's pending-child state and resolves
+all nineteen frozen child-status fields. Original native/parent flags and the
+previous disposition remain immutable historical evidence.
+
+Three classification files reproduce independently and in a fresh process. All
+eight current child typed ranges validate; all 26 ranges across the three child
+references also validate in the assembled parent and original native namespaces.
+All 35 invalid cases reject. All 104,120 earlier July files, 960 survey package
+files, thirty core modules, 29 frozen assembly adapter files, three local OCR
+adapters and 133 previous classification pins remain exact. The unchanged
+214-test batch 128 baseline is reused. No new OCR, source correction, mapping
+or rendering was needed. One canonical task and one reused source-page lookup
+remain within the checkpoint limits; no helper failure occurred.
+
+Totals are 51 readable articles, zero partials, sixteen groups, 35 references and
+one unresolved identity across 130 completed checkpoints. The required final
+classification inventory now contains 135 pins. Whole July remains incomplete.
+
+Next: establish the source scope and eligibility of video appendix 0103,
+7월 부록 : 윈도우즈 95 교육용 비디오 테이프. Inspect evidence before deciding whether
+it has an extractable printed body or represents non-PDF media; do not infer
+absence from its title. Keep the earlier reader-card video offer distinct unless
+source evidence proves a relationship. Then complete whole 560-page accounting,
+cover verification and standalone JSON/assets closeout. Preserve all 135
+classification pins, 29 frozen assembly adapter files from batch 128 and three
+local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits. No inferred
+CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
