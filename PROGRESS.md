@@ -8989,3 +8989,61 @@ closeout remain required. Incomplete donated TOCs, full proofreading, human acce
 original encoded bytes and historical technical claims remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-90/ocr-stage-audit.json`.
+
+## 2026-11-07 — July PnP opening native complete
+
+July batch 90 now preserves PnP article 0068 opening PDF 521–526 / printed 512–517 as an
+immutable partial native. The verified full extent remains PDF 521–527 / printed 512–518.
+Final page 527 and actual article assembly remain separate required checkpoints. The earlier
+saved mapping/OCR stage is unchanged.
+
+All 614 selected, independent and fresh-process files match. The package retains 156
+pixel-exact crops, 150 original OCR outcomes, 139 text blocks, 461 reading rows, 462
+regional row fragments and 2,993 typed range occurrences. Forty-six main prose paragraphs
+retain nine section contexts. Ten local join groups preserve eleven boundaries, including
+the zero-separator opening dropcap and the paragraph narrowed beside diagram 1.
+Expansion-card prose remains unfinished at 526→527.
+
+Four original table images retain 31 searchable regions spanning 34 physical rows and 38
+serialized fields. Configuration rows preserve eight expansion slots, seven IRQ fields and
+the two ISA-3 subrows. Six minimum requirements, five PnP specifications and three related
+documents retain their physical wraps. Two original diagrams retain 37 separately located
+labels, 30 connector relationships and four PC-contained labels. Diagram 2 preserves the
+disconnected FDD box and the local-bus connection to the ISA/SCSI branch. Four numbered
+requirements retain all fifteen physical rows. Six literal captions have explicit figure
+associations. No code listing occurs in the article.
+
+Source title, series, author 박현철 and affiliation 미국 와이즈 넷 연구원 remain separate from unchanged
+canonical metadata. Three zero/O identifier candidates and thirteen anomaly notes preserve
+source-local uncertainties and printed wording. IBM PC/5250, DMA(Direct Memory Address),
+읽어버리면, AutoMatically, the unmatched table-4 parenthesis and 드라이브 remain literal. Physical
+Per/sonal wrapping remains intact. Historical technical claims, exact encoded bytes, full
+proofreading and human acceptance remain unverified.
+
+All 150 drafts were read before one prospective source correction pass. All six source pages
+and regional readings were compared; selected uncertain details were checked at crop scale.
+One retained within-pass refinement removes a decorative square outside the mapped author
+crop. All 150 regional readings were serialized once; no later text changes occurred. Three
+pre-OCR maps retain 78 adjustments. Zero OCR retries, post-OCR crop changes or post-pass
+changes. All 49 invalid semantic cases reject, including a falsely connected FDD, omitted
+bus branch, collapsed repeated label, misplaced table cells and premature article
+completion.
+
+All 80,280 earlier July files, 1,336 saved mapping/OCR-stage files, thirty core modules,
+twenty-four frozen assembly adapters, three local OCR adapters, the batch76 figure builder
+and 81 classification pins remain exact. The unchanged fresh 214-test batch88 baseline is
+reused. One canonical task, six newly mapped pages and five outside lookup pages remain
+within limits. Totals are 36 readable articles, one partial, fourteen groups, seventeen
+references and 35 unresolved identities. Only article 0068 changes outcome; pending families
+remain incomplete.
+
+Next: restore PnP 0068 final PDF 527 / printed 518 as a separate immutable native. Reuse the
+saved source view and verified extent. Preserve the incoming expansion-card paragraph with
+an LF after 버스용, the peripheral/device-driver/operating-system sections, conclusion, ending
+emblem and separate editor 박은숙. Then actually assemble PDF 521–527 with the explicit 526→527
+paragraph join. Preserve opening batch-90-r01/pnp-a, all 81 classification pins, 24 frozen
+assembly adapters, three local OCR adapters and the batch76 figure builder. Continue
+hardware 0069, pending hardware0067/forum0059/tool-review0060/groups0051–0052/forum0043
+reconciliation, remaining July identities, whole 560-page accounting, cover and standalone
+JSON/assets closeout. Incomplete donated TOCs remain an explicit verification limit. No
+automatic CD3 association, reader rebuild or deployment.
