@@ -2599,6 +2599,60 @@ remaining July identities,560-page accounting,cover and standalone JSON/assets c
 Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes and
 execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 79 preserves the opening of VRML0063, 통신 : VRML과 함께 3차원 인터넷의 세계로, by 최희창(삼성전자
+멀티미디어 연구소 네트워크 그룹), across PDF495–500 / printed486–491. Direct source review establishes the
+complete article at495–501 /486–492, ending with editor 정인성. Final501 and actual seven-page
+assembly remain separate checkpoints; the selected native is partial. Canonical parent0059
+remains unchanged;0060 is not this article's parent.
+
+All 481 selected, independent and fresh-process files match. The native preserves127
+pixel-exact crops,115 original OCR outcomes,103 text blocks,357 reading rows,358 regional
+fragments,32 main-prose paragraphs,five separate sidebar paragraphs and2,446 typed ranges.
+Seven main screenshots and two sidebar screenshots retain separate numbering and literal
+captions. Two original tables and the annotated WWWAnchor panel bring the total to twelve
+original visuals and twelve captions.
+
+The proposal table retains seven one-column rows. The site table retains six entries,twelve
+semantic name/address cells and ten physical rows. Five requirements,four node
+properties,twelve SF types,four MF types and four node categories retain exact source
+occurrences. Fourteen historical URLs,one mailing-list address,filenames,three keyboard
+commands and viewer/figure associations remain literal and unvisited. Ten local groups
+retain twelve boundaries,including the opening dropcap and the sidebar VRweb column
+continuation.
+
+Three code regions retain34 physical rows without invented blank rows:the one-row node
+grammar,28-row scene example and five-row WWWAnchor defaults. Two enum explanations and
+three field/type associations remain separate. The complete page500 sidebar preserves three
+browser sections,three authoring products and two screenshots without a new canonical child.
+Printed Open Inventer,Applicaion,OrthograhicCamera,homespce.htm and the conflicting
+prose/code shape descriptions remain unrepaired. Thirty-three occurrence-specific candidate
+records expose filename,delimiter,numeric-spacing and quote uncertainty. Physical URL and
+Texture2/Transform wraps remain unchanged.
+
+Three retained pre-OCR maps record124 adjustments. All115 raw drafts preceded one source
+pass;the prospective wall interval includes interruption and handoff time,not active effort.
+Zero OCR retries,post-OCR crop changes,refinements after first serialization or post-pass
+changes. Main page500 ends with a complete WWWInline paragraph before the independent
+box;501 begins a new main paragraph,so no cross-native word or paragraph splice is needed.
+PDF502 is advertising;503 opens a distinct article whose source byline 김효준 differs from the
+canonical byline. Neither identity is rewritten.
+
+All65 invalid cases reject. All72,618 earlier July files,thirty core modules,twenty-one
+frozen assembly adapters,the batch72 local OCR adapter,batch76 figure-repair builder and75
+classification pins remain exact. The unchanged fresh214-test batch77 baseline is reused.
+One canonical task,six mapped pages and four outside lookup pages remain within limits.
+Totals:33 readable articles,one partial,twelve groups,seventeen references and40 unresolved
+identities. Groups0059/0060,0051/0052 and forum0043 remain incomplete.
+
+Next: restore VRML0063 final PDF501 / printed492 as a separate immutable native, preserving
+its WWWInline continuation,example2,concluding section,ending emblem and separate editor
+정인성. Preserve opening batch-79-r01/vrml-a exactly. No incoming paragraph splice is required.
+Then actually assemble495–501 in a separate checkpoint before marking0063 readable.
+Reconcile pending group families separately;continue remaining July identities,560-page
+accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full
+proofreading,human acceptance,exact original encoded bytes and execution remain explicit
+limits. No automatic CD3 association,reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
