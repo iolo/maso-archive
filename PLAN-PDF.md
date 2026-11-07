@@ -1520,6 +1520,43 @@ standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full
 proofreading,human acceptance,exact encoded bytes and historical execution remain
 explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 59 preserves article0053 final PDF425–429/printed414–418 as a second
+immutable native. All eleven source pages419–429 now exist across two packages;
+actual article assembly remains a separate checkpoint. Prose ends426, listings
+continue through429, and following430 is advertising.
+
+All207 selected, independent and fresh-process files match. All57 pixel-exact
+crops,47 original OCR outcomes,34 blocks,491 reading/regional rows and7,240 typed
+ranges validate. Ten original images retain five unique literal captions,
+including seven listing panels and the CHARMODE-captioned SysMonitor graph.
+Seven local join groups preserve thirteen boundaries. Earlier title, author,
+series and incoming SetImeMode ranges retain their original package namespace.
+
+Eleven code blocks retain421 physical rows,nine blank rows,49 English comments
+and five Korean string occurrences,including mixed-script 入出力. Three numbered
+listings retain303 physical rows and thirteen blank payloads;both printed132
+occurrences remain distinct. Listing2 is exehdr output,with two segment rows and
+35 unsorted export ordinals,not program line numbers. The directory retains14
+physical rows,28 filename cells,two repeated headers and four duplicated filenames.
+Separate editor 박은숙 is preserved. Sixteen glyph occurrence candidates and
+literal System Infomation,GrahpBoard,DrowSysInfo and WINDOWAPI remain source-linked.
+
+Three pre-OCR maps retain24 crop-bound repairs. All47 drafts were read before
+one prospective source pass. One retained within-pass refinement adds two source
+paragraph separators;zero retries,post-OCR crop changes or post-pass text changes.
+All52 invalid cases reject. All48,054 earlier July files,thirty core modules,
+fifteen frozen adapters and72 classification pins remain exact;the unchanged214-test
+batch56 baseline is reused. One canonical task,five mapped pages and two outside
+lookups remain within limits. Groups0051/0052 and ancestor0043 remain unchanged.
+
+Totals: twenty-five readable articles,one partial,ten groups,seventeen references
+and50 unresolved identities. Next: actually assemble419–429 from the two immutable
+natives,joining incoming SetImeMode with one LF and preserving all original contexts.
+No word or physical-code-row splice is required. Whole July560-page accounting,
+cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,
+full proofreading,human acceptance,exact source bytes and historical execution remain
+explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
