@@ -4124,6 +4124,59 @@ TOCs, full proofreading, human acceptance and original encoded bytes remain expl
 No reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-105/ocr-stage-audit.json`.
 
+July batch 105 completes public-software bundle 0077, 공개 소프트웨어, across PDF 193–196 / printed
+182–185 as one immutable native. This completed checkpoint supersedes the saved mapping/OCR
+stage above. All four pages are restored; no separate assembly is required. Commercial
+software ends on 192, and the game section opens independently on 197.
+
+Eight independent notices remain distinct: METZ Task Manager, magazine management, 4B, JAPY,
+QuickPlay, Newton, WinLabel and SHCopyStar. The first three remain parent-owned contexts
+without invented canonical identities. Children 0078–0082 remain unresolved pending separate
+reference classification. Thirteen original screenshots retain printed overlaps, with no
+reconstructed pixels or invented captions. Twenty-four file-name, file-size and download
+fields preserve their notice ownership, including both physical download rows for 4B.
+
+All 425 selected, independent and fresh-process files match byte for byte. The complete
+native retains 114 pixel-exact crops, 101 original OCR outcomes, 78 text blocks, 337
+physical reading rows and 1,823 typed range occurrences. Thirty-six main prose paragraphs
+and sixteen joins across 23 local boundaries validate. Six word wraps and eleven column
+wraps retain their source provenance. There are no incoming, outgoing or cross-page prose
+joins.
+
+All 101 raw drafts preceded one prospectively timed source correction pass. Twelve complete
+contact sheets and four additional full-size prose crops were reviewed. Three retained
+pre-OCR maps document 108 adjustments; zero OCR retries, post-OCR crop changes or source
+refinements after serialization. One transcription-helper failure occurred before any
+output, was retained and corrected without repeating OCR or restarting the source pass.
+Seventeen literal source notes and five glyph/mark records preserve spelling, identifiers,
+sizes, historical claims and the uncertain baseline dot in 사용할. 수도. Original scans remain
+authoritative; encoded bytes and technical claims are unverified.
+
+All 42 invalid semantic cases reject, including lost notice content, swapped fields, omitted
+download rows, invented captions, reconstructed screenshot pixels, lost physical-wrap
+provenance and premature child or family completion. All 89,442 earlier July files, 969
+saved-stage files, thirty core modules, 27 frozen assembly adapters, three local OCR
+adapters, the batch76 figure builder and 102 classification pins remain exact. The unchanged
+fresh 214-test batch101 baseline is reused.
+
+One canonical task, four mapped pages and three outside lookup pages (192, 197 and 198) stay
+within checkpoint limits. Only 0077 advances to readable/sample-reviewed. Totals are 40
+readable articles, zero partials, fifteen groups, twenty-two references and 26 unresolved
+identities across 105 completed checkpoints. The public-software child family, library0070,
+forum0059 and whole July restoration remain incomplete.
+
+Next: finalize JAPY0078 on PDF194 / printed183 at japy-title and QUICKPLAY0079 on PDF195 /
+printed184 at quick-title as non-owning references into complete public0077. Preserve their
+distinct prose, screenshots, file fields, literal titles and physical wraps; do not
+duplicate bodies or change canonical metadata. Then finalize children0080–0082 in bounded
+checkpoints and reconcile the public family, retaining three unlisted parent-owned notices
+and the library/public banners. Continue game0083 from PDF197, CD0084 and the remaining July
+identities, library0070/forum0059 reconciliation, 560-page accounting, cover verification
+and standalone JSON/assets closeout. Preserve all 102 classification pins, 27 frozen
+assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete
+donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit
+limits. No inferred CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 

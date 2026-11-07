@@ -10724,12 +10724,98 @@
       "toc_entry_id": "maso-1995-07-toc-0077",
       "title": "공개 소프트웨어",
       "parent_id": "maso-1995-07-toc-0070",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 105 completes public-software bundle 0077, 공개 소프트웨어, across PDF 193–196 / printed 182–185 as one immutable native. This completed checkpoint supersedes the saved mapping/OCR stage above. All four pages are restored; no separate assembly is required. Commercial software ends on 192, and the game section opens independently on 197.",
+        "Eight independent notices remain distinct: METZ Task Manager, magazine management, 4B, JAPY, QuickPlay, Newton, WinLabel and SHCopyStar. The first three remain parent-owned contexts without invented canonical identities. Children 0078–0082 remain unresolved pending separate reference classification. Thirteen original screenshots retain printed overlaps, with no reconstructed pixels or invented captions. Twenty-four file-name, file-size and download fields preserve their notice ownership, including both physical download rows for 4B.",
+        "All 425 selected, independent and fresh-process files match byte for byte. The complete native retains 114 pixel-exact crops, 101 original OCR outcomes, 78 text blocks, 337 physical reading rows and 1,823 typed range occurrences. Thirty-six main prose paragraphs and sixteen joins across 23 local boundaries validate. Six word wraps and eleven column wraps retain their source provenance. There are no incoming, outgoing or cross-page prose joins.",
+        "All 101 raw drafts preceded one prospectively timed source correction pass. Twelve complete contact sheets and four additional full-size prose crops were reviewed. Three retained pre-OCR maps document 108 adjustments; zero OCR retries, post-OCR crop changes or source refinements after serialization. One transcription-helper failure occurred before any output, was retained and corrected without repeating OCR or restarting the source pass. Seventeen literal source notes and five glyph/mark records preserve spelling, identifiers, sizes, historical claims and the uncertain baseline dot in 사용할. 수도. Original scans remain authoritative; encoded bytes and technical claims are unverified.",
+        "All 42 invalid semantic cases reject, including lost notice content, swapped fields, omitted download rows, invented captions, reconstructed screenshot pixels, lost physical-wrap provenance and premature child or family completion. All 89,442 earlier July files, 969 saved-stage files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch76 figure builder and 102 classification pins remain exact. The unchanged fresh 214-test batch101 baseline is reused.",
+        "One canonical task, four mapped pages and three outside lookup pages (192, 197 and 198) stay within checkpoint limits. Only 0077 advances to readable/sample-reviewed. Totals are 40 readable articles, zero partials, fifteen groups, twenty-two references and 26 unresolved identities across 105 completed checkpoints. The public-software child family, library0070, forum0059 and whole July restoration remain incomplete."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-105-r01/public",
+        "article_id": "scan-maso-1995-07-toc-0077",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-105-r01/public/manifest.json",
+          "sha256": "ae0cbfe563d37e32173fb8d746e051ab57d85dbfdba0b194f8ed77b838369807",
+          "bytes": 70946
+        },
+        "coverage": {
+          "pdf_pages": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "printed_pages": [
+            "182",
+            "183",
+            "184",
+            "185"
+          ],
+          "regions": 114,
+          "blocks": 78,
+          "figures": 13,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 193,
+        "actual_end_pdf_page": 196,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "current_pdf_pages": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "current_printed_pages": [
+            "182",
+            "183",
+            "184",
+            "185"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 193,
+          "observed_ending_pdf_page": 196,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-105/source-reviewed.json",
+            "sha256": "2f92648a23b829eaf2e74a88da824979dee76a89d8c162b5cbd35d23abb3cbbe",
+            "bytes": 8166
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-105/validation.json",
+          "sha256": "36c5cd31b04327e9b892a4f7434c5d2e4a04971286b9a05916809eea6ca8fd48",
+          "bytes": 2853
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-105/reproduction.json",
+          "sha256": "f9bb4a23a2d1a15156a2198e0fb06286fbf9dd4d6a84cd3994fdb860bf4a9f4d",
+          "bytes": 80792
+        },
+        "checkpoint": "batch-105"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0078",
@@ -15121,22 +15207,62 @@
         "sha256": "04e0b17cd1bf2febacea62b42f67465c7723564d8bbf6398dcabc75c61f2febf",
         "bytes": 1119
       }
+    },
+    {
+      "name": "1995-07-batch-105",
+      "status": "complete",
+      "completed_at": "2026-11-07T17:18:39.121031+00:00",
+      "goal": "Complete public0077 across PDF193–196 as one immutable native; child references remain separate.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0077"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        193,
+        194,
+        195,
+        196
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        192,
+        197,
+        198
+      ],
+      "recognition_invocations": 101,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 0,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-105/validation.json",
+        "sha256": "36c5cd31b04327e9b892a4f7434c5d2e4a04971286b9a05916809eea6ca8fd48",
+        "bytes": 2853
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-105/reproduction.json",
+        "sha256": "f9bb4a23a2d1a15156a2198e0fb06286fbf9dd4d6a84cd3994fdb860bf4a9f4d",
+        "bytes": 80792
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 39,
+    "readable": 40,
     "partial": 0,
     "group_headings": 15,
     "section_references": 22,
-    "unresolved": 27
+    "unresolved": 26
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Resume batch105 public-software0077 from saved mapped OCR. Read all101 raw drafts before starting one prospectively timed source correction pass across PDF193–196/printed182–185. Reuse public/map.json (third map), layout.json and all successful OCR; all four pages fit one complete native. Eight independent notices retain13 screenshots without printed captions,24 literal filename/size/download fields and16 joined paragraphs across23 local boundaries. Three notices without canonical child entries remain parent-owned contexts; canonical children0078–0082 remain pending complete parent restoration. Preserve physical wraps and printed product spelling, identifiers and historical claims without technical repair or automatic CD3 association. Export and independently reproduce the complete native in a fresh process, validate every range/context, then finalize children in bounded classification checkpoints. Retain102 classification pins,27 frozen assembly adapters from batch101,three local OCR adapters from batch87 and the batch76 figure builder. Continue remaining July identities,library0070/forum0059 reconciliation,560-page accounting,cover verification and standalone JSON/assets closeout. No reader rebuild or deployment.",
+  "next_checkpoint": "Next: finalize JAPY0078 on PDF194 / printed183 at japy-title and QUICKPLAY0079 on PDF195 / printed184 at quick-title as non-owning references into complete public0077. Preserve their distinct prose, screenshots, file fields, literal titles and physical wraps; do not duplicate bodies or change canonical metadata. Then finalize children0080–0082 in bounded checkpoints and reconcile the public family, retaining three unlisted parent-owned notices and the library/public banners. Continue game0083 from PDF197, CD0084 and the remaining July identities, library0070/forum0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Preserve all 102 classification pins, 27 frozen assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -15648,51 +15774,5 @@
       "sha256": "38f83ffabd6b350c36f80383d7a18672bf2098f1253f34e2803632c1f2bd70b9",
       "bytes": 43196
     }
-  ],
-  "in_progress_checkpoint": {
-    "name": "1995-07-batch-105",
-    "status": "mapped-and-recognized;source-correction-not-started",
-    "toc_entry_ids": [
-      "maso-1995-07-toc-0077"
-    ],
-    "toc_entry_id": "maso-1995-07-toc-0077",
-    "full_pdf_pages": [
-      193,
-      194,
-      195,
-      196
-    ],
-    "mapped_pdf_pages": [
-      193,
-      194,
-      195,
-      196
-    ],
-    "remaining_pdf_pages": [],
-    "regions": 114,
-    "ocr_outcomes": 101,
-    "pre_ocr_map_versions": 3,
-    "ocr_retries": 0,
-    "availability_changed": false,
-    "source_review": {
-      "path": "archive/pdf/1995-07/restoration/batch-105/source-reviewed.json",
-      "sha256": "2f92648a23b829eaf2e74a88da824979dee76a89d8c162b5cbd35d23abb3cbbe",
-      "bytes": 8166
-    },
-    "map": {
-      "path": "archive/pdf/1995-07/restoration/batch-105/public/map.json",
-      "sha256": "16d18fb77c85f71be274d3ce557d1d44ec6e03b6e37d4d568910adf054d786e9",
-      "bytes": 37815
-    },
-    "raw_drafts": {
-      "path": "archive/pdf/1995-07/restoration/batch-105/initial-drafts.json",
-      "sha256": "08b21245a613216b714ada9acd43c1b3beb2a10969d921a76c837b7d01030db7",
-      "bytes": 16889
-    },
-    "audit": {
-      "path": "archive/pdf/1995-07/restoration/batch-105/ocr-stage-audit.json",
-      "sha256": "c55c9e870a5e711471b79fb954b3ec404659d08aa00337e08362fccd67ce0e4b",
-      "bytes": 2170
-    }
-  }
+  ]
 }
