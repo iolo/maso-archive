@@ -8506,3 +8506,64 @@ Continue remaining July identities, 560-page accounting, cover and standalone
 JSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance,
 exact original encoded bytes and execution remain explicit limits. No automatic
 CD3 association, reader rebuild or deployment.
+
+## 2026-11-07 — July Windows95 opening partial native
+
+July batch 83 preserves Windows95 article0065 opening PDF503–508 / printed494–499 as an
+immutable partial native. Direct review of all eight source pages establishes the complete
+extent at PDF503–510 / printed494–501. Final509–510 and actual assembly remain separate
+checkpoints. The source title 개발자 긴급명령, 윈도우즈 95를 쫓아라, source author 김효준 and affiliation
+remain distinct from canonical author 김훈. Source series 프로그램 개발 환경 remains distinct from
+canonical 프로그래밍 환경; neither is rewritten.
+
+All 343 selected, independent and fresh-process files match. The native preserves 85
+pixel-exact crops, 83 original OCR outcomes, 72 text blocks, 436 reading rows, 437 regional
+fragments and 2,517 typed ranges. Thirty-one main paragraphs and eleven sidebar paragraphs
+retain separate ownership. Two original visuals preserve the decorative title artwork and
+the technical diagram, with one literal caption and nine searchable diagram labels. Three
+diagram connections retain the observed labels and direction without invented arrows.
+
+The independent 도스에서 윈도우즈로 sidebar on505 and C++를 배워라 sidebar on506 remain complete within
+the native, without new canonical children. Ten local joins preserve eleven boundaries,
+including prose across the intervening full-page505 sidebar and the lower506 box. The
+opening dropcap joins without added whitespace; all other local continuations use LF. Eight
+main sections retain developer/user changes, mixed-bitness constraints, thunk types, API
+migration and the printed Win32s<Win32c<Win32 relation.
+
+Three separate C examples preserve four mapped regions and42 physical rows, with no invented
+blank rows. The first example retains three Korean comment rows, three preprocessor
+directives and its column continuation; the 16-bit and32-bit fragments remain independent.
+Three omission rows remain literal. Printed swich(message), uParam, unmatched outer
+parentheses, SendMes sage and Indepen dent remain unrepaired. Seven source-anomaly records
+and21 occurrence-specific glyph candidates retain l/1, zero/O, delimiters, pause dots and
+diagram-label uncertainty. No execution or character-perfect source-byte claim is made.
+
+Two retained pre-OCR maps record83 adjustments. All83 raw drafts preceded one prospectively
+timed source pass; zero OCR retries, post-OCR crop changes, refinements after first
+serialization or post-pass changes. A new private OCR adapter changes only the
+Korean-comment code allowlist from pinned batch72: dosbox-code-a uses kor+eng, the other
+three code regions use eng, and79 other text regions use kor+eng. Original batch72 and all
+core modules remain unchanged.
+
+All53 invalid semantic cases reject. Two verification-script assumptions were corrected
+against existing evidence: section headings use section-label, and draft count/read evidence
+resides in separate records. Both failed verifier versions are retained; source text, OCR,
+map and selected export were unchanged. All75,057 earlier July files, thirty core modules,
+twenty-two frozen assembly adapters, the batch72 OCR adapter, batch76 figure builder and77
+classification pins remain exact. The unchanged fresh214-test batch81 baseline is reused.
+One canonical task, six mapped pages and four outside lookup pages remain within limits.
+
+Totals:34 readable articles, one partial, thirteen groups, seventeen references and38
+unresolved identities. Article0065 remains partial;0066 and family reconciliation remain
+pending. Families0059/0060,0051/0052 and forum0043 also remain incomplete. Whole
+July560-page accounting, cover and standalone JSON/assets closeout are still required.
+
+Next: restore Windows95 article0065 final PDF509–510 / printed500–501 as a separate
+immutable native. Preserve the incoming Win32 paragraph from508, the thread/critical-section
+discussion, the independent 태스크와 프로세스 box, final 확장 완성형 지원에 대한 한 마디 section, ending emblem
+and editor 박은숙. Then actually assemble503–510 with one explicit508→509 paragraph join before
+marking0065 readable. Preserve batch-83-r01/win95-a and both local OCR adapters, all22
+frozen assembly adapters and earlier evidence. Continue0066 from511, reconcile pending
+families separately, then complete remaining July identities and issue closeout. Incomplete
+donated TOCs, full proofreading, human acceptance, exact encoded source bytes and execution
+remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
