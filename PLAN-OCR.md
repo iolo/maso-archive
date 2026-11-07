@@ -3128,6 +3128,56 @@ Incomplete donated TOCs, full proofreading, human acceptance, original encoded b
 execution remain explicit limits. No automatic CD3 association, reader rebuild or
 deployment.
 
+July batch 88 actually assembles complete Windows NT article0066, Win32의 전진기지
+윈도우즈 NT, across PDF511–519 / printed502–510 from immutable batch86 nt-a and
+batch87 nt-b. All 704 selected, independent and fresh-process parent files match;
+all 695 independently regenerated native files remain embedded byte-for-byte.
+All 174 exact crops, 168 original OCR outcomes, 156 native blocks, 673 reading rows,
+674 regional fragments and 8,130 current native typed occurrences retain their
+source contexts. The ten earlier-native ranges held by b project with a ownership:
+8,140 projected occurrences, 16,491 current ranges and 80,850 metadata scalar values
+validate. Only conclusion-a and conclusion-b join across516–517 with LF, yielding
+155 parent blocks; the final paragraph, editor 정인성 and ending emblem remain separate.
+Twelve join groups cover thirteen boundaries. No new mapping, OCR or source correction.
+
+Eight main sections, thirteen subsections and 52 main prose paragraphs retain their
+reading order. Six originals retain four figure captions and a separate listing caption;
+the OpenGL screenshot and final cartoon remain in their original contexts. Three
+searchable tables preserve36 data rows,124 data cells,nine headers,two footnotes and
+six ruled comparison groups. Three numbered development tasks,eleven control types,
+three adoption reasons andthe independent reference box's fifteen items/four categories
+remain. Source authors 이기활,이기황,채윤호 andaffiliation remain distinct from the
+unchanged canonical credit 이기활 외 2인. The disk table's #3 andgo MASO are historical
+references;no automatic CD3 association or recovered original disk bytes are claimed.
+
+One OpenGL example retains six columns,218 physical numbered rows,213 distinct numbers,
+duplicate136–140,29 numbered blanks andsix omission dots. Nineteen arrays retain61
+literal float values,including two negative-zero occurrences. Printed syntax,source
+spelling,Korean comments,all185 glyph candidates and15 anomaly occurrences remain
+unchanged. Source-local andparent article/listing offsets validate independently;
+no code repair,omission expansion or execution certification. The prose ends517;
+listing andcartoon end519;520 advertising andthe distinct521 hardware/PnP opening
+remain excluded. All70 invalid cases reject andall214 fresh PDF tests pass.
+
+All79,477 earlier July files,thirty core modules,23 prior assembly adapters,three local
+OCR adapters,batch76 figure builder and77 classification pins remain exact. The new
+NT assembly adapter brings the frozen assembly inventory to24. One canonical task,
+zero mapped pages andsix reused outside lookups stay within limits. Totals:36 readable
+articles,zero partials,thirteen groups,seventeen references and37 unresolved identities.
+Only0066 changes availability;pending family dispositions remain unchanged.
+
+Next: reconcile operating-system group0064 from its complete Windows950065 andNT0066
+children,andreview hardware heading0067 against source evidence as two bounded
+classification tasks. Then verify article0068 from its observed PDF521 / printed512
+PnP opening,source author 박현철,andestablish its full extent before mapping at most
+six pages. Preserve complete article-nt-r01,both immutable natives,77 classification
+pins,24 frozen assembly adapters,three local OCR adapters andthe batch76 figure builder.
+Groups0059/0060,0051/0052 andforum0043 require separate family reconciliation. Continue
+remaining July identities,560-page accounting,cover andstandalone JSON/assets closeout.
+Incomplete donated TOCs,full proofreading,human acceptance,exact original encoded bytes
+andexecution remain explicit limits. No automatic CD3 association,reader rebuild or
+deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
