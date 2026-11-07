@@ -1680,6 +1680,44 @@ ancestor 0043 remain incomplete. Whole-issue 560-page accounting, cover and stan
 JSON/assets closeout remain pending; incomplete donated TOCs, full proofreading, human
 acceptance, exact source bytes and execution remain explicit limits.
 
+July batch 63 actually assembles complete controls0054, Win32를 뛰어넘자[마지막회] :
+컨트롤의 사용, across PDF 431–441 / printed 420–430. Source author 김종원 and separate
+editor 박은숙 retain their original contexts. Prose ends 438 and listings end 441;
+the independent lower-441 magazine-name notice and advertisements 430/442 remain excluded.
+The WM_INITDIALOG paragraph joins across 436–437 with one LF. No word or code row is spliced.
+
+All 613 selected r02, independent and fresh-process files match, retaining all 604 original
+native files. The assembly preserves 157 pixel-exact crops, 143 raw OCR outcomes, 123 native
+blocks in 122 assembled blocks, 756 reading rows, 757 regional fragments and 76 prose
+paragraphs. All 7,308 native typed occurrences project with their original source owners;
+14,743 current ranges and 69,818 scalar values validate. Six earlier-native
+ranges retain the opening native's namespace. Fourteen original visuals retain seven unique
+literal captions. Fourteen internal join groups and 21 boundaries preserve source order.
+
+Ten separate code blocks retain 272 physical rows, one unnumbered blank and all literal
+printed syntax. The three numbered listings preserve 253 rows and 34 blank payloads.
+The file directory retains four rows, eight data cells and two headers. Eighteen control
+items, six task actions, three function roles and eight message contexts remain distinct.
+All 91 glyph candidates, historical Hangul product markers, printed SendMesage, WM_VSCRO,
+repeated WS_BORDER, bracket shapes, broken bars and uncertain 01/0l suffixes remain.
+No code repair, execution claim or automatic CD3 association is made.
+
+One metadata revision retains the first assembly and its adapter: a stale native
+WM_INITDIALOG continuation note is resolved at the root. Article text, listing download,
+images, raw OCR and embedded native files remain exact. All 66 invalid cases reject;
+214 fresh PDF tests pass. All 53,060 earlier July files, thirty core modules, sixteen
+prior selected adapters and 72 classification pins remain unchanged. The selected controls
+adapter is the seventeenth frozen adapter. One canonical task, zero newly mapped pages,
+seven outside lookups, zero new OCR and zero source-correction passes.
+
+Totals: 27 readable articles, zero partials, ten groups, seventeen references and
+49 unresolved identities. Next: verify0055, 윈도우즈용 워드프로세서 제작[3] : 블록 설정과
+편집 기능, from PDF 443 / printed 432, source heading 블럭 설정과 편집 기능 and author
+최권택. Establish the full extent before mapping at most six opening pages. Canonical
+groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accounting,
+cover and standalone JSON/assets closeout remain pending; incomplete donated TOCs,
+full proofreading, human acceptance, exact source bytes and execution remain explicit limits.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
