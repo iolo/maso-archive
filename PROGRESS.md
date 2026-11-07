@@ -8352,3 +8352,60 @@ Reconcile pending group families separately;continue remaining July identities,5
 accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full
 proofreading,human acceptance,exact original encoded bytes and execution remain explicit
 limits. No automatic CD3 association,reader rebuild or deployment.
+
+## 2026-11-07 — July VRML final native complete
+
+July batch 80 preserves VRML0063 final PDF501 / printed492 as a second immutable native. The
+full PDF495–501 / printed486–492 extent is now preserved across two packages; actual
+assembly remains required. Opening batch-79-r01/vrml-a remains unchanged. Page501 starts a
+new WWWInline paragraph, so no cross-native paragraph or word splice is needed. The
+independent page500 sidebar is complete. Advertising on502 and the distinct Windows95
+opening on503 remain excluded.
+
+All 75 selected, independent and fresh-process files match. The final native retains 18
+pixel-exact crops, 16 original OCR outcomes, 14 text blocks, 73 reading/regional rows, nine
+prose paragraphs and 440 current typed ranges, plus eight earlier-native context
+occurrences. The title, source author 최희창, affiliation, group/category labels, structure
+heading and preceding main paragraph retain their original opening-package ownership. Two
+local LF joins preserve the conclusion performance paragraph across columns and its
+separately cropped final sentence row.
+
+The original WWWInline format panel retains its literal example2 caption, separate format
+heading and searchable five-row code. Three distinct field/type/default associations
+preserve name, bboxSize and bboxCenter; repeated SFVec3f and zero defaults resolve to their
+own source occurrences. Six candidate records expose delimiter, quote, zero-spacing and
+specification-URL 1/l ambiguity. Physical URL and 렌더모픽/스 wraps remain unchanged. Historical
+CD-ROM and VRML1.1/2.0 proposals, the quoted DOOM meets Home Shopping description, hardware
+performance observations and corporate claims remain literal and unverified. The original
+ending emblem and editor 정인성 remain separate from the source author.
+
+One pre-OCR map required no adjustments. All 16 drafts were read before one prospectively
+timed source pass. An initial transcription-script syntax error stopped before execution and
+created no transcript files; that attempt remains preserved. The corrected script serialized
+the 16 reviewed regions once. Zero recognition retries, crop changes, refinements after
+serialization or post-pass changes. All 43 invalid cases reject. All 74,162 earlier July
+files, thirty core modules, twenty-one frozen assembly adapters, the batch72 OCR adapter,
+batch76 figure-repair builder and 75 classification pins remain exact. The unchanged fresh
+214-test batch77 baseline is reused.
+
+One canonical task, one newly mapped page and three outside lookup pages remain within
+limits. Totals remain 33 readable articles, one partial, twelve groups, seventeen references
+and 40 unresolved identities. Groups0059/0060,0051/0052 and forum0043 remain incomplete. The
+next article’s source byline 김효준 differs from its canonical byline; this lookup does not
+rewrite either identity.
+
+Next: actually assemble VRML0063 across PDF495–501 / printed486–492 from immutable
+batch-79-r01/vrml-a and batch-80-r01/vrml-b. Regenerate both with the standard builder and
+their package-recipe.json files. Preserve all 556 native files, 145 crops, 131 OCR outcomes,
+117 text blocks, 430 reading rows, 431 regional fragments and 2,886 current native typed
+ranges. The eight inherited occurrences in b belong to a and must not project as b current
+text. No cross-native paragraph merge is required. Preserve nine screenshots, two tables,
+two annotated format panels, the ending emblem, thirteen captions, four code blocks with 39
+physical rows, the complete sidebar, distinct list/table/field contexts, 39 candidate
+records and seven source anomalies. Validate all projected ranges and source ownership
+before marking0063 readable. Then review canonical operating-system heading0064 and
+Windows95 article0065 from observed PDF503 / printed494, verifying actual extent and the
+byline discrepancy. Continue remaining July identities, family reconciliation, 560-page
+accounting, cover and standalone JSON/assets closeout. Incomplete donated TOCs, full
+proofreading, human acceptance, original encoded bytes and execution remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
