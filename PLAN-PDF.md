@@ -4080,6 +4080,50 @@ reconciliation, 560-page accounting, cover verification and standalone JSON/asse
 remain required. Incomplete donated TOCs remain an explicit verification limit. No reader
 rebuild or deployment.
 
+July batch 105 is in progress at a saved mapping/OCR stage for public-software
+bundle 0077, 공개 소프트웨어. Direct review of PDF 192–198 establishes its complete
+extent as PDF 193–196 / printed 182–185. Commercial software ends on 192; the game
+section begins on 197 and continues on 198. All four public-software pages fit one
+complete native. Source correction and package export have not started.
+
+Eight independent notices remain separate: METZ Task Manager and magazine management
+on 193, 4B and JAPY on 194, QuickPlay and Newton on 195, WinLabel and SHCopyStar on 196.
+The first three are parent-owned contexts without separate canonical child identities.
+Children 0078–0082 retain their canonical order and remain pending complete parent
+restoration. No byline or standalone screenshot caption was observed. Thirteen original
+screenshot rectangles retain their printed overlaps; no obscured pixels are reconstructed.
+Twenty-four file-name, file-size and download fields retain their separate notice owners.
+
+Three retained maps document 108 pre-OCR region changes. The initial 112-region map
+was refined to 114 regions, including two splits where text wraps around screenshots.
+The magazine notice now separates list, input/search and deletion paragraphs at the
+printed boundaries. Direct review covered all original and refined crop sheets, seven
+final edge trims and all four final overlays. All 114 selected crops and both earlier
+crop versions are pixel-exact. Sixteen joined paragraphs retain 23 local boundaries;
+there are no incoming, outgoing or cross-page prose joins.
+
+All 101 original Tesseract outputs and settings validate: kor+eng, OEM 1 / PSM 6,
+one thread and 3000-pixel rendering. No empty drafts and zero retries. Raw OCR is not
+yet restored text. The next source pass must preserve literal product spelling, file
+identifiers, sizes, download locations, physical wraps and historical claims without
+technical repair or an inferred CD3 association.
+
+All 89,442 earlier July files, thirty core modules, 27 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and 102 classification pins remain
+exact. The unchanged fresh 214-test batch101 baseline is reused. All 104 completed
+checkpoints and completed outcomes remain unchanged: 39 readable articles, zero partials,
+fifteen groups, twenty-two references and 27 unresolved identities. Batch105 and the
+whole July restoration remain in progress.
+
+Next: read all 101 drafts, then start one prospective source correction pass, export and
+independently reproduce the complete public0077 native. Reuse the selected third map
+and successful OCR. Finalize child references0078–0082 afterward in bounded checkpoints.
+Remaining July identities, library0070/forum0059 reconciliation, 560-page accounting,
+cover verification and standalone JSON/assets closeout remain required. Incomplete donated
+TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits.
+No reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-105/ocr-stage-audit.json`.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
