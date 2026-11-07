@@ -5299,6 +5299,52 @@ adapters in batch124/frozen-adapters-complete.json and three local OCR adapters 
 batch87. Incomplete donated TOCs, full proofreading, human acceptance and original
 encoded bytes remain explicit limits. No reader rebuild or deployment.
 
+July batch 125 completes reader-board 0093's explicit family reconciliation.
+Its five direct children 0094–0098 are distinct readable article owners: next-issue
+preview on PDF 293–294, subscription information on 538, advertisement index on
+539–540, reader prizes/cards on 541–544 and 546–547, and diskette guide on 545.
+The pageless group retains its canonical title and hierarchy, owns no body and
+inherits no child folio. Canonical child order remains separate from physical page
+order; the intervening diskette never becomes reader-card content.
+
+Two classification files reproduce independently and in a fresh process. All 876
+files from the five complete packages remain exact, retaining twelve distinct source
+pages, 235 regions, 191 text blocks, 40 original figures and 195 OCR outcomes. Nineteen
+package-local context ranges and the original pixel-exact group-classification crop
+validate. Fifty-eight external status dispositions resolve original group/member
+pending fields, the subscription opening observation and current child ancestor notes.
+All original classifications, package metadata and native partial flags remain unchanged.
+
+Absent folios, the advertisement-index y9/99 glyph candidates, card blanks and clipped
+ordinal edges remain source limitations. The next-issue survey teaser and reader-card
+questions do not classify developer survey 0099. Original banner-absence evidence
+remains limited to five reviewed pages, without a whole-issue absence claim. Pages
+295–537 are merely outside this family's extents; their other owners and source
+categories are not changed or inferred by this checkpoint.
+
+All 42 invalid cases reject, including duplicate bodies, wrong owners, lost source
+contexts, invented folios, absorbed diskette content, altered historical flags and
+premature issue completion. All 99,458 earlier July files, thirty core modules,
+28 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder
+and 128 earlier classification pins remain exact. The fresh 214-test batch 124 baseline
+is reused. No new mapping, outside source lookup, OCR or source correction was needed.
+
+Only group 0093 gains a current completion disposition. Totals remain 50 readable
+articles, zero partials, sixteen groups, 32 references and five unresolved identities
+across 125 completed checkpoints. The required classification inventory now contains
+130 pins. Whole July restoration remains incomplete.
+
+Next: locate and establish the source scope of pageless developer survey 0099,
+'95 개발도구/개발환경 설문조사, within a bounded checkpoint. Determine its own body
+and the source roles of children 0100–0102 from scans, without treating the next-issue
+teaser or blank reader-card questions as the survey. Restore and classify those
+identities in bounded checkpoints, then resolve video appendix 0103. Whole 560-page
+accounting, cover verification and standalone JSON/assets closeout remain required.
+Preserve 130 classification pins, all 28 assembly adapters from batch124 and three
+local OCR adapters from batch87. Incomplete donated TOCs, full proofreading, human
+acceptance and original encoded bytes remain explicit limits. No inferred CD3
+association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
