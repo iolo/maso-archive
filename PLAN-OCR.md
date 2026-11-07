@@ -3325,6 +3325,62 @@ reconciliation, remaining July identities, whole 560-page accounting, cover and 
 JSON/assets closeout. Incomplete donated TOCs remain an explicit verification limit. No
 automatic CD3 association, reader rebuild or deployment.
 
+July batch 91 preserves PnP article 0068 final PDF 527 / printed 518 as a second immutable
+native. All seven source pages 521–527 / printed 512–518 are now retained across two
+packages; actual assembly remains required. Opening batch-90-r01/pnp-a is unchanged. The
+first paragraph continues the expansion-card discussion after 버스용 with one required LF. A
+separate concluding paragraph, original ending emblem and editor 박은숙 establish the article
+ending. Page 528 is advertising; 529 opens distinct CD-ROM article 0069.
+
+All 113 selected, independent and fresh-process files match. The final package retains 27
+pixel-exact crops, 26 original OCR outcomes, 25 text blocks, 73 reading/regional rows and
+419 current typed range occurrences, plus eight earlier-native occurrences. Twelve main
+prose paragraphs retain four sections and four subsections. Four bulleted operating-system
+items span the two columns and remain linked to their respective discussions. One local LF
+join preserves the last paragraph while excluding the ending emblem from its text crop. The
+emblem has no invented caption; no code, table or sidebar occurs on this final page.
+
+The source title, series, author 박현철, affiliation, group/category labels, preceding
+expansion heading and incoming paragraph retain eight exact references to the unchanged
+opening package. Separate editor role 정리 and name 박은숙 are source-linked. Five anomaly notes
+preserve Rsource Arbitrator versus the list’s Resource Arbitrator, the printed particle 장치에,
+디바이스 드라이브, historical price 99.00달러 and the reported publication opinion. Plural
+Bus/Enumerators keeps its physical wrap and remains distinct from singular Bus Enumerator.
+No technical or historical claim is certified.
+
+All 26 drafts preceded one prospectively timed source correction pass. All 26 readings were
+serialized once. Two retained pre-OCR maps record 26 refinement events: clear ink margins
+and a split closing paragraph around the emblem. Both original and revised crops were
+directly inspected. Zero OCR retries, post-OCR crop changes, within-pass source refinements
+or post-pass changes. All 37 invalid semantic cases reject, including a lost list item,
+wrong column, collapsed repeated PCMCIA occurrence, repaired source spelling, merged emblem,
+editor-as-author and premature completion.
+
+All 82,417 earlier July files, thirty core modules, twenty-four frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and 81 classification pins remain
+exact. The unchanged fresh 214-test batch88 baseline is reused. One canonical task, one
+mapped page and three outside lookup pages remain within limits. Totals remain 36 readable
+articles, one partial, fourteen groups, seventeen references and 35 unresolved identities.
+Only 0068 restoration evidence advances; availability stays partial pending assembly.
+
+Next: actually assemble PnP 0068 across PDF 521–527 / printed 512–518 from immutable
+batch-90-r01/pnp-a and batch-91-r01/pnp-b. Independently regenerate both recipes and
+preserve all 727 native files, 183 crops, 176 original OCR outcomes, 164 native text blocks,
+534 reading rows, 535 regional fragments and 3,412 current native typed occurrences. The
+eight inherited ranges in b belong to a and must not project as current b text. Join only a
+expansion-a to b expansion-b with LF, preserving the paragraph break before
+expansion-control. Retain seven originals, six literal captions, four searchable tables with
+31 regions/34 physical rows/38 fields, two diagrams with 37 labels/30 connector
+relationships/four containment relationships and disconnected FDD, four numbered
+requirements, four final-page operating-system list items, source author and separate
+editor, three identifier candidates and eighteen anomaly notes. Verify complete ownership
+before marking 0068 readable. Preserve all 81 classification pins, 24 frozen assembly
+adapters, three local OCR adapters and the batch76 figure builder. Then restore hardware
+article 0069 and reconcile appropriate pending families. Whole July’s remaining identities,
+560-page accounting, cover and standalone JSON/assets closeout remain required. Incomplete
+donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit
+limits. No automatic CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
