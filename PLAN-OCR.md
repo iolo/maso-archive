@@ -2216,6 +2216,63 @@ remaining July identities,560-page accounting,cover and standalone JSON/assets c
 Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and
 execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 72 preserves xBase0058 final PDF 477–479 / printed 466–468 as a second immutable
+native. The complete source extent 471–479 is now preserved across two packages; actual
+assembly remains required. Opening batch71-r01/xbase-a is unchanged. The full-page 480
+advertisement and next CCC/Manager opening 481 / printed 472 remain excluded. No prose join
+is needed at 476→477, where the CA-VO subsection starts.
+
+All 185 selected, independent and fresh-process files match. The final native retains 47
+pixel-exact crops, 43 original OCR outcomes, 39 blocks, 189 reading/regional rows, 26 prose
+paragraphs and 1,203 current typed ranges, plus eleven earlier-native context occurrences.
+Four original visuals preserve screenshots 8–10 and the ending emblem; three literal
+captions remain separate. Earlier screenshot references 4/5 point to the opening native. The
+final editor 홍동선 remains distinct from source author 임지열.
+
+Seven physical code regions retain six examples, 32 physical rows and zero blank rows. The
+VFP append example joins 477→478 with one LF, preserving its five Korean identifier
+occurrences and complete ordered listing. Three additional prose joins retain the Paradox
+column continuation, closing discussion and final sentence. Code/explanation associations
+preserve the assignment that the author explicitly describes as erroneous. Four section
+contexts retain the earlier SKIP heading, table-reference section and two conclusions.
+
+Four source candidates and four anomalies remain explicit, including 1/l shapes,
+proportional spacing, printed PreformValidations, the kNotiifyName/kNotifyName mismatch, 필드에
+값이 and 갖/을 wrapping. The OCR-omitted RETURN .F. line was restored from the scan; code syntax
+and historical spelling were not repaired. Two pre-OCR maps retain 43 margin/ownership
+refinements. The first map attempt rejected a header exclusion overlapping eligible code
+before any map or OCR output was written; its failed script/evidence remain. A pinned local
+OCR adapter changes only the language setting for two VFP code fragments containing Korean
+identifiers; the other five code regions use eng, and all 36 other text regions use kor+eng.
+Zero OCR retries, one prospectively timed source pass, zero post-OCR crop changes, zero
+refinements after first serialization and zero post-pass changes.
+
+All 47 invalid cases reject. All 67,754 earlier July files, thirty core modules, nineteen
+frozen assembly adapters and 72 classification pins remain exact. The unchanged fresh
+214-test batch70 baseline is reused; the local language override was checked against the
+unmodified core implementation and its recorded settings. Totals: 30 readable articles, one
+partial, ten groups, seventeen references and 45 unresolved identities. Parent forum0043
+remains incomplete.
+
+Next: actually assemble xBase0058 across PDF 471–479 / printed 460–468 from immutable
+xbase-a(batch71-r01) and xbase-b(batch72-r01). Independently regenerate and preserve all 869
+native files. No cross-native prose join is required. Retain all 224 crops, 209 raw OCR
+outcomes, 194 native blocks, 615 reading rows, 616 regional fragments and 3,389 native
+current typed ranges. The eleven earlier-native context occurrences in b belong to a and
+must project against a. Preserve fifteen original visuals, twelve captions, ten numbered
+screenshots, two tables with 73 nonblank cells and one blank cell, author
+biography/portrait, independent pullquote, seventeen product tasks and three integrity
+rules. Retain eight code examples across nine regions and 44 physical code rows including
+two blank rows, thirteen local groups/fifteen boundaries, nine source candidates and nine
+anomalies. Preserve the erroneous example context, Korean identifiers, code continuation,
+printed identifier mismatch, source author 임지열 and separate editor 홍동선. Validate actual
+assembly before marking0058 readable. Parent forum0043 remains incomplete. Preserve 72
+classification pins, nineteen frozen assembly adapters and the batch72 local OCR adapter.
+Then continue the remaining July identities, 560-page accounting, cover and standalone
+JSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance, exact
+encoded source bytes and execution remain explicit limits. No automatic CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
