@@ -3773,6 +3773,58 @@ human acceptance and original encoded bytes remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-99/ocr-stage-audit.json`.
 
+July batch 99 completes the non-owning library heading 0070, 마소 열람실, and preserves
+commercial-software bundle 0071, 상용 소프트웨어, opening PDF 185–190 / printed 174–179 as an
+immutable partial native. The verified full bundle spans PDF 185–192 / printed 174–181.
+Final 191–192 and actual parent assembly remain separate checkpoints. The saved
+mapping/OCR-stage record above is historical; source correction and opening export are now
+complete.
+
+All 416 selected, independent and fresh-process native files match. The package retains 111
+pixel-exact crops, 99 original OCR outcomes, 85 blocks, 544 physical reading rows and 2,453
+typed range occurrences. Thirty-seven main prose paragraphs retain thirteen section contexts
+and fourteen local joins. Three complete independent review contexts cover Hangul 185–186,
+Geulteo 187–188 and PC/TCP 189–190. Twelve original screenshots retain twelve literal
+captions; three product boxes retain twelve type, environment, price and contact fields. No
+byline was observed. No code listing or table occurs.
+
+Source review order 0072, 0073, 0076, 0074, 0075 remains distinct from canonical order
+0072–0076. All child references remain pending complete parent restoration. Nineteen
+historical Hangul-lettering occurrences use a documented Unicode approximation; fourteen
+source anomaly notes and seven physical word wraps retain literal wording and identifiers
+without technical repair. All 99 drafts were read before one prospective source correction
+pass covering all 111 crops. Zero OCR retries, source refinements or post-OCR crop changes.
+Three retained pre-OCR maps record 101 margin adjustments.
+
+Seven classification files reproduce independently and in a fresh process. Five already
+mapped source crops establish the library heading without adding source pages. Its seven
+direct children and 22 descendants retain their canonical identities; the heading owns no
+body or inherited folio, and family completion remains pending. Only entries 0070 and 0071
+change. Totals are 38 readable articles, one partial, fifteen groups, seventeen references
+and 32 unresolved identities; 99 checkpoints are complete.
+
+All 34 native and eight classification invalid cases reject. The first verifier incorrectly
+expected twelve section contexts; its script and failure log are retained. Correcting the
+expectation to thirteen required no package or transcription change. All 86,627 earlier July
+files, 934 saved OCR-stage files, thirty core modules, 26 frozen assembly adapters, three
+local OCR adapters and the batch76 figure builder remain exact. The unchanged fresh 214-test
+batch95 baseline is reused. The previous 91 classification pins remain exact and two new
+pins bring the total to 93. Two canonical tasks, six mapped pages and five outside lookup
+pages stay within checkpoint limits.
+
+Next: restore commercial-software 0071 final PDF 191–192 / printed 180–181 as a separate
+immutable native, reusing the saved full-page views and verified extent. Preserve the
+independent finance-software and WordChange review contexts, literal product fields,
+screenshots and captions. Then actually assemble PDF 185–192 from immutable natives; no
+paragraph join is required across 190→191. Finalize child references 0072–0076 only after
+complete parent assembly. Continue remaining library and July identities, family
+reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.
+Preserve all 93 classification pins, 26 frozen assembly adapters in
+batch95/frozen-adapters-complete.json and three local OCR adapters in
+batch87/frozen-local-ocr-adapters-complete.json. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits. No automatic CD3
+association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
