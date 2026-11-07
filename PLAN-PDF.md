@@ -2003,7 +2003,7 @@ accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,fu
 proofreading,human acceptance,exact encoded source bytes and execution remain explicit
 limits. No automatic CD3 association,reader rebuild or deployment.
 
-July batch 69 is in progress at a saved mapping/OCR stage for coordinator0057,
+July batch 69 first saved a mapping/OCR stage before final-native completion below,
 코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리, by 박재홍.
 Full extent PDF 459–469 / printed 448–458 is verified. This final native covers
 465–469 only; opening batch68-r01/coordinator-a remains immutable and actual
@@ -2040,6 +2040,58 @@ JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,
 human acceptance,original encoded bytes and execution remain explicit limits.
 No automatic CD3 association or reader work.
 Evidence: `archive/pdf/1995-07/restoration/batch-69/ocr-stage-audit.json`.
+
+July batch 69 preserves coordinator0057 final PDF 465–469 / printed 454–458 as a second
+immutable native. The complete source extent 459–469 is now preserved across two packages;
+actual assembly remains required. Opening batch68-r01/coordinator-a is unchanged. The lower
+469 book advertisement, full-page 470 advertisement and next xBase opening 471 remain
+excluded.
+
+All 510 selected, independent and fresh-process files match. The final native retains 129
+pixel-exact crops, 124 original OCR outcomes, 117 blocks, 343 reading/regional rows, 41
+prose paragraphs and 2,400 typed ranges. Five original visuals preserve the TextMap class
+hierarchy, three-column diagram, TESTTEXT screenshot, ending emblem and file directory. Two
+captions and fourteen diagram labels retain their distinct occurrences, including the
+repeated 92 and 152 dimensions.
+
+Twenty-five code regions retain 37 physical rows and zero blank rows. Every declaration,
+prototype and overload example keeps its explanation. Seven local prose groups retain seven
+boundaries. The fifteen directory rows retain thirty cells and two headers; the disk/service
+heading stays literal without a CD3 association. Source author 박재홍 remains in the earlier
+native; final editor 박준상 is separately indexed. The incoming endCursorPosition paragraph
+remains unjoined until assembly.
+
+Fourteen source candidates and ten anomalies remain explicit, including Is/ls and filename
+glyphs, printed declaration commas, const destination qualifiers, CURSOR _POSITION spacing,
+메지지, directory WriteTextOn capitalization and TXTIMAGE.HPP versus the opening TEXIMAGE.HPP.
+No program syntax or source wording was repaired. Two pre-OCR maps retain 127 margin
+adjustments. The terminated first render and its timing clarification remain preserved; one
+render restart preceded all recognition. Zero OCR retries, one prospectively timed source
+pass, zero post-OCR crop changes, zero text refinements after first serialization and zero
+post-pass changes.
+
+All 45 invalid cases reject. All 62,884 earlier July files, 952 saved OCR-stage files,
+thirty core modules, eighteen frozen adapters and 72 classification pins remain exact. The
+unchanged fresh 214-test batch66 baseline is reused. Totals: 29 readable articles, one
+partial, ten groups, seventeen references and 46 unresolved identities. Groups0051/0052 and
+ancestor0043 remain incomplete.
+
+Next: actually assemble coordinator0057 across PDF 459–469 / printed 448–458 from immutable
+coordinator-a(batch68-r01) and coordinator-b(batch69-r01). Independently regenerate and
+preserve all 1,058 native files. Join a.invalid-explain-a to b.invalid-explain-b with one LF
+after endCursorPosition이 실제의 값 and before 과 항상 일치하는 것은 아니다. Retain all 269 crops,257 raw OCR
+outcomes,239 native blocks,748 reading rows,749 regional fragments,4,858 native typed
+ranges,twelve original visuals,five captions,48 diagram labels,48 code regions and67
+physical code rows. Preserve five schedule rows,15 directory rows/30 cells/two headers,15
+local groups/18 boundaries,28 source candidates and20 anomalies. Earlier-native
+title/author/group/incoming ranges in b belong to a and must not project as b current text.
+Author 박재홍 and editor 박준상 remain distinct. Exclude lower469 book advertisement and470 full
+advertisement;next0058 opens471. Validate actual assembly before marking0057 readable.
+Groups0051/0052 and ancestor0043 remain incomplete. Preserve72 classification pins and18
+frozen adapters. Then continue0058 and remaining July identities,560-page accounting,cover
+and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human
+acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3
+association,reader rebuild or deployment.
 
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
