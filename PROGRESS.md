@@ -9550,3 +9550,59 @@ batch95/frozen-adapters-complete.json and three local OCR adapters in
 batch87/frozen-local-ocr-adapters-complete.json. Incomplete donated TOCs, full proofreading,
 human acceptance and original encoded bytes remain explicit limits. No automatic CD3
 association, reader rebuild or deployment.
+
+## 2026-11-08 — July commercial-software final native complete
+
+July batch 100 preserves commercial-software bundle 0071 final PDF 191–192 / printed 180–181
+as a second immutable native. All eight source pages 185–192 / printed 174–181 are now
+retained across two packages; actual parent assembly remains required. Opening
+batch-99-r01/commercial-a is unchanged. Finance software 메타크릭 95 for Money and 워드체인지 '95
+retain independent review contexts. No paragraph joins across 190→191 or between the two
+final reviews. Public software opens independently on 193.
+
+All 168 selected, independent and fresh-process files match. The final native retains 43
+pixel-exact crops, 39 original OCR outcomes, 37 blocks, 164 physical reading rows and 767
+current typed range occurrences. Four earlier-native ranges retain the commercial title,
+library/category banners and previous PC/TCP conclusion in their original package namespace.
+Fourteen main paragraphs retain five section contexts. Two local joins preserve WordChange
+column continuations, including the physical 번/역 split with LF. Four original screenshots
+retain four literal captions, and two product boxes retain eight type, environment, price
+and contact fields. No byline, code listing or table occurs.
+
+Ten source notes retain printed 회기 마감, 흘림 계정, 카드 결재, the historical revision promise, 피씨딕,
+블럭, physical wrapping and the original contact number. Roman numeral III and two apostrophes
+use documented representations; four regional word wraps and one column word wrap remain
+explicit. All 39 raw drafts preceded one prospectively timed source pass. All 43 crops were
+compared on four complete contact sheets, with the finance interface crop also inspected
+separately. Two pre-OCR maps retain one descriptor-margin adjustment to exclude neighboring
+title ink. One serialization, zero OCR retries and zero source refinements or post-OCR crop
+changes.
+
+All 38 invalid semantic cases reject, including swapped product contacts/captions, omitted
+review paragraphs, wrong child identities, invented incoming joins, lost column-wrap
+provenance, incorrect earlier-native ownership and premature parent or reference completion.
+All 88,133 earlier July files, thirty core modules, 26 frozen assembly adapters, three local
+OCR adapters, the batch76 figure builder and 93 classification pins remain exact. The
+unchanged fresh 214-test batch95 baseline is reused.
+
+One canonical task, two mapped pages and two outside lookup pages stay within checkpoint
+limits. Only 0071 restoration evidence advances; availability stays partial pending
+assembly. Totals remain 38 readable articles, one partial, fifteen groups, seventeen
+references and 32 unresolved identities. One hundred checkpoints are complete, while the
+whole July restoration remains active.
+
+Next: actually assemble commercial-software 0071 across PDF 185–192 / printed 174–181 from
+immutable batch-99-r01/commercial-a and batch-100-r01/commercial-b. Independently regenerate
+both recipes and preserve all 584 native files, 154 crops, 138 OCR outcomes, 122 blocks, 708
+reading rows and 3,220 current native typed occurrences. Four inherited ranges in b belong
+to a and must project from that owner. No inter-native paragraph join is required. Preserve
+all five independent reviews in source order 0072, 0073, 0076, 0074, 0075 while retaining
+canonical order 0072–0076; keep 51 main paragraphs, eighteen section contexts, sixteen local
+joins, sixteen screenshots/captions, twenty product fields, 24 literal source notes,
+documented glyph representations and physical wraps. Verify full ownership before marking
+0071 readable, then finalize child references 0072–0076 in bounded checkpoints. Continue the
+remaining library and July identities, family reconciliation, 560-page accounting, cover
+verification and standalone JSON/assets closeout. Preserve 93 classification pins, 26 frozen
+assembly adapters from batch95 and three local OCR adapters from batch87. Incomplete donated
+TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits.
+No automatic CD3 association, reader rebuild or deployment.
