@@ -1557,6 +1557,48 @@ cover and standalone JSON/assets closeout remain pending. Incomplete donated TOC
 full proofreading,human acceptance,exact source bytes and historical execution remain
 explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 60 actually assembles complete VB SDK0053 across PDF419–429/printed
+408–418 from two immutable natives. All533 selected,independent and fresh-process
+files match,including all524 independently regenerated native files. SetImeMode
+joins424 to425 using its existing serialization LF exactly once;no extra blank,
+word splice or physical-code-row splice. All99 source blocks remain in98 combined
+blocks,with137 exact crops,123 original OCR outcomes,14 original visuals and
+seven unique literal captions. Reading order retains911 rows and912 regional fragments.
+
+All11,909 native metadata occurrences,including seven earlier-native ranges,
+project into the complete article. All23,877 current ranges and115,740 scalar
+values validate against original text and metadata. Seventeen join groups retain
+25 boundaries,including the original dropcap zero join and DrowSysInfo page wrap.
+Eight prose listing references now resolve to their original listing bodies.
+Two retained metadata revisions correct root IME section reading order and isolate
+it from historical native metadata;all text,listing,image and native files remain
+byte-identical. Both earlier assemblies and adapter versions remain preserved.
+
+Twenty-nine combined code blocks retain690 physical rows,36 blanks,seven Korean
+comments,59 English comments,five Korean strings,one omission,six explanatory
+prefixes and five circled callouts. Three numbered listings retain303 rows,
+thirteen blank payloads and duplicate132. exehdr output retains35 unsorted export
+rows and two segment rows. The directory retains14 rows,28 filenames,two headers
+and four duplicated names. All68 glyph candidates and printed errors remain.
+Source author 전성욱 and separate editor 박은숙 retain their roles;all three
+screenshot/caption mismatches remain literal. Prose ends426 and listings429;
+adjacent418/430 advertisements are excluded.
+
+All78 invalid cases reject and214 fresh PDF tests pass. All48,814 earlier July
+files,thirty core modules,fifteen prior adapters and72 classification pins remain
+exact. The new selected frozen adapter is batch60/vbsdk_adapter_r03.py,bringing
+the current count to sixteen. One canonical task,zero newly mapped pages and
+seven reused source lookups remain within limits. No new OCR or source correction.
+Canonical groups0051/0052 and ancestor forum0043 remain unchanged and incomplete.
+
+Totals: twenty-six readable articles,zero partials,ten groups,seventeen references
+and50 unresolved identities. Next: verify0054, Win32를 뛰어넘자[마지막회] : 컨트롤의 사용,
+from its observed PDF431/printed420 opening,then restore at most six mapped pages.
+Its full extent remains unverified. Whole July560-page accounting,cover and
+standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full
+proofreading,human acceptance,exact source bytes and historical execution remain
+explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
