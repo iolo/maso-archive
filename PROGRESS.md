@@ -9606,3 +9606,54 @@ verification and standalone JSON/assets closeout. Preserve 93 classification pin
 assembly adapters from batch95 and three local OCR adapters from batch87. Incomplete donated
 TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
+
+July batch 101 actually assembles complete commercial-software bundle 0071 across PDF
+185–192 / printed 174–181. The 592-file parent includes all 584 independently regenerated
+native files, unchanged. All 154 crops, 138 original OCR outcomes, 122 text blocks and 708
+physical reading rows retain their provenance. No inter-native paragraph join, new mapping,
+OCR or source correction occurs.
+
+Five complete independent reviews retain source order Hangul, Geulteo, PC/TCP, finance
+software and WordChange: canonical children 0072, 0073, 0076, 0074, 0075. Canonical order
+0072–0076 remains unchanged. The assembly retains 51 main paragraphs, eighteen section
+contexts, sixteen local joins, sixteen original screenshots with literal captions and twenty
+product fields. Every review preserves its descriptor, title, deck, prose, sections, images,
+caption associations and product box; no byline is invented. Library 0070 remains
+non-owning.
+
+All 3,224 native metadata occurrences project, including four earlier-native ranges held by
+b that correctly belong to a. All 6,601 current ranges and 28,430 scalar values validate.
+Review identities, prose and caption lists are namespaced while canonical child metadata
+stays unchanged. Original native status flags remain historical; current parent completion
+explicitly leaves all five child references pending separate classification. Twenty-four
+source notes, seventeen glyph-candidate records covering 22 occurrences, eleven regional
+word wraps and the WordChange column word wrap retain literal evidence. Historical claims,
+original encoded bytes, full proofreading and human acceptance remain unverified.
+
+The selected, independent and fresh-process assemblies match byte-for-byte. The independent
+build consumes both regenerated natives. All 55 invalid cases reject, including altered
+canonical child identities, wrong review/field/caption ownership, lost column-wrap
+provenance, invented paragraph joins, incorrect earlier-native ownership and premature child
+or group completion. All 214 fresh PDF tests pass. All 88,698 earlier July files, thirty
+core modules, 26 previous frozen assembly adapters, three local OCR adapters, the batch76
+figure builder and 93 classification pins remain exact. The new guarded commercial adapter
+brings the frozen assembly inventory to 27 without changing core code or prior adapters.
+
+One canonical task, zero mapped pages and five outside source-view lookups remain within
+limits. Only 0071 becomes readable/sample-reviewed. Totals are 39 readable articles, zero
+partials, fifteen groups, seventeen references and 32 unresolved identities, with 101
+completed checkpoints. Whole July restoration remains active.
+
+Next: finalize commercial child references 0072 and 0073 into the complete parent at
+archive/pdf/1995-07/packages/article-commercial-r01. Use source anchors a-hangul-title on
+PDF185 and a-geulteo-title on187; verify complete respective scopes185–186 and187–188,
+including each review's four screenshots/captions and four product fields. Keep
+library/category banners and neighboring reviews outside each child scope; preserve
+historical Hangul lettering and canonical titles separately. Do not create duplicate child
+bodies or rerun successful OCR/source correction. Then resolve remaining children0074–0076
+in bounded checkpoints, preserving their distinct source order and contexts. Library0070 and
+forum0059 family reconciliation, remaining July identities,560-page accounting,cover
+verification and standalone JSON/assets closeout remain required. Retain all93
+classification pins,27 frozen assembly adapters in batch101/frozen-adapters-complete.json
+andthree local OCR adapters in batch87. Incomplete donated TOCs remain an explicit
+verification limit. No automatic CD3 association,reader rebuild or deployment.
