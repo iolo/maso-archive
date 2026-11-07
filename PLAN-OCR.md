@@ -5004,6 +5004,69 @@ classification pins, 27 frozen assembly adapters from batch 101 and three local 
 from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original
 encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
 
+July batch 120 classifies reader-board 0093 (애독자 포럼·게시판) as a non-owning
+pageless heading and completes August-preview 0094 across PDF 293–294 / printed
+282–283. The source title 8월호 기사 예고 remains distinct from canonical
+8월호 주요 기사 안내. Fourteen future-issue topics belong to this single article;
+no announced article, supplement, software or current survey body is claimed restored.
+The preceding Unix CD event report and following 3M advertisement are excluded.
+
+All 242 selected, independent and fresh-process article files match. The native
+retains 60 pixel-exact crops, 58 original OCR outcomes, 54 text blocks, 141 physical
+rows, eighteen main prose paragraphs and 770 typed range occurrences. Four local
+paragraph joins preserve physical breaks; two word continuations retain their
+column-boundary source ranges. The chip illustration interrupts one paragraph.
+Two original illustrations have no captions. Three graphics part headings, ten
+category contexts, the separate P&P box, four mentioned people and a survey teaser
+retain their roles. Mentioned people are not assigned article bylines. No incoming,
+outgoing or cross-page prose join or separate article assembly is required.
+
+All 58 raw drafts preceded one prospectively timed source correction pass. Two
+retained pre-OCR maps preserve fifteen crop adjustments and both sets of sixty
+crops. Two empty colored-label drafts were recovered directly from source. No OCR
+retry, post-OCR crop change, within-pass refinement or post-pass source change.
+Thirteen source notes preserve printed wording and claims, including 초점해,
+Undocument, 천혜 정보, 날/날이 across physical rows, 술잎(?), 갖자기,
+생존자격인, 안바이러스연구소, 테크닉을 궁금하다구요 and 일하는 있는.
+One new validation-helper failure used the first occurrence of a repeated character
+instead of the final character at a column boundary. Its script and log are retained;
+the checker now verifies the exact boundary position. Source text, OCR and packages
+were unchanged. No source-processing helper failed.
+
+Two classification files also reproduce independently and in a fresh process.
+Reader-board0093 retains all five canonical children without an inherited folio or
+owned body. Only0094 is readable;0095–0098 and family reconciliation remain pending.
+The subscription title 정기구독 안내 and content are observed on PDF538, but no
+printed folio is visible there. Canonical page529 is not a verified source folio;
+subscription extent and eligibility remain undecided. Absence of an umbrella banner
+is scoped to the five reviewed source views, not the whole issue. The survey teaser
+on294 does not classify current survey0099 or its children.
+
+All 55 article and sixteen classification invalid cases reject, including missing
+topics, paragraphs, source rows or joins, misassigned illustrations, invented captions,
+bylines or child identities, survey teaser misclassification, repaired source wording,
+inherited folios and premature family or issue completion. All 96,027 earlier July
+files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters,
+the batch76 figure builder and 126 prior classification pins remain exact. The
+unchanged fresh 214-test batch101 baseline is reused. Two new classification pins
+bring the issue requirement to128.
+
+Two canonical tasks, two mapped pages and three outside lookup pages (292,295,538)
+stay within checkpoint limits. Totals are 46 readable articles, zero partials,
+sixteen groups,32 references and nine unresolved identities across120 completed
+checkpoints. Whole July restoration remains incomplete.
+
+Next: verify subscription0095 from the observed PDF538 title/content match and locate
+advertisement-index0096 listed at canonical printed530. Establish each source folio,
+eligibility and complete extent independently; do not assume a global PDF offset.
+Continue reader-board children0097–0098 and explicitly reconcile0093, then survey0099
+and children0100–0102 and video appendix0103. Whole560-page accounting, cover
+verification and standalone JSON/assets closeout remain required. Preserve all128
+classification pins,27 frozen assembly adapters from batch101 and three local OCR
+adapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance
+and original encoded bytes remain explicit limits. No inferred CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02

@@ -11932,23 +11932,124 @@
       "toc_entry_id": "maso-1995-07-toc-0093",
       "title": "애독자 포럼·게시판",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 120 classifies reader-board 0093 (애독자 포럼·게시판) as a non-owning\npageless heading and completes August-preview 0094 across PDF 293–294 / printed\n282–283. The source title 8월호 기사 예고 remains distinct from canonical\n8월호 주요 기사 안내. Fourteen future-issue topics belong to this single article;\nno announced article, supplement, software or current survey body is claimed restored.\nThe preceding Unix CD event report and following 3M advertisement are excluded.\n\nAll 242 selected, independent and fresh-process article files match. The native\nretains 60 pixel-exact crops, 58 original OCR outcomes, 54 text blocks, 141 physical\nrows, eighteen main prose paragraphs and 770 typed range occurrences. Four local\nparagraph joins preserve physical breaks; two word continuations retain their\ncolumn-boundary source ranges. The chip illustration interrupts one paragraph.\nTwo original illustrations have no captions. Three graphics part headings, ten\ncategory contexts, the separate P&P box, four mentioned people and a survey teaser\nretain their roles. Mentioned people are not assigned article bylines. No incoming,\noutgoing or cross-page prose join or separate article assembly is required.\n\nAll 58 raw drafts preceded one prospectively timed source correction pass. Two\nretained pre-OCR maps preserve fifteen crop adjustments and both sets of sixty\ncrops. Two empty colored-label drafts were recovered directly from source. No OCR\nretry, post-OCR crop change, within-pass refinement or post-pass source change.\nThirteen source notes preserve printed wording and claims, including 초점해,\nUndocument, 천혜 정보, 날/날이 across physical rows, 술잎(?), 갖자기,\n생존자격인, 안바이러스연구소, 테크닉을 궁금하다구요 and 일하는 있는.\nOne new validation-helper failure used the first occurrence of a repeated character\ninstead of the final character at a column boundary. Its script and log are retained;\nthe checker now verifies the exact boundary position. Source text, OCR and packages\nwere unchanged. No source-processing helper failed.\n\nTwo classification files also reproduce independently and in a fresh process.\nReader-board0093 retains all five canonical children without an inherited folio or\nowned body. Only0094 is readable;0095–0098 and family reconciliation remain pending.\nThe subscription title 정기구독 안내 and content are observed on PDF538, but no\nprinted folio is visible there. Canonical page529 is not a verified source folio;\nsubscription extent and eligibility remain undecided. Absence of an umbrella banner\nis scoped to the five reviewed source views, not the whole issue. The survey teaser\non294 does not classify current survey0099 or its children.\n\nAll 55 article and sixteen classification invalid cases reject, including missing\ntopics, paragraphs, source rows or joins, misassigned illustrations, invented captions,\nbylines or child identities, survey teaser misclassification, repaired source wording,\ninherited folios and premature family or issue completion. All 96,027 earlier July\nfiles, thirty core modules, 27 frozen assembly adapters, three local OCR adapters,\nthe batch76 figure builder and 126 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Two new classification pins\nbring the issue requirement to128.\n\nTwo canonical tasks, two mapped pages and three outside lookup pages (292,295,538)\nstay within checkpoint limits. Totals are 46 readable articles, zero partials,\nsixteen groups,32 references and nine unresolved identities across120 completed\ncheckpoints. Whole July restoration remains incomplete.\n\nNext: verify subscription0095 from the observed PDF538 title/content match and locate\nadvertisement-index0096 listed at canonical printed530. Establish each source folio,\neligibility and complete extent independently; do not assume a global PDF offset.\nContinue reader-board children0097–0098 and explicitly reconcile0093, then survey0099\nand children0100–0102 and video appendix0103. Whole560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all128\nclassification pins,27 frozen assembly adapters from batch101 and three local OCR\nadapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance\nand original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.\n"
+      ],
+      "restoration": null,
+      "group_reference": {
+        "evidence": {
+          "path": "archive/pdf/1995-07/classifications/batch-120-r01/group-0093.json",
+          "sha256": "1017ee982ae63fa9a6080e036690346689f5aa334a06ba89b82a572397a1a959",
+          "bytes": 8836
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-120/validation.json",
+          "sha256": "f2c81e6de3e4c0019029cc62423bd0c3d24e54123ce5c4ef42f25a1b8c124398",
+          "bytes": 3884
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-120/reproduction.json",
+          "sha256": "bc2b70302e2f24a82514ace236eda3016f91552cd26fa5122946863ed3bbb871",
+          "bytes": 47806
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false,
+        "child_restorations_complete": false,
+        "descendant_outcomes_complete": false,
+        "pending_descendant_ids": [
+          "maso-1995-07-toc-0095",
+          "maso-1995-07-toc-0096",
+          "maso-1995-07-toc-0097",
+          "maso-1995-07-toc-0098"
+        ],
+        "checkpoint": "batch-120"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0094",
       "title": "8월호 주요 기사 안내",
       "parent_id": "maso-1995-07-toc-0093",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 120 classifies reader-board 0093 (애독자 포럼·게시판) as a non-owning\npageless heading and completes August-preview 0094 across PDF 293–294 / printed\n282–283. The source title 8월호 기사 예고 remains distinct from canonical\n8월호 주요 기사 안내. Fourteen future-issue topics belong to this single article;\nno announced article, supplement, software or current survey body is claimed restored.\nThe preceding Unix CD event report and following 3M advertisement are excluded.\n\nAll 242 selected, independent and fresh-process article files match. The native\nretains 60 pixel-exact crops, 58 original OCR outcomes, 54 text blocks, 141 physical\nrows, eighteen main prose paragraphs and 770 typed range occurrences. Four local\nparagraph joins preserve physical breaks; two word continuations retain their\ncolumn-boundary source ranges. The chip illustration interrupts one paragraph.\nTwo original illustrations have no captions. Three graphics part headings, ten\ncategory contexts, the separate P&P box, four mentioned people and a survey teaser\nretain their roles. Mentioned people are not assigned article bylines. No incoming,\noutgoing or cross-page prose join or separate article assembly is required.\n\nAll 58 raw drafts preceded one prospectively timed source correction pass. Two\nretained pre-OCR maps preserve fifteen crop adjustments and both sets of sixty\ncrops. Two empty colored-label drafts were recovered directly from source. No OCR\nretry, post-OCR crop change, within-pass refinement or post-pass source change.\nThirteen source notes preserve printed wording and claims, including 초점해,\nUndocument, 천혜 정보, 날/날이 across physical rows, 술잎(?), 갖자기,\n생존자격인, 안바이러스연구소, 테크닉을 궁금하다구요 and 일하는 있는.\nOne new validation-helper failure used the first occurrence of a repeated character\ninstead of the final character at a column boundary. Its script and log are retained;\nthe checker now verifies the exact boundary position. Source text, OCR and packages\nwere unchanged. No source-processing helper failed.\n\nTwo classification files also reproduce independently and in a fresh process.\nReader-board0093 retains all five canonical children without an inherited folio or\nowned body. Only0094 is readable;0095–0098 and family reconciliation remain pending.\nThe subscription title 정기구독 안내 and content are observed on PDF538, but no\nprinted folio is visible there. Canonical page529 is not a verified source folio;\nsubscription extent and eligibility remain undecided. Absence of an umbrella banner\nis scoped to the five reviewed source views, not the whole issue. The survey teaser\non294 does not classify current survey0099 or its children.\n\nAll 55 article and sixteen classification invalid cases reject, including missing\ntopics, paragraphs, source rows or joins, misassigned illustrations, invented captions,\nbylines or child identities, survey teaser misclassification, repaired source wording,\ninherited folios and premature family or issue completion. All 96,027 earlier July\nfiles, thirty core modules, 27 frozen assembly adapters, three local OCR adapters,\nthe batch76 figure builder and 126 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Two new classification pins\nbring the issue requirement to128.\n\nTwo canonical tasks, two mapped pages and three outside lookup pages (292,295,538)\nstay within checkpoint limits. Totals are 46 readable articles, zero partials,\nsixteen groups,32 references and nine unresolved identities across120 completed\ncheckpoints. Whole July restoration remains incomplete.\n\nNext: verify subscription0095 from the observed PDF538 title/content match and locate\nadvertisement-index0096 listed at canonical printed530. Establish each source folio,\neligibility and complete extent independently; do not assume a global PDF offset.\nContinue reader-board children0097–0098 and explicitly reconcile0093, then survey0099\nand children0100–0102 and video appendix0103. Whole560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all128\nclassification pins,27 frozen assembly adapters from batch101 and three local OCR\nadapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance\nand original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.\n"
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-120-r01/preview",
+        "article_id": "scan-maso-1995-07-toc-0094",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-120-r01/preview/manifest.json",
+          "sha256": "c0b37f524bf4cc09fa22b2a45da3f59b05c6e81a30f4aeea411b3236a2542b92",
+          "bytes": 40695
+        },
+        "coverage": {
+          "pdf_pages": [
+            293,
+            294
+          ],
+          "printed_pages": [
+            "282",
+            "283"
+          ],
+          "regions": 60,
+          "blocks": 54,
+          "figures": 2,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 293,
+        "actual_end_pdf_page": 294,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            293,
+            294
+          ],
+          "current_pdf_pages": [
+            293,
+            294
+          ],
+          "current_printed_pages": [
+            "282",
+            "283"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 293,
+          "observed_ending_pdf_page": 294,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-120/source-reviewed.json",
+            "sha256": "1ff79a9b551a1d7ca9cfd1cf3f3bc30a2719ee6397bbde4cb1830453b1031138",
+            "bytes": 5496
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-120/validation.json",
+          "sha256": "f2c81e6de3e4c0019029cc62423bd0c3d24e54123ce5c4ef42f25a1b8c124398",
+          "bytes": 3884
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-120/reproduction.json",
+          "sha256": "bc2b70302e2f24a82514ace236eda3016f91552cd26fa5122946863ed3bbb871",
+          "bytes": 47806
+        },
+        "checkpoint": "batch-120"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0095",
@@ -16674,22 +16775,63 @@
         "sha256": "ebe28ebeca525d251b6f7c12df89a27235b180556cc5d0903b2ae0ffd26db206",
         "bytes": 1111
       }
+    },
+    {
+      "name": "1995-07-batch-120",
+      "status": "complete",
+      "completed_at": "2026-11-07T20:18:33.782813+00:00",
+      "goal": "Classify reader-board0093 and complete preview0094 on293–294 without inventing announced article identities.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0093",
+        "maso-1995-07-toc-0094"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        293,
+        294
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        292,
+        295,
+        538
+      ],
+      "recognition_invocations": 58,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 0,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 1,
+      "retained_source_helper_failures": 0,
+      "retained_validation_helper_failures": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-120/validation.json",
+        "sha256": "f2c81e6de3e4c0019029cc62423bd0c3d24e54123ce5c4ef42f25a1b8c124398",
+        "bytes": 3884
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-120/reproduction.json",
+        "sha256": "bc2b70302e2f24a82514ace236eda3016f91552cd26fa5122946863ed3bbb871",
+        "bytes": 47806
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 45,
+    "readable": 46,
     "partial": 0,
-    "group_headings": 15,
+    "group_headings": 16,
     "section_references": 32,
-    "unresolved": 11
+    "unresolved": 9
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: inspect reader-board heading 0093 and locate its first child 0094, 8월호 주요 기사 안내,\nlisted at printed page 282. Verify source folios, eligibility and complete extent directly\nbefore mapping; do not infer a global PDF offset. Use a bounded checkpoint, preserving\nunresolved outcomes if the lookup ceiling is reached. Then continue children 0095–0098,\nsurvey 0099 and children 0100–0102, and video appendix 0103. Whole 560-page accounting,\ncover verification and standalone JSON/assets closeout remain required. Preserve all 126\nclassification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters\nfrom batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original\nencoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify subscription0095 from the observed PDF538 title/content match and locate\nadvertisement-index0096 listed at canonical printed530. Establish each source folio,\neligibility and complete extent independently; do not assume a global PDF offset.\nContinue reader-board children0097–0098 and explicitly reconcile0093, then survey0099\nand children0100–0102 and video appendix0103. Whole560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all128\nclassification pins,27 frozen assembly adapters from batch101 and three local OCR\nadapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance\nand original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -17320,6 +17462,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-119-r01/group-status-dispositions.json",
       "sha256": "b67cec712bbf78bda6eb59bf95cfd90061ca627d2ac5b47c3e0d84a56b29a7ff",
       "bytes": 158448
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-120-r01/evidence.json",
+      "sha256": "f09380ffd4ce928dd807bf1b4ddc86d175452a299e4ace0421fc54354cc9e2db",
+      "bytes": 11719
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-120-r01/group-0093.json",
+      "sha256": "1017ee982ae63fa9a6080e036690346689f5aa334a06ba89b82a572397a1a959",
+      "bytes": 8836
     }
   ]
 }
