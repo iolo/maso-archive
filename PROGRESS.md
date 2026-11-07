@@ -11143,3 +11143,58 @@ and standalone JSON/assets closeout remain required. Preserve130 classification 
 all28 frozen assembly adapters from batch124 and three local OCR adapters from batch87.
 Incomplete donated TOCs remain an explicit verification limit. No inferred CD3
 association, reader rebuild or deployment.
+
+July batch 127 preserves developer survey 0099 reply-form reverse/front on PDF
+556–557 as a second immutable native. All eight source pages550–557 are now
+preserved across two natives; actual article assembly remains a separate checkpoint.
+Both final pages have no printed folio. The following Haitai RISCstation
+advertisement558 remains outside the survey. Canonical identity and hierarchy stay
+unchanged; prize children0100–0102 remain unclassified.
+
+All502 selected, independent and fresh-process files match. All125 pixel-exact
+crops,123 OCR outcomes,123 blocks,178 nonempty reading rows and2,005 current typed
+ranges validate. Two complete original page images retain the mixed-orientation
+postal reverse and the23-row response grid, including its dotted cut line. There
+are113 numbered blank response fields, with227 earlier-native ranges retaining
+the opening title and all113 question ordinals/prompts in their original namespace.
+No answers, participant, ranks or ratings are inferred. Uneven field widths and
+all labels remain, including31's separate instruction cell,73's unusual header
+position and88's absent direct-entry instruction. Phone/FAX parentheses and separator
+strokes remain punctuation, with no inferred blank-character count.
+
+The reverse retains its two introduction paragraphs, sponsors, magazine brand,
+six-line postal permit, two blank sender lines and six empty sender postcode boxes.
+The historical Microsoft recipient address,11th floor and boxed135-090 postcode
+remain distinct from respondent fields. No current postal validity is asserted.
+A small raised circular mark after Microsoft is explicitly unresolved; its interior
+symbol and original character count are not invented. Four lossless source-only
+quarter-turn details support reading sideways text; original pages and OCR inputs
+remain unrotated. Full proofreading, human acceptance and source bytes remain
+unverified.
+
+Two pre-OCR maps retain four crop adjustments. All123 drafts were read before
+one prospectively started source pass, resumed without restarting; zero OCR retries,
+source revisions after first serialization, post-pass changes or post-OCR crop changes.
+One retained metadata revision restricts the main-prose index to the two introduction
+paragraphs; the first exact export remains saved, with text/OCR/images unchanged.
+One retained verifier failure corrects an overly strict touching-boundary assumption:
+independently measured fields36→37 retain a thin rule-width gap. No source geometry
+was changed. All55 invalid cases reject; all100,976 earlier July files, thirty core
+modules,28 frozen assembly adapters, three local OCR adapters and130 classification
+pins remain exact. The fresh214-test batch124 baseline is reused. One canonical
+task, two mapped pages and three outside lookups remain within the checkpoint limits.
+
+Totals remain50 readable articles, one partial, sixteen groups,32 references and
+four unresolved identities across127 completed checkpoints. Whole July remains
+incomplete.
+
+Next: actually assemble survey0099 PDF550–557 from the exact batch126 opening
+and selected batch127-r02 reply-form natives. Preserve every question, choice,
+reference, blank form field, postal role, original visual and source uncertainty;
+resolve creation-time pending flags externally without changing either native.
+No prose join, new OCR or source correction is needed. Classify prize children
+0100–0102 after assembly, then resolve video appendix0103. Whole560-page accounting,
+cover verification and standalone JSON/assets closeout remain required. Preserve
+130 classification pins,28 frozen assembly adapters from batch124 and three local
+OCR adapters from batch87. Incomplete donated TOCs remain an explicit verification
+limit. No inferred CD3 association, reader rebuild or deployment.

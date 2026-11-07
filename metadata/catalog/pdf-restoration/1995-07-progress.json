@@ -12569,54 +12569,198 @@
       "availability": "partial",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "July batch 126 preserves developer survey 0099 opening PDF 550–555 as an immutable\npartial native. Direct source review establishes the full extent as 550–557: an\nintroduction/prize page, five questionnaire pages with independent folios 1–5,\nand the separate reply-form reverse/front on 556–557. Those final forms and actual\narticle assembly remain pending. The earlier reader-card questions and next-issue\nteaser do not supply this survey's body. Canonical pageless title and hierarchy stay\nunchanged; the printed title is 개발도구 / 개발환경 선호도 조사.\n\nAll 450 selected, independent and fresh-process files match. All 115 pixel-exact\ncrops, 109 OCR outcomes, 109 blocks, 396 serialized rows and 4,541 typed ranges\nvalidate. Six original visuals retain the vertical title/sponsors and five complete\nquestionnaire layouts; none has a printed caption. All 113 question positions have\nsource-linked prompts and ordinals. Fifty-six option groups retain 296 alternatives;\n567 circled-number occurrences include 270 choices across thirty nine-point rating\nrows and one repeated branch-choice marker. Three reference panels retain 39 tools,\nsix vendor criteria and ten product criteria. Twenty-six serialized tables preserve\n407 cells, including shared rank labels and sparse physical rows. No answers are inferred.\n\nThe manufacturer subsection heading precedes question54. Eight shared-choice links,\nprinted question cross-references, the72→78 branch, nine free-response prompts,\nthree respondent gifts and six-volume manual-set detail retain their source roles.\nPrize children0100–0102 remain unclassified. Printed interval overlaps, missing\nopening parenthesis in tool37, combined21.22./31,32 labels, differing option counts\nand source녀 remain. A small stroke between20 and세트 in the first prize line is\nexplicitly uncertain; no glyph identity or original character count is invented.\nVertical title/sponsors serialize as two logical lines; original typography remains\nin the image. Full proofreading, human acceptance and original bytes remain unverified.\n\nThree pre-OCR maps retain108 crop adjustments and one ordering-only refinement.\nAll109 drafts were read before one prospectively timed source pass; zero retries,\nwithin-pass revisions after serialization, post-pass changes or post-OCR crop changes.\nTwo mapping-helper failures and one export-parser failure are retained. The export\nparser was adjusted to accept printed31,32 without a following period; source text,\nOCR and crop pixels were unchanged. All54 invalid cases reject. All99,489 earlier\nJuly files, thirty core modules,28 frozen assembly adapters, three local OCR adapters\nand130 classification pins remain exact. The fresh214-test batch124 baseline is reused.\nOne canonical task, six mapped pages and ten outside lookup pages remain within limits.\n\nTotals are50 readable articles, one partial, sixteen groups,32 references and four\nunresolved identities across126 completed checkpoints. Whole July remains incomplete.\n\nNext: restore only survey0099 reply-form pages556–557 as a separate immutable native,\nthen actually assemble550–557 while preserving every question/choice/reference range,\noriginal visual and source uncertainty. Reuse successful opening OCR and the closed\nsource pass. Classify prize children0100–0102 in bounded reference checkpoints after\nassembly, then resolve video appendix0103. Whole560-page accounting, cover verification\nand standalone JSON/assets closeout remain required. Preserve130 classification pins,\nall28 frozen assembly adapters from batch124 and three local OCR adapters from batch87.\nIncomplete donated TOCs remain an explicit verification limit. No inferred CD3\nassociation, reader rebuild or deployment.\n"
+        "July batch 126 preserves developer survey 0099 opening PDF 550–555 as an immutable\npartial native. Direct source review establishes the full extent as 550–557: an\nintroduction/prize page, five questionnaire pages with independent folios 1–5,\nand the separate reply-form reverse/front on 556–557. Those final forms and actual\narticle assembly remain pending. The earlier reader-card questions and next-issue\nteaser do not supply this survey's body. Canonical pageless title and hierarchy stay\nunchanged; the printed title is 개발도구 / 개발환경 선호도 조사.\n\nAll 450 selected, independent and fresh-process files match. All 115 pixel-exact\ncrops, 109 OCR outcomes, 109 blocks, 396 serialized rows and 4,541 typed ranges\nvalidate. Six original visuals retain the vertical title/sponsors and five complete\nquestionnaire layouts; none has a printed caption. All 113 question positions have\nsource-linked prompts and ordinals. Fifty-six option groups retain 296 alternatives;\n567 circled-number occurrences include 270 choices across thirty nine-point rating\nrows and one repeated branch-choice marker. Three reference panels retain 39 tools,\nsix vendor criteria and ten product criteria. Twenty-six serialized tables preserve\n407 cells, including shared rank labels and sparse physical rows. No answers are inferred.\n\nThe manufacturer subsection heading precedes question54. Eight shared-choice links,\nprinted question cross-references, the72→78 branch, nine free-response prompts,\nthree respondent gifts and six-volume manual-set detail retain their source roles.\nPrize children0100–0102 remain unclassified. Printed interval overlaps, missing\nopening parenthesis in tool37, combined21.22./31,32 labels, differing option counts\nand source녀 remain. A small stroke between20 and세트 in the first prize line is\nexplicitly uncertain; no glyph identity or original character count is invented.\nVertical title/sponsors serialize as two logical lines; original typography remains\nin the image. Full proofreading, human acceptance and original bytes remain unverified.\n\nThree pre-OCR maps retain108 crop adjustments and one ordering-only refinement.\nAll109 drafts were read before one prospectively timed source pass; zero retries,\nwithin-pass revisions after serialization, post-pass changes or post-OCR crop changes.\nTwo mapping-helper failures and one export-parser failure are retained. The export\nparser was adjusted to accept printed31,32 without a following period; source text,\nOCR and crop pixels were unchanged. All54 invalid cases reject. All99,489 earlier\nJuly files, thirty core modules,28 frozen assembly adapters, three local OCR adapters\nand130 classification pins remain exact. The fresh214-test batch124 baseline is reused.\nOne canonical task, six mapped pages and ten outside lookup pages remain within limits.\n\nTotals are50 readable articles, one partial, sixteen groups,32 references and four\nunresolved identities across126 completed checkpoints. Whole July remains incomplete.\n\nNext: restore only survey0099 reply-form pages556–557 as a separate immutable native,\nthen actually assemble550–557 while preserving every question/choice/reference range,\noriginal visual and source uncertainty. Reuse successful opening OCR and the closed\nsource pass. Classify prize children0100–0102 in bounded reference checkpoints after\nassembly, then resolve video appendix0103. Whole560-page accounting, cover verification\nand standalone JSON/assets closeout remain required. Preserve130 classification pins,\nall28 frozen assembly adapters from batch124 and three local OCR adapters from batch87.\nIncomplete donated TOCs remain an explicit verification limit. No inferred CD3\nassociation, reader rebuild or deployment.\n",
+        "July batch 127 preserves developer survey 0099 reply-form reverse/front on PDF\n556–557 as a second immutable native. All eight source pages550–557 are now\npreserved across two natives; actual article assembly remains a separate checkpoint.\nBoth final pages have no printed folio. The following Haitai RISCstation\nadvertisement558 remains outside the survey. Canonical identity and hierarchy stay\nunchanged; prize children0100–0102 remain unclassified.\n\nAll502 selected, independent and fresh-process files match. All125 pixel-exact\ncrops,123 OCR outcomes,123 blocks,178 nonempty reading rows and2,005 current typed\nranges validate. Two complete original page images retain the mixed-orientation\npostal reverse and the23-row response grid, including its dotted cut line. There\nare113 numbered blank response fields, with227 earlier-native ranges retaining\nthe opening title and all113 question ordinals/prompts in their original namespace.\nNo answers, participant, ranks or ratings are inferred. Uneven field widths and\nall labels remain, including31's separate instruction cell,73's unusual header\nposition and88's absent direct-entry instruction. Phone/FAX parentheses and separator\nstrokes remain punctuation, with no inferred blank-character count.\n\nThe reverse retains its two introduction paragraphs, sponsors, magazine brand,\nsix-line postal permit, two blank sender lines and six empty sender postcode boxes.\nThe historical Microsoft recipient address,11th floor and boxed135-090 postcode\nremain distinct from respondent fields. No current postal validity is asserted.\nA small raised circular mark after Microsoft is explicitly unresolved; its interior\nsymbol and original character count are not invented. Four lossless source-only\nquarter-turn details support reading sideways text; original pages and OCR inputs\nremain unrotated. Full proofreading, human acceptance and source bytes remain\nunverified.\n\nTwo pre-OCR maps retain four crop adjustments. All123 drafts were read before\none prospectively started source pass, resumed without restarting; zero OCR retries,\nsource revisions after first serialization, post-pass changes or post-OCR crop changes.\nOne retained metadata revision restricts the main-prose index to the two introduction\nparagraphs; the first exact export remains saved, with text/OCR/images unchanged.\nOne retained verifier failure corrects an overly strict touching-boundary assumption:\nindependently measured fields36→37 retain a thin rule-width gap. No source geometry\nwas changed. All55 invalid cases reject; all100,976 earlier July files, thirty core\nmodules,28 frozen assembly adapters, three local OCR adapters and130 classification\npins remain exact. The fresh214-test batch124 baseline is reused. One canonical\ntask, two mapped pages and three outside lookups remain within the checkpoint limits.\n\nTotals remain50 readable articles, one partial, sixteen groups,32 references and\nfour unresolved identities across127 completed checkpoints. Whole July remains\nincomplete.\n\nNext: actually assemble survey0099 PDF550–557 from the exact batch126 opening\nand selected batch127-r02 reply-form natives. Preserve every question, choice,\nreference, blank form field, postal role, original visual and source uncertainty;\nresolve creation-time pending flags externally without changing either native.\nNo prose join, new OCR or source correction is needed. Classify prize children\n0100–0102 after assembly, then resolve video appendix0103. Whole560-page accounting,\ncover verification and standalone JSON/assets closeout remain required. Preserve\n130 classification pins,28 frozen assembly adapters from batch124 and three local\nOCR adapters from batch87. Incomplete donated TOCs remain an explicit verification\nlimit. No inferred CD3 association, reader rebuild or deployment.\n"
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-126-r01/survey-a",
+        "directory": "archive/pdf/1995-07/packages/batch-127-r02/survey-b",
         "article_id": "scan-maso-1995-07-toc-0099",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-126-r01/survey-a/manifest.json",
-          "sha256": "cd6af549205893f8f0ff815a05351dc90d2b8ccbbb14563af200d9b65682cf1c",
-          "bytes": 74247
+          "path": "archive/pdf/1995-07/packages/batch-127-r02/survey-b/manifest.json",
+          "sha256": "8314dd97c3cffba87bbf5fe2b9c14453f658cbb3060eb64077171ae90c13fad4",
+          "bytes": 84430
         },
+        "immutable_native_segments": [
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-126-r01/survey-a",
+            "article_id": "scan-maso-1995-07-toc-0099",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-126-r01/survey-a/manifest.json",
+              "sha256": "cd6af549205893f8f0ff815a05351dc90d2b8ccbbb14563af200d9b65682cf1c",
+              "bytes": 74247
+            },
+            "coverage": {
+              "pdf_pages": [
+                550,
+                551,
+                552,
+                553,
+                554,
+                555
+              ],
+              "printed_pages": [
+                null,
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "regions": 115,
+              "blocks": 109,
+              "figures": 6,
+              "deferred_pdf_pages": [
+                556,
+                557
+              ]
+            },
+            "body_pages_complete": false,
+            "prose_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 550,
+            "actual_end_pdf_page": 557,
+            "full_extent_verified": true,
+            "remaining_source_pages": [
+              556,
+              557
+            ],
+            "segment_scope": {
+              "full_pdf_pages": [
+                550,
+                551,
+                552,
+                553,
+                554,
+                555,
+                556,
+                557
+              ],
+              "current_pdf_pages": [
+                550,
+                551,
+                552,
+                553,
+                554,
+                555
+              ],
+              "current_printed_pages": [
+                null,
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": false,
+              "actual_start_pdf_page": 550,
+              "observed_ending_pdf_page": 557,
+              "remaining_source_pages": [
+                556,
+                557
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-126/source-reviewed.json",
+                "sha256": "682ec987402f18cc78afb80465c449dd50d1923ef34386f6b41fb8669d287c6f",
+                "bytes": 3513
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-126/validation.json",
+              "sha256": "dfa03819315247b2b2463eadf715ca98bceca9603b0f96921ef299b9f50d2d46",
+              "bytes": 3233
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-126/reproduction.json",
+              "sha256": "dad3fa5f4fb8ec3ae521f9e560bd103903e2e5c5d9bb9ba8ab0df01cf7228660",
+              "bytes": 84758
+            },
+            "checkpoint": "batch-126"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-127-r02/survey-b",
+            "article_id": "scan-maso-1995-07-toc-0099",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-127-r02/survey-b/manifest.json",
+              "sha256": "8314dd97c3cffba87bbf5fe2b9c14453f658cbb3060eb64077171ae90c13fad4",
+              "bytes": 84430
+            },
+            "coverage": {
+              "pdf_pages": [
+                556,
+                557
+              ],
+              "printed_pages": [
+                null,
+                null
+              ],
+              "regions": 125,
+              "blocks": 123,
+              "figures": 2,
+              "deferred_pdf_pages": []
+            },
+            "body_pages_complete": false,
+            "prose_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 550,
+            "actual_end_pdf_page": 557,
+            "full_extent_verified": true,
+            "remaining_source_pages": [],
+            "segment_scope": {
+              "full_pdf_pages": [
+                550,
+                551,
+                552,
+                553,
+                554,
+                555,
+                556,
+                557
+              ],
+              "current_pdf_pages": [
+                556,
+                557
+              ],
+              "current_printed_pages": [
+                null,
+                null
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": false,
+              "actual_start_pdf_page": 550,
+              "observed_ending_pdf_page": 557,
+              "remaining_source_pages": [],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-127/source-reviewed.json",
+                "sha256": "c5c6b45e9992c2c73ab91a3e7562eb66f399f9114659b459401eca55239c90e2",
+                "bytes": 1089
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-127/validation.json",
+              "sha256": "b2d2586531eb4d9fa8dcc6c6c705758a2263dfd0de12dcbd80b835250ecf559f",
+              "bytes": 3292
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-127/reproduction.json",
+              "sha256": "8d3b96542cea11b586b469d68d1c7554a19bc865bfc3261c53654897ea5c222a",
+              "bytes": 95882
+            },
+            "checkpoint": "batch-127"
+          }
+        ],
         "coverage": {
           "pdf_pages": [
-            550,
-            551,
-            552,
-            553,
-            554,
-            555
-          ],
-          "printed_pages": [
-            null,
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
-          "regions": 115,
-          "blocks": 109,
-          "figures": 6,
-          "deferred_pdf_pages": [
-            556,
-            557
-          ]
-        },
-        "body_pages_complete": false,
-        "prose_complete": false,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "actual_start_pdf_page": 550,
-        "actual_end_pdf_page": 557,
-        "full_extent_verified": true,
-        "remaining_source_pages": [
-          556,
-          557
-        ],
-        "segment_scope": {
-          "full_pdf_pages": [
             550,
             551,
             552,
@@ -12626,51 +12770,41 @@
             556,
             557
           ],
-          "current_pdf_pages": [
-            550,
-            551,
-            552,
-            553,
-            554,
-            555
-          ],
-          "current_printed_pages": [
+          "printed_pages": [
             null,
             "1",
             "2",
             "3",
             "4",
-            "5"
+            "5",
+            null,
+            null
           ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": false,
-          "actual_start_pdf_page": 550,
-          "observed_ending_pdf_page": 557,
-          "remaining_source_pages": [
-            556,
-            557
-          ],
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "remaining_extent_unverified": false,
-          "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-126/source-reviewed.json",
-            "sha256": "682ec987402f18cc78afb80465c449dd50d1923ef34386f6b41fb8669d287c6f",
-            "bytes": 3513
-          }
+          "regions": 240,
+          "blocks": 232,
+          "figures": 8,
+          "deferred_pdf_pages": []
         },
+        "all_available_native_pages_preserved": true,
+        "body_pages_complete": false,
+        "prose_complete": false,
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "actual_start_pdf_page": 550,
+        "actual_end_pdf_page": 557,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-126/validation.json",
-          "sha256": "dfa03819315247b2b2463eadf715ca98bceca9603b0f96921ef299b9f50d2d46",
-          "bytes": 3233
+          "path": "archive/pdf/1995-07/restoration/batch-127/validation.json",
+          "sha256": "b2d2586531eb4d9fa8dcc6c6c705758a2263dfd0de12dcbd80b835250ecf559f",
+          "bytes": 3292
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-126/reproduction.json",
-          "sha256": "dad3fa5f4fb8ec3ae521f9e560bd103903e2e5c5d9bb9ba8ab0df01cf7228660",
-          "bytes": 84758
+          "path": "archive/pdf/1995-07/restoration/batch-127/reproduction.json",
+          "sha256": "8d3b96542cea11b586b469d68d1c7554a19bc865bfc3261c53654897ea5c222a",
+          "bytes": 95882
         },
-        "checkpoint": "batch-126"
+        "checkpoint": "batch-127"
       }
     },
     {
@@ -17618,6 +17752,45 @@
         "sha256": "dad3fa5f4fb8ec3ae521f9e560bd103903e2e5c5d9bb9ba8ab0df01cf7228660",
         "bytes": 84758
       }
+    },
+    {
+      "name": "1995-07-batch-127",
+      "status": "complete",
+      "completed_at": "2026-11-07T22:26:13.052866+00:00",
+      "goal": "Preserve final survey0099 reply forms556–557 with113 blank fields;actual assembly remains separate.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0099"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        556,
+        557
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        550,
+        555,
+        558
+      ],
+      "recognition_invocations": 123,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 1,
+      "retained_verification_helper_failures": 1,
+      "retained_metadata_revisions": 1,
+      "post_ocr_text_changes": 0,
+      "post_ocr_figure_repairs": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-127/validation.json",
+        "sha256": "b2d2586531eb4d9fa8dcc6c6c705758a2263dfd0de12dcbd80b835250ecf559f",
+        "bytes": 3292
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-127/reproduction.json",
+        "sha256": "8d3b96542cea11b586b469d68d1c7554a19bc865bfc3261c53654897ea5c222a",
+        "bytes": 95882
+      }
     }
   ],
   "totals": {
@@ -17633,7 +17806,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: restore only survey0099 reply-form pages556–557 as a separate immutable native,\nthen actually assemble550–557 while preserving every question/choice/reference range,\noriginal visual and source uncertainty. Reuse successful opening OCR and the closed\nsource pass. Classify prize children0100–0102 in bounded reference checkpoints after\nassembly, then resolve video appendix0103. Whole560-page accounting, cover verification\nand standalone JSON/assets closeout remain required. Preserve130 classification pins,\nall28 frozen assembly adapters from batch124 and three local OCR adapters from batch87.\nIncomplete donated TOCs remain an explicit verification limit. No inferred CD3\nassociation, reader rebuild or deployment.",
+  "next_checkpoint": "Next: actually assemble survey0099 PDF550–557 from the exact batch126 opening\nand selected batch127-r02 reply-form natives. Preserve every question, choice,\nreference, blank form field, postal role, original visual and source uncertainty;\nresolve creation-time pending flags externally without changing either native.\nNo prose join, new OCR or source correction is needed. Classify prize children\n0100–0102 after assembly, then resolve video appendix0103. Whole560-page accounting,\ncover verification and standalone JSON/assets closeout remain required. Preserve\n130 classification pins,28 frozen assembly adapters from batch124 and three local\nOCR adapters from batch87. Incomplete donated TOCs remain an explicit verification\nlimit. No inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
