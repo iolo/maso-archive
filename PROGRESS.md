@@ -10308,3 +10308,52 @@ from PDF 203 / printed 192 and continue remaining July identities, library 0070/
 closeout. Preserve all 114 classification pins, 27 frozen assembly adapters from batch
 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain an
 explicit verification limit. No automatic CD3 association, reader rebuild or deployment.
+
+July batch 112 finalizes CD child 0087, 영어 학습 타이틀, 마술가게, as a non-owning
+reference into complete CD bundle 0084, and reconciles that family. Magic occupies
+the upper part of PDF 201 / printed 190; Inteliseek begins below the divider.
+Direct review of PDF 199–203 confirms all seven review contexts and the independent
+hardware opening on 203. Canonical identities, hierarchy and absent canonical
+folios remain unchanged; the immutable parent remains the sole body owner.
+
+Magic retains sixteen regions, thirteen blocks, five main paragraphs, one original
+screenshot without a caption, four product fields, two highlights and 46 physical
+rows. Its two paragraph joins and two same-page boundaries preserve source bytes.
+One within-region word wrap and two column word continuations remain explicit.
+Two source notes and two candidate records retain selected 나눠 and 나눠져 with
+alternatives 나뉘 and 나뉘져. Original encoded bytes and product claims remain
+unverified. No new mapping, rendering, OCR or source correction was performed.
+
+All four classification files reproduce independently and in a fresh process.
+All 142 new child typed ranges, 541 ranges across the three final references and
+88 parent-owned review ranges validate. The complete disjoint family partition
+covers 115 regions, 87 blocks, thirteen original figures, seven captions, 28 main
+paragraphs, 28 product fields, eight highlights, 334 physical rows, twelve joins
+and fifteen boundaries. Library and CD banners remain parent-only. Inteliseek,
+Edison, TOEIC and Beauty remain four unlisted parent-owned reviews; no canonical
+identities are invented. The ending mark stays with Beauty on PDF 202.
+
+All 71 invalid cases reject, including duplicate ownership, omitted or overlapping
+regions, lost captions/highlights/product fields, changed rows or glyph evidence,
+invented unlisted references and premature ancestor/issue completion. All 93,361
+earlier July files, 429 complete parent files, thirty core modules, 27 frozen
+assembly adapters, three local OCR adapters and 114 prior classification pins
+remain exact. The unchanged fresh 214-test batch 101 baseline is reused. Three
+new pins bring required classification evidence to 117. External status finalizes
+0085–0087 and CD 0084 while retaining immutable creation-time pending flags.
+Library 0070 and forum 0059 reconciliation remain incomplete.
+
+Two canonical tasks, zero mapped pages and five source lookup pages stay within
+checkpoint limits. Totals are 42 readable articles, zero partials, fifteen groups,
+thirty references and sixteen unresolved identities across 112 completed
+checkpoints. Full proofreading, human acceptance and original encoded bytes remain
+unverified. Whole July restoration is still in progress.
+
+Next: verify hardware 0088 from PDF 203 / printed 192. Establish its complete source
+extent and body ownership before mapping at most six pages. Source order places
+RISC child 0090 before HP child 0089; preserve both canonical identities and source
+order. Then continue remaining July identities, library 0070/forum 0059 family
+reconciliation, 560-page accounting, cover verification and standalone JSON/assets
+closeout. Preserve all 117 classification pins, 27 frozen assembly adapters from
+batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain
+an explicit verification limit. No automatic CD3 association, reader rebuild or deployment.

@@ -11206,7 +11206,8 @@
         "All 429 selected, independent and fresh-process files match byte for byte. The complete native retains 115 pixel-exact crops, 102 original OCR outcomes, 87 text blocks, 334 physical reading rows and 1,869 typed range occurrences. Twenty-eight main prose paragraphs and twelve joins across fifteen boundaries validate. Six within-region word wraps and seven word continuations across columns retain physical source boundaries. There are no incoming, outgoing or cross-page prose joins.",
         "All 102 raw drafts preceded one prospectively timed source correction pass. Ten complete contact sheets and six additional full-size text crops were reviewed. Two retained pre-OCR maps document 103 crop adjustments; zero OCR retries, post-OCR crop changes, helper failures or source refinements after serialization. Twelve literal source notes and five candidate records preserve spelling, wordmark representations, prices and historical claims. The compact vowels selected as 나눠 and 나눠져 retain alternatives 나뉘 and 나뉘져 for manual review. The historical araea wordmark uses ᄒᆞᆫ글, and the three title strokes use Latin III; original encoded forms remain unverified. The printed particle 주인공은 and numeric wrap 80 / 0MB remain unchanged. Original scans remain authoritative.",
         "All 52 invalid semantic cases reject, including lost review content, swapped product fields, omitted environment rows, incorrect or invented captions, premature child classification, reconstructed screenshot pixels, lost highlights or wraps, and an ending mark mislabeled as a screenshot. All 91,917 earlier July files, 837 saved-stage files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder and 111 classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.",
-        "One canonical task, four mapped pages and two outside lookup pages (198 and 203) stay within checkpoint limits. Only 0084 advances to readable/sample-reviewed. Totals are 42 readable articles, zero partials, fifteen groups, twenty-seven references and nineteen unresolved identities across 110 completed checkpoints. CD child classification, library 0070, forum 0059 and whole July restoration remain incomplete."
+        "One canonical task, four mapped pages and two outside lookup pages (198 and 203) stay within checkpoint limits. Only 0084 advances to readable/sample-reviewed. Totals are 42 readable articles, zero partials, fifteen groups, twenty-seven references and nineteen unresolved identities across 110 completed checkpoints. CD child classification, library 0070, forum 0059 and whole July restoration remain incomplete.",
+        "July batch 112 finalizes CD child 0087, 영어 학습 타이틀, 마술가게, as a non-owning\nreference into complete CD bundle 0084, and reconciles that family. Magic occupies\nthe upper part of PDF 201 / printed 190; Inteliseek begins below the divider.\nDirect review of PDF 199–203 confirms all seven review contexts and the independent\nhardware opening on 203. Canonical identities, hierarchy and absent canonical\nfolios remain unchanged; the immutable parent remains the sole body owner.\n\nMagic retains sixteen regions, thirteen blocks, five main paragraphs, one original\nscreenshot without a caption, four product fields, two highlights and 46 physical\nrows. Its two paragraph joins and two same-page boundaries preserve source bytes.\nOne within-region word wrap and two column word continuations remain explicit.\nTwo source notes and two candidate records retain selected 나눠 and 나눠져 with\nalternatives 나뉘 and 나뉘져. Original encoded bytes and product claims remain\nunverified. No new mapping, rendering, OCR or source correction was performed.\n\nAll four classification files reproduce independently and in a fresh process.\nAll 142 new child typed ranges, 541 ranges across the three final references and\n88 parent-owned review ranges validate. The complete disjoint family partition\ncovers 115 regions, 87 blocks, thirteen original figures, seven captions, 28 main\nparagraphs, 28 product fields, eight highlights, 334 physical rows, twelve joins\nand fifteen boundaries. Library and CD banners remain parent-only. Inteliseek,\nEdison, TOEIC and Beauty remain four unlisted parent-owned reviews; no canonical\nidentities are invented. The ending mark stays with Beauty on PDF 202.\n\nAll 71 invalid cases reject, including duplicate ownership, omitted or overlapping\nregions, lost captions/highlights/product fields, changed rows or glyph evidence,\ninvented unlisted references and premature ancestor/issue completion. All 93,361\nearlier July files, 429 complete parent files, thirty core modules, 27 frozen\nassembly adapters, three local OCR adapters and 114 prior classification pins\nremain exact. The unchanged fresh 214-test batch 101 baseline is reused. Three\nnew pins bring required classification evidence to 117. External status finalizes\n0085–0087 and CD 0084 while retaining immutable creation-time pending flags.\nLibrary 0070 and forum 0059 reconciliation remain incomplete.\n\nTwo canonical tasks, zero mapped pages and five source lookup pages stay within\ncheckpoint limits. Totals are 42 readable articles, zero partials, fifteen groups,\nthirty references and sixteen unresolved identities across 112 completed\ncheckpoints. Full proofreading, human acceptance and original encoded bytes remain\nunverified. Whole July restoration is still in progress.\n\nNext: verify hardware 0088 from PDF 203 / printed 192. Establish its complete source\nextent and body ownership before mapping at most six pages. Source order places\nRISC child 0090 before HP child 0089; preserve both canonical identities and source\norder. Then continue remaining July identities, library 0070/forum 0059 family\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets\ncloseout. Preserve all 117 classification pins, 27 frozen assembly adapters from\nbatch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain\nan explicit verification limit. No automatic CD3 association, reader rebuild or deployment."
       ],
       "restoration": {
         "directory": "archive/pdf/1995-07/packages/batch-110-r01/cd",
@@ -11286,7 +11287,42 @@
           "sha256": "021088ae89fcb9f2c9e353892485e8937ab7f7e059db1289970c89aa079d0eb3",
           "bytes": 82093
         },
-        "checkpoint": "batch-110"
+        "checkpoint": "batch-110",
+        "family_reconciliation": {
+          "status": "complete",
+          "child_references_final": true,
+          "child_toc_entry_ids": [
+            "maso-1995-07-toc-0085",
+            "maso-1995-07-toc-0086",
+            "maso-1995-07-toc-0087"
+          ],
+          "body_owner_count": 1,
+          "nonowning_references": 3,
+          "notice_contexts": 7,
+          "uncatalogued_parent_owned_notices": [
+            "intel",
+            "edison",
+            "toeic",
+            "beauty"
+          ],
+          "partition": {
+            "path": "archive/pdf/1995-07/classifications/batch-112-r01/family-partition.json",
+            "sha256": "49daba60ab0c73a5147b50079ae0f1f9dc4208131f11cd249b8e937604d62544",
+            "bytes": 27944
+          },
+          "status_disposition": {
+            "path": "archive/pdf/1995-07/classifications/batch-112-r01/parent-status-dispositions.json",
+            "sha256": "3ca89a0e3ddc86ef6a355b76c19d01dd5b09685ab21810e5bdb9b946b2c8e5c0",
+            "bytes": 4155
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-112/validation.json",
+            "sha256": "b328b3c5aecff9c009a7c8d999222b32ef00f287ee40e39a9bb863469c1ba0df",
+            "bytes": 2293
+          },
+          "ancestor_families_complete": false,
+          "whole_issue_complete": false
+        }
       }
     },
     {
@@ -11393,12 +11429,51 @@
       "toc_entry_id": "maso-1995-07-toc-0087",
       "title": "영어 학습 타이틀, 마술가게",
       "parent_id": "maso-1995-07-toc-0084",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 112 finalizes CD child 0087, 영어 학습 타이틀, 마술가게, as a non-owning\nreference into complete CD bundle 0084, and reconciles that family. Magic occupies\nthe upper part of PDF 201 / printed 190; Inteliseek begins below the divider.\nDirect review of PDF 199–203 confirms all seven review contexts and the independent\nhardware opening on 203. Canonical identities, hierarchy and absent canonical\nfolios remain unchanged; the immutable parent remains the sole body owner.",
+        "Magic retains sixteen regions, thirteen blocks, five main paragraphs, one original\nscreenshot without a caption, four product fields, two highlights and 46 physical\nrows. Its two paragraph joins and two same-page boundaries preserve source bytes.\nOne within-region word wrap and two column word continuations remain explicit.\nTwo source notes and two candidate records retain selected 나눠 and 나눠져 with\nalternatives 나뉘 and 나뉘져. Original encoded bytes and product claims remain\nunverified. No new mapping, rendering, OCR or source correction was performed.",
+        "All four classification files reproduce independently and in a fresh process.\nAll 142 new child typed ranges, 541 ranges across the three final references and\n88 parent-owned review ranges validate. The complete disjoint family partition\ncovers 115 regions, 87 blocks, thirteen original figures, seven captions, 28 main\nparagraphs, 28 product fields, eight highlights, 334 physical rows, twelve joins\nand fifteen boundaries. Library and CD banners remain parent-only. Inteliseek,\nEdison, TOEIC and Beauty remain four unlisted parent-owned reviews; no canonical\nidentities are invented. The ending mark stays with Beauty on PDF 202.",
+        "All 71 invalid cases reject, including duplicate ownership, omitted or overlapping\nregions, lost captions/highlights/product fields, changed rows or glyph evidence,\ninvented unlisted references and premature ancestor/issue completion. All 93,361\nearlier July files, 429 complete parent files, thirty core modules, 27 frozen\nassembly adapters, three local OCR adapters and 114 prior classification pins\nremain exact. The unchanged fresh 214-test batch 101 baseline is reused. Three\nnew pins bring required classification evidence to 117. External status finalizes\n0085–0087 and CD 0084 while retaining immutable creation-time pending flags.\nLibrary 0070 and forum 0059 reconciliation remain incomplete.",
+        "Two canonical tasks, zero mapped pages and five source lookup pages stay within\ncheckpoint limits. Totals are 42 readable articles, zero partials, fifteen groups,\nthirty references and sixteen unresolved identities across 112 completed\ncheckpoints. Full proofreading, human acceptance and original encoded bytes remain\nunverified. Whole July restoration is still in progress."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0084",
+      "section": {
+        "anchor": "magic-title",
+        "anchor_scope": "complete-native",
+        "heading_pdf_page": 201
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0084",
+        "directory": "archive/pdf/1995-07/packages/batch-110-r01/cd",
+        "anchor": "magic-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 201,
+        "source_heading_printed_page": "190",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-native",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-110-r01/cd/manifest.json",
+          "sha256": "cd7e61b13a1d3917ff9ac45bd9d064f8101db94c84d9c5a31e150214eb4f8df2",
+          "bytes": 72183
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-112-r01/child-0087-anchor.json",
+          "sha256": "43a5281fa81eb23cf5417573933cf5272839e77882d1c31025f9521c4dab15d6",
+          "bytes": 83868
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-112/validation.json",
+          "sha256": "b328b3c5aecff9c009a7c8d999222b32ef00f287ee40e39a9bb863469c1ba0df",
+          "bytes": 2293
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0088",
@@ -15933,6 +16008,40 @@
         "sha256": "22f49194a03e107ec16d6b1d253a9747f6fff0142e48215e49d27bfcabc897f7",
         "bytes": 1121
       }
+    },
+    {
+      "name": "1995-07-batch-112",
+      "status": "complete",
+      "completed_at": "2026-11-07T18:31:44.631278+00:00",
+      "goal": "Finalize Magic0087 and reconcile complete CD0084 with all three final references.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0087",
+        "maso-1995-07-toc-0084"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        199,
+        200,
+        201,
+        202,
+        203
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-112/validation.json",
+        "sha256": "b328b3c5aecff9c009a7c8d999222b32ef00f287ee40e39a9bb863469c1ba0df",
+        "bytes": 2293
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-112/reproduction.json",
+        "sha256": "35687e18f0eb7d460e2b03f89205d4de43122b2bf78d48bb61660f58229d41a2",
+        "bytes": 1118
+      }
     }
   ],
   "totals": {
@@ -15940,15 +16049,15 @@
     "readable": 42,
     "partial": 0,
     "group_headings": 15,
-    "section_references": 29,
-    "unresolved": 17
+    "section_references": 30,
+    "unresolved": 16
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: classify CD child 0087, 영어 학습 타이틀, 마술가게, from PDF 201 / printed 190\nagainst the complete batch-110-r01/cd native, then reconcile the CD 0084 family as\na second bounded task. Preserve final 0085/0086 references and all seven review\ncontexts, keeping four unlisted reviews parent-owned. Then verify hardware 0088\nfrom PDF 203 / printed 192 and continue remaining July identities, library 0070/forum\n0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets\ncloseout. Preserve all 114 classification pins, 27 frozen assembly adapters from batch\n101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain an\nexplicit verification limit. No automatic CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify hardware 0088 from PDF 203 / printed 192. Establish its complete source\nextent and body ownership before mapping at most six pages. Source order places\nRISC child 0090 before HP child 0089; preserve both canonical identities and source\norder. Then continue remaining July identities, library 0070/forum 0059 family\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets\ncloseout. Preserve all 117 classification pins, 27 frozen assembly adapters from\nbatch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain\nan explicit verification limit. No automatic CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16519,6 +16628,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-111-r01/parent-status-dispositions.json",
       "sha256": "f9cac0271dba890881d2de3b6baacccac4dd238211560617b792ec8390b43845",
       "bytes": 3431
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-112-r01/child-0087-anchor.json",
+      "sha256": "43a5281fa81eb23cf5417573933cf5272839e77882d1c31025f9521c4dab15d6",
+      "bytes": 83868
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-112-r01/parent-status-dispositions.json",
+      "sha256": "3ca89a0e3ddc86ef6a355b76c19d01dd5b09685ab21810e5bdb9b946b2c8e5c0",
+      "bytes": 4155
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-112-r01/family-partition.json",
+      "sha256": "49daba60ab0c73a5147b50079ae0f1f9dc4208131f11cd249b8e937604d62544",
+      "bytes": 27944
     }
   ]
 }
