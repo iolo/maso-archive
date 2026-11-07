@@ -9657,3 +9657,52 @@ verification and standalone JSON/assets closeout remain required. Retain all93
 classification pins,27 frozen assembly adapters in batch101/frozen-adapters-complete.json
 andthree local OCR adapters in batch87. Incomplete donated TOCs remain an explicit
 verification limit. No automatic CD3 association,reader rebuild or deployment.
+
+July batch 102 finalizes Hangul 0072 and Geulteo 0073 as non-owning references into
+complete commercial-software parent 0071. Their source scopes are PDF 185–186 / printed
+174–175 and PDF 187–188 / printed 176–177, with final anchors a-hangul-title and
+a-geulteo-title. Canonical identities, titles, hierarchy, order, missing folios and bylines
+remain unchanged. No duplicate article bodies are created.
+
+The two references retain 73 source regions, 56 text blocks, 25 main paragraphs, nine
+section contexts and nine local continuation boundaries. Eight original screenshots retain
+eight literal captions, and two product boxes retain eight type, environment, price and
+contact fields. All 363 physical rows and 672 typed range occurrences validate against
+both the complete parent and the original native. The library/category banners and other
+product reviews are excluded from each child scope. The separate PC/TCP opening on PDF 189
+confirms Geulteo's ending on 188.
+
+Six literal source notes, fourteen glyph-candidate records covering nineteen occurrences,
+and three physical word wraps remain explicit. Historical Hangul/HanNet lettering stays
+separate from canonical modern spelling. Geulteo's manual-index limitation in prose and
+automatic-index caption remain distinct source claims. No byline is invented; product
+claims, original encoded bytes, full proofreading and human acceptance remain unverified.
+
+Four classification files match independent and fresh-process exports. All 42 invalid cases
+reject, including wrong ownership, omitted paragraphs/figures/captions/fields, swapped
+contacts, lost native ranges or glyph evidence, and premature child/family completion.
+An initial verifier comparison omitted the root product-field source_segment annotation;
+the failed verifier and log are retained, and only the checker was repaired. No source text
+or selected package changed. All 89,334 earlier July files, 592 parent files, thirty core
+modules, 27 frozen assembly adapters, three local OCR adapters and 93 prior classification
+pins remain exact. The unchanged fresh 214-test batch101 baseline is reused.
+
+An external status disposition finalizes only 0072/0073 while preserving immutable
+assembly-time pending flags. Children 0074–0076 and library/forum family reconciliation
+remain pending. Three new required classification pins bring the issue total to 96.
+Two canonical tasks, zero mapped pages, five source lookup pages and zero OCR/correction
+passes stay within limits. Totals are 39 readable articles, zero partials, fifteen groups,
+nineteen references and 30 unresolved identities across 102 completed checkpoints.
+Whole July restoration remains active.
+
+Next: finalize commercial child references 0074 and 0075 into article-commercial-r01.
+Verify finance software on PDF 191 / printed 180 at b-metacrick-title and WordChange on
+PDF 192 / printed 181 at b-wordchange-title, preserving their distinct review scopes,
+product fields, screenshots/captions, literal notes and physical wraps. Retain final
+0072/0073 references and leave PC/TCP 0076 pending until its own bounded classification.
+Then reconcile the complete commercial family, continue remaining library and July
+identities, reconcile library0070/forum0059, and complete 560-page accounting, cover
+verification and standalone JSON/assets closeout. Preserve all 96 classification pins,
+27 frozen assembly adapters from batch101 and three local OCR adapters from batch87.
+Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,
+reader rebuild or deployment.

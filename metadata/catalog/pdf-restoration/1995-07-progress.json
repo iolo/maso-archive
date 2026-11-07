@@ -10443,23 +10443,101 @@
       "toc_entry_id": "maso-1995-07-toc-0072",
       "title": "도스용 한글 3.0",
       "parent_id": "maso-1995-07-toc-0071",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 102 finalizes Hangul 0072 and Geulteo 0073 as non-owning references into\ncomplete commercial-software parent 0071. Their source scopes are PDF 185–186 / printed\n174–175 and PDF 187–188 / printed 176–177, with final anchors a-hangul-title and\na-geulteo-title. Canonical identities, titles, hierarchy, order, missing folios and bylines\nremain unchanged. No duplicate article bodies are created.",
+        "The two references retain 73 source regions, 56 text blocks, 25 main paragraphs, nine\nsection contexts and nine local continuation boundaries. Eight original screenshots retain\neight literal captions, and two product boxes retain eight type, environment, price and\ncontact fields. All 363 physical rows and 672 typed range occurrences validate against\nboth the complete parent and the original native. The library/category banners and other\nproduct reviews are excluded from each child scope. The separate PC/TCP opening on PDF 189\nconfirms Geulteo's ending on 188.",
+        "Six literal source notes, fourteen glyph-candidate records covering nineteen occurrences,\nand three physical word wraps remain explicit. Historical Hangul/HanNet lettering stays\nseparate from canonical modern spelling. Geulteo's manual-index limitation in prose and\nautomatic-index caption remain distinct source claims. No byline is invented; product\nclaims, original encoded bytes, full proofreading and human acceptance remain unverified.",
+        "Four classification files match independent and fresh-process exports. All 42 invalid cases\nreject, including wrong ownership, omitted paragraphs/figures/captions/fields, swapped\ncontacts, lost native ranges or glyph evidence, and premature child/family completion.\nAn initial verifier comparison omitted the root product-field source_segment annotation;\nthe failed verifier and log are retained, and only the checker was repaired. No source text\nor selected package changed. All 89,334 earlier July files, 592 parent files, thirty core\nmodules, 27 frozen assembly adapters, three local OCR adapters and 93 prior classification\npins remain exact. The unchanged fresh 214-test batch101 baseline is reused.",
+        "An external status disposition finalizes only 0072/0073 while preserving immutable\nassembly-time pending flags. Children 0074–0076 and library/forum family reconciliation\nremain pending. Three new required classification pins bring the issue total to 96.\nTwo canonical tasks, zero mapped pages, five source lookup pages and zero OCR/correction\npasses stay within limits. Totals are 39 readable articles, zero partials, fifteen groups,\nnineteen references and 30 unresolved identities across 102 completed checkpoints.\nWhole July restoration remains active."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+      "section": {
+        "anchor": "a-hangul-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 185
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+        "directory": "archive/pdf/1995-07/packages/article-commercial-r01",
+        "anchor": "a-hangul-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 185,
+        "source_heading_printed_page": "174",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-commercial-r01/manifest.json",
+          "sha256": "99b4f999e074e090aeffee03ac1b878abcbae23000a5af11fe78ef97a8e91f16",
+          "bytes": 105945
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-102-r01/child-0072-anchor.json",
+          "sha256": "c8530cb1123cc7c41c9a044251412d2a5eec2ba2cecd7a4e53d56d9fa6861c98",
+          "bytes": 446134
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-102/validation.json",
+          "sha256": "5f61d5b6341596729824426775b417b55c5fa9addd7128c525aeec196c60fdc9",
+          "bytes": 1786
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0073",
       "title": "CD-ROM 전자책 저작 도구, 글터 베이직 1.1",
       "parent_id": "maso-1995-07-toc-0071",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 102 finalizes Hangul 0072 and Geulteo 0073 as non-owning references into\ncomplete commercial-software parent 0071. Their source scopes are PDF 185–186 / printed\n174–175 and PDF 187–188 / printed 176–177, with final anchors a-hangul-title and\na-geulteo-title. Canonical identities, titles, hierarchy, order, missing folios and bylines\nremain unchanged. No duplicate article bodies are created.",
+        "The two references retain 73 source regions, 56 text blocks, 25 main paragraphs, nine\nsection contexts and nine local continuation boundaries. Eight original screenshots retain\neight literal captions, and two product boxes retain eight type, environment, price and\ncontact fields. All 363 physical rows and 672 typed range occurrences validate against\nboth the complete parent and the original native. The library/category banners and other\nproduct reviews are excluded from each child scope. The separate PC/TCP opening on PDF 189\nconfirms Geulteo's ending on 188.",
+        "Six literal source notes, fourteen glyph-candidate records covering nineteen occurrences,\nand three physical word wraps remain explicit. Historical Hangul/HanNet lettering stays\nseparate from canonical modern spelling. Geulteo's manual-index limitation in prose and\nautomatic-index caption remain distinct source claims. No byline is invented; product\nclaims, original encoded bytes, full proofreading and human acceptance remain unverified.",
+        "Four classification files match independent and fresh-process exports. All 42 invalid cases\nreject, including wrong ownership, omitted paragraphs/figures/captions/fields, swapped\ncontacts, lost native ranges or glyph evidence, and premature child/family completion.\nAn initial verifier comparison omitted the root product-field source_segment annotation;\nthe failed verifier and log are retained, and only the checker was repaired. No source text\nor selected package changed. All 89,334 earlier July files, 592 parent files, thirty core\nmodules, 27 frozen assembly adapters, three local OCR adapters and 93 prior classification\npins remain exact. The unchanged fresh 214-test batch101 baseline is reused.",
+        "An external status disposition finalizes only 0072/0073 while preserving immutable\nassembly-time pending flags. Children 0074–0076 and library/forum family reconciliation\nremain pending. Three new required classification pins bring the issue total to 96.\nTwo canonical tasks, zero mapped pages, five source lookup pages and zero OCR/correction\npasses stay within limits. Totals are 39 readable articles, zero partials, fifteen groups,\nnineteen references and 30 unresolved identities across 102 completed checkpoints.\nWhole July restoration remains active."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+      "section": {
+        "anchor": "a-geulteo-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 187
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+        "directory": "archive/pdf/1995-07/packages/article-commercial-r01",
+        "anchor": "a-geulteo-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 187,
+        "source_heading_printed_page": "176",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-commercial-r01/manifest.json",
+          "sha256": "99b4f999e074e090aeffee03ac1b878abcbae23000a5af11fe78ef97a8e91f16",
+          "bytes": 105945
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-102-r01/child-0073-anchor.json",
+          "sha256": "ac147a5acb90bc2b4cb54b7eef6ff58ff7d51b1b86c8b075b2165ea6e8f2503c",
+          "bytes": 404348
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-102/validation.json",
+          "sha256": "5f61d5b6341596729824426775b417b55c5fa9addd7128c525aeec196c60fdc9",
+          "bytes": 1786
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0074",
@@ -14795,6 +14873,40 @@
         "sha256": "be9f435419df02771d2ec6b316fb10bfa81e060ba188157d0945f9f6e2176039",
         "bytes": 108368
       }
+    },
+    {
+      "name": "1995-07-batch-102",
+      "status": "complete",
+      "completed_at": "2026-11-07T16:32:13.479000+00:00",
+      "goal": "Finalize Hangul0072 and Geulteo0073 as non-owning references into complete commercial0071.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0072",
+        "maso-1995-07-toc-0073"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-102/validation.json",
+        "sha256": "5f61d5b6341596729824426775b417b55c5fa9addd7128c525aeec196c60fdc9",
+        "bytes": 1786
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-102/reproduction.json",
+        "sha256": "00f7705f8c7609b3b6e345537c12308d74d891cbf0a7d08dbc03bae2f226b467",
+        "bytes": 1121
+      }
     }
   ],
   "totals": {
@@ -14802,15 +14914,15 @@
     "readable": 39,
     "partial": 0,
     "group_headings": 15,
-    "section_references": 17,
-    "unresolved": 32
+    "section_references": 19,
+    "unresolved": 30
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: finalize commercial child references 0072 and 0073 into the complete parent at\narchive/pdf/1995-07/packages/article-commercial-r01. Use source anchors a-hangul-title on\nPDF185 and a-geulteo-title on187; verify complete respective scopes185–186 and187–188,\nincluding each review's four screenshots/captions and four product fields. Keep\nlibrary/category banners and neighboring reviews outside each child scope; preserve\nhistorical Hangul lettering and canonical titles separately. Do not create duplicate child\nbodies or rerun successful OCR/source correction. Then resolve remaining children0074–0076\nin bounded checkpoints, preserving their distinct source order and contexts. Library0070 and\nforum0059 family reconciliation, remaining July identities,560-page accounting,cover\nverification and standalone JSON/assets closeout remain required. Retain all93\nclassification pins,27 frozen assembly adapters in batch101/frozen-adapters-complete.json\nandthree local OCR adapters in batch87. Incomplete donated TOCs remain an explicit\nverification limit. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: finalize commercial child references 0074 and 0075 into article-commercial-r01.\nVerify finance software on PDF 191 / printed 180 at b-metacrick-title and WordChange on\nPDF 192 / printed 181 at b-wordchange-title, preserving their distinct review scopes,\nproduct fields, screenshots/captions, literal notes and physical wraps. Retain final\n0072/0073 references and leave PC/TCP 0076 pending until its own bounded classification.\nThen reconcile the complete commercial family, continue remaining library and July\nidentities, reconcile library0070/forum0059, and complete 560-page accounting, cover\nverification and standalone JSON/assets closeout. Preserve all 96 classification pins,\n27 frozen assembly adapters from batch101 and three local OCR adapters from batch87.\nIncomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -15276,6 +15388,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-99-r01/evidence.json",
       "sha256": "5b82a71ead05d922943568805f5f99bbdd0eccf01c6098f11bde634330a74ac3",
       "bytes": 34785
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-102-r01/child-0072-anchor.json",
+      "sha256": "c8530cb1123cc7c41c9a044251412d2a5eec2ba2cecd7a4e53d56d9fa6861c98",
+      "bytes": 446134
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-102-r01/child-0073-anchor.json",
+      "sha256": "ac147a5acb90bc2b4cb54b7eef6ff58ff7d51b1b86c8b075b2165ea6e8f2503c",
+      "bytes": 404348
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-102-r01/parent-status-dispositions.json",
+      "sha256": "7fefb15b4e16b0612737241de90b332cdb7578779780d9b8d8831db667b8ff64",
+      "bytes": 3565
     }
   ]
 }
