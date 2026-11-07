@@ -2701,6 +2701,64 @@ accounting, cover and standalone JSON/assets closeout. Incomplete donated TOCs, 
 proofreading, human acceptance, original encoded bytes and execution remain explicit limits.
 No automatic CD3 association, reader rebuild or deployment.
 
+July batch 81 actually assembles complete VRML0063, 통신 : VRML과 함께 3차원 인터넷의 세계로,
+across PDF495–501 / printed486–492. Source author 최희창 and affiliation 삼성전자 멀티미디어
+연구소 네트워크 그룹 remain distinct from editor 정인성. Canonical parent0059 and all original
+identities remain unchanged. Both immutable natives are preserved exactly. No cross-native
+paragraph or word merge is performed: the main paragraph and independent sidebar on500 are
+complete, and501 begins a new WWWInline paragraph.
+
+Both natives independently regenerate to all 556 original files. Selected, independent and
+fresh-process assemblies match across 565 files. The complete article preserves 145 exact
+crops, 131 OCR outcomes, 117 text blocks, 430 reading rows, 431 regional fragments, 41 main
+prose paragraphs and five separate sidebar paragraphs. All 2,894 projected occurrences,
+including eight earlier-native ranges held in b but owned by a, retain their source context.
+The audit verifies 5,840 current ranges and 26,875 scalar metadata values. Original native
+metadata and historical scope declarations remain unchanged, with explicit complete-assembly
+dispositions.
+
+Nine screenshots retain seven main numbers and restarted sidebar numbers1/2. Two tables,
+two annotated format panels and the ending emblem bring the total to fourteen visuals and
+thirteen literal captions. The proposal table retains seven rows; the site table retains six
+entries, twelve semantic cells and ten physical rows. Five system requirements, four node
+properties, twelve SF types, four MF types and four node categories retain their contexts.
+Table, list and figure references resolve to their namespaced targets. Fifteen historical
+URLs and one mailing-list address remain literal and unvisited.
+
+Four code blocks retain39 physical rows with no invented blanks: node grammar, scene example,
+WWWAnchor defaults and WWWInline defaults. Both format panels preserve distinct field/type
+occurrences; repeated SFVec3f and zero defaults are not conflated. Twelve local join groups
+retain fourteen boundaries, including the zero-separator opening dropcap. The complete
+browser/authoring sidebar retains its three browser sections, three products, two screenshots
+and VRweb column continuation. Thirty-nine candidate records and seven source anomalies
+remain explicit; printed spelling, shape-description conflicts and physical URL/identifier
+wraps are not repaired. Historical forecasts, hardware claims, source encoding and execution
+remain unverified.
+
+All72 invalid cases reject, including altered ownership, repeated field/default substitution,
+wrong table/list references, sidebar renumbering, lost rows, invented joins and changed native
+inputs. All214 fresh PDF tests pass. All74,402 earlier July files, thirty core modules,
+twenty-one prior frozen assembly adapters, the batch72 OCR adapter, batch76 figure-repair
+builder and75 classification pins remain exact. The new frozen VRML adapter brings the total
+to twenty-two. One canonical task, zero newly mapped pages and five outside lookup pages
+remain within limits. No new OCR, rendering or source correction was performed.
+
+Totals:34 readable articles, zero partials, twelve groups, seventeen references and40 unresolved
+identities. Groups0059/0060,0051/0052 and forum0043 remain incomplete; no family completion is
+inferred from this article. PDF502 remains excluded advertising, and503 opens a distinct
+Windows95 article. Its source byline 김효준 differs from the canonical byline and remains a
+separate verification task.
+
+Next: review canonical operating-system heading0064 against source evidence, preserving its
+hierarchy and descendants. Then verify Windows95 article0065 from observed PDF503 / printed494,
+including the source/canonical byline discrepancy; establish its actual ending and continuity
+before mapping at most six pages. Preserve complete article-vrml-r01, both immutable VRML
+natives and all twenty-two frozen assembly adapters. Reconcile pending families separately.
+Continue remaining July identities, 560-page accounting, cover and standalone JSON/assets
+closeout. Incomplete donated TOCs, full proofreading, human acceptance, exact original encoded
+bytes and execution remain explicit limits. No automatic CD3 association, reader rebuild or
+deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
