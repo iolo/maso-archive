@@ -1812,6 +1812,43 @@ Groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accou
 cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,
 full proofreading, human acceptance, exact source bytes and execution remain explicit limits.
 
+July batch 66 actually assembles complete wordprocessor0055 across PDF 443–452 /
+printed 432–441. All 801 selected, independent and fresh-process files match,
+including all 792 independently regenerated native files. Both original packages
+and their creation-time metadata remain unchanged. The Draw / Caret처럼 identifier
+wrap joins once with its physical LF; all other native text and reading order remain.
+
+All 198 pixel-exact crops, 192 raw OCR outcomes, 171 source blocks and 170 current
+blocks validate. The article retains 754 reading rows, 755 regional fragments,
+71 prose paragraphs, six original visuals and one literal caption. All 4,586 projected
+native occurrences include six earlier-native context ranges assigned to their original
+owner; 9,291 current ranges and 42,090 scalar metadata values validate. Twenty-two code
+blocks retain 24 regions, 103 physical rows, one blank, eight prototypes and fourteen
+examples. Twenty join groups preserve 22 boundaries, including the original dropcap.
+
+The 21-row caret table preserves 42 cells and two headers; the three-row directory
+preserves six cells and two headers. Five schedule rows, three clipboard rules, six
+tab steps and five deletion steps retain their contexts. Source author 최권택 remains
+distinct from editor 박재곤. Forty-two source candidates and 52 printed anomalies remain
+explicit. No source spelling, program syntax, omitted code or historical glyph is repaired.
+
+All 67 invalid cases reject; 214 fresh PDF tests pass. All 56,981 earlier July files,
+thirty core modules, seventeen prior selected adapters and 72 classification pins remain
+exact. The new wordprocessor adapter is the eighteenth frozen adapter. One canonical task,
+zero newly mapped pages, seven outside lookups, zero new OCR and zero source-correction
+passes. No package revision was needed.
+
+Totals: 28 readable articles, zero partials, ten groups, seventeen references and
+48 unresolved identities. Groups 0051/0052 and ancestor 0043 remain incomplete.
+
+Next: verify0056, 파워빌더로 인사관리 프로그램을[2] : 인사관리 프로그램 반석 다지기,
+from its observed PDF 453 / printed 442 opening and source author 장태원. Establish
+its complete extent before mapping at most six source pages. Preserve complete article0055,
+its two immutable natives, all source uncertainty records and eighteen frozen adapters.
+Whole-issue 560-page accounting, cover and standalone JSON/assets closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes and
+execution remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
