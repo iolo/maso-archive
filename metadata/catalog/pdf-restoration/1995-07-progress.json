@@ -18109,6 +18109,56 @@
         "sha256": "16c025477230b5cbe57f8496c71014e7d88fc27cff1d0ffc8ba440e03098a1d4",
         "bytes": 1560
       }
+    },
+    {
+      "name": "1995-07-batch-132",
+      "status": "complete",
+      "completed_at": "2026-11-07T23:11:43.961249+00:00",
+      "goal": "Initialize560physical-page accounting with51selected owners,540original exclusions and14retained structural observations;all canonical outcomes unchanged.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0103"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "reused_structural_observation_pdf_pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        541
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "retained_helper_failures": 0,
+      "canonical_entries_changed": false,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-132/validation.json",
+        "sha256": "64b7252642940a58b357b5693c90fcf62a625f877537be4c2c264cfdf65aab2f",
+        "bytes": 3243
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-132/reproduction.json",
+        "sha256": "0cfb56654346b487706b7b077024ce8f8a26b5d606995f3c0db7a71b2330c3d0",
+        "bytes": 2160
+      },
+      "accounting_manifest": {
+        "path": "archive/pdf/1995-07/restoration/batch-132/accounting-r01/manifest.json",
+        "sha256": "1f287446c1e09755a29e51776778ff4c3695737607c489e31b3db33d81d7b7c9",
+        "bytes": 1130
+      }
     }
   ],
   "totals": {
@@ -18124,7 +18174,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: initialize the complete 560-page accounting ledger from the 51 selected\nbody owners, retained region-map exclusions and source-review records. Reuse\nthese fourteen structural observations, then inspect unaccounted pages in\nbatches of at most twenty. Finalize 0103's eligibility/media-gap outcome only\nfrom the resulting evidence; do not substitute the reader-card service or\ninvent a printed body. Cover verification and standalone JSON/assets\nexport, reproduction and issue closeout remain required. Preserve all 137\nclassification pins, 29 frozen assembly adapter files from batch 128 and\nthree local OCR adapters from batch 87. Incomplete donated TOCs, full\nproofreading, human acceptance and original encoded bytes remain explicit\nlimits. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: reconcile the indexed prior source reviews and all original map exclusions,\nretaining explicit evidence for actual page coverage and material classes. Review\nup to twenty unaccounted pages in the next bounded checkpoint; the initial\ncandidates are 2, 3 and 16–33, subject to qualifying retained evidence. Preserve\nall 560 slots and the existing article ownership. Finalize video 0103's eligibility\nand media-gap outcome after accounting, then verify the cover and build/reproduce\nthe standalone JSON/assets collection and issue closeout. Preserve all 138 required\nevidence pins, 29 assembly adapter files and three local OCR adapters. Incomplete\ndonated TOCs, full proofreading, human acceptance and original encoded bytes\nremain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -18810,6 +18860,72 @@
       "path": "archive/pdf/1995-07/classifications/batch-131-r01/video-scope.json",
       "sha256": "5c1f7ed2e01ea5c591e37eeab3c7b0f3a4dda1dab19141a75c5d92e3ebf7f6bc",
       "bytes": 1891
+    },
+    {
+      "path": "archive/pdf/1995-07/restoration/batch-132/accounting-r01/manifest.json",
+      "sha256": "1f287446c1e09755a29e51776778ff4c3695737607c489e31b3db33d81d7b7c9",
+      "bytes": 1130
     }
-  ]
+  ],
+  "source_page_accounting": {
+    "status": "in-progress",
+    "checkpoint": "batch-132",
+    "manifest": {
+      "path": "archive/pdf/1995-07/restoration/batch-132/accounting-r01/manifest.json",
+      "sha256": "1f287446c1e09755a29e51776778ff4c3695737607c489e31b3db33d81d7b7c9",
+      "bytes": 1130
+    },
+    "page_ledger": {
+      "path": "archive/pdf/1995-07/restoration/batch-132/accounting-r01/page-ledger.json",
+      "sha256": "efbd1d5fdc35fc58aa73ccecafdefdb51a33310a8f96d4efea3514098ea8f587",
+      "bytes": 1111873
+    },
+    "exclusion_dispositions": {
+      "path": "archive/pdf/1995-07/restoration/batch-132/accounting-r01/exclusion-dispositions.json",
+      "sha256": "23e4f2b9320e7aa5476d64763792fab988eae4634600c997221b4f06bb882159",
+      "bytes": 510580
+    },
+    "disposition": {
+      "path": "archive/pdf/1995-07/restoration/batch-132/accounting-r01/disposition.json",
+      "sha256": "b16ef42fa77dc9eaefb5b7c9b11f0cb0ac4692f556cc248d57c14c28bc6d008a",
+      "bytes": 3939
+    },
+    "validation": {
+      "path": "archive/pdf/1995-07/restoration/batch-132/validation.json",
+      "sha256": "64b7252642940a58b357b5693c90fcf62a625f877537be4c2c264cfdf65aab2f",
+      "bytes": 3243
+    },
+    "reproduction": {
+      "path": "archive/pdf/1995-07/restoration/batch-132/reproduction.json",
+      "sha256": "0cfb56654346b487706b7b077024ce8f8a26b5d606995f3c0db7a71b2330c3d0",
+      "bytes": 2160
+    },
+    "totals": {
+      "physical_pages": 560,
+      "selected_packages": 51,
+      "selected_body_pages": 324,
+      "owner_page_records": 324,
+      "shared_body_pages": [],
+      "primary_material_known": 337,
+      "primary_pending": 223,
+      "retained_structural_observations": 14,
+      "whole_page_accounting_complete": 13,
+      "whole_page_accounting_pending": 547,
+      "original_map_exclusions": 540,
+      "pages_with_original_exclusions": 308,
+      "exclusion_dispositions_pending": 540,
+      "prior_review_records": 360,
+      "prior_rendered_page_identities": 388,
+      "material_classes": {
+        "advertisement": 9,
+        "contents": 2,
+        "contents-and-imprint": 1,
+        "front-cover": 1,
+        "selected-canonical-body-portions": 324
+      }
+    },
+    "full_source_accounting_complete": false,
+    "source_wide_absence_claimed": false,
+    "canonical_entries_unchanged": true
+  }
 }

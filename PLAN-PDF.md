@@ -5645,6 +5645,57 @@ three local OCR adapters from batch 87. Incomplete donated TOCs, full
 proofreading, human acceptance and original encoded bytes remain explicit
 limits. No inferred CD3 association, reader rebuild or deployment.
 
+July batch 132 initializes the complete 560-slot source-page accounting ledger.
+The 51 readable canonical body owners occupy 324 distinct PDF pages with
+324 owner/page assignments and no shared body pages. Every selected source-map
+region, page geometry and original folio stays attached to its existing owner.
+All 540 original excluded regions across 308 pages are retained verbatim and
+remain pending explicit reconciliation; none is automatically labeled an
+advertisement, page furniture, blank space or another article's content.
+
+Fourteen structural observations from batch 131 are reused without new page
+lookups. Thirteen non-body pages are fully accounted at this stage: cover 1,
+advertisement 4, contents 5–6, contents/imprint 7 and advertisements 8–15.
+Reader page 541 retains both its original article ownership and the separate
+structural observation; that observation does not silently complete its excluded
+regions. Primary material is known on 337 pages, with 223 primary classifications
+pending. Whole-page accounting is complete on thirteen pages and pending on
+547, including already restored article pages whose remaining areas still need
+explicit reconciliation. These are accounting limits, not newly missing bodies.
+
+A discovery index pins 360 earlier review, preflight, mapping and correction
+records and retained renders for 388 distinct pages. Every indexed record remains
+pending interpretation: planned extents, render existence and OCR completion
+are not treated as evidence of whole-page review. Prior observations can be
+reused after their actual scope and original source context are verified.
+
+Six accounting files reproduce independently and in a fresh process. Validation
+checks every physical slot, all selected owners/regions, original map exclusions,
+source geometry and recorded folios against the retained maps. All 26 invalid
+accounting models reject, including a dropped reader owner, invented video body,
+donor image counted as an extra PDF page, unknown areas assumed blank, automatic
+exclusion classification and premature whole-issue completion. All 104,204 earlier
+July files, thirty core modules, 29 frozen assembly adapter files, three local
+OCR adapters and 137 previous classification pins remain exact. The unchanged
+214-test batch 128 baseline is reused. No new source lookup, mapping, OCR, source
+correction or canonical outcome change occurred.
+
+All 103 canonical entries and their totals remain unchanged: 51 readable,
+zero partials, sixteen groups, 35 references and one unresolved video appendix.
+Checkpoint count is 132; the required evidence inventory now has 138 pins,
+including the accounting manifest. July's restoration goal remains active.
+
+Next: reconcile the indexed prior source reviews and all original map exclusions,
+retaining explicit evidence for actual page coverage and material classes. Review
+up to twenty unaccounted pages in the next bounded checkpoint; the initial
+candidates are 2, 3 and 16–33, subject to qualifying retained evidence. Preserve
+all 560 slots and the existing article ownership. Finalize video 0103's eligibility
+and media-gap outcome after accounting, then verify the cover and build/reproduce
+the standalone JSON/assets collection and issue closeout. Preserve all 138 required
+evidence pins, 29 assembly adapter files and three local OCR adapters. Incomplete
+donated TOCs, full proofreading, human acceptance and original encoded bytes
+remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
