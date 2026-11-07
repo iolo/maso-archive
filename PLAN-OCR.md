@@ -1592,7 +1592,8 @@ standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full
 proofreading,human acceptance,exact source bytes and historical execution remain
 explicit limits. No automatic CD3 association,reader rebuild or deployment.
 
-July batch 61 is in progress at a saved mapping/OCR stage. Direct source review
+July batch 61 first saved a mapping/OCR stage, before the native completion below.
+At that stage, direct source review
 verifies controls0054, Win32를 뛰어넘자[마지막회] : 컨트롤의 사용, by 김종원,
 across PDF431–441/printed420–430. Prose ends438; three numbered listings end441.
 The lower441 magazine-name notice and advertisements430/442 are excluded; the next
@@ -1601,12 +1602,40 @@ original visuals,four literal-caption regions and six code regions. Three retain
 pre-OCR maps record36 margin adjustments. All89 raw Tesseract outcomes are pinned
 and nonempty; six code regions use eng and83 others use kor+eng,with zero retries.
 All50,479 earlier July files,thirty core modules,sixteen frozen adapters and source
-pins remain exact. This is not a completed native or batch: no source correction
-pass or package export has started,and availability totals remain unchanged.
+pins remain exact. At that stage, no source correction
+pass or package export had started, and availability totals remained unchanged.
 Next: read all89 drafts,start one prospective source correction pass,validate the
 immutable opening native and close batch61. Reuse the saved OCR. Later437–441 and
 actual assembly remain separate. Whole-issue accounting,cover and standalone
 closeout remain pending. Evidence: `archive/pdf/1995-07/restoration/batch-61/ocr-stage-audit.json`.
+
+July batch 61 preserves controls0054, Win32를 뛰어넘자[마지막회] : 컨트롤의 사용, opening PDF 431–436 /
+printed 420–425 as an immutable partial native. Full extent 431–441 is verified: prose ends
+438 and three numbered listings end 441. The independent lower-441 magazine notice and
+advertisements 430/442 are excluded.
+
+All 371 selected, independent and fresh-process files match. All 95 pixel-exact crops, 89
+raw OCR outcomes, 78 text blocks, 379 reading rows, 380 regional fragments and 1,997 typed
+ranges validate. Six original visuals retain four literal captions. Three control lists
+retain 18 items, including the 432→433 continuation; six actions and three function roles
+remain. Five code blocks retain 17 physical rows and one blank. Ten join groups retain
+eleven boundaries, including the opening dropcap and 435→436 code continuation.
+
+Eight source candidates and printed SendMesage, WM_VSCRO, bracket-like delimiters and
+control-category claims remain explicit. Two historical Hangul glyph markers retain their
+source occurrences. Three pre-OCR maps preserve 36 margin adjustments. One prospectively
+timed source pass, zero retries, zero within-pass refinements and zero post-pass changes.
+All 47 invalid cases reject; all 50,479 earlier July files, thirty core modules, sixteen
+frozen adapters and 72 classification pins remain exact. The unchanged 214-test batch-60
+baseline is reused.
+
+Totals: 26 readable articles, one partial, ten groups, seventeen references and 49
+unresolved identities. Next: restore final controls pages 437–441, preserving the incoming
+WM_INITDIALOG paragraph, final prose/editor, four-file directory and three numbered
+listings; then actually assemble 431–441. Canonical groups 0051/0052 and ancestor 0043
+remain incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets
+closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact
+source bytes and execution remain explicit limits.
 
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
