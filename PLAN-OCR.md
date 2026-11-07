@@ -1117,6 +1117,48 @@ Whole July560-page accounting,cover and standalone closeout remain pending.
 Incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and
 historical execution remain explicit limits. No automatic CD3 association or reader build.
 
+July batch 49 preserves curves0049 opening PDF367–372/printed356–361 as an
+immutable partial native. Full source extent367–373 is directly verified;final373
+and actual assembly remain separate. Source title 곡선의 미래 기술,series 곡선
+프로그래밍 and author 임채성(한양대 전자계산학과 VIP 연구실) retain their roles.
+All410 selected,independent and fresh-process files match:110 pixel-exact crops,
+97 OCR outcomes,82 blocks,392 reading rows and2,866 typed occurrences. The separate
+intro dropcap joins once without a separator;393 regional fragments yield392 rows.
+Thirteen originals retain nine captions,five series entries,14 diagram labels and
+eight typography fields. Four screenshots preserve incidental UI lettering as images;
+complete searchable UI transcription is not claimed. Three searchable formula rows
+retain original stacked geometry through two source images,with explicit mathematical
+linearizations rather than inferred corrections.
+PostScript listing1 preserves70 physical rows across two columns:one blank gap,
+four English comments and65 command rows. Its original 한 outline output remains
+unchanged;no execution or replacement rendering is claimed. Twelve local join groups
+retain15 boundaries. Printed 조작형,[1,7,1],missing denominator(t),1/2 and later1/√2,
+362188 lineto,and the stacked fraction numerator6 versus input/inline5 remain literal.
+Five glyph candidates retain small superscript,vector-bracket and typography limits.
+The prose's forward figure5 reference remains unresolved within this opening native;
+reconcile final373 without inventing an absent source figure or renumbering it.
+All97 raw drafts were read before one prospective source pass. Three pre-OCR maps
+retain96 adjustments;two within-pass text refinements preserve the initial transcript.
+Zero OCR retries,post-pass changes or post-OCR crop changes. Two code regions use eng;
+95 text regions use kor+eng with OEM1/PSM6,one thread and3000-pixel long edge. The pass
+spans conversation turns,including a read-only status response;elapsed audit boundaries
+are not uninterrupted active-review time. A read-only inspection initially addressed
+a nonexistent map pdf_page key;the corrected inspection used existing region IDs and
+changed no source or OCR state.
+All47 invalid cases reject. All39,889 earlier July files,thirty core modules,thirteen
+frozen adapters and65 classification pins remain exact. The unchanged214-test batch48
+baseline is reused. One canonical task,six mapped pages,fourteen outside lookups;
+extra377–385 renders are retained unreviewed and unused within that conservative count.
+Totals: twenty-three readable articles,one partial,eight groups,seventeen references
+and54 unresolved identities. Original subgroup0046 and ancestor0044 evidence remains
+unchanged;this partial does not complete their families.
+Next: restore final curves PDF373/printed362,including the incoming conclusion,
+ending/editor,five references and independent OpenGL listing2;then actually assemble
+367–373. Reconcile the figure5 reference during final-page review. Whole July560-page
+accounting,cover and standalone closeout remain pending. Incomplete donated TOCs,
+full proofreading,human acceptance,exact source bytes,mathematical claims and historical
+execution remain explicit limits. No automatic CD3 association or reader build.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
