@@ -3972,6 +3972,56 @@ verification and standalone JSON/assets closeout. Preserve all 96 classification
 Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,
 reader rebuild or deployment.
 
+July batch 103 finalizes finance software 0074 and WordChange 0075 as non-owning references
+into complete commercial-software parent 0071. Their complete source scopes are PDF 191 /
+printed 180 and PDF 192 / printed 181, anchored at b-metacrick-title and b-wordchange-title.
+Canonical identities, titles, order, hierarchy, missing folios and bylines remain unchanged.
+No duplicate article bodies are created. Final Hangul 0072 and Geulteo 0073 references remain
+unchanged and are carried forward in the external parent status disposition.
+
+The two references retain 43 regions, 37 text blocks, fourteen main paragraphs, five section
+contexts, four original screenshots with four literal captions and eight product fields.
+All 164 physical rows and 324 typed range occurrences validate against both the assembled
+parent and original native. WordChange's two local column joins retain physical LF,
+including the split 번/역 with both source pieces. Four regional word wraps, ten literal
+source notes and three glyph-candidate occurrences remain explicit. Source wording,
+Roman numeral and apostrophe representations, historical contacts and the promised October
+revision are preserved without certifying claims or original encoded bytes.
+
+Four classification files match independent and fresh-process exports. All 46 invalid cases
+reject, including wrong owners/anchors, lost product fields or captions, swapped contacts,
+wrong native ranges, omitted column-wrap provenance, incorrect external boundary and lost
+prior references. Full-page reviews of 190–193 confirm the separate PC/TCP ending, both
+complete current reviews and the public-software opening on 193. That opening remains
+outside the commercial parent and is not restored in this checkpoint. No new mapping, OCR,
+source correction or verification repair occurs.
+
+All 89,372 earlier July files, 592 parent files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters and 96 prior classification pins remain exact. The
+unchanged fresh 214-test batch101 baseline is reused. Three new required pins bring the
+issue classification evidence total to 99. The external disposition finalizes only 0072–0075;
+PC/TCP 0076 and commercial/library/forum family reconciliation remain pending. Immutable
+creation-time flags remain historical evidence.
+
+Two canonical tasks, zero mapped pages and four source lookup pages stay within limits.
+Totals are 39 readable articles, zero partials, fifteen groups, twenty-one references and
+28 unresolved identities across 103 completed checkpoints. Whole July restoration remains
+active; full proofreading, human acceptance and original encoded bytes remain unverified.
+
+Next: finalize PC/TCP child 0076 at a-onnet-title across PDF 189–190 / printed 178–179,
+then reconcile commercial parent 0071 and its five final references as the second bounded
+canonical task. Preserve source order 0072, 0073, 0076, 0074, 0075 separately from canonical
+order 0072–0076. Prove a disjoint family partition of all 154 parent regions, 122 text blocks,
+sixteen screenshots/captions and twenty product fields, with library/category umbrella
+regions remaining parent-only. Retain final 0072–0075 sidecars and resolve frozen pending
+flags externally. Then verify public-software 0077 from its observed PDF 193 / printed 182
+opening before mapping its actual extent in bounded natives. Remaining library and July
+identities, library0070/forum0059 reconciliation, 560-page accounting, cover verification and
+standalone JSON/assets closeout remain required. Preserve all 99 classification pins,
+27 frozen assembly adapters from batch101 and three local OCR adapters from batch87.
+Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02

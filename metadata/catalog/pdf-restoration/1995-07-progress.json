@@ -10543,23 +10543,101 @@
       "toc_entry_id": "maso-1995-07-toc-0074",
       "title": "윈도우즈용 재정 관리 프로그램, 메타크릭 95 for Money",
       "parent_id": "maso-1995-07-toc-0071",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 103 finalizes finance software 0074 and WordChange 0075 as non-owning references\ninto complete commercial-software parent 0071. Their complete source scopes are PDF 191 /\nprinted 180 and PDF 192 / printed 181, anchored at b-metacrick-title and b-wordchange-title.\nCanonical identities, titles, order, hierarchy, missing folios and bylines remain unchanged.\nNo duplicate article bodies are created. Final Hangul 0072 and Geulteo 0073 references remain\nunchanged and are carried forward in the external parent status disposition.",
+        "The two references retain 43 regions, 37 text blocks, fourteen main paragraphs, five section\ncontexts, four original screenshots with four literal captions and eight product fields.\nAll 164 physical rows and 324 typed range occurrences validate against both the assembled\nparent and original native. WordChange's two local column joins retain physical LF,\nincluding the split 번/역 with both source pieces. Four regional word wraps, ten literal\nsource notes and three glyph-candidate occurrences remain explicit. Source wording,\nRoman numeral and apostrophe representations, historical contacts and the promised October\nrevision are preserved without certifying claims or original encoded bytes.",
+        "Four classification files match independent and fresh-process exports. All 46 invalid cases\nreject, including wrong owners/anchors, lost product fields or captions, swapped contacts,\nwrong native ranges, omitted column-wrap provenance, incorrect external boundary and lost\nprior references. Full-page reviews of 190–193 confirm the separate PC/TCP ending, both\ncomplete current reviews and the public-software opening on 193. That opening remains\noutside the commercial parent and is not restored in this checkpoint. No new mapping, OCR,\nsource correction or verification repair occurs.",
+        "All 89,372 earlier July files, 592 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 96 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Three new required pins bring the\nissue classification evidence total to 99. The external disposition finalizes only 0072–0075;\nPC/TCP 0076 and commercial/library/forum family reconciliation remain pending. Immutable\ncreation-time flags remain historical evidence.",
+        "Two canonical tasks, zero mapped pages and four source lookup pages stay within limits.\nTotals are 39 readable articles, zero partials, fifteen groups, twenty-one references and\n28 unresolved identities across 103 completed checkpoints. Whole July restoration remains\nactive; full proofreading, human acceptance and original encoded bytes remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+      "section": {
+        "anchor": "b-metacrick-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 191
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+        "directory": "archive/pdf/1995-07/packages/article-commercial-r01",
+        "anchor": "b-metacrick-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 191,
+        "source_heading_printed_page": "180",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-commercial-r01/manifest.json",
+          "sha256": "99b4f999e074e090aeffee03ac1b878abcbae23000a5af11fe78ef97a8e91f16",
+          "bytes": 105945
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-103-r01/child-0074-anchor.json",
+          "sha256": "f0eccba98896a7c5ad087eb0c8d3fe5c5a3396a13c416ff10a5c411d73108d3d",
+          "bytes": 197616
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-103/validation.json",
+          "sha256": "7cfc3d2f090395aedb8eb190312b7debd56f6230de92ecbb6963230dc4035f75",
+          "bytes": 1815
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0075",
       "title": "윈도우즈용 영어 번역 프로그램, 워드체인지 '95",
       "parent_id": "maso-1995-07-toc-0071",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 103 finalizes finance software 0074 and WordChange 0075 as non-owning references\ninto complete commercial-software parent 0071. Their complete source scopes are PDF 191 /\nprinted 180 and PDF 192 / printed 181, anchored at b-metacrick-title and b-wordchange-title.\nCanonical identities, titles, order, hierarchy, missing folios and bylines remain unchanged.\nNo duplicate article bodies are created. Final Hangul 0072 and Geulteo 0073 references remain\nunchanged and are carried forward in the external parent status disposition.",
+        "The two references retain 43 regions, 37 text blocks, fourteen main paragraphs, five section\ncontexts, four original screenshots with four literal captions and eight product fields.\nAll 164 physical rows and 324 typed range occurrences validate against both the assembled\nparent and original native. WordChange's two local column joins retain physical LF,\nincluding the split 번/역 with both source pieces. Four regional word wraps, ten literal\nsource notes and three glyph-candidate occurrences remain explicit. Source wording,\nRoman numeral and apostrophe representations, historical contacts and the promised October\nrevision are preserved without certifying claims or original encoded bytes.",
+        "Four classification files match independent and fresh-process exports. All 46 invalid cases\nreject, including wrong owners/anchors, lost product fields or captions, swapped contacts,\nwrong native ranges, omitted column-wrap provenance, incorrect external boundary and lost\nprior references. Full-page reviews of 190–193 confirm the separate PC/TCP ending, both\ncomplete current reviews and the public-software opening on 193. That opening remains\noutside the commercial parent and is not restored in this checkpoint. No new mapping, OCR,\nsource correction or verification repair occurs.",
+        "All 89,372 earlier July files, 592 parent files, thirty core modules, 27 frozen assembly\nadapters, three local OCR adapters and 96 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Three new required pins bring the\nissue classification evidence total to 99. The external disposition finalizes only 0072–0075;\nPC/TCP 0076 and commercial/library/forum family reconciliation remain pending. Immutable\ncreation-time flags remain historical evidence.",
+        "Two canonical tasks, zero mapped pages and four source lookup pages stay within limits.\nTotals are 39 readable articles, zero partials, fifteen groups, twenty-one references and\n28 unresolved identities across 103 completed checkpoints. Whole July restoration remains\nactive; full proofreading, human acceptance and original encoded bytes remain unverified."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+      "section": {
+        "anchor": "b-wordchange-title",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 192
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0071",
+        "directory": "archive/pdf/1995-07/packages/article-commercial-r01",
+        "anchor": "b-wordchange-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 192,
+        "source_heading_printed_page": "181",
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-commercial-r01/manifest.json",
+          "sha256": "99b4f999e074e090aeffee03ac1b878abcbae23000a5af11fe78ef97a8e91f16",
+          "bytes": 105945
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-103-r01/child-0075-anchor.json",
+          "sha256": "1ec0e56f3e7d85c26ff970386b48dd3a72d9566d6d878be99a664026620afb71",
+          "bytes": 213517
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-103/validation.json",
+          "sha256": "7cfc3d2f090395aedb8eb190312b7debd56f6230de92ecbb6963230dc4035f75",
+          "bytes": 1815
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0076",
@@ -14907,6 +14985,39 @@
         "sha256": "00f7705f8c7609b3b6e345537c12308d74d891cbf0a7d08dbc03bae2f226b467",
         "bytes": 1121
       }
+    },
+    {
+      "name": "1995-07-batch-103",
+      "status": "complete",
+      "completed_at": "2026-11-07T16:38:17.808268+00:00",
+      "goal": "Finalize finance software0074 and WordChange0075 as non-owning references into complete commercial0071.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0074",
+        "maso-1995-07-toc-0075"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 4,
+      "outside_lookup_pdf_pages": [
+        190,
+        191,
+        192,
+        193
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-103/validation.json",
+        "sha256": "7cfc3d2f090395aedb8eb190312b7debd56f6230de92ecbb6963230dc4035f75",
+        "bytes": 1815
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-103/reproduction.json",
+        "sha256": "51665181425a7722e98b256a886f8160dcb225a5419eb0a801b4ea38053f05f8",
+        "bytes": 1121
+      }
     }
   ],
   "totals": {
@@ -14914,15 +15025,15 @@
     "readable": 39,
     "partial": 0,
     "group_headings": 15,
-    "section_references": 19,
-    "unresolved": 30
+    "section_references": 21,
+    "unresolved": 28
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: finalize commercial child references 0074 and 0075 into article-commercial-r01.\nVerify finance software on PDF 191 / printed 180 at b-metacrick-title and WordChange on\nPDF 192 / printed 181 at b-wordchange-title, preserving their distinct review scopes,\nproduct fields, screenshots/captions, literal notes and physical wraps. Retain final\n0072/0073 references and leave PC/TCP 0076 pending until its own bounded classification.\nThen reconcile the complete commercial family, continue remaining library and July\nidentities, reconcile library0070/forum0059, and complete 560-page accounting, cover\nverification and standalone JSON/assets closeout. Preserve all 96 classification pins,\n27 frozen assembly adapters from batch101 and three local OCR adapters from batch87.\nIncomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,\nreader rebuild or deployment.",
+  "next_checkpoint": "Next: finalize PC/TCP child 0076 at a-onnet-title across PDF 189–190 / printed 178–179,\nthen reconcile commercial parent 0071 and its five final references as the second bounded\ncanonical task. Preserve source order 0072, 0073, 0076, 0074, 0075 separately from canonical\norder 0072–0076. Prove a disjoint family partition of all 154 parent regions, 122 text blocks,\nsixteen screenshots/captions and twenty product fields, with library/category umbrella\nregions remaining parent-only. Retain final 0072–0075 sidecars and resolve frozen pending\nflags externally. Then verify public-software 0077 from its observed PDF 193 / printed 182\nopening before mapping its actual extent in bounded natives. Remaining library and July\nidentities, library0070/forum0059 reconciliation, 560-page accounting, cover verification and\nstandalone JSON/assets closeout remain required. Preserve all 99 classification pins,\n27 frozen assembly adapters from batch101 and three local OCR adapters from batch87.\nIncomplete donated TOCs remain an explicit verification limit. No automatic CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -15403,6 +15514,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-102-r01/parent-status-dispositions.json",
       "sha256": "7fefb15b4e16b0612737241de90b332cdb7578779780d9b8d8831db667b8ff64",
       "bytes": 3565
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-103-r01/child-0074-anchor.json",
+      "sha256": "f0eccba98896a7c5ad087eb0c8d3fe5c5a3396a13c416ff10a5c411d73108d3d",
+      "bytes": 197616
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-103-r01/child-0075-anchor.json",
+      "sha256": "1ec0e56f3e7d85c26ff970386b48dd3a72d9566d6d878be99a664026620afb71",
+      "bytes": 213517
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-103-r01/parent-status-dispositions.json",
+      "sha256": "165e7487b5e745d0b4376af1deadaba3ac0772bcf8b330bd3353c818c3844f38",
+      "bytes": 4533
     }
   ]
 }
