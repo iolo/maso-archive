@@ -7552,3 +7552,46 @@ Groups0051/0052 and ancestor0043 remain incomplete. Whole-issue 560-page account
 cover and standalone JSON/assets closeout remain pending; incomplete donated TOCs,
 full proofreading, human acceptance, exact source bytes and execution remain explicit limits.
 Evidence: `archive/pdf/1995-07/restoration/batch-67/ocr-stage-audit.json`.
+
+## 2026-11-07 — July PowerBuilder native complete
+
+July batch 67 completes PowerBuilder0056, 파워빌더로 인사관리 프로그램을[2] : 인사관리 프로그램 반석 다지기, across PDF
+453–458 / printed 442–447 as one immutable native. Source author 장태원, affiliation 한국토코넷트
+SI팀장 and separate editor 박재곤 retain their printed roles. The previous wordprocessor
+ending452 and next coordinator article459–460 remain excluded. No separate article assembly
+is required.
+
+All 1,076 selected, independent and fresh-process files match. The complete native preserves
+278 pixel-exact crops, 263 original OCR outcomes, 250 text blocks, 485 reading rows, 486
+regional fragments, 35 prose paragraphs and 2,718 typed ranges. Fifteen original visuals
+retain eleven literal captions. Four tables retain 49 data rows, 173 cells including six
+explicit blank length cells, and thirteen headers. Repeated fields and values retain their
+own source occurrences.
+
+Seven screenshots, an independent data-file essay, five series rows highlighting installment
+two, five input rules and seven position/value pairs retain their contexts. The sole
+Close(Parent) example has one physical code row and no added semicolon. Ten regional join
+groups preserve thirteen boundaries, including the zero-separator introductory dropcap. The
+conclusion, historical HiTEL ID:minpro contact, ending emblem and editor remain distinct.
+
+Ten source candidates and ten printed anomalies remain explicit. Table1 토사일 and table3 퇴사일
+stay distinct; printed DEPR_CODE, SCHOOL_NAMF, grammatical particles and the prose
+attribution SQL are not repaired. Three empty OCR drafts were transcribed directly from
+preserved scan crops. Two pre-OCR maps retain 262 margin adjustments and a table-order
+correction. One prospectively timed source pass, zero OCR retries, zero post-OCR crop
+changes, zero text refinements after first serialization and zero post-pass changes. One
+failed verifier attempt used the wrong comment-list key; its corrected verifier and original
+attempt are retained without package changes.
+
+All 45 invalid cases reject. All 57,818 earlier July files, the 1,958 saved OCR-stage files,
+thirty core modules, eighteen frozen adapters and 72 classification pins remain exact. The
+unchanged fresh 214-test batch66 baseline is reused. Totals: 29 readable articles, zero
+partials, ten groups, seventeen references and 47 unresolved identities. Groups0051/0052 and
+ancestor0043 remain incomplete.
+
+Next: verify0057, 코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리, by 박재홍, from the observed PDF459 /
+printed448 opening. Establish its actual complete extent before mapping at most six pages.
+Preserve the complete PowerBuilder native and all earlier evidence. Whole-issue 560-page
+accounting, cover and standalone JSON/assets closeout remain pending. Incomplete donated
+TOCs, full proofreading, human acceptance, exact encoded source bytes and execution remain
+explicit limits. No automatic CD3 association, reader rebuild or deployment.

@@ -7430,12 +7430,108 @@
       "toc_entry_id": "maso-1995-07-toc-0056",
       "title": "파워빌더로 인사관리 프로그램을[2] : 인사관리 프로그램 반석 다지기",
       "parent_id": "maso-1995-07-toc-0052",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 67 completes PowerBuilder0056, 파워빌더로 인사관리 프로그램을[2] : 인사관리 프로그램 반석 다지기, across PDF 453–458 / printed 442–447 as one immutable native. Source author 장태원, affiliation 한국토코넷트 SI팀장 and separate editor 박재곤 retain their printed roles. The previous wordprocessor ending452 and next coordinator article459–460 remain excluded. No separate article assembly is required.",
+        "All 1,076 selected, independent and fresh-process files match. The complete native preserves 278 pixel-exact crops, 263 original OCR outcomes, 250 text blocks, 485 reading rows, 486 regional fragments, 35 prose paragraphs and 2,718 typed ranges. Fifteen original visuals retain eleven literal captions. Four tables retain 49 data rows, 173 cells including six explicit blank length cells, and thirteen headers. Repeated fields and values retain their own source occurrences.",
+        "Seven screenshots, an independent data-file essay, five series rows highlighting installment two, five input rules and seven position/value pairs retain their contexts. The sole Close(Parent) example has one physical code row and no added semicolon. Ten regional join groups preserve thirteen boundaries, including the zero-separator introductory dropcap. The conclusion, historical HiTEL ID:minpro contact, ending emblem and editor remain distinct.",
+        "Ten source candidates and ten printed anomalies remain explicit. Table1 토사일 and table3 퇴사일 stay distinct; printed DEPR_CODE, SCHOOL_NAMF, grammatical particles and the prose attribution SQL are not repaired. Three empty OCR drafts were transcribed directly from preserved scan crops. Two pre-OCR maps retain 262 margin adjustments and a table-order correction. One prospectively timed source pass, zero OCR retries, zero post-OCR crop changes, zero text refinements after first serialization and zero post-pass changes. One failed verifier attempt used the wrong comment-list key; its corrected verifier and original attempt are retained without package changes.",
+        "All 45 invalid cases reject. All 57,818 earlier July files, the 1,958 saved OCR-stage files, thirty core modules, eighteen frozen adapters and 72 classification pins remain exact. The unchanged fresh 214-test batch66 baseline is reused. Totals: 29 readable articles, zero partials, ten groups, seventeen references and 47 unresolved identities. Groups0051/0052 and ancestor0043 remain incomplete.",
+        "Next: verify0057, 코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리, by 박재홍, from the observed PDF459 / printed448 opening. Establish its actual complete extent before mapping at most six pages. Preserve the complete PowerBuilder native and all earlier evidence. Whole-issue 560-page accounting, cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact encoded source bytes and execution remain explicit limits. No automatic CD3 association, reader rebuild or deployment."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-67-r01/powerbuilder",
+        "article_id": "scan-maso-1995-07-toc-0056",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-67-r01/powerbuilder/manifest.json",
+          "sha256": "2dded2fbf152d6a4a458691e26ba6c6c9a0963fc89629dd9acff3912747da8b8",
+          "bytes": 184070
+        },
+        "coverage": {
+          "pdf_pages": [
+            453,
+            454,
+            455,
+            456,
+            457,
+            458
+          ],
+          "printed_pages": [
+            "442",
+            "443",
+            "444",
+            "445",
+            "446",
+            "447"
+          ],
+          "regions": 278,
+          "blocks": 250,
+          "figures": 15,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 453,
+        "actual_end_pdf_page": 458,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            453,
+            454,
+            455,
+            456,
+            457,
+            458
+          ],
+          "current_pdf_pages": [
+            453,
+            454,
+            455,
+            456,
+            457,
+            458
+          ],
+          "current_printed_pages": [
+            "442",
+            "443",
+            "444",
+            "445",
+            "446",
+            "447"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 453,
+          "observed_ending_pdf_page": 458,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-67/source-reviewed.json",
+            "sha256": "e7ab4d59d12e7c9ae1322b974e96a1bdec3bcbf5228524c9dfc1b1eaf5328f79",
+            "bytes": 1532
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-67/validation.json",
+          "sha256": "ad67f094b9e22709eeec86339af8734a9eacce26e65fc6292c9230893a9682fa",
+          "bytes": 2277
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-67/reproduction.json",
+          "sha256": "0eb8699d32e619822725066a2f9964ae3715bd5652e53c20c45df59b8b87678b",
+          "bytes": 206980
+        },
+        "checkpoint": "batch-67"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0057",
@@ -10668,22 +10764,65 @@
         "sha256": "a1063b38a5a5883d3cc281f968d0606f8f60223e42ad6674dc29f3fb1a81833b",
         "bytes": 147472
       }
+    },
+    {
+      "name": "1995-07-batch-67",
+      "status": "complete",
+      "completed_at": "2026-11-07T06:38:33.868964+00:00",
+      "goal": "Preserve complete PowerBuilder0056 PDF453–458 as one immutable native.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0056"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 6,
+      "mapped_pdf_pages": [
+        453,
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "outside_lookup_pages": 3,
+      "outside_lookup_pdf_pages": [
+        452,
+        459,
+        460
+      ],
+      "recognition_invocations": 263,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-67/validation.json",
+        "sha256": "ad67f094b9e22709eeec86339af8734a9eacce26e65fc6292c9230893a9682fa",
+        "bytes": 2277
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-67/reproduction.json",
+        "sha256": "0eb8699d32e619822725066a2f9964ae3715bd5652e53c20c45df59b8b87678b",
+        "bytes": 206980
+      },
+      "preceding_stage": {
+        "path": "archive/pdf/1995-07/restoration/batch-67/ocr-stage-handoff.json",
+        "sha256": "0eb721fd57306cfd0b05dfb727af24bbd90a8635a0d677db1ccfd1b836ef5b5d",
+        "bytes": 3526
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 28,
+    "readable": 29,
     "partial": 0,
     "group_headings": 10,
     "section_references": 17,
-    "unresolved": 48
+    "unresolved": 47
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Resume batch67 PowerBuilder0056 from saved mapped OCR. Read all263 initial drafts, then start one prospectively timed source correction pass for complete PDF453–458/printed442–447. All278 crops and263 raw outcomes are verified; reuse successful recognition. Review every region, all49 table rows/173 cells including6 blank length cells,13 headers,seven screenshots/eleven literal captions,independent sidebar,five schedule rows,five rules,seven position values,one Close(Parent) code row and thirteen join boundaries. Preserve source spelling and visible uncertainties. Export immutable complete native, run independent/fresh-process and semantic checks, then finish batch67. Preserve72 classification pins and18 frozen adapters. Next canonical0057 begins459;verify its complete extent separately. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify0057, 코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리, by 박재홍, from the observed PDF459 / printed448 opening. Establish its actual complete extent before mapping at most six pages. Preserve the complete PowerBuilder native and all earlier evidence. Whole-issue 560-page accounting, cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact encoded source bytes and execution remain explicit limits. No automatic CD3 association, reader rebuild or deployment. Retain72 classification pins and18 selected frozen adapters. Reuse complete prior packages without OCR or source-correction reruns.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -11045,51 +11184,5 @@
       "sha256": "d740de1dc30320019eefdce7692704a1e014cdba7b6d6c69887d8ed4533fcaf0",
       "bytes": 20514
     }
-  ],
-  "in_progress_checkpoint": {
-    "name": "1995-07-batch-67",
-    "status": "mapped-and-recognized;source-correction-not-started",
-    "toc_entry_id": "maso-1995-07-toc-0056",
-    "full_pdf_pages": [
-      453,
-      454,
-      455,
-      456,
-      457,
-      458
-    ],
-    "mapped_pdf_pages": [
-      453,
-      454,
-      455,
-      456,
-      457,
-      458
-    ],
-    "regions": 278,
-    "ocr_outcomes": 263,
-    "pre_ocr_map_versions": 2,
-    "ocr_retries": 0,
-    "availability_changed": false,
-    "source_review": {
-      "path": "archive/pdf/1995-07/restoration/batch-67/source-reviewed.json",
-      "sha256": "e7ab4d59d12e7c9ae1322b974e96a1bdec3bcbf5228524c9dfc1b1eaf5328f79",
-      "bytes": 1532
-    },
-    "map": {
-      "path": "archive/pdf/1995-07/restoration/batch-67/powerbuilder/map.json",
-      "sha256": "49c47b2960e4b04972be5bb9af0305af95d6b359c2913bcbb8f68062192fe0ba",
-      "bytes": 79865
-    },
-    "raw_drafts": {
-      "path": "archive/pdf/1995-07/restoration/batch-67/initial-drafts.json",
-      "sha256": "ca8a8f85df4d9d408463ce605fb3e7c7b0ecf340c9455d3e6bb6b16ad86eb924",
-      "bytes": 29874
-    },
-    "audit": {
-      "path": "archive/pdf/1995-07/restoration/batch-67/ocr-stage-audit.json",
-      "sha256": "448280b12f924d08aa60837baf775d5269edd994b2d66ed6444eba60569cdb9c",
-      "bytes": 1513
-    }
-  }
+  ]
 }
