@@ -10709,3 +10709,52 @@ Preserve all 124 classification pins, 27 frozen assembly adapters from batch 101
 local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human
 acceptance and original encoded bytes remain explicit limits. No inferred CD3 association,
 reader rebuild or deployment.
+
+July batch 119 completes forum 0059 (OS·애플리케이션 포럼) reconciliation.
+Its five direct children are tool-review group 0060, VRML article 0063, operating-system
+group 0064, hardware group 0067 and library group 0070. All thirty-three descendants
+have final outcomes: four non-owning subgroups, fourteen readable article owners and
+fifteen non-owning references. The forum remains a pageless heading with no separate
+body, inherited folio or byline. All canonical parents and source distinctions remain.
+
+Two classification files reproduce independently and in a fresh process. The fourteen
+immutable article packages retain all 6,331 files, 1,612 regions, 1,310 blocks, 118 figures
+and 1,494 original OCR outcomes. Their 77 distinct PDF pages are 185–210, 481–487,
+489–501, 503–519, 521–527 and 529–535. The 274 intervening pages outside these article
+extents are explicitly unassigned by this checkpoint; no whole-issue accounting is inferred.
+The later source folios differ from the earlier library offset and remain package-local.
+
+The audit validates 163 leaf-context ranges and 3,516 reference range occurrences against
+the named package text, blocks, regional bounds and scans. Four completed article partitions
+preserve every region, block and figure, including seven uncatalogued parent-owned notices.
+Commercial and hardware review order remain distinct from canonical child order. All four
+subgroups match their completed leaf packages; the library's fifteen references and four
+article partitions match batch 118 exactly. No additional identity or duplicate body is created.
+
+One hundred seventy-nine external resolutions record forum completion against exact source
+files and JSON pointers. Original group membership, pending outcomes, article gap notes,
+native-status summaries, latest subgroup statements and article-family ancestor flags remain
+immutable. Current completion is recorded separately. Twelve original classification crops
+remain pixel exact. The tool-review continuation banner 프로그래밍포럼 remains distinct from
+the canonical forum title; its original absence observation is scoped to five reviewed pages,
+not the whole issue. Later OS/application running headers remain in their article contexts.
+All 48 invalid cases reject, including changed ownership, source ranges, subgroup records,
+reference anchors, historical values, folio offsets and premature whole-issue completion.
+
+One canonical task, zero new mapped pages, zero outside lookups, zero OCR and zero source
+correction passes. All 95,992 earlier July files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters, the batch 76 figure builder and 124 prior classification
+pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused. Two new
+required classification pins bring the total to 126. Totals remain 45 readable articles,
+zero partials, fifteen groups, 32 references and eleven unresolved identities across 119
+completed checkpoints. Whole July restoration remains incomplete.
+
+Next: inspect reader-board heading 0093 and locate its first child 0094, 8월호 주요 기사 안내,
+listed at printed page 282. Verify source folios, eligibility and complete extent directly
+before mapping; do not infer a global PDF offset. Use a bounded checkpoint, preserving
+unresolved outcomes if the lookup ceiling is reached. Then continue children 0095–0098,
+survey 0099 and children 0100–0102, and video appendix 0103. Whole 560-page accounting,
+cover verification and standalone JSON/assets closeout remain required. Preserve all 126
+classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters
+from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original
+encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
