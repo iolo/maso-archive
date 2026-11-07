@@ -5503,6 +5503,51 @@ from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and
 original encoded bytes remain explicit limits. No inferred CD3 association,
 reader rebuild or deployment.
 
+July batch 129 finalizes survey prize children 0100 and 0101 as separate non-owning
+references into complete developer survey 0099. Both offers are single printed
+lines on PDF 550, without printed folios. Their anchors are a-prize-1 and a-prize-2;
+the parent owns the body once. Canonical titles, identities, hierarchy and null
+page references remain unchanged. The invitation, title and sponsors are retained
+as parent context, while neighboring offers, questionnaire and reply forms remain
+outside each child's intrinsic scope.
+
+The first offer retains Visual C++ 2.0, printed quantity 20 sets and its explicit
+uncertain stroke before 세트. The second retains 20 manual sets, each described
+as six volumes in one set. No symbol or original character count is invented;
+no software/manual files, fulfillment, participant or CD3 association is inferred.
+The original sponsor remains distinct from an author. Prize child 0102 and video
+appendix 0103 remain unresolved.
+
+Four classification files reproduce independently and in a fresh process. All
+18 typed range occurrences validate, nine per child, covering two distinct source
+regions/blocks and three shared parent-context regions. Nineteen frozen child-status
+fields receive external dispositions while all original parent/native records stay
+unchanged. Only 0100 and 0101 are final; aggregate child completion remains false
+until 0102 is classified. All 37 invalid cases reject. All 104,082 earlier July
+files, 960 complete survey files, thirty core modules, 29 frozen assembly adapter
+files, three local OCR adapters and 130 earlier classification pins remain exact.
+The unchanged 214-test batch 128 baseline is reused. No new OCR, source correction,
+mapping or rendering was needed; two canonical tasks and one reused source-page
+lookup remain within limits.
+
+The first preparation process terminated with exit 143 before writing checkpoint
+inputs. Two dependent helpers then failed on the missing inputs. All three outcomes
+are retained; successful preparation completed before those helpers were rerun.
+No package, ledger, source text or OCR changed during the failed attempts.
+
+Totals are 51 readable articles, zero partials, sixteen groups, 34 references and
+two unresolved identities across 129 completed checkpoints. The required final
+classification inventory now contains 133 pins. Whole July remains incomplete.
+
+Next: classify prize child 0102 from the third offer on PDF 550, retaining printed
+wording and quantity 150 while preserving its different canonical title order.
+Then resolve video appendix 0103 separately. Whole 560-page accounting, cover
+verification and standalone JSON/assets closeout remain required. Preserve all
+133 classification pins, 29 frozen assembly adapter files from batch 128 and three
+local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,
+human acceptance and original encoded bytes remain explicit limits. No inferred
+CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02

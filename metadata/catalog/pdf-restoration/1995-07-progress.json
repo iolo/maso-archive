@@ -12831,23 +12831,93 @@
       "toc_entry_id": "maso-1995-07-toc-0100",
       "title": "비주얼 C++2.0 20세트",
       "parent_id": "maso-1995-07-toc-0099",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 129 finalizes survey prize children 0100 and 0101 as separate non-owning\nreferences into complete developer survey 0099. Both offers are single printed\nlines on PDF 550, without printed folios. Their anchors are a-prize-1 and a-prize-2;\nthe parent owns the body once. Canonical titles, identities, hierarchy and null\npage references remain unchanged. The invitation, title and sponsors are retained\nas parent context, while neighboring offers, questionnaire and reply forms remain\noutside each child's intrinsic scope.\n\nThe first offer retains Visual C++ 2.0, printed quantity 20 sets and its explicit\nuncertain stroke before 세트. The second retains 20 manual sets, each described\nas six volumes in one set. No symbol or original character count is invented;\nno software/manual files, fulfillment, participant or CD3 association is inferred.\nThe original sponsor remains distinct from an author. Prize child 0102 and video\nappendix 0103 remain unresolved.\n\nFour classification files reproduce independently and in a fresh process. All\n18 typed range occurrences validate, nine per child, covering two distinct source\nregions/blocks and three shared parent-context regions. Nineteen frozen child-status\nfields receive external dispositions while all original parent/native records stay\nunchanged. Only 0100 and 0101 are final; aggregate child completion remains false\nuntil 0102 is classified. All 37 invalid cases reject. All 104,082 earlier July\nfiles, 960 complete survey files, thirty core modules, 29 frozen assembly adapter\nfiles, three local OCR adapters and 130 earlier classification pins remain exact.\nThe unchanged 214-test batch 128 baseline is reused. No new OCR, source correction,\nmapping or rendering was needed; two canonical tasks and one reused source-page\nlookup remain within limits.\n\nThe first preparation process terminated with exit 143 before writing checkpoint\ninputs. Two dependent helpers then failed on the missing inputs. All three outcomes\nare retained; successful preparation completed before those helpers were rerun.\nNo package, ledger, source text or OCR changed during the failed attempts.\n\nTotals are 51 readable articles, zero partials, sixteen groups, 34 references and\ntwo unresolved identities across 129 completed checkpoints. The required final\nclassification inventory now contains 133 pins. Whole July remains incomplete.\n\nNext: classify prize child 0102 from the third offer on PDF 550, retaining printed\nwording and quantity 150 while preserving its different canonical title order.\nThen resolve video appendix 0103 separately. Whole 560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all\n133 classification pins, 29 frozen assembly adapter files from batch 128 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred\nCD3 association, reader rebuild or deployment.\n"
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0099",
+      "section": {
+        "anchor": "a-prize-1",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 550
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0099",
+        "directory": "archive/pdf/1995-07/packages/article-survey-r01",
+        "anchor": "a-prize-1",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 550,
+        "source_heading_printed_page": null,
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-survey-r01/manifest.json",
+          "sha256": "28043966724cdd3f7351c4561d21c8591a038b9af4a196cf56b56754c3c2e4d9",
+          "bytes": 170254
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-129-r01/child-0100-anchor.json",
+          "sha256": "6de35497c10db48ef1fba10496887ba39f4e630ac5d6cd4bce06ecfb39d7ccc0",
+          "bytes": 13902
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-129/validation.json",
+          "sha256": "8a533bbd5775026cc3010e4c45096f8f28a8d306007c6a81e20da06a39e4bea7",
+          "bytes": 1692
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0101",
       "title": "비주얼 C++2.0 매뉴얼 6권 1질(20세트)",
       "parent_id": "maso-1995-07-toc-0099",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 129 finalizes survey prize children 0100 and 0101 as separate non-owning\nreferences into complete developer survey 0099. Both offers are single printed\nlines on PDF 550, without printed folios. Their anchors are a-prize-1 and a-prize-2;\nthe parent owns the body once. Canonical titles, identities, hierarchy and null\npage references remain unchanged. The invitation, title and sponsors are retained\nas parent context, while neighboring offers, questionnaire and reply forms remain\noutside each child's intrinsic scope.\n\nThe first offer retains Visual C++ 2.0, printed quantity 20 sets and its explicit\nuncertain stroke before 세트. The second retains 20 manual sets, each described\nas six volumes in one set. No symbol or original character count is invented;\nno software/manual files, fulfillment, participant or CD3 association is inferred.\nThe original sponsor remains distinct from an author. Prize child 0102 and video\nappendix 0103 remain unresolved.\n\nFour classification files reproduce independently and in a fresh process. All\n18 typed range occurrences validate, nine per child, covering two distinct source\nregions/blocks and three shared parent-context regions. Nineteen frozen child-status\nfields receive external dispositions while all original parent/native records stay\nunchanged. Only 0100 and 0101 are final; aggregate child completion remains false\nuntil 0102 is classified. All 37 invalid cases reject. All 104,082 earlier July\nfiles, 960 complete survey files, thirty core modules, 29 frozen assembly adapter\nfiles, three local OCR adapters and 130 earlier classification pins remain exact.\nThe unchanged 214-test batch 128 baseline is reused. No new OCR, source correction,\nmapping or rendering was needed; two canonical tasks and one reused source-page\nlookup remain within limits.\n\nThe first preparation process terminated with exit 143 before writing checkpoint\ninputs. Two dependent helpers then failed on the missing inputs. All three outcomes\nare retained; successful preparation completed before those helpers were rerun.\nNo package, ledger, source text or OCR changed during the failed attempts.\n\nTotals are 51 readable articles, zero partials, sixteen groups, 34 references and\ntwo unresolved identities across 129 completed checkpoints. The required final\nclassification inventory now contains 133 pins. Whole July remains incomplete.\n\nNext: classify prize child 0102 from the third offer on PDF 550, retaining printed\nwording and quantity 150 while preserving its different canonical title order.\nThen resolve video appendix 0103 separately. Whole 560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all\n133 classification pins, 29 frozen assembly adapter files from batch 128 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred\nCD3 association, reader rebuild or deployment.\n"
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0099",
+      "section": {
+        "anchor": "a-prize-2",
+        "anchor_scope": "assembled-parent",
+        "heading_pdf_page": 550
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0099",
+        "directory": "archive/pdf/1995-07/packages/article-survey-r01",
+        "anchor": "a-prize-2",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 550,
+        "source_heading_printed_page": null,
+        "canonical_page_reference": null,
+        "anchor_scope": "assembled-parent",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/article-survey-r01/manifest.json",
+          "sha256": "28043966724cdd3f7351c4561d21c8591a038b9af4a196cf56b56754c3c2e4d9",
+          "bytes": 170254
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-129-r01/child-0101-anchor.json",
+          "sha256": "e3ff07c6af6586a2221b74e189273fb97d1be2f1ae621442f70113fcf8ce78b5",
+          "bytes": 13717
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-129/validation.json",
+          "sha256": "8a533bbd5775026cc3010e4c45096f8f28a8d306007c6a81e20da06a39e4bea7",
+          "bytes": 1692
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0102",
@@ -17846,6 +17916,38 @@
         "sha256": "661c8b25b82c347567341971efc2102c08f31ae5260abce3910dd9fcdfcdaf7d",
         "bytes": 173657
       }
+    },
+    {
+      "name": "1995-07-batch-129",
+      "status": "complete",
+      "completed_at": "2026-11-07T22:45:23.137520+00:00",
+      "goal": "Finalize survey prize children0100 and0101 as non-owning references;0102 remains pending.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0100",
+        "maso-1995-07-toc-0101"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 1,
+      "outside_lookup_pdf_pages": [
+        550
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "retained_preparation_terminations": 1,
+      "retained_dependent_helper_failures": 2,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-129/validation.json",
+        "sha256": "8a533bbd5775026cc3010e4c45096f8f28a8d306007c6a81e20da06a39e4bea7",
+        "bytes": 1692
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-129/reproduction.json",
+        "sha256": "8e2419ee2eb19bed774b45ba5de413b142ed5ca63ee623042826b6350e183c21",
+        "bytes": 1120
+      }
     }
   ],
   "totals": {
@@ -17853,15 +17955,15 @@
     "readable": 51,
     "partial": 0,
     "group_headings": 16,
-    "section_references": 32,
-    "unresolved": 4
+    "section_references": 34,
+    "unresolved": 2
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: classify prize children 0100 and 0101 as bounded source-linked references\ninto the complete survey, then classify 0102. Preserve their canonical identities,\nsource wording, quantities and the first prize's explicit uncertain mark. Resolve\nvideo appendix 0103 separately. Whole 560-page accounting, cover verification and\nstandalone JSON/assets closeout remain required. Preserve all 130 classification\npins, the 29 frozen assembly adapters from batch 128 and three local OCR adapters\nfrom batch 87. Incomplete donated TOCs, full proofreading, human acceptance and\noriginal encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.",
+  "next_checkpoint": "Next: classify prize child 0102 from the third offer on PDF 550, retaining printed\nwording and quantity 150 while preserving its different canonical title order.\nThen resolve video appendix 0103 separately. Whole 560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all\n133 classification pins, 29 frozen assembly adapter files from batch 128 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred\nCD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -18512,6 +18614,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-125-r01/group-status-dispositions.json",
       "sha256": "545650a105068498fab1b5a99d61d9cfeeab02a8d67e2bcc3465290cc6e842c1",
       "bytes": 33044
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-129-r01/child-0100-anchor.json",
+      "sha256": "6de35497c10db48ef1fba10496887ba39f4e630ac5d6cd4bce06ecfb39d7ccc0",
+      "bytes": 13902
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-129-r01/child-0101-anchor.json",
+      "sha256": "e3ff07c6af6586a2221b74e189273fb97d1be2f1ae621442f70113fcf8ce78b5",
+      "bytes": 13717
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-129-r01/parent-status-dispositions.json",
+      "sha256": "cd20475695b3181ec5037946edce1480e13cf4ca5a62b2ec37e676a3de5b7e44",
+      "bytes": 12708
     }
   ]
 }
