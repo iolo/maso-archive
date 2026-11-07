@@ -2921,6 +2921,52 @@ JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance
 encoded source bytes andexecution remain explicit limits. No automatic CD3
 association,reader rebuild ordeployment.
 
+July batch 85 actually assembles complete Windows95 article0065 across PDF503–510 /
+printed494–501. Both immutable natives remain unchanged. Source author 김효준 and source
+series 프로그램 개발 환경 remain distinct from canonical 김훈 and 프로그래밍 환경. Editor 박은숙
+retains a separate role. The only cross-native paragraph merge joins the Win32-standard
+paragraph from508 to509 with one LF; no word or code-row splice is introduced.
+
+All 472 native files regenerate exactly. Selected, independent and fresh-process assemblies
+match across 481 files, preserving 116 pixel-exact crops, 113 original OCR outcomes, 99
+source blocks in 98 assembled blocks, 593 reading rows and 594 regional fragments. All
+3,279 projected native occurrences, including eight earlier-native ranges held in b but
+owned by a, retain their source ownership. The audit checks 6,705 current ranges and
+29,395 scalar metadata values. Historical native scope declarations remain unchanged with
+explicit complete-assembly dispositions.
+
+Three independent sidebars retain fourteen paragraphs, alongside 49 main prose paragraphs.
+The decorative title artwork, technical diagram and ending emblem remain original images;
+the diagram retains its literal caption, nine labels and three observed connections.
+Three code examples preserve four mapped regions and 42 physical rows with no invented
+blank rows, including three Korean comments, three preprocessor directives and three
+omission rows. Fourteen join groups retain fifteen boundaries. The opening dropcap uses
+an empty separator; other joins use LF. Eleven main sections retain their source order.
+Twenty-six glyph candidates and nine source anomalies remain explicit and unrepaired.
+Historical claims, source encoding and code execution remain unverified.
+
+All 74 invalid cases reject. All 214 fresh PDF tests pass. All 76,569 earlier July files,
+thirty core modules, twenty-two prior frozen assembly adapters, both local OCR adapters,
+the batch76 figure builder and 77 classification pins remain exact. The new frozen Windows95
+assembly adapter brings the total to twenty-three. One canonical task, zero newly mapped
+pages and five outside lookup pages remain within limits. No new OCR, rendering, source
+correction or metadata revision was required. Both original natives and all three assembly
+exports pass; the first complete assembly audit passes.
+
+Totals:35 readable articles, zero partials, thirteen groups, seventeen references and 38
+unresolved identities. Article0066 and families0059/0064,0059/0060,0051/0052 and forum0043
+remain pending; this assembly does not complete those families. Whole July560-page
+accounting, cover verification and standalone JSON/assets closeout remain required.
+
+Next: verify Windows NT article0066 from PDF511 / printed502, establish its actual ending
+and interior continuity, then restore an opening native of at most six pages. Preserve
+source authors 이기활, 이기황, 채윤호 and canonical 이기활 외 2인 without rewriting either.
+Retain complete article-win95-r01, both immutable Windows95 natives, all twenty-three
+frozen assembly adapters and both local OCR adapters. Reconcile pending families separately,
+then continue remaining July identities, page accounting, cover and standalone closeout.
+Incomplete donated TOCs, full proofreading, human acceptance, exact original encoded bytes
+and execution remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
