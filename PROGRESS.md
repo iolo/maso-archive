@@ -7305,3 +7305,41 @@ listings; then actually assemble 431–441. Canonical groups 0051/0052 and ances
 remain incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets
 closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact
 source bytes and execution remain explicit limits.
+
+## 2026-11-07 — July controls final native complete
+
+July batch 62 preserves controls0054 final PDF 437–441 / printed 426–430 as a second
+immutable partial native. All eleven source pages 431–441 now exist across two natives;
+actual article assembly remains required. The incoming WM_INITDIALOG paragraph needs one LF
+after the opening native's WM_INITDIALOG에서는. Prose ends 438 with separate editor 박은숙;
+listings end 441. The independent lower-441 magazine-name notice and 442 advertisement
+remain excluded.
+
+All 233 selected r03, independent and fresh-process files match: 62 pixel-exact crops, 54
+raw OCR outcomes, 45 blocks, 377 reading rows and 5,305 typed ranges validate. Eight
+original visuals retain three unique literal listing captions. The file directory retains
+four rows, eight filename/description cells and two headers. Five code blocks retain 255
+physical rows: two inline SendMessage calls and 253 numbered rows across taskman.c,
+taskman.rc and taskman.mak. All 34 blank numbered payloads, three listing join groups and
+nine boundaries remain.
+
+Eighty-three candidate occurrences preserve bracket-like delimiters, broken bars, narrow
+identifier glyphs, uncertain 01/0l suffixes and small ink marks. Printed repeated WS_BORDER
+remains. One within-pass refinement resolves the resource comment's distinct 49/50 asterisk
+runs using enlarged source evidence. Two pre-OCR maps retain 55 margin adjustments. One
+prospectively timed source pass, zero retries, zero post-OCR crop changes and zero post-pass
+text changes. Two metadata revisions retain earlier r01/r02 packages: correct an inherited
+page-range note, anchor the uncertain suffix rather than row101, and use actual LF for the
+incoming prose join. Source text and raw OCR are identical across all three versions.
+
+All 50 invalid cases reject; all 51,795 earlier July files, thirty core modules, sixteen
+frozen adapters and 72 classification pins remain exact. The unchanged 214-test batch-60
+baseline is reused. Totals remain 26 readable articles, one partial, ten groups, seventeen
+references and 49 unresolved identities. Next: actually assemble controls0054 across PDF
+431–441 from immutable controls-a batch61-r01 and controls-b batch62-r03. Preserve all 604
+native files, fourteen original visuals, seven unique captions, 272 code rows and 91
+candidate occurrences. Keep earlier-native ranges in their original namespace and verify the
+cross-native prose join before marking the article readable. Canonical groups 0051/0052 and
+ancestor 0043 remain incomplete. Whole-issue 560-page accounting, cover and standalone
+JSON/assets closeout remain pending; incomplete donated TOCs, full proofreading, human
+acceptance, exact source bytes and execution remain explicit limits.
