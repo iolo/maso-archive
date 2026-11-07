@@ -11793,12 +11793,88 @@
       "toc_entry_id": "maso-1995-07-toc-0092",
       "title": "내가 선택한 책",
       "parent_id": "maso-1995-07-toc-0070",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 117 completes 내가 선택한 책 0092 across PDF 209–210 / printed 198–199 as one immutable native. The section contains two independent reader-selected book reviews: The Annotated C++ Reference Manual on 209 and CODE COMPLETE on 210. New-books ends on 208; the independent Korean-code interview begins on 211. Both lower-page publisher advertisements remain excluded. No separate assembly is required.",
+        "The two photographed readers, 박재현 (현대전자 S/W연구소 연구원) and 신승근 (핸디소프트 SI 사업부 연구원), retain distinct recommendation quotes and identification captions. They are not assigned article bylines or book authorship. Eight bibliographic fields preserve each book publisher, printed author credit, page count and price. The first book is priced at 45.95달러 and the second at 30,000원; no conversion or external verification is implied. Two original portraits include the books being held; no standalone cover image or additional canonical identity is invented. The publication ending mark has no caption.",
+        "All 151 selected, independent and fresh-process files match byte for byte. The native retains 38 pixel-exact crops, 35 original OCR outcomes, 28 text blocks, 132 physical rows and 682 typed range occurrences. Twelve main prose paragraphs, eight bibliographic fields, two independent quote contexts, two caption associations and seven continuation boundaries validate. Five prose joins and two portrait-credit joins preserve source order. Four within-region word or symbol wraps, including Lan/guage and C+/+, remain physical rows. One word continuation across columns retains 권/의. No incoming, outgoing, cross-page or inter-review prose join is required.",
+        "All 35 raw drafts preceded one prospectively timed source correction pass over four complete contact sheets. Two retained pre-OCR maps preserve eleven crop refinements that recover clipped lower glyphs and remove stray text above the ending mark. Both sets of 38 crops remain preserved. One preflight diagnostic failed because a colored heading had no dark rows at its threshold; the empty-row check was corrected before OCR, with the failure retained. Zero recognition retries, post-OCR crop changes or source refinements after serialization. Eight source notes preserve printed wording and claims, including The Revolution of C++ Programming Language, 함수 이름 로딩, the ANSI approval claim, 템플리트, 망했다(?) and 팀웍. Original scans remain authoritative.",
+        "All 56 invalid semantic cases reject, including missing review content, lost caption or continuation sources, swapped reader or quote attribution, book credits treated as article bylines, publisher advertisements included as body content, invented child identities, repaired source wording and premature ancestor completion. All 95,426 earlier July files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder and 122 classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.",
+        "One canonical task, two mapped pages and two outside lookup pages (208 and 211) stay within checkpoint limits. Only 0092 advances to readable/sample-reviewed. Totals are 45 readable articles, zero partials, fifteen groups, 32 references and eleven unresolved identities across 117 completed checkpoints. All seven direct library article owners now have readable outcomes, but library 0070 and forum 0059 still require explicit family reconciliation. Whole July restoration remains incomplete."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-117-r01/chosen",
+        "article_id": "scan-maso-1995-07-toc-0092",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-117-r01/chosen/manifest.json",
+          "sha256": "e8e8e7458c0960b25574964e874cedf7beed549957f88f79006e4525a6b811c7",
+          "bytes": 25530
+        },
+        "coverage": {
+          "pdf_pages": [
+            209,
+            210
+          ],
+          "printed_pages": [
+            "198",
+            "199"
+          ],
+          "regions": 38,
+          "blocks": 28,
+          "figures": 3,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 209,
+        "actual_end_pdf_page": 210,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            209,
+            210
+          ],
+          "current_pdf_pages": [
+            209,
+            210
+          ],
+          "current_printed_pages": [
+            "198",
+            "199"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 209,
+          "observed_ending_pdf_page": 210,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-117/source-reviewed.json",
+            "sha256": "9f065d1a2c8a2f5ff2bec4a774459f258fe6c20fac34ad47e0a3f024d1916a32",
+            "bytes": 4266
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-117/validation.json",
+          "sha256": "f5ea2b4fe9073f276d97bdc1548019a40d55f0aaedd78b6e1ea83f33e4e56ef1",
+          "bytes": 3416
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-117/reproduction.json",
+          "sha256": "7144f328aa0699c04bc529f41e8f049bca860f177023aa171b86d502da382ba0",
+          "bytes": 29839
+        },
+        "checkpoint": "batch-117"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0093",
@@ -16455,22 +16531,59 @@
         "sha256": "2ff45cfaf09ad6b4b9cadddf7830c1ca7c3e50835c27efb8a838b8d1ffe5940b",
         "bytes": 34779
       }
+    },
+    {
+      "name": "1995-07-batch-117",
+      "status": "complete",
+      "completed_at": "2026-11-07T19:37:24.387276+00:00",
+      "goal": "Complete chosen-book0092 across PDF209–210; preserve two independent reader-selected reviews and exclude publisher advertisements.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0092"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        209,
+        210
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        208,
+        211
+      ],
+      "recognition_invocations": 35,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 0,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-117/validation.json",
+        "sha256": "f5ea2b4fe9073f276d97bdc1548019a40d55f0aaedd78b6e1ea83f33e4e56ef1",
+        "bytes": 3416
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-117/reproduction.json",
+        "sha256": "7144f328aa0699c04bc529f41e8f049bca860f177023aa171b86d502da382ba0",
+        "bytes": 29839
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 44,
+    "readable": 45,
     "partial": 0,
     "group_headings": 15,
     "section_references": 32,
-    "unresolved": 12
+    "unresolved": 11
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify the complete extent of 내가 선택한 책 0092 from its observed PDF 209 / printed 198 opening. Keep its Annotated C++ Reference Manual review and lower-page publisher advertisement separate, and confirm its ending independently before mapping. Then continue remaining July identities, library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: reconcile library 0070 against its seven complete direct article owners and final nested references, preserving all immutable packages and historical pending flags. Then reconcile forum 0059 in a bounded checkpoint. Continue unresolved reader-board 0093 and children 0094–0098, survey 0099 and children 0100–0102, and video appendix 0103. Verify each source extent and eligibility independently. Whole 560-page accounting, cover verification and standalone JSON/assets closeout remain required. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

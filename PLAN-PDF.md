@@ -4859,6 +4859,64 @@ pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters fr
 Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes
 remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
 
+July batch 117 completes 내가 선택한 책 0092 across PDF 209–210 / printed 198–199 as one immutable
+native. The section contains two independent reader-selected book reviews: The Annotated C++
+Reference Manual on 209 and CODE COMPLETE on 210. New-books ends on 208; the independent
+Korean-code interview begins on 211. Both lower-page publisher advertisements remain
+excluded. No separate assembly is required.
+
+The two photographed readers, 박재현 (현대전자 S/W연구소 연구원) and 신승근 (핸디소프트 SI 사업부 연구원), retain
+distinct recommendation quotes and identification captions. They are not assigned article
+bylines or book authorship. Eight bibliographic fields preserve each book publisher, printed
+author credit, page count and price. The first book is priced at 45.95달러 and the second at
+30,000원; no conversion or external verification is implied. Two original portraits include
+the books being held; no standalone cover image or additional canonical identity is
+invented. The publication ending mark has no caption.
+
+All 151 selected, independent and fresh-process files match byte for byte. The native
+retains 38 pixel-exact crops, 35 original OCR outcomes, 28 text blocks, 132 physical rows
+and 682 typed range occurrences. Twelve main prose paragraphs, eight bibliographic fields,
+two independent quote contexts, two caption associations and seven continuation boundaries
+validate. Five prose joins and two portrait-credit joins preserve source order. Four
+within-region word or symbol wraps, including Lan/guage and C+/+, remain physical rows. One
+word continuation across columns retains 권/의. No incoming, outgoing, cross-page or
+inter-review prose join is required.
+
+All 35 raw drafts preceded one prospectively timed source correction pass over four complete
+contact sheets. Two retained pre-OCR maps preserve eleven crop refinements that recover
+clipped lower glyphs and remove stray text above the ending mark. Both sets of 38 crops
+remain preserved. One preflight diagnostic failed because a colored heading had no dark rows
+at its threshold; the empty-row check was corrected before OCR, with the failure retained.
+Zero recognition retries, post-OCR crop changes or source refinements after serialization.
+Eight source notes preserve printed wording and claims, including The Revolution of C++
+Programming Language, 함수 이름 로딩, the ANSI approval claim, 템플리트, 망했다(?) and 팀웍. Original scans
+remain authoritative.
+
+All 56 invalid semantic cases reject, including missing review content, lost caption or
+continuation sources, swapped reader or quote attribution, book credits treated as article
+bylines, publisher advertisements included as body content, invented child identities,
+repaired source wording and premature ancestor completion. All 95,426 earlier July files,
+thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76
+figure builder and 122 classification pins remain exact. The unchanged fresh 214-test batch
+101 baseline is reused.
+
+One canonical task, two mapped pages and two outside lookup pages (208 and 211) stay within
+checkpoint limits. Only 0092 advances to readable/sample-reviewed. Totals are 45 readable
+articles, zero partials, fifteen groups, 32 references and eleven unresolved identities
+across 117 completed checkpoints. All seven direct library article owners now have readable
+outcomes, but library 0070 and forum 0059 still require explicit family reconciliation.
+Whole July restoration remains incomplete.
+
+Next: reconcile library 0070 against its seven complete direct article owners and final
+nested references, preserving all immutable packages and historical pending flags. Then
+reconcile forum 0059 in a bounded checkpoint. Continue unresolved reader-board 0093 and
+children 0094–0098, survey 0099 and children 0100–0102, and video appendix 0103. Verify each
+source extent and eligibility independently. Whole 560-page accounting, cover verification
+and standalone JSON/assets closeout remain required. Preserve all 122 classification pins,
+27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87.
+Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes
+remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
