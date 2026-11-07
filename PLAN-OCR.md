@@ -1473,6 +1473,46 @@ pending. Incomplete donated TOCs,full proofreading,human acceptance,exact encode
 bytes and historical execution remain explicit limits. No automatic CD3 association,
 reader rebuild or deployment.
 
+July batch 58 preserves article0053, 비주얼 베이직에서의 SDK 함수 호출,
+opening PDF 419–424/printed 408–413 as an immutable partial native. Its complete
+extent 419–429 is verified: prose ends426, but listings1–4 continue through429;
+430 is advertising and the next article opens431. Five final pages and actual
+assembly remain separate checkpoints.
+
+All317 selected, independent and fresh-process files match. All80 pixel-exact
+crops,76 original OCR outcomes,65 blocks,420 reading rows,421 regional rows and
+4,662 typed ranges validate. Four original images retain two literal captions.
+The SYSINFO/SYSMON captions remain beside their mismatched pictured programs;
+source author 전성욱, affiliation, four-row deck and original title/banner remain.
+Nine groups retain eleven boundaries, including the drop cap joined once and
+the DrowSysInfo code wrap across423–424 with its original LF.
+
+Nineteen code blocks retain269 physical rows,27 blanks,seven Korean comments,
+ten English comments,one colon omission,six Korean explanatory prefixes and five
+circled callouts. The INI sample, six explained steps, resource functions,
+repeated SYSHEAPINFO declarations and distinct initialization examples remain
+separate. Printed IMI/CRTL filenames, SystermInit, duplicate declarations,
+486-to-386 output, Standard Mode and DrowSysInfo are not repaired. Fifty-two
+glyph occurrence candidates retain their original crops. SetImeMode remains
+explicitly incomplete at424, continuing425 after a complete physical code row.
+
+Two pre-OCR maps retain thirteen crop-bound repairs. All76 initial drafts were
+read before one source correction pass; zero OCR retries, within-pass saved-text
+refinements, post-OCR crop changes or post-pass text changes. All51 invalid cases
+reject. All47,019 earlier July files,thirty core modules,fifteen frozen adapters
+and72 classification pins remain exact; the unchanged214-test batch56 baseline
+is reused. One canonical task,six mapped pages and eight outside lookups remain
+within limits. Canonical groups0051/0052 and forum0043 remain unchanged and incomplete.
+
+Totals: twenty-five readable articles,one partial,ten groups,seventeen references
+and50 unresolved identities. Next: restore PDF425–429/printed414–418 as a separate
+immutable native, then actually assemble419–429. Preserve the incoming SetImeMode
+LF join, final prose/editor, directory and numbered listings without deduplicating
+examples or repairing printed errors. Whole July560-page accounting,cover and
+standalone JSON/assets closeout remain pending. Incomplete donated TOCs,full
+proofreading,human acceptance,exact encoded bytes and historical execution remain
+explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
