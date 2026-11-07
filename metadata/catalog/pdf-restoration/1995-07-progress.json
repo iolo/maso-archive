@@ -9856,7 +9856,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Verify article0054 Win32를 뛰어넘자[마지막회] : 컨트롤의 사용 from its observed PDF431/printed420 opening and source author 김종원. Reuse batch57 opening evidence;historical Hangul product glyph in affiliation remains uncertain. Establish full extent before mapping an opening native of at most six pages;defer remaining pages and actual assembly. Canonical groups0051/0052 and forum0043 remain incomplete. Preserve complete VB SDK0053 assembly article-vb-sdk-r03,its two immutable natives,68 glyph candidates and all literal contexts. Retain72 classification pins and16 frozen adapters,including batch60/vbsdk_adapter_r03.py. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout;no automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Resume batch61 controls0054 at the saved mapped-OCR stage: read all89 initial drafts,then start one prospectively timed source correction pass for PDF431–436/printed420–425. All95 crop images and89 raw outcomes are verified;do not rerun successful recognition. Verify every mapped region,code row,list item,caption and continuation;export an immutable partial native and complete independent/fresh-process checks before closing batch61. Full article extent431–441 is verified;437–441 and actual assembly remain separate. Preserve source-linked uncertain affiliation glyph,all earlier packages,72 classification pins and16 frozen adapters. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout;no automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -10218,5 +10218,56 @@
       "sha256": "d740de1dc30320019eefdce7692704a1e014cdba7b6d6c69887d8ed4533fcaf0",
       "bytes": 20514
     }
-  ]
+  ],
+  "in_progress_checkpoint": {
+    "name": "1995-07-batch-61",
+    "status": "mapped-and-recognized;source-correction-not-started",
+    "toc_entry_id": "maso-1995-07-toc-0054",
+    "full_pdf_pages": [
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441
+    ],
+    "mapped_pdf_pages": [
+      431,
+      432,
+      433,
+      434,
+      435,
+      436
+    ],
+    "regions": 95,
+    "ocr_outcomes": 89,
+    "pre_ocr_map_versions": 3,
+    "ocr_retries": 0,
+    "availability_changed": false,
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-61/source-reviewed.json",
+      "sha256": "d3d01d9314a7c1a090ee15b003833aa114366d5fadd123fc60bc9e55cf4d49d3",
+      "bytes": 5718
+    },
+    "map": {
+      "path": "archive/pdf/1995-07/restoration/batch-61/controls-a/map.json",
+      "sha256": "34afc248fb41b015be1da02782d84f7784e75d7a7a8c7eb95838a7cb54a60c02",
+      "bytes": 33888
+    },
+    "raw_drafts": {
+      "path": "archive/pdf/1995-07/restoration/batch-61/initial-drafts.json",
+      "sha256": "7b3a064b891ee64ea924bffd62d50635e62f6a6a555201f80b04aad4ad6bf7d6",
+      "bytes": 27513
+    },
+    "audit": {
+      "path": "archive/pdf/1995-07/restoration/batch-61/ocr-stage-audit.json",
+      "sha256": "7a5eb33fb84e70d1d260e05bfa1306689f2377745312625960172ae78ca0d3a2",
+      "bytes": 1519
+    }
+  }
 }
