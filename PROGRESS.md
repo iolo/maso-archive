@@ -8467,3 +8467,42 @@ Continue remaining July identities, 560-page accounting, cover and standalone JS
 closeout. Incomplete donated TOCs, full proofreading, human acceptance, exact original encoded
 bytes and execution remain explicit limits. No automatic CD3 association, reader rebuild or
 deployment.
+
+July batch 82 classifies operating-system heading0064, 운영체제, as a non-owning group
+under0059. Both distinct children0065 Windows95 and0066 Windows NT remain pending.
+Their openings at PDF503/printed494 and511/502 carry the same operating-system and
+forum headings; continuation504/495 repeats 운영체제. The group inherits no child
+folio, author, pages or article body. VRML0063 remains a direct child of0059.
+
+Fifteen selected, independent and fresh-process classification files match exactly.
+Thirteen original crops retain the headings, titles, series, credits and folios.
+All38 invalid ownership, hierarchy, discrepancy and coverage cases reject. All75,005
+earlier July files, thirty core modules, twenty-two frozen assembly adapters,
+the batch72 OCR adapter, batch76 figure builder and75 classification pins remain
+unchanged. The unchanged214-test batch81 baseline is reused. One canonical task,
+three mapped classification pages and three outside lookups stay within limits.
+No OCR or source correction. One contact-sheet helper failed before producing an
+image because it called a size tuple; the retained corrected helper succeeded
+without changing the map or readings. All thirteen crops were directly inspected.
+
+Source Windows95 credit 김효준 remains distinct from canonical 김훈. Its source
+series says 프로그램 개발 환경, while the canonical series says 프로그래밍 환경.
+Windows NT retains source authors 이기활, 이기황, 채윤호 and canonical 이기활 외 2인.
+Neither canonical metadata nor source text is rewritten. PDF501 remains the VRML
+ending and502 excluded advertising. Windows95's ending is observed on PDF510 /
+printed501, with the independent 태스크와 프로세스 box, ending emblem and editor
+박은숙. Endpoints alone do not prove the unreviewed505–509 interior continuity.
+
+Totals:34 readable articles, zero partials, thirteen groups, seventeen references and39 unresolved
+identities. Both0064 children and its family reconciliation remain pending, as do
+families0059/0060,0051/0052 and forum0043. No family completion is inferred here.
+
+Next: verify Windows95 article0065 interior continuity across PDF505–509 and recheck
+its observed503/494 opening and510/501 ending, then restore an opening native of
+at most six pages. Preserve the source/canonical byline and series distinctions,
+the independent final-page box, complete article-vrml-r01, both VRML natives and
+all twenty-two frozen assembly adapters. Reconcile pending families separately.
+Continue remaining July identities, 560-page accounting, cover and standalone
+JSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance,
+exact original encoded bytes and execution remain explicit limits. No automatic
+CD3 association, reader rebuild or deployment.
