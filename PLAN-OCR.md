@@ -1913,6 +1913,40 @@ accounting, cover and standalone JSON/assets closeout remain pending. Incomplete
 TOCs, full proofreading, human acceptance, exact encoded source bytes and execution remain
 explicit limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 68 is in progress at a saved mapping/OCR stage. The saved source review
+verifies coordinator0057, 코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리,
+by 박재홍, across PDF 459–469 / printed 448–458. This bounded opening covers
+459–464 only; final 465–469 and actual assembly remain separate. Previous 458,
+the lower 469 advertisement, full-page 470 advertisement and next xBase 471–472
+remain outside the selected article scope. Nine outside-map pages were inspected.
+
+All six revised opening overlays and enlarged code/diagram crops were reviewed
+before recognition. Two retained maps record 132 pre-OCR margin adjustments.
+All 140 selected region crops are pixel-exact; 133 raw Tesseract outcomes and their
+settings are pinned. Twenty-three code regions use eng; 110 other text regions use
+kor+eng, with OEM1/PSM6, one thread and 3000-pixel source rendering. Zero retries.
+Empty raw drafts: diagram1-a-last, diagram2-left-first, diagram2-right-last. Source correction and package export have not started.
+
+Seven original visuals retain title artwork, schedule, two class hierarchies,
+one screenshot and two numbered diagrams. Three literal captions, 34 diagram labels,
+five schedule rows and 23 declaration/prototype/structure/macro regions remain
+separate. Eight planned prose groups retain eleven local boundaries. The outgoing
+endCursorPosition paragraph continues 464→465 and awaits actual assembly.
+Printed tapSize, structure punctuation, identifiers and physical wraps must be
+reviewed literally; raw drafts do not establish transcription fidelity.
+
+All 61,146 earlier July files, thirty core modules, eighteen frozen
+adapters, source, canonical queue, runtime and original ledger pins remain exact.
+This is not a completed native or batch. Totals remain 29 readable articles, zero
+partials, ten groups, seventeen references and 47 unresolved identities.
+Next: read all 133 drafts, start one prospective source correction pass, export and
+validate the opening partial native, then finish batch 68. Reuse saved OCR.
+Remaining 465–469, actual assembly, remaining canonical work, whole-issue 560-page
+accounting, cover and standalone JSON/assets closeout are pending. Incomplete
+donated TOCs, full proofreading, human acceptance, original encoded bytes and
+execution remain explicit limits. No automatic CD3 association or reader work.
+Evidence: `archive/pdf/1995-07/restoration/batch-68/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
