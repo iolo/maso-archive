@@ -11576,23 +11576,101 @@
       "toc_entry_id": "maso-1995-07-toc-0089",
       "title": "HP 스캔젯 3P",
       "parent_id": "maso-1995-07-toc-0088",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 114 finalizes hardware children 0089, 복사기 기능 갖춘 HP 스캔젯 3P, and 0090, RISC 기반 PC\n파워스택, as non-owning references into complete hardware bundle 0088. ScanJet is complete on\nPDF 205–206 / printed 194–195; PowerStack is complete on PDF 203–204 / printed 192–193.\nDirect review of PDF 202–207 confirms both review boundaries and the separate CD ending and\nbooks opening. Canonical identities, hierarchy and absent canonical folios remain unchanged.\nSource order 0090/0089 remains distinct from canonical 0089/0090.",
+        "The two references retain 95 regions, 75 blocks, forty main paragraphs, seven original\nfigures, six captions, ten product fields, six highlight rows and 390 physical rows. ScanJet\nretains 21 paragraphs, two photos and the publication ending mark; PowerStack retains\nnineteen paragraphs, three photos and one software screenshot. Twelve paragraph joins\npreserve thirteen boundaries. The OpenGL/Viewfinder and scanner sizing paragraphs each cross\none page boundary. Four within-region word/path wraps and nine word continuations retain\ntheir physical rows. ScanJet ends with the accessories paragraph and its warranty\ncontinuation. Library and hardware banners remain parent-only.",
+        "Twelve source notes and three glyph records preserve printed wording, technical claims,\nmultiplication signs and SCSI-II. Original encoded bytes and product claims remain\nunverified. All four classification files reproduce independently and in a fresh process;\nall 993 child typed ranges validate, 455 for ScanJet and 538 for PowerStack. All 61 invalid\ncases reject, including lost cross-page source pieces, wrong source/canonical order, missing\nwarranty, invented ending-mark captions, duplicate ownership, lost highlights and premature\nfamily completion. No new mapping, rendering, OCR or source correction was performed.",
+        "All 94,744 earlier July files, 375 complete parent files, thirty core modules, 27 frozen\nassembly adapters, three local OCR adapters and 117 prior classification pins remain exact.\nThe unchanged fresh 214-test batch 101 baseline is reused. Three new pins bring required\nclassification evidence to 120. External status finalizes both children while preserving\nimmutable native creation-time flags. Hardware family reconciliation remains pending;\nlibrary 0070 and forum 0059 remain incomplete.",
+        "Two canonical tasks, zero mapped pages and six source lookup pages remain within checkpoint\nlimits. Totals are 43 readable articles, zero partials, fifteen groups, 32 references and\nthirteen unresolved identities across 114 completed checkpoints. Whole July restoration\nremains in progress."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0088",
+      "section": {
+        "anchor": "scanjet-title",
+        "anchor_scope": "complete-native",
+        "heading_pdf_page": 205
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0088",
+        "directory": "archive/pdf/1995-07/packages/batch-113-r01/hardware",
+        "anchor": "scanjet-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 205,
+        "source_heading_printed_page": "194",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-native",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-113-r01/hardware/manifest.json",
+          "sha256": "bf8ecf7812537a8ce038800daec1b19f171210cda3412ab0679adb40cfb53a5c",
+          "bytes": 62887
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-114-r01/child-0089-anchor.json",
+          "sha256": "b93be59722ef72845610e333b523d96c5b2a7941eccd5ba516b7e10319b94700",
+          "bytes": 254093
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-114/validation.json",
+          "sha256": "2c8adceb3d370fe27be46974994e509c7599c4875a6a0a4dca4ef8179a47c252",
+          "bytes": 1884
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0090",
       "title": "RISC 기반 파워스택",
       "parent_id": "maso-1995-07-toc-0088",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "section-reference",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 114 finalizes hardware children 0089, 복사기 기능 갖춘 HP 스캔젯 3P, and 0090, RISC 기반 PC\n파워스택, as non-owning references into complete hardware bundle 0088. ScanJet is complete on\nPDF 205–206 / printed 194–195; PowerStack is complete on PDF 203–204 / printed 192–193.\nDirect review of PDF 202–207 confirms both review boundaries and the separate CD ending and\nbooks opening. Canonical identities, hierarchy and absent canonical folios remain unchanged.\nSource order 0090/0089 remains distinct from canonical 0089/0090.",
+        "The two references retain 95 regions, 75 blocks, forty main paragraphs, seven original\nfigures, six captions, ten product fields, six highlight rows and 390 physical rows. ScanJet\nretains 21 paragraphs, two photos and the publication ending mark; PowerStack retains\nnineteen paragraphs, three photos and one software screenshot. Twelve paragraph joins\npreserve thirteen boundaries. The OpenGL/Viewfinder and scanner sizing paragraphs each cross\none page boundary. Four within-region word/path wraps and nine word continuations retain\ntheir physical rows. ScanJet ends with the accessories paragraph and its warranty\ncontinuation. Library and hardware banners remain parent-only.",
+        "Twelve source notes and three glyph records preserve printed wording, technical claims,\nmultiplication signs and SCSI-II. Original encoded bytes and product claims remain\nunverified. All four classification files reproduce independently and in a fresh process;\nall 993 child typed ranges validate, 455 for ScanJet and 538 for PowerStack. All 61 invalid\ncases reject, including lost cross-page source pieces, wrong source/canonical order, missing\nwarranty, invented ending-mark captions, duplicate ownership, lost highlights and premature\nfamily completion. No new mapping, rendering, OCR or source correction was performed.",
+        "All 94,744 earlier July files, 375 complete parent files, thirty core modules, 27 frozen\nassembly adapters, three local OCR adapters and 117 prior classification pins remain exact.\nThe unchanged fresh 214-test batch 101 baseline is reused. Three new pins bring required\nclassification evidence to 120. External status finalizes both children while preserving\nimmutable native creation-time flags. Hardware family reconciliation remains pending;\nlibrary 0070 and forum 0059 remain incomplete.",
+        "Two canonical tasks, zero mapped pages and six source lookup pages remain within checkpoint\nlimits. Totals are 43 readable articles, zero partials, fifteen groups, 32 references and\nthirteen unresolved identities across 114 completed checkpoints. Whole July restoration\nremains in progress."
+      ],
+      "restoration": null,
+      "body_owner_toc_entry_id": "maso-1995-07-toc-0088",
+      "section": {
+        "anchor": "powerstack-title",
+        "anchor_scope": "complete-native",
+        "heading_pdf_page": 203
+      },
+      "section_reference": {
+        "body_owner_toc_entry_id": "maso-1995-07-toc-0088",
+        "directory": "archive/pdf/1995-07/packages/batch-113-r01/hardware",
+        "anchor": "powerstack-title",
+        "metadata_key": "text_index",
+        "source_heading_pdf_page": 203,
+        "source_heading_printed_page": "192",
+        "canonical_page_reference": null,
+        "anchor_scope": "complete-native",
+        "parent_manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-113-r01/hardware/manifest.json",
+          "sha256": "bf8ecf7812537a8ce038800daec1b19f171210cda3412ab0679adb40cfb53a5c",
+          "bytes": 62887
+        },
+        "final_parent_assembly_pending": false,
+        "final_anchor_projection_pending": false,
+        "source_projection": {
+          "path": "archive/pdf/1995-07/classifications/batch-114-r01/child-0090-anchor.json",
+          "sha256": "3e12446f3c25d88aa4c9b4ef7d59a4e1a824d8003c55f8583a4330fd0536a8d0",
+          "bytes": 296187
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-114/validation.json",
+          "sha256": "2c8adceb3d370fe27be46974994e509c7599c4875a6a0a4dca4ef8179a47c252",
+          "bytes": 1884
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0091",
@@ -16167,6 +16245,41 @@
         "sha256": "3b793247fb91e38cbb40c09416a9cdd8f7863099dd65ff34371987ddff13f44d",
         "bytes": 71741
       }
+    },
+    {
+      "name": "1995-07-batch-114",
+      "status": "complete",
+      "completed_at": "2026-11-07T19:00:10.652161+00:00",
+      "goal": "Finalize ScanJet0089 and PowerStack0090 as non-owning references into complete hardware0088.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0089",
+        "maso-1995-07-toc-0090"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 6,
+      "outside_lookup_pdf_pages": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-114/validation.json",
+        "sha256": "2c8adceb3d370fe27be46974994e509c7599c4875a6a0a4dca4ef8179a47c252",
+        "bytes": 1884
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-114/reproduction.json",
+        "sha256": "1e951e8924c6df268fa3d2237ef501f5f58150fc39cf2ef5ec9938429b84de93",
+        "bytes": 1121
+      }
     }
   ],
   "totals": {
@@ -16174,15 +16287,15 @@
     "readable": 43,
     "partial": 0,
     "group_headings": 15,
-    "section_references": 30,
-    "unresolved": 15
+    "section_references": 32,
+    "unresolved": 13
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: classify hardware children 0089 and 0090 as two bounded reference tasks against complete batch-113-r01/hardware. Preserve source order PowerStack then ScanJet, both cross-page paragraphs, captions, product fields, highlights and the final warranty/ending mark. Then reconcile the hardware family in a separate checkpoint. Continue books 0091 from PDF 207, remaining July identities, library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Preserve all 117 classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: reconcile the hardware 0088 family against both final child references and the\ncomplete immutable batch-113-r01/hardware native. Prove the disjoint review scopes,\nparent-only banners, both cross-page continuations and final warranty/ending mark. Then\nverify books 0091 from the observed PDF 207 / printed 196 opening before mapping its\ncomplete extent, followed by remaining July identities. Continue library 0070/forum 0059\nreconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.\nPreserve all 120 classification pins, 27 frozen assembly adapters from batch 101 and three\nlocal OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16768,6 +16881,21 @@
       "path": "archive/pdf/1995-07/classifications/batch-112-r01/family-partition.json",
       "sha256": "49daba60ab0c73a5147b50079ae0f1f9dc4208131f11cd249b8e937604d62544",
       "bytes": 27944
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-114-r01/child-0089-anchor.json",
+      "sha256": "b93be59722ef72845610e333b523d96c5b2a7941eccd5ba516b7e10319b94700",
+      "bytes": 254093
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-114-r01/child-0090-anchor.json",
+      "sha256": "3e12446f3c25d88aa4c9b4ef7d59a4e1a824d8003c55f8583a4330fd0536a8d0",
+      "bytes": 296187
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-114-r01/parent-status-dispositions.json",
+      "sha256": "a4a7a1416d8f2047ef3dc1d761c8dfb395d3f81779ef23644a8c51d495a5dbab",
+      "bytes": 3115
     }
   ]
 }

@@ -4710,6 +4710,53 @@ from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and 
 encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or
 deployment.
 
+July batch 114 finalizes hardware children 0089, 복사기 기능 갖춘 HP 스캔젯 3P, and 0090, RISC 기반 PC
+파워스택, as non-owning references into complete hardware bundle 0088. ScanJet is complete on
+PDF 205–206 / printed 194–195; PowerStack is complete on PDF 203–204 / printed 192–193.
+Direct review of PDF 202–207 confirms both review boundaries and the separate CD ending and
+books opening. Canonical identities, hierarchy and absent canonical folios remain unchanged.
+Source order 0090/0089 remains distinct from canonical 0089/0090.
+
+The two references retain 95 regions, 75 blocks, forty main paragraphs, seven original
+figures, six captions, ten product fields, six highlight rows and 390 physical rows. ScanJet
+retains 21 paragraphs, two photos and the publication ending mark; PowerStack retains
+nineteen paragraphs, three photos and one software screenshot. Twelve paragraph joins
+preserve thirteen boundaries. The OpenGL/Viewfinder and scanner sizing paragraphs each cross
+one page boundary. Four within-region word/path wraps and nine word continuations retain
+their physical rows. ScanJet ends with the accessories paragraph and its warranty
+continuation. Library and hardware banners remain parent-only.
+
+Twelve source notes and three glyph records preserve printed wording, technical claims,
+multiplication signs and SCSI-II. Original encoded bytes and product claims remain
+unverified. All four classification files reproduce independently and in a fresh process;
+all 993 child typed ranges validate, 455 for ScanJet and 538 for PowerStack. All 61 invalid
+cases reject, including lost cross-page source pieces, wrong source/canonical order, missing
+warranty, invented ending-mark captions, duplicate ownership, lost highlights and premature
+family completion. No new mapping, rendering, OCR or source correction was performed.
+
+All 94,744 earlier July files, 375 complete parent files, thirty core modules, 27 frozen
+assembly adapters, three local OCR adapters and 117 prior classification pins remain exact.
+The unchanged fresh 214-test batch 101 baseline is reused. Three new pins bring required
+classification evidence to 120. External status finalizes both children while preserving
+immutable native creation-time flags. Hardware family reconciliation remains pending;
+library 0070 and forum 0059 remain incomplete.
+
+Two canonical tasks, zero mapped pages and six source lookup pages remain within checkpoint
+limits. Totals are 43 readable articles, zero partials, fifteen groups, 32 references and
+thirteen unresolved identities across 114 completed checkpoints. Whole July restoration
+remains in progress.
+
+Next: reconcile the hardware 0088 family against both final child references and the
+complete immutable batch-113-r01/hardware native. Prove the disjoint review scopes,
+parent-only banners, both cross-page continuations and final warranty/ending mark. Then
+verify books 0091 from the observed PDF 207 / printed 196 opening before mapping its
+complete extent, followed by remaining July identities. Continue library 0070/forum 0059
+reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout.
+Preserve all 120 classification pins, 27 frozen assembly adapters from batch 101 and three
+local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human
+acceptance and original encoded bytes remain explicit limits. No inferred CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
