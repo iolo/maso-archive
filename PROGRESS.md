@@ -9908,3 +9908,49 @@ and standalone JSON/assets closeout. Preserve all 102 classification pins, 27 fr
 assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete
 donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit
 limits. No inferred CD3 association, reader rebuild or deployment.
+
+July batch 106 finalizes JAPY 0078 and QUICKPLAY 0079 as non-owning references into complete
+public-software parent 0077. Their complete source scopes are PDF 194 / printed 183 and PDF
+195 / printed 184, anchored at japy-title and quick-title. Canonical identities, titles,
+order, hierarchy, missing folios and bylines remain unchanged. No duplicate article bodies
+are created.
+
+The two references retain 29 regions, 18 text blocks, eight main prose paragraphs, four
+original uncaptained screenshots and six filename, size and download fields. All 71 physical
+rows and 217 typed range occurrences validate against the complete immutable native. Four
+local paragraph joins preserve seven boundaries. One physical word wrap and three column
+wraps retain their LF and source pieces, including JAPY 하/다 and QuickPlay 퓨/터 and 우/즈. Five
+source notes and two glyph-candidate records remain explicit. JAPY remains distinct from
+JSTUDY.ARJ; source QUICK PLAY remains distinct from canonical QUICKPLAY. Historical product
+claims and original encoded bytes are unverified.
+
+Four classification files match independent and fresh-process exports. All 47 invalid cases
+reject, including incorrect owners/anchors, missing prose, swapped filenames, lost fields or
+physical rows, invented captions, reconstructed overlap pixels, lost column provenance and
+premature child/family completion. Full-page reviews of 194–195 confirm JAPY below 4B and
+QuickPlay above Newton with complete endings and separate notice boundaries. No new mapping,
+OCR, source correction or verification repair occurs.
+
+All 90,978 earlier July files, 425 parent files, thirty core modules, 27 frozen assembly
+adapters, three local OCR adapters and 102 prior classification pins remain exact. The
+unchanged fresh 214-test batch 101 baseline is reused. Three new required pins bring
+classification evidence to 105. External status finalizes only 0078/0079 and keeps 0080–0082
+pending. The three parent-owned unlisted notices and two library/public banners remain
+unchanged. Frozen native creation-time flags remain historical evidence;
+public/library/forum family reconciliation remains incomplete.
+
+Two canonical tasks, zero mapped pages and two source lookup pages stay within limits.
+Totals are 40 readable articles, zero partials, fifteen groups, twenty-four references and
+24 unresolved identities across 106 completed checkpoints. Whole July restoration remains
+active; full proofreading, human acceptance and original encoded bytes remain unverified.
+
+Next: finalize NEWTON 0080 on PDF 195 / printed 184 at newton-title and WinLabel 0081 on PDF
+196 / printed 185 at winlabel-title as non-owning references into public 0077. Preserve
+their independent prose, screenshots, file fields, literal claims and physical wraps. Then
+finalize SHCopyStar 0082 and reconcile the public family as two bounded canonical tasks,
+preserving all eight notice contexts, three unlisted parent-owned notices and two umbrella
+banners. Continue game 0083 from PDF 197, CD 0084 and the remaining July identities, library
+0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone
+JSON/assets closeout. Preserve all 105 classification pins, 27 frozen assembly adapters from
+batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain an
+explicit verification limit. No automatic CD3 association, reader rebuild or deployment.
