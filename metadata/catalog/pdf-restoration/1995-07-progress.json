@@ -11706,12 +11706,88 @@
       "toc_entry_id": "maso-1995-07-toc-0091",
       "title": "새로 나온 책",
       "parent_id": "maso-1995-07-toc-0070",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "July batch 116 completes new-books 0091, 새로 나온 책, across PDF 207–208 / printed 196–197 as one immutable native. Seven independent notices retain their own descriptions, bibliographic lines and cover images. Hardware ends on 206; 내가 선택한 책 begins independently on 209. No separate assembly is required.",
+        "The notices cover VBX/API multimedia, virtual reality, PC communications, 3D animation, Windows 95, information retrieval and Korean TeX. Seven author credits, one translator credit, seven publishers, seven page counts and seven prices remain literal source fields. These book credits are not article bylines. Seven individual covers, a separate five-cover collage and a publication ending mark retain their original pixels and null captions. The collage creates no additional notices or canonical identities.",
+        "All 177 selected, independent and fresh-process files match byte for byte. The native retains 49 pixel-exact crops, 40 original OCR outcomes, 33 text blocks, 113 physical rows and 666 typed range occurrences. Seventeen main prose paragraphs, 29 bibliographic fields, six paragraph groups and seven continuation boundaries validate. Four word wraps within regions and four word continuations across columns retain their physical source boundaries. No incoming, outgoing, cross-page or inter-notice prose join is required.",
+        "All 40 raw drafts were read before one prospectively timed source correction pass over five complete contact sheets and two additional text crops. Two retained pre-OCR maps document the final TeX paragraph split: the last prose row is separated from its adjacent ending mark. The original 48 crops remain preserved. Zero OCR retries, post-OCR crop changes, source refinements after serialization or restoration helper failures. Six source notes preserve printed wording and historical claims, including 한몫에, 익숙치, 어원이나 and the announcement of three TeX sections followed by descriptions of only two. No missing description was invented. Original encoded forms and historical claims remain unverified.",
+        "All 49 invalid semantic cases reject, including lost notices, paragraphs, rows, fields, translator credits, covers and continuation sources; swapped publishers; invented article bylines, captions or collage notices; duplicate bodies; changed source wording; and premature ancestor completion. All 94,811 earlier July files, thirty core modules, 27 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder and 122 classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.",
+        "One canonical task, two mapped pages and two outside lookup pages (206 and 209) stay within checkpoint limits. Only 0091 advances to readable/sample-reviewed. Totals are 44 readable articles, zero partials, fifteen groups, 32 references and twelve unresolved identities across 116 completed checkpoints. Library 0070, forum 0059 and whole July restoration remain incomplete."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1995-07/packages/batch-116-r01/books",
+        "article_id": "scan-maso-1995-07-toc-0091",
+        "manifest": {
+          "path": "archive/pdf/1995-07/packages/batch-116-r01/books/manifest.json",
+          "sha256": "453b0141ecd4931555cbd924b57136838677230be45bd07736d648dea92ca04e",
+          "bytes": 29954
+        },
+        "coverage": {
+          "pdf_pages": [
+            207,
+            208
+          ],
+          "printed_pages": [
+            "196",
+            "197"
+          ],
+          "regions": 49,
+          "blocks": 33,
+          "figures": 9,
+          "deferred_pdf_pages": []
+        },
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 207,
+        "actual_end_pdf_page": 208,
+        "full_extent_verified": true,
+        "remaining_source_pages": [],
+        "segment_scope": {
+          "full_pdf_pages": [
+            207,
+            208
+          ],
+          "current_pdf_pages": [
+            207,
+            208
+          ],
+          "current_printed_pages": [
+            "196",
+            "197"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": true,
+          "prose_complete": true,
+          "actual_start_pdf_page": 207,
+          "observed_ending_pdf_page": 208,
+          "remaining_source_pages": [],
+          "assembly_required": false,
+          "complete_article_assembly_pending": false,
+          "remaining_extent_unverified": false,
+          "extent_review": {
+            "path": "archive/pdf/1995-07/restoration/batch-116/source-reviewed.json",
+            "sha256": "23a4a327060e3853a3db48f1d67a8a32cc10b75f2362981a93fa46054c739ae2",
+            "bytes": 5713
+          }
+        },
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-116/validation.json",
+          "sha256": "a24c6ed085c1ded3c3dc0fb56ef5bdef3dc1129860f71edc6647c3119944397c",
+          "bytes": 3092
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-116/reproduction.json",
+          "sha256": "2ff45cfaf09ad6b4b9cadddf7830c1ca7c3e50835c27efb8a838b8d1ffe5940b",
+          "bytes": 34779
+        },
+        "checkpoint": "batch-116"
+      }
     },
     {
       "toc_entry_id": "maso-1995-07-toc-0092",
@@ -16342,22 +16418,59 @@
         "sha256": "d27fc8bf1af8a935ff88cccae4d496b06ebbe33970844d9ae8552db006ef3cb8",
         "bytes": 960
       }
+    },
+    {
+      "name": "1995-07-batch-116",
+      "status": "complete",
+      "completed_at": "2026-11-07T19:23:07.142173+00:00",
+      "goal": "Complete seven new-book notices0091 across PDF207–208; preserve bibliographic roles and all original images.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0091"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 2,
+      "mapped_pdf_pages": [
+        207,
+        208
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        206,
+        209
+      ],
+      "recognition_invocations": 40,
+      "recognition_retries": 0,
+      "render_restarts": 0,
+      "post_ocr_figure_repairs": 0,
+      "post_ocr_text_changes": 0,
+      "source_correction_passes": 1,
+      "retained_helper_failures": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-116/validation.json",
+        "sha256": "a24c6ed085c1ded3c3dc0fb56ef5bdef3dc1129860f71edc6647c3119944397c",
+        "bytes": 3092
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-116/reproduction.json",
+        "sha256": "2ff45cfaf09ad6b4b9cadddf7830c1ca7c3e50835c27efb8a838b8d1ffe5940b",
+        "bytes": 34779
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 43,
+    "readable": 44,
     "partial": 0,
     "group_headings": 15,
     "section_references": 32,
-    "unresolved": 13
+    "unresolved": 12
   },
   "notes": [
     "Native canonical IDs/titles/hierarchy preserved; eligibility remains provisional.",
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify books 0091, 새로 나온 책, from the observed PDF 207 / printed 196 opening. Establish\nits complete source extent and separate book-notice contexts before mapping at most six\npages. Canonical next article 0092, 내가 선택한 책, starts at printed 198; confirm its actual\nsource boundary independently. Then continue remaining July identities, library 0070/forum\n0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets\ncloseout. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101\nand three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,\nhuman acceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify the complete extent of 내가 선택한 책 0092 from its observed PDF 209 / printed 198 opening. Keep its Annotated C++ Reference Manual review and lower-page publisher advertisement separate, and confirm its ending independently before mapping. Then continue remaining July identities, library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Preserve all 122 classification pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

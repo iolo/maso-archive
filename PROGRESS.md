@@ -10552,3 +10552,55 @@ closeout. Preserve all 122 classification pins, 27 frozen assembly adapters from
 and three local OCR adapters from batch 87. Incomplete donated TOCs, full proofreading,
 human acceptance and original encoded bytes remain explicit limits. No inferred CD3
 association, reader rebuild or deployment.
+
+## 2026-11-08 — July new-books native complete
+
+July batch 116 completes new-books 0091, 새로 나온 책, across PDF 207–208 / printed 196–197 as
+one immutable native. Seven independent notices retain their own descriptions, bibliographic
+lines and cover images. Hardware ends on 206; 내가 선택한 책 begins independently on 209. No
+separate assembly is required.
+
+The notices cover VBX/API multimedia, virtual reality, PC communications, 3D animation,
+Windows 95, information retrieval and Korean TeX. Seven author credits, one translator
+credit, seven publishers, seven page counts and seven prices remain literal source fields.
+These book credits are not article bylines. Seven individual covers, a separate five-cover
+collage and a publication ending mark retain their original pixels and null captions. The
+collage creates no additional notices or canonical identities.
+
+All 177 selected, independent and fresh-process files match byte for byte. The native
+retains 49 pixel-exact crops, 40 original OCR outcomes, 33 text blocks, 113 physical rows
+and 666 typed range occurrences. Seventeen main prose paragraphs, 29 bibliographic fields,
+six paragraph groups and seven continuation boundaries validate. Four word wraps within
+regions and four word continuations across columns retain their physical source boundaries.
+No incoming, outgoing, cross-page or inter-notice prose join is required.
+
+All 40 raw drafts were read before one prospectively timed source correction pass over five
+complete contact sheets and two additional text crops. Two retained pre-OCR maps document
+the final TeX paragraph split: the last prose row is separated from its adjacent ending
+mark. The original 48 crops remain preserved. Zero OCR retries, post-OCR crop changes,
+source refinements after serialization or restoration helper failures. Six source notes
+preserve printed wording and historical claims, including 한몫에, 익숙치, 어원이나 and the
+announcement of three TeX sections followed by descriptions of only two. No missing
+description was invented. Original encoded forms and historical claims remain unverified.
+
+All 49 invalid semantic cases reject, including lost notices, paragraphs, rows, fields,
+translator credits, covers and continuation sources; swapped publishers; invented article
+bylines, captions or collage notices; duplicate bodies; changed source wording; and
+premature ancestor completion. All 94,811 earlier July files, thirty core modules, 27 frozen
+assembly adapters, three local OCR adapters, the batch 76 figure builder and 122
+classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.
+
+One canonical task, two mapped pages and two outside lookup pages (206 and 209) stay within
+checkpoint limits. Only 0091 advances to readable/sample-reviewed. Totals are 44 readable
+articles, zero partials, fifteen groups, 32 references and twelve unresolved identities
+across 116 completed checkpoints. Library 0070, forum 0059 and whole July restoration remain
+incomplete.
+
+Next: verify the complete extent of 내가 선택한 책 0092 from its observed PDF 209 / printed 198
+opening. Keep its Annotated C++ Reference Manual review and lower-page publisher
+advertisement separate, and confirm its ending independently before mapping. Then continue
+remaining July identities, library 0070/forum 0059 reconciliation, 560-page accounting,
+cover verification and standalone JSON/assets closeout. Preserve all 122 classification
+pins, 27 frozen assembly adapters from batch 101 and three local OCR adapters from batch 87.
+Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes
+remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
