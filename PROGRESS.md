@@ -10205,3 +10205,58 @@ standalone JSON/assets closeout. Incomplete donated TOCs, full proofreading, hum
 acceptance and original encoded bytes remain explicit limits. No automatic CD3
 association, reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-110/ocr-stage-audit.json`.
+
+## 2026-11-08 — July CD-bundle native complete
+
+July batch 110 completes CD bundle 0084, CD 타이틀 광장, across PDF 199–202 / printed 188–191 as
+one immutable native. This completed checkpoint supersedes the saved mapping/OCR stage
+above. All four pages are restored; no separate assembly is required. Games end on 198, and
+hardware begins independently on 203.
+
+Seven independent reviews remain distinct: PC 어드벤처, 배낭메고 유럽으로, 마술가게, 인텔리시크, 리틀 에디슨 III, 로얄
+토익 L.C and 미녀와 야수. The first three retain canonical children 0085–0087 pending separate
+reference classification. Four unlisted reviews remain parent-owned. Twelve original
+screenshots and one publication ending mark retain their source roles. Seven literal
+captions, 28 product-detail fields and eight highlight bullets retain their review
+ownership.
+
+All 429 selected, independent and fresh-process files match byte for byte. The complete
+native retains 115 pixel-exact crops, 102 original OCR outcomes, 87 text blocks, 334
+physical reading rows and 1,869 typed range occurrences. Twenty-eight main prose paragraphs
+and twelve joins across fifteen boundaries validate. Six within-region word wraps and seven
+word continuations across columns retain physical source boundaries. There are no incoming,
+outgoing or cross-page prose joins.
+
+All 102 raw drafts preceded one prospectively timed source correction pass. Ten complete
+contact sheets and six additional full-size text crops were reviewed. Two retained pre-OCR
+maps document 103 crop adjustments; zero OCR retries, post-OCR crop changes, helper failures
+or source refinements after serialization. Twelve literal source notes and five candidate
+records preserve spelling, wordmark representations, prices and historical claims. The
+compact vowels selected as 나눠 and 나눠져 retain alternatives 나뉘 and 나뉘져 for manual review. The
+historical araea wordmark uses ᄒᆞᆫ글, and the three title strokes use Latin III; original
+encoded forms remain unverified. The printed particle 주인공은 and numeric wrap 80 / 0MB remain
+unchanged. Original scans remain authoritative.
+
+All 52 invalid semantic cases reject, including lost review content, swapped product fields,
+omitted environment rows, incorrect or invented captions, premature child classification,
+reconstructed screenshot pixels, lost highlights or wraps, and an ending mark mislabeled as
+a screenshot. All 91,917 earlier July files, 837 saved-stage files, thirty core modules, 27
+frozen assembly adapters, three local OCR adapters, the batch 76 figure builder and 111
+classification pins remain exact. The unchanged fresh 214-test batch 101 baseline is reused.
+
+One canonical task, four mapped pages and two outside lookup pages (198 and 203) stay within
+checkpoint limits. Only 0084 advances to readable/sample-reviewed. Totals are 42 readable
+articles, zero partials, fifteen groups, twenty-seven references and nineteen unresolved
+identities across 110 completed checkpoints. CD child classification, library 0070, forum
+0059 and whole July restoration remain incomplete.
+
+Next: classify canonical CD children 0085 and 0086 as two bounded reference tasks against
+the complete batch-110-r01/cd native, preserving their source scopes, captions, highlights
+and product fields. Then classify 0087 and reconcile the CD family in a separate bounded
+checkpoint. Keep the four unlisted reviews parent-owned and retain the immutable native
+unchanged. Continue hardware 0088 from PDF 203 / printed 192, remaining July identities,
+library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and
+standalone JSON/assets closeout. Preserve all 111 classification pins, 27 frozen assembly
+adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs,
+full proofreading, human acceptance and original encoded bytes remain explicit limits. No
+inferred CD3 association, reader rebuild or deployment.
