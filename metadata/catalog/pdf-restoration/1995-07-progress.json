@@ -7138,56 +7138,47 @@
         "All 352 selected, independent and fresh-process files match: 88 pixel-exact crops, 85 raw OCR outcomes, 71 text blocks, 433 reading rows, 434 regional fragments and 2,678 typed ranges. Three original visuals retain no invented captions. Five series rows highlight installment three. Three clipboard rules, six tab steps and five deletion steps retain their numbered contexts. Twelve code examples retain thirteen regions, 82 physical rows and one blank. Twelve join groups preserve fourteen boundaries, including the dropcap and code continuation.",
         "Thirty source candidates and 35 printed anomalies remain explicit. The historical Hangul product glyph, square-like delimiters, broken bars, literal EV_TEGISTERED, END_RESOPONSE_TABLE, EK_NEXTOWRD, 0x4000000 and inconsistent identifiers are preserved without program repair. Three pre-OCR maps retain 67 margin adjustments. One paused/resumed prospectively timed source pass, zero OCR retries, zero post-OCR crop changes, zero within-pass refinements after first serialization and zero post-pass source changes. Two source-pass bookkeeping attempts and one verifier count correction are retained; no package bytes changed.",
         "All 40 invalid cases reject. All 54,341 earlier July files, thirty core modules, seventeen selected frozen adapters and 72 classification pins remain exact. The unchanged fresh 214-test batch-63 baseline is reused. Totals: 27 readable articles, one partial, ten groups, seventeen references and 48 unresolved identities.",
-        "Next: restore final wordprocessor pages 449–452 / printed 438–441 as a separate native, preserving the incoming PaintStatus = Draw / Caret처럼 physical wrap, remaining editing and block-selection sections, final prose, editor credit, ending emblem and WORD.HPP/WORD.CPP/WORD.RC directory. Then actually assemble 443–452. Exclude advertisement 442 and distinct PowerBuilder opening 453. Groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes and execution remain explicit limits."
+        "Next: restore final wordprocessor pages 449–452 / printed 438–441 as a separate native, preserving the incoming PaintStatus = Draw / Caret처럼 physical wrap, remaining editing and block-selection sections, final prose, editor credit, ending emblem and WORD.HPP/WORD.CPP/WORD.RC directory. Then actually assemble 443–452. Exclude advertisement 442 and distinct PowerBuilder opening 453. Groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes and execution remain explicit limits.",
+        "July batch 65 preserves wordprocessor0055 final PDF 449–452 / printed 438–441 as a\nsecond immutable native. All ten source pages 443–452 are now preserved across two\nsegments; actual article assembly remains pending. The batch-64 opening is unchanged.",
+        "All 440 selected, independent and fresh-process files match: 110 pixel-exact crops,\n107 raw OCR outcomes, 100 text blocks, 321 reading rows, 321 regional fragments and\n1,902 current typed ranges. Earlier-native title, author, group and incoming paragraph\nranges validate against their original package. Three original visuals retain one literal\ncaption. The caret table preserves 21 rows and 42 cells; the file directory preserves\nthree rows and six cells. Ten code blocks retain eight prototypes, two examples,\neleven source regions and 21 physical rows. Seven joins preserve seven boundaries,\nincluding the search example on 450–451. Editor 박재곤 remains separate from author 최권택.",
+        "Twelve source candidates and seventeen printed anomalies remain explicit, including\nendPMULTI_BLOCK], EK_NPREWORD, TDC::ExtTExtOut and the table's pso spelling. The search\nexample's English note remains without an invented comment prefix. Two pre-OCR maps\nretain 107 margin adjustments. One timed source pass, zero OCR retries, zero post-OCR\ncrop changes and zero within/post-pass text changes. The mapping prototype-count correction\nand failed verifier-preparation attempt are retained; neither changes package bytes.",
+        "All 44 invalid cases reject. All 55,596 earlier July files, thirty core modules,\nseventeen selected frozen adapters and 72 classification pins remain exact. The unchanged\nfresh 214-test batch-63 baseline is reused. Totals: 27 readable articles, one partial,\nten groups, seventeen references and 48 unresolved identities.",
+        "Next: actually assemble wordprocessor0055 across PDF 443–452 / printed 432–441 from\nits two immutable natives. Preserve the PaintStatus = Draw / Caret처럼 physical wrap\nwith one LF, all original code, table cells, source uncertainties, credit and directory.\nGroups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accounting,\ncover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,\nfull proofreading, human acceptance, exact source bytes and execution remain explicit limits."
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-64-r01/wordprocessor-a",
+        "directory": "archive/pdf/1995-07/packages/batch-65-r01/wordprocessor-b",
         "article_id": "scan-maso-1995-07-toc-0055",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-64-r01/wordprocessor-a/manifest.json",
-          "sha256": "8cdc34a6e8a4373bd007f521aa4b547fe59163fae50ba7c4e48e64e9fc85b478",
-          "bytes": 59474
+          "path": "archive/pdf/1995-07/packages/batch-65-r01/wordprocessor-b/manifest.json",
+          "sha256": "2c6806957e97767c8dde3787796eb991ebfaedac07de9c17e74b7e7a0e8b1067",
+          "bytes": 75609
         },
         "coverage": {
           "pdf_pages": [
-            443,
-            444,
-            445,
-            446,
-            447,
-            448
-          ],
-          "printed_pages": [
-            "432",
-            "433",
-            "434",
-            "435",
-            "436",
-            "437"
-          ],
-          "regions": 88,
-          "blocks": 71,
-          "figures": 3,
-          "deferred_pdf_pages": [
             449,
             450,
             451,
             452
-          ]
+          ],
+          "printed_pages": [
+            "438",
+            "439",
+            "440",
+            "441"
+          ],
+          "regions": 110,
+          "blocks": 100,
+          "figures": 3,
+          "deferred_pdf_pages": []
         },
         "body_pages_complete": false,
-        "prose_complete": false,
+        "prose_complete": true,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "actual_start_pdf_page": 443,
         "actual_end_pdf_page": 452,
         "full_extent_verified": true,
-        "remaining_source_pages": [
-          449,
-          450,
-          451,
-          452
-        ],
+        "remaining_source_pages": [],
         "segment_scope": {
           "full_pdf_pages": [
             443,
@@ -7202,52 +7193,253 @@
             452
           ],
           "current_pdf_pages": [
-            443,
-            444,
-            445,
-            446,
-            447,
-            448
-          ],
-          "current_printed_pages": [
-            "432",
-            "433",
-            "434",
-            "435",
-            "436",
-            "437"
-          ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": false,
-          "actual_start_pdf_page": 443,
-          "observed_ending_pdf_page": 452,
-          "remaining_source_pages": [
             449,
             450,
             451,
             452
           ],
+          "current_printed_pages": [
+            "438",
+            "439",
+            "440",
+            "441"
+          ],
+          "current_segment_pages_complete": true,
+          "body_pages_complete": false,
+          "prose_complete": true,
+          "actual_start_pdf_page": 443,
+          "observed_ending_pdf_page": 452,
+          "remaining_source_pages": [],
           "assembly_required": true,
           "complete_article_assembly_pending": true,
           "remaining_extent_unverified": false,
           "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-64/source-reviewed.json",
-            "sha256": "f5c4961586b73efc9ed87904f541dda43587989fec07b0c9725dd78c3773bab5",
-            "bytes": 1936
+            "path": "archive/pdf/1995-07/restoration/batch-65/source-reviewed.json",
+            "sha256": "e50c62ed04e0b22dbd15c9eebace6a9a2f92a104c24858c0003c2bb8b67f559e",
+            "bytes": 3176
           }
         },
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-64/validation.json",
-          "sha256": "6c82d8afb14f62350c8fbe3a521891bc301884ccba915119658c569a42eb0d97",
-          "bytes": 2290
+          "path": "archive/pdf/1995-07/restoration/batch-65/validation.json",
+          "sha256": "319bbd7b95c5104d32556657b8be851e9c56b467892c3cc64d1b1f5f37691951",
+          "bytes": 2356
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-64/reproduction.json",
-          "sha256": "5955ca268a0de20abc685792f28b84b65adc8024ce82b83259df0af2eaeff0ed",
-          "bytes": 67915
+          "path": "archive/pdf/1995-07/restoration/batch-65/reproduction.json",
+          "sha256": "d013920f54bba2dbd378ab4ca03c4342268ebe5b8e2539f016b1f4c1c6600fd0",
+          "bytes": 85754
         },
-        "checkpoint": "batch-64"
+        "checkpoint": "batch-65",
+        "immutable_native_segments": [
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-64-r01/wordprocessor-a",
+            "article_id": "scan-maso-1995-07-toc-0055",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-64-r01/wordprocessor-a/manifest.json",
+              "sha256": "8cdc34a6e8a4373bd007f521aa4b547fe59163fae50ba7c4e48e64e9fc85b478",
+              "bytes": 59474
+            },
+            "coverage": {
+              "pdf_pages": [
+                443,
+                444,
+                445,
+                446,
+                447,
+                448
+              ],
+              "printed_pages": [
+                "432",
+                "433",
+                "434",
+                "435",
+                "436",
+                "437"
+              ],
+              "regions": 88,
+              "blocks": 71,
+              "figures": 3,
+              "deferred_pdf_pages": [
+                449,
+                450,
+                451,
+                452
+              ]
+            },
+            "body_pages_complete": false,
+            "prose_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 443,
+            "actual_end_pdf_page": 452,
+            "full_extent_verified": true,
+            "remaining_source_pages": [
+              449,
+              450,
+              451,
+              452
+            ],
+            "segment_scope": {
+              "full_pdf_pages": [
+                443,
+                444,
+                445,
+                446,
+                447,
+                448,
+                449,
+                450,
+                451,
+                452
+              ],
+              "current_pdf_pages": [
+                443,
+                444,
+                445,
+                446,
+                447,
+                448
+              ],
+              "current_printed_pages": [
+                "432",
+                "433",
+                "434",
+                "435",
+                "436",
+                "437"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": false,
+              "actual_start_pdf_page": 443,
+              "observed_ending_pdf_page": 452,
+              "remaining_source_pages": [
+                449,
+                450,
+                451,
+                452
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-64/source-reviewed.json",
+                "sha256": "f5c4961586b73efc9ed87904f541dda43587989fec07b0c9725dd78c3773bab5",
+                "bytes": 1936
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-64/validation.json",
+              "sha256": "6c82d8afb14f62350c8fbe3a521891bc301884ccba915119658c569a42eb0d97",
+              "bytes": 2290
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-64/reproduction.json",
+              "sha256": "5955ca268a0de20abc685792f28b84b65adc8024ce82b83259df0af2eaeff0ed",
+              "bytes": 67915
+            },
+            "checkpoint": "batch-64"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-65-r01/wordprocessor-b",
+            "article_id": "scan-maso-1995-07-toc-0055",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-65-r01/wordprocessor-b/manifest.json",
+              "sha256": "2c6806957e97767c8dde3787796eb991ebfaedac07de9c17e74b7e7a0e8b1067",
+              "bytes": 75609
+            },
+            "coverage": {
+              "pdf_pages": [
+                449,
+                450,
+                451,
+                452
+              ],
+              "printed_pages": [
+                "438",
+                "439",
+                "440",
+                "441"
+              ],
+              "regions": 110,
+              "blocks": 100,
+              "figures": 3,
+              "deferred_pdf_pages": []
+            },
+            "body_pages_complete": false,
+            "prose_complete": true,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 443,
+            "actual_end_pdf_page": 452,
+            "full_extent_verified": true,
+            "remaining_source_pages": [],
+            "segment_scope": {
+              "full_pdf_pages": [
+                443,
+                444,
+                445,
+                446,
+                447,
+                448,
+                449,
+                450,
+                451,
+                452
+              ],
+              "current_pdf_pages": [
+                449,
+                450,
+                451,
+                452
+              ],
+              "current_printed_pages": [
+                "438",
+                "439",
+                "440",
+                "441"
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": true,
+              "actual_start_pdf_page": 443,
+              "observed_ending_pdf_page": 452,
+              "remaining_source_pages": [],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-65/source-reviewed.json",
+                "sha256": "e50c62ed04e0b22dbd15c9eebace6a9a2f92a104c24858c0003c2bb8b67f559e",
+                "bytes": 3176
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-65/validation.json",
+              "sha256": "319bbd7b95c5104d32556657b8be851e9c56b467892c3cc64d1b1f5f37691951",
+              "bytes": 2356
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-65/reproduction.json",
+              "sha256": "d013920f54bba2dbd378ab4ca03c4342268ebe5b8e2539f016b1f4c1c6600fd0",
+              "bytes": 85754
+            },
+            "checkpoint": "batch-65"
+          }
+        ],
+        "all_native_pdf_pages": [
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452
+        ],
+        "source_extent_preserved_across_natives": true
       }
     },
     {
@@ -10422,6 +10614,41 @@
         "sha256": "60ecf3a1ae89c9569b68a01f5e82d6071384a54977069145dc2372e65863b56f",
         "bytes": 3855
       }
+    },
+    {
+      "name": "1995-07-batch-65",
+      "status": "complete",
+      "completed_at": "2026-11-07T06:06:51.472295+00:00",
+      "goal": "Preserve wordprocessor0055 final449–452 as a second immutable partial native;actual assembly remains separate.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0055"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 4,
+      "mapped_pdf_pages": [
+        449,
+        450,
+        451,
+        452
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        448,
+        453
+      ],
+      "recognition_invocations": 107,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-65/validation.json",
+        "sha256": "319bbd7b95c5104d32556657b8be851e9c56b467892c3cc64d1b1f5f37691951",
+        "bytes": 2356
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-65/reproduction.json",
+        "sha256": "d013920f54bba2dbd378ab4ca03c4342268ebe5b8e2539f016b1f4c1c6600fd0",
+        "bytes": 85754
+      }
     }
   ],
   "totals": {
@@ -10437,7 +10664,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: restore final wordprocessor pages 449–452 / printed 438–441 as a separate native, preserving the incoming PaintStatus = Draw / Caret처럼 physical wrap, remaining editing and block-selection sections, final prose, editor credit, ending emblem and WORD.HPP/WORD.CPP/WORD.RC directory. Then actually assemble 443–452. Exclude advertisement 442 and distinct PowerBuilder opening 453. Groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes and execution remain explicit limits. Preserve all earlier packages,72 classification pins and17 selected frozen adapters. Do not rerun opening OCR or source correction. Continue remaining July identities;no automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Actually assemble wordprocessor0055 across PDF443–452/printed432–441 from immutable wordprocessor-a(batch64-r01) and wordprocessor-b(batch65-r01). Independently regenerate and preserve all792 native files. Join a.move-word-a to b.move-word-b with one actual LF after PaintStatus = Draw and before Caret처럼;preserve the physical identifier wrap. All198 crops,192 raw OCR outcomes,171 native blocks,754 reading rows,755 regional fragments,4580 native typed occurrences,six original visuals and one caption remain. Preserve22 code blocks/24 source regions/103 physical rows/one blank,eight final prototypes,21-row42-cell caret table,three-row6-cell directory,five schedule rows,three clipboard rules,six tab steps,five deletion steps,42 source candidates and52 literal anomalies. Retain19 native join groups/21 boundaries. Earlier-native context in b belongs to a and must not project as b current text. Author 최권택 and editor 박재곤 remain distinct. Full extent443–452;exclude442 advertisement and453 distinct PowerBuilder opening. Validate actual assembly before marking0055 readable. Groups0051/0052 and ancestor0043 remain incomplete. Preserve72 classification pins and17 frozen adapters. Then continue0056 and remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs and full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",

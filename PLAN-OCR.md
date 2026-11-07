@@ -1773,6 +1773,38 @@ incomplete. Whole-issue 560-page accounting, cover and standalone JSON/assets cl
 remain pending. Incomplete donated TOCs, full proofreading, human acceptance, exact source
 bytes and execution remain explicit limits.
 
+July batch 65 preserves wordprocessor0055 final PDF 449–452 / printed 438–441 as a
+second immutable native. All ten source pages 443–452 are now preserved across two
+segments; actual article assembly remains pending. The batch-64 opening is unchanged.
+
+All 440 selected, independent and fresh-process files match: 110 pixel-exact crops,
+107 raw OCR outcomes, 100 text blocks, 321 reading rows, 321 regional fragments and
+1,902 current typed ranges. Earlier-native title, author, group and incoming paragraph
+ranges validate against their original package. Three original visuals retain one literal
+caption. The caret table preserves 21 rows and 42 cells; the file directory preserves
+three rows and six cells. Ten code blocks retain eight prototypes, two examples,
+eleven source regions and 21 physical rows. Seven joins preserve seven boundaries,
+including the search example on 450–451. Editor 박재곤 remains separate from author 최권택.
+
+Twelve source candidates and seventeen printed anomalies remain explicit, including
+endPMULTI_BLOCK], EK_NPREWORD, TDC::ExtTExtOut and the table's pso spelling. The search
+example's English note remains without an invented comment prefix. Two pre-OCR maps
+retain 107 margin adjustments. One timed source pass, zero OCR retries, zero post-OCR
+crop changes and zero within/post-pass text changes. The mapping prototype-count correction
+and failed verifier-preparation attempt are retained; neither changes package bytes.
+
+All 44 invalid cases reject. All 55,596 earlier July files, thirty core modules,
+seventeen selected frozen adapters and 72 classification pins remain exact. The unchanged
+fresh 214-test batch-63 baseline is reused. Totals: 27 readable articles, one partial,
+ten groups, seventeen references and 48 unresolved identities.
+
+Next: actually assemble wordprocessor0055 across PDF 443–452 / printed 432–441 from
+its two immutable natives. Preserve the PaintStatus = Draw / Caret처럼 physical wrap
+with one LF, all original code, table cells, source uncertainties, credit and directory.
+Groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accounting,
+cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,
+full proofreading, human acceptance, exact source bytes and execution remain explicit limits.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
