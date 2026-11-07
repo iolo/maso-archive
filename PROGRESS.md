@@ -8041,3 +8041,48 @@ classification pins bring the issue requirement to 75. Totals: 31 readable artic
 zero partials, twelve groups, seventeen references and 43 unresolved identities.
 
 Next: verify article0061 CCC/Manager complete source extent from observed PDF481/printed472 opening and482/473 continuation. CodeView0062 opens489/480,but that alone does not establish0061 ending. Review the boundary and interior continuity,then restore an opening native of at most six newly mapped pages. Preserve source author 박진성,the literal 프로그래밍포럼 continuation banner and canonical OS·애플리케이션 포럼 hierarchy. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Groups0051/0052,forum0043 and the new0059/0060 families require separate reconciliation. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance and exact source bytes remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
+
+## 2026-11-07 — July 1995 CCC/Manager opening mapping/OCR stage
+
+July batch 75 is in progress at a saved mapping/OCR stage for CCC/Manager0061,
+해외 인기 툴을 만난다[4] : PVCS와 겨루는 버전 컨트롤 시스템 CCC/Manager.
+Full extent PDF481–487 / printed472–478 is verified from ten reviewed source pages.
+Source author 박진성 remains distinct from ending editor 정인성. The conclusion ends
+above an unrelated recruitment advertisement on487;488 is a full-page advertisement,
+and distinct CodeView opens489/480. Previous480 is also an advertisement. The printed
+프로그래밍포럼 continuation banner remains literal;canonical OS·애플리케이션 포럼 hierarchy
+is unchanged. Current opening481–486 is six pages;final487 and assembly remain separate.
+Four outside-map pages were inspected. Prose continues486→487 with a physical newline;
+no word splicing is authorized.
+
+The six original and second-map overlays,three enlarged example crops and all twelve
+third-map changed regions were directly inspected. Three retained maps record112
+pre-OCR region adjustments,including a new fragment to isolate market prose from the
+pullquote and top-margin repairs to retain complete first-line strokes. The first
+refinement attempt stopped on a new-region lookup error before writing the selected
+map;its script and failure record remain. Selected map is `ccc-a/map-r03.json`;
+`map-original.json` and `map.json` remain earlier versions. All100 selected crops are
+pixel-exact;94 original Tesseract outcomes and settings validate. Three example regions
+use eng;91 other text regions use kor+eng,OEM1/PSM6,one thread and3000-pixel rendering.
+Zero retries and no empty raw drafts. No source correction or package export has started.
+
+Six original screenshots retain five numbered captions and one uncaptioned opening
+screen. Nine workflow steps,an independent pullquote and product/contact box remain
+separate. The three examples have16 visible physical rows,including eleven circled
+explanatory markers in the delta listing;these require literal review without syntax
+repair. Ten planned local groups retain thirteen boundaries,including a zero-separator
+dropcap join and workflow continuations across columns/pages.
+
+All 69,354 earlier July files,thirty core modules,twenty frozen assembly
+adapters,the batch72 local OCR adapter,75 classification pins and source/TOC/queue/runtime
+pins remain unchanged. The unchanged fresh214-test batch73 baseline is reused.
+This is an in-progress stage,not a completed native or checkpoint. Totals remain31
+readable articles,zero partials,twelve groups,seventeen references and43 unresolved.
+
+Next: read all 94 drafts,then start one prospective source correction pass,export and
+validate the opening partial native and finish batch75. Reuse the saved OCR and selected
+third map. Final487,actual assembly,remaining canonical work,family reconciliation,
+whole-issue560-page accounting,cover and standalone JSON/assets closeout remain pending.
+Incomplete donated TOCs,full proofreading,human acceptance,original encoded bytes and
+execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-75/ocr-stage-audit.json`.

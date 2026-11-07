@@ -11714,7 +11714,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify article0061 CCC/Manager complete source extent from observed PDF481/printed472 opening and482/473 continuation. CodeView0062 opens489/480,but that alone does not establish0061 ending. Review the boundary and interior continuity,then restore an opening native of at most six newly mapped pages. Preserve source author 박진성,the literal 프로그래밍포럼 continuation banner and canonical OS·애플리케이션 포럼 hierarchy. Retain75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Groups0051/0052,forum0043 and the new0059/0060 families require separate reconciliation. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance and exact source bytes remain explicit limits. No automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Resume batch75 CCC/Manager0061 opening from saved mapped OCR. Read all94 raw drafts,then start one prospectively timed source correction pass for PDF481–486/printed472–477. Use selected ccc-a/map-r03.json and unchanged layout.json;earlier map-original.json and map.json are retained versions. Full extent481–487 is verified;final487 ends with separate editor 정인성 above an unrelated recruitment advertisement. Preserve all100 exact crops,94 raw OCR outcomes,six screenshots,five captions,nine workflow steps and three literal examples with16 physical rows and eleven circled explanatory markers. Retain the independent pullquote/product box,all contact/product fields,source author 박진성 and canonical hierarchy despite the printed 프로그래밍포럼 banner. Ten local groups retain thirteen boundaries;the dropcap uses no inserted separator and market text narrows around the pullquote. Export an immutable opening partial native,independently reproduce it in a fresh process and validate every range/context. Restore final487 separately,then actually assemble with the prose continuation486→487 retaining one LF and no word splice. Preserve75 classification pins,20 frozen assembly adapters and the batch72 local OCR adapter. Continue remaining July identities,family reconciliation,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -12091,5 +12091,55 @@
       "sha256": "48d4733bcec63b5089e5505656e430a5923772b5bd925e200703aca82d849e31",
       "bytes": 50884
     }
-  ]
+  ],
+  "in_progress_checkpoint": {
+    "name": "1995-07-batch-75",
+    "status": "mapped-and-recognized;source-correction-not-started",
+    "toc_entry_id": "maso-1995-07-toc-0061",
+    "full_pdf_pages": [
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487
+    ],
+    "mapped_pdf_pages": [
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "remaining_pdf_pages": [
+      487
+    ],
+    "regions": 100,
+    "ocr_outcomes": 94,
+    "pre_ocr_map_versions": 3,
+    "ocr_retries": 0,
+    "availability_changed": false,
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-75/source-reviewed.json",
+      "sha256": "24b8124d28f1aad1a0ad3844fe518194d5926c04e46d56054ee52dc19770e080",
+      "bytes": 6045
+    },
+    "map": {
+      "path": "archive/pdf/1995-07/restoration/batch-75/ccc-a/map-r03.json",
+      "sha256": "d75e9ed6838deca581f34546fb7e99752207d38a4326b42379ca467d72cfea87",
+      "bytes": 35417
+    },
+    "raw_drafts": {
+      "path": "archive/pdf/1995-07/restoration/batch-75/initial-drafts.json",
+      "sha256": "f939300aab3e8f02a83dc2ee37c38adec1e25c91f73b35417969d807e15722e3",
+      "bytes": 27531
+    },
+    "audit": {
+      "path": "archive/pdf/1995-07/restoration/batch-75/ocr-stage-audit.json",
+      "sha256": "d3836eb93aa6fb4a45d0f3928534f50abed499c06326e196232a17e0dbb9f920",
+      "bytes": 1812
+    }
+  }
 }
