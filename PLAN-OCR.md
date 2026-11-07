@@ -1197,6 +1197,43 @@ completion only with descendant evidence and within the two-task limit. Whole Ju
 TOCs, full proofreading, human acceptance, exact encoded bytes and historical claims
 remain explicit limits. No automatic CD3 association, reader build or deployment.
 
+July batch 51 completes actual curves0049 assembly across PDF 367–373/printed356–362.
+Its 570 selected, independent and fresh-process files include all 561 independently
+regenerated immutable native files. All 147 pixel-exact crops, 132 original OCR
+outcomes, 115 assembled blocks, 480 reading rows, 3,804 native metadata occurrences,
+7,614 current ranges and 35,154 scalar values validate. Five earlier-native ranges
+retain native-a ownership. Conclusion372→373 joins once with the original physical
+newline; figure5 remains independent. All fourteen local join groups and seventeen
+regional boundaries preserve source text, including the single drop-cap zero separator.
+Fifteen originals retain nine figure captions; two listing captions bring the literal
+caption total to eleven. All 35 diagram labels, three mathematical linearizations,
+eight typography fields, five series entries, five numbered references, wrapped
+contact and separate author/editor remain. PostScript retains seventy physical rows,
+including one blank and four English comments; the two independent OpenGL functions
+retain thirteen and sixteen rows. No code repair or execution claim is made.
+Positive final-page evidence resolves figure5/listing2 references while preserving
+original native uncertainty flags and all source anomalies/glyph candidates.
+Two external subgroup0046 status files reproduce independently and in a fresh process.
+They preserve socket0047 and WinG0048, add curves0049, and complete all three child
+restorations without a group body. Five original fields, thirteen historical notes,
+two previous pending arrays, one copied article note and three child ranges validate.
+Ancestor0044 reconciliation remains a separate checkpoint;forum0043 still has other
+pending descendants. All 52 assembly and 34 status invalid cases reject;all 214 fresh
+PDF tests pass. One audit-script field lookup was corrected with the failed attempt
+retained;no package or source text changed. All 41,953 earlier July files,thirty core
+modules,thirteen prior adapters and 65 previous classification pins remain exact.
+Two canonical tasks,zero mapped pages,five reused lookup views,no new OCR or source
+correction. Totals: twenty-four readable articles, zero partials, eight groups,
+seventeen references and 54 unresolved identities. There are now 67 classification
+pins and fourteen frozen adapters including the new curves adapter.
+Next: reconcile ancestor0044 from its complete direct article0045 and complete
+subgroup0046 using immutable descendant evidence,without completing forum0043 or
+inventing a group body. Then continue canonical0050 and the remaining July queue
+with the two-task/six-mapped-page/twenty-lookup limits. Whole July560-page accounting,
+cover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,
+full proofreading,human acceptance,exact original encoded bytes and historical
+claims remain explicit limits. No automatic CD3 association,reader build or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02

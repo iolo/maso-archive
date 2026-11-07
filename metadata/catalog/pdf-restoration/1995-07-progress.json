@@ -5734,7 +5734,7 @@
       "parent_id": "maso-1995-07-toc-0046",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Curves0049 is verified across PDF367–373/printed356–362,with source title 곡선의 미래 기술,series 곡선 프로그래밍 and author 임채성(한양대 전자계산학과 VIP 연구실). Opening367–372 is preserved;final373 and actual assembly remain required. Adjacent366 and374–376 are advertisements. Extra377–385 were rendered but not reviewed or used.",
@@ -5751,38 +5751,19 @@
         "Listing2 retains drawCone and drawPyramid as separate examples with13 and16 physical rows. Square printed block delimiters,coordinates,types,identifiers and indentation approximations remain;zero blank rows,comments or omissions within either function. No syntax repair or complete-executable claim.",
         "Ending prose preserves Compiter,contact wrap cslim@/viplabl.hanyang.ac.kr and separate editor 박재곤. Five numbered references retain11 physical rows,principle,Van dam,Jhon and the unnumbered NURBS Surface Editor tail within entry5. No sixth number,bibliographic correction or email validation is inferred. Two glyph candidates retain l/1 and I/l limits.",
         "All35 drafts read before one prospective source pass. Two pre-OCR maps retain28 margin/contact-separation adjustments. Zero OCR retries,within-pass refinements,post-pass changes or post-OCR crop changes. Two eng code regions and33 kor+eng text regions use OEM1/PSM6,one thread,3000-pixel long edge.",
-        "All45 invalid cases reject;41448 earlier July files,30 core modules,13 frozen adapters and65 classification pins remain exact. Unchanged214-test batch48 baseline reused. One task,one mapped page,two outside lookups. Whole July560-page accounting,cover and standalone closeout remain pending;incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical execution remain explicit limits."
+        "All45 invalid cases reject;41448 earlier July files,30 core modules,13 frozen adapters and65 classification pins remain exact. Unchanged214-test batch48 baseline reused. One task,one mapped page,two outside lookups. Whole July560-page accounting,cover and standalone closeout remain pending;incomplete donated TOCs,full proofreading,human acceptance,exact source bytes and historical execution remain explicit limits.",
+        "July batch 51 completes actual curves0049 assembly across PDF 367–373/printed356–362.\nIts 570 selected, independent and fresh-process files include all 561 independently\nregenerated immutable native files. All 147 pixel-exact crops, 132 original OCR\noutcomes, 115 assembled blocks, 480 reading rows, 3,804 native metadata occurrences,\n7,614 current ranges and 35,154 scalar values validate. Five earlier-native ranges\nretain native-a ownership. Conclusion372→373 joins once with the original physical\nnewline; figure5 remains independent. All fourteen local join groups and seventeen\nregional boundaries preserve source text, including the single drop-cap zero separator.\nFifteen originals retain nine figure captions; two listing captions bring the literal\ncaption total to eleven. All 35 diagram labels, three mathematical linearizations,\neight typography fields, five series entries, five numbered references, wrapped\ncontact and separate author/editor remain. PostScript retains seventy physical rows,\nincluding one blank and four English comments; the two independent OpenGL functions\nretain thirteen and sixteen rows. No code repair or execution claim is made.\nPositive final-page evidence resolves figure5/listing2 references while preserving\noriginal native uncertainty flags and all source anomalies/glyph candidates.\nTwo external subgroup0046 status files reproduce independently and in a fresh process.\nThey preserve socket0047 and WinG0048, add curves0049, and complete all three child\nrestorations without a group body. Five original fields, thirteen historical notes,\ntwo previous pending arrays, one copied article note and three child ranges validate.\nAncestor0044 reconciliation remains a separate checkpoint;forum0043 still has other\npending descendants. All 52 assembly and 34 status invalid cases reject;all 214 fresh\nPDF tests pass. One audit-script field lookup was corrected with the failed attempt\nretained;no package or source text changed. All 41,953 earlier July files,thirty core\nmodules,thirteen prior adapters and 65 previous classification pins remain exact.\nTwo canonical tasks,zero mapped pages,five reused lookup views,no new OCR or source\ncorrection. Totals: twenty-four readable articles, zero partials, eight groups,\nseventeen references and 54 unresolved identities. There are now 67 classification\npins and fourteen frozen adapters including the new curves adapter.\nNext: reconcile ancestor0044 from its complete direct article0045 and complete\nsubgroup0046 using immutable descendant evidence,without completing forum0043 or\ninventing a group body. Then continue canonical0050 and the remaining July queue\nwith the two-task/six-mapped-page/twenty-lookup limits. Whole July560-page accounting,\ncover and standalone JSON/assets closeout remain pending. Incomplete donated TOCs,\nfull proofreading,human acceptance,exact original encoded bytes and historical\nclaims remain explicit limits. No automatic CD3 association,reader build or deployment.\n"
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-50-r01/curves-b",
+        "directory": "archive/pdf/1995-07/packages/article-curves-r01",
         "article_id": "scan-maso-1995-07-toc-0049",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-50-r01/curves-b/manifest.json",
-          "sha256": "477bffafe08a94ecfcf25f54b9ec7891a26c3200489003ac6a7a1bc1e5306c70",
-          "bytes": 25800
+          "path": "archive/pdf/1995-07/packages/article-curves-r01/manifest.json",
+          "sha256": "bccc36b89b0c32bb477590ffc89bf0430da7f7688522d0d5c41d8bf905d633e2",
+          "bytes": 102531
         },
         "coverage": {
           "pdf_pages": [
-            373
-          ],
-          "printed_pages": [
-            "362"
-          ],
-          "regions": 37,
-          "blocks": 34,
-          "figures": 2,
-          "deferred_pdf_pages": []
-        },
-        "body_pages_complete": false,
-        "prose_complete": true,
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "actual_start_pdf_page": 367,
-        "actual_end_pdf_page": 373,
-        "full_extent_verified": true,
-        "remaining_source_pages": [],
-        "segment_scope": {
-          "full_pdf_pages": [
             367,
             368,
             369,
@@ -5791,38 +5772,36 @@
             372,
             373
           ],
-          "current_pdf_pages": [
-            373
-          ],
-          "current_printed_pages": [
+          "printed_pages": [
+            "356",
+            "357",
+            "358",
+            "359",
+            "360",
+            "361",
             "362"
           ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": false,
-          "prose_complete": true,
-          "actual_start_pdf_page": 367,
-          "observed_ending_pdf_page": 373,
-          "remaining_source_pages": [],
-          "assembly_required": true,
-          "complete_article_assembly_pending": true,
-          "remaining_extent_unverified": false,
-          "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-50/source-reviewed.json",
-            "sha256": "95a8752085243faa8469ada6534979515b981ffee0d66571c18d37efcca84a6e",
-            "bytes": 1995
-          }
+          "regions": 147,
+          "blocks": 115,
+          "figures": 15,
+          "deferred_pdf_pages": []
         },
-        "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-50/validation.json",
-          "sha256": "9e10bb11d6cec00f6324db74b83794cc3002265222c44c35788b143925d73891",
-          "bytes": 2446
-        },
-        "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-50/reproduction.json",
-          "sha256": "ab7b50c7f90e1d3152a43bd2b39de8eb408d379248174701393827ba3046631a",
-          "bytes": 30050
-        },
-        "checkpoint": "batch-50",
+        "body_pages_complete": true,
+        "prose_complete": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "actual_start_pdf_page": 367,
+        "actual_end_pdf_page": 373,
+        "full_pdf_pages": [
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373
+        ],
+        "remaining_source_pages": [],
         "immutable_native_segments": [
           {
             "directory": "archive/pdf/1995-07/packages/batch-49-r01/curves-a",
@@ -6002,7 +5981,18 @@
           372,
           373
         ],
-        "source_extent_preserved_across_natives": true
+        "source_extent_preserved_across_natives": true,
+        "validation": {
+          "path": "archive/pdf/1995-07/restoration/batch-51/assembly-audit.json",
+          "sha256": "01b59f1de8378eaf9a0cf2856f8c0368bd51fbcd6126126e32f9923f05f20ceb",
+          "bytes": 1493
+        },
+        "reproduction": {
+          "path": "archive/pdf/1995-07/restoration/batch-51/reproduction.json",
+          "sha256": "913db9d437dca2254c7870ae803164950b8a985b0c3edab59c25dbf5d2514e94",
+          "bytes": 104926
+        },
+        "checkpoint": "batch-51"
       }
     },
     {
@@ -8698,12 +8688,61 @@
         "sha256": "ab7b50c7f90e1d3152a43bd2b39de8eb408d379248174701393827ba3046631a",
         "bytes": 30050
       }
+    },
+    {
+      "name": "1995-07-batch-51",
+      "status": "complete",
+      "completed_at": "2026-11-07T01:39:52.135524+00:00",
+      "goal": "Actually assemble complete curves0049 and externally complete subgroup0046,retaining socket0047 and WinG0048;ancestor0044 reconciliation pending.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0049",
+        "maso-1995-07-toc-0046"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 5,
+      "outside_lookup_pdf_pages": [
+        366,
+        367,
+        372,
+        373,
+        374
+      ],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-51/assembly-audit.json",
+        "sha256": "01b59f1de8378eaf9a0cf2856f8c0368bd51fbcd6126126e32f9923f05f20ceb",
+        "bytes": 1493
+      },
+      "status_validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-51/status-validation.json",
+        "sha256": "4693a867c547232e905eba26c9874e0c83622d127be1c5330cac49e60444f6bb",
+        "bytes": 958
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-51/reproduction.json",
+        "sha256": "913db9d437dca2254c7870ae803164950b8a985b0c3edab59c25dbf5d2514e94",
+        "bytes": 104926
+      },
+      "status_reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-51/status-reproduction.json",
+        "sha256": "6f3c12a2d2759bdf7ce001b6058690a01524890e6785f0921c1400525fcf9e08",
+        "bytes": 793
+      },
+      "group_status_disposition": {
+        "path": "archive/pdf/1995-07/classifications/batch-51-r01/group-status-dispositions.json",
+        "sha256": "ff82a232fb3efa32c5207cda4ba4ab7f671bdfbbf8d798b34d257f147e1a4194",
+        "bytes": 19133
+      }
     }
   ],
   "totals": {
     "canonical_entries": 103,
-    "readable": 23,
-    "partial": 1,
+    "readable": 24,
+    "partial": 0,
     "group_headings": 8,
     "section_references": 17,
     "unresolved": 54
@@ -8713,7 +8752,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Actually assemble curves0049 across PDF367–373/printed356–362 from independently regenerated immutable curves-a(batch49-r01) and curves-b(batch50-r01). Join conclusion-a372→conclusion-b373 with one original physical LF;diagram5 remains a separate context. Preserve561 selected native files and all five native-b earlier_native_context ranges in native-a namespace. Resolve earlier creation-time figure5/listing2 flags externally using positive373 evidence. Retain all15 originals,11 literal captions,35 diagram labels,eight typography fields,five series entries,three mathematical linearizations,PostScript70 rows,OpenGL29 rows,five reference entries,wrapped contact,separate author/editor,source anomalies and glyph candidates. Validate actual assembled package,then reconcile evidenced subgroup0046/ancestor0044 completion within the two-task bound;do not complete forum0043 without its other descendants. Preserve65 classification pins and13 frozen adapters. Continue remaining July identities,560-page accounting,cover and standalone JSON/assets closeout;no automatic CD3 association,reader rebuild or deployment.",
+  "next_checkpoint": "Reconcile ancestor0044 from its complete direct article0045 and complete subgroup0046 using immutable descendant evidence. Do not complete forum0043,which has other pending descendants,or invent a group body. Then continue canonical0050 and remaining July identities within two canonical tasks,six mapped pages,twenty outside lookups per checkpoint. Preserve67 classification pins and14 frozen adapters,including batch51 curves_adapter.py. Whole July560-page accounting,cover and standalone JSON/assets closeout remain pending;no automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -9039,6 +9078,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-48-r01/family-ownership.json",
       "sha256": "3c7d0c90e0774cd1bc6dd4891d647d7cb686db236e0711db1aeccc4120e265ad",
       "bytes": 20910
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-51-r01/group-status-dispositions.json",
+      "sha256": "ff82a232fb3efa32c5207cda4ba4ab7f671bdfbbf8d798b34d257f147e1a4194",
+      "bytes": 19133
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-51-r01/family-ownership.json",
+      "sha256": "5093126af94337164e59bd4692c63f3fd7751daaf081b369f8304d90de1a68be",
+      "bytes": 25928
     }
   ]
 }
