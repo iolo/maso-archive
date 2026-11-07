@@ -1711,6 +1711,33 @@ groups 0051/0052 and ancestor 0043 remain incomplete. Whole-issue 560-page accou
 cover and standalone JSON/assets closeout remain pending; incomplete donated TOCs,
 full proofreading, human acceptance, exact source bytes and execution remain explicit limits.
 
+July batch 64 is in progress at a saved mapping/OCR stage. Direct review of thirteen
+source pages verifies wordprocessor0055, 윈도우즈용 워드프로세서 제작[3] : 블록 설정과
+편집 기능, by 최권택, across PDF 443–452 / printed 432–441. The printed heading uses
+블럭; canonical TOC wording remains unchanged. Final prose, editor credit and the three-file
+WORD.HPP/WORD.CPP/WORD.RC directory end 452. The preceding book advertisement 442 and
+following PowerBuilder article opening 453 are excluded; 454 confirms that next article.
+
+Opening 443–448 now has 88 pixel-exact regions: three original visuals, five series-schedule
+rows, thirteen code regions forming twelve code blocks, and the prose and numbered
+clipboard/tab/delete procedures. Twelve planned regional join groups include the dropcap,
+column/page continuations and a code fragment. Outgoing 448 ends with Draw; 449 starts
+Caret처럼. That physical wrap remains for later source-preserving assembly.
+
+Three retained pre-OCR maps record 67 margin adjustments. An overly broad repeated-header
+exclusion was narrowed after validation rejected overlap, before any revised map export or
+recognition. All 85 raw Tesseract outcomes are pinned and nonempty: thirteen code regions
+use eng and 72 others use kor+eng, with zero retries. All 54,341 earlier July files,
+thirty core modules, seventeen selected frozen adapters and source pins remain exact.
+This is not a completed native or batch: source correction and package export have not
+started. Totals remain 27 readable articles, zero partials, ten groups, seventeen references
+and 49 unresolved identities. Next: read all85 drafts, start one prospective source
+correction pass, validate the immutable opening native and close batch64. Reuse saved OCR.
+Later 449–452 and actual assembly remain separate. Whole-issue 560-page accounting, cover
+and standalone JSON/assets closeout remain pending; incomplete donated TOCs, full
+proofreading, human acceptance, exact source bytes and execution remain explicit limits.
+Evidence: `archive/pdf/1995-07/restoration/batch-64/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
