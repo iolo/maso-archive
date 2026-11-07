@@ -10260,3 +10260,51 @@ standalone JSON/assets closeout. Preserve all 111 classification pins, 27 frozen
 adapters from batch 101 and three local OCR adapters from batch 87. Incomplete donated TOCs,
 full proofreading, human acceptance and original encoded bytes remain explicit limits. No
 inferred CD3 association, reader rebuild or deployment.
+
+July batch 111 finalizes CD children 0085, 컴퓨터를 이용한 컴퓨터 학습 타이틀, PC 어드벤처,
+and 0086, 최초의 해외 여행 관련 CD, 배낭메고 유럽으로, as non-owning references into
+complete CD bundle 0084. Their complete source scopes are PDF 199 / printed 188 and
+PDF 200 / printed 189. Canonical identities, hierarchy and absent canonical folios
+remain unchanged; no duplicate article bodies are created.
+
+Direct review of PDF 198–201 confirms the independent game ending, PC review,
+travel review and following Magic opening. PC retains six main paragraphs, three
+screenshots with captions, two highlights and four product fields. Europe retains
+seven main paragraphs, four screenshots with captions, two highlights and four
+product fields, including the final CD-ROM usability limitation. Five paragraph
+joins retain five same-page boundaries; neither reference includes a cross-page
+prose join or the parent-only library/category banners.
+
+All four classification files reproduce independently and in a fresh process.
+All 399 typed ranges, 48 regions, 36 blocks, thirteen main paragraphs, 165 physical
+rows, seven original images/captions, eight product fields and four highlights
+validate. Three within-region word wraps and one column word continuation retain
+source bytes. Five source notes and two candidate records preserve the historical
+araea wordmarks, independently printed numeric forms, the travel program's 베낭
+spelling and the 80 / 0MB wrap. No new mapping, rendering, OCR or source correction.
+
+All 52 invalid cases reject, including duplicated body ownership, incorrect bounds,
+neighbor inclusion, missing captions or highlights, swapped product details, lost
+physical rows or wordmark representation, and premature family completion. All
+93,327 earlier July files, 429 complete parent files, thirty core modules, 27 frozen
+assembly adapters, three local OCR adapters and 111 prior classification pins remain
+exact. The unchanged fresh 214-test batch 101 baseline is reused. Three new required
+pins bring classification evidence to 114. External status records 0085/0086 as final;
+immutable creation-time pending flags remain unchanged. Child 0087 and CD, library
+0070 and forum 0059 family reconciliation remain pending.
+
+Two canonical tasks, zero mapped pages and four source lookup pages stay within
+checkpoint limits. Totals are 42 readable articles, zero partials, fifteen groups,
+twenty-nine references and seventeen unresolved identities across 111 completed
+checkpoints. Full proofreading, human acceptance and original encoded bytes remain
+unverified. Whole July restoration is still in progress.
+
+Next: classify CD child 0087, 영어 학습 타이틀, 마술가게, from PDF 201 / printed 190
+against the complete batch-110-r01/cd native, then reconcile the CD 0084 family as
+a second bounded task. Preserve final 0085/0086 references and all seven review
+contexts, keeping four unlisted reviews parent-owned. Then verify hardware 0088
+from PDF 203 / printed 192 and continue remaining July identities, library 0070/forum
+0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets
+closeout. Preserve all 114 classification pins, 27 frozen assembly adapters from batch
+101 and three local OCR adapters from batch 87. Incomplete donated TOCs remain an
+explicit verification limit. No automatic CD3 association, reader rebuild or deployment.
