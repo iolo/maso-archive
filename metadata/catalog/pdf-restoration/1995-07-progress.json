@@ -15712,7 +15712,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify CD bundle0084, CD 타이틀 광장, from its observed PDF199 / printed188 opening. Reuse saved199–202 views, establish the actual ending and interior continuity, then map at most six pages per native. Preserve independent reviews, titles, screenshots, captions and literal product details without inventing child identities. Continue the remaining July identities, library0070/forum0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Preserve all 111 classification pins, 27 frozen assembly adapters from batch101 and three local OCR adapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Resume batch 110 CD bundle 0084 from saved mapped OCR. Read all 102 raw drafts before starting one prospectively timed source correction pass across PDF 199–202 / printed 188–191. Reuse cd/map.json (second map), layout.json and successful OCR; all four pages fit one complete native. Seven independent reviews retain twelve screenshots, one publication ending mark, seven literal captions, 28 product fields, eight highlight bullets and twelve paragraph groups across fifteen boundaries. No incoming, outgoing or cross-page prose joins. Canonical children 0085–0087 remain pending complete parent restoration and later bounded reference classification; four other reviews remain parent-owned. Preserve physical wraps, printed spelling, identifiers and historical claims. Export and independently reproduce the complete native in a fresh process, validating every range/context. Retain 111 classification pins, 27 frozen assembly adapters from batch 101, three local OCR adapters from batch 87 and the batch 76 figure builder. Then classify children 0085–0087, verify hardware 0088 from PDF 203, and continue remaining July identities, library 0070/forum 0059 reconciliation, 560-page accounting, cover verification and standalone JSON/assets closeout. Incomplete donated TOCs remain an explicit verification limit. No automatic CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -16269,5 +16269,51 @@
       "sha256": "01c71cdb62f109661a2b7c7399a28557030f0d284ddaae7e6d7e438892e1abd4",
       "bytes": 30128
     }
-  ]
+  ],
+  "in_progress_checkpoint": {
+    "name": "1995-07-batch-110",
+    "status": "mapped-and-recognized;source-correction-not-started",
+    "toc_entry_ids": [
+      "maso-1995-07-toc-0084"
+    ],
+    "toc_entry_id": "maso-1995-07-toc-0084",
+    "full_pdf_pages": [
+      199,
+      200,
+      201,
+      202
+    ],
+    "mapped_pdf_pages": [
+      199,
+      200,
+      201,
+      202
+    ],
+    "remaining_pdf_pages": [],
+    "regions": 115,
+    "ocr_outcomes": 102,
+    "pre_ocr_map_versions": 2,
+    "ocr_retries": 0,
+    "availability_changed": false,
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-110/source-reviewed.json",
+      "sha256": "52774017f945b744a61cf10d4fd2bed5b0afdf3ec38e534a28885d2306719645",
+      "bytes": 8698
+    },
+    "map": {
+      "path": "archive/pdf/1995-07/restoration/batch-110/cd/map.json",
+      "sha256": "c10257bdf774a397ac9f0fa1cf9b8d6f568f616ee5152c143943bed6c7d9b3bf",
+      "bytes": 36710
+    },
+    "raw_drafts": {
+      "path": "archive/pdf/1995-07/restoration/batch-110/initial-drafts.json",
+      "sha256": "9f49477f0c375a5f85c37dbf46d747d98d79e453542c37e9d6062c324268913c",
+      "bytes": 18048
+    },
+    "audit": {
+      "path": "archive/pdf/1995-07/restoration/batch-110/ocr-stage-audit.json",
+      "sha256": "2bff694a3c6d21d048db572082069eeda277435e6e906234f79b9cac3594f55e",
+      "bytes": 2296
+    }
+  }
 }
