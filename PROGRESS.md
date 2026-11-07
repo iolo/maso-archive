@@ -10821,3 +10821,63 @@ classification pins,27 frozen assembly adapters from batch101 and three local OC
 adapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance
 and original encoded bytes remain explicit limits. No inferred CD3 association,
 reader rebuild or deployment.
+
+July batch 121 completes subscription notice 0095 on PDF538 and advertisement
+index 0096 on PDF539–540. Their source titles are 정기구독 안내 and 광고색인.
+No printed folio is visible on these pages; canonical references529 and530 remain
+separate from observed null folios. Adjacent PDF537 is advertising; PDF541 contains
+distinct reader-prize/video-CD material with visible folio532. That observation
+does not establish the complete extent or eligibility of the next canonical item.
+
+All 209 selected, independent and fresh-process files match:157 subscription files
+and52 index files. The natives preserve55 pixel-exact crops,46 original OCR
+outcomes,46 text blocks,296 physical reading rows,4,125 typed range occurrences
+and nine original table/directory images with null captions. Searchable text
+overlapping the original images remains separately source-linked. No byline,
+caption, code, prose join or separate assembly is invented.
+
+Subscription retains22 literal rate cells,57 nationwide dealer records in eleven
+geographic groups, and44 CD-dealer mentions in fifteen cities. Two geographic
+groups cross panel boundaries. Its six tables retain65 logical rows,205 data
+cells and13 header cells. The final overseas region occupies two physical lines;
+three neighboring empty slots are continuation padding, not new records or blank
+data. Three printed header blanks remain explicit. Vertical labels, the printed
+sister title 마이트로소프트웨어 CD, header 위도우세계,마소 and dealer 청용사
+remain unchanged. Historical prices, accounts and contacts are not certified.
+
+The four advertiser panels retain134 records,536 data cells, sixteen repeated
+header cells and68 printed blank phone/product cells. Values are never inherited
+into missing cells. Literal page references, including insertion-style48-1,2,3
+and64-4, remain strings without assigned PDF destinations or new article identities.
+ITEMSCANNER's overflow beyond its table rule remains captured and source-linked.
+Fourteen source notes preserve spelling, punctuation and numeric anomalies.
+One unresolved y9/99 candidate remains attached to the original 한국3M page-reference
+cell. The advertising department contact is not an article byline.
+
+All46 raw drafts preceded one prospectively timed source correction pass.
+Two preserved pre-OCR maps contain four crop adjustments and110 original/selected
+crops. Two empty label drafts were recovered directly from scans. No OCR retry,
+post-OCR crop change, within-pass refinement, post-pass source change or helper
+failure occurred. All111 invalid cases reject, including lost cells or records,
+filled blanks, false page destinations, wrong source occurrences, lost wrapped
+cells, invented captions/bylines and premature family or issue completion.
+
+All96,841 earlier July files, thirty core modules,27 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and128 classification pins
+remain exact. The unchanged fresh214-test batch101 baseline is reused. Two canonical
+tasks, three mapped pages and two outside lookup pages537/541 stay within limits.
+Totals are48 readable articles, zero partials, sixteen groups,32 references and
+seven unresolved identities across121 completed checkpoints. Reader-board0093's
+immutable prior disposition remains historical; explicit family reconciliation
+still awaits0097–0098. Whole July restoration remains incomplete.
+
+Next: verify reader-card/prize item0097 from the observed PDF541/printed532 and
+locate diskette item0098, establishing their eligibility and complete extents
+independently within the two-task/six-page/twenty-lookup limits. Then explicitly
+reconcile reader-board0093, restore/classify survey0099 and children0100–0102,
+and resolve video appendix0103. Whole560-page accounting, cover verification and
+standalone JSON/assets closeout remain required. Preserve all128 classification
+pins,27 frozen assembly adapters from batch101 and three local OCR adapters from
+batch87. Incomplete donated TOCs, full proofreading, human acceptance and original
+encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild
+or deployment.
