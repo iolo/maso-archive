@@ -10990,7 +10990,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: restore coordinator0057 final PDF465–469 / printed454–458 as a separate immutable native, then actually assemble459–469. Reuse verified full-extent evidence and preserve opening batch68-r01/coordinator-a. Retain the incoming464→465 prose boundary after endCursorPosition이 실제의 값 and before 과 항상 일치하는 것은 아니다.; join only during actual assembly with one LF. Final source includes the TextImage continuation, TextMap section, editor 박준상 and15-row file directory; exclude the lower469 book advertisement. Preserve72 classification pins and18 frozen adapters. Then continue0058 and remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment. Retain72 classification pins and18 selected frozen adapters. Reuse complete prior packages without OCR or source-correction reruns.",
+  "next_checkpoint": "Resume batch 69 coordinator0057 final from saved mapped OCR. Read all 124 raw drafts, then start one prospectively timed source correction pass for PDF 465–469/printed 454–458. Full extent459–469 is verified;opening batch68-r01/coordinator-a stays immutable. All 129 crops and 124 raw outcomes are verified;reuse successful recognition. Review every region,25 literal code regions,14 diagram labels,two captions,15 directory rows/30 cells/two headers,editor credit and seven local boundaries. Export immutable final partial native;independently reproduce and validate it,then actually assemble 459–469 with the one incoming464→465 prose join. Preserve72 classification pins,18 frozen adapters and all prior packages. Continue0058 and remaining July identities,560-page accounting,cover and standalone JSON/assets closeout. No automatic CD3 association,reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -11352,5 +11352,58 @@
       "sha256": "d740de1dc30320019eefdce7692704a1e014cdba7b6d6c69887d8ed4533fcaf0",
       "bytes": 20514
     }
-  ]
+  ],
+  "in_progress_checkpoint": {
+    "name": "1995-07-batch-69",
+    "status": "mapped-and-recognized;source-correction-not-started",
+    "toc_entry_id": "maso-1995-07-toc-0057",
+    "full_pdf_pages": [
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469
+    ],
+    "mapped_pdf_pages": [
+      465,
+      466,
+      467,
+      468,
+      469
+    ],
+    "remaining_pdf_pages": [],
+    "actual_assembly_pending": true,
+    "regions": 129,
+    "ocr_outcomes": 124,
+    "pre_ocr_map_versions": 2,
+    "ocr_retries": 0,
+    "render_restarts": 1,
+    "availability_changed": false,
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-69/source-reviewed.json",
+      "sha256": "c6c0978e5ad89667fa8d7023f72c03ebfd86de915efa222a6ff2e24a5900cd63",
+      "bytes": 2010
+    },
+    "map": {
+      "path": "archive/pdf/1995-07/restoration/batch-69/coordinator-b/map.json",
+      "sha256": "94a02764eadc0095effa1d1ef5dbae1e36d0dfd47ec3ceea0afc14b7eb1cdc10",
+      "bytes": 42058
+    },
+    "raw_drafts": {
+      "path": "archive/pdf/1995-07/restoration/batch-69/initial-drafts.json",
+      "sha256": "a9c732d77f9c7011c5ad1bde7991af68260da37aa38daa86ead1f07e45714dbf",
+      "bytes": 23424
+    },
+    "audit": {
+      "path": "archive/pdf/1995-07/restoration/batch-69/ocr-stage-audit.json",
+      "sha256": "6c2c388f2d179b51e03f8b064ed9f7ea847a32000bca264be3e6985797bb30f6",
+      "bytes": 1840
+    }
+  }
 }

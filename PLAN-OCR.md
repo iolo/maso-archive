@@ -1996,6 +1996,44 @@ accounting,cover and standalone JSON/assets closeout. Incomplete donated TOCs,fu
 proofreading,human acceptance,exact encoded source bytes and execution remain explicit
 limits. No automatic CD3 association,reader rebuild or deployment.
 
+July batch 69 is in progress at a saved mapping/OCR stage for coordinator0057,
+코디네이터 '창사랑' 제작[4] : 문서 이미지의 마무리, by 박재홍.
+Full extent PDF 459–469 / printed 448–458 is verified. This final native covers
+465–469 only; opening batch68-r01/coordinator-a remains immutable and actual
+assembly is pending. Three outside-map views 464,470,471 retain the incoming
+boundary, following advertisement and next xBase opening. The lower 469 book
+advertisement is excluded.
+
+All five original and revised overlays were reviewed before the first render.
+Two maps retain 127 pre-OCR margin adjustments. The first process exited 143 during
+rendering, before regional recognition; its page-only output and original preflight
+record remain preserved. The enlarged target images in that combined tool result
+were truncated and were inspected after termination, before recovery recognition;
+interruption-recovery.json explicitly corrects the original preflight wording.
+One render restart and zero OCR retries. All 129 selected crops are pixel-exact;
+124 original Tesseract outcomes and settings are pinned. Twenty-five code regions
+use eng and 99 other text regions use kor+eng, OEM1/PSM6, one thread and 3000-pixel
+source rendering. Empty raw drafts: none. Source correction has not started.
+
+Five original visuals retain a class hierarchy, diagram 3, screenshot 2, ending
+emblem and 15-row file directory. Two literal captions, 14 diagram labels, 30 data
+cells,two column headers and editor 박준상 remain separate. Seven planned local
+prose groups retain seven boundaries. The incoming endCursorPosition paragraph
+continues 464→465 and joins only during actual assembly. Literal code punctuation,
+identifier spelling,physical wraps and directory rows require direct source review.
+
+All 62,884 earlier July files, thirty core modules,eighteen frozen
+adapters,source,canonical queue,runtime and original ledger pins remain exact.
+This is not a completed native or batch. Totals remain 29 readable articles,one
+partial,ten groups,seventeen references and46 unresolved identities.
+Next: read all 124 drafts,start one prospective source correction pass,export and
+validate the final partial native,then finish batch 69 and actually assemble 459–469.
+Reuse saved OCR. Remaining July identities,560-page accounting,cover and standalone
+JSON/assets closeout remain pending. Incomplete donated TOCs,full proofreading,
+human acceptance,original encoded bytes and execution remain explicit limits.
+No automatic CD3 association or reader work.
+Evidence: `archive/pdf/1995-07/restoration/batch-69/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
