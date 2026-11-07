@@ -2960,6 +2960,51 @@ then continue remaining July identities, page accounting, cover and standalone c
 Incomplete donated TOCs, full proofreading, human acceptance, exact original encoded bytes
 and execution remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 86 is in progress at a saved mapping/OCR stage for Windows NT article0066,
+Win32의 전진기지 윈도우즈 NT. Direct review of PDF510–522 establishes the complete extent at
+PDF511–519 / printed502–510. Source authors 이기활, 이기황, 채윤호 retain their affiliation,
+연세대학교 한국어사전편찬실 기술개발부; canonical 이기활 외 2인 remains unchanged. Main prose ends
+on517 with a separate ending emblem and editor 정인성. Its references, disk-file table and
+OpenGL listing remain article-owned. The listing continues through519, where an original
+illustration shares the page. PDF510 is the Windows95 ending,520 is advertising and521–522
+show the distinct PnP article under 하드웨어. Current mapping covers511–516; seven other pages
+are outside-map lookups. Final517–519 and actual article assembly remain separate stages.
+
+All six initial overlays,131 text-crop margin strips,the complete title/dropcap and all
+three original figures were directly inspected. Three retained maps record139 pre-OCR
+adjustments:133 margin/frame changes followed by six top-edge corrections to exclude
+neighboring-row fragments. All134 selected crops are pixel-exact. All131 original Tesseract
+outcomes and settings validate, using kor+eng, OEM1/PSM6, one thread and3000-pixel rendering.
+There is no code region in this opening native. Zero retries; 0 empty raw drafts.
+No source correction or package export has started. One audit assertion incorrectly
+expected the additional-adapter inventory to exclude the separately listed original.
+The failed checker is retained; the corrected check verifies both distinct adapters.
+Maps, OCR and source text were unchanged.
+
+Two comparison tables retain original images and34 searchable physical rows, comprising
+32 data rows and two header rows. Their116 data cells,seven header cells and two footnotes
+require occurrence-specific source review. Three numbered development tasks retain their
+separate explanations. The original OpenGL screenshot keeps its literal caption and title.
+Ten planned local groups preserve eleven boundaries, including the zero-separator dropcap.
+The conclusion continues516→517. Later listing pages518–519 repeat printed lines136–140;
+that source repetition and all omission markers must remain, without inferred missing code.
+
+All 77,087 earlier July files, thirty core modules, twenty-three frozen assembly
+adapters, both local OCR adapters, the batch76 figure builder and77 classification pins
+remain exact. The unchanged fresh214-test batch85 baseline is reused. This saved stage
+changes no completed article outcome and does not close batch86. Totals remain35 readable
+articles, zero partials, thirteen groups, seventeen references and38 unresolved identities.
+
+Next: read all 131 drafts, then start one prospective source correction pass, export and
+validate the opening partial native and finish batch86. Reuse the selected third map and
+successful OCR. Preserve source table values, O/X marks, long double80/64, physical wraps,
+all captions and source/canonical credits. Restore final517–519 separately, then assemble
+the complete article. Pending family reconciliation, remaining identities, whole July
+560-page accounting, cover and standalone JSON/assets closeout remain required. Incomplete
+donated TOCs, full proofreading, human acceptance, original encoded bytes and execution
+remain explicit limits. No automatic CD3 association, reader rebuild or deployment.
+Evidence: `archive/pdf/1995-07/restoration/batch-86/ocr-stage-audit.json`.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
