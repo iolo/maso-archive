@@ -3630,6 +3630,51 @@ identities, 560-page accounting, cover verification and standalone JSON/assets c
 Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain
 explicit limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 97 completes Windows subgroup 0052 and serials ancestor 0051 through
+external family reconciliation. The five immutable article owners are VB/SDK 0053
+on PDF 419–429, controls 0054 on 431–441, wordprocessor 0055 on 443–452,
+PowerBuilder 0056 on 453–458 and coordinator 0057 on 459–469. Their 49 distinct
+pages retain all original article bodies. PDF 430 and 442 remain outside these
+extents. Subgroup 0052 owns no body; ancestor 0051 references that subgroup and
+the same five leaf owners without inheriting pages, authors, folios or article text.
+Programming forum 0043 remains pending its separate reconciliation.
+
+Four selected classification files reproduce independently and in a fresh process.
+All 4,090 files in the five article packages remain byte-identical. Ninety-four
+package-local source ranges preserve titles, authors, opening, ending, editor and
+series contexts. Sixty-three subgroup and six ancestor status resolutions complete
+the families while preserving historical pending fields in the original evidence.
+The ancestor's five article references match the subgroup's owners exactly; they
+do not add five more restored articles or duplicate their source coverage.
+
+Ten reused classification crops remain pixel-exact. Canonical 연재 stays distinct
+from the source banner 연재강좌; canonical 윈도우즈 is not claimed as a standalone
+printed banner. The original limited absence observation remains limited to its
+reviewed pages. Article 0054's historical product-name glyph and Unicode approximation
+remain explicitly uncertain beside the original credit crop. Source authors 전성욱,
+김종원, 최권택, 장태원 and 박재홍 retain their separate editor and affiliation contexts.
+Printed code, diagrams, tables, source discrepancies and review limits are unchanged.
+
+All 56 invalid ownership, hierarchy, range, duplicate-body and status cases reject.
+All 86,563 earlier July files, thirty core modules, 26 frozen assembly adapters,
+three local OCR adapters, the batch76 figure builder and 85 previous classification
+pins remain exact. The unchanged fresh 214-test batch95 baseline is reused. Two
+canonical tasks, zero new mapped pages, zero outside source lookups, zero OCR and
+zero source correction passes stay within limits. Four new classification pins
+bring the issue requirement to 89. Only group entries 0051 and 0052 change; all
+article outcomes and forum 0043 remain unchanged. Totals remain 38 readable articles,
+zero partials, fourteen groups, seventeen references and 34 unresolved identities.
+
+Next: reconcile programming forum 0043 from complete direct article children 0050/0058,
+complete ancestor 0044 and complete serials family 0051. Preserve all four nested groups
+and eleven distinct article owners without duplicating their bodies. Then inspect
+library heading 0070 and its descendants against source evidence before deciding
+bundle/subtopic ownership. Preserve 89 classification pins, 26 frozen assembly adapters
+from batch95 and three local OCR adapters from batch87. Continue remaining July identities,
+560-page accounting, cover verification and standalone JSON/assets closeout. Incomplete
+donated TOCs, full proofreading, human acceptance and original encoded bytes remain
+explicit limits. No automatic CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
