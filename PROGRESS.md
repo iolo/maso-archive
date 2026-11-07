@@ -1,5 +1,45 @@
 # Progress
 
+## 2026-11-07 — July WinG continuation
+
+July batch 46 preserves WinG0048 continuation PDF 359–364/printed 348–353 as a
+second immutable partial native. Opening 353–358 remains unchanged; final 365 and
+actual assembly remain separate. The conclusion resumes 358→361 across independent
+API reference pages 359–360 and reaches its ending, editor 홍동선 and three references.
+All 273 selected, independent and fresh-process files match. All 69 exact crops,
+65 OCR outcomes, 53 blocks, 520 nonblank reading rows and 8,781 current typed ranges
+validate; six earlier-native ranges retain their original namespace. Four original
+images and two literal listing captions retain distinct source roles.
+The API reference preserves nine heading occurrences, eight declaration contexts
+and 32 parameter rows. Repeated WinGGetDIBPointer headings remain separate.
+GetDIBColorTable continues 359→360; the declaration under WinGBitBlt crosses columns
+and is printed WinGStretchBlt, with ten arguments but eight parameter descriptions.
+Printed UNIT, NumberOfEnteries, REBQUAD, hHeader, far pHeader, Stack and differing
+Recommended/Recommend spellings remain literal; no missing arguments are inferred.
+Ten code blocks retain twenty physical regions, 387 rows and forty numbered blank
+payloads. GDI listing1 is complete at 001–217; WinG listing2 retains 001–151 and
+continues 365. Five local joins preserve twelve LF boundaries. Printed
+WS.OVERLAPPEDWINDOW, wm-lbuttondown, WM-RBUTTONDOWN, reyurn, repeated decrement,
+count*33, 319 and TOP SPEED!!! remain. Four occurrence-specific glyph candidates
+and two broken-bar representations retain source links without syntax repair.
+All 65 drafts were read before one timed source pass. Three pre-OCR maps retain
+74 crop adjustments. Zero OCR retries, within-pass refinements, post-pass changes
+or post-OCR crop changes. A local variable shadowed the native name during the
+first export; its script, recipe, corrections, reproduction and 273-file package
+remain. Selected r02/wing-b has byte-identical content under the correct name;
+source text and OCR were unchanged. All 54 invalid cases reject.
+All 37,703 earlier July files, thirty core modules, twelve frozen adapters and
+63 classification pins remain exact; the unchanged 214-test batch-44 baseline is
+reused. One canonical task, six mapped pages and two outside lookups stay within limits.
+Totals: twenty-two readable articles, one partial, eight groups, seventeen
+references and 55 unresolved identities. Next: restore final WinG page 365, verify
+its repeated printed 184/185 and physical row count, then actually assemble 353–365.
+Keep the independent API reference separate from the incoming conclusion join;
+join the final numbered listing without duplicating its serialization newline.
+Whole July 560-page accounting, cover and standalone closeout remain pending.
+Incomplete donated TOCs, full proofreading, human acceptance, exact source bytes
+and historical execution remain explicit limits.
+
 ## 2026-11-07 — July WinG opening
 
 July batch 45 preserves WinG0048 opening PDF 353–358/printed 342–347 as an
