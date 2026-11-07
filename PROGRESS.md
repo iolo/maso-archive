@@ -7857,3 +7857,56 @@ cover and standalone JSON/assets closeout remain pending. Incomplete donated TOC
 full proofreading, human acceptance, original encoded bytes and execution remain explicit
 limits. No automatic CD3 association, reader rebuild or deployment.
 Evidence: `archive/pdf/1995-07/restoration/batch-71/ocr-stage-audit.json`.
+
+## 2026-11-07 — July xBase opening native complete
+
+July batch 71 completes the opening partial native for xBase0058, 임지열의 xBase 랩 : 패러독스, 비주얼
+폭스프로, 비주얼 오브젝트 분석[2] : 폼과 테이블 처리, across PDF471–476 / printed460–465. The source subtitle
+orders the products differently from the canonical title. Source author 임지열 and affiliation
+임지열 Xbase 연구소 retain their printed roles. Full extent471–479 / printed460–468 is verified;
+final477–479 and actual assembly remain separate.
+
+All684 selected, independent and fresh-process files match. The opening preserves177
+pixel-exact crops,166 original OCR outcomes,155 text blocks,426 reading rows,427 regional
+fragments,35 main-prose paragraphs and 2,186 typed ranges. Eleven original visuals retain
+title artwork, author portrait, seven screenshots and two comparison panels; nine literal
+captions remain separate. The independent biography, four book-title occurrences and
+two-paragraph pullquote remain outside main prose.
+
+Two comparison tables preserve73 nonblank cell occurrences, including eight headers and six
+merged group labels, plus one explicit blank cell. Fifteen data rows retain45 product-value
+cells; repeated circle/cross glyphs stay attached to their individual source cells, without
+inferred booleans. Physical reading order prints each merged label once. Seventeen product
+tasks and three integrity rules retain their separate list contexts. Nine regional groups
+preserve eleven boundaries, including the zero-separator introductory dropcap. Twelve
+section contexts and seven screenshot/explanation associations remain.
+
+Two code examples retain12 physical rows, including two blank rows, with literal tokens,
+listing offsets and explanatory prose links. Printed UINQUE, 가이즈, 없는, 그림에 떡이다. and 한 레코드로
+스킵한다. remain unrepaired; five uncertain readings are explicitly recorded. Two retained
+pre-OCR maps record105 margin adjustments. One prospectively timed source pass, zero OCR
+retries, zero post-OCR crop changes, zero text refinements after first serialization and
+zero post-pass changes.
+
+The original export built two matching packages before its metrics recorder failed because a
+table row-span variable shadowed the regional-row list. A separate recovery script validated
+those existing outputs and recorded the correct427 regional fragments without changing
+source, OCR, corrections, recipe or packages. The failed script and failure evidence remain.
+A retained first verifier used the first matching quoted label instead of its actual
+repeated occurrence; only the verifier was corrected. All52 invalid cases now reject.
+
+All65,599 earlier July files,1,272 saved OCR-stage files,thirty core modules,nineteen frozen
+adapters and72 classification pins remain exact. The unchanged fresh214-test batch70
+baseline is reused. Totals:30 readable articles, one partial, ten groups, seventeen
+references and45 unresolved identities. Parent forum0043 remains incomplete.
+
+Next: restore xBase0058 final PDF477–479 / printed466–468 as a separate immutable native,
+then actually assemble471–479. Preserve opening batch71-r01/xbase-a and reuse verified
+full-extent evidence. Page477 starts the CA-VO subsection; no prose join is required
+across476→477. Final source includes the remaining code and screenshots, two concluding
+sections, ending emblem and separate editor 홍동선. Exclude following480 advertisement. The
+next distinct CCC/Manager article opensPDF481/printed472; do not extrapolate the earlier
+PDF-minus11 offset. Preserve72 classification pins and19 frozen adapters. Then continue the
+remaining July identities,560-page accounting,cover and standalone JSON/assets closeout.
+Incomplete donated TOCs,full proofreading,human acceptance,exact encoded source bytes and
+execution remain explicit limits. No automatic CD3 association,reader rebuild or deployment.
