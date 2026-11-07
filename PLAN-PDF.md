@@ -5696,6 +5696,65 @@ evidence pins, 29 assembly adapter files and three local OCR adapters. Incomplet
 donated TOCs, full proofreading, human acceptance and original encoded bytes
 remain explicit limits. No inferred CD3 association, reader rebuild or deployment.
 
+July batch 133 advances complete structural page accounting to 355 of 560 pages.
+Twenty new declared lookups, PDF 2–3 and 16–33, are independent advertisements.
+Their complete page layouts were inspected in five labeled structural sheets;
+the original 2200-pixel renders remain preserved. Product, corporate and service
+advertisements stay outside article extraction. Stargate CD-ROM on 24 and
+Words Change95 on 29 are distinct from the Windows 95 videotape appendix.
+No instructional appendix body was observed in this bounded set; no whole-PDF
+absence or fine-print transcription claim is made.
+
+All 324 selected body pages now have explicit retained full-page/source-review
+bindings from 58 original review records. Nine bindings follow original
+render-input pins to reused source images. Thirty-eight early page bindings also
+carry explicit saved full-page/overlay preflight attestations, avoiding reliance
+on article page lists alone. The initial 315-page index, nine-image bridge version
+and stronger final binding version remain preserved. No prior source pass was
+reopened and no earlier review chronology was invented.
+
+All 83 distinct original exclusion notes were read and reconciled against the
+retained maps and review evidence. Of 540 regions, 537 now have explicit outcomes:
+525 page-furniture regions, nine independent advertisements, one publisher notice
+and two publisher promotions. All original rectangles, coordinate systems and
+source notes remain unchanged. Three subscription-form regions on 546–547 remain
+pending: the upper postcard reverse, subscription application and instructions/
+photograph strip. Their exclusion from reader0097 does not establish whether
+they belong to subscription0095, whose selected package covers 538. No new owner
+or complete related-body coverage is inferred; separate scope review is required.
+
+The 51 selected owners and 324 body/page assignments remain unchanged. Structural
+accounting is complete for 322 body pages and 33 non-body pages. Primary material
+is known on 357 pages; 203 primary classifications and 205 whole-page accounting
+outcomes remain pending, including the two subscription-form pages. The original
+360-record discovery index keeps its historical pending flags; final body
+bindings provide external dispositions, while non-body evidence still needs
+reconciliation. Unreviewed areas are not assumed blank or advertising.
+
+Seven accounting files reproduce independently and in a fresh process. All 31
+invalid accounting/provenance cases reject, including lost owners, invented video
+content, changed source geometry, weak page-list-only review, incorrect retained
+render bridges, automatic subscription ownership and premature completion.
+All 104,244 earlier July files, thirty core modules, 29 frozen assembly adapter
+files, three local OCR adapters and 138 prior evidence pins remain exact. The
+unchanged 214-test batch 128 baseline is reused. One accounting task, twenty
+outside page lookups, zero mapped article pages, zero OCR and zero source
+correction passes stay within checkpoint limits. All 103 canonical entries and
+their totals remain unchanged; checkpoint count is 133 and required evidence
+pins total 139. July's restoration goal remains active.
+
+Next: resolve the three subscription-form exclusions using subscription538,
+reader-card546–547 and separate giro548 source context before deciding whether
+additional canonical body restoration is required. Reconcile qualifying retained
+non-body reviews, then continue bounded review of remaining pages; the next
+untouched contiguous candidates are 34–53. Preserve all 560 slots and existing
+body owners. Final video0103 eligibility/media-gap disposition, cover verification
+and standalone JSON/assets export, reproduction and issue closeout remain required.
+Preserve all 139 evidence pins, 29 assembly adapter files and three local OCR
+adapters. Incomplete donated TOCs, full proofreading, human acceptance and original
+encoded bytes remain explicit limits. No inferred CD3 association, reader rebuild
+or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
