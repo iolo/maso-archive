@@ -3541,6 +3541,55 @@ identities, 560-page accounting, cover and standalone JSON/assets closeout. Inco
 donated TOCs, full proofreading, human acceptance and original encoded bytes remain explicit
 limits. No automatic CD3 association, reader rebuild or deployment.
 
+July batch 95 actually assembles complete CD-ROM article 0069, CD-ROM아 드라이브야, 내가 간다,
+across PDF 529–535 / printed 520–526. Source author 정용주, affiliation 기아시스템 and separate
+editor 박은숙 retain their original roles. Both immutable natives remain unchanged. The first
+paragraph on 535 is distinct from the preceding page, so no cross-native prose join occurs.
+The final two capacity paragraphs complete the preceding section; the writable-CD conclusion
+retains its own heading, physical column wrap and separate ending emblem. The lower-535 modem
+advertisement and full-page advertisement on 536 remain excluded.
+
+All 650 selected, independent and fresh-process assembly files match, including all 642 files
+from two independently regenerated natives. The complete package preserves 161 pixel-exact
+crops, 155 original OCR outcomes, 141 unchanged text blocks, 489 reading rows, 490 regional
+fragments, 124 prose paragraphs and 58 main prose paragraphs. All 3,168 projected native typed
+occurrences validate, including eight earlier-native occurrences owned by the opening segment;
+6,547 current ranges and 29,342 scalar values retain their source positions and provenance.
+Twelve local join groups and fourteen boundaries remain; no text is joined between natives.
+
+Six original images retain three literal captions. Three searchable tables preserve 58 fields,
+nine header fields, 49 data fields, 39 logical data cells and 26 physical rows. Seven displayed
+calculations, three calculation contexts and three capacity methods remain independent. The
+final page's table-3 reference points to the original image and caption on 534, and the capacity
+section now includes both concluding paragraphs. All eight section contexts are complete.
+Repeated 15MB and 775불 occurrences stay distinct. All 28 literal anomaly notes remain,
+including 330,000 versus 333,000, the form-1/form-2 discrepancy, TOC(Table of Contentes),
+physical word wraps and historical prices. No source syntax or technical claim is repaired.
+No code or automatic CD3 association is introduced.
+
+All 60 invalid cases reject, including a false incoming join, missing native content, changed
+source count, substituted table image/caption, collapsed repeated values, premature group
+completion and editor-as-author. All 214 fresh PDF tests pass. All 85,826 earlier July files,
+thirty core modules, twenty-five frozen prior assembly adapters, three local OCR adapters,
+the batch76 figure builder and 81 classification pins remain exact. No new mapping, OCR,
+source correction, metadata revision or pre-export adapter repair. One canonical task and
+four reused outside lookup pages remain within limits.
+
+Only 0069 changes from partial to readable/sample-reviewed. Totals are 38 readable articles,
+zero partials, fourteen groups, seventeen references and 34 unresolved identities. Original
+native partial flags remain historical evidence with explicit assembly dispositions. Hardware
+0067 and ancestor0059 are not marked complete by this article assembly. Whole July restoration
+remains active; assistant sample review does not establish full proofreading or human acceptance.
+
+Next: reconcile hardware group0067 from complete PnP0068 and CD-ROM0069, then the appropriate
+pending families under0059/0060,0051/0052 and forum0043 in bounded classification checkpoints.
+Preserve all original group evidence, canonical hierarchy and the 81 classification pins.
+Retain all 26 frozen assembly adapters in batch95/frozen-adapters-complete.json and three local
+OCR adapters in batch87/frozen-local-ocr-adapters-complete.json. Continue remaining July
+identities, 560-page accounting, cover verification and standalone JSON/assets closeout.
+Incomplete donated TOCs, full proofreading, human acceptance and original encoded bytes remain
+explicit limits. No automatic CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
