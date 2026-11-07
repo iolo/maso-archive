@@ -9403,3 +9403,47 @@ from batch95 and three local OCR adapters from batch87. Continue remaining July 
 560-page accounting, cover verification and standalone JSON/assets closeout. Incomplete
 donated TOCs, full proofreading, human acceptance and original encoded bytes remain
 explicit limits. No automatic CD3 association, reader rebuild or deployment.
+
+July batch 98 completes programming forum 0043 through external family reconciliation.
+Its four direct children are non-owning groups 0044/0051 and distinct articles 0050/0058.
+All fifteen descendants are final: four nested groups 0044/0046/0051/0052 and eleven
+readable article owners 0045/0047–0050/0053–0058. The original canonical hierarchy,
+pageless forum and subgroup identities remain unchanged. No group inherits article
+text, source authors, folios or body pages; no cross-article join is introduced.
+
+The eleven immutable packages preserve 111 distinct source pages, 2,159 regions,
+1,799 blocks, 142 original figures and 2,017 OCR outcomes. All 8,506 package files
+remain byte-identical. Thirty-six pages between the article extents remain outside
+this family's ownership: PDF 366, 374–404, 418, 430, 442 and 470. This checkpoint does not
+classify those pages or substitute for systematic whole-issue accounting.
+
+Two selected classification files reproduce independently and in a fresh process.
+All 214 package-local context ranges validate against their named article bytes and
+source regions. The 153 external status resolutions complete the forum while retaining
+original pending flags and all historical original-value snapshots. Earlier subgroup
+completion records and article family-gap notes receive explicit current dispositions;
+original classifications, packages and source/canonical distinctions remain unchanged.
+The five original forum classification crops remain pixel-exact. The canonical label
+프로그래밍 포럼 and printed 프로그래밍포럼 retain their separate source contexts.
+
+All 39 invalid ownership, hierarchy, range, duplicate-body, source-pointer and completion
+cases reject. All 86,596 earlier July files, thirty core modules, 26 frozen assembly
+adapters, three local OCR adapters, the batch76 figure builder and 89 previous classification
+pins remain exact. The unchanged fresh 214-test batch95 baseline is reused. One canonical
+task, zero new mapped pages, zero outside source lookups, zero OCR and zero source correction
+passes stay within limits. Two new classification pins bring the issue requirement to 91.
+Only entry 0043 receives a completion disposition; all descendant entries and article outcomes
+remain unchanged. Totals remain 38 readable articles, zero partials, fourteen groups,
+seventeen references and 34 unresolved identities. Whole July restoration remains active.
+
+Next: inspect library heading 0070, 마소 열람실, and its commercial-software child 0071
+against source evidence before deciding body/bundle ownership. Canonical 0071 starts at
+printed 174; PDF 185 is a lookup candidate from the preceding overseas ending 184/173,
+not a verified opening or extent. Confirm the actual opening, ending and interior continuity
+before mapping at most six new pages. Preserve child identities 0072–0076 and defer any
+reference classifications until the owning body is established and complete. Keep the
+checkpoint within two canonical tasks and twenty outside lookup pages. Retain 91 classification
+pins, 26 frozen assembly adapters from batch95 and three local OCR adapters from batch87.
+Continue remaining July identities, 560-page accounting, cover verification and standalone
+JSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance and original
+encoded bytes remain explicit limits. No automatic CD3 association, reader rebuild or deployment.

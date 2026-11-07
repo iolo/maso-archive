@@ -4625,7 +4625,8 @@
       "classification_evidence": [
         "Canonical pageless programming-forum0043 has four direct children0044/0050/0051/0058 and fifteen descendants0044–0058. The source running banner 프로그래밍포럼 appears on PDF334/printed323 within the game-programming article opening333/322 under 원리구현. Original title,hierarchy and null page remain unchanged.",
         "Seven classification files reproduce independently and in a fresh process. Five exact crops preserve subgroup banner,descendant title/byline,forum banner and both observed folios. Thirteen invalid hierarchy/ownership cases reject. No standalone group body observed;no inherited descendant body or folio.",
-        "PDF330 ends GNU;331–332 are advertisements. Only descendant0045 opening333/322 and continuation334/323 are observed;its complete extent and restoration remain pending. All fifteen descendant ledger entries remain unresolved. Incomplete donated TOCs and assistant-review limits remain explicit."
+        "PDF330 ends GNU;331–332 are advertisements. Only descendant0045 opening333/322 and continuation334/323 are observed;its complete extent and restoration remain pending. All fifteen descendant ledger entries remain unresolved. Incomplete donated TOCs and assistant-review limits remain explicit.",
+        "July batch 98 completes programming forum 0043 through external family reconciliation.\nIts four direct children are non-owning groups 0044/0051 and distinct articles 0050/0058.\nAll fifteen descendants are final: four nested groups 0044/0046/0051/0052 and eleven\nreadable article owners 0045/0047–0050/0053–0058. The original canonical hierarchy,\npageless forum and subgroup identities remain unchanged. No group inherits article\ntext, source authors, folios or body pages; no cross-article join is introduced.\n\nThe eleven immutable packages preserve 111 distinct source pages, 2,159 regions,\n1,799 blocks, 142 original figures and 2,017 OCR outcomes. All 8,506 package files\nremain byte-identical. Thirty-six pages between the article extents remain outside\nthis family's ownership: PDF 366, 374–404, 418, 430, 442 and 470. This checkpoint does not\nclassify those pages or substitute for systematic whole-issue accounting.\n\nTwo selected classification files reproduce independently and in a fresh process.\nAll 214 package-local context ranges validate against their named article bytes and\nsource regions. The 153 external status resolutions complete the forum while retaining\noriginal pending flags and all historical original-value snapshots. Earlier subgroup\ncompletion records and article family-gap notes receive explicit current dispositions;\noriginal classifications, packages and source/canonical distinctions remain unchanged.\nThe five original forum classification crops remain pixel-exact. The canonical label\n프로그래밍 포럼 and printed 프로그래밍포럼 retain their separate source contexts.\n\nAll 39 invalid ownership, hierarchy, range, duplicate-body, source-pointer and completion\ncases reject. All 86,596 earlier July files, thirty core modules, 26 frozen assembly\nadapters, three local OCR adapters, the batch76 figure builder and 89 previous classification\npins remain exact. The unchanged fresh 214-test batch95 baseline is reused. One canonical\ntask, zero new mapped pages, zero outside source lookups, zero OCR and zero source correction\npasses stay within limits. Two new classification pins bring the issue requirement to 91.\nOnly entry 0043 receives a completion disposition; all descendant entries and article outcomes\nremain unchanged. Totals remain 38 readable articles, zero partials, fourteen groups,\nseventeen references and 34 unresolved identities. Whole July restoration remains active.\n\nNext: inspect library heading 0070, 마소 열람실, and its commercial-software child 0071\nagainst source evidence before deciding body/bundle ownership. Canonical 0071 starts at\nprinted 174; PDF 185 is a lookup candidate from the preceding overseas ending 184/173,\nnot a verified opening or extent. Confirm the actual opening, ending and interior continuity\nbefore mapping at most six new pages. Preserve child identities 0072–0076 and defer any\nreference classifications until the owning body is established and complete. Keep the\ncheckpoint within two canonical tasks and twenty outside lookup pages. Retain 91 classification\npins, 26 frozen assembly adapters from batch95 and three local OCR adapters from batch87.\nContinue remaining July identities, 560-page accounting, cover verification and standalone\nJSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance and original\nencoded bytes remain explicit limits. No automatic CD3 association, reader rebuild or deployment.\n"
       ],
       "restoration": null,
       "group_reference": {
@@ -4640,7 +4641,32 @@
           "bytes": 1124
         },
         "canonical_page_reference": null,
-        "owns_standalone_body": false
+        "owns_standalone_body": false,
+        "completion_disposition": {
+          "child_restorations_complete": true,
+          "descendant_outcomes_complete": true,
+          "status": {
+            "path": "archive/pdf/1995-07/classifications/batch-98-r01/group-status-dispositions.json",
+            "sha256": "c1f04ce331f27c25baafe63aa10076c6deb98b62c41264a9fc9dbdcd05a59751",
+            "bytes": 132860
+          },
+          "family_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-98-r01/family-ownership.json",
+            "sha256": "9f068e729c0ca3774f28d0693d5537d2ed9cdb7af571cc8c7ef924592077fead",
+            "bytes": 486512
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-98/validation.json",
+            "sha256": "9c1c39dc292d0b130b7804d7bb149bfbd184f368ca8e5aa6e97e8ff867eeabfe",
+            "bytes": 1206
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-98/reproduction.json",
+            "sha256": "ad0fda79a7f33e03441da9000ae00e524cab8c1c8e07ee8c030352e6d23e8ae3",
+            "bytes": 1106
+          },
+          "checkpoint": "batch-98"
+        }
       }
     },
     {
@@ -14349,6 +14375,33 @@
         "sha256": "642aa6e99a151760b812aa0f0c228f5ebd1d20fdaa01bd622a9efe57bd46b276",
         "bytes": 1390
       }
+    },
+    {
+      "name": "1995-07-batch-98",
+      "status": "complete",
+      "completed_at": "2026-11-07T15:18:48.320929+00:00",
+      "goal": "Reconcile programming forum0043 from four direct children,four non-owning nested groups and eleven distinct complete article owners. Whole July remains incomplete.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0043"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-98/validation.json",
+        "sha256": "9c1c39dc292d0b130b7804d7bb149bfbd184f368ca8e5aa6e97e8ff867eeabfe",
+        "bytes": 1206
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-98/reproduction.json",
+        "sha256": "ad0fda79a7f33e03441da9000ae00e524cab8c1c8e07ee8c030352e6d23e8ae3",
+        "bytes": 1106
+      }
     }
   ],
   "totals": {
@@ -14364,7 +14417,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: reconcile programming forum 0043 from complete direct article children 0050/0058,\ncomplete ancestor 0044 and complete serials family 0051. Preserve all four nested groups\nand eleven distinct article owners without duplicating their bodies. Then inspect\nlibrary heading 0070 and its descendants against source evidence before deciding\nbundle/subtopic ownership. Preserve 89 classification pins, 26 frozen assembly adapters\nfrom batch95 and three local OCR adapters from batch87. Continue remaining July identities,\n560-page accounting, cover verification and standalone JSON/assets closeout. Incomplete\ndonated TOCs, full proofreading, human acceptance and original encoded bytes remain\nexplicit limits. No automatic CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: inspect library heading 0070, 마소 열람실, and its commercial-software child 0071\nagainst source evidence before deciding body/bundle ownership. Canonical 0071 starts at\nprinted 174; PDF 185 is a lookup candidate from the preceding overseas ending 184/173,\nnot a verified opening or extent. Confirm the actual opening, ending and interior continuity\nbefore mapping at most six new pages. Preserve child identities 0072–0076 and defer any\nreference classifications until the owning body is established and complete. Keep the\ncheckpoint within two canonical tasks and twenty outside lookup pages. Retain 91 classification\npins, 26 frozen assembly adapters from batch95 and three local OCR adapters from batch87.\nContinue remaining July identities, 560-page accounting, cover verification and standalone\nJSON/assets closeout. Incomplete donated TOCs, full proofreading, human acceptance and original\nencoded bytes remain explicit limits. No automatic CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -14810,6 +14863,16 @@
       "path": "archive/pdf/1995-07/classifications/batch-97-r01/status-0051.json",
       "sha256": "87eb8ffa94068fd11cb3b689a557101c98ce6fd50730d724c802e6d9902d9ef1",
       "bytes": 5178
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-98-r01/family-ownership.json",
+      "sha256": "9f068e729c0ca3774f28d0693d5537d2ed9cdb7af571cc8c7ef924592077fead",
+      "bytes": 486512
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-98-r01/group-status-dispositions.json",
+      "sha256": "c1f04ce331f27c25baafe63aa10076c6deb98b62c41264a9fc9dbdcd05a59751",
+      "bytes": 132860
     }
   ]
 }
