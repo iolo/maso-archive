@@ -19255,6 +19255,44 @@
         "sha256": "93f7a69ea51f7d0f09b5f4f57a9e30192bbfe68fd69f284cb23a5731d3e47773",
         "bytes": 982
       }
+    },
+    {
+      "name": "1995-07-batch-149",
+      "status": "complete",
+      "completed_at": "2026-11-08T02:23:44.489424+00:00",
+      "goal": "Verify preferred donated July front cover and reproduce its bounded derivative.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "cover_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "prior_pdf_evidence_reused": true,
+      "original_cover_assets_reviewed": 1,
+      "existing_thumbnail_assets_reviewed": 1,
+      "exported_thumbnail_assets_reviewed": 1,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "retained_helper_failures": 0,
+      "canonical_bodies_advanced": 0,
+      "artifact_files": 3,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-149/validation.json",
+        "sha256": "18bb4b298b879f95390bbc7f6be3b9e7caf5c86086a14d8138593acafb5bb72f",
+        "bytes": 1647
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-149/reproduction.json",
+        "sha256": "593075ca5a1f4f384fb301b6034b9aa69110646336f3723fd34c7ad4c4bddaa3",
+        "bytes": 1203
+      },
+      "artifact_manifest": {
+        "path": "archive/pdf/1995-07/covers/batch-149-r01/manifest.json",
+        "sha256": "6655bedefc757913068062a0d0195c4e6e1abb0793a8939618b82869586a660c",
+        "bytes": 694
+      }
     }
   ],
   "totals": {
@@ -19270,7 +19308,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: verify the July cover using the owner-image-first workflow and preserve all\nexisting cover bytes. Then independently rebuild selected native/assembled\npackages, export and reproduce the standalone JSON/assets issue collection, audit\nevery closeout requirement and update the issue closeout records. Preserve153\nclassification pins, thirty frozen assembly adapters, three local OCR adapters\nand all prior evidence. Reopen0103 only if new source evidence identifies the\nvideotape or a printed instructional companion; no further blind PDF search is\nqueued. No inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "Next: resolve and independently rebuild every selected native and assembly through\nthe unchanged original private adapters. Export and reproduce the standalone\nJSON/assets issue collection with the verified cover and final media-gap evidence;\nvalidate local provenance, assets, typed ranges, identities and CD3 preservation.\nThen run fresh focused regressions, audit every closeout requirement and record\nJuly issue closeout. Preserve153 classification pins, thirty frozen assembly\nadapters, three local OCR adapters, the cover evidence and all prior files.\nNo inferred CD3 association, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -21476,5 +21514,53 @@
     "source_wide_absence_verified": false,
     "missing_page_count": null,
     "note": "0103 is a canonical announced videotape supplement. Media remains unrecovered and no printed instructional body is located in the completed supplied-PDF pass. Scope and recovery trigger are explicit; no absolute media absence, fabricated body or CD3 association."
+  },
+  "cover": {
+    "status": "verified",
+    "checkpoint": "batch-149",
+    "source_kind": "donated",
+    "directory": "archive/pdf/1995-07/covers/batch-149-r01",
+    "metadata": {
+      "path": "archive/pdf/1995-07/covers/batch-149-r01/cover.json",
+      "sha256": "2f4c9763756989e017bd1b152d04252b4e8cd465ee45db3f8fae99a3cbb2db70",
+      "bytes": 3112
+    },
+    "manifest": {
+      "path": "archive/pdf/1995-07/covers/batch-149-r01/manifest.json",
+      "sha256": "6655bedefc757913068062a0d0195c4e6e1abb0793a8939618b82869586a660c",
+      "bytes": 694
+    },
+    "thumbnail": {
+      "path": "archive/pdf/1995-07/covers/batch-149-r01/cover.jpg",
+      "sha256": "6e4d2ea4b031e37cebf05fb9e9e8da54920625dbd507b9ce0244c1a1733bfc39",
+      "bytes": 82269
+    },
+    "original": {
+      "path": "covers/9507.jpg",
+      "sha256": "ed99ad99d5b87219edb3c834e59b265796b08e2d6e3d470cf9f94571c03e6c05",
+      "bytes": 8194447
+    },
+    "source_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-149/source-reviewed.json",
+      "sha256": "89e9c8933916f55d56e97af9143ec82109ecb74a7d1609a73474c29be9ad22ed",
+      "bytes": 3034
+    },
+    "thumbnail_review": {
+      "path": "archive/pdf/1995-07/restoration/batch-149/thumbnail-reviewed.json",
+      "sha256": "bbdfef4fae21c409e75374761d8994439d778bab096ebcb4f6027720ba1097a6",
+      "bytes": 663
+    },
+    "reproduction": {
+      "path": "archive/pdf/1995-07/restoration/batch-149/reproduction.json",
+      "sha256": "593075ca5a1f4f384fb301b6034b9aa69110646336f3723fd34c7ad4c4bddaa3",
+      "bytes": 1203
+    },
+    "validation": {
+      "path": "archive/pdf/1995-07/restoration/batch-149/validation.json",
+      "sha256": "18bb4b298b879f95390bbc7f6be3b9e7caf5c86086a14d8138593acafb5bb72f",
+      "bytes": 1647
+    },
+    "source_assets_modified": false,
+    "global_derivatives_modified": false
   }
 }

@@ -12213,3 +12213,46 @@ classification pins, thirty frozen assembly adapters, three local OCR adapters
 and all prior evidence. Reopen0103 only if new source evidence identifies the
 videotape or a printed instructional companion; no further blind PDF search is
 queued. No inferred CD3 association, reader rebuild or deployment.
+
+July batch 149 verifies the preferred owner-supplied front cover covers/9507.jpg.
+Direct visual inspection confirms the large 1995.7 date and publication line
+1995년 7월 1일, upright text, consistent proportions and complete front composition.
+The GNU headline, Windows95 videotape badge, lower barcode, survey line and
+programmer-tool-guide inset remain visible. Narrow spine edge, worn corners and
+surface wear are preserved without cropping or retouching. The saved PDF1 front-cover
+observation is explicitly reused; no additional PDF page was inspected.
+
+The original2552x3461 RGB JPEG remains unchanged. The bounded472x640 JPEG is
+byte-identical to the existing global thumbnail. The original, existing thumbnail
+and newly exported derivative were visually inspected; the date and composition
+remain legible and intact. Three cover files reproduce independently and in a
+fresh process through the unchanged thumbnail-v1 transformation. Metadata records
+source and output hashes, dimensions, settings, original evidence and the
+owner-image / verified-PDF / placeholder priority. The full-resolution original
+is referenced privately and is not bundled in the issue cover artifact.
+
+Twenty invalid cases reject incorrect issue/date/source selection, missing visual
+gates, invented source changes, lost original/review references, distorted
+proportions, incorrect hashes, missing assets and article-package changes.
+All106,638 earlier July files and all336 files across the original/global-cover
+inventories remain exact, as do thirty core modules, thirty frozen assembly
+adapters, three local OCR adapters and153 classification pins. The unchanged
+214-test batch-137 baseline is reused. No processing, export or validation-helper
+failure occurred. No OCR, source correction or new article mapping occurred.
+
+One cover task and zero canonical article tasks complete this checkpoint. All103
+canonical entries,51 selected packages,560 source-page records,545 exclusions and
+the final videotape gap disposition remain unchanged. Totals remain51 readable
+articles, zero partials, sixteen groups,35 references and one unresolved media/body
+outcome across149 completed checkpoints. July restoration remains in progress;
+cover verification does not certify full proofreading, original glyph bytes,
+human acceptance or availability of the announced videotape.
+
+Next: resolve and independently rebuild every selected native and assembly through
+the unchanged original private adapters. Export and reproduce the standalone
+JSON/assets issue collection with the verified cover and final media-gap evidence;
+validate local provenance, assets, typed ranges, identities and CD3 preservation.
+Then run fresh focused regressions, audit every closeout requirement and record
+July issue closeout. Preserve153 classification pins, thirty frozen assembly
+adapters, three local OCR adapters, the cover evidence and all prior files.
+No inferred CD3 association, reader rebuild or deployment.
