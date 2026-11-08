@@ -6410,6 +6410,55 @@ three local OCR adapters and all prior evidence. Verify covers, export the stand
 JSON/assets issue collection, reproduce it independently and complete issue closeout.
 No inferred CD3 association, reader rebuild or deployment.
 
+July batch 148 finalizes the supplied-PDF-pass disposition of canonical0103,
+7월 부록 : 윈도우즈 95 교육용 비디오 테이프. The retained cover badge on PDF1
+and yellow contents notice on PDF6 establish a canonical announced videotape
+supplement. Its content remains unrecovered, and no printed instructional body
+is located in the completed 560-page structural accounting. Final eligibility
+is recorded as canonical-announced-media-supplement; the existing classification
+and availability remain unresolved, with no body owner or restoration package.
+This is a final documented gap for the current PDF pass, not recovered media.
+
+The refreshed, explicitly bounded inventory pins all21 files in maso-pdf, all
+PDFs; July again reports zero embedded files. No separate media file is identified
+within that directory or embedded-file list. Other directories, disc images,
+external media and physical tapes are outside this inventory; availability
+elsewhere remains unverified. No absolute absence, original printed omission,
+missing-page count, tape format, duration, physical fulfillment or CD3 association
+is inferred. The reader-card personal-event conversion offer on541, Unix CD event
+report292, Video-CD advertisement385, product claims396–397 and other-magazine
+offer403 remain distinct. Earlier bounded and structural disposition files retain
+their creation-time flags; this final gap record supplies the current decision.
+
+Five classification files reproduce independently and in a fresh process.
+Two retained announcement crops match their original pixels, and six current/native
+reader-offer byte ranges remain exact. Twenty-eight invalid cases reject inflated
+availability/review, invented tape properties or media files, unrelated-offer
+substitution, synthetic bodies, unsupported absence/omission and missing-page
+claims, lost final accounting and advanced ownership. All106,600 earlier July
+files, thirty core modules, thirty frozen assembly adapters, three local OCR
+adapters and152 prior classification pins remain exact. The unchanged214-test
+batch-137 baseline is reused. No processing, export or validation-helper failure
+occurred. No new page inspection, mapping, OCR or source correction occurred.
+
+Only0103 gains final gap evidence; its original fields and the other102 canonical
+entries remain unchanged. All560 source-page records,545 exclusions and51 selected
+packages remain unchanged. Totals remain51 readable articles, zero partials,
+sixteen groups,35 references and one unresolved media/body outcome across148
+completed checkpoints. All current PDF-pass gap dispositions are final, with no
+pending gap-decision task; this does not change unresolved media availability.
+Required classification pins now total153. July restoration remains in progress;
+full proofreading, exact original glyph bytes and human acceptance remain unverified.
+
+Next: verify the July cover using the owner-image-first workflow and preserve all
+existing cover bytes. Then independently rebuild selected native/assembled
+packages, export and reproduce the standalone JSON/assets issue collection, audit
+every closeout requirement and update the issue closeout records. Preserve153
+classification pins, thirty frozen assembly adapters, three local OCR adapters
+and all prior evidence. Reopen0103 only if new source evidence identifies the
+videotape or a printed instructional companion; no further blind PDF search is
+queued. No inferred CD3 association, reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02
