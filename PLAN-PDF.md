@@ -2,6 +2,45 @@
 
 ## Current continuation — 2026-11-08
 
+### July issue closeout — 2026-11-08
+
+July's canonical TOC JSON/assets restoration pass is complete: **51 readable,
+sample-reviewed articles**, sixteen groups, 35 non-owning references and one
+announced videotape supplement with unrecovered media and an unlocated printed
+instructional body account for all **103 identities**. There are no partials or
+pending eligibility decisions. All 560 physical pages, 326 body pages, 328 owner/page
+assignments and 545 exclusions are accounted. The donated cover is verified.
+
+The **24,299-file standalone collection** at `archive/pdf/1995-07/reference/`
+reproduces byte-for-byte in a fresh process from 82 regenerated native packages,
+24 original-adapter assemblies and regenerated cover/gap companions. All 24,126
+selected article files remain exact. Validation covers 6,167 source crops, 5,683
+OCR settings, 607,760 typed ranges and 269,550 native source pairs in 106 contexts.
+All 82,718 local resource references, 35 parent anchors, 6,166 distinct images,
+106 ZIPs and 39,745 ZIP members pass. All 214 fresh PDF tests and 25 accounting
+rejection cases pass. Ten failed closeout-helper attempts are retained; no OCR,
+new source correction or package modification occurred.
+
+Preservation covers 106,677 prior July files, 153 classification pins, thirty core
+modules, thirty frozen assembly files, three OCR adapters, the figure repair
+helper, 336 global cover files, 38,805 CD reference files and 1,575 retained native
+CD3 extraction files. The historical CD3 ISO is absent at its recorded path;
+its fingerprint is retained without a fresh ISO-verification claim. Incomplete
+donated TOCs, the batch-25 timing exception, source-linked glyph/spacing uncertainty,
+unverified program execution, full proofreading and human acceptance remain explicit.
+The videotape gap does not establish original omission, absolute absence, format,
+duration, missing-page count or a CD3 association.
+
+Next: PLAN-PDF steps 13–14 reconcile the complete collection across all 21 supplied
+issues and finish the collection-wide regression/handoff. That aggregation is
+separate from July's issue pass. No reader rebuild or deployment is included.
+Private reproduction commands and limits are in
+`archive/pdf/1995-07/restoration/issue-closeout-01/handoff.json`; final committed
+preservation/cleanup evidence is in the same closeout directory.
+
+The checkpoint narratives below are retained history; their earlier next steps are superseded.
+
+
 The owner authorized continuing with the remaining supplied PDFs after the
 1994–1995 TOC addition and source review. The canonical catalog now contains
 146 issues and 7,110 entries through December 1995. All 5,299 previous identities,
@@ -15,7 +54,7 @@ outcomes from the nineteen completed issue passes remain copied exactly, includi
 partials, unresolved eligibility and unlocated bodies. March 1995 adds ninety
 identities; July 1995 adds 103. Candidate counts are provisional, not final body totals.
 
-**March 1995 is complete; July 1995 is in progress**, with the same bounded mapping,
+**March and July 1995 issue passes are complete**, with the same bounded mapping,
 mapped-Tesseract, source-review, immutable-package and separate-closeout workflow.
 The old 1995 cover-only restriction is superseded. Existing TOC entries are the
 queue; no new transcription or automatic CD3 association is required. Preserve

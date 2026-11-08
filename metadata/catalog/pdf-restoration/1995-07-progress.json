@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1995-07",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-11-08",
   "source": {
     "id": "pdf-maso-9507",
@@ -19293,6 +19293,37 @@
         "sha256": "6655bedefc757913068062a0d0195c4e6e1abb0793a8939618b82869586a660c",
         "bytes": 694
       }
+    },
+    {
+      "name": "1995-07-batch-150",
+      "status": "complete",
+      "completed_at": "2026-11-08T02:52:36.315166+00:00",
+      "goal": "Rebuild all selected native/assembly packages and independently reproduce a portable standalone July1995 JSON/assets collection; validate source,range,asset,evidence and canonical contracts; complete separate issue closeout.",
+      "toc_entry_ids": [],
+      "canonical_tasks": 0,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "retained_helper_failures": 10,
+      "validation": {
+        "path": "archive/pdf/1995-07/evidence/issue-closeout-01/report.json",
+        "sha256": "32246b45c55c9968c28391a012f6010e0ad6343a8a4bd94794a05a34d7180996",
+        "bytes": 4130
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/evidence/issue-closeout-01/fresh-reproduction/reproduction-result.json",
+        "sha256": "d46ba27cd6fbb3b7331a02ec24e3c8b10f3c3c1b71a26e971e130e190791e304",
+        "bytes": 5145594
+      },
+      "artifact_manifest": {
+        "path": "archive/pdf/1995-07/reference/manifest.json",
+        "sha256": "bdc35a140dbffb598204ce27d2e8ea5cad68c08f1dbb60a7c7d5b46efac7578b",
+        "bytes": 5143540
+      }
     }
   ],
   "totals": {
@@ -19308,7 +19339,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: resolve and independently rebuild every selected native and assembly through\nthe unchanged original private adapters. Export and reproduce the standalone\nJSON/assets issue collection with the verified cover and final media-gap evidence;\nvalidate local provenance, assets, typed ranges, identities and CD3 preservation.\nThen run fresh focused regressions, audit every closeout requirement and record\nJuly issue closeout. Preserve153 classification pins, thirty frozen assembly\nadapters, three local OCR adapters, the cover evidence and all prior files.\nNo inferred CD3 association, reader rebuild or deployment.",
+  "next_checkpoint": "July issue pass complete with its explicit unrecovered announced-videotape/printed-body outcome. Next, separately reconcile all 21 supplied issue collections under PLAN-PDF steps 13–14. Preserve all original packages, metadata, covers, CD records and unresolved recovery limits. No reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -21562,5 +21593,33 @@
     },
     "source_assets_modified": false,
     "global_derivatives_modified": false
+  },
+  "closeout": {
+    "status": "complete",
+    "checkpoint": "1995-07-batch-150",
+    "directory": "archive/pdf/1995-07/restoration/issue-closeout-01",
+    "reference": "archive/pdf/1995-07/reference",
+    "manifest": {
+      "path": "archive/pdf/1995-07/reference/manifest.json",
+      "sha256": "bdc35a140dbffb598204ce27d2e8ea5cad68c08f1dbb60a7c7d5b46efac7578b",
+      "bytes": 5143540
+    },
+    "report": {
+      "path": "archive/pdf/1995-07/evidence/issue-closeout-01/report.json",
+      "sha256": "32246b45c55c9968c28391a012f6010e0ad6343a8a4bd94794a05a34d7180996",
+      "bytes": 4130
+    },
+    "handoff": {
+      "path": "archive/pdf/1995-07/restoration/issue-closeout-01/handoff.json",
+      "sha256": "178ad7baceb88f2329078b8108fc5972fdd2a2494c2d557b0149404479f99fdc",
+      "bytes": 8491
+    },
+    "requirements": {
+      "path": "archive/pdf/1995-07/restoration/issue-closeout-01/requirements-content-audit.json",
+      "sha256": "3fe7ed1f09eb98de622c5b9eed5ec54157daca4c854e12b0e257702f63cab48c",
+      "bytes": 18728
+    },
+    "final_verification_path": "archive/pdf/1995-07/restoration/issue-closeout-01/final-verification.json",
+    "verification_policy": "Final committed preservation and cleanup are proven by final_verification_path; content reports retain their original pre-save scope."
   }
 }

@@ -20,10 +20,23 @@ pages and 530 original exclusions are accounted. The **17,909-file collection** 
 `archive/pdf/1995-03/reference/` includes the verified donated cover and matches
 independent/fresh-process exports from 82 natives and 21 assemblies. All 214 fresh
 PDF tests pass. Full proofreading and human acceptance remain deferred; the FLC gap
-does not prove original omission or missing extent. July 1995 is next. The reader
+does not prove original omission or missing extent. July 1995 is also complete as described below. The reader
 still uses its November 3 selection of nineteen earlier issue passes.
 See [March 1995 progress](docs/progress/9503.md) and private
 `archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json` for reproduction.
+
+July 1995 is complete as a canonical TOC JSON/assets pass: 51 readable/sample-reviewed
+articles, sixteen groups, 35 references and one unrecovered videotape/body outcome
+account for 103 identities. Its **24,299-file collection** at
+`archive/pdf/1995-07/reference/` reproduces exactly from 82 natives and 24 assemblies.
+All 560 pages and 545 exclusions are accounted; the donated cover, source crops,
+typed ranges, local resources, assets and 214 fresh PDF tests validate. Full
+proofreading, human acceptance and videotape recovery remain unverified.
+See [July progress](docs/progress/9507.md) and
+`archive/pdf/1995-07/restoration/issue-closeout-01/handoff.json` for private inputs,
+check/reproduction/resume commands and limits. All 21 supplied issue passes now
+have outcomes; collection-wide aggregation and handoff remain next. The reader
+selection and CD data are unchanged.
 
 March 1993 is complete as a canonical TOC JSON/assets restoration pass with an explicit
 gap: 41 readable/sample-reviewed articles, seven groups, three section references and
