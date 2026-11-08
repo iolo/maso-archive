@@ -6023,6 +6023,55 @@ independent reproduction and issue closeout remain required. Preserve143 classif
 pins,30 frozen assembly adapters and three local OCR adapters. No inferred CD3
 association, reader rebuild or deployment.
 
+July batch 139 advances whole-page structural accounting from 359 to 402 of the
+560 physical PDF pages, leaving 158 pending. Twenty newly inspected pages 34–53
+are advertisements. Pages 51–53 contain overlapping LG Science Hall advertising
+scans; all three physical slots remain distinct. The entertainment Video-CD offer
+on 38 and educational CD-ROM offers on 47/49 do not establish the Windows 95
+videotape appendix. No printed folio or missing edge text is inferred.
+
+Twenty-three additional pending pages qualify from explicit retained whole-page
+reviews: 277, 295, 331–332, 366, 374–376, 404, 418, 430, 442, 470, 480, 488, 502,
+520, 528, 536–537 and 558–560. Each decision binds its original review statement,
+review scope, saved image inventory and original PDF provenance. Twenty-two are
+advertisements; 560 is a cover/spine detail, which does not complete cover verification.
+These are reused reviews, not new inspections. Boundary-only observations and
+explicitly unreviewed renders remain pending; render existence is not review proof.
+
+All twelve selected, independent and fresh-process accounting files match. All
+517 other physical-page records remain exact, including 326 selected body pages,
+328 owner/page records and the shared reader/subscription portions on 546/547.
+All 545 map exclusions, 51 selected packages, group completion records and canonical
+outcomes remain unchanged. The historical discovery index remains preserved.
+Twenty-seven invalid cases reject lost pages, collapsed overlapping scans, invented
+folios/body ownership, unreviewed-page classifications, lost exclusions and premature
+cover/video/source-wide completion claims.
+
+Three helper failures remain preserved: the retained-review binder initially looked
+for page 295 in the primary rather than additional batch-120 image inventory; the
+first validation replay used a different thumbnail filter; the second expected
+pytest wording in the saved unittest log. The final checks use the original additional
+inventory, original resize call and actual test-log format. No source, image, OCR,
+article or accounting export was repaired. The prospective review interval includes
+rendering and a turn interruption; it is not an active-review throughput measurement.
+
+All 105,789 earlier July files, thirty core modules, thirty frozen assembly adapters,
+three local OCR adapters and 143 prior classification pins remain exact. The unchanged
+214-test batch-137 baseline is reused. One accounting task uses zero mapped pages,
+twenty newly inspected outside pages, zero OCR and zero source correction passes.
+Totals remain 51 readable articles, zero partials, sixteen groups, 35 references
+and one unresolved video appendix across 139 completed checkpoints. Required
+classification pins now total 144. July restoration remains in progress; full
+proofreading, exact glyph bytes and human acceptance remain unverified.
+
+Next: continue structural review of the 158 pending physical pages in bounded
+sets of at most twenty, starting with 54–73. Preserve all earlier review records,
+144 classification pins, thirty frozen assembly adapters and three local OCR
+adapters. Final video0103 eligibility/media-gap disposition requires complete
+structural accounting. Cover verification, standalone JSON/assets export,
+independent reproduction and issue closeout remain required. No inferred CD3
+association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
