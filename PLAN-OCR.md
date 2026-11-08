@@ -5800,6 +5800,63 @@ and three local OCR adapters. Incomplete donated TOCs, full proofreading, human
 acceptance and original encoded bytes remain explicit limits. No inferred CD3
 association, reader rebuild or deployment.
 
+July batch 135 preserves subscription0095 forms on PDF546–548 as a separate
+immutable partial native. Upper546 is the subscription postcard reverse;lower546
+and the response card on547 remain reader0097 material. The application, benefit
+and instruction strips, two separate photograph occurrences and three-panel giro
+form are preserved. A direct boundary lookup also finds subscription rates on the
+reverse549, beside a distinct publisher-information panel. That newly identified
+subscription portion is deferred to a later native;assembly with538 is not yet due.
+
+All163 selected, independent and fresh-process package files match. The native
+retains44 pixel-exact crops,37 original OCR outcomes,37 text blocks,97 serialized
+reading rows,552 typed range occurrences and seven original images without captions.
+Four sender fields, six sender-postcode slots, four empty application checkboxes,
+blank payment date and the three giro panels retain unfilled values. Each panel's
+printed3000696 occurrence has its own source range;amounts,subscriber data,seals,
+message and subscription interval are not filled from printed examples or rates.
+Multipurpose publication/book options remain source fields,not new article identities.
+
+All37 raw drafts were read before one prospectively timed source correction pass.
+Five pre-OCR crop repairs retain both original map/crop sets. The first OCR-stage
+audit found one figure's boundary overlapping the reader exclusion by one rounded
+pixel column. A separate revised stage trims only that figure's left margin;
+all37 text crops,raw drafts and TSVs are reused exactly without recognition reruns.
+Derived compatibility settings explicitly pin the original execution settings/map.
+The failed audit and original stage remain preserved. No text crop changes after
+OCR,no retries,and no within-pass or post-pass transcription refinements occurred.
+
+The source instruction sentence ends at the supplied scan edge after 그리고 주소 변경;
+no following words are invented. Three MICR control-mark groups use scan-linked
+placeholders with unknown glyph identities and encoded-character counts. Visible
+digit groups300 and0696 remain distinct. Literal 정풍,아래난이,전 은행99번 and the
+인터넷/인터네트 variation remain. Curved slogans,logos and printed square markers
+have explicit serialization conventions;97 reading rows do not imply97 straight
+physical typeset rows. Historical prices,payment validity,exact fonts/bytes,full
+proofreading and human acceptance remain unverified.
+
+All39 invalid semantic cases reject. All104,365 earlier July files,thirty core
+modules,29 assembly adapter files,three local OCR adapters and140 classification
+pins remain exact. The unchanged214-test batch128 baseline is reused. One canonical
+task,three mapped pages and two outside lookups538/549 stay within limits. Totals
+remain50 readable articles,one partial,sixteen groups,35 references and one unresolved
+video appendix across135 completed checkpoints. Four subscription source pages now
+exist across the unchanged538 notice and this native;549 and actual assembly remain.
+Batch133 accounting is still a frozen355-complete/205-pending snapshot with an
+explicit current scope override;it must be rebased after the subscription assembly.
+
+Next: verify the final subscription portion on PDF549 and its following boundary,
+then restore that portion in a separate bounded native,with explicit treatment of
+the neighboring publisher-information panel. Preserve both existing subscription
+natives and reader0097. Actually assemble subscription538/546–549 only after all
+eligible portions are preserved,then reconcile reader-board0093 and rebase page/
+exclusion accounting. Continue remaining non-body review,starting with untouched
+34–53 where retained evidence does not already qualify. Final video0103 eligibility/
+media-gap disposition,cover verification and standalone JSON/assets export,
+reproduction and issue closeout remain required. Preserve140 classification pins,
+29 assembly adapters and three local OCR adapters. No inferred CD3 association,
+reader rebuild or deployment.
+
 The March checkpoint history follows. March batch 01 completes
 editorial0001 on PDF151/143: 25 reproducible files, five exact crops, four initial
 recognitions, one source correction pass, zero retries/crop changes. Batch 02

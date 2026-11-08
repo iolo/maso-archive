@@ -12086,121 +12086,297 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "July batch 121 completes subscription notice 0095 on PDF538 and advertisement\nindex 0096 on PDF539–540. Their source titles are 정기구독 안내 and 광고색인.\nNo printed folio is visible on these pages; canonical references529 and530 remain\nseparate from observed null folios. Adjacent PDF537 is advertising; PDF541 contains\ndistinct reader-prize/video-CD material with visible folio532. That observation\ndoes not establish the complete extent or eligibility of the next canonical item.\n\nAll 209 selected, independent and fresh-process files match:157 subscription files\nand52 index files. The natives preserve55 pixel-exact crops,46 original OCR\noutcomes,46 text blocks,296 physical reading rows,4,125 typed range occurrences\nand nine original table/directory images with null captions. Searchable text\noverlapping the original images remains separately source-linked. No byline,\ncaption, code, prose join or separate assembly is invented.\n\nSubscription retains22 literal rate cells,57 nationwide dealer records in eleven\ngeographic groups, and44 CD-dealer mentions in fifteen cities. Two geographic\ngroups cross panel boundaries. Its six tables retain65 logical rows,205 data\ncells and13 header cells. The final overseas region occupies two physical lines;\nthree neighboring empty slots are continuation padding, not new records or blank\ndata. Three printed header blanks remain explicit. Vertical labels, the printed\nsister title 마이트로소프트웨어 CD, header 위도우세계,마소 and dealer 청용사\nremain unchanged. Historical prices, accounts and contacts are not certified.\n\nThe four advertiser panels retain134 records,536 data cells, sixteen repeated\nheader cells and68 printed blank phone/product cells. Values are never inherited\ninto missing cells. Literal page references, including insertion-style48-1,2,3\nand64-4, remain strings without assigned PDF destinations or new article identities.\nITEMSCANNER's overflow beyond its table rule remains captured and source-linked.\nFourteen source notes preserve spelling, punctuation and numeric anomalies.\nOne unresolved y9/99 candidate remains attached to the original 한국3M page-reference\ncell. The advertising department contact is not an article byline.\n\nAll46 raw drafts preceded one prospectively timed source correction pass.\nTwo preserved pre-OCR maps contain four crop adjustments and110 original/selected\ncrops. Two empty label drafts were recovered directly from scans. No OCR retry,\npost-OCR crop change, within-pass refinement, post-pass source change or helper\nfailure occurred. All111 invalid cases reject, including lost cells or records,\nfilled blanks, false page destinations, wrong source occurrences, lost wrapped\ncells, invented captions/bylines and premature family or issue completion.\n\nAll96,841 earlier July files, thirty core modules,27 frozen assembly adapters,\nthree local OCR adapters, the batch76 figure builder and128 classification pins\nremain exact. The unchanged fresh214-test batch101 baseline is reused. Two canonical\ntasks, three mapped pages and two outside lookup pages537/541 stay within limits.\nTotals are48 readable articles, zero partials, sixteen groups,32 references and\nseven unresolved identities across121 completed checkpoints. Reader-board0093's\nimmutable prior disposition remains historical; explicit family reconciliation\nstill awaits0097–0098. Whole July restoration remains incomplete.\n\nNext: verify reader-card/prize item0097 from the observed PDF541/printed532 and\nlocate diskette item0098, establishing their eligibility and complete extents\nindependently within the two-task/six-page/twenty-lookup limits. Then explicitly\nreconcile reader-board0093, restore/classify survey0099 and children0100–0102,\nand resolve video appendix0103. Whole560-page accounting, cover verification and\nstandalone JSON/assets closeout remain required. Preserve all128 classification\npins,27 frozen assembly adapters from batch101 and three local OCR adapters from\nbatch87. Incomplete donated TOCs, full proofreading, human acceptance and original\nencoded bytes remain explicit limits. No inferred CD3 association, reader rebuild\nor deployment.\n",
-        "July batch 134 resolves the three subscription-form scope questions through direct\nreview of PDF 538, 546, 547 and 548. Subscription entry 0095 includes the upper\npostcard reverse on 546, the application and both instruction/benefit strips on\n547, and the complete three-panel publisher giro form on 548. The explicit\nsubscription headings, matching six-month/annual prices and repeated giro number\n3000696 connect these portions to the preserved notice on 538. The multipurpose\ngiro also lists other publications and purchase uses; those remain form options,\nnot additional canonical articles. Reader0097's existing card portions stay separate.\n\nThe selected 157-file subscription notice remains unchanged, but its current\narticle availability is now partial: pages 546–548 require restoration and actual\nassembly with 538. All 312 reader assembly files remain unchanged. The dependent\nreader-board0093 completion disposition is reopened for subscription0095 only;\nits identity, hierarchy, other children and original batch125 evidence are preserved.\nNo original package completion flags or prior source reviews are overwritten.\n\nFour scope evidence files reproduce byte for byte in three separate process\nexports. The clockwise547 review image is an exact pixel transpose of the retained\nsource. All 22 invalid scope cases reject, including omitted forms, changed reader\nownership, invented folios, altered exclusion rectangles, stale ancestor completion\nand premature restoration/accounting claims. All 104,327 earlier July files,\nthirty core modules, 29 assembly adapter files and three local OCR adapters remain\nexact. The unchanged 214-test batch128 baseline is reused. Three optional template\nreads returned missing-file errors; neither changed source or export processing.\nThere were no OCR, mapping, transcription correction or export failures.\n\nThis checkpoint uses two canonical scope tasks, four source lookups and zero\nmapped pages. The ancestor change is a derived dependency status, not a new group\nclassification. Totals are 50 readable articles, one partial, sixteen groups,\n35 references and one unresolved video appendix, across 134 completed checkpoints.\nThe required evidence inventory now has 140 pins. Batch133's accounting remains\na frozen snapshot of 355 complete pages and 205 pending; the new scope disposition\nsupersedes its three undecided form labels without pretending the forms have been\nrestored. Selected ownership and page totals must be rebased after restoration.\n\nNo printed folios are inferred for these four pages. Form blanks, photographs,\nprinted payment options and the instruction strip's supplied-edge limit must be\npreserved. No absent text, historical account validity, exact fonts or encoded\nbytes are inferred. Structural scope review is not full transcription proofreading.\n\nNext: restore subscription0095 portions on PDF546–548 in a new bounded native,\nusing reviewed maps and the default Tesseract pipeline. Preserve the original538\nnotice and reader0097 assembly. Then actually assemble subscription538/546–548,\nreconcile dependent group0093 and rebase source-page/exclusion accounting. Continue\nqualifying retained non-body reviews and bounded outside-page review, with34–53\nthe next untouched contiguous candidates. Final video0103 eligibility/media-gap\ndisposition, cover verification and standalone JSON/assets export, reproduction\nand issue closeout remain required. Preserve140 evidence pins,29 assembly adapters\nand three local OCR adapters. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.\n"
+        "July batch 134 resolves the three subscription-form scope questions through direct\nreview of PDF 538, 546, 547 and 548. Subscription entry 0095 includes the upper\npostcard reverse on 546, the application and both instruction/benefit strips on\n547, and the complete three-panel publisher giro form on 548. The explicit\nsubscription headings, matching six-month/annual prices and repeated giro number\n3000696 connect these portions to the preserved notice on 538. The multipurpose\ngiro also lists other publications and purchase uses; those remain form options,\nnot additional canonical articles. Reader0097's existing card portions stay separate.\n\nThe selected 157-file subscription notice remains unchanged, but its current\narticle availability is now partial: pages 546–548 require restoration and actual\nassembly with 538. All 312 reader assembly files remain unchanged. The dependent\nreader-board0093 completion disposition is reopened for subscription0095 only;\nits identity, hierarchy, other children and original batch125 evidence are preserved.\nNo original package completion flags or prior source reviews are overwritten.\n\nFour scope evidence files reproduce byte for byte in three separate process\nexports. The clockwise547 review image is an exact pixel transpose of the retained\nsource. All 22 invalid scope cases reject, including omitted forms, changed reader\nownership, invented folios, altered exclusion rectangles, stale ancestor completion\nand premature restoration/accounting claims. All 104,327 earlier July files,\nthirty core modules, 29 assembly adapter files and three local OCR adapters remain\nexact. The unchanged 214-test batch128 baseline is reused. Three optional template\nreads returned missing-file errors; neither changed source or export processing.\nThere were no OCR, mapping, transcription correction or export failures.\n\nThis checkpoint uses two canonical scope tasks, four source lookups and zero\nmapped pages. The ancestor change is a derived dependency status, not a new group\nclassification. Totals are 50 readable articles, one partial, sixteen groups,\n35 references and one unresolved video appendix, across 134 completed checkpoints.\nThe required evidence inventory now has 140 pins. Batch133's accounting remains\na frozen snapshot of 355 complete pages and 205 pending; the new scope disposition\nsupersedes its three undecided form labels without pretending the forms have been\nrestored. Selected ownership and page totals must be rebased after restoration.\n\nNo printed folios are inferred for these four pages. Form blanks, photographs,\nprinted payment options and the instruction strip's supplied-edge limit must be\npreserved. No absent text, historical account validity, exact fonts or encoded\nbytes are inferred. Structural scope review is not full transcription proofreading.\n\nNext: restore subscription0095 portions on PDF546–548 in a new bounded native,\nusing reviewed maps and the default Tesseract pipeline. Preserve the original538\nnotice and reader0097 assembly. Then actually assemble subscription538/546–548,\nreconcile dependent group0093 and rebase source-page/exclusion accounting. Continue\nqualifying retained non-body reviews and bounded outside-page review, with34–53\nthe next untouched contiguous candidates. Final video0103 eligibility/media-gap\ndisposition, cover verification and standalone JSON/assets export, reproduction\nand issue closeout remain required. Preserve140 evidence pins,29 assembly adapters\nand three local OCR adapters. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.\n",
+        "July batch 135 preserves subscription0095 forms on PDF546–548 as a separate\nimmutable partial native. Upper546 is the subscription postcard reverse;lower546\nand the response card on547 remain reader0097 material. The application, benefit\nand instruction strips, two separate photograph occurrences and three-panel giro\nform are preserved. A direct boundary lookup also finds subscription rates on the\nreverse549, beside a distinct publisher-information panel. That newly identified\nsubscription portion is deferred to a later native;assembly with538 is not yet due.\n\nAll163 selected, independent and fresh-process package files match. The native\nretains44 pixel-exact crops,37 original OCR outcomes,37 text blocks,97 serialized\nreading rows,552 typed range occurrences and seven original images without captions.\nFour sender fields, six sender-postcode slots, four empty application checkboxes,\nblank payment date and the three giro panels retain unfilled values. Each panel's\nprinted3000696 occurrence has its own source range;amounts,subscriber data,seals,\nmessage and subscription interval are not filled from printed examples or rates.\nMultipurpose publication/book options remain source fields,not new article identities.\n\nAll37 raw drafts were read before one prospectively timed source correction pass.\nFive pre-OCR crop repairs retain both original map/crop sets. The first OCR-stage\naudit found one figure's boundary overlapping the reader exclusion by one rounded\npixel column. A separate revised stage trims only that figure's left margin;\nall37 text crops,raw drafts and TSVs are reused exactly without recognition reruns.\nDerived compatibility settings explicitly pin the original execution settings/map.\nThe failed audit and original stage remain preserved. No text crop changes after\nOCR,no retries,and no within-pass or post-pass transcription refinements occurred.\n\nThe source instruction sentence ends at the supplied scan edge after 그리고 주소 변경;\nno following words are invented. Three MICR control-mark groups use scan-linked\nplaceholders with unknown glyph identities and encoded-character counts. Visible\ndigit groups300 and0696 remain distinct. Literal 정풍,아래난이,전 은행99번 and the\n인터넷/인터네트 variation remain. Curved slogans,logos and printed square markers\nhave explicit serialization conventions;97 reading rows do not imply97 straight\nphysical typeset rows. Historical prices,payment validity,exact fonts/bytes,full\nproofreading and human acceptance remain unverified.\n\nAll39 invalid semantic cases reject. All104,365 earlier July files,thirty core\nmodules,29 assembly adapter files,three local OCR adapters and140 classification\npins remain exact. The unchanged214-test batch128 baseline is reused. One canonical\ntask,three mapped pages and two outside lookups538/549 stay within limits. Totals\nremain50 readable articles,one partial,sixteen groups,35 references and one unresolved\nvideo appendix across135 completed checkpoints. Four subscription source pages now\nexist across the unchanged538 notice and this native;549 and actual assembly remain.\nBatch133 accounting is still a frozen355-complete/205-pending snapshot with an\nexplicit current scope override;it must be rebased after the subscription assembly.\n\nNext: verify the final subscription portion on PDF549 and its following boundary,\nthen restore that portion in a separate bounded native,with explicit treatment of\nthe neighboring publisher-information panel. Preserve both existing subscription\nnatives and reader0097. Actually assemble subscription538/546–549 only after all\neligible portions are preserved,then reconcile reader-board0093 and rebase page/\nexclusion accounting. Continue remaining non-body review,starting with untouched\n34–53 where retained evidence does not already qualify. Final video0103 eligibility/\nmedia-gap disposition,cover verification and standalone JSON/assets export,\nreproduction and issue closeout remain required. Preserve140 classification pins,\n29 assembly adapters and three local OCR adapters. No inferred CD3 association,\nreader rebuild or deployment.\n"
       ],
       "restoration": {
-        "directory": "archive/pdf/1995-07/packages/batch-121-r01/subscription",
+        "directory": "archive/pdf/1995-07/packages/batch-135-r01/subscription-b",
         "article_id": "scan-maso-1995-07-toc-0095",
         "manifest": {
-          "path": "archive/pdf/1995-07/packages/batch-121-r01/subscription/manifest.json",
-          "sha256": "29e7b3a09cf2ce6476853b7d1fde93cd0fe35052bae3204665a6a5384ec09647",
-          "bytes": 26473
+          "path": "archive/pdf/1995-07/packages/batch-135-r01/subscription-b/manifest.json",
+          "sha256": "824c9444d7faaa172d663755527977045b36f436f80fb444d160c99c76dcf1a0",
+          "bytes": 28054
         },
         "coverage": {
           "pdf_pages": [
-            538
+            546,
+            547,
+            548
           ],
           "printed_pages": [
+            null,
+            null,
             null
           ],
-          "regions": 41,
-          "blocks": 36,
-          "figures": 5,
-          "deferred_pdf_pages": []
+          "regions": 44,
+          "blocks": 37,
+          "figures": 7,
+          "deferred_pdf_pages": [
+            549
+          ]
         },
         "body_pages_complete": false,
         "prose_complete": false,
         "assembly_required": true,
         "complete_article_assembly_pending": true,
         "actual_start_pdf_page": 538,
-        "actual_end_pdf_page": 548,
-        "full_extent_verified": true,
+        "actual_end_pdf_page": 549,
+        "full_extent_verified": false,
         "remaining_source_pages": [
-          546,
-          547,
-          548
+          549
         ],
         "segment_scope": {
           "full_pdf_pages": [
             538,
             546,
             547,
-            548
+            548,
+            549
           ],
           "current_pdf_pages": [
-            538
+            546,
+            547,
+            548
           ],
           "current_printed_pages": [
+            null,
+            null,
             null
           ],
           "current_segment_pages_complete": true,
           "body_pages_complete": false,
           "prose_complete": false,
           "actual_start_pdf_page": 538,
-          "observed_ending_pdf_page": 548,
+          "observed_ending_pdf_page": 549,
           "remaining_source_pages": [
-            546,
-            547,
-            548
+            549
           ],
           "assembly_required": true,
           "complete_article_assembly_pending": true,
-          "remaining_extent_unverified": false,
+          "remaining_extent_unverified": true,
           "extent_review": {
-            "path": "archive/pdf/1995-07/classifications/batch-134-r01/source-reviewed.json",
-            "sha256": "8465524400d17b0aec84d067d1944c27e0cf7a848e8328b0e0f88d1eebed61a0",
-            "bytes": 5077
+            "path": "archive/pdf/1995-07/restoration/batch-135/source-reviewed.json",
+            "sha256": "301bb9367e56d84f2dd7f67e9b6be5a4af5365068a4bab3a19320233d9abfc06",
+            "bytes": 3348
           }
         },
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-121/validation.json",
-          "sha256": "88361b4f415c65c4dbd6d3e30032008834c8084eee80878eb484c8f254caadf7",
-          "bytes": 6712
+          "path": "archive/pdf/1995-07/restoration/batch-135/validation.json",
+          "sha256": "5a3c1d5cedfdd99bfc21be6a3af99c270ba89250063fef34001fd7b8382c229d",
+          "bytes": 2579
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-121/reproduction.json",
-          "sha256": "0e0cbb3205f26bae3b9b43009185b6d3036e07c5f33ca67e56db67950e776e56",
-          "bytes": 42505
+          "path": "archive/pdf/1995-07/restoration/batch-135/reproduction.json",
+          "sha256": "b221e9cbce7d5d83ca51c68b57549d27990927160f0bfc4e9b1144240e4dc318",
+          "bytes": 32780
         },
-        "checkpoint": "batch-121",
-        "historical_segment_scope": {
-          "full_pdf_pages": [
-            538
-          ],
-          "current_pdf_pages": [
-            538
-          ],
-          "current_printed_pages": [
-            null
-          ],
-          "current_segment_pages_complete": true,
-          "body_pages_complete": true,
-          "prose_complete": true,
-          "actual_start_pdf_page": 538,
-          "observed_ending_pdf_page": 538,
-          "remaining_source_pages": [],
-          "assembly_required": false,
-          "complete_article_assembly_pending": false,
-          "remaining_extent_unverified": false,
-          "extent_review": {
-            "path": "archive/pdf/1995-07/restoration/batch-121/source-reviewed.json",
-            "sha256": "e5076e599ff2ef133cefaf581d23e16ed4708206a4a9ef11b4776c250850ddf7",
-            "bytes": 1774
+        "checkpoint": "batch-135",
+        "immutable_native_segments": [
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-121-r01/subscription",
+            "article_id": "scan-maso-1995-07-toc-0095",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-121-r01/subscription/manifest.json",
+              "sha256": "29e7b3a09cf2ce6476853b7d1fde93cd0fe35052bae3204665a6a5384ec09647",
+              "bytes": 26473
+            },
+            "coverage": {
+              "pdf_pages": [
+                538
+              ],
+              "printed_pages": [
+                null
+              ],
+              "regions": 41,
+              "blocks": 36,
+              "figures": 5,
+              "deferred_pdf_pages": []
+            },
+            "body_pages_complete": false,
+            "prose_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 538,
+            "actual_end_pdf_page": 548,
+            "full_extent_verified": true,
+            "remaining_source_pages": [
+              546,
+              547,
+              548
+            ],
+            "segment_scope": {
+              "full_pdf_pages": [
+                538,
+                546,
+                547,
+                548
+              ],
+              "current_pdf_pages": [
+                538
+              ],
+              "current_printed_pages": [
+                null
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": false,
+              "actual_start_pdf_page": 538,
+              "observed_ending_pdf_page": 548,
+              "remaining_source_pages": [
+                546,
+                547,
+                548
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/classifications/batch-134-r01/source-reviewed.json",
+                "sha256": "8465524400d17b0aec84d067d1944c27e0cf7a848e8328b0e0f88d1eebed61a0",
+                "bytes": 5077
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-121/validation.json",
+              "sha256": "88361b4f415c65c4dbd6d3e30032008834c8084eee80878eb484c8f254caadf7",
+              "bytes": 6712
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-121/reproduction.json",
+              "sha256": "0e0cbb3205f26bae3b9b43009185b6d3036e07c5f33ca67e56db67950e776e56",
+              "bytes": 42505
+            },
+            "checkpoint": "batch-121",
+            "historical_segment_scope": {
+              "full_pdf_pages": [
+                538
+              ],
+              "current_pdf_pages": [
+                538
+              ],
+              "current_printed_pages": [
+                null
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": true,
+              "prose_complete": true,
+              "actual_start_pdf_page": 538,
+              "observed_ending_pdf_page": 538,
+              "remaining_source_pages": [],
+              "assembly_required": false,
+              "complete_article_assembly_pending": false,
+              "remaining_extent_unverified": false,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-121/source-reviewed.json",
+                "sha256": "e5076e599ff2ef133cefaf581d23e16ed4708206a4a9ef11b4776c250850ddf7",
+                "bytes": 1774
+              }
+            },
+            "full_pdf_pages": [
+              538,
+              546,
+              547,
+              548
+            ],
+            "coverage_is_selected_native_coverage": true,
+            "scope_disposition": {
+              "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
+              "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
+              "bytes": 7954
+            },
+            "scope_checkpoint": "batch-134"
+          },
+          {
+            "directory": "archive/pdf/1995-07/packages/batch-135-r01/subscription-b",
+            "article_id": "scan-maso-1995-07-toc-0095",
+            "manifest": {
+              "path": "archive/pdf/1995-07/packages/batch-135-r01/subscription-b/manifest.json",
+              "sha256": "824c9444d7faaa172d663755527977045b36f436f80fb444d160c99c76dcf1a0",
+              "bytes": 28054
+            },
+            "coverage": {
+              "pdf_pages": [
+                546,
+                547,
+                548
+              ],
+              "printed_pages": [
+                null,
+                null,
+                null
+              ],
+              "regions": 44,
+              "blocks": 37,
+              "figures": 7,
+              "deferred_pdf_pages": [
+                549
+              ]
+            },
+            "body_pages_complete": false,
+            "prose_complete": false,
+            "assembly_required": true,
+            "complete_article_assembly_pending": true,
+            "actual_start_pdf_page": 538,
+            "actual_end_pdf_page": 549,
+            "full_extent_verified": false,
+            "remaining_source_pages": [
+              549
+            ],
+            "segment_scope": {
+              "full_pdf_pages": [
+                538,
+                546,
+                547,
+                548,
+                549
+              ],
+              "current_pdf_pages": [
+                546,
+                547,
+                548
+              ],
+              "current_printed_pages": [
+                null,
+                null,
+                null
+              ],
+              "current_segment_pages_complete": true,
+              "body_pages_complete": false,
+              "prose_complete": false,
+              "actual_start_pdf_page": 538,
+              "observed_ending_pdf_page": 549,
+              "remaining_source_pages": [
+                549
+              ],
+              "assembly_required": true,
+              "complete_article_assembly_pending": true,
+              "remaining_extent_unverified": true,
+              "extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-135/source-reviewed.json",
+                "sha256": "301bb9367e56d84f2dd7f67e9b6be5a4af5365068a4bab3a19320233d9abfc06",
+                "bytes": 3348
+              }
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-135/validation.json",
+              "sha256": "5a3c1d5cedfdd99bfc21be6a3af99c270ba89250063fef34001fd7b8382c229d",
+              "bytes": 2579
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-135/reproduction.json",
+              "sha256": "b221e9cbce7d5d83ca51c68b57549d27990927160f0bfc4e9b1144240e4dc318",
+              "bytes": 32780
+            },
+            "checkpoint": "batch-135"
           }
-        },
-        "full_pdf_pages": [
+        ],
+        "all_native_pdf_pages": [
           538,
           546,
           547,
           548
         ],
-        "coverage_is_selected_native_coverage": true,
-        "scope_disposition": {
-          "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
-          "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
-          "bytes": 7954
-        },
-        "scope_checkpoint": "batch-134"
+        "source_extent_preserved_across_natives": false
       }
     },
     {
@@ -18313,6 +18489,47 @@
         "sha256": "a85ed6eed63f6618c8f10ead1c74e5a2a8b50ae71035f211b44a93e8de45a9a3",
         "bytes": 668
       }
+    },
+    {
+      "name": "1995-07-batch-135",
+      "status": "complete",
+      "completed_at": "2026-11-08T00:02:59.836286+00:00",
+      "goal": "Preserve subscription forms546–548;defer newly observed549and actual assembly.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0095"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 3,
+      "mapped_pdf_pages": [
+        546,
+        547,
+        548
+      ],
+      "outside_lookup_pages": 2,
+      "outside_lookup_pdf_pages": [
+        538,
+        549
+      ],
+      "recognition_invocations": 37,
+      "recognition_retries": 0,
+      "source_correction_passes": 1,
+      "retained_ocr_stage_audit_failures": 1,
+      "pre_ocr_crop_repairs": 5,
+      "post_ocr_text_crop_changes": 0,
+      "post_ocr_figure_repairs": 1,
+      "reused_original_outcomes": 37,
+      "within_pass_source_refinements": 0,
+      "post_pass_source_changes": 0,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-135/validation.json",
+        "sha256": "5a3c1d5cedfdd99bfc21be6a3af99c270ba89250063fef34001fd7b8382c229d",
+        "bytes": 2579
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-135/reproduction.json",
+        "sha256": "b221e9cbce7d5d83ca51c68b57549d27990927160f0bfc4e9b1144240e4dc318",
+        "bytes": 32780
+      }
     }
   ],
   "totals": {
@@ -18328,7 +18545,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: restore subscription0095 portions on PDF546–548 in a new bounded native,\nusing reviewed maps and the default Tesseract pipeline. Preserve the original538\nnotice and reader0097 assembly. Then actually assemble subscription538/546–548,\nreconcile dependent group0093 and rebase source-page/exclusion accounting. Continue\nqualifying retained non-body reviews and bounded outside-page review, with34–53\nthe next untouched contiguous candidates. Final video0103 eligibility/media-gap\ndisposition, cover verification and standalone JSON/assets export, reproduction\nand issue closeout remain required. Preserve140 evidence pins,29 assembly adapters\nand three local OCR adapters. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.",
+  "next_checkpoint": "Next: verify the final subscription portion on PDF549 and its following boundary,\nthen restore that portion in a separate bounded native,with explicit treatment of\nthe neighboring publisher-information panel. Preserve both existing subscription\nnatives and reader0097. Actually assemble subscription538/546–549 only after all\neligible portions are preserved,then reconcile reader-board0093 and rebase page/\nexclusion accounting. Continue remaining non-body review,starting with untouched\n34–53 where retained evidence does not already qualify. Final video0103 eligibility/\nmedia-gap disposition,cover verification and standalone JSON/assets export,\nreproduction and issue closeout remain required. Preserve140 classification pins,\n29 assembly adapters and three local OCR adapters. No inferred CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -19103,7 +19320,7 @@
     "source_wide_absence_claimed": false,
     "canonical_entries_unchanged": true,
     "current_scope_override": {
-      "checkpoint": "batch-134",
+      "checkpoint": "batch-135",
       "scope_decision": {
         "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
         "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
@@ -19111,12 +19328,33 @@
       },
       "resolved_scope_exclusions": 3,
       "eligible_body_restoration_required": [
+        549
+      ],
+      "snapshot_totals_not_rebased": true,
+      "next_action": "Restore549,actually assemble subscription,then rebase selected ownership and page/exclusion accounting.",
+      "latest_native": {
+        "path": "archive/pdf/1995-07/packages/batch-135-r01/subscription-b/manifest.json",
+        "sha256": "824c9444d7faaa172d663755527977045b36f436f80fb444d160c99c76dcf1a0",
+        "bytes": 28054
+      },
+      "known_subscription_pdf_pages": [
+        538,
+        546,
+        547,
+        548,
+        549
+      ],
+      "preserved_subscription_pdf_pages": [
+        538,
         546,
         547,
         548
       ],
-      "snapshot_totals_not_rebased": true,
-      "next_action": "Rebase selected ownership and exclusion accounting after subscription restoration and assembly."
+      "current_extent_review": {
+        "path": "archive/pdf/1995-07/restoration/batch-135/source-reviewed.json",
+        "sha256": "301bb9367e56d84f2dd7f67e9b6be5a4af5365068a4bab3a19320233d9abfc06",
+        "bytes": 3348
+      }
     }
   }
 }
