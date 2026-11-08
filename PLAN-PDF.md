@@ -6152,6 +6152,47 @@ accounting. Cover verification, standalone JSON/assets export, independent
 reproduction and issue closeout remain required. No inferred CD3 association,
 reader rebuild or deployment.
 
+July batch 142 advances whole-page structural accounting from 442 to 462 of the
+560 physical PDF pages, leaving 98 pending. All twenty newly inspected pages
+94–113 contain advertisements. The YES QUICK modem layouts on 103–104 are sideways;
+WindowsMAKER/RoboHELP 97–98, WinX mach64 105–106 and CD시네마 II 111–112 are
+advertising spreads. HP/3M pages 108 and 110 retain distinct campaign occurrences.
+Video-CD products, WinHelp Video Kit and computer backup tape do not establish
+the Windows95 educational videotape appendix. No editorial body, printed folio
+or missing edge text is inferred.
+
+Each decision binds an explicit complete-page observation and the original source
+render; all twenty review derivatives reproduce pixel-exactly. A truncated display
+attempt for pages 102–105 was not counted; all four pages were displayed again and
+inspected. Structural review does not certify fine-print transcription, full
+proofreading or historical claims. All 540 other physical-page records remain
+exact. All 326 selected body pages, 328 owner/page records, 545 exclusions,
+51 selected packages, canonical outcomes, group completion records and
+retained-review bindings remain unchanged.
+
+All twelve selected, independent and fresh-process accounting files match.
+Twenty-seven invalid cases reject lost pages, changed image/review bindings,
+invented body ownership or folios, unreviewed-page classifications, lost exclusions,
+and premature cover/video/source-wide completion. All 106,070 earlier July files,
+thirty core modules, thirty frozen assembly adapters, three local OCR adapters and
+146 prior classification pins remain exact. The unchanged 214-test batch-137
+baseline is reused. No processing, export or validation-helper failure occurred.
+
+One accounting task uses zero mapped pages, twenty newly inspected outside pages,
+zero OCR and zero source correction passes. Totals remain 51 readable articles,
+zero partials, sixteen groups, 35 references and one unresolved video appendix
+across 142 completed checkpoints. Required classification pins now total 147.
+July restoration remains in progress; exact glyph bytes, full proofreading and
+human acceptance remain unverified.
+
+Next: continue structural review of the 98 pending physical pages in bounded
+sets of at most twenty, starting with 114–133. Preserve 147 classification pins,
+thirty frozen assembly adapters, three local OCR adapters and all prior evidence.
+Final video0103 eligibility/media-gap disposition requires complete structural
+accounting. Cover verification, standalone JSON/assets export, independent
+reproduction and issue closeout remain required. No inferred CD3 association,
+reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
