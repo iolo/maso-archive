@@ -6320,6 +6320,54 @@ complete structural accounting. Cover verification, standalone JSON/assets
 export, independent reproduction and issue closeout remain required. No inferred
 CD3 association, reader rebuild or deployment.
 
+July batch 146 advances whole-page structural accounting from 522 to 542 of the
+560 physical PDF pages, leaving 18 pending. The twenty newly inspected pages
+283–292, 296 and 377–385 contain nineteen advertisements and one unlisted
+publisher event report. Page 292 reports the magazine's Unix CD giveaway and
+June 10 training event, retaining three captioned photographs, a remaining-CD
+offer and visible printed folio 281. It is classified as publisher-event-report,
+without adding a canonical article or inferring a CD3 association. The Unix CD
+event does not establish the Windows95 educational videotape appendix. Likewise,
+the Trans Media Video-CD production advertisement on 385 and its advertised
+72-minute capacity do not establish the appendix's duration or availability.
+Book catalogs, training offers, hardware and software advertisements remain
+outside the extraction queue; related advertising pages retain distinct records.
+
+Each decision binds an explicit complete-page observation and original source
+render; all twenty review derivatives reproduce pixel-exactly. Pages 283–288
+were inspected before interruption. A truncated display of 289–290 did not count
+as review; successful full-page views on resumption support those two decisions.
+Prospective timing spans that interruption and a status-only turn, so elapsed
+time does not represent uninterrupted review throughput. No printed folio is
+observed on the nineteen advertisements. Structural review does not certify
+fine-print transcription, full proofreading or historical claims. All 540 other
+physical-page records remain exact, including the earlier advertisement label
+on 133. All 326 selected body pages, 328 owner/page records, 545 exclusions,
+51 selected packages, canonical outcomes and retained-review bindings remain.
+
+All twelve selected, independent and fresh-process accounting files match.
+Thirty invalid cases reject lost pages, changed image/review bindings, invented
+ownership or folios, loss of observed folios, misclassification of the publisher
+event report as an advertisement, unreviewed-page classifications, lost exclusions
+and premature cover/video/source-wide completion. All 106,426 earlier July files,
+thirty core modules, thirty frozen assembly adapters, three local OCR adapters
+and 150 prior classification pins remain exact. The unchanged 214-test batch-137
+baseline is reused. No processing, export or validation-helper failure occurred.
+
+One accounting task uses zero mapped pages, twenty newly inspected outside pages,
+zero OCR and zero source correction passes. Totals remain 51 readable articles,
+zero partials, sixteen groups, 35 references and one unresolved video appendix
+across 146 completed checkpoints. Required classification pins now total 151.
+July restoration remains in progress; exact glyph bytes, full proofreading and
+human acceptance remain unverified.
+
+Next: review the remaining eighteen physical pages 386–403 in one bounded
+checkpoint. Preserve 151 classification pins, thirty frozen assembly adapters,
+three local OCR adapters and all prior evidence. Final video0103 eligibility and
+media-gap disposition requires complete structural accounting. Cover verification,
+standalone JSON/assets export, independent reproduction and issue closeout remain
+required. No inferred CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
