@@ -11654,3 +11654,63 @@ qualify. Final video0103 eligibility/media-gap disposition, cover verification,
 standalone JSON/assets export, reproduction and issue closeout remain required.
 Preserve140 classification pins,29 assembly adapters and three local OCR adapters.
 No inferred CD3 association, reader rebuild or deployment.
+
+July batch 137 actually assembles subscription0095 across PDF538/546–549 from
+three immutable natives. The notice, shared postcard/application portions, giro
+form and final rate/remittance column now form one readable article. No cross-native
+prose join, new page lookup, recognition or source correction was performed.
+Three closed source passes, scope decision134 and final extent review136 remain
+pinned evidence; no new visual review is claimed. Reader0097 and following
+survey0099 retain separate ownership. Reader-board0093 reconciliation is still pending.
+
+All357 selected, independent and fresh-process assembly files match, including
+all349 original native files. The independent assembly consumes three independently
+regenerated natives. All91 crops match the original oriented page pixels;78 source
+blocks and78 OCR outcomes retain their bytes. Thirteen original images, zero
+captions and262 serialized reading rows remain. Some form/logo rows are logical
+serializations, so262 does not certify straight physical typeset rows.
+
+All2,249 native metadata ranges project into4,496 current range occurrences;
+28,608 metadata scalar values and three earlier-native context links validate.
+Six notice tables retain65 logical rows,205 data cells,13 header cells, three
+printed blanks and three continuation-padding slots. The wrapped overseas cell
+stays one record. All22 notice rate cells,57 national dealer records in eleven
+groups and44 CD-dealer mentions in fifteen cities remain. The final column's
+eight price/duration pairs preserve repeated amounts as separate source occurrences.
+
+Four sender fields, six postcode slots, four application checkboxes, payment
+date, three giro panels, seals, amounts, subscriber fields, message and subscription
+period stay unfilled. Both photograph occurrences remain distinct. All table,
+image and form references point into the correct native namespace. The supplied
+instruction edge still ends after 그리고 주소 변경. Three MICR control-mark groups
+retain unknown glyph identities and encoded-character counts; visible300/0696
+remain separate. No omitted words, current payment validity or machine encoding
+is invented. Literal source wording, source-edge limits and glyph policies remain.
+
+The37 batch135 recognition outcomes retain their original execution pins and
+explicitly derived compatibility settings. Assembly performs no additional OCR.
+All59 invalid cases reject, including swapped repeated rates/giro occurrences,
+lost tables/dealers, filled blanks, stale image/table references, false physical-row
+claims, erased source limits and premature ancestor completion. All214 fresh PDF
+tests pass. All105,336 earlier July files, thirty core modules,29 prior assembly
+adapter files, three local OCR adapters and140 classification pins remain exact.
+The new frozen subscription adapter raises the required adapter inventory to30.
+No processing, export, validation-helper or reproduction-report failure occurred.
+
+One canonical assembly task uses zero mapped pages and zero new outside lookups.
+Totals are51 readable articles, zero partials, sixteen groups,35 references and
+one unresolved video appendix across137 completed checkpoints. Batch133's frozen
+355-complete/205-pending accounting snapshot remains unchanged, with an explicit
+scope override pointing to the completed assembly. Whole July restoration remains
+in progress. Full proofreading, human acceptance, historical claims and exact
+source glyph/encoded bytes remain unverified; no CD3 association is inferred.
+
+Next: reconcile reader-board0093 against the completed subscription assembly,
+then rebase selected ownership and page/exclusion accounting for538/546–549,
+including shared reader material and the excluded corporate-information panel.
+Preserve prior accounting snapshots and original classifications. Continue bounded
+non-body review, starting with untouched34–53 where retained evidence does not
+already qualify. Final video0103 eligibility/media-gap disposition, cover verification,
+standalone JSON/assets export, reproduction and issue closeout remain required.
+Preserve140 classification pins,30 frozen assembly adapters and three local OCR
+adapters. No reader rebuild or deployment.
