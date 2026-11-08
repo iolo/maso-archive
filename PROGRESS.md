@@ -11982,3 +11982,45 @@ Final video0103 eligibility/media-gap disposition requires complete structural
 accounting. Cover verification, standalone JSON/assets export, independent
 reproduction and issue closeout remain required. No inferred CD3 association,
 reader rebuild or deployment.
+
+July batch 144 advances whole-page structural accounting from 482 to 502 of the
+560 physical PDF pages, leaving 58 pending. All twenty newly inspected pages
+134–153 contain advertisements. Hanwha modem 135–136, MISSION computer 137–138,
+씨앤티 network services 147–148 and 옥소리 sound-card 149–150 layouts retain
+both physical pages of each spread. The 옥소리 title catalog on 151 and product
+panels on 152 remain distinct advertisements. Complete-page inspection of the
+EasyPhoto Reader advertisement on 153 now provides evidence beyond its earlier
+boundary-only observation. No printed folio is observed on these twenty pages;
+the earlier explicit 광고120 label on 133 remains unchanged. Commercial CD,
+video and training offers do not establish the Windows95 videotape appendix.
+
+Each decision binds an explicit complete-page observation and the original source
+render; all twenty review derivatives reproduce pixel-exactly. Structural review
+does not certify fine-print transcription, full proofreading or historical claims.
+All 540 other physical-page records remain exact. All 326 selected body pages,
+328 owner/page records, 545 exclusions, 51 selected packages, canonical outcomes,
+group completion records and retained-review bindings remain unchanged.
+
+All twelve selected, independent and fresh-process accounting files match.
+Twenty-nine invalid cases reject lost pages, changed image/review bindings,
+invented body ownership or folios, loss or coercion of the earlier advertisement
+label, unreviewed-page classifications, lost exclusions, and premature
+cover/video/source-wide completion. All 106,248 earlier July files, thirty core
+modules, thirty frozen assembly adapters, three local OCR adapters and 148 prior
+classification pins remain exact. The unchanged 214-test batch-137 baseline is
+reused. No processing, export or validation-helper failure occurred.
+
+One accounting task uses zero mapped pages, twenty newly inspected outside pages,
+zero OCR and zero source correction passes. Totals remain 51 readable articles,
+zero partials, sixteen groups, 35 references and one unresolved video appendix
+across 144 completed checkpoints. Required classification pins now total 149.
+July restoration remains in progress; exact glyph bytes, full proofreading and
+human acceptance remain unverified.
+
+Next: continue structural review of the 58 pending physical pages in bounded
+sets of at most twenty, starting with 161–164, 218, 228–236, 248 and 278–282.
+Preserve 149 classification pins, thirty frozen assembly adapters, three local
+OCR adapters and all prior evidence. Final video0103 eligibility/media-gap
+disposition requires complete structural accounting. Cover verification,
+standalone JSON/assets export, independent reproduction and issue closeout
+remain required. No inferred CD3 association, reader rebuild or deployment.
