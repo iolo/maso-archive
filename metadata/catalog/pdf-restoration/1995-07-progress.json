@@ -11938,7 +11938,8 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "July batch 120 classifies reader-board 0093 (애독자 포럼·게시판) as a non-owning\npageless heading and completes August-preview 0094 across PDF 293–294 / printed\n282–283. The source title 8월호 기사 예고 remains distinct from canonical\n8월호 주요 기사 안내. Fourteen future-issue topics belong to this single article;\nno announced article, supplement, software or current survey body is claimed restored.\nThe preceding Unix CD event report and following 3M advertisement are excluded.\n\nAll 242 selected, independent and fresh-process article files match. The native\nretains 60 pixel-exact crops, 58 original OCR outcomes, 54 text blocks, 141 physical\nrows, eighteen main prose paragraphs and 770 typed range occurrences. Four local\nparagraph joins preserve physical breaks; two word continuations retain their\ncolumn-boundary source ranges. The chip illustration interrupts one paragraph.\nTwo original illustrations have no captions. Three graphics part headings, ten\ncategory contexts, the separate P&P box, four mentioned people and a survey teaser\nretain their roles. Mentioned people are not assigned article bylines. No incoming,\noutgoing or cross-page prose join or separate article assembly is required.\n\nAll 58 raw drafts preceded one prospectively timed source correction pass. Two\nretained pre-OCR maps preserve fifteen crop adjustments and both sets of sixty\ncrops. Two empty colored-label drafts were recovered directly from source. No OCR\nretry, post-OCR crop change, within-pass refinement or post-pass source change.\nThirteen source notes preserve printed wording and claims, including 초점해,\nUndocument, 천혜 정보, 날/날이 across physical rows, 술잎(?), 갖자기,\n생존자격인, 안바이러스연구소, 테크닉을 궁금하다구요 and 일하는 있는.\nOne new validation-helper failure used the first occurrence of a repeated character\ninstead of the final character at a column boundary. Its script and log are retained;\nthe checker now verifies the exact boundary position. Source text, OCR and packages\nwere unchanged. No source-processing helper failed.\n\nTwo classification files also reproduce independently and in a fresh process.\nReader-board0093 retains all five canonical children without an inherited folio or\nowned body. Only0094 is readable;0095–0098 and family reconciliation remain pending.\nThe subscription title 정기구독 안내 and content are observed on PDF538, but no\nprinted folio is visible there. Canonical page529 is not a verified source folio;\nsubscription extent and eligibility remain undecided. Absence of an umbrella banner\nis scoped to the five reviewed source views, not the whole issue. The survey teaser\non294 does not classify current survey0099 or its children.\n\nAll 55 article and sixteen classification invalid cases reject, including missing\ntopics, paragraphs, source rows or joins, misassigned illustrations, invented captions,\nbylines or child identities, survey teaser misclassification, repaired source wording,\ninherited folios and premature family or issue completion. All 96,027 earlier July\nfiles, thirty core modules, 27 frozen assembly adapters, three local OCR adapters,\nthe batch76 figure builder and 126 prior classification pins remain exact. The\nunchanged fresh 214-test batch101 baseline is reused. Two new classification pins\nbring the issue requirement to128.\n\nTwo canonical tasks, two mapped pages and three outside lookup pages (292,295,538)\nstay within checkpoint limits. Totals are 46 readable articles, zero partials,\nsixteen groups,32 references and nine unresolved identities across120 completed\ncheckpoints. Whole July restoration remains incomplete.\n\nNext: verify subscription0095 from the observed PDF538 title/content match and locate\nadvertisement-index0096 listed at canonical printed530. Establish each source folio,\neligibility and complete extent independently; do not assume a global PDF offset.\nContinue reader-board children0097–0098 and explicitly reconcile0093, then survey0099\nand children0100–0102 and video appendix0103. Whole560-page accounting, cover\nverification and standalone JSON/assets closeout remain required. Preserve all128\nclassification pins,27 frozen assembly adapters from batch101 and three local OCR\nadapters from batch87. Incomplete donated TOCs, full proofreading, human acceptance\nand original encoded bytes remain explicit limits. No inferred CD3 association,\nreader rebuild or deployment.\n",
-        "July batch 125 completes reader-board 0093's explicit family reconciliation.\nIts five direct children 0094–0098 are distinct readable article owners: next-issue\npreview on PDF 293–294, subscription information on 538, advertisement index on\n539–540, reader prizes/cards on 541–544 and 546–547, and diskette guide on 545.\nThe pageless group retains its canonical title and hierarchy, owns no body and\ninherits no child folio. Canonical child order remains separate from physical page\norder; the intervening diskette never becomes reader-card content.\n\nTwo classification files reproduce independently and in a fresh process. All 876\nfiles from the five complete packages remain exact, retaining twelve distinct source\npages, 235 regions, 191 text blocks, 40 original figures and 195 OCR outcomes. Nineteen\npackage-local context ranges and the original pixel-exact group-classification crop\nvalidate. Fifty-eight external status dispositions resolve original group/member\npending fields, the subscription opening observation and current child ancestor notes.\nAll original classifications, package metadata and native partial flags remain unchanged.\n\nAbsent folios, the advertisement-index y9/99 glyph candidates, card blanks and clipped\nordinal edges remain source limitations. The next-issue survey teaser and reader-card\nquestions do not classify developer survey 0099. Original banner-absence evidence\nremains limited to five reviewed pages, without a whole-issue absence claim. Pages\n295–537 are merely outside this family's extents; their other owners and source\ncategories are not changed or inferred by this checkpoint.\n\nAll 42 invalid cases reject, including duplicate bodies, wrong owners, lost source\ncontexts, invented folios, absorbed diskette content, altered historical flags and\npremature issue completion. All 99,458 earlier July files, thirty core modules,\n28 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder\nand 128 earlier classification pins remain exact. The fresh 214-test batch 124 baseline\nis reused. No new mapping, outside source lookup, OCR or source correction was needed.\n\nOnly group 0093 gains a current completion disposition. Totals remain 50 readable\narticles, zero partials, sixteen groups, 32 references and five unresolved identities\nacross 125 completed checkpoints. The required classification inventory now contains\n130 pins. Whole July restoration remains incomplete.\n\nNext: locate and establish the source scope of pageless developer survey 0099,\n'95 개발도구/개발환경 설문조사, within a bounded checkpoint. Determine its own body\nand the source roles of children 0100–0102 from scans, without treating the next-issue\nteaser or blank reader-card questions as the survey. Restore and classify those\nidentities in bounded checkpoints, then resolve video appendix 0103. Whole 560-page\naccounting, cover verification and standalone JSON/assets closeout remain required.\nPreserve 130 classification pins, all 28 assembly adapters from batch124 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.\n"
+        "July batch 125 completes reader-board 0093's explicit family reconciliation.\nIts five direct children 0094–0098 are distinct readable article owners: next-issue\npreview on PDF 293–294, subscription information on 538, advertisement index on\n539–540, reader prizes/cards on 541–544 and 546–547, and diskette guide on 545.\nThe pageless group retains its canonical title and hierarchy, owns no body and\ninherits no child folio. Canonical child order remains separate from physical page\norder; the intervening diskette never becomes reader-card content.\n\nTwo classification files reproduce independently and in a fresh process. All 876\nfiles from the five complete packages remain exact, retaining twelve distinct source\npages, 235 regions, 191 text blocks, 40 original figures and 195 OCR outcomes. Nineteen\npackage-local context ranges and the original pixel-exact group-classification crop\nvalidate. Fifty-eight external status dispositions resolve original group/member\npending fields, the subscription opening observation and current child ancestor notes.\nAll original classifications, package metadata and native partial flags remain unchanged.\n\nAbsent folios, the advertisement-index y9/99 glyph candidates, card blanks and clipped\nordinal edges remain source limitations. The next-issue survey teaser and reader-card\nquestions do not classify developer survey 0099. Original banner-absence evidence\nremains limited to five reviewed pages, without a whole-issue absence claim. Pages\n295–537 are merely outside this family's extents; their other owners and source\ncategories are not changed or inferred by this checkpoint.\n\nAll 42 invalid cases reject, including duplicate bodies, wrong owners, lost source\ncontexts, invented folios, absorbed diskette content, altered historical flags and\npremature issue completion. All 99,458 earlier July files, thirty core modules,\n28 frozen assembly adapters, three local OCR adapters, the batch 76 figure builder\nand 128 earlier classification pins remain exact. The fresh 214-test batch 124 baseline\nis reused. No new mapping, outside source lookup, OCR or source correction was needed.\n\nOnly group 0093 gains a current completion disposition. Totals remain 50 readable\narticles, zero partials, sixteen groups, 32 references and five unresolved identities\nacross 125 completed checkpoints. The required classification inventory now contains\n130 pins. Whole July restoration remains incomplete.\n\nNext: locate and establish the source scope of pageless developer survey 0099,\n'95 개발도구/개발환경 설문조사, within a bounded checkpoint. Determine its own body\nand the source roles of children 0100–0102 from scans, without treating the next-issue\nteaser or blank reader-card questions as the survey. Restore and classify those\nidentities in bounded checkpoints, then resolve video appendix 0103. Whole 560-page\naccounting, cover verification and standalone JSON/assets closeout remain required.\nPreserve 130 classification pins, all 28 assembly adapters from batch124 and three\nlocal OCR adapters from batch87. Incomplete donated TOCs, full proofreading, human\nacceptance and original encoded bytes remain explicit limits. No inferred CD3\nassociation, reader rebuild or deployment.\n",
+        "July batch 138 reconciles reader-board0093 and rebases source-page accounting\nagainst the completed subscription0095 assembly. The non-owning reader-board now\nhas five complete readable children0094–0098, with sixteen owner/page occurrences\non fourteen distinct pages. Subscription and reader0097 share546/547, but every\ncross-owner region pair is disjoint in the same oriented coordinate system.\nThe group inherits no body or folio. All original group and article files remain\nunchanged;63 explicit external status resolutions preserve their historical values.\n\nAll ten selected, independent and fresh-process group/accounting files match.\nAll1,076 files in the five group article packages remain exact; twenty package-local\ncontext ranges validate. The original heading-classification crops remain pixel-exact.\nWhole-issue selected ownership now has51 packages,326 body pages and328 owner/page\nrecords. The additional body pages are548/549;546/547 retain both separate owners.\nOnly subscription0095's selected-package record changes from the prior snapshot.\n\nAll545 selected-map exclusions are now accounted:537 prior dispositions remain\nexact, three former subscription-scope exclusions point to the complete subscription\nassembly, and five added exclusions cover reciprocal reader ownership, separate\npublisher information, blank paper and scan exterior. Five reciprocal article\nexclusions do not create duplicate body ownership. The corporate-information panel\non549 remains unlisted. All original rectangles, notes and source geometry remain.\n\nAll326 body pages have explicit retained whole-page review bindings. Existing\nreviews remain pinned; five subscription/shared-page bindings use direct scope\nreviews134/136. No render is substituted for review evidence. Physical slots remain\n560. Whole-page accounting advances from355 to359 complete, leaving201 unclassified\npages. The newly complete pages are546–549. All unrelated page decisions and the\nhistorical prior-review discovery index remain unchanged; earlier355/205 and scope\noverride snapshots remain preserved. No new source-page inspection is claimed.\n\nOne configuration helper assertion compared complete orientation dictionaries,\nincluding different explanatory notes. Both rotations and numeric transforms were\nidentical. The failed attempt and successful earlier configuration files remain;\na separate continuation compares geometric values and retains both original notes.\nNo source, article, map, OCR or export repair occurred. All71 invalid group/accounting\ncases reject, including lost owners, stale bindings, changed original rectangles,\nfalse review/completion claims, missing unknown pages and premature video decisions.\n\nAll105,737 earlier July files, thirty core modules,30 frozen assembly adapter files,\nthree local OCR adapters and140 prior classification pins remain exact. The unchanged\n214-test batch137 baseline is reused. Two canonical reconciliation tasks use zero\nmapped pages, zero new outside lookups, zero OCR and zero source correction passes.\nTotals remain51 readable articles, zero partials, sixteen groups,35 references and\none unresolved video appendix across138 completed checkpoints. Required classification\npins now total143. Full proofreading, human acceptance, historical claims and exact\nsource glyph/encoded bytes remain unverified. July restoration is still in progress.\n\nNext: reconcile qualifying retained non-body source reviews against the201 pending\nphysical pages, preserving explicit review scope and source pins. Then inspect\nremaining pages in bounded groups of at most twenty;34–53 are the next untouched\ncontiguous candidates. Final video0103 eligibility/media-gap disposition requires\ncomplete structural accounting. Cover verification, standalone JSON/assets export,\nindependent reproduction and issue closeout remain required. Preserve143 classification\npins,30 frozen assembly adapters and three local OCR adapters. No inferred CD3\nassociation, reader rebuild or deployment.\n"
       ],
       "restoration": null,
       "group_reference": {
@@ -11969,28 +11970,31 @@
         ],
         "checkpoint": "batch-120",
         "completion_disposition": {
-          "child_restorations_complete": false,
-          "descendant_outcomes_complete": false,
-          "pending_descendant_ids": [
-            "maso-1995-07-toc-0095"
-          ],
+          "child_restorations_complete": true,
+          "descendant_outcomes_complete": true,
+          "pending_descendant_ids": [],
           "status": {
-            "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
-            "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
-            "bytes": 7954
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/group-status-dispositions.json",
+            "sha256": "8dd9cf59136891c9038e5c8b1857e0fc661d4e8fee4b8761c2d529a6378f370d",
+            "bytes": 38310
+          },
+          "family_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/family-ownership.json",
+            "sha256": "fe0c372b1ea408285541c1ece0f1ba8319d9edc7c5c1b8aa547e8c8c928163cf",
+            "bytes": 78066
           },
           "validation": {
-            "path": "archive/pdf/1995-07/restoration/batch-134/validation.json",
-            "sha256": "964e7c7906048f8960bef0cb729d6ec8650d0fe2e15a60bdf65962d116e88f8a",
-            "bytes": 2152
+            "path": "archive/pdf/1995-07/restoration/batch-138/validation.json",
+            "sha256": "93e4833f8747803dc8350c86228b250126ab4da052347a9da4fb9b6ca6647bc5",
+            "bytes": 2867
           },
           "reproduction": {
-            "path": "archive/pdf/1995-07/restoration/batch-134/reproduction.json",
-            "sha256": "15f64d91666aedfeed26a4ce639e1037212c352cde32c64d79f2650ea818ed73",
-            "bytes": 1524
+            "path": "archive/pdf/1995-07/restoration/batch-138/reproduction.json",
+            "sha256": "ce96bc310b430daa90cda922cd28ccac67c01cff3f28362ae051245f73a9817a",
+            "bytes": 2369
           },
-          "checkpoint": "batch-134",
-          "reason": "Derived reopening because subscription0095 has additional eligible unpreserved body. Batch125 remains unchanged inside the pinned scope decision."
+          "checkpoint": "batch-138",
+          "reason": "Subscription0095 is actually assembled; all five children are readable. Shared546/547 regions remain disjoint and original group/native states remain historical."
         }
       }
     },
@@ -18641,6 +18645,41 @@
         "sha256": "38216c0916b8560abd3cb28affe21afa2a22b3fce388f1c455a5112ae82e7a19",
         "bytes": 67470
       }
+    },
+    {
+      "name": "1995-07-batch-138",
+      "status": "complete",
+      "completed_at": "2026-11-08T00:36:11.574699+00:00",
+      "goal": "Reconcile reader-board0093 and rebase current body/exclusion accounting from complete subscription0095.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0093",
+        "maso-1995-07-toc-0103"
+      ],
+      "canonical_tasks": 2,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 0,
+      "outside_lookup_pdf_pages": [],
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "retained_configuration_helper_failures": 1,
+      "canonical_article_packages_changed": false,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-138/validation.json",
+        "sha256": "93e4833f8747803dc8350c86228b250126ab4da052347a9da4fb9b6ca6647bc5",
+        "bytes": 2867
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-138/reproduction.json",
+        "sha256": "ce96bc310b430daa90cda922cd28ccac67c01cff3f28362ae051245f73a9817a",
+        "bytes": 2369
+      },
+      "accounting_manifest": {
+        "path": "archive/pdf/1995-07/classifications/batch-138-r01/manifest.json",
+        "sha256": "4a72663ce98a973b8aa81d30f0dfaf5f23bb2099dd9a0f4f4cb171eecaa5d2e5",
+        "bytes": 1993
+      }
     }
   ],
   "totals": {
@@ -18656,7 +18695,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: reconcile reader-board0093 against the completed subscription assembly,\nthen rebase selected ownership and page/exclusion accounting for538/546–549,\nincluding shared reader material and the excluded corporate-information panel.\nPreserve prior accounting snapshots and original classifications. Continue bounded\nnon-body review, starting with untouched34–53 where retained evidence does not\nalready qualify. Final video0103 eligibility/media-gap disposition, cover verification,\nstandalone JSON/assets export, reproduction and issue closeout remain required.\nPreserve140 classification pins,30 frozen assembly adapters and three local OCR\nadapters. No reader rebuild or deployment.",
+  "next_checkpoint": "Next: reconcile qualifying retained non-body source reviews against the201 pending\nphysical pages, preserving explicit review scope and source pins. Then inspect\nremaining pages in bounded groups of at most twenty;34–53 are the next untouched\ncontiguous candidates. Final video0103 eligibility/media-gap disposition requires\ncomplete structural accounting. Cover verification, standalone JSON/assets export,\nindependent reproduction and issue closeout remain required. Preserve143 classification\npins,30 frozen assembly adapters and three local OCR adapters. No inferred CD3\nassociation, reader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -19357,55 +19396,88 @@
       "path": "archive/pdf/1995-07/classifications/batch-134-r01/manifest.json",
       "sha256": "a85ed6eed63f6618c8f10ead1c74e5a2a8b50ae71035f211b44a93e8de45a9a3",
       "bytes": 668
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/family-ownership.json",
+      "sha256": "fe0c372b1ea408285541c1ece0f1ba8319d9edc7c5c1b8aa547e8c8c928163cf",
+      "bytes": 78066
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/group-status-dispositions.json",
+      "sha256": "8dd9cf59136891c9038e5c8b1857e0fc661d4e8fee4b8761c2d529a6378f370d",
+      "bytes": 38310
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/manifest.json",
+      "sha256": "4a72663ce98a973b8aa81d30f0dfaf5f23bb2099dd9a0f4f4cb171eecaa5d2e5",
+      "bytes": 1993
     }
   ],
   "source_page_accounting": {
     "status": "in-progress",
-    "checkpoint": "batch-133",
+    "checkpoint": "batch-138",
     "manifest": {
-      "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/manifest.json",
-      "sha256": "c038ef29d9ddc35cde86ca34e896cd5d283084b29a3539aefbf68ac6f3ab4766",
-      "bytes": 1292
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/manifest.json",
+      "sha256": "4a72663ce98a973b8aa81d30f0dfaf5f23bb2099dd9a0f4f4cb171eecaa5d2e5",
+      "bytes": 1993
     },
     "page_ledger": {
-      "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/page-ledger.json",
-      "sha256": "374138c1a699447f5b0fa1f95baf4d90fbd638010f385b5bc142ba4f7f04c515",
-      "bytes": 1638927
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/page-ledger.json",
+      "sha256": "270d208203a559de2dd71ac4140758a751e051027c86d5a5a0905ed6ef775551",
+      "bytes": 1650105
+    },
+    "selected_ownership": {
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/selected-ownership.json",
+      "sha256": "e8bada761e9f38942b27d6713869e896cb829b76d66e9328bd9d969052516b82",
+      "bytes": 2697455
+    },
+    "body_review_bindings": {
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/prior-body-bindings.json",
+      "sha256": "86e423a12fcfc309dbee5a385b278a876ab7297b56906f9c294fe1449608ac4d",
+      "bytes": 584658
     },
     "exclusion_dispositions": {
-      "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/exclusion-dispositions.json",
-      "sha256": "0a4ba7c1f48e71643e26200491c9883e69c10d1c9a7be5959ede613c140cf145",
-      "bytes": 1040532
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/exclusion-dispositions.json",
+      "sha256": "754bde6199ae9bb6c65442fa92ac61d63d3a130c65f8274afbb9b996cdb06e94",
+      "bytes": 1053628
+    },
+    "shared_page_ownership": {
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/shared-page-ownership.json",
+      "sha256": "01840cc7ea35d375032fa98c180a1631bb292753c3fdc1be2ab5a42983b96d9d",
+      "bytes": 3322
     },
     "disposition": {
-      "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/disposition.json",
-      "sha256": "66539e44e880ca47166e19a2a7e9c44786ea460ad3b267953b664348f233421c",
-      "bytes": 4096
+      "path": "archive/pdf/1995-07/classifications/batch-138-r01/disposition.json",
+      "sha256": "15d243d1b415bb58a0edb04cf2db95475d465902179fba56e592a3ca3a7dda17",
+      "bytes": 3443
     },
     "validation": {
-      "path": "archive/pdf/1995-07/restoration/batch-133/validation.json",
-      "sha256": "bf93a0ce69537c9b884cddd53cb4366475a6e077b9b6aeb859d1c2175ff42327",
-      "bytes": 4045
+      "path": "archive/pdf/1995-07/restoration/batch-138/validation.json",
+      "sha256": "93e4833f8747803dc8350c86228b250126ab4da052347a9da4fb9b6ca6647bc5",
+      "bytes": 2867
     },
     "reproduction": {
-      "path": "archive/pdf/1995-07/restoration/batch-133/reproduction.json",
-      "sha256": "7a4328edda465b28dc1fd0479860df531511f08be7a16b025520fc706fd75c88",
-      "bytes": 2741
+      "path": "archive/pdf/1995-07/restoration/batch-138/reproduction.json",
+      "sha256": "ce96bc310b430daa90cda922cd28ccac67c01cff3f28362ae051245f73a9817a",
+      "bytes": 2369
     },
     "totals": {
       "physical_pages": 560,
       "selected_packages": 51,
-      "selected_body_pages": 324,
-      "owner_page_records": 324,
-      "shared_body_pages": [],
-      "primary_material_known": 357,
-      "primary_pending": 203,
+      "selected_body_pages": 326,
+      "owner_page_records": 328,
+      "shared_body_pages": [
+        546,
+        547
+      ],
+      "primary_material_known": 359,
+      "primary_pending": 201,
       "retained_structural_observations": 14,
-      "whole_page_accounting_complete": 355,
-      "whole_page_accounting_pending": 205,
-      "original_map_exclusions": 540,
-      "pages_with_original_exclusions": 308,
-      "exclusion_dispositions_pending": 3,
+      "whole_page_accounting_complete": 359,
+      "whole_page_accounting_pending": 201,
+      "original_map_exclusions": 545,
+      "pages_with_original_exclusions": 309,
+      "exclusion_dispositions_pending": 0,
       "prior_review_records": 360,
       "prior_rendered_page_identities": 388,
       "material_classes": {
@@ -19413,38 +19485,148 @@
         "contents": 2,
         "contents-and-imprint": 1,
         "front-cover": 1,
-        "selected-canonical-body-portions": 324
+        "selected-canonical-body-portions": 326
       },
       "new_direct_structural_observations": 20,
-      "selected_body_review_bindings": 324,
-      "selected_body_pages_fully_accounted": 322,
-      "exclusion_dispositions_accounted": 537,
+      "selected_body_review_bindings": 326,
+      "selected_body_pages_fully_accounted": 326,
+      "exclusion_dispositions_accounted": 545,
       "exclusion_material_classes": {
         "page-furniture": 525,
         "independent-advertisement": 9,
         "independent-publisher-notice": 1,
         "independent-publisher-promotion": 2,
-        "subscription-form-scope-pending": 3
-      }
+        "other-canonical-body-portions": 5,
+        "blank-paper-and-scan-exterior": 2,
+        "independent-publisher-information": 1
+      },
+      "new_direct_structural_observations_this_checkpoint": 0
     },
     "full_source_accounting_complete": false,
     "source_wide_absence_claimed": false,
-    "canonical_entries_unchanged": true,
-    "current_scope_override": {
-      "checkpoint": "batch-137",
-      "scope_decision": {
-        "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
-        "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
-        "bytes": 7954
+    "canonical_article_packages_unchanged": true,
+    "canonical_group_status_reconciled": true,
+    "previous_snapshot": {
+      "status": "in-progress",
+      "checkpoint": "batch-133",
+      "manifest": {
+        "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/manifest.json",
+        "sha256": "c038ef29d9ddc35cde86ca34e896cd5d283084b29a3539aefbf68ac6f3ab4766",
+        "bytes": 1292
       },
-      "resolved_scope_exclusions": 3,
-      "eligible_body_restoration_required": [],
-      "snapshot_totals_not_rebased": true,
-      "next_action": "Reconcile reader-board0093 and rebase selected ownership plus page/exclusion accounting against the actual subscription assembly.",
-      "latest_native": {
-        "path": "archive/pdf/1995-07/packages/batch-136-r01/subscription-c/manifest.json",
-        "sha256": "12709f8b1708db164cb1e3f36eb539952c0593d0ccaf58285fa9b7e6f54e9182",
-        "bytes": 4825
+      "page_ledger": {
+        "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/page-ledger.json",
+        "sha256": "374138c1a699447f5b0fa1f95baf4d90fbd638010f385b5bc142ba4f7f04c515",
+        "bytes": 1638927
+      },
+      "exclusion_dispositions": {
+        "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/exclusion-dispositions.json",
+        "sha256": "0a4ba7c1f48e71643e26200491c9883e69c10d1c9a7be5959ede613c140cf145",
+        "bytes": 1040532
+      },
+      "disposition": {
+        "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/disposition.json",
+        "sha256": "66539e44e880ca47166e19a2a7e9c44786ea460ad3b267953b664348f233421c",
+        "bytes": 4096
+      },
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-133/validation.json",
+        "sha256": "bf93a0ce69537c9b884cddd53cb4366475a6e077b9b6aeb859d1c2175ff42327",
+        "bytes": 4045
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-133/reproduction.json",
+        "sha256": "7a4328edda465b28dc1fd0479860df531511f08be7a16b025520fc706fd75c88",
+        "bytes": 2741
+      },
+      "totals": {
+        "physical_pages": 560,
+        "selected_packages": 51,
+        "selected_body_pages": 324,
+        "owner_page_records": 324,
+        "shared_body_pages": [],
+        "primary_material_known": 357,
+        "primary_pending": 203,
+        "retained_structural_observations": 14,
+        "whole_page_accounting_complete": 355,
+        "whole_page_accounting_pending": 205,
+        "original_map_exclusions": 540,
+        "pages_with_original_exclusions": 308,
+        "exclusion_dispositions_pending": 3,
+        "prior_review_records": 360,
+        "prior_rendered_page_identities": 388,
+        "material_classes": {
+          "advertisement": 29,
+          "contents": 2,
+          "contents-and-imprint": 1,
+          "front-cover": 1,
+          "selected-canonical-body-portions": 324
+        },
+        "new_direct_structural_observations": 20,
+        "selected_body_review_bindings": 324,
+        "selected_body_pages_fully_accounted": 322,
+        "exclusion_dispositions_accounted": 537,
+        "exclusion_material_classes": {
+          "page-furniture": 525,
+          "independent-advertisement": 9,
+          "independent-publisher-notice": 1,
+          "independent-publisher-promotion": 2,
+          "subscription-form-scope-pending": 3
+        }
+      },
+      "full_source_accounting_complete": false,
+      "source_wide_absence_claimed": false,
+      "canonical_entries_unchanged": true,
+      "current_scope_override": {
+        "checkpoint": "batch-137",
+        "scope_decision": {
+          "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
+          "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
+          "bytes": 7954
+        },
+        "resolved_scope_exclusions": 3,
+        "eligible_body_restoration_required": [],
+        "snapshot_totals_not_rebased": true,
+        "next_action": "Reconcile reader-board0093 and rebase selected ownership plus page/exclusion accounting against the actual subscription assembly.",
+        "latest_native": {
+          "path": "archive/pdf/1995-07/packages/batch-136-r01/subscription-c/manifest.json",
+          "sha256": "12709f8b1708db164cb1e3f36eb539952c0593d0ccaf58285fa9b7e6f54e9182",
+          "bytes": 4825
+        },
+        "known_subscription_pdf_pages": [
+          538,
+          546,
+          547,
+          548,
+          549
+        ],
+        "preserved_subscription_pdf_pages": [
+          538,
+          546,
+          547,
+          548,
+          549
+        ],
+        "current_extent_review": {
+          "path": "archive/pdf/1995-07/restoration/batch-136/source-reviewed.json",
+          "sha256": "fc8ea446e0b3492985872c4e8036247bea7f37f859b80863f139fbb58fda60d2",
+          "bytes": 3582
+        },
+        "selected_assembly": {
+          "path": "archive/pdf/1995-07/packages/article-subscription-r01/manifest.json",
+          "sha256": "ef17314db55ae7275a3059850cff6346af9893bd0db08f53b8262887c2248473",
+          "bytes": 64262
+        },
+        "subscription_assembly_complete": true
+      }
+    },
+    "previous_snapshot_is_historical": true,
+    "subscription_scope_reconciliation": {
+      "complete": true,
+      "selected_assembly": {
+        "path": "archive/pdf/1995-07/packages/article-subscription-r01/manifest.json",
+        "sha256": "ef17314db55ae7275a3059850cff6346af9893bd0db08f53b8262887c2248473",
+        "bytes": 64262
       },
       "known_subscription_pdf_pages": [
         538,
@@ -19453,24 +19635,12 @@
         548,
         549
       ],
-      "preserved_subscription_pdf_pages": [
-        538,
+      "all_subscription_body_preserved": true,
+      "shared_body_pages": [
         546,
-        547,
-        548,
-        549
+        547
       ],
-      "current_extent_review": {
-        "path": "archive/pdf/1995-07/restoration/batch-136/source-reviewed.json",
-        "sha256": "fc8ea446e0b3492985872c4e8036247bea7f37f859b80863f139fbb58fda60d2",
-        "bytes": 3582
-      },
-      "selected_assembly": {
-        "path": "archive/pdf/1995-07/packages/article-subscription-r01/manifest.json",
-        "sha256": "ef17314db55ae7275a3059850cff6346af9893bd0db08f53b8262887c2248473",
-        "bytes": 64262
-      },
-      "subscription_assembly_complete": true
+      "all_map_exclusions_accounted": true
     }
   }
 }

@@ -5967,6 +5967,62 @@ standalone JSON/assets export, reproduction and issue closeout remain required.
 Preserve140 classification pins,30 frozen assembly adapters and three local OCR
 adapters. No reader rebuild or deployment.
 
+July batch 138 reconciles reader-board0093 and rebases source-page accounting
+against the completed subscription0095 assembly. The non-owning reader-board now
+has five complete readable children0094–0098, with sixteen owner/page occurrences
+on fourteen distinct pages. Subscription and reader0097 share546/547, but every
+cross-owner region pair is disjoint in the same oriented coordinate system.
+The group inherits no body or folio. All original group and article files remain
+unchanged;63 explicit external status resolutions preserve their historical values.
+
+All ten selected, independent and fresh-process group/accounting files match.
+All1,076 files in the five group article packages remain exact; twenty package-local
+context ranges validate. The original heading-classification crops remain pixel-exact.
+Whole-issue selected ownership now has51 packages,326 body pages and328 owner/page
+records. The additional body pages are548/549;546/547 retain both separate owners.
+Only subscription0095's selected-package record changes from the prior snapshot.
+
+All545 selected-map exclusions are now accounted:537 prior dispositions remain
+exact, three former subscription-scope exclusions point to the complete subscription
+assembly, and five added exclusions cover reciprocal reader ownership, separate
+publisher information, blank paper and scan exterior. Five reciprocal article
+exclusions do not create duplicate body ownership. The corporate-information panel
+on549 remains unlisted. All original rectangles, notes and source geometry remain.
+
+All326 body pages have explicit retained whole-page review bindings. Existing
+reviews remain pinned; five subscription/shared-page bindings use direct scope
+reviews134/136. No render is substituted for review evidence. Physical slots remain
+560. Whole-page accounting advances from355 to359 complete, leaving201 unclassified
+pages. The newly complete pages are546–549. All unrelated page decisions and the
+historical prior-review discovery index remain unchanged; earlier355/205 and scope
+override snapshots remain preserved. No new source-page inspection is claimed.
+
+One configuration helper assertion compared complete orientation dictionaries,
+including different explanatory notes. Both rotations and numeric transforms were
+identical. The failed attempt and successful earlier configuration files remain;
+a separate continuation compares geometric values and retains both original notes.
+No source, article, map, OCR or export repair occurred. All71 invalid group/accounting
+cases reject, including lost owners, stale bindings, changed original rectangles,
+false review/completion claims, missing unknown pages and premature video decisions.
+
+All105,737 earlier July files, thirty core modules,30 frozen assembly adapter files,
+three local OCR adapters and140 prior classification pins remain exact. The unchanged
+214-test batch137 baseline is reused. Two canonical reconciliation tasks use zero
+mapped pages, zero new outside lookups, zero OCR and zero source correction passes.
+Totals remain51 readable articles, zero partials, sixteen groups,35 references and
+one unresolved video appendix across138 completed checkpoints. Required classification
+pins now total143. Full proofreading, human acceptance, historical claims and exact
+source glyph/encoded bytes remain unverified. July restoration is still in progress.
+
+Next: reconcile qualifying retained non-body source reviews against the201 pending
+physical pages, preserving explicit review scope and source pins. Then inspect
+remaining pages in bounded groups of at most twenty;34–53 are the next untouched
+contiguous candidates. Final video0103 eligibility/media-gap disposition requires
+complete structural accounting. Cover verification, standalone JSON/assets export,
+independent reproduction and issue closeout remain required. Preserve143 classification
+pins,30 frozen assembly adapters and three local OCR adapters. No inferred CD3
+association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
