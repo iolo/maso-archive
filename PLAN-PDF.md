@@ -5864,6 +5864,49 @@ reproduction and issue closeout remain required. Preserve140 classification pins
 29 assembly adapters and three local OCR adapters. No inferred CD3 association,
 reader rebuild or deployment.
 
+July batch 136 preserves the final subscription0095 column on PDF549 as a separate
+immutable native. Direct review of548–550 confirms the giro reverse's four magazine
+rate blocks and two-line book-remittance note, the distinct excluded corporate
+purpose/business/shareholder panel, and the independent survey0099 opening550.
+No printed folio or prose join is inferred. All five known subscription pages
+538/546–549 are now preserved across three natives; actual assembly remains required.
+
+All29 selected, independent and fresh-process package files match. The native
+retains six pixel-exact crops, five original OCR outcomes, five text blocks,
+fourteen physical reading rows,114 typed range occurrences and one original image
+without a caption. Eight duration/price pairs preserve their separate source
+occurrences, including repeated65,000/33,000 rates. Five filled square list markers
+are not response checkboxes. Literal 인터네트, corner quotation marks and the complete
+book-remittance sentence remain. Publication options do not become new identities.
+
+All five drafts were read before one prospectively timed source correction pass.
+One map required no crop repairs, recognition retries, within-pass refinements or
+post-pass source changes. The contact sheet's canvas clipped the last remittance
+row; the complete original column and separate complete crop were directly viewed.
+The underlying source crop was complete and unchanged. All27 invalid semantic cases
+reject. Historical rates and claims, exact glyph bytes, full proofreading and human
+acceptance remain unverified; original images retain the printed typography.
+
+All105,205 earlier July files, thirty core modules,29 assembly adapter files,
+three local OCR adapters and140 classification pins remain exact. The unchanged
+214-test batch128 baseline is reused. One canonical task, one mapped page and two
+outside lookups548/550 stay within limits. Totals remain50 readable articles,
+one partial, sixteen groups,35 references and one unresolved video appendix across
+136 completed checkpoints. Subscription0095 stays partial until actual assembly;
+reader-board0093 stays incomplete. Batch133 accounting remains a frozen
+355-complete/205-pending snapshot with an explicit current scope override.
+
+Next: actually assemble subscription538/546–549 from the three immutable natives,
+projecting all source ranges, rate occurrences, blank form fields, original OCR
+execution provenance, the scan-edge instruction limit and unresolved MICR marks.
+Keep reader0097 ownership distinct. Then reconcile reader-board0093 and rebase
+selected ownership and page/exclusion accounting. Continue remaining non-body
+review, starting with untouched34–53 where retained evidence does not already
+qualify. Final video0103 eligibility/media-gap disposition, cover verification,
+standalone JSON/assets export, reproduction and issue closeout remain required.
+Preserve140 classification pins,29 assembly adapters and three local OCR adapters.
+No inferred CD3 association, reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
