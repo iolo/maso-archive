@@ -12115,3 +12115,52 @@ three local OCR adapters and all prior evidence. Final video0103 eligibility and
 media-gap disposition requires complete structural accounting. Cover verification,
 standalone JSON/assets export, independent reproduction and issue closeout remain
 required. No inferred CD3 association, reader rebuild or deployment.
+
+July batch 147 advances whole-page structural accounting from 542 to all 560
+physical PDF pages, leaving zero pending pages or exclusions. The final eighteen
+newly inspected pages 386–403 are advertisements. Serome campaign pages 386/388
+retain their distinct numeral3/numeral4 layouts; hardware, software, service and
+book-catalog pages remain outside canonical extraction. The Windows Developer
+magazine launch/subscription advertisement on 403 concerns another publication.
+Windows95 product-driver and upgrade claims on 396–397 do not establish the
+educational videotape appendix. No printed folio is observed on these eighteen
+pages. The earlier publisher event report on 292 and its observed folio281 remain
+unchanged, as does the advertisement label on 133.
+
+Each new decision binds a complete-page observation and original source render;
+all eighteen review derivatives reproduce pixel-exactly. All 542 other physical
+records remain exact. The complete ledger now contains 326 selected body pages,
+228 advertisements, two contents pages, one contents/imprint page, one publisher
+event report, one front cover and one cover/spine detail. These material labels
+do not complete the separate cover-verification workflow. All 328 owner/page
+records, 545 mapped exclusions, 51 selected packages, canonical outcomes and
+retained-review bindings remain unchanged.
+
+All twelve selected, independent and fresh-process accounting files match.
+A whole-ledger audit resolves review bindings for all560 physical pages against
+pinned source images and geometry. All326 body-page bindings resolve their saved
+review page/scope pointers; all545 mapped exclusions resolve their decisions.
+Nonbody classifications resolve to the matching physical page, material and
+source image. No unknown portion is assumed blank. Thirty invalid cases reject
+lost or changed pages, sources, review pointers, ownership, observed folios,
+exclusions, totals and completeness flags, plus premature video/cover decisions.
+All 106,515 earlier July files, thirty core modules, thirty frozen assembly
+adapters, three local OCR adapters and 151 prior classification pins remain exact.
+The unchanged 214-test batch-137 baseline is reused. No processing, export or
+validation-helper failure occurred.
+
+One accounting task uses zero mapped pages, eighteen newly inspected outside
+pages, zero OCR and zero source correction passes. Totals remain 51 readable
+articles, zero partials, sixteen groups, 35 references and one unresolved video
+appendix across 147 completed checkpoints. Required classification pins now
+total152. Structural accounting is complete; July restoration remains in progress.
+This checkpoint does not make a source-wide appendix-absence or physical-media
+availability claim. Exact glyph bytes, full proofreading and human acceptance
+remain unverified.
+
+Next: finalize video0103 eligibility and media-gap disposition using the completed
+560-page accounting, announcement evidence and an explicitly bounded inventory of
+supplied media. Preserve152 classification pins, thirty frozen assembly adapters,
+three local OCR adapters and all prior evidence. Verify covers, export the standalone
+JSON/assets issue collection, reproduce it independently and complete issue closeout.
+No inferred CD3 association, reader rebuild or deployment.
