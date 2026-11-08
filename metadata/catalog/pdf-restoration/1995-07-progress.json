@@ -18792,6 +18792,62 @@
         "sha256": "e66dedf64c9d962e49064fd11ad133e896c28ea368789e110ec28817250c01e0",
         "bytes": 2113
       }
+    },
+    {
+      "name": "1995-07-batch-141",
+      "status": "complete",
+      "completed_at": "2026-11-08T01:09:33.960016+00:00",
+      "goal": "Directly inspect20 pending pages74–93 and preserve all earlier accounting.",
+      "toc_entry_ids": [
+        "maso-1995-07-toc-0103"
+      ],
+      "canonical_tasks": 1,
+      "mapped_pages": 0,
+      "mapped_pdf_pages": [],
+      "outside_lookup_pages": 20,
+      "outside_lookup_pdf_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "retained_nonbody_reviews_qualified": 0,
+      "recognition_invocations": 0,
+      "recognition_retries": 0,
+      "source_correction_passes": 0,
+      "retained_helper_failures": 0,
+      "canonical_entries_changed": false,
+      "validation": {
+        "path": "archive/pdf/1995-07/restoration/batch-141/validation.json",
+        "sha256": "2ab56b81c1088c7629122d048f3e3ce46d94bb2140d72a05e76dc5fe955a1b20",
+        "bytes": 3827
+      },
+      "reproduction": {
+        "path": "archive/pdf/1995-07/restoration/batch-141/reproduction.json",
+        "sha256": "54b0232511b18125ffbd3b028093abcf538d1363488e012a1bece3fcb2900434",
+        "bytes": 2694
+      },
+      "accounting_manifest": {
+        "path": "archive/pdf/1995-07/classifications/batch-141-r01/manifest.json",
+        "sha256": "b53ef18736b1013c3f82112f2d95006cc8206ec4547d0a18999b918d89276f67",
+        "bytes": 2113
+      }
     }
   ],
   "totals": {
@@ -18807,7 +18863,7 @@
     "Source folios/ownership and CD3 associations require direct evidence.",
     "Mapped Tesseract; JSON/assets delivery. Human acceptance/full proofreading pending."
   ],
-  "next_checkpoint": "Next: continue structural review of the 138 pending physical pages in bounded\nsets of at most twenty, starting with 74–93. Preserve 145 classification pins,\nthirty frozen assembly adapters, three local OCR adapters and all prior evidence.\nFinal video0103 eligibility/media-gap disposition requires complete structural\naccounting. Cover verification, standalone JSON/assets export, independent\nreproduction and issue closeout remain required. No inferred CD3 association,\nreader rebuild or deployment.",
+  "next_checkpoint": "Next: continue structural review of the 118 pending physical pages in bounded\nsets of at most twenty, starting with 94–113. Preserve 146 classification pins,\nthirty frozen assembly adapters, three local OCR adapters and all prior evidence.\nFinal video0103 eligibility/media-gap disposition requires complete structural\naccounting. Cover verification, standalone JSON/assets export, independent\nreproduction and issue closeout remain required. No inferred CD3 association,\nreader rebuild or deployment.",
   "final_issue_classification_evidence_required": [
     {
       "path": "archive/pdf/1995-07/classifications/batch-03-r01/child-0002-anchor.json",
@@ -19533,54 +19589,59 @@
       "path": "archive/pdf/1995-07/classifications/batch-140-r01/manifest.json",
       "sha256": "e66dedf64c9d962e49064fd11ad133e896c28ea368789e110ec28817250c01e0",
       "bytes": 2113
+    },
+    {
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/manifest.json",
+      "sha256": "b53ef18736b1013c3f82112f2d95006cc8206ec4547d0a18999b918d89276f67",
+      "bytes": 2113
     }
   ],
   "source_page_accounting": {
     "status": "in-progress",
-    "checkpoint": "batch-140",
+    "checkpoint": "batch-141",
     "manifest": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/manifest.json",
-      "sha256": "e66dedf64c9d962e49064fd11ad133e896c28ea368789e110ec28817250c01e0",
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/manifest.json",
+      "sha256": "b53ef18736b1013c3f82112f2d95006cc8206ec4547d0a18999b918d89276f67",
       "bytes": 2113
     },
     "page_ledger": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/page-ledger.json",
-      "sha256": "42b2586608b0635fcd3fb1f7a73f4b82ae1afa7c4a850f3e603a0e9be407662d",
-      "bytes": 1720353
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/page-ledger.json",
+      "sha256": "abd941567f968b99d3b79830b48fc58c23989bd3c8d7f2564341d6ceaf406b22",
+      "bytes": 1745009
     },
     "selected_ownership": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/selected-ownership.json",
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/selected-ownership.json",
       "sha256": "e8bada761e9f38942b27d6713869e896cb829b76d66e9328bd9d969052516b82",
       "bytes": 2697455
     },
     "body_review_bindings": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/prior-body-bindings.json",
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/prior-body-bindings.json",
       "sha256": "86e423a12fcfc309dbee5a385b278a876ab7297b56906f9c294fe1449608ac4d",
       "bytes": 584658
     },
     "exclusion_dispositions": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/exclusion-dispositions.json",
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/exclusion-dispositions.json",
       "sha256": "754bde6199ae9bb6c65442fa92ac61d63d3a130c65f8274afbb9b996cdb06e94",
       "bytes": 1053628
     },
     "shared_page_ownership": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/shared-page-ownership.json",
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/shared-page-ownership.json",
       "sha256": "01840cc7ea35d375032fa98c180a1631bb292753c3fdc1be2ab5a42983b96d9d",
       "bytes": 3322
     },
     "disposition": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/disposition.json",
-      "sha256": "9ecff45876ec17fa8084f5c580d64e1e154954e7eb87b208f27dcd01f6f37a72",
-      "bytes": 2983
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/disposition.json",
+      "sha256": "0939533ba67ef47e4808ef92b5a8efc3b91583a77718dfadd689a8f380c9c85c",
+      "bytes": 2838
     },
     "validation": {
-      "path": "archive/pdf/1995-07/restoration/batch-140/validation.json",
-      "sha256": "cef41e157827bd95c2fee3ccdfa9d0cee960b379e76926a24a8857b24546b5c0",
-      "bytes": 3733
+      "path": "archive/pdf/1995-07/restoration/batch-141/validation.json",
+      "sha256": "2ab56b81c1088c7629122d048f3e3ce46d94bb2140d72a05e76dc5fe955a1b20",
+      "bytes": 3827
     },
     "reproduction": {
-      "path": "archive/pdf/1995-07/restoration/batch-140/reproduction.json",
-      "sha256": "d6348447bf6cdaa9b1139220cae6267948fb3f504dac301945f69ee528ea553d",
+      "path": "archive/pdf/1995-07/restoration/batch-141/reproduction.json",
+      "sha256": "54b0232511b18125ffbd3b028093abcf538d1363488e012a1bece3fcb2900434",
       "bytes": 2694
     },
     "totals": {
@@ -19592,25 +19653,25 @@
         546,
         547
       ],
-      "primary_material_known": 422,
-      "primary_pending": 138,
+      "primary_material_known": 442,
+      "primary_pending": 118,
       "retained_structural_observations": 37,
-      "whole_page_accounting_complete": 422,
-      "whole_page_accounting_pending": 138,
+      "whole_page_accounting_complete": 442,
+      "whole_page_accounting_pending": 118,
       "original_map_exclusions": 545,
       "pages_with_original_exclusions": 309,
       "exclusion_dispositions_pending": 0,
       "prior_review_records": 360,
       "prior_rendered_page_identities": 388,
       "material_classes": {
-        "advertisement": 91,
+        "advertisement": 111,
         "contents": 2,
         "contents-and-imprint": 1,
         "cover-spine-detail": 1,
         "front-cover": 1,
         "selected-canonical-body-portions": 326
       },
-      "new_direct_structural_observations": 60,
+      "new_direct_structural_observations": 80,
       "selected_body_review_bindings": 326,
       "selected_body_pages_fully_accounted": 326,
       "exclusion_dispositions_accounted": 545,
@@ -19653,62 +19714,62 @@
       "all_map_exclusions_accounted": true
     },
     "new_structural_review": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/source-reviewed.json",
-      "sha256": "011ddcdc6e1fa416af957a40fd7895a37cd61bc7a6324b1b5576fd87ade0a26c",
-      "bytes": 19572
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/source-reviewed.json",
+      "sha256": "2c0a1c3c7ab64dc0dcfc91cdb6cab052b23f255fc1b35710df68291d76f6bd70",
+      "bytes": 19735
     },
     "retained_nonbody_review_bindings": {
-      "path": "archive/pdf/1995-07/classifications/batch-140-r01/retained-nonbody-bindings.json",
+      "path": "archive/pdf/1995-07/classifications/batch-141-r01/retained-nonbody-bindings.json",
       "sha256": "b7adbcaa7ac435d0ac15aa6f6438ad7cc650c9e2cd312019f63e3f17e77cdba1",
       "bytes": 57380
     },
     "canonical_entries_unchanged": true,
     "previous_snapshot": {
       "status": "in-progress",
-      "checkpoint": "batch-139",
+      "checkpoint": "batch-140",
       "manifest": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/manifest.json",
-        "sha256": "14b47d28514aecc1630b7d7dca5f2271b40204c2c5dd62e61e213b4caaa7dd9e",
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/manifest.json",
+        "sha256": "e66dedf64c9d962e49064fd11ad133e896c28ea368789e110ec28817250c01e0",
         "bytes": 2113
       },
       "page_ledger": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/page-ledger.json",
-        "sha256": "f04f1338841a60a8d3e0e99fd4710ff46cfd4c10873ed8e011fa80be30caa309",
-        "bytes": 1696044
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/page-ledger.json",
+        "sha256": "42b2586608b0635fcd3fb1f7a73f4b82ae1afa7c4a850f3e603a0e9be407662d",
+        "bytes": 1720353
       },
       "selected_ownership": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/selected-ownership.json",
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/selected-ownership.json",
         "sha256": "e8bada761e9f38942b27d6713869e896cb829b76d66e9328bd9d969052516b82",
         "bytes": 2697455
       },
       "body_review_bindings": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/prior-body-bindings.json",
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/prior-body-bindings.json",
         "sha256": "86e423a12fcfc309dbee5a385b278a876ab7297b56906f9c294fe1449608ac4d",
         "bytes": 584658
       },
       "exclusion_dispositions": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/exclusion-dispositions.json",
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/exclusion-dispositions.json",
         "sha256": "754bde6199ae9bb6c65442fa92ac61d63d3a130c65f8274afbb9b996cdb06e94",
         "bytes": 1053628
       },
       "shared_page_ownership": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/shared-page-ownership.json",
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/shared-page-ownership.json",
         "sha256": "01840cc7ea35d375032fa98c180a1631bb292753c3fdc1be2ab5a42983b96d9d",
         "bytes": 3322
       },
       "disposition": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/disposition.json",
-        "sha256": "c75e81f48cee10bf45f713418a862a0daa1a03581dbace414ac7991fa4cec7b8",
-        "bytes": 3352
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/disposition.json",
+        "sha256": "9ecff45876ec17fa8084f5c580d64e1e154954e7eb87b208f27dcd01f6f37a72",
+        "bytes": 2983
       },
       "validation": {
-        "path": "archive/pdf/1995-07/restoration/batch-139/validation.json",
-        "sha256": "246c6d3444e06983527e2ec67e8e96b9806e96502cb542b4e3e384114fe25510",
-        "bytes": 3721
+        "path": "archive/pdf/1995-07/restoration/batch-140/validation.json",
+        "sha256": "cef41e157827bd95c2fee3ccdfa9d0cee960b379e76926a24a8857b24546b5c0",
+        "bytes": 3733
       },
       "reproduction": {
-        "path": "archive/pdf/1995-07/restoration/batch-139/reproduction.json",
-        "sha256": "b6c07efced44b080e8c2697dde10ab4ce1e289d910981fcb35cc9b43c5a49857",
+        "path": "archive/pdf/1995-07/restoration/batch-140/reproduction.json",
+        "sha256": "d6348447bf6cdaa9b1139220cae6267948fb3f504dac301945f69ee528ea553d",
         "bytes": 2694
       },
       "totals": {
@@ -19720,25 +19781,25 @@
           546,
           547
         ],
-        "primary_material_known": 402,
-        "primary_pending": 158,
+        "primary_material_known": 422,
+        "primary_pending": 138,
         "retained_structural_observations": 37,
-        "whole_page_accounting_complete": 402,
-        "whole_page_accounting_pending": 158,
+        "whole_page_accounting_complete": 422,
+        "whole_page_accounting_pending": 138,
         "original_map_exclusions": 545,
         "pages_with_original_exclusions": 309,
         "exclusion_dispositions_pending": 0,
         "prior_review_records": 360,
         "prior_rendered_page_identities": 388,
         "material_classes": {
-          "advertisement": 71,
+          "advertisement": 91,
           "contents": 2,
           "contents-and-imprint": 1,
           "cover-spine-detail": 1,
           "front-cover": 1,
           "selected-canonical-body-portions": 326
         },
-        "new_direct_structural_observations": 40,
+        "new_direct_structural_observations": 60,
         "selected_body_review_bindings": 326,
         "selected_body_pages_fully_accounted": 326,
         "exclusion_dispositions_accounted": 545,
@@ -19752,7 +19813,7 @@
           "independent-publisher-information": 1
         },
         "new_direct_structural_observations_this_checkpoint": 20,
-        "reconciled_retained_nonbody_observations_this_checkpoint": 23
+        "reconciled_retained_nonbody_observations_this_checkpoint": 0
       },
       "full_source_accounting_complete": false,
       "source_wide_absence_claimed": false,
@@ -19781,62 +19842,63 @@
         "all_map_exclusions_accounted": true
       },
       "new_structural_review": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/source-reviewed.json",
-        "sha256": "3d6c2012cddeb62eaf1f1709fa969995085c1f68531961533c9d934aa8c613c4",
-        "bytes": 18975
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/source-reviewed.json",
+        "sha256": "011ddcdc6e1fa416af957a40fd7895a37cd61bc7a6324b1b5576fd87ade0a26c",
+        "bytes": 19572
       },
       "retained_nonbody_review_bindings": {
-        "path": "archive/pdf/1995-07/classifications/batch-139-r01/retained-nonbody-bindings.json",
+        "path": "archive/pdf/1995-07/classifications/batch-140-r01/retained-nonbody-bindings.json",
         "sha256": "b7adbcaa7ac435d0ac15aa6f6438ad7cc650c9e2cd312019f63e3f17e77cdba1",
         "bytes": 57380
       },
+      "canonical_entries_unchanged": true,
       "previous_snapshot": {
         "status": "in-progress",
-        "checkpoint": "batch-138",
+        "checkpoint": "batch-139",
         "manifest": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/manifest.json",
-          "sha256": "4a72663ce98a973b8aa81d30f0dfaf5f23bb2099dd9a0f4f4cb171eecaa5d2e5",
-          "bytes": 1993
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/manifest.json",
+          "sha256": "14b47d28514aecc1630b7d7dca5f2271b40204c2c5dd62e61e213b4caaa7dd9e",
+          "bytes": 2113
         },
         "page_ledger": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/page-ledger.json",
-          "sha256": "270d208203a559de2dd71ac4140758a751e051027c86d5a5a0905ed6ef775551",
-          "bytes": 1650105
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/page-ledger.json",
+          "sha256": "f04f1338841a60a8d3e0e99fd4710ff46cfd4c10873ed8e011fa80be30caa309",
+          "bytes": 1696044
         },
         "selected_ownership": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/selected-ownership.json",
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/selected-ownership.json",
           "sha256": "e8bada761e9f38942b27d6713869e896cb829b76d66e9328bd9d969052516b82",
           "bytes": 2697455
         },
         "body_review_bindings": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/prior-body-bindings.json",
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/prior-body-bindings.json",
           "sha256": "86e423a12fcfc309dbee5a385b278a876ab7297b56906f9c294fe1449608ac4d",
           "bytes": 584658
         },
         "exclusion_dispositions": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/exclusion-dispositions.json",
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/exclusion-dispositions.json",
           "sha256": "754bde6199ae9bb6c65442fa92ac61d63d3a130c65f8274afbb9b996cdb06e94",
           "bytes": 1053628
         },
         "shared_page_ownership": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/shared-page-ownership.json",
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/shared-page-ownership.json",
           "sha256": "01840cc7ea35d375032fa98c180a1631bb292753c3fdc1be2ab5a42983b96d9d",
           "bytes": 3322
         },
         "disposition": {
-          "path": "archive/pdf/1995-07/classifications/batch-138-r01/disposition.json",
-          "sha256": "15d243d1b415bb58a0edb04cf2db95475d465902179fba56e592a3ca3a7dda17",
-          "bytes": 3443
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/disposition.json",
+          "sha256": "c75e81f48cee10bf45f713418a862a0daa1a03581dbace414ac7991fa4cec7b8",
+          "bytes": 3352
         },
         "validation": {
-          "path": "archive/pdf/1995-07/restoration/batch-138/validation.json",
-          "sha256": "93e4833f8747803dc8350c86228b250126ab4da052347a9da4fb9b6ca6647bc5",
-          "bytes": 2867
+          "path": "archive/pdf/1995-07/restoration/batch-139/validation.json",
+          "sha256": "246c6d3444e06983527e2ec67e8e96b9806e96502cb542b4e3e384114fe25510",
+          "bytes": 3721
         },
         "reproduction": {
-          "path": "archive/pdf/1995-07/restoration/batch-138/reproduction.json",
-          "sha256": "ce96bc310b430daa90cda922cd28ccac67c01cff3f28362ae051245f73a9817a",
-          "bytes": 2369
+          "path": "archive/pdf/1995-07/restoration/batch-139/reproduction.json",
+          "sha256": "b6c07efced44b080e8c2697dde10ab4ce1e289d910981fcb35cc9b43c5a49857",
+          "bytes": 2694
         },
         "totals": {
           "physical_pages": 560,
@@ -19847,24 +19909,25 @@
             546,
             547
           ],
-          "primary_material_known": 359,
-          "primary_pending": 201,
-          "retained_structural_observations": 14,
-          "whole_page_accounting_complete": 359,
-          "whole_page_accounting_pending": 201,
+          "primary_material_known": 402,
+          "primary_pending": 158,
+          "retained_structural_observations": 37,
+          "whole_page_accounting_complete": 402,
+          "whole_page_accounting_pending": 158,
           "original_map_exclusions": 545,
           "pages_with_original_exclusions": 309,
           "exclusion_dispositions_pending": 0,
           "prior_review_records": 360,
           "prior_rendered_page_identities": 388,
           "material_classes": {
-            "advertisement": 29,
+            "advertisement": 71,
             "contents": 2,
             "contents-and-imprint": 1,
+            "cover-spine-detail": 1,
             "front-cover": 1,
             "selected-canonical-body-portions": 326
           },
-          "new_direct_structural_observations": 20,
+          "new_direct_structural_observations": 40,
           "selected_body_review_bindings": 326,
           "selected_body_pages_fully_accounted": 326,
           "exclusion_dispositions_accounted": 545,
@@ -19877,126 +19940,13 @@
             "blank-paper-and-scan-exterior": 2,
             "independent-publisher-information": 1
           },
-          "new_direct_structural_observations_this_checkpoint": 0
+          "new_direct_structural_observations_this_checkpoint": 20,
+          "reconciled_retained_nonbody_observations_this_checkpoint": 23
         },
         "full_source_accounting_complete": false,
         "source_wide_absence_claimed": false,
         "canonical_article_packages_unchanged": true,
         "canonical_group_status_reconciled": true,
-        "previous_snapshot": {
-          "status": "in-progress",
-          "checkpoint": "batch-133",
-          "manifest": {
-            "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/manifest.json",
-            "sha256": "c038ef29d9ddc35cde86ca34e896cd5d283084b29a3539aefbf68ac6f3ab4766",
-            "bytes": 1292
-          },
-          "page_ledger": {
-            "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/page-ledger.json",
-            "sha256": "374138c1a699447f5b0fa1f95baf4d90fbd638010f385b5bc142ba4f7f04c515",
-            "bytes": 1638927
-          },
-          "exclusion_dispositions": {
-            "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/exclusion-dispositions.json",
-            "sha256": "0a4ba7c1f48e71643e26200491c9883e69c10d1c9a7be5959ede613c140cf145",
-            "bytes": 1040532
-          },
-          "disposition": {
-            "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/disposition.json",
-            "sha256": "66539e44e880ca47166e19a2a7e9c44786ea460ad3b267953b664348f233421c",
-            "bytes": 4096
-          },
-          "validation": {
-            "path": "archive/pdf/1995-07/restoration/batch-133/validation.json",
-            "sha256": "bf93a0ce69537c9b884cddd53cb4366475a6e077b9b6aeb859d1c2175ff42327",
-            "bytes": 4045
-          },
-          "reproduction": {
-            "path": "archive/pdf/1995-07/restoration/batch-133/reproduction.json",
-            "sha256": "7a4328edda465b28dc1fd0479860df531511f08be7a16b025520fc706fd75c88",
-            "bytes": 2741
-          },
-          "totals": {
-            "physical_pages": 560,
-            "selected_packages": 51,
-            "selected_body_pages": 324,
-            "owner_page_records": 324,
-            "shared_body_pages": [],
-            "primary_material_known": 357,
-            "primary_pending": 203,
-            "retained_structural_observations": 14,
-            "whole_page_accounting_complete": 355,
-            "whole_page_accounting_pending": 205,
-            "original_map_exclusions": 540,
-            "pages_with_original_exclusions": 308,
-            "exclusion_dispositions_pending": 3,
-            "prior_review_records": 360,
-            "prior_rendered_page_identities": 388,
-            "material_classes": {
-              "advertisement": 29,
-              "contents": 2,
-              "contents-and-imprint": 1,
-              "front-cover": 1,
-              "selected-canonical-body-portions": 324
-            },
-            "new_direct_structural_observations": 20,
-            "selected_body_review_bindings": 324,
-            "selected_body_pages_fully_accounted": 322,
-            "exclusion_dispositions_accounted": 537,
-            "exclusion_material_classes": {
-              "page-furniture": 525,
-              "independent-advertisement": 9,
-              "independent-publisher-notice": 1,
-              "independent-publisher-promotion": 2,
-              "subscription-form-scope-pending": 3
-            }
-          },
-          "full_source_accounting_complete": false,
-          "source_wide_absence_claimed": false,
-          "canonical_entries_unchanged": true,
-          "current_scope_override": {
-            "checkpoint": "batch-137",
-            "scope_decision": {
-              "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
-              "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
-              "bytes": 7954
-            },
-            "resolved_scope_exclusions": 3,
-            "eligible_body_restoration_required": [],
-            "snapshot_totals_not_rebased": true,
-            "next_action": "Reconcile reader-board0093 and rebase selected ownership plus page/exclusion accounting against the actual subscription assembly.",
-            "latest_native": {
-              "path": "archive/pdf/1995-07/packages/batch-136-r01/subscription-c/manifest.json",
-              "sha256": "12709f8b1708db164cb1e3f36eb539952c0593d0ccaf58285fa9b7e6f54e9182",
-              "bytes": 4825
-            },
-            "known_subscription_pdf_pages": [
-              538,
-              546,
-              547,
-              548,
-              549
-            ],
-            "preserved_subscription_pdf_pages": [
-              538,
-              546,
-              547,
-              548,
-              549
-            ],
-            "current_extent_review": {
-              "path": "archive/pdf/1995-07/restoration/batch-136/source-reviewed.json",
-              "sha256": "fc8ea446e0b3492985872c4e8036247bea7f37f859b80863f139fbb58fda60d2",
-              "bytes": 3582
-            },
-            "selected_assembly": {
-              "path": "archive/pdf/1995-07/packages/article-subscription-r01/manifest.json",
-              "sha256": "ef17314db55ae7275a3059850cff6346af9893bd0db08f53b8262887c2248473",
-              "bytes": 64262
-            },
-            "subscription_assembly_complete": true
-          }
-        },
         "previous_snapshot_is_historical": true,
         "subscription_scope_reconciliation": {
           "complete": true,
@@ -20018,9 +19968,249 @@
             547
           ],
           "all_map_exclusions_accounted": true
-        }
-      },
-      "canonical_entries_unchanged": true
+        },
+        "new_structural_review": {
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/source-reviewed.json",
+          "sha256": "3d6c2012cddeb62eaf1f1709fa969995085c1f68531961533c9d934aa8c613c4",
+          "bytes": 18975
+        },
+        "retained_nonbody_review_bindings": {
+          "path": "archive/pdf/1995-07/classifications/batch-139-r01/retained-nonbody-bindings.json",
+          "sha256": "b7adbcaa7ac435d0ac15aa6f6438ad7cc650c9e2cd312019f63e3f17e77cdba1",
+          "bytes": 57380
+        },
+        "previous_snapshot": {
+          "status": "in-progress",
+          "checkpoint": "batch-138",
+          "manifest": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/manifest.json",
+            "sha256": "4a72663ce98a973b8aa81d30f0dfaf5f23bb2099dd9a0f4f4cb171eecaa5d2e5",
+            "bytes": 1993
+          },
+          "page_ledger": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/page-ledger.json",
+            "sha256": "270d208203a559de2dd71ac4140758a751e051027c86d5a5a0905ed6ef775551",
+            "bytes": 1650105
+          },
+          "selected_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/selected-ownership.json",
+            "sha256": "e8bada761e9f38942b27d6713869e896cb829b76d66e9328bd9d969052516b82",
+            "bytes": 2697455
+          },
+          "body_review_bindings": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/prior-body-bindings.json",
+            "sha256": "86e423a12fcfc309dbee5a385b278a876ab7297b56906f9c294fe1449608ac4d",
+            "bytes": 584658
+          },
+          "exclusion_dispositions": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/exclusion-dispositions.json",
+            "sha256": "754bde6199ae9bb6c65442fa92ac61d63d3a130c65f8274afbb9b996cdb06e94",
+            "bytes": 1053628
+          },
+          "shared_page_ownership": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/shared-page-ownership.json",
+            "sha256": "01840cc7ea35d375032fa98c180a1631bb292753c3fdc1be2ab5a42983b96d9d",
+            "bytes": 3322
+          },
+          "disposition": {
+            "path": "archive/pdf/1995-07/classifications/batch-138-r01/disposition.json",
+            "sha256": "15d243d1b415bb58a0edb04cf2db95475d465902179fba56e592a3ca3a7dda17",
+            "bytes": 3443
+          },
+          "validation": {
+            "path": "archive/pdf/1995-07/restoration/batch-138/validation.json",
+            "sha256": "93e4833f8747803dc8350c86228b250126ab4da052347a9da4fb9b6ca6647bc5",
+            "bytes": 2867
+          },
+          "reproduction": {
+            "path": "archive/pdf/1995-07/restoration/batch-138/reproduction.json",
+            "sha256": "ce96bc310b430daa90cda922cd28ccac67c01cff3f28362ae051245f73a9817a",
+            "bytes": 2369
+          },
+          "totals": {
+            "physical_pages": 560,
+            "selected_packages": 51,
+            "selected_body_pages": 326,
+            "owner_page_records": 328,
+            "shared_body_pages": [
+              546,
+              547
+            ],
+            "primary_material_known": 359,
+            "primary_pending": 201,
+            "retained_structural_observations": 14,
+            "whole_page_accounting_complete": 359,
+            "whole_page_accounting_pending": 201,
+            "original_map_exclusions": 545,
+            "pages_with_original_exclusions": 309,
+            "exclusion_dispositions_pending": 0,
+            "prior_review_records": 360,
+            "prior_rendered_page_identities": 388,
+            "material_classes": {
+              "advertisement": 29,
+              "contents": 2,
+              "contents-and-imprint": 1,
+              "front-cover": 1,
+              "selected-canonical-body-portions": 326
+            },
+            "new_direct_structural_observations": 20,
+            "selected_body_review_bindings": 326,
+            "selected_body_pages_fully_accounted": 326,
+            "exclusion_dispositions_accounted": 545,
+            "exclusion_material_classes": {
+              "page-furniture": 525,
+              "independent-advertisement": 9,
+              "independent-publisher-notice": 1,
+              "independent-publisher-promotion": 2,
+              "other-canonical-body-portions": 5,
+              "blank-paper-and-scan-exterior": 2,
+              "independent-publisher-information": 1
+            },
+            "new_direct_structural_observations_this_checkpoint": 0
+          },
+          "full_source_accounting_complete": false,
+          "source_wide_absence_claimed": false,
+          "canonical_article_packages_unchanged": true,
+          "canonical_group_status_reconciled": true,
+          "previous_snapshot": {
+            "status": "in-progress",
+            "checkpoint": "batch-133",
+            "manifest": {
+              "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/manifest.json",
+              "sha256": "c038ef29d9ddc35cde86ca34e896cd5d283084b29a3539aefbf68ac6f3ab4766",
+              "bytes": 1292
+            },
+            "page_ledger": {
+              "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/page-ledger.json",
+              "sha256": "374138c1a699447f5b0fa1f95baf4d90fbd638010f385b5bc142ba4f7f04c515",
+              "bytes": 1638927
+            },
+            "exclusion_dispositions": {
+              "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/exclusion-dispositions.json",
+              "sha256": "0a4ba7c1f48e71643e26200491c9883e69c10d1c9a7be5959ede613c140cf145",
+              "bytes": 1040532
+            },
+            "disposition": {
+              "path": "archive/pdf/1995-07/restoration/batch-133/accounting-r01/disposition.json",
+              "sha256": "66539e44e880ca47166e19a2a7e9c44786ea460ad3b267953b664348f233421c",
+              "bytes": 4096
+            },
+            "validation": {
+              "path": "archive/pdf/1995-07/restoration/batch-133/validation.json",
+              "sha256": "bf93a0ce69537c9b884cddd53cb4366475a6e077b9b6aeb859d1c2175ff42327",
+              "bytes": 4045
+            },
+            "reproduction": {
+              "path": "archive/pdf/1995-07/restoration/batch-133/reproduction.json",
+              "sha256": "7a4328edda465b28dc1fd0479860df531511f08be7a16b025520fc706fd75c88",
+              "bytes": 2741
+            },
+            "totals": {
+              "physical_pages": 560,
+              "selected_packages": 51,
+              "selected_body_pages": 324,
+              "owner_page_records": 324,
+              "shared_body_pages": [],
+              "primary_material_known": 357,
+              "primary_pending": 203,
+              "retained_structural_observations": 14,
+              "whole_page_accounting_complete": 355,
+              "whole_page_accounting_pending": 205,
+              "original_map_exclusions": 540,
+              "pages_with_original_exclusions": 308,
+              "exclusion_dispositions_pending": 3,
+              "prior_review_records": 360,
+              "prior_rendered_page_identities": 388,
+              "material_classes": {
+                "advertisement": 29,
+                "contents": 2,
+                "contents-and-imprint": 1,
+                "front-cover": 1,
+                "selected-canonical-body-portions": 324
+              },
+              "new_direct_structural_observations": 20,
+              "selected_body_review_bindings": 324,
+              "selected_body_pages_fully_accounted": 322,
+              "exclusion_dispositions_accounted": 537,
+              "exclusion_material_classes": {
+                "page-furniture": 525,
+                "independent-advertisement": 9,
+                "independent-publisher-notice": 1,
+                "independent-publisher-promotion": 2,
+                "subscription-form-scope-pending": 3
+              }
+            },
+            "full_source_accounting_complete": false,
+            "source_wide_absence_claimed": false,
+            "canonical_entries_unchanged": true,
+            "current_scope_override": {
+              "checkpoint": "batch-137",
+              "scope_decision": {
+                "path": "archive/pdf/1995-07/classifications/batch-134-r01/scope-decision.json",
+                "sha256": "32baff751d04747723833a123dcdba16cfd4b5c8298cccafe058affe3a8be92e",
+                "bytes": 7954
+              },
+              "resolved_scope_exclusions": 3,
+              "eligible_body_restoration_required": [],
+              "snapshot_totals_not_rebased": true,
+              "next_action": "Reconcile reader-board0093 and rebase selected ownership plus page/exclusion accounting against the actual subscription assembly.",
+              "latest_native": {
+                "path": "archive/pdf/1995-07/packages/batch-136-r01/subscription-c/manifest.json",
+                "sha256": "12709f8b1708db164cb1e3f36eb539952c0593d0ccaf58285fa9b7e6f54e9182",
+                "bytes": 4825
+              },
+              "known_subscription_pdf_pages": [
+                538,
+                546,
+                547,
+                548,
+                549
+              ],
+              "preserved_subscription_pdf_pages": [
+                538,
+                546,
+                547,
+                548,
+                549
+              ],
+              "current_extent_review": {
+                "path": "archive/pdf/1995-07/restoration/batch-136/source-reviewed.json",
+                "sha256": "fc8ea446e0b3492985872c4e8036247bea7f37f859b80863f139fbb58fda60d2",
+                "bytes": 3582
+              },
+              "selected_assembly": {
+                "path": "archive/pdf/1995-07/packages/article-subscription-r01/manifest.json",
+                "sha256": "ef17314db55ae7275a3059850cff6346af9893bd0db08f53b8262887c2248473",
+                "bytes": 64262
+              },
+              "subscription_assembly_complete": true
+            }
+          },
+          "previous_snapshot_is_historical": true,
+          "subscription_scope_reconciliation": {
+            "complete": true,
+            "selected_assembly": {
+              "path": "archive/pdf/1995-07/packages/article-subscription-r01/manifest.json",
+              "sha256": "ef17314db55ae7275a3059850cff6346af9893bd0db08f53b8262887c2248473",
+              "bytes": 64262
+            },
+            "known_subscription_pdf_pages": [
+              538,
+              546,
+              547,
+              548,
+              549
+            ],
+            "all_subscription_body_preserved": true,
+            "shared_body_pages": [
+              546,
+              547
+            ],
+            "all_map_exclusions_accounted": true
+          }
+        },
+        "canonical_entries_unchanged": true
+      }
     }
   }
 }

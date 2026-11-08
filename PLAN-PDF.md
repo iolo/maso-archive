@@ -6113,6 +6113,45 @@ accounting. Cover verification, standalone JSON/assets export, independent
 reproduction and issue closeout remain required. No inferred CD3 association,
 reader rebuild or deployment.
 
+July batch 141 advances whole-page structural accounting from 422 to 442 of the
+560 physical PDF pages, leaving 118 pending. All twenty newly inspected pages
+74–93 contain advertisements. The Compaq/E-filter boundary retains neighboring
+advertising fragments and print show-through. Sound Blaster77–78, Video Blaster79–80
+and Olivetti81–82 are advertising spreads. The Qnix printer ads on88/90/92 retain
+three distinct layouts and physical occurrences. Windows95 support and video/VCR
+capability claims do not establish the educational videotape appendix. No editorial
+body, printed folio or missing edge text is inferred.
+
+Each decision binds an explicit complete-page observation and the original source
+render; all twenty review derivatives reproduce pixel-exactly. Structural review
+does not certify fine-print transcription, full proofreading or historical claims.
+All 540 other physical-page records remain exact. All 326 selected body pages,
+328 owner/page records, 545 exclusions, 51 selected packages, canonical outcomes,
+group completion records and retained-review bindings remain unchanged.
+
+All twelve selected, independent and fresh-process accounting files match.
+Twenty-seven invalid cases reject lost pages, changed image/review bindings,
+invented body ownership or folios, unreviewed-page classifications, lost exclusions,
+and premature cover/video/source-wide completion. All 105,981 earlier July files,
+thirty core modules, thirty frozen assembly adapters, three local OCR adapters and
+145 prior classification pins remain exact. The unchanged 214-test batch-137 baseline
+is reused. No processing, export or validation-helper failure occurred.
+
+One accounting task uses zero mapped pages, twenty newly inspected outside pages,
+zero OCR and zero source correction passes. Totals remain 51 readable articles,
+zero partials, sixteen groups, 35 references and one unresolved video appendix
+across 141 completed checkpoints. Required classification pins now total 146.
+July restoration remains in progress; exact glyph bytes, full proofreading and
+human acceptance remain unverified.
+
+Next: continue structural review of the 118 pending physical pages in bounded
+sets of at most twenty, starting with 94–113. Preserve 146 classification pins,
+thirty frozen assembly adapters, three local OCR adapters and all prior evidence.
+Final video0103 eligibility/media-gap disposition requires complete structural
+accounting. Cover verification, standalone JSON/assets export, independent
+reproduction and issue closeout remain required. No inferred CD3 association,
+reader rebuild or deployment.
+
 See [July progress](docs/progress/9507.md) and its ledger.
 Older July “next” statements below describe historical checkpoints.
 
