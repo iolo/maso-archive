@@ -1,0 +1,78 @@
+{
+  "status": "deployed-and-verified",
+  "completed_at": "2026-11-08T03:55:25.931923+00:00",
+  "origin": "https://maso-archive-reading-room-volunteer.iolo.workers.dev",
+  "bucket": "maso-archive-reading-room-volunteer",
+  "worker": "maso-archive-reading-room-volunteer",
+  "output": "dist/reading-room-volunteer",
+  "files": 274615,
+  "bytes": 53984129087,
+  "uploaded": 42472,
+  "unchanged": 232143,
+  "reader_manifest": {
+    "path": "dist/reading-room-volunteer/data/manifest.json",
+    "sha256": "2c208334de6c77ab7b4bfaa710900018b2e5415386321caffe4bd226bbdeeb17",
+    "bytes": 52689562
+  },
+  "counts": {
+    "issues": 176,
+    "tocEntries": 7110,
+    "articles": 4170,
+    "texts": 4162,
+    "listings": 3672,
+    "mediaRecords": 18752,
+    "covers": 173,
+    "coverAssets": 145
+  },
+  "pdf_issues": 21,
+  "pdf_articles": 784,
+  "cd_articles": 3386,
+  "share_link_preserved": true,
+  "new_random_token": false,
+  "secret_url_recorded": false,
+  "credentials_recorded": false,
+  "token_permissions": "0o600",
+  "objects_deleted": false,
+  "restoration_changes": false,
+  "hosted_resource_hashes_verified": 23,
+  "head_and_range": "pass",
+  "missing_and_incorrect_tokens_status": 404,
+  "private_verification": {
+    "path": "archive/operations/reading-room-deploy/deployment-2026-11-08/live-verification.json",
+    "sha256": "6c4db8d3c8f9a3b5d85fe2aed15d5aafe100559ce737cb4d78c409f3f5177ec6",
+    "bytes": 4774
+  },
+  "worker_source": {
+    "path": "tools/reading_room/cloudflare-worker.mjs",
+    "sha256": "c2a8f7396007eef736a93cc14a837617a57be0640e6e3a4a818bed434a74cfef",
+    "bytes": 4660
+  },
+  "local_browser_verification": {
+    "path": "archive/operations/reading-room-deploy/deployment-2026-11-08/browser-verification.json",
+    "sha256": "82fd2e776054a67599684c3e995ed0a58358e82244c59742da6e76b313566b0d",
+    "bytes": 643
+  },
+  "tests": {
+    "recorded_at": "2026-11-08T03:24:15.449379+00:00",
+    "reader_python": {
+      "run": 81,
+      "skipped": 3,
+      "failures": 0,
+      "includes_unrecovered_media_regression": true
+    },
+    "toc_migration_python": {
+      "run": 3,
+      "failures": 0,
+      "includes_expanded_catalog_regression": true
+    },
+    "frontend": {
+      "passed": 26
+    },
+    "worker": {
+      "passed": 9
+    },
+    "typescript": "pass",
+    "production_build": "pass",
+    "cloudflare_and_r2_authentication": "pass"
+  }
+}

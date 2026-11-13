@@ -20,8 +20,7 @@ pages and 530 original exclusions are accounted. The **17,909-file collection** 
 `archive/pdf/1995-03/reference/` includes the verified donated cover and matches
 independent/fresh-process exports from 82 natives and 21 assemblies. All 214 fresh
 PDF tests pass. Full proofreading and human acceptance remain deferred; the FLC gap
-does not prove original omission or missing extent. July 1995 is also complete as described below. The reader
-still uses its November 3 selection of nineteen earlier issue passes.
+does not prove original omission or missing extent. July 1995 is also complete as described below. The volunteer reader selection now includes all 21 completed issue passes.
 See [March 1995 progress](docs/progress/9503.md) and private
 `archive/pdf/1995-03/restoration/issue-closeout-01/handoff.json` for reproduction.
 
@@ -35,8 +34,7 @@ proofreading, human acceptance and videotape recovery remain unverified.
 See [July progress](docs/progress/9507.md) and
 `archive/pdf/1995-07/restoration/issue-closeout-01/handoff.json` for private inputs,
 check/reproduction/resume commands and limits. All 21 supplied issue passes now
-have outcomes; collection-wide aggregation and handoff remain next. The reader
-selection and CD data are unchanged.
+have outcomes; collection-wide aggregation and handoff remain next. The volunteer reader includes both 1995 issues; CD source data remains unchanged.
 
 March 1993 is complete as a canonical TOC JSON/assets restoration pass with an explicit
 gap: 41 readable/sample-reviewed articles, seven groups, three section references and
@@ -104,10 +102,10 @@ and cache cleanup is documented in [session cleanup](docs/STORAGE.md#session-cle
 
 ## Read the archive
 
-The current volunteer reader includes **the 19 PDF restoration passes completed by November 3**
-and **all three CDs**: 680 PDF article records plus 3,386 CD records, **4,066 total**.
+The current volunteer reader includes **all 21 completed PDF restoration passes**
+and **all three CDs**: 784 PDF article records plus 3,386 CD records, **4,170 total**.
 Known partial and unresolved outcomes remain visible. Its reproducible static
-data occupies about 47 GB; no previous release snapshot is required.
+data occupies about 54 GB; no previous release snapshot is required.
 
 ```sh
 python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room-volunteer
@@ -120,8 +118,8 @@ OCR. **검토 메모** autosaves feedback locally; download the JSON and pass it
 the coordinator. Nothing is submitted automatically or marked officially accepted.
 Browser data is specific to the host/port and should be exported before clearing it.
 
-The November 3 export is also deployed to the dedicated Cloudflare Worker with
-a rotated share token. Retrieve its private URL with
+The November 8 export is deployed to the dedicated Cloudflare Worker.
+The existing share link is retained. Retrieve its private URL with
 `.venv/bin/python tools/reading_room/deploy_cloudflare.py --show-link`.
 
 The prepared static app is `dist/reading-room-volunteer/`. It uses relative

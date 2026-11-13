@@ -14,10 +14,17 @@ The app remains static. The Worker checks the URL token and streams exported fil
 from R2, including JSON, images, text, and ZIP downloads. Review notes still live
 in each volunteer's browser and are exported manually as JSON.
 
-The November 3, 2026 deployment contains all 19 completed PDF passes and all
-three CDs: 4,066 records. The share token was rotated and the previous URL is
-revoked. The token itself remains outside Git. Deployment and hosted verification
-evidence lives under `archive/operations/reading-room-deploy/deployment-2026-11-03/`.
+The November 8, 2026 deployment contains all 21 completed PDF passes and all
+three CDs: 4,170 records (784 PDF and 3,386 CD). March and July 1995 are included.
+The existing share token is retained and remains outside Git. Deployment and
+hosted verification evidence lives under
+`archive/operations/reading-room-deploy/deployment-2026-11-08/`.
+The upload verified 42,472 changed files and reused 232,143 unchanged files;
+no remote objects were deleted. The deployment receipt is
+`metadata/catalog/reading-room-cloudflare-2026-11-08.json`.
+Live checks matched 23 deployed resources, including both new issue documents,
+text/listing downloads, OCR ZIPs and scan crops. HEAD and range requests passed;
+missing and incorrect tokens returned 404.
 
 ## One-time preparation
 
@@ -101,7 +108,7 @@ python3 tools/reading_room/deploy_cloudflare.py
 It validates every file against `data/manifest.json`, verifies that the entry
 page uses relative asset URLs, and prints the size and file count. It makes no
 network requests, uploads nothing, and creates no secret. The current release
-has **232,149 files / 47.09 GB**, including 680 PDF and 3,386 CD records. Expect the full local hash pass to take
+has **274,615 files / 53.98 GB**, including 784 PDF and 3,386 CD records. Expect the full local hash pass to take
 some time.
 
 Then publish:

@@ -12,7 +12,13 @@ is required.
 The completed implementation below is historical; follow [STORAGE.md](docs/STORAGE.md)
 and the current [reading-room guide](docs/READING-ROOM.md) for operations.
 
-**2026-11-03 all-issue volunteer build:** the owner requested and resumed a full
+**2026-11-08 build and deployment complete:** all 21 completed PDF issues are included,
+including March and July 1995, alongside all three CDs. The validated collection
+contains 784 PDF articles and 3,386 CD records. The exporter accepts the reviewed
+TOC expansion through 1995; the frozen checker preserves July's unrecovered
+announced-media outcome. See the current guide for build and deployment evidence.
+
+**Historical 2026-11-03 all-issue volunteer build:** the owner requested and resumed a full
 local rebuild. The reader contains all 19 completed PDF issues/680 article records
 and all three CDs/3,386 records, 4,066 total. Frozen source inventories, outcomes,
 CD associations and reader projections are validated without new restoration.

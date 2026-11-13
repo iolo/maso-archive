@@ -2,14 +2,9 @@
 /masocd-*.iso
 /masocd-*/
 /maso-pdf/
-/HMSETUP/
-/SOURCE/
+/maso-img/
 /covers/
 /tocs/
-
-# Local Windows environment and machine-specific configuration
-/hwin31/
-/hwin31.cfg
 
 # Local preserved artifacts, disposable work and assembled readers
 /archive/

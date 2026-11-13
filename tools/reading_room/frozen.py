@@ -165,14 +165,17 @@ def validate_report(issue, report, packages):
                 not any(regions[r]['pdf_index'] + 1 == row['sectionPdfPage'] for r in blocks[0]['region_ids'])):
             raise ValueError('Frozen section anchor/page differs')
     counts = report['counts']
+    resolved_eligibility = {'eligible-canonical-toc-leaf', 'canonical-announced-media-supplement'}
     expected = dict(toc_entries=len(issue['toc']), classified_articles=len(owners),
                     group_headings=len(groups), section_references=len(sections),
-                    unresolved_eligibility=sum(r.get('eligibility') != 'eligible-canonical-toc-leaf' for r in unresolved))
+                    unresolved_eligibility=sum(r.get('eligibility') not in resolved_eligibility for r in unresolved))
     for key, value in expected.items():
         if counts[key] != value:
             raise ValueError(f'Frozen outcome count differs: {key}')
-    if counts.get('unresolved_body_locations', 0) != sum(r.get('eligibility') == 'eligible-canonical-toc-leaf' for r in unresolved):
+    if counts.get('unresolved_body_locations', 0) != sum(r.get('eligibility') in resolved_eligibility for r in unresolved):
         raise ValueError('Frozen unlocated-body count differs')
+    if counts.get('unrecovered_announced_media', 0) != sum(r.get('eligibility') == 'canonical-announced-media-supplement' for r in unresolved):
+        raise ValueError('Frozen unrecovered-media count differs')
     for key, field in [('restoration_availability', 'availability'), ('verification', 'verification')]:
         actual = Counter(r[field] for r in owners.values())
         if +Counter(counts[key]) != actual:

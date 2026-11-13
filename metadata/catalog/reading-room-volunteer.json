@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "scope": "All 19 completed supplied-PDF passes and all three CD references; local volunteer reader.",
+  "scope": "All 21 completed supplied-PDF passes and all three CD references; volunteer reader.",
   "toc": {
     "path": "archive/toc/current/manifest.json",
-    "sha256": "70c3dd2483f542b54f7791cd04ae78db6f5c93ebf74bcd5e6c7f5da8ff46192f",
+    "sha256": "f67e3d215cdb6185c3e066bdee40d9cc6ea4c821a4563b21cc3b246bf4d1ee9a",
     "bytes": 1237
   },
   "discs": {
@@ -1506,6 +1506,22 @@
         "path": "archive/pdf/1993-03/reference/manifest.json",
         "sha256": "7207893c0714d16974301047ca38c22ab6df017fed3eb82bba77d0762fcb5b44",
         "bytes": 3532651
+      }
+    },
+    {
+      "issueId": "maso-1995-03",
+      "manifest": {
+        "path": "archive/pdf/1995-03/reference/manifest.json",
+        "sha256": "26af497d3ef9089e092233cdb7c918741a660ef1d1c7fe6fc2fb856c1e9763bc",
+        "bytes": 3786442
+      }
+    },
+    {
+      "issueId": "maso-1995-07",
+      "manifest": {
+        "path": "archive/pdf/1995-07/reference/manifest.json",
+        "sha256": "bdc35a140dbffb598204ce27d2e8ea5cad68c08f1dbb60a7c7d5b46efac7578b",
+        "bytes": 5143540
       }
     }
   ],

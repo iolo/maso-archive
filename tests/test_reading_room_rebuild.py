@@ -139,6 +139,15 @@ class RebuildTests(unittest.TestCase):
             report['counts']['toc_entries'] += 1
             report['counts']['unresolved_body_locations'] = 1
             validate_report(issue, report, packages)
+            # An announced supplement has resolved eligibility but its media and
+            # printed body remain unrecovered, with no invented article link.
+            row['restorationEligibility'] = outcome['eligibility'] = 'canonical-announced-media-supplement'
+            report['counts']['unrecovered_announced_media'] = 1
+            validate_report(issue, report, packages)
+            report['counts']['unrecovered_announced_media'] = 0
+            with self.assertRaisesRegex(ValueError, 'unrecovered-media count'):
+                validate_report(issue, report, packages)
+            report['counts']['unrecovered_announced_media'] = 1
             row['articleIds'] = [next(iter(packages.values()))['id']]
             with self.assertRaisesRegex(ValueError, 'ownership/link'):
                 validate_report(issue, report, packages)

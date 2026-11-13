@@ -2,7 +2,45 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## Volunteer reader — November 3, 2026
+## Volunteer reader — November 8, 2026
+
+The current selection includes **all 21 completed PDF issues** and **all three
+CDs**: **784 PDF articles + 3,386 CD records = 4,170 records**. March 1995 adds
+53 articles and July 1995 adds 51. The reviewed TOC expansion through December
+1995 provides 7,110 canonical entries and 176 navigation groups, including CD
+native groups. The reader has 4,162 text downloads and 3,672 listing downloads.
+
+The first nineteen issue selections and all three CD manifest pins are unchanged.
+The reader consumes the current replay-verified TOC migration, which can expand
+the navigation catalog beyond the immutable CD1 reference's original issue count.
+July's announced videotape remains unrecovered and its printed body unlocated;
+both measures describe the same unresolved identity. The frozen checker verifies
+both counts without creating an article or changing the closeout.
+
+Build from preserved inputs with:
+
+```sh
+make export-volunteer-reading-room PYTHON=.venv/bin/python
+make build-volunteer-reading-room VOLUNTEER_BASE=./
+make check-volunteer-reading-room PYTHON=.venv/bin/python
+```
+
+The exporter requires a fresh output data directory; see the fresh-output and
+resume instructions below. The generated collection occupies about 54 GB.
+Input selection: `metadata/catalog/reading-room-volunteer.json`.
+Build and deployment evidence: `archive/operations/reading-room-deploy/deployment-2026-11-08/`.
+The complete inventory, package projections, CD associations and download checks
+pass. Validation also passed 78 reader Python tests (81 run, three existing skips), three
+TOC migration tests, 26 frontend tests, nine Worker tests, TypeScript and production
+compilation. Browser checks cover both new queues, March text/scan comparison,
+an exact OCR ZIP download, July's unresolved outcome and a 360px mobile layout.
+The dated build receipt is `metadata/catalog/reading-room-volunteer-2026-11-08.json`.
+The collection is deployed to the existing Cloudflare Worker with the same share
+link. Retrieve it with `.venv/bin/python tools/reading_room/deploy_cloudflare.py --show-link`.
+Deployment receipt: `metadata/catalog/reading-room-cloudflare-2026-11-08.json`.
+Restoration, full proofreading and human acceptance are not implied by integration.
+
+## Historical volunteer reader — November 3, 2026
 
 The current local reader is `dist/reading-room-volunteer/`: **4,066 records**,
 comprising **680 PDF articles across all 19 completed issues** and **3,386 CD

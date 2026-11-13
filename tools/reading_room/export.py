@@ -96,7 +96,9 @@ def _export(reference, toc, output, issue_filter, covers, cover_checkpoint, thum
     toc_rows = [json.loads(line) for line in (toc / 'toc-entries.jsonl').read_text(encoding='utf-8').splitlines()]
     articles = read(reference / 'catalog.json')
     images = read(reference / 'images.json')
-    if len(issue_rows) != manifest['counts']['issues'] or len(articles) != manifest['counts']['candidates']:
+    # A replay-verified TOC migration can add issues beyond the CD1 date range.
+    # Its complete catalog hashes were checked above; CD article counts stay pinned.
+    if (not migration and len(issue_rows) != manifest['counts']['issues']) or len(articles) != manifest['counts']['candidates']:
         raise ValueError('Catalog counts differ from the pinned CD1 reference')
     if issue_filter:
         issue_id = 'maso-' + issue_filter

@@ -15,7 +15,8 @@ from .scan import project
 INPUTS = ROOT / 'metadata/catalog/reading-room-volunteer.json'
 DATES = ('1983-11', '1984-02', '1984-03', '1984-05', '1984-06', '1984-07',
          '1984-08', '1984-09', '1984-10', '1984-12', '1985-02', '1985-03',
-         '1985-10', '1985-11', '1988-01', '1991-08', '1991-09', '1992-12', '1993-03')
+         '1985-10', '1985-11', '1988-01', '1991-08', '1991-09', '1992-12', '1993-03',
+         '1995-03', '1995-07')
 LEGACY = {
     '1983-11': 'archive/pdf/1983-11/restoration/11-november/issue-progress.json',
     '1984-02': 'archive/pdf/1984-02/restoration/12-1984-02-closeout/issue-progress-after.json',
@@ -56,7 +57,7 @@ def prepare_inputs(output=INPUTS, root=ROOT):
         else:
             path = f'archive/pdf/{date}/reference/manifest.json'
             issues.append(dict(issueId=f'maso-{date}', manifest=pin(root, path)))
-    data = dict(schemaVersion=1, scope='All 19 completed supplied-PDF passes and all three CD references; local volunteer reader.',
+    data = dict(schemaVersion=1, scope=f'All {len(DATES)} completed supplied-PDF passes and all three CD references; volunteer reader.',
                 toc=pin(root, 'archive/toc/current/manifest.json'),
                 discs={d: pin(root, f'archive/{d}/reference/manifest.json') for d in ('cd1', 'cd2', 'cd3')},
                 canonicalTitleChanges=TITLE_CHANGES, issues=issues,
@@ -183,7 +184,7 @@ def export(inputs_path, output, stages, root=ROOT):
         raise ValueError('Use fresh, separate output and staging directories')
     inputs = read(inputs_path)
     if inputs['schemaVersion'] != 1 or [i['issueId'] for i in inputs['issues']] != [f'maso-{d}' for d in DATES]:
-        raise ValueError('Expected all nineteen selected PDF issues in order')
+        raise ValueError(f'Expected all {len(DATES)} selected PDF issues in order')
     from .covers import separate
     sources = [root / f'archive/{disc}/reference' for disc in ('cd1', 'cd2', 'cd3')]
     sources += [root / 'archive/toc', root / 'archive/covers', root / 'covers', root / 'tocs', Path(inputs_path)]

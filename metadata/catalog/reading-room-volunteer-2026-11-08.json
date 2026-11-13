@@ -1,0 +1,102 @@
+{
+  "status": "pass",
+  "completed_at": "2026-11-08T03:35:38.090474+00:00",
+  "output": "dist/reading-room-volunteer",
+  "data_manifest": {
+    "path": "dist/reading-room-volunteer/data/manifest.json",
+    "sha256": "2c208334de6c77ab7b4bfaa710900018b2e5415386321caffe4bd226bbdeeb17",
+    "bytes": 52689562
+  },
+  "input_selection": {
+    "path": "metadata/catalog/reading-room-volunteer.json",
+    "sha256": "797e7b657821a27abb69fb2b9394d0b84009208be3f30935392f8c85d886ac6d",
+    "bytes": 61540
+  },
+  "counts": {
+    "issues": 176,
+    "tocEntries": 7110,
+    "articles": 4170,
+    "texts": 4162,
+    "listings": 3672,
+    "mediaRecords": 18752,
+    "covers": 173,
+    "coverAssets": 145
+  },
+  "pdf_issues": 21,
+  "pdf_articles": 784,
+  "readable_pdf_articles": 781,
+  "partial_pdf_articles": 3,
+  "cd_articles": 3386,
+  "data_files": 274612,
+  "data_bytes": 53983749116,
+  "earlier_19_pdf_and_three_cd_pins_unchanged": true,
+  "whole_reader_integrity_and_projection_check": "pass",
+  "cd_baseline_and_associations_preserved": true,
+  "tests": {
+    "recorded_at": "2026-11-08T03:24:15.449379+00:00",
+    "reader_python": {
+      "run": 81,
+      "skipped": 3,
+      "failures": 0,
+      "includes_unrecovered_media_regression": true
+    },
+    "toc_migration_python": {
+      "run": 3,
+      "failures": 0,
+      "includes_expanded_catalog_regression": true
+    },
+    "frontend": {
+      "passed": 26
+    },
+    "worker": {
+      "passed": 9
+    },
+    "typescript": "pass",
+    "production_build": "pass",
+    "cloudflare_and_r2_authentication": "pass"
+  },
+  "known_limits": [
+    "Readable/sample-reviewed is not full proofreading or human acceptance.",
+    "The March 1995 unlocated FLC item and July 1995 unrecovered videotape outcome remain unresolved.",
+    "Integration consumes preserved closeouts without rerunning restoration or OCR."
+  ],
+  "browser_verification": {
+    "status": "pass",
+    "local_origin": "http://127.0.0.1:4189",
+    "march_review_queue": 53,
+    "july_review_queue": 51,
+    "reader_pdf_issues": 21,
+    "reader_pdf_articles": 784,
+    "reader_cd_articles": 3386,
+    "march_article_text": "pass",
+    "march_scan_region_image_and_corrected_text": "pass",
+    "march_browser_ocr_zip_exact_bytes": "pass",
+    "july_unresolved_supplement_without_article_link": "pass",
+    "mobile_viewport": {
+      "width": 360,
+      "height": 780,
+      "layout": "pass"
+    },
+    "console_errors_after_data_loaded": 0,
+    "console_warnings": 0,
+    "artifacts": "archive/operations/reading-room-deploy/deployment-2026-11-08/browser"
+  },
+  "build_compatibility_fixes": [
+    "Accept a replay-verified TOC expansion beyond the historical CD1 issue count, retaining the pinned CD candidate count.",
+    "Validate announced-media and unlocated-body counts for the preserved July 1995 unresolved supplement."
+  ],
+  "implementation": {
+    "tools/reading_room/export.py": {
+      "sha256": "055bb68a257230efbff233fe37879ee6907de784d2080630908bd1721ed3dd97",
+      "bytes": 20871
+    },
+    "tools/reading_room/rebuild.py": {
+      "sha256": "aacd8b3b6d9e21104d9b03e45aa0ae4aa2289b8bcf61461fce7b7a52a81ef75e",
+      "bytes": 17175
+    },
+    "tools/reading_room/frozen.py": {
+      "sha256": "cf0462d9b828feca4ad5b73d112be3d2a17b99309f2d9f5a486e734988e7718d",
+      "bytes": 10715
+    }
+  }
+}

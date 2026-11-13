@@ -5,6 +5,7 @@ from pathlib import Path
 import shutil
 from tempfile import TemporaryDirectory
 import unittest
+from unittest.mock import patch
 
 from maso_archive.toc import run_import
 from tools.reading_room.export import digest, read
@@ -112,6 +113,23 @@ class TocMigrationTests(unittest.TestCase):
             self.assertEqual(record['incremental_counts']['preserved_ids'], 5299)
             self.assertEqual(record['incremental_counts']['new_ids'], 1811)
             self.assertEqual(record['incremental_counts']['retired_ids'], 0)
+            # The reviewed expansion must export even though the immutable CD1
+            # reference still records the earlier issue count.
+            from tools.reading_room.export import _export, write
+            reference_dir = stage / 'reference'
+            write(reference_dir, 'manifest.json', dict(kind='cd1-readable-reference', schema_version=1,
+                  inputs=reference, counts=dict(issues=122, candidates=0)))
+            write(reference_dir, 'catalog.json', [])
+            write(reference_dir, 'images.json', [])
+            write(stage, 'metadata/catalog/batch-runs/cd1-oem-pass.json', dict(issues=[]))
+            with patch('tools.reading_room.export.ROOT', stage):
+                result = _export(reference_dir, stage / 'build/toc', stage / 'reader', None, None, None, None)
+                self.assertEqual(result['counts']['issues'], 146)
+                self.assertEqual(result['counts']['tocEntries'], 7110)
+                self.assertTrue((stage / 'reader/issues/1995-07.json').is_file())
+                write(reference_dir, 'catalog.json', [dict(article_id='unexpected')])
+                with self.assertRaisesRegex(ValueError, 'Catalog counts differ'):
+                    _export(reference_dir, stage / 'build/toc', stage / 'bad-reader', None, None, None, None)
 
 
 if __name__ == '__main__':
