@@ -5,8 +5,9 @@
 ## Current outcome
 
 Forty canonical TOC identities are queued: five articles have reproducible
-JSON/assets packages in the project's schema, and 35 await disposition.
-All five packages are assistant sample-reviewed. Restoration preserves logical
+JSON/assets packages in the project's schema, six are non-owning group headings,
+and 29 await disposition. All completed records are assistant sample-reviewed.
+Restoration preserves logical
 structure, content/assets and source evidence independently of presentation;
 the web reading room is a sample consumer. The existing `readable` availability
 value is separate from the exact package rebuild checks recorded below.
@@ -300,3 +301,47 @@ Five reproducible article packages are complete; 35 canonical identities await
 disposition. Next: R06, inspect the original contents pages to classify apparent
 section headings and establish feature ownership/location before further mapping.
 JPEG segment assembly and whole-issue export remain pending before their use.
+
+## R06 — source contents and group ownership, 2026-11-15
+
+The original contents source 015 confirms six pageless section headings with
+their separately titled/page-referenced children: 취미생활 (0003), 교육입문
+(0012), 비지니스 (0017), 테크니컬 (0025), 공모입선작 (0028) and 정보모음
+(0033). Six immutable group references retain all canonical IDs, titles, parent
+links and child identities. They own no article bodies. The existing issue
+workflow's `group-heading`, `body_owner: false`, `restoration: null` and
+`availability: not-applicable` conventions are reused. Source 065 is an additional
+취미생활 divider/navigation view. No visible folio is assigned to source 015/065.
+
+The selected `archive/scans/1984-11/classifications/contents-r02/` contains six
+JSON records, six original context crops, source evidence and a manifest.
+All fourteen files match a fresh-process build. Independent decoding verifies
+the six crop pixels; seven invalid ownership/reference/source cases reject.
+Visual crop review caught clipped heading tops in the first candidate; it and
+an executable input snapshot remain preserved. Selected bounds were widened
+before acceptance. No article OCR or native body export ran in this checkpoint.
+
+Fifteen early source pages located the contents. Five feature probes and one
+additional transition probe bring the total to one selected contents source and
+twenty distinct outside views. Feature I's complete opening on actual 18 reads
+애플 베이직에서 기계어로(2); matching headers are visible on probes 30 and 36.
+Its ending and uninterrupted interior coverage remain unverified. Feature II
+has a matching 기계어로 음악 구현 running title on actual 42, establishing a body
+candidate but not its start/end. The dense source-054 listing is not assigned to
+an article from that probe. The two feature identities keep unclassified status
+with explicit location findings; no page reference or completed extent is invented.
+
+The five prior article packages/evidence, source masters, cleanup records and
+shared implementation/OCR/PDF plans remain exact. Six group outcomes bring the
+ledger to five reproducible article packages, six non-owning headings and 29
+pending identities. No prior article entry or canonical identity field changed.
+The source-only checkpoint reuses the established test baseline. All evidence,
+lookup receipts, retained crop candidate inputs, reproduction scripts, validation
+and cleanup preview are under `archive/scans/1984-11/restoration/batch-06/`.
+The evidence manifest pins every retained batch file except itself. No broad
+session deletion ran; wall time includes lookups, review, rebuilds and tool waits.
+
+Tracked result: [1984-11-contents-classification.json](../../metadata/catalog/scan-restoration/1984-11-contents-classification.json).
+Next: R07, verify the feature transition using sources 037–041 and relevant
+neighbors, then restore at most six opening views of feature I. JPEG segment
+assembly needs integration before its first use; issue export remains pending.

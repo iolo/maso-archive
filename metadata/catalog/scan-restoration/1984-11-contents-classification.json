@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R06",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "outcome": "Six source-backed non-owning group references; bounded feature location findings.",
+  "selected_classifications": "archive/scans/1984-11/classifications/contents-r02",
+  "classification_manifest": {
+    "path": "archive/scans/1984-11/classifications/contents-r02/manifest.json",
+    "sha256": "df2196aad606de7872534d8511d5b859534bab7dedfcd050726e5220c520ac95",
+    "bytes": 2081
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+    "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+    "bytes": 6171
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-06/evidence-manifest.json",
+    "sha256": "9da756e73085b00a6f79a4c5e049d71d2185c985c49781f9970b5af5de68efe3",
+    "bytes": 5160
+  },
+  "feature_findings": {
+    "path": "archive/scans/1984-11/restoration/batch-06/review/feature-findings.json",
+    "sha256": "14bec2c24708bb1a3fd2da5dbf2d975e33ffb70f4a3a1221d8e9493bc5ec22fb",
+    "bytes": 1791
+  },
+  "summary": {
+    "sourceImages": 1,
+    "classificationCrops": 6,
+    "outsideLookupViews": 20,
+    "groupHeadings": 6,
+    "articleBodiesRestored": 0,
+    "ocrTasks": 0,
+    "packageFiles": 14
+  },
+  "previousCheckpointCommit": "01167eca",
+  "inputIntegrationCommit": "f74c4884",
+  "implementationUnchanged": true,
+  "attempts": {
+    "cropMarginRefinements": 1,
+    "preservedUnselectedCandidates": 1,
+    "ocrRetries": 0
+  },
+  "preservedCandidateManifest": {
+    "path": "archive/scans/1984-11/classifications/contents-r01/manifest.json",
+    "sha256": "632fe0aae722828b399909e6d2b73e1fd070eda4a18d364249bb15d3e0d6b3ef",
+    "bytes": 2081
+  },
+  "limitations": [
+    "Group classification does not establish completion or actual extents of its child articles.",
+    "Feature I opening is verified on actual 18 with continuation probes 30/36; its ending remains unverified.",
+    "Feature II is located by matching running title on actual 42; its opening and ending remain unverified.",
+    "Source 054 listing ownership remains unassigned; contents 015/divider 065 have no observed printed folio."
+  ],
+  "next": "R07: verify the feature transition using sources 037-041 and relevant neighbors, then restore at most six opening source views of feature I as an explicitly bounded segment. Integrate JPEG segment assembly before its first use."
+}

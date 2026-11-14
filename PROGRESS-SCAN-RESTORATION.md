@@ -4,8 +4,10 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R05 complete: five November 1984 articles have reproducible JSON/assets
-packages in the project's schema.** All five are assistant sample-reviewed. The 24 cleaned source sets
+**R00–R06 complete: five November 1984 articles have reproducible JSON/assets
+packages in the project's schema; six section headings have source-backed
+non-owning classifications.** All completed records are assistant sample-reviewed.
+Twenty-nine canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -29,6 +31,7 @@ labels and the preserved exports retain their existing values.
 | R03 — final Apple FORTRAN installment | Passed for this sample | Four pages; compiler/symbol/output contexts, 355 table cells and 231 reproducible files |
 | R04 — contest commentary | Passed for this sample | Two pages; three continuation joins, 40 table cells and 45 reproducible files |
 | R05 — final Basic Techniques installment | Passed | Three pages; six captioned code contexts, 58 numbered entries, 21 history cells and 118 reproducible files |
+| R06 — contents ownership | Passed | Six non-owning headings; fourteen reproducible classification files and bounded feature location evidence |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -191,3 +194,31 @@ encoding/typesetting and execution remain unverified.
 See [Basic Techniques result](metadata/catalog/scan-restoration/1984-11-basic-techniques.json).
 Next: **R06**, inspect the original contents pages to classify apparent section
 headings and establish feature ownership/location before the next article batch.
+
+## R06 completed — 2026-11-15
+
+Inspected the original contents source 015 and retained six heading/child context
+crops. 취미생활, 교육입문, 비지니스, 테크니컬, 공모입선작 and 정보모음 are
+non-owning group headings. Canonical IDs, titles, parents and page references
+remain exact; no duplicate article bodies were created. Source 065 independently
+shows the 취미생활 divider and navigation list. Neither 015 nor 065 has a visible
+printed folio, so their filenames are not promoted to observed folios.
+
+All fourteen selected classification JSON/assets files reproduce in a separate
+process. Six crop pixel checks and seven rejected ownership faults pass. A first
+crop candidate with clipped heading tops is preserved with its input snapshot;
+the selected revision widens those bounds. No OCR or article-body export ran.
+Five earlier article packages/evidence, cleanup records, original sources and
+shared tools/plans remain unchanged.
+
+The lookup scope reached twenty outside views. Feature I opens on actual 18 as
+애플 베이직에서 기계어로(2), with matching continuation probes on 30 and 36;
+its ending is unverified. Feature II has a matching 기계어로 음악 구현 header on
+actual 42; its opening/ending are unverified. The dense listing on source 054
+has no ownership assigned from this probe. Five reproducible articles and six
+non-owning headings are accounted for; 29 identities remain pending.
+
+See [contents classification result](metadata/catalog/scan-restoration/1984-11-contents-classification.json).
+Next: **R07**, verify the transition around sources 037–041, then restore a
+bounded opening segment of feature I. JPEG segment assembly needs integration
+before the first assembly; whole-issue export remains pending.

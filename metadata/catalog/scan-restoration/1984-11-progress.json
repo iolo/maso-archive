@@ -7,7 +7,7 @@
   "canonical_identities": 40,
   "readable_articles": 5,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 35,
+  "identitiesAwaitingDisposition": 29,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -17,7 +17,16 @@
       "classification": "unclassified",
       "body_owner": null,
       "availability": "unresolved",
-      "verification": "unreviewed"
+      "verification": "unreviewed",
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-06/review/feature-findings.json",
+          "sha256": "14bec2c24708bb1a3fd2da5dbf2d975e33ffb70f4a3a1221d8e9493bc5ec22fb",
+          "bytes": 1791
+        },
+        "finding_index": 0,
+        "status": "opening-located; ending-unverified"
+      }
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0002",
@@ -27,17 +36,55 @@
       "classification": "unclassified",
       "body_owner": null,
       "availability": "unresolved",
-      "verification": "unreviewed"
+      "verification": "unreviewed",
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-06/review/feature-findings.json",
+          "sha256": "14bec2c24708bb1a3fd2da5dbf2d975e33ffb70f4a3a1221d8e9493bc5ec22fb",
+          "bytes": 1791
+        },
+        "finding_index": 1,
+        "status": "body-probe-located; opening-and-ending-unverified"
+      }
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0003",
       "title": "취미생활",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "restoration": null,
+      "classification_evidence": [
+        "The original November contents source 015 presents this pageless colored section heading above separately titled entries with their own page references.",
+        "All canonical child relationships are retained; this heading owns no duplicate article body. A group reference preserves the heading and its child context."
+      ],
+      "group_reference": {
+        "evidence": {
+          "path": "archive/scans/1984-11/classifications/contents-r02/group-0003.json",
+          "sha256": "0c743c51699bc78edf4739386fbe5f0d9ee449078a7c928fc9b4e69a1c2d1ab9",
+          "bytes": 2592
+        },
+        "validation": {
+          "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+          "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+          "bytes": 6171
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      },
+      "child_toc_entry_ids": [
+        "maso-1984-11-toc-0004",
+        "maso-1984-11-toc-0005",
+        "maso-1984-11-toc-0006",
+        "maso-1984-11-toc-0007",
+        "maso-1984-11-toc-0008",
+        "maso-1984-11-toc-0009",
+        "maso-1984-11-toc-0010",
+        "maso-1984-11-toc-0011"
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0004",
@@ -140,10 +187,35 @@
       "title": "교육입문",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "restoration": null,
+      "classification_evidence": [
+        "The original November contents source 015 presents this pageless colored section heading above separately titled entries with their own page references.",
+        "All canonical child relationships are retained; this heading owns no duplicate article body. A group reference preserves the heading and its child context."
+      ],
+      "group_reference": {
+        "evidence": {
+          "path": "archive/scans/1984-11/classifications/contents-r02/group-0012.json",
+          "sha256": "26eb84c9fafd6f58a9ac0a3e9ec2fce92dd2c56d6dc2dbf8b2196629b6ad0a62",
+          "bytes": 2033
+        },
+        "validation": {
+          "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+          "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+          "bytes": 6171
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      },
+      "child_toc_entry_ids": [
+        "maso-1984-11-toc-0013",
+        "maso-1984-11-toc-0014",
+        "maso-1984-11-toc-0015",
+        "maso-1984-11-toc-0016"
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0013",
@@ -453,10 +525,38 @@
       "title": "비지니스",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "restoration": null,
+      "classification_evidence": [
+        "The original November contents source 015 presents this pageless colored section heading above separately titled entries with their own page references.",
+        "All canonical child relationships are retained; this heading owns no duplicate article body. A group reference preserves the heading and its child context."
+      ],
+      "group_reference": {
+        "evidence": {
+          "path": "archive/scans/1984-11/classifications/contents-r02/group-0017.json",
+          "sha256": "75e32a877952953aed94d4265260ff8f25eb01bb39150ac31bd69622ab76b01c",
+          "bytes": 2117
+        },
+        "validation": {
+          "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+          "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+          "bytes": 6171
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      },
+      "child_toc_entry_ids": [
+        "maso-1984-11-toc-0018",
+        "maso-1984-11-toc-0019",
+        "maso-1984-11-toc-0020",
+        "maso-1984-11-toc-0021",
+        "maso-1984-11-toc-0022",
+        "maso-1984-11-toc-0023",
+        "maso-1984-11-toc-0024"
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0018",
@@ -547,10 +647,33 @@
       "title": "테크니컬",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "restoration": null,
+      "classification_evidence": [
+        "The original November contents source 015 presents this pageless colored section heading above separately titled entries with their own page references.",
+        "All canonical child relationships are retained; this heading owns no duplicate article body. A group reference preserves the heading and its child context."
+      ],
+      "group_reference": {
+        "evidence": {
+          "path": "archive/scans/1984-11/classifications/contents-r02/group-0025.json",
+          "sha256": "3b58d160cc023c0c6809d281f823aae003f101a0f66ec5282944c769a1943ba8",
+          "bytes": 1971
+        },
+        "validation": {
+          "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+          "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+          "bytes": 6171
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      },
+      "child_toc_entry_ids": [
+        "maso-1984-11-toc-0026",
+        "maso-1984-11-toc-0027"
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0026",
@@ -581,10 +704,34 @@
       "title": "공모입선작",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "restoration": null,
+      "classification_evidence": [
+        "The original November contents source 015 presents this pageless colored section heading above separately titled entries with their own page references.",
+        "All canonical child relationships are retained; this heading owns no duplicate article body. A group reference preserves the heading and its child context."
+      ],
+      "group_reference": {
+        "evidence": {
+          "path": "archive/scans/1984-11/classifications/contents-r02/group-0028.json",
+          "sha256": "6b07bc110541596d2d51dd490498d20b88f0fcf2da3926a0101e042df6a1a8d2",
+          "bytes": 2004
+        },
+        "validation": {
+          "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+          "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+          "bytes": 6171
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      },
+      "child_toc_entry_ids": [
+        "maso-1984-11-toc-0029",
+        "maso-1984-11-toc-0030",
+        "maso-1984-11-toc-0031"
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0029",
@@ -708,10 +855,38 @@
       "title": "정보모음",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "restoration": null,
+      "classification_evidence": [
+        "The original November contents source 015 presents this pageless colored section heading above separately titled entries with their own page references.",
+        "All canonical child relationships are retained; this heading owns no duplicate article body. A group reference preserves the heading and its child context."
+      ],
+      "group_reference": {
+        "evidence": {
+          "path": "archive/scans/1984-11/classifications/contents-r02/group-0033.json",
+          "sha256": "8304e38e4cf5b3bc78808a0ff9d2da641657ce4f4c9a98b97eb440e3e1d54d04",
+          "bytes": 2118
+        },
+        "validation": {
+          "path": "archive/scans/1984-11/restoration/batch-06/validation.json",
+          "sha256": "38f7c932e5d83bf91394c90eca3f0797532078186f98ab35f7b39f5f36ac56f0",
+          "bytes": 6171
+        },
+        "canonical_page_reference": null,
+        "owns_standalone_body": false
+      },
+      "child_toc_entry_ids": [
+        "maso-1984-11-toc-0034",
+        "maso-1984-11-toc-0035",
+        "maso-1984-11-toc-0036",
+        "maso-1984-11-toc-0037",
+        "maso-1984-11-toc-0038",
+        "maso-1984-11-toc-0039",
+        "maso-1984-11-toc-0040"
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0034",
@@ -841,5 +1016,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R06: inspect the original November contents pages to classify apparent section headings and establish feature ownership/location before the next article batch; preserve all canonical identities."
+  "next": "R07: verify the feature transition using sources 037-041 and relevant neighbors, then restore at most six opening source views of feature I as an explicitly bounded segment. Integrate JPEG segment assembly before its first use.",
+  "group_headings": 6
 }
