@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R00",
+  "issue_id": "maso-1984-11",
+  "status": "passed",
+  "completedOn": "2026-11-14",
+  "sourceImages": 246,
+  "canonicalIdentities": 40,
+  "ocrTasks": 0,
+  "inventory": {
+    "sources": {
+      "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/sources.json",
+      "sha256": "8779e0268554db9311b14fee2833e9ee1e7a21094d81e5014895f5e1661b860a",
+      "bytes": 151681
+    },
+    "queue": {
+      "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/queue.jsonl",
+      "sha256": "575e9b879556a458558cc897b1d4f6ffd7e30f8e63493a19e2dae46a6c0889f5",
+      "bytes": 36883
+    }
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/input-01/validation.json",
+    "sha256": "3ef923aa89c98485a285f02c3aeaca9ded85e3a31f1053690e43fd18083777a0",
+    "bytes": 1346
+  },
+  "geometryEvidence": {
+    "path": "archive/scans/1984-11/restoration/input-01/source-checks.json",
+    "sha256": "b402a0295fbf7b18ee22fbc6ba311985fc4cd148ec7b0b3cc3f64b1cab6d128f",
+    "bytes": 683
+  },
+  "implementation": [
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "e403d888f8b8170413b34695089a5dbc7f80df786a3b2b41ebacdddef5881987",
+      "bytes": 12076
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "409cb8b9d468c0418ac529a49b25a3ddd2e180aa93e23f7bff7a440246ea45f1",
+      "bytes": 16940
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    }
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "next": "R01: editorial maso-1984-11-toc-0034, located on printed/source page 17; source pages 16 and 18 inspected for boundaries."
+}

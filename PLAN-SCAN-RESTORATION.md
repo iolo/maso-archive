@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-Execution has not started. Track it in
+R00 is complete; the first article pilot is next. Track it in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
 ## Aim
@@ -48,8 +48,9 @@ Reuse the existing OCR, mapping, correction, assembly and export machinery.
 Some `tools/pdf_restore/` entry points currently assume a PDF path, PDF page
 indices and PDF geometry. Connect the cleaned JPEGs at that input boundary,
 replacing PDF rendering with image loading where needed. Direct JPEG integration
-has not been implemented or tested yet; existing PDF commands remain valid for
-PDF inputs and are not yet ready-to-run scan commands.
+for mapped Tesseract and native article export passed R00. Segment assembly and
+whole-issue export remain to be integrated before their first JPEG use. Existing
+PDF commands remain valid for PDF inputs.
 
 Keep this input change small. Reuse the pinned OCR runtime, reviewed region maps,
 recognition settings, evidence, correction and export procedures from
@@ -231,5 +232,5 @@ restored JSON/assets and faithful source evidence first.
 | R01 — short prose pilot | One located November article, raw OCR, corrections and checked package | Full pilot text/region review and independent identical rebuild |
 | R02 — contrasting layout | Bounded November listing/table/figure sample and its evidence | Rows/cells/assets/continuations accounted for; any failed prerequisite repaired before scaling |
 
-Immediate next action: **R00**, followed by locating the November editorial.
+Immediate next action: **R01**; the November editorial is located on printed page 17.
 No scan OCR or restoration package has been produced under this plan yet.

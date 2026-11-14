@@ -10,7 +10,7 @@ from urllib.parse import unquote, urlsplit
 import zipfile
 
 from .inventory import ROOT, digest, pin, write_json
-from .package import validate_package
+from .package import validate_package, page_index, page_selector
 from .preview import render_preview
 
 
@@ -113,6 +113,8 @@ def validate_source(package, root=ROOT, *, inventory_pins=None):
     checked(root, {key: package['source'][key] for key in ('path', 'sha256', 'bytes')})
     checked(root, package['toc_pin'])
     if inventory_pins is None:
+        if package['schema_version'] == 2:
+            raise ValueError('JPEG input requires explicit pinned inventory')
         inventory = preserved_input(root, 'archive/pdf/shared/restoration/inventory',
                                     'private/pdf-restoration/inventory')
     else:
@@ -132,10 +134,14 @@ def validate_source(package, root=ROOT, *, inventory_pins=None):
         raise ValueError('Article source is not eligible for TOC restoration')
     if any(source[k] != package['source'][k] for k in ('sha256', 'path', 'bytes')):
         raise ValueError('Mapped source disagrees with source inventory')
-    for page in package['pages']:
-        original = source['pages'][page['pdf_index']]
-        if any(page[k] != original[k] for k in ('pdf_page', 'width_pt', 'height_pt', 'rotation', 'MediaBox', 'CropBox')):
-            raise ValueError('Mapped page geometry disagrees with source inventory')
+    if package['schema_version'] == 2:
+        from .image_source import validate_image_set
+        validate_image_set(package, source, root)
+    else:
+        for page in package['pages']:
+            original = source['pages'][page['pdf_index']]
+            if any(page[k] != original[k] for k in ('pdf_page', 'width_pt', 'height_pt', 'rotation', 'MediaBox', 'CropBox')):
+                raise ValueError('Mapped page geometry disagrees with source inventory')
     queue = [json.loads(line) for line in (inventory / 'queue.jsonl').read_bytes().splitlines()]
     if not any(q['toc_entry_id'] == package['toc_entry_id'] and q['issue_id'] == package['issue_id']
                and q['source_id'] == package['source']['id'] for q in queue):
@@ -168,14 +174,18 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         package['blocks'] = corrections['blocks']
         package['raw_ocr'], package['region_assets'] = [], []
         raw_regions = set()
+        selector = page_selector(package)
         for bundle in recipe['ocr_bundles']:
             folder = safe_path(base, bundle['directory'])
             manifest = json.loads(checked(base, bundle['manifest']))
-            page = next((p for p in package['pages'] if p['pdf_page'] == manifest['pdf_page']), None)
+            page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
             if page is None or manifest.get('orientation_correction') != page.get('orientation_correction'):
                 raise ValueError('OCR evidence orientation differs from mapped page')
             if manifest['source_sha256'] != package['source']['sha256'] or manifest['runtime'] != recipe['runtime']:
                 raise ValueError('OCR source or runtime provenance differs')
+            if package['schema_version'] == 2 and manifest.get('image') != page['image']:
+                raise ValueError('OCR image pin differs from mapped source image')
+            bundle_index = page_index(page)
             images = {r['path']: r for r in manifest['images']}
             for row in manifest['results']:
                 ids = row['region_ids']
@@ -185,21 +195,23 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 if id not in regions or id in raw_regions:
                     raise ValueError('Duplicate or unknown OCR region')
                 settings = json.loads(checked(folder, row['settings']))
-                page = next(p for p in package['pages'] if p['pdf_index'] == regions[id]['pdf_index'])
+                page = next(p for p in package['pages'] if page_index(p) == page_index(regions[id]))
                 if settings.get('orientation_correction') != page.get('orientation_correction'):
                     raise ValueError('OCR orientation correction differs from mapped page')
                 if (settings['package']['sha256'] != recipe['map']['sha256'] or
                     settings['source_sha256'] != package['source']['sha256'] or
-                    settings['pdf_index'] != regions[id]['pdf_index'] or
-                    manifest['pdf_page'] != settings['pdf_page'] or settings['region_ids'] != ids):
+                    page_index(settings) != page_index(regions[id]) or
+                    manifest[selector] != settings[selector] or settings['region_ids'] != ids):
                     raise ValueError('OCR was prepared for a different region map')
+                if package['schema_version'] == 2 and settings.get('image') != page['image']:
+                    raise ValueError('OCR settings image pin differs from mapped source image')
                 raw_regions.add(id)
                 exported = {'region_ids': ids}
                 for key in ('text', 'positions', 'settings'):
                     exported[key] = copy_pin(folder, stage, row[key], f'{bundle["directory"]}/{row[key]["path"]}')
                 package['raw_ocr'].append(exported)
             for id, region in regions.items():
-                if region['pdf_index'] + 1 == manifest['pdf_page']:
+                if page_index(region) == bundle_index:
                     asset = images.get(id + '.png')
                     if asset is None:
                         raise ValueError('Missing scan-region image')

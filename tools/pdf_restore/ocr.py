@@ -13,7 +13,7 @@ import time
 from PIL import Image
 
 from .inventory import ROOT, digest, pin, write_json
-from .package import orientation_degrees, validate_package
+from .package import orientation_degrees, validate_package, page_index, page_selector
 
 RUNTIME = ROOT / 'archive/toolchains/ocr'
 DEB_HASHES = {
@@ -106,19 +106,32 @@ def run_region(image, destination, config, runtime=RUNTIME):
     return elapsed
 
 
-def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, scale_to=3000):
+def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, scale_to=3000,
+             *, source_index=None):
     if type(scale_to) is not int or not 1000 <= scale_to <= 6000:
         raise ValueError('scale_to must be an integer from 1000 to 6000')
     package = validate_package(json.loads(package_path.read_bytes()))
+    image_input = package['schema_version'] == 2
+    if (image_input and (pdf_page is not None or type(source_index) is not int)
+            or not image_input and source_index is not None):
+        raise ValueError('Select a JPEG source_index or a PDF page, matching the map source type')
+    selector = page_selector(package)
+    selected_number = source_index if image_input else pdf_page
     source = package['source']
     if digest(ROOT / source['path']) != source['sha256']:
         raise ValueError('PDF source hash changed')
     verify_runtime(runtime)
-    selected = [p for p in package['pages'] if p['pdf_page'] == pdf_page]
+    selected = [p for p in package['pages'] if p[selector] == selected_number]
     if len(selected) != 1:
         raise ValueError('Choose exactly one mapped page')
     page = selected[0]
-    regions = [r for r in package['regions'] if r['pdf_index'] == page['pdf_index']]
+    regions = [r for r in package['regions'] if page_index(r) == page_index(page)]
+    original = None
+    if image_input:
+        from .image_source import load_image, validate_image_set
+        descriptor = json.loads((ROOT / source['path']).read_bytes())
+        validate_image_set(package, descriptor, ROOT)
+        original = load_image(page, ROOT)
     output = output.resolve()
     if not is_local_output(output, ROOT):
         raise ValueError('OCR outputs must stay private')
@@ -126,16 +139,21 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, sc
         raise ValueError('OCR evidence already exists; choose a separate output')
     output.mkdir(parents=True)
     render = output / 'page.png'
-    render_args = ['pdftoppm', '-f', str(pdf_page), '-l', str(pdf_page), '-singlefile',
-                   '-scale-to', str(scale_to), '-png', str(ROOT / source['path']), str(render.with_suffix(''))]
-    subprocess.run(render_args, check=True, capture_output=True)
+    if image_input:
+        original.thumbnail((scale_to, scale_to), Image.Resampling.LANCZOS)
+        original.save(render)
+        original.close()
+    else:
+        render_args = ['pdftoppm', '-f', str(pdf_page), '-l', str(pdf_page), '-singlefile',
+                       '-scale-to', str(scale_to), '-png', str(ROOT / source['path']), str(render.with_suffix(''))]
+        subprocess.run(render_args, check=True, capture_output=True)
     with Image.open(render) as image:
         image.load()
         image = orient_image(image, page)
         # Conservative rounding can include a boundary pixel. Whiten every
         # exclusion before making either page or region OCR inputs.
         for excluded in package['excluded_regions']:
-            if excluded['pdf_index'] == page['pdf_index']:
+            if page_index(excluded) == page_index(page):
                 image.paste('white', pixel_box(excluded['bbox'], image.size))
         # Only eligible regions enter page-level OCR, even if a shared page is selected.
         masked = Image.new('RGB', image.size, 'white')
@@ -165,8 +183,12 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, sc
                   'threads': 1, 'preprocessing': 'upright render, exact region crop; no enhancement',
                   'positions': 'TSV pixels relative to OCR input; add crop_pixels origin for page positions',
                   'runtime': pin(runtime, 'runtime.json'), 'source_sha256': source['sha256'],
-                  'package': {'sha256': digest(package_path)}, 'pdf_page': pdf_page,
-                  'pdf_index': page['pdf_index'], 'render_size': dimensions, 'render_scale_to': scale_to}
+                  'package': {'sha256': digest(package_path)},
+                  **({ 'source_index': source_index, 'image': page['image'] } if image_input else
+                     { 'pdf_page': pdf_page, 'pdf_index': page['pdf_index'] }),
+                  'render_size': dimensions, 'render_scale_to': scale_to}
+        if image_input:
+            config['preprocessing'] = 'JPEG decode, bounded Lanczos resize, evidenced orientation, exact crop; no enhancement'
         if 'orientation_correction' in page:
             config['orientation_correction'] = page['orientation_correction']
         write_json(destination.with_suffix('.settings.json'), config)
@@ -175,7 +197,8 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, sc
                             text=pin(output, task['name'] + '.txt'),
                             positions=pin(output, task['name'] + '.tsv'),
                             settings=pin(output, task['name'] + '.settings.json')))
-    write_json(output / 'evidence.json', dict(source_sha256=source['sha256'], pdf_page=pdf_page,
+    write_json(output / 'evidence.json', dict(source_sha256=source['sha256'],
+               **({ 'source_index': source_index, 'image': page['image'] } if image_input else { 'pdf_page': pdf_page }),
                runtime=pin(runtime, 'runtime.json'), results=results,
                **{k: page[k] for k in ('orientation_correction',) if k in page},
                images=[pin(output, p.name) for p in sorted(output.glob('*.png'))]))
@@ -190,7 +213,9 @@ def main():
     sub.add_parser('setup')
     page = sub.add_parser('page')
     page.add_argument('--package', type=Path, required=True)
-    page.add_argument('--pdf-page', type=int, required=True)
+    selection = page.add_mutually_exclusive_group(required=True)
+    selection.add_argument('--pdf-page', type=int)
+    selection.add_argument('--source-index', type=int)
     page.add_argument('--output', type=Path, required=True)
     page.add_argument('--mode', choices=['compare', 'regions'], default='compare')
     page.add_argument('--scale-to', type=int, default=3000)
@@ -199,7 +224,7 @@ def main():
         print(setup()['version'])
     else:
         print(json.dumps(page_ocr(args.package, args.pdf_page, args.output, args.mode,
-                                  scale_to=args.scale_to), indent=2))
+                                  scale_to=args.scale_to, source_index=args.source_index), indent=2))
 
 
 if __name__ == '__main__':

@@ -5,9 +5,28 @@ import math
 from pathlib import Path, PurePosixPath
 
 from jsonschema import Draft202012Validator
+from referencing import Registry, Resource
 
 ROOT = Path(__file__).resolve().parents[2]
 SCHEMA = ROOT / 'schemas/pdf-article.schema.json'
+IMAGE_SCHEMA = ROOT / 'schemas/image-article.schema.json'
+
+
+def page_index(row):
+    return row['source_index'] if 'source_index' in row else row['pdf_index']
+
+
+def page_selector(package):
+    return 'source_index' if package['schema_version'] == 2 else 'pdf_page'
+
+
+def image_transform(page):
+    """Original top-left image pixels -> oriented normalized coordinates."""
+    w, h = page['width_px'], page['height_px']
+    return {0: [1/w, 0, 0, 1/h, 0, 0],
+            90: [0, 1/w, -1/h, 0, 1, 0],
+            180: [-1/w, 0, 0, -1/h, 1, 1],
+            270: [0, -1/w, 1/h, 0, 0, 1]}[orientation_degrees(page)]
 
 
 def scan_id(toc_entry_id):
@@ -55,15 +74,25 @@ def overlaps(a, b):
 
 
 def validate_package(package):
-    Draft202012Validator(json.loads(SCHEMA.read_bytes())).validate(package)
+    base = json.loads(SCHEMA.read_bytes())
+    if package.get('schema_version') == 2:
+        registry = Registry().with_resource(base['$id'], Resource.from_contents(base))
+        Draft202012Validator(json.loads(IMAGE_SCHEMA.read_bytes()), registry=registry).validate(package)
+    else:
+        Draft202012Validator(base).validate(package)
     if package['id'] != scan_id(package['toc_entry_id']):
         raise ValueError('Scan identity must derive from existing TOC identity')
     if not package['toc_entry_id'].startswith(package['issue_id'] + '-toc-'):
         raise ValueError('TOC identity belongs to another issue')
-    pages = {p['pdf_index']: p for p in package['pages']}
+    pages = {page_index(p): p for p in package['pages']}
     if len(pages) != len(package['pages']):
         raise ValueError('Duplicate source page')
     for page in pages.values():
+        if package['schema_version'] == 2:
+            if any(not math.isclose(a, b, abs_tol=1e-12) for a, b in
+                   zip(page['image_to_upright_normalized'], image_transform(page))):
+                raise ValueError('Image transform does not match source geometry')
+            continue
         if page['pdf_page'] != page['pdf_index'] + 1:
             raise ValueError('PDF numbering disagrees with zero-based index')
         if any(not math.isclose(a, b, abs_tol=1e-12) for a, b in
@@ -74,14 +103,14 @@ def validate_package(package):
         if region['id'] in ids:
             raise ValueError('Duplicate region identity')
         ids.add(region['id'])
-        if region['pdf_index'] not in pages:
+        if page_index(region) not in pages:
             raise ValueError('Region refers to an unmapped page')
         x0, y0, x1, y1 = region['bbox']
         if not all(math.isfinite(v) for v in region['bbox']) or not (0 <= x0 < x1 <= 1 and 0 <= y0 < y1 <= 1):
             raise ValueError('Region bounds must be positive normalized upright coordinates')
     for region in package['regions']:
         for excluded in package['excluded_regions']:
-            if region['pdf_index'] == excluded['pdf_index'] and overlaps(region['bbox'], excluded['bbox']):
+            if page_index(region) == page_index(excluded) and overlaps(region['bbox'], excluded['bbox']):
                 raise ValueError('Article region overlaps excluded material')
     included = {r['id'] for r in package['regions']}
     if package['mapping']['status'] == 'mapped' and not included:
