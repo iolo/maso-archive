@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "issue": "1983-12",
+  "sourceFolder": "마이크로소프트웨어_002호_1983_12",
+  "archives": [
+    "maso-img/마이크로소프트웨어_002호_1983_12-20261020T015940Z-1-001.zip",
+    "maso-img/마이크로소프트웨어_002호_1983_12-20261020T015940Z-1-002.zip"
+  ],
+  "output": "archive/scans/1983-12",
+  "expectedUniqueImages": 236,
+  "expectedFilenameRange": [
+    3,
+    232
+  ],
+  "expectedFilenameGaps": [],
+  "specialImages": {
+    "AFront001.jpg": {
+      "path": "covers/front.jpg",
+      "role": "front-cover",
+      "position": 0
+    },
+    "AFront002.jpg": {
+      "path": "covers/inside-front.jpg",
+      "role": "inside-front-cover",
+      "position": 1
+    },
+    "Rear001.jpg": {
+      "path": "covers/inside-back.jpg",
+      "role": "inside-back-cover",
+      "position": 10000
+    },
+    "Rear002.jpg": {
+      "path": "covers/back.jpg",
+      "role": "back-cover",
+      "position": 10001
+    },
+    "Page114_jiro_A.jpg": {
+      "path": "extras/page114_jiro_a.jpg",
+      "role": "payment-slip",
+      "position": 116.1,
+      "sourceFilenameAnchor": 114
+    },
+    "Page114_jiro_B.jpg": {
+      "path": "extras/page114_jiro_b.jpg",
+      "role": "payment-slip",
+      "position": 116.2,
+      "sourceFilenameAnchor": 114
+    }
+  },
+  "reviewStatus": "Candidate roles and source order; visual review required before closeout."
+}
