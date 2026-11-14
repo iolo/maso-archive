@@ -42,20 +42,26 @@ def copy_pin(source_root, stage, record, destination=None):
     return pin(stage, destination)
 
 
-def validate_recognition_map(original, current):
-    """Reuse OCR only when a reviewed map changed figure crop bounds alone.
+def validate_recognition_map(original, current, *, region_ids=None):
+    """Reuse OCR when the selected recognition regions are unchanged.
 
     Recognition settings still name the original, pinned map. Compare the full
-    validated maps, including exclusions and all text geometry, rather than
-    guessing which source fields affect recognition.
+    validated maps, including exclusions and selected text geometry. Explicit
+    bundle scope permits other regions' bounds to change for a targeted repair;
+    all identities, roles, notes, source/page records and exclusions still match.
+    Without a scope only figure bounds may differ, as before.
     """
     before, after = (deepcopy(validate_package(p)) for p in (original, current))
+    if region_ids is not None:
+        known = {r['id'] for r in before['regions']}
+        if not region_ids or not set(region_ids) <= known:
+            raise ValueError('Recognition scope must name mapped regions')
     for package in (before, after):
         for region in package['regions']:
-            if region['kind'] == 'figure':
+            if region['kind'] == 'figure' or region_ids is not None and region['id'] not in region_ids:
                 region.pop('bbox')
     if before != after:
-        raise ValueError('Recognition map differs beyond figure crop bounds')
+        raise ValueError('Recognition map differs beyond unrecognized crop bounds')
 
 
 def package_pins(package):
@@ -192,16 +198,27 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         raw_regions = set()
         selector = page_selector(package)
         for bundle in recipe['ocr_bundles']:
+            folder = safe_path(base, bundle['directory'])
+            manifest = json.loads(checked(base, bundle['manifest']))
+            bundle_page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
+            if bundle_page is None:
+                raise ValueError('OCR bundle names an unmapped page')
+            bundle_index = page_index(bundle_page)
+            page_regions = {id for id, region in regions.items() if page_index(region) == bundle_index}
+            selected_ids = bundle.get('region_ids', sorted(page_regions))
+            if (not isinstance(selected_ids, list) or not selected_ids or
+                any(not isinstance(id, str) for id in selected_ids) or
+                len(set(selected_ids)) != len(selected_ids) or not set(selected_ids) <= page_regions):
+                raise ValueError('OCR bundle scope must name distinct regions on its page')
+            selected_ids = set(selected_ids)
             recognition_map = bundle.get('recognition_map', recipe['map'])
             if 'recognition_map' in bundle:
                 original = json.loads(checked(base, recognition_map))
                 # Compare the input map, before blocks/assets are added below.
                 current = json.loads(checked(base, recipe['map']))
-                validate_recognition_map(original, current)
+                validate_recognition_map(original, current, region_ids=selected_ids)
                 copy_pin(base, stage, recognition_map,
                          f'{bundle["directory"]}/recognition-map.json')
-            folder = safe_path(base, bundle['directory'])
-            manifest = json.loads(checked(base, bundle['manifest']))
             page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
             if page is None or manifest.get('orientation_correction') != page.get('orientation_correction'):
                 raise ValueError('OCR evidence orientation differs from mapped page')
@@ -216,6 +233,10 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 if len(ids) != 1:  # Page-level comparison remains in private evidence.
                     continue
                 id = ids[0]
+                if id not in regions or page_index(regions[id]) != bundle_index:
+                    raise ValueError('Unknown or wrong-page OCR region')
+                if id not in selected_ids:
+                    continue
                 if id not in regions or id in raw_regions:
                     raise ValueError('Duplicate or unknown OCR region')
                 settings = json.loads(checked(folder, row['settings']))
@@ -235,7 +256,7 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                     exported[key] = copy_pin(folder, stage, row[key], f'{bundle["directory"]}/{row[key]["path"]}')
                 package['raw_ocr'].append(exported)
             for id, region in regions.items():
-                if page_index(region) == bundle_index:
+                if id in selected_ids:
                     asset = images.get(id + '.png')
                     if asset is None:
                         raise ValueError('Missing scan-region image')
@@ -249,6 +270,9 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         required_ocr = {id for id, region in regions.items() if region['kind'] != 'figure'}
         if raw_regions != required_ocr:
             raise ValueError('Missing raw OCR outcome for a mapped text region')
+        asset_ids = [row['region_id'] for row in package['region_assets']]
+        if len(asset_ids) != len(set(asset_ids)) or set(asset_ids) != set(regions):
+            raise ValueError('Require exactly one scan asset per mapped region')
         assets = {r['region_id']: r['asset'] for r in package['region_assets']}
         package['figures'] = [dict(id=f['id'], region_ids=f['region_ids'], asset=assets[f['region_id']],
                                    caption=f['caption']) for f in recipe['figures']]

@@ -107,7 +107,7 @@ def run_region(image, destination, config, runtime=RUNTIME):
 
 
 def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, scale_to=3000,
-             *, source_index=None):
+             *, source_index=None, region_ids=None):
     if type(scale_to) is not int or not 1000 <= scale_to <= 6000:
         raise ValueError('scale_to must be an integer from 1000 to 6000')
     package = validate_package(json.loads(package_path.read_bytes()))
@@ -126,6 +126,13 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, sc
         raise ValueError('Choose exactly one mapped page')
     page = selected[0]
     regions = [r for r in package['regions'] if page_index(r) == page_index(page)]
+    if region_ids is not None:
+        if (not isinstance(region_ids, list) or not region_ids or
+            any(not isinstance(id, str) for id in region_ids) or
+            len(set(region_ids)) != len(region_ids) or
+            not set(region_ids) <= {r['id'] for r in regions}):
+            raise ValueError('OCR region selection must name distinct mapped regions on the chosen page')
+        regions = [r for r in regions if r['id'] in region_ids]
     original = None
     if image_input:
         from .image_source import load_image, validate_image_set
@@ -219,12 +226,15 @@ def main():
     page.add_argument('--output', type=Path, required=True)
     page.add_argument('--mode', choices=['compare', 'regions'], default='compare')
     page.add_argument('--scale-to', type=int, default=3000)
+    page.add_argument('--region-id', action='append', dest='region_ids',
+                      help='Recognize only this mapped region; repeat for a bounded selection')
     args = parser.parse_args()
     if args.action == 'setup':
         print(setup()['version'])
     else:
         print(json.dumps(page_ocr(args.package, args.pdf_page, args.output, args.mode,
-                                  scale_to=args.scale_to, source_index=args.source_index), indent=2))
+                                  scale_to=args.scale_to, source_index=args.source_index,
+                                  region_ids=args.region_ids), indent=2))
 
 
 if __name__ == '__main__':

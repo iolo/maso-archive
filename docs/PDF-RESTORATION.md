@@ -339,13 +339,25 @@ whitespace and physical wraps; uncertain characters or blank counts use `⟦…�
 and an accompanying explanation. Do not repair code from expected semantics.
 
 For a figure-only crop correction, an OCR bundle may explicitly pin its original
-map with `recognition_map`. The builder validates both maps and permits only
-figure bounding-box differences; every other field, including text regions,
-exclusions and page/source geometry, must match exactly. OCR settings continue
+map with `recognition_map`. The builder validates both maps and permits figure
+bounding-box differences and bounds changes outside the bundle's selected
+regions. Every selected text region, exclusion, source/page record, role, note
+and identity must match exactly. OCR settings continue
 to name the original map hash. The export retains that map under the bundle's
 `recognition-map.json`, alongside the revised package map. Preserve the original
 bundle and record the derived figure asset and its review separately. This
 opt-in path supports both PDF and JPEG maps and never reruns recognition.
+
+For a targeted text-crop repair, preserve the old map and bundle, revise the
+selected map, and run the same `ocr page` command into a fresh directory with
+`--mode regions --region-id REGION_ID`. Repeat `--region-id` for an explicit
+selection; omitted selection retains the existing whole-page behavior. A recipe
+bundle can declare `region_ids` to select only its raw results and crop assets.
+Use disjoint scopes for retained and repaired regions; bind retained evidence
+to its original `recognition_map`, and repaired evidence to the revised map.
+The export still requires exactly one raw outcome and asset per mapped text
+region, with original settings bytes and source pins. Never rewrite old settings
+to name the revised map. This supports both PDF and JPEG sources.
 
 The package schema now supports explicit `content_order`, `region_assets` and
 hashed `review_records`. Maps produced in step 3 still validate. A readable

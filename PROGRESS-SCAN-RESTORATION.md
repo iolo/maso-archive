@@ -4,9 +4,9 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R09 complete: five November 1984 articles have complete reproducible
-JSON/assets packages; Feature I has three reproducible segments covering actual
-18–35 and remains partial. Six section headings have source-backed non-owning
+**R00–R10 complete: five November 1984 articles have complete reproducible
+JSON/assets packages; Feature I has four reproducible segments covering all actual
+18–39, with whole-article assembly pending. Six section headings have source-backed non-owning
 classifications.**
 All completed records are assistant sample-reviewed.
 Twenty-eight canonical identities await disposition. The 24 cleaned source sets
@@ -37,6 +37,7 @@ labels and the preserved exports retain their existing values.
 | R07 — Feature I opening segment | Passed; whole article partial | Actual 18–23; 179 identical files, three tables, four code contexts and four original figures; 24–39 pending |
 | R08 — Feature I middle segment b | Passed; whole article partial | Actual 24–29; 170 identical files, six code contexts, two binary examples and five original figures; 30–39 pending |
 | R09 — Feature I middle segment c | Passed; whole article partial | Actual 30–35; 147 identical files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
+| R10 — Feature I final segment d | Passed; whole article partial | Actual 36–39; 145 identical files, four monitor contexts, three byte tables and twelve original figures; all source pages covered, whole-feature assembly pending |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -371,3 +372,62 @@ Next: **R10**, restore actual 36–39 and the rocket diagram/table relationship.
 Then integrate JPEG segment assembly and combine the complete 18–39 feature,
 including the pending 29/30 sentence join. Feature II, all remaining November
 identities and whole-issue export remain in scope.
+
+## R10 completed — 2026-11-15
+
+Restored the final Feature I segment on actual 36–39 under the existing canonical
+identity. The final paragraph and boxed 정보 end mark are source-compared;
+Feature II begins independently on 40. A typed cross-segment relationship links
+the original rocket diagram on 35 to the original decoding explanation and byte
+table on 36. Their fifth-row difference remains literal. The four preserved
+segments now cover all twenty-two source pages, but whole-feature assembly and
+the pending 29/30 sentence join remain outstanding.
+
+The final segment retains 25 logical blocks, five exact column joins, three byte
+tables/72 source positions and four independent monitor contexts. Seventeen
+instruction units span 22 physical rows, including two explanatory wraps and
+three separate vertical ellipsis dots; 116 typed source fields retain command,
+address, byte, return-token and explanation occurrences. The white monitor
+example contains seven printed rows, and the shifted example's third address
+is 2800. Neither gains an inferred row or address correction. The prose's
+repeated 3번째 remains as printed. One open table glyph has explicit 0/C
+candidates without a certified complete byte value.
+
+Twelve original figures retain 236 label occurrences and 1,362 independently
+observed large-dot, small-dot and empty cells. The rocket, paired symmetry,
+white-shift and green-shift diagrams preserve distinct source patterns, byte
+labels, captions and bracket/equality contexts. The last-byte diagram on 36
+has no axis or high-bit text labels; wider source context confirms their
+absence. No labels are borrowed from adjacent examples and no pattern is
+regenerated from expected bytes, colour phase or motion.
+
+Enlarged review caught a third ellipsis dot outside the initial monitor crop.
+The initial map, raw OCR, crop and insufficient preflight remain preserved.
+One targeted repair widens that crop and recognizes only the affected region;
+the other 29 results and their original settings remain exact. The shared OCR
+command now accepts an optional region selection, and the native builder accepts
+disjoint evidence scopes while checking the selected regions against each
+original recognition map. Source/page records, exclusions, roles, notes and
+identities must still match. Duplicate/missing region assets reject. Both PDF
+and JPEG paths pass: 214 PDF regression tests plus eleven image/reuse tests.
+Neither `PLAN-OCR.md` nor `PLAN-PDF.md` changed.
+
+All 145 native files match a separate-process rebuild exactly, without fresh OCR
+or a presentation build. All 42 source crops match pixels and sixteen invalid
+structural cases reject. Thirty initial OCR tasks plus one targeted repair
+completed in 13.817 summed engine seconds, with no engine failures. Both exports
+and the independent verifier passed without preflight repairs. The eight earlier
+article/segment packages and private evidence, contents classifications, masters
+and cleanup pins remain exact. Shared implementation changes are pinned
+separately from the initial recognition implementation.
+
+November remains at five complete articles, one partial feature, six non-owning
+headings and 28 unclassified identities. Original encoded bytes/typesetting,
+execution and human acceptance remain unverified.
+
+See the [Feature I segment d result](metadata/catalog/scan-restoration/1984-11-apple-machine-language-d.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R11**, integrate and verify JPEG segment assembly, then combine actual
+18–39 while retaining typed structures, source relationships, uncertainties and
+the exact 29/30 sentence join. Continue Feature II and all remaining November
+identities through issue closeout afterward.

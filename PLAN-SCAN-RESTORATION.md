@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R08 are complete; the active goal is to restore all November 1984 articles.
+R00–R10 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -257,15 +257,17 @@ restored JSON/assets and faithful source evidence first.
 | R07 — Feature I opening segment | Actual 18–23; whole feature remains partial | 179 identical native files, three tables, four code contexts, four original figures; explicit continuation pending on 24–39 |
 | R08 — Feature I middle segment b | Actual 24–29; whole feature remains partial | 170 identical native files, six code contexts, two binary examples, five original figures; pending sentence join onto 30 |
 | R09 — Feature I middle segment c | Actual 30–35; whole feature remains partial | 147 identical native files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
+| R10 — Feature I final segment d | Actual 36–39; whole feature remains partial | 145 identical native files, four monitor contexts, three byte tables and twelve original figures; all 22 source pages covered in separate segments, assembly pending |
 
-Immediate next action: **R10**, restore actual 36–39 as Feature I segment d.
-Compare the original byte table and decoding explanation on 36 with the separately
-observed rocket diagram on 35; preserve any source discrepancies without
-recomputing either representation. Preserve the pending sentence join from 29
-onto 30, whose two sides now exist in separate packages. Assemble the complete
-feature only after JPEG assembly integration.
+Immediate next action: **R11**, integrate and verify JPEG segment assembly,
+then assemble Feature I on actual 18–39 from its four immutable segments. Retain
+all typed structures, source links, uncertainty occurrences and the exact pending
+29/30 sentence join. Preserve the explicit cross-segment relationship between
+the rocket on 35 and the independent table/explanation on 36, including the
+source discrepancy. Check the assembled package in a fresh process without OCR
+or a presentation build. Keep PDF assembly behavior compatible.
 Feature I spans actual 18–39; Feature II starts on 40 and its ending remains
-unverified. Preserve the three segments on 18–35. Integrate JPEG segment
+unverified. Preserve the four segments on 18–39. Integrate JPEG segment
 assembly before the first assembly operation.
 Then continue the remaining articles in bounded batches through issue closeout.
 R01 delivered the editorial; R02 Bit
@@ -279,5 +281,9 @@ next six-page segment with three independent assembler listings, annotated
 monitor/carry examples and structured source diagrams; R09 the next six pages
 with literal mathematical occurrences, colour/address tables, two complete
 assembler listings, an independent BASIC example and observed dot grids. November remains
-in progress. JPEG segment assembly and whole-issue export remain to be checked
+in progress. R10 preserves the final four pages, original monitor/table examples,
+and source-linked dot-size/grid structure. One targeted text-crop repair added
+optional region selection and disjoint evidence reuse to the shared PDF/JPEG
+pipeline, with 225 regression tests and both shared plans unchanged.
+JPEG segment assembly and whole-issue export remain to be checked
 before their first use.
