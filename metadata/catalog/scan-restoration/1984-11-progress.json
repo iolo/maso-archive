@@ -6,8 +6,8 @@
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 6,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 28,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 27,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -1149,10 +1149,10 @@
       "title": "특집II : 기계어로 음악구현",
       "parent_id": null,
       "page_candidates": [],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
       "previous_location_evidence": [
         {
           "evidence": {
@@ -1166,13 +1166,214 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-07/review/feature-transition.json",
-          "sha256": "fa67ec72e6b951fee6a86167b828fa399bc70f516fd26f5cc3ede259ec71c4a8",
-          "bytes": 1035
+          "path": "archive/scans/1984-11/restoration/batch-12/review/feature-extent.json",
+          "sha256": "2a316bd2298362d3c5ad1f1a832779db6147584731a92dd1de326754d219438d",
+          "bytes": 6532
         },
-        "finding_key": "featureII",
-        "status": "opening-located-on-40; ending-unverified"
-      }
+        "status": "Opening/ending located; mapped 40-45 restored; remaining source interior review pending."
+      },
+      "observed_title": "기계어로 음악구현",
+      "observed_byline": "탁연상",
+      "observed_whole_extent": [
+        40,
+        58
+      ],
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ],
+          "source_views": [
+            {
+              "source_index": 43,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-040.jpg",
+                "sha256": "8532883b146ae97245e380670c7a740bb52111308c4763cac89e45ecd988bd70",
+                "bytes": 9889142
+              },
+              "width_px": 4734,
+              "height_px": 6915,
+              "reading_order": 42,
+              "source_filename_number": 40,
+              "printed_page": "40",
+              "image_to_upright_normalized": [
+                0.00021123785382340515,
+                0,
+                0,
+                0.00014461315979754158,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 44,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-041.jpg",
+                "sha256": "48d1e964edf8f3cb38d280c56d787716047934f50390f9974e10e7e4e0e7f3bd",
+                "bytes": 8029833
+              },
+              "width_px": 4748,
+              "height_px": 6913,
+              "reading_order": 43,
+              "source_filename_number": 41,
+              "printed_page": "41",
+              "image_to_upright_normalized": [
+                0.00021061499578770007,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 45,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-042.jpg",
+                "sha256": "85c9ea5e8fd9f7118db6259ecab7d35d30b3b6494358d7561af6df279375c0e8",
+                "bytes": 8048770
+              },
+              "width_px": 4742,
+              "height_px": 6925,
+              "reading_order": 44,
+              "source_filename_number": 42,
+              "printed_page": "42",
+              "image_to_upright_normalized": [
+                0.00021088148460565162,
+                0,
+                0,
+                0.0001444043321299639,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 46,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-043.jpg",
+                "sha256": "128aaf1c466ac8bc8f5be7fd0820ad3452a2a3b1e37f43db0dbc0f94e671451c",
+                "bytes": 7583210
+              },
+              "width_px": 4748,
+              "height_px": 6918,
+              "reading_order": 45,
+              "source_filename_number": 43,
+              "printed_page": "43",
+              "image_to_upright_normalized": [
+                0.00021061499578770007,
+                0,
+                0,
+                0.00014455044810638914,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 47,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-044.jpg",
+                "sha256": "7b9428d0b40cb318ee3b6fa303372db71743b0baca852b3de81073d2d1a6391a",
+                "bytes": 8046804
+              },
+              "width_px": 4747,
+              "height_px": 6924,
+              "reading_order": 46,
+              "source_filename_number": 44,
+              "printed_page": "44",
+              "image_to_upright_normalized": [
+                0.0002106593638087213,
+                0,
+                0,
+                0.00014442518775274407,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 48,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-045.jpg",
+                "sha256": "44263814a8452b79338922ee3b1271a166814e10684a4ec66be3a0499c011f51",
+                "bytes": 8432123
+              },
+              "width_px": 4749,
+              "height_px": 6920,
+              "reading_order": 47,
+              "source_filename_number": 45,
+              "printed_page": "45",
+              "image_to_upright_normalized": [
+                0.0002105706464518846,
+                0,
+                0,
+                0.00014450867052023122,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/machine-music-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/machine-music-a-r01/manifest.json",
+              "sha256": "93316c0bcf7f14fa5f4d4d353b7107c56cc7a8fec0e40d41ec343244325e3310",
+              "bytes": 32382
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-12/validation.json",
+              "sha256": "e6d60948b6ad02d244ec606f2d3e89dd3c4bfb660d94a2a23306810fae67af14",
+              "bytes": 57334
+            }
+          ]
+        }
+      ],
+      "package": null,
+      "assembly_pending": true,
+      "continuation_pending": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "pending_listing_continuation": {
+        "program": "GOODMUSIC",
+        "listing_id": "goodmusic-listing",
+        "last_segment": "a",
+        "last_folio": 45,
+        "last_printed_row": 104,
+        "next_folio": 46,
+        "next_printed_row": 105,
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-12/review/feature-extent.json",
+          "sha256": "2a316bd2298362d3c5ad1f1a832779db6147584731a92dd1de326754d219438d",
+          "bytes": 6532
+        },
+        "status": "Next part located; preserve one program identity across segments."
+      },
+      "limitations": [
+        "Segment a restores actual 40-45 only. Present 46-58 and whole-feature assembly remain pending.",
+        "GOODMUSIC listing 2 is partial at printed row 104; row 105 is located on 46.",
+        "Four local uncertainty occurrences remain: first-octave note glyph group, object filename suffix and two decorative string glyphs.",
+        "Original encoded bytes/typesetting, execution, numerical correctness, external bibliography and human acceptance remain unverified.",
+        "Feature extent is located using the section identity, stated terminal address and final listing; interior actual 48-54 awaits its own bounded restoration review.",
+        "Whole-feature assembly must preserve cross-segment listing identity and all source diagram references; this segment does not claim that assembly has passed."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0003",
@@ -2143,6 +2344,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R12: locate the ending of Feature II, 기계어로 음악구현, whose observed opening is actual 40; inspect neighboring boundaries and restore its opening in a bounded batch of at most six new mapped source views. Continue all remaining November identities, then source-image accounting, covers and whole-issue native export/rebuild. Preserve Feature I and its original segments.",
+  "next": "R13: restore Feature II actual 46-51 in at most six mapped source views. Preserve GOODMUSIC listing 2 continuation from row 104 on 45 to row 105 on 46, and MINI ORGAN section identity beginning on 47. Continue actual 52-58 and whole-feature assembly afterward, retaining one program identity across listing/segment boundaries and all diagram references. Then restore the remaining November identities, account for all source images/covers and verify whole-issue native export/rebuild.",
   "group_headings": 6
 }

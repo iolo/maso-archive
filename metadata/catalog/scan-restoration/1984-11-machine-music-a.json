@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R12",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0002",
+  "title": "특집II : 기계어로 음악구현",
+  "observed_title": "기계어로 음악구현",
+  "observed_byline": "탁연상",
+  "outcome": "Reproducible presentation-independent Feature II opening segment a, with source-linked structures and explicit GOODMUSIC continuation; whole feature remains partial.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "segment_id": "a",
+  "selected_package": "archive/scans/1984-11/packages/machine-music-a-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/machine-music-a-r01/manifest.json",
+    "sha256": "93316c0bcf7f14fa5f4d4d353b7107c56cc7a8fec0e40d41ec343244325e3310",
+    "bytes": 32382
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-12/validation.json",
+    "sha256": "e6d60948b6ad02d244ec606f2d3e89dd3c4bfb660d94a2a23306810fae67af14",
+    "bytes": 57334
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-12/evidence-manifest.json",
+    "sha256": "cfc105e555f6db94416b3188258d5f788558a8da52d9b667541d28bcc5135825",
+    "bytes": 91045
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-040.jpg",
+      "sha256": "8532883b146ae97245e380670c7a740bb52111308c4763cac89e45ecd988bd70",
+      "bytes": 9889142
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-041.jpg",
+      "sha256": "48d1e964edf8f3cb38d280c56d787716047934f50390f9974e10e7e4e0e7f3bd",
+      "bytes": 8029833
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-042.jpg",
+      "sha256": "85c9ea5e8fd9f7118db6259ecab7d35d30b3b6494358d7561af6df279375c0e8",
+      "bytes": 8048770
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-043.jpg",
+      "sha256": "128aaf1c466ac8bc8f5be7fd0820ad3452a2a3b1e37f43db0dbc0f94e671451c",
+      "bytes": 7583210
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-044.jpg",
+      "sha256": "7b9428d0b40cb318ee3b6fa303372db71743b0baca852b3de81073d2d1a6391a",
+      "bytes": 8046804
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-045.jpg",
+      "sha256": "44263814a8452b79338922ee3b1271a166814e10684a4ec66be3a0499c011f51",
+      "bytes": 8432123
+    }
+  ],
+  "printed_folios": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+  ],
+  "observed_whole_extent": [
+    40,
+    58
+  ],
+  "continuation_pending": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "assembly_pending": true,
+  "extent_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-12/review/feature-extent.json",
+    "sha256": "2a316bd2298362d3c5ad1f1a832779db6147584731a92dd1de326754d219438d",
+    "bytes": 6532
+  },
+  "summary": {
+    "blocks": 42,
+    "regions": 48,
+    "joins": 3,
+    "tables": 2,
+    "tablePositions": 156,
+    "tableFooterLabels": 5,
+    "codeContexts": 3,
+    "physicalRows": 146,
+    "numberedUnits": 126,
+    "assemblerFields": 812,
+    "dataLogicalTokens": 116,
+    "basicPhysicalTokens": 322,
+    "inlineFields": 6,
+    "formulas": 12,
+    "figures": 3,
+    "figureLabels": 98,
+    "flowNodes": 35,
+    "flowEdges": 45,
+    "uncertainties": 4,
+    "sourceImages": 6,
+    "outsideLookupViews": 15,
+    "ocrTasks": 45,
+    "ocrSeconds": 24.600146342992957,
+    "packageFiles": 192,
+    "negativeCases": 16
+  },
+  "previousCheckpointCommit": "fe8c2f57",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "cafaff63e64d7e795a4ae169477ca78371a2c88e5726834184280a9c67198245",
+      "bytes": 206300
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "8eba306f6ec9aa55215bc177c846f75bef986dbcf4c30a7e98604a34b73d0a0b",
+      "bytes": 27797
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "57c7e2d767630227af42f3cf5ffe4a9b5039323a6c0e31e37ac83d78ad9b990c",
+      "bytes": 29664
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 15,
+    "total": 229,
+    "reason": "All pinned shared implementation, schemas, tests and shared plans unchanged; R11 logs and evidence rehashed."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 1,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "nativeInputPreflightRepairs": 1,
+    "exportFailures": 0,
+    "verificationPreflightRepairs": 2
+  },
+  "limitations": [
+    "Segment a restores actual 40-45 only. Present 46-58 and whole-feature assembly remain pending.",
+    "GOODMUSIC listing 2 is partial at printed row 104; row 105 is located on 46.",
+    "Four local uncertainty occurrences remain: first-octave note glyph group, object filename suffix and two decorative string glyphs.",
+    "Original encoded bytes/typesetting, execution, numerical correctness, external bibliography and human acceptance remain unverified.",
+    "Feature extent is located using the section identity, stated terminal address and final listing; interior actual 48-54 awaits its own bounded restoration review.",
+    "Whole-feature assembly must preserve cross-segment listing identity and all source diagram references; this segment does not claim that assembly has passed."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-12/recipe.json --output archive/scans/1984-11/packages/machine-music-a-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-12/recipe.json --output work/validation/scans-1984-11-machine-music-a-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-12/verify-review.py"
+  ],
+  "next": "R13: restore Feature II actual 46-51 in at most six mapped source views. Preserve GOODMUSIC listing 2 continuation from row 104 on 45 to row 105 on 46, and MINI ORGAN section identity beginning on 47. Continue actual 52-58 and whole-feature assembly afterward, retaining one program identity across listing/segment boundaries and all diagram references. Then restore the remaining November identities, account for all source images/covers and verify whole-issue native export/rebuild."
+}

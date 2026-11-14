@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R11 are complete; the active goal is to restore all November 1984 articles.
+R00–R12 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -260,11 +260,15 @@ restored JSON/assets and faithful source evidence first.
 | R09 — Feature I middle segment c | Actual 30–35; whole feature remains partial | 147 identical native files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
 | R10 — Feature I final segment d | Actual 36–39; whole feature remains partial | 145 identical native files, four monitor contexts, three byte tables and twelve original figures; all 22 source pages covered in separate segments, assembly pending |
 | R11 — complete Feature I assembly | Actual 18–39; complete native article package | 650 identical files; typed source indexes, uncertainty and source links preserved; four original segments unchanged; 229 shared tests pass |
+| R12 — Feature II opening segment | Actual 40–45; whole feature remains partial | 192 identical native files; two tables, three code contexts and three original diagrams with typed source relationships; listing continuation onto 46 explicit |
 
-Immediate next action: **R12**, locate Feature II's ending and inspect its
-boundaries, then restore its opening in a bounded batch of at most six new
-mapped source views. Its title/byline begin on actual 40; the ending is still
-unverified. Preserve complete Feature I on 18–39 and its four original segments.
+Immediate next action: **R13**, restore Feature II actual 46–51 in at most six
+mapped source views. GOODMUSIC listing 2 continues from row 104 on 45 to row 105
+on 46; MINI ORGAN SPC-1000용 begins on 47 under the same feature identity.
+The feature's located extent is 40–58, with interior restoration still pending.
+Continue 52–58 and whole-feature assembly afterward. Preserve a single program
+identity across listing/segment boundaries and all typed diagram references.
+Preserve complete Feature I on 18–39 and its four original segments.
 JPEG assembly is now integrated and checked; use the same source/structure and
 fresh native rebuild gates for later long articles. Whole-issue export remains
 to be checked before first use.
@@ -287,3 +291,9 @@ pipeline, with 225 regression tests and both shared plans unchanged.
 R11 assembles complete Feature I with projected typed indexes, exact source
 relationships and the 29/30 sentence join. All 650 native files reproduce;
 229 shared tests pass. Whole-issue export remains to be checked before first use.
+R12 restores Feature II's opening six pages with 156 header/data cell positions,
+five spanning octave labels, 126 numbered code units, twelve mathematical
+occurrences and three original diagrams. The flowchart records 35 observed nodes
+and 45 connectors without execution-based repairs. All 192 native files reproduce
+exactly; four local glyph uncertainties and the outgoing listing continuation
+remain explicit. Shared implementation and both shared plans are unchanged.
