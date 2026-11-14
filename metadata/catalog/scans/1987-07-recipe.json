@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "issue": "1987-07",
+  "sourceFolder": "마이크로소프트웨어_045호_1987_07",
+  "archives": [
+    "maso-img/마이크로소프트웨어_045호_1987_07-20261023T154012Z-1-001.zip",
+    "maso-img/마이크로소프트웨어_045호_1987_07-20261023T154012Z-1-002.zip"
+  ],
+  "output": "archive/scans/1987-07",
+  "expectedUniqueImages": 246,
+  "expectedFilenameRange": [
+    1,
+    244
+  ],
+  "expectedFilenameGaps": [
+    93,
+    94,
+    95,
+    96
+  ],
+  "specialImages": {
+    "AFront001.jpg": {
+      "path": "covers/front.jpg",
+      "role": "front-cover",
+      "position": 0
+    },
+    "AFront002.jpg": {
+      "path": "covers/inside-front.jpg",
+      "role": "inside-front-cover",
+      "position": 1
+    },
+    "Rear001.jpg": {
+      "path": "covers/inside-back.jpg",
+      "role": "inside-back-cover",
+      "position": 10000
+    },
+    "Rear002.jpg": {
+      "path": "covers/back.jpg",
+      "role": "back-cover",
+      "position": 10001
+    },
+    "Page019_cut.jpg": {
+      "path": "extras/page019_cut.jpg",
+      "role": "damaged-alternative",
+      "position": null,
+      "sourceFilenameAnchor": 19
+    },
+    "Page020_cut.jpg": {
+      "path": "extras/page020_cut.jpg",
+      "role": "damaged-alternative",
+      "position": null,
+      "sourceFilenameAnchor": 20
+    }
+  },
+  "reviewStatus": "Candidate roles and source order; visual review required before closeout."
+}

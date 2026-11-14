@@ -140,13 +140,27 @@ def finish(issue, decision_path):
     images = {row['path']: row for row in manifest['images']}
     samples = []
     candidates = {row['number']: row for row in read(root / 'review/pagination-crops.json')}
-    for number in decisions['confirmedPrintedNumbers']:
+    observed = {number: number for number in decisions['confirmedPrintedNumbers']}
+    observed.update({int(source): int(printed) for source, printed in
+                     decisions.get('printedNumberOverrides', {}).items()})
+    for number, printed in sorted(observed.items()):
         candidate = candidates[number]
-        samples.append(dict(path=candidate['path'], printedPage=number,
-                            sha256=candidate['sha256'], evidence='review/pagination-samples.jpg'))
+        samples.append(dict(path=candidate['path'], printedPage=printed,
+                            sha256=candidate['sha256'],
+                            evidence=candidate.get('evidence', 'review/pagination-samples.jpg')))
     overrides = []
     for path, role in decisions.get('roleOverrides', {}).items():
         overrides.append(dict(path=path, role=role, sha256=images[path]['sha256']))
+    orders = {path: row['readingOrder'] for path, row in images.items()}
+    order_overrides = []
+    for path, order in decisions.get('readingOrderOverrides', {}).items():
+        order_overrides.append(dict(path=path, readingOrder=order,
+                                    extractionReadingOrder=images[path]['readingOrder'],
+                                    sha256=images[path]['sha256']))
+        orders[path] = order
+    if sorted(n for n in orders.values() if n is not None) != list(
+            range(1, manifest['summary']['orderedImages'] + 1)):
+        raise ValueError('Reviewed reading order must retain every ordered slot exactly once')
     review = dict(schemaVersion=1, issue=issue, reviewedOn='2026-11-14',
                   status='overview-reviewed-pagination-sampled', reviewer='assistant visual review',
                   manifestSha256=digest(root / 'manifest.json'),
@@ -155,6 +169,7 @@ def finish(issue, decision_path):
                                 imagesShown=len(images), printedPageSamples=len(samples),
                                 fullResolutionPageByPageReview=False),
                   printedPageSamples=samples, roleOverrides=overrides,
+                  readingOrderOverrides=order_overrides,
                   findings=decisions['findings'], donorNoteSummary=decisions.get('donorNoteSummary'),
                   limitations=['Full pagination and physical collation remain unverified.',
                                'Insert placement follows source order unless an explicit finding says otherwise.'])
@@ -162,14 +177,14 @@ def finish(issue, decision_path):
     numbers = {row['path']: row['printedPage'] for row in samples}
     roles = {row['path']: row['role'] for row in overrides}
     ordered = sorted(images.values(), key=lambda row: (
-        row['readingOrder'] is None, row['readingOrder'] or 0, row['path']))
+        orders[row['path']] is None, orders[row['path']] or 0, row['path']))
     with (root / 'page-list.csv').open('x', newline='', encoding='utf-8') as stream:
         writer = csv.writer(stream)
         writer.writerow(['reading_order', 'source_filename_number', 'source_filename_anchor',
                          'verified_printed_page', 'role', 'working_file', 'width', 'height',
                          'bytes', 'sha256', 'source_entries'])
         for row in ordered:
-            writer.writerow([row['readingOrder'], row['sourceFilenameNumber'],
+            writer.writerow([orders[row['path']], row['sourceFilenameNumber'],
                              row.get('sourceFilenameAnchor'), numbers.get(row['path']),
                              roles.get(row['path'], row['role']), row['path'], *row['dimensions'],
                              row['bytes'], row['sha256'], len(row['originals'])])
@@ -180,7 +195,7 @@ def finish(issue, decision_path):
     for row in exported:
         original = images[row['working_file']]
         if (row['sha256'] != original['sha256']
-                or row['reading_order'] != str(original['readingOrder'] or '')
+                or row['reading_order'] != str(orders[original['path']] or '')
                 or row['verified_printed_page'] != str(numbers.get(original['path'], ''))
                 or row['role'] != roles.get(original['path'], original['role'])):
             raise ValueError('Page list differs from extraction or review mappings')
