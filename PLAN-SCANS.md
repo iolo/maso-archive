@@ -84,4 +84,29 @@ manifest and contact sheets are under `archive/scans/1984-04/`.
 The [April pilot report](docs/SCAN-PILOT-1984-04.md) records the completed first
 pass: 257 byte-preserved scans, nine contact sheets, verified duplicate and
 sidecar accounting, and twelve checked printed page numbers. The only filename
-gap is 13–14. March 1984 remains the next pilot; no other issue was extracted.
+gap is 13–14. This was the first checkpoint; subsequent issue status is maintained
+in [PROGRESS-SCANS.md](PROGRESS-SCANS.md).
+
+## Continuing the campaign
+
+The user authorized cleanup of all donated issues, with a progress update and a
+separate commit for each issue. March 1984's second pilot is checked; its
+[report](docs/SCAN-ISSUE-1984-03.md) retains the uncertain late-page order.
+
+`tools.scan_campaign` prepares candidate recipes and review previews, then records
+explicitly supplied visual findings. Inspect the overview, covers, boundaries,
+inserts and enlarged printed-number samples before supplying review decisions.
+Recipe numbering is provisional; source filenames do not prove printed numbers.
+
+```sh
+python3 -m tools.scan_campaign --prepare YYYY-MM
+python3 -m tools.scan_cleanup --recipe metadata/catalog/scans/YYYY-MM-recipe.json
+python3 -m tools.scan_campaign --assets YYYY-MM
+# Save the actual visual findings in the issue's review/decisions.json, then:
+python3 -m tools.scan_campaign --finish YYYY-MM --decisions archive/scans/YYYY-MM/review/decisions.json
+```
+
+The finish step rechecks all ZIP entries and output hashes, records the review,
+exports a page list, writes an issue report/result record, and updates progress.
+Commit only that issue's tracked recipe, result and report plus the progress
+update and any shared-tool changes. Original scans and previews stay outside Git.

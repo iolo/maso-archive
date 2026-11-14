@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "issue": "1984-03",
+  "sourceFolder": "마이크로소프트웨어_005호_1984_03_체크요",
+  "archives": [
+    "maso-img/마이크로소프트웨어_005호_1984_03_체크요-20261023T064219Z-1-001.zip",
+    "maso-img/마이크로소프트웨어_005호_1984_03_체크요-20261023T064219Z-1-002.zip"
+  ],
+  "output": "archive/scans/1984-03",
+  "expectedUniqueImages": 273,
+  "expectedFilenameRange": [
+    1,
+    266
+  ],
+  "expectedFilenameGaps": [
+    11,
+    12
+  ],
+  "specialImages": {
+    "AFront001.jpg": {
+      "path": "covers/front.jpg",
+      "role": "front-cover",
+      "position": 0
+    },
+    "AFront002.jpg": {
+      "path": "covers/inside-front.jpg",
+      "role": "inside-front-cover",
+      "position": 1
+    },
+    "Rear001.jpg": {
+      "path": "covers/inside-back.jpg",
+      "role": "inside-back-cover",
+      "position": 10000
+    },
+    "Rear002.jpg": {
+      "path": "covers/back.jpg",
+      "role": "back-cover",
+      "position": 10001
+    },
+    "AFront000.jpg": {
+      "path": "extras/spine.jpg",
+      "role": "spine",
+      "position": null
+    },
+    "Page260_postcard_A.jpg": {
+      "path": "extras/page260_postcard_a.jpg",
+      "role": "subscription-postcard",
+      "position": 262.1,
+      "sourceFilenameAnchor": 260
+    },
+    "Page260_postcard_B.jpg": {
+      "path": "extras/page260_postcard_b.jpg",
+      "role": "subscription-postcard",
+      "position": 262.2,
+      "sourceFilenameAnchor": 260
+    },
+    "Page260_postcard_C.jpg": {
+      "path": "extras/page260_postcard_c.jpg",
+      "role": "payment-slip",
+      "position": 262.3,
+      "sourceFilenameAnchor": 260
+    },
+    "Page260_postcard_D.jpg": {
+      "path": "extras/page260_postcard_d.jpg",
+      "role": "payment-slip",
+      "position": 262.4,
+      "sourceFilenameAnchor": 260
+    }
+  },
+  "reviewStatus": "Candidate roles and source order; visual review required before closeout."
+}

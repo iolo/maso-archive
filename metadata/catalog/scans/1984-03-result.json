@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "issue": "1984-03",
+  "completedOn": "2026-11-14",
+  "status": "cleanup-checked-with-recorded-uncertainties",
+  "output": "archive/scans/1984-03",
+  "summary": {
+    "entries": 1096,
+    "imageEntries": 546,
+    "sidecars": 548,
+    "notes": 2,
+    "uniqueImages": 273,
+    "duplicateImages": 273,
+    "imageBytes": 1821959343,
+    "orderedImages": 272,
+    "extras": 1,
+    "filenameRange": [
+      1,
+      266
+    ],
+    "filenameGaps": [
+      11,
+      12
+    ],
+    "decodedImages": 273,
+    "contactSheets": 10
+  },
+  "sourceArchives": [
+    {
+      "path": "maso-img/마이크로소프트웨어_005호_1984_03_체크요-20261023T064219Z-1-001.zip",
+      "bytes": 1791748941,
+      "sha256": "229d404b6f398dcb4ed4238b12bd19d52117eb0ae9e2de7e251b8d3b2f80746b",
+      "sha256After": "229d404b6f398dcb4ed4238b12bd19d52117eb0ae9e2de7e251b8d3b2f80746b",
+      "crcRead": "all-entries-passed"
+    },
+    {
+      "path": "maso-img/마이크로소프트웨어_005호_1984_03_체크요-20261023T064219Z-1-002.zip",
+      "bytes": 1853045797,
+      "sha256": "98fe71f324446e13b3088c63db2f7de079c1a1b925a97c6624d816e6dacbd32b",
+      "sha256After": "98fe71f324446e13b3088c63db2f7de079c1a1b925a97c6624d816e6dacbd32b",
+      "crcRead": "all-entries-passed"
+    }
+  ],
+  "validation": {
+    "issue": "1984-03",
+    "result": "passed",
+    "manifestSha256": "88818934e16078a411f7060159a9cca4f208c9f8561f84f205aec5e911d9b291",
+    "sourceArchives": 2,
+    "sourceEntriesChecked": 1096,
+    "uniqueImageHashesChecked": 273,
+    "duplicateImageEntriesChecked": 273,
+    "sidecarsAccounted": 548,
+    "contactSheetHashesChecked": 10,
+    "originalZipHashesUnchanged": true,
+    "readingOrderContiguous": true,
+    "pageListRows": 273,
+    "reviewMappingsChecked": true
+  },
+  "visualReview": {
+    "overviewViewed": true,
+    "printedPageSamplesChecked": 13,
+    "fullPaginationVerified": false,
+    "findings": [
+      "Front cover visibly identifies March 1984. AFront000 is a spine; AFront001/AFront002 and Rear001/Rear002 are the four cover faces. Cover and insert previews were viewed separately.",
+      "Source filenames 11-12 are absent between an advertisement and the editor note with printed page 13. The donor mentions a missing advertising sheet; its exact contents remain unidentified.",
+      "Four extra scans anchored at 260 contain subscription-postcard address/application sides and payment-slip front/reverse sides. They are placed after source slot 260, with sourceFilenameAnchor=260 and no invented printed numbers.",
+      "The final available numbered content reaches source slot 260, followed by advertisements in source slots 261-266. The donor explicitly doubts their order. Source filename order is retained provisionally; the inspection supplies no reliable basis to claim their physical order is repaired.",
+      "All 273 retained images were included in the viewed overview. No further gross ordering anomaly was apparent at thumbnail scale; thirteen enlarged printed-number samples match their source filenames."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "docs/SCAN-ISSUE-1984-03.md",
+      "bytes": 3709,
+      "sha256": "fd69e80cd077083cdaa906c77f9b708a1a285e52a2779d9ab12db9d88257d5e1"
+    },
+    {
+      "path": "metadata/catalog/scans/1984-03-recipe.json",
+      "bytes": 1926,
+      "sha256": "88d6a763fa0a0f3f4578770f71633cd5f10ae68fc4feeef43ee9463e48cd781b"
+    },
+    {
+      "path": "tools/scan_campaign.py",
+      "bytes": 20955,
+      "sha256": "31cddabb9c2eeae531d737a0dde3e7a6bcb9b8af6564ffd74dcdcc346894f90a"
+    },
+    {
+      "path": "tools/scan_cleanup.py",
+      "bytes": 13926,
+      "sha256": "c9c3c12868924a9a70f20d3e9dc004297fabf7d42f03551835993d20f8e4df04"
+    },
+    {
+      "path": "archive/scans/1984-03/README.md",
+      "bytes": 2169,
+      "sha256": "198450ef0401ec6a54806ffffdffef3f22ef4ef4824415742712b2bdc7834718"
+    },
+    {
+      "path": "archive/scans/1984-03/manifest.json",
+      "bytes": 541895,
+      "sha256": "88818934e16078a411f7060159a9cca4f208c9f8561f84f205aec5e911d9b291"
+    },
+    {
+      "path": "archive/scans/1984-03/notes/마이크로소프트웨어_005호_1984_04_체크요(1).txt",
+      "bytes": 100,
+      "sha256": "96b526ed8772da1462139160938950d072bd51ffe4f71239fdebe527e30e3f11"
+    },
+    {
+      "path": "archive/scans/1984-03/notes/마이크로소프트웨어_005호_1984_04_체크요.txt",
+      "bytes": 100,
+      "sha256": "96b526ed8772da1462139160938950d072bd51ffe4f71239fdebe527e30e3f11"
+    },
+    {
+      "path": "archive/scans/1984-03/page-list.csv",
+      "bytes": 32872,
+      "sha256": "9d837323d2c88cc969bbce93f586b3457643ad8934f3bf0e92427adb7565a0a8"
+    },
+    {
+      "path": "archive/scans/1984-03/review/decisions.json",
+      "bytes": 1740,
+      "sha256": "e8662fe31dacad6babd11210f39a8531ac21577f06208ccf0418aac28d8dcbdf"
+    },
+    {
+      "path": "archive/scans/1984-03/review/overview.jpg",
+      "bytes": 2737539,
+      "sha256": "07f039e63d857aff5398f6cca4c6f193ca08c71e7fc2c2ad0bedba3253b6fbb3"
+    },
+    {
+      "path": "archive/scans/1984-03/review/pagination-crops.json",
+      "bytes": 4266,
+      "sha256": "b2f30ed271ff9a17793dd9028ea2ff7775e345f7dc386bf26b51865becc9275e"
+    },
+    {
+      "path": "archive/scans/1984-03/review/pagination-samples.jpg",
+      "bytes": 225439,
+      "sha256": "9eafa2759e6f70b971579cfee8bc8d4a993aed115939ec694663b2c704d24df0"
+    },
+    {
+      "path": "archive/scans/1984-03/review/verification.json",
+      "bytes": 455,
+      "sha256": "c80600dcd75748f04ab7a60b9312de615dc6f240c1e505095be04c384468e50a"
+    },
+    {
+      "path": "archive/scans/1984-03/review.json",
+      "bytes": 5532,
+      "sha256": "8758ebfef485e916c6e42e271393f02eb62e808e02cf6caf57cb1e1d1581f980"
+    },
+    {
+      "path": "archive/scans/1984-03/summary.json",
+      "bytes": 322,
+      "sha256": "505b8cbef9ad26a4f4da4d3733536efb6f4f7c7c464642de5f7dfa90e5a20ce0"
+    }
+  ]
+}
