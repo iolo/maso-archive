@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "issue": "1985-12",
+  "sourceFolder": "마이크로소프트웨어_026호_1985_12",
+  "archives": [
+    "maso-img/마이크로소프트웨어_026호_1985_12-20261023T101015Z-1-001.zip",
+    "maso-img/마이크로소프트웨어_026호_1985_12-20261023T101015Z-1-002.zip",
+    "maso-img/마이크로소프트웨어_026호_1985_12-20261023T101015Z-1-003.zip"
+  ],
+  "output": "archive/scans/1985-12",
+  "expectedUniqueImages": 274,
+  "expectedFilenameRange": [
+    1,
+    272
+  ],
+  "expectedFilenameGaps": [
+    18,
+    20
+  ],
+  "specialImages": {
+    "AFront001.jpg": {
+      "path": "covers/front.jpg",
+      "role": "front-cover",
+      "position": 0
+    },
+    "AFront002.jpg": {
+      "path": "covers/inside-front.jpg",
+      "role": "inside-front-cover",
+      "position": 1
+    },
+    "Rear001.jpg": {
+      "path": "covers/inside-back.jpg",
+      "role": "inside-back-cover",
+      "position": 10000
+    },
+    "Rear002.jpg": {
+      "path": "covers/back.jpg",
+      "role": "back-cover",
+      "position": 10001
+    }
+  },
+  "reviewStatus": "Candidate roles and source order; visual review required before closeout."
+}
