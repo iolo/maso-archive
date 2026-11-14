@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "issue": "1987-12",
+  "completedOn": "2026-11-14",
+  "status": "cleanup-checked-with-recorded-uncertainties",
+  "output": "archive/scans/1987-12",
+  "summary": {
+    "entries": 948,
+    "imageEntries": 472,
+    "sidecars": 474,
+    "notes": 2,
+    "uniqueImages": 236,
+    "duplicateImages": 236,
+    "imageBytes": 2045052941,
+    "orderedImages": 236,
+    "extras": 0,
+    "filenameRange": [
+      1,
+      242
+    ],
+    "filenameGaps": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      191,
+      192
+    ],
+    "decodedImages": 236,
+    "contactSheets": 8
+  },
+  "sourceArchives": [
+    {
+      "path": "maso-img/마이크로소프트웨어_050호_1987_12_손상-20261023T163201Z-1-001.zip",
+      "bytes": 2064273055,
+      "sha256": "4f9c86f45ad31a3088b9da67e0acc9d27216a91819efd3ac36e47e2e8dd336de",
+      "sha256After": "4f9c86f45ad31a3088b9da67e0acc9d27216a91819efd3ac36e47e2e8dd336de",
+      "crcRead": "all-entries-passed"
+    },
+    {
+      "path": "maso-img/마이크로소프트웨어_050호_1987_12_손상-20261023T163201Z-1-002.zip",
+      "bytes": 2026811501,
+      "sha256": "af84d5c94089f0ee0287288abb8e6c5b7b8349ffd92b83a5937df74d4d41762f",
+      "sha256After": "af84d5c94089f0ee0287288abb8e6c5b7b8349ffd92b83a5937df74d4d41762f",
+      "crcRead": "all-entries-passed"
+    }
+  ],
+  "validation": {
+    "issue": "1987-12",
+    "result": "passed",
+    "manifestSha256": "214aec4fec9bf628cdabe06459d3f7ed388ee0bb2755fdca8814da6f41261259",
+    "sourceArchives": 2,
+    "sourceEntriesChecked": 948,
+    "uniqueImageHashesChecked": 236,
+    "duplicateImageEntriesChecked": 236,
+    "sidecarsAccounted": 474,
+    "contactSheetHashesChecked": 8,
+    "originalZipHashesUnchanged": true,
+    "readingOrderContiguous": true,
+    "pageListRows": 236,
+    "reviewMappingsChecked": true
+  },
+  "visualReview": {
+    "overviewViewed": true,
+    "printedPageSamplesChecked": 7,
+    "fullPaginationVerified": false,
+    "findings": [
+      "The front cover and sampled footers identify December 1987. Four cover faces were inspected separately. Both sides of the rear cover visibly lack the same large upper outer corner; this is physical loss in the supplied scans, retained without filling or cropping.",
+      "Source filenames span 1-242 with gaps 129-136 and 191-192, matching the donor note. Boundary scans 128,137,190,193 are present and included in the overview and margin samples. No missing image was invented; the contents of the absent spans remain unverified.",
+      "Source 009 is the contents page. Payment/subscription forms at 241-242 remain in source order. Sideways advertisements and code listings retain their original orientation for later restoration.",
+      "All 236 retained images were included in the viewed overview. No additional gross ordering anomaly was apparent at that scale. Seven enlarged printed-number samples match their filenames. No numeral was confirmed in the other sampled lower corners, which remain unset; full pagination and physical collation remain unverified."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "docs/SCAN-ISSUE-1987-12.md",
+      "bytes": 3602,
+      "sha256": "fd859bf77aa22516da03085e569751c3099ccd85c566b84ce479fc8adc706a89"
+    },
+    {
+      "path": "metadata/catalog/scans/1987-12-recipe.json",
+      "bytes": 1163,
+      "sha256": "5f4c64a3cc92ba4ec4442842a3751291d59bf12030f2ec5f663ae19854ac3325"
+    },
+    {
+      "path": "tools/scan_campaign.py",
+      "bytes": 21947,
+      "sha256": "a3b812162109588873257b4937f29c46beba5c5ede5bb403ca261dfd35620e88"
+    },
+    {
+      "path": "tools/scan_cleanup.py",
+      "bytes": 13926,
+      "sha256": "c9c3c12868924a9a70f20d3e9dc004297fabf7d42f03551835993d20f8e4df04"
+    },
+    {
+      "path": "archive/scans/1987-12/README.md",
+      "bytes": 2094,
+      "sha256": "c987dcd5df68dbffda5228fe942555dc6784df30f63f6c5a943252c4843f9dd5"
+    },
+    {
+      "path": "archive/scans/1987-12/manifest.json",
+      "bytes": 462724,
+      "sha256": "214aec4fec9bf628cdabe06459d3f7ed388ee0bb2755fdca8814da6f41261259"
+    },
+    {
+      "path": "archive/scans/1987-12/notes/마이크로소프트웨어_050호_1987_12(1).txt",
+      "bytes": 26,
+      "sha256": "c9545f2ab33c3e7be8b07e0281331668d92b225879780b5005d5b5463b6a50eb"
+    },
+    {
+      "path": "archive/scans/1987-12/notes/마이크로소프트웨어_050호_1987_12.txt",
+      "bytes": 26,
+      "sha256": "c9545f2ab33c3e7be8b07e0281331668d92b225879780b5005d5b5463b6a50eb"
+    },
+    {
+      "path": "archive/scans/1987-12/page-list.csv",
+      "bytes": 28350,
+      "sha256": "c30fdc341267427257d3279e144f32f3f6c9069c9e5a7414f2cf249ba54db3a7"
+    },
+    {
+      "path": "archive/scans/1987-12/review/decisions.json",
+      "bytes": 1609,
+      "sha256": "b24f3cf9519ff8511e9d339b0b793dd7ae90ebf87c8aca2b34a0f091a6fdf27e"
+    },
+    {
+      "path": "archive/scans/1987-12/review/overview.jpg",
+      "bytes": 2434837,
+      "sha256": "3ff6a7579f350ce3452319ef2550446d70223317b931fd24062dd67b56c88c6b"
+    },
+    {
+      "path": "archive/scans/1987-12/review/pagination-crops.json",
+      "bytes": 4268,
+      "sha256": "a1f7b6c1ede8518a9cfc57880b5f2777c2cfc0bcd7c628bbe7040434398454dc"
+    },
+    {
+      "path": "archive/scans/1987-12/review/pagination-samples.jpg",
+      "bytes": 350372,
+      "sha256": "51242565a3aa85bf0f8478641af76724443ea0b9a9d42656086bfb66919bdfc0"
+    },
+    {
+      "path": "archive/scans/1987-12/review/verification.json",
+      "bytes": 453,
+      "sha256": "27e4299bdbf23e9fb82731f3cae651c590f134144f8077f59951f8b81528799e"
+    },
+    {
+      "path": "archive/scans/1987-12/review.json",
+      "bytes": 4277,
+      "sha256": "217c7b99066650a077970f6868dfa73948e2d1eaf164ba20bff1ec1819dd4afc"
+    },
+    {
+      "path": "archive/scans/1987-12/summary.json",
+      "bytes": 394,
+      "sha256": "272c7f146f507ef46b4ad6a29fffccfda630978973df13e6a9032b673e2735f5"
+    }
+  ]
+}
