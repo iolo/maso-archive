@@ -81,6 +81,10 @@ misordered source block 025–030 without renaming or changing its JPEG masters.
 Filename gaps explained by intact foldouts remain distinguished from confirmed
 absence and unknown physical pagination.
 
+The next campaign is described in [the scan restoration plan](PLAN-SCAN-RESTORATION.md)
+and tracked separately in [restoration progress](PROGRESS-SCAN-RESTORATION.md).
+Its first pilot is November 1984; restoration execution has not started.
+
 Recheck any extracted issue from the repository root:
 
 ```sh
