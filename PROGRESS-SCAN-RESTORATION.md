@@ -15,7 +15,7 @@ body counts and per-article availability remain undetermined.
 
 | Checkpoint | Status | Next result |
 | --- | --- | --- |
-| R00 — image-source adapter | Not started | Pinned November inputs, versioned source/map contract and focused checks |
+| R00 — scan input integration | Not started | Connect pinned November JPEG views to the existing OCR pipeline; preserve the PDF input path |
 | R01 — November short prose pilot | Not started | Locate editorial candidate `maso-1984-11-toc-0034`, then restore a bounded article |
 | R02 — contrasting November layout | Not started | Qualify listing/table/figure handling before scaling |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
@@ -32,6 +32,13 @@ Saved a separate scan restoration plan, preserving the completed cleanup and
 PDF campaign records. Chose November 1984 for the first pilot and identified a
 later targeted March 1984 check for the PDF's absent printed folios 250–251.
 No OCR, source-image transformation, restoration export or reader rebuild ran.
+
+The owner clarified that the same `PLAN-OCR.md` pipeline applies to these scans
+and that it must remain reusable under `PLAN-PDF.md` for future PDF donations.
+Updated this scan plan to limit new implementation to JPEG input integration and
+necessary source metadata. Neither shared plan was edited. Existing OCR policy,
+runtime, review procedure and PDF input support remain the baseline; this is not
+a separate OCR pipeline or a new engine-selection exercise.
 
 Next: **R00**. Record its fixed inputs, implementation scope, output paths and
 acceptance checks before execution. Add per-issue progress records when actual

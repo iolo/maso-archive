@@ -14,6 +14,12 @@ gap is better than getting stuck trying to reconstruct lost paper.
 Use the existing [OCR policy](PLAN-OCR.md#accepted-policy),
 [bounded review procedure](PLAN-OCR.md#source-review-and-bounded-assistance) and
 [JSON/assets workflow](docs/PDF-RESTORATION.md#current-data-only-commands).
+**`PLAN-OCR.md` is the shared operating guide for both PDF and JPEG sources.**
+Use the same OCR pipeline already used under `PLAN-PDF.md`. This scan plan adds
+source selection, image-input handling and issue scheduling; it does not replace
+or fork the OCR procedure. Leave `PLAN-OCR.md` and `PLAN-PDF.md` unchanged and
+available for future donated PDFs, including their existing PDF commands and
+source/provenance conventions.
 Keep the completed PDF and CD packages intact. The outstanding PDF collection
 handoff remains separate; this plan adds a new source type and new issue coverage.
 
@@ -36,18 +42,21 @@ handoff remains separate; this plan adds a new source type and new issue coverag
 Keep `PLAN-SCANS.md` as the cleanup record and `PLAN-PDF.md` as the PDF campaign
 record. This short plan owns the scan-specific work.
 
-## 1. Add a direct image-source path
+## 1. Connect JPEG sources to the existing pipeline
 
-The existing `tools/pdf_restore/` pipeline has useful OCR, mapping, correction,
-assembly and export machinery. Its current schema, renderer and validators also
-assume a PDF path, PDF page indices and PDF geometry. Direct JPEG restoration is
-therefore **not implemented yet**; the existing commands are references, not
-ready-to-run scan commands.
+Reuse the existing OCR, mapping, correction, assembly and export machinery.
+Some `tools/pdf_restore/` entry points currently assume a PDF path, PDF page
+indices and PDF geometry. Connect the cleaned JPEGs at that input boundary,
+replacing PDF rendering with image loading where needed. Direct JPEG integration
+has not been implemented or tested yet; existing PDF commands remain valid for
+PDF inputs and are not yet ready-to-run scan commands.
 
-Add an image-source adapter and an explicitly versioned source/map contract.
-Reuse shared restoration logic where its assumptions hold, keeping archived PDF
-formats and their checks compatible. Do not make a PDF conversion a prerequisite
-or put invented PDF page numbers into image records.
+Keep this input change small. Reuse the pinned OCR runtime, reviewed region maps,
+recognition settings, evidence, correction and export procedures from
+`PLAN-OCR.md`. Extend source records explicitly only where JPEG provenance or
+geometry requires it, preserving existing PDF formats, checks and archived pins.
+Do not require a PDF conversion or put invented PDF page numbers into image
+records. Future PDF issues must still run through the existing PDF input path.
 
 Each selected source view must identify:
 
@@ -72,11 +81,13 @@ beside the processed view. Retain a foldout intact and map its panels explicitly
 one image can contain several printed pages. Do not force all issues into one
 filename-to-folio offset or automatically split every wide image.
 
-Qualify this adapter with a small upright page, a sideways view, an intact
-foldout and the known July order correction. These are source/geometry checks,
-not permission to OCR unrelated issues. Check hash rejection, bounds, coordinate
-round trips, duplicate order slots and source-to-crop correspondence. Run the
-relevant existing PDF regression checks if shared code changes.
+Check the JPEG input integration with a small upright page, a sideways view, an
+intact foldout and the known July order correction. Check hash rejection, bounds,
+coordinate round trips, duplicate order slots and source-to-crop correspondence.
+These establish correct image input to the existing pipeline; they do not reopen
+OCR engine qualification or start unrelated issues' article restoration. Run the
+relevant existing PDF regression checks if shared code changes, including a PDF
+input example, so both source paths remain usable.
 
 ## 2. Restore one straightforward pilot
 
@@ -99,10 +110,12 @@ source. Then qualify a listing/table/figure example from the same issue in a
 separate bounded checkpoint. Choose it after inspecting the actual layout;
 candidate counts and TOC ordering alone do not establish its extent.
 
-The pilot passes when text order is usable, source coverage is accounted for,
+The scan-input pilot passes when text order is usable, source coverage is accounted for,
 uncertainties remain visible, assets and ranges point to the right occurrences,
-and the saved package reproduces without fresh OCR. A successful OCR command or
-an image-only exception alone does not pass this gate.
+and the saved package reproduces without fresh OCR. This checks the new inputs
+through the established workflow. It does not repeat the completed PDF OCR engine
+experiments. A successful OCR command or an image-only exception alone does not
+pass this gate.
 
 ## 3. Use the established bounded workflow
 
@@ -214,7 +227,7 @@ restored JSON/assets and faithful source evidence first.
 
 | Checkpoint | Saved result | Acceptance |
 | --- | --- | --- |
-| R00 — source adapter | Versioned image-source contract, November input/TOC pins, focused tests | JPEG geometry/order works; existing PDF behavior remains compatible |
+| R00 — scan input integration | Minimal JPEG input support, November input/TOC pins, focused checks | Same OCR pipeline accepts the scan views; existing PDF input and behavior remain compatible |
 | R01 — short prose pilot | One located November article, raw OCR, corrections and checked package | Full pilot text/region review and independent identical rebuild |
 | R02 — contrasting layout | Bounded November listing/table/figure sample and its evidence | Rows/cells/assets/continuations accounted for; any failed prerequisite repaired before scaling |
 
