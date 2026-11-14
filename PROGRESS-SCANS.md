@@ -5,12 +5,12 @@ the findings and remaining uncertainties. Original donation ZIPs stay unchanged.
 
 ## Current status
 
-**7 of 24 donated issues have checked working sets; 17 remain.**
-The donation contains 59 ZIPs. Checked issues account for 7,108
-source file entries, 1,776 distinct JPEG masters,
-1,776 duplicate JPEG copies omitted, and 3,554
+**8 of 24 donated issues have checked working sets; 16 remain.**
+The donation contains 59 ZIPs. Checked issues account for 8,140
+source file entries, 2,034 distinct JPEG masters,
+2,034 duplicate JPEG copies omitted, and 4,070
 confirmed AppleDouble sidecars omitted from the working sets.
-Retained masters occupy 13.16 GiB.
+Retained masters occupy 15.44 GiB.
 
 | Issue/report | Status | Distinct scans | Filename gaps |
 | --- | --- | ---: | --- |
@@ -21,7 +21,7 @@ Retained masters occupy 13.16 GiB.
 | [1984-11](docs/SCAN-ISSUE-1984-11.md) | Checked | 246 | None in observed range |
 | [1985-01](docs/SCAN-ISSUE-1985-01.md) | Checked | 246 | None in observed range |
 | [1985-04](docs/SCAN-ISSUE-1985-04.md) | Checked | 270 | None in observed range |
-| 1985-05 | Awaiting cleanup | — | — |
+| [1985-05](docs/SCAN-ISSUE-1985-05.md) | Checked | 258 | None in observed range |
 | 1985-06 | Awaiting cleanup | — | — |
 | 1985-07 | Awaiting cleanup | — | — |
 | 1985-08 | Awaiting cleanup | — | — |
@@ -66,7 +66,7 @@ historical fingerprints. Issue source and master hashes remain pinned separately
 
 ## Next
 
-Next: **1985-05**. Continue one issue at a time, record the visual findings,
+Next: **1985-06**. Continue one issue at a time, record the visual findings,
 update this index, and commit that issue before closing out the next.
 
 Recheck any extracted issue from the repository root:

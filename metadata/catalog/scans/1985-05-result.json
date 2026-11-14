@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "issue": "1985-05",
+  "completedOn": "2026-11-14",
+  "status": "cleanup-checked-with-recorded-uncertainties",
+  "output": "archive/scans/1985-05",
+  "summary": {
+    "entries": 1032,
+    "imageEntries": 516,
+    "sidecars": 516,
+    "notes": 0,
+    "uniqueImages": 258,
+    "duplicateImages": 258,
+    "imageBytes": 2452332895,
+    "orderedImages": 258,
+    "extras": 0,
+    "filenameRange": [
+      1,
+      254
+    ],
+    "filenameGaps": [],
+    "decodedImages": 258,
+    "contactSheets": 9
+  },
+  "sourceArchives": [
+    {
+      "path": "maso-img/마이크로소프트웨어_019호_1985_05-20261023T073615Z-1-001.zip",
+      "bytes": 2121537357,
+      "sha256": "06f28ac8e59b4ee134c0618e36c2cd2361e07a3f81276629e583eca21cb87130",
+      "sha256After": "06f28ac8e59b4ee134c0618e36c2cd2361e07a3f81276629e583eca21cb87130",
+      "crcRead": "all-entries-passed"
+    },
+    {
+      "path": "maso-img/마이크로소프트웨어_019호_1985_05-20261023T073615Z-1-002.zip",
+      "bytes": 2125489053,
+      "sha256": "24203fed6975bb7f13dbb5a9bb845e17ef9ac7a7b294e95edfcb6d63307b0d38",
+      "sha256After": "24203fed6975bb7f13dbb5a9bb845e17ef9ac7a7b294e95edfcb6d63307b0d38",
+      "crcRead": "all-entries-passed"
+    },
+    {
+      "path": "maso-img/마이크로소프트웨어_019호_1985_05-20261023T073615Z-1-003.zip",
+      "bytes": 658760222,
+      "sha256": "a4e645ef6b931fd6548f585c3d9818064c49d13cd3a814e87410f4e2d06dfe37",
+      "sha256After": "a4e645ef6b931fd6548f585c3d9818064c49d13cd3a814e87410f4e2d06dfe37",
+      "crcRead": "all-entries-passed"
+    }
+  ],
+  "validation": {
+    "issue": "1985-05",
+    "result": "passed",
+    "manifestSha256": "e0fe5e1bbc21b4b9b9d96cf5336c2dd059ac593feb146948ca59a408eca13761",
+    "sourceArchives": 3,
+    "sourceEntriesChecked": 1032,
+    "uniqueImageHashesChecked": 258,
+    "duplicateImageEntriesChecked": 258,
+    "sidecarsAccounted": 516,
+    "contactSheetHashesChecked": 9,
+    "originalZipHashesUnchanged": true,
+    "readingOrderContiguous": true,
+    "pageListRows": 258,
+    "reviewMappingsChecked": true
+  },
+  "visualReview": {
+    "overviewViewed": true,
+    "printedPageSamplesChecked": 10,
+    "fullPaginationVerified": false,
+    "findings": [
+      "Front cover visibly identifies May 1985. Four cover faces were checked separately in the shared cover preview.",
+      "Ordinary source filenames run continuously from 1 through 254. Source slots 253-254 contain payment/subscription forms and remain in source order.",
+      "All 258 retained images were included in the viewed overview. No additional gross ordering anomaly was apparent, including across the similar-looking listing/table runs.",
+      "Ten enlarged printed numbers match their source filenames. The numeral 243 in the TOC sample is an article reference, not the printed number of source slot 15, so that field remains unset."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "docs/SCAN-ISSUE-1985-05.md",
+      "bytes": 3022,
+      "sha256": "93d63d73981784887924df3c51b28b2cac9b54c662c58c8fb498c2befebb13fa"
+    },
+    {
+      "path": "metadata/catalog/scans/1985-05-recipe.json",
+      "bytes": 1136,
+      "sha256": "e8ca6096a4a4bc0c646c2178c3e7168e93e487cb658d2d1843d79f6a615216f4"
+    },
+    {
+      "path": "tools/scan_campaign.py",
+      "bytes": 20955,
+      "sha256": "31cddabb9c2eeae531d737a0dde3e7a6bcb9b8af6564ffd74dcdcc346894f90a"
+    },
+    {
+      "path": "tools/scan_cleanup.py",
+      "bytes": 13926,
+      "sha256": "c9c3c12868924a9a70f20d3e9dc004297fabf7d42f03551835993d20f8e4df04"
+    },
+    {
+      "path": "archive/scans/1985-05/README.md",
+      "bytes": 1496,
+      "sha256": "e071c6d31cefe773ebb78d63ebc803cdffbaf64dda0740ee95dbfdeac9dff0f4"
+    },
+    {
+      "path": "archive/scans/1985-05/manifest.json",
+      "bytes": 489671,
+      "sha256": "e0fe5e1bbc21b4b9b9d96cf5336c2dd059ac593feb146948ca59a408eca13761"
+    },
+    {
+      "path": "archive/scans/1985-05/page-list.csv",
+      "bytes": 31043,
+      "sha256": "7ee06a291f556ebf62711debd2df93298dbdbdb4cd02e25e6da6589969e9c933"
+    },
+    {
+      "path": "archive/scans/1985-05/review/decisions.json",
+      "bytes": 1000,
+      "sha256": "0b8a524f4e53a4ae59ef48c327217d26c139486c4bbb1a1dedda56110a97c2c2"
+    },
+    {
+      "path": "archive/scans/1985-05/review/overview.jpg",
+      "bytes": 2644417,
+      "sha256": "3ad2cc587fa29ab69427970c70e263aa85ec815527e2b3a708216a9cca74d465"
+    },
+    {
+      "path": "archive/scans/1985-05/review/pagination-crops.json",
+      "bytes": 3658,
+      "sha256": "8ddbf81e08994535accd5cc3d4e0c1f29e3c85f3837c254f23c176225f3b9c11"
+    },
+    {
+      "path": "archive/scans/1985-05/review/pagination-samples.jpg",
+      "bytes": 288598,
+      "sha256": "8191921f2f323ac8ef72ba3edc70728ac3ed7de6617aef1e5b89d0862148334b"
+    },
+    {
+      "path": "archive/scans/1985-05/review/verification.json",
+      "bytes": 454,
+      "sha256": "f712851919b674f3b22902c23fc53cdd295a379a8c91067ec7eb89259bcdcdb2"
+    },
+    {
+      "path": "archive/scans/1985-05/review.json",
+      "bytes": 4303,
+      "sha256": "4ab8718739c9c0bb780560d711b815eb6b78ad848ee4085c5081191af8e79498"
+    },
+    {
+      "path": "archive/scans/1985-05/summary.json",
+      "bytes": 303,
+      "sha256": "e0b62fc1e7ec39693b45c8c8cd569ade094b08e70c7edd9d9b114e836e9b21b7"
+    }
+  ]
+}
