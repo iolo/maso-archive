@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R12 are complete; the active goal is to restore all November 1984 articles.
+R00–R13 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -261,12 +261,13 @@ restored JSON/assets and faithful source evidence first.
 | R10 — Feature I final segment d | Actual 36–39; whole feature remains partial | 145 identical native files, four monitor contexts, three byte tables and twelve original figures; all 22 source pages covered in separate segments, assembly pending |
 | R11 — complete Feature I assembly | Actual 18–39; complete native article package | 650 identical files; typed source indexes, uncertainty and source links preserved; four original segments unchanged; 229 shared tests pass |
 | R12 — Feature II opening segment | Actual 40–45; whole feature remains partial | 192 identical native files; two tables, three code contexts and three original diagrams with typed source relationships; listing continuation onto 46 explicit |
+| R13 — Feature II middle segment b | Actual 46–51; whole feature remains partial | 152 identical native files; 185 numbered units, original screen and two flowcharts; GOODMUSIC final part and MINI ORGAN listing continuation retained |
 
-Immediate next action: **R13**, restore Feature II actual 46–51 in at most six
-mapped source views. GOODMUSIC listing 2 continues from row 104 on 45 to row 105
-on 46; MINI ORGAN SPC-1000용 begins on 47 under the same feature identity.
-The feature's located extent is 40–58, with interior restoration still pending.
-Continue 52–58 and whole-feature assembly afterward. Preserve a single program
+Immediate next action: **R14**, restore Feature II actual 52–57 in at most six
+mapped source views. MINI ORGAN listing 1 continues at 0116 on 52, including the
+open TW character-definition group from 51. Inspect its transition into listing 2
+on 55. The feature's located extent is 40–58; segments a/b now preserve 40–51.
+Continue final 58 and whole-feature assembly afterward. Preserve one program
 identity across listing/segment boundaries and all typed diagram references.
 Preserve complete Feature I on 18–39 and its four original segments.
 JPEG assembly is now integrated and checked; use the same source/structure and
@@ -297,3 +298,10 @@ occurrences and three original diagrams. The flowchart records 35 observed nodes
 and 45 connectors without execution-based repairs. All 192 native files reproduce
 exactly; four local glyph uncertainties and the outgoing listing continuation
 remain explicit. Shared implementation and both shared plans are unchanged.
+R13 preserves the next six pages: GOODMUSIC's final 53 rows, its independent
+timing excerpt, MINI ORGAN prose and three original figures, and the first 116
+rows of its character-definition listing. Typed structures retain 1,279 source
+fields, 322 data literals, ten label-delimited data groups and 168 figure labels.
+The two flowcharts distinguish printed shapes, connector junctions and routine
+expansions without execution claims. All 152 files reproduce; nine local glyph
+uncertainties and the open program/data-group continuation remain explicit.

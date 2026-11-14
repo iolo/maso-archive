@@ -4,9 +4,9 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R12 complete: six November 1984 articles have complete reproducible
+**R00–R13 complete: six November 1984 articles have complete reproducible
 JSON/assets packages, including the complete Feature I on actual 18–39.
-Feature II has a reproducible opening segment on 40–45 and remains partial.
+Feature II has two reproducible segments covering 40–51 and remains partial.
 Feature I's four original segments remain unchanged. Six section headings have source-backed non-owning
 classifications.**
 All completed records are assistant sample-reviewed.
@@ -41,6 +41,7 @@ labels and the preserved exports retain their existing values.
 | R10 — Feature I final segment d | Passed; whole article partial | Actual 36–39; 145 identical files, four monitor contexts, three byte tables and twelve original figures; all source pages covered, whole-feature assembly pending |
 | R11 — complete Feature I assembly | Passed | Actual 18–39; 650 identical native files, all typed source indexes and the 29/30 sentence join; original four segments unchanged |
 | R12 — Feature II opening segment a | Passed; whole article partial | Actual 40–45; 192 identical native files, two tables, three code contexts and three original structured diagrams; listing continues on 46 |
+| R13 — Feature II middle segment b | Passed; whole article partial | Actual 46–51; 152 identical files, 185 numbered units, original keyboard screen and two typed flowcharts; listing/data group continues on 52 |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -537,3 +538,53 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R13**, restore actual 46–51, preserving the outgoing GOODMUSIC program
 identity and the MINI ORGAN section transition. Then continue 52–58 and assemble
 the whole feature before completing the remaining November work.
+
+## R13 completed — 2026-11-15
+
+Restored Feature II actual 46–51 under the same canonical identity, preserving
+the GOODMUSIC/MINI ORGAN section transition. GOODMUSIC listing 2 resumes at
+row 105 and ends at 157 on 46; its preceding rows remain in segment a. The
+independent execution-time excerpt stays a separate code context. MINI ORGAN's
+prose ends with its original emblem on 49, while its attached diagrams and
+listings remain part of the article. Listing 1 starts at 0000 on 51 and continues
+at 0116 on 52, including the open TW character-definition group.
+
+The segment retains 38 source regions, 33 logical blocks, two explicit joins,
+185 numbered units and 189 physical/annotation rows. Its three code contexts
+preserve 1,279 source fields, 322 DFB/DEFB literals and ten label-delimited data
+groups without deriving bitmaps from expected characters. Ninety inline fields,
+five mathematical occurrences, two numbered requirements, two bibliography
+references, two independent pull quotes and the end emblem retain source ranges.
+The printed MINT ORGAN, 8H before the wrapped 9000, 764·4468, row 129 3-C and
+other source discrepancies remain literal.
+
+Three original figures retain 168 label occurrences: a two-row keyboard screen,
+the thirteen-node/seventeen-connector basic flowchart and the detailed flowchart
+with 35 printed shapes, one connector-junction record and 58 observed main-flow,
+routine-expansion and return-port relationships. Printed 321~319 and the separate
+prose/diagram row-range differences remain unchanged. These structures describe
+source relationships, not successful execution. Nine local glyph uncertainties
+retain an initial D/0 address glyph, five 0/O name suffixes and three unresolved
+composite screen-symbol groups; no modern keyboard bindings are inferred.
+
+All 152 native files match a separate-process rebuild byte for byte, without
+fresh OCR or a presentation build. Thirty-eight original-to-crop pixel checks
+and sixteen invalid structural cases pass. All 35 OCR tasks completed with zero
+engine failures or retries. One pre-OCR map refinement widened clipped/tight
+prose and the closing emblem. An optional nearest-neighbor inspection enlargement
+failed; exact keyboard crops were used and the failure note retained. Native
+input generation, both exports and the independent verifier passed without repairs.
+
+The eleven earlier article/segment packages and their private evidence, contents
+classifications, original masters, cleanup records and shared plans remain exact.
+The unchanged shared implementation reuses the rehashed 229-test R11 baseline.
+Session cleanup ran in preview mode only. November counts remain six complete
+packages, one partial feature, six non-owning headings and 27 unclassified
+identities. Original encoding/typesetting, execution and human acceptance remain
+unverified.
+
+See the [Feature II segment b result](metadata/catalog/scan-restoration/1984-11-machine-music-b.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R14**, restore actual 52–57, including the listing 1 continuation and its
+transition into listing 2. Final 58 and whole-feature assembly follow before
+continuing the remaining November identities and issue closeout.
